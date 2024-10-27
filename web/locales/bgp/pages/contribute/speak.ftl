@@ -28,11 +28,27 @@ record-abort-text = نئ الغیں مطلب آں کہ شوا وزی ترقی آ
 record-abort-submit = کلپاں جمع کنینت
 review-aborted = اپ لوڈ رکزا شزا۔چھ شوا وزی ریکارڈنگزاں را حزف کھنغ چاہے
 review-submit-msg = ریکارڈنگ واسطہ شوے شکریہ اب ذیل وچا وزی کلپ آں نئ جائزہ گرے ساگی جمع کھنے نے
+review-terms = کامن وائس ءِ کارمرز کنگ ءَ چہ شما مئے <termsLink>شرط</termsLink> ءُ <privacyLink>رازداری ءِ ھال</privacyLink> ءَ منّ اِت۔
+terms-agree = من مناں
+terms-disagree = من مناں نہ مناں
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = وزی صوتی کلپس آں را عطیہ کھنغ واسطہ شوے شکریہ
 first-cta-subtitle-text = مارا وزی بارہ ڈسزا تے شوا ڈولپراں  را مزید ٹیلنالوجی ٹھھغ وچا مدد کھنتھ
+why-donate = تو پرچا جُست کنگ ءَ ئے؟
+why-donate-explanation-1 = اے زانتکاری ءِ دیم دیگ اختیاری اِنت - اگاں شما آرام بہ کن اِت گڑا ایشی ءَ ایوک ءَ ھوار بہ کن اِت۔ وھدے کہ ما ڈیٹاسیٹ ءَ شنگ کنیں گڑا ما درستیں ذاتی زانتکاری ءَ تخلص کنیں ءُ اے گپ ءَ دلجم کنیں کہ تئی نام ءُ ای میل ءِ وڑیں زانتکاری عمر یا جنس ءِ وڑیں ڈیموگرافک زانتکاری ءَ گوں بندوک نہ اَنت۔
+why-donate-explanation-2 = ٹیکنالوجی ہر کس ءِ واستہ جوانیں وڑے ءَ کار کنگ ءِ ھاترا، ھما ڈیٹا کہ ڈویلپرز ءَ ٹیکنالوجی ءِ جوڑ کنگ ءَ کمک کنت آ مردمانی یک جتائیں رِد ءُ بندے ءِ عکاسی کنگ لوٹ ایت۔ پہ مثال، اگاں ما یک خاصیں لہجہ ءِ گوں ہچ اسپیکر ءَ ہوار مہ کنیں گڑا ٹیکنالوجی ہمے لہجہ ءِ مردمانی ہاترا شریں وڑے ءَ کار نہ کنت۔ <learnMore>اے بابت ءَ گیشتر سرپد بہ بئے کہ میٹا ڈیٹا پرچا ھژدری اِنت۔</learnMore>
+add-information-button = زانتکاری گیش کن
+continue-speaking-button = نہ منتوار، گپ ءَ برجاہ دار
 create-profile-text = وزی معلومات آں را محفوظ کھنغ چاہے
+thanks-for-voice-toast = تئی توار ئے زانتکاری ئے مہربانی
 thanks-for-voice-toast-error = شوے آواز اے معلومات جمع کھنینغ وچا یکھے خرابی اے آختا شزا
+first-cta-gender-select-default-option = یک آپشنے گچین کن
 first-cta-gender-select-help-text =
     .label = شوا وزی جنس یہ جنس اے وضاحت چھرغی کھنے
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = منت واراں کہ وتی توار ءَ شریک کتگ!
 second-cta-subtitle-text = پروفائل آگوں پہھجی آ شوا وزی سرگرمی چھکا نظر ارکھنے سگے اور صوتی ڈیٹا اے تعاون کھنغ والاں نئ کمیونٹی آگوں رابطہ قائم کھنے سگے
+already-have-an-account = شہ پیشا اکاؤنٹ ئے؟  <login>لاگ ان</login>
+create-profile-button = یک پروفائلے جوڑ کن
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی ئے نشان
