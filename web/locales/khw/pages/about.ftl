@@ -72,6 +72,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹو مقامی کوراک کیچہ کوروم کویان؟
 about-playbook-how-localize-content-1 = کمان وائسو سائٹو ترجمہ<strong> پون تونا</strong> بویان
 about-playbook-how-localize-content-2 = تہ <pontoonAccountLink>اکاونٹ کی نیکی ساوزاوے </pontoonAccountLink> تھے تان زبانو گنے<strong> (ٹیم) </strong> اچی پروجکٹو گنے، <pontoonCvLink> کمان وائس</pontoonCvLink> ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ بونی وا ترجمہ کوریکو ای خانہ بوئے۔
+about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن  خور زبانا دی  <strong> تجویز </strong>شینی۔ <strong>کلیک </strong> پروفائلو نݰان وا <strong> سیٹنگو</strong> لینک وا کیا زبانو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمان لسٹ بوئی توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
+about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو پچین تیار بوئے۔
 
 ## How to add sentences
 
