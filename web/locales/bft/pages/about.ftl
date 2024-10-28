@@ -97,6 +97,11 @@ about-playbook-how-record-content-5 = لیگی لیخمو بے کھوم بزون
 
 ## How to grow language
 
+about-playbook-how-grow-language = کامن واٸسیکھہ لیخمو بیسے سکت چک چی بیسے خسون چوکپہ بیا نینید؟
+about-playbook-how-grow-language-content-1 = نینفژے کامن واٸسیکھہ ہرمق دمی میونگ گانگمہ لا روخ بے چوکپہ رگوسپن۔ نیاسی رگوسچیس کن نا ٹیمپلیٹس کن فچوسے یود، یانگلا کولبہ نینید۔
+about-playbook-how-grow-language-content-2 = ریل فود
+about-playbook-how-grow-language-content-3 = میونگلا روخ بے چوکپہ لا یانگلا ریل فودچی بیانینید۔ دیو یانگلا بدونگو گوید۔ یانگلا آن لاٸن ویڈیو می دمسی ریل فود بیا نینید یا میدنارے میونگنہ تھوک بزوے گوا بیسے سہ بیا نیند۔ ریل فود بے لوکھسینگ نٸی رگوسچیس کن نہ ٹیمپلٹس کن لا ہلتوس۔
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
 
 ## How to validate
 
