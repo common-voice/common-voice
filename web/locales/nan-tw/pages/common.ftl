@@ -71,7 +71,7 @@ ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
 hyw = 西亞美尼亞語
-ia = 國際語
+ia = 國際語（Interlingua）
 id = 印尼語
 ie = 國際語（Interlingue）
 ig = 伊格柏語
@@ -120,14 +120,14 @@ mt = 馬爾他語
 my = 緬甸語
 myv = 厄茲亞語
 nan-tw = 臺語
-nb-NO = 書面挪威語
+nb-NO = 挪威語（Bokmål）
 nd = 北恩德貝勒語（辛巴威）
 ne-NP = 尼泊爾語
 nhe = 墨西哥東華斯特的納華特語
 nhi = 西部山區普埃布拉納瓦特語
 nia = 尼亞斯語
 nl = 荷蘭語
-nn-NO = 新挪威語
+nn-NO = 挪威語（Nynorsk）
 nr = 南恩德貝勒語（南非）
 nso = 北索桃語
 ny = 欣亞尼亞語
@@ -215,12 +215,6 @@ zza = 扎扎語
 
 ## Layout
 
-speak = 講話
-speak-now = 這馬就來講話
-datasets = 資料集
-languages = 語言
-about = 了解阮的計畫
-partner = 成為夥伴
 profile = 帳號資料
 help = 說明
 contact = 佮阮聯絡
@@ -240,7 +234,6 @@ privacy-info = 阮保證會細膩處理你的資料。另外，嘛會當看阮�
 return-to-cv = 返去 Common Voice
 email-input =
     .label = 電子批的住址
-submit-form-action = 提交
 loading = 佇咧載落…
 email-opt-in-info = 我希望會當收著一寡電子批，比論講目標提醒、我的進度更新、同聲計畫的相關資訊。
 email-opt-in-info-title = 加入 Common Voice 的電子批討論群
@@ -251,7 +244,7 @@ not-available-abbreviation = 無適用
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
