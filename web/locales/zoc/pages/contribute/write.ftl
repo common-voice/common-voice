@@ -104,6 +104,15 @@ exceeds-small-batch-limit-error = Ji'nde mujsi nhgä'weya 'uka kyokätpa 1000 'o
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Kyätkokädu te' jujtse yospa. Nitsäjkwätsäkä tumä minutokasi.
-       *[other] Kyätkokädu te' jujtse yospa. Nitsäjkwätsäkä [...] minutokasi.
+        [one] Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä tumä minutokasi.
+       *[other] Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä [...] minutokasi.
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä tumä segundokäsi.
+       *[other] Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä [...] segundokäsi.
+    }
+small-batch-sentences-rule-2 = Kojta'nhä tumä 'odejaye te' tumäbä tumä jatyäjkomo,
+small-batch-sentences-rule-4 = Mujspa mgojta'nhä 1000 'odejaye.
+small-batch-sentences-rule-5 = 'ijtuse 'odejaye wa'ade tumäbä ki'psokyu'yomo myajkyaju.
