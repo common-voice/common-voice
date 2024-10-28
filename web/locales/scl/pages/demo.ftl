@@ -18,9 +18,14 @@ demo-account = کھاتا/اکونٹ
 ## Demo Account
 
 demo-account-card-header = آنے موجی چینیونو کھاتا بونو ضروری نُش، اکؤنٹ بیلو تو آسانی بِیں۔
+demo-account-card-body = دشٹینی کھینگیڑے بیسے فائیدائی گہ  عام جکو کاریو ہائینک معلوماتے چھُورونیس۔ تھنی ڈیوائیسی نی کامن وائیسو اکونٹ شروع تھیونو کھری دے ہییک لنک استعمال تھے۔
+demo-account-enter-email =
+    .label = سائین اپ لنک چینیو نو ای میل آنے شے
+demo-account-sign-up = سائین اپ لنک چینڈ
 
 ## Demo Contribute
 
+demo-contribute-card-header = تھنو شونگو چینیونو یا کونڈ دیونو تیار ہَوں۔
 
 ## Demo Dashboard
 
