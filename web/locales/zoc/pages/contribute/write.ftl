@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] [...] te' tumäbä 'odejaye päjkisytsyokubä'a
        *[other] [...] te' 'ijtusebä 'odejaye päjkisytsyokubä'a
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] [...] te' 'odejaye päjkisy tsyokyajubä'a. Pena' yä'ki [...] wa'a yajkmä'nu te' japyäjkisytsyonhdäbä 'odejaye.
+       *[other] [...] te' ['ijtusebä] 'odejaye päjkisy tsyokyajubä'a. Pena' yä'ki [...] wa'a yajkmä'nu te' japyäjkisytsyonhdäbä 'odejaye.
+    }
 small-batch-sentences-rule-2 = Kojta'nhä tumä 'odejaye te' tumäbä tumä jatyäjkomo,
 small-batch-sentences-rule-3 = We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.
 small-batch-sentences-rule-4 = Mujspa mgojta'nhä 1000 'odejaye.
