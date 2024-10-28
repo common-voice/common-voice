@@ -131,3 +131,6 @@ contribution-varying-pronunciations-description = ہک کلپ مسترد کرن�
 contribution-varying-pronunciations-description-extended = دوئی طرف، اگر تساں کو لگدا ہے کہ پڑھنا والے دا اس لفظ نال کدے پہلے کدے سامنڑا نیں ہویا، ہور او صرف تلفظ تے غلط اندازہ لا رہیا ہے، براہ کرم (اس کو) رد کر دیو۔ اگر تساں کو یقین نیں، تے سکپ دا بٹن استعمال کرو۔
 contribution-varying-pronunciations-example-1-title = اس سنڑ اپنڑے سرا تے ہک بیریٹ لایا دا آسیا۔
 contribution-varying-pronunciations-example-1-explanation = [‘بیریٹ’ ٹھیک ہے چاہے دباؤ پہلے حرف تے (UK) یا دوسرے تے (US دے نال ]
+contribution-varying-pronunciations-example-2-title = اُس دا ہتھ اُٹھایا ہویا دا آسا۔
+contribution-varying-pronunciations-example-2-explanation = [‘ریزڈ’ انگریزی بچ ہمیشاں ہک سلیبل نال ادا ہوندا ہے، نہ کہ دو]
+contribution-background-noise-title = پِچھا دا شور
