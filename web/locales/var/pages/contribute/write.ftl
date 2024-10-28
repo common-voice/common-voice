@@ -42,6 +42,8 @@ general = Yoma amó nawesary
 healthcare = Kaweruma yasiniamé
 # Sentence Domain dropdown option
 history_law_government = Gente nawesary , Tamó derechochy Yoma gobiernochy
+# Sentence Domain dropdown option
+technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
 
 ## BULK SUBMISSION 
 
