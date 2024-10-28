@@ -58,6 +58,12 @@ report-different-language-detail = جڑی میں بولدا ہاں اے اس ک�
 report-difficult-pronounce = تلفظ  بچ اوکھی
 report-difficult-pronounce-detail = اس بچ او الفاظ یا جملے ہن جڑے پڑھنا ہور بولنا بچ مشکل ہن۔
 report-offensive-speech = غیر مہذب تقریر
+report-offensive-speech-detail = اس کلپ بچ بےعزتی والی ہو غیر مہذب زبان ہے۔
+report-other-comment =
+    .placeholder = تبصرہ
+success = کامیابی
+continue = جاری
+report-success = رپورٹ کامیابی نال منظور ہوئی
 
 ## Speak & Listen Shortcuts
 
