@@ -128,3 +128,6 @@ contribution-misreadings-example-8-title = شہد دی بڑی مکھی تیزی 
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = مختلف تلفظ
 contribution-varying-pronunciations-description = ہک کلپ مسترد کرنا تو پہلا محتاط رہیو اس بنیاد تے کہ پڑھنا والے سنڑ ہک لفظ دا تلفظ غلط کیتاہے۔ غلط جگہ تے سڑیس کیتا ہے، یا بظاہر طور سوالیہ نشانڑ کو نظر انداز کیتا ہے۔ دنیا بھر استعمال بچ تلفظ بہت ساری طرح دے ہن، جنہاں بچو کوئی تساں اپنڑی مقامی کمیونٹی بچ نہ سُنڑے ہوسن۔ براہ مہربانی قدردانی دا ہک فرق فراہم کرو انہاں لوگاں کو جڑے تساں کولو مختلف بولدے ہوسن۔
+contribution-varying-pronunciations-description-extended = دوئی طرف، اگر تساں کو لگدا ہے کہ پڑھنا والے دا اس لفظ نال کدے پہلے کدے سامنڑا نیں ہویا، ہور او صرف تلفظ تے غلط اندازہ لا رہیا ہے، براہ کرم (اس کو) رد کر دیو۔ اگر تساں کو یقین نیں، تے سکپ دا بٹن استعمال کرو۔
+contribution-varying-pronunciations-example-1-title = اس سنڑ اپنڑے سرا تے ہک بیریٹ لایا دا آسیا۔
+contribution-varying-pronunciations-example-1-explanation = [‘بیریٹ’ ٹھیک ہے چاہے دباؤ پہلے حرف تے (UK) یا دوسرے تے (US دے نال ]
