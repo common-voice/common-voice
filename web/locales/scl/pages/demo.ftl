@@ -1,9 +1,12 @@
 ## DemoLayout
 
 demo-get-started = یہہ شروع تھے
+demo-welcome = کامن وائیسینی تُڑے خوشالی
+demo-welcome-subheader = مُتی گہ سییچم تھوں دا یا پروجیکٹیڑے چینیم تھوں دا؟
 
 ## Demo Datasets
 
+demo-language-select-card-header = کام وائیس پُوری دنیانی لیگی لائی باشو پُورنیو بڑو ڈیٹا سیٹیک ہوں
 
 ## Demo Account
 
