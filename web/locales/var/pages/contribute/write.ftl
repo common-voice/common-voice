@@ -16,6 +16,8 @@ contact-us = Tamo peja ino
 add-sentence-error = Wekaremú yáchega oracioné
 single-sentence-submission = Amó nejario pile naosari
 single-sentence = Kí aká induame oracioné
+# Sentence Domain dropdown option
+healthcare = Kaweruma yasiniamé
 
 ## BULK SUBMISSION 
 
