@@ -30,3 +30,6 @@ record-abort-continue = Sikjiet'a xi titjubét'a
 record-abort-delete = Tichajaye xi kitjubet'a nga kuitjui
 review-aborted = Mi kuan tsijin ¿A mejeri sichajaye xi je kichubet'ae?
 review-submit-title = Chut'ae kua tikasein
+review-submit-msg = ¡Ninaá kat'echiri nga kichibet'arejin!<lineBreak></lineBreak>chut'ae kua tikasein xi kitjubet'ae.
+review-rerecord = Chubet'ae nguinik'a
+review-cancel = Tichakjae xi tinikasein
