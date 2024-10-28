@@ -27,9 +27,22 @@ login-to-get-started = شروع کرنا واسطے لاگ ان یا سائن ا
 target-segment-first-card = تسیں اسدے ہدف دے پہلے حصے بچ مدد کر رہ ہو
 target-segment-generic-card = تسیں ہک ہدف دے حصے بچ مدد کر رہ ہو
 target-segment-first-banner = کامن وائس دا پہلا ہدف حصہ بنڑانڑا واسطے مدد کرو{ $locale }بچ
+target-segment-add-voice = اپنڑی آواز شامل کرو
+target-segment-learn-more = مزید سکھو
+change-preferences = ترجیحات بدلو
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = آوازاں دا مجموعہ
+contribute-sentence-collection-nav-header = جُملیاں دا مجموعہ
+login-signup = لاگ ان/ سائن اپ
+vote-yes = ہاں
+vote-no = ناں
+datasets = ڈیٹا سیٹس
+languages = زباناں
+about = بارے (دے بارے)
+partner = حصے دار
+submit-form-action = جمع کرالو
 
 ## Reporting
 
