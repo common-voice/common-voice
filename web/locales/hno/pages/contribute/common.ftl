@@ -120,3 +120,7 @@ contribution-misreadings-example-3-explanation = [آخری لفظ ختم ہو�
 contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈایناسور، ہاں،
 contribution-misreadings-example-4-explanation = [مطلوبہ عبارت کولو زیاداہ ریکارڈ کر چھڑیا دا ہے]
 contribution-misreadings-example-5-title = اسیں کافی گھننا واسطے باہر جَا رِہ ہاں۔
+contribution-misreadings-example-6-title = اسیں کافی گھننا واسطے باہر جَا رِہ ہاں۔
+contribution-misreadings-example-6-explanation = [ہونڑا چائی دا“اسیں ہاں”]
+contribution-misreadings-example-7-title = اسیں کافی گھننا واسطے باہر جَا رِہ ہاں۔
+contribution-misreadings-example-7-explanation = [اصل عبارت بچ کوئی  ‘a’  نیں]
