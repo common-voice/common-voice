@@ -24,6 +24,12 @@ new-sentence-rule-8 = Yä' yosku'y kyi'pstäjubäde wa'ade mujsu yajkmawe 'ona.
 login-instruction-multiple-sentences = [...]'Awakä te' myostäjk [...] yakti muspadi mnitsäjke'da yomebä yostäjk wa'a mujsu mgoda wäwä 'ode'is jyaye.
 how-to-cite = ¿Jutsamäjt ndsamba judäde tsu'nhubä yä' ki'psokyu'y?
 how-to-cite-explanation-bold = Mujspa't ndsamä judäde tsu'nhubä te' todojaye, nhgojtpat te' URL, mujspadi't nhgojtjakye'da 'ijtuse nyäyi te' todojaye'is nye'.
+how-to-cite-explanation = 'Uka mijte 'mode, wäjädi nämä [...]'äj ne' nyosku'y[...]. Sutpa't mujsya judäde tsu'nhubä yä' tsäktäjku'y wa'a't mujsyaju 'uka mumu 'iste'e muspabä yajkyosa, wa'at mujsyaju 'uka ji'nde'e kyonämdäyibä yä' yosku'y. 'Uka sutpa mujsa'nhä jutste'e ndsamba judä tsu'nhubä te' todojaye, tu'nisyä yä' yostäjk tsya'manhwajkpabä'is[...].
+guidelines = Juts wa'a ndsäjku
+contact-us = 'Onäya'tsi/jayjaya'tsi 'äjtsida'm.
+add-sentence-success = Jaye päjkisytsyokubä'a
+add-sentence-error = Ji'nä mujsu kyi'mä te' jaye.
+required-field = Tsäkä wäbä, ja'tyasä yä'ki.
 
 ## BULK SUBMISSION 
 
