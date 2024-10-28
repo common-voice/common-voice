@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-form-keyboard-usage-custom = Key board ani che'lak kabul kari. Kabul kari, ne kabul karik, histi
+sc-review-form-keyboard-usage-custom = Key board ani { sc-review-form-button-approve-shortcut } che'lak kabul kari. Kabul kari { sc-review-form-button-reject-shortcut }, ne kabul karik, { sc-review-form-button-skip-shortcut } histi
 sc-review-form-button-submit =
     .submitText = Jagek khulek
 # Variables:
