@@ -109,3 +109,4 @@ contribution-misreadings-title = غلط پڑھنے
 contribution-misreadings-description = جدوں سنڑو، بڑی احتیاط نال چیک کرو کہ جڑا ریکارڈ کیتا دیا ہے او واقعی اوہی جڑا لکھیا دا ہے؛ اگر معمولی جی غلطی بھی ہووا تے رد کرو۔ <br />مچ عام غلطیاں بچ شامل ہن:
 contribution-misreadings-description-extended-list-1 = ریکاڈنگ دے شروع بچ کوئی لفظ غائب ہن مثلاََ <strong>'A'</strong> یا <strong>'The'</strong>۔
 contribution-misreadings-description-extended-list-2 = لفظ دے آخر تے ہک <strong>'s'</strong>غائب ہے۔
+contribution-misreadings-description-extended-list-3 = کنٹریکشنز کو پڑھنا جیڑھے حقیقت بچ موجود نیں، جسطرح "اسیں ہاں" دی بجائے "اسیں آسیاں"، یا اِسدے اُلٹا۔
