@@ -125,6 +125,12 @@ rate-limit-message-seconds =
         [one] Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!
        *[other] Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] [...] te' tumäbä 'odejaye päjkisytsyokubä'a
+       *[other] [...] te' 'ijtusebä 'odejaye päjkisytsyokubä'a
+    }
 small-batch-sentences-rule-2 = Kojta'nhä tumä 'odejaye te' tumäbä tumä jatyäjkomo,
 small-batch-sentences-rule-3 = We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.
 small-batch-sentences-rule-4 = Mujspa mgojta'nhä 1000 'odejaye.
