@@ -37,11 +37,17 @@ agriculture_food = Agriculturachi y kokowaniame
 # Sentence Domain dropdown option
 automotive_transport = Carrochi oillame yoma camiónchi oillame
 # Sentence Domain dropdown option
+finance = financiadoniame
+# Sentence Domain dropdown option
+service_retail = Puka, paipaki tewaniame
+# Sentence Domain dropdown option
 general = Yoma amó nawesary
 # Sentence Domain dropdown option
 healthcare = Kaweruma yasiniamé
 # Sentence Domain dropdown option
 history_law_government = Gente nawesary , Tamó derechochy Yoma gobiernochy
+# Sentence Domain dropdown option
+language_fundamentals = Tamoó nawesarí
 # Sentence Domain dropdown option
 media_entertainment = Gente induachí y gente neneachí itapitií
 # Sentence Domain dropdown option
@@ -60,11 +66,13 @@ upload-more-btn-text = Toaga epeche itaperi
 file-invalid-type = Kai nateame wa toatume
 file-too-large = Weruma juu wua toatume
 file-too-small = Bokawi juu wua toatume
+too-many-files = weika toatiame archivochi
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Toaga epeche itaperi tamo dominio publico tamo naosarila
 exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oraciones
+small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
 small-batch-sentences-rule-5 = Yomá pukà oracioné waátiamé temachy inemetaá
