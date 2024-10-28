@@ -82,6 +82,8 @@ about-playbook-how-localize-content-5 = نٸی ویڈیو زریکھہ روخ ب
 ## How to add sentences
 
 about-playbook-how-add-sentences = ناسی تم سیر کن چی بیسے ایڈ بیا؟
+about-playbook-how-add-sentences-content-1 = ربے صفحیکھہ یانگلا تم سیر کن ربیا نینید، میدنارے ہلتا بزو بے صفحیکھہ تم سیر کن لا ہلتا نینید۔
+about-playbook-how-add-sentences-content-2 = کامن واٸسینگ تم سیر کن اونگچکپلا مینگا نیسلا تم سیرکن لا ہلتا بزوبیا رگوسپن، دیکھہ تم سیر کن ہرمق لا تھونگمو گوا رگوسپن، دیکھنہ ژھونژے سونگسنہ تم سیر چی چوغا گوا رگوسپن۔ ینگ سوی تم سیر چی کولبہ سونگنہ، تم سیری اشینگنہ ربیسے کھیونگمہ رگوسپن نٸی سی سی زیرو لوکھسینگ،</waiverLink>    دیکھنہ نیالا دی میل پیکھہ کلے تونگ commonvoice@mozilla.com
 
 ## How to record quality
 
