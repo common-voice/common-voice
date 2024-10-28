@@ -34,3 +34,4 @@ review-submit-msg = ¡Ninaá kat'echiri nga kichibet'arejin!<lineBreak></lineBre
 review-rerecord = Chubet'ae nguinik'a
 review-cancel = Tichakjae xi tinikasein
 review-keep-recordings = katainyara xi kitjubet'a
+review-delete-recordings = Sichajaya xi án kiskibét'a
