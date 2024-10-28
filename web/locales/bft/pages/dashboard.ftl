@@ -54,6 +54,24 @@ set-a-goal = ہلچی فچوس
 cant-decide = چنگ زیربہ نین میدا؟
 how-many-per-day = ژھے رینگمو سونگ ھے، جغی کلپ ژام؟
 how-many-a-week = ژھے رینگمو سونگ ھے، ہفتہ چیگینگ کلپ ژام؟
+which-goal-type = ہانگی سنا بینا، زیربینہ یا نیسکو بین؟
+receiving-emails-info = تنہ یانگلا کامن واٸسی رولنہ ای میل چی مقصدی بارینگ ایتو فیونگما، یری لس بزوے خبر اتارچی دیکھنہ خبری خط بط چی تھوبن۔
+not-receiving-emails-info = تہ یانگلا کامن واٸسی رولنہ ای میل چی مقصدی بارینگ ایتو فیونگما، یری لس بزوے خبر اتارچی دیکھنہ خبری خط بط چی میتھوبن۔
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] کلپ
+       *[other] کلپ کن
+    }
+help-share-goal = ینگسہ سکت ژالبہ لا نٸی روخ بیوس، یری خسم بزونگ تھونچوک۔
+confirm-goal = خسم بزونگ چھدکھہ بیوس
+goal-interval-weekly = ہفتینگنو
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = یری جغی کلپ کن تھونچوک
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = یری ہفتی کلپ کن تھونچوک
+share-goal-type-speak = زیرلوکھ
+share-goal-type-listen = سنا بیلوکھ
+share-goal-type-both = زیرلوکھ نہ سنابیلوکھ
 
 ## Goals
 
