@@ -19,6 +19,29 @@ listen-paragraph = کمان وائسو تین وقف کاردو آوازان ت�
 listen-goal-text = آوازن توسیق کوریک
 hours-recorded = گھنٹہ رکارڈ ہوئے
 hours-validated = گھنٹہ توسیق ہوئے
+voices-online = آواز ہنسے اونلائین ہونی
+todays-progress = ہنونو رفتار
+help-reach-goal = اسپہ سون { $goal } گنیکامدد کو
+read-terms-q = تو اسپہ شرطان ڑوڑیتاوا؟
+ready-to-record = تان آوازو وقف کوریکو پچین تیارا؟
+all-locales = تمام
+today = ہنون
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count } ہفتہ
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count }لمحہ
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } ی
+    }
+help-make-dataset = ہسے اپسہ سون جام معارو سفو پچین ڈٹاسیت ساوزیکا مدد کویان
+sign-up-account = اکاونٹو پچین سائن اب کو
+email-subscription-title = ای میلا نوغ لوان پچین سائن اب کو
 
 ## Account Benefits
 
