@@ -4,7 +4,7 @@ write = 寫句子
 write-instruction = 加入 <icon></icon> 公眾領域的句子
 write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可公開取得的資料集內。
 sentence =
-    .label = 語句
+    .label = 句子
 sentence-input-placeholder = 在此輸入公眾領域的句子
 small-batch-sentence-input-placeholder = 在此輸入公眾領域的句子
 citation-input-placeholder = 您的句子的出處（必填）
@@ -24,8 +24,8 @@ new-sentence-rule-8 = 結構簡單好讀（複雜个句著節做兩句拜託）
 login-instruction-multiple-sentences = <loginLink>登入</loginLink> 或 <loginLink>註冊</loginLink> 來加入多個句子
 how-to-cite = 我該如何標示出處？
 how-to-cite-explanation-bold = 引用時請提供網址或作品全名。
-how-to-cite-explanation = 如果是你自己造的句子，只需註明<italicizedText>「Self Citation」（自我引用）</italicizedText>即可。我們需要知道內容的來源，以便確認其是否屬於公眾領域、是否有版權限制。更多引用方面的資訊，請參閱我們的<guidelinesLink>指南頁面</guidelinesLink>。
-guidelines = 指南
+how-to-cite-explanation = 如果是你自己造的句子，只需註明「<italicizedText>Self Citation</italicizedText>」（自我引用）即可。我們需要知道內容的來源，以便確認其是否屬於公眾領域、是否有版權限制。更多引用方面的資訊，請參閱我們的<guidelinesLink>指南頁面</guidelinesLink>。
+guidelines = 貢獻指引
 contact-us = 聯絡我們
 add-sentence-success = 已收集到 1 句
 add-sentence-error = 加入句子時發生問題
@@ -98,7 +98,7 @@ too-many-files = 檔案太多
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> 加入公眾領域的多個句子
+small-batch-instruction = <icon></icon> 加入多個公眾領域的句子
 multiple-sentences-error = 你無法一次新增多個句子
 exceeds-small-batch-limit-error = 無法新增超過 1000 個句子
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
@@ -137,7 +137,7 @@ small-batch-response-message =
         [one] 共 { $totalSentences } 句，已收集 1 句。請點擊<downloadLink>此處</downloadLink>下載被退回的句子。
        *[other] 共 { $totalSentences } 句，已收集 { $uploadedSentences } 句。請點擊<downloadLink>此處</downloadLink>下載被退回的句子。
     }
-small-batch-sentences-rule-1 = 請遵循「我可以新增哪些句子」指南
+small-batch-sentences-rule-1 = 請遵循貢獻指引中「新增句子」相關規則
 small-batch-sentences-rule-2 = 每一行輸入一句
 small-batch-sentences-rule-3 = 按一下「Enter」或「Return」鍵來將句子分成一行一行
 small-batch-sentences-rule-4 = 最多可新增 1,000 句
