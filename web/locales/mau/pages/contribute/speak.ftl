@@ -20,3 +20,4 @@ record-last-instruction = ¡Xi jet'a!
 review-tooltip = Chut'ae k'ua chubet'ae nguinik'a tjen ndiyáke
 share-clip = Tik'abii jña isennere
 share-common-voice = Tik'abii Common Voice
+review-instruction = Chut'ae kua chubet'ae tsa macheen
