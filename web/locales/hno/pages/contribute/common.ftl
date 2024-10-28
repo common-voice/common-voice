@@ -124,3 +124,6 @@ contribution-misreadings-example-6-title = اسیں کافی گھننا واسط
 contribution-misreadings-example-6-explanation = [ہونڑا چائی دا“اسیں ہاں”]
 contribution-misreadings-example-7-title = اسیں کافی گھننا واسطے باہر جَا رِہ ہاں۔
 contribution-misreadings-example-7-explanation = [اصل عبارت بچ کوئی  ‘a’  نیں]
+contribution-misreadings-example-8-title = شہد دی بڑی مکھی تیزی نال اگھا گئی۔
+contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
+contribution-varying-pronunciations-title = مختلف تلفظ
