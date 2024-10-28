@@ -20,6 +20,7 @@ new-sentence-rule-4 = sahi Spelling ze  tharika istimal kar
 new-sentence-rule-5 = lamabar khas ishnahari ya o nishan o ne
 new-sentence-rule-6 = Warek zuban as nishan o ne
 new-sentence-rule-7 = Sahi tharika istimal kari
+new-sentence-rule-8 = She'he'n hiu ori ki te mashkulgi, sahi hiu ori. ( To mahikas basti asani hiu ori)
 contact-us = homa som mon de
 single-sentence-submission = gazhi mon jama kak
 single-sentence = gezi
