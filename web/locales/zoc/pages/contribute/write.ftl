@@ -142,3 +142,4 @@ small-batch-sentences-rule-2 = Kojta'nhä tumä 'odejaye te' tumäbä tumä jaty
 small-batch-sentences-rule-3 = We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.
 small-batch-sentences-rule-4 = Mujspa mgojta'nhä 1000 'odejaye.
 small-batch-sentences-rule-5 = 'ijtuse 'odejaye wa'ade tumäbä ki'psokyu'yomo myajkyaju.
+small-batch-sentences-rule-6 = 'Ijtuse te' 'odejaye, makabäde msame judäde tsu'nhubä yajkti 'iste'e tsäjkubä.
