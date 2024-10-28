@@ -52,6 +52,8 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ہلچی فچوس
 cant-decide = چنگ زیربہ نین میدا؟
+how-many-per-day = ژھے رینگمو سونگ ھے، جغی کلپ ژام؟
+how-many-a-week = ژھے رینگمو سونگ ھے، ہفتہ چیگینگ کلپ ژام؟
 
 ## Goals
 
