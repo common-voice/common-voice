@@ -41,6 +41,7 @@ resource-deepspeech-info = موزیلو شونگو سوجون تھیک انجن 
 resource-coqui-info = <coquiLink> Coqui </coquiLink> ایک سم شونگو ٹیکنالوجیک ہِیں۔ جینے پروجیٹونی ڈیپ لرننگو ایس ٹی ٹی گہ ٹی ٹی ایس انجنی یو تھے ہاں۔
 community-playbook = کمیونیٹی پلے بک
 resource-playbook-info = <playbookLink> آنے تُوڑے  پُوری کامن وائیسی نی سانتی دیک گائیڈینس ہیں </playbookLink> تومی کُویو سنیونی تو گینی ڈیٹا سیٹو استعمالے ڈنگ۔ جدو علاوہ اسئی کمیونٹی نی یو بونو گہ
+data-other-librispeech-description = LibriSpeech ایک ہزار گنٹاؤ  16Khz ادؤ کارپسیک ہوں زیسے نی  رزینیک آڈیوکتابو نیو سنیئیک انگلش شونگو کارپسیک ہوں۔ نو  LibriVox project پروجیکٹیک ہوں۔
 missing-language = تھیئی  باشی ڈیٹا سیٹی نی نے پشیجیں دا؟ باشیک لُکھیونو باشیو پٹونی بو۔
 go-languages-page = باشو پٹو نی بو
 ready-to-validate = موجی چکے منیونو تیار ہَوں دا؟
