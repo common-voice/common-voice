@@ -30,7 +30,7 @@ change-preferences = 更改偏好設定
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集語音
-contribute-sentence-collection-nav-header = Sentence Collection
+contribute-sentence-collection-nav-header = 收集句子
 
 ## Reporting
 
