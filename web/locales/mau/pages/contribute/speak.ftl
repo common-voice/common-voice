@@ -24,3 +24,5 @@ review-instruction = Chut'ae kua chubet'ae tsa macheen
 record-submit-tooltip = Tikasein nga kuanri
 clips-uploaded = Tsijin xta
 record-abort-title = A sikjiet'a titjun xi titjubet'a
+record-abort-text = Tsá kuítjui, jnguk'a chajangui ngayije xi jee kuan nda nt'e
+record-abort-submit = Sikasen xi kitjubet'a
