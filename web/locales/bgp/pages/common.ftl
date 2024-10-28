@@ -286,3 +286,12 @@ not-available-abbreviation = این/اے
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>مارا درکار اِنت</mark><br><mark> تئی کمک!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹاسیٹ ءِ میزبانی ءُ 100+ زبان ءِ کمیونٹیز ءِ پلیٹ فارم ءَ شر کنگ ءِ سال ءَ تقریباً یک ملین ڈالر ءِ ھرچ ءُ درچ بیت کہ آ مئے کارانی سر ءَ انحصار کن اَنت۔ <strong>اگاں شما پچیں، ھواریں ڈیٹا ءِ ارزشت ءَ دئے اِت - مرچی عطیہ بہ کن اِت!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>وتی پٹ ءُ پول ءِ</mark><br/><mark> ھاترا سی وی کارمرز کنگ ءَ ئے؟</mark>
+languages-donate-banner-cta-explanation = کامن وائس ءِ مالی کمک چہ عطیہ ءُ گرانٹاں کنگ بیت! ما اکیڈمک، سول سوسائٹی ءُ صنعت ءِ پٹ ءُ پولکارانی گوما تعاون کنگ ءَ دوست داریں۔ کامن وائس ءِ کارمرز کنگ ءِ ھاترا آزات اِنت بلے گرانٹ ءِ تجویز ءِ وسیلہ ءَ پلیٹ فارم ءُ میزبانی ءِ ھرچ ءُ درچ ءَ شریک بوھگ واقعی کمکار اِنت۔
+localization-select =
+    .label = زبان / لوکلائزیشن ءِ گچین کن
