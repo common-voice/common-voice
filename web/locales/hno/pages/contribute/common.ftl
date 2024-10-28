@@ -54,6 +54,10 @@ report-offensive-language-detail = جملے بچ بےعزتی والی یا نا
 report-grammar-or-spelling = گرائمر/املا دی غلطی
 report-grammar-or-spelling-detail = جملے بچ گرائمر یا اِملا دی غلطی ہے۔
 report-different-language = مختلف زبان
+report-different-language-detail = جڑی میں بولدا ہاں اے اس کولو مختلف زبان بچ لکھیا دا ہے۔
+report-difficult-pronounce = تلفظ  بچ اوکھی
+report-difficult-pronounce-detail = اس بچ او الفاظ یا جملے ہن جڑے پڑھنا ہور بولنا بچ مشکل ہن۔
+report-offensive-speech = غیر مہذب تقریر
 
 ## Speak & Listen Shortcuts
 
