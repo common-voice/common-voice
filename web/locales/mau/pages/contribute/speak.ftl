@@ -23,3 +23,4 @@ share-common-voice = Tik'abii Common Voice
 review-instruction = Chut'ae kua chubet'ae tsa macheen
 record-submit-tooltip = Tikasein nga kuanri
 clips-uploaded = Tsijin xta
+record-abort-title = A sikjiet'a titjun xi titjubet'a
