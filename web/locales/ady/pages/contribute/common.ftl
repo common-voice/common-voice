@@ -1,7 +1,14 @@
 action-click = Теӏункӏ
 contribute = Ӏахьэ хэлъхьан
+review = Еплъыжъын
 skip = Блэъакӏ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold>тетхагъэ
+       *[other] <bold>{ $count }</bold>тетхагъэ
+    }
 speak-empty-state-cta = Гущыӏэухыгъэхэм ӏахьэ ахалъхь
+record-button-label = Умакъэ тетх
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
 
