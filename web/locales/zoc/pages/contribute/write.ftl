@@ -30,6 +30,10 @@ contact-us = 'Onäya'tsi/jayjaya'tsi 'äjtsida'm.
 add-sentence-success = Jaye päjkisytsyokubä'a
 add-sentence-error = Ji'nä mujsu kyi'mä te' jaye.
 required-field = Tsäkä wäbä, ja'tyasä yä'ki.
+single-sentence-submission = Tumädi tsame kä'wejku'y.
+small-batch-sentence-submission = Kä'weya wenedan te' tsame'is jyaye.
+bulk-sentence-submission = Kä'weya wäwäda'm te' tsame'is jyaye.
+single-sentence = Tumäbädi tsame'is jyaye.
 
 ## BULK SUBMISSION 
 
