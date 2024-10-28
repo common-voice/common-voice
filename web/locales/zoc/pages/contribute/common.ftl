@@ -10,6 +10,8 @@ clips-with-count-pluralized =
        *[other] 'Usyanhda'mbä
     }
 goal-help-recording = ¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a [...] tiyä syupabäna'ajk tumdumjamakoda wa'a yajktsä'yjayu te' mij 'mongu'y te' [...]!
+goal-help-validation = ¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a te' [...] [...] tiyä syupabäna'ajk tumdumjamakoda wa'a wyä'aju te' [...]!
+contribute-more = ¿Sutpa'am msäjka'nhä?
 
 ## Contribution Nav Items
 
