@@ -110,3 +110,4 @@ contribution-misreadings-description = جدوں سنڑو، بڑی احتیاط �
 contribution-misreadings-description-extended-list-1 = ریکاڈنگ دے شروع بچ کوئی لفظ غائب ہن مثلاََ <strong>'A'</strong> یا <strong>'The'</strong>۔
 contribution-misreadings-description-extended-list-2 = لفظ دے آخر تے ہک <strong>'s'</strong>غائب ہے۔
 contribution-misreadings-description-extended-list-3 = کنٹریکشنز کو پڑھنا جیڑھے حقیقت بچ موجود نیں، جسطرح "اسیں ہاں" دی بجائے "اسیں آسیاں"، یا اِسدے اُلٹا۔
+contribution-misreadings-description-extended-list-4 = ریکاڈنگ کو مچ جلدی کٹ کے آخری لفظ دا سرا غائب کرنا۔
