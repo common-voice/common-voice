@@ -15,6 +15,7 @@ new-sentence-rule-4 = Ukané letrá y puntuacioné kawetíamé
 new-sentence-rule-6 = Ywa intume tamo naosarila
 contact-us = Tamo peja ino
 add-sentence-error = Wekaremú yáchega oracioné
+required-field = Kaweruma eraga amo chanene iwá illotemichó
 single-sentence-submission = Amó nejario pile naosari
 single-sentence = Kí aká induame oracioné
 # Sentence Domain dropdown option
