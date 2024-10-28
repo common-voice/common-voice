@@ -8,7 +8,7 @@ sentence-input-placeholder = Toaga iwa naosari dominio publico uka itaperi
 small-batch-sentence-input-placeholder = Toega wa nati itaperi dominio publico
 citation-input-placeholder = Ereka  toaga peja uka kanamu  najuka uka itaperi. Nateameju buu chee wam
 citation =
-    .label = Yoamitia pukaá gramática kawetíamé
+    .label = iwa toamitia puuka ciita
 sc-write-submit-confirm = Ereka chani wa itaperi <wikipediaLink>dominio publico</wikipediaLink>, Kainega itamira motepumina uka itaperi
 sc-review-write-title = Chirime najumeree
 sc-review-small-batch-title = Chireka toawame juu wueka
@@ -25,8 +25,10 @@ contact-us = Tamo peja ino
 add-sentence-error = Wekaremú yáchega oracioné
 required-field = Kaweruma eraga amo chanene iwá illotemichó
 single-sentence-submission = Amó nejario pile naosari
+bulk-sentence-submission = Ujuragane weika oracioné
 single-sentence = Kí aká induame oracioné
-sentence-domain-combobox-label = Teema puka oracioni y dominiochi yoratiame
+sentence-domain-combobox-label = Teema puka oracioni
+sentence-domain-select-placeholder = Selecionapa asta paika teema. (yoraniame).
 # Sentence Domain dropdown option
 agriculture_food = Agriculturachi y kokowaniame
 # Sentence Domain dropdown option
