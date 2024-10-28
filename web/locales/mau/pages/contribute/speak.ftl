@@ -33,3 +33,4 @@ review-submit-title = Chut'ae kua tikasein
 review-submit-msg = ¡Ninaá kat'echiri nga kichibet'arejin!<lineBreak></lineBreak>chut'ae kua tikasein xi kitjubet'ae.
 review-rerecord = Chubet'ae nguinik'a
 review-cancel = Tichakjae xi tinikasein
+review-keep-recordings = katainyara xi kitjubet'a
