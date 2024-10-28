@@ -84,9 +84,16 @@ about-playbook-how-localize-content-5 = نٸی ویڈیو زریکھہ روخ ب
 about-playbook-how-add-sentences = ناسی تم سیر کن چی بیسے ایڈ بیا؟
 about-playbook-how-add-sentences-content-1 = ربے صفحیکھہ یانگلا تم سیر کن ربیا نینید، میدنارے ہلتا بزو بے صفحیکھہ تم سیر کن لا ہلتا نینید۔
 about-playbook-how-add-sentences-content-2 = کامن واٸسینگ تم سیر کن اونگچکپلا مینگا نیسلا تم سیرکن لا ہلتا بزوبیا رگوسپن، دیکھہ تم سیر کن ہرمق لا تھونگمو گوا رگوسپن، دیکھنہ ژھونژے سونگسنہ تم سیر چی چوغا گوا رگوسپن۔ ینگ سوی تم سیر چی کولبہ سونگنہ، تم سیری اشینگنہ ربیسے کھیونگمہ رگوسپن نٸی سی سی زیرو لوکھسینگ،</waiverLink>    دیکھنہ نیالا دی میل پیکھہ کلے تونگ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = یانگلا کولبہ نینید <scraperLink> تم سیر فیونگچیس پو </scraperLink> ویکیپیڈینگنہ ژھونژے تم سیر کن فیونگمہ لا۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = چوقپہ لیخمو سکت پوتپی کلپ چی بیسے زونمہ؟
+about-playbook-how-record-content-1 = یری سکت لیاخسیکھہ زیر، یری سکت پینگ زیرسنہ ایشن لیاخمو ان، نیالا چی سونگنہ سہ یری سکت جوخ پو رگوسپن، نیالا یری سکت ٹوکپو، یری زیر جوخپو نا یری سکتی پھپ لین پو رگوسپن۔
+about-playbook-how-record-content-2 = گیاپکھوقنہ اونگمی ہڑینگ کن اونگ مچوک، یانگلا سنا بیو بدونگو گوا رگوسپن۔
+about-playbook-how-record-content-3 = لیاخمویکھہ تم سیر کن سنا بیوس، بودے گومچوک، تم پو تبدیل بیس یا ہرژوق۔
+about-playbook-how-record-content-4 = ایتو یوق یانگی ریکارڈ بیوپہ دونلا ملسووی یری سکت پو زونینگ دوکپہ رگوس، دیکھنہ یانگی زیربہ ژھدپنہ ریکارڈ گو چھمہ رگوسپن۔
+about-playbook-how-record-content-5 = لیگی لیخمو بے کھوم بزونگلا ہلتوس۔
 
 ## How to grow language
 
