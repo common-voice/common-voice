@@ -11,6 +11,8 @@ wall-of-text-second = اکثر لوٹ کمپنی کی کیا ڈیٹا استعم
 show-wall-of-text = خور دی رواوت
 help-us-title = اسپہ سون آوازو تسدیق کوریکا مدد کو!
 help-us-explain = چلیکو بٹینو دیت، کارکورے وا اسپاتین لو دیت کیا ہتیت موڑا جملو سہی ریتانیا؟
+no-clips-to-validate = ہش سریران کی ہیا زبانا کارکوریکو پچین  آواز نیکی۔ ایک کما رکارڈ کوری اسپہ سون ہیا کمیو پورا کورور۔
+toggle-play-tooltip = دباو کو{ shortcut-play-toggle } چلے موڈا انگیکو پیچین.
 
 ## Account Benefits
 
