@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Tu tay Zuban ne gri as-tan profile una jagai
+sc-review-lang-not-selected = Tu tay Zuban ne gri as-tan<profileLink> profile</profileLink>  una jagai
 sc-review-title = Mon ger jagai
 sc-review-loading = Mon Load hiu day
 sc-review-select-language = Tan zuban khoji, mon jagai
