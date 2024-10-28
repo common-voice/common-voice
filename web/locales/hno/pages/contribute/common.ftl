@@ -101,3 +101,5 @@ shortcut-vote-no = ناں
 ## Validation criteria
 
 contribution-criteria-nav = معیار
+contribution-criteria-link = حصے دا معیار سمجھو
+contribution-criteria-page-title = حصے دا معیار
