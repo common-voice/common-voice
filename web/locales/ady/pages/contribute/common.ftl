@@ -8,6 +8,9 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>тетхагъэ
     }
 speak-empty-state-cta = Гущыӏэухыгъэхэм ӏахьэ ахалъхь
+speak-loading-error =
+    Угущыӏэным пае зи гущыӏэухыгъэ къэдгъотыгъэп.
+    Сыолъэӏу, етӏанэ джыри зэ еплъ.
 record-button-label = Умакъэ тетх
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
