@@ -67,9 +67,21 @@ report-success = رپورٹ کامیابی نال منظور ہوئی
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = چھوڑو
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ریکارڈ
+shortcut-record-toggle-label = ریکارڈ/رُکو
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = کلپ دوبارہ ریکارڈ کرو
+shortcut-discard-ongoing-recording = ای ایس سی
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو رد کرو
+shortcut-submit = واپس مڑو
+shortcut-submit-label = کلپ جمع کرالو
 
 ## Listen Shortcuts
 
