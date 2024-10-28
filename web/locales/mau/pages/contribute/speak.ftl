@@ -37,3 +37,4 @@ review-keep-recordings = katainyara xi kitjubet'a
 review-delete-recordings = Sichajaya xi án kiskibét'a
 review-terms = Nnga sicheín common voice xcha xkuin <termsLink>kjuatexumare </termsLink>
 terms-agree = Tjíjnguna
+terms-disagree = Majen mi tjíjnguna
