@@ -89,3 +89,5 @@ too-many-files = 檔案太多
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> 加入公眾領域的多個句子
