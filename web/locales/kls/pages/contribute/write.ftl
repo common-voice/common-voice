@@ -52,9 +52,24 @@ general = am
 healthcare = sihat as khyal
 # Sentence Domain dropdown option
 history_law_government = Tarik, kanun, hokumat
+# Sentence Domain dropdown option
+language_fundamentals = Zuban as usul, Buniat. (Misalan, Nishan, newishishila' Paisa)
+# Sentence Domain dropdown option
+media_entertainment = Go'n' ze labe'
+# Sentence Domain dropdown option
+nature_environment = Kudrat ze mahol
+# Sentence Domain dropdown option
+news_current_affairs = Khabar ze no'a taza khabar
+# Sentence Domain dropdown option
+technology_robotics = Technology ze Robot
+sentence-variant-select-label = Mon ze awaz
+sentence-variant-select-placeholder = Warek Jagai (tan chituna)
+sentence-variant-select-multiple-variants = kia asta zuban/ ziada zuban
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload/ Jama kari. <nishan>                    </nishan> Sawin domain ani mondr
 try-upload-again-md = ak warek kay jayy
 select-file = kaghaz grhii
 what-needs-to-be-in-file = may shaya kagaz una kia zarurat shian
