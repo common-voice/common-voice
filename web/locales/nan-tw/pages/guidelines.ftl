@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = 貢獻指南
+guidelines-header = 貢獻指引
 guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
 voice-collection = 收集語音
 sentence-collection = 語句集合

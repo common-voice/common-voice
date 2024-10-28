@@ -31,8 +31,13 @@ change-preferences = 更改偏好設定
 
 contribute-voice-collection-nav-header = 收集語音
 contribute-sentence-collection-nav-header = 收集句子
+login-signup = 登入 / 開新口座
 vote-yes = 著
 vote-no = 毋著
+languages = 語言
+about = 了解阮的計畫
+partner = 合作夥伴
+submit-form-action = 送出
 
 ## Reporting
 
