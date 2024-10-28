@@ -83,6 +83,7 @@ adding-sentences-subheader-punctuation = 標點符號
 adding-sentences-subheader-punctuation-explanation = 應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
 adding-sentences-subheader-special-characters = 特殊符號與外文
 adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
+adding-sentences-subheader-special-characters-explanation-2 = 各種語言可以在在地化時制定自己的驗證規則。如果沒有特別的驗證規則，則將會顯示英文版的規則給予貢獻者。
 adding-sentences-subheader-offensive-content = 冒犯性內容
 reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「通過」按鈕。
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。

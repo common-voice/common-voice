@@ -1,5 +1,5 @@
 listen = 聆聽
-listen-subtitle = 幫助我們驗證他人的錄音
+listen-subtitle = 幫助咱驗證其他人的錄音
 listen-instruction = { $actionType }<playIcon></playIcon>，聽聽他們有準確地說出句子嗎？
 listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以再聽一次
 listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！

@@ -1,7 +1,7 @@
 action-click = 揤
 action-tap = 點選
 contribute = 參與貢獻
-review = 審核句子
+review = 審核
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
