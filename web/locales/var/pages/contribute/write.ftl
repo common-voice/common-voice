@@ -27,12 +27,16 @@ required-field = Kaweruma eraga amo chanene iwá illotemichó
 single-sentence-submission = Amó nejario pile naosari
 bulk-sentence-submission = Ujuragane weika oracioné
 single-sentence = Kí aká induame oracioné
+small-batch-sentence = Yomá nuhutí
+bulk-sentence = Yomá werumá
 sentence-domain-combobox-label = Teema puka oracioni
 sentence-domain-select-placeholder = Selecionapa asta paika teema. (yoraniame).
 # Sentence Domain dropdown option
 agriculture_food = Agriculturachi y kokowaniame
 # Sentence Domain dropdown option
 automotive_transport = Carrochi oillame yoma camiónchi oillame
+# Sentence Domain dropdown option
+general = Yoma amó nawesary
 # Sentence Domain dropdown option
 healthcare = Kaweruma yasiniamé
 
