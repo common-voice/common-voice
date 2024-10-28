@@ -66,6 +66,7 @@ sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
 sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
 select-file = Nasona uka toatume wua
 select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
+accepted-files = Chíntíamé oserí nakíwame ujúpú waá .tsv
 upload-more-btn-text = Toaga epeche itaperi
 file-invalid-type = Kai nateame wa toatume
 file-too-large = Weruma juu wua toatume
