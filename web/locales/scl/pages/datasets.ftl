@@ -36,6 +36,8 @@ other-datasets = مُتے شونگو ڈیٹا سیٹی
 feedback-q = چکے پتو جیک رجنی ہیں دا؟
 # This indicates that there is no data to display
 no-information = معلوماتے نُش
+resource-nemo-info = <githubLink> این وی آئی ڈی آئی اے نی مو</githubLink>™   <docsLink> کہ نو موجی تھیک اے آئی سنینیک ریسرچرو کاریوایک ادَو باوی گینی ہانک زریاک ہوں۔
+resource-deepspeech-info = موزیلو شونگو سوجون تھیک انجن ڈیپ سپیچ شونگے سوجون تھینیک اپلیکیشنے استعمال تھیون بینا۔ اسو<githubLink> گٹ ہب دُگُنی چکیونو انی رس</githubLink>  یا آنے یو بو<discourseLink>  آنے ڈیپ سپیچ ڈسکورسینی گئیے</discourseLink> کدا تھے شروع تھیونی ہِیں سِیچ۔
 missing-language = تھیئی  باشی ڈیٹا سیٹی نی نے پشیجیں دا؟ باشیک لُکھیونو باشیو پٹونی بو۔
 go-languages-page = باشو پٹو نی بو
 ready-to-validate = موجی چکے منیونو تیار ہَوں دا؟
