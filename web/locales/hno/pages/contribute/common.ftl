@@ -111,3 +111,9 @@ contribution-misreadings-description-extended-list-1 = ریکاڈنگ دے شر�
 contribution-misreadings-description-extended-list-2 = لفظ دے آخر تے ہک <strong>'s'</strong>غائب ہے۔
 contribution-misreadings-description-extended-list-3 = کنٹریکشنز کو پڑھنا جیڑھے حقیقت بچ موجود نیں، جسطرح "اسیں ہاں" دی بجائے "اسیں آسیاں"، یا اِسدے اُلٹا۔
 contribution-misreadings-description-extended-list-4 = ریکاڈنگ کو مچ جلدی کٹ کے آخری لفظ دا سرا غائب کرنا۔
+contribution-misreadings-description-extended-list-5 = ہک لفظ کو پڑھنا واسطے کئ کوششاں کرنا
+contribution-misreadings-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔
+contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈایناسور۔
+contribution-misreadings-example-2-explanation = [ 'ڈایناسور' ہونڑا چاہیدا ہے]
+contribution-misreadings-example-3-title = ٹریاسک دے دیوہیکل ڈایناسور۔،
+contribution-misreadings-example-3-explanation = [آخری لفظ ختم ہونڑا کولو پہلے ریکاڈنگ کٹ گئی ہے]
