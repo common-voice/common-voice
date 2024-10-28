@@ -20,6 +20,9 @@ new-sentence-rule-4 = Yajkyosa te' wäbä jaye, yajkti sunyi'k koda te' ji'bi ya
 new-sentence-rule-5 = Jana ma'yokyubyä ni ja'idäbä'is nyitiyä.
 new-sentence-rule-6 = Jaidä jaye 'eyabä kupku'yomo tsu'nhyajubä
 new-sentence-rule-7 = Tsamä' judäde tsu'nhubä te' jaye
+new-sentence-rule-8 = Yä' yosku'y kyi'pstäjubäde wa'ade mujsu yajkmawe 'ona.
+login-instruction-multiple-sentences = [...]'Awakä te' myostäjk [...] yakti muspadi mnitsäjke'da yomebä yostäjk wa'a mujsu mgoda wäwä 'ode'is jyaye.
+how-to-cite = ¿Jutsamäjt ndsamba judäde tsu'nhubä yä' ki'psokyu'y?
 
 ## BULK SUBMISSION 
 
