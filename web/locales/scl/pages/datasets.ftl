@@ -37,3 +37,13 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = عُمر
 donate-modal-message = تھیئی ڈیٹا سیٹ ڈاؤنلوڈ بیوں ہِیں
 dataset-donate-modal-heading = تُوڑے دشٹالو دا؟
+donate-modal-explanation-1 = ڈیٹاسیٹ چھُریونو ایک سالے ایک ملین ڈالری شاچینا۔ ایک شل باشو کمیونیٹئیے سے بیسے یوک تھیئیسیک چکینائیے ۔جینوڑے سم پلیٹ فارم سنیو گہ آئیں اچاک شچینائیے۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> تُو سے یو تھے ہُونک ڈیٹا وشیم تھیم تھوں،تو اش اکی چینڈ! </bold>
+data-download-singleword-title = ایک موش ٹارگٹ سیگمنٹ ڈاؤنلوڈ تھے۔
+data-download-singleword-callout-v2 = انو استعمال بیلوک سیگمنٹ ہوں، انوسے  ڈیٹا رزیئیک سوجون تھیون بیون۔ اُوں/نے سوجون تھییونو
+data-download-button = کامن وائیسو ڈیٹا ڈاؤنلوڈ تھے۔
+data-download-yes = اُوں
+data-download-deny = نے
+data-download-license = لائیسنس <licenseLink>CC-0</licenseLink>
+data-download-modal = تھئی ڈاؤنلوڈ بونو بوئی ہِیں۔ <size>{ $size }GB</size>, مُچھوڑے یازوں دا؟
