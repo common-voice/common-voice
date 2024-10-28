@@ -106,3 +106,5 @@ contribution-criteria-page-title = حصے دا معیار
 contribution-criteria-page-description = سمجھو جدوں آواز دے کلپس سنڑدے ہو  تے کِڑیاں چیزاں کو دکھنڑا ہور اپنڑی آواز دی ریکارڈنگ مزید اچھا بنڑانڑا بچ مدد کرو!
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھنے
+contribution-misreadings-description = جدوں سنڑو، بڑی احتیاط نال چیک کرو کہ جڑا ریکارڈ کیتا دیا ہے او واقعی اوہی جڑا لکھیا دا ہے؛ اگر معمولی جی غلطی بھی ہووا تے رد کرو۔ <br />مچ عام غلطیاں بچ شامل ہن:
+contribution-misreadings-description-extended-list-1 = ریکاڈنگ دے شروع بچ کوئی لفظ غائب ہُوون مثلاََ <strong>'A'</strong> یا <strong>'The'</strong>۔
