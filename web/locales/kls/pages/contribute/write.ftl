@@ -101,3 +101,41 @@ too-many-files = bo kaghaz shian
 small-batch-instruction = Warek asta ziada, mochan domain jama kari
 multiple-sentences-error = To ziada mon ek tem una jama karik ne bahas
 exceeds-small-batch-limit-error = Ne bahas jama karik 1000 (ek hazar) mondr
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ek 1
+       *[other] warek 2
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] One (1)
+       *[other] Warek (2)
+    }
+small-batch-sentences-rule-1 = Tharika jagai, kia mon a thek baham?
+small-batch-sentences-rule-2 = Ek line una ek mon thai
