@@ -43,6 +43,8 @@ healthcare = Kaweruma yasiniamé
 # Sentence Domain dropdown option
 history_law_government = Gente nawesary , Tamó derechochy Yoma gobiernochy
 # Sentence Domain dropdown option
+media_entertainment = Gente induachí y gente neneachí itapitií
+# Sentence Domain dropdown option
 news_current_affairs = Tamó chaneníame y yomá umatoamé kuwé
 # Sentence Domain dropdown option
 technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
@@ -63,5 +65,6 @@ file-too-small = Bokawi juu wua toatume
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Toaga epeche itaperi tamo dominio publico tamo naosarila
+exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oraciones
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
 small-batch-sentences-rule-5 = Yomá pukà oracioné waátiamé temachy inemetaá
