@@ -44,6 +44,7 @@ healthcare = Kaweruma yasiniamé
 history_law_government = Gente nawesary , Tamó derechochy Yoma gobiernochy
 # Sentence Domain dropdown option
 technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
+sentence-variant-select-label = Oracioné illotenníamé kí waatiame amo chenaria.  Na waá tiamé ujúpú
 
 ## BULK SUBMISSION 
 
