@@ -50,6 +50,10 @@ report = رپورٹ کرو
 report-title = رپورٹ جمع کرالو
 report-ask = اس جملے نال تسیں کِڑے مَسلیاں دا سامنڑا کر رہ ہو؟
 report-offensive-language = ناشائستہ زبان
+report-offensive-language-detail = جملے بچ بےعزتی والی یا ناشائستہ زبان ہے۔
+report-grammar-or-spelling = گرائمر/املا دی غلطی
+report-grammar-or-spelling-detail = جملے بچ گرائمر یا اِملا دی غلطی ہے۔
+report-different-language = مختلف زبان
 
 ## Speak & Listen Shortcuts
 
