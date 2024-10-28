@@ -82,9 +82,22 @@ shortcut-discard-ongoing-recording = ای ایس سی
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو رد کرو
 shortcut-submit = واپس مڑو
 shortcut-submit-label = کلپ جمع کرالو
+request-language-text = حالاں تک کامن وائس تے اپنڑی زبان نیں دکھ ری؟
+request-language-button = ہک زبان دی درخواست کرو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = چلاؤ
+shortcut-play-toggle-label = چلاؤ/رکو
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ہاں
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ناں
 
 ## Validation criteria
 
+contribution-criteria-nav = معیار
