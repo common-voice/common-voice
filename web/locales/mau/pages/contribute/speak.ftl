@@ -40,3 +40,5 @@ terms-agree = Tjíjnguna
 terms-disagree = Majen mi tjíjnguna
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ¡Ninaá kat'échiri nga kits'énajin xtari!
+first-cta-subtitle-text = ¿A mejenri k'uinyanajin ngat'a ts'e jusian nukjue?
+why-donate = ¿Jméni chunangui?
