@@ -56,6 +56,15 @@ history_law_government = 'Ijtku'y kyätäjubä'a, tide muspa ndsäjktamä yajkti
 language_fundamentals = Juste muspa 'ondamä (ndsa'mijspa't: ma'yotyäjk, jayeda'm, koyowa)
 # Sentence Domain dropdown option
 media_entertainment = Judäde muspa ndsäkä tida'm yajkti judäde muspa tsi'nhbä'ä.
+# Sentence Domain dropdown option
+nature_environment = Te' tsa'mada'm yajkti te' tsa'ma joj.
+# Sentence Domain dropdown option
+news_current_affairs = Te' tsamdäjpabä tiyä nä tyujku nasakobajkäs yajkti te' tiyä 'ijtu yäti.
+# Sentence Domain dropdown option
+technology_robotics = Mänhda'mbä yostäjk yajti te' mujsoyeda'm tä'nhgutya'mbä.
+sentence-variant-select-label = 'Usyanh käkajkubä te' 'eyabä ode.
+sentence-variant-select-placeholder = Kobiwä te' mij 'mode'is tyä (mne'käde 'uka sutpa mdsäkä).
+sentence-variant-select-multiple-variants = Tumäbä 'ode / 'eya'eyada'mbä mij 'mode'is tyäda'm.
 
 ## BULK SUBMISSION 
 
