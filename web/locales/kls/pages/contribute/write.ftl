@@ -1,8 +1,13 @@
 ## WRITE PAGE
 
 write = Newishi
+write-instruction = Jama kari, sawin ek mon
+write-page-subtitle = kia mon ya o awaz, shaya pe newishi haw te saw aya dataset una jama hin
 sentence =
     .label = Mon
+sentence-input-placeholder = Tay kholaw mon shaya newishi
+small-batch-sentence-input-placeholder = tay kholaw mon shaya histi
+citation-input-placeholder = Tay mondr as ujak hial'i
 citation =
     .label = niweshila
 sc-review-write-title = kia niweshila a atra dyam

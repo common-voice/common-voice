@@ -55,6 +55,8 @@ first-cta-gender-select-help-text =
     .label = Tu ke'n kay mas Istriza e Purush
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Shukuria tay awaz dekas bati
+second-cta-subtitle-text = Shisa profile as thara, tu tan krom an harakat pashis, tasi saw krom kia ki moch kay an te sawin krom ze awaz jonis
+already-have-an-account = Tay som account shiaw e?
 create-profile-button = Profile sawzai
 # IMAGE TAGS
 img-alt-success-checkmark = Kamiyab Nishan
