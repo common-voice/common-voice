@@ -117,3 +117,6 @@ contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈا
 contribution-misreadings-example-2-explanation = [ 'ڈایناسور' ہونڑا چاہیدا ہے]
 contribution-misreadings-example-3-title = ٹریاسک دے دیوہیکل ڈایناسور۔،
 contribution-misreadings-example-3-explanation = [آخری لفظ ختم ہونڑا کولو پہلے ریکاڈنگ کٹ گئی ہے]
+contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈایناسور، ہاں،
+contribution-misreadings-example-4-explanation = [مطلوبہ عبارت کولو زیاداہ ریکارڈ کر چھڑیا دا ہے]
+contribution-misreadings-example-5-title = اسیں کافی گھننا واسطے باہر جَا رِہ ہاں۔
