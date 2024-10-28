@@ -34,6 +34,14 @@ single-sentence-submission = Tumädi tsame kä'wejku'y.
 small-batch-sentence-submission = Kä'weya wenedan te' tsame'is jyaye.
 bulk-sentence-submission = Kä'weya wäwäda'm te' tsame'is jyaye.
 single-sentence = Tumäbädi tsame'is jyaye.
+small-batch-sentence = Usyanhbä tumä tu'mäyajubä tsame'is jyaye.
+bulk-sentence = Wäwä tu'mäyi.
+sentence-domain-combobox-label = Mäjanhbä te' 'odejaye
+sentence-domain-select-placeholder = Kobiwä tukasye'nhomo te' mäjanhbä jaye.
+# Sentence Domain dropdown option
+agriculture_food = Nijpku'y yajkti ku'tku'y
+# Sentence Domain dropdown option
+automotive_transport = Tsenh'eyajpabä tä'nhguy yajkti wijtpabä'ämode
 
 ## BULK SUBMISSION 
 
