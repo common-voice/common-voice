@@ -84,6 +84,12 @@ maximum-file-size = Yä'syenh'omodide muspabä mgojtanhne'ka te' mdodojaye: 25 M
 what-needs-to-be-in-file = ¿Tiyam muspa 'idä te' ngäwänbamä't te' 'äj ndododa'm?
 what-needs-to-be-in-file-explanation = Tu'nisä judä't nhgojtanhne'kyajpa te' todojaye [...]. Te' 'ode'is jyaye ji'nde'e wa'a kyonäbu 'is tsäjku (CC0 te' yosku'y wäbäde wa'a nu'ksytsyida te' 'is tsyäjku), wa'ade mujsu yajk'ona, sunyi jayubä. Te' todojaye kyä'wejdäjpabä wa'ade yajkmusä 'ona 10, 15 segundo'omo, 'uka mjatya te' ma'yokyutya'm, nye'käda'mbä näyi yajkti jaye ji'nde nimeke näyästamebä.
 upload-progress-text = Nä kyi'mu te' yosku'y
+sc-bulk-submit-confirm = Ndasmbä't, yä' todojayeda'm mumu 'iste'e muspabä nyäyosa, yajkti näjayaju'tsi wa'at yajkki'mu.
+bulk-upload-success-toast = Ki'mu'a te' wäwäbä 'ode'is jyaye.
+bulk-upload-failed-toast = Jakyi'mä te' yosku'y, yajkki'mwätsäkä.
+bulk-submission-success-header = ¡Yäskodoya yajki'mu'ajkä te' wäwäbä todojaye!
+bulk-submission-success-subheader = ¡Nimeke nä mgotsoku yä' Common Voice wa'ajke mujsu mbäjkisytsyokya tumdumjama te' 'ode'is jaye!
+upload-more-btn-text = ¿Yajki'manh'äbya te' ode'jaye?
 
 ## SMALL BATCH SUBMISSION
 
