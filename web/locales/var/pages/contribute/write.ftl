@@ -51,6 +51,8 @@ language_fundamentals = Tamoó nawesarí
 # Sentence Domain dropdown option
 media_entertainment = Gente induachí y gente neneachí itapitií
 # Sentence Domain dropdown option
+nature_environment = Yomá itapichi induachí  y animaríy sewa induachí
+# Sentence Domain dropdown option
 news_current_affairs = Tamó chaneníame y yomá umatoamé kuwé
 # Sentence Domain dropdown option
 technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
