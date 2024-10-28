@@ -103,3 +103,6 @@ shortcut-vote-no = ناں
 contribution-criteria-nav = معیار
 contribution-criteria-link = حصے دا معیار سمجھو
 contribution-criteria-page-title = حصے دا معیار
+contribution-criteria-page-description = سمجھو جدوں آواز دے کلپس سنڑدے ہو  تے کِڑیاں چیزاں کو دکھنڑا ہور اپنڑی آواز دی ریکارڈنگ مزید اچھا بنڑانڑا بچ مدد کرو!
+contribution-for-example = مثال دے طور تے
+contribution-misreadings-title = غلط پڑھنے
