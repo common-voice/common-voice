@@ -16,3 +16,4 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> Nga kuan
 record-three-more-instruction = ¡Ján chaja!
 record-again-instruction = ¡Nda kji! <recordIcon></recordIcon>chubet'ae xta xi chaja.
 record-again-instruction2 = k'uasin chubet'ae nguinik'a
+record-last-instruction = ¡Xi jet'a!
