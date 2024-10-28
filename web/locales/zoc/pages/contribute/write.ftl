@@ -23,6 +23,7 @@ new-sentence-rule-7 = Tsamä' judäde tsu'nhubä te' jaye
 new-sentence-rule-8 = Yä' yosku'y kyi'pstäjubäde wa'ade mujsu yajkmawe 'ona.
 login-instruction-multiple-sentences = [...]'Awakä te' myostäjk [...] yakti muspadi mnitsäjke'da yomebä yostäjk wa'a mujsu mgoda wäwä 'ode'is jyaye.
 how-to-cite = ¿Jutsamäjt ndsamba judäde tsu'nhubä yä' ki'psokyu'y?
+how-to-cite-explanation-bold = Mujspa't ndsamä judäde tsu'nhubä te' todojaye, nhgojtpat te' URL, mujspadi't nhgojtjakye'da 'ijtuse nyäyi te' todojaye'is nye'.
 
 ## BULK SUBMISSION 
 
