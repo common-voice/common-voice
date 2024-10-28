@@ -46,6 +46,10 @@ submit-form-action = جمع کرالو
 
 ## Reporting
 
+report = رپورٹ کرو
+report-title = رپورٹ جمع کرالو
+report-ask = اس جملے نال تسیں کِڑے مَسلیاں دا سامنڑا کر رہ ہو؟
+report-offensive-language = ناشائستہ زبان
 
 ## Speak & Listen Shortcuts
 
