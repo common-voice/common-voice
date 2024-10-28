@@ -26,3 +26,5 @@ clips-uploaded = Tsijin xta
 record-abort-title = A sikjiet'a titjun xi titjubet'a
 record-abort-text = Tsá kuítjui, jnguk'a chajangui ngayije xi jee kuan nda nt'e
 record-abort-submit = Sikasen xi kitjubet'a
+record-abort-continue = Sikjiet'a xi titjubét'a
+record-abort-delete = Titjui k'ua
