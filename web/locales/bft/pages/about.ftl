@@ -117,6 +117,7 @@ about-playbook-how-validate-content-4 = اگر کلپ چک مینگا نیسی �
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ناسی ڈیٹا سیٹ پووی دیکھہ چی بیسے گوا دیکھنہ ڈیٹا سیٹ پو چی بیسے کولبہ؟
 
 ## How are decisions made
 
