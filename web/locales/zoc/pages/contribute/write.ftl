@@ -113,6 +113,19 @@ rate-limit-toast-message-seconds =
         [one] Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä tumä segundokäsi.
        *[other] Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä [...] segundokäsi.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka tumä minuto wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!
+       *[other] Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka[...] minuto wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!
+       *[other] Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!
+    }
 small-batch-sentences-rule-2 = Kojta'nhä tumä 'odejaye te' tumäbä tumä jatyäjkomo,
+small-batch-sentences-rule-3 = We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.
 small-batch-sentences-rule-4 = Mujspa mgojta'nhä 1000 'odejaye.
 small-batch-sentences-rule-5 = 'ijtuse 'odejaye wa'ade tumäbä ki'psokyu'yomo myajkyaju.
