@@ -19,6 +19,7 @@ new-sentence-rule-5 = Kité numeroó Yoma akaná illoteniachy
 new-sentence-rule-6 = Ywa intume tamo naosarila
 new-sentence-rule-7 = Illotemia kawetíamé  akaná ukamu oracioné
 new-sentence-rule-8 = Oracionichi maniame natural inimeta taamo naewamia,,(.ki teki inimicho leyendoka)
+login-instruction-multiple-sentences = <loginLink>oinepa secion neteka</loginLink><loginLink>registrandosa </loginLink>eme weika  oracioni netepaicho
 how-to-cite = Itaná yoaga iyotemané akaná machijipagane oracione
 how-to-cite-explanation-bold = Citachi pii enlacechi URL o illotega Yoma tewa obrachi
 contact-us = Tamo peja ino
@@ -39,6 +40,8 @@ automotive_transport = Carrochi oillame yoma camiónchi oillame
 general = Yoma amó nawesary
 # Sentence Domain dropdown option
 healthcare = Kaweruma yasiniamé
+# Sentence Domain dropdown option
+history_law_government = Gente nawesary , Tamó derechochy Yoma gobiernochy
 
 ## BULK SUBMISSION 
 
