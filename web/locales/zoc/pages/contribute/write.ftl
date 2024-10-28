@@ -76,8 +76,12 @@ bulk-upload-additional-information = 'Uka mnä'ijtuma 'eyabä tsa'manhwajku'y y�
 template-file-additional-information = 'Uka mnä'ijta'nhäyu 'eyabä tiyä ja'idäbä yä'ki, wa'a te'se näjktyä'yanhäyu yä' yosku'y, te'se mujspa mgäme'tsa yä'ki [...]
 try-upload-again = Tsäjkwätsäkä, juknäminä yä'ki te' todokäwä'ni
 try-upload-again-md = Yajkki'mwätsäkä.
-select-file = Kobiwä te' mgojtanhne'kubä
+select-file = Kobiwä te' mdodo kojtanhne'kubä
 select-file-mobile = Kobiwä te' mgojtanhne'ke wa'a yajkki'mu.
+accepted-files = Yä'sebä todojayedide pyäjkpabä: wäjädi .tsv
+minimum-sentences = Yä'sedide pyäjpabä te' 'ongujyaye te' mgojtanhne'kpamä te' mdododa'm: 1000.
+maximum-file-size = Yä'syenh'omodide muspabä mgojtanhne'ka te' mdodojaye: 25 MB
+what-needs-to-be-in-file = ¿Tiyam muspa 'idä te' ngäwänbamä't te' 'äj ndododa'm?
 
 ## SMALL BATCH SUBMISSION
 
