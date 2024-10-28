@@ -90,6 +90,20 @@ bulk-upload-failed-toast = Jakyi'mä te' yosku'y, yajkki'mwätsäkä.
 bulk-submission-success-header = ¡Yäskodoya yajki'mu'ajkä te' wäwäbä todojaye!
 bulk-submission-success-subheader = ¡Nimeke nä mgotsoku yä' Common Voice wa'ajke mujsu mbäjkisytsyokya tumdumjama te' 'ode'is jaye!
 upload-more-btn-text = ¿Yajki'manh'äbya te' ode'jaye?
+file-invalid-type = Pyäjkyajubä todo kojtanhne'kubä
+file-too-large = Nimeke jeme'ts te' todo.
+file-too-small = Te' todojaye nimeke tsye'
+too-many-files = Nimeke 'ijtu todojaye.
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Koda' wäwä'k 'odejaye mumu'is mujspabä tyu'nä.
+multiple-sentences-error = Ji'nde mujsi nhgojta'nhä wäwä 'odejaye te' 'usyanhbä kä'wejtäjkomo.
+exceeds-small-batch-limit-error = Ji'nde mujsi nhgä'weya 'uka kyokätpa 1000 'odejaye.
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Kyätkokädu te' jujtse yospa. Nitsäjkwätsäkä tumä minutokasi.
+       *[other] Kyätkokädu te' jujtse yospa. Nitsäjkwätsäkä [...] minutokasi.
+    }
