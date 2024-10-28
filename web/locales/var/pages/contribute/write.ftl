@@ -58,7 +58,7 @@ nature_environment = Yomá itapichi induachí  y animaríy sewa induachí
 news_current_affairs = Tamó chaneníame y yomá umatoamé kuwé
 # Sentence Domain dropdown option
 technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
-sentence-variant-select-label = Oracioné illotenníamé kí waatiame amo chenaria.  Na waá tiamé ujúpú
+sentence-variant-select-label = Na watiamé ujúpú oracioné nawesarí pirechy ojoegachy jenté. Weiká oracioné induamé
 
 ## BULK SUBMISSION 
 
