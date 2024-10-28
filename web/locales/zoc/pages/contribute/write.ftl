@@ -42,6 +42,20 @@ sentence-domain-select-placeholder = Kobiwä tukasye'nhomo te' mäjanhbä jaye.
 agriculture_food = Nijpku'y yajkti ku'tku'y
 # Sentence Domain dropdown option
 automotive_transport = Tsenh'eyajpabä tä'nhguy yajkti wijtpabä'ämode
+# Sentence Domain dropdown option
+finance = Jutste wa'a tumindsyäjku
+# Sentence Domain dropdown option
+service_retail = Yoskukyotsonhgu'y yajkti 'usyäjkti ma'ajpabä.
+# Sentence Domain dropdown option
+general = Ijtuse
+# Sentence Domain dropdown option
+healthcare = Wäbä 'ijtku't, ji' kya'ebä
+# Sentence Domain dropdown option
+history_law_government = 'Ijtku'y kyätäjubä'a, tide muspa ndsäjktamä yajkti te' 'anhgi'mgu'y.
+# Sentence Domain dropdown option
+language_fundamentals = Juste muspa 'ondamä (ndsa'mijspa't: ma'yotyäjk, jayeda'm, koyowa)
+# Sentence Domain dropdown option
+media_entertainment = Judäde muspa ndsäkä tida'm yajkti judäde muspa tsi'nhbä'ä.
 
 ## BULK SUBMISSION 
 
