@@ -18,3 +18,5 @@ record-again-instruction = ¡Nda kji! <recordIcon></recordIcon>chubet'ae xta xi 
 record-again-instruction2 = k'uasin chubet'ae nguinik'a
 record-last-instruction = ¡Xi jet'a!
 review-tooltip = Chut'ae k'ua chubet'ae nguinik'a tjen ndiyáke
+share-clip = Tik'abii jña isennere
+share-common-voice = Tik'abii Common Voice
