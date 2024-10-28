@@ -20,6 +20,8 @@ required-field = Kaweruma eraga amo chanene iwá illotemichó
 single-sentence-submission = Amó nejario pile naosari
 single-sentence = Kí aká induame oracioné
 # Sentence Domain dropdown option
+agriculture_food = Agriculturachi y kokowaniame
+# Sentence Domain dropdown option
 healthcare = Kaweruma yasiniamé
 
 ## BULK SUBMISSION 
