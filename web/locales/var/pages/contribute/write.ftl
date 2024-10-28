@@ -14,6 +14,7 @@ new-sentence-rule-2 = Chireka osiwame juu bokawi pile mariki naosari
 new-sentence-rule-4 = Ukané letrá y puntuacioné kawetíamé
 new-sentence-rule-6 = Ywa intume tamo naosarila
 how-to-cite = Itaná yoaga iyotemané akaná machijipagane oracione
+how-to-cite-explanation-bold = Citachi pii enlacechi URL o illotega Yoma tewa obrachi
 contact-us = Tamo peja ino
 add-sentence-error = Wekaremú yáchega oracioné
 required-field = Kaweruma eraga amo chanene iwá illotemichó
