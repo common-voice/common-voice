@@ -1,4 +1,4 @@
-speak = 說話
+speak = 講話
 speak-now = 這馬就來講話
 speak-subtitle = 寄付你的聲音
 record-cta = 開始錄音
