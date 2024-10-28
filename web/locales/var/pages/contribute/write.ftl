@@ -62,6 +62,8 @@ sentence-variant-select-label = Oracioné illotenníamé kí waatiame amo chenar
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Muenapu fraase dominio publicandoka<icon></icon>
 sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
 sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
 select-file = Nasona uka toatume wua
