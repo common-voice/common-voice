@@ -5,5 +5,5 @@ download-helpus = اسپہ سون آوازو ٹیکنالوجیو ای ڈال س
 download-form-email =
     .label = تان ای میلو نیویشے
     .value = ملاو بوسی، شکریہ
-download-back = کمن وائس ڈیٹابیسا واپس گے
-download-no = شکریہ، نو
+download-back = کامن وائس ڈیٹابیسا واپس گے
+download-no = نو، شکریہ
