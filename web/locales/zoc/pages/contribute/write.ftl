@@ -68,6 +68,11 @@ sentence-variant-select-multiple-variants = Tumäbä 'ode / 'eya'eyada'mbä mij 
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Yajki'mja te' mumu'ikodabä 'ode'is jyaye.
+sc-bulk-upload-instruction = Yäki jukminä te' todokäwä'ni, muspadi mbetke'da yä'ki wa'a yajki'mu te' mgowä'ni.
+sc-bulk-upload-instruction-drop = Tsäkäbä'ä te' mgäwäni yä'ki wa'a kyi'mu.
+bulk-upload-additional-information = 'Uka mnä'ijtuma 'eyabä tsa'manhwajku'y yä' mgowä'ni'isy nye' sutpabä yajkjakä, te'se 'ona yä'ki [...]
 select-file = Kobiwä te' mgojtanhne'kubä
 select-file-mobile = Kobiwä te' mgojtanhne'ke wa'a yajkki'mu.
 
