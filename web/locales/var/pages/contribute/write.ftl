@@ -20,8 +20,11 @@ add-sentence-error = Wekaremú yáchega oracioné
 required-field = Kaweruma eraga amo chanene iwá illotemichó
 single-sentence-submission = Amó nejario pile naosari
 single-sentence = Kí aká induame oracioné
+sentence-domain-combobox-label = Teema puka oracioni y dominiochi yoratiame
 # Sentence Domain dropdown option
 agriculture_food = Agriculturachi y kokowaniame
+# Sentence Domain dropdown option
+automotive_transport = Carrochi oillame yoma camiónchi oillame
 # Sentence Domain dropdown option
 healthcare = Kaweruma yasiniamé
 
