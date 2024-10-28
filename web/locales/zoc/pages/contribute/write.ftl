@@ -137,6 +137,7 @@ small-batch-response-message =
         [one] [...] te' 'odejaye päjkisy tsyokyajubä'a. Pena' yä'ki [...] wa'a yajkmä'nu te' japyäjkisytsyonhdäbä 'odejaye.
        *[other] [...] te' ['ijtusebä] 'odejaye päjkisy tsyokyajubä'a. Pena' yä'ki [...] wa'a yajkmä'nu te' japyäjkisytsyonhdäbä 'odejaye.
     }
+small-batch-sentences-rule-1 = Tsäkä tiyä ndsamjayajpa, nämä "¿Tibä 'odejaye'mäjt mujspa nhgoda?"
 small-batch-sentences-rule-2 = Kojta'nhä tumä 'odejaye te' tumäbä tumä jatyäjkomo,
 small-batch-sentences-rule-3 = We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.
 small-batch-sentences-rule-4 = Mujspa mgojta'nhä 1000 'odejaye.
