@@ -13,6 +13,7 @@ sc-review-small-batch-title = Chireka toawame juu wueka
 new-sentence-rule-2 = Chireka osiwame juu bokawi pile mariki naosari
 new-sentence-rule-4 = Ukané letrá y puntuacioné kawetíamé
 new-sentence-rule-6 = Ywa intume tamo naosarila
+how-to-cite = Itaná yoaga iyotemané akaná machijipagane oracione
 contact-us = Tamo peja ino
 add-sentence-error = Wekaremú yáchega oracioné
 required-field = Kaweruma eraga amo chanene iwá illotemichó
@@ -23,6 +24,7 @@ healthcare = Kaweruma yasiniamé
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
 sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
 select-file = Nasona uka toatume wua
 select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
