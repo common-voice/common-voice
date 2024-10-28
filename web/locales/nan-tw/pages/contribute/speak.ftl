@@ -1,3 +1,6 @@
+speak = 說話
+speak-now = 這馬就來講話
+speak-subtitle = 寄付你的聲音
 record-cta = 開始錄音
 record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
 record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
