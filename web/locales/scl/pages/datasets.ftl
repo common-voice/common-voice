@@ -24,3 +24,16 @@ size-gigabyte = جی بی
 missing-language = تھیئی  باشی ڈیٹا سیٹی نی نے پشیجیں دا؟ باشیک لُکھیونو باشیو پٹونی بو۔
 go-languages-page = باشو پٹو نی بو
 ready-to-validate = موجی چکے منیونو تیار ہَوں دا؟
+more = مُتے/مُتی/مُتو
+close = لِیش تھے
+download = ڈاؤنلوڈ تھے
+dataset-version = مُتی قِسم
+sha256-checksum-copied = ایس ایچ اے 256 چکینی کاپی بیلی!
+sha256-checksum-copied-error = ایس ایچ اے 256 چکینی کاپی نے بیلی
+clipboard-not-supported = کلپ بورڈ سے سانتی نے دیوں
+no-information-available = جیک گہ معلوماتیک آنے نے ہتے اِیں۔
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عُمر
+donate-modal-message = تھیئی ڈیٹا سیٹ ڈاؤنلوڈ بیوں ہِیں
+dataset-donate-modal-heading = تُوڑے دشٹالو دا؟
