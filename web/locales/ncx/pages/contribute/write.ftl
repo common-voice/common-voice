@@ -140,3 +140,6 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = Xikchiua ijkon ken kijtoa “¿Tlenon uelis nikijkuilos?”
 small-batch-sentences-rule-2 = Xikijkuilo se tlajkuiloli uan non okse itlanpa
 small-batch-sentences-rule-3 = Tla tikijkuilos itlanpa non okse, xikpacho "Enter" noso "Regresar"
+small-batch-sentences-rule-4 = Xikintlalili kanaj 1000 tlajkuilolmej
+small-batch-sentences-rule-5 = Nochtin moneki sansekan pouiskej
+small-batch-sentences-rule-6 = Nochtin moneki sansekan otikinkixti
