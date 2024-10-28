@@ -46,3 +46,5 @@ why-donate-explanation-1 = Tsin kju'anñu kjuát'a; to kui xi kjuájin tsa nda t
 add-information-button = k'uinyajin jme sa xi tjín
 continue-speaking-button = Majen, to tinúkjue
 create-profile-text = ¿A kjuá tjoy énn xi kjiya?<createProfile>tindae asénri</createProfile>
+thanks-for-voice-toast = Ninaá kat'echiri tsik'ie xtari.
+thanks-for-voice-toast-error = Tsitsújin nga tiji jña kjiya xtari.
