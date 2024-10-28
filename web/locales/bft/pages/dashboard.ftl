@@ -72,6 +72,29 @@ share-n-weekly-contribution-goal = یری ہفتی کلپ کن تھونچوک
 share-goal-type-speak = زیرلوکھ
 share-goal-type-listen = سنا بیلوکھ
 share-goal-type-both = زیرلوکھ نہ سنابیلوکھ
+# LINK will be replaced with the current URL
+goal-share-text = ناسی چوق کامن واٸسی لوکھسیبگ نری خسم لوکھ پو فچوسید، ستروق یود میونگی چی بیسے زیربن زیربو مشین لا ہلژابہ لا نانہ یمبو اونگ۔
+weekly-goal-created = یری ہفتی خسم لوکھ پو فچوسید
+daily-goal-created = یری جغی خسم لوکھ پو فچوسید
+track-progress = یری لس بزو دیکھہ ژول، دیکھنہ یری سٹیٹس سی صفحیکھہ سہ ژول
+return-to-edit-goal = یری خسم لوکھپو ینگ ریسپہ چک فچوالا نام شخسیدنارے لوقسے شوقس
+share-goal = نی خسم لوکھ پو اخا تھونچوک
 
 ## Goals
 
+streaks = لس درول کن
+days =
+    { $count ->
+        [one] جق
+       *[other] جق کن
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈینگ
+       *[other] ریکارڈینگ کن
+    }
+validations =
+    { $count ->
+        [one] چھدکھہ
+       *[other] چھدکھونگ
+    }
