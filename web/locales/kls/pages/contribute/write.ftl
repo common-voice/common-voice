@@ -70,6 +70,9 @@ sentence-variant-select-multiple-variants = kia asta zuban/ ziada zuban
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Upload/ Jama kari. <nishan>                    </nishan> Sawin domain ani mondr
+sc-bulk-upload-instruction = Tan te file, shaya oni, phato upload kari
+sc-bulk-upload-instruction-drop = File shaya histi upload as bati
+bulk-upload-additional-information = Warek asta pe malumat ajat haw, homa som rabita kari
 try-upload-again-md = ak warek kay jayy
 select-file = kaghaz grhii
 what-needs-to-be-in-file = may shaya kagaz una kia zarurat shian
