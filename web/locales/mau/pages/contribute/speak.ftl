@@ -44,3 +44,4 @@ first-cta-subtitle-text = ¿A mejenri k'uinyanajin ngat'a ts'e jusian nukjue?
 why-donate = ¿Jméni chunangui?
 why-donate-explanation-1 = Tsin kju'anñu kjuát'a; to kui xi kjuájin tsa nda tjiri nga k'uabí jé énn kui, y'a xkúnnejin nga mi s'e tsejen tsá choon tsá, tsá xiín xi tjit'a.
 add-information-button = k'uinyajin jme sa xi tjín
+continue-speaking-button = Majen, to tinúkjue
