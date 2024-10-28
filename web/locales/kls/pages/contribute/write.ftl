@@ -97,3 +97,7 @@ too-many-files = bo kaghaz shian
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Warek asta ziada, mochan domain jama kari
+multiple-sentences-error = To ziada mon ek tem una jama karik ne bahas
+exceeds-small-batch-limit-error = Ne bahas jama karik 1000 (ek hazar) mondr
