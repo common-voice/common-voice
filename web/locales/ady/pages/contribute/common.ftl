@@ -12,6 +12,7 @@ speak-loading-error =
     Угущыӏэным пае зи гущыӏэухыгъэ къэдгъотыгъэп.
     Сыолъэӏу, етӏанэ джыри зэ еплъ.
 record-button-label = Умакъэ тетх
+share-title-new = <bold>Къыддэӏэпӏэ</bold> нахьыбэ макъэ къэгъот
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
 
