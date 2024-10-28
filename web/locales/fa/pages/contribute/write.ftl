@@ -134,8 +134,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } از ۱ جمله گردآوری شده. برای دریافت جملات رد شده، <downloadLink>اینجا</downloadLink> کلیک کنید.
-       *[other] { $uploadedSentences } از { $totalSentences } جمله گردآوری شده. برای دریافت جملات رد شده، <downloadLink>اینجا</downloadLink> کلیک کنید.
+        [one] { $uploadedSentences } از ۱ جمله گردآوری شد. برای دریافت جملات رد شده، <downloadLink>اینجا</downloadLink> کلیک کنید.
+       *[other] { $uploadedSentences } از { $totalSentences } جمله گردآوری شد. برای دریافت جملات رد شده، <downloadLink>اینجا</downloadLink> کلیک کنید.
     }
 small-batch-sentences-rule-1 = دستورالعمل‌های «چه جملاتی را می‌توانم اضافه کنم؟» را دنبال کنید
 small-batch-sentences-rule-2 = هر جمله را در یک خط اضافه کنید

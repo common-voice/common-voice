@@ -1,4 +1,5 @@
 listen = Timesliwt
+listen-subtitle = Fket-aɣ afus n tallelt akken ad nsentem tuɣac
 listen-instruction = { $actionType } <playIcon></playIcon> ɣran-d akken iwata tafyirt?
 listen-again-instruction = Igarrez uxeddim! <playIcon></playIcon> Sell-as tikelt-nniḍen ticki theggaḍ
 listen-3rd-time-instruction = 2 d akesser <playIcon></playIcon> , kemmel ar zdat!
