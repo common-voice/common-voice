@@ -31,6 +31,8 @@ change-preferences = 更改偏好設定
 
 contribute-voice-collection-nav-header = 收集語音
 contribute-sentence-collection-nav-header = 收集句子
+vote-yes = 著
+vote-no = 毋著
 
 ## Reporting
 
