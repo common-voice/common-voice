@@ -22,6 +22,7 @@ healthcare = Kaweruma yasiniamé
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
 select-file = Nasona uka toatume wua
 select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
 upload-more-btn-text = Toaga epeche itaperi
