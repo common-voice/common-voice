@@ -247,12 +247,28 @@ yo = یوروبا
 yue = کینٹونیز
 zgh = تمازٹ
 zh-CN = چینی (چین)
+zh-HK = چینی (ہانگ کانگ)
+zh-TW = چینی (تائیوان)
+zu = زولو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مدد
+contact = نزیکی
+privacy = راز
+terms = شرت
+cookies = کوکیز
+faq = اف اے کیو
+content-license-text = مواد ءِ چیر دستی ءَ دستیاب اِنت<licenseLink>کریئٹیو کامنز لائسنس <licenseLink>
+share-title = دگراں وتی توار ءِ عطیہ کنگ ءِ ھاترا مارا کمک کن اِت!
+share-text = مشیناں وانینگ ءَ کمک بہ کن اِت کہ راستیں مردم چوں گپ جن اَنت، وتی توار ءَ { $link } ءَ عطیہ بہ کن اِت
+link-copied = لنک کاپی کنگ بوتگ
+back-top = بُرز ءَ پدا رو
 
 ## Donate banner
 
