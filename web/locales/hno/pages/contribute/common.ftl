@@ -134,3 +134,4 @@ contribution-varying-pronunciations-example-1-explanation = [‘بیریٹ’ ٹ
 contribution-varying-pronunciations-example-2-title = اُس دا ہتھ اُٹھایا ہویا دا آسا۔
 contribution-varying-pronunciations-example-2-explanation = [‘ریزڈ’ انگریزی بچ ہمیشاں ہک سلیبل نال ادا ہوندا ہے، نہ کہ دو]
 contribution-background-noise-title = پِچھا دا شور
+contribution-background-noise-description = اسیں چہندے اں مشین لرننگ الگورتھم مختلف قسم دے پس منظر دے شور کو ہینڈل کرنا دے قابل ہوے، تے اگر نسبتاََ تیز آوازاں کو بھی قبول کر ہکا بشرط کہ او تساں کو مکمل ٹیکسٹ سنڑنا تو نہ روکا۔ پرسکون پس منظر دے گانڑیں ٹھیک ہن؛ گانڑیں اتنے اُچے  جیڑے تساں کو ہر اک لفظ سنڑنا تو روکن (ٹھیک) نیں۔
