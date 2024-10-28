@@ -51,3 +51,5 @@ thanks-for-voice-toast-error = Tsitsújin nga tiji jña kjiya xtari.
 first-cta-gender-select-default-option = Jngú cha'ajin
 first-cta-gender-select-help-text =
     .label = ¿Jusin mejeri k'uiri a choon a xi'in?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Ninaá kat'echiri nga nikat'anajin xtar.
