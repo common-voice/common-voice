@@ -24,6 +24,9 @@ record-button-label = اپنڑی آواز ریکارڈ کرو
 share-title-new = <bold>اسدی مدد کر</bold>ہور آوازاں ڈھونڈناں واسطے
 keep-track-profile = پروفائل دے زریعے اپنڑی پیش رفت تے نظر رکھو
 login-to-get-started = شروع کرنا واسطے لاگ ان یا سائن اپ کرو
+target-segment-first-card = تسیں اسدے ہدف دے پہلے حصے بچ مدد کر رہ ہو
+target-segment-generic-card = تسیں ہک ہدف دے حصے بچ مدد کر رہ ہو
+target-segment-first-banner = کامن وائس دا پہلا ہدف حصہ بنڑانڑا واسطے مدد کرو{ $locale }بچ
 
 ## Contribution Nav Items
 
