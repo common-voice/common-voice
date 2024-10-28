@@ -35,3 +35,5 @@ review-rerecord = Chubet'ae nguinik'a
 review-cancel = Tichakjae xi tinikasein
 review-keep-recordings = katainyara xi kitjubet'a
 review-delete-recordings = Sichajaya xi án kiskibét'a
+review-terms = Nnga sicheín common voice xcha xkuin <termsLink>kjuatexumare </termsLink>
+terms-agree = Tjíjnguna
