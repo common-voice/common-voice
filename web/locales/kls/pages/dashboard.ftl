@@ -35,6 +35,87 @@ easy-difficulty = Asan
 average-difficulty = Tichak
 difficult-difficulty = Mishkil/geran
 pro-difficulty = Tez
+lose-goal-progress-warning = Zalikas nishan pe warek kay newishiman ai haw, kia ki krom kai as shate, wanago d'um hin
+want-to-continue = Karik khojis day e?
+finish-editing = Awel warek kay kari khulai?
+lose-changes-warning = Shonja pe ahisti haw, kia ki tabdili kay as, te d'um hin
+build-custom-goal = Tay mi marzi una warek nishan kari
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Ek
+       *[other] Warek
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Ek
+       *[other] warek
+    }
+set-a-goal = Nishan, Goal sawzai
+cant-decide = Faisala ne ari?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
+how-many-per-day = Bo prus't! kimon clib, (video che'lak) har adua?
+how-many-a-week = Bo prus't! kimon clips (video che'lak) ek haftan
+which-goal-type = Tu mon dek, ya o ko'n' karik khojis day e, yao awdu?
 
 ## Goals
 
