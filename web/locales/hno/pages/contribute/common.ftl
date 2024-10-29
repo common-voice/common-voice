@@ -135,3 +135,9 @@ contribution-varying-pronunciations-example-2-title = اُس دا ہتھ اُٹ�
 contribution-varying-pronunciations-example-2-explanation = [‘ریزڈ’ انگریزی بچ ہمیشاں ہک سلیبل نال ادا ہوندا ہے، نہ کہ دو]
 contribution-background-noise-title = پِچھا دا شور
 contribution-background-noise-description = اسیں چہندے اں مشین لرننگ الگورتھم مختلف قسم دے پس منظر دے شور کو ہینڈل کرنا دے قابل ہوے، تے اگر نسبتاََ تیز آوازاں کو بھی قبول کر ہکا بشرط کہ او تساں کو مکمل ٹیکسٹ سنڑنا تو نہ روکا۔ پرسکون پس منظر دے گانڑیں ٹھیک ہن؛ گانڑیں اتنے اُچے  جیڑے تساں کو ہر اک لفظ سنڑنا تو روکن (ٹھیک) نیں۔
+contribution-background-noise-description-extended = اگر ریکاڈنگ ترٹ جلدی اے۔، یا دراڑاں پے جلدیاں ہن، تے اُس کو رد کر چھڑو جدو تک سارا ٹیکسٹ سنڑ نہ سکدے ہوؤ۔
+contribution-background-noise-example-1-fixed-title = <strong>[سنیز]<strong/> دیوہیکل ڈایناسار <strong>[کف]</strong>۔ٹریاسک دے۔
+contribution-background-noise-example-2-fixed-title = دیوہیکل ڈاینا <strong>[کف]</strong>ٹریاسک دے۔
+contribution-background-noise-example-2-explanation = [ٹیکسٹ دا حصہ سنڑائی ’نیں دیندا]
+contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>دیوہیکل ڈایناسار <strong>[کریکل]</strong>-ریاسک دے۔
+contribution-background-voices-title = پِچھا دا شور
