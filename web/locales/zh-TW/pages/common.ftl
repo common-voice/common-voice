@@ -71,7 +71,7 @@ ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
 hyw = 西亞美尼亞語
-ia = 國際語
+ia = 國際語（Interlingua）
 id = 印尼語
 ie = 國際語（Interlingue）
 ig = 伊格柏語
@@ -215,12 +215,6 @@ zza = 扎扎語
 
 ## Layout
 
-speak = 說話
-speak-now = 現在說話
-datasets = 資料集
-languages = 語言
-about = 關於我們
-partner = 成為夥伴
 profile = 帳號資料
 help = 說明
 contact = 聯絡我們
@@ -240,7 +234,6 @@ privacy-info = 我們保證會小心處理您的資訊。可於我們的<privacy
 return-to-cv = 回到 Common Voice
 email-input =
     .label = 電子郵件地址
-submit-form-action = 送出
 loading = 載入中…
 email-opt-in-info = 我希望收到諸如目標提醒、我的進度更新與 Common Voice 的相關電子報。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
@@ -251,7 +244,7 @@ not-available-abbreviation = 不適用
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 我們每年花費將近一百萬美元以託管資料集及改善平台，以服務來自一百多個不同語言的社群。<strong>若您也相信資料開放與包容的價值，今天就立刻捐款！</strong>
