@@ -68,6 +68,7 @@ sentence-variant-select-multiple-variants = Nawesary yomá / weikaá ujupú kap�
 sc-bulk-upload-header = Muenapu fraase dominio publicandoka<icon></icon>
 sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
 sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
+try-upload-again = Yoá enchy, panisugá amó archivo ivá
 select-file = Nasona uka toatume wua
 select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
 accepted-files = Chíntíamé oserí nakíwame ujúpú waá .tsv
