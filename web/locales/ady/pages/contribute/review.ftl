@@ -10,15 +10,16 @@ sc-review-form-prompt =
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Гъэфедэгъэр: { $sentenceSource }
-sc-review-form-button-reject = Щыгъэзыен
+sc-review-form-button-reject = Щыгъэзый
 sc-review-form-button-skip = Блэгъэкӏ
-sc-review-form-button-approve = Езэгъын
+sc-review-form-button-approve = Езэгъ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = А
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = Х
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = Г
+sc-review-form-keyboard-usage-custom = Ащ фэдэу жъугъэфедэн шъулъэкӏыщт зэдиштэрэ клавишэхэу: { sc-review-form-button-approve-shortcut } Езэгъ, { sc-review-form-button-reject-shortcut } Щыгъэзый, { sc-review-form-button-skip-shortcut } Блэгъэкӏ
 sc-review-form-button-submit =
     .submitText = Еплъыжьыныр ух
 # Variables:
