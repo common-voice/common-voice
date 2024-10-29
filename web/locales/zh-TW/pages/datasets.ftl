@@ -10,12 +10,12 @@ datasets-positioning =
     您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
 download-dataset-header = 下載資料集
-download-delta-explainer = 我們有些改變。差異片段僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。
+download-delta-explainer = 注意以下改變：差異片段現僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。
 download-dataset-tag = 請選擇您想要下載的語言與資料集版本。
 # File size in gigabytes
 size = 大小
 validated-hr-total = 總驗證時數
-overall-hr-total = 全體總時數
+overall-hr-total = 總時數
 cv-license = 授權條款
 audio-format = 音檔格式
 dataset-splits = 拆開（年齡與性別）
