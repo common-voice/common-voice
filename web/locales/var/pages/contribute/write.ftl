@@ -80,6 +80,7 @@ what-needs-to-be-in-file = itaná nakí inibaemia noó osery
 upload-progress-text = Pullegá pejí muenapunía
 sc-bulk-submit-confirm = Nanerenané iká oracioné <wikipediaLink>yomaichó jenté </wikipediaLink>ijupú yomá inibaené permiso muenapumía
 bulk-upload-success-toast = Weiká oracioné itocheremú
+bulk-upload-failed-toast = Amó muenapuriá kí muenaré, enchy yoamitiá
 upload-more-btn-text = Toaga epeche itaperi
 file-invalid-type = Kai nateame wa toatume
 file-too-large = Weruma juu wua toatume
@@ -92,6 +93,12 @@ too-many-files = weika toatiame archivochi
 small-batch-instruction = Toaga epeche itaperi tamo dominio publico tamo naosarila
 multiple-sentences-error = Kí weika oracioné toiná ujuramichó enviochy sencilloichó
 exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oraciones
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ampá umatoteremú iwatiamí
+       *[other] { "" }
+    }
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
 small-batch-sentences-rule-5 = Yomá pukà oracioné waátiamé temachy inemetaá
