@@ -51,5 +51,6 @@ report-sc-different-language = Фэшъхьаф бзэ
 report-sc-different-language-detail = Ар сызэплъыжьырэм фэшъхьаф бзэкӏэ тхыгъэ.
 sentences-fetch-error = Гущыӏэухыгъэхэр тригъэуцозэ зы хэукъоныгъэ хъугъэ.
 review-error = Гущыӏэухыгъэхэр еплъыжъызэ зы хэукъоныгъэ хъугъэ.
+review-error-rate-limit-exceeded = Псынкӏащэу окӏо. Сыолъэӏу, охътэ тӏэкӏу къыхэгъэкӏ гущыӏэухыгъэр къыкӏэтӏотыкӏыжьынышъ зэрэтэрэзым ишъыпкъапӏэ тшӏэнэу.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Заулэ зэхъокӏыныгъэшхохэр тэшӏэ
+sc-redirect-page-title = Заулэ зэхъокӏыныгъэшхохэр тэшӏы.
