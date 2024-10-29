@@ -2,6 +2,7 @@
 
 write = Ereka ju osinime
 write-instruction = Toaga<icon></icon> pile naosari wa dominio publico
+write-page-subtitle = Oracionichi manitoame programachi kawisita como conjuntochitia toaniame datos licenciachi cc-0, Disponiblechi iniwae puka publikochi simiyame
 sentence =
     .label = Itaperi chee wame
 sentence-input-placeholder = Toaga iwa naosari dominio publico uka itaperi
@@ -22,6 +23,7 @@ new-sentence-rule-8 = Oracionichi maniame natural inimeta taamo naewamia,,(.ki t
 login-instruction-multiple-sentences = <loginLink>oinepa secion neteka</loginLink><loginLink>registrandosa </loginLink>eme weika  oracioni netepaicho
 how-to-cite = Itaná yoaga iyotemané akaná machijipagane oracione
 how-to-cite-explanation-bold = Citachi pii enlacechi URL o illotega Yoma tewa obrachi
+how-to-cite-explanation = Muú isiremú nawesagá owerá chaní  <italicizedText>"Autocita"</italicizedText>. nanerenané akaná teikamú iká contenido nenemía si pichiwua ujupú yomá jenteichó, Kí aplikandona restricciones de derecho de autor. Espeché itapití nenenaria citaicho nenemitia tamó<guidelinesLink> pagina</guidelinesLink>
 guidelines = Weiká reglachy
 contact-us = Tamo peja ino
 add-sentence-error = Wekaremú yáchega oracioné
