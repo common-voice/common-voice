@@ -145,3 +145,4 @@ contribution-background-voices-description = پچھا دا پرسکون ہبب �
 contribution-background-voices-description-extended = اگر ریکاڈنگ ترٹ جلدی اے۔، یا دراڑاں پے جلدیاں ہن، تے اُس کو رد کر چھڑو جدو تک سارا ٹیکسٹ سنڑ نہ سکدے ہوؤ۔
 contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز بچ پڑھیا دا]</strong>
 contribution-background-voices-example-1-explanation = تسیں آ رِہ ہو؟<strong>[کسی ہور بلایا]</strong>
+contribution-volume-title = والیم
