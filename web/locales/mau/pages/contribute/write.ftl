@@ -13,6 +13,9 @@ sc-review-write-title = ¿Jmé énn kuan s'ejnajin?
 sc-review-small-batch-title = ¿jú sikaá nga nkjin nijmí sinyajín
 new-sentence-rule-1 = <noCopyright>Mi tsá tichare tsínre nae(<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Ngui'ndere 15 énn nga jngu nijmí.
+new-sentence-rule-3 = énn xi kixi kuachen
+new-sentence-rule-4 = Nda chií
+new-sentence-rule-5 = Ngui chuba xi ni'in nichein
 
 ## BULK SUBMISSION 
 
