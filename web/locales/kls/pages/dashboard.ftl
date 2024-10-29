@@ -14,6 +14,10 @@ everyone = saw
 contribution-activity = phazikas krom
 top-contributors = Ghona phazaw
 recorded-clips = Recard che'lak
+validated-clips = Ujak clips( Video, Che'lak)
+total-approved = Saw kai kabul karik
+overall-accuracy = Emiti ujak
+set-visibility = Jonaikas tharika
 
 ## Custom Goals
 

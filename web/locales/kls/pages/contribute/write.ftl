@@ -139,3 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Tharika jagai, kia mon a thek baham?
 small-batch-sentences-rule-2 = Ek line una ek mon thai
+small-batch-sentences-rule-3 = Alaida kari mon, ek phon una, "Enter " ya o "Return" (pishtyak) ek mi bar
+small-batch-sentences-rule-4 = 1000, (ek hazar) mon
+small-batch-sentences-rule-5 = Saw mondran peruk domain hiu ori
+small-batch-sentences-rule-6 = Saw mondran ze maikas usul peruk hiu ori
