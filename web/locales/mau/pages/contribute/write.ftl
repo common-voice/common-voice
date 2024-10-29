@@ -19,6 +19,7 @@ new-sentence-rule-5 = Ngui chuba xi ni'in nichein
 new-sentence-rule-6 = Ngui chuba xi kja'é naxinandá tse.
 new-sentence-rule-7 = Tjajin jñá dinbá
 new-sentence-rule-8 = Ndasin kata s'e (Mitsa ni'in kjuá nijmí)
+login-instruction-multiple-sentences = Te'tsie</loginLink>tsa majen<loginLink>tjatae</loginLink>nga kua nkjin nijmí sinyajin.
 
 ## BULK SUBMISSION 
 
