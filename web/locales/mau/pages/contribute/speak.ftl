@@ -54,3 +54,4 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Ninaá kat'echiri nga nikat'anajin xtar.
 second-cta-subtitle-text = ka asénri kuan chut'ajin jme xi kjima, kuinúkjuake chuta xi t'axin naxinandá nya tsá xki.
+already-have-an-account = ¿A jeé tjinri xki?<iniciar sesión>te'tsi'e</iniciar sesión>
