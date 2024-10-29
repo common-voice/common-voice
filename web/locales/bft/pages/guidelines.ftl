@@ -17,3 +17,4 @@ varying-pronunciations-explanation-2 = یانگ لوکھ چیگینگنو، اگ
 varying-pronunciations-example = لم پو لیخمو میدسوک
 varying-pronunciations-tip-1 = کینیڈا پی انگریزینگنو روٹ لا راٹ زیربہ نینید
 varying-pronunciations-tip-2 = برطانیہ پی انگریزینگنو روٹ زیرید
+offensive-content-explanation = تم سیر کن یول میونگی فچوکھہ بیسے شیزدے بین، اما دی لوکھ پو چنگ فرونمو گوا مید۔ اگر یانگلا چنگ مین چی کوسنا یا تھونگنارے، مثلا یانگلا لیخمو مہ شیسنارے، یا سکت کھور پولا زومسے میدنارے، چوق سکت کھوری فلیگ بٹن پو کول دو یو آٸینگنو یودپہ یودپن۔ یانگ نیانہ تھوکپہ نیند <emailFragment>commonvoice@mozilla.com
