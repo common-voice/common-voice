@@ -76,6 +76,7 @@ accepted-files = Chíntíamé oserí nakíwame ujúpú waá .tsv
 minimum-sentences = Cantidaba minima oracioni lloratiame archivochi: 1000
 maximum-file-size = Espeché werumá archivo keschumá: 25 MB
 what-needs-to-be-in-file = itaná nakí inibaemia noó osery
+upload-progress-text = Pullegá pejí muenapunía
 upload-more-btn-text = Toaga epeche itaperi
 file-invalid-type = Kai nateame wa toatume
 file-too-large = Weruma juu wua toatume
