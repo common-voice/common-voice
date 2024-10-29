@@ -74,3 +74,4 @@ data-download-yes = ان
 data-download-deny = مین
 data-download-license = ازن یودپی
 data-download-modal = یانگی ڈاون لوڈ بیا ریاقسین یود۔ دیوینگنو <size> { $size }جی بی یود، بینا؟
+data-subtitle = نیاسی چوقلا تھوبی ڈیتا سیٹ سکت کن فچوین یودپن، دو سپیرا تنگمی ایپلیکیشن کن لا ہلژابہ فری گانگلا کولبہ نین من۔
