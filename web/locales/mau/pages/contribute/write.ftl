@@ -7,6 +7,7 @@ sentence =
     .label = Nikmí
 sentence-input-placeholder = Chanijin nijmí xi kuan skut'a tsi'í chuta.
 small-batch-sentence-input-placeholder = Chanijin nijmí xi kuan skut'a tsi'í chuta.
+citation-input-placeholder = Chanit'ae jñá ndibá nijmí (kjua 'ñú tjinre)
 
 ## BULK SUBMISSION 
 
