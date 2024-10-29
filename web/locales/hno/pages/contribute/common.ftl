@@ -146,3 +146,4 @@ contribution-background-voices-description-extended = اگر ریکاڈنگ تر
 contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز بچ پڑھیا دا]</strong>
 contribution-background-voices-example-1-explanation = تسیں آ رِہ ہو؟<strong>[کسی ہور بلایا]</strong>
 contribution-volume-title = والیم
+contribution-volume-description = پڑھنا والیاں دے درمیان والیم بچ قدرتی طور تے تغیرات ہوسن۔ صرف اس صورت بچ رد کرو جدوں والیم اتنا اُچا ہوا کہ ریکاڈنگ ترٹ جلا۔ یا (عام طور تے) اگر او اتنا گھٹ ہوا کہ تسیں تحریری متن دے حوالے تو بغیر سنڑ نہ سکو کہ کہہ آکھ رہیا آسا۔
