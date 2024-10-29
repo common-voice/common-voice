@@ -67,6 +67,14 @@ sc-bulk-upload-instruction = Ixu antsïta chiiti karakatani o <uploadButton> ixu
 sc-bulk-upload-instruction-drop = Ixu jurak'u karakatani parari karhatani
 bulk-upload-additional-information = Énka jaka utasï mítikwa ampe i karakataeri, ixuasï mititarpi <emailFragment> commonvoice@mozilla.com </emailFragment>
 template-file-additional-information = Énka jaka utasï mítikwa ampe i karakataeri ka énka no kweratani jaka , ixuasï mititarpi  <emailFragment> commonvoice@mozilla.com </emailFragment>
+try-upload-again = Ménteru weentsï ixu antsitani chiiti karakatani
+try-upload-again-md = Ménteru weentsï karhatani
+select-file = Eraku ma karakatani
+select-file-mobile = Eraku karakatanu parari karhatani
+accepted-files = I jarhati karakataechanikusï jiokwarhiat'i: .tsv
+minimum-sentences = ma karakakata jimpo ari xankusï úati wantakwaecha jatanhini: 1000
+maximum-file-size = Ari xanimintukusï úati k'eni karakata ma: 25MB
+what-needs-to-be-in-file = ¿Ampe xani jawa ampe juchiti mítintskwa ampe jimpo?
 
 ## SMALL BATCH SUBMISSION
 
