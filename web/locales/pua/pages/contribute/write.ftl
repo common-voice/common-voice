@@ -26,6 +26,35 @@ how-to-cite = ¿Nena p'itakwarhiaa nani énka weraka?
 how-to-cite-explanation-bold = URL jimpo wantaxera o jatsiku nena énka arhinhak'a ánchikwarhita.
 guidelines = chúxapakwaecha
 contact-us = Xuasïts'ïni wantap'a
+add-sentence-success = Karakata patsantskata
+add-sentence-error = No ústi kúparhatanhani wantankwani
+required-field = Wininhantsï íni onhakwani jimpoetakwa sáni
+single-sentence-submission = ma karakatak'usï axantsïkweeti
+small-batch-sentence-submission = Mántani kúnkwarhikwa sapirhatiecha jimpo axa wantakwaechani
+bulk-sentence-submission = Wankachani wantakwa axakwa
+single-sentence = ma wantakwak'u
+small-batch-sentence = kúnkwarhikwa sapichu
+bulk-sentence = kúnkwarhika keri
+sentence-domain-combobox-label = Wantakwa sési mitikata
+sentence-domain-select-placeholder = erakwantsï tanimu jarhati wantakwa (úakari úni o jurhak'uni)
+# Sentence Domain dropdown option
+agriculture_food = echerirhu anapu ampe ka t'irekwaeri ampe
+# Sentence Domain dropdown option
+finance = Tuminaeri xanhatakwa
+# Sentence Domain dropdown option
+general = Yámintu ampe
+# Sentence Domain dropdown option
+healthcare = Sési jakwa
+# Sentence Domain dropdown option
+history_law_government = Miantskwa, sésikwa ka juramukwa
+# Sentence Domain dropdown option
+language_fundamentals = wantakwaeri ampe winhapikwa (eska na jinteeka: miyukwaecha, kararakwaecha, tumina)
+# Sentence Domain dropdown option
+media_entertainment = wantakwa etsakutarakwa ka eranharhikwa ampe sáni
+# Sentence Domain dropdown option
+nature_environment = yámintu jásï irekwaeri ampe ka istu juatarhu anapu ame exekwa
+# Sentence Domain dropdown option
+news_current_affairs = ayantkup'erata ka yásï anapu ampe mítikwa
 
 ## BULK SUBMISSION 
 
