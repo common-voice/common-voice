@@ -130,6 +130,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } oña 1 Oracioné kawetíamé
        *[other] { $uploadedSentences }oña { $totalSentences }oracioné kawetíamé
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } oña pii oración chapitiamé. <downloadLink> Iva</downloadLink> Chechemitia puká tekipumiá oraciones itaná nakitiamè
+       *[other] { $uploadedSentences } oña{ $totalSentences }oración chapitiamé. <downloadLink>Iva</downloadLink> chechemitia puká tekipumiá oraciones itaná nakitiamè
+    }
 small-batch-sentences-rule-1 = Simetepa pautandoka, ¿istana oracioni toetaria agregandoka?
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
 small-batch-sentences-rule-3 =
