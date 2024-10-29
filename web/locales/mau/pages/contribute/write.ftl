@@ -10,6 +10,7 @@ small-batch-sentence-input-placeholder = Chanijin nijmí xi kuan skut'a tsi'í c
 citation-input-placeholder = Chanit'ae jñá ndibá nijmí (kjua 'ñú tjinre)
 sc-write-submit-confirm = Nijmí kui <wikipediaLink>kuan skút'a tsí'í chuta </wikipediaLink>tjina nga'ndee nga sikijian
 sc-review-write-title = ¿Jmé énn kuan s'ejnajin?
+sc-review-small-batch-title = ¿jú sikaá nga nkjin nijmí sinyajín
 
 ## BULK SUBMISSION 
 
