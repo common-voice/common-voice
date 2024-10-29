@@ -125,5 +125,8 @@ rate-limit-message-seconds =
     }
 small-batch-sentences-rule-1 = Simetepa pautandoka, ¿istana oracioni toetaria agregandoka?
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
+small-batch-sentences-rule-3 =
+    Toamitiá oracioné pii enchy pii lineachy ,
+    Ninimitia pii lineachy toyka pii lineachy pirechy
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
 small-batch-sentences-rule-5 = Yomá pukà oracioné waátiamé temachy inemetaá
