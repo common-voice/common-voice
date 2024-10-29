@@ -183,7 +183,7 @@ tok = 道本語
 tr = 土耳其語
 ts = 希宋加語
 tt = 韃靼語
-tw = 特威語 (西非)
+tw = 特威語（西非）
 ty = 大溪地語
 tyv = 圖瓦語
 uby = 尤比克語
@@ -201,7 +201,7 @@ wep = 西發里亞語
 wo = 渥魯夫語
 xh = 科薩語（南非）
 yi = 意第緒語
-yo = 約魯巴語 (奈及利亞)
+yo = 約魯巴語（奈及利亞）
 yue = 粵語
 zgh = 塔馬塞特語
 zh-CN = 華語（中國）
@@ -215,7 +215,7 @@ zza = 扎扎語
 
 ## Layout
 
-profile = 帳號資料
+profile = 帳號
 help = 說明
 contact = 聯絡我們
 privacy = 隱私權
