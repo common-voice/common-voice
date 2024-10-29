@@ -123,6 +123,12 @@ rate-limit-message-seconds =
         [one] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá pii segundochi enchí itochemaria pirechy oración. Cheriwema amó pulleriachó.
        *[other] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá { $retryLimit }segundochi enchí itochemaria pirechy oración. Cheriwema amó pulleriachó.
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } oña 1 Oracioné kawetíamé
+       *[other] { $uploadedSentences }oña { $totalSentences }oracioné kawetíamé
+    }
 small-batch-sentences-rule-1 = Simetepa pautandoka, ¿istana oracioni toetaria agregandoka?
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
 small-batch-sentences-rule-3 =

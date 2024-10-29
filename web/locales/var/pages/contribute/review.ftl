@@ -10,5 +10,6 @@ sc-review-form-prompt =
 ## REVIEW CRITERIA
 
 report-sc-different-language = Pirechi naewasari
+report-sc-different-language-detail = Vaatía illoterepú pirechy idioma kí no'o neneachí
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mochiwite'me yora'ka weruma Ka'weintapaká
