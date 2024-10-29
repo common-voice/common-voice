@@ -116,6 +116,46 @@ activity-needed-calculation-plural =
 how-many-per-day = Bo prus't! kimon clib, (video che'lak) har adua?
 how-many-a-week = Bo prus't! kimon clips (video che'lak) ek haftan
 which-goal-type = Tu mon dek, ya o ko'n' karik khojis day e, yao awdu?
+receiving-emails-info = Email zalik, mushkilat, taklif, yat karikas, no'a min, khabar en sawin awaz una
+not-receiving-emails-info = A bo khoshan thi kia ki yat dihani shian, taraki shian, no'a mon, khabar, asta pe shian haw sawin awaz
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Ek
+       *[other] warek
+    }
+help-share-goal = Homa madat kara, waregas awaz khojikas bati, tan goal phazi
+confirm-goal = tasali Goal
+goal-interval-weekly = Haftan
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Phazi tan har aduaw video che'lak an goal
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = tan video (che'lak) goal haftan phazi
+share-goal-type-speak = Mondr dek
+share-goal-type-listen = Ko'n' kari
+share-goal-type-both = Mondr dek ze Ko'n' karik
+# LINK will be replaced with the current URL
+goal-share-text = A shonja tan mi goalas awaz sawai am, tan awaz mich dek bahas, #sawin awaz may som nisi madat kari che'c'aikas bati, machine una, khe'n sahi moch mon den day
+weekly-goal-created = Tay haftawar goal(target) sawuz hawaw
+daily-goal-created = Tay har aduaw goal sawuz hawaw
+track-progress = Khoji tan tharaki, tay shuruk page una
+return-to-edit-goal = Oishtyak e, tan goal una kay asta tabdil karis
+share-goal = My goal phazi
 
 ## Goals
 
+streaks = Gona nishan
+days =
+    { $count ->
+        [one] Aduaw
+       *[other] bo wat
+    }
+recordings =
+    { $count ->
+        [one] Recard
+       *[other] recard kada
+    }
+validations =
+    { $count ->
+        [one] sahi karik
+       *[other] sahi kay seda karik
+    }
