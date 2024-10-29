@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = iyeta peji kitu'imu itana na'wesari na,wamia. Pawé simika ne'neme <profileLink>waa perfirechi</profileLink>  pa'ke tu'tay piripi o we'ka nawesari na'iwamia.
 sc-review-title = revisandomia puka oracioni
 sc-review-loading = umatoteniame  oracioni puka programachi
 sc-review-select-language = Usá pii nawesary nenémichó oracioné
@@ -22,5 +23,7 @@ sc-criteria-title = Yo'raniame puka revisaroaniame
 sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
 report-sc-different-language = Pirechi naewasari
 report-sc-different-language-detail = Vaatía illoterepú pirechy idioma kí no'o neneachí
+sentences-fetch-error = Inture piripi weka tiame waa iyaniachi orasioni
+review-error = inture piri'pi wekatiame wa'a re'wisaroaniachi i'ká orasióni
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mochiwite'me yora'ka weruma Ka'weintapaká
