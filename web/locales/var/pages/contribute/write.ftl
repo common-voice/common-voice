@@ -75,6 +75,7 @@ select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
 accepted-files = Chíntíamé oserí nakíwame ujúpú waá .tsv
 minimum-sentences = Cantidaba minima oracioni lloratiame archivochi: 1000
 maximum-file-size = Espeché werumá archivo keschumá: 25 MB
+what-needs-to-be-in-file = itaná nakí inibaemia noó osery
 upload-more-btn-text = Toaga epeche itaperi
 file-invalid-type = Kai nateame wa toatume
 file-too-large = Weruma juu wua toatume
@@ -85,6 +86,7 @@ too-many-files = weika toatiame archivochi
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Toaga epeche itaperi tamo dominio publico tamo naosarila
+multiple-sentences-error = Kí weika oracioné toiná ujuramichó enviochy sencilloichó
 exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oraciones
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
