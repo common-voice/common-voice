@@ -1,0 +1,9 @@
+## WRITE PAGE
+
+write = Chií
+
+## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+
