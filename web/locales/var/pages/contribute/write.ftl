@@ -60,6 +60,7 @@ news_current_affairs = Tamó chaneníame y yomá umatoamé kuwé
 technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
 sentence-variant-select-label = Na watiamé ujúpú oracioné nawesarí pirechy ojoegachy jenté. Weiká oracioné induamé
 sentence-variant-select-placeholder = Usaá puká  capó nawesary pirechy jenté michikachí. Yoraniame
+sentence-variant-select-multiple-variants = Nawesary yomá / weikaá ujupú kapó
 
 ## BULK SUBMISSION 
 
