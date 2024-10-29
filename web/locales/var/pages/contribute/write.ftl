@@ -69,6 +69,7 @@ sc-bulk-upload-header = Muenapu fraase dominio publicandoka<icon></icon>
 sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
 sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
 try-upload-again = Yoá enchy, panisugá amó archivo ivá
+try-upload-again-md = Enchy muenapú tepá puká (archivo)
 select-file = Nasona uka toatume wua
 select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
 accepted-files = Chíntíamé oserí nakíwame ujúpú waá .tsv
