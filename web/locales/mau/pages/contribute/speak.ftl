@@ -53,3 +53,4 @@ first-cta-gender-select-help-text =
     .label = ¿Jusin mejeri k'uiri a choon a xi'in?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Ninaá kat'echiri nga nikat'anajin xtar.
+second-cta-subtitle-text = ka asénri kuan chut'ajin jme xi kjima, kuinúkjuake chuta xi t'axin naxinandá nya tsá xki.
