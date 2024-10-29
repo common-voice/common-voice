@@ -65,3 +65,12 @@ dataset-metadata-age = لوسکور
 donate-modal-message = یری ڈیٹا سیٹپو ڈاون لوڈ گوین یود
 dataset-donate-modal-heading = یانگلا ہرتخفہ یودپا؟
 donate-modal-explanation-1 = ڈیتا سیٹ کن لیاخمو بیو فری دیکھنہ یونگ لا ہلتا سترونگ بیو فری لوچیگینگنو لاکھوں ڈالر خرچہ گوین، یونگ بگیا پہ تھلے سکت زیربی گرونگ یونگ کولینگ لسینگ اونگمن۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = اگر یانگلا چوقلا تھوبی ڈیٹایی مخ یودنارے۔ نیالا روخ بینگچی شیزدے بیوس جوو۔
+data-download-singleword-title = تم رے رے یودپی سگمنٹ پو ڈاون لوڈ بیوس
+data-download-singleword-callout-v2 = دیو کولبی لوکھسینگ درولبی سگمنٹ چی ان، دوینگنو ان یا مین زیربی کڑونگ نوزین بین۔
+data-download-button = کامن وایسی ڈیٹو ڈاون لوڈ بیوس
+data-download-yes = ان
+data-download-deny = مین
+data-download-license = ازن یودپی
+data-download-modal = یانگی ڈاون لوڈ بیا ریاقسین یود۔ دیوینگنو <size> { $size }جی بی یود، بینا؟
