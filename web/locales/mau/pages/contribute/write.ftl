@@ -11,6 +11,8 @@ citation-input-placeholder = Chanit'ae jñá ndibá nijmí (kjua 'ñú tjinre)
 sc-write-submit-confirm = Nijmí kui <wikipediaLink>kuan skút'a tsí'í chuta </wikipediaLink>tjina nga'ndee nga sikijian
 sc-review-write-title = ¿Jmé énn kuan s'ejnajin?
 sc-review-small-batch-title = ¿jú sikaá nga nkjin nijmí sinyajín
+new-sentence-rule-1 = <noCopyright>Mi tsá tichare tsínre nae(<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ngui'ndere 15 énn nga jngu nijmí.
 
 ## BULK SUBMISSION 
 
