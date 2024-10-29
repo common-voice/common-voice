@@ -16,6 +16,8 @@ new-sentence-rule-2 = Ngui'ndere 15 énn nga jngu nijmí.
 new-sentence-rule-3 = énn xi kixi kuachen
 new-sentence-rule-4 = Nda chií
 new-sentence-rule-5 = Ngui chuba xi ni'in nichein
+new-sentence-rule-6 = Ngui chuba xi kja'é naxinandá tse.
+new-sentence-rule-7 = Tjajin jñá dinbá
 
 ## BULK SUBMISSION 
 
