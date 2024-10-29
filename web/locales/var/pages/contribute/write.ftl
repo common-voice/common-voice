@@ -68,6 +68,7 @@ sentence-variant-select-multiple-variants = Nawesary yomá / weikaá ujupú kap�
 sc-bulk-upload-header = Muenapu fraase dominio publicandoka<icon></icon>
 sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
 sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
+bulk-upload-additional-information = Sii maniso epeche informacióni, sii muu kianaria ikachi archivochi maniame,   naewasamitia <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ii maniso epeche información adicional si naewasanaria, pukachi archivo ki manitoame ki incluyendotiame plantillachi, naewasamitia ki manitosa<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Yoá enchy, panisugá amó archivo ivá
 try-upload-again-md = Enchy muenapú tepá puká (archivo)
