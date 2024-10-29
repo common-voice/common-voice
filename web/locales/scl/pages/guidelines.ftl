@@ -17,3 +17,4 @@ varying-pronunciations-explanation-2 = جے واری، توسے گناؤ کہ ر
 varying-pronunciations-example = پون لیل نا سیلی۔
 varying-pronunciations-tip-1 = کینڈو انگریزی نی "روٹ" گنیی "رؤٹ" رزینا۔
 varying-pronunciations-tip-2 = برطانیو انگریزی نی "رووٹ" تھینا۔
+offensive-content-explanation = کا گا موجی کویوچ سے چکینا - چکین /موڈریشن کروم، لیکن نو شیلوکو کوم نی بل۔ کنؤ گا موجیک کا توسے پروجے پاشے، کا سے توٹے روش ارائے یا کھچک تھئی، مثالیک، آ موش سے <participationGuidelines> اسی کویوچو گٹی بین گایڈ لایینز ٹر تھئی </participationGuidelines> - یو آیی نی اسوٹے لیل تھیایین ٹک / فلیگ بٹن زاپ تھے۔ توسے اسوکچی اپھون باؤ، آنی <emailFragment>commonvoice@mozilla.com</emailFragment>
