@@ -141,3 +141,7 @@ contribution-background-noise-example-2-fixed-title = دیوہیکل ڈاینا 
 contribution-background-noise-example-2-explanation = [ٹیکسٹ دا حصہ سنڑائی ’نیں دیندا]
 contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>دیوہیکل ڈایناسار <strong>[کریکل]</strong>-ریاسک دے۔
 contribution-background-voices-title = پِچھا دا شور
+contribution-background-voices-description = پچھا دا پرسکون ہبب ٹھیک ہے، لیکن اسیں مزید شور نہ چہندے اں جڑی وجہ بنڑا ہک مشین الگورتھم کو او الفاظ پہچانڑنا بچ جڑے لھکے دے مواد بچ نیں۔ تسیں اگر اس مواد تو علاوہ کوئی ہور الفاظ سنڑ ہکدے ہو، تے او کلپ رد کر چھڑنا چاہیے دا ہے۔ عام طور تے اے ہوندا ہے جتھا ٹی وی آن چھوڑیا دا ہوے، یا جتھاں نیڑے تے گل بات ہو ری ہوے۔
+contribution-background-voices-description-extended = اگر ریکاڈنگ ترٹ جلدی اے۔، یا دراڑاں پے جلدیاں ہن، تے اُس کو رد کر چھڑو جدو تک سارا ٹیکسٹ سنڑ نہ سکدے ہوؤ۔
+contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز بچ پڑھیا دا]</strong>
+contribution-background-voices-example-1-explanation = تسیں آ رِہ ہو؟<strong>[کسی ہور بلایا]</strong>
