@@ -1,2 +1,2 @@
 # GUIDELINES PAGE
-guidelines-header = روخ بیسے یری پونگ
+guidelines-header = روخ بیسے جہلتونگ
