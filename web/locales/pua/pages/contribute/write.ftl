@@ -22,6 +22,8 @@ new-sentence-rule-6 = Así úra kararakwa máteru k'eri iretarhu anapuechani
 new-sentence-rule-7 = sési jatsiku nani énka weraaka ma eratsikwa
 new-sentence-rule-8 = Eska sési weraaka wantakwa ka úni wantontskwarhikwarhini (jatsisti eska úaka arhintani inte wantakwa)
 login-instruction-multiple-sentences = <loginLink> inchani chiiti jimpo </loginLink> ori <loginLink> karakwarhini </loginLink> parikari wani wantakwa untskata kúparhatawaka.
+how-to-cite = ¿Nena p'itakwarhiaa nani énka weraka?
+how-to-cite-explanation-bold = URL jimpo wantaxera o jatsiku nena énka arhinhak'a ánchikwarhita.
 
 ## BULK SUBMISSION 
 
