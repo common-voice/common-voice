@@ -27,6 +27,7 @@ how-to-cite-explanation-bold = Citachi pii enlacechi URL o illotega Yoma tewa ob
 how-to-cite-explanation = Muú isiremú nawesagá owerá chaní  <italicizedText>"Autocita"</italicizedText>. nanerenané akaná teikamú iká contenido nenemía si pichiwua ujupú yomá jenteichó, Kí aplikandona restricciones de derecho de autor. Espeché itapití nenenaria citaicho nenemitia tamó<guidelinesLink> pagina</guidelinesLink>
 guidelines = Weiká reglachy
 contact-us = Tamo peja ino
+add-sentence-success = Nawesari ra'waroatiame utiame wa'a nayawaniachi
 add-sentence-error = Wekaremú yáchega oracioné
 required-field = Kaweruma eraga amo chanene iwá illotemichó
 single-sentence-submission = Amó nejario pile naosari
