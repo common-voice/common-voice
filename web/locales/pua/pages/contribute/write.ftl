@@ -20,6 +20,8 @@ new-sentence-rule-4 = sési ura kararakwaechani ka istu winhats'ïtakwa ampe.
 new-sentence-rule-5 = así jama miyukwaechani jatsikwaani ni materu jásï kararakwa ampe
 new-sentence-rule-6 = Así úra kararakwa máteru k'eri iretarhu anapuechani
 new-sentence-rule-7 = sési jatsiku nani énka weraaka ma eratsikwa
+new-sentence-rule-8 = Eska sési weraaka wantakwa ka úni wantontskwarhikwarhini (jatsisti eska úaka arhintani inte wantakwa)
+login-instruction-multiple-sentences = <loginLink> inchani chiiti jimpo </loginLink> ori <loginLink> karakwarhini </loginLink> parikari wani wantakwa untskata kúparhatawaka.
 
 ## BULK SUBMISSION 
 
