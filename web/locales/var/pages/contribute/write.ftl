@@ -108,6 +108,18 @@ rate-limit-toast-message-seconds =
         [one] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí, enchy yoamitiá piripi segundochi.
        *[other] heriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí, enchy yoamitiá { $retryLimit } segundochi.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá pii munitochy enchí itochemaria pirechy oración.  ¡cheriwema amó pulleriachó!
+       *[other] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá { $retryLimit } munitochi enchí itochemaria pirechy oración.  ¡cheriwema amó pulleriachó!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá pii segundochi enchí itochemaria pirechy oración. Cheriwema amó pulleriachó.
+       *[other] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá { $retryLimit }segundochi enchí itochemaria pirechy oración. Cheriwema amó pulleriachó.
+    }
 small-batch-sentences-rule-1 = Simetepa pautandoka, ¿istana oracioni toetaria agregandoka?
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
