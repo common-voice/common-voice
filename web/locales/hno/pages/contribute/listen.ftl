@@ -6,3 +6,7 @@ listen-3rd-time-instruction = 2ڈاؤن، جاری رکھو شاباش!<playIcon
 listen-last-time-instruction = <playIcon></playIcon>اہک آخری!
 listen-empty-state = اساں کول کلپس مک ہکدے ہن۔ صفحہ فر تازہ کرو، یا بعد بچ دوبارہ کوشش کرو۔
 listen-empty-state-variants = تسدی زبان دے لہجہ بچ کلپس مُک ہکدے ہن! اگر تسیں آرام نال ہو، تے تسیں دوئے جملے اپنڑی زبان بچ دکھنڑا واسطے اپنڑی ترتیب بدلا ہکدے ہو۔
+listen-loading-error = اساں کو تسدے سنڑا واسطے آواز دے کوئی کلپس نیں مِلے۔ برائے مہربانی بعد بچ دوبارہ کوشش کرو۔
+listen-abort-title = کلپاں دی تصدیق ختم کراں؟
+listen-abort-cancel = تصدیق کرنا جاری رکھو
+listen-abort-confirm = تصدیق کرنا ختم کرو
