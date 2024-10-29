@@ -1,6 +1,7 @@
 ## Datasets Page
 
 datasets-heading = Dataset
+datasets-headline = Abi kholaw malumat, bo zuban una sawzek day, dataset una awazan thara saw thi aya darkhast una mondr dek bahan
 language = zuban
 download-dataset-header = dataset download ka
 # File size in gigabytes
