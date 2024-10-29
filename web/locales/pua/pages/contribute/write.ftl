@@ -55,9 +55,18 @@ media_entertainment = wantakwa etsakutarakwa ka eranharhikwa ampe sáni
 nature_environment = yámintu jásï irekwaeri ampe ka istu juatarhu anapu ame exekwa
 # Sentence Domain dropdown option
 news_current_affairs = ayantkup'erata ka yásï anapu ampe mítikwa
+sentence-variant-select-label = Wantakwaeri materu jasï arhikwa
+sentence-variant-select-placeholder = eraka ma jásí wantakwani (úakari erakuni o juraak'uni)
+sentence-variant-select-multiple-variants = Yámintu jásï wantakwa / materu jarhati wantakwaecha
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kúparhata wantakwa úntskata énka yámintu kw'iripu úaka úrani <icon> </icon>
+sc-bulk-upload-instruction = Ixu antsïta chiiti karakatani o <uploadButton> ixu jayatsïku parari karhatani </uploadButton>
+sc-bulk-upload-instruction-drop = Ixu jurak'u karakatani parari karhatani
+bulk-upload-additional-information = Énka jaka utasï mítikwa ampe i karakataeri, ixuasï mititarpi <emailFragment> commonvoice@mozilla.com </emailFragment>
+template-file-additional-information = Énka jaka utasï mítikwa ampe i karakataeri ka énka no kweratani jaka , ixuasï mititarpi  <emailFragment> commonvoice@mozilla.com </emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
