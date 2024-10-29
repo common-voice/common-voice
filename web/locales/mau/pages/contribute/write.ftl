@@ -6,6 +6,7 @@ write-page-subtitle = Nijmí xi kis'eyuju kuanjnguka xki, k'ua s'ere kjuatexuma,
 sentence =
     .label = Nikmí
 sentence-input-placeholder = Chanijin nijmí xi kuan skut'a tsi'í chuta.
+small-batch-sentence-input-placeholder = Chanijin nijmí xi kuan skut'a tsi'í chuta.
 
 ## BULK SUBMISSION 
 
