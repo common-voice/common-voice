@@ -99,8 +99,14 @@ exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oracione
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí.  Enchy yoamitiá  1 munitochy
-       *[other] { "" }
+        [one] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí.  Enchy yoamitiá  piripi munitochi
+       *[other] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí.  Enchy yoamitiá  { $retryLimit } munitochi
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí, enchy yoamitiá piripi segundochi.
+       *[other] heriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí, enchy yoamitiá { $retryLimit } segundochi.
     }
 small-batch-sentences-rule-1 = Simetepa pautandoka, ¿istana oracioni toetaria agregandoka?
 small-batch-sentences-rule-2 = toametamu oracioni risaka lineachi
