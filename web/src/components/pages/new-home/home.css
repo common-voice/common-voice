@@ -11,7 +11,7 @@
             background-size: 100% 100%;
 
             @media (--xl-up) {
-                height: 70vh;
+                height: 60vh;
             }
 
             @media (--lg-down) {
@@ -28,7 +28,7 @@
             .hero-text-wrapper {
                 display: flex;
                 justify-content: end;
-                flex: 0.8;
+                flex: 0.74;
 
                 @media (--lg-down) {
                     justify-content: center;
@@ -126,7 +126,7 @@
                     justify-content: space-between;
 
                     @media (--xl-up) {
-                        height: 58%;
+                        height: 55%;
                     }
 
                     @media (--lg-down) {
@@ -250,12 +250,12 @@
                 }
 
                 img.hero {
-                    height: 60vh;
+                    height: 50vh;
                     border-top-left-radius: 90%;
                     border-bottom-left-radius: 100%;
 
                     @media (--xl-up) {
-                        width: 40vw;
+                        width: 35vw;
                     }
 
                     @media (--lg-down) {
