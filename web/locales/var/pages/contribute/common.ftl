@@ -84,6 +84,7 @@ request-language-button = ithamàne piripi nawésari
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = yoraniame / chu'chapaniame
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -93,6 +94,8 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-misreadings-example-5-title = Siminané neéa waà pueblochitú
+contribution-misreadings-example-6-title = Simané waá pueblochitú
 contribution-volume-title = Muenapu
 see-more = </chevron></chevron>epeche weyka
 see-less = <chevron></chevron>neene paykapi
