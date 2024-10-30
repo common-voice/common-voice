@@ -24,6 +24,7 @@ new-sentence-rule-8 = Eska sési weraaka wantakwa ka úni wantontskwarhikwarhini
 login-instruction-multiple-sentences = <loginLink> inchani chiiti jimpo </loginLink> ori <loginLink> karakwarhini </loginLink> parikari wani wantakwa untskata kúparhatawaka.
 how-to-cite = ¿Nena p'itakwarhiaa nani énka weraka?
 how-to-cite-explanation-bold = URL jimpo wantaxera o jatsiku nena énka arhinhak'a ánchikwarhita.
+how-to-cite-explanation = Énkaksï yámintu chiitika wantakwaecha, wanta <italicizedText> “juchiiti wantakwaesti" </italicizedText>. wetarhisïniti eskats'ïni arhika nani weraski i wantakwa parikani jucha ísï úaka exeni eska yámintu kw'iripuecha úaka úrani ka eska no nema wantantini jawaka. énkari wek'a sánteru sési míti ampe ísï ampe, axu incha <guidelinesLink> eranharhikwa énkari chuxapawaka </guidelinesLink>.
 guidelines = chúxapakwaecha
 contact-us = Xuasïts'ïni wantap'a
 add-sentence-success = Karakata patsantskata
