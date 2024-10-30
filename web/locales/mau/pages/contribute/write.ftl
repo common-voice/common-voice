@@ -22,6 +22,7 @@ new-sentence-rule-8 = Ndasin kata s'e (Mitsa ni'in kjuá nijmí)
 login-instruction-multiple-sentences = Te'tsie</loginLink>tsa majen<loginLink>tjatae</loginLink>nga kua nkjin nijmí sinyajin.
 how-to-cite = ¿Jús'in kuat'a xi kiski?
 how-to-cite-explanation-bold = Tjat'ae je'énre xá
+how-to-cite-explanation = A tsií énn k'ua si,<italicizedText></italicizedText> jñá kisuku xi titsuya i to kui nga tji'jngunajin nga mi y'a ts'e, tsá mejenri chut'ae tiyuju xkire.
 
 ## BULK SUBMISSION 
 
