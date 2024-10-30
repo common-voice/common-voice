@@ -7,6 +7,9 @@ sc-review-select-language = Usá pii nawesary nenémichó oracioné
 sc-review-no-sentences = kite waasi o'rasioni  púka ne'neniame. <addLink> na'peniame e'peché o'rasioni</addLink>
 sc-review-form-prompt =
     .message = Ka'i ito'chena pu'ka ne'netiame, ¿pichi'wá chani'mú?
+sc-review-form-usage =
+    Ri'siitate wa'a a'jámina pu'ka yorapame. Ri'siitate waa jo'wena'mina puka kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
+    ka'te na'tekepa puka itochemia amo ne'neria</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Akana machijipakamu{ $sentenceSource }
