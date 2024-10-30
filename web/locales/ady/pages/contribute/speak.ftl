@@ -11,5 +11,7 @@ record-error-too-quiet = Тетхагъэм ымакъэ мэкӏэ дэдагъ
 record-cancel = Тетхэжьыныр щыгъэзый
 record-instruction = { $actionType }<recordIcon></recordIcon> ащ ыуж шъумакъэ ӏоу гущыӏэухыгъэм шъукъедж
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ухыгъэ зыхъукӏэ
+record-three-more-instruction = Зы-тӏущ къэнагъ!
+record-again-instruction = Дэгъу дэд!<recordIcon></recordIcon>Къэкӏощт макъэр тетх
 review-recording = Еплъыжъын
 why-donate = Сыда укъыкӏэупчӏэрэр?
