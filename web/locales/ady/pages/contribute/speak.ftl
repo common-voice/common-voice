@@ -19,5 +19,7 @@ share-clip = Тептхагъэр гощ
 share-common-voice = Комон Войсыр гощ
 record-abort-submit = Тетхагъэхэр егъэхь
 record-abort-continue = Мэкъэ тетхыныр ух
+record-abort-delete = Къыхэкӏыжь ыкӏи тетхагъэхэр тегъэкӏ
+review-submit-title = Еплъыжь ыкӏи фэгъахь
 review-recording = Еплъыжъын
 why-donate = Сыда укъыкӏэупчӏэрэр?
