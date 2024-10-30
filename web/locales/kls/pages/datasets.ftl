@@ -37,3 +37,5 @@ feedback-q = kia nasiat shian e?
 # This indicates that there is no data to display
 no-information = Malumat ne
 resource-nemo-info = NVIDIW NeMo, kholaw toolkit, khojaw , sawzawaw mashkugi AI an nishan sawzain day
+data-other-ted-name = ted lium corpus
+data-other-ted-description = ted lium corpus kia ki shiow asa audio talks zhe tai transcription as thara sauz thi shiow se TED website una available shiow
