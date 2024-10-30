@@ -17,5 +17,7 @@ record-again-instruction2 = Лъыгъэкӏуат, джыри зэ тетх <re
 record-last-instruction = <recordIcon></recordIcon> Аужрэр!
 share-clip = Тептхагъэр гощ
 share-common-voice = Комон Войсыр гощ
+record-abort-submit = Тетхагъэхэр егъэхь
+record-abort-continue = Мэкъэ тетхыныр ух
 review-recording = Еплъыжъын
 why-donate = Сыда укъыкӏэупчӏэрэр?
