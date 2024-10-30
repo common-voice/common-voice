@@ -45,6 +45,7 @@ feedback-q = تا جے تأثرات؟
 # This indicates that there is no data to display
 no-information = معلومات نہ تھے
 resource-nemo-info = <githubLink>این وی آئی ڈی آئی اے نیمو</githubLink>™ ہِک <docsLink>اوپن-سورس ٹول کِٹ</docsLink> ان محققین واسطے ہے جاں جدید ترین ڳالھ وار تی اے آئی نمونیک تیار کن٘دے ہِن۔
+resource-deepspeech-info = موزیلا تی اوپن سورس اَواز تی سُن٘ڄاݨن انجن ݙونگھی ڳالھ وارینک ڳالھ وار سُں٘ڄاݨن ایپلی کیشنز جوڑݨ واسطے استعمال کیا ون٘ڄ سڳدا ہے۔ اساں جا <githubLink>گِٹ ہَب جائزہ</githubLink> پڑھ یا شروع کرݨ تا طریقہ سِکّھݨ واسطے <discourseLink>ݙُونگھی ڳالھ وارینک حال وال</discourseLink> وِچ رَل۔
 go-discourse = حال وال تی ون٘ڄ
 go-languages-page = ٻولیاں صفحہ تی ون٘ڄ
 more = ٻیا
