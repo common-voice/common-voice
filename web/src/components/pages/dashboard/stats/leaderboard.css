@@ -21,6 +21,10 @@
             transform: translate(60%, 70px);
             filter: blur(4px);
             pointer-events: none;
+
+            [dir='rtl'] & {
+                transform: translate(-60%, 70px);
+            }
         }
     }
 
@@ -87,6 +91,11 @@
         right: 25px;
         border: none;
         background: none;
+
+        [dir='rtl'] & {
+            left: 25px;
+            right: unset;
+        }
 
         & svg {
             width: 20px;
