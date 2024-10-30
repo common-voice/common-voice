@@ -9,7 +9,6 @@
             width: 100%;
             background: url('./assets/home-bg-waves.png');
             background-size: 100% 100%;
-            gap: 12px;
 
             @media (--xl-up) {
                 height: 70vh;
@@ -18,6 +17,7 @@
             @media (--lg-down) {
                 flex-direction: column;
                 gap: 24px;
+                padding-block-end: 50px;
             }
 
             @media (--md-down) {
@@ -114,7 +114,6 @@
                 }
 
                 @media (--sm-down) {
-                    height: 60vh;
                     justify-content: center;
                     position: relative;
                 }
@@ -127,7 +126,7 @@
                     justify-content: space-between;
 
                     @media (--xl-up) {
-                        height: 65%;
+                        height: 58%;
                     }
 
                     @media (--lg-down) {
@@ -241,7 +240,7 @@
 
                     @media (--xl-up) {
                         width: 50%;
-                        top: 50%;
+                        top: 40%;
                         left: 50%;
                     }
 
