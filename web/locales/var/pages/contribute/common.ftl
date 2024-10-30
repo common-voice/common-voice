@@ -70,6 +70,7 @@ shortcut-record-toggle-label = Ra'waroatiame / chu'chapaniame
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = E'naniame
 shortcut-submit-label = i'tochetiame ra'waroatiame
+request-language-button = ithamàne piripi nawésari
 
 ## Listen Shortcuts
 
