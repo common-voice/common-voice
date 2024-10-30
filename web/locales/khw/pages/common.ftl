@@ -277,9 +277,9 @@ return-to-cv = کمان وائسا واپس گے
 email-input =
     .label = ای میل
 loading = لوڈ بویان۔۔۔
-email-opt-in-info = اوا ایی گیک جاری ستیک مݰکیمان تاکہ مہ تین مہ حدف  یاد بوئے، مہ کورمو  اپڈیٹ گوئی، وا کمان وائسو بارا نیوز لیٹر گونی۔
+email-opt-in-info = اوا ای میل گیک جاری سوتیک مݰکیمان تاکہ مہ تین مہ حدف  یاد بوئے، مہ کورمو  آگاہی بوئی، وا کمان وائسو بارا نیوز لیٹر گونی۔
 email-opt-in-info-title = کمان وائسو ای میلان لسٹا شامل بوس۔
-email-opt-in-info-sub-with-challenge = مہ تین ہݰ ای میل گیانی کی تیت مقابلو وا حدف  یاد کوریانی، مہ کورمو  اپڈیٹو پتہ بائے، وا کمان وائسو بارا نیوز لیٹر۔
+email-opt-in-info-sub-with-challenge = مہ تین ہݰ ای میل گیانی کی تیت مقابلو وا حدف  یاد کوریانی، مہ کورمو بارا اگاہی بائے، وا کمان وائسو بارا نیوز لیٹر گیانی۔
 email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیا لوو واضح ہوئے کہ موزیلا ہمی معلوماتان موزیلاز<privacyLink> تفصیلو دیکو  کی سنبال اریر تتین قبول۔ راز داریو پالیسی</privacyLink>
 indicates-required = کیا ژاغا کی (*) اوشوئے ہسے ضروری
 not-available-abbreviation = تہ سورا لاگو نو
@@ -287,9 +287,9 @@ not-available-abbreviation = تہ سورا لاگو نو
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
-donate-banner-cta = اسپتہ تین تہ مدد </mark><mark>  ضرورت شیر</mark><mark><br/>
+donate-banner-cta = اسپہ تین تہ مدد </mark><mark>  ضرورت شیر</mark><mark><br/>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = ڈیٹاسیٹو کورا لکھیکو پچین وا ہیاژاغو بہتر کوریکو پچین تقریبا ای کروڑ روپہ ضرورت۔ اسپہ کیاغ کی کوسیان <strong> ای شورار ذیاد زبانا روئے ہمو استعمال کونیان۔ تو دی کی سفو پچین کہ ہتیرا ہر کا اسور معلوماتان قدر  کوسان ہنون تان وقف کو </strong>
+donate-banner-cta-explanation = ڈیٹاسیٹو کورا لکھیکو پچین وا ہیاژاغو بہتر کوریکو پچین تقریبا سالانہ ای کروڑ روپہ ضرورت۔ اسپہ ہیاکورمو <strong> ای شورار ذیاد زبانا روئے استعمال کونیان۔ تو دی کی سفو پچین ہرکوس معلوماتان قدرکوسان ہنون تان وقف کو </strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark> CV پچین استعمال بویان</mark><br/><mark> تہ تحقیقا؟</mark>
 languages-donate-banner-cta-explanation = کمان وائسو تے فنڈ خیراتو اوچے گرنٹو ذریعہ گویان۔ اسپہ ماہر تعلیمان، تنظیمان وا کارخانان بارا تحقیق کوراکان سون ای بیتی کوروم کوسیان۔ کمان وائس استعمال بچین مفت مگن ہمو سون مدد کوریک وا گرنٹو ذریعہ خرچا حصہ گنیک بو مدد گار۔
