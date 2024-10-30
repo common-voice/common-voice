@@ -32,6 +32,9 @@ sc-review-form-reviewed-message =
        *[other] جملیاں دا جائزہ ہو گیا۔ شکریہ!
     }
 sc-review-form-review-failure = جائزہ محفوظ نہ ہویا ہوسی۔ برائے مہربانی بعد بچ دوبارہ کوشش کرو۔
+sc-review-link = نظرثانی
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ نظرثانی دا معیار
+sc-criteria-title = نظرثانی دا معیار
