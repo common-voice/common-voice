@@ -29,6 +29,7 @@ change-preferences = Na'kuriwaniame a'po ino'wareka
 
 ## Contribution Nav Items
 
+contribute-sentence-collection-nav-header = Ma'chipaniame pu'ka na'wesari
 login-signup = Oinemera sesión neteka...regitradosa
 vote-yes = ejeé
 vote-no = kai
@@ -46,9 +47,12 @@ report-ask = ithana uju puu newesari?
 report-offensive-language = naereka nawesamé
 report-offensive-language-detail = Kí  yoreká nawesanimú naerachanimú.
 report-grammar-or-spelling = Wekaka yo'ratiame o pu'ka i'yotetiame
+report-grammar-or-spelling-detail = I'ji na'wesari i'niwae we'kaka yoratiame o pu'ka yo'tetiame
 report-different-language = Pirechi naewasari
+report-different-language-detail = Yo'teniame ka'ti pi'repi na'wesarichi se'wina che'ka ki'no na'iwachitia
 report-difficult-pronounce = Tekite pronuciadoniame
 report-difficult-pronounce-detail = Itona nawésary leyeroaniame tekitíamepu.
+report-offensive-speech = I 'no'waeme ta'mó nekamupatiame
 report-offensive-speech-detail = Grabacionía itónapu piripi naeracheka nawesaniame o achikoricheniame.
 report-other-comment =
     .placeholder = Nayawatiamé
@@ -67,7 +71,10 @@ shortcut-skip = h
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Ra'waroatiame / chu'chapaniame
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Raroariame e'nchiwemera kite'peruma
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = U'yeniame pu'ka ra'waroatiame wa'a ma'siteniachi
 shortcut-submit = E'naniame
 shortcut-submit-label = i'tochetiame ra'waroatiame
 request-language-button = ithamàne piripi nawésari
