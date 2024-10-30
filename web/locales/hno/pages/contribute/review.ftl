@@ -51,3 +51,5 @@ sc-review-rules-title = جملہ ہدایات تے پورا اُتردا ہے؟
 sc-review-empty-state = اس وقت اس زبان بچ نظرثانی واسطے کوئی جملے نیں۔
 report-sc-different-language = مختلف زبان
 report-sc-different-language-detail = اے مڑی نظرثانی آلی زبان کولو مختلف زبان بچ لکھے دے ہن۔
+sentences-fetch-error = جملے آنڑناں بچ ہک خرابی ہو گئی
+review-error = اس جملے دی نظرثانی بچ ہک خرابی ہو گئی
