@@ -27,7 +27,8 @@ target-segment-learn-more = Epeche weika información
 ## Contribution Nav Items
 
 login-signup = Oinemera sesión neteka...regitradosa
-vote-yes = Kai
+vote-yes = ejeé
+vote-no = kai
 languages = Weika naewasari naewaniame
 partner = Yoomatiame socioba
 submit-form-action = itocheniame
