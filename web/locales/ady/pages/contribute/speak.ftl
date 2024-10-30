@@ -22,4 +22,7 @@ record-abort-continue = Мэкъэ тетхыныр ух
 record-abort-delete = Къыхэкӏыжь ыкӏи тетхагъэхэр тегъэкӏ
 review-submit-title = Еплъыжь ыкӏи фэгъахь
 review-recording = Еплъыжъын
+terms-agree = Сезэгъы
+terms-disagree = Сезэгъырэп
 why-donate = Сыда укъыкӏэупчӏэрэр?
+continue-speaking-button = Хау опсэу, гущыӏэным лъыгъэкӏуат
