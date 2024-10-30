@@ -52,7 +52,9 @@ shortcut-skip = h
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
+shortcut-record-toggle-label = Ra'waroatiame / chu'chapaniame
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = E'naniame
 
 ## Listen Shortcuts
 
