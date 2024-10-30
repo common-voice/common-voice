@@ -143,3 +143,4 @@ small-batch-sentences-rule-3 =
     Ninimitia pii lineachy toyka pii lineachy pirechy
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
 small-batch-sentences-rule-5 = Yomá pukà oracioné waátiamé temachy inemetaá
+small-batch-sentences-rule-6 = Yomá oracioné itania inibaemicho piíché akaná oyaniá i nenemía akaná Tamó iyagó
