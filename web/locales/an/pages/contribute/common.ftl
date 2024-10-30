@@ -1,4 +1,4 @@
-action-click = Clic
+action-click = Fe clic en
 action-tap = Triar
 contribute = Colaborar
 review = Revisar
