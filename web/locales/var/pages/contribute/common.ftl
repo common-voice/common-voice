@@ -48,6 +48,7 @@ report-offensive-language-detail = Kí  yoreká nawesanimú naerachanimú.
 report-grammar-or-spelling = Wekaka yo'ratiame o pu'ka i'yotetiame
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
+report-difficult-pronounce-detail = Itona nawésary leyeroaniame tekitíamepu.
 success = Kawétiame
 continue = simiteniame
 
