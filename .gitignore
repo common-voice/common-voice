@@ -1,5 +1,5 @@
 node_modules
-config.json
+# config.json
 maintenance/index.html
 maintenance/css/vars.css
 common/index.ts

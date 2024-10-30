@@ -1,0 +1,5 @@
+"AUTH0": {
+  "DOMAIN": "<domain_here>",
+  "CLIENT_ID": "<client_id_here>",
+  "CLIENT_SECRET": "<client_secret_here>"
+}
