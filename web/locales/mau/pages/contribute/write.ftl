@@ -26,6 +26,7 @@ how-to-cite-explanation = A tsií énn k'ua si,<italicizedText></italicizedText>
 guidelines = chuba
 contact-us = tinúkjuanájin
 add-sentence-success = Énn kis'exkú
+add-sentence-error = Tsitsúnjin nga tis'ejin nijmí
 
 ## BULK SUBMISSION 
 
