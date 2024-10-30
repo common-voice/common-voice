@@ -42,6 +42,7 @@ report = Informandomia naewasari
 report-title = Itocheniame informe netesa
 report-ask = ithana uju puu newesari?
 report-offensive-language = naereka nawesamé
+report-offensive-language-detail = Kí  yoreká nawesanimú naerachanimú.
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
 success = Kawétiame
