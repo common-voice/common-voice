@@ -76,6 +76,8 @@ data-get-started = <speechBlogLink>ڳالھ وار سُن٘ڄاݨ ساں شرو�
 data-other-title = ٻئے اَواز تے ڈیٹا سیٹس…
 data-other-goto = { $name } تی ون٘ڄ
 data-other-download = ڈیٹا ڈاؤن لوڈ کر
+data-bundle-button = ڈیٹا سیٹ تا ٹولہ ڈاؤن لوڈ کر
+data-bundle-description = کامن وائس تا ڈیٹی ٻیا اُتّوں حاضر ٻئے وائس ڈیٹا سیٹس۔
 release-version = ورژن
 dataset-date = تاریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
