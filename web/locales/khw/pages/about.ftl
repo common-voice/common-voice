@@ -104,37 +104,37 @@ about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریک
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  پچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیا کو اہم، وا خور رویان تین زبانو حقوقان، ہوازو اے آئی، یا ٹکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران پچین<campaignLink> ہیا ژاغا ڑوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
 about-playbook-how-grow-language-content-6 = حصہ داری وا تعلوقات
-about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیا بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لوو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> ڑوڑے  پوشٹی نویشی تیار کاردو  ای میلان
+about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیا بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> ڑوڑے  پوشٹی نویشی تیار کاردو  ای میلان
 about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</strong>۔ تا زبانو ڈال  بلکل خور بیلیک وا ہمیت شروع کوریکو ای کما طریقہ۔
 
 ## How to validate
 
-about-playbook-how-validate = اوا کیا طریقہ ہوݰ کو م کی ہیا آوازو منظور کوریلیک رے؟
+about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہیا ہوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>تیتان تے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
-about-playbook-how-validate-content-2 = <strong>  ہتے آوازو رد نو کی ہیترا لودیاکو تلفظ تا سار خور </strong>-سف ای بیتی کوروم کوری  آوازو ہوݰ کوریکو پچین ہیا بو اہم۔
-about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی  ناممکن بویان <strong>  یا اچا<strong> بو شور گویان،</strong> یا خور<strong> رویان لوو دی شینی</strong> تھے آوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' ڑوڑے </accuracyLink>
+about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نو کی ہیترا لودیاکو تلفظ تا سار خور </strong>-سف ای بیتی کوروم کوری  اوازو ہوݰ کوریکو پچین ہیا بو اہم۔
+about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی  ناممکن بویان <strong>  یا اچا<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' ڑوڑے </accuracyLink>
 about-playbook-how-validate-content-4 = اگر ای  آوازو جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = اوا ڈیٹا بیسا کیچا بیتی بیم وا استعمال کیچہ کوری کوم۔
-about-playbook-how-access-dataset-content-1 = تو ڈیتا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے زبانو گنے کھیوکی تو مݰکیسان وا ہورو ڈاونلوڈ کو۔ ہے فائلو سون <metadataLink> چوکیرو لوٹ دیٹا شیر</metadataLink>، آبادیو وا تسدیقو معلومات شینی۔ ڈونلوڈ کوریکو پچین تہ تان ای میلو دیلیک بوئے۔
-about-playbook-how-access-dataset-content-2 = تو کی ASR ماڈلو تین اشناری کی ساوزیسان، تو تان کمیونیٹا <discourseLink> خور رویان سون لوو دیکو پچین تیتان سون تعلق لکھیکو بوس۔
+about-playbook-how-access-dataset-content-1 = تو ڈیتا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے زبانو گنے کھیوکی تو مݰکیسان وا ہورو ڈاون لوڈ کو۔ ہے فائلو سون <metadataLink> چوکیرو لوٹ دیٹا شیر</metadataLink>، آبادیو وا تصدیقو معلومات شینی۔ ڈونلوڈ کوریکو پچین تہ تان ای میلو دیلیک بوئے۔
+about-playbook-how-access-dataset-content-2 = تو کی ASR ماڈلو تین اشناری کی ساوزیسان، تو تان کمیونیٹا <discourseLink> خور رویان سون لو دیکو پچین تیتان سون تعلق لکھیکو بوس۔
 
 ## How are decisions made
 
 about-playbook-how-project-governance = پروجکٹو بارا  فیصلہ کیچہ کوری ہوئے
-about-playbook-how-project-governance-content-1 = موزیلا کمان وائسو  پوا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینیئر ممکن ساوزیتانی۔ پروجکٹو موزیلا فونڈیشنو نگرانی کویان۔
+about-playbook-how-project-governance-content-1 = موزیلا کمان وائسو  پوا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینیئر ممکن ساوزیتانی۔ پروجکٹو موزیلا فونڈیشن نگرانی کویان۔
 about-playbook-how-project-governance-content-2 = اسپہ حکمرانیو ساوز بیکو ٹھون:
 about-playbook-how-project-governance-content-3 = راز داری، تحفظ وا شفافیت
 about-playbook-how-project-governance-content-4 = کمینوٹیو حصہ گنیک وا فیصلہ کوریک۔
 about-playbook-how-project-governance-content-5 = قدر وا  قبول کوریک
 about-playbook-how-project-governance-content-6 = تان موژی ایغو سون حساب کتاب
-about-playbook-how-project-governance-content-7 = <governanceLink> اپسہ حکمرانیو بارا خور معلوماتاب پچین ہمو راوور</governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حکمرانیو بارا خور معلوماتان پچین ہمو راوور</governanceLink>
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = کمان وائس کیچا بیتی ساوز ہوئی؟
-about-playbook-how-funded-content-1 = کمان وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تمام پیسہ <philantropicGrantLink> خدمت خلق فانڈار</philantropicGrantLink> وا پورا دنیو رویان عطیہ گویان۔
+about-playbook-how-funded = کمان وائس کیچا بیتی ساوز ہوئے؟
+about-playbook-how-funded-content-1 = کمان وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دنیو رویان عطیآر گویان۔
 about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو پچین،  بہتر کوریکو پچین وا کمیونیٹیان پروگرامان چلیکو پچین بو پیسو ضرورت شیر۔
-about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سون مدد کوریک کی مݰکیمیان، پیسا عطیہ<donateLink> دیکو بومی </donateLink> یا یا اسپہ حصہ دار ٹمینان سون لوو دیکو بومی۔
+about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سون مدد کوریک کی مݰکیمیان، پیسا عطیہ<donateLink> دیکو بومی </donateLink> یا یا اسپہ حصہ دار ٹمینان سون لو دیکو بومی۔
