@@ -1,6 +1,6 @@
 ## Profile Download
 
-download-q = تھو ڈیٹا ڈاؤنلوڈ تھیونو اواجی
+download-q = تھو ڈیٹا ڈاؤنلوڈ تھیونی ہی دا؟
 download-info = توسے یوک ڈاوٰنلوڈ تھیونو اروڈاوٰ
 download-profile-title = پروفائیل
 download-profile-info = آنے ای میل، استعمال تھیکو نوم گہ زیسئی دِیشو معلوماتے ہائیں۔
