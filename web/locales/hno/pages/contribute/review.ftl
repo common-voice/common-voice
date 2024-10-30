@@ -23,6 +23,15 @@ sc-review-form-button-skip-shortcut = چھوڑو
 sc-review-form-keyboard-usage-custom = تسں کی بورڈ شارٹ کٹ بھی استعمال کر سکدے ہو:{ sc-review-form-button-approve-shortcut }منظور کرنا واسطے،{ sc-review-form-button-reject-shortcut }مسترد کرنا واسطے،{ sc-review-form-button-skip-shortcut }چھوڑنا واسطے
 sc-review-form-button-submit =
     .submitText = جائزہ مکمل کرو
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] جملیاں دا جائزہ نیں ہویا۔
+        [one] جملے دا جائزہ ہو گیا۔ شکریہ!
+       *[other] جملیاں دا جائزہ ہو گیا۔ شکریہ!
+    }
+sc-review-form-review-failure = جائزہ محفوظ نہ ہویا ہوسی۔ برائے مہربانی بعد بچ دوبارہ کوشش کرو۔
 
 ## REVIEW CRITERIA
 
