@@ -3,6 +3,7 @@
 download-q = تھو ڈیٹا ڈاؤنلوڈ تھیونو اواجی
 download-info = توسے یوک ڈاوٰنلوڈ تھیونو اروڈاوٰ
 download-profile-title = پروفائیل
+download-profile-info = آنے ای میل، استعمال تھیکو نوم گہ زیسئی دِیشو معلوماتے ہائیں۔
 download-recordings-title = ریکارڈنگ
 download-size = سائز
 download-selected = دی تھاک
