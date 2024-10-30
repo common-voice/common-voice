@@ -118,9 +118,23 @@ about-playbook-how-validate-content-4 = اگر کلپ چک مینگا نیسی �
 ## How to access dataset
 
 about-playbook-how-access-dataset = ناسی ڈیٹا سیٹ پووی دیکھہ چی بیسے گوا دیکھنہ ڈیٹا سیٹ پو چی بیسے کولبہ؟
+about-playbook-how-access-dataset-content-1 = یانگلا ڈیٹا سیٹی صفحیکھہ گوا نینید، سکتپو نہ سکتی ہلتا بزونگ غدوم، دیکھنہ ڈاون لوڈ بیوس۔ فاٸل کن میٹا ڈیٹا نہ زھمچوکسے یودپن، سکتی کھور کھاری معلومات نہ چھدکھہ سونگسے یودپی ڈیٹا نہ یمبو۔ ڈیٹا سیٹپو ڈاون لوڈ بیالا یانگلا ای میل چی چک منمہ رگوسپن۔
+about-playbook-how-access-dataset-content-2 = اگر یانگی اے ایس آر ماڈلی چتق چی ژالینگ یودپن نارے، یانگلا سکت گرونگی اے میونگنہ  سپیرا تنگمہ لا تھوکپہ رگوسید۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پراجیکٹی چھدتھنگپو چی بیسے گوین؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن واٸس پو  میولینگ ہرمق میونگ، سکتی شیس یودکھن کن، سکتیکھہ لس بیکھن کن، ڈیٹا ساٸنسدان کن، سافٹ وٸیری انجینٸر کن، ہلژپ کھنینگ لس بے کھن کن گانگمہ سی ملینگ کھیونگمن۔ دی پراجیکٹ پولا موزیلا فاونڈیشنی سی لق تھود منمن۔
+about-playbook-how-project-governance-content-2 = نٸی سترول بزونگ غبوس کنیکھہ لنگسے یودپن۔
+about-playbook-how-project-governance-content-3 = خسنگ بس کن، سترونگ بزونگ، نا لس بزانگ کن۔
+about-playbook-how-project-governance-content-4 = سکتی گرونگ میونگی یری کوریونگ نا چھدکھہ منمونگ
+about-playbook-how-project-governance-content-5 = مخ نا نوزین بیونگ
+about-playbook-how-project-governance-content-6 = چیک چیکپوی ہلتس بزونگ
+about-playbook-how-project-governance-content-7 = نیاچی بیسے سترولبن زیری بارینگ ینگسہ زیر۔
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن واٸس لا چی بیسے خمول منمن؟
+about-playbook-how-funded-content-1 = کامن واٸس موزیلا فاونڈیشینی پراجیکٹ چک ان، یو ایسی 501 سی 3.  دی پراجیکٹ پو یا وخلا بیونگ بیونگ ہلتا سترونگ بیکھن کنی لوکھسی خمول کنیکھہ درولینگ یودپن، دیکھنہ میولینگ نہ شیزدے بیکھن کنی خمول کولے لس کن ملینگ کھیونگمن۔
+about-playbook-how-funded-content-2 = ڈیٹا سیٹ کن فچوا نہ من دود چی بیالا تھوتھیکھ میدپی خمول رگوسپن، پلیٹ فارم پو ینگسہ زگونگمو فری دیکھنہ گرونگ یولی پروگرام کن فچوے فری سہ ایشن خمول کولبہ فوقپن۔
+about-playbook-how-funded-content-3 = اگر یانگنہ یری تنظیم پوی دی پراجیکٹ پولا پینے مینے روخ بین نارے، یانگلا چھد تھنگ چی شیزدے بیا نینید، میدنارے نٸی لس زونگ کن نہ تھوک جوو۔

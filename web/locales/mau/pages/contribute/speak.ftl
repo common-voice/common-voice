@@ -42,3 +42,19 @@ terms-disagree = Majen mi tjíjnguna
 first-cta-header-text = ¡Ninaá kat'échiri nga kits'énajin xtari!
 first-cta-subtitle-text = ¿A mejenri k'uinyanajin ngat'a ts'e jusian nukjue?
 why-donate = ¿Jméni chunangui?
+why-donate-explanation-1 = Tsin kju'anñu kjuát'a; to kui xi kjuájin tsa nda tjiri nga k'uabí jé énn kui, y'a xkúnnejin nga mi s'e tsejen tsá choon tsá, tsá xiín xi tjit'a.
+add-information-button = k'uinyajin jme sa xi tjín
+continue-speaking-button = Majen, to tinúkjue
+create-profile-text = ¿A kjuá tjoy énn xi kjiya?<createProfile>tindae asénri</createProfile>
+thanks-for-voice-toast = Ninaá kat'echiri tsik'ie xtari.
+thanks-for-voice-toast-error = Tsitsújin nga tiji jña kjiya xtari.
+first-cta-gender-select-default-option = Jngú cha'ajin
+first-cta-gender-select-help-text =
+    .label = ¿Jusin mejeri k'uiri a choon a xi'in?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Ninaá kat'echiri nga nikat'anajin xtar.
+second-cta-subtitle-text = ka asénri kuan chut'ajin jme xi kjima, kuinúkjuake chuta xi t'axin naxinandá nya tsá xki.
+already-have-an-account = ¿A jeé tjinri xki?<iniciar sesión>te'tsi'e</iniciar sesión>
+create-profile-button = Tindae asenri
+# IMAGE TAGS
+img-alt-success-checkmark = Tjajnare chuba nga nda kji

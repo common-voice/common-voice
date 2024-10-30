@@ -1,8 +1,8 @@
 # GUIDELINES PAGE
-guidelines-header = 貢獻指南
+guidelines-header = 貢獻指引
 guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
 voice-collection = 收集語音
-sentence-collection = 語句集合
+sentence-collection = 收集句子
 varying-pronunciations = 不同發音
 misreadings = 誤讀
 offensive-content = 冒犯性內容
@@ -66,7 +66,7 @@ citing-sentences-subheader-academic-reference-explanation = 您也可以使用�
 citing-sentences-subheader-offline-sources = 離線來源
 citing-sentences-subheader-offline-sources-explanation = 若為沒有線上版本的公眾領域文字，也可以使用學術參考文獻格式。例如哈佛格式「Jess (2021) My Public license poems」
 citation =
-    .label = 引用
+    .label = 出處
 self-citation = 自我引用
 self-citation-explanation = 如果是您自己撰寫的內容，請依下列方式引用自己。
 adding-sentences-subheader-length = 長度

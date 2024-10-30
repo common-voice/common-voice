@@ -82,9 +82,64 @@ accepted-files = Shemi file mmzor hin: .tvs mi
 minimum-sentences = Ek File una kam se kam mon: 1000 (ek hazar)
 maximum-file-size = Ziad ar ziad file jaiga: 25 MB
 what-needs-to-be-in-file = may shaya kagaz una kia zarurat shian
+what-needs-to-be-in-file-explanation = Meharbani kay, homa chota'la nishanan file jagai. Tay mon kas manat mo hiu ori. kura ki jama kariu day, se tasa asil krom hiu oria. tasa gramer asta sahi hiu ori. Mahikas bati asta asan hiu ori. 10 ya o 15 sekend hiu ori. warego kia lamber, ya o warek kia khas mo hiu ori mahikas bati
+upload-progress-text = Upload jari shiaw...
+sc-bulk-submit-confirm = A shama eh'et kam day ki shemi saw mochan bati shia domain. Upload karikas hatya my som ejazat shiaw
+bulk-upload-success-toast = Ziada mon upload hawan
+bulk-upload-failed-toast = Upload nakam hawaw, meharbani kay geri kari
+bulk-submission-success-header = Bo meharbani, tay ziada kay dekas ze jama karikas bati
+bulk-submission-success-subheader = To madad karis day sawin awazas bati, ta'ke har aduaw zalikas nishan pura hiu
+upload-more-btn-text = Waregas atsa mon upload ka?
+file-invalid-type = Galat file
 file-too-large = shia kaghaz bo ghona
 file-too-small = kagaz bo chutyak
 too-many-files = bo kaghaz shian
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Warek asta ziada, mochan domain jama kari
+multiple-sentences-error = To ziada mon ek tem una jama karik ne bahas
+exceeds-small-batch-limit-error = Ne bahas jama karik 1000 (ek hazar) mondr
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ek 1
+       *[other] warek 2
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Ek (1)
+       *[other] Warek (2)
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] One (1)
+       *[other] Warek (2)
+    }
+small-batch-sentences-rule-1 = Tharika jagai, kia mon a thek baham?
+small-batch-sentences-rule-2 = Ek line una ek mon thai
+small-batch-sentences-rule-3 = Alaida kari mon, ek phon una, "Enter " ya o "Return" (pishtyak) ek mi bar
+small-batch-sentences-rule-4 = 1000, (ek hazar) mon
+small-batch-sentences-rule-5 = Saw mondran peruk domain hiu ori
+small-batch-sentences-rule-6 = Saw mondran ze maikas usul peruk hiu ori

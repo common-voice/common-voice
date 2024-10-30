@@ -1,4 +1,4 @@
-speak = Falar
+speak = Fale
 speak-now = Fale agora
 speak-subtitle = Doe a súa voz
 record-cta = Arrancar a gravación
