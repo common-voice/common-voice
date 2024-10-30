@@ -40,6 +40,7 @@ report = Informandomia naewasari
 report-title = Itocheniame informe netesa
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
+success = Kawétiame
 
 ## Speak & Listen Shortcuts
 
