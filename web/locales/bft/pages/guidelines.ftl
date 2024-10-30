@@ -64,3 +64,4 @@ citing-sentences-subheader-websites-explanation = یانگلا ویب ساٸٹ �
 citing-sentences-subheader-academic-reference = اکیڈمک ریفرینس
 citing-sentences-subheader-academic-reference-explanation = یانگلا اکیڈمک ریفرینسی تھونگ بزو ہڑکیمہ نینید، مثلا ہارورڈ پی تھونگ بزو، موزیلا 2021 کامن واٸس۔ دیکھہ تھوبید https://commonvoice.mozilla.org/ تھونسید 15 ستمبر 2021
 citing-sentences-subheader-offline-sources = آف لاٸن سورس کن
+citing-sentences-subheader-offline-sources-explanation = چوقلا تھوبی ٹیکسٹ کن آن لاٸن تھوبین میدنارے، یانگلا اکیڈمک ریفرینسینگ کولبہ ننید، مثلا جیس 2021 نگی چوقلا ازن یودپی نظم پو
