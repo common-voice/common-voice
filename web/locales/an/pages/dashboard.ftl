@@ -28,7 +28,7 @@ get-started-goals = Principiar los míos obchectivos
 create-custom-goal = Crear un obchectivo personalizau
 goal-type = Qué tipo d'obchectivo quiers crear?
 both-speak-and-listen = Los dos
-both-speak-and-listen-long = Los dos (charrar y escuitar)
+both-speak-and-listen-long = Los dos (charrar y ascuitar)
 daily-goal = Obchectivo diario
 weekly-goal = Obchectivo semanal
 easy-difficulty = Facil
@@ -69,7 +69,7 @@ activity-needed-calculation-plural =
     }
 how-many-per-day = Excelent! Cuántas gravacions a lo día?
 how-many-a-week = Excelent! Cuántas gravacions a la semana?
-which-goal-type = Quiers charrar, escuitar u las dos?
+which-goal-type = Quiers charrar, ascuitar u las dos?
 receiving-emails-info = Agora mesmo lo tiens configurau pa recibir correus electronicos como recordatorios d'obchectivos, actualizacions de progreso y boletines d'información sobre Common Voice
 not-receiving-emails-info = La tuya configuración actual indica que <bold>NO recibes</bold> correus con recordatorios d'obchectivos, actualizacions de progreso ni boletines de noticias de Common Voice
 n-clips-pluralized =
