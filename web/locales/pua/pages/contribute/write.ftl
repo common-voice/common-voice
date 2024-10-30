@@ -41,7 +41,11 @@ sentence-domain-select-placeholder = erakwantsï tanimu jarhati wantakwa (úakar
 # Sentence Domain dropdown option
 agriculture_food = echerirhu anapu ampe ka t'irekwaeri ampe
 # Sentence Domain dropdown option
+automotive_transport = Automotriz y transporte
+# Sentence Domain dropdown option
 finance = Tuminaeri xanhatakwa
+# Sentence Domain dropdown option
+service_retail = exekwa ampe ka intspikwarhikwarhu
 # Sentence Domain dropdown option
 general = Yámintu ampe
 # Sentence Domain dropdown option
@@ -56,6 +60,8 @@ media_entertainment = wantakwa etsakutarakwa ka eranharhikwa ampe sáni
 nature_environment = yámintu jásï irekwaeri ampe ka istu juatarhu anapu ame exekwa
 # Sentence Domain dropdown option
 news_current_affairs = ayantkup'erata ka yásï anapu ampe mítikwa
+# Sentence Domain dropdown option
+technology_robotics = jimpanhi ampe ánchitatakwa arhikata Tecnología y robótica
 sentence-variant-select-label = Wantakwaeri materu jasï arhikwa
 sentence-variant-select-placeholder = eraka ma jásí wantakwani (úakari erakuni o juraak'uni)
 sentence-variant-select-multiple-variants = Yámintu jásï wantakwa / materu jarhati wantakwaecha
@@ -133,3 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = arini chuxapakwaechani exea "¿naki jarhati wantakwa úntskata úaka kúparhataani?"
 small-batch-sentences-rule-2 = Ma wantakwa úntskata kúparhata mantani kwirutsikata jimpo
+small-batch-sentences-rule-3 = mantani kwirutsikata jimpo jarhasperataa wantakwaechani, jiruch'akwaa mantani kwirutsikata jimpo.
+small-batch-sentences-rule-4 = úakari 1000 o utasaï wantakwa úntskata kúparhataani
+small-batch-sentences-rule-5 = Jatsisti eska yáminut wantakwa untskataecha úaka mak'u jankwarhu niarani
+small-batch-sentences-rule-6 = Yámintu wantakwa úntskataecha jatsiska eskaksï mapurhku anapuwaka
