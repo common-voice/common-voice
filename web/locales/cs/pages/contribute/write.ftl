@@ -125,5 +125,14 @@ rate-limit-message-minutes =
         [many] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minut. Děkujeme za vaši trpělivost!
        *[other] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minut. Děkujeme za vaši trpělivost!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte 1 vteřinu. Děkujeme za vaši trpělivost!
+        [few] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } vteřiny. Děkujeme za vaši trpělivost!
+        [many] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } vteřin. Děkujeme za vaši trpělivost!
+       *[other] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } vteřin. Děkujeme za vaši trpělivost!
+    }
 small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
+small-batch-sentences-rule-6 = Všechny věty musí mít stejnou citaci

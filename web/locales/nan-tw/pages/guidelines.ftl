@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = 貢獻指南
+guidelines-header = 貢獻指引
 guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
 voice-collection = 收集語音
 sentence-collection = 語句集合
@@ -66,7 +66,7 @@ citing-sentences-subheader-academic-reference-explanation = 您也可以使用�
 citing-sentences-subheader-offline-sources = 離線來源
 citing-sentences-subheader-offline-sources-explanation = 若為沒有線上版本的公眾領域文字，也可以使用學術參考文獻格式。例如哈佛格式「Jess (2021) My Public license poems」
 citation =
-    .label = 引用
+    .label = 出處
 self-citation = 自我引用
 self-citation-explanation = 如果是您自己撰寫的內容，請依下列方式引用自己。
 adding-sentences-subheader-length = 長度
@@ -83,6 +83,7 @@ adding-sentences-subheader-punctuation = 標點符號
 adding-sentences-subheader-punctuation-explanation = 應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
 adding-sentences-subheader-special-characters = 特殊符號與外文
 adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
+adding-sentences-subheader-special-characters-explanation-2 = 各種語言可以在在地化時制定自己的驗證規則。如果沒有特別的驗證規則，則將會顯示英文版的規則給予貢獻者。
 adding-sentences-subheader-offensive-content = 冒犯性內容
 reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「通過」按鈕。
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。

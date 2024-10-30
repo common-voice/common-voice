@@ -1,7 +1,7 @@
 action-click = 揤
 action-tap = 點選
 contribute = 參與貢獻
-review = 審核句子
+review = 審核
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -13,6 +13,7 @@ goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPer
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 筆驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
+no-sentences-for-variants = 你的語言變體（language variant）可能已經沒有可用的句子了！如果你願意，你可以調整設定，以查看同一語言中的其他句子。
 speak-empty-state-cta = 貢獻語句
 speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
 record-button-label = 共你的聲音錄下來
@@ -29,7 +30,14 @@ change-preferences = 更改偏好設定
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集語音
-contribute-sentence-collection-nav-header = Sentence Collection
+contribute-sentence-collection-nav-header = 收集句子
+login-signup = 登入 / 開新口座
+vote-yes = 著
+vote-no = 毋著
+languages = 語言
+about = 了解阮的計畫
+partner = 合作夥伴
+submit-form-action = 送出
 
 ## Reporting
 
@@ -62,7 +70,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = 錄音/停止
+shortcut-record-toggle-label = 錄音／停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製這个片節
 shortcut-discard-ongoing-recording = ESC
@@ -77,7 +85,7 @@ request-language-button = 要求新的語言
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = 播放/停止
+shortcut-play-toggle-label = 播放／停止
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y

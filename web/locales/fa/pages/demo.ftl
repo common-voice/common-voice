@@ -1,12 +1,12 @@
 ## DemoLayout
 
 demo-get-started = بیاید شروع کنیم
-demo-welcome = به آواهای مشترک خوش آمدید
+demo-welcome = به آوای مشترک خوش آمدید
 demo-welcome-subheader = آیا علاقه‌مند به یادگیری بیش‌تر و مشارکت در پروژه هستید؟
 
 ## Demo Datasets
 
-demo-language-select-card-header = آواهای مشترک بزرگ‌ترین مجموعه‌ی داده‌های صوتی چند زبانه و عمومی در جهان است.
+demo-language-select-card-header = آوای مشترک بزرگ‌ترین مجموعه‌ی داده‌های صوتی چند زبانه و عمومی در جهان است.
 demo-language-select-card-body = با تشکر از مشارکت بیش از ۲۵۹ هزار نفر در بیش از ۵۰ زبان، این داده‌ها برای آموزش برنامه‌های مجهز به گفتار استفاده می‌شوند تا بهتر به صدای انسان پاسخ دهند.
 card-button-next = بعدی
 card-button-back = عقب

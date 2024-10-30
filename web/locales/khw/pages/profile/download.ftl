@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تہ ڈیٹو ڈونلوڈ کوریلیک؟
+download-info = لودیت تو کھیو ڈونلوڈ کوریک مݰکیسان؟
+download-profile-title = پروفائل
+download-profile-info = ای میلو شامل کو، استعمال کوراک اوچے آبادیو بارا معلومات شاو دستیاب بونی
+download-profile-size = ای کما بائٹس
+download-recordings-title = رکارڈنگ
+download-recordings-info = ام پی 3 وا متعلقہ جملان  شامل کو، تیار بیکا پت پھوک وحت گنیر
+download-recordings-size = عام طورا میگا بائٹس
+download-recordings-unavailable = تو تان رکارڈنگ پچین ریکو نو بوس کہ ای خور رکارڈنگ بااوشتائے
+download-recently-requested = تو ہار { $days } بسا تان رکارڈنگو گنی الیکو پچین نوغ درخواست کوریکو بوس
+download-size = سائز
+download-selected = منتخب اریر
+download-start = پروفائلو ڈیٹو ڈونلوڈ کو
+download-request = رکارڈنگو درخواست کو
+download-requests = پوشٹو رکارڈنگان ڈونلوڈ کوریکو درخواست
+download-requests-info = تو تان رکارڈنگان پچین درخواست کی ارو، اسپہ ہیتان ای ژاغا انگوسی یا امبوخ زیب فائلا۔ تہ پرانو درخواست ہیا بونی
+download-request-button = ڈونلوڈ
+download-request-title = { $created }
+download-request-description = { $clipCount } آوازو کلپ،  تمام محفوظ بیرو سائز { $size }۔ مدت پورا بوئے { $expires }
+download-request-archive-single = ای زیپ فائیلا ہمیت شینی
+download-request-archive-multiple = { $archiveCount } حصہ تقسم بیرو زیپ فائلا شینی۔
+download-request-assembling-description = تہ فائل ای ژاغا ہانی۔ مہربانی کوری پھوک اچا چیک کو۔
+download-request-refresh-button = نوغ کو
+download-request-modal-title = لنکان ڈونلوڈ کو
+download-request-modal-description = ہمی لنکار تہ زیپ فائل ڈونلوڈ بونی
+download-request-link-text = { $total } موژار زیپ نمبر{ $offset }
+download-request-metadata-link = نویشیرو جملہ
+download-request-link-single = تو  ہیا URLs فائلان دی تان خوش ڈونلوڈ منیجرا کاپی پیسٹ کوریکو بوس۔ ہتیت 12 گھنٹہ ختم بونی لیکن تو ہیا پیجا اچی گیتی نوغ نیزیکو بوس۔

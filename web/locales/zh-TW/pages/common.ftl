@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = 阿法語 (衣索比亞)
 ab = 阿布哈茲語
 ace = 亞齊語
 ady = 阿迪格語
@@ -16,8 +17,10 @@ as = 阿薩姆語
 ast = 阿斯圖里亞斯語
 az = 亞塞拜然語
 ba = 巴什噶爾語
+bal = 巴路支語（比利時）
 bas = 巴薩語
 be = 白俄羅斯語
+bfd = 巴福特語（印度）
 bg = 保加利亞語
 bm = 班巴拉語
 bn = 孟加拉語
@@ -28,6 +31,7 @@ bxr = 布里亞特語
 byv = 梅敦巴語
 ca = 加泰隆語
 cak = 喀克奇可語
+cdo = 閩東語
 ckb = 中庫德語
 cnh = 哈卡秦語
 co = 科西嘉語
@@ -71,7 +75,7 @@ ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
 hyw = 西亞美尼亞語
-ia = 國際語
+ia = 國際語（Interlingua）
 id = 印尼語
 ie = 國際語（Interlingue）
 ig = 伊格柏語
@@ -183,7 +187,7 @@ tok = 道本語
 tr = 土耳其語
 ts = 希宋加語
 tt = 韃靼語
-tw = 特威語 (西非)
+tw = 特威語（西非）
 ty = 大溪地語
 tyv = 圖瓦語
 uby = 尤比克語
@@ -198,10 +202,11 @@ vi = 越南語
 vmw = 伊瑪楚瓦語
 vot = 沃特語
 wep = 西發里亞語
+wes = 喀麥隆皮欽語
 wo = 渥魯夫語
 xh = 科薩語（南非）
 yi = 意第緒語
-yo = 約魯巴語 (奈及利亞)
+yo = 約魯巴語（奈及利亞）
 yue = 粵語
 zgh = 塔馬塞特語
 zh-CN = 華語（中國）
@@ -215,13 +220,7 @@ zza = 扎扎語
 
 ## Layout
 
-speak = 說話
-speak-now = 現在說話
-datasets = 資料集
-languages = 語言
-about = 關於我們
-partner = 成為夥伴
-profile = 帳號資料
+profile = 帳號
 help = 說明
 contact = 聯絡我們
 privacy = 隱私權
@@ -240,7 +239,6 @@ privacy-info = 我們保證會小心處理您的資訊。可於我們的<privacy
 return-to-cv = 回到 Common Voice
 email-input =
     .label = 電子郵件地址
-submit-form-action = 送出
 loading = 載入中…
 email-opt-in-info = 我希望收到諸如目標提醒、我的進度更新與 Common Voice 的相關電子報。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
@@ -251,7 +249,7 @@ not-available-abbreviation = 不適用
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 我們每年花費將近一百萬美元以託管資料集及改善平台，以服務來自一百多個不同語言的社群。<strong>若您也相信資料開放與包容的價值，今天就立刻捐款！</strong>
