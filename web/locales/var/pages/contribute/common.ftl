@@ -22,8 +22,10 @@ keep-track-profile = Aatenamu puuka progreso perfil neteka
 login-to-get-started = Oinare sesión ...oinepa ivosichi toaka
 target-segment-first-card = Katimo taamoma colaborandomia taamo paacha piripi yoratiame objetivochi
 target-segment-generic-card = Yo'ranimu ku'ika pi'repikuichi púka i'tapiti
+target-segment-first-banner = Ta'mó ku'i yo'raka pu'ka pa'cha yoraniame i'ka i'tapiti wa'a Common Voice wa'a
 target-segment-add-voice = Toamitia amo naewasari
 target-segment-learn-more = Epeche weika información
+change-preferences = Na'kuriwaniame a'po ino'wareka
 
 ## Contribution Nav Items
 
@@ -43,6 +45,7 @@ report-title = Itocheniame informe netesa
 report-ask = ithana uju puu newesari?
 report-offensive-language = naereka nawesamé
 report-offensive-language-detail = Kí  yoreká nawesanimú naerachanimú.
+report-grammar-or-spelling = Wekaka yo'ratiame o pu'ka i'yotetiame
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
 success = Kawétiame

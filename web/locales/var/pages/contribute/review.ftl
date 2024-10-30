@@ -63,3 +63,4 @@ review-error = inture piri'pi wekatiame wa'a re'wisaroaniachi i'ká orasióni
 review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mochiwite'me yora'ka weruma Ka'weintapaká
+sc-redirect-page-subtitle-1 = .iche'pachi wa'a o'inia no'kani wa'a o'ineaniachi oichaka wa'a Common Voice. E'peo kawe <writeURL>yótemamu</writeURL> piripi o'rásioni.<reviewURL> Re'wisaroa </reviewURL>i'tochetiame pu'ka o'rásioni pi'neri wa'a Common Voice
