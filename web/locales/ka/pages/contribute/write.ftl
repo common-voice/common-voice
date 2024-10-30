@@ -145,5 +145,5 @@ small-batch-sentences-rule-1 = მიჰყევით მითითებე
 small-batch-sentences-rule-2 = დაამატეთ თითო წინადადება თითო ხაზზე
 small-batch-sentences-rule-3 = გამოყავით წინადადებები ახალ ხაზზე „Enter“ ან „Return“ ღილაკზე ერთხელ დაჭერით
 small-batch-sentences-rule-4 = დაამატეთ არაუმეტეს 1000 წინადადება
-small-batch-sentences-rule-5 = ყველ წინადადება ერთი დარგიდან უნდა იყოს
+small-batch-sentences-rule-5 = ყველა წინადადება ერთი დარგიდან უნდა იყოს
 small-batch-sentences-rule-6 = ყველა წინადადება ერთი წყაროდან უნდა იყოს

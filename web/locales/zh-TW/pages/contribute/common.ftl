@@ -1,7 +1,7 @@
 action-click = 點擊
 action-tap = 點選
 contribute = 參與貢獻
-review = 審核句子
+review = 審核
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -30,7 +30,15 @@ change-preferences = 更改偏好設定
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集語音
-contribute-sentence-collection-nav-header = Sentence Collection
+contribute-sentence-collection-nav-header = 收集句子
+login-signup = 登入 / 註冊
+vote-yes = 正確
+vote-no = 錯誤
+datasets = 資料集
+languages = 語言
+about = 關於
+partner = 合作夥伴
+submit-form-action = 送出
 
 ## Reporting
 
@@ -63,7 +71,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = 錄音/停止
+shortcut-record-toggle-label = 錄音／停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
 shortcut-discard-ongoing-recording = ESC
@@ -78,7 +86,7 @@ request-language-button = 要求新語言
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = 播放/停止
+shortcut-play-toggle-label = 播放／停止
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -89,8 +97,8 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = 準則
-contribution-criteria-link = 了解貢獻準則
-contribution-criteria-page-title = 貢獻準則
+contribution-criteria-link = 了解驗證準則
+contribution-criteria-page-title = 驗證準則
 contribution-criteria-page-description = 了解在聆聽語音片段時要注意什麼，並幫助您能錄下更多聲音！
 contribution-for-example = 舉例來說
 contribution-misreadings-title = 誤讀

@@ -1,9 +1,9 @@
 ## ABOUT US
 
-about-title = ¿Mba’é eiporúta Common Voice?
+about-title = ¿Mba’ére reiporúta Common Voice?
 about-header-description-v2 =
     <p>Common Voice niko ñe’ẽ’aty marandu oiporukuaáva opavave, oguatáva umi pytyvõhára ñe’ẽ rupive yvóra tuichaháicha. Umi yvypóra oiporúva iñe’ẽ omoheñói hag̃ua tembiporu ñe’ẽ rehegua ha ikatúva oiporu ko’ã ayvu oporohekombo’e hag̃ua ijehegui.</p>
-    <p>Ko’ág̃a, umi ayvu oñeñongatúva ijára ha’e umi mba’aporenda ojokóva tembiapo pyahu. Umi ñe’ẽ rehegua marandu ombohovái: yvypóra oñe’ẽ’ỹva inglés, yvypóra isa’y ambuéva, yvypóra oiko’asýva, kuña ha kuimba’e LGBTQIA+. Péva he’ise tembiporu pyahu ojeguerekóva ndoikói ambue ñe’ẽme g̃uarã, ha oikohápe ikatuhína ndoikói peteĩchapa. Upéva romoambuese romongu’epávo opaite yvypóra opaite ndehpegua oiporukávo iñe’ẽ.</p>
+    <p>Ko’ág̃a, umi ayvu oñeñongatúva ijára ha’e umi mba’aporenda ojokóva tembiapo pyahu. Umi ñe’ẽ rehegua marandu ombohovái: yvypóra oñe’ẽ’ỹva inglés, yvypóra isa’y ambuéva, yvypóra oiko’asýva, kuña ha kuimba’e LGBTQIA+. Péva he’ise tembiporu pyahu ojeguerekóva ndoikói ambue ñe’ẽme g̃uarã, ha oikohápe ikatu hína ndoikói peteĩchapa. Upéva romoambuese romongu’epávo opaite yvypóra nde rehegua oiporukávo iñe’ẽ.</p>
 how-does-it-work-title-v2 = ¿Mba’éicha omba’apo Common Voice?
 how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme’ẽmi nde ahy’o térã emoneĩ ñe’ẽryapu ñongatupyre eipytyvõ hag̃ua. Péicha rupi ko tembiapo iporãvéta opavavépe g̃uarã.
 
@@ -11,9 +11,9 @@ how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve 
 
 about-language-req-subtitle = Oĩ ojeruréva oñembojuajúvo peteĩ ñe’ẽ.
 about-localization-title = Ñanduti renda moñe’ẽasa
-about-localization-subtitle = Ñanduti renda oñemoñe’ẽasa pe ñe’ẽme.
+about-localization-subtitle = Ñanduti renda oñemoñe’ẽasa upe ñe’ẽme.
 about-sentence-collection-title = Ñe’ẽjuaju ñembyatyha
-about-sentence-collection-subtitle = Oñembyaty ñe’ẽjuaju tapicha omoñe’ẽ hag̃ua ayvúpe.
+about-sentence-collection-subtitle = Oñembyaty ñe’ẽjuaju tapicha omoñe’ẽ ayvu hag̃ua.
 about-new-lang-title = Ñe’ẽ pyahu ñemoasãi
 about-new-lang-subtitle = Romoasãima Common Voice renda ko ñe’ẽme.
 about-voice-contrib-title = Ñe’ẽayvu ñeme’ẽ

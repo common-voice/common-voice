@@ -29,6 +29,7 @@ citing-sentences-subheader-websites-explanation = Tzemreḍ ad tsedduḍ asmel w
 citation =
     .label = Abder
 adding-sentences-subheader-length = Teɣzi
+adding-sentences-subheader-spelling-punctuation-explanation = Tafyirt ilaq ad tettwaru akken iwata.
 adding-sentences-subheader-numbers = Imḍanen
 adding-sentences-subheader-punctuation = Asigez
 reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!

@@ -19,9 +19,14 @@ demo-account = Account
 
 demo-account-card-header = Account ajat ne, dikas bati, leken prus't hiv ashis pe haw
 demo-account-card-body = Dranc'u'i gehenaw pashai aik, kia malumat homa ajat, te sawin pashek, saw phon tasi nishan dek, sawin awaz una, tasi mi device una
+demo-account-enter-email =
+    .label = Enter email to send a sign up link
+demo-account-sign-up = sign up link andzai da
 
 ## Demo Contribute
 
+demo-contribute-card-header = tayar asa tay awaz zhe mond ko kakas bate
+demo-listen-subtitle = phazhikas bate tayar asa
 
 ## Demo Dashboard
 

@@ -5,8 +5,8 @@ toward-next-goal = به سوی هدف بعدی
 goal-reached = به هدف رسیدید
 clips-you-recorded = کلیپ‌هایی که ضبط کرده‌اید
 clips-you-validated = کلیپ‌هایی که اعتبارسنجی کرده‌اید
-todays-recorded-progress = پیشرفت امروز آواهای مشترک در صداهای ضبط شده
-todays-validated-progress = پیشرفت امروز آواهای مشترک در صداهای اعتبارسنجی شده
+todays-recorded-progress = پیشرفت امروز آوای مشترک در صداهای ضبط شده
+todays-validated-progress = پیشرفت امروز آوای مشترک در صداهای اعتبارسنجی شده
 stats = آمار
 awards = جوایز
 you = شما
@@ -18,8 +18,8 @@ validated-clips = صداهای تایید شده
 total-approved = مجموع تایید شده
 overall-accuracy = دقت کلی
 set-visibility = وضعیت دیداری من را تنظیم کن
-visibility-explainer = این تنظیم وضعیت شما را در جدول امتیازات کنترل می‌کند. زمانی که پنهان است، پیشرفت شما محرمانه باقی می‌ماند. به این معنی که تصویر، نام کاربری و پیشرفت شما در جدول امتیازات پدیدار نمی‌شود. توجه کنید که تازه‌کردن جدول امتیازات { $minutes } دقیقه زمان می‌برد تا تغییرات اعمال شود.
-visibility-overlay-note = توجه: زمانی که روی «آشکار» تنظیم شده باشد، می‌توان آن را از <profileLink>صفحه نمایه</profileLink> تغییر داد
+visibility-explainer = این تنظیم، قابلیت مشاهده شما در فهرست رتبه‌بندی را کنترل می‌کند. در صورت پنهان بودن، پیشرفت شما خصوصی خواهد بود. به این معنا که تصویر، نام‌کاربری و پیشرفت شما در فهرست رتبه‌بندی نمایش داده نخواهد شد. توجه داشته باشید که به‌روزرسانی فهرست رتبه‌بندی حدود ~{ $minutes } دقیقه طول می‌کشد تا تغییرات اعمال شوند.
+visibility-overlay-note = توجه: در صورت تنظیم به «قابل مشاهده»، این تنظیم را می‌توانید از <profileLink>صفحه نمایه</profileLink> تغییر دهید.
 show-ranking = نمایش رده بندی من
 
 ## Custom Goals
@@ -41,15 +41,15 @@ finish-editing = ویرایش را نخست تمام کنیم؟
 lose-changes-warning = اگر اکنون خارج شوید باعث از بین رفتن تغییرات شما می شود
 build-custom-goal = یک هدف سفارشی بسازید
 help-reach-hours-pluralized =
-    با یک هدف شخصی در رسیدن به{ NUMBER($hours) ->
-        [one] { $hours } ساعت
-       *[other] { $hours } ساعت
-    } در { $language } کمک کنید
+    { NUMBER($hours) ->
+        [one] با یک هدف شخصی در رسیدن به { $hours } ساعت در { $language } کمک کنید
+       *[other] با یک هدف شخصی در رسیدن به { $hours } ساعت در { $language } کمک کنید
+    }
 help-reach-hours-general-pluralized =
-    با یک هدف شخصی آواهای مشترک را در رسیدن به{ NUMBER($hours) ->
-        [one] { $hours } ساعت
-       *[other] { $hours } ساعت
-    } در یک زبان کمک کنید
+    { NUMBER($hours) ->
+        [one] با یک هدف شخصی آوای مشترک را در رسیدن به { $hours } ساعت در یک زبان کمک کنید
+       *[other] با یک هدف شخصی آوای مشترک را در رسیدن به { $hours } ساعت در یک زبان کمک کنید
+    }
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
 activity-needed-calculation-plural =

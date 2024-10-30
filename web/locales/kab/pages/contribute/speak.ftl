@@ -1,3 +1,6 @@
+speak = Mmeslay
+speak-now = Mmeslay tura
+speak-subtitle = Mudd-d taɣect-ik
 record-cta = Bdu asekles
 record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
 record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
