@@ -23,6 +23,9 @@ login-instruction-multiple-sentences = Te'tsie</loginLink>tsa majen<loginLink>tj
 how-to-cite = ¿Jús'in kuat'a xi kiski?
 how-to-cite-explanation-bold = Tjat'ae je'énre xá
 how-to-cite-explanation = A tsií énn k'ua si,<italicizedText></italicizedText> jñá kisuku xi titsuya i to kui nga tji'jngunajin nga mi y'a ts'e, tsá mejenri chut'ae tiyuju xkire.
+guidelines = chuba
+contact-us = tinúkjuanájin
+add-sentence-success = Énn kis'exkú
 
 ## BULK SUBMISSION 
 
