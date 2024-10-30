@@ -47,3 +47,7 @@ sc-criteria-item-5-2 = اگر جملہ اُتا دِتے دے میعار تے پ
 sc-criteria-item-6 = اگر تُساں کول جائزہ گِِننّا واسطے جملے مُک جُلدے ہن، براہ مہربانی ہور جملے جمع کرنا واسطے اسدی مدد کرو!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = پڑتال کرو<icon></icon>آیا اے جملہ لسانی طور تے ٹھیک ہے؟
+sc-review-rules-title = جملہ ہدایات تے پورا اُتردا ہے؟
+sc-review-empty-state = اس وقت اس زبان بچ نظرثانی واسطے کوئی جملے نیں۔
+report-sc-different-language = مختلف زبان
+report-sc-different-language-detail = اے مڑی نظرثانی آلی زبان کولو مختلف زبان بچ لکھے دے ہن۔
