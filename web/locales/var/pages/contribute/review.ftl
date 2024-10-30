@@ -52,10 +52,14 @@ sc-criteria-item-3 = Iji na'wesari eni'mapu túka machitaniame
 sc-criteria-item-4 = e'je ika o'rásioni cumpiorani púka yo'rá , wa'a &quot; yo'rapame&quot; wa'a a'jamina
 sc-criteria-item-5-2 = e'jee ika o'rásioni ka'i kumpiaroaso pu'ka yo'rá, ta'china &quot;ki na'kiwame&quot;, wa'a jo'wenamina e'jee kina'neria ka'wé  Kaweni'ni i u'mató wa'a pirenachi
 sc-criteria-item-6 = ki'tio epeche wa'asi  o'rasioni púka i'tapiti, ¡ I no'kui wa'a u'ka e'peche orasioni!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Tu'niame<icon></icon>i'ji u'ju piripi o'rásioni na'yawoaniame ka'wé
 sc-review-rules-title = ¿u'u orasioni kum'piaroania púka apo yo'rá?
+sc-review-empty-state = E'peo pi'chiwachi ki'te ne'neniame puka re'wisaroatiame e'pe ika na'wesarichi
 report-sc-different-language = Pirechi naewasari
 report-sc-different-language-detail = Vaatía illoterepú pirechy idioma kí no'o neneachí
 sentences-fetch-error = Inture piripi weka tiame waa iyaniachi orasioni
 review-error = inture piri'pi wekatiame wa'a re'wisaroaniachi i'ká orasióni
+review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mochiwite'me yora'ka weruma Ka'weintapaká
