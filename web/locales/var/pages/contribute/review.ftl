@@ -45,6 +45,7 @@ sc-review-link = Neneniame
 
 sc-criteria-modal = Yo'raniame puka revisaroaniame
 sc-criteria-title = Yo'raniame puka revisaroaniame
+sc-criteria-make-sure = 21. Yoma o'rasioni itomete cumpiaroamia yo'má a'jama si'miyame yo'raka:
 sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
 sc-criteria-item-3 = Iji na'wesari eni'mapu túka machitaniame
 sc-review-rules-title = ¿u'u orasioni kum'piaroania púka apo yo'rá?
