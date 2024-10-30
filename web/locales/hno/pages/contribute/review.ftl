@@ -53,3 +53,6 @@ report-sc-different-language = مختلف زبان
 report-sc-different-language-detail = اے مڑی نظرثانی آلی زبان کولو مختلف زبان بچ لکھے دے ہن۔
 sentences-fetch-error = جملے آنڑناں بچ ہک خرابی ہو گئی
 review-error = اس جملے دی نظرثانی بچ ہک خرابی ہو گئی
+review-error-rate-limit-exceeded = تُسیں مچ جلدی کردیو۔ براہ مہربانی جملے دے جائزے واسطے تھوڑا وقت لاؤ نال اس گلا کو یقینی بنڑاؤ کہ اے ٹھیک ہے۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اسیں کوئی بڑی تبدیلیاں کر رے آں
