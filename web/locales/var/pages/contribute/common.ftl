@@ -21,6 +21,7 @@ share-title-new = <bold> ikachi </bold> grawaonia amo naewa
 keep-track-profile = Aatenamu puuka progreso perfil neteka
 login-to-get-started = Oinare sesión ...oinepa ivosichi toaka
 target-segment-first-card = Katimo taamoma colaborandomia taamo paacha piripi yoratiame objetivochi
+target-segment-generic-card = Yo'ranimu ku'ika pi'repikuichi púka i'tapiti
 target-segment-add-voice = Toamitia amo naewasari
 target-segment-learn-more = Epeche weika información
 
@@ -31,6 +32,7 @@ vote-yes = ejeé
 vote-no = kai
 datasets = Conjuntochii tewara
 languages = Weika naewasari naewaniame
+about = wapí waá
 partner = Yoomatiame socioba
 submit-form-action = itocheniame
 
@@ -38,9 +40,12 @@ submit-form-action = itocheniame
 
 report = Informandomia naewasari
 report-title = Itocheniame informe netesa
+report-ask = ithana uju puu newesari?
+report-offensive-language = naereka nawesamé
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
 success = Kawétiame
+continue = simiteniame
 
 ## Speak & Listen Shortcuts
 
