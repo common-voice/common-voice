@@ -29,6 +29,7 @@ target-segment-learn-more = Epeche weika información
 login-signup = Oinemera sesión neteka...regitradosa
 vote-yes = ejeé
 vote-no = kai
+datasets = Conjuntochii tewara
 languages = Weika naewasari naewaniame
 partner = Yoomatiame socioba
 submit-form-action = itocheniame
@@ -42,12 +43,27 @@ report-difficult-pronounce = Tekite pronuciadoniame
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-discard-ongoing-recording = ESC
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
