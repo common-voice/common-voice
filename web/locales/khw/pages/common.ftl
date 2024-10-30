@@ -279,6 +279,11 @@ loading = لوڈ بویان۔۔۔
 email-opt-in-info = اوا ایی گیک جاری ستیک مݰکیمان تاکہ مہ تین مہ حدف  یاد بوئے، مہ کورمو  اپڈیٹ گوئی، وا کمان وائسو بارا نیوز لیٹر گونی۔
 email-opt-in-info-title = کمان وائسو ای میلان لسٹا شامل بوس۔
 email-opt-in-info-sub-with-challenge = مہ تین ہݰ ای میل گیانی کی تیت مقابلو وا حدف  یاد کوریانی، مہ کورمو  اپڈیٹو پتہ بائے، وا کمان وائسو بارا نیوز لیٹر۔
+email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیا لوو واضح ہوئے کہ موزیلا ہمی معلوماتان موزیلاز<privacyLink> تفصیلو دیکو  کی سنبال اریر تتین قبول۔ راز داریو پالیسی</privacyLink>
+indicates-required = کیا ژاغا کی (*) اوشوئے ہسے ضروری
+not-available-abbreviation = تہ سورا لاگو نو
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = اسپتہ تین تہ مدد </mark><mark>  ضرورت شیر</mark><mark><br/>
