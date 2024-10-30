@@ -36,7 +36,7 @@ review-rerecord = و رکارڈ کو
 review-cancel = جمع کوریکو کینسیل کو
 review-keep-recordings = رکارڈنگان تان سون لکھے
 review-delete-recordings = مہ آوازان بوغاوے
-review-terms = کمان وائسو استعمال کوری تو ہیا لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>پردو لو</privacyLink>
+review-terms = کمان وائسو استعمال کوری تو ہیا لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>راز دریو نوٹس</privacyLink>
 terms-agree = اوا منیمان
 terms-disagree = اوا نو مانیمان
 # FIRST POST SUBMISSION CTA
