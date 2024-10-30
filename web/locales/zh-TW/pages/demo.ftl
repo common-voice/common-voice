@@ -1,6 +1,6 @@
 ## DemoLayout
 
-demo-get-started = 開始入門
+demo-get-started = 點此開始
 demo-welcome = 歡迎來到 Common Voice
 demo-welcome-subheader = 有興趣了解更多資訊，並且參與貢獻此專案嗎？
 

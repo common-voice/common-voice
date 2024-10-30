@@ -28,7 +28,7 @@ change-preferences = Sik'antjeya xi tsachaa.
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = kjuátjó xta.
+contribute-voice-collection-nav-header = kj'uátjó xta.
 contribute-sentence-collection-nav-header = K'uexkú énn.
 login-signup = Tetsie / tj'atae.
 vote-yes = Jon
@@ -37,16 +37,37 @@ datasets = Nkjin skuya.
 languages = énn
 about = nchjaya
 partner = Tinyakanajin
+submit-form-action = Sikasén
 
 ## Reporting
 
+report = tsuya
+report-title = Tikaseen jusin ksuya
+report-ask = ¿jmé kjua xi tjinre énn kui?
+report-offensive-language = énn chinga.
+report-offensive-language-detail = énn chinga tjenjin énn.
+report-grammar-or-spelling = Mi nda kichjii.
+report-grammar-or-spelling-detail = Jngu énn mi nda tichjii.
+report-different-language = Kja'é énn.
+report-different-language-detail = Kja'é énn kichii xi mi an nchaa.
+report-difficult-pronounce = Ni'in ma nukjua.
+report-difficult-pronounce-detail = Tjenjin énn xi ni'in ma nukjua.
+report-offensive-speech = Tsujmi chinga tjinre.
+report-offensive-speech-detail = Je xta kui tjejin énn chinga.
+report-other-comment =
+    .placeholder = Tinúkjuajin.
+success = k'uasin
+continue = K'uasikasa
+report-success = Nda tsa'atuya xá.
 
 ## Speak & Listen Shortcuts
 
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Chubet'a/tikaséin
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Chubet'a nguinik'a tisenere.
 shortcut-discard-ongoing-recording = ESC
 
 ## Listen Shortcuts
