@@ -82,6 +82,28 @@ sc-bulk-submit-confirm = Sési exexaka eska i wantakwa untskataecha <wikipediaLi
 bulk-upload-success-toast = Wankachani wantakwaecha karharhatixati ya
 bulk-upload-failed-toast = No ústi karharhani, ménteru weentsï.
 bulk-submission-success-header = ¡Diosï mayamu énkari wánikwa úka axaani!
+bulk-submission-success-subheader = ¡Common Voice jarhuataxakari parika juchari eraakwa úaka úkwarhini wantakwa úntskata xarhataani mantani pawani!
+upload-more-btn-text = ¿Karhatawari utasï wantakwaechani?
+file-invalid-type = No ústi karharhani karakata
+file-too-large = Jukari k'esti karakata
+file-too-small = jukari sapichuesti karakata
+too-many-files = yátiruksï wanisti karakataecha
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = kúparhataa <icon> </icon> wanikwa wantakwa úntskata énka yámintu kw'iripu úaka úrani
+multiple-sentences-error = Noksï úaka kúparhatanhani mamaru jarhati wantakwa untskata pari xantku ísï axani.
+exceeds-small-batch-limit-error = Nori úaka jukari 1000 wantakwa úntskata axaani
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Yátiruri winhamintu niraxapka. erokwarhi sontu ka ménteruri wéntaaka
+       *[other] Yátiruri winhamintu niraxapka. erokwarhi sontu { $retryLimit } ka ménteruri wéntaaka
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Yátiruri winhamintu niraxapka. erokwarhi sontu ka kutup'arhukuntsï jiminktu
+       *[other] Yátiruri winhamintu niraxapka. erokwarhi sontu { $retryLimit } ka kutup'arhukuntsï jiminktu
+    }
