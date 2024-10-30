@@ -1,3 +1,6 @@
+speak = ተናገር
+speak-now = አሁን ተናገር
+speak-subtitle = ድምፅዎን ይለግሱ
 record-cta = መቅዳት ይጀምሩ
 record-platform-not-supported = እናዝናለን ፣ የእርስዎ መድረክ በአሁኑ ጊዜ አይደገፍም።
 record-platform-not-supported-desktop = በዴስክቶፕ መሣሪያዎች ላይ በማውረድ አስተዋፅዖ ማበርከት ይችላሉ…
