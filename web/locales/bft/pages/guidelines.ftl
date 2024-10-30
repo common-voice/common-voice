@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = روخ بیسے جہلتونگ
+guidelines-header = روخ بیسی جہلتونگ
 guidelines-header-subtitle = کامن واٸسی ڈیٹا سیٹی لوکھسینگنو تم سیر کن نہ سکتی کلپ کن چی بیسے چھدکھہ بین زیربو شوٹ چوک۔
 voice-collection = سکت چھقبونگ
 sentence-collection = تم فسق
@@ -85,3 +85,9 @@ adding-sentences-subheader-special-characters = مخصوص ہرتخنونگ نا
 adding-sentences-subheader-special-characters-explanation-1 = حروف کن زیرین یودپی سکت پینگنو دوکپو ژاہ ژاہ یود پن۔ مثلا “ж” رشیا پی سکت پینگنو یود، اما انگریزینگنو مید۔ دوفری انگریزینگبو دینے میدوکپہ رگوسپن۔
 adding-sentences-subheader-special-characters-explanation-2 = سکت کنی کھوتی چھدکھی اصول چی پودپن، بیسے کھور کھارینگ اے سکت کنی چنگ ژوخ ژوخ بیسے کولسنارے۔ اگر گار چی لا چھدکھی فاٸل چی میدنارے، انگریزی پی اصول کن روخ بیس کن لا تھونگمن۔
 adding-sentences-subheader-offensive-content = چنگ مین تم سیر کن
+adding-sentences-subheader-offensive-content-explanation = اگر تم سیر پو چنگ مین نہ ہژی ہژیک یودنارے، مثلا کھورتینگی جہتلونگلا فوقی یودنارے یانگلا دے تم سیر پو چوق زگاقپہ رگوسپن۔ یانگلا دے ہرکپلس کنی لوکھسینگنو نیانگنہ تھوکپہ سہ نینید۔ <emailFragment>commonvoice@mozilla.com</emailFragment>
+reviewing-sentences-explanation-1 = اگر تم سیر پو یار مینے یودپی کھوم لوکھسی جہتلونگیکھہ تھونید نارے ان زیربی بٹن پو نگیس جوو
+reviewing-sentences-explanation-2 = اگر تم سیر پو یار مینے یودپی کھوم لوکھسی جہلتونیکھہ متھونسنارے مین زیربی بٹن پیکھہ کلک بیوس۔
+reviewing-sentences-explanation-3 = اگر یانگلا تم سیر پو پے لوکھسینگنو چھدکھہ میدنارے، یانگلا چوق سکیورے اخا یودپوی رول گوا نینید۔
+reviewing-sentences-explanation-4 = اگر ہلتس بزو بیالا تم سیر میدنارے، یری شیزدے ینگ تم سیر زدامہ لا نٸی روخ بیوس جوو
+domain-explanation = تھونگ بزو تم سیر پونہ زومسے یودپن۔ دوسے یانگلا یا نیس پینگنہ غدمہ ننید۔
