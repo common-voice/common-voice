@@ -248,12 +248,21 @@ zgh = تمازیغ
 zh-CN = چینی(چین)
 zh-HK = چینی(ہانگ کانگ)
 zh-TW = چینی(تائوان)
+zu = زولو
+zza = زارا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مدد
+contact = رابطہ
+privacy = رازداری
+terms = شرط
+cookies = کوکیز
+faq = عام سوالات
 
 ## Donate banner
 
