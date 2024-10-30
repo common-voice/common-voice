@@ -60,3 +60,7 @@ public-domain-explanation-5 = دینارے شوقبونگ تھوبیدا ہلت�
 public-domain-explanation-6 = سرکاری محکمونگ، زدے مید محکمونگ، یا میڈیاٸی ملسونگیکھہ، دونگی کھوتی ویب کنیکھہ یودپی کنٹنٹ کن چنگ منسنارے، خبر اتار کن سہ چوقلا تھونگمی لوکھسینگ شیزدے بیا نینید۔
 citing-sentences-explanation-1 = ساٸٹیشن کن منمو لیگی ژاہ ژاہ یودپن، چا زیربنہ یالا یونگ چوقلا تھونگمی لوکھسینگنو کاپی راٸٹ فوغیدا مید زیربو نوزین گوید۔
 citing-sentences-subheader-websites = ویب ساٸٹ کن
+citing-sentences-subheader-websites-explanation = یانگلا ویب ساٸٹ پو ہڑکیمہ نینید، مثلا کامن واٸس۔ https://commonvoice.mozilla.org/
+citing-sentences-subheader-academic-reference = اکیڈمک ریفرینس
+citing-sentences-subheader-academic-reference-explanation = یانگلا اکیڈمک ریفرینسی تھونگ بزو ہڑکیمہ نینید، مثلا ہارورڈ پی تھونگ بزو، موزیلا 2021 کامن واٸس۔ دیکھہ تھوبید https://commonvoice.mozilla.org/ تھونسید 15 ستمبر 2021
+citing-sentences-subheader-offline-sources = آف لاٸن سورس کن
