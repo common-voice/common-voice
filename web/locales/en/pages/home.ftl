@@ -105,3 +105,10 @@ about-menu-aria-label = About options menu
 partnerships-menu-item-aria-label = Learn about partnerships with Common Voice
 press-and-stories-menu-item-aria-label = Access press releases and stories related to Common Voice
 community-and-languages-menu-item-aria-label = Explore the community and languages supported by Common Voice
+
+## NEW HOME PAGE KEYS
+hero-title = Technology that speaks your language
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Why should AI only cover 1% of global languages?</bold>
+hero-subtitle-2 = Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.
+get-started = Get started <icon><icon>

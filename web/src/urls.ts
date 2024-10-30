@@ -1,9 +1,10 @@
-const PROFILE = '/profile';
-const DASHBOARD = '/dashboard';
-const DEMO = '/demo';
+const PROFILE = '/profile'
+const DASHBOARD = '/dashboard'
+const DEMO = '/demo'
 
 export default Object.freeze({
   ROOT: '',
+  NEW_ROOT: '/new-root',
 
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',
