@@ -60,6 +60,7 @@ shortcut-record-toggle = g
 shortcut-record-toggle-label = Ra'waroatiame / chu'chapaniame
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = E'naniame
+shortcut-submit-label = i'tochetiame ra'waroatiame
 
 ## Listen Shortcuts
 
