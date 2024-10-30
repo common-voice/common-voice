@@ -38,3 +38,5 @@ sc-review-link = نظرثانی
 
 sc-criteria-modal = ⓘ نظرثانی دا معیار
 sc-criteria-title = نظرثانی دا معیار
+sc-criteria-make-sure = اس گلا کو یقینی بنڑاؤ کہ جملہ دتے دے میعار تہ پورا اُترا:
+sc-criteria-item-1 = جملے دی املا ٹھیک ہونڑا ضروری ہے۔
