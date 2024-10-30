@@ -49,8 +49,12 @@ report-grammar-or-spelling = Wekaka yo'ratiame o pu'ka i'yotetiame
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
 report-difficult-pronounce-detail = Itona nawésary leyeroaniame tekitíamepu.
+report-offensive-speech-detail = Grabacionía itónapu piripi naeracheka nawesaniame o achikoricheniame.
+report-other-comment =
+    .placeholder = Nayawatiamé
 success = Kawétiame
 continue = simiteniame
+report-success = Kawetiame itocheretúpu nawesatiameá
 
 ## Speak & Listen Shortcuts
 
