@@ -2,6 +2,7 @@
 
 demo-get-started = اچ شروع کروں
 demo-welcome = کامن وائس ݙے خوشی سا اَچ
+demo-welcome-subheader = چھا تُو مزید سُن٘ڄاݨن واسطے ٻیا ہے منصوبے تی وِچ حِصّہ گھولݨ تی وِچ دِلچسپی رکھدا ہیں؟
 
 ## Demo Datasets
 
