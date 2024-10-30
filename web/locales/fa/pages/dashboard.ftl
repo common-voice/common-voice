@@ -3,8 +3,8 @@
 your-languages = زبان‌های شما
 toward-next-goal = به سوی هدف بعدی
 goal-reached = به هدف رسیدید
-clips-you-recorded = کلیپ‌هایی که ضبط کرده‌اید
-clips-you-validated = کلیپ‌هایی که اعتبارسنجی کرده‌اید
+clips-you-recorded = صداهایی که ضبط کرده‌اید
+clips-you-validated = صداهایی که اعتبارسنجی کرده‌اید
 todays-recorded-progress = پیشرفت امروز آوای مشترک در صداهای ضبط شده
 todays-validated-progress = پیشرفت امروز آوای مشترک در صداهای اعتبارسنجی شده
 stats = آمار
