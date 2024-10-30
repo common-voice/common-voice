@@ -9,5 +9,7 @@ record-error-too-short = Тетхагъэр кӏэко дэдагъ.
 record-error-too-long = Тетхагъэр кӏыхьэ дэдагъ.
 record-error-too-quiet = Тетхагъэм ымакъэ мэкӏэ дэдагъ.
 record-cancel = Тетхэжьыныр щыгъэзый
+record-instruction = { $actionType }<recordIcon></recordIcon> ащ ыуж шъумакъэ ӏоу гущыӏэухыгъэм шъукъедж
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ухыгъэ зыхъукӏэ
 review-recording = Еплъыжъын
 why-donate = Сыда укъыкӏэупчӏэрэр?
