@@ -287,3 +287,7 @@ not-available-abbreviation = تہ سورا لاگو نو
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = اسپتہ تین تہ مدد </mark><mark>  ضرورت شیر</mark><mark><br/>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹاسیٹو کورا لکھیکو پچین وا ہیاژاغو بہتر کوریکو پچین تقریبا ای کروڑ روپہ ضرورت۔ اسپہ کیاغ کی کوسیان <strong> ای شورار ذیاد زبانا روئے ہمو استعمال کونیان۔ تو دی کی سفو پچین کہ ہتیرا ہر کا اسور معلوماتان قدر  کوسان ہنون تان وقف کو </strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> CV پچین استعمال بویان</mark><br/><mark> تہ تحقیقا؟</mark>
