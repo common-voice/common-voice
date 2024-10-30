@@ -6,6 +6,7 @@ demo-welcome-subheader = چھا تُو مزید سُن٘ڄاݨن واسطے ٻی
 
 ## Demo Datasets
 
+demo-language-select-card-header = کامن وائس دُنیا تا گھݨاں وݙا عوامی طور تی حاضر ہے، گھݨیں ٻولیں تا اَواز ڈیٹا سیٹ ہے۔
 card-button-next = اڳوں والا
 card-button-back = پِچّھوں وا
 demo-language-select-label = ٻولیاں براؤز کر
