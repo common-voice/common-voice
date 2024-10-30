@@ -107,3 +107,29 @@ rate-limit-toast-message-seconds =
         [one] Yátiruri winhamintu niraxapka. erokwarhi sontu ka kutup'arhukuntsï jiminktu
        *[other] Yátiruri winhamintu niraxapka. erokwarhi sontu { $retryLimit } ka kutup'arhukuntsï jiminktu
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] íni ernharhikwa jimpo noteruri úaka axani ya, winisti ya. Atki axaani ja wantakwaechani erokwarhi ma motsikwa. ¡Diosï mayume chiiti tekaantskwa jimpo!
+       *[other] íni ernharhikwa jimpo noteruri úaka axani ya, winisti ya. Atki axaani ja wantakwaechani erokwarhi { $retryLimit } motsikwaechani ¡Diosï mayume chiiti tekaantskwa jimpo!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] íni eranharhikwa jimpo noteruri úaka axani ya, winisti ya. Atki axaani ja wantakwaechani erokwarhi ka ménteru chunkutama axaani. ¡Diosï mayume chiiti tekaantskwa jimpo!
+       *[other] íni eranharhikwa jimpo noteruri úaka axani ya, winisti ya. Atki axaani ja wantakwaechani erokwarhi { $retryLimit } ka ménteru chunkutama axaani. ¡Diosï mayume chiiti tekaantskwa jimpo!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } énkari 1 wantakwa untskata karantapka
+       *[other] { $uploadedSentences } énkari { $totalSentences } wantakwa untskata karantapka
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } énkari 1 wantakwa untskata karantapka. ixu jayats'ïku <downloadLink> ixu </downloadLink> parari keskwantani wantakwaechani énkaksï no jiominhaka.
+       *[other] { $uploadedSentences } énkari { $totalSentences } wantakwa untskata karantapka. ixu jayats'ïku <downloadLink> ixu </downloadLink> parari keskwantani wantakwaechani énkaksï no jiominhaka.
+    }
+small-batch-sentences-rule-1 = arini chuxapakwaechani exea "¿naki jarhati wantakwa úntskata úaka kúparhataani?"
+small-batch-sentences-rule-2 = Ma wantakwa úntskata kúparhata mantani kwirutsikata jimpo
