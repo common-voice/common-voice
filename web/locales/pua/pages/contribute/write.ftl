@@ -76,6 +76,12 @@ accepted-files = I jarhati karakataechanikusï jiokwarhiat'i: .tsv
 minimum-sentences = ma karakakata jimpo ari xankusï úati wantakwaecha jatanhini: 1000
 maximum-file-size = Ari xanimintukusï úati k'eni karakata ma: 25MB
 what-needs-to-be-in-file = ¿Ampe xani jawa ampe juchiti mítintskwa ampe jimpo?
+what-needs-to-be-in-file-explanation = Exe jocheri<templateFileLink> karakata wininharhitakwaeri </templateFileLink>. chiiti wantakwa úntskataecha jatsisti eskaksï úaka yámintu kw'iripuecha úrani, eska no nema wantantini jawaka      (CC0 o eska jiokwarhiaka imani kw'iripu jimpo énka imaerika) ka eskaksï sési jawaka, sésiksï kantsakata jarhani ka eskaksï no úkwa jukaapa pari arhintani. Yámintu wantakwa úntskataecha 10 ka 15 segundo jimpoksï jatsisti eskaksï arhinhantaaka ka jankwarhiakats'ï no jatsikwaani miyukwaechani, jakankurhikwaechani o isku materu jasï kararakwa ampe.
+upload-progress-text = Yásï karharhaxati...
+sc-bulk-submit-confirm = Sési exexaka eska i wantakwa untskataecha <wikipediaLink> úaka úarani yáminutu kw'iripuecha </wikipediaLink> ka jatsiska sésikwa eskani úaka karhataani.
+bulk-upload-success-toast = Wankachani wantakwaecha karharhatixati ya
+bulk-upload-failed-toast = No ústi karharhani, ménteru weentsï.
+bulk-submission-success-header = ¡Diosï mayamu énkari wánikwa úka axaani!
 
 ## SMALL BATCH SUBMISSION
 
