@@ -52,6 +52,11 @@
                     display: block;
                     white-space: nowrap;
                     font-size: var(--font-size);
+
+                    [dir='rtl'] & {
+                        margin-right: 10px;
+                        margin-left: unset;
+                    }
                 }
             }
         }
