@@ -50,6 +50,7 @@ sc-criteria-item-1 = i'ji na'wesari e'nimapu ka'we yo'tetiame ka'wetiame
 sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
 sc-criteria-item-3 = Iji na'wesari eni'mapu túka machitaniame
 sc-criteria-item-4 = e'je ika o'rásioni cumpiorani púka yo'rá , wa'a &quot; yo'rapame&quot; wa'a a'jamina
+sc-criteria-item-5-2 = e'jee ika o'rásioni ka'i kumpiaroaso pu'ka yo'rá, ta'china &quot;ki na'kiwame&quot;, wa'a jo'wenamina e'jee kina'neria ka'wé  Kaweni'ni i u'mató wa'a pirenachi
 sc-review-rules-title = ¿u'u orasioni kum'piaroania púka apo yo'rá?
 report-sc-different-language = Pirechi naewasari
 report-sc-different-language-detail = Vaatía illoterepú pirechy idioma kí no'o neneachí
