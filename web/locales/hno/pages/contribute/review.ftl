@@ -40,3 +40,6 @@ sc-criteria-modal = ⓘ نظرثانی دا معیار
 sc-criteria-title = نظرثانی دا معیار
 sc-criteria-make-sure = اس گلا کو یقینی بنڑاؤ کہ جملہ دتے دے میعار تہ پورا اُترا:
 sc-criteria-item-1 = جملے دی املا ٹھیک ہونڑا ضروری ہے۔
+sc-criteria-item-2 = جملے دی گرائمر ٹھیک ہونڑا ضروری ہے۔
+sc-criteria-item-3 = جملہ بولنڑا دے قابل ہونڑا ضروری ہے۔
+sc-criteria-item-4 = اگر جملہ میعار تہ پورا اُترے، تے سجّے پاسے&quot;منظور&quot;دا بٹن دباؤ۔
