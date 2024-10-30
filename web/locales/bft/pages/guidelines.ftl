@@ -76,3 +76,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = تم سیر پو �
 adding-sentences-subheader-speakable = زیربہ نینمو
 adding-sentences-subheader-speakable-explanation = سینگپہ لیخمو تم سیر کن فطری طوریکھہ کڑا کوڑینگنو کولبونگ ان، یونگ زیرکھن کن لا زیربہ لا بدونگو گوا رگوسپن۔ تم سیر کنینگنو سکتی لوکھسینگنو لوقسو سکت یودپی دیکھنہ لوقسو تم کن پی تم سیر چی گوا رگوسپن، نیاسی نٸی روخمیونگی نا کھور تنگی میونگی فری ریکارڈ بیایودپی تم سیر کن لیگنہ سہ گشہ، لیگی زیرسنی چن فچوین یودپن۔
 adding-sentences-subheader-numbers = نمبر کن
+adding-sentences-subheader-numbers-explanation = تم سیر پینگنو نمبر چی میدوکپہ رگوسپن، چازیربہ دو سکت تنگسے زیربی وخلا کہژ کہژ گوید۔ نمبر چی زیربنہ ڈیٹا سیٹ پینگنو ہرکپلس گوا یودپن، مثلا نمبر کن 2409 نیسشو نا بجی نا زیرو نہ رگو، میدنارے ستونگ نیس نہ بجی بگیانہ رگو زیربنہ ہرکپلس گوید،
+adding-sentences-subheader-abbreviations = تم چھٹ کن نہ، تم ہرتخ کن
+adding-sentences-subheader-abbreviations-explanation = تم چھٹ کن نہ تم ہرتخ کن ملا مہ کول، چا زیربنہ یو ایس اے پو اسے، دیکھنہ آٸی سی ای پو آٸی ژوخ شیسپن، دوفی دو ژوخ ہرکپلس گوا یودپی تم ہرتخ کن تم سیرینگنو مہ ہڑکیم۔ دیکھنہ تم ہرتخ چک لا لوقسو لوقسو زیرجوخ کن یودپاد۔
+adding-sentences-subheader-punctuation = پھالونگ
