@@ -5,6 +5,8 @@ sc-review-title = جملیاں دا جائزہ لاؤ
 sc-review-loading = جملے لوڈ ہورے ہن۔۔۔
 sc-review-select-language = برائے مہربانی جملیاں دے جائزے واسطے زبان چُنڑو۔
 sc-review-no-sentences = جائزے واسطے کوئی جملے نیں۔<addLink>ہونڑ ہور جملے شامل کرو!</addLink>
+sc-review-form-prompt =
+    .message = جائزہ گدے دے جملے نیں جمع ہوئے، یقین ہے؟
 
 ## REVIEW CRITERIA
 
