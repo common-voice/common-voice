@@ -41,4 +41,9 @@ terms-agree = Angraqa
 terms-disagree = Angenritaqa
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Quyana erinan aturcelluku!
-first-cta-subtitle-text = Elpenek qanrucavkut, ikayurciqaten developer-aat atuluaqaryugngalrianek
+first-cta-subtitle-text = Elpenek qanrucavkut, ikayurciqaten developer-aat pilikuneng atuluaqaryugngalrianek
+why-donate = Ciin apcit?
+add-information-button = Ilaluku camek
+continue-speaking-button = Piyunaituq, cali qanerluten
+create-profile-text = Information-aaten-qaa save-aryugaten? <createProfile>Profile-aliluten</createProfile>
+thanks-for-voice-toast = Quyana erinavet information-aara ilaluku
