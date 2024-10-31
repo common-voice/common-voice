@@ -43,7 +43,10 @@ report = Hant ihiip quih sahzaxö aha
 report-title = Ziix iti cöipacta quih hant hac iiqui spaca aha
 report-ask = ¿Áz ya ano tahca tmiipe icaaitom hizac?´
 report-offensive-language = Icaaitom imiipe
-report-offensive-language-detail = Icaaitom hac icaaitom imiipe pac ano caahca ha
+report-offensive-language-detail = Icaaitom hac ziix imiipe quih cmiique ihmaa quij tmahnzaait iti cöihazaxö pac ano caahjoj iha.
+report-grammar-or-spelling = Cöipaspoj hac imiipe pac ano caahca ha
+report-grammar-or-spelling-detail = Icaaitom hac cöipaspoj hac imiipe pac ano caahca ha.
+report-different-language = Icaaitom ihmaa
 
 ## Speak & Listen Shortcuts
 
