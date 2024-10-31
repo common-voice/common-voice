@@ -6,6 +6,7 @@ home-cta = ¡Techtlapoui! ¡Nikan xitlapaleui!
 wall-of-text-start =
     Totlajtol totech, toijtik kisa. Yika tikyolnektokej tikchiuaskej teposmej makajsikamatikan totlajtol.
     Maski ijkon, tla tiknekij ijkon tikchiuaskej, monekis matiktsikokan miak tlajtoli.
+wall-of-text-more-mobile = Miak tlamantli tlen uejueyij tekinechikolmej kipiaj amikaj okse uelis kitas. Tikneltokaj non kitsakuilia matitlayekapanpanokan. Yika, otikchijkej Common Voice (Tinochtin Titlajtoaj) uan ijkon nochtin uelis timosepanpaleuiskej ika.
 
 ## Account Benefits
 
