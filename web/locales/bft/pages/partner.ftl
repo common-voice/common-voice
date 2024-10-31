@@ -12,3 +12,7 @@ partnerships-governments-description = نیا لا ہرمق میونگی ٹیک�
 partnerships-academia-header = ہلژپ کھنگ کن، اکیڈمکس کن، نا ژال ژال بیکھن کن
 partnerships-academia-description = رانگ فچوس کن کھڑولبو نیی سینگی گرال کنینگ یودپن۔ ژال ژال بیالا روخ بیننارے، ڈیٹا ژالبی لوکھسینگ یا تری تری بیوفری، شوخمو تھوک۔
 partnerships-small-business-header = ژھونژے ژونگ لین کن، اے آیی نا ٹیکنالوجی لس ریاقس کن
+partnerships-small-business-description = نیا ہمیشہ ڈیٹا کولکھن کنی رگوس لوکھ نا لوکھسی بارینگ سنا بیا دوکسے یودپن، ڈیٹا کھیونگمی پلیٹ فارم کن نہ زومسے، ڈیٹونگ لیخمویکھہ فچوفری روخ بیو نا زومسے، نیا لا یری رولنہ سنابیو لا تھدکھہ گوید<emailFragment>
+partnerships-corporates-header = چھوغو چھوغو لس کھنگ کن، اور پلیٹ فارم کمپنیونگ
+partnerships-corporates-description = اگر یانگی ڈٰتا سیٹ کنی بارینگ ینگسہ زیربہ ژالین یودپننارے،  گریمسے منصوبہ بیسپی پلیٹ فام کن لا پھل تنگمہ تھدید نارے، یا گرقسے بے لس لوکھچی ژالید نارے، <emailFragment>سپیرو تھونچوک۔
+partnerships-our-partners = نیی ڈراقسے لس بیکھن کن
