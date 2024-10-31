@@ -33,6 +33,7 @@ submit-form-action = ჯღონა
 
 ## Reporting
 
+report-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ.
 
 ## Speak & Listen Shortcuts
 
