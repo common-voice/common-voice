@@ -33,6 +33,8 @@ small-batch-sentence-submission = nkjin nijmí sikasén
 bulk-sentence-submission = nñú kjin nijmí sikasén
 single-sentence = Jngu nijmí
 small-batch-sentence = xtín
+bulk-sentence = Xtín
+sentence-domain-combobox-label = A mari nijmí
 
 ## BULK SUBMISSION 
 
