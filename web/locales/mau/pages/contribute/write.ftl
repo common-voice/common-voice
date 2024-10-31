@@ -36,6 +36,8 @@ small-batch-sentence = xtín
 bulk-sentence = Xtín
 sentence-domain-combobox-label = A mari nijmí
 sentence-domain-select-placeholder = Ján skuya chjia'ajin
+# Sentence Domain dropdown option
+agriculture_food = Tsujmí ntjé tsujmí ma chine
 
 ## BULK SUBMISSION 
 
