@@ -23,6 +23,16 @@ toggle-play-tooltip = Xikpacho { shortcut-play-toggle } uan xikpajpatla ken tikk
 speak-paragraph = Tiksikos motlajtol kipaleuia mamochiua totlajtolnechikoli tlen nochtin uelis kitaskej; sekimej kijtoskiaj non tlen okachi kualtsin.
 speak-goal-text = ¡Yomokak!
 listen-paragraph = Tikmotilis tlen oksekimej yokitsikokej noijki sapanoa ipati itech Common Voice. Techkaki uan techpaleui tlen tikchiuaj mayeto ken moneki.
+listen-goal-text = ¡Yikuali!
+hours-recorded = Horas tlen yikatej
+hours-validated = Horas tlen yikualij
+voices-online = Tlajtoli tlen axkan katej
+todays-progress = Tlen axkan yomochi
+help-reach-goal = Techpaleui matikajxitikan { $goal }
+read-terms-q = ¿Yitikmati Tlen moneki?
+ready-to-record = ¿Techtliokolilis motlajtol?
+all-locales = Nochi
+today = Axkan
 
 ## Account Benefits
 
