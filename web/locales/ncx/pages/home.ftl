@@ -66,6 +66,9 @@ join-newsletter = Tla tikneki, xiktlalili mocorreo uan tikmatis tlen yikin omoch
 ## What's public
 
 whats-public = ¿Tlenon nochtin kitaskej?
+email-not-public = Amikaj okse kimatis katli mocorreo.
+recordings-and-locale-public = Nochtin kimatiskej kanachi titlapaleuia uan keski tlajtolkopaj ika titlapaleuia.
+username-optin-public = Moneuian uelis tikpejpenas motoka uan kox nochtin kitaskej.
 
 ## Landing
 
