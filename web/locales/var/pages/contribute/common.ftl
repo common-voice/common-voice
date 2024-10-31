@@ -115,5 +115,6 @@ contribution-background-noise-example-3-fixed-title = <strong>Ki'ruchacha </stro
 contribution-background-voices-description = Ka'wete intumicho puripi kusiñuyame teriamaka mo'enati, na'pe kina'kiteme naiwame napeniame intuame kawe yoratiame itapiti chiamé pu'u ma'kina tu pa'papú nawesari  ki to'atiame netetiame yo'tetiachi ,ka'we i'namusa na'wesari sewinatiame pu'ka wa'a tiame ka'te nakita'china pu'ka ki'teperuma,yo'ma tiempo iji u'ju u'mato achitio toisa wa'a ne'neniamechi ta'jayame, achinatio intuía na'iwaniame wa'pi simiyame entemuna wa'a ra'waroaniachi
 contribution-background-voices-description-extended = isi pu'u ra'waroaniame te'weso ma'chi ku'sichanio ki nakipapu isi tisa ka'we inamurio kepuka yoma puka ki kawe cheso'o
 contribution-volume-title = Muenapu
+contribution-just-unsure-description = i'si te'isa na'tepasa'a i'tapiti i'ji ne'tetiame ka'i kuipame yo'ra pirechimuna a'mo ka'we i'tachitia yotetiame. Isi pichiwa kintuso'o ka'chi isika ka'weintamane, u'saroa pu'ka ra'waroatiame,
 see-more = </chevron></chevron>epeche weyka
 see-less = <chevron></chevron>neene paykapi
