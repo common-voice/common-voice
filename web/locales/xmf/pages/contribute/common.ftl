@@ -6,7 +6,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ინნაჭარა
        *[other] <bold>{ $count }</bold> ინნაჭარა
     }
-goal-help-recording = თქვანი მოხვარათ <goalPercentage></goalPercentage> დღარი ღანკიში { $goalValue } ინნაჭარში შისრულუ!
+goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარი ღანკიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
 speak-empty-state = ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო
 no-sentences-for-variants = გიშაგორილი ნინაში სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი შხვა სახეობაში წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
 speak-loading-error = თქვანო ვეგორ ეშაკითხირალი წინადადებეფქ. რთხინთ, ქოცადათ გვიანო.
