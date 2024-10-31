@@ -80,3 +80,5 @@ adding-sentences-subheader-numbers-explanation = لکھے ہانک موجونی 
 adding-sentences-subheader-abbreviations = مخففی
 adding-sentences-subheader-abbreviations-explanation = مخفف انئی تھے "یو ایس اے" یا "آیس" اصل باشی نی نے لکھیونو اواجئی۔ انیئی تھے لکھیوں تو جینئی ہیجا ساتی پرُولی بیئں۔ زدو، ایک مخففیکی کاریو لیگی لائیے رجانئیے بینائیے۔
 adding-sentences-subheader-punctuation = کِشئیے گہ ٹِکے
+adding-sentences-subheader-punctuation-explanation = لیگی لائی کُوری بِیلی تو کِشیئے گہ تِکے یو تھیونو اواجئی۔ مثالیک، انگریزی نی ایک ایپاسٹرافیک انا تھے "don’t" یا “we’re” انینو انا تھے اکی لکھیونو اواجئی،  انا ٹِکے “@” or “#. تُوڑے نے اواجین دا۔
+adding-sentences-subheader-special-characters = خاص مَشے گہ درینے مَشے
