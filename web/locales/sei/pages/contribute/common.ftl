@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] Ziix iictim
        *[other] Xiica iicloj
     }
+goal-help-recording = ¡Haa xah tiipe, hiicot cömihaai hac ha itah ma, Common Voice quih <goalPercentage></goalPercentage> taax ziix icaaitom quih an hant cooit { $goalValue } coi haa cöimiimjc!
+goal-help-validation = ¡Haa xah tiipe, hiicot cömihaai hac ha itah ma, Common Voice quih <goalPercentage></goalPercentage> taax ziix icaaitom quih an hant cooit coi cöihoocta hac{ $goalValue } coi haa cöimiimjc!
 
 ## Contribution Nav Items
 
