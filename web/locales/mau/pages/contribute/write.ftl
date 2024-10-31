@@ -42,6 +42,8 @@ agriculture_food = Tsujmí ntjé tsujmí ma chine
 automotive_transport = Kicha ji fee
 # Sentence Domain dropdown option
 finance = Toón
+# Sentence Domain dropdown option
+service_retail = Sutena xkua
 
 ## BULK SUBMISSION 
 
