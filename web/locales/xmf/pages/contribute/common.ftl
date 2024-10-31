@@ -55,3 +55,4 @@ shortcut-play-toggle-label = გოტება / მეჭყვიდუა
 
 ## Validation criteria
 
+contribution-criteria-nav = სითინუეში ოზიმალი.
