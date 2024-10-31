@@ -32,3 +32,9 @@ profile-form-submit-saved = سموٹے ہیننک
 male_masculine = بیرو/مشاؤہ
 female_feminine = سونچی / چئیے
 intersex = بیروگہ سونچی مجا
+transgender = ٹرانسجینڈر
+non-binary = دگونی نوشیک
+do_not_wish_to_say = رجیونو کھوش نہ تھاؤ
+# Gender
+other = موتے
+why-profile-title = پروفائیلک کے؟
