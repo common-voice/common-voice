@@ -60,8 +60,9 @@ nature_environment = Ngasu'nde
 news_current_affairs = Énn ka kjua xi ma nt'e
 # Sentence Domain dropdown option
 technology_robotics = kjua chjine
-sentence-variant-select-label = Antjeya nijmí
-sentence-variant-select-placeholder = Chja'jin jngu énn
+sentence-variant-select-label = kja'é skuya nijmí
+sentence-variant-select-placeholder = Chja'jin jngu skuya
+sentence-variant-select-multiple-variants = Énn naa/ kjin skuya
 
 ## BULK SUBMISSION 
 
