@@ -29,6 +29,10 @@ change-preferences = Icaaitom hant hac ano coii hapi haqueepe quih iti cöisahpa
 contribute-voice-collection-nav-header = Iquipon ptiihax ano coii
 contribute-sentence-collection-nav-header = Icaaitom an hapaptx
 login-signup = Icaaitom quih hant an hant yaii hac an consiizquimaha / Ziix oo cöpopah an cöiscazquim ha zo mponyaa x, zo nsaai aha
+vote-yes = Hasa
+vote-no = Saat
+datasets = Icaaitom xah, icoosx iiqui pte quiih
+languages = Icaaitom pti immis
 
 ## Reporting
 
