@@ -104,3 +104,6 @@ contribution-misreadings-title = No sési kurhankukwarhisti
 contribution-misreadings-description = Énkari kurhantiant'awaka, sési kurhankwa jimpo jatsisti eska mak'uni arhiaka eska na karakata jaka; énka no tekuntaaka así jiokwarhiaa. <br/> Maruksï arini jimpowati:
 contribution-misreadings-description-extended-list-1 = kweratasïniti ma <strong> 'el' </strong> o <strong> 'la' </strong> jima énka wénani jamaaka ma wantakwani patsani.
 contribution-misreadings-description-extended-list-2 = kweratasïniti ma <strong> 's' </strong> k'amarhukuni jamani wantakwarhu.
+contribution-misreadings-description-extended-list-3 = arhiantsï wantakwa jutuntskataechani énkaksï no jaka, eska na jinteeka "paka" énkaksï arhikwekani jampka "pari énka".
+contribution-misreadings-description-extended-list-4 = énkaksï no sési antataaka ampe wantani jamani pari sóntku patsani jamani wantakwani.
+contribution-misreadings-description-extended-list-5 = Méntku úntani arhint'ani ma wantakwani
