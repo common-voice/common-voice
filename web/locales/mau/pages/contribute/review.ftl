@@ -38,3 +38,5 @@ sc-review-link = Chut'ajin
 
 sc-criteria-modal = Chuba xi sichjíre
 sc-criteria-title = Chuba xi sichjíre
+sc-criteria-make-sure = Nga yije nijmí tjínere nga sikitjusun jngu chuba:
+sc-criteria-item-1 = Ndaa chjí enn.
