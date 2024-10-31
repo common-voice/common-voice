@@ -18,6 +18,10 @@ speak-loading-error = Jakyi'mya te' 'odejaye. Tsäjkijswätsäkä jäsi'ka/tsayi
 record-button-label = Yajktsä'yä te' 'mode yä' 'ondsanjku'yomo.
 share-title-new = Kotsokya'tsi wa'at mba'danhäyaju 'eyada'mbä 'ode'is myangä'y.
 keep-track-profile = Ko'sa juts nä myäja'aju te' myosku'y tumä mij mgene'is yostäjkpi'k.
+login-to-get-started = Nitsäkä/no'a te' yostäjk, muspadi mjatyäjkäkye'da mwit wa'a yõsnitsäjku.
+target-segment-first-card = Näde'e yõsubä 'äjtsyji'nhda'm yä' witpä yosku'yomo.
+target-segment-generic-card = Näde'e mdsajkubä te' myosanh yä witpä yoskutyäjkomo.
+target-segment-first-banner = Kotsokya'tsi yä witpa yoskutyäjkomo wa'at jãbyo'ksayu te' yä' yostäjk yä Common Voice'omo [...]
 
 ## Contribution Nav Items
 
