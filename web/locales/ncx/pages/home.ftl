@@ -20,6 +20,9 @@ help-us-title = ¡Techpaleui tikmatiskej kox kuali okijkuilokej!
 help-us-explain = Xikapcho play, xikkaki uan techilui: ¿kuali okitenkixtikej tlajkuiloli?
 no-clips-to-validate = Nesi amitlaj onka tlen uelis tikkakis ika nin tlajtolkopa. Techpaleui, xikintsiko seki axkantsin.
 toggle-play-tooltip = Xikpacho { shortcut-play-toggle } uan xikpajpatla ken tikkakis
+speak-paragraph = Tiksikos motlajtol kipaleuia mamochiua totlajtolnechikoli tlen nochtin uelis kitaskej; sekimej kijtoskiaj non tlen okachi kualtsin.
+speak-goal-text = ¡Yomokak!
+listen-paragraph = Tikmotilis tlen oksekimej yokitsikokej noijki sapanoa ipati itech Common Voice. Techkaki uan techpaleui tlen tikchiuaj mayeto ken moneki.
 
 ## Account Benefits
 
