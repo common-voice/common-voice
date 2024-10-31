@@ -44,10 +44,14 @@ shortcut-record-toggle-label = ინოჭარუა / მეჭყვიდ�
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = დორთა
+shortcut-submit-label = ინოჭარილეფიში გინოჯღონა.
+request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
 request-language-button = მითხით ნინაში გეძინა
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = გოტება / მეჭყვიდუა
 
 ## Validation criteria
 
