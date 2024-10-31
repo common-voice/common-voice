@@ -12,6 +12,7 @@ clips-with-count-pluralized =
 goal-help-recording = ¡Haa xah tiipe, hiicot cömihaai hac ha itah ma, Common Voice quih <goalPercentage></goalPercentage> icaaitom quih ziix quih an hant cöicatx hac { $goalValue } taax haa cöimiimjc!
 goal-help-validation = ¡Haa xah tiipe, hiicot cömihaai hac ha itah ma, Common Voice quih <goalPercentage></goalPercentage> taax ziix icaaitom quih an hant cooit coi cöihoocta hac{ $goalValue } coi haa cöimiimjc!
 contribute-more = ¿Me quitaaho ya, { $count } ihmaa pac cömisaai hac?
+speak-empty-state = Hicaaitom hizaax ziix z an hant spacatx ca zo haa yomiih...
 
 ## Contribution Nav Items
 
