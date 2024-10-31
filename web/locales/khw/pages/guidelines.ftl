@@ -74,6 +74,7 @@ adding-sentences-subheader-length-explanation = جملا 15 سار کم لفظ �
 adding-sentences-subheader-spelling-punctuation = املہ وا زیرزبر
 adding-sentences-subheader-spelling-punctuation-explanation = جملہ سہی نویشینو بائے
 adding-sentences-subheader-speakable = لودیکو بݰ
+adding-sentences-subheader-speakable-explanation = سفو سار جام جملہ قدرتی وا مشقولگی - خورو کار ریکو پچین اسان بائے۔ جبکہ ای جملہ مختلف ہوازا وا لفظ  بیک بو اہم۔ اسپہ ہش دی کوشش کوسیان رکارڈنگو جملہ اسپہ رضاکاران پچین ہردی ݯوکونو وا مزو اشناری بائے
 adding-sentences-subheader-numbers = نمبر
 adding-sentences-subheader-abbreviations = مختصر وا مخفف
 adding-sentences-subheader-punctuation = زیر زبر
