@@ -100,6 +100,7 @@ contribution-criteria-page-title = yo'raniame pu'u na'wesaniame
 contribution-criteria-page-description = pe'nipaniame e'peche ka'we ki'iyaka ke'puka onamuka pu'ka rawarotiame i ka'we ma'chitamamu achina yoraka yoramia  pu'ka a'mo ra'waroa
 contribution-misreadings-example-5-title = Siminané neéa waà pueblochitú
 contribution-misreadings-example-6-title = Simané waá pueblochitú
+contribution-background-voices-description = Ka'wete intumicho puripi kusiñuyame teriamaka mo'enati, na'pe kina'kiteme naiwame napeniame intuame kawe yoratiame itapiti chiamé pu'u ma'kina tu pa'papú nawesari  ki to'atiame netetiame yo'tetiachi ,ka'we i'namusa na'wesari sewinatiame pu'ka wa'a tiame ka'te nakita'china pu'ka ki'teperuma,yo'ma tiempo iji u'ju u'mato achitio toisa wa'a ne'neniamechi ta'jayame, achinatio intuía na'iwaniame wa'pi simiyame entemuna wa'a ra'waroaniachi
 contribution-volume-title = Muenapu
 see-more = </chevron></chevron>epeche weyka
 see-less = <chevron></chevron>neene paykapi
