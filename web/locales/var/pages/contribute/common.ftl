@@ -117,6 +117,7 @@ contribution-background-voices-description = Ka'wete intumicho puripi kusiñuyam
 contribution-background-voices-description-extended = isi pu'u ra'waroaniame te'weso ma'chi ku'sichanio ki nakipapu isi tisa ka'we inamurio kepuka yoma puka ki kawe cheso'o
 contribution-volume-title = Muenapu
 contribution-reader-effects-description = yo'ma achitio tiempochi ra'waroatiame u'jupu e'nte naiwame a'po na'wesari nayawa ka'we nakitaema rawaroriama wa'a tapitika chiachi sinaka mo'enaticheka o re'yeroaka ka'we naiwaka "u'matoteka". kinaki pu'ka ra'waroatiame itetatiame i wa'a yoratiame navesarichi to'niame kinakiwame  si'sioki netetiame
+contribution-just-unsure-title = ¿ki kawe na'neriame e'sinamu ?
 contribution-just-unsure-description = i'si te'isa na'tepasa'a i'tapiti i'ji ne'tetiame ka'i kuipame yo'ra pirechimuna a'mo ka'we i'tachitia yotetiame. Isi pichiwa kintuso'o ka'chi isika ka'weintamane, u'saroa pu'ka ra'waroatiame,
 see-more = </chevron></chevron>epeche weyka
 see-less = <chevron></chevron>neene paykapi
