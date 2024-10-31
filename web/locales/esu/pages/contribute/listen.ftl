@@ -5,3 +5,6 @@ listen-again-instruction = Aspiaq!<playIcon></playIcon>Ataam niicugniluku upinga
 listen-3rd-time-instruction = 2-nek qaqitellruuten, tua-llu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Nangneqlia!
 listen-empty-state = Qalarutkat nanglliniut - refresh-aq neggluku wall'u waniku naspaakina.
+listen-abort-title = Taq'uten-qaa cucukellerkamek qalarutkanek?
+listen-abort-cancel = Cucukluki cali
+listen-abort-confirm = Taqluku cucukellerkaq
