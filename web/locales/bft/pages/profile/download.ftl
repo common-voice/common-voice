@@ -24,3 +24,7 @@ download-request-archive-multiple = لوقسو بیوس { $archiveCount } زیپ
 download-request-assembling-description = یری فایل کن دمسین یود۔ جوکلا ینگ ہلتوس
 download-request-refresh-button = ینگ ستروق لزوق
 download-request-modal-title = ڈاون لوڈ بے لم کن
+download-request-modal-description = دیکھہ یری زیپ فایل کن ڈاون لوڈ بے لم کن یود
+download-request-link-text = زیپ #{ $offset } کا/کے { $total }
+download-request-metadata-link = تم سیری تم کن
+download-request-link-single = یانگلا یو آر ایل کن چوق یری پسندیدہ ڈاون لوڈ کن یودپی سیکھہ  نقل بیا یا سپیاربہ نینید۔ دونگ 12 گھنٹینگ ستورے گوین، اما یانگلا دی صفحیکھہ یونگ ینگ فچوا اونگمہ نینید۔
