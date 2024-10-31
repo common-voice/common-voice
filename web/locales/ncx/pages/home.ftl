@@ -69,6 +69,13 @@ whats-public = ¿Tlenon nochtin kitaskej?
 email-not-public = Amikaj okse kimatis katli mocorreo.
 recordings-and-locale-public = Nochtin kimatiskej kanachi titlapaleuia uan keski tlajtolkopaj ika titlapaleuia.
 username-optin-public = Moneuian uelis tikpejpenas motoka uan kox nochtin kitaskej.
+demographic-deidentified-clarity-2 = Tlen tiktlalilis motech tla tikneki (keski xiuitl yotikajxiti, kox titlakatl noso tisiuatl, kanin mocha) amo keman monextis teixpa. Sejse tlajtoli tlen tiktsikos tiktlaliliskej inuan oksekimej tlen mouikaj itech kanin tichanti uan ijkon okachi tlapaleuis. Panpa xamo sekimej kinekiskej kinpaleuiskej san akinmej kanaj chantij.
+username-email-not-demographic = Motoka tlen tikmotlalilis uan mocorreo amo tiktlaliliskej teixpa.
 
 ## Landing
 
+welcome-staff = ¡Tiyolpakij { $company } touan tipouis!
+help-contribute = Techpaleuis matitesepanpaleuikan tla timomachotis itech Common Voice uan techpaleuis ika motlajtol.
+login-company = Xikalaki / Ximomachoti ika { $company } correo
+profile-not-required = Amo moneki timomachotis tla titechpaleuis, san okachi kuali. Xikita tleka.
+read-more-about = Xikmati okachi kanin Tiktematiltiaj
