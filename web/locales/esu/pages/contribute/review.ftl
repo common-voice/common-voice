@@ -51,3 +51,6 @@ sc-review-rules-title = Uum-qaa igausngalriim maligtaqui pisqutet?
 sc-review-empty-state = Igausngalriartairutuq wani qaneryarami.
 report-sc-different-language = Allamek qaneryaramek
 report-sc-different-language-detail = Allamek qaneryaramek igausngauq.
+sentences-fetch-error = Pugesciigatellruuq igausngalrianek aqvatellrani
+review-error = Alartellruuq igausngalrianek review-allrani
+review-error-rate-limit-exceeded = Cukassiyaagtuten. Uitaqaqaa, una-qaa igausngalria assirtuq?
