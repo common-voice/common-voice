@@ -27,6 +27,8 @@ change-preferences = Icaaitom hant hac ano coii hapi haqueepe quih iti cöisahpa
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Iquipon ptiihax ano coii
+contribute-sentence-collection-nav-header = Icaaitom an hapaptx
+login-signup = Icaaitom quih hant an hant yaii hac an consiizquimaha / Ziix oo cöpopah an cöiscazquim ha zo mponyaa x, zo nsaai aha
 
 ## Reporting
 
