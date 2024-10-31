@@ -23,9 +23,32 @@ voices-online = آن لاین سونگفہ یودپی سکت کن
 todays-progress = دیرینگی لس بزونگ
 help-reach-goal = تھوبہ فری نیی روخ بیوس
 read-terms-q = یانگی نیی کھوم لوکھسی سپیرونگ زیرسیدا؟
+ready-to-record = یری سکت پی شیزدے بیا تیار یودا؟
+all-locales = گانگمہ
+today = دیرینگ
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ چک
+       *[other] ہفتہ
+    }
+x-months-short =
+    { $count ->
+        [one] مو{ $count }
+       *[other] مو{ $count }
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } ی
+       *[other] { $count } ے
+    }
+help-make-dataset = چوقلا تھوبہ نینمی چوقپہ لیاخو ڈیتا سیٹ فچوا فری نیی روخ بیوس۔
+sign-up-account = اکاونٹ چک فچوا فری جوکھ لم پو سونگ
+email-subscription-title = ای میلی خبر اتار لا جوکھ لم لا سونگ
+email-subscription-title-new = کامن وایسی خبر اتار کنی فری، لس کھومی لوکھسینگ، دیکھنہ تونگونگ ایتوفیونگما فری جوکھ لم لا شوقس،
 
 ## Account Benefits
 
+benefits = زدے
 
 ## What's public
 
