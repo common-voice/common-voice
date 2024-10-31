@@ -49,6 +49,13 @@ report-grammar-or-spelling-detail = Icaaitom hac cöipaspoj hac imiipe pac ano c
 report-different-language = Icaaitom ihmaa
 report-different-language-detail = Icaaitom hant coii coi he iitom hac ihmaa ha.
 report-difficult-pronounce = Cöipamx hac haai cmipi ha
+report-difficult-pronounce-detail = Icaaitom cöipamx hac haai cmipi pac ano caahjoj iha
+report-offensive-speech = Icaaitom hant hac ano coii coi imiipe ha
+report-offensive-speech-detail = Icaaitom ziix quih an hant cooit coi icaaitom imiipe pac ano caahjoj iha.
+report-other-comment =
+    .placeholder = Iti icaspoj iic cöquiipe ha
+success = Quiipe ha
+continue = Yeen iiqui squiin aha
 
 ## Speak & Listen Shortcuts
 
