@@ -14,3 +14,4 @@ record-cancel = دوبارہ ریکاڈنگ منسوخ کرو
 record-instruction = { $actionType }<recordIcon></recordIcon> فرجملہ اُچی آواز نال پڑھو
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>جدوں ہو جُلا
 record-three-more-instruction = تِرے باقی ہن!
+record-again-instruction = بہت اچھا<recordIcon></recordIcon>اپنڑا اگلا کلپ ریکاڈ کرو
