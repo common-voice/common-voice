@@ -53,15 +53,48 @@ report-different-language-detail = ma wantakwa jimpo karakata jarhasti énka ji 
 report-difficult-pronounce = No úsïnti ma sési arhintani
 report-difficult-pronounce-detail = wantakwa jukaasti énkaksï úkwa jukakata pari arhintani ka wantani.
 report-offensive-speech = no sési jásï ampe arhixati
+report-offensive-speech-detail = I wantakwa patsaka no sési ampe arhixati o no janhanharhikwa ampe wantaxeraxati.
+report-other-comment =
+    .placeholder = wantaxerani
+success = sési jarhasti
+continue = chúnkumani
+report-success = Ayankup'erata sési axanhantasti
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = patsani / anhaxut'ani
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Ménteru wentsï patsani
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Kéntitani íni énkari patsani japka
+shortcut-submit = kw'anhatsint'ani
+shortcut-submit-label = Wantakwa patsakata axani
+request-language-text = ¿Notkiri exent'asïnki chiiti wantakwani ixu Common Voice?
+request-language-button = Wantakwani ma p'itakw'arhini
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = kurhantini / anhaxut'ani
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = chuxapakwaecha
+contribution-criteria-link = chuxapakwaeri ampe utasï mítini pari jarhoap'ini
+contribution-criteria-page-title = chuxapakwaecha pari jarhoap'ini
