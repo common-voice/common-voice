@@ -82,6 +82,7 @@ adding-sentences-subheader-abbreviations-explanation = مختصر  وا  مخف�
 adding-sentences-subheader-punctuation = زیر زبر
 adding-sentences-subheader-punctuation-explanation = { "" }
 adding-sentences-subheader-special-characters = خاص حروف وا بیریو حروف
+adding-sentences-subheader-special-characters-explanation-1 = حروف ہتے زبانو تان بانی  کیا زبان کی لو دیونو بویان۔ مثلا حروف "ж" روسی زبانا استعمال بویان لیکن انگریزیا کیاوحت دی استعمال نو بیتی شیر۔ ہیس انگریزی عبارتو موژی نو بیلیک۔
 adding-sentences-subheader-offensive-content = شوم مواد
 reviewing-sentences-explanation-1 = جملہ کی سورا شرطو پورا کی کویان تھے "دی" بٹینو دیت
 reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا نو کویان تھے "نو" بٹینو دیت
