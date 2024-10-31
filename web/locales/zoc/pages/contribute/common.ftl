@@ -22,9 +22,18 @@ login-to-get-started = Nitsäkä/no'a te' yostäjk, muspadi mjatyäjkäkye'da mw
 target-segment-first-card = Näde'e yõsubä 'äjtsyji'nhda'm yä' witpä yosku'yomo.
 target-segment-generic-card = Näde'e mdsajkubä te' myosanh yä witpä yoskutyäjkomo.
 target-segment-first-banner = Kotsokya'tsi yä witpa yoskutyäjkomo wa'at jãbyo'ksayu te' yä' yostäjk yä Common Voice'omo [...]
+target-segment-add-voice = Yajktsäyä te' 'mode yä'ki.
+target-segment-learn-more = 'Ijta'nhäyumä tsa'manhwajktäjk.
+change-preferences = Käkajkya tibä msutpa.
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = 'Ijtumä 'eya'eyada'mbä 'ode'is myangä'y.
+contribute-sentence-collection-nav-header = 'Ijtyajpamä te' 'odejayeda'm.
+login-signup = No'a te' yostäjk / jatyäjkä mwit
+vote-yes = jä'ä
+vote-no = Ji'ne
+datasets = Wäwä 'ijtyajumä te' 'odejayeda'm.
 
 ## Reporting
 
