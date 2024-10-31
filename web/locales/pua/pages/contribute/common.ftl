@@ -18,6 +18,7 @@ speak-loading-error = noksï wantakwa úntskataecha karharhani. Tatsikwa ménter
 record-button-label = Patsanhani chiiti winhachakwani
 share-title-new = <bold> jarhoats'ïni </bold> jirinhani materu winhachakwaechani
 keep-track-profile = Exepa na énkari xani pani jaka chiiti ánchikwarhita ma mitikwarhintskwa jinkoni
+login-to-get-started = ixu wéna o karhakwarhi parikari úaka wénani
 
 ## Contribution Nav Items
 
