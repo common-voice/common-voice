@@ -78,6 +78,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = U'yeniame pu'ka ra'waroatiame wa'a ma'siteniachi
 shortcut-submit = E'naniame
 shortcut-submit-label = i'tochetiame ra'waroatiame
+request-language-text = ¿i'weka pe'ji kitewanimu a'mo nawesariwa wa'a Common Voice?
 request-language-button = ithamàne piripi nawésari
 
 ## Listen Shortcuts
@@ -106,6 +107,10 @@ contribution-misreadings-description-extended-list-1 = Toina pirepi <strong>"el"
 contribution-misreadings-description-extended-list-2 = Toina pirepi <strong>s</strong> wa'a ru'timochi pu'ka na'wesarichi
 contribution-misreadings-description-extended-list-3 = reyeraaka na'peka pu'ka  pichi'wáchi kái intuame natiká tiame pa'puka yo'rameti pu'ka i'chiyo o tenawinániame
 contribution-misreadings-description-extended-list-4 = We'kateka ka'juyachi wa'a neipa nawesari kaporame ra'waroatiame u'matoka kúwe
+contribution-misreadings-description-extended-list-5 = ne'nesa we'sa utewachi leyeroaka piripi nawesari
+contribution-misreadings-example-1-title = Wa'ja ri'nosaurio kayetupakame wa'a triasikochi
+contribution-misreadings-example-2-title = Pu'u rinosaurio kayetupakame wa'a triasikochi
+contribution-misreadings-example-2-explanation = [enimete'eri pu'u ’rinosaurio‘]
 contribution-misreadings-example-3-explanation = [pu'u ra'waroatiame wa'a te'we'so'o pa'cha pu'ka kuwepaka wa'a ne'ipa na'wesaniame ]
 contribution-misreadings-example-4-explanation = [intuna ra'waroatiame we'ka pu'u yotetiame]
 contribution-misreadings-example-5-title = Siminané neéa waà pueblochitú
