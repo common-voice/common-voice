@@ -94,6 +94,10 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Yo'raniame
+contribution-criteria-link = Pe'nipaniame we'ka wajachi yo'ra pu'ka na'wesaniame
+contribution-criteria-page-title = yo'raniame pu'u na'wesaniame
+contribution-criteria-page-description = pe'nipaniame e'peche ka'we ki'iyaka ke'puka onamuka pu'ka rawarotiame i ka'we ma'chitamamu achina yoraka yoramia  pu'ka a'mo ra'waroa
 contribution-misreadings-example-5-title = Siminané neéa waà pueblochitú
 contribution-misreadings-example-6-title = Simané waá pueblochitú
 contribution-volume-title = Muenapu
