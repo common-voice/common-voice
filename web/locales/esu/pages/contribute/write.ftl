@@ -1,0 +1,9 @@
+## WRITE PAGE
+
+write = Igaulluki
+
+## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+
