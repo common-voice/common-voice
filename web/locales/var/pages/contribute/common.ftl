@@ -107,6 +107,7 @@ contribution-misreadings-example-6-title = Simané waá pueblochitú
 contribution-misreadings-example-7-title = No'ranine wa'a no'o o'joekachi
 contribution-varying-pronunciations-description-extended = pirenachi, i'sipichikea pu'ka yotekame kachitio kiyamaka na'tepare pu'ka nawesari i o'wa chani ki nanereka kia'jachikoi pu'ka apo tu'ya, kinakiwame. ki'kawe naneria, no'note pu'ka tachichaniame ni'nimia
 contribution-background-noise-title = Teresi kusuwane
+contribution-background-noise-description = naki teme ta'mo nokitiame penipateka pineri nurame enimicho yorame pirepi wekanapeka chiame teriamaka, intuna kawe na'kimetiame chiame a'jachi utewaeme kachiti kichachapasopu inamuame yomatiame  naiwatiame, pu'u músika chiame mo'enati kawetepu, pu'u músika pu'uche u'ju utewaeme na'pe kiamo kawe inamumicho yo'ma na'wesari ki kawetiame.
 contribution-background-noise-description-extended = isi pu'u ra'waroaniame te'weso ma'chi ku'sichanio, ki nakipapu isi tisa ka'we inamurio kepuka yoma puka ki kawe cheso'o
 contribution-background-noise-example-1-fixed-title = <strong>e'tusaru </strong>wa'ja rinosaurio ka'yetupakame <strong> ta'sirewae</strong> triásico
 contribution-background-noise-example-2-fixed-title = pu'u  rinosaurio kayetupa<strong>ta'sirewae</strong> triásico
