@@ -39,3 +39,13 @@ sc-review-link = Review-aq
 sc-criteria-modal = ⓘ Review-am Pisqutii
 sc-criteria-title = Review-am Pisqutii
 sc-criteria-make-sure = Ukut pisqutet maligtaquvkarluki igausngalriit:
+sc-criteria-item-1 = Spelling-aara assirarkauguq.
+sc-criteria-item-2 = Grammar-aara assirarkauguq.
+sc-criteria-item-3 = Igausngalria aperyugngararkauguq.
+sc-criteria-item-4 = Igausngalriim maligtaqukaki pisqutet, neggluku &quot;Assirtuq&quot; button-aaq tallirpilirnermi.
+sc-criteria-item-5-2 = Igausngalriim maligtaqunrilkaki pisqutet, neggluku &quot;Assiituq&quot; button-aaq iqsulirnermi. Nallukuvet igausngalriim assirtacia, skip-aryugngaan, allamek-llu review-arluten.
+sc-criteria-item-6 = Igausngalriartairuskan, ikayurluta quyurtellerkamteńek allanek igausngalrianek!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Review-arluku <icon></icon>, uum-qaa igausngalriim aperyaraa assirtuq?
+sc-review-rules-title = Uum-qaa igausngalriim maligtaqui pisqutet?
+sc-review-empty-state = Igausngalriartairutuq wani qaneryarami.
