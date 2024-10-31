@@ -40,6 +40,8 @@ sentence-domain-select-placeholder = Ján skuya chjia'ajin
 agriculture_food = Tsujmí ntjé tsujmí ma chine
 # Sentence Domain dropdown option
 automotive_transport = Kicha ji fee
+# Sentence Domain dropdown option
+finance = Toón
 
 ## BULK SUBMISSION 
 
