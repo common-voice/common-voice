@@ -29,6 +29,9 @@ add-sentence-success = Énn kis'exkú
 add-sentence-error = Tsitsúnjin nga tis'ejin nijmí
 required-field = Jngú kjuanda, tijngui i.
 single-sentence-submission = jngu énn sikasén
+small-batch-sentence-submission = nkjin nijmí sikasén
+bulk-sentence-submission = nñú kjin nijmí sikasén
+single-sentence = Jngu nijmí
 
 ## BULK SUBMISSION 
 
