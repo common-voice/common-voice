@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = یجاریکو نوم
+    .label = یجاریک نوم
 profile-form-native-language =
     .label = کویو باش
 profile-form-additional-language =
