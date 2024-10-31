@@ -56,6 +56,10 @@ language_fundamentals = kjuatéxumare énn,  (p.ej. xki, chjí, toón)
 media_entertainment = Ngand'e niska
 # Sentence Domain dropdown option
 nature_environment = Ngasu'nde
+# Sentence Domain dropdown option
+news_current_affairs = Énn ka kjua xi ma nt'e
+# Sentence Domain dropdown option
+technology_robotics = kjua chjine
 
 ## BULK SUBMISSION 
 
