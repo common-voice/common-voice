@@ -17,6 +17,10 @@ about-voice-contrib-subtitle = خلک ہاندہ او تیݨی ہاوازیزی�
 about-voice-validation-title = ہاواز زیات تھئنی
 about-voice-validation-subtitle = دوئی خلکہ انی ہاویزی کلپسیمی توثیق تھانہ
 about-dataset-release-title = ڈیٹا سیٹ رلیز
+about-dataset-release-subtitle = بے ڈیٹا سیٹ ہر ترو یُونی رلیز تھایہ
+about-subscribe-text = مشترکہ ہاویزی سنگی رابطہ کی ہانسئنی دوائینو وے؟
+about-speak = کھونڈ
+about-listen-queue = قطار ݜُݨ
 
 ## Community Playbook Content
 ## What is a language
