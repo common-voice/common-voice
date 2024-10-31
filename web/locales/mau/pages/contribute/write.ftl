@@ -46,6 +46,8 @@ finance = Toón
 service_retail = Sutena xkua
 # Sentence Domain dropdown option
 general = Ngatsi'i
+# Sentence Domain dropdown option
+healthcare = Nda
 
 ## BULK SUBMISSION 
 
