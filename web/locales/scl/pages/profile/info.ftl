@@ -47,3 +47,6 @@ settings = پرییجار
 edit-profile = پروفائیل پرائی
 profile-create-success = بڑیار، پروفائیل سنیجیلی!
 profile-close = لِیش تھے
+profile-explanation = پروفالیک سنے توس تھاک اچھی کھری چھورے نے اسو شونگو ڈیٹا لاؤ گا سم تھیونو ساتی بو۔
+thanks-for-account = تومو اکاؤنٹ کنفرم تھینوکاری تھو شل بو تھئی، کوتے تومی پروفائیل سنے؎
+why-demographic = انی کوری کے ہئیں
