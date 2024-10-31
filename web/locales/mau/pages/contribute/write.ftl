@@ -66,6 +66,8 @@ sentence-variant-select-multiple-variants = Énn naa/ kjin skuya
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tikijin énn
 
 ## SMALL BATCH SUBMISSION
 
