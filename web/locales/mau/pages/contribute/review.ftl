@@ -50,3 +50,4 @@ sc-review-instruction = Kuajna chuba<icon></icon>¿tsá nda kichji nijmí?
 sc-review-rules-title = ¿A itjúsunre kjuatéxuma jusian tijna chuba?
 sc-review-empty-state = Tsín jme xi chut'ané énn kui.
 report-sc-different-language = Kja'é énn.
+report-sc-different-language-detail = Kja'é énn kjit'a, mi tsá kui xinkjín ka xi tikut'a.
