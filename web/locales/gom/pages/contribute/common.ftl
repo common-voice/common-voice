@@ -18,7 +18,7 @@ contribute-more =
     }
 speak-empty-state = Hea bhas'ant anik vakio mellunk na tuka record korpak.
 no-sentences-for-variants = Tujea boli-chi / prakar-achi vakio samapt zale astole! Tuka koslech dikkat na zalyar, tuven aple 'setting' bodlun tuje bhasantle dusrem boli / prakar polovpak zata.
-speak-empty-state-cta = Vakio yogdan korat
+speak-empty-state-cta = Vakyo yogdan korat
 speak-loading-error = Tuka ulovpak koinchech vakio mell'llunk na. Anik matshe vell'llan porot try kor.
 record-button-label = Tuje avaaz record kor
 share-title-new = <bold>Amche moddot kor</bold> anikui avaaz sodhunk
