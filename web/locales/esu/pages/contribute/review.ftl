@@ -49,3 +49,5 @@ sc-criteria-item-6 = Igausngalriartairuskan, ikayurluta quyurtellerkamteńek all
 sc-review-instruction = Review-arluku <icon></icon>, uum-qaa igausngalriim aperyaraa assirtuq?
 sc-review-rules-title = Uum-qaa igausngalriim maligtaqui pisqutet?
 sc-review-empty-state = Igausngalriartairutuq wani qaneryarami.
+report-sc-different-language = Allamek qaneryaramek
+report-sc-different-language-detail = Allamek qaneryaramek igausngauq.
