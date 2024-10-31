@@ -17,6 +17,7 @@ speak-empty-state-cta = Jarhoap'i útasï materu wantakwa kúparhataani
 speak-loading-error = noksï wantakwa úntskataecha karharhani. Tatsikwa ménteru wéntsï.
 record-button-label = Patsanhani chiiti winhachakwani
 share-title-new = <bold> jarhoats'ïni </bold> jirinhani materu winhachakwaechani
+keep-track-profile = Exepa na énkari xani pani jaka chiiti ánchikwarhita ma mitikwarhintskwa jinkoni
 
 ## Contribution Nav Items
 
