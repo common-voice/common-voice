@@ -19,7 +19,7 @@ record-again-instruction2 = تان کورمو جاری سوتے، وا رکار�
 record-last-instruction = <recordIcon></recordIcon>  اخیری ای دنا!
 review-tooltip = پوشٹی کی بغاو ای وا ڑوڑو وا اسکوردی ہواز ہایا رکارڈ کو
 share-clip = تان اسکوردی ہوازو بوژے
-share-common-voice = کمان وائسو بوژے
+share-common-voice = کامن وائسو بوژے
 review-instruction = واڑوڑے،  کی ضرورت اسکوردی ہواز وا رکارڈ کو
 record-submit-tooltip = { $actionType } کی تیار ہوئے جمع کو
 clips-uploaded = اسکوردی ہواز اپلوڈ ہوئے
@@ -36,7 +36,7 @@ review-rerecord = و رکارڈ کو
 review-cancel = جمع کوریکو کینسیل کو
 review-keep-recordings = رکارڈنگان تان سون لکھے
 review-delete-recordings = مہ ہوازان بوغاوے
-review-terms = کمان وائسو استعمال کوری تو ہیا لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>راز دریو نوٹس</privacyLink>
+review-terms = کامن وائسو استعمال کوری تو ہیا لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>راز دریو نوٹس</privacyLink>
 terms-agree = اوا منیمان
 terms-disagree = اوا نو مانیمان
 # FIRST POST SUBMISSION CTA

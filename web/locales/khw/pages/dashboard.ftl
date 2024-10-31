@@ -5,8 +5,8 @@ toward-next-goal = نوغ مقصدو ویلٹی
 goal-reached = مقصد پورا ہوئی
 clips-you-recorded = ہوازان رکارڈ ارو
 clips-you-validated = ہوازان توثیق ارو
-todays-recorded-progress = ہنونو کمان وائسو ہواز رکارڈکوریکوسورا کوروم
-todays-validated-progress = ہنونو کمان وائسو اوازان توثیق کوریکوسورا کوروم
+todays-recorded-progress = ہنونو کامن وائسو ہواز رکارڈکوریکوسورا کوروم
+todays-validated-progress = ہنونو کامن وائسو اوازان توثیق کوریکوسورا کوروم
 stats = حالات
 awards = تمغہ
 you = تو
@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] کمان وائسو { $hours }گھنٹہ ای زبانا تان ذاتی حدفو پورا کوریکا مدد کو
-       *[other] کمان وائسو { $hours }گھنٹہ ای زبانا تان ذاتی مقصدو پورا کوریکا مدد کو
+        [one] کامن وائسو { $hours }گھنٹہ ای زبانا تان ذاتی حدفو پورا کوریکا مدد کو
+       *[other] کامن وائسو { $hours }گھنٹہ ای زبانا تان ذاتی مقصدو پورا کوریکا مدد کو
     }
 set-a-goal = ای حدف لکھے
 cant-decide = فیصلہ کوریکو نو بوسانا؟
@@ -117,7 +117,7 @@ how-many-per-day = بوجام! ای انوس کندوری ہواز؟
 how-many-a-week = بوجام! ای ہفتہ کندوری ہواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
 receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو پچین ای میل گونی۔
-not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کمان وائسو بارا نیوز لیٹر گونی۔
+not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کامن وائسو بارا نیوز لیٹر گونی۔
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } اسکوردی ہواز

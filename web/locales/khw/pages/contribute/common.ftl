@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> اسکوردی ہواز
        *[other] <bold>{ $count }</bold>  اسکوردی ہواز
     }
-goal-help-recording = توکمان وائسو روزانو <goalPercentage></goalPercentage>  { $goalValue } رکارڈ پورا کوریکا مدد ارو
-goal-help-validation = توکمان وائسو انسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق پورا کوریکا مدد ارو
+goal-help-recording = کامن وائسو روزانو <goalPercentage></goalPercentage>  { $goalValue } رکارڈ پورا کوریکا مدد ارو
+goal-help-validation = کامن وائسو انسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق پورا کوریکا مدد ارو
 contribute-more =
     { $count ->
        *[other] { $count } خور کوریکو بچین تیارا ?
@@ -25,7 +25,7 @@ keep-track-profile = تان پروفائیلو سورا تان کورمو پوش
 login-to-get-started = شروع کوریکو پچین لاک ان بوس یا لاک اب
 target-segment-first-card = اسپہ تان اولو مقصدو پورا کوریکو پچین کوروم کوسیان
 target-segment-generic-card = تو تان مقصدو پورا کوریکو پچین کوروم کوسیان
-target-segment-first-banner = کمان وائسو اولو حصو  { $locale } ساوزیکا مدد کو
+target-segment-first-banner = کامن وائسو اولو حصو  { $locale } ساوزیکا مدد کو
 target-segment-add-voice = تان ہوازو شامل کو
 target-segment-learn-more = خور معلومات
 change-preferences = ترجیہات تبدیلی
@@ -81,7 +81,7 @@ shortcut-discard-ongoing-recording = ایس کیپ
 shortcut-discard-ongoing-recording-label = ہیا رکارڈو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی ہواز جمع کو
-request-language-text = تہ زبان کمان وائیسا نیکی وا؟
+request-language-text = تہ زبان کامن وائیسا نیکی وا؟
 request-language-button = زبانو درخواست کو
 
 ## Listen Shortcuts
