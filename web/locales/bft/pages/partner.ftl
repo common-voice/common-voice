@@ -8,3 +8,7 @@ partnerships-community-description = لس میونگ کامن وایسی سنی�
 partnerships-foundations-header = سمانگڑدونگ
 partnerships-foundations-description = نیاسی سمانگڑدونگنہ یمبو، ژھرمہ ژھونژینگ نہ یمبو، اور کمیونٹی نہ یمبو لس بیکھن کن نا یمبو لس بین، یونگنہ یمبو انٹرنیٹ پو لیخمو ملسے بیوفری، چوقپژے مشرقی افریقہ پونگی فری۔ نیی پرگرام کنی لوکھسینگ ینگسہ لوپس چوک۔
 partnerships-governments-header = سرکار کن
+partnerships-governments-description = نیا لا ہرمق میونگی ٹیکنالوجی  لا، سکتی حق کن لا، رانگ فچوسی فری روخ بیو لیگی تھدیکھہ شیسید۔ اگر یانگی چھوغو پراجیکٹ چی یا ہرمق دمسی لوکھسینگ لس بیننارے <emailFragment>تھوگین دوک۔
+partnerships-academia-header = ہلژپ کھنگ کن، اکیڈمکس کن، نا ژال ژال بیکھن کن
+partnerships-academia-description = رانگ فچوس کن کھڑولبو نیی سینگی گرال کنینگ یودپن۔ ژال ژال بیالا روخ بیننارے، ڈیٹا ژالبی لوکھسینگ یا تری تری بیوفری، شوخمو تھوک۔
+partnerships-small-business-header = ژھونژے ژونگ لین کن، اے آیی نا ٹیکنالوجی لس ریاقس کن
