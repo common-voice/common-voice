@@ -54,6 +54,8 @@ history_law_government = Énn xchá, kjuatéxuma, chicon
 language_fundamentals = kjuatéxumare énn,  (p.ej. xki, chjí, toón)
 # Sentence Domain dropdown option
 media_entertainment = Ngand'e niska
+# Sentence Domain dropdown option
+nature_environment = Ngasu'nde
 
 ## BULK SUBMISSION 
 
