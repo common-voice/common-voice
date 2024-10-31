@@ -12,6 +12,8 @@ clips-with-count-pluralized =
 goal-help-recording = ¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a [...] tiyä syupabäna'ajk tumdumjamakoda wa'a yajktsä'yjayu te' mij 'mongu'y te' [...]!
 goal-help-validation = ¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a te' [...] [...] tiyä syupabäna'ajk tumdumjamakoda wa'a wyä'aju te' [...]!
 contribute-more = ¿Sutpa'am msäjka'nhä?
+speak-empty-state = Janyä'ijtya'mäjt 'eyada'mbä 'odejaye yä' 'ode'omoda'mbä wa'ade yajktsä'yjayu te' 'yode.
+speak-empty-state-cta = Tsäjka'nhä 'eyada'mbä 'odejaye.
 
 ## Contribution Nav Items
 
