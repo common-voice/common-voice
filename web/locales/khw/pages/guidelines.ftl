@@ -78,6 +78,7 @@ adding-sentences-subheader-speakable-explanation = سفو سار جام جملہ
 adding-sentences-subheader-numbers = نمبر
 adding-sentences-subheader-numbers-explanation = جام ہݰ بوئے کی اولو عبارتا نمبر مو بانی۔ ہیت توڑ ریاوا مسلہ کونی۔ نمبرو کیا طریقہ کی رینو ہوئی ہسے ماحولا سورا انحصار کوئی وا دیٹا سیٹا الجھاو پیدا کوئے۔ مثلا  "2409" جو کھاڑ طریقہ رین  بوئی " بیشیر چور زیرہ نیف" وا جو ہزار، ݯھور شور اوچے نیوف۔
 adding-sentences-subheader-abbreviations = مختصر وا مخفف
+adding-sentences-subheader-abbreviations-explanation = مختصر  وا  مخفف لفظ کیچہ  کی "یو ایس اے" یا  "آئی سی ای" شینی ہمیت اولو عبارتو موژی نو گیلیک۔ ہمتان ہݰ طریقہ ریلیک کہ تان املو غون نو بانی۔ ہݰ دی بویان کہ ای مختصر کاردو لفظو بو قسما ریونو بوئے
 adding-sentences-subheader-punctuation = زیر زبر
 adding-sentences-subheader-punctuation-explanation = { "" }
 adding-sentences-subheader-special-characters = خاص حروف وا بیریو حروف
