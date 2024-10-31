@@ -36,3 +36,5 @@ sc-review-link = Chut'ajin
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Chuba xi sichjíre
+sc-criteria-title = Chuba xi sichjíre
