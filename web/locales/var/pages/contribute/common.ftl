@@ -140,6 +140,7 @@ contribution-background-voices-title = na'ewame te'riamaka
 contribution-background-voices-description = Ka'wete intumicho puripi kusiñuyame teriamaka mo'enati, na'pe kina'kiteme naiwame napeniame intuame kawe yoratiame itapiti chiamé pu'u ma'kina tu pa'papú nawesari  ki to'atiame netetiame yo'tetiachi ,ka'we i'namusa na'wesari sewinatiame pu'ka wa'a tiame ka'te nakita'china pu'ka ki'teperuma,yo'ma tiempo iji u'ju u'mato achitio toisa wa'a ne'neniamechi ta'jayame, achinatio intuía na'iwaniame wa'pi simiyame entemuna wa'a ra'waroaniachi
 contribution-background-voices-description-extended = isi pu'u ra'waroaniame te'weso ma'chi ku'sichanio ki nakipapu isi tisa ka'we inamurio kepuka yoma puka ki kawe cheso'o
 contribution-background-voices-example-1-title = Wa'ja rinosaurio ka'yetupakame wa'a triasiko chi [yeyeroatiame piripi navesarichi ]
+contribution-background-voices-example-1-explanation = Wa'a inisina <strong>[pa'etiame pirechie]</strong>
 contribution-volume-title = Muenapu
 contribution-volume-description = I'ntunae na'pepateniame kita inowaeme. Ka'tenaki pu'ka ra'waroatiame pirepi pu'ka mo'enapuniame te'pa muenaputiame kitamo inamutiame, e'peche e'peyo'raniame )ka'wetere eni'sopu ki kawe inamutena pu'ka che'tiame ki chaneka ne'netiame pu'ka toatiame yotetiame.
 contribution-reader-effects-title = We'kaka yoratiame pu'ka yo'tekame
