@@ -93,3 +93,6 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Ziix ano caahjoj
+contribution-criteria-link = Iiqui cösquiih pi x, ziix ano caahjoj quih anxö cöispaa hac
+contribution-criteria-page-title = Iiqui cösquiih pi ta x, ziix ano caahjoj coi
