@@ -20,9 +20,14 @@ speak-loading-error = ვეგორ თქვანო ეშაკითხ�
 record-button-label = ქინაჭარით თქვანი ხონარი.
 share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
 login-to-get-started = მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.
+target-segment-add-voice = ქიგუძინით თქვანი ხონარი.
+change-preferences = პარამეტრეფიშ თირუა.
 
 ## Contribution Nav Items
 
+vote-yes = ქო
+vote-no = ვარ
+languages = ნინეფი
 
 ## Reporting
 
