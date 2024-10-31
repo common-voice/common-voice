@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = مدد کوریکو رہنمائی
+guidelines-header = حصہ کوریکو رہنمائی
 guidelines-header-subtitle = ہیا لو ہوݰ کوریک کہ کامن وائسو ڈیٹاسیٹو سون سون مدد، وا جملو وا اسکوردی ہوازو کیچہ کوری تصدیق کورونو بوئے
 voice-collection = ہوازان مجموٰعہ
 sentence-collection = جملان مجموعہ
