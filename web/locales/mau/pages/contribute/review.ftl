@@ -44,3 +44,4 @@ sc-criteria-item-2 = Nda chjí nijmí
 sc-criteria-item-3 = Nda katas'exkiya énn.
 sc-criteria-item-4 = Tsá itjusún chuba xi machénre nijmí &quot;nga kixi tisenere&quot; tsa sik'atui.
 sc-criteria-item-5-2 = Tsá mi itjusún jme chuba xi machjenre nijmí, tisenere &quot; tsá majenri &quot; nga skún. Tsá majen kuan sik'atu.
+sc-criteria-item-6 = Tsá je tsin nijmí xi chut'a ¡Tisenkanájin ku'exkusá!
