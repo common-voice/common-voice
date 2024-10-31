@@ -56,15 +56,40 @@ report-other-comment =
     .placeholder = Iti icaspoj iic cöquiipe ha
 success = Quiipe ha
 continue = Yeen iiqui squiin aha
+report-success = Ziix quih iti cöipacta hac iti yaii quih hant hac iiqui cöipaca hac miizj ta ma, catax iha
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = Ziix z an hant spacatx aha /Haquix sahzam aha
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Icaaitom coi haptco mos ziix z an hant spacatx aha
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ziix ziix z an hant cooit cói iyat ipi cöimafp hac iiqui cösompah aha
+shortcut-submit = Ihit iiqui squiin aha
+shortcut-submit-label = Ziix ziix quih an hant hapacatx coi hant hac iiqui spaca aha
+request-language-text = ¿Cói miitom quh Common Voice quih ano piih ta ntcmaho?
+request-language-button = Icaaitom zo sahcaa ha
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = Sahahoosit aha / Cösahaactim aha
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
