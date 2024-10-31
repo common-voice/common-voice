@@ -97,7 +97,7 @@ share-goal = Compartir lo mío obchectivo
 
 ## Goals
 
-streaks = Fiques
+streaks = Rachas
 days =
     { $count ->
         [one] Día
