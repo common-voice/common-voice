@@ -61,3 +61,4 @@ email-subscriptions = ای میل سبسکرپشنی
 download-profile = مو ڈیٹا ڈاؤانلوڈ تھے
 contribution-experience = سانتی دین تجربہ
 skip-submission-feedback = چینیوجو تبصرہ لنگ تھے
+skip-submission-description = سانتی دین کھین "چینڈ" زاپ تھا پتو تبصرہ پھت بئیں۔ سانتی بینوجیئے چھوپنیے 5 ریکارڈینگو یا ویلیڈیشینو ٹالے یازین۔

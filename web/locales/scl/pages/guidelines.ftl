@@ -85,3 +85,5 @@ adding-sentences-subheader-special-characters = خاص مَشے گہ درینے 
 adding-sentences-subheader-special-characters-explanation-1 = رزینیک باشِینی مَشے سم بونو اواجئی۔ مثالیک، “ж” انو رشین باشو مَشوک ہُوں، انو انگریزی نی کریگہ استعمال نے بیوں آگی انگریزی لکھیانی نی کرے گہ استعمال نے بیوں۔
 adding-sentences-subheader-special-characters-explanation-2 = باشےتومے سنیونی بِیلی تو سم بونو جیننے تومے قانونی بیئینا ۔   ایک باشیکیڑے سم بونو جیسئی اکی فائیلیک نُش تو، انگریزی قانونی پشیجین۔
 adding-sentences-subheader-offensive-content = روش اڑیا رینیک/دِیجین موجی
+adding-sentences-subheader-offensive-content-explanation = موش دِیجیک یا روش اڑیاریک ہُوں تو- مثالیک، کھچے موجی، یا موجی کمیونیٹیو پون پشارینیک موجونیو پیرتے بوجینا تو <communityGuidelines> آؤ موش لنگ تھیونو اواجوں۔ تُوآنے  <emailFragment>commonvoice@mozilla.com</emailFragment>  رجونو اسو کچی ایفون بوِں۔
+reviewing-sentences-explanation-1 = موش اجا رزی ہٗونک معیارینی بئیُوں تو، "اُوں" ٹکانی زاب تھے۔
