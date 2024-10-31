@@ -39,11 +39,13 @@ about-nav-how-it-works = کنا تھے؟
 about-nav-partners = حصہ دار
 about-nav-get-involved = حصہ گھناٹہ
 about-nav-how-it-works-2 = عام ہاواز کنا تھےۡ کرام تھانوۡ
-about-nav-playbook = حصہ گھنئنی ازدہ تھئنی
+about-nav-playbook = حصہ گھنئنی ازدہ تھہ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کمن واسہ وے کھئی زبان ہِنی؟
+about-playbook-what-is-language-content-1 = زبانی بارہ کی سوچ تھئنی بیڈہ طریقے ہنہ
 
 ## How do I add a language
 
