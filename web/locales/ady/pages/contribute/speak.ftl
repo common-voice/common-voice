@@ -22,6 +22,7 @@ share-clip = Тептхагъэр гощ
 share-common-voice = Комон Войсыр гощ
 review-instruction = Тетхагъэхэр, ищыкӏагъэмэ, еплъыжь ыкӏи тетхэжь
 record-submit-tooltip = { $actionType } Хьазыр зыхъукӏэ фэгъэхь
+clips-uploaded = Тетхагъэхэр тегъэуцуагъ
 record-abort-submit = Тетхагъэхэр егъэхь
 record-abort-continue = Мэкъэ тетхыныр ух
 record-abort-delete = Къыхэкӏыжь ыкӏи тетхагъэхэр тегъэкӏ
