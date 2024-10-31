@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Kjie cha'ajin jngu énn, ti'in jña tijna <profileLink>asén </profileLink>jmeni nga kuan chaájin jngu énn.
+sc-review-lang-not-selected = Kjie cha'ajin jngu énn, ti'in jña tijna <profileLink>asén </profileLink>jmeni nga kuan cha'ajin jngu énn.
 sc-review-title = Chut'a nijmí
 sc-review-loading = tikjibét'a nijmí.
 sc-review-select-language = Cha'ájin jngu énn nga kuan chut'ajin nijmí.
@@ -14,6 +14,12 @@ sc-review-form-source = Jñá ndibá:{ $sentenceSource }
 sc-review-form-button-reject = Majen
 sc-review-form-button-skip = Chikji
 sc-review-form-button-approve = Sik'atu
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = s
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = kuan kja'é chuba sicheén jña isenné { sc-review-form-button-approve-shortcut } tsá sik'jatu { sc-review-form-button-reject-shortcut } tsá majenri { sc-review-form-button-skip-shortcut } tsá chikji
 sc-review-form-button-submit =
     .submitText = kuan kichut'ajin
@@ -26,6 +32,7 @@ sc-review-form-reviewed-message =
        *[other] { $sentences }kichut'ajin yije nijmí ¡ninaá kat'echiri!
     }
 sc-review-form-review-failure = Mi kuan kis'etjó xi kichut'ajin. S'a k'ua sike
+sc-review-link = Chut'ajin
 
 ## REVIEW CRITERIA
 
