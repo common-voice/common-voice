@@ -18,6 +18,14 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Тикшерүне тәмамлау
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Җөмләләр тикшерелмәде.
+        [one] 1 җөмлә тикшерелде. Рәхмәт!
+       *[other] { $sentences } җөмлә тикшерелде. Рәхмәт!
+    }
 sc-review-form-review-failure = Тикшерүне саклап булмады. Зинһар соңрак янә тырышып карагыз.
 sc-review-link = Тикшерү
 
@@ -31,7 +39,9 @@ sc-criteria-item-2 = Җөмлә грамматик кагыйдәләр ниге
 sc-criteria-item-3 = Җөмлә әйтемле булырга тиеш.
 sc-criteria-item-4 = Әгәр җөмлә критерийларга туры килсә, уңдагы &quot;Кабул итү&quot; төймәсенә басыгыз.
 report-sc-different-language = Башка тел
+report-sc-different-language-detail = Бу җөмлә мин тикшергән телдә түгел.
 sentences-fetch-error = Җөмләләр алганда хата килеп чыкты
 review-error = Бу җөмләне тикшерүдә хата килеп чыкты
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Без мөһим үзгәрешләр ясыйбыз
+sc-redirect-page-subtitle-2 = Сез безгә <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> яки <emailLink>электрон почта</emailLink> аша сораулар бирә аласыз.
