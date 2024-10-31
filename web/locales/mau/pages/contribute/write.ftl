@@ -35,6 +35,7 @@ single-sentence = Jngu nijmí
 small-batch-sentence = xtín
 bulk-sentence = Xtín
 sentence-domain-combobox-label = A mari nijmí
+sentence-domain-select-placeholder = Ján skuya chjia'ajin
 
 ## BULK SUBMISSION 
 
