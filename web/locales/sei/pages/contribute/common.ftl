@@ -33,6 +33,9 @@ vote-yes = Hasa
 vote-no = Saat
 datasets = Icaaitom xah, icoosx iiqui pte quiih
 languages = Icaaitom pti immis
+about = Ziix quih ano cöconaaij hac
+partner = Iiqui he nsiih aha
+submit-form-action = Hant hac iiqui hapaca
 
 ## Reporting
 
