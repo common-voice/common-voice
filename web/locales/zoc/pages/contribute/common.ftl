@@ -34,9 +34,21 @@ login-signup = No'a te' yostäjk / jatyäjkä mwit
 vote-yes = jä'ä
 vote-no = Ji'ne
 datasets = Wäwä 'ijtyajumä te' 'odejayeda'm.
+languages = 'Odeda'm.
+about = Judä tsyambamä te'...
+partner = Tumä yosa' 'äjtsyji'nhda'm.
+submit-form-action = Kä'weya'
 
 ## Reporting
 
+report = Tsa'manhwakä
+report-title = Kä'weya tumä tsa'manhwajku'y.
+report-ask = ¿Tiyande ji' wyäbä yä' yaye'is nye'?
+report-offensive-language = 'Odejaye 'onjabyabä'iste/tsa'ajkutsi'äbyabä'iste.
+report-offensive-language-detail = Te' 'odejaye'is nyä'ijtu tumä 'ode tsa'ajkutsyi'babä'iste yajkti 'onjabyabä'iste.
+report-grammar-or-spelling = Ji' wyäbä te' jaye, jasunyi jyayä.
+report-grammar-or-spelling-detail = Te' 'odejaye ji' wyä jayuse.
+report-different-language = 'Eyabä 'ode
 
 ## Speak & Listen Shortcuts
 
