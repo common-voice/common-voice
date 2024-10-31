@@ -32,6 +32,7 @@ single-sentence-submission = jngu énn sikasén
 small-batch-sentence-submission = nkjin nijmí sikasén
 bulk-sentence-submission = nñú kjin nijmí sikasén
 single-sentence = Jngu nijmí
+small-batch-sentence = xtín
 
 ## BULK SUBMISSION 
 
