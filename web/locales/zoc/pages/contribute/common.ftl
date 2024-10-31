@@ -14,6 +14,10 @@ goal-help-validation = ¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a
 contribute-more = ¿Sutpa'am msäjka'nhä?
 speak-empty-state = Janyä'ijtya'mäjt 'eyada'mbä 'odejaye yä' 'ode'omoda'mbä wa'ade yajktsä'yjayu te' 'yode.
 speak-empty-state-cta = Tsäjka'nhä 'eyada'mbä 'odejaye.
+speak-loading-error = Jakyi'mya te' 'odejaye. Tsäjkijswätsäkä jäsi'ka/tsayi'ka.
+record-button-label = Yajktsä'yä te' 'mode yä' 'ondsanjku'yomo.
+share-title-new = Kotsokya'tsi wa'at mba'danhäyaju 'eyada'mbä 'ode'is myangä'y.
+keep-track-profile = Ko'sa juts nä myäja'aju te' myosku'y tumä mij mgene'is yostäjkpi'k.
 
 ## Contribution Nav Items
 
