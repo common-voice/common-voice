@@ -33,6 +33,24 @@ read-terms-q = ¿Yitikmati Tlen moneki?
 ready-to-record = ¿Techtliokolilis motlajtol?
 all-locales = Nochi
 today = Axkan
+x-weeks-short =
+    { $count ->
+        [one] semana
+       *[other] { $count }semanas
+    }
+x-months-short =
+    { $count ->
+        [one] meetstli
+       *[other] { $count }meetstli
+    }
+x-years-short =
+    { $count ->
+        [one] xiuitl
+       *[other] { $count }xiuitl
+    }
+help-make-dataset = Techpaleui matikyekchiuakan tlen nochtin kitaskej
+sign-up-account = Touan ximomachoti
+email-subscription-title = Xikmati tlen mochijtok itech mocorreo
 
 ## Account Benefits
 
