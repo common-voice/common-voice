@@ -85,6 +85,7 @@ adding-sentences-subheader-special-characters = خاص حروف وا بیریو 
 adding-sentences-subheader-special-characters-explanation-1 = حروف ہتے زبانو تان بانی  کیا زبان کی لو دیونو بویان۔ مثلا حروف "ж" روسی زبانا استعمال بویان لیکن انگریزیا کیاوحت دی استعمال نو بیتی شیر۔ ہیس انگریزی عبارتو موژی نو بیلیک۔
 adding-sentences-subheader-special-characters-explanation-2 = ای زبانو تان استعمال بک اصول دی بوئی وا مقامی کوراوا  ضروت دی۔ اگر زبانو کیا مخصوص
 adding-sentences-subheader-offensive-content = شوم مواد
+adding-sentences-subheader-offensive-content-explanation = جملہ کی شوم یا پریشانیو لو کی  اوشوئی۔ مثلا واضح مواد یا اسپہ <communityGuidelines>کمیونیٹیو رہنائی<communityGuidelines> سورا عمل کی نو کوری استائے۔ تو جملو رد کو۔ تو اسپتہ تین دی لو دیکو بوس  <emailFragment>commonvoice@mozilla.com</emailFragment>مسلو سورا نیزیکو بچین۔
 reviewing-sentences-explanation-1 = جملہ کی سورا شرطو پورا کی کویان تھے "دی" بٹینو دیت
 reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا نو کویان تھے "نو" بٹینو دیت
 reviewing-sentences-explanation-3 = اگر جملو پارا تہ یقین کی نیکی، تو ہرو پیݯھی پوشٹی بیکو بوس
