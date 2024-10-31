@@ -39,6 +39,11 @@ submit-form-action = Hant hac iiqui hapaca
 
 ## Reporting
 
+report = Hant ihiip quih sahzaxö aha
+report-title = Ziix iti cöipacta quih hant hac iiqui spaca aha
+report-ask = ¿Áz ya ano tahca tmiipe icaaitom hizac?´
+report-offensive-language = Icaaitom imiipe
+report-offensive-language-detail = Icaaitom hac icaaitom imiipe pac ano caahca ha
 
 ## Speak & Listen Shortcuts
 
