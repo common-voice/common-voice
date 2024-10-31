@@ -107,3 +107,4 @@ contribution-misreadings-description-extended-list-2 = kweratasïniti ma <strong
 contribution-misreadings-description-extended-list-3 = arhiantsï wantakwa jutuntskataechani énkaksï no jaka, eska na jinteeka "paka" énkaksï arhikwekani jampka "pari énka".
 contribution-misreadings-description-extended-list-4 = énkaksï no sési antataaka ampe wantani jamani pari sóntku patsani jamani wantakwani.
 contribution-misreadings-description-extended-list-5 = Méntku úntani arhint'ani ma wantakwani
+contribution-misreadings-example-1-title = K'erati manakurhiricha yóntki anapu arhikata dinosaurios jini Triásico anapu.
