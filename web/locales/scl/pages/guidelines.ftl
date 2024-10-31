@@ -83,3 +83,4 @@ adding-sentences-subheader-punctuation = کِشئیے گہ ٹِکے
 adding-sentences-subheader-punctuation-explanation = لیگی لائی کُوری بِیلی تو کِشیئے گہ تِکے یو تھیونو اواجئی۔ مثالیک، انگریزی نی ایک ایپاسٹرافیک انا تھے "don’t" یا “we’re” انینو انا تھے اکی لکھیونو اواجئی،  انا ٹِکے “@” or “#. تُوڑے نے اواجین دا۔
 adding-sentences-subheader-special-characters = خاص مَشے گہ درینے مَشے
 adding-sentences-subheader-special-characters-explanation-1 = رزینیک باشِینی مَشے سم بونو اواجئی۔ مثالیک، “ж” انو رشین باشو مَشوک ہُوں، انو انگریزی نی کریگہ استعمال نے بیوں آگی انگریزی لکھیانی نی کرے گہ استعمال نے بیوں۔
+adding-sentences-subheader-special-characters-explanation-2 = باشےتومے سنیونی بِیلی تو سم بونو جیننے تومے قانونی بیئینا ۔   ایک باشیکیڑے سم بونو جیسئی اکی فائیلیک نُش تو، انگریزی قانونی پشیجین۔
