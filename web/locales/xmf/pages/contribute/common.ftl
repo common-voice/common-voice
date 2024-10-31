@@ -40,7 +40,10 @@ report-different-language-detail = ჭარილი რე ჩქიმი ო
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ინოჭარუა / მეჭყვიდუა
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
+shortcut-discard-ongoing-recording = ESC
 request-language-button = მითხით ნინაში გეძინა
 
 ## Listen Shortcuts
