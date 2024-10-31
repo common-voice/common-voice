@@ -220,7 +220,7 @@ const VARIANTS: Variant[] = [
   {
     locale_name: 'ady',
     variant_name: 'Adığabze (Latin, Turk, transliteratse - Batı Çerkesçesi)',
-    variant_token: 'ady-Latn-TR-t-ady-cyrl-tr',
+    variant_token: 'ady-Latn-TR-t-ady-cyrl',
   },
   {
     locale_name: 'ady',
@@ -245,7 +245,7 @@ const VARIANTS: Variant[] = [
   {
     locale_name: 'kbd',
     variant_name: 'Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)',
-    variant_token: 'kbd-Latn-TR-t-kbd-cyrl-tr',
+    variant_token: 'kbd-Latn-TR-t-kbd-cyrl',
   },
   {
     locale_name: 'kbd',
