@@ -45,3 +45,5 @@ avatar = اوتار
 goals = شانچے
 settings = پرییجار
 edit-profile = پروفائیل پرائی
+profile-create-success = بڑیار، پروفائیل سنیجیلی!
+profile-close = لِیش تھے
