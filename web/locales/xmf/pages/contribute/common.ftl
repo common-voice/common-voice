@@ -28,6 +28,8 @@ change-preferences = პარამეტრეფიშ თირუა.
 vote-yes = ქო
 vote-no = ვარ
 languages = ნინეფი
+about = გურშენი
+submit-form-action = ჯღონა
 
 ## Reporting
 
