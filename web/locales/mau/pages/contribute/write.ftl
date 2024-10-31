@@ -52,6 +52,8 @@ healthcare = Nda
 history_law_government = Énn xchá, kjuatéxuma, chicon
 # Sentence Domain dropdown option
 language_fundamentals = kjuatéxumare énn,  (p.ej. xki, chjí, toón)
+# Sentence Domain dropdown option
+media_entertainment = Ngand'e niska
 
 ## BULK SUBMISSION 
 
