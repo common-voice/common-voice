@@ -51,9 +51,12 @@ x-years-short =
 help-make-dataset = Techpaleui matikyekchiuakan tlen nochtin kitaskej
 sign-up-account = Touan ximomachoti
 email-subscription-title = Xikmati tlen mochijtok itech mocorreo
+email-subscription-title-new = Xikmati tlen mochijtok uan mamitsilnamiktikan tlen moneki tikchiuas itech Common Voice
 
 ## Account Benefits
 
+benefits = Tleka ipati
+rich-data = Tla tiktlalilis seki tlamantli motech ken kanin tichanti, techpaleuis okachi kuali mayeto tlen tikchiuaj. Amikaj kimatis akin te ijkuak tiktlaliliskej teixpa.
 
 ## What's public
 
