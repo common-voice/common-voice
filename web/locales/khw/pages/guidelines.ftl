@@ -53,6 +53,7 @@ adding-sentences = جملان جمع کوریک
 reviewing-sentences = جملان واڑوڑیک
 sentence-domain = جملان دآئرہ
 public-domain-explanation-1 = ہیا بو ضروری کہ تمام جملہ <publicDomain>سفو پشیکو بݰ </publicDomain>cc0</cc0><cc0>بانی۔ کیچہ  کہ کمان وائس cc0  لائسینس سورا پشیران۔  ہمیشو پچین ہش جملان  اپ لوڈ کوکی کہ تہ تین یقیین اوشوئی وا ہمیشو پچین حوالو شامل کو
+public-domain-explanation-2 = عام بوچال وا مشولگی سفوسار بہترین جملہ ای فائدہ مند ہوازو ہوݰ کوراک مشین ساوزیکو پچین۔ جملہ نیزیکو پیچیں پھوک فائدہ مند لو:
 citing-sentences-subheader-websites = ویب سائٹ
 citing-sentences-subheader-websites-explanation = { "" }
 citing-sentences-subheader-academic-reference = تعلیمی حوالہ
