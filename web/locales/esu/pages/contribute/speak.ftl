@@ -43,7 +43,18 @@ terms-disagree = Angenritaqa
 first-cta-header-text = Quyana erinan aturcelluku!
 first-cta-subtitle-text = Elpenek qanrucavkut, ikayurciqaten developer-aat pilikuneng atuluaqaryugngalrianek
 why-donate = Ciin apcit?
-add-information-button = Ilaluku camek
+add-information-button = Ilaluku information-aamek
 continue-speaking-button = Piyunaituq, cali qanerluten
 create-profile-text = Information-aaten-qaa save-aryugaten? <createProfile>Profile-aliluten</createProfile>
-thanks-for-voice-toast = Quyana erinavet information-aara ilaluku
+thanks-for-voice-toast = Quyana erinavet information-aaranek ilaluku
+thanks-for-voice-toast-error = Alartellruuq erinavet information-aaranek submit-allrani
+first-cta-gender-select-default-option = Cucuklirluten naliatnek
+first-cta-gender-select-help-text =
+    .label = Cauga sex-an wall'u gender-aan?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Quyana erinan aturcelluku!
+second-cta-subtitle-text = Profile-alikuvet, tangerrsugngaan calialten, allat-llu yuut wani qanelriit calilriit-llu.
+already-have-an-account = Account-angqertuten-qaa? <login>Log-in-arluten</login>
+create-profile-button = Profile-aliluten
+# IMAGE TAGS
+img-alt-success-checkmark = success checkmark-aq
