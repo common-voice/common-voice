@@ -96,3 +96,6 @@ shortcut-vote-no = n
 contribution-criteria-nav = Ziix ano caahjoj
 contribution-criteria-link = Iiqui cösquiih pi x, ziix ano caahjoj quih anxö cöispaa hac
 contribution-criteria-page-title = Iiqui cösquiih pi ta x, ziix ano caahjoj coi
+contribution-criteria-page-description = ¡Icaaitom ziix quh an hant cooit coi impoqueecöl x, hant popacta mos ano hant ihiip cöispaa ha xah, ziix iti cöpopaai hapi icaaitom ziix quih hant hapacatx coi cöisahahiipet ha xah!
+contribution-for-example = Hizaax oo cöpahpacta ta x, haa ah
+contribution-misreadings-title = Icaaitom yahaa quih imhaa ha
