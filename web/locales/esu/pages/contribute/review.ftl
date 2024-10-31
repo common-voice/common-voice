@@ -54,3 +54,7 @@ report-sc-different-language-detail = Allamek qaneryaramek igausngauq.
 sentences-fetch-error = Pugesciigatellruuq igausngalrianek aqvatellrani
 review-error = Alartellruuq igausngalrianek review-allrani
 review-error-rate-limit-exceeded = Cukassiyaagtuten. Uitaqaqaa, una-qaa igausngalria assirtuq?
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Cimirpagarkangqertukut
+sc-redirect-page-subtitle-1 = Sentence Collector-aaq Common Voice platform-amun nugtartuq. <writeURL>Igaucugngauten</writeURL> wall'u <reviewURL>Review-aryugngauten</reviewURL> igausngalrianek Common Voice-ami.
+sc-redirect-page-subtitle-2 = Apcugngaavkut <matrixLink>Matrix-akun</matrixLink>, <discourseLink>Discourse-akun</discourseLink> wall'u <emailLink>email-akun</emailLink>.
