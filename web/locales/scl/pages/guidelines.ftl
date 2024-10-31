@@ -71,3 +71,4 @@ self-citation = اکینی سائیٹیشن
 self-citation-explanation = تھنے موجی تُوئی سے اکی لکھَوں تو، انا تھے تُو سے اکینو حوالہ دیون بَوں
 adding-sentences-subheader-length = زِینگیار
 adding-sentences-subheader-length-explanation = موجی نی پزیلایو نیو اپا شونگے بونو اواجئی
+adding-sentences-subheader-spelling-punctuation = ہیجائی گہ ٹیکے
