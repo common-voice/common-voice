@@ -50,6 +50,8 @@ general = Ngatsi'i
 healthcare = Nda
 # Sentence Domain dropdown option
 history_law_government = Énn xchá, kjuatéxuma, chicon
+# Sentence Domain dropdown option
+language_fundamentals = kjuatéxumare énn,  (p.ej. xki, chjí, toón)
 
 ## BULK SUBMISSION 
 
