@@ -62,3 +62,10 @@ citing-sentences-explanation-1 = سایٹیشنے یو تھیونو لائی ک�
 citing-sentences-subheader-websites = ویب سائیٹے
 citing-sentences-subheader-websites-explanation = تُو سے ویب سایئٹ یو تھیون بوں، مثالیک "کامن وائیس-  https://commonvoice.mozilla.org/""
 citing-sentences-subheader-academic-reference = تعلیمو حوالہ
+citing-sentences-subheader-academic-reference-explanation = تُو سے تعلیمو حوالہ دینیک طریقہ استعمال تھیون بَوں، ہارورڈ و طریقہ "موزیلا "  (2021) کامن وائیس۔ آنے ہتے  ایوں https://commonvoice.mozilla.org/   (ایفالوں: پزیلائی ستمبر2021)
+citing-sentences-subheader-offline-sources = ںیٹ بن بو ہُوں تو زریا
+citing-sentences-subheader-offline-sources-explanation = عام جکو کاریو لکھیانی نے ہتے آلی تو، تُو سے تعلیمو حوالہ دینیک طریقہ استعمال تھیون بَوں، ہارورڈ و طریقہ "موزیلا "  (2021) کامن وائیس۔ آنے ہتے  ایوں https://commonvoice.mozilla.org/   (ایفالوں: پزیلائی ستمبر2021) مئی عاک جکو کاریو ہِینک گائی
+citation =
+    .label = سائیٹیشن
+self-citation = اکینی سائیٹیشن
+self-citation-explanation = تھنے موجی تُوئی سے اکی لکھَوں تو، انا تھے تُو سے اکینو حوالہ دیون بَوں
