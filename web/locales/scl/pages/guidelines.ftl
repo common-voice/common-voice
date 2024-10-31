@@ -77,3 +77,6 @@ adding-sentences-subheader-speakable = رجونو بش
 adding-sentences-subheader-speakable-explanation = پُوریو نو سم موجی موش کلونی بینیک گہ شونگ نے چھُرے تھیئک موجی بیئنا۔ آ موجی کو سیڑے گہ رجونو لوکے بینا۔ موجونی مُتے مُتے شونگے بونو لائی کُوری ہِیں، بیسے گہ آنے اسے شُورایئے کروم تھینیکوکاریو کھین بوجونو گہ جینو آنے شے چھُریونو ریکارڈنگ تھونیس۔
 adding-sentences-subheader-numbers = نمبری
 adding-sentences-subheader-numbers-explanation = لکھے ہانک موجونی نمبری نے بونو اواجئی، کیئے تھیوں تو جے سے رجو جا ابش تھینا۔ نمبرورجینی نی موجو رجینی ساتی بِیں، انی سے ڈیٹا سیٹی نی ہنگ بنگ تھیارینا۔ مثالیک، انو نمبر "2409" سم تھے انا تھے رجون بینا "بی گہ چار زیرونو" انئی تھے گہ رزینا "دُو ہزار گہ چار چل گہ نو"۔
+adding-sentences-subheader-abbreviations = مخففی
+adding-sentences-subheader-abbreviations-explanation = مخفف انئی تھے "یو ایس اے" یا "آیس" اصل باشی نی نے لکھیونو اواجئی۔ انیئی تھے لکھیوں تو جینئی ہیجا ساتی پرُولی بیئں۔ زدو، ایک مخففیکی کاریو لیگی لائیے رجانئیے بینائیے۔
+adding-sentences-subheader-punctuation = کِشئیے گہ ٹِکے
