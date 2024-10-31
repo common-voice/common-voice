@@ -57,9 +57,15 @@ email-subscription-title-new = Xikmati tlen mochijtok uan mamitsilnamiktikan tle
 
 benefits = Tleka ipati
 rich-data = Tla tiktlalilis seki tlamantli motech ken kanin tichanti, techpaleuis okachi kuali mayeto tlen tikchiuaj. Amikaj kimatis akin te ijkuak tiktlaliliskej teixpa.
+improve-audio = Tlen tiktlalilis motech kipaleuis tepostli kuali makajsikamati tlen tikijtoaj.
+keep-track = Xikita kanachi yotitlapaleui uan ken tekipanoaj ika okseki tlajtolkopaj.
+compare-progress = Xikita ken titlapaleuijtok uan xikita ken tlapaleuijtokej oksekimej itech nochi tlaltikpak.
+view-goals = Xikita kanachi yotikajxiti itech tlen moneki.
+join-newsletter = Tla tikneki, xiktlalili mocorreo uan tikmatis tlen yikin omochi itech nin tekitl.
 
 ## What's public
 
+whats-public = ¿Tlenon nochtin kitaskej?
 
 ## Landing
 
