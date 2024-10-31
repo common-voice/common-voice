@@ -3,9 +3,9 @@
 your-languages = تہ زبان
 toward-next-goal = نوغ مقصدو ویلٹی
 goal-reached = مقصد پورا ہوئی
-clips-you-recorded = آوازان رکارڈ ارو
-clips-you-validated = آوازان توثیق ارو
-todays-recorded-progress = ہنونو کمان وائسو آواز رکارڈکوریکوسورا کوروم
+clips-you-recorded = ہوازان رکارڈ ارو
+clips-you-validated = ہوازان توثیق ارو
+todays-recorded-progress = ہنونو کمان وائسو ہواز رکارڈکوریکوسورا کوروم
 todays-validated-progress = ہنونو کمان وائسو اوازان توثیق کوریکوسورا کوروم
 stats = حالات
 awards = تمغہ
@@ -13,8 +13,8 @@ you = تو
 everyone = ہر کا
 contribution-activity = مدد کوریکو کوروم
 top-contributors = سافو سار زیاد مدد کوراک
-recorded-clips = رکارڈ بیرو آواز
-validated-clips = تصدیق بیرا آواز
+recorded-clips = رکارڈ بیرو ہواز
+validated-clips = تصدیق بیرا ہواز
 total-approved = تمام منظور بیرو
 overall-accuracy = تمام سہی
 set-visibility = مہ پشیکو تین سیٹ کو
@@ -113,23 +113,23 @@ activity-needed-calculation-plural =
                     }
             }
     }
-how-many-per-day = بوجام! ای انوس کندوری آواز؟
-how-many-a-week = بوجام! ای ہفتہ کندوری آواز ؟
+how-many-per-day = بوجام! ای انوس کندوری ہواز؟
+how-many-a-week = بوجام! ای ہفتہ کندوری ہواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
 receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو پچین ای میل گونی۔
 not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کمان وائسو بارا نیوز لیٹر گونی۔
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } اسکوردی آواز
-       *[other] { $count } اسکوردی آواز
+        [one] { $count } اسکوردی ہواز
+       *[other] { $count } اسکوردی ہواز
     }
-help-share-goal = اسپہ سون خور آواز مݰکیکا مدد کو۔ تان حدفو لو دیت
+help-share-goal = اسپہ سون خور ہواز مݰکیکا مدد کو۔ تان حدفو لو دیت
 confirm-goal = حدفو تصدیق کو
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = اسپہ تین تان { $count } آوازان انوسو حدف{ $type } بارا لوو دیت۔
+share-n-daily-contribution-goal = اسپہ تین تان { $count } ہوازان انوسو حدف{ $type } بارا لوو دیت۔
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = اسپہ تین تان { $count } آوازان ہفتے حدف{ $type } بارا لوو دیت۔
+share-n-weekly-contribution-goal = اسپہ تین تان { $count } ہوازان ہفتے حدف{ $type } بارا لوو دیت۔
 share-goal-type-speak = لو دیک
 share-goal-type-listen = کار کوریک
 share-goal-type-both = لو دیک وا کارکوریک
