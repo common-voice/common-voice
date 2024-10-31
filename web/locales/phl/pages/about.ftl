@@ -26,6 +26,12 @@ about-listen = ݜُݨ
 about-is-it-valid = انوۡ ہاواز صحیا
 about-is-it-valid-text = اسعتمال تھاٹہ او تھنی ووٹ دتی ہینتہ ہاواز صحی بھنئی نݜون لگئجانوۡ
 about-yes-votes = ≥ 2او ووٹ
+about-yes-votes-text = کمن ڈیٹا سیٹی تھے اٹئنی دپارہ ہاواز دو کھلئی کھلئی استعمال کی اٹینڈیو
+about-no-votes = نا ووٹ
+about-no-votes-text = استعمال تھاٹہ ہاواز رد تھیلوۡ ہینتہ سے واپس قطیری تھے یھاندہ۔ دو زلی رد تھیلو بہ ہینتہ تس ہاویزی قبرستینیۡ تھے ہرانہ۔
+about-dataset-new = کمن وائسی ڈیٹا سیٹ
+about-dataset-new-text = کمن وائس ڈیٹا سیٹیۡ وے زرگونہ ہاویزیمی نمونے ہانسانہ، سے کرام تھاٹم تھے ہاواز جھانئنی سامان سمیانی
+about-clip-graveyard = ہاویزمی قبرستان
 
 ## Community Playbook Content
 ## What is a language
