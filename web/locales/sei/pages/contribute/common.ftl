@@ -18,6 +18,8 @@ speak-empty-state-cta = Hiicot impaai icaaitom ihmaa pac ano nsiiquim aha
 speak-loading-error = Icaaitom ziix quih an hant cooit coi icapacta iyomá. Halx poyáám ta, mpaai insoocta aha.
 record-button-label = Mihipon cap ziix z an hant insiicatx aha
 share-title-new = <bold>Iicot haai</bold>iquipon ziix quih an hant sooit ca ihmaa hcaa.
+keep-track-profile = Hant icaaitom quih an hant yaii zo oo compoh, xiica ziix quih an hant iyaailx coi iti mihahiyat quih insoocta aha
+login-to-get-started = Hant icaaitom quih an hant yaii hac an consiizquim aha. Xo ziix oo cöpopah an cöiscaazquim ha zo mponyaa x, zo nsaai aha
 
 ## Contribution Nav Items
 
