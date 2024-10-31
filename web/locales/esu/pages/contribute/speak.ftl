@@ -30,3 +30,15 @@ record-abort-continue = Qalarutkaq qaqilluku
 record-abort-delete = Anluten Au͡g'arluki-llu qalarutkat
 review-aborted = Upload-aq arulairtuq. Qalarutkaten-qaa au͡g'aryugaten?
 review-submit-title = Review-arluku Submit-arluku-llu
+review-submit-msg = Quyana qalarutkaliluten!<lineBreak></lineBreak>Waniwa review-arluki submit-arluki-llu qalarutkaten kanani.
+review-recording = Review-arluki
+review-rerecord = Record-anqiggluki
+review-cancel = Qalarutkaq Au͡g'arluku
+review-keep-recordings = Qalarutkat qemaggluki
+review-delete-recordings = Qalarutkanka au͡g'arluki
+review-terms = Common Voice-aq atuquvgu, ukuk angerciqagken, <termsLink>Term-at</termsLink> <privacyLink>Privacy Notice-aaq-llu</privacyLink>
+terms-agree = Angraqa
+terms-disagree = Angenritaqa
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Quyana erinan aturcelluku!
+first-cta-subtitle-text = Elpenek qanrucavkut, ikayurciqaten developer-aat atuluaqaryugngalrianek
