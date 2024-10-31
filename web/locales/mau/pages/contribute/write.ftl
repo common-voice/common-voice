@@ -44,6 +44,8 @@ automotive_transport = Kicha ji fee
 finance = Toón
 # Sentence Domain dropdown option
 service_retail = Sutena xkua
+# Sentence Domain dropdown option
+general = Ngatsi'i
 
 ## BULK SUBMISSION 
 
