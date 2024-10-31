@@ -38,6 +38,8 @@ sentence-domain-combobox-label = A mari nijmí
 sentence-domain-select-placeholder = Ján skuya chjia'ajin
 # Sentence Domain dropdown option
 agriculture_food = Tsujmí ntjé tsujmí ma chine
+# Sentence Domain dropdown option
+automotive_transport = Kicha ji fee
 
 ## BULK SUBMISSION 
 
