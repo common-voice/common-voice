@@ -87,3 +87,7 @@ adding-sentences-subheader-special-characters-explanation-2 = باشےتومے �
 adding-sentences-subheader-offensive-content = روش اڑیا رینیک/دِیجین موجی
 adding-sentences-subheader-offensive-content-explanation = موش دِیجیک یا روش اڑیاریک ہُوں تو- مثالیک، کھچے موجی، یا موجی کمیونیٹیو پون پشارینیک موجونیو پیرتے بوجینا تو <communityGuidelines> آؤ موش لنگ تھیونو اواجوں۔ تُوآنے  <emailFragment>commonvoice@mozilla.com</emailFragment>  رجونو اسو کچی ایفون بوِں۔
 reviewing-sentences-explanation-1 = موش اجا رزی ہٗونک معیارینی بئیُوں تو، "اُوں" ٹکانی زاب تھے۔
+reviewing-sentences-explanation-2 = موش اجا رزی ہُونک معیارینی نے بئیوں تو، "نے"ٹکانی زاب تھے۔
+reviewing-sentences-explanation-3 = تُوڑے موجئی بارینی یقین نُش تو، تُو سے پھت تھے مُوچھوڑے بوجون بَوں۔
+reviewing-sentences-explanation-4 = موجی پھش بیلے تو مُتے موجی یو تھیونو اسئیی سات دے۔
+domain-explanation = ڈومین موجئ یوکو ہاں آسیڑے تھینا۔ یچے، تُوسے "مجا" نی زرب تھیون بوں۔
