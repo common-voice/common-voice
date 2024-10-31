@@ -47,6 +47,8 @@ report-offensive-language-detail = Icaaitom hac ziix imiipe quih cmiique ihmaa q
 report-grammar-or-spelling = Cöipaspoj hac imiipe pac ano caahca ha
 report-grammar-or-spelling-detail = Icaaitom hac cöipaspoj hac imiipe pac ano caahca ha.
 report-different-language = Icaaitom ihmaa
+report-different-language-detail = Icaaitom hant coii coi he iitom hac ihmaa ha.
+report-difficult-pronounce = Cöipamx hac haai cmipi ha
 
 ## Speak & Listen Shortcuts
 
