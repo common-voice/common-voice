@@ -47,3 +47,6 @@ sc-criteria-item-5-2 = Tsá mi itjusún jme chuba xi machjenre nijmí, tisenere 
 sc-criteria-item-6 = Tsá je tsin nijmí xi chut'a ¡Tisenkanájin ku'exkusá!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kuajna chuba<icon></icon>¿tsá nda kichji nijmí?
+sc-review-rules-title = ¿A itjúsunre kjuatéxuma jusian tijna chuba?
+sc-review-empty-state = Tsín jme xi chut'ané énn kui.
+report-sc-different-language = Kja'é énn.
