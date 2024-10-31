@@ -33,9 +33,26 @@ contribute-sentence-collection-nav-header = Wantakwaecha énkaksï xani tánhant
 login-signup = wénani / karakwarhini
 vote-yes = jo
 vote-no = nompe
+datasets = mítikwarhintskwa ampe
+languages = mamaru jarhati wantakwaecha
+about = Arieri ampe
+partner = kúparhaku juchantsïni jinkoni
+submit-form-action = axani
 
 ## Reporting
 
+report = ayankup'ini
+report-title = ayankup'erata axani
+report-ask = ¿Ampe wantanhiata jarhaski í wantakwa jinkoni?
+report-offensive-language = wantakwa no sési ampe arhixati
+report-offensive-language-detail = I wantakwa no sési ampe arhixati
+report-grammar-or-spelling = no sési karakata jarhasti
+report-grammar-or-spelling-detail = I wantakwa no sési kantsakata jarhasti o no sési karakata jarhasti
+report-different-language = Materu wantakwa
+report-different-language-detail = ma wantakwa jimpo karakata jarhasti énka ji no mítika.
+report-difficult-pronounce = No úsïnti ma sési arhintani
+report-difficult-pronounce-detail = wantakwa jukaasti énkaksï úkwa jukakata pari arhintani ka wantani.
+report-offensive-speech = no sési jásï ampe arhixati
 
 ## Speak & Listen Shortcuts
 
