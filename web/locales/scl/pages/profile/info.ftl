@@ -59,3 +59,5 @@ login = اچے
 edit = پرائیئ
 email-subscriptions = ای میل سبسکرپشنی
 download-profile = مو ڈیٹا ڈاؤانلوڈ تھے
+contribution-experience = سانتی دین تجربہ
+skip-submission-feedback = چینیوجو تبصرہ لنگ تھے
