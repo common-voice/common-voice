@@ -42,3 +42,4 @@ sc-criteria-make-sure = Nga yije nijmí tjínere nga sikitjusun jngu chuba:
 sc-criteria-item-1 = Nda chjí enn.
 sc-criteria-item-2 = Nda chjí nijmí
 sc-criteria-item-3 = Nda katas'exkiya énn.
+sc-criteria-item-4 = Tsá itjusún chuba xi machénre nijmí &quot;nga kixi tisenere&quot; tsa sik'atui.
