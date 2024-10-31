@@ -48,6 +48,8 @@ service_retail = Sutena xkua
 general = Ngatsi'i
 # Sentence Domain dropdown option
 healthcare = Nda
+# Sentence Domain dropdown option
+history_law_government = Énn xchá, kjuatéxuma, chicon
 
 ## BULK SUBMISSION 
 
