@@ -286,3 +286,7 @@ not-available-abbreviation = این/اے
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = نیالا یری روخ رگوسید
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = سکتی ڈیٹا سیٹ کن فچوا لا دیکھنہ دی ملسونگ سکتی کمیونٹی فری بزانگمو بیالا لو چیگینگنو، لاکھوں ڈالر خرچہ گوین۔ یانگلا سینگلا تھوبی ڈیٹونگی مخچی یودپننارے دیرینگ کھوانگ شیزدے بیوس۔
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = یری ژال ژالپوی لوکھسینگ سی وی کولین یودپنہ؟
