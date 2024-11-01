@@ -131,3 +131,9 @@ add-small-batch-success =
         [one] { $uploadedSentences }دا1 جملہ جمع ہویا
        *[other] { $uploadedSentences }دے { $totalSentences }جملے جمع ہوئے
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences }دا1جملہ جمع ہویا۔ مسترد شدہ جملے ڈاؤن لوڈ کیتے<downloadLink>اتھا</downloadLink>کلک کرو۔
+       *[other] { $uploadedSentences }دے{ $totalSentences }جملے جمع ہویے۔ مسترد شدہ جملے ڈاؤنلوڈ کیتے <downloadLink>اِتھا</downloadLink>کلک کرو۔
+    }
