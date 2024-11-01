@@ -137,3 +137,5 @@ small-batch-response-message =
         [one] { $uploadedSentences }دا1جملہ جمع ہویا۔ مسترد شدہ جملے ڈاؤن لوڈ کیتے<downloadLink>اتھا</downloadLink>کلک کرو۔
        *[other] { $uploadedSentences }دے{ $totalSentences }جملے جمع ہویے۔ مسترد شدہ جملے ڈاؤنلوڈ کیتے <downloadLink>اِتھا</downloadLink>کلک کرو۔
     }
+small-batch-sentences-rule-1 = ہدایات تے عمل کرو بچو“کِڑے جملے میں شامل کر ہکداہاں؟”
+small-batch-sentences-rule-2 = فی لائن ہک جملہ شامل کرو
