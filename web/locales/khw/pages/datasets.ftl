@@ -29,17 +29,17 @@ size-gigabyte = جی بی
 size-megabyte = ایم بی
 confirm-no-identify = <b> تو منیسان</b> کہ تو  کامن وائسا لو دیاکان شناخت کوریکو کوشش نو کوس۔
 confirm-join-mailing-list = تو کی کامن وائسو رابطو لیسٹا بیک کی مݰکیسان
-download-language = ڈون لوڈ{ $language }
-validated-hours = سندبیرو بیرو گھنٹہ
+download-language = ڈون لوڈہوئے{ $language }
+validated-hours = سندبیرو گھنٹہ
 recorded-hours = رکارڈ بیرو گھنٹہ
-whats-inside = کامن وائسو ڈیٹآ سیٹا اندیرنی کیاغا شیر؟
+whats-inside = کامن وائسو ڈیٹآ سیٹا اندیرنی کیاغ شیر؟
 dataset-description-hours =
     دیٹا سیٹا لکھیرو ہر اشناری  ایم پی 3 وا  توغو سون ݯوکیرو فائلان مڑاغ۔ ڈیٹاسیٹا زیاد <b>{ $total }</b> رکارڈ بیرو گھنٹہ ابادیو معلومات مثلا عمر، جنس وا لہجہ کی ہیت لوو ہوݰ کوراک مشینو سہیگیری تربیت دیکا مدد کونیان۔ 
     
-    ڈیٹا سیٹو سہیگری <b> { $valid }</b>
+    موجودہ وختا ڈیٹآ سیٹ<b>{ $languages }زبانان  <b>{ $valid }</b> سند بیرو گھنٹہ مشتمل شیر۔ لیکن اسپہ ہر وختا خور ہوازن وا زبانان شامل کوسیان۔ہیا ژاغآ <languagesLink>  زبانان صفحو لوڑے کہ زبانو پچین درخواست یا مدد کوریک کی مݰکیسان۔
 want-dataset-update = تو تان سورو  اگاہ کی بہچیسان کہ اسپہ کامن وائسو ڈیٹاسیٹو نوغ ورثنو کیاوحت نیزیسی؟ تھے اسپہ نیوز لیٹرو سبسکرائب کو
 subscribe = سبسکرائب
-get-started-speech = لوو ہوݰ کورا سورا شروع کو
+get-started-speech = لوو ہوݰ کوراکو سورا شروع کو
 other-datasets = خور وائس ڈیٹا سیٹ
 feedback-q = تبصیرہ کو؟
 # This indicates that there is no data to display
