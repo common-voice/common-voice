@@ -79,6 +79,8 @@ try-upload-again-md = Nguinik'a tikijin
 select-file = Cha'ajin jngu xujun
 select-file-mobile = Cha'ajin jngu xujun
 accepted-files = tvs xujun xi tjubé
+minimum-sentences = tsá to 1000 nijmí nga jngu xujun
+maximum-file-size = tsá 25MB nga jngu xujun
 
 ## SMALL BATCH SUBMISSION
 
