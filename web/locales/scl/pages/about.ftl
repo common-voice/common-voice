@@ -63,7 +63,7 @@ about-playbook-what-is-language-content-3 = چیک باشو گرامرینی، �
 
 ## How do I add a language
 
-about-playbook-how-add-language = مُو سے کئی گہ باشی کدا تھے آنے یو تھیم (چینیم)؟
+about-playbook-how-add-language = مُو سے کئی گہ باشی کدا تھے آنے یو تھیم /چینیم؟
 about-playbook-how-add-language-content-1 = مُچھوڑے چکے تھئیئ باش  <languageLink>  آنے یو تھے تو نُش  <languageLink>۔ نُش تو یو تھیونئی کاریو آنے  <languageRequestLink> کھُجون بَوں۔ آنے دُو پونے ہائیں۔ ترجمہ تھیونو گہ موجی یو تھیونو۔
 about-playbook-how-add-language-translating-heading = ترجمہ تھیونو
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پون ٹون استعمال تھیونئی کاریو اسو پون پشاریک (guide) چکے
