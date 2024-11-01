@@ -14,6 +14,7 @@ sc-write-submit-confirm = Elluakaqa una igausngalria <wikipediaLink>yuut tamarme
 sc-review-write-title = Cakucinek igausngalrianek ilayugngasia?
 sc-review-small-batch-title = Qaillun ilayugngasia amllernek igausngalrianek
 new-sentence-rule-1 = <noCopyright>No copyright-alrianek</noCopyright> pisqutet (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Igausngalriami word-at 15 ciptarkaunritaat
 new-sentence-rule-3 = Grammar-aamek assilriamek aturluten
 new-sentence-rule-4 = Spelling-aamek punctuation-aamek-llu assilrianek aturluten
 new-sentence-rule-5 = Aturpek'nak naaqutnek special character-aanek-llu
@@ -137,3 +138,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Maligtaqu'urluki pisqutet wani “Cakucinek igausngalrianek ilayugngasia?”
 small-batch-sentences-rule-2 = Ataucimek igausngalriamek per line-ami
+small-batch-sentences-rule-3 = Avvluki igausngalriit atauciqu'urluki line-akun negkuvgu “Enter-aaq” wall'u “Return-aq”
+small-batch-sentences-rule-4 = Ilaluten igausngalrianek 1,000 ngel'ekluku
+small-batch-sentences-rule-5 = Tamarmeng igausngalriit domain-ait ayuqarkaugut
+small-batch-sentences-rule-6 = Tamarmeng igausngalriit naken igausngaciit ayuqarkaugut
