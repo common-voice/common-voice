@@ -76,6 +76,7 @@ bulk-upload-additional-information = A tjínsa xi s'ejinajin tinúkjuanájin<ema
 template-file-additional-information = Tsá tjinsa xi s'ejinajin xi kui xujun tjenjín ti'inyanajin k'ua tinúkjuanájin<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Nguinik'a k'ua tike chanife xujuri i
 try-upload-again-md = Nguinik'a tikijin
+select-file = Cha'ajin jngu xujun
 
 ## SMALL BATCH SUBMISSION
 
