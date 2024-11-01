@@ -29,3 +29,12 @@ native-language =
 profile-form-add-accent = رانگ بیونگ زیر جوخپو ایڈ بیوس
 profile-form-submit-save = فسوق
 profile-form-submit-saved = فسوق
+male_masculine = بو ژاہ/ نوسترینگ
+female_feminine = بونگو/بوسترینگ
+intersex = فومن مومین
+transgender = ہیجڑا
+non-binary = نان باٸنری
+do_not_wish_to_say = زیربی تونگو مہ یوق
+# Gender
+other = ایونگ
+why-profile-title = فروفایل پو چا رگوسپن؟
