@@ -39,7 +39,7 @@ bulk-sentence = Xtín
 sentence-domain-combobox-label = A mari nijmí
 sentence-domain-select-placeholder = Ján skuya chjia'ajin
 # Sentence Domain dropdown option
-agriculture_food = Tsujmí ntjé tsujmí ma chine
+agriculture_food = Tsujmí ntjé ka tsujmí ma chine
 # Sentence Domain dropdown option
 automotive_transport = Kicha ji fee
 # Sentence Domain dropdown option
@@ -55,9 +55,9 @@ history_law_government = Énn xchá, kjuatéxuma, chicon
 # Sentence Domain dropdown option
 language_fundamentals = kjuatéxumare énn,  (p.ej. xki, chjí, toón)
 # Sentence Domain dropdown option
-media_entertainment = Ngand'e niska
+media_entertainment = Ngand'e niská
 # Sentence Domain dropdown option
-nature_environment = Ngasu'nde
+nature_environment = Ngasu'nd'e
 # Sentence Domain dropdown option
 news_current_affairs = Énn ka kjua xi ma nt'e
 # Sentence Domain dropdown option
