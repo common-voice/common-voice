@@ -82,6 +82,18 @@ minimum-sentences = Igausngalriit file-ami ciptarkauluku: 1000
 maximum-file-size = File-am angtacia ciptarkauvkenaku: 25 MB
 what-needs-to-be-in-file = File-amni camek ilagarkausia?
 upload-progress-text = Cali upload-artuq...
+sc-bulk-submit-confirm = Elluakanka ukut igausngalriit <wikipediaLink>yuut tamarmeng aturyungalriarumaluteng</wikipediaLink> upload-aryugngaluki-llu.
+bulk-upload-success-toast = Amllernek igausngalriit upload-allruut
+bulk-upload-failed-toast = Upload-asciigatellruuq, ataam naspaakina.
+bulk-submission-success-header = Quyana ilaluten amllernek igausngalrianek!
+bulk-submission-success-subheader = Ikayuran Common Voice-aq ngel'ekluku daily sentence goals-aari!
+upload-more-btn-text = Upload-aryugtuten-qaa allanek igausngalrianek?
+file-invalid-type = File-aq assiituq
+file-too-large = File-aq angssiyaagtuq
+file-too-small = File-aq miksiyaagtuq
+too-many-files = File-at amllessiyaagtut
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Ilaluten amllernek igausngalrianek yuut tamarmeng aturyugngalrianek
