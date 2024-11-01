@@ -122,3 +122,4 @@ contribution-misreadings-example-7-explanation = [no jarhasti 'juchiti' orheta k
 contribution-misreadings-example-8-title = Wichu winhamintu nitamasti.
 contribution-misreadings-example-8-explanation = [no terukuntasïnti énka ixu jataka ampe]
 contribution-varying-pronunciations-title = maru wantakwaecha materu jarhasïnti
+contribution-varying-pronunciations-description = Jikontku jama énkari no jiokwarhini jamaka ma wantakwa patsakatani énka no sési kurhankukwarhiaka. Ini parhakpini jimpo mamaru jásï wantanhasïnti, jamperu jati ma wantakwa isï énkari no meni kurhantika. Énkari exeaka eska kurhankukwarhixaka nat'uka no sési kurhankwaaka, jiokwarhi.
