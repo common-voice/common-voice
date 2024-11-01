@@ -71,6 +71,7 @@ sentence-variant-select-multiple-variants = Énn naa/ nkjin skuya
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Tikijin énn
 sc-bulk-upload-instruction = I chanife xijunri k'ua<uploadButton> tisenere jmeni skibé</uploadButton>
+sc-bulk-upload-instruction-drop = I tijmí xujunri jméni nga kuan sikíjin
 
 ## SMALL BATCH SUBMISSION
 
