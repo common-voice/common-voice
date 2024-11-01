@@ -29,3 +29,22 @@ size-gigabyte = جی بی
 size-megabyte = ایم بی
 confirm-no-identify = <b>شما منّ اِت</b> کہ کامن وائس ءِ ڈیٹاسیٹ ءِ تہا گپ جنوک ءِ پجار ءِ زانگ ءِ جہد ءَ مہ کن اِت
 confirm-join-mailing-list = تئو کامن وائس میلنگ لسٹ ئا ہوار بیغ لوٹئے
+download-language = ڈاؤن لوڈ کن اِت{ $language }
+validated-hours = توثیق کثغیں کلاک
+recorded-hours = ریکارڈ کثغیں کلاک
+whats-inside = کامن وائس ڈیٹاسیٹ ءِ تہا چے است؟
+dataset-description-hours =
+    ڈیٹاسیٹ ءِ تہا ہر انٹری ءِ تہا یک انفرادی MP3 ءُُ ہمے ٹیکسٹ فائل ءِ سرا مشتمل انت۔ ڈیٹاسیٹ ءِ تہا بازیں <b>{ $total }</b> ریکارڈ کتگیں کلاکاں عمر، جنس ءُ لہجہ ءِ وڑیں ڈیموگرافک میٹا ڈیٹا ہم ہوار انت کہ آ گپ ءِ شناخت ءِ انجن ءِ درستی ءِ تربیت ءَ کمک کت کن انت۔
+    
+    ڈیٹاسیٹ ءِ تہ ءَ اے وھد ءَ <b>{ $valid }</b> ءِ رد ءَ <b>{ $languages }</b> زبانانی تہ ءَ ردیں کلاک ھوار اَنت بلے ما مدام گیشتر توار ءُ زباناں گیش کنگ ءَ ایں ۔ مئے <languagesLink>زبانانی تاک</languagesLink> ءَ یک چمشانکے بدئے اِت کہ زبانے لوٹ اِت یا شریک بوھگ ءَ بندات بہ کن اِت۔
+want-dataset-update = اپ ڈیٹ لوٹ ئے کہ ما کامن وائس ڈیٹاسیٹ ءِ نوکیں ورژن ءَ شنگ کنیں؟ مئے نیوز لیٹر ءَ سبسکرائب بہ کن اِت۔
+subscribe = سبسکرائب کن
+get-started-speech = گپ ءِ شناخت ءَ گوں بندات کن اِت
+other-datasets = دگہ توار ءِ ڈیٹاسیٹ
+feedback-q = رائے ئے؟
+# This indicates that there is no data to display
+no-information = ہچ وڑیں زانتکاری نیستیں
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>TM یک <docsLink>اوپن سورس ٹول کیٹ</docsLink> ءِ ھاتر ءَ پٹ ءُ پولکارانی ھاتر ءَ کہ آ نوکیں گپ ءُ تران ءِ AI ماڈل جوڑ کنگ ءَ اَنت۔
+resource-deepspeech-info = موزیلا ءِ اوپن سورس آواز ءِ شناخت ءِ انجن ڈیپ اسپیچ ءَ چہ گپ ءِ شناخت ءِ ایپلی کیشنز جوڑ کنگ بیت کنت۔ مئے <githubLink>گتھب ءِ چمشانک</githubLink> ءَ بوان اِت یا <discourseLink>گہری گپ ءُ تران</discourseLink> ءَ ھوار بہ بئے کہ چوں بندات کنگ بہ بیت۔
+resource-coqui-info = <coquiLink>کوکی</coquiLink> پہ پچیں گپ ءِ ٹیکنالوجی ءَ ندر اِنت۔ ایشانی منصوبہانی تہا ڈیپ لرننگ ءِ بنیاد ءَ ایس ٹی ٹی ءُ ٹی ٹی ایس انجن ھوار انت۔
+community-playbook = کمیونٹی پلے بک
