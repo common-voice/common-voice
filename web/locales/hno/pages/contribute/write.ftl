@@ -25,6 +25,12 @@ login-instruction-multiple-sentences = <loginLink>لاگ اِن</loginLink>یا<
 how-to-cite = میں کسطرح حوالہ دیواں؟
 how-to-cite-explanation-bold = URL لنک نال حوالہ دیو یا اُس کم دا سارا نام دا حوالہ دیو۔
 how-to-cite-explanation = اگر ایہ تسدے اپنڑے الفاظ ہن، تے صرف<italicizedText>“آپنڑاں حوالہ“</italicizedText>بولو۔ اساں کو اے جانڑناں ہے کہ تساں کو اے مواد کُتھو ملیا تاکہ اسیں اے چیک کر ہکاں ایہ عوامی ڈومین بچ ہے ہور کوئی کاپی رائٹ دی پابندیاں لاگو نیں۔ حوالہ دے متعلق مزید معلومات واسطے اسدا<guidelinesLink>رہنمائی دا صفحہ</guidelinesLink>دکھو</guidelinesLink>.
+guidelines = ہدایتاں
+contact-us = اساں نال رابطہ کرو
+add-sentence-success = 1جملہ جمع ہو گیا
+add-sentence-error = جملے شامل کرنابچ خرابی
+required-field = براہ مہربانی اس خانے کوں پُر کرو۔
+single-sentence-submission = کلّھا جملہ جمع کرنا
 
 ## BULK SUBMISSION 
 
