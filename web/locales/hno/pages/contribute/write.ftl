@@ -93,6 +93,11 @@ upload-more-btn-text = مزید جملے اپلوڈ کرّاں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل مُچ بڑی ہے
 file-too-small = فائل مُچ نِکی ہے
+too-many-files = مُچ ساریاں فائلاں
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>مُچ طرح دے عوامی ڈومین دے جملے شامل کرو
+multiple-sentences-error = تسیں ہک سبمشن واسطے مختلف طرح دے جملے نیں شامل کر سکدے ہو
+exceeds-small-batch-limit-error = 1000 جملیاں کولو زیادہ نیں جمع کرا سکدے ہو
