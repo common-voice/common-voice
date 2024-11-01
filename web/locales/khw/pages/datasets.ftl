@@ -48,6 +48,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ای <docsLink>او
 resource-deepspeech-info = موزیلو اوپن سورس ہوازو ہوݰ کوراک انجن "ڈیپ سپیچ" لوان ہوش کورا اپلیکیشن ساوزیکو پچین استعال کورین بوئے۔  اسپہ <githubLink> "گیتھبو" لوڑے </githubLink> یا شامل بوس<discourseLink> "ڈیپ سپیچ" مشقول گیا</discourseLink> کیچہ کوری شروع کونی رے ݯیݯیکو پچین۔
 resource-coqui-info = <coquiLink>کوقی </coquiLink> آزاد لودیکو پچین شیر۔ ہمیتان پروجٹا کوڑوم ݯیݯیکو بنیادا STT وا TTS انجن شامل شیر
 community-playbook = کمنیوٹی پلے بک
+resource-playbook-info = <playbookLink> تمام کامن وائسو بارا رہنمائی ہیا ژاغہ</playbookLink>شینی۔ ہے موژی مقامی کوریکار گنی ڈیٹاسیٹو استعمالا پتہ وا اسپہ کمیونیٹیا کیچا بیتی گین بوئے معلومات شینی
 more = خور
 close = بند
 download = ڈونلوڈ
