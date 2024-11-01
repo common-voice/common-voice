@@ -70,6 +70,9 @@ no-information-available = معلومات دیستیاب نیکی
 dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
+donate-modal-message = تہ ڈیٹا بیس ڈونلوڈ بویان
+dataset-donate-modal-heading = تہ تین معلومہ۔۔۔
+donate-modal-explanation-1 = سالان تقریبا ای میلین ڈالر دیٹابیسو نیٹا لکھکو وا بہتر کوریکو پچین خرچ بویان۔ اسپہ کیاغ کی کوسیان ہمو سورا  شورار ذیاد زبانو روئے  بھروسہ کونیان۔
 data-download-yes = دیی
 data-download-deny = نو
 data-other-title = خور وائس ڈیٹا سیٹ
