@@ -82,6 +82,11 @@ accepted-files = قبول فائل دی قسماں: صرف tsv۔
 minimum-sentences = فائل بچ کم تو کم جملے:1000
 maximum-file-size = فائل دا کم تو کم سائز:25 MB
 what-needs-to-be-in-file = مڑی فائلا بچ کہ ہونڑا چاہی دا ہے؟
+what-needs-to-be-in-file-explanation = مہربانی نال اسدی<templateFileLink>ٹیمپلیٹ فائل</templateFileLink> چیک کرو۔ تُسدے جملے کاپی رائٹ کولو آزاد ہونڑے چاہی دے ہن(CC0 یا اجازت گدیا دا اصل کم جمع کرالنا والے دی طرفو) ہور واضح، دُرست گرائمر والا ہور پڑھنا بچ آسان۔ جمع کیتے دیاں جملیاں کو پڑھنا واسطے تقریباََ 10-15لگنڑے چائیدے ہن، ہور گریز کرنا چاہیدا ہے نمبراں، پراپر ناں تے خصوصی حرفاں بچ۔
+upload-progress-text = اپلوڈ ہو رہیا ہے۔۔۔
+sc-bulk-submit-confirm = میں اس گل دی تصدیق کرداں ہاں کہ ایہ جملے<wikipediaLink>عوامی ڈومین</wikipediaLink> دے ہن ہور مڑے کول اے اپلوڈ کرنا دی اجازت ہے۔
+bulk-upload-success-toast = بڑی تعداد بچ جملے اپلوڈ ہوئے
+bulk-upload-failed-toast = اپلوڈ ناکام ہویا، مہربانی نال دوبارہ کوشش کرو۔
 
 ## SMALL BATCH SUBMISSION
 
