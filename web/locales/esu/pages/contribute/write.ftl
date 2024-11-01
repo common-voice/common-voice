@@ -111,3 +111,29 @@ rate-limit-toast-message-seconds =
         [one] Cukatacia kituran. Ataam naspaakina 1 second-aami
        *[other] Cukatacia kituran. Ataam naspaakina { $retryLimit } seconds-aani
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Submission-am amllertacia anagtaa. Utaqaluten 1 cetyaarmi tunenqigpailegpet allamek igausngalriamek. Quyana utaqaluten!
+       *[other] Submission-am amllertacia anagtaa. Utaqaluten { $retryLimit } cetyaarni tunenqigpailegpet allamek igausngalriamek. Quyana utaqaluten!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Submission-am amllertacia anagtaa. Utaqaluten 1 second-aami tunenqigpailegpet allamek igausngalriamek. Quyana utaqaluten!
+       *[other] Submission-am amllertacia anagtaa. Utaqaluten { $retryLimit } seconds-aani tunenqigpailegpet allamek igausngalriamek. Quyana utaqaluten!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 igausngalriamek quyurmek
+       *[other] { $uploadedSentences } of { $totalSentences } igausngalrianek quyurmeng
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 igausngalriamek quyurmek. Neggluku <downloadLink>wani</downloadLink> download-aryukuvki igausngalriit assiilnguut.
+       *[other] { $uploadedSentences } of { $totalSentences } igausngalrianek quyurmeng. Neggluku <downloadLink>wani</downloadLink> download-aryukuvki igausngalriit assiilnguut.
+    }
+small-batch-sentences-rule-1 = Maligtaqu'urluki pisqutet wani “Cakucinek igausngalrianek ilayugngasia?”
+small-batch-sentences-rule-2 = Ataucimek igausngalriamek per line-ami
