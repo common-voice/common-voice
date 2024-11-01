@@ -70,3 +70,5 @@ help-accent-explanation = توسے موجی کنا تھے رزؤ آسے ٹے  ت
 help-variants = ویریئنٹ نلا کمیک ساتی اواجوں۔
 help-variants-explanation = ویرئینٹس کا گا باشیکو خاص شکلیک بےینا - مثلا آ منجو مجا سانجی بیئی کا اک دشیک یا کوئییکینی بیئینا۔
 help-sex-or-gender-changes = جنس بدل تھیینو سات اواجی؟
+help-sex-or-gender-changes-explanation = بیسے جکو کاری موتے پونیے دیئو ہانس کاگی جیسے اسوٹے تومی جنسوشانخت رزین ۔ کنئایک تھے توٹے مشٹی بی تو ادا تھے تومی بارینی رس۔ <learnMoreLink>بیسے کنا تھے جنس چکونس آسو باریینی موتی گہ پڑے</learnMoreLink>
+variant-contribution-options-header = ویرئینٹس میشک تھین پونیے
