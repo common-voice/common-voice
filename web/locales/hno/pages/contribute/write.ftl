@@ -24,6 +24,7 @@ new-sentence-rule-8 = مثالی طور قدرتی تے گل بات آلے (ج
 login-instruction-multiple-sentences = <loginLink>لاگ اِن</loginLink>یا<loginLink>سائن اپ</loginLink>مختلف قسم دے جملے بینڑا واسطے
 how-to-cite = میں کسطرح حوالہ دیواں؟
 how-to-cite-explanation-bold = URL لنک نال حوالہ دیو یا اُس کم دا سارا نام دا حوالہ دیو۔
+how-to-cite-explanation = اگر ایہ تسدے اپنڑے الفاظ ہن، تے صرف<italicizedText>“آپنڑاں حوالہ“</italicizedText>بولو۔ اساں کو اے جانڑناں ہے کہ تساں کو اے مواد کُتھو ملیا تاکہ اسیں اے چیک کر ہکاں ایہ عوامی ڈومین بچ ہے ہور کوئی کاپی رائٹ دی پابندیاں لاگو نیں۔ حوالہ دے متعلق مزید معلومات واسطے اسدا<guidelinesLink>رہنمائی دا صفحہ</guidelinesLink>دکھو</guidelinesLink>.
 
 ## BULK SUBMISSION 
 
