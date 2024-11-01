@@ -113,3 +113,21 @@ rate-limit-toast-message-seconds =
         [one] شرح دی حد تو زیادہ ہو گیا۔ 1 سیکنڈ تو بعد کوشش کرو
        *[other] شرح دی حد تو زیادہ ہو گیا۔ { $retryLimit } سیکنڈاں تو بعد کوشش کرو
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تسیں اس صفحے دے جمع دی حد تے پہنچ گے ہو۔ مہربانی نال 1 منٹ آستے  انتظار کرو ہور جملہ جمع کرالنا تو پہلے۔ تسدی برداشت دا شکریہ!
+       *[other] تسیں اس صفحے دے جمع دی حد تے پہنچ گے ہو۔ مہربانی نال { $retryLimit } مِنٹاں آستے  انتظار کرو ہور جملہ جمع کرالنا تو پہلے۔ تسدی برداشت دا شکریہ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تسیں اس صفحے دے جمع دی حد تے پہنچ گے ہو۔ مہربانی نال 1 سیکنڈ آستے  انتظار کرو ہور جملہ جمع کرالنا تو پہلے۔ تسدی برداشت دا شکریہ!
+       *[other] تسیں اس صفحے دے جمع دی حد تے پہنچ گے ہو۔ مہربانی نال { $retryLimit } سیکنڈاں آستے  انتظار کرو ہور جملہ جمع کرالنا تو پہلے۔ تسدی برداشت دا شکریہ!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences }دا1 جملہ جمع ہویا
+       *[other] { $uploadedSentences }دے { $totalSentences }جملے جمع ہوئے
+    }
