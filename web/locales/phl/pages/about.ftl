@@ -50,6 +50,7 @@ about-playbook-what-is-language-content-2 = بے اتیݨو ماڈل اسپیچ 
 
 ## How do I add a language
 
+about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھوم
 
 ## How does localization work
 
