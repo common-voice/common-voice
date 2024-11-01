@@ -20,6 +20,11 @@ new-sentence-rule-5 = Aturpek'nak naaqutnek special character-aanek-llu
 new-sentence-rule-6 = Aturpek'nak foreign letter-aanek
 new-sentence-rule-7 = Ilaluten assilriamek naken igausngacianek
 new-sentence-rule-8 = Natural-aacetun conversational-aacetun-llu igausngalrianek aturluten (caperrnaunani naaqillra)
+login-instruction-multiple-sentences = <loginLink>Login-arluten</loginLink> wall'u <loginLink>sign up-aarluten</loginLink> ilayukuvet amllernek igausngalrianek
+how-to-cite = Qaillun naken igausngacianek igararkausia?
+how-to-cite-explanation-bold = Igaulluku URL link-aara wall'u caliam atra.
+how-to-cite-explanation = Elpecenek igallrukuvgu, igarluten <italicizedText>“Wangnek Igausngacianek”</italicizedText>. Nallunritarkaugaput naken nalaqellrucianek tua-llu check-aryugngaluku public domain-ami uitacianek wall'u copyright restriction-aangqerrucianek. Cali naaqiyukuvet pisqutnek una neggluku <guidelinesLink>Guidelines page-aq</guidelinesLink>.
+guidelines = Pisqutet
 
 ## BULK SUBMISSION 
 
