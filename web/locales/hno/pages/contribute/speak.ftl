@@ -36,3 +36,9 @@ review-rerecord = دوبارہ ریکاڈ کرو
 review-cancel = جمع کرالنا کینسل کرو
 review-keep-recordings = ریکاڈنگ رکھو
 review-delete-recordings = مڑی رکاڈنگ ختم کرو
+review-terms = کامن وائس استعمال کرنا نال تسیں اسدیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہوسو
+terms-agree = میں متفق ہاں
+terms-disagree = میں اتفاق نیں کردا
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = آپنڑی وائس کلپس دینڑے واسطے شکریہ!
+first-cta-subtitle-text = آپنڑے بارے بچ دسدیاں ہویاں، تسیں بڑینڑیاں والیاں دی مزید جامع ٹیکنالوجی بڑینڑاں بچ مدد کرسو
