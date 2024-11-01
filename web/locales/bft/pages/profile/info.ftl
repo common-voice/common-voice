@@ -38,3 +38,12 @@ do_not_wish_to_say = زیربی تونگو مہ یوق
 # Gender
 other = ایونگ
 why-profile-title = فروفایل پو چا رگوسپن؟
+why-profile-text = یری معلومات چی بقچی منسنارے، سکت نوزین بے انجن پے فری یانگی  کامن واٸس لا منفہ یودپی سکتی ڈیٹو کولبی لوکھسینگنو لیگینہ سہ لیخمو گوین، دونگی یا ڈیٹو کھوتی لس کھومی فری کولبا یودپن۔
+dashboard = تخشو
+build-profile = پروفایل پو فچوس
+avatar = ایویتار
+goals = تونگونگ
+settings = سیٹینگ کن
+edit-profile = پروفایل پو سترونگ
+profile-create-success = کھومس، پروفایل پو فچوسید
+profile-close = بند تونگ
