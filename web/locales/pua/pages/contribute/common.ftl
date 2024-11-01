@@ -123,3 +123,7 @@ contribution-misreadings-example-8-title = Wichu winhamintu nitamasti.
 contribution-misreadings-example-8-explanation = [no terukuntasïnti énka ixu jataka ampe]
 contribution-varying-pronunciations-title = maru wantakwaecha materu jarhasïnti
 contribution-varying-pronunciations-description = Jikontku jama énkari no jiokwarhini jamaka ma wantakwa patsakatani énka no sési kurhankukwarhiaka. Ini parhakpini jimpo mamaru jásï wantanhasïnti, jamperu jati ma wantakwa isï énkari no meni kurhantika. Énkari exeaka eska kurhankukwarhixaka nat'uka no sési kurhankwaaka, jiokwarhi.
+contribution-varying-pronunciations-description-extended = joperu, énkari exeni jaka eska arhintsti yátiru no meni kurhantiska inte wantakwani ka isku ampe wantaxeraxaka, asï jiokwarhi. énkari exeni eska no ísïska, sánteru sésiwati eskari jiruch'akwaaka.
+contribution-varying-pronunciations-example-1-title = Inchats'ïkwa ma jukapaxati.
+contribution-varying-pronunciations-example-1-explanation = i wantakwa 'beret' sési jawati pari (UK) énka arheta jamani winhats'ïaka o istu énka tamu winhats'ïaka pari (US)
+contribution-varying-pronunciations-example-2-title = Jak'i tarhatatixapti.
