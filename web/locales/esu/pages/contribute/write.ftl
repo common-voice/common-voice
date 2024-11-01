@@ -72,6 +72,16 @@ sc-bulk-upload-header = Upload-arluki <icon></icon> igausngalrianek yuut tamarme
 sc-bulk-upload-instruction = Elliluku file-an wani wall'u <uploadButton>neggluku una upload-aryukuvet</uploadButton>
 sc-bulk-upload-instruction-drop = Elliluku file-an wani upload-aryukuvgu
 bulk-upload-additional-information = Cali allamek qaneryukuvet uum file-aa caucianek, e-mail-arluku <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Cali allamek qaneryukuvet uum template-aarani cataicecianek, e-mail-arluku <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Ataam naspaaluten ellinqiggluku file-an wani
+try-upload-again-md = Ataam naspaaluten upload-arluku
+select-file = Cucuklirluten File-amek
+select-file-mobile = Cucuklirluten File-amek Upload-aryuucivnek
+accepted-files = File type-at assilriit: .tsv kiingan
+minimum-sentences = Igausngalriit file-ami ciptarkauluku: 1000
+maximum-file-size = File-am angtacia ciptarkauvkenaku: 25 MB
+what-needs-to-be-in-file = File-amni camek ilagarkausia?
+upload-progress-text = Cali upload-artuq...
 
 ## SMALL BATCH SUBMISSION
 
