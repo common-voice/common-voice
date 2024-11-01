@@ -44,6 +44,12 @@ agriculture_food = زمینداری تے خوراک
 automotive_transport = آٹوموٹو تے ٹرانسپورٹ
 # Sentence Domain dropdown option
 finance = فنانس
+# Sentence Domain dropdown option
+service_retail = خدمت تے پرچون
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت دیکھ بھال
 
 ## BULK SUBMISSION 
 
