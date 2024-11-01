@@ -101,3 +101,15 @@ too-many-files = مُچ ساریاں فائلاں
 small-batch-instruction = <icon></icon>مُچ طرح دے عوامی ڈومین دے جملے شامل کرو
 multiple-sentences-error = تسیں ہک سبمشن واسطے مختلف طرح دے جملے نیں شامل کر سکدے ہو
 exceeds-small-batch-limit-error = 1000 جملیاں کولو زیادہ نیں جمع کرا سکدے ہو
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] شرح دی حد تو زیادہ ہو گیا۔ 1 منٹ تو بعد کوشش کرو
+       *[other] شرح دی حد تو زیادہ ہو گیا۔ { $retryLimit } مِنٹوں تو بعد کوشش کرو
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] شرح دی حد تو زیادہ ہو گیا۔ 1 سیکنڈ تو بعد کوشش کرو
+       *[other] شرح دی حد تو زیادہ ہو گیا۔ { $retryLimit } سیکنڈاں تو بعد کوشش کرو
+    }
