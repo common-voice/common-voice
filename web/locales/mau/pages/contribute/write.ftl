@@ -81,6 +81,7 @@ select-file-mobile = Cha'ajin jngu xujun
 accepted-files = tvs xujun xi tjubé
 minimum-sentences = tsá to 1000 nijmí nga jngu xujun
 maximum-file-size = tsá 25MB nga jngu xujun
+what-needs-to-be-in-file = Jmé xi s'enajin xujuna
 
 ## SMALL BATCH SUBMISSION
 
