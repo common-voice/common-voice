@@ -97,3 +97,17 @@ too-many-files = File-at amllessiyaagtut
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Ilaluten amllernek igausngalrianek yuut tamarmeng aturyugngalrianek
+multiple-sentences-error = Amllernek igausngalrianek ilasciigatuten ataucimek submission-aami
+exceeds-small-batch-limit-error = Ilasciigatuten 1000-nek igausngalrianek cipluku
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Cukatacia anagtan. Ataam naspaakina 1 cetyaarni
+       *[other] Cukatacia anagtan. Ataam naspaakina { $retryLimit } cetyaarni
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Cukatacia kituran. Ataam naspaakina 1 second-aami
+       *[other] Cukatacia kituran. Ataam naspaakina { $retryLimit } seconds-aani
+    }
