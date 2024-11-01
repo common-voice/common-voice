@@ -72,6 +72,7 @@ sentence-variant-select-multiple-variants = Énn naa/ nkjin skuya
 sc-bulk-upload-header = Tikijin énn
 sc-bulk-upload-instruction = I chanife xijunri k'ua<uploadButton> tisenere jmeni skibé</uploadButton>
 sc-bulk-upload-instruction-drop = I tijmí xujunri jméni nga kuan sikíjin
+bulk-upload-additional-information = A tjínsa xi s'ejinajin tinúkjuanájin<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
