@@ -9,7 +9,7 @@ datasets-positioning =
     
     ہیا صفحو خور اوپن سورس ڈیٹاسیٹو حوالو پچین ڑوڑور وا کامن وائس کی لوٹ باو ہائے، اسپہ خبران دیکو پیچین ای ژاغا۔
 language = زبان
-download-dataset-header = مہ ڈیٹو ڈون لوڈ کو
+download-dataset-header = ڈیٹآسیٹو ڈون لوڈ کو
 download-delta-explainer = اسپہ پھوک بدل اریتام۔ پرانو کورمار اچی،ڈلٹا حصہ نوغ ہواز لکھیتام <deltaLink> ۔ ہیا کورمو بارا خور معلومات ہایا</deltaLink> ژاغا  شینی۔
 download-dataset-tag = تان حاجتو زبانو ڈیٹآسیٹو متخب کو۔کیا ورژنو کی مݰکیسان توغو ڈون لوڈ کو۔
 # File size in gigabytes
@@ -17,9 +17,9 @@ size = سائز
 validated-hr-total = مستند بیرو ایچ آر مکمل
 overall-hr-total = تمام ایچ آر کھول
 cv-license = لائسنس
-audio-format = ہوازو شکل
+audio-format = ہوازو ساخت
 dataset-splits = تقسیم(عمر وا  جنس)
-number-of-voices = ہوازان نمبر
+number-of-voices = ہوازان تعداد
 splits = تقسیم
 email-to-download = ڈون لوڈ کوریکو پچین ای میلو دیت
 why-email = <b> ای میل کو مݰکیسان</b> اسپہ تہ سون گیاگ وختہ ڈیٹا سیٹو بدیل کوریکو پچین رابطہ کوریلک بوئے۔ ای میل تہ سون رابطہ کوریکو ذریعہ۔
@@ -46,3 +46,19 @@ feedback-q = تبصیرہ کو؟
 no-information = معلومات نیکی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ای <docsLink>اوپن سورس سامان </docsLink> محقیقین پچین اعلی  AI مشقولگیو ای نمونہ ساوزیکو پچین۔
 resource-deepspeech-info = موزیلو اوپن سورس ہوازو ہوݰ کوراک انجن "ڈیپ سپیچ" لوان ہوش کورا اپلیکیشن ساوزیکو پچین استعال کورین بوئے۔  اسپہ <githubLink> "گیتھبو" لوڑے </githubLink> یا شامل بوس<discourseLink> "ڈیپ سپیچ" مشقول گیا</discourseLink> کیچہ کوری شروع کونی رے ݯیݯیکو پچین۔
+resource-coqui-info = <coquiLink>کوقی </coquiLink> آزاد لودیکو پچین شیر۔ ہمیتان پروجٹا کوڑوم ݯیݯیکو بنیادا STT وا TTS انجن شامل شیر
+community-playbook = کمنیوٹی پلے بک
+more = خور
+close = بند
+download = ڈونلوڈ
+dataset-version = ورژن
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+data-download-yes = دیی
+data-download-deny = نو
+data-other-title = خور وائس ڈیٹا سیٹ
+release-version = ورژن
+dataset-date = تاریخ
+license = لائسینس: <licenseLink>{ $license }</licenseLink>
+license-mixed = اموشت
