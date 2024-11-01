@@ -127,3 +127,5 @@ contribution-varying-pronunciations-description-extended = joperu, énkari exeni
 contribution-varying-pronunciations-example-1-title = Inchats'ïkwa ma jukapaxati.
 contribution-varying-pronunciations-example-1-explanation = i wantakwa 'beret' sési jawati pari (UK) énka arheta jamani winhats'ïaka o istu énka tamu winhats'ïaka pari (US)
 contribution-varying-pronunciations-example-2-title = Jak'i tarhatatixapti.
+contribution-varying-pronunciations-example-2-explanation = ['Raised' Inglesi wantakwa jimpo ma wantakwa jimpok'u wantanhasïnti, no tsimani jimpo]
+contribution-background-noise-title = Sáani materu ampe kurhaakwarhisïnti
