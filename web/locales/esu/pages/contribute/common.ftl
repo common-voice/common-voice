@@ -85,9 +85,26 @@ shortcut-discard-ongoing-recording-label = Eggluku qalarutkaq ayalria
 shortcut-submit = Return
 shortcut-submit-label = Qalarutkat Submit-arluki
 request-language-text = Tangenritan-qaa qaneryaran Common Voice-ami?
+request-language-button = Qaneryaramek Kaigaluten
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Ayagnirluku/Arulaircelluku
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Pisqutet
+contribution-criteria-link = Nalluvkenaki Ikayurtet Pisqutiit
+contribution-criteria-page-title = Ikayurtet Pisqutiit
+contribution-criteria-page-description = Ukut pisqutet maligtaquluki niicugnikuvet wall'u igaquvet assilrianek qalarutkanek!
+contribution-for-example = ukut maliggluki
+contribution-misreadings-title = Naaqivlacak
