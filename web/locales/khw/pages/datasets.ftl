@@ -30,3 +30,6 @@ size-megabyte = ایم بی
 confirm-no-identify = <b> تو منیسان</b> کہ تو  کامن وائسا لو دیاکان شناخت کوریکو کوشش نو کوس۔
 confirm-join-mailing-list = تو کی کامن وائسو رابطو لیسٹا بیک کی مݰکیسان
 download-language = ڈون لوڈ{ $language }
+validated-hours = سندبیرو بیرو گھنٹہ
+recorded-hours = رکارڈ بیرو گھنٹہ
+whats-inside = کامن وائسو ڈیٹآ سیٹا اندرنی کیاغا شیر؟
