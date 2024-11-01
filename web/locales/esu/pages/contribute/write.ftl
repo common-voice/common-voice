@@ -14,6 +14,12 @@ sc-write-submit-confirm = Elluakaqa una igausngalria <wikipediaLink>yuut tamarme
 sc-review-write-title = Cakucinek igausngalrianek ilayugngasia?
 sc-review-small-batch-title = Qaillun ilayugngasia amllernek igausngalrianek
 new-sentence-rule-1 = <noCopyright>No copyright-alrianek</noCopyright> pisqutet (<cc0>cc-0</cc0>)
+new-sentence-rule-3 = Grammar-aamek assilriamek aturluten
+new-sentence-rule-4 = Spelling-aamek punctuation-aamek-llu assilrianek aturluten
+new-sentence-rule-5 = Aturpek'nak naaqutnek special character-aanek-llu
+new-sentence-rule-6 = Aturpek'nak foreign letter-aanek
+new-sentence-rule-7 = Ilaluten assilriamek naken igausngacianek
+new-sentence-rule-8 = Natural-aacetun conversational-aacetun-llu igausngalrianek aturluten (caperrnaunani naaqillra)
 
 ## BULK SUBMISSION 
 
