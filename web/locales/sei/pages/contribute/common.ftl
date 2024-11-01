@@ -100,3 +100,5 @@ contribution-criteria-page-description = ¡Icaaitom ziix quh an hant cooit coi i
 contribution-for-example = Hizaax oo cöpahpacta ta x, haa ah
 contribution-misreadings-title = Icaaitom yahaa quih imhaa ha
 contribution-misreadings-description = Miizj impoocta nsqueecöl aha, icaaitom ziix quih an hant cooit coi cöipaspoj  hac taa haa ya x, taa imhaa ya x; icaaitom ziix quih an hant cooit coi iiqui conscmah ah, hant coii coi ipommis tax. <br/> Ziix mos áno hacx cöicooit hapaa quih hizaax pac haa ha:
+contribution-misreadings-description-extended-list-1 = Icaaitom ziix quih an hant cooit coi iti mota iitax hac <strong>'El'</strong> o <strong>'La'</strong> taax zo yahcaail.
+contribution-misreadings-description-extended-list-2 = Icaaitom coi zo haa tahca iti cöihiyat hac <strong>'s'</strong> zo yahcaail.
