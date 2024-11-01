@@ -78,6 +78,7 @@ try-upload-again = Nguinik'a k'ua tike chanife xujuri i
 try-upload-again-md = Nguinik'a tikijin
 select-file = Cha'ajin jngu xujun
 select-file-mobile = Cha'ajin jngu xujun
+accepted-files = tvs xujun xi tjubé
 
 ## SMALL BATCH SUBMISSION
 
