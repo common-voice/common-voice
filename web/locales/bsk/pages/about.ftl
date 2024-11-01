@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = کامن وائس
+about-title = { "" }
 
 ## How does it work section
 
