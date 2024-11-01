@@ -52,3 +52,4 @@ sc-review-empty-state = Tsín jme xi chut'ané énn kui.
 report-sc-different-language = Kja'é énn.
 report-sc-different-language-detail = Kja'é énn kjit'a, mi tsá kui xinkjín ka xi tikut'a.
 sentences-fetch-error = Mi kisuku nijmí, tsitsúnjin.
+review-error = tsitsúnjin nga tichut'a nijmí kui.
