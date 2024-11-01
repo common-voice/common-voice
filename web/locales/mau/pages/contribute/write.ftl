@@ -63,8 +63,8 @@ news_current_affairs = Énn ka kjua xi ma nt'e
 # Sentence Domain dropdown option
 technology_robotics = kjua chjine
 sentence-variant-select-label = kja'é skuya nijmí
-sentence-variant-select-placeholder = Chja'jin jngu skuya
-sentence-variant-select-multiple-variants = Énn naa/ kjin skuya
+sentence-variant-select-placeholder = Chja'ajin jngu skuya
+sentence-variant-select-multiple-variants = Énn naa/ nkjin skuya
 
 ## BULK SUBMISSION 
 
