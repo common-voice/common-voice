@@ -16,9 +16,38 @@ speak-paragraph = وائس کلپی ریکاردڈ تھیونو اسو پورو 
 speak-goal-text = کلپی ریکارڈ بلے
 listen-paragraph = چینیئے کلپی سوجون تھے منیونوگا کامن وائس کاری پرولواواجو۔ ایکڑے کونڈ دے یادو اسوڑے بوٹو  شونگو ڈیٹا سنیونو ساتی بو۔
 listen-goal-text = کلپی سوجونتھے منئیے
+hours-recorded = گھنٹے ریکارڈ بلے
+hours-validated = گھنٹے سوجونتھے منیئیے
+voices-online = شونگوے کوتے آنلائن ہاں
+todays-progress = اشوکو بلو کروم
+help-reach-goal = { $goal } گینیونو اسوڑے ساتی بو
+read-terms-q = تسے اسیے قانونی رجایا دا
+ready-to-record = تومو شونگو دیونو تیار ہان دا؟
+all-locales = بوٹے/بوڑے/پورے
+today = اش
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count }ہفتہ
+    }
+x-months-short =
+    { $count ->
+        [one] موز
+       *[other] { $count }موز
+    }
+x-years-short =
+    { $count ->
+        [one] کال
+       *[other] { $count }کال
+    }
+help-make-dataset = اسوڑے جکوکاری ہوں لیگی لاؤ سم ڈیٹا سیٹ سنیونو ساتی بو
+sign-up-account = اکاؤنڈیک وشیا
+email-subscription-title = ای میل نئی تھیونو سائن اپ تھے
+email-subscription-title-new = تھیئیے کروم گہ سانچو مشے ،کامن وائس کاری سائن اپ تھے
 
 ## Account Benefits
 
+benefits = فائدے
 
 ## What's public
 
