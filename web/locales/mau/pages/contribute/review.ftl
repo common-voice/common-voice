@@ -56,3 +56,4 @@ review-error = tsitsúnjin nga tichut'a nijmí kui.
 review-error-rate-limit-exceeded = nñú tjenkae, chunyakae ngutjú, chut'ae nijmí tsa ada kji.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nyanik'antjeyajin
+sc-redirect-page-subtitle-1 = Sentence Collector tija'atuya Common Voice. Je kuan <writeURL>chjí</writeURL>jngu nijmí<reviewURL>chut'ae</reviewURL>sikasén jngu nijmí.
