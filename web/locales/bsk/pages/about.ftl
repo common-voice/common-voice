@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = تھ چگا بیس
+about-title = کامن وائس
 
 ## How does it work section
 
