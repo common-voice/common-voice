@@ -87,6 +87,12 @@ upload-progress-text = اپلوڈ ہو رہیا ہے۔۔۔
 sc-bulk-submit-confirm = میں اس گل دی تصدیق کرداں ہاں کہ ایہ جملے<wikipediaLink>عوامی ڈومین</wikipediaLink> دے ہن ہور مڑے کول اے اپلوڈ کرنا دی اجازت ہے۔
 bulk-upload-success-toast = بڑی تعداد بچ جملے اپلوڈ ہوئے
 bulk-upload-failed-toast = اپلوڈ ناکام ہویا، مہربانی نال دوبارہ کوشش کرو۔
+bulk-submission-success-header = آپنڑی بڑی تعداد جمع کیتے جملیاں دینڑا واسطے شکریہ!
+bulk-submission-success-subheader = تسیں اسدے روز دے جملیاں دا ہدف پورا کرنا واسطے مدد کر رے ہو۔
+upload-more-btn-text = مزید جملے اپلوڈ کرّاں؟
+file-invalid-type = غلط فائل
+file-too-large = فائل مُچ بڑی ہے
+file-too-small = فائل مُچ نِکی ہے
 
 ## SMALL BATCH SUBMISSION
 
