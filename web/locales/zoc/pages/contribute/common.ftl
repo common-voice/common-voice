@@ -49,6 +49,7 @@ report-offensive-language-detail = Te' 'odejaye'is nyä'ijtu tumä 'ode tsa'ajku
 report-grammar-or-spelling = Ji' wyäbä te' jaye, jasunyi jyayä.
 report-grammar-or-spelling-detail = Te' 'odejaye ji' wyä jayuse.
 report-different-language = 'Eyabä 'ode
+report-different-language-detail = 'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä 'ode'te'e ndsambabä.
 
 ## Speak & Listen Shortcuts
 
