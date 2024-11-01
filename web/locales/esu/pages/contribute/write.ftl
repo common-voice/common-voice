@@ -25,6 +25,18 @@ how-to-cite = Qaillun naken igausngacianek igararkausia?
 how-to-cite-explanation-bold = Igaulluku URL link-aara wall'u caliam atra.
 how-to-cite-explanation = Elpecenek igallrukuvgu, igarluten <italicizedText>“Wangnek Igausngacianek”</italicizedText>. Nallunritarkaugaput naken nalaqellrucianek tua-llu check-aryugngaluku public domain-ami uitacianek wall'u copyright restriction-aangqerrucianek. Cali naaqiyukuvet pisqutnek una neggluku <guidelinesLink>Guidelines page-aq</guidelinesLink>.
 guidelines = Pisqutet
+contact-us = Qayagaurkut
+add-sentence-success = 1 igausngalria quyurmeng
+add-sentence-error = Alartuq igausngalrialillerpeni
+required-field = Imirluku wani.
+single-sentence-submission = Ataucimek igausngalriamek imiryaraq
+small-batch-sentence-submission = Carrarmek igausngalrianek imiryaraq
+bulk-sentence-submission = Amllernek igausngalrianek imiryaraq
+single-sentence = Ataucimek
+small-batch-sentence = Carrarmek
+bulk-sentence = Amllernek
+sentence-domain-combobox-label = Igausngalriim Domain-aara
+sentence-domain-select-placeholder = Cucuklirluten pingayunek domain-aanek ngel'ekluku (piyukuvet)
 
 ## BULK SUBMISSION 
 
