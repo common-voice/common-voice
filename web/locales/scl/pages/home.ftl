@@ -57,6 +57,14 @@ join-newsletter = معلومات کا مشے کاری گا اسی ای میلو 
 ## What's public
 
 whats-public = پورے جگو کاری یوک ہوں؟
+email-not-public = بیسے تھی ای میل پورے جگو کاری نے تھون۔
+recordings-and-locale-public = توسے کا باشیونی کچاک ریکارڈنگی میشک تھو آ سا پورے جگو کاری بی۔
+username-optin-public = توسے تومو یجاریک نوم پورے جگو کاری تھیون بو یا نوم لنگ تھیون باؤ
+username-email-not-demographic = تھو یجاریک نوم گہ ای میل شائع تھیئے ڈیٹا نلا یو نے بئی
 
 ## Landing
 
+welcome-staff = سیے وتیت { $company } سانتھی
+login-company = ای میل نلا { $company }لاگ ان / سائین اپ تھے
+profile-not-required = آنے موجی چینیونو کاری پروفالیک بونو ضروری نُش،انو کرومی نی تو ایوں، کھری پرے کیے نیوں
+read-more-about = اسو اسنو پٹو موتی پڑے
