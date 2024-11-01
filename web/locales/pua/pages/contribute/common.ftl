@@ -129,4 +129,5 @@ contribution-varying-pronunciations-example-1-explanation = i wantakwa 'beret' s
 contribution-varying-pronunciations-example-2-title = Jak'i tarhatatixapti.
 contribution-varying-pronunciations-example-2-explanation = ['Raised' Inglesi wantakwa jimpo ma wantakwa jimpok'u wantanhasïnti, no tsimani jimpo]
 contribution-background-noise-title = Sáani materu ampe kurhaakwarhisïnti
-contribution-background-noise-description = Imanksï eraxaka eska jawaka chuxapakwa ma énka úaka exe énka materu ampe kurhankukwarhini jawaka
+contribution-background-noise-description = Imanksï eraxaka eska jawaka chuxapakwa ma énka úaka exeni énka materu ampe kurhankukwarhini jawaka, ka jamperu niaraka jiokwarhini nat'uka materu ampe kurhaakwarhini jawaka jini énka no tsïnchiaka karakata. inte kurhankwarhikwa ampe no mampesïnti; joperu énka yátiru jatach'akuni jawaka ya wantakwa patsakatani jima k'oru no sési jawati.
+contribution-background-noise-description-extended = Énka wantakwa patsakata no sési kurhaakwarhini jawaka o yátiru materu ampe kurhaakwarhini, asï jiokwarhi, jiakanti jiokwarhipirinka énka útasï kurhankukwarhini japirinka eska xani karakata arhini jawaka.
