@@ -42,3 +42,4 @@ terms-disagree = میں اتفاق نیں کردا
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = آپنڑی وائس کلپس دینڑے واسطے شکریہ!
 first-cta-subtitle-text = آپنڑے بارے بچ دسدیاں ہویاں، تسیں بڑینڑیاں والیاں دی مزید جامع ٹیکنالوجی بڑینڑاں بچ مدد کرسو
+why-donate = تسیں کِیاں پُچھدے ہو؟
