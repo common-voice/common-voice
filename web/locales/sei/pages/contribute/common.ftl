@@ -99,3 +99,4 @@ contribution-criteria-page-title = Iiqui cösquiih pi ta x, ziix ano caahjoj coi
 contribution-criteria-page-description = ¡Icaaitom ziix quh an hant cooit coi impoqueecöl x, hant popacta mos ano hant ihiip cöispaa ha xah, ziix iti cöpopaai hapi icaaitom ziix quih hant hapacatx coi cöisahahiipet ha xah!
 contribution-for-example = Hizaax oo cöpahpacta ta x, haa ah
 contribution-misreadings-title = Icaaitom yahaa quih imhaa ha
+contribution-misreadings-description = Miizj impoocta nsqueecöl aha, icaaitom ziix quih an hant cooit coi cöipaspoj  hac taa haa ya x, taa imhaa ya x; icaaitom ziix quih an hant cooit coi iiqui conscmah ah, hant coii coi ipommis tax. <br/> Ziix mos áno hacx cöicooit hapaa quih hizaax pac haa ha:
