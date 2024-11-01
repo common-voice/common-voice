@@ -79,6 +79,9 @@ try-upload-again-md = دوبارہ اپلوڈنگ دی کوشش کرو
 select-file = فائل دا انتخاب کرو
 select-file-mobile = اپلوڈ کرنا واسطے فائل دا انتخاب کرو
 accepted-files = قبول فائل دی قسماں: صرف tsv۔
+minimum-sentences = فائل بچ کم تو کم جملے:1000
+maximum-file-size = فائل دا کم تو کم سائز:25 MB
+what-needs-to-be-in-file = مڑی فائلا بچ کہ ہونڑا چاہی دا ہے؟
 
 ## SMALL BATCH SUBMISSION
 
