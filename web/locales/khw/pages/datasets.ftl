@@ -32,4 +32,4 @@ confirm-join-mailing-list = تو کی کامن وائسو رابطو لیسٹا 
 download-language = ڈون لوڈ{ $language }
 validated-hours = سندبیرو بیرو گھنٹہ
 recorded-hours = رکارڈ بیرو گھنٹہ
-whats-inside = کامن وائسو ڈیٹآ سیٹا اندرنی کیاغا شیر؟
+whats-inside = کامن وائسو ڈیٹآ سیٹا اندیرنی کیاغا شیر؟
