@@ -43,11 +43,13 @@ const Home = () => {
                 <MicIcon />
               </LocaleLink>
             </div>
-            <img
-              src={require('./assets/hero-hd.jpg')}
-              alt="Hero"
-              className="hero"
-            />
+            <div>
+              <img
+                src={require('./assets/hero-hd.jpg')}
+                alt="Hero"
+                className="hero"
+              />
+            </div>
             <div className="sound-waves-container">
               <img
                 src={require('./assets/sound-waves-1.png')}
