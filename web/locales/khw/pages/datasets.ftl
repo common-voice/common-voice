@@ -44,3 +44,5 @@ other-datasets = خور وائس ڈیٹا سیٹ
 feedback-q = تبصیرہ کو؟
 # This indicates that there is no data to display
 no-information = معلومات نیکی
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ای <docsLink>اوپن سورس سامان </docsLink> محقیقین پچین اعلی  AI مشقولگیو ای نمونہ ساوزیکو پچین۔
+resource-deepspeech-info = موزیلو اوپن سورس ہوازو ہوݰ کوراک انجن "ڈیپ سپیچ" لوان ہوش کورا اپلیکیشن ساوزیکو پچین استعال کورین بوئے۔  اسپہ <githubLink> "گیتھبو" لوڑے </githubLink> یا شامل بوس<discourseLink> "ڈیپ سپیچ" مشقول گیا</discourseLink> کیچہ کوری شروع کونی رے ݯیݯیکو پچین۔
