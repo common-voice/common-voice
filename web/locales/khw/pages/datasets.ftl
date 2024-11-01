@@ -27,3 +27,6 @@ why-donate-datasets-page = موزیلو کامن وائس دنیو سفو سار
 confirm-size = تو ہموغار<b>{ $size }</b> ڈاون لوڈ شروغیکو بوس۔
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+confirm-no-identify = <b> تو منیسان</b> کہ تو  کامن وائسا لو دیاکان شناخت کوریکو کوشش نو کوس۔
+confirm-join-mailing-list = تو کی کامن وائسو رابطو لیسٹا بیک کی مݰکیسان
+download-language = ڈون لوڈ{ $language }
