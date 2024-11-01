@@ -54,3 +54,5 @@ report-sc-different-language-detail = Kja'é énn kjit'a, mi tsá kui xinkjín k
 sentences-fetch-error = Mi kisuku nijmí, tsitsúnjin.
 review-error = tsitsúnjin nga tichut'a nijmí kui.
 review-error-rate-limit-exceeded = nñú tjenkae, chunyakae ngutjú, chut'ae nijmí tsa ada kji.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Nyanik'antjeyajin
