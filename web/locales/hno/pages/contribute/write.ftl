@@ -73,6 +73,12 @@ sc-bulk-upload-header = <icon></icon> عوامی ڈومین دے جملے اپل
 sc-bulk-upload-instruction = آپنڑی فائل اتھا دررُو آنڑو یا<uploadButton> اپلوڈ کیتے کلک کرو</uploadButton>
 sc-bulk-upload-instruction-drop = اپلوڈ واسطے فائل اتھا چُھوڑو
 bulk-upload-additional-information = اگر مزید معلومات ہے جڑی تُسیں اس فائل دے بارے دینڑا چہندے ہو، مہربانی رابطہ کرو<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اگر مزید معلومات ہے جڑی تُسیں اس فائل دے بارے دینڑا چہندے ہو، او ٹیمپلیٹ بچ بھی شامل نیں، مہربانی رابطہ کرو<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = دوبارہ کوشش کرو اپنڑی فائل کو اتھا آنڑنا نال
+try-upload-again-md = دوبارہ اپلوڈنگ دی کوشش کرو
+select-file = فائل دا انتخاب کرو
+select-file-mobile = اپلوڈ کرنا واسطے فائل دا انتخاب کرو
+accepted-files = قبول فائل دی قسماں: صرف tsv۔
 
 ## SMALL BATCH SUBMISSION
 
