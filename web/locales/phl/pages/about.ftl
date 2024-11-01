@@ -47,10 +47,13 @@ about-nav-playbook = حصہ گھنئنی ازدہ تھہ
 about-playbook-what-is-language = کمن واسہ وے کھئی زبان ہِنی؟
 about-playbook-what-is-language-content-1 = زُبینی بارئی سوچ تھنی بیڈہ طریقے ہنہ۔ بات جھانئنی آک ماڈل بھئنی دپارہ کمن وائس تیݨی مجی جھانئی تجویزی جھلی زور دانوۡ۔ یا بہ انی زبان کھونڈاٹہ کوشش تھے اینی بیتی جھوننے؟
 about-playbook-what-is-language-content-2 = بے اتیݨو ماڈل اسپیچ دوائیانہ کی سو مختلف زبان کھونڈاٹمی دپارہ شو ہونسہ۔ ایڑائی دپارہ اک وائس ڈیٹا سیٹ ایتیݨو ہانسینڈیو کی کی تیوے ہر قسمہ خلکیمی نمائندگی ہونسہ
+about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر، الفیظی او تلفظی مجی بیڈہ زیات فرق ہانسانوۡ۔ ایڑئی دپارہ بے <ctaLink>introducing ‘Variants’</ctaLink> in 2022.سمیانہ۔ ایڑے وجہ باندی کمیونٹی خلکہ اسکونہ باندی تیݨی زبان جھانا بھون
 
 ## How do I add a language
 
 about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھوم
+about-playbook-how-add-language-translating-heading = سائٹی ترجمہ تھئنی
+about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے استعمال تھانہ  رنمائی دپارہ اسی انو ویڈیو دݜھوئی
 
 ## How does localization work
 
