@@ -53,3 +53,10 @@ thanks-for-voice-toast-error = تسدی آواز دی معلومات جمع ک
 first-cta-gender-select-default-option = ہک آپشن چُنڑو
 first-cta-gender-select-help-text =
     .label = تسیں آپنڑے صنف یا جنس کو کسطرح بیان کرسو؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = آپنڑی آواز دینڑا واسطے شکریہ!
+second-cta-subtitle-text = پروفائل نال تسیں آپنڑی سرگرمی تے نظر رکھ سکدے ہو ہور وائس ڈیٹا کنڑیبوٹر دی برادری نال جُڑ سکدے ہو۔
+already-have-an-account = پہلا تو اکاؤنٹ ہے؟<login>لاگ اِن</login>
+create-profile-button = پروفائل بنڑاؤ
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی دا نشانڑ
