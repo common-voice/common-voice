@@ -133,6 +133,15 @@ rate-limit-message-seconds =
         [many] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } vteřin. Děkujeme za vaši trpělivost!
        *[other] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } vteřin. Děkujeme za vaši trpělivost!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } z 1 shromážděných vět
+        [few] { $uploadedSentences } z { $totalSentences } shromážděných vět
+        [many] { $uploadedSentences } z { $totalSentences } shromážděných vět
+       *[other] { $uploadedSentences } z { $totalSentences } shromážděných vět
+    }
 small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
+small-batch-sentences-rule-5 = Všechny věty musí mít stejnou licenci
 small-batch-sentences-rule-6 = Všechny věty musí mít stejnou citaci
