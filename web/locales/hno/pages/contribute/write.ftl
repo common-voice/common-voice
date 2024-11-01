@@ -22,6 +22,8 @@ new-sentence-rule-6 = کوئی باہر دے لفظ ناں ہون
 new-sentence-rule-7 = مناسب حوالہ شامل کرو
 new-sentence-rule-8 = مثالی طور قدرتی تے گل بات آلے (جملہ پڑھنا واسطے آسان ہونڑا چاہی دا ہے)
 login-instruction-multiple-sentences = <loginLink>لاگ اِن</loginLink>یا<loginLink>سائن اپ</loginLink>مختلف قسم دے جملے بینڑا واسطے
+how-to-cite = میں کسطرح حوالہ دیواں؟
+how-to-cite-explanation-bold = URL لنک نال حوالہ دیو یا اُس کم دا سارا نام دا حوالہ دیو۔
 
 ## BULK SUBMISSION 
 
