@@ -37,6 +37,26 @@ small-batch-sentence = Carrarmek
 bulk-sentence = Amllernek
 sentence-domain-combobox-label = Igausngalriim Domain-aara
 sentence-domain-select-placeholder = Cucuklirluten pingayunek domain-aanek ngel'ekluku (piyukuvet)
+# Sentence Domain dropdown option
+agriculture_food = Neqkiuryaraq
+# Sentence Domain dropdown option
+automotive_transport = Ayagassuutet
+# Sentence Domain dropdown option
+finance = Akiliuryaraq
+# Sentence Domain dropdown option
+service_retail = Kipucaraq
+# Sentence Domain dropdown option
+general = Piciatun
+# Sentence Domain dropdown option
+healthcare = Calricaraq
+# Sentence Domain dropdown option
+history_law_government = Qanemcit, Pisqutet, Kavmaq-llu
+# Sentence Domain dropdown option
+language_fundamentals = Aperyarat
+# Sentence Domain dropdown option
+media_entertainment = Tangssiicaraq
+# Sentence Domain dropdown option
+nature_environment = Ellavut
 
 ## BULK SUBMISSION 
 
