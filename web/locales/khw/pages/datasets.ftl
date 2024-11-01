@@ -49,6 +49,7 @@ resource-deepspeech-info = موزیلو اوپن سورس ہوازو ہوݰ کو
 resource-coqui-info = <coquiLink>کوقی </coquiLink> آزاد لودیکو پچین شیر۔ ہمیتان پروجٹا کوڑوم ݯیݯیکو بنیادا STT وا TTS انجن شامل شیر
 community-playbook = کمنیوٹی پلے بک
 resource-playbook-info = <playbookLink> تمام کامن وائسو بارا رہنمائی ہیا ژاغہ</playbookLink>شینی۔ ہے موژی مقامی کوریکار گنی ڈیٹاسیٹو استعمالا پتہ وا اسپہ کمیونیٹیا کیچا بیتی گین بوئے معلومات شینی
+data-other-ted-name = ٹیڈ-لیئم ہوازوان مجموعہ
 more = خور
 close = بند
 download = ڈونلوڈ
