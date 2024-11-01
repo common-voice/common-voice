@@ -15,6 +15,13 @@ sc-review-write-title = کیڑے جملے میں بھا ہکدا ہاں؟
 sc-review-small-batch-title = مختلف طرح دے جملے کسطرح بینڑے ہن
 new-sentence-rule-1 = <noCopyright>کوئی کاپی رائٹ </noCopyright> پابندیاں نیں (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = فی جملہ 15 کولو تھوڑے لفظ
+new-sentence-rule-3 = صحیح گرائمر استعمال کرو
+new-sentence-rule-4 = دُرست ہجے تے رموز اوقاف استعمال کرو
+new-sentence-rule-5 = کوئی عدد یا خاص حروف ناں ہوے
+new-sentence-rule-6 = کوئی باہر دے لفظ ناں ہون
+new-sentence-rule-7 = مناسب حوالہ شامل کرو
+new-sentence-rule-8 = مثالی طور قدرتی تے گل بات آلے (جملہ پڑھنا واسطے آسان ہونڑا چاہی دا ہے)
+login-instruction-multiple-sentences = <loginLink>لاگ اِن</loginLink>یا<loginLink>سائن اپ</loginLink>مختلف قسم دے جملے بینڑا واسطے
 
 ## BULK SUBMISSION 
 
