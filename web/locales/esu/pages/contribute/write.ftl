@@ -57,9 +57,21 @@ language_fundamentals = Aperyarat
 media_entertainment = Tangssiicaraq
 # Sentence Domain dropdown option
 nature_environment = Ellavut
+# Sentence Domain dropdown option
+news_current_affairs = News-at
+# Sentence Domain dropdown option
+technology_robotics = Technology-q
+sentence-variant-select-label = Igausngalriim qaneryaraacetun ayuqucianek
+sentence-variant-select-placeholder = Cucuklirluten igausngalriim qaneryaraacetun ayuqucianek (piyukuvet)
+sentence-variant-select-multiple-variants = Qaneryaraq / Allat Yugcetun qaneryaraicetun
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload-arluki <icon></icon> igausngalrianek yuut tamarmeng aturyugngalrianek
+sc-bulk-upload-instruction = Elliluku file-an wani wall'u <uploadButton>neggluku una upload-aryukuvet</uploadButton>
+sc-bulk-upload-instruction-drop = Elliluku file-an wani upload-aryukuvgu
+bulk-upload-additional-information = Cali allamek qaneryukuvet uum file-aa caucianek, e-mail-arluku <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
