@@ -475,6 +475,7 @@ header {
             font-weight: 400;
             text-transform: capitalize;
             border-bottom: none;
+            align-items: center;
         }
 
         .coming-soon-text {

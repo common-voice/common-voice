@@ -94,21 +94,30 @@
                 width: fit-content;
 
                 .content {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-
                     a {
                         overflow: hidden;
                         text-overflow: ellipsis;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
                     }
 
-                    &.coming-soon p {
-                        color: var(--warm-grey);
-                        cursor: default;
+                    &.coming-soon {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
 
-                        span {
-                            font-size: var(--font-size-xs);
+                        p {
+                            color: var(--warm-grey);
+                            cursor: default;
+
+                            span {
+                                font-size: var(--font-size-xs);
+                            }
+                        }
+
+                        svg {
+                            cursor: auto;
                         }
                     }
 
@@ -129,6 +138,8 @@
                 svg {
                     width: 16px;
                     height: 16px;
+                    cursor: pointer;
+
                     path {
                         fill: var(--black);
                     }
@@ -232,12 +243,20 @@
                 .content {
                     display: flex;
                     align-items: end;
-                    margin-inline-start: 30px;
+                    margin-inline-start: 20px;
                     width: 100%;
 
                     .contribute-link {
+                        display: flex;
+                        gap: 10px;
                         margin-inline-start: 8px;
                         margin-inline-end: 0;
+                    }
+
+                    &.coming-soon {
+                        svg {
+                            margin-inline-start: 8px;
+                        }
                     }
                 }
 

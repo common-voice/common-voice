@@ -3,6 +3,7 @@ import {
   Localized,
   WithLocalizationProps,
   withLocalization,
+  useLocalization,
 } from '@fluent/react'
 import classNames from 'classnames'
 
@@ -23,72 +24,79 @@ const Content = ({
 }: {
   contributeMenuItems: ContributeMenuItem[]
   isUserLoggedIn: boolean
-} & WithLocalizationProps) => (
-  <div className="content-container">
-    <ul>
-      {contributeMenuItems.map(item => {
-        const shouldShowItem =
-          (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+} & WithLocalizationProps) => {
+  const { l10n } = useLocalization()
 
-        if (!shouldShowItem) return null
+  return (
+    <div className="content-container">
+      <ul>
+        {contributeMenuItems.map(item => {
+          const shouldShowItem =
+            (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
 
-        const {
-          internalHref,
-          externalHref,
-          localizedId,
-          icon: Icon,
-          menuItemTooltip,
-          menuItemAriaLabel,
-        } = item
-        const isComingSoon = !(internalHref || externalHref)
+          if (!shouldShowItem) return null
 
-        const renderContent = () => {
-          if (internalHref) {
-            return (
-              <LocaleLink to={internalHref} className="contribute-link">
-                <Localized id={localizedId} />
-              </LocaleLink>
-            )
-          }
+          const {
+            internalHref,
+            externalHref,
+            localizedId,
+            icon: Icon,
+            menuItemTooltip,
+            menuItemAriaLabel,
+          } = item
+          const isComingSoon = !(internalHref || externalHref)
 
-          if (externalHref) {
-            return (
-              <Localized id={localizedId}>
+          const renderContent = () => {
+            if (internalHref) {
+              return (
+                <LocaleLink to={internalHref} className="contribute-link">
+                  <Icon />
+                  <Localized id={localizedId} />
+                </LocaleLink>
+              )
+            }
+
+            if (externalHref) {
+              return (
                 <a
                   href={externalHref}
                   target="_blank"
                   rel="noreferrer"
-                  className="contribute-link"
-                />
-              </Localized>
+                  className="contribute-link">
+                  <Icon />
+                  {l10n.getString(localizedId)}
+                </a>
+              )
+            }
+
+            return (
+              <>
+                <Icon />
+                <Localized id={localizedId} elems={{ small: <span /> }}>
+                  <p className="coming-soon-text" />
+                </Localized>
+              </>
             )
           }
 
           return (
-            <Localized id={localizedId} elems={{ small: <span /> }}>
-              <p className="coming-soon-text" />
-            </Localized>
+            <li
+              key={localizedId}
+              title={getString(menuItemTooltip)}
+              aria-label={getString(menuItemAriaLabel)}>
+              <div
+                className={classNames('content', {
+                  'coming-soon': isComingSoon,
+                })}>
+                {renderContent()}
+              </div>
+            </li>
           )
-        }
-
-        return (
-          <li
-            key={localizedId}
-            title={getString(menuItemTooltip)}
-            aria-label={getString(menuItemAriaLabel)}>
-            <div
-              className={classNames('content', {
-                'coming-soon': isComingSoon,
-              })}>
-              <Icon />
-              {renderContent()}
-            </div>
-          </li>
-        )
-      })}
-    </ul>
-  </div>
-)
+        })}
+      </ul>
+    </div>
+  )
+}
 
 const ContributeMenuContent: React.FC<
   ContributeMenuContentProps & WithLocalizationProps

@@ -51,6 +51,10 @@
                         width: 550px;
                     }
 
+                    @media (--lg-only) {
+                        margin-block-start: 80px;
+                    }
+
                     @media (--md-only) {
                         margin: 50px 0 0 24px;
                     }
