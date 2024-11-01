@@ -31,6 +31,19 @@ add-sentence-success = 1جملہ جمع ہو گیا
 add-sentence-error = جملے شامل کرنابچ خرابی
 required-field = براہ مہربانی اس خانے کوں پُر کرو۔
 single-sentence-submission = کلّھا جملہ جمع کرنا
+small-batch-sentence-submission = نکی کھیپ جملیاں دی جمع کرنا
+bulk-sentence-submission = بڑی کھیپ جملیاں دی جمع کرنا
+single-sentence = کلا
+small-batch-sentence = نکی کھیپ
+bulk-sentence = بڑی کھیپ
+sentence-domain-combobox-label = جملے دی ڈومین
+sentence-domain-select-placeholder = ِترے تک ڈومیناں دا انتخاب کرو (اختیارہے)
+# Sentence Domain dropdown option
+agriculture_food = زمینداری تے خوراک
+# Sentence Domain dropdown option
+automotive_transport = آٹوموٹو تے ٹرانسپورٹ
+# Sentence Domain dropdown option
+finance = فنانس
 
 ## BULK SUBMISSION 
 
