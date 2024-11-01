@@ -56,3 +56,28 @@ data-other-voxforge-description = VoxForge ءِ جوڑ کنگ ءِ مول ءُ �
 data-other-tatoeba-description = تاتویبا زبان ءِ وانگ ءِ تہا کارمرز کنگ ءِ ھاترا جملہ، رجانک ءُ گپ ءُ تران ءِ آڈیو ءِ مزنیں ڈیٹا بیس اِنت۔ اے ڈاؤن لوڈ ءِ تہا آہانی کمیونٹی ءِ نیمگ ءَ ریکارڈ کتگیں گپ ءُ تران ءِ انگریزی ھوار انت۔
 your-feedback = Do you have ideas on how we can make the Common Voice dataset better? Let us know on Discourse
 go-discourse = ڈسکورس ئا برو
+missing-language = ڈیٹاسیٹ ءِ تہا وتی زبان ءِ عکس ءَ نہ گندئے؟ پہ زبان ءِ لوٹ کنگ ءَ مئے زبانانی تاک ءَ سر بہ بئے۔
+go-languages-page = زبانانی تاک ءَ برو
+ready-to-validate = جملہانی توثیق کنگ ءَ کمک کنگ ءَ تیار ئے؟
+more = زیادہ
+close = بند کنت
+download = ڈاؤ لونڈ
+dataset-version = تہر
+sha256-checksum-copied = SHA256 چیکسم کاپی کنگ بوتگ!
+sha256-checksum-copied-error = SHA256 چیکسم ءِ کاپی کنگ ءَ بے سوب بوت
+clipboard-not-supported = کلپ بورڈ ءِ حمایت نہ کنگ بیت
+no-information-available = ہچ وڑیں زانتکاری دست نہ کپیت
+dataset-metadata-sex = سیکس
+# dataset metadata - age of contributor
+dataset-metadata-age = اُمر
+donate-modal-message = تئی ڈیٹاسیٹ ڈاؤن لوڈ بوھگ ءَ اِنت!
+dataset-donate-modal-heading = تئو زانتہ؟
+donate-modal-explanation-1 = ڈیٹاسیٹ ءِ میزبانی ءُ 100+ زبان ءِ کمیونٹیز ءِ پلیٹ فارم ءَ شر کنگ ءِ سال ءَ تقریباً یک ملین ڈالر ھرچ بیت کہ ما چے کنیں؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگاں شما پچیں، ھواریں ڈیٹا ءِ ارزشت ءَ دئے اِت - مرچی عطیہ بہ کن اِت!</bold>
+data-download-singleword-title = یکیں گال ءِ ٹارگٹ سیگمنٹ ءَ ڈاؤن لوڈ کن اِت
+data-download-singleword-callout-v2 = اے یک کارمرز کنوخیں بہرے کہ ایشی ئے تہا ڈاٹا ھوار انت پہ گپ جنغیں ہندسہ ئے شناخت و ہاں / نا ئے پجار کنغ واستا
+data-download-button = مشترکہ توار ءِ ڈیٹا ءَ ڈاؤن لوڈ کن اِت
+data-download-yes = ھو
+data-download-deny = چن آں
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
