@@ -10,6 +10,11 @@ small-batch-sentence-input-placeholder = اِتھا آپنڑے عوامی ڈو
 citation-input-placeholder = جملے دے ماخذ دا حوالہ دیو(ضروی ہے)
 citation =
     .label = حوالہ دیو
+sc-write-submit-confirm = میں تصدیق کرداں کہ اے جملہ<wikipediaLink>عوامی ڈومین</wikipediaLink>دا ہے تے ہور مڑے کول اے اپلوڈ کرنے دی اجازت ہے۔
+sc-review-write-title = کیڑے جملے میں بھا ہکدا ہاں؟
+sc-review-small-batch-title = مختلف طرح دے جملے کسطرح بینڑے ہن
+new-sentence-rule-1 = <noCopyright>کوئی کاپی رائٹ </noCopyright> پابندیاں نیں (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = فی جملہ 15 کولو تھوڑے لفظ
 
 ## BULK SUBMISSION 
 
