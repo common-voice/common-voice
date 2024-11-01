@@ -56,12 +56,35 @@ report-offensive-language-detail = Una igausngalria canganarqellriangqertuq.
 report-grammar-or-spelling = Alangqertuq grammar-aani / spelling-aani
 report-grammar-or-spelling-detail = Una igausngalria alangqertuq grammar-aani wall'u spelling-aani.
 report-different-language = Allamek qaneryaramek
+report-different-language-detail = Igausngauq allami qaneryaramcetun.
+report-difficult-pronounce = Aperciigataqa
+report-difficult-pronounce-detail = Aperyarangqertuq caperrnarqellrianek qanrucinek.
+report-offensive-speech = Qaneryaranek canganarqellrianek
+report-offensive-speech-detail = Qalarutkaq canganarqellriangqertuq.
+report-other-comment =
+    .placeholder = Kiukangqerquvet
+success = Assirtuq
+continue = Tua-llu
+report-success = Report-aq assirtuq
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Record-arluku/Arulaircelluku
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Record-anqiggluku qalarutkaq
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Eggluku qalarutkaq ayalria
+shortcut-submit = Return
+shortcut-submit-label = Qalarutkat Submit-arluki
+request-language-text = Tangenritan-qaa qaneryaran Common Voice-ami?
 
 ## Listen Shortcuts
 
