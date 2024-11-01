@@ -47,3 +47,6 @@ settings = سیٹینگ کن
 edit-profile = پروفایل پو سترونگ
 profile-create-success = کھومس، پروفایل پو فچوسید
 profile-close = بند تونگ
+profile-explanation = نتی سکتی ڈیٹو سق سق گوچوکپا فری، فروفایل چی کولین چی کھوم لوکھسی کیژی لس درول پو لا ہلتوس۔
+thanks-for-account = یری اکاونٹ پو لا چھدکھہ بیسپی یری بخشش جوو، تنہ یری پروفایل پو فچوا کھیونگ۔
+why-demographic = دیو چا رگوسپن؟
