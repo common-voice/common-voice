@@ -28,3 +28,6 @@ record-abort-text = ہونڑ چھوڑنا دا مطلب ہے کہ تسدی پی�
 record-abort-submit = کلپ جمع کرالو
 record-abort-continue = ریکاڈنگ مکاؤ
 record-abort-delete = نکلو ہور کلپ ڈیلیٹ کرو
+review-aborted = اپ لوڈ منسوخ کر چُھڑی، تسیں آپنڑی رکاڈنگ جاری رکھنڑا چہندے ہو؟
+review-submit-title = نظرثانی کرو ہور جمع کرالو
+review-submit-msg = ریکاڈنگ واسطے شکریہ!<lineBreak></lineBreak>ہونڑ جائز گھنو ہور تلہ آپنڑے کلپ جمع کرالو۔
