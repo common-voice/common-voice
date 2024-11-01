@@ -82,6 +82,7 @@ accepted-files = File type-at assilriit: .tsv kiingan
 minimum-sentences = Igausngalriit file-ami ciptarkauluku: 1000
 maximum-file-size = File-am angtacia ciptarkauvkenaku: 25 MB
 what-needs-to-be-in-file = File-amni camek ilagarkausia?
+what-needs-to-be-in-file-explanation = Una file-aaput paqluku <templateFileLink>template file-aq</templateFileLink>. Igausngalriaten copyright free-arkaugut (CC0 wall'u igartii cangalkenrilkuni) alangqavkenani, grammar-aara assirluni, naaqillra caperrnaunani-llu. Igausngalriit qaqitellriit 10-15 seconds-aani naaqsugngararkaugut naaqutnek-llu, aternek, special character-aanek-llu piinateng.
 upload-progress-text = Cali upload-artuq...
 sc-bulk-submit-confirm = Elluakanka ukut igausngalriit <wikipediaLink>yuut tamarmeng aturyungalriarumaluteng</wikipediaLink> upload-aryugngaluki-llu.
 bulk-upload-success-toast = Amllernek igausngalriit upload-allruut
@@ -109,8 +110,8 @@ rate-limit-toast-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Cukatacia kituran. Ataam naspaakina 1 second-aami
-       *[other] Cukatacia kituran. Ataam naspaakina { $retryLimit } seconds-aani
+        [one] Cukatacia anagtan. Ataam naspaakina 1 second-aami
+       *[other] Cukatacia anagtan. Ataam naspaakina { $retryLimit } seconds-aani
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
