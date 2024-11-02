@@ -37,6 +37,7 @@ about-get-involved = حصہ گھناٹہ
 about-stay-in-touch = مہ رابطہ کی کنا بے دھاروم
 about-stay-in-touch-button = سائن اپ
 about-stay-in-touch-text-1 = <emailFragment> سائین اپ </emailFragment> اسی انی ایمیلی لسٹ تُس ازدہ تھائبھوت کہ کمن واسہ واقعات، گھرے ڈیزائن تھنی او دوئی فیچرز وے کنا تھے حصہ گھنانہ
+about-stay-in-touch-text-2 = تُس موزیلئی زبینی   کمیونٹی دوئی خلکیم سنگی ملاؤ بھئنی دپارہ انی وے شامل بھوئی <discourseLink> گہ ٹاپیکی بارئی  کھونڈئنی دپارہ انی لنک</discourseLink> یا <matrixLink> خانہ </matrixLink>لپ  مشورہ گھنئنی دپارہ۔
 about-nav-why-common-voice = کے
 about-nav-how-it-works = کنا تھے؟
 about-nav-partners = حصہ دار
