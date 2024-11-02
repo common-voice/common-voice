@@ -87,6 +87,7 @@ about-playbook-how-record-quality = مہ شو معیاری ہاواز کنا ت�
 about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ۔ گہ قسمہ کی تو کھونڈانوۡ ایڑو وے صحی - بے تھی لہجہ کتیݨو ہنو ایتݨوے دوئیانہ۔
 about-playbook-how-record-content-2 = تھی تیرچاپھیر گہ شور نہ ہونسہ وڑئی۔تھی بات کاݨ تھیئنی اسکون بھینڈیو۔
 about-playbook-how-record-content-3 = جملے غور کی منہ۔  گہ اُڑیگلہ نہ مو، گہ بدل نہ تھہ،  گہ ناؤ لوز  شامل نہ تھہ
+about-playbook-how-record-content-4 = کھونڈئنی دی مݜٹو ریکارڈنگ شروع بھی وڑئی۔ بات پُرہ بھلی تھے ریکارڈنگ بند بھئ وڑئی۔
 
 ## How to grow language
 
