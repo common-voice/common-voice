@@ -17,6 +17,20 @@ new-sentence-rule-4 = Nóo dijud nudu
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Kuead nudu chi nukueñ kadi nichiñ
+sc-bulk-upload-instruction = Mu'u kuead archivo ñe'ed  o koto'od mu'u tumin di cargar ñe'ed
+sc-bulk-upload-instruction-drop = Techto'od archivo mu'u tumin kadi kuead
+bulk-upload-additional-information = Nichi bea tanobe dae chi ne'e ko'od ñe'e archivo kun, yabid:
+template-file-additional-information = Nichi bea tanobe dae chi ne'e ko'od ñe'e archivo ku chi gua kane no platilla, yabid;
+try-upload-again = Kueatud archivo ñe'ed mu'u.
+try-upload-again-md = Kueatud archivo ñe'ed
+upload-more-btn-text = ¿A kuead ta tae nudu?
+file-too-large = Yeabean cheatea archivo ñe'ed.
+file-too-small = Yeabean lï archivo ñe'ed.
+too-many-files = Yeabean ndee archivo
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Kunekad nudu chi nukueñ kadi nichiñ.
+multiple-sentences-error = Gua kadi kuead ndee nudu tochi dicho'od "sencillo"
+exceeds-small-batch-limit-error = Gua kadi dicho'od mas ñe'e 1000 nudu
