@@ -12,6 +12,17 @@ sc-review-write-title = ¿A dae nudu kadi kunu?
 sc-review-small-batch-title = ¿A taka kadi kunu ndee nudu?
 new-sentence-rule-3 = Yeabea dijud nudu
 new-sentence-rule-4 = Nóo dijud nudu
+how-to-cite-explanation-bold = Kunejüd nuku ama URL o chi jobe kaka nochi nakad nudu.
+contact-us = Nüd insü
+required-field = Kanód bcheatinu dikútud chi jika mu'u
+single-sentence-submission = Áman nudu dicho'od
+small-batch-sentence-submission = Nandamad naobe nudu niku dicho'od
+bulk-sentence-submission = Ndée  nudu nandamad niku dicho'od
+single-sentence = Áman nudu
+small-batch-sentence = Dúbii nudu
+bulk-sentence = Ndée nudu
+# Sentence Domain dropdown option
+finance = Tumi
 
 ## BULK SUBMISSION 
 
@@ -29,6 +40,7 @@ upload-progress-text = A jea ñe'ed...
 bulk-upload-success-toast = A cheañ nudud
 bulk-upload-failed-toast = Tubii chi ead, kuea tud.
 bulk-submission-success-header = ¡Ndiosnadibad chi nanchod nudud!
+bulk-submission-success-subheader = ¡Jined Common Voice nuku nudu chi nechi kutoo jobe jobe!
 upload-more-btn-text = ¿A kuead ta tae nudu?
 file-too-large = Yeabean cheatea archivo ñe'ed.
 file-too-small = Yeabean lï archivo ñe'ed.
