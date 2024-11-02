@@ -20,6 +20,13 @@ record-abort-continue = Dikuinud nudu chi chito'o
 record-abort-delete = Niknód iku kanbid nudu chi chito'o
 review-rerecord = kutotud nudud
 why-donate = ¿Takue chi jitumgo'od?
+create-profile-text = ¿A ne'e nabad información ñe'ed? Dindad ama perfil ñe'ed.
+thanks-for-voice-toast = Ndios nadibad chi ted nudud.
+thanks-for-voice-toast-error = Gua chikadi kuino'o nudud.
+first-cta-gender-select-help-text =
+    .label = ¿A ndatad o so'öd?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Ndiosnadibad chi ted nudud!
+second-cta-subtitle-text = Nuku ama perfil kadi nichid a dae jidid nuku nichid y kunebed tanobe iña chi ko'o nuduñ.
+already-have-an-account = ¿A bea ama cuenta ñe'ed? kundod
 create-profile-button = Dindad ama perfil
