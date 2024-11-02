@@ -48,7 +48,7 @@ sc-criteria-item-6 = Si te quedas sin frases que revisar, aduya-nos a replegar m
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Compreba <icon></icon> Ye esta una oración lingüisticament correcta?
 sc-review-rules-title = La frase cumple con as directrices?
-sc-review-empty-state = Actualment no queda frases pa revisar en este idioma.
+sc-review-empty-state = No queda frases pa revisar en este idioma, torna dimpués.
 report-sc-different-language = Unatra luenga
 report-sc-different-language-detail = Ye escrito en un idioma diferent d'a que soi revisando.
 sentences-fetch-error = S'ha produciu una error en obtener las oracions.
