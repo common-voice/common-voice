@@ -53,7 +53,7 @@ healthcare = صحت
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون وا حکومت
 # Sentence Domain dropdown option
-language_fundamentals = زبانو لوازمات( مثلا نمبر، حروف، پیسہ)
+language_fundamentals = وارو پچین لازمی ( مثلا نمبر، حروف، پیسہ)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
@@ -64,7 +64,7 @@ news_current_affairs = خبر وا موجودہ حالت
 technology_robotics = ٹیکنالوجی وا روبوٹ
 sentence-variant-select-label = جملان مختلف شکل
 sentence-variant-select-placeholder = ای قسمو گنے (اختیاری)
-sentence-variant-select-multiple-variants = عام زبان/ بو قسم
+sentence-variant-select-multiple-variants = عام وار/ بو قسم
 
 ## BULK SUBMISSION 
 

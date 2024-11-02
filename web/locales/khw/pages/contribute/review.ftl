@@ -1,9 +1,9 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تو کیا زبان نو گنیتاو۔ مہربانی کوری <profileLink> بوغے پوروفائل </profileLink> زبان گنیکو پچین۔
+sc-review-lang-not-selected = تو کیا وارو نو گنیتاو۔ مہربانی کوری <profileLink> بوغے پوروفائل </profileLink> وارو گنیکو پچین۔
 sc-review-title = جملان وا لوڑے
 sc-review-loading = جملو لوڈ کویان
-sc-review-select-language = مہربانی کوری جملان وا لوڑیکو پچین ای زبان گنے۔
+sc-review-select-language = مہربانی کوری جملان وا لوڑیکو پچین ای وار گنے۔
 sc-review-no-sentences = وا لوڑیکو پچین جملہ نیکی۔<addLink> خور جملان ہنیسے شامل کو</addLink>
 sc-review-form-prompt =
     .message = وا لوڑیرو جملہ جمع نو ہونی، تہ یقینا؟
@@ -46,11 +46,11 @@ sc-criteria-item-4 = اگر جملہ معیارو پورا کی کویان ہی�
 sc-criteria-item-5-2 = اگر جملہ بوعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پوشٹی بیکو بوس۔
 sc-criteria-item-6 = تہ سوں جملہ وا لوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = چیکو ہیا <icon> </icon> زبانو لحاظہ سہی جملہ؟
+sc-review-instruction = چیکو ہیا <icon> </icon> وارو لحاظہ سہی جملہ؟
 sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہیا؟
-sc-review-empty-state = موجودہ وحتہ ہیا زبانا وا لوڑیکو پچین کیا جملہ نیکی۔
-report-sc-different-language = مختلف زبان
-report-sc-different-language-detail = اوا کیا زبانو کی وا ڑاڑیمان ہیا ہتے زبانار مختلف نویشی شیر۔
+sc-review-empty-state = موجودہ وحتہ ہیا وارا وا لوڑیکو پچین کیا جملہ نیکی۔
+report-sc-different-language = خور وار
+report-sc-different-language-detail = اوا کیا وارو کی وا لڑیمان ہیا ہتے وارو سار خور نویشی شیر۔
 sentences-fetch-error = جملو گناوا نقص پیدا ہوئے
 review-error = جملو وا لوڑاوا نقص پیدا ہوئے
 review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے یقینی سہی کوریکو بچین پھوک روک بوس۔
