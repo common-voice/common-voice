@@ -77,6 +77,7 @@ about-playbook-how-localize-content-5 = مددی دپارہ اسی وضاحتی 
 ## How to add sentences
 
 about-playbook-how-add-sentences = جملے مہ  کنا تھے شامل تھوم؟
+about-playbook-how-add-sentences-content-1 = تو جملے اندہ <writePageLink>  شامل تھائی بھوڑ ۔ صفحہ</writePageLink> چونٹہ یا اندہ<reviewPageLink> جملے دڇھہ۔ <reviewPageLink> گھرے دڇھئنی صفحہ</reviewPageLink>
 
 ## How to record quality
 
