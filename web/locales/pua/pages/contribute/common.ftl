@@ -141,3 +141,4 @@ contribution-background-voices-description-extended = Énka wantakwa patsakata n
 contribution-background-voices-example-1-title = K'erati manakurhiriecha yontki anapu arhika dinosaurios Triásico anapu. [nema arhintaspti]
 contribution-background-voices-example-1-explanation = ¿Jurhaxakiri? <strong> [nema wantap'asti] </strong>
 contribution-volume-title = winhachakwa
+contribution-volume-description = Mamaruksï kurhankukwarhiati wantakwa patsakataecha maruksï sési kurhaakwarhiati ma maru nompe. Imani wantakwa patsakatani asï jiokwarhi énka yátiru jatach'akunhani jawaka o (meninichani ísï) énka ýatiru no ma ampe kurhankukwarhiaka ka tamu no ísï arhini jarhani eska na jawaka karakatarhu.
