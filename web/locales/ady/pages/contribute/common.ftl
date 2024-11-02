@@ -3,6 +3,7 @@ action-tap = Теӏаб
 contribute = Ӏахьэ хэлъхьан
 review = Еплъыжъын
 skip = Блэъакӏ
+shortcuts = Гъогу кӏэкӏхэр
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold>тетхагъэ
