@@ -20,3 +20,6 @@ record-abort-continue = Dikuinud nudu chi chito'o
 record-abort-delete = Niknód iku kanbid nudu chi chito'o
 review-rerecord = kutotud nudud
 why-donate = ¿Takue chi jitumgo'od?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Ndiosnadibad chi ted nudud!
+create-profile-button = Dindad ama perfil
