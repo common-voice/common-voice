@@ -15,6 +15,8 @@ new-sentence-rule-4 = Nóo dijud nudu
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kuead nudu chi nukueñ kadi nichiñ
 
 ## SMALL BATCH SUBMISSION
 
