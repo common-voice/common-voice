@@ -84,6 +84,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیا وے اسک
 ## How to record quality
 
 about-playbook-how-record-quality = مہ شو معیاری ہاواز کنا تھے ریکارڈ تھوم؟
+about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ۔ گہ قسمہ کی تو کھونڈانوۡ ایڑو وے صحی - بے تھی لہجہ کتیݨو ہنو ایتݨوے دوئیانہ۔
 
 ## How to grow language
 
