@@ -78,9 +78,12 @@ about-playbook-how-localize-content-5 = مددی دپارہ اسی وضاحتی 
 
 about-playbook-how-add-sentences = جملے مہ  کنا تھے شامل تھوم؟
 about-playbook-how-add-sentences-content-1 = تو جملے اندہ <writePageLink>  شامل تھائی بھوڑ ۔ صفحہ</writePageLink> چونٹہ یا اندہ<reviewPageLink> جملے دڇھہ۔ <reviewPageLink> گھرے دڇھئنی صفحہ</reviewPageLink>
+about-playbook-how-add-sentences-content-2 = کمن وائسہ وے شامل  تھئنی دپارہ ہر جملہ دو جانمی دڇھینڈیو او دو جانمی بہ تسی منظوری دئنی ضروری۔ <languageGuidelinesLink> انیوے  تو تیݨی  زبینی دپارہ  رہنمائی سمائی بھوڑ </languageGuidelinesLink>۔ جملہ <licenseLink>ہر کسی استعمالی دائرہ کی ہونسن وڑئی <waiverLink>  انی طریقہ کی کاپی رائٹ ختم تھہ</waiverLink> تھے بہ اسام تھے  commonvoice@mozilla.com انی زریعہ اکی امزیہ۔
+about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیا وے اسکور بی  جملے گڈئنی دپارہ   جملہ گڈاٹوۡ <scraperLink> لنک استعمال تھائی بھوڑ۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = مہ شو معیاری ہاواز کنا تھے ریکارڈ تھوم؟
 
 ## How to grow language
 
