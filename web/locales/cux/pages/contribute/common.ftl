@@ -3,6 +3,7 @@ action-tap = Neabad
 contribute = Kuned insu
 review = Nichid a noo
 skip = Kabyákud
+shortcuts = Kuno kuakud
 clips-with-count-pluralized =
     { $count ->
         [one] ama
