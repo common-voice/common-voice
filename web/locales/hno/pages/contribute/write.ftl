@@ -141,3 +141,5 @@ small-batch-sentences-rule-1 = ہدایات تے عمل کرو بچو“کِڑے
 small-batch-sentences-rule-2 = فی لائن ہک جملہ شامل کرو
 small-batch-sentences-rule-3 = “داخل کرو” یا “واپس کرو” دبا کے جملیاں کو ہک لائن بچ علیحدہ کرو
 small-batch-sentences-rule-4 = 1,000 تک جملیا ں کو شامل کرو
+small-batch-sentences-rule-5 = سارے جملیاں دی ہک جیسی ڈومین ہونڑی چائی دی ہے
+small-batch-sentences-rule-6 = سارے جملیاں دا ہک جیسا حوالہ ہونڑا چائی دا ہے
