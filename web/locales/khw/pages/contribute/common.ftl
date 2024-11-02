@@ -15,8 +15,8 @@ contribute-more =
     { $count ->
        *[other] { $count } خور کوریکو بچین تیارا ?
     }
-speak-empty-state = ہیا زبانا رکارڈ کوریکو پچین اسپہ سون جملہ ختم ہونی
-no-sentences-for-variants = تہ زبانو جملہ ختم بیرو بونی۔ کی بوسان تو تان سیٹنگ بدل دیکو بوس تاکہ تہ زبانو خور جملہ غیچی گونی۔
+speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سون جملہ ختم ہونی
+no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان تو تان سیٹنگ بدل دیکو بوس تاکہ تہ زبانو خور جملہ غیچی گونی۔
 speak-empty-state-cta = جملان جاری کو
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان ہوازو رکارڈ کو
@@ -48,12 +48,12 @@ submit-form-action = جمع کو
 report = خبر
 report-title = رپورٹو جمع لو
 report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
-report-offensive-language = شوم زبان
+report-offensive-language = شوم لو
 report-offensive-language-detail = جملہ شوم یا غیر مہذب لو شیر
 report-grammar-or-spelling = گرائمر/ہجو غلظ
 report-grammar-or-spelling-detail = جملہ گرائمرو یا ہجو غلطی شیر
-report-different-language = مختلف زبان
-report-different-language-detail = اوا کیا زبانا کی لو دومان ہیا ہتے زبانا نو نویشیشیر۔
+report-different-language = خور وار
+report-different-language-detail = اوا کیا وارا کی لو دومان ہیا ہتے زبانا نو نویشیشیر۔
 report-difficult-pronounce = ادا کوریک مشکل
 report-difficult-pronounce-detail = ہیا ہش لفظ یا چیق جملہ شینی کی  ہتان ریک یا ادا کوریک مشکل
 report-offensive-speech = شوم لو
@@ -81,8 +81,8 @@ shortcut-discard-ongoing-recording = ایس کیپ
 shortcut-discard-ongoing-recording-label = ہیا رکارڈو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی ہواز جمع کو
-request-language-text = تہ زبان کامن وائیسا نیکی وا؟
-request-language-button = زبانو درخواست کو
+request-language-text = تہ وار کامن وائیسا نیکی وا؟
+request-language-button = وارو درخواست کو
 
 ## Listen Shortcuts
 
