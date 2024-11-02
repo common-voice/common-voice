@@ -1,9 +1,9 @@
 # GUIDELINES PAGE
-guidelines-header = حصہ کوریکو رہنمائی
+guidelines-header = حصہ گنیکو رہنمائی
 guidelines-header-subtitle = ہیا لو ہوݰ کوریک کہ کامن وائسو ڈیٹاسیٹو سون مدد وا جملو وا اسکوردی ہوازو کیچہ کوری تصدیق کورونو بوئے
-voice-collection = ہوازان جمع کوریک
-sentence-collection = جملان جمع کوریک
-varying-pronunciations = مختلف طریقا ریک
+voice-collection = ہوازا بڑځیک
+sentence-collection = جملان بڑځیک
+varying-pronunciations = مختلف ریک
 misreadings = غلط ریک
 offensive-content = شوم مواد
 background-noise = اݯھو شور
@@ -12,7 +12,7 @@ volume = توڑ-لش
 reader-effects = ریاکان اثر
 just-unsure = صرف غیر یقینی
 example = مثال
-varying-pronunciations-explanation-1 = اسپہ تمام لہجان قبول کوروسیان۔ بو احتیاط کو ای ہوازو رد ہیا لوا کوراوا کہ ریاک ای لفظو غلط ادا کوری اسور رے،ریاوا غلط ژاغا زور دیتی اسور یا لفظو غلط ژاغا زیر زبر لگے اسور۔ دنیا بو قسمہ زیرزبر شینی، تہ تان کمیونیٹا ہیت تا کارا نو توریرو بوئے۔
+varying-pronunciations-explanation-1 = اسپہ تمام لہجان قبول کوسیان۔ بو احتیاط کو،  ای ہوازو رد ہیا لوا کوراوا کہ ریاک لفظو غلط ادا کوری اسور ،ریاوا غلط ژاغا زور دیتی اسور یا لفظو غلط ژاغا زیر زبر لگے اسور۔ دنیا بو قسمہ زیرزبر شینی، تہ تان کمیونیٹا ہیت تا کارا نو توریرو بوئے۔
 varying-pronunciations-explanation-2 = خور ویلٹی، اگر تہ خیالہ  ہے لفظ ہیغار پوشٹی ریاکو  پوشٹا نوگیتی اوشئے وا رییاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو تہ تین کہ یقین نیکی سورین نیسی پشٹی بوغے
 varying-pronunciations-example = راہ سفا نو اوشوئے
 varying-pronunciations-tip-1 = [کنڈین انگریزیا ˈˈوٹوˈˈ  (route) آوازو ˈˈراوٹˈˈ (rowt) دی ساوزیکو بونی]
