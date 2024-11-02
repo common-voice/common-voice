@@ -70,9 +70,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ مقامی تھاٹوۡ کنا تھے کرام تھانوۡ؟
 about-playbook-how-localize-content-1 = کمن وائسی سائٹی ترجمہ<strong> پونٹونہ وے ا</strong> بھانوۡ
 about-playbook-how-localize-content-2 = تھی <pontoonAccountLink>اکاونٹ نئنی ہینتہ  سمہ </pontoonAccountLink> تھے تیݨی زبان گھن<strong> (ٹیم) </strong> تھے پراجیکٹ گھن، <pontoonCvLink> کمن وائس</pontoonCvLink> ایڑا ترجمہ تھئنی  فائلی ہنہ۔ تی جھلی کلک تھہ، لی وے انگریزی لفظ ہونسہ او ترجمہ تھئنی دپارہ آک خانہ ہونسہ۔
+about-playbook-how-localize-content-3 = انگریزی کی ترجمہ تھینڈیو خو  دوئی  زبینی دپارہ  <strong> تجویز </strong>ہنی۔ <strong>کلک </strong> پروفائلی نݰون وے <strong> سیٹنگ بہ</strong> لنک وے کھئی زبان کی تو کھونڈانو ایسے زبان شامل تھہ۔ بُھن کھوشیتی دوشی کوݨہ وے ترجمئی لسٹ ہونسہ تس تھے <strong> مقامی<strong> منانہ۔ ترجمہ آک دیس پہرتہ ایڑے ساٹی وے یھاندہ۔
+about-playbook-how-localize-content-4 = سائٹ 75 فی صد مکمل بھلی ہینتہ سائٹ شروع بھئنی تھے تیار بھی۔
+about-playbook-how-localize-content-5 = مددی دپارہ اسی وضاحتی ویڈیو دڇھوئی
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = جملے مہ  کنا تھے شامل تھوم؟
 
 ## How to record quality
 
