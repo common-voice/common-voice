@@ -61,7 +61,7 @@ about-playbook-what-is-language-content-3 = پھتی زبانان گرائمیر
 ## How do I add a language
 
 about-playbook-how-add-language = اوا زبانو کیچہ کوری شامل کووم؟
-about-playbook-how-add-language-content-1 = اولا <languageLink>ڑوڑے تہ زبان ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان زبانو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
+about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے تہ زبان ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان زبانو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو زبان شینی۔ تہ زبان کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان زبان شامل کوریکو پچین درخواست کو</pontoonRequestLink>۔ اچی ہے زبانو کامن وائسو پروجکٹا دستیاب بیکو پچین<githubRepoLink> GitHub</githubRepoLink> بی نوغ زبانو درخواست کو۔ <localizationFragment>۔ خور معلومات پچین سائٹو ترجمولوڑے</localizationFragment>
@@ -90,7 +90,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکو�
 
 about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ کوری رکارڈ کوم؟
 about-playbook-how-record-content-1 = تان عام ہواز لو دیت۔ کیہ قسم کی تو لو دوسان ہسے تان سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان۔
-about-playbook-how-record-content-2 = اچا ہواز مو گیار - تا لوان کارکوریک اسان بائے
+about-playbook-how-record-content-2 = گوݯتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غاورو سورا راوے- کھیو پځے مو، بدل مو دیت، لفظ شامل مو کو
 about-playbook-how-record-content-4 = لو دیکار پوشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
 about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان پچین ہیا لوڑے۔ </accuracyLink>
@@ -112,7 +112,7 @@ about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</stro
 about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہیا ہوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>تیتان تے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
 about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نو کی ہیترا لودیاکو تلفظ تا سار خور </strong>-سف ای بیتی کوروم کوری  اوازو ہوݰ کوریکو پچین ہیا بو اہم۔
-about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی  ناممکن بویان <strong>  یا اچا<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' لوڑے </accuracyLink>
+about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' لوڑے </accuracyLink>
 about-playbook-how-validate-content-4 = اگر ای  ہواز جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
 
 ## How to access dataset
