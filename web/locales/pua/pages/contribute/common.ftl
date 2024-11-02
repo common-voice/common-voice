@@ -137,3 +137,7 @@ contribution-background-noise-example-2-explanation = [I karakataeri jimpo no y�
 contribution-background-noise-example-3-fixed-title = <strong>[wemuskwarhini ampe] </strong> k'erati manakurhiriecha jini <strong> [wemuskwarhini ampe]</strong> -r Triásico anapu.
 contribution-background-voices-title = Sáani materu ampe kurhaakwarhisïnti
 contribution-background-voices-description = Nona jarhasti énka kurhanhaskakwarhini jaka sani ísï, joperuksï no wekasïnka eska materu jásï wantakwa ampe kurhakwarhiaka o eska íni wantakwani úaka exentani chuxapakwaecha íni eranharhikwa anapu ka exenksï eska no jarhaska karakatarhu. Énka niaraska kurhawani wantakwaechani énkaksï no jaka karhakatarhu, asï jiokwarhi inteni wantakwa patsakatani. Menichani ísï, jima ísï kurhakwarhisïnti énka wantakwa etsakutarakwa ampe etskurhitini jawaka o jimesïsï wantontskwarhinhani jawaka ka ma p'itachakpini jarhani.
+contribution-background-voices-description-extended = Énka wantakwa patsakata no sési kurhaakwarhini jawaka o yátiru materu ampe kurhaakwarhini, asï jiokwarhi, jiakanti jiokwarhipirinka énka útasï kurhankukwarhini japirinka eska xani karakatarhu arhini japirinka.
+contribution-background-voices-example-1-title = K'erati manakurhiriecha yontki anapu arhika dinosaurios Triásico anapu. [nema arhintaspti]
+contribution-background-voices-example-1-explanation = ¿Jurhaxakiri? <strong> [nema wantap'asti] </strong>
+contribution-volume-title = winhachakwa
