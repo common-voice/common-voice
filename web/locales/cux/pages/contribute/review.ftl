@@ -1,6 +1,10 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Nigua kuto'od ama nudu, kunód nochi jo'o perfil tumin kadi kuto'od ama o maska nudu
+sc-review-title = Nauné nichid nudu
+sc-review-loading = Nimo kanó nudu
+sc-review-form-prompt =
+    .message = Nikua nincho'od nichi a noó nudu. ¿A nda nichid?
 sc-review-form-button-reject = Gua noó
 sc-review-form-button-skip = Kabyákud
 sc-review-form-button-approve = A noó
@@ -29,3 +33,4 @@ sc-criteria-item-1 = Noó ne'e chi kanejú nudu.
 sc-criteria-item-2 = Noó ne'e chi kanejú nudu.
 report-sc-different-language = tama nudu
 report-sc-different-language-detail = Gua ñe'e nudu chi kanejú
+review-error-rate-limit-exceeded = Yeabean kani kued. Nuk jinu nichid o kunebed nudu.
