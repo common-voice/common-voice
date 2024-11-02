@@ -142,3 +142,6 @@ contribution-background-voices-example-1-title = K'erati manakurhiriecha yontki 
 contribution-background-voices-example-1-explanation = ¿Jurhaxakiri? <strong> [nema wantap'asti] </strong>
 contribution-volume-title = winhachakwa
 contribution-volume-description = Mamaruksï kurhankukwarhiati wantakwa patsakataecha maruksï sési kurhaakwarhiati ma maru nompe. Imani wantakwa patsakatani asï jiokwarhi énka yátiru jatach'akunhani jawaka o (meninichani ísï) énka ýatiru no ma ampe kurhankukwarhiaka ka tamu no ísï arhini jarhani eska na jawaka karakatarhu.
+contribution-reader-effects-title = Ima ampe énka ma no sési antatak'a wantani jamani.
+contribution-reader-effects-description = Énkaksï xani jaka wantakwa patsakataecha ima kw'iripuecheri énkaksï sési wantak'a noksï mampe jatsikutamasïnti. Úakari jiokwarhiani imani wantakwa énka ma winhachaka, énka arhintikuni ísï ma paaka o énka ma sési arhintaaka ima wantaparini "sésimintu". Asï jiokwarhia imani wantakwa patsakata énkaksï jima ch'anach'amini jawaka o énkaksï wekaaka jatsikutamani ampe oksï yátiru sésimintu wekani antamarhini ampe.
+contribution-just-unsure-title = ¿Ka énkari no sési exeni jawaka?
