@@ -62,9 +62,13 @@ about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے
 about-playbook-how-add-language-translating-content-2 = بے موذیلائی آک آلہ استعمال تھانہ تس تھے <pontoonLink> پونٹون </pontoonLink>  منانہ ترجمہ تھئنی دپارہ۔  پونٹوی وے بیڈی زبینی ہنم۔ تھی زبان ڑی وے نئنی ہینتہ  تس شامل تھئنی دپارہ انی لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑے زبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑے نیوی زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملے جمع تھئنی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے جمع تھئنی بارئی اسی رہنمائی دڇھہ </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> آک کتی  جملے شامل تھائی بھوڑ</sentenceCollectorLinkAdd> یا Github </bulkImportDocsLink> استعمال تھے  بیڈہ جملے ایڑی شیٹی اٹابھوت </bulkImportDocsLink>۔  یاد ساتہ کی  جملے<licenseLink> CC0 (ہر آکی استعمالی دائرہ )</licenseLink> کی ہونسن یا تو پخپلہ بی چونٹا بھوڑ۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومیتی دپارہ  جملے جمع تھاٹہ تھے</sentenceCollectorFragment> دڇھہ۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ مقامی تھاٹوۡ کنا تھے کرام تھانوۡ؟
+about-playbook-how-localize-content-1 = کمن وائسی سائٹی ترجمہ<strong> پونٹونہ وے ا</strong> بھانوۡ
 
 ## How to add sentences
 
