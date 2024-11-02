@@ -89,6 +89,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-for-example = Nikó
+contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi kanejú; kuned chi gua noó dae joóñ nichi gua dama chi jinú nuku dae chi kanejú. A dae chi gua noó jo'oñ chin:
 contribution-misreadings-description-extended-list-2 = Jinaa ama 's' nochi inu ama nudu
 contribution-misreadings-example-6-title = No'ö nio
 contribution-misreadings-example-6-explanation = Ne'e chi kubi "ñe'e sakó"
