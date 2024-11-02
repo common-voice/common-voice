@@ -63,12 +63,12 @@ about-playbook-what-is-language-content-3 = پھتی زبانان گرائمیر
 about-playbook-how-add-language = اوا زبانو کیچہ کوری شامل کووم؟
 about-playbook-how-add-language-content-1 = اولا <languageLink>ڑوڑے تہ زبان ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان زبانو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو ڑوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو زبان شینی۔ تہ زبان کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان زبان شامل کوریکو پچین درخواست کو</pontoonRequestLink>۔ اچی ہے زبانو کامن وائسو پروجکٹا دستیاب بیکو پچین<githubRepoLink> GitHub</githubRepoLink> بی نوغ زبانو درخواست کو۔ <localizationFragment>۔ خور معلومات پچین سائٹو ترجمو ڑوڑے</localizationFragment>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو زبان شینی۔ تہ زبان کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان زبان شامل کوریکو پچین درخواست کو</pontoonRequestLink>۔ اچی ہے زبانو کامن وائسو پروجکٹا دستیاب بیکو پچین<githubRepoLink> GitHub</githubRepoLink> بی نوغ زبانو درخواست کو۔ <localizationFragment>۔ خور معلومات پچین سائٹو ترجمولوڑے</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملان جمع کوریک
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو بارا اسپہ رہنمائیو ڑوڑے </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو بارا اسپہ رہنمائیو لوڑے </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملان شامل کوریکو بوس</sentenceCollectorLinkAdd> یا Github </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد سوتے جملہ <licenseLink> CC0 (ہرکوس استعمالو دائرو )</licenseLink> بانی یا تو تان دی نویشکو بوس۔
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو پچین جملہ جمع کوراکو</sentenceCollectorFragment> ڑوڑے۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو پچین جملہ جمع کوراکو</sentenceCollectorFragment> لوڑے۔
 
 ## How does localization work
 
@@ -77,7 +77,7 @@ about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجم�
 about-playbook-how-localize-content-2 = تہ <pontoonAccountLink>اکاونٹ کی نیکی ساوزاوے </pontoonAccountLink> تھے تان زبانو گنے<strong> (ٹیم) </strong> اچی پروجکٹو گنے، <pontoonCvLink> کامن وائس</pontoonCvLink> ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ بونی وا ترجمہ کوریکو ای خانہ بوئے۔
 about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن  خور زبانا دی  <strong> تجویز </strong>شینی۔ <strong>کلیک </strong> پروفائلو نݰان وا <strong> سیٹنگو</strong> لینک وا کیا زبانو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمان لسٹ بوئی توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو پچین تیار بوئے۔
-about-playbook-how-localize-content-5 = مدد پچین اسپہ تفصیل دیاک ویڈیو ڑوڑے
+about-playbook-how-localize-content-5 = مدد پچین اسپہ تفصیل دیاک ویڈیو لوڑے
 
 ## How to add sentences
 
