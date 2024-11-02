@@ -37,6 +37,14 @@ sc-criteria-item-2 = Noó ne'e chi kanejú nudu.
 sc-criteria-item-3 = Nudu a kane chi kadi kamañ
 sc-criteria-item-4 = Nichi nudu kun a jidi cumplir nuku nukue criterios, tumin koto'od no to'o kuakud.
 sc-criteria-item-5-2 = Nichi nudu gua jidi cumplir nuku nukue criterios tumin koto'od nochi jo'o chi gua noó. Nichi gua deanud nichi noó o gua noó kadi kabyakud y cho'o tama nudu.
+sc-criteria-item-6 = Nichi a kutea nudu chi kamad nichi noó o gua noó. ¡Kadi kuned insú chi nùn ta tae nudu!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Did marcar. ¿A noó kanejú nudu ku?
+sc-review-empty-state = Mniñun a kutea nudu chi nichid nichi a noó o gua noó ñe'e nudu ku.
 report-sc-different-language = tama nudu
 report-sc-different-language-detail = Gua ñe'e nudu chi kanejú
+sentences-fetch-error = Gua chikadi ndakan tanobe nudu
+review-error = Gua noó nichid nuku ku
 review-error-rate-limit-exceeded = Yeabean kani kued. Nuk jinu nichid o kunebed nudu.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Yeabean eatea cambios jidin

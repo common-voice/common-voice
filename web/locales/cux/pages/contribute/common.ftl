@@ -19,12 +19,15 @@ record-button-label = Kuto'od nudud
 share-title-new = Kuned insu chi nakan tanobe nudu
 login-to-get-started = Kunod o kunejud dí tumin kadi kutoko'od
 target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
+target-segment-generic-card = Jined insu nuko ama mnadu ñe´en
 target-segment-first-banner = Kuned insu nuku dae ne'e din nomnó no Common Voice
 target-segment-add-voice = Kuned nudud
+change-preferences = Nandod chi eanud
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Nukue nudu
+contribute-sentence-collection-nav-header = Nubdama nuduñ
 login-signup = Kunod/Kunedjud
 vote-yes = Tika
 vote-no = Gua
@@ -90,6 +93,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-for-example = Nikó
+contribution-misreadings-title = Gua ndo naned
 contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi kanejú; kuned chi gua noó dae joóñ nichi gua dama chi jinú nuku dae chi kanejú. A dae chi gua noó jo'oñ chin:
 contribution-misreadings-description-extended-list-1 = Jindá ama 'el' o 'la' ñe'e nudu tochi jitoko'o
 contribution-misreadings-description-extended-list-2 = Jinaa ama 's' nochi inu ama nudu
