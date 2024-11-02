@@ -69,6 +69,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = سائٹ مقامی تھاٹوۡ کنا تھے کرام تھانوۡ؟
 about-playbook-how-localize-content-1 = کمن وائسی سائٹی ترجمہ<strong> پونٹونہ وے ا</strong> بھانوۡ
+about-playbook-how-localize-content-2 = تھی <pontoonAccountLink>اکاونٹ نئنی ہینتہ  سمہ </pontoonAccountLink> تھے تیݨی زبان گھن<strong> (ٹیم) </strong> تھے پراجیکٹ گھن، <pontoonCvLink> کمن وائس</pontoonCvLink> ایڑا ترجمہ تھئنی  فائلی ہنہ۔ تی جھلی کلک تھہ، لی وے انگریزی لفظ ہونسہ او ترجمہ تھئنی دپارہ آک خانہ ہونسہ۔
 
 ## How to add sentences
 
