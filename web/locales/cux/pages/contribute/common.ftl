@@ -90,7 +90,11 @@ shortcut-vote-no = n
 
 contribution-for-example = Nikó
 contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi kanejú; kuned chi gua noó dae joóñ nichi gua dama chi jinú nuku dae chi kanejú. A dae chi gua noó jo'oñ chin:
+contribution-misreadings-description-extended-list-1 = Jindá ama 'el' o 'la' ñe'e nudu tochi jitoko'o
 contribution-misreadings-description-extended-list-2 = Jinaa ama 's' nochi inu ama nudu
+contribution-misreadings-description-extended-list-4 = Chindá ama nudu ti kanii chikto'oñ
+contribution-misreadings-example-4-explanation = [Chito'okay ndee nudu chi kub chi kanejú]
+contribution-misreadings-example-5-title = No'o ñoo baku
 contribution-misreadings-example-6-title = No'ö nio
 contribution-misreadings-example-6-explanation = Ne'e chi kubi "ñe'e sakó"
 contribution-misreadings-example-7-title = No'o ñoo baku
