@@ -9,6 +9,11 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>тетхагъэ
        *[other] <bold>{ $count }</bold>тетхагъэ
     }
+contribute-more =
+    { $count ->
+        [one] { $count }-м нахьыбэ пшӏынэу ухьазыра?
+       *[other] { $count }-м нахьыбэ пшӏынэу ухьазыра?
+    }
 speak-empty-state-cta = Гущыӏэухыгъэхэм ӏахьэ ахалъхь
 speak-loading-error =
     Угущыӏэным пае зи гущыӏэухыгъэ къэдгъотыгъэп.
