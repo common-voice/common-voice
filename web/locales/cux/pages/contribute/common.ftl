@@ -102,6 +102,7 @@ contribution-misreadings-example-8-title = Yeabean kani cho'o yanam
 contribution-misreadings-example-8-explanation = Chun gua dama jo'ö nuku bí'i
 contribution-varying-pronunciations-title = A taka jo'oñ kadi nandó
 contribution-varying-pronunciations-description = Yeabea kunebed nukue nudu chi gua nóo. Ti yeabean ndee noo kadi kamañ, Nichi jinaned a dae jo'oñ kuned chi a nóo
+contribution-varying-pronunciations-description-extended = Nichi akud chi iña chi jo'o gua deanuñ a taka jo'oñ ama nudu y gua noó jo'oñ kuned chi gua noó. Nichi gua deanud a noó o gua noó kabyákud nudu.
 contribution-background-noise-example-2-explanation = Ama kuó chi tika kanejún gua jinú
 contribution-just-unsure-title = ¿Y nichi gua deanu kuakud tu?
 see-more = Nee ka nichid
