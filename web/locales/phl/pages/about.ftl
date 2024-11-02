@@ -88,9 +88,14 @@ about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ
 about-playbook-how-record-content-2 = تھی تیرچاپھیر گہ شور نہ ہونسہ وڑئی۔تھی بات کاݨ تھیئنی اسکون بھینڈیو۔
 about-playbook-how-record-content-3 = جملے غور کی منہ۔  گہ اُڑیگلہ نہ مو، گہ بدل نہ تھہ،  گہ ناؤ لوز  شامل نہ تھہ
 about-playbook-how-record-content-4 = کھونڈئنی دی مݜٹو ریکارڈنگ شروع بھی وڑئی۔ بات پُرہ بھلی تھے ریکارڈنگ بند بھئ وڑئی۔
+about-playbook-how-record-content-5 = <accuracyLink> صحیح تھئنی دپارہ دو معلومیتم بارئی اندہ دڇھہ۔ </accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = بے کمن وائسہ وے آک زبان کنا تھے مݜٹو گرا ہرایا؟
+about-playbook-how-grow-language-content-1 = مختلف خلکیم تھے موقع دے  کمن وائس انی بات یقینی سمیانو کی دیٹاسیٹ کتی بی ہینتہ بیڈہ خلکیمی خسمت تھی وڑئی۔  اسم تھی استعمالی دپارہ وسائلی سمولہ ہنہ۔
+about-playbook-how-grow-language-content-2 = واقعات
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
 
 ## How to validate
 
