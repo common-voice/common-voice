@@ -59,6 +59,9 @@ about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھو
 about-playbook-how-add-language-content-1 = آویلی <languageLink>تیݨی زبینی وے چیک تھہ انی لنک وے</languageLink>ہنے۔ اگر نئنہ ہینتہ تو<languageRequestLink> تیݨی زبان شامل تھئنی دپارہ کھوجا بھوڑ</languageRequestLink>۔  دو مرحلے ہنہ سائٹی ترجمہ تھئنی دپارہ او جملے سمٹئنی دپارہ۔
 about-playbook-how-add-language-translating-heading = سائٹی ترجمہ تھئنی
 about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے استعمال تھانہ  رنمائی دپارہ اسی انو ویڈیو دݜھوئی
+about-playbook-how-add-language-translating-content-2 = بے موذیلائی آک آلہ استعمال تھانہ تس تھے <pontoonLink> پونٹون </pontoonLink>  منانہ ترجمہ تھئنی دپارہ۔  پونٹوی وے بیڈی زبینی ہنم۔ تھی زبان ڑی وے نئنی ہینتہ  تس شامل تھئنی دپارہ انی لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑے زبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑے نیوی زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملے جمع تھئنی
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے جمع تھئنی بارئی اسی رہنمائی دڇھہ </sentenceCollectorVideo>
 
 ## How does localization work
 
