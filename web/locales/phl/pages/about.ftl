@@ -56,6 +56,7 @@ about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر�
 ## How do I add a language
 
 about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھوم
+about-playbook-how-add-language-content-1 = آویلی <languageLink>تیݨی زبینی وے چیک تھہ انی لنک وے</languageLink>ہنے۔ اگر نئنہ ہینتہ تو<languageRequestLink> تیݨی زبان شامل تھئنی دپارہ کھوجا بھوڑ</languageRequestLink>۔  دو مرحلے ہنہ سائٹی ترجمہ تھئنی دپارہ او جملے سمٹئنی دپارہ۔
 about-playbook-how-add-language-translating-heading = سائٹی ترجمہ تھئنی
 about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے استعمال تھانہ  رنمائی دپارہ اسی انو ویڈیو دݜھوئی
 
