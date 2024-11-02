@@ -1,4 +1,5 @@
 action-click = Теӏункӏ
+action-tap = Теӏаб
 contribute = Ӏахьэ хэлъхьан
 review = Еплъыжъын
 skip = Блэъакӏ
