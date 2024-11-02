@@ -139,3 +139,5 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = ہدایات تے عمل کرو بچو“کِڑے جملے میں شامل کر ہکداہاں؟”
 small-batch-sentences-rule-2 = فی لائن ہک جملہ شامل کرو
+small-batch-sentences-rule-3 = “داخل کرو” یا “واپس کرو” دبا کے جملیاں کو ہک لائن بچ علیحدہ کرو
+small-batch-sentences-rule-4 = 1,000 تک جملیا ں کو شامل کرو
