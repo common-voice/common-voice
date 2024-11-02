@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Skriv
+login-instruction-multiple-sentences = <loginLink>Logg in</loginLink> eller <loginLink>registrer dig</loginLink> for å leggje til fleire setningar
 how-to-cite = Korleis siterer eg?
 guidelines = Retningslinjer
 contact-us = Kontakt oss
