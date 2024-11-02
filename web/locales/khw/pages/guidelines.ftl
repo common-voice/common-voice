@@ -89,5 +89,5 @@ adding-sentences-subheader-offensive-content-explanation = جملا کی شوم 
 reviewing-sentences-explanation-1 = جملہ کی سورا  ہے شرطو پورا کی کویان تھے "دی" بٹینو دیت
 reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا نو کویان تھے "نو" بٹینو دیت
 reviewing-sentences-explanation-3 = اگر جملو پارا تہ یقین کی نیکی، تو ہرو پیݯھی پوشٹی بیکو بوس
-reviewing-sentences-explanation-4 = تہ سوں جملہ واڑوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
-domain-explanation = دائرہ جملو مضمونو حوالہ دویان۔ ہنیسے تو جوئین موژار ای غو گنیکو بوس۔
+reviewing-sentences-explanation-4 = تہ سوں جملہ والوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
+domain-explanation = دائرہ جملو عنوانو حوالہ دویان۔ ہنیسے تو جوئین موژار ای غو گنیکو بوس۔
