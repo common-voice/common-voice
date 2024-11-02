@@ -12,6 +12,10 @@ sc-review-write-title = ¿A dae nudu kadi kunu?
 sc-review-small-batch-title = ¿A taka kadi kunu ndee nudu?
 new-sentence-rule-3 = Yeabea dijud nudu
 new-sentence-rule-4 = Nóo dijud nudu
+new-sentence-rule-5 = Gua snú duchan ni gua snu nudu chi ji'ïi
+new-sentence-rule-6 = Gua nudña'a kanejú
+new-sentence-rule-7 = Yeabea kunejüd a tí nakad ama nudu
+how-to-cite = ¿A taka kadi kunejü?
 how-to-cite-explanation-bold = Kunejüd nuku ama URL o chi jobe kaka nochi nakad nudu.
 contact-us = Nüd insü
 required-field = Kanód bcheatinu dikútud chi jika mu'u
@@ -21,6 +25,8 @@ bulk-sentence-submission = Ndée  nudu nandamad niku dicho'od
 single-sentence = Áman nudu
 small-batch-sentence = Dúbii nudu
 bulk-sentence = Ndée nudu
+# Sentence Domain dropdown option
+agriculture_food = Chi jinuy y je'eu
 # Sentence Domain dropdown option
 finance = Tumi
 
@@ -42,6 +48,7 @@ bulk-upload-failed-toast = Tubii chi ead, kuea tud.
 bulk-submission-success-header = ¡Ndiosnadibad chi nanchod nudud!
 bulk-submission-success-subheader = ¡Jined Common Voice nuku nudu chi nechi kutoo jobe jobe!
 upload-more-btn-text = ¿A kuead ta tae nudu?
+file-invalid-type = Gua cho'o
 file-too-large = Yeabean cheatea archivo ñe'ed.
 file-too-small = Yeabean lï archivo ñe'ed.
 too-many-files = Yeabean ndee archivo
@@ -52,3 +59,4 @@ too-many-files = Yeabean ndee archivo
 small-batch-instruction = Kunekad nudu chi nukueñ kadi nichiñ.
 multiple-sentences-error = Gua kadi kuead ndee nudu tochi dicho'od "sencillo"
 exceeds-small-batch-limit-error = Gua kadi dicho'od mas ñe'e 1000 nudu
+small-batch-sentences-rule-6 = Nudu chi dijud ne'e chi dama nukue.
