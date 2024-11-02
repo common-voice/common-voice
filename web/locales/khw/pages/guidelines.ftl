@@ -60,7 +60,7 @@ public-domain-explanation-5 = ہݰ عباراتان لوڑے کی تیت کاپ�
 public-domain-explanation-6 = حکومتو، غیر منافع بخش اداران یا  خبردیاک تنظیمان سون رابطہ کو کہ تیتان مواد، رپورٹ یا خور اشناری عام رویان پچین مہربانی نو بونیا۔
 citing-sentences-explanation-1 = حوالہ جاتان استعمال کوریک بوضروری تاکہ اسپہ لاڑی سی کہ جملہ عام رویان دائرو وا تیرا کاپی رائٹ تھے نو لگی شیر۔
 citing-sentences-subheader-websites = ویب سائٹ
-citing-sentences-subheader-websites-explanation = تو ویب سائٹو دی شامل کوریکو بوس مثلا "کمن وائس https://commonvoice.mozilla.org/""
+citing-sentences-subheader-websites-explanation = تو ویب سائٹو دی شامل کوریکو بوس مثلا "کامن وائس https://commonvoice.mozilla.org/""
 citing-sentences-subheader-academic-reference = تعلیمی حوالہ
 citing-sentences-subheader-academic-reference-explanation = تو تحقیقی حوالہ دیکو اندازا استعمال کوریکو بوس مثلا ہارڈوڈو انداز، موزیلا (2021) کامن وائسو انداز۔ ہیا https://commonvoice.mozilla.org/ ژاغا شیر (توریتائی:15 ستمبر 2021۱)
 citing-sentences-subheader-offline-sources = اف لائن اشناری

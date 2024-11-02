@@ -1,10 +1,10 @@
 # PARTNERSHIPS PAGE
 partnerships-header = حصہ داری
-partnerships-header-text = کمان وائسا کوروم کوریکو پچین بو کیاغ کوریلیک۔ ہمو اسپہ غیژی نو کوسیان۔ اسپہ خورو گنی کوروم کوریک مݰکیسیان؟ اسپہ بو خوشانیا تہ لوو کار کوسی۔
+partnerships-header-text = کامن وائسا کوروم کوریکو پچین بو کیاغ کوریلیک۔ ہمو اسپہ غیژی نو کوسیان۔ اسپہ خورو گنی کوروم کوریک مݰکیسیان؟ اسپہ بو خوشانیا تہ لوو کار کوسی۔
 partnerships-get-in-touch = اسپہ تین لوو دیت
-partnerships-become-a-partner = کمان وائسو حصہ دار بوس
+partnerships-become-a-partner = کامن وائسو حصہ دار بوس
 partnerships-community-header = کمیونیٹی، ایجاد وا عام رویان تنظیم
-partnerships-community-description = کمیونیٹی کمان وائسو ہردی - ہیت بورا دنیا اسونی وا زبانان پچین کوروم کوراک، سائنس دان، وا فنکار۔ ہیا کورما شامل بیکو پچین تو اسپہ <about> بارا </about> صفحہ وا اسپہ <community> کمنیوٹی نوٹ بک</community>۔ تومظبوط تنظیمی حصہ دری کی مݰکیسان<emailFragment> اسپہ تین نویشے۔ </emailFragment>
+partnerships-community-description = کمیونیٹی کامن وائسو ہردی - ہیت بورا دنیا اسونی وا زبانان پچین کوروم کوراک، سائنس دان، وا فنکار۔ ہیا کورما شامل بیکو پچین تو اسپہ <about> بارا </about> صفحہ وا اسپہ <community> کمنیوٹی نوٹ بک</community>۔ تومظبوط تنظیمی حصہ دری کی مݰکیسان<emailFragment> اسپہ تین نویشے۔ </emailFragment>
 partnerships-foundations-header = تنظیمات
 partnerships-foundations-description = اسپہ افریقا انٹرنیٹو صحت مند کورما ساوزیکو پیچین تنظیمان اوچے کمیونیٹیو سون کوروم کوسیان۔
 partnerships-governments-header = حکومت
