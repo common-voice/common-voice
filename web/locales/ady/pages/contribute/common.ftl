@@ -72,9 +72,12 @@ shortcut-skip = б
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = т
+shortcut-record-toggle-label = Тетх/Уцу
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Мэкъэтетхагъэр тетхъэжь
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Тыритхэрэр щыгъэзый
+shortcut-submit = Enter
 shortcut-submit-label = Тетхагъэхэр егъэхь
 
 ## Listen Shortcuts
