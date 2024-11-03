@@ -50,6 +50,7 @@ report-grammar-or-spelling = Ji' wyäbä te' jaye, jasunyi jyayä.
 report-grammar-or-spelling-detail = Te' 'odejaye ji' wyä jayuse.
 report-different-language = 'Eyabä 'ode
 report-different-language-detail = 'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä 'ode'te'e ndsambabä.
+report-difficult-pronounce = Ji'nde 'omba musä ndsamä.
 
 ## Speak & Listen Shortcuts
 
