@@ -22,6 +22,10 @@ bulk-sentence-submission = Гущыӏэухыгъэ бэу егъэжьэн
 single-sentence = Закъо
 small-batch-sentence = Заулэ
 bulk-sentence = Бэу
+sentence-domain-combobox-label = Гущыӏэухыгъэм итема
+sentence-domain-select-placeholder = Темащым нэс къыхэшъух (хэмыхыми хъун)
+# Sentence Domain dropdown option
+agriculture_food = Мэкъу-мэщ ыкӏи гъомлапхъэ
 
 ## BULK SUBMISSION 
 
