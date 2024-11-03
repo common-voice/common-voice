@@ -44,3 +44,6 @@ first-cta-header-text = ¡Haa xah tiipe mihiipon cap ziix quih an hant cöisooit
 first-cta-subtitle-text = ¿Miitom hac ipacta xah, hant ihiip zo haa poohca ta impozaxö ta, ipaa ntamzo?
 why-donate = ¿Áz iij cota ma nyaamiit ya?
 why-donate-explanation-1 = Icaaitom hant coii hizcoi pahqueepe x, iiqui cösompah aha; iiqui me ihiin hac piipe ta x, cmaax iiqui consiih aha. Icaaitom hant hac ano soii ca quh ano hatacmolca x, cmiique ziix quih iihax hoaanloj quij ziix iicp hac iic caahca quih isoj áa z iti hatcmacmolca x, itaasi xah, ziix oo cötpah ziix quih iiqui ipaca xah taax cmis quih mos hant yaxaxi xah, ctam xah, cmaam quih cöihaa hac iiqui cöhimaai iha.
+why-donate-explanation-2 = Hant ziix quih an hant yaai hac mos áno cöisiipe xah, pocooo iiqui cöihiin hac cöisiipe hac, caaizi coi xiica quiistox coi anxö oo cöquii hac cöispaho hac oo cöspah aha. Hizaax ah oo cötpacta ma, zo haquix piih iitom hac ihapacta hac ihmaa coi ipommis ta, tiix iiqui cöpompah ta x, taax cöcaaitom zo haquix pii x, iiqui cöihiin hac piipe áa hax sama aha. <learnMore>Metadatos hapah quih ziix iti cötpacta ma, ziix cöihasiijim hac hant ihiip quih isoocta aha.<learnMore
+add-information-button = Icaaitom ihmaa pac ano nsiiquim aha
+continue-speaking-button = Saat, quiipe ha. Miitom quih yeen iiqui nsqueetx aha.
