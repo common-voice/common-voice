@@ -132,3 +132,5 @@ contribution-background-noise-example-2-fixed-title = Ziix ccam caacoj dinosauri
 contribution-background-noise-example-2-explanation = [Icaaitom hant coii coi pac iti tahca ma, yompee]
 contribution-background-noise-example-3-fixed-title = <strong>[Chisporroteo]</strong> xiica ccamotam caacöl dinosaurioj hapah<strong>[chisporroteo]</strong> -rásico hac ano coii.
 contribution-background-voices-title = Iquipon icaaitom ziix quih an hant cooit quih imocl hac ano quiih
+contribution-background-voices-description-extended = Icaaitom ziix quih an ahant cooit quih iicot cösiictim poho x, ziix z ano piih ta, spee poho ox xah zo pahii ta x, iiqui conscmah aha. Ox oo mpacta xo, icaaitom hant coii coi pocooo icapee ipoá ta x, mos quiipe ha.
+contribution-background-voices-example-1-title = Xiica ccamotam caacöl dinosaurioj hapah Triástico hac ano coii. [sahcaaitom aha]
