@@ -79,6 +79,8 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Тыритхэрэр щыгъэзый
 shortcut-submit = Enter
 shortcut-submit-label = Тетхагъэхэр егъэхь
+request-language-text = Коммон Войс-ымкӏэ убзэ джыри къылъэгъугъэба?
+request-language-button = Бзэ кӏэ горэм фай
 
 ## Listen Shortcuts
 
