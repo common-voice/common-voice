@@ -51,9 +51,13 @@ success = Гъэхъагъэ
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit-label = Тетхагъэхэр егъэхь
 
 ## Listen Shortcuts
 
 
 ## Validation criteria
 
+contribution-for-example = щысэм пае
