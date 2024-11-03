@@ -116,6 +116,6 @@ contribution-background-noise-description-extended = Nichi gua yeabea jinú nudu
 contribution-background-noise-example-2-explanation = Ama kuó chi tika kanejún gua jinú
 contribution-background-voices-description-extended = Nichi gua yeabea jinú nudu o jinú ama dae, kuned chi gua noó. Nichi jinane'ed nukue kuned chi noó.
 contribution-background-voices-example-1-explanation = ¿A kuchid? (Jitumgo tamañ)
-contribution-just-unsure-title = ¿Y nichi gua deanu kuakud tu?
+contribution-just-unsure-title = ¿Y nichi gua dean kuakud tu?
 see-more = Nee ka nichid
 see-less = Lïi ka nichid
