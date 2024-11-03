@@ -24,6 +24,9 @@ new-sentence-rule-8 = Ihacaaitom iisax ziix hapi icaaitom cöismis hac (icaaitom
 login-instruction-multiple-sentences = <loginLink>An cöscaazquim aha</loginLink> o <loginLink>ziix oo cöpopah an cöiscaazquim ha zo spaii aha</loginLink> icaaitom quih halx anàxo ano cöispaquim hac
 how-to-cite = ¿Zó hpooh icaaitom coi hszaxöhaa ya?
 how-to-cite-explanation-bold = Enlace URL hapah zo shaa poho x, icaaitom hant coii coi itaasi quih oo consiih poho x, taax oo compoh x, insaai aha.
+how-to-cite-explanation = Hapi miitom zo pohaa ta x, hanso <italicizedText>“Autocita”</italicizedText> xah miih iisax siipe aha. Icaaitom coi hant ano toii ma miiho hac hasooctam aha. Pocooo ihaht cöquiyaj xah, caaspoj quij hax cmiique xah quih iiqui cöquiicatx xah, taax cöhisiyaj hac oo cöhapacta ha taax ah haa itah ma, aama. Icaaitom tahac hant ihiip quih miizj pa ta ihaa mpoomzo x, hizaax <guidelinesLink>página de pautas</guidelinesLink> insoocta aha.
+guidelines = Icaaitom cöicocaai iic cöquiipe
+contact-us = Hiicot insiitom aha
 
 ## BULK SUBMISSION 
 
