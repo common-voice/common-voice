@@ -29,6 +29,11 @@ bulk-sentence = Ndée nudu
 agriculture_food = Chi jinuy y je'eu
 # Sentence Domain dropdown option
 finance = Tumi
+# Sentence Domain dropdown option
+general = Nukue'e
+sentence-variant-select-label = Núdu chi jo'o
+sentence-variant-select-placeholder = Konto'od ama nudu (nichi ne'ëd )
+sentence-variant-select-multiple-variants = nuekue'ë nyudu/ Née noo núdu
 
 ## BULK SUBMISSION 
 
@@ -59,4 +64,5 @@ too-many-files = Yeabean ndee archivo
 small-batch-instruction = Kunekad nudu chi nukueñ kadi nichiñ.
 multiple-sentences-error = Gua kadi kuead ndee nudu tochi dicho'od "sencillo"
 exceeds-small-batch-limit-error = Gua kadi dicho'od mas ñe'e 1000 nudu
+small-batch-sentences-rule-4 = Kunejúd nii 1.000 núdu
 small-batch-sentences-rule-6 = Nudu chi dijud ne'e chi dama nukue.
