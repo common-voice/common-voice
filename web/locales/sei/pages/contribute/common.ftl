@@ -125,3 +125,4 @@ contribution-varying-pronunciations-example-1-title = Ilít quij haaonam hax cpa
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ hac acento, sílaba yeeno caap xaha (UK), iiqui yaacj xah (US) iti cöihiih xah coox oo quiipe aha]
 contribution-varying-pronunciations-example-2-title = Inol cap cola imaa.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ hac maricaana iitom quih thaa ma, cöipamx hac sílaba hapah quih tazo oo ha, coocj z imhaa ha]
+contribution-background-noise-title = Ziix ipot hac ano tiih ma, hapee
