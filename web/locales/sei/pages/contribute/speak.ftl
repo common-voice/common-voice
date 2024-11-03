@@ -34,3 +34,5 @@ review-submit-msg = ¡Haa xah tiipe ziix zo ziix quih an hant immicatx tax! <lin
 review-recording = Itacl consoocta aha
 review-rerecord = Itacl an hant insiicatx aha
 review-cancel = Ziix hant hac iiqui hyaaca quih iicot cohsaactim aha
+review-keep-recordings = Xiica ziix quih an hant cooit coi hapi haa soii aha
+review-delete-recordings = Xiica ziix quih an hant ihyaailx coi hseemetim aha
