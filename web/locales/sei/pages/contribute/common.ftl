@@ -20,6 +20,7 @@ record-button-label = Mihipon cap ziix z an hant insiicatx aha
 share-title-new = <bold>Iicot haai</bold>iquipon ziix quih an hant sooit ca ihmaa hcaa.
 keep-track-profile = Hant icaaitom quih an hant yaii zo oo compoh, xiica ziix quih an hant iyaailx coi iti mihahiyat quih insoocta aha
 login-to-get-started = Hant icaaitom quih an hant yaii hac an consiizquim aha. Xo ziix oo cöpopah an cöiscaazquim ha zo mponyaa x, zo nsaai aha
+target-segment-first-card = Icaaitom ziix mos áno siipe xah ta haaimoz yeen oo cap íi hac me quiicot caai iha
 target-segment-add-voice = Mihipon cap iiqui consiih aha
 target-segment-learn-more = Icaaitom ihmaa mos
 change-preferences = Icaaitom hant hac ano coii hapi haqueepe quih iti cöisahpacta hac
