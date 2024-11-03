@@ -32,6 +32,18 @@ automotive_transport = Ку сектор ыкӏи транспорт
 finance = Финанс
 # Sentence Domain dropdown option
 service_retail = Кулыкъу ыкӏи зырызыщэ
+# Sentence Domain dropdown option
+general = Пстэури
+# Sentence Domain dropdown option
+healthcare = Псауныгъэ
+# Sentence Domain dropdown option
+history_law_government = Тарихъ, хабзэ ыкӏи къэралыгъо
+# Sentence Domain dropdown option
+language_fundamentals = Бзэ лъапсэ гущыӏэхэр (гущ. пае: пчагъэхэр, хьарыфхэр, ахъщэ)
+# Sentence Domain dropdown option
+media_entertainment = Медя ыкӏи зэщ тегъэуныгъ
+# Sentence Domain dropdown option
+nature_environment = Кӏыопсыр ыкӏи ӏэгъо-благъо
 
 ## BULK SUBMISSION 
 
