@@ -123,3 +123,5 @@ contribution-varying-pronunciations-description = Icaaitom cöipamx hac imiipe z
 contribution-varying-pronunciations-description-extended = Hant icaaitom ziix quih an hant cooit hac haquix iihca cah icaaitom tahac ipomii, ipomaho, cöipamx hac hanso cocaait hax misoj impooi x, iiqui conscmah aha. Miizj pa ta ipacta zo mpomaa x, oo cötpah cöiheectim quij oo compoh, conseectim aha.
 contribution-varying-pronunciations-example-1-title = Ilít quij haaonam hax cpatj oo z iti imcaaix.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ hac acento, sílaba yeeno caap xaha (UK), iiqui yaacj xah (US) iti cöihiih xah coox oo quiipe aha]
+contribution-varying-pronunciations-example-2-title = Inol cap cola imaa.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ hac maricaana iitom quih thaa ma, cöipamx hac sílaba hapah quih tazo oo ha, coocj z imhaa ha]
