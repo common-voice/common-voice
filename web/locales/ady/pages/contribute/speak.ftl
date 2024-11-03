@@ -39,9 +39,16 @@ review-delete-recordings = Тестхагъэхэр тегъакӏ.
 review-terms = Комон Войс бгъэфедэзэ <termsLink>тихабзэхэм</termsLink> ыкӏи <privacyLink>шъэфныгъэ къэбаргъэӏухэм</privacyLink> адеогъаштэ.
 terms-agree = Сезэгъы
 terms-disagree = Сезэгъырэп
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Умэкъэ тетхагъэхэр къызэрэптыгъэм пае опсэу!
 why-donate = Сыда укъыкӏэупчӏэрэр?
+add-information-button = Къэбар хэгъахъу
 continue-speaking-button = Хау опсэу, гущыӏэным лъыгъэкӏуат
+create-profile-text = Укъэбархэр къэбгъэхьанэу уфая? <createProfile>Профил шӏы</createProfile>
 thanks-for-voice-toast = Умэкъэ къэбарым пае опсэу
 thanks-for-voice-toast-error = Умэкъэ кэбарыр едгъахьызэ хэукъоныгъэ горэ къыхэкӏыгъ.
 first-cta-gender-select-default-option = Зы зэхын къыхэшъух
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Умакъэ ӏахьэ хэплъхьаным пае опсэу!
 already-have-an-account = Амырми хьисап уиӏа? <login>Ихь</login>
+create-profile-button = Профил шӏы
