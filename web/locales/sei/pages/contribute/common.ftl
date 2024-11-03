@@ -105,6 +105,7 @@ contribution-misreadings-title = Icaaitom yahaa quih imhaa ha
 contribution-misreadings-description = Miizj impoocta nsqueecöl aha, icaaitom ziix quih an hant cooit coi cöipaspoj  hac taa haa ya x, taa imhaa ya x; icaaitom ziix quih an hant cooit coi iiqui conscmah ah, hant coii coi ipommis tax. <br/> Ziix mos áno hacx cöicooit hapaa quih hizaax pac haa ha:
 contribution-misreadings-description-extended-list-1 = Icaaitom ziix quih an hant cooit coi iti mota iitax hac <strong>'El'</strong> o <strong>'La'</strong> taax zo yahcaail.
 contribution-misreadings-description-extended-list-2 = Icaaitom coi zo haa tahca iti cöihiyat hac <strong>'s'</strong> zo yahcaail.
+contribution-misreadings-description-extended-list-3 = Icaaitom ptiiqui hahoocapot haquix imoom "pal" icaaitom iti soii ha isoj "para el" hac insacaitom aha.
 contribution-misreadings-description-extended-list-4 = Ziix ziix quih an hant cooit hac icaaitom iti cöihiiyat hac iti caahca hac siimeim aha, xaa  iicot cöpahactim tax.
 contribution-misreadings-description-extended-list-5 = Icaaitoom pac haa poohca ta, sahcaaitom pi ipaai quih halx sahatàxo ha.
 contribution-misreadings-example-1-title = Xiica ccamotam caacöl dinosaurioj hapah Triástico hac ano coii.
