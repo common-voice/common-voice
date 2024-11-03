@@ -7,6 +7,10 @@ sc-review-select-language = Icaaitom zo haa poohca ta, haa mpaco, icaaitom hant 
 sc-review-no-sentences = Cmaax icaaitom hant coii spacta ca z ano yomiih. ¡<addLink>icaaitom ihmaa pac ano nsiiquim aha</addLink>!
 sc-review-form-prompt =
     .message = Icaaitom haptco tpacta hapaxi quih hant hac iiqui cöipacta hac yomiipe, ¿miizj ta ma, ipacta quih mocoaa ya?
+sc-review-form-usage = Icaaitom hac quiipe ha xah nsiih pi x, minol aapa iicp hac iiqui nsqueetx aha. Iiqui conscmah pi x, misliic iicp hac iiqui nsqueetx aha. Conseectm pi x, coleecp hac iiqui nsqueetx aha. <strong>¡Icaaitom moaacta coi iicp inscmaanim aha, hant hac iiqui cöispacta hac!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Icaaitom spaspoj ca coi ispacta ha: { $sentenceSource }
 sc-review-form-button-reject = Iiqui cösompah aha
 sc-review-form-button-skip = Cösaheectim aha
 sc-review-form-button-approve = Quiipe ha
