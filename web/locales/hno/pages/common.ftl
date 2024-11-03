@@ -276,6 +276,7 @@ privacy-info = اسیں وعدہ کردے ہاں کہ تسدی معلومات ب
 return-to-cv = کامن وائس تے واپس آؤ
 email-input =
     .label = ای میل
+loading = لوڈ ہو رہیا ہے۔۔۔۔
 
 ## Donate banner
 
