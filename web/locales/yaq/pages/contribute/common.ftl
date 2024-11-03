@@ -98,3 +98,24 @@ shortcut-vote-no = n
 contribution-criteria-nav = jajamiam
 contribution-criteria-link = A awe u lutu’uria ta betana nau jowamta
 contribution-criteria-page-title = lutu’uria nau jowame
+contribution-criteria-page-description = ¡Cha a awe jita jariupo nokjiawai jiyokai ta jikajako into jaisa cha ili tuisi a ya'ne jume em nokjiawai jiyokaim!
+contribution-for-example = Inien machilai
+contribution-misreadings-title = Ka tuisi mammatteim
+contribution-misreadings-description =
+    A jikajako, a intumammatte tuisia juka nok jiawai jiyokaita jiba junaa’a wa jiokteri;
+    Kat'am mabeta juka nok jiawai jiyokaita ka na'alebesia bichateko jiokteri make.
+    Jume jiob'riam ya ayukame:
+contribution-misreadings-description-extended-list-1 = Ama be,e u [] "eme'e" u "wame'e" [] nok jiawai jiyokai ta na'atepo.
+contribution-misreadings-description-extended-list-2 = Ama be'e u 's' nokta lutepo
+contribution-misreadings-description-extended-list-3 = Leiaroa juka lebe’eji’ojtei ka ayukamta, benasia ,"ebechibo"  "ebetchibo" into inenia.
+contribution-misreadings-description-extended-list-4 = noktawepo cobawako lauti enchi a chuktako nokjiawai jiyokaita
+contribution-misreadings-description-extended-list-5 = Jaikisi a ji’obila juka nokta leiaroawamta
+contribution-misreadings-example-1-title = Jume bwere dinosauriom jakwo inia bwiat na katsukame
+contribution-misreadings-example-2-title = U bweu dinosaurio jakwo inia bwiat na wesukame
+contribution-misreadings-example-2-explanation = ['dinosauriom' ti jiue'an]
+contribution-misreadings-example-3-title = Jume bwere dinosauriom jakwo inia bwiat na katsuka-.
+contribution-misreadings-example-3-explanation = [nokjiawai jiyokai ke ansuwao jita ama ba'aneko ke nok ansuwapo]
+contribution-misreadings-example-4-title = Jume bwere dinosauriom jakwo inia bwiat na katsukame. Jewi.
+contribution-misreadings-example-4-explanation = [Na'abujtia nokjiawai jiyoka'ita bwisek jiokte'ta]
+contribution-misreadings-example-5-title = Ne'e si'ika nim pueplou bicha.
+contribution-misreadings-example-6-title = Ne sika nim pueplou bicha
