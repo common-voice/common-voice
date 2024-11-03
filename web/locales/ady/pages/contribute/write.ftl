@@ -17,6 +17,7 @@ new-sentence-rule-3 = Граммер тэрэз гъэфедэ
 new-sentence-rule-4 = Тэрэз тхэнымрэ пунктуацыемрэ гъэфед
 new-sentence-rule-5 = Пчъагъэхэр ыкӏи унэе тамыгъэхэр хэмытэу
 new-sentence-rule-6 = Нэмыкӏыбзэ хьарыф щыӏэп
+new-sentence-rule-7 = Тефэрэ къыхэхыгъэ тхыгъэр хэгъэх
 contact-us = Шъукъытлъыӏэс
 required-field = Сыолъэӏу, мы чӏыпӏэ тешъом из шӏы.
 single-sentence-submission = Гущыӏэухыгъэ закъоу егъэжьэн
