@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>тетхагъэ
        *[other] <bold>{ $count }</bold>тетхагъэ
     }
-goal-help-recording = Коммон Войс-ым мафэ къэс { $goalValue } тетхэн ипсагъэм <goalPercentage></goalPercentage> фэдиз хъуным уикъыздеӏэнэу ущытыгъ!
+goal-help-recording = Коммон Войс-ым мафэ къэс { $goalValue } тетхэным имурадкӏэ <goalPercentage></goalPercentage> фэдиз хъунэу укъыддеӏагъ!
 contribute-more =
     { $count ->
         [one] { $count }-м нахьыбэ пшӏынэу ухьазыра?
