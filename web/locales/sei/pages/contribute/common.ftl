@@ -108,3 +108,6 @@ contribution-misreadings-example-1-title = Xiica ccamotam caacöl dinosaurioj ha
 contribution-misreadings-example-2-title = Ziix ccam caacoj dinosaurio hapah Triástico hac ano quiih.
 contribution-misreadings-example-2-explanation = [‘Dinosaurioj’ hac shaa cah]
 contribution-misreadings-example-3-title = Xiica ccamotam caacöl dinosaurioj hapah Triástico hac ano co-.
+contribution-misreadings-example-3-explanation = [Ziix ziix quih an hant cooit hac icaaitom iti cöihiyat hac iti caahca hac iyat ipi cötmafp ma, cöyooctim]
+contribution-misreadings-example-4-title = Xiica ccamotam caacöl dinosaurioj hapah Triástico hac ano coii. Taax haa ha.
+contribution-misreadings-example-4-explanation = [Icaaitom hant coii coi cöiteemij ziix z an hant yaait]
