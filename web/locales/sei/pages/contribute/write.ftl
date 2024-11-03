@@ -34,6 +34,16 @@ single-sentence-submission = Icaaitom hant coii quih hoox oo tazo hant hac iiqui
 small-batch-sentence-submission = Icaaitom hant coii tipxalca oo iiqui pte quiih pac hant hac iiqui caaca ha
 bulk-sentence-submission = Icaaitom hant coii catxo pac hant hac iiqui caaca ha
 single-sentence = Icaaitom hant coii hapi cazoj
+small-batch-sentence = Quipxa oo iiqui pte quiih
+bulk-sentence = Catxo iiqui pte quiih
+sentence-domain-combobox-label = Icaaitom hant coii coi cöipaspoj hac iti cöihiipe hac
+sentence-domain-select-placeholder = Dominioj quih capxa me haa ihaaco quiya ha (hizaax impoqueepe x, iiqui conscmah aha)
+# Sentence Domain dropdown option
+agriculture_food = Ziix hapec xah, ziix hapahit xah
+# Sentence Domain dropdown option
+automotive_transport = Trooquij quih ziix iicp xaha, ziix ano tquiij hant quih cöiqueectim quih iic xah
+# Sentence Domain dropdown option
+finance = Tom coi iic hac
 
 ## BULK SUBMISSION 
 
