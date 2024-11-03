@@ -36,3 +36,8 @@ review-rerecord = Itacl an hant insiicatx aha
 review-cancel = Ziix hant hac iiqui hyaaca quih iicot cohsaactim aha
 review-keep-recordings = Xiica ziix quih an hant cooit coi hapi haa soii aha
 review-delete-recordings = Xiica ziix quih an hant ihyaailx coi hseemetim aha
+review-terms = Common Voice quih cömeaactim hac <termsLink>Hant poop ta isahactim ha</termsLink> xah<privacyLink>Ziix hant hac an hant quiih quih iti cöpocta ta icapaho cöisiya ha</privacyLink> xah taax pocooo ta, iicot cösiisax caha
+terms-agree = Iicot cöhihiisax iha
+terms-disagree = Iicot cöhimiisax iha
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Haa xah tiipe mihiipon cap ziix quih an hant cöisooit hac iiqui cömiicatx hac!
