@@ -5,7 +5,6 @@
 
 about-listen = ლარკ ჺოფარ
 about-nav-why-common-voice = ვუჼ?
-about-nav-how-it-works = მოჰ>?
 
 ## Community Playbook Content
 ## What is a language
