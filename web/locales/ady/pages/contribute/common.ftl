@@ -27,14 +27,15 @@ share-title-new = <bold>Къыддэӏэпӏэ</bold> нахьыбэ макъэ 
 keep-track-profile = Профил горэкӏэ уихэхъоныгъэ илъэуж зеф
 login-to-get-started = Ебгъэжьэным пае ихь е зыхатх
 target-segment-first-card = Тиапэрэ псагъэ сегментым ӏахьэ хэолъхьэ
-target-segment-add-voice = Умакъэ хегъэуцу
+target-segment-generic-card = Псагъэ сегмент горэм ӏахьэ хэолъхьэ
+target-segment-add-voice = Умакъэ хэгъэуцу
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Мэкъэ угъоиыгъ
-contribute-sentence-collection-nav-header = Гущыӏэухыгъэ угъоиыгъ
+contribute-voice-collection-nav-header = Мэкъэ угъоигъ
+contribute-sentence-collection-nav-header = Гущыӏэухыгъэ угъоигъ
 login-signup = Ихь / зыхатх
 vote-yes = Ары
 vote-no = Хьау
