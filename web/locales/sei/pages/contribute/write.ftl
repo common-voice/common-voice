@@ -1,0 +1,9 @@
+## WRITE PAGE
+
+write = Insaaspoj aha
+
+## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+

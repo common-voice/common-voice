@@ -56,3 +56,7 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Haa xah tiipe mihipon cap ziix quih an hant cömiicatx hac!
 second-cta-subtitle-text = Perfil hapah zo mpoyaa x, ziix hant hac ano nyaai quih ihaacta mpoaa x, mos xiica quiistox ihmaa, ihipoza quih hant quih an hant quicmolca quih ziix oaanloj quih insoocta aha.
+already-have-an-account = ¿Ziix oo cötpah an cöicaazquim zo ntyaa? <iniciar sesión>An consiizquim aha</iniciar sesión>
+create-profile-button = Perfil zo nsaai aha
+# IMAGE TAGS
+img-alt-success-checkmark = Tiipe iyat cöiifp hac haa ihaaco
