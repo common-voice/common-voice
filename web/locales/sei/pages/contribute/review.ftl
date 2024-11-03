@@ -26,7 +26,10 @@ sc-review-form-reviewed-message =
         [one] Icaaitom hant coiii quih tazo hapacta. ¡Haa xah tiipe!
        *[other] { $sentences } Icaaitom hant coiii hapacta. ¡Haa xah tiipe!
     }
-sc-review-link = Spacta aha
+sc-review-form-review-failure = Icaaitom ziix quih an hant cooit itacl, cöhapacta coi miizj hacx icoii iyomá. Halx poyáam ta, mpaai insoocta ha.
+sc-review-link = Itacl consoocta aha
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Itacl spacta pi, ispaii hac
+sc-criteria-title = Itacl spacta pi, ispaii hac
