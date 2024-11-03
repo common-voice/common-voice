@@ -44,6 +44,8 @@ language_fundamentals = Бзэ лъапсэ гущыӏэхэр (гущ. пае: 
 media_entertainment = Медя ыкӏи зэщ тегъэуныгъ
 # Sentence Domain dropdown option
 nature_environment = Кӏыопсыр ыкӏи ӏэгъо-благъо
+# Sentence Domain dropdown option
+news_current_affairs = Къэбархэр ыкӏи рекӏокӏырэ хъугъэ-шӏагъэхэр
 
 ## BULK SUBMISSION 
 
