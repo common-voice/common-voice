@@ -50,3 +50,4 @@ continue-speaking-button = Saat, quiipe ha. Miitom quih yeen iiqui nsqueetx aha.
 create-profile-text = ¿Xiica hant hac ano mooquim quih miizj hacx insiiquim haa ya?<createProfile>Perfil zo nsaai aha</createProfile>
 thanks-for-voice-toast = Haa xah tiipe, mihipon cap ipacta quih hamii tax.
 thanks-for-voice-toast-error = Ihipon hac hant hac iiqui cöihaaca hac ziix imiipe pac ano miihca.
+first-cta-gender-select-default-option = Pac haa poohca ta, haa sahaaco aha
