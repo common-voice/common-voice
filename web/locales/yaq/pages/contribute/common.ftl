@@ -49,6 +49,16 @@ report-offensive-language-detail = U etejori nooki kaa yee yo’oriwam ta weya
 report-grammar-or-spelling = ji’opria jioktei
 report-grammar-or-spelling-detail = U etejori ji’opria jioktei ta weya
 report-different-language = Tabwi nooki
+report-different-language-detail = Ini tabwi si jiokteri ka inim nonoka'a benasia
+report-difficult-pronounce = Obiachi tewapo
+report-difficult-pronounce-detail = Obiachi nokta weya ka tu á tewatumta
+report-offensive-speech = jippu’uwame kaa yee yo’oriwamta we'iya
+report-offensive-speech-detail = U nokawamta jiyokame ka ye yoriwamta weya
+report-other-comment =
+    .placeholder = Etejo
+success = Tu'i
+continue = weye
+report-success = Tu'isi bit'tuawak u tejwai
 
 ## Speak & Listen Shortcuts
 
@@ -60,13 +70,22 @@ shortcut-skip = h
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
+shortcut-record-toggle-label = nokjiawai jiyoka/ Kecha
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Bemelasi nokjiawai jiyoka
+shortcut-discard-ongoing-recording = yeu sim betchibo
+shortcut-discard-ongoing-recording-label = Kecha nok jiawai jiyokai weyemta
+shortcut-submit = No'ote
+shortcut-submit-label = nokjiwai joyokai ta bit'ua
+request-language-text = ¿Ketun empo ka a tea em nokanta?
+request-language-button = Tabwi nooki ta yeupoa
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = We'etua/kecha
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -76,3 +95,6 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = jajamiam
+contribution-criteria-link = A awe u lutu’uria ta betana nau jowamta
+contribution-criteria-page-title = lutu’uria nau jowame
