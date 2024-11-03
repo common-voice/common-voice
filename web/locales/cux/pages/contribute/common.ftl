@@ -23,6 +23,7 @@ target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
 target-segment-generic-card = Jined insu nuko ama mnadu ñe´en
 target-segment-first-banner = Kuned insu nuku dae ne'e din nomnó no Common Voice
 target-segment-add-voice = Kuned nudud
+target-segment-learn-more = née nóo ka
 change-preferences = Nandod chi eanud
 
 ## Contribution Nav Items
@@ -99,8 +100,10 @@ contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi 
 contribution-misreadings-description-extended-list-1 = Jindá ama 'el' o 'la' ñe'e nudu tochi jitoko'o
 contribution-misreadings-description-extended-list-2 = Jinaa ama 's' nochi inu ama nudu
 contribution-misreadings-description-extended-list-4 = Chindá ama nudu ti kanii chikto'oñ
+contribution-misreadings-description-extended-list-5 = Née fuelta kamad ama nudu
 contribution-misreadings-example-1-title = It nikuu ñe´e nitumi.
 contribution-misreadings-example-2-title = Ama It nikuu ñe´e nitumi.
+contribution-misreadings-example-2-explanation = Ne'e chi kuubi 'dinosaurio'
 contribution-misreadings-example-3-title = It nikuu ñe´e nitumi
 contribution-misreadings-example-4-explanation = [Chito'okay ndee nudu chi kub chi kanejú]
 contribution-misreadings-example-5-title = No'o ñoo baku
