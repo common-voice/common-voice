@@ -73,6 +73,7 @@ shortcut-skip = б
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = т
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Мэкъэтетхагъэр тетхъэжь
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit-label = Тетхагъэхэр егъэхь
 
