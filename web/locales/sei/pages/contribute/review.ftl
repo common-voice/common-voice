@@ -42,3 +42,9 @@ sc-criteria-item-5-2 = Icaaitom hac ispacta ha z iti pompacta ta x, misliic iicp
 sc-criteria-item-6 = Icaaitom itacl spacta ca z ano pomiih ta x, ¡iicot impaai icaaitom ihmaa nscaa aha!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Haa nsaaco aha <icon></icon>¿Icaaitom hizcoi cöipamx xah, cöipaspoj xah tcooo quiipe ya?
+sc-review-rules-title = ¿Ipacta hac ziix iti cöpopacta isiipe ha quih iti cöhapacta ya?
+sc-review-empty-state = Cmaax icaaitom hant coii hizcoi cmis itacl spacta ca z ano yomiih.
+report-sc-different-language = Icaaitom ihmaa
+report-sc-different-language-detail = Icaaitom hoaacta hac cöipaspoj hac icaaitom ihmaa ah yohaa.
+sentences-fetch-error = Icaaitom coi cömicaa hac ziix imiipe pac ano yoohca.
+review-error = Icaaitom hac itacl cömihoocta hac ziix imiipe pac ano yoohca.
