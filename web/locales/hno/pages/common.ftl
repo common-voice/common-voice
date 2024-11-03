@@ -248,12 +248,22 @@ yue = کینٹونیز
 zgh = تمازائٹ
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
+zh-TW = چینی (تائیوان)
+zu = زولو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مدد
+contact = رابطہ
+privacy = رازداری
+terms = شرطاں
+cookies = کوکیاں
+faq = عام پُچھے دے سوال
 
 ## Donate banner
 
