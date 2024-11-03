@@ -34,6 +34,7 @@ review-submit-msg = Утетхэным пае опсэу! <lineBreak></lineBreak
 review-recording = Еплъыжьын
 review-rerecord = Тетхэжь
 review-cancel = Егъэхьыным щыгъэзый
+review-delete-recordings = Стетхагъэхэр тегъакӏ.
 review-terms = Комон Войс бгъэфедэзэ <termsLink>тихабзэхэм</termsLink> ыкӏи <privacyLink>шъэфныгъэ къэбаргъэӏухэм</privacyLink> адеогъаштэ.
 terms-agree = Сезэгъы
 terms-disagree = Сезэгъырэп
