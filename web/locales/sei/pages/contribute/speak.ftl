@@ -43,3 +43,4 @@ terms-disagree = Iicot cöhimiisax iha
 first-cta-header-text = ¡Haa xah tiipe mihiipon cap ziix quih an hant cöisooit hac iiqui cömiicatx hac!
 first-cta-subtitle-text = ¿Miitom hac ipacta xah, hant ihiip zo haa poohca ta impozaxö ta, ipaa ntamzo?
 why-donate = ¿Áz iij cota ma nyaamiit ya?
+why-donate-explanation-1 = Icaaitom hant coii hizcoi pahqueepe x, iiqui cösompah aha; iiqui me ihiin hac piipe ta x, cmaax iiqui consiih aha. Icaaitom hant hac ano soii ca quh ano hatacmolca x, cmiique ziix quih iihax hoaanloj quij ziix iicp hac iic caahca quih isoj áa z iti hatcmacmolca x, itaasi xah, ziix oo cötpah ziix quih iiqui ipaca xah taax cmis quih mos hant yaxaxi xah, ctam xah, cmaam quih cöihaa hac iiqui cöhimaai iha.
