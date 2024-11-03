@@ -24,12 +24,31 @@ target-segment-generic-card = Aemak ea yeu yuma nasuk chibejti boo’o tekil mak
 target-segment-first-banner = A ania ka a ya uka bemewa wepul chibejti boo’o tekil ta uka commom voice ta
 target-segment-add-voice = Em nok jiawai ta ama kibacha.
 target-segment-learn-more = Wate tejwai
+change-preferences = Bat kecha'i ta Nakulia
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Nook jiawai nau tojiri
+contribute-sentence-collection-nav-header = Etejorim nau tojirime
+login-signup = Naate, emo jiokte/Nokaka emo jiyoka
+vote-yes = Jewi
+vote-no = Je'e
+datasets = tejwai nau weyeme
+languages = Bu'u nookim
+about = watek ju’uneya
+partner = itom jala’itu
+submit-form-action = Bit'tua
 
 ## Reporting
 
+report = Tejwa
+report-title = Tejawai ta bit'ua
+report-ask = ¿Jiata'a ama ayuk inim etejoripo?
+report-offensive-language = nooki kaa yee yo’oriwame
+report-offensive-language-detail = U etejori nooki kaa yee yo’oriwam ta weya
+report-grammar-or-spelling = ji’opria jioktei
+report-grammar-or-spelling-detail = U etejori ji’opria jioktei ta weya
+report-different-language = Tabwi nooki
 
 ## Speak & Listen Shortcuts
 
