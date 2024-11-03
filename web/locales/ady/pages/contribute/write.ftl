@@ -16,6 +16,9 @@ new-sentence-rule-3 = Граммер тэрэз гъэфедэ
 new-sentence-rule-6 = Нэмыкӏыбзэ хьарыф щыӏэп
 contact-us = Шъукъытлъыӏэс
 required-field = Сыолъэӏу, мы чӏыпӏэ тешъом из шӏы.
+single-sentence-submission = Гущыӏэухыгъэ закъоу егъэжьэн
+small-batch-sentence-submission = Гущыӏэухыгъэ заулэ егъэжьэн
+bulk-sentence-submission = Гущыӏэухыгъэ бэу егъэжьэн
 single-sentence = Закъо
 
 ## BULK SUBMISSION 
