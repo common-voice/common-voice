@@ -24,7 +24,7 @@ speak-loading-error =
     Сыолъэӏу, етӏанэ джыри зэ еплъ.
 record-button-label = Умакъэ тетх
 share-title-new = <bold>Къыддэӏэпӏэ</bold> нахьыбэ макъэ къэгъот
-keep-track-profile = Профил горэ къэгъэхъузэу ухэхъоныгъэр лъэужэефэжь
+keep-track-profile = Профил горэкӏэ уихэхъоныгъэ илъэуж зеф
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
 
