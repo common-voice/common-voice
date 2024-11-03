@@ -48,6 +48,8 @@ create-profile-text = Укъэбархэр къэбгъэхьанэу уфая? 
 thanks-for-voice-toast = Умэкъэ къэбарым пае опсэу
 thanks-for-voice-toast-error = Умэкъэ кэбарыр едгъахьызэ хэукъоныгъэ горэ къыхэкӏыгъ.
 first-cta-gender-select-default-option = Зы зэхын къыхэшъух
+first-cta-gender-select-help-text =
+    .label = Уихъугъэ-бзыгъэ сыдэущтэу къэптхыхьащт?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Умакъэ ӏахьэ хэплъхьаным пае опсэу!
 already-have-an-account = Амырми хьисап уиӏа? <login>Ихь</login>
