@@ -37,3 +37,5 @@ sc-criteria-make-sure = Icaaitom hant coii coi pocooo hizaax oo cöspacta caha:
 sc-criteria-item-1 = Icaaitom hant coii hac cöipaspoj hac cöisiipe hac oo cöspah aha.
 sc-criteria-item-2 = Icaaitom hac cöispaspoj hac miizj cöisyaxi hac oo cöspah aha.
 sc-criteria-item-3 = Icaaitom hant coii coi miizj ipamx cöispá hac oo cöspah aha.
+sc-criteria-item-4 = Icaaitom hc ispacta hac iti popacta ta x, minol aapa iicp hac &quot;Quiipe ha&quot; iti moii ta x, taax hant iiqui nsiisnan  aha.
+sc-criteria-item-5-2 = Icaaitom hac ispacta ha z iti pompacta ta x, misliic iicp hac &quot;Iiqui conscmah aha&quot; hac iti moii ta x, taax hant iiqui nsiisnan aha. Xo miizj hant ihiip zo mpomaa x, compeectim, iic cöcaahca hac insoocta aha.
