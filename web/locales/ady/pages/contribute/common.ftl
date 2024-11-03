@@ -104,3 +104,4 @@ contribution-criteria-nav = Шапхъэхэр
 contribution-criteria-link = Ӏахьэ зыхэлъ шапхъэхэр къыжъугурыӏоныр
 contribution-criteria-page-title = Ӏахьэ зыхэлъ шапхъэхэр
 contribution-for-example = щысэм пае
+contribution-misreadings-title = Пхэнджэу еджэнхэр
