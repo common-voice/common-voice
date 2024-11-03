@@ -43,3 +43,4 @@ why-donate = Сыда укъыкӏэупчӏэрэр?
 continue-speaking-button = Хау опсэу, гущыӏэным лъыгъэкӏуат
 thanks-for-voice-toast = Умэкъэ къэбарым пае опсэу
 thanks-for-voice-toast-error = Умэкъэ кэбарыр едгъахьызэ хэукъоныгъэ горэ къыхэкӏыгъ.
+first-cta-gender-select-default-option = Зы зэхын къыхэшъух
