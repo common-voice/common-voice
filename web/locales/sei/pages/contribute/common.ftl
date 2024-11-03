@@ -102,3 +102,4 @@ contribution-misreadings-title = Icaaitom yahaa quih imhaa ha
 contribution-misreadings-description = Miizj impoocta nsqueecöl aha, icaaitom ziix quih an hant cooit coi cöipaspoj  hac taa haa ya x, taa imhaa ya x; icaaitom ziix quih an hant cooit coi iiqui conscmah ah, hant coii coi ipommis tax. <br/> Ziix mos áno hacx cöicooit hapaa quih hizaax pac haa ha:
 contribution-misreadings-description-extended-list-1 = Icaaitom ziix quih an hant cooit coi iti mota iitax hac <strong>'El'</strong> o <strong>'La'</strong> taax zo yahcaail.
 contribution-misreadings-description-extended-list-2 = Icaaitom coi zo haa tahca iti cöihiyat hac <strong>'s'</strong> zo yahcaail.
+contribution-misreadings-description-extended-list-4 = Ziix ziix quih an hant cooit hac icaaitom iti cöihiiyat hac iti caahca hac siimeim aha, xaa  iicot cöpahactim tax.
