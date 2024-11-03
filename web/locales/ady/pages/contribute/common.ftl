@@ -47,6 +47,7 @@ submit-form-action = Егъэхь
 
 report = Рапорт
 report-title = Рапорт егъэхь
+report-ask = Мы гущыӏэухыгъэмкӏэ сыд мыухэсыгъэ ӏофха къэуцухэрэр?
 report-offensive-language = Тезэрыгуакӏо бзэ
 report-offensive-language-detail = Гущыӏэухыгъэр лъытэныгъэ зыхэмылъ е тезэрыгуакӏо бзэ.
 report-grammar-or-spelling = Грамматикэ / орфографие хэукъоныгъ
@@ -55,7 +56,11 @@ report-different-language = Бзэр шъхьафы
 report-different-language-detail = Сэ сызэрэгущыӏэрэм фэшъхьаф бзэ ар зэрэтхыгъэр.
 report-difficult-pronounce = Къэӏуакӏэмкӏэ къин
 report-difficult-pronounce-detail = Зиеджакӏэ е зикъэӏуакӏэ къин гущыӏэхэр ыкӏи гущыӏэухыгъэхэр ащ хэтых.
+report-offensive-speech = Узыушъхьакӏурэ гущыӏ
+report-other-comment =
+    .placeholder = Тепсэлъыхьаныр
 success = Гъэхъагъэ
+continue = Лъыгъэкӏуат
 
 ## Speak & Listen Shortcuts
 
