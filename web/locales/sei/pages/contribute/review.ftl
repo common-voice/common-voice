@@ -39,3 +39,6 @@ sc-criteria-item-2 = Icaaitom hac cöispaspoj hac miizj cöisyaxi hac oo cöspah
 sc-criteria-item-3 = Icaaitom hant coii coi miizj ipamx cöispá hac oo cöspah aha.
 sc-criteria-item-4 = Icaaitom hc ispacta hac iti popacta ta x, minol aapa iicp hac &quot;Quiipe ha&quot; iti moii ta x, taax hant iiqui nsiisnan  aha.
 sc-criteria-item-5-2 = Icaaitom hac ispacta ha z iti pompacta ta x, misliic iicp hac &quot;Iiqui conscmah aha&quot; hac iti moii ta x, taax hant iiqui nsiisnan aha. Xo miizj hant ihiip zo mpomaa x, compeectim, iic cöcaahca hac insoocta aha.
+sc-criteria-item-6 = Icaaitom itacl spacta ca z ano pomiih ta x, ¡iicot impaai icaaitom ihmaa nscaa aha!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Haa nsaaco aha <icon></icon>¿Icaaitom hizcoi cöipamx xah, cöipaspoj xah tcooo quiipe ya?
