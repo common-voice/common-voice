@@ -26,6 +26,12 @@ sentence-domain-combobox-label = Гущыӏэухыгъэм итема
 sentence-domain-select-placeholder = Темащым нэс къыхэшъух (хэмыхыми хъун)
 # Sentence Domain dropdown option
 agriculture_food = Мэкъу-мэщ ыкӏи гъомлапхъэ
+# Sentence Domain dropdown option
+automotive_transport = Ку сектор ыкӏи транспорт
+# Sentence Domain dropdown option
+finance = Финанс
+# Sentence Domain dropdown option
+service_retail = Кулыкъу ыкӏи зырызыщэ
 
 ## BULK SUBMISSION 
 
