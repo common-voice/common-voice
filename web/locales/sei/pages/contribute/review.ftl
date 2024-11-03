@@ -48,3 +48,6 @@ report-sc-different-language = Icaaitom ihmaa
 report-sc-different-language-detail = Icaaitom hoaacta hac cöipaspoj hac icaaitom ihmaa ah yohaa.
 sentences-fetch-error = Icaaitom coi cömicaa hac ziix imiipe pac ano yoohca.
 review-error = Icaaitom hac itacl cömihoocta hac ziix imiipe pac ano yoohca.
+review-error-rate-limit-exceeded = Hansahax immahafzx aa. Icaaitom hac cömihoocta hac miizj pa ta, mpoocta, cöisiipe hac oo consiih aha.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Ziix quih anxö he iij capactoj iha
