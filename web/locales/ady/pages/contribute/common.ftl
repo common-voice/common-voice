@@ -98,5 +98,6 @@ shortcut-vote-no = х
 
 ## Validation criteria
 
-contribution-criteria-nav = Шапхъэ
+contribution-criteria-nav = Шапхъэхэр
+contribution-criteria-link = Шъуиӏахьэ зыхэлъ шапхъэхэр къыжъугурыӏоныр
 contribution-for-example = щысэм пае
