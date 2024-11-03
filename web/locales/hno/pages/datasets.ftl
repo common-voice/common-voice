@@ -8,3 +8,9 @@ datasets-positioning =
 language = زبان
 download-dataset-header = ڈیٹا سیٹ کو ڈاؤنلوڈ کرو
 download-delta-explainer = اساں کوئی تبدیلیاں کیتاں دیاں ہن۔ ڈیلٹا سیگمنٹس بچ صرف حالیہ کلپس ہن جدوں تو آخری ریلیز ہوئی۔ <deltaLink>اس کم دے بارے ہور پڑھو</deltaLink>۔
+download-dataset-tag = مطلوبہ زبان دا ڈیٹا سیٹ چنڑو ہور انتخاب کرو جڑا ورژن تسیں ڈاؤن لوڈ کرنا چہندے ہو۔
+# File size in gigabytes
+size = سائز
+validated-hr-total = ایچ آر ٹوٹل تصدیق کیتا دا
+overall-hr-total = ایچ آر ٹوٹل مجموعی طور تے
+cv-license = لائسنس
