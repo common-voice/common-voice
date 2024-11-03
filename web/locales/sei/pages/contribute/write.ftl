@@ -27,6 +27,13 @@ how-to-cite-explanation-bold = Enlace URL hapah zo shaa poho x, icaaitom hant co
 how-to-cite-explanation = Hapi miitom zo pohaa ta x, hanso <italicizedText>“Autocita”</italicizedText> xah miih iisax siipe aha. Icaaitom coi hant ano toii ma miiho hac hasooctam aha. Pocooo ihaht cöquiyaj xah, caaspoj quij hax cmiique xah quih iiqui cöquiicatx xah, taax cöhisiyaj hac oo cöhapacta ha taax ah haa itah ma, aama. Icaaitom tahac hant ihiip quih miizj pa ta ihaa mpoomzo x, hizaax <guidelinesLink>página de pautas</guidelinesLink> insoocta aha.
 guidelines = Icaaitom cöicocaai iic cöquiipe
 contact-us = Hiicot insiitom aha
+add-sentence-success = Icaaitom hant coii hapexl
+add-sentence-error = Icaaitom hant coii hant hac an hant cöiyaii hac ziix imiipe pac ano miihca
+required-field = Quinej hizac mos ano nsaaspoj aha.
+single-sentence-submission = Icaaitom hant coii quih hoox oo tazo hant hac iiqui caaca ha
+small-batch-sentence-submission = Icaaitom hant coii tipxalca oo iiqui pte quiih pac hant hac iiqui caaca ha
+bulk-sentence-submission = Icaaitom hant coii catxo pac hant hac iiqui caaca ha
+single-sentence = Icaaitom hant coii hapi cazoj
 
 ## BULK SUBMISSION 
 
