@@ -21,6 +21,9 @@ new-sentence-rule-5 = Icoosx ziix hant cöquih z an oo pomiih, ziix haa ihaaco z
 new-sentence-rule-6 = Icaaitom xiica quiistox ihmaa yaza ziix ano csiijim z iscmaainim aha
 new-sentence-rule-7 = Ihmaa zo haquix piih iitom quih mos an isiiquim aha
 new-sentence-rule-8 = Ihacaaitom iisax ziix hapi icaaitom cöismis hac (icaaitom hac cöisahcaaitom hac haai cöiscommipe hac oo cöspah aha)
+login-instruction-multiple-sentences = <loginLink>An cöscaazquim aha</loginLink> o <loginLink>ziix oo cöpopah an cöiscaazquim ha zo spaii aha</loginLink> icaaitom quih halx anàxo ano cöispaquim hac
+how-to-cite = ¿Zó hpooh icaaitom coi hszaxöhaa ya?
+how-to-cite-explanation-bold = Enlace URL hapah zo shaa poho x, icaaitom hant coii coi itaasi quih oo consiih poho x, taax oo compoh x, insaai aha.
 
 ## BULK SUBMISSION 
 
