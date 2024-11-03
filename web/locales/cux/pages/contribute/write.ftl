@@ -25,6 +25,7 @@ bulk-sentence-submission = Ndée  nudu nandamad niku dicho'od
 single-sentence = Áman nudu
 small-batch-sentence = Dúbii nudu
 bulk-sentence = Ndée nudu
+sentence-domain-combobox-label = Iña chi ñe'ë nudu
 # Sentence Domain dropdown option
 agriculture_food = Chi jinuy y je'eu
 # Sentence Domain dropdown option
