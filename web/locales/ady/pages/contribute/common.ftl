@@ -37,6 +37,7 @@ contribute-sentence-collection-nav-header = Гущыӏэухыгъэ угъои�
 login-signup = Ихь / зыхатх
 vote-yes = Ары
 vote-no = Хьау
+datasets = къэтыгъэ зэкӏэугъоягъ
 languages = Бзэхэр
 about = Ехьылӏагъ
 partner = Ӏэхьагъу
