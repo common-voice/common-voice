@@ -32,6 +32,9 @@ change-preferences = Къыхэхынхэр зэхъокӏ
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Мэкъэ угъоиыгъ
+contribute-sentence-collection-nav-header = Гущыӏэухыгъэ угъоиыгъ
+login-signup = Ихь / зыхатх
 vote-yes = Ары
 vote-no = Хьау
 languages = Бзэхэр
