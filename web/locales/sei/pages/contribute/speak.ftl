@@ -47,3 +47,6 @@ why-donate-explanation-1 = Icaaitom hant coii hizcoi pahqueepe x, iiqui cösompa
 why-donate-explanation-2 = Hant ziix quih an hant yaai hac mos áno cöisiipe xah, pocooo iiqui cöihiin hac cöisiipe hac, caaizi coi xiica quiistox coi anxö oo cöquii hac cöispaho hac oo cöspah aha. Hizaax ah oo cötpacta ma, zo haquix piih iitom hac ihapacta hac ihmaa coi ipommis ta, tiix iiqui cöpompah ta x, taax cöcaaitom zo haquix pii x, iiqui cöihiin hac piipe áa hax sama aha. <learnMore>Metadatos hapah quih ziix iti cötpacta ma, ziix cöihasiijim hac hant ihiip quih isoocta aha.<learnMore
 add-information-button = Icaaitom ihmaa pac ano nsiiquim aha
 continue-speaking-button = Saat, quiipe ha. Miitom quih yeen iiqui nsqueetx aha.
+create-profile-text = ¿Xiica hant hac ano mooquim quih miizj hacx insiiquim haa ya?<createProfile>Perfil zo nsaai aha</createProfile>
+thanks-for-voice-toast = Haa xah tiipe, mihipon cap ipacta quih hamii tax.
+thanks-for-voice-toast-error = Ihipon hac hant hac iiqui cöihaaca hac ziix imiipe pac ano miihca.
