@@ -119,3 +119,4 @@ contribution-misreadings-example-7-explanation = ['mi' z ano yomiih icaaitom hap
 contribution-misreadings-example-8-title = Haxz quih hax tafzx oo hant hac iti yafin.
 contribution-misreadings-example-8-explanation = [Icaaiton hant hac ano coii coi iyommis]
 contribution-varying-pronunciations-title = Icaaitom cöipamx hac iij icapacta quiya.
+contribution-varying-pronunciations-description = Icaaitom cöipamx hac imiipe zo haquix poohca ta, iiqui conscmah pi x, miizj insoocta aha. Icaaitom hizquih impamx quih iisax quihiih cah cöcatxo ha. Taax ah haa ipoh ta, haa xah poohca ta x, pac haquix poohjoj ta x, impii nscmaa aha. Icaaitom ziix qui an hant cooit hac cöquiimx hac halx iij ipacta iisax, hant ihiip quih popaa ta x, iiqui consiih aha.
