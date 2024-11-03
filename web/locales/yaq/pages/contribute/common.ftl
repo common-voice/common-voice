@@ -1,3 +1,18 @@
+action-click = pit'ta
+action-tap = yeu a pua
+contribute = aemak a ya'a
+review = majtekilbicha
+skip = chepta
+shortcuts = lutula kibakwapo
+clips-with-count-pluralized =
+    { $count ->
+        [one] chibejtime
+       *[other] chibejtimem
+    }
+goal-help-recording = Chookuttesia em a aniakapo u common voice a yumak juka [] itom tekil boo’o u nokwamta jityokame inia taiwechi []
+goal-help-validation = Chookuttesia em a aniakapo u common voice a yumak juka [] itom tekil boo’o  u nokwamta jityokame mabeta inia taiwechi []
+contribute-more = ¿Jaibu empo aet kobasuasuk [] watek ya betchibo?
+
 ## Contribution Nav Items
 
 
