@@ -264,6 +264,13 @@ privacy = رازداری
 terms = شرطاں
 cookies = کوکیاں
 faq = عام پُچھے دے سوال
+content-license-text = <licenseLink>کریئٹیو کامنز لائسنس</licenseLink> دے تحت مواد دستیاب ہے
+share-title = اسدی مدد کرو دویاں کو ڈھونڈنا واسطے کہ او اپنڑی آواز دا عطیہ کرن!
+share-text = مشین کو سیکھانڑا واسطے کہ اصلی لوگ کسطرح بولدے ہن اسدی مدد کر، اپنڑی آواز دا عطیہ { $link }تے دیو
+link-copied = لنک دی کاپی ہو گئی
+back-top = واپس چوٹی تے
+logout = لاگ آوٹ
+donate = عطیہ
 
 ## Donate banner
 
