@@ -1,12 +1,12 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Cói icaaitom ipi zo haa nyomaaco. Hizaax insoocta aha <profileLink>Perfil</profileLink>taax oo compoh icaaitom quih haa nsaaco aha.
-sc-review-title = Icaaitom hant coii coi insoocta aha
-sc-review-loading = Icaaitom hant coii pac chaa ha...
+sc-review-title = Icaaitom hant coii coi itacl consoocta aha
+sc-review-loading = Icaaitom hant coii pac caa ha...
 sc-review-select-language = Icaaitom zo haa poohca ta, haa mpaco, icaaitom hant coii ano coii quih isoocta ha.
 sc-review-no-sentences = Cmaax icaaitom hant coii spacta ca z ano yomiih. ¡<addLink>icaaitom ihmaa pac ano nsiiquim aha</addLink>!
 sc-review-form-prompt =
-    .message = Icaaitom haptco tpacta hapaxi quih hant hac iiqui cöipacta hac yomiipe, ¿inyahiipet ya?
+    .message = Icaaitom haptco tpacta hapaxi quih hant hac iiqui cöipacta hac yomiipe, ¿miizj ta ma, ipacta quih mocoaa ya?
 sc-review-form-button-reject = Iiqui cösompah aha
 sc-review-form-button-skip = Cösaheectim aha
 sc-review-form-button-approve = Quiipe ha
@@ -51,3 +51,5 @@ review-error = Icaaitom hac itacl cömihoocta hac ziix imiipe pac ano yoohca.
 review-error-rate-limit-exceeded = Hansahax immahafzx aa. Icaaitom hac cömihoocta hac miizj pa ta, mpoocta, cöisiipe hac oo consiih aha.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ziix quih anxö he iij capactoj iha
+sc-redirect-page-subtitle-1 = Sentence Collector hapah quih hant ziix quih an hant yaii Common Voice hapah hac iiqui cösiih caha. Cmaax icaaitom quih an  <writeURL>icapaspoj</writeURL> ipoá, mos icaaitom Common Voice hapah hac an hant hapacamam quih mos <reviewURL>icapacta</reviewURL> isiya aha.
+sc-redirect-page-subtitle-2 = Ziix zo cömasamiitoj pi x, hizaax masooctam aha <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
