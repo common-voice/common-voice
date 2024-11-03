@@ -10,18 +10,21 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>тетхагъэ
     }
 goal-help-recording = Коммон Войс-ым имурадэу мафэ къэс { $goalValue } тетхэнымкӏэ <goalPercentage></goalPercentage> фэдиз хъунэу укъыддеӏагъ!
-goal-help-validation = Коммон Войс-ым мафэ къэс { $goalValue } уплъэкӏун имурадкӏэ <goalPercentage></goalPercentage> фэдиз хъунэу укъыддеӏагъ!
+goal-help-validation = Коммон Войс-ым имурадэу мафэ къэс { $goalValue } уплъэкӏунымкӏэ <goalPercentage></goalPercentage> фэдиз хъунэу укъыддеӏагъ!
 contribute-more =
     { $count ->
         [one] { $count }-м нахьыбэ пшӏынэу ухьазыра?
        *[other] { $count }-м нахьыбэ пшӏынэу ухьазыра?
     }
+speak-empty-state = Мы бзэмкӏэ тетхэщт гущыӏэухыгъэ къэнэжьыгъэп...
+no-sentences-for-variants = Убзэ вариантымкӏэ гущыӏэухыгъэхэр къэмынэн ылъэкӏыщт! Уфаемэ, нэмыкӏ гущыӏэухыгъэхэр убзэкӏэ плъэгъуным пае, тегъэуцонхэр зэпхъокӏын плъэкӏыщт.
 speak-empty-state-cta = Гущыӏэухыгъэхэм ӏахьэ ахалъхь
 speak-loading-error =
     Угущыӏэным пае зи гущыӏэухыгъэ къэдгъотыгъэп.
     Сыолъэӏу, етӏанэ джыри зэ еплъ.
 record-button-label = Умакъэ тетх
 share-title-new = <bold>Къыддэӏэпӏэ</bold> нахьыбэ макъэ къэгъот
+keep-track-profile = Профил горэ къэгъэхъузэу ухэхъоныгъэр лъэужэефэжь
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
 
