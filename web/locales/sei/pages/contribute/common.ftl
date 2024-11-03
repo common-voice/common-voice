@@ -126,3 +126,4 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ hac ace
 contribution-varying-pronunciations-example-2-title = Inol cap cola imaa.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ hac maricaana iitom quih thaa ma, cöipamx hac sílaba hapah quih tazo oo ha, coocj z imhaa ha]
 contribution-background-noise-title = Ziix ipot hac ano tiih ma, hapee
+contribution-background-noise-description-extended = Icaaitom ziix quih an ahant cooit quih iicot cösiictim poho x, ziix z ano piih ta, spee poho ox xah zo pahii ta x, iiqui conscmah aha. Ox oo mpacta xo, icaaitom hant coii coi pocooo icapee ipoá ta x, mos quiipe ha.
