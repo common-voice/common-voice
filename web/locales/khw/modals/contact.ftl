@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = رابطوفارم
+contact-title = رابطو فارم
 contact-form-name =
     .label = نام
 contact-form-message =
