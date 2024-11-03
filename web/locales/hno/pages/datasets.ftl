@@ -28,3 +28,5 @@ confirm-no-identify = <b>تسیں متفق ہو</b>کہ تسیں کامن وائ
 confirm-join-mailing-list = تسیں کامن وائس دی ای میل والی لسٹ نال جڑنا چہندے ہو۔
 download-language = ڈاؤن لوڈ
 validated-hours = تصدیق شدہ گھنٹے
+recorded-hours = ریکاڈ کیتے دے گھنٹے
+whats-inside = کامن وائس ڈیٹا سیٹ دے اندر کے ہے؟
