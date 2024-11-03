@@ -44,6 +44,14 @@ agriculture_food = Ziix hapec xah, ziix hapahit xah
 automotive_transport = Trooquij quih ziix iicp xaha, ziix ano tquiij hant quih cöiqueectim quih iic xah
 # Sentence Domain dropdown option
 finance = Tom coi iic hac
+# Sentence Domain dropdown option
+service_retail = Hanso ziix quih cöiquitalhaa xah, ziix ptiti coii qupxa oo quih iij iiqui tquij cöiquitalhaa xah
+# Sentence Domain dropdown option
+general = Ziix quih tcooo ma, quíih iha
+# Sentence Domain dropdown option
+healthcare = Quisoj quij cöihiipe xaha, cöimiipe xah taax iicp iha
+# Sentence Domain dropdown option
+history_law_government = Ziix haptc iiha xaha, Ziix quih hapi hisolca coi oo cöipah xaha, Quihehe quij iicp xah taax haa ha
 
 ## BULK SUBMISSION 
 
