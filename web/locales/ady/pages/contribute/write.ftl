@@ -46,6 +46,10 @@ media_entertainment = Медя ыкӏи зэщ тегъэуныгъ
 nature_environment = Кӏыопсыр ыкӏи ӏэгъо-благъо
 # Sentence Domain dropdown option
 news_current_affairs = Къэбархэр ыкӏи рекӏокӏырэ хъугъэ-шӏагъэхэр
+# Sentence Domain dropdown option
+technology_robotics = Технологие ыкӏи Роботик
+sentence-variant-select-label = Гущыӏэухыгъэ идиaлект
+sentence-variant-select-placeholder = Диaлект горэ къыхэх (хэмыхыми хъун)
 
 ## BULK SUBMISSION 
 
