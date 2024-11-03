@@ -18,6 +18,9 @@ new-sentence-rule-2 = Icaaitom spaspoj ca coi, icaaitom quih iij caahjoj quih 15
 new-sentence-rule-3 = Cöipaspoj hac iti cötpaai ma, ihiipe isoj hac oo cöspah aha
 new-sentence-rule-4 = Cöipaspoj hac hapi ispacta hac iti pahpacta, icaaitom coi iicotaj xah, iti cöihiyataj xah taax miizj pa ta haa sahaaco aha.
 new-sentence-rule-5 = Icoosx ziix hant cöquih z an oo pomiih, ziix haa ihaaco ziix hant cöquiih z ano smiih aha
+new-sentence-rule-6 = Icaaitom xiica quiistox ihmaa yaza ziix ano csiijim z iscmaainim aha
+new-sentence-rule-7 = Ihmaa zo haquix piih iitom quih mos an isiiquim aha
+new-sentence-rule-8 = Ihacaaitom iisax ziix hapi icaaitom cöismis hac (icaaitom hac cöisahcaaitom hac haai cöiscommipe hac oo cöspah aha)
 
 ## BULK SUBMISSION 
 
