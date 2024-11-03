@@ -12,6 +12,7 @@ citation =
     .label = Къыхэхыгъэ тхыгъэ
 sc-review-write-title = Сыд фэдэ гущыӏэухыгъэха хэзгъэуцон слъэкӏыщтыр?
 sc-review-small-batch-title = Гущыӏэухыгъэ заулэ зэрэхэбгъэхъощтыр
+new-sentence-rule-2 = Гущыӏэухыгъэ пэпкӏ 15-м нахь макӏэ гущыӏэ
 new-sentence-rule-3 = Граммер тэрэз гъэфедэ
 new-sentence-rule-6 = Нэмыкӏыбзэ хьарыф щыӏэп
 contact-us = Шъукъытлъыӏэс
@@ -50,6 +51,7 @@ news_current_affairs = Къэбархэр ыкӏи рекӏокӏырэ хъуг
 technology_robotics = Технологие ыкӏи Роботик
 sentence-variant-select-label = Гущыӏэухыгъэ идиaлект
 sentence-variant-select-placeholder = Диaлект горэ къыхэх (хэмыхыми хъун)
+sentence-variant-select-multiple-variants = Пстэури бзэ / диалект заулэ
 
 ## BULK SUBMISSION 
 
