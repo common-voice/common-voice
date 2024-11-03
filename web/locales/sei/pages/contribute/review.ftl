@@ -16,6 +16,17 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
+sc-review-form-button-submit =
+    .submitText = Cöipacta hac cactim iha
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Icaaitom hant coii hapacta z an imiih iha.
+        [one] Icaaitom hant coiii quih tazo hapacta. ¡Haa xah tiipe!
+       *[other] { $sentences } Icaaitom hant coiii hapacta. ¡Haa xah tiipe!
+    }
+sc-review-link = Spacta aha
 
 ## REVIEW CRITERIA
 
