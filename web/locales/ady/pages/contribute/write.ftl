@@ -20,6 +20,8 @@ single-sentence-submission = Гущыӏэухыгъэ закъоу егъэжь�
 small-batch-sentence-submission = Гущыӏэухыгъэ заулэ егъэжьэн
 bulk-sentence-submission = Гущыӏэухыгъэ бэу егъэжьэн
 single-sentence = Закъо
+small-batch-sentence = Заулэ
+bulk-sentence = Бэу
 
 ## BULK SUBMISSION 
 
