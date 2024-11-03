@@ -10,6 +10,9 @@ small-batch-sentence-input-placeholder = Icaaitom pocooo ihaht ocoaaj inyaasipl 
 citation-input-placeholder = Icaaitom hapaspoj coi ipacta quih mos iti spaquim aha (taax oo cöispah hac oo toc cöcaahca ha)
 citation =
     .label = Icaaitom hant coii coi sahzaxö aha
+sc-write-submit-confirm = Icaaitom hizcoi <wikipediaLink>tcooo ma, oo cöipah iha</wikipediaLink>mos hant hac an hant cöhiiquim hac miizj ta ma, hiiqui hapacatx iha.
+sc-review-write-title = ¿Zó icaaitom an ihaquim hocoaa ya?
+sc-review-small-batch-title = ¿Zó popah icaaitom quih halx anàxo an ipaquim spaa haa ya?
 
 ## BULK SUBMISSION 
 
