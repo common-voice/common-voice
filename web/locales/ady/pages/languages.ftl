@@ -1,6 +1,6 @@
 ## Languages Overview
 
-contribute = Тыны
+contribute = Ӏахьэ хэлъхьан
 get-involved-email =
     .label = Епочта
 get-involved-submit = Егъэхь
