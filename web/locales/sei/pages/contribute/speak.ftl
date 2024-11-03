@@ -51,3 +51,8 @@ create-profile-text = ¿Xiica hant hac ano mooquim quih miizj hacx insiiquim haa
 thanks-for-voice-toast = Haa xah tiipe, mihipon cap ipacta quih hamii tax.
 thanks-for-voice-toast-error = Ihipon hac hant hac iiqui cöihaaca hac ziix imiipe pac ano miihca.
 first-cta-gender-select-default-option = Pac haa poohca ta, haa sahaaco aha
+first-cta-gender-select-help-text =
+    .label = ¿Zó mpapacta iti ihaquim intamzo, ctam xah, cmaam quih cömihaa hac?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Haa xah tiipe mihipon cap ziix quih an hant cömiicatx hac!
+second-cta-subtitle-text = Perfil hapah zo mpoyaa x, ziix hant hac ano nyaai quih ihaacta mpoaa x, mos xiica quiistox ihmaa, ihipoza quih hant quih an hant quicmolca quih ziix oaanloj quih insoocta aha.
