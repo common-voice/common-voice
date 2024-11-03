@@ -290,3 +290,5 @@ not-available-abbreviation = این/اے
 donate-banner-cta = <mark>اساں کو</mark><br/><mark>تسدی مدد چائی دی ہے!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = ڈیٹا سیٹس دی میزبانی کرنا اَستے ہور اس پلیٹ فارم کو 100 تو زیادہ  زبان دی کمیونیٹیاں جڑیاں استے اُتا بھروسہ کردیاں ہن واسطے اچھا بنڑانڑ واسطے تقریباََ ہک ملین ڈالر سالانہ خرچ آندا ہے۔ <strong>اگر تُسین اوپن، جامع ڈیٹا دی قدر کردے ہو تے- اَج ہی عطیہ کرو!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>سی وی استعمال کر رے ہاں</mark><br/><mark>تُڑی تحقیق واسطے؟</mark>
