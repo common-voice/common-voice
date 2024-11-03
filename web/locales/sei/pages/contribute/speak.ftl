@@ -41,3 +41,5 @@ terms-agree = Iicot cöhihiisax iha
 terms-disagree = Iicot cöhimiisax iha
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ¡Haa xah tiipe mihiipon cap ziix quih an hant cöisooit hac iiqui cömiicatx hac!
+first-cta-subtitle-text = ¿Miitom hac ipacta xah, hant ihiip zo haa poohca ta impozaxö ta, ipaa ntamzo?
+why-donate = ¿Áz iij cota ma nyaamiit ya?
