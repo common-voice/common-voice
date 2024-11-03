@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
-sc-review-form-keyboard-usage-custom = Kadi tubid atajo ñe'e teclado tochi a noó, tochi gua noó y tochi ne'ed chi cho'o tama nudu.
+sc-review-form-keyboard-usage-custom = Kadintu ko'onto'on  kuu chi joto'y noo { sc-review-form-button-approve-shortcut } tochi a noo{ sc-review-form-button-reject-shortcut }tochi ne'e kanbin{ sc-review-form-button-skip-shortcut }tochi ne'en kabnunn tama nudu
 sc-review-form-button-submit =
     .submitText = A chinu nichi a noó
 # Variables:
@@ -47,6 +47,7 @@ sc-criteria-item-5-2 = Nichi nudu gua jidi cumplir nuku nukue criterios tumin ko
 sc-criteria-item-6 = Nichi a kutea nudu chi kamad nichi noó o gua noó. ¡Kadi kuned insú chi nùn ta tae nudu!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Did marcar. ¿A noó kanejú nudu ku?
+sc-review-rules-title = ¡chi jo'o a noo, a dama jo'o?
 sc-review-empty-state = Mniñun a kutea nudu chi nichid nichi a noó o gua noó ñe'e nudu ku.
 report-sc-different-language = tama nudu
 report-sc-different-language-detail = Gua ñe'e nudu chi kanejú
