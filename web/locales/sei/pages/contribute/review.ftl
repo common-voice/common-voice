@@ -31,5 +31,9 @@ sc-review-link = Itacl consoocta aha
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Itacl spacta pi, ispaii hac
-sc-criteria-title = Itacl spacta pi, ispaii hac
+sc-criteria-modal = ⓘ Itacl spacta pi x, hizaax spacta aha
+sc-criteria-title = Itacl spacta pi x, hizaax spacta aha
+sc-criteria-make-sure = Icaaitom hant coii coi pocooo hizaax oo cöspacta caha:
+sc-criteria-item-1 = Icaaitom hant coii hac cöipaspoj hac cöisiipe hac oo cöspah aha.
+sc-criteria-item-2 = Icaaitom hac cöispaspoj hac miizj cöisyaxi hac oo cöspah aha.
+sc-criteria-item-3 = Icaaitom hant coii coi miizj ipamx cöispá hac oo cöspah aha.
