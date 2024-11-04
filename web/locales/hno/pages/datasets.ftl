@@ -44,3 +44,4 @@ resource-deepspeech-info =
      جائزہ </githubLink> پڑھو یا شروع کرنا دا طریقہ سیکھنڑا کیتے <discourseLink>DeepSpeech ڈسکورس </discourseLink> بچ شامل ہوو۔
 resource-coqui-info = <coquiLink> Coqui </coquiLink> تقریر دی ٹیکنالوجی کو کھولنڑ واسطے وقف ہے۔ ان دے منصوبیاں بچ ڈیپ لرننگ  تے مبنی STT تے TTS انجن شامل ہن۔
 community-playbook = کمیونٹی پلے بک
+resource-playbook-info = کامن وائس دے پورے سفر تے، لوکلائزیشن تو گِِھن کے ڈیٹاسیٹ دے استعمال تک، نال اسدی کمیونٹی نال جُڑنا دے طریقے تے <playbookLink> مددگار رہنمائی گِِھنو </playbookLink>۔
