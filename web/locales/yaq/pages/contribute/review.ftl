@@ -4,7 +4,7 @@ sc-review-lang-not-selected = Ketún empo ke wepul nooki tat a pit'ta, chaka'ari
 sc-review-title = Nook tewa’aim bicha
 sc-review-loading = Ketun am nook tobo’ote jume nook tewua'aim…
 sc-review-select-language = Wuepul nookit a pit'ta wuate nook tewa'aim bitbaeteko
-sc-review-no-sentences = Jaibu kaita nookim bitbetchi'ibo xxx wuate nookim amma kibacha.
+sc-review-no-sentences = Jaibu kaita nookim bitbetchi'ibo wuate nookim amma kibacha.
 sc-review-form-prompt =
     .message = Ka! bit’tuari jume jaibu bit'rime, ¿junuen empo a su'utoibae?
 sc-review-form-usage = Em batam bicha a soita nook tewa’ai ta mabet betchibo. Em mikko’otana a soita ka mabetbaeteko, jikaubicha a soita a cheptabaeteko. ¡kat a aebeaj ko’kopte em jaibu intumammatteim bituabaeteko!
@@ -21,6 +21,34 @@ sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Omot lula ket empo a ma kibake am mabetbetchibo into kam mabetbetchibo into kechia am cheptabetchibo, into am cheptabetchibo.
+sc-review-form-button-submit =
+    .submitText = A bit’sune
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Kaita nook tewa'aita bitla
+        [one] nook tewa'ai bit’ri. ¡chookuttesia!
+       *[other] [] nook tewa’aim bit’ri.
+    }
+sc-review-form-review-failure = Ka e’riatuk u em jaibu mabetlaum. Chia chu’kula juchia a jiobilane.
+sc-review-link = Bitne
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = lutu’uria jajamiam
+sc-criteria-title = lutu’uria jajamiam
+sc-criteria-make-sure = Jume sime nook tewa’im lutu’uria jajameim ta we’yane
+sc-criteria-item-1 = Ju Nook tewa’i nita’ke tuisi jiokteritune.
+sc-criteria-item-2 = Ju Nook tewa’i nita’ke tuisi jiokteritune.
+sc-criteria-item-3 = Ju Nook tewa’i nita’ke a tuisi tewuatune.
+sc-criteria-item-4 = Ju Nook tewa’i sime jajamiam mabet’rituko, apit’ta mabetwuapo, batam meu bicha.
+sc-criteria-item-5-2 = Ju Nook tewa’i ka jajamiam mabet,rituko, a pit’ta Ka a mabetwuapo, em mikkoi u bicha. Ka tu june’ateko juni’i a chepta.
+sc-criteria-item-6 = Jaibu kaita nook tewa’aim ayuk juni’i intom annia ka wuate nook tewa’im nau toja.
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = jikku’ubwa. ¿juka nook tewuaita chia tuisi jiamta?
+sc-review-rules-title = U Jeewitei a yuma’aria juka lutu’uriata?
+sc-review-empty-state = Ian lau’tipo Kaita nook tewa’aim ayuk bitbetchibo.
+report-sc-different-language = Tabwi nooki
+report-sc-different-language-detail = Tabwi nook po jiokterim ta bena ka wua nim mabetame benasia.
+sentences-fetch-error = Jiob’ria amma yeu sika nook tewa’aita jariuwapo.
