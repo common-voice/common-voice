@@ -125,3 +125,9 @@ rate-limit-message-seconds =
         [one] Hant ziix quih an hant yaii hizac iti cöpoyaxi ta, ziix quih hant quih iiqui cöispaca hac íti cöyajoz. Segundo quih tazo mpaqueejim impaai insoocta aha. ¡Haa xah tiipe mmaqueejim tax!
        *[other] Hant ziix quih an hant yaii hizac iti cöpoyaxi ta, ziix quih hant quih iiqui cöispaca hac íti cöyajoz. Segundoj pac impaqueejim impaai insoocta aha. ¡Haa xah tiipe mmaqueejim tax! { $retryLimit }
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] de 1 icaaitom hant coii an hapaptx
+       *[other] de { $totalSentences } icaaitom hant coii an hapatx coi
+    }
