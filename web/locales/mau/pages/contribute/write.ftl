@@ -100,3 +100,4 @@ too-many-files = Nkjín ma xujun
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Kjín nijmí xi kuan skut'a tsi'í chuta <icon></icon>kuinyajin
 multiple-sentences-error = Mi maa nkjín nijmí sinyajin tsá to chuba chúkjuare nga si kjí.
+exceeds-small-batch-limit-error = Mi maa ts'atu jngu 1000 nijmí sikasén
