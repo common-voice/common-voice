@@ -37,8 +37,14 @@ feedback-q = kia nasiat shian e?
 # This indicates that there is no data to display
 no-information = Malumat ne
 resource-nemo-info = NVIDIW NeMo, kholaw toolkit, khojaw , sawzawaw mashkugi AI an nishan sawzain day
+resource-deepspeech-info = Mozilla’s kholaw awazas  phon, jonikas bati, prus't mondran ya o to mondr recard kariksa bati sazai asan. Mas homa <githubLink>Github overview</githubLink> or join the <discourseLink> gohan mon m'aikas bati</discourseLink> Kh'en kay shurukh kan
+resource-coqui-info = <coquiLink>Coqui</coquiLink> mahikas bati shama technology. Tasi projects bo gohna hin, gohna mon shian shaya  STT ze TTS engine una
+community-playbook = Camety lab'e hiuni kitab
+resource-playbook-info = <playbookLink> zaruri malumat gre </playbookLink> sawin awaz una, tan mi zuban una, dataset tayar karik day. tan jaiga una sawin awaz kh'en kay istimal karis, tan camety ani mochan som khe'n thi mila his
+data-other-librispeech-description = LibriSpeech is a corpus se kamazkam 1000 ganta una 16Khz angrezi ani mon kitabani eta shian.  LibriVox project una shian.
 data-other-ted-name = ted lium corpus
 data-other-ted-description = ted lium corpus kia ki shiow asa audio talks zhe tai transcription as thara sauz thi shiow se TED website una available shiow
+data-other-voxforge-description = VoxForge shatalako sawuz thi ashis ki, aya engine una saw kia mon shulian, te saw kay wats kay thek bahas.
 data-other-tatoeba-description = Tatoeba ak drigha database as mondr, translation zhe maila awaz zuban jhonikas bate.english tase community una record thi shiaw
 your-feedback = tu kia jhonis a ki ai khn kay common voice dataset sahi kay sawzak.homa kay tan khyalat an izhar ka
 go-discourse = pa khyalat an izhar ka

@@ -32,6 +32,29 @@ sc-review-form-reviewed-message =
        *[other] جملیاں دا جائزہ ہو گیا۔ شکریہ!
     }
 sc-review-form-review-failure = جائزہ محفوظ نہ ہویا ہوسی۔ برائے مہربانی بعد بچ دوبارہ کوشش کرو۔
+sc-review-link = نظرثانی
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ نظرثانی دا معیار
+sc-criteria-title = نظرثانی دا معیار
+sc-criteria-make-sure = اس گلا کو یقینی بنڑاؤ کہ جملہ دتے دے میعار تہ پورا اُترا:
+sc-criteria-item-1 = جملے دی املا ٹھیک ہونڑا ضروری ہے۔
+sc-criteria-item-2 = جملے دی گرائمر ٹھیک ہونڑا ضروری ہے۔
+sc-criteria-item-3 = جملہ بولنڑا دے قابل ہونڑا ضروری ہے۔
+sc-criteria-item-4 = اگر جملہ میعار تہ پورا اُترے، تے سجّے پاسے&quot;منظور&quot;دا بٹن دباؤ۔
+sc-criteria-item-5-2 = اگر جملہ اُتا دِتے دے میعار تے پورا نیں اُتردا، تے بائیں پاسے&quot;مسترد&quot;دا بٹن دباؤ۔ اگر تُساں کو جملے دے بارے شک ہوے، تسیں اسکو چُھوڑ ہکدے ہو تے اگلے کسی تے جُل ہکدے ہو۔
+sc-criteria-item-6 = اگر تُساں کول جائزہ گِِننّا واسطے جملے مُک جُلدے ہن، براہ مہربانی ہور جملے جمع کرنا واسطے اسدی مدد کرو!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = پڑتال کرو<icon></icon>آیا اے جملہ لسانی طور تے ٹھیک ہے؟
+sc-review-rules-title = جملہ ہدایات تے پورا اُتردا ہے؟
+sc-review-empty-state = اس وقت اس زبان بچ نظرثانی واسطے کوئی جملے نیں۔
+report-sc-different-language = مختلف زبان
+report-sc-different-language-detail = اے مڑی نظرثانی آلی زبان کولو مختلف زبان بچ لکھے دے ہن۔
+sentences-fetch-error = جملے آنڑناں بچ ہک خرابی ہو گئی
+review-error = اس جملے دی نظرثانی بچ ہک خرابی ہو گئی
+review-error-rate-limit-exceeded = تُسیں مچ جلدی کردیو۔ براہ مہربانی جملے دے جائزے واسطے تھوڑا وقت لاؤ نال اس گلا کو یقینی بنڑاؤ کہ اے ٹھیک ہے۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اسیں کوئی بڑی تبدیلیاں کر رے آں
+sc-redirect-page-subtitle-1 = جملے جمع کرن آلا بنیادی کامن وائس پلیٹ فارم دی طرف جلدا ہے۔ ہونڑ تسیں ہک جملہ<writeURL>لکھ</writeURL>ہکدے ہو یا <reviewURL>جائزہ</reviewURL>گِِھن ہکدے ہو، ہک جملہ کّٹھا کر سکدے ہو۔
+sc-redirect-page-subtitle-2 = اساں کولو <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> دے بارے سوالات پُچھو۔

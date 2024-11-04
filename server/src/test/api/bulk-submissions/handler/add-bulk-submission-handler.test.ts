@@ -12,7 +12,11 @@ describe('AddBulkSubmissionHandler', () => {
 
   it('should return bad request 400 with file too large message', async () => {
     const reqMock: any = {
-      client_id: 'abc',
+      session: {
+        user: {
+          client_id: 'abc',
+        },
+      },
       headers: {
         'content-length': 26 * 1024 * 1024,
       },
@@ -33,6 +37,10 @@ describe('AddBulkSubmissionHandler', () => {
 
   it('should return bad request 400 when client_id is not present', async () => {
     const reqMock: any = {
+      session: {
+        user: {
+        },
+      },
       headers: {
         'content-length': 100,
       },
@@ -56,7 +64,11 @@ describe('AddBulkSubmissionHandler', () => {
     const realFileSize = 26 * 1024 * 1024
 
     const reqMock: any = {
-      client_id: 'abc',
+      session: {
+        user: {
+          client_id: 'abc',
+        },
+      },
       headers: {
         'content-length': contentLengthSize,
       },
@@ -65,7 +77,7 @@ describe('AddBulkSubmissionHandler', () => {
       },
     }
 
-    reqMock[Symbol.iterator] = function*() {
+    reqMock[Symbol.iterator] = function* () {
       yield Buffer.alloc(realFileSize, 'a')
     }
 
@@ -85,7 +97,11 @@ describe('AddBulkSubmissionHandler', () => {
     const realFileSize = 1024
 
     const reqMock: any = {
-      client_id: 'abc',
+      session: {
+        user: {
+          client_id: 'abc',
+        },
+      },
       headers: {
         'content-length': contentLengthSize,
       },
@@ -94,7 +110,7 @@ describe('AddBulkSubmissionHandler', () => {
       },
     }
 
-    reqMock[Symbol.iterator] = function*() {
+    reqMock[Symbol.iterator] = function* () {
       yield Buffer.alloc(realFileSize, 'a')
     }
 
@@ -111,14 +127,20 @@ describe('AddBulkSubmissionHandler', () => {
   it('should return internal server errror 500 when application error is returned', async () => {
     const errMsg = 'Oops'
     const addBulkSubmissionHandler = handler(
-      jest.fn((cmd: AddBulkSubmissionCommand) => TE.left(createBulkSubmissionError(errMsg)))
+      jest.fn((cmd: AddBulkSubmissionCommand) =>
+        TE.left(createBulkSubmissionError(errMsg))
+      )
     )
 
     const contentLengthSize = 1024
     const realFileSize = 1024
 
     const reqMock: any = {
-      client_id: 'abc',
+      session: {
+        user: {
+          client_id: 'abc',
+        },
+      },
       headers: {
         'content-length': contentLengthSize,
       },
@@ -127,7 +149,7 @@ describe('AddBulkSubmissionHandler', () => {
       },
     }
 
-    reqMock[Symbol.iterator] = function*() {
+    reqMock[Symbol.iterator] = function* () {
       yield Buffer.alloc(realFileSize, 'a')
     }
 
@@ -137,10 +159,12 @@ describe('AddBulkSubmissionHandler', () => {
 
     await addBulkSubmissionHandler(reqMock, resMock)
 
-    expect(resMock.status).toHaveBeenCalledWith(StatusCodes.INTERNAL_SERVER_ERROR)
+    expect(resMock.status).toHaveBeenCalledWith(
+      StatusCodes.INTERNAL_SERVER_ERROR
+    )
     expect(resMock.json).toHaveBeenCalledWith({
       message: errMsg,
-      kind: BulkSubmissionErrorKind
+      kind: BulkSubmissionErrorKind,
     })
   })
 })

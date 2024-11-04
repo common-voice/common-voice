@@ -1,4 +1,5 @@
 listen = ያዳምጡ
+listen-subtitle = የድምጾችን ትክክለኛነት እንድናረጋግጥ ይርዱን
 listen-instruction = { $actionType } <playIcon> </playIcon> ዓረፍተ ነገሩን በትክክል ተናገሩ?
 listen-again-instruction = ምርጥ ሥራ! <playIcon> </playIcon> ዝግጁ ሲሆኑ እንደገና ያዳምጡ
 listen-3rd-time-instruction = 2 አልቋል፣ ቀጥልበት!<playIcon></playIcon>
