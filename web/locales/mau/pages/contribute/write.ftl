@@ -86,6 +86,8 @@ what-needs-to-be-in-file-explanation = Chut'ae<templateFileLink>xujunajin</templ
 upload-progress-text = Jee timijin...
 sc-bulk-submit-confirm = Je nijmí <wikipediaLink>kuan skue tsi'í chuta,</wikipediaLink> tjinna ngand'e nga sikijian.
 bulk-upload-success-toast = Je tsé énn tsijin.
+bulk-upload-failed-toast = Mi nda tdijin, k'ua tike nguinik'a.
+bulk-submission-success-header = ¡Niná kat'echiri nga kjín kinikasein!
 
 ## SMALL BATCH SUBMISSION
 
