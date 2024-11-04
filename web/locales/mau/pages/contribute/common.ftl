@@ -107,3 +107,6 @@ contribution-misreadings-description-extended-list-2 = Chaja jngu <strong>s</str
 contribution-misreadings-description-extended-list-3 = K'ua te tjín énn xi tsín, ju tsú tsá "pal" nga'ndere nga "para el" kuixú.
 contribution-misreadings-description-extended-list-4 = Kichajá énn xi jet'a, nñú xutí tsichare nga tichibet'ae.
 contribution-misreadings-description-extended-list-5 = Kjín k'a t'exkiye jngu énn.
+contribution-misreadings-example-1-title = Chu dinosaurios xi kis'e nú xchá xi Triasico in.
+contribution-misreadings-example-2-title = Jé chu dinosaurios xi kis'e nú xchá xi triasico in.
+contribution-misreadings-example-2-explanation = Tsá chu dinosaurio kuan
