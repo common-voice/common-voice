@@ -57,15 +57,47 @@ report-different-language = مختلف زبان
 report-different-language-detail = مہ کھئی زبان کی کھونڈانو  انو ایسے زبان کی نہ چونٹولو ہِنو۔
 report-difficult-pronounce = ادا تھئنی زور
 report-difficult-pronounce-detail = اینوے ایتیݨو لوزہ یا لھوکہ جملے ہنہ کی تنام منئنی یا ادا تھئنی بیڈو زور۔
+report-offensive-speech = کھیچی بیتی
+report-offensive-speech-detail = ہاویزی وے بیڈی کھیچی یا غیر مہذب بیتی ہنم۔
+report-other-comment =
+    .placeholder = تبصرہ
+success = کامیاب
+continue = جاری
+report-success = رپوٹ کامیبی کی منظور بھلی
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = ریکاڈ تھہ/بند تھہ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ہاواز دوبارہ ریکاڈ تھہ
+shortcut-discard-ongoing-recording = ایس کیپ
+shortcut-discard-ongoing-recording-label = انو ریکاڈ ضائع تھہ
+shortcut-submit = واپس تھہ
+shortcut-submit-label = ہاواز/کلپ جمع تھہ
+request-language-text = تھی زبان کمن وائسہ وے نئینی وا؟
+request-language-button = زبینی دپارہ درخواست تھہ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
+shortcut-play-toggle-label = لگیہ/بند تھہ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-criteria-nav = اصول
