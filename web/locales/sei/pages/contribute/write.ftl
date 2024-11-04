@@ -83,6 +83,9 @@ minimum-sentences = Icaaitom hant coii archivo quih ano coii quih mos áno quipx
 maximum-file-size = Archivo quih iti icaacoj cöquiya quih hizaax haa ha: 25 MB
 what-needs-to-be-in-file = ¿Áz haxehe iti soii quee ya, expediente hyaa quih?
 what-needs-to-be-in-file-explanation = <templateFileLink>archivo de plantilla</templateFileLink> hant hac ano quiih quih insoocta aha. Icaaitom inyaaspoj coi caspoj íi zo haquix piih pocooo cöisiiht hac iiqui ipocatx ta, miizj hant ihiip quih popaa ta, mos cöipaspoj hac piipe, ihacaaitom iic cösiipe hac oo cöspah aha. Icaaitom hant hac iiqui hapaca coi segundo quih 10 xah 15 xah taax iti pafin ta cöisiipe hac oo cöspah aha, mos icoosx ziix hant cöquiih z iiqui cöpompah, hataasi z iiqui cöpompah, ziix haa ihaaco ihmaa mos z iiqui cösompah aha.
+upload-progress-text = Icaaitom hant hac ano spaquim ha quih áno cöisoii hac caai iha...
+sc-bulk-submit-confirm = Icaaitom hizcoi <wikipediaLink>tcooo ihaht ocoaaj iha</wikipediaLink>mos hant quih ano cöhisiiquim hac miizj ta ma, hiiqui ipacatx iha.
+bulk-upload-success-toast = Icaaitom hant coii iiqui pte quiih hant quih ano spaquim ca
 
 ## SMALL BATCH SUBMISSION
 
