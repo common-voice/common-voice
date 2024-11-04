@@ -100,3 +100,4 @@ contribution-criteria-link = 'Anhma'yanhä juts wa'a ndsäjka'nhäyu yä' yosku'
 contribution-criteria-page-title = Juts wa'a ndsäjka'nhäyu yä' yosku'y.
 contribution-criteria-page-description = ¡'Anhma'yanhä wa'a tiyä musu me'tsa manba'k te' 'ode'is tsyame, yajkti pa'tke'dadi juts wa'a sa'sya mdsäjkanhwajku te' 'mode'is tsame tsä'byabä!
 contribution-for-example = Yä'sebä
+contribution-misreadings-title = Ji' wyäbä tsa'manhwajku'y
