@@ -281,6 +281,12 @@ email-opt-in-info = مہ ایمیل یھئنی جاری ساتئنی دوائی�
 email-opt-in-info-title = کمن وائسی ایمیل لسٹی وے شامل بھہ۔
 email-opt-in-info-sub-with-challenge = ما تھے ایتیݨہ ایمیلی یھین وڑئی کی سے مقابلہ یا  حدف ماتھے یات تھوون۔ می کرامی بائی آگاہی بھی او کمن وائسی برہ کی ماتھے نیوز لیٹری یھین۔
 email-opt-in-privacy-v2 = ایمیل یھئنی جاری ساتئنی قبول تھئنی اینیۡ بات واضح بھلی کی موزیلا انی معلومیتی  موزیلائی <privacyLink>  تفصیل دئنی سنبھال تھیلی ہینتہ تس تھے قبول۔ راز داریی پالیسی</privacyLink>
+indicates-required = کھئی زھئی وے انی نݜون (*) ہینسلی ہینتہ ڑائی مطلب ایڑے کی ڑو بیڈو ضروری
+not-available-abbreviation = تو جھلی لاگو نہ۔
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = اسام تھے تھی مددی </mark><mark>  ضرورت ہنیۡ</mark><mark><br/>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹاسیٹ گو چھورئنی دپارہ یا ڑس مزید بہتر سمئنی دپارہ کالی آک کروڑ ڈالری ضرورت۔ اسی انو کرام  <strong> پانج بھشہ دی زیات خلکہ استعمال تھانہ۔ تو بی اگر بٹھیمی معلعمیتی قدر تھانو ہینتہ آجے مالی تعاون تھہ  </strong>
