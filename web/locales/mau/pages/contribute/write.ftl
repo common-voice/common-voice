@@ -131,3 +131,9 @@ add-small-batch-success =
         [one] { $uploadedSentences } tse 1 nijmí xi kuan ñajan
        *[other] { $uploadedSentences } tse nijmí xi kuan ñajan
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } Jngu nijmí xi kuañajan tisenere<downloadLink> i</downloadLink> nga kuan chaajen xi mi kuan kii.
+       *[other] { $uploadedSentences } xi kuañajan tisenere <downloadLink> i </downloadLink> nga kuan chaajen xi mi kuan kii.
+    }
