@@ -106,6 +106,7 @@ about-playbook-how-grow-language-content-8 = <strong> ناوہ شیہ سمئنی
 about-playbook-how-validate = مہ کنا تھے جھونم کی انی ہاویزی کلپ منظور بھی تھنی؟
 about-playbook-how-validate-content-1 = تو بھئانو ہینتہ <strong>ایڑنام کاݨ تھئنی </strong>او ایڑنام جھانئنی دوائیانو ہینتہ۔ انو  عام طور کی <strong> منظوری گھنئنی آک شو طریقہ۔
 about-playbook-how-validate-content-2 = <strong>   ایسو ہاواز کرے بی رد نہ تھہ  کی تیوے کھونڈاٹی تلفظ تھی تلفظی دی بدل ہونسہ  </strong>-بٹھے بے اکٹجی کرام تھے  تیݨی زبینی ہاوا جھانئینی دپارہ انو بیڈی ضروری کی ہر آکی لہجہ کاݨ تھینڈیو۔
+about-playbook-how-validate-content-3 = اگر لہجئی وجہ باندی جھانئنی ناممکن بھانو ہینتہ <strong>  یا تیر چاپھیر <strong> گہ شور بھانو ہینتہ </strong> یا  دوئی خلکیمی <strong> بیتی بی ہنم ہینتہ</strong> تھے ایسو ہاواز رد تھائی بھوڑ۔ <accuracyLink>۔  مزید معلومیتی دپارہ  انی لنکی وے معیاری بھئنی بارئی دڇھہ </accuracyLink>
 
 ## How to access dataset
 
