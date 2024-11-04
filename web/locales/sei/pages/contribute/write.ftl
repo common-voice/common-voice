@@ -89,6 +89,14 @@ bulk-upload-success-toast = Icaaitom hant coii iiqui pte quiih hant quih ano spa
 bulk-upload-failed-toast = Icaaitom hant hac ano spaquim ha coi imiipe pac ano yoohca haptco mos impaai insoocta ha.
 bulk-submission-success-header = ¡Haa xah tiipe, xiica hant hac iiqui nyaaca iiqui pte quiih coi hiicot cömihaai hac!
 bulk-submission-success-subheader = ¡Me Common Voice quih Icaaitom hant coii hant ifii coox cah x, ziix quih an hant isicatx xah ta oiimoz quih me iicot caai iha!
+upload-more-btn-text = ¿Icaaitom ihmaa pac ano nsiiquim haa ya?
+file-invalid-type = Archivo ziix zo cöihasiijim iic cöimiipe
+file-too-large = Archivo quih iisax quihiih cah cöxaacoj
+file-too-small = Archivo quih iisax quihiih cah cöxisil
+too-many-files = Archivoj quih iisax quihiih cah anxö ano cöxoaii
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Icaaitom hant coii <icon></icon> quih halx pootàxo ta, hant pocooo ihaht ocoaaj hac ano nsiiquim aha
+multiple-sentences-error = Icaitom hant coii halx catàxo quih hanso hant hac an icapaquim iyomá.
