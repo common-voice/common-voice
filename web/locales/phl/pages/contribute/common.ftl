@@ -11,6 +11,12 @@ clips-with-count-pluralized =
     }
 goal-help-recording = کمن وائسی روزانئی <goalPercentage></goalPercentage>  { $goalValue } ریکارڈ پورا تھئنی مدد تھیلی۔
 goal-help-validation = تھی کمن وائسی روزانئی  <goalPercentage></goalPercentage>  { $goalValue } تصدیق پورا تھئنی مدد تھیلی۔
+contribute-more =
+    { $count ->
+        [one] { $count } دوئی مزید گ تھئنی دپارہ تیارے؟
+       *[other] { "" }
+    }
+speak-empty-state = انی زبینی ریکارڈ تھئنی دپارہ اسام دی جملے ختم بھلہ۔
 
 ## Contribution Nav Items
 
