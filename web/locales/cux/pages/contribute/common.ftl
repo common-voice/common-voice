@@ -2,12 +2,12 @@ action-click = Koto'od
 action-tap = Neabad
 contribute = Kuned insu
 review = Nichid a noo
-skip = Kabyákud
+skip = Kabnud
 shortcuts = Kuno kuakud
 clips-with-count-pluralized =
     { $count ->
-        [one] ama
-       *[other] taama
+        [one] <bold>{ $count }</bold>ama tò
+       *[other] <bold>{ $count }</bold>taama tò
     }
 goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen nukue nudu chi ñe'e chi kuto'on job jobe!
 goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue nudu nóo chi ne'en ñe'e job jobe !
