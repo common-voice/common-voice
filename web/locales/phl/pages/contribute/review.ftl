@@ -8,6 +8,9 @@ sc-review-no-sentences = گھرے دڇھئنی دپارہ جملے نئینہ۔<
 sc-review-form-prompt =
     .message = گھرے دڇھِلہ بھاؤ جمع نہ بھلہ، تھی یقین ہِنئیے؟
 sc-review-form-usage = جملہ منظور تھئنی دپارہ دڇھینیتی دوشی پِچھہ۔ رد تھئنی دپارہ کھوشیتی ڈڈی پچھہ۔ دھرئنی دپارہ انی  دھرہ۔ تیݨی دوبارہ دڇھلو واندو ٹیکسٹ جمع تھئنی نہ آموݜٹ۔
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ذریعہ: { $sentenceSource }
 sc-review-form-button-reject = رد تھئنی
 sc-review-form-button-skip = اُڑیگلئنی
 sc-review-form-button-approve = منظوری
@@ -17,6 +20,16 @@ sc-review-form-button-approve-shortcut = وائی
 sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
+sc-review-form-button-submit =
+    .submitText = گھرے دڇھئنی مکمل تھہ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] جملے گھرے نہ دڇھِلہ
+        [one] 1 جملہ گھرے دڇِھلو، شکریہ
+       *[other] 2 جملے گھرے دڇھلہ، شکریہ
+    }
 
 ## REVIEW CRITERIA
 
