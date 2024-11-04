@@ -101,3 +101,4 @@ contribution-criteria-page-title = Chuba xi kuan xkuca.
 contribution-criteria-page-description = Katamari jmé xi kuijyí nga kuinu'ye xta xi kitjubet'a kua katanari jusin nga nda chubet'ae xtari.
 contribution-for-example = Jngu chuba
 contribution-misreadings-title = Mi nda ts'atuya
+contribution-misreadings-description = Nga kuinu'ye, nda chut'ae xi kichubet'ao a k'ua tsú ju titsú xi kichjí, tichaye tsá mi k'uatsú. <br/> kui xi sak'ua min nda s'e.
