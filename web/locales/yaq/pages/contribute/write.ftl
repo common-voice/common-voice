@@ -48,9 +48,38 @@ finance = Jinaikiareo
 service_retail = Jitanenkireo
 # Sentence Domain dropdown option
 general = Siime
+# Sentence Domain dropdown option
+healthcare = ala’eewame
+# Sentence Domain dropdown option
+history_law_government = jakko weeriata bichame, nokria into kobierno
+# Sentence Domain dropdown option
+language_fundamentals = Nook jiawai lutu’uria (p.ej. jina’iki, leetam, ji’osia tomi)
+# Sentence Domain dropdown option
+media_entertainment = Bitnoki tekipanoareom
+# Sentence Domain dropdown option
+nature_environment = Aniapo ayukamta into konila ayukamta tekipanoame
+# Sentence Domain dropdown option
+news_current_affairs = Jume siime yeu weem ta etejo tekipanoasakame
+# Sentence Domain dropdown option
+technology_robotics = Bemela wi’i boom tekipanoasakame into mam puj’yari sia
+sentence-variant-select-label = Tabwi ta im Nooki jiawai po emo chupa’lame
+sentence-variant-select-placeholder = Tabwi ta im Nooki jiawai po emo chupa’lam ta yeu pua (junuen eateko)
+sentence-variant-select-multiple-variants = Nooki etejowame/ jaiki nook jiawaim ama emo chupa’lame
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nook jiawai jamutua lominio yoemia atte’ari kame.
+sc-bulk-upload-instruction = Binabicha a soita juka em bittualanta u a pit’ta a pu’akti betchibo.
+sc-bulk-upload-instruction-drop = Im a sutoja juka em bittualanta a jamutua betchibo
+bulk-upload-additional-information = Chia wuate tejwai ta empo ama kibacha baeteko juka enchi bittuaka betana, iao jiokte []
+template-file-additional-information = Chia wuate tejwai ta empo ama kibacha baeteko juka enchi bittuaka betana ka amma yeu a matchiako, iao jiokte []
+try-upload-again = Intuchia a jiobila binna bicha a wikekai ji’okima'i ta
+try-upload-again-md = Intuchia a ji’obila
+select-file = ji’okima’i ta Yeu a pua
+select-file-mobile = Wuepuleik yeu pua a puakta betchibo
+accepted-files = Ni le bena ji’okima’im jiba mabet’ri .tsv
+minimum-sentences = Ime nook jiawam jiba empo a ama kima ji’okima’i po: 1000
 
 ## SMALL BATCH SUBMISSION
 
