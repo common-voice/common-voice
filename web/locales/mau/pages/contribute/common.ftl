@@ -43,7 +43,7 @@ submit-form-action = Sikasén
 ## Reporting
 
 report = tsuya
-report-title = Tikaseen jusin ksuya
+report-title = Tikaseen jusin tsuya
 report-ask = ¿jmé kjua xi tjinre énn kui?
 report-offensive-language = énn chinga.
 report-offensive-language-detail = énn chinga tjenjin énn.
@@ -63,13 +63,19 @@ report-success = Nda tsa'atuya xá.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
 shortcut-record-toggle-label = Chubet'a/tikaséin
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Chubet'a nguinik'a tisenere.
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Tichajaye y tichubet'ae.
 
 ## Listen Shortcuts
 
