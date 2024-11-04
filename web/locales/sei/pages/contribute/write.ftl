@@ -82,6 +82,7 @@ accepted-files = Archivo pti immis hant hac iic cöquiipe coi: .tsv coi hapi tih
 minimum-sentences = Icaaitom hant coii archivo quih ano coii quih mos áno quipxa áno soii ca quih hizaax haa ha: 1000
 maximum-file-size = Archivo quih iti icaacoj cöquiya quih hizaax haa ha: 25 MB
 what-needs-to-be-in-file = ¿Áz haxehe iti soii quee ya, expediente hyaa quih?
+what-needs-to-be-in-file-explanation = <templateFileLink>archivo de plantilla</templateFileLink> hant hac ano quiih quih insoocta aha. Icaaitom inyaaspoj coi caspoj íi zo haquix piih pocooo cöisiiht hac iiqui ipocatx ta, miizj hant ihiip quih popaa ta, mos cöipaspoj hac piipe, ihacaaitom iic cösiipe hac oo cöspah aha. Icaaitom hant hac iiqui hapaca coi segundo quih 10 xah 15 xah taax iti pafin ta cöisiipe hac oo cöspah aha, mos icoosx ziix hant cöquiih z iiqui cöpompah, hataasi z iiqui cöpompah, ziix haa ihaaco ihmaa mos z iiqui cösompah aha.
 
 ## SMALL BATCH SUBMISSION
 
