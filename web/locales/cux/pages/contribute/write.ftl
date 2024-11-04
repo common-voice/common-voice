@@ -7,17 +7,28 @@ sentence =
     .label = Nudu
 sentence-input-placeholder = Mu'u kuned nudu chi nukueñ kadi tubiy
 small-batch-sentence-input-placeholder = Mu'u kuned nudud chi nukeñ kadi tubiy
+citation-input-placeholder = kunëd a tí nakad nudu kú (kané chi kunëd)
+citation =
+    .label = kunejüd a ti nakad
 sc-write-submit-confirm = Nudu kun a di du'u nu kadi tubi y kadi kuea
 sc-review-write-title = ¿A dae nudu kadi kunu?
 sc-review-small-batch-title = ¿A taka kadi kunu ndee nudu?
+new-sentence-rule-1 = A didú'unu kadi nichi
+new-sentence-rule-2 = Gua kané chi cho'oo nitiñu nudu chi dijüd
 new-sentence-rule-3 = Yeabea dijud nudu
 new-sentence-rule-4 = Nóo dijud nudu
 new-sentence-rule-5 = Gua snú duchan ni gua snu nudu chi ji'ïi
 new-sentence-rule-6 = Gua nudña'a kanejú
 new-sentence-rule-7 = Yeabea kunejüd a tí nakad ama nudu
+new-sentence-rule-8 = Kané chi  nané'e nudu chi kanejú (tumin kadi kueñ)
+login-instruction-multiple-sentences = Kunód o kunejüd dí tumin kadi chi ñó nudu dicho'od
 how-to-cite = ¿A taka kadi kunejü?
 how-to-cite-explanation-bold = Kunejüd nuku ama URL o chi jobe kaka nochi nakad nudu.
+how-to-cite-explanation = Nichi nudu ñe'edin kunejüd chi ñe'ed. Ne'e kadinun a tí nakad tumin kadi nún a kuaku chi a di du'unuñ kadi túbiy nudu kú. Nichi ne'e kadinud nüd mu'u.
+guidelines = Dikó
 contact-us = Nüd insü
+add-sentence-success = Chitó'on nudu
+add-sentence-error = Gua cho'oo nudu
 required-field = Kanód bcheatinu dikútud chi jika mu'u
 single-sentence-submission = Áman nudu dicho'od
 small-batch-sentence-submission = Nandamad naobe nudu niku dicho'od
@@ -26,8 +37,11 @@ single-sentence = Áman nudu
 small-batch-sentence = Dúbii nudu
 bulk-sentence = Ndée nudu
 sentence-domain-combobox-label = Iña chi ñe'ë nudu
+sentence-domain-select-placeholder = Kadi nabead ama, obe o inu
 # Sentence Domain dropdown option
 agriculture_food = Chi jinuy y je'eu
+# Sentence Domain dropdown option
+automotive_transport = Ku chi jindé iña
 # Sentence Domain dropdown option
 finance = Tumi
 # Sentence Domain dropdown option
