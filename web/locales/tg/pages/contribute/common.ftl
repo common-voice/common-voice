@@ -9,6 +9,12 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> сабт
        *[other] <bold>{ $count }</bold> сабт
     }
+goal-help-recording = Шумо ба «Common Voice» барои расидан ба <goalPercentage></goalPercentage> ҳадафи сабти ҳаррӯзаи мо бо ҳаҷми { $goalValue } кумак кардед!
+goal-help-validation = Шумо ба «Common Voice» барои расидан ба <goalPercentage></goalPercentage> ҳадафи тасдиқи сабтҳои ҳаррӯзаи мо бо ҳаҷми { $goalValue } кумак кардед!
+contribute-more =
+    { $count ->
+       *[other] Барои иҷро кардани { $count }-тои дигар омода ҳастед?
+    }
 record-button-label = Овози худро сабт намоед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
