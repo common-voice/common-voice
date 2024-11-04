@@ -101,3 +101,8 @@ shortcut-vote-no = این
 ## Validation criteria
 
 contribution-criteria-nav = اصول
+contribution-criteria-link = حصہ گھنئنی اصول تو تھے پتہ بھینڈیو
+contribution-criteria-page-title = حصہ گھنئنی اصول
+contribution-criteria-page-description = ہاواز کاݨ تھئنی مجی گبا دڇھینڈیو اور تھی ہاواز کنا بھے شو بھی تھنی اینی بیتی جھانینڈیو۔
+contribution-for-example = مثال کی
+contribution-misreadings-title = غلط منئنی
