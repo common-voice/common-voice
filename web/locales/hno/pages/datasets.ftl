@@ -45,3 +45,6 @@ resource-deepspeech-info =
 resource-coqui-info = <coquiLink> Coqui </coquiLink> تقریر دی ٹیکنالوجی کو کھولنڑ واسطے وقف ہے۔ ان دے منصوبیاں بچ ڈیپ لرننگ  تے مبنی STT تے TTS انجن شامل ہن۔
 community-playbook = کمیونٹی پلے بک
 resource-playbook-info = کامن وائس دے پورے سفر تے، لوکلائزیشن تو گِِھن کے ڈیٹاسیٹ دے استعمال تک، نال اسدی کمیونٹی نال جُڑنا دے طریقے تے <playbookLink> مددگار رہنمائی گِِھنو </playbookLink>۔
+data-other-librispeech-description = لائبرسپیچ  تقریبََا 1000 گھنٹیاں دا 16Khz ریڈ انگلش سپیچ تے مشتمل ہک کارپس ہے جڑا لائبری ووکس پراجیکٹ دی ریڈ آڈیو بکس تو حاصل کیتا گیا۔
+data-other-ted-name = TED-LIUM کارپس
+data-other-ted-description = TED-LIUM کارپس آڈیو ٹاکس نال بنڑایا دا آسا تے اس دی ٹرانسکرپشنز TED ویب سائٹ تے دستیاب ہے۔
