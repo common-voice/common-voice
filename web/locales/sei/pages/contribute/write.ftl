@@ -101,3 +101,15 @@ too-many-files = Archivoj quih iisax quihiih cah anxö ano cöxoaii
 small-batch-instruction = Icaaitom hant coii <icon></icon> quih halx pootàxo ta, hant pocooo ihaht ocoaaj hac ano nsiiquim aha
 multiple-sentences-error = Icaitom hant coii halx catàxo quih hanso hant hac an icapaquim iyomá.
 exceeds-small-batch-limit-error = Icaaitom hant coii quih 1000 quih iti cöpajoz ta, hant hac iiqui icapaca imá ha
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Iti cöisaafzx ha iiqui ipacatx quih iti cöyajoz. Minuto quih tazo iti pafin ta, impaai insoocta aha
+       *[other] Iti cöisaafzx ha iiqui ipacatx quih iti cöyajoz. MInutoj pac iti pafin ta, impaai insoocta aha { $retryLimit }
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Iti cöisaafzx ha iiqui ipacatx quih iti cöyajoz. Segundo quih tazo iti pafin ta, mpaai insoocta aha
+       *[other] Iti cöisaafzx ha iiqui ipacatx quih iti cöyajoz. Segundoj pac iti pafin ta, mpaai insoocta aha
+    }
