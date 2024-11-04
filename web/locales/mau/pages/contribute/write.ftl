@@ -88,6 +88,9 @@ sc-bulk-submit-confirm = Je nijmí <wikipediaLink>kuan skue tsi'í chuta,</wikip
 bulk-upload-success-toast = Je tsé énn tsijin.
 bulk-upload-failed-toast = Mi nda tdijin, k'ua tike nguinik'a.
 bulk-submission-success-header = ¡Niná kat'echiri nga kjín kinikasein!
+bulk-submission-success-subheader = Ti isenke Common Voice nga kuichú ju tjín nijmí machere nga nyujun, nyujun.
+upload-more-btn-text = ¿A sikijisae énn?
+file-invalid-type = Mi nda kjí xujun.
 
 ## SMALL BATCH SUBMISSION
 
