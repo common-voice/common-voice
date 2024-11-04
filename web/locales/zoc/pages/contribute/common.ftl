@@ -58,9 +58,12 @@ report-other-comment =
     .placeholder = Tsamä' tiyä msutpa.
 success = Wäbä
 continue = Tsäjka'nhä/yosa'nhä
+report-success = Te' todotsa'manhwajku'y sunyi kyä'wejtäju.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
