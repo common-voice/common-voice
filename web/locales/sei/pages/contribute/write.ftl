@@ -70,6 +70,8 @@ sentence-variant-select-multiple-variants = Icaaitom quih tcooo ma haa ha / cmis
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Icaaitom hant coii pocooo ihaaht ocoaaj pac ano nsiiquim aha <icon></icon>
+sc-bulk-upload-instruction = Icaaitom hant hac ano quiih quih hizac iiqui nsqueetx aha <uploadButton>hant iiqui mposnan ta x, hant hac iiqui siizquim aha</uploadButton>
+sc-bulk-upload-instruction-drop = icaaitom hant hac ano quiih quih impoocatx ta x, ano siih aha
 
 ## SMALL BATCH SUBMISSION
 
