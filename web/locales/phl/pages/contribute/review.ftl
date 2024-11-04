@@ -7,6 +7,7 @@ sc-review-select-language = مہربنی تھے جملے گھرے دڇھئنی �
 sc-review-no-sentences = گھرے دڇھئنی دپارہ جملے نئینہ۔<addLink> دوئی جملے تپہ شامل تھہ</addLink>
 sc-review-form-prompt =
     .message = گھرے دڇھِلہ بھاؤ جمع نہ بھلہ، تھی یقین ہِنئیے؟
+sc-review-form-usage = جملہ منظور تھئنی دپارہ دڇھینیتی دوشی پِچھہ۔ رد تھئنی دپارہ کھوشیتی ڈڈی پچھہ۔ دھرئنی دپارہ انی  دھرہ۔ تیݨی دوبارہ دڇھلو واندو ٹیکسٹ جمع تھئنی نہ آموݜٹ۔
 sc-review-form-button-reject = رد تھئنی
 sc-review-form-button-skip = اُڑیگلئنی
 sc-review-form-button-approve = منظوری
