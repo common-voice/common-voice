@@ -116,3 +116,7 @@ contribution-misreadings-example-4-title = Chu dinosaurio nbá xi kis'e nú xch�
 contribution-misreadings-example-4-explanation = Tse kitjubét'a xta te kuánire xi kichjí.
 contribution-misreadings-example-5-title = Tijia ngandená.
 contribution-misreadings-example-6-title = Tijia ngandená.
+contribution-misreadings-example-6-explanation = “para el” kuixú
+contribution-misreadings-example-7-title = Tijia ngandena
+contribution-misreadings-example-7-explanation = Tsín 'mi' ya jná tjún kichji.
+contribution-misreadings-example-8-title = Xutí ja'a naña.
