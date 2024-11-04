@@ -101,3 +101,6 @@ contribution-criteria-page-title = Juts wa'a ndsäjka'nhäyu yä' yosku'y.
 contribution-criteria-page-description = ¡'Anhma'yanhä wa'a tiyä musu me'tsa manba'k te' 'ode'is tsyame, yajkti pa'tke'dadi juts wa'a sa'sya mdsäjkanhwajku te' 'mode'is tsame tsä'byabä!
 contribution-for-example = Yä'sebä
 contribution-misreadings-title = Ji' wyäbä tsa'manhwajku'y
+contribution-misreadings-description = Manba'k, ko'sa ponymbo'nyi 'uka te' grabajtsäjkubä te'sede sya'sya jakye'dubä; 'u mbäjkisytsyoku te' 'odetsame tsä'yubä 'uka ji'nde te'se jayubä. Te' ji' wyäda'mbä yosku'y, yä'da'mde:
+contribution-misreadings-description-extended-list-1 = Ja'idä tumä 'te'' windi te' nä tsyo'tsumä 'ode'is tsyame.
+contribution-misreadings-description-extended-list-2 = Ja'idä tumä 's' ko'yajumä te' 'odejaye.
