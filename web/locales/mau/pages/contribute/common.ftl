@@ -110,3 +110,5 @@ contribution-misreadings-description-extended-list-5 = Kjín k'a t'exkiye jngu �
 contribution-misreadings-example-1-title = Chu dinosaurios xi kis'e nú xchá xi Triasico in.
 contribution-misreadings-example-2-title = Jé chu dinosaurios xi kis'e nú xchá xi triasico in.
 contribution-misreadings-example-2-explanation = Tsá chu dinosaurio kuan
+contribution-misreadings-example-3-title = Chu dinosaurios xi kis'e nú xchá.
+contribution-misreadings-example-3-explanation = Je xta xi kitjubet'a itsunjin nga tiji kjiet'a énn.
