@@ -44,3 +44,10 @@ sc-criteria-item-2 = Dindi dindi ndodo se fnuu mu'u
 sc-criteria-item-3 = Ndodo se fnu mu’une ne’ese kugbi nde’oo
 sc-criteria-item-4 = Ndetes a ndebe ndoskue’e ndodo se gnu mu’une ndetad mu’u nas kuaku
 sc-criteria-item-5-2 = Ndetes nwe ndebe ndodotene ndetat nase a’a se nwe lad kuee. Ndetes nwe dbenode kugbi kade tamkuaa.
+sc-criteria-item-6 = Abtee ndoodo see nbekuendoo ¡Fgtaneennuu sdidamanuu ndodo!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Dkueekud mu’u. ¿A ndebe de’es a’a mu’u, a tika se iynde’e o iyduu inña?
+sc-review-rules-title = ¿A ndebes ndokas a’a o ndokas se iynde’e?
+sc-review-empty-state = Nmiñune a bte ndodo dbaku see nbekuendoo
+report-sc-different-language = Tamma dbaku
+report-sc-different-language-detail = De’se iydudene nwe iyne’te a tamma dbaku
