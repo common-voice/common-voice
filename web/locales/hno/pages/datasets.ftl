@@ -35,3 +35,7 @@ want-dataset-update = اپڈیٹس چہندے ہو جدوں اسیں کامن و
 subscribe = سبسکرائب
 get-started-speech = سپیچ ریکگنیشن نال شروع کرو
 other-datasets = دوسرے آواز دے ڈیٹا سیٹ
+feedback-q = رائے دیسو؟
+# This indicates that there is no data to display
+no-information = کوئی معلومات نیں
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ہک <docsLink>اوپن سورس ٹول کٹ </docsLink> ہے اُنہاں تحقیق کرنا والیاں واسطے جیڑے سٹیٹ-آف-دی-آرٹ AI ماڈلز تیار کررے ہن۔
