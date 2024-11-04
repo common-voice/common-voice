@@ -106,6 +106,7 @@ contribution-misreadings-example-2-title = Ama It nikuu ñe´e nitumi.
 contribution-misreadings-example-2-explanation = Ne'e chi kuubi 'dinosaurio'
 contribution-misreadings-example-3-title = It nikuu ñe´e nitumi
 contribution-misreadings-example-3-explanation = Nudu chi nito'oyan jitoo tochi nikuaa kuinu kamañ nochi inu núud.
+contribution-misreadings-example-4-title = It nikuu ñe'e nitumi. Ju.
 contribution-misreadings-example-4-explanation = [Chito'okay ndee nudu chi kub chi kanejú]
 contribution-misreadings-example-5-title = No'o ñoo baku
 contribution-misreadings-example-6-title = No'ö nio
