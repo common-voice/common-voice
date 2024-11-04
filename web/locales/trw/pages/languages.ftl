@@ -30,3 +30,4 @@ get-involved-stayintouch = موزیلا می مھو وائس ٹیکنالوجی 
 get-involved-privacy-info = مھو وعدہ کودُو مھوئے تُھن معلوماتا سی ایتأت کونیِن۔ مُھن آمنگے سی لنک می دیئی پڑاؤ کوا۔
 get-involved-success-title = تأ کامأبی دے مھید کم سی کؤ سی کیا سائن آپ کی { $language } ۔ چھی شکریہ
 get-involved-success-text = مھو یے تھے سیت رابطہ کونیِن کے یأ معلومات پکار ہُوییو
+get-involved-return-to-languages = واپس جیِبا سی پوت کے بیا
