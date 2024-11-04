@@ -25,12 +25,29 @@ share-title-new = <bold>اسام سنگی مدد تھہ </bold> دوئی ہاو�
 keep-track-profile = تیݨی پروفائیلی جھلی تھی کرامی مݜٹو گرا بئنی پتہ تھہ
 login-to-get-started = شروع تھئنی دپارہ  لاک ان بھہ یا لاک اب
 target-segment-first-card = تو اسی آویلی کرامی مقصدی پورہ تھئنی مجی اسام سنگی تعاون تھانوۡ
+target-segment-generic-card = تو آک ٹارگیٹی مقصد پورہ تھئنی اسام سنگی تعاون تھانو
+target-segment-first-banner = کمن وائسی آویلی حصہ  { $locale } سمئنی مدد تھہ
+target-segment-add-voice = تیݨی ہاواز شامل تھہ
+target-segment-learn-more = مزید معلومات
+change-preferences = ترجیہاتی تبدیلی
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = ہاویزیمی مجموعہ
+contribute-sentence-collection-nav-header = جملئی مجموعہ
+login-signup = سائن ان/سائن اپ
+vote-yes = او
+vote-no = نہ
+datasets = ڈیٹا سیٹ
+languages = زبان
+about = بارئی
+partner = حصہ دار
+submit-form-action = جمع تھہ
 
 ## Reporting
 
+report = رپوٹ
+report-title = رپورت جمع تھہ
 
 ## Speak & Listen Shortcuts
 
