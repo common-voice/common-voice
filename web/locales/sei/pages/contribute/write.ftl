@@ -73,6 +73,9 @@ sc-bulk-upload-header = Icaaitom hant coii pocooo ihaaht ocoaaj pac ano nsiiquim
 sc-bulk-upload-instruction = Icaaitom hant hac ano quiih quih hizac iiqui nsqueetx aha <uploadButton>hant iiqui mposnan ta x, hant hac iiqui siizquim aha</uploadButton>
 sc-bulk-upload-instruction-drop = icaaitom hant hac ano quiih quih impoocatx ta x, ano siih aha
 bulk-upload-additional-information = Icaaitom ihmaa pac icaaitom hant hac ano coii íi coi iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Icaaitom ihmaa pac icaaitom hant hac ano coii palntilla hapah quih an imoii pac haa paii ta, iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Haptco mos ipaai isoocta ah, icaaitom hant quih an hant coii coi hizac iiqui nsqueetx aha
+try-upload-again-md = Haptco mos áno nsiih pi nsaai aha
 
 ## SMALL BATCH SUBMISSION
 
