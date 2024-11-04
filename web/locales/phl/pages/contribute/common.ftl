@@ -22,6 +22,7 @@ speak-empty-state-cta = جملے جاری ساتہ
 speak-loading-error = تھی منئنی دپارہ اسام دی گہ جملے نئینہ۔ مہر بینی تھے تُوش سہات پہرتہ گھرے کوشش تھہ۔
 record-button-label = تیݨی ہاواز ریکارڈ تھہ
 share-title-new = <bold>اسام سنگی مدد تھہ </bold> دوئی ہاواز بُلڈئنی دپارہ
+keep-track-profile = تیݨی پروفائیلی جھلی تھی کرامی مݜٹو گرا بئنی پتہ تھہ
 
 ## Contribution Nav Items
 
