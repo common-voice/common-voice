@@ -54,3 +54,5 @@ first-cta-gender-select-help-text =
 second-cta-header-text = Умакъэ ӏахьэ хэплъхьаным пае опсэу!
 already-have-an-account = Амырми хьисап уиӏа? <login>Ихь</login>
 create-profile-button = Профил шӏы
+# IMAGE TAGS
+img-alt-success-checkmark = Гъэхъагъэ итамыгъ
