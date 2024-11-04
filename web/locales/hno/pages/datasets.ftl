@@ -58,3 +58,13 @@ ready-to-validate = جملیاں دی توثیق واسطے مدد کرنا کو
 more = مزید
 close = بند
 download = ڈاؤنلوڈ
+dataset-version = ورژن
+sha256-checksum-copied = SHA256 چیکسم کاپی کر چُھڑیا
+sha256-checksum-copied-error = SHA256 چیکسم کو کاپی نیں کر ہکیا
+clipboard-not-supported = کلپ بورڈ کو سہارا نیں دیندا
+no-information-available = کوئی معلومات دستیاب نیں۔
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تُسدا ڈیٹا سیٹ ڈاؤنلوڈ ہو رہیا ہے!
+dataset-donate-modal-heading = تساں کو علم آسا۔۔۔
