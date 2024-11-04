@@ -76,6 +76,10 @@ bulk-upload-additional-information = Icaaitom ihmaa pac icaaitom hant hac ano co
 template-file-additional-information = Icaaitom ihmaa pac icaaitom hant hac ano coii palntilla hapah quih an imoii pac haa paii ta, iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Haptco mos ipaai isoocta ah, icaaitom hant quih an hant coii coi hizac iiqui nsqueetx aha
 try-upload-again-md = Haptco mos áno nsiih pi nsaai aha
+select-file = Archivo zo haa nsaaco aha
+select-file-mobile = Archivo quih haa mpaco ta x, hant hac iiqui siizquim aha
+accepted-files = Archivo pti immis hant hac iic cöquiipe coi: .tsv coi hapi tihiha iic cöquiipe ha
+minimum-sentences = Icaaitom hant coii archivo quih ano coii quih mos áno quipxa áno soii ca quih hizaax haa ha: 1000
 
 ## SMALL BATCH SUBMISSION
 
