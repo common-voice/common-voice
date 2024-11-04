@@ -86,6 +86,9 @@ what-needs-to-be-in-file-explanation = <templateFileLink>archivo de plantilla</t
 upload-progress-text = Icaaitom hant hac ano spaquim ha quih áno cöisoii hac caai iha...
 sc-bulk-submit-confirm = Icaaitom hizcoi <wikipediaLink>tcooo ihaht ocoaaj iha</wikipediaLink>mos hant quih ano cöhisiiquim hac miizj ta ma, hiiqui ipacatx iha.
 bulk-upload-success-toast = Icaaitom hant coii iiqui pte quiih hant quih ano spaquim ca
+bulk-upload-failed-toast = Icaaitom hant hac ano spaquim ha coi imiipe pac ano yoohca haptco mos impaai insoocta ha.
+bulk-submission-success-header = ¡Haa xah tiipe, xiica hant hac iiqui nyaaca iiqui pte quiih coi hiicot cömihaai hac!
+bulk-submission-success-subheader = ¡Me Common Voice quih Icaaitom hant coii hant ifii coox cah x, ziix quih an hant isicatx xah ta oiimoz quih me iicot caai iha!
 
 ## SMALL BATCH SUBMISSION
 
