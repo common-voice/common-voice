@@ -131,3 +131,11 @@ add-small-batch-success =
         [one] de 1 icaaitom hant coii an hapaptx
        *[other] de { $totalSentences } icaaitom hant coii an hapatx coi
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } icaaitom hant coii an hapaptx. Hizaax hant iiqui nsiisnan aha<downloadLink>aquí</downloadLink> icaaitom hant coii iiqui cöimiih coi hapx insiiquim pi x.
+       *[other] { $uploadedSentences } de { $totalSentences } an hapaptx coi. Hizaax hant iiqui nsiisnan aha<downloadLink>aquí</downloadLink> icaaitom hant coii iiqui cöimaai coi hapx insiiquim pi x.
+    }
+small-batch-sentences-rule-1 = Icaaitom iscocaai ha coi compacaai “¿Zó icaaitom hant coii iiqui cöihah hocoá ya?”
+small-batch-sentences-rule-2 = Lineaj tanticat icaaitom hant coii quih tazo cah iiqui consiih aha
