@@ -1,8 +1,8 @@
 ## WRITE PAGE
 
 write = Dijud
-write-instruction = Kunes ama nudu chi nukueñ kadi nichiñ
-write-page-subtitle = Nudu chi kuné mu'u, a didu'u nu kadi tubi
+write-instruction = Kuned <icon></icon> ama nudu chi nukueñ kadi nichiñ
+write-page-subtitle = Nudu chi kuné mu'u, -0 a di du'u nu kadi tubi
 sentence =
     .label = Nudu
 sentence-input-placeholder = Mu'u kuned nudu chi nukueñ kadi tubiy
@@ -10,10 +10,10 @@ small-batch-sentence-input-placeholder = Mu'u kuned nudud chi nukeñ kadi tubiy
 citation-input-placeholder = kunëd a tí nakad nudu kú (kané chi kunëd)
 citation =
     .label = kunejüd a ti nakad
-sc-write-submit-confirm = Nudu kun a di du'u nu kadi tubi y kadi kuea
+sc-write-submit-confirm = Nudu kun <wikipediaLink>a di du'u nu kadi tubi</wikipediaLink> y kadi kuea
 sc-review-write-title = ¿A dae nudu kadi kunu?
 sc-review-small-batch-title = ¿A taka kadi kunu ndee nudu?
-new-sentence-rule-1 = A didú'unu kadi nichi
+new-sentence-rule-1 = <noCopyright>A didú'unu kadi nichi</noCopyright>(<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Gua kané chi cho'oo nitiñu nudu chi dijüd
 new-sentence-rule-3 = Yeabea dijud nudu
 new-sentence-rule-4 = Nóo dijud nudu
@@ -21,7 +21,7 @@ new-sentence-rule-5 = Gua snú duchan ni gua snu nudu chi ji'ïi
 new-sentence-rule-6 = Gua nudña'a kanejú
 new-sentence-rule-7 = Yeabea kunejüd a tí nakad ama nudu
 new-sentence-rule-8 = Kané chi  nané'e nudu chi kanejú (tumin kadi kueñ)
-login-instruction-multiple-sentences = Kunód o kunejüd dí tumin kadi chi ñó nudu dicho'od
+login-instruction-multiple-sentences = <loginLink>Kunód</loginLink> o <loginLink>kunejüd</loginLink> dí tumin kadi chi ñó nudu dicho'od
 how-to-cite = ¿A taka kadi kunejü?
 how-to-cite-explanation-bold = Kunejüd nuku ama URL o chi jobe kaka nochi nakad nudu.
 how-to-cite-explanation = Nichi nudu ñe'edin kunejüd chi ñe'ed. Ne'e kadinun a tí nakad tumin kadi nún a kuaku chi a di du'unuñ kadi túbiy nudu kú. Nichi ne'e kadinud nüd mu'u.

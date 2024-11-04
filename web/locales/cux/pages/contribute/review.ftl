@@ -56,4 +56,4 @@ review-error-rate-limit-exceeded = Yeabean kani kued. Nuk jinu nichid o kunebed 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Yeabean eatea cambios jidin
 sc-redirect-page-subtitle-1 = Sentence Collector jino'o no plataforma principal ñe'e Common Voice. Mniñu a kadi <writeURL> kunejud </writeURL> ama nudu o <reviewURL> nichid nichi a noó o gua noó, </reviewURL> dicho'od am ama nudu no Common Voice.
-sc-redirect-page-subtitle-2 = Tumgo'od insú no Matrix, Discourse o no Email.
+sc-redirect-page-subtitle-2 = Tumgo'od insú no <matrixLink> Matrix </matrixLink>, <discourseLink> Discourse </discourseLink> o <emailLink> no Email</emailLink>.
