@@ -101,3 +101,9 @@ too-many-files = Nkjín ma xujun
 small-batch-instruction = Kjín nijmí xi kuan skut'a tsi'í chuta <icon></icon>kuinyajin
 multiple-sentences-error = Mi maa nkjín nijmí sinyajin tsá to chuba chúkjuare nga si kjí.
 exceeds-small-batch-limit-error = Mi maa ts'atu jngu 1000 nijmí sikasén
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] nñú tjen ts'atunere chubare. s'a k'ua sike.
+       *[other] nñú tjen ts'atunere chubare. s'a  { $retryLimit } k'ua sike.
+    }
