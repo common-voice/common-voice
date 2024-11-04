@@ -38,3 +38,9 @@ sc-review-link = Nbekuendede
 
 sc-criteria-modal = De'es ndikchinno tase nbekuendeno
 sc-criteria-title = De'es ndikchinno tase nbekuendeno
+sc-criteria-make-sure = Ndoskue'e ndodone tuka ne'ese fnu mu'u
+sc-criteria-item-1 = De'ese iydudenne ne'es ndebe
+sc-criteria-item-2 = Dindi dindi ndodo se fnuu mu'u
+sc-criteria-item-3 = Ndodo se fnu mu’une ne’ese kugbi nde’oo
+sc-criteria-item-4 = Ndetes a ndebe ndoskue’e ndodo se gnu mu’une ndetad mu’u nas kuaku
+sc-criteria-item-5-2 = Ndetes nwe ndebe ndodotene ndetat nase a’a se nwe lad kuee. Ndetes nwe dbenode kugbi kade tamkuaa.
