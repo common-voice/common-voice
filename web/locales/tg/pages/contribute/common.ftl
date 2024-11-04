@@ -71,7 +71,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Сабти ҷориро рад кунед
 shortcut-submit = Бозгашт
 shortcut-submit-label = Пешниҳод кардани сабтҳо
-request-language-text = То ҳол забони модарии худро дар лоиҳаи «Common Voice» намебинед?
+request-language-text = Шумо то ҳол забони модарии худро дар лоиҳаи «Common Voice» намебинед?
 request-language-button = Дархости забон
 
 ## Listen Shortcuts
