@@ -52,7 +52,8 @@ first-cta-gender-select-help-text =
     .label = Уихъугъэ-бзыгъэ сыдэущтэу къэптхыхьащт?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Умакъэ ӏахьэ хэплъхьаным пае опсэу!
+second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
 already-have-an-account = Амырми хьисап уиӏа? <login>Ихь</login>
 create-profile-button = Профил шӏы
 # IMAGE TAGS
-img-alt-success-checkmark = Гъэхъагъэ итамыгъ
+img-alt-success-checkmark = Гъэхъагъэ итамыгъ!
