@@ -89,7 +89,10 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-link = Фаҳмидани меъёрҳои саҳми овоз
+contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
+contribution-reader-effects-title = Таъсирҳои хонандагон
