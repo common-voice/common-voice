@@ -51,6 +51,8 @@ report-grammar-or-spelling-detail = Te' 'odejaye ji' wyä jayuse.
 report-different-language = 'Eyabä 'ode
 report-different-language-detail = 'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä 'ode'te'e ndsambabä.
 report-difficult-pronounce = Ji'nde 'omba musä ndsamä.
+report-difficult-pronounce-detail = 'Ijtyaju jaye, 'odejayeda'm ji'nde yajk'omba musibä ndsabya.
+report-offensive-speech = Nyä'ijtu 'ode tsa'ajkubyä.
 
 ## Speak & Listen Shortcuts
 
