@@ -106,3 +106,4 @@ contribution-criteria-page-title = حصہ گھنئنی اصول
 contribution-criteria-page-description = ہاواز کاݨ تھئنی مجی گبا دڇھینڈیو اور تھی ہاواز کنا بھے شو بھی تھنی اینی بیتی جھانینڈیو۔
 contribution-for-example = مثال کی
 contribution-misreadings-title = غلط منئنی
+contribution-misreadings-description = کاݨ تھئنی مجی،بیڈو غور کی چیک تھہ کی گبا گلہ ریکارڈ بھے ہنو ایڑوے چونٹا ہنوے کی نہ، ڑیوے معمولی گہ غلطی بی ہینسلی ہینتہ ڑس مسترد تھہ۔ <br /> اینی بیڈی عام غلطیم مجی شامل ہِنہ۔
