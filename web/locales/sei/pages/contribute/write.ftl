@@ -139,3 +139,5 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Icaaitom iscocaai ha coi compacaai “¿Zó icaaitom hant coii iiqui cöihah hocoá ya?”
 small-batch-sentences-rule-2 = Lineaj tanticat icaaitom hant coii quih tazo cah iiqui consiih aha
+small-batch-sentences-rule-3 = Icaaitom hant coii coi líneaj quih impahaa, salto de línea hapah zo oo compoh iij pte nsiiquim aha.
+small-batch-sentences-rule-4 = Icaaitom hant coii quih 1.000 ano miiquim iisax siipe aha
