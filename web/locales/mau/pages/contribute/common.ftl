@@ -76,7 +76,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Chubet'a nguinik'a tisenere.
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Tichajaye y tichubet'ae.
-shortcut-submit = ku'u ya
+shortcut-submit = ku'un ya
 request-language-text = ¿A kjié sukuri énnri ya Common Voice?
 request-language-button = Tijeí jngu énn.
 
@@ -106,3 +106,4 @@ contribution-misreadings-description-extended-list-1 = Chaja<strong>tsá xi'in <
 contribution-misreadings-description-extended-list-2 = Chaja jngu <strong>s</strong> jña sikjiet'a énn.
 contribution-misreadings-description-extended-list-3 = K'ua te tjín énn xi tsín, ju tsú tsá "pal" nga'ndere nga "para el" kuixú.
 contribution-misreadings-description-extended-list-4 = Kichajá énn xi jet'a, nñú xutí tsichare nga tichibet'ae.
+contribution-misreadings-description-extended-list-5 = Kjín k'a t'exkiye jngu énn.
