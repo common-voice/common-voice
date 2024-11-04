@@ -12,6 +12,12 @@ awards = ایوارڈ
 you = تسیں
 everyone = ہر کوئی
 contribution-activity = حصے دی سرگرمی
+top-contributors = اہم تعاون کرنا آلے
+recorded-clips = ریکاڈ ہوئے دے کلپس
+validated-clips = تصدیق شدہ کلپس
+total-approved = سارے منظور ہوئے دے
+overall-accuracy = مجموعی درستگی
+set-visibility = مڑا دکھنڑا مقرر کرو
 
 ## Custom Goals
 
