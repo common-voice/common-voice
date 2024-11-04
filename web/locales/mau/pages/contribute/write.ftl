@@ -113,3 +113,9 @@ rate-limit-toast-message-seconds =
         [one] nñú tjen ts'atunere chubare. s'a ngutjún k'ua sike.
        *[other] nñú tjen ts'atunere chubare. s'a ngutjun{ $retryLimit } k'ua sike.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ts'atunere chubare ju tjín maa nikasen, chunye ngutjún ndaga kuan sikasen ngui jngú nijmí.
+       *[other] Ts'atunere chubare ju tjín maa nikasen, chunye ngutjún tse { $retryLimit }ndaga kuan sikasen ngui jngú nijmí.
+    }
