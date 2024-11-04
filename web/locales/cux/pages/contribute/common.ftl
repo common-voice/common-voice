@@ -34,6 +34,7 @@ contribute-sentence-collection-nav-header = Nubdama nuduñ
 login-signup = Kunod/Kunedjud
 vote-yes = Tika
 vote-no = Gua
+datasets = Ama daku nudu
 languages = nudu
 about = Ñe'ë
 partner = dïd ntiñu nuku insü

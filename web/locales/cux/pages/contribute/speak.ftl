@@ -57,3 +57,5 @@ second-cta-header-text = ¡Ndiosnadibad chi ted nudud!
 second-cta-subtitle-text = Nuku ama perfil kadi nichid a dae jidid nuku nichid y kunebed tanobe iña chi ko'o nuduñ.
 already-have-an-account = ¿A bea ama cuenta ñe'ed? kundod
 create-profile-button = Dindad ama perfil
+# IMAGE TAGS
+img-alt-success-checkmark = A kaneju chi noo
