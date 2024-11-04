@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> اسکوربی ہاواز
        *[other] <bold>{ $count }</bold>  اسکوربی ہاواز
     }
+goal-help-recording = کمن وائسی روزانئی <goalPercentage></goalPercentage>  { $goalValue } ریکارڈ پورا تھئنی مدد تھیلی۔
+goal-help-validation = تھی کمن وائسی روزانئی  <goalPercentage></goalPercentage>  { $goalValue } تصدیق پورا تھئنی مدد تھیلی۔
 
 ## Contribution Nav Items
 
