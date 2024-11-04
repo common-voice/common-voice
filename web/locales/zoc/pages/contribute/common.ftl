@@ -86,6 +86,14 @@ request-language-button = Ke'a tumä'k 'ode.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
 shortcut-play-toggle-label = Yajkädä/Yajktsä'yä
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Juts wa'a ndsäjku
+contribution-criteria-link = 'Anhma'yanhä juts wa'a ndsäjka'nhäyu yä' yosku'y.
