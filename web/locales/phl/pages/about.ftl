@@ -120,6 +120,10 @@ about-playbook-how-access-dataset-content-2 = تو اگر ASR ماڈلی وے ت
 about-playbook-how-project-governance = پروجکٹی بارئی فیصلے کنا بھے تھئجانہ؟
 about-playbook-how-project-governance-content-1 = موزیلا کمن وائسہ پورا دُنئیئی وے  مختلف کمیونیٹیمی کارکنان،  ماہرلسانیات ، ڈیٹا سائنسدانان، ماہر تعلیم او سافٹ وئر انجینیئری کرمہ ممکن سمولہ۔ پروجکٹ موزیلا فونڈیشنی نگرانی تھانو۔
 about-playbook-how-project-governance-content-2 = اسی حکمرینی سمجئنی دپارہ آک تُھوݨی:
+about-playbook-how-project-governance-content-3 = راز داری، تحفظ او شفافیت
+about-playbook-how-project-governance-content-4 = کمینوٹی حصہ گھنئنی او فیصلہ تھئنی۔
+about-playbook-how-project-governance-content-5 = آک دئی قدر او  قبول تھئنی۔
+about-playbook-how-project-governance-content-6 = تیݨی مجی آک دوئی سنگی حساب کتاب۔
 
 ## How is Common Voice funded
 
