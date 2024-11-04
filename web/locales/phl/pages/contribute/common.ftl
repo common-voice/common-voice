@@ -48,6 +48,8 @@ submit-form-action = جمع تھہ
 
 report = رپوٹ
 report-title = رپورت جمع تھہ
+report-ask = انو جملہ تو تھے گہ مسلہ پئیدو تھیلو؟
+report-offensive-language = کھیچی بیتی
 
 ## Speak & Listen Shortcuts
 
