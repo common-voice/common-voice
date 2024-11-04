@@ -80,6 +80,8 @@ select-file = Archivo zo haa nsaaco aha
 select-file-mobile = Archivo quih haa mpaco ta x, hant hac iiqui siizquim aha
 accepted-files = Archivo pti immis hant hac iic cöquiipe coi: .tsv coi hapi tihiha iic cöquiipe ha
 minimum-sentences = Icaaitom hant coii archivo quih ano coii quih mos áno quipxa áno soii ca quih hizaax haa ha: 1000
+maximum-file-size = Archivo quih iti icaacoj cöquiya quih hizaax haa ha: 25 MB
+what-needs-to-be-in-file = ¿Áz haxehe iti soii quee ya, expediente hyaa quih?
 
 ## SMALL BATCH SUBMISSION
 
