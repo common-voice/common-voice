@@ -62,9 +62,14 @@ nature_environment = Hant quij hehet xaha, háx xaha, xiica ccamotam xah taax cm
 news_current_affairs = Hant quij ziix iti cöipacta xaha, ziix cmaa haquix caahjoj xah taax iicp hac
 # Sentence Domain dropdown option
 technology_robotics = Tecnología xah, robótica xah taax iicp hac
+sentence-variant-select-label = Icaaitom hant coii coi cmis ihmaa
+sentence-variant-select-placeholder = Cmis ihmaa zo haa nsaaco aha (hizaax impoqueepe x, iiqui conscmah aha)
+sentence-variant-select-multiple-variants = Icaaitom quih tcooo ma haa ha / cmistaj ihmaa coi
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Icaaitom hant coii pocooo ihaaht ocoaaj pac ano nsiiquim aha <icon></icon>
 
 ## SMALL BATCH SUBMISSION
 
