@@ -116,8 +116,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] 1 гущыӏэухыгъэм и-{ $uploadedSentences }-рэр зэхэугъоягъ
-       *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-рэр зэхэугъоягъ
+        [one] Гущыӏэухыгъэ 1-м и-{ $uploadedSentences }-р зэхэугъоягъ
+       *[other] Гущыӏэухыгъэ { $totalSentences }-м и-{ $uploadedSentences }-р зэхэугъоягъ
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Гущыӏэухыгъэ 1-м и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> тэӏункӏ.
+       *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> тэӏункӏ.
     }
 small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
