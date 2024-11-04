@@ -2,7 +2,7 @@
 
 write = نیویشے
 write-instruction = عام رویان بارا<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہایا کی نویشینو ہوئے ہتوغو عام رویان ڑوڑیکو ژاغہ شامل کورونوبوئے  cc-0 لائسینس گنیرو معلومات
+write-page-subtitle = کیا جملو ہایا کی نویشینو ہوئے ہتوغو عام رویان لوڑیکو ژاغہ شامل کورونوبوئے  cc-0 لائسینس گنیرو معلومات
 sentence =
     .label = جملہ
 sentence-input-placeholder = عام رویان پچین تان جملان ہایا نویشور
@@ -24,7 +24,7 @@ new-sentence-rule-8 = جام ہش بوئے کہ قدرتی اوچے لوار ن�
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو پچین
 how-to-cite = کچہ کوری حوالہ دوم؟
 how-to-cite-explanation-bold = ویپ سائٹو لینگ یا کورمو پورا نامو نویشی حوالہ دیت
-how-to-cite-explanation = حوالہ”</italicizedText>. اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  ڑاڑیسی وا کاپی رائٹو پابندی مو بائی۔ حوالو معلوماتاان پچین اسپہ <guidelinesLink>ڑوڑو۔ رہنمائی صفحہ</guidelinesLink>.
+how-to-cite-explanation = حوالہ”</italicizedText>. اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  ڑاڑیسی وا کاپی رائٹو پابندی مو بائی۔ حوالو معلوماتاان پچین اسپہ <guidelinesLink>لوڑے۔ رہنمائی صفحہ</guidelinesLink>.
 guidelines = رہنمائی
 contact-us = اسپہ سون رابطہ کو
 add-sentence-success = 1جملہ بڑاځینو ہوئے
@@ -53,7 +53,7 @@ healthcare = صحت
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون وا حکومت
 # Sentence Domain dropdown option
-language_fundamentals = زبانو لوازمات( مثلا نمبر، حروف، پیسہ)
+language_fundamentals = وارو پچین لازمی ( مثلا نمبر، حروف، پیسہ)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
@@ -64,7 +64,7 @@ news_current_affairs = خبر وا موجودہ حالت
 technology_robotics = ٹیکنالوجی وا روبوٹ
 sentence-variant-select-label = جملان مختلف شکل
 sentence-variant-select-placeholder = ای قسمو گنے (اختیاری)
-sentence-variant-select-multiple-variants = عام زبان/ بو قسم
+sentence-variant-select-multiple-variants = عام وار/ بو قسم
 
 ## BULK SUBMISSION 
 
@@ -88,7 +88,7 @@ sc-bulk-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipe
 bulk-upload-success-toast = بو جملہ ایغاریا اپلوڈ ہونی
 bulk-upload-failed-toast = اپلوڈ نو ہوئے، مہربانی کوری وا کوشش کو
 bulk-submission-success-header = بو جملان ایغاریا جمع کوریکو بچین تہ شکریہ
-bulk-submission-success-subheader = تو کمان وائسو ہرانوسو  جملان پورا کوریکا مدد کوسان
+bulk-submission-success-subheader = تو کامن وائسو ہرانوسو  جملان پورا کوریکا مدد کوسان
 upload-more-btn-text = جملہ خوردی اپلوڈ کو
 file-invalid-type = وحت بوغدو فائیل
 file-too-large = فائیل بو لوٹ

@@ -82,6 +82,7 @@ accepted-files = Chíntíamé oserí nakíwame ujúpú waá .tsv
 minimum-sentences = Cantidaba minima oracioni lloratiame archivochi: 1000
 maximum-file-size = Espeché werumá archivo keschumá: 25 MB
 what-needs-to-be-in-file = itaná nakí inibaemia noó osery
+what-needs-to-be-in-file-explanation = Iyapá ta'mo ka'teweriachi waapuka kawe <templateFileLink>nateyame.</templateFileLink>a'mo orasioniwa e'nimapu yora'tiame a'jámina pu'u ne'tekame (CCO o te'ki pa'cha yoratiame nu'retiame pu'ka yo'rame'e, eniniame máchiame ka'we yo'raka yoratiame kawetiame, kitekitiame pu'u reyeroania . pu'u orasioni i'tochetiame enimapu kitepe'enipaniame 10 i 15 mari'ki ku'we reyeroamia.
 upload-progress-text = Pullegá pejí muenapunía
 sc-bulk-submit-confirm = Nanerenané iká oracioné <wikipediaLink>yomaichó jenté </wikipediaLink>ijupú yomá inibaené permiso muenapumía
 bulk-upload-success-toast = Weiká oracioné itocheremú
