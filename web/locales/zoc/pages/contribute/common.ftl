@@ -108,3 +108,4 @@ contribution-misreadings-description-extended-list-3 = Wa'a yajk'onu te' 'odejay
 contribution-misreadings-description-extended-list-4 = Yajktokobya we'ne te' 'ukanhgä'mäbä todojaye nä mjaktäktäkä'yuk te' 'ode'is tsyame.
 contribution-misreadings-description-extended-list-5 = Wäwänyaka yajk'o'nispa te' jaye.
 contribution-misreadings-example-1-title = Te' mäjapekakobända'm ka'bä'yajubä'a 'oyubä 'ijtye te' Triásiko'omo.
+contribution-misreadings-example-2-title = Te' mäjapekakobän ja'idäbä'a, 'oyubä 'idi te' Triásiko'omo.
