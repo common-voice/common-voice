@@ -67,6 +67,11 @@ shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = Päjkja te' 'ode'is tsyame/Yajktsyä'tsyo'tsa.
+shortcut-rerecord-toggle = [1-5]
 
 ## Listen Shortcuts
 
