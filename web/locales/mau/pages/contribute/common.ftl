@@ -120,3 +120,5 @@ contribution-misreadings-example-6-explanation = “para el” kuixú
 contribution-misreadings-example-7-title = Tijia ngandena
 contribution-misreadings-example-7-explanation = Tsín 'mi' ya jná tjún kichji.
 contribution-misreadings-example-8-title = Xutí ja'a naña.
+contribution-misreadings-example-8-explanation = Mi ngusún tsú xi kjiya.
+contribution-varying-pronunciations-title = Kja'ésin nukjua ik'a.
