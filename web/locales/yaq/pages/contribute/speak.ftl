@@ -1,0 +1,11 @@
+speak = Nooka
+speak-now = Nookae iani
+speak-subtitle = Nook ta mikka
+record-cta = Naate nok jiawai jiyokaita
+record-platform-not-supported = Itom jiokoe, em plataforma ta ka yuma.
+record-platform-not-supported-desktop = Komputadora ejcritorio po, junama empo a kom amm wike:
+record-platform-not-supported-ios-non-safari = iOS po inim kibake Safari po lula nook jiyokaita ta etapo betchibo...
+record-must-allow-microphone = Niita ke empo jiawa jaktei ta etapone.
+record-no-mic-found = Kaita jiawa jaktei ta te’ak.
+record-error-too-short = Nook jiyokai unna jaleki.
+record-error-too-long = Nook jiyokai unna te’be.

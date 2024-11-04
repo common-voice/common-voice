@@ -52,3 +52,9 @@ sc-review-empty-state = Ian lau’tipo Kaita nook tewa’aim ayuk bitbetchibo.
 report-sc-different-language = Tabwi nooki
 report-sc-different-language-detail = Tabwi nook po jiokterim ta bena ka wua nim mabetame benasia.
 sentences-fetch-error = Jiob’ria amma yeu sika nook tewa’aita jariuwapo.
+review-error = Jiob’ria amma yeu sika nook tewa’aita mabetwapo
+review-error-rate-limit-exceeded = Unne chummti e wueye, chubala ili boo’bichaka a mabeta juka nook tewa’aita, into tuisi a bicha lapo tuisi ya’aritune.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Aet te na’akate chiau juni tuisi aya betchibo.
+sc-redirect-page-subtitle-1 = Setence Collector amman kibachawa bichapo wuaiwa common Voice po. Ian empo a amma JIOKTE juka nookta o keala BITNE jume nookim wuepuleika nau bit’tuawuame inimi commom Voice po.
+sc-redirect-page-subtitle-2 = ito’u nat’temae Matrix po, Discourse po, into email po lula.
