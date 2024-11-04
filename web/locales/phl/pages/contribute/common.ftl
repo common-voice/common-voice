@@ -50,6 +50,8 @@ report = رپوٹ
 report-title = رپورت جمع تھہ
 report-ask = انو جملہ تو تھے گہ مسلہ پئیدو تھیلو؟
 report-offensive-language = کھیچی بیتی
+report-offensive-language-detail = جملہ وے  کھیچی یا غیر مہذب بیتی ہِنم۔
+report-grammar-or-spelling = گرائمری/لہجئی غلطی
 
 ## Speak & Listen Shortcuts
 
