@@ -23,6 +23,7 @@ speak-loading-error = تھی منئنی دپارہ اسام دی گہ جملے �
 record-button-label = تیݨی ہاواز ریکارڈ تھہ
 share-title-new = <bold>اسام سنگی مدد تھہ </bold> دوئی ہاواز بُلڈئنی دپارہ
 keep-track-profile = تیݨی پروفائیلی جھلی تھی کرامی مݜٹو گرا بئنی پتہ تھہ
+login-to-get-started = شروع تھئنی دپارہ  لاک ان بھہ یا لاک اب
 
 ## Contribution Nav Items
 
