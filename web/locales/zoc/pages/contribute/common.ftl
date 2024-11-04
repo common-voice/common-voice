@@ -74,6 +74,8 @@ shortcut-record-toggle-label = Päjkja te' 'ode'is tsyame/Yajktsyä'tsyo'tsa.
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Päjkwätsäjkja te' 'mode'is tsame.
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Yajktsu'nhba't nä't mbäjkjayubä' 'ode'is tsyame.
+shortcut-submit = Widu'wätsäkä
 
 ## Listen Shortcuts
 
