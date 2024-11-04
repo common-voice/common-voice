@@ -80,6 +80,24 @@ select-file = ji’okima’i ta Yeu a pua
 select-file-mobile = Wuepuleik yeu pua a puakta betchibo
 accepted-files = Ni le bena ji’okima’im jiba mabet’ri .tsv
 minimum-sentences = Ime nook jiawam jiba empo a ama kima ji’okima’i po: 1000
+maximum-file-size = Ime jiba yumma: 25MB
+what-needs-to-be-in-file = ¿Jitá a ama wueye inimim ji'okima’i po?
+what-needs-to-be-in-file-explanation = A biicha jume itom () ji’okima’im. Jume em nook jiawai nitake ka derecho de autorne u a yaalamta aet mabetlatuko) into tui’si yarimtune a ji’ojnokai tunne kechia, jume nook jiawaim bittuarime ka tua bibinwuatune nitake 10 u 15 segundom po a ji’ojnoka tune into ka jinaikiarim wueyane, team into lettam jachin weyeme.
+upload-progress-text = Ketun jamu…
+sc-bulk-submit-confirm = Ne mabeta ke inime nook jiawaim lomio yoemia atte’ari into ne a am ja’mutua.
+bulk-upload-success-toast = Bu’u nook jiawaim tobo’oteri
+bulk-upload-failed-toast = Ja’ana a puaktak ji’ob’ria ama yeu sika, juchi a jiobila.
+bulk-submission-success-header = ¡Enchi te baesae bu’u nook jiawaim enchi bittuakabetchibo!
+bulk-submission-success-subheader = ¡Common Voice te annia itom tekil boo’o ja’jam betchibo em chikti ta'apo nook jiawaim itou bittua betchibo!
+upload-more-btn-text = ¿Wuate nook jiawaim jamutuane?
+file-invalid-type = Ji’ojkima’i ka tu’i
+file-too-large = Ji’ojkima’i unna bwe’u
+file-too-small = Ji’okima’i unna ilitchi
+too-many-files = Unna bu’u ji’ojkima’im
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Wuate nook jiawaim ama kima lominio yoemia atte’ari po.
+multiple-sentences-error = Ka amman bittuatuk jume jaiki nook jiawaim inim chia ka obiachiku lula.
+exceeds-small-batch-limit-error = Ka bittuatuk jume 1000 nook jiawaim
