@@ -7,12 +7,12 @@ shortcuts = Kuno kuakud
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold>ama tò
-       *[other] <bold>{ $count }</bold>taama tò
+       *[other] <bold>{ $count }</bold>Naobe tò
     }
-goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen nukue nudu chi ñe'e chi kuto'on job jobe!
-goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue nudu nóo chi ne'en ñe'e job jobe !
-contribute-more = ¿A kadi dinad { $count } ta tae?
-speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
+goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen <goalPercentage></goalPercentage> ñe'e nukue nudu chi ne'e chi kuto'on job jobe  { $goalValue }!
+goal-help-validation = !Ndiosdibad chi chined Common Voice a tanen <goalPercentage></goalPercentage> nukue nudu nóo chi ne'en ñe'e job jobe { $goalValue }!
+contribute-more = ¿A kadi dinad { $count } ta tea?
+speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku...
 no-sentences-for-variants = ¡Nigua kutea nudu ñe'e dibaku ñe'ed! Nichi ne'ed kadi nandod configuración ñe'ed tumin nichid nudu ñe'e tama dibaku.
 speak-empty-state-cta = Kuned insu nuku tanobe nudu
 speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
