@@ -9,9 +9,18 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> сабт
        *[other] <bold>{ $count }</bold> сабт
     }
+goal-help-recording = Шумо ба «Common Voice» барои расидан ба <goalPercentage></goalPercentage> ҳадафи сабти ҳаррӯзаи мо бо ҳаҷми { $goalValue } кумак кардед!
+goal-help-validation = Шумо ба «Common Voice» барои расидан ба <goalPercentage></goalPercentage> ҳадафи тасдиқи сабтҳои ҳаррӯзаи мо бо ҳаҷми { $goalValue } кумак кардед!
+contribute-more =
+    { $count ->
+       *[other] Барои иҷро кардани { $count }-тои дигар омода ҳастед?
+    }
+speak-empty-state = Барои сабти овоз дар ин забон мо ҷумлаҳои дигар надорем...
+speak-empty-state-cta = Пешниҳод кардани ҷумлаҳо
 record-button-label = Овози худро сабт намоед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
+change-preferences = Иваз кардани хусусиятҳо
 
 ## Contribution Nav Items
 
@@ -23,6 +32,7 @@ vote-no = Не
 datasets = Маҷмуи маълумот
 languages = Забонҳо
 about = Дар бораи барнома
+partner = Ҳамкорӣ
 submit-form-action = Пешниҳод кардан
 
 ## Reporting
@@ -60,6 +70,8 @@ shortcut-rerecord-toggle-label = Клипро аз нав сабт кунед
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Сабти ҷориро рад кунед
 shortcut-submit = Бозгашт
+shortcut-submit-label = Пешниҳод кардани сабтҳо
+request-language-text = Шумо то ҳол забони модарии худро дар лоиҳаи «Common Voice» намебинед?
 request-language-button = Дархости забон
 
 ## Listen Shortcuts
@@ -77,7 +89,10 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-link = Фаҳмидани меъёрҳои саҳми овоз
+contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
+contribution-reader-effects-title = Таъсирҳои хонандагон
