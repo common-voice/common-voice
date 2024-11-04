@@ -80,6 +80,19 @@ too-many-files = Yeabean ndee archivo
 small-batch-instruction = Kunekad <icon></icon> nudu chi nukueñ kadi nichiñ.
 multiple-sentences-error = Gua kadi kuead ndee nudu tochi dicho'od "sencillo"
 exceeds-small-batch-limit-error = Gua kadi dicho'od mas ñe'e 1000 nudu
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } Ñe'e 1 nudu chi nubdama
+       *[other] { $uploadedSentences } Ñe'e { $totalSentences } nudu chi nudbama
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } Ñe'e nudu chi nubdama. Koto'od <downloadLink>muu</downloadLink>tumin nichid nudu chi gua cho'o.
+       *[other] { $uploadedSentences } ñe'e { $totalSentences } nudu chi nubdama. Koto'od <downloadLink>muu</downloadLink>tumin nichis nudu chi gua cho'o.
+    }
+small-batch-sentences-rule-1 = Kanod ñe'e “¿Dea nudu chi kadi kunekad?”
 small-batch-sentences-rule-2 = Dijud ama nudu no línea.
 small-batch-sentences-rule-4 = Kunejúd nii 1.000 núdu
 small-batch-sentences-rule-5 = Nudi chi dijud ne'e chi dama nukue.
