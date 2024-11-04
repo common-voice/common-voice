@@ -124,6 +124,8 @@ about-playbook-how-project-governance-content-3 = راز داری، تحفظ ا�
 about-playbook-how-project-governance-content-4 = کمینوٹی حصہ گھنئنی او فیصلہ تھئنی۔
 about-playbook-how-project-governance-content-5 = آک دئی قدر او  قبول تھئنی۔
 about-playbook-how-project-governance-content-6 = تیݨی مجی آک دوئی سنگی حساب کتاب۔
+about-playbook-how-project-governance-content-7 = <governanceLink> اسی حکمرنیی بائی دوئی معلومیتیم دپارہ انس منوئی</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس کنا بھے سمِجانو؟
