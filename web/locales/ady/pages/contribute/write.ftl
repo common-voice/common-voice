@@ -10,6 +10,7 @@ small-batch-sentence-input-placeholder = Цӏыф жъугъэмэ апае гу
 citation-input-placeholder = Гущыӏэухыгъэр къызхэпхыгъэм ылъапсэ къэгъэлъагъу (шӏокӏ имыӏэу)
 citation =
     .label = Къыхэхыгъэ тхыгъэ
+sc-write-submit-confirm = Сэ къэсэгъэшъыпкъэжьы мы гущыӏэухыгъэр<wikipediaLink>цӏыф жъугъэмэ апае</wikipediaLink> ыкӏи сэ тегъэуцонымкӏэ изын сиӏ.
 sc-review-write-title = Сыд фэдэ гущыӏэухыгъэха хэзгъэуцон слъэкӏыщтыр?
 sc-review-small-batch-title = Гущыӏэухыгъэ заулэ зэрэхэбгъэхъощтыр
 new-sentence-rule-1 = <noCopyright>Тхэкӏо хьакъ</noCopyright>ым гъунэ гъэунэфыгъэ иӏэп (<cc0>cc-0</cc0>)
@@ -124,8 +125,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] Гущыӏэухыгъэ 1-м и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> тэӏункӏ.
-       *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> тэӏункӏ.
+        [one] Гущыӏэухыгъэ 1-м и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> теӏункӏ.
+       *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> теӏункӏ.
     }
 small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
