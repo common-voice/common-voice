@@ -112,3 +112,7 @@ contribution-misreadings-example-2-title = Jé chu dinosaurios xi kis'e nú xch�
 contribution-misreadings-example-2-explanation = Tsá chu dinosaurio kuan
 contribution-misreadings-example-3-title = Chu dinosaurios xi kis'e nú xchá.
 contribution-misreadings-example-3-explanation = Je xta xi kitjubet'a itsunjin nga tiji kjiet'a énn.
+contribution-misreadings-example-4-title = Chu dinosaurio nbá xi kis'e nú xchá. jon.
+contribution-misreadings-example-4-explanation = Tse kitjubét'a xta te kuánire xi kichjí.
+contribution-misreadings-example-5-title = Tijia ngandená.
+contribution-misreadings-example-6-title = Tijia ngandená.
