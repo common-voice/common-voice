@@ -97,3 +97,5 @@ too-many-files = Nkjín ma xujun
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Kjín nijmí xi kuan skut'a tsi'í chuta <icon></icon>kuinyajin
