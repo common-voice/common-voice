@@ -107,3 +107,4 @@ rate-limit-message-seconds =
         [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
        *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
     }
+small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
