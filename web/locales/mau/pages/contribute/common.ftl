@@ -96,3 +96,5 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Chuba
+contribution-criteria-link = Katamaná chuba xi cuachén nga kuan xku.
+contribution-criteria-page-title = Chuba xi kuan xkuca.
