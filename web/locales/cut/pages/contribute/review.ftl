@@ -51,3 +51,8 @@ sc-review-rules-title = ¿A ndebes ndokas a’a o ndokas se iynde’e?
 sc-review-empty-state = Nmiñune a bte ndodo dbaku see nbekuendoo
 report-sc-different-language = Tamma dbaku
 report-sc-different-language-detail = De’se iydudene nwe iyne’te a tamma dbaku
+sentences-fetch-error = Akote ii iynunna ndodo
+review-error = Akote ii nbekuende ndodo
+review-error-rate-limit-exceeded = Tet kanni iydide. Dka dka nbekuendede tomeme kugbi dbenode ndetes a ndebe ndodote.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Aà ibekunn ndikku
