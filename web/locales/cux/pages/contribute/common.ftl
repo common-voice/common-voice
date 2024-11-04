@@ -136,6 +136,7 @@ contribution-background-voices-title = Jo'o nuudu / jinú chi jinée
 contribution-background-voices-description-extended = Nichi gua yeabea jinú nudu o jinú ama dae, kuned chi gua noó. Nichi jinane'ed nukue kuned chi noó.
 contribution-background-voices-example-1-title = It nikuu ñe'e nitumi. [Chë ama nudu]
 contribution-background-voices-example-1-explanation = ¿A kuchid? <strong>[Jitumgo tamañ]</strong>
+contribution-volume-title = Chi jinú
 contribution-just-unsure-title = ¿Y nichi gua dean kuakud tu?
 see-more = </chevron></chevron>Nee ka nichid
 see-less = <chevron></chevron>Lï ka nichid
