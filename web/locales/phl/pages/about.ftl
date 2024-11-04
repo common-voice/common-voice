@@ -113,9 +113,11 @@ about-playbook-how-validate-content-4 = اگر آک ہاواز دو جانم ر�
 
 about-playbook-how-access-dataset = مہ ڈیٹا بیسی وے کنا بھے بیم او ڑسی  استعمال کنا تھے تھوم۔
 about-playbook-how-access-dataset-content-1 = تو ڈیتا بیسی تھے<datasetsPage> بائی بھوڑ۔  تو کھئیو ورژن او کھئی زبان دوائینو ایتس گھن او ہاواز ڈون لوڈ تھہ فائلی سنگی اکٹا  <metadataLink> ڑس سنگی اکٹجی دوئی بیڈہ دیٹا ہنہ</metadataLink>، آبادیمی او تنی تصدیقو بیڈی معلومیتی ہِنم۔ ڈون لوڈ تھئنی دپارہ تیݨی ایمیل ایڈرس دینڈیو بھی۔
+about-playbook-how-access-dataset-content-2 = تو اگر ASR ماڈلی وے تیݨی شئیہ سمیانو ہینتہ، تو تیݨی کمیونیٹی <discourseLink> دوئی خلکیم سنگی کھونڈئنی دپارہ تنام سنگی تعلق سمائی بھوڑ۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجکٹی بارئی فیصلے کنا بھے تھئجانہ؟
 
 ## How is Common Voice funded
 
