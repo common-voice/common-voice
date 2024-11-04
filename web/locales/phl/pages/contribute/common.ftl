@@ -17,6 +17,11 @@ contribute-more =
        *[other] { "" }
     }
 speak-empty-state = انی زبینی ریکارڈ تھئنی دپارہ اسام دی جملے ختم بھلہ۔
+no-sentences-for-variants = تھی زبینی جملے ختم بھے ہونسن۔تو تیݨی سیٹنگ بدل تھائی بھوت تاکہ تو تیݨی زبینی جملے تو تھے پشِجن۔
+speak-empty-state-cta = جملے جاری ساتہ
+speak-loading-error = تھی منئنی دپارہ اسام دی گہ جملے نئینہ۔ مہر بینی تھے تُوش سہات پہرتہ گھرے کوشش تھہ۔
+record-button-label = تیݨی ہاواز ریکارڈ تھہ
+share-title-new = <bold>اسام سنگی مدد تھہ </bold> دوئی ہاواز بُلڈئنی دپارہ
 
 ## Contribution Nav Items
 
