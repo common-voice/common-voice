@@ -13,6 +13,7 @@ goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen nukue nudu chi
 goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue nudu nóo chi ne'en ñe'e job jobe !
 contribute-more = ¿A kadi dinad { $count } ta tae?
 speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
+no-sentences-for-variants = ¡Nigua kutea nudu ñe'e dibaku ñe'ed! Nichi ne'ed kadi nandod configuración ñe'ed tumin nichid nudu ñe'e tama dibaku.
 speak-empty-state-cta = Kuned insu nuku tanobe nudu
 speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
 record-button-label = Kuto'od nudud
