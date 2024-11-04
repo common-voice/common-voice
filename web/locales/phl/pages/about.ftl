@@ -130,3 +130,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسی حکم
 
 about-playbook-how-funded = کامن وائس کنا بھے سمِجانو؟
 about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینی آک پروجیکٹ۔ آک امریکین 501c3۔ انی پروجیکٹی تمام پیسے <philantropicGrantLink> خدمت خلقی فنڈی</philantropicGrantLink> او پورا دونیئی خلکیمی چندئی یھاندہ۔
+about-playbook-how-funded-content-2 = دیٹاسیٹ خلکیم تھے پشوئنی دپارہ،   ڑس مزید بہتر تھئنی دپارہ او کمیونٹی وے پروگرام چلئینی دپارہ بیڈہ پئیسیمی ضرورت بھینی۔
+about-playbook-how-funded-content-3 = اگر تو یا بہ تھی  تنظیم انی پروجیکٹی سنگی مالی مدد تھئنی دوائیانہ  ہینتہ ، تُس تیݨی عطیات<donateLink> دائی بھوت انی لنکی زریعہ باندی </donateLink> یا بہ اسی ٹیمی سنگی رابطہ تھائی بھوت۔
