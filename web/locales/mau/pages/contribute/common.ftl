@@ -76,9 +76,15 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Chubet'a nguinik'a tisenere.
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Tichajaye y tichubet'ae.
+shortcut-submit = ku'u ya
+request-language-text = ¿A kjié sukuri énnri ya Common Voice?
+request-language-button = Tijeí jngu énn.
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
 
 ## Validation criteria
 
