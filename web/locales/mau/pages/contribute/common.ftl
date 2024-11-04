@@ -105,3 +105,4 @@ contribution-misreadings-description = Nga kuinu'ye, nda chut'ae xi kichubet'ao 
 contribution-misreadings-description-extended-list-1 = Chaja<strong>tsá xi'in </strong>k'ua<strong>tsá choó</strong> s'ejna titjunre nga tjúbet'a xtano.
 contribution-misreadings-description-extended-list-2 = Chaja jngu <strong>s</strong> jña sikjiet'a énn.
 contribution-misreadings-description-extended-list-3 = K'ua te tjín énn xi tsín, ju tsú tsá "pal" nga'ndere nga "para el" kuixú.
+contribution-misreadings-description-extended-list-4 = Kichajá énn xi jet'a, nñú xutí tsichare nga tichibet'ae.
