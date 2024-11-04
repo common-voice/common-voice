@@ -72,3 +72,9 @@ donate-modal-explanation-1 = ڈیٹا سیٹس دی میزبانی کرنا اَ
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>اگر تسیں اوپن، جامع ڈیٹا دی قدر کردے ہو- تے اج ہی عطیہ دو!</bold>
 data-download-singleword-title = ہک لفظ والا ہدف حصہ ڈاؤنلوڈ کرو
+data-download-singleword-callout-v2 = ایہ ہک یوز کیس ڈریون حصہ ہے جس بچ سپوکن ڈجّٹ ریککنیشن ہور ہاں /ناں دا پتہ لینڑا دا ڈیٹا ہے۔
+data-download-button = کامن وائس ڈیٹا ڈاؤنلوڈ کرو
+data-download-yes = ہاں
+data-download-deny = ناں
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-download-modal = تسیں <size>{ $size }GB</size>دا ڈاؤنلوڈ شروع کرن لگے ہو، اگاں جُلاں؟
