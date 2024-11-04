@@ -83,6 +83,7 @@ minimum-sentences = tsá to 1000 nijmí nga jngu xujun
 maximum-file-size = tsá 25MB nga jngu xujun
 what-needs-to-be-in-file = Jmé xi s'enajin xujuna
 what-needs-to-be-in-file-explanation = Chut'ae<templateFileLink>xujunajin</templateFileLink>mi kuan tsá ta'xin chubet'a nijmí, mi kuan tsá kja'é tsé, mi kuan tsá ja'enre chuta kjuajin.
+upload-progress-text = Jee timijin...
 
 ## SMALL BATCH SUBMISSION
 
