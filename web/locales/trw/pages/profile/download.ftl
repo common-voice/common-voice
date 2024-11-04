@@ -18,3 +18,4 @@ download-requests = ریکارڈنگ ڈاؤنلوڈ کؤ سی کیا مُشیِ�
 download-requests-info = کے یأ تھو یے تُنو ریکارڈنگ سی کیا أرضی کیو مھو تھأ جم کیدے اے زیِپ فائل سوادی۔ مھید اگہ چھی مُوشِک أرضی تھی:
 download-request-button = وال/ڈاؤنلوڈ
 download-request-title = { $created }
+download-request-description = { $clipCount }وائس کپلس، بُوڑ خوندی کویل سی سیز{ $size }۔ ختم ہودی { $expires }
