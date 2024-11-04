@@ -9,3 +9,4 @@ listen-empty-state-variants = تھی زبینی کلپ ختم بھے ہونسن!
 listen-loading-error = بے تو تھے کاݨ تھئنی دپارہ ہاویزی کلپ نہ دائی بھانہ۔ تُوش پہرتہ گھرے کوشش تھہ۔
 listen-abort-title = کلیپی تصدیق تھئنی نسی گڈیلوے؟
 listen-abort-cancel = تصدیق تھئنی جاری ساتہ
+listen-abort-confirm = تصدیق تھئنی ختم تھہ

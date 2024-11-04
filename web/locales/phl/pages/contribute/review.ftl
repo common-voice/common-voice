@@ -1,5 +1,12 @@
 ## REVIEW
 
+sc-review-lang-not-selected = تھی گہ زبان نہ گھینی ہنی۔ مہربینی تھے <profileLink>  پوروفائلہ تھے بہ </profileLink> گھرے گھنئنی دپارہ۔
+sc-review-title = جملے گھرے دڇھہ
+sc-review-loading = جملے لوڈ تھانو
+sc-review-select-language = مہربنی تھے جملے گھرے دڇھئنی دپارہ آک زبان گھن۔
+sc-review-no-sentences = گھرے دڇھئنی دپارہ جملے نئینہ۔<addLink> دوئی جملے تپہ شامل تھہ</addLink>
+sc-review-form-prompt =
+    .message = گھرے دڇھِلہ بھاؤ جمع نہ بھلہ، تھی یقین ہِنئیے؟
 sc-review-form-button-reject = رد تھئنی
 sc-review-form-button-skip = اُڑیگلئنی
 sc-review-form-button-approve = منظوری
