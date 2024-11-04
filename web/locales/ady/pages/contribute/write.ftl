@@ -71,6 +71,7 @@ select-file-mobile = Тегъэуцоным пае файл къыхэх
 accepted-files = езэгъыщт файл типхэр: .tsv къодый
 minimum-sentences = Файлым ыкӏоцӏымкэ анахь макӏэ гущыӏэухыгъэм: 1000
 maximum-file-size = Анахьыбэу файлым инагъэр: 25 МБ
+what-needs-to-be-in-file = Сифайл сыд дэлъын ылъэкӏыщтыр?
 upload-progress-text = Upload in progress...
 bulk-upload-success-toast = Bulk Sentences Uploaded
 bulk-upload-failed-toast = Upload failed, please retry.
