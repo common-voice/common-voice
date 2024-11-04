@@ -1,10 +1,10 @@
 ## Request Language Modal
 
-request-language-title = زبانو پچین درخواست
+request-language-title = وارو پچین عارضی
 request-language-form-language =
-    .label = زبان
-request-language-success-title = کیا زبانو پچین درخواست کی اوشوئے ہسے کامیابیو سورا جمع ہوئے، شکریہ۔
-request-language-success-content = تہ زبانو کمان وائسا  کیچہ کوری شامل کورونو بوئی رے خور معلومات گانی شاو وا پشیسی
-select-language = ای زبانو گنے
-other-language = خور زبان
-yes-receive-emails = دی، متین ای میل انځاوے۔ اوا کمان وائسو پروجیکٹو بارا معلومات گنیگو جاری سوتیک مشکیمان۔
+    .label = وار
+request-language-success-title = کیا وارو پچین کی عارضی کوری استاؤ ہسے جمع کورینو ہوئے، شکریہ۔
+request-language-success-content = تا وار کامن وائسا کیچہ کوری شامل  بوئے ہیہ حوالہ اسپہ بو ݰاو خور دی معلومات گنی رابطہ کوسی۔
+select-language = ای وارو گنے
+other-language = خور وار
+yes-receive-emails = دی، متین ای میل انځاوے۔ اوا کامن وائسو پروجیکٹو بارا معلومات گنیگو جاری سوتیک مݰکیمان۔

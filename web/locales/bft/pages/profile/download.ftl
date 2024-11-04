@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = یری ڈیٹو ڈاون لوڈ بیا رگوسیدا؟
+download-info = یانگی چی ڈاون لوڈ بین نارے، نیالا زیر
+download-profile-title = پرفایل پو
+download-profile-info = ای میل پو، کولکھن پے منتخ پو، زاتی معلومات کن، دیکھہ گریمسے یودپن۔
+download-profile-size = بایٹس چی کھایک
+download-recordings-title = ریکارڈینگ کن
+download-recordings-info = ایم پی تھریس نا یو ژوخ تم سیر کن، دونگ لدنمہ لا ٹایم چی رگوسید
+download-recordings-size = عام طوریکھہ میگا بایٹس
+download-recordings-unavailable = اگر جوفل چک دونوک بیسے یودنارے، یانگلا ینگ ریکارڈینگ چی لا جوفل بیا نین مید۔
+download-recently-requested = یانگلا{ $days }   یری ریکارڈینگ پو فیونگسے فونگ زیرے جوفل چی بیا نینید۔
+download-size = پھل رینگپو
+download-selected = غدمسید
+download-start = پروفایلی ڈیٹو ڈاون لوڈ بیوس
+download-request = ریکارڈینگ کن لا جوفل بیوس
+download-requests = گوپی ریکارڈینگ کن ڈاون لوڈ بیالا جوفل کن
+download-requests-info = نامیسہ یانگی یری ریکارڈینگ کن ڈاون لوڈ بے جوفل چی کلسنارے، نیاسی ریکارڈینگ گانگمہ زیپ فایل چیک یا کھایگینگنو زدامن۔ دیکھہ یری دونوک کلے یودپی جوفل کن یود۔
+download-request-button = ڈاون لوڈ
+download-request-title = { $created }
+download-request-description = سکتی کلپ کن، ارکیایوز پے پھل رینگپو، چھمفونگ
+download-request-archive-single = زیپ فایل چیگینگ یودپونگ
+download-request-archive-multiple = لوقسو بیوس { $archiveCount } زیپ فایل کنینگ یودپونگ
+download-request-assembling-description = یری فایل کن دمسین یود۔ جوکلا ینگ ہلتوس
+download-request-refresh-button = ینگ ستروق لزوق
+download-request-modal-title = ڈاون لوڈ بے لم کن
+download-request-modal-description = دیکھہ یری زیپ فایل کن ڈاون لوڈ بے لم کن یود
+download-request-link-text = زیپ #{ $offset } کا/کے { $total }
+download-request-metadata-link = تم سیری تم کن
+download-request-link-single = یانگلا یو آر ایل کن چوق یری پسندیدہ ڈاون لوڈ کن یودپی سیکھہ  نقل بیا یا سپیاربہ نینید۔ دونگ 12 گھنٹینگ ستورے گوین، اما یانگلا دی صفحیکھہ یونگ ینگ فچوا اونگمہ نینید۔
