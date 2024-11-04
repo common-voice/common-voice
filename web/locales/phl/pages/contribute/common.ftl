@@ -107,3 +107,4 @@ contribution-criteria-page-description = ہاواز کاݨ تھئنی مجی گ�
 contribution-for-example = مثال کی
 contribution-misreadings-title = غلط منئنی
 contribution-misreadings-description = کاݨ تھئنی مجی،بیڈو غور کی چیک تھہ کی گبا گلہ ریکارڈ بھے ہنو ایڑوے چونٹا ہنوے کی نہ، ڑیوے معمولی گہ غلطی بی ہینسلی ہینتہ ڑس مسترد تھہ۔ <br /> اینی بیڈی عام غلطیم مجی شامل ہِنہ۔
+contribution-misreadings-description-extended-list-1 = کمی <strong>'اے'</strong> یا <strong>''</strong> ریکارڈنگی شروعی
