@@ -98,3 +98,6 @@ shortcut-vote-no = n
 contribution-criteria-nav = Chuba
 contribution-criteria-link = Katamaná chuba xi cuachén nga kuan xku.
 contribution-criteria-page-title = Chuba xi kuan xkuca.
+contribution-criteria-page-description = Katamari jmé xi kuijyí nga kuinu'ye xta xi kitjubet'a kua katanari jusin nga nda chubet'ae xtari.
+contribution-for-example = Jngu chuba
+contribution-misreadings-title = Mi nda ts'atuya
