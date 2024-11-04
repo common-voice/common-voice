@@ -91,6 +91,9 @@ bulk-submission-success-header = ¡Niná kat'echiri nga kjín kinikasein!
 bulk-submission-success-subheader = Ti isenke Common Voice nga kuichú ju tjín nijmí machere nga nyujun, nyujun.
 upload-more-btn-text = ¿A sikijisae énn?
 file-invalid-type = Mi nda kjí xujun.
+file-too-large = Nñú jee kji xujun
+file-too-small = Nñu nd'i kji xujun
+too-many-files = Nkjín ma xujun
 
 ## SMALL BATCH SUBMISSION
 
