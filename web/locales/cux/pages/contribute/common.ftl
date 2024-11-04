@@ -96,6 +96,9 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = A dea ne'e ñe'e
+contribution-criteria-link = Kuëñ ta tea chi ne'e ñe'e
+contribution-criteria-page-title = A dea ne'e ñe'e
 contribution-for-example = Nikó
 contribution-misreadings-title = Gua ndo naned
 contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi kanejú; kuned chi gua noó dae joóñ nichi gua dama chi jinú nuku dae chi kanejú. A dae chi gua noó jo'oñ chin:
