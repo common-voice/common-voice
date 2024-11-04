@@ -24,7 +24,7 @@ target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
 target-segment-generic-card = Jined insu nuko ama mnadu ñe´en
 target-segment-first-banner = Kuned insu nuku dae ne'e din nomnó no Common Voice { $locale }
 target-segment-add-voice = Kuned nudud
-target-segment-learn-more = née nóo ka
+target-segment-learn-more = Ne'e ta tae información
 change-preferences = Nandod chi eanud
 
 ## Contribution Nav Items
@@ -35,31 +35,31 @@ login-signup = Kunod/Kunedjud
 vote-yes = Tika
 vote-no = Gua
 datasets = Ama daku nudu
-languages = nudu
+languages = Nudu
 about = Ñe'ë
-partner = dïd ntiñu nuku insü
-submit-form-action = dicho'od
+partner = Dïd ntiñu nuku insü
+submit-form-action = Dicho'od
 
 ## Reporting
 
-report = kamad
-report-title = dicho'od ama kaka
-report-ask = a déa gua nóo ñe'e nudu kú
-report-offensive-language = nudtö
-report-offensive-language-detail = no nudu kú a kanú nudtö
+report = Kamad
+report-title = Dicho'od ama kaka
+report-ask = A déa gua nóo ñe'e nudu kú
+report-offensive-language = Nudtö
+report-offensive-language-detail = No nudu kú a kanú nudtö
 report-grammar-or-spelling = Gua nóo jo'o o gua nóo dijuñ
 report-grammar-or-spelling-detail = Gua nóo jo'o o dijuñ nudu kú
-report-different-language = tama nudu
-report-different-language-detail = gua ñe'e nudu chi kanejü
-report-difficult-pronounce = ji'ii jo'ö
+report-different-language = Tama nudu
+report-different-language-detail = Gua ñe'e nudu chi kanejü
+report-difficult-pronounce = Ji'ii jo'ö
 report-difficult-pronounce-detail = Bea nudu chi ji'ii jo'ö no
-report-offensive-speech = kanú nudtö
-report-offensive-speech-detail = kanú nudtö no nudu chi jinebëd
+report-offensive-speech = Kanú nudtö
+report-offensive-speech-detail = Kanú nudtö no nudu chi jinebëd
 report-other-comment =
-    .placeholder = kamad
-success = a nóo
-continue = nanko'o
-report-success = a yeabea cho'oo kaka
+    .placeholder = Kamad
+success = A nóo
+continue = Nanko'o
+report-success = A yeabea cho'oo kaka
 
 ## Speak & Listen Shortcuts
 
@@ -71,15 +71,15 @@ shortcut-skip = h
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
-shortcut-record-toggle-label = kuto'o nudu / kanchíchi
-shortcut-rerecord-toggle = ama -ju'u
-shortcut-rerecord-toggle-label = nauné nubto'od nudu
-shortcut-discard-ongoing-recording = naknód
-shortcut-discard-ongoing-recording-label = kanbid nudu chi inbëd
-shortcut-submit = nauned
-shortcut-submit-label = dicho'od nudu
-request-language-text = a nigua nakad nudu ñe'ed nochi snu tatea nudu
-request-language-button = kakad ama nudu
+shortcut-record-toggle-label = Kuto'o nudu / kanchíchi
+shortcut-rerecord-toggle = [Ama -ju'u]
+shortcut-rerecord-toggle-label = Nauné nubto'od nudu
+shortcut-discard-ongoing-recording = Naknód
+shortcut-discard-ongoing-recording-label = Kanbid nudu chi inbëd
+shortcut-submit = Nauned
+shortcut-submit-label = Dicho'od nudu
+request-language-text = ¿A nigua nakad nudu ñe'ed nochi snu tatea nudu no Common Voice?
+request-language-button = Kakad ama nudu
 
 ## Listen Shortcuts
 

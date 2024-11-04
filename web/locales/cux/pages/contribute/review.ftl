@@ -1,8 +1,8 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Nigua kuto'od ama nudu, kunód nochi jo'o perfil tumin kadi kuto'od ama o maska nudu
+sc-review-lang-not-selected = Nigua kuto'od ama nudu, kunód nochi jo'o <profileLink> Perfil </profileLink> tumin kadi kuto'od ama o maska nudu
 sc-review-title = Nauné nichid nudu
-sc-review-loading = Nimo kanó nudu
+sc-review-loading = Nimo kanó nudu...
 sc-review-select-language = Kuto'od ama nudu tumi kadi namné nichid nudu chi kanejú
 sc-review-no-sentences = Amtea nudu chi nichid, diñud tatea nudu
 sc-review-form-prompt =
