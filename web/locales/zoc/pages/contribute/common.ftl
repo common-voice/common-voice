@@ -76,6 +76,9 @@ shortcut-rerecord-toggle-label = Päjkwätsäjkja te' 'mode'is tsame.
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Yajktsu'nhba't nä't mbäjkjayubä' 'ode'is tsyame.
 shortcut-submit = Widu'wätsäkä
+shortcut-submit-label = Kä'weya tisy nye' yajktsä'yjayu kyene.
+request-language-text = ¿Yambya'dädi te' mij 'mode te' Common Voice'omo?
+request-language-button = Ke'a tumä'k 'ode.
 
 ## Listen Shortcuts
 
