@@ -20,6 +20,9 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
+sc-review-form-keyboard-usage-custom = Nome kugbi kamade ndi na koo { sc-review-form-button-approve-shortcut } ndetes a ndebe { sc-review-form-button-reject-shortcut } o nwe ndebe, { sc-review-form-button-skip-shortcut }o ndetes nwe ne nbefnede
+sc-review-form-button-submit =
+    .submitText = Kuinno nbekuendede
 
 ## REVIEW CRITERIA
 
