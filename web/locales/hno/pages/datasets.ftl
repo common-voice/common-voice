@@ -78,3 +78,4 @@ data-download-yes = ہاں
 data-download-deny = ناں
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-download-modal = تسیں <size>{ $size }GB</size>دا ڈاؤنلوڈ شروع کرن لگے ہو، اگاں جُلاں؟
+data-subtitle = اسیں آوازاں دا ہک کھلا ہور عوامی طور تے دستیاب ڈیٹا سیٹ بنڑا رے ہاں جِڑا ہرکوئی سپیچ-انیبلڈ ایپاں دی ٹریننگ واسطے استمعال کر سکدا ہے۔
