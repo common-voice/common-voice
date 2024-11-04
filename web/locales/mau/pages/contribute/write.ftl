@@ -137,3 +137,5 @@ small-batch-response-message =
         [one] { $uploadedSentences } Jngu nijmí xi kuañajan tisenere<downloadLink> i</downloadLink> nga kuan chaajen xi mi kuan kii.
        *[other] { $uploadedSentences } xi kuañajan tisenere <downloadLink> i </downloadLink> nga kuan chaajen xi mi kuan kii.
     }
+small-batch-sentences-rule-1 = Kui chuba ti'in tjingui “¿jmé nijmí kuan s'ejinsa?”
+small-batch-sentences-rule-2 = Jngu nijmí nga jngu dinya s'ejin
