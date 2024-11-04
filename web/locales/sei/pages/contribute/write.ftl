@@ -52,6 +52,8 @@ general = Ziix quih tcooo ma, quíih iha
 healthcare = Quisoj quij cöihiipe xaha, cöimiipe xah taax iicp iha
 # Sentence Domain dropdown option
 history_law_government = Ziix haptc iiha xaha, Ziix quih hapi hisolca coi oo cöipah xaha, Quihehe quij iicp xah taax haa ha
+# Sentence Domain dropdown option
+language_fundamentals = Icaaitom coi iti mota iitax (hizaax cmis quih haa ah. icoosx xaha, icaaitom ziix hant cöquiih xaha, tom xah)
 
 ## BULK SUBMISSION 
 
