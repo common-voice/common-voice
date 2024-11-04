@@ -61,3 +61,7 @@ email-subscriptions = ای میل تھوپ لوکھکن
 download-profile = نی ڈیٹو ڈاون لوڈ بیوس
 contribution-experience = روخ بیسی تجربات کن
 skip-submission-feedback = سکانگمی جہلتونگ سکیور
+skip-submission-description = روخ لس پو سکانگمی واخلا سکانگمی بٹن پیکھہ کلک بیسپی لزالہ جہلتونگ سکیورے یقپن۔ روخ لس پو جاری خٹپن، اخا اونگمی ریکارڈینگ غا یا چھدکھونگ
+skip-submission-note = ایتو یوق، روخ لوکھپو تبدیل بیالا یانگلا دوسے سہ زیربونہ سنا بیوی برینگ غدمہ فوقپن۔
+off = آف
+on = آن
