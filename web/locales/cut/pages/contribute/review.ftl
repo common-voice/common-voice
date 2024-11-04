@@ -23,6 +23,18 @@ sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Nome kugbi kamade ndi na koo { sc-review-form-button-approve-shortcut } ndetes a ndebe { sc-review-form-button-reject-shortcut } o nwe ndebe, { sc-review-form-button-skip-shortcut }o ndetes nwe ne nbefnede
 sc-review-form-button-submit =
     .submitText = Kuinno nbekuendede
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ndi ama bte ndikchide
+        [one] A ndichid ama. ¡Yondibede!
+       *[other] A nbekuendede tndubee. ¡Yondibede!
+    }
+sc-review-form-review-failure = Nwe chii fnunde mu'u na koo. Ndi a chinnu dikuitude.
+sc-review-link = Nbekuendede
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = De'es ndikchinno tase nbekuendeno
+sc-criteria-title = De'es ndikchinno tase nbekuendeno
