@@ -68,3 +68,7 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = عمر
 donate-modal-message = تُسدا ڈیٹا سیٹ ڈاؤنلوڈ ہو رہیا ہے!
 dataset-donate-modal-heading = تساں کو علم آسا۔۔۔
+donate-modal-explanation-1 = ڈیٹا سیٹس دی میزبانی کرنا اَستے ہور اس پلیٹ فارم کو 100 تو زیادہ  زبان دی کمیونیٹیاں جڑیاں استے اُتا بھروسہ کردیاں ہن واسطے اچھا بنڑانڑا واسطے تقریباََ ہک ملین ڈالر سالانہ خرچ آندا ہے۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگر تسیں اوپن، جامع ڈیٹا دی قدر کردے ہو- تے اج ہی عطیہ دو!</bold>
+data-download-singleword-title = ہک لفظ والا ہدف حصہ ڈاؤنلوڈ کرو
