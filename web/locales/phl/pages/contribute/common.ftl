@@ -24,6 +24,7 @@ record-button-label = تیݨی ہاواز ریکارڈ تھہ
 share-title-new = <bold>اسام سنگی مدد تھہ </bold> دوئی ہاواز بُلڈئنی دپارہ
 keep-track-profile = تیݨی پروفائیلی جھلی تھی کرامی مݜٹو گرا بئنی پتہ تھہ
 login-to-get-started = شروع تھئنی دپارہ  لاک ان بھہ یا لاک اب
+target-segment-first-card = تو اسی آویلی کرامی مقصدی پورہ تھئنی مجی اسام سنگی تعاون تھانوۡ
 
 ## Contribution Nav Items
 
