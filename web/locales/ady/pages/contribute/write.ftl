@@ -113,6 +113,12 @@ rate-limit-message-seconds =
         [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
        *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 1 гущыӏэухыгъэм и-{ $uploadedSentences }-рэр зэхэугъоягъ
+       *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-рэр зэхэугъоягъ
+    }
 small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
 small-batch-sentences-rule-5 = Зэкӏэ гущыӏэухыгъэхэр зы темэкӏэ хъун фаех
