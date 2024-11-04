@@ -1,0 +1,29 @@
+## ProfileForm
+
+profile-form-username =
+    .label = یُوزر نام
+profile-form-native-language =
+    .label = بوپ دأدی جیِب
+profile-form-additional-language =
+    .label = دیئی جیِب
+profile-form-language =
+    .label = جیِب
+profile-form-variant =
+    .label = جیِب سی کامک لہجہ تُو بنَدپو{ $language }
+profile-form-variant-default-value = کی لہجہ تھو یے نا کارُو
+profile-form-accent =
+    .label = لہجہ
+profile-form-custom-accent-help-text =
+    .label = چھی جیِب سی لہجا یے تُو کا نام دیدُو؟
+profile-form-custom-accent-placeholder-2 = مھید تُنُو جیِب سی لہجہ سی بارا می لیِکھ
+profile-form-age =
+    .label = اُومُو
+profile-form-gender-2 =
+    .label = جنس/صنف
+leaderboard-visibility =
+    .label = لیڈر بورڈ زید کھال پشؤ نیِمادُو
+hidden = بُوریل
+visible = پشیل/آخکارا
+native-language =
+    .label = بوپ دأدی جیِب
+profile-form-add-accent = دیئ لہجہ ایڈ کو{ $inputValue }
