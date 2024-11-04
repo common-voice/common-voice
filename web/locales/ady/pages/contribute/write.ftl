@@ -69,8 +69,41 @@ try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтм�
 select-file = Файл къыхэх
 select-file-mobile = Тегъэуцоным пае файл къыхэх
 minimum-sentences = Файлым ыкӏоцӏымкэ анахь макӏэ гущыӏэухыгъэм: 1000
+upload-progress-text = Upload in progress...
+bulk-upload-success-toast = Bulk Sentences Uploaded
+bulk-upload-failed-toast = Upload failed, please retry.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
 upload-more-btn-text = Нахьыбэ гущыӏэухыгъэ тебгъэуцощта?
+file-invalid-type = Invalid file
+file-too-large = File is too large
+file-too-small = File is too small
 too-many-files = Файл бащэ щыӏ
 
 ## SMALL BATCH SUBMISSION
 
+exceeds-small-batch-limit-error = Cannot submit more than 1000 sentences
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 minute
+       *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }

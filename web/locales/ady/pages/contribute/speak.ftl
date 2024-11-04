@@ -41,7 +41,10 @@ terms-agree = Сезэгъы
 terms-disagree = Сезэгъырэп
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Умэкъэ тетхагъэхэр къызэрэптыгъэм пае опсэу!
+first-cta-subtitle-text = By telling us about yourself, you will help developers build more inclusive technology
 why-donate = Сыда укъыкӏэупчӏэрэр?
+why-donate-explanation-1 = This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.
+why-donate-explanation-2 = For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. <learnMore>Learn more about why metadata matters.</learnMore>
 add-information-button = Къэбар хэгъахъу
 continue-speaking-button = Хау опсэу, гущыӏэным лъыгъэкӏуат
 create-profile-text = Укъэбархэр къэбгъэхьанэу уфая? <createProfile>Профил шӏы</createProfile>
