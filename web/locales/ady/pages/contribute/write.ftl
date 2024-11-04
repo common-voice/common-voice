@@ -65,6 +65,8 @@ sentence-variant-select-multiple-variants = Пстэури бзэ / диалек
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэхэр тегъэуцу
 sc-bulk-upload-instruction-drop = Тегъэуцоным пае файлыр мыщ щытӏупщ
 try-upload-again = Уифайл мыщ щыплъэшъузэ джыри зэ уплъэкӏу
 try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтмэ еплъ
@@ -76,7 +78,6 @@ maximum-file-size = Анахьыбэу файлым инагъэр: 25 МБ
 what-needs-to-be-in-file = Сифайл сыд дэлъын ылъэкӏыщтыр?
 what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
 upload-progress-text = Тегъэгъуцоныр макӏо...
-sc-bulk-submit-confirm = Сэ къэсэгъэщыпкъэжьы мы гущыӏэухыгъэхэр
 bulk-upload-success-toast = Bulk Sentences Uploaded
 bulk-upload-failed-toast = Upload failed, please retry.
 bulk-submission-success-header = Thank you for contributing your bulk submission!
