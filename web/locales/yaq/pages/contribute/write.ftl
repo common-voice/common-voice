@@ -101,3 +101,45 @@ too-many-files = Unna bu’u ji’ojkima’im
 small-batch-instruction = Wuate nook jiawaim ama kima lominio yoemia atte’ari po.
 multiple-sentences-error = Ka amman bittuatuk jume jaiki nook jiawaim inim chia ka obiachiku lula.
 exceeds-small-batch-limit-error = Ka bittuatuk jume 1000 nook jiawaim
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Junum tajti jiba a chumti wueye. Chia chukula juchi a jiobilane
+       *[other] nabujti ama wuam siika a yepsa po tajtia, chia chuka juchi a jiobilane () minutom po
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Junum tajti jiba a chumti wueye. Chia chukula juchi a jiobilane jaiku segundom po
+       *[other] nabujtia ama wuam siika a yepsa po tajtia. Chia chukula juchi a jiobilane () segundom po
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha juchi wuate jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
+       *[other] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha () minutom jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha juchi wuate jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
+       *[other] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chunala bo’obicha () segundom se’nu nook jiawai ta bittuabetchibo. ¡Chookuttsia em yantelaitukabetchibo!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] () wepulek ye’u poarime
+       *[other] () jume () ye’u puarime.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] () ye’u puarime, into a pit’ta imi’i () kom am wik betchibo jume nook jiawaim ka mabetwuakame
+       *[other] () jume () nautoirime). Im a pit’ta kom am wik betchibo jume nook jiawaim ka mabetwuakame.
+    }
+small-batch-sentences-rule-1 = Lutu’uria ta ja’jase ""¿jita nook jiawai ta ne a amman bittua?""
+small-batch-sentences-rule-2 = Wuepul nook jiawai ta ama kibacha wue’epul wi’ia po lula
+small-batch-sentences-rule-3 = Nook jiawaim na’ikimte Wuepul wi’ia po lula.
+small-batch-sentences-rule-4 = 1.000 nook jiawaim juni empo a ama kibacha.
+small-batch-sentences-rule-5 = Nika ke jume sime nook jiawai ama nau kiane wuepul lominio po.
+small-batch-sentences-rule-6 = Nita ke jume siime nook jiawaim nalebenak leeta into nal’lebenak taetejwaine.
