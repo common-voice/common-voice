@@ -56,6 +56,12 @@ history_law_government = Ziix haptc iiha xaha, Ziix quih hapi hisolca coi oo cö
 language_fundamentals = Icaaitom coi iti mota iitax (hizaax cmis quih haa ah. icoosx xaha, icaaitom ziix hant cöquiih xaha, tom xah)
 # Sentence Domain dropdown option
 media_entertainment = Medio xah, entretenimiento xah taax iicp hac
+# Sentence Domain dropdown option
+nature_environment = Hant quij hehet xaha, háx xaha, xiica ccamotam xah taax cmis iti coii coi iicp hac
+# Sentence Domain dropdown option
+news_current_affairs = Hant quij ziix iti cöipacta xaha, ziix cmaa haquix caahjoj xah taax iicp hac
+# Sentence Domain dropdown option
+technology_robotics = Tecnología xah, robótica xah taax iicp hac
 
 ## BULK SUBMISSION 
 
