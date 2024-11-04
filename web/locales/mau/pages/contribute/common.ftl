@@ -123,3 +123,4 @@ contribution-misreadings-example-8-title = Xutí ja'a naña.
 contribution-misreadings-example-8-explanation = Mi ngusún tsú xi kjiya.
 contribution-varying-pronunciations-title = Kja'ésin nukjua ik'a.
 contribution-varying-pronunciations-description = Nda chut'ae tsá mi mejeri jngu xta xi kitjubet'a nñú kjín skuya jus'in ma nukjua, tjín xi mi nu'yare nanguiri.
+contribution-varying-pronunciations-description-extended = Tsá xi tibe'exkiya kjie bee énn, tsa to kjaé tisú, kuan sik'atu.
