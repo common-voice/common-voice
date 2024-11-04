@@ -87,3 +87,6 @@ data-other-download = ڈیٹا ڈاؤنلوڈ کرو
 data-bundle-button = ڈیٹا سیٹ دا بنڈل ڈاؤنلوڈ کرو
 data-bundle-description = کامن وائس ڈیٹا جمع اُتلے دوئے سارے وائس ڈیٹاسیٹ۔
 release-version = ورژن
+dataset-date = تریخ
+license = لسانس:<licenseLink>{ $license }</licenseLink>
+license-mixed = مکس کیتادا
