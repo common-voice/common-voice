@@ -68,6 +68,7 @@ sentence-variant-select-multiple-variants = Пстэури бзэ / диалек
 try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтмэ еплъ
 select-file = Файл къыхэх
 select-file-mobile = Тегъэуцоным пае файл къыхэх
+minimum-sentences = Файлым ыкӏоцӏымкэ анахь макӏэ гущыӏэухыгъэм: 1000
 
 ## SMALL BATCH SUBMISSION
 
