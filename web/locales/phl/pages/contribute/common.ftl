@@ -52,6 +52,11 @@ report-ask = انو جملہ تو تھے گہ مسلہ پئیدو تھیلو؟
 report-offensive-language = کھیچی بیتی
 report-offensive-language-detail = جملہ وے  کھیچی یا غیر مہذب بیتی ہِنم۔
 report-grammar-or-spelling = گرائمری/لہجئی غلطی
+report-grammar-or-spelling-detail = جملہ وے گرائمری یا لہجئی غلطی ہنی۔
+report-different-language = مختلف زبان
+report-different-language-detail = مہ کھئی زبان کی کھونڈانو  انو ایسے زبان کی نہ چونٹولو ہِنو۔
+report-difficult-pronounce = ادا تھئنی زور
+report-difficult-pronounce-detail = اینوے ایتیݨو لوزہ یا لھوکہ جملے ہنہ کی تنام منئنی یا ادا تھئنی بیڈو زور۔
 
 ## Speak & Listen Shortcuts
 
