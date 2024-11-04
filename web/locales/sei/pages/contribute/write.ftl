@@ -70,10 +70,10 @@ sentence-variant-select-multiple-variants = Icaaitom quih tcooo ma haa ha / cmis
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Icaaitom hant coii pocooo ihaaht ocoaaj pac ano nsiiquim aha <icon></icon>
-sc-bulk-upload-instruction = Icaaitom hant hac ano quiih quih hizac iiqui nsqueetx aha <uploadButton>hant iiqui mposnan ta x, hant hac iiqui siizquim aha</uploadButton>
-sc-bulk-upload-instruction-drop = icaaitom hant hac ano quiih quih impoocatx ta x, ano siih aha
-bulk-upload-additional-information = Icaaitom ihmaa pac icaaitom hant hac ano coii íi coi iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = Icaaitom ihmaa pac icaaitom hant hac ano coii palntilla hapah quih an imoii pac haa paii ta, iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
+sc-bulk-upload-instruction = Archivo quih hizac iiqui nsqueetx aha <uploadButton>hant iiqui mposnan ta x, hant hac iiqui siizquim aha</uploadButton>
+sc-bulk-upload-instruction-drop = Archivo quih impoocatx ta x, ano siih aha
+bulk-upload-additional-information = Icaaitom ihmaa pac archivo quih ano coii quih iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Icaaitom ihmaa archivo quih xiica ano coii plantilla hapah quih an imoii pac haa paii ta, iiqui cöihah impomzo x, hizaax ano nsiitom aha <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Haptco mos ipaai isoocta ah, icaaitom hant quih an hant coii coi hizac iiqui nsqueetx aha
 try-upload-again-md = Haptco mos áno nsiih pi nsaai aha
 select-file = Archivo zo haa nsaaco aha
@@ -141,3 +141,5 @@ small-batch-sentences-rule-1 = Icaaitom iscocaai ha coi compacaai “¿Zó icaai
 small-batch-sentences-rule-2 = Lineaj tanticat icaaitom hant coii quih tazo cah iiqui consiih aha
 small-batch-sentences-rule-3 = Icaaitom hant coii coi líneaj quih impahaa, salto de línea hapah zo oo compoh iij pte nsiiquim aha.
 small-batch-sentences-rule-4 = Icaaitom hant coii quih 1.000 ano miiquim iisax siipe aha
+small-batch-sentences-rule-5 = Icaaitom hant coii coi pocooo hant ano yaii hac pti ismis oo caha
+small-batch-sentences-rule-6 = Icaaitom hant coii coi pocooo ipacta siizoj oo caha
