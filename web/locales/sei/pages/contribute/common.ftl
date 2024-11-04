@@ -141,5 +141,6 @@ contribution-background-voices-example-1-title = Xiica ccamotam caacöl dinosaur
 contribution-background-voices-example-1-explanation = ¿Me haa moca ya? <strong>[ihmaa zo haa poop iszaxö aha]</strong>
 contribution-volume-title = Ipac ipaai, xah hantx iicx cöipaii
 contribution-just-unsure-title = ¿Cöihiipe xah, cöimiipe xah impomaa tax?
+contribution-just-unsure-description = Ziix z ano poohca,ziix iscocaai ha hant hac ano coii coi cöipomayaxi ta x, hapi mpoocta quiipe pac haa poohca ta oo consiih aha. Ox oo mpacta xo, misaai ha zo mpomaa x, oo cötpah cöiheectim quij oo compoh, icaaitom ziix quih an hant cooit iic cöcocaai coi insoocta ha,
 see-more = </chevron></chevron> Ihmaa pac hapx popaquim spacta ha
 see-less = <chevron></chevron>Quipxa hapx spaquim iiha aha
