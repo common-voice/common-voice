@@ -105,3 +105,5 @@ contribution-misreadings-description = Manba'k, ko'sa ponymbo'nyi 'uka te' graba
 contribution-misreadings-description-extended-list-1 = Ja'idä tumä 'te'' windi te' nä tsyo'tsumä 'ode'is tsyame.
 contribution-misreadings-description-extended-list-2 = Ja'idä tumä 's' ko'yajumä te' 'odejaye.
 contribution-misreadings-description-extended-list-3 = Wa'a yajk'onu te' 'odejaye ja'ijtyabä, yä'sebä "te'k" wa'anyäbu "te'koda", muspadi mbajkwidu'keda te' 'odejaye.
+contribution-misreadings-description-extended-list-4 = Yajktokobya we'ne te' 'ukanhgä'mäbä todojaye nä mjaktäktäkä'yuk te' 'ode'is tsyame.
+contribution-misreadings-description-extended-list-5 = Wäwänyaka yajk'o'nispa te' jaye.
