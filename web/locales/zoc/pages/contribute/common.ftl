@@ -53,6 +53,11 @@ report-different-language-detail = 'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä '
 report-difficult-pronounce = Ji'nde 'omba musä ndsamä.
 report-difficult-pronounce-detail = 'Ijtyaju jaye, 'odejayeda'm ji'nde yajk'omba musibä ndsabya.
 report-offensive-speech = Nyä'ijtu 'ode tsa'ajkubyä.
+report-offensive-speech-detail = Te' kätpabä 'odejaye'is nyä'ijtu tumä 'ode tsa'ajkubyä yajkti 'onjabyabä'iste.
+report-other-comment =
+    .placeholder = Tsamä' tiyä msutpa.
+success = Wäbä
+continue = Tsäjka'nhä/yosa'nhä
 
 ## Speak & Listen Shortcuts
 
