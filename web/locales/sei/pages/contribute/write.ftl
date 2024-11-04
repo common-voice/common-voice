@@ -113,3 +113,15 @@ rate-limit-toast-message-seconds =
         [one] Iti cöisaafzx ha iiqui ipacatx quih iti cöyajoz. Segundo quih tazo iti pafin ta, mpaai insoocta aha
        *[other] Iti cöisaafzx ha iiqui ipacatx quih iti cöyajoz. Segundoj pac iti pafin ta, mpaai insoocta aha
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Hant ziix quih an hant yaii hizac iti cöpoyaxi ta, ziix quih hant quih iiqui cöispaca hac íti cöyajoz. Minuto quih tazo mpaqueejim impaai insoocta aha. ¡Haa xah tiipe mmaqueejim tax!
+       *[other] Hant ziix quih an hant yaii hizac iti cöpoyaxi ta, ziix quih hant quih iiqui cöispaca hac íti cöyajoz. Minutoj pac impaqueejim impaai insoocta aha. ¡Haa xah tiipe mmaqueejim tax!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Hant ziix quih an hant yaii hizac iti cöpoyaxi ta, ziix quih hant quih iiqui cöispaca hac íti cöyajoz. Segundo quih tazo mpaqueejim impaai insoocta aha. ¡Haa xah tiipe mmaqueejim tax!
+       *[other] Hant ziix quih an hant yaii hizac iti cöpoyaxi ta, ziix quih hant quih iiqui cöispaca hac íti cöyajoz. Segundoj pac impaqueejim impaai insoocta aha. ¡Haa xah tiipe mmaqueejim tax! { $retryLimit }
+    }
