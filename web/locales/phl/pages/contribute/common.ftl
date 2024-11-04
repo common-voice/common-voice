@@ -134,3 +134,4 @@ contribution-volume-title = زور/بھراش
 contribution-reader-effects-title = مناٹی اثر
 contribution-just-unsure-title = بس غیر یقینی
 see-more = <chevron></chevron>دوئی دڇھہ
+see-less = <chevron>کام دڇھہ</chevron>
