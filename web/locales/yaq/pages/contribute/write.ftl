@@ -1,0 +1,9 @@
+## WRITE PAGE
+
+write = Jiokte
+
+## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+
