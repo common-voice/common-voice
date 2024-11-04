@@ -6,10 +6,10 @@ skip = Kabnud
 shortcuts = Kuno kuakud
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold>ama tò
-       *[other] <bold>{ $count }</bold>Naobe tò
+        [one] <bold>{ $count }</bold> ama tò
+       *[other] <bold>{ $count }</bold> Naobe tò
     }
-goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen <goalPercentage></goalPercentage> ñe'e nukue nudu chi ne'e chi kuto'on job jobe  { $goalValue }!
+goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen <goalPercentage></goalPercentage> ñe'e nukue nudu chi ne'e chi kuto'on job jobe { $goalValue }!
 goal-help-validation = !Ndiosdibad chi chined Common Voice a tanen <goalPercentage></goalPercentage> nukue nudu nóo chi ne'en ñe'e job jobe { $goalValue }!
 contribute-more = ¿A kadi dinad { $count } ta tea?
 speak-empty-state = A kutea nudu chi kuto'od ñe'e dibaku ku...
@@ -17,7 +17,7 @@ no-sentences-for-variants = ¡Nigua kutea nudu ñe'e dibaku ñe'ed! Nichi ne'ed 
 speak-empty-state-cta = Kuned insu nuku tanobe nudu
 speak-loading-error = Gua chikadi kandó nudu. Tamnóo namné kundotud.
 record-button-label = Kuto'od nudud
-share-title-new = <bold>Kuned insu </bold> chi nakan tanobe nudu.
+share-title-new = <bold>Kuned insu</bold> chi nakan tanobe nudu.
 keep-track-profile = Nichid a taka kue'ed ñe'e ntiñu ku no ama perfil ñe'ed
 login-to-get-started = Kunod o kunejud dí tumin kadi kutoko'od
 target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
@@ -102,9 +102,9 @@ contribution-criteria-page-title = A dea ne'e ñe'e
 contribution-criteria-page-description = ¡Kuekad dea nud orchi jinebed nuduñ nukuntu taka yeabea ka kuto'od nudud!
 contribution-for-example = Nikó
 contribution-misreadings-title = Gua ndo naned
-contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi kanejú; kuned chi gua noó dae joóñ nichi gua dama chi jinú nuku dae chi kanejú. A dae chi gua noó jo'oñ chin:
-contribution-misreadings-description-extended-list-1 = Jindá ama <strong> 'el' </strong> o <strong> 'la' </strong> ñe'e nudu tochi jitoko'o
-contribution-misreadings-description-extended-list-2 = Jinaa ama <strong> 's' </strong> nochi inu ama nudu
+contribution-misreadings-description = Yeabea kuneded a dea jo'oñ nuku dae chi kanejú; kuned chi gua noó dae joóñ nichi gua dama chi jinú nuku dae chi kanejú. <br/> A dae chi gua noó jo'oñ chin:
+contribution-misreadings-description-extended-list-1 = Jindá ama <strong>'el'</strong> o <strong>'la'</strong> ñe'e nudu tochi jitoko'o
+contribution-misreadings-description-extended-list-2 = Jinaa ama <strong>'s'</strong> nochi inu ama nudu
 contribution-misreadings-description-extended-list-4 = Chindá ama nudu ti kanii chikto'oñ
 contribution-misreadings-description-extended-list-5 = Née fuelta kamad ama nudu
 contribution-misreadings-example-1-title = It nikuu ñe´e nitumi.
@@ -124,14 +124,18 @@ contribution-misreadings-example-8-explanation = Chun gua dama jo'ö nuku bí'i
 contribution-varying-pronunciations-title = A taka jo'oñ kadi nandó
 contribution-varying-pronunciations-description = Yeabea kunebed nukue nudu chi gua nóo. Ti yeabean ndee noo kadi kamañ, Nichi jinaned a dae jo'oñ kuned chi a nóo
 contribution-varying-pronunciations-description-extended = Nichi akud chi iña chi jo'o gua deanuñ a taka jo'oñ ama nudu y gua noó jo'oñ kuned chi gua noó. Nichi gua deanud a noó o gua noó kabyákud nudu.
-contribution-varying-pronunciations-example-1-title = Kanutïs ama dintïs.
+contribution-varying-pronunciations-example-1-title = Kanutïs ama dintïñ.
+contribution-varying-pronunciations-example-2-title = Chea to'os.
 contribution-background-noise-title = Jo'ö diisa
 contribution-background-noise-description-extended = Nichi gua yeabea jinú nudu o jinú ama dae, kuned chi gua noó. Nichi jinane'ed nukue kuned chi noó.
+contribution-background-noise-example-1-fixed-title = <strong>[Chidit]</strong> It nikuu ñe'e <strong>[kaa]</strong> nitumi.
+contribution-background-noise-example-2-fixed-title = It nukuu <strong>[kaa]</strong> ñe'e nitumi.
 contribution-background-noise-example-2-explanation = Ama kuó chi tika kanejún gua jinú
+contribution-background-noise-example-3-fixed-title = <strong>[A boo]</strong> it nikuu ñe'e <strong>[A boo]</strong>-r nitumi.
 contribution-background-voices-title = Jo'o nuudu / jinú chi jinée
 contribution-background-voices-description-extended = Nichi gua yeabea jinú nudu o jinú ama dae, kuned chi gua noó. Nichi jinane'ed nukue kuned chi noó.
 contribution-background-voices-example-1-title = It nikuu ñe'e nitumi. [Chë ama nudu]
-contribution-background-voices-example-1-explanation = ¿A kuchid? <strong> (Jitumgo tamañ)</strong>
+contribution-background-voices-example-1-explanation = ¿A kuchid? <strong>[Jitumgo tamañ]</strong>
 contribution-just-unsure-title = ¿Y nichi gua dean kuakud tu?
 see-more = </chevron></chevron>Nee ka nichid
 see-less = <chevron></chevron>Lï ka nichid

@@ -24,10 +24,10 @@ new-sentence-rule-8 = Kané chi  nané'e nudu chi kanejú (tumin kadi kueñ)
 login-instruction-multiple-sentences = <loginLink>Kunód</loginLink> o <loginLink>kunejüd</loginLink> dí tumin kadi chi ñó nudu dicho'od
 how-to-cite = ¿A taka kadi kunejü?
 how-to-cite-explanation-bold = Kunejüd nuku ama URL o chi jobe kaka nochi nakad nudu.
-how-to-cite-explanation = Nichi nudu ñe'edin kunejüd chi ñe'ed. Ne'e kadinun a tí nakad tumin kadi nún a kuaku chi a di du'unuñ kadi túbiy nudu kú. Nichi ne'e kadinud nüd mu'u.
+how-to-cite-explanation = Nichi nudu ñe'edin kunejüd <italicizedText>“chi ñe'ed”</italicizedText>. Ne'e kadinun a tí nakad tumin kadi nún a kuaku chi a di du'unuñ kadi túbiy nudu kú. Nichi ne'e <guidelinesLink>kadinud nüd mu'u</guidelinesLink>.
 guidelines = Dikó
 contact-us = Nüd insü
-add-sentence-success = Chitó'on nudu
+add-sentence-success = 1 Chitó'on nudu
 add-sentence-error = Gua cho'oo nudu
 required-field = Kanód bcheatinu dikútud chi jika mu'u
 single-sentence-submission = Áman nudu dicho'od
@@ -53,17 +53,17 @@ sentence-variant-select-multiple-variants = nuekue'ë nyudu/ Née noo núdu
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Kuead nudu chi nukueñ kadi nichiñ
-sc-bulk-upload-instruction = Mu'u kuead archivo ñe'ed  o koto'od mu'u tumin di cargar ñe'ed
+sc-bulk-upload-header = Kuead nudu chi nukueñ kadi nichiñ <icon></icon>
+sc-bulk-upload-instruction = Mu'u kuead archivo ñe'ed o <uploadButton>koto'od mu'u tumin di cargar ñe'ed</uploadButton>
 sc-bulk-upload-instruction-drop = Techto'od archivo mu'u tumin kadi kuead
-bulk-upload-additional-information = Nichi bea tanobe dae chi ne'e ko'od ñe'e archivo kun, yabid:
-template-file-additional-information = Nichi bea tanobe dae chi ne'e ko'od ñe'e archivo ku chi gua kane no platilla, yabid;
+bulk-upload-additional-information = Nichi bea tanobe dae chi ne'e ko'od ñe'e archivo kun, yabid <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Nichi bea tanobe dae chi ne'e ko'od ñe'e archivo ku chi gua kane no platilla, yabid <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Kueatud archivo ñe'ed mu'u.
 try-upload-again-md = Kueatud archivo ñe'ed
 select-file = Neabed archivo ñe'ed
 select-file-mobile = Neabed archivo chi kuead.
 upload-progress-text = A jea ñe'ed...
-sc-bulk-submit-confirm = Nudu kun a di du'u nu kadi tubi y kadi kueka.
+sc-bulk-submit-confirm = Nudu kun <wikipediaLink>a di du'u nu kadi tubi</wikipediaLink> y kadi kueka.
 bulk-upload-success-toast = A cheañ nudud
 bulk-upload-failed-toast = Tubii chi ead, kuea tud.
 bulk-submission-success-header = ¡Ndiosnadibad chi nanchod nudud!
@@ -77,7 +77,7 @@ too-many-files = Yeabean ndee archivo
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = Kunekad nudu chi nukueñ kadi nichiñ.
+small-batch-instruction = Kunekad <icon></icon> nudu chi nukueñ kadi nichiñ.
 multiple-sentences-error = Gua kadi kuead ndee nudu tochi dicho'od "sencillo"
 exceeds-small-batch-limit-error = Gua kadi dicho'od mas ñe'e 1000 nudu
 small-batch-sentences-rule-2 = Dijud ama nudu no línea.
