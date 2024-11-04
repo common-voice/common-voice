@@ -65,6 +65,7 @@ sentence-variant-select-multiple-variants = Пстэури бзэ / диалек
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Тегъэуцоным пае файлыр мыщ щытӏупщ
 try-upload-again = Уифайл мыщ щыплъэшъузэ джыри зэ уплъэкӏу
 try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтмэ еплъ
 select-file = Файл къыхэх
