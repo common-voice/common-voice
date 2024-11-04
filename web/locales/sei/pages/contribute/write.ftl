@@ -100,3 +100,4 @@ too-many-files = Archivoj quih iisax quihiih cah anxö ano cöxoaii
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Icaaitom hant coii <icon></icon> quih halx pootàxo ta, hant pocooo ihaht ocoaaj hac ano nsiiquim aha
 multiple-sentences-error = Icaitom hant coii halx catàxo quih hanso hant hac an icapaquim iyomá.
+exceeds-small-batch-limit-error = Icaaitom hant coii quih 1000 quih iti cöpajoz ta, hant hac iiqui icapaca imá ha
