@@ -140,6 +140,7 @@ contribution-background-voices-description-extended = Icaaitom ziix quih an ahan
 contribution-background-voices-example-1-title = Xiica ccamotam caacöl dinosaurioj hapah Triástico hac ano coii. [sahcaaitom aha]
 contribution-background-voices-example-1-explanation = ¿Me haa moca ya? <strong>[ihmaa zo haa poop iszaxö aha]</strong>
 contribution-volume-title = Ipac ipaai, xah hantx iicx cöipaii
+contribution-volume-description = Xiica ziix quih cahooza coi ihipoza quih iti cöiilajc quih pti iscommis aha. Icaaitom ziix quih an hant cooit coi iisax quihiih cah cöiixaj cah iicot cösiictim poho x, iisax quihiih cah cöpomaaixaj ta, sompee poho, ziix iimx zo sompaa poho x, ox xah zo pahii ta x, iiqui cösompah aha.
 contribution-just-unsure-title = ¿Cöihiipe xah, cöimiipe xah impomaa tax?
 contribution-just-unsure-description = Ziix z ano poohca,ziix iscocaai ha hant hac ano coii coi cöipomayaxi ta x, hapi mpoocta quiipe pac haa poohca ta oo consiih aha. Ox oo mpacta xo, misaai ha zo mpomaa x, oo cötpah cöiheectim quij oo compoh, icaaitom ziix quih an hant cooit iic cöcocaai coi insoocta ha,
 see-more = </chevron></chevron> Ihmaa pac hapx popaquim spacta ha
