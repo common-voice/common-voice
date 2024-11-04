@@ -109,3 +109,5 @@ rate-limit-message-seconds =
     }
 small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
+small-batch-sentences-rule-5 = Зэкӏэ гущыӏэухыгъэхэр зы темэкӏэ хъун фаех
+small-batch-sentences-rule-6 = Зэкӏэ гущыӏэухыгъэхэр зэфэдэ къыхэхыгъэ тхыгъэмкӏэ хъун фаех
