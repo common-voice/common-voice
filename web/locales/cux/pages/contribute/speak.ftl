@@ -44,6 +44,7 @@ first-cta-header-text = ¡Ndios nadibad chi jited nudud insú!
 first-cta-subtitle-text = ¿A ne'e kunejud am dae ñe'e a taka jinded?
 why-donate = ¿Takue chi jitumgo'od?
 why-donate-explanation-1 = Chu'u kadi chi gua kuned nichi gua ne'ed. Tochi kuean nukue chu'un gua kuean chi jobed o correo electronico ñe'ed, ni a ti ñobakud o a ndatad o so'öd ni a tabea ndoyod.
+why-donate-explanation-2 = Ne'e ndee iña chi nukeñ nuduñ tumin yeabea kano tecnologia ku. Nichi gua kundo ama iña chi gua dama jindeñ gua yeabea kandó tecnologia ku. <learnMore> (aqui posible propuesta, falta la ultima parte por que no se que es un metadato)
 add-information-button = Kuneekad noo
 continue-speaking-button = Gua. ndios nadiban, ndeekan
 create-profile-text = ¿A ne'e nabad información ñe'ed? Dindad ama perfil ñe'ed.
@@ -58,4 +59,4 @@ second-cta-subtitle-text = Nuku ama perfil kadi nichid a dae jidid nuku nichid y
 already-have-an-account = ¿A bea ama cuenta ñe'ed? kundod
 create-profile-button = Dindad ama perfil
 # IMAGE TAGS
-img-alt-success-checkmark = A kaneju chi noo
+img-alt-success-checkmark = Kandó chu ñe'ed ti a noo
