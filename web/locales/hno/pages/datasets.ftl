@@ -39,3 +39,8 @@ feedback-q = رائے دیسو؟
 # This indicates that there is no data to display
 no-information = کوئی معلومات نیں
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ہک <docsLink>اوپن سورس ٹول کٹ </docsLink> ہے اُنہاں تحقیق کرنا والیاں واسطے جیڑے سٹیٹ-آف-دی-آرٹ AI ماڈلز تیار کررے ہن۔
+resource-deepspeech-info =
+    موزیلا دے اوپن سورس وائس ریکگنیشن انجن ڈیپ سپیچ کو سپیچ ریکگنیشن ایپلی کیشنز بنڑا واسطے استعمال کر ہکدے ہاں۔ اسدا <githubLink>Github 
+     جائزہ </githubLink> پڑھو یا شروع کرنا دا طریقہ سیکھنڑا کیتے <discourseLink>DeepSpeech ڈسکورس </discourseLink> بچ شامل ہوو۔
+resource-coqui-info = <coquiLink> Coqui </coquiLink> تقریر دی ٹیکنالوجی کو کھولنڑ واسطے وقف ہے۔ ان دے منصوبیاں بچ ڈیپ لرننگ  تے مبنی STT تے TTS انجن شامل ہن۔
+community-playbook = کمیونٹی پلے بک
