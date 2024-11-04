@@ -84,6 +84,8 @@ maximum-file-size = tsá 25MB nga jngu xujun
 what-needs-to-be-in-file = Jmé xi s'enajin xujuna
 what-needs-to-be-in-file-explanation = Chut'ae<templateFileLink>xujunajin</templateFileLink>mi kuan tsá ta'xin chubet'a nijmí, mi kuan tsá kja'é tsé, mi kuan tsá ja'enre chuta kjuajin.
 upload-progress-text = Jee timijin...
+sc-bulk-submit-confirm = Je nijmí <wikipediaLink>kuan skue tsi'í chuta,</wikipediaLink> tjinna ngand'e nga sikijian.
+bulk-upload-success-toast = Je tsé énn tsijin.
 
 ## SMALL BATCH SUBMISSION
 
