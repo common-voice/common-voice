@@ -96,6 +96,8 @@ about-playbook-how-grow-language = بے کمن وائسہ وے آک زبان ک�
 about-playbook-how-grow-language-content-1 = مختلف خلکیم تھے موقع دے  کمن وائس انی بات یقینی سمیانو کی دیٹاسیٹ کتی بی ہینتہ بیڈہ خلکیمی خسمت تھی وڑئی۔  اسم تھی استعمالی دپارہ وسائلی سمولہ ہنہ۔
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = خلکیمی کاݨ تھئنی او تیݨی پیغام پھیدئنی دپارہ تو سوشل میڈیا استعمال تھائی بھوڑ۔ ایتݨی پوسٹ لگیہ کی سے خلکیمی دپارہ بیڈی اہم ہونسہ او خلکہ تیوے دلچسپی کی حصہ گِھنن۔ تنی زببینی اہمیت، ہاویزی اے آئی یا تیکنالوجی اہمیت بارئی بیتی دہ۔ سوشل میڈیا چلئنی او دوئی مشوریمی دپارہ <campaignLink> انی لنکی وے دڇھہ۔ ایڑیوے بی بیڈہ ایتیݨہ شئیہ ہِنہ کی تنام تو استعمال تھئی بھوڑ۔
+about-playbook-how-grow-language-content-6 = حصہ دارری او خلکیم سنگی تعلقات
 
 ## How to validate
 
