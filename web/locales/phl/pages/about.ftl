@@ -129,3 +129,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسی حکم
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائس کنا بھے سمِجانو؟
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینی آک پروجیکٹ۔ آک امریکین 501c3۔ انی پروجیکٹی تمام پیسے <philantropicGrantLink> خدمت خلقی فنڈی</philantropicGrantLink> او پورا دونیئی خلکیمی چندئی یھاندہ۔
