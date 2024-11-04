@@ -119,3 +119,15 @@ rate-limit-message-minutes =
         [one] Ts'atunere chubare ju tjín maa nikasen, chunye ngutjún ndaga kuan sikasen ngui jngú nijmí.
        *[other] Ts'atunere chubare ju tjín maa nikasen, chunye ngutjún tse { $retryLimit }ndaga kuan sikasen ngui jngú nijmí.
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ts'atunere chubare ju tjín maa nikasen, chunye xchi ndaga kuan sikasen ngui jngú nijmí.
+       *[other] Ts'atunere chubare ju tjín maa nikasen, chunye { $retryLimit } xchi tse ndaga kuan sikasen ngui jngú nijmí.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } tse 1 nijmí xi kuan ñajan
+       *[other] { $uploadedSentences } tse nijmí xi kuan ñajan
+    }
