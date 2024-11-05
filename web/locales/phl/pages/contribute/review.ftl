@@ -31,8 +31,15 @@ sc-review-form-reviewed-message =
         [one] 1 جملہ گھرے دڇِھلو، شکریہ
        *[other] 2 جملے گھرے دڇھلہ، شکریہ
     }
-sc-review-form-review-failure = گھرے دڇھیلو واندو  محفوظ کوتھئنی نہ بھانوۡ۔ تُوش سہات پہُرتہ گھرے کوشش تھہ۔
+sc-review-form-review-failure = دوبارہ دڇھیلو واندو  محفوظ کوتھئنی نہ بھانوۡ۔ تُوش سہات پہُرتہ گھرے کوشش تھہ۔
 sc-review-link = دوبارہ دڇھئنی
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = دوبارہ دڇھئنی معیار
+sc-criteria-title = دوبارہ دڇھئنی معیار
+sc-criteria-make-sure = تسلی تھہ کی جملہ  مُݜٹو یھاندو معیار پورہ تھانوۡ تھی۔
+sc-criteria-item-1 = جملہ صحی طریقہ کی چونٹِجی ہونسہ وڑئی۔
+sc-criteria-item-2 = جملہ گرائمری مطابقی صحیح چونٹِجی ہونسہ وڑئی۔
+sc-criteria-item-3 = جملہ منئنی قابل ہونسہ وڑئی۔
+sc-criteria-item-4 = اگر جملہ معیارو پورہ تھانو ہینتہ اندہ&quot; کلک تھہ۔  دیڇھنیتی دوشی &quot;منظور تھہ۔
