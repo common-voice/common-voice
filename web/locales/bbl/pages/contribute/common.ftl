@@ -87,6 +87,15 @@ request-language-button = დაკლე́ვადბებათ მოტტ
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = g?
 shortcut-play-toggle-label = დაჰ̦ითარ/დაჰ̦ ოთთარ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = d?
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = a?
 
 ## Validation criteria
 
+contribution-criteria-nav = ნიფსხოლეჼ საზომ
+contribution-criteria-link = შარიჼ და́ყ ნიფს ჩუ დაჰ̦რეხ
+contribution-criteria-page-title = შარიჼ დაყ ნიფს ჩუ დაჰ̦არ
