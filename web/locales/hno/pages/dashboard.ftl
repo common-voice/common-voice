@@ -50,6 +50,8 @@ help-reach-hours-general-pluralized =
         [one] ذاتی ہدف نال زبان بچ کامن وائس کو{ $hours }گھنٹا پہنچڑاں مدد کرو
        *[other] ذاتی ہدف نال زبان بچ کامن وائس کو{ $hours }گھنٹے پہنچڑاں مدد کرو
     }
+set-a-goal = ہک ہدف طے کرو
+cant-decide = فیصلہ نیں کر ہکدے؟
 
 ## Goals
 
