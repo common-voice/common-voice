@@ -48,6 +48,8 @@ report-ask = უ̂ხ ხარვეზ ჲეჲგნა́ წინადა
 report-offensive-language = ჺაფარლაჲნი̆ შინაარს
 report-offensive-language-detail = ნიფსხოლეწიჼ, ლე მა ჺაფარლაჲნი̆ შინაარსეჼ წინადადებ ჲა
 report-grammar-or-spelling = გრამატიკულ/ორთოგრაფიულ ხარცხილ'არ
+report-grammar-or-spelling-detail = წინადა́დებ ლე გრამა́ტიკულ, ლე ორთოგრაფიულ შეცდომა́რეჼ ჲა
+report-different-language = ჴენაჸ მოტტ
 
 ## Speak & Listen Shortcuts
 
