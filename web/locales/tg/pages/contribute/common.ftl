@@ -34,7 +34,7 @@ change-preferences = Иваз кардани хусусиятҳо
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Маҷмуи сабтҳо
+contribute-voice-collection-nav-header = Маҷмуи овозҳо
 contribute-sentence-collection-nav-header = Маҷмуи ҷумлаҳо
 login-signup = Воридшавӣ / Бақайдгирӣ
 vote-yes = Ҳа
