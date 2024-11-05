@@ -144,6 +144,7 @@ contribution-background-voices-example-1-explanation = ¿Nä'am myidu? ['yonäyu
 contribution-volume-title = Yajk'ona pämi/po'nyi
 contribution-volume-description = Wene'nhomo 'eya'eya maka yajk'onye te' pä'nista'm te' todojaye, wenebä'is pämi, wenebä'is po'nyi. 'U mbäjkisytsyoku te' 'ode'is tsyame 'uka nimeke pämi yajkti 'uka nimeke po'nyi, yajkti 'uka ji' yajk'onye te' todojaye sunyi.
 contribution-reader-effects-title = Te' todo 'onyajpabä'is pyämi.
+contribution-reader-effects-description = Tome 'ijtpä'usebä te' 'ode'is tsyame, te'sede 'onyajpase te' pända'm/yomoda'm. Mujspa mbäkä te' 'ode'is tsyame judä wejwitnämba, numunumuneyajpa yajkti judä yajk'onyajpamä sunyi te' todojaye. 'U mbäjkisytsyoku te' 'ode'is tsyame watnubä, yajkti tä'nhgubyä pätse 'onbabä.
 contribution-just-unsure-title = ¿'Uka ji' mujsi wiyunse?
 contribution-just-unsure-description = 'Uka mba'tpa tijudibä ji' tsyamdäyibä yä'ki, kobiwä tibä mgo'mbya wäbä. 'Uka wiyunhse ji' mujsi mgobiwä, te'se pena te' jatyäjk wa'a mgo'nhgädä, wa'a mujsu yajtsä'yja 'eyabä te' 'ode'is tsyame.
 see-more = Ko'sanhä
