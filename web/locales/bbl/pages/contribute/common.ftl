@@ -37,9 +37,14 @@ vote-no = ცო
 datasets = კრებული
 languages = მატტიშ
 about = სტემახ??
+partner = ცჰ̦ა́ღწილდეჲნო̆
+submit-form-action = დაჰ̦ითარ
 
 ## Reporting
 
+report = მოხსე́ნბადარ
+report-title = მოხსე́ნებ ჲაჰ̦ითარ
+report-ask = უ̂ხ ხარვეზ ჲეჲგნა́ წინადა́დბე?
 
 ## Speak & Listen Shortcuts
 
