@@ -139,3 +139,4 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Kui chuba ti'in tjingui “¿jmé nijmí kuan s'ejinsa?”
 small-batch-sentences-rule-2 = Jngu nijmí nga jngu dinya s'ejin
+small-batch-sentences-rule-3 = Tinyat'axín nijmí jngu ndiyá nga'an jngú, kua jngu ndiyá tjatiye.
