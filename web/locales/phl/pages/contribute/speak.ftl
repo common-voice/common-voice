@@ -53,3 +53,10 @@ thanks-for-voice-toast-error = تھی ہاویزی معلومات جمع تھئ�
 first-cta-gender-select-default-option = آک طریقہ گِھن
 first-cta-gender-select-help-text =
     .label = تو کُڑی کی مِیش تھنی کنا تھے وضاحت تھیڑ؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تھی ہاویزی کلپ دئنی دپارہ تھی بیڈی مہربینی
+second-cta-subtitle-text = پروفائلہ جُھلی می کتی کرام بھلو تھنی تو پتہ تھیڑ۔  تیݨی ہاواز داٹم خلکیم سنگی او تنی کرامم تو جوڑ بھے ہونسڑ۔
+already-have-an-account = مُݜٹوے اکاونٹ ہنوے؟ <login>لاگ ان</login> بھہ
+create-profile-button = آک پروفائل سمہ
+# IMAGE TAGS
+img-alt-success-checkmark = کامیبی نِݜون
