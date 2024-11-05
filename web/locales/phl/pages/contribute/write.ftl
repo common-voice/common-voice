@@ -60,9 +60,24 @@ media_entertainment = میڈیا او تفریح
 nature_environment = قدرت او ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبری او موجودہ حالات
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی او روبوٹ
+sentence-variant-select-label = جملیمی مختلف شکل
+sentence-variant-select-placeholder = آک قسم گھن (اختیاری)
+sentence-variant-select-multiple-variants = عام زبان/ بیڈہ قسمہ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = عام خلکیمی دائرہ کی استعمال بھاٹہ </icon> <icon>  جملے اپلوڈ تھہ
+sc-bulk-upload-instruction = تیݨی فائل انیوے گلہ  <uploadButton> یا اپلوڈ تھئنی دپارہ کلک تھہ  </uploadButton>
+select-file = فائل منتخب تھہ
+select-file-mobile = اپلوڈ تھئنی دہارہ فائل منتخب تھہ
+accepted-files = می فائلی وے گبا ہانسیڈیو؟
+minimum-sentences = فائل بیڈو گاڈو ہنو
+file-too-large = فائل بیڈو گاڈو ہنو
+file-too-small = فائل بیڈو لھوکو ہنو
+too-many-files = دیڈہ زیات فائلی
 
 ## SMALL BATCH SUBMISSION
 
