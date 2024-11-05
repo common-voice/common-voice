@@ -59,12 +59,22 @@ report-other-comment =
     .placeholder = შენიშვნ
 success = ცერ ჲალ'ეჼ
 continue = გაგრძელებ
+report-success = მოხსენებ დაჰ̦ითარ დაქიშ ცერ დალ'ეჼ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ?
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ?
+shortcut-record-toggle-label = ჩაწერადარ/დაჰ̦̦ მაყდარ
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = ქუჲრთლენა ჩაწე́რადარ
+shortcut-discard-ongoing-recording = ESC
 
 ## Listen Shortcuts
 
