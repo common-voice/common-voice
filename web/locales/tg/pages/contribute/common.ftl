@@ -22,6 +22,7 @@ speak-loading-error =
     Мо барои сабти овози шумо ягон ҷумлае сара карда натавонистем.
     Лутфан, баъдтар аз нав кӯшиш кунед.
 record-button-label = Овози худро сабт намоед
+share-title-new = Дар пайдо кардани овозҳои бештар <bold>ба мо кумак кунед</bold>
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 change-preferences = Иваз кардани хусусиятҳо
