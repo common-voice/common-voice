@@ -134,6 +134,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحی�
 contribution-varying-pronunciations-example-2-title = تسی ہات اوݜجی دے
 contribution-varying-pronunciations-example-2-explanation = [انگریزی وے 'raised' ہمیشہ آک سیلیبل (سانس) کی منجانو دُو کی نہ ]
 contribution-background-noise-title = تیر چارپھیری شور
+contribution-background-noise-description = بے اینو دویئانہ کی مشینی دی ازدہ تھیلو واندو حساب وکتاب بیڈہ قسمی شور تھاٹہ ہاویزی سنبھال تھین،او واضح ہاواز منظور تھائی بھو، البتہ ڑائی سجہ باندی بٹھے چونٹولو بھاؤ کاݨ تھئنی زور نہ بھی وڑئی۔ بھراش ہاواز صحٰی ہنو۔ بیڈی بھراش ہاواز تھی ہر لوز کاݨ تھئنی دپارہ رکاوٹ سمجانوۡ۔
 contribution-background-voices-title = تیر چاپھیری ہاویزی
 contribution-volume-title = زور/بھراش
 contribution-reader-effects-title = مناٹی اثر
