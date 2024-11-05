@@ -23,6 +23,11 @@ speak-loading-error =
     Лутфан, баъдтар аз нав кӯшиш кунед.
 record-button-label = Овози худро сабт намоед
 share-title-new = Дар пайдо кардани овозҳои бештар <bold>ба мо кумак кунед</bold>
+keep-track-profile = Пешравии худро ба воситаи профил пайгирӣ намоед
+login-to-get-started = Барои оғози кор ворид шавед ё сабти ном кунед
+target-segment-first-card = Шумо ба қисмати мақсадноки аввалиндараҷаи мо саҳми худро гузошта истодаед
+target-segment-generic-card = Шумо ба қисмати мақсаднок саҳми худро гузошта истодаед
+target-segment-first-banner = Барои сохтани қисмати мақсадноки аввалиндараҷаи лоиҳаи «Common Voice» бо забони { $locale } кумак расонед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 change-preferences = Иваз кардани хусусиятҳо
