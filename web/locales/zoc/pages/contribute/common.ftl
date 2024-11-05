@@ -122,3 +122,4 @@ contribution-misreadings-example-7-explanation = [Ja'idä ''äjtsi' te' witpä t
 contribution-misreadings-example-8-title = Te' tuwi' nikujä'näyu'k kädu.
 contribution-misreadings-example-8-explanation = [Te' nyä'ijtubä tiyä, ji' te'se kyene]
 contribution-varying-pronunciations-title = Mujspabä käkajkya te' jutste wa'a ndsabu.
+contribution-varying-pronunciations-description = Ko'sa windi wa'a jana yajkjäkä'u tumä 'ode'is tsyame judä ji'nde manemu sunyi te' 'ode. Muspade ndsamä 'eya'eya te' 'ode, 'emäda'm 'eyadi tsyabyajpa, wene'nhomo ji'nde mane juts tsaptäjpa te' 'ode 'eyabä kupku'yomo. 'Uka näjktyäbyade te' 'ode'is tsyame yempe 'eyadide manä, te'se päjkisytsyowa te' jaye.
