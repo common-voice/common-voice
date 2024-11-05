@@ -76,3 +76,5 @@ shortcut-vote-no = ن
 ## Validation criteria
 
 contribution-criteria-nav = پېمانه
+contribution-criteria-link = ته حصه ته نیکیزؤ ته پېمانه ا زدکړه
+contribution-criteria-page-title = ته حصه ته نیکیزؤ ا پېمانه
