@@ -40,6 +40,16 @@ want-to-continue = تسیں جاری رکھنڑا چہندے ہو؟
 finish-editing = پہلا ترمیم مکاؤ؟
 lose-changes-warning = ہونڑ چھوڑنا دا مطلب ہے کہ تسدی ترمیم نہ رہسی
 build-custom-goal = مرضی دا ہدف بنڑاؤ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ذاتی ہدف نال{ $language }بچ{ $hours }گھنٹا پہنچڑاں واسطے مدد کرو
+       *[other] ذاتی ہدف نال{ $language }بچ{ $hours }گھنٹے پہنچڑاں واسطے مدد کرو
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] ذاتی ہدف نال زبان بچ کامن وائس کو{ $hours }گھنٹا پہنچڑاں مدد کرو
+       *[other] ذاتی ہدف نال زبان بچ کامن وائس کو{ $hours }گھنٹے پہنچڑاں مدد کرو
+    }
 
 ## Goals
 
