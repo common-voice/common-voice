@@ -50,3 +50,9 @@ sc-review-instruction = چیک اندہ <icon> </icon> زبانی لحاظہ  ک
 sc-review-rules-title = انو جملہ رہنمائی مطابقی صحیئے؟
 sc-review-empty-state = موجودہ وحتی انی زبان کی دڇھئنی دپارہ جملے نئینہ۔
 report-sc-different-language = مختلف زبان
+report-sc-different-language-detail = مہ کھئی زبینی کی جس دوبارہ دڇھانوۡ انوۡ ایسے زبینی دی مختلف چونٹِجلو ہنو۔
+sentences-fetch-error = جملے گھنئنی مجی نُقُص پیئدو بھلو
+review-error = جملہ دوبارہ دڇھئنی مجی نُقُص پیئدو بھلو
+review-error-rate-limit-exceeded = تو بیڈو تیز ہنو۔ مہربینی تھے جملہ  گھرے دڇھہ  یقین تھئنی دپارہ توش سہات اُتھی۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = بے گیڈی تبدیلی تھانہ
