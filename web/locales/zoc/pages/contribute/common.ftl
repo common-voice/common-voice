@@ -134,5 +134,7 @@ contribution-background-noise-description-extended = 'Uka te' 'ode'is tsyame ji'
 contribution-background-noise-example-1-fixed-title = [Je'tsyijku'y] Te' pekamäjakobända'm ka'yajubä'a te' ['eju'ajkä'y] Triásiko'omobä.
 contribution-background-noise-example-2-fixed-title = Te' pekamäjakobän ka'ubä'a te' ['eju'ajkä'y] Triásiko'omobä.
 contribution-background-noise-example-2-explanation = [Wene' te' todojaye ji'nde mujsi manä]
+contribution-background-noise-example-3-fixed-title = [Tsi'uku'y] te' pekamäjakobända'm ka'yajubä'a te' [tsi'uku'y] -riásiko'omobä.
+contribution-background-voices-title = Jojmoda'mbä 'ode.
 contribution-volume-title = Yajk'ona pämi/po'nyi
 contribution-just-unsure-title = ¿'Uka ji' mujsi wiyunse?
