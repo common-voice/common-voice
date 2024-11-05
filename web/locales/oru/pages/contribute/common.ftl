@@ -22,6 +22,7 @@ submit-form-action = شند
 ## Reporting
 
 report = رپورټ
+report-title = رپورټ يې جمع کَۀ
 
 ## Speak & Listen Shortcuts
 
