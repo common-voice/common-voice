@@ -76,3 +76,4 @@ variant-contribution-help = سکت فسور چی بقچینہ سکت لیاخ چ
 variant-contribution-option-1 = نلا نی سکت پوی سکت فسور کن  نا زومسے یودپی تم سیر کن نہ کلپ کن ہلتون۔
 variant-contribution-option-2 = نلا نری سکت فسور پونا زومسے یودپی تم سیر کن نا کلپ کن ہلتون۔
 variant-contribution-warning-title = تم سیر گانگمہ نا کلپ گانگمہ لا دقسن سکت فسوری نتینگپو میدننگ۔
+variant-contribution-warning-subtitle = یانگلا روخ بے وخلا چنگ ہرکپلس چی گوین یودنارے، یانگلا نامسہ ینگ لوقسے یری سکتی کنٹینٹ کن لا ہلتا نینید۔
