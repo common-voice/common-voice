@@ -75,9 +75,18 @@ shortcut-record-toggle-label = ჩაწერადარ/დაჰ̦̦ მა�
 shortcut-rerecord-toggle = 1-5
 shortcut-rerecord-toggle-label = ქუჲრთლენა ჩაწე́რადარ
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ინცლუჼ ჩაწერ გაუქმადარ
+shortcut-submit = Return დუხ დერწარ
+shortcut-submit-label = ჩანაწერი დაჰ̦ითარ
+request-language-text = ცუჲ ლახმაკიჼ ჰ̦ოჼ ჰ̦აიჼ მოტტ Common Voice?
+request-language-button = დაკლე́ვადბებათ მოტტ ლა́ტბარ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = g?
+shortcut-play-toggle-label = დაჰ̦ითარ/დაჰ̦ ოთთარ
 
 ## Validation criteria
 
