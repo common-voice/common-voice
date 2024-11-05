@@ -3,8 +3,8 @@ contribute = წილიშ მიშაღალა
 skip = გიშატება
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> ინნაჭარა
-       *[other] <bold>{ $count }</bold> ინნაჭარა
+        [one] <bold>{ $count }</bold> ინაჭარა
+       *[other] <bold>{ $count }</bold> ინაჭარა
     }
 goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარი ღანკიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
 goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი ღანკიში{ $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
