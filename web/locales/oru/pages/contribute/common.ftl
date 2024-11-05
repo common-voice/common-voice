@@ -81,3 +81,5 @@ contribution-criteria-page-title = ته حصه ته نیکیزؤ ا پېمانه
 contribution-criteria-page-description = آ زدکړه که څه يې سو جیرېوی کان که ا وائس کلِپ امر، او ته آواز ا ریکارډنګ يې مضبوط ګه بَۀ
 contribution-for-example = سکه مثال
 contribution-misreadings-title = غلط هِشتک
+contribution-misreadings-description = که کانه وه امر، ته په شئ سُو زُت احتیاط کېوی که څۀ ت يې ګه ریکارډ دوک بَۀ، بالکلت ا فه يي شئ پِشتک هۀ۔ افۀ شئ بالکل ګه رد کَۀ، که ګده تې معمولی غلطي ګۀ وینر واک۔ پئ عام غلطيے نر ائ ګه شامل یِن
+contribution-misreadings-description-extended-list-1 = ته ریکارډنګ شُوري نر بُو <strong> ”سۀ” یا ”ا” یا ”آ” غونه بېن
