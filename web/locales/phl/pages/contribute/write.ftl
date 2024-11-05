@@ -33,6 +33,33 @@ required-field = مہربینی تھے انی زھائی پُورہ
 single-sentence-submission = آک جملہ جمع تھئنی
 small-batch-sentence-submission = توش زیات جملے جمع تھئنی
 bulk-sentence-submission = بِیڈہ زیات جملے جمع تھئنی
+single-sentence = آکے
+small-batch-sentence = تُوش زیات
+bulk-sentence = بیڈہ زیات
+sentence-domain-combobox-label = جملئی حلقہ
+sentence-domain-select-placeholder = ترو حلقیم تی گِھن(اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = زمندیرئے خوراک
+# Sentence Domain dropdown option
+automotive_transport = تِلاٹہ شئیہ او گاڑِم
+# Sentence Domain dropdown option
+finance = پئیسے
+# Sentence Domain dropdown option
+service_retail = سروس او خدمت
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت
+# Sentence Domain dropdown option
+history_law_government = تارِخ، قانون او حکومت
+# Sentence Domain dropdown option
+language_fundamentals = زبینی دپارہ لازمی ( مثلا نمبر، حروفی، پئیسے)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا او تفریح
+# Sentence Domain dropdown option
+nature_environment = قدرت او ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبری او موجودہ حالات
 
 ## BULK SUBMISSION 
 
