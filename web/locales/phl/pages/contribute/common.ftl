@@ -128,6 +128,7 @@ contribution-misreadings-example-8-title = ماڇھری تو دی تیز مݜٹ�
 contribution-misreadings-example-8-explanation = مسمیچڈ موضوع
 contribution-varying-pronunciations-title = مختلف طریقئی منئنی
 contribution-varying-pronunciations-description = لوز غلط منیتو ہِنو، غلط زھئی وے زور لگئیلو ہنو یا سویلی نݜون نہ منی ہنو اینیام بُٹھے دڇھی ہاواز مسترد تھیلہ دی مُݜٹوۡ بیڈی احتیاط تھہ
+contribution-varying-pronunciations-description-extended = دوئی دوشی بہ، اگر تھی خیال کی یڑو لوز ڑا دی مُݜٹو مناٹی مخدوشی وے تھے نہ یھیلی ہنی یا بہ منئنی مجی غلط اندازہ گھنانو ہینتہ ، مہربینی تھے ایڑس رد تھہ۔ تو تھے یقین نئنی بہ ہینتہ اڑیگلئنی بٹنی جہ۔
 contribution-varying-pronunciations-example-2-title = تسی ہات اوݜجی دے
 contribution-background-noise-title = تیر چارپھیری شور
 contribution-background-voices-title = تیر چاپھیری ہاویزی
