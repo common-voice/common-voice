@@ -95,4 +95,4 @@ contribution-for-example = масалан
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
-contribution-reader-effects-title = Таъсирҳои хонандагон
+contribution-reader-effects-title = Таъсирҳои хонанда
