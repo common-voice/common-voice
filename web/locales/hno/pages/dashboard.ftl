@@ -89,3 +89,13 @@ days =
         [one] دیہاڑا
        *[other] دیہاڑے
     }
+recordings =
+    { $count ->
+        [one] ریکاڈنگ
+       *[other] ریکاڈنگاں
+    }
+validations =
+    { $count ->
+        [one] تصدیق
+       *[other] تصدیقاں
+    }
