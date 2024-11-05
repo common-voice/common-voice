@@ -102,3 +102,4 @@ contribution-criteria-page-title = შარიჼ დაყ ნიფს ჩუ
 contribution-criteria-page-description = ხაჸათ, სტე́ნახ ბეწი́შ ბჵარკ ლე́ლბაჼ ჩანაწე́რიგო̆ ლარკ ჺე́ფოშ, მე თე́ლ'ივხ ხილ'ილო̆ ჩანაწერა́ჼ სარგე́ბელ
 contribution-for-example = მაგალითი
 contribution-misreadings-title = ხარც ხატტარ
+contribution-misreadings-description = ლარკ ჺე́ფოშ დაკრეშ დაყყდებათ, ჩანაწე́რე ნიფს ოი́ ხაწ, უ̂ნე წე́რალა; უარ ა́ლ'ათ, კაწკოჼ ხარცხილ'არაჸა́ დაჲგჩე შუჼ.<br /> ჴშირუჼ შეცდო́მი ჲა:
