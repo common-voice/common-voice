@@ -29,7 +29,10 @@ report-offensive-language-detail = پا جمله نر يې سِر زبان اس�
 report-grammar-or-spelling = ګرامري/املايي غلطئے
 report-grammar-or-spelling-detail = پا جمله نر دی ګرامري یا املايي غلطئے یِن
 report-different-language = بِڅخل زبان
-report-different-language-detail = ادائګي وه مشکل هۀ
+report-different-language-detail = او سال زبان نر لیکيېک ݭیوک هۀ که ازه وه بُو نک زر ژغم
+report-difficult-pronounce = ادائګي وه مشکل هۀ
+report-difficult-pronounce-detail = پا نر دی سا الفاظ او محاوري یِن که ا یِشتک یا ا ادائګي وه مشکل هۀ
+report-offensive-speech = پُوچ ژغؤ
 
 ## Speak & Listen Shortcuts
 
