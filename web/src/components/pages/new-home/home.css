@@ -161,12 +161,9 @@
                     width: 48vw;
                     height: 60vh;
 
-                    @media (--xxl-up) {
+                    @media (--md-up) {
                         min-height: 600px;
                         min-width: 600px;
-                    }
-
-                    @media (--md-up) {
                         max-width: 620px;
                         max-height: 600px;
                     }
@@ -179,13 +176,10 @@
                     }
 
                     @media (--md-only) {
-                        width: 60vw;
-                        height: 50vh;
-                    }
-
-                    @media (width >= 768px) and (width < 950px) {
-                        height: 40vh;
-                        width: 60vw;
+                        width: 51vw;
+                        height: 35vh;
+                        min-width: 450px;
+                        min-height: 465px;
                     }
 
                     @media (--sm-down) {
@@ -195,10 +189,13 @@
                     }
 
                     @media (--xs-down) {
-                        border-top-left-radius: 45%;
+                        border-top-left-radius: 55%;
+                        border-bottom-left-radius: 45%;
                         width: 100vw;
+                        height: 41vh;
                         display: flex;
                         align-items: center;
+                        min-height: 360px;
                     }
 
                     .buttons {
@@ -225,10 +222,6 @@
                         }
 
                         @media (--md-only) {
-                            height: 43%;
-                        }
-
-                        @media (width >= 768px) and (width < 950px) {
                             height: 38%;
                         }
 
@@ -239,8 +232,8 @@
 
                         @media (--xs-down) {
                             position: absolute;
-                            width: 100vw;
-                            top: 35%;
+                            width: 105vw;
+                            top: 40%;
                         }
 
                         .listen-container {
