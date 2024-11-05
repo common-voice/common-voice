@@ -20,6 +20,7 @@ sc-review-form-button-approve-shortcut = وائی
 sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
+sc-review-form-keyboard-usage-custom = تو کی بورڈ شارٹ کٹ استعمال تھائی بھوڑ{ sc-review-form-button-approve-shortcut } منظور تھئنی دپارہ{ sc-review-form-button-reject-shortcut } رد تھئنی دپارہ { sc-review-form-button-skip-shortcut } اُڑیگلئنی دپارہ
 sc-review-form-button-submit =
     .submitText = گھرے دڇھئنی مکمل تھہ
 # Variables:
@@ -30,6 +31,8 @@ sc-review-form-reviewed-message =
         [one] 1 جملہ گھرے دڇِھلو، شکریہ
        *[other] 2 جملے گھرے دڇھلہ، شکریہ
     }
+sc-review-form-review-failure = گھرے دڇھیلو واندو  محفوظ کوتھئنی نہ بھانوۡ۔ تُوش سہات پہُرتہ گھرے کوشش تھہ۔
+sc-review-link = دوبارہ دڇھئنی
 
 ## REVIEW CRITERIA
 

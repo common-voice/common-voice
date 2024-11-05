@@ -150,5 +150,6 @@ contribution-volume-description = مناٹمی ہاواز قدرتی کام یا
 contribution-reader-effects-title = مناٹی اثر
 contribution-reader-effects-description = ذیات رکاڈنگ ایسے خلکیمی کی سے قدرتی ہاواز کی کھونڈانہ۔ تو کرے کرے بہ ایڑے غیر معیاری ہاواز کی تیوے شور، بھرا بات او ڈرامائی ہاواز بدل بھے ہنہ ایڑینام بی منظور تھائی بھوڑ۔  مہربینی تھے رھوہ او کمپیوٹری دی ترتیب دتہ وادہ ہاویزی رد تھہ۔
 contribution-just-unsure-title = بس غیر یقینی
+contribution-just-unsure-description = ایسے شئیہ کی سے انیوے تھی رہنمائی دپارہ شامل نئینہ تھی اڇھیم یھولہ ہینتہ تنام تھے بیڈو شوئی انداز کی ووٹ دہ۔اگر تھی گہ فیصلہ نہ تھائی بھولہ ہینتہ تس اڑگلئنی بٹنی جے بہ دھیامہ رکاڈنگ دوشہ بہ۔
 see-more = <chevron></chevron>دوئی دڇھہ
 see-less = <chevron>کام دڇھہ</chevron>
