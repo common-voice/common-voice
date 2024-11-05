@@ -3,3 +3,7 @@ speak-now = تپہ کھونڈ
 speak-subtitle = ٹیݨی ہاواز وقف تھہ
 record-cta = ریکاڈنگ شروع تھہ
 record-platform-not-supported = افسوس تھانہ! تھی پلیٹ فارمی انی ٹیمی مدد نہ تھائی بھانہ۔
+record-platform-not-supported-desktop = تو ڈون لوڈ تھے ڈسک ٹاپ مشینی وے سورا حصہ گھنائی بھوڑ۔
+record-platform-not-supported-ios-non-safari = iOS  مہربینی تھے  رکاڈنگی قابل تھئنی دپارہ  سفاری جھلی جاری تھوئی۔۔۔
+record-must-allow-microphone = تھی مائیکرو فون خمخا لگئینڈیو بھی۔
+record-no-mic-found = مائکروفون ملاؤ نہ بھانوۡ۔
