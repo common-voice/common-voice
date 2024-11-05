@@ -24,6 +24,18 @@ show-ranking = مڑی رینکنگ دسو
 
 ## Custom Goals
 
+get-started-goals = مقصد نال شروع کرو
+create-custom-goal = ہک گاہکا دا مقصد بنڑاؤ
+goal-type = تسیں کس قسم دا مقصد بنڑینڑا چاہ رے ہو؟
+both-speak-and-listen = دونڑے
+both-speak-and-listen-long = دوئے (بولنا تے سنڑنا)
+daily-goal = روز دے ہدف
+weekly-goal = ہفتے دے ہدف
+easy-difficulty = آسان
+average-difficulty = درمیانہ
+difficult-difficulty = مشکل
+pro-difficulty = پرو
+lose-goal-progress-warning = اپنڑے ہدف بچ ترمییم کرنا نال، تسیں موجودہ پیش رفت کھو سکدے ہو۔
 
 ## Goals
 
