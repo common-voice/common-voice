@@ -107,3 +107,4 @@ contribution-misreadings-description-extended-list-4 = იშო̆ ლე დო
 contribution-misreadings-description-extended-list-5 = ლე დოშ, ლე მა́რცვალ შაწ ლე́ვლა ჰ̦ალო̆ ხე́ტტოშ მელ'წა́ხ ა́ლ'რენდალლა́
 contribution-misreadings-example-3-explanation = ჩაწერენ დაჰ ბა ბალ'ინო მაყ დოშ ბოლომციჼ ალ'ლომციჼ
 contribution-misreadings-example-4-explanation = სოუბო̆ დოშ და ჩაწე́რადიენო̆
+contribution-misreadings-example-5-title = ჩანაწერ წუნბადჲოშ თხილუშ ხილ'ათ, მაცმე́ ლე დოშ, ლე ინტონაცია (მახვილ) უჲშტი̆ ცო ლე́ვლა, მოჰ̦ე შუჼ ხაწენდა, და́ხაჸ მე, ცჰ̦ეჲნი̆ მატტლო შაძლე́ბალა დუჴ ჴეჩ-ჴეჩნა́ჲრეჼ  ა́ლ'არ დალო̆, მენხუ ცომაცნი́ ცო ხაწენდა შუჼ ეჴ საზო́გადოებე. დეხო́თხ, ცოშუღეშ ამბუჲ  ჲუჲნშიგოჰ̦ა́ მა́მ დავდოთ
