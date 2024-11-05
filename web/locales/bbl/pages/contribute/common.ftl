@@ -99,3 +99,6 @@ shortcut-vote-no = a?
 contribution-criteria-nav = ნიფსხოლეჼ საზომ
 contribution-criteria-link = შარიჼ და́ყ ნიფს ჩუ დაჰ̦რეხ
 contribution-criteria-page-title = შარიჼ დაყ ნიფს ჩუ დაჰ̦არ
+contribution-criteria-page-description = ხაჸათ, სტე́ნახ ბეწი́შ ბჵარკ ლე́ლბაჼ ჩანაწე́რიგო̆ ლარკ ჺე́ფოშ, მე თე́ლ'ივხ ხილ'ილო̆ ჩანაწერა́ჼ სარგე́ბელ
+contribution-for-example = მაგალითი
+contribution-misreadings-title = ხარც ხატტარ
