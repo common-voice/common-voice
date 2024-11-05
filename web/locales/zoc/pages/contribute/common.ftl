@@ -129,5 +129,7 @@ contribution-varying-pronunciations-example-1-explanation = ['Beret' wä 'uka 'a
 contribution-varying-pronunciations-example-2-title = Tsyäkäki'mu te' kyä'.
 contribution-varying-pronunciations-example-2-explanation = ['Raised' te' 'inglesomo, tumäbä jayesedide ndsambabä, ji'nde ndsamebä metsabäse]
 contribution-background-noise-title = Ju'nämba te' jojmo.
+contribution-background-noise-description = Sutnyajpa't wa'a te' yojstäjkis mujsu pyäjkisytsyowa weneda'm te' ju'ku'y te' 'ode'is tsame'omo, muspa pyäjkisytsyowa nimekebä ju'ku'y 'uka muspade näjktyä te' 'odetsame. Te' manbabäde po'nyibä wane, nitiyä ji'tsyäki, 'uka nimekede pämibä, te'se ji' wyä.
+contribution-background-noise-description-extended = 'Uka te' 'ode'is tsyame ji' tya'nbäyi yajkti 'uka manbade ju'kä'y, te'se 'u mbäjkisy tsyoku, 'uka manbadide 'ijtuse te' 'ode, te'se mujspa mbäjkisytsyowa.
 contribution-volume-title = Yajk'ona pämi/po'nyi
 contribution-just-unsure-title = ¿'Uka ji' mujsi wiyunse?
