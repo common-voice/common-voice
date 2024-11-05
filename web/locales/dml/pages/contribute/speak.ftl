@@ -17,3 +17,7 @@ record-three-more-instruction = تَرا اوتھینا
 record-again-instruction = لے ابُت<recordIcon> </recordIcon> تانو آڅال کلپ ریکاڈ کُرے
 record-again-instruction2 = اکی منے جاری ساتے، دوبارہ ریکاڈ کُرے<recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon>آخری
+review-tooltip = کلپ نم ساں جائزہ آں دوبارہ ریکاڈ کُرا کیمے بی مۡکھ بئیں گے بہ
+share-clip = مینہ کلپ شیئر کُرا
+share-common-voice = عام کاڻ شیئر کُرا
+review-instruction = اگر ضرورت با بہ کلپ نم ساں جائزہ آں پھرکی ریکاڈ کُرا
