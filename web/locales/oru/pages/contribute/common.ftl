@@ -16,9 +16,12 @@ vote-no = نا
 datasets = ډېټا سېټ
 languages = زبان
 about = باره
+partner = هنډی وال
+submit-form-action = شند
 
 ## Reporting
 
+report = رپورټ
 
 ## Speak & Listen Shortcuts
 
