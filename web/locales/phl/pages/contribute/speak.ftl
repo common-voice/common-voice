@@ -17,3 +17,6 @@ record-three-more-instruction = ترو دھری ہنہ!
 record-again-instruction = بیڈو شو!<recordIcon></recordIcon> تیݨی دوئی ہاواز ریکاڈ تھہ
 record-again-instruction2 = تیݨی کرام جاری ساتہ، گھرے ریکاڈ تھہ
 record-last-instruction = <recordIcon></recordIcon>  آخیری آک دانا!
+review-tooltip = مُݜٹو گرا گُوم ہینتہ دوبارہ دڇھہ ہاواز بی گھرے ریکاڈ تھہ
+share-clip = تیݨی ہاویزی کلپ دویم سنگی شئیر تھہ۔
+share-common-voice = کمن وائس شئیر تھہ
