@@ -38,6 +38,8 @@ pro-difficulty = پرو
 lose-goal-progress-warning = اپنڑے ہدف بچ ترمییم کرنا نال، تسیں موجودہ پیش رفت کھو سکدے ہو۔
 want-to-continue = تسیں جاری رکھنڑا چہندے ہو؟
 finish-editing = پہلا ترمیم مکاؤ؟
+lose-changes-warning = ہونڑ چھوڑنا دا مطلب ہے کہ تسدی ترمیم نہ رہسی
+build-custom-goal = مرضی دا ہدف بنڑاؤ
 
 ## Goals
 
