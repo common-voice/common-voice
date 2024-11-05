@@ -70,6 +70,9 @@ goal-interval-weekly = ہفتہ وار
 share-n-daily-contribution-goal = { $type } واسطے روز دا مقصد آپنڑا { $count } کلپ شیئر کرو
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = { $type } واسطے ہفتے دا مقصد آپنڑا { $count } کلپ شیئر کرو
+share-goal-type-speak = بولنڑاں
+share-goal-type-listen = سنڑناں
+share-goal-type-both = بولنڑاں ہور سنڑناں
 
 ## Goals
 
