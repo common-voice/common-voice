@@ -142,6 +142,7 @@ contribution-background-voices-example-1-title = It nikuu ñe'e nitumi. [Chë am
 contribution-background-voices-example-1-explanation = ¿A kuchid? <strong>[Jitumgo tamañ]</strong>
 contribution-volume-title = Chi jinú
 contribution-reader-effects-title = Nudu ñe'ë iña chi jo'o no kaka.
+contribution-reader-effects-description = Kas nukue'e nudu chi tuku nito'oyan chin nudun ñe'ë iña. Kadi kuto'on nudu nochi aa lintiy, kodkoo jiney o chi deabea nuñu "ya'a aa jo'oñ". kua kuto'od nudu niyun jitay ni guantu nochi nindoñ nuduy.
 contribution-just-unsure-title = ¿Y nichi gua dean kuakud tu?
 contribution-just-unsure-description = Nichi jinakad deachi gua noo o gua yeabe jo'ön, kamad deachi jinkadinud. Nichi gua deanu kuakud y obe kanetïdin, konot'od chi kabnud y chonud no tama nudu chi nito'oy.
 see-more = </chevron></chevron>Nee ka nichid
