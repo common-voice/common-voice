@@ -56,3 +56,5 @@ review-error = جملہ دوبارہ دڇھئنی مجی نُقُص پیئدو �
 review-error-rate-limit-exceeded = تو بیڈو تیز ہنو۔ مہربینی تھے جملہ  گھرے دڇھہ  یقین تھئنی دپارہ توش سہات اُتھی۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بے گیڈی تبدیلی تھانہ
+sc-redirect-page-subtitle-1 = جملے جمع تھاٹو بنیادی کمن وائسی زھئی تھے بیانو تو تِپہ <writeURL> چونٹہ</writeURL> آک جملہ یا<reviewURL> گھرے دڇھہ</reviewURL> آک جملئی کمن وائسہ وے جمع تھئنی۔
+sc-redirect-page-subtitle-2 = اسام دی کھوجہ <matrixLink> سانچہ</matrixLink> <discourseLink>بیتی </discourseLink> یا <emailLink> ای میل</emailLink>
