@@ -48,3 +48,5 @@ sc-criteria-item-6 = تو دی جملے گھرے دڇھئنی دپارہ ختم 
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیک اندہ <icon> </icon> زبانی لحاظہ  کی صحی جملئیے؟
 sc-review-rules-title = انو جملہ رہنمائی مطابقی صحیئے؟
+sc-review-empty-state = موجودہ وحتی انی زبان کی دڇھئنی دپارہ جملے نئینہ۔
+report-sc-different-language = مختلف زبان
