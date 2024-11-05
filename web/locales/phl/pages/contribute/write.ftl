@@ -24,6 +24,15 @@ new-sentence-rule-8 = شو ایندا بھے بھی کی قدرتی  او کھو
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> زیات جملے شامل تھئنی دپارہ
 how-to-cite = مہ کنا تھے حوالہ دُوم؟
 how-to-cite-explanation-bold = ویپ سائٹی لنک یا کرامی پورہ نو چونٹا حولہ دہ
+how-to-cite-explanation = اگر نی صرف تھئیے لوزہ ہینتہ  تیݨی حوالہ</italicizedText> اسی انوۡ معلوم تھینڈیو کی تھی انی شئیہ فو لادہ تاکہ بے لنام عام زھئی دڇھیہ او نی کسی کاپی رائٹ نہ بھینڈیو حوالہ دئنی معلومیتیمی دپارہ اسی <guidelinesLink> رہنمائی صفحہ</guidelinesLink>دڇھہ
+guidelines = رہنمائی
+contact-us = اسام سنگی رابطہ تھہ
+add-sentence-success = 1جملہ سمٹِلو
+add-sentence-error = نُقُص داٹو جملہ
+required-field = مہربینی تھے انی زھائی پُورہ
+single-sentence-submission = آک جملہ جمع تھئنی
+small-batch-sentence-submission = توش زیات جملے جمع تھئنی
+bulk-sentence-submission = بِیڈہ زیات جملے جمع تھئنی
 
 ## BULK SUBMISSION 
 
