@@ -123,3 +123,7 @@ contribution-misreadings-example-8-title = Te' tuwi' nikujä'näyu'k kädu.
 contribution-misreadings-example-8-explanation = [Te' nyä'ijtubä tiyä, ji' te'se kyene]
 contribution-varying-pronunciations-title = Mujspabä käkajkya te' jutste wa'a ndsabu.
 contribution-varying-pronunciations-description = Ko'sa windi wa'a jana yajkjäkä'u tumä 'ode'is tsyame judä ji'nde manemu sunyi te' 'ode. Muspade ndsamä 'eya'eya te' 'ode, 'emäda'm 'eyadi tsyabyajpa, wene'nhomo ji'nde mane juts tsaptäjpa te' 'ode 'eyabä kupku'yomo. 'Uka näjktyäbyade te' 'ode'is tsyame yempe 'eyadide manä, te'se päjkisytsyowa te' jaye.
+contribution-varying-pronunciations-description-extended = 'Uka mgo'mäbya, te' nä yajk'onubä'is te' todo, jajyabu 'isädi te' jaye, nä kyo'ki'pstyo'yu juts wa'a yajk'onu, te'se 'u mbäjkisy tsyoku. 'Uka ji' mujsi sa'sya, te'se pena' wa'a kyo'nhgädu te' jaye.
+contribution-varying-pronunciations-example-1-title = Te' kyobajkomo nyämaka tumä ko'tsunu.
+contribution-volume-title = Yajk'ona pämi/po'nyi
+contribution-just-unsure-title = ¿'Uka ji' mujsi wiyunse?
