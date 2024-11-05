@@ -140,6 +140,7 @@ contribution-background-voices-title = Jojmoda'mbä 'ode.
 contribution-background-voices-description = Mujspa 'idä 'usyanh te' ju'kä'y, ji' mujsibä 'yidä te'de'e eyada'mbä 'ode, muspabä pyäkä te' yostäjkis, te' ja'ijtyabä te' todojaye'omo. 'Uka manba 'eyabä 'odejaye, ja'idäbä te' todojaye'omo, te'se 'u mbäjkisytsyoku te' 'ode'is tsyame. Yä'sebä tiyä tujkpa, 'uka no'ubä mdsajkpa te' kätpamä tista'mis kyene, yajkti 'ijtyaju'k tome pända'm nä wyeweneyajubä.
 contribution-background-voices-description-extended = 'Uka te' 'ode'is tsyame ji' tya'nbäyi yajkti 'uka manbade ju'kä'y, te'se 'u mbäjkisy tsyoku, 'uka manbadide 'ijtuse te' 'ode, te'se mujspa mbäjkisytsyowa.
 contribution-background-voices-example-1-title = Te' mäjapekakobända'm ka'bä'yajubä'a te' Triásiko'omoda'mbä. [Yajk'onubä 'ijudibä'is 'yode'is]
+contribution-background-voices-example-1-explanation = ¿Nä'am myidu? ['yonäyubä 'eyada'mbä'is]
 contribution-volume-title = Yajk'ona pämi/po'nyi
 contribution-just-unsure-title = ¿'Uka ji' mujsi wiyunse?
 contribution-just-unsure-description = 'Uka mba'tpa tijudibä ji' tsyamdäyibä yä'ki, kobiwä tibä mgo'mbya wäbä. 'Uka wiyunhse ji' mujsi mgobiwä, te'se pena te' jatyäjk wa'a mgo'nhgädä, wa'a mujsu yajtsä'yja 'eyabä te' 'ode'is tsyame.
