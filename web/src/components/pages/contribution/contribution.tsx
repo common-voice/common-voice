@@ -567,7 +567,6 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               <Tooltip title="Shortcuts" arrow>
                 <Button
                   rounded
-                  padding
                   className="hidden-md-down shortcuts-btn bg-white text-black"
                   onClick={this.toggleShortcutsModal}>
                     <span className="mx-2">
