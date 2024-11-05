@@ -36,3 +36,10 @@ review-rerecord = دوبارہ ریکاڈ
 review-cancel = جمع تھئنی کینسل تھہ
 review-keep-recordings = ریکاڈنگ تیݨی سنگی چھورہ
 review-delete-recordings = می ریکاڈنگ پِچھہ
+review-terms = کمن وائس استعمال تھے تھی انی بیتی جُھلی اتفاق تھیلی کی اسی<termsLink>شرائط</termsLink> او <privacyLink>راز دری نوٹس</privacyLink>
+terms-agree = مہ متفق ہنو
+terms-disagree = مہ متفق نیئنو
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تھی ہاویزی کلپز دئنی دپارہ تھی بیڈی مہربینی۔
+first-cta-subtitle-text = تیݨی بارئی اسام سے بات دے تو ٹیکنالوجی سمایٹم سنگی بیڈی مدد دیڑ۔
+why-donate = تو کے کھوجائینو؟
