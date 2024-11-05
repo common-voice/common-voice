@@ -23,6 +23,13 @@ submit-form-action = شند
 
 report = رپورټ
 report-title = رپورټ يې جمع کَۀ
+report-ask = پا جمله ګیرډ دل يې بو څه مسله څوا
+report-offensive-language = ٍپُوچ ژغېدا
+report-offensive-language-detail = پا جمله نر يې سِر زبان استمال نک ݭیوک هۀ
+report-grammar-or-spelling = ګرامري/املايي غلطئے
+report-grammar-or-spelling-detail = پا جمله نر دی ګرامري یا املايي غلطئے یِن
+report-different-language = بِڅخل زبان
+report-different-language-detail = ادائګي وه مشکل هۀ
 
 ## Speak & Listen Shortcuts
 
