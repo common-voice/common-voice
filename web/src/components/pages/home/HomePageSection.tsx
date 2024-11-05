@@ -119,7 +119,7 @@ export default function HomePageSection() {
                     alt="mic-icon"
                     className={` ${classes['clickable-icon']} w-[110px] h-[110px] cursor-pointer mx-auto`}
                   />
-                  <h1 className="text-center my-2">أسمعنا صوتك</h1>
+                  <h1 className="text-center my-2">استمع وقيم </h1>
                 </div>
               </LocaleLink>
             </div>
