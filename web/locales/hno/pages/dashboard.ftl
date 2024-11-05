@@ -36,6 +36,8 @@ average-difficulty = درمیانہ
 difficult-difficulty = مشکل
 pro-difficulty = پرو
 lose-goal-progress-warning = اپنڑے ہدف بچ ترمییم کرنا نال، تسیں موجودہ پیش رفت کھو سکدے ہو۔
+want-to-continue = تسیں جاری رکھنڑا چہندے ہو؟
+finish-editing = پہلا ترمیم مکاؤ؟
 
 ## Goals
 
