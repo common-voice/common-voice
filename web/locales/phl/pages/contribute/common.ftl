@@ -148,6 +148,7 @@ contribution-background-voices-example-1-explanation = تو یھاندوے؟ <st
 contribution-volume-title = زور/بھراش
 contribution-volume-description = مناٹمی ہاواز قدرتی کام یا زیات ہانسانوۡ۔ ایتھیل رد تھہ کی ہاواز ایتی گاڈو دے کی تی تسی وجہ باندی ہاواز چِھنجہ دے۔  (عام طور کی)  بیڈو بھراش ہاواز کی گبا منانو تھے نہ ݜُݨجِلو ہینتہ چونٹِجلو دڇھہ۔
 contribution-reader-effects-title = مناٹی اثر
+contribution-reader-effects-description = ذیات رکاڈنگ ایسے خلکیمی کی سے قدرتی ہاواز کی کھونڈانہ۔ تو کرے کرے بہ ایڑے غیر معیاری ہاواز کی تیوے شور، بھرا بات او ڈرامائی ہاواز بدل بھے ہنہ ایڑینام بی منظور تھائی بھوڑ۔  مہربینی تھے رھوہ او کمپیوٹری دی ترتیب دتہ وادہ ہاویزی رد تھہ۔
 contribution-just-unsure-title = بس غیر یقینی
 see-more = <chevron></chevron>دوئی دڇھہ
 see-less = <chevron>کام دڇھہ</chevron>
