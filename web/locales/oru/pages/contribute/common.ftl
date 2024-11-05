@@ -33,12 +33,27 @@ report-different-language-detail = او سال زبان نر لیکيېک ݭیو
 report-difficult-pronounce = ادائګي وه مشکل هۀ
 report-difficult-pronounce-detail = پا نر دی سا الفاظ او محاوري یِن که ا یِشتک یا ا ادائګي وه مشکل هۀ
 report-offensive-speech = پُوچ ژغؤ
+report-offensive-speech-detail = ته کلِپ زبان نر يې ته بې ادبي یا بد زبان استعمال ݭیوک هۀ
+report-other-comment =
+    .placeholder = کمنټ
+success = کامیابي
+continue = جاري
+report-success = ا رپورت وه په کامیابي سره پاس دوک
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ف
+shortcut-record-toggle-label = ریکارډ/سټاپ
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = دیم واره ریکارډ
+shortcut-discard-ongoing-recording = ای اېس ېی
 
 ## Listen Shortcuts
 
