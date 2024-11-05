@@ -4,3 +4,11 @@ guidelines-header-subtitle = کامن وائس ڈیٹا سیٹ بچ کسطرح �
 voice-collection = آوازاں دا مجموعہ
 sentence-collection = جُملیاں دا مجموعہ
 varying-pronunciations = مختلف تلفظ
+misreadings = غلط پڑھنا
+offensive-content = جارحانہ مواد
+background-noise = پِچھا دا شور
+background-voices = پِچھا دیاں آوازاں
+volume = والیم
+reader-effects = پڑھنا والے دے اثرات
+just-unsure = صرف غیر یقینی؟
+example = مثال
