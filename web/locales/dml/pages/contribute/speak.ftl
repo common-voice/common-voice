@@ -15,3 +15,5 @@ record-instruction = شُرے
 record-stop-instruction = کیر بابہ
 record-three-more-instruction = تَرا اوتھینا
 record-again-instruction = لے ابُت<recordIcon> </recordIcon> تانو آڅال کلپ ریکاڈ کُرے
+record-again-instruction2 = اکی منے جاری ساتے، دوبارہ ریکاڈ کُرے<recordIcon></recordIcon>
+record-last-instruction = <recordIcon> </recordIcon>آخری
