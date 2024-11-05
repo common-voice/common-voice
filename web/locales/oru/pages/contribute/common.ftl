@@ -54,9 +54,25 @@ shortcut-record-toggle-label = ریکارډ/سټاپ
 shortcut-rerecord-toggle = 1-5
 shortcut-rerecord-toggle-label = دیم واره ریکارډ
 shortcut-discard-ongoing-recording = ای اېس ېی
+shortcut-discard-ongoing-recording-label = ا روان ریکارډ رېوَن
+shortcut-submit = ګِتس
+shortcut-submit-label = ا کلِپی جمع کَۀ
+request-language-text = پېری مېن ا خوئ زبان مشترک آوزی نر مک جیرېون
+request-language-button = درخواست ته زبان پاره
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = بنده کَۀ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = پېمانه
