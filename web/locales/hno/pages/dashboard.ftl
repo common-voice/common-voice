@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = تسدی زباناں
+your-languages = تسدیاں زباناں
 toward-next-goal = دوئے مقصد دی طرف
 goal-reached = مقصد پورا ہویا
 clips-you-recorded = کلپ جڑے تساں رکاڈ کیتے
@@ -63,6 +63,13 @@ n-clips-pluralized =
         [one] کلپ
        *[other] کلپس
     }
+help-share-goal = ہور آوازاں ڈھونڈنا بچ اسدی مدد کرو، اپنڑا ہدف شیئر کرو
+confirm-goal = مقصد دی تصدیق کرو
+goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } واسطے روز دا مقصد آپنڑا { $count } کلپ شیئر کرو
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } واسطے ہفتے دا مقصد آپنڑا { $count } کلپ شیئر کرو
 
 ## Goals
 
