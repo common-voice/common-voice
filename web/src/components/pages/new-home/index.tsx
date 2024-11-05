@@ -32,23 +32,18 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image-container">
-            <div className="buttons">
-              <div className="listen-container">
-                <LocaleLink className="listen" to={URLS.LISTEN}>
-                  <Play />
+            <div className="hero-background">
+              <div className="buttons">
+                <div className="listen-container">
+                  <LocaleLink className="listen" to={URLS.LISTEN}>
+                    <Play />
+                  </LocaleLink>
+                  <div className="background" />
+                </div>
+                <LocaleLink className="speak" to={URLS.SPEAK}>
+                  <MicIcon />
                 </LocaleLink>
-                <div className="background" />
               </div>
-              <LocaleLink className="speak" to={URLS.SPEAK}>
-                <MicIcon />
-              </LocaleLink>
-            </div>
-            <div>
-              <img
-                src={require('./assets/hero-hd.jpg')}
-                alt="Hero"
-                className="hero"
-              />
             </div>
             <div className="sound-waves-container">
               <img
