@@ -50,6 +50,8 @@ report-offensive-language-detail = ნიფსხოლეწიჼ, ლე მ
 report-grammar-or-spelling = გრამატიკულ/ორთოგრაფიულ ხარცხილ'არ
 report-grammar-or-spelling-detail = წინადა́დებ ლე გრამა́ტიკულ, ლე ორთოგრაფიულ შეცდომა́რეჼ ჲა
 report-different-language = ჴენაჸ მოტტ
+report-different-language-detail = წერალა ას ამბუჲ ჲუჲჩო მატტახ ცოთარ'ლენო მატტავ
+report-difficult-pronounce = ჭირვეჲში̆ ალ'უჲნი̆ და
 
 ## Speak & Listen Shortcuts
 
