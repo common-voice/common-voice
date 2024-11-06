@@ -36,6 +36,14 @@ bulk-sentence-submission = لے تعدادہ جملہ جمع کُرن
 single-sentence = کیول
 small-batch-sentence = اُوچھوٹی بیچ
 bulk-sentence = لے بیچ
+sentence-domain-combobox-label = جملہ تہ ڈومین
+sentence-domain-select-placeholder = تَرا ڈومین تلی منتخب کُرا(اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = زرعت آں خورک
+# Sentence Domain dropdown option
+automotive_transport = آٹوموٹیو آں ٹرانسپورٹ
+# Sentence Domain dropdown option
+finance = فنانس
 
 ## BULK SUBMISSION 
 
