@@ -22,6 +22,9 @@ new-sentence-rule-6 = غیر ملکی خط نم استعمل نی کُریبہ
 new-sentence-rule-7 = مناسب حوالہ شامل کُرا
 new-sentence-rule-8 = مثل تہ طورہ فطری آں مُشکُل(یہ جملہ مترنہ اسکان تھیبو)
 login-instruction-multiple-sentences = <loginLink>لاگین</loginLink>آں<loginLink>سائن اپ</loginLink>کی لے جملہ نم شامل کُرا
+how-to-cite = ائی کنو کُری حوالہ پریم
+how-to-cite-explanation-bold = یو آر ایل لنک یا نیٹ ورک ساں مکمل نم تہ حوالہ پریا
+how-to-cite-explanation = اگر یہ مینہ تانوں الفاط درو بہ،صرف گنا<italicizedText>تانئی حوالہ</italicizedText> اما کی یہ زانن ضروری درو تے میا کی یہ مواد کا تہ میلو با تے ائی مس دڇھمہ تے یہ عوامی ڈومینہ درو آں کاپی تہ اجازت تہ کیہ پابندی مس ڜا نی لگینا۔ حوالہ تہ بارہ ورے معلومت تہ پرئی امونہ <guidelinesLink>گائید لائن تہ پھٹ</guidelinesLink>
 
 ## BULK SUBMISSION 
 
