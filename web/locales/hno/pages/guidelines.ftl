@@ -37,3 +37,5 @@ background-noise-example-1 = ٹریاسک دے دیوہیکل ڈایناسور۔
 background-noise-example-2 = [چھینک]ٹریاسک دے [کھانسی] دیوہیکل ڈایناسور۔
 background-noise-example-3 = ٹریاسک[کھانسی] دیوہیکل ڈایناسور۔
 background-noise-example-4 = [کریکل] ریاسک دے [کریکل] دیوہیکل ڈایناسور۔
+background-noise-tip-1 = [پچھا دے شور سنڑ رکاوٹ بائی]
+background-noise-tip-2 = [ٹیکسٹ دا حصہ سنڑائی ’نیں دیندا]
