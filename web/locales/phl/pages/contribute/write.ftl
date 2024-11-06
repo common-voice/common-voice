@@ -99,3 +99,17 @@ too-many-files = دیڈہ زیات فائلی
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> عام خلکیمی دائرہ بیڈہ جملے شامل تھہ
+multiple-sentences-error = تو آک وختی بیڈہ جملے شامل نہ تھائی بھوڑ۔
+exceeds-small-batch-limit-error = 1000 زیات جملے جمع نہ تھئجانہ
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ریٹ تیݨی حدی دی زیات بِھلی۔ 1 منٹ باد کوشش تھہ۔
+       *[other] ریٹ تیݨی حدی دی زیات بِھلی { $retryLimit } منٹ باد کوشش تھہ۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ریٹ تیݨی حدی دی زیات بِھلی 1 سیکند باد گھرے کوشش تھہ۔
+       *[other] ریٹ تیݨی حدی دی زیات بِھلی { $retryLimit } سیکنڈ  باد گھرے کوشش تھہ۔
+    }
