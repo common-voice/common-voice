@@ -17,3 +17,4 @@ varying-pronunciations-explanation-2 = دوئی طرف، اگر تساں کو ل
 varying-pronunciations-example = رستہ واضح نہ آسا۔
 varying-pronunciations-tip-1 = [کینیڈین انگریزی بچ "رُوٹ" دی آواز "rowt" نالو ہو سکدی ہے]
 varying-pronunciations-tip-2 = [برطانوی انگریزی "ڄڑھ" بنڑا سکدا ہے]
+offensive-content-explanation = جُملیاں دی پڑتال کمیونٹی-موڈریشن دے ذریعے کِیتی جلدی ہِے، لیکن اے عمل بھی مکمل نیں ہے۔ اگر تُسیں ہک جملہ دِیخدے یا سنڑدے ہو جِڑا تساں کوبیزار یا پریشان کردا ہِے - مثال دے طور تے کِیّاں کہ اے اسدی<participationGuidelines>کمیونٹی دے شامل ہونڑا بارے ہدایتاں</participationGuidelines> دی خلاف ورزی کردا ہِے- مہربانی نال UI بچ جھنڈے آلے بٹنڑا کو استعمال کرو۔ تُسیں <emailFragment>commonvoice@mozilla.com</emailFragment> اُتا بھی اساں نال رابطہ کر ہکدے ہو۔
