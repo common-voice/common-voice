@@ -30,6 +30,8 @@ about-playbook-how-grow-language-content-8 = <strong> جوړزُونئ جور س
 ## How to validate
 
 about-playbook-how-validate = از سُو څخل پویٛ سېم که ته سۀ  آواز ا کلِپ کان منظور کېم؟
+about-playbook-how-validate-content-1 = کانه که تُو اَمَر</strong> او پویۀ سُن که څۀ بو غؤݭی، او يې ته پۀ بهترین وخت هۀ که منظوره کی
+about-playbook-how-validate-content-2 = ا سۀ کلِپ په پۀ مک ردېون که ته سۀ وَیونکئ ا لهجۀ يې افا نک هۀ که ا څېن يې ترتُو هۀ۔ آ يې ته آواز ته پېݫندګالي پاره ضروري هۀ ته هرکوک پاره
 
 ## How to access dataset
 
