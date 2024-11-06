@@ -121,3 +121,5 @@ contribution-background-voices-description-extended = که ګُده ا ریکا�
 contribution-background-voices-example-1-title = ا سمندئ ډائنوسور ګپی زر ته لیک ته زمانه <strong> [سۀ آواز نر غوېک] </strong>
 contribution-background-voices-example-1-explanation = تُو ر بُو چیو؟ <strong> [بی کوک کیڅېک] </strong>
 contribution-volume-title = ته ژغ ا چِګ ا ټُوټ
+contribution-volume-description = ته زُت هِشتکوُونئ ته آواز چِګ ټُوټ نر يې بُو فرق بَۀ۔ رده وه تَۀ کَۀ، که ا آواز اُن چِګ بَۀ که ا ریکارډنګ مزا یا عام طور زر اُن ټُوټ بَۀ که آ نک معلومه وک سَۀ، که څۀ بو غؤݭی څُون توݭکيې ت که ا لیکِلئ نک ديېک بَۀ
+contribution-reader-effects-title = ته هِشتَکَوُونئ ا اثر
