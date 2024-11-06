@@ -10,3 +10,11 @@ datasets-positioning =
     انو صفحہ دوئی اوپن سورس ڈیٹاسیٹی حوالئی دپارہ دڇھوئی او کامن وائس کی گاڈو بھئیم بھی وڑئی، اسی خبری دئنی دپارہ آک زھئی۔
 language = زُبان
 download-dataset-header = ڈیٹا سیٹ ڈونلوڈ تھہ
+download-delta-explainer = اسم توش بدل تھیلو۔ پروݨہ کراممی بادڈٰیلٹا حصہ ناؤہ ہاواز چھوݨو <deltaLink> ۔ انی کرامی بارئی دوئی معلومات انیوے</deltaLink> زھئی وے ہِنی۔
+download-dataset-tag = تیݨی خواہشی مطابقی زبینی ڈیٹآسیٹ منتخب تھہ۔ تو کھئیو ورژن  دوائینو ایتس ڈون لوڈ تھہ۔
+# File size in gigabytes
+size = سائز
+validated-hr-total = مستند بھلہ واندہ  ایچ آر مکمل
+overall-hr-total = تمام  ایچ آر مکمل
+cv-license = لائسنس
+audio-format = ہاویزی ساخت
