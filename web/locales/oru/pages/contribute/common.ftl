@@ -102,3 +102,4 @@ contribution-misreadings-example-7-explanation = [اصل سبق نردې "a" ن�
 contribution-misreadings-example-8-title = ا بَبُره بمبُريې ل په بُژ تر سُک
 contribution-misreadings-example-8-explanation = [بی رنګ مواد]
 contribution-varying-pronunciations-title = مختلف ادائګي (ته الفاظ)
+contribution-varying-pronunciations-description = ته سۀ کلِپ ته ردکؤ پاره يې او اختیاط پکر هۀ که سا نک بَۀ که په پا وجه رد سَۀ که لفظ يې صحیح ادائګي نک سُک هۀ، یا لې زور غلط ځاک زر ڒیوک ݭیوک هۀ۔ یا وه سوالیه نشان وتک هۀ۔ دنیا نر الفاظ ته ادائګي زُت طریقي یِن، پئ نرت دی سو مقامی خلق لاسته ا زتی نک اَمَرک بېن۔ مهربني ن يې سو بَۀ که فئ يې لحاظ ساتئ کوک که تُو لاسته مختلف غُندک ژغېن
