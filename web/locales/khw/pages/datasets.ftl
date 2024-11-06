@@ -74,7 +74,7 @@ donate-modal-message = تہ ڈیٹا بیس ڈونلوڈ بویان
 dataset-donate-modal-heading = تہ تین معلومہ۔۔۔
 donate-modal-explanation-1 = سالان تقریبا ای میلین ڈالر دیٹابیسو نیٹا لکھکو وا بہتر کوریکو پچین خرچ بویان۔ اسپہ کیاغ کی کوسیان ہمو سورا  شورار ذیاد واران روئے  بھروسہ کونیان۔
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold> تو کی کھولاو وا سفو پچین معلوماتان قدر کی کوسان۔ ہنون وقف کو۔
+donate-modal-explanation-2 = <bold> تو کی وریع وا ہارکوس معلوماتان قدر کی کوسان۔ ہنون مہربانی کو۔
 data-download-singleword-title = سنگل ورڈ ٹارگیٹ سیگمنٹ ڈونلوڈ ہوئے
 data-download-singleword-callout-v2 = ہیا استعمالو سورا کوساک حصہ کہ تیرا لودیکو نمبران شناخت، دی یا نو پتہ لگیے کوتین ڈیٹا بویان۔
 data-download-button = کامن وائسو معلومات ڈونلوڈ ہوئے

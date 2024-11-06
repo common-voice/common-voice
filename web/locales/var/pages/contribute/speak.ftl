@@ -1,4 +1,4 @@
-speak = Naosaga
+speak = Naósaga
 speak-now = Naosa é ego
 speak-subtitle = Kiaga pile naosali
 record-cta = Oinaga

@@ -1,27 +1,27 @@
 action-click = کلک
 action-tap = ٹیپ
-contribute = حصہ گنیک
+contribute = تان حصو شامل کوریک
 review = وا لوڑے
-skip = پیځیک
-shortcuts = شارٹ کٹ
+skip = پیځی پروشٹی بیک
+shortcuts = اسکوردی راہ
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> اسکوردی ہواز
        *[other] <bold>{ $count }</bold>  اسکوردی ہواز
     }
-goal-help-recording = کامن وائسو روزانو <goalPercentage></goalPercentage>  { $goalValue } رکارڈ پورا کوریکا مدد ارو
-goal-help-validation = کامن وائسو انسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق پورا کوریکا مدد ارو
+goal-help-recording = کامن وائسو انوسو <goalPercentage></goalPercentage>  { $goalValue } رکارڈو پورا کوریکا مدد ارو
+goal-help-validation = کامن وائسو ای انوسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق کوریکو حدو پورا کوریکا مدد ارو
 contribute-more =
     { $count ->
-       *[other] { $count } خور کوریکو بچین تیارا ?
+       *[other] { $count } وا دی کوریکو بچین تیارا ?
     }
-speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سون جملہ ختم ہونی
-no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان تو تان سیٹنگ بدل دیکو بوس تاکہ تہ وارو خور جملہ غیچی گونی۔
+speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سوم جملہ ختم بیتی شینی۔
+no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو پچین تان سٹنگو بدل کوکو بوس۔
 speak-empty-state-cta = جملان جاری کو
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
-record-button-label = تان ہوازو رکارڈ کو
-share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکیکا
-keep-track-profile = تان پروفائیلو سورا تان کورمو پوشتی بیکو پتہ کو
+record-button-label = تان ہوازو محفوظ کو
+share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے
+keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
 login-to-get-started = شروع کوریکو پچین لاک ان بوس یا لاک اب
 target-segment-first-card = اسپہ تان اولو مقصدو پورا کوریکو پچین کوروم کوسیان
 target-segment-generic-card = تو تان مقصدو پورا کوریکو پچین کوروم کوسیان

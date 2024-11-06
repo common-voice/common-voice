@@ -42,6 +42,7 @@ sc-criteria-make-sure = Nukue nudu ne'e chi di cumplir nuku criterios së.
 sc-criteria-item-1 = Noó ne'e chi kanejú nudu.
 sc-criteria-item-2 = Noó ne'e chi kanejú nudu.
 sc-criteria-item-3 = Nudu a kane chi kadi kamañ
+sc-criteria-item-4 = nichi a nudu ku a no ninaa, konto'od &quot; kuaku &quot;  to'o kuakud
 sc-criteria-item-5-2 = Nichi nudu gua noo tumin koto'od nochi jo'o chi &quot;gua noó&quot; Nichi gua deanud nichi noó o gua noó kadi kabyakud y cho'o tama nudu.
 sc-criteria-item-6 = Nichi a kutea nudu chi kamad nichi noó o gua noó. ¡Kadi kuned insú chi nùn ta tae nudu!
 # <icon></icon> will be replace with an icon that represents review

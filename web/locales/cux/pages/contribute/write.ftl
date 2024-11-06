@@ -62,6 +62,7 @@ try-upload-again = Kueatud archivo ñe'ed mu'u.
 try-upload-again-md = Kueatud archivo ñe'ed
 select-file = Neabed archivo ñe'ed
 select-file-mobile = Neabed archivo chi kuead.
+what-needs-to-be-in-file = ¿Deatnu ne'ë chi kunuu boo kaka ñ'ë?
 upload-progress-text = A jea ñe'ed...
 sc-bulk-submit-confirm = Nudu kun <wikipediaLink>a di du'u nu kadi tubi</wikipediaLink> y kadi kueka.
 bulk-upload-success-toast = A cheañ nudud
