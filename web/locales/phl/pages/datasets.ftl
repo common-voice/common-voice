@@ -43,3 +43,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ آک <docsLink>او
 resource-deepspeech-info = موزیلا اوپن سورس ہاواز جھانئنی ہ انجن "ڈیپ سپیچ" بیتی جھانئنی  اپلیکیشن سمئنی دپارہ استعمال بھانو ے۔  بے <githubLink> "گیتھب" دڇھی </githubLink> یا شامل بھیڑ<discourseLink> "ڈیپ سپیچ" مشقول بھہ </discourseLink> کنا تھے شروع تھوم تھنی ازدہ تھئنی دپارہ۔
 resource-coqui-info = <coquiLink>کوقی </coquiLink> آزاد بات دئنی دپارہ ہنو۔ ٹیکنالوجی کرام ازدہ تھئنی بنیاد کی STT وا TTS انجن شامل ہنو۔
 community-playbook = کمنیوٹی پلے بک
+resource-playbook-info = <playbookLink> بُٹھے کامن وائسی بارئی رہنمائی انی زھئی</playbookLink>وے ہنہ۔ ایڑام مجی مقامی تھئنی گھنی ڈیٹاسیٹی استعمیلی تی او اسی کمیونٹی وے کنا بھے یھین تھنی معلومات ہنی۔
+data-other-librispeech-description = لیبری بکس تقریبا 1000 گھنٹے 16Khzمناٹہ آک انگریزی تقریری مجموعہ  ایڑے لیبری وکس پروجکٹی  ہاویزی کتینی دی گڈی ہنہ۔
+data-other-ted-name = ٹیڈ-لیئم ہاویزیمی مجموعہ
+data-other-ted-description = ٹیڈ-لیئمی مجموعہ ہاویزی مشقولگی دی سمجی ہنہ او مشقولگی وے چونٹولو ٹیڈ ویپ سائٹہ وے دستیاب ہنہ۔
