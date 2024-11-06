@@ -66,4 +66,5 @@ username-email-not-demographic = Tai usernom ze email data una newishik wew ne j
 
 welcome-staff = Andai al'i e staff
 login-company = kholaw kari, Sawzai email
+profile-not-required = Account ajat ne, dikas bati, leken prus't hiv ashis pe haw
 read-more-about = warek asta mas, Homa bari una page una
