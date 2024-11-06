@@ -50,3 +50,5 @@ sc-review-instruction = آ ګه چېک کَۀ <icon> که ترتُو ا جملي
 sc-review-rules-title = آیا ا جملي ت ته هدایات په مطابق یِن؟
 sc-review-empty-state = پېری دی مېن پۀ زبان نر ته نظرثاني پاره جملي نکِن
 report-sc-different-language = بِڅخل زبان
+report-sc-different-language-detail = او خه څه بی څه زبان نر لیکيېک ݭیوک هۀ، که ازه وې بُو نظرثاني نک کېم
+sentences-fetch-error = که ا جملي م اِر بُ ورُوکِن، څه غلطي يې سُک
