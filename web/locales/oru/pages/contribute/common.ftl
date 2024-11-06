@@ -85,3 +85,6 @@ contribution-misreadings-description = که کانه وه امر، ته په ش�
 contribution-misreadings-description-extended-list-1 = ته ریکارډنګ شُوري نر بُو <strong> ”سۀ” یا ”ا” یا ”آ” غونه بېن
 contribution-misreadings-description-extended-list-2 = ته لفظ آخېري نر بُو </strong> ”س” غون بَۀ
 contribution-misreadings-description-extended-list-3 = زری کېک هِشتک ته فئ الفاظ که اصل نر دی موجود نک بېن، سکه "we're" ته "we are" په ځاکه
+contribution-misreadings-description-extended-list-4 = ته آخېری لفظ ا غړنؤ په وجه ته ریکارډنګ ا سېره بند کؤ
+contribution-misreadings-description-extended-list-5 = زُت واره ته سۀ لفط ته غوېڅن ا کوشش
+contribution-misreadings-example-1-title = ته ځنډ زمانه ا سمندئ ډائنوسور
