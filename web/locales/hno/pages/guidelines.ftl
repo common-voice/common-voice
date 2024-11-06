@@ -76,3 +76,5 @@ adding-sentences-subheader-spelling-punctuation-explanation = جملے دی ام
 adding-sentences-subheader-speakable = بولنا دے قابل
 adding-sentences-subheader-speakable-explanation = بہترین جملے فطری تے گل بات آلے ہون٘دے ہن — اے کسی واسطے بھی پڑھنے بچ آسان ہونڑے چاہِیدے ہن۔ جبکہ آواز دا تنوع تے جملیاں بچ مختلف لفظ اہم ہن، اسیں اے کوشش کر رے ہاں کہ ریکارڈنگ جملیاں کو آپنڑی رضاکار برادری آستے ہر ممکن حد تک دِلچسپ تے تفریحی بنڑاواں۔
 adding-sentences-subheader-numbers = گنتی
+adding-sentences-subheader-numbers-explanation = سورس ٹیکسٹ بچ مثالی طور تے کوئی ہندسہ نیں ہوونڑا چاہیدا کیاں کہ جدوں اُچی آواز نال پڑھے  تے مسائل پیدا کر سکدے ہن۔ جسطرح ہک نمبر کدرے پڑھیا جلد ہے  تے او ڈیٹا سیٹ بچ الجھن پیدا کر ہکدا ہے۔ مثال دے طور تے، نمبر “2409” کو "چووی صفر نوں" تے "دو ہزار چار سو نوں" درڑیاں طرح درست طریقے نال پڑھیا جل ہکدا آسا۔
+adding-sentences-subheader-abbreviations = مخففات تے سرنامیہ
