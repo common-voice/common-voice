@@ -125,3 +125,6 @@ contribution-volume-description = ته زُت هِشتکوُونئ ته آواز
 contribution-reader-effects-title = ته هِشتَکَوُونئ ا اثر
 contribution-reader-effects-description = ا ݫات ریکارډنګ يې بو ته فۀ خلق بَۀ کوک دی بو که عام آواز نر خبُرئ کَوِن۔ ا کان کان سا غېر معمولي په زوټه یا په سپُتؤ ریکارډنګ بُو قبول اېنچی که ډراميي طور زر يې په فه يي رنګ ریکارډ ݭیوک بَۀ۔ خه ته بدِلئ په طرز نَوُلک آواز ردوئ یا يې کمپیوټر نر مصنوعی جوړ ݭیوک بَۀ
 contribution-just-unsure-title = یقینم بُو نک سَۀ
+contribution-just-unsure-description = که پئ هدایات نر يې سا شئ بَۀ که وه نک ویزر رس، بيې ا خوئ بهترین اندازۀ لګېون۔ خه که بيې وه ګه پویٛ نک سُن، بيې اسکِپ بټن ځن او مخکی ل تر سُن
+see-more = <chevron> </chevron> بيې دی جیره کَۀ
+see-less = <chevron> </chevron> بيې دی جیره کَۀ
