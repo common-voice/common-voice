@@ -1,0 +1,9 @@
+listen = اشترونن
+listen-subtitle = کاݨ نم کرنہ مدد کنؙا
+listen-instruction = تیں صیح طریقہ ݜا جملہ کھنڈین بئنی
+listen-again-instruction = پھرکی اؙشترونے کیر تو تیار بوپ بہ
+listen-3rd-time-instruction = دو با، شمبݜ
+listen-last-time-instruction = آخری
+listen-empty-state = ام ملی کلپ اؙچھہ درو پھٹ تازہ کؙرے یا بہ پھرکی کوشیش کؙرے
+listen-empty-state-variants = تاں باشہ تہ  کلپ نم خلص بیاں، اگر توکی اسکان درو بہ، تو تانو سیٹنگ بدل کؙری تاں باݜا ورے جملہ نم دڇین بئنپ
+listen-loading-error = ام ملی توہ اؙشترنے کی کاݨ تہکلپ نیدرو، مہربانی کؙریھرکی کوشیش کؙرے

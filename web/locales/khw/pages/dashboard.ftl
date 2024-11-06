@@ -134,7 +134,7 @@ share-goal-type-speak = لو دیک
 share-goal-type-listen = کار کوریک
 share-goal-type-both = لو دیک وا کارکوریک
 # LINK will be replaced with the current URL
-goal-share-text = اوا #CommonVoice تین وقف کوریکو پچین تان انوسو حدفو لکھیتام۔ مہ سون اصل روئے کیچہ کوری لو دونیان رے  مشنیو  ݯھیھیکو پیچین شامل بوس وا مدد کو
+goal-share-text = اوا کمان وائس تین ہواز مہربانی کوریکو پچین حدف لکھیتام۔ اصل روئے کیچہ کوری لو دونیان رے مشنیو  ݯھیھیکو پیچین مہ سون جوست بوس وا مدد کو{ $link }
 weekly-goal-created = تہ ہفتہ وار حدف ساوز ہوئے
 daily-goal-created = تہ انوسو حدف ساوز ہوئے
 track-progress = تان کروم کندوری ہوئی رے ہیا پتہ کو وا تان سٹیٹس پیجا

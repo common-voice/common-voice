@@ -16,15 +16,25 @@ contribute-more =
        *[other] Барои иҷро кардани { $count }-тои дигар омода ҳастед?
     }
 speak-empty-state = Барои сабти овоз дар ин забон мо ҷумлаҳои дигар надорем...
+no-sentences-for-variants = Эҳтимол аст, ки забони шумо ҷумлаҳои дигар надорад! Агар хоҳед, шумо метавонед барои дидани дигар ҷумлаҳои марбут ба забони шумо, танзимоти худро иваз намоед.
 speak-empty-state-cta = Пешниҳод кардани ҷумлаҳо
+speak-loading-error =
+    Мо барои сабти овози шумо ягон ҷумлае сара карда натавонистем.
+    Лутфан, баъдтар аз нав кӯшиш кунед.
 record-button-label = Овози худро сабт намоед
+share-title-new = Дар пайдо кардани овозҳои бештар <bold>ба мо кумак кунед</bold>
+keep-track-profile = Пешравии худро ба воситаи профил пайгирӣ намоед
+login-to-get-started = Барои оғози кор ворид шавед ё сабти ном кунед
+target-segment-first-card = Шумо ба қисмати мақсадноки аввалиндараҷаи мо саҳми худро гузошта истодаед
+target-segment-generic-card = Шумо ба қисмати мақсаднок саҳми худро гузошта истодаед
+target-segment-first-banner = Барои сохтани қисмати мақсадноки аввалиндараҷаи лоиҳаи «Common Voice» бо забони { $locale } кумак расонед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 change-preferences = Иваз кардани хусусиятҳо
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Маҷмуи сабтҳо
+contribute-voice-collection-nav-header = Маҷмуи овозҳо
 contribute-sentence-collection-nav-header = Маҷмуи ҷумлаҳо
 login-signup = Воридшавӣ / Бақайдгирӣ
 vote-yes = Ҳа
@@ -45,7 +55,9 @@ report-offensive-language-detail = Ҷумла дорои забони таҳқи
 report-grammar-or-spelling = Хатои грамматикӣ / имлоӣ
 report-grammar-or-spelling-detail = Ҷумла хатои грамматикӣ ё имлоӣ дорад.
 report-different-language = Забони дигар
-report-difficult-pronounce = Талаффуз кардан душвор аст
+report-different-language-detail = Он дар забоне навишта шудааст, ки аз забони сухани ман фарқ мекунад.
+report-difficult-pronounce = Барои талаффуз душвор аст
+report-difficult-pronounce-detail = Он калимаҳо ё ибораҳоеро дар бар мегирад, ки барои хондан ё талаффуз кардан душвор мебошанд.
 report-offensive-speech = Сухани таҳқиромез
 report-offensive-speech-detail = Сабт дорои забони беадаб ё таҳқиромез мебошад.
 report-other-comment =
@@ -66,9 +78,9 @@ shortcut-skip = s
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Сабт/Ист
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Клипро аз нав сабт кунед
+shortcut-rerecord-toggle-label = Аз нав сабт кардани овоз
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Сабти ҷориро рад кунед
+shortcut-discard-ongoing-recording-label = Рад кардани сабти ҷорӣ
 shortcut-submit = Бозгашт
 shortcut-submit-label = Пешниҳод кардани сабтҳо
 request-language-text = Шумо то ҳол забони модарии худро дар лоиҳаи «Common Voice» намебинед?
@@ -95,4 +107,4 @@ contribution-for-example = масалан
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
-contribution-reader-effects-title = Таъсирҳои хонандагон
+contribution-reader-effects-title = Таъсирҳои хонанда

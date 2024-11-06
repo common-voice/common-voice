@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Ereka ju osinime
+write = Ereka hu osinime
 write-instruction = Toaga<icon></icon> pile naosari wa dominio publico
 write-page-subtitle = Oracionichi manitoame programachi kawisita como conjuntochitia toaniame datos licenciachi cc-0, Disponiblechi iniwae puka publikochi simiyame
 sentence =

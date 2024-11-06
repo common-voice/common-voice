@@ -107,3 +107,36 @@ rate-limit-toast-message-minutes =
         [one] nñú tjen ts'atunere chubare. s'a k'ua sike.
        *[other] nñú tjen ts'atunere chubare. s'a  { $retryLimit } k'ua sike.
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] nñú tjen ts'atunere chubare. s'a ngutjún k'ua sike.
+       *[other] nñú tjen ts'atunere chubare. s'a ngutjun{ $retryLimit } k'ua sike.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ts'atunere chubare ju tjín maa nikasen, chunye ngutjún ndaga kuan sikasen ngui jngú nijmí.
+       *[other] Ts'atunere chubare ju tjín maa nikasen, chunye ngutjún tse { $retryLimit }ndaga kuan sikasen ngui jngú nijmí.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ts'atunere chubare ju tjín maa nikasen, chunye xchi ndaga kuan sikasen ngui jngú nijmí.
+       *[other] Ts'atunere chubare ju tjín maa nikasen, chunye { $retryLimit } xchi tse ndaga kuan sikasen ngui jngú nijmí.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } tse 1 nijmí xi kuan ñajan
+       *[other] { $uploadedSentences } tse nijmí xi kuan ñajan
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } Jngu nijmí xi kuañajan tisenere<downloadLink> i</downloadLink> nga kuan chaajen xi mi kuan kii.
+       *[other] { $uploadedSentences } xi kuañajan tisenere <downloadLink> i </downloadLink> nga kuan chaajen xi mi kuan kii.
+    }
+small-batch-sentences-rule-1 = Kui chuba ti'in tjingui “¿jmé nijmí kuan s'ejinsa?”
+small-batch-sentences-rule-2 = Jngu nijmí nga jngu dinya s'ejin
+small-batch-sentences-rule-3 = Tinyat'axín nijmí jngu ndiyá nga'an jngú, kua jngu ndiyá tjatiye.
