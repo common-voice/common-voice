@@ -114,3 +114,5 @@ contribution-background-noise-description-extended = که ګُده ا ریکار
 contribution-background-noise-example-1-fixed-title = [پرُنجؤ] </strong> ا سمندئ ډائنوسور ته </strong> [تُخ] ته ګٍی زر ته پِشتک ته زمانه
 contribution-background-noise-example-2-fixed-title = ډینو سمندئ <strong> [ټُخ] ګپی زر ته پِشتک ته زمانه
 contribution-background-noise-example-2-explanation = [ته لیک ا ݭے حصه بو نک امرک سَۀ]
+contribution-background-noise-example-3-fixed-title = <strong> [ډزؤ] </strong> سمندئ ډائنوسور <strong> [ډزؤ]</strong> ګپی زر ته لیک ته زمانه
+contribution-background-voices-title = ته څُټ ا آوزي
