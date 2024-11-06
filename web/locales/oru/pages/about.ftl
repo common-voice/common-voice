@@ -123,6 +123,7 @@ about-playbook-how-access-dataset-content-2 = که تُو کی دی آلات پ�
 ## How are decisions made
 
 about-playbook-how-project-governance = ته پراجېکټ ا فیصله يې بو څا سَۀ؟
+about-playbook-how-project-governance-content-1 = موزیلا مشترک آواز يې ته کمیونېټی ته زبنی ا کارکوننی او ته لسانیات ا ماهېرنی جوړ دوک هۀ۔ پئ نر دی ته ډېټآ سائنس داننی، ته زدکړه ماهېرنی او سافټ وېر انجئېرنی ټول دنیا لاست شامل یِن۔ ته پراجېکټ ا نګراني بو موزیلا فاؤنډېشن کوی
 
 ## How is Common Voice funded
 
