@@ -131,3 +131,15 @@ add-small-batch-success =
         [one] { $uploadedSentences } مجی آک جملہ سمٹہ
        *[other] { $uploadedSentences } مجی { $totalSentences } جملے سمٹہ
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } مجی 1 جملہ جمع بِھلو۔ انیوے <downloadLink> کلک تھہ</downloadLink>  مسترد بِھلہ جملے ڈونلوڈ تھئنی دپارہ
+       *[other] { $totalSentences }مجی { $uploadedSentences }  جملے جمع بِھلہ۔ انیوے <downloadLink>کلک تھہ</downloadLink> مسترد بِھلہ جملے ڈونلوڈ تھئنی دپارہ.
+    }
+small-batch-sentences-rule-1 = “بے گہ جملے شامل تھومے؟”  رہنمائی جھلی عمل تھہ
+small-batch-sentences-rule-2 = آک لیݨی وے آک جملہ شامل تھہ
+small-batch-sentences-rule-3 = "Enter"دباو تھے جملے آک لیݨی وے علحیدہ تھوئی یا  آک دفعہ "Return"
+small-batch-sentences-rule-4 = 1,000  تی جملے شامل تھہ
+small-batch-sentences-rule-5 = بُٹھے جملہ آک دائرہ کی ہونسن وڑئی
+small-batch-sentences-rule-6 = بُٹھے جملیمی آک حولہ ہاسینڈیو
