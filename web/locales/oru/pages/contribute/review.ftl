@@ -44,3 +44,9 @@ sc-criteria-item-2 = ته جمله ا ګرامر که صحیح بَۀ
 sc-criteria-item-3 = ا جمله که ته غوېڅن/ هِشتک قابل بَۀ
 sc-criteria-item-4 = که ا جمله ائ اره پېماني/ ݭړطی پُوره کوی، بيې &quot; منظور، &quot; خورېنڅه پلؤ ا بټن ځن
 sc-criteria-item-5-2 = که ا جمله ائ بېژ بیان پېماني/ ݭړطی نک پُورۀ کوی بيې ته &quot; ا نامنظور/ رد بټن چيېله پلؤ ځن۔ که تو جمله باره نر ݭکمن بی، تُو بو ته سکِپ ا بټن ځوک اېنچی، او مُخکی ل بُو تر اېنچی
+sc-criteria-item-6 = که تُو لاسته ته نظرثاني پناره ا جملي ختُم سېن، بيې دی بيے جملي جمع کَۀ۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = آ ګه چېک کَۀ <icon> که ترتُو ا جملي ته لسانیات په اصول صحیح یِن، که نا۔
+sc-review-rules-title = آیا ا جملي ت ته هدایات په مطابق یِن؟
+sc-review-empty-state = پېری دی مېن پۀ زبان نر ته نظرثاني پاره جملي نکِن
+report-sc-different-language = بِڅخل زبان
