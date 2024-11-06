@@ -37,6 +37,7 @@ about-playbook-how-validate-content-4 = که ګُده ا سۀ کلِپ ا دیو
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = از سو فۀ ډېټا سېټ کی ا ځان څا رسېم؟
 
 ## How are decisions made
 
