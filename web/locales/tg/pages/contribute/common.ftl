@@ -101,10 +101,17 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Меъёрҳо
 contribution-criteria-link = Фаҳмидани меъёрҳои саҳми овоз
 contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
+contribution-misreadings-title = Хониши нодуруст
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
+contribution-background-noise-title = Садои атроф
+contribution-background-voices-title = Овозҳои атроф
+contribution-volume-title = Баландии садо
 contribution-reader-effects-title = Таъсирҳои хонанда
+see-more = <chevron></chevron>Бештар дидан
+see-less = <chevron></chevron>Камтар дидан
