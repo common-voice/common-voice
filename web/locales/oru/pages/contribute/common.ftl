@@ -104,3 +104,6 @@ contribution-misreadings-example-8-explanation = [بی رنګ مواد]
 contribution-varying-pronunciations-title = مختلف ادائګي (ته الفاظ)
 contribution-varying-pronunciations-description = ته سۀ کلِپ ته ردکؤ پاره يې او اختیاط پکر هۀ که سا نک بَۀ که په پا وجه رد سَۀ که لفظ يې صحیح ادائګي نک سُک هۀ، یا لې زور غلط ځاک زر ڒیوک ݭیوک هۀ۔ یا وه سوالیه نشان وتک هۀ۔ دنیا نر الفاظ ته ادائګي زُت طریقي یِن، پئ نرت دی سو مقامی خلق لاسته ا زتی نک اَمَرک بېن۔ مهربني ن يې سو بَۀ که فئ يې لحاظ ساتئ کوک که تُو لاسته مختلف غُندک ژغېن
 contribution-varying-pronunciations-description-extended = بی طرف يې که ترتو او یقین بَۀ که ا هِشتکوُونئ يې او لفظ لواړه بيې ديېک ګۀ نک هۀ او صرف غلط اندازۀ يې بو لګوی، افۀ بو تُو رد اېنچی۔ او که تُو سا په یقین سره نک غوېک اېنچی بيې بو تُو ته سکِپ ا بټن ځوک اېنچی
+contribution-varying-pronunciations-example-1-title = ته پوم ټوپيے وې په سر بُک
+contribution-varying-pronunciations-example-1-explanation = [Beret صحیح هۀ که زوره وه ته لُظ اول حصه (UK) زر هۀ یا دیم حصه  (US) زر]
+contribution-varying-pronunciations-example-2-title = ته رۀ ا دِسته وه چِګ داک
