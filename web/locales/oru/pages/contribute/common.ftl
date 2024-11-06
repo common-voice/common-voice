@@ -118,3 +118,6 @@ contribution-background-noise-example-3-fixed-title = <strong> [ډزؤ] </strong
 contribution-background-voices-title = ته څُټ ا آوزي
 contribution-background-voices-description = ته څُټ ا آوزي یا ا کِش کړپ خېر هۀ بون دې، خه ماخ دی بو سا ݫاتئ آوزی نک زېن که ا مشین الګوریتم دی سال الفاظ جَوَت کوی که افئ دی لیک سبق نر نک بېن۔ که ګُده دی تیوس سا نیووه الفاظ امرکِن که سبق نر دی نکِن، افۀ کلِپ رد کوئ۔ خاص کر سا بو تَۀ سَۀ که ګُده ن ا ټی وی خلاص وتک بَۀ۔ یا يې بویٛ ګُده ژغؤ بَۀ۔
 contribution-background-voices-description-extended = که ګُده ا ریکارډنګ بندکېک سَۀ یا ډزا، رد وه کَۀ څُون توݭکيې که ته اره سبق ا غوېک نک اميېک سَۀ۔
+contribution-background-voices-example-1-title = ا سمندئ ډائنوسور ګپی زر ته لیک ته زمانه <strong> [سۀ آواز نر غوېک] </strong>
+contribution-background-voices-example-1-explanation = تُو ر بُو چیو؟ <strong> [بی کوک کیڅېک] </strong>
+contribution-volume-title = ته ژغ ا چِګ ا ټُوټ
