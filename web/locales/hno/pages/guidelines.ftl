@@ -84,3 +84,4 @@ adding-sentences-subheader-abbreviations-explanation =
 adding-sentences-subheader-punctuation = علامتاں
 adding-sentences-subheader-punctuation-explanation = خصوصی علامتاں تے رموز صرف اسی صورت شامل کرنے چاہیدے ہن جدوں بالکل ضروری ہوون۔ مثال دے طور تے، انگریزی الفاظ جِیاں "don’t" تے "we're" بچ ہک apostrophe شامل ہے کو سورس ٹیکسٹ بچ شامل کرنا چاہیدا ہے، لیکن اے گل نیں ہو ہکدی کہ تساں کو کدے بھی "@" یا "# ”جئی خصوصی علامت دی ضرورت پئے۔
 adding-sentences-subheader-special-characters = حاص حروف تے غیرملکی حروف
+adding-sentences-subheader-special-characters-explanation-1 = جڑی زبان بول رے ہو اس بچ حروف درست ہونڑے چاہیدے ہن۔ مثال دے طور تے، “ж” ہک روسی حروف تہنی بچ ہک لفظ ہے لیکن انگریزی بچ اے کدے استعمال نیں ہویا تے اے کسی انگریزی سورس ٹیکسٹ بچ ظاہر نیں ہونڑا چاہیدا۔
