@@ -82,6 +82,8 @@ accepted-files = کیرا فائل قبول بیاں سے صرف tsv۔ درو
 minimum-sentences = ایک فائلہ کم از کم جملہ نم  ۱۰۰۰
 maximum-file-size = فائل ساں زیت تہ زیت سائز : 25 MB
 what-needs-to-be-in-file = ما فائلہ کیا تھین ضروری درو
+what-needs-to-be-in-file-explanation = مہربانی کُری دڇھا امونہ<templateFileLink>ٹمپلیٹ فائل</templateFileLink>۔تاں جملہ کاپی رائٹ تہ پک تھیبو CC0) (یا جمع کُرال ساں طرف تہ اصل کرم تہ اجازت) آں واضح ، گرائمر سئی آں مترنہ اسکان تھیبو۔ جمع کُری سن جملہ نم مترنہ تقریبا دش یا پنچیش منٹ ٹائم گیبو، آں تسوہ ہندسہ نمم مناسب اسمم آں خصوصی حروف مہ شامل کُرا۔
+upload-progress-text = اپ لوڈ جاری درو
 
 ## SMALL BATCH SUBMISSION
 
