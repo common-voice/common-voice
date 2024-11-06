@@ -111,3 +111,6 @@ contribution-varying-pronunciations-example-2-explanation = [Raised بُو ان�
 contribution-background-noise-title = ا په څُټ شور
 contribution-background-noise-description = ماخ بُو مشین زدۀ الګوریتم لاسته سا وېن که ته په څُټ امريېک شور لاسته ن دی خلاص کوی او که دُشکی شور يې اميېک سَۀ ګۀ، خېر هۀ۔ خه که سا نک بَۀ که کتاب لاسته غوېک ته سبق امرؤ بند کوی۔ ا غِليې څفتَري (مویقي) يې ټهیک هۀ، خه ا فا څفتري که ته پا په وجه ته بَدِله ا ټِکئ نک سهي کَوَک سېن، غلط يې هۀ
 contribution-background-noise-description-extended = که ګُده ا ریکارډنګ بندکېک سَۀ یا ډزا، رد وه کَۀ څُون توݭکيې که ته اره سبق ا غوېک نک اميېک سَۀ۔
+contribution-background-noise-example-1-fixed-title = [پرُنجؤ] </strong> ا سمندئ ډائنوسور ته </strong> [تُخ] ته ګٍی زر ته پِشتک ته زمانه
+contribution-background-noise-example-2-fixed-title = ډینو سمندئ <strong> [ټُخ] ګپی زر ته پِشتک ته زمانه
+contribution-background-noise-example-2-explanation = [ته لیک ا ݭے حصه بو نک امرک سَۀ]
