@@ -1,0 +1,10 @@
+voice-collection = ہاویزیمی مجموعہ
+sentence-collection = جملئی مجموعہ
+varying-pronunciations = مختلف طریقئی منئنی
+misreadings = غلط منئنی
+background-noise = تیر چارپھیری شور
+background-voices = تیر چاپھیری ہاویزی
+volume = زور/بھراش
+reader-effects = مناٹی اثر
+just-unsure = بس غیر یقینی
+example = مثال
