@@ -19,15 +19,22 @@ total-approved = بُٹھے منظور بِھلہ
 overall-accuracy = بُٹھے صحی
 set-visibility = می پشئنی سیٹ تھہ
 visibility-explainer = انی سیٹنگ تھی لوڈر بورڈ پشئنی کنٹرول تھینی۔ کرے پلولو ہینتہ تھی کرام راز کی دھارہ۔ ایڑائی مطلب انی کی تھی فوٹو، استعمال تھئنی نو او  تھی کرام لوڈر بورڈی نہ پشِجہ۔ انی بات نوٹ تھہ کی لوڈر بورڈو ناؤ تھئنی او تبدیل تھئنی دپارہ { $minutes } منٹ گھنہ
+visibility-overlay-note = نوٹ: کرے گلہ پشئنی دپارہ سیٹنگ تھانو ہینتہ۔ انی سیٹنگ <profileLink>بی تھینڈیو بھی پروفائل پیج</profileLink>
+show-ranking = می درجہ پشوہ
 
 ## Custom Goals
 
+get-started-goals = مقصدی گِھنی شروع تھہ
+create-custom-goal = تیݨی مرضی آک مقصد سمہ
+goal-type = تو گہ قسمی مقصد چھورئنی دوائینو؟
 both-speak-and-listen = دھوے بھے
-daily-goal = روزانئی مقصد
+both-speak-and-listen-long = دھوے بھے (کھونڈوئی او کاݨ تھوئی)
+daily-goal = دیسی مقصد
 weekly-goal = ہفتئی مقصد
 easy-difficulty = اسکون
 average-difficulty = اوسط
 difficult-difficulty = مشکل،زور
+pro-difficulty = حمایتی
 cant-decide = فیصلہ نہ تھائی بھانوۡ
 goal-interval-weekly = ہفتہ وار
 
