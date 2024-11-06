@@ -15,6 +15,7 @@ record-again-instruction2 = Ҳалолат бод, боз сабт кунед <r
 record-last-instruction = <recordIcon></recordIcon> Як бори дигар!
 review-tooltip = Сабтҳоро дар ин ҷой аз назар гузаронед ва аз нав сабт кунед
 share-clip = Сабти худро мубодила кунед
+share-common-voice = «Common Voice»-ро мубодила кунед
 clips-uploaded = Сабтҳо бор карда шуданд
 record-abort-submit = Пешниҳод кардани сабтҳо
 record-abort-delete = Баромадан ва нест кардани сабтҳо

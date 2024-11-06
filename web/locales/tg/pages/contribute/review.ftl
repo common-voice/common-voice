@@ -12,3 +12,4 @@ sc-review-link = Бознигарӣ
 
 sc-criteria-modal = ⓘ Меъёрҳои бознигарӣ
 sc-criteria-title = Меъёрҳои бознигарӣ
+report-sc-different-language = Забони дигар
