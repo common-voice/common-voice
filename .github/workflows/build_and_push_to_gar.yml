@@ -3,8 +3,8 @@ name: build and push to GAR
 on:
   push:
     tags:
-      - 'release-v*.*.*'
-      - 'stage-v*.*.*'
+      #- 'release-v*.*.*'
+      #- 'stage-v*.*.*'
       - 'sandbox-v*.*.*'
 
 jobs:
