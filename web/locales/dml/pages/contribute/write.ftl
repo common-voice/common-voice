@@ -18,6 +18,10 @@ new-sentence-rule-2 = ہر جملہ پنچیش الفاظ تہ کم تھیبو
 new-sentence-rule-3 = سئی گرائمر استعمل کُرا
 new-sentence-rule-4 = سئی ہجہ آں اوقاف تہ استعمل کُرا
 new-sentence-rule-5 = نمبر آں خصوصی حروف استعمل نی کُریبہ
+new-sentence-rule-6 = غیر ملکی خط نم استعمل نی کُریبہ
+new-sentence-rule-7 = مناسب حوالہ شامل کُرا
+new-sentence-rule-8 = مثل تہ طورہ فطری آں مُشکُل(یہ جملہ مترنہ اسکان تھیبو)
+login-instruction-multiple-sentences = <loginLink>لاگین</loginLink>آں<loginLink>سائن اپ</loginLink>کی لے جملہ نم شامل کُرا
 
 ## BULK SUBMISSION 
 
