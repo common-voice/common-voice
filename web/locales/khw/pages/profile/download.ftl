@@ -1,7 +1,7 @@
 ## Profile Download
 
-download-q = تہ ڈیٹو ڈونلوڈ کوریلیک؟
-download-info = لودیت تو کھیو ڈونلوڈ کوریک مݰکیسان؟
+download-q = تان معلوماتان ڈون لوڈ کوریک مݰکیسانا؟
+download-info = اسپہ تین لودیت تو کھیو ڈون لوڈ کوریک مݰکیسان؟
 download-profile-title = پروفائل
 download-profile-info = ای میلو شامل کو، استعمال کوراک اوچے آبادیو بارا معلومات شاو دستیاب بونی
 download-profile-size = ای کما بائٹس
