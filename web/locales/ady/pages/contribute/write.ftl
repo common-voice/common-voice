@@ -93,6 +93,8 @@ too-many-files = Файл бащэ щыӏ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэ бэ хэгъэуцу
 exceeds-small-batch-limit-error = Cannot submit more than 1000 sentences
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
