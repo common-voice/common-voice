@@ -69,6 +69,7 @@ sentence-variant-select-multiple-variants = Пстэури бзэ / диалек
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэхэр тегъэуцу
+sc-bulk-upload-instruction = Уифайл мыщ щылъэшъу е <uploadButton>тегъэуцон</uploadButton>ым теӏункӏ
 sc-bulk-upload-instruction-drop = Тегъэуцоным пае файлыр мыщ щытӏупщ
 try-upload-again = Уифайл мыщ щыплъэшъузэ джыри зэ уплъэкӏу
 try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтмэ еплъ
