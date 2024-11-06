@@ -18,3 +18,7 @@ validated-hr-total = مستند بھلہ واندہ  ایچ آر مکمل
 overall-hr-total = تمام  ایچ آر مکمل
 cv-license = لائسنس
 audio-format = ہاویزی ساخت
+dataset-splits = تقسیم(عمر او  جنس)
+number-of-voices = ہاویزیمی تعداد
+splits = تقسیم
+email-to-download = ڈون لوڈ تھئنی دپارہ ای میل دہ
