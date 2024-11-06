@@ -113,3 +113,21 @@ rate-limit-toast-message-seconds =
         [one] ریٹ تیݨی حدی دی زیات بِھلی 1 سیکند باد گھرے کوشش تھہ۔
        *[other] ریٹ تیݨی حدی دی زیات بِھلی { $retryLimit } سیکنڈ  باد گھرے کوشش تھہ۔
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] انی پیجی وے جمع تھئنی تعداد پورہ تھیلہ۔ مہربینی تھے دوئی جملہ آک منٹ باد جمع تھہ
+       *[other] انی پیجی وے جمع تھئنی تعداد پورہ تھیلہ۔مہربینی تھے دوئی جملہ جمع تھئنی دی موݜٹو { $retryLimit }  منٹ انتظار تھہ۔ صبر تھئنی دپارہ بیڈی مہربینی!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] انی پیجی وے جمع تھئنی تعداد پورہ تھیلہ۔مہربینی تھے دوئی جملہ جمع تھئنی دی مُݜٹو1سیکنڈ انتظار تھہ۔ صبر تھئنی دپارہ تھی بیڈی مہربینی!
+       *[other] انی پیجی وے جمع تھئنی تعداد پورہ تھیلہ۔مہربینی تھے دوئی جملہ جمع تھئنی دی موݜٹو { $retryLimit }  منٹ انتظار تھہ۔ صبر تھئنی دپارہ بیڈی مہربینی!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } مجی آک جملہ سمٹہ
+       *[other] { $uploadedSentences } مجی { $totalSentences } جملے سمٹہ
+    }
