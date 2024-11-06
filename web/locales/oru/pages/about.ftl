@@ -136,3 +136,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> بيې وه �
 about-playbook-how-funded = مشترک آواز بُو څال فنډ کېک سَۀ؟
 about-playbook-how-funded-content-1 = مشترک آواز يې ته موزیلا فاؤنډېشن پراجېکټ هۀ، سۀ ته امریکه  501c3 يې هۀ۔ فی الحال او پراجېکټ اره <philantropicGrantLink> ا مخئر خلق چَلَوِن او ته پُورۀ دنیا ا خلق ل بُو ا خوئ خصه ڒوِن۔
 about-playbook-how-funded-content-2 = پۀ نر يې بُو کافي خرڅۀ سَۀ که تُو آ مهمان نوازی کېوی او ا ډېټا سېت جاري سېتی، ا پلېټ فارم مضبُوطېوی او ته کمیونېټی ا پروګرمی چلېوی
+about-playbook-how-funded-content-3 = که ترتُو یا ترتُوته ا آرګنائزېشن ا زلی زَيي که پراجېکټ ګیرډ ال ا دِس ګلی بيې ل يې تُو چاندۀ ګۀ ڒیوک اېنچی<donateLink> یا يې بو ترماخ پارټنرشپ ټیم ګیرډ رابطه اېنچی
