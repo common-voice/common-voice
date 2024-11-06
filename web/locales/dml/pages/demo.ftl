@@ -18,6 +18,10 @@ demo-account = اکاونٹ
 ## Demo Account
 
 demo-account-card-header = حصہ ڇھارئیں کی اکاونٹ ضروری نی درو، حالانکہ یہ مدگار درو
+demo-account-card-body = دڇھنی بئیں ائی فائدہ تہ خاکہ پیش کُنُمہ آں ائی واضح کُنُمہ تے ائی کیہ قسم تہ معلومات عام کُرن گٹینُمہ۔ تانو آلہ عام کاڻ تہ اکاونٹہ ملی شروع کُرئیں کی بُن پرئی سن لنک ساں استعمل کُرا
+demo-account-enter-email =
+    .label = سائن اپ لنک ڜیاں کی  ای میل لکا
+demo-account-sign-up = سائن اپ لنک ڜیا
 
 ## Demo Contribute
 
