@@ -63,3 +63,16 @@ dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عُمر
 donate-modal-message = تھی ڈیٹا سیٹ ڈون لوڈ بھانو
+dataset-donate-modal-heading = تو تھے معلومے؟
+data-download-yes = او
+data-download-deny = نہ
+data-get-started = <speechBlogLink> تقریر ہوݰ تھاٹہ جھلی شروع تھہ</speechBlogLink>
+data-other-title = دوئی وائس ڈیٹا سیٹ
+data-other-goto = { $name } تھے بہ
+data-other-download = ڈون لوڈ ڈیٹا
+data-bundle-button = ڈیٹاسیٹی بنڈال ڈون لوڈ تھہ
+data-bundle-description = کامن وائسی معلومات او تس جھلی بُٹھے دوئی ہاویزی ڈیٹاسیٹ
+release-version = ورژن
+dataset-date = تاریخ
+license = لائسینس: <licenseLink>{ $license }</licenseLink>
+license-mixed = مکس بھلو
