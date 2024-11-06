@@ -84,6 +84,9 @@ maximum-file-size = فائل ساں زیت تہ زیت سائز : 25 MB
 what-needs-to-be-in-file = ما فائلہ کیا تھین ضروری درو
 what-needs-to-be-in-file-explanation = مہربانی کُری دڇھا امونہ<templateFileLink>ٹمپلیٹ فائل</templateFileLink>۔تاں جملہ کاپی رائٹ تہ پک تھیبو CC0) (یا جمع کُرال ساں طرف تہ اصل کرم تہ اجازت) آں واضح ، گرائمر سئی آں مترنہ اسکان تھیبو۔ جمع کُری سن جملہ نم مترنہ تقریبا دش یا پنچیش منٹ ٹائم گیبو، آں تسوہ ہندسہ نمم مناسب اسمم آں خصوصی حروف مہ شامل کُرا۔
 upload-progress-text = اپ لوڈ جاری درو
+sc-bulk-submit-confirm = ائی تصدیق کُنُم تہ میں جملہ نم <wikipediaLink> عوامی ڈومین </wikipediaLink> آں موکی مسو اپ لود کُرن تہ اجازت درو
+bulk-upload-success-toast = لے  جملہ نم اپ لوڈ با
+bulk-upload-failed-toast = اپ لوڈ ناکم با، مہربانی کُری دوبارہ کوشیش کُرے
 
 ## SMALL BATCH SUBMISSION
 
