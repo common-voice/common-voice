@@ -44,6 +44,25 @@ agriculture_food = زرعت آں خورک
 automotive_transport = آٹوموٹیو آں ٹرانسپورٹ
 # Sentence Domain dropdown option
 finance = فنانس
+# Sentence Domain dropdown option
+service_retail = خدمت(سروس) آں ریٹیل
+# Sentence Domain dropdown option
+general = عام، جنرل
+# Sentence Domain dropdown option
+healthcare = صحت تہ خیال کُرن
+# Sentence Domain dropdown option
+history_law_government = تاریخ،قانون آں حکومت
+# Sentence Domain dropdown option
+language_fundamentals = باڜہ تہ بنیادی اصول(ہندسہ،حروف،پیسہ)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا آں تفریح
+# Sentence Domain dropdown option
+nature_environment = فططرت آں ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبرونہ آں حالاتِ حاضرہ
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی آں روبوٹکس
+sentence-variant-select-label = جملہ ساں کم زیت بین
 
 ## BULK SUBMISSION 
 
