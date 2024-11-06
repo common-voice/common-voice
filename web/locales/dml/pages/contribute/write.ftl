@@ -138,3 +138,8 @@ small-batch-response-message =
        *[other] { $uploadedSentences } ساں { $totalSentences } جملہ نم جمع با۔ کلک<downloadLink> ایا </downloadLink>مسترد بئی سن جملہ نم ڈون لوڈ کُرئیں کی۔
     }
 small-batch-sentences-rule-1 = رہمنا اُصولہ ڜا عمل کُرا۔ تے ائی کیرا جملہ نم جمع کُرین بئیم
+small-batch-sentences-rule-2 = ہر لائنہ ایک جمل شامل کُرے
+small-batch-sentences-rule-3 = ایک پھیر انٹر یا ری انٹر چوٹی جملہ نم ایک لائنہ جدا کُرا
+small-batch-sentences-rule-4 = ایک زرہ 1,000تلی جملہ نم شامل کُرا
+small-batch-sentences-rule-5 = سپُن جملہ نم ساں ایک ڈومین تھین ضروری درو
+small-batch-sentences-rule-6 = سپُن جملہ نم ساں ایک حوالہ  تھین ضروری درو
