@@ -35,6 +35,21 @@ easy-difficulty = اسکون
 average-difficulty = اوسط
 difficult-difficulty = مشکل،زور
 pro-difficulty = حمایتی
+lose-goal-progress-warning = تیݨی حدف ایڈیٹنگ تھیلی ہینتہ، تھی کرام پھوس بی بھی۔
+want-to-continue = تو جاری تھئنی دوائینوے؟
+finish-editing = مُݜٹو ایڈیٹنگ ختم تھیلیئے؟
+lose-changes-warning = تِپہ اُڑیگلئنی مطلب ایڑے کی،مہ تھی تبدیلیہ پھسُوم۔
+build-custom-goal = تیݨی تھے آک حدف چھورہ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] { $hours } گھنٹہ { $language } وارا تیݨی ذاتی حدف پورہ تھئنی مدد تھہ
+       *[other] { $hours } گھنٹہ{ $language } وارا تیݨی ذاتی مقصد پورہ تھئنی مدد تھہ
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کمن وائسی { $hours }گھنٹہ آک زبان کی تیݨی ذاتی حدف پورہ تھئنی مجی مدد تھی
+       *[other] کمن وائسی { $hours }گھنٹہ آک زبان کی تیݨی ذاتی  مقصد پورہ تھئنی مجی مدد تھی
+    }
 cant-decide = فیصلہ نہ تھائی بھانوۡ
 goal-interval-weekly = ہفتہ وار
 
