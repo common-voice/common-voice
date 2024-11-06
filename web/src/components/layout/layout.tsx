@@ -1,8 +1,13 @@
-import { Localized } from '@fluent/react'
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react'
 import classNames from 'classnames'
 import * as React from 'react'
 import { connect } from 'react-redux'
 import { RouteComponentProps, Redirect, withRouter } from 'react-router'
+import { Tooltip } from 'react-tooltip'
 import { trackGlobal } from '../../services/tracker'
 import StateTree from '../../stores/tree'
 import { User } from '../../stores/user'
@@ -44,6 +49,7 @@ interface PropsFromDispatch {
 interface LayoutProps
   extends PropsFromState,
     PropsFromDispatch,
+    WithLocalizationProps,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     RouteComponentProps<any, any, any> {
   children?: React.ReactNode
@@ -157,7 +163,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   }
 
   render() {
-    const { children, locale, location, user, shouldHideFooter } = this.props
+    const { children, locale, location, user, shouldHideFooter, getString } =
+      this.props
     const {
       challengeTeamToken,
       challengeToken,
@@ -245,15 +252,25 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               {user.account ? (
                 <UserMenu />
               ) : isBuildingProfile ? null : (
-                <Localized id="login-signup">
-                  <LinkButton
-                    className="login"
-                    href="/login"
-                    rounded
-                    outline
-                    data-testid="login-button"
-                  />
-                </Localized>
+                <>
+                  <Localized id="login-signup">
+                    <LinkButton
+                      className="login"
+                      href="/login"
+                      rounded
+                      outline
+                      data-testid="login-button"
+                      id="login-button"
+                    />
+                  </Localized>
+                  <Tooltip
+                    anchorSelect="#login-button"
+                    place="bottom"
+                    style={{ width: '550px' }}
+                    openEvents={{ focus: true }}>
+                    {getString('login-signup')}
+                  </Tooltip>
+                </>
               )}
               <LocalizationSelectComplex
                 locale={locale}
@@ -355,8 +372,10 @@ const mapDispatchToProps = {
 }
 
 export default withRouter(
-  connect<PropsFromState, PropsFromDispatch>(
-    mapStateToProps,
-    mapDispatchToProps
-  )(Layout)
+  withLocalization(
+    connect<PropsFromState, PropsFromDispatch>(
+      mapStateToProps,
+      mapDispatchToProps
+    )(Layout)
+  )
 )
