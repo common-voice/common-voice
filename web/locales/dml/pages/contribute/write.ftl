@@ -73,6 +73,15 @@ sc-bulk-upload-header = اپ لوڈ<icon> </icon>عوامی ڈومین تہ جم
 sc-bulk-upload-instruction = تانو فائل ایا کی کھشایا یا<uploadButton> اپ لوڈہ کلک کُرا</uploadButton>
 sc-bulk-upload-instruction-drop = اپ لود کُرن تہ پرئی فائل ای وعیا
 bulk-upload-additional-information = اگر بی یہ فائل تہ بارہ اضافی معلومت پرین گٹینبہ بہ، پھرکی مہربانی کُری رابطہ کُرا<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اگر بی یہ فائل تہ بارہ اضافہ معلومت پرینبہ بہ کیرا ٹمپلیٹہ شامل نی درو، مہربانی کُری رابطہ کُرا<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = رانو فائل ایا کی کھشائی پھرکی کوشیش کُرا
+try-upload-again-md = دوبارہ اپ لوڈ کُرن تہ کوشیش کُرا
+select-file = فائل منتخب کُرا
+select-file-mobile = اپ لوڈ کُرن تہ پرئی فائل منتخب کُرا
+accepted-files = کیرا فائل قبول بیاں سے صرف tsv۔ درو
+minimum-sentences = ایک فائلہ کم از کم جملہ نم  ۱۰۰۰
+maximum-file-size = فائل ساں زیت تہ زیت سائز : 25 MB
+what-needs-to-be-in-file = ما فائلہ کیا تھین ضروری درو
 
 ## SMALL BATCH SUBMISSION
 
