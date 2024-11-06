@@ -75,6 +75,26 @@ share-goal-type-both = کھونڈئنی او کاݨ تھئینی
 # LINK will be replaced with the current URL
 goal-share-text = می کمن وائسہ وے ڈونیشنی دپارہ آک ذاتی حدف چھوݨو ہنو۔ اصل خلکہ کنا بھے کھونڈانہ تھنی مشین ازدہ تھئنی دپارہ مہ سنگی جوست بھہ او مدد تھہ{ $link }
 weekly-goal-created = تھی ہفتہ وار حدف سمِجیلو
+daily-goal-created = تھی دیسی لحاظ کی حدف سمِجیلو
+track-progress = تھی کرام کتی بِھلو تھنی انیوے تیݨی سٹیٹس پیجی وے پتہ تھہ،
+return-to-edit-goal = انی وے یھئی تو گہ وختی بی ہینتہ تیݨی مقصد بدل تھائی بھوڑ۔
+share-goal = می مقصد دویم سنگی شئیر تھہ
 
 ## Goals
 
+streaks = لکیر
+days =
+    { $count ->
+        [one] دیس
+       *[other] دیسہ
+    }
+recordings =
+    { $count ->
+        [one] ریکاڈنگ
+       *[other] ریکاڈنگ
+    }
+validations =
+    { $count ->
+        [one] توثیق
+       *[other] توثیق
+    }
