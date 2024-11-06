@@ -12,6 +12,12 @@ citation =
     .label = حوالہ
 sc-write-submit-confirm = ائی تصدیق کُنُم تے یہ جملہ <wikipediaLink> عوامی ڈومین درو</wikipediaLink> آں موکی اجازت درو مس اپ لود کُرئیں تہ
 sc-review-write-title = ائی کیرا جملہ نم شامل کُرین بئیم
+sc-review-small-batch-title = لے جملہ نم کنو کُری شامل کُریمہ
+new-sentence-rule-1 = <noCopyright> کاپی کُرن تہ اجازت نی درو</noCopyright> پابندی نم<cc0></cc0>
+new-sentence-rule-2 = ہر جملہ پنچیش الفاظ تہ کم تھیبو
+new-sentence-rule-3 = سئی گرائمر استعمل کُرا
+new-sentence-rule-4 = سئی ہجہ آں اوقاف تہ استعمل کُرا
+new-sentence-rule-5 = نمبر آں خصوصی حروف استعمل نی کُریبہ
 
 ## BULK SUBMISSION 
 
