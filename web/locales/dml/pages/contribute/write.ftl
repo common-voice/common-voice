@@ -87,6 +87,10 @@ upload-progress-text = اپ لوڈ جاری درو
 sc-bulk-submit-confirm = ائی تصدیق کُنُم تہ میں جملہ نم <wikipediaLink> عوامی ڈومین </wikipediaLink> آں موکی مسو اپ لود کُرن تہ اجازت درو
 bulk-upload-success-toast = لے  جملہ نم اپ لوڈ با
 bulk-upload-failed-toast = اپ لوڈ ناکم با، مہربانی کُری دوبارہ کوشیش کُرے
+bulk-submission-success-header = بلک جمع کُرانہ تعاون کرُنہ تا لے مہربانی
+bulk-submission-success-subheader = تو عام کاڻ ساں روزانہ تہ جملہ تہ ہدف پورہ کُرنہ امونہ مدد کُنپ
+upload-more-btn-text = ورے جملہ نم اپ لوڈ کُرے
+file-invalid-type = غلط فائل
 
 ## SMALL BATCH SUBMISSION
 
