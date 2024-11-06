@@ -54,13 +54,13 @@ about-nav-playbook = حصہ گنیکو طریقو  ݯھیݯھے
 ## What is a language
 
 about-playbook-what-is-language = کامن وائسا ای وار کیا اشناری؟
-about-playbook-what-is-language-content-1 = ورو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوش کوریکو ای ماڈل ساوزیکو پچین، کامن وائس تان موژی ہوݰ کوریکو  تجویزو سورا زور دویان یا ہیا ورو کوراک کوشیش کوری تان موژی ایغو لووان ہوش کونیانا؟
-about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان ہوش کوریکا بہتر بار۔ ہموش بیکو پچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
-about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو زیاد خور۔ ہیا وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان وارو لوٹ ڈیٹا سیٹا خورو سار فرق کوریکو  ای طریقہ نݰان دویان۔
+about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوش کوریکو ای ماڈل ساوزیکو پچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیا لوو سورا زور دویان کہ ای وارو کوراک کوشیش کوری تان موژی ایغو لووان ہوش کونیانا؟
+about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان سلسلو ہوش کوریکا بہتر بار۔ ہموش بیکو پچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
+about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو زیاد خور۔ ہیا وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان وارو لوٹ ڈیٹا سیٹا خور واران سار فرق کوریکو  ای طریقہ نݰان دویان۔
 
 ## How do I add a language
 
-about-playbook-how-add-language = اوا ورو کیچہ کوری شامل کووم؟
+about-playbook-how-add-language = اوا ای ورو کیچہ کوری شامل کووم؟
 about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
