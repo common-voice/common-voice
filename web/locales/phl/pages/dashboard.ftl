@@ -50,7 +50,10 @@ help-reach-hours-general-pluralized =
         [one] کمن وائسی { $hours }گھنٹہ آک زبان کی تیݨی ذاتی حدف پورہ تھئنی مجی مدد تھی
        *[other] کمن وائسی { $hours }گھنٹہ آک زبان کی تیݨی ذاتی  مقصد پورہ تھئنی مجی مدد تھی
     }
-cant-decide = فیصلہ نہ تھائی بھانوۡ
+set-a-goal = آک حدف چھورہ
+cant-decide = فیصلہ نہ تھائی بھانوے؟
+how-many-per-day = بیڈو شو! آک دیسی کتی ہاویزی کلپزی؟
+how-many-a-week = بیڈو شو! آک ہفتئی کتی ہاویزی کلپزی؟
 goal-interval-weekly = ہفتہ وار
 
 ## Goals
