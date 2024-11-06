@@ -61,12 +61,12 @@ about-playbook-what-is-language-content-3 = پھتی واران گرائمیر،
 ## How do I add a language
 
 about-playbook-how-add-language = اوا ای ورو کیچہ کوری شامل کووم؟
-about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
+about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے کہ تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو وار شینی۔ تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان وار شامل کوریکو پچین درخواست کو</pontoonRequestLink>۔ اچی ہے واران کامن وائسو پروجکٹا دستیاب بیکو پچین<githubRepoLink> GitHub</githubRepoLink> بی نوغ وارو درخواست کو۔ <localizationFragment>۔ خور معلومات پچین سائٹو ترجمولوڑے</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملان جمع کوریک
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو بارا اسپہ رہنمائیو لوڑے </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو استعمالو بارا اسپہ رہنمائیو لوڑے </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملان شامل کوریکو بوس</sentenceCollectorLinkAdd> یا گیتھب </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد سوتے جملہ <licenseLink> CC0 (ہرکوس استعمالو دائرو )</licenseLink> بانی یا تو تان دی نویشکو بوس۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو پچین جملہ جمع کوراکو</sentenceCollectorFragment> لوڑے۔
 
@@ -77,7 +77,7 @@ about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجم�
 about-playbook-how-localize-content-2 = تہ <pontoonAccountLink>اکاونٹ کی نیکی ساوزاوے </pontoonAccountLink> تھے تان وارو گنے<strong> (ٹیم) </strong> اچی پروجکٹو گنے، <pontoonCvLink> کامن وائس</pontoonCvLink> ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ بونی وا ترجمہ کوریکو ای خانہ بوئے۔
 about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن  خور وار دی  <strong> تجویز </strong>شینی۔ <strong>کلیک </strong> پروفائلو نݰان وا <strong> ترتیبا</strong> لینک وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمان لسٹ بوئی توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو پچین تیار بوئے۔
-about-playbook-how-localize-content-5 = مدد پچین اسپہ تفصیل دیاک ویڈیو لوڑے
+about-playbook-how-localize-content-5 = مدد پچین اسپہ وضاحت دیاک ویڈیو لوڑے
 
 ## How to add sentences
 
@@ -88,7 +88,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکو�
 
 ## How to record quality
 
-about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ کوری رکارڈ کوم؟
+about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ کوری محفوظ کوم؟
 about-playbook-how-record-content-1 = تان عام ہواز لو دیت۔ کیہ قسم کی تو لو دوسان ہسے تان سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان۔
 about-playbook-how-record-content-2 = گوݯتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غاورو سورا راوے- کھیو پځے مو، بدل مو دیت، لفظ شامل مو کو
