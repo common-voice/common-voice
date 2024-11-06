@@ -18,11 +18,19 @@ export const getLocaleMessagesQueryHandler = (
     getFolderNames(LOCALES_PATH)(),
     A.some(name => name === query.locale)
   )
+  const isCommonVoice = query.project === 'common-voice'
+  const projectDir = isCommonVoice ? '' : 'spontaneous-speech'
+  const excludeDirs = [isCommonVoice ? 'spontaneous-speech' : '']
 
   return pipe(
     collectFilesWithExtension(
-      path.join(LOCALES_PATH, doesLocaleExist ? query.locale : 'en'),
-      '.ftl'
+      path.join(
+        LOCALES_PATH,
+        doesLocaleExist ? query.locale : 'en',
+        projectDir
+      ),
+      '.ftl',
+      { excludeDirs }
     ),
     IO.chain(readAndConcatFiles)
   )()

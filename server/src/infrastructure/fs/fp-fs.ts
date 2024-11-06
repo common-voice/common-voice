@@ -8,11 +8,15 @@ import * as IO from 'fp-ts/IO'
  *
  * @param dirPath - The directory path to start the search.
  * @param fileType - The file extension to search for (e.g., '.ftl').
+ * @param options - An optional object containing excludeDirs array for directories to exclude from the search.
  * @returns - A list of paths to files with the specified extension.
  */
 export function collectFilesWithExtension(
   dirPath: string,
-  fileType: string
+  fileType: string,
+  options?: {
+    excludeDirs: string[]
+  }
 ): IO.IO<string[]> {
   return () => {
     let filesWithExtension: string[] = []
@@ -25,6 +29,12 @@ export function collectFilesWithExtension(
       const stat = fs.statSync(itemPath)
 
       if (stat.isDirectory()) {
+        const dirName = path.basename(itemPath)
+
+        if (options?.excludeDirs && options.excludeDirs.includes(dirName)) {
+          return
+        }
+
         // If the item is a directory, recurse into it
         filesWithExtension = filesWithExtension.concat(
           collectFilesWithExtension(itemPath, fileType)()

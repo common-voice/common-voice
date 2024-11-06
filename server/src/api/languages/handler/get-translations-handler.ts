@@ -6,6 +6,7 @@ import { getLocaleMessagesQueryHandler as getTranslationsQueryHandler } from '..
 export const getTranslationsHandler = async (req: Request, res: Response) => {
   const query: GetTranslationsQuery = {
     locale: req.params.locale,
+    project: req.query?.project as string || 'common-voice',
   }
 
   const result = pipe(query, getTranslationsQueryHandler)
