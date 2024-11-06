@@ -98,3 +98,4 @@ contribution-misreadings-example-5-title = ماخ بُو پنېشته کی څې�
 contribution-misreadings-example-6-title = ماخ We’re بو ته کافي پاره پنېشته کی څېن
 contribution-misreadings-example-6-explanation = [پکر يې 'We are" بیوک]
 contribution-misreadings-example-7-title = ماخ بو پنېشته کی څېن ته ݭيې کافي پاره
+contribution-misreadings-example-7-explanation = [اصل سبق نردې "a" نک هۀ]
