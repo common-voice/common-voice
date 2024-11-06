@@ -42,9 +42,16 @@ x-years-short =
 help-make-dataset = Homa madad kari, sawin pi prus't dataset kholaw karikas bati
 sign-up-account = Kholaw kari, Account sawzai
 email-subscription-title = Kholaw kari, sawzai, email update kari
+email-subscription-title-new = Kholaw kari Common Voice khabar an bati, yat dehani as bati, update an bati
 
 ## Account Benefits
 
+benefits = Faida
+rich-data = Tai data jama karikas pi shumber warek jaiga an bari una asta ne pashila' data de. Abi te jaiga jagek, toa abit te sawin pashek
+improve-audio = Profile as malumat audio data, training karik te mon sida karikas hatya ajat hin dai
+keep-track = Tan tharaki, krom as riftar, zuban una prus't hiu ori
+compare-progress = Jagai tan riftar, saw dunya una kura ki den dai
+view-goals = Tu tan krom as riftar ya o project as goal jages
 
 ## What's public
 
