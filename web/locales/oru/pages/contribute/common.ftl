@@ -99,3 +99,6 @@ contribution-misreadings-example-6-title = ماخ We’re بو ته کافي پ�
 contribution-misreadings-example-6-explanation = [پکر يې 'We are" بیوک]
 contribution-misreadings-example-7-title = ماخ بو پنېشته کی څېن ته ݭيې کافي پاره
 contribution-misreadings-example-7-explanation = [اصل سبق نردې "a" نک هۀ]
+contribution-misreadings-example-8-title = ا بَبُره بمبُريې ل په بُژ تر سُک
+contribution-misreadings-example-8-explanation = [بی رنګ مواد]
+contribution-varying-pronunciations-title = مختلف ادائګي (ته الفاظ)
