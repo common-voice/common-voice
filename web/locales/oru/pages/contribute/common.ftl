@@ -110,3 +110,4 @@ contribution-varying-pronunciations-example-2-title = ته رۀ ا دِسته و
 contribution-varying-pronunciations-example-2-explanation = [Raised بُو انګرېزي نر همېشه ݭيې syllable نر غوېک سَۀ، دیو نر نک]
 contribution-background-noise-title = ا په څُټ شور
 contribution-background-noise-description = ماخ بُو مشین زدۀ الګوریتم لاسته سا وېن که ته په څُټ امريېک شور لاسته ن دی خلاص کوی او که دُشکی شور يې اميېک سَۀ ګۀ، خېر هۀ۔ خه که سا نک بَۀ که کتاب لاسته غوېک ته سبق امرؤ بند کوی۔ ا غِليې څفتَري (مویقي) يې ټهیک هۀ، خه ا فا څفتري که ته پا په وجه ته بَدِله ا ټِکئ نک سهي کَوَک سېن، غلط يې هۀ
+contribution-background-noise-description-extended = که ګُده ا ریکارډنګ بندکېک سَۀ یا ډزا، رد وه کَۀ څُون توݭکيې که ته اره سبق ا غوېک نک اميېک سَۀ۔
