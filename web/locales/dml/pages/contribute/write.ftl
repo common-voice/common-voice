@@ -119,3 +119,22 @@ rate-limit-message-minutes =
         [one] تو یہ پھٹ تہ جمع کُرن  تہ  حدہ کی ویبوپ۔ مہربانی کُری دوئم جملہ کُرن  تہ پریڜبئیں ایک منٹ انتظار کُرے
        *[other] تو یہ پھٹ تہ جمع کُرن  تہ  حدہ کی ویبوپ۔ مہربانی کُری دوئم جملہ کُرن  تہ پریڜبئیں { $retryLimit } منٹ انتطر کُرے۔ تا صبر کُرن تہ شکریہ/ مہربانی
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تو یہ پھٹ تہ جمع کُرن  تہ  حدہ کی ویبوپ۔ مہربانی کُری دوئم جملہ کُرن  تہ پریڜبئیں 1 سیکیند انتطر کُرے۔ تا صبر کُرن تہ شکریہ
+       *[other] تو یہ پھٹ تہ جمع کُرن  تہ  حدہ کی ویبوپ۔ مہربانی کُری دوئم جملہ کُرن  تہ پریڜبئیں { $retryLimit } سیکینڈ انتطر کُرے۔ تا صبر کُرن تہ شکریہ/ مہربانی
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ساں1جملہ جمع با
+       *[other] { $uploadedSentences } ساں { $totalSentences } جمع با
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ساں 1ایک جملہ جمع با۔ کلک <downloadLink> ایا</downloadLink> مسترد بئی سن جملہ نم ڈون لود کُرئیں کی۔
+       *[other] { $uploadedSentences } ساں { $totalSentences } جملہ نم جمع با۔ کلک<downloadLink> ایا </downloadLink>مسترد بئی سن جملہ نم ڈون لوڈ کُرئیں کی۔
+    }
+small-batch-sentences-rule-1 = رہمنا اُصولہ ڜا عمل کُرا۔ تے ائی کیرا جملہ نم جمع کُرین بئیم
