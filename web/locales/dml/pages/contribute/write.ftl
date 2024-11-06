@@ -91,6 +91,19 @@ bulk-submission-success-header = بلک جمع کُرانہ تعاون کرُن�
 bulk-submission-success-subheader = تو عام کاڻ ساں روزانہ تہ جملہ تہ ہدف پورہ کُرنہ امونہ مدد کُنپ
 upload-more-btn-text = ورے جملہ نم اپ لوڈ کُرے
 file-invalid-type = غلط فائل
+file-too-large = فائل لے بلو درو
+file-too-small = فائل لے اُوچھوٹی درو
+too-many-files = لے زیت فائل نم
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon> </icon> لے عوامی ڈومین جملہ نم شامل کُرے
+multiple-sentences-error = تو ایک جمع کُرنہ لے جملہ نم اکٹین نی بئیپ
+exceeds-small-batch-limit-error = ایک زرہ تہ زیت جملہ نم جمع کُرین نی بئیپ
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] تانو حد تہ تجاوز کُرین گا۔ بھرکی کوشیش کُرے ایک منٹہ
+       *[other] انو حد تہ تجاوز کُرین گا۔ بھرکی کوشیش  کُرے { $retryLimit } منٹہ
+    }
