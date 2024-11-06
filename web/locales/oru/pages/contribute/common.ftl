@@ -95,3 +95,6 @@ contribution-misreadings-example-3-explanation = [ته آخېری لفظ ا غړ
 contribution-misreadings-example-4-title = ه آخېری لفظ ا غړنؤ په وجه ته ریکارډنګ ا سېره بند کؤ جی
 contribution-misreadings-example-4-explanation = [ضرورت لاسته ݫات سبق يې ریکارډ ݭیوک]
 contribution-misreadings-example-5-title = ماخ بُو پنېشته کی څېن که کاقي دی تريېن
+contribution-misreadings-example-6-title = ماخ We’re بو ته کافي پاره پنېشته کی څېن
+contribution-misreadings-example-6-explanation = [پکر يې 'We are" بیوک]
+contribution-misreadings-example-7-title = ماخ بو پنېشته کی څېن ته ݭيې کافي پاره
