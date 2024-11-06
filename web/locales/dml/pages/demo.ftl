@@ -17,6 +17,7 @@ demo-account = اکاونٹ
 
 ## Demo Account
 
+demo-account-card-header = حصہ ڇھارئیں کی اکاونٹ ضروری نی درو، حالانکہ یہ مدگار درو
 
 ## Demo Contribute
 
