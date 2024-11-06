@@ -57,7 +57,21 @@ how-many-a-week = بیڈو شو! آک ہفتئی کتی ہاویزی کلپزی�
 which-goal-type = تو کھونڈئنی دوائینو کی کاݨ تھئنی کی یا دھوے؟
 receiving-emails-info = موجودہ وختی تھی سیٹنگ ایتیݨی ہنی کی تو تھے تھی مقصد یاد تھوئنی دپارہ  ای میلی یھین۔
 not-receiving-emails-info = موجودہ وختی تھی سیٹنگ ایتیݨی ہنی کی<bold>نو </bold> تو تھے تھی مقصد یاد تھئنی، تھی کرام اپڈیٹ، او کمن وائسی بارئی نیوز لیٹر یھین۔
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ہاویزی کلپ
+       *[other] { $count } ہاویزی کلپز
+    }
+help-share-goal = اسام سنگی دوئی ہاویزی بُلڈئنی مدد تھہ۔ تیݨی حدف شیئر تھہ
+confirm-goal = حدفی تصدیق تھہ
 goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = اسام تھے تیݨی { $count } ہاویزی دیسی حدفی{ $type } کرام شئیر تھہ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = اسام تھے تیݨی { $count } ہاویزی ہفتئی بنیاد کی حدفی{ $type } کرام شئیر تھہ
+share-goal-type-speak = کھونڈئنی
+share-goal-type-listen = کاݨ تھئنی
+share-goal-type-both = کھونڈئنی او کاݨ تھئینی
 
 ## Goals
 
