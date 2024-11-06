@@ -74,3 +74,5 @@ adding-sentences-subheader-length-explanation = جملے بچ 15 کولو گھٹ
 adding-sentences-subheader-spelling-punctuation = ہجے تے علامتاں
 adding-sentences-subheader-spelling-punctuation-explanation = جملے دی املا ٹھیک ہونڑی چاہیدی ہے۔
 adding-sentences-subheader-speakable = بولنا دے قابل
+adding-sentences-subheader-speakable-explanation = بہترین جملے فطری تے گل بات آلے ہون٘دے ہن — اے کسی واسطے بھی پڑھنے بچ آسان ہونڑے چاہِیدے ہن۔ جبکہ آواز دا تنوع تے جملیاں بچ مختلف لفظ اہم ہن، اسیں اے کوشش کر رے ہاں کہ ریکارڈنگ جملیاں کو آپنڑی رضاکار برادری آستے ہر ممکن حد تک دِلچسپ تے تفریحی بنڑاواں۔
+adding-sentences-subheader-numbers = گنتی
