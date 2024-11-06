@@ -129,6 +129,8 @@ about-playbook-how-project-governance-content-3 = پرائوېسي، تحفظ ا
 about-playbook-how-project-governance-content-4 = ته کمیونېټی ا حصه وریوک او ته فیصلي ا سېره کېڅن
 about-playbook-how-project-governance-content-5 = عزت ڒیوک او ته کر ا منئېڅن
 about-playbook-how-project-governance-content-6 = خوئ منڅ نر حساب کتاب
+about-playbook-how-project-governance-content-7 = <governanceLink> بيې وه ګۀ یو که ماخ بُو په څا ترتیب کر کيېن
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = مشترک آواز بُو څال فنډ کېک سَۀ؟
