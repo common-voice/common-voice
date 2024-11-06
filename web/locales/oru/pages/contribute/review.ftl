@@ -37,3 +37,8 @@ sc-review-link = نظرثانی
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ته نظرثاني ا پېمانه
+sc-criteria-title = ته نظرثاني ا پېمانه
+sc-criteria-make-sure = آ یقیني کَه ا جمله بُو ائ ځېم پېماني/ ݭړطی پوره کوی
+sc-criteria-item-1 = ته جمله ا اِملا صحیح لیکک سُک هۀ
+sc-criteria-item-2 = ته جمله ا ګرامر که صحیح بَۀ
+sc-criteria-item-3 = ا جمله که ته غوېڅن/ هِشتک قابل بَۀ
