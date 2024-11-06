@@ -52,3 +52,8 @@ sc-review-empty-state = پېری دی مېن پۀ زبان نر ته نظرثا�
 report-sc-different-language = بِڅخل زبان
 report-sc-different-language-detail = او خه څه بی څه زبان نر لیکيېک ݭیوک هۀ، که ازه وې بُو نظرثاني نک کېم
 sentences-fetch-error = که ا جملي م اِر بُ ورُوکِن، څه غلطي يې سُک
+review-error = که آ جمله م بُو دُوباره م جیرَوَک/ نظرثاني مې بو داک، څه غلطي يې سُک
+review-error-rate-limit-exceeded = تُو زُت تېز روان هې، دُشکی صابر سُن که آ یقیني کېوی که ا جملۀ ت صحیح هۀ۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = ماڅ دی بو څه غټی تبدیليے کيېن
+sc-redirect-page-subtitle-1 = ته جملي ا جمع کَوُونکئ ته مشترک آواز پلېټ فارم کی روان هۀ
