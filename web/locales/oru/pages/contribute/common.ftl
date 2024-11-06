@@ -84,3 +84,4 @@ contribution-misreadings-title = غلط هِشتک
 contribution-misreadings-description = که کانه وه امر، ته په شئ سُو زُت احتیاط کېوی که څۀ ت يې ګه ریکارډ دوک بَۀ، بالکلت ا فه يي شئ پِشتک هۀ۔ افۀ شئ بالکل ګه رد کَۀ، که ګده تې معمولی غلطي ګۀ وینر واک۔ پئ عام غلطيے نر ائ ګه شامل یِن
 contribution-misreadings-description-extended-list-1 = ته ریکارډنګ شُوري نر بُو <strong> ”سۀ” یا ”ا” یا ”آ” غونه بېن
 contribution-misreadings-description-extended-list-2 = ته لفظ آخېري نر بُو </strong> ”س” غون بَۀ
+contribution-misreadings-description-extended-list-3 = زری کېک هِشتک ته فئ الفاظ که اصل نر دی موجود نک بېن، سکه "we're" ته "we are" په ځاکه
