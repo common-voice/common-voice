@@ -72,6 +72,9 @@ share-n-weekly-contribution-goal = اسام تھے تیݨی { $count } ہاوی�
 share-goal-type-speak = کھونڈئنی
 share-goal-type-listen = کاݨ تھئنی
 share-goal-type-both = کھونڈئنی او کاݨ تھئینی
+# LINK will be replaced with the current URL
+goal-share-text = می کمن وائسہ وے ڈونیشنی دپارہ آک ذاتی حدف چھوݨو ہنو۔ اصل خلکہ کنا بھے کھونڈانہ تھنی مشین ازدہ تھئنی دپارہ مہ سنگی جوست بھہ او مدد تھہ{ $link }
+weekly-goal-created = تھی ہفتہ وار حدف سمِجیلو
 
 ## Goals
 
