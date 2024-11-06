@@ -71,6 +71,8 @@ sentence-variant-select-multiple-variants = عام زبان/ بیڈہ قسمہ
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عام خلکیمی دائرہ کی استعمال بھاٹہ </icon> <icon>  جملے اپلوڈ تھہ
 sc-bulk-upload-instruction = تیݨی فائل انیوے گلہ  <uploadButton> یا اپلوڈ تھئنی دپارہ کلک تھہ  </uploadButton>
+sc-bulk-upload-instruction-drop = فائل اپلوڈ تھئنی دپارہ انی وے چھورہ
+bulk-upload-additional-information = فائلی بارائی  دوئی مزید معلومات تو دانو ہینتہ مہربینی تھے انی ایمیلی زریعہ کی رابطہ تھہ <emailFragment>commonvoice@mozilla.com</emailFragment>
 select-file = فائل منتخب تھہ
 select-file-mobile = اپلوڈ تھئنی دہارہ فائل منتخب تھہ
 accepted-files = می فائلی وے گبا ہانسیڈیو؟
