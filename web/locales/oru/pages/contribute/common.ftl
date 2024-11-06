@@ -88,3 +88,5 @@ contribution-misreadings-description-extended-list-3 = زری کېک هِشتک 
 contribution-misreadings-description-extended-list-4 = ته آخېری لفظ ا غړنؤ په وجه ته ریکارډنګ ا سېره بند کؤ
 contribution-misreadings-description-extended-list-5 = زُت واره ته سۀ لفط ته غوېڅن ا کوشش
 contribution-misreadings-example-1-title = ته ځنډ زمانه ا سمندئ ډائنوسور
+contribution-misreadings-example-2-title = ته ځنډ زمانه ا سمندئ ډائنوسور
+contribution-misreadings-example-2-explanation = [یا يې ”ډائنوسري” پکر بیوک]
