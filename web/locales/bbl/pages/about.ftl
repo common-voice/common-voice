@@ -39,6 +39,8 @@ about-clip-graveyard = ჩანაწერაჼ სასაფლაო̆
 about-clip-graveyard-text = ჩანაწერაჼ სასა́ფლაო̆ წე ო იშა́რეჩო̆ ჩანაწერ́ახ, მენხუჲა́ი̆ ცო და ჩუ დაჰ̦ინო̆ Common Voice-ეჼ მონაცემა́ კრე́ბულე. ე სასა́ფლაო̆ მაკ ნა́ხნ აჰ̦ ჩამოტვირთოდარ კრე́ბულსანეჸ
 about-get-involved = ჩუ ჩა́რთოლიბათ
 about-get-involved-text-2 = ლე́ჸი შუჼ, მე Common Voice უფრ ღაზი́ვხ ხილ'ულო́? დაქიჼ და! თათაჼ ჲებათ თხო́გო́ ელფო́სტევ ლე<discourseLink>Discourse-ევ ფო́რუმინმაქ, ალ'ათ თხო́გო́ ხე́თინო́ ხარცხილ'რი <githubLink> GitHub-მაქ, ლე მა ჩა́რთოლიბათ <matrixLink>Matrix-მაქ</matrixLink>ცჰ̦ა́ღ ვაშბიციჼ მიმოწე́რჲარელო
+about-stay-in-touch = მოჰ̦ მაკ ნახნ კავშირმაქ ხილ'აჼ?
+about-stay-in-touch-button = ანგრიშ თაგჲარ
 about-nav-why-common-voice = ვუჼ?
 
 ## Community Playbook Content
