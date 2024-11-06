@@ -34,3 +34,9 @@ validated-hours = سند بِھلو گھنٹہ
 recorded-hours = ریکاڈ بِھلو گھنتہ
 whats-inside = کامن وائسی ڈیٹآ سیٹی شیٹی گُبا ہِنو؟
 subscribe = سبسکرائب
+get-started-speech = بات جھاناٹہ جھلی کرام شروع تھہ
+other-datasets = دوئی وائس ڈیٹا سیٹ
+feedback-q = تبصرہ ہنوے؟
+# This indicates that there is no data to display
+no-information = معلومات نئنی
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ آک <docsLink>اوپن سورس سامان </docsLink> محقیقینی دپارہ اعلی  AI مشقولگی آک نمونہ سمئنی دپارہ۔
