@@ -27,6 +27,7 @@ show-wall-of-text = گیشتر وانگ
 help-us-title = جملہانی توثیق کنگ ءَ مئے کمک ءَ بکن اِت!
 help-us-explain = پریس پلے، گوشدار ءُ مارا بُگش: آیا آیاں چہ جھل ءِ جملہ ءَ راستی ءَ گپ جتگ؟
 no-clips-to-validate = انچوش سما بیت کہ اے زبان ءَ گوشدارگ ءِ واستہ ھچ وڑیں کلپ نیست۔ لہتیں ریکارڈ کنگ ءَ مارا صف ءَ پُر کنگ ءَ کمک بہ کن اِت۔
+toggle-play-tooltip = پلے  { shortcut-play-toggle }  دپ ءَ بہ کن اِت
 speak-paragraph = ریکارڈنگ وائس کلپس مئے اوپن ڈیٹاسیٹ ءِ جوڑ کنگ ءِ یک جتائیں بہرے؛ لھتے گُش اَنت کہ اے ھم مزہ ءِ بھر اِنت۔
 speak-goal-text = کلپس ریکارڈ کنگ بوتگ انت
 listen-paragraph = عطیہ کتگیں کلپانی توثیق کنگ کامن وائس مشن ءِ واستہ ہمے پیم ءَ المی انت۔ گوشدار ءُ کوالٹی اوپن سورس وائس ڈیٹا جوڑ کنگ ءَ مئے کمک ءَ بکن۔
@@ -35,10 +36,26 @@ hours-recorded = ساعت ریکارڈ کنگ بوتگ انت
 hours-validated = کلاک وثیقہ کثہ
 voices-online = نوں آواز آن لائن انت
 todays-progress = مرچیگیں دیمروئی
+help-reach-goal = مارا ءَ سر بوھگ ءَ کمک کن { $goal }
 read-terms-q = تو مئے شرط ونتگ انت؟
 ready-to-record = وتی توار ءِ عطیہ کنگ ءَ تیار ئے؟
 all-locales = تمام
 today = مخت اء
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] 	{ $count } ڈبلیو کے
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } ایم او
+       *[other] { $count } ایم او
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } وائی
+       *[other] { $count } وائی
+    }
 help-make-dataset = مئے کمک ءَ بکن اِت کہ یک شریں کوالٹی یے، سرکاری رنگ ءَ پچیں ڈیٹاسیٹے جوڑ بہ کن اِت
 sign-up-account = اکاؤنٹ ئے واستہ سائن اپ کن
 email-subscription-title = ای میل نوخیں حالانی واستہ سائن اپ کن
@@ -65,6 +82,7 @@ username-email-not-demographic = شمئے کارمرز کنوک ءِ نام ءُ
 
 ## Landing
 
+welcome-staff = وش آتک  { $company }کارندہاں کن ئے!
 help-contribute = تو یک کامن وائس پروفائل ءِ جوڑ کنگ ءُ وتی توار ءَ شریک کنگ ءَ یک متنوع ، اوپن سورس ڈیٹاسیٹ ءِ جوڑ کنگ ءَ کمک کت کن ئے۔
 profile-not-required = پروفائل ءِ دارگ ءِ شریک بوھگ ءِ ھاترا ھچ وڑیں لوٹ نیست اگاں کہ اے کمکار اِنت، دیم ءَ بچار اِت کہ پرچا۔
 read-more-about = مئے بابت ءَ پیج ءَ گیشتر وانگ بہ بیت
