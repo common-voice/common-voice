@@ -40,3 +40,6 @@ feedback-q = تبصرہ ہنوے؟
 # This indicates that there is no data to display
 no-information = معلومات نئنی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ آک <docsLink>اوپن سورس سامان </docsLink> محقیقینی دپارہ اعلی  AI مشقولگی آک نمونہ سمئنی دپارہ۔
+resource-deepspeech-info = موزیلا اوپن سورس ہاواز جھانئنی ہ انجن "ڈیپ سپیچ" بیتی جھانئنی  اپلیکیشن سمئنی دپارہ استعمال بھانو ے۔  بے <githubLink> "گیتھب" دڇھی </githubLink> یا شامل بھیڑ<discourseLink> "ڈیپ سپیچ" مشقول بھہ </discourseLink> کنا تھے شروع تھوم تھنی ازدہ تھئنی دپارہ۔
+resource-coqui-info = <coquiLink>کوقی </coquiLink> آزاد بات دئنی دپارہ ہنو۔ ٹیکنالوجی کرام ازدہ تھئنی بنیاد کی STT وا TTS انجن شامل ہنو۔
+community-playbook = کمنیوٹی پلے بک
