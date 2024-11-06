@@ -107,3 +107,5 @@ contribution-varying-pronunciations-description-extended = بی طرف يې که
 contribution-varying-pronunciations-example-1-title = ته پوم ټوپيے وې په سر بُک
 contribution-varying-pronunciations-example-1-explanation = [Beret صحیح هۀ که زوره وه ته لُظ اول حصه (UK) زر هۀ یا دیم حصه  (US) زر]
 contribution-varying-pronunciations-example-2-title = ته رۀ ا دِسته وه چِګ داک
+contribution-varying-pronunciations-example-2-explanation = [Raised بُو انګرېزي نر همېشه ݭيې syllable نر غوېک سَۀ، دیو نر نک]
+contribution-background-noise-title = ا په څُټ شور
