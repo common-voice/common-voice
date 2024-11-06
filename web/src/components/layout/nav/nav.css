@@ -240,8 +240,15 @@ header {
 
     & .login {
         margin: 0 20px;
-        min-width: max-content;
+        min-width: auto;
         text-transform: uppercase;
+
+        max-width: 250px;
+        width: max-content;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+        white-space: nowrap;
 
         @media (--md-up) {
             height: 2.5rem;
@@ -319,7 +326,7 @@ header {
 }
 
 #hamburger-menu {
-    width: 100px;
+    width: 120px;
     border: none;
     padding: 0;
 
@@ -339,6 +346,10 @@ header {
         text-transform: uppercase;
         min-width: 100px;
         padding: 15px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     & a.button.avatar {
@@ -520,6 +531,11 @@ header {
             margin-top: 15px;
             display: flex;
             background: var(--black);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            align-content: center;
         }
 
         & .donate-btn-container {
