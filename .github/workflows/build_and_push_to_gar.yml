@@ -55,8 +55,8 @@ jobs:
           context: src
           file: ${{ matrix.dockerfile }}
           tags: |
-            us-docker.pkg.dev/${{ secrets.GAR_PROJECT_ID }}/ads-prod/${{ matrix.image }}:${{ steps.set-tag.outputs.TAG }}
-            us-docker.pkg.dev/${{ secrets.GAR_PROJECT_ID }}/ads-prod/${{ matrix.image }}:latest
+            us-docker.pkg.dev/${{ secrets.GAR_PROJECT_ID }}/common-voice-prod/${{ matrix.image }}:${{ steps.set-tag.outputs.TAG }}
+            us-docker.pkg.dev/${{ secrets.GAR_PROJECT_ID }}/common-voice-prod/${{ matrix.image }}:latest
 
           push: true
           cache-from: type=gha
