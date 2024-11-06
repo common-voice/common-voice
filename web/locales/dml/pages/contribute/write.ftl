@@ -104,6 +104,18 @@ exceeds-small-batch-limit-error = ایک زرہ تہ زیت جملہ نم جمع
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] تانو حد تہ تجاوز کُرین گا۔ بھرکی کوشیش کُرے ایک منٹہ
-       *[other] انو حد تہ تجاوز کُرین گا۔ بھرکی کوشیش  کُرے { $retryLimit } منٹہ
+        [one] حد تہ تجاوز کُرین گا۔ بھرکی کوشیش کُرے ایک منٹہ
+       *[other] حد تہ تجاوز کُرین گا۔ بھرکی کوشیش  کُرے { $retryLimit } منٹ نامہ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] حد تہ تجاوز کُرین گا۔ بھرکی کوشیش کُرے 1سیکیندہ
+       *[other] حد تہ تجاوز کُرین گا۔ بھرکی کوشیش کُرے { $retryLimit } سیکیند نامہ
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تو یہ پھٹ تہ جمع کُرن  تہ  حدہ کی ویبوپ۔ مہربانی کُری دوئم جملہ کُرن  تہ پریڜبئیں ایک منٹ انتظار کُرے
+       *[other] تو یہ پھٹ تہ جمع کُرن  تہ  حدہ کی ویبوپ۔ مہربانی کُری دوئم جملہ کُرن  تہ پریڜبئیں { $retryLimit } منٹ انتطر کُرے۔ تا صبر کُرن تہ شکریہ/ مہربانی
     }
