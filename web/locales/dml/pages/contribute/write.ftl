@@ -63,9 +63,16 @@ news_current_affairs = خبرونہ آں حالاتِ حاضرہ
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی آں روبوٹکس
 sentence-variant-select-label = جملہ ساں کم زیت بین
+sentence-variant-select-placeholder = ایک قسم منتخب کُرا(اختیاری)
+sentence-variant-select-multiple-variants = عام باڜہ/ لے قسم نم
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپ لوڈ<icon> </icon>عوامی ڈومین تہ جملہ نم
+sc-bulk-upload-instruction = تانو فائل ایا کی کھشایا یا<uploadButton> اپ لوڈہ کلک کُرا</uploadButton>
+sc-bulk-upload-instruction-drop = اپ لود کُرن تہ پرئی فائل ای وعیا
+bulk-upload-additional-information = اگر بی یہ فائل تہ بارہ اضافی معلومت پرین گٹینبہ بہ، پھرکی مہربانی کُری رابطہ کُرا<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
