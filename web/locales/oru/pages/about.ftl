@@ -117,9 +117,12 @@ about-playbook-how-validate-content-4 = که ګُده ا سۀ کلِپ ا دیو
 ## How to access dataset
 
 about-playbook-how-access-dataset = از سو فۀ ډېټا سېټ کی ا ځان څا رسېم؟
+about-playbook-how-access-dataset-content-1 = تُو بو ته ډېټاسېټ صفحه <datasetsPage> کی څېک اېنچی، وۀ ا ورژن او ا خوئ زبان خوش اېنچی او ډاؤن لوډ وه کَۀ۔  ائ فائل دی <metadataLink> او مِلګرئ </metadataLink> دَرِن۔ سکه د خلق ته شمېر باره نر معلومات او وېلیډېشن ډېټآ۔  تُول سو ا خوئ ای مېل پته ڒۀ، ته ډېټا سېټ ته ډاؤن کؤ پاره
+about-playbook-how-access-dataset-content-2 = که تُو کی دی آلات پکر بېن که اے اېس آر ماډل يې جوړېوی، تُو يې بُو ته کمیونېټی بيې خلق ګیرډ ګه رابطه اېنچی
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ته پراجېکټ ا فیصله يې بو څا سَۀ؟
 
 ## How is Common Voice funded
 
