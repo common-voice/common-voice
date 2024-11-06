@@ -25,6 +25,7 @@ demo-account-sign-up = سائن اپ لنک ڜیا
 
 ## Demo Contribute
 
+demo-contribute-card-header = تانو کاڻ شامل کُرئیں کی یا تانو کار پریاں کی تیار تُھوبئی
 
 ## Demo Dashboard
 
