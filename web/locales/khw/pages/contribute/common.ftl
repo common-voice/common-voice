@@ -38,8 +38,8 @@ login-signup = لاک ان/سائن اب
 vote-yes = دیی
 vote-no = نو
 datasets = ڈیٹاسیٹس
-languages = واران
-about = بارا
+languages = وار
+about = کامن وائسو بارا
 partner = حصہ دار
 submit-form-action = جمع کو
 
