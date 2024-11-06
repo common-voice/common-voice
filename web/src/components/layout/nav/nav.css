@@ -226,6 +226,9 @@ header {
         font-weight: 600;
         white-space: nowrap;
         margin-inline-end: 8px;
+        max-width: 155px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     & .user-menu {
@@ -599,5 +602,9 @@ header {
         color: var(--black);
         flex: 1;
         text-align: left;
+        max-width: 345px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }
