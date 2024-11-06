@@ -24,7 +24,18 @@ new-sentence-rule-8 = مثل تہ طورہ فطری آں مُشکُل(یہ جم�
 login-instruction-multiple-sentences = <loginLink>لاگین</loginLink>آں<loginLink>سائن اپ</loginLink>کی لے جملہ نم شامل کُرا
 how-to-cite = ائی کنو کُری حوالہ پریم
 how-to-cite-explanation-bold = یو آر ایل لنک یا نیٹ ورک ساں مکمل نم تہ حوالہ پریا
-how-to-cite-explanation = اگر یہ مینہ تانوں الفاط درو بہ،صرف گنا<italicizedText>تانئی حوالہ</italicizedText> اما کی یہ زانن ضروری درو تے میا کی یہ مواد کا تہ میلو با تے ائی مس دڇھمہ تے یہ عوامی ڈومینہ درو آں کاپی تہ اجازت تہ کیہ پابندی مس ڜا نی لگینا۔ حوالہ تہ بارہ ورے معلومت تہ پرئی امونہ <guidelinesLink>گائید لائن تہ پھٹ</guidelinesLink>
+how-to-cite-explanation = اگر یہ مینہ تانوں الفاط درو بہ،صرف گنا<italicizedText>تانئی حوالہ</italicizedText> اما کی یہ زانن ضروری درو تے میا کی یہ مواد کا تہ میلو با تے ائی مس دڇھمہ تے یہ عوامی ڈومینہ درو آں کاپی تہ اجازت تہ کیہ پابندی مس ڜا نی لگینا۔ حوالہ تہ بارہ ورے معلومت تہ پرئی امونہ <guidelinesLink>رہنما اُصول  تہ پھٹ</guidelinesLink>
+guidelines = رہنما اصول
+contact-us = اما ملی رابطہ کُرا
+add-sentence-success = جملہ جمع با
+add-sentence-error = جملہ جمع کُرنہ خرابی
+required-field = مہربانی کُری یہ فیلڈ پورے
+single-sentence-submission = ایک جملہ جمع کُرن
+small-batch-sentence-submission = اُوچھوٹہ بیچ تہ جملہ کُرن
+bulk-sentence-submission = لے تعدادہ جملہ جمع کُرن
+single-sentence = کیول
+small-batch-sentence = اُوچھوٹی بیچ
+bulk-sentence = لے بیچ
 
 ## BULK SUBMISSION 
 
