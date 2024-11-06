@@ -84,9 +84,18 @@ maximum-file-size = فائلی گیڈی سے گیڈی سائز : 25 ایم بی
 what-needs-to-be-in-file = می فائلی وے گُبا گُبا ہانسینڈیو؟
 what-needs-to-be-in-file-explanation = مہربینی تھے اسی ٹمپلیٹ فائلی لنک <templateFileLink>چیک تھہ بینادی فائلی</templateFileLink>. تھے جملے کاپی رائٹی دی آذاد بھینڈیو (CC0  یا اصل کرام جمع تھئنی اجازت بھینڈیو) او صفا، گرائمری لحیظی صحیح او منئنی اسکون بھینڈیو۔جمع بِھلہ جملے 10-15سیکنڈی منِجہ وڑئی او تیوے  نمبر، خاص نام او خاص حروف نہ بھینڈیو۔
 upload-progress-text = اپلوڈ جاری ہِنی۔۔۔۔
+sc-bulk-submit-confirm = مہ تصدیق تھانو کی انو جملہ <wikipediaLink> عام خلکیمی دائرہ کی </wikipediaLink> او ماتھے نِس اپلوڈ تھئنی اجازت ہِنی۔
+bulk-upload-success-toast = بیڈہ جملے اکٹِجی  اپلوڈ بِھلہ
+bulk-upload-failed-toast = اپلوڈ نہ بِھلہ، مہربینی تھے گھرے کوشش تھہ۔
+bulk-submission-success-header = بیڈہ جملے اکٹا جمع تھئنی دپارہ تھی بیڈی مہربینی۔
+bulk-submission-success-subheader = تو کمن وائس ہر دیسی  جملے پورہ تھئنی اسام سنگی مدد تھانو!
+upload-more-btn-text = دوئی جملے بی اپلوڈ تھومے؟
+file-invalid-type = غلط فائل
 file-too-large = فائل بیڈو گاڈو ہنو
 file-too-small = فائل بیڈو لھوکو ہنو
 too-many-files = دیڈہ زیات فائلی
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> عام خلکیمی دائرہ بیڈہ جملے شامل تھہ
