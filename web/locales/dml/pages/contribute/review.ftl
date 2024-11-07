@@ -2,36 +2,36 @@
 
 sc-review-lang-not-selected = تو ایک باڜہ ایس منتخب نی کوتھوپ، مہربانی کُری تانو <profileLink> پروفائل کی یدے </profileLink>باڜہ سلیکٹ کُرے۔
 sc-review-title = جملہ ساں جائزہ گیا
-sc-review-loading = جملہ اکہ سن
-sc-review-select-language = مہربانی کُری باڜہ منتخب کُرے جائزہ تہ پرئی
-sc-review-no-sentences = جائزہ تہ پرئی ایک جملہ ایس نی درو
+sc-review-loading = جملہ نم اکہ سن
+sc-review-select-language = مہربانی کُری باڜہ منتخب کُرا جائزہ تہ پرئی
+sc-review-no-sentences = جائزہ تہ پرئی ایک جملہ ایس نی درو<addLink> ژا ورے جملہ نم شامل کُرا </addLink>
 sc-review-form-prompt =
-    .message = جائزہ کُری سن جملہ نم نی ڜئیتُھوپ، تاں یقین دروئی
-sc-review-form-usage = جملہ تہ منظوری تہ پرئی دڇھنی بئیں سوئپ کُرا،مس مسترد کُرئیں کی کھوڜنتی بئیں سوئپ کُرا، وعیں کی بہ پچو بئیں سوئپ کُرا۔ تانو جائزہ جمع کُرن مہ پرموڜٹا
+    .message = جائزہ کُری سن جملہ نم نی ڜئی تُھوپ، تاں یقین دروئی
+sc-review-form-usage = جملہ تہ منظوری تہ پرئی دڇھنی بئیں سوئپ کُرا۔  مسترد کُرئیں کی کھوڜنتی بئیں سوئپ کُرا۔ وعیں کی بہ پچو بئیں سوئپ کُرا۔<strong> تانوں جائزہ جمع کُرن مہ پرموڜٹا</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = زریہ
+sc-review-form-source = زریعہ{ $sentenceSource }
 sc-review-form-button-reject = مسترد
 sc-review-form-button-skip = وعین
-sc-review-form-button-approve = منظور
+sc-review-form-button-approve = منظوری
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = وائی، آں
+sc-review-form-button-approve-shortcut = وائی
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = این، نی
+sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
-sc-review-form-keyboard-usage-custom = بی کی بورڈ تہ شارٹ کٹ استعمل کُرین بئیبہ؛ منطوری کی، مسترد کُرئئں کی، وعیں کی
+sc-review-form-keyboard-usage-custom = بی کی بورڈ تہ شارٹ کٹ استعمل کُرین بئیبہ{ sc-review-form-button-approve-shortcut }؛ منطوری کی،{ sc-review-form-button-reject-shortcut } مسترد کُرئیں کی،{ sc-review-form-button-skip-shortcut } وعیں کی
 sc-review-form-button-submit =
     .submitText = جائزہ ختم کُرے
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] ایک اسی جملہ ساں جائزہ بیرو
+        [0] ایک ایس جملہ ساں جائزہ نی بیرو
         [one] جملہ ساں جائزہ بیرو، تاں مہربانی
-       *[other] جملہ نم ساں جائزہ بیرو، تاں مہربانی
+       *[other] { $sentences }جملہ نم ساں جائزہ بیرو، تاں مہربانی
     }
-sc-review-form-review-failure = جائزہ محفوظ نی با، مہربانی کُری پھرکی کوشیش کُرے
+sc-review-form-review-failure = جائزہ محفوظ نی با، مہربانی کُری پھرکی  کوشیش کُرے
 sc-review-link = جائزہ
 
 ## REVIEW CRITERIA
