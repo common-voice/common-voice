@@ -156,3 +156,8 @@ transcribe-audio-menu-item-tooltip = Transkribera ljudinspelningar på ditt spr�
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Alternativmeny för skriva
+add-sentences-menu-item-aria-label = Lägg till nya meningar som gemenskapen kan läsa
+review-sentences-menu-item-aria-label = Granska befintliga meningar som skickats in av gemenskapen
+add-questions-menu-item-aria-label = Skicka in nya frågor som gemenskapen kan läsa och svara på
+transcribe-audio-menu-item-aria-label = Transkribera ljudinspelningar till text
