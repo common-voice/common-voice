@@ -4,6 +4,20 @@ your-languages = مِنہ باݜہ نم
 toward-next-goal = مُکھ بئں تہ مقصد بئں
 goal-reached = منزل تلی ویبا
 clips-you-recorded = کلپس نم کیرا میاں ریکارڈ کُتُھبہ
+clips-you-validated = کلپس نم تئں میاں تصدیق کُتُھبہ
+todays-recorded-progress = ریکارڈ کُرٰسن کلپہ مُدیوکہ پیش رفت
+todays-validated-progress = کلپہ مُدیوکہ پیش رفت ساں توثیق با
+stats = اعداد و شمار
+awards = ایوارڈ نم
+you = بی
+everyone = ہر کُرئی
+contribution-activity = اکَٹی کُرِیسن کرم
+top-contributors = سپُن تہ لے تعاون کُرال
+recorded-clips = ریکارڈ کُریسن کلپس نم
+validated-clips = تصدیق کُریسن کلپس نم
+total-approved = سپُن منظور بئی سن
+overall-accuracy = سپُن سئی کُریسن
+set-visibility = ما بینن سیٹ کُرے
 
 ## Custom Goals
 
