@@ -66,3 +66,5 @@ review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin t
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
+# menu item
+review-sentences = Zinnen beoordelen
