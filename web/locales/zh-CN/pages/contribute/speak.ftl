@@ -1,4 +1,4 @@
-speak = 说话
+speak = 朗读
 speak-now = 开始朗读
 speak-subtitle = 捐出一段声音
 record-cta = 开始录音
@@ -60,3 +60,9 @@ already-have-an-account = 已有账户？<login>登录</login>
 create-profile-button = 创建用户资料
 # IMAGE TAGS
 img-alt-success-checkmark = 标记成功
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

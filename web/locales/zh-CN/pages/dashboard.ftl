@@ -77,7 +77,7 @@ goal-interval-weekly = 每周
 share-n-daily-contribution-goal = 分享您的每日 { $type } 目标：{ $count } 个片段
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = 分享您的每周 { $type } 目标：{ $count } 个片段
-share-goal-type-speak = 说话
+share-goal-type-speak = 朗读
 share-goal-type-listen = 聆听
 share-goal-type-both = 说话和聆听
 # LINK will be replaced with the current URL
