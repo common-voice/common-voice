@@ -12,3 +12,11 @@ listen-loading-error =
 listen-abort-title = ቅንጥቦችን ማረጋገጥ ይጨርስ?
 listen-abort-cancel = ማረጋገጡን ይቀጥሉ
 listen-abort-confirm = ማረጋገጥን ጨርስ
+# Menu item
+validate-readings = ንባቦችን ያረጋግጡ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

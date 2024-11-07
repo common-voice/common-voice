@@ -269,5 +269,6 @@ not-available-abbreviation = ሊገኝ የማይችል
 donate-banner-cta = <mark>እኛ እንፈልጋለን</mark><br/><mark>የእርስዎን እገዛ!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = የውሂብ ስብስቦችን ለማስተናገድ እና እኛ በምንሰራው ነገር ለሚተማመኑ 100+ ቋንቋ ማህበረሰቦች መድረክን ለማሻሻል በዓመት አንድ ሚሊዮን ዶላር ያህል ያስወጣል። <strong>ክፍት፣ አካታች ውሂብን ዋጋ ከሰጡ - ዛሬ ይለግሱ!</strong>
+languages-donate-banner-cta-explanation = የጋራ ድምጽ የሚሸፈነው በስጦታ እና በእርዳታ ነው! ከምሁራን፣ ከሲቪል ማህበረሰብ እና ከኢንዱስትሪ ተመራማሪዎች ጋር መተባበር እንወዳለን። የጋራ ድምጽ ለመጠቀም ነጻ ነው፣ ነገር ግን በስጦታ ፕሮፖዛል በኩል ለመድረክ እና ወጪ ማስተናገጃ አስተዋጽዖ ማድረግ በእርግጥ አጋዥ ነው።
 localization-select =
     .label = ቋንቋ/አካባቢን ምረጥ
