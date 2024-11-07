@@ -5,12 +5,14 @@ write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publik
 write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
 sentence =
     .label = Frazë
-sentence-input-value = Jepni këtu frazën tuaj në përkatësi publike
+sentence-input-placeholder = Jepni këtu togfjalëshin uaj prej përkatësisë publike
+small-batch-sentence-input-placeholder = Jepni këtu togfjalëshat tuaj prej përkatësie publike
 citation-input-placeholder = Jepni referencë të burimit të togfjalëshit tuaj (e domosdoshme)
 citation =
     .label = Përmendje
 sc-write-submit-confirm = Ripohoj se kjo frazë është nën <wikipediaLink>përkatësi publike</wikipediaLink> dhe se kam leje ta ngarkoj.
 sc-review-write-title = Ç’fraza mund të shtoj?
+sc-review-small-batch-title = Si të shtohen togfjalësh të shumtë
 new-sentence-rule-1 = { "" }
 new-sentence-rule-2 = Më pak se 15 fjalë për frazë
 new-sentence-rule-3 = Përdorni gramatikë të saktë
@@ -28,9 +30,11 @@ add-sentence-success = 1 fjali e mbledhur
 add-sentence-error = Gabim në shtim fraze
 required-field = Ju lutemi, plotësojeni këtë fushë.
 single-sentence-submission = Parashtrim i Një Fraze
+small-batch-sentence-submission = Parashtrim grupi të vogël togfjalëshash
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
-bulk-sentences = Mori Frazash
+small-batch-sentence = Grup i vogël
+bulk-sentence = Grup i papërpunuar
 sentence-domain-combobox-label = Përkatësi Togfjalëshi
 sentence-domain-select-placeholder = Përzgjidhni deri në tre përkatësi (në daçi)
 # Sentence Domain dropdown option
@@ -89,3 +93,25 @@ file-invalid-type = Kartelë e pavlefshme
 file-too-large = Kartela është shumë e madhe
 file-too-small = Kartela është shumë e vogël
 too-many-files = Shumë kartela
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Shtoni togfjalësha të shumtë prej përkatësie publike
+multiple-sentences-error = S’mund të shtoni togfjalësha të shumtë për një parashtrim njësh
+exceeds-small-batch-limit-error = S’mund të parashtrohen më shumë se 1000 togfjalësha
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } nga 1 togfjalësh i grumbulluar
+       *[other] { $uploadedSentences } nga { $totalSentences } togfjalësha të grumbulluar
+    }
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+add-sentences-menu-item-aria-label = Shtoni togfjalësha të rinj t’i lexojë bashkësie
+review-sentences-menu-item-aria-label = Shqyrtoni togfjalësh ekzistues të parashtruar nga bashkësia
+add-questions-menu-item-aria-label = Parashtroni pyetje të reja për t’i lexuar dhe përgjigjur bashkësia

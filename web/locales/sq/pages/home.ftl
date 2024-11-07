@@ -14,13 +14,9 @@ show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fraza!
 help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë frazën më poshtë?
 no-clips-to-validate = Duket se nuk ka copëza për dëgjuar për këtë gjuhë. Ndihmonani duke incizuar disa të tilla që tani.
-vote-yes = Po
-vote-no = Jo
 toggle-play-tooltip = Shtypni { shortcut-play-toggle } që të hyhet ose dilet nga mënyra luajtje
-speak-subtitle = Dhuroni zërin tuaj
 speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thoshte se është edhe  pjesa zbavitëse.
 speak-goal-text = Copëza të incizuara
-listen-subtitle = Ndihmonani të vleftësojmë zëra
 listen-paragraph = Vleftësimi i copëzave të dhuruara është po aq i rëndësishëm për misionin e Common Voice-it. Bëni një dëgjim dhe ndihmonani të krijojmë të dhëna zanore cilësore me burim të hapur.
 listen-goal-text = Copëza të vleftësuara
 hours-recorded = Orë Incizim
@@ -78,3 +74,20 @@ help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të
 login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
 profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama.
 read-more-about = Lexoni më tepër te faqja jonë Mbi
+
+## NAV ITEMS
+
+answer-questions = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
+community-and-languages = Bashkësi dhe Gjuhë
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partneritete, Shtypi dhe Shembuj, Bashkësi dhe Gjuhë
+partnerships-menu-item-tooltip = Partneritet me ne
+press-and-stories-menu-item-tooltip = Vizitoni blogun tonë, ose shkruani rreth nesh
+community-and-languages-menu-item-tooltip = Zbuloni gjuhë dhe bashkësi dhe Common Voice-in
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menu mundësish “Mbi”
+partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice

@@ -89,3 +89,7 @@ release-version = Version
 dataset-date = Datë
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Shkarkoni grupe tonat të të dhënave zanore
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Mundësi shkarkimi për përdorim me të dhëna Common Voice

@@ -67,6 +67,10 @@ read-sentences = Lexoni Togfjalësha
 
 speak-contribute-menu-tooltip = Lexoni Togfjalësha, Përgjigjuni Pyetjeve
 read-sentences-menu-item-tooltip = Incizoni veten duke lexuar togfjalësha në gjuhën tuaj
+answer-questions-menu-item-tooltip = Incizoni veten duke iu përgjigjur pyetje dhe kërkesave në gjuhën tuaj
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Mundësi menuje “Flisni”
+read-sentences-menu-item-aria-label = Lexoni togfjalësh në gjuhë të ndryshme të parashtruar nga bashkësia
+answer-questions-menu-item-aria-label = Parashtroni një pyetje të re për bashksinë, që ta lexojë dhe t’i përgjigjet

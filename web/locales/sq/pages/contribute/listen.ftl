@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = Shqyrtoni transkriptime të parashtrua
 
 listen-contribute-menu-aria-label = Menu mundësish leximi
 validate-readings-menu-item-aria-label = Vleftësoni lexime të parashtruara nga anëtarë të bashkësisë
+review-transcriptions-menu-item-aria-label = Shqyrtoni për përpikëri transkriptime togfjalëshash të incizuar

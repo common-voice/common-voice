@@ -16,3 +16,5 @@ partnerships-small-business-description = Presim përherë të dëgjojmë prej k
 partnerships-corporates-header = Korporata të mëdha dhe shoqëri platformash
 partnerships-corporates-description = Nëse po kërkoni të flisni më gjerë rreth grupesh të dhënash, dëshironi të bashkë-investoni në zgjerime të planifikuara platformash, ose po shihni për mundësi bashkëpunimi, <emailFragment>ma shkruani.</emailFragment>
 partnerships-our-partners = Partnerët Tanë
+# menu item
+partners = Partnerë
