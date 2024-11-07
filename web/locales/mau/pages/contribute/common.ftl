@@ -26,11 +26,6 @@ target-segment-first-banner = tiisenke nga kuanda titjún chubare Common Voice {
 target-segment-add-voice = Chanijin xtari.
 target-segment-learn-more = Me sa xi tjin.
 change-preferences = Sik'antjeya xi tsachaa.
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = kj'uátjó xta.
-contribute-sentence-collection-nav-header = K'uexkú énn.
 login-signup = Tetsie / tj'atae.
 vote-yes = Jon
 vote-no = majen
@@ -125,3 +120,4 @@ contribution-varying-pronunciations-title = Kja'ésin nukjua ik'a.
 contribution-varying-pronunciations-description = Nda chut'ae tsá mi mejeri jngu xta xi kitjubet'a nñú kjín skuya jus'in ma nukjua, tjín xi mi nu'yare nanguiri.
 contribution-varying-pronunciations-description-extended = Tsá xi tibe'exkiya kjie bee énn, tsa to kjaé tisú, kuan sik'atu.
 contribution-varying-pronunciations-example-1-title = Tjín xi kjisún sku.
+contribution-varying-pronunciations-example-1-explanation = (('Beret') ndá kji, kuan tsá asento kjuá sun nga tjún (Reino Unido) kua tsá si mani jó EE.UU.)
