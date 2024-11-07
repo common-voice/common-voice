@@ -55,9 +55,20 @@ first-cta-gender-select-help-text =
     .label = ¿Taka ne kamade ndetes a cha'de o ndatade ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yondibkue'de se iytede ndodo yi'ide se iynuu mu'u na koo!
+second-cta-subtitle-text = Nome kuubi ndikchide ndinñu yi'ide ndoko ntdube inña se nome teyunniya se fnuu ndodo yiya mu'u naa koo
+already-have-an-account = ¿A gnekakade mu'u? Kube kuenade
+create-profile-button = Kubi fnekakade mu'u na koo
+# IMAGE TAGS
+img-alt-success-checkmark = A a'a mu'u se chii fnekakade
+# menu item
+read-sentences = Kuede ndodo
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Kuede ndodo, nbefnede de'se iytomunni mu'u na koo
+read-sentences-menu-item-tooltip = A kubi fnuu ndodo yi'i dbaku yi'ide mu'u na koo
+answer-questions-menu-item-tooltip = A kugbi fnuu ndodo yi'i dbaku yi'ide tase nbefnede de'se ytomunide
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Ndenaa taka se ndede
