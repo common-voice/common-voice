@@ -125,6 +125,10 @@ add-sentences = 添加语句
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = 添加和审核语句，添加问题，转录音频
+add-sentences-menu-item-tooltip = 以您的语言添加语句
+review-sentences-menu-item-tooltip = 审核以您的语言撰写的语句
+add-questions-menu-item-tooltip = 以您的语言添加问题
+transcribe-audio-menu-item-tooltip = 转录以您的语言录制的音频
 
 ## MENU ITEM ARIA LABELS
 

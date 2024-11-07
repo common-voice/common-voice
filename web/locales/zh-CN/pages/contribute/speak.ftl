@@ -66,6 +66,8 @@ read-sentences = 朗读语句
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = 朗读语句，回答问题
+read-sentences-menu-item-tooltip = 以您的语言朗读语句并录音
+answer-questions-menu-item-tooltip = 以您的语言回答问题或提示语并录音
 
 ## MENU ITEM ARIA LABELS
 
