@@ -45,7 +45,7 @@ sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过�
 sc-criteria-item-5-2 = 若句子未达到上述条件，请点击“驳回”按钮。若您不确定句子是否可用，也可以略过，跳到下一句。
 sc-criteria-item-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = 检查 <icon><icon> 语句语法是否正确
+sc-review-instruction = 检查 <icon></icon> 语句语法是否正确
 sc-review-rules-title = 该语句是否符合准则？
 sc-review-empty-state = 该语言目前没有需要审核的语句。
 report-sc-different-language = 其他语言
