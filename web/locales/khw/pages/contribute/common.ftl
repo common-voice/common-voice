@@ -37,9 +37,9 @@ contribute-sentence-collection-nav-header = جملان مجموعہ
 login-signup = لاک ان/سائن اب
 vote-yes = دیی
 vote-no = نو
-datasets = معلومت مجموعہ
-languages = واران
-about = بارا
+datasets = ڈیٹاسیٹس
+languages = وار
+about = کامن وائسو بارا
 partner = حصہ دار
 submit-form-action = جمع کو
 

@@ -60,3 +60,17 @@ already-have-an-account = Tay som account shiaw e?
 create-profile-button = Profile sawzai
 # IMAGE TAGS
 img-alt-success-checkmark = Kamiyab Nishan
+# menu item
+read-sentences = Mas te newishila
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Mas te mon, Sawal ze jawab
+read-sentences-menu-item-tooltip = Recard kari tan hatya, tan zuban una mondr de
+answer-questions-menu-item-tooltip = Recard kari tan hatya, tan zuban una mondr de
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Mon dekas option menu( Jaiga)
+read-sentences-menu-item-aria-label = Mon mahikas, muktalif zuban una, comety as jama kada
+answer-questions-menu-item-aria-label = No'n'a sawal jama kari, comety man asta achi jawab asta den

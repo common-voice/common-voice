@@ -29,10 +29,10 @@ contact-us = Шъукъытлъыӏэс
 add-sentence-success = 1 гущыӏэухыгъэ зэхэугъоягъ
 add-sentence-error = Гущыӏэухыгъэ хэгъэуцозэ хэукъоныгъэ хъугъэ
 required-field = Сыолъэӏу, мы чӏыпӏэ тешъом из шӏы.
-single-sentence-submission = Гущыӏэухыгъэ закъоу егъэжьэн
-small-batch-sentence-submission = Гущыӏэухыгъэ заулэ егъэжьэн
-bulk-sentence-submission = Гущыӏэухыгъэ бэу егъэжьэн
-single-sentence = Закъо
+single-sentence-submission = Зы гущыӏэухыгъэ егъэхьын
+small-batch-sentence-submission = Гущыӏэухыгъэ заулэ егъэхьын
+bulk-sentence-submission = Гущыӏэухыгъэ бэу егъэхьын
+single-sentence = Зы
 small-batch-sentence = Заулэ
 bulk-sentence = Бэу
 sentence-domain-combobox-label = Гущыӏэухыгъэм итема
@@ -69,6 +69,7 @@ sentence-variant-select-multiple-variants = Пстэури бзэ / диалек
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэхэр тегъэуцу
+sc-bulk-upload-instruction = Уифайл мыщ щылъэшъу е <uploadButton>тегъэуцон</uploadButton>ым теӏункӏ
 sc-bulk-upload-instruction-drop = Тегъэуцоным пае файлыр мыщ щытӏупщ
 try-upload-again = Уифайл мыщ щыплъэшъузэ джыри зэ уплъэкӏу
 try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтмэ еплъ
@@ -93,6 +94,9 @@ too-many-files = Файл бащэ щыӏ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэ бэ хэгъэуцу
+multiple-sentences-error = Зы егъэхьынымкӏэ гущыӏэухыгъэ заулэ хэбгъэуцошъущтэп
 exceeds-small-batch-limit-error = Cannot submit more than 1000 sentences
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
@@ -131,6 +135,7 @@ small-batch-response-message =
        *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> теӏункӏ.
     }
 small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
+small-batch-sentences-rule-3 = «Enter» е «Return»-ым зэ теӏункӏи зы сатыркӏэ гущыӏэухыгъэхэр гощ
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
 small-batch-sentences-rule-5 = Зэкӏэ гущыӏэухыгъэхэр зы темэкӏэ хъун фаех
 small-batch-sentences-rule-6 = Зэкӏэ гущыӏэухыгъэхэр зэфэдэ къыхэхыгъэ тхыгъэмкӏэ хъун фаех

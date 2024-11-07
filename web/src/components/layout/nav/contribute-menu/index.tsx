@@ -2,6 +2,7 @@ import * as React from 'react'
 import classNames from 'classnames'
 import { Localized, useLocalization } from '@fluent/react'
 import { RouteComponentProps, withRouter } from 'react-router'
+import { Tooltip } from 'react-tooltip'
 
 import { TextButton } from '../../../ui/ui'
 import { BoldChevron, ChevronDown } from '../../../ui/icons'
@@ -63,6 +64,16 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     return (
       <div className="contribute-wrapper datasets">
         <LocalizedNavLink id={menuLabel} to={URLS.DATASETS} />
+        <Tooltip
+          anchorSelect={`#${menuLabel}`}
+          style={{
+            width: 'auto',
+            maxWidth: '550px',
+            fontFamily: 'Open Sans',
+            fontSize: '12px',
+          }}>
+          {l10n.getString(menuTooltip)}
+        </Tooltip>
       </div>
     )
   }
@@ -82,6 +93,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             onClick={handleClick}
             aria-expanded={showMobileMenu}
             aria-controls="contribute-menu"
+            id={`${menuLabel}-mobile`}
           />
         </Localized>
         {hasMenuItems && (
@@ -99,8 +111,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         data-testid="contribute-menu"
         aria-expanded={showMenu}
         aria-controls="contribute-menu"
-        title={l10n.getString(menuTooltip)}
-        aria-label={l10n.getString(menuAriaLabel)}>
+        aria-label={l10n.getString(menuAriaLabel)}
+        id={menuLabel}>
         <div className="contribute-links-wrapper">
           <p className="nav-link-item">
             <Localized id={menuLabel} />
@@ -134,6 +146,19 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           </div>
         )}
       </button>
+      <Tooltip
+        anchorSelect={`#${menuLabel}`}
+        place="bottom"
+        style={{
+          width: 'auto',
+          maxWidth: '550px',
+          marginBlockStart: '-30px',
+          fontFamily: 'Open Sans',
+          fontSize: '12px',
+        }}
+        hidden={showMenu}>
+        {l10n.getString(menuTooltip)}
+      </Tooltip>
     </div>
   )
 }

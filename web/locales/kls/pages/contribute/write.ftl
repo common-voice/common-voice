@@ -143,3 +143,19 @@ small-batch-sentences-rule-3 = Alaida kari mon, ek phon una, "Enter " ya o "Retu
 small-batch-sentences-rule-4 = 1000, (ek hazar) mon
 small-batch-sentences-rule-5 = Saw mondran peruk domain hiu ori
 small-batch-sentences-rule-6 = Saw mondran ze maikas usul peruk hiu ori
+# menu item
+add-sentences = Mondr jama karik
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Jama kari ze dubara jagai, sawal jama kari, audio asta sawzek bas.
+add-sentences-menu-item-tooltip = Mon jama kari tan zuban una.
+review-sentences-menu-item-tooltip = Sahi kari tai mon tai zuban una
+add-questions-menu-item-tooltip = Sawal jama kari tan zuban una
+transcribe-audio-menu-item-tooltip = Audio recarding tan zuban una sawzai
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Ko'n' karikas option Jaiga
+add-sentences-menu-item-aria-label = Warek asta no'n'a mon comety aini mochan mahikas bati
+review-sentences-menu-item-aria-label = Dubara shihala mon comety jama kada jagai

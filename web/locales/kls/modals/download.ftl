@@ -6,4 +6,4 @@ download-form-email =
     .label = tay email newishi
     .value = prus't, mashkul hik
 download-back = Geri awaz ko'n kara
-download-no = Ne Shukur
+download-no = Ne Shukuria

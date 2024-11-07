@@ -14,13 +14,9 @@ show-wall-of-text = Διαβάστε περισσότερα
 help-us-title = Βοηθήστε μας να επικυρώσουμε τις προτάσεις!
 help-us-explain = Πατήστε το κουμπί αναπαραγωγής, ακούστε και πείτε μας: η ακόλουθη πρόταση διαβάστηκε σωστά;
 no-clips-to-validate = Φαίνεται ότι δεν υπάρχουν αποσπάσματα για ακρόαση σε αυτήν τη γλώσσα. Βοηθήστε μας να συμπληρώσουμε τη σειρά ηχογραφώντας μερικά τώρα.
-vote-yes = Ναι
-vote-no = Όχι
 toggle-play-tooltip = Πατήστε το { shortcut-play-toggle } για αναπαραγωγή/παύση
-speak-subtitle = Δωρίστε τη φωνή σας
 speak-paragraph = Η ηχογράφηση αποσπασμάτων είναι αναπόσπαστο μέρος της ανάπτυξης του ανοικτού συνόλου δεδομένων· πολλοί λένε ότι είναι το πιο διασκεδαστικό κομμάτι.
 speak-goal-text = Ηχογραφήσεις
-listen-subtitle = Βοηθήστε μας να επικυρώσουμε φωνές
 listen-paragraph = Η επαλήθευση δωρισμένων αποσπασμάτων είναι εξίσου σημαντική για την αποστολή του Common Voice. Ακούστε και βοηθήστε μας να δημιουργήσουμε ποιοτικά δεδομένα φωνής ανοικτού κώδικα.
 listen-goal-text = Επικυρώσεις
 hours-recorded = Ώρες ηχογράφησης
@@ -76,3 +72,20 @@ help-contribute = Μπορείτε να βοηθήσετε στη δημιουρ
 login-company = Σύνδεση/Εγγραφή με { $company } email
 profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
 read-more-about = Διαβάστε περισσότερα στη σελίδα «Σχετικά»
+
+## NAV ITEMS
+
+answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
+review-transcriptions = Έλεγχος απομαγνητοφωνήσεων <small>(Προσεχώς)</small>
+add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
+transcribe-audio = Απομαγνητοφώνηση ήχου <small>(Προσεχώς)</small>
+press-and-stories = Τύπος και άρθρα
+community-and-languages = Κοινότητα και γλώσσες
+
+## MENU ITEMS TOOLTIPS
+
+partnerships-menu-item-tooltip = Συνεργαστείτε μαζί μας
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Μενού επιλογών πληροφοριών

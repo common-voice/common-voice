@@ -60,3 +60,12 @@ already-have-an-account = Έχετε ήδη λογαριασμό; <login>Σύν�
 create-profile-button = Δημιουργία προφίλ
 # IMAGE TAGS
 img-alt-success-checkmark = σημάδι επιτυχίας
+# menu item
+read-sentences = Ανάγνωση προτάσεων
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Μενού επιλογών ομιλίας

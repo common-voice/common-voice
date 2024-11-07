@@ -86,3 +86,5 @@ release-version = noa tharika
 dataset-date = tarek
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = sow kay ak kak
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = dataset download ka

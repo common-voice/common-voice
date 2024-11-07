@@ -16,3 +16,5 @@ partnerships-small-business-description = Θέλουμε πάντα να γνω�
 partnerships-corporates-header = Εταιρείες μεγάλης κλίμακας και εταιρείες πλατφόρμας
 partnerships-corporates-description = Εάν θέλετε να συζητήσετε περισσότερο για το σύνολο δεδομένων, να επενδύσετε στις προγραμματισμένες αναβαθμίσεις της πλατφόρμας ή αν αναζητάτε ευκαιρίες συνεργασίας, <emailFragment>επικοινωνήστε μαζί μας</emailFragment>.
 partnerships-our-partners = Οι συνεργάτες μας
+# menu item
+partners = Συνεργάτες

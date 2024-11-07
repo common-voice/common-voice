@@ -226,6 +226,9 @@ header {
         font-weight: 600;
         white-space: nowrap;
         margin-inline-end: 8px;
+        max-width: 155px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     & .user-menu {
@@ -248,8 +251,15 @@ header {
 
     & .login {
         margin: 0 20px;
-        min-width: max-content;
+        min-width: auto;
         text-transform: uppercase;
+
+        max-width: 250px;
+        width: max-content;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+        white-space: nowrap;
 
         @media (--md-up) {
             height: 2.5rem;
@@ -337,7 +347,7 @@ header {
 }
 
 #hamburger-menu {
-    width: 100px;
+    width: 120px;
     border: none;
     padding: 0;
 
@@ -357,6 +367,10 @@ header {
         text-transform: uppercase;
         min-width: 100px;
         padding: 15px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     & a.button.avatar {
@@ -468,6 +482,10 @@ header {
         .coming-soon-text {
             margin-inline-start: 8px;
             width: 100%;
+            max-width: 250px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
             text-align: left;
             padding: 0;
             font-family: var(--base-font-family);
@@ -476,6 +494,15 @@ header {
             text-transform: capitalize;
             border-bottom: none;
             align-items: center;
+        }
+
+        .coming-soon-text {
+            color: var(--warm-grey);
+            cursor: default;
+
+            span {
+                font-size: var(--font-size-xs);
+            }
         }
 
         .coming-soon-text {
@@ -556,6 +583,11 @@ header {
             margin-top: 15px;
             display: flex;
             background: var(--black);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            align-content: center;
         }
 
         & .donate-btn-container {
@@ -584,5 +616,9 @@ header {
         color: var(--black);
         flex: 1;
         text-align: left;
+        max-width: 345px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }

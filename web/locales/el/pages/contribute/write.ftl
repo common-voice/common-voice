@@ -143,3 +143,20 @@ small-batch-sentences-rule-3 = Χωρίστε τις προτάσεις σε μ�
 small-batch-sentences-rule-4 = Προσθέστε έως και 1.000 προτάσεις
 small-batch-sentences-rule-5 = Όλες οι προτάσεις πρέπει να έχουν τον ίδιο τομέα
 small-batch-sentences-rule-6 = Όλες οι προτάσεις πρέπει να έχουν την ίδια παραπομπή
+# menu item
+add-sentences = Προσθήκη προτάσεων
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Προσθέστε προτάσεις στη γλώσσα σας
+review-sentences-menu-item-tooltip = Ελέγξτε προτάσεις στη γλώσσα σας
+add-questions-menu-item-tooltip = Προσθέστε ερωτήσεις στη γλώσσα σας
+transcribe-audio-menu-item-tooltip = Απομαγνητοφωνήστε ηχογραφήσεις στη γλώσσα σας
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Μενού επιλογών σύνταξης
+add-sentences-menu-item-aria-label = Προσθέστε νέες προτάσεις για να τις διαβάσει η κοινότητα
+review-sentences-menu-item-aria-label = Ελέγξτε υπάρχουσες προτάσεις που υποβλήθηκαν από την κοινότητα
+add-questions-menu-item-aria-label = Υποβάλετε νέες ερωτήσεις ώστε να τις διαβάσει και να τις απαντήσει η κοινότητα
+transcribe-audio-menu-item-aria-label = Απομαγνητοφωνήστε ηχογραφήσεις

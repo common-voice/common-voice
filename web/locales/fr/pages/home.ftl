@@ -14,13 +14,9 @@ show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
 no-clips-to-validate = Il semblerait qu’il n’y ait aucun enregistrement à écouter dans cette langue. Aidez-nous à en créer quelques-uns !
-vote-yes = Oui
-vote-no = Non
 toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
-speak-subtitle = Donnez un peu de votre voix
 speak-paragraph = L’enregistrement d’échantillons de voix fait partie intégrante de notre collecte de données ouvertes ; certains diront même que c’est la partie la plus amusante.
 speak-goal-text = Échantillons enregistrés
-listen-subtitle = Aidez-nous à valider les échantillons vocaux
 listen-paragraph = La validation des échantillons vocaux donnés est également importante pour la mission Common Voice. Prenez l’écoute et aidez-nous à créer des données vocales libres de qualité.
 listen-goal-text = Extraits validés
 hours-recorded = Heures d’enregistrement 
@@ -78,3 +74,24 @@ help-contribute = Vous pouvez aider à créer un jeu de données open source et 
 login-company = Connexion / Inscription avec l’adresse e-mail de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
+
+## NAV ITEMS
+
+answer-questions = Répondez aux questions <small>(prochainement)</small>
+review-transcriptions = Vérifiez les transcriptions <small>(prochainement)</small>
+add-questions = Ajoutez des questions <small>(prochainement)</small>
+transcribe-audio = Transcriptions audio <small>(prochainement)</small>
+press-and-stories = Presse et articles
+community-and-languages = Communautés et langues
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partenariats, presse et témoignages, communautés et langues
+partnerships-menu-item-tooltip = Partenariats
+community-and-languages-menu-item-tooltip = Découvrez les langues, les communautés et Common Voice
+
+## MENU ITEM ARIA LABELS
+
+partnerships-menu-item-aria-label = En savoir plus sur les partenariats avec Common Voice
+press-and-stories-menu-item-aria-label = Accédez aux communiqués de presse et aux articles liés à Common Voice
+community-and-languages-menu-item-aria-label = Découvrez les communautés et les langues prises en charge par Common Voice

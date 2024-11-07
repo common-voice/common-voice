@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Tu bo tez paris day. meherbani kay, geri jaga
 sc-redirect-page-title = Abi bo ghona tabdili karik day
 sc-redirect-page-subtitle-1 = Mon jamamkaraw, onia sawin awaz as maidan una ew day. To onja <newishiURL> Newishi </newishiURL> mon ya o <jagaiURL> Jagai </jagaiURL> ek mon, to o sawin awaz una thai
 sc-redirect-page-subtitle-2 = Homa pi sawal kari shaya <mateixLink> Matrix </matrixlink>,  <discourselink> Discourse</discouraelink> ya o <emaillink> Email </emailLink>.
+# menu item
+review-sentences = Mon geri jagai

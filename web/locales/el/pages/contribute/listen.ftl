@@ -12,3 +12,13 @@ listen-loading-error =
 listen-abort-title = Τελειώσατε με την επικύρωση αποσπασμάτων;
 listen-abort-cancel = Συνέχεια επικύρωσης
 listen-abort-confirm = Τέλος επικύρωσης
+# Menu item
+validate-readings = Επικύρωση αναγνώσεων
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Επικύρωση αναγνώσεων, έλεγχος απομαγνητοφωνήσεων
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Μενού επιλογών ακρόασης

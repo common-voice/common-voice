@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تو بیڈو تیز ہنو۔ مہربینی 
 sc-redirect-page-title = بے گیڈی تبدیلی تھانہ
 sc-redirect-page-subtitle-1 = جملے جمع تھاٹو بنیادی کمن وائسی زھئی تھے بیانو تو تِپہ <writeURL> چونٹہ</writeURL> آک جملہ یا<reviewURL> گھرے دڇھہ</reviewURL> آک جملئی کمن وائسہ وے جمع تھئنی۔
 sc-redirect-page-subtitle-2 = اسام دی کھوجہ <matrixLink> سانچہ</matrixLink> <discourseLink>بیتی </discourseLink> یا <emailLink> ای میل</emailLink>
+# menu item
+review-sentences = جملے گھرے دڇھہ

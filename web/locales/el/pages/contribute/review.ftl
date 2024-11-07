@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Προχωράτε πολύ γρήγορα. �
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
 sc-redirect-page-subtitle-1 = Το Sentence Collector μεταφέρεται στην κύρια πλατφόρμα του Common Voice. Μπορείτε πλέον να <writeURL>συντάξετε</writeURL> μια πρόταση ή να <reviewURL>αξιολογήσετε</reviewURL> υποβολές προτάσεων στο Common Voice.
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.
+# menu item
+review-sentences = Έλεγχος προτάσεων

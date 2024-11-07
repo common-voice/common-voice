@@ -74,3 +74,22 @@ adding-sentences-subheader-length-explanation = جملے بچ 15 کولو گھٹ
 adding-sentences-subheader-spelling-punctuation = ہجے تے علامتاں
 adding-sentences-subheader-spelling-punctuation-explanation = جملے دی املا ٹھیک ہونڑی چاہیدی ہے۔
 adding-sentences-subheader-speakable = بولنا دے قابل
+adding-sentences-subheader-speakable-explanation = بہترین جملے فطری تے گل بات آلے ہون٘دے ہن — اے کسی واسطے بھی پڑھنے بچ آسان ہونڑے چاہِیدے ہن۔ جبکہ آواز دا تنوع تے جملیاں بچ مختلف لفظ اہم ہن، اسیں اے کوشش کر رے ہاں کہ ریکارڈنگ جملیاں کو آپنڑی رضاکار برادری آستے ہر ممکن حد تک دِلچسپ تے تفریحی بنڑاواں۔
+adding-sentences-subheader-numbers = گنتی
+adding-sentences-subheader-numbers-explanation = سورس ٹیکسٹ بچ مثالی طور تے کوئی ہندسہ نیں ہوونڑا چاہیدا کیاں کہ جدوں اُچی آواز نال پڑھے  تے مسائل پیدا کر سکدے ہن۔ جسطرح ہک نمبر کدرے پڑھیا جلد ہے  تے او ڈیٹا سیٹ بچ الجھن پیدا کر ہکدا ہے۔ مثال دے طور تے، نمبر “2409” کو "چووی صفر نوں" تے "دو ہزار چار سو نوں" درڑیاں طرح درست طریقے نال پڑھیا جل ہکدا آسا۔
+adding-sentences-subheader-abbreviations = مخففات تے سرنامیہ
+adding-sentences-subheader-abbreviations-explanation =
+    سورس ٹیکسٹ بچ مخففات تے سرنامیہ جسطرح "یو ایس اے" یا 
+    "آئی سی ای" کولوں گریز کرنا چاہِیدا ہِے کیاں کہ اے اس طرح پڑھے جل ہکدے ہن جِڑا ان دے ہِجّے نال موافق نہ ہووے۔ مزید اے، ہک ای مخفف واسطے مُچ طرح دیاں درست ریڈنگز ہو سکدیاں ہِن۔
+adding-sentences-subheader-punctuation = علامتاں
+adding-sentences-subheader-punctuation-explanation = خصوصی علامتاں تے رموز صرف اسی صورت شامل کرنے چاہیدے ہن جدوں بالکل ضروری ہوون۔ مثال دے طور تے، انگریزی الفاظ جِیاں "don’t" تے "we're" بچ ہک apostrophe شامل ہے کو سورس ٹیکسٹ بچ شامل کرنا چاہیدا ہے، لیکن اے گل نیں ہو ہکدی کہ تساں کو کدے بھی "@" یا "# ”جئی خصوصی علامت دی ضرورت پئے۔
+adding-sentences-subheader-special-characters = حاص حروف تے غیرملکی حروف
+adding-sentences-subheader-special-characters-explanation-1 = جڑی زبان بول رے ہو اس بچ حروف درست ہونڑے چاہیدے ہن۔ مثال دے طور تے، “ж” ہک روسی حروف تہنی بچ ہک لفظ ہے لیکن انگریزی بچ اے کدے استعمال نیں ہویا تے اے کسی انگریزی سورس ٹیکسٹ بچ ظاہر نیں ہونڑا چاہیدا۔
+adding-sentences-subheader-special-characters-explanation-2 = زباناں مقامی ہونڑاں تو مزید تقاضیاں دے نال اناں دے آپنڑے توثیق دے اصول ہو سکدے ہِن۔ اگر کسی زبان واسطے مخصوص توثیق دی فائل نیں، تے انگریزی دے قاعدے شراکت داراں واسطے ظاہر ہوسن۔
+adding-sentences-subheader-offensive-content = جارحانہ مواد
+adding-sentences-subheader-offensive-content-explanation = اگر جملہ جارحانہ یا پریشان کرنا آلا ہِے - مثال دے طور تے واضح مواد دی وجہ تو، یا اسدی <communityGuidelines>کمیونٹی شرکت دیاں ہدایتاں</communityGuidelines> دی خلاف ورزی - تساں کو اس جملے کو مسترد کر دینڑا چاہِیدا ہِے۔ تُسیں مسئلے کو بڑانڑاں واسطے <emailFragment>commonvoice@mozilla.com</emailFragment> تے وی اسدے نال رابطہ کر سکدے ہو۔
+reviewing-sentences-explanation-1 = اگر جملے اُتلے میعار تے پورے ہن تے ’’ہاں‘‘ بٹن کلک کرو۔
+reviewing-sentences-explanation-2 = اگر جملے اُتلے میعار تے پورے نیں اُتردے  تے ’’ناں‘‘ آلہ بٹن کلک کرو۔
+reviewing-sentences-explanation-3 = اگر تساں کو جملے دے بارے یقین کوئی نیں، تسیں اس کو چھوڑ ہکدے ہو تے اگلے جملے تے جُل سکدے ہو۔
+reviewing-sentences-explanation-4 = اگر تُساں کول جائزہ گِِننّا واسطے جملے مُک جُلدے ہن، براہ مہربانی ہور جملے جمع کرنا واسطے اسدی مدد کرو!
+domain-explanation = ڈومیں دی مراد جملے دا مضمون ہے۔ اس ویلے۔ تسں اناں بچو چُنڑ ہکدے ہو۔

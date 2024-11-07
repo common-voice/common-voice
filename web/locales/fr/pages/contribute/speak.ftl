@@ -60,3 +60,11 @@ already-have-an-account = Vous avez déjà un compte ? <login>Connexion</login>
 create-profile-button = Créer un profil
 # IMAGE TAGS
 img-alt-success-checkmark = coche de réussite
+# menu item
+read-sentences = Lire des phrases
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

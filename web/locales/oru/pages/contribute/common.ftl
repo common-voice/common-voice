@@ -1,4 +1,24 @@
+action-click = کلِک
+action-tap = ټېپ
+contribute = شند
+review = نظرثانی
+skip = نغوک/سکِپ
+shortcuts = لنډکپئ/شاټکټ
+clips-with-count-pluralized =
+    { $count ->
+        [one] کلِپ
+       *[other] کلِپی
+    }
+goal-help-recording = تو ته مشترک اوزي رسؤ نر امداد دوک<goalPercentage> تر</goalPercentage> ترماخن ته ریوزانه ریکارډنګ پاره
+goal-help-validation = تو ته مشترک اوزی رسؤ نر <goalPercentage>ترماخ امداد دوک<goalPercentage> ترماخ ته ریوزانۀ ته صحیح کؤ مقصد نر
+speak-empty-state = ماخ ګیرډ پۀ زبان نر ا بيے جملي ختُم سُکِن
+no-sentences-for-variants = ترمخ ته زبان لهجه نر بُو سا اؤسا سکه ا جملي وه ختُم سُک بېن۔ تو بُو ا سېټنګ بدل اېنچی که بيے جملي دی ګۀ جیره کی خوئ زبان نر
+speak-empty-state-cta = جملي دی شېندن
+speak-loading-error = ماخ دی بئے جملي نک واکِن که ترتو ته غوېڅن پاره وه پېش کيېن۔ بعد نر بئے کوشش کېرن
+record-button-label = ا خوئ آواز ریکارډ کَۀ۔
 share-title-new = مددن کوئ که بئے آوزی دی ګه وؤيېن
+keep-track-profile = ته مُخکی تک ریکارډ يې ساتئ ته پروفائل صورت نر
+login-to-get-started = ته لاګ ِن یا سائن اپ په دریعه وه شُوري کوئ
 target-segment-first-card = تو بُو ا خوئ حصه ګډېوی ترماخ اول تارګېټ خصه کی
 target-segment-generic-card = تُو بُو ا خوئ حصه شېندی ترماخ ته تارګېټ سېګمنټ کی
 target-segment-first-banner = مدد کوئ ته مشترک آواز اول سېګمنټ جوړؤ نر
@@ -111,3 +131,20 @@ contribution-varying-pronunciations-example-2-explanation = [Raised بُو ان�
 contribution-background-noise-title = ا په څُټ شور
 contribution-background-noise-description = ماخ بُو مشین زدۀ الګوریتم لاسته سا وېن که ته په څُټ امريېک شور لاسته ن دی خلاص کوی او که دُشکی شور يې اميېک سَۀ ګۀ، خېر هۀ۔ خه که سا نک بَۀ که کتاب لاسته غوېک ته سبق امرؤ بند کوی۔ ا غِليې څفتَري (مویقي) يې ټهیک هۀ، خه ا فا څفتري که ته پا په وجه ته بَدِله ا ټِکئ نک سهي کَوَک سېن، غلط يې هۀ
 contribution-background-noise-description-extended = که ګُده ا ریکارډنګ بندکېک سَۀ یا ډزا، رد وه کَۀ څُون توݭکيې که ته اره سبق ا غوېک نک اميېک سَۀ۔
+contribution-background-noise-example-1-fixed-title = [پرُنجؤ] </strong> ا سمندئ ډائنوسور ته </strong> [تُخ] ته ګٍی زر ته پِشتک ته زمانه
+contribution-background-noise-example-2-fixed-title = ډینو سمندئ <strong> [ټُخ] ګپی زر ته پِشتک ته زمانه
+contribution-background-noise-example-2-explanation = [ته لیک ا ݭے حصه بو نک امرک سَۀ]
+contribution-background-noise-example-3-fixed-title = <strong> [ډزؤ] </strong> سمندئ ډائنوسور <strong> [ډزؤ]</strong> ګپی زر ته لیک ته زمانه
+contribution-background-voices-title = ته څُټ ا آوزي
+contribution-background-voices-description = ته څُټ ا آوزي یا ا کِش کړپ خېر هۀ بون دې، خه ماخ دی بو سا ݫاتئ آوزی نک زېن که ا مشین الګوریتم دی سال الفاظ جَوَت کوی که افئ دی لیک سبق نر نک بېن۔ که ګُده دی تیوس سا نیووه الفاظ امرکِن که سبق نر دی نکِن، افۀ کلِپ رد کوئ۔ خاص کر سا بو تَۀ سَۀ که ګُده ن ا ټی وی خلاص وتک بَۀ۔ یا يې بویٛ ګُده ژغؤ بَۀ۔
+contribution-background-voices-description-extended = که ګُده ا ریکارډنګ بندکېک سَۀ یا ډزا، رد وه کَۀ څُون توݭکيې که ته اره سبق ا غوېک نک اميېک سَۀ۔
+contribution-background-voices-example-1-title = ا سمندئ ډائنوسور ګپی زر ته لیک ته زمانه <strong> [سۀ آواز نر غوېک] </strong>
+contribution-background-voices-example-1-explanation = تُو ر بُو چیو؟ <strong> [بی کوک کیڅېک] </strong>
+contribution-volume-title = ته ژغ ا چِګ ا ټُوټ
+contribution-volume-description = ته زُت هِشتکوُونئ ته آواز چِګ ټُوټ نر يې بُو فرق بَۀ۔ رده وه تَۀ کَۀ، که ا آواز اُن چِګ بَۀ که ا ریکارډنګ مزا یا عام طور زر اُن ټُوټ بَۀ که آ نک معلومه وک سَۀ، که څۀ بو غؤݭی څُون توݭکيې ت که ا لیکِلئ نک ديېک بَۀ
+contribution-reader-effects-title = ته هِشتَکَوُونئ ا اثر
+contribution-reader-effects-description = ا ݫات ریکارډنګ يې بو ته فۀ خلق بَۀ کوک دی بو که عام آواز نر خبُرئ کَوِن۔ ا کان کان سا غېر معمولي په زوټه یا په سپُتؤ ریکارډنګ بُو قبول اېنچی که ډراميي طور زر يې په فه يي رنګ ریکارډ ݭیوک بَۀ۔ خه ته بدِلئ په طرز نَوُلک آواز ردوئ یا يې کمپیوټر نر مصنوعی جوړ ݭیوک بَۀ
+contribution-just-unsure-title = یقینم بُو نک سَۀ
+contribution-just-unsure-description = که پئ هدایات نر يې سا شئ بَۀ که وه نک ویزر رس، بيې ا خوئ بهترین اندازۀ لګېون۔ خه که بيې وه ګه پویٛ نک سُن، بيې اسکِپ بټن ځن او مخکی ل تر سُن
+see-more = <chevron> </chevron> بيې دی جیره کَۀ
+see-less = <chevron> </chevron> بيې دی جیره کَۀ

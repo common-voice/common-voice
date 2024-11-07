@@ -12,3 +12,11 @@ listen-loading-error =
 listen-abort-title = Terminer la validation des échantillons ?
 listen-abort-cancel = Continuer la validation
 listen-abort-confirm = Terminer la validation
+# Menu item
+validate-readings = Valider les lectures
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

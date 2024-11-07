@@ -15,7 +15,7 @@ contribute-more = ¿A je tijnandei nga s'ian { $count } sa?
 speak-empty-state = Jet'a énnajin xi chubét'ajin énn kui
 no-sentences-for-variants = Tsá mejeri kuan sika'antjeye ju kjí, nga kuan chjutsejere nijmí xi kja'é.
 speak-empty-state-cta = nkjin énn kuisenkasa
-speak-loading-error = Mi kjima jngu nijmí
+speak-loading-error = Mi kjima jngu nijmí. s'a kua sike.
 record-button-label = chubet'a xtari
 share-title-new = <bold>tisenkanajin</bold> sukusjesaná xta.
 keep-track-profile = Chut'asun tjinguíre jusian tisixá asenri.
@@ -26,11 +26,6 @@ target-segment-first-banner = tiisenke nga kuanda titjún chubare Common Voice {
 target-segment-add-voice = Chanijin xtari.
 target-segment-learn-more = Me sa xi tjin.
 change-preferences = Sik'antjeya xi tsachaa.
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = kj'uátjó xta.
-contribute-sentence-collection-nav-header = K'uexkú énn.
 login-signup = Tetsie / tj'atae.
 vote-yes = Jon
 vote-no = majen
@@ -125,3 +120,7 @@ contribution-varying-pronunciations-title = Kja'ésin nukjua ik'a.
 contribution-varying-pronunciations-description = Nda chut'ae tsá mi mejeri jngu xta xi kitjubet'a nñú kjín skuya jus'in ma nukjua, tjín xi mi nu'yare nanguiri.
 contribution-varying-pronunciations-description-extended = Tsá xi tibe'exkiya kjie bee énn, tsa to kjaé tisú, kuan sik'atu.
 contribution-varying-pronunciations-example-1-title = Tjín xi kjisún sku.
+contribution-varying-pronunciations-example-1-explanation = (('Beret') ndá kji, kuan tsá asento kjuá sun nga tjún (Reino Unido) kua tsá si mani jó EE.UU.)
+contribution-varying-pronunciations-example-2-title = tsikijen nka ns'a.
+contribution-varying-pronunciations-example-2-explanation = Raised' to nik'a nukjuav nga kjaé énn. mitså jó.
+contribution-background-noise-title = Cho'sin nu'yare
