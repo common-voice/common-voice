@@ -122,3 +122,4 @@ contribution-varying-pronunciations-description-extended = Tsá xi tibe'exkiya k
 contribution-varying-pronunciations-example-1-title = Tjín xi kjisún sku.
 contribution-varying-pronunciations-example-1-explanation = (('Beret') ndá kji, kuan tsá asento kjuá sun nga tjún (Reino Unido) kua tsá si mani jó EE.UU.)
 contribution-varying-pronunciations-example-2-title = tsikijen nka ns'a.
+contribution-varying-pronunciations-example-2-explanation = Raised' to nik'a nukjuav nga kjaé énn. mitså jó.
