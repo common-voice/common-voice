@@ -119,6 +119,12 @@ rate-limit-message-minutes =
         [one] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud am minuto tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
        *[other] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud { $retryLimit } minuto tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud am segundo tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
+       *[other] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud { $retryLimit } segundo tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
@@ -133,6 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Kanod ñe'e “¿Dea nudu chi kadi kunekad?”
 small-batch-sentences-rule-2 = Dijud ama nudu no línea.
+small-batch-sentences-rule-3 = Kunebi'id ama nudu dïd chi kabnuu kuo am ama nuku bi'i.
 small-batch-sentences-rule-4 = Kunejúd nii 1.000 núdu
 small-batch-sentences-rule-5 = Nudi chi dijud ne'e chi dama nukue.
 small-batch-sentences-rule-6 = Nudu chi dijud ne'e chi dama nukue.
