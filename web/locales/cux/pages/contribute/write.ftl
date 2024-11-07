@@ -45,7 +45,23 @@ automotive_transport = Ku chi jindé iña
 # Sentence Domain dropdown option
 finance = Tumi
 # Sentence Domain dropdown option
+service_retail = Nochi dubiii jiníkuy
+# Sentence Domain dropdown option
 general = Nukue'e
+# Sentence Domain dropdown option
+healthcare = Beabíchaa
+# Sentence Domain dropdown option
+history_law_government = Chi ndí, jinakanó, intie'ë
+# Sentence Domain dropdown option
+language_fundamentals = No nanë nudu
+# Sentence Domain dropdown option
+media_entertainment = Nukuo nochi jóo ñe'eñ
+# Sentence Domain dropdown option
+nature_environment = Chi bea jiñede
+# Sentence Domain dropdown option
+news_current_affairs = Chi jikadínuu nuku chi bea moo
+# Sentence Domain dropdown option
+technology_robotics = Bedeanu nuku kúdeanu
 sentence-variant-select-label = Núdu chi jo'o
 sentence-variant-select-placeholder = Konto'od ama nudu (nichi ne'ëd )
 sentence-variant-select-multiple-variants = nuekue'ë nyudu/ Née noo núdu
@@ -62,7 +78,11 @@ try-upload-again = Kueatud archivo ñe'ed mu'u.
 try-upload-again-md = Kueatud archivo ñe'ed
 select-file = Neabed archivo ñe'ed
 select-file-mobile = Neabed archivo chi kuead.
+accepted-files = Kaka chi jicho'oo: tabea. tsv
+minimum-sentences = Nudu chi kadi kunud no archivo gua kané chi dúbiká chi kubi:1000
+maximum-file-size = Gua kadi cho'oné ñe'e: 25 M
 what-needs-to-be-in-file = ¿Deatnu ne'ë chi kunuu boo kaka ñ'ë?
+what-needs-to-be-in-file-explanation = Nichid archivo <templateFileLink>ñe'e plantilla ñe'en</templateFileLink>. Nudu ñe'ed kane chi nuke'eñ kadi nichiy, (CC0 iku kané chi yeabea kanejü tumin kadi kamañ nó: Nudu chi dicho'od kane chi tané kamañ no 10 o 15 segundo, gua kané chi kanú número, chi jobe iña ni guan tamnó chi gua letra.
 upload-progress-text = A jea ñe'ed...
 sc-bulk-submit-confirm = Nudu kun <wikipediaLink>a di du'u nu kadi tubi</wikipediaLink> y kadi kueka.
 bulk-upload-success-toast = A cheañ nudud
@@ -81,6 +101,30 @@ too-many-files = Yeabean ndee archivo
 small-batch-instruction = Kunekad <icon></icon> nudu chi nukueñ kadi nichiñ.
 multiple-sentences-error = Gua kadi kuead ndee nudu tochi dicho'od "sencillo"
 exceeds-small-batch-limit-error = Gua kadi dicho'od mas ñe'e 1000 nudu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Cho'oné kadi chi ne'e. Numnango'od no am minuto
+       *[other] Cho'oné kadi chi ne'e numnango'od no { $retryLimit } minuto
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Cho'o né kadi chi ne'e. Numnango'od no am segundo
+       *[other] Cho'o né kadi chi ne'e numnango'od no { $retryLimit } segundo
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud am minuto tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
+       *[other] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud { $retryLimit } minuto tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud am segundo tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
+       *[other] Cho'o né kadi chi dicho'od ñe'e página kú. kunejinud { $retryLimit } segundo tumin kadi dicho'od tama nudu. ¡Ndios nadibad chi kanejinud!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
@@ -95,6 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Kanod ñe'e “¿Dea nudu chi kadi kunekad?”
 small-batch-sentences-rule-2 = Dijud ama nudu no línea.
+small-batch-sentences-rule-3 = Kunebi'id ama nudu dïd chi kabnuu kuo am ama nuku bi'i.
 small-batch-sentences-rule-4 = Kunejúd nii 1.000 núdu
 small-batch-sentences-rule-5 = Nudi chi dijud ne'e chi dama nukue.
 small-batch-sentences-rule-6 = Nudu chi dijud ne'e chi dama nukue.

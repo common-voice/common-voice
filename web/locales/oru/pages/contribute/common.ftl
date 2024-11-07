@@ -1,4 +1,24 @@
+action-click = کلِک
+action-tap = ټېپ
+contribute = شند
+review = نظرثانی
+skip = نغوک/سکِپ
+shortcuts = لنډکپئ/شاټکټ
+clips-with-count-pluralized =
+    { $count ->
+        [one] کلِپ
+       *[other] کلِپی
+    }
+goal-help-recording = تو ته مشترک اوزي رسؤ نر امداد دوک<goalPercentage> تر</goalPercentage> ترماخن ته ریوزانه ریکارډنګ پاره
+goal-help-validation = تو ته مشترک اوزی رسؤ نر <goalPercentage>ترماخ امداد دوک<goalPercentage> ترماخ ته ریوزانۀ ته صحیح کؤ مقصد نر
+speak-empty-state = ماخ ګیرډ پۀ زبان نر ا بيے جملي ختُم سُکِن
+no-sentences-for-variants = ترمخ ته زبان لهجه نر بُو سا اؤسا سکه ا جملي وه ختُم سُک بېن۔ تو بُو ا سېټنګ بدل اېنچی که بيے جملي دی ګۀ جیره کی خوئ زبان نر
+speak-empty-state-cta = جملي دی شېندن
+speak-loading-error = ماخ دی بئے جملي نک واکِن که ترتو ته غوېڅن پاره وه پېش کيېن۔ بعد نر بئے کوشش کېرن
+record-button-label = ا خوئ آواز ریکارډ کَۀ۔
 share-title-new = مددن کوئ که بئے آوزی دی ګه وؤيېن
+keep-track-profile = ته مُخکی تک ریکارډ يې ساتئ ته پروفائل صورت نر
+login-to-get-started = ته لاګ ِن یا سائن اپ په دریعه وه شُوري کوئ
 target-segment-first-card = تو بُو ا خوئ حصه ګډېوی ترماخ اول تارګېټ خصه کی
 target-segment-generic-card = تُو بُو ا خوئ حصه شېندی ترماخ ته تارګېټ سېګمنټ کی
 target-segment-first-banner = مدد کوئ ته مشترک آواز اول سېګمنټ جوړؤ نر

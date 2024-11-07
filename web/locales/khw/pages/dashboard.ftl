@@ -10,7 +10,7 @@ todays-validated-progress = ہنونو کامن وائسو اوازان توثی
 stats = حالات
 awards = تمغہ
 you = تو
-everyone = ہر کا
+everyone = ہرایوالی
 contribution-activity = مدد کوریکو کوروم
 top-contributors = سافو سار زیاد مدد کوراک
 recorded-clips = رکارڈ بیرو ہواز
@@ -24,20 +24,20 @@ show-ranking = مہ درجو پشاوے
 
 ## Custom Goals
 
-get-started-goals = مقصدان گنی شروع کو
+get-started-goals = مقصدان پروشٹہ لکھی شروع کو
 create-custom-goal = ای تان مرضیا مقصد لکھے
 goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
 both-speak-and-listen-long = کھاڑ (لودیت وا کار کورے)
-daily-goal = انوسو مقصد
+daily-goal = ہو انوسو مقصد
 weekly-goal = ہفتو مقصد
-easy-difficulty = مضمون
-average-difficulty = اوسظ
-difficult-difficulty = مشکل
+easy-difficulty = اسان
+average-difficulty = اوسط
+difficult-difficulty = گران
 pro-difficulty = حمایتی
-lose-goal-progress-warning = تان حدفو ایڈیک کی ارو، تہ کوروم تونج دی بوئے۔
+lose-goal-progress-warning = تان حدفو ایڈیٹ کی ارو، تہ کوروم تونج دی بوئے۔
 want-to-continue = تو جاری سوتیک مݰکیسانا؟
-finish-editing = پوشٹی ایڈیٹنگو  ختم کو
+finish-editing = اویل ایڈیٹنگو  ختم کو
 lose-changes-warning = ہنیسے ہموغار بیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
 build-custom-goal = تان تین ای حدف لکھے
 help-reach-hours-pluralized =

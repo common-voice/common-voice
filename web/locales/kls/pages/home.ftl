@@ -42,12 +42,31 @@ x-years-short =
 help-make-dataset = Homa madad kari, sawin pi prus't dataset kholaw karikas bati
 sign-up-account = Kholaw kari, Account sawzai
 email-subscription-title = Kholaw kari, sawzai, email update kari
+email-subscription-title-new = Kholaw kari Common Voice khabar an bati, yat dehani as bati, update an bati
 
 ## Account Benefits
 
+benefits = Faida
+rich-data = Tai data jama karikas pi shumber warek jaiga an bari una asta ne pashila' data de. Abi te jaiga jagek, toa abit te sawin pashek
+improve-audio = Profile as malumat audio data, training karik te mon sida karikas hatya ajat hin dai
+keep-track = Tan tharaki, krom as riftar, zuban una prus't hiu ori
+compare-progress = Jagai tan riftar, saw dunya una kura ki den dai
+view-goals = Tu tan krom as riftar ya o project as goal jages
+join-newsletter = Tai chit, tu pe join kas day haw, email una updates jagek bahas. Project an bari una malumat asta shian
 
 ## What's public
 
+whats-public = Sawin hatya kia?
+email-not-public = Abi tai email sawin ne pashek.
+recordings-and-locale-public = Tu kimon ki recarding kai as, kia zuban una ki kai as, abi te o sawin pashek.
+username-optin-public = Tu tan usernom sawin pashis ya o pachan kai tai
+demographic-deidentified-clarity-2 = Tan marzi una jama kada data, jaiga an bariu una  (e.g. kaw, istrizah/ purush, zuban, ze awaz. Abi te sawin ne pashek. te kawa training karik wew ya o domain sawzaik wew o ajat hin.
+username-email-not-demographic = Tai usernom ze email data una newishik wew ne jonel
 
 ## Landing
 
+welcome-staff = Andai al'i e staff
+help-contribute = Tu joma madad kari, kholaw zaria as thara, common voice/ sawin awaz as profile sawzai o tan awaz homa som phazi
+login-company = kholaw kari, Sawzai email
+profile-not-required = Account ajat ne, dikas bati, leken prus't hiv ashis pe haw
+read-more-about = warek asta mas, Homa bari una page una
