@@ -20,9 +20,17 @@ sc-review-form-button-approve-shortcut = d
 sc-review-form-button-reject-shortcut = a
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = t
-sc-review-form-keyboard-usage-custom = მაკ შუჼ ღილაკივ მუშებადალაჼ: { sc-review-form-button-approve-shortcut } - დამოწმებ, { sc-review-form-button-reject-shortcut } უარ ალარ (დაწუნბადარ), { sc-review-form-button-skip-shortcut } - მაქა ეჴჴარ (გამოტოვებადარ)
+sc-review-form-keyboard-usage-custom = მაკ შუჼ ღილაკივ მუშებადალაჼ: { sc-review-form-button-approve-shortcut } - დამოწმებ, { sc-review-form-button-reject-shortcut } უარ ა́ლარ (დაწუნბადარ), { sc-review-form-button-skip-shortcut } - მაქა́ ეჴჴარ (გამოტო́ვებადარ)
 sc-review-form-button-submit =
-    .submitText = დაყყდარ ცერ და́ლ'არ
+    .submitText = დაყყდარ (შემოწმებ) ცერ და́ლ'არ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] წინადა́დბი ცო და დაყყდიენო̆ (შემო́წმადიენო̆)
+        [one] 1 წინადა́დებ ჲა დაყყჲიენო̆  (შემო́წმადიენო̆). მადლობ!
+       *[other] { $sentences } წინადა́დებ ჲა დაყყჲიენო̆. (შემო́წმადიენო̆). მადლობ!
+    }
 
 ## REVIEW CRITERIA
 
