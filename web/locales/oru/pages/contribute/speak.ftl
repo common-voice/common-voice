@@ -51,3 +51,9 @@ create-profile-text = ا معلومات بُو سېو کؤ زېيي <createProfi
 thanks-for-voice-toast = آوازي معلومات پاره ت شکریا
 thanks-for-voice-toast-error = غلطي ر دې زاک ته آوازي معلومات ته ڒیوڅن په وخت
 first-cta-gender-select-default-option = وُرغېوي يې خوش کَۀ
+first-cta-gender-select-help-text =
+    .label = تو سو ا خوئ جنس نر یا شِځه څا بیانېوي؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ته آواز ته پېش کؤ پاره ت شکریا
+second-cta-subtitle-text = خوئ پروفائل نر ته خوئ کری ا ریکارډ ساتيېک اېنچی، او فئ خلق ګیرډ يې ګۀ تعلق ساتيېک اېنچی کوک که ته آواز ته ډېټا حصه دري یِن
+already-have-an-account = اول لاسته ت دې اکاؤنټ هۀ <login> لاګه سُن نر</login>
