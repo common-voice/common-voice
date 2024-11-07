@@ -37,3 +37,15 @@ review-cancel = Nwe cho'o ndodo yi'ide mu'u naa koo.
 review-keep-recordings = Mane fnuu ndodo yi'ide mu'u naa koo.
 review-delete-recordings = Akote fnuu ndodo yi'ide mu'u na koo.
 review-terms = Tase a iytubide Common Voice, adbenode de'e kubi.
+terms-agree = A
+terms-disagree = Nwe
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡ Yondibkuedes se iytede ndodo yi'ide se iynuu mu'u na koo !
+first-cta-subtitle-text = ¿ Bee de'es ne kamade yi'i dbaku yi'ide ?
+why-donate = ¿Dekubes se iytomunede?
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
