@@ -53,6 +53,8 @@ read-more-about = اسی متعلقہ صفحہ بے دوئی مزید منوئی
 
 answer-questions = سوال جویبی <small>( لپ یھین)</small>
 review-transcriptions = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
+add-questions = سویلی جمع تھئنی  <small>(لپ یھین )</small>
+transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 
 ## MENU ITEMS TOOLTIPS
 
