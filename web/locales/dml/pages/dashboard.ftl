@@ -2,6 +2,8 @@
 
 your-languages = مِنہ باݜہ نم
 toward-next-goal = مُکھ بئں تہ مقصد بئں
+goal-reached = منزل تلی ویبا
+clips-you-recorded = کلپس نم کیرا میاں ریکارڈ کُتُھبہ
 
 ## Custom Goals
 
@@ -25,6 +27,25 @@ share-goal-type-both = مُشکُل بینن آں اُشترونن
 goal-share-text = ژا عام کاڻ کی ما کاڻ عطیہ کُرن زاتی مقصد درو، مو ملی شامل با آں مشین نامہ کڅنہ مدد کُرا تے انسان کنو بئی مُشکُل بین{ $link }
 weekly-goal-created = تاں ہفتہ وار مقصد ژوپئن گا
 daily-goal-created = تاں روزانہ تہ مقصد ژوپئن گا
+track-progress = ایا آں اعداد و شمار تہ تانوں  پھٹہ پیش رفت ٹریک کُرا
+return-to-edit-goal = کیر ایس تانوں مقصدہ ردوبدل کُرئیں کی گرنکھتی ایا آڅا
+share-goal = تانوں مقصد شیئر کُرا
 
 ## Goals
 
+streaks = چوڻر نم
+days =
+    { $count ->
+        [one] دیو
+       *[other] دیو نم
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکاردنگ نم
+    }
+validations =
+    { $count ->
+        [one] توثیق
+       *[other] توثیق نم
+    }
