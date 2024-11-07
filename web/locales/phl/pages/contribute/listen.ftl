@@ -10,3 +10,17 @@ listen-loading-error = بے تو تھے کاݨ تھئنی دپارہ ہاویز�
 listen-abort-title = کلیپی تصدیق تھئنی نسی گڈیلوے؟
 listen-abort-cancel = تصدیق تھئنی جاری ساتہ
 listen-abort-confirm = تصدیق تھئنی ختم تھہ
+# Menu item
+validate-readings = منئنی توثیق تھہ۔
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = منئنی توثیق تھہ، عبارتی جائزہ تھہ۔
+validate-readings-menu-item-tooltip = تیݨی زبان کی ریکاڈ  تھیلہ ریڈنگی توثیق تھہ۔
+review-transcriptions-menu-item-tooltip = تیݨی زبان کی صارفی جمع تھیلہ عبارتی جائزہ گھن۔
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = اختیاریتی مینو ݜُݨ
+validate-readings-menu-item-aria-label = کمیونٹی ممبرانومی طرفی جمع تھیلہ واندہ عباراتی توثیق تھہ۔
+review-transcriptions-menu-item-aria-label = درستگی دپارہ ریکاڈشدہ عباراتی جائزہ گھن
