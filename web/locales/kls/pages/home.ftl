@@ -60,11 +60,13 @@ whats-public = Sawin hatya kia?
 email-not-public = Abi tai email sawin ne pashek.
 recordings-and-locale-public = Tu kimon ki recarding kai as, kia zuban una ki kai as, abi te o sawin pashek.
 username-optin-public = Tu tan usernom sawin pashis ya o pachan kai tai
+demographic-deidentified-clarity-2 = Tan marzi una jama kada data, jaiga an bariu una  (e.g. kaw, istrizah/ purush, zuban, ze awaz. Abi te sawin ne pashek. te kawa training karik wew ya o domain sawzaik wew o ajat hin.
 username-email-not-demographic = Tai usernom ze email data una newishik wew ne jonel
 
 ## Landing
 
 welcome-staff = Andai al'i e staff
+help-contribute = Tu joma madad kari, kholaw zaria as thara, common voice/ sawin awaz as profile sawzai o tan awaz homa som phazi
 login-company = kholaw kari, Sawzai email
 profile-not-required = Account ajat ne, dikas bati, leken prus't hiv ashis pe haw
 read-more-about = warek asta mas, Homa bari una page una

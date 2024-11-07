@@ -1,7 +1,9 @@
 ## Languages Overview
 
 language-section-in-progress = Riftar una shiau
+language-section-in-progress-new-description = Shemi zuban onja comety aini mochan som shian, onja al'ai thara krom karin dai. website be tan zuban una sawuz hawaw, mon ze awaz bata jama karik.
 language-section-launched = Tayar hawaw
+language-section-launched-description = Shemi zuban be tayar hawan haw. <localizationGlossaryLink>localized</localizationGlossaryLink>, ziada mon ze.mashkulgi jama.hawan haw.<sentenceCollectionGlossaryLink>mon pe jama.hawa haw</sentenceCollectionGlossaryLink>  ijazat grik<speakLink>mon dek</speakLink> and <listenLink>ko'n' </listenLink> phazik
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Akheri Update
 languages-show-more = Warek asta jagai
