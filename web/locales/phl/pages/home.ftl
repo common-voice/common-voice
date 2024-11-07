@@ -30,9 +30,13 @@ x-years-short =
        *[other] وائی
     }
 help-make-dataset = تپہ اسام سنگی شو معیار بُٹھیمی دپارہ ڈیٹا سیٹ سمئنی مدد تھانو۔
+sign-up-account = اکاونٹی دپارہ سائن اب تھہ
+email-subscription-title = ای میلی وے نیوی بیتی اٹئینی دپارہ یعنی اپڈیٹ تھئنی دپارہ سائن اب تھہ
+email-subscription-title-new = کامن وائسی بارئی خبری، تیݨی مقصد  یاد کی اٹئنی دپارہ او مُݜٹو گرا بئنی معلومیتی دپارہ سائن اب تھہ۔
 
 ## Account Benefits
 
+benefits = فائدے
 
 ## What's public
 
@@ -47,6 +51,8 @@ read-more-about = اسی متعلقہ صفحہ بے دوئی مزید منوئی
 
 ## NAV ITEMS
 
+answer-questions = سوال جویبی <small>( لپ یھین)</small>
+review-transcriptions = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
 
 ## MENU ITEMS TOOLTIPS
 
