@@ -48,6 +48,13 @@ why-donate-explanation-2 = ٹیکنالوجی ابُت طریقہ ہر کساں 
 add-information-button = معلومات شامل کُرا
 continue-speaking-button = نی مہربانی، مُشکُل بو
 create-profile-text = تاں معلومات محفوط کُرن گٹینُمہ<createProfile>ایک فروفائل ژوپئی</createProfile>
+thanks-for-voice-toast = تاں کاڻ تہ معلومات تہ پرئی تاں مہربانی
+thanks-for-voice-toast-error = تاں کاڻ تہ معلومات جمع کُرنہ ایک خرابی آگا
+first-cta-gender-select-default-option = ایک آپشن گی
+first-cta-gender-select-help-text =
+    .label = تو کنو کُری تانوں جنس یا جنس تہ وضاحت کُریس
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تانوں کاڻ پرینہ تاں شکریہ
 
 ## MENU ITEM TOOLTIPS
 
