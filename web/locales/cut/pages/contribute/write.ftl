@@ -52,9 +52,26 @@ general = Tndubee kueenoo
 healthcare = Bikchee inña, nwe ke'eya
 # Sentence Domain dropdown option
 history_law_government = De'es dbenno inña, de'es se iytunnu inña, taka iydiya se indi inña ndinñi'i
+# Sentence Domain dropdown option
+language_fundamentals = De'es kama taka nde'eoo
+# Sentence Domain dropdown option
+media_entertainment = De'es kugbii ndikchuu tomene nwe kubdanduu
+# Sentence Domain dropdown option
+nature_environment = De'es bee biata ndoskue'e se iiyndikchuu
+# Sentence Domain dropdown option
+news_current_affairs = De'es ii
+# Sentence Domain dropdown option
+technology_robotics = Koo se dbenno
+sentence-variant-select-label = Tama ndodo
+sentence-variant-select-placeholder = Tndanude ama ndodo
+sentence-variant-select-multiple-variants = Ndenna ndodo bee/ abi'i
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Cho'otundee ndodo se iyndikchii tndubee inña yi'i yabakude
+sc-bulk-upload-instruction = Kuinngondade kaka yi'ide mu'u, mu'u ndetade tomene kugbii fnuu kaka yi'ide
+sc-bulk-upload-instruction-drop = Mu'u fnuu kaka yi'ide
 
 ## SMALL BATCH SUBMISSION
 
