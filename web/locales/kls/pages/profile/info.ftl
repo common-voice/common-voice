@@ -46,6 +46,7 @@ settings = Settings
 edit-profile = Profile geri sawzek
 profile-create-success = Kamiyab, profile sawuz hawaw
 profile-close = band kari
+thanks-for-account = Shukuria tai account as bati malumat dek. Onja tai Profile sawzek
 why-demographic = Shia ko zaruri?
 accept-privacy-title = privacy as kanun
 login-identity = Kholaw karikas nishan/ Login Identity
