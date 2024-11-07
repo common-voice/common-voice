@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = עפרית
 ab = אבחזית
 ace = אצ'הית
 ady = אדיגית
