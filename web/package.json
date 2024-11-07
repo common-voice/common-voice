@@ -34,6 +34,7 @@
     "react-router-navigation-prompt": "1.9.6",
     "react-tabs": "4.2.1",
     "react-tippy": "1.4.0",
+    "react-tooltip": "5.28.0",
     "redux": "4.1.2",
     "redux-thunk": "2.4.2",
     "webpack": "5.76.3"

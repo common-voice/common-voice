@@ -1,5 +1,6 @@
 ## WRITE PAGE
 
+write = Навиштан
 write-instruction = Илова кардани <icon></icon> ҷумлаи дастраси умум
 sentence =
     .label = Ҷумла
@@ -9,6 +10,8 @@ citation =
     .label = Иқтибос
 sc-review-write-title = Кадом ҷумлаҳоро илова карда метавонам?
 sc-review-small-batch-title = Тарзи илова кардани якчанд ҷумла
+new-sentence-rule-3 = Грамматикаи дурустро истифода баред
+new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои китобати дурустро истифода баред
 # Sentence Domain dropdown option
 agriculture_food = Кишоварзӣ ва озуқаворӣ
 # Sentence Domain dropdown option

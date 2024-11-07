@@ -32,49 +32,51 @@ export const handler =
       cmd: AddBulkSubmissionCommand
     ) => TE.TaskEither<ApplicationError, boolean>
   ) =>
-    async (req: Request, res: Response) => {
-      const {
-        client_id,
-        headers,
-        params: { locale },
-      } = req
+  async (req: Request, res: Response) => {
+    const {
+      session: {
+        user: { client_id },
+      },
+      headers,
+      params: { locale },
+    } = req
 
-      const size = Number(headers['content-length'])
+    const size = Number(headers['content-length'])
 
-      if (!client_id)
-        return res
-          .status(StatusCodes.BAD_REQUEST)
-          .json({ message: 'no client id' })
+    if (!client_id)
+      return res
+        .status(StatusCodes.BAD_REQUEST)
+        .json({ message: 'no client id' })
 
-      if (size >= SIZE_LIMIT_IN_BYTES)
-        return res
-          .status(StatusCodes.BAD_REQUEST)
-          .json({ message: `file is larger than ${SIZE_LIMIT_IN_MB}MB` })
+    if (size >= SIZE_LIMIT_IN_BYTES)
+      return res
+        .status(StatusCodes.BAD_REQUEST)
+        .json({ message: `file is larger than ${SIZE_LIMIT_IN_MB}MB` })
 
-      const file = await readBodyFromRequest(req)
+    const file = await readBodyFromRequest(req)
 
-      if (size !== file.length)
-        return res
-          .status(StatusCodes.BAD_REQUEST)
-          .json({ message: 'file size is not matching content-length' })
+    if (size !== file.length)
+      return res
+        .status(StatusCodes.BAD_REQUEST)
+        .json({ message: 'file size is not matching content-length' })
 
-      const cmd: AddBulkSubmissionCommand = {
-        filename: String(headers.filename),
-        submitter: client_id,
-        locale: locale,
-        file: file.toString('hex'),
-        size: size,
-      }
-
-      return pipe(
-        cmd,
-        cmdHandler,
-        TE.mapLeft(createPresentableError),
-        TE.fold(
-          err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
-          () => T.of(res.json({ message: 'Bulk submission added' }))
-        )
-      )()
+    const cmd: AddBulkSubmissionCommand = {
+      filename: String(headers.filename),
+      submitter: client_id,
+      locale: locale,
+      file: file.toString('hex'),
+      size: size,
     }
+
+    return pipe(
+      cmd,
+      cmdHandler,
+      TE.mapLeft(createPresentableError),
+      TE.fold(
+        err => T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err)),
+        () => T.of(res.json({ message: 'Bulk submission added' }))
+      )
+    )()
+  }
 
 export const addBulkSubmissionHandler = handler(addBulkSubmissionCommandHandler)
