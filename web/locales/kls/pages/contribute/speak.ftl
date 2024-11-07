@@ -71,3 +71,6 @@ answer-questions-menu-item-tooltip = Recard kari tan hatya, tan zuban una mondr 
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Mon dekas option menu( Jaiga)
+read-sentences-menu-item-aria-label = Mon mahikas, muktalif zuban una, comety as jama kada
+answer-questions-menu-item-aria-label = No'n'a sawal jama kari, comety man asta achi jawab asta den
