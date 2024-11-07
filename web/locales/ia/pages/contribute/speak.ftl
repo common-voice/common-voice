@@ -60,3 +60,11 @@ already-have-an-account = Ha tu jam un conto? <login>Accede</login>
 create-profile-button = Crear un profilo
 # IMAGE TAGS
 img-alt-success-checkmark = marca de successo
+# menu item
+read-sentences = Leger phrases
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

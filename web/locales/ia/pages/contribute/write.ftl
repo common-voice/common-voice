@@ -143,3 +143,11 @@ small-batch-sentences-rule-3 = Separa le phrases in un sol linea pulsante “Inv
 small-batch-sentences-rule-4 = Adde usque 1000 phrases
 small-batch-sentences-rule-5 = Tote le phrases debe haber le mesme dominio
 small-batch-sentences-rule-6 = Tote le phrases debe haber le mesme citation
+# menu item
+add-sentences = Adder phrases
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

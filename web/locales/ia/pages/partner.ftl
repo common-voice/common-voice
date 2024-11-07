@@ -16,3 +16,5 @@ partnerships-small-business-description = Nos cerca sempre de audir le consummat
 partnerships-corporates-header = Corporationes e platteformas de grande scala
 partnerships-corporates-description = Si tu vole discuter altero re le insimul de datos, vole co-investir in le expansiones de platteformas planate o prestar attention a opportunitates de collaboration, <emailFragment>scribe nos un rango.</emailFragment>
 partnerships-our-partners = Nostre socios
+# menu item
+partners = Partners

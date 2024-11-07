@@ -94,3 +94,5 @@ release-version = Version
 dataset-date = Data
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Discargar le collection de datos de tu voce
