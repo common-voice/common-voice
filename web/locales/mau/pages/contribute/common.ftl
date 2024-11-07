@@ -124,3 +124,4 @@ contribution-varying-pronunciations-example-1-explanation = (('Beret') ndá kji,
 contribution-varying-pronunciations-example-2-title = tsikijen nka ns'a.
 contribution-varying-pronunciations-example-2-explanation = Raised' to nik'a nukjuav nga kjaé énn. mitså jó.
 contribution-background-noise-title = Cho'sin nu'yare
+contribution-background-noise-description = Mejenajin nga nda s'e xánajin, nga kuan tjube chuba jme xi kjima ngande, kuan tjubet'a ksá mi nñú tijane. tonga tsá nñu tijna mi ki kuan.
