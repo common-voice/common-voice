@@ -30,3 +30,14 @@ record-abort-continue = ا ریکارډنګ ختُم کَۀ
 record-abort-delete = نِسل او ا کلِپی ختُم کَۀ
 review-aborted = ا اپلوډ ناکام ݭیوک۔ تُو بو زېيي که ا ریکارډنګ ختُم کی؟
 review-submit-title = بيې وه جیر کَۀ او پېشه کَۀ
+review-submit-msg = ته ریکارډنګت مهرباني <lineBreak></lineBreak> پېری وه بيې جیر کَۀ او ا کلِپی دۀ ځېم پېش کَۀ
+review-recording = نظرثانی/ بيې جیر
+review-rerecord = بيې ریکارډ
+review-cancel = ا پېش ݭیوک کېنسل
+review-keep-recordings = ا ریکارډنګ سېتن
+review-delete-recordings = ترمُن ا ریکارډنګ ختُم کَۀ
+review-terms = ته مشترک آواز ته استعمال يې او مطلب ݭیوک که تُو ترماخ <termsLink> ݭړطی ګیرډ <privacyLink> ګیرډ متفق هې
+terms-agree = از متفق هوم
+terms-disagree = از متفق نک هوم
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ترتو ته آوار ا کلِپی ماخ کی ته ڒیوڅن مهرباني
