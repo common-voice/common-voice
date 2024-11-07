@@ -60,3 +60,13 @@ already-have-an-account = مُݜٹوے اکاونٹ ہنوے؟ <login>لاگ ا�
 create-profile-button = آک پروفائل سمہ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیبی نِݜون
+# menu item
+read-sentences = جملے منوئی،
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملے منوئی، سُویلیمی جواب دوئی
+read-sentences-menu-item-tooltip = تیݨی زبان کی منئنی جملے ریکاڈ تھوئی۔
+
+## MENU ITEM ARIA LABELS
+
