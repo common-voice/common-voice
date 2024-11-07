@@ -10,3 +10,11 @@ listen-loading-error = ماخ يې اډیو کلٍپ نک امريېک۔ بعد 
 listen-abort-title = ته کلٍِپ ا صحیح کؤ پُورۀ ݭیوک۔؟
 listen-abort-cancel = ا صحیح کؤ جاري سېتن
 listen-abort-confirm = ا صحیح کؤ پُورۀ ݭیوک
+# Menu item
+validate-readings = ته غوېک يې بيې تصدیق کَۀ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
