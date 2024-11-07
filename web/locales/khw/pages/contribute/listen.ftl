@@ -16,6 +16,7 @@ validate-readings = ریکو تصدیق
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ریکو تصدیق، نقلان وا لوڑیک
+validate-readings-menu-item-tooltip = تان وارا کورما انگیاگو رکارڈ بیرو ریکو تصدیق کو
 
 ## MENU ITEM ARIA LABELS
 
