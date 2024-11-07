@@ -30,6 +30,17 @@ record-abort-continue = ریکاڈنگ ختم کُرے
 record-abort-delete = نیسے آں کلپ ڈیلیٹ کُرے
 review-aborted = اپ لوڈ اوتھینا۔ تو ریکارڈنگ ڈیلیٹ کُرن گٹینپی
 review-submit-title = جائزہ گی آں جمع کُرے
+review-submit-msg = ریکارڈنگ تہ مہربانی<lineBreak> </lineBreak>  ژاجائزہ کُری آں تانوں کلپ کُرے
+review-recording = جائزہ
+review-rerecord = دوبارہ ریکاڈ کُرے
+review-cancel = جمع کُرن کینسل کُرے
+review-keep-recordings = ریکارڈنگ تھئی
+review-delete-recordings = ما ریکارڈنگ ڈیلیٹ کُرے
+review-terms = عام کاڻ استعمل کُری، تو امونہ <termsLink>شرط نامہ</termsLink>آں <privacyLink>رازداری تہ نوٹس</privacyLink>
+terms-agree = ائی مننُم
+terms-disagree = ائی نی منُم
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تاں کاڻ تہ کلپ عطیہ کُرن تہ پرئی شکریہ
 
 ## MENU ITEM TOOLTIPS
 
