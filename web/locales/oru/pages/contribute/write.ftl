@@ -16,6 +16,10 @@ sc-review-small-batch-title = ا مختلف قسم جملي ل سُو از څا 
 new-sentence-rule-1 = <noCopyright> ته کاپی رائټ  </noCopyright> پابندي دې نک هۀ <cc0> </cc0>
 new-sentence-rule-2 = پنځېس 15 لاسته کېم الفاظ ݭيې جملۀ نر
 new-sentence-rule-3 = ا ګرامر سُو صحیح لیکی
+new-sentence-rule-4 = صحیح پنکچوېشن او املا يې سو لیکی
+new-sentence-rule-5 = مخصوص حرفی او هندسي دی سو نک لیکی
+new-sentence-rule-6 = غېرملکي خرفی دی سو نک لیکی
+new-sentence-rule-7 = مناسب خوالي دی سو شامېلېوی
 
 ## BULK SUBMISSION 
 
