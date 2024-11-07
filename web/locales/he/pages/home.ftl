@@ -14,13 +14,9 @@ show-wall-of-text = מידע נוסף
 help-us-title = עזרו לנו לאמת משפטים!
 help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם המשפט שמופיע להלן הוקרא כראוי?
 no-clips-to-validate = נראה שאין מקטעים להאזין להם בשפה זו. נשמח לקבל סיוע למלא את המחסנית על ידי הקלטת מקטעים כעת.
-vote-yes = כן
-vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
-speak-subtitle = תרמו את קולכם
 speak-paragraph = הקלטת מקטעי קול היא חלק חיוני בהרכבת מערך הנתונים הפתוח שלנו; יש שיאמרו שזהו גם החלק הכיפי ביותר.
 speak-goal-text = מקטעים שהוקלטו
-listen-subtitle = עזרו לנו באימות קולות
 listen-paragraph = אימות של מקטעי קול חשוב לא פחות מהקלטתם למטרה של Common Voice. הטו אוזן ועזרו לנו ליצור נתונים קוליים איכותיים ופתוחים.
 listen-goal-text = מקטעים שאומתו
 hours-recorded = שעות שהוקלטו
@@ -78,3 +74,16 @@ help-contribute = באפשרותך לסייע לבנות מערך נתונים �
 login-company = כניסה / הרשמה עם כתובת דוא״ל של { $company }
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב, ניתן לראות מדוע להלן.
 read-more-about = מידע נוסף בעמוד על אודותינו
+
+## NAV ITEMS
+
+answer-questions = ענו על שאלות <small>(בקרוב)</small>
+review-transcriptions = בדיקת תמלולים <small>(בקרוב)</small>
+add-questions = הוספת שאלות <small>(בקרוב)</small>
+transcribe-audio = תמלול שמע <small>(בקרוב)</small>
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

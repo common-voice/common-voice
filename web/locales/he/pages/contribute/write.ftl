@@ -143,9 +143,27 @@ small-batch-response-message =
         [two] התווספו { $uploadedSentences } מתוך { $totalSentences } משפטים. לחצו <downloadLink>כאן</downloadLink> על-מנת להוריד משפטים שלא התקבלו.
        *[other] התווספו { $uploadedSentences } מתוך { $totalSentences } משפטים. לחצו <downloadLink>כאן</downloadLink> על-מנת להוריד משפטים שלא התקבלו.
     }
+small-batch-sentences-rule-1 = עקבו אחרי ההוראות שרשומת תחת "אילו משפטים אפשר להוסיף?"
+small-batch-sentences-rule-2 = הוסיפו משפט אחד בכל שורה בנפרד
+small-batch-sentences-rule-3 = הפרידו משפטים בין שורות באמצעות לחיצה על Enter או Return פעם אחת
+small-batch-sentences-rule-4 = הוסיפו עד 1,000 משפטים
+small-batch-sentences-rule-5 = על כל המשפטים להגיע מתחום זהה
+small-batch-sentences-rule-6 = על כל המשפטים להגיע ממקור זהה
+# menu item
+add-sentences = הוספת משפטים
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = הוספה וסקירה של משפטים, הוספת שאלות, תמלול שמע
+add-sentences-menu-item-tooltip = הוסיפו משפטים בשפה שלכם
+review-sentences-menu-item-tooltip = סקרו משפטים בשפה שלכם
+add-questions-menu-item-tooltip = הוסיפו שאלות בשפה שלכם
+transcribe-audio-menu-item-tooltip = לתמלל הקלטות שמע השפה שלכם
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = תפריט אפשרויות כתיבה
+add-sentences-menu-item-aria-label = הוסיפו משפטים חדשים בכדי שהקהילה תקרא
+review-sentences-menu-item-aria-label = סקירת משפטים קיימים שנוספו על-ידי הקהילה
+add-questions-menu-item-aria-label = שלחו שאלות חדשה בכדי שהקהילה תקרא ותגיב אליהן
+transcribe-audio-menu-item-aria-label = תמלול של הקלטות שמע לטקסט כתוב

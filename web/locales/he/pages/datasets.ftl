@@ -94,3 +94,7 @@ release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = הורידו את מערכי הנתונים הקוליים שלנו
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = אפשרויות הורדה של נתוני Common Voice
