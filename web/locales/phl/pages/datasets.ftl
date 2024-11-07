@@ -99,3 +99,5 @@ release-version = ورژن
 dataset-date = تاریخ
 license = لائسینس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس بھلو
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسی وائس ڈیٹا سیٹ ڈون لوڈ تھہ
