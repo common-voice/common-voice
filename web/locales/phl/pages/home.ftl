@@ -11,6 +11,7 @@ show-wall-of-text = مزید منوئی
 help-us-title = جملیمی توثیق دپارہ اسی مدد تھوئی!
 help-us-explain = پلے  دباؤ تھہ، ݜُݨوئی او اسام تھے منوئی: کی گبا تی بُھن دِتو بھاو جملہ جملہ درست طریقہ کی منتوئے؟
 no-clips-to-validate = ایندا سرئجانو کی اینی زبینی وے ݜُݨئنی دپارہ گہ کلپس نئینہ۔ تپہ گہریکارڈ تھے بہ قطار پورئنی اسی مدد تھوئی۔
+speak-goal-text = کلپس ریکاڈ بھلو
 listen-goal-text = ہاواز توثیق تھئنی
 hours-recorded = گھنٹے ریکاڈ بھلہ
 hours-validated = گھنٹے توثیق بھلہ
@@ -47,6 +48,11 @@ benefits = فائدے
 
 ## What's public
 
+whats-public = عوامی گہ شئی؟
+email-not-public = بے تھی ای میل عوامی نہ سمایہ۔
+recordings-and-locale-public = ریکارڈنگی  تعداد او توس کھئی زبینیمی تعاون تھانہ ڑے عوامی ہونسن
+username-optin-public = تو تیݨی صارفی نو عوامی یا گمنام سمئنی انتخاب تھائی بھوڑ۔
+username-email-not-demographic = تھی صارفی نو  او ای میل شائع شدہ ڈیٹا سنگی منسلک نہ تھئجہ۔
 
 ## Landing
 
@@ -62,9 +68,12 @@ answer-questions = سوال جویبی <small>( لپ یھین)</small>
 review-transcriptions = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
 add-questions = سویلی جمع تھئنی  <small>(لپ یھین )</small>
 transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
+press-and-stories = پریس او شلوکہ
+community-and-languages = کمیونٹی او زبینی
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت، پریس او شلوکہ، کمہونٹیاو زبینی
 
 ## MENU ITEM ARIA LABELS
 
