@@ -60,9 +60,15 @@ already-have-an-account = 已有账户？<login>登录</login>
 create-profile-button = 创建用户资料
 # IMAGE TAGS
 img-alt-success-checkmark = 标记成功
+# menu item
+read-sentences = 朗读语句
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = 朗读语句，回答问题
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = “朗读”选项菜单
+read-sentences-menu-item-aria-label = 朗读社区提交的各语言语句
+answer-questions-menu-item-aria-label = 提交新问题，供社区朗读和回答

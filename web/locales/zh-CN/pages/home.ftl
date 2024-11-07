@@ -12,13 +12,9 @@ show-wall-of-text = 详细了解
 help-us-title = 帮助我们验证句子！
 help-us-explain = 请点击播放，听一听，然后告诉我们：他们正确说出了下面的句子吗？
 no-clips-to-validate = 看来这个语言没有任何片段可听。请帮助我们录下一些片段。
-vote-yes = 是
-vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切换播放模式
-speak-subtitle = 捐出一段声音
 speak-paragraph = 录制语音片段是构建我们的开放数据集不可缺少的组成部分；有人说这蛮好玩。
 speak-goal-text = 已录制片段数
-listen-subtitle = 帮助我们验证其他人的录音
 listen-paragraph = 验证别人录下的语音片段，对 Common Voice 的使命同样重要。听一听，帮助我们创建高质量的开源语音数据。
 listen-goal-text = 已验证片段数
 hours-recorded = 已录制小时数
@@ -73,3 +69,16 @@ help-contribute = 您可以通过创建 Common Voice 用户资料并贡献您的
 login-company = 使用 { $company } 邮箱登录 / 注册
 profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 read-more-about = 阅读我们的“关于”页面了解更多
+
+## NAV ITEMS
+
+answer-questions = 回答问题<small>（即将推出）</small>
+review-transcriptions = 审核转录文本<small>（即将推出）</small>
+add-questions = 添加问题<small>（即将推出）</small>
+transcribe-audio = 转录音频<small>（即将推出）</small>
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

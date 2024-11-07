@@ -119,3 +119,17 @@ small-batch-sentences-rule-3 = 通过按一下 Enter 或 Return，将各语句�
 small-batch-sentences-rule-4 = 最多可添加 1,000 条语句
 small-batch-sentences-rule-5 = 所有语句必须属于相同领域
 small-batch-sentences-rule-6 = 所有语句必须来自相同出处
+# menu item
+add-sentences = 添加语句
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = 添加和审核语句，添加问题，转录音频
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = “撰写”选项菜单
+add-sentences-menu-item-aria-label = 添加新语句供社区朗读
+review-sentences-menu-item-aria-label = 审核社区提交的语句
+add-questions-menu-item-aria-label = 提交新问题，供社区朗读或回答
+transcribe-audio-menu-item-aria-label = 将音频录音转录为文本

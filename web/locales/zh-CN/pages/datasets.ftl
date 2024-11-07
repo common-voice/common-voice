@@ -94,3 +94,7 @@ release-version = 版本
 dataset-date = 日期
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = 下载语音数据集
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = 用于获取 Common Voice 数据的下载选项

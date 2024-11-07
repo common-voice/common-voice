@@ -20,3 +20,5 @@ listen-contribute-menu-tooltip = 验证朗读内容，审核转录文字
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = “聆听”选项菜单
+validate-readings-menu-item-aria-label = 验证社区成员提交的朗读内容
+review-transcriptions-menu-item-aria-label = 审核语句录音转录文本的准确性
