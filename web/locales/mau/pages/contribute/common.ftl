@@ -129,3 +129,4 @@ contribution-background-noise-description-extended = Tsá kuitsúnjin nga titjub
 contribution-background-noise-example-1-fixed-title = <strong> [ma asjín] </strong> je chu dinosaurio nbá xi<strong> [xtire] </strong>Triásico.
 contribution-background-noise-example-2-fixed-title = Je chu dinosaurio jee<strong>[xtire] </strong> Triásico
 contribution-background-noise-example-2-explanation = [Jngu k'a jña mi nda nu'yare]
+contribution-background-noise-example-3-fixed-title = <strong>[li'í asje]</strong> chu dinosaurio jee xi<strong>[asje li'í]</strong>-r ásico.
