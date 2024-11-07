@@ -12,13 +12,9 @@ show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
 help-us-explain = Tłóčće na Wothrać, słuchajće a zdźělće nam: je so slědowaca sada korektnje wurjekowała?
 no-clips-to-validate = Zda so, kaž njebychu žane natočenja byli, na kotrež móžeće w tutej rěči słuchać. Natočće nětko někotre nowe, zo byšće nam pomhał, čakanski rynk pjelnić.
-vote-yes = Haj
-vote-no = Ně
 toggle-play-tooltip = Tłóčće na { shortcut-play-toggle }, zo byšće wothrawanski modus přepinał
-speak-subtitle = Darće swój hłós
 speak-paragraph = Natočenja hłosow su bytostny wobstatk při wutworjenju našeje datoweje sadźby; někotři bychu prajili, je tež dźěl, kotryž zabawja.
 speak-goal-text = Natočene klipy
-listen-subtitle = Pomhajće nam, hłosy wobkrućić
 listen-paragraph = Wobkrućenje darjenych klipow je runje tak wažne za misiju Common Voice. Słuchajće a pomhajće nam hłosowe daty wotewrjeneho žórła w dobrej kwaliće wutworić.
 listen-goal-text = Wobkrućene klipy
 hours-recorded = Natočenske hodźiny
@@ -82,3 +78,13 @@ help-contribute = Załožće profil Common Voice a přinošujće swój hłós, z
 login-company = Z e-mejlowej adresu { $company } přizjewić / registrować
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 read-more-about = Čitajće wjace wo stronje Wo Common Voice
+
+## NAV ITEMS
+
+community-and-languages = Zhromadźenstwo a rěče
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

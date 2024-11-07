@@ -154,3 +154,14 @@ small-batch-sentences-rule-3 = Tłóčće jónkróć „Enter“, zo byšće sad
 small-batch-sentences-rule-4 = Přidajće hač do 1.000 sadow
 small-batch-sentences-rule-5 = Wšě sady dyrbja samsnu domenu měć
 small-batch-sentences-rule-6 = Wšě sady dyrbja samsne žórło měć
+# menu item
+add-sentences = Sady přidać
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Sady we wašej rěči přidać
+review-sentences-menu-item-tooltip = Sady we wašej rěči přepruwować
+add-questions-menu-item-tooltip = Prašenja we wašej rěči přidać
+
+## MENU ITEM ARIA LABELS
+

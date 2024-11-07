@@ -58,3 +58,12 @@ already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
 create-profile-button = Profil załožić
 # IMAGE TAGS
 img-alt-success-checkmark = Symbol wuspěcha
+# menu item
+read-sentences = Sady čitać
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Sady, čitać, na prašenja wotmołwić
+
+## MENU ITEM ARIA LABELS
+
