@@ -36,5 +36,9 @@ sc-review-link = შემოწმადარ
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ნიფსიშ დაყყდარეხ (შემო́წმებადარეხ)
-sc-criteria-title = მოჰ̦ დე́ყყლა (მო́წმებალა)
+sc-criteria-modal = ნიფსიშ დაყყდარ (შემო́წმებადარ)
+sc-criteria-title = მოჰ̦ დე́ყყლა (შემო́წმებეჼ მოთხოვნი)
+sc-criteria-make-sure = და́ცოდჲუჲნი̆ ჲა აჰ̦ ლა́რლ'ინო̆ მოთხო́ვნი:
+sc-criteria-item-1 = ორთოგრაფია ნიფს ჲეწ ხილ'აჼ
+sc-criteria-item-2 = გრამატიკა ნიფსიჼ ჲეწ ხილ'აჼ
+sc-criteria-item-3 = ჰ̦ალო̆ ალ'არ ჭირვეჼ ცო დეწ ხილ'აჼ
