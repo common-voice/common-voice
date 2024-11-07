@@ -74,6 +74,13 @@ community-and-languages = کمیونٹی او زبینی
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراکت، پریس او شلوکہ، کمہونٹیاو زبینی
+partnerships-menu-item-tooltip = اسام سنگی شراکت دار
+press-and-stories-menu-item-tooltip = اسی بلاگی تھے بوئی یا اسی بارئی چونٹوئی۔
+community-and-languages-menu-item-tooltip = زبینی او کمیونٹیز او مشترکہ ہاواز دریافت تھوئی۔
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = مینوئی بارئی رائے
+partnerships-menu-item-aria-label = کامن وائس سنگی شراکتی بارئی جھونوئی۔
+press-and-stories-menu-item-aria-label = کامن وائسی بارئی پریس ریلیز اور قصیم  تھے رسائی حاصل تھوئی۔
+community-and-languages-menu-item-aria-label = کامن وائسی ذریعہ کی تعاون یافتہ کمیونٹی اور زبینی دریافت تھوئی۔
