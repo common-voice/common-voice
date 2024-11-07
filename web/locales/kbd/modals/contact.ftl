@@ -5,4 +5,3 @@ contact-form-name =
     .label = ЦIэ
 contact-form-message =
     .label = Хъыбаргъэӏу
-contact-required = *required

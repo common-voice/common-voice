@@ -5,7 +5,6 @@ write-instruction = የወል ጎራ ዓረፍተ ነገር <icon></icon> ያክ
 write-page-subtitle = እዚህ የተበረከቱ ዓረፍተ-ነገሮች በይፋ ወደሚገኝ cc-0 ፈቃድ ያለው የውሂብ ስብስብ ይታከላሉ።
 sentence =
     .label = ዓረፍተ-ነገር
-sentence-input-value = የእርስዎን የሕዝብ ጎራ ዓረፍተ-ነገር እዚህ ያስገቡ
 citation-input-placeholder = የዓረፍ-ነገርዎን ምንጭ ያጣቅሱ (የሚያስፈልግ)
 citation =
     .label = ዋቢ
@@ -30,7 +29,8 @@ required-field = እባክዎ ይህንን መስክ ይሙሉ።
 single-sentence-submission = ነጠላ ዓረፍተ ነገር ማስገባት
 bulk-sentence-submission = የጅምላ ዓረፍተ-ነገር ማስገባት
 single-sentence = ነጠላ ዓረፍተ-ነገር
-bulk-sentences = ጅምላ ዓረፍተ-ነገሮች
+small-batch-sentence = ትንሽ ጥቅል
+bulk-sentence = የጅምላ ስብስብ
 sentence-domain-combobox-label = የዓረፍተ-ነገር ጎራ
 sentence-domain-select-placeholder = እስከ ሶስት ጎራዎችን ይምረጡ
 # Sentence Domain dropdown option
@@ -89,3 +89,11 @@ file-invalid-type = ልክ ያልሆነ ፋይል
 file-too-large = ፋይሉ በጣም ትልቅ ነው።
 file-too-small = ፋይሉ በጣም ትንሽ ነው።
 too-many-files = በጣም ብዙ ፋይሎች
+
+## SMALL BATCH SUBMISSION
+
+exceeds-small-batch-limit-error = ከ1000 በላይ ዓረፍተ ነገሮችን ማስገባት አይቻልም
+small-batch-sentences-rule-2 = በአንድ መስመር አንድ ዓረፍተ ነገር ያክሉ
+small-batch-sentences-rule-4 = እስከ 1,000 ዓረፍተ ነገሮች ይጨምሩ
+small-batch-sentences-rule-5 = ሁሉም ዓረፍተ ነገር አንድ አይነት ጎራ ሊኖረው ይገባል
+small-batch-sentences-rule-6 = ሁሉም ሁሉም ዓረፍተ ነገሮች አንድ አይነት ማጣቀሻ ሊኖራቸው ይገባል

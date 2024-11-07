@@ -10,7 +10,7 @@ import { findSentencesForReviewInDb } from '../../../application/repository/sent
 export default async (req: Request, res: Response) => {
   const query: GetSentencesForReviewQuery = {
     localeId: +req.query.localeId,
-    clientId: req.client_id || '',
+    clientId: req.session.user.client_id || '',
   }
 
   const getSentencesForReview = pipe(

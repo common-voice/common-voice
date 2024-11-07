@@ -36,6 +36,12 @@ change-preferences = ምርጫዎችን ይቀይሩ
 
 contribute-voice-collection-nav-header = የድምጽ ስብስብ
 contribute-sentence-collection-nav-header = የዓረፍተ-ነገር ስብሰባ
+login-signup = ይግቡ / ይመዝገቡ
+datasets = የውሂብ ስብስብ
+languages = ቋንቋዎች
+about = ስለ
+partner = አጋር
+submit-form-action = አስገባ
 
 ## Reporting
 

@@ -1,20 +1,20 @@
 ## Dashboard
 
-your-languages = تہ زبان
+your-languages = تہ وار
 toward-next-goal = نوغ مقصدو ویلٹی
 goal-reached = مقصد پورا ہوئی
-clips-you-recorded = آوازان رکارڈ ارو
-clips-you-validated = آوازان توثیق ارو
-todays-recorded-progress = ہنونو کمان وائسو آواز رکارڈکوریکوسورا کوروم
-todays-validated-progress = ہنونو کمان وائسو اوازان توثیق کوریکوسورا کوروم
+clips-you-recorded = ہوازان رکارڈ ارو
+clips-you-validated = ہوازان توثیق ارو
+todays-recorded-progress = ہنونو کامن وائسو ہواز رکارڈکوریکوسورا کوروم
+todays-validated-progress = ہنونو کامن وائسو اوازان توثیق کوریکوسورا کوروم
 stats = حالات
 awards = تمغہ
 you = تو
-everyone = ہر کا
+everyone = ہرایوالی
 contribution-activity = مدد کوریکو کوروم
 top-contributors = سافو سار زیاد مدد کوراک
-recorded-clips = رکارڈ بیرو آواز
-validated-clips = تصدیق بیرا آواز
+recorded-clips = رکارڈ بیرو ہواز
+validated-clips = تصدیق بیرا ہواز
 total-approved = تمام منظور بیرو
 overall-accuracy = تمام سہی
 set-visibility = مہ پشیکو تین سیٹ کو
@@ -24,31 +24,31 @@ show-ranking = مہ درجو پشاوے
 
 ## Custom Goals
 
-get-started-goals = مقصدان گنی شروع کو
+get-started-goals = مقصدان پروشٹہ لکھی شروع کو
 create-custom-goal = ای تان مرضیا مقصد لکھے
 goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
 both-speak-and-listen-long = کھاڑ (لودیت وا کار کورے)
-daily-goal = انوسو مقصد
+daily-goal = ہو انوسو مقصد
 weekly-goal = ہفتو مقصد
-easy-difficulty = مضمون
-average-difficulty = اوسظ
-difficult-difficulty = مشکل
+easy-difficulty = اسان
+average-difficulty = اوسط
+difficult-difficulty = گران
 pro-difficulty = حمایتی
-lose-goal-progress-warning = تان حدفو ایڈیک کی ارو، تہ کوروم تونج دی بوئے۔
+lose-goal-progress-warning = تان حدفو ایڈیٹ کی ارو، تہ کوروم تونج دی بوئے۔
 want-to-continue = تو جاری سوتیک مݰکیسانا؟
-finish-editing = پوشٹی ایڈیٹنگو  ختم کو
+finish-editing = اویل ایڈیٹنگو  ختم کو
 lose-changes-warning = ہنیسے ہموغار بیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
 build-custom-goal = تان تین ای حدف لکھے
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] { $hours } گھنٹہ { $language } زبانا تان ذاتی حدف پورا کوریکا مدد کو
-       *[other] { $hours } گھنٹہ{ $language } زبانا تان ذاتی مقصدو پورا کوریکو مدد کو
+        [one] { $hours } گھنٹہ { $language } وارا تان ذاتی حدف پورا کوریکا مدد کو
+       *[other] { $hours } گھنٹہ{ $language } وارا تان ذاتی مقصدو پورا کوریکو مدد کو
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] کمان وائسو { $hours }گھنٹہ ای زبانا تان ذاتی حدفو پورا کوریکا مدد کو
-       *[other] کمان وائسو { $hours }گھنٹہ ای زبانا تان ذاتی مقصدو پورا کوریکا مدد کو
+        [one] کامن وائسو { $hours }گھنٹہ ای وارا تان ذاتی حدفو پورا کوریکا مدد کو
+       *[other] کامن وائسو { $hours }گھنٹہ ای وارا تان ذاتی مقصدو پورا کوریکا مدد کو
     }
 set-a-goal = ای حدف لکھے
 cant-decide = فیصلہ کوریکو نو بوسانا؟
@@ -113,28 +113,28 @@ activity-needed-calculation-plural =
                     }
             }
     }
-how-many-per-day = بوجام! ای انوس کندوری آواز؟
-how-many-a-week = بوجام! ای ہفتہ کندوری آواز ؟
+how-many-per-day = بوجام! ای انوس کندوری ہواز؟
+how-many-a-week = بوجام! ای ہفتہ کندوری ہواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
 receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو پچین ای میل گونی۔
-not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کمان وائسو بارا نیوز لیٹر گونی۔
+not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کامن وائسو بارا نیوز لیٹر گونی۔
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } اسکوردی آواز
-       *[other] { $count } اسکوردی آواز
+        [one] { $count } اسکوردی ہواز
+       *[other] { $count } اسکوردی ہواز
     }
-help-share-goal = اسپہ سون خور آواز مݰکیکا مدد کو۔ تان حدفو لو دیت
+help-share-goal = اسپہ سون خور ہواز مݰکیکا مدد کو۔ تان حدفو لو دیت
 confirm-goal = حدفو تصدیق کو
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = اسپہ تین تان { $count } آوازان انوسو حدف{ $type } بارا لوو دیت۔
+share-n-daily-contribution-goal = اسپہ تین تان { $count } ہوازان انوسو حدف{ $type } بارا لوو دیت۔
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = اسپہ تین تان { $count } آوازان ہفتے حدف{ $type } بارا لوو دیت۔
+share-n-weekly-contribution-goal = اسپہ تین تان { $count } ہوازان ہفتے حدف{ $type } بارا لوو دیت۔
 share-goal-type-speak = لو دیک
 share-goal-type-listen = کار کوریک
 share-goal-type-both = لو دیک وا کارکوریک
 # LINK will be replaced with the current URL
-goal-share-text = اوا #CommonVoice تین وقف کوریکو پچین تان انوسو حدفو لکھیتام۔ مہ سون اصل روئے کیچہ کوری لو دونیان رے  مشنیو  ݯھیھیکو پیچین شامل بوس وا مدد کو
+goal-share-text = اوا کمان وائس تین ہواز مہربانی کوریکو پچین حدف لکھیتام۔ اصل روئے کیچہ کوری لو دونیان رے مشنیو  ݯھیھیکو پیچین مہ سون جوست بوس وا مدد کو{ $link }
 weekly-goal-created = تہ ہفتہ وار حدف ساوز ہوئے
 daily-goal-created = تہ انوسو حدف ساوز ہوئے
 track-progress = تان کروم کندوری ہوئی رے ہیا پتہ کو وا تان سٹیٹس پیجا

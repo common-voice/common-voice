@@ -120,6 +120,7 @@ add-small-batch-success =
     }
 small-batch-sentences-rule-1 = Eho ko tapére “¿Mba’e ñe’ẽjuaju ambojuapykuaa?”
 small-batch-sentences-rule-2 = Ehai peteĩ ñe’ẽjuaju tairendápe
+small-batch-sentences-rule-3 = Eipe’a ojuehagui ñe’ẽjuaju peteĩ líñope, peteĩteĩva líño jepo rupive
 small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
 small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
 small-batch-sentences-rule-6 = Opaite ñe’ẽjuaju orekova’erã peteĩ je’epy

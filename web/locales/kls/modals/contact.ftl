@@ -1,8 +1,8 @@
 ## Contact Modal
 
-contact-title = Rabta faram
+contact-title = Rabta as faram
 contact-form-name =
     .label = Nom
 contact-form-message =
-    .label = khabar
+    .label = Message / Paigam
 contact-required = *ajat

@@ -7,7 +7,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        background: url('./globe.svg') no-repeat;
+        background: url('./globe_black.svg') no-repeat;
         background-position-x: 13px;
         background-position-y: center;
         background-size: 17px 16px;
@@ -21,7 +21,7 @@
 
     & select,
     & .button {
-        border: 1.6px solid #e6e4e1;
+        border: 1.6px solid var(--black);
         border-radius: 2px;
         padding-inline-start: 2.5rem;
         background: white;
@@ -29,7 +29,7 @@
         font-size: var(--font-size-xs);
         font-weight: 600;
         letter-spacing: 0.8px;
-        color: var(--warm-grey);
+        color: var(--black);
         cursor: pointer;
     }
 

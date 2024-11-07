@@ -1,7 +1,11 @@
 @import url('../../media.css');
 
 .header-wrapper {
-    border-bottom: 1px solid var(--light-grey);
+    position: sticky;
+    top: 0;
+    z-index: var(--override-z-index);
+    background-color: var(--white);
+    box-shadow: var(--cv-box-shadow);
 
     &.contribution-page-active {
         @media (--xl-up) {
@@ -217,11 +221,14 @@ header {
     .nav-links .nav-link-item {
         justify-content: space-evenly;
         font-family: var(--base-font-family);
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-sm);
         text-transform: uppercase;
         font-weight: 600;
         white-space: nowrap;
         margin-inline-end: 8px;
+        max-width: 155px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     & .user-menu {
@@ -238,10 +245,21 @@ header {
         }
     }
 
+    .button.outline.login {
+        border: 1px solid var(--black);
+    }
+
     & .login {
         margin: 0 20px;
-        min-width: max-content;
+        min-width: auto;
         text-transform: uppercase;
+
+        max-width: 250px;
+        width: max-content;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+        white-space: nowrap;
 
         @media (--md-up) {
             height: 2.5rem;
@@ -279,15 +297,19 @@ header {
         & a {
             padding: 0 1rem;
             display: block;
-
-            &.active {
-                color: var(--red);
-            }
         }
 
         & .contribute-wrapper {
+            align-content: center;
+            height: 100%;
             @media (--lg-down) {
                 margin-top: 20px;
+            }
+
+            &.datasets {
+                @media (width > 576px) and (width < 1200px) {
+                    margin-block-start: 0;
+                }
             }
         }
 
@@ -296,7 +318,6 @@ header {
             opacity: 1;
             transition: visibility 1s, opacity 1s;
             visibility: visible;
-            height: 95%;
 
             @media (--xl-up) {
                 align-items: center;
@@ -313,13 +334,20 @@ header {
             opacity: 0;
             transition: visibility 0.25s, opacity 0.25s;
             visibility: hidden;
-            height: 95%;
+        }
+
+        & .track-fs-download {
+            margin-block-end: 10px;
+
+            @media (width > 576px) and (width < 1200px) {
+                margin-block-end: 0;
+            }
         }
     }
 }
 
 #hamburger-menu {
-    width: 100px;
+    width: 120px;
     border: none;
     padding: 0;
 
@@ -339,6 +367,10 @@ header {
         text-transform: uppercase;
         min-width: 100px;
         padding: 15px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     & a.button.avatar {
@@ -351,8 +383,8 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding-inline-start: 30px;
-    width: fit-content;
+    padding-inline: 30px;
+    justify-content: space-between;
 
     @media (--xl-up) {
         display: none;
@@ -405,6 +437,7 @@ header {
 
         & .contribute-menu {
             padding-bottom: 15px;
+            width: 100%;
         }
 
         & .contribute-menu.contribution-page-active {
@@ -424,6 +457,10 @@ header {
                 display: none;
             }
         }
+
+        & .divider:last-child {
+            border-bottom: none;
+        }
     }
 
     & .contribute-menu {
@@ -441,14 +478,30 @@ header {
             padding-top: 0;
         }
 
-        .contribute-link {
+        .contribute-link,
+        .coming-soon-text {
             margin-inline-start: 8px;
-            padding: 20px 0 0;
+            width: 100%;
+            max-width: 250px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-align: left;
+            padding: 0;
             font-family: var(--base-font-family);
             font-size: var(--font-size);
             font-weight: 400;
             text-transform: capitalize;
             border-bottom: none;
+        }
+
+        .coming-soon-text {
+            color: var(--warm-grey);
+            cursor: default;
+
+            span {
+                font-size: var(--font-size-xs);
+            }
         }
     }
 
@@ -466,7 +519,7 @@ header {
 
     & .nav-links a {
         margin-inline-start: 30px;
-        padding: 15px 0;
+        padding: 0 0 10px;
         line-height: 1.17;
         font-family: var(--base-font-family);
         font-size: var(--font-size-sm);
@@ -520,6 +573,11 @@ header {
             margin-top: 15px;
             display: flex;
             background: var(--black);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            align-content: center;
         }
 
         & .donate-btn-container {
@@ -530,8 +588,6 @@ header {
     }
 
     & a {
-        border-bottom: 1px solid color-mod(var(--black) alpha(10%));
-
         &:last-child {
             border-bottom: 0;
         }
@@ -548,10 +604,11 @@ header {
         text-transform: uppercase;
         margin-inline-end: 8px;
         color: var(--black);
-
-        &.contribution-page-active {
-            padding-block-end: 8px;
-            border-block-end: 4px solid var(--black);
-        }
+        flex: 1;
+        text-align: left;
+        max-width: 345px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }
