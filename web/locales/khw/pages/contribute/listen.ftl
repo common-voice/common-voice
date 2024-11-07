@@ -10,3 +10,12 @@ listen-loading-error = اسپہ تہ تین کار کوریکو پچین ہوا�
 listen-abort-title = کلیپان تصدیق کوریکو نسی ناوو
 listen-abort-cancel = تصدیق کوریکو جاری بہچاوو
 listen-abort-confirm = تصدیق کوریکو ختم کو
+# Menu item
+validate-readings = ریکو تصدیق
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = ریکو تصدیق، نقلان وا لوڑیک
+
+## MENU ITEM ARIA LABELS
+
