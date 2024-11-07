@@ -81,10 +81,18 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 
 ## NAV ITEMS
 
+answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
+review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
+add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
+transcribe-audio = Awdio transkribować <small>(přińdźe bórze)</small>
 community-and-languages = Zhromadźenstwo a rěče
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Stańće so z našim partnerom
+press-and-stories-menu-item-tooltip = Wopytajće naš blog abo pisajće wo nas
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Wo meniju Nastajenja
+partnerships-menu-item-aria-label = Zhońće wjace wo partnerstwach z Common Voice
