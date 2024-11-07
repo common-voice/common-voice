@@ -28,6 +28,8 @@ record-abort-text = ژا وعین تہ مطلب یہ با تے تاں مُکھ �
 record-abort-submit = کلپ نم ڜن
 record-abort-continue = ریکاڈنگ ختم کُرے
 record-abort-delete = نیسے آں کلپ ڈیلیٹ کُرے
+review-aborted = اپ لوڈ اوتھینا۔ تو ریکارڈنگ ڈیلیٹ کُرن گٹینپی
+review-submit-title = جائزہ گی آں جمع کُرے
 
 ## MENU ITEM TOOLTIPS
 
