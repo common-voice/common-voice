@@ -264,6 +264,9 @@ privacy = ذاتي
 terms = ݭړظی
 cookies = کُکیز
 faq = فق
+content-license-text = مواد دی موجود هۀ تخلیقي مشترک لائسنس ګیرډ
+share-title = ترماخ مدد کوئ که ته خلق ا آواز دُشيېن
+share-text = هر مشین کی وه زدۀ کوئ که واقعي ا خلق بُو څا ژغا
 
 ## Donate banner
 
