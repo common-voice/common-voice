@@ -67,6 +67,10 @@ read-sentences = جملے منوئی،
 
 speak-contribute-menu-tooltip = جملے منوئی، سُویلیمی جواب دوئی
 read-sentences-menu-item-tooltip = تیݨی زبان کی منئنی جملے ریکاڈ تھوئی۔
+answer-questions-menu-item-tooltip = تیݨی زبان کی منئنی جملے ریکاڈ تھوئی۔
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اختیاریتی مینو ݜُݨ
+read-sentences-menu-item-aria-label = کمیونٹی خلکیمی طرفی مختلف زبینیم کی جمع تھیلہ واندہ جملے منہ۔
+answer-questions-menu-item-aria-label = کمیونٹی خلکیمی منئنی دپارہ اور جواب دئنی دپارہ آک سوال امزیہ۔

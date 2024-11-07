@@ -148,6 +148,13 @@ add-sentences = جملے جمع تھئنی
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملے شامل تھہ او تنی جائزہ تھہ، سُویلی شامل تھہ،آڈیو نقل تھہ۔
+add-sentences-menu-item-tooltip = تیݨی زبان کی جملے شامل تھہ
+review-sentences-menu-item-tooltip = تیݨی زبان کی جملیمی جائزہ تھہ۔
+add-questions-menu-item-tooltip = تیݨی زبان کی سُویلی شامل تھہ۔
+transcribe-audio-menu-item-tooltip = آڈیو ریکاڈنگ تیݨی زبان کی نقل تھہ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیاریتی مینو ݜُݨ
+add-sentences-menu-item-aria-label = کمیونٹی خلکیمی منئی دپارہ آک ناوہ جملے جمع تھہ
