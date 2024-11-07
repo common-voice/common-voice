@@ -143,3 +143,11 @@ small-batch-sentences-rule-3 = "Enter"دباو تھے جملے آک لیݨی و�
 small-batch-sentences-rule-4 = 1,000  تی جملے شامل تھہ
 small-batch-sentences-rule-5 = بُٹھے جملہ آک دائرہ کی ہونسن وڑئی
 small-batch-sentences-rule-6 = بُٹھے جملیمی آک حولہ ہاسینڈیو
+# menu item
+add-sentences = جملے جمع تھئنی
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
