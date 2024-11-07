@@ -143,3 +143,18 @@ small-batch-sentences-rule-3 = ایک پھیر انٹر یا ری انٹر چو�
 small-batch-sentences-rule-4 = ایک زرہ 1,000تلی جملہ نم شامل کُرا
 small-batch-sentences-rule-5 = سپُن جملہ نم ساں ایک ڈومین تھین ضروری درو
 small-batch-sentences-rule-6 = سپُن جملہ نم ساں ایک حوالہ  تھین ضروری درو
+# menu item
+add-sentences = جملہ نم جمع کُرا
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = جملہ نم شامل کُرا آں جائزہ کُرا، سوال جمع کُرا،آڈیو نقل کُرا
+add-sentences-menu-item-tooltip = تانوں باڜہ جملہ نم جمع کُرا
+review-sentences-menu-item-tooltip = تانوں باڜا جملہ نم تہ جائزہ گیا
+add-questions-menu-item-tooltip = تانوں باڜا سوال نم جمع کُرا
+transcribe-audio-menu-item-tooltip = آڈیو رککارڈنگ تانوں باڜہ نقل کُرا
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = اختیارت تہ مینو لِکا
+add-sentences-menu-item-aria-label = کمیونٹی ساں مترئیں کی نواں جملہ نم جمع کُرا
