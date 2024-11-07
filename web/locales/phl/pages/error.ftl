@@ -6,4 +6,7 @@ banner-error-slow-link = پھدئنی صفحہ
 error-something-went-wrong = معاف تھہ، گُبا گہ غلطی بھلی
 error-clip-upload = انی وے ہاواز اب لوڈ نہ تھئجانو، کوشیش جاری ساتہ
 error-title-404 = اسم تھی دپارہ پیج نہ لیدی۔
+error-content-404 = اسی <homepageLink>ہوم پیچ<homepageLink> گہ مدد تھیلئیے؟ سوال کھوجئنی دپارہ انی  <matrixLink>خانہ  وے شامل بھہ۔ کمیونیٹی خلکیمی بیتی خانہ </matrixLink>۔ نقص دڇھئنی دپارہ <githubLink> GitHub</githubLink>  یا دڇھوئی<discourseLink> اسی کھونڈئنی زھئی وے
+error-title-503 = ابے اچانک وقفہ پشانہ
+error-content-503 = انی سائٹ بیڈی لپ محفوظ بھی۔ نیوے معلومیتمی دپارہ <matrixLink>، کمیونٹٰ خلکیمی بیتیمی دپارہ </matrixLink> یا انسی ویزٹ<githubLink> GitHub یا <discourseLink> اسی بیتیمی زھئی وے </discourseLink> سائٹی وے یھاٹہ  مسلے جمع او دڇھئنی دپارہ۔
 error-code = غلطی{ $code }
