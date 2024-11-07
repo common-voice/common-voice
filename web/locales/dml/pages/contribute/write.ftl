@@ -158,3 +158,6 @@ transcribe-audio-menu-item-tooltip = آڈیو رککارڈنگ تانوں باڜ
 
 write-contribute-menu-aria-label = اختیارت تہ مینو لِکا
 add-sentences-menu-item-aria-label = کمیونٹی ساں مترئیں کی نواں جملہ نم جمع کُرا
+review-sentences-menu-item-aria-label = کمیونٹی ساں طرف تہ جمع کُریسن موجودہ جملہ نم ساں جائزہ گیا
+add-questions-menu-item-aria-label = کموینٹی کی نواں ڜیاں مترئیں کی آں جوب پریاں کی
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگ متنہ نقل کُرا
