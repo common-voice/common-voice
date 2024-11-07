@@ -10,3 +10,13 @@ listen-loading-error = 暂无录音片段供您聆听确认，请稍后再试。
 listen-abort-title = 要完成片段验证吗？
 listen-abort-cancel = 继续验证
 listen-abort-confirm = 完成验证
+# Menu item
+validate-readings = 验证朗读内容
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = 验证朗读内容，审核转录文字
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = “聆听”选项菜单
