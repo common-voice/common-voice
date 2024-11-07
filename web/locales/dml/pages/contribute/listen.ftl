@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = تانوں باڜا صارف ساں ج
 
 listen-contribute-menu-aria-label = اختیارت تہ مینو اُشتُرونا
 validate-readings-menu-item-aria-label = کمیونٹی ممبران ساں طرف تہ جمع کُریسن ریڈینگ ساں توثیق کُرا
+review-transcriptions-menu-item-aria-label = ریکاڈ کُریسن جملہ نم ساں ٹرانسکپشن ساں جائزہ گیا
