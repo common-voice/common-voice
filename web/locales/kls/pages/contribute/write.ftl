@@ -159,3 +159,5 @@ transcribe-audio-menu-item-tooltip = Audio recarding tan zuban una sawzai
 write-contribute-menu-aria-label = Ko'n' karikas option Jaiga
 add-sentences-menu-item-aria-label = Warek asta no'n'a mon comety aini mochan mahikas bati
 review-sentences-menu-item-aria-label = Dubara shihala mon comety jama kada jagai
+add-questions-menu-item-aria-label = No'n'a sawal jama kari, comety man asta achi jawab asta den
+transcribe-audio-menu-item-aria-label = Audio recarding tan zuban una sawzai

@@ -88,3 +88,5 @@ license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = sow kay ak kak
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = dataset download ka
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Jama karikas / Download as option sawin awaz / common voice una zalikas bati

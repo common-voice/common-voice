@@ -74,12 +74,15 @@ read-more-about = warek asta mas, Homa bari una page una
 ## NAV ITEMS
 
 answer-questions = Sawal ze Jawab ( ghans' en dai)
+review-transcriptions = Sawal jama kari ( ghans' en dai)
 add-questions = Sawal jama kari ( ghans' en dai)
+transcribe-audio = Sawal ze Jawab ( ghans' en dai)
 press-and-stories = Press (khabar) ze Oc'oh'ink
 community-and-languages = Comety ze Zuban
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Malgeri/ Partnership, Press (khabar) och'ohink , comety as ze zuban
 partnerships-menu-item-tooltip = Malgeri/ partner ha homa som
 press-and-stories-menu-item-tooltip = Homa Blog ya o homa kai newishi
 
