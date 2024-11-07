@@ -125,3 +125,5 @@ contribution-varying-pronunciations-example-2-title = tsikijen nka ns'a.
 contribution-varying-pronunciations-example-2-explanation = Raised' to nik'a nukjuav nga kjaé énn. mitså jó.
 contribution-background-noise-title = Cho'sin nu'yare
 contribution-background-noise-description = Mejenajin nga nda s'e xánajin, nga kuan tjube chuba jme xi kjima ngande, kuan tjubet'a ksá mi nñú tijane. tonga tsá nñu tijna mi ki kuan.
+contribution-background-noise-description-extended = Tsá kuitsúnjin nga titjubet'a, tsá jme xi nu'yajinre tonga tsa nda nu'yare xi tíncha kuan tjubé.
+contribution-background-noise-example-1-fixed-title = <strong> [ma asjín] </strong> je chu dinosaurio nbá xi<strong> [xtire] </strong>Triá
