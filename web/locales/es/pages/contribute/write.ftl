@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = Separa las oraciones en una por línea, por medio
 small-batch-sentences-rule-4 = Añade hasta 1.000 oraciones
 small-batch-sentences-rule-5 = Todas las oraciones deben de encajarse en el mismo dominio
 small-batch-sentences-rule-6 = Todas las oraciones deben de tener la misma fuente y citación
+# menu item
+add-sentences = Añadir oraciones
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Añadir y revisar oraciones, añadir preguntas, transcribir grabaciones
+add-sentences-menu-item-tooltip = Añadir oraciones en tu idioma
+review-sentences-menu-item-tooltip = Revisar oraciones en tu idioma
+add-questions-menu-item-tooltip = Añadir oraciones en tu idioma
+transcribe-audio-menu-item-tooltip = Transcribir grabaciones en tu idioma
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Menú de opciones de escribir
+add-sentences-menu-item-aria-label = Añadir oraciones nuevas para que la comunidad las lea
+review-sentences-menu-item-aria-label = Revisar oraciones que la comunidad ha sugerido
+add-questions-menu-item-aria-label = Enviar nuevas preguntas para que la comunidad lea y conteste
+transcribe-audio-menu-item-aria-label = Transcribir grabaciones

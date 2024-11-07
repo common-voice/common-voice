@@ -65,6 +65,12 @@ read-sentences = Leer oraciones
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Leer oraciones, contestar a preguntas
+read-sentences-menu-item-tooltip = Hacer grabaciones de oraciones en tu idioma
+answer-questions-menu-item-tooltip = Hacer grabaciones de contestar a preguntas en tu idioma
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Menú de opciones de hablar
+read-sentences-menu-item-aria-label = Leer oraciones en diferentes idiomas
+answer-questions-menu-item-aria-label = Enviar una pregunta para que la comunidad lea y conteste
