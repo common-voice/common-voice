@@ -67,6 +67,7 @@ read-sentences = Mas te newishila
 
 speak-contribute-menu-tooltip = Mas te mon, Sawal ze jawab
 read-sentences-menu-item-tooltip = Recard kari tan hatya, tan zuban una mondr de
+answer-questions-menu-item-tooltip = Recard kari tan hatya, tan zuban una mondr de
 
 ## MENU ITEM ARIA LABELS
 

@@ -70,3 +70,20 @@ help-contribute = Tu joma madad kari, kholaw zaria as thara, common voice/ sawin
 login-company = kholaw kari, Sawzai email
 profile-not-required = Account ajat ne, dikas bati, leken prus't hiv ashis pe haw
 read-more-about = warek asta mas, Homa bari una page una
+
+## NAV ITEMS
+
+answer-questions = Sawal ze Jawab ( ghans' en dai)
+add-questions = Sawal jama kari ( ghans' en dai)
+press-and-stories = Press (khabar) ze Oc'oh'ink
+community-and-languages = Comety ze Zuban
+
+## MENU ITEMS TOOLTIPS
+
+partnerships-menu-item-tooltip = Malgeri/ partner ha homa som
+press-and-stories-menu-item-tooltip = Homa Blog ya o homa kai newishi
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Bariuna Chit Menu
+partnerships-menu-item-aria-label = Joni malgerian/ partnerships as som common voice/ sawin awaz

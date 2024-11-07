@@ -16,3 +16,5 @@ partnerships-small-business-description = Abi hamisha khojik dai kura ki data is
 partnerships-corporates-header = Ghona paimana una company, idara ya o warek jaiga
 partnerships-corporates-description = Agar pe dataset una mon dek khojis dai haw, ya o pe tu khojis dai haw ki kas som milaw thi plan kaei, ya o pe tan platform hhona karik khijis day haw. homa kai newishi
 partnerships-our-partners = Homa Malgeri/ Partners
+# menu item
+partners = Malgeri/ Partner

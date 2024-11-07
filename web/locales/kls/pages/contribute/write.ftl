@@ -143,3 +143,13 @@ small-batch-sentences-rule-3 = Alaida kari mon, ek phon una, "Enter " ya o "Retu
 small-batch-sentences-rule-4 = 1000, (ek hazar) mon
 small-batch-sentences-rule-5 = Saw mondran peruk domain hiu ori
 small-batch-sentences-rule-6 = Saw mondran ze maikas usul peruk hiu ori
+# menu item
+add-sentences = Mondr jama karik
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Mon jama kari tan zuban una.
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Ko'n' karikas option Jaiga
