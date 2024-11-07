@@ -10,3 +10,7 @@ download-selected = منتخب تھیلہ
 download-start = ڈون لوڈ پروفائل ڈیٹا
 download-request = ریکاڈنگی درخواست
 download-request-button = ڈون لوڈ
+download-request-refresh-button = ریفریش
+download-request-modal-title = ڈون لوڈ لنک
+download-request-modal-description = { "" }
+download-request-metadata-link = جملئی عبارت
