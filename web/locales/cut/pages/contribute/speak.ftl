@@ -46,6 +46,10 @@ why-donate = ¿Dekubes se iytomunede?
 why-donate-explanation-1 = Mu'une ndetese nwe ne'edene nwekuito dudde. Nunne nwe kamano du'use iynnu ndodoyi'i mu'u naa koo, nwe kamano taka dukchinne, o tebe  ndodoyone, nwe kamano a iñ' ndata o iñ cha'a iyndaya mu'u naa koo.
 why-donate-explanation-2 = De'se iynnu mu'une iydichibe ndetese yaa inña iyndaya mu'u. Ndetese nwe iynnu ndodo yi'i ama inña se abikaa iyndeyane nwe dikchibe stika. Nome kubidbenonka ndetes ne'ene de'ese gnu  mu'u na koo.
 add-information-button = Neka se fnuu ndodo
+continue-speaking-button = Yondíbede nwe, fndende
+create-profile-text = ¿Ne'de se fnundee ndodo yi'ide?
+thanks-for-voice-toast = Yondíbede se iynuu ndodo yi'ide mu'u na koo
+thanks-for-voice-toast-error = Nwe chii se fnuu ndodo yinne mu'u na koo
 
 ## MENU ITEM TOOLTIPS
 
