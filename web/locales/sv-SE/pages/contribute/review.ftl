@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Du är för snabb. Ta en stund att granska me
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
 sc-redirect-page-subtitle-2 = Ställ frågor till oss på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
+# menu item
+review-sentences = Granska meningar

@@ -60,3 +60,17 @@ already-have-an-account = Har du redan ett konto? <login>Logga in</login>
 create-profile-button = Skapa en profil
 # IMAGE TAGS
 img-alt-success-checkmark = lyckad kryssmarkering
+# menu item
+read-sentences = Läs meningar
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Läs meningar, svara på frågor
+read-sentences-menu-item-tooltip = Spela in dig själv när du läser meningar på ditt språk
+answer-questions-menu-item-tooltip = Spela in dig själv när du svarar på frågor och uppmaningar på ditt språk
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Alternativmeny för tal
+read-sentences-menu-item-aria-label = Läs meningar som skickats in av communityn på olika språk
+answer-questions-menu-item-aria-label = Skicka in en ny fråga som gemenskapen kan läsa och svara på

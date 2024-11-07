@@ -15,13 +15,9 @@ show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
 no-clips-to-validate = Det verkar som om det inte finns några klipp att lyssna på för det här språket. Hjälp oss att fylla kön genom att spela in några nu.
-vote-yes = Ja
-vote-no = Nej
 toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
-speak-subtitle = Donera din röst
 speak-paragraph = Inspelning av röstklipp är en integrerad del av att bygga upp vår öppna datamängd; vissa skulle säga att det är den roliga delen också.
 speak-goal-text = Inspelade klipp
-listen-subtitle = Hjälp oss att validera röster
 listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. Lyssna och hjälp oss att skapa kvalitetsdata för öppen källkod.
 listen-goal-text = Klipp validerade
 hours-recorded = Timmar inspelade
@@ -79,3 +75,22 @@ help-contribute = Du kan hjälpa till att bygga en mångsidig, öppen datamängd
 login-company = Logga in / registrera dig med { $company } e-post
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 read-more-about = Läs mer på vår om sida
+
+## NAV ITEMS
+
+press-and-stories = Press och berättelser
+community-and-languages = Gemenskap och språk
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerskap, press och berättelser, gemenskap och språk
+partnerships-menu-item-tooltip = Samarbeta med oss
+press-and-stories-menu-item-tooltip = Besök vår blogg eller skriv om oss
+community-and-languages-menu-item-tooltip = Upptäck språk och gemenskaper och Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Om alternativmenyn
+partnerships-menu-item-aria-label = Läs om partnerskap med Common Voice
+press-and-stories-menu-item-aria-label = Få tillgång till pressmeddelanden och berättelser relaterade till Common Voice
+community-and-languages-menu-item-aria-label = Utforska communityn och språk som stöds av Common Voice

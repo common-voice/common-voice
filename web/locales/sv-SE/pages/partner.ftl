@@ -16,3 +16,5 @@ partnerships-small-business-description = Oavsett om det handlar om att samarbet
 partnerships-corporates-header = Storskaliga företag och plattformsföretag
 partnerships-corporates-description = Om du vill prata mer om datamängden, saminvestera i planerade plattformsförbättringar eller leta efter samarbetsmöjligheter, <emailFragment>skriv till oss</emailFragment>
 partnerships-our-partners = Våra partners
+# menu item
+partners = Partners

@@ -143,3 +143,16 @@ small-batch-sentences-rule-3 = Separera meningar på en rad genom att trycka på
 small-batch-sentences-rule-4 = Lägg till upp till 1 000 meningar
 small-batch-sentences-rule-5 = Alla meningar måste ha samma domän
 small-batch-sentences-rule-6 = Alla meningar måste ha samma källa
+# menu item
+add-sentences = Lägg till meningar
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Lägg till och granska meningar, lägga till frågor, transkribera ljud
+add-sentences-menu-item-tooltip = Lägg till meningar på ditt språk
+review-sentences-menu-item-tooltip = Granska meningar på ditt språk
+add-questions-menu-item-tooltip = Lägg till frågor på ditt språk
+transcribe-audio-menu-item-tooltip = Transkribera ljudinspelningar på ditt språk
+
+## MENU ITEM ARIA LABELS
+

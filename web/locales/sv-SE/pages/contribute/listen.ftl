@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Slutför valideringen av klipp?
 listen-abort-cancel = Fortsätt validera
 listen-abort-confirm = Slutför valideringen
+# Menu item
+validate-readings = Validera avläsning
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Validera avläsningar, granska transkriptioner
+validate-readings-menu-item-tooltip = Validera användarinspelade avläsningar på ditt språk
+review-transcriptions-menu-item-tooltip = Granska användarinlämnade transkriptioner på ditt språk
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Alternativmeny för lyssning
+validate-readings-menu-item-aria-label = Validera avläsningar som skickats in av communitymedlemmar
+review-transcriptions-menu-item-aria-label = Granska transkriptioner av inspelade meningar för noggrannhet
