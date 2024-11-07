@@ -10,3 +10,17 @@ listen-loading-error = No pudimos cargar los audios. Vuelve a intentar más tard
 listen-abort-title = ¿Terminar de validar clips?
 listen-abort-cancel = Continuar validando
 listen-abort-confirm = Terminar de validar
+# Menu item
+validate-readings = Validar grabaciones
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Validar grabaciones, revisar transcripciones
+validate-readings-menu-item-tooltip = Validar grabaciones de oraciones en su idioma
+review-transcriptions-menu-item-tooltip = Revisar transcripciones en su idioma
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Menú de opciones de escuchar
+validate-readings-menu-item-aria-label = Validar grabaciones enviadas por miembros de la comunidad
+review-transcriptions-menu-item-aria-label = Revisar transcripciones de oraciones grabadas

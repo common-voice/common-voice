@@ -60,3 +60,11 @@ already-have-an-account = ¿Ya tienes una cuenta? <iniciar sesión>Iniciar sesi�
 create-profile-button = Crear un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de verificación de éxito
+# menu item
+read-sentences = Leer oraciones
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

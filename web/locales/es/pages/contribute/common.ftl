@@ -13,6 +13,7 @@ goal-help-recording = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPer
 goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de validación del { $goalValue }!
 contribute-more = ¿Listo para hacer { $count } más?
 speak-empty-state = Nos hemos quedado sin frases para grabar en este idioma ...
+no-sentences-for-variants = Es posible que no tengamos más oraciones en tu variante lingüística. Se puede cambiar tu configuración para escuchar oraciones en otras variantes de tu lengua.
 speak-empty-state-cta = Colabora con más frases
 speak-loading-error = No se pudo cargar oraciones. Vuelve a intentar más tarde.
 record-button-label = Grabar tu voz
@@ -25,11 +26,6 @@ target-segment-first-banner = Ayuda a crear el primer objetivo segmentado de Com
 target-segment-add-voice = Agrega tu voz
 target-segment-learn-more = Más información
 change-preferences = Cambiar preferencias
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Colección de voz
-contribute-sentence-collection-nav-header = Recopilación de frases
 login-signup = Iniciar sesión / Registrarse
 vote-yes = Sí
 vote-no = No
