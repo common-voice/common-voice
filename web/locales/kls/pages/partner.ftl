@@ -14,4 +14,5 @@ partnerships-academia-description = Kholaw ejadad, kia ki shian, shia mi homa ma
 partnerships-small-business-header = Chutyak karubar, shamil shiaw Tech, ze AI karaw an
 partnerships-small-business-description = Abi hamisha khojik dai kura ki data istimal kan dai. tasi ajati newishila. tasi som tahun karikas bati. ta'ke tasi sahi data milaw hiw. homa ajat<emailFragment>mimi pi ko'n' karik khojik dai</emailFragment>
 partnerships-corporates-header = Ghona paimana una company, idara ya o warek jaiga
+partnerships-corporates-description = Agar pe dataset una mon dek khojis dai haw, ya o pe tu khojis dai haw ki kas som milaw thi plan kaei, ya o pe tan platform hhona karik khijis day haw. homa kai newishi
 partnerships-our-partners = Homa Malgeri/ Partners
