@@ -47,3 +47,6 @@ sc-criteria-item-5-2 = ე მოთხო́ვნი და́ცოდიენ
 sc-criteria-item-6 = დაყყდუჲნი (შემო́წმადუჲნი) წინადა́დბი ჰ̦ალო̆ ჴა́ჩდელჩე დეხო́თხ  ლა́ტლეთ თხოჼ წი́ნში ლახარ-ვაშა́რ დარელო.
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = დაყყდებათ (შემო́წმადებათ), წინადადბა́ჼ მოტტ ნიფსინი́ ბა ლე ცო (ე́ნობრივ ნიფსხოლ)
+sc-review-rules-title = პა́სუხ თელ'უჲ ლა́რ'ლუჲჩ მოთხოვნა́ხ (პირბახ)?
+sc-review-empty-state = ეჴ მატტანაჲნო̆ დაყყდუჲნი̆ წინადა́დბი ჰ̦ალო̆ ჴა́ჩდალიჼ
+report-sc-different-language = ჴენაჸ მოტტ
