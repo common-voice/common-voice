@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = אתם זזים מהר מידי! קחו כמ�
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
 sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> או <emailLink>בדוא"ל</emailLink>.
+# menu item
+review-sentences = סקירת משפטים

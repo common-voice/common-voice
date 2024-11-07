@@ -1,3 +1,5 @@
+speak = דיבור
+speak-subtitle = תרמו את קולכם
 record-cta = התחלת ההקלטה
 record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.
 record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
@@ -57,3 +59,17 @@ already-have-an-account = כבר יש לכם חשבון? <login>היכנסו</lo
 create-profile-button = יצירת פרופיל
 # IMAGE TAGS
 img-alt-success-checkmark = סימן הצלחה
+# menu item
+read-sentences = קריאת משפטים
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = קריאת משפטים, מענה על שאלות
+read-sentences-menu-item-tooltip = הקליטו עצמכם מקריאים משפטים
+answer-questions-menu-item-tooltip = הקליטו עצמכם עונים על שאלות ומגיבים להנחיות
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = תפריט אפשרויות דיבור
+read-sentences-menu-item-aria-label = קרא משפטים בשפות שונות שנשלחו על ידי הקהילה
+answer-questions-menu-item-aria-label = שלחו שאלה חדשה בכדי שהקהילה תקרא ותגיב אליה

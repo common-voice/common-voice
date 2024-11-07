@@ -5,12 +5,14 @@ write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת ה
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
-sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
+sentence-input-placeholder = הזינו כאן משפט המצוי בנחלת הכלל
+small-batch-sentence-input-placeholder = הזינו כאן משפטים המצויים בנחלת הכלל
 citation-input-placeholder = התייחסות למקור ממנו נלקח המשפט (חובה למלא)
 citation =
     .label = ציטוט מקור
 sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
 sc-review-write-title = אילו משפטים אפשר להוסיף?
+sc-review-small-batch-title = כיצד להוסיף מספר רב של משפטים
 new-sentence-rule-1 = <noCopyright>ללא הגבלות על זכויות יוצרים</noCopyright> (<cc0>CC0</cc0>)
 new-sentence-rule-2 = פחות מ-15 מילים
 new-sentence-rule-3 = שימוש בדקדוק נכון
@@ -19,6 +21,7 @@ new-sentence-rule-5 = ללא מספרים ותווים מיוחדים
 new-sentence-rule-6 = ללא אותיות משפות אחרות
 new-sentence-rule-7 = יש לכלול ציטוט מקור מתאים
 new-sentence-rule-8 = שיהיה כמה שיותר טבעי וקולח (צריך להיות קל לקרוא את המשפט)
+login-instruction-multiple-sentences = <loginLink>התחברו</loginLink> או <loginLink>הירשמו</loginLink> על-מנת להוסיף משפטים מרובים
 how-to-cite = כיצד לצטט?
 how-to-cite-explanation-bold = יש לצטט עם קישור כתובת URL או השם המלא של היצירה.
 how-to-cite-explanation = אם זו כתיבה מקורית משלכם, יש לכתוב פשוט <italicizedText>"ציטוט עצמי"</italicizedText>. עלינו לדעת היכן מצאתם את התוכן הזה כדי שנוכל לבדוק שהוא בנחלת הכלל ולא חלות הגבלות על זכויות יוצרים. למידע נוסף על אופן הציטוט, עיינו ב<guidelinesLink>דף ההנחיות</guidelinesLink> שלנו.
@@ -28,9 +31,11 @@ add-sentence-success = נאסף משפט אחד.
 add-sentence-error = שגיאה בהוספת המשפט
 required-field = אנא מלא שדה זה.
 single-sentence-submission = שליחת משפט בודד
+small-batch-sentence-submission = שליחה של אוסף קטן של משפטים
 bulk-sentence-submission = שליחת מאגד של משפטים
 single-sentence = משפט בודד
-bulk-sentences = מאגד משפטים
+small-batch-sentence = אוסף קטן
+bulk-sentence = אוסף גדול
 sentence-domain-combobox-label = תחום העניין
 sentence-domain-select-placeholder = בחרו עד שלושה תחומים (לא חובה למלא)
 # Sentence Domain dropdown option
@@ -88,3 +93,12 @@ file-invalid-type = הקובץ מסוג לא מתאים
 file-too-large = הקובץ גדול מידי
 file-too-small = הקובץ קטן מידי
 too-many-files = יותר מידי קבצים
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
