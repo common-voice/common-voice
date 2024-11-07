@@ -50,6 +50,11 @@ continue-speaking-button = Yondíbede nwe, fndende
 create-profile-text = ¿Ne'de se fnundee ndodo yi'ide?
 thanks-for-voice-toast = Yondíbede se iynuu ndodo yi'ide mu'u na koo
 thanks-for-voice-toast-error = Nwe chii se fnuu ndodo yinne mu'u na koo
+first-cta-gender-select-default-option = Tndanude
+first-cta-gender-select-help-text =
+    .label = ¿Taka ne kamade ndetes a cha'de o ndatade ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Yondibkue'de se iytede ndodo yi'ide se iynuu mu'u na koo!
 
 ## MENU ITEM TOOLTIPS
 
