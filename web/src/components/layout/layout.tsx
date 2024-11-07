@@ -266,8 +266,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   <Tooltip
                     anchorSelect="#login-button"
                     place="bottom"
-                    style={{ width: '550px' }}
-                    openEvents={{ focus: true }}>
+                    style={{ width: 'auto', maxWidth: '550px' }}>
                     {getString('login-signup')}
                   </Tooltip>
                 </>

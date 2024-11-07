@@ -101,6 +101,7 @@
                     a {
                         overflow: hidden;
                         text-overflow: ellipsis;
+                        max-width: 210px;
                     }
 
                     &.coming-soon p {

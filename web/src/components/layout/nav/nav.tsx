@@ -34,6 +34,7 @@ export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
         to={to}
         exact
         onClick={() => trackNav(id, locale)}
+        id={id}
       />
     </Localized>
   )

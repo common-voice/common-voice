@@ -5,6 +5,7 @@ import {
   withLocalization,
 } from '@fluent/react'
 import classNames from 'classnames'
+import { Tooltip } from 'react-tooltip'
 
 import { LocaleLink } from '../../locale-helpers'
 import { ContributeMenuItem } from './contribute-menu'
@@ -72,18 +73,26 @@ const Content = ({
         }
 
         return (
-          <li
-            key={localizedId}
-            title={getString(menuItemTooltip)}
-            aria-label={getString(menuItemAriaLabel)}>
-            <div
-              className={classNames('content', {
-                'coming-soon': isComingSoon,
-              })}>
-              <Icon />
-              {renderContent()}
-            </div>
-          </li>
+          <>
+            <li
+              key={localizedId}
+              aria-label={getString(menuItemAriaLabel)}
+              id={menuItemTooltip}>
+              <div
+                className={classNames('content', {
+                  'coming-soon': isComingSoon,
+                })}>
+                <Icon />
+                {renderContent()}
+              </div>
+            </li>
+            <Tooltip
+              anchorSelect={`#${menuItemTooltip}`}
+              place="bottom"
+              style={{ width: 'auto', maxWidth: '550px' }}>
+              {getString(menuItemTooltip)}
+            </Tooltip>
+          </>
         )
       })}
     </ul>
