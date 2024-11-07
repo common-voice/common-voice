@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Tet kanni iydide. Dka dka nbekuendede tomeme 
 sc-redirect-page-title = Aà ibekunn ndikku
 sc-redirect-page-subtitle-1 = Sentence Collector a iycho’o naa Common Voice. Mane akugbi iyduu am ub ndodo o a kugbi nbekuendoo de’e ndodo se iyndaa mu’u naa Common Voice.
 sc-redirect-page-subtitle-2 = Mane tomunine mu’u na Matrix, mu’u na koo, mu’u nase gnuu ndodoku, nase iycho’o kaka.
+# menu item
+review-sentences = Kuinbekuended ndodo

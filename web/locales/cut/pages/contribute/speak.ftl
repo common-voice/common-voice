@@ -72,3 +72,5 @@ answer-questions-menu-item-tooltip = A kugbi fnuu ndodo yi'i dbaku yi'ide tase n
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Ndenaa taka se ndede
+read-sentences-menu-item-aria-label = Kubi kued ndenaa dbaku
+answer-questions-menu-item-aria-label = Tomunide de'es ne kubbi dbenode tomene nbefnee tama inña
