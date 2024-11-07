@@ -67,6 +67,10 @@ read-sentences = جملہ مترے
 
 speak-contribute-menu-tooltip = جملہ نم متری، جواب پرے
 read-sentences-menu-item-tooltip = تانو باڜا جملہ نم متری تانو ریکارڈنگ  کُرا
+answer-questions-menu-item-tooltip = تانوں باڜہ سول نم آں اشارہ تہ جواب پرئی تانوں ریکارڈنگ کُرا
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اختیارات تہ مینو گنے
+read-sentences-menu-item-aria-label = کمیونٹی ساں طرف تہ مختلف باڜا ریکارڈ  کُری سن جملہ نم مترا
+answer-questions-menu-item-aria-label = کمیونٹی کی مترئیں آں جواب پرئیں کی ایک نواں سوال ڜیا
