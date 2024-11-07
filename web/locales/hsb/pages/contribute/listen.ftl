@@ -12,3 +12,13 @@ listen-loading-error =
 listen-abort-title = Přepruwowanje klipow dokónčić?
 listen-abort-cancel = Z přepruwowanjom pokročować
 listen-abort-confirm = Přepruwowanje dokónčić
+# Menu item
+validate-readings = Čitanja přepruwować
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Čitanja přepruwować, transkripcije přepruwować
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Meni nastajenjow Słuchać

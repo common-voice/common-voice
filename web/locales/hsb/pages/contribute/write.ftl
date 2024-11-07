@@ -165,3 +165,5 @@ add-questions-menu-item-tooltip = Prašenja we wašej rěči přidać
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Meni nastajenjow Pisać
+transcribe-audio-menu-item-aria-label = Transkribujće awdijowe natočenja do teksta

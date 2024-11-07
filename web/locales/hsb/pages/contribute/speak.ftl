@@ -67,3 +67,4 @@ speak-contribute-menu-tooltip = Sady, čitać, na prašenja wotmołwić
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Meni nastajenjow Rěčeć
