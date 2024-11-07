@@ -12,3 +12,16 @@ listen-loading-error =
 listen-abort-title = Përfunduat vlerësim copëzash?
 listen-abort-cancel = Vazhdoni me vlerësimin
 listen-abort-confirm = Përfundoni vlerësimin
+# Menu item
+validate-readings = Vleftësoni Lexime
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Vleftësoni Lexime, Shqyrtoni Transkriptime
+validate-readings-menu-item-tooltip = Vleftësoni lexime të regjistruara nga përdorues në gjuhën tuaj
+review-transcriptions-menu-item-tooltip = Shqyrtoni transkriptime të parashtruara nga përdorues në gjuhën tuaj
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Menu mundësish leximi
+validate-readings-menu-item-aria-label = Vleftësoni lexime të parashtruara nga anëtarë të bashkësisë

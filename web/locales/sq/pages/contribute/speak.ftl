@@ -60,3 +60,13 @@ already-have-an-account = Keni tashmë një llogari? <login>Hyni</login>
 create-profile-button = Krijoni profil
 # IMAGE TAGS
 img-alt-success-checkmark = shenjë suksesi
+# menu item
+read-sentences = Lexoni Togfjalësha
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Lexoni Togfjalësha, Përgjigjuni Pyetjeve
+read-sentences-menu-item-tooltip = Incizoni veten duke lexuar togfjalësha në gjuhën tuaj
+
+## MENU ITEM ARIA LABELS
+

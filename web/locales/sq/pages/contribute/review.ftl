@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Po ecni shumë shpejt. Ju lutemi, ndaluni nj�
 sc-redirect-page-title = Po bëjmë disa ndryshime të mëdha
 sc-redirect-page-subtitle-1 = Grumbulluesi i Togfjalëshave po kalon te platforma bazë e Common Voice-it. Tani mund të <writeURL>shkruani</writeURL> në togfjalësh, ose të <reviewURL>shqyrtoni</reviewURL> parashtrime togfjalëshash njësh te Common Voice.
 sc-redirect-page-subtitle-2 = Na bëni një pyetje në <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ose me <emailLink>email</emailLink>.
+# menu item
+review-sentences = Shqyrtoni Togfjalësha
