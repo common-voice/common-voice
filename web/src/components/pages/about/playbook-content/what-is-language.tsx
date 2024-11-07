@@ -15,7 +15,7 @@ const WhatIsLanguage = React.memo(() => {
         elems={{
           ctaLink: (
             <a
-              href="https://foundation.mozilla.org/en/blog/how-we-are-making-common-voice-even-more-linguistically-inclusive/"
+              href="https://foundation.mozilla.org/blog/how-we-are-making-common-voice-even-more-linguistically-inclusive/"
               target="_blank"
               rel="noopener noreferer"
             />

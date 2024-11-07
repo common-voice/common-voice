@@ -10,7 +10,7 @@ const HowFunded = () => (
       elems={{
         philantropicGrantLink: (
           <a
-            href="https://foundation.mozilla.org/en/blog/mozilla-common-voice-dataset-grows-by-30-and-reaches-87-languages/"
+            href="https://foundation.mozilla.org/blog/mozilla-common-voice-dataset-grows-by-30-and-reaches-87-languages/"
             target="_blank"
             rel="noopener noreferrer"
           />

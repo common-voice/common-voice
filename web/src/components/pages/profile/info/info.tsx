@@ -260,7 +260,7 @@ function ProfileInfo({
           elems={{
             learnMoreLink: (
               <a
-                href="https://foundation.mozilla.org/en/blog/expanding-gender-options-on-common-voice/"
+                href="https://foundation.mozilla.org/blog/expanding-gender-options-on-common-voice/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
