@@ -39,4 +39,5 @@ adding-sentences-subheader-speakable-explanation = بُٹھیم دی زیات ش
 adding-sentences-subheader-numbers = تعداد
 adding-sentences-subheader-numbers-explanation = شو انو کی شروعی عبارتی وے نمبر نہ ہونسہ وڑئی۔ ڑے زور تھے منئنی مجی مسلہ پئیدو تھین۔ نمبری کھئی طریقہ منیتہ ہینتہ ایسے ماحولہ جھلی انحصار تھانہ او ڈیٹا سیٹی وے الجھاو پئیدو تھی۔ مثلا  "2409" دھوے طریقے صحی منجن " بھشے چور زیرو نو" او "دو زرہ  چُور سوے  نو"۔
 adding-sentences-subheader-abbreviations = مختصر او مخفف
+adding-sentences-subheader-abbreviations-explanation = مختصر او مخفف لوز کناچی "یو ایس اے" یا  "آئی سی ای" ہنہ اینی آویلی عبارتی مجی نہ ہھینڈیو۔ اینیام انی  طریقئی منینڈیو کی تیݨی املائی پیروتہ نہ بھین وڑئی۔ ایندا بھی بھانو کی آک کھٹانو لوز بیڈہ قسم کی منجانو۔
 adding-sentences-subheader-punctuation = لہجہ
