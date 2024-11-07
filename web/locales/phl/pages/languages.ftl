@@ -1,6 +1,6 @@
 ## Languages Overview
 
-language-section-in-progress = { "" }
+language-section-in-progress = پراگرس جاری
 language-section-in-progress-new-description = انیوے انی وختی کمیونٹی سمئنی مجی ہنو<localizationGlossaryLink> ویب سائیٹ مقامی تھئنی </localizationGlossaryLink>او <sentenceCollectionGlossaryLink> جملے جمع تھئنی </sentenceCollectionGlossaryLink> شروع تھینڈیو
 language-section-launched = شروع بھلو
 language-section-launched-description = انی شروع بھلی زبینیمی  ویب سائٹی کامیابی جھلی <localizationGlossaryLink> مقامی بھی  </localizationGlossaryLink> او انیوے کافی<sentenceCollectionGlossaryLink> جملہ جمع بھلہ</sentenceCollectionGlossaryLink> جاری تھئنی اجازت <speakLink> بیتی </speakLink>او<listenLink> کاݨ تھئنی وے </listenLink> حصہ گھنئنی

@@ -21,6 +21,7 @@ adding-sentences = جملے جمع تھئنی
 reviewing-sentences = جملے دوپارہ دڇھئنی
 sentence-domain = جملئی حلقہ
 citing-sentences-subheader-websites = ویب سائٹس
+citing-sentences-subheader-websites-explanation = تو ویب سائٹ بی شامل تھائی بھوڑ مثلا "کامن وائس https://commonvoice.mozilla.org/""
 citing-sentences-subheader-academic-reference = تعلیمی حوالہ جات
 citing-sentences-subheader-offline-sources = آف لائن سورسس
 citation =
