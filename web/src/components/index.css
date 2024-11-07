@@ -188,6 +188,12 @@ button {
             overflow: auto;
         }
     }
+
+    &.datasets {
+        .menu-list {
+            box-shadow: none;
+        }
+    }
 }
 
 /**

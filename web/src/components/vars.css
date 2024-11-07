@@ -25,6 +25,7 @@
     --light-yellow: #fffcd9;
     --dark-yellow: #e5d92f;
     --light-purple: #9b90ff;
+    --gradient-cyan: #88d1f1;
 
     --gradient-pink: #f89096;
     --gradient-purple: #b1b4e5;
@@ -65,6 +66,7 @@
 
     --card-shadow: rgba(0, 0, 0, 0.09) 0 1px 6px, rgba(0, 0, 0, 0.09) 0 1px 4px;
     --cv-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.09);
+    --purple-box-shadow: 0px 0px 25px 0px rgba(155, 144, 255, 0.5);
 
     --transition-duration: 0.2s;
     --transition-duration-slow: 0.5s;
