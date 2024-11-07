@@ -24,13 +24,9 @@ show-wall-of-text = ተጨማሪ ያንብቡ
 help-us-title = ትክክለኛ ዓረፍተ ነገር በመስጠት ይርዱን!
 help-us-explain = ማጫወቻውን ይጫኑ፣ ያዳምጡ እና ይንገሩን፦ ከታች ያለውን ዓረፍተ-ነገር በትትክል ተናግረውታል?
 no-clips-to-validate = በዚህ ቋንቋ የተቀዳ ድምፅ ያለ አይመስልም። የተወሰኑ ድምፆችን በመቅዳት ይተባበሩን።
-vote-yes = አዎ
-vote-no = አይደለም
 toggle-play-tooltip = ወደ ማጫወቻ አሠራር ለመቀየር { shortcut-play-toggle } እዚህ ይጫኑ
-speak-subtitle = ድምፅዎን ይለግሱ
 speak-paragraph = የድምፅ ክሊፖችን መቅዳት የእኛን የተከፈተ ዳታቤዝ የመገንባት ዋነኛው አካል ነው ፣ አንዳንዶች ደግሞ ይህ አስደሳች ክፍል ነው ይላሉ።
 speak-goal-text = የተቀዱ ድምፆች
-listen-subtitle = በትክክለኛ ድምፆች ይርዱን
 listen-paragraph = የተለገሱ ክሊፖችን ማረጋገጥ ለጋራ ልሳን ተልዕኮም አስፈላጊ ነው። ያዳምጡ እና ጥራት ያለው ክፍት ምንጭ የድምጽ ውሂብ ለመፍጠር ያግዙን።
 listen-goal-text = የተረጋገጡ ቅጂዎች
 hours-recorded = ለመቅዳት የፈጀው ሰዓት
@@ -88,3 +84,14 @@ help-contribute = የጋራ ልሳን መገለጫ በመፍጠር እና ድም
 login-company = በ{ $company } ኢሜይል ይግቡ / ይመዝገቡ
 profile-not-required = ምንም እንኳን ጠቃሚ ቢሆንም መገለጫ መኖሩ ለማበርከት አያስፈልግም፣ ምክንያቱን ከታች ይመልከቱ።
 read-more-about = ስለ ገፃችን የበለጠ ያንብቡ
+
+## NAV ITEMS
+
+answer-questions = ጥያቄዎችን ይመልሱ <small>(በቅርብ ጊዜ)</small>
+add-questions = ጥያቄዎችን ያክሉ <small>(በቅርብ ጊዜ)</small>
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
