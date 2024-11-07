@@ -18,9 +18,33 @@ validated-clips = تصدیق کُریسن کلپس نم
 total-approved = سپُن منظور بئی سن
 overall-accuracy = سپُن سئی کُریسن
 set-visibility = ما بینن سیٹ کُرے
+visibility-overlay-note = نوٹ، کیر وزیبلہ سیٹ با یہ ؛یہ ترتیب <profileLink> پروفائل پھٹ  تہ بدلئن بئیبہ</profileLink>
+show-ranking = مائی درجہ بندی کَڅئی
 
 ## Custom Goals
 
+get-started-goals = مقصدہ ملی شُرُو کُرا
+create-custom-goal = ایک حسب ضرورت تہ مقصد ژوپایا
+goal-type = تو کیہ قسم مقصد ژوپن گھٹِنپ
+both-speak-and-listen = دوئں
+both-speak-and-listen-long = دوئں کُھنڈا آں اُشتُرُنا
+daily-goal = ہر دیو تہ مقصد
+weekly-goal = ہفتہ تہ مقصد
+easy-difficulty = اسکان
+average-difficulty = اوسط
+difficult-difficulty = گرَن
+pro-difficulty = پرو
+lose-goal-progress-warning = تانوں مقصد بدَلائی تو تانوں مُکھہ یین پُھسائیپ
+want-to-continue = تو کیہ جاری ساتن گٹِنپی
+finish-editing = اول ترمیم ختُم کُرے
+lose-changes-warning = تاں یہ وعینہ تانوں چانس ختُم کُنپ
+build-custom-goal = تانوں مرضیہ مقصد ژُپئی
+set-a-goal = مقصد ژومئی
+cant-decide = فیصلہ کُرین نی بئیپ
+how-many-per-day = ہر دیو کتی کلپس ژوپئیمہ
+how-many-a-week = ہفتا کتی کلپس نم ژُمئیمہ
+which-goal-type = تو کیہ کُھنڈن گٹنپ اُشتُرونن گٹِنپ یا دوئں
+receiving-emails-info = تو فلحال ای میل مِلو بئیں کی تیار تِھی لکہ مقصد تہ یاد دہانی تازہ ترقی آں کامن وائس ساں بارا نیوزلیٹر
 not-receiving-emails-info = تو فی الحال مسہ سیٹ تُھوپ<bold>نی</bold> ای میل وصول کُرا کنوئی تے مقصد تہ یاددہانی ، ما عام کاڻ تہ بارہ پروگرس اپڈیٹس آں خبر تہ خط
 n-clips-pluralized =
     { NUMBER($count) ->

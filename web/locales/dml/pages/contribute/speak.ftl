@@ -28,3 +28,9 @@ record-abort-text = ژا وعین تہ مطلب یہ با تے تاں مُکھ �
 record-abort-submit = کلپ نم ڜن
 record-abort-continue = ریکاڈنگ ختم کُرے
 record-abort-delete = نیسے آں کلپ ڈیلیٹ کُرے
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
