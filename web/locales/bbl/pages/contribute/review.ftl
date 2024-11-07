@@ -56,3 +56,4 @@ review-error = შეცდო́მ ჲა ხილ'ენო̆ წინად
 review-error-rate-limit-exceeded = წყეგეჸ ქასტლეჲში̆. დეხო́თხ სოუბო̆ დროჰ̦-ე́ დაკრეშ ხა́ტტლოთ წინა́დადებ, მე ღაზი́შ ხოჸოლო̆ შუჼ ნიფსხოლ მოლლა́ხუჼ ჲა.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ტა́ლამბუჲნი̆ ხარცხილ'რი და
+sc-redirect-page-subtitle-1 = ჰ̦ანასა́ წინადა́დბი ვაშა́რ დუჲცი̆, ო დაჰ̦ დუჲტო̆ Common Voice-ეჼ ძირითად სა́იტმაქ, ინც მაკ შუჼ <writeURL> შედგე́ნადოლოთ </writeURL>წინადა́დებ, ლე მა́ <reviewURL>დაყყდო́ლოთ</reviewURL> ცჰ̦აც მაქ ლა́ტდიენო̆ წინადა́დებ ნიფს Common Voice-ე.
