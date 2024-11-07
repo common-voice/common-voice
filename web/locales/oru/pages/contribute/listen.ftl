@@ -15,6 +15,10 @@ validate-readings = ته غوېک يې بيې تصدیق کَۀ
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ته غوېک يې بيې تصدیق کَۀ، ا نقل سۀ وار بيې جیر کَۀ
+validate-readings-menu-item-tooltip = ته استعمال کوونکئ ا نقل تصدیق کَۀ
+review-transcriptions-menu-item-tooltip = ته استعمال کوُونکئ ا پېش ݭیوک نقل ترتو خوئ زبان سۀ وار بيې جیر کَۀ
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ته امرؤ ته وُرغېوي ا مېنیو
