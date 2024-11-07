@@ -94,3 +94,5 @@ release-version = ورژن
 dataset-date = تاریخ
 license = لائسینس: <licenseLink>{ $license }</licenseLink>
 license-mixed = اموشت
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسپہ ڈیٹاسیٹو ڈون لوڈ کو
