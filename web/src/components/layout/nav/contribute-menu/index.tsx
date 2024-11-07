@@ -155,6 +155,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           marginBlockStart: '-30px',
           fontFamily: 'Open Sans',
           fontSize: '12px',
+          zIndex: '1',
         }}
         hidden={showMenu}>
         {l10n.getString(menuTooltip)}

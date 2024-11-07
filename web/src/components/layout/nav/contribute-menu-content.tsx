@@ -90,14 +90,17 @@ const Content = ({
                   className={classNames('content', {
                     'coming-soon': isComingSoon,
                   })}>
-                  <Icon />
                   {renderContent()}
                 </div>
               </li>
               <Tooltip
                 anchorSelect={`#${menuItemTooltip}`}
                 place="bottom"
-                style={{ width: 'auto', maxWidth: '550px' }}>
+                style={{
+                  width: 'auto',
+                  maxWidth: '350px',
+                  position: 'absolute',
+                }}>
                 {getString(menuItemTooltip)}
               </Tooltip>
             </>

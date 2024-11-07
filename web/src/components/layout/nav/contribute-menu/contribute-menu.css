@@ -70,6 +70,7 @@
             display: flex;
             background: var(--white);
             box-shadow: 0 2px 5px 0 var(--light-grey);
+            /* max-height: 100px; */
 
             .vertical-line {
                 border-inline-start: 1px solid var(--grey);
@@ -101,7 +102,8 @@
                     a {
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        max-width: 210px;
+                        max-width: 230px;
+                        margin-inline-end: 0;
                     }
 
                     &.coming-soon p {
@@ -130,6 +132,7 @@
                 svg {
                     width: 16px;
                     height: 16px;
+
                     path {
                         fill: var(--black);
                     }
@@ -169,6 +172,15 @@
             text-transform: capitalize;
             font-size: 16px;
             padding: 0;
+        }
+
+        a.contribute-link {
+            display: flex;
+            align-items: center;
+
+            svg {
+                margin-inline-end: 12px;
+            }
         }
     }
 
