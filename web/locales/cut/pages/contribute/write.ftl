@@ -24,18 +24,18 @@ new-sentence-rule-8 = Dindi dindi noo tomene nwe kub bakchii yi'i inña ndetes n
 login-instruction-multiple-sentences = Kubbi kuenade o kubbi fnekakade tomene kubbi fnuu ndennaa ndodo yi'i dbaku yi'ide
 how-to-cite = ¿Taka ka'ama ?
 how-to-cite-explanation-bold = Fnekakade du'u yi'i ndodo se iynuu mu'u o tii bchii
-how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenone kugbi fndan mu'u tama kuaa.
+how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenode kugbi fndad mu'u tama kuaa.
 guidelines = Mu'u aa taka kugbii
 contact-us = Ndede ndokono
 add-sentence-success = Ndodo se nbenno
 add-sentence-error = Nwe ii iynuu ndodo
-required-field = Mu'u ne'ese dunne
+required-field = Mu'u ne'es dunne
 single-sentence-submission = Ama ndodono cho'o mu'u
-small-batch-sentence-submission = Am dolin am dolin cho'o ndodo
-bulk-sentence-submission = Ndee ndodo cho'o mu'u
+small-batch-sentence-submission = Kugbi cho'o ama dakku ndodo
+bulk-sentence-submission = Ndendikuu ndodo kugbii cho'oo
 single-sentence = Ama ndodono
-small-batch-sentence = Liin
-bulk-sentence = Chetee
+small-batch-sentence = Ama dakuu linnoo
+bulk-sentence = Ama dakundikku
 sentence-domain-combobox-label = Iydikchide ndodo
 sentence-domain-select-placeholder = Ndi innu kugbi tndanunde ndetes ne'ede
 # Sentence Domain dropdown option
@@ -45,7 +45,7 @@ automotive_transport = Be'e nase bee koo se ikka, koo se iyndee inña tomene a k
 # Sentence Domain dropdown option
 finance = Tummi
 # Sentence Domain dropdown option
-service_retail = Be'e nase gnuu inña se inydikuiya
+service_retail = Be'e nase gnuu inña se inydikuiya at nwe noondee
 # Sentence Domain dropdown option
 general = Tndubee kueenoo
 # Sentence Domain dropdown option
