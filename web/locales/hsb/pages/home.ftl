@@ -85,10 +85,12 @@ answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
 review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
 add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
 transcribe-audio = Awdio transkribować <small>(přińdźe bórze)</small>
+press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerstwa, nowiny a stawiznički, zhromadźenstwo a rěče
 partnerships-menu-item-tooltip = Stańće so z našim partnerom
 press-and-stories-menu-item-tooltip = Wopytajće naš blog abo pisajće wo nas
 
@@ -96,3 +98,4 @@ press-and-stories-menu-item-tooltip = Wopytajće naš blog abo pisajće wo nas
 
 about-menu-aria-label = Wo meniju Nastajenja
 partnerships-menu-item-aria-label = Zhońće wjace wo partnerstwach z Common Voice
+community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a rěče, kotrež so přez Common Voice podpěruja
