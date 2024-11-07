@@ -18,3 +18,5 @@ share-title = ლატათ თხოჼ ლახლოთხ ხეილზ
 
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = ყო́ველშარე მილვაჼ დო́ლარგო́მციჼ ჰ̦ალო̆ იხო̆ მონაცემა́ჼ კრე́ბულ  თაგჲარ-გა́გჲარ- ღაზარჲარეჼ ხა́რჯი ფხაუზტყეხ საობო̆ მატტაჼ ე́რთობენაჲნო̆, მენხუ́ დაჩო ვაიხ და ჴალლინო̆.<strong> შუნაჲნო̆ მა́ხლიჼ და́ჰ̦ მონაცე́მი ჰ̦ა́მინაჲნოჸ ნჵაჲნი ხილ'არა́ჲ მრავალფეროვნება́ჲ, ჩაჴ მა დილლოთ, ი́ნცაჸ ლა́ტათ თხოჼ! </strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>CV ჴმა́რბადუჲა</mark><br/><mark>ჰ̦ე კვლევა́ხ?
