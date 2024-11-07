@@ -6,6 +6,7 @@ demo-welcome-subheader = تو دوئی معلومات گھنئنی او پراج
 
 ## Demo Datasets
 
+demo-language-select-card-body = شکریہ! 50 زُبینی 259 ہزارہ دی  زیات خلکیمی مدد ہنی۔ اینی معلومات انسانی ہاویزی تھے  بہتر جواب دئنی دپارہ ، ہاواز کی ہینسلو کمپوٹری پروگریمی تربیت دئنی دپارہ استعمال بھانہ۔
 card-button-next = مُݜٹو گرا بہ
 card-button-back = پتو گرا بہ
 demo-language-select-label = زُبینی بُولاڈ
@@ -15,6 +16,8 @@ demo-account = اکاونٹ
 
 ## Demo Account
 
+demo-account-card-header = مدد تھئنی دپارہ  اکاونٹ ضروری نہ، اگرچی ڑو مددگار۔
+demo-account-card-body = اسی دیڇھنیتی دوشی فائدے واضح تھے ہنہ کی گہ معلومات عام خلکیمی دپارہ ہنی تھنی۔ موبُھنیڑا لنک کمن وائس تیݨی کمپیوٹیری وے یا موبائلہ وے شروع تھئنی دپارہ  استعمال تھہ۔
 demo-account-enter-email =
     .label = سائن-اب لنک امزئنی دپارہ تیݨی ای میل چونٹہ
 demo-account-sign-up = سائن اب لنک امزئیہ
