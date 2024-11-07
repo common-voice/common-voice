@@ -38,4 +38,5 @@ adding-sentences-subheader-speakable = کھونڈئنی قابل
 adding-sentences-subheader-speakable-explanation = بُٹھیم دی زیات شو جملہ قدرتی او عام مشقولگی - دویمی منئنی دپارہ اسکون ہونسہ وڑئی۔ آک جملہ مختلف ہاوز او لوز   بھئنی بیڈو اہم۔ بے انی کوشش بی تھانہ کی ریکاڈنگی جملہ اسی رضاکارانومی دپارہ دلچسپ او مزیدار شئی بھی وڑئی۔
 adding-sentences-subheader-numbers = تعداد
 adding-sentences-subheader-numbers-explanation = شو انو کی شروعی عبارتی وے نمبر نہ ہونسہ وڑئی۔ ڑے زور تھے منئنی مجی مسلہ پئیدو تھین۔ نمبری کھئی طریقہ منیتہ ہینتہ ایسے ماحولہ جھلی انحصار تھانہ او ڈیٹا سیٹی وے الجھاو پئیدو تھی۔ مثلا  "2409" دھوے طریقے صحی منجن " بھشے چور زیرو نو" او "دو زرہ  چُور سوے  نو"۔
+adding-sentences-subheader-abbreviations = مختصر او مخفف
 adding-sentences-subheader-punctuation = لہجہ
