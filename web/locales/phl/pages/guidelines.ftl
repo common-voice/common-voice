@@ -42,3 +42,5 @@ adding-sentences-subheader-abbreviations = مختصر او مخفف
 adding-sentences-subheader-abbreviations-explanation = مختصر او مخفف لوز کناچی "یو ایس اے" یا  "آئی سی ای" ہنہ اینی آویلی عبارتی مجی نہ ہھینڈیو۔ اینیام انی  طریقئی منینڈیو کی تیݨی املائی پیروتہ نہ بھین وڑئی۔ ایندا بھی بھانو کی آک کھٹانو لوز بیڈہ قسم کی منجانو۔
 adding-sentences-subheader-punctuation = لہجہ
 adding-sentences-subheader-punctuation-explanation = خاص علامیتی او زیر زبری صرف ایڑے صورتی شامل تھوئی کی ڑنی کی بیڈٰی ضرورت ہانسِلی  ہینتہ۔ مثلا انگریزی لوزی وے ایپیس ٹروفی شامل تھانہ کناچی "don’t" او "we’re" او شروعی عبارتی اے شامل بھینڈیو لیکن خآص علامت “@” or “#.” ضرورت بھی تھنی نہ سرئیجانو۔
+adding-sentences-subheader-special-characters = خاص حروف او دھرندی حروف
+adding-sentences-subheader-special-characters-explanation-1 = حروف ایسے زبان کی تھبیڈیو کھئیو زبان کی کھونڈانہ۔ مثلا حرف "ж" روسی زبینی وے استعمال بھانو لیکن انگریزی وے بہ کرے بی استعمال نہ بھلوۡ ہِنو۔ ایڑو انگریزی عبارتی وے نہ بھینڈیو۔
