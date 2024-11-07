@@ -76,6 +76,7 @@ donate-modal-explanation-1 = سالان تقریبا آک میلین ڈالر د
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold> تو اگر اسی معلومیتمی قدر تھانو ہینتہ آجے اسام سنگی مالی تعاون تھہ
 data-download-singleword-title = سنگل ورڈ ٹارگیٹ سیگمنٹ ڈونلوڈ بھلو
+data-download-singleword-callout-v2 = انو استعمالی جھلی چلئیجاٹو حصہ  کی لیوے بات دئنی نمبری شناخت، او یا نہ پتہ لگئنی ڈیٹا ہانسانہ۔
 data-download-button = کامن وائسی معلومات ڈونلوڈ بھلو
 data-download-yes = او
 data-download-deny = نہ
