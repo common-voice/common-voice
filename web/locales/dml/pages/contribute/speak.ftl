@@ -41,6 +41,8 @@ terms-agree = ائی مننُم
 terms-disagree = ائی نی منُم
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تاں کاڻ تہ کلپ عطیہ کُرن تہ پرئی شکریہ
+first-cta-subtitle-text = اماکی تانوں بارہ کُھنڈی ،تو ڈویلپرز کی ورے ایس جامع ٹیکنالوجی ژوپنہ مدد کُریس
+why-donate = تو کو پوچاینپ
 
 ## MENU ITEM TOOLTIPS
 
