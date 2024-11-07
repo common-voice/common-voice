@@ -18,6 +18,7 @@ validate-readings = Čitanja přepruwować
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Čitanja přepruwować, transkripcije přepruwować
+validate-readings-menu-item-tooltip = Přepruwujće čitanja, kotrež su so wot wužiwarjow we wašej rěči natočili
 
 ## MENU ITEM ARIA LABELS
 

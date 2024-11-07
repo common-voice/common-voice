@@ -159,11 +159,16 @@ add-sentences = Sady přidać
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Sady přidać a přepruwować, prašenja přidać, awdijo transkribować
 add-sentences-menu-item-tooltip = Sady we wašej rěči přidać
 review-sentences-menu-item-tooltip = Sady we wašej rěči přepruwować
 add-questions-menu-item-tooltip = Prašenja we wašej rěči přidać
+transcribe-audio-menu-item-tooltip = Transkribujće awdijowe natočenja w swojej rěči
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Meni nastajenjow Pisać
+add-sentences-menu-item-aria-label = Přidajće nowe sady, kotrež zhromadźenstwo móže čitać
+review-sentences-menu-item-aria-label = Přepruwujće eksistowace sady, kotrež su so wot zhromadźenstwa zapodali
+add-questions-menu-item-aria-label = Zapodajće nowe prašenja, kotrež móže zhromadźenstwo čitać a na nje móže wotmołwić
 transcribe-audio-menu-item-aria-label = Transkribujće awdijowe natočenja do teksta

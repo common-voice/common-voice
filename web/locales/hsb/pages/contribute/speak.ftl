@@ -68,3 +68,5 @@ speak-contribute-menu-tooltip = Sady, čitać, na prašenja wotmołwić
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Meni nastajenjow Rěčeć
+read-sentences-menu-item-aria-label = Čitajće sady, kotrež su so wot zhromadźenstwa w rozdźělnych rěčach zapodali
+answer-questions-menu-item-aria-label = Zapodajće nowe prašenje, kotrež móže zhromadźenstwo čitać a na nje móže wotmołwić
