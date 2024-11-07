@@ -79,6 +79,7 @@ try-upload-again-md = נסו להעלות שוב
 select-file = בחירת קובץ
 select-file-mobile = בחירת קובץ להעלאה
 accepted-files = סוגי הקבצים המתאימים: קבצי .tsv בלבד
+minimum-sentences = מספר מינימלי של משפטים בקובץ: 1000
 maximum-file-size = גודל מירבי של הקובץ: 25 מגה-בית
 what-needs-to-be-in-file = מה צריך להיות בקובץ להעלאה?
 what-needs-to-be-in-file-explanation = אנא עיינו ב<templateFileLink>קובץ התבנית</templateFileLink>. המשפטים שאתם מעלים צריכים להיות ללא טענות לזכויות יוצרים (ברשיון CC0 או עבודה מקורית שמועלית ברשות היוצרים) ולהיות נהירים, נכונים מבחינה דקדוקית ופשוטים לקריאה. צריך לקחת כ-10-15 שניות לקרוא כל משפט, ויש להימנע משילוב מספרים, שמות או תווים מיוחדים כחלק מהמשפטים.
@@ -96,6 +97,52 @@ too-many-files = יותר מידי קבצים
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = הוספת מספר רב של משפטים המצויים בנחלת הכלל
+multiple-sentences-error = לא ניתן להוסיף מספר משפטים בבת אחת
+exceeds-small-batch-limit-error = לא ניתן לשלוח יותר מ-1000 משפטים
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] הקצב שלכם מהיר מידי. נסו שוב בעוד כדקה.
+        [two] הקצב שלכם מהיר מידי. נסו שוב בעוד דקותיים.
+       *[other] הקצב שלכם מהיר מידי. נסו שוב בעוד { $retryLimit } דקות.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] הקצב שלכם מהיר מידי. נסו שוב בעוד שנייה אחת.
+        [two] הקצב שלכם מהיר מידי. נסו שוב בעוד שתי שניות.
+       *[other] הקצב שלכם מהיר מידי. נסו שוב בעוד { $retryLimit } שניות.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] הגעתם למגבלת השליחה עבור עמוד זה. אנא המתינו כדקה לפני שאתם מנסים לשלוח עוד משפט. תודה על הסבלנות!
+        [two] הגעתם למגבלת השליחה עבור עמוד זה. אנא המתינו דקותיים לפני שאתם מנסים לשלוח עוד משפט. תודה על הסבלנות!
+       *[other] הגעתם למגבלת השליחה עבור עמוד זה. אנא המתינו { $retryLimit } דקות לפני שאתם מנסים לשלוח עוד משפט. תודה על הסבלנות!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] הגעתם למגבלת השליחה עבור עמוד זה. אנא המתינו שנייה אחת לפני שאתם מנסים לשלוח עוד משפט. תודה על הסבלנות!
+        [two] הגעתם למגבלת השליחה עבור עמוד זה. אנא המתינו שתי שניות לפני שאתם מנסים לשלוח עוד משפט. תודה על הסבלנות!
+       *[other] הגעתם למגבלת השליחה עבור עמוד זה. אנא המתינו { $retryLimit } שניות לפני שאתם מנסים לשלוח עוד משפט. תודה על הסבלנות!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] התווסף משפט יחיד
+        [two] { $uploadedSentences } מתוך { $totalSentences } משפטים התווספו
+       *[other] { $uploadedSentences } מתוך { $totalSentences } משפטים התווספו
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] התווסף משפט יחיד. לחצו <downloadLink>כאן</downloadLink> על-מנת להוריד משפטים שלא התקבלו.
+        [two] התווספו { $uploadedSentences } מתוך { $totalSentences } משפטים. לחצו <downloadLink>כאן</downloadLink> על-מנת להוריד משפטים שלא התקבלו.
+       *[other] התווספו { $uploadedSentences } מתוך { $totalSentences } משפטים. לחצו <downloadLink>כאן</downloadLink> על-מנת להוריד משפטים שלא התקבלו.
+    }
 
 ## MENU ITEM TOOLTIPS
 
