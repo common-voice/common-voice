@@ -25,6 +25,33 @@ login-instruction-multiple-sentences = Kubbi kuenade o kubbi fnekakade tomene ku
 how-to-cite = ¿Taka ka'ama ?
 how-to-cite-explanation-bold = Fnekakade du'u yi'i ndodo se iynuu mu'u
 how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenone kugbi fndan mu'u tama kuaa.
+guidelines = Mu'u aa taka kugbii
+contact-us = Ndede ndokono
+add-sentence-success = Ndodo se nbenno
+add-sentence-error = Nwe ii iynuu ndodo
+required-field = Mu'u ne'ese dunne
+single-sentence-submission = Ama ndodono cho'o mu'u
+small-batch-sentence-submission = Am dolin am dolin cho'o ndodo
+bulk-sentence-submission = Ndee ndodo cho'o mu'u
+single-sentence = Ama ndodono
+small-batch-sentence = Liin
+bulk-sentence = Chetee
+sentence-domain-combobox-label = Iydikchide ndodo
+sentence-domain-select-placeholder = Ndi innu kugbi tndanunde ndetes ne'ede
+# Sentence Domain dropdown option
+agriculture_food = Ndinñu se innu ndata ndokos e'e inña
+# Sentence Domain dropdown option
+automotive_transport = Be'e nase bee koo se ikka, koo se iyndee inña tomene a kot kakaya
+# Sentence Domain dropdown option
+finance = Tummi
+# Sentence Domain dropdown option
+service_retail = Be'e nase gnuu inña se inydikuiya
+# Sentence Domain dropdown option
+general = Tndubee kueenoo
+# Sentence Domain dropdown option
+healthcare = Bikchee inña, nwe ke'eya
+# Sentence Domain dropdown option
+history_law_government = De'es dbenno inña, de'es se iytunnu inña, taka iydiya se indi inña ndinñi'i
 
 ## BULK SUBMISSION 
 
