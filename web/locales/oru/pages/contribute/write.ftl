@@ -20,6 +20,9 @@ new-sentence-rule-4 = صحیح پنکچوېشن او املا يې سو لیکی
 new-sentence-rule-5 = مخصوص حرفی او هندسي دی سو نک لیکی
 new-sentence-rule-6 = غېرملکي خرفی دی سو نک لیکی
 new-sentence-rule-7 = مناسب خوالي دی سو شامېلېوی
+new-sentence-rule-8 = مثالي او عوامي خبُرئ (سا که ا جملۀ په اسني سره غوېک سَۀ)
+login-instruction-multiple-sentences = <loginLink> لاګ اِن </loginLink> یا <loginLink> سائن اپ </loginLink> ته مختلف قسُم جملي ا ګډؤ
+how-to-cite = خوالۀ ليې څا ڒوم؟
 
 ## BULK SUBMISSION 
 
