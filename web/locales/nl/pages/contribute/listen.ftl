@@ -23,6 +23,5 @@ review-transcriptions-menu-item-tooltip = Door gebruikers ingediende transcripti
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = Menu Luisteropties
 validate-readings-menu-item-aria-label = Door gemeenschapsleden ingediende voorgelezen zinnen valideren
 review-transcriptions-menu-item-aria-label = Transcripties van opgenomen zinnen op juistheid beoordelen
