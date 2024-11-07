@@ -66,6 +66,10 @@ read-sentences = ا جملي غؤس
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = ا جملي غؤس او ته سؤلی څؤبی ر دی ڒَۀ
+read-sentences-menu-item-tooltip = خوئ زبان نر ا غوېک جملي خوئ ریکارډ کَۀ
+answer-questions-menu-item-tooltip = خوئ زبان نرت ال دی سؤلي که ا څېن ځَؤبی ڒُوکِن افئ خوئ ریکارډ کېون
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ته فوېک ته وُرغېوي ا مېنیو
+read-sentences-menu-item-aria-label = ا فئ جملي که ا کمیونېټي دی پېش داکِن مختلف زبنی نر، تره له کَۀ
