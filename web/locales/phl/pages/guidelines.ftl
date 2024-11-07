@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = حصہ گھنئنی رہنمائی
+guidelines-header-subtitle = انی بات جھانینڈیو کی  کامن وائسی ڈیٹاسیٹی سنگی مدد او جملئی   ہاویزی کنا تھے  تصدیق تھئیجہ تھنی
 voice-collection = ہاویزیمی مجموعہ
 sentence-collection = جملئی مجموعہ
 varying-pronunciations = مختلف طریقئی منئنی
