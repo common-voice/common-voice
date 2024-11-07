@@ -10,9 +10,16 @@ listen-loading-error = اما ملی  ااُشتُرنے کی کاݨ تہ کلپ
 listen-abort-title = کلپ ساں توثیق کُرن ختم کُرا
 listen-abort-cancel = تصدیق جاری ساتا
 listen-abort-confirm = توثیق ختم  کُرا
+# Menu item
+validate-readings = مترن تہ توثیق کُرا
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = مترن تہ توثیق کُرا، نقل نم تہ جائزہ کُرا
+validate-readings-menu-item-tooltip = تانوں باڜا صارف ساں ریکارڈ کُریسن مترن ساں توثیق کُرا
+review-transcriptions-menu-item-tooltip = تانوں باڜا صارف ساں جمع کُریسن ٹرنسکلپشن ساں توثیق کُرا
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = اختیارت تہ مینو اُشتُرونا
+validate-readings-menu-item-aria-label = کمیونٹی ممبران ساں طرف تہ جمع کُریسن ریڈینگ ساں توثیق کُرا
