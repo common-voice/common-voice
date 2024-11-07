@@ -21,11 +21,16 @@ email-input =
 email-opt-in-info = ლე́ჸ სოჼ ელფო́სტევ იხოლ სოჼ დაკჴე́ლრი  ჰ̦ალო̆ თაგდუჲჩო̆ მიზნა́ხ, უჲშტნეჸ, მოჰ̦ უ̂ხ თე́გლა-ჲე, Common Voice-ციჼ კა́ვშირჲეჲნ̆ი̆ წინ ამბუჲ უ̂ხ ჲა.
 email-opt-in-info-title = ჩუ დოლათ Common Voice- ელფო́სტ ჯგუფ
 email-opt-in-info-sub-with-challenge = ელფო́სტევ ხაჸათ ინფორმა́ციიშ: უ̂ხ და წი́ნ, უ̂ხ და თაგდუჲნი̆, მოჰ̦ უ̂ხ თე́გლა ჲე́, Common Voice-ციჼ კა́ვშირ ჲეჲნი̆ წინი́-წინი ა́მბუი.
+email-opt-in-privacy-v2 = ელფო́სტევ წი́რლი იხრეხ დარ ა́ლ'რევ აჰ̦ ლივა́, მე უარ ცო ლე́ვდო, Mozilla-ს ე მონაცე́მი ჰ̦ალო̆ დამუშებადო́ლო̆ <privacyLink> პირადულობ და́ცოდჲოშ, მოჰ̦ე́ </privacyLink>-ეს კლე́ვადო
+indicates-required = *  და აუცილებელ ე́ჸეჼ (ველუჼ) ლიშაჼ
+not-available-abbreviation = ცოჴა́პტლეჲნი̆ (მიუწვდომელ) და
 
 ## Donate banner
 
-# Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = ყო́ველშარე მილვაჼ დო́ლარგო́მციჼ ჰ̦ალო̆ იხო̆ მონაცემა́ჼ კრე́ბულ  თაგჲარ-გა́გჲარ- ღაზარჲარეჼ ხა́რჯი ფხაუზტყეხ საობო̆ მატტაჼ ე́რთობენაჲნო̆, მენხუ́ დაჩო ვაიხ და ჴალლინო̆.<strong> შუნაჲნო̆ მა́ხლიჼ და́ჰ̦ მონაცე́მი ჰ̦ა́მინაჲნოჸ ნჵაჲნი ხილ'არა́ჲ მრავალფეროვნება́ჲ, ჩაჴ მა დილლოთ, ი́ნცაჸ ლა́ტათ თხოჼ! </strong>
 # Text wrapped in <mark></mark> will have a white background.
-languages-donate-banner-cta = <mark>CV ჴმა́რბადუჲა</mark><br/><mark>ჰ̦ე კვლევა́ხ?
+donate-banner-cta = <mark> თხოჼ ჭირბალა</mark><br/><mark> ეჲშ ლა́ტარ</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ყო́ველშარე მილვაჼ დო́ლარგო́მციჼ ჰ̦ალო̆ იხო̆ მონაცემა́ჼ კრე́ბულ  თაგჲარ-გა́გჲარ- ღაზარჲარეჼ ხა́რჯი ფხაუზტყეხ საობო̆ მატტაჼ ე́რთობენაჲნო̆, მენხუ́ დაჩო თხოხ და ჴალლინო̆.<strong> შუნა́ჲნო̆ მა́ხლიჼ და́ჰ̦ მონაცე́მი ჰ̦ა́მინაჲნოჸ ნჵაჲნი ხილ'არა́ჲ მრავალფეროვნება́ჲ, ჩაჴ მა დილლოთ, ი́ნცაჸ ლა́ტათ თხოჼ! </strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>CV ჴმა́რბადუჲა́</mark><br/><mark>ჰ̦ე კვლევა́ხ?
 languages-donate-banner-cta-explanation = Common Voice ფინა́ნსბალა ფლო́ქოღ ლა́ტრივაჲ, საქველმოქმე́დო̆ ტათბუვა́ჲ. თხონა́ჲნო̆ ზორა́ჲში̆ ღოსხე́თლაჲნი̆  და მეცნიერიციჼ, ჴენჴენაჸ საზო́გადოებიცი-ნე́  ეჴ და́რგუჼ ჴე́თნიშიციჼ ცჰ̦ა́ღ ქესადალარ. ბაყეჸ და, Common Voice უფასო̆ და, მა, მომსა́ხურებ ღაზარჲაჼ ნე́ მონაცემი ჩუ განლა́გბადჲაჼ ხა́რჯი ჲე́ჴრელო ლა́ტარ ზორა́ჲში̆ გამოდგო́მალა თხოჼ
