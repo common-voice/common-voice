@@ -12,5 +12,6 @@ partnerships-governments-description = Abi bo khoshan thi shama madad karik dai 
 partnerships-academia-header = University an, Idara an, khojaw an, newishaw an
 partnerships-academia-description = Kholaw ejadad, kia ki shian, shia mi homa maqsat. data jama kai tasi som madad kak dai. Kura oninterview grien dai. <emailFragment> homa tada zali</emailFragment>
 partnerships-small-business-header = Chutyak karubar, shamil shiaw Tech, ze AI karaw an
+partnerships-small-business-description = Abi hamisha khojik dai kura ki data istimal kan dai. tasi ajati newishila. tasi som tahun karikas bati. ta'ke tasi sahi data milaw hiw. homa ajat<emailFragment>mimi pi ko'n' karik khojik dai</emailFragment>
 partnerships-corporates-header = Ghona paimana una company, idara ya o warek jaiga
 partnerships-our-partners = Homa Malgeri/ Partners
