@@ -280,6 +280,11 @@ loading = لوډنګ
 email-opt-in-info = از بُو آ زېم که ترتیوس  ای مېل اِر دې څوا ته مقصد ته یاد دهانی باره نر، ترمُن ته مُخ په تک او ته خبري باره نر
 email-opt-in-info-title = ته مشترک آواز ته ای مېلنګ لسټ نر تُو ګه شامل سُن
 email-opt-in-info-sub-with-challenge = سا ا ای مېلز دی وصولېون سکه چېلنجی، او ته مقصد یاد دهاني، ته اپډېټ ا په مختګ او ته مشترک آواز باره نر خبري
+email-opt-in-privacy-v2 = ته پا وُرغېوي ته ڒیوڅن ا مطلب يې او ݭیوک که تُو ته موزیلا ته ډېټا ا سا قسم انډلؤ ګیرډ متفق هې سکه څا ته موزیلا ای پۀ لنک نر موجود هۀ<privacyLink> پرائوېسی پالېسي </privacyLink>
+indicates-required = فیلډ ته ستُرک * ای نشان ګیرډ يې ضروري هۀ
+not-available-abbreviation = ن/ا
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark> ماخ کی يې ترتُو ته امداد ضرورت هۀ <br/> او بيې </mark>
