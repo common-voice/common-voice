@@ -60,3 +60,14 @@ already-have-an-account = Hebt u al een account? <login>Aannmelden</login>
 create-profile-button = Een profiel aanmaken
 # IMAGE TAGS
 img-alt-success-checkmark = succesvinkje
+# menu item
+read-sentences = Zinnen voorlezen
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Zinnen voorlezen, Vragen beantwoorden
+read-sentences-menu-item-tooltip = Neem uzelf op tijdens het voorlezen van zinnen in uw taal
+answer-questions-menu-item-tooltip = Neem uzelf op bij het beantwoorden van vragen en aanwijzingen in uw taal
+
+## MENU ITEM ARIA LABELS
+
