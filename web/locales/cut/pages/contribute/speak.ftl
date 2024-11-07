@@ -43,6 +43,9 @@ terms-disagree = Nwe
 first-cta-header-text = ¡ Yondibkuedes se iytede ndodo yi'ide se iynuu mu'u na koo !
 first-cta-subtitle-text = ¿ Bee de'es ne kamade yi'i dbaku yi'ide ?
 why-donate = ¿Dekubes se iytomunede?
+why-donate-explanation-1 = Mu'une ndetese nwe ne'edene nwekuito dudde. Nunne nwe kamano du'use iynnu ndodoyi'i mu'u naa koo, nwe kamano taka dukchinne, o tebe  ndodoyone, nwe kamano a iñ' ndata o iñ cha'a iyndaya mu'u naa koo.
+why-donate-explanation-2 = De'se iynnu mu'une iydichibe ndetese yaa inña iyndaya mu'u. Ndetese nwe iynnu ndodo yi'i ama inña se abikaa iyndeyane nwe dikchibe stika. Nome kubidbenonka ndetes ne'ene de'ese gnu  mu'u na koo.
+add-information-button = Neka se fnuu ndodo
 
 ## MENU ITEM TOOLTIPS
 
