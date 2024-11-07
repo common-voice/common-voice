@@ -1,4 +1,4 @@
-speak = غؤس/ یو
+speak = غؤس/ یو/ ژغ
 speak-now = پېری غؤس
 speak-subtitle = ا خوئ آواز پېش کَۀ
 record-cta = ا ریکارډِنګ شُوري کَۀ
@@ -57,3 +57,6 @@ first-cta-gender-select-help-text =
 second-cta-header-text = ته آواز ته پېش کؤ پاره ت شکریا
 second-cta-subtitle-text = خوئ پروفائل نر ته خوئ کری ا ریکارډ ساتيېک اېنچی، او فئ خلق ګیرډ يې ګۀ تعلق ساتيېک اېنچی کوک که ته آواز ته ډېټا حصه دري یِن
 already-have-an-account = اول لاسته ت دې اکاؤنټ هۀ <login> لاګه سُن نر</login>
+create-profile-button = پروفائل يې جوړ کَۀ
+# IMAGE TAGS
+img-alt-success-checkmark = ا کامیابي چېک مارک کَۀ
