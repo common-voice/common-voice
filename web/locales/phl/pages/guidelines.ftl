@@ -35,5 +35,6 @@ adding-sentences-subheader-length-explanation = جملہ وے 15 دی کام ل�
 adding-sentences-subheader-spelling-punctuation = املا او لہجے
 adding-sentences-subheader-spelling-punctuation-explanation = جملہ صحی طریقہ کی چونٹِجی ہونسہ وڑئی۔
 adding-sentences-subheader-speakable = کھونڈئنی قابل
+adding-sentences-subheader-speakable-explanation = بُٹھیم دی زیات شو جملہ قدرتی او عام مشقولگی - دویمی منئنی دپارہ اسکون ہونسہ وڑئی۔ آک جملہ مختلف ہاوز او لوز   بھئنی بیڈو اہم۔ بے انی کوشش بی تھانہ کی ریکاڈنگی جملہ اسی رضاکارانومی دپارہ دلچسپ او مزیدار شئی بھی وڑئی۔
 adding-sentences-subheader-numbers = تعداد
 adding-sentences-subheader-punctuation = لہجہ
