@@ -1,7 +1,7 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تو ایک باڜہ ایس منتخب نی کوتھوپ، مہربانی کُری تانو پروفائل کی یدے باڜہ سلیکٹ کُرے۔
-sc-review-title = جملہ ساں جائزہ
+sc-review-lang-not-selected = تو ایک باڜہ ایس منتخب نی کوتھوپ، مہربانی کُری تانو <profileLink> پروفائل کی یدے </profileLink>باڜہ سلیکٹ کُرے۔
+sc-review-title = جملہ ساں جائزہ گیا
 sc-review-loading = جملہ اکہ سن
 sc-review-select-language = مہربانی کُری باڜہ منتخب کُرے جائزہ تہ پرئی
 sc-review-no-sentences = جائزہ تہ پرئی ایک جملہ ایس نی درو
