@@ -73,7 +73,9 @@ sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon>
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو پچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
 bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیت ہیا ساوزیرو ژاغہ  شامل نیکی تھے  <emailFragment> تین نویشے commonvoice@mozilla.com</emailFragment>
+template-file-additional-information =
+    ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیتان ہیا شامل کوریکو ژاغا نیکی، تھے <emailFragment> 
+     اسپہ تین انځاوے commonvoice@mozilla.com</emailFragment>
 try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو
