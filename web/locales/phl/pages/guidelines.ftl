@@ -11,6 +11,7 @@ volume = زور/بھراش
 reader-effects = مناٹی اثر
 just-unsure = بس غیر یقینی
 example = مثال
+varying-pronunciations-explanation-2 = دوئی دوشی بہ، اگر تھی خیال کی یڑو لوز ڑا دی مُݜٹو مناٹی مخدوشی وے تھے نہ یھیلی ہنی یا بہ منئنی مجی غلط اندازہ گھنانو ہینتہ ، مہربینی تھے ایڑس رد تھہ۔ تو تھے یقین نئنی بہ ہینتہ اڑیگلئنی بٹنی جہ۔
 misreadings-explanation-2 = بیڈی عام غلطیہ شامل ہنم:
 misreadings-explanation-4 = آک کوزی آخیری وے ،ایس، مِیس تھئنی
 still-have-questions = تپہ بی گہ سُویلی ہنمے؟
