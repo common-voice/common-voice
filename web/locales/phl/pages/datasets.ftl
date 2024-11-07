@@ -72,6 +72,11 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = عُمر
 donate-modal-message = تھی ڈیٹا سیٹ ڈون لوڈ بھانو
 dataset-donate-modal-heading = تو تھے معلومے؟
+donate-modal-explanation-1 = سالان تقریبا آک میلین ڈالر دیٹابیس نیٹی وے چھورئنی او بہتر تھئنی دپارہ خرچ بھانو۔ بے کھئیو کرام تھانہ انی جھلی پانج بحےشہ دی زیات زبینیمی خلکہ بھروسہ تھانہ۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> تو اگر اسی معلومیتمی قدر تھانو ہینتہ آجے اسام سنگی مالی تعاون تھہ
+data-download-singleword-title = سنگل ورڈ ٹارگیٹ سیگمنٹ ڈونلوڈ بھلو
+data-download-button = کامن وائسی معلومات ڈونلوڈ بھلو
 data-download-yes = او
 data-download-deny = نہ
 data-get-started = <speechBlogLink> تقریر ہوݰ تھاٹہ جھلی شروع تھہ</speechBlogLink>
