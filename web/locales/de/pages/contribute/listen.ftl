@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Überprüfung der Aufzeichnungen abschließen?
 listen-abort-cancel = Überprüfung fortsetzen
 listen-abort-confirm = Überprüfung abschließen
+# Menu item
+validate-readings = Sprachbeiträge überprüfen
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Sprachbeiträge überprüfen, Transkripte überprüfen
+validate-readings-menu-item-tooltip = Validieren Sie von Benutzern aufgezeichnete Sprachbeiträge in Ihrer Sprache
+review-transcriptions-menu-item-tooltip = Überprüfen Sie von Benutzern eingereichte Transkripte in Ihrer Sprache
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Optionsmenü „Anhören“
+validate-readings-menu-item-aria-label = Von Mitgliedern der Gemeinschaft übermittelte Sprachbeiträge überprüfen
+review-transcriptions-menu-item-aria-label = Überprüfen Sie die Transkripte aufgezeichneter Sätze auf Richtigkeit

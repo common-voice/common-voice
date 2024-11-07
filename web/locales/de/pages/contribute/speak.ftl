@@ -60,3 +60,17 @@ already-have-an-account = Sie haben bereits ein Konto? <login>Melden Sie sich an
 create-profile-button = Ein Profil erstellen
 # IMAGE TAGS
 img-alt-success-checkmark = Symbol: Häkchen/Erfolg
+# menu item
+read-sentences = Sätze vorlesen
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Sätze vorlesen, Fragen beantworten
+read-sentences-menu-item-tooltip = Nehmen Sie Sätze auf, die Sie in Ihrer Sprache lesen
+answer-questions-menu-item-tooltip = Nehmen Sie auf, wie Sie auf Fragen und Aufforderungen in Ihrer Sprache antworten
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Optionsmenü „Vorlesen“
+read-sentences-menu-item-aria-label = Lesen Sie von der Gemeinschaft eingereichte Sätze in verschiedenen Sprachen
+answer-questions-menu-item-aria-label = Senden Sie eine neue Frage, damit die Gemeinschaft sie lesen und beantworten kann

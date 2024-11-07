@@ -53,7 +53,6 @@ sc-criteria-item-5-2 =
     Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“ auf der linken Seite.
     Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 sc-criteria-item-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Überprüfen Sie, <icon></icon> ob dies ein linguistisch korrekter Satz ist.
 sc-review-rules-title = Entspricht der Satz dem Leitfaden?
@@ -67,4 +66,5 @@ review-error-rate-limit-exceeded = Sie sind zu schnell. Bitte nehmen Sie sich ei
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
 sc-redirect-page-subtitle-2 = Stellen Sie uns Fragen auf <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> oder per <emailLink>E-Mail</emailLink>.
-
+# menu item
+review-sentences = Sätze überprüfen

@@ -147,3 +147,21 @@ small-batch-sentences-rule-3 = Trennen Sie Sätze in einer Zeile, indem Sie einm
 small-batch-sentences-rule-4 = Fügen Sie bis zu 1&thinsp;000 Sätze hinzu
 small-batch-sentences-rule-5 = Alle Sätze müssen dasselbe Thema haben
 small-batch-sentences-rule-6 = Alle Sätze müssen dieselbe Quellenangabe haben
+# menu item
+add-sentences = Sätze hinzufügen
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Sätze hinzufügen und überprüfen, Fragen hinzufügen, Audio transkribieren
+add-sentences-menu-item-tooltip = Fügen Sie Sätze in Ihrer Sprache hinzu
+review-sentences-menu-item-tooltip = Überprüfen Sie Sätze in Ihrer Sprache
+add-questions-menu-item-tooltip = Fügen Sie Fragen in Ihrer Sprache hinzu
+transcribe-audio-menu-item-tooltip = Transkribieren Sie Audioaufnahmen in Ihrer Sprache
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Optionsmenü „Schreiben“
+add-sentences-menu-item-aria-label = Fügen Sie neue Sätze hinzu, damit die Gemeinschaft lesen kann
+review-sentences-menu-item-aria-label = Überprüfen Sie bestehende Sätze, die von der Gemeinschaft eingereicht wurden
+add-questions-menu-item-aria-label = Senden Sie neue Fragen ein, damit die Gemeinschaft sie lesen und beantworten kann
+transcribe-audio-menu-item-aria-label = Transkribieren Sie Audioaufnahmen zu Text

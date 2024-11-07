@@ -12,13 +12,9 @@ show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & sagen Sie uns: Wurde der folgende Satz korrekt ausgesprochen?
 no-clips-to-validate = Sieht so aus, als gäbe es keine Aufzeichnungen mehr, die Sie bestätigen könnten. Helfen Sie uns, die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
-vote-yes = Ja
-vote-no = Nein
 toggle-play-tooltip = Drücken Sie für Play/Stop { shortcut-play-toggle }
-speak-subtitle = Spenden Sie Ihre Stimme
 speak-paragraph = Stimmen aufzunehmen ist ein wesentlicher Schritt beim Aufbau unseres Datensatzes – manche würden sogar sagen, es ist der, der am meisten Spaß macht.
 speak-goal-text = Aufgenommene Aufzeichnungen
-listen-subtitle = Helfen Sie uns, Stimmen zu bestätigen
 listen-paragraph = Das Bestätigen von Aufzeichnungen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, gemeinfreie Sprachdaten in guter Qualität bereitzustellen.
 listen-goal-text = Bestätigte Aufzeichnungen
 hours-recorded = Erfasste Stunden
@@ -77,3 +73,25 @@ login-company = Anmelden / Registrieren mit { $company }-E-Mail-Adresse
 profile-not-required = Ein Profil ist für die Mitarbeit nicht notwendig, aber hilfreich
 read-more-about = Weitere Informationen über Common Voice
 
+## NAV ITEMS
+
+answer-questions = Fragen beantworten <small>(kommt in Kürze)</small>
+review-transcriptions = Transkripte überprüfen <small>(kommt in Kürze)</small>
+add-questions = Fragen hinzufügen <small>(kommt in Kürze)</small>
+transcribe-audio = Audio transkribieren <small>(kommt in Kürze)</small>
+press-and-stories = Presse und Geschichten
+community-and-languages = Gemeinschaft und Sprachen
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerschaften, Presse und Geschichten, Gemeinschaft und Sprachen
+partnerships-menu-item-tooltip = Werden Sie Partner
+press-and-stories-menu-item-tooltip = Besuchen Sie unser Blog oder schreiben Sie über uns
+community-and-languages-menu-item-tooltip = Entdecken Sie Sprachen, Gemeinschaften und Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Optionsmenü „Über“
+partnerships-menu-item-aria-label = Erfahren Sie mehr über Partnerschaften mit Common Voice
+press-and-stories-menu-item-aria-label = Greifen Sie auf Veröffentlichungen und Geschichten zu Common Voice zu
+community-and-languages-menu-item-aria-label = Entdecken Sie die Gemeinschaft und die von Common Voice unterstützten Sprachen
