@@ -22,3 +22,5 @@ review-transcriptions-menu-item-tooltip = ته استعمال کوُونکئ ا 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = ته امرؤ ته وُرغېوي ا مېنیو
+validate-readings-menu-item-aria-label = ته کمیونېټی ته ممبرنی ا پېش ݭیوک غوېک تصدیق کېون
+review-transcriptions-menu-item-aria-label = ته نقل ݭیوک نقل او ا ریکارډ سُک جملي سه وار بيې جیره کَۀ

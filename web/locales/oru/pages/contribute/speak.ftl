@@ -60,3 +60,12 @@ already-have-an-account = اول لاسته ت دې اکاؤنټ هۀ <login> ل
 create-profile-button = پروفائل يې جوړ کَۀ
 # IMAGE TAGS
 img-alt-success-checkmark = ا کامیابي چېک مارک کَۀ
+# menu item
+read-sentences = ا جملي غؤس
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = ا جملي غؤس او ته سؤلی څؤبی ر دی ڒَۀ
+
+## MENU ITEM ARIA LABELS
+
