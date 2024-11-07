@@ -10,6 +10,7 @@ download-size = kimon/ size
 download-selected = Jama karik
 download-start = Profile data jama/ download karik
 download-request = Darkhast karik, recardings as bati
+download-requests = Shumber aw recard ze download as darkhast
 download-request-button = download/ Jama karik
 download-request-title = { $created }
 download-request-description = { $clipCount } awaz clips, Saw kai size una  { $size }. khul hiu { $expires }.
