@@ -19,7 +19,10 @@ validate-readings = Čitanja přepruwować
 
 listen-contribute-menu-tooltip = Čitanja přepruwować, transkripcije přepruwować
 validate-readings-menu-item-tooltip = Přepruwujće čitanja, kotrež su so wot wužiwarjow we wašej rěči natočili
+review-transcriptions-menu-item-tooltip = Přepruwujće transkripcije, kotrež su so wot wužiwarjow we wašej rěči zapodali
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Meni nastajenjow Słuchać
+validate-readings-menu-item-aria-label = Přepruwujće čitanja, kotrež su so wot čłonow zhromadźenstwa zapodali
+review-transcriptions-menu-item-aria-label = Přepruwujće prawosć transkripcijow natočenych sadow
