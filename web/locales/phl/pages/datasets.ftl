@@ -101,3 +101,5 @@ license = لائسینس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس بھلو
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = اسی وائس ڈیٹا سیٹ ڈون لوڈ تھہ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس ڈیٹا تی رسائی دپارہ اختیارات ڈاؤن لوڈ تھہ۔
