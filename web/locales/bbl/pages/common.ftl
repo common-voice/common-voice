@@ -18,6 +18,9 @@ privacy-info = ათხ პირობ თელ'ო́თხ შუჼ, მე
 return-to-cv = Common Voice-მაქ დუხაჸ დე́რწარ́
 email-input =
     .label = ელფო́სტ
+email-opt-in-info = ლე́ჸ სოჼ ელფო́სტევ იხოლ სოჼ დაკჴე́ლრი  ჰ̦ალო̆ თაგდუჲჩო̆ მიზნა́ხ, უჲშტნეჸ, მოჰ̦ უ̂ხ თე́გლა-ჲე, Common Voice-ციჼ კა́ვშირჲეჲნ̆ი̆ წინ ამბუჲ უ̂ხ ჲა.
+email-opt-in-info-title = ჩუ დოლათ Common Voice- ელფო́სტ ჯგუფ
+email-opt-in-info-sub-with-challenge = ელფო́სტევ ხაჸათ ინფორმა́ციიშ: უ̂ხ და წი́ნ, უ̂ხ და თაგდუჲნი̆, მოჰ̦ უ̂ხ თე́გლა ჲე́, Common Voice-ციჼ კა́ვშირ ჲეჲნი̆ წინი́-წინი ა́მბუი.
 
 ## Donate banner
 
