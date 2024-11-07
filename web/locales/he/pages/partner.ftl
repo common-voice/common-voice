@@ -16,3 +16,5 @@ partnerships-small-business-description = אנחנו תמיד נשמח לשמו�
 partnerships-corporates-header = תאגידים גדולים וחברות בסיס
 partnerships-corporates-description = אם אתם רוצים לדבר עוד על מערך הנתונים, להשקיע בהרחבות עתידיות בפלטפורמה או מחפשים הזדמנויות לשיתוף פעולה, <emailFragment>כתבו לנו</emailFragment>.
 partnerships-our-partners = השותפים שלנו
+# menu item
+partners = שותפים

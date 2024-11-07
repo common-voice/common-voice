@@ -81,9 +81,18 @@ answer-questions = ענו על שאלות <small>(בקרוב)</small>
 review-transcriptions = בדיקת תמלולים <small>(בקרוב)</small>
 add-questions = הוספת שאלות <small>(בקרוב)</small>
 transcribe-audio = תמלול שמע <small>(בקרוב)</small>
+press-and-stories = עיתונות וידיעות
+community-and-languages = קהילה ושפות
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = שותפויות, עיתונות וידיעות, קהילה ושפה
+partnerships-menu-item-tooltip = הפכו לשותפים שלנו
+press-and-stories-menu-item-tooltip = בקרו בבלוג שלנו או כתבו אודותינו
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = תפריט אפשרויות של דף על אודות
+partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
+press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
+community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
