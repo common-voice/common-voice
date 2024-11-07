@@ -76,9 +76,18 @@ answer-questions = 回答问题<small>（即将推出）</small>
 review-transcriptions = 审核转录文本<small>（即将推出）</small>
 add-questions = 添加问题<small>（即将推出）</small>
 transcribe-audio = 转录音频<small>（即将推出）</small>
+press-and-stories = 新闻和文章
+community-and-languages = 社区和语言
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = 合作伙伴、新闻和文章、社区和语言
+partnerships-menu-item-tooltip = 与我们合作
+community-and-languages-menu-item-tooltip = 探索语言、社区与 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = “关于”选项菜单
+partnerships-menu-item-aria-label = 了解与 Common Voice 的合作
+press-and-stories-menu-item-aria-label = 获取关于 Common Voice 的新闻稿和文章
+community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社区和语言

@@ -16,3 +16,5 @@ partnerships-small-business-description = 我们一直希望了解数据使用�
 partnerships-corporates-header = 大型企业与平台型企业
 partnerships-corporates-description = 如果您想了解数据库、投资本平台或寻求合作机会，<emailFragment>请联系我们。</emailFragment>
 partnerships-our-partners = 我们的合作伙伴
+# menu item
+partners = 合作伙伴
