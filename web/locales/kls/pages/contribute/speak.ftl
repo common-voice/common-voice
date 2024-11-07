@@ -60,3 +60,13 @@ already-have-an-account = Tay som account shiaw e?
 create-profile-button = Profile sawzai
 # IMAGE TAGS
 img-alt-success-checkmark = Kamiyab Nishan
+# menu item
+read-sentences = Mas te newishila
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Mas te mon, Sawal ze jawab
+read-sentences-menu-item-tooltip = Recard kari tan hatya, tan zuban una mondr de
+
+## MENU ITEM ARIA LABELS
+
