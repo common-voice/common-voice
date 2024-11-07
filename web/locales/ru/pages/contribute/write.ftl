@@ -149,3 +149,21 @@ small-batch-sentences-rule-3 = Разделяйте предложения по 
 small-batch-sentences-rule-4 = Добавить до 1000 предложений
 small-batch-sentences-rule-5 = Все предложения должны иметь один и тот же домен
 small-batch-sentences-rule-6 = Все предложения должны иметь одинаковое цитирование
+# menu item
+add-sentences = Добавить предложения
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Добавление и проверка предложений, добавление вопросов, транскрипция аудио
+add-sentences-menu-item-tooltip = Добавьте предложения на вашем языке
+review-sentences-menu-item-tooltip = Проверяйте предложения на вашем языке
+add-questions-menu-item-tooltip = Добавьте вопросы на вашем языке
+transcribe-audio-menu-item-tooltip = Транскрибируйте аудиозаписи на вашем языке
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Меню настроек написания
+add-sentences-menu-item-aria-label = Добавляйте новые предложения для чтения сообществом
+review-sentences-menu-item-aria-label = Проверьте существующие предложения, отправленные сообществом
+add-questions-menu-item-aria-label = Отправляйте новые вопросы для чтения и ответа сообществом
+transcribe-audio-menu-item-aria-label = Преобразовывать аудиозаписи в текст

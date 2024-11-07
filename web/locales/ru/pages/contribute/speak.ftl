@@ -66,6 +66,11 @@ read-sentences = Прочитать предложения
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Читать предложения, отвечать на вопросы
+read-sentences-menu-item-tooltip = Запишите себя, читая предложения на вашем языке
+answer-questions-menu-item-tooltip = Запишите, как вы отвечаете на вопросы и сообщения на вашем языке
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Меню настроек озвучивания
+read-sentences-menu-item-aria-label = Читайте предложения, представленные сообществом на разных языках
+answer-questions-menu-item-aria-label = Представьте новый вопрос, чтобы сообщество могло его прочитать и ответить

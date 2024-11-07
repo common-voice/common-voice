@@ -94,3 +94,7 @@ release-version = Версия
 dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смешанная
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Загрузите наши наборы голосовых данных
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Параметры загрузки для доступа к данным Common Voice
