@@ -53,3 +53,6 @@ report-sc-different-language = ჴენაჸ მოტტ
 report-sc-different-language-detail = დაწე́რადიენო̆ და ას ა́მბუი ჲოჩო̆ მატტახ ცოთარ'ლენო̆ ჴე́ჩო̆ მატტავ
 sentences-fetch-error = შეცდო́მ ჲა ხილ'ენო̆ წინადა́დებ მიღე́ბადჲოშ
 review-error = შეცდო́მ ჲა ხილ'ენო̆ წინადა́დებ დეყყჲოშ (შემო́წმადჲოშ)
+review-error-rate-limit-exceeded = წყეგეჸ ქასტლეჲში̆. დეხო́თხ სოუბო̆ დროჰ̦-ე́ დაკრეშ ხა́ტტლოთ წინა́დადებ, მე ღაზი́შ ხოჸოლო̆ შუჼ ნიფსხოლ მოლლა́ხუჼ ჲა.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = ტა́ლამბუჲნი̆ ხარცხილ'რი და
