@@ -12,3 +12,13 @@ listen-loading-error =
 listen-abort-title = Завершить проверку клипов?
 listen-abort-cancel = Продолжить проверку
 listen-abort-confirm = Завершить проверку
+# Menu item
+validate-readings = Проверить произношение
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Проверить произношение, проверить транскрипции
+validate-readings-menu-item-tooltip = Проверяйте записанное пользователями произношение на вашем языке
+
+## MENU ITEM ARIA LABELS
+
