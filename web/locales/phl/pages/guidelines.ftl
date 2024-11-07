@@ -44,3 +44,6 @@ adding-sentences-subheader-punctuation = لہجہ
 adding-sentences-subheader-punctuation-explanation = خاص علامیتی او زیر زبری صرف ایڑے صورتی شامل تھوئی کی ڑنی کی بیڈٰی ضرورت ہانسِلی  ہینتہ۔ مثلا انگریزی لوزی وے ایپیس ٹروفی شامل تھانہ کناچی "don’t" او "we’re" او شروعی عبارتی اے شامل بھینڈیو لیکن خآص علامت “@” or “#.” ضرورت بھی تھنی نہ سرئیجانو۔
 adding-sentences-subheader-special-characters = خاص حروف او دھرندی حروف
 adding-sentences-subheader-special-characters-explanation-1 = حروف ایسے زبان کی تھبیڈیو کھئیو زبان کی کھونڈانہ۔ مثلا حرف "ж" روسی زبینی وے استعمال بھانو لیکن انگریزی وے بہ کرے بی استعمال نہ بھلوۡ ہِنو۔ ایڑو انگریزی عبارتی وے نہ بھینڈیو۔
+adding-sentences-subheader-special-characters-explanation-2 = ای زبان مقامی تھئنی مجی اضافی ضروتیم سنگی اکٹجی تسی سند تھئینی دپارہ اصولی بی ہنم۔ آک زبینی گہ  خاص سندی فائل نہ ہینسلی ہینتہ تھے انگریزی اصولیم کی حصہ گھناٹہ پشجن۔
+adding-sentences-subheader-offensive-content = کھاچہ مواد
+adding-sentences-subheader-offensive-content-explanation = جملہ وے کھیچی یا پریشینی بیتی ہانسلی ہینتہ  مثلا صفا مواد یا اسی <communityGuidelines>کمیونیٹی رہنمائی<communityGuidelines> جھلی عمل نہ تھے ہینسلہ ہینتہ ایسو جملہ رد تھہ۔ تو اسام تھے بی مائی بھوڑ  <emailFragment>commonvoice@mozilla.com</emailFragment>مسلہ مخدوشی تھے اٹئنی دپارہ۔
