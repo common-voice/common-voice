@@ -19,6 +19,10 @@ validate-readings = Проверить произношение
 
 listen-contribute-menu-tooltip = Проверить произношение, проверить транскрипции
 validate-readings-menu-item-tooltip = Проверяйте записанное пользователями произношение на вашем языке
+review-transcriptions-menu-item-tooltip = Проверяйте отправленные пользователями транскрипции на вашем языке
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Меню настроек прослушивания
+validate-readings-menu-item-aria-label = Проверка произношения, отправленного участниками сообщества
+review-transcriptions-menu-item-aria-label = Проверьте точность транскрипции записанных предложений

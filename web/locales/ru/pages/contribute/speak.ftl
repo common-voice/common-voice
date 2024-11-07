@@ -60,3 +60,12 @@ already-have-an-account = У вас уже есть аккаунт? <login>Во�
 create-profile-button = Создать профиль
 # IMAGE TAGS
 img-alt-success-checkmark = флажок успешного завершения
+# menu item
+read-sentences = Прочитать предложения
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Читать предложения, отвечать на вопросы
+
+## MENU ITEM ARIA LABELS
+

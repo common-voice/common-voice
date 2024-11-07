@@ -59,3 +59,5 @@ review-error-rate-limit-exceeded = Вы слишком торопитесь. П�
 sc-redirect-page-title = У нас большие перемены
 sc-redirect-page-subtitle-1 = Сборщик предложений переходит на основную платформу Common Voice. Теперь вы можете <writeURL>написать</writeURL> предложение или <reviewURL>просмотреть</reviewURL> одно предложение на Common Voice.
 sc-redirect-page-subtitle-2 = Задавайте нам вопросы в <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> или по <emailLink>электронной почте</emailLink>.
+# menu item
+review-sentences = Проверить предложения
