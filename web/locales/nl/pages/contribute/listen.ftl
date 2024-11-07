@@ -12,3 +12,14 @@ listen-loading-error =
 listen-abort-title = Valideren van fragmenten voltooien?
 listen-abort-cancel = Doorgaan met valideren
 listen-abort-confirm = Valideren voltooien
+# Menu item
+validate-readings = Voorgelezen zinnen valideren
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Voorgelezen zinnen valideren, transcripties beoordelen
+validate-readings-menu-item-tooltip = Door gebruikers opgenomen voorgelezen zinnen in uw taal valideren
+review-transcriptions-menu-item-tooltip = Door gebruikers ingediende transcripties in uw taal beoordelen
+
+## MENU ITEM ARIA LABELS
+
