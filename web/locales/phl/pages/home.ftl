@@ -5,6 +5,31 @@ default-tagline = کامن وائس موزیلو ای مہم، ہیا  اصل ر
 home-cta = کھونڈ، انیوے مدد تھہ!
 wall-of-text-start = ہاواز قدرتی، ہاواز انسانی،  ایڑے وجہ کی بے مشینی وے ہاواز استعمال تھئنی مجی او ٹیکنالوجی سمئنی مجی دلچسپ سمیانہ۔ لیکن ہاویزی نظام سمئنی دپارہ بیڈہ زیات ڈیٹائی ضرورت۔
 listen-goal-text = ہاواز توثیق تھئنی
+hours-recorded = گھنٹے ریکاڈ بھلہ
+hours-validated = گھنٹے توثیق بھلہ
+voices-online = ہاویزی تپہ آن لائن بھین
+todays-progress = آجُکو کرام
+help-reach-goal = اسام سنگی { $goal } گھنئنی مدد تھہ
+read-terms-q = تھی اسی شرطی منیتئیے؟
+ready-to-record = تیݨی ہاواز وقف تھئنی دپارہ تیار
+all-locales = تمام
+today = آج
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count }ہفتہ وار
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }لمحہ
+       *[other] لمحے
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } وائی
+       *[other] وائی
+    }
+help-make-dataset = تپہ اسام سنگی شو معیار بُٹھیمی دپارہ ڈیٹا سیٹ سمئنی مدد تھانو۔
 
 ## Account Benefits
 
