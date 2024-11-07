@@ -31,6 +31,10 @@ sc-review-form-reviewed-message =
         [one] 1 წინადა́დებ ჲა დაყყჲიენო̆  (შემო́წმადიენო̆). მადლობ!
        *[other] { $sentences } წინადა́დებ ჲა დაყყჲიენო̆. (შემო́წმადიენო̆). მადლობ!
     }
+sc-review-form-review-failure = შემო́წმადიენო ცო გა́გჲალიჼ. დეხო́თხ ჴეჼკაჸ ტყო́ჸ ცადლიბათ
+sc-review-link = შემოწმადარ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ნიფსიშ დაყყდარეხ (შემო́წმებადარეხ)
+sc-criteria-title = მოჰ̦ დე́ყყლა (მო́წმებალა)
