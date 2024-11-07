@@ -55,9 +55,18 @@ first-cta-gender-select-help-text =
     .label = تو کنو کُری تانوں جنس یا جنس تہ وضاحت کُریس
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تانوں کاڻ پرینہ تاں شکریہ
+second-cta-subtitle-text = فروفائلہ ملی، بی تانوں کرمہ نظر ساتے بیبہ آں بی تانوں کاڻ تہ کمیونٹی ملی رابطہ ساتین بیبہ
+already-have-an-account = اگر پریڜبئیں تہ ایک اکاونٹ درو بہ <login>لاگ ان</login>
+create-profile-button = پروفائل ژوپایا
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی تہ نِشن
+# menu item
+read-sentences = جملہ مترے
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملہ نم متری، جواب پرے
+read-sentences-menu-item-tooltip = تانو باڜا جملہ نم متری تانو ریکارڈنگ  کُرا
 
 ## MENU ITEM ARIA LABELS
 
