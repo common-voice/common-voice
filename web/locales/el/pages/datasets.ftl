@@ -94,3 +94,7 @@ release-version = Έκδοση
 dataset-date = Ημερομηνία
 license = Άδεια: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτή
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Κάντε λήψη των συνόλων δεδομένων φωνής μας
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Επιλογές λήψης για την πρόσβαση στα δεδομένα του Common Voice
