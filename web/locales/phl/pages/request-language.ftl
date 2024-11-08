@@ -13,3 +13,13 @@ request-language-google-recaptcha-required = اگر تو مُݜٹو گرا بھ�
 request-language-google-recaptcha-error = reCAPTCHA وے گہ غلطی بھلی۔ براہ کرم دوبارہ کوشش تھہ۔
 # Success page
 request-language-success-heading = شکریہ! تھی آک نیوی زبینی  انکوائری امزئلی ہنی۔
+request-language-success-list-1 =
+    تو تھے بیڈو لپ آک ضاحت  والا  ای میل ملاؤ بھی بھنیڈیو۔
+    تیݨی زبان  کامن وائسہ وے شامل تھئنی دپارہ اقدامات
+request-language-success-list-2 =
+    اسی کمیونٹی مینیجر پیشکش تھئنی دپارہ تو سنگی رابطہ تھی۔اضافی تعاون، او اگر موجود ہنتہ تو تھے منی
+    تھی کمیونٹی تھی زبینی جھلی مُݜٹوئے کرام بھانو۔
+request-language-success-list-3 = اگر تو تھے آک یا دو دیسہ مجی اسی طرفی گہ جواب نہ یھیلی ہینتہ <emailLink>{ $email }</emailLink>  رابطہ تھوئی۔ بے تو طرف واپس یھایہ!
+request-language-error =
+    ہیں بہ کی اسام تھے سو درخواست نہ پھیدی ہونسہ۔ براہ کرم اسام تھے براہ راست ای میل تھوئی۔
+    <emailLink>{ $email }</emailLink>  او بے تُسام سنگی رابطہ تھیہ!
