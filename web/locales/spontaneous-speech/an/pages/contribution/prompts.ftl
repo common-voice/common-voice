@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = Aprende cómo transcribir
 learn-how-to-use-transcribe-explanation = Escribe exactament lo que la persona ha dito, incluyendo parolas de repleno como 'eh' u 'um'.
 learn-how-to-use-transcribe-guidance = Fe clic <guidanceLink>aquí</guidanceLink> pa aprender a usar esta pachina
 learn-how-to-use-check-transcript = Aprende a fer una transcripción
+learn-how-to-use-check-transcript-explanation = Una transcripción habría de capturar totas las parolas u sonius no lexicos d'a conversación que la persona haiga pronunciau, incluyendo repeticions.
+learn-how-to-use-check-transcript-guidance = Fe clic <guidanceLink>aquí</guidanceLink> pa aprender a usar esta pachina
