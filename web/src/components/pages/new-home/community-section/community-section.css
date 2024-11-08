@@ -1,0 +1,152 @@
+.community-section-container {
+    padding: 60px;
+    text-align: center;
+    background: url('./assets/background.jpg');
+    background-position-y: 110%;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+
+    .title {
+        background: linear-gradient(90deg, #ff4f5e 0%, #629ff4 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        font-weight: 500;
+        margin-block-end: 24px;
+        margin: 24px auto;
+
+        @media (--md-up) {
+            width: auto;
+            max-width: 950px;
+        }
+
+        @media (--md-down) {
+            width: auto;
+        }
+
+        @media (--sm-down) {
+            font-size: var(--font-size-lg);
+            text-align: left;
+        }
+    }
+
+    .subtitle {
+        font-size: 20px;
+        font-family: var(--strong-font-family);
+        font-weight: 400;
+        color: var(--black);
+        margin: 24px auto 80px;
+
+        @media (--md-up) {
+            width: 600px;
+        }
+
+        @media (--sm-down) {
+            font-size: var(--font-size-md);
+            text-align: left;
+        }
+    }
+
+    .card-container {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+
+        @media (--md-down) {
+            flex-wrap: wrap;
+        }
+
+        @media (--sm-down) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 350px;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            @media (--sm-up) {
+                width: 100%;
+            }
+
+            .card-image {
+                height: 150px;
+
+                &.scripted {
+                    background-image: url('./assets/scripted-speech.jpg');
+                    background-size: 100% 100%;
+                }
+
+                &.spontaneous {
+                    background-image: url('./assets/spontaneous-speech.jpg');
+                    background-size: 100% 100%;
+                }
+
+                &.language-text {
+                    background-image: url('./assets/language-text.jpg');
+                    background-size: 100% 100%;
+                }
+            }
+
+            .card-body {
+                padding: 32px;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+
+                h2.card-header {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: var(--black);
+                    margin-block-end: 8px;
+                    text-align: left;
+                }
+
+                p {
+                    text-align: left;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: var(--black);
+                    margin-block-end: 16px;
+                }
+
+                .button {
+                    padding: 10px 16px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border: none;
+                    margin-block-start: auto;
+                    height: 57px;
+                    background-color: var(--light-purple);
+
+                    &.disabled {
+                        background-color: var(--warm-grey);
+                        pointer-events: none;
+                    }
+
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                        margin-inline-start: 8px;
+                    }
+
+                    &:hover {
+                        color: var(--white);
+
+                        path {
+                            fill: var(--white);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

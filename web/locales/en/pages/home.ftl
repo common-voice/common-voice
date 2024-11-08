@@ -107,8 +107,22 @@ press-and-stories-menu-item-aria-label = Access press releases and stories relat
 community-and-languages-menu-item-aria-label = Explore the community and languages supported by Common Voice
 
 ## NEW HOME PAGE KEYS
+
+## Hero section
 hero-title = Technology that speaks your language
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Why should AI only cover 1% of global languages?</bold>
 hero-subtitle-2 = Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.
 get-started = Get started <icon><icon>
+
+## Community section
+community-section-title = Common Voice is a free, open source platform for community-led data creation
+community-section-subtitle = Anyone can preserve, revitalise and elevate their language by sharing, creating and curating text and speech datasets.
+scripted-card-header = Scripted Speech
+scripted-card-content = Read sentences aloud in your language and contribute to the most diverse public participation speech dataset in the world.
+spontaneous-card-header = Spontaneous Speech
+spontaneous-card-content = Respond to prompts to create datasets for organic, colloquial contexts. Perfect for oral-first languages.
+language-text-card-header = Language Text
+language-text-card-content = Create or share public domain prompts, sentences, and text for translation, small language models, and more.
+coming-soon = Coming Soon
+add-text = Add Text
