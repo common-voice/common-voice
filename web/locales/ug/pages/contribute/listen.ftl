@@ -12,3 +12,16 @@ listen-loading-error =
 listen-abort-title = ئۈن ئۈزۈمدە دەلىللەشنى تاماملامسىز؟
 listen-abort-cancel = دەلىللەشنى داۋاملاشتۇر
 listen-abort-confirm = دەلىللەش تامام
+# Menu item
+validate-readings = ئوقۇشنى دەلىللە
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = ئوقۇشنى دەلىللەپ، خاتىرىنى تەكشۈرىدۇ
+validate-readings-menu-item-tooltip = ئىشلەتكۈچى خاتىرىلىگەن تىلىڭىزدىكى ئوقۇشنى دەلىللەيدۇ
+review-transcriptions-menu-item-tooltip = ئىشلەتكۈچى يوللىغان تىلىڭىزدىكى يېزىق خاتىرىسىنى تەكشۈرىدۇ
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = تاللانما تىزىملىكنى تىڭشايدۇ
+validate-readings-menu-item-aria-label = جامائەت ئەزاسى يوللىغان ئوقۇشنى دەلىللەيدۇ
