@@ -129,3 +129,4 @@ contribution-background-noise-description-extended = اگر ریکارڈنگ چ�
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>لے بلو ڈینا سور سم تہ<strong>[cough]</strong>ٹریاسک
 contribution-background-noise-example-2-fixed-title = دیو دینو<strong>[cough]</strong> ٹریاسک
 contribution-background-noise-example-2-explanation = متن تہ اچھک حصہ اُشترونن بڜ نی درو
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>لے بلو ڈاینا سور[crackle]</strong> -ریاسک
