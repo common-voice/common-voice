@@ -86,3 +86,7 @@ release-version = مُتی قِسم
 dataset-date = تاریخ
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مِشک بِیلِیک
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسے شونگو ڈیٹا بیسے ڈاؤنلوڈ تھے۔
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائیسو ڈیٹاؤ آپشنی ڈاؤنلوڈ تھے۔

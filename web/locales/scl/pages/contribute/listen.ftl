@@ -10,3 +10,17 @@ listen-loading-error = تُوڑے کونڈ دریونئی کاریو اسوڑے 
 listen-abort-title = کلپی منیونو پھش بیلی دا؟
 listen-abort-cancel = تصدیق تھیوں بیئی
 listen-abort-confirm = تصدیق پھش تھے
+# Menu item
+validate-readings = ریکارڈنگو تصدیق تھے۔
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = رجیکو تصدیق تھے، ٹرانسکرپشن دُگُنی چکے۔
+validate-readings-menu-item-tooltip = تھنی باشینی جک سے ریکارڈ تھیئکئی تصدیق تھے۔
+review-transcriptions-menu-item-tooltip = جک سے چینیئیک  تھنی باشینی دُگُنی چکے
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = کونڈ دیونو آپشنی ژِھیر
+validate-readings-menu-item-aria-label = کمیونیٹیو جک سے چینیئیک موجو تصدیق تھے۔
+review-transcriptions-menu-item-aria-label = ریکارڈ تھیئیک موجی سم ہاں دا چکیونو ٹرانسکرپشنے دُگُنی چکے۔

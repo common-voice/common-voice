@@ -143,3 +143,11 @@ small-batch-sentences-rule-3 = موجی اک کیشی نی آنےایک پھیر
 small-batch-sentences-rule-4 = اک ہزارے ڈنگ موجی یو تھے۔
 small-batch-sentences-rule-5 = پُورے موجو ایکشان ڈومین بونو اواجیئی۔
 small-batch-sentences-rule-6 = پُورے موجو ایکشان حوالہ بونی اواجیئی۔
+# menu item
+add-sentences = موجی یو/مِشک تھے۔
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
