@@ -59,7 +59,7 @@ about-playbook-what-is-language = უ̂ხ ალ'ანდა "მოტტ" Co
 
 about-playbook-how-add-language = მოჰ̦ ლატბოს მოტტ?
 about-playbook-how-add-language-translating-heading = საიტ თარგმნოდარ
-about-playbook-how-add-language-translating-content-1 = მოჰ̦ დეწ თარგმნოდალან საიტ?
+about-playbook-how-add-language-translating-content-1 = გიბათ თხე́ მითითებბი, მოჰ̦ დეწ ჴმა́რბადან Pontoon.</translateVideoLink>
 
 ## How does localization work
 
