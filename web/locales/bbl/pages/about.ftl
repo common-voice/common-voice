@@ -43,14 +43,17 @@ about-stay-in-touch = მოჰ̦ მაკ ნახნ კავშირმ�
 about-stay-in-touch-button = ანგრიშ თაგჲარ
 about-stay-in-touch-text-1 = წევრ თაგლიბათ თხე ელფო́სტ ჯგუფე ჲე ხაჸათ, მოჰ̦ მაკ შუჼ მონაწილეობ მიღე́ბადჲოლუჲშ კამპანია́ხ, წინი-წინი́ მაკოდმაკრი დანე́რგოდჲარა́ხ Common Voice-ნაჲნო̆
 about-stay-in-touch-text-2 = ჴეჩ-ჴეჩჩო̆ მატტა́ხიჼ  Mozilla წარმომადგე́ნლიციჼ ბჵარდახანე́ჲნო̆ ჲე ცჰ̦აცჰ̦ე́ჲნი̆  საკითხენმაქ ა́მბუჲ ჲანა́ჲნო̆ გამოდგო́მალა შუჼ <discourseLink> Discourse </discourseLink>, მაცმე́ ჰ̦ა́თთეჸ რჩევ ხაჸაჼ დაჭირბალა შუნ მა́, დაკა́ვშირბალიბათ <matrixLink> Matrix-ეციჼ </matrixLink>
-about-nav-why-common-voice = ვუჼ?
+about-nav-why-common-voice = უ̂ჼ?
 about-nav-how-it-works = მოჰ̦?
+about-nav-partners = თანამშრო́მლობ
+about-nav-get-involved = ჩუ ჩა́რთოლიბათ
 about-nav-how-it-works-2 = მოჰ̦ მუშებალა Common Voice?
-about-nav-playbook = მოჰ̦ ლატბოს მოტტ?
+about-nav-playbook = მოჰ̦ დეწი́შ შარიჼ და́ყ ჩუ დაჰ̦აჼ (მონაწილეობ მიღ́ებადჲაჼ)
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = უ̂ხ ალ'ანდა "მოტტ" Common Voice-ლო?
 
 ## How do I add a language
 
