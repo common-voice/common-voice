@@ -60,3 +60,17 @@ already-have-an-account = اکاونٹ سنے ہوں، لاگ ان تھے
 create-profile-button = پرفالیک سنے
 # IMAGE TAGS
 img-alt-success-checkmark = لیل تھین نیشان کامیاب
+# menu item
+read-sentences = موش رس
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = موشی رس، کھوجیکو جواب دے
+read-sentences-menu-item-tooltip = تومی باشینی موجی رجوں ریکارڈ تھے
+answer-questions-menu-item-tooltip = تومی باشینی آنے کھوجیکو جواب ریکارڈ تھے
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = رجونو آپشنو ژِھیر
+read-sentences-menu-item-aria-label = جک سے آنے مُتی مُتی باشونی چینیئیک موجی رس
+answer-questions-menu-item-aria-label = آنے مُتیک جکونیو کھُوجے، ہو جواب گہ دے۔

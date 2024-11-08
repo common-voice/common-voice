@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تُو لیگی لائی چماٹ تھیوں 
 sc-redirect-page-title = بے سے چیک بڑئیے تبدیلیئے تھیوں ہاںس
 sc-redirect-page-subtitle-1 = موجی یو تھیک کامن وائیسو(ایکشان شونگو) پلیٹ فارمے واری بوجوں ہوں۔ تُوسے چے لکھیون<writeURL> بوں ۔ ایک موجیک لکھے<reviewURL> دُگُنی چکے</reviewURL> یا ایک موجیک کامن وائیسینی چینڈ۔
 sc-redirect-page-subtitle-2 = میٹرکسینی <matrixLink> اسوڑے سوالیک کھوجے۔ </matrixLink>, <discourseLink> موش کل </discourseLink>  یا ای میل تھے</emailLink>.
+# menu item
+review-sentences = موجی پھرا چکے
