@@ -28,11 +28,6 @@ target-segment-first-banner = Aduya a crear lo primer obchectivo segmentau de Co
 target-segment-add-voice = Anyade la tuya voz
 target-segment-learn-more = Mas información
 change-preferences = Cambiar las preferencias
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Replega de voces
-contribute-sentence-collection-nav-header = Replega de frases
 login-signup = Iniciar sesión / Rechistrar-se
 vote-yes = Sí
 vote-no = No
@@ -144,7 +139,7 @@ contribution-background-voices-description-extended = Si la gravación se talla 
 contribution-background-voices-example-1-title = Los dinosauros chigants d'o Triasico. <strong>[leito per una voz]</strong>
 contribution-background-voices-example-1-explanation = Te'n viens? <strong>[clamau per yo]</strong>
 contribution-volume-title = Volumen
-contribution-volume-description = Ye normal que i haiga variacions de volumen entre lectors. Refusa-las nomás cuan lo volumen sía tant alto que lo rechistro satura, u (mas comunment) si ye tant baixo que no puez sentir lo que s'ha dito sin la referencia d'o texto escrito.
+contribution-volume-description = Ye normal que i haiga variacions de volumen entre lectors. Refusa-las nomás cuan lo volumen sía tan alto que lo rechistro satura, u (mas comunment) si ye tan baixo que no puez sentir lo que s'ha dito sin la referencia d'o texto escrito.
 contribution-reader-effects-title = Efectos d'o lector
 contribution-reader-effects-description = La mayoría d'as gravacions son de chent que parla con a suya voz natural. Puez acceptar ocasionalment una gravación ocasional no standard an que se chile, grite, susurre y, obviament, tamién se dramatice lo texto. Refusa las gravacions cantadas y las que fagan servir una voz sintetizada per ordinador.
 contribution-just-unsure-title = Tiens dubdas?
