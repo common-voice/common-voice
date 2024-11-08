@@ -97,6 +97,72 @@ too-many-files = Re a restrennow
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>Keworrewgh lies lavar arlotteth poblek
+multiple-sentences-error = Ny yllowgh keworra lies lavar rag profyans unnik
+exceeds-small-batch-limit-error = Ny yllowgh profya moy ages 1000 lavar
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [zero] { "" }
+        [one] Finweth kevradh tremenys. Assayewgh arta wosa 1 mynysen
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] Finweth kevradh tremenys. Assayewgh arta wosa { $retryLimit } mynysen
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [zero] { "" }
+        [one] Finweth kevradh tremenys. Assayewgh arta wosa 1 eylen
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] Finweth kevradh tremenys. Assayewgh arta wosa { $retryLimit } eylen
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [zero] { "" }
+        [one] Hwi re dhrehedhas finweth profyans an folen ma. Gortewgh mar pleg 1 mynysen kyns profya lavar aral. Meur ras dhis a’gas perthyans!
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] Hwi re dhrehedhas finweth profyans an folen ma. Gortewgh mar pleg { $retryLimit } mynysen kyns profya lavar aral. Meur ras dhis a’gas perthyans!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [zero] { "" }
+        [one] Hwi re dhrehedhas finweth profyans an folen ma. Gortewgh mar pleg 1 eylen kyns profya lavar aral. Meur ras dhis a’gas perthyans!
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] Hwi re dhrehedhas finweth profyans an folen ma. Gortewgh mar pleg { $retryLimit } eylen kyns profya lavar aral. Meur ras dhis a’gas perthyans!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [zero] { "" }
+        [one] { $uploadedSentences } mes a 1 lavar kuntellys
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] { $uploadedSentences } mes a { $totalSentences } lavar kuntellys
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [zero] { "" }
+        [one] { $uploadedSentences } mes a 1 lavar kuntellys. Klyckyewgh <downloadLink>omma</downloadLink> dhe iskarga lavarow neghys.
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] { $uploadedSentences } mes a { $totalSentences } lavar kuntellys. Klyckyewgh <downloadLink>omma</downloadLink> dhe iskarga lavarow neghys.
+    }
+small-batch-sentences-rule-1 = Holyewgh gidlinennow dhyworth "Py lavarow a allav aga heworra?"
+small-batch-sentences-rule-2 = Keworrewgh unn lavar orth an linen
 
 ## MENU ITEM TOOLTIPS
 
