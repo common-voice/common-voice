@@ -24,6 +24,13 @@ new-sentence-rule-8 = مثالي او عوامي خبُرئ (سا که ا جمل
 login-instruction-multiple-sentences = <loginLink> لاګ اِن </loginLink> یا <loginLink> سائن اپ </loginLink> ته مختلف قسُم جملي ا ګډؤ
 how-to-cite = خوالۀ ليې څا ڒوم؟
 how-to-cite-explanation-bold = ته خوئ الفاظ ته حوالۀ پاره ليې ته URL لنک ڒوئ یا ته کتاب ا نام لیکئ
+how-to-cite-explanation = که ګُده ت خوئ الفاظ بېن، بيې سا غؤس <italicizedText> خوئ حواله</italicizedText> ماخ بُو آ غؤݭيېن که ګده لاسته ت اِر دې او سبق نَوُلک که ماخه وه ځنيېن که ته پبلک ډومېن هۀ او هېڅ ته کوپی رآئټ خلاف ورزي يې نک سُک هۀ۔ ته کوپی رائټ ته بيې معلومات پاره ترماخ ا <guidelinesLink> ګائډ لائن جیر کئ</guidelinesLink> جیر کئ
+guidelines = هدایات
+contact-us = ماخ مېلاؤ کئ
+add-sentence-success = جمله ن يې جمع داک
+add-sentence-error = غلطي شامل جملۀ
+required-field = او څاک ډک کېون
+single-sentence-submission = ته ݭيے جمله ا ڒیوک
 
 ## BULK SUBMISSION 
 
