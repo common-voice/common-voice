@@ -53,15 +53,34 @@ report-offensive-speech-detail = Ndodoku se gnundene kaba a'a nwe dindi iynde'e
 report-other-comment =
     .placeholder = Kamade
 success = Ndebe
+continue = Fgndinde
+report-success = A ndebe cho'o kaka
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = Ndenud mu'u naa koo/Abte ndenud mu'u naa koo
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = Ndenutud mu'u na koo
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Nwe cho'o ndodo se gnu na koo
+shortcut-submit = Kuetud
+shortcut-submit-label = Choode ndodo yi'ide mu'u naa koo.
+request-language-text = ¿Nwe iyndekade dbaku yi'id mu'u na Common Voice?
+request-language-button = Kakad ama dbaku
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
 
 ## Validation criteria
 
