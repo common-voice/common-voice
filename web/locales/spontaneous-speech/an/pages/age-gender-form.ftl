@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = Gracias per contribuyir a Voz Espontania!
+age-gender-form-title = Gracias per contribuyir en Parla Espontania!
 age-gender-form-subtile = Parlando-nos de tu, aduyarás a los desenrolladors a fer tecnolochía mas inclusiva
 add-information-button = Anyade información
 continue-speaking-button = Sigue charrando
