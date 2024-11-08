@@ -42,6 +42,20 @@ sentence-domain-select-placeholder = ڒی قسم ډومېن دی حوش کَۀ
 agriculture_food = ذراعت او خوراک
 # Sentence Domain dropdown option
 automotive_transport = خودکار او ټرانسپورټ
+# Sentence Domain dropdown option
+finance = فائنانس
+# Sentence Domain dropdown option
+service_retail = خدمات او پرچُونړ
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = متعلقِ صحت عامه
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون او حکومت
+# Sentence Domain dropdown option
+language_fundamentals = ته زبان ا بنیادي شئ (سکه ډیجټ، خرفي، پئسۀ)
+# Sentence Domain dropdown option
+media_entertainment = میډیا او تفریح
 
 ## BULK SUBMISSION 
 
