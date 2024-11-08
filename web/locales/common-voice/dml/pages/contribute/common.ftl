@@ -125,3 +125,6 @@ contribution-varying-pronunciations-example-1-explanation = بیرٹ  اول ح�
 contribution-varying-pronunciations-example-2-title = تساں دش ملوٹہ درو
 contribution-varying-pronunciations-example-2-explanation = ‘Raised’ انگریزیہ ہمیشہ ایک لفظ تہ طور استعمل بیاں ،دو نی
 contribution-background-noise-title = ڈنگ پھچن بئیں تہ شور
+contribution-background-noise-description-extended = اگر ریکارڈنگ چھنا بہ یا بہ زیگا بہ تس مسترد کُرا، اگر سئی بئی اُشترنن بڜ تھا بہ پھرکی مہ مسترد کُرا
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>لے بلو ڈینا سور سم تہ<strong>[cough]</strong>ٹریاسک
+contribution-background-noise-example-2-fixed-title = دیو دینو<strong>[cough]</strong> ٹریاسک
