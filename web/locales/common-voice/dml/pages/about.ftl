@@ -74,15 +74,15 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = سائٹ لوکلایزیش کنو کُری کرم کُنا
 about-playbook-how-localize-content-1 = عام کاڻ تہ سائٹ تہ ترجمہ بیاں <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = ایک اکاونٹ ژوپایا اگر تاں اکاونٹ نی تھا بہ۔پھرکی، تانوں باݜہ تہ مضبوط ٹیم  منتخب  کُر آں پھرکہ پرجیکٹ گیا ، عامل کاڻ۔ ترہ فائل تھیو ترجمہ کرئیں کی، کلک کُرا، پھرکی یہ انگریزیہ الفاظ نم کڅو آں ایک صندوق تھیو ترجمہ کرئیں کی
-about-playbook-how-localize-content-3 = ترجمہ انگریزی تہ کُرن درو، لیکن بی مشورہ دڇین بئیبہ ورے باݜا نامہ، پروفائل آئکن کلک کُرا، پھرکی سیٹنگ لنکہ آں پھرکی کیہ ایس  باݜہ نم بی پرِنبہ سے شامل کُرا۔ دڇھنی طرفہ ٹوپہ ایک لسٹ تھیو ترجمہ تہ  لوکلز تہ نامہ۔ ترجمہ سائٹہ ایک دیو آݜنتہ کڅین یِنا
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ایک اکاونٹ ژوپایا </pontoonAccountLink>اگر تاں اکاونٹ نی تھا بہ۔پھرکی، تانوں باݜہ تہ <strong> ٹیم </strong>  منتخب  کُرا  آں پھرکہ پرجیکٹ گیا ، عامل کاڻ </pontoonCvLink>۔ ترہ فائل تھیو ترجمہ کرئیں کی، کلک کُرا، پھرکی یہ انگریزیہ الفاظ نم کڅو آں ایک صندوق تھیو ترجمہ کرئیں کی
+about-playbook-how-localize-content-3 = ترجمہ انگریزی تہ کُرن درو، لیکن بی دڇھین<strong> مشورہ </strong> بئیبہ ورے باݜا نامہ، کلک کُرا<strong> پروفائل </strong>آئیکون، پھرکی <strong>سیٹنگ </strong>لنکہ آں پھرکی کیہ ایس  باݜہ نم بی پرِنبہ سے شامل کُرا۔ دڇھنی طرفہ ٹوپہ ایک لسٹ تھیو ترجمہ تہ <strong> لوکلز</strong> تہ نامہ۔ ترجمہ سائٹہ ایک دیو آݜنتہ کڅین یِنا
 about-playbook-how-localize-content-4 = کیر ۷۵ % کرم با بہ یہ سائٹ لانچ کُرئں کی تیار درو
 about-playbook-how-localize-content-5 = امونہ پوئی کُرن تہ ویڈیو دڇھا مدم تہ پرئی
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ائی کنو کُری جملہ شامل کُریم
-about-playbook-how-add-sentences-content-1 = بی دڇھنی پھٹہ جملہ نم شامل کُرین بئیبہ یا بہ ریویو جملہ نم بہ ریویو پھٹہ
+about-playbook-how-add-sentences-content-1 = بی  جملہ نم شامل کُرین بئیبہ<writePageLink>دڇھنی پھٹہ</writePageLink> یا بہ ریویو جملہ نم بہ<reviewPageLink> ریویو پھٹہ</reviewPageLink>
 about-playbook-how-add-sentences-content-2 = جملہ نم خامخا دو ژن پھرکی دڇھن آں منِن عام کاڻہ شامل کُرئیں تہ پرئی۔ بی ایا تانو باڜہ تہ سئی اُصول ژوپئین بئیبہ۔  جملہ نم خامخا عوامی ڈومینہ تِھیو آں پنچیش لفط تہ بہ کم تِھیو۔ بی جملہ تہ مالک تہ پوچین بئیبہ مساں ورے کاپی کُرین کی، آں سی سی امونہ دڇھال عملہ،  آں اما کی ڜئین بئیبہ
 about-playbook-how-add-sentences-content-3 = بی ویکیپیڈیا تہ اُوچھوٹی جملہ تہ فائدہ گیاں کی جملہ تہ اقتباس ساں استعمل کُرین بئیبہ۔
 
