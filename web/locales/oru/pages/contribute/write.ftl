@@ -56,9 +56,20 @@ history_law_government = تاریخ، قانون او حکومت
 language_fundamentals = ته زبان ا بنیادي شئ (سکه ډیجټ، خرفي، پئسۀ)
 # Sentence Domain dropdown option
 media_entertainment = میډیا او تفریح
+# Sentence Domain dropdown option
+nature_environment = قدرت او ماخول
+# Sentence Domain dropdown option
+news_current_affairs = خبري حالات خاضره
+# Sentence Domain dropdown option
+technology_robotics = ټېکنالوجي او ته رُوبوټ متعلق
+sentence-variant-select-label = ته جملۀ ا قسُم مختلف
+sentence-variant-select-placeholder = ا قسم خوش کَۀ (اختیاري)
+sentence-variant-select-multiple-variants = عام زبان/ مختلف قسمی
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپ لوډ <icon> پبلک ډومېن جمله </icon>
 
 ## SMALL BATCH SUBMISSION
 
