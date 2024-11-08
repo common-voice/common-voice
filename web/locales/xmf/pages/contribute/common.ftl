@@ -2,12 +2,13 @@ action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
 review = გამორსება
 skip = გიშატება
+shortcuts = მალასმაჭანაფალი
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ინაჭარა
        *[other] <bold>{ $count }</bold> ინაჭარა
     }
-goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარი ღანკიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარი ღანკიში { $goalValue } ინაჭარში <goalPercentage></goalPercentage> შისრულუ!
 goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი ღანკიში{ $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
 contribute-more =
     { $count ->
