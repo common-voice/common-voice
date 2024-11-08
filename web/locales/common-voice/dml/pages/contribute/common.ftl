@@ -102,3 +102,6 @@ contribution-for-example = مثل تہ طورہ
 contribution-misreadings-title = غلط مترن
 contribution-misreadings-description-extended-list-1 = پھوس بئیسن <strong>'A'</strong> or <strong>'The'</strong> ریکارڈنگ تہ شروعہ
 contribution-misreadings-description-extended-list-2 = پھو بئیسن <strong>'s'</strong> لفظ تہ آخرہ
+contribution-misreadings-description-extended-list-3 = منو مختصر شکل نم مترن کیرا حقیقتہ موجود نی درو ائی تھومہ ساں تھانہ ائی تھومہ یا مساں برعکس
+contribution-misreadings-description-extended-list-4 = آخری لفظ تہ کنا وعین لے تیزیہ ریکارڈنگ کُرنہ
+contribution-misreadings-description-extended-list-5 = ایک لفظ مترائیں کی لے پھیر کوشیش کُرن
