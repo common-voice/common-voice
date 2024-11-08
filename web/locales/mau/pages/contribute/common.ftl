@@ -131,3 +131,4 @@ contribution-background-noise-example-2-fixed-title = Je chu dinosaurio jee<stro
 contribution-background-noise-example-2-explanation = [Jngu k'a jña mi nda nu'yare]
 contribution-background-noise-example-3-fixed-title = <strong>[li'í asje]</strong> chu dinosaurio jee xi<strong>[asje li'í]</strong>-r ásico.
 contribution-background-voices-title = Xta nu'yajire.
+contribution-background-voices-description = Mi tsá jmé xi tjínre tsa jme xi xan jane, tonga miki mejennajin tsa tjín xi nchajin, ncha'a, kui siskare máquina kua kjaé kuitsu, Tsá kjaé titsú kuan kue'chare. kua maa tsá jmé xi tíjane, ku'atsá tjín xi nya nchjaa.
