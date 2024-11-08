@@ -100,18 +100,18 @@ about-playbook-how-record-content-5 = <accuracyLink>سئی کُرن تہ معی�
 about-playbook-how-grow-language = ائی  عام کاݩہ لے ابُت طریقا باڜہ کنو کُرئ زیت کُرین بئیمہ
 about-playbook-how-grow-language-content-1 = عام کاݩ  مختلف ماݜہ کی موقع پیدا کنا عام کاڻہ تانو حصہ ڇھارین کی، ڈیٹا سیٹ زیت تہ زیت ماڜ ساں خدمت کُنا، اما منو وسائی آں ٹیمپلیٹ ژوپائی تُھمہ تسو بی استعمل کُرین بئیبہ
 about-playbook-how-grow-language-content-2 = واقعہ نم
-about-playbook-how-grow-language-content-3 = بی ماڜہ ملی تعون کُرئیں کی پروگرم نم کُرین بئیبہ، یہ منہ خیال تہ لے اسکان درو، بی مس ویڈیو کانفرنسنگ ٹولہ ملی آں لائن کُرین بئیبہ، یا بہ زاتی طورہ اگر یہ محفوط درو بہ۔ پروگرم چلئیں کی امونہ ٹیمپلیٹ آں وسائل دڇھا
+about-playbook-how-grow-language-content-3 = بی ماڜہ ملی تعون کُرئیں کی پروگرم نم کُرین بئیبہ، یہ منہ خیال تہ لے اسکان درو، بی مس ویڈیو کانفرنسنگ ٹولہ ملی آں لائن کُرین بئیبہ، یا بہ زاتی طورہ اگر یہ محفوط درو بہ۔<eventTemplate> پروگرم چلئیں کی امونہ ٹیمپلیٹ آں وسائل دڇھا۔</eventTemplate>
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
-about-playbook-how-grow-language-content-5 = بی سوشل میڈیا تہ پلٹ فام استعمل کری تانو میسج ݜائن بئیہ ۔ منو پوسٹ ݜیر کُرائی تے سے وضاحت کُرو تے یہ کو اہم درو۔ باڜہ تہ حق آں مسائل تہ بارا مُشکُل بال ماڜہ ملی رابطہ کُرا، کاڻ اے ائی آں بائس ان ٹیک، سماجی مہم تہ بارا ورے ایس مشورہ دڇھا تیں موادہ ملی کیرا بی کُرین بئیبہ
+about-playbook-how-grow-language-content-5 = بی سوشل میڈیا تہ پلٹ فام استعمل کری تانو میسج ݜائن بئیہ ۔ منو پوسٹ ݜیر کُرائی تے سے وضاحت کُرو تے یہ کو اہم درو۔ باڜہ تہ حق آں مسائل تہ بارا مُشکُل بال ماڜہ ملی رابطہ کُرا، کاڻ اے ائی آں بائس ان ٹیک، سماجی مہم تہ بارا ورے ایس مشورہ دڇھا<campaignLink> تیں موادہ ملی کیرا بی کُرین بئیبہ۔</campaignLink>
 about-playbook-how-grow-language-content-6 = ملگرتیاں آں نیٹورک نم
-about-playbook-how-grow-language-content-7 = دڇھا ورے تیں یونیورسٹی، باݜہ تہ اسکول ، پوئی کرالگروپیا ڈیٹآا سائنس تہ ماݜ تیں مدد کرین بئین آں کو۔ امونہ ٹیمپلیٹ  دڇھا ای میلہ
-about-playbook-how-grow-language-content-8 = مینہ دامیاں نوروگارہ تھین آں میں ایک کتی پھن درو شروع کریں کی۔
+about-playbook-how-grow-language-content-7 = دڇھا ورے تیں یونیورسٹی، باݜہ تہ اسکول ، پوئی کرالگروپیا ڈیٹآا سائنس تہ ماݜ تیں مدد کرین بئین آں کو۔<outreachTemplates> امونہ ٹیمپلیٹ  دڇھا ای میل نامہ۔ </outreachTemplates>
+about-playbook-how-grow-language-content-8 = <strong> تخلیقی ژوپا</strong> مینہ کمیونٹی نوروگارہ تھین آں میں ایک کتی پھن درو شروع کریں کی۔
 
 ## How to validate
 
 about-playbook-how-validate = موکی کنو بئی پتہ بو کاݩ تہ کلپ منظور گنی
-about-playbook-how-validate-content-1 = اگر بی تسو اشترونین بیبہ آں زانین بیبہ، یہ لے ابت درو منظور کرین کی
-about-playbook-how-validate-content-2 = اگر منہ لہجہ تہ مشکل بال ساں لہجہ بدل تھا بہ تس مہ دورایا، یہ کاݩ زانے کی ہر ایک کی اسکان درو
+about-playbook-how-validate-content-1 = اگر بی <strong>تسو اشترونین بیبہ </strong>آں <strong>زانین بیبہ،</strong> یہ عام طورہ<strong> لے ابُت درو منظور کرین کی</strong>
+about-playbook-how-validate-content-2 = <strong>اگر منہ لہجہ تہ مُشکُل بال ساں لہجہ بدل تھا بہ تس مہ دورایا</strong>، یہ کاݩ زانے کی ہر ایک کی اسکان درو
 about-playbook-how-validate-content-4 = اگتر کلپ دد ماݜے نہ منین بہ، یہ ایک ورے ڈیٹہ ورے سرنامہ ملی ریلیز بیاں
 
 ## How to access dataset
@@ -121,6 +121,8 @@ about-playbook-how-access-dataset = ائی کنو کری ڈیٹہ سیٹ است�
 ## How are decisions made
 
 about-playbook-how-project-governance = پراجیکٹہ بحث کنو کری کرین ینا؟
+about-playbook-how-project-governance-content-2 = امونہ حکومت تہ بنیاد مے اُشتونہ درو
+about-playbook-how-project-governance-content-3 = رازداری،حفاظت آں شفافیت
 
 ## How is Common Voice funded
 
