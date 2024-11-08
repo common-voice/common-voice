@@ -27,3 +27,4 @@ confirm-join-mailing-list = ته مشترک آواز مېلنګ لسټ نر بُ
 download-language = ډاؤن لوډ کَۀ { $language }
 validated-hours = ته ګهېنټی توثیق يې کَۀ
 recorded-hours = ریکارډ سُک ګهېنټي
+whats-inside = ته مشترک آواز ډېټا سېټ نر يې څۀ هۀ؟
