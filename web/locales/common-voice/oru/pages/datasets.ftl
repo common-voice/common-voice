@@ -74,3 +74,4 @@ data-download-yes = جی
 data-download-deny = نا
 data-download-license = لائسنس: <licenseLink></licenseLink>CC-0
 data-download-modal = تُو بو پېری ا ډاؤن لوډ ته <size>شوری کېوی GBچیو مخکی { $size }
+data-subtitle = ماخ يې بو ته آواز سۀ سا ډېټا سېټ جوړېن که هر سړئ دې فائده نېله وریوک اېنچی کوک که ته سپیچ قبل اېپلیکېشن نر ټرېن سًۀ
