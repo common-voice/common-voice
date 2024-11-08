@@ -15,4 +15,7 @@ request-language-google-recaptcha-required = reCAPTCHA ajat tu pe karik khojis d
 request-language-google-recaptcha-error = Tichak kia galat hawaw reCAPTCHA una. Meharbani heri khushush kari.
 # Success page
 request-language-success-heading = Tai shukuria! tu warek zuban as darkhast ari
+request-language-success-list-1 = Tai hatya email ew, tai kai maw ki aya commin voice/ sawin zuban una kia ke'n kai jama karis, tan to awaz
+request-language-success-list-2 = Homa comety ani manager, tai som rabita kariu, warek asta pe kia madad ajat hawan haw, tai kai shama asta maw ki kura ki xomety ani moch tai zuban una pe krom kariman aini haw.
 request-language-success-list-3 = Tu pe homa pi ne sangai haw ek kimon basan, homa kai mas, abi geri tai som mon dek!
+request-language-error = Homa albat shasa darkhast ne zali shiau. Homa kai sida email kari. abi tai som mon dek!
