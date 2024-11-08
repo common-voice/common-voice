@@ -72,3 +72,4 @@ answer-questions-menu-item-tooltip = Убзэкӏэ упчӏэхэм яджэу�
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Гущыӏэн шапхъэхэм яменю
+read-sentences-menu-item-aria-label = Зэхэщэгъэ купым фэгъэхыгъэ бзэ зэфэшхьаф гушыӏэухыгъэхэм къядж
