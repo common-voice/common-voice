@@ -38,3 +38,5 @@ feedback-q = واپسي فیډ بېک
 no-information = معلومات دی نکِن
 resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink> يې سۀ جَوت ذریعه ټُول کِټ هۀ </docsLink> ته فئ ریسرچر پاره کوک دی بُو که سټېټ آف دی آرټ ته ژغ آرټیفیشئل اِنټېلیجنس ماډلي جوړَوِن
 resource-deepspeech-info = ته موزیلا ته میوک ذریعۀ ا ته آواز ته پېݫندګالي ا اِنجن په ذریعۀ بُو ته ډُوب ژغ  ا مشین بُو ته بِلډ سپیچ ریکوګنیشن اپلائي کېک سَۀ۔ ترماخ ا <githubLink> یا ګِټهب </githubLink> سۀ نظر جیر کئ یا <discourseLink> جائن کوئ ډیپ سپیچ ډِسکورس <discourseLink> که معلوم دل سَۀ که څا وه سو شوري کوئ
+resource-coqui-info = <coquiLink> کوقی </coquiLink> يې ݭيې وقف میوک ژغ ټېکنالوجی هۀ۔ ته رئ پراجېکټس نر يې سۀ ډیپ لرننګ پراجېکټ ګه شامل هۀ که STT او TTS اِنجړ بنیاد زر هنشتا
+community-playbook = کمیونېټی شتم کتاب
