@@ -72,6 +72,13 @@ sentence-variant-select-multiple-variants = Ndodo se iyndikchi tndubeuu/ abi'i n
 sc-bulk-upload-header = Cho'otunde ndodo se iyndikchii tndubee inña yi'i yabakude
 sc-bulk-upload-instruction = Kuinngondade kaka yi'ide mu'u o mu'u ndetade tomene kugbii fnuu kaka yi'ide
 sc-bulk-upload-instruction-drop = Mu'u fnuu kaka yi'ide
+bulk-upload-additional-information = Ndetes bekas ne fnekakade na kagyidene chod am kaka mu'u commonvoice@mozilla.com
+template-file-additional-information = Ndetes bekas de'es nekamade yi'i kagyidene chod am kaka mu'u commonvoice@mozilla.com
+try-upload-again = Kuingondatude kagiide mu'u
+try-upload-again-md = Dikuitude tomene kugbi fnuu mu'u naa koo
+select-file = Tndanude ama kaka
+select-file-mobile = Tndanude ama kaka tomene fnuu mu'u naa koo
+accepted-files = Kakase kugbii fnuu mu'u: makue .tsv
 
 ## SMALL BATCH SUBMISSION
 
