@@ -72,3 +72,20 @@ help-contribute = تومو شونگو چینی اور کامن وائسیا پر
 login-company = ای میل نلا { $company }لاگ ان / سائین اپ تھے
 profile-not-required = آنے موجی چینیونو کاری پروفالیک بونو ضروری نُش،انو کرومی نی تو ایوں، کھری پرے کیے نیوں
 read-more-about = اسو اسنو پٹو موتی پڑے
+
+## NAV ITEMS
+
+answer-questions = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
+review-transcriptions = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
+add-questions = کھوجینیک آنے یو/مشک تھے <small> لوکو انو ہُوں </small>
+transcribe-audio = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
+press-and-stories = پریس گہ چگائیے/شِلوکے
+community-and-languages = کویوچ گہ باشے
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = سجیئی، پریس گہ شیلوکیے، کویوچ گہ باشے
+partnerships-menu-item-tooltip = اسو نلا سجیئار با
+
+## MENU ITEM ARIA LABELS
+
