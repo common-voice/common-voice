@@ -37,14 +37,14 @@ dataset-description-hours =
     دیٹا سیٹا لکھیرو ہر اشناری  ایم پی 3 وا  توغو سون ݯوکیرو فائلان مڑاغ۔ ڈیٹاسیٹا زیاد <b>{ $total }</b> رکارڈ بیرو گھنٹہ ابادیو معلومات مثلا عمر، جنس وا لہجہ کی ہیت لوو ہوݰ کوراک مشینو سہی گریا تربیت دیکا مدد کونیان۔ 
     
     موجودہ وختا ڈیٹا سیٹ<b>{ $languages }واران <b>{ $valid }</b> سند بیرو گھنٹہ مشتمل شیر۔ لیکن اسپہ ہر وختا خور ہوازن وا واران شامل کوسیان۔ہیا ژاغا<languagesLink>  واران صفحو لوڑے کی وارو پچین درخواست یا مدد کوریک کی مݰکیسان۔
-want-dataset-update = تو تان سورو  اگاہ کی بہچیسان کہ اسپہ کامن وائسو ڈیٹاسیٹو نوغ ورثنو کیاوحت نیزیسی؟ تھے اسپہ نیوز لیٹرو سبسکرائب کو
+want-dataset-update = تو تان سورو  اگاہ کی بہچیک کہ مݰکیسان کہ اسپہ کامن وائسو ڈیٹاسیٹو نوغ ورژنو کیاوخت نیزیسی؟ تھے اسپہ نیوز لیٹرو سبسکرائب کو
 subscribe = سبسکرائب
 get-started-speech = لوو ہوݰ کوراکو سورا شروع کو
 other-datasets = خور وائس ڈیٹا سیٹ
-feedback-q = تبصیرہ کو؟
+feedback-q = تبصیرہ کوسانا؟
 # This indicates that there is no data to display
 no-information = معلومات نیکی
-resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ای <docsLink>اوپن سورس سامان </docsLink> محقیقین پچین اعلی  AI مشقولگیو ای نمونہ ساوزیکو پچین۔
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™اعلی  AI مشقولگیو نمونہ ساوزیکو حوالا محقیقین پچین  <docsLink> ای اوپن سورس سامان </docsLink>  ۔
 resource-deepspeech-info = موزیلو اوپن سورس ہوازو ہوݰ کوراک انجن "ڈیپ سپیچ" لوان ہوش کورا اپلیکیشن ساوزیکو پچین استعال کورین بوئے۔  اسپہ <githubLink> "گیتھبو" لوڑے </githubLink> یا شامل بوس<discourseLink> "ڈیپ سپیچ" مشقول گیا</discourseLink> کیچہ کوری شروع کونی رے ݯیݯیکو پچین۔
 resource-coqui-info = <coquiLink>کوقی </coquiLink> آزاد لودیکو پچین شیر۔ ہمیتان پروجٹا کوڑوم ݯیݯیکو بنیادا STT وا TTS انجن شامل شیر
 community-playbook = کمنیوٹی پلے بک
