@@ -60,3 +60,11 @@ already-have-an-account = اکاونٹ یودا؟ جوکھس
 create-profile-button = پروفاٸل چک فچوس
 # IMAGE TAGS
 img-alt-success-checkmark = کھوم لوکھپو چیک بیوس
+# menu item
+read-sentences = تم سیر کن زیر
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

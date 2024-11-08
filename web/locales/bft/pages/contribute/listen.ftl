@@ -10,3 +10,17 @@ listen-loading-error = یانگلا سنا بیا لا سنا بے کلپ متھ
 listen-abort-title = کلپ کن چھدکھہ بیو چھم چوک
 listen-abort-cancel = چھدکھہ بیو جاری یوق
 listen-abort-confirm = چھدکھہ بیو جاری یوق
+# Menu item
+validate-readings = زیر چیس کن چھدکھہ بیوس
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = زیرچیس کن چھدکھہ بیوس، ٹرانسکرپشن کن لا ہلتوس
+validate-readings-menu-item-tooltip = کولکھن کنی یری سکت پینگ زیرفونگ لا چھدکھہ من
+review-transcriptions-menu-item-tooltip = کولکھن کنی یری سکت پینگ منفہ یودپی ٹرانسکرپشن کن لا چھدکھہ من
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = آپشنز مینو لا سنا بیوس
+validate-readings-menu-item-aria-label = کمیونٹی میونگی منفہ یودپی زیرچیس کن لا چھدکھہ من
+review-transcriptions-menu-item-aria-label = ریکارڈ بیسے یودپی تم سیر کنی ٹرانسکرپشن کن لا ینگ ہلتوس
