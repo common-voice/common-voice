@@ -14,18 +14,17 @@ export const LOCALES_PATH = path.join(process.cwd(), 'web', 'locales')
 export const getLocaleMessagesQueryHandler = (
   query: GetLocaleMessagesQuery
 ) => {
+  const projectPath = path.join(LOCALES_PATH, query.project)
+
   const doesLocaleExist = pipe(
-    getFolderNames(LOCALES_PATH)(),
+    getFolderNames(projectPath)(),
     A.some(name => name === query.locale)
   )
 
   const locale = doesLocaleExist ? query.locale : 'en'
 
   return pipe(
-    collectFilesWithExtension(
-      path.join(LOCALES_PATH, query.project, locale),
-      '.ftl'
-    ),
+    collectFilesWithExtension(path.join(projectPath, locale), '.ftl'),
     IO.chain(readAndConcatFiles)
   )()
 }
