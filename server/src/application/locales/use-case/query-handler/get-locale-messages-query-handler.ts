@@ -9,21 +9,22 @@ import { pipe } from 'fp-ts/lib/function'
 import * as A from 'fp-ts/Array'
 import * as IO from 'fp-ts/IO'
 
-const LOCALES_PATH = path.join(process.cwd(), 'web', 'locales')
+export const LOCALES_PATH = path.join(process.cwd(), 'web', 'locales')
 
 export const getLocaleMessagesQueryHandler = (
   query: GetLocaleMessagesQuery
 ) => {
+  const projectPath = path.join(LOCALES_PATH, query.project)
+
   const doesLocaleExist = pipe(
-    getFolderNames(LOCALES_PATH)(),
+    getFolderNames(projectPath)(),
     A.some(name => name === query.locale)
   )
 
+  const locale = doesLocaleExist ? query.locale : 'en'
+
   return pipe(
-    collectFilesWithExtension(
-      path.join(LOCALES_PATH, doesLocaleExist ? query.locale : 'en'),
-      '.ftl'
-    ),
+    collectFilesWithExtension(path.join(projectPath, locale), '.ftl'),
     IO.chain(readAndConcatFiles)
   )()
 }
