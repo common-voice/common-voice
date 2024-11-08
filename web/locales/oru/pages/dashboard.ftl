@@ -14,6 +14,10 @@ everyone = هر سړئ
 contribution-activity = ا پېش سۀک کری
 top-contributors = ا چِګ شریچی
 recorded-clips = ا ریکارډ سُک کلِپی
+validated-clips = ا توثیق سُک کلِپی
+total-approved = اره که ا څېن منظور سُکِن
+overall-accuracy = ا مجموعي ټهیک کېڅن
+set-visibility = ترمُن ا نظر سېټ کَۀ
 
 ## Custom Goals
 
