@@ -148,6 +148,16 @@ add-sentences = موجی یو/مِشک تھے۔
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = موجی یو تھے ہو دُگُنی گہ چکے، موجی کھُوجے، آڈیو ٹرانسکرائیب تھے۔
+add-sentences-menu-item-tooltip = تھنی باشینی موجی یو/مشک تھے۔
+review-sentences-menu-item-tooltip = تھنی باشو موجی دُگُنی چکے۔
+add-questions-menu-item-tooltip = تھینی باشینی موجی کھُوجے۔
+transcribe-audio-menu-item-tooltip = شونگو ریکارڈنگےتھنی باشینی ریکارڈ تھے۔
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = لکھیونو/کچٹ تھیونو آپشنو ژھیر
+add-sentences-menu-item-aria-label = جکوڑے رجونو کاریو نانا موجی لکھے/کچٹ تھے۔
+review-sentences-menu-item-aria-label = آنے ہانک جک سے چینیئیک موجی دُگُنی چکے۔
+add-questions-menu-item-aria-label = آنے جکو نیو نا نا موجی کھُوجے، ہو جواب گہ دے۔
+transcribe-audio-menu-item-aria-label = شونگو ریکارڈنگے لکھے/کچٹ تھے۔
