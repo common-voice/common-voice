@@ -36,3 +36,17 @@ ready-to-validate = جملہ نم تہ توثیق کُرئیں کی تیار ت�
 more = ورے
 close = پِٹن
 download = ڈاون لوڈ
+dataset-version = ورژن
+sha256-checksum-copied = SHA256 Checksum کاپی با
+sha256-checksum-copied-error = SHA256 Checksum کاپی نہ با
+clipboard-not-supported = کلپ بورڈ تعاون ویلہ نی درو
+no-information-available = معولومات نی درو
+dataset-metadata-sex = لگعین
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تاں ڈیٹا سیٹ ڈاون لوڈ بیاں
+dataset-donate-modal-heading = توکی پتہ دروئی
+data-download-yes = آں
+data-download-deny = نی
+data-other-goto = یت کی{ $name }
+data-other-download = ڈیٹا ڈوان لوڈ  کُرے
