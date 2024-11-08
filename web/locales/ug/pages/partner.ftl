@@ -16,3 +16,5 @@ partnerships-small-business-description = بىز ھەمىشە سانلىق مە�
 partnerships-corporates-header = چوڭ تىپتىكى شىركەت ۋە سۇپا شىركەتلىرى
 partnerships-corporates-description = ئەگەر سانلىق مەلۇمات توپلىمى ھەققىدە تېخىمۇ كۆپ ئىشلارنى سۆزلىمەكچى بولسىڭىز، پىلانلانغان سۇپىنى كېڭەيتىشكە ئورتاق مەبلەغ سېلىش ياكى ھەمكارلىق پۇرسىتى ئىزدەشنى ئويلىسىڭىز، <emailFragment> بىز بىلەن ئالاقىلىشىڭ. </emailFragment>
 partnerships-our-partners = شېرىكلىرىمىز
+# menu item
+partners = ھەمكارلاشقۇچى

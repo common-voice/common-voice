@@ -94,3 +94,4 @@ community-and-languages-menu-item-tooltip = تىل بايقاش ۋە جامائ�
 about-menu-aria-label = تاللانما تىزىملىك ھەققىدە
 partnerships-menu-item-aria-label = Common Voice بىلەن ھەمكارلىشىش ھەققىدىكى بىلىملەر
 press-and-stories-menu-item-aria-label = Common Voice ھەققىدىكى خەۋەر ۋە ماقالىگە ئېرىشىش
+community-and-languages-menu-item-aria-label = Common Voice قوللىغان تىل ۋە جامائىتى ھەققىدە ئىزدىنىش
