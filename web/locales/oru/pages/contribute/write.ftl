@@ -31,6 +31,17 @@ add-sentence-success = جمله ن يې جمع داک
 add-sentence-error = غلطي شامل جملۀ
 required-field = او څاک ډک کېون
 single-sentence-submission = ته ݭيے جمله ا ڒیوک
+small-batch-sentence-submission = ته زری مقدار واله جملۀ ا ڒیوڅن
+bulk-sentence-submission = ته زُت مقدار واله ته جمله ا ڒیوڅن
+single-sentence = سۀ سر
+small-batch-sentence = دُشکی مقدار
+bulk-sentence = زُت مقدار
+sentence-domain-combobox-label = ته جملۀ ا ډومېن
+sentence-domain-select-placeholder = ڒی قسم ډومېن دی حوش کَۀ
+# Sentence Domain dropdown option
+agriculture_food = ذراعت او خوراک
+# Sentence Domain dropdown option
+automotive_transport = خودکار او ټرانسپورټ
 
 ## BULK SUBMISSION 
 
