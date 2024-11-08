@@ -6,3 +6,13 @@ datasets-positioning = ترماخ يې او خیال هۀ که سۀ ستر ته 
 language = زبان
 download-dataset-header = او ډېټا سېټ ډاؤن لوډ کَۀ
 download-delta-explainer = ماخ دی څه تبدیليے داکِن۔ ډېلټا سېګمنټ تیووه کلِپی دَری آخېري ریلیز لاسته بعد <deltaLink> ته پۀ کر باره نر بيے ګۀ غؤس </deltaLink>
+download-dataset-tag = ته پکر زبان ا ډېټا سېټ خوش کَۀ او ته خوشه ا ورژن دل وُر
+# File size in gigabytes
+size = سائز
+validated-hr-total = توثیق سُک ۔Hr ټوټل
+overall-hr-total = مچموعي اېچ آر۔ ټوټل
+cv-license = لائسنس
+audio-format = آډیو فارمېټ
+dataset-splits = ګُشیَوی (عمر او جنس)
+number-of-voices = ته آوزی ا تعداد
+splits = ګُشیَوی
