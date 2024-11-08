@@ -240,12 +240,30 @@ vmw = ایماخوا
 vot = ووٹک
 wep = ویسٹ فیلین
 wes = کیمرون پِڈگن
+wo = وولف
+xh = ژوسا
+yi = یدڈش
+yo = یوروبا
+yue = کینٹونیز
+zgh = تمازائٹ
+zh-CN = چینیین(چین)
+zh-HK = چینی (ہانگ کانگ)
+zh-TW = چینی (تائیون)
+zu = زولو
+zza = ززا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مددد
+contact = رابطہ
+privacy = رازداری
+terms = شرائط
+cookies = کوکیز
+faq = FAQ
 
 ## Donate banner
 
