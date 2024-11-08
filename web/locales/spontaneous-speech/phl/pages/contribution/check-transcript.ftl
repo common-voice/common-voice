@@ -1,0 +1,8 @@
+## Check Transcriptions page
+
+# Header of the textbox that contains a transcription of an audio
+check-editbox-header = چیک تھوئی
+vote-transcript-error = عبارتی تھے ووت دئنی مجی آک خرابی پیش یھیلی۔
+transcript-edited-success = نقلی کامیابی سنگی ترمیم تھئجیلی۔
+transcript-edited-error = ٹرانسکرپٹ وے ترمیم تھئنی مجی آک خرابی پیش بھلی
+error-fetching-transcriptions = نقلہ بُلڈئنی مجی گہ غلطی بھلی۔ براہ کرم توس سہات پہرتہ دوبارہ کوشش تھوئی
