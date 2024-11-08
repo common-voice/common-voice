@@ -264,6 +264,13 @@ privacy = رازداری
 terms = شرائط
 cookies = کوکیز
 faq = FAQ
+content-license-text = مواد موجود درو نیع<licenseLink>تخلیقی عام لائسنس</licenseLink>
+share-title = تانوں کاڻ مئی پریال ماڜ پیدا کُرنہ امونہ مدد کُرا
+share-text = مشین نم ساں کُرا تہ انسانان کنو کُری مُشکُل بِن، تانوں کاڻ عطیہ کُرا ایا{ $link }
+link-copied = لنک کاپی با
+back-top = گیرنکھتی پچو یت
+logout = لاگ آوٹ
+donate = عطیہ
 
 ## Donate banner
 
