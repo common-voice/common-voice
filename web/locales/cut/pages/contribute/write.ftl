@@ -97,6 +97,22 @@ too-many-files = Tet ndee kakaa
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Fndodnekad ndee ndodo se aiyndikchii inña se iyndeya dbaku
+multiple-sentences-error = Akot ii fndodnekad ndee ndodo a kot ne fnuu mu'u na koo
+exceeds-small-batch-limit-error = Nwe kugbi se chonne ndi mil ndodo
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Chonnetu se iynu'u koo. Cho'o am minuto tomene dikuitude se fnuu
+       *[other] Chonnetu se iynu'u koo. Cho'o tama minuto tomene dikuittude
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Chonnetuu se iynu'u koo. Cho'o am segundo tomene dikuittude.
+       *[other] Chonnetuu se iynu'u koo. Cho'o tama segundo tomene dikuittude.
+    }
 
 ## MENU ITEM TOOLTIPS
 
