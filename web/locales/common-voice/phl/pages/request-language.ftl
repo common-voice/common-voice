@@ -1,6 +1,11 @@
 ## Request Language Pages
 
 request-language-heading = نیوی زبانی بارئی کھوجہ
+request-language-explanation-1 =
+    چیک تھوئی کی آیا تھی زبینی وے درج ہنو۔
+    <languagesPageLink>Common Voice Languages ​​صفحہ</languagesPageLink>۔
+    اگر نئینو ہینتہ، انو فارم پُر تھوئی او  بے <strong>تُسام آک اسکون ای میل امزیایہ۔
+    تیݨی زبان  ترتیب دئنی طریقہ منوئی</strong>۔
 request-language-form-email =
     .label = تیݨی ای میلی  پتہ
 request-language-form-info =

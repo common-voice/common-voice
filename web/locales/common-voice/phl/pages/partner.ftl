@@ -4,6 +4,7 @@ partnerships-header-text = کامن وائس سمئنی مجی بیڈو گہ ل�
 partnerships-get-in-touch = رابطہ کی ہونسوئی
 partnerships-become-a-partner = کامن وائس پارٹنر سمجوئی۔
 partnerships-community-header = کمیونٹی، ناوہ شئیہ سمئنی او سول سوسائٹی
+partnerships-community-description = کمیونٹی کامن وائسی ہِڑو ہنو - ڑے دُنئیئی ہر زھئی تھی یھاندہ، او زبینی کارکنان او سائنسدان اور فنکار ہنہ۔ تُس اسی <about>About</about> صفحہ او اسی <community>کمیونٹی پلے بک</community> وے شامل بھئنی بارئی مزید جھانائی بھوت۔ اگر تُس  تنظیمی شراکت داری وے دلچسپی گھنانہ ہینتہ، تھے <emailFragment>رابطہ تھوئی۔</emailFragment>
 partnerships-foundations-header = بنُیدی
 partnerships-foundations-description = بے مشرقی افریقہ جھلی خصوصی توجہ سنگی انٹرنیٹ بہتر تھئنی دپارہ فاؤنڈیشنز، سول سوسائٹی اور کمیونٹی پارٹنرز سنگی اکٹجی کرام تھانہ۔ اسی <programmaticWork>پروگرامی کرامی بارئی مذید جھونوئی۔</programmaticWork>
 partnerships-governments-header = حکومتی
