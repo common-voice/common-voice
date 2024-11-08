@@ -10,3 +10,11 @@ listen-loading-error = Mi kuan jngu xta. s'a k'ua sike.
 listen-abort-title = Tijngu'i kua sichjire
 listen-abort-cancel = sichjísare
 listen-abort-confirm = Tijngu'i kua sichjire
+# Menu item
+validate-readings = Sichjíne xi kitjubet'a
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
