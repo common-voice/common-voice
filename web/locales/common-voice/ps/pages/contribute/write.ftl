@@ -5,12 +5,14 @@ write-instruction = د عامه ډومین جمله <icon></icon> اضافه ک�
 write-page-subtitle = دلته مرسته شوي جملې به په عامه توګه موجود cc-0 جواز لرونکي ډیټا سیټ کې اضافه شي.
 sentence =
     .label = جمله
-sentence-input-value = خپل عامه ډومین جمله دلته دننه کړئ
+sentence-input-placeholder = دلته خپل د عامه ډومین جمله اضافه کړئ
+small-batch-sentence-input-placeholder = دلته خپل عامه ډومین جملې اضافه کړئ
 citation-input-placeholder = د خپلې جملې سرچینې ته مراجعه وکړئ (اړین)
 citation =
     .label = اقتباس
 sc-write-submit-confirm = زه تایید کوم چې دا جمله <wikipediaLink> عامه ډومین</wikipediaLink> ده او زه یې د پورته کولو اجازه لرم.
 sc-review-write-title = زه کوم جملې اضافه کولی شم؟
+sc-review-small-batch-title = څنګه څو جملې اضافه کړئ
 new-sentence-rule-1 = <noCopyright>د کاپي حق نشته</noCopyright> محدودیتونه (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = په هره جمله کې له 15 څخه لږ کلمې
 new-sentence-rule-3 = سمه ګرامر وکاروئ
@@ -19,6 +21,7 @@ new-sentence-rule-5 = شمیرې او ځانګړي حروف مه کاروئ
 new-sentence-rule-6 = ده نورو بهرني ژبو توري مه کاروئ
 new-sentence-rule-7 = مناسب حواله شامل کړئ
 new-sentence-rule-8 = په مثالي توګه طبیعي او خبرو اترو (دا باید د جملې لوستل اسانه وي)
+login-instruction-multiple-sentences = <loginLink>ننوتل</loginLink> یا <loginLink>sign up</loginLink> د څو جملو اضافه کولو لپاره
 how-to-cite = زه څنګه نقل کړم؟
 how-to-cite-explanation-bold = د یو آر ایل لینک یا د کار بشپړ نوم سره حواله کړئ.
 how-to-cite-explanation = که دا ستاسو خپل ټکي وي، یوازې ووایاست <italicizedText>"Self Citation"</italicizedText>. موږ اړتیا لرو پوه شو چې تاسو دا مینځپانګه چیرې موندلې ترڅو موږ وګورو چې دا په عامه ډومین کې دی او د کاپي حق محدودیت نه پلي کیږي. د حوالې په اړه د نورو معلوماتو لپاره زموږ <guidelinesLink>د لارښود پاڼه</guidelinesLink> وګورئ.
@@ -28,9 +31,11 @@ add-sentence-success = 1 جمله راټوله شوې
 add-sentence-error = د جملې په زیاتولو کې تېروتنه
 required-field = مهرباني وکړئ دا ساحه ډکه کړئ.
 single-sentence-submission = د واحد جملې سپارل
+small-batch-sentence-submission = د کوچنۍ بستې جملې سپارل
 bulk-sentence-submission = د ډیرو جملو سپارل
 single-sentence = یوه جمله
-bulk-sentences = ډيري جملې
+small-batch-sentence = کوچنۍ بسته
+bulk-sentence = لویه ډله
 sentence-domain-combobox-label = د جملې ټولۍ
 sentence-domain-select-placeholder = تر دریو ډومینونو پورې غوره کړئ
 # Sentence Domain dropdown option
@@ -89,3 +94,16 @@ file-invalid-type = ناباوره دوتنه
 file-too-large = فایل ډیر لوی دی
 file-too-small = فایل ډیر کوچنی دی
 too-many-files = ډیری فایلونه
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = د عامه ډومین ډېري جملې اضافه کړئ
+multiple-sentences-error = تاسو نشئ کولی د یوې سپارښتنې لپاره د يوې نه ډیرې جملې اضافه کړئ
+exceeds-small-batch-limit-error = نشي کولی له 1000 څخه زیات جملې وړاندې کړي
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تاسو ډیر چټک روان یاست. م�
 sc-redirect-page-title = موږ یو څه لوی بدلونونه کوو
 sc-redirect-page-subtitle-1 = د جملې راټولونکی د اصلي عام غږ پلیټ فارم ته حرکت کوي. تاسو اوس کولی شئ یو جمله <writeURL>لیکئ</writeURL> یا <reviewURL>بیاکتنه</reviewURL> په عام غږ کې د یوې جملې سپارل.
 sc-redirect-page-subtitle-2 = په <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> یا <emailLink>email</emailLink> باندې پوښتنې وکړئ.
+# menu item
+review-sentences = جملو ته بیا کتنه وکړئ
