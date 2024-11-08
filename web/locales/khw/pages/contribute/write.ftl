@@ -145,3 +145,15 @@ small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائن
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
 small-batch-sentences-rule-5 = سف جملہ ای دائرہ بانی
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
+# menu item
+add-sentences = جملان شامل کو
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نقل کو
+add-sentences-menu-item-tooltip = تان زبانا جملان شامل کو
+review-sentences-menu-item-tooltip = تان زبانو جملان وا لوڑے
+add-questions-menu-item-tooltip = تان زبانا سوال شامل کو
+
+## MENU ITEM ARIA LABELS
+

@@ -72,3 +72,5 @@ answer-questions-menu-item-tooltip = تان زبانا سوالان جواب د�
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = اختیاراتان لیسٹو راوے
+read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف زبانا جملان جمع کی ایرنی تیتان راوے
+answer-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو پچین سوال کو
