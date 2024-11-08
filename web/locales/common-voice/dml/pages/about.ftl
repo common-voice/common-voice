@@ -123,6 +123,11 @@ about-playbook-how-access-dataset = ائی کنو کری ڈیٹہ سیٹ است�
 about-playbook-how-project-governance = پراجیکٹہ بحث کنو کری کرین ینا؟
 about-playbook-how-project-governance-content-2 = امونہ حکومت تہ بنیاد مے اُشتونہ درو
 about-playbook-how-project-governance-content-3 = رازداری،حفاظت آں شفافیت
+about-playbook-how-project-governance-content-4 = کمیونٹی ساں شریک بین آں فیصلہ سازی
+about-playbook-how-project-governance-content-5 = قدر آں زانن
+about-playbook-how-project-governance-content-6 = تانوں من تہ احتسب
+about-playbook-how-project-governance-content-7 = <governanceLink>یہ تہ بارہ ورے ایس مترا تے ائی کنو کُری حُمت کُنُمہ</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = عام کاڻ ساں مالی مدد کنو بئی کُرین ینہ
