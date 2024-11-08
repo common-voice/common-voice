@@ -8,4 +8,4 @@ no-audio-message = Agora no queda audios pa transcribir en este idioma. Refresca
 create-transcript-success = S'ha ninviau la transcripción correctament
 create-transcript-error = Ha ocurriu una error mientres se creaba esta transcripción
 error-playing-audio = Error cuan se reproduciba lo fichero d'audio.
-error-fetching-audio = I ha habiu una error mientres la recuperación de l'audio pa las transcripcions. Torna a intentar-lo mas enta debant.
+error-fetching-audio = Ha ocurriu una error mientres se yera recuperando l'audio pa las transcripcions. Torna a intentar-lo mas enta debant.

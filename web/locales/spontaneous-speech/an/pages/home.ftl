@@ -1,5 +1,12 @@
 ## Home page
 
+why-spontaneous-speech = Per qué hemos feito este prototipo de Parla Espontania
+how-spontaneous-speech-works = Cómo funciona Parla Espontania
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Pregunta</mark>
+prompt-bubble-subtitle = Se t'amostrará una pregunta
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>Responde</mark>
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Comprebar</mark>
 # text wrapped in <mark></mark> will have a blue background

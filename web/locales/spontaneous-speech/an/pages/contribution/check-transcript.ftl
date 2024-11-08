@@ -5,6 +5,13 @@ transcription-page-instruction = { $actionType }<playIcon></playIcon>Ascuita lo 
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Comprebar
 no-transcriptions-message = Agora ya no queda transcripcions que comprebar en este idioma. Refresca la pachina u mira d'intentar-lo dimpués.
+vote-transcript-success = Has votau la transcripción correctament
+vote-transcript-error = Ha ocurriu una error cuan se votaba la transcripción
+transcript-edited-success = S'ha editau correctament la transcripción
+transcript-edited-error = Ha ocurriu una error cuan s'editaba la transcripción
+error-fetching-transcriptions = Bella cosa ha fallau cuan se yeran recuperando las transcripcions. Torna-lo a intentar dimpués.
+transcript-skipped-success = S'ha blincau la transcripción correctament
+transcript-skipped-error = Ha ocurriu una error cuan se blincaba la transcripción
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Correcto
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
