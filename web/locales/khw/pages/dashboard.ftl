@@ -3,10 +3,10 @@
 your-languages = تہ وار
 toward-next-goal = نوغ مقصدو ویلٹی
 goal-reached = مقصد پورا ہوئی
-clips-you-recorded = ہوازان رکارڈ ارو
-clips-you-validated = ہوازان توثیق ارو
-todays-recorded-progress = ہنونو کامن وائسو ہواز رکارڈکوریکوسورا کوروم
-todays-validated-progress = ہنونو کامن وائسو اوازان توثیق کوریکوسورا کوروم
+clips-you-recorded = ہتے ہواز کھیو کہ تو ریکارڈ کوری اسوس۔
+clips-you-validated = ہتے ہواز کھیو کہ تو تصدیق کوری اسوس ۔
+todays-recorded-progress = ریکارڈ بیرو ہوازو سورا ہنونو کامن وائسا بیرو  کوروم۔
+todays-validated-progress = تصدیق بیرو ہوازو سورا ہنون کامن وائسا بیرو کوروم
 stats = حالات
 awards = تمغہ
 you = تو

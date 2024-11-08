@@ -17,26 +17,21 @@ contribute-more =
     }
 speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سوم جملہ ختم بیتی شینی۔
 no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو پچین تان سٹنگو بدل کوکو بوس۔
-speak-empty-state-cta = جملان جاری کو
+speak-empty-state-cta = جملا نویشے
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان ہوازو محفوظ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے
 keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
-login-to-get-started = شروع کوریکو پچین لاک ان بوس یا لاک اب
-target-segment-first-card = اسپہ تان اولو مقصدو پورا کوریکو پچین کوروم کوسیان
-target-segment-generic-card = تو تان مقصدو پورا کوریکو پچین کوروم کوسیان
+login-to-get-started = شروع کوریکو پچین لاک ان یا سائن ان بوس
+target-segment-first-card = تو اسپہ اولو مقصدو کورمو کوریکا اسپہ مددو کوسان
+target-segment-generic-card = تو ای مقصدو پورا کوریکو پچین کوروم کوسان
 target-segment-first-banner = کامن وائسو اولو حصو  { $locale } ساوزیکا مدد کو
 target-segment-add-voice = تان ہوازو شامل کو
-target-segment-learn-more = خور معلومات
-change-preferences = ترجیہات تبدیلی
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ہوازان مجموٰعہ
-contribute-sentence-collection-nav-header = جملان مجموعہ
-login-signup = لاک ان/سائن اب
-vote-yes = دیی
-vote-no = نو
+target-segment-learn-more = خور دی ݯھیݯھے
+change-preferences = ترجیہاتان بدل کو
+login-signup = لاگ ان/سائن اب
+vote-yes = دی لہ
+vote-no = نو لہ
 datasets = ڈیٹاسیٹس
 languages = وار
 about = کامن وائسو بارا
