@@ -60,3 +60,11 @@ already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
 create-profile-button = Profil létrehozása
 # IMAGE TAGS
 img-alt-success-checkmark = sikert jelző pipa
+# menu item
+read-sentences = Mondatok felolvasása
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
