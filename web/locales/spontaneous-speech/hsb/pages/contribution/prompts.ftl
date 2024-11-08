@@ -11,3 +11,5 @@ submit-all-button = Wšě wotpósłać
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Zhońće, kak móžeće tutu stronu wužiwać
+learn-how-to-use-transcribe = Zhońće, kak móžeće transkribować
+learn-how-to-use-check-transcript = Zhońće, kak móžeće transkripciju přepruwować
