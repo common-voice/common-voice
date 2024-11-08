@@ -17,6 +17,8 @@ validate-readings = Sichjíne xi kitjubet'a
 
 listen-contribute-menu-tooltip = Sichjíne xi kitjubet'a, chut'ajín xi kachji.
 validate-readings-menu-item-tooltip = Sichjíne nijmí xi kitjubet'are énnri
+review-transcriptions-menu-item-tooltip = Chut'ajín xi énn kachjí
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Nkjín skuya xi kuan kuinu'ya.
