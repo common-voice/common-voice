@@ -60,3 +60,11 @@ already-have-an-account = بھلا پہلے ای کھاتہ ہے؟ <login> لا�
 create-profile-button = پروفائل بݨاؤ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی دا نشان
+# menu item
+read-sentences = جملے پڑھو
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
