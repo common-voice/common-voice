@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = ЗэлъыIэс Форм
+contact-title = ЗэлъыIэс форм
 contact-form-name =
     .label = Цӏэ
 contact-form-message =
