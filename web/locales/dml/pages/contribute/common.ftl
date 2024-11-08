@@ -47,6 +47,10 @@ report-ask = یہ  جملہ تہ وجہ تو کی کیہ مسلہ نم درو
 report-offensive-language = جارحانہ باڜہ
 report-offensive-language-detail = یہ جملہ جارحانہ آں توہین امیز درو
 report-grammar-or-spelling = گرائمر/ املا تہ غلطی
+report-grammar-or-spelling-detail = یہ جملہ گرائمر آں املا تہ غلطی درو
+report-different-language = مختلف باڜہ
+report-different-language-detail = یہ ایک ورے باڜا لِکیسن درو کیرا باڜہ ائی پرینُم
+report-difficult-pronounce = تلفظ کُرن گرن درو
 
 ## Speak & Listen Shortcuts
 
