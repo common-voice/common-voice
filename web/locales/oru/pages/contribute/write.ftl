@@ -99,6 +99,8 @@ too-many-files = زُت ݫات فئلی
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = </icon> مختلف ته پبلک ډومېن جملي
+multiple-sentences-error = په سۀ زار دی بو زُت مختلف جملي نک جمع کېک اېنچی
+exceeds-small-batch-limit-error = 1000 لاسته ݫات جملي دی بو په سۀ وار نک جمع اېنچی
 
 ## MENU ITEM TOOLTIPS
 
