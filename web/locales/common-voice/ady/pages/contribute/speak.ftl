@@ -66,6 +66,7 @@ read-sentences = Гущыӏэухыгъэхэм къяджэн
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Гущыӏэухыгъэхэм ядж, упчӏэхэм джэуапхэр ят
+read-sentences-menu-item-tooltip = Гущыӏэухыгъэхэр убзэкӏэ къеджэзэ ор-орэу тетх
 
 ## MENU ITEM ARIA LABELS
 
