@@ -36,3 +36,4 @@ other-datasets = بيې ته آواز ډېټا سېټس
 feedback-q = واپسي فیډ بېک
 # This indicates that there is no data to display
 no-information = معلومات دی نکِن
+resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink> يې سۀ جَوت ذریعه ټُول کِټ هۀ </docsLink> ته فئ ریسرچر پاره کوک دی بُو که سټېټ آف دی آرټ ته ژغ آرټیفیشئل اِنټېلیجنس ماډلي جوړَوِن
