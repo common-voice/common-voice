@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Vas masiau rapido. Prene-te un momento pa rev
 sc-redirect-page-title = Somos fendo bels cambios grans
 sc-redirect-page-subtitle-1 = Sentence Collector se ye tresladando a la plataforma prencipal de Common Voice. Agora puez <writeURL>escrebir</writeURL> una frase u <reviewURL>revisar</reviewURL> ninvios d'oracions individuals en Common Voice.
 sc-redirect-page-subtitle-2 = Fe-nos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> u <emailLink>correu-e</emailLink>.
+# menu item
+review-sentences = Revisas las frases

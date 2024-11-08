@@ -60,3 +60,17 @@ already-have-an-account = Ya tiens una cuenta? <login>Inicia la sesión</login>
 create-profile-button = Crea un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca d'exito
+# menu item
+read-sentences = Leyer frases
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Leyer frases, responder preguntas
+read-sentences-menu-item-tooltip = Grava-te leyendo frases en o tuyo idioma
+answer-questions-menu-item-tooltip = Grava-te respondendo a preguntas en o tuyo idioma
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Menú d'opcions de parlar
+read-sentences-menu-item-aria-label = Leyer frases ninviadas per la comunidat en diferents idiomas
+answer-questions-menu-item-aria-label = Ninviar una pregunta pa que comunidat leiga y responda

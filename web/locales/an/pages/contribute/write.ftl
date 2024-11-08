@@ -143,3 +143,18 @@ small-batch-sentences-rule-3 = Separar las frases pretando “Enter” (entrar) 
 small-batch-sentences-rule-4 = Anyadir dica 1.000 frases
 small-batch-sentences-rule-5 = Totas las frases han d'estar d'o mesmo dominio
 small-batch-sentences-rule-6 = Totas las frases han de tener la mesma citación
+# menu item
+add-sentences = Anyadir oracions
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Anyadir y revisar frases, anyadir preguntas, transcribir audio
+add-sentences-menu-item-tooltip = Anyadir frases en o tuyo idioma
+review-sentences-menu-item-tooltip = Revisar frases en o tuyo idioma
+add-questions-menu-item-tooltip = Anyadir preguntas en o tuyo idioma
+transcribe-audio-menu-item-tooltip = Transcribir gravacions d'audio en o tuyo idioma
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Menú d'opcions d'escribir
+add-sentences-menu-item-aria-label = Anyadir nuevas frases pa que la comunidat pueda leyer-las
