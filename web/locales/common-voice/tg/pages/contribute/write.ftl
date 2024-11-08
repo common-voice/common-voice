@@ -12,6 +12,10 @@ sc-review-write-title = Кадом ҷумлаҳоро илова карда ме
 sc-review-small-batch-title = Тарзи илова кардани якчанд ҷумла
 new-sentence-rule-3 = Грамматикаи дурустро истифода баред
 new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои китобати дурустро истифода баред
+contact-us = Тамос бо мо
+add-sentence-success = 1 ҷумла ҷамъ карда шуд
+add-sentence-error = Хатои илова кардани ҷумла
+required-field = Лутфан, ин майдонро пур кунед.
 # Sentence Domain dropdown option
 agriculture_food = Кишоварзӣ ва озуқаворӣ
 # Sentence Domain dropdown option
@@ -40,6 +44,7 @@ technology_robotics = Технология ва робототехника
 ## BULK SUBMISSION 
 
 select-file = Интихоби файл
+file-invalid-type = Файли номувофиқ
 
 ## SMALL BATCH SUBMISSION
 
@@ -58,3 +63,11 @@ small-batch-response-message =
 small-batch-sentences-rule-2 = Илова кардани як ҷумла ба ҳар як сатр
 small-batch-sentences-rule-3 = Бо як маротиба пахш кардани тугмаи «Enter» ё «Return» ҷумлаҳоро ба як сатр ҷудо намоед
 small-batch-sentences-rule-4 = Илова кардан то 1000 ҷумла
+# menu item
+add-sentences = Илова кардани ҷумлаҳо
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

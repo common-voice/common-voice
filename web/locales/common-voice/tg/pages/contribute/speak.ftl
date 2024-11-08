@@ -29,3 +29,13 @@ review-delete-recordings = Нест кардани сабтҳои ман
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
 add-information-button = Илова кардани маълумот
+first-cta-gender-select-default-option = Имконеро интихоб намоед
+create-profile-button = Эҷод кардани профил
+# menu item
+read-sentences = Хондани ҷумлаҳо
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
