@@ -83,8 +83,8 @@ about-playbook-how-localize-content-5 = امونہ پوئی کُرن تہ ویڈ
 
 about-playbook-how-add-sentences = ائی کنو کُری جملہ شامل کُریم
 about-playbook-how-add-sentences-content-1 = بی  جملہ نم شامل کُرین بئیبہ<writePageLink>دڇھنی پھٹہ</writePageLink> یا بہ ریویو جملہ نم بہ<reviewPageLink> ریویو پھٹہ</reviewPageLink>
-about-playbook-how-add-sentences-content-2 = جملہ نم خامخا دو ژن پھرکی دڇھن آں منِن عام کاڻہ شامل کُرئیں تہ پرئی۔ بی ایا تانو باڜہ تہ سئی اُصول ژوپئین بئیبہ۔  جملہ نم خامخا عوامی ڈومینہ تِھیو آں پنچیش لفط تہ بہ کم تِھیو۔ بی جملہ تہ مالک تہ پوچین بئیبہ مساں ورے کاپی کُرین کی، آں سی سی امونہ دڇھال عملہ،  آں اما کی ڜئین بئیبہ
-about-playbook-how-add-sentences-content-3 = بی ویکیپیڈیا تہ اُوچھوٹی جملہ تہ فائدہ گیاں کی جملہ تہ اقتباس ساں استعمل کُرین بئیبہ۔
+about-playbook-how-add-sentences-content-2 = جملہ نم خامخا دو ژن پھرکی دڇھن آں منِن عام کاڻہ شامل کُرئیں تہ پرئی۔ بی تانو باڜہ کی سئی اُصول ژوپئین بئیبہ<languageGuidelinesLink>۔ ایا</languageGuidelinesLink> جملہ نم خامخا<licenseLink> عوامی ڈومینہ</licenseLink> تِھیو آں پنچیش لفط تہ بہ کم تِھیو۔ بی جملہ تہ مالک تہ پوچین بئیبہ<waiverLink> مساں ورے کاپی کُرین کی، آں سی سی ،امونہ دڇھال پراسس</waiverLink>،  آں اما کی ڜئین بئیبہcommonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = بی ویکیپیڈیا تہ اُوچھوٹی جملہ تہ فائدہ گیاں کی جملہ تہ اقتباس ساں استعمل کُرین بئیبہ۔ بی استعمل کُرین بئیبہ<scraperLink>جملہ تہ ایکسائٹر</scraperLink> ویکیپیڈیا تہ مختصر جملہ نم تہ فائدہ گیا
 
 ## How to record quality
 
@@ -93,7 +93,7 @@ about-playbook-how-record-content-1 = بی تانو عام کاݩہ مُشکُل
 about-playbook-how-record-content-2 = ڈنگبئں لے شور تہ زان ساتا-  میاں اُشترونن اماں  کی اسکان بو
 about-playbook-how-record-content-3 = جملہ نم لے احتیاطہ ݜا مترا ، مہ وعیا بدلن یا شامل کُرنا
 about-playbook-how-record-content-4 = مشکول بین تہ پرہݜبئں ابدے  دڇھا تے پلٹ فام ریکاڈ کنو کو نی، آں کیر ختم با  بہ بند بیائی
-about-playbook-how-record-content-5 = سئی کُرن تہ معیار ابُدے دڇھا
+about-playbook-how-record-content-5 = <accuracyLink>سئی کُرن تہ معیار ابُدے دڇھا۔</accuracyLink>
 
 ## How to grow language
 
