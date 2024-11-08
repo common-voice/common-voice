@@ -27,3 +27,4 @@ download-request-modal-title = Link download/ jama karik
 download-request-modal-description = Shaya te links shian download te ZIP files bati
 download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = Mon as newishila
+download-request-link-single = Download Manager / jama karikas manager una pai, Sida URL newishi Te 12 ghanta una o khul hin. Leken tu shaya page una eta kai asta warek no'n'a sawzek bas
