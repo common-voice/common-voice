@@ -22,13 +22,9 @@ show-wall-of-text = Mear ynfo
 help-us-title = Help ús sinnen te falidearjen!
 help-us-explain = Klik op de ôfspylknop, harkje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
 no-clips-to-validate = It liket der op dat der noch gjin fragminten binne om yn dizze taal nei te harkjen. Help ús in nustje te meitsjen troch no in pear op te nimmen.
-vote-yes = Ja
-vote-no = Nee
 toggle-play-tooltip = Druk op { shortcut-play-toggle } om de ôfspylmodus yn/út te skeakeljen
-speak-subtitle = Donearje jo stim
 speak-paragraph = It opnimmen fan stimfragminten is in yntegraal part fan it bouwen fan ús iepen gegevensset; neffens guon is it ek it aardige diel.
 speak-goal-text = Opnommen fragminten
-listen-subtitle = Help ús stimmen te falidearjen
 listen-paragraph = Falidaasje fan donearre fragminten is krekt sa wichtich as de missy fan Common Voice. Harkje ris en help ús kwalitatyf heechweardige opensource-stimgegevens te meitsjen.
 listen-goal-text = Falidearre fragminten
 hours-recorded = Opnommen oeren
@@ -86,3 +82,18 @@ help-contribute = Jo kinne in ferskate, iepen boarne gegevensset helpe bouwe tro
 login-company = Oanmelde / ynskriuwe mei { $company }-e-mailadres
 profile-not-required = In profyl is net nedich om by te dragen, mar it kin wol nuttich wêze
 read-more-about = Mear ynfo op ús side Oer
+
+## NAV ITEMS
+
+answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
+review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
+add-questions = Fragen tafoegje <small>(ynkoarten)</small>
+transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
+press-and-stories = Parse en ferhalen
+community-and-languages = Mienskip en talen
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

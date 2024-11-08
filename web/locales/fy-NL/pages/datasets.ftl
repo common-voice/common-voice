@@ -94,3 +94,7 @@ release-version = Ferzje
 dataset-date = Datum
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mikst
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Us spraakgegevenssets downloade
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Downloadopties foar tagong ta Common Voice-gegevens

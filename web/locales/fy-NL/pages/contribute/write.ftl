@@ -147,3 +147,21 @@ small-batch-sentences-rule-3 = Skied sinnen yn ien rigel troch ien kear op ‘En
 small-batch-sentences-rule-4 = Foegje oant tûzen sinnen ta
 small-batch-sentences-rule-5 = Alle sinnen moatte itselde domein hawwe
 small-batch-sentences-rule-6 = Alle sinnen moatte deselde boarnefermelding hawwe
+# menu item
+add-sentences = Sinnen tafoegje
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Sinnen tafoegje en beoardiele, Fragen tafoegje, Audio transkribearje
+add-sentences-menu-item-tooltip = Sinnen yn jo taal tafoegje
+review-sentences-menu-item-tooltip = Sinnen yn jo taal beoardiele
+add-questions-menu-item-tooltip = Fragen yn jo taal tafoegje
+transcribe-audio-menu-item-tooltip = Audio-opnamen yn jo taal transkribearje
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Opsjesmenu Skriuwe
+add-sentences-menu-item-aria-label = Nije sinnen foar de mienskip tafoegje om te lêzen
+review-sentences-menu-item-aria-label = Besteande sinnen dy’t troch de mienskip yntsjinne binne beoardiele
+add-questions-menu-item-aria-label = Nije fragen yntsjinje foar de mienskip om te lêzen en te beäntwurdzjen
+transcribe-audio-menu-item-aria-label = Audio-opnamen omsette nei tekst

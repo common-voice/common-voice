@@ -60,3 +60,17 @@ already-have-an-account = Hawwe jo al in account? <login>Oanmelde</login>
 create-profile-button = In profyl oanmeitsje
 # IMAGE TAGS
 img-alt-success-checkmark = suksesfinkje
+# menu item
+read-sentences = Sinnen foarlêze
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Sinnen foarlêze, Fragen beäntwurdzje
+read-sentences-menu-item-tooltip = Nim josels op wylst it foarlêzen fan sinnen yn jo taal
+answer-questions-menu-item-tooltip = Nim josels op wylst it beäntwurdzjen fan fragen en oanwizingen yn jo taal
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Opsjesmenu Sprekke
+read-sentences-menu-item-aria-label = Sinnen foarlêze dy’t troch de mienskip yn ferskate talen yntsjinne binne
+answer-questions-menu-item-aria-label = In nije fraach foar de mienskip yntsjinje om te lêzen en te beäntwurdzjen
