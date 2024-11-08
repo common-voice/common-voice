@@ -37,12 +37,22 @@ submit-form-action = Cho'ode
 
 ## Reporting
 
-report = Kamade
+report = Kamade de'e ii
 report-title = Cho'ode ama kaka
 report-ask = ¿De'e kugbise iidi bakchii ndoko ndodo kuu?
 report-offensive-language = Kaba iynde'e
 report-offensive-language-detail = Nwe dindi a'a mu'u nwe ndebe stika  iynde'e
 report-grammar-or-spelling = Nwe ndebe duu
+report-grammar-or-spelling-detail = Ndodkunne nwe ndebe dude
+report-different-language = Tamma dbaku
+report-different-language-detail = A bi'i duun sku nweyo dama ndoko dbaku yi'i
+report-difficult-pronounce = Iydiibachise se nde'eo
+report-difficult-pronounce-detail = Na'a ndodone iydiibachi se nde'eo
+report-offensive-speech = Kaba iynde'e mu'u
+report-offensive-speech-detail = Ndodoku se gnundene kaba a'a nwe dindi iynde'e
+report-other-comment =
+    .placeholder = Kamade
+success = Ndebe
 
 ## Speak & Listen Shortcuts
 
