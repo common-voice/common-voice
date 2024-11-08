@@ -36,9 +36,17 @@ vote-no = نی
 datasets = ڈیٹا سیٹ نم
 languages = باڜہ نم
 about = بارا
+partner = ملگیری
+submit-form-action = جمع کُرن
 
 ## Reporting
 
+report = رپورٹ
+report-title = رپورٹ پیش کُرے
+report-ask = یہ  جملہ تہ وجہ تو کی کیہ مسلہ نم درو
+report-offensive-language = جارحانہ باڜہ
+report-offensive-language-detail = یہ جملہ جارحانہ آں توہین امیز درو
+report-grammar-or-spelling = گرائمر/ املا تہ غلطی
 
 ## Speak & Listen Shortcuts
 
