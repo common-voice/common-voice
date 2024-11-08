@@ -155,3 +155,4 @@ transcribe-audio-menu-item-tooltip = Убзэкӏэ мэкъэ тетхагъэ�
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Тхэн шапхъэхэм яменю
