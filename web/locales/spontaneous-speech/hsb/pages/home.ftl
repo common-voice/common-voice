@@ -7,8 +7,10 @@ prompt-bubble-title = <mark>Namołwa</mark>
 prompt-bubble-subtitle = Pokazamy wam namołwu abo prašenje
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Wotmołwić</mark>
+respond-bubble-subtitle = Wotmołwjeće abo reagujeće tak přirodnje kaž móžno
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Transkribować</mark>
+transcribe-bubble-subtitle = Pisaće, štož w awdijowych klipach słyšiće
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Přepruwować</mark>
 # text wrapped in <mark></mark> will have a blue background
