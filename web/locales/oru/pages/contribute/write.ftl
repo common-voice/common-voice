@@ -119,6 +119,18 @@ rate-limit-message-minutes =
         [one] تُو ته پا صفحه ته جمع کؤ حد کی رسيېک هې۔ مهرباني کېون که سۀ میلِټ انتظار کېون پۀ لاسته مُخکی که بيې جملۀ يې پېش کېوی۔ ته صبرت مهرباني
        *[other] تُو ته پا صفحه ته جمع کؤ حد کی رسيېک هې۔ مهرباني کېون که { $retryLimit } څون میلِټ انتظار کېون پۀ لاسته مُخکی که بيې جملۀ يې پېش کېوی۔ ته صبرت مهرباني
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تُو ر پا صفحه نر ته پېش کؤ حد کی زوک هې۔ مهرباني کَۀ 1 سیکِنټ انتظار کېوی ته بيې جمله پېش کؤ لاسته مُخکی۔ ته صبُرت شکریا
+       *[other] تُو ر پا صفحه نر ته پېش کؤ حد کی زوک هې۔ مهرباني کَۀ { $retryLimit } که څُون سیکِنټی انتظار کېوی ته بيې جمله پېش کؤ لاسته مُخکی۔ ته صبُرت شکریا
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } که 1 اول جملۀ جمع سُک
+       *[other] { $uploadedSentences } که { $totalSentences } جملي جمع سُکِن
+    }
 
 ## MENU ITEM TOOLTIPS
 
