@@ -12,13 +12,9 @@ show-wall-of-text = تەپسىلاتى
 help-us-title = جۈملىلەرنى دەلىللەشكە ياردەملىشىڭ!
 help-us-explain = قويۇپ ئاڭلاپ بېقىڭ ۋە بىزگە ئۇلار تۆۋەندىكى جۈملىنى توغرا سۆزلىدىمۇ يوق ئېيتىپ بىرىڭ؟
 no-clips-to-validate = قارىغاندا بۇ تىلدا ئاڭلايدىغان مەزمۇن يوقتەك تۇرىدۇ. ئاۋازىڭىزنى ئۈنگە ئېلىپ بۇ بوشلۇقنى تولدۇرۇشقا ياردەملىشىڭ.
-vote-yes = بولۇپتۇ
-vote-no = بولماپتۇ
 toggle-play-tooltip = { shortcut-play-toggle } نى بېسىش ئارقىلىق قويۇش ھالىتىگە ئالماشتۇرۇڭ
-speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
 speak-paragraph = ئاۋازنى ئۈنگە ئېلىش ئوچۇق سانلىق مەلۇمات توپلىمىنىڭ كەم بولسا بولمايدىغان تەركىبىي قىسمىدۇر. بەزىلەر بۇ قىسمىنى قىزىقارلىق بۆلەك دەپمۇ قارايدۇ.
 speak-goal-text = ئاۋاز ئۈنگە ئېلىندى
-listen-subtitle = ئاۋازنى دەلىللەشكە ياردەملىشىڭ
 listen-paragraph = ئىئانە قىلىنغان ئاۋازلارنى دەلىللەش Common Voice ئۈچۈن ئۈچۈن ئوخشاشلا مۇھىم ۋەزىپە. ئاڭلاڭ ۋە سۈپەتلىك ئوچۇق مەنبەلىك ئاۋاز سانلىق مەلۇماتىنى ھاسىل قىلىشىمىزغا ياردەم قىلىڭ.
 listen-goal-text = ئاۋاز دەلىللەندى
 hours-recorded = ئۈنگە ئېلىنغان سائەت
@@ -76,3 +72,25 @@ help-contribute = Common Voice تەرجىمىھالى قۇرۇش ۋە ئاۋاز
 login-company = { $company } نىڭ ئېلخېتى ئارقىلىق كىرىڭ / تىزىملىتىڭ
 profile-not-required = تۆھپە قوشۇش ئۈچۈن تەرجىمىھال ئۇچۇرى تەلەپ قىلىنمايدۇ شۇنداقتىمۇ بولغىنى پايدىلىق، سەۋەبى تۆۋەندىكىدەك.
 read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتىمىزدىن كۆرۈڭ
+
+## NAV ITEMS
+
+answer-questions = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
+review-transcriptions = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
+add-questions = سوئال قوش<small>(پات يېقىندا قوشۇلىدۇ)</small>
+transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
+press-and-stories = خەۋەر ۋە ماقالە
+community-and-languages = جامائەت ۋە تىل
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = ھەمكارلاشقۇچى، خەۋەر ۋە ماقالە، جامائەت ۋە تىل
+partnerships-menu-item-tooltip = بىز بىلەن ھەمكارلىشىش
+press-and-stories-menu-item-tooltip = بىلوگىمىزنى زىيارەت ياكى بىز ھەققىدىكى يازما
+community-and-languages-menu-item-tooltip = تىل بايقاش ۋە جامائەت ھەمدە common voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = تاللانما تىزىملىك ھەققىدە
+partnerships-menu-item-aria-label = Common Voice بىلەن ھەمكارلىشىش ھەققىدىكى بىلىملەر
+press-and-stories-menu-item-aria-label = Common Voice ھەققىدىكى خەۋەر ۋە ماقالىگە ئېرىشىش
