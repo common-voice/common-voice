@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Псынкӏащэу окӏо. Сыолъэӏ
 sc-redirect-page-title = Заулэ зэхъокӏыныгъэшхохэр тэшӏы.
 sc-redirect-page-subtitle-1 = Гущыӏэухыгъэу Коллекторыр Камон Войс платформым икупкӏ техьажьы. Джы гущыӏэухыгъэ <writeURL>птхын</writeURL> плъэкӏыщт е Камон Войсым къыщытыгъэ гущыӏэухъыгъэ зырызхэм <reviewURL>уахэплъэщт</reviewURL>.
 sc-redirect-page-subtitle-2 = <matrixLink>Матрикс</matrixLink>ымкӏэ упчӏэхэр къытэшъут,  <discourseLink>зэхэфын</discourseLink> е <emailLink>епочта</emailLink>.
+# menu item
+review-sentences = Гущыӏэухыгъэхэм яплъыжь
