@@ -26,6 +26,16 @@ show-ranking = ترمُن ا رېنکِنګ جَوَت کَۀ
 
 get-started-goals = مقصد ګیرډه شُوري کَۀ
 create-custom-goal = کسټم ګول يې جوړ کَۀ
+goal-type = ا څېن نمونۀ ګول يې جوړؤ زیئی؟
+both-speak-and-listen = ا دیو ګډ
+both-speak-and-listen-long = ا دوګډ (غوېک او امريېک)
+daily-goal = ریوزانۀ ګول
+weekly-goal = هفته وار ګول
+easy-difficulty = اسان
+average-difficulty = میانۀ
+difficult-difficulty = مشکِل
+pro-difficulty = پرو
+lose-goal-progress-warning = ته ګول اېډټ کؤ
 
 ## Goals
 
