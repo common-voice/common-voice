@@ -101,6 +101,18 @@ too-many-files = زُت ݫات فئلی
 small-batch-instruction = </icon> مختلف ته پبلک ډومېن جملي
 multiple-sentences-error = په سۀ زار دی بو زُت مختلف جملي نک جمع کېک اېنچی
 exceeds-small-batch-limit-error = 1000 لاسته ݫات جملي دی بو په سۀ وار نک جمع اېنچی
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ته رېټ ای خد ال دی نغوک هې۔ سۀ میلِټ نره بيے کوشِش کَۀ
+       *[other] ته رېټ ای خد ال دی نغوک هې۔ سۀ میلِټ { $retryLimit } نره بيے کوشِش کَۀ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ته رېټ ای خد ال دی نغوک هې۔ سۀ سیکَټ  نره بيے کوشِش کَۀ
+       *[other] ته رېټ ای خد ال دی نغوک هې۔ سیکِنټی { $retryLimit } نره بيے کوشِش کَۀ
+    }
 
 ## MENU ITEM TOOLTIPS
 
