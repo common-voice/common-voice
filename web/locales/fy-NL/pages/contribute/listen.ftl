@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Falidearjen fan fragminten foltôgje?
 listen-abort-cancel = Trochgean mei falidearjen
 listen-abort-confirm = Falidearjen foltôgje
+# Menu item
+validate-readings = Foarlêzen sinnen falidearje
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Foarlêzen sinnen falidearje, transkripsjes beoardiele
+validate-readings-menu-item-tooltip = Troch brûkers opnommen foarlêzen sinnen yn jo taal falidearje
+review-transcriptions-menu-item-tooltip = Troch brûkers yntsjinne transkripsjes yn jo taal beoardiele
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Opsjesmenu Harkje
+validate-readings-menu-item-aria-label = Troch mienskipsleden yntsjinne foarlêzen sinnen falidearje
+review-transcriptions-menu-item-aria-label = Transkripsjes fan opnommen sinnen foar krektens beoardiele
