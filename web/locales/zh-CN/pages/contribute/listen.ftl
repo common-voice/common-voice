@@ -16,6 +16,8 @@ validate-readings = 验证朗读内容
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = 验证朗读内容，审核转录文字
+validate-readings-menu-item-tooltip = 验证由用户录制的同语言朗读内容
+review-transcriptions-menu-item-tooltip = 审核由用户提交的同语言转录文本
 
 ## MENU ITEM ARIA LABELS
 

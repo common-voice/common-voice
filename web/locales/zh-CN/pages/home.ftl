@@ -83,6 +83,7 @@ community-and-languages = 社区和语言
 
 about-menu-tooltip = 合作伙伴、新闻和文章、社区和语言
 partnerships-menu-item-tooltip = 与我们合作
+press-and-stories-menu-item-tooltip = 访问我们的博客，或讲述我们的故事
 community-and-languages-menu-item-tooltip = 探索语言、社区与 Common Voice
 
 ## MENU ITEM ARIA LABELS
