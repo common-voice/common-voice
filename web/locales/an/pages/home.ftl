@@ -72,3 +72,25 @@ help-contribute = Puez aduyar a crear una amplia base de datos de codigo ubierto
 login-company = Inicia sesión / Rechistra-te con o correu de { $company }
 profile-not-required = No ye necesario tener un perfil pa colaborar, encara que puede resultar util.
 read-more-about = Descubre mas en a nuestra pachina Sobre Common Voice
+
+## NAV ITEMS
+
+answer-questions = Reponder preguntas <small>(disponible luego)</small>
+review-transcriptions = Revisar las transcripcions  <small>(disponible luego)</small>
+add-questions = Anyadir preguntas <small>(disponible luego)</small>
+transcribe-audio = Transcribir audio <small>(disponible luego)</small>
+press-and-stories = Prensa y articlos
+community-and-languages = Comunidat y idiomas
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Colaboracions, prensa y articlos, comunidat y idiomas
+partnerships-menu-item-tooltip = Colabora con nusatros
+press-and-stories-menu-item-tooltip = Visita lo nuestro blog u escribe sobre nusatros
+community-and-languages-menu-item-tooltip = Desubre idiomas y comunidaz y Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menú d'opcion "Alredol de"
+partnerships-menu-item-aria-label = Saber mas sobre colaboracions con Common Voice
+press-and-stories-menu-item-aria-label = Accede a las notas de prensa y articlos relacionaus con Common Voice
