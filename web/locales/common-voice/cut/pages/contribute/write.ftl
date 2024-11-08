@@ -15,7 +15,7 @@ sc-review-write-title = ¿Taka ndodo se kugbi fnuu mu'u?
 sc-review-small-batch-title = ¿Taka dii tomen kugbii fnuu ndee ndodo mu'u naa koo?
 new-sentence-rule-1 = Btee iibi yi'i ndodo kuu
 new-sentence-rule-2 = Nwenese chonne ntinñu ndodo
-new-sentence-rule-3 = Dindi ne'es dudde o ndede mu'u naa koo te mu'u ama fnunoo
+new-sentence-rule-3 = Dindi ne'es dudde o nde'de mu'u naa koo
 new-sentence-rule-4 = Dindi dudde tomene kubi fne'e tama inña
 new-sentence-rule-5 = Nweyo ne'es bakchii dudde mu'u naa koo
 new-sentence-rule-6 = Nwe ne'es  dudde ndoko letra se nwe eena o nwe ndikchi inña yi'i yabakude
@@ -24,7 +24,7 @@ new-sentence-rule-8 = Dindi dindi noo tomene nwe kub bakchii yi'i inña ndetes n
 login-instruction-multiple-sentences = Kubbi kuenade o kubbi fnekakade tomene kubbi fnuu ndennaa ndodo yi'i dbaku yi'ide
 how-to-cite = ¿Taka ka'ama ?
 how-to-cite-explanation-bold = Fnekakade du'u yi'i ndodo se iynuu mu'u o tii bchii
-how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenode kugbi fndad mu'u tama kuaa.
+how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenode kugbi fndad mu'u tama kuaa </guidelinesLink>
 guidelines = Mu'u aa taka kugbii
 contact-us = Ndede ndokono
 add-sentence-success = Ndodo se nbenno
@@ -36,10 +36,10 @@ bulk-sentence-submission = Ndendikuu ndodo kugbii cho'oo
 single-sentence = Ama ndodono
 small-batch-sentence = Ama dakuu linnoo
 bulk-sentence = Ama dakundikku
-sentence-domain-combobox-label = Iydikchide ndodo
-sentence-domain-select-placeholder = Ndi innu kugbi tndanunde ndetes ne'ede
+sentence-domain-combobox-label = Dbenode de'e ne kama ndodoku
+sentence-domain-select-placeholder = Ndi innu kugbi tndanunde (ndetes ne'ede)
 # Sentence Domain dropdown option
-agriculture_food = Ndinñu se innu ndata ndokos e'e inña
+agriculture_food = Ndinñu se innu ndata mii ndokos e'e inña
 # Sentence Domain dropdown option
 automotive_transport = Be'e nase bee koo se ikka, koo se iyndee inña tomene a kot kakaya
 # Sentence Domain dropdown option
