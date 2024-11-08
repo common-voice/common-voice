@@ -22,6 +22,7 @@ contribute = Přinošować
 
 ## Navbar
 
+respond-to-prompt = Na namołwu wotmołwić
 transcribe-audio = Awdijo transkribować
 check-transcriptions = Transkripcije přepruwować
 

@@ -5,6 +5,7 @@ report-modal-subtitle = Na kotre problemy z tutym wobsahom storkaće?
 offensive_speech = Njepřistojny wobsah
 offensive_speech-detail = Wobsah ma njezdwórliwu a pohóršliwu rěč.
 different_language = Druha rěč
+different_language-detail = Wobsah druhu rěč wobsahuje hač sym wočakował.
 report-other-comment =
     .placeholder = Komentar
 # Label for textarea in report modal

@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Witajće k spontanemu rěčenju
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Namołwa</mark>
 # text wrapped in <mark></mark> will have a blue background

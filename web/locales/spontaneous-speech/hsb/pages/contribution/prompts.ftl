@@ -1,6 +1,8 @@
 ## Prompts page
 
+record-player-header = Natočće swoju wotmołwu
 mic-access-error = Dyrbiće přistup k mikrofonej dowolić.
+prompt-submitted-success = Wotmołwa je so wuspěšnje wotpósłała
 # For the button to delete a response to a prompt
 delete = Zhašeć
 # For the disabled button on a prompt that indicates a prompt is already submitted
