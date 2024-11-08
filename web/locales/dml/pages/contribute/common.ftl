@@ -26,6 +26,16 @@ keep-track-profile = پروفائل ملی تانوں پیش رفت ڜا نظر 
 login-to-get-started = لاگِن یا سائن اپ کُرے شروع کُرعیں کی
 target-segment-first-card = تو امونہ اول ہدف تہ حصہ تعاون کُنپ
 target-segment-generic-card = تو ایک ہدف ویلہ حصہ تعاون کُنپ
+target-segment-first-banner = عام کاڻ تہ اول ہدف تہ حصہ ژوپنہ مدد کُرا{ $locale }
+target-segment-add-voice = تانوں کاڻ جمع کُرا
+target-segment-learn-more = لے ڇھیڇا
+change-preferences = ترجیہات نم بدل کُرا
+login-signup = لاگین / سائن اپ
+vote-yes = آں
+vote-no = نی
+datasets = ڈیٹا سیٹ نم
+languages = باڜہ نم
+about = بارا
 
 ## Reporting
 
