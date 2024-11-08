@@ -142,9 +142,16 @@ small-batch-sentences-rule-2 = هر لیکه نر يې ݭيې جملۀ بکر ه
 small-batch-sentences-rule-3 = ا جمله بُو ته Enter په ځوک دیو ځاکه اېنچی یا که سۀ وار واپسي يې کی
 small-batch-sentences-rule-4 = 1,000 توݭکئے جملي دی ګډ کَۀ
 small-batch-sentences-rule-5 = اره جملي ته سۀ ډومېن پکر هِن
+small-batch-sentences-rule-6 = اره جملي يې ݭيے خوالۀ درون
+# menu item
+add-sentences = جملي ل دی ګډ کَۀ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملي ل دی ګډېون، دوبارۀ وه جیرېون۔ سؤلي ل دی ګډېون۔ اډیو وې جوړېون
+add-sentences-menu-item-tooltip = خوئ زبان نرل دی جملي ګډېون
+review-sentences-menu-item-tooltip = حوئ زبان نره ل بيے ا پِکِر ترېون ویزر
+add-questions-menu-item-tooltip = خوئ زبان نرل دی سؤلی ګډېون
 
 ## MENU ITEM ARIA LABELS
 
