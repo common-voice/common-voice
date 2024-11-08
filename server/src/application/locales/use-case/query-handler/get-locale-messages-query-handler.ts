@@ -9,7 +9,7 @@ import { pipe } from 'fp-ts/lib/function'
 import * as A from 'fp-ts/Array'
 import * as IO from 'fp-ts/IO'
 
-const LOCALES_PATH = path.join(process.cwd(), 'web', 'locales')
+export const LOCALES_PATH = path.join(process.cwd(), 'web', 'locales')
 
 export const getLocaleMessagesQueryHandler = (
   query: GetLocaleMessagesQuery

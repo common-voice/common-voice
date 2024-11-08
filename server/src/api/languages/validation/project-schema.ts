@@ -1,6 +1,6 @@
 import { AllowedSchema } from 'express-json-validator-middleware'
 
-export const GetTranslationsRequest: AllowedSchema = {
+export const projectSchema: AllowedSchema = {
   type: 'object',
   properties: {
     project: {

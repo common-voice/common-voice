@@ -1,4 +1,5 @@
 import { PassThrough } from 'stream'
+import * as path from 'path'
 import * as bodyParser from 'body-parser'
 import { MD5 } from 'crypto-js'
 import { NextFunction, Request, Response, Router } from 'express'
@@ -53,6 +54,10 @@ import {
 import { fetchUserClientVariants } from '../application/repository/user-client-variants-repository'
 import { getLocaleId } from './model/db'
 import { languagesRouter } from '../api/languages/routes'
+import { getFolderNames } from '../infrastructure/fs/fp-fs'
+import { LOCALES_PATH } from '../application/locales/use-case/query-handler/get-locale-messages-query-handler'
+import { isProject } from '../core/types/project'
+import { projectSchema } from '../api/languages/validation/project-schema'
 
 export default class API {
   model: Model
@@ -135,6 +140,11 @@ export default class API {
     router.get('/requested_languages', this.getRequestedLanguages)
     router.post('/requested_languages', this.createLanguageRequest)
 
+    router.get(
+      '/available_languages',
+      validate({ query: projectSchema }),
+      this.getAvailableLanguages
+    )
     router.get('/languages', this.getAllLanguages)
     router.use('/languages/:locale', languagesRouter)
     router.get('/stats/languages/', this.getLanguageStats)
@@ -280,6 +290,17 @@ export default class API {
 
   getAllLanguages = async (_request: Request, response: Response) => {
     response.json(await this.model.getAllLanguages())
+  }
+
+  getAvailableLanguages = async (req: Request, res: Response) => {
+    const project = isProject(req.query?.project)
+      ? req.query.project
+      : 'common-voice'
+    const availableLanguages = getFolderNames(path.join(LOCALES_PATH, project))()
+    res.json({
+      project,
+      availableLanguages,
+    })
   }
 
   getAllDatasets = async (request: Request, response: Response) => {
