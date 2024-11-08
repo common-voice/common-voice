@@ -128,3 +128,4 @@ contribution-background-noise-title = ڈنگ پھچن بئیں تہ شور
 contribution-background-noise-description-extended = اگر ریکارڈنگ چھنا بہ یا بہ زیگا بہ تس مسترد کُرا، اگر سئی بئی اُشترنن بڜ تھا بہ پھرکی مہ مسترد کُرا
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>لے بلو ڈینا سور سم تہ<strong>[cough]</strong>ٹریاسک
 contribution-background-noise-example-2-fixed-title = دیو دینو<strong>[cough]</strong> ٹریاسک
+contribution-background-noise-example-2-explanation = متن تہ اچھک حصہ اُشترونن بڜ نی درو
