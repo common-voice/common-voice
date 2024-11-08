@@ -44,3 +44,4 @@ resource-playbook-info = <playbookLink> مددګار معلومات دُشئ </p
 data-other-librispeech-description = لیبی سپیچ يې تقریباً ته زار 1000 ګهېنټه ته 16Khz غوېک انګرېزي تقریر هۀ که ریډ اډیو کتاب لاسته ر دې وریوک ݭیوک هۀ او ا LibriVox پراجېکټ يې جوړ دوک هۀ
 data-other-ted-name = TED-LIUM کارپس
 data-other-ted-description = TED-LIUM کارپس يې ته آډیو خبُرئ لاسته جوړ ݭیوک بیوک او ته رئ ا تقل TED وېب سائټ زر موجود هۀ
+data-other-voxforge-description = VoxForge يې ته نقل سپیچ ته جمع کؤ پاره جوړ ݭیوک بیوک ته لیه میوک ذریعه ته اوپن سپیچ ته پېݫندګالي اِنجر ته استعمال پاره
