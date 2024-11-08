@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-loading = Ҷумлаҳо бор шуда истодаанд…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Манбаъ: { $sentenceSource }
