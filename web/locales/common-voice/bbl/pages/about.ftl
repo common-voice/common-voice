@@ -68,6 +68,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = უფრო �
 
 ## How does localization work
 
+about-playbook-how-localize = მოჰ̦ დეწ საიტ თა́რგმნოდაჼ?
 
 ## How to add sentences
 
