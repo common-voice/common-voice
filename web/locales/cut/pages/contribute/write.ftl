@@ -61,16 +61,16 @@ nature_environment = De'es bee biata ndoskue'e se iiyndikchuu
 # Sentence Domain dropdown option
 news_current_affairs = De'es ii
 # Sentence Domain dropdown option
-technology_robotics = Koo se dbenno
-sentence-variant-select-label = Tama ndodo
-sentence-variant-select-placeholder = Tndanude ama ndodo
-sentence-variant-select-multiple-variants = Ndenna ndodo bee/ abi'i
+technology_robotics = Koo se dbenno, koo se iynu'u
+sentence-variant-select-label = A bi'i ndodo
+sentence-variant-select-placeholder = Tndanude ama ndodo (ndetes ne'ede)
+sentence-variant-select-multiple-variants = Ndodo se iyndikchi tndubeuu/ abi'i ndodo
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Cho'otundee ndodo se iyndikchii tndubee inña yi'i yabakude
-sc-bulk-upload-instruction = Kuinngondade kaka yi'ide mu'u, mu'u ndetade tomene kugbii fnuu kaka yi'ide
+sc-bulk-upload-header = Cho'otunde ndodo se iyndikchii tndubee inña yi'i yabakude
+sc-bulk-upload-instruction = Kuinngondade kaka yi'ide mu'u o mu'u ndetade tomene kugbii fnuu kaka yi'ide
 sc-bulk-upload-instruction-drop = Mu'u fnuu kaka yi'ide
 
 ## SMALL BATCH SUBMISSION
