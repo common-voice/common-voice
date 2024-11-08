@@ -94,3 +94,7 @@ release-version = نەشرى
 dataset-date = چېسلا
 license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
 license-mixed = ئارىلاش
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ئاۋاز سانلىق مەلۇمات توپلىمىمىزنى چۈشۈرىدۇ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice سانلىق مەلۇماتىغا ئېرىشىشنىڭ چۈشۈرۈش تاللانمىسى

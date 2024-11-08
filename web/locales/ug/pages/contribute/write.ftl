@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = بىر قۇرغا بىر جۈملە «Enter» ي�
 small-batch-sentences-rule-4 = ئەڭ كۆپ بولغاندا 1000 جۈملە قوشقىلى بولىدۇ
 small-batch-sentences-rule-5 = بارلىق جۈملىلەر چوقۇم ئوخشاش دائىرىدىن كېلىشى كېرەك.
 small-batch-sentences-rule-6 = بارلىق جۈملىلەرنىڭ چوقۇم ئوخشاش نەقىلى بولۇشى كېرەك.
+# menu item
+add-sentences = جۈملە قوشۇش
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = جۈملە قوشۇش ۋە تەكشۈرۈش، سوئال قوشۇش، ئاۋازنى تېكىستكە خاتىرىلەش
+add-sentences-menu-item-tooltip = تىلىڭىزدا جۈملە قوشىدۇ
+review-sentences-menu-item-tooltip = تىلىڭىزدىكىك جۈملىنى تەكشۈرىدۇ
+add-questions-menu-item-tooltip = تىلىڭىزدا سوئال قوشىدۇ
+transcribe-audio-menu-item-tooltip = تىلىڭىزدىكى ئاۋاز خاتىرىسىنى تېكىستكە خاتىرىلەيدۇ
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = تاللانما تىزىملىكنى يازىدۇ
+add-sentences-menu-item-aria-label = جامائەتنىڭ ئوقۇشى ئۈچۈن يېڭى جۈملە قوشىدۇ
+review-sentences-menu-item-aria-label = جامائەت يوللىغان مەۋجۇت جۈملىنى تەكشۈرىدۇ
+add-questions-menu-item-aria-label = جامائەتنىڭ ئوقۇپ ۋە ئىنكاس قايتۇرۇشى ئۈچۈن يېڭى سوئال يوللايدۇ
+transcribe-audio-menu-item-aria-label = ئۈن خاتىرىسىنى تېكىسكە خاتىرىلەيدۇ
