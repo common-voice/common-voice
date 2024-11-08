@@ -94,3 +94,7 @@ release-version = Version
 dataset-date = Date
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Téléchargez nos jeux de données vocales
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Options de téléchargement pour accéder aux données de Common Voice

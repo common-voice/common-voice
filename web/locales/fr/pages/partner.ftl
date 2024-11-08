@@ -16,3 +16,5 @@ partnerships-small-business-description = Nous sommes toujours à la recherche d
 partnerships-corporates-header = Grandes entreprises et plateformes
 partnerships-corporates-description = Si vous souhaitez en savoir plus sur le jeu de données, si vous souhaitez co-investir dans des extensions de plateforme planifiées ou rechercher des opportunités de collaboration, <emailFragment>écrivez-nous.</emailFragment>
 partnerships-our-partners = Nos partenaires
+# menu item
+partners = Partenaires

@@ -143,3 +143,20 @@ small-batch-sentences-rule-3 = Séparez les phrases en appuyant une fois sur «�
 small-batch-sentences-rule-4 = Ajoutez jusqu’à 1 000 phrases
 small-batch-sentences-rule-5 = Toutes les phrases doivent avoir le même domaine
 small-batch-sentences-rule-6 = Toutes les phrases doivent avoir la même citation
+# menu item
+add-sentences = Ajouter des phrases
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Ajout et révision de phrases, ajout de questions, transcription audio
+add-sentences-menu-item-tooltip = Ajoutez des phrases dans votre langue
+review-sentences-menu-item-tooltip = Vérifiez les phrases dans votre langue
+add-questions-menu-item-tooltip = Ajoutez des questions dans votre langue
+transcribe-audio-menu-item-tooltip = Transcription des enregistrements audio dans votre langue
+
+## MENU ITEM ARIA LABELS
+
+add-sentences-menu-item-aria-label = Ajoutez de nouvelles phrases à lire par la communauté
+review-sentences-menu-item-aria-label = Vérifiez les phrases existantes proposées par la communauté
+add-questions-menu-item-aria-label = Proposez de nouvelles questions pour que la communauté les lire et y répondre
+transcribe-audio-menu-item-aria-label = Effectuez la transcription d’enregistrements audio au format texte
