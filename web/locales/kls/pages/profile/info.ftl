@@ -67,3 +67,5 @@ help-accent = Awazas bati madad ajat e?
 help-variants = Variant as bati madad ajat e?
 help-sex-or-gender-changes = Madad as ajat Gender/ tabdil karikas bati
 variant-contribution-options-header = Variant phazikas option
+variant-contribution-option-2 = Ek mi clip ani mon pashai variant ani
+variant-contribution-warning-title = Ne sa mon ze clip variant as tags onja
