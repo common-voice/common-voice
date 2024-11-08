@@ -51,9 +51,9 @@ general = Tndubee kueenoo
 # Sentence Domain dropdown option
 healthcare = Bikchee inña, nwe ke'eya
 # Sentence Domain dropdown option
-history_law_government = De'es dbenno inña, de'es se iytunnu inña, taka iydiya se indi inña ndinñi'i
+history_law_government = De'es a cho'o, taka enno inña, de'es se iytunnu inña, taka iydiya se indi inña ndinñi'i biaa.
 # Sentence Domain dropdown option
-language_fundamentals = De'es kama taka nde'eoo
+language_fundamentals = De'es kama taka nde'eoo (ndoka letra, tummi, ndenna )
 # Sentence Domain dropdown option
 media_entertainment = De'es kugbii ndikchuu tomene nwe kubdanduu
 # Sentence Domain dropdown option
