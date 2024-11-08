@@ -126,6 +126,13 @@ n-clips-pluralized =
 help-share-goal = ته بيے آوزی دشؤ پناره ترماخ مدد کوئ، ا مقصد شریک کوئ
 confirm-goal = ا مقصد تصدیق کئ
 goal-interval-weekly = هفته وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = ا خوئ کلِپ { $count } شریک کوئ۔ ته ریوزانۀ ا مقصد کلِپ کوئ ته { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ا کلِپ شریک { $count } کوئ۔ ا هفته وار مقصد کلِپ کوئ ته { $type }
+share-goal-type-speak = ژغؤ
+share-goal-type-listen = امرؤ
+share-goal-type-both = ژغؤ او امرؤ
 
 ## Goals
 
