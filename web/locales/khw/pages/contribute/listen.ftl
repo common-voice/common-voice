@@ -21,3 +21,6 @@ review-transcriptions-menu-item-tooltip = تان وارا استعمال کور�
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = اختیاراتان لسٹو کارکو
+validate-readings-menu-item-aria-label = کمیونیٹی ممبرانا جمع بیرو راردوان تصدیق کو
+review-transcriptions-menu-item-aria-label = سہی کوریکو پچین محفوظ بیرو جملوان نقلو وا لوڑوڑے

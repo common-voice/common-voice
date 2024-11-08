@@ -60,3 +60,12 @@ already-have-an-account = پوشٹیار کی اکاونٹ شیر؟ <login>لا�
 create-profile-button = ای پروفائل ساوزاوے
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابیو نݰان
+# menu item
+read-sentences = جملان راوے
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملان راوے، سوالان جواب دیت
+
+## MENU ITEM ARIA LABELS
+
