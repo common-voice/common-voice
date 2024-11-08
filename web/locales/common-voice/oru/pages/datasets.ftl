@@ -65,3 +65,12 @@ dataset-metadata-age = عمر
 donate-modal-message = ترتو ا ډېټا سېت بُو ډا،ن لوډ کېک سَۀ
 dataset-donate-modal-heading = تُو کی يې پته بُک؟
 donate-modal-explanation-1 = ته ډېټآ سېت ا ساتؤ دی بُو ته څان تقریباً دس لکهـ ډالر زَيي او او پلېټفارم دی بو 100سُو لاسته ݫات ته زبنی کمیونېټي پولی کوک بُو که پۀ زر انحصار کَوِن ماخ بُو که څه کيېن
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> که تُو يې بو ته پۀ شئ قدر کېوی پشومول ته ډېټآ، سن ال ا خوئ حصه نیکِز</bold>
+data-download-singleword-title = ډاؤن لوډ کېون ته سنګل ورډ ټارګېټ ا سېګمنټ
+data-download-singleword-callout-v2 = جی
+data-download-button = نا
+data-download-yes = جی
+data-download-deny = نا
+data-download-license = لائسنس: <licenseLink></licenseLink>CC-0
+data-download-modal = تُو بو پېری ا ډاؤن لوډ ته <size>شوری کېوی GBچیو مخکی { $size }
