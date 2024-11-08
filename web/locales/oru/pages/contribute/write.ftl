@@ -73,6 +73,11 @@ sc-bulk-upload-header = اپ لوډ <icon> پبلک ډومېن جمله </icon>
 sc-bulk-upload-instruction = ا فائل دۀ کی دِګېون<uploadButton> اپ لوډ پاره وه کلِک کَۀ
 sc-bulk-upload-instruction-drop = اپ لوډ پاره وه دۀ ژون
 bulk-upload-additional-information = که ګُده دی کُوتُو ګیرډ معلومات بېن ته پۀ فائل بارۀ نر او په پېڅه لِنک مېلاؤ کَۀ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ه ګُده دی کُوتُو ګیرډ معلومات بېن ته پۀ فائل بارۀ نر او که ا څېن ده ټېمپلېټ نرنک بَۀ،او<emailFragment> په پېڅه لِنک مېلاؤ کَۀ commonvoice@mozilla.com </emailFragment>
+try-upload-again = دوبارۀ کوشش کَۀ، که ا فائل دۀ کی دِګېوی
+try-upload-again-md = دوبارۀ وه ته اپ لوډ کؤ کوشش کَۀ
+select-file = فائل يې خوش کَۀ
+select-file-mobile = فائل يې خوش کَۀ ته اپ لوډ کؤ پاره
 
 ## SMALL BATCH SUBMISSION
 
