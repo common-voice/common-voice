@@ -89,4 +89,5 @@ partnerships-menu-item-tooltip = اسو نلا سجیئار با
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = کامن وائیش ساتی سجئیی تھینو سیچ
 press-and-stories-menu-item-aria-label = کامن وائیسو پریس ریلیزگا شیلوکو کچی ایپھو
