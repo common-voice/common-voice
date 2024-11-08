@@ -44,7 +44,7 @@ function readAndConcatFiles(filePaths: string[]): string {
 }
 
 function readENMessageFile() {
-  const filepath = path.resolve(__dirname, '../locales/en')
+  const filepath = path.resolve(__dirname, '../locales/common-voice/en')
   return readAndConcatFiles(collectFilesWithExtension(filepath, '.ftl'))
 }
 
