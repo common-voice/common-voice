@@ -113,6 +113,12 @@ rate-limit-toast-message-seconds =
         [one] Chonnetuu se iynu'u koo. Cho'o am segundo tomene dikuittude.
        *[other] Chonnetuu se iynu'u koo. Cho'o tama segundo tomene dikuittude.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] A cho'o ubi se chod kaka mu'u. Kueinud ama minuto iyndekas cho'ode tama ndodo. ¡Yondibkuede se gninude!
+       *[other] A cho'o ubi se chod kaka mu'u. Kueinude am ubi minuto iyndekas se dchod tama ndodo. ¡Yondibkuede se gninude!
+    }
 
 ## MENU ITEM TOOLTIPS
 
