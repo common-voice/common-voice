@@ -13,11 +13,12 @@ listen-abort-title = Тетхагъэхэм яуплъэкӏун ухыгъа?
 listen-abort-cancel = Уплъэкӏуныр лъыгъэкӏуат
 listen-abort-confirm = Уплъэкӏуныр къэух
 # Menu item
-validate-readings = Еджэнырхэр къэгъэшъыпкъэн
+validate-readings = Еджакӏэхэр къэгъэшъыпкъэн
 
 ## MENU ITEM TOOLTIPS
 
-validate-readings-menu-item-tooltip = Убзэкӏэ тетхагъэм гэфедакӏохэр зэреджэхэрэр къэгъэшъыпкъэжь
+listen-contribute-menu-tooltip = Еджакӏэхэр къэгъэшъыпкъэ, транскрипциехэм яплъыжь
+validate-readings-menu-item-tooltip = Убзэкӏэ тетхагъэм гъэфедакӏохэр зэреджэхэрэр къэгъэшъыпкъэжь
 review-transcriptions-menu-item-tooltip = Гущыӏэухыгъэхэм убзэкӏэ укъяджэзэ умакъэ тетх
 
 ## MENU ITEM ARIA LABELS
