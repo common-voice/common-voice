@@ -1,6 +1,7 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Witajće k spontanemu rěčenju
+why-spontaneous-speech = Čehodla smy tutón prototyp za spontane rěčenje wuwili
 how-spontaneous-speech-works = Kak spontane rěčenje funguje
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Namołwa</mark>
