@@ -9,6 +9,7 @@ interface-language = Rěč wužiwarskeho powjercha
 # Label for button on contribution switcher
 change = Změnić
 coming-soon = Dalše rěče bórze přińdu
+media-recorder-api-not-supported = MediaRecorder API so we wašim wobhladowaku njepodpěruje.
 # Toast message that is displayed when an item is skipped
 skipped = Přeskočeny
 audioplayer-header = Słuchać

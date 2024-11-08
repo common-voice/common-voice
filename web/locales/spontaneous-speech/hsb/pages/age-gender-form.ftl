@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = Wulki dźak, zo sće k spontanemu rěčenju přinošował!
 age-gender-form-subtile = Hdyž informacije wo sebje zdźěleće, budźeće wuwiwarjam pomhać, bóle inkluziwnu technologiju wuwiwać
 add-information-button = Informacije přidać
 continue-speaking-button = Dale rěčeć
