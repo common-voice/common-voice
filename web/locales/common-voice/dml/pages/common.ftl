@@ -271,6 +271,12 @@ link-copied = لنک کاپی با
 back-top = گیرنکھتی پچو یت
 logout = لاگ آوٹ
 donate = عطیہ
+return-to-cv = عام کاڻہ کی گیرنکھتی یا
+email-input =
+    .label = ای میل
+loading = لوڈ بیاں
+email-opt-in-info = ائی منو ای میل گیم تے کیرا مقصد تہ یاددہانی، ما مُکھ بئیں ین تہ معلومات آں عام کاڻ تہ خبر تہ خط تھیو
+email-opt-in-info-title = عام کاڻ تہ ای میل تہ لسٹہ شامل با
 
 ## Donate banner
 
