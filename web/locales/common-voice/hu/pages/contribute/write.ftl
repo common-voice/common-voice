@@ -159,3 +159,5 @@ transcribe-audio-menu-item-tooltip = Leiratozza a hangfelvételeket a saját nye
 write-contribute-menu-aria-label = Írásbeállítások menü
 add-sentences-menu-item-aria-label = Adjon hozzá új mondatokat a közösség számára
 review-sentences-menu-item-aria-label = A közösség által beküldött meglévő mondatok ellenőrzése
+add-questions-menu-item-aria-label = Küldjön be új kérdéseket, hogy a közösség felolvassa őket, és válaszoljon rájuk
+transcribe-audio-menu-item-aria-label = Leiratozza a hangfelvételeket
