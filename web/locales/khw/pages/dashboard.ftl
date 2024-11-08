@@ -14,11 +14,11 @@ everyone = ہرایوالی
 contribution-activity = مدد کوریکو کوروم
 top-contributors = سافو سار زیاد مدد کوراک
 recorded-clips = رکارڈ بیرو ہواز
-validated-clips = تصدیق بیرا ہواز
-total-approved = تمام منظور بیرو
-overall-accuracy = تمام سہی
-set-visibility = مہ پشیکو تین سیٹ کو
-visibility-explainer = ہیا سیٹنگ تہ لوڈر بورڈو پشیکو کنٹرول کویان۔ کیاوحت کی کوشتیتاو تہ کروم رازا بہچور۔ ہمو مطلب ہیا کی تہ فوٹو، استعمال بک نام وا کوروم لوڈر بورڈا غیچی نو گوئے۔ ہیا لوو نوٹ کوکی لوڈر بورڈو نوغ بیکو وا تبدیلی ہیرا گیگو پیچین { $minutes } منٹ گنیر
+validated-clips = تصدیق کورینو بیرو ہواز
+total-approved = تھمام منظور بیرو
+overall-accuracy = تھمام سہی گری
+set-visibility = مہ پوشیکو صلاحیتو سہی کو
+visibility-explainer = ہیا سیٹنگ تہ لوڈر بورڈو پوشیکو کنٹرول کویان۔ کیاوحت کی کوشتیتاو تہ کروم رازا بہچور۔ ہمو مطلب ہیا کی تہ فوٹو، استعمال بک نام وا کوروم لوڈر بورڈا غیچی نو گوئے۔ ہیا لوو نوٹ کوکی لوڈر بورڈو نوغ بیکو وا تبدیلی ہیرا گیگو پیچین { $minutes } منٹ گنیر
 visibility-overlay-note = نوٹ: کیا وحت پشیکو پچین کی سیٹنگ کوسان۔ ہیا سیٹنگ <profileLink>بی کوریلیک بوئے۔پروفائل پیج</profileLink>
 show-ranking = مہ درجو پشاوے
 
@@ -28,7 +28,7 @@ get-started-goals = مقصدان پروشٹہ لکھی شروع کو
 create-custom-goal = ای تان مرضیا مقصد لکھے
 goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
-both-speak-and-listen-long = کھاڑ (لودیت وا کار کورے)
+both-speak-and-listen-long = کھاڑان (لودیت وا کار کورے)
 daily-goal = ہو انوسو مقصد
 weekly-goal = ہفتو مقصد
 easy-difficulty = اسان
@@ -38,12 +38,12 @@ pro-difficulty = حمایتی
 lose-goal-progress-warning = تان حدفو ایڈیٹ کی ارو، تہ کوروم تونج دی بوئے۔
 want-to-continue = تو جاری سوتیک مݰکیسانا؟
 finish-editing = اویل ایڈیٹنگو  ختم کو
-lose-changes-warning = ہنیسے ہموغار بیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
+lose-changes-warning = پیڅھی بیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مݰکیسان
 build-custom-goal = تان تین ای حدف لکھے
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] { $hours } گھنٹہ { $language } وارا تان ذاتی حدف پورا کوریکا مدد کو
-       *[other] { $hours } گھنٹہ{ $language } وارا تان ذاتی مقصدو پورا کوریکو مدد کو
+        [one] { $hours } گھنٹہ { $language } وارا تان ذاتی مقصدو پورا کوریکا مدد کو
+       *[other] { $hours } گھنٹہ{ $language } وارا تان ذاتی مقصدو پورا کوریکا مدد کو
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
