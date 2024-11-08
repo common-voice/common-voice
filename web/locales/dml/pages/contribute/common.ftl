@@ -96,3 +96,7 @@ shortcut-vote-no = این
 ## Validation criteria
 
 contribution-criteria-nav = معیار
+contribution-criteria-link = شراکت تہ معیار زانا
+contribution-criteria-page-title = شراکت تہ معیار
+contribution-for-example = مثل تہ طورہ
+contribution-misreadings-title = غلط مترن
