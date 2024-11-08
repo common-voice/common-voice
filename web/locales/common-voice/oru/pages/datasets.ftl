@@ -79,3 +79,14 @@ data-explanatory-text = ترماخ يې او یقین هۀ که ته عوام د
 data-get-started = <speechBlogLink> شوري وه کَۀ ته آواز پېݫندګالي لاسته</speechBlogLink>
 data-other-title = بيې ته آواز ا ډېټا سېټی
 data-other-goto = چیو { $name }
+data-other-download = ا ډېټا ډاؤن لوډ کَۀ
+data-bundle-button = ته ډېټا ا بنډل ډاؤن لوډ کَۀ
+data-bundle-description = مشترک آواز ډېټا جمع ائ بيې اره وائس ډېټا سېټ ائ بېژ
+release-version = ورژن
+dataset-date = تاریخ
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = ګډ و ډُلئ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ترماخ ا ډېټا سېټ ډاؤن لوډ کَۀ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ډاؤن لوډ کېون ا وُرغېوي ته مشترک آواز ا رسؤ
