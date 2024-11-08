@@ -6,6 +6,7 @@ demo-welcome-subheader = از ته بيې زدکړه او پراجېکټ نر ت
 
 ## Demo Datasets
 
+demo-language-select-card-header = مشترک آواز يې ته اره لاسته عوام کی موجود ته مختلف زبني ته آوزی ډېټا سېټ هۀ
 
 ## Demo Account
 
