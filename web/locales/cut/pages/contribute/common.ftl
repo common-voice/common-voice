@@ -29,9 +29,20 @@ change-preferences = Nbekude de'es ne'ede
 login-signup = Kuenade/Fnekakade
 vote-yes = Uu
 vote-no = Nwe
+datasets = Am daku ndodo
+languages = Dbaku
+about = Yi'i
+partner = Ne dide ndinñu ndokonno
+submit-form-action = Cho'ode
 
 ## Reporting
 
+report = Kamade
+report-title = Cho'ode ama kaka
+report-ask = ¿De'e kugbise iidi bakchii ndoko ndodo kuu?
+report-offensive-language = Kaba iynde'e
+report-offensive-language-detail = Nwe dindi a'a mu'u nwe ndebe stika  iynde'e
+report-grammar-or-spelling = Nwe ndebe duu
 
 ## Speak & Listen Shortcuts
 
