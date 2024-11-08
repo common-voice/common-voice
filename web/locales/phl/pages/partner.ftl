@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = شراکت داری
+partnerships-header-text = کامن وائس سمئنی مجی بیڈو گہ لگئجانو! بے کھلئی نِس نہ تھانہ۔ تُس اسام سنگی شراکت داری تھانے؟ بے تُسام دی ݜُݨئنی خوخیایہ۔
 partnerships-get-in-touch = رابطہ کی ہونسوئی
 partnerships-become-a-partner = کامن وائس پارٹنر سمجوئی۔
 partnerships-community-header = کمیونٹی، ناوہ شئیہ سمئنی او سول سوسائٹی
