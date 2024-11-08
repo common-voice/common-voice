@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] Am ndodo a ndidama
        *[other] Yi'i tndube ndodo se ndidama
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } yi'i ama ndodo se achii dama. Mu'u ndutade <downloadLink> mu'u tomene kugbi chuun ndodo se nwe chii gnuu mu'u naa koo.
+       *[other] { $uploadedSentences } yi'i { $totalSentences } se andidama. Mu'u ndutade <downloadLink> mu'u </downloadLink>tomene jugbi chuun ndodo se nwe chii gnuu mu'u naa koo.
+    }
 
 ## MENU ITEM TOOLTIPS
 
