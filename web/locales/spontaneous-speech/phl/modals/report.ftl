@@ -12,7 +12,9 @@ report-other-comment =
     .placeholder = تبصرہ
 # Label for textarea in report modal
 other = دوئی
+report-error = رپورٹ جمع تھئنی مجی آک خرابی پیش یھیلی۔
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = جاری
 # Header for report modal after successful reporting
 success = کامیاب
+report-success-message = رپوٹ کامیبی کی منظور بھلی
