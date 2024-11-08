@@ -81,6 +81,19 @@ request-language-button = Kakad ama dbaku
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = Fnetud koo tome kanbeo de'e a'a/Akote fned koote
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Taka kugbi
+contribution-criteria-link = Nekugbi dbenoka taka kugbi tanne
+contribution-criteria-page-title = De'e dii tomene kugbi tanne
+contribution-criteria-page-description = ¡Kubidbenodka de'e nunade tase kanbede ndodo se gnu naa koo nome kugbidbenode taka dide tomene teg ndebe fnu ndodo yi'ide naa koo!
+contribution-for-example = Ndokasku
+contribution-misreadings-title = Tase nwe ndebe des'e iyne'de
