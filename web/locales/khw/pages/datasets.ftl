@@ -96,3 +96,5 @@ license = لائسینس: <licenseLink>{ $license }</licenseLink>
 license-mixed = اموشت
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = اسپہ ڈیٹاسیٹو ڈون لوڈ کو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائسو معلوماتا توریکو پچین اختیاراتان ڈون لوڈ کو

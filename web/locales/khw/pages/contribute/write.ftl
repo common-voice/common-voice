@@ -154,6 +154,11 @@ write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، 
 add-sentences-menu-item-tooltip = تان زبانا جملان شامل کو
 review-sentences-menu-item-tooltip = تان زبانو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان زبانا سوال شامل کو
+transcribe-audio-menu-item-tooltip = تان زبان ہوازو رکارڈنگو نویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
+add-sentences-menu-item-aria-label = تان رویان ریکو پچین نوغ جملہ شامل کو
+review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
+add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو پچین  نوغ سوال کو
