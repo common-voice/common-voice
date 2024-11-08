@@ -12,13 +12,9 @@ show-wall-of-text = Meer lezen
 help-us-title = Help ons zinnen te valideren!
 help-us-explain = Klik op de afspeelknop, luister en vertel ons: wordt de onderstaande zin juist uitgesproken?
 no-clips-to-validate = Het lijkt erop dat er in deze taal geen te beluisteren fragmenten zijn. Help de rij te vullen door er nu een paar op te nemen.
-vote-yes = Ja
-vote-no = Nee
 toggle-play-tooltip = Druk op { shortcut-play-toggle } om de afspeelmodus in/uit te schakelen
-speak-subtitle = Doneer uw stem
 speak-paragraph = Het opnemen van spraakfragmenten is een integraal onderdeel van het bouwen van onze open gegevensset; volgens sommigen is het ook het leuke deel.
 speak-goal-text = Opgenomen fragmenten
-listen-subtitle = Help ons stemmen te valideren
 listen-paragraph = Validatie van gedoneerde fragmenten is net zo belangrijk als de missie van Common Voice. Luister eens en help ons kwalitatief hoogwaardige opensource-spraakgegevens te creëren.
 listen-goal-text = Gevalideerde fragmenten
 hours-recorded = Opgenomen uren
@@ -76,3 +72,26 @@ help-contribute = U kunt een diverse, open-source gegevensset helpen bouwen door
 login-company = Aanmelden / inschrijven met { $company }-e-mailadres
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
 read-more-about = Meer info op onze pagina Over
+
+## NAV ITEMS
+
+answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
+review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
+add-questions = Vragen toevoegen <small>(binnenkort)</small>
+transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
+press-and-stories = Pers en verhalen
+community-and-languages = Gemeenschap en talen
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerschappen, Pers en verhalen, Gemeenschap en talen
+partnerships-menu-item-tooltip = Partner worden
+press-and-stories-menu-item-tooltip = Bezoek onze blog of schrijf over ons
+community-and-languages-menu-item-tooltip = Talen en gemeenschappen en Common Voice ontdekken
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Optiesmenu Over
+partnerships-menu-item-aria-label = Meer over partnerschappen met Common Voice
+press-and-stories-menu-item-aria-label = Persberichten en verhalen met betrekking tot Common Voice benaderen
+community-and-languages-menu-item-aria-label = De door Common Voice ondersteunde gemeenschap en talen verkennen

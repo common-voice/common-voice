@@ -71,3 +71,6 @@ answer-questions-menu-item-tooltip = Neem uzelf op bij het beantwoorden van vrag
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Optiesmenu Spreken
+read-sentences-menu-item-aria-label = Zinnen voorlezen die door de gemeenschap in verschillende talen zijn ingediend
+answer-questions-menu-item-aria-label = Een nieuwe vraag voor de gemeenschap indienen om te lezen en te beantwoorden

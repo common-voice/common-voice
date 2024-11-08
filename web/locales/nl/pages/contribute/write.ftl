@@ -147,3 +147,21 @@ small-batch-sentences-rule-3 = Scheid zinnen in losse regels door eenmaal op ‘
 small-batch-sentences-rule-4 = Voeg tot duizend zinnen toe
 small-batch-sentences-rule-5 = Alle zinnen moeten hetzelfde domein hebben
 small-batch-sentences-rule-6 = Alle zinnen moeten dezelfde bronvermelding hebben
+# menu item
+add-sentences = Zinnen toevoegen
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Zinnen toevoegen en beoordelen, Vragen toevoegen, Audio transcriberen
+add-sentences-menu-item-tooltip = Zinnen in uw taal toevoegen
+review-sentences-menu-item-tooltip = Zinnen in uw taal beoordelen
+add-questions-menu-item-tooltip = Vragen toevoegen in uw taal
+transcribe-audio-menu-item-tooltip = Audio-opnamen transcriberen in uw taal
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Optiesmenu Schrijven
+add-sentences-menu-item-aria-label = Nieuwe zinnen voor de gemeenschap toevoegen om te lezen
+review-sentences-menu-item-aria-label = Bestaande zinnen die door de gemeenschap zijn ingediend beoordelen
+add-questions-menu-item-aria-label = Nieuwe vragen indienen voor de gemeenschap om te lezen en te beantwoorden
+transcribe-audio-menu-item-aria-label = Audio-opnamen omzetten naar tekst

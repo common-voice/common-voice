@@ -16,3 +16,5 @@ partnerships-small-business-description = We horen altijd graag van gegevenscons
 partnerships-corporates-header = Grootschalige bedrijven en platformbedrijven
 partnerships-corporates-description = Als u meer wilt spreken over de gegevensset, mee wilt investeren in geplande platformuitbreidingen of op zoek bent naar samenwerkingsmogelijkheden, <emailFragment>laat dan een bericht achter.</emailFragment>
 partnerships-our-partners = Onze partners
+# menu item
+partners = Partners
