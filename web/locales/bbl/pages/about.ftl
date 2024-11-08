@@ -42,6 +42,7 @@ about-get-involved-text-2 = ლე́ჸი შუჼ, მე Common Voice უფ
 about-stay-in-touch = მოჰ̦ მაკ ნახნ კავშირმაქ ხილ'აჼ?
 about-stay-in-touch-button = ანგრიშ თაგჲარ
 about-stay-in-touch-text-1 = წევრ თაგლიბათ თხე ელფო́სტ ჯგუფე ჲე ხაჸათ, მოჰ̦ მაკ შუჼ მონაწილეობ მიღე́ბადჲოლუჲშ კამპანია́ხ, წინი-წინი́ მაკოდმაკრი დანე́რგოდჲარა́ხ Common Voice-ნაჲნო̆
+about-stay-in-touch-text-2 = ჴეჩ-ჴეჩჩო̆ მატტა́ხიჼ  Mozilla წარმომადგე́ნლიციჼ ბჵარდახანე́ჲნო̆ ჲე ცჰ̦აცჰ̦ე́ჲნი̆  საკითხენმაქ ა́მბუჲ ჲანა́ჲნო̆ გამოდგო́მალა შუჼ <discourseLink> Discourse </discourseLink>, მაცმე́ ჰ̦ა́თთეჸ რჩევ ხაჸაჼ დაჭირბალა შუნ მა́, დაკა́ვშირბალიბათ <matrixLink> Matrix-ეციჼ </matrixLink>
 about-nav-why-common-voice = ვუჼ?
 about-nav-how-it-works = მოჰ̦?
 about-nav-how-it-works-2 = მოჰ̦ მუშებალა Common Voice?
