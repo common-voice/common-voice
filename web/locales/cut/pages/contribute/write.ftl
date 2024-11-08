@@ -119,6 +119,18 @@ rate-limit-message-minutes =
         [one] A cho'o ubi se chod kaka mu'u. Kueinud ama minuto iyndekas cho'ode tama ndodo. ¡Yondibkuede se gninude!
        *[other] A cho'o ubi se chod kaka mu'u. Kueinude am ubi minuto iyndekas se dchod tama ndodo. ¡Yondibkuede se gninude!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] A cho'o ubi se chod mu'u. Kueinude ama segundo iyndekase se chod tama ndodo. ¡Yondibkuede se gninude!
+       *[other] A cho'i ubi se chod mu'u. Kueinude am ubi segundo iyndekase chod tama ndodo. ¡Yondibkuede se gninude!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Am ndodo a ndidama
+       *[other] Yi'i tndube ndodo se ndidama
+    }
 
 ## MENU ITEM TOOLTIPS
 
