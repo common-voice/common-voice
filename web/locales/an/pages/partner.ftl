@@ -16,3 +16,5 @@ partnerships-small-business-description = Siempre somos mirando d'ascuitar a los
 partnerships-corporates-header = Grans empresas y empresas de plataformas
 partnerships-corporates-description = Si quiers charrar mas sobre lo conchunto de datos, quiers invertir en as expansions planificadas d'a plataforma u miras oportunidaz de colaboracions, <emailFragment>ninvia-nos unas linias</emailFragment>
 partnerships-our-partners = Los nuestros socios
+# menu item
+partners = Socios

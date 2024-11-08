@@ -71,6 +71,6 @@ answer-questions-menu-item-tooltip = Grava-te respondendo a preguntas en o tuyo 
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = Menú d'opcions de parlar
+speak-contribute-menu-aria-label = Menú d'opcions de charrar
 read-sentences-menu-item-aria-label = Leyer frases ninviadas per la comunidat en diferents idiomas
 answer-questions-menu-item-aria-label = Ninviar una pregunta pa que comunidat leiga y responda

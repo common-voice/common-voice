@@ -85,8 +85,8 @@ share-n-daily-contribution-goal = Comparte lo tuyo obchectivo diario de { $count
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Comparte lo tuyo obchectivo semanal de { $count } gravacions pa { $type }
 share-goal-type-speak = Charrando
-share-goal-type-listen = Escuitando
-share-goal-type-both = Charrando y escuitando
+share-goal-type-listen = Ascuitar
+share-goal-type-both = Charrar y ascuitar
 # LINK will be replaced with the current URL
 goal-share-text = He creyau un obchectivo personal pa dar voz a #CommonVoice -- #Unir y aduya-nos a amostrar a las maquinas cómo charramos las personas { $link }
 weekly-goal-created = S'ha creyau lo tuyo obchectivo semanal
