@@ -15,6 +15,7 @@ listen-abort-confirm = Уплъэкӏуныр къэух
 
 ## MENU ITEM TOOLTIPS
 
+review-transcriptions-menu-item-tooltip = Гущыӏэухыгъэхэм убзэкӏэ укъяджэзэ умакъэ тетх
 
 ## MENU ITEM ARIA LABELS
 

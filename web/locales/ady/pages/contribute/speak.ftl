@@ -60,3 +60,9 @@ already-have-an-account = Амырми хьисап уиӏа? <login>Ихь</log
 create-profile-button = Профил шӏы
 # IMAGE TAGS
 img-alt-success-checkmark = Гъэхъагъэ итамыгъ!
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
