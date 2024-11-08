@@ -78,7 +78,7 @@
             }
 
             .card-image {
-                height: 150px;
+                height: 155px;
 
                 &.scripted {
                     background-image: url('./assets/scripted-speech.jpg');
@@ -116,6 +116,9 @@
                     font-weight: 400;
                     color: var(--black);
                     margin-block-end: 16px;
+                    height: auto;
+                    max-height: 130px;
+                    overflow-y: auto;
                 }
 
                 .button {
