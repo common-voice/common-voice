@@ -22,3 +22,4 @@ review-transcriptions-menu-item-tooltip = Chut'ajín xi énn kachjí
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Nkjín skuya xi kuan kuinu'ya.
+validate-readings-menu-item-aria-label = Sichjiné xi kitjubét'a xi chuta naxinandá kasikasén.
