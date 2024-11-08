@@ -131,3 +131,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>یہ تہ با
 ## How is Common Voice funded
 
 about-playbook-how-funded = عام کاڻ ساں مالی مدد کنو بئی کُرین ینہ
+about-playbook-how-funded-content-1 = عام کاڻ موزیلا فاونڈیشن ساں US 501c3درو۔ یہ پرجیکٹ کی ژا فنڈ پرینا<philantropicGrantLink>فلاحی امدد</philantropicGrantLink>،آں تمام دنیا تہ ماڜ مدد کُنُن
+about-playbook-how-funded-content-2 = ڈیٹا سیٹ ساں مسلسل میزبانی آں جاری کُرن،پلیٹ فام  بہتر کُرن آں چلئیں کی لے زیت فںڈ تہ ضرورت درو آں چلن<africaMradiLink>کمیونٹی تہ پروگرم</africaMradiLink>
