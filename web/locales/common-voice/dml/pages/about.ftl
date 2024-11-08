@@ -42,7 +42,7 @@ about-get-involved-text-2 = عام کاڻ اچکھ ایس  ابُت کُرئیں
 about-stay-in-touch = ائی کنو بئی رابطا تھیم
 about-stay-in-touch-button = سائن اپ
 about-stay-in-touch-text-1 = یہ زانے کی امونہ میل تہ لسٹہ سائن این کُرا، تے بی عام کاڻ تہ مہمات، پروگرم آں مشترکہ ڈیزئین تہ خصوصیاتہ کنو بئی حصہ گین بئیبہ
-about-stay-in-touch-text-2 = یہ زانے کی امونہ میل تہ لسٹہ سائن این کُرا، تے بی عام کاڻ تہ مہمات، پروگرم آں مشترکہ ڈیزئین تہ خصوصیاتہ کنو بئی حصہ گین بئیبہ
+about-stay-in-touch-text-2 = بی موزیلا باڜہ تہ کمیونٹی یہ میلا بین بیبہ <discourseLink>ڈس کوس </discourseLink>حالات تہ مُشکُل تہ پرئی یا بہ <matrixLink>Matrix</matrixLink>  فووی مشورہ تہ پرئی
 about-nav-why-common-voice = کُو
 about-nav-how-it-works = کنو بئی
 about-nav-partners = شراکت دار
@@ -56,7 +56,7 @@ about-nav-playbook = حصہ گین تہ طریقہ ڇِھیڇا
 about-playbook-what-is-language = عام کاݩہ کیرا باݜہ درو
 about-playbook-what-is-language-content-1 = باݜہ تہ بارہ سوج کرئین کی لے پھن درو، مُشکُل زانن تہ ماڈلنم تہ مقصد ت پرئی عام کاڻ تجویز کُنا ، تانومانہ زاننہ توجو کُرا یا یہ باڜہ پریال لے ایک سیک پوئی بین کوشیش کُنُن نی
 about-playbook-what-is-language-content-2 = ائی گٹینمہ تے مشکول تہ ماڈل ابُت بو زاننہ  مختلفف باشہ پریال۔ یہ بیاں کی کاڻ تہ ڈیٹہ سیٹہ خامخا لے مختلف ماڜ تھین
-about-playbook-what-is-language-content-3 = کھنہ باݜہ تہ گرائمرہ، لفظ آں  تلفظہ لے فرق تِھنا۔ یہ تہ وجا اماں ۲۰۲۲ سہ مختلف قسم نم مُکھہ گیاڅینُمہ۔ یہ برادری نامہ کی ایک طریقہ پرینا تے تئیں بلو ڈیتہ سیٹہ تانو باڜہ پوگلئین ۔
+about-playbook-what-is-language-content-3 = کھنہ باݜہ تہ گرائمرہ، لفظ آں  تلفظہ لے فرق تِھنا۔ یہ تہ وجا اماں <ctaLink>۲۰۲۲ سہ مختلف قسم نم </ctaLink> مُکھہ گیاڅینُمہ۔ یہ برادری نامہ کی ایک طریقہ پرینا تے تئیں بلو ڈیتہ سیٹہ تانو باڜہ پوگلئین ۔
 
 ## How do I add a language
 
@@ -67,13 +67,13 @@ about-playbook-how-add-language-translating-content-1 = امونہ گائیڈ د
 about-playbook-how-add-language-translating-content-2 = ائی ترجمہ تہ پرئی  Pontoon ٹول استعمل کُنُمہ، Pontoon نہ لے باڜہ نم درو، اگر مِنہ باڜہ نی درو بہ پھرکی بی تانوں باڜہ شامل کُرئیں کی درخواست کُرا۔ پھرکی عام کاڻ تہ پراجیکٹہ تانوں گیاڅیئں کی، درخواست کُرا GitHub کی۔ ترجمہ سائہ اچھک ایس دڇھا
 about-playbook-how-add-language-collecting-sentences-heading = جملہ نم سوتن
 about-playbook-how-add-language-collecting-sentences-content-1 = جُملہ نم سوتئیں کی امونہ گائیڈ دڇھا
-about-playbook-how-add-language-collecting-sentences-content-2 = بی اُوچھوٹینم جملہ ایس شامل کرین بئیبہ، آں  بی Github استمل کُری بلک گٹین بئیبہ۔ یت ساتا تے جملہ نم سی سی یا بہ عامل ڈومین، آں بی تانو ایس لیکین بئیبہ
-about-playbook-how-add-language-collecting-sentences-content-3 = جمل سوتئیں کی ورے ایس دڇھا
+about-playbook-how-add-language-collecting-sentences-content-2 = بی <sentenceCollectorLinkAdd> اُوچھوٹی نم جملہ ایس شامل کرین بئیبہ، </sentenceCollectorLinkAdd> آں  بی<bulkImportDocsLink> Github استمل کُری بلک گٹین بئیبہ</bulkImportDocsLink>۔ یت ساتا تے جملہ نم <licenseLink>  سی سی یا بہ عامل ڈومین </licenseLink>، آں بی تانو ایس لیکین بئیبہ
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جمل سوتئیں کی ورے ایس دڇھا</sentenceCollectorFragment>
 
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلایزیش کنو کُری کرم کُنا
-about-playbook-how-localize-content-1 = عام کاڻ تہ سائٹ تہ ترجمہ Pontoon نہ  بیاں
+about-playbook-how-localize-content-1 = عام کاڻ تہ سائٹ تہ ترجمہ بیاں <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = ایک اکاونٹ ژوپایا اگر تاں اکاونٹ نی تھا بہ۔پھرکی، تانوں باݜہ تہ مضبوط ٹیم  منتخب  کُر آں پھرکہ پرجیکٹ گیا ، عامل کاڻ۔ ترہ فائل تھیو ترجمہ کرئیں کی، کلک کُرا، پھرکی یہ انگریزیہ الفاظ نم کڅو آں ایک صندوق تھیو ترجمہ کرئیں کی
 about-playbook-how-localize-content-3 = ترجمہ انگریزی تہ کُرن درو، لیکن بی مشورہ دڇین بئیبہ ورے باݜا نامہ، پروفائل آئکن کلک کُرا، پھرکی سیٹنگ لنکہ آں پھرکی کیہ ایس  باݜہ نم بی پرِنبہ سے شامل کُرا۔ دڇھنی طرفہ ٹوپہ ایک لسٹ تھیو ترجمہ تہ  لوکلز تہ نامہ۔ ترجمہ سائٹہ ایک دیو آݜنتہ کڅین یِنا
 about-playbook-how-localize-content-4 = کیر ۷۵ % کرم با بہ یہ سائٹ لانچ کُرئں کی تیار درو
