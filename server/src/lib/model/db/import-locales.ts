@@ -7,11 +7,12 @@ import * as fs from 'fs'
 const TRANSLATED_MIN_PROGRESS = 0.6
 const DEFAULT_TARGET_SENTENCE_COUNT = 5000
 
-const localeMessagesPath = path.join(
+const LOCALE_MESSAGES_PATH = path.join(
   __dirname,
   '../../../../../',
   'web',
-  'locales'
+  'locales',
+  'common-voice'
 )
 
 type Variant = {
@@ -225,7 +226,7 @@ const db = getMySQLInstance()
 
 const saveToMessages = (languages: any) => {
   const messagesPath = path.join(
-    localeMessagesPath,
+    LOCALE_MESSAGES_PATH,
     'en',
     'pages',
     'common.ftl'
@@ -245,13 +246,13 @@ const saveToMessages = (languages: any) => {
 }
 
 const buildLocaleNativeNameMapping: any = () => {
-  const locales = fs.readdirSync(localeMessagesPath)
+  const locales = fs.readdirSync(LOCALE_MESSAGES_PATH)
   const nativeNames: {
     [code: string]: string
   } = {}
   for (const locale of locales) {
     const messagesPath = path.join(
-      localeMessagesPath,
+      LOCALE_MESSAGES_PATH,
       locale,
       'pages',
       'common.ftl'
@@ -296,7 +297,7 @@ const getMinimalTranslationResources = (locale: string) => {
 
   try {
     contributePages = readFilesInDirectory(
-      path.join(localeMessagesPath, locale, 'pages', 'contribute')
+      path.join(LOCALE_MESSAGES_PATH, locale, 'pages', 'contribute')
     )
     contributePagesResources = contributePages.map(page =>
       parse(page.content, {})
