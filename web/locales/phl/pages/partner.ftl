@@ -13,6 +13,7 @@ partnerships-academia-description = بے کھئو کرام تھانہ اینوے
 partnerships-small-business-header = لھوکو کاروبار، بشمول ٹیک اور اے آئی اسٹارٹ اپس
 partnerships-small-business-description = بے ہمیشہ ڈیٹا صارفینی دی تنی ضروریات او سیاق و سباقی بارئی ݜُݨئنی دوائیانہ۔ ڈیٹا سمٹئنی پلیٹ فارمی تھی تعاون تھئنی دی گھنی ڈیٹا بہتر طریقہ پھدئنی تی، بے <emailFragment>تُسام دی ݜُݨئنی دوائیانہ۔</emailFragment>
 partnerships-corporates-header = بیڈہ گاڈہ پیمانہ کی کارپوریٹس او پلیٹ فارم کمپنیہ
+partnerships-corporates-description = اگر تُس ڈیٹا سیٹی بارئی مزید بات تھئنی دوائیانہ ہینتہ، منصوبہ بند پلیٹ فارمی  توسیع وے مشترکہ سرمایہ کاری تھئنی دوئیانہ یا تعاون تھئنی مواقع بُلڈانہ ہینتہ، تھے <emailFragment>اسام تھے ای میل تھوئی۔</emailFragment>
 partnerships-our-partners = اسی شراکت دارہ
 # menu item
 partners = شراکت دارہ
