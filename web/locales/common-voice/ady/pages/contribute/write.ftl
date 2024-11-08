@@ -136,11 +136,14 @@ small-batch-response-message =
         [one] Гущыӏэухыгъэ 1-м и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> теӏункӏ.
        *[other] { $totalSentences } гущыӏэухыгъэм и-{ $uploadedSentences }-р зэхэугъоягъ. Щыгъэзыягъэ гущыэухыгъэхэм къытехыным пае <downloadLink>мыщ</downloadLink> теӏункӏ.
     }
+small-batch-sentences-rule-1 = гъозэрышӏэхэм яӀахьэ щыщэу «Сыд гущыӏэухыгъэха хэзгъэхъон слъэкӏыщтхэр?» зыфиорэм тет
 small-batch-sentences-rule-2 = Сатыр пэпчъ зы гущыӏэухыгъэ хэтх
 small-batch-sentences-rule-3 = «Enter» е «Return»-ым зэ теӏункӏи зы сатыркӏэ гущыӏэухыгъэхэр гощ
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
 small-batch-sentences-rule-5 = Зэкӏэ гущыӏэухыгъэхэр зы темэкӏэ хъун фаех
 small-batch-sentences-rule-6 = Зэкӏэ гущыӏэухыгъэхэр зэфэдэ къыхэхыгъэ тхыгъэмкӏэ хъун фаех
+# menu item
+add-sentences = Гущыӏэухыгъэхэр хэгъахъу
 
 ## MENU ITEM TOOLTIPS
 
