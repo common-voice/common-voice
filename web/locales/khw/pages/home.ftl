@@ -73,23 +73,23 @@ read-more-about = اسپہ متعلقہ صفحہ بی خور دی راوے
 
 ## NAV ITEMS
 
-answer-questions = سوالان جواب دیت<small> شاو گویان</small>
-review-transcriptions = نویشیروان وا لوڑے <small> شاو گویان</small>
-add-questions = سوال شامل کو <small> شاو گویان</small>
-transcribe-audio = آوازو نویشیکا غیراوے<small> شاو گویان</small>
-press-and-stories = اخبار شیلوغ
+answer-questions = سوالان جواب دیت<small> (شاو گویان)</small>
+review-transcriptions = نویشیروان وا لوڑے <small> (شاو گویان)</small>
+add-questions = سوال شامل کو <small> (شاو گویان)</small>
+transcribe-audio = آوازو نویشیکا غیراوے<small> (شاو گویان)</small>
+press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا زبان
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = حصہ داری، اخبار، شیلوغ، کمیونیٹی وا زبان
+about-menu-tooltip = حصہ داری، اخبار، مضمون، کمیونیٹی وا زبان
 partnerships-menu-item-tooltip = اسپہ سون حصہ دار بوس
-press-and-stories-menu-item-tooltip = اسپہ بلاکو لوڑے یا اسپہ بارا نویشے
+press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نویشے
 community-and-languages-menu-item-tooltip = کمیونیٹیو اوچے زبانان وا ای قسمہ ہوازان مشکے
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
-partnerships-menu-item-aria-label = کمان وائسو سون حصہ دار بیکو بارا ݯیھے
+partnerships-menu-item-aria-label = کمان وائسو سون حصہ دار بیکو بارا ݯیݯھے
 press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
-community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹان وا زبانان کی مدد کویان تیتان لوڑے
+community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹان وا زبانان کی مدد کویان تیتان پتہ کو
