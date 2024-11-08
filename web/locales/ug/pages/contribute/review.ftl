@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = بەك ئالدىراقسانلىق قىلم�
 sc-redirect-page-title = بىز بەزى چوڭ ئۆزگەرتىشلەرنى ئېلىپ بېرىۋاتىمىز
 sc-redirect-page-subtitle-1 = جۈملە يىغقۇچ Common Voice سۇپىسىغا يۆتكىلىۋاتىدۇ. سىز ھازىر بىر جۈملە <writeURL>يېزىپ</writeURL> ياكى بىر جۈملە <reviewURL>تەكشۈرۈپ</reviewURL> ئۇنى Common Voice قا يوللىيالايسىز.
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> ياكى <emailLink>ئېلخەت</emailLink> ئارقىلىق بىزدىن سوئال سوراڭ.
+# menu item
+review-sentences = جۈملىلەرنى تەستىقلاش

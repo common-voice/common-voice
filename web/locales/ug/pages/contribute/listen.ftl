@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = ئىشلەتكۈچى يوللىغان 
 
 listen-contribute-menu-aria-label = تاللانما تىزىملىكنى تىڭشايدۇ
 validate-readings-menu-item-aria-label = جامائەت ئەزاسى يوللىغان ئوقۇشنى دەلىللەيدۇ
+review-transcriptions-menu-item-aria-label = ئۈنگە ئېلىنغان جۈملىنىڭ يېزىق خاتىرىسىنىڭ توغرىلىقىنى تەكشۈرىدۇ

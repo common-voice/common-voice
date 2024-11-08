@@ -60,3 +60,16 @@ already-have-an-account = ھېساباتىڭىز بارمۇ؟ <login>تىزىم�
 create-profile-button = تەرجىمىھال قۇر
 # IMAGE TAGS
 img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
+# menu item
+read-sentences = جۈملە ئوقۇ
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جۈملە ئوقۇپ، سوئالغا جاۋاب بېرىدۇ
+read-sentences-menu-item-tooltip = تىلىڭىزدا ئوقۇغان جۈملىنى ئۆزىڭىز خاتىرىلەيسىز
+answer-questions-menu-item-tooltip = تىلىڭىزدا سوئالغا جاۋاب بېرىپ ھەمدە  ئەسكەرتىپ ئۆزى ئۈن خاتىرىلەيدۇ
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = تاللانما تىزىملىكنى ئوقۇيدۇ
+read-sentences-menu-item-aria-label = جامائەت يوللىغان ھەر خىل تىلدىكى جۈملىنى ئوقۇيدۇ
