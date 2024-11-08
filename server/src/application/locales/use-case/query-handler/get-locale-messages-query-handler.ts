@@ -19,9 +19,11 @@ export const getLocaleMessagesQueryHandler = (
     A.some(name => name === query.locale)
   )
 
+  const locale = doesLocaleExist ? query.locale : 'en'
+
   return pipe(
     collectFilesWithExtension(
-      path.join(LOCALES_PATH, doesLocaleExist ? query.locale : 'en'),
+      path.join(LOCALES_PATH, query.project, locale),
       '.ftl'
     ),
     IO.chain(readAndConcatFiles)
