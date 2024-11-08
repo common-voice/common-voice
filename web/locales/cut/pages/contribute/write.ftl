@@ -84,6 +84,16 @@ maximum-file-size = Tndube kubii ii kaka: Ndikuu u'u MB
 what-needs-to-be-in-file = ¿De'e kaka sne'e yi'i?
 what-needs-to-be-in-file-explanation = Ndikchidde na kaka yi'nno. Nwenenos ndodo se fnuu mu'une bee du'us yi'i (o ndetes bee du'us yi'ine namnane teyunni tomene kugbi fnuu mu'u) nome nwenenos bakchii ndodo se fnuu mu'u naa koo tomene kugbi kuee inña. Ndodo se fnuu mu'une ndo ndikchi o ntinñu segundono ne'enos se kuee inña nwenones naa, nwenenos bakchii kugbi yi'i inña.
 upload-progress-text = Ma iynnuu...
+sc-bulk-submit-confirm = Ndodo se iynnuu mu'une tndubee inña yi'i yabaku se iyndeya dbakunee iyndikchiya a ma'a dbeno se iynnuu mu'u naa koo.
+bulk-upload-success-toast = Ndee ndodo a iynuu mu'u
+bulk-upload-failed-toast = Nwe ne'e fnuu ndodo, dikuitude.
+bulk-submission-success-header = ¡Yondibkuede ndoko ndodo se iynuu mu'u  naa koo!
+bulk-submission-success-subheader = ¡Ytanede a Common Voice tomen kugbi ubi ubi fnuu ndodo dbaku mu'u!
+upload-more-btn-text = ¿Ne'edese fnuuka ndodo mu'u naa koo?
+file-invalid-type = Kakakun nwe ndebe
+file-too-large = Tete chete kakaku
+file-too-small = Tet lin kaka kuu
+too-many-files = Tet ndee kakaa
 
 ## SMALL BATCH SUBMISSION
 
