@@ -50,3 +50,10 @@ data-download-yes = آں
 data-download-deny = نی
 data-other-goto = یت کی{ $name }
 data-other-download = ڈیٹا ڈوان لوڈ  کُرے
+data-bundle-button = ڈیٹا سیٹ تہ بنڈل ڈوان لوڈ کُرے
+release-version = ورژن
+dataset-date = تاریخ
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = گٹ وٹ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = امونہ کاڻ تہ ڈیٹا سیٹ نم ڈاون لوڈ کُرا
