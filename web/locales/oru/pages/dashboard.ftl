@@ -35,7 +35,11 @@ easy-difficulty = اسان
 average-difficulty = میانۀ
 difficult-difficulty = مشکِل
 pro-difficulty = پرو
-lose-goal-progress-warning = ته ګول اېډټ کؤ
+lose-goal-progress-warning = ته ګول ته اېډټ کؤ په وختت بُو ا موجودۀ مخکی څېک ګۀ حبطه کېک سَۀ
+want-to-continue = تُو وه بُو جاري سېنی؟
+finish-editing = اول ا اېډیټنګ ختُم کَۀ؟
+lose-changes-warning = ته پېری ا وتک وې مطلب او ݭیوک که ا تبدیلئې دی که ا څېن داکِن، افئ سُو ضائع سېن
+build-custom-goal = کسټم ګول يې جوړ کَۀ
 
 ## Goals
 
