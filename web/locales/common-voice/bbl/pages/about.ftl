@@ -62,6 +62,7 @@ about-playbook-how-add-language-translating-heading = საიტ თარგ�
 about-playbook-how-add-language-translating-content-1 = გიბათ თხე́ მითითებბი, მოჰ̦ დეწ ჴმა́რბადან Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = თა́რგმნოდანაჲნო̆ ათხ ჴმა́რბადოთხ ხელსაწყო̆ <pontoonLink> Pontoon </pontoonLink> ́წეშ. Pontoon-მაქ დუჴ მატტიშ და, მა́ შარი́ჼ ცო ლახმაჲკჩე შუჼ, მაკ შუჼ <pontoonRequestLink>, დაკლე́ვადოლუჲში̆ მოტტ ლა́ტბან</pontoonRequestLink>. ჴენო̆ Common Voice პროექტე შუჼ მოტტ ლა́ტბანაჲნო̆<githubRepoLink> ლავათ თხო́გო̆ GitHub-მაქ</githubRepoLink>. <localizationFragment> უფრ საბუხ  თა́რგმანეხ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = წინადა́დბი ვაშა́რ ჲარ (შეგროვბადჲარ)
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> გიბათ თხეჼ მითითბი, მოჰ̦ ჲეწი́შ ჴმა́რბადჲაჼ წინა́დადბი გრო́ვბადჲუჲნი̆ </sentenceCollectorVideo>
 
 ## How does localization work
 
