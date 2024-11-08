@@ -62,3 +62,6 @@ no-information-available = هېڅ معلومات دی نک اِن
 dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
+donate-modal-message = ترتو ا ډېټا سېت بُو ډا،ن لوډ کېک سَۀ
+dataset-donate-modal-heading = تُو کی يې پته بُک؟
+donate-modal-explanation-1 = ته ډېټآ سېت ا ساتؤ دی بُو ته څان تقریباً دس لکهـ ډالر زَيي او او پلېټفارم دی بو 100سُو لاسته ݫات ته زبنی کمیونېټي پولی کوک بُو که پۀ زر انحصار کَوِن ماخ بُو که څه کيېن
