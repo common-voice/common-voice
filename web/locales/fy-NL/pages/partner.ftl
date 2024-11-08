@@ -16,3 +16,5 @@ partnerships-small-business-description = Wy sykje altyd gegevenskonsuminten oer
 partnerships-corporates-header = Grutskalige bedriuwen en platfoarmbedriuwen
 partnerships-corporates-description = As jo mear prate wolle oer de gegevensset, mei ynvestearje wolle yn plande platfoarmútwreidingen of sykje nei gearwurkingsmooglikheden, <emailFragment>lit dan in berjocht efter.</emailFragment>
 partnerships-our-partners = Us partners
+# menu item
+partners = Partners
