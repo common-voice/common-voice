@@ -46,6 +46,7 @@ dataset-metadata-sex = لگعین
 dataset-metadata-age = عمر
 donate-modal-message = تاں ڈیٹا سیٹ ڈاون لوڈ بیاں
 dataset-donate-modal-heading = توکی پتہ دروئی
+data-download-singleword-title = ایک لفظ ٹارگٹ سگمنٹ ڈاون لوڈ کُرا
 data-download-yes = آں
 data-download-deny = نی
 data-other-goto = یت کی{ $name }
