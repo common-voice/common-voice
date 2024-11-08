@@ -138,6 +138,10 @@ small-batch-response-message =
        *[other] { $uploadedSentences } ته{ $totalSentences } جمع جملي <downloadLink> دۀ </downloadLink> که ا رد جملي ډاؤن لوډ سېن
     }
 small-batch-sentences-rule-1 = بئ هدایات زر غمل کَۀ، که ګده وه لیکيېک هۀ که ” که ا څېن جملي ل بُو ګډ اېنچِم؟”
+small-batch-sentences-rule-2 = هر لیکه نر يې ݭيې جملۀ بکر هۀ
+small-batch-sentences-rule-3 = ا جمله بُو ته Enter په ځوک دیو ځاکه اېنچی یا که سۀ وار واپسي يې کی
+small-batch-sentences-rule-4 = 1,000 توݭکئے جملي دی ګډ کَۀ
+small-batch-sentences-rule-5 = اره جملي ته سۀ ډومېن پکر هِن
 
 ## MENU ITEM TOOLTIPS
 
