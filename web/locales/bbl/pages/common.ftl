@@ -7,6 +7,7 @@
 aa = აფარულ
 ab = აფხაზურ
 abb = ბანკოჼ
+ace = აჩეჰი-მოტტ
 ady = ადიღბაჼ მოტტ
 af = აფრიკაანს
 am = ამჰარულ მოტტ
@@ -287,3 +288,5 @@ donate-banner-cta-explanation = ყო́ველშარე მილვაჼ
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>CV ჴმა́რბადუჲა́</mark><br/><mark>ჰ̦ე კვლევა́ხ?
 languages-donate-banner-cta-explanation = Common Voice ფინა́ნსბალა ფლო́ქოღ ლა́ტრივაჲ, საქველმოქმე́დო̆ ტათბუვა́ჲ. თხონა́ჲნო̆ ზორა́ჲში̆ ღოსხე́თლაჲნი̆  და მეცნიერიციჼ, ჴენჴენაჸ საზო́გადოებიცი-ნე́  ეჴ და́რგუჼ ჴე́თნიშიციჼ ცჰ̦ა́ღ ქესადალარ. ბაყეჸ და, Common Voice უფასო̆ და, მა, მომსა́ხურებ ღაზარჲაჼ ნე́ მონაცემი ჩუ განლა́გბადჲაჼ ხა́რჯი ჲე́ჴრელო ლა́ტარ ზორა́ჲში̆ გამოდგო́მალა თხოჼ
+localization-select =
+    .label = მოტტ/(არეალ) ჰ̦ალო̆ ჩა́ვარბებათ
