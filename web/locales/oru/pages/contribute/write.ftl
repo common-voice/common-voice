@@ -70,6 +70,9 @@ sentence-variant-select-multiple-variants = عام زبان/ مختلف قسمی
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپ لوډ <icon> پبلک ډومېن جمله </icon>
+sc-bulk-upload-instruction = ا فائل دۀ کی دِګېون<uploadButton> اپ لوډ پاره وه کلِک کَۀ
+sc-bulk-upload-instruction-drop = اپ لوډ پاره وه دۀ ژون
+bulk-upload-additional-information = که ګُده دی کُوتُو ګیرډ معلومات بېن ته پۀ فائل بارۀ نر او په پېڅه لِنک مېلاؤ کَۀ <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
