@@ -69,6 +69,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = უფრო �
 ## How does localization work
 
 about-playbook-how-localize = მოჰ̦ დეწ საიტ თა́რგმნოდაჼ?
+about-playbook-how-localize-content-1 = Common Voice-ეჼ საიტ <strong><strong>თა́რგმნადანაჲნო̆ ჴმა́რბალა </strong>Pontoon</strong>.
 
 ## How to add sentences
 
