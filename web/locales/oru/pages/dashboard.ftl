@@ -116,6 +116,16 @@ activity-needed-calculation-plural =
 how-many-per-day = څُون کلِپ ریوزانۀ؟
 how-many-a-week = زبردست۔ څُون کلِپ ریوزانۀ؟
 which-goal-type = تُو بُو غؤس که ژغ، امر، یا ا دُوګډ؟
+receiving-emails-info = پېری تُو ته پۀ قابل هې که ای مېل دی وصول اېنچی سکه ته ګول ا یاد دهاني، ترمن ا مُخکی څېک ا  مشترک آواز بارۀ نر خطی او خبري
+not-receiving-emails-info = پېری تُو تیار هې که<bold> ٬ک </bold> دی ای مېل وصولېوی سکه ته مقصد پناره یاد دهاني، ترمُن مخکی څېک ا رپورټ، ته خبري خطی مشترک آواز پناره
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } کلِپ
+       *[other] { $count } کلپی
+    }
+help-share-goal = ته بيے آوزی دشؤ پناره ترماخ مدد کوئ، ا مقصد شریک کوئ
+confirm-goal = ا مقصد تصدیق کئ
+goal-interval-weekly = هفته وار
 
 ## Goals
 
