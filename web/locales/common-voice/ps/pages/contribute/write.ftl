@@ -101,6 +101,12 @@ too-many-files = ډیری فایلونه
 small-batch-instruction = د عامه ډومین ډېري جملې اضافه کړئ
 multiple-sentences-error = تاسو نشئ کولی د یوې سپارښتنې لپاره د يوې نه ډیرې جملې اضافه کړئ
 exceeds-small-batch-limit-error = نشي کولی له 1000 څخه زیات جملې وړاندې کړي
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلی یاست. مهرباني وکړئ د بلې جملې وړاندې کولو دمخه 1 دقیقې انتظار وکړئ. ستاسو د صبر لپاره مننه!
+       *[other] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلی یاست. مهرباني وکړئ د بلې جملې وړاندې کولو دمخه { $retryLimit } دقیقو انتظار وکړئ. ستاسو د صبر لپاره مننه!
+    }
 
 ## MENU ITEM TOOLTIPS
 
