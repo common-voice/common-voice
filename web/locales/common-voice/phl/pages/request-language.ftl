@@ -6,6 +6,9 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Languages ​​صفحہ</languagesPageLink>۔
     اگر نئینو ہینتہ، انو فارم پُر تھوئی او  بے <strong>تُسام آک اسکون ای میل امزیایہ۔
     تیݨی زبان  ترتیب دئنی طریقہ منوئی</strong>۔
+request-language-explanation-2 =
+    بے <strong>تیݨی کمیونٹی مینیجرہ تھے منییہ۔
+    کی تسی دلچسپی ہنی</strong>، تاکی سے تسام تھے گہ دائی بھون اضافی مدد یا معلومات کی تسام تھے ضرورت بھی۔
 request-language-form-email =
     .label = تیݨی ای میلی  پتہ
 request-language-form-info =
