@@ -79,6 +79,11 @@ try-upload-again-md = Dikuitude tomene kugbi fnuu mu'u naa koo
 select-file = Tndanude ama kaka
 select-file-mobile = Tndanude ama kaka tomene fnuu mu'u naa koo
 accepted-files = Kakase kugbii fnuu mu'u: makue .tsv
+minimum-sentences = Tndube ndodo se duu naa kaka: Ama mil
+maximum-file-size = Tndube kubii ii kaka: Ndikuu u'u MB
+what-needs-to-be-in-file = ¿De'e kaka sne'e yi'i?
+what-needs-to-be-in-file-explanation = Ndikchidde na kaka yi'nno. Nwenenos ndodo se fnuu mu'une bee du'us yi'i (o ndetes bee du'us yi'ine namnane teyunni tomene kugbi fnuu mu'u) nome nwenenos bakchii ndodo se fnuu mu'u naa koo tomene kugbi kuee inña. Ndodo se fnuu mu'une ndo ndikchi o ntinñu segundono ne'enos se kuee inña nwenones naa, nwenenos bakchii kugbi yi'i inña.
+upload-progress-text = Ma iynnuu...
 
 ## SMALL BATCH SUBMISSION
 
