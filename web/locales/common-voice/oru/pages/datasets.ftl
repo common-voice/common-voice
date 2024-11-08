@@ -49,3 +49,16 @@ data-other-tatoeba-description = ټاټېیوبا ته جملي، ترجمي ا�
 your-feedback = ترتُو يې څۀ خیال هۀ که ماخ سُو ته مشترک آواز ا ډېټا سېټ څا بهتر جوړېن؟ څوئ که ا سۀ ا بی پا خبُره زر ژغيېن
 go-discourse = بحث مباحثه کی چیو
 missing-language = تُو بُو ا خوئ زبان ډېټا سېټ نر ديېک اېنچی؟
+go-languages-page = چیو ته زبنی صحفه کی
+ready-to-validate = تیارم که ته جملي توثیق يې کيېن
+more = بيې
+close = بند
+download = ډاؤن لوډ
+dataset-version = ورژن
+sha256-checksum-copied = SHA256 جېکسم کوپي ݭیوک
+sha256-checksum-copied-error = SHA256 Checksum کوپی کېک فېل ݭیوک
+clipboard-not-supported = ا کلِپ بورډه بُو نک سپرټ کوی
+no-information-available = هېڅ معلومات دی نک اِن
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
