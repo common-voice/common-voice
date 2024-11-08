@@ -87,9 +87,18 @@ upload-progress-text = اپ لوډ جاري هۀ
 sc-bulk-submit-confirm = ته پۀ يې بو از تائید کېم که ائ جملي ته <wikipediaLink> پبلک ډومېن نر یِن او کومُن ګیرډ ته پئ ته اپ لوډ کؤ اجازت هۀ
 bulk-upload-success-toast = ګرانه جملۀ اپ لوډ
 bulk-upload-failed-toast = اپ لوډ ناکامیاب ، بيې وه کوشِش کَۀ
+bulk-submission-success-header = مهرباني ته پۀ غټ پېشکش که جمع ت دوک
+bulk-submission-success-subheader = تُو بو ته مشترک آواز مدد کېوی فۀ مقصد نر،که ریوزانه يې بو ݭيے جمله نیووه نشر کوی
+upload-more-btn-text = بيے جملي دی اپ لوډ کَۀ
+file-invalid-type = نک پکر فائل
+file-too-large = ا فائل يې زُت غُټ هۀ
+file-too-small = ا فائل يې زُب زری هۀ
+too-many-files = زُت ݫات فئلی
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = </icon> مختلف ته پبلک ډومېن جملي
 
 ## MENU ITEM TOOLTIPS
 
