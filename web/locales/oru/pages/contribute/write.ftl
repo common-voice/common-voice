@@ -23,6 +23,7 @@ new-sentence-rule-7 = مناسب خوالي دی سو شامېلېوی
 new-sentence-rule-8 = مثالي او عوامي خبُرئ (سا که ا جملۀ په اسني سره غوېک سَۀ)
 login-instruction-multiple-sentences = <loginLink> لاګ اِن </loginLink> یا <loginLink> سائن اپ </loginLink> ته مختلف قسُم جملي ا ګډؤ
 how-to-cite = خوالۀ ليې څا ڒوم؟
+how-to-cite-explanation-bold = ته خوئ الفاظ ته حوالۀ پاره ليې ته URL لنک ڒوئ یا ته کتاب ا نام لیکئ
 
 ## BULK SUBMISSION 
 
