@@ -82,6 +82,11 @@ accepted-files = منظور سُک ته فائل نمونۀ:۔ ټ س و صرف
 minimum-sentences = سۀ فائل نر کېم لاست کېم جملي: 1000
 maximum-file-size = ته سۀ فائل ا سائز: 25 MB
 what-needs-to-be-in-file = ترمُن فائل نر يې څۀ پکر هۀ؟
+what-needs-to-be-in-file-explanation = ترماخ ا <templateFileLink> ټېمپلېټ جیر کئ </templateFileLink> ترتو ا جمله کوپی رائټ لاسته آزاد پکر هۀ (CC0 یا يې ته جمع کوُونئ ا خوئ کر ته څېن ال يې که اجازت مېلاؤ سُک بَۀ ) او صفا، ګرامري لحاظ سره ټهیک او ته غوېڅن پاره اسان۔ ا جمع سُک جملۀ دی که په غوېڅن 10ـ15 سیکینټ وری او ته هندسي، زاتي نام، او ته خاص خرفی ا استعمال يې نک پکر هۀ۔
+upload-progress-text = اپ لوډ جاري هۀ
+sc-bulk-submit-confirm = ته پۀ يې بو از تائید کېم که ائ جملي ته <wikipediaLink> پبلک ډومېن نر یِن او کومُن ګیرډ ته پئ ته اپ لوډ کؤ اجازت هۀ
+bulk-upload-success-toast = ګرانه جملۀ اپ لوډ
+bulk-upload-failed-toast = اپ لوډ ناکامیاب ، بيې وه کوشِش کَۀ
 
 ## SMALL BATCH SUBMISSION
 
