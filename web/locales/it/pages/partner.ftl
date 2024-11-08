@@ -16,3 +16,5 @@ partnerships-small-business-description = Per noi è importante scoprire le esig
 partnerships-corporates-header = Società di grandi dimensioni e fornitori di piattaforme
 partnerships-corporates-description = Se vuoi discutere del set di dati, contribuire all’investimento nelle espansioni previste della piattaforma, oppure cerchi opportunità di collaborazione, <emailFragment>inviaci un messaggio</emailFragment>.
 partnerships-our-partners = I nostri partner
+# menu item
+partners = Partner

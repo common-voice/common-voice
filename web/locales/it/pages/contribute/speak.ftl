@@ -60,3 +60,17 @@ already-have-an-account = Hai già un account? <login>Accedi</login>
 create-profile-button = Crea un profilo
 # IMAGE TAGS
 img-alt-success-checkmark = spunta di successo
+# menu item
+read-sentences = Leggi frasi
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Leggi frasi, rispondi alle domande
+read-sentences-menu-item-tooltip = Registrati mentre leggi frasi nella tua lingua
+answer-questions-menu-item-tooltip = Registrati mentre rispondi a domande e richieste nella tua lingua
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Menu opzioni vocali
+read-sentences-menu-item-aria-label = Leggi le frasi inviate dalla comunità in diverse lingue
+answer-questions-menu-item-aria-label = Invia una nuova domanda per consentire alla comunità di leggerla e rispondere

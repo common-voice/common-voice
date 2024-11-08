@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Stai andando troppo veloce. Prenditi tempo pe
 sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
 sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
 sc-redirect-page-subtitle-2 = Ponici domande su <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o tramite <emailLink>email</emailLink>.
+# menu item
+review-sentences = Convalida frasi

@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Hai finito di convalidare le registrazioni?
 listen-abort-cancel = Continua la convalida
 listen-abort-confirm = Termina la convalida
+# Menu item
+validate-readings = Convalida letture
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Convalida letture, verifica trascrizioni
+validate-readings-menu-item-tooltip = Convalida le letture registrate dall’utente nella tua lingua
+review-transcriptions-menu-item-tooltip = Convalida le trascrizioni inviate dagli utenti nella tua lingua
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Menu opzioni di ascolto
+validate-readings-menu-item-aria-label = Convalida le letture inviate dai membri della comunità
+review-transcriptions-menu-item-aria-label = Convalida le trascrizioni delle frasi registrate per verificarne la correttezza

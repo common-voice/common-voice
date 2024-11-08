@@ -135,3 +135,21 @@ small-batch-sentences-rule-3 = Separa le frasi sulla stessa riga premendo una vo
 small-batch-sentences-rule-4 = Aggiungi fino a 1000 frasi
 small-batch-sentences-rule-5 = Tutte le frasi devono appartenere allo stesso dominio
 small-batch-sentences-rule-6 = Tutte le frasi devono avere la stessa citazione
+# menu item
+add-sentences = Aggiungi frasi
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Aggiungi e convalida frasi, aggiungi domande, trascrivi audio
+add-sentences-menu-item-tooltip = Aggiungi frasi nella tua lingua
+review-sentences-menu-item-tooltip = Convalida frasi nella tua lingua
+add-questions-menu-item-tooltip = Aggiungi domande nella tua lingua
+transcribe-audio-menu-item-tooltip = Trascrivi registrazioni audio nella tua lingua
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Menu opzioni di scrittura
+add-sentences-menu-item-aria-label = Aggiungi nuove frasi che possono essere lette dalla comunità
+review-sentences-menu-item-aria-label = Convalida le frasi esistenti inviate dalla comunità
+add-questions-menu-item-aria-label = Invia nuove domande per consentire alla comunità di leggerle e rispondere
+transcribe-audio-menu-item-aria-label = Trascrivi le registrazioni audio
