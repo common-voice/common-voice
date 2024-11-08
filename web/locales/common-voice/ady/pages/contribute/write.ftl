@@ -71,6 +71,8 @@ sentence-variant-select-multiple-variants = Пстэури бзэ / диалек
 sc-bulk-upload-header = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэхэр тегъэуцу
 sc-bulk-upload-instruction = Уифайл мыщ щылъэшъу е <uploadButton>тегъэуцон</uploadButton>ым теӏункӏ
 sc-bulk-upload-instruction-drop = Тегъэуцоным пае файлыр мыщ щытӏупщ
+bulk-upload-additional-information = Мы файлым ехьылӏэгъэ едзэкӏыгъэ къэбар къэптынэу уфаемэ къытлъыӏэс<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Мы файлым ехьылӏэгъэ едзэкӏыгъэ къэбар къэптынэу уфаемэ, шаблоным хэмыгъэхьагъэу, къытлъыӏэс<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Уифайл мыщ щыплъэшъузэ джыри зэ уплъэкӏу
 try-upload-again-md = Джыри зэ тебгъэуцон плъэкӏыщтмэ еплъ
 select-file = Файл къыхэх
@@ -139,3 +141,9 @@ small-batch-sentences-rule-3 = «Enter» е «Return»-ым зэ теӏункӏ�
 small-batch-sentences-rule-4 = Гущыӏэухыгъэ 1,000-м нэс хэгъахъу
 small-batch-sentences-rule-5 = Зэкӏэ гущыӏэухыгъэхэр зы темэкӏэ хъун фаех
 small-batch-sentences-rule-6 = Зэкӏэ гущыӏэухыгъэхэр зэфэдэ къыхэхыгъэ тхыгъэмкӏэ хъун фаех
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
