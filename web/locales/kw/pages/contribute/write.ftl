@@ -5,11 +5,14 @@ write-instruction = Keworrewgh <icon></icon> lavar arlotteth poblek
 write-page-subtitle = Lavarow kevres omma a vydh keworrys dhe sel data leshes cc-0 kavadow yn poblek.
 sentence =
     .label = Lavar
+sentence-input-placeholder = Keworrewgh agas lavar arlotteth poblek omma
+small-batch-sentence-input-placeholder = Keworrewgh agas lavarow arlotteth poblek omma
 citation-input-placeholder = Destewgh devedhyans agas lavar (rekwirys)
 citation =
     .label = Devyn
 sc-write-submit-confirm = My a afydh bos an lavar ma y'n <wikipediaLink>arlotteth poblek</wikipediaLink> ha bos kummyas dhymm a'y ughkarga.
 sc-review-write-title = Py lavarow a allav vy aga heworra?
+sc-review-small-batch-title = Fatel geworrir lies lavar
 new-sentence-rule-1 = <noCopyright>Heb fronansow gwirbryntyans</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Le es 15 ger pub lavar
 new-sentence-rule-3 = Gwrewgh devnydh a ramasek kewar
@@ -18,6 +21,7 @@ new-sentence-rule-5 = Heb rivow po lytherennow arbennik
 new-sentence-rule-6 = Heb lytherennow estren
 new-sentence-rule-7 = Keworrewgh destans gwiw
 new-sentence-rule-8 = Y'n gwella kas, naturel ha keskewsek (redya an lavar a dal bos es)
+login-instruction-multiple-sentences = <loginLink>Omgelmewgh</loginLink> po <loginLink>omjunyewgh</loginLink> rag keworra lies lavar
 how-to-cite = Fatel wrav vy desta?
 how-to-cite-explanation-bold = Destewgh gans kevren URL po hanow leun an oberen.
 how-to-cite-explanation = Mars yns agas geryow agas honan, leverewgh <italicizedText>"Destans Ow Honan"</italicizedText> hepken. Yma edhom dhyn a wodhvos ple hwrussowgh kavos an synsas ma may hyllyn checkya y vos y'n arlotteth poblek ha nag eus fronansow gwirbryntyans warnodho. Rag pella kedhlow a-dro dhe destans mirewgh orth agan <guidelinesLink>folen Gidlinennow</guidelinesLink>.
@@ -27,8 +31,11 @@ add-sentence-success = 1 lavar kuntellys
 add-sentence-error = Gwall ha hwi ow keworra lavar
 required-field = Lenwewgh an park ma, mar pleg.
 single-sentence-submission = Profyans a Unn Lavar
+small-batch-sentence-submission = Profyans lavar bagasik byghan
 bulk-sentence-submission = Profyans a Lies Lavar
 single-sentence = Unn Lavar
+small-batch-sentence = Bagasik byghan
+bulk-sentence = Bagasik bras
 sentence-domain-combobox-label = Arlotteth Lavar
 sentence-domain-select-placeholder = Dewisewgh bys dhe deyr arlotteth (a-dhewis)
 # Sentence Domain dropdown option
@@ -89,4 +96,10 @@ file-too-small = Re vyghan yw an restren
 too-many-files = Re a restrennow
 
 ## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 
