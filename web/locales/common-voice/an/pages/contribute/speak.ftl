@@ -1,7 +1,7 @@
 speak = Charrar
 speak-now = Charra agora
 speak-subtitle = Dona la tuya voz
-record-cta = Empecipiar a gravar
+record-cta = Grava
 record-platform-not-supported = Lo sentimos, pero la tuya plataforma actualment no ye suportada.
 record-platform-not-supported-desktop = En ordinadors d'escritorio, puez descargar la zaguera versión:
 record-platform-not-supported-ios-non-safari = En iOS per favor contina en Safari pa activar las gravacions…
