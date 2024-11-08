@@ -12,9 +12,12 @@ listen-loading-error =
 listen-abort-title = Тетхагъэхэм яуплъэкӏун ухыгъа?
 listen-abort-cancel = Уплъэкӏуныр лъыгъэкӏуат
 listen-abort-confirm = Уплъэкӏуныр къэух
+# Menu item
+validate-readings = Еджэнырхэр къэгъэшъыпкъэн
 
 ## MENU ITEM TOOLTIPS
 
+validate-readings-menu-item-tooltip = Убзэкӏэ тетхагъэм гэфедакӏохэр зэреджэхэрэр къэгъэшъыпкъэжь
 review-transcriptions-menu-item-tooltip = Гущыӏэухыгъэхэм убзэкӏэ укъяджэзэ умакъэ тетх
 
 ## MENU ITEM ARIA LABELS
