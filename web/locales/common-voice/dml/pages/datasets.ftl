@@ -59,9 +59,12 @@ data-other-title = ورے کاڻ تہ ڈیٹا سیٹ نم
 data-other-goto = ترا کی یا{ $name }
 data-other-download = ڈیٹا ڈوان لوڈ  کُرے
 data-bundle-button = ڈیٹا سیٹ تہ بنڈل ڈوان لوڈ کُرے
+data-bundle-description = عام کاڻ تہ ڈیٹا  آں پوچو زکر کُریسن تمام  ورے تمام ڈیٹا سیٹ
 release-version = ورژن
 dataset-date = تاریخ
 license = لائسنس<licenseLink>{ $license }</licenseLink>
 license-mixed = گٹ وٹ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = امونہ کاڻ تہ ڈیٹا سیٹ نم ڈاون لوڈ کُرا
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = عام کاڻ تہ ڈیٹا کی ویبیاں کی اختیارات ڈاون لوڈ کُرا

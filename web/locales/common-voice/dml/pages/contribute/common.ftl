@@ -100,3 +100,5 @@ contribution-criteria-link = شراکت تہ معیار زانا
 contribution-criteria-page-title = شراکت تہ معیار
 contribution-for-example = مثل تہ طورہ
 contribution-misreadings-title = غلط مترن
+contribution-misreadings-description-extended-list-1 = پھوس بئیسن <strong>'A'</strong> or <strong>'The'</strong> ریکارڈنگ تہ شروعہ
+contribution-misreadings-description-extended-list-2 = پھو بئیسن <strong>'s'</strong> لفظ تہ آخرہ
