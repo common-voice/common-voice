@@ -51,12 +51,32 @@ report-grammar-or-spelling-detail = یہ جملہ گرائمر آں املا ت�
 report-different-language = مختلف باڜہ
 report-different-language-detail = یہ ایک ورے باڜا لِکیسن درو کیرا باڜہ ائی پرینُم
 report-difficult-pronounce = تلفظ کُرن گرن درو
+report-difficult-pronounce-detail = ئی منو الفاظ آں جملہ نم درو تے تسو مترن یا تلفظ ادا کُرن گرن درو
+report-offensive-speech = جارحانہ تقریر
+report-offensive-speech-detail = یہ کلپہ جارحانہ آں توہین امیز بائی نم درو
+report-other-comment =
+    .placeholder = تبصرہ
+success = کامیابی
+continue = جاری
+report-success = رپورٹ کامیابی ڜا منین گا
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = ریکارڈ / اوئتھن
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = کلپ بھرکی ریکارڈ کُرے
+shortcut-discard-ongoing-recording = ای ایس سی
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ رد کُرے
+shortcut-submit = گیرنکھتن
+shortcut-submit-label = کلپ نم جمع کُرا
 
 ## Listen Shortcuts
 
