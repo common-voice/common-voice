@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = ٹرانسکرائب کنا تھے تھانہ تھ
 learn-how-to-use-transcribe-explanation = بالکل ایتس چونٹہ کھیئو کی ایڑے میشہ منیتو ہنو، بشمول پلیس ہولڈر لوزہ کانچی 'um'، یا 'errr'۔
 learn-how-to-use-transcribe-guidance = انی صفحہ  استعمال تھئنی طریقہ جھانئنی دپارہ <guidanceLink>انیوے</guidanceLink>  کلک تھہ۔
 learn-how-to-use-check-transcript = ٹراسکرائیب کنا تھے چیک تھانہ تھنی ازدہ تھہ
+learn-how-to-use-check-transcript-explanation = ٹرانسکرپشنی  ہر لوز یا غیر لغوی بیتیمی ہاواز تیݨی گرفت کی ہانسیڈیو میشہ گُبا منیتو یا گہ تکرار تھیلی ایس بُٹھے۔
+learn-how-to-use-check-transcript-guidance = انی صفحہ  استعمال تھئنی طریقہ جھانئنی دپارہ <guidanceLink>انیوے</guidanceLink>  کلک تھہ۔
