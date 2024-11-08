@@ -147,6 +147,11 @@ add-sentences = Гущыӏэухыгъэхэр хэгъахъу
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Гущыӏэухыгъэхэр хэгъахъу ыкӏи еплъыжь, упчӏэхэр хэгъахъу, макъэхэм ятранскриптцие къэшӏ
+add-sentences-menu-item-tooltip = Убзэкӏэ гущыӏэухыгъэхэр хэгъахъу
+review-sentences-menu-item-tooltip = Убзэкӏэ гущыӏэухыгъэхэм яплъыжь
+add-questions-menu-item-tooltip = Убзэкӏэ упчӏэхэр хэгъахъу
+transcribe-audio-menu-item-tooltip = Убзэкӏэ мэкъэ тетхагъэхэм ятранскриптцие къэшӏ
 
 ## MENU ITEM ARIA LABELS
 
