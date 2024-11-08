@@ -22,12 +22,14 @@ download-language = ڈاون لوڈ{ $language }
 validated-hours = تصدیق کُریسن گھنٹہ نم
 recorded-hours = ریکاڈ بئیسن گھنٹہ نم
 whats-inside = عام کاڻ تہ ڈیٹا سیٹ منورہ کیہ درو
+want-dataset-update = کیر ائی عام کاڻ تہ ڈیٹاسیٹ تہ نواں ورژن جاری کُرال بُمہ بہ تا ائی اپ ڈیٹ گٹینُمہ۔ امونہ خبر تہ خط سبسکرائب کُرا
 subscribe = سبسکرائب
 get-started-speech = تقریر زانی شروع کُرے
 other-datasets = ورے کاڻ تہ ڈیٹا سیٹ نم
 feedback-q = کیہ رائے درو
 # This indicates that there is no data to display
 no-information = معلومات نی درو
+resource-nemo-info = <githubLink>NVIDIA NeMO</githubLink> درو ایک<docsLink>کولو سورس ٹول کٹ</docsLink>تحقیق کُرالہ کی جدید ترین مُشکُلہ مشتمل AIتیار کُنومہ
 community-playbook = کمیونٹی ساں پلے بُک(لگن تہ کِتب)
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس کی یت
