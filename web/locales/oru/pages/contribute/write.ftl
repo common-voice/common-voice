@@ -131,6 +131,13 @@ add-small-batch-success =
         [one] { $uploadedSentences } که 1 اول جملۀ جمع سُک
        *[other] { $uploadedSentences } که { $totalSentences } جملي جمع سُکِن
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } که 1 جملۀ <downloadLink> دۀ</downloadLink> که ا څېن رد جملي ډاؤن لوډ سېن
+       *[other] { $uploadedSentences } ته{ $totalSentences } جمع جملي <downloadLink> دۀ </downloadLink> که ا رد جملي ډاؤن لوډ سېن
+    }
+small-batch-sentences-rule-1 = بئ هدایات زر غمل کَۀ، که ګده وه لیکيېک هۀ که ” که ا څېن جملي ل بُو ګډ اېنچِم؟”
 
 ## MENU ITEM TOOLTIPS
 
