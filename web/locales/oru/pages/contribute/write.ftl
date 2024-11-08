@@ -113,6 +113,12 @@ rate-limit-toast-message-seconds =
         [one] ته رېټ ای خد ال دی نغوک هې۔ سۀ سیکَټ  نره بيے کوشِش کَۀ
        *[other] ته رېټ ای خد ال دی نغوک هې۔ سیکِنټی { $retryLimit } نره بيے کوشِش کَۀ
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تُو ته پا صفحه ته جمع کؤ حد کی رسيېک هې۔ مهرباني کېون که سۀ میلِټ انتظار کېون پۀ لاسته مُخکی که بيې جملۀ يې پېش کېوی۔ ته صبرت مهرباني
+       *[other] تُو ته پا صفحه ته جمع کؤ حد کی رسيېک هې۔ مهرباني کېون که { $retryLimit } څون میلِټ انتظار کېون پۀ لاسته مُخکی که بيې جملۀ يې پېش کېوی۔ ته صبرت مهرباني
+    }
 
 ## MENU ITEM TOOLTIPS
 
