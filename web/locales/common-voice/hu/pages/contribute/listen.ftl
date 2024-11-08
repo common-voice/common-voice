@@ -12,3 +12,11 @@ listen-loading-error =
 listen-abort-title = Befejezi a klipek ellenőrzését?
 listen-abort-cancel = Ellenőrzés folytatása
 listen-abort-confirm = Ellenőrzés befejezése
+# Menu item
+validate-readings = Felolvasások ellenőrzése
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
