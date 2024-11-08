@@ -163,6 +163,10 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Holyewgh gidlinennow dhyworth "Py lavarow a allav aga heworra?"
 small-batch-sentences-rule-2 = Keworrewgh unn lavar orth an linen
+small-batch-sentences-rule-3 = Diberthewgh lavarow yn unn linen dre waska orth "Entra" po "Dehweles" unweyth
+small-batch-sentences-rule-4 = Keworrewgh bys dhe 1,000 lavar
+small-batch-sentences-rule-5 = Res yw dhe bub lavar bos y’n keth arlotteth
+small-batch-sentences-rule-6 = Res yw dhe bub kavos an an keth devyn
 
 ## MENU ITEM TOOLTIPS
 
