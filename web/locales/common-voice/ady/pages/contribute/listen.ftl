@@ -24,3 +24,4 @@ review-transcriptions-menu-item-tooltip = Гущыӏэухыгъэхэм убз�
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Едэӏун шапхъэхэмкӏэ меню
+validate-readings-menu-item-aria-label = Зэхэщэгъэ купым хэтхэм агъэхьыгъэ еджэнхэр къэгъэшъыпкъэн
