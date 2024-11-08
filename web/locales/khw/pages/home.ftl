@@ -70,3 +70,20 @@ help-contribute = تو  مختلوف قسما مدد کوریکو بوس۔ پر�
 login-company = { $company } ای میلو سورا لاک ان/سائن ان بوس
 profile-not-required = مدد کوریکو پچین اکاونٹ ضروری نو، اکرچہ ہمو فائدہ بویان، ہے معلوماتو پیچین موڑا لوڑو
 read-more-about = اسپہ متعلقہ صفحہ بی خور دی راوے
+
+## NAV ITEMS
+
+answer-questions = سوالان جواب دیت<small> شاو گویان</small>
+review-transcriptions = نویشیروان وا لوڑے <small> شاو گویان</small>
+add-questions = سوال شامل کو <small> شاو گویان</small>
+transcribe-audio = آوازو نویشیکا غیراوے<small> شاو گویان</small>
+press-and-stories = اخبار شیلوغ
+community-and-languages = کمیونیٹی وا زبان
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = حصہ داری، اخبار، شیلوغ، کمیونیٹی وا زبان
+partnerships-menu-item-tooltip = اسپہ سون حصہ دار بوس
+
+## MENU ITEM ARIA LABELS
+
