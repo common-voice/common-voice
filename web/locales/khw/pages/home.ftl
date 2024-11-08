@@ -84,6 +84,12 @@ community-and-languages = کمیونیٹی وا زبان
 
 about-menu-tooltip = حصہ داری، اخبار، شیلوغ، کمیونیٹی وا زبان
 partnerships-menu-item-tooltip = اسپہ سون حصہ دار بوس
+press-and-stories-menu-item-tooltip = اسپہ بلاکو لوڑے یا اسپہ بارا نویشے
+community-and-languages-menu-item-tooltip = کمیونیٹیو اوچے زبانان وا ای قسمہ ہوازان مشکے
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اختیاراتو لیسٹو بارا
+partnerships-menu-item-aria-label = کمان وائسو سون حصہ دار بیکو بارا ݯیھے
+press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
+community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹان وا زبانان کی مدد کویان تیتان لوڑے

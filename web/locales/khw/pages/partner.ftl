@@ -16,3 +16,5 @@ partnerships-small-business-description = اسپہ ہمیشو پچین معلو�
 partnerships-corporates-header = لوٹ پیمانہ اجتعماعی کمپنی
 partnerships-corporates-description = اگر تو معلوماتان بار کی لوو دیک مݰکیسان، لوٹ کمپنین پیسہ لاگیک کی مݰکیسان یا ای بیتی کوروم کوریک کی مݰکیسان<emailFragment> اسپہ تین مختصر نویشیے۔
 partnerships-our-partners = اسپہ حصہ دار
+# menu item
+partners = حصہ دار
