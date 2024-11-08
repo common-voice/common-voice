@@ -158,3 +158,4 @@ transcribe-audio-menu-item-tooltip = Transcribir gravacions d'audio en o tuyo id
 
 write-contribute-menu-aria-label = Menú d'opcions d'escribir
 add-sentences-menu-item-aria-label = Anyadir nuevas frases pa que la comunidat pueda leyer-las
+review-sentences-menu-item-aria-label = Revisar oracions ninviadas per la comunidat
