@@ -35,6 +35,7 @@ feedback-q = کیہ رائے درو
 # This indicates that there is no data to display
 no-information = معلومات نی درو
 resource-nemo-info = <githubLink>NVIDIA NeMO</githubLink> درو ایک<docsLink>کولو سورس ٹول کٹ</docsLink>تحقیق کُرالہ کی جدید ترین مُشکُلہ مشتمل AIتیار کُنومہ
+resource-deepspeech-info = موزیلا ساں کولو زریہ کاڻ زانال انجن ڈیپ تقریر، تقریر زانال ایپلی کیشن ژوپئیں کُرین بئیبہ۔ مترا امونہ<githubLink>Github جائزہ</githubLink>آں شامل با<discourseLink> ڈیپ تقریر ڈسکورس</discourseLink> متریئں کی تہ کنو کی شروع کُریبہ
 resource-coqui-info = <coquiLink>Coqui</coquiLink> اوپن تقریر ٹیکنالونی تہ پرئی وقف درو۔ مسونہ منصوبہ ابُت ازدہ کُرال SST آں TTS تہ سرچ انجن نم درو
 community-playbook = کمیونٹی ساں پلے بُک(لگن تہ کِتب)
 resource-playbook-info = <playbookLink> مدد گار رہنمائی ویچا</playbookLink> عام کاڻ تہ پورہ سفرہ، لوکل ئزیشن تہ ڈیٹا سہٹ تہ استعمل تلی، امونہ کمیونٹی ملی کنو کُری کنٹکٹ کُری بہ۔
