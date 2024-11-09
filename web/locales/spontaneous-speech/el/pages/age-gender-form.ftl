@@ -7,6 +7,7 @@ country-of-residence-label = Χώρα/Περιοχή διαμονής
 country-of-residence-placeholder =
     .placeholder = Εισαγάγετε τη χώρα/περιοχή διαμονής σας
 why-are-you-asking = Γιατί ρωτάτε;
+thank-you-for-your-information = Σας ευχαριστούμε για τις πληροφορίες σας
 
 ## Gender dropdown
 
