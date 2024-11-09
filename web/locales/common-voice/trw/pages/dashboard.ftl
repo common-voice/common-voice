@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] ایک (مثلاً 1)
-       *[other] دُو (مثلاً 2)
+        [one] ایک (مثلاً 1) کامن وائس سی کامے جیِب می زاتی ہدف سی آوؤ سی کیا گھینٹا می مدد کوا{ $hours }
+       *[other] دُو (مثلاً 2) کامن وائس سی کامے جیِب می زاتی ہدف سی آوؤ سی کیا گھینٹا می مدد کوا{ $hours }
     }
 set-a-goal = مقصد آمن گے تھا
 cant-decide = خا کی فیصلہ نہ کوبھادُو؟
