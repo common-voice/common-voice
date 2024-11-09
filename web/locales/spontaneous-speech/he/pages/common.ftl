@@ -27,6 +27,15 @@ contribute = תרומה
 
 respond-to-prompt = השב להנחיה
 transcribe-audio = תמלול שמע
+check-transcriptions = בדיקת תמלול
 
 ## Not Found Page
 
+not-found-page-header = לא נמצא
+not-found-page-content = הדף שחיפשתם לא נמצא
+# Privacy and Terms checkbox
+accept-privacy-and-terms = אני מסכימ\ה ל<termsLink>תנאים</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> של Common Voice
+en = אנגלית
+fr = צרפתית
+tr = טורקית
+xkl = קניה
