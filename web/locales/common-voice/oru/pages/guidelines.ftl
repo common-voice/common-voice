@@ -83,3 +83,5 @@ adding-sentences-subheader-punctuation = اوقاف
 adding-sentences-subheader-punctuation-explanation = ا خاص نیشنی او ته اوقاف ا شمېلؤ يې پَۀ پکر هۀ که کان ته پئ بغېر ګذارۀ نک سَۀ۔ سکه مبال ا اېپاسټرافی ته انګرېزي ټېکسټ  “don’t” او “we’re” خه استعمالوک سېن خه آ بو ګده ګه نک سَۀ که ا سپېشل سېمبل سکه “@” or “#.” استعمال سېن
 adding-sentences-subheader-special-characters = خاص او خارجي حروف
 adding-sentences-subheader-special-characters-explanation-1 = که ا څېن زبان غوېک فئ نر ا حرفی رواج بون سکه ж يې روسي زبان نر ته الفبې ټیکئ هۀ ته انکرېزي ټېکست نر بو ګده ګه نک استعمالېک سَۀ
+adding-sentences-subheader-special-characters-explanation-2 = ا سۀ زبان دی بو خوئ ته توثیق رولز جوړوی او اضافي ضروریات کان بُو که لوکلائزډ سَۀ۔ کان که ته توثیق خوئ فائل نک بَۀ، ته انکرېزي ا رُول يې پکر هۀ که عمله سَۀ ور
+adding-sentences-subheader-offensive-content = ته غصه ا مواد
