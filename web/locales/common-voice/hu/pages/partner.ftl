@@ -16,3 +16,5 @@ partnerships-small-business-description = Mindig szeretnénk hallani az adatfogy
 partnerships-corporates-header = Nagyvállalatok és platform cégek
 partnerships-corporates-description = Ha többet szeretne beszélni az adatkészletről, szeretne közösen befektetni a tervezett platformbővítésekbe, vagy együttműködési lehetőségeket keres, <emailFragment>írjon nekünk</emailFragment>.
 partnerships-our-partners = Partnereink
+# menu item
+partners = Partnerek

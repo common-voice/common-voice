@@ -6,6 +6,10 @@ wall-of-text = A Common Voice egy második platformot is elindít, amely a term�
 why-spontaneous-speech = Miért készítettük el ezt a Spontán beszéd prototípust
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = A <mark>természetes beszédkörnyezetek</mark> és különféle használati esetek esetén hasznos (például, ha azt szeretné, hogy a beszédfelismerés a normál hétköznapi beszéd esetén is működjön)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Jobb támogatás az olyan nyelvi valóságok esetén, mint a nyelvek keveredése és a <mark>kódváltás</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Jobb támogatás az olyan nyelvekhez, melyeken <mark>egyáltalán nincs korpusz</mark>, vagy csak kevés (például szociolektusok, változatok és történelmileg nem írott nyelvek, stb.)
 how-spontaneous-speech-works = Hogyan működik a Spontán beszéd
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Kérdés</mark>
@@ -26,6 +30,7 @@ contact-us = Kapcsolat
 contact-us-title = Szeretne részt venni ebben a projektben, vagy partnerségre lépni velünk?
 contact-us-email = E-mail: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Már tagja a Common Voice „Spontán beszéd” projektjének béta tesztelői csoportjának?
+signup-terms = A „Hivatkozás küldése az e-mail-címére” feliratra kattintással elfogadja a <termsLink>Felhasználási feltételeket</termsLink> és az <privacyLink>Adatvédelmi irányelveket</privacyLink>, továbbá belegyezik abba, hogy a Mozilla információkat küldjön a Common Voice Spontán beszéd projektjének béta tesztjében való részvételről.
 signup-input-placeholder = Adja meg az e-mail-címét
 signup-button-value = Hivatkozás küldése az e-mail-címére
 footer-text-privacy = <privacyLink>Adatvédelem</privacyLink>
