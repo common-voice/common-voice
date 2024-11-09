@@ -143,7 +143,7 @@ share-goal = مہ مقصدو خوران تین انځاوے
 
 ## Goals
 
-streaks = لکیر
+streaks = بس
 days =
     { $count ->
         [one] بس
