@@ -126,3 +126,6 @@ contribution-varying-pronunciations-example-2-title = Ndebese kamaya
 contribution-varying-pronunciations-example-2-explanation = ['Unne gne' ndetes a'a de'es iydiyanne nwe dittu ndé'oo]
 contribution-background-noise-title = Dittu ekku ndid chete
 contribution-background-noise-description = Ne'enose nase a'a taka didde ndinñu mu'une nome bee ama de'es ekku, kugbi kuekku anderes dittu ates kugbi kanbeo de'es ee inña. Ndtes kueekku ama se dkadkanoo ndebes stika; mit ndetes tett dittutuunne nwe ndebes tikate nwe kanbeo ndodo se nwe ndebe gnuu mu'u naa koo.
+contribution-background-noise-description-extended = Ndetese nwe kugbi fnuu ndodo mu'u naa koone o ndetese tet bee de'es ekkune, nwe teyunnides cho'o o  ndetes cho'one ne'ese kugbi kanbeo ndoskue'e ndodo se a gnu na koo.
+contribution-background-noise-example-2-fixed-title = Ittis dukchi dinosaurione chetendikkute  <strong> se chindite annaa ndikkuu
+contribution-background-noise-example-2-explanation = [Bee amkuaa nase a'a kakatene nwe enbe de'es a'a ]
