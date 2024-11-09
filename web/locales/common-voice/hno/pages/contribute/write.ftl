@@ -143,3 +143,11 @@ small-batch-sentences-rule-3 = “داخل کرو” یا “واپس کرو” 
 small-batch-sentences-rule-4 = 1,000 تک جملیا ں کو شامل کرو
 small-batch-sentences-rule-5 = سارے جملیاں دی ہک جیسی ڈومین ہونڑی چائی دی ہے
 small-batch-sentences-rule-6 = سارے جملیاں دا ہک جیسا حوالہ ہونڑا چائی دا ہے
+# menu item
+add-sentences = جملے شامل کرو
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
