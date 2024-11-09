@@ -9,6 +9,15 @@ error-skipping = نیویشیرو سورین نیسیکو موژی نقص پید
 error-recording = رکارڈ کوریکو موژی نقص پیدا ہوئے
 error-fetching-prompts = اشارو یی گناوا مسلہ پیدا ہوئے۔ پھوک اچا وا کوشش کو۔
 error-uploading-response = رپورٹو اپلوڈ کوراوا نقص پیدا ہوئے
+prompt-submitted-success = جواب کامیابیو سورا جمع ہوئے۔
+prompt-response-deleted-success = جواب کامیابیو سورا بوغین ہوئے۔
+# For the button to delete a response to a prompt
+delete = بوغیک
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = جمع ہوئے
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = سفان جمع کو
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = یہا صفحو استعمال کوریکو ݯھیݯھے
