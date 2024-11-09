@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = نیویشے
-write-instruction = عام رویان بارا<icon></icon> جملہ شامل کو
+write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
 write-page-subtitle = کیا جملو ہایا کی نیویشینو ہوئے ہتوغو عام رویان پچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
