@@ -88,3 +88,6 @@ transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Zgóńśo wěcej wó partnaŕstwach z Common Voice
+press-and-stories-menu-item-aria-label = Mějśo pśistup k wózjawjenjam casnikaŕstwa a tšojenjam wó Common Voice
+community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rěcy, kótarež se pśez Common Voice pódpěraju

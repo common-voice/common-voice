@@ -96,3 +96,5 @@ license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Naše głosowe datowe sajźby ześěgnuś
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Ześěgnjeńske nastajenja za pśistup k datam Common Voice
