@@ -60,3 +60,12 @@ already-have-an-account = پہلا تو اکاؤنٹ ہے؟<login>لاگ اِن<
 create-profile-button = پروفائل بنڑاؤ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی دا نشانڑ
+# menu item
+read-sentences = جملے پڑھو
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملے پڑھو، سوالاں دا جواب دو
+
+## MENU ITEM ARIA LABELS
+

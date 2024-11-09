@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = اپنڑی زبان بچ استعما�
 
 listen-contribute-menu-aria-label = اختیارات آلے مینو کو سنڑو
 validate-readings-menu-item-aria-label = کمیونٹی ممبراں دے جمع کرالے دے پڑھن دی تصدیق کرو
+review-transcriptions-menu-item-aria-label = ریکارڈ کیتے دے جملیاں دی درستگی واسطے ٹرانسکرپشن دا جائزہ گھنو
