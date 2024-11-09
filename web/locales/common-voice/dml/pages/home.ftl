@@ -70,9 +70,18 @@ read-more-about = امونہ پیچ تہ بارہ ورے مترا
 
 ## NAV ITEMS
 
+answer-questions = سوال تہ جوب پریا<small>(پھتائی آڅنا)</small>
+review-transcriptions = نقل نم تہ جائزہ گیا<small>(پھتائی آڅنا)</small>
+add-questions = سوال نم شامل کُرے<small>(پھتائی آڅنا)</small>
+transcribe-audio = آڈیو ساں نقل کُرے<small>(پھتائی آڅنا)</small>
+press-and-stories = چوٹے آں شُلوک نم
+community-and-languages = کمیونٹی آں باڜہ نم
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت، پریس آں شُلوک نم، کمیونٹی آں باڜہ نم
+partnerships-menu-item-tooltip = ام ملی شراکت کُرے
+press-and-stories-menu-item-tooltip = امونہ بلاگہ کی یت یا بہ امونہ بارہ لیکے
 
 ## MENU ITEM ARIA LABELS
 
