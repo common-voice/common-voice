@@ -11,10 +11,20 @@ why-card-2-text = 更好地支持跨语言和<mark>语码转换</mark>等实际�
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = 更好地支持缺少或没有可用的<mark>文字语料库</mark>的语言（例如社会方言、语言变体、曾无书面文字的语言等）
 how-spontaneous-speech-works = “即兴发言”的运作方式
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>引导语</mark>
 prompt-bubble-subtitle = 我们会向您展示一道引导语或问题
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>回答</mark>
 respond-bubble-subtitle = 请尽量自然地作出回答
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>转写</mark>
 transcribe-bubble-subtitle = 请记录从音频片段中听到的内容
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>检查</mark>
 check-bubble-subtitle = 请检查转录文本是否与音频内容匹配
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>数据</mark>
 data-bubble-subtitle = 我们会定期发布数据集
 contact-us = 联系我们
 contact-us-title = 有兴趣参与此项目或与我们合作？
