@@ -19,9 +19,13 @@ demo-account = اکاؤنټ
 
 demo-account-card-header = ته چاندۀ پاره دې اکاؤنټ ضرورت نک هۀ، اګر که او مددګار هۀ
 demo-account-card-body = خورېنڅه طرف کی بُو ماخ ائ فائدي جَوَتېن او آ بو صفا کېن که ا څېن معلومات بو پبلِک کېن۔ ائ ځېم لِنکی استعمال کېون که ته مشترک آواز اکا،نټ لاسته ته خوئ ډیوائس په ذریعه شُوري کېوی
+demo-account-enter-email =
+    .label = ا خوئ ای مېل اِنټر کَۀ سۀ سائن ݭیوک لِنک ال يې ڒیڅېوی
+demo-account-sign-up = ا سائن ݭیوک لِنک ال ڒیڅېون
 
 ## Demo Contribute
 
+demo-contribute-card-header = تیار سُن که ا خوئ آواز ال ګډ کی، یال ا ګویٛ نس
 
 ## Demo Dashboard
 
