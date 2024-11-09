@@ -76,4 +76,5 @@ adding-sentences-subheader-spelling-punctuation-explanation = ته جمله ا �
 adding-sentences-subheader-speakable = ته غوېڅن قابل
 adding-sentences-subheader-speakable-explanation = بهترین جملۀ يې افا هۀ که قدرتي او په اساني سره يې غوېڅن قابل بَۀ ــآ و ته قاري پاره اسان بَه۔ کيې که فونېټکي اختلاف او ته مختلف الفاظ ا موجودګي يې ݭيې جملۀ نر مهم هۀ ماخ بُو او کوشِش کيېن که ا ریکار کوونکئ جملي سا جوړ کيېن که ائ ترماخ ته رضاکار کمیونېټی پاره کشش او دلچسپي دَرِن۔
 adding-sentences-subheader-numbers = نمبري
-adding-sentences-subheader-numbers-explanation = ته حواله ټېکست نر يې خه ته هندسي ا لیک نک پکر هۀ کيې آئ يې بُو تَۀ مسلۀ جوړوِن کان بُو که ټېکسټ په زوټه غوېک سَۀ۔ په څېن طریقۀ بو
+adding-sentences-subheader-numbers-explanation = ته حواله ټېکست نر يې خه ته هندسي ا لیک نک پکر هۀ کيې آئ يې بُو تَۀ مسلۀ جوړوِن کان بُو که ا ټېکسټ په زوټه غوېک سَۀ۔ په څېن طریقۀ بوکه ټېکسټ تر ا هندسي غوېک سېن ته فا طریقه کونټېسټ زره وه ا اِنحصا هۀ۔ افا يې بُو کونفیوژن جزړوی سکه ا نمبر”2409” وُر۔ او نمبر بو په دیو طریقه غوېک سَۀ سکه ”څری جیستُ زیرو تۀ” او ”دیو زاره څار سوه نۀ”
+adding-sentences-subheader-abbreviations = مخففات یا مخفف
