@@ -21,6 +21,7 @@ submit-all-button = 全部提交
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = 了解如何使用此页面
+learn-how-to-use-prompts-explanation = 用三两句话，尽量自然地回答引导语。请确保您的用语尊重他人、不带冒犯性。
 learn-how-to-use-prompts-guidance = 点击<guidanceLink>这里</guidanceLink>来了解如何使用此页面
 learn-how-to-use-transcribe = 了解如何转录
 learn-how-to-use-transcribe-explanation = 详尽记录说话人所说的内容，包括“嗯”、“呃”等无实意的词。

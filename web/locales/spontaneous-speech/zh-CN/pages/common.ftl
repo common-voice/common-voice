@@ -25,6 +25,7 @@ contribute = 贡献
 
 ## Navbar
 
+respond-to-prompt = 回答引导语
 transcribe-audio = 转录音频
 check-transcriptions = 检查转录文本
 
@@ -34,3 +35,5 @@ not-found-page-header = 找不到页面
 not-found-page-content = 找不到您需要的页面
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
+en = 英语
+fr = 法语
