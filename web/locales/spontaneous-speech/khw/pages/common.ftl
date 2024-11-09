@@ -13,7 +13,7 @@ change = بدل
 coming-soon = خور واران دی شاو انگوسیان
 media-recorder-api-not-supported = تا بروسرا میڈیا رکارڈر اے پی آئی نو چالوران۔
 # Toast message that is displayed when an item is skipped
-skipped = پیځی پوشٹی بوغے
+skipped = پیځیتائے
 audioplayer-header = کار کو
 guidelines = رہنمائی
 # For the button to report an item
@@ -32,11 +32,11 @@ check-transcriptions = نویشیروان لوڑے
 ## Not Found Page
 
 not-found-page-header = مالاو نو ہوئے
-not-found-page-content = کیا صفحو  تو کی مݰکیسان سے ملاو نو ہوئے
+not-found-page-content = کیا صفحو کی تو مݰکیسان ہسے ملاو نو ہوئے
 # Privacy and Terms checkbox
 accept-privacy-and-terms = اوا کامن وائسو <termsLink> شرطان</termsLink> وا <privacyLink>راز دریو نوٹیسو </privacyLink> قبول کومان۔
 # Locales
-bsy = صباح بسایا
+bsy = صباح بیسایا
 cdo = فوژو
 cpx = ہیگ ہو
 en = انگریزی
