@@ -15,6 +15,13 @@ media-recorder-api-not-supported = MediaRecorder API не поддерживае
 # Toast message that is displayed when an item is skipped
 skipped = Пропущено
 audioplayer-header = Прослушать
+guidelines = Руководства
+# For the button to report an item
+report-button = Сообщить
+# For the button to skip an item
+skip-button = Пропустить
+submit-button = Отправить
+contribute = Внести вклад
 
 ## Navbar
 
