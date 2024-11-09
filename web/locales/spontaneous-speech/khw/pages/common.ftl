@@ -11,9 +11,33 @@ contribution-picker-label = ڈیٹا سیٹو سون { $language } پچین مد
 # Label for button on contribution switcher
 change = بدل
 coming-soon = خور واران دی شاو انگوسیان
+media-recorder-api-not-supported = تا بروسرا میڈیا رکارڈر اے پی آئی نو چالوران۔
+# Toast message that is displayed when an item is skipped
+skipped = پیځی پوشٹی بوغے
+audioplayer-header = کار کو
+guidelines = رہنمائی
+# For the button to report an item
+report-button = خبر
+# For the button to skip an item
+skip-button = پیځیک
+submit-button = جمع کو
+contribute = حصہ گانیک
 
 ## Navbar
 
+respond-to-prompt = اشاران جوابو دیت
+transcribe-audio = ہوازو نیویشیکا غیراوے
+check-transcriptions = نویشیروان لوڑے
 
 ## Not Found Page
 
+not-found-page-header = مالاو نو ہوئے
+not-found-page-content = کیا صفحو  تو کی مݰکیسان سے ملاو نو ہوئے
+# Privacy and Terms checkbox
+accept-privacy-and-terms = اوا کامن وائسو <termsLink> شرطان</termsLink> وا <privacyLink>راز دریو نوٹیسو </privacyLink> قبول کومان۔
+# Locales
+bsy = صباح بسایا
+cdo = فوژو
+cpx = ہیگ ہو
+en = انگریزی
+fr = فرانسیسی
