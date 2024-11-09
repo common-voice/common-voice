@@ -27,7 +27,7 @@ contribute = حصہ گانیک
 
 respond-to-prompt = اشاران جوابو دیت
 transcribe-audio = ہوازو نیویشیکا غیراوے
-check-transcriptions = نویشیروان لوڑے
+check-transcriptions = نیویشیروان لوڑے
 
 ## Not Found Page
 
