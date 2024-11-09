@@ -8,3 +8,4 @@ no-audio-message = Jelenleg nincsenek leiratozandó hangok ehhez a nyelvhez. Fri
 create-transcript-success = Sikeresen beküldte a leiratot
 create-transcript-error = Hiba történt a leirat létrehozása során
 error-playing-audio = Hiba a hangfájl lejátszása során.
+error-fetching-audio = Hiba történt a leiratozandó hangok lekérése során. Próbálja újra később.
