@@ -18,3 +18,7 @@ varying-pronunciations-example = ا رایٛ صفا نک بُک
 varying-pronunciations-tip-1 = [کېنېډئن انګرېزي نربُو ا ”route”سا ته ” rowt” غُندک امريېک سَۀ ]
 varying-pronunciations-tip-2 = [برطانوي انګرېزي نر سُو سا ته ”root” غنندک غوېک سَۀ]
 offensive-content-explanation = ا جملي بو ته کمیونېټی ماډرېشن په ذریعه صحیح کَوَک سېن۔ بيې خه آ طریقه يې ګه پُورۀ ۔صحیح نک هۀ۔ که تُو ګُده سا فقرۀ څُوني یا يې امر که افا ترکوک ته زلی ته ازار سبب جوړوَک سَۀ، سکه مثال آ ته کمیونېټ شرکت هدایات نر خنډ <participationGuidelines> جوړوَک سَۀ </participationGuidelines> بيې UI ته بلېګ ا بټن ځنئ۔ تیوس يې کُوماخ ګډ دۀ ګۀ رابطه نوک اېنڅئ commonvoice@mozilla.com
+misreadings-explanation-1 = فقره نر ته الفاظ ا صخیح غوېڅن يې ضروري هۀ۔ کانه که امر په احتیاط سره وه جیره کَۀ څه يې ګه ریکارډ ݭیوک بَۀ افه يي غوېک سَۀ۔ افا رد کوئ که ګُده يې چملۀ کی څه ګډ ݭیوک بَۀ، یا جمله لنډ یا دراغه سُک بَۀ یا وه دی الفاظ ووتک سُک بېن وینر
+misreadings-explanation-2 = ای عام غلطيے نر ائ شامل اِن۔
+misreadings-explanation-3 = ته جملۀ شُوري ریکارډنګ نر ”ا” یا ”د” غونه بېن
+misreadings-explanation-4 = ته لُظ آخېري نر بُو ا ”س” غون بَۀ
