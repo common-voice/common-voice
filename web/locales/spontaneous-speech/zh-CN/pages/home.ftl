@@ -6,6 +6,10 @@ wall-of-text = Common Voice 正启用一个附加平台，专注于收集自然�
 why-spontaneous-speech = 我们打造“即兴发言”功能原型的原因
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = 有助于适应<mark>自然的说话情景</mark>和用例（例如，让语音识别技术能够处理口语化的脱稿发言）
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = 更好地支持跨语言和<mark>语码转换</mark>等实际语言使用情况
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = 更好地支持缺少或没有可用的<mark>文字语料库</mark>的语言（例如社会方言、语言变体、曾无书面文字的语言等）
 how-spontaneous-speech-works = “即兴发言”的运作方式
 prompt-bubble-subtitle = 我们会向您展示一道引导语或问题
 respond-bubble-subtitle = 请尽量自然地作出回答
