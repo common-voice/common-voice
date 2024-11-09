@@ -91,6 +91,9 @@ about-playbook-how-add-sentences-content-3 = ეჴუხ გა́რდ, მა
 about-playbook-how-record-quality = მოჰ̦ თე́გლა მუჲლნე́ჴელბა ხა́რისხ ჲეჲნი̆ ჩანაწე́რი?
 about-playbook-how-record-content-1 = ა́მბუი ჲებათ ნიწყ ბაწიჼ , მოჰე́ ბჵა́რჩეჸ ჲუიშ. შუჼ მეტყვე́ლებ, ი́შ, დოშ ა́ლ'არ, აქცენტ, ლავრეჼ მანე́რ  ბუნებრივ ჲეწ ხილაჼ, მა́მ ხა́რცდოთ
 about-playbook-how-record-content-2 = ცადლიბათ სოუბო̆ თათნი მა ხილ'ა́ლო̆ - შუჼ ი́შ ღაზი́შ ჲე́წ ხაწაჼ
+about-playbook-how-record-content-3 = დაკრეშ ხატტათ წინადა́დებ, მა́მ დიცდოთ, მა́მ ხარცდოთ ჲე, მა ლა́ტდოთ ლე დაშნი, ლე ა́სუჲ
+about-playbook-how-record-content-4 = ბჵარკ ლე́ლბებათ მოწყო́ბილობახ, ა́მბუჲ ჲოლჲომცინა́ჲ, ა́მბუჲ მაყჲომცინა́ჲ მე́ ჩუ წე́რადჲო იშ.
+about-playbook-how-record-content-5 = <accuracyLink> გიბათ სოუბო შარიჼ და́ყ (წვლილ) ჩუ დაჰ̦რეხ</accuracyLink>
 
 ## How to grow language
 
