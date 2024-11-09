@@ -89,6 +89,8 @@ about-playbook-how-add-sentences-content-3 = ეჴუხ გა́რდ, მა
 ## How to record quality
 
 about-playbook-how-record-quality = მოჰ̦ თე́გლა მუჲლნე́ჴელბა ხა́რისხ ჲეჲნი̆ ჩანაწე́რი?
+about-playbook-how-record-content-1 = ა́მბუი ჲებათ ნიწყ ბაწიჼ , მოჰე́ ბჵა́რჩეჸ ჲუიშ. შუჼ მეტყვე́ლებ, ი́შ, დოშ ა́ლ'არ, აქცენტ, ლავრეჼ მანე́რ  ბუნებრივ ჲეწ ხილაჼ, მა́მ ხა́რცდოთ
+about-playbook-how-record-content-2 = ცადლიბათ სოუბო̆ თათნი მა ხილ'ა́ლო̆ - შუჼ ი́შ ღაზი́შ ჲე́წ ხაწაჼ
 
 ## How to grow language
 
