@@ -136,3 +136,5 @@ contribution-background-voices-description-extended = Ndetese nwe kugbi fnuu ndo
 contribution-background-voices-example-1-title = Ittis dukchi dinosaurio se chetendikuteme anandikku gnete mu'u nñiesene. [ama inñanoo kueeya]
 contribution-background-voices-example-1-explanation = ¿A bchikdee? <strong> [tama e'ey bi'i] </strong>
 contribution-volume-title = Mu'u dittu ekku
+contribution-volume-description = Nakuanne anumkaa a bi'i ekku tndube inña se eeya. Nwe teyunnides cho'o ndodo ndete tet dittu tuun ekku o (nome) kakuane nwe nbekue'eo.
+contribution-reader-effects-title = A yi'i inña se eeya mu'u
