@@ -11,6 +11,7 @@ contribution-picker-label = Dataset as dek
 # Label for button on contribution switcher
 change = Change/ tabdil
 coming-soon = Warek asta zuban en dai
+media-recorder-api-not-supported = MediaRecorder API shaya browser una ne hiu dai
 # Toast message that is displayed when an item is skipped
 skipped = Histil'a
 audioplayer-header = ko'n karik
