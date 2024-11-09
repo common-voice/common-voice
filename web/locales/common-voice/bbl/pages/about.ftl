@@ -124,6 +124,9 @@ about-playbook-how-access-dataset-content-2 = ლეხოჰ̦ი́შ ხე�
 ## How are decisions made
 
 about-playbook-how-project-governance = ჰ̦ა́ნას ღე́ბადჲო გადაწყვე́ტილბი ეჴ პროექტე?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice თაგჲიეჼ დუჴ ჴეჩჴეჩნა́ირ ნახვ, ო́ჴარლო დო́უგო̆ ე́ნათმეცნიერი, მონაცემა́ჼ მეცნიერი, ჴე́თნიში, პროგრამულ უზრუნველყო́ფეჼ სპეცია́ლისტი დინჩ მაჲთხკიკლერეჼ. ხელმძღვა́ნელობ ე́ბწო̆ Mozilla Foundation-ეს.
+about-playbook-how-project-governance-content-2 = თხეჼ მმა́რთველობეგო საყრდე́ნეღ და:
+about-playbook-how-project-governance-content-3 = პირადულობ, გამჭვირვალობ, უსაფრთხოებ
 
 ## How is Common Voice funded
 
