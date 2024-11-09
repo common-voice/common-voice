@@ -6,3 +6,8 @@ wall-of-text = آوای مشترک در حال راه‌اندازی یک سکو
 why-spontaneous-speech = چرا ما این نمونه اولیه گفتار خودجوش را ساختیم
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = برای <mark>زمینه‌های گفتار طبیعی</mark> و موارد استفاده مفید است (مثلا زمانی که می‌خواهید تشخیص گفتار با افرادی که بدون متن و به صورت محاوره‌ای صحبت می‌کنند، کار کند)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = پشتیبانی بهتر از واقعیت‌های زبانی مانند چندزبانه‌بودن و <mark>تعویض کد</mark>
+how-spontaneous-speech-works = چگونه گفتار خودجوش کار می‌کند
+contact-us-email = رایانامه: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = آیا در گروه آزمایش بتا پروژه گفتار خودجوش آوای مشترک ما عضو هستید؟
