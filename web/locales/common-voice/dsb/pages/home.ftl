@@ -81,13 +81,23 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 
 ## NAV ITEMS
 
+answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
+review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
+add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
+press-and-stories = Casnikaŕstwo a tšojenja
+community-and-languages = Zgromaźeństwo a rěcy
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnaŕstwa, casnikaŕstwo a tšojenja, zgromaźeństwo a rěcy
+partnerships-menu-item-tooltip = Buźćo naš partnaŕ
+press-and-stories-menu-item-tooltip = Woglědajśo se k našomu blogoju abo pišćo wó nas
+community-and-languages-menu-item-tooltip = Namakajśo rěcy, zgromaźeństwa a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Wó meniju Nastajenja
 partnerships-menu-item-aria-label = Zgóńśo wěcej wó partnaŕstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějśo pśistup k wózjawjenjam casnikaŕstwa a tšojenjam wó Common Voice
 community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rěcy, kótarež se pśez Common Voice pódpěraju

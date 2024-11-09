@@ -14,3 +14,7 @@ thank-you-for-your-information = Wjeliki źěk za waše informacije
 
 male_masculine = Muskecy/Maskulinowy
 female_feminine = Žeńscyny/Femininy
+intersex = Interseksuelny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Njok pódaś
