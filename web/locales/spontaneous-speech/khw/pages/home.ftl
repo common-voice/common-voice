@@ -27,6 +27,7 @@ data-bubble-title = <mark>ڈیٹا</mark>
 contact-us = اسپہ سون رابطہ کو
 contact-us-title = تا ہیا پروجکٹا شامل بیکو دلچسپی شیرا یا اسپہ سون حصہ دار بوسان؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = تو کمان وائسو سپونٹینئس اسپیچ پروجکٹو ہیا جوو ٹسٹ گروپ اسپہ سون پروشٹیار شامل اسوسا؟
 signup-input-placeholder = تان ای میل ایڈریسو نیویشے
 signup-button-value = لینکو ما ای میلو تین انځاوے
 footer-text-privacy = <privacyLink>رازدری</privacyLink>
