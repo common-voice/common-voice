@@ -28,6 +28,7 @@ contact-us = اسپہ سون رابطہ کو
 contact-us-title = تا ہیا پروجکٹا شامل بیکو دلچسپی شیرا یا اسپہ سون حصہ دار بوسان؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = تو کمان وائسو سپونٹینئس اسپیچ پروجکٹو ہیا جوو ٹسٹ گروپ اسپہ سون پروشٹیار شامل اسوسا؟
+signup-terms = "لینکو ای میلو مہ تین انځاوے" کلک کی ارو ہیا لوو منیتاو کی اسپہ<termsLink> کورمو شرط تین قبول</termsLink>وا<privacyLink> رازردری پالیسی</privacyLink> وا موزیلا دی معلوماتان تہ تین ای میل کوئے کہ کامن وائسو اسپونٹینئس اسپیچ پروجیکتو کیچہ کوری حصہ گانیس۔
 signup-input-placeholder = تان ای میل ایڈریسو نیویشے
 signup-button-value = لینکو ما ای میلو تین انځاوے
 footer-text-privacy = <privacyLink>رازدری</privacyLink>
