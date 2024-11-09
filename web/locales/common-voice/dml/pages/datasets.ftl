@@ -38,6 +38,7 @@ resource-playbook-info = <playbookLink> مدد گار رہنمائی ویچا</p
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM کارپس آڈیو ٹاک آں TED ویب سائٹہ موجود تسونہ نقل تہ ژوپائیسن درو
 data-other-voxforge-description = VoxForge مئی آں اوپن رریعہ تقریر زانال انجن نم ملی استعمل کُرئیں نقل کُریسن تقریر جمع کُرئیں ژوائیسن درو
+data-other-tatoeba-description = Tatoeba جملہ نم تہ ایک بلو ڈیٹا بیس درو،ترجمہ آں باڜہ ڇھڇئینہ استعمل بال باڜہ تہ آڈیو۔ یہ ڈوان لوڈ ۔ یہ ڈاون لوڈہ کمیونٹی   کیرا باڜہ ریکاڈ  کُتھین سے تھینا۔
 go-discourse = ڈسکورس کی یت
 go-languages-page = باڜہ تہ پھٹہ کی یت
 ready-to-validate = جملہ نم تہ توثیق کُرئیں کی تیار تُھوپی
