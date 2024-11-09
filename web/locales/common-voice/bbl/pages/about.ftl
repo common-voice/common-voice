@@ -88,6 +88,7 @@ about-playbook-how-add-sentences-content-3 = ეჴუხ გა́რდ, მა
 
 ## How to record quality
 
+about-playbook-how-record-quality = მოჰ̦ თე́გლა მუჲლნე́ჴელბა ხა́რისხ ჲეჲნი̆ ჩანაწე́რი?
 
 ## How to grow language
 
