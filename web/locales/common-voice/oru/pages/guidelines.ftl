@@ -37,3 +37,6 @@ background-noise-example-1 = ته ځنډ زمانه ا سمندئ ډائنوسو
 background-noise-example-2 = [ا سمندئ ډائنوسور ته ځنډ زمانۀ]
 background-noise-example-3 = ا سمندئ ډینو [تُخ] ته ځنډ زمانۀ
 background-noise-example-4 = [ډُزؤ] سمندئ ډائنوسوری ته [ډُزؤ]
+background-noise-tip-1 = [ته خلل ا څېڅن ته په څُټکی شور په وجه]
+background-noise-tip-2 = [ته لیک ا ݭے حصه بو نک امرک سَۀ]
+background-voices-explanation = ا دُشکی ته په څُټ ا شور يې ټهیک هۀ، خه که بی کوک يې سا ژغا که ا ژغېدا وه سهی کَوَک سَۀ، افۀ کلِپ سُو ردېوی۔ په پۀ رنګ بُو تَۀ ګۀ سَۀ کانن که TV خلاص وتک بَۀ۔ یا يې بویٛ ګُده ژغؤ بَۀ
