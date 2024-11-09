@@ -3,11 +3,11 @@
 your-languages = تہ وار
 toward-next-goal = نوغ مقصدو ویلٹی
 goal-reached = مقصد پورا ہوئی
-clips-you-recorded = ہتے ہواز کھیو کہ تو ریکارڈ کوری اسوس۔
-clips-you-validated = ہتے ہواز کھیو کہ تو تصدیق کوری اسوس ۔
+clips-you-recorded = ہواز تو ریکارڈ کوری اسوس۔
+clips-you-validated = ہواز تو تصدیق کوری اسوس
 todays-recorded-progress = ہنونو کامن وائسا ہوازان ریکارڈ بیرو کوروم
 todays-validated-progress = ہنونو کامن وائسا ہوازان تصدیق بیرو کوروم
-stats = حالات
+stats = حساب کتاب
 awards = تمغہ
 you = تو
 everyone = ہرایوالی
@@ -25,7 +25,7 @@ show-ranking = مہ درجو پشاوے
 ## Custom Goals
 
 get-started-goals = مقصدان پروشٹہ لکھی شروع کو
-create-custom-goal = ای تان مرضیا مقصد لکھے
+create-custom-goal = تان مرضیا حدف لکھے
 goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
 both-speak-and-listen-long = کھاڑان (لودیت وا کار کورے)
