@@ -6,4 +6,4 @@ editbox-header = Transkribować
 editbox-placeholder = Pisajće, štož słyšiće wosobu tu prajić
 no-audio-message = Njeje tuchwilu žana awdiodataja, kotraž da so za tutu rěč transkribować. Prošu aktualizujće stronu abo spytajće pozdźišo hišće raz.
 create-transcript-success = Transkripcija je so wuspěšnje wotpósłała!
-error-playing-audio = Zmylk při wothrawanju awdijodataju.
+error-playing-audio = Zmylk při wothrawanju awdijodataje.
