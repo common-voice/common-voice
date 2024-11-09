@@ -63,7 +63,7 @@ read-sentences = Sady čitać
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Sady, čitać, na prašenja wotmołwić
+speak-contribute-menu-tooltip = Sady čitać, na prašenja wotmołwić
 read-sentences-menu-item-tooltip = Natočće sady, kotrež w swojej rěči čitaće
 answer-questions-menu-item-tooltip = Natočće prašenja a namołwy, na kotrež w swojej rěči wotmołwjeće
 
