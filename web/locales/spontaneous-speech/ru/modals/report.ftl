@@ -13,3 +13,8 @@ report-other-comment =
 # Label for textarea in report modal
 other = Другое
 report-error = При отправке жалобы произошла ошибка
+# Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
+continue = Продолжить
+# Header for report modal after successful reporting
+success = Успешно
+report-success-message = Жалоба была успешно отправлена
