@@ -148,6 +148,15 @@ add-sentences = جملے شامل کرو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملے شامل کرو  تے جائزہ گھنو، سوال شامل کرو، آڈیو ٹرانسکرائب کرو
+add-sentences-menu-item-tooltip = اپنڑی زبان بچ جملے شامل کرو
+review-sentences-menu-item-tooltip = اپنڑی زبان بچ جملیاں دا جائزہ گھنو
+add-questions-menu-item-tooltip = اپنڑی زبان بچ سوال شامل کرو
+transcribe-audio-menu-item-tooltip = اپنڑی زبان بچ آڈیو ریکاڈنگ کو ٹرانسکرائب کرو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیارات آلے مینو کو لکھو
+add-sentences-menu-item-aria-label = کمیونٹی دے پڑھنا واسطے نئے جملے شامل کرو
+review-sentences-menu-item-aria-label = کمیونٹی دے جمع کرالے دے موجود جملیاں دا جائزہ گھنو
+add-questions-menu-item-aria-label = کمیونٹی واسطے نیا سوال پڑھنا تے جواب دینڑا آستے جمع کرالو
