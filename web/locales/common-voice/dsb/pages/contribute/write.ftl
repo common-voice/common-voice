@@ -154,3 +154,12 @@ small-batch-sentences-rule-3 = Tłocćo jaden raz „Enter“, aby sady na jadne
 small-batch-sentences-rule-4 = Pśidajśo až do 1.000 sadow
 small-batch-sentences-rule-5 = Wšykne sady muse samsku domenu měś
 small-batch-sentences-rule-6 = Wšykne sady muse samske žrědło měś
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Sady pśidaś a pśeglědowaś, pšašanja pśidaś, awdio transkriběrowaś
+transcribe-audio-menu-item-tooltip = Transkriběrujśo awdiowe nagraśa w swójej rěcy
+
+## MENU ITEM ARIA LABELS
+
+transcribe-audio-menu-item-aria-label = Transkriběrujśo awdiowe nagraśa do teksta
