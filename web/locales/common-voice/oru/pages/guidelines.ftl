@@ -74,3 +74,6 @@ adding-sentences-subheader-length-explanation = ا ݭيې جملۀ دی پنځې
 adding-sentences-subheader-spelling-punctuation = املا او اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = ته جمله ا اِملا صحیح لیکک سُک هۀ
 adding-sentences-subheader-speakable = ته غوېڅن قابل
+adding-sentences-subheader-speakable-explanation = بهترین جملۀ يې افا هۀ که قدرتي او په اساني سره يې غوېڅن قابل بَۀ ــآ و ته قاري پاره اسان بَه۔ کيې که فونېټکي اختلاف او ته مختلف الفاظ ا موجودګي يې ݭيې جملۀ نر مهم هۀ ماخ بُو او کوشِش کيېن که ا ریکار کوونکئ جملي سا جوړ کيېن که ائ ترماخ ته رضاکار کمیونېټی پاره کشش او دلچسپي دَرِن۔
+adding-sentences-subheader-numbers = نمبري
+adding-sentences-subheader-numbers-explanation = ته حواله ټېکست نر يې خه ته هندسي ا لیک نک پکر هۀ کيې
