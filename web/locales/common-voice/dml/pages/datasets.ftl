@@ -39,6 +39,7 @@ resource-deepspeech-info = موزیلا ساں کولو زریہ کاڻ زانا
 resource-coqui-info = <coquiLink>Coqui</coquiLink> اوپن تقریر ٹیکنالونی تہ پرئی وقف درو۔ مسونہ منصوبہ ابُت ازدہ کُرال SST آں TTS تہ سرچ انجن نم درو
 community-playbook = کمیونٹی ساں پلے بُک(لگن تہ کِتب)
 resource-playbook-info = <playbookLink> مدد گار رہنمائی ویچا</playbookLink> عام کاڻ تہ پورہ سفرہ، لوکل ئزیشن تہ ڈیٹا سہٹ تہ استعمل تلی، امونہ کمیونٹی ملی کنو کُری کنٹکٹ کُری بہ۔
+data-other-librispeech-description = لبری تقریر تقریبا 1000 گھنٹہ تہ 16Khz مترال انگریزی  تقریرساں ایک مجموعہ درو یہ LibriVox پروجیکٹ تہ مترال آڈیو بکس تہ گین ینا۔
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM کارپس آڈیو ٹاک آں TED ویب سائٹہ موجود تسونہ نقل تہ ژوپائیسن درو
 data-other-voxforge-description = VoxForge مئی آں اوپن رریعہ تقریر زانال انجن نم ملی استعمل کُرئیں نقل کُریسن تقریر جمع کُرئیں ژوائیسن درو
