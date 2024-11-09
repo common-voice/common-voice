@@ -12,3 +12,13 @@ listen-loading-error =
 listen-abort-title = Pśeglědowanje klipow dokóńcyś?
 listen-abort-cancel = Z pśeglědowanim pókšacowaś
 listen-abort-confirm = Pśeglědowanje dokóńcyś
+# Menu item
+validate-readings = Cytanja pśeglědowaś
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Cytanja pśeglědowaś, transkripcije pśeglědowaś
+validate-readings-menu-item-tooltip = Pśeglědujśo cytanja, kótarež su se nagrali wót wužywarjow we wašej rěcy
+
+## MENU ITEM ARIA LABELS
+
