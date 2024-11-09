@@ -112,9 +112,12 @@ about-playbook-how-grow-language-content-8 = <strong>ცადლიბათ �
 about-playbook-how-validate = მო́ჰ̦ ხოჸა́ს, ღალჲი́ ლე ცო იშა́რეჼ ჩანაწერ?
 about-playbook-how-validate-content-1 = <strong>ხაწე́ჰ̦ ჰ̦ოჼ ღაზი́შ</strong> ჲე <strong>ხოუჸუ́ჰ̦ ჰ̦ოჼ შინაარს</strong>, საბლეხი́ჼ <strong>ღა́ლჲენო ჲა</strong>.
 about-playbook-how-validate-content-2 = <strong>მა დაწუნბადჲოთ  ჩანაწე́რი, ა́მბუჲ ჲოჩგო  შუგრეჼ განსხვა́ვებულ "ა́ქცენტ ჲა́ჰ̦ </strong> - ე ზორაჲში̆ მნიშვნელოვაჼ ჲა იშ ჲა́ბწანაჲნო̆, მე́ ჰ̦ამა́ნეჸ ლავრეხ ჴე́თმაკელე̆
+about-playbook-how-validate-content-3 = დაკლევიჰ̦ე́შ, მე́ წყეგეჸ სპეციფიკურ ა́ლ'რეგონდალლა <strong>აზრ ცო ჲა́ხლა</strong>, ლე ლაჴი́ჩ თათნივ და́შლადო</strong>, ლე <strong>ხაწ ჴე́ჩო̆ ჰ̦ამას ჲუჲნი̆ ა́მბუჲ</strong>, ეჰ̦ა́თ უარ დეწი́შ ა́ლ'აჼ ჩანაწე́რეხ. <accuracyLink>გიბათ  საბუ́ხ  და́ყ ჩუ და́ჰ̦რეხ</accuracyLink>.
+about-playbook-how-validate-content-4 = შინ ა́დმენევ დაწუნბადიჩე ჩანაწერ, ეჰ̦ა́თ გამოქვე́ყნბადოშ მონაცემ კრე́ბულეჼ ცალკ ქვეჯგუფე ხილ'ო̆
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = მოჰ̦ ჴმა́რბადჲოს მონაცემა́ჼ კრე́ბულ?
 
 ## How are decisions made
 
