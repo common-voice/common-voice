@@ -41,7 +41,7 @@ sentence-domain-select-placeholder = تروئی حلقہ بیکا پت گنے(ا
 # Sentence Domain dropdown option
 agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
-automotive_transport = کوسک اشناری وا گاڑی
+automotive_transport = کوسک اشناری وا ٹرانسپورٹ
 # Sentence Domain dropdown option
 finance = پیسہ
 # Sentence Domain dropdown option
