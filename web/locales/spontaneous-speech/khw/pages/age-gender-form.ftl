@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = تنار تان تقریرو  پچین تہ بو منادار!
 add-information-button = معلومات شامل کو
 thank-you-for-your-information = معلومات دیکو پچین تہ مینادار
 
