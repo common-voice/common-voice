@@ -12,3 +12,12 @@ listen-loading-error =
 listen-abort-title = Kayıt doğrulama bitirilsin mi?
 listen-abort-cancel = Doğrulamaya devam et
 listen-abort-confirm = Doğrulamayı bitir
+# Menu item
+validate-readings = Okumaları doğrula
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Dinleme seçenekleri menüsü
