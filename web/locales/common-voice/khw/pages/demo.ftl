@@ -12,7 +12,7 @@ card-button-next = پروشٹی بوغے
 card-button-back = اچی گے
 demo-language-select-label = واران مݰکے
 demo-eofy-header = 2019 سالو اخیری خبر
-demo-eofy-sub_header = ہوازان ڈیٹا سیٹ ڈونلوڈ کوریکو پچین تیار۔
+demo-eofy-sub_header = ہوازان ڈیٹا سیٹ ڈون لوڈ کوریکو پچین تیار
 demo-account = اکاونٹ
 
 ## Demo Account
