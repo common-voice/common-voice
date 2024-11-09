@@ -6,6 +6,10 @@ wall-of-text = کامن وائس تیز، بے ساختہ، غیر اسکرپٹ 
 why-spontaneous-speech = اسم انو بے ساختہ اسپیچ پروٹو ٹائپ کے سمولو ہنو
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = <mark>آرگینک اسپیچ سیاق و سباق</mark> دپارہ مفید اور کیسی استعمال تھہ (مثال کی اگر تو دوئیانو کی اسپیچ ریکگنیشن ایسے خلکیم سنگی کرام تھی کی سے غیر اسکرپٹ او بول چال کی کھونڈانہ)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = زبینیمی حقیقتیمی دپارہ بہتر تعاون کناچی کہ ترجمہ او <mark>کوڈ سوئچنگ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = ایسے زبینیمی دپارہ بہتر سپورٹ کی تیوے استعمال تھئنی دپارہ بیڈہ کام یا <mark>گہ ٹیکسٹ کارپس</mark> نئینہ (مثال کی سماجی، مختلف قسمہ، تاریخی لحاظ کی غیر اسکرپٹ شدہ زبینی وغیرہ)
 how-spontaneous-speech-works = بے ساختہ تقریر کنا تھے کرام تھینی
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامپٹ</mark>
