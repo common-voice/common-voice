@@ -73,3 +73,4 @@ adding-sentences-subheader-length = دراغوالئ
 adding-sentences-subheader-length-explanation = ا ݭيې جملۀ دی پنځېس 15 لاسته کېم الفاظ درون
 adding-sentences-subheader-spelling-punctuation = املا او اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = ته جمله ا اِملا صحیح لیکک سُک هۀ
+adding-sentences-subheader-speakable = ته غوېڅن قابل
