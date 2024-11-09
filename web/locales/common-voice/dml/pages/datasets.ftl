@@ -3,6 +3,7 @@
 datasets-heading = ڈیٹا سیٹ نم
 language = باݜہ
 download-dataset-header = ڈیٹا سیٹ ڈاون لوڈ کُرے
+download-dataset-tag = مینہ خوخہ تہ باڜہ تہ ڈیٹا سیٹ منتخب کُرا آں سے ورژن منتخب کُرا کیرا بی ڈاون لوڈ کُرن گٹینبہ
 # File size in gigabytes
 size = سائز
 validated-hr-total = سپُن تصدیق بئیسن ایج آر
@@ -13,6 +14,7 @@ dataset-splits = عمر آں جنس بژن
 number-of-voices = کاڻ نم تہ تعداد
 splits = تقِسم
 email-to-download = ای میل اینٹر کُرا ڈاون لوڈ کُرئیں کی
+why-email = <b>کو ایک ای میل </b>مستقبلہ ائی میاں ملی ڈیڈا سیٹہ ردوبدل کُرنہ رابطہ کُریمہ، رابطہ کُرئیں کی ایک ای میل پریا
 confirm-size = بی ڈاون لوڈ شروع کُرئیں کی تیار تُھوبہ ساں <b>{ $size }</b>
 size-gigabyte = جی بی
 size-megabyte = ایم بی
@@ -30,6 +32,7 @@ feedback-q = کیہ رائے درو
 # This indicates that there is no data to display
 no-information = معلومات نی درو
 resource-nemo-info = <githubLink>NVIDIA NeMO</githubLink> درو ایک<docsLink>کولو سورس ٹول کٹ</docsLink>تحقیق کُرالہ کی جدید ترین مُشکُلہ مشتمل AIتیار کُنومہ
+resource-coqui-info = <coquiLink>Coqui</coquiLink> اوپن تقریر ٹیکنالونی تہ پرئی وقف درو۔ مسونہ منصوبہ ابُت ازدہ کُرال SST آں TTS تہ سرچ انجن نم درو
 community-playbook = کمیونٹی ساں پلے بُک(لگن تہ کِتب)
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس کی یت
