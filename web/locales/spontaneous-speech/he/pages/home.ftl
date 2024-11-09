@@ -32,3 +32,7 @@ contact-us-email = דוא"ל: <emailFragment>commonvoice@mozilla.com</emailFragm
 signup-form-title = האם כבר הצטרפתם לקבוצת בדיקות הבטא של פרויקט 'דיבור ספונטני' של Common Voice?
 signup-terms = בכך שתלחצו על 'שלח קישור לדוא"ל', אתם מסכימים ל<termsLink>תנאים וההגבלות</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> שלנו, ולכך ש-Mozilla עשויה לשלוח אליכם דואל עם מידע כיצד להשתתף בבדיקות הבטא  עבור פרויקט 'דיבור ספונטני' של Common Voice.
 signup-input-placeholder = נא להכניס את כתובת הדוא"ל שלך
+signup-button-value = שלח קישור לדוא"ל שלי
+footer-text-privacy = <privacyLink>פרטיות</privacyLink>
+footer-text-terms = <termsLink>תנאים</termsLink>
+footer-text-cookies = <cookiesLink>עוגיות<cookiesLink>
