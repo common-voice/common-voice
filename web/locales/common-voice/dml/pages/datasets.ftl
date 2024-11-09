@@ -57,6 +57,7 @@ dataset-metadata-sex = لگعین
 dataset-metadata-age = عمر
 donate-modal-message = تاں ڈیٹا سیٹ ڈاون لوڈ بیاں
 dataset-donate-modal-heading = توکی پتہ دروئی
+donate-modal-explanation-1 = ائی ڈیٹا سیٹ ساں میزبانی کُری 100تہ زیت باڜہ نم تہ کمیونٹی تہ پرئی کیرا ساں ساں انحصار اما ڜا درو۔ پلیٹ فام بہتر کُرنہ ہر کالہ ایک میلن ڈالر خرچہ آڅِنا
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>اگر بی کولو آں جامع ڈیٹا ساں قدر کُنہ بہ تا مودئی عطیہ کُرا</bold>
 data-download-singleword-title = ایک لفظ ٹارگٹ سگمنٹ ڈاون لوڈ کُرا
