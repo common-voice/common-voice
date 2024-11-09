@@ -7,6 +7,7 @@ offensive_speech-detail = Newishil'a shum zuban una shiau
 different_language = Warek Zuban
 different_language-detail = Newishila warek zuban una shiau hula, a o warek soch kam an ais
 personally_identifiable_information = Tan zati malumat jonik
+personally_identifiable_information-detail = Shia newishila, tai zati malumat, nim, email as pata, jaiga, tai zati lambar, ya o tai phone lambar.
 report-other-comment =
     .placeholder = khialat
 # Label for textarea in report modal
