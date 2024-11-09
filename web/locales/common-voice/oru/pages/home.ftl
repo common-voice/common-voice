@@ -68,9 +68,14 @@ username-email-not-demographic = ترتُو ا ای مېل او یوزر نام 
 ## Landing
 
 welcome-staff = په خېر سره { $company } کمپنی سټاف
+help-contribute = تُو يې بو سۀ مختلف میوک ډېټاسېټ جوړ اېنچی که سۀ مشترک آواز پروفائل يې جوړ کی او ا حوئ آواز ال ګډ کی
+login-company = لاګ اِن/سائن اپ ګیرډ ته{ $company } ا ای مېل
+profile-not-required = ته پېش کؤ پاره يې ته پروفائل ضرورت نک هۀ، اګر که يې بو مدد کوی۔ کيې که ــ جیره کَۀ ځېم
+read-more-about = أؤسه بيې ګۀ ترماخ پا بېژ پېج لاسته
 
 ## NAV ITEMS
 
+answer-questions = سؤلی ځوبًی <small> څوار بُو سېره </small>
 
 ## MENU ITEMS TOOLTIPS
 
