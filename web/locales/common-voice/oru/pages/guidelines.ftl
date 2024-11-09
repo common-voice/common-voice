@@ -31,3 +31,4 @@ misreadings-example-3 = ماخ بو پنېشته کی څېن ته ݭيې کاف�
 misreadings-example-4 = ته پین ا مِشی ل په بُژ تر سُک
 misreadings-tip-1 = [پکر يې 'We are" بیوک]
 misreadings-tip-2 = [اصل سبق نردې "a" نک هۀ]
+misreadings-tip-3 = [بی رنګ مواد]
