@@ -1,5 +1,7 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = Hiba
 action-click = Kattintson
 action-tap = Koppintson
 # Label for language switcher
@@ -35,3 +37,4 @@ not-found-page-content = A keresett oldal nem található
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
 en = Angol
 fr = Francia
+tr = Török

@@ -17,3 +17,4 @@ report-error = Hiba történt a jelentés beküldése során
 continue = Folytatás
 # Header for report modal after successful reporting
 success = Sikeres
+report-success-message = A jelentés sikeresen beküldve
