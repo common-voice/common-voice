@@ -21,3 +21,6 @@ review-transcriptions-menu-item-tooltip = خلگا سی دیِشا تھیلیل 
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = آپشنس سی مینو بُھویا
+validate-readings-menu-item-aria-label = کمیونیٹی سی ممرا سی دیِشا تھلیل رینڈنگز سی تصدیق کوا
+review-transcriptions-menu-item-aria-label = ٹیکاچا سی بُو سی کیا ریکارڈ کوئیل جملا سی لیِکھ سی جائزہ گھیِنا

@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تُو چیر تیز تُھو۔ دھأک شی
 sc-redirect-page-title = مھو یام گھین بدلی کودی۔
 sc-redirect-page-subtitle-1 = جملا سی سرڑُو سی مشین کامن وائس سی مُوئمو یے بیَدُو۔ تُو مھیرے <writeURL> اے جملہ <reviewURL>یا ریوو می اے جملہ کامن وائس زید لیِکھ بھادُو۔
 sc-redirect-page-subtitle-2 = مھو ما می <matrixLink>زید توَس کو۔ <discourseLink>مھید پا۔ </discourseLink> یا <emailLink>ای میل کو۔
+# menu item
+review-sentences = جملا سی جائزہ گھیِنا
