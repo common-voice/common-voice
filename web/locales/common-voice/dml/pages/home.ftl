@@ -82,6 +82,11 @@ community-and-languages = کمیونٹی آں باڜہ نم
 about-menu-tooltip = شراکت، پریس آں شُلوک نم، کمیونٹی آں باڜہ نم
 partnerships-menu-item-tooltip = ام ملی شراکت کُرے
 press-and-stories-menu-item-tooltip = امونہ بلاگہ کی یت یا بہ امونہ بارہ لیکے
+community-and-languages-menu-item-tooltip = دریافت کُرا باڜہ نم آں کمیونٹی نم آں عام کاڻ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = آپشن تہ مینیو تہ بارہ
+partnerships-menu-item-aria-label = شراکت تہ بارہ زانا عام کاڻہ ملی
+press-and-stories-menu-item-aria-label = عام کاڻ تہ بارہ پریس ریلیز آں شُلوک نم کی رسائی حاصل کُرا
+community-and-languages-menu-item-aria-label = عام کاڻ ساں حمایت کُرال کمیونٹی آں باڜہ ساں جائزہ گیا
