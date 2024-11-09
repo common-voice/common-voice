@@ -9,3 +9,6 @@ vote-transcript-success = Transkriptimi u votua me sukses
 vote-transcript-error = Ndodhi një gabim gjatë votimit të transkriptimit
 transcript-edited-success = Transkriptimi u përpunua me sukses
 transcript-edited-error = Ndodhi një gabim gjatë përpunimit të transkriptimit
+error-fetching-transcriptions = Diçka shkoi gabim teksa silleshin transkriptimet. Ju lutemi, riprovoni më vonë.
+transcript-skipped-success = Transkriptimi u anashkalua me sukses
+transcript-skipped-error = Ndodhi një gabim gjatë anashkalimit të transkriptimit
