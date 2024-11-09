@@ -3,7 +3,7 @@
 record-player-header = Natočće swoju wotmołwu
 mic-access-error = Dyrbiće přistup k mikrofonej dowolić.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-prompt-page-instruction = { $actionType } <micIcon></micIcon> a wotmołwće tak přirodnje kaž móžeće
+prompt-page-instruction = { $actionType } <micIcon></micIcon> a wotmołwće tak přirodnje kaž móžno
 error-skipping = Při přeskočenju tuteje namołwy je zmylk nastał
 error-recording = Při natočenju je zmylk nastał.
 prompt-submitted-success = Wotmołwa je so wuspěšnje wotpósłała
