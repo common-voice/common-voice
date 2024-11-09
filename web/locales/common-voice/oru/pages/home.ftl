@@ -76,9 +76,19 @@ read-more-about = أؤسه بيې ګۀ ترماخ پا بېژ پېج لاسته
 ## NAV ITEMS
 
 answer-questions = سؤلی ځوبًی <small> څوار بُو سېره </small>
+review-transcriptions = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
+add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
+transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
+press-and-stories = پرېس او کهانيے
+community-and-languages = کمیونېټی او زبنی
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = بائی والي، پرېس او کهانئے، کمیونېټی او زبنی
+partnerships-menu-item-tooltip = ماخ ګډ بائی والي
+press-and-stories-menu-item-tooltip = ترماخ بلاګ کی ر زئ یا لیک کَۀ ترماخ بارۀ نر
+community-and-languages-menu-item-tooltip = زبنی، کمیونېټی او مشترک آواز
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = ته وُرغېوي ا مېنیو
