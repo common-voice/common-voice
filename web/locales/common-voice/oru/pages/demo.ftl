@@ -31,3 +31,4 @@ demo-listen-subtitle = تیار هې پېش کؤ کی؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = ا ذاتي ډېش بورډ ت بُو ته هر سړئ او ته کمیونېټی ته مُخ په څېک باره نر خبر ساتی
