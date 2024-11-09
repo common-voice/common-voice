@@ -85,3 +85,7 @@ adding-sentences-subheader-special-characters = خاص او خارجي حروف
 adding-sentences-subheader-special-characters-explanation-1 = که ا څېن زبان غوېک فئ نر ا حرفی رواج بون سکه ж يې روسي زبان نر ته الفبې ټیکئ هۀ ته انکرېزي ټېکست نر بو ګده ګه نک استعمالېک سَۀ
 adding-sentences-subheader-special-characters-explanation-2 = ا سۀ زبان دی بو خوئ ته توثیق رولز جوړوی او اضافي ضروریات کان بُو که لوکلائزډ سَۀ۔ کان که ته توثیق خوئ فائل نک بَۀ، ته انکرېزي ا رُول يې پکر هۀ که عمله سَۀ ور
 adding-sentences-subheader-offensive-content = ته غصه ا مواد
+adding-sentences-subheader-offensive-content-explanation =
+    که ا جماه يې ته غصه او ته خفګان سبب جوړوک سَۀ ته خاص کونټنټ په وجه یا يې خلاف ورزي کوی ترماخ ته <communityGuidelines> ته کمیونېټی  ته هدلیات<communityGuidelines>  خلاف تو وه رد کېون یا يې ماخ ګیرډ رابطه کېون په پۀ لِنک 
+    <emailFragment>commonvoice@mozilla.com</emailFragment> که ماخه ره دې څه حل نوريېن
+reviewing-sentences-explanation-1 = که  ا جمله ترماخ ائ بېژ بیان هدایات پورۀ کوی ته ئېس ا بټن ځنئ
