@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = تنارتان تقریرا گیکو پچین تہ تین منادار ریسیان
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارہ</mark>
 # text wrapped in <mark></mark> will have a blue background
