@@ -21,4 +21,11 @@ submit-all-button = שליחת הכל
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = למדו כיצד להשתמש בעמוד זה
-learn-how-to-use-prompts-explanation = פשוט הגיבו להנחיה בכמה שיותר טבעיות במשפט או שניים. השפה שלכם צריכה להיות מכובדת ולא פוגענית.
+learn-how-to-use-prompts-explanation = פשוט הגיבו להנחיה בצורה כמה שיותר טבעית במשפט או שניים. השפה שלכם צריכה להיות מכובדת ולא פוגענית.
+learn-how-to-use-prompts-guidance = לחצו <guidanceLink>כאן</guidanceLink> כדי ללמוד כיצד להשתמש בעמוד זה
+learn-how-to-use-transcribe = למדו כיצד לתמלל
+learn-how-to-use-transcribe-explanation = רשמו בדיוק מה שנאמר, כולל מילות מילוי והיסוסים כמו 'אממ' או 'אהה'.
+learn-how-to-use-transcribe-guidance = לחצו <guidanceLink>כאן</guidanceLink> כדי ללמוד כיצד להשתמש בעמוד זה
+learn-how-to-use-check-transcript = למדו כיצד לבדוק תמלול
+learn-how-to-use-check-transcript-explanation = תמלול צריך לתפוס כל מילה או צליל שיחה, גם כאלה שאינם מילוניים, שדוברו על ידי הדובר, כולל חזרות.
+learn-how-to-use-check-transcript-guidance = לחצו <guidanceLink>כאן</guidanceLink> כדי ללמוד כיצד להשתמש בעמוד זה
