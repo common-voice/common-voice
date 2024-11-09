@@ -17,7 +17,7 @@ contribute-more =
     }
 speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سوم جملہ ختم بیتی شینی۔
 no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو پچین تان سٹنگو بدل کوکو بوس۔
-speak-empty-state-cta = جملا نویشے
+speak-empty-state-cta = جملا نیویشے
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان ہوازو محفوظ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے
