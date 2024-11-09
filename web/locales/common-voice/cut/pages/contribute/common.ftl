@@ -107,3 +107,5 @@ contribution-misreadings-example-1-title = Itti sdukchi dinosaurio chetendikute 
 contribution-misreadings-example-2-title = Ittis dukchi dinosaurione chetendikuteme
 contribution-misreadings-example-2-explanation = Tika sndebe 'dinosaurios'
 contribution-misreadings-example-3-title = Dinosauriose chetendikuteme
+contribution-misreadings-example-3-explanation = [Iyndekas kuinno ndenud mu'une eindi]
+contribution-misreadings-example-4-title = Ittis dukchite dinosaurione chetendikokuenote. Uu

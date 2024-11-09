@@ -138,6 +138,11 @@ small-batch-response-message =
        *[other] { $uploadedSentences } yi'i { $totalSentences } ndubee ndodo se andidama. Mu'u ndeetad <downloadLink> mu'u </downloadLink> tomene kugbi chuun ndodo se nwe chii gnuu mu'u na koo.
     }
 small-batch-sentences-rule-1 = Gdinde ¿De'e ndodo se kugbii fnu mu'u naa koo?
+small-batch-sentences-rule-2 = Ama ndodono dudde
+small-batch-sentences-rule-4 = Ndi ama mil ndodo kugbi fnuu mu'u naa koo
+small-batch-sentences-rule-6 = Tndubee ndodo see fnuu mu'une daman ndoskue'e
+# menu item
+add-sentences = Kugbi fnuu ndodo mu'u naa koo
 
 ## MENU ITEM TOOLTIPS
 
