@@ -104,6 +104,7 @@ about-playbook-how-grow-language-content-3 = მაკ შუჼ ნაყიშ
 about-playbook-how-grow-language-content-4 = სოცქსე́ლი
 about-playbook-how-grow-language-content-5 = მაკ შუჼ ჴენე-ჴენე́ სოცქსე́ლი ჴმა́რბადჲაჼ. უნმაკ დუჴ ნა́ხგო̆ ხაჸითათ, ჰ̦ალო̆ ა́ხსნადებათ, გაციფრბადარენ უხ მაკ მო́ჰ̦მი მოტტ ბის ბა́ჴაჼ ციფრულათ მო́ჸ, ალ'ათ, მე ტექნოლოგიილოა́  უთანასწო́რბი ჲა. გიბათ რჩე́ვი <campaignLink>სოციალურ კომპანიიშ გატა́რბადჲანეჲნო, უჲშტნეჸ - ჴე́ნი გამოდგო́მალეჲნი̆ მა́სალი </campaignLink>.
 about-playbook-how-grow-language-content-6 = თანამშრო́მლობ (ცჰ̦აღქე́სადალრი) ჲე კა́ვშირჲარ
+about-playbook-how-grow-language-content-7 = ლახათ ჴე́ნი, მენხუჲა́ჲ შუსა́ჼ ზრუნალა ე საკითხინმაქ: უნივე́რსიტეტი, მოტტ ჺა́მბუჲნი̆ სკო́ლი, უფლებდამცველა́ჼ ჯგუფი. ლავათ, ღაზი́შ ა́ხსნადებათ, მო́ჰ̦ ჲე უჼ დე́წ შუჼ ო́ბი ლა́ტაჼ.<outreachTemplates> გიბათ ელფო́სტ წი́რლეჼ ნიმუში ლავანაჲნო̆</outreachTemplates>.
 
 ## How to validate
 
