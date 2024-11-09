@@ -118,3 +118,4 @@ contribution-misreadings-example-7-explanation = [Bte 'yi'i' naa kaka nase duu]
 contribution-misreadings-example-8-title = Kanindikkuu cho'o yanna
 contribution-misreadings-example-8-explanation = [Nwe dama a'a]
 contribution-varying-pronunciations-title = Na'a ndodone nome nwe dama
+contribution-varying-pronunciations-description = Fdadu diide tase nwe teyunnide se fnuu ama ndodo mu'u naa koo o ndetese nwe ndee ekku. A bi'i iynde'e inña yi'i nñiese, na'ane ndi bte kanbede yabakuyi'ide. Ate ndetese iynede de'es se iynu mu'u naa koone kugbi cho'o.

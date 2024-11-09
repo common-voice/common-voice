@@ -139,6 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Gdinde ¿De'e ndodo se kugbii fnu mu'u naa koo?
 small-batch-sentences-rule-2 = Ama ndodono dudde
+small-batch-sentences-rule-3 = Ama ama dudde ndodo, kade ama ama
 small-batch-sentences-rule-4 = Ndi ama mil ndodo kugbi fnuu mu'u naa koo
 small-batch-sentences-rule-5 = Ndoskue'e ndodo se gnuu mu'u na koone adamanno de'es nee kama
 small-batch-sentences-rule-6 = Tndubee ndodo see fnuu mu'une daman ndoskue'e
@@ -158,3 +159,5 @@ transcribe-audio-menu-item-tooltip = Chod naa ama kaka ndodo dbaku yi'ide se gnu
 write-contribute-menu-aria-label = Mu'u tndanude taka ne'e dudde
 add-sentences-menu-item-aria-label = Tndobned tama ndodo tomene kuee inña yi'i yabakude
 review-sentences-menu-item-aria-label = Nbekuended ndodo se kama inña yi'i yaabakude
+add-questions-menu-item-aria-label = Tomunid tama ndodo inña yi'i yabakude tomene kueya mii nbefneya
+transcribe-audio-menu-item-aria-label = Ddude na ama kaka ndodo se gnu mu'u  naa koo
