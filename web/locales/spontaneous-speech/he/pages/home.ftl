@@ -29,3 +29,5 @@ data-bubble-subtitle = אנו משחררים מדי פעם את מערך הנת�
 contact-us = יצירת קשר
 contact-us-title = מעוניינים להשתלב בפרויקט זה, או לשתף איתנו פעולה?
 contact-us-email = דואל: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = האם כבר הצטרפתם לקבוצת בדיקות הבטא של פרויקט 'דיבור ספונטני' של Common Voice?
+signup-terms = בכך שתלחצו על "שלח קישור לדואל", אתם מסכימים ל<termsLink>תנאים וההגבלות</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> שלנו, ולכך ש-Mozilla עשויה לשלוח אליכם דואל עם מידע כיצד להשתתף בבדיקות הבטא  עבור פרויקט 'דיבור ספונטני' של Common Voice.
