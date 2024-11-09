@@ -66,8 +66,8 @@ read-sentences = جملان راوے
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملان راوے، سوالان جواب دیت
-read-sentences-menu-item-tooltip = تان زبانا جملان رییاو محفوظ کو
-answer-questions-menu-item-tooltip = تان زبانا سوالان جواب دیاو وا اشاران محفوظ کو
+read-sentences-menu-item-tooltip = تان وارا جملہ رییاو محفوظ کو
+answer-questions-menu-item-tooltip = تان وارا سوالان وا اشاران جواب دیاو محفوظ کو
 
 ## MENU ITEM ARIA LABELS
 
