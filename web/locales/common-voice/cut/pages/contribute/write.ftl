@@ -140,6 +140,7 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = Gdinde ¿De'e ndodo se kugbii fnu mu'u naa koo?
 small-batch-sentences-rule-2 = Ama ndodono dudde
 small-batch-sentences-rule-4 = Ndi ama mil ndodo kugbi fnuu mu'u naa koo
+small-batch-sentences-rule-5 = Ndoskue'e ndodo se gnuu mu'u na koone adamanno de'es nee kama
 small-batch-sentences-rule-6 = Tndubee ndodo see fnuu mu'une daman ndoskue'e
 # menu item
 add-sentences = Kugbi fnuu ndodo mu'u naa koo
