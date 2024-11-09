@@ -125,3 +125,4 @@ contribution-varying-pronunciations-example-1-explanation = [Ndebe ndetese ekku 
 contribution-varying-pronunciations-example-2-title = Ndebese kamaya
 contribution-varying-pronunciations-example-2-explanation = ['Unne gne' ndetes a'a de'es iydiyanne nwe dittu ndé'oo]
 contribution-background-noise-title = Dittu ekku ndid chete
+contribution-background-noise-description = Ne'enose nase a'a taka didde ndinñu mu'une nome bee ama de'es ekku, kugbi kuekku anderes dittu ates kugbi kanbeo de'es ee inña. Ndtes kueekku ama se dkadkanoo ndebes stika; mit ndetes tett dittutuunne nwe ndebes tikate nwe kanbeo ndodo se nwe ndebe gnuu mu'u naa koo.
