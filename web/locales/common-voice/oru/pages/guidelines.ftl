@@ -89,3 +89,7 @@ adding-sentences-subheader-offensive-content-explanation =
     که ا جماه يې ته غصه او ته خفګان سبب جوړوک سَۀ ته خاص کونټنټ په وجه یا يې خلاف ورزي کوی ترماخ ته <communityGuidelines> ته کمیونېټی  ته هدلیات<communityGuidelines>  خلاف تو وه رد کېون یا يې ماخ ګیرډ رابطه کېون په پۀ لِنک 
     <emailFragment>commonvoice@mozilla.com</emailFragment> که ماخه ره دې څه حل نوريېن
 reviewing-sentences-explanation-1 = که  ا جمله ترماخ ائ بېژ بیان هدایات پورۀ کوی ته ئېس ا بټن ځنئ
+reviewing-sentences-explanation-2 = که  ا جمله ترماخ ائ بېژ بیان هدایات نک پورۀ کوی ته تو ا بټن ځنئ
+reviewing-sentences-explanation-3 = که ته جمله باره نر پُرۀ مطمئن نک بی تُو وه بو سکِپ ګه اېنچی او مخکی چیو او ا بيې بیان کی
+reviewing-sentences-explanation-4 = که تُو لاسته ته نظرثاني پناره ا جملي ختُم سېن، بيې دی بيے جملي جمع کَۀ۔
+domain-explanation = ا ډومېن ته جمله بُو ته جملۀ ا مضمون بیانَوي۔ ایزیره يې بُو تُو پئ لاسته ا ݭيې خوش کَۀ
