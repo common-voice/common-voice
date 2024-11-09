@@ -72,3 +72,4 @@ answer-questions-menu-item-tooltip = تریسپا تراسپونگلا تم لز
 
 speak-contribute-menu-aria-label = فسل خلونگ بیو زیر
 read-sentences-menu-item-aria-label = سکت کنینگنو کمیونٹی سی منفہ یودپی تم سیر کن زیر
+answer-questions-menu-item-aria-label = کمیونٹی لا زیربلا دیکھنہ جواب منمہ فری ینگ سوال چیک من

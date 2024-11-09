@@ -86,3 +86,5 @@ release-version = پھروسنہ
 dataset-date = جق
 license = ازن یودپو
 license-mixed = گریمسے
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = نیی سکتی ڈیٹا سیٹ کن ڈاون لوڈ بیوس
