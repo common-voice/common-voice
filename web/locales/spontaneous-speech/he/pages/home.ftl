@@ -8,3 +8,24 @@ why-spontaneous-speech = מדוע בנינו את 'דיבור ספונטני'
 why-card-1-text = שימושי עבור <mark>הקשרים טבעיים בדיבור</mark> ולתרחישי שימוש טבעיים. למשל, כאשר אתה רוצה שזיהוי דיבור יעבוד עם אנשים המדברים באופן שוטף ולא-רשמי, שלא מתסריט.
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = תמיכה טובה יותר בשימושי שפה במציאות כגון עירוב שפות (translanguaging) או <mark>החלפת קוד</mark> (code-switching)
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = תמיכה טובה יותר בשפות שבהן יש מעט או <mark>חסר לחלוטין קורפוס טקסט</mark> לשימוש (למשל, סוציולקטים, ניבים, שפות עתיקות לא-כתובות וכיוצ"ב)
+how-spontaneous-speech-works = כיצד עובד 'דיבור ספונטני'
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>הנחיה</mark>
+prompt-bubble-subtitle = אנו נציג לכם הנחיה או שאלה
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>תגובה</mark>
+respond-bubble-subtitle = אתם מגיבים או משיבים לה כמה שיותר בטבעיות
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>תמלול</mark>
+transcribe-bubble-subtitle = אתם כותבים את מה ששמעתם במקטעי שמע
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>בדיקה</mark>
+check-bubble-subtitle = אתם בודקים שהתמלול תואם את השמע
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>נתונים</mark>
+data-bubble-subtitle = אנו משחררים מדי פעם את מערך הנתונים
+contact-us = יצירת קשר
+contact-us-title = מעוניינים להשתלב בפרויקט זה, או לשתף איתנו פעולה?
+contact-us-email = דואל: <emailFragment>commonvoice@mozilla.com</emailFragment>
