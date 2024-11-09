@@ -107,3 +107,4 @@ contribution-varying-pronunciations-description-extended = შილღეჩო
 contribution-background-noise-description = ლე́ჸ თხოჼ მანქანურ თე́წდარეჩ ალგორითმინ მაკელო მუშებადაჼ ჴენჴენი თათნი ჲაშა́. ხატტინო̆ ტექსტ ხაწრენ ცო და́შლადო́ჰ̦, ლაჴეჼ აშირა́ მისაღებ ხილ'ო̆. ლახუჼ იშ ჲეჲნი̆ მუსიკ ხილ'არ ცო́მშაბალა, მუსიკენდალლ́ა დაშნი ცო ხაწე́ჰ̦, ეჰ̦ა́თ უარ დეწ ა́ლ'დალაჼ
 contribution-background-noise-description-extended = მაცმე́ ჩანაწერ დაჰ̦ ხე́ტე̆, ლე შარშარ ხაწე̆, უარ ა́ლ'ათ, დი́ნ ტექსტ იშტუჼ ჲაჰ̦
 contribution-background-noise-example-2-explanation = [ტექსტეჼ მონაკვეთ ცო ხაწე̆]
+contribution-background-voices-title = ჴეჩუჲშვ ა́მბუჲ ჲარ ხაწე́ ქო დაშლადო
