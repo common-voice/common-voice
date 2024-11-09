@@ -37,5 +37,7 @@ not-found-page-content = הדף שחיפשתם לא נמצא
 accept-privacy-and-terms = אני מסכימ\ה ל<termsLink>תנאים</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> של Common Voice
 en = אנגלית
 fr = צרפתית
+meh = מישטק של דרום־מערב טלקסיאקו
+mel = מלנאו מרכזית
 tr = טורקית
 xkl = קניה
