@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = تنارتان تقریرا گیکو پچین تہ تین منادار ریسیان
+# <br></br> represents a newline break
+wall-of-text = کمان وائس قدرتی، تنار تان وا نو نو نیویشیرو لوا پچین ایک خور ژاغا شروع کویان۔ ہیا امبوخ معلوماتان شاو بڑا ځیکا بو کمیونیٹان سون مدد کوئے، وا ڈیٹو سائنسدانان وا ساوزیکان تین دی فائدہ تریر۔
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارہ</mark>
 # text wrapped in <mark></mark> will have a blue background
