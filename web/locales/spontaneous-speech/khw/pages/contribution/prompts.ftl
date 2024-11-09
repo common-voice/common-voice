@@ -21,3 +21,6 @@ submit-all-button = سفان جمع کو
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = یہا صفحو استعمال کوریکو ݯھیݯھے
+learn-how-to-use-prompts-explanation = کندوری کی بیتاو قدرتی طریقہ اشاران ای کما جملہ صرف جواب دیت۔ ہیا لو ضررری کی تہ زبان شہیلی وا باعزت بائے۔
+learn-how-to-use-prompts-guidance = ہیا صفحو استعمالو ݯھیݯھیکو پچین ہیا<guidanceLink>کلک کو</guidanceLink>
+learn-how-to-use-transcribe = ہوازو نیوشیکا غیریک ݯھیݯھے
