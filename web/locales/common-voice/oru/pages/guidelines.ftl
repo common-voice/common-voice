@@ -52,3 +52,4 @@ citing-sentences = ته جملي ته حوالۀ ا ڒیوک
 adding-sentences = ته جملي ا ګډؤ
 reviewing-sentences = بيې جیرؤ ته جملي
 sentence-domain = ته جملۀ ا ډومېن
+public-domain-explanation-1 = آ يې ضروري هۀ که اره جملي ته پبلک ډومېن بېن </publicDomain> (<cc0>cc0</cc0>) کيې که ته مشترک آواز ا ډېټا بو ته  cc0 لائسنس ځېمه ړنګوَک سَۀ۔ جکه افئ جملي اپ لوډ کَوَک سون که ائ يې حواله دَرِن۔
