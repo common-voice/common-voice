@@ -8,7 +8,7 @@ clips-you-validated = ہواز تو تصدیق کوری اسوس
 todays-recorded-progress = ہنونو کامن وائسا ہوازان ریکارڈ بیرو کوروم
 todays-validated-progress = ہنونو کامن وائسا ہوازان تصدیق بیرو کوروم
 stats = حساب کتاب
-awards = تمغہ
+awards = انعام
 you = تو
 everyone = ہرایوالی
 contribution-activity = مدد کوراکان کوروم
@@ -42,13 +42,13 @@ lose-changes-warning = پیڅھی بیکو مطلب ہیا کی تو بدل دی
 build-custom-goal = تان تین ای حدف لکھے
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] { $hours } گھنٹہ { $language } وارا تان ذاتی مقصدو پورا کوریکا مدد کو
-       *[other] { $hours } گھنٹہ{ $language } وارا تان ذاتی مقصدو پورا کوریکا مدد کو
+        [one] { $hours } گھنٹہ { $language } وارا تان ذاتی حدافو پورا کوریکا مدد کو
+       *[other] { $hours } گھنٹہ{ $language } وارا تان ذاتی حدافو پورا کوریکا مدد کو
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] کامن وائسو { $hours }گھنٹہ ای وارا تان ذاتی حدفو پورا کوریکا مدد کو
-       *[other] کامن وائسو { $hours }گھنٹہ ای وارا تان ذاتی مقصدو پورا کوریکا مدد کو
+       *[other] کامن وائسو { $hours }گھنٹہ ای وارا تان ذاتی حدفو پورا کوریکا مدد کو
     }
 set-a-goal = ای حدف لکھے
 cant-decide = فیصلہ کوریکو نو بوسانا؟
