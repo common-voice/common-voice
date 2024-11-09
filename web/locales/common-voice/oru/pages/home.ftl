@@ -92,3 +92,6 @@ community-and-languages-menu-item-tooltip = زبنی، کمیونېټی او م�
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = ته وُرغېوي ا مېنیو
+partnerships-menu-item-aria-label = ته بائی والي مشترک آواز باره يې زدکړه کَۀ
+press-and-stories-menu-item-aria-label = پرېس ریلیز کی چیو او کهانئے مشترک آواز بارۀ نر
+community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونېټیز او ا زبنی که ا مشترک آوازه وبو سپورټ کوی
