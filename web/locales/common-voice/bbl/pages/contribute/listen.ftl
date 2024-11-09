@@ -16,6 +16,7 @@ validate-readings = ჰ̦ალო̆ ხატტრეჼ დასტურ
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ჰ̦ალო̆ ხატტრეჼ დასტურ, ტრანსპრიპციახ ბჵარკ ლალბარ
+validate-readings-menu-item-tooltip = ჩანაწერაჼ  შუ მატტმაქ ჰ̦ალო̆ ხატტრი ლარკ ჺო́ფრეხ დასტურ ა́ლ'ათ
 
 ## MENU ITEM ARIA LABELS
 
