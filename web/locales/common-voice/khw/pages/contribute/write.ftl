@@ -18,7 +18,7 @@ new-sentence-rule-2 = فی جملہ 15 کم لفظ
 new-sentence-rule-3 = صحیح گرائمر استعمال کو
 new-sentence-rule-4 = املہ وا زیر زبران صحیح استعمال کو
 new-sentence-rule-5 = نمبرو اوچے خاص حروفان استعمال موکو
-new-sentence-rule-6 = خور زبانو حرفان استعمال نوکو
+new-sentence-rule-6 = خور وارو حرفان استعمال نوکو
 new-sentence-rule-7 = مناسب حوالہ جاتان شامل
 new-sentence-rule-8 = جام ہش بوئے کہ قدرتی اوچے لوار نسار  (جملہ ریکا آسان بائے)
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو پچین
@@ -152,9 +152,9 @@ add-sentences = جملہ شامل کو
 
 write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیویشیکا انگے
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
-review-sentences-menu-item-tooltip = تان زبانو جملان وا لوڑے
-add-questions-menu-item-tooltip = تان زبانا سوال شامل کو
-transcribe-audio-menu-item-tooltip = تان زبان ہوازو رکارڈنگو نویشیکا انگے
+review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
+add-questions-menu-item-tooltip = تان وارا سوال شامل کو
+transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
@@ -162,4 +162,4 @@ write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
 add-sentences-menu-item-aria-label = تان رویان ریکو پچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو پچین  نوغ سوال کو
-transcribe-audio-menu-item-aria-label = تان زبانا ہوازو رکارڈنگو نویشیکا انگے
+transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نویشیکا انگے

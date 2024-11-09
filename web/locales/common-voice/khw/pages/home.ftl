@@ -78,18 +78,18 @@ review-transcriptions = نویشیروان وا لوڑے <small> (شاو گوی�
 add-questions = سوال شامل کو <small> (شاو گویان)</small>
 transcribe-audio = ہوازو نویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
-community-and-languages = کمیونیٹی وا زبان
+community-and-languages = کمیونیٹی وا وار
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = حصہ داری، اخبار، مضمون، کمیونیٹی وا زبان
+about-menu-tooltip = حصہ داری، اخبار، مضمون، کمیونیٹی وا وار
 partnerships-menu-item-tooltip = اسپہ سون حصہ دار بوس
 press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نویشے
-community-and-languages-menu-item-tooltip = کمیونیٹیو اوچے زبانان وا ای قسمہ ہوازان مشکے
+community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے واران وا ای قسمہ ہوازان مشکے
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
 partnerships-menu-item-aria-label = کمان وائسو سون حصہ دار بیکو بارا ݯیݯھے
 press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
-community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹان وا زبانان کی مدد کویان تیتان پتہ کو
+community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران کی مدد کویان تیتان پتہ کو
