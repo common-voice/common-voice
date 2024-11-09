@@ -17,3 +17,4 @@ varying-pronunciations-explanation-2 = ته پۀ برخلاف که ترتُو ي
 varying-pronunciations-example = ا رایٛ صفا نک بُک
 varying-pronunciations-tip-1 = [کېنېډئن انګرېزي نربُو ا ”route”سا ته ” rowt” غُندک امريېک سَۀ ]
 varying-pronunciations-tip-2 = [برطانوي انګرېزي نر سُو سا ته ”root” غنندک غوېک سَۀ]
+offensive-content-explanation = ا جملي بو ته کمیونېټی ماډرېشن په ذریعه صحیح کَوَک سېن۔ بيې خه آ طریقه يې ګه پُورۀ ۔صحیح نک هۀ۔ که تُو ګُده سا فقرۀ څُوني یا يې امر که افا ترکوک ته زلی ته ازار سبب جوړوَک سَۀ، سکه مثال آ ته کمیونېټ شرکت هدایات نر خنډ <participationGuidelines> جوړوَک سَۀ </participationGuidelines> بيې UI ته بلېګ ا بټن ځنئ۔ تیوس يې کُوماخ ګډ دۀ ګۀ رابطه نوک اېنڅئ commonvoice@mozilla.com
