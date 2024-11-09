@@ -147,6 +147,14 @@ add-sentences = Kugbi fnuu ndodo mu'u naa koo
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Ndobnede ndodo mi nome nbekuendede, nome tomunide, dudde ndodo se gnuu mu'u naa koo
+add-sentences-menu-item-tooltip = Ndobned ndodo yi'i dbaku yi'ide
+review-sentences-menu-item-tooltip = Nbekuendede ndodo yi'i dbaku yi'ide
+add-questions-menu-item-tooltip = Ndobnede ndodo yi'i dbaku yi'ide
+transcribe-audio-menu-item-tooltip = Chod naa ama kaka ndodo dbaku yi'ide se gnuu mu'u na koo
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Mu'u tndanude taka ne'e dudde
+add-sentences-menu-item-aria-label = Tndobned tama ndodo tomene kuee inña yi'i yabakude
+review-sentences-menu-item-aria-label = Nbekuended ndodo se kama inña yi'i yaabakude
