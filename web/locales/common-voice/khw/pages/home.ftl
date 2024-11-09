@@ -76,7 +76,7 @@ read-more-about = اسپہ متعلقہ صفحہ بی خور دی راوے
 answer-questions = سوالان جواب دیت<small> (شاو گویان)</small>
 review-transcriptions = نویشیروان وا لوڑے <small> (شاو گویان)</small>
 add-questions = سوال شامل کو <small> (شاو گویان)</small>
-transcribe-audio = آوازو نویشیکا غیراوے<small> (شاو گویان)</small>
+transcribe-audio = ہوازو نویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا زبان
 
