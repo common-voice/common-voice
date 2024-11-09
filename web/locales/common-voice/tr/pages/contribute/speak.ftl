@@ -60,3 +60,11 @@ already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login
 create-profile-button = Profil oluştur
 # IMAGE TAGS
 img-alt-success-checkmark = başarı onay işareti
+# menu item
+read-sentences = Cümleleri oku
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
