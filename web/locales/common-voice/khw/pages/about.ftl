@@ -67,7 +67,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ا�
 about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو وار شینی۔ تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان وار شامل کوریکو پچین درخواست کو</pontoonRequestLink>۔ اچی ہے واران کامن وائسو پروجکٹا دستیاب بیکو پچین<githubRepoLink> GitHub</githubRepoLink> بی نوغ وارو درخواست کو۔ <localizationFragment>۔ خور معلومات پچین سائٹو ترجمولوڑے</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملان جمع کوریک
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو استعمالو بارا اسپہ رہنمائیو لوڑے </sentenceCollectorVideo>
-about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملان شامل کوریکو بوس</sentenceCollectorLinkAdd> یا گیتھب </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد سوتے جملہ <licenseLink> CC0 (ہرکوس استعمالو دائرو )</licenseLink> بانی یا تو تان دی نویشکو بوس۔
+about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملہ شامل کوریکو بوس</sentenceCollectorLinkAdd> یا گیتھب </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد کورے جملہ <licenseLink> CC0 (ہرکوس استعمالو دائرو )</licenseLink> بانی یا تو تان دی نویشکو بوس۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو پچین جملہ جمع کوراکو</sentenceCollectorFragment> لوڑے۔
 
 ## How does localization work
@@ -81,7 +81,7 @@ about-playbook-how-localize-content-5 = مدد پچین اسپہ وضاحت دی
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = جملان اوا کیچہ کوری شامل کوم؟
+about-playbook-how-add-sentences = اوا کیچہ کوری جملہ شامل کوم؟
 about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نویشے یا ہیا<reviewPageLink> جملان لوڑے۔ <reviewPageLink> وا لوڑیکو صفحہ</reviewPageLink>
 about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو پچین جملان جو ژون ولوڑے لیک وا جو ژون تیتان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان وارو پچین رہنمائی ساوزیکو بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیا طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
 about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو پچین جملہ نیزاک<scraperLink> دی استعمال کوریکو بوس

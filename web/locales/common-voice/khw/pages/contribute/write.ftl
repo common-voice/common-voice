@@ -11,7 +11,7 @@ citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
 sc-write-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان پچین شیر </wikipediaLink> اوا ہمو اپلوڈ کوریکو اجازت دومان
-sc-review-write-title = کیا قسمہ جملان شامل کوریکو بوم؟
+sc-review-write-title = کیا قسمہ جملہ شامل کوریکو بوم؟
 sc-review-small-batch-title = ذیاد جملان کیچہ کوری شامل کوریلیک
 new-sentence-rule-1 = <noCopyright>کاپی رائٹ نیکی</noCopyright> پابندی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = فی جملہ 15 کم لفظ
@@ -100,8 +100,8 @@ too-many-files = بو ذیاد فائل
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> عام رویان دائرہ امبوخ جملان شامل کو
-multiple-sentences-error = تو ای وحتا امبوخ جملان شامل کوریکو نو بوس
+small-batch-instruction = <icon></icon> عام رویان دائرہ امبوخ جملہ شامل کو
+multiple-sentences-error = تو ای وحتا امبوخ جملہ شامل کوریکو نو بوس
 exceeds-small-batch-limit-error = 1000 ذیاد جملہ جمع کورین نو بوئے
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
