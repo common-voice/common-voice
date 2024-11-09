@@ -34,6 +34,7 @@ no-information = معلومات نی درو
 resource-nemo-info = <githubLink>NVIDIA NeMO</githubLink> درو ایک<docsLink>کولو سورس ٹول کٹ</docsLink>تحقیق کُرالہ کی جدید ترین مُشکُلہ مشتمل AIتیار کُنومہ
 resource-coqui-info = <coquiLink>Coqui</coquiLink> اوپن تقریر ٹیکنالونی تہ پرئی وقف درو۔ مسونہ منصوبہ ابُت ازدہ کُرال SST آں TTS تہ سرچ انجن نم درو
 community-playbook = کمیونٹی ساں پلے بُک(لگن تہ کِتب)
+resource-playbook-info = <playbookLink> مدد گار رہنمائی ویچا</playbookLink> عام کاڻ تہ پورہ سفرہ، لوکل ئزیشن تہ ڈیٹا سہٹ تہ استعمل تلی، امونہ کمیونٹی ملی کنو کُری کنٹکٹ کُری بہ۔
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس کی یت
 go-languages-page = باڜہ تہ پھٹہ کی یت
