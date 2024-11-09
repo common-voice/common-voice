@@ -11,6 +11,8 @@ wall-of-text-second = اکثر ډېټا که ائ غټ غټ کمپنيې وه ب
 show-wall-of-text = بيې دی ګه غؤس
 help-us-title = ترماخ مدد کوئ که جملي ر پکر زېن
 help-us-explain = پلے ځنئ، امرئ او ماخ کی ره شام کوئ: که ا څېم لیکک جمله صحیح غوېک سُک؟
+no-clips-to-validate = سا بو اؤسا سکه پۀ زبان نر دې هېڅ کلِپی نکِن که ماخه وه اميېن۔ ترماخ مدد کوئ که او خالی ځاک پُر کيېن ته څه ریکارډنګ په کېک پېری
+toggle-play-tooltip = پرېسه کئ { shortcut-play-toggle } که ته ټوګل موډ کی څېن
 
 ## Account Benefits
 
