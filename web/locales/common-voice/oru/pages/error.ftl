@@ -7,3 +7,5 @@ error-something-went-wrong = معذرت که څۀ يې خه وران ݭیوک
 error-clip-upload = ته پۀ کلِپ ا اپ ډېټ بو فېل کېک سَۀ، تُو ا خوئ کر جاري سېتن
 error-clip-upload-server = ته پۀ کلِپ ا اپ ډېټ بو سرور نر فېل کېک سَۀ۔ ا صفحه بيې لوډ کَۀ یا وه سۀ ساعت بعد بيې کوشِش کَۀ
 error-title-404 = ماخ افا صفحۀ ترتُو پاره واک نک
+error-content-404 = سَۀ بُو که ترماخ <homepageLink> هوم پېج</homepageLink> لنک يې مدد کوی؟ ته سوال ته پِشتِنه پاره <matrixLink> مېټرکس جائن کېون۔ مېټرکس کمیونېټی چېټ </matrixLink> ته سائټ ا مسلي ته <githubLink> په ذریعۀ۔ GitHub </githubLink> یا چیو <discourseLink> کی۔ ترماخ ته بحث ا فورم </discourseLink>
+error-title-503 = ماخ يې بُو ته دمه یا ته چُوټي وخت محسوس کېن
