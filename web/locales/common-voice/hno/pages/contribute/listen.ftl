@@ -17,6 +17,7 @@ validate-readings = پڑھن دی تصدیق کرو
 
 listen-contribute-menu-tooltip = پڑھن دی تصدیق کرو، ٹرانسکرپشن دا جائزہ گھنو
 validate-readings-menu-item-tooltip = اپنڑی زبان بچ پڑھن آلیاں دے پڑھے دی تصدیق کرو
+review-transcriptions-menu-item-tooltip = اپنڑی زبان بچ استعمال آلیاں دی جمع کیتی ٹرانسکرپشن دی تصدیق کرو
 
 ## MENU ITEM ARIA LABELS
 
