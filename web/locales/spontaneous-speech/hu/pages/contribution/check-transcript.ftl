@@ -9,3 +9,12 @@ vote-transcript-success = Sikeresen szavazott a leiratra
 vote-transcript-error = Hiba történt a leiratra szavazás során
 transcript-edited-success = Sikeresen szerkesztette a leiratot
 transcript-edited-error = Hiba történt a leirat szerkesztése során
+error-fetching-transcriptions = Hiba történt a leiratok lekérése során. Próbálja újra később.
+transcript-skipped-success = Sikeresen kihagyta a leiratot
+transcript-skipped-error = Hiba történt a leirat kihagyása során
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = Helyes
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Kész
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Szerkesztés
