@@ -65,6 +65,10 @@ read-sentences = تم سیر کن زیر
 
 ## MENU ITEM TOOLTIPS
 
+read-sentences-menu-item-tooltip = یری سکت پینگنو تم سیر کن زیرینچی ریکارڈ بیوس۔
+answer-questions-menu-item-tooltip = تریسپا تراسپونگلا تم لزوغین یری سکت پینگنو ریکارڈ بیوس
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = فسل خلونگ بیو زیر
+read-sentences-menu-item-aria-label = سکت کنینگنو کمیونٹی سی منفہ یودپی تم سیر کن زیر
