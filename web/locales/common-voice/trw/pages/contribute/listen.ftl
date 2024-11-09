@@ -10,3 +10,14 @@ listen-loading-error = مھو کیش کی اواز سی کلپس چھی بُھو
 listen-abort-title = تصدیق کؤ سی کیا کلپس لھأد؟
 listen-abort-cancel = تصدیق جاری کو
 listen-abort-confirm = تصدیق لھأد
+# Menu item
+validate-readings = ریڈنگ سی تصدیق کوا
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = ریڈینگ سی تصدیق کوا، ٹرانسکریپشن سی جائزہ گھیِنا
+validate-readings-menu-item-tooltip = تُنو جیِب می خلگا سی ریکارڈ کوئل ریڈنگز سی تصدیق کوا
+review-transcriptions-menu-item-tooltip = خلگا سی دیِشا تھیلیل ریکارڈنگا سی لیِکھ سی تصدیق کوا
+
+## MENU ITEM ARIA LABELS
+
