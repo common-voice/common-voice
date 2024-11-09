@@ -1,3 +1,6 @@
+# Age and Gender form
+age-gender-form-title = Köszönjük, hogy közreműködik a Spontán beszédben.
+age-gender-form-subtile = Azáltal, hogy bemutatkozik, segít a fejlesztőknek, hogy sokoldalúbb technológiát készítsenek
 add-information-button = Információk hozzáadása
 continue-speaking-button = Beszéd folytatása
 age-select-label = Hány éves?
