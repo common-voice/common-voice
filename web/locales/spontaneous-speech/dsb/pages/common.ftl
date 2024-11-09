@@ -11,11 +11,30 @@ contribution-picker-label = K datowej sajźbje za rěc { $language } pśinosowa�
 # Label for button on contribution switcher
 change = Změniś
 coming-soon = Dalšne rěcy skóro pśidu
+media-recorder-api-not-supported = MediaRecorder API se we wašom wobglědowaku njepódpěra.
+# Toast message that is displayed when an item is skipped
+skipped = Pśeskócony
+audioplayer-header = Słuchaś
+guidelines = Směrnice
+# For the button to report an item
+report-button = K wěsći daś
+# For the button to skip an item
+skip-button = Pśeskócyś
+submit-button = Wótpósłaś
+contribute = Pśinosowaś
 
 ## Navbar
 
+respond-to-prompt = Na naspominanje wótegroniś
 transcribe-audio = Awdio transkriběrowaś
+check-transcriptions = Transkripcije pśeglědowaś
 
 ## Not Found Page
 
+not-found-page-header = Njenamakany
+not-found-page-content = Bok, kótaryž pytaśo, njejo se namakał
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
+en = Engelšćina
 fr = Francojšćina
+tr = Turkojšćina
