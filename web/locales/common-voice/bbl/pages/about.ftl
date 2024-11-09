@@ -127,6 +127,11 @@ about-playbook-how-project-governance = ჰ̦ა́ნას ღე́ბადჲ
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice თაგჲიეჼ დუჴ ჴეჩჴეჩნა́ირ ნახვ, ო́ჴარლო დო́უგო̆ ე́ნათმეცნიერი, მონაცემა́ჼ მეცნიერი, ჴე́თნიში, პროგრამულ უზრუნველყო́ფეჼ სპეცია́ლისტი დინჩ მაჲთხკიკლერეჼ. ხელმძღვა́ნელობ ე́ბწო̆ Mozilla Foundation-ეს.
 about-playbook-how-project-governance-content-2 = თხეჼ მმა́რთველობეგო საყრდე́ნეღ და:
 about-playbook-how-project-governance-content-3 = პირადულობ, გამჭვირვალობ, უსაფრთხოებ
+about-playbook-how-project-governance-content-4 = ნახიჼ ჩართულობ გადაწყვეტილბი ღებადოშ
+about-playbook-how-project-governance-content-5 = დაფასებ, აღიარებ
+about-playbook-how-project-governance-content-6 = ვაშიციჼ პასუხისმგე́ბლობ
+about-playbook-how-project-governance-content-7 = <governanceLink>გიბათ შა́რეშ, მო́ჰ̦ უ̂ხ მა́რთოდო́თხ</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = მო́ჰ̦ ფინა́ნსბალა Common Voice?
