@@ -48,7 +48,7 @@ report-offensive-language-detail = جملہ شوم یا غیر مہذب لو ش�
 report-grammar-or-spelling = گرائمر/ہجو غلظ
 report-grammar-or-spelling-detail = جملہ گرائمرو یا ہجو غلطی شیر
 report-different-language = خور وار
-report-different-language-detail = اوا کیا وارا کی لو دومان ہیا ہتے وارا نو نویشیشیر۔
+report-different-language-detail = اوا کیا وارا کی لو دومان ہیا ہتے وارا نو نیویشی شیر۔
 report-difficult-pronounce = ادا کوریک مشکل
 report-difficult-pronounce-detail = ہیا ہش لفظ یا چیق جملہ شینی کی  ہتان ریک یا ادا کوریک مشکل
 report-offensive-speech = شوم لو
@@ -100,7 +100,7 @@ contribution-criteria-page-title = حصہ گنیکو اصول
 contribution-criteria-page-description = ہیا لوو ہوش کوکی ہوازو کار کی کوراو اوشوو کیا اشناریو لوڑیلیک وا تان ہوازو جام کوریکو بچین مدد کو
 contribution-for-example = مثالو تورا
 contribution-misreadings-title = غلط ریک
-contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کوکیاٰغ کی رکارڈ بیتی شیر نویشیرو دی اسیتان؛ معمولی غلطی دی کی اشوئے مسترد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
+contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کو،کیاٰغ کی رکارڈ بیتی شیر نیویشیرو دی اسیتان؛ معمولی غلطی دی کی اشوئے رد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
 contribution-misreadings-description-extended-list-1 = کمی <strong>'الف'</strong> یا <strong>''</strong> رکارڈنگو شروعا
 contribution-misreadings-description-extended-list-2 = لفظو اخیرا ای <strong> س<strong> کی نو اشوئی
 contribution-misreadings-description-extended-list-3 = اسکوردی ریک کہ ہس حقیقت ہیرا موجود نیکی کیچہ کی  "We are"  ژاغا "We're" یا ہمیتان اچی پوشٹی الیک
@@ -112,12 +112,12 @@ contribution-misreadings-example-2-explanation = [ ڈائنوسار بیلیک]
 contribution-misreadings-example-3-title = ٹرائزیو لوٹ ڈائنوسار
 contribution-misreadings-example-3-explanation = [اخیری لفظار پوشٹی رکارڈنگو بند کوریک]
 contribution-misreadings-example-4-title = ٹرائزیکو لوٹ ڈائنوسار۔ دی۔
-contribution-misreadings-example-4-explanation = [ کندوری کی نویشیرو حاجت، ہیتیغار ذیاد رکارڈ کورنو بیتی شیر ]
+contribution-misreadings-example-4-explanation = [ کندوری کی نیویشیرو حاجت، ہیتیغار ذیاد رکارڈ کورنو بیتی شیر ]
 contribution-misreadings-example-5-title = اسپہ بیری کافی پیاو بیسیان
 contribution-misreadings-example-6-title = اسپہ بیری کافی پیاو بیسیان
 contribution-misreadings-example-6-explanation = [ ہیا “اسپہ ” بیلیک]
 contribution-misreadings-example-7-title = اسپہ بیری کافی پیاو بیسیان
-contribution-misreadings-example-7-explanation = [اصل نویشیروا 'الف' نیکی]
+contribution-misreadings-example-7-explanation = [اصل نیویشیروا 'الف' نیکی]
 contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار پوشٹی نیسیتائے
 contribution-misreadings-example-8-explanation = [ بورنگا اشناری]
 contribution-varying-pronunciations-title = مختلف طریقہ ریک
@@ -128,19 +128,19 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحی�
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی
 contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک ریکا(سانسا) ادا بوئے، جوا نو]
 contribution-background-noise-title = اݯھو شور
-contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ گوݯتو ہوازو سنبال کورار وا  نسبتا بو توڑ ہوازو منظور کوریکو بار بشرطہ ہتیت  تمام نویشیرو کار کوریکو منع مو کورار۔ لش گوݯتو ہواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
-contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نویشیرو ریکو ہواز کارا نو دوئے
+contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ گوݯتو ہوازو سنبال کورار وا  نسبتا بو توڑ ہوازو منظور کوریکو بار بشرطہ ہتیت  تمام نیویشیرو کار کوریکو منع مو کورار۔ لش گوݯتو ہواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
+contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نیویشیرو ریکو ہواز کارا نو دوئے۔
 contribution-background-noise-example-1-fixed-title = <strong>[اشتروخیک]</strong> بلاہ ڈائنوسار <strong>[کوپیک]</strong> ٹرائزک.
 contribution-background-noise-example-2-fixed-title = بلاح ڈاینو <strong>[کوپیک]</strong> ٹرائزک.
-contribution-background-noise-example-2-explanation = [نویشیرو پھوک حصہ کارا نو دویان]
+contribution-background-noise-example-2-explanation = [نیویشیرو پھوک حصہ کارا نو دویان]
 contribution-background-noise-example-3-fixed-title = <strong>[کڑک]</strong>رائزیکو لوٹ ڈائنوسار   <strong>[کڑک]</strong> -
 contribution-background-voices-title = اݯھو ہواز
-contribution-background-voices-description = پیک پس منظر صحیح۔ لیکن اسپہ نو مݰکیسیان کہ خور ہواز مشینو حساب کتابا ہݰ لفظان پشیکو وجہ بائی کی ہتیت نویشیرو نیکی۔اگر تو نویشیرووار علاوہ سفا لفظ کار کی ارو ہسے اسکوردی ہواز رد کو۔ عام طورا ہیا ٹی ویو کھولاو پیځیکو وجہیں بویان یا شویا مشقولگیو۔
-contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نویشیرو ریکو ہواز کارا نو دوئے
+contribution-background-voices-description = پیک پس منظر صحیح۔ لیکن اسپہ نو مݰکیسیان کہ خور ہواز مشینو حساب کتابا ہݰ لفظان پشیکو وجہ بائے کی ہتیت نیویشیرو نیکی۔اگر تو نیویشیرورار علاوہ سفا لفظ کار کی ارو ہسے اسکوردی ہواز رد کو۔ عام طورا ہیا ٹی ویو کھولاو پیځیکو وجہیں بویان یا شویا مشقولگیو۔
+contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نیویشیرو ریکو ہواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای ہواز راوے]</strong>
 contribution-background-voices-example-1-explanation = توگوسانا؟ <strong>[ خور کا ہوئے پرائے ]</strong>
 contribution-volume-title = توڑ-لش
-contribution-volume-description = ریاکان ہواز قدرتی طورا کم ذیاد بوئی۔ ہتے صورتا در کو کہ ہواز ہنی توڑ  اوشوئی کہ ݯیاو اشوتائی۔(ذیادہ عام طورا) کہ بو لاش اوشوئی کیا ران رے کارا کی نو دیاواوشتائے نویشیرو لوڑے۔
+contribution-volume-description = ریاکان ہواز قدرتی طورا کم ذیاد بوئی۔ ہتے صورتا در کو کہ ہواز ہنی توڑ  اوشوئی کہ ݯیاو اشوتائی۔(ذیادہ عام طورا) کہ بو لاش اوشوئی کیا ران رے کارا کی نو دیاواوشتائے نیویشیرو لوڑے۔
 contribution-reader-effects-title = ریاکان اثر
 contribution-reader-effects-description = ذیاد رکارڈنگ ہتے رویان کاکی تان قدرتی ہوازا لوو دونیان۔  تو ایگانا ہتے غیر معیاری ہواز کی ہتیت شور، لاش لو وا ڈرامائی ہواز بدل بیتی شینی دی منظور کوریکو بوس۔ مہربانی کوری باشاوونان اوچے کمپیوٹیرو ترتیب دیرو ہوازان رد کورے۔
 contribution-just-unsure-title = صرف غیر یقینی

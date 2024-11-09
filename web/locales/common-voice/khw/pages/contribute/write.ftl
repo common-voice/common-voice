@@ -5,8 +5,8 @@ write-instruction = عام رویان بارا<icon></icon> جملہ شامل ک
 write-page-subtitle = کیا جملو ہایا کی نیویشینو ہوئے ہتوغو عام رویان پچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان پچین تان جملان ہایا نویشور
-small-batch-sentence-input-placeholder = عام رویان بارا تان جملان ہیا نویشے
+sentence-input-placeholder = عام رویان دائرو جملان ہایا نیویشور
+small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
@@ -154,7 +154,7 @@ write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، 
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان وارا سوال شامل کو
-transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نویشیکا انگے
+transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
@@ -162,4 +162,4 @@ write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
 add-sentences-menu-item-aria-label = تان رویان ریکو پچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو پچین  نوغ سوال کو
-transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نویشیکا انگے
+transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
