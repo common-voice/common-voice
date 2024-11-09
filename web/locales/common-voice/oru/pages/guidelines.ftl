@@ -76,4 +76,4 @@ adding-sentences-subheader-spelling-punctuation-explanation = ته جمله ا �
 adding-sentences-subheader-speakable = ته غوېڅن قابل
 adding-sentences-subheader-speakable-explanation = بهترین جملۀ يې افا هۀ که قدرتي او په اساني سره يې غوېڅن قابل بَۀ ــآ و ته قاري پاره اسان بَه۔ کيې که فونېټکي اختلاف او ته مختلف الفاظ ا موجودګي يې ݭيې جملۀ نر مهم هۀ ماخ بُو او کوشِش کيېن که ا ریکار کوونکئ جملي سا جوړ کيېن که ائ ترماخ ته رضاکار کمیونېټی پاره کشش او دلچسپي دَرِن۔
 adding-sentences-subheader-numbers = نمبري
-adding-sentences-subheader-numbers-explanation = ته حواله ټېکست نر يې خه ته هندسي ا لیک نک پکر هۀ کيې
+adding-sentences-subheader-numbers-explanation = ته حواله ټېکست نر يې خه ته هندسي ا لیک نک پکر هۀ کيې آئ يې بُو تَۀ مسلۀ جوړوِن کان بُو که ټېکسټ په زوټه غوېک سَۀ۔ په څېن طریقۀ بو
