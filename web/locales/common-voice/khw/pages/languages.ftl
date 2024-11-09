@@ -6,10 +6,10 @@ language-section-launched = شروع ہوئے
 language-section-launched-description = ہمی شروع بیرو واران ویب سائٹ کامیابیو سورا <localizationGlossaryLink> مقامی ہوئے</localizationGlossaryLink> وا ہیارا کافی<sentenceCollectionGlossaryLink> جملہ جمع ہونی</sentenceCollectionGlossaryLink> جاری کوریکو اجازت <speakLink> لوو </speakLink>وا<listenLink> کارکوریکا </listenLink> حصہ گانیک
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = اخیری اپڈیٹ
-languages-show-more = زیاد لوڑے
+languages-show-more = ذیاد لوڑے
 languages-show-less = کام لوڑے
 language-meter-in-progress = جاری
-language-total-progress = تمام
+language-total-progress = تھمام
 language-search-input =
     .placeholder = تلاش
 language-speakers = لو دیاک
