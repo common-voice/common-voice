@@ -119,9 +119,11 @@ about-playbook-how-validate-content-4 = შინ ა́დმენევ და
 
 about-playbook-how-access-dataset = მოჰ̦ ჴმა́რბადჲოს მონაცემა́ჼ კრე́ბულ?
 about-playbook-how-access-dataset-content-1 = მაკ შუჼ დაჰ̦ დო́ტაჼ <datasetsPage> მონაცემა́ კრე́ბულ ფენმაქ (გვე́რდენმაქ) </datasetsPage>, ვერსია ჩავარჲაჼ, ჩუ ჩაწე́რადჲაჼ ლე́ჸინო̆ მოტტ (მატტიშ) ჲე ჩამოტვირთოდჲაჼ! იშა́რეჩო̆ ფაილა́ხ ჴაჲთთო̆ <metadataLink>და დანართ</metadataLink>, მე́ნხუჲჩოლოჰ̦ა წე́რალა დემოგრა́ფიულ ინფორმაციაა́ მოხა́ლისაჼ ჩანაწე́რია.   კრე́ბულ ჩამოტვირთადანა́ჲნო̆ ჩუ ჲეწი́შ ჲაჰ̦აჼ ელფო́სტ
+about-playbook-how-access-dataset-content-2 = ლეხოჰ̦ი́შ ხელსაწყუჲ იშჲაბწუჲნი̆ (ASR) მოდელ თაგჲანაჲნო̆, მაკ შუ́ჼ ვაჲ ე́რთობ ჴე́ჩო̆ წე́ვრიციჼ დაკეჲვშრებადალაჼ<discourseLink>Discourse-მაქ</discourseLink>
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ჰ̦ა́ნას ღე́ბადჲო გადაწყვე́ტილბი ეჴ პროექტე?
 
 ## How is Common Voice funded
 
