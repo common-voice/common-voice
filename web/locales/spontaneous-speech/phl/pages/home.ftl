@@ -1,7 +1,11 @@
 ## Home page
 
 welcome-to-spontaneous-speech = بے ساختہ تقریری وے خوش آمدید
+# <br></br> represents a newline break
+wall-of-text = کامن وائس تیز، بے ساختہ، غیر اسکرپٹ شدہ تقریر  جمع تھئنی جھلی توجہ داٹو دھیامہ پلیٹ فارم شروع تھانو ۔ ڑس باندی بیڈی کمپنیوم تھے تیزی کی ڈیٹا جمے تھئنی مدد ملاؤ بھی۔ او ڑس سنگی اکٹجی انو ڈیٹا  سائنسدانومی اور ڈویلپرزی دپارہ مفید ثابت بھی۔
 why-spontaneous-speech = اسم انو بے ساختہ اسپیچ پروٹو ٹائپ کے سمولو ہنو
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = <mark>آرگینک اسپیچ سیاق و سباق</mark> دپارہ مفید اور کیسی استعمال تھہ (مثال کی اگر تو دوئیانو کی اسپیچ ریکگنیشن ایسے خلکیم سنگی کرام تھی کی سے غیر اسکرپٹ او بول چال کی کھونڈانہ)
 how-spontaneous-speech-works = بے ساختہ تقریر کنا تھے کرام تھینی
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامپٹ</mark>
