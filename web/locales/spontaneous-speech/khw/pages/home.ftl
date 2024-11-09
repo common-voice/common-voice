@@ -10,17 +10,22 @@ why-card-1-text = فائد مند بوئے<mark> پوشٹہ لو دیکو حال
 why-card-2-text = بہتر ہݰ بوئی کی واران حقیقی مدد بار کیچیہ ترجمہ وا<mark> خور لفظان استعمال</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = بہتر ہݰ بوئے کی ہتے واران مدد بائے کیا وارا بو کم<mark> یا  استعمالو(مثلا سماجی، مخفتلف شکلان ، تاریخی طورا ہتیت نویشیکا نیکی ) نویشیرو شیر تان نو
+how-spontaneous-speech-works = ایسپونٹینئس اسپیچ کیچہ کوروم کویان؟
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارہ</mark>
+prompt-bubble-subtitle = اسپہ تا تین ای اشارہ یا سوال پشیسی
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جواب دیت</mark>
+respond-bubble-subtitle = ہمو تین تا جواب کندوری کی ہوئے قدرتی بیلیک
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>نویشیکا غیراوے</mark>
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>لوڑے</mark>
+check-bubble-subtitle = چیک کوکی کی نویشیرو اوچے ہواز ای قسمہ؟
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ڈیٹا</mark>
 contact-us = اسپہ سون رابطہ کو
+contact-us-title = تا ہیا پروجکٹا شامل بیکو دلچسپی شیرا یا اسپہ سون حصہ دار بوسان؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = تان ای میل ایڈریسو نیویشے
 signup-button-value = لینکو ما ای میلو تین انځاوے
