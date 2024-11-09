@@ -4,6 +4,8 @@ welcome-to-spontaneous-speech = تنارتان تقریرا گیکو پچین ت
 # <br></br> represents a newline break
 wall-of-text = کمان وائس قدرتی، تنار تان وا نو نو نیویشیرو لوا پچین ایک خور ژاغا شروع کویان۔ ہیا امبوخ معلوماتان شاو بڑا ځیکا بو کمیونیٹان سون مدد کوئے، وا ڈیٹو سائنسدانان وا ساوزیکان تین دی فائدہ تریر۔
 why-spontaneous-speech = اسپہ ہیا سپونٹینئس اسپیچو ای نمونہ کو ساوزیسیان؟
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = فائد مند بوئے<mark> پوشٹہ لو دیکو حالاتا</mark> وا ہورو استعمال ہݰ ٹائم بوئے (مثلا تو ہݰ مݰکیسان کہ لوو ہوݰ کوراک ہتیتان سون کوروم کورار کا کی نو نویشیرو وا عام لو دونیان )
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارہ</mark>
 # text wrapped in <mark></mark> will have a blue background
