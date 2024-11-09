@@ -24,3 +24,6 @@ learn-how-to-use-prompts = یہا صفحو استعمال کوریکو ݯھیݯ�
 learn-how-to-use-prompts-explanation = کندوری کی بیتاو قدرتی طریقہ اشاران ای کما جملہ صرف جواب دیت۔ ہیا لو ضررری کی تہ زبان شہیلی وا باعزت بائے۔
 learn-how-to-use-prompts-guidance = ہیا صفحو استعمالو ݯھیݯھیکو پچین ہیا<guidanceLink>کلک کو</guidanceLink>
 learn-how-to-use-transcribe = ہوازو نیوشیکا غیریک ݯھیݯھے
+learn-how-to-use-transcribe-explanation = کوس لوو بلکل ہتے قسمہ نیویشے، ژاغا گاناکان، اوم یا ایر قسمہ لفظان دی شامل کو
+learn-how-to-use-transcribe-guidance = ہیا صفحو استعمالو ݯھیݯھیکو پچین ہیا<guidanceLink>کلک کو</guidanceLink>
+learn-how-to-use-check-transcript = نیویشیرو لوڑیک ݯھیݯھے
