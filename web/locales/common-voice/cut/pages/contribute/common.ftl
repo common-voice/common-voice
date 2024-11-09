@@ -121,3 +121,5 @@ contribution-varying-pronunciations-title = Na'a ndodone nome nwe dama
 contribution-varying-pronunciations-description = Fdadu diide tase nwe teyunnide se fnuu ama ndodo mu'u naa koo o ndetese nwe ndee ekku. A bi'i iynde'e inña yi'i nñiese, na'ane ndi bte kanbede yabakuyi'ide. Ate ndetese iynede de'es se iynu mu'u naa koone kugbi cho'o.
 contribution-varying-pronunciations-description-extended = Tamane, ndetes akude se inña se eey ndodo se gnuu mu'une mit ma iytumkadinnuya de'e a'ane, nwe teyunnide se fnuu mu'u  naa koo. Ndete nwe dbenodene.kande, cho'od tamkua.
 contribution-varying-pronunciations-example-1-title = Tndubee inña se iytabiyanne i'iy café
+contribution-varying-pronunciations-example-1-explanation = [Ndebe ndetese ekku -s ndichinnayi'i  (ndoka ama bia sduckhi España o ndoka México) nweyo  (ndoka ama bia sdukchi Cuba)]
+contribution-varying-pronunciations-example-2-title = Ndebes kamaya
