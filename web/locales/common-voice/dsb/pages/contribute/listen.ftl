@@ -19,6 +19,10 @@ validate-readings = Cytanja pśeglědowaś
 
 listen-contribute-menu-tooltip = Cytanja pśeglědowaś, transkripcije pśeglědowaś
 validate-readings-menu-item-tooltip = Pśeglědujśo cytanja, kótarež su se nagrali wót wužywarjow we wašej rěcy
+review-transcriptions-menu-item-tooltip = Pśeglědujśo transkripcije, kótarež su se zapódali wót wužywarjow we wašej rěcy
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Meni nastajenjow Słuchaś
+validate-readings-menu-item-aria-label = Pśeglědujśo cytanja, kótarež su se zapódali wót cłonkow zgromaźeństwa
+review-transcriptions-menu-item-aria-label = Pśeglědujśo pšawosć transkripcijow nagratych sadow

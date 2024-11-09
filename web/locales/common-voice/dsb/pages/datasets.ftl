@@ -94,3 +94,5 @@ release-version = Wersija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Naše głosowe datowe sajźby ześěgnuś
