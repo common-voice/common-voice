@@ -9,7 +9,7 @@ how-does-it-work-text = اسپہ سفو پیچین ہوازان ڈیٹاسیٹو
 
 about-language-req-subtitle = کا ای وارو شامل کوریئک مݰکیران۔
 about-localization-title = ویب سائیٹو مقامی کوریک
-about-localization-subtitle = ویب سائٹا نویشیرو ہتے وارا ترجمہ کورونو ہوئے۔
+about-localization-subtitle = ویب سائٹا نیویشیرو ہتے وارا ترجمہ کورونو ہوئے۔
 about-sentence-collection-title = جملان مجموعہ
 about-sentence-collection-subtitle = روئے دوڑ ہوازا رینی رےجملان جمع کورونو بویان۔
 about-new-lang-title = نوغ وار منظرعامہ ہائے
