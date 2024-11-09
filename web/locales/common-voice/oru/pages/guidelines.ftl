@@ -16,3 +16,4 @@ varying-pronunciations-explanation-1 = ماخ بُو مختلف لهجي کی پ
 varying-pronunciations-explanation-2 = ته پۀ برخلاف که ترتُو يې او خیال بَۀ که ا سۀ ته غوېڅن واله او لفظ لواړه ديېک یا اميېک نک هۀ او ته سۀ پروناؤنسيېشن بارۀ نر بُو او محض اندازي لګوی، تُو و بُو رد اېنچی۔ او که یقینت نک بَۀ، ته سکِپ ا بټن ځن
 varying-pronunciations-example = ا رایٛ صفا نک بُک
 varying-pronunciations-tip-1 = [کېنېډئن انګرېزي نربُو ا ”route”سا ته ” rowt” غُندک امريېک سَۀ ]
+varying-pronunciations-tip-2 = [برطانوي انګرېزي نر سُو سا ته ”root” غنندک غوېک سَۀ]
