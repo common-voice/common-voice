@@ -2,10 +2,10 @@
 
 welcome-to-spontaneous-speech = سپونٹینئس اسپیچا گیکو پچین تہ منادار
 # <br></br> represents a newline break
-wall-of-text = کمان وائس قدرتی، تنار تان وا نو نو نیویشیرو لوا پچین ایک خور ژاغا شروع کویان۔ ہیا امبوخ معلوماتان شاو بڑا ځیکا بو کمیونیٹان سون مدد کوئے، وا ڈیٹو سائنسدانان وا ساوزیکان تین دی فائدہ تریر۔
-why-spontaneous-speech = اسپہ ہیا سپونٹینئس اسپیچو ای نمونہ کو ساوزیسیان؟
+wall-of-text = کمان وائس قدرتی، تنار تان وا نو نیویشیرو لوان پچین ایک خور ژاغا شروع کویان۔ ہیا امبوخ معلوماتان شاو بڑاځیکا بو کمیونیٹان سون مدد کوئے، وا ڈیٹو سائنسدانان وا ساوزیکان تین دی فائدہ تریر۔
+why-spontaneous-speech = اسپہ ہیا اسپونٹینئس اسپیچو ای نمونہ کو ساوزیسیان؟
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = فائد مند بوئے<mark> پوشٹہ لو دیکو حالاتا</mark> وا ہورو استعمال ہݰ ٹائم بوئے (مثلا تو ہݰ مݰکیسان کہ لوو ہوݰ کوراک ہتیتان سون کوروم کورار کا کی نو نویشیرو وا عام لو دونیان )
+why-card-1-text = فائد مند بوئے<mark> پوشٹہ لو دیکو حالاتا</mark> وا ہورو ہݰ معاملہ استعمال  بوئے (مثلا تو کیا وختا کہ ہݰ مݰکیتاو کہ لوو ہوݰ کوراک ہتیتان سون کوروم کورار کا کی نو نویشی وا عام لو دونیان )
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = بہتر ہݰ بوئی کی واران حقیقی مدد بار کیچیہ ترجمہ وا<mark> خور لفظان استعمال</mark>
 # text wrapped with <mark></mark> will have a light red background
@@ -19,11 +19,13 @@ respond-bubble-title = <mark>جواب دیت</mark>
 respond-bubble-subtitle = ہمو تین تا جواب کندوری کی ہوئے قدرتی بیلیک
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>نویشیکا غیراوے</mark>
+transcribe-bubble-subtitle = ہتوغو نیویشے کیاغ کی اسکوردی ہوازا کار ارو
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>لوڑے</mark>
 check-bubble-subtitle = چیک کوکی کی نویشیرو اوچے ہواز ای قسمہ؟
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ڈیٹا</mark>
+data-bubble-subtitle = اسپہ وقتا فوقتا ڈیٹاسیٹو پوشٹا انگوسیان
 contact-us = اسپہ سون رابطہ کو
 contact-us-title = تا ہیا پروجکٹا شامل بیکو دلچسپی شیرا یا اسپہ سون حصہ دار بوسان؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
