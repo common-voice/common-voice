@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Dëgjoni copëzën audio dhe kontrolloni transkriptimin. Përputhen? Nëse  jo, përpunojeni që të përputhen në mënyrë të përsosur.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Kontrollojeni
 no-transcriptions-message = Aktualisht për këtë gjuhë nuk ka transkriptime për t’i kontrollouar. Ju lutemi, rifreskoni faqen, ose riprovoni më vonë.

@@ -5,6 +5,7 @@ report-modal-subtitle = Ç’probleme po hasni me këtë lëndë?
 offensive_speech = Lëndë Fyese
 offensive_speech-detail = Lënda ka gjuhë shpërfillëse ose fyese.
 different_language = Gjuhë tjetër
+different_language-detail = Lënda përmban një gjuhë që është tjetër nga ajo që prisja.
 report-other-comment =
     .placeholder = Koment
 # Label for textarea in report modal
