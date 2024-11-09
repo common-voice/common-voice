@@ -139,19 +139,19 @@ small-batch-response-message =
         [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  مسترد بیرو جملان ڈونلوڈ کوریکو بچین
        *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> مسترد بیرو جملان ڈونلوڈ کوریکو بچین.
     }
-small-batch-sentences-rule-1 = “اوا کیا جملان شامل کومآ?” شیرو رہنمائی سورا عمل کو
+small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
 small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
 small-batch-sentences-rule-5 = سف جملہ ای دائرہ بانی
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
 # menu item
-add-sentences = جملان شامل کو
+add-sentences = جملہ شامل کو
 
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیویشیکا انگے
-add-sentences-menu-item-tooltip = تان زبانا جملان شامل کو
+add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان زبانو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان زبانا سوال شامل کو
 transcribe-audio-menu-item-tooltip = تان زبان ہوازو رکارڈنگو نویشیکا انگے
