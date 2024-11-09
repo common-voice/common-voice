@@ -17,6 +17,8 @@ validate-readings = ჰ̦ალო̆ ხატტრეჼ დასტურ
 
 listen-contribute-menu-tooltip = ჰ̦ალო̆ ხატტრეჼ დასტურ, ტრანსპრიპციახ ბჵარკ ლალბარ
 validate-readings-menu-item-tooltip = ჩანაწერაჼ  შუ მატტმაქ ჰ̦ალო̆ ხატტრი ლარკ ჺო́ფრეხ დასტურ ა́ლ'ათ
+review-transcriptions-menu-item-tooltip = ბჵარკ ლალბებათ, მო́ლუჼ ჲა შუჼ მატტმაქ დაჸითიენო̆ ჩანაწერა́ჼ ტრანსკრიპციიშ
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = მოლუჼ და ლარკ ჺოფრეჼ პარამეტრი (პარამეტრაჼ მენიუ)
