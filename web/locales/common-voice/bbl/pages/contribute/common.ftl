@@ -92,15 +92,15 @@ shortcut-vote-no = a?
 ## Validation criteria
 
 contribution-criteria-nav = ნიფსხოლეჼ საზომ
-contribution-criteria-link = შარიჼ და́ყ ნიფს ჩუ დაჰ̦რეხ
-contribution-criteria-page-title = შარიჼ დაყ ნიფს ჩუ დაჰ̦არ
+contribution-criteria-link = შარიჼ და́ყ (წვლილ) ნიფს ჩუ დაჰ̦რეხ
+contribution-criteria-page-title = შარიჼ დაყ (წვლილ) ნიფს ჩუ დაჰ̦არ
 contribution-criteria-page-description = ხაჸათ, სტე́ნახ ბეწი́შ ბჵარკ ლე́ლბაჼ ჩანაწე́რიგო̆ ლარკ ჺე́ფოშ, მე თე́ლ'ივხ ხილ'ილო̆ ჩანაწერა́ჼ სარგე́ბელ
 contribution-for-example = მაგალითი
 contribution-misreadings-title = ხარც ხატტარ
 contribution-misreadings-description = ლარკ ჺე́ფოშ დაკრეშ დაყყდებათ, ჩანაწე́რე ნიფს ოი́ ხაწ, უ̂ნე წე́რალა; უარ ა́ლ'ათ, კაწკოჼ ხარცხილ'არაჸა́ დაჲგჩე შუჼ.<br /> ჴშირუჼ შეცდო́მი ჲა:
-contribution-misreadings-description-extended-list-4 = იშო̆ ლე დოშ, ლე ბგერ ჩაწერენ დროჰ̦ ჰ̦ათხეჸ  მაყ ბალ'რენდალლა
+contribution-misreadings-description-extended-list-4 = ი́შო̆ ლე დოშ, ლე ბგე́რ ჩაწე́რენ დროჰ̦ჰ̦ათხეჸ  მაყ ბალ'რენდალლა́
 contribution-misreadings-description-extended-list-5 = ლე დოშ, ლე მა́რცვალ შაწ ლე́ვლა ჰ̦ალო̆ ხე́ტტოშ მელ'წა́ხ ა́ლ'რენდალლა́
-contribution-misreadings-example-3-explanation = ჩაწერენ დაჰ ბა ბალ'ინო მაყ დოშ ბოლომციჼ ალ'ლომციჼ
+contribution-misreadings-example-3-explanation = ჩაწერენ  მაყ ბა ბალ'ინო დოშ ბოლომციჼ ალ'ლომციჼ
 contribution-misreadings-example-4-explanation = სოუბო̆ დოშ და ჩაწე́რადიენო̆
 contribution-misreadings-example-5-title = ჩანაწერ წუნბადჲოშ თხილუშ ხილ'ათ, მაცმე́ ლე დოშ, ლე ინტონაცია (მახვილ) უჲშტი̆ ცო ლე́ვლა, მოჰ̦ე შუჼ ხაწენდა, და́ხაჸ მე, ცჰ̦ეჲნი̆ მატტლო შაძლე́ბალა დუჴ ჴეჩ-ჴეჩნა́ჲრეჼ  ა́ლ'არ დალო̆, მენხუ ცომაცნი́ ცო ხაწენდა შუჼ ეჴ საზო́გადოებე. დეხო́თხ, ცოშუღეშ ამბუჲ  ჲუჲნშიგოჰ̦ა́ მა́მ დავდოთ
 contribution-varying-pronunciations-description-extended = შილღეჩო̆ მჴარლენდა, დაკლევიჰ̦ე́შ, მე ჰ̦ალო̆ ხე́ტტჩონ  დო́ჲჰ̦რელუჼ ხაწეჼ ე დოშ ჲე ხარც ხა́ტტიჼ, დეხო́თხ მე უარ ალ'ლოთ ოჰ̦ დაშახ.  მაკ შუჼ გამოტო́ვებ ღილაკევ დაჰ̦ ეჴჴაჼ ო ცოწო́ნალეჩო̆ წინადა́დბეხ.
