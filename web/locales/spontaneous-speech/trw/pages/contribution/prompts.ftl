@@ -21,3 +21,11 @@ submit-all-button = بُوڑ تھلا
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = مے پاݜ سی استعمال چھیِڙا
+learn-how-to-use-prompts-explanation = ای دُو جملا می مے پرامپٹ سی جواب دا کو دے بھادیو۔ یقین کو یرأ کامے جیِب تھو استعمال کودیدا سے بے ادبا آں بے ہُودا نہ ہوئے
+learn-how-to-use-prompts-guidance = کلک <guidanceLink> ہدایاتا سی لنک مھید کوا </guidanceLink> آں آمن جنا یرأ مے پاݜ کھأکأ استعمال کودی
+learn-how-to-use-transcribe = ٹرانسکرائب/آڈیو سی لیِگو ما آمن جنا
+learn-how-to-use-transcribe-explanation = کامے ماݜ کا بنُودا تیس أئں تھامُو لیِگا آں می اُوں آں یا ہال دأل بے معنی ٹیگیل ہُم لیِگا۔
+learn-how-to-use-transcribe-guidance = کلک <guidanceLink> ہدایاتا سی لنک مھید کوا </guidanceLink> آں آمن جنا یرأ مے پاݜ کھأکأ استعمال کودی
+learn-how-to-use-check-transcript = ٹرانسکریپشن سی چیک کؤ سی چیک کؤِ چھیِڙا
+learn-how-to-use-check-transcript-explanation = آڈیو سی لیِگُو می تھأ بُوڑ ٹیگیل آں مے معنی ٹیگیل ہُم لیِگا آں ای می کو باربار بنُو ہُوو تیس ہُم لیِگا۔
+learn-how-to-use-check-transcript-guidance = کلک <guidanceLink> ہدایاتا سی لنک مھید کوا </guidanceLink> آں آمن جنا یرأ مے پاݜ کھأکأ استعمال کودی
