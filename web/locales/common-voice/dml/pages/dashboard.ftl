@@ -71,7 +71,7 @@ share-n-daily-contribution-goal = تانوں شیئر{ $count } کلپ روزا�
 share-n-weekly-contribution-goal = شیئر کُرا{ $count }کلپ ہفتہ وار مقصد تہ پرئی{ $type }
 share-goal-type-speak = مُشکُل بین
 share-goal-type-listen = اُشترونن
-share-goal-type-both = مُشکُل بینن آں اُشترونن
+share-goal-type-both = مُشکُل بینن آں اُشتُرونن
 # LINK will be replaced with the current URL
 goal-share-text = ژا عام کاڻ کی ما کاڻ عطیہ کُرن زاتی مقصد درو، مو ملی شامل با آں مشین نامہ کڅنہ مدد کُرا تے انسان کنو بئی مُشکُل بین{ $link }
 weekly-goal-created = تاں ہفتہ وار مقصد ژوپئن گا
@@ -82,7 +82,7 @@ share-goal = تانوں مقصد شیئر کُرا
 
 ## Goals
 
-streaks = چوڻر نم
+streaks = چونڑ نم
 days =
     { $count ->
         [one] دیو
