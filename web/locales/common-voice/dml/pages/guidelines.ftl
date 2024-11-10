@@ -18,6 +18,7 @@ varying-pronunciations-example = پھن واضح نی تھا
 varying-pronunciations-tip-1 = کینڈا تہ انگریزیہ روٹ "route" روٹ ساں کاڻ  "rowt" بنہ تِھنا
 varying-pronunciations-tip-2 = برطانیہ تہ انگریزیہ  "root" ژوپینا
 offensive-content-explanation = جملہ تہ جانچ کمیونٹی تہ نگرانی تہ عمل تہ تیر بیاں،تاہم یہ عمل بے عیب نی تِھنا۔ اگر بی ایک منو جملہ دڇھنبہ یا اُشتُرنبہ کیرا میاں کھبہ یا پریشن کُنا. یہ وجہ تہ یہ امونہ<participationGuidelines>کمیونٹی تہ شرکت تہ رہنما اصول نامہ</participationGuidelines>تہ خلاف ورزی کُنا بہ تا مہربانی کُری UI فلیگ بٹن تہ استعمل کُرا۔بی اما ملہ ایا ایس رابہ کُرین بیبہ<emailFragment>commonvoice@mozilla.com</emailFragment>
+misreadings-explanation-1 = پھٹہ سپُن الفاظ سئی طریقہ مترن اہم درو۔ اُشترنن تہ ٹیمہ لے احتیاطہ چیک کُرا تے کیہ ریکاڈ کُریسن درو، سے بلکل سے دروئی کیرا لِکیسن درو۔اگر ایک لفظ شامل یا مختصریا وعی تھین بہ، تہ مس مسترد کُرا۔
 misreadings-explanation-2 = لے عام غلطی نم شامل درو
 misreadings-explanation-3 = ریکارڈنگ تہ شروع  'A' یا  'The' پُھس درو
 misreadings-explanation-4 = لفظ تہ آخرہ  's' پُھس درو
