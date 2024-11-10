@@ -109,9 +109,10 @@ about-playbook-how-grow-language-content-8 = <strong> تخلیقی ژوپا</str
 
 ## How to validate
 
-about-playbook-how-validate = موکی کنو بئی پتہ بو کاݩ تہ کلپ منظور گنی
+about-playbook-how-validate = موکی کنو بئی پتہ بو کاڻ تہ کلپ منظور گنی
 about-playbook-how-validate-content-1 = اگر بی <strong>تسو اشترونین بیبہ </strong>آں <strong>زانین بیبہ،</strong> یہ عام طورہ<strong> لے ابُت درو منظور کرین کی</strong>
-about-playbook-how-validate-content-2 = <strong>اگر منہ لہجہ تہ مُشکُل بال ساں لہجہ بدل تھا بہ تس مہ دورایا</strong>، یہ کاݩ زانے کی ہر ایک کی اسکان درو
+about-playbook-how-validate-content-2 = <strong>اگر منہ لہجہ تہ مُشکُل بال ساں لہجہ بدل تھا بہ تس مہ دورایا</strong>، یہ کاڻ زانے کی ہر ایک کی اسکان درو
+about-playbook-how-validate-content-3 = اگر مینہ خیالہ تلفظ منے بئی ژوپینا<strong> یہ زانن ناممکن درو</strong>،آں ترا ایک<strong> ڈنگپچھمبئی لے شور درو</strong>،یا تہ ترا<strong>ورے ماݜ ایس مُشکُل بین</strong>، تاں بی کلپ مسترد کُرا۔<accuracyLink>امونہ سئی کُرن تہ معیارہ ورے ایس دڇھا</accuracyLink>۔
 about-playbook-how-validate-content-4 = اگتر کلپ دد ماݜے نہ منین بہ، یہ ایک ورے ڈیٹہ ورے سرنامہ ملی ریلیز بیاں
 
 ## How to access dataset
