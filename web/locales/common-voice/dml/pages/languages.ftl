@@ -20,3 +20,4 @@ get-involved-form-title = سائن اپ کؙرا { $lang } اپ ڈیٹہ کی
 get-involved-email =
     .label = ای میل
 get-involved-submit = جمع کُرن
+get-involved-return-to-languages = باݜہ کی گیرنکھتی یا
