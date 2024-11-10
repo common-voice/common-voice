@@ -11,3 +11,6 @@ partnerships-governments-header = خکومتی
 partnerships-governments-description = ماخ خوش يېن که ا پبلِک سېکټر ګۀ ټېکنالوجی، نیووه شئ، او ته زبان خقوق بره نر سپورټ کيېنز که ترتیوس ارادۀ يې آ بَۀ که سۀ غُټ پراجېکټ یا کېمپېن يې روان کيېن ماخ ګیرډ يې په پا پته <emailFragment> رابطه کوئ ۔
 partnerships-academia-header = یونیورسټي، تعلیمی ماهر او ریسرچرز
 partnerships-academia-description = جَوَت نیووه شئ ترماخ ای زلی کی زُت بویٛ اِن۔ ته ریسرچ امداد، ډېټا سۀ ځاک کؤ یا انرویو پاره <emailFragment> يې دۀ کی رسايي کوئ
+partnerships-small-business-header = زری بِزنس، پشمول ته ټېک او آرټیفیشل انټېلیجنس ا شوری کؤ
+partnerships-small-business-description = ماخ بو همېشه انتظار کيېن که ته ډېټا کنیومر لاسته ته رئ ته ضروریات پته کيېن۔ ډېټا کولېکشن پلېټ فارم لاسته ره وُر ډېټا هېلتهـ توݭکيې۔ ماخ بُو زېن که تُو لاسته<emailFragment> امريېن </emailFragment>
+partnerships-corporates-header = په غوټو شریکي بو پلېټ فارم کمپنئے
