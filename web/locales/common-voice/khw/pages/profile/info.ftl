@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = استعمال کوراک نام
+    .label = استعمال کوراکو نام
 profile-form-native-language =
     .label = تت باپو وار
 profile-form-additional-language =
@@ -38,7 +38,9 @@ do_not_wish_to_say = لو دیک نو مݰکیمان
 # Gender
 other = خور
 why-profile-title = پروفائل کو
-why-profile-text = تان بارا پھوک معلومات دیتی، ہوازو معلومات تو کامن وائسا شامل کی ارو لو دیکو تین بو فائدہ ہوئے۔ ہوݰ کوراک مشین  ہمی معلوماتان سہی بکو معیار پچین استعمال کویان۔
+why-profile-text =
+    تان بارا پھوک معلومات دیتی، ہوازو ڈیٹا کامن وائسا شامل کی ارو ریاکو تین ذیادہ فائدہ ہوئے۔
+    ہوݰ کوراک مشین ہمی معلوماتان سہی کوریکو بہتر  کوریکو پچین استعمال کویان۔
 dashboard = ڈِش بورڈ
 build-profile = پروفائل ساوزاوے
 avatar = ایویٹر
