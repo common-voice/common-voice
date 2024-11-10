@@ -38,3 +38,13 @@ do_not_wish_to_say = نکه بو غوېک اېنچِم
 # Gender
 other = بيې
 why-profile-title = ا پروفائل کيې؟
+why-profile-text = ته ځان باره نر ال ا جنه معلومت ال که تو ڒېری، ا اډیو ډېټا که تُو مشترک آواز کی که پېش کی ائ سُو ته آواز ته ژغ ته پېݫندګالي پاره زُت فائده مني بېن
+dashboard = ډېش بورډ
+build-profile = ا پروفائل جوړ کَۀ
+avatar = اواتار
+goals = مقصدی
+settings = سېټنګ
+edit-profile = ا پروفائل پېش کَۀ
+profile-create-success = کامیابي/ ا پروفائل جوړ ݭیوک
+profile-close = بند
+profile-explanation = ته خوئ مُخ په څېک يې پروفائل نر ټرېک سېتن که ترماخ ته آواز ا ډېټآ ݫات صحیح بَۀ
