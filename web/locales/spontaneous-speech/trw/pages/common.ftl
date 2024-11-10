@@ -27,6 +27,31 @@ contribute = تُنُو ڈأھارا دا
 
 respond-to-prompt = ہیِریِک سی جواب دا
 transcribe-audio = آڈیو لیِگا
+check-transcriptions = آڈیو سی لیِگیل چیک کوا
 
 ## Not Found Page
 
+not-found-page-header = نہ پاد
+not-found-page-content = کامے پاݜ تُھو بودے دا تیس مھو یے نہ پاد
+# Privacy and Terms checkbox
+accept-privacy-and-terms = آ کامن وائس سی شرطا سیت رأضی تُھو آں <privacyLink> پرائیویسی نوٹس سیت ہوم راضی تُھو۔ </privacyLink>
+# Locales
+bsy = سبا بیسایا
+cdo = فوزؤ
+cpx = ہنگ ہُوا
+en = أنگریزی
+fr = فرانسیسی
+hch = ویکساریکا
+kzi = کیلابیٹ
+mbf = بابا ملے
+meh = جنوب مغربی ٹلیکسکو میکسٹیک
+mel = مرکزی میلانؤ
+mmc = میچاؤچان مزاہاؤ
+ms-MY = بھشا ملے
+msi = سابھا ملے
+pez = مشرقی پینان
+pne = مغربی پینان
+sdo = سیری بیداہاؤ
+snv = سعبان
+tr = ترکی
+xkl = کینیاہ
