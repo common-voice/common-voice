@@ -32,3 +32,9 @@ profile-form-submit-saved = سېو ݭیوک
 male_masculine = نر
 female_feminine = شِځه/ شِځینۀ
 intersex = انټر سېکس
+transgender = نرشِځ
+non-binary = دیو ګډ
+do_not_wish_to_say = نکه بو غوېک اېنچِم
+# Gender
+other = بيې
+why-profile-title = ا پروفائل کيې؟
