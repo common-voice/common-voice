@@ -42,7 +42,7 @@ x-years-short =
 help-make-dataset = ہنیسے اسپہ سون جام معیارو سفو پچین ڈٹاسیٹ ساوزیکا مدد کویان
 sign-up-account = اکاونٹو پچین سائن اب کو
 email-subscription-title = ای میلا نوغ لو گیکو پچین سائن اب کو
-email-subscription-title-new = کامن وائسو بارا خبران، تان مقصدو یاد انگیکو وا پوشتی بیکو معلوماتان پچین سائن اب کو۔
+email-subscription-title-new = کامن وائسو نیوز لیٹرو، حدافو یاد کوریکو وا کندوری کوروم ہوئے رے معلوماتان پچین سائن اب کو
 
 ## Account Benefits
 
