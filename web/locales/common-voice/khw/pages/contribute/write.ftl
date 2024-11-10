@@ -24,7 +24,7 @@ new-sentence-rule-8 = جام ہش بوئے  کہ جملہ قدرتی وا مشق
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو پچین
 how-to-cite = کچہ کوری حوالہ دوم؟
 how-to-cite-explanation-bold = یو ار ایل لینکو یا کورمو پورا نامو حوالہ دیت۔
-how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیویشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان پچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
+how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیوشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان پچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
 guidelines = رہنمائی
 contact-us = اسپہ سون رابطہ کو
 add-sentence-success = 1جملہ بڑاځینو ہوئے
@@ -72,7 +72,7 @@ sentence-variant-select-multiple-variants = عام وار/ بو قسم
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو پچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیوشے <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information =
     ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیتان ہیا شامل کوریکو ژاغا نیکی، تھے <emailFragment> 
      اسپہ تین انځاوے commonvoice@mozilla.com</emailFragment>
@@ -150,16 +150,16 @@ add-sentences = جملہ شامل کو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیویشیکا انگے
+write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیوشیکا انگے
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان وارا سوال شامل کو
-transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
+transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیوشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
+write-contribute-menu-aria-label = اختیاراتان لیسٹو نیوشے
 add-sentences-menu-item-aria-label = تان رویان ریکو پچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو پچین  نوغ سوال کو
-transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
+transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نیوشیکا انگے

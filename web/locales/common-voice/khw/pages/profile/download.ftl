@@ -26,5 +26,5 @@ download-request-refresh-button = نوغ کو
 download-request-modal-title = لینکان ڈون لوڈ کو
 download-request-modal-description = تہ زیپ فائلان ڈون لوڈ کوریکو پچین لینک ہمیت
 download-request-link-text = { $total } موژار زیپ نمبر{ $offset }
-download-request-metadata-link = نیویشیرو جملہ
+download-request-metadata-link = نیوشیرو جملہ
 download-request-link-single = تو ڈئرکٹ یو آر ایلو دی تان خوش ڈون لوڈ منیجرا کاپی پیسٹ کوریکو بوس۔ ہتیت 12 گھنٹہ ختم بونی، لیکن تو ہیا صفحہ اچی گیتی نوغ شروع کوریکو بوس۔

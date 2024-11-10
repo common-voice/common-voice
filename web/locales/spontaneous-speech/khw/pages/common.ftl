@@ -26,8 +26,8 @@ contribute = حصہ گانیک
 ## Navbar
 
 respond-to-prompt = اشاران جوابو دیت
-transcribe-audio = ہوازو نیویشیکا غیراوے
-check-transcriptions = نیویشیروان لوڑے
+transcribe-audio = ہوازو نیوشیکا غیراوے
+check-transcriptions = نیوشیروان لوڑے
 
 ## Not Found Page
 

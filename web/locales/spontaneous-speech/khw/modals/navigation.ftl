@@ -5,7 +5,7 @@ respond = جواب
 # Link to the check transcriptions page in the navigation modal for mobile users
 check = لوڑے
 # Link to the Transcribe page in the navigation modal for mobile users
-transcribe = نیویشیکا انگے
+transcribe = نیوشیکا انگے
 loading = لوڈ بویان۔۔۔
 login-signup = لاگ ان/سائن اب
 login = لوگ ان

@@ -74,9 +74,9 @@ read-more-about = اسپہ متعلقہ صفحہ بی خور دی راوے
 ## NAV ITEMS
 
 answer-questions = سوالان جواب دیت<small> (شاو گویان)</small>
-review-transcriptions = نیویشیروان سہی کو <small> (شاو گویان)</small>
+review-transcriptions = نیوشیروان سہی کو <small> (شاو گویان)</small>
 add-questions = سوال شامل کو <small> (شاو گویان)</small>
-transcribe-audio = ہوازو نیویشیکا غیراوے<small> (شاو گویان)</small>
+transcribe-audio = ہوازو نیوشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا وار
 
@@ -84,7 +84,7 @@ community-and-languages = کمیونیٹی وا وار
 
 about-menu-tooltip = شرکت داری، اخبار، مضمون، کمیونیٹی وا وار
 partnerships-menu-item-tooltip = اسپہ سون شرکت کو
-press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نیویشے
+press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نیوشے
 community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے واران وا ای قسمہ ہوازان مشکے
 
 ## MENU ITEM ARIA LABELS
