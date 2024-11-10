@@ -120,14 +120,14 @@ contribution-misreadings-example-7-title = اسپہ بیری کافی پیاو �
 contribution-misreadings-example-7-explanation = [اصل نیویشیروا 'الف' نیکی]
 contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار پوشٹی نیسیتائے
 contribution-misreadings-example-8-explanation = [ بورنگا اشناری]
-contribution-varying-pronunciations-title = مختلف طریقہ ریک
+contribution-varying-pronunciations-title = لہجو بدیل دیک
 contribution-varying-pronunciations-description = لفظو غلط را اسور، غلط ژاغا زور دیتی اسور یا سوالہ نݰانو نو رے اسور، رے ہوازو مسترد کوریکار پوشٹی احتیاط کو
 contribution-varying-pronunciations-description-extended = خور ویلٹی، اگر تہ خیالہ  ہے لفظ ہیغار پوشٹی ریاکو  پوشٹا نوگیتی اوشئے وا رییاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو۔ تہ تین کہ یقین نیکی سورین نیسیکو پٹینودیت
 contribution-varying-pronunciations-example-1-title = تان سورو کھوئی دیتی استائے
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحیح شیر ہمو اولو حصہ زور دوسان(یوکے) یا جوو(یو ایس) ]
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی
 contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک ریکا(سانسا) ادا بوئے، جوا نو]
-contribution-background-noise-title = اݯھو شور
+contribution-background-noise-title = گوݯھتو شور
 contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ گوݯتو ہوازو سنبال کورار وا  نسبتا بو توڑ ہوازو منظور کوریکو بار بشرطہ ہتیت  تھمام نیویشیرو کار کوریکو منع مو کورار۔ لش گوݯتو ہواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
 contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نیویشیرو ریکو ہواز کارا نو دوئے۔
 contribution-background-noise-example-1-fixed-title = <strong>[اشتروخیک]</strong> بلاہ ڈائنوسار <strong>[کوپیک]</strong> ٹرائزک.

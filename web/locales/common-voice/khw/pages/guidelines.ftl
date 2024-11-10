@@ -1,13 +1,13 @@
 # GUIDELINES PAGE
 guidelines-header = حصہ گنیکو رہنمائی
-guidelines-header-subtitle = ہیا لو ہوݰ کوریک کہ کامن وائسو ڈیٹاسیٹو سون مدد وا جملو وا اسکوردی ہوازو کیچہ کوری تصدیق کورونو بوئے
-voice-collection = ہوازا بڑځیک
-sentence-collection = جملان بڑځیک
+guidelines-header-subtitle = ہوݰ کو کامن وائسو ڈیٹاسیٹا جملان وا اسکوردی ہوازان کیچہ کوری جمع وا تصدیق کورونو بوئے
+voice-collection = ہواز بڑځیک
+sentence-collection = جملہ بڑځیک
 varying-pronunciations = مختلف ریک
 misreadings = غلط ریک
 offensive-content = شوم مواد
-background-noise = اݯھو شور
-background-voices = اݯھو شور
+background-noise = گوݯھتو شور
+background-voices = گوݯھتو شور
 volume = توڑ-لش
 reader-effects = ریاکان اثر
 just-unsure = صرف غیر یقینی
