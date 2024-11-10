@@ -61,7 +61,7 @@ nature_environment = قدرت وا ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبر وا موجودہ حالت
 # Sentence Domain dropdown option
-technology_robotics = ٹیکنالوجی وا روبوٹ
+technology_robotics = ٹیکنالوجی وا رابوٹ
 sentence-variant-select-label = جملان مختلف شکل
 sentence-variant-select-placeholder = ای قسمو گنے (اختیاری)
 sentence-variant-select-multiple-variants = عام وار/ بو قسم
