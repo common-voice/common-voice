@@ -20,3 +20,5 @@ submit-all-button = اره پېش کَۀ
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = زدۀ وه کَۀ که آ پېج بُو څخل استعمالَوَک سَۀ
+learn-how-to-use-prompts-explanation = پرمپټ کی يې څواب ڒۀ اُن قددرتي که څُون اېنچی ݭيې دیو جملۀ نر۔ آ یقینی کېون که ترتُو ا خبُره عزتمِنه او ته غصه واله نک بَۀ
