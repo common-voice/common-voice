@@ -83,7 +83,7 @@ community-and-languages = کمیونیٹی وا وار
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = حصہ داری، اخبار، مضمون، کمیونیٹی وا وار
-partnerships-menu-item-tooltip = اسپہ سون حصہ دار بوس
+partnerships-menu-item-tooltip = اسپہ سون شرکت کو
 press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نیویشے
 community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے واران وا ای قسمہ ہوازان مشکے
 

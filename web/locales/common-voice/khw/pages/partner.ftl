@@ -17,6 +17,6 @@ partnerships-corporates-header = لوٹ پیمانہ اجتعماعی کمپنی
 partnerships-corporates-description =
     اگر تو ڈیٹاسیٹو بارا خور دی کی لوو دیک مݰکیسان، پلیٹ فارمو منصوبے لوٹیکو پچین پیسہ لاگیک کی مݰکیسان یا ای بیتی کوروم کوریکو موقعو کی تلاشا اسوس اسپہ تین<emailFragment> 
       اسکوردی نیویشیے</emailFragment>۔
-partnerships-our-partners = اسپہ حصہ دار
+partnerships-our-partners = اسپہ شرکت دار
 # menu item
 partners = حصہ دار
