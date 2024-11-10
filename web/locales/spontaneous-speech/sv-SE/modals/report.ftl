@@ -17,3 +17,4 @@ report-error = Ett fel uppstod när rapporten skickades
 continue = Fortsätt
 # Header for report modal after successful reporting
 success = Lyckades
+report-success-message = Rapporten godkändes framgångsrikt
