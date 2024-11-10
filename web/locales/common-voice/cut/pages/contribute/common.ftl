@@ -47,11 +47,11 @@ report-grammar-or-spelling-detail = Ndodkunne nwe ndebe dude
 report-different-language = Tamma dbaku
 report-different-language-detail = A bi'i duun sku nweyo dama ndoko dbaku yi'i
 report-difficult-pronounce = Iydiibachise se nde'eo
-report-difficult-pronounce-detail = Na'a ndodone iydiibachi se nde'eo
+report-difficult-pronounce-detail = Nome ne'enose fnuu ndodos nome iydiibachi se  kueoo o nde'eo
 report-offensive-speech = Kaba iynde'e mu'u
-report-offensive-speech-detail = Ndodoku se gnundene kaba a'a nwe dindi iynde'e
+report-offensive-speech-detail = Ndodo se iynu nmiñu mu'u naa koo kaba a'a nwe dindi iynde'e
 report-other-comment =
-    .placeholder = Kamade
+    .placeholder = Kamade de'e akude
 success = Ndebe
 continue = Fgndinde
 report-success = A ndebe cho'o kaka
@@ -67,12 +67,12 @@ shortcut-skip = h
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Ndenud mu'u naa koo/Abte ndenud mu'u naa koo
-shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle = [ama-u'u]
 shortcut-rerecord-toggle-label = Ndenutud mu'u na koo
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Nwe cho'o ndodo se gnu na koo
+shortcut-discard-ongoing-recording-label = Nwe cho'o ndodo se iynuu mu'u naa koo
 shortcut-submit = Kuetud
-shortcut-submit-label = Choode ndodo yi'ide mu'u naa koo.
+shortcut-submit-label = Cho'ode ndodo yi'ide mu'u naa koo.
 request-language-text = ¿Nwe iyndekade dbaku yi'id mu'u na Common Voice?
 request-language-button = Kakad ama dbaku
 
@@ -92,7 +92,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Taka kugbi
-contribution-criteria-link = Nekugbi dbenoka taka kugbi tanne
+contribution-criteria-link = Kugbi dbenodka taka kugbi tanned mu'u
 contribution-criteria-page-title = De'e dii tomene kugbi tanne
 contribution-criteria-page-description = ¡Kubidbenodka de'e nunade tase kanbede ndodo se gnu naa koo nome kugbidbenode taka dide tomene teg ndebe fnu ndodo yi'ide naa koo!
 contribution-for-example = Ndokasku
