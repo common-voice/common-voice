@@ -18,6 +18,9 @@ request-language-google-recaptcha-error = وا کیپچا ݯھکیاوا کور�
 # Success page
 request-language-success-heading = شکریہ! تو ای نوغ وارو بارا سوال انځیتاو۔
 request-language-success-list-1 = شاو تہ تین ای امیل گیلیک، ہتیرا تہ وارو کامن وائسا شامل کوریکو قدم شینی
-request-language-success-list-2 = اسپہ کمیونیٹی منیجر مدد پچین تہ سون لو دوئے وا تہ وارو سورا پورشٹیار یی کمیونیٹی کی کوروم کوراو بیرائے توغو دی تہ تین لوو دوئے
+request-language-success-list-2 =
+    اسپہ کمیونیٹی منیجر مدد بچین تہ سون لو دوئے
+    وا تہ وارو سورا پورشٹیار یی کمیونیٹی کی
+    کوروم کوراو بیرائے توغو دی تہ تین لوو دوئے
 request-language-success-list-3 = تہ تین ای کما بسا اسپہ سار کیا جواب کی نو ہائے۔ ہیا بوغے <emailLink>{ $email }</emailLink> وا اسپہ تہ تین  جواب دوسی۔
 request-language-error = تہ تین ہے دردخواست نو  کی ہائے۔ مہربانی کوری اسپہ تین ای میل کو<emailLink>{ $email }</emailLink>وا اسپہ تہ تین جواب دوسی۔
