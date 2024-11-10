@@ -15,3 +15,6 @@ request-language-google-recaptcha-required = reCAPTCHA پکر هۀ که مُخک
 request-language-google-recaptcha-error = څه غلطي يې سُک reCAPTCHA نر۔ بيې وه کوشِش کَۀ
 # Success page
 request-language-success-heading = مهرباني! تُور دې ته نییوو زبان پِشتِنه ڒیڅوک هۀ
+request-language-success-list-1 = تُو کی يې سو سېره ای مېل زا که افئ قدمی دل اېکسپلېن کوی که ترتُو ا زبان مشترک آواز نر شامِل کوی
+request-language-success-list-2 = ترماخ ته کمیونېټی ا مېنېجر يې سو تیوس ګیرډ رابطه کوی ته اضافی سپورټ پناره او آ دل سُو ګۀ شام کوی که کوک يې بو خه اول لاسته پۀ زبان تر کر خه کوی
+request-language-success-list-3 = که ماخ دل يې دیو ریوز نر ځواب نک ڒیوک، تو يې سو رابطه کېوی <emailLink> </emailLink> او ماخ دې سو بيې رابط کيېن ګیرډ { $email }
