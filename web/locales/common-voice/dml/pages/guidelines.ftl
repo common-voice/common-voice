@@ -82,6 +82,7 @@ adding-sentences-subheader-abbreviations-explanation = مخففات آں اخت�
 adding-sentences-subheader-punctuation = اوقاف
 adding-sentences-subheader-punctuation-explanation = خاص علامت آں اوقاف صرف تگہ استعمل کُرا تے کیر لے ضروری تھابہ۔ مثل تہ طورہ انگریزی تہ الفاظ "don’t" آں "we’re" اپوسٹروف شامل تِھنا آں مس ماخذ متنہ شامل کُرن پکار درو، لیکن یہ امکن درو تے میاکی کیر خاص نشن "@" یا "#" تہ ضرورت تِھنا۔
 adding-sentences-subheader-special-characters = حصوصی حروف آں غیر ملکی خط نم
+adding-sentences-subheader-special-characters-explanation-1 = کیرا باݜہ پرین ینا سے حروف سئی تھیبو۔مثل تہ طور “ж” اوروسی حروف تہجی تہ ایک لفظ درو مگر یہ انگریزیہ کیر ایس استعمل نی بیاں یہ تہ پرئی انگریزی تہ متنہ کیر ایس نی ژاپینا
 adding-sentences-subheader-offensive-content = جارحانہ مواد
 reviewing-sentences-explanation-1 = اگر جملہ پچو پریسن معیارہ پورہ درو بہ تا  "آں" تہ بٹنہ کلک کُرا۔
 reviewing-sentences-explanation-2 = اگر جملہ پچو پریسن معیارہ پورہ درو بہ تا  "نی" تہ بٹنہ کلک کُرا۔
