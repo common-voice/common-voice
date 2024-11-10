@@ -11,3 +11,10 @@ transcript-edited-success = ا نقل ارډیټ ݭیوک په کامیابي س
 transcript-edited-error = غلطي ر نغک کانن بُو که ا نقل اېډټ کېک
 error-fetching-transcriptions = څه غلطی يې سُک کانن بُو که ا نقل وریوک۔ مهرباني يې کَۀ  څُټکی وه بئې کوشِش کېون
 transcript-skipped-success = ا نقل ان په کامیابي سره سکِپ دوک
+transcript-skipped-error = غلطي ر دې نغک کانن بُو که ا نقل سکِپ کېک
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = صحیح
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = ݭیوک
+# For the button on the Check Transcriptions page to edit a transcription
+edit = اېډِټاېډِټ
