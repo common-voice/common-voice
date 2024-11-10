@@ -143,3 +143,10 @@ small-batch-sentences-rule-3 = Tekil cümleleri “Enter” ya da “Return” t
 small-batch-sentences-rule-4 = En fazla 1.000 cümle ekleyebilirsiniz
 small-batch-sentences-rule-5 = Tüm cümleler aynı alandan olmalıdır
 small-batch-sentences-rule-6 = Tüm cümleler aynı kaynaktan olmalıdır
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Yazma seçenekleri menüsü

@@ -78,9 +78,12 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 ## NAV ITEMS
 
+press-and-stories = Basın ve Haberler
+community-and-languages = Topluluk ve Diller
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller
 partnerships-menu-item-tooltip = İş ortağımız olun
 
 ## MENU ITEM ARIA LABELS
