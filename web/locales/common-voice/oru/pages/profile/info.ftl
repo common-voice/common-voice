@@ -61,3 +61,4 @@ email-subscriptions = ای مېل سبسکرِپشن
 download-profile = ترمُن ا ډېټا ډاؤن لوډ کَۀ
 contribution-experience = ته حصه وریوک ا تجربۀ
 skip-submission-feedback = ته پېش کؤ ا فیډ بېک سکِپ کَۀ
+skip-submission-description = ته حصه وریوک ته پېش کؤ ا فیډ بېک سُ سکِپ سَۀ ته سبمِټ کلِکؤ لاسته بعد۔ کنټریبیوشن (پېش کؤ) سو جاري بَۀ آئندۀ پېنځ 5 ریکارډنګ یا وېلیډېشن لاست بعد
