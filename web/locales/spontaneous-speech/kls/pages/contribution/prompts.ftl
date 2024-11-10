@@ -21,9 +21,11 @@ submit-all-button = Saw jama ka
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Karikas bati hisa gri
+learn-how-to-use-prompts-explanation = Khali ek kimon mondran jawab de, te kudrati hin oria. shama khial kari ki tai zuban shum mo hiu ori.
 learn-how-to-use-prompts-guidance = Click <guidanceLink>shaya</guidanceLink> shisa page bariuna
 learn-how-to-use-transcribe = C'ic'as khe'n kai newishi shiau
 learn-how-to-use-transcribe-explanation = Newishi se moch khe'n kai mai aw, shama shehen kai mislan, 'um', Err'.
 learn-how-to-use-transcribe-guidance = Click <guidanceLink>shaya</guidanceLink> shama page ke'n kai istimal karis
 learn-how-to-use-check-transcript = C'i'c'as shama newishila ke'n kai newishis
+learn-how-to-use-check-transcript-explanation = Newishi, saw ilfaz mon dekas pi warek hin ori. mashkulgi as awaz asta kura ki maw dai shate dubara sahi hin ori.
 learn-how-to-use-check-transcript-guidance = Click <guidanceLink>shaya</guidanceLink> shama page ke'n kai istimal karis
