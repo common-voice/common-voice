@@ -18,12 +18,13 @@ validated-clips = تصدیق کُریسن کلپس نم
 total-approved = سپُن منظور بئی سن
 overall-accuracy = مجوعی طورہ  سئی کُریسن
 set-visibility = ما بینن سیٹ کُرے
+visibility-explainer = یہ ترتیب تاں لیڈر بورڈ ساں نمائش کنٹرول کُنا۔ کیر ویلئن گا بہ تاں پیش رفت زاتی تھیو۔ مساں یہ مطلب با تے تاں فوٹو، استعمل کُرال ساں نام آں پیش رفت لیڈر بورڈہ نی ژاپوں۔ نوٹ کُرا تے لیڈر بورڈہ تبدلی ظاہر کُرنہ منٹ نم { $minutes } لگیا۔
 visibility-overlay-note = نوٹ، کیر وزیبلہ سیٹ با یہ ؛یہ ترتیب <profileLink> پروفائل پھٹ  تہ بدلئن بئیبہ</profileLink>
 show-ranking = مائی درجہ بندی کَڅئی
 
 ## Custom Goals
 
-get-started-goals = مقصدہ ملی شُرُو کُرا
+get-started-goals = مقصدہ ملی شُرو کُرا
 create-custom-goal = ایک حسب ضرورت تہ مقصد ژوپایا
 goal-type = تو کیہ قسم مقصد ژوپن گھٹِنپ
 both-speak-and-listen = دوئں
