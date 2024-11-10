@@ -118,6 +118,7 @@ about-playbook-how-validate-content-4 = اگتر کلپ دد ماݜے نہ من�
 ## How to access dataset
 
 about-playbook-how-access-dataset = ائی کنو کری ڈیٹہ سیٹ استعمل آں گین بئیم
+about-playbook-how-access-dataset-content-1 = تو ین بئیپ <datasetsPage>ڈیٹا سیٹ پیج کی</datasetsPage>،تانو مرضی تہ باݜہ آں ورژن گین بئیپ، آں مس ڈاون لوڈ کُرے۔ فائلہ درو<metadataLink> متعلقہ میٹا ڈیٹا</metadataLink>، آبادیاتی معلومات آں توثیق تہ ڈیٹا۔ ڈیٹا سیٹ ڈاون لوڈ کُرئیں کی تو ایک ای میل تہ پریس۔
 
 ## How are decisions made
 
