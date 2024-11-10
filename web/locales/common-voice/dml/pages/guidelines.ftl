@@ -85,3 +85,6 @@ adding-sentences-subheader-special-characters = حصوصی حروف آں غیر 
 adding-sentences-subheader-offensive-content = جارحانہ مواد
 reviewing-sentences-explanation-1 = اگر جملہ پچو پریسن معیارہ پورہ درو بہ تا  "آں" تہ بٹنہ کلک کُرا۔
 reviewing-sentences-explanation-2 = اگر جملہ پچو پریسن معیارہ پورہ درو بہ تا  "نی" تہ بٹنہ کلک کُرا۔
+reviewing-sentences-explanation-3 = اگر تو کی جملہ تہ برا یقین نی درو بہ ، تا پھرکی مس وعی مُکھبئیں جملہ کی ین بیبہ۔
+reviewing-sentences-explanation-4 = اگر توملی جائزہ کی جملہ نم ختم بابہ، مہربانی کُری اما ملی ورے جملہ نم سوتنہ  مدد کُرے
+domain-explanation = ڈومین جملہ تہ موضوع ساں مطلب درو تے، فی الحال تو مسومن تہ انتخاب کُرین بیئب۔
