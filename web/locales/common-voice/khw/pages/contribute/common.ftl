@@ -15,16 +15,16 @@ contribute-more =
     { $count ->
        *[other] { $count } وا دی کوریکو بچین تیارا ?
     }
-speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سوم جملہ ختم بیتی شینی۔
-no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو پچین تان ترتیبو بدل کوکو بوس۔
+speak-empty-state = ہیا وارا رکارڈ کوریکو بچین اسپہ سوم جملہ ختم بیتی شینی۔
+no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو بچین تان ترتیبو بدل کوکو بوس۔
 speak-empty-state-cta = جملہ نیوشے
-speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
+speak-loading-error = تہ ریکو بچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان ہوازو محفوظ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے
 keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
-login-to-get-started = شروع کوریکو پچین لاک ان یا سائن ان بوس
+login-to-get-started = شروع کوریکو بچین لاک ان یا سائن ان بوس
 target-segment-first-card = تو اسپہ اولو مقصدو کورمو کوریکا اسپہ مددو کوسان
-target-segment-generic-card = تو ای مقصدو پورا کوریکو پچین کوروم کوسان
+target-segment-generic-card = تو ای مقصدو پورا کوریکوبچین کوروم کوسان
 target-segment-first-banner = کامن وائسو اولو حصو  { $locale } ساوزیکا مدد کو
 target-segment-add-voice = تان ہوازو شامل کو
 target-segment-learn-more = خور دی ݯھیݯھے
@@ -77,7 +77,7 @@ shortcut-discard-ongoing-recording-label = ہیا رکارڈو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی ہواز جمع کو
 request-language-text = تان وارو ہانیاپت کامن وائیسا نو لیتاوا؟
-request-language-button = وارو پچین عرضی کو
+request-language-button = وارو بچین عرضی کو
 
 ## Listen Shortcuts
 
@@ -105,7 +105,7 @@ contribution-misreadings-description-extended-list-1 = کمی <strong>'الف'</
 contribution-misreadings-description-extended-list-2 = لفظو اخیرا ای <strong> س<strong> کی نو اشوئی
 contribution-misreadings-description-extended-list-3 = اسکوردی ریک کہ ہس حقیقت ہیرا موجود نیکی کیچہ کی  "We are"  ژاغا "We're" یا ہمیتان اچی پورشٹی الیک
 contribution-misreadings-description-extended-list-4 = رکارڈنگو تیز چھینیکو وجہین دیتی  لفظو اخرو چھینیک
-contribution-misreadings-description-extended-list-5 = ای لفظو ریکو پچین امبوخ کوشش کوریک
+contribution-misreadings-description-extended-list-5 = ای لفظو ریکو بچین امبوخ کوشش کوریک
 contribution-misreadings-example-1-title = ٹرائزیکو لوٹ ڈائنوسار
 contribution-misreadings-example-2-title = ٹرائزیکو لوٹ ڈائنوسار
 contribution-misreadings-example-2-explanation = [ ڈائنوسار بیلیک]

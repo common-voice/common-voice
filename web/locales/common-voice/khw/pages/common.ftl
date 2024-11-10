@@ -289,9 +289,9 @@ not-available-abbreviation = تہ سورا لاگو نو
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = اسپہ تین تہ مددو </mark><mark>  ضرورت شیر</mark><mark><br/>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = ڈیٹاسیٹو اونلائن لکھیکو پچین وا ہیا پلیٹ فارمو بہتر کوریکو پچین سالانہ  تقریبا ای میلن ڈالر ضرورت۔ اسپہ ہیاکورمو <strong> ای شورار ذیاد واران روئے استعمال کونیان۔ <strong>تو دی کی ویریع، سفو پچین معلوماتان قدرکوسان ہنون چندہ دیت! </strong>
+donate-banner-cta-explanation = ڈیٹاسیٹو اونلائن لکھیکو بچین وا ہیا پلیٹ فارمو بہتر کوریکو بچین سالانہ  تقریبا ای میلن ڈالر ضرورت۔ اسپہ ہیاکورمو <strong> ای شورار ذیاد واران روئے استعمال کونیان۔ <strong>تو دی کی ویریع، سفو بچین معلوماتان قدرکوسان ہنون چندہ دیت! </strong>
 # Text wrapped in <mark></mark> will have a white background.
-languages-donate-banner-cta = <br/><mark>تان تحقیقو پچین<mark> سی وی استعمال</mark> کوسانا؟
+languages-donate-banner-cta = <br/><mark>تان تحقیقو بچین<mark> سی وی استعمال</mark> کوسانا؟
 languages-donate-banner-cta-explanation = کامن وائسو تے فنڈ چندو  وا مددو ذریعا گویان۔ اسپہ ماہر تعلیمان، تنظیمان وا کارخانان سورا تحقیق کوراکان سون ای بیتی کوروم کوسیان۔ کامن وائس استعمالو بچین مفت مگم ہیا پلیٹ فارما حصہ گنیک وا گرانٹ پروپوزیلان ذریعا خرچو اوسنیک بو مدد کویان۔
 localization-select =
     .label = ای وارو گنے/مقامی
