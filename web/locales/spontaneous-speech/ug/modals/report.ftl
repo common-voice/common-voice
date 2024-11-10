@@ -15,3 +15,6 @@ other = باشقا
 report-error = دوكلات يوللاۋاتقاندا خاتالىق كۆرۈلدى
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = داۋاملاشتۇر
+# Header for report modal after successful reporting
+success = مۇۋەپپەقىيەت
+report-success-message = دوكلات مۇۋەپپەقىيەتلىك ماقۇللاندى
