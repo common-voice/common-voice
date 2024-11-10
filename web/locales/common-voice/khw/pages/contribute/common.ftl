@@ -16,8 +16,8 @@ contribute-more =
        *[other] { $count } وا دی کوریکو بچین تیارا ?
     }
 speak-empty-state = ہیا وارا رکارڈ کوریکو پچین اسپہ سوم جملہ ختم بیتی شینی۔
-no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو پچین تان سٹنگو بدل کوکو بوس۔
-speak-empty-state-cta = جملا نیویشے
+no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو پچین تان ترتیبو بدل کوکو بوس۔
+speak-empty-state-cta = جملہ نیویشے
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان ہوازو محفوظ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے

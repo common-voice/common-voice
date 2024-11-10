@@ -48,7 +48,7 @@ sc-criteria-item-6 = تہ سوں جملہ وا لوڑیکو پچین ختم کی
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیکو ہیا <icon> </icon> وارو لحاظہ سہی جملہ؟
 sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہیا؟
-sc-review-empty-state = موجودہ وحتہ ہیا وارا وا لوڑیکو پچین کیا جملہ نیکی۔
+sc-review-empty-state = ہیا وختا ہیا وارا سہی کوریکو پچین جملہ نیکی۔
 report-sc-different-language = خور وار
 report-sc-different-language-detail = اوا کیا وارو کی وا لڑیمان ہیا ہتے وارو سار خور نیویشی شیر۔
 sentences-fetch-error = جملو گناوا نقص پیدا ہوئے
