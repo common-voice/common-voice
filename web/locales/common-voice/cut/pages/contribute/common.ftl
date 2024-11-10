@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] Ama
        *[other] Tama, am taa
     }
-goal-help-recording = ¡ Yondibkue'de se iytanede Common Voice a chii ndaa  <goalPercentage> ndokas ne'enno oubi { $goalValue }!
+goal-help-recording = ¡ Yondibkue'de se iytanede Common Voice smiñase a ndaa  <goalPercentage> </goalPercentage> ndokas ne'enno ubi ubi  { $goalValue }!
 goal-help-validation = ¡Yondibkuede se iytanede Common Voice a chii nda ndokas ne'enno !
 contribute-more = ¿A beeyade se didka?
 speak-empty-state = A kotee ndodo dbaku, a kote se fnuu mu'u naa koo...
