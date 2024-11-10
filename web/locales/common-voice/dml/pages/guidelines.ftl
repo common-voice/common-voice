@@ -74,4 +74,5 @@ adding-sentences-subheader-length-explanation = ایک جملہ 15 الفاظ ت
 adding-sentences-subheader-spelling-punctuation = ہجہ آں اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = جملہ تہ املا سئی تھیبو
 adding-sentences-subheader-speakable = مُشکُل بین تہ قابل
+adding-sentences-subheader-speakable-explanation = بہترین جملہ قدرتی آں مُشکُل بین تہ اندازہ تِھین پکار درو - تے کُرئی ایس مسو اسکانے مترین بئین. کاڻ تہ تنو آں جملہ مخلتف الفاظ لے اہم درو، ائی تانو رضاکار کمیونٹی تہ پرئی جملہ نم تہ ریکارڈنگ کتکی ایس بیاں بہ دلچسپ آں مزیدار ژوپن تہ کوشیش کُنُمہ۔
 adding-sentences-subheader-numbers = نمبرنم
