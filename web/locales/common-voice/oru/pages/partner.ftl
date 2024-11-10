@@ -9,3 +9,5 @@ partnerships-foundations-header = بُنئدی
 partnerships-foundations-description = ماخ بُو کر کيېن بُنئدی، سېول سوسائټي او کمیونېټی ګیرډ که ا انټرنېټ سۀ صحت من ځاک جوړ کيېن خاص کر که ا ځېستر افریقه ته توجهـ مرکز بَۀ۔ ترماخ <programmaticWork> پروګرامېټِک کر باره نر بيې ګه ا ځان پویٛ کوَئ </programmaticWork>
 partnerships-governments-header = خکومتی
 partnerships-governments-description = ماخ خوش يېن که ا پبلِک سېکټر ګۀ ټېکنالوجی، نیووه شئ، او ته زبان خقوق بره نر سپورټ کيېنز که ترتیوس ارادۀ يې آ بَۀ که سۀ غُټ پراجېکټ یا کېمپېن يې روان کيېن ماخ ګیرډ يې په پا پته <emailFragment> رابطه کوئ ۔
+partnerships-academia-header = یونیورسټي، تعلیمی ماهر او ریسرچرز
+partnerships-academia-description = جَوَت نیووه شئ ترماخ ای زلی کی زُت بویٛ اِن۔ ته ریسرچ امداد، ډېټا سۀ ځاک کؤ یا انرویو پاره <emailFragment> يې دۀ کی رسايي کوئ
