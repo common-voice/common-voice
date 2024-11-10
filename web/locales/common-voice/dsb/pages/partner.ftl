@@ -8,3 +8,5 @@ partnerships-governments-header = Kněžaŕstwa
 partnerships-academia-header = Uniwersity, akademikarje a slěźarje
 partnerships-corporates-header = Wjelike korporacije a pśedewześa platformow
 partnerships-our-partners = Naše partnarje
+# menu item
+partners = Partnarje

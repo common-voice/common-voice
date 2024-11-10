@@ -16,3 +16,5 @@ partnerships-small-business-description = Veri kümesi kullanıcılarımızın g
 partnerships-corporates-header = Büyük ölçekli şirketler ve platform şirketleri
 partnerships-corporates-description = Veri kümesi hakkında konuşmak, planladığımız platform genişletmelerine ortak yatırım yapmak veya işbirliği olanaklarını değerlendirmek istiyorsanız <emailFragment>bize yazın</emailFragment>.
 partnerships-our-partners = İş Ortaklarımız
+# menu item
+partners = İş Ortakları

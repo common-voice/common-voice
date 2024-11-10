@@ -94,3 +94,7 @@ release-version = Verzió
 dataset-date = Dátum
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Töltse le a hangadatkészleteinket
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Letöltési lehetőségek a Common Voice adatokhoz

@@ -84,7 +84,7 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
 review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
 add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
-transcribe-audio = Awdio transkribować <small>(přińdźe bórze)</small>
+transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 

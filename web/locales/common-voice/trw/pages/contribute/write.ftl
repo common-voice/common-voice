@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = اے چیڙ می جملہ ایک دئی ما ”�
 small-batch-sentences-rule-4 = اے زر 1000 جملا یے پرکے جمع کوا
 small-batch-sentences-rule-5 = ہر جملہ سی اے شانا ڈومین ہوئے
 small-batch-sentences-rule-6 = بُوڑ جملا سی اے شانا حوالا ہُوئے
+# menu item
+add-sentences = جملہ جمع کوا
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = جملا جمع کوا آں تھیِن جائزہ گھیِنا۔ سوال جمع کوا، آڈیو لیِگا
+add-sentences-menu-item-tooltip = تُنو جئِب می جملا جمع کوا
+review-sentences-menu-item-tooltip = تُنو جیِب می جملا سی جائزہ گھیِنا
+add-questions-menu-item-tooltip = تُنو جیِب می سوال جمع کوا
+transcribe-audio-menu-item-tooltip = تُنو جیِب می ریکارڈ کوئیل آڈیو لیِگا
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = سوالا سی مینُو لیِگا
+add-sentences-menu-item-aria-label = کمیونیٹی سی پڑھاؤ کؤ سی کیا نم جملا تھلا
+review-sentences-menu-item-aria-label = کمیونیٹی تھلیل جملا سی جائزہ گھیِنا
+add-questions-menu-item-aria-label = کمیونیٹی سی کیا نم سوال پڑھاؤ کؤ سی آں جواب دیؤ سی کیا تھلا
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگ خط می لیِگا

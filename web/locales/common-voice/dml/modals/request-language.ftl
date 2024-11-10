@@ -7,4 +7,4 @@ request-language-success-title = باݜہ تہ درخاس کامیابیہ ݜا 
 request-language-success-content = ائی میاں ملی رابطا تِھیمہ  لے معلومتہ  ملی تے  کنوں کُری مینہ باݜہ عام کاڻ ملی اکَٹئبہ لے پھتائی
 select-language = ایک باݜہ منتخب کُرے
 other-language = ورے باݜہ
-yes-receive-emails = سئی، موں کی ای میل ݜئی ۔ ائی اکٹہ کاݩ تہ پرجیکٹ تہ بارہ معلومت پریم
+yes-receive-emails = سئی، موں کی ای میل ݜئی ۔ ائی اکٹہ کاڻ تہ پرجیکٹ تہ بارہ معلومت پریم

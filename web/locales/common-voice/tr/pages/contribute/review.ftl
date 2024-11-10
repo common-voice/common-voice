@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Çok hızlı ilerliyorsunuz. Lütfen cümleni
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
 sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
 sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.
+# menu item
+review-sentences = Cümleleri incele

@@ -10,3 +10,11 @@ listen-loading-error =
 listen-abort-title = د تایید کلپونه ختم کړئ؟
 listen-abort-cancel = تایید ته دوام ورکړئ
 listen-abort-confirm = تایید کول پای ته ورسوئ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+validate-readings-menu-item-aria-label = د ټولنې غړو لخوا سپارل شوي لوستل تایید کړئ
+review-transcriptions-menu-item-aria-label = د دقت لپاره د ثبت شویو جملو نقلونو بیاکتنه

@@ -1,3 +1,6 @@
+speak = وغږیږئ
+speak-now = اوس خبرې وکړئ
+speak-subtitle = خپل غږ ډالۍ کړئ
 record-cta = ثبتول پیل کړئ
 record-platform-not-supported = موږ بخښنه غواړو، ستاسو پل‌ سټه اوس مهال ملاتړ نه لري.
 record-platform-not-supported-desktop = په ډیسکټاپ الو کې تاسو کولی شئ ډاونلوډ کولو سره ونډه واخلئ ...
@@ -57,3 +60,17 @@ already-have-an-account = ایا دمخه حساب لرئ؟ <login>ننوتل</l
 create-profile-button = یو پروفایل جوړ کړئ
 # IMAGE TAGS
 img-alt-success-checkmark = د بریالیتوب نښه
+# menu item
+read-sentences = جملې ولولئ
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملې ولولئ، پوښتنې ځواب کړئ
+read-sentences-menu-item-tooltip = په خپله ژبه کې جملې ثبت کړئ
+answer-questions-menu-item-tooltip = په خپله ژبه کې پوښتنو او اشارو ته ځوابونه ثبت کړئ
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = د خبرو اختیارونو مینو
+read-sentences-menu-item-aria-label = په مختلفو ژبو کې د ټولنې لخوا وړاندې شوي جملې ولولئ
+answer-questions-menu-item-aria-label = د ټولنې لپاره د لوستلو او ځواب ورکولو لپاره یوه نوې پوښتنه وسپارئ

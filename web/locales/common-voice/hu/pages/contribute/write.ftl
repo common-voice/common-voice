@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = Válassza külön sorba a mondatokat az „Enter�
 small-batch-sentences-rule-4 = Adjon hozzá akár 1000 mondatot
 small-batch-sentences-rule-5 = Az összes mondatnak ugyanabba a doménbe kell tartoznia
 small-batch-sentences-rule-6 = Az összes mondatnak azonos hivatkozással kell rendelkeznie
+# menu item
+add-sentences = Mondatok hozzáadása
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Mondatok hozzáadása és ellenőrzése, Kérdések hozzáadása, Hang leiratozása
+add-sentences-menu-item-tooltip = Mondatok hozzáadása a saját nyelvén
+review-sentences-menu-item-tooltip = Mondatok ellenőrzése a saját nyelvén
+add-questions-menu-item-tooltip = Kérdések hozzáadása a saját nyelvén
+transcribe-audio-menu-item-tooltip = Leiratozza a hangfelvételeket a saját nyelvén
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Írásbeállítások menü
+add-sentences-menu-item-aria-label = Adjon hozzá új mondatokat a közösség számára
+review-sentences-menu-item-aria-label = A közösség által beküldött meglévő mondatok ellenőrzése
+add-questions-menu-item-aria-label = Küldjön be új kérdéseket, hogy a közösség felolvassa őket, és válaszoljon rájuk
+transcribe-audio-menu-item-aria-label = Leiratozza a hangfelvételeket

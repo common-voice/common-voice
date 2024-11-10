@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = { "" }
 ab = Abkazisht
 ace = Acehnezisht
 ady = Adëgabzisht
@@ -188,12 +189,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Flisni
-speak-now = Flisni tani
-datasets = Grupe të dhënash
-languages = Gjuhë
-about = Mbi
-partner = Partner
 profile = Profil
 help = Ndihmë
 contact = Kontakt
@@ -213,7 +208,6 @@ privacy-info = Premtojmë t’i trajtojmë me kujdes të dhënat tuaja. Lexoni m
 return-to-cv = Kthehuni te Common Voice
 email-input =
     .label = Email
-submit-form-action = Parashtroje
 loading = Po ngarkohet…
 email-opt-in-info = Do të doja të merrja email-e të tillë si kujtues objektivash, përditësime rreth ecurisë time dhe buletine mbi Common Voice.
 email-opt-in-info-title = Bëhuni pjesë e listës së postimeve rreth Common Voice-it
@@ -224,7 +218,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Na duhet</mark><br/><mark>ndihma juaj!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Kushton gati një milion dollarë në vit të strehohen grupet e të dhënave dhe të përmirësohet platforma për mbi 100 bashkësi gjuhës, që bazohen në çka bëjmë ne. <strong>Nëse vlerësoni të dhëna të hapëta, përfshirëse - dhuroni sot!</strong>

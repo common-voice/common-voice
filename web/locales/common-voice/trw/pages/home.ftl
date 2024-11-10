@@ -72,3 +72,26 @@ help-contribute = تُو کامن وائس سی پروفائل سیوادے اے
 login-company = لاگ این /سائن این کمپنی سی { $company } ای میل دے
 profile-not-required = پروفائل سوؤ مھید کم سی کؤ سی کیا کی ضروری نُو تُھو خو ایندے مدد ہوبھایی۔ ِوایے بُوا
 read-more-about = مُھن مے پاݜ سے دئی بُوا
+
+## NAV ITEMS
+
+answer-questions = سوالا سی جواب دا <small> شیرتے یدُو
+review-transcriptions = آڈیو سی لیِکھ سی جائزہ گھیںا <small> شیرتے ینیِن
+add-questions = سوال جمع کوا <small>شیرتے ینیِن
+transcribe-audio = آڈیو لیِگا <small> شیرتے ینیِن
+press-and-stories = پریس او سٹوری
+community-and-languages = کمیونیٹی او جیِب
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = شراکت، پریس او سٹوری، کمیونیٹی او جیِب
+partnerships-menu-item-tooltip = مھو سیت شراکت کوا
+press-and-stories-menu-item-tooltip = مُھن بلاگ بُوا یا مپحن بارا می لیِگا
+community-and-languages-menu-item-tooltip = جیِب او کمیونیٹی آں کامن وائس سی بارا می مھید پا
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = اپشنز مینُو سی بارا می
+partnerships-menu-item-aria-label = کامن وائس سیت شراکت سی بارا می آمن جنا
+press-and-stories-menu-item-aria-label = کامن وائس سی بارا می میڈیا سی خبر آں سٹوری مھید پشا
+community-and-languages-menu-item-aria-label = کامن وائس کامے جیِبا سی مدد کودُودا تھأ مھید پشا

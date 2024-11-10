@@ -22,13 +22,9 @@ show-wall-of-text = Bővebben
 help-us-title = Segítsen ellenőrizni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és döntse el: helyesen hangzik el az alábbi mondat?
 no-clips-to-validate = Úgy néz ki egyetlen meghallgatható klip sincs ezen a nyelven. Segítsen feltölteni a sort azáltal, hogy rögzít néhányat.
-vote-yes = Igen
-vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
-speak-subtitle = Adja a hangját
 speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része – egyesek azt mondanák, hogy ez a szórakoztató része.
 speak-goal-text = Rögzített klip
-listen-subtitle = Segítsen ellenőrizni a hangokat
 listen-paragraph = A közzétett klipek ellenőrzése hasonlóan fontos a Common Voice küldetéséhez. Hallgasson bele, és segítsen nekünk a minőségi nyílt forráskódú beszédadatok létrehozásában.
 listen-goal-text = Ellenőrzött klip
 hours-recorded = Rögzített órák
@@ -86,3 +82,25 @@ help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatk�
 login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 read-more-about = További információk a Névjegy oldalon
+
+## NAV ITEMS
+
+answer-questions = Válaszoljon kérdésekre <small>(Hamarosan)</small>
+review-transcriptions = Ellenőrizzen leiratozásokat <small>(Hamarosan)</small>
+add-questions = Kérdések hozzáadása <small>(Hamarosan)</small>
+transcribe-audio = Hangok leiratozása <small>(Hamarosan)</small>
+press-and-stories = Sajtó és történetek
+community-and-languages = Közösség és nyelvek
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerkapcsolatok, Sajtó és történetek, Közösség és nyelvek
+partnerships-menu-item-tooltip = Legyen a partnerünk
+press-and-stories-menu-item-tooltip = Látogassa meg blogunkat vagy írjon rólunk
+community-and-languages-menu-item-tooltip = Fedezzen fel nyelveket, közösségeket, és a közös hangot
+
+## MENU ITEM ARIA LABELS
+
+partnerships-menu-item-aria-label = Tudjon meg többet a Common Voice-szal való partnerségekről
+press-and-stories-menu-item-aria-label = Érje el a Common Voice-szal kapcsolatos sajtóközleményeket és történeteket
+community-and-languages-menu-item-aria-label = Fedezze fel a közösséget és a Common Voice által támogatott nyelveket

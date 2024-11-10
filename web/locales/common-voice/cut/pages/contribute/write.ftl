@@ -15,7 +15,7 @@ sc-review-write-title = ¿Taka ndodo se kugbi fnuu mu'u?
 sc-review-small-batch-title = ¿Taka dii tomen kugbii fnuu ndee ndodo mu'u naa koo?
 new-sentence-rule-1 = Btee iibi yi'i ndodo kuu
 new-sentence-rule-2 = Nwenese chonne ntinñu ndodo
-new-sentence-rule-3 = Dindi ne'es dudde o ndede mu'u naa koo te mu'u ama fnunoo
+new-sentence-rule-3 = Dindi ne'es dudde o nde'de mu'u naa koo
 new-sentence-rule-4 = Dindi dudde tomene kubi fne'e tama inña
 new-sentence-rule-5 = Nweyo ne'es bakchii dudde mu'u naa koo
 new-sentence-rule-6 = Nwe ne'es  dudde ndoko letra se nwe eena o nwe ndikchi inña yi'i yabakude
@@ -24,7 +24,7 @@ new-sentence-rule-8 = Dindi dindi noo tomene nwe kub bakchii yi'i inña ndetes n
 login-instruction-multiple-sentences = Kubbi kuenade o kubbi fnekakade tomene kubbi fnuu ndennaa ndodo yi'i dbaku yi'ide
 how-to-cite = ¿Taka ka'ama ?
 how-to-cite-explanation-bold = Fnekakade du'u yi'i ndodo se iynuu mu'u o tii bchii
-how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenode kugbi fndad mu'u tama kuaa.
+how-to-cite-explanation = Ndetes yi'ide ndodo se iynuu  mu'une kamade "yi'i". Nee kugbidbennono tii ndakade ndoskue'e ndodo se iynuu mu'u tomene kugbi kamanno se tndubee inñane iyndikchiya, nwe deb kama tama inña. Ndetes bekas ne'e kugbii dbenode kugbi fndad mu'u tama kuaa </guidelinesLink>
 guidelines = Mu'u aa taka kugbii
 contact-us = Ndede ndokono
 add-sentence-success = Ndodo se nbenno
@@ -36,10 +36,10 @@ bulk-sentence-submission = Ndendikuu ndodo kugbii cho'oo
 single-sentence = Ama ndodono
 small-batch-sentence = Ama dakuu linnoo
 bulk-sentence = Ama dakundikku
-sentence-domain-combobox-label = Iydikchide ndodo
-sentence-domain-select-placeholder = Ndi innu kugbi tndanunde ndetes ne'ede
+sentence-domain-combobox-label = Dbenode de'e ne kama ndodoku
+sentence-domain-select-placeholder = Ndi innu kugbi tndanunde (ndetes ne'ede)
 # Sentence Domain dropdown option
-agriculture_food = Ndinñu se innu ndata ndokos e'e inña
+agriculture_food = Ndinñu se innu ndata mii ndokos e'e inña
 # Sentence Domain dropdown option
 automotive_transport = Be'e nase bee koo se ikka, koo se iyndee inña tomene a kot kakaya
 # Sentence Domain dropdown option
@@ -90,7 +90,7 @@ bulk-upload-failed-toast = Nwe ne'e fnuu ndodo, dikuitude.
 bulk-submission-success-header = ¡Yondibkuede ndoko ndodo se iynuu mu'u  naa koo!
 bulk-submission-success-subheader = ¡Ytanede a Common Voice tomen kugbi ubi ubi fnuu ndodo dbaku mu'u!
 upload-more-btn-text = ¿Ne'edese fnuuka ndodo mu'u naa koo?
-file-invalid-type = Kakakun nwe ndebe
+file-invalid-type = Kakakun nwe ndebe, nwe dikchibee.
 file-too-large = Tete chete kakaku
 file-too-small = Tet lin kaka kuu
 too-many-files = Tet ndee kakaa
@@ -131,9 +131,33 @@ add-small-batch-success =
         [one] Am ndodo a ndidama
        *[other] Yi'i tndube ndodo se ndidama
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } yi'i ama ndodo se achii dama. Mu'u ndutade <downloadLink> mu'u </downloadLink> tomene kugbi chuun ndodo se nwe chii gnuu mu'u naa koo.
+       *[other] { $uploadedSentences } yi'i { $totalSentences } ndubee ndodo se andidama. Mu'u ndeetad <downloadLink> mu'u </downloadLink> tomene kugbi chuun ndodo se nwe chii gnuu mu'u na koo.
+    }
+small-batch-sentences-rule-1 = Gdinde ¿De'e ndodo se kugbii fnu mu'u naa koo?
+small-batch-sentences-rule-2 = Ama ndodono dudde
+small-batch-sentences-rule-3 = Ama ama dudde ndodo, kade ama ama
+small-batch-sentences-rule-4 = Ndi ama mil ndodo kugbi fnuu mu'u naa koo
+small-batch-sentences-rule-5 = Ndoskue'e ndodo se gnuu mu'u na koone adamanno de'es nee kama
+small-batch-sentences-rule-6 = Tndubee ndodo see fnuu mu'une daman ndoskue'e
+# menu item
+add-sentences = Kugbi fnuu ndodo mu'u naa koo
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Ndobnede ndodo mi nome nbekuendede, nome tomunide, dudde ndodo se gnuu mu'u naa koo
+add-sentences-menu-item-tooltip = Ndobned ndodo yi'i dbaku yi'ide
+review-sentences-menu-item-tooltip = Nbekuendede ndodo yi'i dbaku yi'ide
+add-questions-menu-item-tooltip = Ndobnede ndodo yi'i dbaku yi'ide
+transcribe-audio-menu-item-tooltip = Chod naa ama kaka ndodo dbaku yi'ide se gnuu mu'u na koo
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Mu'u tndanude taka ne'e dudde
+add-sentences-menu-item-aria-label = Tndobned tama ndodo tomene kuee inña yi'i yabakude
+review-sentences-menu-item-aria-label = Nbekuended ndodo se kama inña yi'i yaabakude
+add-questions-menu-item-aria-label = Tomunid tama ndodo inña yi'i yabakude tomene kueya mii nbefneya
+transcribe-audio-menu-item-aria-label = Ddude na ama kaka ndodo se gnu mu'u  naa koo

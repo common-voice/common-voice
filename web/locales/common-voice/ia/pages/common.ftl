@@ -275,12 +275,12 @@ stayintouch = Nos a Mozilla construe un communitate de interessatos in technolog
 privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>aviso de confidentialitate</privacyLink>.
 return-to-cv = Retornar a Common Voice
 email-input =
-    .label = E-mail
+    .label = Email
 loading = Cargamento…
-email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
+email-opt-in-info = Io volerea reciper emails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
 email-opt-in-info-title = Inscribe te al lista de diffusion de Common Voice
-email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de defias e objectivos, actualisationes de progresso e bulletines de novas sur Common Voice.
-email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
+email-opt-in-info-sub-with-challenge = Recipe emails como rememorationes de defias e objectivos, actualisationes de progresso e bulletines de novas sur Common Voice.
+email-opt-in-privacy-v2 = Si tu opta pro reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
 

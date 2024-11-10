@@ -5,4 +5,4 @@ contact-form-name =
     .label = Nomine
 contact-form-message =
     .label = Message
-contact-required = *requirite
+contact-required = *necessari
