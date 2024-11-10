@@ -11,7 +11,7 @@ demo-language-select-card-body = 50 واران 259 ہزارار ذیاد روی�
 card-button-next = پروشٹی بوغے
 card-button-back = اچی گے
 demo-language-select-label = واران مݰکے
-demo-eofy-header = 2019 سالو اخیری خبر
+demo-eofy-header = 2019 سالو اخری خبر
 demo-eofy-sub_header = ہوازان ڈیٹا سیٹ ڈون لوڈ کوریکو پچین تیار
 demo-account = اکاونٹ
 

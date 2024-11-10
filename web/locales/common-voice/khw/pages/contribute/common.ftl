@@ -76,8 +76,8 @@ shortcut-discard-ongoing-recording = ایس کیپ
 shortcut-discard-ongoing-recording-label = ہیا رکارڈو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی ہواز جمع کو
-request-language-text = تہ وار کامن وائیسا نیکی وا؟
-request-language-button = وارو درخواست کو
+request-language-text = تان وارو ہانیاپت کامن وائیسا نو لیتاوا؟
+request-language-button = وارو پچین عرضی کو
 
 ## Listen Shortcuts
 
@@ -110,7 +110,7 @@ contribution-misreadings-example-1-title = ٹرائزیکو لوٹ ڈائنوس�
 contribution-misreadings-example-2-title = ٹرائزیکو لوٹ ڈائنوسار
 contribution-misreadings-example-2-explanation = [ ڈائنوسار بیلیک]
 contribution-misreadings-example-3-title = ٹرائزیو لوٹ ڈائنوسار
-contribution-misreadings-example-3-explanation = [اخیری لفظار پوشٹی رکارڈنگو بند کوریک]
+contribution-misreadings-example-3-explanation = [اخری لفظار پوشٹی رکارڈنگو بند کوریک]
 contribution-misreadings-example-4-title = ٹرائزیکو لوٹ ڈائنوسار۔ دی۔
 contribution-misreadings-example-4-explanation = [ کندوری کی نیویشیرو حاجت، ہیتیغار ذیاد رکارڈ کورنو بیتی شیر ]
 contribution-misreadings-example-5-title = اسپہ بیری کافی پیاو بیسیان
