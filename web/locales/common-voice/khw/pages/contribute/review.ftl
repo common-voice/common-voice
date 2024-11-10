@@ -46,7 +46,7 @@ sc-criteria-item-4 = اگر جملہ معیارو پورا کی کویان ہی�
 sc-criteria-item-5-2 = اگر جملہ بوعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پورشٹی بیکو بوس۔
 sc-criteria-item-6 = تہ سوں جملہ وا لوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = چیکو ہیا <icon> </icon> وارو لحاظہ سہی جملہ؟
+sc-review-instruction = لوڑے <icon> </icon>ہیا کھوارو سہی جملہ؟
 sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہیا؟
 sc-review-empty-state = ہیا وختا ہیا وارا سہی کوریکو پچین جملہ نیکی۔
 report-sc-different-language = خور وار
