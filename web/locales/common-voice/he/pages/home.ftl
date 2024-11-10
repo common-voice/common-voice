@@ -89,6 +89,7 @@ community-and-languages = קהילה ושפות
 about-menu-tooltip = שותפויות, עיתונות וידיעות, קהילה ושפה
 partnerships-menu-item-tooltip = הפכו לשותפים שלנו
 press-and-stories-menu-item-tooltip = בקרו בבלוג שלנו או כתבו אודותינו
+community-and-languages-menu-item-tooltip = גלו שפות וקהילות
 
 ## MENU ITEM ARIA LABELS
 
