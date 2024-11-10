@@ -48,3 +48,5 @@ edit-profile = ا پروفائل پېش کَۀ
 profile-create-success = کامیابي/ ا پروفائل جوړ ݭیوک
 profile-close = بند
 profile-explanation = ته خوئ مُخ په څېک يې پروفائل نر ټرېک سېتن که ترماخ ته آواز ا ډېټآ ݫات صحیح بَۀ
+thanks-for-account = شکریا ته اکاؤنټ ته تصدیق پاره، پېری يې سو ماخ ترتُو پروفائل جوړېن
+why-demographic = ته پۀ يې څۀ ضرورت هۀ؟
