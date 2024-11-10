@@ -92,12 +92,12 @@ about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ
 about-playbook-how-record-content-1 = تان عام ہواز لو دیت۔ کیہ قسم کی تو لو دوسان ہسے تان سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان۔
 about-playbook-how-record-content-2 = گوݯھتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غاورو سورا راوے- کھیو پځے مو، بدل مو دیت، لفظ شامل مو کو
-about-playbook-how-record-content-4 = لو دیکار پورشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
+about-playbook-how-record-content-4 = لو دیکار پروشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
 about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان بچین ہیا لوڑے۔ </accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = اسپہ کامن وائسا ای وارو کیا طریقہ پورشٹی الوسی؟
+about-playbook-how-grow-language = اسپہ کامن وائسا ای وارو کیا طریقہ پروشٹی الوسی؟
 about-playbook-how-grow-language-content-1 = مختلف رویان تین موقع دیتی کامن وائس ہیا لوو یقینی کویان کہ دیٹاسیٹ کندوری کی ہوئی ذیاد رویان خسمتو کورار۔  اسپہ تہ استعمالو بچین وسائل ساوزے اسوسی۔
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو  پچین میٹنگ مشکیکو  بوس۔ ہیا بو اسان۔  اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اشوئی تیتان ای ژاغا مشکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان بچین ہمو </eventTemplate>لوڑے
