@@ -15,4 +15,7 @@ thank-you-for-your-information = ئۇچۇرىڭىزغا رەھمەت
 
 ## Gender dropdown
 
-male_masculine = ئەر/ئەركەك
+male_masculine = ئەر
+female_feminine = ئايال
+intersex = جىنس ئۆزگەرتكەن
+transgender = قوش جىنس
