@@ -103,7 +103,7 @@ about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو  پچین میٹنگ مشکیکو  بوس۔ ہیا بو اسان۔  اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اشوئی تیتان ای ژاغا مشکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان پیچین ہمو </eventTemplate>لوڑے
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  پچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیا کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران پچین<campaignLink> ہیا ژاغا لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
-about-playbook-how-grow-language-content-6 = حصہ داری وا تعلوقات
+about-playbook-how-grow-language-content-6 = شرکت داری وا تعلوقات
 about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیا بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> خور بو رویان سون تریکو پیچین اسپہ تیار  ای میلان لوڑے</outreachTemplates>۔
 about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</strong>۔ تا وارو ڈال  بلکل خور بیلیک وا ہمیت شروع کوریکو ای کما طریقہ۔
 
@@ -137,4 +137,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حک
 about-playbook-how-funded = کامن وائس کیچا بیتی ساوز ہوئے؟
 about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
 about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو پچین،  بہتر کوریکو پچین وا کمیونیٹیان پروگرامان چلیکو پچین بو پیسو ضرورت شیر۔
-about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سون مدد کوریک کی مݰکیمیان، پیسا عطیہ<donateLink> دیکو بومی </donateLink> یا یا اسپہ حصہ دار ٹمینان سون لو دیکو بومی۔
+about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سون مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شرکت کوریاک ٹیمو سون لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
