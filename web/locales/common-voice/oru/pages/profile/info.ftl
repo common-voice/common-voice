@@ -76,3 +76,4 @@ variant-contribution-help = ا جَنه بِڅخل لهجی بُو زبان ته
 variant-contribution-option-1 = سال جملي یا کلِپی ر دی پئ اره قِسمی لاسته شام کَۀ خوئ زبان نر
 variant-contribution-option-2 = صرف ترمُن ته قسم جملي او کلِپی ر دی شام کَۀ
 variant-contribution-warning-title = اره جملي او کلِپی دی ته قسمی ټېګ مین نک دَرِن
+variant-contribution-warning-subtitle = که پېش کؤ نر دل يې څه مسلۀ بَۀ، تو بو واپس څېک اېنچی که اره کونټېنټ ته خوئ زبان څُونی
