@@ -120,7 +120,7 @@ contribution-misreadings-example-7-title = اسپہ بیری کافی پیاو �
 contribution-misreadings-example-7-explanation = [اصل نیویشیروا 'الف' نیکی]
 contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار پوشٹی نیسیتائے
 contribution-misreadings-example-8-explanation = [ بورنگا اشناری]
-contribution-varying-pronunciations-title = لہجو بدیل دیک
+contribution-varying-pronunciations-title = بدل لہجہ
 contribution-varying-pronunciations-description = لفظو غلط را اسور، غلط ژاغا زور دیتی اسور یا سوالہ نݰانو نو رے اسور، رے ہوازو مسترد کوریکار پوشٹی احتیاط کو
 contribution-varying-pronunciations-description-extended = خور ویلٹی، اگر تہ خیالہ  ہے لفظ ہیغار پوشٹی ریاکو  پوشٹا نوگیتی اوشئے وا رییاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو۔ تہ تین کہ یقین نیکی سورین نیسیکو پٹینودیت
 contribution-varying-pronunciations-example-1-title = تان سورو کھوئی دیتی استائے
@@ -139,7 +139,7 @@ contribution-background-voices-description = پیک پس منظر صحیح۔ ل�
 contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نیویشیرو ریکو ہواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای ہواز راوے]</strong>
 contribution-background-voices-example-1-explanation = توگوسانا؟ <strong>[ خور کا ہوئے پرائے ]</strong>
-contribution-volume-title = توڑ-لش
+contribution-volume-title = ہواز
 contribution-volume-description = ریاکان ہواز قدرتی طورا کم ذیاد بوئی۔ ہتے صورتا در کو کہ ہواز ہنی توڑ  اوشوئی کہ ݯیاو اشوتائی۔(ذیادہ عام طورا) کہ بو لاش اوشوئی کیا ران رے کارا کی نو دیاواوشتائے نیویشیرو لوڑے۔
 contribution-reader-effects-title = ریاکان اثر
 contribution-reader-effects-description = ذیاد رکارڈنگ ہتے رویان کاکی تان قدرتی ہوازا لوو دونیان۔  تو ایگانا ہتے غیر معیاری ہواز کی ہتیت شور، لاش لو وا ڈرامائی ہواز بدل بیتی شینی دی منظور کوریکو بوس۔ مہربانی کوری باشاوونان اوچے کمپیوٹیرو ترتیب دیرو ہوازان رد کورے۔
