@@ -38,12 +38,12 @@ sc-review-link = وا لوڑیک
 
 sc-criteria-modal = وا لوڑیکو معیار
 sc-criteria-title = وا لوڑیکو معیار
-sc-criteria-make-sure = تسلی کو کی جملہ  پوشٹی گیاک معیارو پورا کویان
+sc-criteria-make-sure = تسلی کو کی جملہ  پورشٹی گیاک معیارو پورا کویان
 sc-criteria-item-1 = جملہ سہی نیویشینو بائے
 sc-criteria-item-2 = جملہ گرائمیرو لحاظا سہی بائے
 sc-criteria-item-3 = جملو ریکو قابل بائے
 sc-criteria-item-4 = اگر جملہ معیارو پورا کی کویان ہیا&quot; کلک کو۔  ہوسکی وشکی &quot;منظور کو
-sc-criteria-item-5-2 = اگر جملہ بوعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پوشٹی بیکو بوس۔
+sc-criteria-item-5-2 = اگر جملہ بوعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پورشٹی بیکو بوس۔
 sc-criteria-item-6 = تہ سوں جملہ وا لوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیکو ہیا <icon> </icon> وارو لحاظہ سہی جملہ؟

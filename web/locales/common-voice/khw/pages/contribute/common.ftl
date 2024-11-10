@@ -2,7 +2,7 @@ action-click = کلک
 action-tap = ٹیپ
 contribute = تان حصو شامل کوریک
 review = وا لوڑے
-skip = پیځی پروشٹی بیک
+skip = پیځی پروشٹی بوغے
 shortcuts = اسکوردی راہ
 clips-with-count-pluralized =
     { $count ->
@@ -103,14 +103,14 @@ contribution-misreadings-title = غلط ریک
 contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کو،کیاٰغ کی رکارڈ بیتی شیر نیویشیرو دی اسیتان؛ معمولی غلطی دی کی اشوئے رد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
 contribution-misreadings-description-extended-list-1 = کمی <strong>'الف'</strong> یا <strong>''</strong> رکارڈنگو شروعا
 contribution-misreadings-description-extended-list-2 = لفظو اخیرا ای <strong> س<strong> کی نو اشوئی
-contribution-misreadings-description-extended-list-3 = اسکوردی ریک کہ ہس حقیقت ہیرا موجود نیکی کیچہ کی  "We are"  ژاغا "We're" یا ہمیتان اچی پوشٹی الیک
+contribution-misreadings-description-extended-list-3 = اسکوردی ریک کہ ہس حقیقت ہیرا موجود نیکی کیچہ کی  "We are"  ژاغا "We're" یا ہمیتان اچی پورشٹی الیک
 contribution-misreadings-description-extended-list-4 = رکارڈنگو تیز چھینیکو وجہین دیتی  لفظو اخرو چھینیک
 contribution-misreadings-description-extended-list-5 = ای لفظو ریکو پچین امبوخ کوشش کوریک
 contribution-misreadings-example-1-title = ٹرائزیکو لوٹ ڈائنوسار
 contribution-misreadings-example-2-title = ٹرائزیکو لوٹ ڈائنوسار
 contribution-misreadings-example-2-explanation = [ ڈائنوسار بیلیک]
 contribution-misreadings-example-3-title = ٹرائزیو لوٹ ڈائنوسار
-contribution-misreadings-example-3-explanation = [اخری لفظار پوشٹی رکارڈنگو بند کوریک]
+contribution-misreadings-example-3-explanation = [اخری لفظار پورشٹی رکارڈنگو بند کوریک]
 contribution-misreadings-example-4-title = ٹرائزیکو لوٹ ڈائنوسار۔ دی۔
 contribution-misreadings-example-4-explanation = [ کندوری کی نیویشیرو حاجت، ہیتیغار ذیاد رکارڈ کورنو بیتی شیر ]
 contribution-misreadings-example-5-title = اسپہ بیری کافی پیاو بیسیان
@@ -118,11 +118,11 @@ contribution-misreadings-example-6-title = اسپہ بیری کافی پیاو �
 contribution-misreadings-example-6-explanation = [ ہیا “بِیری ” بیلیک]
 contribution-misreadings-example-7-title = اسپہ بیری کافی پیاو بیسیان
 contribution-misreadings-example-7-explanation = [اصل نیویشیروا 'اسپہ' شییر]
-contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار پوشٹی نیسیتائے
+contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار پورشٹی نیسیتائے
 contribution-misreadings-example-8-explanation = [ بورنگا اشناری]
 contribution-varying-pronunciations-title = بدل لہجہ
-contribution-varying-pronunciations-description = لفظو غلط را اسور، غلط ژاغا زور دیتی اسور یا سوالہ نݰانو نو رے اسور، رے ہوازو مسترد کوریکار پوشٹی احتیاط کو
-contribution-varying-pronunciations-description-extended = خور ویلٹی، اگر تہ خیالہ  ہے لفظ ہیغار پوشٹی ریاکو  پوشٹا نوگیتی اوشئے وا رییاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو۔ تہ تین کہ یقین نیکی سورین نیسیکو پٹینودیت
+contribution-varying-pronunciations-description = لفظو غلط را اسور، غلط ژاغا زور دیتی اسور یا سوالہ نݰانو نو رے اسور، رے ہوازو مسترد کوریکار پورشٹی احتیاط کو
+contribution-varying-pronunciations-description-extended = خور ویلٹی، اگر تہ خیالہ  ہے لفظ ہیغار پورشٹی ریاکو  پورشٹا نوگیتی اوشئے وا رییاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو۔ تہ تین کہ یقین نیکی سورین نیسیکو پٹینودیت
 contribution-varying-pronunciations-example-1-title = تان سورو کھوئی دیتی استائے
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحیح شیر ہمو اولو حصہ زور دوسان(یوکے) یا جوو(یو ایس) ]
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی

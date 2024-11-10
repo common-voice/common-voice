@@ -119,13 +119,13 @@ rate-limit-toast-message-seconds =
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو ای منٹ اچھا جمع کو
-       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پوشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو پچین شکریہ!
+       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پورشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو پچین شکریہ!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پوشٹی1سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
-       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پوشٹی { $retryLimit }  سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
+        [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پورشٹی1سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
+       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پورشٹی { $retryLimit }  سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
