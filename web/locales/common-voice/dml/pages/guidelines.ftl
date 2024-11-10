@@ -76,3 +76,5 @@ adding-sentences-subheader-spelling-punctuation-explanation = جملہ تہ ام
 adding-sentences-subheader-speakable = مُشکُل بین تہ قابل
 adding-sentences-subheader-speakable-explanation = بہترین جملہ قدرتی آں مُشکُل بین تہ اندازہ تِھین پکار درو - تے کُرئی ایس مسو اسکانے مترین بئین. کاڻ تہ تنو آں جملہ مخلتف الفاظ لے اہم درو، ائی تانو رضاکار کمیونٹی تہ پرئی جملہ نم تہ ریکارڈنگ کتکی ایس بیاں بہ دلچسپ آں مزیدار ژوپن تہ کوشیش کُنُمہ۔
 adding-sentences-subheader-numbers = نمبرنم
+adding-sentences-subheader-numbers-explanation = بہتر یہ درو تے سورس متنہ اعداد مہ تھیبو کوئی تے میں شورے مترنہ مسئلہ پیدا کُنا۔ عدد ساں مترن تہ طریقہ سیاق و سباقہ مشتمل تِھنا آں یہ ڈیٹا سیٹہ اُلھاو پیدا کُنا۔ مثل تہ طورہ عدد “2409” سئی طریقہ “بشی او چور صفر نو” آں “دو زرہ چور سوہ آں نو”. دوئیں طریقہ مترین بئیبہ۔
+adding-sentences-subheader-abbreviations = مختصرات اور مخففات
