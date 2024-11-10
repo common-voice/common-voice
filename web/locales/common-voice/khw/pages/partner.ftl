@@ -14,7 +14,9 @@ partnerships-academia-description = ویریغا نوغ کوروم اسپہ ہر
 partnerships-small-business-header = چیق کروبار کہ تیرا ٹکنالوجی وا آے آئی (AI )شامل شیر شروع کوریک
 partnerships-small-business-description = اسپہ ہمیشو پچین معلوماتان استعمال کوراکان سار توغو ضرورت اوچے ماحولو بارا رائے گانیک مݰکیسان۔ ای بیتی ڈیٹا بځیکو ژاغار گنی، ڈیٹوصحتو سورا غیچ لاکھیکھا پت، اسپہ تا سار <emailFragment>رائے مݰکیسیان</emailFragment>
 partnerships-corporates-header = لوٹ پیمانہ اجتعماعی کمپنی
-partnerships-corporates-description = اگر تو معلوماتان بار کی لوو دیک مݰکیسان، لوٹ کمپنین پیسہ لاگیک کی مݰکیسان یا ای بیتی کوروم کوریک کی مݰکیسان<emailFragment> اسپہ تین مختصر نیویشیے۔
+partnerships-corporates-description =
+    اگر تو ڈیٹاسیٹو بارا خور دی کی لوو دیک مݰکیسان، پلیٹ فارمو منصوبے لوٹیکو پچین پیسہ لاگیک کی مݰکیسان یا ای بیتی کوروم کوریکو موقعو کی تلاشا اسوس اسپہ تین<emailFragment> 
+      اسکوردی نیویشیے</emailFragment>۔
 partnerships-our-partners = اسپہ حصہ دار
 # menu item
 partners = حصہ دار
