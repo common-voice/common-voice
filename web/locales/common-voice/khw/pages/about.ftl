@@ -37,7 +37,7 @@ about-dataset-new = کامن وائسو ڈیٹا سیٹ
 about-dataset-new-text = کامن وائسو ڈیٹآ سیٹا ہزار ہا ہوازان نمونہ شینی، ہتیت ساوزیاکان ہوازو ہوش کوراک سامان ساوزیکا مدد کونیان۔
 about-clip-graveyard = ہوازن قبرستان
 about-clip-graveyard-text = ہوازان قبرستانہ ہتے ہواز شینی کیاغ کہ کامن وائس ڈیٹا سیٹو اندرینو شامل نکی۔ ہوازان قبرستان دی ڈیٹا سیٹو غون ڈاون لوڈ کوریکو پچین دستیاب شیر۔ اسپہ موڑی ہمی رویان وا تنظیمان ہیا پروجکٹو سون تیتان مددو پچین شکریہ کوسیان۔
-about-get-involved = حصہ دار بیک
+about-get-involved = حصہ گنیک
 about-get-involved-text-2 = تو کامن وائسو ہمو سار دی بہتر بیک کی مݰکیسانا؟ بو جام! اسپہ تین ای میل کو یا <discourseLink> مشقولگیو</discourseLink> ژاغا گے۔ ہیا سائٹو نقصان <githubLink>گیٹ ہبو ذریعا جمع کو یا کمیونیٹیو مشقول گیو خانہ گے۔
 about-stay-in-touch = اوا کیچہ بیتی رابطہ بہچوم؟
 about-stay-in-touch-button = سائن اپ کو
@@ -46,7 +46,7 @@ about-stay-in-touch-text-2 = تو موزیلو وران ڈالا خور رویا
 about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = حصہ دار
-about-nav-get-involved = شامل بوس
+about-nav-get-involved = حصہ گنیک
 about-nav-how-it-works-2 = کامن وائس کیچا کوروم کویان؟
 about-nav-playbook = حصہ گنیکو طریقو  ݯھیݯھے
 
