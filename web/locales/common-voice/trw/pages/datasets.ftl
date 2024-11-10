@@ -86,3 +86,7 @@ release-version = وار/ورژن
 dataset-date = تاریخ
 license = لیسن <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مُھن وائس سی ڈیٹا سیٹ ڈاؤنلوڈ کوا
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس سی مواد سی کیا آپشنز ڈاؤنلوڈ کوا

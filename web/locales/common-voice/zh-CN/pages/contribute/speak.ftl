@@ -1,5 +1,5 @@
-speak = 朗读
-speak-now = 开始朗读
+speak = 说话
+speak-now = 开始说话
 speak-subtitle = 捐出一段声音
 record-cta = 开始录音
 record-platform-not-supported = 很抱歉，尚不支持您的平台。
@@ -11,8 +11,8 @@ record-error-too-short = 这份录音太短了。
 record-error-too-long = 这份录音太长了。
 record-error-too-quiet = 这份录音声音太小了。
 record-cancel = 取消重新录音
-record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然后大声朗读句子
-record-stop-instruction = { $actionType } 完成后按下 <stopIcon></stopIcon>
+record-instruction = { $actionType }<recordIcon></recordIcon> 朗读句子
+record-stop-instruction = 完成后{ $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = 还有三条！
 record-again-instruction = 太棒了！<recordIcon></recordIcon> 来录制下一个片段
 record-again-instruction2 = 继续加油，再录一次 <recordIcon></recordIcon>
@@ -21,7 +21,7 @@ review-tooltip = 在此确认或重新录制片段
 share-clip = 分享您的录音片段
 share-common-voice = 分享 Common Voice
 review-instruction = 确认录音内容，有需要的话可以重录
-record-submit-tooltip = { $actionType } 确认无误即可提交
+record-submit-tooltip = 确认无误后{ $actionType }提交
 clips-uploaded = 片段已上传
 record-abort-title = 不先完成录音吗？
 record-abort-text = 现在离开将丢失您的进度
@@ -41,7 +41,7 @@ terms-agree = 我同意
 terms-disagree = 我不同意
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = 感谢您贡献语音片段！
-first-cta-subtitle-text = 您愿意分享您的语音片段吗？
+first-cta-subtitle-text = 通过描述自己，您将帮助开发者打造更具包容性的技术。
 why-donate = 为什么这么问？
 why-donate-explanation-1 = 您可以自由选择是否提供此信息，且只应在您觉得合适的情况下提供。发布数据集时，我们会对所有个人信息进行匿名处理，并确保您的姓名和电子邮件等信息与年龄和性别等人口统计信息无关。
 why-donate-explanation-2 = 为了使技术人人适用，开发人员构建技术所用的数据需要反映出各类人群的语音特点。举例来说，如果我们不采集任何具有特定口音的朗读者的语音片段，那么该技术就无法很好地适用于具有该口音的人。 <learnMore>详细了解为什么元数据至关重要。</learnMore>
@@ -67,10 +67,10 @@ read-sentences = 朗读语句
 
 speak-contribute-menu-tooltip = 朗读语句，回答问题
 read-sentences-menu-item-tooltip = 以您的语言朗读语句并录音
-answer-questions-menu-item-tooltip = 以您的语言回答问题或提示语并录音
+answer-questions-menu-item-tooltip = 以您的语言回答问题或引导语并录音
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = “朗读”选项菜单
+speak-contribute-menu-aria-label = “说话”选项菜单
 read-sentences-menu-item-aria-label = 朗读社区提交的各语言语句
 answer-questions-menu-item-aria-label = 提交新问题，供社区朗读和回答

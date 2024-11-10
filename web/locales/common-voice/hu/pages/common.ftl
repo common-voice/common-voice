@@ -150,6 +150,7 @@ pt = Portugál
 quc = K'iche'
 quy = Kecsua chanka
 qvi = Kecsua
+qxp = Puno kecsua
 rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
 ro = Román

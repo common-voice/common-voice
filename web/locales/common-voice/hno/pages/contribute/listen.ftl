@@ -10,3 +10,17 @@ listen-loading-error = اساں کو تسدے سنڑا واسطے آواز د�
 listen-abort-title = کلپاں دی تصدیق ختم کراں؟
 listen-abort-cancel = تصدیق کرنا جاری رکھو
 listen-abort-confirm = تصدیق کرنا ختم کرو
+# Menu item
+validate-readings = پڑھن دی تصدیق کرو
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = پڑھن دی تصدیق کرو، ٹرانسکرپشن دا جائزہ گھنو
+validate-readings-menu-item-tooltip = اپنڑی زبان بچ پڑھن آلیاں دے پڑھے دی تصدیق کرو
+review-transcriptions-menu-item-tooltip = اپنڑی زبان بچ استعمال آلیاں دی جمع کیتی ٹرانسکرپشن دی تصدیق کرو
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = اختیارات آلے مینو کو سنڑو
+validate-readings-menu-item-aria-label = کمیونٹی ممبراں دے جمع کرالے دے پڑھن دی تصدیق کرو
+review-transcriptions-menu-item-aria-label = ریکارڈ کیتے دے جملیاں دی درستگی واسطے ٹرانسکرپشن دا جائزہ گھنو

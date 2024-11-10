@@ -39,7 +39,7 @@ sc-review-link = وا لوڑیک
 sc-criteria-modal = وا لوڑیکو معیار
 sc-criteria-title = وا لوڑیکو معیار
 sc-criteria-make-sure = تسلی کو کی جملہ  پوشٹی گیاک معیارو پورا کویان
-sc-criteria-item-1 = جملہ سہی نویشینو بائے
+sc-criteria-item-1 = جملہ سہی نیویشینو بائے
 sc-criteria-item-2 = جملہ گرائمیرو لحاظا سہی بائے
 sc-criteria-item-3 = جملو ریکو قابل بائے
 sc-criteria-item-4 = اگر جملہ معیارو پورا کی کویان ہیا&quot; کلک کو۔  ہوسکی وشکی &quot;منظور کو
@@ -48,15 +48,15 @@ sc-criteria-item-6 = تہ سوں جملہ وا لوڑیکو پچین ختم کی
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیکو ہیا <icon> </icon> وارو لحاظہ سہی جملہ؟
 sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہیا؟
-sc-review-empty-state = موجودہ وحتہ ہیا وارا وا لوڑیکو پچین کیا جملہ نیکی۔
+sc-review-empty-state = ہیا وختا ہیا وارا سہی کوریکو پچین جملہ نیکی۔
 report-sc-different-language = خور وار
-report-sc-different-language-detail = اوا کیا وارو کی وا لڑیمان ہیا ہتے وارو سار خور نویشی شیر۔
+report-sc-different-language-detail = اوا کیا وارو کی وا لڑیمان ہیا ہتے وارو سار خور نیویشی شیر۔
 sentences-fetch-error = جملو گناوا نقص پیدا ہوئے
 review-error = جملو وا لوڑاوا نقص پیدا ہوئے
 review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے یقینی سہی کوریکو بچین پھوک روک بوس۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسپہ پھوک لوٹ تبدیلی کوسیان
-sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کامن وائسو ژاغو ویشکی بیران۔ تو ہنیسے <writeURL> نویشے</writeURL> ایک جملہ یا<reviewURL> وا لوڑے</reviewURL> ای جملو کامن وائسا جمع کوریکو۔
+sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کامن وائسو ژاغو ویشکی بیران۔ تو ہنیسے <writeURL> نیویشے</writeURL> ایک جملہ یا<reviewURL> وا لوڑے</reviewURL> ای جملو کامن وائسا جمع کوریکو۔
 sc-redirect-page-subtitle-2 = اسپاسار بشار کو <matrixLink> سانچہ</matrixLink> <discourseLink>لو </discourseLink> یا <emailLink> ای میل</emailLink>
 # menu item
 review-sentences = جملان وا لوڑے

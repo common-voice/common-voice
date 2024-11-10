@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تُسیں مچ جلدی کردیو۔ برا�
 sc-redirect-page-title = اسیں کوئی بڑی تبدیلیاں کر رے آں
 sc-redirect-page-subtitle-1 = جملے جمع کرن آلا بنیادی کامن وائس پلیٹ فارم دی طرف جلدا ہے۔ ہونڑ تسیں ہک جملہ<writeURL>لکھ</writeURL>ہکدے ہو یا <reviewURL>جائزہ</reviewURL>گِِھن ہکدے ہو، ہک جملہ کّٹھا کر سکدے ہو۔
 sc-redirect-page-subtitle-2 = اساں کولو <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> دے بارے سوالات پُچھو۔
+# menu item
+review-sentences = جملیاں دا جائزہ لاؤ

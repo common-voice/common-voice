@@ -16,3 +16,5 @@ partnerships-small-business-description = مھو مدام مواد سی استع
 partnerships-corporates-header = گھین گھین کمپنی آں پلیٹ فارمز
 partnerships-corporates-description = کو تھو مے ڈیٹا سیٹ سی بارا می کی بنُو نیِمادی یا مے پروگرام سی گھینی او کھولاؤ کؤ نیِمادی یا شراکت سی کیا موقع بھیرڑدی تھلا مھو یے مھید <emailFragment> ایک دُو ڇیڙ لیِگا۔
 partnerships-our-partners = مُھن شریکدی
+# menu item
+partners = شراکت دار

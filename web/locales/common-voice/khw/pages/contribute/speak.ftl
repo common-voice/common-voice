@@ -1,9 +1,9 @@
-speak = راوے
-speak-now = ہنیسے راوے
+speak = لودیت
+speak-now = ہنیسے لودیت
 speak-subtitle = تان ہوازو دیت
 record-cta = رکارڈ کوریک شروع کو
 record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو  ہایا ٹائمہ مدد کورین نو بویان۔
-record-platform-not-supported-desktop = تو ڈونلوڈ کوری ڈسک ٹاپ مشینو سورا حصہ گنیکو بوس
+record-platform-not-supported-desktop = ڈسک ٹاپ مشینا تو ڈون لوڈ کوری حصہ گنیکو بوس۔۔۔
 record-platform-not-supported-ios-non-safari = iOS  مہربانی کوری رکارڈنگو قابل کوریکو بچین سفاریو سورا جاری کورور۔۔۔
 record-must-allow-microphone = تہ مائیکو ہیرو توریکو لاکیلیک
 record-no-mic-found = مائیک ملاو نو ہوئے
@@ -16,7 +16,7 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> کی ارو
 record-three-more-instruction = تروئے بہچی شینی
 record-again-instruction = بوجام!<recordIcon></recordIcon> پوشٹی بی تان خور ہواز رکارڈ کو
 record-again-instruction2 = تان کورمو جاری سوتے، وا رکارڈ کو
-record-last-instruction = <recordIcon></recordIcon>  اخیری ای دنا!
+record-last-instruction = <recordIcon></recordIcon>  اخری ای دنا!
 review-tooltip = پوشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہایا رکارڈ کو
 share-clip = تان اسکوردی ہوازو بوژے
 share-common-voice = کامن وائسو بوژے
@@ -66,11 +66,11 @@ read-sentences = جملان راوے
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملان راوے، سوالان جواب دیت
-read-sentences-menu-item-tooltip = تان زبانا جملان رییاو محفوظ کو
-answer-questions-menu-item-tooltip = تان زبانا سوالان جواب دیاو وا اشاران محفوظ کو
+read-sentences-menu-item-tooltip = تان وارا جملہ رییاو محفوظ کو
+answer-questions-menu-item-tooltip = تان وارا سوالان وا اشاران جواب دیاو محفوظ کو
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = اختیاراتان لیسٹو راوے
-read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف زبانا جملان جمع کی ایرنی تیتان راوے
+read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف وارا جملان جمع کی ارینی تیتان راوے
 answer-questions-menu-item-aria-label = کمیونیٹو ممبرانان سار ریکو وا جواب دیکو پچین سوال کو

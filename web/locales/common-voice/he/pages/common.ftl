@@ -261,12 +261,12 @@ stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגי
 privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא הזהירות. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
-    .label = דוא״ל
+    .label = דוא"ל
 loading = בטעינה…
-email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
+email-opt-in-info = ברצוני לקבל הודעות בדוא"ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
 email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
 email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא"ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
-email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתכם ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
+email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא"ל מביעה את הסכמתכם ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא רלוונטי
 
