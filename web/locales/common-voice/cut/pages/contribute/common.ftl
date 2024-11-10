@@ -10,13 +10,13 @@ clips-with-count-pluralized =
        *[other] Tama, am taa
     }
 goal-help-recording = ¡ Yondibkue'de se iytanede Common Voice smiñase a ndaa  <goalPercentage> </goalPercentage> ndokas ne'enno ubi ubi  { $goalValue }!
-goal-help-validation = ¡Yondibkuede se iytanede Common Voice a chii nda ndokas ne'enno !
-contribute-more = ¿A beeyade se didka?
-speak-empty-state = A kotee ndodo dbaku, a kote se fnuu mu'u naa koo...
-no-sentences-for-variants = Abte ndodo yi’i yabakude mu’u na koo. Kugbi kambede taka iynde’e inñayi’i tama bia adbakuku.
+goal-help-validation = ¡Yondibkuede se iytanede Common Voice smiñase a ndanno mu'u <goalPercentage> </goalPercentage> de'es ne'eno ubi ubi a ndebe o nwe ndebe de'ese iydinnu yi'i { $goalValue } !
+contribute-more = ¿A beeyade se didka ndinñu yi'i { $count }?
+speak-empty-state = A kot kugbii fnuu ndodo dbaku mu'u te abte ndodo mu'u naa koo
+no-sentences-for-variants = Abte ndodo yi’i yabakude mu’u na koo. Kugbi kambede taka iynde’e inñayi’i tama bia dbakuku.
 speak-empty-state-cta = Btaned nuu tomene kugbi fnuka ndodo dbaku mu'u
-speak-loading-error = Nwe chii chindeenno ndodo se iydude naa koo. Dindetud tama namna’a achinnu.
-record-button-label = Ndenud mu'u tomene fnuu ndodo yi'ide mu'u naa koo.
+speak-loading-error = Nwe chii fnuu ndodo se iydude mu'u naa koo. Dikuitud namna’a achinnu.
+record-button-label = Ndenude tomene fnuu ndodo yi'ide mu'u naa koo.
 share-title-new = Taned nuu tomene kugbi ndakano ndodo yi'i dbaku yi'ide.
 keep-track-profile = Nbekuendede ndinñu yi'ide
 login-to-get-started = Kugbi kuenade o kugbii fnekakade tomene kuenade
