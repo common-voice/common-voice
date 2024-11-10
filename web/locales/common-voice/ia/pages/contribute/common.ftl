@@ -3,7 +3,7 @@ action-tap = Tocca
 contribute = Contribuer
 review = Revider
 skip = Saltar
-shortcuts = Accessos directe
+shortcuts = Vias breve
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> registration
@@ -30,11 +30,6 @@ target-segment-first-banner = Adjuta crear le prime segmento objectivo de Common
 target-segment-add-voice = Adde tu voce
 target-segment-learn-more = Saper plus
 change-preferences = Cambiar preferentias…
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Collection de voces
-contribute-sentence-collection-nav-header = Collection de phrases
 login-signup = Aperir session / Inscriber se
 vote-yes = Si
 vote-no = No
