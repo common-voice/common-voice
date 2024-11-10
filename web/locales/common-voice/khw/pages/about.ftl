@@ -9,7 +9,7 @@ how-does-it-work-text = اسپہ سفو پیچین ہوازان ڈیٹاسیٹو
 
 about-language-req-subtitle = کا ای وارو شامل کوریئک مݰکیران۔
 about-localization-title = ویب سائیٹو مقامی کوریک
-about-localization-subtitle = ویب سائٹا نیویشیرو ہتے وارا ترجمہ کورونو ہوئے۔
+about-localization-subtitle = ویب سائٹا نیوشیرو ہتے وارا ترجمہ کورونو ہوئے۔
 about-sentence-collection-title = جملان مجموعہ
 about-sentence-collection-subtitle = روئے دوڑ ہوازا رینی رےجملان جمع کورونو بویان۔
 about-new-lang-title = نوغ وار منظرعامہ ہائے
@@ -82,7 +82,7 @@ about-playbook-how-localize-content-5 = مدد پچین اسپہ وضاحت دی
 ## How to add sentences
 
 about-playbook-how-add-sentences = اوا کیچہ کوری جملہ شامل کوم؟
-about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نیویشے یا ہیا<reviewPageLink> جملان لوڑے۔ <reviewPageLink> وا لوڑیکو صفحہ</reviewPageLink>
+about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نیوشے یا ہیا<reviewPageLink> جملان لوڑے۔ <reviewPageLink> وا لوڑیکو صفحہ</reviewPageLink>
 about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو پچین جملان جو ژون ولوڑے لیک وا جو ژون تیتان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان وارو پچین رہنمائی ساوزیکو بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیا طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
 about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو پچین جملہ نیزاک<scraperLink> دی استعمال کوریکو بوس
 
