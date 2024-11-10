@@ -124,15 +124,17 @@ about-playbook-how-access-dataset-content-2 = اگر تو ٹول  ASR ماڈل �
 ## How are decisions made
 
 about-playbook-how-project-governance = پراجیکٹہ بحث کنو کری کرین ینا؟
+about-playbook-how-project-governance-content-1 = موزیلا عام کاڻ پورہ دنیا تہ کارکنان، باݜہ تہ ماہر،ڈیٹا تہ سائنسدانان،ماہری تعلیم،آں سافٹ وئیر انجنئیر ساڻ متنوع کمیونٹی یے ممکن کُتھین۔ یہ پرجیکٹ موزیلا فاونڈیشن ساں انتظم نیع درو۔
 about-playbook-how-project-governance-content-2 = امونہ حکومت تہ بنیاد مے اُشتونہ درو
 about-playbook-how-project-governance-content-3 = رازداری،حفاظت آں شفافیت
 about-playbook-how-project-governance-content-4 = کمیونٹی ساں شریک بین آں فیصلہ سازی
 about-playbook-how-project-governance-content-5 = قدر آں زانن
-about-playbook-how-project-governance-content-6 = تانوں من تہ احتسب
+about-playbook-how-project-governance-content-6 = تانو من تہ احتسب
 about-playbook-how-project-governance-content-7 = <governanceLink>یہ تہ بارہ ورے ایس مترا تے ائی کنو کُری حُمت کُنُمہ</governanceLink>
 
 ## How is Common Voice funded
 
 about-playbook-how-funded = عام کاڻ ساں مالی مدد کنو بئی کُرین ینہ
-about-playbook-how-funded-content-1 = عام کاڻ موزیلا فاونڈیشن ساں US 501c3درو۔ یہ پرجیکٹ کی ژا فنڈ پرینا<philantropicGrantLink>فلاحی امدد</philantropicGrantLink>،آں تمام دنیا تہ ماڜ مدد کُنُن
+about-playbook-how-funded-content-1 = عام کاڻ موزیلا فاونڈیشن ساں US 501c3درو۔ یہ پرجیکٹ کی ژا فنڈ پرینا<philantropicGrantLink>فلاحی امدد</philantropicGrantLink>،آں تمام دنیا تہ  ماݜ مدد کُنُن
 about-playbook-how-funded-content-2 = ڈیٹا سیٹ ساں مسلسل میزبانی آں جاری کُرن،پلیٹ فام  بہتر کُرن آں چلئیں کی لے زیت فںڈ تہ ضرورت درو آں چلن<africaMradiLink>کمیونٹی تہ پروگرم</africaMradiLink>
+about-playbook-how-funded-content-3 = اگر بی یا مینہ تنظیم یہ پرجیکٹہ دوبارہ تعاوں کُرن گٹینبہ، بی ایک ژوپئین  بئیبہ <donateLink>چندہ</donateLink> یا امونہ شراکت دار ٹیمہ کی ویبا<emailFragment>commonvoice@mozilla.com</emailFragment>
