@@ -19,3 +19,5 @@ male_masculine = ئەر
 female_feminine = ئايال
 intersex = جىنس ئۆزگەرتكەن
 transgender = قوش جىنس
+non-binary = ئىككىلىسى ئەمەس
+do_not_wish_to_say = دېگۈم يوق
