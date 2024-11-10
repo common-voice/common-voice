@@ -36,8 +36,8 @@ bulk-sentence-submission = بو امبوخ جملان جمع کو
 single-sentence = ایوالی
 small-batch-sentence = پھوک امبوخ
 bulk-sentence = بو امبوخ
-sentence-domain-combobox-label = جملان حلقہ
-sentence-domain-select-placeholder = تروئی حلقہ بیکا پت گنے(اختیاری)
+sentence-domain-combobox-label = جملہ کھیو بارا؟
+sentence-domain-select-placeholder = تروئے پت گنے(اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
@@ -45,7 +45,7 @@ automotive_transport = کوسک اشناری وا ٹرانسپورٹ
 # Sentence Domain dropdown option
 finance = پیسہ
 # Sentence Domain dropdown option
-service_retail = خسمت و تھوک
+service_retail = نوکری وا پرچون
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
@@ -53,7 +53,7 @@ healthcare = صحت
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون وا حکومت
 # Sentence Domain dropdown option
-language_fundamentals = وارو پچین لازمی ( مثلا نمبر، حروف، پیسہ)
+language_fundamentals = وارو لازمی اشناری( مثلا نمبر، حرف، پیسہ)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
