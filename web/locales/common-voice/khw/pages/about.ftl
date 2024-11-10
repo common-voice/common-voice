@@ -90,7 +90,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکو�
 
 about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ کوری محفوظ کوم؟
 about-playbook-how-record-content-1 = تان عام ہواز لو دیت۔ کیہ قسم کی تو لو دوسان ہسے تان سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان۔
-about-playbook-how-record-content-2 = گوݯتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
+about-playbook-how-record-content-2 = گوݯھتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غاورو سورا راوے- کھیو پځے مو، بدل مو دیت، لفظ شامل مو کو
 about-playbook-how-record-content-4 = لو دیکار پوشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
 about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان پچین ہیا لوڑے۔ </accuracyLink>
@@ -112,7 +112,7 @@ about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</stro
 about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہیا ہوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>تیتان تے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
 about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نو کی ہیترا لودیاکو تلفظ تا سار خور </strong>-سف ای بیتی کوروم کوری  اوازو ہوݰ کوریکو پچین ہیا بو اہم۔
-about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' لوڑے </accuracyLink>
+about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯھتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' لوڑے </accuracyLink>
 about-playbook-how-validate-content-4 = اگر ای  ہواز جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
 
 ## How to access dataset
