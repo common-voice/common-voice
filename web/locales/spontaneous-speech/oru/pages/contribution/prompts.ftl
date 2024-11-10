@@ -24,3 +24,6 @@ learn-how-to-use-prompts = زدۀ وه کَۀ که آ پېج بُو څخل اس�
 learn-how-to-use-prompts-explanation = پرمپټ کی يې څواب ڒۀ اُن قددرتي که څُون اېنچی ݭيې دیو جملۀ نر۔ آ یقینی کېون که ترتُو ا خبُره عزتمِنه او ته غصه واله نک بَۀ
 learn-how-to-use-prompts-guidance = کلِک کَۀ <guidanceLink> دۀ </guidanceLink> که زدۀ کی که آ پېج بُو څا استعمالَوَک سَۀ
 learn-how-to-use-transcribe = زدۀ کَۀ که ا نقل يې څا سَۀ
+learn-how-to-use-transcribe-explanation = بلکل افۀ يي لیک که څۀ بُو ا سۀ سړئ غؤݭی، پشمول ته ساه ته وریوڅن ا لفظی سکه 'um' یا  'errr'۔
+learn-how-to-use-transcribe-guidance = کلِک کَۀ <guidanceLink> دۀ </guidanceLink> که زدۀ کی که آ پېج بُو څا استعمالَوَک سَۀ
+learn-how-to-use-check-transcript = زدۀ وه کَۀ که ا نقل بُو څا چېک کېک سَۀ
