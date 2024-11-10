@@ -146,4 +146,4 @@ contribution-reader-effects-description = ذیاد رکارڈنگ ہتے روی�
 contribution-just-unsure-title = صرف غیر یقینی
 contribution-just-unsure-description = ہݰ اشناری کی تہ غیچی ہائے ہسے ہیا 'رہنمائی' شامل نیکی تان سف سار جام اندازو مطابق ووٹ دیت
 see-more = <chevron></chevron>خور لوڑے
-see-less = کم لوڑے
+see-less = <chevron></chevron>کم پشاوے
