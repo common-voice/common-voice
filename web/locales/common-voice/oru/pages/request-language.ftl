@@ -9,3 +9,9 @@ request-language-form-info =
     .label = ته زبان باره نر معلومات
 request-language-form-info-explanation = که زُت معلومات ال دی بُو ګه ته زبان ڒیوک اېنچی ڒۀ ل دی۔ پئ نر سُو ائ ګه شامل بېن
 request-language-form-info-explanation-list-1 = ته زبان ت ا نام
+request-language-form-info-explanation-list-2 = <isoCodeLink> ISO کوډ </isoCodeLink> که معاوم بَۀ
+request-language-form-info-explanation-list-3 = وېب سائټس کی وه ا ِلنک که افه سُو ماخ کی مدد ڒوی ته زبان زده کؤ نر
+request-language-google-recaptcha-required = reCAPTCHA پکر هۀ که مُخکی بو چیو
+request-language-google-recaptcha-error = څه غلطي يې سُک reCAPTCHA نر۔ بيې وه کوشِش کَۀ
+# Success page
+request-language-success-heading = مهرباني! تُور دې ته نییوو زبان پِشتِنه ڒیڅوک هۀ
