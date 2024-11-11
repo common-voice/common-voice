@@ -63,6 +63,8 @@
 
     & .sc-toggle-wrapper {
         overflow-x: auto;
+        min-height: 50px;
+
         @media (width > 1400px) {
             width: 25%;
         }
