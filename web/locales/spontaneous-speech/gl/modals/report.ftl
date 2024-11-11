@@ -15,3 +15,6 @@ other = Outro
 report-error = Produciuse un erro ao enviar o informe
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Continuar
+# Header for report modal after successful reporting
+success = Correcto
+report-success-message = O informe foi aceptado
