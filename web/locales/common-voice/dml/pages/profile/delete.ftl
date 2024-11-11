@@ -1,5 +1,5 @@
 ## Profile Delete
 
 keep = ساتے
-remove = دؙورن
-profile-form-delete = پروفائل ڈیلیٹ کؙرے
+remove = دُرن
+profile-form-delete = پروفائل ڈیلیٹ کُرے
