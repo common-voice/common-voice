@@ -35,7 +35,7 @@ vote-no = نو لہ
 datasets = ڈیٹاسیٹس
 languages = وار
 about = کامن وائسو بارا
-partner = حصہ دار
+partner = شرکت دار
 submit-form-action = جمع کو
 
 ## Reporting
