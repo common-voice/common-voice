@@ -115,9 +115,9 @@ hero-subtitle-1 = <bold>Why should AI only cover 1% of global languages?</bold>
 hero-subtitle-2 = Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.
 get-started = Get started <icon><icon>
 
-## Community section
-community-section-title = Common Voice is a free, open source platform for community-led data creation
-community-section-subtitle = Anyone can preserve, revitalise and elevate their language by sharing, creating and curating text and speech datasets.
+## Action items section
+action-items-section-title = Common Voice is a free, open source platform for community-led data creation
+action-items-section-subtitle = Anyone can preserve, revitalise and elevate their language by sharing, creating and curating text and speech datasets.
 scripted-card-header = Scripted Speech
 scripted-card-content = Read sentences aloud in your language and contribute to the most diverse public participation speech dataset in the world.
 spontaneous-card-header = Spontaneous Speech
@@ -126,3 +126,15 @@ language-text-card-header = Language Text
 language-text-card-content = Create or share public domain prompts, sentences, and text for translation, small language models, and more.
 coming-soon = Coming Soon
 add-text = Add Text
+
+## Community section
+community-section-title = Powered by global communities, for global communities — 130 languages and growing!
+join-discord-community = Join Discord Community
+join-discord-community-content = Participate in language community discussions, ask questions, and learn about upcoming events and talks.
+find-us-on-matrix = Find us on Matrix
+find-us-on-matrix-content = Matrix is an open, lightweight protocol for decentralized, real-time communication, and Mozilla's preferred open discussion platform.
+ask-mozilla-share = Ask Mozilla to share your events
+ask-mozilla-share-content = Have a previous or upcoming event? Share it with us and we will announce it to our community or write a blog about it!
+download-contribution-certificate = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible with you!
+contribute-github = Contribute on Github
+contribute-github-content = This project would not be possible without people like you. 🎉 There are many ways to get involved with Common Voice - you don't have to know how to code to contribute!

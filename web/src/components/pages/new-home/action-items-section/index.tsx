@@ -10,13 +10,13 @@ import './action-items-section.css'
 
 export const ActionItemsSection = () => {
   return (
-    <section className="community-section">
-      <div className="community-section-container">
-        <Localized id="community-section-title">
+    <section className="action-items-section">
+      <div className="action-items-section-container">
+        <Localized id="action-items-section-title">
           <h1 className="title" />
         </Localized>
 
-        <Localized id="community-section-subtitle">
+        <Localized id="action-items-section-subtitle">
           <p className="subtitle" />
         </Localized>
 
