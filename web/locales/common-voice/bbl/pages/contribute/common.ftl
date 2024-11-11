@@ -12,7 +12,7 @@ clips-with-count-pluralized =
 goal-help-recording = აჰ ლატრევ Common Voice-ე დინლუჩო მიზნეჼ { $goaIValue }  ჩანაწერეჼ<goaIPercentage></goaIPercentage> ჰალ დოდალიჼ!
 goal-help-validation = აჰ ლატრევ Common Voice-ე დინლუჩო მიზნეჼ { $goaIValue }  შემოწმებეჼ (დაყყდარეჼ)<goaIPercentage></goaIPercentage> ჰალ დოდალიჼ!
 contribute-more = ლე́ჸი ჰ̦ონ ტყო́ჸ { $count } თაგდარ?
-speak-empty-state = ეჴ მატტანეჲნო̆ წინადადბი ჰალო̆ ჴაჩჲალიჼ
+speak-empty-state = ეჴ მატტანეჲნო̆ წინადა́დბი ჰალო̆ ჴა́ჩჲალიჼ
 no-sentences-for-variants = შაძლე́ბალა ჰ̦ალო̆ ჴაჩჲაჲლნო́ლო̆ ცჰ̦ენნაჲრეჼ წინადა́დბი. ჰ̦ონაჲნო̆ ძნელ ცო და́ჰ̦, მაკ ჰ̦ოჼ პარამეტრი ხა́რცჲოშ ჴენაჸ სა́ხეობეჼ წინადა́დბი გულო́ ეჴაჸ მატტიჼ
 speak-empty-state-cta = ფლო́ქოღ ლიბათ თხოჼ წინადა́დბი
 speak-loading-error = ცო ლე́ხლა ეჲში̆ ხატტუჲნი̆ წინადა́დბი. დეხო́თხ, ჴე́ნკაჸ ტყოჸ ცადლიბათ
@@ -31,7 +31,7 @@ vote-yes = ჰაჸ
 vote-no = ცო
 datasets = კრებული
 languages = მატტიშ
-about = სტემახ??
+about = თხოხ ?
 partner = ცჰ̦ა́ღწილდეჲნო̆ (თანამონაწილ)
 submit-form-action = დაჰ̦ითარ
 
