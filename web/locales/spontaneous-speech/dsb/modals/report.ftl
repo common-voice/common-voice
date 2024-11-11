@@ -11,6 +11,7 @@ report-other-comment =
     .placeholder = Komentar
 # Label for textarea in report modal
 other = Druge
+report-error = Pśi pósłanju rozpšawy jo zmólka nastała.
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Dalej
 # Header for report modal after successful reporting

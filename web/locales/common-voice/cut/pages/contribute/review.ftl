@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Abte tndanude ama dbaku, kuede namna yi’i koo tndanude ama dbaku
+sc-review-lang-not-selected = Abte tndanude ama dbaku. Kue'de <profileLink> namna yi’i koo </profileLink> tndanude ama o ubbi dbaku.
 sc-review-title = Kuinbekuended ndodo
 sc-review-loading = Iynundee ndodo naa koo
 sc-review-select-language = Tndanud ama ndodo dbaku kuinone nbekuendede de’e a’a

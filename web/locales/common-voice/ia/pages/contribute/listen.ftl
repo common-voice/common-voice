@@ -10,3 +10,13 @@ listen-loading-error = Impossibile trovar alcun registration audio a facer te as
 listen-abort-title = Terminar le validation del registrationes?
 listen-abort-cancel = Continuar le validation
 listen-abort-confirm = Terminar le validation
+# Menu item
+validate-readings = Validar le lecturas
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Validar le lecturas, revider le transcriptiones
+validate-readings-menu-item-tooltip = Validar le lecturas scribite per le usatores in tu lingua
+
+## MENU ITEM ARIA LABELS
+

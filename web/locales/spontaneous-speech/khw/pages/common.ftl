@@ -2,7 +2,7 @@
 
 # Toast message that is displayed when an error occurs
 error = نقص
-action-click = کلک
+action-click = کلک کو
 action-tap = ٹیپ
 # Label for language switcher
 interface-language = ایغو سون لو دیکو وار
@@ -17,7 +17,7 @@ skipped = پیځیتائے
 audioplayer-header = کار کو
 guidelines = رہنمائی
 # For the button to report an item
-report-button = خبر
+report-button = رپورٹ کو
 # For the button to skip an item
 skip-button = پیځیک
 submit-button = جمع کو
@@ -26,8 +26,8 @@ contribute = حصہ گانیک
 ## Navbar
 
 respond-to-prompt = اشاران جوابو دیت
-transcribe-audio = ہوازو نیویشیکا غیراوے
-check-transcriptions = نیویشیروان لوڑے
+transcribe-audio = ہوازو نیوشیکا غیراوے
+check-transcriptions = نیوشیروان لوڑے
 
 ## Not Found Page
 

@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Eho pya’eterei. Eiporu arapa’ũ ehechajey
 sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
 sc-redirect-page-subtitle-1 = Sentence Collector ováma Common Voice pyendavusúpe. Ko’ág̃a ikatu<writeURL>ohai</writeURL> ñe’ẽjuaju térã <reviewURL>ohechajey</reviewURL> ñe’ẽjuaju ñemondo Common Voice-pe.
 sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> térã <emailLink>ñanduti veve</emailLink>.
+# menu item
+review-sentences = Ehechajey ñe’ẽjuaju

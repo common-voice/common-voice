@@ -68,3 +68,5 @@ read-sentences = Cümleleri oku
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Konuşma seçenekleri menüsü
+read-sentences-menu-item-aria-label = Topluluğun çeşitli dillerde gönderdiği cümleleri okuyun
