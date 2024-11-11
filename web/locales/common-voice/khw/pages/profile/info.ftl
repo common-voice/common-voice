@@ -36,7 +36,7 @@ transgender = موش تہ کیمری
 non-binary = موش تہ کمیری
 do_not_wish_to_say = لو دیک نو مݰکیمان
 # Gender
-other = خور
+other = خور کیاغ
 why-profile-title = پروفائل کو
 why-profile-text =
     تان بارا پھوک معلومات دیتی، ہوازو ڈیٹا کامن وائسا شامل کی ارو ریاکو تین ذیادہ فائدہ ہوئے۔
