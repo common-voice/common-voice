@@ -22,3 +22,10 @@ transcribe-bubble-title = <mark> نقل </mark>
 transcribe-bubble-subtitle = تُو وه لیک کېون که څۀ يې آډیو کلِپ لاسته امر
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark> چېک </mark>
+check-bubble-subtitle = تُو وه چېک کَۀ ا نقل بُو اصِل آدیو ګیرډ مېلاوه وک سَۀ
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark> ډېټا </mark>
+data-bubble-subtitle = ماخ بُو وخت په وخت ا ډېټا سېټ ریلیز کېن
+contact-us = ماخ مېلاؤ کوئ
+contact-us-title = تُو بو زېيي که پۀ پراجېکټ ګیرډ مل سېم یا وې بائی والي ګیرډ کېم؟
+contact-us-email = ای مېل <emailFragment> commonvoice@mozilla.com </emailFragment>
