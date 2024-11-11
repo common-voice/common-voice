@@ -1,5 +1,5 @@
 # PARTNERSHIPS PAGE
-partnerships-header = ڈراقسے بیوس
+partnerships-header = ڈراقسے لس بیکھن کن
 partnerships-header-text = کامن وایس لدان چوکپہ لا تھومید فرالوکھ بیا رگوسپن۔ دیو نیاژاسی میبین۔ نیانہ ڈراقسے لس بیو تھدیدا؟ نیالا یری رولنہ کوسنارے تھدکھہ گیگ۔
 partnerships-get-in-touch = تھوگین دوک
 partnerships-become-a-partner = کامن وایسنہ ڈارقسے لس بیکھن لدون
@@ -16,3 +16,5 @@ partnerships-small-business-description = نیا ہمیشہ ڈیٹا کولکھ�
 partnerships-corporates-header = چھوغو چھوغو لس کھنگ کن، اور پلیٹ فارم کمپنیونگ
 partnerships-corporates-description = اگر یانگی ڈٰتا سیٹ کنی بارینگ ینگسہ زیربہ ژالین یودپننارے،  گریمسے منصوبہ بیسپی پلیٹ فام کن لا پھل تنگمہ تھدید نارے، یا گرقسے بے لس لوکھچی ژالید نارے، <emailFragment>سپیرو تھونچوک۔
 partnerships-our-partners = نیی ڈراقسے لس بیکھن کن
+# menu item
+partners = یری پونگ
