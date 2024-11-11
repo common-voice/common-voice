@@ -4,6 +4,10 @@
 ## How does it work section
 
 about-localization-title = Вебсайт чӏыпӏэзэгъэуӏупӏэ
+about-voice-validation-title = Макъэ къэгъэшъыпкъэн
+about-speak = Гущыӏ
+about-listen = Едэӏу
+about-stay-in-touch-button = Зыхатх
 
 ## Community Playbook Content
 ## What is a language
