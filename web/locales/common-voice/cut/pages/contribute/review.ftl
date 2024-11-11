@@ -4,9 +4,9 @@ sc-review-lang-not-selected = Abte tndanude ama dbaku. Kue'de <profileLink> namn
 sc-review-title = Kuinbekuended ndodo
 sc-review-loading = Iynundee ndodo naa koo
 sc-review-select-language = Tndanud ama ndodo dbaku kuinone nbekuendede de’e a’a
-sc-review-no-sentences = Abtekas de’ese nbekuendede fndodnekad tama
+sc-review-no-sentences = Abte ndodo se nbekuendede. ¡ <addLink> Fndodnekad ndodo </addLink> !
 sc-review-form-prompt =
-    .message = Nwe cho’o s nindedeme ¿kuaku?
+    .message = Nwe cho’o s nindedeme, ¿kuaku?
 sc-review-form-usage = Kuinngo ndade naakuaku ndetes a ndebe ndodo. Kuinngo ndade naskue ndestes nwe ndebe ndodo. Kuingo ndade kuayaku mekan nwe nwefnede. ¡ Nwe kunfgnaade see nbekuendenoo ndiñuyi’ide !
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
