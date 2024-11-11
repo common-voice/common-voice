@@ -17,6 +17,7 @@ validate-readings = لوستل تایید کړئ
 
 listen-contribute-menu-tooltip = لوستل تایید کړئ، د لیکونو بیاکتنه وکړئ
 validate-readings-menu-item-tooltip = ستاسو په ژبه کې د کارونکي لخوا ثبت شوي لوستل تایید کړئ
+review-transcriptions-menu-item-tooltip = ستاسو په ژبه کې د کارونکي لخوا سپارل شوي لیږدونه بیاکتنه وکړئ
 
 ## MENU ITEM ARIA LABELS
 

@@ -22,13 +22,9 @@ show-wall-of-text = نور ولولئ
 help-us-title = له موږ سره د جملو په تایید کې مرسته وکړئ!
 help-us-explain = د پلي تڼۍ کېکاږئ، واورئ او موږ ته ووایاست: ایا دوی لاندې جمله په سمه توګه وویله؟
 no-clips-to-validate = داسې بریښي چې پدې ژبه کې د اوریدو لپاره هیڅ کلیپونه نشته. موږ سره مرسته وکړئ چې د ځینو ثبتولو سره قطار ډک کړو.
-vote-yes = هو
-vote-no = نه
 toggle-play-tooltip = د پلې اکر بدلولو لپاره { shortcut-play-toggle } کېکاږئ
-speak-subtitle = خپل غږ ډالۍ کړئ
 speak-paragraph = د غږ کلیپونو ثبتول زموږ د پرانیستې ډېټاسیټ رامینځته کولو یوه بنسټیزه برخه ده. ځینې به وایي چې دا د ساتیرۍ برخه هم ده.
 speak-goal-text = کليپونه ثبت شوي
-listen-subtitle = له موږ سره د غږونو په تایید کې مرسته وکړئ!
 listen-paragraph = د مرسته شوي کلیپونو تاییدول د عامه غږ ماموریت لپاره یوشان مهم دی. یو غوږ ونیسئ او زموږ سره د کیفیت ډک آزاد کوډ غږ ډېټا رامینځته کولو کې مرسته وکړئ.
 listen-goal-text = کليپونه تایید شول
 hours-recorded = ثبت شوي ساعتونه
@@ -86,3 +82,18 @@ help-contribute = تاسو کولی شئ د عام غږ پېژنیال په جو
 login-company = ننوځئ/ د { $company } برېښنالیک سره نوملیکنه وکړئ
 profile-not-required = د پېژنیال درلودل اړین ندي پداسې حال کې چې ګټور دي، لاندې وګورئ چې ولې.
 read-more-about = نور زموږ په اړه پاڼې کې ولولئ
+
+## NAV ITEMS
+
+answer-questions = پوښتنو ته ځواب ورکړئ <کوچنۍ>(ډیر ژر راځي)</small>
+review-transcriptions = د نقلونو بیاکتنه <small>(ډیر ژر راځي)</small>
+add-questions = پوښتنې اضافه کړئ <کوچنۍ>(ډیر ژر راځي)</small>
+transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = د اختیارونو مینو په اړه
+partnerships-menu-item-aria-label = د ګډ غږ سره د شراکت په اړه زده کړه
