@@ -29,3 +29,4 @@ data-bubble-subtitle = ماخ بُو وخت په وخت ا ډېټا سېټ ری�
 contact-us = ماخ مېلاؤ کوئ
 contact-us-title = تُو بو زېيي که پۀ پراجېکټ ګیرډ مل سېم یا وې بائی والي ګیرډ کېم؟
 contact-us-email = ای مېل <emailFragment> commonvoice@mozilla.com </emailFragment>
+signup-form-title = تُ اول لاسته ترماخ بیټا ټسټنګ ګروپ هې ته مشترک آواز سپونټېنئس سپیچ پراجېکت؟
