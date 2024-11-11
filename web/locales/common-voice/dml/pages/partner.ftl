@@ -10,6 +10,7 @@ partnerships-foundations-description = ائی خاص کر مشرقی افریق�
 partnerships-governments-header = حکومت نم
 partnerships-governments-description = ائی ٹکینالوجی، جدت آں باݜہ تہ حقوقہ عوم ساں شرکت تہ حمایت کُرنہ پرجوش تُھومہ۔ اگر ایک بلو پرجیکٹ چلن تہ سوچ کُنبہ ، تا مہربانی کُری <emailFragment>رابطہ کُرا</emailFragment>
 partnerships-academia-header = یونیورسٹی نم، تعلیمی آں تحقیق کُرال
+partnerships-academia-description = کولئوجدت امونہ زادیہ درو ائی کیہ کُنومہ بہ۔ ریسرج تہ تعاون،ٹیٹا جمع کُرن آں انٹریو تہ پرئی،<emailFragment>رابطہ کُرا۔</emailFragment>
 partnerships-small-business-header = اؙوچھوٹی کاروبارنم ٹیک ملی آں  سٹارٹ AI اپس
 partnerships-corporates-header = بلو سطح تہ کارپوریٹ نم آں پلٹ فام کمہنی نم
 partnerships-our-partners = امونہ شراکت دار
