@@ -8,3 +8,5 @@ why-spontaneous-speech = ماخ يې بُو او بغېر ته تیاري نمو
 why-card-1-text = فائده <mark> ته قدرتي تقریر په حوالۀ </mark> دی سو ماخ سا کېسېز جوړېن که تو يې ته سپیچ پېېندګالي کېوی، تُو سو سا خلق ګیرډ کر کېوی که ته فئ ا ژغؤ يې سُو نک لیکيېک عام بول چال بَۀ
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = سۀ زبان لاسته بی زبان کی ته بدلؤ ا حقیقت <mark> کوډ سویچنګ ته پزنؤ پاره يې سو او مدد کوی
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = او يې سو سۀ بهتر سپورټ بَۀ ته زبنی پاره که ته لیک ا جثه وې زری بَۀ یا وه دې لواړه بَۀ نک۔ </mark>
