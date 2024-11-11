@@ -60,3 +60,12 @@ already-have-an-account = ¿Ne mba’etéma? <login>Eñepyrũ tembiapo</login>
 create-profile-button = Emoheñói mba’ete
 # IMAGE TAGS
 img-alt-success-checkmark = marca ojehayhúva
+# menu item
+read-sentences = Emoñe’ẽ ñe’ẽjuaju
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Ñomongetarã poravoha
