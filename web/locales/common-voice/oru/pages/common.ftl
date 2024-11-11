@@ -257,7 +257,7 @@ zza = زازئے
 
 ## Layout
 
-profile = پروفِلئے
+profile = پروفِائل
 help = مدد
 contact = رابظه
 privacy = ذاتي
