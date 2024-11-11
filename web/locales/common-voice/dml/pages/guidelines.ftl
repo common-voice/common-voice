@@ -85,6 +85,7 @@ adding-sentences-subheader-special-characters = حصوصی حروف آں غیر 
 adding-sentences-subheader-special-characters-explanation-1 = کیرا باݜہ پرین ینا سے حروف سئی تھیبو۔مثل تہ طور “ж” اوروسی حروف تہجی تہ ایک لفظ درو مگر یہ انگریزیہ کیر ایس استعمل نی بیاں یہ تہ پرئی انگریزی تہ متنہ کیر ایس نی ژاپینا
 adding-sentences-subheader-special-characters-explanation-2 = باݜہ نامہ ساں تانوں توثیق تہ ضوابط تِھنا۔ مقامی بین تہ وجہ اضافی ضروریات شامل بیب بیاں، اگر ایک باݜہ ساں مخصوص توثیق تہ فائل نی فدرو بہ تا انگریزی تہ قوائد شراکت دار کی ظاہر بو۔
 adding-sentences-subheader-offensive-content = جارحانہ مواد
+adding-sentences-subheader-offensive-content-explanation = اگر جملہ ناگوار یا تکلیف دہ درو با، مثلا فحش مواد تہ وجہ یا امونی<communityGuidelines> کمیونٹی تی شراکت ہ ہدایات</communityGuidelines>تہ خلاف ورزی تہ وجہ، تاں میاکی جملہ مسترد کُرن پکار درو، بی زیت کُرن کی اما ملی<emailFragment>commonvoice@mozilla.com</emailFragment> رابطہ کُرین بیبہ۔
 reviewing-sentences-explanation-1 = اگر جملہ پچو پریسن معیارہ پورہ درو بہ تا  "آں" تہ بٹنہ کلک کُرا۔
 reviewing-sentences-explanation-2 = اگر جملہ پچو پریسن معیارہ پورہ درو بہ تا  "نی" تہ بٹنہ کلک کُرا۔
 reviewing-sentences-explanation-3 = اگر تو کی جملہ تہ برا یقین نی درو بہ ، تا پھرکی مس وعی مُکھبئیں جملہ کی ین بیبہ۔
