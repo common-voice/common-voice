@@ -15,3 +15,5 @@ partnerships-small-business-description = Tapiaite rohenduse mba’ekuaarã poru
 partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
 partnerships-corporates-description = Eñe’ẽsevéramo mba’ekuaarã aty rehegua, emoasãisépa pyendavusúpe iporã hag̃uáicha térã ehekáta pa’ũ ñepytyvõrã, <emailFragment>ehai oréve.</emailFragment>
 partnerships-our-partners = Ore irũnguéra
+# menu item
+partners = Irũnguéra

@@ -10,3 +10,11 @@ listen-loading-error = Ndoroguerukuaái clip ñe’ẽpu rehegua ehendukuaa hag�
 listen-abort-title = Emboajepámake umi clip
 listen-abort-cancel = Emboajeve ehóvo
 listen-abort-confirm = Emboajepámake
+# Menu item
+validate-readings = Ñeñongatu mboaje
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

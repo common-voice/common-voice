@@ -5,6 +5,8 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> האזי�
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = בדיקה
 no-transcriptions-message = כרגע אין תמלולים לבדיקה עבור שפה זו. רעננו את הדף או נסו שוב מאוחר יותר.
+vote-transcript-success = ההצבעה על התמלול הצליחה
+vote-transcript-error = אירעה שגיאה בעת ההצבעה על התמלול
 transcript-edited-success = העריכת נשמרה בהצלחה
 transcript-edited-error = אירעה שגיאה בעת שמירת עריכת התמלול
 error-fetching-transcriptions = משהו השתבש בעת שליפת התמלולים. אנא נסו שוב מאוחר יותר.

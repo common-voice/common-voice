@@ -16,8 +16,8 @@ validate-readings = مترن تہ توثیق کُرا
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = مترن تہ توثیق کُرا، نقل نم تہ جائزہ کُرا
-validate-readings-menu-item-tooltip = تانوں باڜا صارف ساں ریکارڈ کُریسن مترن ساں توثیق کُرا
-review-transcriptions-menu-item-tooltip = تانوں باڜا صارف ساں جمع کُریسن ٹرنسکلپشن ساں توثیق کُرا
+validate-readings-menu-item-tooltip = تانوں باݜا صارف ساں ریکارڈ کُریسن مترن ساں توثیق کُرا
+review-transcriptions-menu-item-tooltip = تانوں باݜا صارف ساں جمع کُریسن ٹرنسکلپشن ساں توثیق کُرا
 
 ## MENU ITEM ARIA LABELS
 

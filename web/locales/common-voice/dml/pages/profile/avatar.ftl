@@ -1,7 +1,7 @@
 ## Profile - Avatar
 
 browse-file-title = فوٹو تہ فائل اپ لود کُرا
-browse-file = کھشائی وعیا آں <browseWrap>براوز</browseWrap>
+browse-file = کھشائیا وعیا آں <browseWrap>براوز</browseWrap>
 connect-gravatar = گراواٹار ملی کنکٹ با
 gravatar_not_found = تاں ای میلہ گواٹار نی میلو با
 file_too_large = سلیکٹ کُریسن فائل لے زیت بلو درو

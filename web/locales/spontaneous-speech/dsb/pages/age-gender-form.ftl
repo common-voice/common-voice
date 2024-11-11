@@ -1,3 +1,6 @@
+# Age and Gender form
+age-gender-form-title = Wjeliki źěk, až sćo pśinosował k spontanemu powědanjeju!
+age-gender-form-subtile = Gaž informacije wó sebje k wěsći dawaśo, buźośo wuwijarjam pomagaś, wěcej inkluziwnu technologiju wuwijaś
 add-information-button = Informacije pśidaś
 continue-speaking-button = Dalej powědaś
 age-select-label = Kak stary sćo?

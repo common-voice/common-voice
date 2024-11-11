@@ -102,6 +102,11 @@
             justify-content: center;
             color: var(--white);
             background: var(--blue);
+
+            [dir='rtl'] & {
+                margin-right: 10px;
+                margin-left: unset;
+            }
         }
     }
 
