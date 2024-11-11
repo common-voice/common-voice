@@ -1,6 +1,6 @@
 speak = راوے
 speak-now = ہنیسے راوے
-speak-subtitle = تان ہوازو دیت
+speak-subtitle = تان ہوازو رکارڈ کو
 record-cta = رکارڈ کوریک شروع کو
 record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو  ہایا ٹائمہ مدد کورین نو بویان۔
 record-platform-not-supported-desktop = ڈسک ٹاپ مشینا تو ڈون لوڈ کوری حصہ گنیکو بوس۔۔۔

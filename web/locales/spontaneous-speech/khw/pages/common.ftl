@@ -2,7 +2,7 @@
 
 # Toast message that is displayed when an error occurs
 error = نقص
-action-click = کلک
+action-click = کلک کو
 action-tap = ٹیپ
 # Label for language switcher
 interface-language = ایغو سون لو دیکو وار
