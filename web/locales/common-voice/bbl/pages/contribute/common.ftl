@@ -31,7 +31,7 @@ vote-yes = ჰაჸ
 vote-no = ცო
 datasets = კრებული
 languages = მატტიშ
-about = სტემახ??
+about = თხოხ ?
 partner = ცჰ̦ა́ღწილდეჲნო̆ (თანამონაწილ)
 submit-form-action = დაჰ̦ითარ
 
