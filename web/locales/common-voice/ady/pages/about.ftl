@@ -3,6 +3,7 @@
 
 ## How does it work section
 
+about-localization-title = Вебсайт чӏыпӏэзэгъэуӏупӏэ
 
 ## Community Playbook Content
 ## What is a language
