@@ -2,15 +2,15 @@
 
 write = نیوشے
 write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہایا کی نیوشینو ہوئے ہتوغو عام رویان پچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
+write-page-subtitle = کیا جملو ہیا کی نیوشینو ہوئے ہتوغو عام رویان پچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان دائرو جملان ہایا نیوشور
+sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشور
 small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
-sc-write-submit-confirm = تصدیق کومانا کہ ہایا جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink>ہمو اپ لوڈ کوریکو متین جازت شیر۔
+sc-write-submit-confirm = تصدیق کومانا کہ ہیا جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink>ہمو اپ لوڈ کوریکو متین جازت شیر۔
 sc-review-write-title = کیا قسمہ جملہ شامل کوریکو بوم؟
 sc-review-small-batch-title = ذیاد جملان کیچہ کوری شامل کوریلیک
 new-sentence-rule-1 = <noCopyright>کاپی رائٹو پابندی موبائے</noCopyright>  (<cc0>cc-0</cc0>)
@@ -86,7 +86,7 @@ maximum-file-size = فائیلو لوٹار لوٹ سائز : 25 ایم بی
 what-needs-to-be-in-file = مہ فائلا کیاغ بیلیک؟
 what-needs-to-be-in-file-explanation = مہربانی کوری ہیا <templateFileLink>  ژاغا لوڑے۔ </templateFileLink>. تہ جملا کوس کاپی رائٹ مو بائی (CC0  یا اصل کورمو کوراکوسار اجازت بائے) صفا، گرائمیرو لحاظا صحیح وا ریکا اسان بائے۔ جملہ تقریبا 10-15سیکنڈا رینو بائے وا ہتیرا نمبر، خاص نام وا خاص حروف مو بانی۔
 upload-progress-text = اپلوڈ جاری شیر
-sc-bulk-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink> وا مہ تین ہمو اپلوڈ کوریکو اجازت شیر
+sc-bulk-submit-confirm = تصدیق کومان کی ہیا جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink> وا مہ تین ہمو اپلوڈ کوریکو اجازت شیر
 bulk-upload-success-toast = بو جملہ ایغاریا اپلوڈ ہونی
 bulk-upload-failed-toast = اپلوڈ نو ہوئے، مہربانی کوری وا کوشش کو
 bulk-submission-success-header = بو جملان ایغاریا جمع کوریکو بچین تہ شکریہ
