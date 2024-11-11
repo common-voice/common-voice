@@ -55,8 +55,8 @@ first-cta-gender-select-help-text =
     .label = ¿Taka ne kamade ndetes a cha'de o ndatade ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yondibkue'de se iytede ndodo yi'ide se iynuu mu'u na koo!
-second-cta-subtitle-text = Nome kuubi ndikchide ndinñu yi'ide ndoko ntdube inña se nome teyunniya se fnuu ndodo yiya mu'u naa koo
-already-have-an-account = ¿A gnekakade mu'u? Kube kuenade
+second-cta-subtitle-text = Nome kugbi ndikchide ndinñu yi'ide ndoko ntdube inña se nome teyunniya se fnuu ndodo yiya mu'u naa koo.
+already-have-an-account = ¿A gnekakade mu'u? <iniciar sesión> Kube kuenade </iniciar sesión>
 create-profile-button = Kubi fnekakade mu'u na koo
 # IMAGE TAGS
 img-alt-success-checkmark = A a'a mu'u se chii fnekakade
