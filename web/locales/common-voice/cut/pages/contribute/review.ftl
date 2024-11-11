@@ -42,11 +42,11 @@ sc-criteria-make-sure = Ndoskue'e ndodone tuka ne'ese fnu mu'u:
 sc-criteria-item-1 = Ne'es ndebe de'ese iydude.
 sc-criteria-item-2 = Dindi dindi ndodo se fnuu mu'u
 sc-criteria-item-3 = Ne’ese kugbi nde’oo ndodo se fnuu mu'u naa kó.
-sc-criteria-item-4 = Ndetes a ndebe ndoskue’e ndodo se gnu mu’une ndetad mu’u nas kuaku
-sc-criteria-item-5-2 = Ndetes nwe ndebe ndodotene ndetat nase a’a se nwe lad kuee. Ndetes nwe dbenode kugbi kade tamkuaa.
-sc-criteria-item-6 = Abtee ndoodo see nbekuendoo ¡Fgtaneennuu sdidamanuu ndodo!
+sc-criteria-item-4 = Ndetes a ndebe ndoskue’e ndodo se gnu mu’une, ndetad mu’u  &quot;  Cho'o &quot; nas kuaku ndetad.
+sc-criteria-item-5-2 = Ndetes nwe ndebe ndodotene, ndetat nase a’a &quot; Se nwe ndebe &quot; lad kuee. Ndetes nwe dbenode kugbi kade tamkuaa.
+sc-criteria-item-6 = Ndetes abtee ndoodo see nbekuendede, ¡Fgtaneednnuu sdidamanuu ndodo!
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Dkueekud mu’u. ¿A ndebe de’es a’a mu’u, a tika se iynde’e o iyduu inña?
+sc-review-instruction = Dkueekud mu’u <icon></icon>. ¿A ndebe de’es a’a mu’u, tika iynde’e o iyduu inña?
 sc-review-rules-title = ¿A ndebes ndokas a’a o ndokas se iynde’e?
 sc-review-empty-state = Nmiñune a bte ndodo dbaku see nbekuendoo
 report-sc-different-language = Tamma dbaku
@@ -55,8 +55,8 @@ sentences-fetch-error = Akote ii iynunna ndodo
 review-error = Akote ii nbekuende ndodo
 review-error-rate-limit-exceeded = Tet kanni iydide. Dka dka nbekuendede tomeme kugbi dbenode ndetes a ndebe ndodote.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Aà ibekunn ndikku
-sc-redirect-page-subtitle-1 = Sentence Collector a iycho’o naa Common Voice. Mane akugbi iyduu am ub ndodo o a kugbi nbekuendoo de’e ndodo se iyndaa mu’u naa Common Voice.
-sc-redirect-page-subtitle-2 = Mane tomunine mu’u na Matrix, mu’u na koo, mu’u nase gnuu ndodoku, nase iycho’o kaka.
+sc-redirect-page-title = Aà ibekunnuu
+sc-redirect-page-subtitle-1 = Sentence Collector a iycho’o naa Common Voice. Mane akugbi <writeURL> iyduud </writeURL> ama ndodo o <reviewURL> o a kugbi nbekuendoo </reviewURL> de’e ndodo se iyndaa mu’u naa Common Voice.
+sc-redirect-page-subtitle-2 = Mane tomunine mu’u chet ko <matrixLink> Matrix </matrixLink>, <discourseLink>, mu’u nase gnuu ndodoku,</discourseLink> o <emailLink> nase iycho’o kaka<emailLink> email </emailLink>.
 # menu item
 review-sentences = Kuinbekuended ndodo
