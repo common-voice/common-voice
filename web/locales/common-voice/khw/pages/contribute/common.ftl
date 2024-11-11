@@ -95,8 +95,8 @@ shortcut-vote-no = این
 ## Validation criteria
 
 contribution-criteria-nav = اصول
-contribution-criteria-link = حصہ گنیکو اصول تہ تین پتہ بائے
-contribution-criteria-page-title = حصہ گنیکو اصول
+contribution-criteria-link = حصہ گنیکو طریقہ تہ تین پتہ بائے
+contribution-criteria-page-title = حصہ گنیکو طریقہ
 contribution-criteria-page-description = ہیا لوو ہوش کوکی ہوازو کار کی کوراو اوشوو کیا اشناریو لوڑیلیک وا تان ہوازو جام کوریکو بچین مدد کو
 contribution-for-example = مثالو تورا
 contribution-misreadings-title = غلط ریک
