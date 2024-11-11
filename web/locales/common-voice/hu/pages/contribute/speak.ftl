@@ -60,3 +60,17 @@ already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
 create-profile-button = Profil létrehozása
 # IMAGE TAGS
 img-alt-success-checkmark = sikert jelző pipa
+# menu item
+read-sentences = Mondatok felolvasása
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Mondatok felolvasása, kérdések megválaszolása
+read-sentences-menu-item-tooltip = Vegye fel magát, hogy mondatokat olvas fel a saját nyelvén
+answer-questions-menu-item-tooltip = Vegye fel magát, hogy kérdésekre és kérésekre válaszol a saját nyelvén
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Beszédbeállítások menü
+read-sentences-menu-item-aria-label = A közösség által beküldött mondatok felolvasása különböző nyelveken
+answer-questions-menu-item-aria-label = Küldjön be új kérdéseket és válaszokat, hogy a közösség felolvassa őket, és válaszoljon rájuk

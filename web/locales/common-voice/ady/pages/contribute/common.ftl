@@ -2,7 +2,7 @@ action-click = Теӏункӏ
 action-tap = Теӏаб
 contribute = Ӏахьэ хэлъхьан
 review = Еплъыжъын
-skip = Блэъакӏ
+skip = Блэгъакӏ
 shortcuts = Гъогу кӏэкӏхэр
 clips-with-count-pluralized =
     { $count ->
@@ -32,15 +32,10 @@ target-segment-first-banner = Help create Common Voice’s first target segment 
 target-segment-add-voice = Умакъэ хэгъэуцу
 target-segment-learn-more = Нахьыбэ зэгъэшӏэн
 change-preferences = Къыхэхынхэр зэхъокӏ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Мэкъэ угъоигъ
-contribute-sentence-collection-nav-header = Гущыӏэухыгъэ угъоигъ
 login-signup = Ихь / зыхатх
 vote-yes = Ары
 vote-no = Хьау
-datasets = къэтыгъэ зэкӏэугъоягъ
+datasets = Къэтыгъэ зэкӏэугъоягъ
 languages = Бзэхэр
 about = Ехьылӏагъ
 partner = Ӏэхьагъу
@@ -62,7 +57,7 @@ report-difficult-pronounce-detail = Зиеджакӏэ е зикъэӏуакӏэ
 report-offensive-speech = Узыушъхьакӏурэ гущыӏ
 report-offensive-speech-detail = Тетхагъэр лъытэныгъэ къыозымыхрэ е узыушъхьакӏурэ гущыӏ
 report-other-comment =
-    .placeholder = Тепсэлъыхьаныр
+    .placeholder = ТегущыIэныр
 success = Гъэхъагъэ
 continue = Лъыгъэкӏуат
 report-success = Рапортыр гъэхъагъэкӏэ аштагъ

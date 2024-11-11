@@ -11,6 +11,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = تو ته مشترک اوزي رسؤ نر امداد دوک<goalPercentage> تر</goalPercentage> ترماخن ته ریوزانه ریکارډنګ پاره
 goal-help-validation = تو ته مشترک اوزی رسؤ نر <goalPercentage>ترماخ امداد دوک<goalPercentage> ترماخ ته ریوزانۀ ته صحیح کؤ مقصد نر
+contribute-more =
+    { $count ->
+        [one] تیارم بيې کی ګۀ؟ { $count }
+       *[other] تیار یېن بيې کی ګۀ؟
+    }
 speak-empty-state = ماخ ګیرډ پۀ زبان نر ا بيے جملي ختُم سُکِن
 no-sentences-for-variants = ترمخ ته زبان لهجه نر بُو سا اؤسا سکه ا جملي وه ختُم سُک بېن۔ تو بُو ا سېټنګ بدل اېنچی که بيے جملي دی ګۀ جیره کی خوئ زبان نر
 speak-empty-state-cta = جملي دی شېندن
@@ -25,11 +30,6 @@ target-segment-first-banner = مدد کوئ ته مشترک آواز اول سې
 target-segment-add-voice = آواز اِر ګډ کئ
 target-segment-learn-more = بيے دی ګه زده کوئ
 change-preferences = ا ترجیع بدل کئ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = آوزی جمع کؤ
-contribute-sentence-collection-nav-header = جملي جمع کؤ
 login-signup = لاګ اِن/سائن اپ
 vote-yes = جی
 vote-no = نا

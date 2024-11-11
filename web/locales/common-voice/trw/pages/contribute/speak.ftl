@@ -60,3 +60,17 @@ already-have-an-account = چھی مُوش ما ایکاؤنٹ تُھو؟ <login>
 create-profile-button = تُنو خاکہ سوا
 # IMAGE TAGS
 img-alt-success-checkmark = کامأبی چیک کو
+# menu item
+read-sentences = جملا پڑھاؤ کوا
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملا پڑھاؤ کوا۔ سوالا سی جواب دا
+read-sentences-menu-item-tooltip = تُنو آمن تُنو جیِب سی جملا بنُو می ریکارڈ کوا
+answer-questions-menu-item-tooltip = تُنو جئِب می سوال جواب سی بنُو می آمن ریکارڈ کوا
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = بنُو سی آپشنا سی مینُو
+read-sentences-menu-item-aria-label = چیر جیِبا می کمینونیٹی سی دیِشا تھلیل جملا پڑھاؤ کوا
+answer-questions-menu-item-aria-label = کمیونیٹی سی کیا اے نم سوال تھلا یرأ سے تیس پرھاؤ کوئن آں جواب دئن

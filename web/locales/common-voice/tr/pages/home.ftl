@@ -15,13 +15,9 @@ show-wall-of-text = Devamını oku
 help-us-title = Cümleleri doğrulamamıza yardım edin!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
 no-clips-to-validate = Bu dilde dinlenecek kayıt kalmadı. Yeni konuşmalar kaydederek kuyruğu doldurmamıza yardım edebilirsiniz.
-vote-yes = Evet
-vote-no = Hayır
 toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
-speak-subtitle = Sesinizi bağışlayın
 speak-paragraph = Açık veri kümemizi oluşturmanın en önemli parçalarından biri ses kayıtları yapmak. İşin eğlenceli yanı da bu.
 speak-goal-text = Kaydedilen ses
-listen-subtitle = Sesleri doğrulamamıza yardım edin
 listen-paragraph = Common Voice için bağışlanan ses kayıtlarını doğrulamak da bir o kadar önemli. Kayıtları dinleyerek kaliteli ve açık kaynaklı ses verileri oluşturmamızı sağlayabilirsiniz.
 listen-goal-text = Doğrulanan ses
 hours-recorded = Kaydedilen saat
@@ -79,3 +75,17 @@ help-contribute = Common Voice profili oluşturarak ve sesinizle katkıda buluna
 login-company = { $company } e-postasıyla giriş / kayıt
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
+
+## NAV ITEMS
+
+press-and-stories = Basın ve Haberler
+community-and-languages = Topluluk ve Diller
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller
+partnerships-menu-item-tooltip = İş ortağımız olun
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Seçenekler menüsü hakkında

@@ -60,3 +60,17 @@ already-have-an-account = پہلا تو اکاؤنٹ ہے؟<login>لاگ اِن<
 create-profile-button = پروفائل بنڑاؤ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی دا نشانڑ
+# menu item
+read-sentences = جملے پڑھو
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملے پڑھو، سوالاں دا جواب دو
+read-sentences-menu-item-tooltip = خود ہی اپنڑی زبان بچ پڑھن آلے جملے ریکارڈ کرو
+answer-questions-menu-item-tooltip = خود ہی اپنڑی زبان بچ سوالاں تے اشارے دا جواب دینڑا دی ریکاڈنت کرو
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = اختیارات آلے مینو کو بولو
+read-sentences-menu-item-aria-label = کمیونٹی دے طرفو مختلف زباناں بچ جمع کرالے دے جملیاں کو پڑھو
+answer-questions-menu-item-aria-label = کمیونٹی واسطے ہک نیا سوال پڑھنا تے جواب دینڑا آستے جمع کرالو

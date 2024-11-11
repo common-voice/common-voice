@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تُو زُت تېز روان هې، دُشک
 sc-redirect-page-title = ماڅ دی بو څه غټی تبدیليے کيېن
 sc-redirect-page-subtitle-1 = ته جملي ا جمع کَوُونکئ ته مشترک آواز پلېټ فارم کی روان هۀ
 sc-redirect-page-subtitle-2 = ماخ دی ته سوَلي پِشتِنئ ته پۀ لنک په تهرو<matrixLink> یا ته پۀ ای مېل په پته <emailLink> کوئ
+# menu item
+review-sentences = جملی زر يې نظرثاني کېون

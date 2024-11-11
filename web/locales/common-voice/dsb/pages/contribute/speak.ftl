@@ -58,3 +58,17 @@ already-have-an-account = Maśo južo konto? <login>Pśizjawiś</login>
 create-profile-button = Profil załožyś
 # IMAGE TAGS
 img-alt-success-checkmark = Symbol wuspěcha
+# menu item
+read-sentences = Sady cytaś
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Sady cytaś, na pšašanja wótegroniś
+read-sentences-menu-item-tooltip = Nagrajśo sady, kótarež w swójej rěcy cytaśo
+answer-questions-menu-item-tooltip = Nagrajśo pšašanja a naspominanja, na kótarež w swójej rěcy wótegranjaśo
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Meni nastajenjow Powědaś
+read-sentences-menu-item-aria-label = Cytajśo sady, kótarež su se zapódali wót zgromaźeństwa w rozdźělnych rěcach
+answer-questions-menu-item-aria-label = Zapódajśo nowe pšašanje, kótarež móžo zgromaźeństwo cytaś a na njo móžo wótegroniś

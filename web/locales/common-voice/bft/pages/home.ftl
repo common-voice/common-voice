@@ -72,3 +72,24 @@ help-contribute = یناگلا یری سکتپو شیزدے بینچی، کام�
 login-company = جھوکھس/ جوکھ لم { $company } ای میل پو
 profile-not-required = روخ بیالا پروفایل دوکپو چنگ ژاہ ژاہ میدپن اما روخ زدے گیگ، چا زیربو تھورو ہلتوس
 read-more-about = نیی بارینگ نیی صفحیکھہ ینگسہ زیر
+
+## NAV ITEMS
+
+answer-questions = سوال کنی جواب لزوق، شوخمو اونگین یود
+review-transcriptions = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
+add-questions = سوال کن ہرژوق (شوخمو اونگین یود)
+transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
+press-and-stories = تم خلونگ کن نا زدرونگ کن
+community-and-languages = کمیونٹی نا سکت کن
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = لسی زونگ کن، تم خلونگ نا زدرونگ کن، کمیونٹی نا سکت کن
+partnerships-menu-item-tooltip = نیانا یمبو ڈراقسے لس بیا شوقس
+press-and-stories-menu-item-tooltip = نٸی بلاگ پیکھہ شوقس یا نٸی لوکھسینگ ربیس
+community-and-languages-menu-item-tooltip = سکت کن، کمیونٹیونگ نا سکت ژوخ کن ژول
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = فسل غدمی لوکھسینگ
+partnerships-menu-item-aria-label = کامن واٸس نا یمبو ڈراقسے لس بے لوکھسینگ ینگسہ شوٹ چوک

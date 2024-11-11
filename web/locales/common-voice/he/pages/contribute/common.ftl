@@ -28,11 +28,6 @@ target-segment-first-banner = עזרו ביצירת פלח היעד הראשון
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
 change-preferences = שינוי העדפות
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = איסוף קולות
-contribute-sentence-collection-nav-header = איסוף משפטים
 login-signup = כניסה / הרשמה
 vote-yes = כן
 vote-no = לא
@@ -46,7 +41,7 @@ submit-form-action = שליחה
 
 report = דיווח
 report-title = שליחת דיווח
-report-ask = אילו קשיים חווית עם המשפט הזה?
+report-ask = אילו בעיות חווית עם המשפט הזה?
 report-offensive-language = שפה פוגענית
 report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
 report-grammar-or-spelling = שגיאת דקדוק / איות

@@ -78,6 +78,10 @@ read-more-about = Lexoni më tepër te faqja jonë Mbi
 ## NAV ITEMS
 
 answer-questions = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
+review-transcriptions = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
+add-questions = Shtoni Pyetje <small>(Së shpejti)</small>
+transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
+press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë
 
 ## MENU ITEMS TOOLTIPS
@@ -91,3 +95,5 @@ community-and-languages-menu-item-tooltip = Zbuloni gjuhë dhe bashkësi dhe Com
 
 about-menu-aria-label = Menu mundësish “Mbi”
 partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice
+press-and-stories-menu-item-aria-label = Shihni njoftime shtypi dhe shembuj të lidhur me Common Voice
+community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuhët e mbuluara nga Common Voice
