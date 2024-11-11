@@ -1,13 +1,13 @@
 listen = Kanbe
 listen-subtitle = Tanennchuu nuu ndetes a ndebe ndokas a ndenunno na koo
 listen-instruction = { $actionType } <playIcon></playIcon> ¿A ndeebee, aiyne’e de’es a’annchuu?
-listen-again-instruction = ¡Ndebe ndinnñu!, <playIcon></playIcon> kanbetud tam yunni tas a bee yaadii
-listen-3rd-time-instruction = Achii dubbii tika gndide
-listen-last-time-instruction = ¡A ditnaskuu!
+listen-again-instruction = ¡Ndebe ndinnñu!, <playIcon></playIcon> kanbetud tam yunni tas a bee yaadee
+listen-3rd-time-instruction = Achii dubbii <playIcon></playIcon> ¡tika gndide!
+listen-last-time-instruction = <playIcon></playIcon> ¡A ditnaskuu!
 listen-empty-state = A kotee ndodo dbaku, a kot kubi kama a ndebe o nwe ndebe ndodo yi’i dbaku kuu
-listen-empty-state-variants = Abte ndodo yi’i yabakude mu’u na koo, ates nome kubi kambede taka iynde’e inña yi’i tama bia adbakuku.
+listen-empty-state-variants = Abte ndodo yi’i yabakude mu’u na koo. Ates nome kubi kambede taka iynde’e inña yi’i tama bia adbakuku.
 listen-loading-error = Nwe chii chindeenno ndodo naa koo dindetud tama namna’a achinnu
-listen-abort-title = Nekuinno kamade ndtes  ndebe ndodo
+listen-abort-title = ¿Nekuinno kamade ndetes  ndebe ndodo?
 listen-abort-cancel = Gndid kamade ndetes a ndebe ndodo se iynuu mu'u na koo
 listen-abort-confirm = Kuinno kamade ndetes a ndebe ndodo se iynuu mu’u naa koo
 # Menu item
