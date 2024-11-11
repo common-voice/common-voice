@@ -16,5 +16,5 @@ report-error = خطایی در حین ارسال گزارش رخ داد.
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = ادامه
 # Header for report modal after successful reporting
-success = موفقیت
+success = موفق
 report-success-message = ارسال گزارش موفقیت‌آمیز بود
