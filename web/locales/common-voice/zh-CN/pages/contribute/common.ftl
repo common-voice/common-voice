@@ -26,11 +26,6 @@ target-segment-first-banner = 帮助在 Common Voice 创建 { $locale } 的第�
 target-segment-add-voice = 添加您的声音
 target-segment-learn-more = 详细了解
 change-preferences = 更改首选项
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = 收集语音
-contribute-sentence-collection-nav-header = 收集语句
 login-signup = 登录/注册
 vote-yes = 是
 vote-no = 否
@@ -45,8 +40,8 @@ submit-form-action = 提交
 report = 反馈
 report-title = 提交反馈
 report-ask = 这句话存在什么问题？
-report-offensive-language = 冒犯性的语言
-report-offensive-language-detail = 这句话有不尊重或冒犯性的语言。
+report-offensive-language = 冒犯性用语
+report-offensive-language-detail = 此语句包含不尊重或冒犯性用语。
 report-grammar-or-spelling = 语法 / 拼写错误
 report-grammar-or-spelling-detail = 这句话的语法或拼写有误。
 report-different-language = 其他语言
@@ -54,7 +49,7 @@ report-different-language-detail = 这句话是其他语言的句子。
 report-difficult-pronounce = 难以发音
 report-difficult-pronounce-detail = 其中包含难以阅读或发音的单词或短语。
 report-offensive-speech = 冒犯性的录音片段
-report-offensive-speech-detail = 这个片段中有不尊重或冒犯性的语言。
+report-offensive-speech-detail = 此片段包含不尊重或冒犯性用语。
 report-other-comment =
     .placeholder = 备注
 success = 成功

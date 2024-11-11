@@ -1,30 +1,30 @@
 ## WRITE PAGE
 
-write = نیویشے
-write-instruction = عام رویان بارا<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہایا کی نویشینو ہوئے ہتوغو عام رویان لوڑیکو ژاغہ شامل کورونوبوئے  cc-0 لائسینس گنیرو معلومات
+write = نیوشے
+write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
+write-page-subtitle = کیا جملو ہایا کی نیوشینو ہوئے ہتوغو عام رویان پچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان پچین تان جملان ہایا نویشور
-small-batch-sentence-input-placeholder = عام رویان بارا تان جملان ہیا نویشے
+sentence-input-placeholder = عام رویان دائرو جملان ہایا نیوشور
+small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
-sc-write-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان پچین شیر </wikipediaLink> اوا ہمو اپلوڈ کوریکو اجازت دومان
-sc-review-write-title = کیا قسمہ جملان شامل کوریکو بوم؟
+sc-write-submit-confirm = تصدیق کومانا کہ ہایا جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink>ہمو اپ لوڈ کوریکو متین جازت شیر۔
+sc-review-write-title = کیا قسمہ جملہ شامل کوریکو بوم؟
 sc-review-small-batch-title = ذیاد جملان کیچہ کوری شامل کوریلیک
-new-sentence-rule-1 = <noCopyright>کاپی رائٹ نیکی</noCopyright> پابندی (<cc0>cc-0</cc0>)
+new-sentence-rule-1 = <noCopyright>کاپی رائٹو پابندی موبائے</noCopyright>  (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = فی جملہ 15 کم لفظ
 new-sentence-rule-3 = صحیح گرائمر استعمال کو
 new-sentence-rule-4 = املہ وا زیر زبران صحیح استعمال کو
 new-sentence-rule-5 = نمبرو اوچے خاص حروفان استعمال موکو
-new-sentence-rule-6 = خور زبانو حرفان استعمال نوکو
-new-sentence-rule-7 = مناسب حوالہ جاتان شامل
-new-sentence-rule-8 = جام ہش بوئے کہ قدرتی اوچے لوار نسار  (جملہ ریکا آسان بائے)
+new-sentence-rule-6 = خور وارو حرفان استعمال نوکو
+new-sentence-rule-7 = مناسب حوالہ شامل
+new-sentence-rule-8 = جام ہش بوئے  کہ جملہ قدرتی وا مشقولگی بائے (جملہ ریکا آسان بائے)
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو پچین
 how-to-cite = کچہ کوری حوالہ دوم؟
-how-to-cite-explanation-bold = ویپ سائٹو لینگ یا کورمو پورا نامو نویشی حوالہ دیت
-how-to-cite-explanation = حوالہ</italicizedText> اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لاڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان پچین اسپہ <guidelinesLink> رہنمائی صفحو</guidelinesLink>لوڑے
+how-to-cite-explanation-bold = یو ار ایل لینکو یا کورمو پورا نامو حوالہ دیت۔
+how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیوشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان پچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
 guidelines = رہنمائی
 contact-us = اسپہ سون رابطہ کو
 add-sentence-success = 1جملہ بڑاځینو ہوئے
@@ -36,16 +36,16 @@ bulk-sentence-submission = بو امبوخ جملان جمع کو
 single-sentence = ایوالی
 small-batch-sentence = پھوک امبوخ
 bulk-sentence = بو امبوخ
-sentence-domain-combobox-label = جملان حلقہ
-sentence-domain-select-placeholder = تروئی حلقہ بیکا پت گنے(اختیاری)
+sentence-domain-combobox-label = جملہ کھیو بارا؟
+sentence-domain-select-placeholder = تروئے پت گنے(اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
-automotive_transport = کوسک اشناری وا گاڑی
+automotive_transport = کوسک اشناری وا ٹرانسپورٹ
 # Sentence Domain dropdown option
 finance = پیسہ
 # Sentence Domain dropdown option
-service_retail = خسمت و تھوک
+service_retail = نوکری وا پرچون
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
@@ -53,7 +53,7 @@ healthcare = صحت
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون وا حکومت
 # Sentence Domain dropdown option
-language_fundamentals = وارو پچین لازمی ( مثلا نمبر، حروف، پیسہ)
+language_fundamentals = وارو لازمی اشناری( مثلا نمبر، حرف، پیسہ)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
@@ -61,7 +61,7 @@ nature_environment = قدرت وا ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبر وا موجودہ حالت
 # Sentence Domain dropdown option
-technology_robotics = ٹیکنالوجی وا روبوٹ
+technology_robotics = ٹیکنالوجی وا رابوٹ
 sentence-variant-select-label = جملان مختلف شکل
 sentence-variant-select-placeholder = ای قسمو گنے (اختیاری)
 sentence-variant-select-multiple-variants = عام وار/ بو قسم
@@ -72,7 +72,7 @@ sentence-variant-select-multiple-variants = عام وار/ بو قسم
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو پچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیوشے <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information =
     ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیتان ہیا شامل کوریکو ژاغا نیکی، تھے <emailFragment> 
      اسپہ تین انځاوے commonvoice@mozilla.com</emailFragment>
@@ -100,8 +100,8 @@ too-many-files = بو ذیاد فائل
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> عام رویان دائرہ امبوخ جملان شامل کو
-multiple-sentences-error = تو ای وحتا امبوخ جملان شامل کوریکو نو بوس
+small-batch-instruction = <icon></icon> عام رویان دائرہ امبوخ جملہ شامل کو
+multiple-sentences-error = تو ای وحتا امبوخ جملہ شامل کوریکو نو بوس
 exceeds-small-batch-limit-error = 1000 ذیاد جملہ جمع کورین نو بوئے
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
@@ -119,13 +119,13 @@ rate-limit-toast-message-seconds =
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو ای منٹ اچھا جمع کو
-       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پوشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو پچین شکریہ!
+       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو پچین شکریہ!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پوشٹی1سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
-       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پوشٹی { $retryLimit }  سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
+        [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی1سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
+       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  سیکنڈ انتظار کو۔ صبر کوریکو پچین شکریہ!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
@@ -136,30 +136,30 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  مسترد بیرو جملان ڈونلوڈ کوریکو بچین
-       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> مسترد بیرو جملان ڈونلوڈ کوریکو بچین.
+        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  مسترد بیرو جملان ڈون لوڈ کوریکو بچین
+       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہوئے/ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈون لوڈ کوریکو بچین.
     }
-small-batch-sentences-rule-1 = “اوا کیا جملان شامل کومآ?” شیرو رہنمائی سورا عمل کو
+small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
 small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
 small-batch-sentences-rule-5 = سف جملہ ای دائرہ بانی
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
 # menu item
-add-sentences = جملان شامل کو
+add-sentences = جملہ شامل کو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیویشیکا انگے
-add-sentences-menu-item-tooltip = تان زبانا جملان شامل کو
-review-sentences-menu-item-tooltip = تان زبانو جملان وا لوڑے
-add-questions-menu-item-tooltip = تان زبانا سوال شامل کو
-transcribe-audio-menu-item-tooltip = تان زبان ہوازو رکارڈنگو نویشیکا انگے
+write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیوشیکا انگے
+add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
+review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
+add-questions-menu-item-tooltip = تان وارا سوال شامل کو
+transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیوشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
+write-contribute-menu-aria-label = اختیاراتان لیسٹو نیوشے
 add-sentences-menu-item-aria-label = تان رویان ریکو پچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو پچین  نوغ سوال کو
-transcribe-audio-menu-item-aria-label = تان زبانا ہوازو رکارڈنگو نویشیکا انگے
+transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نیوشیکا انگے

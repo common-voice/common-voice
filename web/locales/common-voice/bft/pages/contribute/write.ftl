@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = تم سیر کن لوقسو ژھیر چک بیس�
 small-batch-sentences-rule-4 = ستونگ چک تم سیر کول۔
 small-batch-sentences-rule-5 = تم سیر گانگمہ لا ژوخ ژوخ غدونگکھہ دوکپہ رگوسپن۔
 small-batch-sentences-rule-6 = تم سیر گانگمہ لا ژوخسا ژوخ ساٸٹیشن من۔
+# menu item
+add-sentences = تم سیر کن کول
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = تم سیر کن کول دیکھنہ ہلتوس، سوال کن کول، سکت کن ربیس
+add-sentences-menu-item-tooltip = یری سکت پینگ تم سیر کن ہرژوق
+review-sentences-menu-item-tooltip = یری سکت پینگ تم سیر کن لا ہلتوس
+add-questions-menu-item-tooltip = یری سکت پینگنو سوال کن ہرژوق
+transcribe-audio-menu-item-tooltip = یری سکت پینگنو سکتی ریکارڈینگ کن ربیس
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = فسل غدمونگ ربیس
+add-sentences-menu-item-aria-label = کمیونٹی لا زیربلا نیا تم سیر کن ہرژوق
+review-sentences-menu-item-aria-label = کمیونٹی سی مینے یودپا یودپی تم سیر کن لا ہلتوس
+add-questions-menu-item-aria-label = کمیونٹی لا زیربلا دیکھنہ جواب منمہ فری نیا سوال کن تھونچوک
+transcribe-audio-menu-item-aria-label = سکتی ریکارڈینگ کن ٹیکسٹینگ لزوق

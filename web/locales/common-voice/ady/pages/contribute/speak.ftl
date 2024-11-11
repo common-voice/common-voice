@@ -60,9 +60,17 @@ already-have-an-account = Амырми хьисап уиӏа? <login>Ихь</log
 create-profile-button = Профил шӏы
 # IMAGE TAGS
 img-alt-success-checkmark = Гъэхъагъэ итамыгъ!
+# menu item
+read-sentences = Гущыӏэухыгъэхэм къяджэн
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Гущыӏэухыгъэхэм ядж, упчӏэхэм джэуапхэр ят
+read-sentences-menu-item-tooltip = Гущыӏэухыгъэхэр убзэкӏэ къеджэзэ ор-орэу тетх
+answer-questions-menu-item-tooltip = Убзэкӏэ упчӏэхэм яджэуапхэр ыкӏи шӏоигъоныгъэхэр ор-орэу тептхэн
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Гущыӏэн шапхъэхэм яменю
+read-sentences-menu-item-aria-label = Зэхэщэгъэ купым фэгъэхыгъэ бзэ зэфэшхьаф гушыӏэухыгъэхэм къядж
+answer-questions-menu-item-aria-label = Зэхэщэгъэ купыр еджэным ыкӏи джэуап къытыным пае зы упчӏэ кӏэ горэ егъэхь

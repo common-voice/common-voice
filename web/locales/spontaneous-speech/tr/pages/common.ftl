@@ -33,11 +33,25 @@ check-transcriptions = Metne Çevrilmişleri Denetle
 
 not-found-page-header = Bulunamadı
 not-found-page-content = Erişmek istediğiniz sayfa bulunamadı
-
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Common Voice'un <termsLink>Koşullarını</termsLink> ve <privacyLink>Gizlilik İlkelerini</privacyLink> kabul ediyorum.
-
 # Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
 en = İngilizce
 fr = Fransızca
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay
+meh = Güneybatı Tlaxiaco Mixtec
+mel = Orta Melanau
+mmc = Michoacán Mazahua
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pez = Doğu Penan
+pne = Batı Penan
+sdo = Serian Bidayuh
+snv = Sa'ban
 tr = Türkçe
+xkl = Kenyah

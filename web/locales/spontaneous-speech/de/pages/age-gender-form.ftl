@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = Vielen Dank, dass Sie zu spontaner Sprache beitragen!
+age-gender-form-title = Vielen Dank, dass Sie zu Spontaner Sprache beitragen!
 age-gender-form-subtile = Möchten Sie Informationen darüber weitergeben, wie Sie sprechen?
 add-information-button = Informationen hinzufügen
 continue-speaking-button = Weiter sprechen

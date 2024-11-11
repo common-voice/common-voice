@@ -1,12 +1,12 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تو ایک باڜہ ایس منتخب نی کوتھوپ، مہربانی کُری تانو <profileLink> پروفائل کی یدے </profileLink>باڜہ سلیکٹ کُرے۔
+sc-review-lang-not-selected = تو ایک باݜہ ایس منتخب نی کوتھوپ، مہربانی کُری تانو <profileLink> پروفائل کی یدے </profileLink>باݜہ سلیکٹ کُرے۔
 sc-review-title = جملہ ساں جائزہ گیا
 sc-review-loading = جملہ نم اکہ سن
 sc-review-select-language = مہربانی کُری باڜہ منتخب کُرا جائزہ تہ پرئی
 sc-review-no-sentences = جائزہ تہ پرئی ایک جملہ ایس نی درو<addLink> ژا ورے جملہ نم شامل کُرا </addLink>
 sc-review-form-prompt =
-    .message = جائزہ کُری سن جملہ نم نی ڜئی تُھوپ، تاں یقین دروئی
+    .message = جائزہ کُری سن جملہ نم نی شئی تُھوپ، تاں یقین دروئی
 sc-review-form-usage = جملہ تہ منظوری تہ پرئی دڇھنی بئیں سوئپ کُرا۔  مسترد کُرئیں کی کھوڜنتی بئیں سوئپ کُرا۔ وعیں کی بہ پچو بئیں سوئپ کُرا۔<strong> تانوں جائزہ جمع کُرن مہ پرموڜٹا</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence

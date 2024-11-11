@@ -94,3 +94,5 @@ release-version = Versión
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Opcións de descarga para acceder aos datos de Common Voice

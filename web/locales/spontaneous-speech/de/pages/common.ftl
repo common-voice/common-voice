@@ -25,7 +25,7 @@ contribute = Mitmachen
 
 ## Navbar
 
-respond-to-prompt = Auf Nachfragen antworten
+respond-to-prompt = Auf Frage antworten
 transcribe-audio = Audio transkribieren
 check-transcriptions = Transkripte überprüfen
 
@@ -46,3 +46,12 @@ kzi = Kelabit
 mbf = Baba-Malaysisch
 meh = Südwesttlaxiacoisches Mixtekisch
 mel = Zentral-Melanau
+mmc = Michoacán-Mazahua
+ms-MY = Bahasa-Malaysisch
+msi = Sabah-Malaysisch
+pez = Östliches Penan
+pne = Westliches Penan
+sdo = Serian-Bidayuh
+snv = Sa'ban
+tr = Türkisch
+xkl = Kenyah

@@ -90,3 +90,7 @@ release-version = ورژن
 dataset-date = تریخ
 license = لسانس:<licenseLink>{ $license }</licenseLink>
 license-mixed = مکس کیتادا
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسدے آواز دے ڈیٹا سیٹس کو ڈاؤنلوڈ کرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس ڈیٹا پہنچنڑا آستے ڈاؤنلوڈ دے آپشنز

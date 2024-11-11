@@ -1,4 +1,5 @@
 speak = דיבור
+speak-now = דברו כעת
 speak-subtitle = תרמו את קולכם
 record-cta = התחלת ההקלטה
 record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.

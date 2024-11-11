@@ -1,9 +1,9 @@
 speak = راوے
 speak-now = ہنیسے راوے
-speak-subtitle = تان ہوازو دیت
+speak-subtitle = تان ہوازو رکارڈ کو
 record-cta = رکارڈ کوریک شروع کو
 record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو  ہایا ٹائمہ مدد کورین نو بویان۔
-record-platform-not-supported-desktop = تو ڈونلوڈ کوری ڈسک ٹاپ مشینو سورا حصہ گنیکو بوس
+record-platform-not-supported-desktop = ڈسک ٹاپ مشینا تو ڈون لوڈ کوری حصہ گنیکو بوس۔۔۔
 record-platform-not-supported-ios-non-safari = iOS  مہربانی کوری رکارڈنگو قابل کوریکو بچین سفاریو سورا جاری کورور۔۔۔
 record-must-allow-microphone = تہ مائیکو ہیرو توریکو لاکیلیک
 record-no-mic-found = مائیک ملاو نو ہوئے
@@ -14,17 +14,17 @@ record-cancel = رکارڈنگو کینسیل کو
 record-instruction = { $actionType }<recordIcon></recordIcon> تھے جملو توڑ راوے
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> کی ارو
 record-three-more-instruction = تروئے بہچی شینی
-record-again-instruction = بوجام!<recordIcon></recordIcon> پوشٹی بی تان خور ہواز رکارڈ کو
+record-again-instruction = بوجام!<recordIcon></recordIcon> پروشٹی بی تان خور ہواز رکارڈ کو
 record-again-instruction2 = تان کورمو جاری سوتے، وا رکارڈ کو
-record-last-instruction = <recordIcon></recordIcon>  اخیری ای دنا!
-review-tooltip = پوشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہایا رکارڈ کو
+record-last-instruction = <recordIcon></recordIcon>  اخری ای دنا!
+review-tooltip = پروشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہایا رکارڈ کو
 share-clip = تان اسکوردی ہوازو بوژے
 share-common-voice = کامن وائسو بوژے
 review-instruction = وا لوڑے،  کی ضرورت اسکوردی ہواز وا رکارڈ کو
 record-submit-tooltip = { $actionType } کی تیار ہوئے جمع کو
 clips-uploaded = اسکوردی ہواز اپلوڈ ہوئے
-record-abort-title = پوشٹی رکارڈنگو ختم کو
-record-abort-text = ہنیسے پیځیکو مطلب ہایا کی پوشٹی بیکو نوبوس
+record-abort-title = پروشٹی رکارڈنگو ختم کو
+record-abort-text = ہنیسے پیځیکو مطلب ہیہ کی تہ کاردو کروم ختم بوئے
 record-abort-submit = اسکوردی ہواز جمع کو
 record-abort-continue = رکارڈنگو بند کو
 record-abort-delete = بیری نیسے وا اسکوردی ہوازان بوغاوے
@@ -40,11 +40,11 @@ review-terms = کامن وائسو استعمال کوری تو ہیا لوو س
 terms-agree = اوا منیمان
 terms-disagree = اوا نو مانیمان
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = تان اسکوردی ہوازان دیکو پچین بو میناداری
-first-cta-subtitle-text = تان بارا اسپہ سون لو دیتی تو ساوزئے یکان سون سفو پچین ٹینالوجی ساوزیکا مدد کوس
+first-cta-header-text = تان اسکوردی ہوازان دیکو بچین بو میناداری
+first-cta-subtitle-text = تان بارا اسپہ سون لو دیتی تو ساوزئے یکان سون سفو بچین ٹینالوجی ساوزیکا مدد کوس
 why-donate = تو کو بشار کوسان؟
-why-donate-explanation-1 = ہمی معلوماتان دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پوشٹی ہیتان  اسکوردی کوسی وا ہش دی کوسی کی تہ نام و ایمیل تہ عمرو چے موش کیمیری بیکو سون جوست نو بوئی۔
-why-donate-explanation-2 = ٹیکنالوجی سفو پچین جام کوروم کورار کی ریمیان، ہتے معلومات کی ہتیت ساوزیکان ضرورت بونیان مختلف تعدادا روئیا سار گیلیک
+why-donate-explanation-1 = ہمی معلوماتان دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پروشٹی ہیتان  اسکوردی کوسی وا ہش دی کوسی کی تہ نام و ایمیل تہ عمرو چے موش کیمیری بیکو سون جوست نو بوئی۔
+why-donate-explanation-2 = ٹیکنالوجی سفو بچین جام کوروم کورار کی ریمیان، ہتے معلومات کی ہتیت ساوزیکان ضرورت بونیان مختلف تعدادا روئیا سار گیلیک
 add-information-button = معلومات شامل کو
 continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
 create-profile-text = تان معلوماتان محفوظ کوسانا? <createProfile>پروفائل ساوزاوے</createProfile>
@@ -56,7 +56,7 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تان ہوازو دیکو بچین اسپہ تہ منادار
 second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان ہوازو دییاک رویان سون بلد بوس
-already-have-an-account = پوشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login> بوس
+already-have-an-account = پروشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login> بوس
 create-profile-button = ای پروفائل ساوزاوے
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابیو نݰان
@@ -66,11 +66,11 @@ read-sentences = جملان راوے
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملان راوے، سوالان جواب دیت
-read-sentences-menu-item-tooltip = تان زبانا جملان رییاو محفوظ کو
-answer-questions-menu-item-tooltip = تان زبانا سوالان جواب دیاو وا اشاران محفوظ کو
+read-sentences-menu-item-tooltip = تان وارا جملہ رییاو محفوظ کو
+answer-questions-menu-item-tooltip = تان وارا سوالان وا اشاران جواب دیاو محفوظ کو
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = اختیاراتان لیسٹو راوے
-read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف زبانا جملان جمع کی ایرنی تیتان راوے
+read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف وارا جملان جمع کی ارینی تیتان راوے
 answer-questions-menu-item-aria-label = کمیونیٹو ممبرانان سار ریکو وا جواب دیکو پچین سوال کو
