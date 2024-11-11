@@ -10,7 +10,7 @@ datasets-positioning =
     ہیا صفحو خور اوپن سورس ڈیٹاسیٹو حوالو پچین لوڑور وا کامن وائس کی لوٹ باو ہائے، اسپہ خبران دیکو بچین ای ژاغا۔
 language = وار
 download-dataset-header = ڈیٹاسیٹو ڈون لوڈ کو
-download-delta-explainer = اسپہ پھوک بدل اریتام۔ پرانو کورمار اچی،ڈلٹا حصہ نوغ ہواز لکھیتام <deltaLink> ۔ ہیا کورمو بارا خور معلومات ہیا</deltaLink> ژاغا  شینی۔
+download-delta-explainer = اسپہ پھوک بدل اریتام۔ پرانو کورمار اچی،ڈلٹا حصہ نوغ ہواز لکھیتام <deltaLink> ۔ ہیہ کورمو بارا خور معلومات ہیہ</deltaLink> ژاغا  شینی۔
 download-dataset-tag = تان حاجتو وارو ڈیٹاسیٹو متخب کو۔کیا قسمو کی مݰکیسان توغو ڈون لوڈ کو۔
 # File size in gigabytes
 size = سائز
