@@ -1,5 +1,5 @@
-speak = لودیت
-speak-now = ہنیسے لودیت
+speak = راوے
+speak-now = ہنیسے راوے
 speak-subtitle = تان ہوازو دیت
 record-cta = رکارڈ کوریک شروع کو
 record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو  ہایا ٹائمہ مدد کورین نو بویان۔
@@ -24,7 +24,7 @@ review-instruction = وا لوڑے،  کی ضرورت اسکوردی ہواز و
 record-submit-tooltip = { $actionType } کی تیار ہوئے جمع کو
 clips-uploaded = اسکوردی ہواز اپلوڈ ہوئے
 record-abort-title = پروشٹی رکارڈنگو ختم کو
-record-abort-text = ہنیسے پیځیکو مطلب ہایا کی پروشٹی بیکو نوبوس
+record-abort-text = ہنیسے پیځیکو مطلب ہیہ کی تہ کاردو کروم ختم بوئے
 record-abort-submit = اسکوردی ہواز جمع کو
 record-abort-continue = رکارڈنگو بند کو
 record-abort-delete = بیری نیسے وا اسکوردی ہوازان بوغاوے
