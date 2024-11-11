@@ -15,6 +15,7 @@ validate-readings = Ñeñongatu mboaje
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Emboaje ñeñongatupy, ehechajey ñe’ẽjehai
 
 ## MENU ITEM ARIA LABELS
 
