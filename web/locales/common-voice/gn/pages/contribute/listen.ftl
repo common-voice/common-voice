@@ -16,6 +16,9 @@ validate-readings = Ñeñongatu mboaje
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Emboaje ñeñongatupy, ehechajey ñe’ẽjehai
+validate-readings-menu-item-tooltip = Emboaje umi poruhára moñe’ẽngue iñe’ẽtépe
+review-transcriptions-menu-item-tooltip = Ehechajey ñe’ẽjehai ombo’uva poruhára iñe’ẽtépe
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Ñomongetarã poravoha

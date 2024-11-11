@@ -124,3 +124,14 @@ small-batch-sentences-rule-3 = Eipe’a ojuehagui ñe’ẽjuaju peteĩ líñope
 small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
 small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
 small-batch-sentences-rule-6 = Opaite ñe’ẽjuaju orekova’erã peteĩ je’epy
+# menu item
+add-sentences = Embojuaju ñe’ẽjuaju
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
+review-sentences-menu-item-tooltip = Ehechajey umi ñe’ẽjuaju ne ñe’ẽme
+add-questions-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
+
+## MENU ITEM ARIA LABELS
+
