@@ -10,3 +10,15 @@ why-card-1-text = فائده <mark> ته قدرتي تقریر په حوالۀ <
 why-card-2-text = سۀ زبان لاسته بی زبان کی ته بدلؤ ا حقیقت <mark> کوډ سویچنګ ته پزنؤ پاره يې سو او مدد کوی
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = او يې سو سۀ بهتر سپورټ بَۀ ته زبنی پاره که ته لیک ا جثه وې زری بَۀ یا وه دې لواړه بَۀ نک۔ </mark>
+how-spontaneous-speech-works = بغېر ته تیاري بو ا تقریر څا کر کوی
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark> پرمپټ </mark>
+prompt-bubble-subtitle = ماخ دل يې سو پرمپټ یا سوال شام کيېن
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark> ځواب </mark>
+respond-bubble-subtitle = تُو وې ځواب غؤس اُن قدرتي که څُونه تيې وست بَۀ
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark> نقل </mark>
+transcribe-bubble-subtitle = تُو وه لیک کېون که څۀ يې آډیو کلِپ لاسته امر
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark> چېک </mark>
