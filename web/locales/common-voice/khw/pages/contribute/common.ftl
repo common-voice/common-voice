@@ -1,5 +1,5 @@
 action-click = کلک
-action-tap = ٹیپ
+action-tap = شینی
 contribute = تان حصو شامل کوریک
 review = وا لوڑے
 skip = پیځی پروشٹی بوغے
@@ -40,8 +40,8 @@ submit-form-action = جمع کو
 
 ## Reporting
 
-report = خبر
-report-title = رپورٹو جمع لو
+report = رپورٹ کو
+report-title = رپورٹو جمع کو
 report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
 report-offensive-language = شوم لو
 report-offensive-language-detail = جملہ شوم یا غیر مہذب لو شیر
