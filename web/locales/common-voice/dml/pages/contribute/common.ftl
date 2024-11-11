@@ -137,6 +137,7 @@ contribution-background-noise-example-2-explanation = متن تہ اچھک حص�
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>لے بلو ڈاینا سور[crackle]</strong> -ریاسک
 contribution-background-voices-title = ڈنگپھچمبئیں تہ کاڻ
 contribution-background-voices-example-1-title = ٹریاسک تہ لے بلو ڈاینا سور۔ایک کاڻہ ملی مترا ڈایانا سور<strong>[ایک کاڻنہ مترے]</strong>
+contribution-background-voices-example-1-explanation = توآڅنپی?<strong>[ورےساں زریعہ بائیتین گا ]</strong>
 contribution-volume-title = حجم
 contribution-reader-effects-title = مترال تہ تاثرات
 contribution-just-unsure-title = غیر یقینی
