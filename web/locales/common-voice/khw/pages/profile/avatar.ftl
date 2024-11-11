@@ -6,5 +6,5 @@ connect-gravatar = گریواٹیرو سون لنک کو
 gravatar_not_found = تہ ای میلا گریواٹیر ملاو نو ہوئے
 file_too_large = گنیرو فائل بو درونگ
 avatar-uploaded = ایویٹر اپلوڈ ہوئے
-max-file-size = { $kb } کے بی مکس
+max-file-size = ذیاد تا ذیاد{ $kb } کے بی
 remove-avatar = ایواِٹیرار جدا کو
