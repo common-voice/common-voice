@@ -129,12 +129,14 @@ contribution-varying-pronunciations-example-1-explanation = بیرٹ  اول ح�
 contribution-varying-pronunciations-example-2-title = تساں دش ملوٹہ درو
 contribution-varying-pronunciations-example-2-explanation = ‘Raised’ انگریزیہ ہمیشہ ایک لفظ تہ طور استعمل بیاں ،دو نی
 contribution-background-noise-title = ڈنگ پھچن بئیں تہ شور
+contribution-background-noise-description = ائی یہ گٹنُمہ تے مشین لرنگ الورتھم مختلف قسم تہ پس منظر تہ شور سمبل کُرین بئین۔ آں نسبتا شورے کاڻ ایس قبول کُرم بݜ درو، شرط یہ دروئی سے میاں مکمل متن اُشتُرنن مسلہ نی کُرو۔ پس منظرہ بیݜ موسیقی سئی درو، اگر شورے موسیقی میاں ہر لفظ اُشتروننہ مسلہ کُرے بہ، سے مناسب نی درو۔
 contribution-background-noise-description-extended = اگر ریکارڈنگ چھنا بہ یا بہ زیگا بہ تس مسترد کُرا، اگر سئی بئی اُشترنن بڜ تھا بہ پھرکی مہ مسترد کُرا
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>لے بلو ڈینا سور سم تہ<strong>[cough]</strong>ٹریاسک
 contribution-background-noise-example-2-fixed-title = دیو دینو<strong>[cough]</strong> ٹریاسک
 contribution-background-noise-example-2-explanation = متن تہ اچھک حصہ اُشترونن بڜ نی درو
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>لے بلو ڈاینا سور[crackle]</strong> -ریاسک
 contribution-background-voices-title = ڈنگپھچمبئیں تہ کاڻ
+contribution-background-voices-example-1-title = ٹریاسک تہ لے بلو ڈاینا سور۔ایک کاڻہ ملی مترا ڈایانا سور<strong>[ایک کاڻنہ مترے]</strong>
 contribution-volume-title = حجم
 contribution-reader-effects-title = مترال تہ تاثرات
 contribution-just-unsure-title = غیر یقینی
