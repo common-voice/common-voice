@@ -2,8 +2,8 @@
     padding: 60px;
     text-align: center;
     background: url('./assets/background.jpg');
-    background-position-y: 110%;
-    background-size: 100% 60%;
+    background-position-y: 100%;
+    background-size: 100% 40%;
     background-repeat: no-repeat;
 
     .title {
