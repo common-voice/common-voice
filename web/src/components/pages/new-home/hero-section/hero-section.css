@@ -216,12 +216,13 @@
                     }
 
                     @media (--lg-only) {
-                        height: 44%;
+                        height: 27%;
                         width: 50vw;
                     }
 
                     @media (--md-only) {
-                        height: 38%;
+                        height: 18%;
+                        max-height: 475px;
                     }
 
                     @media (--sm-down) {
@@ -352,12 +353,11 @@
 
                 @media (--xl-up) {
                     width: 50%;
-                    top: 40%;
+                    top: 24%;
                     left: 50%;
                 }
 
                 @media (--md-and-lg-only) {
-                    top: 25%;
                     left: 47%;
                 }
 

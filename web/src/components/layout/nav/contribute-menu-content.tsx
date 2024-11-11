@@ -81,9 +81,8 @@ const Content = ({
           }
 
           return (
-            <>
+            <React.Fragment key={localizedId}>
               <li
-                key={localizedId}
                 aria-label={getString(menuItemAriaLabel)}
                 id={menuItemTooltip}>
                 <div
@@ -103,7 +102,7 @@ const Content = ({
                 }}>
                 {getString(menuItemTooltip)}
               </Tooltip>
-            </>
+            </React.Fragment>
           )
         })}
       </ul>
