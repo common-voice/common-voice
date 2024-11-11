@@ -6,9 +6,9 @@ import { ChevronRight } from '../../../ui/icons'
 
 import URLs from '../../../../urls'
 
-import './community-section.css'
+import './action-items-section.css'
 
-export const CommunitySection = () => {
+export const ActionItemsSection = () => {
   return (
     <section className="community-section">
       <div className="community-section-container">
