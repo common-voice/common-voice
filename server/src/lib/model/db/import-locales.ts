@@ -359,7 +359,7 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
 
 const fetchExistingLanguages = async () => {
   const [existinglanguages] = await db.query(`
-      select t.locale_id as has_clips, l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+      select t.locale_id as has_clips, l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count, is_translated
       from locales l
       left join sentences s on s.locale_id = l.id
       left join (select c.locale_id from clips c group by c.locale_id) t on t.locale_id = s.locale_id
@@ -380,18 +380,18 @@ export async function importLocales() {
   if (locales) {
     console.log('Fetching existing languages')
 
-    const existingLangauges = await fetchExistingLanguages()
+    const existingLanguages = await fetchExistingLanguages()
 
-    console.log(`${existingLangauges.length} Existing Languages`)
+    console.log(`${existingLanguages.length} Existing Languages`)
 
-    const languagesWithClips = existingLangauges.reduce(
+    const languagesWithClips = existingLanguages.reduce(
       (obj: any, language: any) => {
         if (language.has_clips) obj[language.name] = true
         return obj
       }
     )
 
-    const allLanguages = existingLangauges.reduce((obj: any, language: any) => {
+    const allLanguages = existingLanguages.reduce((obj: any, language: any) => {
       obj[language.name] = {
         ...language,
         hasEnoughSentences:
@@ -401,9 +401,11 @@ export async function importLocales() {
     }, {})
 
     const newLanguageData = locales.reduce((obj, language) => {
-      // if a lang has clips, or has the required translations,
+      // if a lang has clips, is already translated, or has the required translations,
       // consider it translated
       const isTranslated = languagesWithClips[language.code]
+        ? 1
+        : allLanguages[language.code]?.is_translated === 1
         ? 1
         : language.hasRequiredTranslations
         ? 1
