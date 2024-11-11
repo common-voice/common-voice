@@ -68,6 +68,7 @@ username-email-not-demographic = تاں یوزر نم آں ای میل شائع 
 ## Landing
 
 welcome-staff = ابودے آگیپی{ $company } تہ سٹاف
+help-contribute = بی عام کاڻ تہ پروفائل ژوپائی آں تانوں کاڻ تہ تعاون کُری متنوع ، اوپن سورس ڈیٹا سیٹ ژوپنہ مدد کُرین بئیبہ
 login-company = لاگ اِن /سائن ان ملی{ $company } ای میل
 profile-not-required = شراکت تہ پرئی پروفائل سا تھین ضروری نی درو۔ اگرچہ یہ مدد کُرین بیاں، بُن دڇھا تے کو۔
 read-more-about = امونہ پیچ تہ بارہ ورے مترا
