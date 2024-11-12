@@ -2,7 +2,7 @@
 
 about-title = Bes hanjuko ucharing?
 about-header-description-v2 = hanjuko uyoon sise gane ićhare deetaset bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ićhare deetaseting kampnimine bican.  ićhare deetasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućharing api. ićharing teknaalogiulo butan baasinge kaa ḍuro ayećhibi ṭeeylate sis gati nuko ućharin har dishulo bageeś eṭase ćamaat eća baan
-how-does-it-work-title-v2 = Belate hanjuko ucharing ḍuro ećibi?
+how-does-it-work-title-v2 = Belate hanjuko ićhare ḍuro ećibi?
 how-does-it-work-text = Mii ḍunyaaṭulum ućharinge deetaset gati echa baan. Mayno baaṣulo ićharing meer ḍoocing . ṭhumishuwe ḍuroing ṭasḍiiq neṭan deetaset warc eṭin.
 
 ## How does it work section
