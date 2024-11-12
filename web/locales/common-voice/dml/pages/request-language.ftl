@@ -13,3 +13,4 @@ request-language-google-recaptcha-required = گر بی مُکھ بئیں ین گ
 request-language-google-recaptcha-error = reCAPTCHA کیہ غلط با۔ مہربانی کُری پھرکی کوشیش کُرا۔
 # Success page
 request-language-success-heading = مہربانی! تو ایک نواں باݜہ تہ انگوائری  ݜئ تُھوپ
+request-language-success-list-1 = میاکی پھتائی ایک وضاحت کُرال ایک ای میل میلو بین پکار درو تانوں باݜہ عام کاڻہ شامل  کُرن تہ اقدامات
