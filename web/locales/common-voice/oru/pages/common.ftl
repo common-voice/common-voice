@@ -287,7 +287,7 @@ not-available-abbreviation = ن/ا
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
-donate-banner-cta = <mark> ماخ کی يې ترتُو ته امداد ضرورت هۀ <br/> او بيې </mark>
+donate-banner-cta = <mark> ماخ کی يې ترتیوس ته امداد ضرورت هۀ <br/> </mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = ته ډېټا سېټ ته ساتؤ او ته پۀ پلېټ فارم ته ترقي پاره يې ماخ کی ته څان اندازاً ته دس لکهـ ډالر ضرورت هۀ، که څه ګۀ تیوس لاسته سُو 100 لاسته ته ݫات زبني ته غوېڅن خلق ګیرډ کوک بُو که پۀ زر انحصار کَوِن، څه بو که ماخ کيېن <strong> تُو ګیرډ يې ته پا ډېټا قدِر بَۀ، نو امداده وې کوئ ګیرډ </strong>
 # Text wrapped in <mark></mark> will have a white background.
