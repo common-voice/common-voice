@@ -280,6 +280,11 @@ loading = لوڈ بیاں
 email-opt-in-info = ائی منو ای میل گیم تے کیرا مقصد تہ یاددہانی، ما مُکھ بئیں ین تہ معلومات آں عام کاڻ تہ خبر تہ خط تھیو
 email-opt-in-info-title = عام کاڻ تہ ای میل تہ لسٹہ شامل با
 email-opt-in-info-sub-with-challenge = منو ای میل گیا تے سے مقصد تہ یاد دہانی، مُکھبئیں ین تہ معلومات آں عام کاڻ تہ خبر تہ خط تھیو۔
+email-opt-in-privacy-v2 = ای میل وصول کُرن تہ انتخب کُری، بی یہ کُنبہ تے  بی موزیلا ساں طرف تہ یے معلومات سمبل کُرنہ راضی تھوبہ۔ لکہ موزیلا ساں <privacyLink>رازداری تہ پالیسی</privacyLink>۔
+indicates-required = اشتاری (*) تہ نشن ویلا خانہ ضروری درو۔
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>اما کی پکار درو</mark><br/><mark> مینہ مدد</mark>
