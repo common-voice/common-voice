@@ -3,7 +3,7 @@
 language-section-in-progress = کوروم جاری شیر
 language-section-in-progress-new-description = ہیہ حالانہ ہمی وارا کمیونٹیو ساوزیکو مرحلا  شینی<localizationGlossaryLink> ویب سائیٹو مقامی کوریکو  </localizationGlossaryLink>وا <sentenceCollectionGlossaryLink> جملان جمع کوریکو</sentenceCollectionGlossaryLink> ضروت شیر۔
 language-section-launched = شروع کورینو ہوئے
-language-section-launched-description = ہمی شروع بیرو واران ویب سائٹ کامیابیو سورا <localizationGlossaryLink> مقامی ہوئے وا ہیارا <speakLink>ریکو</speakLink> وا <listenLink>کار کوریکو </listenLink> جاری ستو بچین کافی <sentenceCollectionGlossaryLink>جملہ جمع <sentenceCollectionGlossaryLink>ارینی۔
+language-section-launched-description = ہمی شروع کورینو بیرو واران ویب سائٹ کامیابیو سورا <localizationGlossaryLink> مقامی ہوئے وا ہیارا <speakLink>ریکو</speakLink> وا <listenLink>کار کوریکو </listenLink> بچین کافی <sentenceCollectionGlossaryLink>جملہ جمع <sentenceCollectionGlossaryLink>کورینو بیتی شینی۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = اخری اپڈیٹ
 languages-show-more = پورا پشاوے
@@ -11,7 +11,7 @@ languages-show-less = کام لوڑے
 language-meter-in-progress = جاری
 language-total-progress = تھمام
 language-search-input =
-    .placeholder = تلاش
+    .placeholder = مشکیک
 language-speakers = لو دیاک
 localized = مقامی کوریک
 sentences = جملہ
