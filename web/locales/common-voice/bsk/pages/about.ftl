@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = Bes kaaman ićhar?
+about-header-description-v2 = kaaman ićhar uyoon sise ganeićhare deetaset bila amitar razakaariśuwe śat ićhićaan.
 
 ## How does it work section
 
