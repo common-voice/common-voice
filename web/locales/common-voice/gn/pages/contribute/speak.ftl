@@ -65,6 +65,8 @@ read-sentences = Emoñe’ẽ ñe’ẽjuaju
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Emboayvu ñe’ẽjuaju, embohovái porandu
+read-sentences-menu-item-tooltip = Ejapo ñe’ẽjuaju ñongatupy ne ñe’ẽtépe
 
 ## MENU ITEM ARIA LABELS
 
