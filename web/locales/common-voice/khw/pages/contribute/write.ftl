@@ -33,9 +33,9 @@ required-field = مہربانی کوری ہیا ژاغو ٹیپاوے
 single-sentence-submission = ای جملہ جمع کو
 small-batch-sentence-submission = پوکھ امبوخ جملان جمع کو
 bulk-sentence-submission = بو امبوخ جملان جمع کو
-single-sentence = ایوالی
-small-batch-sentence = پھوک امبوخ
-bulk-sentence = بو امبوخ
+single-sentence = ای
+small-batch-sentence = ذیاد
+bulk-sentence = امبوخ
 sentence-domain-combobox-label = جملہ کھیو بارا؟
 sentence-domain-select-placeholder = تروئے پت گنے(اختیاری)
 # Sentence Domain dropdown option
