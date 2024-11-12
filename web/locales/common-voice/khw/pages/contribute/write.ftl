@@ -141,9 +141,9 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
-small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
+small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنار علحیدہ کو  یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
-small-batch-sentences-rule-5 = سف جملہ ای دائرہ بانی
+small-batch-sentences-rule-5 = سف جملان دائرہ(موضوعو) ایک بائے
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
 # menu item
 add-sentences = جملہ شامل کو
