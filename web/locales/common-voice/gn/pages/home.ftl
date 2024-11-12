@@ -19,13 +19,9 @@ show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
 help-us-explain = Ejopy tahendu, ehendu ha ere oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
 no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmíkena ha peñe’ẽñongatumi opavavete.
-vote-yes = Héẽ
-vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
-speak-subtitle = Eme’ẽmína nde ayvu
 speak-paragraph = Ñañongatukuévo ñe’ẽryapu ñamongakuaa ñe’ẽryapu rupa opavavépe g̃uarã jaguerekóva ha oĩ he’íva péva iporãha.
 speak-goal-text = Ñe’ẽryapu ñongatupyre
-listen-subtitle = Orepytyvõ rohechajeývo ñe’ẽjoaju
 listen-paragraph = Tuichamba’e pe ñe’ẽryapu jeiporavo Common Voice-pe g̃uarã. Eguapy sapy’aite ha orepytyvõ roiporavõ hag̃ua ñe’ẽryapu ikatúva oiporu opavave.
 listen-goal-text = Ñe’ẽryapu moneĩmbyre
 hours-recorded = Aravo ñongatupyre
@@ -83,3 +79,18 @@ help-contribute = Nde reipytyvõkuaa rojapo hag̃ua ko tembiapo porã, ha’éva
 login-company = Eike / Eñemboheraguapy ñanduti veve { $company } reheve
 profile-not-required = Anínte ejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapórõ, ko guýpe romoesakãmive mba’érepa.
 read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
+
+## NAV ITEMS
+
+answer-questions = Embohovái porandu <small>(Tenondeve)</small>
+review-transcriptions = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
+add-questions = Embojuaju porandu <small>(Tenondeve)</small>
+transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
+press-and-stories = Maranduasãiha ha Tembiasakue
+community-and-languages = Tekoha ha ñe’ẽnguéra
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
