@@ -48,13 +48,21 @@ about-nav-how-it-works = belate?
 about-nav-partners = kaatumiśo
 about-nav-get-involved = ḍurouar kaa maneyin
 about-nav-how-it-works-2 = Belate hanjuko ićhare ḍuro ećibi?
+about-nav-playbook = belate kaa manaas bila ke itte hen
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = hanjuko ućharingulo baaṣ besan bila?
+about-playbook-what-is-language-content-1 = baaṣate samba eṭase butan ganeng bican. mićharing leel eṭase modelinge gane, hanjuko ućharinge bareybi ke guṭe baaṣe sise hihine usulo balićila agar uwe kaman ćamaat eṭuman ke.
+about-playbook-what-is-language-content-2 = mii ray bila ke ćagaminge model butan har qisime sise usulo baliṣ. guṭe gane, ućharinge deetaset butan sise numaayndi maniṣ.
+about-playbook-what-is-language-content-3 = beeruman baaṣinge grammar, lafzing, ṭalafuzulo butan farq bila. ṭeylate, mii <ctaLink>introducing ‘Variants’</ctaLink> in 2022 śuru eṭaan. guṭe baaṣ eṭaśuar uymo baaṣ uyongkaro deetasetulo leel eṭas oomay baan.
 
 ## How do I add a language
 
+about-playbook-how-add-language = je belate baaṣan kaa ećam?
+about-playbook-how-add-language-content-1 = yarkamaas guymo baaṣ ulo bila baren. agar api ke baaṣ kaa eṭase uzur ooco. Alṭo ganeng bican. Saite ṭarjuma eṭas ḍaa ćagaming gati eṭas.
+about-playbook-how-add-language-translating-heading = saite tarjuma eṭas
 
 ## How does localization work
 

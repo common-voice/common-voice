@@ -1,5 +1,6 @@
 ## Request Language Modal
 
+request-language-title = baaṣe uzur
 request-language-success-title = juu goor, baṣe uzur meye baan
 request-language-success-content = belate maymo baaṣ kaaman ićhare ulo kaa ećuman ke mamar maśan
 select-language = baaṣan isalginin
