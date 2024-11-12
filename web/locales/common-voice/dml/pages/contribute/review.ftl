@@ -56,5 +56,7 @@ review-error = یہ جملہ ساں جائزہ گینہ ایک خطا با
 review-error-rate-limit-exceeded = تو لے پھتائی رون تھوپ، مہربانی کُری اچھک صبُر کُرے، تے جملہ ساں جائزہ گیس آں یہ یقین کُرے تے یہ جملہ سئی درو
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ائی ایک کتی لے بلو تبدیلی نم کُنُمہ
-sc-redirect-page-subtitle-1 = جملہ نم جمع کُرال بنیادی عام کاڻ تہ پلیت فامہ کی منتقل بیاں، ژا بی ایک جملہ لیکین بئینبہ آں ایک جملہ ساں  جائزہ ڜئین بئنبہ عام کاڻہ
-sc-redirect-page-subtitle-2 = اما تہ میٹرکس، مُشکُل آں ای میل تہ بارہ پوچئین بئینبہ
+sc-redirect-page-subtitle-1 = جملہ نم جمع کُرال بنیادی عام کاڻ تہ پلیت فامہ کی منتقل بیاں، ژا بی ایک جملہ<writeURL> لیکین بئینبہ</writeURL> آں ایک جملہ یا<reviewURL> ساں  جائزہ</reviewURL> ݜئین بئنبہ عام کاڻہ
+sc-redirect-page-subtitle-2 = اما تہ پوچایہ تہ بارا<matrixLink>میٹرکس</matrixLink>،<discourseLink>ڈسکورس</discourseLink>یا<emailLink>ای میل</emailLink>
+# menu item
+review-sentences = جملہ ساں جائزہ گیا
