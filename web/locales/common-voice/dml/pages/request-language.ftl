@@ -9,3 +9,7 @@ request-language-form-info-explanation = باݜہ تہ بارہ لے معلوم�
 request-language-form-info-explanation-list-1 = تاں باݜہ تہ نم نم
 request-language-form-info-explanation-list-2 = <isoCodeLink>iso کوڈز</isoCodeLink> اگر پتہ درو بہ
 request-language-form-info-explanation-list-3 = ویب سائٹ تہ لنک کیرا باݜہ زاننہ امونہ مدد کُرین بیاں
+request-language-google-recaptcha-required = گر بی مُکھ بئیں ین گٹنبہ تا reCAPTCHA پکار درو۔
+request-language-google-recaptcha-error = reCAPTCHA کیہ غلط با۔ مہربانی کُری پھرکی کوشیش کُرا۔
+# Success page
+request-language-success-heading = مہربانی! تو ایک نواں باݜہ تہ انگوائری  ݜئ تُھوپ
