@@ -2,7 +2,7 @@
 
 about-title = Bes kaaman ićhar?
 about-header-description-v2 = kaaman ićhar uyoon sise gane ićhare deetaset bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ićhare deetaseting kampnimine bican.  ićhare deetasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućharing api. ićharing teknaalogiulo butan baasinge kaa ḍuro ayećhibi ṭeeylate sis gati nuko ućharin har dishulo bageeś eṭase ćamaat eća baan
-how-does-it-work-title-v2 = Belate kaman ićhare duro ećibi?
+how-does-it-work-title-v2 = Belate kaman ićhare ḍuro ećibi?
 
 ## How does it work section
 
