@@ -65,7 +65,12 @@ read-sentences = Emoñe’ẽ ñe’ẽjuaju
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Emboayvu ñe’ẽjuaju, embohovái porandu
+read-sentences-menu-item-tooltip = Ejapo ñe’ẽjuaju ñongatupy ne ñe’ẽtépe
+answer-questions-menu-item-tooltip = Egrava ne ñe’ẽ embohováivo umi porandu ha je’epyre ne ñe’ẽtépe
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Ñomongetarã poravoha
+read-sentences-menu-item-aria-label = Emboayvu umi ñe’ẽjuaju oguerahaukáva tekohagua heta ñe’ẽme
+answer-questions-menu-item-aria-label = Eguerahauka porandu tekohagua omoñe’ẽ ha ombohovái hag̃ua

@@ -16,3 +16,5 @@ partnerships-small-business-description = Rydym bob amser yn awyddus i glywed ga
 partnerships-corporates-header = Corfforaethau mawr a chwmnïau platfform
 partnerships-corporates-description = Os ydych chi eisiau siarad ymhellach am y set ddata, eisiau cyd-fuddsoddi mewn ehangu platfformau arfaethedig neu chwilio am gyfleoedd cydweithio, <emailFragment>cysylltwch â ni.</emailFragment>
 partnerships-our-partners = Ein Partneriaid
+# menu item
+partners = Partneriaid
