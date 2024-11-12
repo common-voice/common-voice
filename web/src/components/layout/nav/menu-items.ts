@@ -108,7 +108,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         icon: ShareLinkIcon,
         localizedId: 'press-and-stories',
         externalHref:
-          'https://foundation.mozilla.org/en/blog/topic/common-voice/',
+          'https://foundation.mozilla.org/blog/topic/common-voice/',
         menuItemTooltip: 'press-and-stories-menu-item-tooltip',
         menuItemAriaLabel: 'press-and-stories-menu-item-aria-label',
       },
