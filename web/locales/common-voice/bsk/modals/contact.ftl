@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = uyeecase faarm
+contact-title = dugharsuse faarm
 contact-form-name =
     .label = Guyik
 contact-form-message =
