@@ -1,8 +1,8 @@
 ## Languages Overview
 
 language-section-in-progress = کوروم جاری شیر
-language-section-in-progress-new-description = ہیا وختا ہمی وار کمیونٹیو ساوزیکو موژی شینی<localizationGlossaryLink> ویب سائیٹو مقامی کوریک </localizationGlossaryLink>وا <sentenceCollectionGlossaryLink> جملان جمع کوریک </sentenceCollectionGlossaryLink> شروع کوریکو ضروت شیر۔
-language-section-launched = شروع ہوئے
+language-section-in-progress-new-description = ہیہ حالانہ ہمی وارا کمیونٹیو ساوزیکو مرحلا  شینی<localizationGlossaryLink> ویب سائیٹو مقامی کوریکو  </localizationGlossaryLink>وا <sentenceCollectionGlossaryLink> جملان جمع کوریکو</sentenceCollectionGlossaryLink> ضروت شیر۔
+language-section-launched = شروع کورینو ہوئے
 language-section-launched-description = ہمی شروع بیرو واران ویب سائٹ کامیابیو سورا <localizationGlossaryLink> مقامی ہوئے وا ہیارا <speakLink>ریکو</speakLink> وا <listenLink>کار کوریکو </listenLink> جاری ستو بچین کافی <sentenceCollectionGlossaryLink>جملہ جمع <sentenceCollectionGlossaryLink>ارینی۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = اخری اپڈیٹ
