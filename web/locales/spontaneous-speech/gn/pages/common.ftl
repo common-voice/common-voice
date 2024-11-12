@@ -5,12 +5,27 @@ error = Javy
 action-click = Eikutu
 # Label for button on contribution switcher
 change = Moambue
+# Toast message that is displayed when an item is skipped
+skipped = Ñomimby
+audioplayer-header = Ehendu
+guidelines = Tekoguatarã
+# For the button to report an item
+report-button = Momarandu
+# For the button to skip an item
+skip-button = Jepo
+submit-button = Mondo
+contribute = Ñepytyvõ
 
 ## Navbar
 
+respond-to-prompt = Embohovái ñe’ẽmondo
+transcribe-audio = Emoñe’ẽjehai mba’epu
+check-transcriptions = Ehechajey ñe’ẽjehai
 
 ## Not Found Page
 
+not-found-page-header = Juhu’ỹva
+not-found-page-content = Ndaikatúi ojejuhu pe kuatiarogue rehekavareína
 # Locales
 bsy = Sabah Bisaya ñe’ẽ
 cdo = Fuzhou
