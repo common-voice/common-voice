@@ -94,3 +94,7 @@ release-version = Fersiwn
 dataset-date = Dyddiad
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Llwyth ein setiau data llais i lawr
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Dewisiadau llwytho i lawr i gael mynediad at ddata Common Voice
