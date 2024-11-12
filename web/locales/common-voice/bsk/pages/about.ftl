@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = { "" }
+about-title = Bes kaaman ićhar?
 
 ## How does it work section
 
