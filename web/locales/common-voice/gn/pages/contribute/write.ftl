@@ -137,3 +137,6 @@ transcribe-audio-menu-item-tooltip = Emoñe’ẽjehai umi ñongatupyre ne ñe�
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Jehaipy jeporavoha
+add-sentences-menu-item-aria-label = Embojuapy ñe’ẽjuaju pyahu tekohagua omoñe’ẽ hag̃ua
+review-sentences-menu-item-aria-label = Ehechajey ñe’ẽjuaju tekohagua he’iva’ekue
+transcribe-audio-menu-item-aria-label = Emoñe’ẽjehai umi ñongatupyre haipýpe
