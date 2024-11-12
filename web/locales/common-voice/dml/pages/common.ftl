@@ -292,3 +292,6 @@ donate-banner-cta = <mark>اما کی پکار درو</mark><br/><mark> مینہ
 donate-banner-cta-explanation = ایک کالہ ڈیٹا سیٹ تہ میزبانی یہ  ایک میلن تہ خرچہ آڅنا آں پلیٹ فام بہتر کُرئیں کی 100 تہ زیت باݜہ ویلا م کمیونٹی تے کیرا ساں انحصار ام ݜا درو۔<strong>اگر بی  کولو آں جامع ڈیٹہ تہ قدر کُنبہ، تا مودئیں عطیہ کُرا</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>سی وی استعمل کُرا تہ پرئی</mark><br/><mark> مینہ ریسرج</mark>
+languages-donate-banner-cta-explanation = عام کاڻ کی فنڈ عطیہ دنی تہ رریعہ بیاں،ائی ماہر تعلیم، سول سوسائٹی آں صنعت تہ محقق نم ملی تعاون کُرن خوخ درو۔عام کاڻ استعمل کُرن مفت درو، لیکن گرانٹ کی مشورہ تہ زریعہ پلیٹ فام آں میزبانی تہ خرچہ حصہ ڇھارن مدد گار درو۔
+localization-select =
+    .label = باݜہ /مقامی تشکیل تہ انتخب کرُا
