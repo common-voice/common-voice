@@ -15,9 +15,42 @@ media-recorder-api-not-supported = De MediaRecorde-API wurdt net stipe yn jo bro
 # Toast message that is displayed when an item is skipped
 skipped = Oerslaggen
 audioplayer-header = Harkje
+guidelines = Rjochtlinen
+# For the button to report an item
+report-button = Rapportearje
+# For the button to skip an item
+skip-button = Oerslaan
+submit-button = Yntsjinje
+contribute = Bydrage
 
 ## Navbar
 
+respond-to-prompt = Prompt beäntwurdzje
+transcribe-audio = Audio transkribearje
+check-transcriptions = Transkripsjes kontrolearje
 
 ## Not Found Page
 
+not-found-page-header = Net fûn
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Ingelsk
+fr = Frânsk
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba-Maleis
+meh = Miksteeksk, Súdwestlik Tlaksiako
+mel = Sintraal-Melanau
+mmc = Michoacán Mazahua
+ms-MY = Bahasa-Maleisk
+msi = Sabah-Maleisk
+pez = Eastersk Penan
+pne = Westlik Penan
+sdo = Serian Bidayuh
+snv = Sa'ban
+tr = Turksk
+xkl = Keniaansk
