@@ -26,6 +26,32 @@ contribute = Tamakgtayan
 ## Navbar
 
 respond-to-prompt = Kgalhtinankan takgalhskinit
+transcribe-audio = Tsokgkan tuku kgaxmatkan
+check-transcriptions = Putsanankan nak xa tatsokgni
 
 ## Not Found Page
 
+not-found-page-header = Ni takgeska
+not-found-page-content = Xlakan web nima ixputsapat ni takgeska
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Tlan ktlaway nakkgaxmatní la tuku wan xalimapakgsin <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu nachuná  <privacyLink>latá natamakgtakalha wekg tukú klichiwinalh</privacyLink> nak Common Voice
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Inglés
+fr = Francés
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay
+meh = Mixteco de Tlaxiaco
+mel = Melanau central
+mmc = Mazahua de Michoacán
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pez = Penan del este
+pne = Penan del oeste
+sdo = Serian Bidayuh
+snv = Sa'ban
+tr = Turco
+xkl = Kenyah
