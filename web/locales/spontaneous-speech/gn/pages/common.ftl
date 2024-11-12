@@ -26,6 +26,8 @@ check-transcriptions = Ehechajey ñe’ẽjehai
 
 not-found-page-header = Juhu’ỹva
 not-found-page-content = Ndaikatúi ojejuhu pe kuatiarogue rehekavareína
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
 # Locales
 bsy = Sabah Bisaya ñe’ẽ
 cdo = Fuzhou
