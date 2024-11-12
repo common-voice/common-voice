@@ -64,3 +64,5 @@ help-variants = ویرینٹہ اچھک مدد پکار درو؟
 help-sex-or-gender-changes = سیکس یا جنس بدلنہ مدد پکار دورئی؟
 variant-contribution-options-header = ویریئنٹ حصہ تہ اپشنز
 variant-contribution-option-1 = موکی جملہ نم آں کلپ نم کڅئی سپؙن ویرئنٹ تہ ماباݜا
+variant-contribution-option-2 = موکی صرف ما ویریئنٹ تہ جملہ نم آں کلپ نم کڅئی
+variant-contribution-warning-title = سپؙنجملہ نم آں کلپ نامہ ویریئنٹ تہ ٹیگ نی درو اژئی!
