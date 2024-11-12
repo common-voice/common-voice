@@ -132,6 +132,8 @@ add-sentences = Embojuaju ñe’ẽjuaju
 add-sentences-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
 review-sentences-menu-item-tooltip = Ehechajey umi ñe’ẽjuaju ne ñe’ẽme
 add-questions-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
+transcribe-audio-menu-item-tooltip = Emoñe’ẽjehai umi ñongatupyre ne ñe’ẽtépe
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Jehaipy jeporavoha
