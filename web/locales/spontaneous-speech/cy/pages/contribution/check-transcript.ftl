@@ -6,3 +6,5 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> Gwrandewc
 check-editbox-header = Gwiro
 no-transcriptions-message = Ar hyn o bryd nid oes trawsgrifiadau i'w gwirio yn yr iaith hon. Ail-lwythwch y dudalen neu ceisiwch eto yn nes ymlaen.
 vote-transcript-success = Pleidlais lwyddiannus i'r trawsgrifiad
+vote-transcript-error = Digwyddodd gwall wrth bleidleisio am y trawsgrifiad
+transcript-edited-success = Golygwyd y trawsgrifiad yn llwyddiannus
