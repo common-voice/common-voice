@@ -91,6 +91,9 @@ community-and-languages = Tekoha ha ñe’ẽnguéra
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Eike orendive
+press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Poravokuaa renda rehegua
