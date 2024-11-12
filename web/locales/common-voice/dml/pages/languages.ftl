@@ -1,6 +1,8 @@
 ## Languages Overview
 
 language-section-in-progress = جاری درو
+language-section-in-progress-new-description = میں باݜہ نم یہ ٹیمہ کمیونٹی ترقی تہ تحت درو۔<localizationGlossaryLink>ویب لوکلائزئیشن</localizationGlossaryLink>آں<sentenceCollectionGlossaryLink>جملہ سوتن</sentenceCollectionGlossaryLink> لانچ کُرن تہ ضرورت درو۔
+language-section-launched = لانچ کُرین گا
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = أخری اپ ڈیٹ
 languages-show-more = ورے دڇھے

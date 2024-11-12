@@ -62,3 +62,5 @@ review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eil
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
 sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
+# menu item
+review-sentences = Adolygu Brawddegau

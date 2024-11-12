@@ -107,9 +107,21 @@ rate-limit-message-minutes =
         [one] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلی یاست. مهرباني وکړئ د بلې جملې وړاندې کولو دمخه 1 دقیقې انتظار وکړئ. ستاسو د صبر لپاره مننه!
        *[other] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلی یاست. مهرباني وکړئ د بلې جملې وړاندې کولو دمخه { $retryLimit } دقیقو انتظار وکړئ. ستاسو د صبر لپاره مننه!
     }
+small-batch-sentences-rule-1 = لارښوونې تعقیب کړئ د "کوم جملې اضافه کولی شم؟"
+small-batch-sentences-rule-4 = تر 1,000 جملو پورې اضافه کړئ
+# menu item
+add-sentences = جملې اضافه کړئ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملې اضافه کړئ او بیاکتنه وکړئ ، پوښتنې اضافه کړئ ، آډیو نقل کړئ
+add-sentences-menu-item-tooltip = په خپله ژبه کې جملې اضافه کړئ
+review-sentences-menu-item-tooltip = په خپله ژبه کې جملې بیاکتنه وکړئ
+add-questions-menu-item-tooltip = په خپله ژبه کې پوښتنې اضافه کړئ
+transcribe-audio-menu-item-tooltip = په خپله ژبه کې د آډیو ریکارډونه په متن کې انتقال کړئ
 
 ## MENU ITEM ARIA LABELS
 
+add-sentences-menu-item-aria-label = د ټولنې د لوستلو لپاره نوې جملې اضافه کړئ
+review-sentences-menu-item-aria-label = د ټولنې لخوا وړاندې شوي موجوده جملې بیاکتنه وکړئ
+transcribe-audio-menu-item-aria-label = د آډیو ریکارډونه په متن کې انتقال کړئ

@@ -19,7 +19,7 @@ speak-empty-state = ہیا وارا رکارڈ کوریکو بچین اسپہ س
 no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو بچین تان ترتیبو بدل کوکو بوس۔
 speak-empty-state-cta = جملہ نیوشے
 speak-loading-error = تہ ریکو بچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
-record-button-label = تان ہوازو محفوظ کو
+record-button-label = تان ہوازو رکارڈ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے
 keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
 login-to-get-started = شروع کوریکو بچین لاک ان یا سائن ان بوس
@@ -35,7 +35,7 @@ vote-no = نو لہ
 datasets = ڈیٹاسیٹس
 languages = وار
 about = کامن وائسو بارا
-partner = حصہ دار
+partner = شرکت دار
 submit-form-action = جمع کو
 
 ## Reporting

@@ -90,6 +90,6 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
-partnerships-menu-item-aria-label = کمان وائسو سون حصہ دار بیکو بارا ݯیݯھے
+partnerships-menu-item-aria-label = کمان وائسو سون شرکت دار بیکو بارا ݯیݯھے
 press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران کی مدد کویان تیتان پتہ کو

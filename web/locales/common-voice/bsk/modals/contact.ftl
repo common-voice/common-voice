@@ -1,8 +1,8 @@
 ## Contact Modal
 
-contact-title = دو گارو ثث تپ
+contact-title = uyeecase faarm
 contact-form-name =
-    .label = گوئک
+    .label = Guyik
 contact-form-message =
-    .label = دو گا رو سوما
+    .label = ṭaqhpa
 contact-required = دی مے ثے ئم

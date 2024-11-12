@@ -48,7 +48,7 @@ why-donate-explanation-2 = ٹیکنالوجی سفو بچین جام کوروم 
 add-information-button = معلومات شامل کو
 continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
 create-profile-text = تان معلوماتان محفوظ کوسانا? <createProfile>پروفائل ساوزاوے</createProfile>
-thanks-for-voice-toast = ہوازو معلومات دیکو پچین تہ مینادار
+thanks-for-voice-toast = ہوازو معلومات دیکو بچین تہ مینادار
 thanks-for-voice-toast-error = تو ہوازو معلومات جمع کوراوا، ای نقص پیدا ہوئی
 first-cta-gender-select-default-option = ای طریقو گنے
 first-cta-gender-select-help-text =
@@ -73,4 +73,4 @@ answer-questions-menu-item-tooltip = تان وارا سوالان وا اشار�
 
 speak-contribute-menu-aria-label = اختیاراتان لیسٹو راوے
 read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف وارا جملان جمع کی ارینی تیتان راوے
-answer-questions-menu-item-aria-label = کمیونیٹو ممبرانان سار ریکو وا جواب دیکو پچین سوال کو
+answer-questions-menu-item-aria-label = کمیونیٹو ممبرانان سار ریکو وا جواب دیکو بچین سوال کو

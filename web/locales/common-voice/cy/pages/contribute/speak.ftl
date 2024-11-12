@@ -60,3 +60,17 @@ already-have-an-account = Cyfrif yn barod? <login>Mewngofnodwch</login>
 create-profile-button = Crëwch broffil
 # IMAGE TAGS
 img-alt-success-checkmark = marc gwirio llwyddiant
+# menu item
+read-sentences = Darllen Brawddegau
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Darllen Brawddegau, Ateb Cwestiynau
+read-sentences-menu-item-tooltip = Recordiwch eich hun yn darllen brawddegau yn eich iaith
+answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau ac awgrymiadau yn eich iaith
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Dewislen dewisiadau siarad
+read-sentences-menu-item-aria-label = Darllen brawddegau a gyflwynwyd gan y gymuned mewn ieithoedd amrywiol
+answer-questions-menu-item-aria-label = Cyflwyno cwestiwn newydd i'r gymuned ei ddarllen ac ymateb iddo
