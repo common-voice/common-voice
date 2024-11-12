@@ -130,11 +130,22 @@ add-text = Add Text
 ## Community section
 community-section-title = Powered by global communities, for global communities — 130 languages and growing!
 join-discord-community = Join Discord Community
+# label for button
+join-discord-community-action = Join us on Discord
 join-discord-community-content = Participate in language community discussions, ask questions, and learn about upcoming events and talks.
 find-us-on-matrix = Find us on Matrix
 find-us-on-matrix-content = Matrix is an open, lightweight protocol for decentralized, real-time communication, and Mozilla's preferred open discussion platform.
+# label for button
+find-us-on-matrix-action = Find us on Matrix
 ask-mozilla-share = Ask Mozilla to share your events
 ask-mozilla-share-content = Have a previous or upcoming event? Share it with us and we will announce it to our community or write a blog about it!
-download-contribution-certificate = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible with you!
+# label for button
+ask-mozilla-share-action = Share your event
+download-contribution-certificate = Download your contriibution certificate
+download-contribution-certificate-content = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible with you!
+# label for button
+download-contribution-certificate-action = Get your certificate
 contribute-github = Contribute on Github
 contribute-github-content = This project would not be possible without people like you. 🎉 There are many ways to get involved with Common Voice - you don't have to know how to code to contribute!
+# label for button
+contribute-github-action = Contribute on Github

@@ -69,8 +69,31 @@
                 }
 
                 .section-content {
-                    padding: 10px 0;
-                    color: #555;
+                    color: var(--black);
+
+                    p {
+                        margin-block-start: 16px;
+                        margin-block-end: 12px;
+                        max-width: 400px;
+                    }
+
+                    .action {
+                        background: var(--grey);
+                        border: none;
+                        color: var(--black);
+                        font-size: var(--font-size);
+                        justify-content: space-evenly;
+                        height: 50px;
+
+                        svg {
+                            width: 23px;
+                            height: 23px;
+                        }
+
+                        img.github-icon {
+                            margin-inline-end: 12px;
+                        }
+                    }
                 }
             }
         }

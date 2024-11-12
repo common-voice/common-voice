@@ -1,51 +1,97 @@
 import React, { useState } from 'react'
-import { Localized } from '@fluent/react'
-
-import { TextButton } from '../../../ui/ui'
-
-import './community-section.css'
+import { Localized, useLocalization } from '@fluent/react'
 import classNames from 'classnames'
 
-import PlusIcon from '../../../../components/ui/icons/plus.svg'
+import { Button, TextButton } from '../../../ui/ui'
+
 import CloseIcon from './assets/close.svg'
+import DiscordIcon from './assets/discord.svg'
+import AwardIcon from './assets/award.svg'
+import IdeaLightBulb from './assets/idea-light-bulb.svg'
+
+import PlusIcon from '../../../../components/ui/icons/plus.svg'
+import { GithubIcon, ShareLinkIcon } from '../../../ui/icons'
+
+import './community-section.css'
 
 interface Section {
   title: string
   content: string
   image: string
+  action: () => JSX.Element
 }
 
 const sections: Section[] = [
   {
-    title: 'Join Discord Community',
-    content:
-      'Participate in language community discussions, ask questions, and learn about upcoming events and talks.',
-    image: '/path-to-discord-image.jpg', // Placeholder for image URL
+    title: 'join-discord-community',
+    content: 'join-discord-community-content',
+    image: '',
+    action: () => (
+      <Button rounded className="action">
+        <img src={DiscordIcon} alt="discord icon" />
+        <Localized id="join-discord-community-action">
+          <span />
+        </Localized>
+      </Button>
+    ),
   },
   {
-    title: 'Find us on Matrix',
-    content: 'Information about joining on Matrix.',
-    image: '', // Placeholder for image URL
+    title: 'find-us-on-matrix',
+    content: 'find-us-on-matrix-content',
+    image: '',
+    action: () => (
+      <Button rounded className="action">
+        <img src={IdeaLightBulb} alt="idea icon" />
+        <Localized id="find-us-on-matrix-action">
+          <span />
+        </Localized>
+      </Button>
+    ),
   },
   {
-    title: 'Ask Mozilla to share your events',
-    content: 'Details about sharing events with Mozilla.',
-    image: '', // Placeholder for image URL
+    title: 'ask-mozilla-share',
+    content: 'ask-mozilla-share-content',
+    image: '',
+    action: () => (
+      <Button rounded className="action">
+        <ShareLinkIcon />
+        <Localized id="ask-mozilla-share-action">
+          <span />
+        </Localized>
+      </Button>
+    ),
   },
   {
-    title: 'Download your contribution certificate',
-    content: 'Instructions for downloading your certificate.',
-    image: '', // Placeholder for image URL
+    title: 'download-contribution-certificate',
+    content: 'download-contribution-certificate-content',
+    image: '',
+    action: () => (
+      <Button rounded className="action">
+        <img src={AwardIcon} alt="award icon" />
+        <Localized id="download-contribution-certificate-action">
+          <span />
+        </Localized>
+      </Button>
+    ),
   },
   {
-    title: 'Contribute on Github',
-    content: 'Information about contributing on GitHub.',
-    image: '', // Placeholder for image URL
+    title: 'contribute-github',
+    content: 'contribute-github-content',
+    image: '',
+    action: () => (
+      <Button rounded className="action">
+        <GithubIcon className="github-icon" />
+        <Localized id="contribute-github-action">
+          <span />
+        </Localized>
+      </Button>
+    ),
   },
 ]
 
 export const CommunitySection: React.FC = () => {
   const [activeSection, setActiveSection] = useState<number | null>(null)
+  const { l10n } = useLocalization()
 
   const handleToggle = (index: number) => {
     setActiveSection(activeSection === index ? null : index)
@@ -66,7 +112,7 @@ export const CommunitySection: React.FC = () => {
                     active: activeSection === index,
                   })}
                   onClick={() => handleToggle(index)}>
-                  {section.title}
+                  {l10n.getString(section.title)}
                   <span className="toggle-icon">
                     {activeSection === index ? (
                       <img src={CloseIcon} alt="close icon" />
@@ -77,7 +123,8 @@ export const CommunitySection: React.FC = () => {
                 </TextButton>
                 {activeSection === index && (
                   <div className="section-content">
-                    <p>{section.content}</p>
+                    <p>{l10n.getString(section.content)}</p>
+                    <section.action />
                   </div>
                 )}
               </div>
