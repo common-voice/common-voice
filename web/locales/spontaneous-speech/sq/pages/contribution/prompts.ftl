@@ -21,3 +21,7 @@ learn-how-to-use-prompts = Mësoni si të përdorni këtë faqe
 learn-how-to-use-prompts-explanation = Përgjigjuni hapit sa më natyrisht që të mundeni, me një a dy togfjalësha. Garantoni që të shprehurit tuaj të tregojë respekt dhe të mos jetë fyes.
 learn-how-to-use-prompts-guidance = Klikoni <guidanceLink>këtu</guidanceLink>, që të mësoni si të përdoret kjo faqe
 learn-how-to-use-transcribe = Mësoni si të transkriptoni
+learn-how-to-use-transcribe-explanation = Shkruani saktësisht çfarë tha personi, përfshi fjalë të tilla si “ëëm”, ose “ehhh”.
+learn-how-to-use-transcribe-guidance = Klikoni <guidanceLink>këtu</guidanceLink> që të mësoni se si të përdoret kjo faqe
+learn-how-to-use-check-transcript = Mësoni se si të kontrollohet një transkriptim
+learn-how-to-use-check-transcript-explanation = Një transkriptim duhet të japë çdo fjalë apo tingull jo leksikor bisede që qe thënë nga personi, përfshi përsëritje.
