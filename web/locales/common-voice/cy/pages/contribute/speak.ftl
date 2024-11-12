@@ -67,6 +67,7 @@ read-sentences = Darllen Brawddegau
 
 speak-contribute-menu-tooltip = Darllen Brawddegau, Ateb Cwestiynau
 read-sentences-menu-item-tooltip = Recordiwch eich hun yn darllen brawddegau yn eich iaith
+answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau ac awgrymiadau yn eich iaith
 
 ## MENU ITEM ARIA LABELS
 

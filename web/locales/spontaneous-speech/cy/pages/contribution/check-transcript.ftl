@@ -8,3 +8,13 @@ no-transcriptions-message = Ar hyn o bryd nid oes trawsgrifiadau i'w gwirio yn y
 vote-transcript-success = Pleidlais lwyddiannus i'r trawsgrifiad
 vote-transcript-error = Digwyddodd gwall wrth bleidleisio am y trawsgrifiad
 transcript-edited-success = Golygwyd y trawsgrifiad yn llwyddiannus
+transcript-edited-error = Digwyddodd gwall wrth olygu'r trawsgrifiad
+error-fetching-transcriptions = Aeth rhywbeth o'i le gyda'r reCAPTCHA. Ceisiwch eto.
+transcript-skipped-success = Hepgorwyd y trawsgrifiad yn llwyddiannus
+transcript-skipped-error = Digwyddodd gwall wrth hepgor y trawsgrifiad
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = Cywir
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Gorffen
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Golygu
