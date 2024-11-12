@@ -29,4 +29,5 @@ get-involved-submit = جمع کُرن
 get-involved-stayintouch = ائی موزیلا کاڻ تہ ٹکینالونی تہ کمیونٹٰی ژوپائیمہ۔ ائی میا ملی رابطہ تھین گٹنُمہ تے میاکی تازہ ترین معلومات، نواں ڈیٹا زرائع تہ اگاہ کُریمہ، تے بی یہ ڈیٹا کنو کُری استعمل کُنبہ۔
 get-involved-privacy-info = یہ وعدہ کُنُمہ تے مینہ معلومات احیتاط ݜا سمبل کُریمہ۔ ورے مترا امونہ<privacyLink> رازداری تہ نوٹس</privacyLink>
 get-involved-success-title = تو تعاون کُرئیں کی کامیابی ݜا سائن کُروپ{ $language }۔ تاں شکریہ
+get-involved-success-text = ورے معلومات میلو با بہ تنئی ائی تسہ ملی رابطہ کُریمہ۔
 get-involved-return-to-languages = باݜہ کی گیرنکھتی یا
