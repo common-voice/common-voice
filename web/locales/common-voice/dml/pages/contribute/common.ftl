@@ -71,7 +71,7 @@ shortcut-skip = ایس
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = آر
 shortcut-record-toggle-label = ریکارڈ / اوئتھن
-shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = کلپ بھرکی ریکارڈ کُرے
 shortcut-discard-ongoing-recording = ای ایس سی ESC
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ رد کُرے
@@ -113,7 +113,7 @@ contribution-misreadings-example-2-explanation = ائی ڈینا سور تھیو
 contribution-misreadings-example-3-title = ٹریاسی تہ لے بلو ڈاینا سور نم
 contribution-misreadings-example-3-explanation = آخری لفظ ختم بین تہ پریڜبئیں ریکارڈنگ چھنین
 contribution-misreadings-example-4-title = آں،ٹریاسک تہ لے بلو ڈاینا سور نم
-contribution-misreadings-example-4-explanation = پکار متن تہ زیت ریکارڈنگ کُرین گا
+contribution-misreadings-example-4-explanation = [پکار متن تہ زیت ریکارڈنگ کُرین گا]
 contribution-misreadings-example-5-title = ائی کافی گیاں کی بران ینُمہ
 contribution-misreadings-example-6-title = ائی کافی گیاں کی بران ینُمہ
 contribution-misreadings-example-6-explanation = بے بو ائی تھومہ
