@@ -9,6 +9,8 @@ how-does-it-work-text = Mii ḍunyaaṭulum ućharinge deetaset gati echa baan. 
 
 about-language-req-subtitle = menane baaṣ kaa ećar ḍuġaruśam.
 about-localization-title = websaite lokalizeeśan
+about-nav-why-common-voice = bes?
+about-nav-how-it-works = belate?
 
 ## Community Playbook Content
 ## What is a language
