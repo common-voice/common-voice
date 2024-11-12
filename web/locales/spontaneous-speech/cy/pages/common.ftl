@@ -1,6 +1,9 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = Gwall
 action-click = Cliciwch
+action-tap = Tapiwch
 media-recorder-api-not-supported = Nid yw'r API MediaRecorder yn cael ei gefnogi yn eich porwr.
 # Toast message that is displayed when an item is skipped
 skipped = Hepgorwyd
