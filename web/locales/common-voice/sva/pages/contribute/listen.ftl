@@ -7,3 +7,4 @@ review-transcriptions-menu-item-tooltip = ქათცი̄ნც მომხ�
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ლიჰუ̂ნა̈რი̄ პარამეტრალე ლათხე̄ლ
