@@ -37,6 +37,7 @@ not-found-page-content = 找不到您需要的页面
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 # Locales
 bsy = 沙巴米沙鄢语
+cdo = 福州
 en = 英语
 fr = 法语
 hch = 惠乔尔语
