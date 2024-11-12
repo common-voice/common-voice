@@ -30,11 +30,6 @@ target-segment-first-banner = کمن وائسی آویلی حصہ  { $locale } �
 target-segment-add-voice = تیݨی ہاواز شامل تھہ
 target-segment-learn-more = مزید معلومات
 change-preferences = ترجیہاتی تبدیلی
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ہاویزیمی مجموعہ
-contribute-sentence-collection-nav-header = جملئی مجموعہ
 login-signup = سائن ان/سائن اپ
 vote-yes = او
 vote-no = نہ
@@ -119,7 +114,7 @@ contribution-misreadings-example-3-title = ٹرائزیئی گاڈو ڈائنو�
 contribution-misreadings-example-3-explanation = [اخیری لوزہ دی مݜٹو ریکاڈنگ بند تھئنی]
 contribution-misreadings-example-4-title = ٹرائزیکی گاڈو ڈائنوسار۔ او۔
 contribution-misreadings-example-4-explanation = [ کتی کی ٹیکسٹ زونٹئنی حجت، ایتا دی ذیات ریکارڈ تھئجلو ہنو ]
-contribution-misreadings-example-5-title = بے دھرندی کافی پلئنی تھے نکھاندہ۔
+contribution-misreadings-example-5-title = بےۡ دھرندی کافی پلئنی تھےۡ نکھاندہ۔
 contribution-misreadings-example-6-title = اسپہ بیری کافی پیاو بیسیان
 contribution-misreadings-example-6-explanation = [ اندہ “اسی ” بھینڈیو]
 contribution-misreadings-example-7-title = بے دھرندی کافی پلئنی تھے نکھاندہ۔

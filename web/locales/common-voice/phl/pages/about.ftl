@@ -56,7 +56,7 @@ about-nav-playbook = حصہ گھنئنی ازدہ تھہ
 about-playbook-what-is-language = کمن واسہ وے کھئی زبان ہِنی؟
 about-playbook-what-is-language-content-1 = زُبینی بارئی سوچ تھنی بیڈہ طریقے ہنہ۔ بات جھانئنی آک ماڈل بھئنی دپارہ کمن وائس تیݨی مجی جھانئی تجویزی جھلی زور دانوۡ۔ یا بہ انی زبان کھونڈاٹہ کوشش تھے اینی بیتی جھوننے؟
 about-playbook-what-is-language-content-2 = بےۡ اتیݨو ماڈل اسپیچ دوائیانہ کی سوۡ مختلف زُبان کھونڈاٹمی دپارہ شو ہونسہ۔ ایڑائی دپارہ اک وائس ڈیٹا سیٹ ایتیݨوۡ ہانسینڈیو کی کی تیوے ہر قسمہ خلکیمی نمائندگی ہونسہ
-about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر، الفیظی او تلفظی مجی بیڈہ زیات فرق ہانسانوۡ۔ ایڑئی دپارہ بے <ctaLink>introducing ‘Variants’</ctaLink> in 2022.سمیانہ۔ ایڑے وجہ باندی کمیونٹی خلکہ اسکونہ باندی تیݨی زبان جھانا بھون
+about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر، الفیظی او تلفظی مجیۡ بیڈوۡ زیات فرق ہانسانوۡ۔ ایڑئی دپارہ بے <ctaLink>introducing ‘Variants’</ctaLink> in 2022.سمیانہ۔ ایڑےۡ وجہ باندیۡ کمیونٹی خلکہ اسکونہ باندیؤ تیݨی زُبان جھانا بھون
 
 ## How do I add a language
 
@@ -64,7 +64,7 @@ about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھو
 about-playbook-how-add-language-content-1 = آویلی <languageLink>تیݨی زبینی وے چیک تھہ انی لنک وے</languageLink>ہنے۔ اگر نئنہ ہینتہ تو<languageRequestLink> تیݨی زبان شامل تھئنی دپارہ کھوجا بھوڑ</languageRequestLink>۔  دو مرحلے ہنہ سائٹی ترجمہ تھئنی دپارہ او جملے سمٹئنی دپارہ۔
 about-playbook-how-add-language-translating-heading = سائٹی ترجمہ تھئنی
 about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے استعمال تھانہ  رنمائی دپارہ اسی انو ویڈیو دݜھوئی
-about-playbook-how-add-language-translating-content-2 = بے موذیلائی آک آلہ استعمال تھانہ تس تھے <pontoonLink> پونٹون </pontoonLink>  منانہ ترجمہ تھئنی دپارہ۔  پونٹوی وے بیڈی زبینی ہنم۔ تھی زبان ڑی وے نئنی ہینتہ  تس شامل تھئنی دپارہ انی لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑے زبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑے نیوی زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
+about-playbook-how-add-language-translating-content-2 = بےۡ موذیلائی آک آلہ استعمال تھانہ تس تھےۡ <pontoonLink> پونٹون </pontoonLink>  منانہ، ترجمہ تھئنی دپارہ۔  پونٹونی وے بیڈیۡ زبینی ہنم۔ تھی زُبان ڑیوے نئنی ہینتہ  تس شامل تھئنی دپارہ انیۡ لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زُبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑےۡ زُبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑےۡ نیویۡ زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملے جمع تھئنی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے جمع تھئنی بارئی اسی رہنمائی دڇھہ </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> آک کتی  جملے شامل تھائی بھوڑ</sentenceCollectorLinkAdd> یا Github </bulkImportDocsLink> استعمال تھے  بیڈہ جملے ایڑی شیٹی اٹابھوت </bulkImportDocsLink>۔  یاد ساتہ کی  جملے<licenseLink> CC0 (ہر آکی استعمالی دائرہ )</licenseLink> کی ہونسن یا تو پخپلہ بی چونٹا بھوڑ۔
@@ -89,7 +89,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیا وے اسک
 ## How to record quality
 
 about-playbook-how-record-quality = مہ شو معیاری ہاواز کنا تھے ریکارڈ تھوم؟
-about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ۔ گہ قسمہ کی تو کھونڈانوۡ ایڑو وے صحی - بے تھی لہجہ کتیݨو ہنو ایتݨوے دوئیانہ۔
+about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ۔ گہ قسمہ کی تو کھونڈانوۡ ایڑو وے صحی - بےۡ تھی لہجہ کتیݨوۡ ہنوۡ ایتݨوے دوئیانہ۔
 about-playbook-how-record-content-2 = تھی تیرچاپھیر گہ شور نہ ہونسہ وڑئی۔تھی بات کاݨ تھیئنی اسکون بھینڈیو۔
 about-playbook-how-record-content-3 = جملے غور کی منہ۔  گہ اُڑیگلہ نہ مو، گہ بدل نہ تھہ،  گہ ناؤ لوز  شامل نہ تھہ
 about-playbook-how-record-content-4 = کھونڈئنی دی مݜٹو ریکارڈنگ شروع بھی وڑئی۔ بات پُرہ بھلی تھے ریکارڈنگ بند بھئ وڑئی۔
@@ -97,7 +97,7 @@ about-playbook-how-record-content-5 = <accuracyLink> صحیح تھئنی دپا�
 
 ## How to grow language
 
-about-playbook-how-grow-language = بے کمن وائسہ وے آک زبان کنا تھے مݜٹو گرا ہرایا؟
+about-playbook-how-grow-language = بےۡ کمن وائسہ وے آک زُبان کنا تھےۡ مݜٹو گرا ہرایا؟
 about-playbook-how-grow-language-content-1 = مختلف خلکیم تھے موقع دے  کمن وائس انی بات یقینی سمیانو کی دیٹاسیٹ کتی بی ہینتہ بیڈہ خلکیمی خسمت تھی وڑئی۔  اسم تھی استعمالی دپارہ وسائلی سمولہ ہنہ۔
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تو خلکیمی شرکت تھئنی مجی مددی  دپارہ میٹنگ بُلاڈئی بھوڑ۔ ڑو بیڈو اسکون۔  آن لائن ویڈیو کانفرنسی ذریعہ تھئی بھوڑ یا گہ خطرہ نہ ہانسلو ہینتہ تنام آک زھئی بلاڈی بی میٹنگ تھائی بھوڑ۔ <eventTemplate> میٹنگی ضروری شئیومی دپاہ انس </eventTemplate>دڇھہ
@@ -111,7 +111,7 @@ about-playbook-how-grow-language-content-8 = <strong> ناوہ شیہ سمئنی
 
 about-playbook-how-validate = مہ کنا تھے جھونم کی انی ہاویزی کلپ منظور بھی تھنی؟
 about-playbook-how-validate-content-1 = تو بھئانو ہینتہ <strong>ایڑنام کاݨ تھئنی </strong>او ایڑنام جھانئنی دوائیانو ہینتہ۔ انو  عام طور کی <strong> منظوری گھنئنی آک شو طریقہ۔
-about-playbook-how-validate-content-2 = <strong>   ایسو ہاواز کرے بی رد نہ تھہ  کی تیوے کھونڈاٹی تلفظ تھی تلفظی دی بدل ہونسہ  </strong>-بٹھے بے اکٹجی کرام تھے  تیݨی زبینی ہاوا جھانئینی دپارہ انو بیڈی ضروری کی ہر آکی لہجہ کاݨ تھینڈیو۔
+about-playbook-how-validate-content-2 = <strong>   ایسو ہاواز کرے بی رد نہ تھہ  کی تیوے کھونڈاٹی تلفظ تھی تلفظی دی بدل ہونسہ  </strong>-بٹھے بھےۡ اکٹجی ۡکرام تھےۡ  تیݨی زبینی ہاوا جھانئینی دپارہ انوۡ بیڈوۡ ضروری کی ہر آکی لہجہ کاݨ تھینڈیو۔
 about-playbook-how-validate-content-3 = اگر لہجئی وجہ باندی جھانئنی ناممکن بھانو ہینتہ <strong>  یا تیر چاپھیر <strong> گہ شور بھانو ہینتہ </strong> یا  دوئی خلکیمی <strong> بیتی بی ہنم ہینتہ</strong> تھے ایسو ہاواز رد تھائی بھوڑ۔ <accuracyLink>۔  مزید معلومیتی دپارہ  انی لنکی وے معیاری بھئنی بارئی دڇھہ </accuracyLink>
 about-playbook-how-validate-content-4 = اگر آک ہاواز دو جانم رد تھیلو ہینتہ تس ڈیٹا سیٹٰ آک دوئی زھئی وے چونٹینڈیو بھی۔
 
