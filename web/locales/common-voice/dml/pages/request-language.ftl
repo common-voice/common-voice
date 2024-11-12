@@ -1,6 +1,8 @@
 ## Request Language Pages
 
 request-language-heading = نواں باݜہ تہ باری پوچئی
+request-language-explanation-1 = چیک کُرا تے مینہ باݜہ فہرستہ شامل دروئی<languagesPageLink> عام کاڻ تہ باݜہ تہ پیجہ</languagesPageLink>۔ اگر نی درو بہ، یہ فام پورا آں ائی <strong> ݜئمہ میاکی ایک اسکان ای میل, مینہ باݜہ سیٹ اپ کُرن تہ طریقہ تہ وضاحت کُرو</strong>۔
+request-language-explanation-2 = ائی ایس <strong> امونہ کمپنی تہ منیجر آگاہ کُریمہ تے تو دلچسپی ساتنپ</strong>،تے میاکی پِرن اضافی مدد یا بہ معلومات کیرا میاکی پکار تھیو۔
 request-language-form-email =
     .label = تاں ای میل تہ پتہ
 request-language-form-info =
