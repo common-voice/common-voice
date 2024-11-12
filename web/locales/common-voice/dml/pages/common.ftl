@@ -288,3 +288,7 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>اما کی پکار درو</mark><br/><mark> مینہ مدد</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ایک کالہ ڈیٹا سیٹ تہ میزبانی یہ  ایک میلن تہ خرچہ آڅنا آں پلیٹ فام بہتر کُرئیں کی 100 تہ زیت باݜہ ویلا م کمیونٹی تے کیرا ساں انحصار ام ݜا درو۔<strong>اگر بی  کولو آں جامع ڈیٹہ تہ قدر کُنبہ، تا مودئیں عطیہ کُرا</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>سی وی استعمل کُرا تہ پرئی</mark><br/><mark> مینہ ریسرج</mark>
