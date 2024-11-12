@@ -4,6 +4,13 @@
 error = Gwall
 action-click = Cliciwch
 action-tap = Tapiwch
+# Label for language switcher
+interface-language = Iaith rhyngwyneb:
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+contribution-picker-label = Yn cyfrannu at set ddata ar gyfer { $language }
+# Label for button on contribution switcher
+change = Newid
+coming-soon = Mae rhagor o ieithoedd ar eu ffordd!
 media-recorder-api-not-supported = Nid yw'r API MediaRecorder yn cael ei gefnogi yn eich porwr.
 # Toast message that is displayed when an item is skipped
 skipped = Hepgorwyd
