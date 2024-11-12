@@ -72,3 +72,5 @@ answer-questions-menu-item-tooltip = Egrava ne ñe’ẽ embohováivo umi porand
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Ñomongetarã poravoha
+read-sentences-menu-item-aria-label = Emboayvu umi ñe’ẽjuaju oguerahaukáva tekohagua heta ñe’ẽme
+answer-questions-menu-item-aria-label = Eguerahauka porandu tekohagua omoñe’ẽ ha ombohovái hag̃ua
