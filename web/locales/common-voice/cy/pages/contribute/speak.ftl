@@ -60,3 +60,13 @@ already-have-an-account = Cyfrif yn barod? <login>Mewngofnodwch</login>
 create-profile-button = Crëwch broffil
 # IMAGE TAGS
 img-alt-success-checkmark = marc gwirio llwyddiant
+# menu item
+read-sentences = Darllen Brawddegau
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Darllen Brawddegau, Ateb Cwestiynau
+read-sentences-menu-item-tooltip = Recordiwch eich hun yn darllen brawddegau yn eich iaith
+
+## MENU ITEM ARIA LABELS
+
