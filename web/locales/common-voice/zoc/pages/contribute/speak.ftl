@@ -65,6 +65,12 @@ read-sentences = Yajk'ona te' 'ode'is jyaye
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Yajk'ona te' 'ode'is jyaye, 'aktsowa te' käme'tsku'y.
+read-sentences-menu-item-tooltip = Yajktsä'yja te' 'mode'is tsyame te' mij 'mode'omobä
+answer-questions-menu-item-tooltip = Grabajtsäkä juts 'yaktsokyajpa te' käme'tstäjku'y te' mij 'mode'omobä
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Judäde mujspa me'tsa wa'a 'ondäjkäyu.
+read-sentences-menu-item-aria-label = Yajk'onä te' 'ode'is jyaye te' 'eyabä 'ode'omoda'mbä
+answer-questions-menu-item-aria-label = kä'weya tumä käme'tsku'y wa'a te' 'eyada'mbä'is yajk'onyajya yajkti wa'a 'yaktsokyaju
