@@ -65,6 +65,7 @@ read-sentences = Leger phrases
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Lege Phrases, Responde al questiones
 
 ## MENU ITEM ARIA LABELS
 
