@@ -70,3 +70,4 @@ contribution-criteria-nav = სითინუეში ოზიმალი.
 contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა
 contribution-for-example = მაგალთო
 contribution-misreadings-title = უწორო კითხირი
+contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
