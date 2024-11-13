@@ -159,3 +159,5 @@ transcribe-audio-menu-item-tooltip = Jabyudä te' 'ode'is tsyame mij 'mode'omob�
 write-contribute-menu-aria-label = Judäde muspamä jayä
 add-sentences-menu-item-aria-label = Ja'ya'nhä te' jomeda'mbä 'odejaye wa'a mujsu tsyabya te' 'eyada'mbä'is
 review-sentences-menu-item-aria-label = Tu'nisä te' 'odejaye tsyäjkyajubä te' 'eyada'mbä'is
+add-questions-menu-item-aria-label = Kä'weya jomeda'mbä käme'tsku'y wa'a yajk'onyaju eyada'mbä'is, wa'a 'yaktsokyaju 'eyada'mbä'is
+transcribe-audio-menu-item-aria-label = Jabyudä te' 'ode'is jyayeda'm.
