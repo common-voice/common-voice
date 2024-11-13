@@ -21,3 +21,6 @@ review-transcriptions-menu-item-tooltip = Ko'sa 'uka wä'am te' 'mode'is jyaye t
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Judäde muspamä me'tsa tide wa'a manu
+validate-readings-menu-item-aria-label = Ko'sa 'uka wä'am te' 'ode'is tsyame, te' kyä'wejyajubä te' mij mnäyosadä'ista'm
+review-transcriptions-menu-item-aria-label = Ko'sa 'uka wä'am te' 'mode'is jyaye, te' grabajtsäjkubä'am
