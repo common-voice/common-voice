@@ -21,3 +21,6 @@ submit-all-button = Alles yntsjinje
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Dizze side leare te brûken
+learn-how-to-use-prompts-explanation = Beäntwurdzje de fraach sa natuerlik mooglik yn in pear sinnen. Soargje derfoar dat jo taalgebrûk respektfol en net kwetsend is.
+learn-how-to-use-prompts-guidance = Klik <guidanceLink>hjir</guidanceLink> foar ynformaasje oer it gebrûk fan dizze side
+learn-how-to-use-transcribe = Leare transkribearje
