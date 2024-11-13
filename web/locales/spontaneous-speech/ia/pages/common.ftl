@@ -27,6 +27,7 @@ contribute = Contribuer
 
 respond-to-prompt = Responder al Sollicitation
 transcribe-audio = Transcriber Audio
+check-transcriptions = Verificar transcriptiones
 
 ## Not Found Page
 
