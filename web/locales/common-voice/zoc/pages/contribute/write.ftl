@@ -148,6 +148,14 @@ add-sentences = Kojta'nhä te' 'odejaye
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Kojta'nhä yajkti tu'nisä te' 'odejaye, kojta'nhä käme'tsku'y, jabyudä te' 'ode'is tsyame.
+add-sentences-menu-item-tooltip = Kojta'nhä te' 'odejaye mij 'mode'omobä
+review-sentences-menu-item-tooltip = Tu'nisä te' 'odejaye mij 'mode'omobä
+add-questions-menu-item-tooltip = Kojta'nhä te' 'odejaye mij 'mode'omobä
+transcribe-audio-menu-item-tooltip = Jabyudä te' 'ode'is tsyame mij 'mode'omobä
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Judäde muspamä jayä
+add-sentences-menu-item-aria-label = Ja'ya'nhä te' jomeda'mbä 'odejaye wa'a mujsu tsyabya te' 'eyada'mbä'is
+review-sentences-menu-item-aria-label = Tu'nisä te' 'odejaye tsyäjkyajubä te' 'eyada'mbä'is
