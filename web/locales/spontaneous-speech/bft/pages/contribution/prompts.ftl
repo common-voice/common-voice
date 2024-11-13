@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = ٹرانسکراٸب چی بیسے بین زیرب
 learn-how-to-use-transcribe-explanation = میوسی زیرفونگ چوق ربیس، تم کن زیربنہ اہا، اہو، ارر چی بیسنہ سا چوق ربیس
 learn-how-to-use-transcribe-guidance = دی صفحو چی بیسے کولبن زیربو لوفچوکپلا، دیکھہ کلک بیوس
 learn-how-to-use-check-transcript = ٹرانسکرپشن پولا چی بیسے ہلتین زیربو لوفچوک
+learn-how-to-use-check-transcript-explanation = ٹرانسکرپشن پینگنو تم گانگمہ نا فیونگفی سکت گانگمہ اونگمہ رگوسپن، کولّا کوٹ زیربی تم نا سکت گانگمہ اونگمہ رگوسپن۔
+learn-how-to-use-check-transcript-guidance = دی صفحو چی بیسے کولبن زیربو لوفچوکپلا، دیکھہ کلک بیوس
