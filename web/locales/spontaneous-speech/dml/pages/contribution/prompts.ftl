@@ -21,3 +21,6 @@ submit-all-button = سپُن جمع کُرا
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = یہ پیج استعمل کُرن تہ طریقہ ڇھیچا
+learn-how-to-use-prompts-explanation = بس یہ اشارہ تہ جواب کتکی قدرتی طورہ پرین بئیبہ ایک کتکی جملہ پریا، یہ باتی تاکید کُرا تے مینہ باݜہ معقول آں توہین امیز نی تِھیو۔
+learn-how-to-use-prompts-guidance = کلک<guidanceLink>ایا</guidanceLink> یہ زانے کی تے کنو کُری یہ پیج استعمل کُریبہ
+learn-how-to-use-transcribe = نقل کُرین تہ طریقہ ڇھیچا
