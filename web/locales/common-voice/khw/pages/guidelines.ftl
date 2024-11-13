@@ -90,4 +90,4 @@ reviewing-sentences-explanation-1 = جملہ کی سورا  ہے شرطو پور
 reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا نو کویان تھے "نو" بٹینو دیت
 reviewing-sentences-explanation-3 = اگر جملو پارا تہ یقین کی نیکی، تو ہرو پیݯھی پروشٹی بیکو بوس
 reviewing-sentences-explanation-4 = تہ سوں جملہ والوڑیکو بچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
-domain-explanation = دائرہ جملو عنوانو حوالہ دویان۔ ہنیسے تو ہمیتان موژار ای غو گنیکو بوس:
+domain-explanation = دائرہ جملو موضوع حوالہ دویان۔ ہنیسے تو ہمیتان موژار ای غو گنیکو بوس:

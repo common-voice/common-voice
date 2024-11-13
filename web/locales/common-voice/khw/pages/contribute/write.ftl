@@ -73,7 +73,7 @@ sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon>
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو بچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
 bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیوشے <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی، تھے اسپہ تین انځاوے <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سون رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو
@@ -141,7 +141,7 @@ small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو �
 small-batch-sentences-rule-2 = ای لائنہ ای جملہ شامل کو
 small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنار علحیدہ کو  یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
-small-batch-sentences-rule-5 = سف جملان دائرہ(موضوعو) ایک بائے
+small-batch-sentences-rule-5 = سف جملان دائرہ(موضوع) ایک بائے
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
 # menu item
 add-sentences = جملہ شامل کو
