@@ -20,3 +20,12 @@ submit-all-button = 全部送出
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = 了解如何使用此頁
+learn-how-to-use-prompts-explanation = 用幾句話盡可能自然地回答問題。確保你的語言尊重而不冒犯他人。
+learn-how-to-use-prompts-guidance = 點擊<guidanceLink>此處</guidanceLink>了解如何使用此頁面
+learn-how-to-use-transcribe = 了解如何轉錄
+learn-how-to-use-transcribe-explanation = 完整寫下此人所說的內容，需包含「呃」「啊」「喔」等語助詞。
+learn-how-to-use-transcribe-guidance = 點擊<guidanceLink>此處</guidanceLink>了解如何使用此頁面
+learn-how-to-use-check-transcript = 了解如何檢查轉錄內容
+learn-how-to-use-check-transcript-explanation = 轉錄內容應包含此人所說的每個字，及每一個非詞彙的說話音，包含重複的單字。
+learn-how-to-use-check-transcript-guidance = 點擊<guidanceLink>此處</guidanceLink>了解如何使用此頁面

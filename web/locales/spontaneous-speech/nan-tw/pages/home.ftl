@@ -1,5 +1,8 @@
 ## Home page
 
+welcome-to-spontaneous-speech = 歡迎使用提示性錄音
+# <br></br> represents a newline break
+wall-of-text = Common Voice 將推出第二個平台，聚焦於收集自然、自發性、未有腳本的語音內容。如此一來可幫助許多社群更快地收集到資料，對於資料科學家與開發者來說也相當有用。
 why-spontaneous-speech = 我們為什麼要製作提示性錄音實驗
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = 有益於<mark>自然的說話情境</mark>及實際場景（例如：讓語音技術能識別口語及無講稿的發言）
