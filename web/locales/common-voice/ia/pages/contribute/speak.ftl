@@ -69,3 +69,5 @@ speak-contribute-menu-tooltip = Lege Phrases, Responde al questiones
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Menu del optiones vocal
+read-sentences-menu-item-aria-label = Inviar un nove question pro le communitate pro leger e responder
