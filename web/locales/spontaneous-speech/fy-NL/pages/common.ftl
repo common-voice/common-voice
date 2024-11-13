@@ -32,6 +32,7 @@ check-transcriptions = Transkripsjes kontrolearje
 ## Not Found Page
 
 not-found-page-header = Net fûn
+not-found-page-content = De troch jo sochte side is koe net fûn wurde.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
 # Locales
