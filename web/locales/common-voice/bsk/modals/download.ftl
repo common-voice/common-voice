@@ -2,7 +2,7 @@
 
 download-title = maa daunlood śuru manimi
 download-form-email =
-    .label = guymo iimeel entar eti
-    .value = juu goor, ḍaa mayeeśam
-download-back = hanjuko ućhring deetasetar phar ne ẓu
+    .label = maymo iimeel entar eti
+    .value = juu maar. macimo dugharushume hurushan
+download-back = hanjuko ućhring deetasetar phar numa ẓu
 download-no = beeya juu
