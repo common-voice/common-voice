@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abcasu
+abb = Bankon
 ace = Aceh
 ady = Adighè
 af = Afrikaans
@@ -15,6 +17,7 @@ arn = Mapucu
 as = Assamisi
 ast = Asturianu
 az = Azzeru
+azz = Nahuatl dî muntagni di Puebla
 ba = Baschiru
 bas = Basaa
 be = Bilurrussu
@@ -215,12 +218,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Parra
-speak-now = Parra ora
-datasets = Archivi di dati
-languages = Lingui
-about = Nfurmazziuna
-partner = Assuciatu
 profile = Prufilu
 help = Ajutu
 contact = Cuntatti
@@ -240,7 +237,6 @@ privacy-info = Prumittemu di stari accura ê to dati. Leggi cchiù nfurmazziuna 
 return-to-cv = Torna a Common Voice
 email-input =
     .label = Nnirizzu di posta elittrònica
-submit-form-action = Manna
 loading = Staju carricannu…
 email-opt-in-info = Vulissi ricìviri posta elittrònica comu prumimoria di l'ubbittivi, attualizzazziuna supra i me prugressi e nutizzi supra Common Voice.
 email-opt-in-info-title = Jùnciti â lista di nutizzi di Common Voice
@@ -251,7 +247,7 @@ not-available-abbreviation = Nun dispunìbbili
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Abbisugnamu</mark><br/><mark>dû to ajutu!</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Stai usannu CV pî</mark><br/><mark>to ricerchi?</mark>

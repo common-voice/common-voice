@@ -5,6 +5,7 @@ write-instruction = Agghiunci <icon></icon> na frasi nnô duminiu pùbblicu
 sentence =
     .label = Frasi
 guidelines = Dirittivi
+contact-us = Cuntàttani
 # Sentence Domain dropdown option
 finance = Finanza
 # Sentence Domain dropdown option
@@ -52,3 +53,12 @@ file-invalid-type = Pricu nun vàlidu
 file-too-large = U pricu è troppu assai granni
 file-too-small = U pricu è troppu assai nicu
 too-many-files = Troppu assai prichi
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
