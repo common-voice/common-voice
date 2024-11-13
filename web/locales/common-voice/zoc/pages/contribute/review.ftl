@@ -57,4 +57,6 @@ review-error-rate-limit-exceeded = Nimeke nä nyikujä'näju. Sujkä 'usya'nhomo
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nä't ndsäjkyaju mäjabäda'mbä käkajku'y.
 sc-redirect-page-subtitle-1 = Te' kyobikpabä'is te' jaye, nä myaku te' kommon Vo'yis wyina'nhmba'tkumyä . Yäti muspa <writeURL>mjayä<writeURL><reviewURL> tumä jaye, <reviewURL>muspa mdu'nisä<reviewURL> te' jaye kyä'wejyajpabä tumä pätkodadi te' kommon voice'omo.
-sc-redirect-page-subtitle-2 = Käme'tsotya'mide te' [...]Matrix'omo[...], [...]Discurse'omo[...] yajkti [...]email'omo[...].
+sc-redirect-page-subtitle-2 = Käme'tsotya'mide te' <matrixLink>Matrix'omo<matrixLink>, <discourseLink>Discurse'omo<discourseLink> yajkti <emailLink>email'omo<emailLink>.
+# menu item
+review-sentences = Tu'nisyä te' jayeda'm
