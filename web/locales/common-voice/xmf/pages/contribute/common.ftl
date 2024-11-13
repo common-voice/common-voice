@@ -81,3 +81,5 @@ contribution-misreadings-example-4-explanation = [მეტი ზიტყვ�
 contribution-misreadings-example-6-explanation = [ოკო რდას "ვა რე"]
 contribution-misreadings-example-7-explanation = [ორკუ "გი-" წინსართი]
 contribution-background-noise-title = ოჭიშიშ უკახლე ხონარობა
+contribution-background-noise-example-2-explanation = [ნაჭარაში ნაწილ ვერჩქილე]
+contribution-background-voices-title = ოჭიშიშ უკახალენი ხონარობა
