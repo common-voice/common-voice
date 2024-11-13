@@ -7,6 +7,7 @@ offensive_speech-detail = یہ جملہ جارحانہ آں توہین امیز 
 different_language = مختلف باݜہ
 different_language-detail = موادہ سے باݜہ درو،کیرا ائی توقع کُنم تا سے مختلف درو۔
 personally_identifiable_information = زایت طورہ شناخت تہ قابل معلومات
+personally_identifiable_information-detail = یہ مواد ایک فرد ساں  شناخت تہ متعلق زاتی طورہ شناخت کُرال معلومات درو، لکہ مساں نم،ای میل تہ پتہ،، تھانہ، شناختی نمبر، یا بہ فون نمبر۔
 report-other-comment =
     .placeholder = تبصرہ
 # Label for textarea in report modal
