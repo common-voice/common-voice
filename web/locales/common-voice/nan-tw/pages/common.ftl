@@ -111,14 +111,14 @@ jv = Javanese 爪哇語
 ka = Georgian 喬治亞語
 kaa = Karakalpak 卡拉卡爾帕克語
 kab = Kabyle 卡拜爾語
-kbd = Kabardian (East Circassian) 卡巴爾達語（東切爾克斯）
+kbd = Kabardian (East Circassian) 東切爾克斯卡巴爾達語
 ki = Kikuyu 基庫尤語
 kk = Kazakh 哈薩克語
 kln = Kalenjin 卡倫金語
 km = Khmer 高棉語
 kmr = Kurmanji Kurdish 北庫德語
 kn = Kannada 康納達語
-knn = Konkani (Devanagari) 孔卡尼語（天城文）
+knn = Konkani (Devanagari) 天城體孔卡尼語
 ko = Korean 韓語
 kpv = Komi-Zyrian 科米語
 ksf = Bafia 語
@@ -288,7 +288,10 @@ not-available-abbreviation = 無適用
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 我們每年花費將近百萬美元以託管資料集及改善平台，以服務來自一百多個不同語言的社群。<strong>若您也相信資料開放與包容的價值，今天就立刻捐款！</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
+languages-donate-banner-cta-explanation = Common Voice 是由捐款和補助金資助！我們非常樂於與學術界、公民社會和產業研究人員合作。Common Voice 可免費使用，但如能通過補助金提案來為平台和托管費用做出貢獻，將會非常有幫助。
 localization-select =
     .label = 選擇語言 / 語系

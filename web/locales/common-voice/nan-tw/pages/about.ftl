@@ -1,10 +1,10 @@
 ## ABOUT US
 
-about-title = 為什麼會有 Common Voice？
+about-title = 為何會有 Common Voice？
 about-header-description-v2 =
-    <p>Common Voice 是一套由來自世界各地的社群貢獻志工所提供，可公開使用的語音資料集，想要打造語音應用程式的人可以使用此資料集來訓練機器學習模型。</p>
-    <p>目前大部分的語音資料集都由扼殺創新的大企業所擁有。各種語音資料集也過度加強了說英語的白人男性的語音比例。這代表語音技術根本無法用於某些語言，就算可以使用，也不見得對每個人都能有一樣好的效果。我們想要透過動員世界各角落人們主動分享語音的方式，來扭轉這個現象。</p>
-how-does-it-work-title-v2 = Common Voice 的原理是什麼？
+    <p>Common Voice 是一套對全世界的社群貢獻事工貢獻，會當公開使用的語音資料集，想欲打造語音應用程式的人會當使用這个資料集來訓練機器學習模型。</p>
+    <p>這馬大部分的語音資料集攏對扼殺創新的大企業所擁有。各種語音資料集嘛過度加強講英語的白人查埔人的語音比例。這代表語音技術根本無法度用佇某麼語言，就算會當使用，嘛無一定對逐家都能有仝款好的效果。咱想欲透過動員世界各角落的人主動分享語音的方式，來扭轉這个現象。</p>
+how-does-it-work-title-v2 = Common Voice 的原理是啥？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
 
 ## How does it work section
@@ -141,3 +141,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>更加了解�
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice 的運作資金來自哪裡？
+about-playbook-how-funded-content-1 = Common Voice 是美國 501c3 型式的 Mozilla 基金會的專案，這馬是用通世界人民捐款的<philantropicGrantLink>philanthropic 資金</philantropicGrantLink>來支持的。
+about-playbook-how-funded-content-2 = 我們花費大量費用以持續提供與釋出資料集、改善本平台，並且執行 <africaMradiLink>社群專案</africaMradiLink>。
+about-playbook-how-funded-content-3 = 若你或你的組織想要回饋此專案，你可以 <donateLink>直接捐款</donateLink>，或寄信到 <emailFragment>commonvoice@mozilla.com</emailFragment> 聯繫我們的合作團隊。

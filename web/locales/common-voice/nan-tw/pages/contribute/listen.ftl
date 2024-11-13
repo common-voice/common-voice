@@ -10,3 +10,17 @@ listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍
 listen-abort-title = 是否完成驗證片段？
 listen-abort-cancel = 繼續驗證
 listen-abort-confirm = 完成驗證
+# Menu item
+validate-readings = 驗證錄音
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = 驗證錄音，驗證抄錄
+validate-readings-menu-item-tooltip = 驗證你的語言的使用者錄音
+review-transcriptions-menu-item-tooltip = 驗證你語言中的使用者提交抄錄內容
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = 聆聽選項選單
+validate-readings-menu-item-aria-label = 驗證社群提交的錄音
+review-transcriptions-menu-item-aria-label = 驗證錄音的抄錄內容以確認正確度
