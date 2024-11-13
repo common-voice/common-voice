@@ -1,6 +1,6 @@
 ## Download Modal
 
-download-title = une daunlood śuru manimi
+download-title = maa daunlood śuru manimi
 download-form-email =
     .label = guymo iimeel entar eti
     .value = juu goor, ḍaa mayeeśam
