@@ -4,11 +4,13 @@
 
 ## Languages
 
-ab = 阿布哈茲語
-ace = 亞齊語
-ady = 阿迪格語
-af = 南非荷蘭語
-am = 阿姆哈拉語
+aa = Afar 阿法爾語
+ab = Abkhaz 阿布哈茲語
+abb = Bankon 語
+ace = Acehnese 亞齊語
+ady = Adyghe 阿迪格語（西切爾克斯）
+af = Afrikaans 阿非利卡語
+am = Amharic 安哈拉語
 an = 亞拉岡語
 ar = 阿拉伯語
 arn = 馬布切語
