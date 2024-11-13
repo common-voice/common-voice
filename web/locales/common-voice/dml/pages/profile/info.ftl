@@ -70,6 +70,7 @@ help-accent-explanation = بی کنو کُری الفظ تہ تلفظ کُنبہ
 help-variants = ویرینٹ نامہ اچھک مدد پکار درو؟
 help-variants-explanation = ویریئنٹ باݜہ ساں ایک مخصوص شکل درو- مثلا جغرافیہ یا کمیونٹی تھیا ل ماݜ منورہ مشترکی تھیو۔ بعض ٹیمہ مسوکی بولیاں ایس گنُن۔
 help-sex-or-gender-changes = سیکس یا جنس بدلنہ مدد پکار دورئی؟
+help-sex-or-gender-changes-explanation = ائی ماݜہ کی تسونہ جنسی یا صفاتی شناخت ساں بارہ ورے ایس انتخاب پریاں کی لے اختیارات پُرینُمہ۔مہربانی کُری تانوں زان یہ انداہ بیان کُرا تے کیرا قدرتی تِھیو۔<learnMoreLink>امونہ جنس آں صنف ساں حوالہ امونہ طریقی کار ساں بارہ ورے ایس زانا۔</learnMoreLink>
 variant-contribution-options-header = ویریئنٹ حصہ تہ اپشنز
 variant-contribution-option-1 = موکی جملہ نم آں کلپ نم کڅئی سپؙن ویرئنٹ تہ ماباݜا
 variant-contribution-option-2 = موکی صرف ما ویریئنٹ تہ جملہ نم آں کلپ نم کڅئی
