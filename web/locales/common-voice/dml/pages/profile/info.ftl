@@ -76,3 +76,4 @@ variant-contribution-help = ایک باݜہ یا باݜہ تہ خاندانہ ق
 variant-contribution-option-1 = موکی   ماباݜا  موجود سپُنں قسم تہ جملہ نم آں کلپ نم کڅئی
 variant-contribution-option-2 = موکی صرف ما ویریئنٹ تہ جملہ نم آں کلپ نم کڅئی
 variant-contribution-warning-title = سپؙنجملہ نم آں کلپ نامہ ویریئنٹ تہ ٹیگ نی درو اژئی!
+variant-contribution-warning-subtitle = اگر میاکی تعاون کُرنہ پریشانی دور بیاں بہ، تا بی کیہ ایس وخ تانوں باݜہ تہ مواد دڇھئیں کی پھرکی ین بئیبہ۔
