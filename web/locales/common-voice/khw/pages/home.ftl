@@ -16,7 +16,7 @@ toggle-play-tooltip = دباو کو{ shortcut-play-toggle } چلیکو موڈا 
 speak-paragraph = ہوازو رکارڈ کوریک سفو بچین ڈیٹاسیٹ ساوزیکو  بو اہم حصہ۔ پتھی رویان خیال ہیہ کی ہیا بو مزو کروم۔
 speak-goal-text = اسکوردی ہواز رکارڈ ہونی/ہوئے
 listen-paragraph = کامن وائسو تین دیرو ہوازان توثیق کوریک دی بو اہم۔ ہمی ہوازان کار کو وا اسپہ سون معیاری وا سفو بچین ہوازو ڈیٹا ساوزیکا مدد کو۔
-listen-goal-text = ہواز توثیق کوریک
+listen-goal-text = ہواز توثیق ہونی/ہوئے
 hours-recorded = گھنٹہ رکارڈ ہوئے
 hours-validated = گھنٹہ تصدیق ہوئے
 voices-online = ہواز ہنسے اونلائین ہونی
@@ -90,6 +90,6 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
-partnerships-menu-item-aria-label = کمان وائسو سون حصہ دار بیکو بارا ݯیݯھے
+partnerships-menu-item-aria-label = کمان وائسو سون شرکت دار بیکو بارا ݯیݯھے
 press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران کی مدد کویان تیتان پتہ کو

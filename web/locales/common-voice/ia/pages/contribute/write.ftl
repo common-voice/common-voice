@@ -148,6 +148,16 @@ add-sentences = Adder phrases
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Adder e Revider phrases, Adder questiones, Transcriber audio
+add-sentences-menu-item-tooltip = Adder phrases in tu lingua
+review-sentences-menu-item-tooltip = Revider phrases in tu lingua
+add-questions-menu-item-tooltip = Adder questiones in tu lingua
+transcribe-audio-menu-item-tooltip = Transcriber registrationes audio in tu lingua
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Menu del optiones de scriptura
+add-sentences-menu-item-aria-label = Adder nove phrases a leger pro le communitate
+review-sentences-menu-item-aria-label = Revider phrases existente inviate per le communitate
+add-questions-menu-item-aria-label = Inviar al communitate nove questiones a leger e responder
+transcribe-audio-menu-item-aria-label = Transcriber registrationes audio in texto

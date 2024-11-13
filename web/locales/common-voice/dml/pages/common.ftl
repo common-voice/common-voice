@@ -271,12 +271,27 @@ link-copied = لنک کاپی با
 back-top = گیرنکھتی پچو یت
 logout = لاگ آوٹ
 donate = عطیہ
+stayintouch = ائی موزیلا کاڻ تہ ٹکینالونی تہ کمیونٹٰی ژوپائیمہ۔ ائی میا ملی رابطہ تھین گٹنُمہ تے میاکی تازہ ترین معلومات، نواں ڈیٹا زرائع تہ اگاہ کُریمہ، تے بی یہ ڈیٹا کنو کُری استعمل کُنبہ۔
+privacy-info = یہ وعدہ کُنُمہ تے مینہ معلومات احیتاط ݜا سمبل کُریمہ۔ ورے مترا امونہ<privacyLink> رازداری تہ نوٹس</privacyLink>
 return-to-cv = عام کاڻہ کی گیرنکھتی یا
 email-input =
     .label = ای میل
 loading = لوڈ بیاں
 email-opt-in-info = ائی منو ای میل گیم تے کیرا مقصد تہ یاددہانی، ما مُکھ بئیں ین تہ معلومات آں عام کاڻ تہ خبر تہ خط تھیو
 email-opt-in-info-title = عام کاڻ تہ ای میل تہ لسٹہ شامل با
+email-opt-in-info-sub-with-challenge = منو ای میل گیا تے سے مقصد تہ یاد دہانی، مُکھبئیں ین تہ معلومات آں عام کاڻ تہ خبر تہ خط تھیو۔
+email-opt-in-privacy-v2 = ای میل وصول کُرن تہ انتخب کُری، بی یہ کُنبہ تے  بی موزیلا ساں طرف تہ یے معلومات سمبل کُرنہ راضی تھوبہ۔ لکہ موزیلا ساں <privacyLink>رازداری تہ پالیسی</privacyLink>۔
+indicates-required = اشتاری (*) تہ نشن ویلا خانہ ضروری درو۔
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>اما کی پکار درو</mark><br/><mark> مینہ مدد</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ایک کالہ ڈیٹا سیٹ تہ میزبانی یہ  ایک میلن تہ خرچہ آڅنا آں پلیٹ فام بہتر کُرئیں کی 100 تہ زیت باݜہ ویلا م کمیونٹی تے کیرا ساں انحصار ام ݜا درو۔<strong>اگر بی  کولو آں جامع ڈیٹہ تہ قدر کُنبہ، تا مودئیں عطیہ کُرا</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>سی وی استعمل کُرا تہ پرئی</mark><br/><mark> مینہ ریسرج</mark>
+languages-donate-banner-cta-explanation = عام کاڻ کی فنڈ عطیہ دنی تہ رریعہ بیاں،ائی ماہر تعلیم، سول سوسائٹی آں صنعت تہ محقق نم ملی تعاون کُرن خوخ درو۔عام کاڻ استعمل کُرن مفت درو، لیکن گرانٹ کی مشورہ تہ زریعہ پلیٹ فام آں میزبانی تہ خرچہ حصہ ڇھارن مدد گار درو۔
+localization-select =
+    .label = باݜہ /مقامی تشکیل تہ انتخب کرُا

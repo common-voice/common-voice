@@ -14,13 +14,9 @@ show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn gywir?
 no-clips-to-validate = Mae'n ymddangos nad oes unrhyw glipiau i wrando arnynt yn yr iaith hon. Helpwch ni i lanw'r bwlch dry recordio rhai nawr.
-vote-yes = Iawn
-vote-no = Na
 toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
-speak-subtitle = Cyfrannwch eich llais
 speak-paragraph = Mae recordio clipiau'n rhan annatod o adeiladu ein set data gored; byddai rhai'n dweud mae hwn yw'r rhan sy'n fwyaf o hwyl, hefyd.
 speak-goal-text = Clipiau wedi'u recordio
-listen-subtitle = Helpwch ni i ddilysu lleisiau
 listen-paragraph = Mae dilysu clipiau sydd wedi eu cyfrannu yr un mor bwysig i ymgyrch Common Voice. Gwrandewch arnyn nhw a'n helpu i greu data llais cod agored o ansawdd.
 listen-goal-text = Clipiau wedi'u dilysu
 hours-recorded = Oriau wedi'u Recordio
@@ -90,3 +86,26 @@ help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy gr
 login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
+
+## NAV ITEMS
+
+answer-questions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
+review-transcriptions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
+add-questions = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
+transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
+press-and-stories = Y Wasg a Straeon
+community-and-languages = Cymuned ac Ieithoedd
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partneriaethau, y Wasg a Straeon, y Gymuned ac Ieithoedd
+partnerships-menu-item-tooltip = Partneru gyda ni
+press-and-stories-menu-item-tooltip = Ymweld â'n blog neu ysgrifennu amdanom
+community-and-languages-menu-item-tooltip = Darganfod ieithoedd a chymunedau a Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Dewislen dewisiadau ynghylch
+partnerships-menu-item-aria-label = Dysgwch am bartneriaethau gyda Common Voice
+press-and-stories-menu-item-aria-label = Cael mynediad at datganiadau i'r wasg a straeon yn ymwneud â Common Voice
+community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd sy'n cael eu cefnogi gan Common Voice

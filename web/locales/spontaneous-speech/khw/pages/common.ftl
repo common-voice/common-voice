@@ -17,7 +17,7 @@ skipped = پیځیتائے
 audioplayer-header = کار کو
 guidelines = رہنمائی
 # For the button to report an item
-report-button = خبر
+report-button = رپورٹ کو
 # For the button to skip an item
 skip-button = پیځیک
 submit-button = جمع کو

@@ -3,6 +3,14 @@
 
 ## How does it work section
 
+about-localization-title = Вебсайт чӏыпӏэзэгъэуӏупӏэ
+about-voice-validation-title = Макъэ къэгъэшъыпкъэн
+about-speak = Гущыӏ
+about-listen = Едэӏу
+about-stay-in-touch-button = Зыхатх
+about-nav-why-common-voice = Сыд пае?
+about-nav-how-it-works = Сыдэущтэу?
+about-nav-partners = Ӏэхьагъухэр
 
 ## Community Playbook Content
 ## What is a language

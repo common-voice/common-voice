@@ -12,13 +12,9 @@ show-wall-of-text = Lege plus
 help-us-title = Adjuta nos a validar le phrases!
 help-us-explain = Pulsa reproducer, ascolta & dice nos: es iste phrase pronunciate correctemente?
 no-clips-to-validate = Il pare que il non ha retalios a ascoltar in iste lingua. Adjuta nos e registra alcunes!
-vote-yes = Si
-vote-no = No
 toggle-play-tooltip = Preme { shortcut-play-toggle } pro (dis)activar le reproduction
-speak-subtitle = Dona tu voce
 speak-paragraph = Le registration de retalios vocal es un parte integral del creation de nostre collection de datos aperte; secundo alcunos isto es mesmo le parte amusante.
 speak-goal-text = Retalios registrate
-listen-subtitle = Adjuta nos a validar le voces
 listen-paragraph = Le validation del retalios vocal donate es equalmente importante pro le mission de Common Voice. Ascolta e adjuta nos a crear datos vocal open-source de bon qualitate.
 listen-goal-text = Retalios validate
 hours-recorded = Horas registrate
@@ -76,3 +72,25 @@ help-contribute = Tu pote adjutar a producer un collection de datos open-source,
 login-company = Aperi session o inscribe te con le adresse de e-mail de { $company }
 profile-not-required = Haber un profilo non es necessari pro contribuer, ma es utile; lege proque hic infra.
 read-more-about = Lege plus in nostre pagina: A proposito
+
+## NAV ITEMS
+
+answer-questions = Responder a questiones <small>(Tosto veniente)</small>
+add-questions = Adder Questiones <small>(Tosto veniente)</small>
+transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
+press-and-stories = Pressa e articulos
+community-and-languages = Communitate e linguas
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Collaborationes, Pressa e articulos, Communitate e linguas
+partnerships-menu-item-tooltip = Collaborar con nos
+press-and-stories-menu-item-tooltip = Visita nostre blog o scribe re nos
+community-and-languages-menu-item-tooltip = Discoperi linguas e communitates e Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Re le menu del optiones
+partnerships-menu-item-aria-label = Saper plus re le collaborationes con Common Voice
+press-and-stories-menu-item-aria-label = Accede al communicatos al pressa e al articulos correlate a Common Voice
+community-and-languages-menu-item-aria-label = Explora le communitate e le linguas supportate per Common Voice

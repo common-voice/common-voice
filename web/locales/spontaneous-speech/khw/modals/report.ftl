@@ -1,6 +1,6 @@
 ## Report Modal
 
-report-modal-title = رپورٹو جمع لو
+report-modal-title = رپورٹو جمع کو
 report-modal-subtitle = ہمی اشناری تہ تین کیا مسلہ کونیان؟
 offensive_speech = شوم مواد
 offensive_speech-detail = ہیا موژی غیر مہذب یا شوم لو شیر۔

@@ -12,3 +12,9 @@ transcript-edited-error = Ndodhi një gabim gjatë përpunimit të transkriptimi
 error-fetching-transcriptions = Diçka shkoi gabim teksa silleshin transkriptimet. Ju lutemi, riprovoni më vonë.
 transcript-skipped-success = Transkriptimi u anashkalua me sukses
 transcript-skipped-error = Ndodhi një gabim gjatë anashkalimit të transkriptimit
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = E saktë
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = U bë
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Përpunoni
