@@ -1,5 +1,6 @@
 # Age and Gender form
 age-gender-form-title = بے ساختہ تقریرہ تعاون کرنہ تاں شکریہ!
+age-gender-form-subtile = اماکی تانوں بارہ کُھنڈی ،تو ڈویلپرز کی ورے ایس جامع ٹیکنالوجی ژوپنہ مدد کُریس
 add-information-button = معلومات شامل کُرا
 continue-speaking-button = مُشکُل بین جاری ساتا
 age-select-label = تاں کیہ عمر درو?
