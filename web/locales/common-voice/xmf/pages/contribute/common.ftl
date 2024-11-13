@@ -17,13 +17,15 @@ contribute-more =
        *[other] ქორეთო მზათ შეარსულათ ხოლო { $count }
     }
 speak-empty-state = ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო
-no-sentences-for-variants = ნინაში გიშაგორილი სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
-speak-empty-state-cta = შემენწიით წინადადებეფით
+no-sentences-for-variants = ნინაში თე სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
+speak-empty-state-cta = შემენწით წინადადებეფით
 speak-loading-error = ვეგორ თქვანო ეშაკითხირალი წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.
 record-button-label = ქინაჭარით თქვანი ხონარი.
 share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
+keep-track-profile = თე პროფილით თოლი ქუუნეთ თქვანი წიმე ულას
 login-to-get-started = მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.
 target-segment-add-voice = ქიგუძინით თქვანი ხონარი.
+target-segment-learn-more = ქიჩქუდას მეტი
 change-preferences = პარამეტრეფიშ თირუა.
 vote-yes = ქო
 vote-no = ვარ
@@ -33,6 +35,8 @@ submit-form-action = ჯღონა
 
 ## Reporting
 
+report-ask = მუ კილი უღუ თე წინადადებეფს?
+report-offensive-language = უწმაწური ნინა
 report-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ.
 
 ## Speak & Listen Shortcuts
