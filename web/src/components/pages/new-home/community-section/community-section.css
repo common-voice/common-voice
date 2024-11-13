@@ -113,7 +113,7 @@
 
                     p {
                         margin-block-start: 16px;
-                        margin-block-end: 12px;
+                        margin-block-end: 20px;
 
                         @media (--xl-up) {
                             max-width: 400px;
@@ -127,10 +127,14 @@
                         font-size: var(--font-size);
                         justify-content: space-evenly;
                         height: 50px;
-                        width: auto;
+                        width: fit-content;
 
                         @media (--lg-down) {
                             align-self: flex-start;
+                        }
+
+                        @media (--sm-down) {
+                            font-size: 14px;
                         }
 
                         svg {
@@ -140,6 +144,15 @@
 
                         img.github-icon {
                             margin-inline-end: 12px;
+                        }
+
+                        &.text-button {
+                            display: flex;
+                            align-items: center;
+                            padding: 0.5rem 1rem;
+                            min-width: 14rem;
+                            border-radius: 50px;
+                            font-weight: 600;
                         }
                     }
 

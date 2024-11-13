@@ -1,13 +1,14 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { Button } from '../../../ui/ui'
+import { Button, LinkButton } from '../../../ui/ui'
 
 import DiscordIcon from './assets/discord.svg'
 import AwardIcon from './assets/award.svg'
 import IdeaLightBulb from './assets/idea-light-bulb.svg'
 
 import { GithubIcon, ShareLinkIcon } from '../../../ui/icons'
+import { ContactLink } from '../../../shared/links'
 
 interface Section {
   title: string
@@ -35,12 +36,16 @@ export const sections: Section[] = [
     content: 'find-us-on-matrix-content',
     image: require('./assets/matrix.jpg'),
     action: () => (
-      <Button rounded className="action">
+      <LinkButton
+        rounded
+        className="action"
+        href="https://app.element.io/#/room/#common-voice:mozilla.org"
+        blank>
         <img src={IdeaLightBulb} alt="idea icon" />
         <Localized id="find-us-on-matrix-action">
           <span />
         </Localized>
-      </Button>
+      </LinkButton>
     ),
   },
   {
@@ -48,12 +53,12 @@ export const sections: Section[] = [
     content: 'ask-mozilla-share-content',
     image: require('./assets/mozilla-share.jpg'),
     action: () => (
-      <Button rounded className="action">
+      <ContactLink className="action">
         <ShareLinkIcon />
         <Localized id="ask-mozilla-share-action">
           <span />
         </Localized>
-      </Button>
+      </ContactLink>
     ),
   },
   {
@@ -74,12 +79,16 @@ export const sections: Section[] = [
     content: 'contribute-github-content',
     image: require('./assets/contribute.jpg'),
     action: () => (
-      <Button rounded className="action">
+      <LinkButton
+        rounded
+        className="action"
+        href="https://github.com/common-voice"
+        blank>
         <GithubIcon className="github-icon" />
         <Localized id="contribute-github-action">
           <span />
         </Localized>
-      </Button>
+      </LinkButton>
     ),
   },
 ]

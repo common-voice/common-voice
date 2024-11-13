@@ -13,7 +13,7 @@ import PlusIcon from '../../../../components/ui/icons/plus.svg'
 import './community-section.css'
 
 export const CommunitySection: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<number | null>(null)
+  const [activeSection, setActiveSection] = useState<number>(0)
   const { l10n } = useLocalization()
 
   const handleToggle = (index: number) => {
