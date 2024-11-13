@@ -1,6 +1,10 @@
 ## Home page
 
 welcome-to-spontaneous-speech = { "" }
+how-spontaneous-speech-works = Si funksionon “E folura Spontane”
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Pyetje</mark>
+prompt-bubble-subtitle = Do t’ju shfaqin një kërkesë ose pyetje
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Përgjigjuni</mark>
 respond-bubble-subtitle = Reagoni ose përgjigjeni sa më natyrshëm që mundeni
