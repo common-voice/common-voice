@@ -1,7 +1,7 @@
 listen = Käma'nä
 listen-subtitle = Kotsokya'tsi wa'ajke't mujsu mbäjkjaya 'yode'am
-listen-instruction = ¿Sunyi mdsabu te' 'ode'?
-listen-again-instruction = ¡Sa'sya mdsäjku te' yosku'y! Kyoma'näwyätsäkä ti' 'ora msutpa
+listen-instruction = { $actionType } <playIcon></playIcon> ¿Sunyi mdsabu te' 'ode'?
+listen-again-instruction = ¡Sa'sya mdsäjku te' yosku'y! <playIcon></playIcon> Kyoma'näwyätsäkä ti' 'ora msutpa
 listen-3rd-time-instruction = Tujku'a metsa, ¡te'se tsäkä!
 listen-last-time-instruction = ¡Tumäna!
 listen-empty-state = Ja'mbya'tyamäjt 'eyabä kene mijksi wa'a me'tsa'nhäyu yä' 'ode'omo...
@@ -10,3 +10,9 @@ listen-loading-error = Jamusä't yajkki'mya te' 'ode. Tsäjkijswätsäkä jäsi'
 listen-abort-title = ¿Mdsäjkpä'ba yä' kene mijsi (clips)?
 listen-abort-cancel = Tsäjka'nhä yä' nä mdsäjkubä
 listen-abort-confirm = Tsäjkpä'ä tiyä nä mdsäjku
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
