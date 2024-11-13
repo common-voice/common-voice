@@ -30,6 +30,7 @@ contact-us = Lidhuni me ne
 contact-us-title = Ju intereson të përfshiheni në këtë projekt, apo të bëheni partneri ynë?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Jeni tashmë pjesë në grupin tonë të testimit Beta për Projektin “ E folur Spontane” të Common Voice-it?
+signup-terms = Duke klikuar mbi “Dërgoni një lidhje te email-i im”, pajtoheni me <termsLink>Termat e Shërbimit</termsLink> dhe <privacyLink>Rregullat e Privatësisë</privacyLink> tonat dhe se Mozilla mund t’ju dërgojë me email me informacion  se si të merrni pjesë në Testimin Beta për Projektin “E Folur Spontane” të Common Voice-it.
 signup-input-placeholder = Jepni email-in tuaj
 signup-button-value = Dërgoni një lidhje te email-i im
 footer-text-privacy = <privacyLink>Privatësi</privacyLink>
