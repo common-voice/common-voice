@@ -1,3 +1,4 @@
+action-click = გეკაკაფა
 action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
 review = გამორსება
