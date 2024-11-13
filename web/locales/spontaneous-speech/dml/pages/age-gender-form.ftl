@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = بے ساختہ تقریرہ تعاون کرنہ تاں شکریہ!
 add-information-button = معلومات شامل کُرا
 continue-speaking-button = مُشکُل بین جاری ساتا
 age-select-label = تاں کیہ عمر درو?
@@ -16,3 +18,5 @@ male_masculine = مچ/مزکر
 female_feminine = ژامی/موئنث
 intersex = انٹر سیکس
 transgender = ہیجڑا
+non-binary = غیر بائنری
+do_not_wish_to_say = کُھنڈن  نی گٹنُم
