@@ -72,6 +72,7 @@ dataset-metadata-sex = 性別
 dataset-metadata-age = 年齡
 donate-modal-message = 正在下載您的資料集！
 dataset-donate-modal-heading = 您知道嗎…
+donate-modal-explanation-1 = 每年花費近百萬美元來提供資料集並改進平台，以支持依賴我們的一百多個語言的社群。
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
 data-download-singleword-title = 下載單字目標字串
@@ -93,3 +94,7 @@ release-version = 版本
 dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = 下載我們的語音資料集
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice 資料的下載選項

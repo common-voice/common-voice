@@ -73,3 +73,4 @@ answer-questions-menu-item-tooltip = 使用你的語言錄下提示問題的回�
 
 speak-contribute-menu-aria-label = 錄音選項選單
 read-sentences-menu-item-aria-label = 閱讀社群提交的各語言句子
+answer-questions-menu-item-aria-label = 提出新的問題予社群去閱讀與回應

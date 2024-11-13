@@ -14,13 +14,9 @@ show-wall-of-text = 了解閣較濟
 help-us-title = 來共咱鬥檢查語句！
 help-us-explain = 共播送鈕揤落，聽看覓，閣來報予咱知：敢有共紲落來的語句講會著？
 no-clips-to-validate = 看起來這個語言無任何音檔通聽。請共咱鬥錄一寡音檔。
-vote-yes = 著
-vote-no = 毋著
 toggle-play-tooltip = 共 { shortcut-play-toggle } 揤落就會當切換放送模式
-speak-subtitle = 寄付你的聲音
 speak-paragraph = 共語音片段錄落來是打造咱的開放資料集中央真重要的部份，有的人講這真好耍。
 speak-goal-text = 錄音片段錄好矣
-listen-subtitle = 請幫助咱驗證其他人的錄音
 listen-paragraph = 驗證別人錄的語音片段，對 Common Voice 的使命嘛真重要。請偃耳聽片段，並幫助咱打造高品質的開源語音資料。
 listen-goal-text = 个經過驗證的片節
 hours-recorded = 已錄音時數
@@ -75,3 +71,26 @@ help-contribute = 您會當透過注文 Common Voice 資料並貢獻語音，來
 login-company = 登入 / 使用 { $company } 注文
 profile-not-required = 無需要註冊個人資料就etnag貢獻，毋過若是有的話會閣較有幫助
 read-more-about = 到咱的「關於」頁面了解閣較濟資訊
+
+## NAV ITEMS
+
+answer-questions = 回答問題 <small>(近期推出)</small>
+review-transcriptions = 審核轉錄 <small>即將推出</small>
+add-questions = 新增問題 <small>(近期推出)</small>
+transcribe-audio = 轉錄語音 <small>(近期推出)</small>
+press-and-stories = 媒體與故事
+community-and-languages = 社群與語言
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = 合作夥伴、媒體與故事、社群與語言
+partnerships-menu-item-tooltip = 成為夥伴
+press-and-stories-menu-item-tooltip = 前往我們的部落格或撰寫我們的故事
+community-and-languages-menu-item-tooltip = 探索語言、社群以及 Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = 關於選項選單
+partnerships-menu-item-aria-label = 了解如何與 Common Voice 成為合作夥伴
+press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿與故事
+community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言
