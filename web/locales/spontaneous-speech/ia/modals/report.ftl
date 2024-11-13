@@ -12,6 +12,7 @@ report-other-comment =
     .placeholder = Commento
 # Label for textarea in report modal
 other = Alteros
+report-error = Un error occurreva inviante le reporto
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Continuar
 # Header for report modal after successful reporting

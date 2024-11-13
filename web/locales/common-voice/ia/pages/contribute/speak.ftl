@@ -66,8 +66,11 @@ read-sentences = Leger phrases
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Lege Phrases, Responde al questiones
+read-sentences-menu-item-tooltip = Registra te mesme legente phrases in tu lingua
+answer-questions-menu-item-tooltip = Registra te mesme respondente a questiones e suggestiones in tu lingua
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Menu del optiones vocal
 read-sentences-menu-item-aria-label = Inviar un nove question pro le communitate pro leger e responder
+answer-questions-menu-item-aria-label = Inviar un nove question al communitate pro leger e responder
