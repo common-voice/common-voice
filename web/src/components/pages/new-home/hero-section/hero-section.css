@@ -162,7 +162,7 @@
 
                 @media (--md-up) {
                     min-height: 600px;
-                    min-width: 600px;
+                    min-width: 575px;
                     max-width: 620px;
                     max-height: 600px;
                 }
@@ -216,8 +216,9 @@
                     }
 
                     @media (--lg-only) {
-                        height: 27%;
+                        height: 19%;
                         width: 50vw;
+                        max-height: 620px;
                     }
 
                     @media (--md-only) {

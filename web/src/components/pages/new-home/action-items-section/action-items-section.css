@@ -1,10 +1,13 @@
 .action-items-section-container {
-    padding: 60px;
     text-align: center;
     background: url('./assets/background.jpg');
     background-position-y: 100%;
     background-size: 100% 40%;
     background-repeat: no-repeat;
+
+    @media (--md-up) {
+        padding: 60px;
+    }
 
     .title {
         background: linear-gradient(90deg, #ff4f5e 0%, #629ff4 100%);
@@ -28,6 +31,7 @@
         @media (--sm-down) {
             font-size: var(--font-size-lg);
             text-align: left;
+            margin-inline: 30px;
         }
     }
 
@@ -45,12 +49,13 @@
         @media (--sm-down) {
             font-size: var(--font-size-md);
             text-align: left;
+            margin-inline: 30px;
         }
     }
 
     .card-container {
         display: flex;
-        gap: 16px;
+        gap: 30px;
         justify-content: center;
 
         @media (--md-down) {
@@ -60,6 +65,8 @@
         @media (--sm-down) {
             flex-direction: column;
             align-items: center;
+            margin-inline: 30px;
+            margin-block-end: 30px;
         }
 
         .card {
