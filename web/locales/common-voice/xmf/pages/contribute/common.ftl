@@ -67,3 +67,6 @@ shortcut-play-toggle-label = გოტება / მეჭყვიდუა
 ## Validation criteria
 
 contribution-criteria-nav = სითინუეში ოზიმალი.
+contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა
+contribution-for-example = მაგალთო
+contribution-misreadings-title = უწორო კითხირი
