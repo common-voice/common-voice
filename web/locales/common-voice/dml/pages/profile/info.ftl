@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = استعمل کؙرل ساں نم، یوزر نیم
+    .label = استعمل کُرل ساں نم، یوزر نیم
 profile-form-native-language =
     .label = مقامی باݜہ
 profile-form-additional-language =
@@ -26,12 +26,14 @@ hidden = ولیسن
 visible = اخکارہ
 native-language =
     .label = مقامی باݜہ
+profile-form-add-accent = ضرورت تہ مطابق نواں لہجہ شامل کُرا{ $inputValue }
 profile-form-submit-save = جمع
 profile-form-submit-saved = جمع کوتھین
 male_masculine = مچ/
 female_feminine = ژامی/
 intersex = اکبنہ جنس
 transgender = ہیجڑا
+non-binary = غیر بائنری
 do_not_wish_to_say = کیہ گنن تہ خوہش نی درو
 # Gender
 other = ورے

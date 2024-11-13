@@ -27,3 +27,4 @@ download-request-modal-title = لنک نم ڈاون لوڈ کُرا
 download-request-modal-description = تاں زپ فائل نم ڈاون لوڈ کُرئں کی لنک نم یہ درو۔
 download-request-link-text = Zip #{ $offset } ساں{ $total }
 download-request-metadata-link = جملہ تہ متن
+download-request-link-single = تانوں خوخہ تہ ڈاون لوڈ منیجرہ  براہ راست  یو آر ایل کاپی آں پیسٹ ایس کُرین بئیبہ۔ مسونہ معیاد 12 گینٹا بیاں، لیکن بی نواں ژوپیں کی یہ پھٹہ کی واپس آڅین بئیبہ۔
