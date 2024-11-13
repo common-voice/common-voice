@@ -28,7 +28,7 @@ export const PARTNER_OPTIONS = [
     elems: {
       programmaticWork: (
         <a
-          href="https://foundation.mozilla.org/en/common-voice/in-country-programmes"
+          href="https://foundation.mozilla.org/common-voice/in-country-programmes"
           target="_blank"
           rel="noreferrer">
           programmatic work

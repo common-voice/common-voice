@@ -2,13 +2,13 @@ speak = راوے
 speak-now = ہنیسے راوے
 speak-subtitle = تان ہوازو رکارڈ کو
 record-cta = رکارڈ کوریک شروع کو
-record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو  ہایا ٹائمہ مدد کورین نو بویان۔
+record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو ہیہ ٹائمہ مدد کورین نو بویان۔
 record-platform-not-supported-desktop = ڈسک ٹاپ مشینا تو ڈون لوڈ کوری حصہ گنیکو بوس۔۔۔
 record-platform-not-supported-ios-non-safari = iOS  مہربانی کوری رکارڈنگو قابل کوریکو بچین سفاریو سورا جاری کورور۔۔۔
 record-must-allow-microphone = تہ مائیکو ہیرو توریکو لاکیلیک
 record-no-mic-found = مائیک ملاو نو ہوئے
 record-error-too-short = رکارڈینگ بو اسکوردی
-record-error-too-long = رکارڈینگ بو درونگ
+record-error-too-long = رکارڈینگ بو درونگار ہوئے
 record-error-too-quiet = رکارڈنگ بو لش
 record-cancel = رکارڈنگو کینسیل کو
 record-instruction = { $actionType }<recordIcon></recordIcon> تھے جملو توڑ راوے
@@ -17,7 +17,7 @@ record-three-more-instruction = تروئے بہچی شینی
 record-again-instruction = بوجام!<recordIcon></recordIcon> پروشٹی بی تان خور ہواز رکارڈ کو
 record-again-instruction2 = تان کورمو جاری سوتے، وا رکارڈ کو
 record-last-instruction = <recordIcon></recordIcon>  اخری ای دنا!
-review-tooltip = پروشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہایا رکارڈ کو
+review-tooltip = پروشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہیا رکارڈ کو
 share-clip = تان اسکوردی ہوازو بوژے
 share-common-voice = کامن وائسو بوژے
 review-instruction = وا لوڑے،  کی ضرورت اسکوردی ہواز وا رکارڈ کو
@@ -30,7 +30,7 @@ record-abort-continue = رکارڈنگو بند کو
 record-abort-delete = بیری نیسے وا اسکوردی ہوازان بوغاوے
 review-aborted = اپلوڈ بند ہوئی، تان رکارڈینگو بوغیسانا؟
 review-submit-title = ای دی لوڑی و جمع کو
-review-submit-msg = رکارڈنگ بچین شکریہ!<lineBreak></lineBreak>ہنیسے ای دی لوڑے وا تان اسکوردی ہوازان ہایا موڑا جمع کوا
+review-submit-msg = رکارڈنگو بچین شکریہ!<lineBreak></lineBreak>ہنیسے ای دی لوڑے وا تان اسکوردی ہوازان موڑا جمع کوا
 review-recording = وا لوڑے
 review-rerecord = و رکارڈ کو
 review-cancel = جمع کوریکو کینسیل کو
@@ -48,7 +48,7 @@ why-donate-explanation-2 = ٹیکنالوجی سفو بچین جام کوروم 
 add-information-button = معلومات شامل کو
 continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
 create-profile-text = تان معلوماتان محفوظ کوسانا? <createProfile>پروفائل ساوزاوے</createProfile>
-thanks-for-voice-toast = ہوازو معلومات دیکو پچین تہ مینادار
+thanks-for-voice-toast = ہوازو معلومات دیکو بچین تہ مینادار
 thanks-for-voice-toast-error = تو ہوازو معلومات جمع کوراوا، ای نقص پیدا ہوئی
 first-cta-gender-select-default-option = ای طریقو گنے
 first-cta-gender-select-help-text =
@@ -73,4 +73,4 @@ answer-questions-menu-item-tooltip = تان وارا سوالان وا اشار�
 
 speak-contribute-menu-aria-label = اختیاراتان لیسٹو راوے
 read-sentences-menu-item-aria-label = کمیونیٹیو ممبران مختلف وارا جملان جمع کی ارینی تیتان راوے
-answer-questions-menu-item-aria-label = کمیونیٹو ممبرانان سار ریکو وا جواب دیکو پچین سوال کو
+answer-questions-menu-item-aria-label = کمیونیٹو ممبرانان سار ریکو وا جواب دیکو بچین سوال کو

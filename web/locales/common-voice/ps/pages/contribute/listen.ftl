@@ -10,9 +10,14 @@ listen-loading-error =
 listen-abort-title = د تایید کلپونه ختم کړئ؟
 listen-abort-cancel = تایید ته دوام ورکړئ
 listen-abort-confirm = تایید کول پای ته ورسوئ
+# Menu item
+validate-readings = لوستل تایید کړئ
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = لوستل تایید کړئ، د لیکونو بیاکتنه وکړئ
+validate-readings-menu-item-tooltip = ستاسو په ژبه کې د کارونکي لخوا ثبت شوي لوستل تایید کړئ
+review-transcriptions-menu-item-tooltip = ستاسو په ژبه کې د کارونکي لخوا سپارل شوي لیږدونه بیاکتنه وکړئ
 
 ## MENU ITEM ARIA LABELS
 

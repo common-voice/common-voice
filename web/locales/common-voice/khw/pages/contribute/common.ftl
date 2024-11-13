@@ -1,5 +1,5 @@
 action-click = کلک
-action-tap = ٹیپ
+action-tap = شینی
 contribute = تان حصو شامل کوریک
 review = وا لوڑے
 skip = پیځی پروشٹی بوغے
@@ -19,7 +19,7 @@ speak-empty-state = ہیا وارا رکارڈ کوریکو بچین اسپہ س
 no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو بچین تان ترتیبو بدل کوکو بوس۔
 speak-empty-state-cta = جملہ نیوشے
 speak-loading-error = تہ ریکو بچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
-record-button-label = تان ہوازو محفوظ کو
+record-button-label = تان ہوازو رکارڈ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور ہوازو مشکے
 keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
 login-to-get-started = شروع کوریکو بچین لاک ان یا سائن ان بوس
@@ -35,13 +35,13 @@ vote-no = نو لہ
 datasets = ڈیٹاسیٹس
 languages = وار
 about = کامن وائسو بارا
-partner = حصہ دار
+partner = شرکت دار
 submit-form-action = جمع کو
 
 ## Reporting
 
-report = خبر
-report-title = رپورٹو جمع لو
+report = رپورٹ کو
+report-title = رپورٹو جمع کو
 report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
 report-offensive-language = شوم لو
 report-offensive-language-detail = جملہ شوم یا غیر مہذب لو شیر
@@ -95,8 +95,8 @@ shortcut-vote-no = این
 ## Validation criteria
 
 contribution-criteria-nav = اصول
-contribution-criteria-link = حصہ گنیکو اصول تہ تین پتہ بائے
-contribution-criteria-page-title = حصہ گنیکو اصول
+contribution-criteria-link = حصہ گنیکو طریقہ تہ تین پتہ بائے
+contribution-criteria-page-title = حصہ گنیکو طریقہ
 contribution-criteria-page-description = ہیا لوو ہوش کوکی ہوازو کار کی کوراو اوشوو کیا اشناریو لوڑیلیک وا تان ہوازو جام کوریکو بچین مدد کو
 contribution-for-example = مثالو تورا
 contribution-misreadings-title = غلط ریک

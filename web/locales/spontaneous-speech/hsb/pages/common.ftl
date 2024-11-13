@@ -35,6 +35,23 @@ not-found-page-header = Njenamakany
 not-found-page-content = Strona, kotruž pytaće, njeje so namakała.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
+# Locales
+bsy = Sabah Bisaja
+cdo = Fuzhou
+cpx = Heng Hua
 en = Jendźelšćina
 fr = Francošćina
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay
+meh = Juhozapadna tlaksiakska mikstekšćina
+mel = Centralny Melanau
+mmc = Michoacán Mazahua
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pez = Wuchodny Penan
+pne = Zapadny Penan
+sdo = Serian Bidajuh
+snv = Sa'ban
 tr = Turkowšćina
+xkl = Kenyah

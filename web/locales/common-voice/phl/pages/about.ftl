@@ -1,25 +1,25 @@
 ## ABOUT US
 
 about-title = عام ہاواز کے؟
-about-header-description-v2 = کمن وائس ایتیݨو ہاویزی جمع تھئنی زھائی کی ڑو پورہ دُنئیئی وے تنخواہ نہ گھنی کرام تھاٹم خلکیم باندی چلئجانوۡ</p>  فلحال وختہی زیات وائس ڈیٹاسیٹ کمپنیوم دی ہنم ایڑے وجہ باندی ڑیوے ناؤہ ناؤہ کرامہ نہ بھانہ، ایڑے پلیٹ فارمی وے  انگریزیا دوئی خلکہ، معزور خلکہ، کُڑینہ ، ہم جنس پرست خلکہ او مختلف قسمہ جھلی عمل تھاٹہ (LGBTQIA+) خلکیمی نمائندگی بیڈی کام۔ ڑئی مطلب ایڑے کی انیوے ہاویزے ٹیکنالوجی بیڈی زبینیمی دپارہ کرام تھانوۡ۔ کرام تھیلو بیۡ ہینتہ بُٹھے زبینیمی دپارہ برابر کرام نہ تھانوۡ۔ بے ہرگوئی خلکہ متحرک تھے تنی ہاویزی تقسیم تھے نس تبدیل تھئنی دوئیانہ۔
-how-does-it-work-title-v2 = عام ہاواز کنا تھےۡ کرام تھانوۡ
-how-does-it-work-text = بے عام خلکیمی ہاویزی ڈیٹا سیٹ بیڈہ خلکیم ݜاوا تھوائینہ۔ تیݨی ہاواز وقف تھہ، دوئی خلکیمی ہاواز صحی بھئنی تصدیق تھہ۔ ڈیٹاسیٹ بُٹھیمی دپارہ بہتر تھوئی۔
+about-header-description-v2 = کامن وائس ایتیݨوۡ ہاویزی جمع تھئنی زھائی کی ڑو پورہ دُنئیئی وے تنخواہ نہ گھنی کرام تھاٹم خلکیم باندیۡ چلئجانوۡ</p>  فلحال وختی زیات وائس ڈیٹاسیٹ کمپنیوم دی ہنم ایڑےۡ وجہ باندیۡ ڑیوے ناؤہ ناؤہ کرامہ نہ بھانہ، ایڑےۡ پلیٹ فارمی وے  انگریزیا دوئی خلکہ، معزور خلکہ، کُڑینہ ، ہم جنس پرست خلکہ او مختلف قسمہ جُھلیۡ عمل تھاٹہ (LGBTQIA+) خلکیمی نمائندگی بیڈیۡ کام۔ ڑائی مطلب ایڑےۡ کی انیوے ہاویزی ٹیکنالوجی بیڈیۡ زبینیمی دپارہ کرام تھینی۔ کرام تھیلو بیۡ ہینتہ بُٹھے زبینیمی دپارہ برابر کرام نہ تھانہ۔ بےۡ ہرگوئی خلکہ متحرک تھےۡ تنی ہاویزی تقسیم تھےۡ نس تبدیل تھئنی دوئیانہ۔
+how-does-it-work-title-v2 = عام ہاواز کنا تھےۡ کرام تھانوۡ؟
+how-does-it-work-text = بےۡ عام خلکیمی ہاویزی ڈیٹا سیٹ بیڈہ خلکیم ݜاوا تھوائینہ۔ تیݨی ہاواز وقف تھہ، دوئی خلکیمی ہاواز صحی بھئنی تصدیق تھہ۔ ڈیٹاسیٹ بُٹھیمی دپارہ بہتر تھوئی۔
 
 ## How does it work section
 
 about-language-req-subtitle = کو ہینتہ زبان ایڈ تھئنی دوائنوۡ
 about-localization-title = ویب سائٹ لوکلائزیشن
-about-localization-subtitle = ویب سائٹی عبارت انی زبان کی ترجمہ بِھلی ہِنی
+about-localization-subtitle = ویب سائٹی عبارت انیۡ زُبان کی ترجمہ بِھلیۡ ہِنیۡ۔
 about-sentence-collection-title = جملئی مجموعہ
-about-sentence-collection-subtitle = زور تھے منئنی دپارہ جملے خلکیم تھے جمع تھئجلہ ہنہ
-about-new-lang-title = نیوی زبینی شروع بھلی ہِنی
-about-new-lang-subtitle = اسم انی زبینی کی عام ہاوازینی سائٹ شروع تھیلو ہنو
+about-sentence-collection-subtitle = زور تھے منئنی دپارہ جملے خلکیمی دپارہ جمع تھئیجِلہ ہِنہ۔
+about-new-lang-title = نیوی زبینی شروع بِھلیۡ ہِنیۡ
+about-new-lang-subtitle = اسِم انیۡ زبینی کی کامن وائس سائٹ شروع تِھیلوۡ ہنوۡ۔
 about-voice-contrib-title = ہاویزی تعاون
-about-voice-contrib-subtitle = خلک ہاندہ او تیݨی ہاوازیزیمی حصہ گلانہ
+about-voice-contrib-subtitle = خلک ہھاندہ او تیݨی ہاوازیزی جمع تھانہ۔
 about-voice-validation-title = ہاواز زیات تھئنی
-about-voice-validation-subtitle = دوئی خلکہ انی ہاویزی کلپسیمی توثیق تھانہ
+about-voice-validation-subtitle = دوئی خلکہ انیۡ ہاویزی کلپسیمی توثیق تھانہ۔
 about-dataset-release-title = ڈیٹا سیٹ رلیز
-about-dataset-release-subtitle = بے ڈیٹا سیٹ ہر ترو یُونی رلیز تھایہ
+about-dataset-release-subtitle = بےۡ ڈیٹا سیٹ ہر ترو یُونی رلیز تھایہ
 about-subscribe-text = مشترکہ ہاویزی سنگی رابطہ کی ہانسئنی دوائینو وے؟
 about-speak = کھونڈ
 about-speak-text = تعاون تھاٹہ وقف تھیلہ جملے میجی دے اسکور بی ریکارڈ تھانوۡ۔
@@ -36,10 +36,10 @@ about-no-votes-text = استعمال تھاٹہ ہاواز رد تھیلوۡ ہ�
 about-dataset-new = کمن وائسی ڈیٹا سیٹ
 about-dataset-new-text = کمن وائس ڈیٹا سیٹیۡ وے زرگونہ ہاویزیمی نمونے ہانسانہ، سے کرام تھاٹم تھے ہاواز جھانئنی سامان سمیانی
 about-clip-graveyard = ہاویزمی قبرستان
-about-clip-graveyard-text = کلپ گریو یارڈ/قبرستان ہاویزیم تھے منانہ ڑے عام ہاویزی ڈیٹا سیٹی شیٹی نہ ہانسانہ۔ ڈیٹا سیٹی پیرا کلپ گریو یارڈ ڈون لوڈ تھئنی دپارہ تیار ہانسانوۡ۔ بے ایڑے خلکیمی اور تنی تنظیمیمی شکریہ ادا تھانہ کی سے انی پراجیکٹی اسام سنگی مدد تھانہ
+about-clip-graveyard-text = کلپ گریو یارڈ/قبرستان ہاویزیم تھےۡ منانہ ڑے عام ہاویزی ڈیٹا سیٹیۡ شیٹی نہ ہانسانہ۔ ڈیٹا سیٹیۡ پیرا کلپ گریو یارڈ ڈون لوڈ تھئنی دپارہ تیار ہانسانوۡ۔ بےۡ ایڑےۡ خلکیمی اور تنی تنظیمیمی شکریہ ادا تھانہ کی سےۡ انی ۡپراجیکٹی اسام سنگیۡ مدد تھانہ
 about-get-involved = حصہ گھناٹہ
 about-get-involved-text-2 = تو کمن وائس نِس دی بی زیات بہتر بھئنی دویئانوے؟ بیڈو شو! اسام تھے ای میل تھہ یا <discourseLink> مشقولکی</discourseLink> زھئی تھے یھہ۔ اندہ سائٹی نقصانی <githubLink>GitHub ذریعہ کی جمع تھہ یا کمیونیٹی سنگی مشقول بھئنی خانہ تھے یھہ۔
-about-stay-in-touch = مہ رابطہ کی کنا بے دھاروم؟
+about-stay-in-touch = مہ رابطہ کی کنا بھےۡ دھاروم؟
 about-stay-in-touch-button = سائن اپ
 about-stay-in-touch-text-1 = <emailFragment> سائین اپ </emailFragment> اسی انی ایمیلی لسٹ تُس ازدہ تھائبھوت کہ کمن واسہ واقعات، گھرے ڈیزائن تھنی او دوئی فیچرز وے کنا تھے حصہ گھنانہ
 about-stay-in-touch-text-2 = تُس موزیلئی زبینی   کمیونٹی دوئی خلکیم سنگی ملاؤ بھئنی دپارہ انی وے شامل بھوئی <discourseLink> گہ ٹاپیکی بارئی  کھونڈئنی دپارہ انی لنک</discourseLink> یا <matrixLink> خانہ </matrixLink>لپ  مشورہ گھنئنی دپارہ۔
@@ -55,16 +55,16 @@ about-nav-playbook = حصہ گھنئنی ازدہ تھہ
 
 about-playbook-what-is-language = کمن واسہ وے کھئی زبان ہِنی؟
 about-playbook-what-is-language-content-1 = زُبینی بارئی سوچ تھنی بیڈہ طریقے ہنہ۔ بات جھانئنی آک ماڈل بھئنی دپارہ کمن وائس تیݨی مجی جھانئی تجویزی جھلی زور دانوۡ۔ یا بہ انی زبان کھونڈاٹہ کوشش تھے اینی بیتی جھوننے؟
-about-playbook-what-is-language-content-2 = بے اتیݨو ماڈل اسپیچ دوائیانہ کی سو مختلف زبان کھونڈاٹمی دپارہ شو ہونسہ۔ ایڑائی دپارہ اک وائس ڈیٹا سیٹ ایتیݨو ہانسینڈیو کی کی تیوے ہر قسمہ خلکیمی نمائندگی ہونسہ
-about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر، الفیظی او تلفظی مجی بیڈہ زیات فرق ہانسانوۡ۔ ایڑئی دپارہ بے <ctaLink>introducing ‘Variants’</ctaLink> in 2022.سمیانہ۔ ایڑے وجہ باندی کمیونٹی خلکہ اسکونہ باندی تیݨی زبان جھانا بھون
+about-playbook-what-is-language-content-2 = بےۡ اتیݨو ماڈل اسپیچ دوائیانہ کی سوۡ مختلف زُبان کھونڈاٹمی دپارہ شو ہونسہ۔ ایڑائی دپارہ اک وائس ڈیٹا سیٹ ایتیݨوۡ ہانسینڈیو کی کی تیوے ہر قسمہ خلکیمی نمائندگی ہونسہ
+about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر، الفیظی او تلفظی مجیۡ بیڈوۡ زیات فرق ہانسانوۡ۔ ایڑئی دپارہ بے <ctaLink>introducing ‘Variants’</ctaLink> in 2022.سمیانہ۔ ایڑےۡ وجہ باندیۡ کمیونٹی خلکہ اسکونہ باندیؤ تیݨی زُبان جھانا بھون
 
 ## How do I add a language
 
 about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھوم
 about-playbook-how-add-language-content-1 = آویلی <languageLink>تیݨی زبینی وے چیک تھہ انی لنک وے</languageLink>ہنے۔ اگر نئنہ ہینتہ تو<languageRequestLink> تیݨی زبان شامل تھئنی دپارہ کھوجا بھوڑ</languageRequestLink>۔  دو مرحلے ہنہ سائٹی ترجمہ تھئنی دپارہ او جملے سمٹئنی دپارہ۔
 about-playbook-how-add-language-translating-heading = سائٹی ترجمہ تھئنی
-about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے استعمال تھانہ  رنمائی دپارہ اسی انو ویڈیو دݜھوئی
-about-playbook-how-add-language-translating-content-2 = بے موذیلائی آک آلہ استعمال تھانہ تس تھے <pontoonLink> پونٹون </pontoonLink>  منانہ ترجمہ تھئنی دپارہ۔  پونٹوی وے بیڈی زبینی ہنم۔ تھی زبان ڑی وے نئنی ہینتہ  تس شامل تھئنی دپارہ انی لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑے زبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑے نیوی زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پنٹون کنا تھےۡ استعمال تھانہ؟  رنمائی دپارہ اسی انوۡ ویڈیو دڇھوئی</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = بےۡ موذیلائی آک آلہ استعمال تھانہ تس تھےۡ <pontoonLink> پونٹون </pontoonLink>  منانہ، ترجمہ تھئنی دپارہ۔  پونٹونی وے بیڈیۡ زبینی ہنم۔ تھی زُبان ڑیوے نئنی ہینتہ  تس شامل تھئنی دپارہ انیۡ لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زُبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑےۡ زُبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑےۡ نیویۡ زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملے جمع تھئنی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے جمع تھئنی بارئی اسی رہنمائی دڇھہ </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> آک کتی  جملے شامل تھائی بھوڑ</sentenceCollectorLinkAdd> یا Github </bulkImportDocsLink> استعمال تھے  بیڈہ جملے ایڑی شیٹی اٹابھوت </bulkImportDocsLink>۔  یاد ساتہ کی  جملے<licenseLink> CC0 (ہر آکی استعمالی دائرہ )</licenseLink> کی ہونسن یا تو پخپلہ بی چونٹا بھوڑ۔
@@ -89,7 +89,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیا وے اسک
 ## How to record quality
 
 about-playbook-how-record-quality = مہ شو معیاری ہاواز کنا تھے ریکارڈ تھوم؟
-about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ۔ گہ قسمہ کی تو کھونڈانوۡ ایڑو وے صحی - بے تھی لہجہ کتیݨو ہنو ایتݨوے دوئیانہ۔
+about-playbook-how-record-content-1 = تیݨی عام ہاواز کی کھونڈ۔ گہ قسمہ کی تو کھونڈانوۡ ایڑو وے صحی - بےۡ تھی لہجہ کتیݨوۡ ہنوۡ ایتݨوے دوئیانہ۔
 about-playbook-how-record-content-2 = تھی تیرچاپھیر گہ شور نہ ہونسہ وڑئی۔تھی بات کاݨ تھیئنی اسکون بھینڈیو۔
 about-playbook-how-record-content-3 = جملے غور کی منہ۔  گہ اُڑیگلہ نہ مو، گہ بدل نہ تھہ،  گہ ناؤ لوز  شامل نہ تھہ
 about-playbook-how-record-content-4 = کھونڈئنی دی مݜٹو ریکارڈنگ شروع بھی وڑئی۔ بات پُرہ بھلی تھے ریکارڈنگ بند بھئ وڑئی۔
@@ -97,7 +97,7 @@ about-playbook-how-record-content-5 = <accuracyLink> صحیح تھئنی دپا�
 
 ## How to grow language
 
-about-playbook-how-grow-language = بے کمن وائسہ وے آک زبان کنا تھے مݜٹو گرا ہرایا؟
+about-playbook-how-grow-language = بےۡ کمن وائسہ وے آک زُبان کنا تھےۡ مݜٹو گرا ہرایا؟
 about-playbook-how-grow-language-content-1 = مختلف خلکیم تھے موقع دے  کمن وائس انی بات یقینی سمیانو کی دیٹاسیٹ کتی بی ہینتہ بیڈہ خلکیمی خسمت تھی وڑئی۔  اسم تھی استعمالی دپارہ وسائلی سمولہ ہنہ۔
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تو خلکیمی شرکت تھئنی مجی مددی  دپارہ میٹنگ بُلاڈئی بھوڑ۔ ڑو بیڈو اسکون۔  آن لائن ویڈیو کانفرنسی ذریعہ تھئی بھوڑ یا گہ خطرہ نہ ہانسلو ہینتہ تنام آک زھئی بلاڈی بی میٹنگ تھائی بھوڑ۔ <eventTemplate> میٹنگی ضروری شئیومی دپاہ انس </eventTemplate>دڇھہ
@@ -111,7 +111,7 @@ about-playbook-how-grow-language-content-8 = <strong> ناوہ شیہ سمئنی
 
 about-playbook-how-validate = مہ کنا تھے جھونم کی انی ہاویزی کلپ منظور بھی تھنی؟
 about-playbook-how-validate-content-1 = تو بھئانو ہینتہ <strong>ایڑنام کاݨ تھئنی </strong>او ایڑنام جھانئنی دوائیانو ہینتہ۔ انو  عام طور کی <strong> منظوری گھنئنی آک شو طریقہ۔
-about-playbook-how-validate-content-2 = <strong>   ایسو ہاواز کرے بی رد نہ تھہ  کی تیوے کھونڈاٹی تلفظ تھی تلفظی دی بدل ہونسہ  </strong>-بٹھے بے اکٹجی کرام تھے  تیݨی زبینی ہاوا جھانئینی دپارہ انو بیڈی ضروری کی ہر آکی لہجہ کاݨ تھینڈیو۔
+about-playbook-how-validate-content-2 = <strong>   ایسو ہاواز کرے بی رد نہ تھہ  کی تیوے کھونڈاٹی تلفظ تھی تلفظی دی بدل ہونسہ  </strong>-بٹھے بھےۡ اکٹجی ۡکرام تھےۡ  تیݨی زبینی ہاوا جھانئینی دپارہ انوۡ بیڈوۡ ضروری کی ہر آکی لہجہ کاݨ تھینڈیو۔
 about-playbook-how-validate-content-3 = اگر لہجئی وجہ باندی جھانئنی ناممکن بھانو ہینتہ <strong>  یا تیر چاپھیر <strong> گہ شور بھانو ہینتہ </strong> یا  دوئی خلکیمی <strong> بیتی بی ہنم ہینتہ</strong> تھے ایسو ہاواز رد تھائی بھوڑ۔ <accuracyLink>۔  مزید معلومیتی دپارہ  انی لنکی وے معیاری بھئنی بارئی دڇھہ </accuracyLink>
 about-playbook-how-validate-content-4 = اگر آک ہاواز دو جانم رد تھیلو ہینتہ تس ڈیٹا سیٹٰ آک دوئی زھئی وے چونٹینڈیو بھی۔
 

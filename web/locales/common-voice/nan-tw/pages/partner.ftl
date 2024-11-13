@@ -16,3 +16,5 @@ partnerships-small-business-description = 我們持續想了解資料消費者�
 partnerships-corporates-header = 大型企業與平台業者
 partnerships-corporates-description = 若您想了解有關如何合作使用資料集，想要共同投資此平台的未來發展，或是尋找合作機會，<emailFragment>請聯絡我們</emailFragment>。
 partnerships-our-partners = 我們的夥伴
+# menu item
+partners = 夥伴

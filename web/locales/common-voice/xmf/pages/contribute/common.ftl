@@ -1,3 +1,4 @@
+action-click = გეკაკაფა
 action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
 review = გამორსება
@@ -16,13 +17,15 @@ contribute-more =
        *[other] ქორეთო მზათ შეარსულათ ხოლო { $count }
     }
 speak-empty-state = ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო
-no-sentences-for-variants = ნინაში გიშაგორილი სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
-speak-empty-state-cta = შემენწიით წინადადებეფით
+no-sentences-for-variants = ნინაში თე სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
+speak-empty-state-cta = შემენწით წინადადებეფით
 speak-loading-error = ვეგორ თქვანო ეშაკითხირალი წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.
 record-button-label = ქინაჭარით თქვანი ხონარი.
 share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
+keep-track-profile = თე პროფილით თოლი ქუუნეთ თქვანი წიმე ულას
 login-to-get-started = მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.
 target-segment-add-voice = ქიგუძინით თქვანი ხონარი.
+target-segment-learn-more = ქიჩქუდას მეტი
 change-preferences = პარამეტრეფიშ თირუა.
 vote-yes = ქო
 vote-no = ვარ
@@ -32,7 +35,16 @@ submit-form-action = ჯღონა
 
 ## Reporting
 
-report-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ.
+report-ask = მუ კილი უღუ თე წინადადებეფს?
+report-offensive-language = უწმაწური ნინა
+report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე
+report-different-language = შხვანერი ნინა
+report-different-language-detail = ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ რე ჭარილი
+report-difficult-pronounce = ძნელი ორაგადე რე
+report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ
+report-offensive-speech = უწმაწურ ჩიება
+report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე
+continue = გაგძელება
 
 ## Speak & Listen Shortcuts
 

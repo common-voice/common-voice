@@ -5,6 +5,14 @@ write-instruction = Agghiunci <icon></icon> na frasi nnô duminiu pùbblicu
 sentence =
     .label = Frasi
 guidelines = Dirittivi
+contact-us = Cuntàttani
+single-sentence-submission = Mmìu di na frasi sula
+small-batch-sentence-submission = Mmìu di picca frasi
+bulk-sentence-submission = Mmìu di assai frasi
+single-sentence = Frasi sìngula
+small-batch-sentence = Nzemi nicu di frasi
+bulk-sentence = Nzemi grossu di frasi
+sentence-domain-combobox-label = Duminiu dâ frasi
 # Sentence Domain dropdown option
 finance = Finanza
 # Sentence Domain dropdown option
@@ -52,3 +60,12 @@ file-invalid-type = Pricu nun vàlidu
 file-too-large = U pricu è troppu assai granni
 file-too-small = U pricu è troppu assai nicu
 too-many-files = Troppu assai prichi
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

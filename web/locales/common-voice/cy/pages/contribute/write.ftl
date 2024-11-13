@@ -167,3 +167,21 @@ small-batch-sentences-rule-3 = Gwahanwch frawddegau i un llinell trwy bwyso “E
 small-batch-sentences-rule-4 = Ychwanegwch hyd at 1,000 o frawddegau
 small-batch-sentences-rule-5 = Rhaid i bob brawddeg gael yr un parth
 small-batch-sentences-rule-6 = Rhaid i bob brawddeg gael yr un tarddiad
+# menu item
+add-sentences = Ychwanegu Brawddegau
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Ychwanegu ac Adolygu Brawddegau, Ychwanegu Cwestiynau, Trawsgrifio Sain
+add-sentences-menu-item-tooltip = Ychwanegu brawddegau yn eich iaith
+review-sentences-menu-item-tooltip = Adolygu brawddegau yn eich iaith
+add-questions-menu-item-tooltip = Ychwanegu cwestiynau yn eich iaith
+transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain yn eich iaith
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Dewislen dewisiadau ysgrifennu
+add-sentences-menu-item-aria-label = Ychwanegu brawddegau newydd i'r gymuned eu darllen
+review-sentences-menu-item-aria-label = Adolygu brawddegau presennol a gyflwynwyd gan y gymuned
+add-questions-menu-item-aria-label = Cyflwyno cwestiynau newydd i'r gymuned eu darllen ac ymateb iddyn nhw
+transcribe-audio-menu-item-aria-label = Trawsgrifio recordiadau sain i destun
