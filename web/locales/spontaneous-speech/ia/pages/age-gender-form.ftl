@@ -1,3 +1,4 @@
+age-gender-form-subtile = Contante nos re te mesme, tu adjutara le disveloppatores a producer technologias plus inclusive
 add-information-button = Adder informationes
 continue-speaking-button = Continuar a parlar
 age-select-label = Qual es tu etate?

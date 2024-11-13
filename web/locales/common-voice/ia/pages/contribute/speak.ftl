@@ -41,7 +41,7 @@ terms-agree = Io accepta
 terms-disagree = Io non accepta
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Gratias pro donar tu registrationes vocal!
-first-cta-subtitle-text = Vole tu compartir alcun informationes re como tu parla?
+first-cta-subtitle-text = Contante nos re te mesme, tu adjutara le disveloppatores a producer technologias plus inclusive
 why-donate = Perque demanda tu?
 why-donate-explanation-1 = Fornir iste informationes es optional: tu deberea solo adder illo si tu te senti commode. Quando nos publica le insimul de datos, nos pseudonymisa tote le informationes personal, e verifica que le informationes como tu nomine e email non es connectite a informationes demographic como etate o sexo.
 why-donate-explanation-2 = Proque le technologia functiona ben pro totes, le datos que adjuta le disveloppatores a producer technologia debe reflecte un grande varietate de gente. Per exemplo, si nos non include ulle parlantes con un particular accento, pois le technologia non functionara ben pro gente con ille accento. <learnMore>Pro saper plus re perque metadatos importa.</learnMore>
