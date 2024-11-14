@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = Grazas pola súa achega de fala espontánea!
 age-gender-form-subtile = Desexa compartir información sobre a súa forma de falar?
 add-information-button = Engadir información
 continue-speaking-button = Prefiro seguir falando
