@@ -1,7 +1,7 @@
 speak = Ομιλία
 speak-now = Μιλήστε τώρα
 speak-subtitle = Δωρίστε τη φωνή σας
-record-cta = Έναρξη καταγραφής
+record-cta = Ηχογράφηση
 record-platform-not-supported = Δυστυχώς, η πλατφόρμα σας δεν υποστηρίζεται ακόμα.
 record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
@@ -11,7 +11,7 @@ record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομ�
 record-error-too-long = Η ηχογράφηση ήταν πολύ μεγάλη.
 record-error-too-quiet = Η ένταση της ηχογράφησης ήταν πολύ χαμηλή.
 record-cancel = Ακύρωση επανεγγραφής
-record-instruction = { $actionType } στο <recordIcon></recordIcon>και διαβάστε δυνατά την πρόταση
+record-instruction = { $actionType } στο<recordIcon></recordIcon> και διαβάστε δυνατά την πρόταση
 record-stop-instruction = { $actionType } στο <stopIcon></stopIcon> όταν τελειώσετε
 record-three-more-instruction = Τρία ακόμη!
 record-again-instruction = Τέλεια! <recordIcon></recordIcon> Ηχογραφήστε το επόμενο απόσπασμα
