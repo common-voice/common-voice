@@ -26,6 +26,8 @@ terms-agree = დარ ლე́ვდო́ს
 terms-disagree = დარ ცო ლე́ვდ́ოს/უარ ლე́ვდო́ს
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = მა́დლობ შუჼ იშა́რეჼ ჩანაწე́რი თხოჼ ფლო́ქოღ დალ'რენდალლა́
+first-cta-subtitle-text = ლე́ჸი ჰ̦ოჼ ალ'ლო თხო́გო̆ უ̂ხ თა́ვისებურებ ჲა აჰ̦ ამბუჲ ჲარეგო?
+why-donate = უ̂ნდა/სტე́ნდალლა?
 
 ## MENU ITEM TOOLTIPS
 
