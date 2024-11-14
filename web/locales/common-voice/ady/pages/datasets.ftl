@@ -15,3 +15,11 @@ recorded-hours = Тетхагъэ сыхьатхэр
 no-information = Къэбар щыӏэп
 go-languages-page = Бзэхэм инэкъубгъо кӏожь
 close = Фэшӏ
+download = Къытех
+dataset-version = Версийон
+# dataset metadata - age of contributor
+dataset-metadata-age = Ныбжь
+data-download-yes = Ары
+data-download-deny = Хьау
+data-other-download = Къэтыгъэ къытехын
+release-version = Версийон
