@@ -8,6 +8,12 @@ sc-review-no-sentences = მა̄მ ა̈რიხ განსახილუ�
 sc-review-form-prompt =
     .message = განხილულ წინადება̄̈ლ მა̄მ ლიხ ქა ლჷზზე, ხიმა დარწმუნებულ?
 sc-review-form-usage = წინადადება̄̈ ჩულა̈მტკიცა̄̈უ̂დ ქა̄თფურცელ ლერსგუ̂ანთე, ჩულაწნა̄̈უ̂დ — ლერთანთე, ქალა̈ცუ̂რად — ჟიბა̄უ̂. <strong> ნომა აჯ̄̈შდჷნდე̄დს ისგუ მიმოხილუ̂ა̄̈ ქალიზზი! </strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = წყარო: { $sentenceSource }
+sc-review-form-button-reject = ჩულიწნა̈უ̂ი
+sc-review-form-button-skip = ქალიცუ̂რე
+sc-review-form-button-approve = ჩულიმტკიცა̈უ̂ი
 
 ## REVIEW CRITERIA
 
