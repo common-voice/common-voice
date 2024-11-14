@@ -22,3 +22,6 @@ contact-us = اما ملی رابطہ کُرا
 contact-us-email = ای میل<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = تانوں ای میل درج کُرا
 signup-button-value = ما ای میل کی ایک لنک ݜئی
+footer-text-privacy = <privacyLink>رازداری</privacyLink>
+footer-text-terms = <termsLink>شرائط</termsLink>
+footer-text-cookies = <cookiesLink>کوکیز<cookiesLink>
