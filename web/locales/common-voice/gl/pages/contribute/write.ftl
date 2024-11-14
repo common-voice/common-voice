@@ -158,3 +158,5 @@ transcribe-audio-menu-item-tooltip = Transcribir gravacións de audio no seu idi
 
 add-sentences-menu-item-aria-label = Engadir novas frases para lectura
 review-sentences-menu-item-aria-label = Revisar frases enviadas pola comunidade
+add-questions-menu-item-aria-label = Enviar novas preguntas para que a comunidade lea e responda
+transcribe-audio-menu-item-aria-label = Transcribir gravacións de audio

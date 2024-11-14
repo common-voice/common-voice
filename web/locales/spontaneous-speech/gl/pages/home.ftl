@@ -25,3 +25,12 @@ check-bubble-title = <mark>Revisar</mark>
 check-bubble-subtitle = Comprobe se a transcrición se corresponde co audio
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Datos</mark>
+data-bubble-subtitle = Publicamos periodicamente o conxunto de datos
+contact-us = Contacta connosco
+contact-us-title = Interésalle contribuír ao proxecto ou colaborar connosco?
+contact-us-email = Correo electrónico: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Xa é parte do noso grupo de probas para o proxecto de Fala Espontánea de Common Voice?
+signup-terms = Ao premer en "Enviar unha ligazón ao meu correo electrónico", acepta as nosas <termsLink>Condicións de servizo</termsLink> e a <privacyLink>Política de privacidade</privacyLink>. Tamén acepta que Mozilla lle poida enviar un correo electrónico con información sobre como participar na versión de proba do proxecto de Fala Espontánea de Common Voice.
+signup-input-placeholder = Escriba o seu enderezo de correo electrónico
+signup-button-value = Enviar unha ligazón ao meu correo electrónico
+footer-text-privacy = <privacyLink>Privacidade</privacyLink>
