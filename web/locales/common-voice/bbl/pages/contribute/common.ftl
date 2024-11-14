@@ -1,6 +1,6 @@
 action-click = წკაპ ბებ
 action-tap = მაქა ნიწყ ბებ
-contribute = ჰ̦აიჼ და́ყ ჩუ დაჰ̦არ { $count }
+contribute = და́ყ ჩუ დაჰ̦არ { $count }
 review = შემოწმადარ (დაყყდარ())
 skip = დაჰ̦ დითარ
 shortcuts = ქაშშეჸ კლევადუჲლრიკი
