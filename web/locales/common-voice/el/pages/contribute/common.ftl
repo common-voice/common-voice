@@ -23,7 +23,7 @@ speak-loading-error =
     Δεν μπορέσαμε να βρούμε καμία πρόταση για να εκφωνήσετε.
     Παρακαλούμε δοκιμάστε ξανά.
 record-button-label = Ηχογράφηση φωνής
-share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
+share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε κι άλλες φωνές
 keep-track-profile = Παρακολουθήστε την πρόοδό σας με ένα προφίλ
 login-to-get-started = Συνδεθείτε ή εγγραφείτε για να ξεκινήσετε
 target-segment-first-card = Συνεισφέρετε στο πρώτο τμήμα του στόχου μας
@@ -37,7 +37,7 @@ vote-yes = Ναι
 vote-no = Όχι
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
-about = Σχετικά
+about = Πληροφορίες
 partner = Συνεργασία
 submit-form-action = Υποβολή
 
