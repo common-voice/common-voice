@@ -94,3 +94,4 @@ community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες,
 about-menu-aria-label = Μενού επιλογών πληροφοριών
 partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice
 press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice
+community-and-languages-menu-item-aria-label = Εξερευνήστε την κοινότητα και τις γλώσσες που υποστηρίζει το Common Voice

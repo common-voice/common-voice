@@ -1,7 +1,10 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Καλώς ορίσατε στο Spontaneous Speech
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Απαντήστε</mark>
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Έλεγχος</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Δεδομένα</mark>
 data-bubble-subtitle = Δημοσιεύουμε περιοδικά το σύνολο δεδομένων

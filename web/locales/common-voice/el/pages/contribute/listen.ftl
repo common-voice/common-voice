@@ -18,7 +18,11 @@ validate-readings = Επικύρωση αναγνώσεων
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Επικύρωση αναγνώσεων, έλεγχος απομαγνητοφωνήσεων
+validate-readings-menu-item-tooltip = Επικυρώστε ηχογραφημένες αναγνώσεις χρηστών στη γλώσσα σας
+review-transcriptions-menu-item-tooltip = Ελέγξτε τις απομαγνητοφωνήσεις που έχουν υποβάλει οι χρήστες στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Μενού επιλογών ακρόασης
+validate-readings-menu-item-aria-label = Επικυρώστε αναγνώσεις που έχουν υποβληθεί από μέλη της κοινότητας
+review-transcriptions-menu-item-aria-label = Ελέγξτε την ακρίβεια των απομαγνητοφωνήσεων των ηχογραφημένων προτάσεων
