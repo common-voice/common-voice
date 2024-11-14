@@ -25,6 +25,8 @@ sc-review-form-reviewed-message =
         [one] განხილულ ლი 1 წინადადება. მაჴუ̂მა̄̈რ!
        *[other] { $sentences } განხილულ ლი. მაჴუ̂მა̄̈რ!
     }
+sc-review-form-review-failure = მიმოხილუ̂ა̄̈ ლიშხუ̂ნი დეშ ა̈ნჴჷრჴა̄̈ნ. ახეკუ̂ჰ ხოშილ გუ̂იანდ.
+sc-review-link = მიმოხილვა.
 
 ## REVIEW CRITERIA
 
