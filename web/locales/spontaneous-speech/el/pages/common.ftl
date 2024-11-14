@@ -10,6 +10,7 @@ interface-language = Γλώσσα περιβάλλοντος:
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
 # Label for button on contribution switcher
 change = Αλλαγή
+media-recorder-api-not-supported = Το MediaRecorder API δεν υποστηρίζεται από το πρόγραμμα περιήγησής σας.
 audioplayer-header = Ακρόαση
 guidelines = Οδηγίες
 # For the button to report an item
