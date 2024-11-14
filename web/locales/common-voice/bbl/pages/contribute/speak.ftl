@@ -35,10 +35,15 @@ add-information-button = მონაცე́მი მაქ ლა́ტჲა�
 continue-speaking-button = ცო, მა́დლობ, ჩაწე́რადარეხ ცო ყეჲსტ́ას
 create-profile-text = ლე́ჸი ჰ̦ოჼ ჰ̦აიჼ მონაცე́მი დაჰ̦ გა́გიარ? შე́ქმნადჲებ პრო́ფილ
 thanks-for-voice-toast = მადლობ ჰ̦ე იშეხ ინფორმა́ციენაჲნო̆
+thanks-for-voice-toast-error = შეცდომ ხილ'ეჼ ინფორმაცია სო იხითოშ
 first-cta-gender-select-default-option = ჰალო ჩავარდებ ცჰა
+create-profile-button = პროფილ თჭაგიარ
+# menu item
+read-sentences = ჰალო ხატტათ წინადადბი
 
 ## MENU ITEM TOOLTIPS
 
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ამბუჲ იარეჼ პარამეტრაჼ მენიუ
