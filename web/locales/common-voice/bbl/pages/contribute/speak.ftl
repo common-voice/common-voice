@@ -21,6 +21,11 @@ review-rerecord = წყეტყოჸ ქუირთლენა ჩაწე
 review-cancel = დაჰ̦ დაჰ̦ითარ გაუქმადარ
 review-keep-recordings = ჩანაწე́რი ჩუ დითარ
 review-delete-recordings = საიჼ ჩანაწე́რი წა́შლადარ
+review-terms = Common Voice გამოყე́ნბადარევ დარ ლე́ვდუჲში̆ თხე<termsLink></termsLink->-ეხაჲე́<privacyLink>პირად მონაცე́მი და́ცოდჲუჲნო̆ განაცხა́დეხ</privacyLink>
+terms-agree = დარ ლე́ვდო́ს
+terms-disagree = დარ ცო ლე́ვდ́ოს/უარ ლე́ვდო́ს
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = მა́დლობ შუჼ იშა́რეჼ ჩანაწე́რი თხოჼ ფლო́ქოღ დალ'რენდალლა́
 
 ## MENU ITEM TOOLTIPS
 
