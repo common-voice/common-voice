@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = بے ساختہ تقریر کی ابدے آگیپی
+# <br></br> represents a newline break
+wall-of-text = کامن وائس ایک ورے پلیٹ فارم شروع کُنا، سے قدرتی بے ساختہ، بغیر اسکرپٹ مُشکُل جمع کُرنہ مرکوز درو۔iیہ تہ وجہ لے کمیونٹی نامہ کی ڈیٹا سوتنہ مدد میلو بو، یہ ملی یہ ڈیٹا سائنسدان نام آں ڈویلپر نامہ کی فائدہ مند ثابت بو۔
 why-spontaneous-speech = اما یہ بے ساختہ اسپیچ پروٹو تائپ کو ژوپامہ
 how-spontaneous-speech-works = بے ساختہ تقریر کنو بئی کرم کُنا
 # text wrapped in <mark></mark> will have a blue background
