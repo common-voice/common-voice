@@ -15,3 +15,6 @@ submit-all-button = Enviar todo
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Aprenda a usar esta páxina
+learn-how-to-use-prompts-explanation = Responda as preguntas nun par de frases, do xeito máis natural que poida. Asegúrese de empregar linguaxe respectuosa e non ofensiva.
+learn-how-to-use-prompts-guidance = Prema <guidanceLink>aquí</guidanceLink> para aprender a usar esta páxina
+learn-how-to-use-transcribe = Como transcribir
