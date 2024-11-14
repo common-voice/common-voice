@@ -1,9 +1,9 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Δεν έχετε επιλέξει καμία γλώσσα. Παρακαλούμε μεταβείτε στο <profileLink>Προφίλ</profileLink> σας για να επιλέξετε γλώσσες.
+sc-review-lang-not-selected = Δεν έχετε επιλέξει καμία γλώσσα. Μεταβείτε στο <profileLink>Προφίλ</profileLink> σας για να επιλέξετε γλώσσες.
 sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
-sc-review-select-language = Παρακαλώ επιλέξτε μια γλώσσα για έλεγχο προτάσεων.
+sc-review-select-language = Επιλέξτε μια γλώσσα για τον έλεγχο προτάσεων.
 sc-review-no-sentences = Καμία πρόταση προς έλεγχο. <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
 sc-review-form-prompt =
     .message = Οι ελεγμένες προτάσεις δεν υποβλήθηκαν, είστε σίγουροι;

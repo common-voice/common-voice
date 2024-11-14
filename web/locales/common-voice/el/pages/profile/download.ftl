@@ -1,10 +1,10 @@
 ## Profile Download
 
 download-q = Θέλετε να κάνετε λήψη των δεδομένων σας;
-download-info = Πείτε μας τι θέλετε να λάβετε:
+download-info = Πείτε μας ποια δεδομένα θέλετε:
 download-profile-title = Προφίλ
-download-profile-info = Περιλαμβάνει email, όνομα χρήστη και δημογραφικά στοιχεία (άμεσα διαθέσιμο)
-download-profile-size = Λίγα bytes
+download-profile-info = Περιλαμβάνει τη διεύθυνση email, το όνομα χρήστη και τα δημογραφικά στοιχεία (άμεσα διαθέσιμο)
+download-profile-size = Λίγα byte
 download-recordings-title = Ηχογραφήσεις
 download-recordings-info = Περιλαμβάνει mp3 και σχετικές προτάσεις, η προετοιμασία θα πάρει λίγο χρόνο
 download-recordings-size = Συνήθως megabytes
