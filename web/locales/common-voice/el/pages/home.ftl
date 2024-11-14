@@ -76,9 +76,9 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 ## NAV ITEMS
 
 answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
-review-transcriptions = Έλεγχος απομαγνητοφωνήσεων <small>(Προσεχώς)</small>
+review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
-transcribe-audio = Απομαγνητοφώνηση ήχου <small>(Προσεχώς)</small>
+transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
 

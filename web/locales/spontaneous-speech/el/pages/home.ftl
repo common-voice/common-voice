@@ -1,10 +1,16 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Καλώς ορίσατε στο Spontaneous Speech
+prompt-bubble-subtitle = Θα σας εμφανίσουμε ένα μήνυμα ή μια ερώτηση
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Απαντήστε</mark>
+respond-bubble-subtitle = Απαντήστε όσο πιο φυσικά μπορείτε
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Μεταγραφή</mark>
+transcribe-bubble-subtitle = Καταγράψτε ό,τι ακούτε στα ηχητικά αποσπάσματα
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Έλεγχος</mark>
+check-bubble-subtitle = Ελέγξετε αν η μεταγραφή ταιριάζει με τον ήχο
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Δεδομένα</mark>
 data-bubble-subtitle = Δημοσιεύουμε περιοδικά το σύνολο δεδομένων
