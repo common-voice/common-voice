@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Καλώς ορίσατε στο Spontaneous Speech
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Μήνυμα</mark>
 prompt-bubble-subtitle = Θα σας εμφανίσουμε ένα μήνυμα ή μια ερώτηση
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Απαντήστε</mark>

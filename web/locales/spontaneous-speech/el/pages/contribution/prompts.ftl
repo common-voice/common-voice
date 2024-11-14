@@ -4,6 +4,7 @@ record-player-header = Καταγράψτε την απάντησή σας
 mic-access-error = Πρέπει να επιτρέψετε την πρόσβαση στο μικρόφωνό σας.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } στο <micIcon></micIcon> και απαντήστε όσο πιο φυσικά μπορείτε
+error-recording = Προέκυψε σφάλμα κατά την ηχογράφηση
 prompt-submitted-success = Η απάντηση υποβλήθηκε επιτυχώς
 prompt-response-deleted-success = Η απάντηση διαγράφηκε επιτυχώς
 # For the button to delete a response to a prompt

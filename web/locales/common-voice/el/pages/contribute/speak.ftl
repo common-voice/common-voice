@@ -67,7 +67,7 @@ read-sentences = Ανάγνωση προτάσεων
 
 speak-contribute-menu-tooltip = Διαβάστε προτάσεις και απαντήστε σε ερωτήσεις
 read-sentences-menu-item-tooltip = Καταγράψτε τον εαυτό σας διαβάζοντας προτάσεις στη γλώσσα σας
-answer-questions-menu-item-tooltip = Καταγράψτε τον εαυτό σας να απαντά σε ερωτήσεις και αιτήματα στη γλώσσα σας
+answer-questions-menu-item-tooltip = Καταγράψτε τον εαυτό σας να απαντά σε ερωτήσεις και μηνύματα στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS
 
