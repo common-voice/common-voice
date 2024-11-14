@@ -14,6 +14,9 @@ sc-review-form-source = წყარო: { $sentenceSource }
 sc-review-form-button-reject = ჩულიწნა̈უ̂ი
 sc-review-form-button-skip = ქალიცუ̂რე
 sc-review-form-button-approve = ჩულიმტკიცა̈უ̂ი
+sc-review-form-keyboard-usage-custom = აჯად ჩუჯა̈მჲე̄და, ერე ა̈ხჴჷმრა ჩქა̈რდლა̈შმუნა̄̈ლ: { sc-review-form-button-approve-shortcut } ლა̈მტკიცა̄̈უ̂ი, { sc-review-form-button-reject-shortcut } ლაწნა̈უ̂, { sc-review-form-button-skip-shortcut } ქალა̈ცუ̂რა
+sc-review-form-button-submit =
+    .submitText = ლისჷნჯა̈უ̂ი̄ ქალისრულე
 
 ## REVIEW CRITERIA
 
