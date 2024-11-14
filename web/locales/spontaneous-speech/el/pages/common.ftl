@@ -25,7 +25,7 @@ contribute = Συνεισφορά
 
 ## Navbar
 
-respond-to-prompt = Απάντηση σε μήνυμα
+respond-to-prompt = Απάντηση σε προτροπή
 transcribe-audio = Μεταγραφή ήχου
 check-transcriptions = Έλεγχος μεταγραφών
 

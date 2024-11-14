@@ -1,9 +1,10 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Καλώς ορίσατε στο Spontaneous Speech
+how-spontaneous-speech-works = Πώς λειτουργεί το Spontaneous Speech
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>Μήνυμα</mark>
-prompt-bubble-subtitle = Θα σας εμφανίσουμε ένα μήνυμα ή μια ερώτηση
+prompt-bubble-title = <mark>Προτροπή</mark>
+prompt-bubble-subtitle = Θα σας εμφανίσουμε μια προτροπή ή μια ερώτηση
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Απαντήστε</mark>
 respond-bubble-subtitle = Απαντήστε όσο πιο φυσικά μπορείτε
