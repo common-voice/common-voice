@@ -6,3 +6,5 @@ wall-of-text = Common Voice está a lanzar unha segunda plataforma centrada na r
 why-spontaneous-speech = Por que lanzamos este prototipo de Fala Espontánea
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Útil para <mark>contextos de fala orgánica</mark> e casos de uso (por exemplo, para que o recoñecemento da fala funcione con persoas que están falando de xeito espontáneo e coloquial)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Mellor soporte para realidades lingüísticas como o "translingüismo" e a <mark>alternancia de códigos lingüísticos</mark>
