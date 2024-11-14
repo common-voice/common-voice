@@ -10,7 +10,10 @@ interface-language = Γλώσσα περιβάλλοντος:
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
 # Label for button on contribution switcher
 change = Αλλαγή
+coming-soon = Σύντομα σε περισσότερες γλώσσες
 media-recorder-api-not-supported = Το MediaRecorder API δεν υποστηρίζεται από το πρόγραμμα περιήγησής σας.
+# Toast message that is displayed when an item is skipped
+skipped = Παραλείφθηκε
 audioplayer-header = Ακρόαση
 guidelines = Οδηγίες
 # For the button to report an item
@@ -22,7 +25,9 @@ contribute = Συνεισφορά
 
 ## Navbar
 
+respond-to-prompt = Απάντηση σε μήνυμα
 transcribe-audio = Μεταγραφή ήχου
+check-transcriptions = Έλεγχος μεταγραφών
 
 ## Not Found Page
 
@@ -30,10 +35,14 @@ not-found-page-header = Δεν βρέθηκε
 not-found-page-content = Η σελίδα που ζητήσατε δε βρέθηκε
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Συμφωνώ με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink> του Common Voice
+# Locales
+bsy = Σάμπα Μπισάγια
+cdo = Φουτζόου
 cpx = Χενγκ Χούα
 en = Αγγλικά
 fr = Γαλλικά
 hch = Wixarika
+meh = Μιξτέκ νοτιοδυτικού Τλαξιάκο
 pez = Ανατολικά Πενάν
 pne = Δυτικά Πενάν
 tr = Τουρκικά
