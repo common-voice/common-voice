@@ -30,6 +30,7 @@
     "fp-ts": "^2.13.1",
     "http-status-codes": "2.2.0",
     "ioredis": "4.28.5",
+    "jose": "^5.9.6",
     "js-md5": "0.7.3",
     "mp3-duration": "^1.1.0",
     "mysql2": "^3.11.3",
