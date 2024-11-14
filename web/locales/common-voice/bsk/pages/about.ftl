@@ -83,18 +83,42 @@ about-playbook-how-localize-content-5 = masulo biśaćar mii video barenin
 
 about-playbook-how-add-sentences = jumulan belate kaa ećam?
 about-playbook-how-add-sentences-content-1 = jumlan khole kaa eṭas maamay baan <writePageLink>Write page</writePageLink> yaa jumlan ḍubara esaljar khole <reviewPageLink>Review page</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = jumlan hanjuko ućharingulo śaamil ećar alṭan sise nuparan manzoor eṭiṣan. Jumlan public domain ulo maniṣ ḍaa turma chunḍo lafzing cum jot maniṣ. Text e ḍamna cum ḍugharusin waiver gane and gutte process gane mii kaa rabitta ettin commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = guṭe isṭimal neṭan Wikepedia cum  khutukiyo jumlan ḍuruwar suṣ maamay baan
 
 ## How to record quality
 
+about-playbook-how-record-quality = ḍalṭas quality ulo ućhare cilip belate rikaad ećam?
+about-playbook-how-record-content-1 = maymo maćharulo ćaġa eṭin! belate maa ćaġa ećaan ke iṭe khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
+about-playbook-how-record-content-2 = madigaartak ućharing oomaniṣ ḍaa ma ḍamayalas asaan maniṣ.
+about-playbook-how-record-content-3 = jumlan śan ne ġaṭanin, besan ke lafzan phaṭ ayeṭing, baḍal yaa kaa  ayeṭin.
+about-playbook-how-record-content-4 = maa ćaġa eṭas cum yaar platfame rekaading eṭasar barenin ḍa beśal ćaġa bas eṭumar eṭ ban maniṣ.
+about-playbook-how-record-content-5 = akhole mazeed warc eṭase ṭariqaar barenin .</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = mii belate baaṣan hanjuko ućharingulo śuwaanate ḍal ḍiwsas memaya baan?
+about-playbook-how-grow-language-content-1 = dataset butan sisar uriin ce ḍuuybi beske hanjuko ućharingar emasase gane mi har kate sisar ganen ḍiusaan
+about-playbook-how-grow-language-content-2 = yoorkuming
+about-playbook-how-grow-language-content-3 = maa yoorkuan neṭan sise emasase gane uriin ce ḍuunas maamay baan. butan ḍuro api. maa online video conferencing neṭan yaa agar safe bila ke kaa nuuro ke maamaybaan. mii templetingar barening belata yoorkuwan eṭas bila ke.
+about-playbook-how-grow-language-content-4 = social media
+about-playbook-how-grow-language-content-5 = Maa social media platformićing cum taqhpan oocuas maamaybaan. Nukirimin oor oocin daa osin ke guṭe bes awaaji bila nuse ḍaa baaṣine haqate, ućhare AI, techulo sikilingate hihin cun ḍuġaruśume huruting. mazeed śalda hamase gane ḍa social campaignan egucarćar ulum content hike ḍuro sućar khole barenin</campaignLink>.
+about-playbook-how-grow-language-content-6 = paatnarship ke networking
+about-playbook-how-grow-language-content-7 = menke osulu balaaśo ḍuisin. Akhiljuko univiersitimiulo, baaṣe schoolingulo, ḍaa advocacy group daa data science ulo omayman. maa bes ḍaa belate mariin ce ḍuunṣ oomaybaan ke oopaćar namaanin osulo obiśain. mii outreach templatar ke barenin </outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> maa baaṣe guti khaas meymi ḍaa kaman ṭariqan bican śuru ećar.
 
 ## How to validate
 
+about-playbook-how-validate = jaar belate leel meymi ke ućhare kilip approve ootas bila nuse?
+about-playbook-how-validate-content-1 = u ḍukoyaljaa ḍaa uwe guslo balićila ke, ućhare cilip approve eṭi.
+about-playbook-how-validate-content-2 = amine accent un cum ṭhum bila ke iṭe reject ayeṭi beske ućhare recognition gane zaroori bila ke uyoonar ḍaltasanate ḍuro eṭiṣ.
+about-playbook-how-validate-content-3 = agar ṭalafuz mesulo balaas mumkin api ke, ḍaa iṭum khiṭum ućharing bican ke, ṭhumiśuwe ućharing bica ke iṭe ućhare kilip reject eṭin. ḍaa sahi eṭase critera maalumaaṭ gane khole barenin </accuracyLink>.
+about-playbook-how-validate-content-4 = agar ućhare klip alṭan sise reject eṭuman ke eṭ ṭhum dataset nićhila.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = dataset belate access ḍaa istimaal ećam?
+about-playbook-how-access-dataset-content-1 = ma dataset patuatar niṣ maamay ban kholum </datasetsPage>,  version ke baaṣ nisalginin ḍaa download eṭin! Guke filesin ulo metadata bila masalan  demographic maalumaat ḍaa ṭasḍiiqe data.
 
 ## How are decisions made
 
