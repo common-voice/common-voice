@@ -36,21 +36,22 @@ not-found-page-content = Η σελίδα που ζητήσατε δε βρέθη
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Συμφωνώ με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink> του Common Voice
 # Locales
-bsy = Σάμπα Μπισάγια
+bsy = Μπισάγια (Σαμπάχ)
 cdo = Φουτζόου
 cpx = Χενγκ Χούα
 en = Αγγλικά
 fr = Γαλλικά
-hch = Wixarika
+hch = Χουιτσόλ
 kzi = Κελάμπιτ
 mbf = Μαλαϊκά Περανακάνων
 meh = Μιξτέκ νοτιοδυτικού Τλαξιάκο
 mel = Κεντρικά Μελανάου
 mmc = Μασάουα (Μιτσοακάν)
 ms-MY = Μαλαϊκά
-msi = Σάμπα Μαλαϊκά
+msi = Μαλαϊκά (Σαμπάχ)
 pez = Ανατολικά Πενάν
 pne = Δυτικά Πενάν
 sdo = Μπινταγιού (Σέριαν)
 snv = Σαμπάν
 tr = Τουρκικά
+xkl = Κενιάχ
