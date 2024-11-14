@@ -36,5 +36,5 @@ request-language-success-list-3 =
     στείλτε email στο <emailLink>{ $email }</emailLink>
     και θα επικοινωνήσουμε μαζί σας!
 request-language-error =
-    Μπορεί να μην έχουμε λάβει αυτό το αίτημα. Παρακαλούμε στείλτε απευθείας email
-    στο <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!
+    Ενδέχεται να μην έχουμε λάβει αυτό το αίτημα. Στείλτε email απευθείας στο
+    <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!
