@@ -32,11 +32,6 @@ target-segment-first-banner = Hjälp till med att skapa Common Voice första må
 target-segment-add-voice = Lägg till din röst
 target-segment-learn-more = Läs mer
 change-preferences = Ändra inställningar
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Insamling av röster
-contribute-sentence-collection-nav-header = Insamling av meningar
 login-signup = Logga in / Registrera dig
 vote-yes = Ja
 vote-no = Nej
@@ -56,7 +51,7 @@ report-offensive-language-detail = Den här meningen har respektlöst eller krä
 report-grammar-or-spelling = Grammatiskt / stavfel
 report-grammar-or-spelling-detail = Den här meningen har ett grammatiskt eller stavfel
 report-different-language = Annat språk
-report-different-language-detail = Det är skrivet på ett annat språk än det jag pratar.
+report-different-language-detail = Den är skriven på ett annat språk än det jag pratar.
 report-difficult-pronounce = Svårt att uttala
 report-difficult-pronounce-detail = Den innehåller ord eller fraser som är svåra att läsa eller uttala.
 report-offensive-speech = Offensivt tal

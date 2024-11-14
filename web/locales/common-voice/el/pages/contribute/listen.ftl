@@ -7,8 +7,8 @@ listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 listen-empty-state = Μάλλον τελείωσαν τα αποσπάσματα - ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
 listen-empty-state-variants = Ενδέχεται να μη διατίθενται αποσπάσματα στην παραλλαγή της γλώσσας σας! Αν αισθάνεστε άνετα, μπορείτε να αλλάξετε τις ρυθμίσεις σας για να βλέπετε άλλες προτάσεις στη γλώσσα σας.
 listen-loading-error =
-    Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
-    Παρακαλούμε δοκιμάστε ξανά.
+    Δεν μπορέσαμε να βρούμε κανένα απόσπασμα προς ακρόαση.
+    Δοκιμάστε ξανά αργότερα.
 listen-abort-title = Τελειώσατε με την επικύρωση αποσπασμάτων;
 listen-abort-cancel = Συνέχεια επικύρωσης
 listen-abort-confirm = Τέλος επικύρωσης
@@ -17,8 +17,12 @@ validate-readings = Επικύρωση αναγνώσεων
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = Επικύρωση αναγνώσεων, έλεγχος απομαγνητοφωνήσεων
+listen-contribute-menu-tooltip = Επικύρωση αναγνώσεων, έλεγχος μεταγραφών
+validate-readings-menu-item-tooltip = Επικυρώστε ηχογραφημένες αναγνώσεις χρηστών στη γλώσσα σας
+review-transcriptions-menu-item-tooltip = Ελέγξτε τις μεταγραφές που έχουν υποβάλει οι χρήστες στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Μενού επιλογών ακρόασης
+validate-readings-menu-item-aria-label = Επικυρώστε αναγνώσεις που έχουν υποβληθεί από μέλη της κοινότητας
+review-transcriptions-menu-item-aria-label = Ελέγξτε την ακρίβεια των μεταγραφών των ηχογραφημένων προτάσεων

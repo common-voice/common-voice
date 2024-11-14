@@ -17,6 +17,10 @@ validate-readings = Validar le lecturas
 
 listen-contribute-menu-tooltip = Validar le lecturas, revider le transcriptiones
 validate-readings-menu-item-tooltip = Validar le lecturas scribite per le usatores in tu lingua
+review-transcriptions-menu-item-tooltip = Revider in tu lingua transcriptiones inviate per le usator
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Menu de optiones de ascoltar
+validate-readings-menu-item-aria-label = Validar lecturas inviate per membros del communitate
+review-transcriptions-menu-item-aria-label = Revider transcriptiones de phrases registrate pro le precision

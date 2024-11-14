@@ -16,3 +16,5 @@ partnerships-small-business-description = Gústanos coñecer as necesidades e o 
 partnerships-corporates-header = Grandes empresas e plataformas
 partnerships-corporates-description = Se desexa saber máis sobre o conxunto de datos, quere investir nas ampliacións planificadas da plataforma ou busca oportunidades de colaboración, <emailFragment>envíenos un correo.</emailFragment>
 partnerships-our-partners = Os nosos socios
+# menu item
+partners = Socios

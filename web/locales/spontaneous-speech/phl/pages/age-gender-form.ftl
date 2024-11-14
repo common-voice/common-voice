@@ -16,9 +16,9 @@ thank-you-for-your-information = تھی معلوماتی بیڈی شکریہ
 
 ## Gender dropdown
 
-male_masculine = بھیرو
-female_feminine = سوتری
-intersex = نہ تہ سوتری نہ بہ بھیرو
+male_masculine = مِیش
+female_feminine = کُڑیۡ
+intersex = نہ تہ کُڑیۡ نہ بہ مِیش
 transgender = ٹرانس جینڈر
 non-binary = غیر بائنری
 do_not_wish_to_say = گہ منئنی نہ دوئیانو

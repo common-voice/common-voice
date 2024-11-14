@@ -23,7 +23,7 @@ hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
 voices-online = Φωνές σε σύνδεση
 todays-progress = Σημερινή πρόοδος
-help-reach-goal = Βοηθήστε μας να φτάσουμε στα { $goal }
+help-reach-goal = Βοηθήστε μας να φτάσουμε τα { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Θέλετε να δωρίσετε τη φωνή σας;
 all-locales = Όλες
@@ -44,7 +44,7 @@ x-years-short =
 help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
 sign-up-account = Δημιουργία λογαριασμού
 email-subscription-title = Εγγραφή για ενημερώσεις μέσω email
-email-subscription-title-new = Εγγραφείτε για ενημερωτικά δελτία του Common Voice, υπενθυμίσεις στόχων και ενημερώσεις προόδου
+email-subscription-title-new = Λάβετε ενημερωτικά δελτία του Common Voice, υπενθυμίσεις στόχων και ενημερώσεις προόδου
 
 ## Account Benefits
 
@@ -76,16 +76,22 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 ## NAV ITEMS
 
 answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
-review-transcriptions = Έλεγχος απομαγνητοφωνήσεων <small>(Προσεχώς)</small>
+review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
-transcribe-audio = Απομαγνητοφώνηση ήχου <small>(Προσεχώς)</small>
+transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Συνεργασίες, τύπος και άρθρα, κοινότητα και γλώσσες
 partnerships-menu-item-tooltip = Συνεργαστείτε μαζί μας
+press-and-stories-menu-item-tooltip = Επισκεφθείτε το blog μας ή γράψτε για εμάς
+community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες, κοινότητες και το Common Voice
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Μενού επιλογών πληροφοριών
+partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice
+press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice
+community-and-languages-menu-item-aria-label = Εξερευνήστε την κοινότητα και τις γλώσσες που υποστηρίζει το Common Voice

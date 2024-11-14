@@ -96,3 +96,5 @@ license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Discargar le collection de datos de tu voce
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Optiones de discargamento pro acceder al datos de Common Voice
