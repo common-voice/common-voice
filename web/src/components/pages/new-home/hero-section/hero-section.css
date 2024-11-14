@@ -153,7 +153,6 @@
             }
 
             .hero-background {
-                background: url('./assets/hero-hd.jpg');
                 background-size: cover;
                 border-top-left-radius: 60%;
                 border-bottom-left-radius: 60%;

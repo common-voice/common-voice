@@ -50,6 +50,7 @@
             font-size: var(--font-size-md);
             text-align: left;
             margin-inline: 30px;
+            margin-block-end: 40px;
         }
     }
 
@@ -84,6 +85,10 @@
                 width: 100%;
             }
 
+            @media (--sm-down) {
+                height: 390px;
+            }
+
             .card-image {
                 height: 155px;
 
@@ -110,11 +115,15 @@
                 flex-direction: column;
 
                 h2.card-header {
-                    font-size: 24px;
+                    font-size: var(--font-size-lg);
                     font-weight: 600;
                     color: var(--black);
                     margin-block-end: 8px;
                     text-align: left;
+
+                    @media (--sm-down) {
+                        font-size: var(--font-size-md);
+                    }
                 }
 
                 p {
@@ -126,6 +135,10 @@
                     height: auto;
                     max-height: 130px;
                     overflow-y: auto;
+
+                    @media (--sm-down) {
+                        font-size: var(--font-size-sm);
+                    }
                 }
 
                 .button {
@@ -154,6 +167,10 @@
                         path {
                             fill: var(--white);
                         }
+                    }
+
+                    @media (--sm-down) {
+                        height: 45px;
                     }
                 }
             }
