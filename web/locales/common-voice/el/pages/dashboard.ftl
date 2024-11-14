@@ -41,10 +41,10 @@ finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασί�
 lose-changes-warning = Αν αποχωρήσετε τώρα, θα χάσετε τις αλλαγές σας
 build-custom-goal = Δημιουργήστε έναν προσαρμοσμένο στόχο
 help-reach-hours-pluralized =
-    Βοηθήστε μας να φτάσουμε { NUMBER($hours) ->
-        [one] { $hours } ώρα
-       *[other] { $hours } ώρες
-    } στα { $language } με ένα προσωπικό στόχο
+    { NUMBER($hours) ->
+        [one] Βοηθήστε μας να φτάσουμε τη { $hours } ώρα στα { $language } με έναν προσωπικό στόχο
+       *[other] Βοηθήστε μας να φτάσουμε τις { $hours } ώρες στα { $language } με έναν προσωπικό στόχο
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Βοηθήστε το Common Voice να φτάσει τη { $hours } ώρα σε μια γλώσσα με έναν προσωπικό στόχο
