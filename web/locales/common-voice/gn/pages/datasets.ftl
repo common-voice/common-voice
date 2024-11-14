@@ -95,3 +95,5 @@ license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Emboguejy ore ayvu mba’ekuaarã aty
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Mba’éicha emboguejykuaa eike hag̃ua Common Voice mba’ekuaarãme
