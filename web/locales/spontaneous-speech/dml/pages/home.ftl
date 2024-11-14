@@ -8,6 +8,8 @@ why-spontaneous-speech = اما یہ بے ساختہ اسپیچ پروٹو تا�
 why-card-1-text = فائدہ مند کی<mark> نایاتی تقریعر تہ سیاق و سباق</mark> آں مقدمات تہ استعمل کُرا (مثل تہ طورہ ، کیرا بی گٹینبہ تے تقریر زاناال تئیں مااݜہ ملی کُرو تے کُرئی غیر اسکرپٹ آں بول چال مُشکُل بین)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = باݜہ تہ حقیتہ کی بہتر تعاون لکہ چی ترجمہ آں <mark>کوڈ سوئچنگ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = میں باݜہ نام کی بہتر معاونت کیرا لے کم درو یا<mark> ٹیکسٹ کارپس نی درو</mark> استعمال کُرئیں کی (مثل تہ طورہ، سماجیات،مختلف قسم نم، تاریخی طورہ غیر رسمی باݜہ نم وغیرہ)
 how-spontaneous-speech-works = بے ساختہ تقریر کنو بئی کرم کُنا
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامٹ</mark>
