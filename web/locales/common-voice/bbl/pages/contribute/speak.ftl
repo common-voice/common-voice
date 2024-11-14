@@ -13,6 +13,7 @@ record-cancel = ო́შტიჸ ჩანაწე́რეხ უარ ა́�
 record-instruction = { $actionType } ღილაკმაქ<recordIcon></recordIcon>ნე́ ჴე́ნო̆ ჭჵ́აღოშ ჰ̦ალ̆ო ხატტათ წინადა́დებ
 record-stop-instruction = { $actionType }ღილაკენ<stopIcon></stopIcon>მაცმე ცე́რ დაჲლ'ე́შ
 record-three-more-instruction = ჴო დისენგ!
+record-again-instruction = დაქიჼ და!<recordIcon></recordIcon>თაგდებათ შილღეჼ ჩანაწერ
 
 ## MENU ITEM TOOLTIPS
 
