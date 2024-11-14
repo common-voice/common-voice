@@ -6,8 +6,8 @@ skip = Παράλειψη
 shortcuts = Συντομεύσεις
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> κλιπ
-       *[other] <bold>{ $count }</bold> κλιπ
+        [one] <bold>{ $count }</bold> απόσπασμα
+       *[other] <bold>{ $count }</bold> αποσπάσματα
     }
 goal-help-recording = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου ηχογραφήσεών μας!
 goal-help-validation = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου επαληθεύσεών μας!
@@ -20,10 +20,10 @@ speak-empty-state = Δεν υπάρχουν προτάσεις προς ηχογ
 no-sentences-for-variants = Ενδέχεται να μη διατίθενται προτάσεις στην παραλλαγή της γλώσσας σας! Αν αισθάνεστε άνετα, μπορείτε να αλλάξετε τις ρυθμίσεις σας για να βλέπετε άλλες προτάσεις στη γλώσσα σας.
 speak-empty-state-cta = Συνεισφορά προτάσεων
 speak-loading-error =
-    Δεν μπορέσαμε να βρούμε καμία πρόταση για να εκφωνήσετε.
-    Παρακαλούμε δοκιμάστε ξανά.
+    Δεν μπορέσαμε να βρούμε καμία πρόταση προς εκφώνηση.
+    Δοκιμάστε ξανά αργότερα.
 record-button-label = Ηχογράφηση φωνής
-share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
+share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε κι άλλες φωνές
 keep-track-profile = Παρακολουθήστε την πρόοδό σας με ένα προφίλ
 login-to-get-started = Συνδεθείτε ή εγγραφείτε για να ξεκινήσετε
 target-segment-first-card = Συνεισφέρετε στο πρώτο τμήμα του στόχου μας
@@ -32,17 +32,12 @@ target-segment-first-banner = Βοηθήστε στη δημιουργία το�
 target-segment-add-voice = Προσθέστε τη φωνή σας
 target-segment-learn-more = Μάθετε περισσότερα
 change-preferences = Αλλαγή προτιμήσεων
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Συλλογή φωνής
-contribute-sentence-collection-nav-header = Συλλογή προτάσεων
 login-signup = Σύνδεση/Εγγραφή
 vote-yes = Ναι
 vote-no = Όχι
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
-about = Σχετικά
+about = Πληροφορίες
 partner = Συνεργασία
 submit-form-action = Υποβολή
 
@@ -79,7 +74,7 @@ shortcut-skip = α
 shortcut-record-toggle = γ
 shortcut-record-toggle-label = Εγγραφή/Διακοπή
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Νέα εγγραφή κλιπ
+shortcut-rerecord-toggle-label = Νέα εγγραφή αποσπάσματος
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Απόρριψη τρέχουσας ηχογράφησης
 shortcut-submit = Επιστροφή
@@ -129,8 +124,8 @@ contribution-misreadings-example-7-explanation = [Δεν υπάρχει «τα»
 contribution-misreadings-example-8-title = Η μέλισσα πέταξε γρήγορα.
 contribution-misreadings-example-8-explanation = [Εσφαλμένο περιεχόμενο]
 contribution-varying-pronunciations-title = Ποικίλες προφορές
-contribution-varying-pronunciations-description = Προσέξτε πολύ πριν απορρίψετε ένα δείγμα όπου, κατά τη γνώμη σας, ο αναγνώστης έχει προφέρει λάθος μια λέξη, δεν έχει τονίσει τη σωστή συλλαβή ή έχει αγνοήσει, φαινομενικά, ένα ερωτηματικό. Υπάρχει μια μεγάλη ποικιλία προφορών, μερικές από τις οποίες ενδέχεται να μην έχετε ακούσει στην περιοχή σας. Παρακαλούμε δείξτε κάποια επιείκεια ως ένδειξη εκτίμησης για τους ανθρώπους που μιλούν διαφορετικά από εσάς.
-contribution-varying-pronunciations-description-extended = Από την άλλη, αν θεωρείτε ότι ο αναγνώστης δεν έχει συναντήσει ποτέ ξανά τη λέξη και απλά δεν μάντεψε σωστά την προφορά της, παρακαλούμε κάντε απόρριψη. Αν δεν γνωρίζετε σίγουρα, πατήστε το κουμπί «Παράλειψη».
+contribution-varying-pronunciations-description = Προσέξτε πολύ πριν απορρίψετε κάποιο απόσπασμα όπου, κατά τη γνώμη σας, ο αναγνώστης έχει προφέρει λανθασμένα μια λέξη, δεν έχει τονίσει τη σωστή συλλαβή ή έχει αγνοήσει, φαινομενικά, ένα ερωτηματικό. Υπάρχει μια μεγάλη ποικιλία προφορών, μερικές από τις οποίες ενδέχεται να μην έχετε ακούσει στην περιοχή σας. Δείξτε επιείκεια ως ένδειξη εκτίμησης για τους ανθρώπους που μιλούν διαφορετικά από εσάς.
+contribution-varying-pronunciations-description-extended = Από την άλλη, αν θεωρείτε ότι ο αναγνώστης ίσως να μην έχει έρθει ποτέ ξανά αντιμέτωπος με τη λέξη και απλώς δεν μάντεψε σωστά την προφορά της, κάντε απόρριψη. Αν δεν γνωρίζετε σίγουρα, κάντε κλικ στο κουμπί «Παράλειψη».
 contribution-varying-pronunciations-example-1-title = Θα πάει αύριο στην κλινική.
 contribution-varying-pronunciations-example-1-explanation = [Σε ορισμένες περιοχές της Ελλάδας, η προφορά των «λι» και «νι» είναι ουρανική, αντί για φατνιακή]
 contribution-varying-pronunciations-example-2-title = Έχει δύο όμορφα παιδάκια.
@@ -150,8 +145,8 @@ contribution-background-voices-example-1-explanation = Έρχεσαι; <strong>[
 contribution-volume-title = Ένταση
 contribution-volume-description = Θα υπάρχουν φυσικές διαφορές στην ένταση μεταξύ των αναγνωστών. Απορρίψτε μόνο εάν η ένταση είναι τόσο μεγάλη που η ηχογράφηση διακόπτεται ή (συνηθέστερα) εάν είναι τόσο χαμηλή που δεν μπορείτε να ακούσετε τι λέγεται χωρίς αναφορά στο γραπτό κείμενο.
 contribution-reader-effects-title = Εφέ ανάγνωσης
-contribution-reader-effects-description = Οι περισσότερες ηχογραφήσεις γίνονται από ανθρώπους που μιλούν με την κανονική τους φωνή. Μπορείτε να αποδεχτείτε κάποιες σπάνιες περιπτώσεις όπου ο αναγνώστης φωνάζει, ψιθυρίζει ή μιλάει με μια «δραματική» φωνή. Παρακαλούμε απορρίψτε τις τραγουδιστές ηχογραφήσεις, καθώς και αυτές που έγιναν με συνθετική φωνή υπολογιστή.
+contribution-reader-effects-description = Οι περισσότερες ηχογραφήσεις γίνονται από ανθρώπους που μιλούν με την κανονική τους φωνή. Μπορείτε να αποδεχτείτε κάποιες σπάνιες περιπτώσεις όπου ο αναγνώστης φωνάζει, ψιθυρίζει ή μιλάει με μια «δραματική» φωνή. Απορρίψτε τις τραγουδιστές ηχογραφήσεις, καθώς και αυτές που έγιναν με συνθετική φωνή υπολογιστή.
 contribution-just-unsure-title = Δεν γνωρίζετε;
-contribution-just-unsure-description = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, παρακαλούμε ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, χρησιμοποιήστε το κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
+contribution-just-unsure-description = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, κάντε κλικ στο κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
 see-more = <chevron></chevron>Προβολή περισσότερων
 see-less = <chevron></chevron>Προβολή λιγότερων

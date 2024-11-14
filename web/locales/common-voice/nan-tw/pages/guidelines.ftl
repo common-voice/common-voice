@@ -85,6 +85,7 @@ adding-sentences-subheader-special-characters = 特殊符號與外文
 adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
 adding-sentences-subheader-special-characters-explanation-2 = 各種語言可以在在地化時制定自己的驗證規則。如果沒有特別的驗證規則，則將會顯示英文版的規則給予貢獻者。
 adding-sentences-subheader-offensive-content = 冒犯性內容
+adding-sentences-subheader-offensive-content-explanation = <communityGuidelines><communityGuidelines><communityGuidelines>如果句子有冒犯性或讓人發怒，例如包含情色內容，或違反我們的<communityGuidelines>社群參與指南</communityGuidelines>，你就應該拒絕該句子。你也可以透過 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯繫我們以釐清問題。
 reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「通過」按鈕。
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
 reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。

@@ -32,11 +32,14 @@ target-segment-first-banner = Ajuta a criari u primu sigmentu ubbittivu di Commo
 target-segment-add-voice = Agghiungi a to vuci
 target-segment-learn-more = Cchiù nfurmazziuna
 change-preferences = Cancia prifirenzi
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ricota di vuci
-contribute-sentence-collection-nav-header = Ricota di frasi
+login-signup = Trasi / Riggìstrati
+vote-yes = Se
+vote-no = No
+datasets = Archivi dî dati
+languages = Lingui
+about = A prupòsitu
+partner = Assuciatu
+submit-form-action = Manna
 
 ## Reporting
 
@@ -120,6 +123,7 @@ contribution-misreadings-example-8-title = U liafanti mancia un partugallu.
 contribution-misreadings-example-8-explanation = [U cuntinutu nun currispunni]
 contribution-varying-pronunciations-title = Prununzi variàbbili
 contribution-background-noise-title = Scrusciu di funnu
+contribution-background-noise-example-2-explanation = [Nun si senti na parti dû testu]
 contribution-background-noise-example-3-fixed-title = <strong>[Scrusciu]</strong> giaganti dû <strong>[scrusciu]</strong> -àssicu.
 contribution-background-voices-title = Vuci nnô funnu
 contribution-volume-title = Vulumi

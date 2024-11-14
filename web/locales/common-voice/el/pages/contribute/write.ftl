@@ -14,12 +14,12 @@ sc-write-submit-confirm = Επιβεβαιώνω ότι αυτή η πρότασ
 sc-review-write-title = Τι προτάσεις μπορώ να προσθέσω;
 sc-review-small-batch-title = Τρόπος προσθήκης πολλαπλών προτάσεων
 new-sentence-rule-1 = Χωρίς περιορισμούς <noCopyright>πνευματικών δικαιωμάτων</noCopyright> (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Λιγότερες από 15 λέξεις
-new-sentence-rule-3 = Σωστής γραμματική
-new-sentence-rule-4 = Σωστή ορθογραφία και στίξη
-new-sentence-rule-5 = Χωρίς αριθμούς/ειδικούς χαρακτήρες
+new-sentence-rule-2 = Λιγότερες από 15 λέξεις ανά πρόταση
+new-sentence-rule-3 = Με σωστή γραμματική
+new-sentence-rule-4 = Με σωστή ορθογραφία και στίξη
+new-sentence-rule-5 = Χωρίς αριθμούς ή ειδικούς χαρακτήρες
 new-sentence-rule-6 = Χωρίς ξένα γράμματα
-new-sentence-rule-7 = Κατάλληλη παραπομπή
+new-sentence-rule-7 = Με κατάλληλη παραπομπή
 new-sentence-rule-8 = Ιδανικά φυσικές και διαλογικές προτάσεις, εύκολες στην ανάγνωση
 login-instruction-multiple-sentences = <loginLink>Συνδεθείτε</loginLink> ή <loginLink>εγγραφείτε</loginLink> για να προσθέσετε πολλαπλές προτάσεις
 how-to-cite = Πώς κάνω παραπομπή;
@@ -29,7 +29,7 @@ guidelines = Οδηγίες
 contact-us = Επικοινωνία
 add-sentence-success = Συλλέχθηκε 1 πρόταση
 add-sentence-error = Σφάλμα προσθήκης πρότασης
-required-field = Παρακαλώ συμπληρώστε αυτό το πεδίο.
+required-field = Συμπληρώστε αυτό το πεδίο.
 single-sentence-submission = Υποβολή μεμονωμένης πρότασης
 small-batch-sentence-submission = Υποβολή μικρής δέσμης προτάσεων
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
@@ -72,8 +72,8 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 sc-bulk-upload-header = <icon></icon> Μεταφόρτωση προτάσεων δημόσιου τομέα
 sc-bulk-upload-instruction = Σύρετε το αρχείο σας εδώ ή <uploadButton>κάντε κλικ για μεταφόρτωση</uploadButton>
 sc-bulk-upload-instruction-drop = Σύρετε το αρχείο εδώ για μεταφόρτωση
-bulk-upload-additional-information = Αν θέλετε να υποβάλετε επιπρόσθετες πληροφορίες σχετικά με αυτό το αρχείο, παρακαλούμε επικοινωνήστε με το <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = Αν υπάρχουν επιπρόσθετες πληροφορίες που θέλετε να υποβάλετε σχετικά με αυτό το αρχείο που δεν περιλαμβάνονται στο πρότυπο, παρακαλούμε επικοινωνήστε με το <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = Αν θέλετε να υποβάλετε επιπρόσθετες πληροφορίες σχετικά με αυτό το αρχείο, επικοινωνήστε μαζί μας στο <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Αν υπάρχουν επιπρόσθετες πληροφορίες που θέλετε να υποβάλετε σχετικά με αυτό το αρχείο, που δεν περιλαμβάνονται στο πρότυπο, επικοινωνήστε μαζί μας στο <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Δοκιμάστε ξανά σύροντας το αρχείο σας εδώ
 try-upload-again-md = Δοκιμάστε να μεταφορτώσετε ξανά
 select-file = Επιλογή αρχείου
@@ -82,7 +82,7 @@ accepted-files = Αποδεκτοί τύποι αρχείων: μόνο .tsv
 minimum-sentences = Ελάχιστες προτάσεις αρχείου: 1000
 maximum-file-size = Μέγιστο μέγεθος αρχείου: 25 MB
 what-needs-to-be-in-file = Τι πρέπει να υπάρχει στο αρχείο μου;
-what-needs-to-be-in-file-explanation = Παρακαλούμε ελέγξτε το <templateFileLink>αρχείο προτύπου</templateFileLink>. Οι προτάσεις σας θα πρέπει να μην υπόκεινται σε πνευματικά δικαιώματα (CC0 ή πρωτότυπο έργο για το οποίο ο υποβάλλων έχει λάβει την άδεια από τον δημιουργό) και να είναι σαφείς, γραμματικά σωστές και ευανάγνωστες. Η ανάγνωση των προτάσεων που υποβάλλονται θα πρέπει να διαρκεί περίπου 10-15 δευτερόλεπτα και δεν θα πρέπει να περιέχονται αριθμοί, κύρια ονόματα και ειδικοί χαρακτήρες.
+what-needs-to-be-in-file-explanation = Ελέγξτε το <templateFileLink>αρχείο προτύπου</templateFileLink>. Οι προτάσεις σας θα πρέπει να μην υπόκεινται σε πνευματικά δικαιώματα (CC0 ή πρωτότυπο έργο για το οποίο ο υποβάλλων έχει λάβει την άδεια από τον δημιουργό) και να είναι σαφείς, γραμματικά σωστές και εύκολες στην ανάγνωση. Η ανάγνωση των προτάσεων που υποβάλλονται θα πρέπει να διαρκεί περίπου 10-15 δευτερόλεπτα και δεν θα πρέπει να περιέχονται αριθμοί, κύρια ονόματα και ειδικοί χαρακτήρες.
 upload-progress-text = Μεταφόρτωση σε εξέλιξη...
 sc-bulk-submit-confirm = Επιβεβαιώνω ότι αυτές οι προτάσεις ανήκουν στον <wikipediaLink>δημόσιο τομέα</wikipediaLink> και έχω την άδεια να τις μεταφορτώσω.
 bulk-upload-success-toast = Μεταφορτώθηκαν πολλαπλές προτάσεις
@@ -148,10 +148,11 @@ add-sentences = Προσθήκη προτάσεων
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Προσθήκη και έλεγχος προτάσεων, προσθήκη ερωτήσεων, μεταγραφή ήχου
 add-sentences-menu-item-tooltip = Προσθέστε προτάσεις στη γλώσσα σας
 review-sentences-menu-item-tooltip = Ελέγξτε προτάσεις στη γλώσσα σας
 add-questions-menu-item-tooltip = Προσθέστε ερωτήσεις στη γλώσσα σας
-transcribe-audio-menu-item-tooltip = Απομαγνητοφωνήστε ηχογραφήσεις στη γλώσσα σας
+transcribe-audio-menu-item-tooltip = Μεταγράψτε ηχογραφήσεις στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS
 
@@ -159,4 +160,4 @@ write-contribute-menu-aria-label = Μενού επιλογών σύνταξης
 add-sentences-menu-item-aria-label = Προσθέστε νέες προτάσεις για να τις διαβάσει η κοινότητα
 review-sentences-menu-item-aria-label = Ελέγξτε υπάρχουσες προτάσεις που υποβλήθηκαν από την κοινότητα
 add-questions-menu-item-aria-label = Υποβάλετε νέες ερωτήσεις ώστε να τις διαβάσει και να τις απαντήσει η κοινότητα
-transcribe-audio-menu-item-aria-label = Απομαγνητοφωνήστε ηχογραφήσεις
+transcribe-audio-menu-item-aria-label = Μεταγράψτε ηχογραφήσεις σε κείμενο

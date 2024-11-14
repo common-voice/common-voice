@@ -73,9 +73,7 @@ sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon>
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو بچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
 bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیوشے <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information =
-    ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیتان ہیا شامل کوریکو ژاغا نیکی، تھے <emailFragment> 
-     اسپہ تین انځاوے commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سون رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو
@@ -84,7 +82,7 @@ accepted-files = حاجت فائلو قسم صرف: .tsv
 minimum-sentences = ای فائلا کم ازکم جملہ: 1000
 maximum-file-size = فائیلو لوٹار لوٹ سائز : 25 ایم بی
 what-needs-to-be-in-file = مہ فائلا کیاغ بیلیک؟
-what-needs-to-be-in-file-explanation = مہربانی کوری ہیا <templateFileLink>  ژاغا لوڑے۔ </templateFileLink>. تہ جملا کوس کاپی رائٹ مو بائی (CC0  یا اصل کورمو کوراکوسار اجازت بائے) صفا، گرائمیرو لحاظا صحیح وا ریکا اسان بائے۔ جملہ تقریبا 10-15سیکنڈا رینو بائے وا ہتیرا نمبر، خاص نام وا خاص حروف مو بانی۔
+what-needs-to-be-in-file-explanation = مہربانی کوری اسپہ  <templateFileLink>ٹملیٹ فائلا</templateFileLink> چک کو۔ تہ جملا کوس کاپی رائٹ مو بائی (CC0  یا اصل کورمو کوراکو سار اجازت بائے) صفا، گرائمیرو لحاظا صحیح وا ریکا اسان بائے۔ جملہ تقریبا 10-15سیکنڈا رینو بائے وا ہتیرا نمبر، خاص نام وا خاص حروف مو بانی۔
 upload-progress-text = اپلوڈ جاری شیر
 sc-bulk-submit-confirm = تصدیق کومان کی ہیہ جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink> وا مہ تین ہمو اپلوڈ کوریکو اجازت شیر
 bulk-upload-success-toast = بو جملہ ایغاریا اپلوڈ ہونی
@@ -136,14 +134,14 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  مسترد بیرو جملان ڈون لوڈ کوریکو بچین
-       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہوئے/ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈون لوڈ کوریکو بچین.
+        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  رد بیرو جملان ڈون لوڈ کوریکو بچین
+       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈون لوڈ کوریکو بچین.
     }
 small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
-small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
-small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
+small-batch-sentences-rule-2 = ای لائنہ ای جملہ شامل کو
+small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنار علحیدہ کو  یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
-small-batch-sentences-rule-5 = سف جملہ ای دائرہ بانی
+small-batch-sentences-rule-5 = سف جملان دائرہ(موضوع) ایک بائے
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
 # menu item
 add-sentences = جملہ شامل کو

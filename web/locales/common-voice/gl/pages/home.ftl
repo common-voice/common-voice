@@ -12,13 +12,9 @@ show-wall-of-text = Máis información
 help-us-title = Axúdenos a validar frases!
 help-us-explain = Prema en reproducir, escoite e díganos: expresouse con precisión a seguinte frase?
 no-clips-to-validate = Parece que non hai fragmentos para escoitar neste idioma. Axúdenos a encher a cola gravando algo agora.
-vote-yes = Si
-vote-no = Non
 toggle-play-tooltip = Prema{ shortcut-play-toggle } para trocar ao modo de reprodución
-speak-subtitle = Doe a súa voz
 speak-paragraph = Gravar fragmentos de voz é unha parte esencial da construción do noso conxunto de datos aberto. Algúns dirían que tamén é a parte máis divertida.
 speak-goal-text = Fragmentos gravados
-listen-subtitle = Axúdenos a validar voces
 listen-paragraph = A validación dos fragmentos doados é igualmente importante para o obxectivo de Common Voice. Escóiteos e axúdenos a crear datos de voz abertos de calidade.
 listen-goal-text = Fragmentos validados
 hours-recorded = Horas gravadas
@@ -76,3 +72,25 @@ help-contribute = Pode axudar a construír un conxunto de datos diverso e de có
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
 profile-not-required = Non é absolutamente necesario ter unha conta para colaborar, malia que axuda. Vexa por que a seguir.
 read-more-about = Máis información na pestana "Sobre nós"
+
+## NAV ITEMS
+
+answer-questions = Responder preguntas <small>(Proximamente)</small>
+review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
+add-questions = Engadir preguntas <small>(Proximamente)</small>
+transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
+press-and-stories = Comunicación e novas
+community-and-languages = Comunidade e idiomas
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Colaboracións, comunicación e novas, comunidade e idiomas
+partnerships-menu-item-tooltip = Colabore connosco
+press-and-stories-menu-item-tooltip = Visite o noso blog ou escriba sobre nós
+community-and-languages-menu-item-tooltip = Descubra os idiomas e as comunidades presentes en Common Voice
+
+## MENU ITEM ARIA LABELS
+
+partnerships-menu-item-aria-label = Aprenda sobre as colaboracións con Common Voice
+press-and-stories-menu-item-aria-label = Acceda a notas de prensa e novas relacionadas con Common Voice
+community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas presentes en Common Voice

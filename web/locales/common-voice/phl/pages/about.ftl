@@ -1,23 +1,23 @@
 ## ABOUT US
 
 about-title = عام ہاواز کے؟
-about-header-description-v2 = کمن وائس ایتیݨوۡ ہاویزی جمع تھئنی زھائی کی ڑو پورہ دُنئیئی وے تنخواہ نہ گھنی کرام تھاٹم خلکیم باندیۡ چلئجانوۡ</p>  فلحال وختی زیات وائس ڈیٹاسیٹ کمپنیوم دی ہنم ایڑےۡ وجہ باندیۡ ڑیوے ناؤہ ناؤہ کرامہ نہ بھانہ، ایڑےۡ پلیٹ فارمی وے  انگریزیا دوئی خلکہ، معزور خلکہ، کُڑینہ ، ہم جنس پرست خلکہ او مختلف قسمہ جُھلیۡ عمل تھاٹہ (LGBTQIA+) خلکیمی نمائندگی بیڈیۡ کام۔ ڑائی مطلب ایڑےۡ کی انیوے ہاویزی ٹیکنالوجی بیڈیۡ زبینیمی دپارہ کرام تھینی۔ کرام تھیلو بیۡ ہینتہ بُٹھے زبینیمی دپارہ برابر کرام نہ تھانہ۔ بےۡ ہرگوئی خلکہ متحرک تھےۡ تنی ہاویزی تقسیم تھےۡ نس تبدیل تھئنی دوئیانہ۔
-how-does-it-work-title-v2 = عام ہاواز کنا تھےۡ کرام تھانوۡ
+about-header-description-v2 = کامن وائس ایتیݨوۡ ہاویزی جمع تھئنی زھائی کی ڑو پورہ دُنئیئی وے تنخواہ نہ گھنی کرام تھاٹم خلکیم باندیۡ چلئجانوۡ</p>  فلحال وختی زیات وائس ڈیٹاسیٹ کمپنیوم دی ہنم ایڑےۡ وجہ باندیۡ ڑیوے ناؤہ ناؤہ کرامہ نہ بھانہ، ایڑےۡ پلیٹ فارمی وے  انگریزیا دوئی خلکہ، معزور خلکہ، کُڑینہ ، ہم جنس پرست خلکہ او مختلف قسمہ جُھلیۡ عمل تھاٹہ (LGBTQIA+) خلکیمی نمائندگی بیڈیۡ کام۔ ڑائی مطلب ایڑےۡ کی انیوے ہاویزی ٹیکنالوجی بیڈیۡ زبینیمی دپارہ کرام تھینی۔ کرام تھیلو بیۡ ہینتہ بُٹھے زبینیمی دپارہ برابر کرام نہ تھانہ۔ بےۡ ہرگوئی خلکہ متحرک تھےۡ تنی ہاویزی تقسیم تھےۡ نس تبدیل تھئنی دوئیانہ۔
+how-does-it-work-title-v2 = عام ہاواز کنا تھےۡ کرام تھانوۡ؟
 how-does-it-work-text = بےۡ عام خلکیمی ہاویزی ڈیٹا سیٹ بیڈہ خلکیم ݜاوا تھوائینہ۔ تیݨی ہاواز وقف تھہ، دوئی خلکیمی ہاواز صحی بھئنی تصدیق تھہ۔ ڈیٹاسیٹ بُٹھیمی دپارہ بہتر تھوئی۔
 
 ## How does it work section
 
 about-language-req-subtitle = کو ہینتہ زبان ایڈ تھئنی دوائنوۡ
 about-localization-title = ویب سائٹ لوکلائزیشن
-about-localization-subtitle = ویب سائٹی عبارت انی زبان کی ترجمہ بِھلی ہِنی
+about-localization-subtitle = ویب سائٹی عبارت انیۡ زُبان کی ترجمہ بِھلیۡ ہِنیۡ۔
 about-sentence-collection-title = جملئی مجموعہ
-about-sentence-collection-subtitle = زور تھے منئنی دپارہ جملے خلکیم تھے جمع تھئجلہ ہنہ
-about-new-lang-title = نیوی زبینی شروع بھلی ہِنی
-about-new-lang-subtitle = اسم انی زبینی کی عام ہاوازینی سائٹ شروع تھیلو ہنو
+about-sentence-collection-subtitle = زور تھے منئنی دپارہ جملے خلکیمی دپارہ جمع تھئیجِلہ ہِنہ۔
+about-new-lang-title = نیوی زبینی شروع بِھلیۡ ہِنیۡ
+about-new-lang-subtitle = اسِم انیۡ زبینی کی کامن وائس سائٹ شروع تِھیلوۡ ہنوۡ۔
 about-voice-contrib-title = ہاویزی تعاون
-about-voice-contrib-subtitle = خلک ہاندہ او تیݨی ہاوازیزیمی حصہ گلانہ
+about-voice-contrib-subtitle = خلک ہھاندہ او تیݨی ہاوازیزی جمع تھانہ۔
 about-voice-validation-title = ہاواز زیات تھئنی
-about-voice-validation-subtitle = دوئی خلکہ انی ہاویزی کلپسیمی توثیق تھانہ
+about-voice-validation-subtitle = دوئی خلکہ انیۡ ہاویزی کلپسیمی توثیق تھانہ۔
 about-dataset-release-title = ڈیٹا سیٹ رلیز
 about-dataset-release-subtitle = بےۡ ڈیٹا سیٹ ہر ترو یُونی رلیز تھایہ
 about-subscribe-text = مشترکہ ہاویزی سنگی رابطہ کی ہانسئنی دوائینو وے؟
@@ -63,7 +63,7 @@ about-playbook-what-is-language-content-3 = ایڈی زبینم وے گرامر�
 about-playbook-how-add-language = مہ آک زبان کنا تھے ایڈ تھوم
 about-playbook-how-add-language-content-1 = آویلی <languageLink>تیݨی زبینی وے چیک تھہ انی لنک وے</languageLink>ہنے۔ اگر نئنہ ہینتہ تو<languageRequestLink> تیݨی زبان شامل تھئنی دپارہ کھوجا بھوڑ</languageRequestLink>۔  دو مرحلے ہنہ سائٹی ترجمہ تھئنی دپارہ او جملے سمٹئنی دپارہ۔
 about-playbook-how-add-language-translating-heading = سائٹی ترجمہ تھئنی
-about-playbook-how-add-language-translating-content-1 = پنٹون کنا تھے استعمال تھانہ  رنمائی دپارہ اسی انو ویڈیو دݜھوئی
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پنٹون کنا تھےۡ استعمال تھانہ؟  رنمائی دپارہ اسی انوۡ ویڈیو دڇھوئی</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = بےۡ موذیلائی آک آلہ استعمال تھانہ تس تھےۡ <pontoonLink> پونٹون </pontoonLink>  منانہ، ترجمہ تھئنی دپارہ۔  پونٹونی وے بیڈیۡ زبینی ہنم۔ تھی زُبان ڑیوے نئنی ہینتہ  تس شامل تھئنی دپارہ انیۡ لنک <pontoonRequestLink> کی درخواست تھائی بھوت۔<pontoonRequestLink> تیݨی زُبان شامل تھئنی دپارہ درخواست تھہ</pontoonRequestLink>۔ گھرے ایڑےۡ زُبان کمن وائس پراجیکٹی وے دستیاب بھئنی دپارہ <githubRepoLink> GitHub</githubRepoLink> ایڑےۡ نیویۡ زبینی کی درخواست تھہ۔ <localizationFragment>۔ دوئی معلومات گھنئنی دپارہ  سائٹی وے ترجمہ دڇھہ </localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملے جمع تھئنی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے جمع تھئنی بارئی اسی رہنمائی دڇھہ </sentenceCollectorVideo>
