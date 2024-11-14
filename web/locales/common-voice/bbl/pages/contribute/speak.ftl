@@ -4,6 +4,7 @@ speak-subtitle = ფლო́ქოღ ლიბათ თხოჼ შუჼ ი
 record-cta = ჩაწე́რ ჲო́ლჲალარ
 record-platform-not-supported = ი́ნც შუჼ სისტემ ცო ჲა ფელაცინო̆
 record-platform-not-supported-desktop = შტოლკომპიუტერა́ხ მაკ შუჼ ჴმა́რბადოლუჲში̆ წინიჭ აჰ̦დჵო́ფრი:
+record-platform-not-supported-ios-non-safari = iOS-მაქ, დეხო́თხ, მე́ ჴმა́რბადებათ Safari ჩაწე́რადანაჲნო̆
 record-must-allow-microphone = ჭირბალა მიკროფო́ნეციჼ ჴა́პტუჲლეჼ ნე́ბ ჲალ'არ
 record-no-mic-found = მიკროფოჼ ცო ლახდალიჼ
 record-error-too-short = ჩანაწერ წყეგეჸ და́ცუჼ დარ
