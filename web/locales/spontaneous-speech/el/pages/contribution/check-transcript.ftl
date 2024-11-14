@@ -10,6 +10,8 @@ vote-transcript-error = Προέκυψε σφάλμα κατά την υποβο
 transcript-edited-success = Επιτυχής επεξεργασία μεταγραφής
 transcript-edited-error = Προέκυψε σφάλμα κατά την επεξεργασία της μεταγραφής
 error-fetching-transcriptions = Κάτι πήγε στραβά κατά τη λήψη μεταγραφών. Δοκιμάστε ξανά αργότερα.
+transcript-skipped-success = Επιτυχής παράλειψη μεταγραφής
+transcript-skipped-error = Προέκυψε σφάλμα κατά την παράλειψη της μεταγραφής
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Σωστή
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

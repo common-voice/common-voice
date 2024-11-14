@@ -1,6 +1,7 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Καλώς ορίσατε στο Spontaneous Speech
+why-spontaneous-speech = Γιατί αναπτύξαμε το πρωτότυπο Spontaneous Speech
 how-spontaneous-speech-works = Πώς λειτουργεί το Spontaneous Speech
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Προτροπή</mark>
