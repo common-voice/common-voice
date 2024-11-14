@@ -14,6 +14,7 @@ record-instruction = { $actionType } ღილაკმაქ<recordIcon></recor
 record-stop-instruction = { $actionType }ღილაკენ<stopIcon></stopIcon>მაცმე ცე́რ დაჲლ'ე́შ
 record-three-more-instruction = ჴო დისენგ!
 record-again-instruction = დაქიჼ და!<recordIcon></recordIcon>თაგდებათ შილღეჼ ჩანაწერ
+record-again-instruction2 = იშტ დებათ ჴენოჲ, ჩაწერადებათ ოშტიჸ<recordIcon></recordIcon>
 
 ## MENU ITEM TOOLTIPS
 
