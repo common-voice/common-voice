@@ -4,6 +4,10 @@ welcome-to-spontaneous-speech = بے ساختہ تقریر کی ابدے آگی�
 # <br></br> represents a newline break
 wall-of-text = کامن وائس ایک ورے پلیٹ فارم شروع کُنا، سے قدرتی بے ساختہ، بغیر اسکرپٹ مُشکُل جمع کُرنہ مرکوز درو۔iیہ تہ وجہ لے کمیونٹی نامہ کی ڈیٹا سوتنہ مدد میلو بو، یہ ملی یہ ڈیٹا سائنسدان نام آں ڈویلپر نامہ کی فائدہ مند ثابت بو۔
 why-spontaneous-speech = اما یہ بے ساختہ اسپیچ پروٹو تائپ کو ژوپامہ
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = فائدہ مند کی<mark> نایاتی تقریعر تہ سیاق و سباق</mark> آں مقدمات تہ استعمل کُرا (مثل تہ طورہ ، کیرا بی گٹینبہ تے تقریر زاناال تئیں مااݜہ ملی کُرو تے کُرئی غیر اسکرپٹ آں بول چال مُشکُل بین)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = باݜہ تہ حقیتہ کی بہتر تعاون لکہ چی ترجمہ آں <mark>کوڈ سوئچنگ</mark>
 how-spontaneous-speech-works = بے ساختہ تقریر کنو بئی کرم کُنا
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامٹ</mark>
