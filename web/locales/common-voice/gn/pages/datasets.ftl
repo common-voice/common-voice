@@ -93,3 +93,5 @@ release-version = Peteĩchagua
 dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Emboguejy ore ayvu mba’ekuaarã aty
