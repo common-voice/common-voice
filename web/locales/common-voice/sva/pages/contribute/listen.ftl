@@ -1,5 +1,6 @@
 listen = ლა̈მჰუნა̈რ
 listen-subtitle = ლა̈ნმა̈რჯუ̂ ჰერლე ლამოწმა̈ნს
+listen-last-time-instruction = <playIcon></playIcon> ღუ̂ეშგმეპილჲა̈შ!
 
 ## MENU ITEM TOOLTIPS
 
