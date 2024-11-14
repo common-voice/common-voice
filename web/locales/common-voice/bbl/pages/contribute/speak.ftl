@@ -10,6 +10,9 @@ record-error-too-short = ჩანაწერ წყეგეჸ და́ცუ
 record-error-too-long = ჩანაწერ წყეგეჸ დახხეჼ დარ
 record-error-too-quiet = ჩანაწერ წყეგეჸ ლახუჩო̆ ა́შარვ დარ
 record-cancel = ო́შტიჸ ჩანაწე́რეხ უარ ა́ლ'არ
+record-instruction = { $actionType } ღილაკმაქ<recordIcon></recordIcon>ნე́ ჴე́ნო̆ ჭჵ́აღოშ ჰ̦ალ̆ო ხატტათ წინადა́დებ
+record-stop-instruction = { $actionType }ღილაკენ<stopIcon></stopIcon>მაცმე ცე́რ დაჲლ'ე́შ
+record-three-more-instruction = ჴო დისენგ!
 
 ## MENU ITEM TOOLTIPS
 
