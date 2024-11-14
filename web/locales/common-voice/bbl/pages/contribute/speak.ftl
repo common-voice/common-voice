@@ -15,6 +15,12 @@ record-stop-instruction = { $actionType }ღილაკენ<stopIcon></stopIc
 record-three-more-instruction = ჴო დისენგ!
 record-again-instruction = დაქიჼ და!<recordIcon></recordIcon>თაგდებათ შილღეჼ ჩანაწერ
 record-again-instruction2 = იშტ დებათ ჴენოჲ, ჩაწერადებათ ოშტიჸ<recordIcon></recordIcon>
+record-last-instruction = ტყუჲჰ̦სილლუჼ
+review-tooltip = ესე́რეჼ დაყყდება́ეთ ქუჲრთლენა́ ჩაწე́რადებათ
+review-rerecord = წყეტყოჸ ქუირთლენა ჩაწერადარ
+review-cancel = დაჰ̦ დაჰ̦ითარ გაუქმადარ
+review-keep-recordings = ჩანაწე́რი ჩუ დითარ
+review-delete-recordings = საიჼ ჩანაწე́რი წა́შლადარ
 
 ## MENU ITEM TOOLTIPS
 
