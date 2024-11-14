@@ -35,3 +35,19 @@ not-found-page-header = نی میلاو با
 not-found-page-content = تو کیرا پیج ویچینپ سے نی میلاو نی بیاں
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ائی کامن وئس ملی متفق <termsLink>شرائط</termsLink> آں <privacyLink> پرائویسی نوٹس</privacyLink>
+# Locales
+bsy = صباح بسایا
+cdo = فوزو
+cpx = ہینگ ہوا
+en = انگریزی
+fr = فرانسیسی
+hch = وکساریکا
+kzi = کیلا بٹ
+mbf = بابا مالے
+meh = جنوب مغربی Tlaxiaco Mixtec
+mel = وسطی میلانو
+mmc = مچوآکان مازہوا
+ms-MY = بہاسا مالے
+msi = سباح مالے
+pez = مشرقی پینان
+pne = مغربی پینان
