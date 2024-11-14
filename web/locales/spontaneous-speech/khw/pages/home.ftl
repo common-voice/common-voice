@@ -3,13 +3,13 @@
 welcome-to-spontaneous-speech = اسپونٹینئس اسپیچا گیکو پچین تہ منادار
 # <br></br> represents a newline break
 wall-of-text = کمان وائس قدرتی، تنار تان وا نو نیویشیرو لوان پچین ایک خور ژاغا شروع کویان۔ ہیا امبوخ معلوماتان شاو بڑاځیکا بو کمیونیٹان سون مدد کوئے، وا ڈیٹو سائنسدانان وا ساوزیکان تین دی فائدہ تریر۔
-why-spontaneous-speech = اسپہ ہیا اسپونٹینئس اسپیچو ای نمونہ کو ساوزیسیان؟
+why-spontaneous-speech = اسپہ ہیا  فی البدیہ لوان ای نمونہ کو ساوزیسیان؟
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = فائد مند بوئے<mark> پوشٹہ لو دیکو حالاتا</mark> وا ہورو ہݰ معاملہ استعمال  بوئے (مثلا تو کیا وختا کہ ہݰ مݰکیتاو کہ لوو ہوݰ کوراک ہتیتان سون کوروم کورار کا کی نو نیویشی وا عام لو دونیان )
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = بہتر ہݰ بوئے کی واران حقیقی مدد بار کیچہ کی ای وارو ترجمہ وا<mark> خور لفظان استعمال شیر</mark>
+why-card-2-text = بہتر ہݰ بوئے کی واران حقیقی مدد بار کیچہ کی ای وارو ترجمہ وا<mark> خور   وارو لفظان استعمال  کوریک شیر</mark>
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = بہتر ہݰ بوئے کی ہتے واران مدد بائے کیا وارا بو کم<mark> یا  استعمالو(مثلا سماجی، شکلان ، تاریخی طورا ہتیت نویشیکا نیکی ) نویشیرو شیر تان نو
+why-card-3-text = بہتر ہݰ بوئے کی ہتے واران مدد بائے کیا وارا بو کم<mark> یا  استعمالو(مثلا سماجی، شکلان ، تاریخی طورا ہتیت نویشیکا نیکی ) نویشیرو شینی تان نو
 how-spontaneous-speech-works = اسپونٹینئس اسپیچ کیچہ کوروم کویان؟
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارہ</mark>
