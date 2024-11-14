@@ -79,9 +79,14 @@ answer-questions = Responder preguntas <small>(Proximamente)</small>
 review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
 add-questions = Engadir preguntas <small>(Proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
+press-and-stories = Comunicación e novas
+community-and-languages = Comunidade e idiomas
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Colaboracións, comunicación e novas, comunidade e idiomas
+partnerships-menu-item-tooltip = Colabore connosco
+press-and-stories-menu-item-tooltip = Visite o noso blog ou escriba sobre nós
 
 ## MENU ITEM ARIA LABELS
 
