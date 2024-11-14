@@ -19,3 +19,6 @@ check-bubble-subtitle = بی چیک کُرا تے تہ نقل آڈیو ملی ا
 data-bubble-title = <mark>ڈیٹا</mark>
 data-bubble-subtitle = ائی ٹیم ٹیمہ ڈیٹا سیٹ جاری کُنُمہ
 contact-us = اما ملی رابطہ کُرا
+contact-us-email = ای میل<emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-input-placeholder = تانوں ای میل درج کُرا
+signup-button-value = ما ای میل کی ایک لنک ݜئی
