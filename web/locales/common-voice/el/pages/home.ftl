@@ -84,8 +84,13 @@ community-and-languages = Κοινότητα και γλώσσες
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Συνεργασίες, τύπος και άρθρα, κοινότητα και γλώσσες
 partnerships-menu-item-tooltip = Συνεργαστείτε μαζί μας
+press-and-stories-menu-item-tooltip = Επισκεφθείτε το blog μας ή γράψτε για εμάς
+community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες, κοινότητες και το Common Voice
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Μενού επιλογών πληροφοριών
+partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice
+press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice

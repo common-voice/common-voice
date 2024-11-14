@@ -148,6 +148,7 @@ add-sentences = Προσθήκη προτάσεων
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Προσθήκη και έλεγχος προτάσεων, προσθήκη ερωτήσεων, απομαγνητοφώνηση
 add-sentences-menu-item-tooltip = Προσθέστε προτάσεις στη γλώσσα σας
 review-sentences-menu-item-tooltip = Ελέγξτε προτάσεις στη γλώσσα σας
 add-questions-menu-item-tooltip = Προσθέστε ερωτήσεις στη γλώσσα σας
