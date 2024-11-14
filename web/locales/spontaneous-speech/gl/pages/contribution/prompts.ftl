@@ -21,3 +21,5 @@ learn-how-to-use-transcribe = Como transcribir
 learn-how-to-use-transcribe-explanation = Escriba exactamente o que se dixo, incluíndo as palabras de recheo como "eh" ou "hum".
 learn-how-to-use-transcribe-guidance = Prema <guidanceLink>aquí</guidanceLink> para aprender a usar esta páxina
 learn-how-to-use-check-transcript = Como validar unha transcrición
+learn-how-to-use-check-transcript-explanation = Unha transcrición debe capturar todas as palabras e sons non léxicos pronunciados pola persoa que gravou, incluídas as repeticións.
+learn-how-to-use-check-transcript-guidance = Prema <guidanceLink>aquí</guidanceLink> para aprender a usar esta páxina
