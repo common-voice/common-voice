@@ -14,6 +14,7 @@ coming-soon = Máis idiomas proximamente
 media-recorder-api-not-supported = A API MediaRecorder non é compatible co seu navegador.
 # Toast message that is displayed when an item is skipped
 skipped = Saltouse
+audioplayer-header = Escoite
 guidelines = Directrices
 # For the button to report an item
 report-button = Informar
@@ -24,6 +25,11 @@ contribute = Colabore
 
 ## Navbar
 
+respond-to-prompt = Responda a pregunta
+transcribe-audio = Transcriba gravacións
+check-transcriptions = Revise transcricións
 
 ## Not Found Page
 
+not-found-page-header = Non se atopou
+not-found-page-content = Non se atopou a páxina que estaba buscando.
