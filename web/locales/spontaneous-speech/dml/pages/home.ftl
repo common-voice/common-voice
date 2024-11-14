@@ -28,6 +28,7 @@ data-bubble-title = <mark>ڈیٹا</mark>
 data-bubble-subtitle = ائی ٹیم ٹیمہ ڈیٹا سیٹ جاری کُنُمہ
 contact-us = اما ملی رابطہ کُرا
 contact-us-email = ای میل<emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = بی پریݜبئیں تہ ایں کامن وائس تہ تانئی مُشکُل بال گفتگوتہ منصوبہ ساں بیٹا ٹیسٹنگ  گروپہ شامل تھوبئی?
 signup-input-placeholder = تانوں ای میل درج کُرا
 signup-button-value = ما ای میل کی ایک لنک ݜئی
 footer-text-privacy = <privacyLink>رازداری</privacyLink>
