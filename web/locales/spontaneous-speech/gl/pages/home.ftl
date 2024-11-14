@@ -8,3 +8,20 @@ why-spontaneous-speech = Por que lanzamos este prototipo de Fala Espontánea
 why-card-1-text = Útil para <mark>contextos de fala orgánica</mark> e casos de uso (por exemplo, para que o recoñecemento da fala funcione con persoas que están falando de xeito espontáneo e coloquial)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Mellor soporte para realidades lingüísticas como o "translingüismo" e a <mark>alternancia de códigos lingüísticos</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Mellor soporte para linguas con pouco ou ningún <mark>corpus textual</mark> que se poida empregar (por exemplo os sociolectos, as variedades lingüísticas, as linguas sen tradición escrita etc.)
+how-spontaneous-speech-works = Como funciona Fala Espontánea
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Pregunta</mark>
+prompt-bubble-subtitle = Amosaráseche unha indicación ou unha pregunta
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>Responda</mark>
+respond-bubble-subtitle = Responda do xeito máis natural que poida
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = Transcriba
+transcribe-bubble-subtitle = Escriba o que escoite nas gravacións
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Revisar</mark>
+check-bubble-subtitle = Comprobe se a transcrición se corresponde co audio
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Datos</mark>
