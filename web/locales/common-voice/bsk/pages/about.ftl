@@ -119,9 +119,22 @@ about-playbook-how-validate-content-4 = agar ućhare klip alṭan sise reject e�
 
 about-playbook-how-access-dataset = dataset belate access ḍaa istimaal ećam?
 about-playbook-how-access-dataset-content-1 = ma dataset patuatar niṣ maamay ban kholum </datasetsPage>,  version ke baaṣ nisalginin ḍaa download eṭin! Guke filesin ulo metadata bila masalan  demographic maalumaat ḍaa ṭasḍiiqe data.
+about-playbook-how-access-dataset-content-2 = ASR model ḍiyulase gane barey baan maa sise kaa khole connect manisr maamay baan. <discourseLink>on Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Projecte feeslan belate gaybaan?
+about-playbook-how-project-governance-content-1 = Mozilla hanjuko ućharinge project e kamiyaabiulo ḍunyaulum har kaṭe sis maslan activist, linguist, data scientist, academics and software engineeriśuwe urin bila.
+about-playbook-how-project-governance-content-2 = mii intizaam guce dakumucate ḍal diyen bila:
+about-playbook-how-project-governance-content-3 = Privacy, security ḍaa transparency
+about-playbook-how-project-governance-content-4 = Community ḍuroing ḍaa feeslan eṭas
+about-playbook-how-project-governance-content-5 = śuwa bagahark henas ḍaa meecanas
+about-playbook-how-project-governance-content-6 = gatimo zimawaari
+about-playbook-how-project-governance-content-7 = Belate egucarća baan ke khole ġaṭanin </governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Hanjuko ućharing belate fund ećaan?
+about-playbook-how-funded-content-1 = Hanjuko ućharinge project mozilla foundation US 501c3 bila. Tok project ḍunyaatulum sise donation ḍaa khuwe <philantropicGrantLink> fund ećaan
+about-playbook-how-funded-content-2 = Community program egucaras, platform warc eṭas, dataset ḍiusas ḍaa lagaaṭar host ećar juḍa but biduro nićiye
+about-playbook-how-funded-content-3 = maa iḍara project gane marin emaśaan ke khole maimo donation <donateLink> yaa mii kaatum team kaaa khole raabiṭa eṭin  <emailFragment>commonvoice@mozilla.com</emailFragment>.
