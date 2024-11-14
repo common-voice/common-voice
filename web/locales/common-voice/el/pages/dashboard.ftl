@@ -80,9 +80,9 @@ help-share-goal = Βοηθήστε μας να βρείτε περισσότερ
 confirm-goal = Επιβεβαίωση
 goal-interval-weekly = Εβδομαδιαία
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Μοιραστείτε τον ημερήσιο στόχο σας { $count } κλιπ για { $type }
+share-n-daily-contribution-goal = Μοιραστείτε τον ημερήσιο στόχο των { $count } αποσπασμάτων για { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Μοιραστείτε τον εβδομαδιαίο στόχο σας { $count } κλιπ για { $type }
+share-n-weekly-contribution-goal = Μοιραστείτε τον εβδομαδιαίο στόχο των { $count } αποσπασμάτων για { $type }
 share-goal-type-speak = Ομιλία
 share-goal-type-listen = Ακρόαση
 share-goal-type-both = Ομιλία και ακρόαση

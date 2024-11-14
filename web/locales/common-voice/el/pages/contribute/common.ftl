@@ -6,8 +6,8 @@ skip = Παράλειψη
 shortcuts = Συντομεύσεις
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> κλιπ
-       *[other] <bold>{ $count }</bold> κλιπ
+        [one] <bold>{ $count }</bold> απόσπασμα
+       *[other] <bold>{ $count }</bold> αποσπάσματα
     }
 goal-help-recording = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου ηχογραφήσεών μας!
 goal-help-validation = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου επαληθεύσεών μας!
@@ -32,11 +32,6 @@ target-segment-first-banner = Βοηθήστε στη δημιουργία το�
 target-segment-add-voice = Προσθέστε τη φωνή σας
 target-segment-learn-more = Μάθετε περισσότερα
 change-preferences = Αλλαγή προτιμήσεων
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Συλλογή φωνής
-contribute-sentence-collection-nav-header = Συλλογή προτάσεων
 login-signup = Σύνδεση/Εγγραφή
 vote-yes = Ναι
 vote-no = Όχι
@@ -79,7 +74,7 @@ shortcut-skip = α
 shortcut-record-toggle = γ
 shortcut-record-toggle-label = Εγγραφή/Διακοπή
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Νέα εγγραφή κλιπ
+shortcut-rerecord-toggle-label = Νέα εγγραφή αποσπάσματος
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Απόρριψη τρέχουσας ηχογράφησης
 shortcut-submit = Επιστροφή
