@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Καλώς ορίσατε στο Spontaneous Speech
+# <br></br> represents a newline break
+wall-of-text = Το Common Voice λανσάρει μια δεύτερη πλατφόρμα που εστιάζει στη συλλογή οργανικής, αυθόρμητης ομιλίας χωρίς σενάριο. Αυτή θα βοηθήσει πολλές κοινότητες να συλλέξουν δεδομένα πιο γρήγορα, ενώ θα είναι χρήσιμη και για επιστήμονες δεδομένων και προγραμματιστές.
 why-spontaneous-speech = Γιατί αναπτύξαμε το πρωτότυπο Spontaneous Speech
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Χρήσιμο για <mark>οργανικά συγκείμενα ομιλίας</mark> και περιπτώσεις χρήσης (π.χ. όταν θέλετε η αναγνώριση ομιλίας να λειτουργήσει με άτομα που μιλούν χωρίς σενάριο και στην καθομιλουμένη)
