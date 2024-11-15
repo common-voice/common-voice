@@ -38,6 +38,20 @@ small-batch-sentence = კაძიკ
 bulk-sentence = დუჴ
 sentence-domain-combobox-label = წინადადბეჼ დარგ
 sentence-domain-select-placeholder = ჲაგჲებათ ჴაეგომციჼ დარგ
+# Sentence Domain dropdown option
+agriculture_food = ფჰეჼ მეურნეობაჲ, ჴალლ-მალ'არაჲ
+# Sentence Domain dropdown option
+automotive_transport = მაშინეჲშაჲ, ტრანსპორტაჲ
+# Sentence Domain dropdown option
+finance = ფინანსი
+# Sentence Domain dropdown option
+service_retail = მომსახურებაჲ, სოეცარ-დოხკარაჲ
+# Sentence Domain dropdown option
+general = ჴენ-ჴენი
+# Sentence Domain dropdown option
+healthcare = ჯანდაცვ
+# Sentence Domain dropdown option
+language_fundamentals = მატტიჼ საფუძვლი (ციფრი, ასუჲ, ტათებ)
 
 ## BULK SUBMISSION 
 
