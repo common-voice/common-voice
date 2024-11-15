@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
-write = نیوشے
+write = نیویشے
 write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہیا کی نیوشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
+write-page-subtitle = کیا جملو ہیا کی نیویشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشور
-small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشے
+sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشور
+small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
@@ -24,7 +24,7 @@ new-sentence-rule-8 = جملہ قدرتی وا مشقولگی (جملہ ریکا
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو بچین
 how-to-cite = کچہ کوری حوالہ دوم؟
 how-to-cite-explanation-bold = یو ار ایل لینکو یا کورمو پورا نامو حوالہ دیت۔
-how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیوشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان بچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
+how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیویشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان بچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
 guidelines = رہنمائی
 contact-us = اسپہ سوم رابطہ کو
 add-sentence-success = 1جملہ بڑاځینو ہوئے
@@ -72,7 +72,7 @@ sentence-variant-select-multiple-variants = عام وار/ بو قسم
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو بچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیوشے <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
@@ -148,16 +148,16 @@ add-sentences = جملہ شامل کو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیوشیکا انگے
+write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیویشیکا انگے
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان وارا سوال شامل کو
-transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیوشیکا انگے
+transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = اختیاراتان لیسٹو نیوشے
+write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
 add-sentences-menu-item-aria-label = تان رویان ریکو بچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو بچین  نوغ سوال کو
-transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نیوشیکا انگے
+transcribe-audio-menu-item-aria-label = رکارڈ بیرو ہوازو نیویشیکا انگے

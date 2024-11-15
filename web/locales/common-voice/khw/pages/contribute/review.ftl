@@ -56,7 +56,7 @@ review-error = جملو وا لوڑاوا نقص پیدا ہوئے
 review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے یقینی سہی کوریکو بچین پھوک روک بوس۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسپہ پھوک لوٹ تبدیلی کوسیان
-sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کامن وائسو ژاغو ویشکی بیران۔ تو ہنیسے <writeURL> نیوشے</writeURL> ایک جملہ یا<reviewURL> وا لوڑے</reviewURL> ای جملو کامن وائسا جمع کوریکو۔
+sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کامن وائسو پلیٹ فارومو ویشکی بیران۔ تو ہنیسے <writeURL> نیویشے</writeURL> ای جملہ یا<reviewURL> وا لوڑے</reviewURL> ای جملو کامن وائسا جمع کوریکو۔
 sc-redirect-page-subtitle-2 = اسپاسار بشار کو <matrixLink> خانہ</matrixLink> <discourseLink>مشقول گی </discourseLink> یا <emailLink> ای میل</emailLink>
 # menu item
 review-sentences = جملان وا لوڑے
