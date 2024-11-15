@@ -64,7 +64,7 @@ about-playbook-what-is-language-content-3 = پھتی واران گرائمیر،
 ## How do I add a language
 
 about-playbook-how-add-language = اوا ای ورو کیچہ کوری شامل کووم؟
-about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے کہ تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو بچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑځیک۔
+about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے کہ تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو بچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑاځیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو وار شینی۔ تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان وار شامل کوریکو بچین درخواست کو</pontoonRequestLink>۔ اچی ہے واران کامن وائسو پروجکٹا دستیاب بیکو بچین<githubRepoLink> گیٹ ہب</githubRepoLink> بی نوغ وارو درخواست کو۔ <localizationFragment>۔ خور معلومات بچین سائٹو ترجمولوڑے</localizationFragment>
@@ -121,7 +121,7 @@ about-playbook-how-validate-content-4 = اگر ای  ہواز جو ژون کی �
 ## How to access dataset
 
 about-playbook-how-access-dataset = اوا ڈیٹا بیسا کیچا بیتی بیم وا استعمال کیچہ کوری کوم۔
-about-playbook-how-access-dataset-content-1 = تو ڈیٹا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے وارو گنے کھیوکی تو مݰکیسان وا ہورو ڈاون لوڈ کو۔ ہے فائلو سوم <metadataLink> چوکیرو لوٹ ڈیٹا شیر</metadataLink>، آبادیو وا تصدیقو معلومات شینی۔ ڈون لوڈ کوریکوبچین تہ تان ای میلو دیلیک بوئے۔
+about-playbook-how-access-dataset-content-1 = تو ڈیٹا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے وارو گنے کھیوکی تو مݰکیسان وا ہورو ڈاون لوڈ کو۔ ہے فائلو سوم <metadataLink> چوکیرو لوٹ ڈیٹا شیر</metadataLink>، آبادیو وا تصدیقو معلومات شینی۔ ڈاون لوڈ کوریکوبچین تہ تان ای میلو دیلیک بوئے۔
 about-playbook-how-access-dataset-content-2 = تو کی اے ایس ار ماڈلو تین اشناری کی ساوزیسان، تو تان کمیونیٹا  خور رویان سوم لو دیکو بچین تیتان سوم تعلق لکھیکو بوس<discourseLink> مشقول گیا</discourseLink> گے
 
 ## How are decisions made

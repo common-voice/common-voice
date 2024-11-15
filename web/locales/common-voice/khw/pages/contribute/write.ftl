@@ -128,14 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار ایک جملہ بڑځیتاو
-       *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑځیتاو
+        [one] { $uploadedSentences } موژار ایک جملہ بڑاځیتاو
+       *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑاځیتاو
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  رد بیرو جملان ڈون لوڈ کوریکو بچین
-       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈون لوڈ کوریکو بچین.
+        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  رد بیرو جملان ڈاون لوڈ کوریکو بچین
+       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈاون لوڈ کوریکو بچین.
     }
 small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنہ ای جملہ شامل کو
