@@ -52,6 +52,14 @@ general = ჴენ-ჴენი
 healthcare = ჯანდაცვ
 # Sentence Domain dropdown option
 language_fundamentals = მატტიჼ საფუძვლი (ციფრი, ასუჲ, ტათებ)
+# Sentence Domain dropdown option
+nature_environment = ბუნებაჲ, გოგხაჲ
+# Sentence Domain dropdown option
+news_current_affairs = წინ ამბუჲაჲ, ინცლუჼ მოვლენიაჲ
+# Sentence Domain dropdown option
+technology_robotics = ტექნოლოგიაჲ-ე რობოტოტექნიკაჲ
+sentence-variant-select-label = წინადადბეჼ კუთხურობ
+sentence-variant-select-placeholder = ჩავარჲებათ მატტინ ნაირსახეობ (ცოაუცილებელ)
 
 ## BULK SUBMISSION 
 
