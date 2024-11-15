@@ -34,16 +34,16 @@ review-submit-msg = رکارڈنگو بچین شکریہ!<lineBreak></lineBreak>
 review-recording = وا لوڑے
 review-rerecord = و رکارڈ کو
 review-cancel = جمع کوریکو کینسیل کو
-review-keep-recordings = رکارڈنگان تان سون لکھے
+review-keep-recordings = رکارڈنگان تان سوم لکھے
 review-delete-recordings = مہ ہوازان بوغاوے
 review-terms = کامن وائسو استعمال کوری تو ہیا لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>راز دریو نوٹس</privacyLink>
 terms-agree = اوا منیمان
 terms-disagree = اوا نو مانیمان
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تان اسکوردی ہوازان دیکو بچین بو میناداری
-first-cta-subtitle-text = تان بارا اسپہ سون لو دیتی تو ساوزئے یکان سون سفو بچین ٹینالوجی ساوزیکا مدد کوس
+first-cta-subtitle-text = تان بارا اسپہ سوم لو دیتی تو ساوزئے یکان سوم سفو بچین ٹینالوجی ساوزیکا مدد کوس
 why-donate = تو کو بشار کوسان؟
-why-donate-explanation-1 = ہمی معلوماتان دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پروشٹی ہیتان  اسکوردی کوسی وا ہش دی کوسی کی تہ نام و ایمیل تہ عمرو چے موش کیمیری بیکو سون جوست نو بوئی۔
+why-donate-explanation-1 = ہمی معلوماتان دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پروشٹی ہیتان  اسکوردی کوسی وا ہش دی کوسی کی تہ نام و ایمیل تہ عمرو چے موش کیمیری بیکو سوم جوست نو بوئی۔
 why-donate-explanation-2 = ٹیکنالوجی سفو بچین جام کوروم کورار کی ریمیان، ہتے معلومات کی ہتیت ساوزیکان ضرورت بونیان مختلف تعدادا روئیا سار گیلیک
 add-information-button = معلومات شامل کو
 continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
@@ -55,7 +55,7 @@ first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تان ہوازو دیکو بچین اسپہ تہ منادار
-second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان ہوازو دییاک رویان سون بلد بوس
+second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان ہوازو دییاک رویان سوم بلد بوس
 already-have-an-account = پروشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login> بوس
 create-profile-button = ای پروفائل ساوزاوے
 # IMAGE TAGS
