@@ -85,11 +85,11 @@ community-and-languages = کمیونیٹی وا وار
 about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونیٹی وا وار
 partnerships-menu-item-tooltip = اسپہ سوم شراکت کو
 press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نیوشے
-community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے واران وا ای قسمہ ہوازان مشکے
+community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے واران وا ای قسمہ ہوازان مݰکے
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
 partnerships-menu-item-aria-label = کمان وائسو سوم شراکت دار بیکو بارا ݯیݯھے
-press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
+press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مݰکے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران کی مدد کویان تیتان پتہ کو
