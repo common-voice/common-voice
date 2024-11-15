@@ -12,3 +12,12 @@ listen-loading-error =
 listen-abort-title = Quere rematar de validar os fragmentos?
 listen-abort-cancel = Seguir validando
 listen-abort-confirm = Finalizar a validación
+# Menu item
+validate-readings = Validar lecturas
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Validar lecturas, revisar transcricións
+
+## MENU ITEM ARIA LABELS
+

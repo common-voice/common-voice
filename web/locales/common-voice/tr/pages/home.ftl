@@ -78,6 +78,9 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 ## NAV ITEMS
 
+answer-questions = Soru yanıtla <small>(Çok yakında)</small>
+add-questions = Soru ekle <small>(Çok yakında)</small>
+transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
 
@@ -89,3 +92,4 @@ partnerships-menu-item-tooltip = İş ortağımız olun
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Seçenekler menüsü hakkında
+partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi alın

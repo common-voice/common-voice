@@ -47,7 +47,7 @@ sc-criteria-item-5-2 = Αν η πρόταση δεν πληροί τα παρα�
 sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις προς έλεγχο, βοηθήστε μας να συγκεντρώσουμε περισσότερες!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = <icon></icon> Έλεγχος γλωσσικής ορθότητας της πρότασης
-sc-review-rules-title = Τηρεί η πρόταση τους κανόνες;
+sc-review-rules-title = Τηρεί αυτή η πρόταση τους κανόνες;
 sc-review-empty-state = Προς το παρόν δεν υπάρχουν προτάσεις για έλεγχο σε αυτήν τη γλώσσα.
 report-sc-different-language = Διαφορετική γλώσσα
 report-sc-different-language-detail = Είναι γραμμένο σε γλώσσα διαφορετική από αυτή που αξιολογώ.

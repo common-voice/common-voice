@@ -11,6 +11,7 @@ country-of-residence-label = رہائش تہ ملک یا علاقہ
 country-of-residence-placeholder =
     .placeholder = تانوں ملک/رہائش تہ علاقہ درج کُرا
 why-are-you-asking = تو کو پوچاینپ?
+why-are-you-asking-explanation = یہ معلومت پرین اختیاری درو- بی تگہ شامل کُرا تے بی کیرمیاکی سکون تھا بہ۔۔ کیر ائی ڈیٹا سیٹ جاری کُنُمہ، تا ائی تمم ذاتی معلومت گمنام کُنُمہ، آں یہ باتی یقینی ژوپائیمہ تے مینہ نام، ای میل، عمریا جنس ساں معلومت جغرافیائی معلومت ملی منسلک نی تھیو۔
 thank-you-for-your-information = تہ معلومات تہ مہربانی
 
 ## Gender dropdown

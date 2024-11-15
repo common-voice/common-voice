@@ -4,6 +4,7 @@ speak-subtitle = ფლო́ქოღ ლიბათ თხოჼ შუჼ ი
 record-cta = ჩაწე́რ ჲო́ლჲალარ
 record-platform-not-supported = ი́ნც შუჼ სისტემ ცო ჲა ფელაცინო̆
 record-platform-not-supported-desktop = შტოლკომპიუტერა́ხ მაკ შუჼ ჴმა́რბადოლუჲში̆ წინიჭ აჰ̦დჵო́ფრი:
+record-platform-not-supported-ios-non-safari = iOS-მაქ, დეხო́თხ, მე́ ჴმა́რბადებათ Safari ჩაწე́რადანაჲნო̆
 record-must-allow-microphone = ჭირბალა მიკროფო́ნეციჼ ჴა́პტუჲლეჼ ნე́ბ ჲალ'არ
 record-no-mic-found = მიკროფოჼ ცო ლახდალიჼ
 record-error-too-short = ჩანაწერ წყეგეჸ და́ცუჼ დარ
@@ -26,9 +27,23 @@ terms-agree = დარ ლე́ვდო́ს
 terms-disagree = დარ ცო ლე́ვდ́ოს/უარ ლე́ვდო́ს
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = მა́დლობ შუჼ იშა́რეჼ ჩანაწე́რი თხოჼ ფლო́ქოღ დალ'რენდალლა́
+first-cta-subtitle-text = ლე́ჸი ჰ̦ოჼ ალ'ლო თხო́გო̆ უ̂ხ თა́ვისებურებ ჲა აჰ̦ ამბუჲ ჲარეგო?
+why-donate = უ̂ნდა/სტე́ნდალლა?
+why-donate-explanation-1 = ე ინფორმაცია́ მაკ შუჼ ცო ლატჲოლუჲში. ჩანაწერაჼ კრე́ბულ იხითოშ ათხ დაჰ̦ დახო́თხ ვომაყ პირად მონაცემი, მე შუჼ წეა́ ელფოსტა́ დაჰ ყასტენო ჲალო შუ ა́სკეხინაჲ სქე́სხინაჲ
+why-donate-explanation-2 = ო́ჴუჲნდალლა, მე იშ ჲა́ბწჩოვ ღაზიშ მუშებადო́ლო̆, იშტუჼ მონაცე́მი ლი́ტ სა́ქმოხ ქო́რთო̆ ბო́წჩუჲშნ, მე́ ოშტუჼ საშუა́ლბი შე́ქმნადჲოლო̆, მენხუჲჩუჲშვა́ჲ ასა́ხოდო ადმენაჼ მრა́ვალფერო́ვნებ. მაგალითათ, ცო ხილ'ჩე ვაჲგო ბე́დუხკა́ჸ ა́მბუჲ ჲო́ჩიშნაჼ ჩანაწე́რი, ოჴ კილუჲვ ამბუჲ ჲო́ჩუჲნ მუჲლნე́ჴელბა ცო მუშებალალათ.<learnMore>გიბათ სოუბო მოჰ̦ მნიშვნელოვაჼ და მაქ ლა́ტინო̆ მონაცე́მი
+add-information-button = მონაცე́მი მაქ ლა́ტჲარ
+continue-speaking-button = ცო, მა́დლობ, ჩაწე́რადარეხ ცო ყეჲსტ́ას
+create-profile-text = ლე́ჸი ჰ̦ოჼ ჰ̦აიჼ მონაცე́მი დაჰ̦ გა́გიარ? შე́ქმნადჲებ პრო́ფილ
+thanks-for-voice-toast = მადლობ ჰ̦ე იშეხ ინფორმა́ციენაჲნო̆
+thanks-for-voice-toast-error = შეცდომ ხილ'ეჼ ინფორმაცია სო იხითოშ
+first-cta-gender-select-default-option = ჰალო ჩავარდებ ცჰა
+create-profile-button = პროფილ თჭაგიარ
+# menu item
+read-sentences = ჰალო ხატტათ წინადადბი
 
 ## MENU ITEM TOOLTIPS
 
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ამბუჲ იარეჼ პარამეტრაჼ მენიუ
