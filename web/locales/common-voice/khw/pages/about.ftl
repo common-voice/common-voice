@@ -140,4 +140,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حک
 about-playbook-how-funded = کامن وائس کیچا بیتی ساوز ہوئے؟
 about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
 about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو بچین، بہتر کوریکو بچین وا کمیونیٹیان پروگرامان چلیکو بچین بو پیسو ضرورت شیر۔
-about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سوم مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شرکت کوریاک ٹیمو سون لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
+about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سوم مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شرکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔

@@ -123,7 +123,7 @@ n-clips-pluralized =
         [one] { $count } اسکوردی ہواز
        *[other] { $count } اسکوردی ہواز
     }
-help-share-goal = اسپہ سون خور ہواز مݰکیکا مدد کو۔ تان حدفو لو دیت
+help-share-goal = اسپہ سوم خور ہواز مݰکیکا مدد کو۔ تان حدفو لو دیت
 confirm-goal = حدفو تصدیق کو
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
