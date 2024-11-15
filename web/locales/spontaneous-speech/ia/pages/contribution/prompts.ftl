@@ -21,5 +21,7 @@ submit-all-button = Inviar toto
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Apprende como usar iste pagina
+learn-how-to-use-prompts-explanation = Justo responde al sollicitation tam naturalmente que tu pote in un par de phrases. Verifica que tu lingua es respectuose e inoffensive.
+learn-how-to-use-prompts-guidance = Clicca <guidanceLink>ci</guidanceLink> pro saper como usar iste pagina
 learn-how-to-use-transcribe = Apprende como transcriber
 learn-how-to-use-check-transcript = Apprende como verificar un transcription
