@@ -66,7 +66,7 @@ shortcut-record-toggle-label = ლი̄რი/ლიჩრაუ̂ა̄̈ლ
 shortcut-rerecord-toggle-label = კლიპი მახა̄ნ ლი̄რი
 shortcut-discard-ongoing-recording-label = ჟახაღრ ათხე̄ ნა̈ი̄რ
 shortcut-submit = უ̂ეშდ ლიტეხ/ლიტხე
-shortcut-submit-label = კლოპრე ქალიზზი
+shortcut-submit-label = კლიპრე ქალიზზი
 request-language-text = ჩიქე მა̄მ წუ̂აჲა/თერაჲა ისგუ ნინ Common Voice-ჟი?
 request-language-button = ხიჰრ ისგუ ნინ
 
@@ -84,7 +84,7 @@ contribution-for-example = მაგალითად
 contribution-misreadings-title = უსწოროდ ლჷჭუ̂და̄ნე
 contribution-misreadings-description = ლაჰუ̂ნა̈რჟი ბჷგიდ ფირთხილდ ათმოწმა̈ნ, ერე სგანა̈ი̄რუ̂ ზუსტდ ლი ლჷი̄რ; უ̂არ ლე̄ქა, ჰემა შეცდომა ლი, მა̄̈ჲ დო უმნიშუ̂ნელო ლესსუ̂. <br /> მაფში̄რე შეცდომა̄̈ლ ლიხ:
 contribution-misreadings-description-extended-list-1 = ნა̈ირი ლა̈ბნას ხაკლი<strong> 'ა'</strong> მო̄დეი<strong></strong>
-contribution-misreadings-description-extended-list-2 = სიტყვა̄̈ ლა̈შთხამჷყ ხაკლი<strong></strong>
+contribution-misreadings-description-extended-list-2 = ხაკლი <strong></strong> სიტყვა̄̈ ლა̈შთხამჷყ.
 contribution-misreadings-description-extended-list-3 = მეკუ̂შდე ი ჯო̄დი ფორმალე ლიჭუ̂და̈ნი, ხედუ̂ა̈ჲ მა̄მ ლი მნიშვნელოვან, მაგალითად, "We're"მო̄დეჲ  "We are", ჲედ პირიქით.
 contribution-misreadings-description-extended-list-4 = ქახაცუ̂ირ უ̂ეშგმეპილჲა̈ სიტყუ̂ა̄̈ ლა̈შთხა ნა̈ი̄რი სურუ ჩქა̈რდ ლისრულემი ბა̈დშუ̂.
 contribution-misreadings-description-extended-list-5 = სიტყვა̄̈ ლიჭუ̂და̄̈ნია̈ ფიშრა̄მინ ლიკჰუ̄რე.
