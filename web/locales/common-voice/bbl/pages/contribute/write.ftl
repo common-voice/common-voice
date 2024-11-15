@@ -29,6 +29,14 @@ guidelines = ნიყბახუჲნი/გზამკვლევ
 contact-us = თხოგო ლავათ /დაკეჲვშრებალიბათ
 add-sentence-success = 1წინადადებ ჲა ვაშარ ჲაჰინო
 add-sentence-error = ხარცხილ'არ წინადადებ ლეტჲოშ
+required-field = დეხოთხ, ე ეჸ/ველ ჰალო შევსებადჲებათ
+single-sentence-submission = წინადადბი ცჰაცა-ცჰაცა ჩუ ჲაჰარ
+small-batch-sentence-submission = მელ'მი წინადადებ ჩუ ჲაჰარ
+bulk-sentence-submission = წინადადბი ცჰაღ ჩუ ჲაჰარ
+single-sentence = ცჰაცალკ წინადადებ
+small-batch-sentence = კაძიკ
+bulk-sentence = დუჴ
+sentence-domain-combobox-label = წინადადბეჼ დარგ
 
 ## BULK SUBMISSION 
 
