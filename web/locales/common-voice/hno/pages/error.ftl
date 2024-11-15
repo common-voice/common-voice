@@ -5,3 +5,5 @@ banner-error-slow-2 = اسیں بہت ساری ٹریفک وصول کر رہیے
 banner-error-slow-link = سٹیٹس آلہ صفحہ
 error-something-went-wrong = معذرت، کوئی مسئلہ ہو گیا آسا
 error-clip-upload = اے کلپ اپلوڈ نیں ہو رہیا، کوشش کردے رو؟
+error-clip-upload-server = اے کلپ سرور تے اپلوڈ نیں ہو رہیا۔ صفحہ دوبارہ لوڈ کرو یا بعد بچ کوشش کرو۔
+error-title-404 = اسیں تُساں واسطے او صفحہ نہ ڈھونڈ ہکیاں۔
