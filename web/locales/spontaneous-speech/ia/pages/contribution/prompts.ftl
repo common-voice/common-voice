@@ -5,6 +5,8 @@ mic-access-error = Tu debe permitter le accesso al microphono
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> e responde tam naturalmente que tu pote
 no-prompts-message = Il non ha actualmente suggestiones pro iste lingua. Renova le pagina o retenta plus tarde.
+error-recording = Un error occurreva registrante.
+error-uploading-response = Un error occurreva cargante tu responsa.
 prompt-submitted-success = Responsa inviate con successo!
 prompt-response-deleted-success = Responsa delite con successo
 # For the button to delete a response to a prompt
