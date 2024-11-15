@@ -44,7 +44,7 @@ sc-criteria-item-2 = جملہ گرائمیرو لحاظا سہی بائے
 sc-criteria-item-3 = جملو ریکو قابل بائے
 sc-criteria-item-4 = اگر جملہ معیارو پورا کی کویان ہیا&quot; کلک کو۔  ہوسکی وشکی &quot;منظور کو
 sc-criteria-item-5-2 = اگر جملہ بوعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پروشٹی بیکو بوس۔
-sc-criteria-item-6 = تہ سوں جملہ وا لوڑیکو بچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
+sc-criteria-item-6 = تہ سوم جملہ وا لوڑیکو بچین ختم کی ہونی، اسپہ سوم خور جملہ بڑځیکا مدد کو
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = لوڑے <icon> </icon>ہیا کھوارو سہی جملہ؟
 sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہیا؟
