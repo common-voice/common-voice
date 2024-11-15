@@ -12,7 +12,7 @@ show-wall-of-text = خور دی رواوے
 help-us-title = اسپہ سوم ہوازو تسدیق کوریکا مدد کو!
 help-us-explain = چلیکو بٹینو دیت، کارکورے وا اسپاتین لو دیت کی ہیت موڑا ہے جملان سہی رینیانا؟
 no-clips-to-validate = ہش سریران کی ہیا وارا کارکوریکو بچین ہواز نیکی۔ ایک کما رکارڈ کوری اسپہ سوم ہیا کمیو پورا کورور۔
-toggle-play-tooltip = دباو کو{ shortcut-play-toggle } چلیکو موڈا انگیکو پیچین.
+toggle-play-tooltip = دباو کو{ shortcut-play-toggle } چلیکو موڈا انگیکو بچین.
 speak-paragraph = ہوازو رکارڈ کوریک سفو بچین ڈیٹاسیٹ ساوزیکو  بو اہم حصہ۔ پتھی رویان خیال ہیہ کی ہیا بو مزو کروم۔
 speak-goal-text = اسکوردی ہواز رکارڈ ہونی/ہوئے
 listen-paragraph = کامن وائسو تین دیرو ہوازان توثیق کوریک دی بو اہم۔ ہمی ہوازان کار کو وا اسپہ سوم معیاری وا سفو بچین ہوازو ڈیٹا ساوزیکا مدد کو۔
@@ -82,14 +82,14 @@ community-and-languages = کمیونیٹی وا وار
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = شرکت داری، اخبار، مضمون، کمیونیٹی وا وار
-partnerships-menu-item-tooltip = اسپہ سوم شرکت کو
+about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونیٹی وا وار
+partnerships-menu-item-tooltip = اسپہ سوم شراکت کو
 press-and-stories-menu-item-tooltip = اسپہ مضمونان لوڑے یا اسپہ بارا نیوشے
 community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے واران وا ای قسمہ ہوازان مشکے
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
-partnerships-menu-item-aria-label = کمان وائسو سوم شرکت دار بیکو بارا ݯیݯھے
+partnerships-menu-item-aria-label = کمان وائسو سوم شراکت دار بیکو بارا ݯیݯھے
 press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مشکے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران کی مدد کویان تیتان پتہ کو
