@@ -37,6 +37,7 @@ single-sentence = ცჰაცალკ წინადადებ
 small-batch-sentence = კაძიკ
 bulk-sentence = დუჴ
 sentence-domain-combobox-label = წინადადბეჼ დარგ
+sentence-domain-select-placeholder = ჲაგჲებათ ჴაეგომციჼ დარგ
 
 ## BULK SUBMISSION 
 
