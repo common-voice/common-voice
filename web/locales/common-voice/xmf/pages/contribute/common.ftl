@@ -24,6 +24,7 @@ record-button-label = ქინაჭარით თქვანი ხონ�
 share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
 keep-track-profile = თე პროფილით თოლი ქუუნეთ თქვანი წიმი ულას
 login-to-get-started = მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.
+target-segment-first-card = თქვა წილი მიშაიღუნა ჩქინი მაართანი მიზანიერ ნაშაყარაშა
 target-segment-add-voice = ქიგუძინით თქვანი ხონარი.
 target-segment-learn-more = ქიჩქუდას მეტი
 change-preferences = პარამეტრეფიშ თირუა.
