@@ -8,7 +8,7 @@ request-language-form-email =
 request-language-form-info =
     .label = وارو بارا معلومات
 request-language-form-info-explanation =
-    وارو  بارا کندوری کی ہوئی معلومات شامل کو۔
+    وارو  بارا کندوری کی ہوئے معلومات شامل کو۔
     ہیرا شامل بونی:
 request-language-form-info-explanation-list-1 = تہ وارو نام
 request-language-form-info-explanation-list-2 = </isoCodeLink> ISO  کوڈ</isoCodeLink> کہ تہ تین پتہ

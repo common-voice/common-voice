@@ -2,7 +2,7 @@
 
 your-languages = تہ وار
 toward-next-goal = نوغ مقصدو ویلٹی
-goal-reached = مقصد پورا ہوئی
+goal-reached = مقصد پورا ہوئے
 clips-you-recorded = ہواز تو ریکارڈ کوری اسوس۔
 clips-you-validated = ہواز تو تصدیق کوری اسوس
 todays-recorded-progress = ہنونو کامن وائسا ہوازان ریکارڈ بیرو کوروم
@@ -137,7 +137,7 @@ share-goal-type-both = لو دیک وا کارکوریک
 goal-share-text = اوا کمان وائس تین ہواز مہربانی کوریکو بچین حدف لکھیتام۔ اصل روئے کیچہ کوری لو دونیان رے مشنیو  ݯھیݯھیکو بچین مہ سوم جوست بوس وا مدد کو{ $link }
 weekly-goal-created = تہ ہفتہ وار حدف ساوز ہوئے
 daily-goal-created = تہ انوسو حدف ساوز ہوئے
-track-progress = تان کروم کندوری ہوئی رے ہیا پتہ کو وا تان سٹیٹس پیجا
+track-progress = تان کروم کندوری ہوئے رے ہیا پتہ کو وا تان سٹیٹس پیجا
 return-to-edit-goal = ہیا گیتی کیا وحت دی  تو تان مقصد تبدیل کوریکو بوس۔
 share-goal = مہ مقصدو خوران تین انځاوے
 

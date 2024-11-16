@@ -37,7 +37,7 @@ single-sentence = ای
 small-batch-sentence = ذیاد
 bulk-sentence = امبوخ
 sentence-domain-combobox-label = جملہ کھیو بارا؟
-sentence-domain-select-placeholder = تروئے پت گنے(اختیاری)
+sentence-domain-select-placeholder = ترویا پت گنے(اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
