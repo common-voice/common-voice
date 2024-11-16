@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = تنار تان تقریرو  بچین تہ بو منادار!
+age-gender-form-title = فی البدیہ لووا حصہ دریکو  بچین تہ بو منادار!
 age-gender-form-subtile = تان بارا اسپہ سوم لو دیتی تو ساوزئے یکان سوم سفو بچین ٹینالوجی ساوزیکا مدد کوس
 add-information-button = معلومات شامل کو
 continue-speaking-button = لوو جاری سوتو

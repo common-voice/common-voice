@@ -57,7 +57,7 @@ report-other-comment =
     .placeholder = تبصیرہ
 success = کامیاب
 continue = جاری
-report-success = رپورٹ منصور ہوئی
+report-success = رپورٹ منظور ہوئے
 
 ## Speak & Listen Shortcuts
 

@@ -28,7 +28,7 @@ record-abort-text = ہنیسے پیځیکو مطلب ہیہ کی تہ کاردو
 record-abort-submit = اسکوردی ہواز جمع کو
 record-abort-continue = رکارڈنگو بند کو
 record-abort-delete = بیری نیسے وا اسکوردی ہوازان بوغاوے
-review-aborted = اپلوڈ بند ہوئی، تان رکارڈینگو بوغیسانا؟
+review-aborted = اپلوڈ بند ہوئے، تان رکارڈینگو بوغیسانا؟
 review-submit-title = ای دی لوڑی و جمع کو
 review-submit-msg = رکارڈنگو بچین شکریہ!<lineBreak></lineBreak>ہنیسے ای دی لوڑے وا تان اسکوردی ہوازان موڑا جمع کوا
 review-recording = وا لوڑے
@@ -49,13 +49,13 @@ add-information-button = معلومات شامل کو
 continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
 create-profile-text = تان معلوماتان محفوظ کوسانا? <createProfile>پروفائل ساوزاوے</createProfile>
 thanks-for-voice-toast = ہوازو معلومات دیکو بچین تہ مینادار
-thanks-for-voice-toast-error = تو ہوازو معلومات جمع کوراوا، ای نقص پیدا ہوئی
+thanks-for-voice-toast-error = تو ہوازو معلومات جمع کوراوا، ای نقص پیدا ہوئے
 first-cta-gender-select-default-option = ای طریقو گنے
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تان ہوازو دیکو بچین اسپہ تہ منادار
-second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان ہوازو دییاک رویان سوم بلد بوس
+second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئے رے پتہ کوس۔  تان ہوازو دییاک رویان سوم بلد بوس
 already-have-an-account = پروشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login> بوس
 create-profile-button = ای پروفائل ساوزاوے
 # IMAGE TAGS
