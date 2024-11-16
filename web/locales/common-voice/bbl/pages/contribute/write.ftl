@@ -156,3 +156,5 @@ transcribe-audio-menu-item-tooltip = აუდიოჩანაწერაჼ 
 
 write-contribute-menu-aria-label = ჩუ ჩაწერადებათ პარამეტრაჼ მენიუ
 add-sentences-menu-item-aria-label = მაქ ლატჲებათ წინადადბი ვაი ერთობას ხატტანაინო
+review-sentences-menu-item-aria-label = დაყყდარ ო წინადადბი, მუნხუჲაჲ ერთობას და ჩუ დეჸენო
+add-questions-menu-item-aria-label = ჩუ დაჸათ წინ შეკითხვი, მე ერთობას ჰალო ხატტოლოჲე პასუხ ლოლო
