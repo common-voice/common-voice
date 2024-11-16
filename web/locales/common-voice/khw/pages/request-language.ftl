@@ -1,8 +1,8 @@
 ## Request Language Pages
 
-request-language-heading = ای وارو بارا بشار کو
-request-language-explanation-1 = چیک کوکی تہ وار ہیا لیسٹا شیر<languagesPageLink> کامن وائسو واران صفحہ </languagesPageLink> اگر کی نیکی ہیا فارمو ٹیپھاوے اسپتہ <strong> تہ تین ای اسان ای میل انځیسی کی تان وارو کچہ کوری ترتیب دوس۔
-request-language-explanation-2 = اسپہ تہ کمیونٹیو منیجرو تین لو دوسی کی تہ دلچسپی شیر تاکہ ہسے تہ تین خور دی تہ ضرورتو مدد یا معلومات دوئے
+request-language-heading = ای  نوغ وارو بارا بشار کو
+request-language-explanation-1 = چیک کوکی تہ وار شامل شیرا<languagesPageLink> کامن وائسو واران صفحہ </languagesPageLink> اگر کی نیکی ہیا فارمو ٹیپھاوے اسپتہ <strong> تہ تین ای اسان ای میل انځیسی کی تان وارو کچہ کوری ترتیب دوس۔
+request-language-explanation-2 = اسپہ تہ کمیونٹیو منیجرو تین لو دوسی کی تہ دلچسپی شیر تاکہ ہسے تہ تین خور دی ہݰ  مدد یا معلومات دوئے کہ شاید تہ ضرورت بوئے
 request-language-form-email =
     .label = تہ ای میلو پتہ
 request-language-form-info =
