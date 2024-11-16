@@ -6,7 +6,9 @@ listen-3rd-time-instruction = پست۔ ہمو برقرار بہچاوے
 listen-last-time-instruction = <playIcon></playIcon>آخیری دانہ
 listen-empty-state = اسپہ سوم ہواز ختم بیرو بونی، صفحو نوغ کو، یا پھوک اچا وا کوشش کو۔
 listen-empty-state-variants = تہ وارو کلپ ختم بیرو بونی! کی بوسان تان وارو خور جملان لوڑیکو بچین تان ترتیبو بدل دیکو بوس۔
-listen-loading-error = اسپہ تہ تین کار کوریکو بچین ہوازو کلپ دیکو نو بوسیان, پھوک اچا کھوشیش کو
+listen-loading-error =
+    اسپہ تہ تین کار کوریکو بچین ہوازو کلپ دیکو نو بوسیان,
+    پھوک اچا کھوشیش کو
 listen-abort-title = ہوازان تصدیق کوریکو نسی ناوے
 listen-abort-cancel = تصدیق کوریکو جاری بہچاوے
 listen-abort-confirm = تصدیق کوریکو ختم کو
