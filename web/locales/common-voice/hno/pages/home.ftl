@@ -18,6 +18,11 @@ toggle-play-tooltip = پلے موڈ کو ٹوگل کرنا آستے { shortcut
 speak-paragraph = وائس کلپ ریکاڈ کرنا اسدے اوپن ڈیٹا سیٹ دی تعمیر دا ہک لازمی حصہ ہے; کوئی آکھسن کہ اے شغل بھی ہے۔
 speak-goal-text = کلپ ریکارڈ ہو گے
 listen-paragraph = عطیہ کیتے کلپاں دی توثیق بھی کامن وائس مشن آستے برابر اہمیت رکھدی ہے۔ سنڑو تے ہچھا اوپن سورس وائس ڈیٹا بڑینڑا واسطے اسدی مدد کرو۔
+listen-goal-text = کلپ تصدیق ہوے
+hours-recorded = گھنٹے ریکاڈ ہوے
+hours-validated = گھنٹے تصدیق ہوے
+voices-online = آوازاں ہونڑ آن لائن ہن
+todays-progress = اجّ دی پراگرس
 
 ## Account Benefits
 
