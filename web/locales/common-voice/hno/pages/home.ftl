@@ -82,9 +82,14 @@ review-transcriptions = ٹرانسکرپشنز دا جائزہ گِھنو<small>
 add-questions = سوال شام کرو<small>(جلدی آرہے ہن)</small>
 transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آرہے ہن)</small>
 press-and-stories = پریس ہور کہانڑیاں
+community-and-languages = کمیونٹی ہور زباناں
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت داریاں، پریس ہور کہانڑیاں، کمیونٹی ہور زباناں
+partnerships-menu-item-tooltip = اساں نال حصہ داری کرو
+press-and-stories-menu-item-tooltip = اسدے بلاگ تے جُلّو یا اسدے بارے لکھو
+community-and-languages-menu-item-tooltip = زباناں ہور کمیونٹیاں ہور کامن وائس کو لَبو
 
 ## MENU ITEM ARIA LABELS
 
