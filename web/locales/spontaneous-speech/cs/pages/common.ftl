@@ -32,3 +32,4 @@ not-found-page-content = Stránka, kterou hledáte, nebyla nalezena
 accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
 en = Angličtina
 fr = Francouzština
+tr = Turečtina
