@@ -88,9 +88,27 @@ bulk-submission-success-subheader = აჰ ლეტე  Common Voice-ენ წ
 upload-more-btn-text = სოუბო წინადადბი ჰალო ჴოწჲანი ლეჸ შუჼ?
 file-invalid-type = ხარც ფაილ
 file-too-large = ფაილ წყეგეჸ დაჴჴოჼ და
+file-too-small = ფაილ წყეგეჸ კაწკოჼ და
+too-many-files = წყეგეჸ დუჴ ფაილი და
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = ლატდებათ მელ'მი <icon></icon>წინადადებ ჰამანეჸ საკუთრებელეჼ
+multiple-sentences-error = ცო ლატოდმაკ შუჼ მელ'მი წინადადებ ცჰაცა-ცჰაცა ჩუ ჴეჰოშ
+exceeds-small-batch-limit-error = ცო მოჴერჴბალა 1000-ეხ საბუხ წინადადბი დაჰ ჲახითარ
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ 1 წუთე
+       *[other] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ { $retryLimit } წუთე
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ 1 წამე
+       *[other] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ { $retryLimit } წამე
+    }
 
 ## MENU ITEM TOOLTIPS
 
