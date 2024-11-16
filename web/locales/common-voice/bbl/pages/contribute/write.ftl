@@ -144,10 +144,13 @@ add-sentences = მაქ ლატჲებათ წინადადბი
 
 ## MENU ITEM TOOLTIPS
 
-add-sentences-menu-item-tooltip = კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო
+write-contribute-menu-tooltip = მაქ ლატჲებათ ჲე დაყყჲებათ წინადადბი, ლატჲებათ შეკითხვი, ჩაწერადჲებათ აუდიო
+add-sentences-menu-item-tooltip = მაქ ლატჲებათ წინადადბი შუი მატტმაქ//კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო
 review-sentences-menu-item-tooltip = კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო//ბუსცჰაჸ-ჲე, მაცნე
 add-questions-menu-item-tooltip = უ ლევლა -ე, მაცნე ნიფსივხო და ჲე//უჲშტნეჸ: ნიფსივხ და მაცნე
+transcribe-audio-menu-item-tooltip = აუდიოჩანაწერაჼ ტრანსკრიფცია შუ მატტმაქ
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = ჩუ ჩაწერადებათ პარამეტრაჼ მენიუ
+add-sentences-menu-item-aria-label = მაქ ლატჲებათ წინადადბი ვაი ერთობას ხატტანაინო
