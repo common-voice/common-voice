@@ -72,9 +72,14 @@ username-email-not-demographic = تُسدا استعمال دا ناں ہور ا
 welcome-staff = { $company }دے عملے کو ہرکدےآو!
 help-contribute = کامن وائس پروفائل بنڑا کے ہور اپنڑی آواز دا عطیہ کر کے تُسیں ہک متنوع، اوپن-سورس ڈیٹا سیٹ بڑینڑا بچ مدد کر سکدے ہو۔
 login-company = { $company } ای میل نال لاگ ان/ سائن اپ
+profile-not-required = حصہ بینڑا کیتے پروفائل ہونڑا دی ضرورت نیں، اگر ہوا تے اے مددگار اے، تلہ دکھو کِیّاں۔
+read-more-about = اسدے تعارفی صفحے دے بارے مزید پڑھو
 
 ## NAV ITEMS
 
+answer-questions = سوالاں دے جواب دیو<small>(جلدی آرہے ہن)</small>
+review-transcriptions = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آرہے ہن)</small>
+add-questions = سوال شام کرو<small>(جلدی آرہے ہن)</small>
 
 ## MENU ITEMS TOOLTIPS
 
