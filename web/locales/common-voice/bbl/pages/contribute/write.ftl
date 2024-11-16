@@ -125,6 +125,8 @@ small-batch-sentences-rule-1 = დოწლიბათ მითითბახ
 small-batch-sentences-rule-2 = ლატჲებათ ცჰაც წინადადებ ცჰაცჰაჲნი ხაზენმაქ
 small-batch-sentences-rule-3 = წინჩო ხაზენმაქ ბედ ჲებათ წინადადბი  ლე „Enter“, ლე მა „Return“  ღილაკმაქ  წყე ნიწყ ბარევ
 small-batch-sentences-rule-4 = მაქ ლატჲებათ 1000-ეხ ცო საბლეჲნი წინადადბი
+small-batch-sentences-rule-5 = ვომაჸ წინადადბი ცჰაჲნი დარგუჼ ჲეწე ხილ'აჼ
+small-batch-sentences-rule-6 = ვომაჸ წინადადბი ცჰაჲნი წყარუჲლეჼ ჲეწე ხილ'აჼ
 
 ## MENU ITEM TOOLTIPS
 
