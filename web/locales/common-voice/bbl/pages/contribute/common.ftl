@@ -1,7 +1,7 @@
 action-click = წკაპ ბებ
 action-tap = მაქა ნიწყ ბებ
 contribute = და́ყ ჩუ დაჰ̦არ { $count }
-review = შემოწმადარ (დაყყდარ())
+review = შემოწმადარ (დაყყდარ)
 skip = დაჰ̦ დითარ
 shortcuts = ქაშშეჸ კლევადუჲლრიკი
 clips-with-count-pluralized =
