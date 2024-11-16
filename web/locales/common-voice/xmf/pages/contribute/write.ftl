@@ -12,6 +12,9 @@ citation =
 sc-review-write-title = მუ წინადადებეფი შემლებუ გევუძინენი?
 sc-review-small-batch-title = მუჭო გევუძინა ართ-ჟირ წინადადება
 new-sentence-rule-3 = ქიგმირინეთ თინილი გრამატიკა
+new-sentence-rule-4 = გიმირინეთ ჭორი ჭარუა დო სასვენი ლიშანეფი.
+new-sentence-rule-5 = ვარე ციფრეფი დო სპეციალური სიმბოლოეფი
+new-sentence-rule-6 = ურცხო ასოეფი ვარე
 
 ## BULK SUBMISSION 
 
