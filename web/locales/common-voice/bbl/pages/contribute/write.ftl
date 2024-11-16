@@ -60,9 +60,12 @@ news_current_affairs = წინ ამბუჲაჲ, ინცლუჼ მ�
 technology_robotics = ტექნოლოგიაჲ-ე რობოტოტექნიკაჲ
 sentence-variant-select-label = წინადადბეჼ კუთხურობ
 sentence-variant-select-placeholder = ჩავარჲებათ მატტინ ნაირსახეობ (ცოაუცილებელ)
+sentence-variant-select-multiple-variants = ძირითად მოტტ/მელ'მი სახეობ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ჰალო ჴოწდებათ/ატვირთოდებათ მელ'მი წინადადებ ჰამანეჸ საკუთრებელეჼ
 
 ## SMALL BATCH SUBMISSION
 
