@@ -87,8 +87,8 @@ goal-interval-weekly = Тхьэмахуэ къэс
 share-n-daily-contribution-goal = Share your { $count } Clip Daily Goal for { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Share your { $count } Clip Weekly Goal for { $type }
-share-goal-type-speak = Тхы
-share-goal-type-listen = Е дэIу
+share-goal-type-speak = Къэпсалъэ
+share-goal-type-listen = ЕдэIу
 share-goal-type-both = Е дэIуэж
 # LINK will be replaced with the current URL
 goal-share-text = I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak { $link }
