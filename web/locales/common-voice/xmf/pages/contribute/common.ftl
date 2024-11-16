@@ -1,9 +1,5 @@
-action-click = გეკაკაფა
-action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
-review = შემოწმება
 skip = გიშატება
-shortcuts = მალასმაჭანაფალი
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ინნაჭარა
@@ -43,6 +39,7 @@ report-ask = მუ კილი უღუ თე წინადადებე
 report-offensive-language = უწმაწური ნინა
 report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე
 report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
+report-grammar-or-spelling-detail = წინადადებას გრამატიკული ვარდა თინჭარუაში კილი უღუ.
 report-different-language = შხვანერი ნინა
 report-different-language-detail = ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ რე ჭარილი
 report-difficult-pronounce = ძნელი ორაგადე რე
@@ -64,7 +61,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = დორთა
-shortcut-submit-label = ინოჭარილეფიში გინოჯღონა.
+shortcut-submit-label = ინოჭარილეფიში ჯღონა.
 request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
 request-language-button = მითხით ნინაში გეძინა
 
@@ -75,6 +72,8 @@ shortcut-play-toggle-label = გოტება / მეჭყვიდუა
 ## Validation criteria
 
 contribution-criteria-nav = სითინუეში ოზიმალი.
+contribution-criteria-link = წილიშ წორო მიშაღალაშ გურშენი
+contribution-criteria-page-title = წილიშ მიშაღალაშ კრიტერიუმეფი
 contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა.
 contribution-for-example = მაგალთო
 contribution-misreadings-title = უწორო კითხირი
