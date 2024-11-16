@@ -84,6 +84,10 @@ sc-bulk-submit-confirm = დასტურ ლევჲოს, მე ე წ�
 bulk-upload-success-toast = წინადადბი დაქიშ ჰალო ჴოწჲალიჼ ვომაჸცჰაღ
 bulk-upload-failed-toast = ჰალო ცო ჴოწჲალიჼ. დეხოთხ ოშტიჸ ცადჲოლუჲში
 bulk-submission-success-header = მადლობ წინადადბი ვომაჸცჴაღ ჲაჸითრენდალლა!
+bulk-submission-success-subheader = აჰ ლეტე  Common Voice-ენ წინადადბი ვაშარ ჲაჰაჼ დინლუჼ პირობ ქორლეჼ ცო იახითაჼ
+upload-more-btn-text = სოუბო წინადადბი ჰალო ჴოწჲანი ლეჸ შუჼ?
+file-invalid-type = ხარც ფაილ
+file-too-large = ფაილ წყეგეჸ დაჴჴოჼ და
 
 ## SMALL BATCH SUBMISSION
 
