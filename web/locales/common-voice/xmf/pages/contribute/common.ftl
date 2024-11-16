@@ -42,12 +42,15 @@ submit-form-action = ჯღონა
 report-ask = მუ კილი უღუ თე წინადადებეფს?
 report-offensive-language = უწმაწური ნინა
 report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე
+report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
 report-different-language = შხვანერი ნინა
 report-different-language-detail = ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ რე ჭარილი
 report-difficult-pronounce = ძნელი ორაგადე რე
 report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ
 report-offensive-speech = უწმაწურ ჩიება
 report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე
+report-other-comment =
+    .placeholder = გეძახინი
 continue = გაგძელება
 
 ## Speak & Listen Shortcuts
