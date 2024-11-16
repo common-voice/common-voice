@@ -68,7 +68,9 @@ sentence-variant-select-multiple-variants = ძირითად მოტტ/�
 sc-bulk-upload-header = ჰალო ჴოწდებათ/ატვირთოდებათ მელ'მი წინადადებ ჰამანეჸ საკუთრებელეჼ
 sc-bulk-upload-instruction = სო თაჴდებათ, ლე<uploadButton>-ეხ ნიწყ ბებათ ჰალო ჴოწდა</uploadButton>ჼ
 sc-bulk-upload-instruction-drop = სო თაჴდებათ ჰალო ჴოწდაჼ
-bulk-upload-additional-information = ლეჸეჵ შუჼ საბუხ ალ'აჼ ეჴ ფაილეხ, დეხოთხ, წერილ დაჸითათ ეჴ ადრესმაქ
+bulk-upload-additional-information = ლეჸეჵ შუჼ თხოგო საბუხ ხაჸითაჼ ეჴ ფაილეხ, დეხოთხ, წერილ დაჸითათ ეჴ ადრესმაქ
+template-file-additional-information = ლეჸეჰ შუჼ თხოგო ტყოჸ  უმ ხაჸითაჼ ეჴ ფაილეხ, უნე ნიმუშე ცო ჴაჸეჼ, დეხოთხ, წერილ დაჸითათ თხოჼ
+try-upload-again = ოშტიჸ ცადლიბათ ფაილ სო თაჴდარ
 
 ## SMALL BATCH SUBMISSION
 
