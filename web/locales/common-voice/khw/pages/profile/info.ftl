@@ -37,31 +37,31 @@ non-binary = موش تہ کمیری
 do_not_wish_to_say = لو دیک نو مݰکیمان
 # Gender
 other = خور
-why-profile-title = پروفائل کو
+why-profile-title = پروفائل کو؟
 why-profile-text =
-    تان بارا پھوک معلومات دیتی، ہوازو ڈیٹا کامن وائسا شامل کی ارو ریاکو تین ذیادہ فائدہ ہوئے۔
-    ہوݰ کوراک مشین ہمی معلوماتان سہی کوریکو بہتر  کوریکو بچین استعمال کویان۔
-dashboard = ڈِش بورڈ
+    تان بارا پھوک معلومات دیتی، ہوازو ڈیٹا کامن وائسا شامل کی ارو ریاکو لوان
+    ہوݰ کوراک مشینو تین ہمی لوان سہی گریو ہوش کوریکا مدد ملاو بوئے۔
+dashboard = ڈِیش بورڈ
 build-profile = پروفائل ساوزاوے
 avatar = ایویٹر
 goals = حدف
 settings = ترتیب
-edit-profile = پروفائلو تبدیل کوریک
+edit-profile = پروفائلو تبدیل  کوریک
 profile-create-success = کامیابی، پروفائل ساوز ہوئے
 profile-close = بند
 profile-explanation = تان کورمو  پروفائلو سورا پروشٹی بیکو لوڑے وا اسپہ ہوازو ڈیٹا جام سہی بکو بچین مدد کو
 thanks-for-account = اکانٹو تصدیق کوریکو بچین تہ  شکریہ، ہنیسے تا پروفائلو ساوزیسی
-why-demographic = ہیا اہم کو؟
+why-demographic = ہیا اہمیت کو لاکھویان۔
 why-demographic-explanation-2 = کھوشت استعمال کوراکو معلومات مثلا عمر، موش/کیمیری وا لہجہ ہوازو ڈیٹو لوان ہوݰ کوراک انجنو تربیت دیکو بچین استعمال بونیان۔ تان استعمال بک نام وا ای میل تہ  جمع بیرو ڈیٹو سوم جوست نو بوئے۔ وا تو تان استعمالو نامو پشیکو یا کھوشتیکو بوس۔
 accept-privacy = اوا تہ سوم ہمی معلوماتان موزیلا <privacyLink> راز دریو پالیسیو </privacyLink>مطابقا کیچہ کہ تو ہورو واضح کوری اسوس سنبال کوم
 accept-privacy-title = راز دریو پالیسی
 accept-privacy-and-terms = اوا کامن وائسو <termsLink> شرطان</termsLink> وا <privacyLink>راز دریو نوٹسو </privacyLink> قبول کومان۔
-login-identity = لوگ اِن کوریکو شناخت
-login = لوگ ان
-edit = تبدیلی
+login-identity = لاگ اِن کوریکو شناخت
+login = لاگ ان
+edit = تبدیلی کوریک
 email-subscriptions = ای میلان سبسکرپشنز
 download-profile = مہ معلوماتان ڈاون لوڈ کو
-contribution-experience = شرکت کوریکو تجربہ
+contribution-experience = حصہ دریکو تجربہ
 skip-submission-feedback = سبسکرپشنز سورا تبصیرو سورین نسیک
 skip-submission-description = جمع  کوریکو موژی"جمع" بٹنو دیکو  تبصیرو پیچھین بوئے ۔ گیاک 5 سیٹ رکارڈنگا  یا تصدیق کوریک جاری بوئے۔
 skip-submission-note = نوٹ: مدد کوریکو قسمو بدل دیکو بچین، لو دیکو  یا کارکوریکو موژی تہ کھیو گانیلیک۔
