@@ -120,6 +120,7 @@ contribution-misreadings-example-8-explanation = [უნე წერალა, 
 contribution-varying-pronunciations-title = ჴეჩბერ და ალ'ინო
 contribution-varying-pronunciations-description = თხილლიბათ ჩანაწერეხ უარ ლევდოშ, მაცმე დოშ ნიფს ცო ლევლა, მახვილ ჴეჩო̆ მათთა ლევიშ ლე კითხვნიშნეჼ ინტონაციეწიჼ დოშ ლევდოშ. ცო და ბეკხეთლეჲნი̆, მე ცჰჲენ მატტლო მელ'მი ინტონაცია არსბალალო̆, მენხუჲაჲ შუჼ ცო ხაწენდა ო ნახლო, ჰანცინა ურთიერთობ ჲა შუგო.
 contribution-varying-pronunciations-description-extended = შილღეჩო̆ მჴარლენდა, დაკლევიჰ̦ე́შ, მე ჰ̦ალო̆ ხე́ტტჩონ  დო́ჲჰ̦რელუჼ ხაწეჼ ე დოშ ჲე ხარც ხა́ტტიჼ, დეხო́თხ მე უარ ალ'ლოთ ოჴ დაშახ.  მაკ შუჼ გამოტო́ვებ ღილაკევ დაჰ̦ ეჴჴაჼ ო ცოწო́ნალეჩო̆ წინადა́დბეხ.
+contribution-varying-pronunciations-example-1-title = "ნანვაშეგო ჟორაჲშ ლამზურ ჲეწარ ჲანორ"
 contribution-background-noise-description = ლე́ჸ თხოჼ მანქანურ თე́წდარეჩ ალგორითმინ მაკელო მუშებადაჼ ჴენჴენი თათნი ჲაშა́. ხატტინო̆ ტექსტ ხაწრენ ცო და́შლადო́ჰ̦, ლაჴეჼ აშირა́ მისაღებ ხილ'ო̆. ლახუჼ იშ ჲეჲნი̆ მუსიკ ხილ'არ ცო́მშაბალა, მუსიკენდალლ́ა დაშნი ცო ხაწე́ჰ̦, ეჰ̦ა́თ უარ დეწ ა́ლ'დალაჼ
 contribution-background-noise-description-extended = მაცმე́ ჩანაწერ დაჰ̦ ხე́ტე̆, ლე შარშარ ხაწე̆, უარ ა́ლ'ათ, დი́ნ ტექსტ იშტუჼ ჲაჰ̦
 contribution-background-noise-example-2-explanation = [ტექსტეჼ მონაკვეთ ცო ხაწე̆]
