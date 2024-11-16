@@ -141,5 +141,6 @@ contribution-volume-description = უარ ალ'ათ დაჩო ეჰა
 contribution-reader-effects-title = ხარცჲენო̆ ი́შ
 contribution-reader-effects-description = საბლეხიჼ ნახვ მუჲლნე́ჴელბა ა́შარვ ჲო ა́მბუჲ, ეჴუხ გა́რდ მაკ შუჼ, მოჰ̦ეგა მონა́კლის, მიღებადოლუჲში̆ დუღეშ, ჩარჩარდოშ, ვითამგეჸ-აჲნო̆ ა́ლინო̆ დაშნია́ჲ, მა́ დეხო́თხ, უარ ალ'ათ მოჴბოშ, ლე მა́ კომპიუტერულ პროგრა́მევ ხა́ტტინჩო̆ ჩანაწერა́ხ.
 contribution-just-unsure-title = მაინც ეჭვი́ იხო̆ ჰ̦ოჼ?
+contribution-just-unsure-description = ოშტუნ საკითხ ბჵარჲეხჩე, მენხუხა ეჴ მითითებე ცომ და ალ'ინო, დეხოთხ სინდსვეჼ შეფასებ ლიბათ. წყეგეჸ ჭირვეჲშ ფასბალეჲნი დაჰ, მაყ ლიბაეთ დაჰა დოტათ ჴეჩო ჩანაწერენმაქ
 see-more = <chevron></chevron> დახხეშ
 see-less = <chevron></chevron>დაცდოშ
