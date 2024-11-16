@@ -40,9 +40,11 @@ why-donate-explanation-2 = ო́ჴუჲნდალლა, მე იშ ჲ�
 add-information-button = მონაცე́მი მაქ ლა́ტჲარ
 continue-speaking-button = ცო, მა́დლობ, ჩაწე́რადარეხ ცო ყეჲსტ́ას
 create-profile-text = ლე́ჸი ჰ̦ოჼ ჰ̦აიჼ მონაცე́მი დაჰ̦ გა́გიარ? შე́ქმნადჲებ პრო́ფილ
-thanks-for-voice-toast = მადლობ ჰ̦ე იშეხ ინფორმა́ციენაჲნო̆
+thanks-for-voice-toast = მადლობ ჰ̦ე იშეხ ინფორმა́ცია ჲალ'რენაჲნო̆
 thanks-for-voice-toast-error = შეცდომ ხილ'ეჼ ინფორმაცია სო იხითოშ
-first-cta-gender-select-default-option = ჰალო ჩავარდებ ცჰა
+first-cta-gender-select-default-option = ჰ̦ალო̆ ჩა́ვარდებ ცჰ̦ა
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = მა́დელ ჰ̦ოჼ ჰ̦აიჼ ი́შ ფლო́ქოღ ჲალ'რენდალლა́
 create-profile-button = პროფილ თჭაგიარ
 # menu item
 read-sentences = ჰალო ხატტათ წინადადბი
