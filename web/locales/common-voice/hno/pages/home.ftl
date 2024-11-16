@@ -70,6 +70,8 @@ username-email-not-demographic = تُسدا استعمال دا ناں ہور ا
 ## Landing
 
 welcome-staff = { $company }دے عملے کو ہرکدےآو!
+help-contribute = کامن وائس پروفائل بنڑا کے ہور اپنڑی آواز دا عطیہ کر کے تُسیں ہک متنوع، اوپن-سورس ڈیٹا سیٹ بڑینڑا بچ مدد کر سکدے ہو۔
+login-company = { $company } ای میل نال لاگ ان/ سائن اپ
 
 ## NAV ITEMS
 
