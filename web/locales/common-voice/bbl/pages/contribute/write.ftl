@@ -109,6 +109,18 @@ rate-limit-toast-message-seconds =
         [one] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ 1 წამე
        *[other] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ { $retryLimit } წამე
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ 1 წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+       *[other] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ { $retryLimit } წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ 1 წამე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+       *[other] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ { $retryLimit } წამე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+    }
 
 ## MENU ITEM TOOLTIPS
 
