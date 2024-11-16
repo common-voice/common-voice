@@ -93,3 +93,7 @@ community-and-languages-menu-item-tooltip = زباناں ہور کمیونٹیا
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اختیارات آلے مینو بارے
+partnerships-menu-item-aria-label = کامن وائس نال شراکتاں بارے جانڑو
+press-and-stories-menu-item-aria-label = کامن وائس بارے پریس ریلیز ہور کہانڑیاں کو پُہنچو
+community-and-languages-menu-item-aria-label = کامن وائس دی مدد آلیاں زباناں ہور کمیونٹی بارے جانڑو۔
