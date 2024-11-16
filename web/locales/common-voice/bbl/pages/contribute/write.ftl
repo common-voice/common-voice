@@ -76,6 +76,8 @@ select-file = ფაილ ჩავარდებათ
 select-file-mobile = ფაილ ჩავარდარ ჰალო ჴოწდანაჲნო
 accepted-files = ფაილეჼ ღალხილ'უჲნი სახეობ და  დაჩოკ .tsv
 minimum-sentences = წინადადებ სეწ ხილ'აჼ ჰამახეჸ კაძიკ 1000
+maximum-file-size = ფაილეჼ ჲუწოლ სოუბ ცო ჲეწ ხილ'აჼ 25 მბაიტეხ
+what-needs-to-be-in-file = უხ დეწ ფაილე ხილ'აჼ?
 
 ## SMALL BATCH SUBMISSION
 
