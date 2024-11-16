@@ -51,6 +51,7 @@ report-offensive-speech = უწმაწურ ჩიება
 report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე
 report-other-comment =
     .placeholder = გეძახინი
+success = გომორძგუა
 continue = გაგძელება
 
 ## Speak & Listen Shortcuts
