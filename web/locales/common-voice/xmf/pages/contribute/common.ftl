@@ -9,12 +9,12 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ინნაჭარა
        *[other] <bold>{ $count }</bold> ინნაჭარა
     }
-goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარი ღანკიში { $goalValue } ინაჭარში <goalPercentage></goalPercentage> შისრულუ!
-goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი ღანკიში{ $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარ მიზანიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
 contribute-more =
     { $count ->
-        [one] ქორეთო მზათ შეარსულათ ხოლო { $count }
-       *[other] ქორეთო მზათ შეარსულათ ხოლო { $count }
+        [one] ქორეთო ხაზირჷ შეარსულათ ხოლო { $count }
+       *[other] ქორეთო ხაზირჷ შეარსულათ ხოლო { $count }
     }
 speak-empty-state = ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო
 no-sentences-for-variants = ნინაში თე სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
