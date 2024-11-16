@@ -3,7 +3,7 @@
 download-q = تان معلوماتان ڈاون لوڈ کوریک مݰکیسانا؟
 download-info = اسپہ تین لودیت تو کھیو ڈاون لوڈ کوریک مݰکیسان؟
 download-profile-title = پروفائل
-download-profile-info = ای میلو، استعمال بک نام اوچے آبادیو بارا معلومات شاو دستیاب بونی
+download-profile-info = ای میلو، استعمالا انگیکو نام اوچے آبادیو بارا معلومات شاو دستیاب بونی
 download-profile-size = ای کما بائٹس
 download-recordings-title = رکارڈنگ
 download-recordings-info = ام پی 3 وا متعلقہ جملان سورا مشتمل شیر، تیار بیکا پھوک وخت گنیر

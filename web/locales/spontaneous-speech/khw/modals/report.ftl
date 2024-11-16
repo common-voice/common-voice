@@ -1,11 +1,11 @@
 ## Report Modal
 
 report-modal-title = رپورٹو جمع کو
-report-modal-subtitle = ہمی اشناری تہ تین کیا مسلہ کونیان؟
+report-modal-subtitle = ہمی موادان سوم  تہ تین کیا مسلہ شیرا؟
 offensive_speech = شوم مواد
 offensive_speech-detail = ہیا موژی غیر مہذب یا شوم لو شیر۔
-different_language = خور وار
-different_language-detail = اوا کیا وارو کی توقع کوراو اوشتام ہیاشیرو وار ہتیغار مختلف۔
+different_language = مختلف وار
+different_language-detail = اوا کیا وارو کی توقع کوراو اوشتام ہیا شیرو وار ہتیغار مختلف۔
 personally_identifiable_information = تان شناختو قابل معلومات
 personally_identifiable_information-detail = ہیا اشنایریو موژی کیا انسانو ہوݰ کوریکو بارا تنارتان ہوݰ کورک معلومات شینی، کچا کی توغو نام، ای میل ایڈریس، ژاغہ، شناختی نمبر یا فون نمبر۔
 report-other-comment =
