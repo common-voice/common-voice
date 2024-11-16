@@ -1,8 +1,8 @@
 # GUIDELINES PAGE
 guidelines-header = حصہ گنیکو رہنمائی
 guidelines-header-subtitle = ہوݰ کو کامن وائسو ڈیٹاسیٹا جملان وا اسکوردی ہوازان کیچہ کوری جمع وا تصدیق کورونو بوئے
-voice-collection = ہواز بڑاځیک
-sentence-collection = جملہ بڑاځیک
+voice-collection = ہواز بڑاڅیک
+sentence-collection = جملہ بڑاڅیک
 varying-pronunciations = لہجو بدل دیک
 misreadings = غلط ریک
 offensive-content = شوم مواد
@@ -89,5 +89,5 @@ adding-sentences-subheader-offensive-content-explanation = جملا کی شوم 
 reviewing-sentences-explanation-1 = جملہ کی سورا  ہے شرطو پورا کی کویان تھے "دی" بٹینو دیت
 reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا نو کویان تھے "نو" بٹینو دیت
 reviewing-sentences-explanation-3 = اگر جملو پارا تہ یقین کی نیکی، تو ہرو پیݯھی پروشٹی بیکو بوس
-reviewing-sentences-explanation-4 = تہ سوم جملہ والوڑیکو بچین ختم کی ہونی، اسپہ سوم خور جملہ بڑاځیکا مدد کو
+reviewing-sentences-explanation-4 = تہ سوم جملہ والوڑیکو بچین ختم کی ہونی، اسپہ سوم خور جملہ بڑاڅیکا مدد کو
 domain-explanation = دائرہ جملو موضوع حوالہ دویان۔ ہنیسے تو ہمیتان موژار ای غو گنیکو بوس:

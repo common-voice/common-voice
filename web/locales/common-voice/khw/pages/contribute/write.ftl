@@ -27,7 +27,7 @@ how-to-cite-explanation-bold = یو ار ایل لینکو یا کورمو پو�
 how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیویشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان بچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
 guidelines = رہنمائی
 contact-us = اسپہ سوم رابطہ کو
-add-sentence-success = 1جملہ بڑاځینو ہوئے
+add-sentence-success = 1جملہ بڑاڅینو ہوئے
 add-sentence-error = نقص دیاک جملہ
 required-field = مہربانی کوری ہیا ژاغو ٹیپاوے
 single-sentence-submission = ای جملہ جمع کو
@@ -128,8 +128,8 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار ایک جملہ بڑاځیتاو
-       *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑاځیتاو
+        [one] { $uploadedSentences } موژار ایک جملہ بڑاڅیتاو
+       *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑاڅیتاو
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
