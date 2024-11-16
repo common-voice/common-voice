@@ -130,6 +130,9 @@ small-batch-sentences-rule-6 = ვომაჸ წინადადბი ც�
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო
+review-sentences-menu-item-tooltip = კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო//ბუსცჰაჸ-ჲე, მაცნე
+add-questions-menu-item-tooltip = უ ლევლა -ე, მაცნე ნიფსივხო და ჲე//უჲშტნეჸ: ნიფსივხ და მაცნე
 
 ## MENU ITEM ARIA LABELS
 
