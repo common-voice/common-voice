@@ -9,6 +9,7 @@ interface-language = Jazyk rozhraní:
 # Label for button on contribution switcher
 change = Změnit
 coming-soon = Další jazyky již brzy
+media-recorder-api-not-supported = MediaRecorder API není ve vašem prohlížeči podporováno.
 # Toast message that is displayed when an item is skipped
 skipped = Přeskočeno
 audioplayer-header = Poslechnout
@@ -18,9 +19,16 @@ report-button = Hlášení
 # For the button to skip an item
 skip-button = Přeskočit
 submit-button = Odeslat
+contribute = Přispět
 
 ## Navbar
 
 
 ## Not Found Page
 
+not-found-page-header = Nenalezeno
+not-found-page-content = Stránka, kterou hledáte, nebyla nalezena
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
+en = Angličtina
+fr = Francouzština

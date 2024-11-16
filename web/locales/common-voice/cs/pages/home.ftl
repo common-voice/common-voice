@@ -12,13 +12,9 @@ show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
 no-clips-to-validate = Vypadá to, že v tomto jazyce nejsou k poslechu žádné nahrávky. Pomozte nám nějakou nahrát.
-vote-yes = Ano
-vote-no = Ne
 toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
-speak-subtitle = Darujte svůj hlas
 speak-paragraph = Pořizování nahrávek hlasu je nedílnou součástí tvorby naší otevřené databáze. A pro některé i zábava.
 speak-goal-text = Počet nahrávek
-listen-subtitle = Pomozte nám ověřovat nahrávky
 listen-paragraph = Ověřování hlasových nahrávek je pro projekt Common Voice také důležité. Zaposlouchejte se a pomozte nám vytvořit kvalitní veřejně přístupnou databázi.
 listen-goal-text = Klipů ověřeno
 hours-recorded = Hodin nahráno
@@ -79,3 +75,14 @@ help-contribute = Pomozte vybudovat různorodý otevřený dataset. Vytvořte si
 login-company = Přihlásit / Zaregistrovat se e-mailem { $company }
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 read-more-about = Přečtěte si více na stránce O nás
+
+## NAV ITEMS
+
+community-and-languages = Komunita a jazyky
+
+## MENU ITEMS TOOLTIPS
+
+partnerships-menu-item-tooltip = Staňte se našimi partnery
+
+## MENU ITEM ARIA LABELS
+

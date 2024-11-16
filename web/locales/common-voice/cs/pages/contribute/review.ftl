@@ -60,3 +60,5 @@ review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chv
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.
 sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <discourseLink>Discourse</discourseLink> nebo <emailLink>e-mailem</emailLink>.
+# menu item
+review-sentences = Ověřování vět
