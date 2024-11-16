@@ -23,6 +23,26 @@ hours-recorded = گھنٹے ریکاڈ ہوے
 hours-validated = گھنٹے تصدیق ہوے
 voices-online = آوازاں ہونڑ آن لائن ہن
 todays-progress = اجّ دی پراگرس
+help-reach-goal = { $goal } پورے کرنا آستے اسدی مدد کرو
+read-terms-q = تُساں سنڑ اسدیاں شرطاں پَڑیاں؟
+ready-to-record = اپنڑی آواز عطیہ کرنا کو تیار ہو؟
+all-locales = سارے
+today = اجّ
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] ہفتے
+    }
+x-months-short =
+    { $count ->
+        [one] مہینہ
+       *[other] مہینے
+    }
+x-years-short =
+    { $count ->
+        [one] سال
+       *[other] سال
+    }
 
 ## Account Benefits
 
