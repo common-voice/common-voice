@@ -20,6 +20,8 @@ login-instruction-multiple-sentences = <loginLink> მიშელით </login
 how-to-cite = წყარო მუჭო მევოწურუა?
 guidelines = შარაშმაწურაფალი
 contact-us = ქიდმეკავშირით
+add-sentence-success = წინადადება რე კორობილი
+add-sentence-error = ჩილათა რე წინადადებეფიშ გეძინაშ ბორჯის.
 
 ## BULK SUBMISSION 
 
