@@ -71,6 +71,11 @@ sc-bulk-upload-instruction-drop = სო თაჴდებათ ჰალო �
 bulk-upload-additional-information = ლეჸეჵ შუჼ თხოგო საბუხ ხაჸითაჼ ეჴ ფაილეხ, დეხოთხ, წერილ დაჸითათ ეჴ ადრესმაქ
 template-file-additional-information = ლეჸეჰ შუჼ თხოგო ტყოჸ  უმ ხაჸითაჼ ეჴ ფაილეხ, უნე ნიმუშე ცო ჴაჸეჼ, დეხოთხ, წერილ დაჸითათ თხოჼ
 try-upload-again = ოშტიჸ ცადლიბათ ფაილ სო თაჴდარ
+try-upload-again-md = ტყოჸ ცადლიბათ ჰალო ჴოწდარ
+select-file = ფაილ ჩავარდებათ
+select-file-mobile = ფაილ ჩავარდარ ჰალო ჴოწდანაჲნო
+accepted-files = ფაილეჼ ღალხილ'უჲნი სახეობ და  დაჩოკ .tsv
+minimum-sentences = წინადადებ სეწ ხილ'აჼ ჰამახეჸ კაძიკ 1000
 
 ## SMALL BATCH SUBMISSION
 
