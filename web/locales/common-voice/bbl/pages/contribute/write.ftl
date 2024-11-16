@@ -136,3 +136,4 @@ add-questions-menu-item-tooltip = უ ლევლა -ე, მაცნე ნ�
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = ჩუ ჩაწერადებათ პარამეტრაჼ მენიუ
