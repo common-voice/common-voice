@@ -80,6 +80,8 @@ read-more-about = اسدے تعارفی صفحے دے بارے مزید پڑھو
 answer-questions = سوالاں دے جواب دیو<small>(جلدی آرہے ہن)</small>
 review-transcriptions = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آرہے ہن)</small>
 add-questions = سوال شام کرو<small>(جلدی آرہے ہن)</small>
+transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آرہے ہن)</small>
+press-and-stories = پریس ہور کہانڑیاں
 
 ## MENU ITEMS TOOLTIPS
 
