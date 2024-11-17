@@ -13,3 +13,8 @@ partnerships-academia-header = یونیورسٹیاں، ماہرین تعلیم 
 partnerships-academia-description = اسیں جو کجھ کردے ہاں اس دل بچ کھلی جدت ہے۔ تحقیقی تعاون، ڈیٹا کٹھا کرنا یا انٹرویو آستے <emailFragment> رابطہ کرو۔ </emailFragment>
 partnerships-small-business-header = ٹیکنالوجی  تے اے آئی سٹارٹ اپ سمیت نِکے کاروبار
 partnerships-small-business-description = اسیں ہمیشاں ڈیٹا کنزیومرز کولو ان دیاں ضرورتاں  تے حوالے دے بارے بچ سنڑنا چہندے ہاں۔ ڈیٹا کٹھا کرنا دے پلیٹ فارم تے تعاون کرنا تو گھن کے ڈیٹا دی صحت بارے مشورے فراہم کرنا تک، اسیں <emailFragment> تساں کولو سنڑنا چہندے ہاں۔ </emailFragment>
+partnerships-corporates-header = بڑے پیمانے تے کارپوریٹ تے پلیٹ فارم کمپنیاں
+partnerships-corporates-description = اگر تسیں ڈیٹا سیٹ دے بارے مزید گَل کرنا چہندے ہو، منصوبہ بند پلیٹ فارم دی توسیع بچ مشترکہ سرمایہ کاری کرنا چہندے ہو یا تعاون دے موقعے حاصل کرنا چہندے ہو، تے <emailFragment> اساںکو ہک لائن لکھ چُھڑو۔ </emailFragment>
+partnerships-our-partners = اسدے حصے دار
+# menu item
+partners = حصے دار
