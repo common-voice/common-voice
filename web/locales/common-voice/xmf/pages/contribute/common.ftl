@@ -49,7 +49,7 @@ report-difficult-pronounce-detail = კითხირი დო თქუალ
 report-offensive-speech = უწმაწურ ჩიება
 report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე
 report-other-comment =
-    .placeholder = გეძახინი
+    .placeholder = გერაგადი
 success = გომორძგუა
 continue = გაგძელება
 
@@ -62,6 +62,7 @@ shortcut-record-toggle-label = ინოჭარუა / მეჭყვიდ�
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ გაურქვება
 shortcut-submit = დორთა
 shortcut-submit-label = ინოჭარილეფიში ჯღონა.
 request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
