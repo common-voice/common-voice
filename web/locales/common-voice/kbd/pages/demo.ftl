@@ -1,16 +1,8 @@
 ## DemoLayout
 
-demo-get-started = Let's Get Started
-demo-welcome = Welcome to Common Voice
-demo-welcome-subheader = Welcome to Common Voice
 
 ## Demo Datasets
 
-demo-language-select-card-header = Welcome to Common Voice
-demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
-card-button-next = Next
-card-button-back = Back
-demo-language-select-label = Browse Languages
 demo-eofy-header = 2019 End-of-Year Release
 demo-eofy-sub_header = Voice Dataset, Ready for Download
 demo-account = Account
