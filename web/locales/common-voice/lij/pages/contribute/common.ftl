@@ -33,6 +33,9 @@ vote-yes = Scì
 vote-no = Na
 datasets = Dataset
 languages = Lengue
+about = Informaçioin
+partner = Partner
+submit-form-action = Manda
 
 ## Reporting
 
