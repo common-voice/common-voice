@@ -76,7 +76,7 @@ shortcut-discard-ongoing-recording = ایس کیپ
 shortcut-discard-ongoing-recording-label = ہیا  جاری رکارڈینگو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی ہواز جمع کو
-request-language-text = تان وارو ہانیاپت کامن وائیسا نو لیتاوا؟
+request-language-text = تان وارو ہانیہ پت کامن وائیسا نو لیتاوا؟
 request-language-button = وارو بچین عرضی کو
 
 ## Listen Shortcuts

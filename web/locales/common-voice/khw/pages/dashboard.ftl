@@ -3,7 +3,7 @@
 your-languages = تہ وار
 toward-next-goal = نوغ مقصدو ویلٹی
 goal-reached = مقصد پورا ہوئے
-clips-you-recorded = ہواز تو ریکارڈ کوری اسوس۔
+clips-you-recorded = ہواز تو ریکارڈ کوری اسوس
 clips-you-validated = ہواز تو تصدیق کوری اسوس
 todays-recorded-progress = ہنونو کامن وائسا ہوازان ریکارڈ بیرو کوروم
 todays-validated-progress = ہنونو کامن وائسا ہوازان تصدیق بیرو کوروم
