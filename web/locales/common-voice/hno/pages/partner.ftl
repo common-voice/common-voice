@@ -11,3 +11,5 @@ partnerships-governments-header = حکومتاں
 partnerships-governments-description = اسیں ٹیکنالوجی، جدتّاں  تے زبان دے حقوق بچ عوامی شعبے دی شمولیت دی حمایت بارے پرجوش ہاں۔ اگر تسیں کوئی بڑا منصوبہ یا مہم چلانڑا دی سوچ رے ہو، مہربانی نال <emailFragment>رابطے بچ رہیو۔</emailFragment>
 partnerships-academia-header = یونیورسٹیاں، ماہرین تعلیم تے محققین
 partnerships-academia-description = اسیں جو کجھ کردے ہاں اس دل بچ کھلی جدت ہے۔ تحقیقی تعاون، ڈیٹا کٹھا کرنا یا انٹرویو آستے <emailFragment> رابطہ کرو۔ </emailFragment>
+partnerships-small-business-header = ٹیکنالوجی  تے اے آئی سٹارٹ اپ سمیت نِکے کاروبار
+partnerships-small-business-description = اسیں ہمیشاں ڈیٹا کنزیومرز کولو ان دیاں ضرورتاں  تے حوالے دے بارے بچ سنڑنا چہندے ہاں۔ ڈیٹا کٹھا کرنا دے پلیٹ فارم تے تعاون کرنا تو گھن کے ڈیٹا دی صحت بارے مشورے فراہم کرنا تک، اسیں <emailFragment> تساں کولو سنڑنا چہندے ہاں۔ </emailFragment>
