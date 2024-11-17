@@ -51,51 +51,8 @@ activity-needed-calculation-plural =
     }зы махуэм.
 how-many-per-day = Лъэщ! Махуэм тхыгъэ дапщэ?
 how-many-a-week = Лъэщ! Тхьэмахуэм тхыгъэ дапщэ?
-which-goal-type = Do you want to Speak, Listen or both?
-receiving-emails-info =
-    You're currently set to receive emails such as goal reminders, my
-    progress updates and newsletters about Common Voice
-not-receiving-emails-info =
-    You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
-    progress updates and newsletters about Common Voice
-n-clips-pluralized =
-    { NUMBER($count) ->
-        [one] тхыгъэ
-       *[other] тхыгъэу
-    }
-help-share-goal = Help us find more voices, share your goal
-confirm-goal = Псам тегъэзэж
-goal-interval-weekly = Тхьэмахуэ къэс
-# $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Share your { $count } Clip Daily Goal for { $type }
-# $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Share your { $count } Clip Weekly Goal for { $type }
 share-goal-type-speak = Къэпсалъэ
-share-goal-type-listen = ЕдэIу
-share-goal-type-both = Е дэIуэж
-# LINK will be replaced with the current URL
-goal-share-text = I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak { $link }
-weekly-goal-created = Your weekly goal has been created
-daily-goal-created = Your daily goal has been created
-track-progress = Track progress here and on your stats page.
-return-to-edit-goal = Return here to edit your goal anytime.
-share-goal = Share my goal
+share-goal-type-listen = Едэӏу
 
 ## Goals
 
-streaks = Махуэ зэпыту
-days =
-    { $count ->
-        [one] Махуэ
-       *[other] Махуэу
-    }
-recordings =
-    { $count ->
-        [one] Тхыгъэ
-       *[other] Тхыгъэу
-    }
-validations =
-    { $count ->
-        [one] Хэплъэж
-       *[other] Хэплъэжу
-    }
