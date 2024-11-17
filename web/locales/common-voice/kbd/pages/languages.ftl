@@ -1,12 +1,5 @@
 ## Languages Overview
 
-language-section-in-progress = Хьэзыр йокIуэкI
-language-section-in-progress-new-description = These languages are currently under community development. To be launched, these languages need <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
-language-section-launched = ЩIэдза
-language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
-languages-show-more = Бзэу нэхъ бэ
-languages-show-less = Бзэу нэхъ мащ1э
-language-meter-in-progress = Iуэхур зэрыкIуэ
 language-total-progress = Псори
 language-search-input =
     .placeholder = Лъыхъу
