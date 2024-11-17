@@ -8,46 +8,25 @@ clips-with-count-pluralized =
         [one] пычы
        *[other] пычыу
     }
-goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
-goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
         [one] Ухьэзыр иджыри птыну?
        *[other] Ухьэзыр иджыри птыну?
     }
-speak-empty-state = We've run out of sentences to record in this language...
-speak-empty-state-cta = Contribute sentences
 record-button-label = Уи макъ егъэтх
-share-title-new = <bold>Help us</bold> find more voices
-keep-track-profile = Keep track of your progress with a profile
-login-to-get-started = Log in or sign up to get started
-target-segment-first-card = You’re contributing to our first target segment
-target-segment-generic-card = You’re contributing to a target segment
-target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
-target-segment-add-voice = Add Your Voice
-target-segment-learn-more = Learn More
-
-## Contribution Nav Items
-
 
 ## Reporting
 
 report = Iуатэ
 report-title = Iуатэ егъэхь
-report-ask = What issues are you experiencing with this sentence?
 report-offensive-language = Хъуэн псалэ
-report-offensive-language-detail = The sentence has disrespectful or offensive language.
 report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
-report-grammar-or-spelling-detail = The sentence has a grammatical or spelling error.
 report-different-language = Нэгъэщ бзэ
-report-different-language-detail = It is written in a language different than what I’m speaking.
 report-difficult-pronounce = БгъэIуэну гугъущ
-report-difficult-pronounce-detail = It contains words or phrases that are hard to read or pronounce.
 report-offensive-speech = Хъуэн псалэ
 report-offensive-speech-detail = Тхам хъуэн, пщ1эм еуэ псалъэ хэтщ
 report-other-comment =
     .placeholder = ЩIэтхэ
-success = Success
 continue = АдэкӀэ
 report-success = Хьэзыр хъащ
 
@@ -65,9 +44,7 @@ shortcut-record-toggle-label = Тхы/ув
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Пычыгъуэр щӀэу тхыж
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Discard ongoing recording
 shortcut-submit = Гъэзэж
-shortcut-submit-label = Submit clips
 request-language-text = Зэк1э уи бзэр Common Voice-м хэту плъагъукъэ?
 request-language-button = Бзэм щӀэупщӀ
 
@@ -86,27 +63,7 @@ shortcut-vote-no = н
 
 ## Validation criteria
 
-contribution-criteria-nav = Criteria
-contribution-criteria-link = Understand contribution criteria
-contribution-criteria-page-title = Contribution Criteria
-contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
-contribution-for-example = for example
 contribution-misreadings-title = Misreadings
-contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
-contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
-contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
-contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
-contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
-contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
-contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
-contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
-contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
-contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
-contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
-contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
-contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
-contribution-misreadings-example-5-title = We are going out to get coffee.
-contribution-misreadings-example-6-title = We’re going out to get coffee.
 contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-title = We are going out to get a coffee.
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
