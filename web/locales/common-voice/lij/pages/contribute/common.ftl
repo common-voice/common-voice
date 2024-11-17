@@ -13,6 +13,7 @@ goal-help-recording = T’æ aggiuttou Common Voice à razzonze <goalPercentage>
 goal-help-validation = T’æ aggiuttou Common Voice à razzonze <goalPercentage></goalPercentage> de l’obiettivo cotidian { $goalValue } pe-e verifiche!
 contribute-more = T’ê pronto à fâne ancon { $count }?
 speak-empty-state = Emmo finio e frase da registrâ inte sta lengua…
+no-sentences-for-variants = Peu dâse che no ghe segge ciù de frase pe-a teu lengua. Se t’ê cao, ti peu cangiâ e impostaçioin pe vedde de atre frase inta teu lengua.
 speak-empty-state-cta = Contribuisci de atre frase
 speak-loading-error =
     No emmo posciuo carregâ de frase da fâte leze.
@@ -26,11 +27,12 @@ target-segment-generic-card = T’æ apreuvo à contribuî à un segmento obiett
 target-segment-first-banner = Aggiutta à creâ o primmo segmento obiettivo de Common Voice in { $locale }
 target-segment-add-voice = Azzonzi a teu voxe
 target-segment-learn-more = Atre informaçioin
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Arrecuggeita de voxe
-contribute-sentence-collection-nav-header = Arrecuggeita de frase
+change-preferences = Cangia e preferense
+login-signup = Intra / Scrivite
+vote-yes = Scì
+vote-no = Na
+datasets = Dataset
+languages = Lengue
 
 ## Reporting
 
