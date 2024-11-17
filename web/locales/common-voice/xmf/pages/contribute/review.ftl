@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-title = წინადადებეფიშ შემოწმება.
 sc-review-select-language = ქორთხინთ, გეირჩით ნინა წინადადებეფიში შიომოწმებელო.
 sc-review-no-sentences = შიომოწმებელი წინადადებეფი ვარე. <addLink> სი ქიგუძინი ასე! </addLink>
 sc-review-form-button-reject = ვარება
