@@ -20,3 +20,7 @@ language-validation-progress = تصدیق دی پیش رفت
 contribute = حصہ باؤ
 get-involved-button = شامل ہوُو
 get-involved-title = { $lang }بچ حصہ باؤ
+get-involved-text = { $lang }بچ حصہ بینڑا دی تُسدی دلچسبی دا شکریہ۔ اساں ہر زبان کو لانچ واسطے تیار کرنا کیتے سخت محنت کیتی ہور ٹیماں کو ای میل دے ذریعے اپڈیٹ رکھیا۔ اگر تُسیں حصہ بینڑا چہندے ہو، تے مہربانی نال تلے اپنڑی ای میل دیو۔
+get-involved-form-title = { $lang }اپڈیٹاں آستے سائن اپ کرو:
+get-involved-email =
+    .label = ای میل
