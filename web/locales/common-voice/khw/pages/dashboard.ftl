@@ -25,7 +25,7 @@ show-ranking = مہ درجو پشاوے
 ## Custom Goals
 
 get-started-goals = مقصدان پروشٹہ لکھی شروع کو
-create-custom-goal = تان مرضیا حدف لکھے
+create-custom-goal = تان چیتہ حدف لکھے
 goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
 both-speak-and-listen-long = کھاڑان (راوے وا کار کو)
