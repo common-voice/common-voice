@@ -7,3 +7,4 @@ gravatar_not_found = تسدی ای میل آستے کوئی Gravatar نیں م
 file_too_large = چُنری دی فائل مُچ بڑی ہے
 avatar-uploaded = Avatar اپلوڈ ہو گیا
 max-file-size = { $kb }kb زیادہ تو زیادہ
+remove-avatar = Avatar ہٹاؤ
