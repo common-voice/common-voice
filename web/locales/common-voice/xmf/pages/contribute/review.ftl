@@ -29,3 +29,8 @@ report-sc-different-language = შხვანერი ნინა
 report-sc-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელ ნინაშე.
 sentences-fetch-error = ჩილათა წინადადებეფიშ მეღებას.
 review-error = ჩილათა წინადადებეფიშ მოწმებას.
+review-error-rate-limit-exceeded = ჩქარენთ. რთხინთ დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რენი.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = მნიშვნელოვან თირუა რე.
+# menu item
+review-sentences = წინადადებეფიშ შემოწმება.
