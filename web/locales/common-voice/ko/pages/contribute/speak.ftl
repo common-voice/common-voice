@@ -60,3 +60,17 @@ already-have-an-account = 이미 계정이 있으신가요? <login>로그인</lo
 create-profile-button = 프로필 만들기
 # IMAGE TAGS
 img-alt-success-checkmark = 성공 체크 표시
+# menu item
+read-sentences = 문장 낭독
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = 문장 낭독, 질문 답변
+read-sentences-menu-item-tooltip = 내 언어로 문장 낭독 녹음
+answer-questions-menu-item-tooltip = 내 언어로 질문과 프롬프트에 대한 답변 녹음
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = 말하기 옵션 메뉴
+read-sentences-menu-item-aria-label = 커뮤니티가 다양한 언어로 제출한 문장 낭독
+answer-questions-menu-item-aria-label = 커뮤니티가 읽고 답변할 수 있도록 새로운 질문 제출

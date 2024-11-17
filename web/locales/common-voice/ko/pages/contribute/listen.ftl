@@ -12,3 +12,14 @@ listen-loading-error =
 listen-abort-title = 클립 검증을 마쳤나요?
 listen-abort-cancel = 검증 계속하기
 listen-abort-confirm = 검증 마치기
+# Menu item
+validate-readings = 낭독 검증
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = 낭독 검증, 전사 검토
+validate-readings-menu-item-tooltip = 내 언어로 사용자가 녹음한 낭독 검증
+
+## MENU ITEM ARIA LABELS
+
+validate-readings-menu-item-aria-label = 커뮤니티 회원이 제출한 낭독 검증
