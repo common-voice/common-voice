@@ -1,7 +1,6 @@
 action-click = Теуэ
-action-tap = Iусэ
 contribute = Хэгъахъуэ
-skip = Блэк1
+skip = БлэкӀ
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
     { $count ->
@@ -17,14 +16,11 @@ record-button-label = Уи макъ егъэтх
 
 ## Reporting
 
-report = Iуатэ
-report-title = Iуатэ егъэхь
 report-offensive-language = Хъуэн псалэ
 report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
 report-different-language = Нэгъэщ бзэ
 report-difficult-pronounce = БгъэIуэну гугъущ
 report-offensive-speech = Хъуэн псалэ
-report-offensive-speech-detail = Тхам хъуэн, пщ1эм еуэ псалъэ хэтщ
 report-other-comment =
     .placeholder = ЩIэтхэ
 continue = АдэкӀэ
