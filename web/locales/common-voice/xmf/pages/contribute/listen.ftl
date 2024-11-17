@@ -1,4 +1,4 @@
-listen = მორჩქილა
+listen = რჩქილა
 listen-subtitle = ქიდმეხვარით ინოჭარილეფიში გინომოწმებას
 listen-again-instruction = გვალო ჯგირი ნასაქვარა რე! <playIcon></playIcon> მუჟამს მზათ იჸითჷნი, ხოლო ქუმურჩქილეთ.
 listen-3rd-time-instruction = 2 უკვე მზათ რე! <playIcon></playIcon> თაშ გაგძელი!
