@@ -4,3 +4,5 @@ partnerships-header-text = کامن وائس بڑینڑا واسطے مُچ کج
 partnerships-get-in-touch = رابطے بچ رہیو
 partnerships-become-a-partner = کامن وائس حصہ دار بنڑو
 partnerships-community-header = کمیونٹی، تخلیقاں  تے سول سوسائٹی
+partnerships-community-description = کمیونٹی کامن وائس دا دھڑکدا دل ہے - زبان دے کارکن، سائنسدان  تے فنکار ہن  تے او پوری دنیا تو آندے ہن۔ تساں اسدے <about>About</about> صفحے تے ہور اسدی <community>کمیونٹی پلے بک</community> بچ شامل ہونڑا دے بارے مزید جانڑ سکدے او۔ اگر تسیں گہری تنظیمی حصہ داری بچ دلچسپی رکھدے ہو، تے <emailFragment>رابطہ کرو۔</emailFragment>
+partnerships-foundations-header = فلاحی ادارے
