@@ -1,7 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = عملہ اسوسی
-language-section-in-progress-new-description = ہیہ حالانہ ہمی وارا کمیونٹیو ساوزیکو مرحلا  شینی<localizationGlossaryLink> ویب سائیٹو مقامی کوریکو  </localizationGlossaryLink>وا <sentenceCollectionGlossaryLink> جملان جمع کوریکو</sentenceCollectionGlossaryLink> ضروت شیر۔
+language-section-in-progress-new-description = ہیہ حالانہ ہمی وارا کمیونٹیو ساوزیکو مرحلا  شینی۔ ویب سائیٹو <localizationGlossaryLink> مقامی کوریکو  </localizationGlossaryLink>وا جملان<sentenceCollectionGlossaryLink>  جمع کوریکو</sentenceCollectionGlossaryLink> ضروت شیر۔
 language-section-launched = شروع کورینو ہوئے
 language-section-launched-description = ہمی شروع کورینو بیرو واران ویب سائٹ کامیابیو سورا <localizationGlossaryLink> مقامی ہونی وا ہیارا <speakLink> ریکو </speakLink> وا <listenLink> کار کوریکو  </listenLink> بچین کافی <sentenceCollectionGlossaryLink> جملہ جمع <sentenceCollectionGlossaryLink> کورینو بیتی شینی۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
