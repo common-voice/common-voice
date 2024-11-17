@@ -26,3 +26,6 @@ sc-review-instruction = შეამოწმით <icon></icon> ლინგ�
 sc-review-rules-title = აყმაყოფილენს თუ ვარ მოჩამილ მოთხუალას?
 sc-review-empty-state = თე ნინაშოთ ომოწმებელ წინადადებეფქ გეშელიუ.
 report-sc-different-language = შხვანერი ნინა
+report-sc-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელ ნინაშე.
+sentences-fetch-error = ჩილათა წინადადებეფიშ მეღებას.
+review-error = ჩილათა წინადადებეფიშ მოწმებას.
