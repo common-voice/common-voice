@@ -18,15 +18,12 @@ validated-clips = Хэплъау щыт
 total-approved = Зыхэплъэжа псор
 overall-accuracy = Зыу гъэпса
 set-visibility = Сызылъагъ теухуэ
-visibility-explainer = This setting controls your leaderboard visibility. When hidden, your progress will be private. This means your image, user name and progress will not appear on the leaderboard. Note that leaderboard refresh takes ~{ $minutes }min to populate changes.
-visibility-overlay-note = Note: When set to 'Visible', this setting can be changed from the <profileLink>Profile page</profileLink>
 show-ranking = Си рейтингыр гъэлъагъуэ
 
 ## Custom Goals
 
 get-started-goals = Гъэпс
 create-custom-goal = Си гъэпс щIэдзэ
-goal-type = What kind of goal do you want to build?
 both-speak-and-listen = ТIури
 both-speak-and-listen-long = ТIури (тхыи хэплъэж)
 daily-goal = Махуэ гъэпс
@@ -35,21 +32,7 @@ easy-difficulty = Тыншщ
 average-difficulty = Курыт
 difficult-difficulty = Гугъу
 pro-difficulty = Iэзэ
-lose-goal-progress-warning = By editing your goal, you may lose your existing progress.
-want-to-continue = Адэк1э птхыну?
-finish-editing = Finish editing first?
-lose-changes-warning = Leaving now means you’ll lose your changes
 build-custom-goal = Си гъэпс щIэдзэ
-help-reach-hours-pluralized =
-    Help reach { NUMBER($hours) ->
-        [one] { $hours } hour
-       *[other] { $hours } hours
-    }in { $language } with a personal goal
-help-reach-hours-general-pluralized =
-    Help Common Voice reach{ NUMBER($hours) ->
-        [one] hour
-       *[other] hours
-    }in a language with a personal goal
 set-a-goal = Гъэпс, Теухуэ
 cant-decide = Иомыкурэ?
 activity-needed-calculation-plural =
