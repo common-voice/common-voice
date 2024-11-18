@@ -57,6 +57,31 @@ dav = kidawida
 de = jarman
 dsb = sorbian, yaarpam
 dua = duala
+dv = dhivehi
+dyu = diioula
+ebr = ebrie
+ee = ewe
+el = greek
+en = angrezi
+eo = esperanto
+es = spanish
+et = estonian
+eto = eton
+eu = baask
+ewo = ewondo
+fa = farsi
+fan = fang
+ff = fulah
+fi = finish
+fo = faroese
+fr = fransisi
+fub = adamawa fulfulde
+fue = borgu fulfuide
+fuf = pular guinea
+fy-NL = frisian
+ga-IE = irish
+gl = gailician
+gn = guarani
 
 # [/]
 
