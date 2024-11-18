@@ -40,6 +40,23 @@ bs = bosnian
 bum = bulu
 bxr = buryat
 byv = medumba
+ca = catalan
+cak = kaqchikel
+cdo = eastern min
+ckb = central kurdish
+cnh = hakha chin
+co = corsican
+crh = crimean tatar
+cs = ćek
+cv = ćuvash
+cy = welsh
+da = danish
+dag = dagbani
+dar = dargwa
+dav = kidawida
+de = jarman
+dsb = sorbian, yaarpam
+dua = duala
 
 # [/]
 
