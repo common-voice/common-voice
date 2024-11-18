@@ -9,3 +9,5 @@ download-recordings-title = ریکاڈنگاں
 download-recordings-info = mp3s ہور متعلقہ جملے شامل ہن، تیار ہونڑا واسطے کجھ وقت لگ ہکدا ہے
 download-recordings-size = عام طور تے میگا بائٹس
 download-recordings-unavailable = تسیں آپنڑی ریکاڈنگ دی گزارش نیں کر سکدے جدوں ہک ہور گزارش پہلے ہی جاری ہے۔
+download-recently-requested = تسیں ہر{ $days } دیہاڑے بچ آپنڑی ریکاڈنگ دی نویں ٹیک آؤٹ دی گزارش کر سکدے ہو۔
+download-size = سائز
