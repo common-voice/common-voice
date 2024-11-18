@@ -116,8 +116,8 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو ای منٹ اچھا جمع کو
-       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
+        [one] ہیہ صفحہ جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
+       *[other] ہیہ صفحہ جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =

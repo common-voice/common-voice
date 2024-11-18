@@ -20,8 +20,8 @@ submit-all-button = سفان جمع کو
 
 ## Explainer text (Respond to Prompt)
 
-learn-how-to-use-prompts = ہیاصفحو استعمال کوریکو ݯھیݯھے
-learn-how-to-use-prompts-explanation = کندوری کی بیتاو قدرتی اندازا اشاران صرف ای کما جملہ  جواب دیت۔ ہیا لو ضروری کی تہ زبان شہیلی وا باعزت بائے۔
+learn-how-to-use-prompts = ہیہ صفحو استعمال کوریکو ݯھیݯھے
+learn-how-to-use-prompts-explanation = کندوری کی بیتاو قدرتی اندازا اشاران صرف ای کما جملہ  جواب دیت۔ ہیہ لو ضروری کی تہ زبان شہیلی وا باعزت بائے۔
 learn-how-to-use-prompts-guidance = ہیا صفحو استعمالو ݯھیݯھیکو بچین ہیا<guidanceLink>کلک کو</guidanceLink>
 learn-how-to-use-transcribe = ہوازو نیویشیکا غیریکو ݯھیݯھے
 learn-how-to-use-transcribe-explanation = کوس لوو بلکل ہتے قسمہ نیویشے، ژاغا گاناکان، اوم یا ایر قسمہ لفظان دی شامل کو

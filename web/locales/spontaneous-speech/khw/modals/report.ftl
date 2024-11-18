@@ -3,7 +3,7 @@
 report-modal-title = رپورٹو جمع کو
 report-modal-subtitle = ہمی موادان سوم  تہ تین کیا مسلہ شیرا؟
 offensive_speech = شوم مواد
-offensive_speech-detail = ہیا موژی غیر مہذب یا شوم لو شیر۔
+offensive_speech-detail = ہیہ موژی غیر مہذب یا شوم لو شیر۔
 different_language = مختلف وار
 different_language-detail = اوا کیا وارو کی توقع کوراو اوشتام ہیا شیرو وار ہتیغار مختلف۔
 personally_identifiable_information = تان شناختو قابل معلومات
