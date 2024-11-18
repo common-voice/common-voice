@@ -114,7 +114,7 @@ about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</stro
 
 about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہیا ہوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>تہ تانتے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
-about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نو کی ہیترا لو دیاکو تلفظ تا سار خور </strong>-سف ای بیتی کوروم کوری ہوازو ہوݰ کوریکو بچین ہیا بو اہم۔
+about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نوکو کی ہیترا لو دیاکو تلفظ تا سر خور </strong>-سف ای بیتی کوروم کوری ہوازو ہوݰ کوریکو بچین ہیہ بو اہم۔
 about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯھتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان بچین 'سہی بکو معیارو' لوڑے </accuracyLink>
 about-playbook-how-validate-content-4 = اگر ای  ہواز جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
 
