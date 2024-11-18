@@ -44,7 +44,7 @@ about-get-involved-text-2 =
     ہیہ سائٹو نقصان <githubLink>گیٹ ہبو </githubLink>ذریعا جمع کو, یا کمیونیٹیو مشقول گیو</matrixLink> خانہ<matrixLink> گے۔
 about-stay-in-touch = اوا کیچہ بیتی رابطہ بہچوم؟
 about-stay-in-touch-button = سائن اپ کو
-about-stay-in-touch-text-1 = <emailFragment> سائین اب</emailFragment>ہیا مہما، واقعات وا کامن وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکوبچین اسپہ ای میلان لسٹا سائن اپ بوس۔
+about-stay-in-touch-text-1 = <emailFragment> سائین اب</emailFragment>ہیہ مہما، واقعات وا کامن وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکوبچین اسپہ ای میلان لسٹا سائن اپ بوس۔
 about-stay-in-touch-text-2 = تو موزیلو وران کمیونیٹیا خور رویان سوم ملاو بیتی موضو بارا لودیکو بچین ہیا<discourseLink>مشقول گیا</discourseLink> شامل بوس یا <matrixLink> خانہ</matrixLink> گے شاو مشورہ گنیکوبچین۔
 about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
