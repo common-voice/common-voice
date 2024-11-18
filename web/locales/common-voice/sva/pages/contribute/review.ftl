@@ -31,3 +31,7 @@ sc-review-link = ქალისინჯუ̂ე
 ## REVIEW CRITERIA
 
 sc-criteria-title = ლამოწმა̈ნჟი̄ კრიტერიუმა̈ლ
+sc-criteria-make-sure = დარწმუნდი, ერე წინადადება სგახოსყე̄ნე ალ კრიტერიუმა̈ლს:
+sc-criteria-item-1 = წინადადება სწორდ ხეკუ̂ეს ხეირე̄ნს.
+sc-criteria-item-2 = წინადადება ხეკუ̂ესე ლესსუ̂ გრამატიკულდ სწორ.
+sc-criteria-item-3 = წინადადება ხეკუ̂ესე ქა იქუ̂ო̄ლდე̄დს.
