@@ -1,6 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = شراکت داری
-partnerships-header-text = کامن وائسا کوروم کوریکو بچین بو کیاغ کوریلیک۔ ہمو اسپہ غیژی نو کوسیان۔ تو اسپہ سوم کورمہ شریک بیک مݰکیسانہ؟ اسپہ  تہ سار ہے لوو کار کوری بو خوشان بوسی۔
+partnerships-header-text = کامن وائسا کوروم کوریکو بچین بو کیاغ کوریلیک۔ ہمو اسپہ غیژی نو کوسیان۔ تو اسپہ سوم کورمہ شریک بیک مݰکیسانہ؟ اسپہ  تہ سر ہے لوو کار کوری بو خوشان بوسی۔
 partnerships-get-in-touch = رابطا بہچے
 partnerships-become-a-partner = کامن وائسا شراکت دار بوس
 partnerships-community-header = کمیونیٹی، تخلیقات وا عام رویان تنظیم
@@ -12,7 +12,7 @@ partnerships-governments-description = اسپہ  حکومتو ٹیکنالوجی
 partnerships-academia-header = یونیورسٹی، ماہر تعلیم وا محقیق
 partnerships-academia-description = ویریغا نوغ اسپہ کورومو ہردی۔ ای بیتی تحقیق کوریکو، ڈیٹا جمع کوریکو یا انٹرویو بچین <emailFragment> اسپہ تین نیویشے</emailFragment>۔
 partnerships-small-business-header = چیق کروبار کہ تیرا ٹیکنالوجی وا آے آئی (AI )شامل شیر شروع کوریک
-partnerships-small-business-description = اسپہ ہمیشو بچین معلوماتان استعمال کوراکان سار توغو ضرورت اوچے ماحولو بارا رائے گانیک مݰکیسان۔ ای بیتی ڈیٹا بځیکو ژاغار گنی، ڈیٹوصحتو سورا غیچ لاکھیکھا پت، اسپہ تا سار <emailFragment>رائے مݰکیسیان</emailFragment>
+partnerships-small-business-description = اسپہ ہمیشو بچین معلوماتان استعمال کوراکان سر توغو ضرورت اوچے ماحولو بارا رائے گانیک مݰکیسان۔ ای بیتی ڈیٹا بځیکو ژاغار گنی، ڈیٹوصحتو سورا غیچ لاکھیکھا پت، اسپہ تا سر <emailFragment>رائے مݰکیسیان</emailFragment>
 partnerships-corporates-header = لوٹ پیمانہ اجتعماعی کمپنی
 partnerships-corporates-description =
     اگر تو ڈیٹاسیٹو بارا خور دی کی لوو دیک مݰکیسان، پلیٹ فارمو منصوبے لوٹیکو بچین پیسہ لاکھییک کی مݰکیسان یا ای بیتی کوروم کوریکو موقعو کی تلاشا اسوس اسپہ تین<emailFragment> 

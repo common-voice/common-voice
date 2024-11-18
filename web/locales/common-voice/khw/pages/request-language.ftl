@@ -22,5 +22,5 @@ request-language-success-list-2 =
     اسپہ کمیونیٹی منیجر مدد بچین تہ سوم لو دوئے
     وا تہ وارو سورا پروشٹیار یی کمیونیٹی کی
     کوروم کوراو بیرائے توغو دی تہ تین لوو دوئے
-request-language-success-list-3 = تہ تین ای کما بسا اسپہ سار کیا جواب کی نو ہائے۔ ہیا بوغے <emailLink>{ $email }</emailLink> وا اسپہ تہ تین  جواب دوسی۔
+request-language-success-list-3 = تہ تین ای کما بسا اسپہ سر کیا جواب کی نو ہائے۔ ہیا بوغے <emailLink>{ $email }</emailLink> وا اسپہ تہ تین  جواب دوسی۔
 request-language-error = تہ ہتے دردخواست نو  گیرو بوئے۔ مہربانی کوری اسپہ تین ای میل کو<emailLink>{ $email }</emailLink>وا اسپہ تہ تین جواب دوسی۔

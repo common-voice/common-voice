@@ -6,7 +6,7 @@ demo-welcome-subheader = تو خور دی کیاغ ݯھیݯھیکو وا پرو�
 
 ## Demo Datasets
 
-demo-language-select-card-header = کامن وائس عام رویان بچین دنیاسفوسار لوٹ بو واران ہوازان زخیرہ۔
+demo-language-select-card-header = کامن وائس عام رویان بچین دنیاسفوسر لوٹ بو واران ہوازان زخیرہ۔
 demo-language-select-card-body = 50 واران 259 ہزارار ذیاد رویان مددو شکریہ۔ ہمی معلومات انسانو ہوازو تین بہتر جواب دیکو بچیں، ہواز شیرو کمپوٹر پروگرامنان تربیت دیکو بچین استعمال بونیان
 card-button-next = پروشٹی بوغے
 card-button-back = اچی گے
