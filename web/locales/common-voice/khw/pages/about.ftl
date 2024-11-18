@@ -45,7 +45,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = اوا کیچہ بیتی رابطہ بہچوم؟
 about-stay-in-touch-button = سائن اپ کو
 about-stay-in-touch-text-1 = <emailFragment> سائین اب</emailFragment>ہیہ مہما، واقعات وا کامن وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکوبچین اسپہ ای میلان لسٹا سائن اپ بوس۔
-about-stay-in-touch-text-2 = تو موزیلو وران کمیونیٹیا خور رویان سوم ملاو بیتی موضو بارا لودیکو بچین ہیا<discourseLink>مشقول گیا</discourseLink> شامل بوس یا <matrixLink> خانہ</matrixLink> گے شاو مشورہ گنیکوبچین۔
+about-stay-in-touch-text-2 = تو موزیلو وران کمیونیٹیا خور رویان سوم ملاو بیتی موضو بارا لودیکو بچین ہیہ<discourseLink>مشقول گیا</discourseLink> شامل بوس یا <matrixLink> خانہ</matrixLink> گے شاو مشورہ گنیکوبچین۔
 about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = شراکت دار
@@ -57,9 +57,9 @@ about-nav-playbook = حصہ گنیکو طریقو  ݯھیݯھے
 ## What is a language
 
 about-playbook-what-is-language = کامن وائسا ای وار کیا اشناری؟
-about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوݰ کوریکو ای ماڈل ساوزیکو بچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیا لوو سورا زور دویان کہ ای وارو کوراک کھوشیش کوری تان موژی ایغو لووان ہوݰ کونیانا؟
+about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوݰ کوریکو ای ماڈل ساوزیکو بچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیہ لوو سورا زور دویان کہ ای وارو کوراک کھوشیش کوری تان موژی ایغو لووان ہوݰ کونیانا؟
 about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان سلسلو ہوݰ کوریکا بہتر بار۔ ہموݰ بیکوبچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
-about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو ذیاد خور۔ ہیا وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان وارو لوٹ ڈیٹا سیٹا خور واران سر فرق کوریکو  ای طریقہ نݰان دویان۔
+about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو ذیاد خور۔ ہیہ وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان وارو لوٹ ڈیٹا سیٹا خور واران سر فرق کوریکو  ای طریقہ نݰان دویان۔
 
 ## How do I add a language
 
@@ -86,7 +86,7 @@ about-playbook-how-localize-content-5 = مدد بچین اسپہ وضاحت دی
 
 about-playbook-how-add-sentences = اوا کیچہ کوری جملہ شامل کوم؟
 about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نیویشے یا ہیا<reviewPageLink> جملان لوڑے۔ <reviewPageLink> وا لوڑیکو صفحہ</reviewPageLink>
-about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو بچین جملان جو ژون ولوڑے لیک وا جو ژون تیتان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان وارو بچین رہنمائی ساوزیکو بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیا طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
+about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو بچین جملان جو ژون ولوڑے لیک وا جو ژون تیتان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان وارو بچین رہنمائی ساوزیکو بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیہ طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
 about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو بچین جملہ نیزاک<scraperLink> دی استعمال کوریکو بوس
 
 ## How to record quality
@@ -101,19 +101,19 @@ about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور 
 ## How to grow language
 
 about-playbook-how-grow-language = اسپہ کامن وائسا ای وارو کیا طریقہ پروشٹی الوسی؟
-about-playbook-how-grow-language-content-1 = مختلف رویان تین موقع دیتی کامن وائس ہیا لوو یقینی کویان کہ دیٹاسیٹ کندوری کی ہوئے ذیاد رویان خسمتو کورار۔  اسپہ تہ استعمالو بچین وسائل ساوزے اسوسی۔
+about-playbook-how-grow-language-content-1 = مختلف رویان تین موقع دیتی کامن وائس ہیہ لوو یقینی کویان کہ دیٹاسیٹ کندوری کی ہوئے ذیاد رویان خسمتو کورار۔  اسپہ تہ استعمالو بچین وسائل ساوزے اسوسی۔
 about-playbook-how-grow-language-content-2 = واقعات
-about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو بچین میٹنگ مݰکیکو  بوس۔ ہیا بو اسان۔ اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اوشوئی تیتان ای ژاغا مݰکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان بچین ہمو </eventTemplate>لوڑے
+about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو بچین میٹنگ مݰکیکو  بوس۔ ہیہ بو اسان۔ اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اوشوئی تیتان ای ژاغا مݰکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان بچین ہمو </eventTemplate>لوڑے
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
-about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  بچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیا کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹیکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران بچین<campaignLink> ہیا ژاغا لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
+about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  بچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیہ کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹیکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران بچین<campaignLink> ہیہ ژاغا لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
 about-playbook-how-grow-language-content-6 = شراکت داری وا تعلوقات
-about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیا بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> خور بو رویان سوم تاریکو بچین اسپہ تیار  ای میلان لوڑے</outreachTemplates>۔
+about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیہ بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> خور بو رویان سوم تاریکو بچین اسپہ تیار  ای میلان لوڑے</outreachTemplates>۔
 about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</strong>۔ تا وارو ڈال  بلکل خور بیلیک وا ہمیت شروع کوریکو ای کما طریقہ۔
 
 ## How to validate
 
-about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہیا ہوازو منظور کوریلیک رے؟
-about-playbook-how-validate-content-1 = کی بویان <strong>تہ تانتے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
+about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہوازو منظور کوریلیک رے؟
+about-playbook-how-validate-content-1 = کی بویان <strong>تیتانتے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیہ عام طورا <strong> منظور کوریکو جام طریقہ۔
 about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نوکو کی ہیترا لو دیاکو تلفظ تا سر خور </strong>-سف ای بیتی کوروم کوری ہوازو ہوݰ کوریکو بچین ہیہ بو اہم۔
 about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯھتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان بچین 'سہی بکو معیارو' لوڑے </accuracyLink>
 about-playbook-how-validate-content-4 = اگر ای  ہواز جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
@@ -138,6 +138,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حک
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائس کیچا بیتی ساوز ہوئے؟
-about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیہ پروجکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
 about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو بچین، بہتر کوریکو بچین وا کمیونیٹیان پروگرامان چلیکو بچین بو پیسو ضرورت شیر۔
-about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سوم مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شراکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
+about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیہ پروجکٹو سوم مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شراکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
