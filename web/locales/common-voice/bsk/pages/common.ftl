@@ -82,6 +82,13 @@ fy-NL = frisian
 ga-IE = irish
 gl = gailician
 gn = guarani
+gom = goan konkani
+gos = gronings
+gu-IN = gujrati
+guc = wayuunaki
+gya = northwest gbaya
+ha = hausa
+he = ibrani
 
 # [/]
 
