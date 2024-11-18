@@ -10,7 +10,7 @@ vote-transcript-error = نیویشیرو تین ووٹ دیاوا ای نقص پ
 transcript-edited-success = نیویشیرو کامیابیو سورا سہی کورینو ہوئے
 transcript-edited-error = نیویشیرو ایڈیٹ کوراوا  ای نقص پیدا ہوئے
 error-fetching-transcriptions = نیویشیرو یی گناوا مسلہ پیدا ہوئے۔ پھوک اچا وا کوشش کو۔
-transcript-skipped-success = نیویشیرو کامیابیو سورا پیځیتاو۔
+transcript-skipped-success = نیویشیرو کامیابیو سورا پیڅیتاو۔
 transcript-skipped-error = نیویشیرو سورین نیسیکو موژی نقص پیدا ہوئے
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = سہی شیر
