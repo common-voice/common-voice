@@ -18,3 +18,5 @@ download-requests = پرانڑیاں ریکاڈنگاں ڈاؤنلوڈ دی در
 download-requests-info = جدوں تسیں اپنڑیاں ریکاڈنگاں دی درخواست دیندے ہو، اسیں اُناں کو ہک یا زیادہ ZIP فائلاں بچ  مرتب کردے ہاں۔ تُسدیاں پہلا دی درخواستاں اے ہن:
 download-request-button = ڈاؤنلوڈ
 download-request-title = { $created }
+download-request-description = { $clipCount } وائس کلپس، کل آرکائیو سائز{ $size }. مُکسی { $expires }.
+download-request-archive-single = کلہی زپ فائل تے مشتمل
