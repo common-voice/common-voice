@@ -11,3 +11,7 @@ download-recordings-size = عام طور تے میگا بائٹس
 download-recordings-unavailable = تسیں آپنڑی ریکاڈنگ دی گزارش نیں کر سکدے جدوں ہک ہور گزارش پہلے ہی جاری ہے۔
 download-recently-requested = تسیں ہر{ $days } دیہاڑے بچ آپنڑی ریکاڈنگ دی نویں ٹیک آؤٹ دی گزارش کر سکدے ہو۔
 download-size = سائز
+download-selected = چُنڑے دے
+download-start = پروفائل ڈیٹا ڈاؤنلوڈ کرو
+download-request = ریکاڈنگاں دی درخواست دیو
+download-requests = پرانڑیاں ریکاڈنگاں ڈاؤنلوڈ دی درخواستاں
