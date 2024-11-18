@@ -89,7 +89,6 @@ review =
 skip = ქალიცუ̂რე
 shortcuts = ჩქა̈რდლატუ̂ი̄ლნა
 goal-help-recording = სი ქალოხმა̈რჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
-goal-help-validation = სი ქალოხმურჯ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
         [one] ხიმა ლჷმა̄რე { $count } ხოშილი ლასყე̄ნად?
@@ -169,7 +168,7 @@ contribution-misreadings-title = უსწოროდ ლჷჭუ̂და̄ნ
 contribution-misreadings-description = ლაჰუ̂ნა̈რჟი ბჷგიდ ფირთხილდ ათმოწმა̈ნ, ერე სგანა̈ი̄რუ̂ ზუსტდ ლი ლჷი̄რ; უ̂არ ლე̄ქა, ჰემა შეცდომა ლი, მა̄̈ჲ დო უმნიშუ̂ნელო ლესსუ̂. <br /> მაფში̄რე შეცდომა̄̈ლ ლიხ:
 contribution-misreadings-description-extended-list-1 = ნა̈ირი ლა̈ბნას ხაკლი<strong> 'ა'</strong> მო̄დეი<strong></strong>
 contribution-misreadings-description-extended-list-2 = ხაკლი <strong></strong> სიტყვა̄̈ ლა̈შთხამჷყ.
-contribution-misreadings-description-extended-list-3 = მეკუ̂შდე ი ჯო̄დი ფორმალე ლიჭუ̂და̈ნი, ხედუ̂ა̈ჲ მა̄მ ლი მნიშვნელოვან, მაგალითად, "We're"მო̄დეჲ  "We are", ჲედ პირიქით.
+contribution-misreadings-description-extended-list-3 = მეკუ̂შდე ი ჯო̄დი ფორმალე ლიჭუ̂და̈ნი, ხედუ̂ა̈ჲ მა̄მ ლი მნიშვნელოვან, მაგალითად, "მა̄მგუ̂ეშ" მო̄დეჲ  "მამაგუ̂ეშ", ჲედ პირიქით.
 contribution-misreadings-description-extended-list-4 = ქახაცუ̂ირ უ̂ეშგმეპილჲა̈ სიტყუ̂ა̄̈ ლა̈შთხა ნა̈ი̄რი სურუ ჩქა̈რდ ლისრულემი ბა̈დშუ̂.
 contribution-misreadings-description-extended-list-5 = სიტყვა̄̈ ლიჭუ̂და̄̈ნია̈ ფიშრა̄მინ ლიკჰუ̄რე.
 contribution-misreadings-example-1-title = Triassi-ი უ̂ითმათა̈რ დინოზაუ̂რ.
@@ -183,7 +182,7 @@ contribution-misreadings-example-6-title = ნა̈ჲ ქ'ე̄სღუ̂რ�
 contribution-misreadings-example-6-explanation = [ხაკუ "ნა̈ჲ ხუ̂იშდ"]
 contribution-misreadings-example-7-title = ყავა̄̈ ლათრათე ესღუ̂რიდ.
 contribution-misreadings-example-7-explanation = [ორიგინალისგა ქა ხაკლი ა̄̈]
-contribution-misreadings-example-8-title = ბამბლბი ჟა̄̈ნჷნჩქარა̄̈ნ.
+contribution-misreadings-example-8-title = ბუმბერაზ ჟა̄̈ნჷნჩქარა̄̈ნ.
 contribution-misreadings-example-8-explanation = მა̄დმა მასყა კონტენტ.
 contribution-varying-pronunciations-title = მო̄შდ ლჷქუ̂ე
 contribution-varying-pronunciations-description = ფირთხილდ ხარდა̈ს, უ̂ოდე ნა̄̈ქუ̂ისგს ჩუ̂ათწჷნუ̂ი ეჯ მიზეზშუ̂, ერე მუჭუ̂და̄̈ნიდ უსწოროდ რა̄̈ქუ̂ე სიტყუ̂ა, ინტონაცია იშგნა̄̈გ ჩუ̂ემინ, ჲედ კითხვის ნიშა̈ნ ჰა̈დურდ დე̄სა ა̈დჭოდა̄ნე. თელ სოფლიოისგა ხუ̄̈ჲ ნუკუ̂იშ გარგლა ა̈რი, ხედუ̂ა̄̈ჲ ჲერხი სი  ისგუ გირკიდ საზოგადოებაისგა შეიძლება მა̄მ ჯესმე̄ნს. ჰემა იმა̈რგ, ნა̈ბ ლახო ეჯია̈რს, ერუ̂ა̄̈ჲ შეიძლება ისგუ̂აშა̄ლ მომ გა̈რგლი.
