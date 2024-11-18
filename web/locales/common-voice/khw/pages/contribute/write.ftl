@@ -2,11 +2,11 @@
 
 write = نیویشے
 write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہیا کی نیویشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
+write-page-subtitle = کیا جملو ہیہ کی نیویشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشور
-small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشے
+sentence-input-placeholder = عام رویان دائرو جملان ہیہ نیویشور
+small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیہ نیویشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
@@ -72,8 +72,8 @@ sentence-variant-select-multiple-variants = عام وار/ بو قسم
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو بچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیہ کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ہیہ فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = تان فائلو ہیا پیڅی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو

@@ -17,7 +17,7 @@ record-three-more-instruction = تروئے بہچی شینی
 record-again-instruction = بوجام!<recordIcon></recordIcon> پروشٹی بی تان خور ہواز رکارڈ کو
 record-again-instruction2 = تان کورمو جاری سوتے، وا رکارڈ کو
 record-last-instruction = <recordIcon></recordIcon>  اخری ای دنا!
-review-tooltip = پروشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہیا رکارڈ کو
+review-tooltip = پروشٹی کی بغاو ای وا لوڑو وا اسکوردی ہواز ہیہ رکارڈ کو
 share-clip = تان اسکوردی ہوازو بوژے
 share-common-voice = کامن وائسو بوژے
 review-instruction = کارکو،  کی ضرورت وا رکارڈ کو
@@ -36,7 +36,7 @@ review-rerecord = و رکارڈ کو
 review-cancel = جمع کوریکو کینسیل کو
 review-keep-recordings = رکارڈنگان تان سوم لکھے
 review-delete-recordings = مہ ہوازان بوغاوے
-review-terms = کامن وائسو استعمال کوری تو ہیا لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>راز دریو نوٹس</privacyLink>
+review-terms = کامن وائسو استعمال کوری تو ہیہ لوو سورا اتفاق ارو،  <termsLink>شرائط</termsLink> وا <privacyLink>راز دریو نوٹس</privacyLink>
 terms-agree = اوا منیمان
 terms-disagree = اوا نو مانیمان
 # FIRST POST SUBMISSION CTA

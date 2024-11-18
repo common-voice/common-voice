@@ -1,6 +1,6 @@
 listen = کار کو
 listen-subtitle = ہوازو سہی کوریکا اسپہ سوم مدد کورے
-listen-instruction = { $actionType }<playIcon></playIcon> ہیت ہیا جملو صحیح ادا ارینیا؟
+listen-instruction = { $actionType }<playIcon></playIcon> ہیت ہیہ جملو صحیح ادا ارینیا؟
 listen-again-instruction = بو جام کوروم! کیا وحت کی تیار ہوو </playIcon><playIcon>وا کار کو
 listen-3rd-time-instruction = پست۔ ہمو برقرار بہچاوے
 listen-last-time-instruction = <playIcon></playIcon>آخیری دانہ
