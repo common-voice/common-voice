@@ -13,13 +13,13 @@ change = بدل کو
 coming-soon = خور واران دی شاو انگوسیان
 media-recorder-api-not-supported = تا بروسرا میڈیا رکارڈر اے پی آئی نو چالوران۔
 # Toast message that is displayed when an item is skipped
-skipped = پیځی بغائے
+skipped = پیڅی بغائے
 audioplayer-header = کار کو
 guidelines = رہنمائی
 # For the button to report an item
 report-button = رپورٹ کو
 # For the button to skip an item
-skip-button = پیځیک
+skip-button = پیڅیک
 submit-button = جمع کو
 contribute = حصہ دراوو
 

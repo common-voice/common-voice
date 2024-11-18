@@ -7,12 +7,12 @@ sc-review-select-language = مہربانی کوری جملان وا لوڑیکو
 sc-review-no-sentences = وا لوڑیکو بچین جملہ نیکی۔<addLink> خور جملان ہنیسے شامل کو</addLink>
 sc-review-form-prompt =
     .message = وا لوڑیرو جملہ جمع نو ہونی، تہ یقینا؟
-sc-review-form-usage = جملان منظور کوریکو بچین ہوسکی وݰکی مژے۔ رد کوریکو بچین کھوڑی ویلٹی مژے۔ پیځیکو بچین ایہہ مژے
+sc-review-form-usage = جملان منظور کوریکو بچین ہوسکی وݰکی مژے۔ رد کوریکو بچین کھوڑی ویلٹی مژے۔ پیڅیکو بچین ایہہ مژے
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ذریعہ: { $sentenceSource }
 sc-review-form-button-reject = رد کوریک
-sc-review-form-button-skip = پیځیک
+sc-review-form-button-skip = پیڅیک
 sc-review-form-button-approve = منظور کوریک
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-form-keyboard-usage-custom = تو کیبورڈ شارٹ کٹ استعمال کوریکو بوس{ sc-review-form-button-approve-shortcut } منظور کوریکو بچین{ sc-review-form-button-reject-shortcut } رد کوریکو بچین { sc-review-form-button-skip-shortcut } پیځیکو بچین
+sc-review-form-keyboard-usage-custom = تو کیبورڈ شارٹ کٹ استعمال کوریکو بوس{ sc-review-form-button-approve-shortcut } منظور کوریکو بچین{ sc-review-form-button-reject-shortcut } رد کوریکو بچین { sc-review-form-button-skip-shortcut } پیڅیکو بچین
 sc-review-form-button-submit =
     .submitText = وا لوڑیکو مکمل کو
 # Variables:

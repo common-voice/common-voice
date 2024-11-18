@@ -2,7 +2,7 @@ action-click = کلک
 action-tap = شینی
 contribute = تان حصو شامل کوریک
 review = وا لوڑے
-skip = پیځی پروشٹی بوغے
+skip = پیڅی پروشٹی بوغے
 shortcuts = اسکوردی راہ
 clips-with-count-pluralized =
     { $count ->
@@ -135,7 +135,7 @@ contribution-background-noise-example-2-fixed-title = بلاح ڈاینو <stron
 contribution-background-noise-example-2-explanation = [نیویشیرو پھوک حصہ کارا نو دویان]
 contribution-background-noise-example-3-fixed-title = <strong>[کڑک]</strong>رائزیکو لوٹ ڈائنوسار   <strong>[کڑک]</strong> -
 contribution-background-voices-title = اݯھو ہواز
-contribution-background-voices-description = گوݯتو ہواز نوشیرو ژاغا صحیح۔ اسپہ ہݰ نو مݰکیسیان کی مشین  ہݰ بیݰی لفظان دوسار کی ہتیت نیویشیروا نیکی۔نیویشیروار علاوہ واضح بیشی لفظ تہ کارا کی پرائے  ہتے ہوازو رد کو۔ عام طورا ہیہ ٹی ویو کھولاو پیځیکو وجہیں بویان یا شویا مشقولگیو۔
+contribution-background-voices-description = گوݯتو ہواز نوشیرو ژاغا صحیح۔ اسپہ ہݰ نو مݰکیسیان کی مشین  ہݰ بیݰی لفظان دوسار کی ہتیت نیویشیروا نیکی۔نیویشیروار علاوہ واضح بیݰی لفظ تہ کارا کی پرائے  ہتے ہوازو رد کو۔ عام طورا ہیہ ٹی ویو کھولاؤ پیڅیکو وجہیں بویان یا شویا مشقولگیو۔
 contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نیویشیرووان ریکو ہواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای ہواز راوے]</strong>
 contribution-background-voices-example-1-explanation = توگوسانا؟ <strong>[ خور کا ہوئے پرائے ]</strong>

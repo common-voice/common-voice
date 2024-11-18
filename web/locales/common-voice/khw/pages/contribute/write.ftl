@@ -74,7 +74,7 @@ sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> �
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
 bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
+try-upload-again = تان فائلو ہیا پیڅی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو
 select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
