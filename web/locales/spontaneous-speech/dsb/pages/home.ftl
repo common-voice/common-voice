@@ -14,6 +14,7 @@ transcribe-bubble-title = <mark>Transkriběrowaś</mark>
 transcribe-bubble-subtitle = Pišośo, což w awdiowych klipach słyšyśo
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Pśeglědowaś</mark>
+check-bubble-subtitle = Pśeglědujośo, lěc transkripcija awdionagraśeju wótpowědujo
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Daty</mark>
 data-bubble-subtitle = Wózjawjamy pšawidłownje datowu sajźbu
