@@ -63,7 +63,7 @@ about-nav-playbook = حصہ گنیکو طریقو ݯھیݯھے
 
 about-playbook-what-is-language = کامن وائسا ای وار کیاغ؟
 about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوؤ ہوݰ کوریکو ای ماڈل ساوزیکو بچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیہ لوو سورا زور دویان کہ ای وارو کوراک کھوشیش کوری تان موژی ایغو لووان ہوݰ کونیانا؟
-about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان سلسلو ہوݰ کوریکا بہتر بار۔ ہموݰ بیکوبچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
+about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیاکان سلسلو ہوݰ کوریکا بہتر بار۔ ہموݰ بیکو بچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
 about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو ذیاد خور۔ ہیہ وجہین دیتی اسپہ 2022<ctaLink> قسمان</ctaLink> لکھیتام۔ ہیا رویانتے تان وارو لوٹ ڈیٹا سیٹا خور واران سر فرق کوریکو طریقہ نݰان دویان۔
 
 ## How do I add a language
@@ -73,7 +73,7 @@ about-playbook-how-add-language-content-1 = اولا لوڑے کہ<languageLink>
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = اسپہ<translateVideoLink> رہنمائیو</translateVideoLink> لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوریلیک۔
 about-playbook-how-add-language-translating-content-2 =
-    اسپہ ترجمہ کوریکو پچین موزیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> 'پونتون' </pontoonLink> رینیان ۔  پونتونا بو وار شینی۔
+    اسپہ ترجمہ کوریکو پچین موزیلو ای اسپاپو استعمال کوسیان توغوتین <pontoonLink> 'پونتون' </pontoonLink> رینیان ۔  پونتونا بو وار شینی۔
     لیکن تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بچین عرضی کوریکو  بوس۔<pontoonRequestLink>۔
      اچی ہے وارو کامن وائسو پروجکٹا دستیاب بیکو بچین
      <githubRepoLink> گیٹ ہبا</githubRepoLink> بی نوغ وارو بچین عرضی کو۔
@@ -90,7 +90,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = مذید معل
 about-playbook-how-localize = سائٹو مقامی کوریک کیچہ کوروم کویان؟
 about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجمہ<strong> پونتونا</strong> بویان۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink>    پروجکٹو گنے۔ ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
-about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن  خور وارو دی  <strong> گانیکو </strong>بوس۔ <strong> </strong> پروفائلو <strong>  نݰانہ کلک کو۔  وا سیٹنگ</strong> لینکہ وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمنو لسٹ بوئے توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
+about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن خور وارو دی  <strong> گانیکو </strong>بوس۔ <strong> </strong> پروفائلو <strong>  نݰانہ کلک کو۔  وا سیٹنگ</strong> لینکہ وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمنو لسٹ بوئے توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو بچین تیار بوئے۔
 about-playbook-how-localize-content-5 = مدد بچین اسپہ وضاحت دیاک ویڈیو لوڑے
 
