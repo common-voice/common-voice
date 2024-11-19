@@ -1,7 +1,7 @@
 listen = کار کورے
-listen-subtitle = ہوازو سہی کوریکا اسپہ سوم مدد کورے
-listen-instruction = { $actionType }<playIcon></playIcon> ہیت ہیہ جملو صحیح ادا ارینیا؟
-listen-again-instruction = بو جام کوروم! کیا وحت کی تیار ہوو </playIcon><playIcon>وا کار کو
+listen-subtitle = ہوازان تصدیق کوریکا مدد کورے
+listen-instruction = { $actionType }<playIcon></playIcon>  ہیہ جملو صحیح ریتانیا؟
+listen-again-instruction = بو جام! کیا وخت کی تیار ہوو </playIcon><playIcon>وا کارکوے
 listen-3rd-time-instruction = پست۔ ہمو برقرار بہچاوے
 listen-last-time-instruction = <playIcon></playIcon>آخیری دانہ
 listen-empty-state = اسپہ سوم ہواز ختم بیرو بونی، صفحو نوغ کو، یا پھوک اچا وا کوشش کو۔
