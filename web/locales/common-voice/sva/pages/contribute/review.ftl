@@ -43,3 +43,4 @@ sc-review-instruction = ჩუ̂ათმოწმა̈ნ <icon></icon> ალ 
 sc-review-rules-title = ლიმა წინადადება რეკომენდაცია̄ლე მასყა?
 sc-review-empty-state = ამწა̈მჟი ალ ნინჟი განსახილველ წინადადება̈ლ მა̄მ ა̈რიხ.
 report-sc-different-language = იშგენ ნინ
+report-sc-different-language-detail = ალა იშგენ ნინჟი ლი ლჷი̄რ, მი ერ ხუ̂ამოწმა̈ნი ეჩეჟი მა̄დე.
