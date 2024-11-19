@@ -21,3 +21,6 @@ download-request-title = { $created }
 download-request-description = { $clipCount } وائس کلپس، کل آرکائیو سائز{ $size }. مُکسی { $expires }.
 download-request-archive-single = کلہی زپ فائل تے مشتمل
 download-request-archive-multiple = { $archiveCount }زپ فائلاں بچ تروڑو جنہاں بچ شامل ہن
+download-request-assembling-description = تُسدیاں فائلاں جُڑ رہیاں ہن۔ مہربانی نال بعد بچ فر دِخیو۔
+download-request-refresh-button = تازہ کرو
+download-request-modal-title = لنک ڈاؤنلوڈ کرو
