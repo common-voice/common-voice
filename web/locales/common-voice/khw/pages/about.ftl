@@ -64,12 +64,12 @@ about-nav-playbook = حصہ گنیکو طریقو ݯھیݯھے
 about-playbook-what-is-language = کامن وائسا ای وار کیاغ؟
 about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوؤ ہوݰ کوریکو ای ماڈل ساوزیکو بچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیہ لوو سورا زور دویان کہ ای وارو کوراک کھوشیش کوری تان موژی ایغو لووان ہوݰ کونیانا؟
 about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان سلسلو ہوݰ کوریکا بہتر بار۔ ہموݰ بیکوبچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
-about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو ذیاد خور۔ ہیہ وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان وارو لوٹ ڈیٹا سیٹا خور واران سر فرق کوریکو  ای طریقہ نݰان دویان۔
+about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو ذیاد خور۔ ہیہ وجہین دیتی اسپہ 2022<ctaLink> قسمان</ctaLink> لکھیتام۔ ہیا رویانتے تان وارو لوٹ ڈیٹا سیٹا خور واران سر فرق کوریکو طریقہ نݰان دویان۔
 
 ## How do I add a language
 
 about-playbook-how-add-language = اوا ای ورو کیچہ کوری شامل کووم؟
-about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے کہ تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو بچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑاڅیک۔
+about-playbook-how-add-language-content-1 = اولا لوڑے کہ<languageLink> تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو تان وارو<languageRequestLink>  شامل کوریکو </languageRequestLink>بچین راوے۔  جو مرحلہ شینی۔ سائٹو ترجمہ کوریک، وا جملہ بڑاڅیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
