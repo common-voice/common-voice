@@ -1,4 +1,4 @@
-listen = کار کو
+listen = کار کورے
 listen-subtitle = ہوازو سہی کوریکا اسپہ سوم مدد کورے
 listen-instruction = { $actionType }<playIcon></playIcon> ہیت ہیہ جملو صحیح ادا ارینیا؟
 listen-again-instruction = بو جام کوروم! کیا وحت کی تیار ہوو </playIcon><playIcon>وا کار کو
