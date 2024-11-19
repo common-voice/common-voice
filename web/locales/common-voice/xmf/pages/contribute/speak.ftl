@@ -33,6 +33,14 @@ review-rerecord = ხელახალშო ინოჭარუა.
 review-cancel = ჯღონაშ გაუქვება.
 review-keep-recordings = ინნაჭარეფი შინახით.
 review-delete-recordings = ჩქიმი ინნაჭარეფიშ ლასუა.
+terms-agree = ვოთანხმუქ.
+terms-disagree = ვავოთანხმუქ.
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = მარდის მუგოშინანთ თქვანი ხონარიშ ინნაჭარეფით შემენწითჷნი.
+why-donate = მუშენ მოკითხჷქ?
+add-information-button = მონაცემეფიშ მიკოდვალა
+continue-speaking-button = ვარ, მარდი, გაგძელით ჩიება.
+create-profile-text = გოკონანო თქვან მონაცემეფიშ შენახება? <createProfile> გაკეთით პროფილი </createProfile>
 
 ## MENU ITEM TOOLTIPS
 
