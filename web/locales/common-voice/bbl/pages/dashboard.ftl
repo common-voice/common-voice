@@ -52,6 +52,8 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = მიზაჼ მითითბადარ
 cant-decide = დაკლევრეხ ცუი ყესტმაკ ჰოჼ?
+how-many-per-day = დაქიჼ და! დე́ნი მელ' ჩანაწერ?
+which-goal-type = ჩაწე́რადარი თე́ლ' ჰ̦ო, ლარკ ჵო́ფარი́ ლე შიკეჸ?
 
 ## Goals
 
