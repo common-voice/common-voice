@@ -55,6 +55,11 @@ read-sentences = წეკითხით წინადადებეფი
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = წეკითხით წინადადებეფი, ქუპასუხით კითხვეფს.
+read-sentences-menu-item-tooltip = წეკითხით წინადადებეფი დო ქინაჭარით თქვან ნინაშა.
+answer-questions-menu-item-tooltip = ქინაჭარით მუჭო პასუხენთ კითხვეფს თქვან ნინაშანი.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ჩიებაშ პარამეტრეფიშ მენიუ.
+read-sentences-menu-item-aria-label = საზოგადოებაშ წუმორინელ წინადადებეფი წეკითხით შხვადოშხვა ნინაშა.
+answer-questions-menu-item-aria-label = ქაჯღონით ახალ შეკითხვეფი საზოგადოებაშო, წეკითხან დო ქუპასუხანინი.
