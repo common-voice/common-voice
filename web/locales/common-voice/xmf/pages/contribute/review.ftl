@@ -13,18 +13,28 @@ sc-review-form-source = წყარო: { $sentenceSource }
 sc-review-form-button-reject = ვარება
 sc-review-form-button-skip = გიშატება
 sc-review-form-button-approve = მეღება
+sc-review-form-keyboard-usage-custom = შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო{ sc-review-form-button-reject-shortcut } ოვარებელო დო { sc-review-form-button-skip-shortcut } გიშატებელო.
 sc-review-form-button-submit =
-    .submitText = შემოწმებაში თება
-sc-review-form-review-failure = ვეშინახ შემოწმებული. ქორთხინთ ქოცადათ გვიანო.
-sc-review-link = გამორსება
+    .submitText = შემოწმებაში თება.
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] წინადადება ვარე შემოწმებული.
+        [one] 1 წინადადება რე შემოწმებული. მარდი.
+       *[other] { $sentences } წინადადება რე შემოწმებული. მარდი.
+    }
+sc-review-form-review-failure = შემოწმებული ვეშინახჷ. ქორთხინთ ქოცადათ გვიანონი.
+sc-review-link = შემოწმება.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = შემოწმებაში კრიტერიუმეფი
 sc-criteria-title = შემოწმებაში კრიტერიუმეფი
-sc-criteria-make-sure = დერწმუნით ნამდა წინადადებეფი აყმაყოფილენს მოჩამილ კრიტერიუმეფს.
+sc-criteria-make-sure = დერწმუნით ნამდა წინადადებეფი აყმაყოფილენს მოჩამილ კრიტერიუმეფს:
 sc-criteria-item-1 = წინადადებეფი წორას ოკო რდას ჭარილი.
 sc-criteria-item-2 = წინადადებეფი გრამატიკულო წორი ოკო რდას.
+sc-criteria-item-3 = წინადადებეფი ორაგადე ოკო რდას.
 sc-criteria-item-4 = წინადადება ქაყმაყოფილენს პირობებსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.
 sc-criteria-item-5-2 = ვაყმაყოფილენს ჟიდონი პირობებსდა, ქიგუკაკეთ "ვარება" კვარჩხანშე. ქოიჭირა გინოჭყვადუადა, შეილებუნა გაქშეტუათ დო გინილათ შხვაშა.
 sc-criteria-item-6 = დელიუ ომოწმებელ წინადადებეფქდა, გორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი.
