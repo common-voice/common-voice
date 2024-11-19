@@ -71,7 +71,7 @@ about-playbook-what-is-language-content-3 = پھتی واران گرائمیر،
 about-playbook-how-add-language = اوا ای ورو کیچہ کوری شامل کووم؟
 about-playbook-how-add-language-content-1 = اولا لوڑے کہ<languageLink> تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو تان وارو<languageRequestLink>  شامل کوریکو </languageRequestLink>بچین راوے۔  جو مرحلہ شینی۔ سائٹو ترجمہ کوریک، وا جملہ بڑاڅیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = اسپہ<translateVideoLink> رہنمائیو</translateVideoLink> لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوریلیک۔
 about-playbook-how-add-language-translating-content-2 =
     اسپہ ترجمہ کوریکو پچین موزیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> 'پونتون' </pontoonLink> رینیان ۔  پونتونا بو وار شینی۔
     لیکن تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بچین عرضی کوریکو  بوس۔<pontoonRequestLink>۔
