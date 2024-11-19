@@ -27,6 +27,16 @@ agriculture_food = Мэкъумэшымрэ шхыныгъуэмрэ
 automotive_transport = { "" }
 # Sentence Domain dropdown option
 finance = Финанс
+# Sentence Domain dropdown option
+general = { "" }
+# Sentence Domain dropdown option
+healthcare = Узыншагъэ хъумэн
+# Sentence Domain dropdown option
+history_law_government = Тхыдэ, хабзэ икӀи жылагъуэ Ӏуэху
+# Sentence Domain dropdown option
+language_fundamentals = Бзэм и лъабжьэхэр (псалъэм папщӏэ бжыгъэхэр, хьэрфхэр, ахъщэ)
+# Sentence Domain dropdown option
+media_entertainment = Медиа икIи нэгузыужь
 
 ## BULK SUBMISSION 
 
