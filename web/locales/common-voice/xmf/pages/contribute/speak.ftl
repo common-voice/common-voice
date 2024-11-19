@@ -41,9 +41,20 @@ why-donate = მუშენ მოკითხჷქ?
 add-information-button = მონაცემეფიშ მიკოდვალა
 continue-speaking-button = ვარ, მარდი, გაგძელით ჩიება.
 create-profile-text = გოკონანო თქვან მონაცემეფიშ შენახება? <createProfile> გაკეთით პროფილი </createProfile>
+thanks-for-voice-toast = მარდის მუგოშინანთ თქვანი ხონარიშ გურშენ ინფორმაცია მუჩითჷნ.
+first-cta-gender-select-default-option = გეჲშაგორით ართ-ართი.
+first-cta-gender-select-help-text =
+    .label = მუჭო დახასიათენთ თქვან სქესის ვარდა გენდერს?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = მარდის მუგოშინანთ თქვანი ხონარით შემენწითჷნი.
+already-have-an-account = ანწი გიღუნანო ანგარიშ? <login> მიშულა </login>
+create-profile-button = პროფილიშ კეთება.
+# menu item
+read-sentences = წეკითხით წინადადებეფი
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = წეკითხით წინადადებეფი, ქუპასუხით კითხვეფს.
 
 ## MENU ITEM ARIA LABELS
 
