@@ -92,12 +92,12 @@ about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجم�
 about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink>    پروجکٹو گنے۔ ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
 about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن خور وارو دی  <strong> گانیکو </strong>بوس۔ <strong> </strong> پروفائلو <strong>  نݰانہ کلک کو۔  وا سیٹنگ</strong> لینکہ وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمنو لسٹ بوئے توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو بچین تیار بوئے۔
-about-playbook-how-localize-content-5 = مدد بچین اسپہ وضاحت دیاک ویڈیو لوڑے
+about-playbook-how-localize-content-5 = مدد دیکو بچین اسپہ وضاحت دیاک ویڈیو لوڑے
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = اوا کیچہ کوری جملہ شامل کوم؟
-about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نیویشے یا ہیا<reviewPageLink> جملان لوڑے۔ <reviewPageLink> وا لوڑیکو صفحہ</reviewPageLink>
+about-playbook-how-add-sentences-content-1 = تو جملان  <writePageLink>نیویشکو صفحہ</writePageLink>شامل کوریکو بوس۔ یا <reviewPageLink> وا لوڑیکو صفحہ<reviewPageLink> بی سہی گیری لوڑے۔
 about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو بچین جملان جو ژون ولوڑے لیک وا جو ژون تیتان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان وارو بچین رہنمائی ساوزیکو بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیہ طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
 about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو بچین جملہ نیزاک<scraperLink> دی استعمال کوریکو بوس
 
