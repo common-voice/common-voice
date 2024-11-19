@@ -15,6 +15,10 @@ validate-readings = კითხირიშ დადასტურება.
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = კითხირებულიშ დადასტურება, ტრანსკრიფციაშ გინოჯინა.
+validate-readings-menu-item-tooltip = დადასტურით მომხმარებელეფიშ ნაკითხირა თქვან ნინაშა.
+review-transcriptions-menu-item-tooltip = ქიგნაჯინით მომხმარებელეფიშ ნაჯღონა ტრანსკრიფციეფს თქვან ნინაშა.
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = რჩქილაშ პარამეტრეფიშ მენიუ.
