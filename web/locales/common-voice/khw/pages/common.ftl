@@ -280,18 +280,18 @@ loading = لوڈ بویان۔۔۔
 email-opt-in-info = اوا ای میل گیک جاری سوتیک مݰکیمان تاکہ مہ تین مہ حدف  یاد بہچور، مہ کورمو بارا آگاہی بوئے، وا کامن وائسو بارا نیوز خبر گونی۔
 email-opt-in-info-title = کامن وائسو ای میلان فہرستا شامل بوس۔
 email-opt-in-info-sub-with-challenge = مہ تین ہݰ ای میل گیانی کی تیت مقابلو وا حدف  یاد کوریانی، مہ کورمو بارا اگاہی دیانی، وا کامن وائسو بارا خبر انگیانی۔
-email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیہ لوو واضح ہوئے کہ موزیلا ہمی معلوماتان موزیلاز<privacyLink> تفصیلو دیکو  کی سنبال اریر تتین قبول۔ راز داریو پالیسی</privacyLink>
+email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیہ لوو واضح ہوئے کہ موزیلا ہمی معلوماتان سنبال کی اریر تہ تین قبول کیچہ موزیلو <privacyLink> راز دریو پالیسیا</privacyLink> تفصیل شیر۔
 indicates-required = کیا ژاغا کی (*) اوشوئے ہسے ضروری
-not-available-abbreviation = تہ سورا لاگو نو
+not-available-abbreviation = لاگو نو
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = اسپہ تین تہ مددو </mark><mark>  ضرورت شیر</mark><mark><br/>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = ڈیٹاسیٹو اونلائن لکھیکو بچین وا ہیہ پلیٹ فارمو بہتر کوریکو بچین سالانہ  تقریبا ای میلن ڈالر ضرورت۔ اسپہ ہیہ کورمو <strong> ای شورار ذیاد واران روئے استعمال کونیان۔ <strong>تو دی کی ویریع، سفو بچین معلوماتان قدرکوسان ہنون چندہ دیت! </strong>
+donate-banner-cta-explanation = ڈیٹاسیٹو اونلائین لکھیکو بچین وا ہیہ پلیٹ فارمو بہتر کوریکو بچین سالانہ  تقریبا ای میلن ڈالر ضرورت۔ اسپہ ہیہ کورمو  ای شورار ذیاد واران روئے استعمال کونیان۔ <strong>تو دی کی ویریع، سفو بچین معلوماتان قدرکوسان ہنون چندہ دیت! </strong>
 # Text wrapped in <mark></mark> will have a white background.
-languages-donate-banner-cta = <br/><mark>تان تحقیقو بچین<mark> سی وی استعمال</mark> کوسانا؟
-languages-donate-banner-cta-explanation = کامن وائسو تے فنڈ چندو  وا مددو ذریعا گویان۔ اسپہ ماہر تعلیمان، تنظیمان وا کارخانان سورا تحقیق کوراکان سوم ای بیتی کوروم کوسیان۔ کامن وائس استعمالو بچین مفت مگم ہیہ پلیٹ فارما حصہ دریک وا گرانٹ پروپوزیلان ذریعا خرچو اوسنیک بو مدد کویان۔
+languages-donate-banner-cta = <br/><mark>تحقیقو بچین<mark> سی وی استعمال</mark> کوسانا؟
+languages-donate-banner-cta-explanation = کامن وائسو تے فنڈ چندو وا مددو ذریعا گویان۔ اسپہ ماہر تعلیمان، تنظیمان وا کارخانان سورا تحقیق کوراکان سوم ای بیتی کوروم کوسیان۔ کامن وائس استعمالو بچین مفت مگم ہیہ پلیٹ فارما حصہ دریک وا گرانٹ پروپوزیلان ذریعا خرچو اوسنیک بو مدد کویان۔
 localization-select =
-    .label = ای وارو گنے/مقامی
+    .label = ای وارو گنے/مقامی کوریک
