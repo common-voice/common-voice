@@ -21,6 +21,12 @@ review-instruction = გეგნამოწმით დო ხელახა
 record-submit-tooltip = { $actionType } ხაზირ იუაფუნჷ, ქაჯღონით.
 clips-uploaded = ინოჭარილეფ ატვირთულ რე.
 record-abort-title = დიო გეთუასო ინოჭარუაქ?
+record-abort-text = ასე ქიდიტუათჷნი, მეღებულ შედეგი მედინუ.
+record-abort-submit = ინოჭარილიშ გინოჯღონა.
+record-abort-continue = ინოჭარუა გათეთ.
+record-abort-delete = გუშულა & ინოჭარილეფიშ ლასუა.
+review-aborted = ატვირთვა მეჭყვიდილი რე. თქვანი ინნაჭარეფიშ ლასუა გოკონანო?
+review-submit-title = გინოჯინა დო ჯღონა.
 
 ## MENU ITEM TOOLTIPS
 
