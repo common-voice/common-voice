@@ -135,8 +135,8 @@ about-playbook-how-validate-content-4 = اگر ای ہوازو جو ژون کی 
 ## How to access dataset
 
 about-playbook-how-access-dataset = اوا ڈیٹا سیٹا کیچہ بیتی تریم وا استعمال کیچہ کوری کوم؟
-about-playbook-how-access-dataset-content-1 = تو ڈیٹا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے وارو گنے کھیوکی تو مݰکیسان وا ہورو ڈاون لوڈ کو۔ ہے فائلو سوم <metadataLink> چوکیرو لوٹ ڈیٹا شیر</metadataLink>، آبادیو وا تصدیقو معلومات شینی۔ ڈاون لوڈ کوریکوبچین تہ تان ای میلو دیلیک بوئے۔
-about-playbook-how-access-dataset-content-2 = تو کی اے ایس ار ماڈلو تین اشناری کی ساوزیسان، تو تان کمیونیٹا  خور رویان سوم لو دیکو بچین تیتان سوم تعلق لکھیکو بوس<discourseLink> مشقول گیا</discourseLink> گے
+about-playbook-how-access-dataset-content-1 = تو <datasetsPage>ڈیٹا سیٹو صفحہ<datasetsPage> بیکو بوس۔ ورژنو اوچے وارو گنے کھیوکی تو مݰکیسان وا ہورو ڈاون لوڈ کو! ہے فائلو سوم چوکیرو <metadataLink>  لوٹ ڈیٹا</metadataLink> شیر، آبادیو وا تصدیقو معلومات شینی۔ ڈاون لوڈ کوریکوبچین تہ تان ای میلو دیلیک بوئے۔
+about-playbook-how-access-dataset-content-2 = تو اے ایس ار ماڈلو تین اسپاپ کی ساوزیسان، کمیونیٹو خور رویان سوم<discourseLink> مشقولگیا</discourseLink> بی تعلق ساوزیکو بوس۔
 
 ## How are decisions made
 
