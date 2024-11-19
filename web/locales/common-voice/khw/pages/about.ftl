@@ -82,9 +82,9 @@ about-playbook-how-add-language-collecting-sentences-content-3 = مذید معل
 
 ## How does localization work
 
-about-playbook-how-localize = سائٹو مقامی کوراک کیچہ کوروم کویان؟
-about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجمہ<strong> پون تونا</strong> بویان
-about-playbook-how-localize-content-2 = تہ <pontoonAccountLink>اکاونٹ کی نیکی ساوزاوے </pontoonAccountLink> تھے تان وارو گنے<strong> (ٹیم) </strong> اچی پروجکٹو گنے، <pontoonCvLink> کامن وائس</pontoonCvLink> ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ بونی وا ترجمہ کوریکو ای خانہ بوئے۔
+about-playbook-how-localize = سائٹو مقامی کوریک کیچہ کوروم کویان؟
+about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجمہ<strong> پونتونا</strong> بویان۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink>    پروجکٹو گنے۔ ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
 about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن  خور وار دی  <strong> تجویز </strong>شینی۔ <strong>کلیک </strong> پروفائلو نݰان وا <strong> ترتیبا</strong> لینک وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمان لسٹ بوئی توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو بچین تیار بوئے۔
 about-playbook-how-localize-content-5 = مدد بچین اسپہ وضاحت دیاک ویڈیو لوڑے
