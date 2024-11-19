@@ -78,7 +78,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 about-playbook-how-add-language-collecting-sentences-content-2 =
     تو  ای کمہ <sentenceCollectorLinkAdd>جملان شامل</sentenceCollectorLinkAdd> کوریکو بوس۔
     یا </bulkImportDocsLink>گیٹ ہبو </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیو بوس۔  یاد سوتے جملہ <licenseLink> سی سی سی زیرو (عام رویان استعمالو دائرو )</licenseLink> بیک ضروی،  یا تان دی نیویشے۔
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو بچین جملہ جمع کوراکو</sentenceCollectorFragment> لوڑے۔
+about-playbook-how-add-language-collecting-sentences-content-3 = مذید معلوماتان بچین<sentenceCollectorFragment>  جملہ جمع کوراکو</sentenceCollectorFragment>لوڑے۔
 
 ## How does localization work
 
