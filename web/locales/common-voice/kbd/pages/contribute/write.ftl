@@ -19,6 +19,14 @@ small-batch-sentence-submission = Псалъэуха зыбжьанэ егъэх
 bulk-sentence-submission = Псалъэуха куэд егъэхьын
 single-sentence = Псалъэуха закъуэ
 small-batch-sentence = Псалъэуха зыбжанэ
+bulk-sentence = Псалъэуха куэд
+sentence-domain-combobox-label = Псалъэухам и щӏыпӏэр
+# Sentence Domain dropdown option
+agriculture_food = Мэкъумэшымрэ шхыныгъуэмрэ
+# Sentence Domain dropdown option
+automotive_transport = { "" }
+# Sentence Domain dropdown option
+finance = Финанс
 
 ## BULK SUBMISSION 
 
