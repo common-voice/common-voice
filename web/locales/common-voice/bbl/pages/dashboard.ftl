@@ -11,6 +11,13 @@ stats = სტა́ტისტიკ
 awards = ჯილდუჲ
 you = შუ
 everyone = ვომაჸ
+contribution-activity = შუ დაჰინო წვლილ
+top-contributors = ზორაჼ ხეჲლზვენი/მოხალისი
+recorded-clips = ჩანაწე́რი
+validated-clips = დარალ'რი
+total-approved = დი́ნ დარაჲლნუჲ
+overall-accuracy = დიჼ ნიფსხოლ/სიზუსტ
+set-visibility = ნჵეჲნ გულა́ /ხილვადობ ო́თთჲარ
 
 ## Custom Goals
 
