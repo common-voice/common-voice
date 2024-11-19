@@ -157,6 +157,28 @@ nd = isNdebele
 ne-NP = niipaali
 nhe = eastern huasteca nahuatl
 nhi = western sierra puebla
+nia = nias
+nl = dać
+nn-NO = norwegian nynorsk
+nnh = ngiembon
+nqo = niko
+nr = isNdebele (south)
+nso = northern sotho
+ny = chinyanja
+nyn = runyankole
+oc = occitan
+om = afaan orono
+or = odia
+os = ossetian
+pa-IN = punjabi
+pap-AW = papiamento
+pcm = nigherian pidgin angrezi
+pl = polish
+ps = pashto
+pt = portugese
+quc = kiche
+quy = quechua chanka
+qvi = kichwa
 
 # [/]
 
