@@ -24,6 +24,17 @@ show-ranking = საიჼ ა́დგილ ჲაგარ
 
 ## Custom Goals
 
+get-started-goals = მიზაჼ შე́ქმნოდჲარ
+create-custom-goal = საკუთარ მიზაჼ შე́ქმნოდჲარ
+goal-type = უხ ჲა შუჼ მიზაჼ?
+both-speak-and-listen = შიკეჸ
+both-speak-and-listen-long = შიკეჸ (ა́ლ'არა́, ლარკ ჵო́ფარა́)
+daily-goal = ყოველდი́ნლუჼ მიზაჼ
+weekly-goal = ყოველგე́ფსლუჼ მიზაჼ
+easy-difficulty = ატტაჼ
+average-difficulty = საშუალო̆
+difficult-difficulty = ძნელ
+pro-difficulty = გამო́ცდილ
 
 ## Goals
 
