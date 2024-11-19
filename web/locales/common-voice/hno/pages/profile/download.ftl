@@ -24,3 +24,4 @@ download-request-archive-multiple = { $archiveCount }زپ فائلاں بچ تر
 download-request-assembling-description = تُسدیاں فائلاں جُڑ رہیاں ہن۔ مہربانی نال بعد بچ فر دِخیو۔
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤنلوڈ کرو
+download-request-modal-description = تُسدیاںZIP فائلاں کو ڈاؤنلوڈ کرنڑ آں لنک اے ہن۔
