@@ -17,7 +17,7 @@ validate-readings = ریکو تصدیق
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = ریکو تصدیق، نقلان وا لوڑیک
+listen-contribute-menu-tooltip = ریکو تصدیق کورے، نیویشیروان وا لوڑے
 validate-readings-menu-item-tooltip = تان وارا کورما انگیاگو رکارڈ بیرو ریکو تصدیق کو
 review-transcriptions-menu-item-tooltip = تان وارا استعمال کوراکو جمع کردو نقلو وا لوڑے
 
