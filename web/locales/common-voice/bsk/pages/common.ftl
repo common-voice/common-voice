@@ -179,6 +179,20 @@ pt = portugese
 quc = kiche
 quy = quechua chanka
 qvi = kichwa
+qxp = puno quechua
+rif = tarfit
+rm-sursilv = romanish sursilvan
+rm-vallader = romanish valader
+ro = romanian
+ru = rusi
+rw = kinyarwanda
+sah = sakha
+sat = santali
+sc = sardinan
+scn = sicilian
+sco = scots
+sd = sindhi
+sdh = southern kurdish
 
 # [/]
 
