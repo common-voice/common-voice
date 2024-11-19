@@ -51,6 +51,7 @@ help-reach-hours-general-pluralized =
        *[other] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
     }
 set-a-goal = მიზაჼ მითითბადარ
+cant-decide = დაკლევრეხ ცუი ყესტმაკ ჰოჼ?
 
 ## Goals
 
