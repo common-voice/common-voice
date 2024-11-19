@@ -119,14 +119,14 @@ about-playbook-how-grow-language-content-1 = مختلف رویان تین موق
 about-playbook-how-grow-language-content-2 = مہرکہ
 about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو بچین میٹنگ مݰکیکو  بوس۔ ہیہ بو اسان۔ اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اوشوئے تیتان ای ژاغا مݰکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان بچین </eventTemplate>لوڑے
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
-about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  بچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیہ کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹیکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران بچین<campaignLink> ہیہ ژاغا لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
+about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  بچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیہ کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹیکنالوجیا تعاصبو بارا لوو دیت۔ سوشل میڈیا چلیکو خور مشوران بچین ہیہ ژاغا<campaignLink>  لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
 about-playbook-how-grow-language-content-6 = شراکت داری وا تعلوقات
-about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیہ بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> خور بو رویان سوم تاریکو بچین اسپہ تیار  ای میلان لوڑے</outreachTemplates>۔
+about-playbook-how-grow-language-content-7 = خور رویان مݰکے کاکی ہیہ بارا سوچ کونیان ۔ ہیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہیتان تین لو دیت کی کچہ کوری مدد کونی وا مدد کو کوریلیک۔خور بو رویان سوم تاریکو بچین <outreachTemplates>  اسپہ تیار ای میلان </outreachTemplates>لوڑے۔
 about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</strong>۔ تا وارو ڈال  بلکل خور بیلیک وا ہمیت شروع کوریکو ای کما طریقہ۔
 
 ## How to validate
 
-about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ہوازو منظور کوریلیک رے؟
+about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ای ہوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>تیتانتے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیہ عام طورا <strong> منظور کوریکو جام طریقہ۔
 about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نوکو کی ہیترا لو دیاکو تلفظ تا سر خور </strong>-سف ای بیتی کوروم کوری ہوازو ہوݰ کوریکو بچین ہیہ بو اہم۔
 about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯھتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان بچین 'سہی بکو معیارو' لوڑے </accuracyLink>
