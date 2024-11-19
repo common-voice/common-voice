@@ -1,5 +1,5 @@
 action-click = کلک
-action-tap = شینی
+action-tap = شینے
 contribute = تان حصو شامل کوریک
 review = وا لوڑے
 skip = پیڅی پروشٹی بوغے
