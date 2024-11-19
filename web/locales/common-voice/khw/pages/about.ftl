@@ -140,18 +140,18 @@ about-playbook-how-access-dataset-content-2 = تو اے ایس ار ماڈلو �
 
 ## How are decisions made
 
-about-playbook-how-project-governance = پروجکٹو بارا  فیصلہ کیچہ کوری ہوئے
-about-playbook-how-project-governance-content-1 = موزیلا کامن وائسو  پوا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینیئر ممکن ساوزیتانی۔ پروجکٹو موزیلا فونڈیشن نگرانی کویان۔
-about-playbook-how-project-governance-content-2 = اسپہ حکمرانیو ساوز بیکو ٹھون:
+about-playbook-how-project-governance = پروجیکٹو فیصلہ کیچہ بیتی بویان؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائسو  پورا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینئر ممکن ساوزیتانی۔ پروجیکٹو موزیلا فونڈیشن نگرانی کویان۔
+about-playbook-how-project-governance-content-2 = اسپہ حکمرانیو قائم بیکو ٹھون:
 about-playbook-how-project-governance-content-3 = راز داری، تحفظ وا شفافیت
-about-playbook-how-project-governance-content-4 = کمینوٹیو حصہ گنیک وا فیصلہ کوریک۔
+about-playbook-how-project-governance-content-4 = کمینوٹیو حصہ دریک وا فیصلہ کوریک۔
 about-playbook-how-project-governance-content-5 = قدر وا  قبول کوریک
 about-playbook-how-project-governance-content-6 = تان موژی ایغو سوم حساب کتاب
 about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حکمرانیو بارا خور معلوماتان بچین ہمو راوور</governanceLink>
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = کامن وائس کیچا بیتی ساوز ہوئے؟
+about-playbook-how-funded = کامن وائس کیچہ بیتی ساوز ہوئے؟
 about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیہ پروجکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
 about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو بچین، بہتر کوریکو بچین وا کمیونیٹیان پروگرامان چلیکو بچین بو پیسو ضرورت شیر۔
 about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیہ پروجکٹو سوم مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شراکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
