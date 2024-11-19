@@ -45,6 +45,12 @@ help-reach-hours-pluralized =
         [one] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
        *[other] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
+       *[other] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
+    }
+set-a-goal = მიზაჼ მითითბადარ
 
 ## Goals
 
