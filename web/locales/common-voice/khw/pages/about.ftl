@@ -101,14 +101,14 @@ about-playbook-how-localize-content-5 = مدد دیکو بچین اسپہ وضا
 about-playbook-how-add-sentences = اوا کیچہ کوری جملہ شامل کوم؟
 about-playbook-how-add-sentences-content-1 = تو جملان  <writePageLink>نیویشکو صفحہ</writePageLink>شامل کوریکو بوس۔ یا <reviewPageLink> وا لوڑیکو صفحہ<reviewPageLink> بی سہی گیری لوڑے۔
 about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو بچین جملان جو ژون وا لوڑیلیک وا جو ژون تیتان منظور کوریلیک۔ تو تان وارو بچین <languageGuidelinesLink> رہنمائی</languageGuidelinesLink> ساوزیکو بوس۔ جملہ <licenseLink>عام رویان استعمال دائرو </licenseLink>بانی وا جملہ جوش پونجاری کم لفظ بیلیک۔ تو</waiverLink> ختم کوریکو طریقو </waiverLink>استعمال کوری نیویشاکو ݯھکھے<waiverLink> سی سی زیرو  <waiverLink> کورے۔ وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
-about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو بچین جملہ نیزاک<scraperLink> دی استعمال کوریکو بوس
+about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو بچین جملہ نیزاکو<scraperLink> دی استعمال کوریکو بوس
 
 ## How to record quality
 
 about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ کوری محفوظ کوم؟
-about-playbook-how-record-content-1 = تان عام ہواز لو دیت۔ کیہ قسم کی تو لو دوسان ہسے تان سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان۔
+about-playbook-how-record-content-1 = تان عام ہوازا لو دیت۔ کیہ قسم کی تو لو دوسان ہسے سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان وا اسپہ تہ ہواز کندوری کی توڑ توغو، تہ لودیکو اندازو وا تو کیہ قسم کی ژینگیسان توغو مݰکیسیان۔
 about-playbook-how-record-content-2 = گوݯھتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
-about-playbook-how-record-content-3 = جملان غاورو سورا راوے- کھیو پځے مو، بدل مو دیت، لفظ شامل مو کو
+about-playbook-how-record-content-3 = جملان غورو سورا راوے- کھیو پیڅے مو، بدل مو دیت، لفظ شامل مو کو
 about-playbook-how-record-content-4 = لو دیکار پروشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
 about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان بچین ہیا لوڑے۔ </accuracyLink>
 
