@@ -35,6 +35,8 @@ easy-difficulty = ატტაჼ
 average-difficulty = საშუალო̆
 difficult-difficulty = ძნელ
 pro-difficulty = გამო́ცდილ
+lose-goal-progress-warning = მიზაჼ ხა́რცჲარევ შაძლე́ბალა დაჰ ჲა́ვჲო́ლო̆ შუგო ჲეჲნი̆ წინსვლ
+want-to-continue = ლეჸი შუჼ გაგრძელბადარ?
 
 ## Goals
 
