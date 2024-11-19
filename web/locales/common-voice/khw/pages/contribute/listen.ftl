@@ -13,16 +13,16 @@ listen-abort-title = ہوازان تصدیق کوریک نسی نیسایا?
 listen-abort-cancel = تصدیق کوریکو جاری سوتے
 listen-abort-confirm = تصدیق کوریکو نسی نیزے
 # Menu item
-validate-readings = ریکو تصدیق
+validate-readings = ریکو تصدیق کورے
 
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ریکو تصدیق کورے، نیویشیروان وا لوڑے
 validate-readings-menu-item-tooltip = تان وارا کورما انگیاگو رکارڈ بیرو ریکو تصدیق کو
-review-transcriptions-menu-item-tooltip = تان وارا استعمال کوراکو جمع کردو نقلو وا لوڑے
+review-transcriptions-menu-item-tooltip = استعمال کوراکو تہ وارا جمع کردو نیویشیرو وا لوڑے
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = اختیاراتان لیسٹو کارکو
-validate-readings-menu-item-aria-label = کمیونیٹی ممبرانا جمع بیرو راردوان تصدیق کو
-review-transcriptions-menu-item-aria-label = سہی کوریکو بچین محفوظ بیرو جملوان نقلو وا لوڑوڑے
+listen-contribute-menu-aria-label = اختیاراتان لیسٹو کارکورے
+validate-readings-menu-item-aria-label = کمیونیٹیو ممبرانان جمع کردو ریکان تصدیق کو
+review-transcriptions-menu-item-aria-label = سہی گریو بچین رکارڈ بیرو جملان نیویشیروان وا لوڑے
