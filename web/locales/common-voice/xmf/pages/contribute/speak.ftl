@@ -11,6 +11,11 @@ record-cancel = ხელახალშო ინოჭარუაშ გა�
 record-instruction = { $actionType }<recordIcon></recordIcon> უკულ წეკითხი წინადადება ხონარმაღალო.
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> მუჟამს გათენთჷნი.
 record-three-more-instruction = სუმ კინკილაქ დოსკიდუ
+record-again-instruction = დიდებულ რე! <recordIcon></recordIcon> უკულიანი თქვან კლიპი ქინაჭარით.
+record-again-instruction2 = თაში გაგძელით, ხოლო ქინაჭარით <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ბოლო!
+review-tooltip = გეგნამოწმით თაურეშე დო ხელახალშო ქინაჭარით.
+share-clip = გაზიარით თქვან ინნაჭარა.
 
 ## MENU ITEM TOOLTIPS
 
