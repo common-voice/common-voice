@@ -27,6 +27,12 @@ record-abort-continue = ინოჭარუა გათეთ.
 record-abort-delete = გუშულა & ინოჭარილეფიშ ლასუა.
 review-aborted = ატვირთვა მეჭყვიდილი რე. თქვანი ინნაჭარეფიშ ლასუა გოკონანო?
 review-submit-title = გინოჯინა დო ჯღონა.
+review-submit-msg = დიდი მარდი ინოჭარუაშენი! <lineBreak></lineBreak> ასე შეილებუნა ქიგნაჯინათჷნი თქვანი ინნაჭარას დო ქაჯღონათ თუდო.
+review-recording = გინოჯინა
+review-rerecord = ხელახალშო ინოჭარუა.
+review-cancel = ჯღონაშ გაუქვება.
+review-keep-recordings = ინნაჭარეფი შინახით.
+review-delete-recordings = ჩქიმი ინნაჭარეფიშ ლასუა.
 
 ## MENU ITEM TOOLTIPS
 
