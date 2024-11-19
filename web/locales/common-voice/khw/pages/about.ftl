@@ -17,7 +17,7 @@ about-sentence-collection-subtitle = روئےدوڑ ہوازا رینی رےجم
 about-new-lang-title = نوغ وارا شروع ہوئے
 about-new-lang-subtitle = اسپہ کامن وائسو سائٹو ہیہ وارا شروع اریتام۔
 about-voice-contrib-title = ہوازو مہربانی کوریک
-about-voice-contrib-subtitle = روئے گونیان وا تان ہوازان میربانی کونیان
+about-voice-contrib-subtitle = روئے گونیان وا تان ہوازان مہربانی کونیان
 about-voice-validation-title = ہوازو تصدیق کوریک
 about-voice-validation-subtitle = خور روئی ہتے اسکوردی ہوازان تصدیق کونیان
 about-dataset-release-title = ڈِیٹاسیٹ جاری بیک۔
@@ -152,6 +152,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حک
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائس کیچہ بیتی ساوز ہوئے؟
-about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیہ پروجکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
-about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو بچین، بہتر کوریکو بچین وا کمیونیٹیان پروگرامان چلیکو بچین بو پیسو ضرورت شیر۔
-about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیہ پروجکٹو سوم مدد کوریک کی مݰکیمیان، چندہ<donateLink> دیکو بومی </donateLink> یا  اسپہ شراکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجیکٹ۔ ای امریکی 501c3۔ ہیہ پروجیکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
+about-playbook-how-funded-content-2 = ڈیٹاسیٹو ہمیشو بچین کورا لکھیکو، رویان پوروشٹا انگیکو، بہتر کوریکو وا کمیونیٹیان پروگرامان چالیکو بچین بو پیسو ضرورت۔
+about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیہ پروجیکٹو سوم مدد کوریک کی مݰکیمیان، <donateLink>چندہ<donateLink> دیکو بومی یا  اسپہ شراکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
