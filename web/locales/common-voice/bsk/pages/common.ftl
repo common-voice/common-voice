@@ -193,6 +193,22 @@ scn = sicilian
 sco = scots
 sd = sindhi
 sdh = southern kurdish
+shi = shiha
+shn = shan
+si = sinhala
+sk = slovak
+skr = saraiki
+sl = slovenian
+snk = soninke
+so = somali
+sq = albanian
+sr = serbian
+ss = siswati
+st = southern sotho
+sv-SE = swedish
+sw = swahili
+syr = syriac
+ta = tamil
 
 # [/]
 
