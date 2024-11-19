@@ -155,6 +155,8 @@ nan-tw = taiwaaniiz
 nb-NO = norweigian bokmal
 nd = isNdebele
 ne-NP = niipaali
+nhe = eastern huasteca nahuatl
+nhi = western sierra puebla
 
 # [/]
 
