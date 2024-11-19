@@ -65,6 +65,8 @@ read-sentences = Ler frases
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Ler frases, responder preguntas
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Menú de opcións de fala
