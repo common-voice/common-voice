@@ -49,20 +49,20 @@ about-get-involved-text-2 =
     کمیونیٹیو مشقول گیو</matrixLink> خانہ<matrixLink> گے۔
 about-stay-in-touch = اوا کیچہ بیتی رابطہ بہچوم؟
 about-stay-in-touch-button = سائن اپ کو
-about-stay-in-touch-text-1 = <emailFragment> سائین اب</emailFragment>ہیہ مہما، واقعات وا کامن وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکوبچین اسپہ ای میلان لسٹا سائن اپ بوس۔
-about-stay-in-touch-text-2 = تو موزیلو وران کمیونیٹیا خور رویان سوم ملاو بیتی موضو بارا لودیکو بچین ہیہ<discourseLink>مشقول گیا</discourseLink> شامل بوس یا <matrixLink> خانہ</matrixLink> گے شاو مشورہ گنیکوبچین۔
+about-stay-in-touch-text-1 = ہیہ مہما، واقعات، وا کامن وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکوبچین اسپہ ای میل لیسٹا <emailFragment>سائن اپ</emailFragment> کو۔
+about-stay-in-touch-text-2 = تو موزیلو وران ڈالو خور رویان سوم ملاو بیتی ای موضؤ بارا لودیکو بچین ہیہ<discourseLink>مشقولگیا</discourseLink> شامل بوس یا شاو مشورہ گنیکوبچین<matrixLink>ہیہ خانہ</matrixLink> گے۔
 about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = شراکت دار
 about-nav-get-involved = حصہ گنیک
 about-nav-how-it-works-2 = کامن وائس کیچا کوروم کویان؟
-about-nav-playbook = حصہ گنیکو طریقو  ݯھیݯھے
+about-nav-playbook = حصہ گنیکو طریقو ݯھیݯھے
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = کامن وائسا ای وار کیا اشناری؟
-about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوݰ کوریکو ای ماڈل ساوزیکو بچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیہ لوو سورا زور دویان کہ ای وارو کوراک کھوشیش کوری تان موژی ایغو لووان ہوݰ کونیانا؟
+about-playbook-what-is-language = کامن وائسا ای وار کیاغ؟
+about-playbook-what-is-language-content-1 = ای وارو بارا سوچ کوریکو بو طریقہ شینی۔ لوؤ ہوݰ کوریکو ای ماڈل ساوزیکو بچین، کامن وائس تان موژی ہوݰ کوریکو تجویزو سورا زور دویان یا ہیہ لوو سورا زور دویان کہ ای وارو کوراک کھوشیش کوری تان موژی ایغو لووان ہوݰ کونیانا؟
 about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان سلسلو ہوݰ کوریکا بہتر بار۔ ہموݰ بیکوبچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
 about-playbook-what-is-language-content-3 = پھتی واران گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو ذیاد خور۔ ہیہ وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان وارو لوٹ ڈیٹا سیٹا خور واران سر فرق کوریکو  ای طریقہ نݰان دویان۔
 
