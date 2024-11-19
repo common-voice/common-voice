@@ -1,8 +1,11 @@
 ## REVIEW
 
+sc-review-lang-not-selected = ნინა დიო ვეგშაიგორუნანო. გინილით თქვან <profileLink> პროფილშა </profileLink> ნინაშ მიოთითებელო.
 sc-review-title = წინადადებეფიშ შემოწმება.
-sc-review-select-language = ქორთხინთ, გეირჩით ნინა წინადადებეფიში შიომოწმებელო.
+sc-review-select-language = ქორთხინთ, გეჲშაგორით ნინა წინადადებეფიში შიომოწმებელო.
 sc-review-no-sentences = შიომოწმებელი წინადადებეფი ვარე. <addLink> სი ქიგუძინი ასე! </addLink>
+sc-review-form-prompt =
+    .message = გინომოწმებულ წინადადებეფი ვაჯღონელე დარწუმებული ქორეთო?
 sc-review-form-button-reject = ვარება
 sc-review-form-button-skip = გიშატება
 sc-review-form-button-approve = მეღება
