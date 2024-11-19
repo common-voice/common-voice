@@ -3,7 +3,7 @@
 welcome-to-spontaneous-speech = Witajśo k spontanemu powědanjeju
 why-spontaneous-speech = Cogodla smy wuwili toś ten prototyp za spontane powědanje
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = Lěpša pódpěra za rěcy, kótarež maju mały abo <mark>žeden tekstowy korpus</mark>, kótaryž mógu wužywaś (na pś. sociolekty, warianty, rěcy, kótarež historiski bźez pisma atd. )
+why-card-3-text = Lěpša pódpěra za rěcy, kótarež maju mały abo <mark>žeden tekstowy korpus</mark>, kótaryž mógu wužywaś (na pś. sociolekty, warianty, rěcy, kótarež su historiski bźez pisma atd. )
 how-spontaneous-speech-works = Kak spontane powědanje funkcioněrujo
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Naspominanje</mark>
