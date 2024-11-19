@@ -67,8 +67,13 @@ about-playbook-how-add-language = اوا ای ورو کیچہ کوری شامل 
 about-playbook-how-add-language-content-1 = اولا <languageLink>لوڑے کہ تہ وار ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان وارو شامل کوریکو بچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ بڑاڅیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو لوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو وار شینی۔ تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان وار شامل کوریکو بچین درخواست کو</pontoonRequestLink>۔ اچی ہے واران کامن وائسو پروجکٹا دستیاب بیکو بچین<githubRepoLink> گیٹ ہب</githubRepoLink> بی نوغ وارو درخواست کو۔ <localizationFragment>۔ خور معلومات بچین سائٹو ترجمولوڑے</localizationFragment>
-about-playbook-how-add-language-collecting-sentences-heading = جملان جمع کوریک
+about-playbook-how-add-language-translating-content-2 =
+    اسپہ ترجمہ کوریکو پچین موزیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> 'پونتون' </pontoonLink> رینیان ۔  پونتونا بو وار شینی۔
+    لیکن تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بچین عرضی کوریکو  بوس۔<pontoonRequestLink>۔
+     اچی ہے وارو کامن وائسو پروجکٹا دستیاب بیکو بچین
+     <githubRepoLink> گیٹ ہبا</githubRepoLink> بی نوغ وارو بچین عرضی کو۔
+     ہے ویب سائٹو ترجمو بچین<localizationFragment> خور معلوماتان</localizationFragment>  دی لوڑے
+about-playbook-how-add-language-collecting-sentences-heading = جملان بڑاڅیک
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو استعمالو بارا اسپہ رہنمائیو لوڑے </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملان شامل کوریکو بوس</sentenceCollectorLinkAdd> یا گیٹ ہب </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد سوتے جملہ <licenseLink> سی سی سی زیرو (عام رویان استعمالو دائرو )</licenseLink> بیک ضروی،  یا تو تان دی نرویشکو بوس۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو بچین جملہ جمع کوراکو</sentenceCollectorFragment> لوڑے۔
