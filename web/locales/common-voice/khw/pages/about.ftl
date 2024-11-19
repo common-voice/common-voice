@@ -109,15 +109,15 @@ about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ
 about-playbook-how-record-content-1 = تان عام ہوازا لو دیت۔ کیہ قسم کی تو لو دوسان ہسے سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان وا اسپہ تہ ہواز کندوری کی توڑ توغو، تہ لودیکو اندازو وا تو کیہ قسم کی ژینگیسان توغو مݰکیسیان۔
 about-playbook-how-record-content-2 = گوݯھتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غورو سورا راوے- کھیو پیڅے مو، بدل مو دیت، لفظ شامل مو کو
-about-playbook-how-record-content-4 = لو دیکار پروشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
-about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان بچین ہیا لوڑے۔ </accuracyLink>
+about-playbook-how-record-content-4 = لو دیکار پروشٹی رکارڈنگ شروع بائے۔ لووٰ ختم کی ہونے تھے رکارڈنگ بند بائے۔
+about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان بچین لوڑے</accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = اسپہ کامن وائسا ای وارو کیا طریقہ پروشٹی الوسی؟
+about-playbook-how-grow-language = اسپہ کامن وائسا ای وارو کیا طریقہ جام کوری پروشٹی الوسی؟
 about-playbook-how-grow-language-content-1 = مختلف رویان تین موقع دیتی کامن وائس ہیہ لوو یقینی کویان کہ دیٹاسیٹ کندوری کی ہوئے ذیاد رویان خسمتو کورار۔  اسپہ تہ استعمالو بچین وسائل ساوزے اسوسی۔
-about-playbook-how-grow-language-content-2 = واقعات
-about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو بچین میٹنگ مݰکیکو  بوس۔ ہیہ بو اسان۔ اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اوشوئی تیتان ای ژاغا مݰکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان بچین ہمو </eventTemplate>لوڑے
+about-playbook-how-grow-language-content-2 = مہرکہ
+about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو بچین میٹنگ مݰکیکو  بوس۔ ہیہ بو اسان۔ اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اوشوئے تیتان ای ژاغا مݰکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان بچین </eventTemplate>لوڑے
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  بچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیہ کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹیکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران بچین<campaignLink> ہیہ ژاغا لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
 about-playbook-how-grow-language-content-6 = شراکت داری وا تعلوقات
