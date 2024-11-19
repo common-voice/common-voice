@@ -66,6 +66,7 @@ read-sentences = Cümleleri oku
 ## MENU ITEM TOOLTIPS
 
 read-sentences-menu-item-tooltip = Kendi dilinizde cümleleri okurken sesinizi kaydedin
+answer-questions-menu-item-tooltip = Sorulara ve komutlara kendi dilinizde yanıt verirken sesinizi kaydedin
 
 ## MENU ITEM ARIA LABELS
 

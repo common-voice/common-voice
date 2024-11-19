@@ -32,17 +32,12 @@ target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Com
 target-segment-add-voice = Engada a súa voz
 target-segment-learn-more = Saber máis
 change-preferences = Cambiar as preferencias
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Recollida de voz
-contribute-sentence-collection-nav-header = Recollida de frases
 login-signup = Iniciar sesión/Rexistrarse
 vote-yes = Si
 vote-no = Non
 datasets = Conxunto de datos
 languages = Idiomas
-about = Sobre
+about = Sobre nós
 partner = Socio
 submit-form-action = Enviar
 

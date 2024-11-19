@@ -1,5 +1,6 @@
 ## Report Modal
 
+report-modal-title = Nahlásit
 offensive_speech = Urážlivý obsah
 different_language = Další jazyk
 report-other-comment =

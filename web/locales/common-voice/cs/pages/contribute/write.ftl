@@ -145,3 +145,12 @@ small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
 small-batch-sentences-rule-5 = Všechny věty musí mít stejnou licenci
 small-batch-sentences-rule-6 = Všechny věty musí mít stejnou citaci
+# menu item
+add-sentences = Přidání vět
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Přidávejte věty ve vašem jazyce
+
+## MENU ITEM ARIA LABELS
+

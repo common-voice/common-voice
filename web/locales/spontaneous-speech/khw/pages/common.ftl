@@ -9,25 +9,25 @@ interface-language = ایغو سوم لو دیکو وار
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = ڈیٹا سیٹو سوم { $language } بچین مدد کوریک
 # Label for button on contribution switcher
-change = بدل
+change = بدل کو
 coming-soon = خور واران دی شاو انگوسیان
 media-recorder-api-not-supported = تا بروسرا میڈیا رکارڈر اے پی آئی نو چالوران۔
 # Toast message that is displayed when an item is skipped
-skipped = پیځیتائے
+skipped = پیڅی بغائے
 audioplayer-header = کار کو
 guidelines = رہنمائی
 # For the button to report an item
 report-button = رپورٹ کو
 # For the button to skip an item
-skip-button = پیځیک
+skip-button = پیڅیک
 submit-button = جمع کو
-contribute = حصہ گانیک
+contribute = حصہ دراوو
 
 ## Navbar
 
 respond-to-prompt = اشاران جوابو دیت
-transcribe-audio = ہوازو نیوشیکا غیراوے
-check-transcriptions = نیوشیروان لوڑے
+transcribe-audio = ہوازو نیویشیکا غیراوے
+check-transcriptions = نیویشیروان لوڑے
 
 ## Not Found Page
 

@@ -2,7 +2,7 @@ action-click = کلک
 action-tap = شینی
 contribute = تان حصو شامل کوریک
 review = وا لوڑے
-skip = پیځی پروشٹی بوغے
+skip = پیڅی پروشٹی بوغے
 shortcuts = اسکوردی راہ
 clips-with-count-pluralized =
     { $count ->
@@ -15,12 +15,12 @@ contribute-more =
     { $count ->
        *[other] { $count } وا دی کوریکو بچین تیارا ?
     }
-speak-empty-state = ہیا وارا رکارڈ کوریکو بچین اسپہ سوم جملہ ختم بیتی شینی۔
+speak-empty-state = ہیہ وارا رکارڈ کوریکو بچین اسپہ سوم جملہ ختم بیتی شینی۔
 no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو بچین تان ترتیبو بدل کوکو بوس۔
-speak-empty-state-cta = جملہ نیوشے
+speak-empty-state-cta = جملہ نیویشے
 speak-loading-error = تہ ریکو بچین اسپہ سوم کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان ہوازو رکارڈ کو
-share-title-new = <bold>اسپہ سوم مدد کو </bold> خور ہوازو مشکے
+share-title-new = <bold>اسپہ سوم مدد کو </bold> خور ہوازو مݰکے
 keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
 login-to-get-started = شروع کوریکو بچین لاک ان یا سائن ان بوس
 target-segment-first-card = تو اسپہ اولو مقصدو کورمو کوریکا اسپہ مددو کوسان
@@ -42,22 +42,22 @@ submit-form-action = جمع کو
 
 report = رپورٹ کو
 report-title = رپورٹو جمع کو
-report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
+report-ask = ہیہ جملہ تہ تین کیا مسلہ پیدا اریر؟
 report-offensive-language = شوم لو
 report-offensive-language-detail = جملہ شوم یا غیر مہذب لو شیر
 report-grammar-or-spelling = گرائمر/ہجو غلظ
 report-grammar-or-spelling-detail = جملہ گرائمرو یا ہجو غلطی شیر
 report-different-language = خور وار
-report-different-language-detail = اوا کیا وارا کی لو دومان ہیا ہتے وارا نو نیوشی شیر۔
+report-different-language-detail = اوا کیا وارا کی لو دومان ہیا ہتے وارا نو نیویشی شیر۔
 report-difficult-pronounce = ادا کوریک مشکل
-report-difficult-pronounce-detail = ہیا ہش لفظ یا چیق جملہ شینی کی  ہیتان ریک یا ادا کوریک مشکل۔
+report-difficult-pronounce-detail = ہیہ ہݰ لفظ یا چیق جملہ شینی کی  ہیتان ریک یا ادا کوریک مشکل۔
 report-offensive-speech = شوم لو
 report-offensive-speech-detail = ہوازا  شوم یا غیر مہذب لو شیر
 report-other-comment =
     .placeholder = تبصیرہ
 success = کامیاب
 continue = جاری
-report-success = رپورٹ منصور ہوئی
+report-success = رپورٹ منظور ہوئے
 
 ## Speak & Listen Shortcuts
 
@@ -73,10 +73,10 @@ shortcut-record-toggle-label = رکارڈکو/بندکو
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = اوازو دوبارا رکارڈ کو
 shortcut-discard-ongoing-recording = ایس کیپ
-shortcut-discard-ongoing-recording-label = ہیا  جاری رکارڈینگو ضائع کو
+shortcut-discard-ongoing-recording-label = جاری رکارڈینگو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی ہواز جمع کو
-request-language-text = تان وارو ہانیاپت کامن وائیسا نو لیتاوا؟
+request-language-text = تان وارو ہانیہ پت کامن وائیسا نو لیتاوا؟
 request-language-button = وارو بچین عرضی کو
 
 ## Listen Shortcuts
@@ -97,12 +97,12 @@ shortcut-vote-no = این
 contribution-criteria-nav = اصول
 contribution-criteria-link = حصہ گنیکو طریقہ تہ تین پتہ بائے
 contribution-criteria-page-title = حصہ گنیکو طریقہ
-contribution-criteria-page-description = ہیا لوو ہوش کوکی ہوازو کار کی کوراو اوشوو کیا اشناریو لوڑیلیک وا تان ہوازو جام کوریکو بچین مدد کو
-contribution-for-example = مثالو تورا
+contribution-criteria-page-description = ہیہ لوو ہوݰ کو کی ہوازو کار کوراوا، کیا اشناریو لوڑیلیک وا کیا مدد ہوازو رکارڈنگو بہتر کویان۔
+contribution-for-example = مثالو طورا
 contribution-misreadings-title = غلط ریک
-contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کو،کیاٰغ کی رکارڈ بیتی شیر نیوشیرو دی اسیتان؛ معمولی غلطی دی کی اشوئے رد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
+contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کو،کیاٰغ کی رکارڈ بیتی شیر نیویشیرو دی اسیتان؛ معمولی غلطی دی کی اوشوئے رد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
 contribution-misreadings-description-extended-list-1 = کمی <strong>'الف'</strong> یا <strong>''</strong> رکارڈنگو شروعا
-contribution-misreadings-description-extended-list-2 = لفظو اخیرا ای <strong> س<strong> کی نو اشوئی
+contribution-misreadings-description-extended-list-2 = لفظو اخیرا ای <strong> س<strong> کی نو اوشوئی
 contribution-misreadings-description-extended-list-3 = اسکوردی ریک کہ ہس حقیقت ہیرا موجود نیکی کیچہ کی  "We are"  ژاغا "We're" یا ہمیتان اچی پروشٹی الیک
 contribution-misreadings-description-extended-list-4 = رکارڈنگو تیز چھینیکو وجہین دیتی  لفظو اخرو چھینیک
 contribution-misreadings-description-extended-list-5 = ای لفظو ریکو بچین امبوخ کوشش کوریک
@@ -112,13 +112,13 @@ contribution-misreadings-example-2-explanation = [ ڈائنوسار بیلیک]
 contribution-misreadings-example-3-title = ٹرائزیو لوٹ ڈائنوسار
 contribution-misreadings-example-3-explanation = [اخری لفظار پروشٹی رکارڈنگو بند کوریک]
 contribution-misreadings-example-4-title = ٹرائزیکو لوٹ ڈائنوسار۔ دی۔
-contribution-misreadings-example-4-explanation = [ کندوری کی نیوشیرو حاجت، ہیتیغار ذیاد رکارڈ کورنو بیتی شیر ]
+contribution-misreadings-example-4-explanation = [ کندوری کی نیویشیرو حاجت، ہیتیغار ذیاد رکارڈ کورنو بیتی شیر ]
 contribution-misreadings-example-5-title = اسپہ بیری کافی پیاو بیسیان
 contribution-misreadings-example-6-title = اسپہ بیری کافی پیاو بیسیان
-contribution-misreadings-example-6-explanation = [ ہیا “بِیری ” بیلیک]
+contribution-misreadings-example-6-explanation = [ ہیہ “بِیری ” بیلیک]
 contribution-misreadings-example-7-title = اسپہ بیری کافی پیاو بیسیان
-contribution-misreadings-example-7-explanation = [اصل نیوشیروا 'اسپہ' شییر]
-contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار پروشٹی نیسیتائے
+contribution-misreadings-example-7-explanation = [اصل نیویشیروا 'اسپہ' شییر]
+contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سر پروشٹی نیسیتائے
 contribution-misreadings-example-8-explanation = [ بورنگا اشناری]
 contribution-varying-pronunciations-title = بدل لہجہ
 contribution-varying-pronunciations-description = لفظو غلط را اسور، غلط ژاغا زور دیتی اسور یا سوالہ نݰانو نو رے اسور، رے ہوازو مسترد کوریکار پروشٹی احتیاط کو
@@ -128,22 +128,22 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحی�
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی
 contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک ریکا(سانسا) ادا بوئے، جوا نو]
 contribution-background-noise-title = گوݯھتو شور
-contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ گوݯھتو ہوازو سنبال کورار وا  نسبتا بو توڑ ہوازو منظور کوریکو بار بشرطہ ہتیت  تھمام نیوشیرو کار کوریکو منع مو کورار۔ لش گوݯھتو ہواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
-contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نیوشیرو ریکو ہواز کارا نو دوئے۔
+contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ گوݯھتو ہوازو سنبال کورار وا  نسبتا بو توڑ ہوازو منظور کوریکو بار بشرطہ ہتیت  تھمام نیویشیرو کار کوریکو منع مو کورار۔ لش گوݯھتو ہواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
+contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نیویشیرو ریکو ہواز کارا نو دوئے۔
 contribution-background-noise-example-1-fixed-title = <strong>[اشتروخیک]</strong> بلاہ ڈائنوسار <strong>[کوپیک]</strong> ٹرائزک.
 contribution-background-noise-example-2-fixed-title = بلاح ڈاینو <strong>[کوپیک]</strong> ٹرائزک.
-contribution-background-noise-example-2-explanation = [نیوشیرو پھوک حصہ کارا نو دویان]
+contribution-background-noise-example-2-explanation = [نیویشیرو پھوک حصہ کارا نو دویان]
 contribution-background-noise-example-3-fixed-title = <strong>[کڑک]</strong>رائزیکو لوٹ ڈائنوسار   <strong>[کڑک]</strong> -
 contribution-background-voices-title = اݯھو ہواز
-contribution-background-voices-description = پیک پس منظر صحیح۔ لیکن اسپہ نو مݰکیسیان کہ خور ہواز مشینو حساب کتابا ہݰ لفظان پشیکو وجہ بائے کی ہتیت نیوشیرو نیکی۔اگر تو نیوشیرورار علاوہ سفا لفظ کار کی ارو ہسے اسکوردی ہواز رد کو۔ عام طورا ہیا ٹی ویو کھولاو پیځیکو وجہیں بویان یا شویا مشقولگیو۔
-contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نیوشیرو ریکو ہواز کارا نو دوئے
+contribution-background-voices-description = گوݯتو ہواز نوشیرو ژاغا صحیح۔ اسپہ ہݰ نو مݰکیسیان کی مشین  ہݰ بیݰی لفظان دوسار کی ہتیت نیویشیروا نیکی۔نیویشیروار علاوہ واضح بیݰی لفظ تہ کارا کی پرائے  ہتے ہوازو رد کو۔ عام طورا ہیہ ٹی ویو کھولاؤ پیڅیکو وجہیں بویان یا شویا مشقولگیو۔
+contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نیویشیرووان ریکو ہواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای ہواز راوے]</strong>
 contribution-background-voices-example-1-explanation = توگوسانا؟ <strong>[ خور کا ہوئے پرائے ]</strong>
 contribution-volume-title = ہواز
-contribution-volume-description = ریاکان ہواز قدرتی طورا کم ذیاد بوئی۔ ہتے صورتا در کو کہ ہواز ہنی توڑ  اوشوئی کہ ݯیاو اشوتائی۔(ذیادہ عام طورا) کہ بو لاش اوشوئی کیا ران رے کارا کی نو دیاواوشتائے نیوشیرو لوڑے۔
+contribution-volume-description = ریاکان ہواز قدرتی طورا کم ذیاد بوئے۔ ہتے صورتا رد کو کہ ہواز ہنی توڑ اوشوئی کہ ݯیاو اوشوتائی۔(عام طورا) کہ بو لاش اوشوئی کیا ران رے کی کارا کی نو دیاو اوشوئے نیویشیرو لوڑے۔
 contribution-reader-effects-title = ریاکان اثر
 contribution-reader-effects-description = ذیاد رکارڈنگ ہتے رویان کاکی تان قدرتی ہوازا لوو دونیان۔  تو ایگانا ہتے غیر معیاری ہواز کی ہتیت شور، لاش لو وا ڈرامائی ہواز بدل بیتی شینی دی منظور کوریکو بوس۔ مہربانی کوری باشاوونان اوچے کمپیوٹیرو ترتیب دیرو ہوازان رد کورے۔
 contribution-just-unsure-title = صرف غیر یقینی
-contribution-just-unsure-description = ہݰ اشناری کی تہ غیچی ہائے ہسے ہیا 'رہنمائی' شامل نیکی تان سف سار جام اندازو مطابق ووٹ دیت
+contribution-just-unsure-description = ہݰ اشناری کی تہ غیچی ہائے کی ہسے ہیہ 'رہنمائی' شامل نیکی تان سف سار جام اندازو مطابق ووٹ دیت
 see-more = <chevron></chevron>خور لوڑے
 see-less = <chevron></chevron>کم پشاوے

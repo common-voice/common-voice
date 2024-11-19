@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
-write = نیوشے
+write = نیویشے
 write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہیا کی نیوشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
+write-page-subtitle = کیا جملو ہیہ کی نیویشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشور
-small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیوشے
+sentence-input-placeholder = عام رویان دائرو جملان ہیہ نیویشور
+small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیہ نیویشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
@@ -24,10 +24,10 @@ new-sentence-rule-8 = جملہ قدرتی وا مشقولگی (جملہ ریکا
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو بچین
 how-to-cite = کچہ کوری حوالہ دوم؟
 how-to-cite-explanation-bold = یو ار ایل لینکو یا کورمو پورا نامو حوالہ دیت۔
-how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیوشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان بچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
+how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<italicizedText> "تان حوالہ"</italicizedText> نیویشے۔   اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  لڑیسی وا ہمیت کو س کاپی رائٹ مو بانی۔ حوالہ دیکو معلوماتان بچین اسپہ <guidelinesLink> رہنمائی صفحو </guidelinesLink>لوڑے۔
 guidelines = رہنمائی
 contact-us = اسپہ سوم رابطہ کو
-add-sentence-success = 1جملہ بڑاځینو ہوئے
+add-sentence-success = 1جملہ بڑاڅینو ہوئے
 add-sentence-error = نقص دیاک جملہ
 required-field = مہربانی کوری ہیا ژاغو ٹیپاوے
 single-sentence-submission = ای جملہ جمع کو
@@ -37,7 +37,7 @@ single-sentence = ای
 small-batch-sentence = ذیاد
 bulk-sentence = امبوخ
 sentence-domain-combobox-label = جملہ کھیو بارا؟
-sentence-domain-select-placeholder = تروئے پت گنے(اختیاری)
+sentence-domain-select-placeholder = ترویا پت گنے(اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
@@ -72,9 +72,9 @@ sentence-variant-select-multiple-variants = عام وار/ بو قسم
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو بچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیوشے <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیہ کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ہیہ فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تان فائلو ہیا پیڅی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو
 select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
@@ -82,7 +82,7 @@ accepted-files = حاجت فائلو قسم صرف: .tsv
 minimum-sentences = ای فائلا کم ازکم جملہ: 1000
 maximum-file-size = فائیلو لوٹار لوٹ سائز : 25 ایم بی
 what-needs-to-be-in-file = مہ فائلا کیاغ بیلیک؟
-what-needs-to-be-in-file-explanation = مہربانی کوری اسپہ  <templateFileLink>ٹملیٹ فائلا</templateFileLink> چک کو۔ تہ جملا کوس کاپی رائٹ مو بائی (CC0  یا اصل کورمو کوراکو سار اجازت بائے) صفا، گرائمیرو لحاظا صحیح وا ریکا اسان بائے۔ جملہ تقریبا 10-15سیکنڈا رینو بائے وا ہتیرا نمبر، خاص نام وا خاص حروف مو بانی۔
+what-needs-to-be-in-file-explanation = مہربانی کوری اسپہ  <templateFileLink>ٹملیٹ فائلا</templateFileLink> چک کو۔ تہ جملا کوس کاپی رائٹ مو بائی (CC0  یا اصل کورمو کوراکو سر اجازت بائے) سفا، گرائمیرو لحاظا صحیح وا ریکا اسان بائے۔ جملہ تقریبا 10-15سیکنڈا رینو بائے وا ہتیرا نمبر، خاص نام وا خاص حروف مو بانی۔
 upload-progress-text = اپلوڈ جاری شیر
 sc-bulk-submit-confirm = تصدیق کومان کی ہیہ جملہ <wikipediaLink> عام رویان دائرو </wikipediaLink> وا مہ تین ہمو اپلوڈ کوریکو اجازت شیر
 bulk-upload-success-toast = بو جملہ ایغاریا اپلوڈ ہونی
@@ -116,8 +116,8 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو ای منٹ اچھا جمع کو
-       *[other] ہیا پیجا جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
+        [one] ہیہ صفحہ جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
+       *[other] ہیہ صفحہ جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
@@ -128,14 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار ایک جملہ بڑځیتاو
-       *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑځیتاو
+        [one] { $uploadedSentences } موژار ایک جملہ بڑاڅیتاو
+       *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑاڅیتاو
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  رد بیرو جملان ڈون لوڈ کوریکو بچین
-       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈون لوڈ کوریکو بچین.
+        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  رد بیرو جملان ڈاون لوڈ کوریکو بچین
+       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈاون لوڈ کوریکو بچین.
     }
 small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنہ ای جملہ شامل کو
@@ -148,16 +148,16 @@ add-sentences = جملہ شامل کو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیوشیکا انگے
+write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، سوال شامل کو، ہوازو نیویشیکا انگے
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان وارا سوال شامل کو
-transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیوشیکا انگے
+transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = اختیاراتان لیسٹو نیوشے
+write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
 add-sentences-menu-item-aria-label = تان رویان ریکو بچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
-add-questions-menu-item-aria-label = کمیونیٹو ممبران سار ریکو وا جواب دیکو بچین  نوغ سوال کو
-transcribe-audio-menu-item-aria-label = تان وارا ہوازو رکارڈنگو نیوشیکا انگے
+add-questions-menu-item-aria-label = کمیونیٹو ممبران سر ریکو وا جواب دیکو بچین  نوغ سوال کو
+transcribe-audio-menu-item-aria-label = رکارڈ بیرو ہوازو نیویشیکا انگے

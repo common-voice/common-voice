@@ -79,8 +79,8 @@ answer-questions = Responder preguntas <small>(Proximamente)</small>
 review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
 add-questions = Engadir preguntas <small>(Proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
-press-and-stories = Comunicación e novas
-community-and-languages = Comunidade e idiomas
+press-and-stories = Comunicación, novas
+community-and-languages = Comunidade, idiomas
 
 ## MENU ITEMS TOOLTIPS
 

@@ -34,3 +34,5 @@ signup-terms = Ao premer en "Enviar unha ligazón ao meu correo electrónico", a
 signup-input-placeholder = Escriba o seu enderezo de correo electrónico
 signup-button-value = Enviar unha ligazón ao meu correo electrónico
 footer-text-privacy = <privacyLink>Privacidade</privacyLink>
+footer-text-terms = <termsLink>Condicións</termsLink>
+footer-text-cookies = <cookiesLink>Cookies</cookiesLink>

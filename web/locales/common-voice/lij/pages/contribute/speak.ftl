@@ -1,3 +1,6 @@
+speak = Parla
+speak-now = Parla oua
+speak-subtitle = Doña a teu voxe
 record-cta = Inandia a registraçion
 record-platform-not-supported = Ne rincresce, a teu ciattaforma a no l’é supportâ pe-o momento.
 record-platform-not-supported-desktop = In scî computer desktop ti peu descarregâ l’urtima verscion:
@@ -47,6 +50,9 @@ continue-speaking-button = No graçie, vanni avanti à parlâ
 create-profile-text = Ti veu sarvâ e teu informaçioin? <createProfile>Crea un profî</createProfile>
 thanks-for-voice-toast = Graçie pe-e informaçioin in sciâ teu voxe
 thanks-for-voice-toast-error = Gh’é stæto un errô inte l’invio de informaçioin in sciâ teu voxe
+first-cta-gender-select-default-option = Çerni unn’opçion
+first-cta-gender-select-help-text =
+    .label = Comme ti descriviësci o teu sesso ò genere?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Graçie pe avei donou a teu voxe!
 second-cta-subtitle-text = Con un profî, ti peu tegnî traccia da teu attivitæ e intrâ in contatto con unna communitæ de donatoî de voxe.
@@ -54,3 +60,17 @@ already-have-an-account = T’æ za un conto? <login>Intra</login>
 create-profile-button = Crea un profî
 # IMAGE TAGS
 img-alt-success-checkmark = sponta de successo
+# menu item
+read-sentences = Lezi de frase
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Lezi e frase, respondi a-e domande
+read-sentences-menu-item-tooltip = Registrite tanto che lezi de frase inta teu lengua
+answer-questions-menu-item-tooltip = Regitrite tanto che ti replichi à de domande inta teu lengua
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Menù de opçioin vocale
+read-sentences-menu-item-aria-label = Lezi e frase stæte mandæ da-a communitæ inte ciù de unna lengua
+answer-questions-menu-item-aria-label = Manda unna neuva domanda pe permette a-a communitæ de lezila e replicâ
