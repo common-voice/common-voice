@@ -40,6 +40,11 @@ want-to-continue = ლეჸი შუჼ გაგრძელბადარ?
 finish-editing = ლე́ჸი შუჼ ჯერ ნიფსჲარ ცე́რ ჲა́ჴარ?
 lose-changes-warning = ინცაჸ მაყბალ'რევ შუჼ ცვლილბი დაჰ̦ ჲა́ვოჲო̆
 build-custom-goal = საკუთარ მიზაჼ შე́ქმნოდარ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
+       *[other] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
+    }
 
 ## Goals
 
