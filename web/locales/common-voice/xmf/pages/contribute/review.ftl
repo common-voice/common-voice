@@ -49,5 +49,7 @@ review-error = ჩილათა წინადადებეფიშ მო
 review-error-rate-limit-exceeded = ჩქარენთ. რთხინთ დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რენი.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = მნიშვნელოვან თირუა რე.
+sc-redirect-page-subtitle-1 = წინადადებეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა <writeURL> დოჭარათ </writeURL> წინადადება ვარდა <reviewURL> შეამოწმათ </reviewURL> ზოხო გეძინელი წინადადებეფი Common Voice-ის
+sc-redirect-page-subtitle-2 = კითხვეფიშ დასმებელო ქიგმირინეთ <matrixLink> Matrix <discourseLink> </matrixLink> Discourse </discourseLink> ვარდა <emailLink> ელფოსტა </emailLink>.
 # menu item
 review-sentences = წინადადებეფიშ შემოწმება.
