@@ -6,8 +6,8 @@ listen-3rd-time-instruction = 2 უკვე ხაზირ რე! <playIcon><
 listen-last-time-instruction = <playIcon></playIcon> ბოლო!
 listen-empty-state = ინნაჭარეფქ გეთუ. გაახალით ხასილა ვარდა ხოლო ქოცადით გვიანო.
 listen-empty-state-variants = ნინაში გიშაგორილ ნერობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
-listen-loading-error = ვეგორ თქვანო ეშაკითხირალი წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.
-listen-abort-title = მეჭყორდას ინოჭარილეფიში შემოწმებაქ?
+listen-loading-error = ვეგორ თქვანო ეშაკითხირალ წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.
+listen-abort-title = მეჭყორდასო ინოჭარილეფიშ შემოწმებაქ?
 listen-abort-cancel = შემოწმებაში გაგძელება.
 listen-abort-confirm = შემოწმებაში მეჭყვიდუა.
 

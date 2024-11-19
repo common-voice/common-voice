@@ -1,4 +1,7 @@
+action-click = გეკაკაფა
+action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
+review = შემოწმება
 skip = გიშატება
 clips-with-count-pluralized =
     { $count ->
