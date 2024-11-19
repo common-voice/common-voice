@@ -4,5 +4,5 @@ contact-title = Зэлъэӏэс форм
 contact-form-name =
     .label = Цӏэ
 contact-form-message =
-    .label = Хъыбаргъэӏу
+    .label = Ӏуатэ
 contact-required = зыхуейр
