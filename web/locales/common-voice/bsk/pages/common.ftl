@@ -236,6 +236,21 @@ uz = uzbek
 ve = tshivenda
 vec = venetian
 vi = vietnamese
+vmw = emakhuwa
+vot = votic
+wep = westphalian
+wes = cameroon pidgin
+wo = wolof
+xh = xhosa
+yi = yiddish
+yo = yoruba
+yue = cantonese
+zgh = tamazight
+zh-CN = chinese
+zh-HK = chinese
+zh-TW = chinese
+zu = zulu
+zza = zaza
 
 # [/]
 
