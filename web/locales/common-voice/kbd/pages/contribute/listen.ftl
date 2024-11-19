@@ -1,6 +1,14 @@
-listen = ДаIуэ
-listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
-listen-again-instruction = Лэжьыгъэ лъэщ! <playIcon></playIcon> Зэ едэ1уэж, Фы хьэзырым.
-listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>Last one!
-listen-empty-state = We've run out of clips to validate in this language...
+listen = Едаӏуэ
+listen-subtitle = Макъхэр къэгъэпэжынкӏэ къыддэӏэпыкъу
+listen-instruction = { $actionType }<playIcon></playIcon> псалъэухар тэмэму къэпсэлъа хъуа?
+listen-empty-state = Къэгъэпэжын хуей макъ тетхахэр иухащ. Напэр гъэщӏэрыщӏэ е итӏанэ аргуэру еплъыж.
+listen-empty-state-variants = Уи бзэ вариантым и макъ тетхахэр иухауэ къыщӏэкӏынкӏэри хъунщ! Тыншу ущытмэ, уи бзэм ейуэ псалъэуха нэгъуэщӏхэр плъагъун папщӏэ уи теухуэныгъэхэр пхъуэжыфынущ.
+listen-loading-error =
+    Уедэӏуэн щхьэкӏэ  макъ тетхар ауэ къэдгъуэтыфакъым.
+    Кхъыӏэ, итӏанэ аргуэру еплъыж.
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

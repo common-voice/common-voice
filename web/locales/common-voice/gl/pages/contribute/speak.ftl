@@ -54,7 +54,7 @@ first-cta-gender-select-default-option = Seleccione unha opción
 first-cta-gender-select-help-text =
     .label = Como describiría o seu sexo ou xénero?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Grazas por aportar a súa voz!
+second-cta-header-text = Grazas por achegar a súa voz!
 second-cta-subtitle-text = Cun perfil, pode facer o seguimento da súa actividade e participar na comunidade de colaboradores de datos de voz.
 already-have-an-account = Xa ten unha conta? <login>Iniciar sesión</login>
 create-profile-button = Crear un perfil

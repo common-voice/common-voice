@@ -150,6 +150,7 @@ add-sentences = Cümle ekle
 
 write-contribute-menu-tooltip = Cümle ekle ve denetle, soru ekle, sesi metne dönüştür
 add-sentences-menu-item-tooltip = Dilinizde cümleler ekleyin
+review-sentences-menu-item-tooltip = Dilinizdeki cümleleri denetleyin
 add-questions-menu-item-tooltip = Dilinizde sorular ekleyin
 transcribe-audio-menu-item-tooltip = Dilinizdeki ses kayıtlarını metne dönüştürün
 
@@ -157,5 +158,6 @@ transcribe-audio-menu-item-tooltip = Dilinizdeki ses kayıtlarını metne dönü
 
 write-contribute-menu-aria-label = Yazma seçenekleri menüsü
 add-sentences-menu-item-aria-label = Topluluğun okuması için yeni cümleler ekleyin
+review-sentences-menu-item-aria-label = Topluluk tarafından gönderilen cümleleri gözden geçirin
 add-questions-menu-item-aria-label = Topluluğun okuyup yanıtlaması için yeni sorular gönderin
 transcribe-audio-menu-item-aria-label = Ses kayıtlarını metne dönüştürün

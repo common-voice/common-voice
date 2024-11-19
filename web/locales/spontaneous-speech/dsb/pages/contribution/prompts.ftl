@@ -4,8 +4,10 @@ record-player-header = Nagrajśo swójo wótegrono
 mic-access-error = Musyśo pśistup k mikrofonoju dowóliś.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> a wótegrońśo tak pśirodnje ako móžno
+no-prompts-message = Njedajo tuchylu žedne naspominanja za toś tu rěc. Pšosym aktualizěrujśo bok abo wopytajśo pózdźej hyšći raz.
 error-skipping = Pśi pśeskokowanju toś togo naspominanja jo zmólka nastała
 error-recording = Pśi nagraśu jo zmólka nastała.
+error-uploading-response = Pśi nagrawanju wašogo wótegrona jo zmólka nastała
 prompt-submitted-success = Wótegrono jo se wuspěšnje wótpósłało
 prompt-response-deleted-success = Wótegrono jo se wuspěšnje wulašowało
 # For the button to delete a response to a prompt

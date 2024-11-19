@@ -55,3 +55,5 @@ review-error-rate-limit-exceeded = 진행 속도가 너무 빠릅니다. 잠시 
 sc-redirect-page-title = 몇 가지 큰 변화를 만들고 있습니다
 sc-redirect-page-subtitle-1 = Sentence Collector는 핵심 Common Voice 플랫폼으로 이동하고 있습니다. 이제 Common Voice에서 문장을 <writeURL>작성</writeURL>하거나 단일 문장 제출을 <reviewURL>검토</reviewURL>할 수 있습니다.
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> 또는 <emailLink>email</emailLink>로 문의해 주세요.
+# menu item
+review-sentences = 문장 검토

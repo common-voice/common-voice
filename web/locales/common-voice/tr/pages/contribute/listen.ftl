@@ -17,7 +17,9 @@ validate-readings = Okumaları doğrula
 
 ## MENU ITEM TOOLTIPS
 
+validate-readings-menu-item-tooltip = Kullanıcılar tarafından kendi dilinizde kaydedilen okumaları doğrulayın
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Dinleme seçenekleri menüsü
+validate-readings-menu-item-aria-label = Topluluk üyelerinin gönderdiği ses kayıtlarını doğrulayın

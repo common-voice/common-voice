@@ -1,8 +1,8 @@
 ## Contact Modal
 
-contact-title = ЗэлъэIэс форм
+contact-title = Зэлъэӏэс форм
 contact-form-name =
-    .label = ЦIэ
+    .label = Цӏэ
 contact-form-message =
-    .label = Хъыбаргъэӏу
-contact-required = зыхуейр
+    .label = Ӏуатэ
+contact-required = *ӏэмалыншэ

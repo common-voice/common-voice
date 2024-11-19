@@ -1,5 +1,6 @@
 ## Prompts page
 
+mic-access-error = Debe permitir o acceso ao micrófono.
 error-recording = Produciuse un erro durante a gravación
 error-fetching-prompts = Produciuse un erro ao recuperar as preguntas. Ténteo de novo máis tarde.
 error-uploading-response = Produciuse un erro ao enviar a resposta

@@ -60,3 +60,11 @@ already-have-an-account = Už máte účet? <login>Přihlásit</login>
 create-profile-button = Vytvořit profil
 # IMAGE TAGS
 img-alt-success-checkmark = souhlasné zatržítko
+# menu item
+read-sentences = Čtení vět
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

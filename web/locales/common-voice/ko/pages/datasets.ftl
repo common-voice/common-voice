@@ -94,3 +94,7 @@ release-version = 버전
 dataset-date = 날짜
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = 음성 데이터 세트 다운로드
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice 데이터에 접근할 수 있는 다운로드 옵션
