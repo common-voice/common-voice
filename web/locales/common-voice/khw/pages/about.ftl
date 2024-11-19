@@ -19,8 +19,8 @@ about-new-lang-subtitle = اسپہ کامن وائسو سائٹو ہیہ وار�
 about-voice-contrib-title = ہوازو مہربانی کوریک
 about-voice-contrib-subtitle = روئے گونیان وا تان ہوازان مہربانی کونیان
 about-voice-validation-title = ہوازو تصدیق کوریک
-about-voice-validation-subtitle = خور روئی ہتے اسکوردی ہوازان تصدیق کونیان
-about-dataset-release-title = ڈِیٹاسیٹ جاری بیک۔
+about-voice-validation-subtitle = خور روئے ہوازان سہی بیکو تصدیق کونیان۔
+about-dataset-release-title = ڈِیٹاسیٹو پورشٹہ انگیگ
 about-dataset-release-subtitle = اسپہ ڈیٹا سیٹو ہر 3 مسہ جاری کوسیان
 about-subscribe-text = کامن وائسو سوم رابطہ بہچیک مݰکیسانا؟
 about-speak = لو دیت
@@ -52,7 +52,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = اوا کیچہ بیتی رابطہ بہچوم؟
 about-stay-in-touch-button = سائن اپ کو
 about-stay-in-touch-text-1 = ہیہ مہما، مہرکہ، وا کامن وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکوبچین اسپہ ای میل لیسٹا <emailFragment>سائن اپ</emailFragment> کو۔
-about-stay-in-touch-text-2 = تو موزیلو وران ڈالو خور رویان سوم ملاو بیتی ای موضؤ بارا لودیکو بچین ہیہ<discourseLink>مشقولگیا</discourseLink> شامل بوس یا شاو مشورہ گنیکوبچین<matrixLink>ہیہ خانہ</matrixLink> گے۔
+about-stay-in-touch-text-2 = تو موزیلو وران ڈالو خور رویان سوم ملاو بیتی ای موضؤ بارا لودیکو بچین ہیہ <discourseLink> مشقولگیا</discourseLink> شامل بوس یا ݰاؤ مشورہ گنیکوبچین <matrixLink> ہیہ خانہ </matrixLink> گے۔
 about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = شراکت دار
