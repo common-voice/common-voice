@@ -2,14 +2,14 @@
 
 welcome-to-spontaneous-speech = Willkommen bei Spontane Sprache
 # <br></br> represents a newline break
-wall-of-text = Common Voice startet eine zweite Plattform, die sich auf das Sammeln von organischer, Spontan-, nicht vorgeschriebener Sprache konzentriert. Dies wird vielen Gemeinschaften helfen, Daten schneller zu sammeln, und ist außerdem nützlich für Datenwissenschaftler und Entwickler.
+wall-of-text = Common Voice startet eine zweite Plattform, die sich auf das Sammeln von organischer, spontaner, ungeschriebener Sprache konzentriert. Dies wird vielen Gemeinschaften helfen, Daten schneller zu sammeln, und ist außerdem nützlich für Datenwissenschaftler und Entwickler.
 why-spontaneous-speech = Warum wir diesen Prototypen von Spontane Sprache entwickelt haben
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Nützlich für <mark>organische Sprachkontexte</mark> und Anwendungsfälle (z.&thinsp;B. wenn Sie möchten, dass die Spracherkennung mit Personen funktioniert, die ungeschrieben und umgangssprachlich sprechen)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Bessere Unterstützung für sprachliche Realitäten wie Übersetzung und <mark>Code-Wechsel</mark>
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = Bessere Unterstützung für Sprachen, die nur wenig oder <mark>keinen Textkörper</mark> verwenden können (z. B. Soziolekte, Varianten, Sprachen, historisch ungeschriebenen Sprachen usw.)
+why-card-3-text = Bessere Unterstützung für Sprachen, die nur wenig oder <mark>keinen Textkörper</mark> verwenden können (z. B. Soziolekte, Varianten, Sprachen, historisch ungeschriebene Sprachen usw.)
 how-spontaneous-speech-works = Wie Spontane Sprache funktioniert
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Frage</mark>
