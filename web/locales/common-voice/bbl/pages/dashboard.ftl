@@ -37,6 +37,8 @@ difficult-difficulty = ძნელ
 pro-difficulty = გამო́ცდილ
 lose-goal-progress-warning = მიზაჼ ხა́რცჲარევ შაძლე́ბალა დაჰ ჲა́ვჲო́ლო̆ შუგო ჲეჲნი̆ წინსვლ
 want-to-continue = ლეჸი შუჼ გაგრძელბადარ?
+finish-editing = ლე́ჸი შუჼ ჯერ ნიფსჲარ ცე́რ ჲა́ჴარ?
+lose-changes-warning = ინცაჸ მაყბალ'რევ შუჼ ცვლილბი დაჰ̦ ჲა́ვოჲო̆
 
 ## Goals
 
