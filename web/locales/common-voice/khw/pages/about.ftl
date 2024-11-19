@@ -127,14 +127,14 @@ about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</stro
 ## How to validate
 
 about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ای ہوازو منظور کوریلیک رے؟
-about-playbook-how-validate-content-1 = کی بویان <strong>تیتانتے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیہ عام طورا <strong> منظور کوریکو جام طریقہ۔
-about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نوکو کی ہیترا لو دیاکو تلفظ تا سر خور </strong>-سف ای بیتی کوروم کوری ہوازو ہوݰ کوریکو بچین ہیہ بو اہم۔
+about-playbook-how-validate-content-1 = کی بویان <strong>ہیتان تے کار کو </strong>وا ہیتان ہوݰ</strong> کو۔ ہیہ عام طورا <strong> منظورکوریکو سفوسر جام </strong>۔
+about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نوکو کی ہیترا لو دیاکو لہجہ تہ سر خور </strong>- ہوازو ہوݰ کوریکو بچین ہیہ بو اہم  کہ ہیس سفو بچین جام کوروم کورار۔
 about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯھتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان بچین 'سہی بکو معیارو' لوڑے </accuracyLink>
-about-playbook-how-validate-content-4 = اگر ای  ہواز جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
+about-playbook-how-validate-content-4 = اگر ای ہوازو جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے۔
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = اوا ڈیٹا بیسا کیچا بیتی بیم وا استعمال کیچہ کوری کوم۔
+about-playbook-how-access-dataset = اوا ڈیٹا سیٹا کیچہ بیتی تریم وا استعمال کیچہ کوری کوم؟
 about-playbook-how-access-dataset-content-1 = تو ڈیٹا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے وارو گنے کھیوکی تو مݰکیسان وا ہورو ڈاون لوڈ کو۔ ہے فائلو سوم <metadataLink> چوکیرو لوٹ ڈیٹا شیر</metadataLink>، آبادیو وا تصدیقو معلومات شینی۔ ڈاون لوڈ کوریکوبچین تہ تان ای میلو دیلیک بوئے۔
 about-playbook-how-access-dataset-content-2 = تو کی اے ایس ار ماڈلو تین اشناری کی ساوزیسان، تو تان کمیونیٹا  خور رویان سوم لو دیکو بچین تیتان سوم تعلق لکھیکو بوس<discourseLink> مشقول گیا</discourseLink> گے
 
