@@ -209,6 +209,33 @@ sv-SE = swedish
 sw = swahili
 syr = syriac
 ta = tamil
+te = telugu
+teg = teke
+tg = tajik
+th = thai
+ti = tigrinya
+tig = tigre
+tk = turkmen
+tl = taglog
+tn = setswana
+tok = toki pona
+tr = turkish
+ts = xitsonga
+tt = tatar
+tui = tupuri
+tvu = tunen
+tw = twi
+ty = tahitian
+tyv = tuvan
+uby = ubykh
+udm = udmurt
+ug = yughur
+uk = ukrainian
+ur = urdu
+uz = uzbek
+ve = tshivenda
+vec = venetian
+vi = vietnamese
 
 # [/]
 
