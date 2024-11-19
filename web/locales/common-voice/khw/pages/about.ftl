@@ -74,8 +74,10 @@ about-playbook-how-add-language-translating-content-2 =
      <githubRepoLink> گیٹ ہبا</githubRepoLink> بی نوغ وارو بچین عرضی کو۔
      ہے ویب سائٹو ترجمو بچین<localizationFragment> خور معلوماتان</localizationFragment>  دی لوڑے
 about-playbook-how-add-language-collecting-sentences-heading = جملان بڑاڅیک
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو استعمالو بارا اسپہ رہنمائیو لوڑے </sentenceCollectorVideo>
-about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملان شامل کوریکو بوس</sentenceCollectorLinkAdd> یا گیٹ ہب </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد سوتے جملہ <licenseLink> سی سی سی زیرو (عام رویان استعمالو دائرو )</licenseLink> بیک ضروی،  یا تو تان دی نرویشکو بوس۔
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ بڑاڅیاکو</sentenceCollectorVideo> استعمالو بارا اسپہ رہنمائیو لوڑے۔
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تو  ای کمہ <sentenceCollectorLinkAdd>جملان شامل</sentenceCollectorLinkAdd> کوریکو بوس۔
+    یا </bulkImportDocsLink>گیٹ ہبو </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیو بوس۔  یاد سوتے جملہ <licenseLink> سی سی سی زیرو (عام رویان استعمالو دائرو )</licenseLink> بیک ضروی،  یا تان دی نیویشے۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو بچین جملہ جمع کوراکو</sentenceCollectorFragment> لوڑے۔
 
 ## How does localization work
