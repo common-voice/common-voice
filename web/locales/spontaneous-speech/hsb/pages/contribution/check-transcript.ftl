@@ -3,6 +3,7 @@
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Přepruwować
 vote-transcript-success = Wo transkripciji wuspěšnje wothłosowany
+vote-transcript-error = Při wothłosowanju wo transkripciji je zmylk nastał
 transcript-edited-success = Transkripcija je so wuspěšnje wobdźěłała
 transcript-edited-error = Zmylk je při wobdźěłowanju transkripcije nastał
 transcript-skipped-success = Transkripcija je so wuspěšnje přeskočiła
