@@ -98,7 +98,7 @@ about-playbook-how-localize-content-5 = مدد دیکو بچین اسپہ وضا
 
 about-playbook-how-add-sentences = اوا کیچہ کوری جملہ شامل کوم؟
 about-playbook-how-add-sentences-content-1 = تو جملان  <writePageLink>نیویشکو صفحہ</writePageLink>شامل کوریکو بوس۔ یا <reviewPageLink> وا لوڑیکو صفحہ<reviewPageLink> بی سہی گیری لوڑے۔
-about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو بچین جملان جو ژون ولوڑے لیک وا جو ژون تیتان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان وارو بچین رہنمائی ساوزیکو بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیہ طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
+about-playbook-how-add-sentences-content-2 = کامن وائسا شامل کوریکو بچین جملان جو ژون وا لوڑیلیک وا جو ژون تیتان منظور کوریلیک۔ تو تان وارو بچین <languageGuidelinesLink> رہنمائی</languageGuidelinesLink> ساوزیکو بوس۔ جملہ <licenseLink>عام رویان استعمال دائرو </licenseLink>بانی وا جملہ جوش پونجاری کم لفظ بیلیک۔ تو</waiverLink> ختم کوریکو طریقو </waiverLink>استعمال کوری نیویشاکو ݯھکھے<waiverLink> سی سی زیرو  <waiverLink> کورے۔ وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
 about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو بچین جملہ نیزاک<scraperLink> دی استعمال کوریکو بوس
 
 ## How to record quality
