@@ -11,6 +11,7 @@
 ## Layout
 
 profile = Sacumud a banggu
+contact = Linlakun kami
 
 ## Donate banner
 
