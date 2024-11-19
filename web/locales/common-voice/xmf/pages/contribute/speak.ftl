@@ -20,6 +20,7 @@ share-common-voice = გაზიარით Common Voice
 review-instruction = გეგნამოწმით დო ხელახალშო ქინაჭარით, საჭიროქ ქიუდა.
 record-submit-tooltip = { $actionType } ხაზირ იუაფუნჷ, ქაჯღონით.
 clips-uploaded = ინოჭარილეფ ატვირთულ რე.
+record-abort-title = დიო გეთუასო ინოჭარუაქ?
 
 ## MENU ITEM TOOLTIPS
 
