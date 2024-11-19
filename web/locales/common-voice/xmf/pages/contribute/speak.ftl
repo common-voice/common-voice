@@ -16,6 +16,10 @@ record-again-instruction2 = თაში გაგძელით, ხოლო 
 record-last-instruction = <recordIcon></recordIcon> ბოლო!
 review-tooltip = გეგნამოწმით თაურეშე დო ხელახალშო ქინაჭარით.
 share-clip = გაზიარით თქვან ინნაჭარა.
+share-common-voice = გაზიარით Common Voice
+review-instruction = გეგნამოწმით დო ხელახალშო ქინაჭარით, საჭიროქ ქიუდა.
+record-submit-tooltip = { $actionType } ხაზირ იუაფუნჷ, ქაჯღონით.
+clips-uploaded = ინოჭარილეფ ატვირთულ რე.
 
 ## MENU ITEM TOOLTIPS
 
