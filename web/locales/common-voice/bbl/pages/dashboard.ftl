@@ -2,16 +2,16 @@
 
 your-languages = შუჼ მატტი́შ
 toward-next-goal = ნიფს შილღეჩო მიზნეგო́მციჼ
-goal-reached = მიზაჼ მიღწევადეჲლნო და
+goal-reached = მიზაჼ ჴაჩენო̆ და
 clips-you-recorded = შუჼ ჩანაწერი
-clips-you-validated = ეჲშო დარაჲლ'ნუჲ
+clips-you-validated = ეჲშო̆ დარაჲლ'ნუჲ
 todays-recorded-progress = თხალუჼ ჰ̦ა́თხიხრი ჩანაწერა́ხ
-todays-validated-progress = თხალუჼ ჰ̦ა́თხიხრი დარალრა́ხ
+todays-validated-progress = თხალუჼ ჰ̦ა́თხიხრი დარალ'რა́ხ/დამოწმადარეხ
 stats = სტა́ტისტიკ
 awards = ჯილდუჲ
 you = შუ
 everyone = ვომაჸ
-contribution-activity = შუ დაჰინო წვლილ
+contribution-activity = ეჲში̆ ჩუ დაჰ̦ინო̆ წვლილ
 top-contributors = ზორაჼ ხეჲლზვენი/მოხალისი
 recorded-clips = ჩანაწე́რი
 validated-clips = დარალ'რი
@@ -26,7 +26,7 @@ show-ranking = საიჼ ა́დგილ ჲაგარ
 
 get-started-goals = მიზაჼ შე́ქმნოდჲარ
 create-custom-goal = საკუთარ მიზაჼ შე́ქმნოდჲარ
-goal-type = უხ ჲა შუჼ მიზაჼ?
+goal-type = უ̂ხ ჲა შუჼ მიზაჼ?
 both-speak-and-listen = შიკეჸ
 both-speak-and-listen-long = შიკეჸ (ა́ლ'არა́, ლარკ ჵო́ფარა́)
 daily-goal = ყოველდი́ნლუჼ მიზაჼ
