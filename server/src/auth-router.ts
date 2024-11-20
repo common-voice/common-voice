@@ -11,6 +11,9 @@ import {
 import { earnBonus } from './lib/model/achievements'
 import DB from './lib/model/db'
 import UserClient from './lib/model/user-client'
+import * as jwt from 'jsonwebtoken'
+import * as cookieParser from 'cookie-parser'
+
 const PromiseRouter = require('express-promise-router')
 const MySQLStore = require('express-mysql-session')(session)
 
@@ -22,6 +25,7 @@ const {
   MYSQLPASS,
   PROD,
   SECRET,
+  JWT_KEY,
   FXA: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
 } = getConfig()
 
@@ -37,7 +41,7 @@ export const setupAuthRouter = async () => {
 
   const router = PromiseRouter()
 
-  router.use(require('cookie-parser')())
+  router.use(cookieParser())
   router.use(
     session({
       cookie: {
@@ -75,9 +79,9 @@ export const setupAuthRouter = async () => {
         locale,
         ...(user && query.change_email !== undefined
           ? {
-              old_user: user,
-              old_email: user.email,
-            }
+            old_user: user,
+            old_email: user.email,
+          }
           : {}),
         redirect: query.redirect || null,
         enrollment: {
@@ -158,6 +162,13 @@ export const setupAuthRouter = async () => {
         // if the user is already registered, now they should be enrolled
         // [TODO] there should be an elegant way to get the client_id here
         const client_id = await UserClient.findClientId(user.email)
+
+        response.cookie('mcv_session', jwt.sign({ client_id }, JWT_KEY), {
+          httpOnly: true,
+          secure: PROD,
+          maxAge: 30 * 24 * 60 * 60 * 1000,
+        })
+
         await earnBonus('sign_up_first_three_days', [
           enrollment.challenge,
           client_id,
@@ -172,7 +183,7 @@ export const setupAuthRouter = async () => {
       // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
       response.redirect(
         redirect ||
-          `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
+        `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
       )
     } else {
       response.redirect(redirect || basePath + 'login-success')
@@ -181,6 +192,7 @@ export const setupAuthRouter = async () => {
 
   router.get('/logout', (request: Request, response: Response) => {
     response.clearCookie('connect.sid')
+    response.clearCookie('mcv_session')
     response.redirect('/')
   })
 
@@ -199,6 +211,15 @@ export async function authMiddleware(
     )
     if (accountClientId) {
       request.session.user.client_id = accountClientId
+      response.cookie(
+        'mcv_session',
+        jwt.sign({ client_id: accountClientId }, JWT_KEY),
+        {
+          httpOnly: true,
+          secure: PROD,
+          maxAge: 30 * 24 * 60 * 60 * 1000,
+        }
+      )
       next()
       return
     }
@@ -221,6 +242,13 @@ export async function authMiddleware(
         return
       }
     }
+
+    response.cookie('mcv_session', jwt.sign({ client_id }, JWT_KEY), {
+      httpOnly: true,
+      secure: PROD,
+      maxAge: 30 * 24 * 60 * 60 * 1000,
+    })
+
     request.session.user = { ...request.session.user, client_id }
   }
 
