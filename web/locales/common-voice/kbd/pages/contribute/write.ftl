@@ -48,9 +48,14 @@ news_current_affairs = Хъыбарыщӏэхэмрэ къэхъукъащӀэх
 technology_robotics = Технологиемрэ роботиксэмрэ
 sentence-variant-select-label = Псалъэухар зыщыщ диалект
 sentence-variant-select-placeholder = Бзэ вариантыр къыхэх (ухуеймэ)
+sentence-variant-select-multiple-variants = Жылагъуэм ей бзэ / вариант зэмылӏэужыгъуэ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Жылагъуэм ей псалъэухп илъхьэ <icon></icon>
+sc-bulk-upload-instruction = Файлыр иплъхьэн щхьэкӏэ мыбыкӏэ къэлъэф <uploadButton> е мыбы текъузэ </uploadButton>
+sc-bulk-upload-instruction-drop = Файл къиплъхьэнур мыбыкӏэ къэгъанэ
 
 ## SMALL BATCH SUBMISSION
 
