@@ -4,6 +4,8 @@
 ## How does it work section
 
 about-listen = Tengilen
+about-stay-in-touch-button = misabaluhay pangangan
+about-nav-partners = makakadun tu cabay
 
 ## Community Playbook Content
 ## What is a language
