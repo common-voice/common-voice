@@ -2,6 +2,7 @@ speak = ინოჭარუა
 speak-now = ქოთქვით
 speak-subtitle = შემენწით თქვანი ხონარით.
 record-cta = ინოჭარუაშ დოჭყაფა.
+record-platform-not-supported = სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.
 record-platform-not-supported-ios-non-safari = iOS-შოთ, ინოჭარუაშენი, ქორთხინთ ქიგმირინუათ Safari.
 record-no-mic-found = მიკროფონქ ვეგორ.
 record-error-too-short = ინნაჭარა გვალო კუნტა რდჷ.
