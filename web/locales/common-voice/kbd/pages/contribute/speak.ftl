@@ -1,3 +1,5 @@
+speak = Къэпсалъэ
+speak-now = Иджыпсту къэпсалъэ
 review-recording = Хэплъэ
 review-rerecord = Тетхэж
 
