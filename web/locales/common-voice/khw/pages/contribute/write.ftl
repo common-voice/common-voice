@@ -159,5 +159,5 @@ transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو
 write-contribute-menu-aria-label = اختیاراتان فہرستو نیویشے
 add-sentences-menu-item-aria-label = رویان ریکو بچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
-add-questions-menu-item-aria-label = کمیونیٹو ممبران سر ریکو وا جواب دیکو بچین  نوغ سوال کو
+add-questions-menu-item-aria-label = کمیونیٹو ممبران سر ریکو وا جواب دیکو بچین نوغ سوال کو
 transcribe-audio-menu-item-aria-label = رکارڈ بیرو ہوازو نیویشیکا انگے
