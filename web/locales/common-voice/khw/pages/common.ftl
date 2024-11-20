@@ -266,7 +266,7 @@ cookies = کوکیز
 faq = عام سوالات
 content-license-text = مواد <licenseLink>کریئٹیو کامن لائسنسو <licenseLink> ذریعہ دستاب شینی
 share-title = اسپہ سوم ہتے رویان مݰکیکا مدد کورے کاکی  تان ہوازو مہربانی کوریکو تین تیار!
-share-text = مشینو اصل روئی کچہ کوری لو دونیان رے ݯھییݯھیکا مدد کو، تان ہوازو ہیا ژاغا{ $link } مہربانی کو۔
+share-text = مشینو اصل روئے کیچہ کوری لو دونیان رے ݯھیݯھیکا مدد کو، تان ہوازو ہیا ژاغا{ $link } مہربانی کو
 link-copied = لنک کاپی ہوئے
 back-top = واپس سورا گے
 logout = لاگ اوٹ
@@ -277,17 +277,17 @@ return-to-cv = کامن وائسا واپس گے
 email-input =
     .label = ای میل
 loading = لوڈ بویان۔۔۔
-email-opt-in-info = اوا ای میل گیک جاری سوتیک مݰکیمان تاکہ مہ تین مہ حدف  یاد بہچور، مہ کورمو بارا آگاہی بوئے، وا کامن وائسو بارا نیوز خبر گونی۔
+email-opt-in-info = اوا ای میل گیک جاری سوتیک مݰکیمان تاکہ مہ تین مہ حدف  یاد بہچور، مہ کورمو بارا آگاہی بوئے، وا کامن وائسو بارا خبر گونی۔
 email-opt-in-info-title = کامن وائسو ای میلان فہرستا شامل بوس۔
 email-opt-in-info-sub-with-challenge = مہ تین ہݰ ای میل گیانی کی تیت مقابلو وا حدف  یاد کوریانی، مہ کورمو بارا اگاہی دیانی، وا کامن وائسو بارا خبر انگیانی۔
-email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیہ لوو واضح ہوئے کہ موزیلا ہمی معلوماتان سنبال کی اریر تہ تین قبول کیچہ موزیلو <privacyLink> راز دریو پالیسیا</privacyLink> تفصیل شیر۔
+email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیہ لوو واضح ہوئے کہ موزیلا ہمی معلوماتان سنبال کی اریر تہ تین قبول کیچہ کی موزیلو <privacyLink> راز دریو پالیسیا</privacyLink> تفصیل شیر۔
 indicates-required = کیا ژاغا کی (*) اوشوئے ہسے ضروری
 not-available-abbreviation = لاگو نو
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
-donate-banner-cta = اسپہ تین تہ مددو </mark><mark>  ضرورت شیر</mark><mark><br/>
+donate-banner-cta = اسپہ تین  </mark>تہ مددو</mark>  ضرورت شیر</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = ڈیٹاسیٹو اونلائین لکھیکو بچین وا ہیہ پلیٹ فارمو بہتر کوریکو بچین سالانہ  تقریبا ای میلن ڈالر ضرورت۔ اسپہ ہیہ کورمو  ای شورار ذیاد واران روئے استعمال کونیان۔ <strong>تو دی کی ویریع، سفو بچین معلوماتان قدرکوسان ہنون چندہ دیت! </strong>
 # Text wrapped in <mark></mark> will have a white background.
