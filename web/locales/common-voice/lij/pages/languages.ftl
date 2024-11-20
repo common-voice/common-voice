@@ -4,6 +4,8 @@ language-section-in-progress = In corso
 language-section-in-progress-new-description = Ste lengue son apreuvo à ëse desviluppæ da-a communitæ. E bare de avansamento marcan i progresci de ciascheduña lengua into proçesso de <localizationGlossaryLink>localizzaçion do scito web</localizationGlossaryLink> e d'<sentenceCollectionGlossaryLink>arrecuggeita de frase</sentenceCollectionGlossaryLink>.
 language-section-launched = Attive
 language-section-launched-description = Pe ste lengue o scito web o l'é stæto <localizationGlossaryLink>traduto</localizationGlossaryLink> do tutto, e l'<phraseCollectionGlossaryLink>arrecuggeita de frase</sentenceCollectionGlossaryLink> a l'à razzonto unna dimenscion tâ da garantî assæ materiale da <speakLink>registrâ</ speakLink> e <listenLink>sentî</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Urtima missa à giorno: { $lastUpdatedTimeStamp }
 languages-show-more = Mostra ciù tanti elementi
 languages-show-less = Mostra ciù pöchi elementi
 language-meter-in-progress = Progresso
