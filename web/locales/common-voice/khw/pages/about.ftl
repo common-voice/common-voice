@@ -140,8 +140,8 @@ about-playbook-how-access-dataset-content-2 = تو اے ایس ار ماڈلو �
 
 ## How are decisions made
 
-about-playbook-how-project-governance = پروجیکٹو فیصلہ کیچہ بیتی بویان؟
-about-playbook-how-project-governance-content-1 = موزیلا کامن وائسو  پورا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینئر ممکن ساوزیتانی۔ پروجیکٹو موزیلا فونڈیشن نگرانی کویان۔
+about-playbook-how-project-governance = منصوبو فیصلہ کیچہ بیتی بویان؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائسو  پورا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینئر ممکن ساوزیتانی۔ منصوبو موزیلا فونڈیشن نگرانی کویان۔
 about-playbook-how-project-governance-content-2 = اسپہ حکمرانیو قائم بیکو ٹھون:
 about-playbook-how-project-governance-content-3 = راز داری، تحفظ وا شفافیت
 about-playbook-how-project-governance-content-4 = کمینوٹیو حصہ دریک وا فیصلہ کوریک۔
@@ -152,6 +152,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسپہ حک
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائس کیچہ بیتی ساوز ہوئے؟
-about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای پروجیکٹ۔ ای امریکی 501c3۔ ہیہ پروجیکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فونڈیشینو ای منصوبہ۔ ای امریکی 501c3۔ ہیہ پروجیکٹو تھمام پیسہ <philantropicGrantLink> خدمت خلق فنڈار</philantropicGrantLink> وا پورا دونیو رویان چندار گویان۔
 about-playbook-how-funded-content-2 = ڈیٹاسیٹو ہمیشو بچین کورا لکھیکو، رویان پوروشٹا انگیکو، بہتر کوریکو وا کمیونیٹیان پروگرامان چالیکو بچین بو پیسو ضرورت۔
 about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیہ پروجیکٹو سوم مدد کوریک کی مݰکیمیان، <donateLink>چندہ<donateLink> دیکو بومی یا  اسپہ شراکت کوریاک ٹیمو سوم لو دیکو بومی <emailFragment>commonvoice@mozilla.com</emailFragment>۔
