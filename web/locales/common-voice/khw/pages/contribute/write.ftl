@@ -2,11 +2,11 @@
 
 write = نیویشے
 write-instruction = عام رویان دائرو<icon></icon> جملہ شامل کو
-write-page-subtitle = کیا جملو ہیہ کی نیویشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
+write-page-subtitle = کیا جملو ہیا کی نیویشینو ہوئے ہتوغو عام رویان بچین سی سی زیرو لائسینس شیرو ڈیٹاسیٹا شامل کورونو بوئے۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = عام رویان دائرو جملان ہیہ نیویشور
-small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیہ نیویشے
+sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشے
+small-batch-sentence-input-placeholder = عام رویان دائرو جملان ہیا نیویشے
 citation-input-placeholder = تان جملان حوالہ دیت (ضروری)
 citation =
     .label = حوالہ
