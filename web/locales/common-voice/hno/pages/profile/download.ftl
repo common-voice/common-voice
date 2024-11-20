@@ -27,3 +27,4 @@ download-request-modal-title = لنک ڈاؤنلوڈ کرو
 download-request-modal-description = تُسدیاںZIP فائلاں کو ڈاؤنلوڈ کرنڑ آں لنک اے ہن۔
 download-request-link-text = { $total } بچو Zip #{ $offset }
 download-request-metadata-link = جملے دی عبارت
+download-request-link-single = تسیس اپنڑے پسند دے ڈاؤنلوڈ مینیجر بچ سدھا URLs کو کاپی تے پیسٹ بھی کر سکدے او۔ اُنہاں دی میعاد 12 گھنٹیاں بچ مُک جُلسی، لیکن تسیں کسی بھی وقت نواں بنڑیڑاں کیتے اس صفحے  تے واپس آ ہکدے او۔
