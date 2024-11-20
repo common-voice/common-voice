@@ -58,6 +58,11 @@ sc-bulk-upload-instruction = Файлыр иплъхьэн щхьэкӏэ мыб
 sc-bulk-upload-instruction-drop = Файл къиплъхьэнур мыбыкӏэ къэгъанэ
 bulk-upload-additional-information = Мы файлым папщӏэ нэхъыбэу щыбгъэгъуэзэн ухуеймэ <emailFragment>commonvoice@mozilla.com</emailFragment>мкӏэ зыпыщӏэ.
 template-file-additional-information = Мы файлым папщӏэ шаблоным хэмыту щыбгъэгъуэзэн уиӏэмэ <emailFragment>commonvoice@mozilla.com</emailFragment>мкӏэ зыпыщӏэ.
+try-upload-again = Уи файлыр мыбыкӏэ къэлъэфи аргуэру хуежьэ
+try-upload-again-md = Аргуэру къиплъхьэжыну хуежьэ
+select-file = Файлыр къыхэх
+select-file-mobile = Къиплъхьэну файлыр къыхэх
+accepted-files = Езэгъ файл лӏэужьыгъуэр: .tsv закъуэ
 
 ## SMALL BATCH SUBMISSION
 
