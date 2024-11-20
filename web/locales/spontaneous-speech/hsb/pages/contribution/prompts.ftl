@@ -7,6 +7,7 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> a wotmołwće tak 
 no-prompts-message = Njeje tuchwilu žane namołwy za tutu rěč. Prošu aktualizujće stronu abo spytajće pozdźišo hišće raz.
 error-skipping = Při přeskočenju tuteje namołwy je zmylk nastał
 error-recording = Při natočenju je zmylk nastał.
+error-fetching-prompts = Při wotwołanju namołwow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 error-uploading-response = Při nahrawanju wotmołwy je so zmylk nastał
 prompt-submitted-success = Wotmołwa je so wuspěšnje wotpósłała
 prompt-response-deleted-success = Wotmołwa je so wuspěšnje zhašała

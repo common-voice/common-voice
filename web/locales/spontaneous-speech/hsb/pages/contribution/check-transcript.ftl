@@ -9,6 +9,7 @@ vote-transcript-success = Wo transkripciji wuspěšnje wothłosowany
 vote-transcript-error = Při wothłosowanju wo transkripciji je zmylk nastał
 transcript-edited-success = Transkripcija je so wuspěšnje wobdźěłała
 transcript-edited-error = Zmylk je při wobdźěłowanju transkripcije nastał
+error-fetching-transcriptions = Při wotwołanju transkripcijow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 transcript-skipped-success = Transkripcija je so wuspěšnje přeskočiła
 transcript-skipped-error = Při přeskočenju transkripcije je zmylk nastał
 # For the button on the Check Transcriptions page to assert that a transcription is correct

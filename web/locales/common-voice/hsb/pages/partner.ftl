@@ -6,6 +6,7 @@ partnerships-community-header = Zhromadnosć, kreatiwni a ciwilna towaršnosć
 partnerships-foundations-header = Załožby
 partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-small-business-header = Małe předewzaća, mjez nimi nowo załožene technologijowe předewzaća a  předewzaća KI
 partnerships-corporates-header = Wulke korporacije a předewzaća platformow
 partnerships-our-partners = Naši partnerjo
 # menu item
