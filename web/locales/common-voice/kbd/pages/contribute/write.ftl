@@ -40,6 +40,10 @@ history_law_government = Тхыдэ, хабзэ икӀи жылагъуэ Ӏуэ
 language_fundamentals = Бзэм и лъабжьэхэр (псалъэм папщӏэ бжыгъэхэр, хьэрфхэр, ахъщэ)
 # Sentence Domain dropdown option
 media_entertainment = Медиа икIи нэгузыужь
+# Sentence Domain dropdown option
+nature_environment = Щӏыуэпсымрэ Ӏэгъуэблагъэмрэ
+# Sentence Domain dropdown option
+news_current_affairs = Хъыбархэмрэ къэхъугъэщӀэхэмрэ
 
 ## BULK SUBMISSION 
 
