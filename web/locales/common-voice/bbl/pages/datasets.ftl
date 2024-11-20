@@ -15,6 +15,14 @@ splits = სოდადე́ყარ
 email-to-download = ჩუ ჰობათ ელფოსტ აჰ დჵოფანაჲნო/ჩამოტვირთადაჼ
 data-download-yes = ჰაჸ
 data-download-deny = ცო
+data-other-goto = { $name }-მაქ დო́ტარ
+data-other-download = მონაცე́მი აჰდჵო́ფარ
 data-bundle-button = მონაცემაჼ კრე́ბულ აჰდჵო́ფარ
 data-bundle-description = მონაცე́მი აჰდჵო́ფარ
 release-version = ნჵაჲჸ დაითარ/გამოშვებ
+dataset-date = თა́რიღ
+license-mixed = ვაშა́რ ე́გდიენო
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = აჰდჵოფათ თხეჼ იშარეჩო მონცემაჼ ნაკრებ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = აჰ დჵოფათ პარამეტრი Common Voice -ეჼ მონაცემი ჴაბტანაჲნო
