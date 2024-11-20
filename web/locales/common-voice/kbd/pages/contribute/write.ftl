@@ -43,7 +43,11 @@ media_entertainment = Медиа икIи нэгузыужь
 # Sentence Domain dropdown option
 nature_environment = Щӏыуэпсымрэ Ӏэгъуэблагъэмрэ
 # Sentence Domain dropdown option
-news_current_affairs = Хъыбархэмрэ къэхъугъэщӀэхэмрэ
+news_current_affairs = Хъыбарыщӏэхэмрэ къэхъукъащӀэхэмрэ
+# Sentence Domain dropdown option
+technology_robotics = Технологиемрэ роботиксэмрэ
+sentence-variant-select-label = Псалъэухар зыщыщ диалект
+sentence-variant-select-placeholder = Бзэ вариантыр къыхэх (ухуеймэ)
 
 ## BULK SUBMISSION 
 
