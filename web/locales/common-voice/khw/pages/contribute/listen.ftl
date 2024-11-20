@@ -4,8 +4,8 @@ listen-instruction = { $actionType }<playIcon></playIcon>  ہیہ جملو صح�
 listen-again-instruction = بو جام! کیا وخت کی تیار ہوو </playIcon><playIcon>وا کارکوے
 listen-3rd-time-instruction = 2 پست۔ ہمو برقرار بہچاوے<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>آخری دانہ!
-listen-empty-state = اسپہ سوم ہواز ختم بیرو بونی، صفحو نوغ کو، یا پھوک اچا وا کوشش کو۔
-listen-empty-state-variants = تہ وارو ہواز ختم بیرو بونی! تان وارو خور جملان لوڑیکو بچین کی بوسان ترتیبو بدل دیکو بوس۔
+listen-empty-state = اسپہ سوم ہواز ختم بیرو بونی، صفحو نوغ کو، یا پھوک اچا وا کھوشش کو۔
+listen-empty-state-variants = تہ وارو ہواز ختم بیرو بونی! تان وارو خور جملان لوڑیکو بچین، کی بوسان ترتیبو بدل دیکو بوس۔
 listen-loading-error =
     تہ تین کار کوریکو بچین ہوازو کلپ دیکو نو بوسیان,
     پھوک اچا کھوشش کو۔
@@ -23,6 +23,6 @@ review-transcriptions-menu-item-tooltip = استعمال کوراکو تہ وا�
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = اختیاراتان لیسٹو کارکورے
+listen-contribute-menu-aria-label = اختیاراتان فہرستو کارکورے
 validate-readings-menu-item-aria-label = کمیونیٹیو ممبرانان جمع کردو ریکان تصدیق کو
 review-transcriptions-menu-item-aria-label = سہی گریو بچین رکارڈ بیرو جملان نیویشیروان وا لوڑے

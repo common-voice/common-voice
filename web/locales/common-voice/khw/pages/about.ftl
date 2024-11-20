@@ -107,7 +107,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکو�
 
 about-playbook-how-record-quality = اوا جام معیارو ہواز کیچہ کوری محفوظ کوم؟
 about-playbook-how-record-content-1 = تان عام ہوازا لو دیت۔ کیہ قسم کی تو لو دوسان ہسے سہی - اسپہ تہ لہجہ کیچہ کی شیر ہتوغو مݰکیسیان وا اسپہ تہ ہواز کندوری کی توڑ توغو، تہ لودیکو اندازو وا تو کیہ قسم کی ژینگیسان توغو مݰکیسیان۔
-about-playbook-how-record-content-2 = گوݯھتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
+about-playbook-how-record-content-2 = گوݯتو ہواز مو گیار - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غورو سورا راوے- کھیو پیڅے مو، بدل مو دیت، لفظ شامل مو کو
 about-playbook-how-record-content-4 = لو دیکار پروشٹی رکارڈنگ شروع بائے۔ لووٰ ختم کی ہونے تھے رکارڈنگ بند بائے۔
 about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان بچین لوڑے</accuracyLink>
@@ -129,7 +129,7 @@ about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</stro
 about-playbook-how-validate = اوا کیا طریقہ ہوݰ کوم کی ای ہوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>ہیتان تے کار کو </strong>وا ہیتان ہوݰ</strong> کو۔ ہیہ عام طورا <strong> منظورکوریکو سفوسر جام </strong>۔
 about-playbook-how-validate-content-2 = <strong>  ہتے ہوازو رد نوکو کی ہیترا لو دیاکو لہجہ تہ سر خور </strong>- ہوازو ہوݰ کوریکو بچین ہیہ بو اہم  کہ ہیس سفو بچین جام کوروم کورار۔
-about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯھتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان بچین 'سہی بکو معیارو' لوڑے </accuracyLink>
+about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی ناممکن بویان <strong>  یا گوݯتو<strong> بو شور کی گویان،</strong> یا خور<strong> رویان لو دی شینی</strong> تھے ہوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان بچین 'سہی بکو معیارو' لوڑے </accuracyLink>
 about-playbook-how-validate-content-4 = اگر ای ہوازو جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے۔
 
 ## How to access dataset
