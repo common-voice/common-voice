@@ -13,14 +13,19 @@ contribute-more =
        *[other] Ухьэзыр иджыри птыну?
     }
 record-button-label = Уи макъ егъэтх
+vote-yes = Нтӏэ
+vote-no = Хьэуэ
+languages = Бзэхэр
 
 ## Reporting
 
 report-offensive-language = Хъуэн псалэ
 report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
 report-different-language = Нэгъэщ бзэ
+report-different-language-detail = { "" }
 report-difficult-pronounce = БгъэIуэну гугъущ
-report-offensive-speech = Хъуэн псалэ
+report-offensive-speech = Хъуэн псалъэ
+report-offensive-speech-detail = { "" }
 continue = АдэкӀэ
 
 ## Speak & Listen Shortcuts
