@@ -64,7 +64,7 @@ continue = გაგძელება
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = ინოჭარუა / მეჭყვიდუა
+shortcut-record-toggle-label = ინოჭარუა / გაჩერება
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
@@ -89,7 +89,7 @@ contribution-misreadings-title = უწორო კითხირი
 contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
 contribution-misreadings-description-extended-list-1 = ორკუ <strong> "მი"-</strong> </strong> "გი" </strong> ვარდა შხვა წინსართი წოლოხე
 contribution-misreadings-description-extended-list-2 = ორკუ <strong> "ს" </strong> ზიტყვაში ბოლოს.
-contribution-misreadings-description-extended-list-3 = დაკუნტარებული რე ზიტყვა, მაგალთო იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.
+contribution-misreadings-description-extended-list-3 = დაკუნტარებული რე ზიტყვა, მაგალთო, იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.
 contribution-misreadings-description-extended-list-4 = ორკუ ბოლო ზიტყვა ვარა ბგერა, ინოჭარუაში ადრე მეჭყვადუაში გამო.
 contribution-misreadings-description-extended-list-5 = ზიტყვა გამეორებულ რე ეშაკითხირიში ბრელშა ცადებათ.
 contribution-misreadings-example-1-title = ახალ დუდმახვენჯი გიშაგორილ რე.
@@ -99,7 +99,7 @@ contribution-misreadings-example-3-title = ახალ დუდმახვე
 contribution-misreadings-example-3-explanation = [ინნაჭარა მეჭყვადილი რე ზიტყვაში გათებაშახ]
 contribution-misreadings-example-4-title = ახალ დუდმახვენჯი გიშაგორილ რე. ქო.
 contribution-misreadings-example-4-explanation = [ზედმეტ ზიტყვა რე ინოჭარილი]
-contribution-misreadings-example-6-explanation = [ოკო რდას "ვა რე"]
+contribution-misreadings-example-6-explanation = [ოკო რდას "ჩქი ვორეთ"]
 contribution-misreadings-example-7-explanation = [ორკუ "გი-" წინსართი]
 contribution-varying-pronunciations-title = გინორთელი ნათქუელი.
 contribution-varying-pronunciations-example-2-title = ხე გეჭოფუ.
@@ -112,4 +112,5 @@ contribution-background-voices-example-1-explanation = მოურქო? <stro
 contribution-volume-title = ხონარიშ სიმაღალე
 contribution-reader-effects-title = კითხირიშ ეფექტი
 contribution-just-unsure-title = ქოთაკილუნანო?
-see-more = ქოძირი უმოსი.
+see-more = <chevron></chevron>ქოძირი უმოსი.
+see-less = <chevron></chevron> ქოძირი ჭიჭე.
