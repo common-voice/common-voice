@@ -134,12 +134,12 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  رد بیرو جملان ڈاون لوڈ کوریکو بچین
-       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈاون لوڈ کوریکو بچین.
+        [one] { $uploadedSentences } موژار 1 جملہ بڑڅیتاو۔ رد بیرو جملان ڈاون لوڈ کوریکو بچین <downloadLink>ہیا </downloadLink>کلک کو
+       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈاون لوڈ کوریکو بچین۔
     }
-small-batch-sentences-rule-1 = “اوا کیا جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
+small-batch-sentences-rule-1 = “ کیہ جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنہ ای جملہ شامل کو
-small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنار علحیدہ کو  یا  ای دفعہ "Return"
+small-batch-sentences-rule-3 = "Enter"شینی جملان ای لائنار علحیدہ کو یا ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
 small-batch-sentences-rule-5 = سف جملان دائرہ(موضوع) ایک بائے
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
@@ -156,8 +156,8 @@ transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = اختیاراتان لیسٹو نیویشے
-add-sentences-menu-item-aria-label = تان رویان ریکو بچین نوغ جملہ شامل کو
+write-contribute-menu-aria-label = اختیاراتان فہرستو نیویشے
+add-sentences-menu-item-aria-label = رویان ریکو بچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سر ریکو وا جواب دیکو بچین  نوغ سوال کو
 transcribe-audio-menu-item-aria-label = رکارڈ بیرو ہوازو نیویشیکا انگے
