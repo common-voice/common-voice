@@ -25,3 +25,5 @@ download-request-assembling-description = تُسدیاں فائلاں جُڑ ر�
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤنلوڈ کرو
 download-request-modal-description = تُسدیاںZIP فائلاں کو ڈاؤنلوڈ کرنڑ آں لنک اے ہن۔
+download-request-link-text = { $total } بچو Zip #{ $offset }
+download-request-metadata-link = جملے دی عبارت
