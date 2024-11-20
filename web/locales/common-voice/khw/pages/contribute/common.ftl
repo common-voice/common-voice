@@ -1,6 +1,6 @@
 action-click = کلک
 action-tap = شینے
-contribute = تان حصو شامل کوریک
+contribute = حصہ دریک
 review = وا لوڑے
 skip = پیڅی پروشٹی بوغے
 shortcuts = اسکوردی راہ
@@ -10,18 +10,20 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>  اسکوردی ہواز
     }
 goal-help-recording = کامن وائسو انوسو <goalPercentage></goalPercentage>  { $goalValue } رکارڈو پورا کوریکا مدد ارو
-goal-help-validation = کامن وائسو ای انوسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق کوریکو حدو پورا کوریکا مدد ارو
+goal-help-validation = کامن وائسو ای انوسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق کوریکو حدفو پورا کوریکا مدد ارو
 contribute-more =
     { $count ->
-       *[other] { $count } وا دی کوریکو بچین تیارا ?
+       *[other] { $count } خور دی کوریکو بچین تیارا ؟
     }
 speak-empty-state = ہیہ وارا رکارڈ کوریکو بچین اسپہ سوم جملہ ختم بیتی شینی۔
-no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو بچین تان ترتیبو بدل کوکو بوس۔
-speak-empty-state-cta = جملہ نیویشے
-speak-loading-error = تہ ریکو بچین اسپہ سوم کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
+no-sentences-for-variants = تہ وارو جملہ ختم بیرو بونی۔ کی بوسان  تان وارا خور جملان لوڑیکو بچین تان ترتیبو بدل کوریکو بوس۔
+speak-empty-state-cta = جملہ شامل کو
+speak-loading-error =
+    تہ ریکو بچین اسپہ سوم کیا جملہ نیکی۔
+    مہر بانی کوری پھوک اچا کھوشش کو-
 record-button-label = تان ہوازو رکارڈ کو
 share-title-new = <bold>اسپہ سوم مدد کو </bold> خور ہوازو مݰکے
-keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوشتی بیکو پتو کو
+keep-track-profile = تان پروفائیلو ذریعا تان کورمو پوروشٹی بیکو معلوم کو
 login-to-get-started = شروع کوریکو بچین لاک ان یا سائن ان بوس
 target-segment-first-card = تو اسپہ اولو مقصدو کورمو کوریکا اسپہ مددو کوسان
 target-segment-generic-card = تو ای مقصدو پورا کوریکوبچین کوروم کوسان
