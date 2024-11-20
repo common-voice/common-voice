@@ -59,7 +59,7 @@ media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
 nature_environment = قدرت وا ماحول
 # Sentence Domain dropdown option
-news_current_affairs = خبر وا موجودہ حالت
+news_current_affairs = خبر وا موجودہ حالات
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی وا رابوٹ
 sentence-variant-select-label = جملان مختلف شکل
@@ -70,14 +70,14 @@ sentence-variant-select-multiple-variants = عام وار/ بو قسم
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
-sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو بچین اف دیت  </uploadButton>
-sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو بچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیہ کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ہیہ فائلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = تان فائلو ہیا پیڅی ای خور کوشش کو
-try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
-select-file = فائلو نݰان کو
-select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
+sc-bulk-upload-instruction = تان فائیلو ہیا پیڅے  <uploadButton> یا اپلوڈ کوریکو بچین اف شینے </uploadButton>
+sc-bulk-upload-instruction-drop = فائیلو اپلوڈ کوریکو بچین ہیا پیڅے
+bulk-upload-additional-information = فائیلو بارا  خور دی معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ہیا فائیلو بارا خور دی معلومات کی دوسان کی ہتیتان ہیا شامل کوریکو ژاغا نیکی تھے اسپہ سوم رابطہ کو <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تان فائیلو ہیا پیڅی وا کھوشش کو
+try-upload-again-md = اپلوڈ کوریکو وا کھوشش کو
+select-file = فائیلو نݰان کو
+select-file-mobile = فائیلو اپلوڈ کوریکو بچین نݰان کو
 accepted-files = حاجت فائلو قسم صرف: .tsv
 minimum-sentences = ای فائلا کم ازکم جملہ: 1000
 maximum-file-size = فائیلو لوٹار لوٹ سائز : 25 ایم بی
