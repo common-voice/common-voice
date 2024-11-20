@@ -41,6 +41,8 @@ submit-form-action = ჯღონა
 
 ## Reporting
 
+report = მოხსენება
+report-title = მოხსენებაშ ჯღონა.
 report-ask = მუ კილი უღუ თე წინადადებეფს?
 report-offensive-language = უწმაწური ნინა
 report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე
