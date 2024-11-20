@@ -41,20 +41,20 @@ terms-agree = اوا منیمان
 terms-disagree = اوا نو مانیمان
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تان اسکوردی ہوازان دیکو بچین بو میناداری
-first-cta-subtitle-text = تان بارا اسپہ سوم لو دیتی تو ساوزئے یکان سوم سفو بچین ٹینالوجی ساوزیکا مدد کوس
+first-cta-subtitle-text = تان بارا اسپہ سوم لو دیتی، تو ساؤزیکان سوم سفو بچین ٹینالوجی ساوزیکا مدد کوس
 why-donate = تو کو بشار کوسان؟
-why-donate-explanation-1 = ہمی معلوماتان دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پروشٹی ہیتان  اسکوردی کوسی وا ہݰ دی کوسی کی تہ نام و ایمیل تہ عمرو چے موش کیمیری بیکو سوم جوست نو بوئے۔
+why-donate-explanation-1 = ہمی معلوماتان دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پروشٹی ہیتان  اسکوردی کوسی وا ہݰ دی کوسی کی تہ نام وا ای میل تہ عمرو اوچے موش/کیمیری بیکو سوم جوست نو بوئے۔
 why-donate-explanation-2 = ٹیکنالوجی سفو بچین جام کوروم کورار کی ریمیان، ہتے معلومات کی ہتیت ساوزیکان ضرورت بونیان، بو مختلف رویان سر گیلیک۔ مثالو طورا اگر اسپہ ای خاص لہجو کوراکان کی شامل نو اریتام، تھے ٹکنالوجی ہتے لہجو رویان بچین سہی کوروم نو کوئے۔ <learnMore>ہیہ لوو ݯھیݯھے کی بو امبوخ معلومات کو ضروت</learnMore>۔
 add-information-button = معلومات شامل کو
 continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
 create-profile-text = تان معلوماتان محفوظ کوسانا? <createProfile>پروفائل ساوزاوے</createProfile>
-thanks-for-voice-toast = ہوازو معلومات دیکو بچین تہ مینادار
+thanks-for-voice-toast = ہوازا معلومات دیکو بچین تہ مینادار
 thanks-for-voice-toast-error = تو ہوازو معلومات جمع کوراوا، ای نقص پیدا ہوئے
 first-cta-gender-select-default-option = ای طریقو گنے
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = تان ہوازو دیکو بچین اسپہ تہ منادار
+second-cta-header-text = تان ہوازو مہربانی کوریکو بچین اسپہ تہ منادار!
 second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئے رے پتہ کوس۔  تان ہوازو دییاک رویان سوم بلد بوس
 already-have-an-account = پروشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login> بوس
 create-profile-button = ای پروفائل ساوزاوے
