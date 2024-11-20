@@ -60,6 +60,12 @@ not-receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენ
 help-share-goal = ლა́ტ თხოჼ მე სოუბო̆ ა́შირ ქორჲოლო́თხ, მჵალჲებათ შუჼ მიზაჼ
 confirm-goal = მიზნეხ დარა́ლ'არ
 goal-interval-weekly = ყო́ველგე́ფსლუჼ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = მჵალჲებათ შუჼ მიზაჼ ყო́ველდე́ნი{ $count }ჩანაწე́რეჼ{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = მჵალჲებათ შუჼ მიზაჼ ყო́ველგე́ფსუ{ $count }ჩანაწე́რეჼ{ $type }
+share-goal-type-speak = ა́ლ'არ
+share-goal-type-listen = ლარკ ჺოფარ
 
 ## Goals
 
