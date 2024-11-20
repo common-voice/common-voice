@@ -2,12 +2,16 @@
 
 write = Тхы
 write-instruction = Жылагъуэм ей псалъэуха <icon></icon> къэтх.
+write-page-subtitle = Мыбдежым къыщыхьа псалъэухахэр цӏыхубэм щхьэкӏэ ӏуха cc-0 щӏэгъэбыдэ зиӏэ датэщыпам хэгъэхьа хъунущ.
 sentence =
     .label = Псалъэуха
 sentence-input-placeholder = Жылагъуэм ей псалъэухар мыбы къэтх.
 small-batch-sentence-input-placeholder = Жылагъуэм ей псалъэухахэр мыбы къэтх.
 citation-input-placeholder = Псалъэухар къыздипхар къэтх (ӏэмалыншэу).
-sc-review-write-title = Сыт хуэдэ псалъэухахэр къислъхьэфын?
+citation =
+    .label = Цитатэ
+sc-write-submit-confirm = Мы псалъэухар <wikipediaLink> жылагъуэм ей </wikipediaLink>уэ зэрыщытыр, икӏи ар илъхьэн папщӏэ хуитыныгъэ сызэриӏэм щыхьэт сытохъуэ.
+sc-review-write-title = Сыт хуэдэ псалъэухахэр хэзгъэхьэфын?
 sc-review-small-batch-title = Даурэ псалъэуха гуп ислъхьэфыну?
 new-sentence-rule-1 = <noCopyright> копирайт </noCopyright> зимыӏэ лэжьыгъэ (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Псалъэ 15-м нэхъ мащӏэу
