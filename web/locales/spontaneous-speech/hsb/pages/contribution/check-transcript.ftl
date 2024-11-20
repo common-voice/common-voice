@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Słuchajće na awdijoklip a přepruwujće transkripciju. Hodźi so k tomu? Jeli nic, wobdźěłajće ju, zo by so perfektnje hodźała.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Přepruwować
 no-transcriptions-message = Njejsu tuchwilu žane transkripcije za tutu rěč, kotrež maja so přepruwować. Prošu aktualizujće stronu abo spytajće pozdźišo hišće raz.
