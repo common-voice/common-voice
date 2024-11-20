@@ -59,6 +59,6 @@ review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کور�
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسپہ پھوک لوٹ تبدیلی کوسیان
 sc-redirect-page-subtitle-1 = جملان بڑاڅیک کامن وائسو بنیادی پلیٹ فارومو ویشکی بیران۔ جملو کامن وائسا جمع کوریکو بچین تو ہنیسے <writeURL> نیویشے</writeURL>یا<reviewURL> وا لوڑے</reviewURL>
-sc-redirect-page-subtitle-2 = اسپاسر بشار کو <matrixLink> خانہ</matrixLink> <discourseLink>مشقول گی </discourseLink> یا <emailLink> ای میل</emailLink>
+sc-redirect-page-subtitle-2 = اسپاسر بشار کو <matrixLink> خانہ</matrixLink> <discourseLink>مشقولگیو ژاغا </discourseLink> یا <emailLink> ای میل</emailLink>بی
 # menu item
 review-sentences = جملان وا لوڑے
