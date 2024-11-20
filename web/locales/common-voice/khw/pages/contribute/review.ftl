@@ -1,13 +1,15 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تو کیا وارو نو گنیتاو۔ مہربانی کوری <profileLink> بوغے پوروفائل </profileLink> وارو گنیکوبچین۔
+sc-review-lang-not-selected =
+    تو کیہ وارو نو گنیتاو۔
+    وارو گنیکوبچین، مہربانی کوری تان <profileLink>  پروفائلا </profileLink> بوغے۔
 sc-review-title = جملان وا لوڑے
-sc-review-loading = جملو لوڈ کویان
+sc-review-loading = جملو لوڈ کویان۔۔۔
 sc-review-select-language = مہربانی کوری جملان وا لوڑیکو بچین ای وار گنے۔
-sc-review-no-sentences = وا لوڑیکو بچین جملہ نیکی۔<addLink> خور جملان ہنیسے شامل کو</addLink>
+sc-review-no-sentences = وا لوڑیکو بچین جملہ نیکی۔خور جملہ ہنیسے<addLink>  شامل کو</addLink>
 sc-review-form-prompt =
     .message = وا لوڑیرو جملہ جمع نو ہونی، تہ یقینا؟
-sc-review-form-usage = جملان منظور کوریکو بچین ہوسکی وݰکی مژے۔ رد کوریکو بچین کھوڑی ویلٹی مژے۔ پیڅیکو بچین ایہہ مژے
+sc-review-form-usage = جملان منظور کوریکو بچین ہوسکی وݰکی مژے۔ رد کوریکو بچین کھوڑی ویلٹی مژے۔ پیڅیکو بچین ایہہ مژے۔ <strong>تان تبصرو جمع کوریکو مو روخڅے!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ذریعہ: { $sentenceSource }
