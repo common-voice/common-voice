@@ -128,8 +128,8 @@ contribution-varying-pronunciations-description-extended = خور ویلٹی، �
 contribution-varying-pronunciations-example-1-title = تان سورو کھوئی دیتی استائے
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحیح شیر ہمو اولو حصہ زور دوسان(یوکے) یا جوو(یو ایس) ]
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اوسنے اوشونی
-contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک ریکا(سانسا) ادا بوئے، جوا نو]
-contribution-background-noise-title = گوݯھتو شور
+contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک دمہ ادا بوئے، جوا نو]
+contribution-background-noise-title = گوݯتو شور
 contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ گوݯھتو ہوازو سنبال کورار وا  نسبتا بو توڑ ہوازو منظور کوریکو بار بشرطہ ہتیت  تھمام نیویشیرو کار کوریکو منع مو کورار۔ لش گوݯھتو ہواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
 contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نیویشیرو ریکو ہواز کارا نو دوئے۔
 contribution-background-noise-example-1-fixed-title = <strong>[اشتروخیک]</strong> بلاہ ڈائنوسار <strong>[کوپیک]</strong> ٹرائزک.
