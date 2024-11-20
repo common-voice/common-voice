@@ -16,3 +16,5 @@ partnerships-small-business-description = Semmo delongo a-a reçerca d’informa
 partnerships-corporates-header = Dite de grende dimençioin e ciattaforme
 partnerships-corporates-description = Se ti veu saveine de ciù in sciô dataset, se ti veu investî inte de estençioin da ciattaforma ò çercâ de atre occaxoin pe collaborâ, <emailFragment>contattine</emailFragment>.
 partnerships-our-partners = I nòstri partner
+# menu item
+partners = Partner

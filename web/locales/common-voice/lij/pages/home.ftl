@@ -81,13 +81,17 @@ answer-questions = Replica a-e domande <small>(disponibile fito)</small>
 review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
 add-questions = Azzonzi de domande <small>(disponibile fito)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
+press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Conlaboraçioin, stampa e stöie, communitæ e lengue
 partnerships-menu-item-tooltip = Conlabora con niatri
 press-and-stories-menu-item-tooltip = Vixita o nòstro blog ò scrivi in sce de niatri
+community-and-languages-menu-item-tooltip = Screuvi lengue, communitæ e Common Voice
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Menù de opçioin d’informaçioin
+partnerships-menu-item-aria-label = Saccine de ciù in scê collaboraçioin con Common Voice

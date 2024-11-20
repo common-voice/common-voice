@@ -1,10 +1,11 @@
 ## WRITE PAGE
 
 write = Scrivi
+write-instruction = Azzonzi <icon></icon> unna frase de pubrico dominio
 write-page-subtitle = E frase donæ chì saian azzonte à un dataset pubrico con liçensa cc-0.
 sentence =
     .label = Frase
-sentence-input-value = Metti chì a teu frase de pubrico dominio
+sentence-input-placeholder = Metti chì a teu frase de pubrico dominio
 citation =
     .label = Çittaçion
 new-sentence-rule-1 = <noCopyright>Nisciun copyright</noCopyright> (<cc0>cc-0</cc0>)
@@ -25,4 +26,13 @@ add-sentence-error = Errô into carregamento da frase
 required-field = Impi sto campo.
 
 ## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 
