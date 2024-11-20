@@ -56,6 +56,8 @@ sentence-variant-select-multiple-variants = Жылагъуэм ей бзэ / в�
 sc-bulk-upload-header = Жылагъуэм ей псалъэухп илъхьэ <icon></icon>
 sc-bulk-upload-instruction = Файлыр иплъхьэн щхьэкӏэ мыбыкӏэ къэлъэф <uploadButton> е мыбы текъузэ </uploadButton>
 sc-bulk-upload-instruction-drop = Файл къиплъхьэнур мыбыкӏэ къэгъанэ
+bulk-upload-additional-information = Мы файлым папщӏэ нэхъыбэу щыбгъэгъуэзэн ухуеймэ <emailFragment>commonvoice@mozilla.com</emailFragment>мкӏэ зыпыщӏэ.
+template-file-additional-information = Мы файлым папщӏэ шаблоным хэмыту щыбгъэгъуэзэн уиӏэмэ <emailFragment>commonvoice@mozilla.com</emailFragment>мкӏэ зыпыщӏэ.
 
 ## SMALL BATCH SUBMISSION
 
