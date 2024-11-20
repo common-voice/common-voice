@@ -100,24 +100,24 @@ too-many-files = بو ذیاد فائل
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> عام رویان دائرہ امبوخ جملہ شامل کو
 multiple-sentences-error = تو ای وحتا امبوخ جملہ شامل کوریکو نو بوس
-exceeds-small-batch-limit-error = 1000 ذیاد جملہ جمع کورین نو بوئے
+exceeds-small-batch-limit-error = 1000 ذیاد جملان جمع کورین نو بوئے
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] ریٹ تان حدار ذیاد ہوئے۔ 1 منٹ اچا کوشش کو۔
-       *[other] ریٹ تان حدار ذیاد ہوئے { $retryLimit } منٹ اچا کوشش کو۔
+        [one] ریٹ تان حدار ذیاد ہوئے۔ 1 منٹ اچا کھوشش کو
+       *[other] ریٹ تان حدار ذیاد ہوئے { $retryLimit } منٹ اچا کھوشش کو
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] .ریٹ تان حدار ذیاد ہوئے 1 سیکند اچا کوشش کو۔
-       *[other] .ریٹ تان حدار ذیاد ہوئے { $retryLimit } سیکنڈ  اچا کوشش کو۔
+        [one] ریٹ تان حدار ذیاد ہوئے 1 سیکند اچا کھوشش کو۔
+       *[other] ریٹ تان حدار ذیاد ہوئے { $retryLimit } سیکنڈ  اچا کھوشش کو۔
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] ہیہ صفحہ جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
-       *[other] ہیہ صفحہ جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
+        [one] ہیا صفحہ جمع کوریکو تعدادو پورا ارو۔ مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
+       *[other] ہیا صفحہ جمع کوریکو تعدادو پورا ارو۔مہربانی کوری خور جملو جمع کوریکار پروشٹی { $retryLimit }  منٹ انتظار کو۔ صبر کوریکو بچین شکریہ!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
