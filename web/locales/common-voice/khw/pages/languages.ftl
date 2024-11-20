@@ -5,7 +5,7 @@ language-section-in-progress-new-description = ہیہ حالانہ ہمی وار
 language-section-launched = شروع کورینو ہوئے
 language-section-launched-description = ہمی شروع کورینو بیرو واران ویب سائٹ کامیابیو سورا <localizationGlossaryLink> مقامی ہونی وا ہیارا <speakLink> ریکو </speakLink> وا <listenLink> کار کوریکو  </listenLink> بچین کافی <sentenceCollectionGlossaryLink> جملہ جمع <sentenceCollectionGlossaryLink> کورینو بیتی شینی۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
-language-section-last-updated = اخری اپڈیٹ
+language-section-last-updated = آخری اپڈیٹ
 languages-show-more = پورا پشاوے
 languages-show-less = پھتو لوڑے
 language-meter-in-progress = جاری
