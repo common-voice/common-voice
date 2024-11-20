@@ -22,6 +22,10 @@ guidelines = შარაშმაწურაფალი
 contact-us = ქიდმეკავშირით
 add-sentence-success = წინადადება რე კორობილი
 add-sentence-error = ჩილათა რე წინადადებეფიშ გეძინაშ ბორჯის.
+required-field = რთხინთ, შეავსათ თე არდგილი.
+single-sentence-submission = წინადადებეფიშ თითო-თითოთ მიშაღალა.
+small-batch-sentence-submission = ართ-ჟირ წინადადებაშ მიშაღალა.
+bulk-sentence-submission = წინადადებეფიშ ართო მიშაღალა.
 
 ## BULK SUBMISSION 
 
