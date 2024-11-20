@@ -72,9 +72,14 @@ bulk-upload-success-toast = Псалъэуха гуп къилъхьащ.
 bulk-submission-success-header = Фӏыщӏэ зхудощӏ псалъэуха гуп укъызэрыплъхьам папщӏэ.
 upload-more-btn-text = Псалъэуха нэхъыбэ къиплъхьэну?
 file-invalid-type = Емызэгъ файл
+file-too-large = Файлыр ин дыдэщ
+file-too-small = Файлыр цӏыкӏу дыдэщ
+too-many-files = Файлхэр куэдыщэщ.
 
 ## SMALL BATCH SUBMISSION
 
+# menu item
+add-sentences = Псалъэуха хэлъхьэ
 
 ## MENU ITEM TOOLTIPS
 
