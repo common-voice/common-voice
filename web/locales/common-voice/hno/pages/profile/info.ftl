@@ -28,3 +28,13 @@ native-language =
     .label = مقامی زبان
 profile-form-add-accent = نواں مرضی دا لہجہ شامل کرو "{ $inputValue }"
 profile-form-submit-save = محفوظ
+profile-form-submit-saved = محفوظ ہویا
+male_masculine = مرد/مذکر
+female_feminine = عورت/مؤنث
+intersex = انٹرسیکس
+transgender = ٹرانسجینڈر
+non-binary = نان-بائنری
+do_not_wish_to_say = کجھ نہ آکھنڑا چہنداں
+# Gender
+other = دویا
+why-profile-title = ہک پروفائل کیاں؟
