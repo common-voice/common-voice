@@ -55,10 +55,10 @@ report-sc-different-language = خور وار
 report-sc-different-language-detail = اوا کیا وارو کی وا لڑیمان ہیہ ہتے وارو سر خور نیویشی شیر۔
 sentences-fetch-error = جملو گناوا نقص پیدا ہوئے
 review-error = جملو وا لوڑاوا نقص پیدا ہوئے
-review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے یقینی سہی کوریکو بچین پھوک روک بوس۔
+review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے بچین پھوک وخت گنے، تسلی کوکی سہی شیر۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسپہ پھوک لوٹ تبدیلی کوسیان
-sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کامن وائسو پلیٹ فارومو ویشکی بیران۔ تو ہنیسے <writeURL> نیویشے</writeURL> ای جملہ یا<reviewURL> وا لوڑے</reviewURL> ای جملو کامن وائسا جمع کوریکو۔
+sc-redirect-page-subtitle-1 = جملان بڑاڅیک کامن وائسو بنیادی پلیٹ فارومو ویشکی بیران۔ جملو کامن وائسا جمع کوریکو بچین تو ہنیسے <writeURL> نیویشے</writeURL>یا<reviewURL> وا لوڑے</reviewURL>
 sc-redirect-page-subtitle-2 = اسپاسر بشار کو <matrixLink> خانہ</matrixLink> <discourseLink>مشقول گی </discourseLink> یا <emailLink> ای میل</emailLink>
 # menu item
 review-sentences = جملان وا لوڑے
