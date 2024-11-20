@@ -26,6 +26,13 @@ required-field = რთხინთ, შეავსათ თე არდგ�
 single-sentence-submission = წინადადებეფიშ თითო-თითოთ მიშაღალა.
 small-batch-sentence-submission = ართ-ჟირ წინადადებაშ მიშაღალა.
 bulk-sentence-submission = წინადადებეფიშ ართო მიშაღალა.
+single-sentence = ცალკეიან წინადადება.
+# Sentence Domain dropdown option
+automotive_transport = მანქანეფი დო ტრანსპორტი.
+# Sentence Domain dropdown option
+finance = ფინანსეფი.
+# Sentence Domain dropdown option
+healthcare = ჯანდაცვა.
 
 ## BULK SUBMISSION 
 
