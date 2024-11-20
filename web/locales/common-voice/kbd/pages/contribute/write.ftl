@@ -63,6 +63,8 @@ try-upload-again-md = Аргуэру къиплъхьэжыну хуежьэ
 select-file = Файлыр къыхэх
 select-file-mobile = Къиплъхьэну файлыр къыхэх
 accepted-files = Езэгъ файл лӏэужьыгъуэр: .tsv закъуэ
+minimum-sentences = Файлым хэт псалъэуха нэхъ мащӏэ дыдэр: 1000
+maximum-file-size = Файлым и инагъ нэхъыбэ дыдэр : 25 MB
 
 ## SMALL BATCH SUBMISSION
 
