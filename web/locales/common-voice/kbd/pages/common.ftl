@@ -258,7 +258,10 @@ zza = Зэзэибзэ
 ## Layout
 
 profile = Профил
-terms = ЛэжьэкӀэ
+help = дэӀэпыкъуныгъэ
+contact = Контакт
+terms = Къагъэув къалэнхэр
+cookies = Кукихэр
 
 ## Donate banner
 
