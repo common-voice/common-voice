@@ -39,9 +39,9 @@ about-dataset-new = کامن وائسو ڈیٹا سیٹ
 about-dataset-new-text = کامن وائسو ڈیٹآ سیٹا ہزار ہا ہوازان نمونہ شینی، ہتیت ساوزیکان ہوازو ہوݰ کوراک اسپاپ ساوزیکا مدد کونیان۔
 about-clip-graveyard = ہوازان قبرستان
 about-clip-graveyard-text =
-    ہوازان قبرستانہ ہتے ہواز شینی کیاغ کہ کامن وائس ڈیٹا سیٹو اندرینو شامل نیکی۔ ہوازان قبرستان دی ڈیٹا سیٹو غون ڈاون لوڈ کوریکو بچین دستیاب شیر۔ 
+    ہوازان قبرستانہ ہتے ہواز شینی کیاغ کی کامن وائس ڈیٹا سیٹو اندرینو شامل نیکی۔ ہوازان قبرستان دی ڈیٹا سیٹو غون ڈاون لوڈ کوریکو بچین دستیاب شیر۔ 
     
-    اسپہ موڑی ہمی رویان وا تنظیمان ہیہ پروجکٹا حصہ دریکو بچین منادری کوسیان۔
+    اسپہ موڑی ہمی رویان وا تنظیمان ہیہ منصوبہ حصہ دریکو بچین منادری کوسیان۔
 about-get-involved = حصہ گنیک
 about-get-involved-text-2 =
     تو کامن وائسو ہمو سر دی بہتر بیک کی مݰکیسانا؟ 
@@ -77,7 +77,7 @@ about-playbook-how-add-language-translating-content-1 = اسپہ<translateVideoL
 about-playbook-how-add-language-translating-content-2 =
     اسپہ ترجمہ کوریکو پچین موزیلو ای اسپاپو استعمال کوسیان توغوتین <pontoonLink> 'پونتون' </pontoonLink> رینیان ۔  پونتونا بو وار شینی۔
     لیکن تہ وارو کہ ہیرا نیکی توغو شامل<pontoonRequestLink> کوریکو بچین عرضی کوریکو  بوس۔<pontoonRequestLink>۔
-     اچی ہے وارو کامن وائسو پروجکٹا دستیاب بیکو بچین
+     اچی ہے وارو کامن وائسو منصوبہ دستیاب بیکو بچین
      <githubRepoLink> گیٹ ہبا</githubRepoLink> بی نوغ وارو بچین عرضی کو۔
      ہے ویب سائٹو ترجمو بچین<localizationFragment> خور معلوماتان</localizationFragment>  دی لوڑے
 about-playbook-how-add-language-collecting-sentences-heading = جملان بڑاڅیک
@@ -91,7 +91,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = مذید معل
 
 about-playbook-how-localize = سائٹو مقامی کوریک کیچہ کوروم کویان؟
 about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجمہ<strong> پونتونا</strong> بویان۔
-about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink>    پروجکٹو گنے۔ ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink> منصوبو گنے۔ ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
 about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن خور وارو دی  <strong> گانیکو </strong>بوس۔ <strong> </strong> پروفائلو <strong>  نݰانہ کلک کو۔  وا سیٹنگ</strong> لینکہ وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمنو لسٹ بوئے توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو بچین تیار بوئے۔
 about-playbook-how-localize-content-5 = مدد دیکو بچین اسپہ وضاحت دیاک ویڈیو لوڑے
