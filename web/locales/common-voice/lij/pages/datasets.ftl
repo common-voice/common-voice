@@ -90,3 +90,7 @@ release-version = Verscion
 dataset-date = Dæta
 license = Liçensa: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesccio
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Descarrega i nòstri dataset vocali
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Opçioin de descarregamento pe accede a-i dæti de Common Voice
