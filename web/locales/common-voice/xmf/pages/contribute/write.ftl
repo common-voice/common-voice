@@ -36,6 +36,7 @@ healthcare = ჯანდაცვა.
 
 ## BULK SUBMISSION 
 
+select-file = გეჲშაგორით ფაილი.
 
 ## SMALL BATCH SUBMISSION
 
