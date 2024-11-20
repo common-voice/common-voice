@@ -58,6 +58,7 @@ import { getFolderNames } from '../infrastructure/fs/fp-fs'
 import { LOCALES_PATH } from '../application/locales/use-case/query-handler/get-locale-messages-query-handler'
 import { isProject } from '../core/types/project'
 import { projectSchema } from '../api/languages/validation/project-schema'
+import webhooksRouter from '../api/webhooks/routes'
 
 export default class API {
   model: Model
@@ -82,6 +83,7 @@ export default class API {
     const router = PromiseRouter()
 
     router.use(authMiddleware)
+    router.use('/webhooks', webhooksRouter)
     router.get('/metrics', (request: Request, response: Response) => {
       response.redirect('/')
     })

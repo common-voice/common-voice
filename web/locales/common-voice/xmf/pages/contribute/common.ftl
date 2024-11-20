@@ -1,5 +1,9 @@
+action-click = გეკაკაფა
+action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
+review = შემოწმება
 skip = გიშატება
+shortcuts = მალასმაჭანაფალი
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ინნაჭარა
