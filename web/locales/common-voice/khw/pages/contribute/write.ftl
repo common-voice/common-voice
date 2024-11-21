@@ -79,7 +79,7 @@ try-upload-again-md = اپلوڈ کوریکو وا کھوشش کو
 select-file = فائیلو نݰان کو
 select-file-mobile = فائیلو اپلوڈ کوریکو بچین نݰان کو
 accepted-files = حاجت فائلو قسم صرف: .tsv
-minimum-sentences = ای فائلا کم ازکم جملہ: 1000
+minimum-sentences = ای فائیلا کم ازکم جملہ: 1000
 maximum-file-size = فائیلو لوٹار لوٹ سائز : 25 ایم بی
 what-needs-to-be-in-file = مہ فائلا کیاغ بیلیک؟
 what-needs-to-be-in-file-explanation = مہربانی کوری اسپہ  <templateFileLink>ٹیملیٹ فائیلا</templateFileLink> چک کو۔ تہ جملہ کوس کاپی رائٹ مو بائی (CC0  یا اصل کورمو کوراکو سر اجازت بائے) سفا، گرائمیرو لحاظہ سہی وا ریکا اسان بائے۔ جملہ تقریبًا 10-15سیکنڈا رینو بائے وا ہتیرا نمبر، خاص نام وا خاص حرف مو بانی۔
@@ -134,7 +134,7 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } موژار 1 جملہ بڑڅیتاو۔ رد بیرو جملان ڈاون لوڈ کوریکو بچین <downloadLink>ہیا </downloadLink>کلک کو
+        [one] { $uploadedSentences } موژار 1 جملہ بڑڅیتاؤ۔ رد بیرو جملان ڈاون لوڈ کوریکو بچین <downloadLink>ہیا </downloadLink>کلک کو
        *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈاون لوڈ کوریکو بچین۔
     }
 small-batch-sentences-rule-1 = “ کیہ جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو

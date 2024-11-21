@@ -91,8 +91,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = مذید معل
 
 about-playbook-how-localize = سائٹو مقامی کوریک کیچہ کوروم کویان؟
 about-playbook-how-localize-content-1 = کامن وائسو سائٹو ترجمہ<strong> پونتونا</strong> بویان۔
-about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink> منصوبو گنے۔ ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
-about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن خور وارو دی  <strong> گانیکو </strong>بوس۔ <strong> </strong> پروفائلو <strong>  نݰانہ کلک کو۔  وا سیٹنگ</strong> لینکہ وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمنو لسٹ بوئے توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اکاونٹ ساوزاوے </pontoonAccountLink> تہ اکاونٹ کی نیکی۔ تھے تان وارو <strong> (ٹیمو) </strong> گنے۔ اچی<pontoonCvLink> کامن وائس <pontoonCvLink> منصوبو گنے۔ ہیرا ترجمہ کوریکو فائیل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ شینی وا ترجمہ کوریکو  خانہ شیر۔
+about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن خور وارو دی  <strong> گانیکو </strong>بوس۔ <strong> </strong> پروفائیلو <strong>  نݰانہ کلک کو۔  وا سیٹنگ</strong> لینکہ وا کیا وارو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمنو لسٹ بوئے توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو بچین تیار بوئے۔
 about-playbook-how-localize-content-5 = مدد دیکو بچین اسپہ وضاحت دیاک ویڈیو لوڑے
 
