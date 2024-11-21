@@ -1,8 +1,8 @@
 ## Dashboard
 
 your-languages = تہ وار
-toward-next-goal = نوغ مقصدو ویلٹی
-goal-reached = مقصد پورا ہوئے
+toward-next-goal = نوغ حدافو ویلٹی
+goal-reached = حدف پورا ہوئے
 clips-you-recorded = ہواز ریکارڈ کوری اسوس
 clips-you-validated = ہواز تصدیق کوری اسوس
 todays-recorded-progress = کامن وائسا ہنون ریکارڈ بیرو ہواز
@@ -24,13 +24,13 @@ show-ranking = مہ درجو پشاوے
 
 ## Custom Goals
 
-get-started-goals = مقصدان پروشٹہ لکھی شروع کو
+get-started-goals = حدافان پروشٹہ لکھی شروع کو
 create-custom-goal = تان چیتہ حدف لکھے
-goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
+goal-type = تو کیا قسمہ حدف لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
 both-speak-and-listen-long = کھاڑان (راوے وا کار کو)
-daily-goal = ہو انوسو مقصد
-weekly-goal = ہفتو مقصد
+daily-goal = ہو انوسو حدف
+weekly-goal = ہفتو حدف
 easy-difficulty = اسان
 average-difficulty = اوسط
 difficult-difficulty = گران
@@ -116,8 +116,8 @@ activity-needed-calculation-plural =
 how-many-per-day = بوجام! ای انوس کندوری ہواز؟
 how-many-a-week = بوجام! ای ہفتہ کندوری ہواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو بچین ای میل گونی۔
-not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کامن وائسو بارا نیوز لیٹر گونی۔
+receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ حدفو یاد کوریکو بچین ای میل گونی۔
+not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ حدفو یاد کوریکو، تہ کورمو اپڈیٹ، وا کامن وائسو بارا نیوز لیٹر گونی۔
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } اسکوردی ہواز
@@ -139,7 +139,7 @@ weekly-goal-created = تہ ہفتہ وار حدف ساوز ہوئے
 daily-goal-created = تہ انوسو حدف ساوز ہوئے
 track-progress = تان کروم کندوری ہوئے رے ہیا پتہ کو وا تان سٹیٹس صفحہ
 return-to-edit-goal = ہیا گیتی کیا وحت دی  تو تان حدفو تبدیل کوریکو بوس۔
-share-goal = مہ مقصدو خوران تین انځاوے
+share-goal = مہ حدفو خوران تین انځاوے
 
 ## Goals
 
