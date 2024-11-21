@@ -25,6 +25,7 @@ contribute = წვლილის შეტანა
 
 ## Navbar
 
+respond-to-prompt = პასუხი მოთხოვნაზე
 transcribe-audio = ნაწერის სახით გადმოცემა
 check-transcriptions = ნაწერად ქცეულის შემოწმება
 

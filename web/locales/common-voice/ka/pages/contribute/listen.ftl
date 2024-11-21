@@ -12,11 +12,17 @@ listen-loading-error =
 listen-abort-title = შეწყდეს ჩანაწერების შემოწმება?
 listen-abort-cancel = შემოწმების გაგრძელება
 listen-abort-confirm = შემოწმების შეწყვეტა
+# Menu item
+validate-readings = წაკითხულის გადამოწმება
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = წაკითხულის გადამოწმება, ნაწერად ქცეულის შემოწმება
+validate-readings-menu-item-tooltip = მომხმარებლის მიერ წაკითხულის შემოწმება თქვენს ენაზე
 review-transcriptions-menu-item-tooltip = მომხმარებლის მიერ ნაწერად ქცეულის შემოწმება თქვენს ენაზე
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = მოსმენის პარამეტრების ასარჩევი
 validate-readings-menu-item-aria-label = ერთობის წევრების მიერ ამოკითხულის გადამოწმება
+review-transcriptions-menu-item-aria-label = ნაწერად ქცეულის გადამოწმება ჩაწერილ წინადადებასთან შესაბამისობისთვის
