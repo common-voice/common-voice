@@ -147,3 +147,21 @@ small-batch-sentences-rule-3 = გამოყავით წინადად
 small-batch-sentences-rule-4 = დაამატეთ არაუმეტეს 1000 წინადადება
 small-batch-sentences-rule-5 = ყველა წინადადება ერთი დარგიდან უნდა იყოს
 small-batch-sentences-rule-6 = ყველა წინადადება ერთი წყაროდან უნდა იყოს
+# menu item
+add-sentences = წინადადებების დამატება
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = წინადადებების დამატება და შემოწმება, კითხვების დამატება, ხმის ნაწერის სახით გადმოცემა
+add-sentences-menu-item-tooltip = წინადადებების დამატება თქვენი ენისთვის
+review-sentences-menu-item-tooltip = წინადადებების შემოწმება თქვენი ენისთვის
+add-questions-menu-item-tooltip = კითხვების დამატება თქვენი ენისთვის
+transcribe-audio-menu-item-tooltip = ხმის ნაწერის სახით გადმოცემა თქვენი ენისთვის
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = წერის პარამეტრების ასარჩევი
+add-sentences-menu-item-aria-label = წინადადებების დამატება, რომ ერთობის წევრებმა ამოიკითხონ
+review-sentences-menu-item-aria-label = ერთობის წევრების მიერ დამატებული წინადადებების შემოწმება
+add-questions-menu-item-aria-label = კითხვების დამატება, რომ ერთობის წევრებმა ამოიკითხონ და პასუხი გასცენ
+transcribe-audio-menu-item-aria-label = ხმოვანი ჩანაწერის ნაწერის სახით გადმოცემა
