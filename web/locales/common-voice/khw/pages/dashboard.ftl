@@ -117,17 +117,17 @@ how-many-per-day = بوجام! ای انوس کندوری ہواز؟
 how-many-a-week = بوجام! ای ہفتہ کندوری ہواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
 receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ حدفو یاد کوریکو بچین ای میل گونی۔
-not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ حدفو یاد کوریکو، تہ کورمو اپڈیٹ، وا کامن وائسو بارا نیوز لیٹر گونی۔
+not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کی تہ تین حدفو یاد کوریکو، تہ کورمو اپڈیٹ، وا کامن وائسو بارا نیوز لیٹر<bold>'نو'</bold> گونی۔
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } اسکوردی ہواز
        *[other] { $count } اسکوردی ہواز
     }
-help-share-goal = اسپہ سوم خور ہواز مݰکیکا مدد کو۔ تان حدفو لو دیت
+help-share-goal = اسپہ سوم خور ہواز مݰکیکا مدد کو۔ تان حدفو انځاوے
 confirm-goal = حدفو تصدیق کو
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = اسپہ تین تان { $count } ہوازان انوسو حدف{ $type } بارا لوو دیت۔
+share-n-daily-contribution-goal = اسپہ تین تان { $count } ہوازان انوسو حدف{ $type }انځاوے۔
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = اسپہ تین تان { $count } ہوازان ہفتے حدف{ $type } بارا لوو دیت۔
 share-goal-type-speak = لو دیک
