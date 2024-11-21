@@ -65,7 +65,7 @@ read-sentences = Гущыӏэухыгъэхэм къяджэн
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Гущыӏэухыгъэхэм ядж, упчӏэхэм джэуапхэр ят
+speak-contribute-menu-tooltip = Гущыӏэухыгъэхэм къядж, упчӏэхэм джэуапхэр къят
 read-sentences-menu-item-tooltip = Гущыӏэухыгъэхэр убзэкӏэ къеджэзэ ор-орэу тетх
 answer-questions-menu-item-tooltip = Убзэкӏэ упчӏэхэм яджэуапхэр ыкӏи шӏоигъоныгъэхэр ор-орэу тептхэн
 
