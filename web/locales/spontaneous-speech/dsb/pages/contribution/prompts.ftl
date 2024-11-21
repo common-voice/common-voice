@@ -7,6 +7,7 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> a wótegrońśo ta
 no-prompts-message = Njedajo tuchylu žedne naspominanja za toś tu rěc. Pšosym aktualizěrujśo bok abo wopytajśo pózdźej hyšći raz.
 error-skipping = Pśi pśeskokowanju toś togo naspominanja jo zmólka nastała
 error-recording = Pśi nagraśu jo zmólka nastała.
+error-fetching-prompts = Pśi wótwołanju naspominanjow njejo se něco raźiło. Pšosym wopytajśo pózdźej hyšći raz.
 error-uploading-response = Pśi nagrawanju wašogo wótegrona jo zmólka nastała
 prompt-submitted-success = Wótegrono jo se wuspěšnje wótpósłało
 prompt-response-deleted-success = Wótegrono jo se wuspěšnje wulašowało
