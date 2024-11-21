@@ -1,5 +1,6 @@
 action-click = Теуэ
 contribute = Хэгъахъуэ
+review = Хэплъэж
 skip = БлэкӀ
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
@@ -12,6 +13,7 @@ contribute-more =
         [one] Ухьэзыр иджыри птыну?
        *[other] Ухьэзыр иджыри птыну?
     }
+speak-empty-state = Мы бзэмкӏэ псалъэуха тегъэтхын къэнэжакъым...
 record-button-label = Уи макъ егъэтх
 vote-yes = Нтӏэ
 vote-no = Хьэуэ
