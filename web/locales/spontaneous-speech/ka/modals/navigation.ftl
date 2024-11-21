@@ -2,3 +2,4 @@
 
 # Link to the Respond to Prompts page in the navigation modal for mobile users
 respond = გამოხმაურება
+login-signup = შესვლა / შექმნა
