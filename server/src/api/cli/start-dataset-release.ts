@@ -14,14 +14,14 @@ type InitDatasetReleaseJob = {
 const startDatasetRelease = async (args: any, options: any) => {
   const run = pipe(
     getQueue<InitDatasetReleaseJob>('datasetRelease')(),
-    addJobToQueue<InitDatasetReleaseJob>({
+    addJobToQueue<InitDatasetReleaseJob>('init')({
       type: args.type,
       from: args.from,
       until: args.until,
       releaseName: args.releaseName,
       previousReleaseName: args.previousReleaseName,
       languages: args.languages || [],
-    })('init')({})
+    })({})
   )
 
   await run()

@@ -19,7 +19,7 @@ export const setupUpdateValidatedSentencesQueue = () => {
   pipe(
     getQueue<ValidateSentencesJob>(UPDATE_VALIDATED_SENTENCES_QUEUE_NAME),
     IO.chainFirst(
-      addSandboxedProcessorToQueue(
+      addSandboxedProcessorToQueue(UPDATE_VALIDATED_SENTENCES_JOB)(
         `${__dirname}/processors/updateValidatedSentencesProcessor.js`
       )
     ),
@@ -31,8 +31,11 @@ export const setupUpdateValidatedSentencesQueue = () => {
       )
     ),
     IO.chainFirst(
-      addJobToQueue({ name: UPDATE_VALIDATED_SENTENCES_JOB })(UPDATE_VALIDATED_SENTENCES_JOB)({
+      addJobToQueue(UPDATE_VALIDATED_SENTENCES_JOB)({
+        name: UPDATE_VALIDATED_SENTENCES_JOB,
+      })({
         repeat: { cron: REPEAT_EVERY_HOUR },
+        removeOnComplete: true,
       })
     )
   )()
