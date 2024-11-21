@@ -60,3 +60,11 @@ already-have-an-account = پہلے ساں ہِک اکاؤنٹ ہتھے پیا؟ 
 create-profile-button = ہِک پروفائل جوڑ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی تا نشان
+# menu item
+read-sentences = ڳالھ وارینک ٻُجھ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

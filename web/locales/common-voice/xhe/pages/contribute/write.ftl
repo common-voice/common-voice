@@ -143,3 +143,11 @@ small-batch-sentences-rule-3 = ہِک وار "اینٹر" یا "ریٹرن" دب
 small-batch-sentences-rule-4 = 1,000 ڳالھ وارینک وِڄ
 small-batch-sentences-rule-5 = سارے ڳالھ وارینک تا ہِک جینا ڈومین وے
 small-batch-sentences-rule-6 = سارے ڳالھ وارینک تا ہِک جینا حوالہ وئے
+# menu item
+add-sentences = ڳالھ وار وِڄ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
