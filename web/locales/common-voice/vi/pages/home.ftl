@@ -12,13 +12,9 @@ show-wall-of-text = Xem thêm
 help-us-title = Giúp chúng tôi xác thực các câu!
 help-us-explain = Nhấn Chơi, nghe và cho chúng tôi biết: họ có nói chính xác câu bên dưới không?
 no-clips-to-validate = Có vẻ như không có đoạn thoại nào để nghe của ngôn ngữ này. Giúp chúng tôi điền nó vào danh sách bằng cách ghi âm lại một số câu ngay bây giờ.
-vote-yes = Có
-vote-no = Không
 toggle-play-tooltip = Nhấn { shortcut-play-toggle } để chuyển chế độ phát
-speak-subtitle = Đóng góp giọng nói của bạn
 speak-paragraph = Ghi âm giọng nói là một phần không thể thiếu trong việc xây dựng nguồn dữ liệu mở của chúng tôi; một số người nói đây cũng là phần thú vị.
 speak-goal-text = Đoạn thoại đã ghi lại
-listen-subtitle = Giúp chúng tôi xác thực giọng nói
 listen-paragraph = Việc xác thực các đoạn thoại được đóng góp cũng quan trọng không kém đối với nhiệm vụ Common Voice. Hãy lắng nghe và giúp chúng tôi tạo dữ liệu giọng nói nguồn mở thật chất lượng.
 listen-goal-text = Đoạn thoại đã xác thực
 hours-recorded = Số giờ đã ghi lại
@@ -73,3 +69,16 @@ help-contribute = Bạn có thể giúp xây dựng bộ dữ liệu nguồn m�
 login-company = Đăng nhập / Đăng ký bằng email { $company }
 profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
+
+## NAV ITEMS
+
+add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+
+## MENU ITEMS TOOLTIPS
+
+press-and-stories-menu-item-tooltip = Ghé thăm blog hoặc viết về chúng tôi
+community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng đồng và dự án Common Voice
+
+## MENU ITEM ARIA LABELS
+
+press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice

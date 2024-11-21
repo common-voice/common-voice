@@ -63,3 +63,5 @@ review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một 
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
 sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
+# menu item
+review-sentences = Đánh giá câu
