@@ -10,7 +10,8 @@ download-dataset-tag = მითითბადებათ ლე́ჸინჩ
 # File size in gigabytes
 size = ჲაჴოლ
 validated-hr-total = დარა́ლ'ინო̆/დამო́წმადჲიენო̆ სა́ვთი, დი́ნ
-cv-license = ლიცენზია́
+overall-hr-total = ცჰ̦ა́ღ შეჯა́მბადჲიენო̆ სა́ვთი
+cv-license = ლიცე́ნზია́
 audio-format = იშეჼ ფორმატ
 dataset-splits = სოდადე́ყარ /ა́საკ, სქეს
 number-of-voices = აშირა́ჼ რაოდენობ
