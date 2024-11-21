@@ -277,6 +277,21 @@ return-to-cv = hanjuko ućharing (common voice) wapas ẓuin
 email-input =
     .label = email
 loading = jaa ray ećhabaa ke jaar hanjuko ućharinge reminder, progress daa newsleter email ẓuṣ
+email-opt-in-info = jaa ray ećhabaa ke jaar hanjuko ućharinge reminder, progress daa newsleter email ẓuṣ
+email-opt-in-info-title = hanjuko ućharinge (common voice) mailing list ulo kaa maneyin
+email-opt-in-info-sub-with-challenge = hanjuko ućharinge newsleter, duroe updates, daa goals aski ataśo emails dukoġork
+email-opt-in-privacy-v2 = emails damaaġurkase gane tey senin ke mamar sahi bila belate mozilla information kaa surmanimi ke belate khole mesum bila ke  <privacyLink>Privacy Policy</privacyLink>.
+indicates-required = (*) kaa mark etum fileds mamar awaaji bican
+not-available-abbreviation = bes ke be
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = maa mirin ce duunas mimar awaaji bila
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = gute duruwate taqriiban yoolulo hik million dollare nićiyen amulo dataset host meybila daa tha cum baske baaṣing sise mimate baroosa ećaan. Une ke gokeer value ićhićaa guymo baaṣ data meer emas.
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = CV istimaal etin maymo research mesase gane
+languages-donate-banner-cta-explanation = donation ke grants ate gute hanjuko ućharing duro gucharćila. mii academic, civil society daa industry researchers kaa numaa duro ećabaa. Common voice istimaalar free bila leykin platform and hosting qeymit gane grant proposals but madagar bican.
+localization-select =
+    .label = baaṣ ke llocalisation isalginin
