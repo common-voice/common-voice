@@ -18,6 +18,7 @@ record-again-instruction = Фlы дыдэщ! <recordIcon></recordIcon> Къыкl
 record-again-instruction2 = Укъэмыувыlэ, иджыри тырегъатхэ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Мыр кӀэух!
 review-tooltip = Къэпщытэжи, мы напэкlуэцlым клипхэр щытрегъэтхэж.
+share-clip = Уи тетхамкӏэ нэгъуэщlхэм ядэугуашэ
 review-recording = Хэплъэ
 review-rerecord = Тетхэж
 
