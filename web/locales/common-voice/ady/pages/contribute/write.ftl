@@ -57,7 +57,7 @@ language_fundamentals = Бзэм ылъапсэ (гущ. пае: пчъагъэ�
 # Sentence Domain dropdown option
 media_entertainment = Медия ыкӏи зэщ тегъэуныгъ
 # Sentence Domain dropdown option
-nature_environment = Кӏыопсыр ыкӏи ӏэгъо-благъо
+nature_environment = Чӏыопсыр ыкӏи тыкъэзыуцухьэрэ дунаир
 # Sentence Domain dropdown option
 news_current_affairs = Къэбархэр ыкӏи рекӏокӏырэ хъугъэ-шӏагъэхэр
 # Sentence Domain dropdown option
