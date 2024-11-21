@@ -1,7 +1,7 @@
 speak = Гущыӏ
 speak-now = Джы гущыӏ
 speak-subtitle = Умакъэ шӏутын къытфэшӏ
-record-cta = Мэкъэтетхэныр егъажь
+record-cta = Мэкъэтетх
 record-platform-not-supported = Къытфэгъэгъу, уиплатформэ джыдэдэм къыддыригъаштэрэп.
 record-platform-not-supported-desktop = Ӏахьэ хэплъхьан плъэкӏыщт ӏанэ тетым къыкӏэлъыкӏорэр ибгъахьэмэ…
 record-platform-not-supported-ios-non-safari = иОС-ым Сафарир щыбгъэфедэныр пыдзэжь тетхэныр хэбгъэнэным пае…
@@ -10,7 +10,7 @@ record-no-mic-found = Зи микрофон къыгъотыгъэп.
 record-error-too-short = Тетхагъэр кӏэко дэдагъ.
 record-error-too-long = Тетхагъэр кӏыхьэ дэдагъ.
 record-error-too-quiet = Тетхагъэм ымакъэ мэкӏэ дэдагъ.
-record-cancel = Тетхэжьыныр щыгъэзый
+record-cancel = Тетхагъэр щыгъэзый
 record-instruction = { $actionType }<recordIcon></recordIcon> ащ ыуж шъумакъэ ӏоу гущыӏэухыгъэм шъукъедж
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ухыгъэ зыхъукӏэ
 record-three-more-instruction = Зы-тӏущ къэнагъ!
