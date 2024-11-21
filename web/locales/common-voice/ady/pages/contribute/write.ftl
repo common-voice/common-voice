@@ -36,8 +36,8 @@ bulk-sentence-submission = Гущыӏэухыгъэ бэу егъэхьын
 single-sentence = Зы
 small-batch-sentence = Заулэ
 bulk-sentence = Бэу
-sentence-domain-combobox-label = Гущыӏэухыгъэм итема
-sentence-domain-select-placeholder = Темащым нэс къыхэшъух (хэмыхыми хъун)
+sentence-domain-combobox-label = Гущыӏэухыгъэм итемэ
+sentence-domain-select-placeholder = Темищым нэс къыхэшъух (хэмыхыми хъун)
 # Sentence Domain dropdown option
 agriculture_food = Мэкъу-мэщ ыкӏи гъомлапхъэ
 # Sentence Domain dropdown option
@@ -53,9 +53,9 @@ healthcare = Псауныгъэ
 # Sentence Domain dropdown option
 history_law_government = Тарихъ, хабзэ ыкӏи къэралыгъо
 # Sentence Domain dropdown option
-language_fundamentals = Бзэ лъапсэ гущыӏэхэр (гущ. пае: пчагъэхэр, хьарыфхэр, ахъщэ)
+language_fundamentals = Бзэм ылъапсэ (гущ. пае: пчъагъэхэр, хьарыфхэр, ахъщэ)
 # Sentence Domain dropdown option
-media_entertainment = Медя ыкӏи зэщ тегъэуныгъ
+media_entertainment = Медия ыкӏи зэщ тегъэуныгъ
 # Sentence Domain dropdown option
 nature_environment = Кӏыопсыр ыкӏи ӏэгъо-благъо
 # Sentence Domain dropdown option
