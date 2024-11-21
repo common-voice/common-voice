@@ -10,5 +10,9 @@ transcript-edited-error = Produciuse un erro ao editar a transcrición
 error-fetching-transcriptions = Produciuse un erro ao recuperar as transcricións. Ténteo de novo máis tarde.
 transcript-skipped-success = Omitiuse a transcrición
 transcript-skipped-error = Produciuse un erro ao omitir a transcrición
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = Correcto
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Feito
 # For the button on the Check Transcriptions page to edit a transcription
 edit = Editar
