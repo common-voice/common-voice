@@ -1,7 +1,7 @@
 listen = Едаӏуэ
 listen-subtitle = Макъхэр къэгъэпэжынкӏэ къыддэӏэпыкъу
 listen-instruction = { $actionType }<playIcon></playIcon> псалъэухар тэмэму къэпсэлъа хъуа?
-listen-again-instruction = Дэгъуэ дыдэ! <playIcon></playIcon> Хьэзыр ущыхъуам зэ едэIуэж.
+listen-again-instruction = Дэгъуэ дыдэщ! <playIcon></playIcon> Хьэзыр ущыхъуам зэ едэIуэж.
 listen-3rd-time-instruction = 2-р хьэзырщ, апхуэдэурэ къыпыщэ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Иужь зыр!
 listen-empty-state = Къэгъэпэжын хуей макъ тетхахэр иухащ. Напэр гъэщӏэрыщӏэ е итӏанэ аргуэру еплъыж.
