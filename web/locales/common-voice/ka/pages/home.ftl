@@ -74,3 +74,16 @@ help-contribute = თქვენ შეგიძლიათ დაგვეხ
 login-company = შედით / შექმენით ანგარიში { $company }-ზე ელფოსტით
 profile-not-required = პროფილის ქონა არაა სავალდებულო, თუმცა შემოტანილ წვლილს მეტად სარგებლიანს გახდის
 read-more-about = ვრცლად იხილეთ გვერდი ჩვენ შესახებ
+
+## NAV ITEMS
+
+answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
+
+## MENU ITEMS TOOLTIPS
+
+partnerships-menu-item-tooltip = გვეთანამშრომლეთ
+press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
+community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice
+
+## MENU ITEM ARIA LABELS
+
