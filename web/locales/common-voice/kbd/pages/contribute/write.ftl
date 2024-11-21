@@ -21,6 +21,7 @@ new-sentence-rule-5 = Бжыгъэ е символ къемызэгъ хэмыт
 new-sentence-rule-6 = Нэмыщӏыбзэ хьэрф хэмыту
 new-sentence-rule-7 = Къыздипхар наӏуэу къэтх
 new-sentence-rule-8 = Зэрыпхузэфӏэккӏэ псалъэуха къызэрыӏкуэхэр (Еджэнкӏэ тынщу щытын хуейщ)
+login-instruction-multiple-sentences = Псалъэуха зыбжанэ хэбгъэхьэн щхьэкӏэ <loginLink>ихьэ</loginLink> е <loginLink>зыхэтхэ</loginLink>
 single-sentence-submission = Псалъэуха закъуэ егъэхьын
 small-batch-sentence-submission = Псалъэуха зыбжьанэ егъэхьын
 bulk-sentence-submission = Псалъэуха куэд егъэхьын
