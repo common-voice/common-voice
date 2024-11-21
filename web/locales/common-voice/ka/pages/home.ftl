@@ -78,12 +78,22 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 ## NAV ITEMS
 
 answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
+review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
+add-questions = კითხვების დამატება <small>(მალე)</small>
+transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
+press-and-stories = პრესა და სიახლეები
+community-and-languages = საზოგადოებები და ენები
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
 partnerships-menu-item-tooltip = გვეთანამშრომლეთ
 press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
 community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = ჩვენ შესახებ გვერდი
+partnerships-menu-item-aria-label = გაეცანით Common Voice-თან თანამშრომლობის გზებს
+press-and-stories-menu-item-aria-label = Common Voice-თან დაკავშირებული განცხადებები და სიახლეები პრესაში
+community-and-languages-menu-item-aria-label = გამოიკვლიეთ ენები და საზოგადოებები, რომელთაც მხარს უჭერს Common Voice
