@@ -17,6 +17,12 @@ validate-readings = Еджэгъуэхэр къэгъэпэж
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Еджэгъуэхэр къэгъэпэж, транскрипцэхэм еплъыж
+validate-readings-menu-item-tooltip = Зехьэкӏуэм уи бзэкӏэ иригъэтха еджэныгъэхэр къэгъэпэж
+review-transcriptions-menu-item-tooltip = Зехьэкӏуэм уи бзэкӏэ къыригъэхьа транскрипцэхэм еплъыж
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ЕдэӀун щапхъэхэм я меню
+validate-readings-menu-item-aria-label = Зэхэтым хэтхэм къырагъэхьа еджагъэхэр къэгъэпэж
+review-transcriptions-menu-item-aria-label = Тэмэмыгъэ щхьэкӏэ псалъэуха тхахэм я транскрипцэхэм еплъыж
