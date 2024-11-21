@@ -257,6 +257,8 @@ zza = zaza
 
 ## Layout
 
+profile = profile
+help = mirin ce duunas
 
 ## Donate banner
 
