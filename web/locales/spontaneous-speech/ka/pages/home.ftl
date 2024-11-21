@@ -4,6 +4,11 @@ welcome-to-spontaneous-speech = მოგესალმებათ დაუ�
 # <br></br> represents a newline break
 wall-of-text = Common Voice ხსნის კიდევ ერთ პლატფორმას, რომელიც მიმართული იქნება მეტად ცოცხალი, დაუგეგმავი, ზეპირი მეტყველების ჩანაწერების შეგროვებისკენ. ეს დაეხმარება ჩვენი ერთობის დიდ ნაწილს მონაცემების მეტად სწრაფ შეგროვებაში, ამასთან გააუმჯობესებს მონაცემთა სარგებლიანობას მკვლევრებისა და შემმუშავებლებისთვის.
 why-spontaneous-speech = ჩვენ შევიმუშავეთ დაუგეგმავი საუბრის მოდელი
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = მეტად გამოსადეგი იქნება <mark>ცოცხალი მეტყველების გასათვალისწინებლად</mark> და სხვადასხვა დანიშნულებისთვის (მაგ., როცა მუშაობთ ზეპირი მეტყველებისა და ყოველდღიური სასაუბრო ენის ამოცნობაზე)
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = გააუმჯობესებს მხარდაჭერას ენებისთვის, რომლებსაც გააჩნია მცირე ზომის ან საერთოდ არ გააჩნია <mark>ენის კორპუსი</mark> (მაგ., ენის სხვადასხვა კილო, კუთხური მეტყველება, მათი ქვესახეობები, დამწერლობის არმქონე ენები და ა. შ.)
+how-spontaneous-speech-works = როგორ მუშაობს დაუგეგმავი სასაუბრო
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>მოთხოვნა</mark>
 prompt-bubble-subtitle = ჩვენ გაჩვენებთ შეკითხვას ან მოთხოვნას
