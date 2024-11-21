@@ -22,7 +22,7 @@ new-sentence-rule-6 = Нэмыкӏыбзэ хьарыф щыӏэп
 new-sentence-rule-7 = Тефэрэ къыхэхыгъэ тхыгъэр хэгъэх
 new-sentence-rule-8 = Щысэтехыпӏэу натурал ыкӏи жабзэмкӏэ (гущыӏэухыгъэр еджэгъошӏу хъун фае)
 login-instruction-multiple-sentences = Гущыӏэухыгъэ заулэ егъэжьэным пае <loginLink>Ихь</loginLink> е <loginLink>зыхатх</loginLink>
-how-to-cite = Сыдэущтэу къыхэхыгъэ тхын фэзгъазэщта?
+how-to-cite = Сыдэущтэу къыхэхыгъэ тхын фэзгъэзэщта?
 how-to-cite-explanation-bold = УРЛ-линкым е ӏофшӏэным ыцӏэ зэрэщытэу къыхэхыгъэ тхыгъэм фэгъаз.
 how-to-cite-explanation = Мы гущыӏэхэр оуие шъыпкъэу щытмэ къаӏо <italicizedText>«Ежь-ежьырэу къыхэхыгъэ тхыгъэ»</italicizedText>. мы контентыр тыдэ къишъухыгъа, тшӏэн фае тыуплъэкӏун тлъэкӏынэу, цӏыф жъугъэмэ апая ыкӏи тхэкӏо хьакъ гъунэ гъэунэфыгъэ иӏэу щыта. Къыхэхыгъэ тхыгъэм ехьылӏагъэу нахьыбэ къэбар бгъотыным пае <guidelinesLink>нэкӏубгъоу гъозэрышӏ</guidelinesLink> еплъ.
 guidelines = Гъуазэхэр
@@ -64,7 +64,7 @@ news_current_affairs = Къэбархэр ыкӏи хъурэ-шӏэрэхэр
 technology_robotics = Технологие ыкӏи Роботик
 sentence-variant-select-label = Гущыӏэухыгъэм ивариант
 sentence-variant-select-placeholder = Вариант горэ къыхэх (хэмыхыми хъун)
-sentence-variant-select-multiple-variants = Бзэ пстэури / диалект заулэ
+sentence-variant-select-multiple-variants = Бзэ пстэури / вариант заулэ
 
 ## BULK SUBMISSION 
 
