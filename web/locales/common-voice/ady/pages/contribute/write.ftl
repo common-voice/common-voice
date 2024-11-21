@@ -45,7 +45,7 @@ automotive_transport = Ку сектор ыкӏи транспорт
 # Sentence Domain dropdown option
 finance = Финанс
 # Sentence Domain dropdown option
-service_retail = Кулыкъу ыкӏи зырызыщэ
+service_retail = Къулыкъу ыкӏи зырызыщэ
 # Sentence Domain dropdown option
 general = Пстэури
 # Sentence Domain dropdown option
@@ -59,12 +59,12 @@ media_entertainment = Медия ыкӏи зэщ тегъэуныгъ
 # Sentence Domain dropdown option
 nature_environment = Чӏыопсыр ыкӏи тыкъэзыуцухьэрэ дунаир
 # Sentence Domain dropdown option
-news_current_affairs = Къэбархэр ыкӏи рекӏокӏырэ хъугъэ-шӏагъэхэр
+news_current_affairs = Къэбархэр ыкӏи хъурэ-шӏэрэхэр
 # Sentence Domain dropdown option
 technology_robotics = Технологие ыкӏи Роботик
-sentence-variant-select-label = Гущыӏэухыгъэ идиaлект
-sentence-variant-select-placeholder = Диaлект горэ къыхэх (хэмыхыми хъун)
-sentence-variant-select-multiple-variants = Пстэури бзэ / диалект заулэ
+sentence-variant-select-label = Гущыӏэухыгъэм ивариант
+sentence-variant-select-placeholder = Вариант горэ къыхэх (хэмыхыми хъун)
+sentence-variant-select-multiple-variants = Бзэ пстэури / диалект заулэ
 
 ## BULK SUBMISSION 
 
