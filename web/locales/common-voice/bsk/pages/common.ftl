@@ -259,6 +259,24 @@ zza = zaza
 
 profile = profile
 help = mirin ce duunas
+contact = raabta etas
+privacy = mii haranum
+terms = terms
+cookies = cookies
+faq = aksar duġarusum sawaalin
+content-license-text = mawaad khole mayaćuman <licenseLink> amitar creative common license seybaan
+share-title = meeka kaa numan ućhar emasaśo sis dduuysin
+share-text = meeka kaa numa machine oykinin ke sise belate ćaġa ećaan daa maymo maćar meer emasin
+link-copied = link copy manimi
+back-top = Yatmuśar dubara niin
+logout = log out maneyn
+donate = meer emasin
+stayintouch = mii moziila ulo ućhare technology cum kuyooć dal duyśa baan. mii macimo duġaruśume huruśan daa naya data souce baarulo mamacum dimayljan ke belata istimaal ećaan ke.
+privacy-info = mii maa kaa waada eća baan ke maa maalumaate but śan ećan. Khole daa ġatanin <privacyLink>Privacy Notice</privacyLink>.
+return-to-cv = hanjuko ućharing (common voice) wapas ẓuin
+email-input =
+    .label = email
+loading = jaa ray ećhabaa ke jaar hanjuko ućharinge reminder, progress daa newsleter email ẓuṣ
 
 ## Donate banner
 
