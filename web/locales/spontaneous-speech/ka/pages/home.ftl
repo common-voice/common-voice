@@ -7,6 +7,8 @@ why-spontaneous-speech = ჩვენ შევიმუშავეთ და�
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = მეტად გამოსადეგი იქნება <mark>ცოცხალი მეტყველების გასათვალისწინებლად</mark> და სხვადასხვა დანიშნულებისთვის (მაგ., როცა მუშაობთ ზეპირი მეტყველებისა და ყოველდღიური სასაუბრო ენის ამოცნობაზე)
 # text wrapped with <mark></mark> will have a light red background
+why-card-2-text = გაითვალისწინებს ისეთ ცნობილ გარემოებებს, როგორებიცაა ენათმონაცვლეობა და ე.წ. <mark>კოდების გადართვა</mark>
+# text wrapped with <mark></mark> will have a light red background
 why-card-3-text = გააუმჯობესებს მხარდაჭერას ენებისთვის, რომლებსაც გააჩნია მცირე ზომის ან საერთოდ არ გააჩნია <mark>ენის კორპუსი</mark> (მაგ., ენის სხვადასხვა კილო, კუთხური მეტყველება, მათი ქვესახეობები, დამწერლობის არმქონე ენები და ა. შ.)
 how-spontaneous-speech-works = როგორ მუშაობს დაუგეგმავი სასაუბრო
 # text wrapped in <mark></mark> will have a blue background
@@ -28,4 +30,9 @@ contact-us = დაგვიკავშირდით
 contact-us-title = გსურთ პროექტში მონაწილეობა ან ჩვენთან თანამშრომლობა?
 contact-us-email = ელფოსტა: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = უკვე ხართ Beta-შემოწმების ჩვენს ჯგუფში Common Voice-ის დაუგეგმავი სასაუბროსთვის?
+signup-terms = „ელფოსტით ბმულის გამოგზავნაზე“ დაწკაპებით თქვენ ეთანხმებით <termsLink>მომსახურების პირობებსა</termsLink> და <privacyLink>პირადულობის დებულებას</privacyLink>, ამასთანავე, Mozilla-ს რთავთ ნებას, ელფოსტით გაცნობოთ, როგორ უნდა მიიღოთ მონაწილეობა Beta-შემოწმებაში Common Voice-ის დაუგეგმავი სასაუბროსთვის.
 signup-input-placeholder = შეიყვანეთ თქვენი ელფოსტა
+signup-button-value = ელფოსტით ბმულის გამოგზავნა
+footer-text-privacy = <privacyLink>პირადულობა</privacyLink>
+footer-text-terms = <termsLink>პირობები</termsLink>
+footer-text-cookies = <cookiesLink>ფუნთუშები<cookiesLink>
