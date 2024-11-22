@@ -39,37 +39,37 @@ bulk-sentence = დუჴ
 sentence-domain-combobox-label = წინადა́დბეჼ დარგ
 sentence-domain-select-placeholder = ჲაგჲებათ ჴა́ეგომციჼ დარგ
 # Sentence Domain dropdown option
-agriculture_food = ფჰეჼ მეურნეობაჲ, ჴალლ-მალ'არაჲ
+agriculture_food = ფჰ̦ეჼ მეურნეობა́ჲ, ჴალლ-მალ'არა́ჲ
 # Sentence Domain dropdown option
-automotive_transport = მაშინეჲშაჲ, ტრანსპორტაჲ
+automotive_transport = მა́შინეჲშაჲ, ტრანსპორტა́ჲ
 # Sentence Domain dropdown option
-finance = ფინანსი
+finance = ფინა́ნსი
 # Sentence Domain dropdown option
-service_retail = მომსახურებაჲ, სოეცარ-დოხკარაჲ
+service_retail = მომსა́ხურება́ჲ, სოე́ცარ-დო́ხკარა́ჲ
 # Sentence Domain dropdown option
-general = ჴენ-ჴენი
+general = ჴენ-ჴე́ნი
 # Sentence Domain dropdown option
-healthcare = ჯანდაცვ
+healthcare = ჯანდა́ცვ
 # Sentence Domain dropdown option
-history_law_government = ისტორია, სამართალ, მმართველობ
+history_law_government = ისტორია́, სამა́რთალ, მმა́რთველობ
 # Sentence Domain dropdown option
-language_fundamentals = მატტიჼ საფუძვლი (ციფრი, ასუჲ, ტათებ)
+language_fundamentals = მატტი́ჼ საფუძვლი (ციფრი, ა́სუჲ, ტათებ)
 # Sentence Domain dropdown option
-media_entertainment = მედიააჲ, გართობაჲ
+media_entertainment = მედიაა́ჲ, გართობა́ჲ
 # Sentence Domain dropdown option
-nature_environment = ბუნებაჲ, გოგხაჲ
+nature_environment = ბუნება́ჲ, გოგხა́ჲ
 # Sentence Domain dropdown option
-news_current_affairs = წინ ამბუჲაჲ, ინცლუჼ მოვლენიაჲ
+news_current_affairs = წინ ამბუჲა́ჲ, ინცლუჼ მოვლენია́ჲ
 # Sentence Domain dropdown option
-technology_robotics = ტექნოლოგიაჲ-ე რობოტოტექნიკაჲ
-sentence-variant-select-label = წინადადბეჼ კუთხურობ
-sentence-variant-select-placeholder = ჩავარჲებათ მატტინ ნაირსახეობ (ცოაუცილებელ)
-sentence-variant-select-multiple-variants = ძირითად მოტტ/მელ'მი სახეობ
+technology_robotics = ტექნოლოგია́ჲ-ე́ რობოტოტექნიკა́ჲ
+sentence-variant-select-label = წინადა́დბეჼ კუთხურობ
+sentence-variant-select-placeholder = ჩა́ვარჲებათ მატტიჼ ნაირსა́ხეობ (ცოაუცილებელ)
+sentence-variant-select-multiple-variants = ძირითად მოტტ/მელ'მი სა́ხეობ
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = ჰალო ჴოწდებათ/ატვირთოდებათ მელ'მი წინადადებ ჰამანეჸ საკუთრებელეჼ
+sc-bulk-upload-header = ჰ̦ალო̆ ჴო́წდებათ/ატვი́რთოდებათ მელ'მი წინადა́დებ ჰ̦ამა́ნეჸ საკუთრებელეჼ
 sc-bulk-upload-instruction = სო თაჴდებათ, ლე<uploadButton>-ეხ ნიწყ ბებათ ჰალო ჴოწდა</uploadButton>ჼ
 sc-bulk-upload-instruction-drop = სო თაჴდებათ ჰალო ჴოწდაჼ
 bulk-upload-additional-information = ლეჸეჵ შუჼ თხოგო საბუხ ხაჸითაჼ ეჴ ფაილეხ, დეხოთხ, წერილ დაჸითათ ეჴ ადრესმაქ
