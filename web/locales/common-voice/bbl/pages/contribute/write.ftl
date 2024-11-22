@@ -99,25 +99,25 @@ too-many-files = წყეგეჸ დუჴ ფა́ილი და
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = ლა́ტდებათ მელ'მი <icon></icon>წინადა́დებ ჰამა́ნეჸ საკუთრებელეჼ
-multiple-sentences-error = ცო ლატოდმაკ შუჼ მელ'მი წინადადებ ცჰაცა-ცჰაცა ჩუ ჴეჰოშ
-exceeds-small-batch-limit-error = ცო მოჴერჴბალა 1000-ეხ საბუხ წინადადბი დაჰ ჲახითარ
+multiple-sentences-error = ცო ლა́ტოდმაკ შუჼ მელ'მი წინადა́დებ ცჰ̦აცა́-ცჰ̦აცა́ ჩუ ჴე́ჰ̦ოშ
+exceeds-small-batch-limit-error = ცო მოჴე́რჴბალა 1000-ეხ საბუხ წინადა́დბი დაჰ̦ ჲახითარ
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ 1 წუთე
-       *[other] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ { $retryLimit } წუთე
+        [one] სიჴშირ ზღვა́რეხ დაჰ̦ ჲო́ტეჼ. ტყო́ჸ ცადლიბათ 1 წუთე
+       *[other] სიჴშირ ზღვა́რეხ დაჰ̦ ჲო́ტეჼ. ტყო́ჸ ცადლიბათ { $retryLimit } წუთე
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ 1 წამე
-       *[other] სიჴშირ ზღვარეხ დაჰ ჲოტეჼ. ტყოჸ ცადლიბათ { $retryLimit } წამე
+        [one] სიჴშირ ზღვა́რეხ დაჰ̦ ჲო́ტეჼ. ტყო́ჸ ცადლიბათ 1 წამე
+       *[other] სიჴშირ ზღვა́რეხ დაჰ̦ ჲო́ტეჼ. ტყო́ჸ ცადლიბათ { $retryLimit } წამე
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ 1 წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
-       *[other] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ { $retryLimit } წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+        [one] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ გვერდმაქ""". დეხოთხ ჩუ სტეხ 1 წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+       *[other] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ "გვერდმაქ". დეხოთხ ჩუ სტეხ { $retryLimit } წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
