@@ -12,9 +12,13 @@ clips-with-count-pluralized =
 vote-yes = awa
 vote-no = beeya
 datasets = dataseting
+about = baaraulo
+submit-form-action = jama etin
 
 ## Reporting
 
+report = xabar orin yaa report etin
+report-title = report jama etin
 
 ## Speak & Listen Shortcuts
 
