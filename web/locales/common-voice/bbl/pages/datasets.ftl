@@ -55,6 +55,15 @@ more = დახხეშ
 close = დაჰ̦ დარ/დახურვ
 download = აჰ̦ დღოფარ/ჩამოტვირთვ
 dataset-version = ვერსია
+sha256-checksum-copied = კო́ნტროლ ჲუ́ჲნი̆ ჯა́მეჼ ასლ ჰ̦ალო̆ ჲა ე́ცინო̆
+sha256-checksum-copied-error = კო́ნტროლ ჲუ́ჲნი̆ ჯა́მეჼ ასლ ჰ̦ალო̆ ცო ე́ცჲალიჼ
+clipboard-not-supported = ასლ ჰ̦ალო̆ ე́ცარ ცო ბა ფებალ'ინო̆
+no-information-available = მონაცე́მი ცოჴა́ბტლეჲნი̆ ჲა
+dataset-metadata-sex = სქეს
+# dataset metadata - age of contributor
+dataset-metadata-age = ასაკ
+donate-modal-message = შუჼ კრე́ბულ აჰ̦ დჵო́ფლა/ჩამოტვირთოლა
+dataset-donate-modal-heading = ხეჸი შუჼ...
 data-download-yes = ჰაჸ
 data-download-deny = ცო
 data-explanatory-text = ათხ დაკლივა́თხ, მე იშა́რეჩო̆ ჩანაწერაჼ დაჴჴონაე́ ჰ̦ა́მინაჲნოჸ ქოყა́ბტლაჲნი̆ კრე́ბულივ ქო შეწყო́ბადო წინ გამოგო́ნბინა́ჲ საღ მეტო́ქეობენა́ჲ იშა́რეჩ ტექნოლოგიი სფე́რუჲლო. ე და საერთაშო́რისო̆ ცადოლ-ჲე́ ჴიქა́თხ ჰ̦ა́მიგოჰ̦აჸ მონაწილეობ მიღე́ბადჲაჼ . თხეჼ მიზაჼ ჲა მე́ იშა́რეჼ ჲაბწინო̆ სისტემი თაგლა́ლო̆ დუჴხ "საყოველთავო̆" ჲე́ მაკელო̆ ჰ̦ა́მაჸნა́ჲრეჼ ი́შ ჲაბწაჼ დი́ნჩო̆ მაჲთხე
