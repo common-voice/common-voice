@@ -61,3 +61,4 @@ email-subscriptions = ای میل سبسکرپشناں
 download-profile = مڑا ڈیٹا ڈاؤنلوڈ کرو
 contribution-experience = حصہ بینڑا دا تجربہ
 skip-submission-feedback = سبمشن فیڈبیک چھوڑو
+skip-submission-description = حصہ جمع کرالنا دے دوران' جمع کرالو' تے کلک کرنا تو بعد فیڈبیک چھوڑ دتی جُلسی۔ حصہ سدھا 5 رکاڈنگ یا تصدیق دے اگلے پُور نال جاری رہسی۔
