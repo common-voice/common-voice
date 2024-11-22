@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
 write = შედგე́ნადარ
-write-instruction = მაქ ლატდებათ <icon></icon>წინადადბი ჰამანეჸ საკუთრებელეჼ
-write-page-subtitle = ესე ფლოქოღ დეჸენო წინადადბი მაქ ლეჲტო ჰამინაჲნოყ ქოჴაპტუჲნი კრებულენ cc-0 ლიცენზიევ
+write-instruction = მაქ ლ́ატდებათ <icon></icon>წინადა́დბი ჰ̦ამა́ნეჸ საკუთრებელეჼ
+write-page-subtitle = ესე ფლო́ქოღ დე́ჸენო̆ წინადა́დბი მაქ ლეჲტო̆ ჰ̦ამინაჲნოჸ ქოჴა́ბტუჲნი̆ კრე́ბულენ cc-0 ლიცენზიევ
 sentence =
-    .label = წინადადებ
-sentence-input-placeholder = ჩუ ჰობათ შუიჼ ფრაზ ჰამანეჸ საკუთრებელეჼ
-small-batch-sentence-input-placeholder = ჩუ ჰობათ წინადადბი ჰამანეჸ საკუთრებელეჼ
+    .label = წინადა́დებ
+sentence-input-placeholder = ჩუ ჰ̦ობათ შუიჼ ფრა́ზ/წინადადებ ჰ̦ამა́ნეჸ საკუთრებელეჼ
+small-batch-sentence-input-placeholder = ჩუ ჰ̦ობათ წინადა́დბი ჰ̦ამა́ნეჸ საკუთრებელეჼ
 citation-input-placeholder = აუცილებელ და დაწერადარ, მიჩრეჼ ჲა ეცინო ეჲშ ლატჲიენო წინადადებ
 citation =
     .label = წყარო, მიჩრენა იცნეჲშ წინადადებ
