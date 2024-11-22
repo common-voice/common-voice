@@ -44,3 +44,4 @@ sc-review-rules-title = ლიმა წინადადება რეკო
 sc-review-empty-state = ამწა̈მჟი ალ ნინჟი განსახილველ წინადადება̈ლ მა̄მ ა̈რიხ.
 report-sc-different-language = იშგენ ნინ
 report-sc-different-language-detail = ალა იშგენ ნინჟი ლი ლჷი̄რ, მი ერ ხუ̂ამოწმა̈ნი ეჩეჟი მა̄დე.
+sentences-fetch-error = წინადება̄̈ ლაკადჟი̄ნ ათხუ̂იდდა შეცდომა
