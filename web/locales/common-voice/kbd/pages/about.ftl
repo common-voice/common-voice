@@ -1,5 +1,6 @@
 ## ABOUT US
 
+about-title = Сыт щхьэкӏэ Common Voice?
 
 ## How does it work section
 
@@ -8,6 +9,7 @@ about-speak = Къэпсалъэ
 about-listen = КъэдаӀуэ
 about-yes-votes = ≥ 2 ӏэ ӏэт нэхъыбэ
 about-no-votes = ≥ 2 зыри ӏэ ӏэт щыӏэкъым
+about-get-involved = Хэхьэ
 about-nav-why-common-voice = Сытым щхьа?
 about-nav-how-it-works = Дау?
 about-nav-partners = Лэжьэгъу
@@ -19,6 +21,7 @@ about-nav-get-involved = Хэхьэ
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Сайтыр зэдзэкӏ
 about-playbook-how-add-language-collecting-sentences-heading = Псалъэухахэр зэщӏекъуэ
 
 ## How does localization work
