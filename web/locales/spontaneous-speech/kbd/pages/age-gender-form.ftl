@@ -10,3 +10,5 @@ thank-you-for-your-information = Уи щӏэныгъэм щхьэкӏэ упсэ
 ## Gender dropdown
 
 male_masculine = Цӏыхухъу
+female_feminine = Цӏыхубз
+do_not_wish_to_say = Жысӏэну сыхуейкъым
