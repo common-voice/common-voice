@@ -31,6 +31,9 @@ review-aborted = Илъхьэныр зэпыудащ. Уи тетхэхэр те
 review-submit-title = Еплъыжи егъэхь
 review-recording = Хэплъэ
 review-rerecord = Тетхэж
+review-cancel = Хуэгъэхьыныр къутэж
+terms-agree = Содэ
+terms-disagree = Сыдэркъым
 
 ## MENU ITEM TOOLTIPS
 
