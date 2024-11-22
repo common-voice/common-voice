@@ -3,7 +3,7 @@ action-tap = tap etin
 contribute = emasin
 review = review etin
 skip = phat etin
-shortcuts = shaartkat
+shortcuts = choor etas
 clips-with-count-pluralized =
     { $count ->
         [one] clip
