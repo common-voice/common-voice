@@ -24,6 +24,7 @@ size-gigabyte = გბ
 size-megabyte = მბ
 confirm-no-identify = დარი́ ლე́ვდუჲში, მე ცო ცადლ́აჲში̆ Common Voice-ეჼ ა́შირ ჩანაწერა́ჼ კრე́ბულე  ფლოქ ჩუ დეჸენჩუჲშნა́ ვინაობ ხაჸარ?
 confirm-join-mailing-list = ლეჸი შუჼ Common Voice-ეჼ ელფოსტ ჯგუფეჼ ნაყბისტ თაგლალო?
+download-language = აჰ ბე́წე̆ ბჵო́ფბალაჼ/ბე́წე̆ ჩამოტვირთოდბალაჼ { $language }  ?
 data-download-yes = ჰაჸ
 data-download-deny = ცო
 data-other-goto = { $name }-მაქ დო́ტარ
