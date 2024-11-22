@@ -94,7 +94,9 @@ community-and-languages = Tekoha ha ñe’ẽnguéra
 about-menu-tooltip = Juaju, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
 partnerships-menu-item-tooltip = Eike orendive
 press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
+community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha ayvu opavaveguáva
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Poravokuaa renda rehegua
+partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua rehe
