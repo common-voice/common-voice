@@ -25,6 +25,7 @@ demo-account-sign-up = ბმულ ჲაჰ̦ითარ
 
 ## Demo Contribute
 
+demo-contribute-card-header = ქჵი́ქინუ́ჲ და́ჲში̆, მე მაქ ლატჲო́ლუჲში̆ შუჼ ი́შ, ლე მა́ ლარკ ჺო́ფლუჲში̆?
 
 ## Demo Dashboard
 
