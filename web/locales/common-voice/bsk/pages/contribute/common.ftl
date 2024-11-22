@@ -36,9 +36,21 @@ shortcut-record-toggle = r
 shortcut-rerecord-toggle = hik cum chindi
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = phar mane
+shortcut-submit-label = clip jama eti
+request-language-text = common voice ulo maymo baaṣ  darum apiya?
+request-language-button = baaṣe buyat etin
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
