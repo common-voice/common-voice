@@ -27,6 +27,7 @@ confirm-join-mailing-list = ლეჸი შუჼ Common Voice-ეჼ ელფ
 download-language = აჰ ბე́წე̆ ბჵო́ფბალაჼ/ბე́წე̆ ჩამოტვირთოდბალაჼ { $language }  ?
 validated-hours = დარა́ლ'ინო̆ სა́ვთი
 recorded-hours = ჩაწე́რადიენო̆ სა́ვთი
+whats-inside = ჩუჰ̦ უ̂ხუშ და Common Voice მონაცემა́ კრე́ბულე?
 data-download-yes = ჰაჸ
 data-download-deny = ცო
 data-other-goto = { $name }-მაქ დო́ტარ
