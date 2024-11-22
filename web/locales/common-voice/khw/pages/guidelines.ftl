@@ -88,6 +88,6 @@ adding-sentences-subheader-offensive-content = شوم مواد
 adding-sentences-subheader-offensive-content-explanation = جملا کی شوم یا پریشانیو لو کی اوشوئی۔ یا <communityGuidelines>کمیونیٹیو رہنمائی<communityGuidelines> سورا عمل کی نو کوری اوشوئے، تھے جملو رد کو۔ مسلو اسپہ نسا اوسنیکو بچین ہیہ <emailFragment>commonvoice@mozilla.com</emailFragment> کوری ای میل کو۔
 reviewing-sentences-explanation-1 = جملہ کی سورا  ہے شرطو پورا کی کویان تھے "دی" بٹینو دیت
 reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا نو کویان تھے "نو" بٹینو دیت
-reviewing-sentences-explanation-3 = اگر جملو پارا تہ یقین کی نیکی، تو ہرو پیݯھی پروشٹی بیکو بوس
+reviewing-sentences-explanation-3 = اگر جملو بارا تہ یقین کی نیکی، تو ہرو پیݯھی پروشٹی بیکو بوس
 reviewing-sentences-explanation-4 = تہ سوم جملہ والوڑیکو بچین ختم کی ہونی، اسپہ سوم خور جملہ بڑاڅیکا مدد کو
 domain-explanation = دائرہ جملو موضوع حوالہ دویان۔ ہنیسے تو ہمیتان موژار ای غو گنیکو بوس:
