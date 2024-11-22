@@ -122,14 +122,14 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ 1 წამე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲარენდალლა
-       *[other] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ ფეჰ. დეხოთხ ჩუ სტეხ { $retryLimit } წამე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲარენდალლა
+        [one] აჰ̦ ჴეჲჩნა́ დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდენმაქ". დეხო́თხ ჩუ სტე́ხ 1 წა́მე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მადლობ ჰ̦̦ალო̆ ყე́პყჲარენდალლა́
+       *[other] აჰ ჴეჲჩნა́ დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდენმაქ". დეხო́თხ ჩუ სტე́ხ { $retryLimit } წა́მე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მადლობ ჰ̦ალო̆ ყე́პყჲარენდალლა
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences }წინადადებ ჲა მიღებადჲელნო 1-ხიჼ
-       *[other] { $uploadedSentences }წინადადებ ჲა მიღებადჲელნო { $totalSentences }-ხიჼ
+        [one] { $uploadedSentences }წინადა́დებ ჲა მიღე́ბადჲელნო̆ 1-ხიჼ
+       *[other] { $uploadedSentences }წინადა́დებ ჲა მიღე́ბადჲელნო̆ { $totalSentences }-ხიჼ
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
