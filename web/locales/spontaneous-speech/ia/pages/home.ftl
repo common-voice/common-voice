@@ -1,5 +1,8 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Benvenite in Parlar spontaneemente
+# <br></br> represents a newline break
+wall-of-text = Common Voice lancea un secunde platteforma attente a colliger discursos non scripte, organic e spontanee. Isto adjutara plure communitates a colliger datos plus rapidemente, e esser utile pro scientistas de datos e disveloppatores.
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Sollicitation</mark>
 # text wrapped in <mark></mark> will have a blue background
