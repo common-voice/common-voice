@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = შედგენადარ
+write = შედგე́ნადარ
 write-instruction = მაქ ლატდებათ <icon></icon>წინადადბი ჰამანეჸ საკუთრებელეჼ
 write-page-subtitle = ესე ფლოქოღ დეჸენო წინადადბი მაქ ლეჲტო ჰამინაჲნოყ ქოჴაპტუჲნი კრებულენ cc-0 ლიცენზიევ
 sentence =
