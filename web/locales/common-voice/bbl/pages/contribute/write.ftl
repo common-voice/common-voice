@@ -116,8 +116,8 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ გვერდმაქ""". დეხოთხ ჩუ სტეხ 1 წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
-       *[other] აჰ ჴეჲჩნა დაჰ დახითარ მიჯნეგომციჼ ეჴ "გვერდმაქ". დეხოთხ ჩუ სტეხ { $retryLimit } წუთე წინ წინადადებ ჲახითლომციჼ. მადლობ ჰალო ყეპყჲრენდალლა
+        [one] აჰ̦ ჴეჲჩნა დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდმაქ". დეხო́თხ ჩუ სტეხ 1 წუთე წინ წინადა́დებ ჲახითლო́მციჼ. მა́დლობ ჰ̦ალო̆ ყე́პყჲარენდალლა́
+       *[other] აჰ̦̦ ჴეჲჩნა დაჰ̦̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდმაქ". დეხო́თხ ჩუ სტეხ { $retryLimit } წუთე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მა́დლობ ჰ̦ალო̆ ყე́პყჲარენდალლა
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
