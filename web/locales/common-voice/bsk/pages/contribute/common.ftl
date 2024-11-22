@@ -35,6 +35,7 @@ shortcut-skip = chindi
 shortcut-record-toggle = r
 shortcut-rerecord-toggle = hik cum chindi
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = phar mane
 
 ## Listen Shortcuts
 
