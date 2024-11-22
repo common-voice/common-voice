@@ -19,6 +19,9 @@ contribute-more =
 speak-empty-state = Мы бзэмкӏэ псалъэуха тегъэтхын къэнэжакъым...
 no-sentences-for-variants = Уи псэлъэкӏэмкӏэ мыпхуэдэ псалъэуха щапхъэ къэнэжакъым! Пфӏэигъуэмэ, нэгъуэщӏ псалъэухахэр плъагъуным папщӏэ уи настройкэхэр зэблэхъу.
 speak-empty-state-cta = Псалъэухахэм къыхэлъхэ
+speak-loading-error =
+    Уедэӏуэн щхьэкӏэ  макъ тетхар ауэ къэдгъуэтыфакъым.
+    Кхъыӏэ, итӏанэ аргуэру еплъыж.
 record-button-label = Уи макъ егъэтх
 share-title-new = Макъ трезгъэтхэфын иджыри <bold>къытхуэгъуэт</bold>
 keep-track-profile = Профил зэгъэпэщи уи хэхъуэныгъэм кӏэлъыплъ
@@ -144,3 +147,6 @@ contribution-volume-description = There will be natural variations in volume bet
 contribution-reader-effects-title = Reader Effects
 contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
 contribution-just-unsure-title = Just Unsure?
+contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
+see-more = <chevron></chevron>See more
+see-less = <chevron></chevron>See less

@@ -33,11 +33,23 @@ review-submit-title = Еплъыжи егъэхь
 review-recording = Хэплъэ
 review-rerecord = Тетхэж
 review-cancel = Хуэгъэхьыныр къутэж
+review-keep-recordings = Тетхахэр  Ӏыгъ
+review-delete-recordings = Тестхахэр  игъэкI
 terms-agree = Содэ
 terms-disagree = Сыдэркъым
+first-cta-subtitle-text = Дауэ узэрыпсэлъа теухуауэ тӀэкӀу щӀэныгъэ къедгъэхьыну ухуей?
+why-donate = Сыт ущIэупщIэрэ?
+second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы  макъ тэзыха адрей цӀыхухэми нэуасэ пхуэхъуфынущ.
+already-have-an-account = Напэкӏуэцӏ уиӏэ ? "" <login>щӏэхьэ<login>
+create-profile-button = Напэкӏуэцыщӏэ къагъэкӏ
+# IMAGE TAGS
+img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
+# menu item
+read-sentences = Псалъэухахэр еджэ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Псалъэухахэр еджэ, Упщӏэхэм жэуап ет
 
 ## MENU ITEM ARIA LABELS
 
