@@ -91,14 +91,14 @@ bulk-submission-success-header = მადლობ წინადა́დბ�
 bulk-submission-success-subheader = ა́ჲში̆ ლეტი́შ  Common Voice-ეჼ წინადა́დბი ვაშა́რ ჲაჰ̦აჼ დი́ნლუჩო̆ პირბეხ დაჰ̦ ცო თილ'აჼ
 upload-more-btn-text = სოუბო̆ წინადა́დბი ჰ̦ალო̆ ჴო́წჲანი́ ლე́ჸ შუჼ?
 file-invalid-type = ხარც ფა́ილ
-file-too-large = ფაილ წყეგეჸ დაჴჴოჼ და
-file-too-small = ფაილ წყეგეჸ კაწკოჼ და
-too-many-files = წყეგეჸ დუჴ ფაილი და
+file-too-large = ფა́ილ წყეგეჸ დაჴჴოჼ და
+file-too-small = ფა́ილ წყეგეჸ კაწკოჼ და
+too-many-files = წყეგეჸ დუჴ ფა́ილი და
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = ლატდებათ მელ'მი <icon></icon>წინადადებ ჰამანეჸ საკუთრებელეჼ
+small-batch-instruction = ლა́ტდებათ მელ'მი <icon></icon>წინადა́დებ ჰამა́ნეჸ საკუთრებელეჼ
 multiple-sentences-error = ცო ლატოდმაკ შუჼ მელ'მი წინადადებ ცჰაცა-ცჰაცა ჩუ ჴეჰოშ
 exceeds-small-batch-limit-error = ცო მოჴერჴბალა 1000-ეხ საბუხ წინადადბი დაჰ ჲახითარ
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
