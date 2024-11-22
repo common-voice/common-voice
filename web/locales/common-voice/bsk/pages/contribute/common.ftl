@@ -34,6 +34,7 @@ shortcut-skip = chindi
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-rerecord-toggle = hik cum chindi
+shortcut-discard-ongoing-recording = ESC
 
 ## Listen Shortcuts
 
