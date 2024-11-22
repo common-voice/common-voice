@@ -32,12 +32,14 @@ dataset-description-hours = ცჰ̦აც მონაცემ წარმო
 want-dataset-update = ლე́ჸი შუჼ წინ ამბუჲ ხაჸაჼ Common Voice-ეჼ წი́ნ მონაცემა́ჼ კრე́ბულ იხითოშ? გამოწე́რადებათ თხეჼ წინჩო̆ ამბოჼ ცნო́ბარ
 data-download-yes = ჰაჸ
 data-download-deny = ცო
+data-other-title = იშა́რეჼ მონაცე́მია́ ჴე́ნი კრე́ბულია́
 data-other-goto = { $name }-მაქ დო́ტარ
 data-other-download = მონაცე́მი აჰდჵო́ფარ
 data-bundle-button = მონაცემაჼ კრე́ბულ აჰდჵო́ფარ
 data-bundle-description = მონაცე́მი აჰდჵო́ფარ
 release-version = ნჵაჲჸ დაითარ/გამოშვებ
 dataset-date = თა́რიღ
+license = ლიცენზია:<licenseLink>{ $license }</licenseLink>
 license-mixed = ვაშა́რ ე́გდიენო
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = აჰდჵოფათ თხეჼ იშარეჩო მონცემაჼ ნაკრებ
