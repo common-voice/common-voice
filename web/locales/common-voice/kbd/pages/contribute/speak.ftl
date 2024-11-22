@@ -24,6 +24,7 @@ review-instruction = Еплъыжи хуейуэ щытмэ мыбы ит кли
 record-submit-tooltip = { $actionType } хьэзыр щыхъуам егъэхь
 clips-uploaded = Клипхэр илъхьа хъуащ
 record-abort-title = Япэ щӀыкӀэ тетхэныр ухын?
+record-abort-text = Иджыпсту икlыжыным уи ефӏэкӏуэныгъэр бгъэкӏуэдыну къокӏ
 record-abort-submit = Клипхэр егъэхь
 record-abort-continue = Тетхэныр ух
 record-abort-delete = Къыхэкlыжи клипхэр тегъэкlыж

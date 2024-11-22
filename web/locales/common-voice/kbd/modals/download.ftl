@@ -1,3 +1,4 @@
 ## Download Modal
 
-download-no = Хьэу, упсэу
+download-title = Къепхьэхыныр хуежащ
+download-no = Хьэуэ, упсэу
