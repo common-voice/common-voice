@@ -37,7 +37,7 @@ single-sentence = ცალკ წინადა́დებ
 small-batch-sentence = კაძიკ
 bulk-sentence = დუჴ
 sentence-domain-combobox-label = წინადა́დბეჼ დარგ
-sentence-domain-select-placeholder = ჲაგჲებათ ჴაეგომციჼ დარგ
+sentence-domain-select-placeholder = ჲაგჲებათ ჴა́ეგომციჼ დარგ
 # Sentence Domain dropdown option
 agriculture_food = ფჰეჼ მეურნეობაჲ, ჴალლ-მალ'არაჲ
 # Sentence Domain dropdown option
