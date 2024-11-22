@@ -11,7 +11,9 @@ partnerships-governments-description = Wjeselimy so, angažement zjawneho sektor
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
 partnerships-academia-description = Wotewrjena inowacija je jadro našeho dźěła. <emailFragment>Stajće so z nami do zwiska</emailFragment>, jeli chceće slědźenske kooperacije, hromadźenje datow abo interviewy přewjesć.
 partnerships-small-business-header = Małe předewzaća, mjez nimi nowo załožene technologijowe předewzaća a  předewzaća KI
+partnerships-small-business-description = Pytamy přeco za informacijemi wužiwarjow datow wo jich potrěbnosćach a jich konteksće – wot zhromadneho dźěła na platformje za hromadźenje datow do dohladow do strowosće datow, <emailFragment>dajće wot so słyšeć</emailFragment>.
 partnerships-corporates-header = Wulke korporacije a předewzaća platformow
-partnerships-our-partners = Naši partnerjo
+partnerships-corporates-description = Jeli chceće wjace wo datowej sadźbje rěčeć, sobu do planowanych rozšěrjenjow platformy inwestować abo móžnosće za sobudźěło pytaće, <emailFragment>pisajće nam</emailFragment>.
+partnerships-our-partners = Naši partnerojo
 # menu item
 partners = Partnerojo
