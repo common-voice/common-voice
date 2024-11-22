@@ -91,6 +91,7 @@ community-and-languages = Tekoha ha ñe’ẽnguéra
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Juaju, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
 partnerships-menu-item-tooltip = Eike orendive
 press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
 
