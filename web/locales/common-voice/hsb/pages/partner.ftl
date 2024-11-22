@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerstwa
+partnerships-header-text = Je wjele trjeba, zo bychmy Common Voice zwoprawdźili! Nječinimy to sami. Chceće z nami hromadźe dźěłać? Bychmy so wjeselili wot was słyšeć.
 partnerships-get-in-touch = Kontakt
 partnerships-become-a-partner = Budźće partner Common Voice
 partnerships-community-header = Zhromadnosć, kreatiwni a ciwilna towaršnosć
