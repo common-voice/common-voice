@@ -58,3 +58,6 @@ login-identity = لاگ ان شناخت
 login = لاگ ان
 edit = تبدیلی کرو
 email-subscriptions = ای میل سبسکرپشناں
+download-profile = مڑا ڈیٹا ڈاؤنلوڈ کرو
+contribution-experience = حصہ بینڑا دا تجربہ
+skip-submission-feedback = سبمشن فیڈبیک چھوڑو
