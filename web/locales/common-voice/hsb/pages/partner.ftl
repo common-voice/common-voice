@@ -9,6 +9,7 @@ partnerships-foundations-description = Dźěłamy ze załožbami, ciwilnej towar
 partnerships-governments-header = Knježerstwa
 partnerships-governments-description = Wjeselimy so, angažement zjawneho sektora w technologiji, inowaciji a rěčnych prawach podpěrać. Jeli planujeće wjetši projekt abo kampanju přewjesć, <emailFragment>stajće so prošu z nami do zwiska</emailFragment>.
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-academia-description = Wotewrjena inowacija je jadro našeho dźěła. <emailFragment>Stajće so z nami do zwiska</emailFragment>, jeli chceće slědźenske kooperacije, hromadźenje datow abo interviewy přewjesć.
 partnerships-small-business-header = Małe předewzaća, mjez nimi nowo załožene technologijowe předewzaća a  předewzaća KI
 partnerships-corporates-header = Wulke korporacije a předewzaća platformow
 partnerships-our-partners = Naši partnerjo
