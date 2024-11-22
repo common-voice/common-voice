@@ -54,3 +54,5 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = criteria
+contribution-criteria-page-title = contribution criteria
