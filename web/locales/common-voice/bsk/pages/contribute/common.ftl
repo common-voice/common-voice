@@ -9,6 +9,9 @@ clips-with-count-pluralized =
         [one] clip
        *[other] clips
     }
+vote-yes = awa
+vote-no = beeya
+datasets = dataseting
 
 ## Reporting
 
