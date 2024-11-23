@@ -47,6 +47,15 @@ report-ask = guke jumlane kaa beshko ćaqoṭimiṅ mayar ẓuc̣ican
 report-offensive-language = mes meeyalsyo baaṣ
 report-offensive-language-detail = guke jumaln mes meeyalas baaṣulo bican
 report-grammar-or-spelling = grammar yaa spelline ṭhis pisin
+report-grammar-or-spelling-detail = jumlanulo grammar yaa spelline ṭhis pisin bican.
+report-different-language = thum baaṣan
+report-different-language-detail = jaa ġaraas ite cum khot thum baaṣanulo girminaan
+report-difficult-pronounce = seyar ḍoom bila
+report-difficult-pronounce-detail = khutulo lafzin ke bariṅ ġatayar ḍom bican
+report-offensive-speech = mes ćakali meetas bariṅ
+report-offensive-speech-detail = gute clipulo mes meeyals bariṅ bican
+report-other-comment =
+    .placeholder = raay mićhin
 success = kamyaabi
 continue = duro egucaras
 report-success = report kaamiyaabiate pass manimi
@@ -61,8 +70,11 @@ shortcut-skip = chindi
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = record etin/cat etin
 shortcut-rerecord-toggle = hik cum chindi
+shortcut-rerecord-toggle-label = dubara record etum clip
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = manum ite record eeri
 shortcut-submit = phar mane
 shortcut-submit-label = clip jama eti
 request-language-text = common voice ulo maymo baaṣ  darum apiya?
@@ -73,6 +85,7 @@ request-language-button = baaṣe buyat etin
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = eġarin/cat etin
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
