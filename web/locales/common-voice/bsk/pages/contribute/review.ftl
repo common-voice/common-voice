@@ -38,3 +38,13 @@ sc-review-link = hik ke barenas
 
 sc-criteria-modal = hik ke barenase criteria
 sc-criteria-title = hik ke barenase criteria
+sc-criteria-make-sure = barenin ke jumlane yarum ike criteria juwan maniś
+sc-criteria-item-1 = jumlane spelling sahi maniṣ
+sc-criteria-item-2 = jumlan grammatically sahi maniṣ
+sc-criteria-item-3 = jumlan senaso maniṣ
+sc-criteria-item-4 = jumla criteria juwan manimi ke doẏpamo button approve eti
+report-sc-different-language = thum baaṣan
+report-sc-different-language-detail = jaa girminas ite cum khot thum baaṣanulo review etin
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = mi uynko tabdiiliminik ećabaan
+sc-redirect-page-subtitle-2 = mimacum matrix, discourse yaa email ate mima cum duġarusin
