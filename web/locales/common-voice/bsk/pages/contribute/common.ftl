@@ -24,16 +24,27 @@ record-button-label = maćhar record etin
 share-title-new = maziid ućhariṅ diushar mirin ce duunin
 keep-track-profile = maimo durue progress profile kaa esaljume hurṭin
 login-to-get-started = log in or sign up ne shuru etin
+target-segment-first-card = maa mii yarkamus target segmentulo meer emashaan
+target-segment-generic-card = common voice yarkamsum target segment desmansulo mirin ce duunin
+target-segment-first-banner = common voice yarkamsum target segment desmansulo mirin ce duunin
+target-segment-add-voice = maćhar kaa etin
+target-segment-learn-more = daa henin
+change-preferences = preference badal etin
+login-signup = log in/ sign up etin
 vote-yes = awa
 vote-no = beeya
 datasets = dataseting
+languages = baaṣiṅ
 about = baaraulo
+partner = kaatumisho
 submit-form-action = jama etin
 
 ## Reporting
 
 report = xabar orin yaa report etin
 report-title = report jama etin
+report-ask = guke jumlane kaa beshko ćaqoṭimiṅ mayar ẓuc̣ican
+report-offensive-language = mes meeyalsyo baaṣ
 success = kamyaabi
 continue = duro egucaras
 report-success = report kaamiyaabiate pass manimi
