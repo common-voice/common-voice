@@ -32,7 +32,7 @@ vote-no = ცო
 datasets = კრე́ბული
 languages = მატტიშ
 about = თხოხ ?
-partner = ცჰ̦ა́ღწილდეჲნო̆ (თანამონაწილ)
+partner = ცჰ̦ა́ღწილდეჲნო̆ /თანამონაწილ
 submit-form-action = დაჰ̦ითარ
 
 ## Reporting
@@ -40,10 +40,10 @@ submit-form-action = დაჰ̦ითარ
 report = მოხსე́ნბადარ
 report-title = მოხსე́ნებ ჲაჰ̦ითარ
 report-ask = უ̂ხ ხარვეზ ჲეჲგნა́ წინადა́დბე?
-report-offensive-language = ჺაფარლაჲნი̆ შინაარს
-report-offensive-language-detail = ნიფსხოლეწიჼ, ლე მა ჺაფარლაჲნი̆ შინაარსეჼ წინადადებ ჲა
-report-grammar-or-spelling = გრამატიკულ/ორთოგრაფიულ ხარცხილ'არ
-report-grammar-or-spelling-detail = წინადა́დებ ლე გრამა́ტიკულ, ლე ორთოგრაფიულ შეცდომა́რეჼ ჲა
+report-offensive-language = ჺა́ფარლაჲნი̆ შინაარს
+report-offensive-language-detail = ნიფსხოლეწიჼ, ლე მა ჺა́ფარლაჲნი̆ შინაარსეჼ წინადადებ ჲა
+report-grammar-or-spelling = გრამა́ტიკულ/ორთოგრა́ფიულ ხარცხილ'არ
+report-grammar-or-spelling-detail = წინადა́დებ ლე გრამა́ტიკულ, ლე ორთოგრა́ფიულ შეცდომა́რეჼ ჲა
 report-different-language = ჴენაჸ მოტტ
 report-different-language-detail = წერალა ას ამბუჲ ჲუჲჩო მატტახ ცოთარ'ლენო მატტავ
 report-difficult-pronounce = ჭირვეჲში̆ ალ'უჲნი̆ და
