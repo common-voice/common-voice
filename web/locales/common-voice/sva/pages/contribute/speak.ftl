@@ -58,9 +58,14 @@ second-cta-header-text = მაჴუ̂მა̄̈რ ისგუ̂ა ჰერ
 second-cta-subtitle-text = პროფილი საშუალებოშ ჩუ ჯა̈მჲედა ისგუ აქტივობა̄̈ ლითე̄უ̂რა̄̈ლი ი ხმოვან მონაცემრე საზოგადოება̄̈ წევრალცახა̈ნ დაკავშირება.
 already-have-an-account = უკვე ჩუჯუღუ̂მა ანგარიშ?<login>სგალი̄ზი</login>
 create-profile-button = ჟახა̈სყ პროფილ
+# IMAGE TAGS
+img-alt-success-checkmark = წარმატება̄̈ ნიშა̈ნ
+# menu item
+read-sentences = ქ'ა̄̈თჭოდა̄̈ნ წინადადება̄̈ლ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = ქ'ა̄̈თჭოდა̄̈ნ წინადადება̄̈ლ, ლოხპასუ̂იხუ̂ კითხვა̄̈ლს
 
 ## MENU ITEM ARIA LABELS
 
