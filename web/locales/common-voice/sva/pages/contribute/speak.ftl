@@ -36,6 +36,9 @@ review-rerecord = მახად ლიჲრი
 review-cancel = ლიზზი̄ ჩულიუქმა̈უ̂ი
 review-keep-recordings = ჟილა̈ხიშხუ̂ნ სგანა̈ირუ̂ა̈ლ
 review-delete-recordings = ჟახაღრ მიშგუ ნა̈ირუ̂ა̈ლ
+review-terms = Common Voice-ე ლაჴა̈რშუ̂ სი თანახმა ხი <termsLink> პირობლეშ</termsLink> ი<privacyLink> კონფიდენციალურობა̄̈ ლიბჟი̄ნე̄მიშ </privacyLink>
+terms-agree = მი ყაბულს ხუ̂ი
+terms-disagree = მი მა̄მ ხუ̂ი ყაბულს
 
 ## MENU ITEM TOOLTIPS
 
