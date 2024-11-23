@@ -1,18 +1,18 @@
 action-click = წკაპ ბებ
-action-tap = მაქა ნიწყ ბებ
+action-tap = მაქა́ ნიწყ ბებ
 contribute = და́ყ ჩუ დაჰ̦არ { $count }
-review = შემოწმადარ (დაყყდარ)
+review = დაყყდარ/შემო́წმადარ
 skip = დაჰ̦ დითარ
-shortcuts = ქაშშეჸ კლევადუჲლრიკი
+shortcuts = ქაშშეჸ კლე́ვადუჲლრიკი/მალსახმო́ბი
 clips-with-count-pluralized =
     { $count ->
         [one] ჩანაწერ
        *[other] { "" }
     }
 goal-help-recording = აჰ ლატრევ Common Voice-ე დინლუჩო მიზნეჼ { $goaIValue }  ჩანაწერეჼ<goaIPercentage></goaIPercentage> ჰალ დოდალიჼ!
-goal-help-validation = აჰ ლატრევ Common Voice-ე დინლუჩო მიზნეჼ { $goaIValue }  შემოწმებეჼ (დაყყდარეჼ)<goaIPercentage></goaIPercentage> ჰალ დოდალიჼ!
-contribute-more = ლე́ჸი ჰ̦ონ ტყო́ჸ { $count } თაგდარ?
-speak-empty-state = ეჴ მატტანეჲნო̆ წინადა́დბი ჰალო̆ ჴა́ჩჲალიჼ
+goal-help-validation = აჰ̦ ლა́ტრევ Common Voice-ე დინლუჩო̆ მიზნეჼ { $goaIValue }  დაყყდარეჼ/შემოწმადარეჼ <goaIPercentage></goaIPercentage> ჰ̦ალო̆ დოდალიჼ!
+contribute-more = ლე́ჸი ჰ̦ოჼ თაგდარ ტყო́ჸ { $count } ?
+speak-empty-state = ეჴ მატტანაჲნო̆ წინადა́დბი ჰ̦ალო̆ ჴა́ჩჲალიჼ
 no-sentences-for-variants = შაძლე́ბალა ჰ̦ალო̆ ჴაჩჲაჲლნო́ლო̆ ცჰ̦ენნაჲრეჼ წინადა́დბი. ჰ̦ონაჲნო̆ ძნელ ცო და́ჰ̦, მაკ ჰ̦ოჼ პარამეტრი ხა́რცჲოშ ჴენაჸ სა́ხეობეჼ წინადა́დბი გულო́ ეჴაჸ მატტიჼ
 speak-empty-state-cta = ფლო́ქოღ ლიბათ თხოჼ წინადა́დბი
 speak-loading-error = ცო ლე́ხლა ეჲში̆ ხატტუჲნი̆ წინადა́დბი. დეხო́თხ, ჴე́ნკაჸ ტყოჸ ცადლიბათ
