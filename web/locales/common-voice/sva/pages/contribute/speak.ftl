@@ -39,6 +39,9 @@ review-delete-recordings = ჟახაღრ მიშგუ ნა̈ირუ�
 review-terms = Common Voice-ე ლაჴა̈რშუ̂ სი თანახმა ხი <termsLink> პირობლეშ</termsLink> ი<privacyLink> კონფიდენციალურობა̄̈ ლიბჟი̄ნე̄მიშ </privacyLink>
 terms-agree = მი ყაბულს ხუ̂ი
 terms-disagree = მი მა̄მ ხუ̂ი ყაბულს
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = მაჴუ̂მა̄̈რ ისგუ voice კლიპა̈რღა!
+first-cta-subtitle-text = სი ისგუ თხუმე ბედჟი ნამბუ̂ა̄ლშუ̂ ხომურჯუ̂ი დეველოპერა̈ლს ხოშილ ინკლუზიურ ტექნოლოგიალე ლასყე̄ნას
 
 ## MENU ITEM TOOLTIPS
 
