@@ -17,6 +17,9 @@ record-three-more-instruction = ასა̈დ სემი!
 record-again-instruction = ბჷგიდ ხოჩა!<recordIcon></recordIcon> სგა̄თიჲრ ისგუ ამუნღუ̂ე̄ კლიპ
 record-again-instruction2 = ამჟი̄ნ! მახად ათიჲრ სგა <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ღუ̂ეშგინპილპილიშ!
+review-tooltip = ქა̄თსინჯაა̈უ̂ ი მახად ათი̄რ სგა კლიპ ამჩუ სგუ̂ებდ ლა̄ზდ
+share-clip = გააზიარე ისგუ კლიპ
+share-common-voice = გააზიარე Common Voice
 
 ## MENU ITEM TOOLTIPS
 
