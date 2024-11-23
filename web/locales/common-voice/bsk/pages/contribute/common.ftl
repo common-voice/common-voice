@@ -145,5 +145,5 @@ contribution-volume-description = qudrati farq meymi ġatanaśue ućhare velumul
 contribution-reader-effects-title = ġatanas ine asarin
 contribution-reader-effects-description = butan recordings sise uymo ućarulo bican. gayimo ućaring aumlo śatine ġaruan, khusr khusr manuaan yaa drama juwan ġaruan ke ike accept etin. ġarene yaa computer synthesized ućharing reject etin.
 contribution-just-unsure-title = leel api
-see-more = butan yeecin
+contribution-just-unsure-description = tey besan mayar ddimi amite guke guideline cover ayećibi ke maymo judgment cum vote etin. agar decide ettas amaamanuman ke skip netan next recording atar niin
 see-less = kaman yeecas
