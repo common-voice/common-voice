@@ -24,6 +24,7 @@ new-sentence-rule-8 = Зэрыпхузэфӏэккӏэ псалъэуха къы
 login-instruction-multiple-sentences = Псалъэуха зыбжанэ хэбгъэхьэн щхьэкӏэ <loginLink>ихьэ</loginLink> е <loginLink>зыхэтхэ</loginLink>
 how-to-cite = Хэкӏыпӏэ дауэ зэрагъэлъагъуэр?
 how-to-cite-explanation-bold = URL-линккӏэ е лэжьыгъэм и цӏэ псомкӏэ хэкӏыпӏэр къэгъэлъагъу.
+guidelines = Гъуазэхэр
 single-sentence-submission = Псалъэуха закъуэ егъэхьын
 small-batch-sentence-submission = Псалъэуха зыбжьанэ егъэхьын
 bulk-sentence-submission = Псалъэуха куэд егъэхьын

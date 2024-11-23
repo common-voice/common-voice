@@ -51,6 +51,10 @@ create-profile-text = Уи щӏэныгъэхэр пхъумэну ухуей? <
 thanks-for-voice-toast = Уи макъ щӏэныгъэхэм щхьэкӏэ фӏыщӏэ пхудощӏ
 thanks-for-voice-toast-error = Уи макъ щӏэныгъэхэр егъэхьа щыхъум щыуагъэ къэхъуащ
 first-cta-gender-select-default-option = Вариант къыхэх
+first-cta-gender-select-help-text =
+    .label = Уи лхугъэр хьэмэрэ уи зэрыбжыкӏэр дауэт зэрыптхыжынур?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Уи макъыр зэребгъэхьам щхьэкӏэ фӏыщӏэ пхудощӏ!
 second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы  макъ тэзыха адрей цӀыхухэми нэуасэ пхуэхъуфынущ.
 already-have-an-account = Напэкӏуэцӏ уиӏэ ? "" <login>щӏэхьэ<login>
 create-profile-button = Напэкӏуэцыщӏэ къагъэкӏ
@@ -62,6 +66,11 @@ read-sentences = Псалъэухахэр еджэ
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Псалъэухахэр еджэ, Упщӏэхэм жэуап ет
+read-sentences-menu-item-tooltip = Уи бзэкӏэ псалъэуха ущеджэм езым зытетхэж
+answer-questions-menu-item-tooltip = Уи бзэкӏэ упщӏэхэмрэ чэнджэщхэмрэ жэуап щептым езым зытетхэж
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Псэлъэкӏэ теухуэныгъэхэм и меню
+read-sentences-menu-item-aria-label = Зэхэтым бзэ зэмыщхьхэмкӏэ къыригъэхьа псалъэухахэм еджэ
+answer-questions-menu-item-aria-label = Зэхэтым еджэу жэуап иритыну упщӏэщӏэ хуегъэхь
