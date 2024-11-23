@@ -42,6 +42,7 @@ terms-disagree = მი მა̄მ ხუ̂ი ყაბულს
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = მაჴუ̂მა̄̈რ ისგუ voice კლიპა̈რღა!
 first-cta-subtitle-text = სი ისგუ თხუმე ბედჟი ნამბუ̂ა̄ლშუ̂ ხომურჯუ̂ი დეველოპერა̈ლს ხოშილ ინკლუზიურ ტექნოლოგიალე ლასყე̄ნას
+why-donate = იმღა მეჭუ̂დიე̄ლ?
 
 ## MENU ITEM TOOLTIPS
 
