@@ -1,15 +1,17 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Зыри бзэ къыхэфхакъым. Абы папщӀэ фи <profileLink> профилым </profileLink> фыкӀуэ.
-sc-review-title = Псалъэухахэр зэпыплъыхь
-sc-review-loading = Псалъэухахэр къех
-sc-review-select-language = Псалъэухахэр къызэрыфпщытэну бзэр къыхэфх.
-sc-review-no-sentences = Иджыпстукӏэ къэпщытэн хуей псалъэуха щыӏэкъым. <addLink> Иджы псалъэуха куэд къыхэвгъэхьэ хъунущ! </addLink>
+sc-review-lang-not-selected = Зы бзэ ауэ къыхэпхакъым. Бзэхэр къыхэпхын щхьэкӏэ уи <profileLink>профилым</profileLink> кӀуэ.
+sc-review-title = Псалъэухахэм еплъыж
+sc-review-loading = Псалъэухахэр къох…
+sc-review-select-language = Кхъыӏэ, псалъэухахэм уеплъыжын щхьэкӏэ бзэ къыхэх.
+sc-review-no-sentences = Къэпщытэн хуей псалъэуха щыӏэкъым. <addLink>Иджыпсту псалъэуха нэхъыбэ къыхэгъэхьэ!</addLink>
+sc-review-form-prompt =
+    .message = Узэплъыжа псалъэухахэр егъэхьа хъуакъым. Укъыхэкӏыну ухуей?
 sc-review-form-usage = Ижьымкӏэ гъакӏуэ арэзы утехъуэнумэ. Сэмэгумкӏэ гъакӏуэ утемыхъуэнумэ. Ищхьэмкӏэ тебгъэкӏынумэ. <strong> Фи оценкэм щыхьэт фытехъуэну зыщывмыгъэгъупщэ! </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Хэкӏыпӏэр: { $sentenceSource }
-sc-review-form-button-reject = мыдэн
+sc-review-form-button-reject = Умыдэ
 sc-review-form-button-skip = Блэгъэкӏ
 sc-review-form-button-approve = Къащтэ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
@@ -31,6 +33,7 @@ sc-criteria-item-1 = Псалъэухар тэмэму тхын хуейщ.
 sc-criteria-item-2 = Псалъэухар грамматикэмкӀэ тэмэму хъун хуейщ.
 sc-criteria-item-3 = Псалъэухар макъкӀэ еджэгъуафӀэу щытын хуейщ.
 sc-criteria-item-6 = Узэплъыжьын фэе гущыПсалъэуха зыкӀэлъыплъыжын хуейхэр, зэфӀэкӀамэ нэхъыбэ псалъуха зэхуэхьэсынымкӀэ дэӀэпыкъуэгъу укъытхуэхъу
+report-sc-different-language = НэгъуэщӀыбзэ
 sentences-fetch-error = Псалъэухар къыщыIэрыхьэм, щыуагъэ къэхъуащ.
 review-error = Мы псалъэухар  щызэхагъэкIым, щыуагъэ къэхъуащ.
 review-error-rate-limit-exceeded = Фэ тIэкIу фопIащIэIуэ. Псалъэухам набдзэгубдзаплъэу фыхэплъэж, зэрыпэжыр хьэкъхъун папщIэ.
