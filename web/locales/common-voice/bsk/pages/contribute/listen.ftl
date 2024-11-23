@@ -16,6 +16,11 @@ validate-readings = ġatanase tasqii etin
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ġatanas tasdiiq etin daa transcrptions ar hik ke barenin
+validate-readings-menu-item-tooltip = guymo baaṣulo user recorded reading tasdiiq etin
+review-transcriptions-menu-item-tooltip = guymo baaṣulo usere kaa etum tranṣptions ar hik ke baren.
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = damayalase options menu
+validate-readings-menu-item-aria-label = kuyooć sisane jama etum readings e tasdiiq etin
+review-transcriptions-menu-item-aria-label = record etum julmane transcription warc ećar dubara baren
