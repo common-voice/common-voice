@@ -1,4 +1,4 @@
-speak = გარგლა
+speak = გა̈რგლა
 speak-now = ლა̈ხგჷრგა̈ლ ათხე
 speak-subtitle = ქალა̄ნო ისგუ ჰერ
 record-cta = ლიჲრი̄ ლიბნე
