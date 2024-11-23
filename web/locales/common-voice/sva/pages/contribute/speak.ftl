@@ -35,6 +35,7 @@ review-recording = მიმოხილვა
 review-rerecord = მახად ლიჲრი
 review-cancel = ლიზზი̄ ჩულიუქმა̈უ̂ი
 review-keep-recordings = ჟილა̈ხიშხუ̂ნ სგანა̈ირუ̂ა̈ლ
+review-delete-recordings = ჟახაღრ მიშგუ ნა̈ირუ̂ა̈ლ
 
 ## MENU ITEM TOOLTIPS
 
