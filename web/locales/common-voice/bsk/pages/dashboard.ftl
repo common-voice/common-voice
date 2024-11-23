@@ -41,7 +41,12 @@ build-custom-goal = custom goal an desman
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] gantaan duro etase personal goal dimeṣqataṣe meer madatt eti
-       *[other] gantain duro etase personal goal dimeṣqataṣe meer madatt eti
+       *[other] gantain duroin etase personal goal dimeṣqataṣe meer madatt eti
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] gantaan duro etase personal goal dimeṣqataṣe common voice ar madatt eti
+       *[other] gantain duroin etase personal goal dimeṣqataṣe common voice ar madatt eti
     }
 goal-interval-weekly = thalekuculo
 # $type is one of share-goal-type-*
