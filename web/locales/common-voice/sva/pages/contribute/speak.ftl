@@ -29,6 +29,8 @@ record-abort-submit = კლიპრე ქალიზზი
 record-abort-continue = ქ'ა̄თსურილ  სგალიჲრი
 record-abort-delete = ქალიჴედ ი ჟილიღრე კლიპრეშ
 review-aborted = სგაჲლიჲრი ჩუ̂აქუ̂ა̈ც. ჯაკუმა ისგუ სგანა̈ირლე ჟილიღრე?
+review-submit-title = ქა̄თსინჯა̈უ̂ ი ქა̄თზიზ
+review-submit-msg = მაჴუ̂მა̄̈რ სგანა̈ჲრუ̂ერ!<lineBreak></lineBreak> ათხე ქ'ა̄თსინჯა̈უ̂ ი ქ'ა̄თზიზ ისგუ კლიპა̈რ ჩუხიდ.
 
 ## MENU ITEM TOOLTIPS
 
