@@ -23,6 +23,7 @@ share-common-voice = გააზიარე Common Voice
 review-instruction = ქა̄თსინჯა̈უ̂ ი მაწჷხჟი მახად ათი̄რ სგა კლიპა̈რ
 record-submit-tooltip = { $actionType } ქ'ა̄თზიზ შომუ̂ა̄̈ჲ ბზათ ი̄რა
 clips-uploaded = კლიპ აიტვირთა
+record-abort-title = მა̄̈ნკუ̂ი ქ'ა̄ლზჷგრადმა ლიჲრი?
 
 ## MENU ITEM TOOLTIPS
 
