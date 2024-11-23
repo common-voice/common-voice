@@ -1,8 +1,29 @@
 ## Dashboard
 
+your-languages = maa baaṣ
+toward-next-goal = iciyatum goal yakal
+goal-reached = maqsadatar dimeṣqaltaṣ
+clips-you-recorded = maa record etum clips
+clips-you-validated = maa tasdiiq etum clips
+todays-recorded-progress = khultumo clips record etume common voice progress
+todays-validated-progress = khulto clips tasdiiq etume common voice progress
+stats = statistics yaa hisaaab kitaab
+awards = ocanase gane taqman
+you = un
+everyone = har hin
+contribution-activity = emasume activity
+top-contributors = uyoon cum but emasumiśo uwe
+recorded-clips = record etum clips
+validated-clips = tasdiiq etum clips
+total-approved = mukamal approved
+overall-accuracy = overall accuracy
+set-visibility = jaa barenas ite warc eti
+show-ranking = jaa ranking aartir
 
 ## Custom Goals
 
+get-started-goals = goals kaa duruo duun
+create-custom-goal = custom goal an desman
 goal-interval-weekly = thalekuculo
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = maymo gunc mo audio clip goal meer emasin
@@ -26,4 +47,14 @@ days =
     { $count ->
         [one] gunc
        *[other] guncin
+    }
+recordings =
+    { $count ->
+        [one] recording
+       *[other] recordings
+    }
+validations =
+    { $count ->
+        [one] tasdiiqan etas
+       *[other] tasdiiqin etas
     }
