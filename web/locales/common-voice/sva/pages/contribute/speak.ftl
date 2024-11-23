@@ -66,6 +66,8 @@ read-sentences = ქ'ა̄̈თჭოდა̄̈ნ წინადადებ�
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = ქ'ა̄̈თჭოდა̄̈ნ წინადადება̄̈ლ, ლოხპასუ̂იხუ̂ კითხვა̄̈ლს
+read-sentences-menu-item-tooltip = სგა̄თიჲრ იმჟი ხიჭუ̂და̄̈ნი წინადადება̄̈ლს ისგუ̂ა ნჷნჟი
+answer-questions-menu-item-tooltip = სგა̄თიჲრ კითხუ̂ა̄̈ლჟი პასუ̂ხუ̂ა̈რ ი რჩეუ̂ა̄̈ლ ისგუ̂ა ნჷნჟი
 
 ## MENU ITEM ARIA LABELS
 
