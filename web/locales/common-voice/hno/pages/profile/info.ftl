@@ -76,3 +76,4 @@ variant-contribution-help = زبان یا زبان دے خاندان بچ کجھ
 variant-contribution-option-1 = مڑی زبان بچ ساریاں لہجیاں دے جملے تے کلپ مکو دسو۔
 variant-contribution-option-2 = مک صرف مڑے لہجے دے جملے تے کلپ دسو
 variant-contribution-warning-title = ⓘ اجاں سارے جملیاں تے کلپاں دے لہجے دے ٹیگ نیں!
+variant-contribution-warning-subtitle = اگر تساں کو حصہ بینڑا بچ مشکل اے تے تسیں کسی بی ویلے آپنڑی زبان دا سارا مواد دیکھنڑے تے واپس سوئچ کر سکدے او۔
