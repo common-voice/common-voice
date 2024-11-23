@@ -45,28 +45,28 @@ report-offensive-language-detail = ნიფსხოლეწიჼ, ლე მ
 report-grammar-or-spelling = გრამა́ტიკულ/ორთოგრა́ფიულ ხარცხილ'არ
 report-grammar-or-spelling-detail = წინადა́დებ ლე გრამა́ტიკულ, ლე ორთოგრა́ფიულ შეცდომა́რეჼ ჲა
 report-different-language = ჴენაჸ მოტტ
-report-different-language-detail = წერალა ას ამბუჲ ჲუჲჩო მატტახ ცოთარ'ლენო მატტავ
-report-difficult-pronounce = ჭირვეჲში̆ ალ'უჲნი̆ და
-report-difficult-pronounce-detail = ოშტუჼ დაშნი დოუგ̆, მე ლე ხატტარ, ლე ა́ლ'არ ჭირვეჼ და
-report-offensive-speech = ჺაფარლაჲნი̆ ლევარ
-report-offensive-speech-detail = ჩანაწერ ლე ხარც ჲა, ლე ჺაფარლაჲნი̆ შინაარსეჼ
+report-different-language-detail = წე́რალა ას ა́მბუჲ ჲო́ჩო̆ მატტახ ცოთარ'ლენჩო̆ მატტავ
+report-difficult-pronounce = ჭირვეჲშ ალ'უჲნი̆ და
+report-difficult-pronounce-detail = ო́შტუჼ დაშნი დო́უგო̆, მე ლე ხატტარ, ლე ა́ლ'არ ჭირვეჼ და
+report-offensive-speech = ჺა́ფარლაჲნი̆ ლე́ვარ
+report-offensive-speech-detail = ჩანაწერ ლე ხარც ჲა, ლე ჺა́ფარლაჲნი̆ შინაარსეჼ
 report-other-comment =
     .placeholder = შენიშვნ
-success = ცერ ჲალ'ეჼ
-continue = გაგრძელებ
-report-success = მოხსენებ დაჰ̦ითარ დაქიშ ცერ დალ'ეჼ
+success = ცე́რ ჲა́ლ'ეჼ
+continue = გაგრძე́ლებ
+report-success = მოხსე́ნებ ჲაჰ̦ითარ დაქიშ ცერ და́ლ'ეჼ
 
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = ?
+shortcut-skip = t ?
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ?
-shortcut-record-toggle-label = ჩაწერადარ/დაჰ̦̦ მაყდარ
+shortcut-record-toggle = w ?
+shortcut-record-toggle-label = ჩაწე́რადარ/დაჰ̦̦ მაყდარ
 shortcut-rerecord-toggle = 1-5
 shortcut-rerecord-toggle-label = ქუჲრთლენა ჩაწე́რადარ
 shortcut-discard-ongoing-recording = ESC
