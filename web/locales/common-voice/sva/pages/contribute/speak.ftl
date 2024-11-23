@@ -10,6 +10,8 @@ record-no-mic-found = მიკროფონ მა̄მ ა̈ნთხა̄̈
 record-error-too-short = ნა̈ირ სურუ მეკუ̂შდე ლა̈სუ̂.
 record-error-too-long = ნა̈ირ სურუ ჯო̄დი ლა̈სუ̂.
 record-error-too-quiet = ნა̈ირ სურუ ჩქუ̂იმ ლა̈სუ̂.
+record-cancel = მახად ლიჲრი̄ ლიუ̂ქმა̈უ̂ი
+record-instruction = { $actionType }<recordIcon></recordIcon> ეჩუნღო ქა̄̈თჭოდა̄̈ნ წინადადება კჷლთხიდ
 
 ## MENU ITEM TOOLTIPS
 
