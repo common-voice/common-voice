@@ -24,6 +24,11 @@ review-instruction = ქა̄თსინჯა̈უ̂ ი მაწჷხჟი
 record-submit-tooltip = { $actionType } ქ'ა̄თზიზ შომუ̂ა̄̈ჲ ბზათ ი̄რა
 clips-uploaded = კლიპ სგა̄̈დტუ̂რთაუ̂ა̈ნ
 record-abort-title = მა̄̈ნკუ̂ი ქ'ა̄ლზჷგრადმა ლიჲრი?
+record-abort-text = ათხე ამხა̈ნქა ქ'ა̄̈ნჴდენი, სგუ̂ებდნა̄ზუ̂ ჩუჯითუ̂ფენი
+record-abort-submit = კლიპრე ქალიზზი
+record-abort-continue = ქ'ა̄თსურილ  სგალიჲრი
+record-abort-delete = ქალიჴედ ი ჟილიღრე კლიპრეშ
+review-aborted = სგაჲლიჲრი ჩუ̂აქუ̂ა̈ც. ჯაკუმა ისგუ სგანა̈ირლე ჟილიღრე?
 
 ## MENU ITEM TOOLTIPS
 
