@@ -56,6 +56,8 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = მაჴუ̂მა̄̈რ ისგუ̂ა ჰერი ბედჟი!
 second-cta-subtitle-text = პროფილი საშუალებოშ ჩუ ჯა̈მჲედა ისგუ აქტივობა̄̈ ლითე̄უ̂რა̄̈ლი ი ხმოვან მონაცემრე საზოგადოება̄̈ წევრალცახა̈ნ დაკავშირება.
+already-have-an-account = უკვე ჩუჯუღუ̂მა ანგარიშ?<login>სგალი̄ზი</login>
+create-profile-button = ჟახა̈სყ პროფილ
 
 ## MENU ITEM TOOLTIPS
 
