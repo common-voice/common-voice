@@ -141,5 +141,7 @@ contribution-background-voices-description-extended = agar recording cut meybila
 contribution-background-voices-example-1-title = Triassic-e juda uyonko dinosaurs
 contribution-background-voices-example-1-explanation = ma ẓuc̣aana ?
 contribution-volume-title = velium
+contribution-volume-description = qudrati farq meymi ġatanaśue ućhare velumulo. Reject etin agar velium but thanum bila or ućhar ćuruk meybila ke. daa agar ućhare but kam bila ke text ar aparanisr xaa besan senaan ke atimyajabaan
+contribution-reader-effects-title = ġatanas ine asarin
 see-more = butan yeecin
 see-less = kaman yeecas
