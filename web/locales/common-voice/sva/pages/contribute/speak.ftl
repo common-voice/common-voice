@@ -49,6 +49,12 @@ add-information-button = ჟესაქმ ინფორმაცია
 continue-speaking-button = მა̄მა, იუ̂ასუ ხა̈რი, გააგრძელე გა̈რგლა
 create-profile-text = ჯაკუმა ჩუ̂ა̈თშხუნა ისგუ ინფორმაცია?<createProfile> ჟახა̈სყ პროფილ</createProfile>
 thanks-for-voice-toast = მაჴუ̂მა̄̈რ ისგუ ლჷჰერ ინფორმაცია̄̈ ბედჟი
+thanks-for-voice-toast-error = ისგუ ლჷჰერ ინფორმაცია̄̈ ლაზზიჟი ათხუ̂ი̄დდა შეცდომა
+first-cta-gender-select-default-option = ჟ'ა̄̈ხითშ ვარიანტ
+first-cta-gender-select-help-text =
+    .label = იმჟი აღწერ სი ისგუ̂ა გენდერს?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = მაჴუ̂მა̄̈რ ისგუ̂ა ჰერი ბედჟი!
 
 ## MENU ITEM TOOLTIPS
 
