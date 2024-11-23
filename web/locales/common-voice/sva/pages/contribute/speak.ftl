@@ -55,6 +55,7 @@ first-cta-gender-select-help-text =
     .label = იმჟი აღწერ სი ისგუ̂ა გენდერს?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = მაჴუ̂მა̄̈რ ისგუ̂ა ჰერი ბედჟი!
+second-cta-subtitle-text = პროფილი საშუალებოშ ჩუ ჯა̈მჲედა ისგუ აქტივობა̄̈ ლითე̄უ̂რა̄̈ლი ი ხმოვან მონაცემრე საზოგადოება̄̈ წევრალცახა̈ნ დაკავშირება.
 
 ## MENU ITEM TOOLTIPS
 
