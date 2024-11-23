@@ -12,6 +12,8 @@ record-error-too-long = ნა̈ირ სურუ ჯო̄დი ლა̈ს�
 record-error-too-quiet = ნა̈ირ სურუ ჩქუ̂იმ ლა̈სუ̂.
 record-cancel = მახად ლიჲრი̄ ლიუ̂ქმა̈უ̂ი
 record-instruction = { $actionType }<recordIcon></recordIcon> ეჩუნღო ქა̄̈თჭოდა̄̈ნ წინადადება კჷლთხიდ
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> შომუ̂ა̄̈ჲ ქა̄თსურლი
+record-three-more-instruction = ასა̈დ სემი!
 
 ## MENU ITEM TOOLTIPS
 
