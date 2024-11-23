@@ -14,6 +14,9 @@ record-cancel = მახად ლიჲრი̄ ლიუ̂ქმა̈უ̂ი
 record-instruction = { $actionType }<recordIcon></recordIcon> ეჩუნღო ქა̄̈თჭოდა̄̈ნ წინადადება კჷლთხიდ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> შომუ̂ა̄̈ჲ ქა̄თსურლი
 record-three-more-instruction = ასა̈დ სემი!
+record-again-instruction = ბჷგიდ ხოჩა!<recordIcon></recordIcon> სგა̄თიჲრ ისგუ ამუნღუ̂ე̄ კლიპ
+record-again-instruction2 = ამჟი̄ნ! მახად ათიჲრ სგა <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ღუ̂ეშგინპილპილიშ!
 
 ## MENU ITEM TOOLTIPS
 
