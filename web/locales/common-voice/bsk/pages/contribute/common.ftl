@@ -96,5 +96,15 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = criteria
+contribution-criteria-link = contribution criteria masulo bisyain
 contribution-criteria-page-title = contribution criteria
+contribution-criteria-page-description = mićhare clip damyalus besanar barenas bila ke masulo bisyain daa maćhare recording shuwa ne ećar madat etin
+contribution-for-example = misaale toraṭe
+contribution-misreadings-title = aparc doyalas
+contribution-misreadings-description = damayalsulo śan ne barenin ke besan girmanam ke ite teylaṭe iyi record manila, kaman ke ṭhis manila kuli reject etin.
+contribution-misreadings-description-extended-list-1 = recording e yarmusulo ‘A’ yaa ‘The’ miss mani bi.
+contribution-misreadings-description-extended-list-2 = lafz e iljumuśulo ‘s’ miss mani bi
+contribution-misreadings-description-extended-list-3 = khut ne ġatanas amik ele api ke masala toraṭe ‘we’re ‘ senas ‘we are’ senase diśulo
+contribution-misreadings-description-extended-list-4 = choor recording etas waja te lafze iljumuś hisa oomanas
+contribution-misreadings-description-extended-list-5 = lafz ġatayar butan baar senas
 see-less = kaman yeecas
