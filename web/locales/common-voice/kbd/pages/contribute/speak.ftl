@@ -1,8 +1,8 @@
-speak = Къэпсалъэ
-speak-now = Иджыпсту къэпсалъэ
+speak = Псалъэ
+speak-now = Иджыпсту псалъэ
 speak-subtitle = Уи макъыр ет
-record-cta = Тетхэныр къыщӀэдзэ
-record-platform-not-supported = Ди жагъуэщ иджыпстукIэ фи платформэр зэрымылажьэр.
+record-cta = Тетхэн щӀэдзэ
+record-platform-not-supported = Ди жагъуэщ, уи платформэр иджыпстукӏэ зыщӏэгъэкъуакъым.
 record-platform-not-supported-desktop = Iэнэтет ӏэмэпсымэхэмкӏэ къебгъэхыу хэлъхьэ пщӏыфынущ
 record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
 record-must-allow-microphone = Микрофон екӏуэлӏапӏэм хуитыныгъэ ептын хуейщ.
