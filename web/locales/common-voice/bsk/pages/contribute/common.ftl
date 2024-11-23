@@ -1,4 +1,4 @@
-action-click = click etin
+action-click = click etas
 action-tap = tap etin
 contribute = emasin
 review = review etin
@@ -56,3 +56,4 @@ shortcut-vote-no = n
 
 contribution-criteria-nav = criteria
 contribution-criteria-page-title = contribution criteria
+see-less = kaman yeecas
