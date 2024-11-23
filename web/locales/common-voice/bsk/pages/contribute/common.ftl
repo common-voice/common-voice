@@ -143,5 +143,7 @@ contribution-background-voices-example-1-explanation = ma ẓuc̣aana ?
 contribution-volume-title = velium
 contribution-volume-description = qudrati farq meymi ġatanaśue ućhare velumulo. Reject etin agar velium but thanum bila or ućhar ćuruk meybila ke. daa agar ućhare but kam bila ke text ar aparanisr xaa besan senaan ke atimyajabaan
 contribution-reader-effects-title = ġatanas ine asarin
+contribution-reader-effects-description = butan recordings sise uymo ućarulo bican. gayimo ućaring aumlo śatine ġaruan, khusr khusr manuaan yaa drama juwan ġaruan ke ike accept etin. ġarene yaa computer synthesized ućharing reject etin.
+contribution-just-unsure-title = leel api
 see-more = butan yeecin
 see-less = kaman yeecas
