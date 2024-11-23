@@ -6,3 +6,24 @@ wall-of-text = کامن واٸسی ینگ پلیٹ فارم چی چیک کھیو
 why-spontaneous-speech = نیاسی دی چوق چوق بیونگمی سکتی پروٹو ٹاٸپ پو چا فچوسپن؟
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = آرگینک سکتی ملسونگ لا فنکھہ گیگ، دیکھنہ لسکھہ بقچی لا کولبہ نینید،مثلا یانگی سکت نوزین بے مشین پو لا ربیسے میدپی سکت کن نا تھوبفو زیربی وخلا لس بیوفری کولبہ نین من۔
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = سکتی لوکھسینگنو ایشن لیاخمو گیگ، سکت چکپو چکپوے خسم بزونگ نا کولکھونگ دیکھنہ سکت ہڑکیم کن۔
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = سکتی کارپس میدپی سکت کن لا لیخمو گیگ، فسور فسور سکت کن،لوخمین سکت کن، ملا یانگ ربیسے میدپی سکت کن کولبہ فری ایشن لیخمو گوین۔
+how-spontaneous-speech-works = چوق چوق بیونگمی سکت پو سی چی بیسے لس بین؟
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = چوق اونگمہ/ چوق تھونگمہ
+prompt-bubble-subtitle = نیاسی یانگلا چوق تھونگمی سپیرے یا سوال ہلتانید
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = تم لزوق
+respond-bubble-subtitle = یانگلا نینفو ژے دیولا سنگ تنگسے تم لزوق بیوس۔
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = ٹرانسکراٸب
+transcribe-bubble-subtitle = یانگلا سکتی کلپ پینگنو کوسپو چوق ربین۔
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = ہلتوس
+check-bubble-subtitle = یانگنی ٹرانسکرپشن پونا سکت پو ژوخ ژوخ یودا مید ہلتین۔
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = ڈیٹا
+data-bubble-subtitle = نیاسی کولے کولے ڈیٹا سیٹ کن فودے تنگمن۔
+contact-us = نیانا تھوک
