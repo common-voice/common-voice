@@ -24,6 +24,25 @@ show-ranking = jaa ranking aartir
 
 get-started-goals = goals kaa duruo duun
 create-custom-goal = custom goal an desman
+goal-type = beljik goal an desamnase ray ećaa
+both-speak-and-listen = oltalik
+both-speak-and-listen-long = oltalk senas ke dimeyals
+daily-goal = guncmo goal
+weekly-goal = thalekuce goal
+easy-difficulty = asaan
+average-difficulty = na but na kam
+difficult-difficulty = doom
+pro-difficulty = pro
+lose-goal-progress-warning = guymo goal badal etuma ke mutumo progress lose ećuma
+want-to-continue = duro ce duunase ray ećaa?
+finish-editing = chor editing etas phaṣ eti
+lose-changes-warning = muto phat etase matlab une etum changes lose ećuma
+build-custom-goal = custom goal an desman
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] gantaan duro etase personal goal dimeṣqataṣe meer madatt eti
+       *[other] gantain duro etase personal goal dimeṣqataṣe meer madatt eti
+    }
 goal-interval-weekly = thalekuculo
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = maymo gunc mo audio clip goal meer emasin
