@@ -89,6 +89,7 @@ review =
 skip = ქალიცუ̂რე
 shortcuts = ჩქა̈რდლატუ̂ი̄ლნა
 goal-help-recording = სი ქალოხმა̈რჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
+goal-help-validation = სი ქალოხმურჯ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
         [one] ხიმა ლჷმა̄რე { $count } ხოშილი ლასყე̄ნად?
