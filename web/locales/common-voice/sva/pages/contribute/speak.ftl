@@ -7,6 +7,9 @@ record-platform-not-supported-desktop = დესკტოპი მოწყო
 record-platform-not-supported-ios-non-safari = iOS-ჟი ა̈ხჴჷმა̈რ Safari ლიჲრი̄ ჩასართავდ...
 record-must-allow-microphone = ხეკუ̂ეს ნა̈ბ ლაჰოდა მიკროფონი ლიჴმა̈რი̄შ
 record-no-mic-found = მიკროფონ მა̄მ ა̈ნთხა̄̈ნ.
+record-error-too-short = ნა̈ირ სურუ მეკუ̂შდე ლა̈სუ̂.
+record-error-too-long = ნა̈ირ სურუ ჯო̄დი ლა̈სუ̂.
+record-error-too-quiet = ნა̈ირ სურუ ჩქუ̂იმ ლა̈სუ̂.
 
 ## MENU ITEM TOOLTIPS
 
