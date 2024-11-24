@@ -77,7 +77,7 @@ about-playbook-how-localize-content-1 = common voice e tarjuman khole mey bila
 about-playbook-how-localize-content-2 = khole account desmanin. agar maa han api ke. iciyate maymo baaṣ isalginin ite cum praajekt isalginin khole  khole ṭarjuma ećar failing meymi.  Hanate klik eṭin. neṭanin khole angreziulo lafzing maartirci daa tarjuma ećar diś bila.
 about-playbook-how-localize-content-3 = angrezi cum tarjuma etin, leikin maa yeeśuman thumin baaṣinulo. Khole click ne  amit maa baaṣ bila ke ite kaa etin. yaarumuś doẏpa yuukiulo tarjuma etas ite list meymi amitar seybaan  tarjuman  site ate han guncan iciyate ġeyśican.
 about-playbook-how-localize-content-4 = site śuru mayaar tayaar bila beśal 75% duro mukamal manimi ke
-about-playbook-how-localize-content-5 = masulo biśaćar mii video barenin
+about-playbook-how-localize-content-5 = masulo biśaćar mii video min barenin
 
 ## How to add sentences
 
