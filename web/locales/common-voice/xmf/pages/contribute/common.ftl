@@ -1,35 +1,15 @@
 goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარ მიზანიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
 goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
-submit-form-action = ჯღონა
 
 ## Reporting
 
-report = მოხსენება
-report-title = მოხსენებაშ ჯღონა.
 report-ask = მუ კილი უღუ თე წინადადებეფს?
-report-offensive-language = უწმაწური ნინა
-report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე
-report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
-report-grammar-or-spelling-detail = წინადადებას გრამატიკული ვარდა თინჭარუაში კილი უღუ.
-report-different-language = შხვანერი ნინა
-report-different-language-detail = ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ რე ჭარილი
-report-difficult-pronounce = ძნელი ორაგადე რე
-report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ
-report-offensive-speech = უწმაწურ ჩიება
-report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე
-report-other-comment =
-    .placeholder = გერაგადი
-success = გომორძგუა
-continue = გაგძელება
 
 ## Speak & Listen Shortcuts
 
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = ინოჭარუა / გაჩერება
-shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ გაურქვება
 shortcut-submit = დორთა
