@@ -22,5 +22,5 @@ review-transcriptions-menu-item-tooltip = guymo baaṣulo usere kaa etum tranṣ
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = damayalase options menu
-validate-readings-menu-item-aria-label = kuyooć sisane jama etum readings e tasdiiq etin
-review-transcriptions-menu-item-aria-label = record etum julmane transcription warc ećar dubara baren
+validate-readings-menu-item-aria-label = kuyooće  jama etum readings e tasdiiq etin
+review-transcriptions-menu-item-aria-label = record etum julmane transcription warc ećar dubaara barenin
