@@ -13,3 +13,6 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوڈ</isoCode
 request-language-form-info-explanation-list-3 = ویب سائٹاں دے لنک جڑّے اساں کو زبان سمجھنے بچ مدد کر ہکدے ہن۔
 request-language-google-recaptcha-required = اگر تسیں اگاں جُلنا چہندے او تے reCAPTCHA ضروری ہے۔
 request-language-google-recaptcha-error = reCAPTCHA نال کجھ خرابی ہو گئی۔ دوبارا کوشش کرو، مہربانی۔
+# Success page
+request-language-success-heading = تسدا شکریہ! تُساں ہک نئی زبان بارے تحقیق جولی اے
+request-language-success-list-1 = تساں جلدی ہک ای میل وصول کرنی چاہیدی اے جس بچ کامن وائس بچ زبان شامل کرنا دے مراحلیاں بارے تفصیل ہوسی
