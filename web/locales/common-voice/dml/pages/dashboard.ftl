@@ -60,26 +60,26 @@ activity-needed-calculation-plural =
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
             }
@@ -89,26 +89,26 @@ activity-needed-calculation-plural =
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
                     { NUMBER($people) ->
                         [one]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
                             { NUMBER($clipsPerDay) ->
-                                [one] { "" }
-                               *[other] { "" }
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
             }
