@@ -23,6 +23,7 @@ submit-all-button = Wšykne wótpósłaś
 learn-how-to-use-prompts = Zgóńśo, kak móžośo toś ten bok wužywaś
 learn-how-to-use-prompts-guidance = Klikniśo <guidanceLink>how</guidanceLink>, aby zgónił, kak móžośo toś ten bok wužywaś
 learn-how-to-use-transcribe = Zgóńśo, kak móžośo transkriběrowaś
+learn-how-to-use-transcribe-explanation = Napišćo eksaktnje, což wósoba jo groniła, inkluziwnje partikle ako ‚em‘ abo ‚eh‘.
 learn-how-to-use-transcribe-guidance = Klikniśo <guidanceLink>how</guidanceLink>, aby zgónił, kak móžośo toś ten bok wužywaś
 learn-how-to-use-check-transcript = Zgóńśo, kak móžośo transkripciju pśeglědowaś
 learn-how-to-use-check-transcript-guidance = Klikniśo <guidanceLink>how</guidanceLink>, aby zgónił, kak móžośo toś ten bok wužywaś
