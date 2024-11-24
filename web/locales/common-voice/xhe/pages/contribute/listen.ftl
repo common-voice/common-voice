@@ -12,3 +12,12 @@ listen-loading-error =
 listen-abort-title = ٹوٹے آں دی تصدیق کرݨ ختم؟
 listen-abort-cancel = تصدیق کرݨ جاری کر
 listen-abort-confirm = تصدیق کرݨ ختم کر
+# Menu item
+validate-readings = ریڈنگز تی وجہ ݙے
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = ریڈنگز تی وجہ ݙے، ٹرانسکرپشنیں وَتا لال
+
+## MENU ITEM ARIA LABELS
+
