@@ -16,6 +16,7 @@ demo-account = Аккаунт
 
 ## Demo Contribute
 
+demo-listen-subtitle = Хэлъхьэныгъэ фщӏыну фыхьэзыр?
 
 ## Demo Dashboard
 
