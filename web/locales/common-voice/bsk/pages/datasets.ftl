@@ -7,3 +7,13 @@ language = baaṣ
 download-dataset-header = dataset download etin
 download-delta-explainer = mii kaman tabdiilimin etaan. delta segments ulo uyoon cum thuwaan clipin bican. gute duro baaraulo daa ġatanin
 download-dataset-tag = awaaji bilum baaṣe dataset damśi etin daa amit version download etase ray bila ke ite damśi etin
+# File size in gigabytes
+size = diś ganas
+validated-hr-total = tasdiiq manum tok gantan
+overall-hr-total = tok uyoon gantan
+cv-license = license
+audio-format = ićʰare format
+dataset-splits = traṅ (yoolin daa hilesa be dasin)
+number-of-voices = ućʰariṅe taadaat
+splits = traṅ etas
+email-to-download = download e gane email enter etin
