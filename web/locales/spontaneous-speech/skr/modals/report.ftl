@@ -1,6 +1,8 @@
 ## Report Modal
 
 report-modal-title = رپورٹ جمع کرواؤ
+report-modal-subtitle = ایں مواد وچ تساں کہڑے رولیاں دا سامھݨاں کریندے پئے ہو؟
+offensive_speech = جارحانہ مواد
 report-other-comment =
     .placeholder = تبصرہ
 # Label for textarea in report modal
