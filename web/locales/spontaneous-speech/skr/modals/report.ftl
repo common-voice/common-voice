@@ -3,6 +3,8 @@
 report-modal-title = رپورٹ جمع کرواؤ
 report-modal-subtitle = ایں مواد وچ تساں کہڑے رولیاں دا سامھݨاں کریندے پئے ہو؟
 offensive_speech = جارحانہ مواد
+offensive_speech-detail = مواد وچ بے عزتی آلی یا توہین آمیز زبان ہے۔
+different_language = مختلف زبان
 report-other-comment =
     .placeholder = تبصرہ
 # Label for textarea in report modal
