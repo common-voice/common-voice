@@ -82,25 +82,25 @@ about-playbook-how-localize-content-5 = masulo biśaćar mii video min barenin
 ## How to add sentences
 
 about-playbook-how-add-sentences = jumulan belate kaa ećam?
-about-playbook-how-add-sentences-content-1 = jumlan khole kaa eṭas maamay baan <writePageLink>Write page</writePageLink> yaa jumlan ḍubara esaljar khole <reviewPageLink>Review page</reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = jumlan hanjuko ućharingulo śaamil ećar alṭan sise nuparan manzoor eṭiṣan. Jumlan public domain ulo maniṣ ḍaa turma chunḍo lafzing cum jot maniṣ. Text e ḍamna cum ḍugharusin waiver gane and gutte process gane mii kaa rabitta ettin commonvoice@mozilla.com
-about-playbook-how-add-sentences-content-3 = guṭe isṭimal neṭan Wikepedia cum  khutukiyo jumlan ḍuruwar suṣ maamay baan
+about-playbook-how-add-sentences-content-1 = jumlan khole kaa etas maamay baan [write page] yaa jumlan ḍubara esaljar khole [review page]
+about-playbook-how-add-sentences-content-2 = jumlan hanjuko ućharingulo śaamil ećar altan sise nuparan manzoor etiṣan. Jumlan public domain ulo maniṣ ḍaa turma chunḍo lafzing cum jot maniṣ. Text e ḍamn cum ḍugharusin waiver gane and gutte process gane mii kaa rabitta ettin commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = gute istimal netan Wikepedia cum  khutukiyo jumlan ḍuruwar suṣ maamay baan
 
 ## How to record quality
 
-about-playbook-how-record-quality = ḍalṭas quality ulo ućhare cilip belate rikaad ećam?
-about-playbook-how-record-content-1 = maymo maćharulo ćaġa eṭin! belate maa ćaġa ećaan ke iṭe khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
-about-playbook-how-record-content-2 = madigaartak ućharing oomaniṣ ḍaa ma ḍamayalas asaan maniṣ.
-about-playbook-how-record-content-3 = jumlan śan ne ġaṭanin, besan ke lafzan phaṭ ayeṭing, baḍal yaa kaa  ayeṭin.
-about-playbook-how-record-content-4 = maa ćaġa eṭas cum yaar platfame rekaading eṭasar barenin ḍa beśal ćaġa bas eṭumar eṭ ban maniṣ.
-about-playbook-how-record-content-5 = akhole mazeed warc eṭase ṭariqaar barenin .</accuracyLink>
+about-playbook-how-record-quality = ḍalṭas quality ulo ućhare clip belate record ećam?
+about-playbook-how-record-content-1 = maymo maćharulo ćaġa etin! belate maa ćaġa ećaan ke ite khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
+about-playbook-how-record-content-2 = madigaartak ućharing oomaniṣ daa ma dimeyalas mimar asaan maniṣ.
+about-playbook-how-record-content-3 = jumlan śan ne ġatanin, besan ke lafzan phaṭ ayetin, baḍal yaa kaa  ayetin.
+about-playbook-how-record-content-4 = maa ćaġa etas cum yaar platform e record etasar barenin daa beśal ćaġa bas etumar et ban maniṣ.
+about-playbook-how-record-content-5 = akhole mazeed warc etase tariqaar barenin [accuracy link]
 
 ## How to grow language
 
-about-playbook-how-grow-language = mii belate baaṣan hanjuko ućharingulo śuwaanate ḍal ḍiwsas memaya baan?
-about-playbook-how-grow-language-content-1 = dataset butan sisar uriin ce ḍuuybi beske hanjuko ućharingar emasase gane mi har kate sisar ganen ḍiusaan
+about-playbook-how-grow-language = mii belate baaṣan common voice ulo śuwaanate dal diwsas memaya baan?
+about-playbook-how-grow-language-content-1 = dataset butan sisar uriin ce duuybi beske common voice gane emasase gane mii har kate sisar ganen diusaan
 about-playbook-how-grow-language-content-2 = yoorkuming
-about-playbook-how-grow-language-content-3 = maa yoorkuan neṭan sise emasase gane uriin ce ḍuunas maamay baan. butan ḍuro api. maa online video conferencing neṭan yaa agar safe bila ke kaa nuuro ke maamaybaan. mii templetingar barening belata yoorkuwan eṭas bila ke.
+about-playbook-how-grow-language-content-3 = maa yoorkuan netan sise emasase gane uriin ce duunas maamay baan. butan duro api. maa online video conferencing netan yaa agar safe bila ke kaa nuuro ke maamay baan. mii templetingar barening belata yoorkuwan etas bila ke.
 about-playbook-how-grow-language-content-4 = social media
 about-playbook-how-grow-language-content-5 = Maa social media platformićing cum taqhpan oocuas maamaybaan. Nukirimin oor oocin daa osin ke guṭe bes awaaji bila nuse ḍaa baaṣine haqate, ućhare AI, techulo sikilingate hihin cun ḍuġaruśume huruting. mazeed śalda hamase gane ḍa social campaignan egucarćar ulum content hike ḍuro sućar khole barenin</campaignLink>.
 about-playbook-how-grow-language-content-6 = paatnarship ke networking
