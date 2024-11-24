@@ -102,16 +102,16 @@ about-playbook-how-grow-language-content-1 = dataset butan sisar uriin ce duuybi
 about-playbook-how-grow-language-content-2 = yoorkuming
 about-playbook-how-grow-language-content-3 = maa yoorkuan netan sise emasase gane uriin ce duunas maamay baan. butan duro api. maa online video conferencing netan yaa agar safe bila ke kaa nuuro ke maamay baan. mii templetingar barening belata yoorkuwan etas bila ke.
 about-playbook-how-grow-language-content-4 = social media
-about-playbook-how-grow-language-content-5 = Maa social media platformićing cum taqhpan oocuas maamaybaan. Nukirimin oor oocin daa osin ke guṭe bes awaaji bila nuse ḍaa baaṣine haqate, ućhare AI, techulo sikilingate hihin cun ḍuġaruśume huruting. mazeed śalda hamase gane ḍa social campaignan egucarćar ulum content hike ḍuro sućar khole barenin</campaignLink>.
+about-playbook-how-grow-language-content-5 = Maa social media platformićing cum taqhpan oocuas maamaybaan. Nukirimin oor oocin daa osin ke gute bes awaaji bila nuse ḍaa baaṣine haqate, ućhare AI, techulo sikilingate hihin cum ḍuġaruśume huruting. mazeed śalda hamase gane daa social campaignan egucarćar ulum content hike duro sućar khole barening [campaign link]
 about-playbook-how-grow-language-content-6 = paatnarship ke networking
-about-playbook-how-grow-language-content-7 = menke osulu balaaśo ḍuisin. Akhiljuko univiersitimiulo, baaṣe schoolingulo, ḍaa advocacy group daa data science ulo omayman. maa bes ḍaa belate mariin ce ḍuunṣ oomaybaan ke oopaćar namaanin osulo obiśain. mii outreach templatar ke barenin </outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> maa baaṣe guti khaas meymi ḍaa kaman ṭariqan bican śuru ećar.
+about-playbook-how-grow-language-content-7 = menke osulu balaaśo ḍuisin. akhiljuko univiersitimiulo, baaṣe schoolingulo, ḍaa advocacy group daa data science ulo omayman. maa bes daa belate mariin ce ḍuunṣ oomaybaan ke oopaćar namaanin osulo obiśain. mii outreach templatar ke barenin [outreach template]
+about-playbook-how-grow-language-content-8 = maa baaṣ etas sis khaas omayman daa kaman ṭariqan bican duro ce duuyar
 
 ## How to validate
 
-about-playbook-how-validate = jaar belate leel meymi ke ućhare kilip approve ootas bila nuse?
-about-playbook-how-validate-content-1 = u ḍukoyaljaa ḍaa uwe guslo balićila ke, ućhare cilip approve eṭi.
-about-playbook-how-validate-content-2 = amine accent un cum ṭhum bila ke iṭe reject ayeṭi beske ućhare recognition gane zaroori bila ke uyoonar ḍaltasanate ḍuro eṭiṣ.
+about-playbook-how-validate = jaar belate leel meymi ke ućhare clip approve ootas bila nuse?
+about-playbook-how-validate-content-1 = ma damayljaan daa uwe ćaġa masulo balićila ke, ućhare cilip choor approve etas awaaji.
+about-playbook-how-validate-content-2 = amine accent un cum thum bila ke ite reject ayeti beske ućhare recognition gane zaroori bila ke uyoonar gusee daltasanate duro etiṣ.
 about-playbook-how-validate-content-3 = agar ṭalafuz mesulo balaas mumkin api ke, ḍaa iṭum khiṭum ućharing bican ke, ṭhumiśuwe ućharing bica ke iṭe ućhare kilip reject eṭin. ḍaa sahi eṭase critera maalumaaṭ gane khole barenin </accuracyLink>.
 about-playbook-how-validate-content-4 = agar ućhare klip alṭan sise reject eṭuman ke eṭ ṭhum dataset nićhila.
 
