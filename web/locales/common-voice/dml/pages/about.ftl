@@ -73,8 +73,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلایزیش کنو کُری کرم کُنا
-about-playbook-how-localize-content-1 = عام کاڻ تہ سائٹ تہ ترجمہ بیاں <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>ایک اکاونٹ ژوپایا </pontoonAccountLink>اگر تاں اکاونٹ نی تھا بہ۔پھرکی، تانوں باݜہ تہ <strong> ٹیم </strong>  منتخب  کُرا  آں پھرکہ پرجیکٹ گیا ، عامل کاڻ </pontoonCvLink>۔ ترہ فائل تھیو ترجمہ کرئیں کی، کلک کُرا، پھرکی یہ انگریزیہ الفاظ نم کڅو آں ایک صندوق تھیو ترجمہ کرئیں کی
+about-playbook-how-localize-content-1 = کامن وائس تہ سائٹ تہ ترجمہ بیاں <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ایک اکاونٹ ژوپایا </pontoonAccountLink>اگر تاں اکاونٹ نی تھا بہ۔پھرکی، تانوں باݜہ تہ <strong> ٹیم </strong>  منتخب  کُرا  آں پھرکہ پرجیکٹ گیا ، کامن وائس </pontoonCvLink>۔ ترہ فائل تھیو ترجمہ کرئیں کی، کلک کُرا، پھرکی یہ انگریزیہ الفاظ نم کڅو آں ایک صندوق تھیو ترجمہ کرئیں کی
 about-playbook-how-localize-content-3 = ترجمہ انگریزی تہ کُرن درو، لیکن بی دڇھین<strong> مشورہ </strong> بئیبہ ورے باݜا نامہ، کلک کُرا<strong> پروفائل </strong>آئیکون، پھرکی <strong>سیٹنگ </strong>لنکہ آں پھرکی کیہ ایس  باݜہ نم بی پرِنبہ سے شامل کُرا۔ دڇھنی طرفہ ٹوپہ ایک لسٹ تھیو ترجمہ تہ <strong> لوکلز</strong> تہ نامہ۔ ترجمہ سائٹہ ایک دیو آݜنتہ کڅین یِنا
 about-playbook-how-localize-content-4 = کیر 75% کرم با بہ یہ سائٹ لانچ کُرئں کی تیار درو
 about-playbook-how-localize-content-5 = امونہ پوئی کُرن تہ ویڈیو دڇھا مدم تہ پرئی
@@ -83,7 +83,7 @@ about-playbook-how-localize-content-5 = امونہ پوئی کُرن تہ ویڈ
 
 about-playbook-how-add-sentences = ائی کنو کُری جملہ شامل کُریم
 about-playbook-how-add-sentences-content-1 = بی  جملہ نم شامل کُرین بئیبہ<writePageLink>دڇھنی پھٹہ</writePageLink> یا بہ ریویو جملہ نم بہ<reviewPageLink> ریویو پھٹہ</reviewPageLink>
-about-playbook-how-add-sentences-content-2 = جملہ نم خامخا دو ژن پھرکی دڇھن آں منِن عام کاڻہ شامل کُرئیں تہ پرئی۔ بی تانو باݜہ کی سئی اُصول ژوپئین بئیبہ<languageGuidelinesLink>۔ ایا</languageGuidelinesLink> جملہ نم خامخا<licenseLink> عوامی ڈومینہ</licenseLink> تِھیو آں پنچیش لفط تہ بہ کم تِھیو۔ بی جملہ تہ مالک تہ پوچین بئیبہ<waiverLink> مساں ورے کاپی کُرین کی، آں سی سی ،امونہ دڇھال پراسس</waiverLink>،  آں اما کی ڜئین بئیبہcommonvoice@mozilla.com
+about-playbook-how-add-sentences-content-2 = جملہ نم خامخا دو ژن پھرکی دڇھن آں منِن کامن وائسہ شامل کُرئیں تہ پرئی۔ بی تانو باݜہ کی سئی اُصول ژوپئین بئیبہ<languageGuidelinesLink>۔ ایا</languageGuidelinesLink> جملہ نم خامخا<licenseLink> عوامی ڈومینہ</licenseLink> تِھیو آں پنچیش لفط تہ بہ کم تِھیو۔ بی جملہ تہ مالک تہ پوچین بئیبہ<waiverLink> مساں ورے کاپی کُرین کی، آں سی سی ،امونہ دڇھال پراسس</waiverLink>،  آں اما کی ڜئین بئیبہcommonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = بی ویکیپیڈیا تہ اُوچھوٹی جملہ تہ فائدہ گیاں کی جملہ تہ اقتباس ساں استعمل کُرین بئیبہ۔ بی استعمل کُرین بئیبہ<scraperLink>جملہ تہ ایکسائٹر</scraperLink> ویکیپیڈیا تہ مختصر جملہ نم تہ فائدہ گیا
 
 ## How to record quality
@@ -97,8 +97,8 @@ about-playbook-how-record-content-5 = <accuracyLink>سئی کُرن تہ معی�
 
 ## How to grow language
 
-about-playbook-how-grow-language = ائی  عام کاڻنہ لے ابُت طریقا باڜہ کنو کُرئ زیت کُرین بئیمہ
-about-playbook-how-grow-language-content-1 = عام کاڻ  مختلف ماݜہ کی موقع پیدا کنا عام کاڻہ تانو حصہ ڇھارین کی، ڈیٹا سیٹ زیت تہ زیت ماڜ ساں خدمت کُنا، اما منو وسائی آں ٹیمپلیٹ ژوپائی تُھمہ تسو بی استعمل کُرین بئیبہ
+about-playbook-how-grow-language = ائی  کامن وائسہ لے ابُت طریقا باݜہ کنو کُرئ زیت کُرین بئیمہ؟
+about-playbook-how-grow-language-content-1 = کامن وائس  مختلف ماݜہ کی موقع پیدا کُنا کامن وائسہ تانو حصہ ڇھارین کی، ڈیٹا سیٹ زیت تہ زیت ماݜ ساں خدمت کُنا، اما منو وسائی آں ٹیمپلیٹ ژوپائی تُھمہ تسو بی استعمل کُرین بئیبہ
 about-playbook-how-grow-language-content-2 = واقعہ نم
 about-playbook-how-grow-language-content-3 = بی باݜہ ملی تعون کُرئیں کی پروگرم نم کُرین بئیبہ، یہ منہ خیال تہ لے اسکان درو، بی مس ویڈیو کانفرنسنگ ٹولہ ملی آں لائن کُرین بئیبہ، یا بہ زاتی طورہ اگر یہ محفوط درو بہ۔<eventTemplate> پروگرم چلئیں کی امونہ ٹیمپلیٹ آں وسائل دڇھا۔</eventTemplate>
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
@@ -124,7 +124,7 @@ about-playbook-how-access-dataset-content-2 = اگر تو ٹول  ASR ماڈل �
 ## How are decisions made
 
 about-playbook-how-project-governance = پراجیکٹہ بحث کنو کری کرین ینا؟
-about-playbook-how-project-governance-content-1 = موزیلا عام کاڻ پورہ دنیا تہ کارکنان، باݜہ تہ ماہر،ڈیٹا تہ سائنسدانان،ماہری تعلیم،آں سافٹ وئیر انجنئیر ساڻ متنوع کمیونٹی یے ممکن کُتھین۔ یہ پرجیکٹ موزیلا فاونڈیشن ساں انتظم نیع درو۔
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائس پورہ دنیا تہ کارکنان، باݜہ تہ ماہر،ڈیٹا تہ سائنسدانان،ماہری تعلیم،آں سافٹ وئیر انجنئیر ساں متنوع کمیونٹی یے ممکن کُتھین۔ یہ پرجیکٹ موزیلا فاونڈیشن ساں انتظم نیع درو۔
 about-playbook-how-project-governance-content-2 = امونہ حکومت تہ بنیاد مے اُشتونہ درو
 about-playbook-how-project-governance-content-3 = رازداری،حفاظت آں شفافیت
 about-playbook-how-project-governance-content-4 = کمیونٹی ساں شریک بین آں فیصلہ سازی
@@ -134,7 +134,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>یہ تہ با
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = عام کاڻ ساں مالی مدد کنو بئی کُرین ینہ
-about-playbook-how-funded-content-1 = عام کاڻ موزیلا فاونڈیشن ساں US 501c3درو۔ یہ پرجیکٹ کی ژا فنڈ پرینا<philantropicGrantLink>فلاحی امدد</philantropicGrantLink>،آں تمام دنیا تہ  ماݜ مدد کُنُن
+about-playbook-how-funded = کامن وائس ساں مالی مدد کنو بئی کُرین ینہ؟
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاونڈیشن ساں US 501c3درو۔ یہ پرجیکٹ کی ژا فنڈ پرینا<philantropicGrantLink>فلاحی امدد</philantropicGrantLink>،آں تمام دنیا تہ  ماݜ مدد کُنُن
 about-playbook-how-funded-content-2 = ڈیٹا سیٹ ساں مسلسل میزبانی آں جاری کُرن،پلیٹ فام  بہتر کُرن آں چلئیں کی لے زیت فںڈ تہ ضرورت درو آں چلن<africaMradiLink>کمیونٹی تہ پروگرم</africaMradiLink>
 about-playbook-how-funded-content-3 = اگر بی یا مینہ تنظیم یہ پرجیکٹہ دوبارہ تعاوں کُرن گٹینبہ، بی ایک ژوپئین  بئیبہ <donateLink>چندہ</donateLink> یا امونہ شراکت دار ٹیمہ کی ویبا<emailFragment>commonvoice@mozilla.com</emailFragment>
