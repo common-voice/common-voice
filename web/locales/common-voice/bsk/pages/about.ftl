@@ -42,20 +42,20 @@ about-get-involved-text-2 = common voice warc ećar miring ce duuy baana? but da
 about-stay-in-touch = belata macimo duġarśum?
 about-stay-in-touch-button = sign up etas
 about-stay-in-touch-text-1 = mii mailing listulo kaa numan nuhen belate common voice muhimingulo daa gatimingulo, kaa maniṣ maamay baan
-about-stay-in-touch-text-2 = Ma mozila baaṣing sise kaa dok maniṣ maamay baan ḍaa kaa numan <discourseLink>Discourse</discourseLink> ćaġa bare gana ḍaa <matrixLink>Matrix</matrixLink> besan ke choor nasiyaṭanar.
+about-stay-in-touch-text-2 = Ma mozila language community ulo thumiśo kaa mila maniṣ maamay baan,  join netan mazmuun ate ćaġa bar daa quick advice gane
 about-nav-why-common-voice = bes?
 about-nav-how-it-works = belate?
 about-nav-partners = kaatumiśo
 about-nav-get-involved = ḍurouar kaa maneyin
-about-nav-how-it-works-2 = Belate hanjuko ićhare ḍuro ećibi?
-about-nav-playbook = belate kaa manaas bila ke itte hen
+about-nav-how-it-works-2 = belate common voice e duro ećibi?
+about-nav-playbook = belate kaa manaas bila ke ite hen
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = hanjuko ućharingulo baaṣ besan bila?
-about-playbook-what-is-language-content-1 = baaṣate samba eṭase butan ganeng bican. mićharing leel eṭase modelinge gane, hanjuko ućharinge bareybi ke guṭe baaṣe sise hihine usulo balićila agar uwe kaman ćamaat eṭuman ke.
-about-playbook-what-is-language-content-2 = mii ray bila ke ćagaminge model butan har qisime sise usulo baliṣ. guṭe gane, ućharinge deetaset butan sise numaayndi maniṣ.
+about-playbook-what-is-language = common voice ate besan baaṣ  bila?
+about-playbook-what-is-language-content-1 = baaṣate samba etase butan ganeng bican. speech recognition models e gane, common voice e barey bi ke gute baaṣe sise hihine osulo balićila agar uwe kaman ćamaat etuman ke.
+about-playbook-what-is-language-content-2 = mii ray bila ke baring e model butan har qisime sise osulo baliṣ. gute gane, ućharinge dataset butan sise numaayndagi maniṣ.
 about-playbook-what-is-language-content-3 = beeruman baaṣinge grammar, lafzing, ṭalafuzulo butan farq bila. ṭeylate, mii <ctaLink>introducing ‘Variants’</ctaLink> in 2022 śuru eṭaan. guṭe baaṣ eṭaśuar uymo baaṣ uyongkaro deetasetulo leel eṭas oomay baan.
 
 ## How do I add a language
