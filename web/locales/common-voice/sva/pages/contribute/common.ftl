@@ -99,15 +99,15 @@ speak-empty-state = ალ ნჷნჟი ლეირი წინადად
 no-sentences-for-variants = ისგუ ნინი უ̂არიანტ შეიძლება წინადადება̄̈ლურდ ლესსუ̂! ხომურჯა ჰე̄მა ჯა̄რ, ჰე, ჟა̈ხცა̄დუ̂ინ პარამეტრა̄̈ლ, ერე ქახეწე იშგენ წინადადება̄̈ლს ისგუ̂ა ნინჟი.
 speak-empty-state-cta = სგა̄თი̄რ წინადადება̄̈ლ
 speak-loading-error =
-    დეშ ხუ̂ითხედ წინადადება ისგოვდ. 
+    დეშ ხუ̂ითხედ წინადადება ისგო̄უ̂დ. 
     ხოშილ გუ̂ია̄ნდ აჯაღ ათკუ̄ჰირ.
 record-button-label = სგა̄თი̄ჲრ ისგუ ჰერ
 share-title-new = <bold>ქალა̈ნმა̈რჯუ̂</bold>, ერე ხოფში̄რა ჰერა̈ლ ოთთჷმად
-keep-track-profile = გუ̂ი ლა̄ხო ისგუ სგუ̂ებდ ნა̄ზუ̂ს ისგუ პროფილისგა
+keep-track-profile = გუ̂ი ლა̄ხო ისგუ სგუ̂ებდ ნა̄ზუ̂ს ისგუ̂ა პროფილისგა
 login-to-get-started = ლა̈ბნად ჲედ სგა̄დე, ჲედ ჩუ̂ა̈თრეგისტირა̈ნ
 target-segment-first-card = სი ისგუ ნა̄̈თი (წვლილ) სგე̄სჷდ გუშგუ̂ეჲ მა̄̈ნკუ̂ი̄ სამიზნე სეგმენტთე̄სგა
 target-segment-generic-card = სი ისგუ ნა̄̈თი (წვლილ) სგე̄სჷდ სამიზნე სეგმენტთე̄სგა
-target-segment-first-banner = ქალოხმურჯ Common Voice-ს მა̄̈ნკუ̂ი̄ სამიზნე სეგმენტი ლასყენას { $locale }
+target-segment-first-banner = ქალოხმურჯ Common Voice-ს მა̄̈ნკუ̂ი̄ სამიზნე სეგმენტი ლასყე̄ნას { $locale }
 target-segment-add-voice = ჟესაქმ ისგუ ჰერ
 target-segment-learn-more = ა̈ცხირ ხოშილ!
 change-preferences = ჟ'ა̄ხცადუნ რეჟიმ
