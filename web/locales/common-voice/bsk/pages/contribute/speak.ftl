@@ -27,6 +27,10 @@ record-abort-title = yarkamaas recording mukamal etin
 record-abort-text = muuto phat ne niyas matlab maymo progress marin cum diuśuman
 record-abort-submit = clip jama eti
 record-abort-continue = recording mukumal etin
+record-abort-delete = clips hole diuus daa clips eeri
+review-aborted = upload cat manimi. maymo recordings eeras ray ećaana?
+review-submit-title = hik ke barenin daa jama etin
+review-submit-msg = recording gane juu maar, muu khole yaare clips hik ke barenin daa jama etin
 continue-speaking-button = beeya juu maar, ġarićume hurutin
 
 ## MENU ITEM TOOLTIPS
