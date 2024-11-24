@@ -112,14 +112,14 @@ about-playbook-how-grow-language-content-8 = maa baaṣ etas sis khaas omayman d
 about-playbook-how-validate = jaar belate leel meymi ke ućhare clip approve ootas bila nuse?
 about-playbook-how-validate-content-1 = ma damayljaan daa uwe ćaġa masulo balićila ke, ućhare cilip choor approve etas awaaji.
 about-playbook-how-validate-content-2 = amine accent un cum thum bila ke ite reject ayeti beske ućhare recognition gane zaroori bila ke uyoonar gusee daltasanate duro etiṣ.
-about-playbook-how-validate-content-3 = agar ṭalafuz mesulo balaas mumkin api ke, ḍaa iṭum khiṭum ućharing bican ke, ṭhumiśuwe ućharing bica ke iṭe ućhare kilip reject eṭin. ḍaa sahi eṭase critera maalumaaṭ gane khole barenin </accuracyLink>.
-about-playbook-how-validate-content-4 = agar ućhare klip alṭan sise reject eṭuman ke eṭ ṭhum dataset nićhila.
+about-playbook-how-validate-content-3 = agar talafuz mesulo balaas mumkin api ke, daa itum khitum ućharing bican ke, thumiśuwe ućharing bica ke ite ućhare kilip reject eṭin. daa sahi etase critera maalumaaṭ gane khole barenin [accuracy link]
+about-playbook-how-validate-content-4 = agar ućhare clip altan sise reject etuman ke et thum datasetanar nićila.
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = dataset belate access ḍaa istimaal ećam?
-about-playbook-how-access-dataset-content-1 = ma dataset patuatar niṣ maamay ban kholum </datasetsPage>,  version ke baaṣ nisalginin ḍaa download eṭin! Guke filesin ulo metadata bila masalan  demographic maalumaat ḍaa ṭasḍiiqe data.
-about-playbook-how-access-dataset-content-2 = ASR model ḍiyulase gane barey baan maa sise kaa khole connect manisr maamay baan. <discourseLink>on Discourse</discourseLink>.
+about-playbook-how-access-dataset = dataset belate access ećam daa istimaal ećam?
+about-playbook-how-access-dataset-content-1 = ma dataset pageatar niṣ maamay ban kholum [dataset page],  version ke baaṣ nisalginin daa download eṭin! Guke files ine ulo metadata bila masalan  demographic maalumaat ḍaa tasdiiqe data.
+about-playbook-how-access-dataset-content-2 = ASR model diyulase gane barey baan maa sise kaa khole connect manisr maamay baan.[discourse link]
 
 ## How are decisions made
 
