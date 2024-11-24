@@ -67,16 +67,16 @@ about-playbook-how-add-language-translating-content-1 = belate pontoon egucaras 
 about-playbook-how-add-language-translating-content-2 = mii mozila duscak pontoon tarjuma etase gane eeduroća baan. Pontoon ulo butan baaṣing bican. maa baaṣ api ke maa ate maymo baaṣ kaa eṭase uzur etin. netan maa baaṣ hanjuko common voice project ulo kaa meeymi. thoṣ baaṣe uzure gane kholar niin site e tarjumane gane kholar barenin
 about-playbook-how-add-language-collecting-sentences-heading = jumlan gati eṭas
 about-playbook-how-add-language-collecting-sentences-content-1 = jumlan gati eṭase gane mii maykinase video ar barenin
-about-playbook-how-add-language-collecting-sentences-content-2 = Khole <sentenceCollectorLinkAdd> maa kaman jumlan kaa eṭas maa bay baan. ḍaa butan jumlan kaa etase gane khole niin Github</bulkImportDocsLink>. Masate oosin ke jumlan akholum maniṣ <licenseLink>CC0 (or public domain)</licenseLink>, ḍaa maymo jumlan ke girminas maa bay baan
-about-playbook-how-add-language-collecting-sentences-content-3 = ḍaa maziiḍ jumlan gati eṭase gane khole barenin <sentenceCollectorFragment>
+about-playbook-how-add-language-collecting-sentences-content-2 = khole maa kaman jumlan kaa etas maa bay baan. ḍaa butan jumlan kaa etase gane khole niin Github masate oosin ke jumlan akholum maniṣ  ,daa maymo jumlan ke girminas maa bay baan
+about-playbook-how-add-language-collecting-sentences-content-3 = daa maziiḍ jumlan gati etase gane khole barenin
 
 ## How does localization work
 
-about-playbook-how-localize = localization saite belate ḍuro eći bi?
-about-playbook-how-localize-content-1 = hanjuko ućharinge tarjuman khole mey bila <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = khole akount ḍesmanin </pontoonAccountLink> agar maa han api ke. iciyate maymo baaṣ isalginin  <strong>(‘Team’)</strong> iṭe cum praajekt isalginin khole <pontoonCvLink>Common Voice</pontoonCvLink>. khole ṭarjuma ećar failing meymi.  Hanate klik eṭin. Neṭanin khole angreziulo lafzing maarṭirci ḍaa tarjuma ećar ḍiś bila.
-about-playbook-how-localize-content-3 = Angrezi cum tarjuma eṭin, leikin maa yeeśuman <strong>Suggestions</strong> ṭhumin baaṣinulo. Khole klik ne <strong>Profile</strong> icon, then <strong>Settings</strong> amiṭ maa baaṣ bila ke iṭe kaa eṭin. yaarumuś ḍorwpa yuukiulo tarjuma eṭas iṭe list meymi amiṭar seybaan <strong>Locales</strong>. ṭarjuman saitate han guncan iciyate.
-about-playbook-how-localize-content-4 = sait śuru mayaar ṭayaar bila beśal 75% ḍuro mukamal manimi ke
+about-playbook-how-localize = localization site belate duro eći bi?
+about-playbook-how-localize-content-1 = common voice e tarjuman khole mey bila
+about-playbook-how-localize-content-2 = khole account desmanin. agar maa han api ke. iciyate maymo baaṣ isalginin ite cum praajekt isalginin khole  khole ṭarjuma ećar failing meymi.  Hanate klik eṭin. neṭanin khole angreziulo lafzing maartirci daa tarjuma ećar diś bila.
+about-playbook-how-localize-content-3 = angrezi cum tarjuma etin, leikin maa yeeśuman thumin baaṣinulo. Khole click ne  amit maa baaṣ bila ke ite kaa etin. yaarumuś doẏpa yuukiulo tarjuma etas ite list meymi amitar seybaan  tarjuman  site ate han guncan iciyate ġeyśican.
+about-playbook-how-localize-content-4 = site śuru mayaar tayaar bila beśal 75% duro mukamal manimi ke
 about-playbook-how-localize-content-5 = masulo biśaćar mii video barenin
 
 ## How to add sentences
