@@ -16,12 +16,16 @@ prompt-bubble-title = <mark>Sollicitation</mark>
 prompt-bubble-subtitle = Nos te monstrara un sollicitation o un question
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Responder</mark>
+respond-bubble-subtitle = Responde o replica a illo tanto naturalmente como tu pote
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Transcriber</mark>
+transcribe-bubble-subtitle = Scribe lo que tu audi in le registrationes audio
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Verificar</mark>
+check-bubble-subtitle = Controla si le transcription concorda con le audio
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Datos</mark>
+data-bubble-subtitle = Nos periodicamente publica le insimul de datos
 contact-us = Contacta nos
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = Insere tu email
