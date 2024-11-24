@@ -27,18 +27,18 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] han ke jumlaan hik ke barenum ap
+        [0] han ke jumlaan hik ke barenum api
         [one] han jumlaan hik ke barena. juu goor
        *[other] jumlan hik be barenan. juu maar
     }
-sc-review-form-review-failure = hik ke kośiś etin. review save oomanican
-sc-review-link = hik ke barenas
+sc-review-form-review-failure = daa barenum ike save oomanican, hik ke kośiś etin.
+sc-review-link = hik ḍame daa barenas
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = hik ke barenase criteria
-sc-criteria-title = hik ke barenase criteria
-sc-criteria-make-sure = barenin ke jumlane yarum ike criteria juwan maniś
+sc-criteria-title = hik ḍame daa barenase criteria
+sc-criteria-make-sure = barenin ke jumlane yaare mićim ite criteria juwan maniṣ
 sc-criteria-item-1 = jumlane spelling sahi maniṣ
 sc-criteria-item-2 = jumlan grammatically sahi maniṣ
 sc-criteria-item-3 = jumlan senaso maniṣ
