@@ -1,23 +1,23 @@
 ## ABOUT US
 
 about-title = Bes common voice?
-about-header-description-v2 = hanjuko uyoon sise gane ićhare deetaset bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ićhare deetaseting kampnimine bican.  ićhare deetasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućharing api. ićharing teknaalogiulo butan baasinge kaa ḍuro ayećhibi ṭeeylate sis gati nuko ućharin har dishulo bageeś eṭase ćamaat eća baan
-how-does-it-work-title-v2 = Belate hanjuko ićhare ḍuro ećibi?
-how-does-it-work-text = Mii ḍunyaaṭulum ućharinge deetaset gati echa baan. Mayno baaṣulo ićharing meer ḍoocing . ṭhumiśuwe ḍuroing ṭasḍiiq neṭan deetaset warc eṭin.
+about-header-description-v2 = common voice uyoon sise gane ićhare dataset bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ićhare dataseting kampnimine bican.  ićhare datasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućharing api. ićharing technologiulo butan baasinge kaa duro ayećhibi teeylate sis gati nuko ućharin har dishulo bageeś eṭase ćamaat eća baan
+how-does-it-work-title-v2 = Belate common voice e duro ećibi?
+how-does-it-work-text = Mii dunyaatulum ućharinge dataset gati echa baan. Mayno baaṣulo ićharing meer doocing . thumiśuwe duroing tasḍiiq netan deetaset warc etin.
 
 ## How does it work section
 
-about-language-req-subtitle = menane baaṣ kaa ećar ḍuġaruśam.
-about-localization-title = websaite lokalizeeśan
-about-localization-subtitle = guṭe websaite text iṭe baaṣulo ṭarjuma manila
-about-sentence-collection-title = gati eṭumin jumulan
-about-sentence-collection-subtitle = jumlan śaṭine ġaṭayar gaṭi eṭum bican
-about-new-lang-title = ṭhoṣ baaṣan śuru eṭuman
-about-new-lang-subtitle = mii guṭe baaṣulu hanjuko ućharinge sait śuru eṭaan
-about-voice-contrib-title = emasuming ućharing
-about-voice-contrib-subtitle = sis duunin ućharing emaśaan
-about-voice-validation-title = ućharinge ṭasqeeq eṭas
-about-voice-validation-subtitle = ṭhumiśo sise ike ućharinge klipsinge ṭasḍiiq ećaan
+about-language-req-subtitle = menane baaṣ kaa ećar duġaruśam.
+about-localization-title = website localization
+about-localization-subtitle = gute website text ite baaṣulo tarjuma manila
+about-sentence-collection-title = gati etumin jumulan
+about-sentence-collection-subtitle = jumlan śatine ġaṭayar gaṭi etum bican
+about-new-lang-title = thoṣ baaṣan śuru etuman
+about-new-lang-subtitle = mii gute baaṣulu common voice e site śuru eṭaan
+about-voice-contrib-title = emasumin ućharing
+about-voice-contrib-subtitle = sis duunin daa ućharing emaśaan
+about-voice-validation-title = ućharinge tasqeeq etas
+about-voice-validation-subtitle = thumiśo sise ike ućharinge clips e tasḍiiq ećaan
 about-dataset-release-title = detaset ḍiyusuman
 about-dataset-release-subtitle = mii deetaset har uskosar ḍiyuśa baan
 about-subscribe-text = hanjuko ućharing cum ḍugharuśume huruśumana?
