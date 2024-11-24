@@ -1,12 +1,12 @@
 ## REVIEW
 
-sc-review-lang-not-selected = une baaṣan select ayeta. khole profile nuko baaṣ select eti
-sc-review-title = jumlan review etin
+sc-review-lang-not-selected = une baaṣan select ayeta. khole profile ar nukoo baaṣ damśi eti
+sc-review-title = jumlan hik dame daa esalin
 sc-review-loading = jumlan load etin
-sc-review-select-language = baaṣ select netanin jumlan review etin
-sc-review-no-sentences = review ećar han ke jumlan api
+sc-review-select-language = baaṣ select netanin jumlan hik ḍame daa barenin
+sc-review-no-sentences = hik ḍame daa bareyar han ke jumlan api
 sc-review-form-prompt =
-    .message = dubara barenum jumlan jama api, chane seyba?
+    .message = dubara barenum jumlan jama api, chane seybaa?
 sc-review-form-usage = jumla approve ecar doẏpa swipe etin or reject ecar gaẏpa swipe etin.  skip ećar yatne swipe etin. maimo review jama etas til amaalin
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -22,7 +22,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = keyboard e shortcuts istimaal etas maamay baan. maan etasar, reject etasar daa skip etasar
 sc-review-form-button-submit =
-    .submitText = review yaa dubara barenas phaṣ manimi
+    .submitText = hik ḍame daa  barenas phaṣ manimi
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

@@ -1,4 +1,4 @@
-listen = dukoyal
+listen = dumayalin
 listen-subtitle = ućharing tasdiiq etasulo meer madat etin
 listen-instruction = jumla ṭhis ayetumate senimiya?
 listen-again-instruction = shuwa duro. besyal tayaar manuma ke hik ke dukoyal
