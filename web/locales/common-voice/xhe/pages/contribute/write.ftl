@@ -149,8 +149,15 @@ add-sentences = ڳالھ وار وِڄ
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = ڳالھ وارینک بھر ٻِیا وَتا لال، سوالینک بھر، آڈیو تی نقل کر
-add-sentences-menu-item-tooltip = آپݨی ٻولی وِچ ڳالھ وارینک شامل کر
+add-sentences-menu-item-tooltip = آپݨی ٻولی وِچ ڳالھ وارینک وِڄ
 review-sentences-menu-item-tooltip = آپݨی ٻولی وِچ ڳالھ وارینک وَتا لال
+add-questions-menu-item-tooltip = آپݨی ٻولی تے وِچ سوالیں وِڄ
+transcribe-audio-menu-item-tooltip = آپݨی ٻولی تے وِچ آڈیو ریکارڈنگیاں نقل کر
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = ترتیبیں تا مینیو لِکھ
+add-sentences-menu-item-aria-label = برادری تے پڑھݨ واسطے نویں ڳالھ وارینک وِڄ
+review-sentences-menu-item-aria-label = برادری تی طرف آ جمع کَئے ڳئے پہلے والے ڳالھ وارینک وَتا لال
+add-questions-menu-item-aria-label = برادری تے پڑھݨ ٻِیا جواب ݙیݨ واسطے نویں سوال جمع کر
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈینگیک متن تے وِچ نقل کر

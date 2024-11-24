@@ -90,11 +90,17 @@ read-more-about = مزید لالݨ واسطے تعارفی صفحہ لال
 
 ## NAV ITEMS
 
+answer-questions = سوالیں تے جواب <small>(جلدی چِیسن)</small>
+review-transcriptions = نقلیاں وَتا لال <small>(جلدی چِیسن)</small>
+add-questions = سوال وِڄ <small>(جلدی چِیسن)</small>
+transcribe-audio = آڈیو تی نقل کر <small>(جلدی چِیسن)</small>
 press-and-stories = پریس ٻِیا کہاݨییں
 community-and-languages = برادری ٻِیا ٻولیاں
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شریکتالے، پریس ٻِیا قِصّے، برادری ٻِیا ٻولیاں
+partnerships-menu-item-tooltip = اساں ساں شریک تھی
 
 ## MENU ITEM ARIA LABELS
 
