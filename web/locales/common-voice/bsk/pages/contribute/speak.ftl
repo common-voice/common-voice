@@ -15,6 +15,18 @@ record-instruction = daa jumlan śatine ġatanin
 record-stop-instruction = but śuwa
 record-three-more-instruction = usko duwaasimi
 record-again-instruction = but śuwa. maymo iciyaṭum clip record etin
+record-again-instruction2 = śuwa duro ećume huro. daa hik ke record etin
+record-last-instruction = aaxriulum ite
+review-tooltip = khole clips hik ke baren daa dubaara record ećume niin
+share-clip = maymo clip thumiśuar emasin
+share-common-voice = common voice thumiśuar emasin
+review-instruction = awaaji manimi ke clips ar hik ke barenin daa record etin
+record-submit-tooltip = beśal dumanimi ke jama etin
+clips-uploaded = clips upload manimi
+record-abort-title = yarkamaas recording mukamal etin
+record-abort-text = muuto phat ne niyas matlab maymo progress marin cum diuśuman
+record-abort-submit = clip jama eti
+record-abort-continue = recording mukumal etin
 continue-speaking-button = beeya juu maar, ġarićume hurutin
 
 ## MENU ITEM TOOLTIPS
