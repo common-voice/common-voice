@@ -36,3 +36,5 @@ other-datasets = tʰum ućarulo dataset in
 feedback-q = juwaap mićʰiyas mamanas bilaa?
 # This indicates that there is no data to display
 no-information = be ke maalumat api
+resource-nemo-info = NVIDA NeMO je baa senumin ćaġa bare AI models dosmayar research etaśue gana open source toolkit bi
+resource-deepspeech-info = ćaġamin leel etas applications desmayar mozilla open source e ućʰar leel etase deep speech engine istimaal etas mey bila. mii Github overview ġatanin daa deepspeech discourse e kaa numan belata duro duunas bila ke henin
