@@ -32,3 +32,7 @@ dataset-description-hours = data set e har entry ulo han desqatum MP3 an bila da
 want-dataset-update = common voice datasete thoṣ version e diyusase kaa mimar update awaaji bilaa? mii newsletter subscribe etin.
 subscribe = subscribe
 get-started-speech = bariṅ leel etase kaa duro duunin
+other-datasets = tʰum ućarulo dataset in
+feedback-q = juwaap mićʰiyas mamanas bilaa?
+# This indicates that there is no data to display
+no-information = be ke maalumat api
