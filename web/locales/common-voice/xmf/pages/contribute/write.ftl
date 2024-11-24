@@ -1,5 +1,6 @@
 ## WRITE PAGE
 
+write = ჭარუა
 write-instruction = ქიგუძინით <icon></icon> საკუთარ წინადადებეფი
 sentence =
     .label = წინადადება
