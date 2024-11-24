@@ -1,3 +1,3 @@
 ## Datasets Page
 
-datasets-heading = dataset
+datasets-heading = datasetiṅ
