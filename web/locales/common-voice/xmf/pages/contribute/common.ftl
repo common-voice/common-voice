@@ -15,7 +15,6 @@ report-ask = მუ კილი უღუ თე წინადადებე
 
 contribution-misreadings-example-7-explanation = [ორკუ "გი-" წინსართი]
 contribution-misreadings-example-8-explanation = ვამთხვიუ შინაარსის.
-contribution-varying-pronunciations-example-2-title = ხე გეჭოფუ.
 contribution-background-noise-title = ოჭიშიშ უკახლე ხონარობა
 contribution-background-noise-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ვარიას ქიგუნჭირი, ტექსტიშ სრულას მორჩქილა ვეშილებედა.
 contribution-background-noise-example-2-explanation = [ნაჭარაში ნაწილ ვერჩქილე]
