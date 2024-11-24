@@ -25,7 +25,7 @@ show-ranking = مائی درجہ بندی کَڅئی
 ## Custom Goals
 
 get-started-goals = مقصدہ ملی شُرو کُرا
-create-custom-goal = ایک تانوں مرضی تہ مقصد ژوپایا
+create-custom-goal = ایک حسب ضرورت  گول/ مقصد ژوپایا
 goal-type = تو کیہ قسم مقصد ژوپن گھٹِنپ
 both-speak-and-listen = دوئں
 both-speak-and-listen-long = دوئں کُھنڈا آں اُشتُرُنا
