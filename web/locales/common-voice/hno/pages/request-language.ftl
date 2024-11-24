@@ -7,3 +7,6 @@ request-language-form-email =
     .label = تسدا ای میل ایڈرس
 request-language-form-info =
     .label = زبان دے بارے معلومات
+request-language-form-info-explanation = تسیں زبان دے بارے جتنی معلومات دے ہکدے او او بھاؤ۔ اس بچ ایہ شامل ہو سکدا آسا:
+request-language-form-info-explanation-list-1 = تسدی زبان دے ناں
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوڈ</isoCodeLink>اگر پتہ ہن
