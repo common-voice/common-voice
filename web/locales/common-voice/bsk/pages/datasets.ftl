@@ -18,3 +18,4 @@ number-of-voices = ućʰariṅe taadaat
 splits = traṅ etas
 email-to-download = download e gane email enter etin
 why-email = email an bes? dataset ulo besan jin deen badal etas manimi ke maaka raabta ećar daa email e hihine kaa raabtulo meuruśi bi
+why-donate-datasets-page = mozila common voice dunyaatulo  har raxte sise gati etum ućʰariṅe dataset bila daa mimar śat uyoon donations cum miyaća baan. gute duro ate yoolulo hik million dollars xarća bi amicate datasets
