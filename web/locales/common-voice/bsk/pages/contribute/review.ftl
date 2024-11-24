@@ -48,3 +48,5 @@ report-sc-different-language-detail = jaa girminas ite cum khot thum baaṣanulo
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi uynko tabdiiliminik ećabaan
 sc-redirect-page-subtitle-2 = mimacum matrix, discourse yaa email ate mima cum duġarusin
+# menu item
+review-sentences = jumlan hik dame daa esalin

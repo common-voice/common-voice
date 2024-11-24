@@ -4,5 +4,5 @@ contact-title = dugharsuse faarm
 contact-form-name =
     .label = Guyik
 contact-form-message =
-    .label = ṭaqhpa
-contact-required = دی مے ثے ئم
+    .label = taqhpa
+contact-required = awaaji bican

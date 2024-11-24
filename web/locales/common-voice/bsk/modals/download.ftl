@@ -1,9 +1,9 @@
 ## Download Modal
 
 download-title = maa daunlood śuru manimi
-download-helpus = ućharinge teknaaloji gane kuyooć ḍal ḍuysasulo mii miring ce ḍuunin. micumo email ne ḍugharashume hurutin.
+download-helpus = ućharinge technology gane kuyooć dal duysasulo mii miring ce duunin. micumo email ne dugharaśume hurutin.
 download-form-email =
-    .label = maymo iimeel entar eti
-    .value = juu maar. macimo dugharushume huruśan
+    .label = maymo email enter eti
+    .value = juu maar. macimo dugharuśume huruśan
 download-back = hanjuko ućhring deetasetar phar numa ẓu
 download-no = beeya juu
