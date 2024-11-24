@@ -6,6 +6,8 @@ wall-of-text = Common Voice lancea un secunde platteforma attente a colliger dis
 why-spontaneous-speech = Perque nos produceva iste prototypo de Parolas spontanee
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Utile pro <mark>contextos del parlar organicamente</mark> e casos de uso (e.g. quando tu vole que le recognition vocal functiona con personas que parla colloquialmente)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Melior supporto al realitates linguistic como le translinguismo e le <mark>commutation de codices linguistic</mark>
 how-spontaneous-speech-works = Como functiona Parolas spontanee
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Sollicitation</mark>
