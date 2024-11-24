@@ -1,8 +1,9 @@
 speak = ინოჭარუა
-speak-now = ქოთქვით
+speak-now = ჩიება ქიდიჭყით.
 speak-subtitle = შემენწით თქვანი ხონარით.
 record-cta = ინოჭარუაშ დოჭყაფა.
 record-platform-not-supported = სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.
+record-platform-not-supported-desktop = სამაგიდო კომპიუტერს შეილებუნა ჩამოტვირთათ
 record-platform-not-supported-ios-non-safari = iOS-შოთ, ინოჭარუაშენი, ქორთხინთ ქიგმირინუათ Safari.
 record-must-allow-microphone = მიკროფონიშ გუმორინაფაშ ნება ქიმეჩით.
 record-no-mic-found = მიკროფონქ ვეგორ.
@@ -35,6 +36,7 @@ review-rerecord = ხელახალშო ინოჭარუა.
 review-cancel = ჯღონაშ გაუქვება.
 review-keep-recordings = ინნაჭარეფი შინახით.
 review-delete-recordings = ჩქიმი ინნაჭარეფიშ ლასუა.
+review-terms = Common Voice-იშ გუმორინაფათ, ოთანხმუთ ჩქინ  <termsLink> პირობენს </termsLink> დო <privacyLink> პირადი მონაცემეფიშ ოჩუალარ განაცხადის </privacyLink>
 terms-agree = ვოთანხმუქ.
 terms-disagree = ვავოთანხმუქ.
 # FIRST POST SUBMISSION CTA
