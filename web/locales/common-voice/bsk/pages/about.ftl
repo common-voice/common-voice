@@ -56,17 +56,17 @@ about-nav-playbook = belate kaa manaas bila ke ite hen
 about-playbook-what-is-language = common voice ate besan baaṣ  bila?
 about-playbook-what-is-language-content-1 = baaṣate samba etase butan ganeng bican. speech recognition models e gane, common voice e barey bi ke gute baaṣe sise hihine osulo balićila agar uwe kaman ćamaat etuman ke.
 about-playbook-what-is-language-content-2 = mii ray bila ke baring e model butan har qisime sise osulo baliṣ. gute gane, ućharinge dataset butan sise numaayndagi maniṣ.
-about-playbook-what-is-language-content-3 = beeruman baaṣinge grammar, lafzing, ṭalafuzulo butan farq bila. ṭeylate, mii <ctaLink>introducing ‘Variants’</ctaLink> in 2022 śuru eṭaan. guṭe baaṣ eṭaśuar uymo baaṣ uyongkaro deetasetulo leel eṭas oomay baan.
+about-playbook-what-is-language-content-3 = beeruman baaṣinge grammar, lafzing, ṭalafuzulo butan farq bila. ṭeylate 2022 ulo variants śuru eṭaan. gute baaṣ etaśuar uymo baaṣ uyongkaro datasetulo leel etas oomay baan.
 
 ## How do I add a language
 
 about-playbook-how-add-language = je belate baaṣan kaa ećam?
-about-playbook-how-add-language-content-1 = yarkamaas guymo baaṣ ulo bila baren. agar api ke baaṣ kaa eṭase uzur ooco. Alṭo ganeng bican. Saite ṭarjuma eṭas ḍaa ćagaming gati eṭas.
-about-playbook-how-add-language-translating-heading = saite tarjuma eṭas
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>belate pontoon egucaras bila ke mii video ar barenin. </translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = mii mozila ḍuscak pontoon ṭarjuma eṭase gane eeḍuroća baan. Pontoon ulo butan baaṣing bican. maa baaṣ api ke maa <pontoonRequestLink> ate maymo baaṣ kaa eṭase uzur eṭin. Neṭan maa baaṣ hanjuko ućharinge projektulo kaa maymi. ṭhoṣ baaṣe uzure gane kholar niin GitHub</githubRepoLink>. <localizationFragment> daa saitate tarjumane gane kholar </localizationFragment>.
+about-playbook-how-add-language-content-1 = yarkamaas maymo baaṣ ulo bila ite baren. agar api ke baaṣ kaa etase uzur ooco. alto ganeng bican. site e tarjuma etas daa ćagaming gati eṭas.
+about-playbook-how-add-language-translating-heading = sitee e tarjuma etas
+about-playbook-how-add-language-translating-content-1 = belate pontoon egucaras bila ke mii video ar barenin
+about-playbook-how-add-language-translating-content-2 = mii mozila duscak pontoon tarjuma etase gane eeduroća baan. Pontoon ulo butan baaṣing bican. maa baaṣ api ke maa ate maymo baaṣ kaa eṭase uzur etin. netan maa baaṣ hanjuko common voice project ulo kaa meeymi. thoṣ baaṣe uzure gane kholar niin site e tarjumane gane kholar barenin
 about-playbook-how-add-language-collecting-sentences-heading = jumlan gati eṭas
-about-playbook-how-add-language-collecting-sentences-content-1 = jumlan gati eṭase gane mii gaaide video ar barenin
+about-playbook-how-add-language-collecting-sentences-content-1 = jumlan gati eṭase gane mii maykinase video ar barenin
 about-playbook-how-add-language-collecting-sentences-content-2 = Khole <sentenceCollectorLinkAdd> maa kaman jumlan kaa eṭas maa bay baan. ḍaa butan jumlan kaa etase gane khole niin Github</bulkImportDocsLink>. Masate oosin ke jumlan akholum maniṣ <licenseLink>CC0 (or public domain)</licenseLink>, ḍaa maymo jumlan ke girminas maa bay baan
 about-playbook-how-add-language-collecting-sentences-content-3 = ḍaa maziiḍ jumlan gati eṭase gane khole barenin <sentenceCollectorFragment>
 
