@@ -18,6 +18,11 @@ validate-readings = ریڈنگز تی وجہ ݙے
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ریڈنگز تی وجہ ݙے، ٹرانسکرپشنیں وَتا لال
+validate-readings-menu-item-tooltip = آپݨی ٻولی وِچ صارف تی طرف آ بھریاں ڳئیاں ریڈنگز تی وجہ ݙے
+review-transcriptions-menu-item-tooltip = آپݨی ٻولی وِچ صارف تی طرف آ جمع کَیاں ڳئیاں ٹرانسکرپشنز وَتا لال
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ترتیبیں تا مینیو ٻُجھ
+validate-readings-menu-item-aria-label = برادری تے مُݨسیں تی طرف آ جمع کَیاں ڳئیاں ریڈنگز تی وجہ ݙے
+review-transcriptions-menu-item-aria-label = بھرے ڳئے ڳالھ واریں تی تصدیق واسطے ٹرانسکرپشنز وَتا لال

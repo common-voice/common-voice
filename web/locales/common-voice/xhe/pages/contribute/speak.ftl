@@ -65,6 +65,10 @@ read-sentences = ڳالھ وارینک ٻُجھ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = ڳالھ وارینک پڑھ، سوالیں تا جواب ݙے
+read-sentences-menu-item-tooltip = آپݨی ٻولی تے وِچ آپݨی طرف آ آکھے ڳئے ڳالھ وارینک بھر
+answer-questions-menu-item-tooltip = آپݨی ٻولی تے وِچ آپݨی طرف آ جواب ݙتّے ڳئے سوالینک ٻیا پرامپٹس بھر
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ترتبیں تا مینیو ڳاھلا
