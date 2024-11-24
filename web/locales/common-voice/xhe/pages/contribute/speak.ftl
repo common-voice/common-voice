@@ -72,3 +72,5 @@ answer-questions-menu-item-tooltip = آپݨی ٻولی تے وِچ آپݨی طر
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = ترتبیں تا مینیو ڳاھلا
+read-sentences-menu-item-aria-label = برادری تی طرف آ  ٻئے ٻولیں تی وِچ جمع کَئے ڳئے ڳالھ وارینک پڑھ
+answer-questions-menu-item-aria-label = برادری تے واسطے ہِک نواں سوال جمع کر پڑھݨ واسطے ٻیا جواب ݙیݨ واسطے
