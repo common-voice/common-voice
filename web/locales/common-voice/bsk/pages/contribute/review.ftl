@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = une baaṣan select ayeta. khole profile ar nukoo baaṣ damśi eti
+sc-review-lang-not-selected = maa baaṣṅ damśi ayetaa. khole profile ar namaa baaṣṅ damśi etin
 sc-review-title = jumlan hik dame daa esalin
 sc-review-loading = jumlan load etin
 sc-review-select-language = baaṣ select netanin jumlan hik ḍame daa barenin
