@@ -1,18 +1,5 @@
 goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარ მიზანიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
 goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
-target-segment-first-card = თქვა წილი მიშაიღუნა ჩქინი მაართანი მიზანიერ ნაშაყარაშა
-target-segment-generic-card = თქვა წილი მიშაიღუნა მიზანიერ ნაშაყარაშა
-target-segment-first-banner = ქიდმეხვარით გუაკეთათ Common Voice-იშ მაართანი მიზანიერ ნაშაყარა { $locale } ნინაშო
-target-segment-add-voice = ქიგუძინით თქვანი ხონარი.
-target-segment-learn-more = ქიჩქუდას მეტი
-change-preferences = პარამეტრეფიშ თირუა.
-login-signup = მიშულა / ქიმინუა
-vote-yes = ქო
-vote-no = ვარ
-datasets = ნაშაყარეფი
-languages = ნინეფი
-about = გურშენი
-partner = მეწილე
 submit-form-action = ჯღონა
 
 ## Reporting
