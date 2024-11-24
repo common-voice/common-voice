@@ -1,6 +1,3 @@
-goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარ მიზანიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
-goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
-
 ## Reporting
 
 report-ask = მუ კილი უღუ თე წინადადებეფს?
@@ -10,26 +7,13 @@ report-ask = მუ კილი უღუ თე წინადადებე
 
 ## Speak Shortcuts
 
-shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ გაურქვება
-shortcut-submit = დორთა
-shortcut-submit-label = ინოჭარილეფიში ჯღონა.
-request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
-request-language-button = მითხით ნინაში გეძინა
 
 ## Listen Shortcuts
 
-shortcut-play-toggle-label = ჩართი / გაჩენდი
 
 ## Validation criteria
 
-contribution-criteria-nav = სითინუეში ოზიმალი.
-contribution-criteria-link = წილიშ წორო მიშაღალაშ გურშენი
-contribution-criteria-page-title = წილიშ მიშაღალაშ კრიტერიუმეფი
-contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა.
-contribution-for-example = მაგალთო
-contribution-misreadings-title = უწორო კითხირი
-contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
+contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინნაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> აშაჩილათეფი შხირი რე:
 contribution-misreadings-description-extended-list-1 = ორკუ <strong> "მი"-</strong> </strong> "გი" </strong> ვარდა შხვა წინსართი წოლოხე
 contribution-misreadings-description-extended-list-2 = ორკუ <strong> "ს" </strong> ზიტყვაში ბოლოს.
 contribution-misreadings-description-extended-list-3 = დაკუნტარებული რე ზიტყვა, მაგალთო, იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.
