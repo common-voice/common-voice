@@ -7,6 +7,9 @@ record-platform-not-supported-desktop = maa desktop ate devices download no miri
 record-platform-not-supported-ios-non-safari = IOS ate recording etase gane  Safari eedurin
 record-must-allow-microphone = microphones e access ijazat ićhiin
 record-no-mic-found = microphone eeycuman
+record-error-too-short = gute recording buṭ khuṭ bilum
+record-error-too-long = gute recording buṭ ġusanum bilum
+record-error-too-quiet = gute recording buṭ thalaa bilum
 continue-speaking-button = beeya juu maar, ġarićume hurutin
 
 ## MENU ITEM TOOLTIPS
