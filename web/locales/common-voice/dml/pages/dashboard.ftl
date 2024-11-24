@@ -52,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد ژوپئی
 cant-decide = فیصلہ کُرین نی بئیپ
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 how-many-per-day = ہر دیو کتی کلپس ژوپئیمہ
 how-many-a-week = ہفتا کتی کلپس نم ژُپئیمہ
 which-goal-type = تو کیہ کُھنڈن گٹنپ اُشتُرونن گٹِنپ یا دوئں
