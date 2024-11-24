@@ -123,14 +123,14 @@ about-playbook-how-access-dataset-content-2 = ASR model diyulase gane barey baan
 
 ## How are decisions made
 
-about-playbook-how-project-governance = Projecte feeslan belate gaybaan?
-about-playbook-how-project-governance-content-1 = Mozilla hanjuko ućharinge project e kamiyaabiulo ḍunyaulum har kaṭe sis maslan activist, linguist, data scientist, academics and software engineeriśuwe urin bila.
-about-playbook-how-project-governance-content-2 = mii intizaam guce dakumucate ḍal diyen bila:
-about-playbook-how-project-governance-content-3 = Privacy, security ḍaa transparency
-about-playbook-how-project-governance-content-4 = Community ḍuroing ḍaa feeslan eṭas
-about-playbook-how-project-governance-content-5 = śuwa bagahark henas ḍaa meecanas
+about-playbook-how-project-governance = Project e feeslan belate gay baan?
+about-playbook-how-project-governance-content-1 = Mozillaa common voice e project e kamiyaabiulo dunyatulum har kaṭe sis maslan activist, linguist, data scientist, academics and software engineeriśuwe urin bila.
+about-playbook-how-project-governance-content-2 = mii intizaam guce dakumucate dal diyen bila:
+about-playbook-how-project-governance-content-3 = Privacy, security daa transparency
+about-playbook-how-project-governance-content-4 = Community duroing daa feeslan etas
+about-playbook-how-project-governance-content-5 = śuwa bagahark henas daa duroin meecanas
 about-playbook-how-project-governance-content-6 = gatimo zimawaari
-about-playbook-how-project-governance-content-7 = Belate egucarća baan ke khole ġaṭanin </governanceLink>
+about-playbook-how-project-governance-content-7 = Belate eġucarća baan ke khole ġatanin [governance link]
 
 ## How is Common Voice funded
 
