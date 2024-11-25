@@ -60,3 +60,17 @@ already-have-an-account = უკვე გაქვთ ანგარიში?
 create-profile-button = პროფილის შექმნა
 # IMAGE TAGS
 img-alt-success-checkmark = წარმატებით შესრულებულის აღნიშვნა
+# menu item
+read-sentences = წინადადებების წაკითხვა
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = წინადადებების წაკითხვა, კითხვებზე პასუხი
+read-sentences-menu-item-tooltip = ჩაწერეთ, როგორ კითხულობთ წინადადებებს თქვენს ენაზე
+answer-questions-menu-item-tooltip = ჩაწერეთ, როგორ სცემთ პასუხს კითხვებსა თუ მოთხოვნებს თქვენს ენაზე
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = წარმოთქმის პარამეტრების ასარჩევი
+read-sentences-menu-item-aria-label = ერთობის მიერ წარმოდგენილი წინადადებების წაკითხვა სხვადასხვა ენაზე
+answer-questions-menu-item-aria-label = ახალი კითხვის დამატება, რომ ერთობის წევრებმა ამოიკითხონ და პასუხი გასცენ

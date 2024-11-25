@@ -262,6 +262,8 @@ help = дэӀэпыкъуныгъэ
 contact = Контакт
 terms = Къагъэув къалэнхэр
 cookies = Кукихэр
+email-input =
+    .label = э-пощт
 
 ## Donate banner
 

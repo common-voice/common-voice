@@ -3,6 +3,8 @@
 welcome-to-spontaneous-speech = Witajće k spontanemu rěčenju
 why-spontaneous-speech = Čehodla smy tutón prototyp za spontane rěčenje wuwili
 # text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Lěpša podpěra za rěčne reality kaž přełožowanje a <mark>kodowe změnjenje</mark>
+# text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Lěpša podpěra za rěče, kotrež maja mały abo <mark>žadyn tekstowy korpus</mark>, kotryž móža wužiwać (na př. sociolekty, warianty, rěče, kotrež su historisce bjez pisma atd. )
 how-spontaneous-speech-works = Kak spontane rěčenje funguje
 # text wrapped in <mark></mark> will have a blue background

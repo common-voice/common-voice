@@ -1,8 +1,11 @@
 speak = ინოჭარუა
-speak-now = ქოთქვით
+speak-now = ჩიება ქიდიჭყით.
 speak-subtitle = შემენწით თქვანი ხონარით.
 record-cta = ინოჭარუაშ დოჭყაფა.
+record-platform-not-supported = სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.
+record-platform-not-supported-desktop = სამაგიდო კომპიუტერს შეილებუნა ჩამოტვირთათ
 record-platform-not-supported-ios-non-safari = iOS-შოთ, ინოჭარუაშენი, ქორთხინთ ქიგმირინუათ Safari.
+record-must-allow-microphone = მიკროფონიშ გუმორინაფაშ ნება ქიმეჩით.
 record-no-mic-found = მიკროფონქ ვეგორ.
 record-error-too-short = ინნაჭარა გვალო კუნტა რდჷ.
 record-error-too-long = ინნაჭარა გვალო გინძე რდჷ.
@@ -33,11 +36,13 @@ review-rerecord = ხელახალშო ინოჭარუა.
 review-cancel = ჯღონაშ გაუქვება.
 review-keep-recordings = ინნაჭარეფი შინახით.
 review-delete-recordings = ჩქიმი ინნაჭარეფიშ ლასუა.
+review-terms = Common Voice-იშ გუმორინაფათ, ოთანხმუთ ჩქინ  <termsLink> პირობენს </termsLink> დო <privacyLink> პირადი მონაცემეფიშ ოჩუალარ განაცხადის </privacyLink>
 terms-agree = ვოთანხმუქ.
 terms-disagree = ვავოთანხმუქ.
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = მარდის მუგოშინანთ თქვანი ხონარიშ ინნაჭარეფით შემენწითჷნი.
 why-donate = მუშენ მოკითხჷქ?
+why-donate-explanation-1 = თე ინფორმაციაშ გეძინა, ვარე სავალდებულო. ქუგოკონადა, თქვანი ნება რე. ინოჭარილეფიშ გუშაშკუმალაშ დროს ჩქი პირად მონაცემეფს ირფელს უთხინუანთ, თიშენ ნამდა თქვან სახელი დო ელფოსტა ვარდას დაკავშირებული თაქ მითითებულ ასაკის დო სქესისჷნი.
 add-information-button = მონაცემეფიშ მიკოდვალა
 continue-speaking-button = ვარ, მარდი, გაგძელით ჩიება.
 create-profile-text = გოკონანო თქვან მონაცემეფიშ შენახება? <createProfile> გაკეთით პროფილი </createProfile>

@@ -16,6 +16,7 @@ validate-readings = ქალიჭუ̂და̄̈ნი̄ ლიდასტუ
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ქალუჭუ̂დანე̄მი ლიდასტუ̂რე, ტრანსკრიპტრეშ ქალისჷნჯუ̂ე
+validate-readings-menu-item-tooltip = ჩუ̂ათდასტურა̈უ̂ ისგუ̂ა ნუნჟი მომხმარებლი ნა̈ირუ̂ წინადადება̈ლ
 review-transcriptions-menu-item-tooltip = ქათცი̄ნც მომხმარებლი ნაზჷზ ტრანსკიფცია̄̈ლ ისგუ̂ა ნჷნჟი
 
 ## MENU ITEM ARIA LABELS

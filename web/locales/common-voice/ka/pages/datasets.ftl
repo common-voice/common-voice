@@ -94,3 +94,7 @@ release-version = გამოშვება
 dataset-date = თარიღი
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ხმოვანი კრებულების ჩამოტვირთვა
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ჩამოტვირთვის პარამეტრები Common Voice-ის კრებულთან წვდომისთვის

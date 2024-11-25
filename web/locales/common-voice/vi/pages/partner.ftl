@@ -16,3 +16,5 @@ partnerships-small-business-description = Chúng tôi luôn tìm cách lắng ng
 partnerships-corporates-header = Các công ty quy mô lớn và các công ty nền tảng
 partnerships-corporates-description = Nếu bạn đang muốn nói thêm về tập dữ liệu, muốn đồng đầu tư vào các kế hoạch mở rộng nền tảng hoặc tìm kiếm cơ hội cộng tác, hãy <emailFragment>cho chúng tôi biết.</emailFragment>
 partnerships-our-partners = Các đối tác của chúng tôi
+# menu item
+partners = Đối tác

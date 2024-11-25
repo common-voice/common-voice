@@ -2,6 +2,7 @@
 
 sc-review-lang-not-selected = ნინა დიო ვეგშაიგორუნანო. გინილით თქვან <profileLink> პროფილშა </profileLink> ნინაშ მიოთითებელო.
 sc-review-title = წინადადებეფიშ შემოწმება.
+sc-review-loading = წინადადებეფ ეიტვირთუ.
 sc-review-select-language = ქორთხინთ, გეჲშაგორით ნინა წინადადებეფიში შიომოწმებელო.
 sc-review-no-sentences = შიომოწმებელი წინადადებეფი ვარე. <addLink> სი ქიგუძინი ასე! </addLink>
 sc-review-form-prompt =
@@ -15,7 +16,7 @@ sc-review-form-button-skip = გიშატება
 sc-review-form-button-approve = მეღება
 sc-review-form-keyboard-usage-custom = შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო{ sc-review-form-button-reject-shortcut } ოვარებელო დო { sc-review-form-button-skip-shortcut } გიშატებელო.
 sc-review-form-button-submit =
-    .submitText = შემოწმებაში თება.
+    .submitText = შემოწმებაში გათება.
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -35,18 +36,18 @@ sc-criteria-make-sure = დერწმუნით ნამდა წინა
 sc-criteria-item-1 = წინადადებეფი წორას ოკო რდას ჭარილი.
 sc-criteria-item-2 = წინადადებეფი გრამატიკულო წორი ოკო რდას.
 sc-criteria-item-3 = წინადადებეფი ორაგადე ოკო რდას.
-sc-criteria-item-4 = წინადადება ქაყმაყოფილენს პირობებსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.
-sc-criteria-item-5-2 = ვაყმაყოფილენს ჟიდონი პირობებსდა, ქიგუკაკეთ "ვარება" კვარჩხანშე. ქოიჭირა გინოჭყვადუადა, შეილებუნა გაქშეტუათ დო გინილათ შხვაშა.
+sc-criteria-item-4 = წინადადება ქაყმაყოფილენს პირობენსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.
+sc-criteria-item-5-2 = ვაყმაყოფილენს ჟიდონი პირობენსდა, ქიგუკაკეთ "ვარება" კვარჩხანშე. ქოიჭირა გინოჭყვადუადა, შეილებუნა გაქშეტუათ დო გინილათ შხვაშა.
 sc-criteria-item-6 = დელიუ ომოწმებელ წინადადებეფქდა, გორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი.
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = შეამოწმით <icon></icon> ლინგვისტურო თინი ქორე თუ ვარ წინადადებეფი?
 sc-review-rules-title = აყმაყოფილენს თუ ვარ მოჩამილ მოთხუალას?
 sc-review-empty-state = თე ნინაშოთ ომოწმებელ წინადადებეფქ გეშელიუ.
 report-sc-different-language = შხვანერი ნინა
-report-sc-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელ ნინაშე.
-sentences-fetch-error = ჩილათა წინადადებეფიშ მეღებას.
-review-error = ჩილათა წინადადებეფიშ მოწმებას.
-review-error-rate-limit-exceeded = ჩქარენთ. რთხინთ დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რენი.
+report-sc-different-language-detail = ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელ ნინათ
+sentences-fetch-error = ჩილათა რე წინადადებეფიშ მეღებას.
+review-error = ჩილათა რე წინადადებეფიშ მოწმებას.
+review-error-rate-limit-exceeded = ჩქარენთ. რთხინთ დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რე.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = მნიშვნელოვან თირუა რე.
 sc-redirect-page-subtitle-1 = წინადადებეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა <writeURL> დოჭარათ </writeURL> წინადადება ვარდა <reviewURL> შეამოწმათ </reviewURL> ზოხო გეძინელი წინადადებეფი Common Voice-ის

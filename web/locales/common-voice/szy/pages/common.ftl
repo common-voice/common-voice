@@ -10,8 +10,12 @@
 
 ## Layout
 
-profile = Sacumud a banggu
-contact = Linlakun kami
+profile = ngangan nu udip
+contact = linlakun kami
+privacy = himicu
+terms = sacukaymas a hulic
+logout = patahekal
+donate = painipakahut
 
 ## Donate banner
 

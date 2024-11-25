@@ -79,6 +79,7 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 ## NAV ITEMS
 
 answer-questions = Soru yanıtla <small>(Çok yakında)</small>
+review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
 add-questions = Soru ekle <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler

@@ -22,9 +22,21 @@ guidelines = შარაშმაწურაფალი
 contact-us = ქიდმეკავშირით
 add-sentence-success = წინადადება რე კორობილი
 add-sentence-error = ჩილათა რე წინადადებეფიშ გეძინაშ ბორჯის.
+required-field = რთხინთ, შეავსათ თე არდგილი.
+single-sentence-submission = წინადადებეფიშ თითო-თითოთ მიშაღალა.
+small-batch-sentence-submission = ართ-ჟირ წინადადებაშ მიშაღალა.
+bulk-sentence-submission = წინადადებეფიშ ართო მიშაღალა.
+single-sentence = ცალკეიან წინადადება.
+# Sentence Domain dropdown option
+automotive_transport = მანქანეფი დო ტრანსპორტი.
+# Sentence Domain dropdown option
+finance = ფინანსეფი.
+# Sentence Domain dropdown option
+healthcare = ჯანდაცვა.
 
 ## BULK SUBMISSION 
 
+select-file = გეჲშაგორით ფაილი.
 
 ## SMALL BATCH SUBMISSION
 

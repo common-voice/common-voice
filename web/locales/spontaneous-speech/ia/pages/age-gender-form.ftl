@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = Gratias pro contribuer a Parlar spontaneemente!
+age-gender-form-title = Gratias pro contribuer al projecto Parolas spontanee!
 age-gender-form-subtile = Contante nos re te mesme, tu adjutara le disveloppatores a producer technologias plus inclusive
 add-information-button = Adder informationes
 continue-speaking-button = Continuar a parlar
