@@ -50,6 +50,19 @@ service_retail = მომსახურება დო საცალო ვ
 general = ზოგადი.
 # Sentence Domain dropdown option
 healthcare = ჯანდაცვა.
+# Sentence Domain dropdown option
+history_law_government = ისტორია, სამართალ დო მმართველობა.
+# Sentence Domain dropdown option
+language_fundamentals = ნინაშ ჯინჯეფი (მაგალთო, ციფრეფი, ასოეფი, ფარა)
+# Sentence Domain dropdown option
+media_entertainment = მედია დო ართუაფა.
+# Sentence Domain dropdown option
+nature_environment = ბუნება დო აკანი.
+# Sentence Domain dropdown option
+news_current_affairs = სიახალე დო მიმდინარე მოვლენეფი.
+# Sentence Domain dropdown option
+technology_robotics = ტექნოლოგია დო რობოტიკა.
+sentence-variant-select-label = წინადადებაშ კუნთხუობა.
 
 ## BULK SUBMISSION 
 
