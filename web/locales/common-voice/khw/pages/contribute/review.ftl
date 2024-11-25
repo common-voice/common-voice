@@ -31,7 +31,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] جملو وا نو لوڑیتانی
         [one] 1 جملو وا لوڑیتائے، شکریہ
-       *[other] جملو وا لوڑیتائے۔ شکریہ
+       *[other] { $sentences }جملو وا لوڑیتائے۔ شکریہ
     }
 sc-review-form-review-failure = وا لوڑیرو محفوظ کورین نو ہوئے۔ پھوک اچھا وا کوشش کو۔
 sc-review-link = وا لوڑیک
@@ -49,16 +49,16 @@ sc-criteria-item-5-2 = اگر جملہ بوغدو معیارو پورا کی ن�
 sc-criteria-item-6 = تہ سوم جملہ وا لوڑیکو بچین ختم کی ہونی، اسپہ سوم خور جملہ بڑاڅیکا مدد کو
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = لوڑے <icon> </icon>ہیہ کھوارو سہی جملہ؟
-sc-review-rules-title = ہیہ جملہ رہمنائی مطابقا سہیا؟
+sc-review-rules-title = ہیہ جملہ رہمنائی مطابقہ سہیا؟
 sc-review-empty-state = ہیہ وختا ہیہ وارا سہی کوریکو بچین جملہ نیکی۔
 report-sc-different-language = خور وار
 report-sc-different-language-detail = اوا کیا وارو کی وا لڑیمان ہیہ ہتے وارو سر خور نیویشی شیر۔
 sentences-fetch-error = جملو گناوا نقص پیدا ہوئے
 review-error = جملو وا لوڑاوا نقص پیدا ہوئے
-review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے یقینی سہی کوریکو بچین پھوک روک بوس۔
+review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو وا لوڑے بچین پھوک وخت گنے، تسلی کوکی سہی شیر۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسپہ پھوک لوٹ تبدیلی کوسیان
-sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کامن وائسو پلیٹ فارومو ویشکی بیران۔ تو ہنیسے <writeURL> نیویشے</writeURL> ای جملہ یا<reviewURL> وا لوڑے</reviewURL> ای جملو کامن وائسا جمع کوریکو۔
-sc-redirect-page-subtitle-2 = اسپاسر بشار کو <matrixLink> خانہ</matrixLink> <discourseLink>مشقول گی </discourseLink> یا <emailLink> ای میل</emailLink>
+sc-redirect-page-subtitle-1 = جملان بڑاڅیک کامن وائسو بنیادی پلیٹ فارومو ویشکی بیران۔ جملو کامن وائسا جمع کوریکو بچین تو ہنیسے <writeURL> نیویشے</writeURL>یا<reviewURL> وا لوڑے</reviewURL>
+sc-redirect-page-subtitle-2 = اسپاسر بشار کو <matrixLink> خانہ</matrixLink> <discourseLink>مشقولگیو ژاغا </discourseLink> یا <emailLink> ای میل</emailLink>بی
 # menu item
 review-sentences = جملان وا لوڑے

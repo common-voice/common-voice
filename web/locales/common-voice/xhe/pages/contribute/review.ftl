@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = تو گھݨاں تیز پیا وین٘دا ہ
 sc-redirect-page-title = اسے کُجھ وݙیاں تبدیلیاں کندے پیؤں
 sc-redirect-page-subtitle-1 = ڳالھ وارینک جمع کرݨ والا کور کامن وائس پلیٹ فارم طرف وین٘دا پیا ہے۔ انھیاں تو کامن وائس تی ہِک ڳالھ وار <writeURL>لکھ</writeURL> سڳدا ہیں یا ہِکلا <reviewURL>وتا لال</reviewURL> جمع کر سڳدا ہیں۔
 sc-redirect-page-subtitle-2 = اساں واں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈس کورس</discourseLink> یا <emailLink>ای میل</emailLink> تی سوال پُچھ۔
+# menu item
+review-sentences = ڳالھ وارینک وتا لال

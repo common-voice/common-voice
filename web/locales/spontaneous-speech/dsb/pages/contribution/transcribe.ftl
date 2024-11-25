@@ -8,3 +8,4 @@ no-audio-message = Njedajo tuchylu žednu awdiodataju, kótaraž dajo se za toś
 create-transcript-success = Transkripcija jo se wuspěšnje wótpósłała!
 create-transcript-error = Pśi napóranju toś teje transkripcije jo zmólka nastała
 error-playing-audio = Zmólka pśi wótgrawanju awdiodataje.
+error-fetching-audio = Pśi wótwołanju awdio za transkripcije njejo se něco raźiło. Pšosym wopytajśo pózdźej hyšći raz.

@@ -1,4 +1,5 @@
 add-information-button = معلومات شامل کرو
+why-are-you-asking = تساں کیوں پچھدے پئے ہو؟
 
 ## Gender dropdown
 

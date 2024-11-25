@@ -1,7 +1,7 @@
 import * as Queue from 'bull'
 import { CommonVoiceConfig, getConfig } from '../../config-helper'
 import { io as IO, task as T } from 'fp-ts'
-import { constVoid, pipe } from 'fp-ts/lib/function'
+import { constVoid } from 'fp-ts/lib/function'
 
 const getRedisConfig = (config: CommonVoiceConfig): Queue.QueueOptions => {
   const redisUrlParts = config.REDIS_URL?.split('//')
@@ -38,22 +38,23 @@ export const addProcessorToQueue =
   }
 
 export const addSandboxedProcessorToQueue =
-  <T>(processorPath: string) =>
+  <T>(jobName: string) =>
+  (processorPath: string) =>
   (q: Queue.Queue<T>): IO.IO<void> => {
-    q.process(processorPath)
+    q.process(jobName, processorPath)
     return IO.of(constVoid())
   }
 
 export const attachEventHandlerToQueue =
-  (event: string) =>
-  <T>(eventHandler: (job: Queue.Job<T>) => any) =>
+  <T>(event: string) =>
+  (eventHandler: (job: Queue.Job<T>) => any) =>
   (q: Queue.Queue<T>): IO.IO<void> => {
     return IO.of(q.on(event, eventHandler))
   }
 
 export const addJobToQueue =
-  <J>(job: J) =>
-  (jobName: string) =>
+  <J>(jobName: string) =>
+  (job: J) =>
   (options: Queue.JobOptions) =>
   (q: Queue.Queue<J>): T.Task<boolean> =>
   async () => {

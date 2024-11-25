@@ -5,6 +5,7 @@ mic-access-error = Debe permitir o acceso ao micrófono.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> e responda o máis natural que poida
 no-prompts-message = Actualmente non hai indicacións neste idioma. Por favor actualice a páxina ou ténteo de novo máis tarde.
+error-skipping = Produciuse un erro ao omitir a indicación
 error-recording = Produciuse un erro durante a gravación
 error-fetching-prompts = Produciuse un erro ao recuperar as preguntas. Ténteo de novo máis tarde.
 error-uploading-response = Produciuse un erro ao enviar a resposta

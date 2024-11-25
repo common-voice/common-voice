@@ -12,7 +12,7 @@ sc-review-form-usage = Гущыӏэухыгъэм уезэгъыным пае д
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Гъэфедэгъэр: { $sentenceSource }
 sc-review-form-button-reject = Щыгъэзый
-sc-review-form-button-skip = Блэгъэкӏ
+sc-review-form-button-skip = Блэкӏ
 sc-review-form-button-approve = Езэгъ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = А

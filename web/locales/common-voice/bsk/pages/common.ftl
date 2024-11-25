@@ -257,6 +257,41 @@ zza = zaza
 
 ## Layout
 
+profile = profile
+help = mirin ce duunas
+contact = raabta etas
+privacy = mii haranum
+terms = terms
+cookies = cookies
+faq = aksar duġarusum sawaalin
+content-license-text = mawaad khole mayaćuman [licenselink] amitar creative common license seybaan
+share-title = meeka kaa numan ućhar emasaśo sis duuysin
+share-text = meeka kaa numa machine oykinin ke sise belate ćaġa ećaan daa maymo maćhar meer emasin
+link-copied = link copy manimi
+back-top = Yatmuśar hik ke niin
+logout = log out maneyn
+donate = meer emasin
+stayintouch = mii moziila ulo ućhare technology cum kuyooć dal duyśa baan. mii macimo duġaruśume huruśan daa naya data souce baarulo mamacum dimayljan ke belata istimaal ećaan ke.
+privacy-info = mii maa kaa waada eća baan ke maa maalumaate but śan ećan. Khole daa ġatanin [privacylink]
+return-to-cv = (hanjuko ućharing) common voice ar  wapas ẓuin
+email-input =
+    .label = email
+loading = jaa ray ećhabaa ke jaar common voice e reminder, progress daa newsleter email ẓuṣ
+email-opt-in-info = jaa ray ećhabaa ke jaar common voice e reminder, progress daa newsleter email ẓuṣ
+email-opt-in-info-title = common voice e mailing list ulo kaa maneyin
+email-opt-in-info-sub-with-challenge = common voice e newsleter, duroe updates, daa goals aski ataśo emails dukoġork
+email-opt-in-privacy-v2 = emails damaaġurkase gane tey senin ke mamar sahi bila belate mozilla information kaa surmanimi ke belate khole masulo maabiśam bila ke
+indicates-required = (*) kaa mark etum fileds mamar awaaji bican
+not-available-abbreviation = bes ke be
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = maa mirin ce duunas mimar awaaji bila
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = gute duruwate taqriiban yoolulo hik million dollare nićiyen amulo dataset host meybila daa tha cum baske baaṣing sise mimate baroosa ećaan. Une ke gokeer value ićhićaan ke maymo baaṣ e data meer emasin
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = maymo research mesase gane maymo CV khole doocin
+languages-donate-banner-cta-explanation = donation ke grants ate gute common voice e duro gucharćila. mii academic, civil society daa industry researchers kaa numaa duro ećabaa. Common voice istimaalar free bila leykin platform and hosting qeymit gane grant proposals but madagar bican.
+localization-select =
+    .label = baaṣ ke llocalisation damśi eti

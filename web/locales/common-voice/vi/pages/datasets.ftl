@@ -94,3 +94,7 @@ release-version = Phiên bản
 dataset-date = Ngày
 license = Giấy phép: <licenseLink>{ $license }</licenseLink>
 license-mixed = Xáo trộn
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Tải bộ dữ liệu giọng nói của chúng tôi
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Các tuỳ chọn tải xuống để truy cập dữ liệu dự án Common Voice

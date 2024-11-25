@@ -1,4 +1,5 @@
-listen = Tengilen
+listen = mitengil
+listen-subtitle = miedap patucek mikinsa tu nutaw a ngiha
 
 ## MENU ITEM TOOLTIPS
 

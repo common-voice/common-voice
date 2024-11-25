@@ -6,3 +6,4 @@ request-language-form-language =
 request-language-success-title = Бзэ кӏэупчӏэн гъэхъагъэу къегъэхьагъ, опсэу.
 select-language = Бзэр къыхэх
 other-language = Нэмыкӏ бзэ
+yes-receive-emails = Ары, епочтэхэр къыфэгъахь. Коммон Войс проектым икъэбархэр зэзгъэшӏэнэу сыфай.

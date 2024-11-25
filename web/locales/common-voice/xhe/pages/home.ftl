@@ -87,3 +87,26 @@ help-contribute = کامن وائس تی پروفائل جوڑ کر آپݨی ا�
 login-company = لاگ اِن / { $company } ای میل ساں گݙ سائن اپ کر
 profile-not-required = حِصّہ گھولݨ واسطے ہِک پروفائل ضروری نے کہ ہو مددگار وئے، وجہ واسطے مُنڈھ لال۔
 read-more-about = مزید لالݨ واسطے تعارفی صفحہ لال
+
+## NAV ITEMS
+
+answer-questions = سوالیں تے جواب <small>(جلدی چِیسن)</small>
+review-transcriptions = نقلیاں وَتا لال <small>(جلدی چِیسن)</small>
+add-questions = سوال وِڄ <small>(جلدی چِیسن)</small>
+transcribe-audio = آڈیو تی نقل کر <small>(جلدی چِیسن)</small>
+press-and-stories = پریس ٻِیا کہاݨییں
+community-and-languages = برادری ٻِیا ٻولیاں
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = شریکتالے، پریس ٻِیا قِصّے، برادری ٻِیا ٻولیاں
+partnerships-menu-item-tooltip = اساں ساں شریک تھی
+press-and-stories-menu-item-tooltip = اَساں جا بلاگ لال یا اساں جے باریک لِکھ
+community-and-languages-menu-item-tooltip = ٻولیاں ٻِیا برادریاں ٻِیا کامن وائس ڳَڈھ
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = باریک ترتیبیاں مینیو
+partnerships-menu-item-aria-label = کامن وائس ساں شریکتالے تے باریک سِکھ
+press-and-stories-menu-item-aria-label = کامن وائس ساں قِصّے ٻِیا پریس ریلیزیک پہن٘چ
+community-and-languages-menu-item-aria-label = کامن وائس تی مدد ساں ٻولیاں ٻِیا برادریاں وَڑا

@@ -16,3 +16,5 @@ partnerships-small-business-description = მუდამ ველით გა
 partnerships-corporates-header = მსხვილი დაწესებულებები და საშუამავლო პლატფორმები
 partnerships-corporates-description = თუ გსურთ მეტი ისაუბროთ მონაცემთა კრებულის შესახებ ან წვლილი შეიტანოთ პლატფორმის დაგეგმილ გაფართოებაში, ანდა ეძებთ თანამშრომლობის სხვა საშუალებებს, <emailFragment>მოგვწერეთ.</emailFragment>
 partnerships-our-partners = ჩვენი თანამონაწილეები
+# menu item
+partners = თანამონაწილეები

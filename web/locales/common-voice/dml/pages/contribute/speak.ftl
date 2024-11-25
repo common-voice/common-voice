@@ -19,7 +19,7 @@ record-again-instruction2 = اکی منے جاری ساتے، دوبارہ ری�
 record-last-instruction = <recordIcon> </recordIcon>آخری
 review-tooltip = کلپ نم ساں جائزہ آں دوبارہ ریکاڈ کُرا کیمے بی مۡکھ بئیں گے بہ
 share-clip = مینہ کلپ شیئر کُرا
-share-common-voice = عام کاڻ شیئر کُرا
+share-common-voice = کامن وائس شیئر کُرا
 review-instruction = اگر ضرورت با بہ کلپ نم ساں جائزہ آں پھرکی ریکاڈ کُرا
 record-submit-tooltip = { $actionType }کیر بی تیار بو بہ جمع کُرا
 clips-uploaded = کلپ نم اپلوڈ با
@@ -36,7 +36,7 @@ review-rerecord = دوبارہ ریکاڈ کُرے
 review-cancel = جمع کُرن کینسل کُرے
 review-keep-recordings = ریکارڈنگ تھئی
 review-delete-recordings = ما ریکارڈنگ ڈیلیٹ کُرے
-review-terms = عام کاڻ استعمل کُری، تو امونہ <termsLink>شرط نامہ</termsLink>آں <privacyLink>رازداری تہ نوٹس</privacyLink>
+review-terms = کامن وائس استعمل کُری، تو امونہ <termsLink>شرط نامہ</termsLink>آں <privacyLink>رازداری تہ نوٹس</privacyLink>
 terms-agree = ائی مننُم
 terms-disagree = ائی نی منُم
 # FIRST POST SUBMISSION CTA

@@ -13,14 +13,14 @@ goal-help-recording = თქვანი მოხვარათ Common Voice -
 goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
 contribute-more =
     { $count ->
-        [one] ქორეთო ხაზირჷ შეარსულათ ხოლო { $count }
-       *[other] ქორეთო ხაზირჷ შეარსულათ ხოლო { $count }
+        [one] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
+       *[other] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
     }
-speak-empty-state = ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო
-no-sentences-for-variants = ნინაში გიშაგორილ ნერობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
+speak-empty-state = ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო.
+no-sentences-for-variants = ნინაში გიშაგორილი სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.
 speak-empty-state-cta = შემენწით წინადადებეფით
 speak-loading-error = ვეგორ თქვანო ეშაკითხირალი წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.
-record-button-label = ქინაჭარით თქვანი ხონარი.
+record-button-label = ქინაჭარით თქვან ხონარი.
 share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
 keep-track-profile = თე პროფილით თოლი ქუუნეთ თქვანი წიმი ულას
 login-to-get-started = მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.
@@ -35,12 +35,14 @@ vote-yes = ქო
 vote-no = ვარ
 datasets = ნაშაყარეფი
 languages = ნინეფი
-about = გურშენი
+about = ჩქინ გურშენი
 partner = მეწილე
 submit-form-action = ჯღონა
 
 ## Reporting
 
+report = მოხსენება
+report-title = მოხსენებაშ ჯღონა.
 report-ask = მუ კილი უღუ თე წინადადებეფს?
 report-offensive-language = უწმაწური ნინა
 report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე
@@ -56,13 +58,16 @@ report-other-comment =
     .placeholder = გერაგადი
 success = გომორძგუა
 continue = გაგძელება
+report-success = მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = ინოჭარუა / მეჭყვიდუა
+shortcut-record-toggle-label = ინოჭარუა / გაჩერება
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
@@ -78,17 +83,17 @@ shortcut-play-toggle-label = ჩართი / გაჩენდი
 
 ## Validation criteria
 
-contribution-criteria-nav = სითინუეში ოზიმალი.
-contribution-criteria-link = წილიშ წორო მიშაღალაშ გურშენი
+contribution-criteria-nav = კრიტერიუმეფი.
+contribution-criteria-link = წილიშ მიშაღალაშ კრიტერიუმეფ ქიგეგით.
 contribution-criteria-page-title = წილიშ მიშაღალაშ კრიტერიუმეფი
 contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა.
 contribution-for-example = მაგალთო
 contribution-misreadings-title = უწორო კითხირი
-contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
+contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინნაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
 contribution-misreadings-description-extended-list-1 = ორკუ <strong> "მი"-</strong> </strong> "გი" </strong> ვარდა შხვა წინსართი წოლოხე
 contribution-misreadings-description-extended-list-2 = ორკუ <strong> "ს" </strong> ზიტყვაში ბოლოს.
-contribution-misreadings-description-extended-list-3 = დაკუნტარებული რე ზიტყვა, მაგალთო იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.
-contribution-misreadings-description-extended-list-4 = ორკუ ბოლო ზიტყვა ვარა ბგერა, ინოჭარუაში ადრე მეჭყვადუაში გამო.
+contribution-misreadings-description-extended-list-3 = დაკუნტარებული რე ზიტყვა, მაგალთო, იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.
+contribution-misreadings-description-extended-list-4 = ორკუ ბოლო ზიტყვა ვარა ბგერა, ინოჭარუაში ადრე მეჭყვადუაში გურშენი.
 contribution-misreadings-description-extended-list-5 = ზიტყვა გამეორებულ რე ეშაკითხირიში ბრელშა ცადებათ.
 contribution-misreadings-example-1-title = ახალ დუდმახვენჯი გიშაგორილ რე.
 contribution-misreadings-example-2-title = ახალ დუდმახვენჯი გიშაგორილ რე.
@@ -97,13 +102,27 @@ contribution-misreadings-example-3-title = ახალ დუდმახვე
 contribution-misreadings-example-3-explanation = [ინნაჭარა მეჭყვადილი რე ზიტყვაში გათებაშახ]
 contribution-misreadings-example-4-title = ახალ დუდმახვენჯი გიშაგორილ რე. ქო.
 contribution-misreadings-example-4-explanation = [ზედმეტ ზიტყვა რე ინოჭარილი]
-contribution-misreadings-example-6-explanation = [ოკო რდას "ვა რე"]
+contribution-misreadings-example-5-title = ყავაშ ოშუმუშა გალე გუმმურთ.
+contribution-misreadings-example-6-title = ყავაშ ოშუმუშა გალე გუმმურთ.
+contribution-misreadings-example-6-explanation = [ოკო რდას "ჩქი ვორეთ"]
+contribution-misreadings-example-7-title = ყავაშ ოშუმუშა გალე გუმმურთ.
 contribution-misreadings-example-7-explanation = [ორკუ "გი-" წინსართი]
+contribution-misreadings-example-8-explanation = ვამთხვიუ შინაარსის.
 contribution-varying-pronunciations-title = გინორთელი ნათქუელი.
+contribution-varying-pronunciations-description = თხილას ორდათ ინნაჭარაშ ვარებაშ დროს, მუჟამს საქვარ ოხუ ზიტყვაშ უწორო თქუალას, მახვილიშ შხვა არდგილას გეშკვაფას ვარდა კითხვაშ ნიშანიშ გილაჸუბეჩუას. მუშენდა ართ ნინას ბრელ შხვადოშხვანერი თქუალა შილებე რდასჷნი, ნამუშ უმენტაშობა მორჩქილაფილ ვაგაფუდანინი. ქორთხინთ, გეთვალისწინათ თინეფ ხოლო, მიდგა შხვანერო იჩიებუნი.
+contribution-varying-pronunciations-description-extended = მაჟია, ფირქენთ, ნამდა მაკითხირალქ პრიველო ძირუ თე ზიტყვა დო ვარაგადუ წორასდა, რთხინთ, ვარიას ქიგუნჭირით. ვარეთ დარწმუნებულდა, გიშატებაშ ღილაკ ქიგმირინეთ.
+contribution-varying-pronunciations-example-1-title = დუს ქუდი გიორთუდუ.
+contribution-varying-pronunciations-example-2-title = ხე გეჭოფუ.
 contribution-background-noise-title = ოჭიშიშ უკახლე ხონარობა
+contribution-background-noise-description = მოკონა, მანქანურ გურაფაშ ალგორითმეფს  შხვადოშხვა ხონარობაშ ფონს  შეულებუდას მუშობანი. მიბღენთ მაღალ ხონარეფს ხოლო, ხეს ვაუშალენს ნაკითხირ ტექსტიშ გაგონებასდა. ხონარდაბალ მუსიკას ხოლო ვაუჭირს მუთუნი;  ხონარმაღალი მუსიკაშ გამო ზიტყვეფს ვარჩენთჷდა, ქიგუნჭირით ვარიას.
+contribution-background-noise-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირი.
 contribution-background-noise-example-2-explanation = [ნაჭარაში ნაწილ ვერჩქილე]
 contribution-background-voices-title = ოჭიშიშ უკახალენი ხონარობა
+contribution-background-voices-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.
+contribution-background-voices-example-1-title = ახალ დუდმახვენჯი გუშაგორილი რე. <strong> [კითხულენს ართ ხონარი] </strong>
 contribution-background-voices-example-1-explanation = მოურქო? <strong> [უძახუ მაჟირა] </strong>
 contribution-volume-title = ხონარიშ სიმაღალე
 contribution-reader-effects-title = კითხირიშ ეფექტი
-contribution-just-unsure-title = ქოთაკილუნანო?
+contribution-just-unsure-title = გოთაკილუნანო?
+see-more = <chevron></chevron>ქოძირი უმოსი.
+see-less = <chevron></chevron> ქოძირი ჭიჭე.
