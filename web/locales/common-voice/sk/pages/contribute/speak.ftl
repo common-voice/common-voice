@@ -60,3 +60,14 @@ already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
 create-profile-button = Vytvoriť profil
 # IMAGE TAGS
 img-alt-success-checkmark = symbol začiarknutia
+# menu item
+read-sentences = Čítanie viet
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Čítajte vety, odpovedajte na otázky
+read-sentences-menu-item-tooltip = Zaznamenajte si, ako čítate vety vo svojom jazyku
+answer-questions-menu-item-tooltip = Zaznamenajte si, ako reagujete na otázky a výzvy vo svojom jazyku
+
+## MENU ITEM ARIA LABELS
+
