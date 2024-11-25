@@ -2,9 +2,19 @@
 
 write = girmin
 write-instruction = awaami domain e jumlaan
-write-page-subtitle = meer emasumin jumlan khole auyoonar available blum licensed dataset ulo jama meeymi
+write-page-subtitle = meer emasumin jumlan khole auyoonar uyayas licensed dataset ulo jama meeymi
 sentence =
-    .label = jumla
+    .label = jumlaan
+sentence-input-placeholder = maymo public domain e jumla khole biśa
+small-batch-sentence-input-placeholder = maymo public domain e jumlan khole giin
+citation-input-placeholder = maymo jumla diim diśe yaa sise iyik awaaji
+citation =
+    .label = citation
+sc-write-submit-confirm = gute jumla upload etas jaa le izin bila daa gute jumla public domain cum bila nuse jaa confirm eća baa
+sc-review-write-title = amik jumlan kaa etas aamaya baa
+sc-review-small-batch-title = har raxte jumlan belate kaa ećan
+new-sentence-rule-1 = izin api daa bandiśing
+new-sentence-rule-2 = har jumlaanulo turma cʰundo cum kam lafzine
 contact-us = micumo duġarusin
 add-sentence-success = han jumlan jama manimi
 add-sentence-error = jumlan kaa etasulo ġaltimin
