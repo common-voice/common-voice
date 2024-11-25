@@ -21,3 +21,11 @@ submit-all-button = بُٹئے/ پُورے چینڈ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = انو پٹو کدا تھے استعمال تھیونی ہیں سِیچ
+learn-how-to-use-prompts-explanation = سیلو (prompt ) جواب موجی چیکونی بِیلی سمار سم تھے دے۔ تھیئی باشی نی روش اڑیاریک نے بونو اوجئی، سم موجی بونو اواجئی۔
+learn-how-to-use-prompts-guidance = زاپ تھے <guidanceLink> آنے </guidanceLink> انو پٹو کدئیی تھے استعمال تھیونی ہیں سیچیونئی کاریو۔
+learn-how-to-use-transcribe = کچٹ تھیونو سِیچ
+learn-how-to-use-transcribe-explanation = زو سے یوک رجاک آئیں ادائی تھے اکی کچٹ تھے، چُنے موجی "اُم" یا "ایر" گہ۔
+learn-how-to-use-transcribe-guidance = زاپ تھے <guidanceLink> آنے </guidanceLink> انو پٹو کدئیی تھے استعمال تھیونی ہیں سیچیونئی کاریو۔
+learn-how-to-use-check-transcript = کچٹ تھے ہِینک کدا تھے چکیونی ہیں سِیچ۔
+learn-how-to-use-check-transcript-explanation = کچٹ تھیئیکے نی کوئی سے گہ رجیک  ہر مشوگہ شونگو بونی اواجئی، بڑا بڑا رجیک گہ بونی اواجئی۔
+learn-how-to-use-check-transcript-guidance = زاپ تھے <guidanceLink> آنے </guidanceLink> انو پٹو کدئیی تھے استعمال تھیونی ہیں سیچیونئی کاریو۔
