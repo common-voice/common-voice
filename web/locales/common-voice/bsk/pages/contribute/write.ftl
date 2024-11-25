@@ -52,9 +52,21 @@ general = aam xaas
 healthcare = midimar śan
 # Sentence Domain dropdown option
 history_law_government = nim kʰeen, qaanuun daa hukumat
+# Sentence Domain dropdown option
+language_fundamentals = baaṣ inaaẏ maslan digits, huruupuc, bidiro
+# Sentence Domain dropdown option
+media_entertainment = media daa śuġuliṅ
+# Sentence Domain dropdown option
+nature_environment = fitrat daa mahool
+# Sentence Domain dropdown option
+news_current_affairs = xabarin daa saati khultum taxpan
+# Sentence Domain dropdown option
+technology_robotics = technology daa robotics
+sentence-variant-select-label = har raxte jumla
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = khole maymo file drag etin yaa upload ećar click etin
 sc-bulk-upload-instruction-drop = khole uploadar file drop etin
 try-upload-again = khole hik ke file drag ne koośiś etin
 try-upload-again-md = hik ke upload etase koośiś eti
