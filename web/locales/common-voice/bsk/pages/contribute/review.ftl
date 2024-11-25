@@ -43,8 +43,13 @@ sc-criteria-item-1 = jumlane spelling sahi maniṣ
 sc-criteria-item-2 = jumlan grammatically sahi maniṣ
 sc-criteria-item-3 = jumlan senaso maniṣ
 sc-criteria-item-4 = jumla criteria juwan manimi ke doẏpamo button approve eti
-sc-criteria-item-5-2 = agar jumlaane yatum ite criteria ate api ke ġaẏpamo ise button click netan reject etin
-report-sc-different-language = thum baaṣan
+sc-criteria-item-5-2 = agar jumlaane yatum ite criteria ate api ke ġaẏpamo ise button click netan reject etin. yaqeen api ke skip netan iciyatum iteeṭar niin
+sc-criteria-item-6 = jumlan hik ke bareyar phaṣ manimi ke, daa jumlan gaṭi etas gane miriin ce duunin
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = barenin gute baaṣate duro etaśue hisaab cum  sahi jumla bila?
+sc-review-rules-title = guta jumla mesum ttariqan ce yom bila?
+sc-review-empty-state = gute baaṣulo hik ke bareyar han ke jumlaan api
+report-sc-different-language = tʰum baaṣan
 report-sc-different-language-detail = jaa girminas ite cum khot thum baaṣanulo review etin
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi uynko tabdiiliminik ećabaan
