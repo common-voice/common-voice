@@ -100,6 +100,30 @@ too-many-files = ბრელ ფაილეფ რე.
 small-batch-instruction = ქიგუძინით ართ-ჟირ </icon><icon> წინადადება საყოველთაო საკუთრებაშე.
 multiple-sentences-error = ვეგგაძინინენა წინადადება თიო-თიოთ მიშაღალაშ დრო.
 exceeds-small-batch-limit-error = ვემიხერხინე 1000-შე უმოსი წინადადებაშ ჯღონა.
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით 1 წუთშა.
+       *[other] სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით { $retryLimit } წუთშა.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით 1 წამშა.
+       *[other] სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით { $retryLimit } წამშა.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ 1 წუთი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+       *[other] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ 1 წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+       *[other] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+    }
 
 ## MENU ITEM TOOLTIPS
 
