@@ -85,13 +85,20 @@ what-needs-to-be-in-file = besan jaa fileulo maniṣ?
 what-needs-to-be-in-file-explanation = mii template file check etin. maa jumlan copyright free maniṣ yaa duro etum ine iimo duro e ijazat maniṣ.  maa jumlan clear, sahi grammar daa ġatayar asaan maniṣ. jama etum jumlan ġatanasulo tormi yaa turma cʰindi minute niṣ daa ulo lambarin, uyikićiṇ kee xaas characters omaniṣan
 upload-progress-text = upload meeyme bila
 sc-bulk-submit-confirm = guke jumlan upload etas jaa le izin bila daa guke jumlan public domain cum bila nuse jaa confirm eća baa
+bulk-upload-success-toast = butan jumlan upload etin
+bulk-upload-failed-toast = upload e duro ayetimi hik ke kośiś etin
+bulk-submission-success-header = butan juu maar butan subission emasas gane
+bulk-submission-success-subheader = butan juu maar common voice e gunculo jumlan maqsad ulo kamyaab etas gane
 upload-more-btn-text = maziid jumlan upload etin
+file-invalid-type = khot duruwe file api
 file-too-large = file but uyum bila
 file-too-small = file but jot bila
 too-many-files = juda butan failin
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = butan public domain e jumlan kaa etin
 multiple-sentences-error = han single submission ulo butan jumlan kaa etas amaamay baan
 exceeds-small-batch-limit-error = hik hazzr jumlan cum but jama etas amaamay baan
 # menu item
