@@ -1,6 +1,8 @@
 ## WRITE PAGE
 
 write = girmin
+write-instruction = awaami domain e jumlaan
+write-page-subtitle = meer emasumin jumlan khole auyoonar available blum licensed dataset ulo jama meeymi
 sentence =
     .label = jumla
 contact-us = micumo duġarusin
