@@ -43,6 +43,7 @@ terms-disagree = jaa maan ayeća baa
 first-cta-header-text = butan juu maa maymo maćʰare clip meer emasuman
 first-cta-subtitle-text = makʰare baarulo nusenin maa desmanaśue auyoonar tecnology butan desmayar uriinc ce duuyman
 why-donate = bes duġaruśaa?
+why-donate-explanation-1 = gute maalumaat maćʰiyas optional bila. maar ćaqooti api ke kaa etn. data set diysasulo mii zaati malumaat badal ne ćamaat eća baan ke maa meyik ke email maa umur ke hirkegus maalumaat kaa yom omaniṣ
 continue-speaking-button = beeya juu maar, ġarićume hurutin
 
 ## MENU ITEM TOOLTIPS
