@@ -63,9 +63,15 @@ news_current_affairs = სიახალე დო მიმდინარე 
 # Sentence Domain dropdown option
 technology_robotics = ტექნოლოგია დო რობოტიკა.
 sentence-variant-select-label = წინადადებაშ კუნთხუობა.
+sentence-variant-select-placeholder = გეჲშაგორით ნინაშ ნერობა (ქუგოკონადა)
+sentence-variant-select-multiple-variants = თარი ნინა / შხვადოშხვა ნერობა
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = გეტვირთით <icon></icon> წინადადებეფი საყოველთაო საკუთრებაშე.
+sc-bulk-upload-instruction = გეგნიღით თქვან ფაილი ვარდა <uploadButton> ქიგუკაკეთ ეიოტვირთალო </uploadButton>
+sc-bulk-upload-instruction-drop = გეგნიღით ეიოტვირთალო
 select-file = გეჲშაგორით ფაილი.
 
 ## SMALL BATCH SUBMISSION
