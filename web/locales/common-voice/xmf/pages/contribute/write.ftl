@@ -35,10 +35,19 @@ small-batch-sentence-submission = ართ-ჟირ წინადადე�
 bulk-sentence-submission = წინადადებეფიშ ართო მიშაღალა.
 single-sentence = ცალკეიან წინადადება.
 small-batch-sentence = ჭიჭე ოდენობა
+bulk-sentence = დემი
+sentence-domain-combobox-label = წინადადებაშ დარგი
+sentence-domain-select-placeholder = ქიმუთითით სუმ დარგი (ქუგოკონადა)
+# Sentence Domain dropdown option
+agriculture_food = სოფელიშ მეურნეობა დო ოჭკომალი
 # Sentence Domain dropdown option
 automotive_transport = მანქანეფი დო ტრანსპორტი.
 # Sentence Domain dropdown option
 finance = ფინანსეფი.
+# Sentence Domain dropdown option
+service_retail = მომსახურება დო საცალო ვაჭრუა.
+# Sentence Domain dropdown option
+general = ზოგადი.
 # Sentence Domain dropdown option
 healthcare = ჯანდაცვა.
 
