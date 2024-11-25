@@ -126,6 +126,7 @@ contribution-background-voices-example-1-explanation = მოურქო? <stro
 contribution-volume-title = ხონარიშ სიმაღალე
 contribution-volume-description = ბუნებრივ რე განსხვავება მაკითხირალეფიშ ხონარიშ დონეეფს შკას. ვარიას ქიგუნჭირით, მუჟამს ხონარ თიცალ მაღალ რე, ინნაჭარა მითმეჭყორდუ. ვარდა თიცალ დაბალ რე, აზრიშ გჷშაღალა გიჭირა წაჭარაშა თოლიშ მეუნაფაშ უმუშო.
 contribution-reader-effects-title = კითხირიშ ეფექტი
+contribution-reader-effects-description = ინნაჭარეფიშ უმენტაშობას რე კათაში ბუნებრივ ხონარით ჩიება. თქვა შეილებუნა მიღათ არასტანდარტულ ინნაჭარეფი ხოლო, მაგალთო, ღვარაფი, ფუცქინუა, მსახიობურო ნარაგადი, მარა ნაბირას, კომპიუტერით სინთეზირებულ ხონარეფს ვარია ქუწით.
 contribution-just-unsure-title = გოთაკილუნანო?
 see-more = <chevron></chevron>ქოძირი უმოსი.
 see-less = <chevron></chevron> ქოძირი ჭიჭე.
