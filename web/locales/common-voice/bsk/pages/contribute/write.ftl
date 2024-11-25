@@ -38,6 +38,12 @@ small-batch-sentence = jot batchan
 bulk-sentence = uyum batchan
 sentence-domain-combobox-label = jumla domain
 sentence-domain-select-placeholder = usko domain in damśyi eti
+# Sentence Domain dropdown option
+agriculture_food = mal basiye duro daa ṣiyas minaas
+# Sentence Domain dropdown option
+automotive_transport = gaadenc daa transport
+# Sentence Domain dropdown option
+finance = biḍiro e duroin
 
 ## BULK SUBMISSION 
 
