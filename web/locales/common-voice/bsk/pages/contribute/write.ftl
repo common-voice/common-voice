@@ -44,6 +44,10 @@ agriculture_food = mal basiye duro daa ṣiyas minaas
 automotive_transport = gaadenc daa transport
 # Sentence Domain dropdown option
 finance = biḍiro e duroin
+# Sentence Domain dropdown option
+service_retail = xidmat etas daa gaṣ giran
+# Sentence Domain dropdown option
+general = aam xaas
 
 ## BULK SUBMISSION 
 
