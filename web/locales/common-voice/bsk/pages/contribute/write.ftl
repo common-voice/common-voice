@@ -113,6 +113,24 @@ rate-limit-toast-message-seconds =
         [one] rate limit butan manimi, han second an ulop hik ke kośiś etin
        *[other] rate limit butan manimi seconds in ulop hik ke kośiś etin
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] gute page ate ma maymo  hat phaṣ manila. han ke jumlan kaa etase gane han minute an cat maneyin. maa cat manaase mamar butan juu
+       *[other] gute page ate ma maymo  hat phaṣ manila. han ke jumlan kaa etase gane han minutes in cat maneyin. maa cat manaase mamar butan juu
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] gute page ate ma maymo  hat phaṣ manila. han ke jumlan kaa etase gane han minute an cat maneyin. maa cat manaase mamar butan juu
+       *[other] gute page ate ma maymo  hat phaṣ manila. han ke jumlan kaa etase gane han minutes in cat maneyin. maa cat manaase mamar butan juu
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] han jumlan jama manimi
+       *[other] jumlan jama manimi
+    }
 # menu item
 add-sentences = jumlan kaa etin
 
