@@ -2,6 +2,7 @@
 
 write = ჭარუა
 write-instruction = ქიგუძინით <icon></icon> საკუთარ წინადადებეფი
+write-page-subtitle = თაქ მიშაღალირჷ წინადადებეფი ქიგიაძინუ საჯაროთ ხეშმიოჭირინაფალ cc-0 მონაცემეფიშ ბაზას.
 sentence =
     .label = წინადადება
 sentence-input-placeholder = გემშიონით თაქ თქვანი საკუთარი წინადადებეფი.
