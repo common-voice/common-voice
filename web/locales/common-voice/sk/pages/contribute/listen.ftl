@@ -23,6 +23,6 @@ review-transcriptions-menu-item-tooltip = Skontrolujte prepisy odoslané použí
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = Ponuka možností počúvania
+listen-contribute-menu-aria-label = Možnosti ponuky počúvania
 validate-readings-menu-item-aria-label = Overte čítania odoslané členmi komunity
 review-transcriptions-menu-item-aria-label = Skontrolujte presnosť prepisov zaznamenaných viet
