@@ -31,6 +31,18 @@ record-abort-delete = clips hole diuus daa clips eeri
 review-aborted = upload cat manimi. maymo recordings eeras ray ećaana?
 review-submit-title = hik ke barenin daa jama etin
 review-submit-msg = recording gane juu maar, muu khole yaare clips hik ke barenin daa jama etin
+review-recording = hik ḍame daa barenas
+review-rerecord = hik ke record etas
+review-cancel = jama etum it cancel etas
+review-keep-recordings = recordings oos
+review-delete-recordings = jaa recordings eeri
+review-terms = common voice ate duro ećuma maa mi terms in maan ećaan daa privancy notice
+terms-agree = jaa maan eća baa
+terms-disagree = jaa maan ayeća baa
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = butan juu maa maymo maćʰare clip meer emasuman
+first-cta-subtitle-text = makʰare baarulo nusenin maa desmanaśue auyoonar tecnology butan desmayar uriinc ce duuyman
+why-donate = bes duġaruśaa?
 continue-speaking-button = beeya juu maar, ġarićume hurutin
 
 ## MENU ITEM TOOLTIPS
