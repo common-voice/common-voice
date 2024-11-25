@@ -21,3 +21,11 @@ submit-all-button = سارے جمع کر
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ہِے صفحیک استعمال کرݨ سِکھ
+learn-how-to-use-prompts-explanation = جیلا جلدی تھی سڳدا ہِے قدرتی طور تے پرامپٹسیک جواب ݙے جیلا تو ڳالھ واریں تے وِچ کر سڳدا ہیں۔ یقینی جوڑ کہ تاجی ٻولی ادب والی ہِے ٻِیا گندی نَے۔
+learn-how-to-use-prompts-guidance = کلک <guidanceLink>اتھاں</guidanceLink>ہِے صفحیک کُکر استعمال کرݨاں ہِے
+learn-how-to-use-transcribe = نقل کُکر کرݨی ہِے سِکھ
+learn-how-to-use-transcribe-explanation = بالکل ہوئیں لِکھ جوں آدمی آکھا ہِے، پلیس ہولڈر لفظیں جیناں 'یو ایم'، یا 'ای آر آر آر' رَلا۔
+learn-how-to-use-transcribe-guidance = کلک <guidanceLink>اتھاں</guidanceLink>ہِے صفحیک کُکر استعمال کرݨاں ہِے
+learn-how-to-use-check-transcript = سِکھ ہِک نقل کُکر لالݨی ہِے
+learn-how-to-use-check-transcript-explanation = ہِک نقل تے وِچ ہر لفظ وئے یا غیر لغوی ڳالھ وار تی ٹوکیک وٹھݨاں چاہیجدا ہِے جا آدمی آکھا ہِے، تکرار رلّی کھڑی ہِے۔
+learn-how-to-use-check-transcript-guidance = کلک <guidanceLink>اتھاں</guidanceLink>ہِے صفحیک کُکر استعمال کرݨاں ہِے
