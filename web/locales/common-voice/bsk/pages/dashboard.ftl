@@ -48,6 +48,18 @@ help-reach-hours-general-pluralized =
         [one] gantaan duro etase personal goal dimeṣqataṣe common voice ar madatt eti
        *[other] gantain duroin etase personal goal dimeṣqataṣe common voice ar madatt eti
     }
+set-a-goal = maksad desman
+cant-decide = feesla etas amaamanuma?
+how-many-per-day = but shuwa. beeruman clips in han gunculo
+how-many-a-week = but shuwa. beeruman clips in han haftaulo?
+which-goal-type = senase be damaylase ray be ooltalik?
+receiving-emails-info = muu maqsat maski maatas emails mayaćuman, jaa duroiṅe updates in daa common voice e newsletter
+not-receiving-emails-info = muu maqsat maski maatas emails mayaćuman, jaa duroiṅe updates in daa common voice e newsletter
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] clip
+       *[other] clips in
+    }
 goal-interval-weekly = thalekuculo
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = maymo gunc mo audio clip goal meer emasin
