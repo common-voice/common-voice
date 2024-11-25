@@ -2,8 +2,8 @@
 
 # Toast message that is displayed when an error occurs
 error = Chyba
-action-click = Kliknúť
-action-tap = Ťuknúť
+action-click = Kliknite
+action-tap = Ťuknite
 # Label for language switcher
 interface-language = Jazyk rozhrania:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
