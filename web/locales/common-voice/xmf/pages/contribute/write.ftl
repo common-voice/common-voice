@@ -138,6 +138,11 @@ add-sentences = წინადადებეფიშ გეძინა.
 write-contribute-menu-tooltip = წინადადებეფიშ გეძინა დო შემოწმება, კითხვეფიშ გეძინა, ხონარიშ ინოჭარუათ მოჩამა.
 add-sentences-menu-item-tooltip = ქიგუძინით წინადადებეფი თქვან ნინაშა.
 review-sentences-menu-item-tooltip = შეამოწმით წინადადებეფი თქვან ნინაშა.
+add-questions-menu-item-tooltip = ქიგუძინით კითხვეფი თქვან ნინაშა.
+transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა.
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = პარამეტრეფიშ მენიუშ ჭარუა.
+add-sentences-menu-item-aria-label = ქიგუძინით წინადადებეფი საზოგადოებაქ წეკითხასჷნი.
+review-sentences-menu-item-aria-label = საზოგადოებაშ მოჩამილი წინადადებეფიშ შემოწმება.
