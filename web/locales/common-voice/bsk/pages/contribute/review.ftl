@@ -1,9 +1,9 @@
 ## REVIEW
 
 sc-review-lang-not-selected = maa baaṣṅ damśi ayetaa. khole profile ar namaa baaṣṅ damśi etin
-sc-review-title = jumlan hik dame daa esalin
+sc-review-title = jumlan hik dame daa barenin
 sc-review-loading = jumlan load etin
-sc-review-select-language = baaṣ select netanin jumlan hik ḍame daa barenin
+sc-review-select-language = baaṣ damśi netanin jumlan hik ḍame daa barenin
 sc-review-no-sentences = hik ḍame daa bareyar han ke jumlan api
 sc-review-form-prompt =
     .message = dubara barenum jumlan jama api, chane seybaa?
@@ -43,6 +43,7 @@ sc-criteria-item-1 = jumlane spelling sahi maniṣ
 sc-criteria-item-2 = jumlan grammatically sahi maniṣ
 sc-criteria-item-3 = jumlan senaso maniṣ
 sc-criteria-item-4 = jumla criteria juwan manimi ke doẏpamo button approve eti
+sc-criteria-item-5-2 = agar jumlaane yatum ite criteria ate api ke ġaẏpamo ise button click netan reject etin
 report-sc-different-language = thum baaṣan
 report-sc-different-language-detail = jaa girminas ite cum khot thum baaṣanulo review etin
 # SENTENCE-COLLECTOR-REDIRECT PAGE

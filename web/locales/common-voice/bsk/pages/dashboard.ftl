@@ -60,6 +60,8 @@ n-clips-pluralized =
         [one] clip
        *[other] clips in
     }
+help-share-goal = daa ućariṅ diyśar mii miriin ce duunin. maymo maqsat mesin
+confirm-goal = maqsat confirm etin
 goal-interval-weekly = thalekuculo
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = maymo gunc mo audio clip goal meer emasin
