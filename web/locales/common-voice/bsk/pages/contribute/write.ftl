@@ -62,12 +62,18 @@ nature_environment = fitrat daa mahool
 news_current_affairs = xabarin daa saati khultum taxpan
 # Sentence Domain dropdown option
 technology_robotics = technology daa robotics
-sentence-variant-select-label = har raxte jumla
+sentence-variant-select-label = jumla variant
+sentence-variant-select-placeholder = variant damśi etin
+sentence-variant-select-multiple-variants = aam baaṣ/butan variants
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = awaami domain e jumlan upload etin
 sc-bulk-upload-instruction = khole maymo file drag etin yaa upload ećar click etin
 sc-bulk-upload-instruction-drop = khole uploadar file drop etin
+bulk-upload-additional-information = agar gute file ate daa malumat mićiyas e ray bila ke, rabita ećar commonvoice@mozillac̣om
+template-file-additional-information = agar gute file ate maziit malumat amit template ulo api ke ite mićiyas e ray bila ke, rabita ećar commonvoice@mozillac̣om
 try-upload-again = khole hik ke file drag ne koośiś etin
 try-upload-again-md = hik ke upload etase koośiś eti
 select-file = file isalginin
