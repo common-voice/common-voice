@@ -67,6 +67,10 @@ read-sentences = jumlan ġatanin
 
 speak-contribute-menu-tooltip = jumlan ġhatanin daa suwaale juwaap mićʰiin
 read-sentences-menu-item-tooltip = maymo baaṣulo jumlan ġatayme makʰar record etin
+answer-questions-menu-item-tooltip = maymo baaṣulo sawaalin ke daa mas damacaśo baringe juwaap mićʰićume makʰar record etin
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = senase option in e menu
+read-sentences-menu-item-aria-label = butan baaṣinulo miymo sise doocum jumlan ġatanin
+answer-questions-menu-item-aria-label = miymo sisar ġatayar daa juwaap ućʰićar naya sawaalin jama etin
