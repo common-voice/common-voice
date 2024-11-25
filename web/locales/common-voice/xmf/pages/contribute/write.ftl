@@ -124,9 +124,20 @@ rate-limit-message-seconds =
         [one] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ 1 წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
        *[other] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
     }
+small-batch-sentences-rule-1 = ქიმიაჸუნი მითითებეფს "წინადადება მუჭომი ოკო რდას?"
+small-batch-sentences-rule-2 = ქიგუძინი თითო წინადადება თითო ხაზის.
+small-batch-sentences-rule-3 = გაგშართით წინადადებეფი ახალ ხაზის "Enter" ვარდა "Return" ღილაკიშა ართი გენჭირათ.
+small-batch-sentences-rule-4 = ქიგუძინით არძაშ უმოსი 1,000 წინადადება.
+small-batch-sentences-rule-5 = არძა წინადადება ართი დარგიშე ოკო ორდას.
+small-batch-sentences-rule-6 = არძა წინადადება ართი წყაროშე ოკო რდას.
+# menu item
+add-sentences = წინადადებეფიშ გეძინა.
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = წინადადებეფიშ გეძინა დო შემოწმება, კითხვეფიშ გეძინა, ხონარიშ ინოჭარუათ მოჩამა.
+add-sentences-menu-item-tooltip = ქიგუძინით წინადადებეფი თქვან ნინაშა.
+review-sentences-menu-item-tooltip = შეამოწმით წინადადებეფი თქვან ნინაშა.
 
 ## MENU ITEM ARIA LABELS
 
