@@ -24,11 +24,20 @@ new-sentence-rule-8 = jumla ġatanas asaan maniṣ
 login-instruction-multiple-sentences = login yaa sign up etin har raxte jumlan kaa ećar
 how-to-cite = belate cite ećam?
 how-to-cite-explanation-bold = URL link kaa cite etin yaa tok duruwe iyk kaa
-contact-us = micumo duġarusin
+how-to-cite-explanation = agar guymo lafzin bican ke bas sen [self citation]. mimar leel maniṣ ke gute content amulum guyabaa taaki mi bareyan ke gute public domain ulo bila daa gute ṭe besan ke paabandi api nuse. daa citation e maalumaate gane mii citation e guidelink patuwar barenin
+guidelines = duro meertirasin
+contact-us = micimo duġarusin
 add-sentence-success = han jumlan jama manimi
 add-sentence-error = jumlan kaa etasulo ġaltimin
 required-field = ġute field fill out etin
-single-sentence = hanuman
+single-sentence-submission = han jumlan jama manaas
+small-batch-sentence-submission = jumlan e jotin batch
+bulk-sentence-submission = butan jumlan e jama manaas
+single-sentence = hanuman''
+small-batch-sentence = jot batchan
+bulk-sentence = uyum batchan
+sentence-domain-combobox-label = jumla domain
+sentence-domain-select-placeholder = usko domain in damśyi eti
 
 ## BULK SUBMISSION 
 
