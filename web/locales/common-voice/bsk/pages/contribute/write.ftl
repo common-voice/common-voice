@@ -48,6 +48,10 @@ finance = biḍiro e duroin
 service_retail = xidmat etas daa gaṣ giran
 # Sentence Domain dropdown option
 general = aam xaas
+# Sentence Domain dropdown option
+healthcare = midimar śan
+# Sentence Domain dropdown option
+history_law_government = nim kʰeen, qaanuun daa hukumat
 
 ## BULK SUBMISSION 
 
