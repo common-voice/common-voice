@@ -62,8 +62,6 @@ report-success = მოხსენებაქ ხეუნჩალუო ქ�
 
 ## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
 
 ## Speak Shortcuts
 
