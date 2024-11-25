@@ -50,9 +50,13 @@ sc-review-instruction = barenin gute baaṣate duro etaśue hisaab cum  sahi jum
 sc-review-rules-title = guta jumla mesum ttariqan ce yom bila?
 sc-review-empty-state = gute baaṣulo hik ke bareyar han ke jumlaan api
 report-sc-different-language = tʰum baaṣan
-report-sc-different-language-detail = jaa girminas ite cum khot thum baaṣanulo review etin
+report-sc-different-language-detail = jaa hik ke barenas ite cum khot tʰum baaṣanulo girminum bila
+sentences-fetch-error = jumlan suwasulo besan ṭʰisan manimi
+review-error = jumlan hik ke barenasulo besan ṭʰisan manimi
+review-error-rate-limit-exceeded = un but himat ećaa. hik cat numa jumlaar hik ke baren daa jumlaa sahi bicum maniṣ
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = mi uynko tabdiiliminik ećabaan
-sc-redirect-page-subtitle-2 = mimacum matrix, discourse yaa email ate mima cum duġarusin
+sc-redirect-page-title = mi uyoṅko tabdiiliminik ećabaan
+sc-redirect-page-subtitle-1 = jumlan gaṭi etas ine core common voice e platform atar nićay. maa muu jumlaan girminin yaa jumlaar hik ke barenin. common voice ar han jumlaan jama etin
+sc-redirect-page-subtitle-2 = matrix, discourse yaa email ate mima cum duġarusin
 # menu item
-review-sentences = jumlan hik dame daa esalin
+review-sentences = jumlan hik dame daa barenin
