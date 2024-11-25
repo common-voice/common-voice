@@ -101,6 +101,18 @@ too-many-files = juda butan failin
 small-batch-instruction = butan public domain e jumlan kaa etin
 multiple-sentences-error = han single submission ulo butan jumlan kaa etas amaamay baan
 exceeds-small-batch-limit-error = hik hazzr jumlan cum but jama etas amaamay baan
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] rate limit butan manimi, han minute ulop hik ke kośi,
+       *[other] rate limit butan manimi, han minutes in ulop hik ke kośiś etin
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] rate limit butan manimi, han second an ulop hik ke kośiś etin
+       *[other] rate limit butan manimi seconds in ulop hik ke kośiś etin
+    }
 # menu item
 add-sentences = jumlan kaa etin
 
