@@ -50,9 +50,23 @@ continue-speaking-button = beeya juu maar, seyme hurutin
 create-profile-text = maimo taqhpan save etas ray ećaana?
 thanks-for-voice-toast = maćʰare maalumaat gane butan juu maar
 thanks-for-voice-toast-error = maymo maćʰare maalumaat mićʰiyasulo besan ṭʰisan manila
+first-cta-gender-select-default-option = option e damśi etin
+first-cta-gender-select-help-text =
+    .label = maymo sex or gender belate mesulo meebiśićuman?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = maymo maćʰar meer emasase butan juu maar
+second-cta-subtitle-text = profile kaa maa maymo duroinar barens ke uc'ʰaring maġunimiśo maymo sise kaa raabta ulo hurtuas maamay baan
+already-have-an-account = yarmu cum ac̣count bilaa?
+create-profile-button = profile an desmanin
+# IMAGE TAGS
+img-alt-success-checkmark = checkmark kamiyaap manimi
+# menu item
+read-sentences = jumlan ġatanin
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = jumlan ġhatanin daa suwaale juwaap mićʰiin
+read-sentences-menu-item-tooltip = maymo baaṣulo jumlan ġatayme makʰar record etin
 
 ## MENU ITEM ARIA LABELS
 
