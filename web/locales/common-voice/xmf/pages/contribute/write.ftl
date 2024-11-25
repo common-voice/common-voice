@@ -146,3 +146,5 @@ transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარე
 write-contribute-menu-aria-label = პარამეტრეფიშ მენიუშ ჭარუა.
 add-sentences-menu-item-aria-label = ქიგუძინით წინადადებეფი საზოგადოებაქ წეკითხასჷნი.
 review-sentences-menu-item-aria-label = საზოგადოებაშ მოჩამილი წინადადებეფიშ შემოწმება.
+add-questions-menu-item-aria-label = კითხვეფიშ გეძინა, საზოგადოებაშ მაკათურეფქ წეკითხან დო პასუხი ქიმეჩანინი.
+transcribe-audio-menu-item-aria-label = ინოჭარილ ხონარეფიშ ნაჭარათ გინოჩამა.
