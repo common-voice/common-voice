@@ -44,7 +44,12 @@ first-cta-header-text = butan juu maa maymo maćʰare clip meer emasuman
 first-cta-subtitle-text = makʰare baarulo nusenin maa desmanaśue auyoonar tecnology butan desmayar uriinc ce duuyman
 why-donate = bes duġaruśaa?
 why-donate-explanation-1 = gute maalumaat maćʰiyas optional bila. maar ćaqooti api ke kaa etn. data set diysasulo mii zaati malumaat badal ne ćamaat eća baan ke maa meyik ke email maa umur ke hirkegus maalumaat kaa yom omaniṣ
-continue-speaking-button = beeya juu maar, ġarićume hurutin
+why-donate-explanation-2 = amit technology-e uyoonar s'uwa ne duro ec';i bi ke ite gane data technology desmanaśuwe har raxte sisar barenas umay baan. misaale torate agar mii xaas ac̣cente sis s'amil ayotuman ke daa technology ite ac̣cent e sisar duro ayeći
+add-information-button = taqhpan kaa etin
+continue-speaking-button = beeya juu maar, seyme hurutin
+create-profile-text = maimo taqhpan save etas ray ećaana?
+thanks-for-voice-toast = maćʰare maalumaat gane butan juu maar
+thanks-for-voice-toast-error = maymo maćʰare maalumaat mićʰiyasulo besan ṭʰisan manila
 
 ## MENU ITEM TOOLTIPS
 
