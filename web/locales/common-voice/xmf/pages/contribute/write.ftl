@@ -86,6 +86,8 @@ upload-progress-text = მეურს ეტვირთუა.
 sc-bulk-submit-confirm = ვადასტურენქ, ნამდა თე წინადადება <wikipediaLink> საყოველთაო საკუთრებას </wikipediaLink> დო მიღუ თიში ეტვირთუაშ ნება.
 bulk-upload-success-toast = წინადადებეფქ არძო ართო გეიტვირთ.
 bulk-upload-failed-toast = ვეიტვირთ, რთხინთ, კინ ქოცადათ.
+bulk-submission-success-header = მარდი, წინადადებეფიშ არძო ართო მოჯღონუაშენი!
+bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice წინადადებეფიშ ოშაყარუშ დღიურ მიზანიშ მიღწევას!
 
 ## SMALL BATCH SUBMISSION
 
