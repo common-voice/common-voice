@@ -87,7 +87,7 @@ community-and-languages = Comunidat y idiomas
 about-menu-tooltip = Colaboracions, prensa y articlos, comunidat y idiomas
 partnerships-menu-item-tooltip = Colabora con nusatros
 press-and-stories-menu-item-tooltip = Visita lo nuestro blog u escribe sobre nusatros
-community-and-languages-menu-item-tooltip = Desubre idiomas y comunidaz y Common Voice
+community-and-languages-menu-item-tooltip = Descubre idiomas y comunidaz y Common Voice
 
 ## MENU ITEM ARIA LABELS
 
