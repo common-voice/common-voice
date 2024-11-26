@@ -24,8 +24,10 @@ new-sentence-rule-8 = Зэрыпхузэфӏэккӏэ псалъэуха къы
 login-instruction-multiple-sentences = Псалъэуха зыбжанэ хэбгъэхьэн щхьэкӏэ <loginLink>ихьэ</loginLink> е <loginLink>зыхэтхэ</loginLink>
 how-to-cite = Хэкӏыпӏэ дауэ зэрагъэлъагъуэр?
 how-to-cite-explanation-bold = URL-линккӏэ е лэжьыгъэм и цӏэ псомкӏэ хэкӏыпӏэр къэгъэлъагъу.
+how-to-cite-explanation = Псалъэухар уэ зэхэплъхьамэ, къудейуэ <italicizedText>“Сысейщ”</italicizedText> жыlэ.  Дэ мы зэхэлъыр къыщыбгъуэтар дэнэми екlуэлlапlэ иlэу lыхьэ щэху зэрыхэмылъыр къэтхутэфын хуэдэу тщlэн хуейщ. Цитатэ тхыкlэм теухуауэ щlэныгъэ нэхъыбэ щхьэкlэ ди <guidelinesLink>напэкIуэцI гъуазэ</guidelinesLink>м еплъ.
 guidelines = Гъуазэхэр
 add-sentence-success = Псалъэуха 1 къэдгъуэящ
+add-sentence-error = Псалъэуха къиплъхьэ пэтрэ зыгуэрэ илэжащ
 single-sentence-submission = Псалъэуха закъуэ егъэхьын
 small-batch-sentence-submission = Псалъэуха зыбжьанэ егъэхьын
 bulk-sentence-submission = Псалъэуха куэд егъэхьын
@@ -33,6 +35,7 @@ single-sentence = Псалъэуха закъуэ
 small-batch-sentence = Псалъэуха зыбжанэ
 bulk-sentence = Псалъэуха куэд
 sentence-domain-combobox-label = Псалъэухам и щӏыпӏэр
+sentence-domain-select-placeholder = Нэхъыбэ дыдэу домаинищ къыхэх
 # Sentence Domain dropdown option
 agriculture_food = Мэкъумэшымрэ шхыныгъуэмрэ
 # Sentence Domain dropdown option
