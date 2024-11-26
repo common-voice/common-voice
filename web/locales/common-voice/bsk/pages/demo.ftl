@@ -13,6 +13,7 @@ demo-account = account
 
 ## Demo Account
 
+demo-account-card-header = account manaas emasase gane awaaji api magam miriin ce duuy bi
 demo-account-enter-email =
     .label = email enter etin yaa sign up link doocin
 demo-account-sign-up = sign up link doocin
