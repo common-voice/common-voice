@@ -44,3 +44,4 @@ resource-playbook-info = tok common voice e safar ate localisation cum dataset e
 data-other-librispeech-description = Librispeech taqriiban 16Khz e hazaar gantane angreezi baring amik LibriVox project e ghatumin audiobooks cum daal etum bican
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM e corpus TED website ate bicum transcriptions daa audio talks cum desmanum bila
+go-discourse = discourse are niin

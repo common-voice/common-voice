@@ -7,6 +7,7 @@ demo-welcome-subheader = project ulo emaśar daa mazeed henase gane mas eqaraśa
 ## Demo Datasets
 
 demo-language-select-card-header = common voice  kuyooć e gane  duyaatulo uyoon cum uyum harraxte baaṣine ućʰarine dataset bi
+demo-language-select-card-body = maa 259 hazaar sisar 50 cum baske baaṣinulo emaśar butan juu maar, guse data speech enable applications insaane ićʰarar daltas ne juwaap ićʰićar train ecí bi
 card-button-next = iciyaṭe
 card-button-back = milji
 demo-language-select-label = baaṣar browse etas
