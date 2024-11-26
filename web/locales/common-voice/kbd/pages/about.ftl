@@ -21,6 +21,7 @@ about-nav-get-involved = Хэхьэ
 
 ## How do I add a language
 
+about-playbook-how-add-language = Дауэ бзэр хэслъхьэфыну?
 about-playbook-how-add-language-translating-heading = Сайтыр зэдзэкӏ
 about-playbook-how-add-language-collecting-sentences-heading = Псалъэухахэр зэщӏекъуэ
 
