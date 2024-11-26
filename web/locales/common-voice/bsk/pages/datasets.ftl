@@ -64,3 +64,16 @@ dataset-metadata-sex = hilesan be dasinan
 dataset-metadata-age = umur
 donate-modal-message = maa dataset download meey bi
 dataset-donate-modal-heading = maar leel biluma?
+donate-modal-explanation-1 = 100 cum baske baaṣe kuyooće mene mi etas duruate barosa ećaan ite dataset host ećar daa platform improve ecár taqriiban yoolulo hik million dollars e xarća bi amit
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = inclusive data qadar ećaan ke khole khulto donate etin
+data-download-singleword-title = hank lafze target segment download etin
+data-download-singleword-callout-v2 = khot use case driven segment ulum data spoken digit recognition yaa yes/no detection ar śat ićʰići bi
+data-download-button = common voice data download eti
+data-download-yes = awa
+data-download-deny = beeya
+data-download-license = license
+data-download-modal = maa bas muu download  ećuman, súru eti?
+data-subtitle = mi buṭan baaṣiṅulo ućʰariṅe uyoonar dataset desmaya baan amit aminane ke istimaal ne speech enabled applications in train etas omay baan
+data-explanatory-text = mii bac̣ik bila ke uyoṅko ućʰariṅe dataset e machine ate henas ućʰariṅe technology ulo muqaabila daa naya duroin ulo baskaar eći. common voice e butan baaṣiṅe dataset muuto ke uyoon cum uyum ućʰariṅe dataset bi. gute page ar barenin ami tʰumiṅ open source ućʰariṅe dataset gane reference hub bila daa common voice akhilate yaarqiṣ meeymi, mii release updates gane home
+data-get-started = Speech Recognition kaa duro duunin
