@@ -139,6 +139,10 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = guidelines e form ici tayin "amik jumlan kaa etas aamayaba?
 small-batch-sentences-rule-2 = han jumlan har line ulo kaa etin
+small-batch-sentences-rule-3 = "Enter" press netan jumlan han line ulo alak etin yaa "Return" hik
+small-batch-sentences-rule-4 = 1000 jumlan kaa etin
+small-batch-sentences-rule-5 = uyon jumlan e han domain maniṣ
+small-batch-sentences-rule-6 = uyon jumlan e han citation maniṣ
 # menu item
 add-sentences = jumlan kaa etin
 
@@ -152,3 +156,8 @@ transcribe-audio-menu-item-tooltip = maymo baaṣulo audio recordings transcribe
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = girmin options menu
+add-sentences-menu-item-aria-label = miimo sise ġatanas e gane tʰuwaan jumlan kaa etin
+review-sentences-menu-item-aria-label = mimo sise jama etum jumlanar hik ke barenin
+add-questions-menu-item-aria-label = miymo sisar ġatayar daa juwaap ućʰićar naya sawaalin jama etin
+transcribe-audio-menu-item-aria-label = maymo baaṣulo audio recordings transcribe etin
