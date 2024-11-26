@@ -262,6 +262,8 @@ help = дэӀэпыкъуныгъэ
 contact = Контакт
 terms = Къагъэув къалэнхэр
 cookies = Кукихэр
+content-license-text = Лэжьыгъэр <licenseLink>лиценз Creative Commons</licenseLink> итщ
+return-to-cv = Common Voice-м къэгъэзэж
 email-input =
     .label = э-пощт
 
