@@ -19,3 +19,4 @@ varying-pronunciations-tip-1 = canada angrezi ulo route laft rowt juwan sey man
 varying-pronunciations-tip-2 = British angrezi ulo route lafz root juwan sey man
 offensive-content-explanation = jumlan kuyooće moderation process cum qabuul mey bican magam gute tariqa mukamal api. agar maa yeeśaan yaa damayljaa ke jumla mamoos damaacasan yaa mas tang maatasan bila ke masalan gute mii kuyooće particpation guidelne ate akucarćila ke mehrbaani ne mii flag button istimaal etin yaa mii kaa rabita etin
 misreadings-explanation-1 = patuwate lafz sahi ne ġatanas awaaji bila. damayalsulo śan ne barenin ke besan girminum bila ke ite iyi ġatanum bilaa agar uwe iteulo besan kam etaan, kʰut etaan, yaa osanaan ke ite reject etin
+misreadings-explanation-2 = but hanjuko ġaltimin ulo
