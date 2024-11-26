@@ -77,3 +77,16 @@ data-download-modal = maa bas muu download  ećuman, súru eti?
 data-subtitle = mi buṭan baaṣiṅulo ućʰariṅe uyoonar dataset desmaya baan amit aminane ke istimaal ne speech enabled applications in train etas omay baan
 data-explanatory-text = mii bac̣ik bila ke uyoṅko ućʰariṅe dataset e machine ate henas ućʰariṅe technology ulo muqaabila daa naya duroin ulo baskaar eći. common voice e butan baaṣiṅe dataset muuto ke uyoon cum uyum ućʰariṅe dataset bi. gute page ar barenin ami tʰumiṅ open source ućʰariṅe dataset gane reference hub bila daa common voice akhilate yaarqiṣ meeymi, mii release updates gane home
 data-get-started = Speech Recognition kaa duro duunin
+data-other-title = tʰumin ućarine dataset in
+data-other-goto = ele niin
+data-other-download = data download eti
+data-bundle-button = dataset bundle download etin
+data-bundle-description = common voice e data kaa uyon yatum tʰumin ućʰarine dataset in
+release-version = version
+dataset-date = tariix
+license = license
+license-mixed = jarmaṣ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = mii mićʰare dataset in download etin
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = common voice e data ac̣cess ećar download etas option in
