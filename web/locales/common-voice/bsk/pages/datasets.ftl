@@ -59,3 +59,8 @@ sha256-checksum-copied = SHA256 checksum copy manimi
 sha256-checksum-copied-error = SHA256 checksum copy omanini
 clipboard-not-supported = clipboard ar support api
 no-information-available = besan ke maalumatan api
+dataset-metadata-sex = hilesan be dasinan
+# dataset metadata - age of contributor
+dataset-metadata-age = umur
+donate-modal-message = maa dataset download meey bi
+dataset-donate-modal-heading = maar leel biluma?
