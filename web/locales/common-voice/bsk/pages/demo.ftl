@@ -1,6 +1,8 @@
 ## DemoLayout
 
+demo-get-started = duro ce duuyan naa
 demo-welcome = common voice are khosh aamdiit
+demo-welcome-subheader = project ulo emaśar daa mazeed henase gane mas eqaraśaana?
 
 ## Demo Datasets
 
@@ -28,3 +30,4 @@ demo-listen-subtitle = mariin emaśar tayar manein
 ## Demo Dashboard
 
 demo-dashboard-card-header = maymo dashboards e hin sise yaa kuyoocye duroin cum upadate mauruśi bi
+demo-dashboard-card-body = har emasum ićʰare clip daa tasdiiq manum audio clip maa ac̣ount e dashboard ate update mey bila amit cum maa har baaṣanar emasum duro ġeyśila
