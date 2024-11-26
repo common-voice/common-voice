@@ -90,6 +90,8 @@ too-many-files = Файлхэр куэдыщэщ.
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-2 = Сатыр къэс псалъэуха зэрыз тхы
+small-batch-sentences-rule-4 = Псалъэуха 1,000-м нэс хэфлъхьэ
 # menu item
 add-sentences = Псалъэуха хэлъхьэ
 
