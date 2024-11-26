@@ -131,6 +131,14 @@ add-small-batch-success =
         [one] han jumlan jama manimi
        *[other] jumlan jama manimi
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] ite han jumlaan gati manimi. kʰole reject manum jumla download etin
+       *[other] ike jumlan gati manimi. khole reject manum jumlan downlad etin
+    }
+small-batch-sentences-rule-1 = guidelines e form ici tayin "amik jumlan kaa etas aamayaba?
+small-batch-sentences-rule-2 = han jumlan har line ulo kaa etin
 # menu item
 add-sentences = jumlan kaa etin
 
