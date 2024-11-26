@@ -45,3 +45,7 @@ data-other-librispeech-description = Librispeech taqriiban 16Khz e hazaar gantan
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM e corpus TED website ate bicum transcriptions daa audio talks cum desmanum bila
 go-discourse = discourse are niin
+missing-language = maa baaṣ dataset ulo ganaas eyśaana? baṣan e gane buyatar mii baaṣe patuatar maskil etin
+go-languages-page = baṣine patuatar niin
+ready-to-validate = jumlane tasdiiq etase gane juwaap mićʰićar tayaar baana?
+more = daa/hik ke
