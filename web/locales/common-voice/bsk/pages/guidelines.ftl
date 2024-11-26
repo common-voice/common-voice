@@ -15,3 +15,7 @@ example = misaalan
 varying-pronunciations-explanation-1 = mii raxt raxt ac̣cnets ar xoś aamadiit seya baan. lafze talfafuz t/his etume yaa aparc diśulo stress etume yaa sawaaliya niśaan phat etumar clip reject etas cum yarne śan etin. lafz senase butan andazin bican amik maa maymo sis haran atamaylas mumkin bila. kaman dupoqras diś oosin mene maa cum thumanate ćaġa ećaan ke.
 varying-pronunciations-explanation-2 = itepa mo, agar ġatanas ine lafz yarne eycumate talfuz andazaanate seybay ke reject etin. agar maar leel api ke skip buton istimaal etin
 varying-pronunciations-example = gane leel api
+varying-pronunciations-tip-1 = canada angrezi ulo route laft rowt juwan sey man
+varying-pronunciations-tip-2 = British angrezi ulo route lafz root juwan sey man
+offensive-content-explanation = jumlan kuyooće moderation process cum qabuul mey bican magam gute tariqa mukamal api. agar maa yeeśaan yaa damayljaa ke jumla mamoos damaacasan yaa mas tang maatasan bila ke masalan gute mii kuyooće particpation guidelne ate akucarćila ke mehrbaani ne mii flag button istimaal etin yaa mii kaa rabita etin
+misreadings-explanation-1 = patuwate lafz sahi ne ġatanas awaaji bila. damayalsulo śan ne barenin ke besan girminum bila ke ite iyi ġatanum bilaa agar uwe iteulo besan kam etaan, kʰut etaan, yaa osanaan ke ite reject etin
