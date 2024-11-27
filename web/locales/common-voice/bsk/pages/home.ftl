@@ -3,6 +3,7 @@
 home-title = belate sise ćaġa ećaan ke machine eykiyar common voice e madat eći bi amit mozila initative bila
 default-tagline = belate sise ćaġa ećaan ke machine eykiyar common voice e madat eći bi amit mozila initative bila
 home-cta = śatine ćaġata eti khole meer emas
+wall-of-text-start = mićʰar qudrati bila, mićare insaane bila. teeylate mi duro ar ẓuas mićʰariṅ technology mii machine ar desmayme has mimay baan. magam mićʰariṅ e system desmayar mimar kal but mićʰariṅ e data awaaji
 
 ## Account Benefits
 
