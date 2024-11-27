@@ -16,3 +16,4 @@ submit-all-button = Odeslat vše
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Naučte se používat tuto stránku
+learn-how-to-use-transcribe = Přečtěte si, jak přepisovat

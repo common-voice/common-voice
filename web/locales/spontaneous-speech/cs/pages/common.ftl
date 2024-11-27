@@ -30,6 +30,13 @@ not-found-page-header = Nenalezeno
 not-found-page-content = Stránka, kterou hledáte, nebyla nalezena
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
+# Locales
+bsy = Sabah Bisaya
+cdo = Fu-čou
+cpx = Heng Hua
 en = Angličtina
 fr = Francouzština
+hch = Wixarika
+kzi = Kelabit
+mmc = Michoacán Mazahua
 tr = Turečtina

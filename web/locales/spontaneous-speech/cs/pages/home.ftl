@@ -4,6 +4,10 @@ how-spontaneous-speech-works = Jak funguje spontánní řeč
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Výzva</mark>
 # text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>Odpovědět</mark>
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Přepis</mark>
+# text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
 data-bubble-subtitle = Dataset pravidelně zveřejňujeme
 contact-us = Kontaktujte nás

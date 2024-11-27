@@ -1,5 +1,6 @@
 ## Transcribe Audio page
 
+editbox-header = Přepsat
 create-transcript-success = Přepis úspěšně odeslán
 create-transcript-error = Při vytváření tohoto přepisu došlo k chybě
 error-playing-audio = Chyba při přehrávání zvukového souboru.
