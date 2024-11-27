@@ -13,6 +13,10 @@ help-us-title = ućharing tasdiiq etasulo meer madat etin
 help-us-explain = play yate press etin, damayalin daa mesin: uwe  yaarum ite jumla sahi ne senumanaa?
 no-clips-to-validate = tey ġeyśila ke gute baaṣulo dimeyljar clips in api. mii miriin ce duunin daa muu record netan queue ulo fill etin
 toggle-play-tooltip = on ya ban ećar play mode press etin { shortcut-play-toggle }
+speak-paragraph = ućʰariṅe clips record etas mii open database desmanas e but xaas duro bila, beruman e guteer dimeurats duro sey baan
+speak-goal-text = clips in record manimi
+listen-paragraph = meer emasumin clips in e tasdiiq etas common voice e mission ulo but zaroori bila. damaylin daa je baa senum open source voice data desmanasulo mii madat etin
+listen-goal-text = clips in e tasdiiq manimi
 
 ## Account Benefits
 
