@@ -17,6 +17,12 @@ validate-readings = পঢ়নৰ বৈধতা নিশ্চিত কৰক
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = পঢ়নৰ বৈধতা নিশ্চিত কৰক, শ্ৰুতলিপি পৰ্যালোচনা কৰক
+validate-readings-menu-item-tooltip = আপোনাৰ ভাষাত ব্যৱহাৰকাৰীয়ে ৰেকৰ্ড কৰা পঢ়নৰ বৈধতা নিশ্চিত কৰক
+review-transcriptions-menu-item-tooltip = আপোনাৰ ভাষাত ব্যৱহাৰকাৰীয়ে দাখিল কৰা শ্ৰুতলিপি পৰ্যালোচনা কৰক
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = শুনা বিকল্পৰ মেন্যু
+validate-readings-menu-item-aria-label = সমাজৰ সদস্য-সদস্যাই দাখিল কৰা পঢ়নৰ বৈধতা নিশ্চিত কৰক
+review-transcriptions-menu-item-aria-label = ৰেকৰ্ড কৰা বাক্যৰ শ্ৰুতলিপিৰ সঠিকতাৰ বাবে পৰ্যালোচনা কৰক

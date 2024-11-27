@@ -59,3 +59,5 @@ review-error-rate-limit-exceeded = আপুনি বৰ বেগাই গৈ
 sc-redirect-page-title = আমি কেতবোৰ ডাঙৰ সাল-সলনি কৰি আছোঁ
 sc-redirect-page-subtitle-1 = বাক্য-সংগ্ৰাহকটো মূল কমন ভইচ মঞ্চলৈ স্থানান্তৰিত হৈ আছে। আপুনি এতিয়া কমন ভইচত বাক্য <writeURL>লিখিব</writeURL> পাৰে নাইবা একক বাক্যৰ দাখিলবোৰ <reviewURL>পৰ্যালোচনা</reviewURL> কৰিব পাৰে।
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> নাইবা <emailLink>ইমেইল</emailLink>ত আমাক প্ৰশ্ন সোধক।
+# menu item
+review-sentences = বাক্য পৰ্যালোচনা কৰক
