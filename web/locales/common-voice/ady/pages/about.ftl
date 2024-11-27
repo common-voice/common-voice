@@ -1,5 +1,6 @@
 ## ABOUT US
 
+about-title = Сыд пае Комон Войс?
 
 ## How does it work section
 
