@@ -128,14 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] 1টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল
-       *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল
+        [one] 1টাৰ { $uploadedSentences }টা বাক্য সংগৃহীত হ’ল
+       *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য সংগৃহীত হ’ল
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] 1টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
-       *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
+        [one] 1টাৰ { $uploadedSentences }টা বাক্য সংগৃহীত হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
+       *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য সংগৃহীত হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
     }
 small-batch-sentences-rule-1 = “মই কি কি বাক্য যোগ কৰিব পাৰোঁ?” তাৰে পৰা নিৰ্দেশনা পালন কৰক
 small-batch-sentences-rule-2 = প্ৰতিটো শাৰীত এটাকৈ বাক্য যোগ কৰক
