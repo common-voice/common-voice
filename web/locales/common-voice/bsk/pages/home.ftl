@@ -20,6 +20,8 @@ listen-goal-text = clips in e tasdiiq manimi
 hours-recorded = gantan record manimi
 hours-validated = gantane tasdiiq manimi
 voices-online = muu ućʰariġ online bican
+todays-progress = kʰultumo manum duroiṅ
+help-reach-goal = dimeṣqaltase gane mii miriin ce duunin { $goal }
 
 ## Account Benefits
 
