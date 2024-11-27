@@ -64,3 +64,7 @@ citing-sentences-subheader-websites-explanation = maa website kaa etas maamay ba
 citing-sentences-subheader-academic-reference = academic reference
 citing-sentences-subheader-academic-reference-explanation = maa academic referencing style duro ar suwas maamay baa masalan Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 citing-sentences-subheader-offline-sources = offline sources
+citing-sentences-subheader-offline-sources-explanation = amik text in public domain ar online api ke, maa academic reference maslan Harvard style "Jess (2021) My Public license poems" eeduruas maamay baan
+citation =
+    .label = citation
+self-citation = maymo duru e citation
