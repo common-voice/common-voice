@@ -1,5 +1,8 @@
 ## Home Page
 
+home-title = belate sise ćaġa ećaan ke machine eykiyar common voice e madat eći bi amit mozila initative bila
+default-tagline = belate sise ćaġa ećaan ke machine eykiyar common voice e madat eći bi amit mozila initative bila
+home-cta = śatine ćaġata eti khole meer emas
 
 ## Account Benefits
 
