@@ -4,6 +4,7 @@ partnerships-header-text = Jo wjele trjeba, aby my Common Voice zwopšawdnili! N
 partnerships-get-in-touch = Kontakt
 partnerships-become-a-partner = Buźćo partnaŕ Common Voice
 partnerships-community-header = Zgromadnosć, kreatiwne a ciwilna towarišnosć
+partnerships-community-description = Zgromaźeństwo jo dybjuca wutšoba Common Voice – pśidu z cełego swěta a su rěcne aktiwisty, wědomnostniki a wuměłce. Móžośo na našom boku <about>Wó</about> a w našych <community>zasadnych linijach</community> wěcej wó tom zgóniś, kak móžośo sobu cyniś. Jolic maśo zajm na dłymšem organizatoriskem partnaŕstwje, <emailFragment>dajśo wót se słyšaś</emailFragment>.
 partnerships-foundations-header = Załožby
 partnerships-foundations-description = Źěłamy ze załožbami, ciwilneju towarišnosću a partnerami zgromaźeństwa gromaźe, aby my internet k strowšemu městnoju cynili, z wósebnym fokusom na pódzajtšnu Afriku. Zgóńśo wěcej wó našom <programmaticWork>programatiskem źěle.</programmaticWork>
 partnerships-governments-header = Kněžaŕstwa

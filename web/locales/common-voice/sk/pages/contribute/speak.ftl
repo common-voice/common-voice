@@ -5,7 +5,7 @@ record-cta = Začnite nahrávať
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
 record-platform-not-supported-desktop = Na počítačoch môžete prispieť stiahnutím...
 record-platform-not-supported-ios-non-safari = V systéme iOS použite pre nahrávanie prehliadač Safari…
-record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
+record-must-allow-microphone = Musíte povoliť prístup k mikrofónu.
 record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
@@ -60,3 +60,17 @@ already-have-an-account = Máte už účet? <login>Prihlásiť sa</login>
 create-profile-button = Vytvoriť profil
 # IMAGE TAGS
 img-alt-success-checkmark = symbol začiarknutia
+# menu item
+read-sentences = Čítanie viet
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Čítajte vety, odpovedajte na otázky
+read-sentences-menu-item-tooltip = Zaznamenajte si, ako čítate vety vo svojom jazyku
+answer-questions-menu-item-tooltip = Zaznamenajte si, ako reagujete na otázky a výzvy vo svojom jazyku
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Možnosti ponuky hovorenia
+read-sentences-menu-item-aria-label = Čítajte vety predložené komunitou v rôznych jazykoch
+answer-questions-menu-item-aria-label = Odošlite komunite novú otázku, ktorú si môže prečítať a odpovedať na ňu

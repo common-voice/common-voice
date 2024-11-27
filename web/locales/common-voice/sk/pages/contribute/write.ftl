@@ -155,3 +155,21 @@ small-batch-sentences-rule-3 = Oddeľte vety do jedného riadku jedným stlačen
 small-batch-sentences-rule-4 = Môžete pridať až 1 000 viet
 small-batch-sentences-rule-5 = Všetky vety musia mať rovnakú licenciu
 small-batch-sentences-rule-6 = Všetky vety musia mať rovnakú citáciu
+# menu item
+add-sentences = Pridanie viet
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Pridajte a kontrolujte vety, pridávajte otázky, prepisujte zvukové záznamy
+add-sentences-menu-item-tooltip = Pridajte vety vo vašom jazyku
+review-sentences-menu-item-tooltip = Kontrolujte vety vo vašom jazyku
+add-questions-menu-item-tooltip = Pridajte otázky vo vašom jazyku
+transcribe-audio-menu-item-tooltip = Prepisujte zvukové nahrávky vo vašom jazyku
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Možnosti ponuky písania
+add-sentences-menu-item-aria-label = Pridajte nové vety, ktoré komunita môže prečítať
+review-sentences-menu-item-aria-label = Skontrolujte existujúce vety odoslané komunitou
+add-questions-menu-item-aria-label = Odošlite nové otázky, ktoré komunita môže prečítať a odpovedať na ne
+transcribe-audio-menu-item-aria-label = Prepisujte zvukové nahrávky do textu

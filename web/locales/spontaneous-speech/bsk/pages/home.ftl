@@ -1,5 +1,9 @@
 ## Home page
 
+welcome-to-spontaneous-speech = spontaneous baringulo xoś aamdiit
+# <br></br> represents a newline break
+wall-of-text = Common voice altolum platform śuru etibi amite organic, spontaneous and unscripted baring gait etase duro eći. gute butan kuyooćar data choor choor gati ećar madat eći daa data scientist ke developers e gane darkaar meeymi
+why-spontaneous-speech = bes mii guse spontaneous speech prototype desmaya baa?
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = duġarusasin
 prompt-bubble-subtitle = sawaalan yaa duġarusasan maartirćan
