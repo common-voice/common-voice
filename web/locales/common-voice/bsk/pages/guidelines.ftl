@@ -83,3 +83,7 @@ adding-sentences-subheader-punctuation = jumla girminase qaanoonin
 adding-sentences-subheader-punctuation-explanation = xaas symbolin ke punctuation toole istimaal etin amulo butan awaaji manimi ke. masalan don't haranulo apostrophe bi daa we're ulo magam gote mumkin api ke maamar beśal guke juwa special symbols awaaji meeymi "@" or #
 adding-sentences-subheader-special-characters = xaas characterin daa holum huruupuc
 adding-sentences-subheader-special-characters-explanation-1 = harpuc senum ite baaṣulum maniṣ. masalan “ж”  ruusi baaṣe harpan bi magam beśal ke angreezi ulo istimaal eemani bi
+adding-sentences-subheader-special-characters-explanation-2 = baaṣin beśal localize eća baan ke ite ulo eke iymo validation rules kaa iymo izaafi zaruuriatin meeymi. agar baaṣe xaas validation file api ke angreziyo qanoon iriin emaśi
+adding-sentences-subheader-offensive-content = mimoos dimeecas mawaad
+adding-sentences-subheader-offensive-content-explanation = agar jumlan mimoos dimecaśo bican ke masalan laquu ćaġamin yaa kuyooće emasas e guidelines cum holum manimi ke ike jumlan maa reject etin. maa mi mepaćiyar damaṣqaltin taaki mii issue etasulo himat ećan
+reviewing-sentences-explanation-1 = agar jumla yatum ite criteriate bila ke yes button click etn
