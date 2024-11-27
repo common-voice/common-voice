@@ -12,11 +12,15 @@ ady = Адыгабзэ (Тыгъэ къохьапӏ)
 ## Layout
 
 profile = Профил
+help = Ӏэпыӏэгъу
 contact = Зэлъыӏэс
 privacy = Шъэфныгъэ
 terms = Хабзэхэр
 cookies = Хьалыжъыехэр
 faq = БКУ
+logout = Икӏ
+email-input =
+    .label = Епочта
 
 ## Donate banner
 
