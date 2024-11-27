@@ -21,6 +21,7 @@ new-sentence-rule-5 = কোনো সংখ্যা আৰু বিশেষ 
 new-sentence-rule-6 = কোনো আচহুৱা বৰ্ণ থাকিব নোৱাৰিব
 new-sentence-rule-7 = উপযুক্ত উদ্ধৃতি অন্তৰ্ভুক্ত কৰক
 new-sentence-rule-8 = আদৰ্শগতভাৱে স্বাভাৱিক আৰু কথোপকথনমূলক (বাক্যটো প‌ঢ়িবলৈ সহজ হোৱা উচিত)
+login-instruction-multiple-sentences = একাধিক বাক্য যোগ কৰিবলৈ <loginLink>লগ ইন</loginLink> নাইবা <loginLink>ছাইন আপ</loginLink>  কৰক
 how-to-cite = উদ্ধৃতি কেনেকৈ দিম?
 how-to-cite-explanation-bold = এটা URL লিংক বা কামৰ সম্পূৰ্ণ নামৰ সৈতে উদ্ধৃতি দিয়ক।
 how-to-cite-explanation = যদি এয়া আপোনাৰ নিজা শব্দ, তেন্তে মাথোঁ <italicizedText>“স্ব-উদ্ধৃতি”</italicizedText> বুলি কওক। আপুনি এই বিষয়বস্তু ক’ত পালে সেয়া আমি জনাৰ প্ৰয়োজন যাতে আমি এয়া ৰাজহুৱা ড’মেইনত আছে নে নাই আৰু কোনো কপিৰাইট-সংক্ৰান্তীয় নিষেধাজ্ঞা প্ৰযোজ্য হয় নেকি সেয়া পৰীক্ষা কৰিব পাৰোঁ।
@@ -30,8 +31,11 @@ add-sentence-success = এটা বাক্য সংগৃহীত
 add-sentence-error = বাক্য যোগ কৰোঁতে ত্ৰুটি ঘটিছে
 required-field = অনুগ্ৰহ কৰি এই ক্ষেত্ৰটো ভৰাওক।
 single-sentence-submission = একক বাক্যৰ দাখিল
+small-batch-sentence-submission = সৰু গোটৰ বাক্য দাখিল কৰক
 bulk-sentence-submission = সমূহীয়া বাক্যৰ দাখিল
 single-sentence = একক বাক্য
+small-batch-sentence = সৰু গোট
+bulk-sentence = ডাঙৰ গোট
 sentence-domain-combobox-label = বাক্যৰ ড’মেইন
 sentence-domain-select-placeholder = তিনিটা পৰ্যন্ত ড’মেইন বাছনি কৰক
 # Sentence Domain dropdown option
@@ -75,6 +79,7 @@ try-upload-again-md = আকৌ আপল’ড কৰি চাওক
 select-file = ফাইল বাছনি কৰক
 select-file-mobile = আপল’ড কৰিবলৈ ফাইল বাছনি কৰক
 accepted-files = গৃহীত ফাইলৰ প্ৰকাৰ: কেৱল .tsv
+minimum-sentences = ফাইলত নূন্যতম বাক্য: 1000টা
 maximum-file-size = সৰ্বাধিক ফাইলৰ আকাৰ: 25 MB
 what-needs-to-be-in-file = মোৰ ফাইলত কি কি থাকিব লাগিব?
 what-needs-to-be-in-file-explanation = অনুগ্ৰহ কৰি আমাৰ <templateFileLink>টেমপ্লে’ট ফাইল</templateFileLink>টো চাওক। আপোনাৰ বাক্যবোৰ কপিৰাইট-মুক্ত (CC0 বা দাখিলকাৰীৰ দ্বাৰা অনুমতিপ্ৰাপ্ত মূল কাম) হোৱা উচিত আৰু লগতে স্পষ্ট, ব্যাকৰণগতভাৱে শুদ্ধ আৰু প‌ঢ়িবলৈ সহজ হোৱা উচিত। দাখিল কৰা বাক্যবোৰ মোটামুটিকৈ 10-15 ছেকেণ্ডত পঢ়িব পৰা যাব লাগিব আৰু সেইবোৰত সংখ্যা, নামবাচক বিশেষ্য আৰু বিশেষ বৰ্ণ অন্তৰ্ভুক্ত থাকিব নোৱাৰিব।
@@ -92,6 +97,23 @@ too-many-files = বৰ বেছি ফাইল
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> একাধিক ৰাজহুৱা ড’মেইনৰ বাক্য যোগ কৰক
+multiple-sentences-error = মাথোঁ এটাৰ দাখিলকৰ‌ণত আপুনি একাধিক বাক্য যোগ কৰিব নোৱাৰে
+exceeds-small-batch-limit-error = 1000তকৈ অধিক বাক্য দাখিল কৰিব নোৱাৰিব
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] পৰিমাণৰ সীমা চেৰাই গৈছে। 1 মিনিট পাছত পুনৰ চেষ্টা কৰিব
+       *[other] পৰিমাণৰ সীমা চেৰাই গৈছে। { $retryLimit } মিনিট পাছত পুনৰ চেষ্টা কৰিব
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] পৰিমাণৰ সীমা চেৰাই গৈছে। 1 ছেকেণ্ড পাছত পুনৰ চেষ্টা কৰিব
+       *[other] পৰিমাণৰ সীমা চেৰাই গৈছে। { $retryLimit } ছেকেণ্ড পাছত পুনৰ চেষ্টা কৰিব
+    }
+small-batch-sentences-rule-2 = প্ৰতিটো শাৰীত এটাকৈ বাক্য যোগ কৰক
 
 ## MENU ITEM TOOLTIPS
 
