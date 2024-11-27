@@ -6,6 +6,7 @@ about-title = Сыт щхьэкӏэ Common Voice?
 
 about-sentence-collection-title = Псалъэуха зэхуэхьэсар
 about-speak = Къэпсалъэ
+about-listen-queue = Едэӏуэныгъэм и чэзу
 about-listen = КъэдаӀуэ
 about-yes-votes = ≥ 2 ӏэ ӏэт нэхъыбэ
 about-no-votes = ≥ 2 зыри ӏэ ӏэт щыӏэкъым

@@ -90,6 +90,24 @@ too-many-files = Файлхэр куэдыщэщ.
 
 ## SMALL BATCH SUBMISSION
 
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Мы напэкӏуэцӏым къызэриплъхьэфыным и гъунэм унэссащ. Нэгъуэщӏ псалъэуха къилъхьэн щхьэ 1 дакъикъэ ежэ. Уи сабырыгъэгъэм щхьэ пщӏэ пхудощӏ!
+       *[other] Мы напэкӏуэцӏым къызэриплъхьэфыным и гъунэм унэссащ. Нэгъуэщӏ псалъэуха къилъхьэн щхьэ секунд { $retryLimit }ежэ. Уи сабырыгъэгъэм щхьэ пщӏэ пхудощӏ!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } м щыщ псалъэуха 1 къагъуэящ.
+       *[other] { $uploadedSentences } м щыщ { $totalSentences } псалъэухахэр къагъуэящ.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } псалъэухахэм щыщ 1 р къилхьащ. Зырамыда псалъэухахэр къепхьэхын щхьэ <downloadLink>мыбы <downloadLink> еӏусэ.
+       *[other] { $uploadedSentences } м щыщ { $totalSentences } псалъэуха къагъуэящ.Зырамыда псалъэухахэр къепхьэхын щхьэ <downloadLink>мыбы <downloadLink> еӏусэ.
+    }
 small-batch-sentences-rule-2 = Сатыр къэс псалъэуха зэрыз тхы
 small-batch-sentences-rule-4 = Псалъэуха 1,000-м нэс хэфлъхьэ
 # menu item
