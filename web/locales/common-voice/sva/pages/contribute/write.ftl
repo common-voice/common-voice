@@ -12,6 +12,7 @@ citation =
 sc-write-submit-confirm = მი ხუ̂ადასტურე, ერე ალ წინადადება ლი <wikipediaLink> საყოველთაო საკუთრება ი მი ნა̈ბ მუღუ̂ა ამი̄ ლიტუ̂ირთა̈უ̂ი̄შ.
 sc-review-write-title = მა̈ჲ წინადება̄ლე ლიქმე მა̈მჲე̄და?
 sc-review-small-batch-title = იმჟი ელქჷმად ფიშირ წინადადება̄̈ლ
+new-sentence-rule-1 = <noCopyright>საავტორო უფლება̄̈ლურ</noCopyright> საავტორო უფლება̄ლე შეზღუდვაურ (<cc0>-0</cc0>)
 
 ## BULK SUBMISSION 
 
