@@ -1,7 +1,8 @@
 ## Home page
 
+welcome-to-spontaneous-speech = স্বতঃস্ফূৰ্ত বক্তৃতালৈ আপোনাক স্বাগতম
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = ব্যৱহাৰ কৰিবলৈ কম বা <mark>কোনো পাঠ্য কৰ্পাছ</mark> নথকা ভাষাবোৰ (যেনে— সামাজিক উপভাষা, ভাষাভেদ, ঐতিহাসিকভাৱে অলিপিবদ্ধ ভাষা ইত্যাদি)ৰ উন্নত সমৰ্থন
+why-card-3-text = ব্যৱহাৰ কৰিবলৈ কম বা <mark>কোনো পাঠ্য কৰ্পাছ নথকা</mark> ভাষাবোৰ (যেনে— সামাজিক উপভাষা, ভাষাভেদ, ঐতিহাসিকভাৱে অলিপিবদ্ধ ভাষা ইত্যাদি)ৰ উন্নত সমৰ্থন
 how-spontaneous-speech-works = স্বতঃস্ফূৰ্ত বক্তৃতাই কেনেকৈ কাম কৰে
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>প্ৰম্‌প্ট</mark>
