@@ -1,6 +1,6 @@
 ## Home page
 
-welcome-to-spontaneous-speech = spontaneous baringulo xoś aamdiit
+welcome-to-spontaneous-speech = mii haran gunc mo baringulo xoś aamdiit
 # <br></br> represents a newline break
 wall-of-text = Common voice altolum platform śuru etibi amite organic, spontaneous and unscripted baring gait etase duro eći. gute butan kuyooćar data choor choor gati ećar madat eći daa data scientist ke developers e gane darkaar meeymi
 why-spontaneous-speech = bes mii guse spontaneous speech prototype desmaya baa?
@@ -30,6 +30,7 @@ contact-us = micimo doġaruś hurutin
 contact-us-title = gute project kaa manaase rai bila yaa meka partnership gane
 contact-us-email = email
 signup-form-title = ma yarmu cum mii common voice e spontaneous speech project ar bilum Beta testing group ulo baana?
+signup-terms = Send a lik to my email ate click netan maa mii terms of service daa privacy policy kaa agree ećaan. mozilaa maar email eći ke belata Beta Testing  or Common Voice’s Spontaneous Speech Project ulo kaa meyiman
 signup-input-placeholder = maymo iimeel entar etin
 signup-button-value = jaa email ar link doocin
 footer-text-privacy = alak thalak
