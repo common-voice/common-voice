@@ -18,6 +18,7 @@ new-sentence-rule-3 = სწორ გრამატიკა ლა̈ხჴჷ
 new-sentence-rule-4 = ლა̈ხჴჷმა̈რ სწორ ორთოგრაფია ი პუნქტუაცია
 new-sentence-rule-5 = ნომ'ა̄̈ხჴჷმრა ციფრა̈ლ ი სპეციფიკურ სიმბოლუ̂ა̄̈ლ
 new-sentence-rule-6 = ნომ'ა̄̈ხჴჷმრა უცხოურ ასუ̂ა̄̈ლ
+new-sentence-rule-7 = ლახჩიდინ მასყა ციტატა̄̈ლ
 
 ## BULK SUBMISSION 
 
