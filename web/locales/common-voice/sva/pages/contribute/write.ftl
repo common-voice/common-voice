@@ -9,6 +9,7 @@ small-batch-sentence-input-placeholder = სგ'ა̄თხა̈ჲ ამხა
 citation-input-placeholder = ჩუ̂ათიჲრ ისგუ წინადადება̄̈ წყარო
 citation =
     .label = ციტატა
+sc-write-submit-confirm = მი ხუ̂ადასტურე, ერე ალ წინადადება ლი <wikipediaLink> საყოველთაო საკუთრება ი მი ნა̈ბ მუღუ̂ა ამი̄ ლიტუ̂ირთა̈უ̂ი̄შ.
 
 ## BULK SUBMISSION 
 
