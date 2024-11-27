@@ -63,8 +63,8 @@ news_current_affairs = বাতৰি আৰু সাম্প্ৰতিক 
 # Sentence Domain dropdown option
 technology_robotics = প্ৰযুক্তি আৰু যন্ত্ৰমানৱ-বিজ্ঞান
 sentence-variant-select-label = বাক্যৰ ধৰণ
-sentence-variant-select-placeholder = এটা ধৰণ বাছনি কৰক (বৈকল্পিক)
-sentence-variant-select-multiple-variants = সাধাৰণ ভাষা / একাধিক ধৰণ
+sentence-variant-select-placeholder = এটা ভাষাভেদ বাছনি কৰক (বৈকল্পিক)
+sentence-variant-select-multiple-variants = সাধাৰণ ভাষা / একাধিক ভাষাভেদ
 
 ## BULK SUBMISSION 
 

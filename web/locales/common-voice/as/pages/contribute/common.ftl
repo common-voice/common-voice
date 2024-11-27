@@ -61,7 +61,7 @@ report-other-comment =
     .placeholder = মন্তব্য
 success = সফল
 continue = অব্যাহত ৰাখক
-report-success = প্ৰতিবেদন সফলভাৱে গৃহীত হ’ল
+report-success = প্ৰতিবেদন সফলতাৰে গৃহীত হ’ল
 
 ## Speak & Listen Shortcuts
 

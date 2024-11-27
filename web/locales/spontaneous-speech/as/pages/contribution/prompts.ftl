@@ -9,6 +9,8 @@ error-skipping = প্ৰম্‌প্ট বাদ দিওঁতে এট
 error-recording = ৰেকৰ্ড কৰোঁতে এটা ত্ৰুটি ঘটিল
 error-fetching-prompts = প্ৰম্‌প্ট আনি থাকোঁতে কিবা এটা সমস্যা হ’ল। অনুগ্ৰহ কৰি পাছত পুনৰ চেষ্টা কৰিব।
 error-uploading-response = আপোনাৰ সঁহাৰি আপল’ড কৰোঁতে এটা ত্ৰুটি ঘটিল
+prompt-submitted-success = সঁহাৰি সফলতাৰে দাখিল কৰা হ’ল
+prompt-response-deleted-success = সঁহাৰি সফলতাৰে মচা হ’ল
 # For the button to delete a response to a prompt
 delete = মচক
 # For the disabled button on a prompt that indicates a prompt is already submitted
@@ -18,3 +20,4 @@ submit-all-button = সকলো দাখিল কৰক
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = এই পৃষ্ঠাখনে কেনেকৈ কাম কৰে— জানি লওক
