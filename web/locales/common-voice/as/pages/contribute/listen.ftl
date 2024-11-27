@@ -1,4 +1,5 @@
 listen = শুনক
+listen-subtitle = মাত বৈধকৰণ কৰাত আমাক সহায় কৰক
 listen-instruction = { $actionType }<playIcon></playIcon>তেখেতে বাক্যটো সঠিককৈ কৈছেনে?
 listen-again-instruction = বঢ়িয়া কাম! <playIcon></playIcon>আপুনি সাজু হ’লে আকৌ শুনিব
 listen-3rd-time-instruction = 2টা হ’ল, কৰি থাকক!<playIcon></playIcon>
@@ -11,3 +12,9 @@ listen-loading-error =
 listen-abort-title = ক্লিপবোৰৰ বৈধকৰ‌ণ শেষ কৰিবনে?
 listen-abort-cancel = বৈধকৰ‌ণ অব্যাহত ৰাখক
 listen-abort-confirm = বৈধকৰ‌ণ শেষ কৰক
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

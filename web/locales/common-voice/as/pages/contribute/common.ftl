@@ -33,11 +33,14 @@ target-segment-first-banner = { $locale }ত কমন ভইচৰ প্ৰথ
 target-segment-add-voice = আপোনাৰ মাত যোগ কৰক
 target-segment-learn-more = অধিক জানক
 change-preferences = পছন্দবোৰ সাল-সলনি কৰক
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = মাত-সংগ্ৰহ
-contribute-sentence-collection-nav-header = বাক্য-সংগ্ৰহ
+login-signup = লগ ইন / ছাইন আপ
+vote-yes = হয়
+vote-no = নহয়
+datasets = ডেটাছেট
+languages = ভাষা
+about = সন্দৰ্ভ
+partner = অংশীদাৰ
+submit-form-action = দাখিল কৰক
 
 ## Reporting
 
