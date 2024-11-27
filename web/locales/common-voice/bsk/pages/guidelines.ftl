@@ -63,3 +63,4 @@ citing-sentences-subheader-websites = websites
 citing-sentences-subheader-websites-explanation = maa website kaa etas maamay baa masalan common voice
 citing-sentences-subheader-academic-reference = academic reference
 citing-sentences-subheader-academic-reference-explanation = maa academic referencing style duro ar suwas maamay baa masalan Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+citing-sentences-subheader-offline-sources = offline sources
