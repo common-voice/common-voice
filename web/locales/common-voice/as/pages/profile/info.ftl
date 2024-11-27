@@ -56,7 +56,6 @@ accept-privacy-title = গোপনীয়তা-নীতি
 accept-privacy-and-terms = মই কমন ভইচৰ <termsLink>চৰ্তাৱলী</termsLink> আৰু <privacyLink>গোপনীয়তাৰ জাননী</privacyLink>ত সন্মতি জনাইছোঁ
 login-identity = লগইন পৰিচয়
 login = লগিন কৰক
-login-signup = লগ ইন / ছাইন আপ
 edit = সম্পাদনা
 email-subscriptions = ইমেইল ছাব‌স্ক্ৰিপশ্যন
 download-profile = মোৰ ডেটা ডাউনল’ড কৰক

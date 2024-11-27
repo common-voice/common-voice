@@ -5,7 +5,8 @@ write-instruction = এটা ৰাজহুৱা ড’মেইনৰ বা
 write-page-subtitle = ইয়াত অৱদান আগবঢ়োৱা বাক্যবোৰ এক ৰাজহুৱাভাৱে উপলব্ধ cc-0 অনুজ্ঞাপত্ৰ-প্ৰাপ্ত ডেটাছেটত যোগ কৰা হ’ব।
 sentence =
     .label = বাক্য
-sentence-input-value = ইয়াত আপোনাৰ ৰাজহুৱা ড’মেইনৰ বাক্য ভৰাওক
+sentence-input-placeholder = ইয়াত আপোনাৰ ৰাজহুৱা ড’মেইনৰ বাক্য লিখক
+small-batch-sentence-input-placeholder = ইয়াত আপোনাৰ ৰাজহুৱা ড’মেইনৰ বাক্যবোৰ লিখক
 citation-input-placeholder = আপোনাৰ বাক্যৰ উৎস উল্লেখ কৰক (প্ৰয়োজনীয়)
 citation =
     .label = উদ্ধৃতি
@@ -30,7 +31,6 @@ required-field = অনুগ্ৰহ কৰি এই ক্ষেত্ৰট
 single-sentence-submission = একক বাক্যৰ দাখিল
 bulk-sentence-submission = সমূহীয়া বাক্যৰ দাখিল
 single-sentence = একক বাক্য
-bulk-sentences = সমূহীয়া বাক্য
 sentence-domain-combobox-label = বাক্যৰ ড’মেইন
 sentence-domain-select-placeholder = তিনিটা পৰ্যন্ত ড’মেইন বাছনি কৰক
 # Sentence Domain dropdown option
@@ -88,3 +88,12 @@ file-invalid-type = অবৈধ ফাইল
 file-too-large = ফাইলটো বৰ ডাঙৰ
 file-too-small = ফাইলটো বৰ সৰু
 too-many-files = বৰ বেছি ফাইল
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

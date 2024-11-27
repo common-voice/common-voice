@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = অৱদানৰ মাপকাঠী
-guidelines-header-subtitle = কমন ভইচ ডেটাছেটলৈ বাক্য আৰু অডিঅ’ ক্লিপ কেনেকৈ অৱদান দিয়া হয় আৰু বৈধকৰণ কৰা হয়— বুজি লওক
+guidelines-header-subtitle = কমন ভইচ ডেটাছেটলৈ বাক্য আৰু অডিঅ’ ক্লিপ কেনেকৈ অৱদান দিয়া হয় আৰু বৈধতা নিশ্চিত কৰা হয়— বুজি লওক
 voice-collection = মাত-সংগ্ৰহ
 sentence-collection = বাক্য-সংগ্ৰহ
 varying-pronunciations = বিভিন্ন উচ্চাৰণ
