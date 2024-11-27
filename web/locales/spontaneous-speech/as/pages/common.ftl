@@ -27,6 +27,17 @@ contribute = অৱদান দিয়ক
 
 respond-to-prompt = প্ৰম্‌প্টৰ প্ৰতি সঁহাৰি জনাওক
 transcribe-audio = অডিঅ’ লিপিবদ্ধ কৰক
+check-transcriptions = শ্ৰুতলিপি পৰীক্ষা কৰক
 
 ## Not Found Page
 
+not-found-page-header = পোৱা নগ’ল
+not-found-page-content = আপুনি বিচাৰি থকা পৃষ্ঠাখন পাব পৰা নগ’ল
+# Privacy and Terms checkbox
+accept-privacy-and-terms = মই কমন ভইচৰ <termsLink>চৰ্তাৱলী</termsLink> আৰু <privacyLink>গোপনীয়তাৰ জাননী</privacyLink>ত সন্মতি জনাইছোঁ
+# Locales
+bsy = ছাবাহ বিছায়া
+cdo = ফুঝৌ
+cpx = হেং হুৱা
+en = ইংৰাজী
+fr = ফৰাচী
