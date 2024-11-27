@@ -94,3 +94,7 @@ release-version = সংস্কৰণ
 dataset-date = তাৰিখ
 license = লাইচেন্স: <licenseLink>{ $license }</licenseLink>
 license-mixed = মিশ্ৰিত
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = আমাৰ মাতৰ ডেটাছেটবোৰ ডাউনল’ড কৰক
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = কমন ভইচৰ ডেটা ব্যৱহাৰ কৰিব পৰাকৈ ডাউনল’ডৰ বিকল্পবোৰ

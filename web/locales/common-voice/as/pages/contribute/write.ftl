@@ -141,9 +141,23 @@ small-batch-sentences-rule-1 = “মই কি কি বাক্য যোগ
 small-batch-sentences-rule-2 = প্ৰতিটো শাৰীত এটাকৈ বাক্য যোগ কৰক
 small-batch-sentences-rule-3 = “Enter” বা “Return” এবাৰ টিপি বাক্যবোৰ এটা শাৰীত পৃথক কৰক
 small-batch-sentences-rule-4 = 1,000টা পৰ্যন্ত বাক্য যোগ কৰক
+small-batch-sentences-rule-5 = আটাইবোৰ বাক্যৰ ড’মেইন একে হ’বই লাগিব
+small-batch-sentences-rule-6 = আটাইবোৰ বাক্যৰ উদ্ধৃতি একে হ’বই লাগিব
+# menu item
+add-sentences = বাক্য যোগ কৰক
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = বাক্য যোগ আৰু পৰ্যালোচনা কৰক, প্ৰশ্ন যোগ কৰক, অডিঅ’ লিপিবদ্ধ কৰক
+add-sentences-menu-item-tooltip = আপোনাৰ ভাষাত বাক্য যোগ কৰক
+review-sentences-menu-item-tooltip = আপোনাৰ ভাষাত বাক্য পৰ্যালোচনা কৰক
+add-questions-menu-item-tooltip = আপোনাৰ ভাষাত প্ৰশ্ন যোগ কৰক
+transcribe-audio-menu-item-tooltip = আপোনাৰ ভাষাত অডিঅ’ ৰেকৰ্ডিং লিপিবদ্ধ কৰক
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = লিখা বিকল্পৰ মেন্যু
+add-sentences-menu-item-aria-label = সমাজে পঢ়িব পৰাকৈ নতুন বাক্য যোগ কৰক
+review-sentences-menu-item-aria-label = সমাজে দাখিল কৰা মজুত থকা বাক্য পৰ্যালোচনা কৰক
+add-questions-menu-item-aria-label = সমাজে পঢ়ি উত্তৰ দিব পৰাকৈ নতুন প্ৰশ্ন দাখিল কৰক
+transcribe-audio-menu-item-aria-label = অডিঅ’ ৰেকৰ্ডিংবোৰ পাঠলৈ লিপিবদ্ধ কৰক

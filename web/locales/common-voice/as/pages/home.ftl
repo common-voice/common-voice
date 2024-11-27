@@ -83,6 +83,8 @@ review-transcriptions = শ্ৰুতলিপি পৰ্যালোচন�
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = আমাৰ অংশীদাৰ হওক
+press-and-stories-menu-item-tooltip = আমাৰ ব্লগ চাওক নাইবা আমাৰ বিষয়ে লিখক
 
 ## MENU ITEM ARIA LABELS
 
