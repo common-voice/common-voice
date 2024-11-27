@@ -4,6 +4,10 @@ welcome-to-spontaneous-speech = spontaneous baringulo xoś aamdiit
 # <br></br> represents a newline break
 wall-of-text = Common voice altolum platform śuru etibi amite organic, spontaneous and unscripted baring gait etase duro eći. gute butan kuyooćar data choor choor gati ećar madat eći daa data scientist ke developers e gane darkaar meeymi
 why-spontaneous-speech = bes mii guse spontaneous speech prototype desmaya baa?
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = gunc mo mi haraṅ ćaġa bare baaṣe gane gute but mufeed bila daa ite ulo beśal maa rai etuman ke speech recgonition e sise uyi haraṅ etum ćaġamin kaa duro etiṣ
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = butan baaṣin kaa ne ćaġa etas daa baṣin badal ećume ćaġa etas amit baaṣe haqiqat bila iteer support etin
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = duġarusasin
 prompt-bubble-subtitle = sawaalan yaa duġarusasan maartirćan
