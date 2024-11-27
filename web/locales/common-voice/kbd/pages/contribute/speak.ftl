@@ -4,7 +4,7 @@ speak-subtitle = Уи макъыр ет
 record-cta = Тетхэн щӀэдзэ
 record-platform-not-supported = Ди жагъуэщ, уи платформэр иджыпстукӏэ зыщӏэгъэкъуакъым.
 record-platform-not-supported-desktop = Iэнэтет ӏэмӏпсымэхэмкӏэ … къебгъэхыу хэлъхьэ пщӏыфынущ
-record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
+record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, … тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
 record-must-allow-microphone = Микрофон екӏуэлӏапӏэм хуитыныгъэ ептын хуейщ.
 record-no-mic-found = Микрофон къэгъуэта щыӏэкъым.
 record-error-too-short = Тетхэныр кӏэщӏыӏуэщ.
@@ -65,7 +65,7 @@ read-sentences = Псалъэухахэм яджэ
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Псалъэухахэр еджэ, Упщӏэхэм жэуап ет
+speak-contribute-menu-tooltip = Псалъэухахэм еджэ, упщӏэхэм жэуап ет
 read-sentences-menu-item-tooltip = Уи бзэкӏэ псалъэуха ущеджэм езым зытетхэж
 answer-questions-menu-item-tooltip = Уи бзэкӏэ упщӏэхэмрэ чэнджэщхэмрэ жэуап щептым езым зытетхэж
 
