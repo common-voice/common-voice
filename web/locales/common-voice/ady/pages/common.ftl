@@ -11,6 +11,9 @@ ady = Адыгабзэ (Тыгъэ къохьапӏ)
 
 ## Layout
 
+profile = Профил
+contact = Зэлъыӏэс
+privacy = Шъэфныгъэ
 
 ## Donate banner
 
