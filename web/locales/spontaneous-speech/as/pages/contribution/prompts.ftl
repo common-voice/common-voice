@@ -21,3 +21,7 @@ submit-all-button = সকলো দাখিল কৰক
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = এই পৃষ্ঠাখনে কেনেকৈ কাম কৰে— জানি লওক
+learn-how-to-use-prompts-explanation = প্ৰম্‌প্টটোৰ প্ৰতি মাথোঁ যিমান পাৰে স্বাভাৱিকভাৱে দুটামান বাক্যত উত্তৰ দিয়ক। আপোনাৰ ভাষা সন্মানজনক আৰু অক্ষতিকৰ হোৱাটো নিশ্চিত কৰিব।
+learn-how-to-use-prompts-guidance = এই পৃষ্ঠাখন কেনেকৈ ব্যৱহাৰ কৰিব পাৰি— জানিবলৈ <guidanceLink>ইয়াত</guidanceLink> ক্লিক কৰক
+learn-how-to-use-transcribe = লিপিবদ্ধ কেনেকৈ কৰিব— জানি লওক
+learn-how-to-use-transcribe-explanation = 'উম্' বা 'আঁ'-ৰ দৰে স্থানধাৰক শব্দবোৰকে ধৰি ব্যক্তিগৰাকীয়ে কথাখিনি যেনেকৈ কৈছে ঠিক তেনেকৈয়ে লিখিব।
