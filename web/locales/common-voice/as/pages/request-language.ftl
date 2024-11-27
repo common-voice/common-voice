@@ -34,7 +34,7 @@ request-language-success-list-2 =
 request-language-success-list-3 =
     দুদিনমানৰ ভিতৰত আপুনি আমাৰ পৰা কোনো খবৰ নাপালে 
     <emailLink>{ $email }</emailLink>-ত যোগাযোগ কৰিব
-    আৰু আমি আপোনালৈ সঁহাৰি জনাম!
+    আৰু আমি আপোনালৈ সঁহাৰি দিম!
 request-language-error =
     আমি হয়তো সেই অনুৰোধটো পোৱা নাই। অনুগ্ৰহ কৰি আমাক <email Link>{ $email }</email Link>-ত
-    পোনপটীয়াকৈ ইমেইল কৰক আৰু আমি আপোনালৈ সঁহাৰি জনাম!
+    পোনপটীয়াকৈ ইমেইল কৰক আৰু আমি আপোনালৈ সঁহাৰি দিম!

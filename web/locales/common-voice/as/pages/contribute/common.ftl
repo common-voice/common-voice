@@ -18,7 +18,7 @@ contribute-more =
        *[other] আৰু { $count }টা কৰিবলৈ সাজুনে?
     }
 speak-empty-state = এই ভাষাত ৰেকৰ্ড কৰিবলৈ আমাৰ বাক্য শেষ হৈছে...
-no-sentences-for-variants = হয়তো আপোনাৰ ভাষাৰ ধৰণৰ বাক্য শেষ হৈছে! যদি আপোনাৰ অসুবিধা নহয়, তেন্তে আপুনি আপোনাৰ ভাষাৰ অন্তৰ্গত আনবোৰ বাক্য চাবলৈ আপোনাৰ ছেটিংছ সলনি কৰিব পাৰে৷
+no-sentences-for-variants = হয়তো আপোনাৰ ভাষাভেদৰ বাক্য শেষ হৈছে! যদি আপোনাৰ অসুবিধা নহয়, তেন্তে আপুনি আপোনাৰ ভাষাৰ অন্তৰ্গত আনবোৰ বাক্য চাবলৈ আপোনাৰ ছেটিংছ সলনি কৰিব পাৰে৷
 speak-empty-state-cta = বাক্য অৱদান দিয়ক
 speak-loading-error =
     আপুনি ক’ব পৰাকৈ আমি কোনো বাক্য লাভ কৰিব নোৱাৰিলোঁ।
@@ -33,11 +33,14 @@ target-segment-first-banner = { $locale }ত কমন ভইচৰ প্ৰথ
 target-segment-add-voice = আপোনাৰ মাত যোগ কৰক
 target-segment-learn-more = অধিক জানক
 change-preferences = পছন্দবোৰ সাল-সলনি কৰক
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = মাত-সংগ্ৰহ
-contribute-sentence-collection-nav-header = বাক্য-সংগ্ৰহ
+login-signup = লগ ইন / ছাইন আপ
+vote-yes = হয়
+vote-no = নহয়
+datasets = ডেটাছেট
+languages = ভাষা
+about = সন্দৰ্ভ
+partner = অংশীদাৰ
+submit-form-action = দাখিল কৰক
 
 ## Reporting
 
@@ -58,7 +61,7 @@ report-other-comment =
     .placeholder = মন্তব্য
 success = সফল
 continue = অব্যাহত ৰাখক
-report-success = প্ৰতিবেদন সফলভাৱে গৃহীত হ’ল
+report-success = প্ৰতিবেদন সফলতাৰে গৃহীত হ’ল
 
 ## Speak & Listen Shortcuts
 

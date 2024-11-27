@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Skončiť overovanie klipov?
 listen-abort-cancel = Pokračovať v overovaní
 listen-abort-confirm = Skončiť s overovaním
+# Menu item
+validate-readings = Overovanie čítania
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Overujte čítanie, kontrolujte prepisy
+validate-readings-menu-item-tooltip = Overte čítanie zaznamenané používateľmi vo vašom jazyku
+review-transcriptions-menu-item-tooltip = Skontrolujte prepisy odoslané používateľmi vo vašom jazyku
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Možnosti ponuky počúvania
+validate-readings-menu-item-aria-label = Overte čítania odoslané členmi komunity
+review-transcriptions-menu-item-aria-label = Skontrolujte presnosť prepisov zaznamenaných viet

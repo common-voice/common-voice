@@ -58,7 +58,7 @@ your-feedback = আমি কমন ভইচ ডেটাছেট কেনে
 go-discourse = Discourse-লৈ যাওক
 missing-language = ডেটাছেটত আপোনাৰ ভাষা প্ৰতিফলিত হোৱা দেখা নাইনে? কোনো ভাষাৰ অনুৰোধ কৰিবলৈ আমাৰ ভাষা পৃষ্ঠালৈ যাওক।
 go-languages-page = ভাষা পৃষ্ঠালৈ যাওক
-ready-to-validate = বাক্যবোৰ বৈধকৰণ কৰাত সহায় কৰিবলৈ সাজুনে?
+ready-to-validate = বাক্যবোৰৰ বৈধতা নিশ্চিত কৰাত সহায় কৰিবলৈ সাজুনে?
 more = অধিক
 close = বন্ধ কৰক
 download = ডাউনল’ড কৰক
@@ -94,3 +94,7 @@ release-version = সংস্কৰণ
 dataset-date = তাৰিখ
 license = লাইচেন্স: <licenseLink>{ $license }</licenseLink>
 license-mixed = মিশ্ৰিত
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = আমাৰ মাতৰ ডেটাছেটবোৰ ডাউনল’ড কৰক
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = কমন ভইচৰ ডেটা ব্যৱহাৰ কৰিব পৰাকৈ ডাউনল’ডৰ বিকল্পবোৰ

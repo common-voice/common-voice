@@ -152,3 +152,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Kas finansej Common Voice?

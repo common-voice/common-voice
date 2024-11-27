@@ -4,6 +4,11 @@
 
 ## Languages
 
+aa = Afar
+ab = Abkhaz
+abb = Bankon 語
+ace = Acehnese
+ady = Adyghe (West Circassian)
 
 # [/]
 
