@@ -56,12 +56,12 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Уи макъыр зэребгъэхьам щхьэкӏэ фӏыщӏэ пхудощӏ!
 second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы макъ тезыха адрей цӀыхухэми нэӏуасэ пхуэхъуфынущ.
-already-have-an-account = Напэкӏуэцӏ уиӏэ ? "" <login>щӏэхьэ<login>
-create-profile-button = Напэкӏуэцыщӏэ къагъэкӏ
+already-have-an-account = Ӏэкаунт уиӏахэ? <login>Ихьэ<login>
+create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
 # IMAGE TAGS
 img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
 # menu item
-read-sentences = Псалъэухахэр еджэ
+read-sentences = Псалъэухахэм яджэ
 
 ## MENU ITEM TOOLTIPS
 
