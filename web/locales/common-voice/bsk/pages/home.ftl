@@ -22,9 +22,33 @@ hours-validated = gantane tasdiiq manimi
 voices-online = muu ućʰariġ online bican
 todays-progress = kʰultumo manum duroiṅ
 help-reach-goal = dimeṣqaltase gane mii miriin ce duunin { $goal }
+read-terms-q = maa mii dumaaẏum bariṅ ,ġatanumana
+ready-to-record = maymo maćʰar mićʰićar tayaar baana?
+all-locales = uyoon
+today = kʰulto
+x-weeks-short =
+    { $count ->
+        [one] hafta
+       *[other] 	{ $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] 	{ $count }wk
+       *[other] 	{ $count }wk
+    }
+x-years-short =
+    { $count ->
+        [one] 	{ $count }y
+       *[other] { $count } y
+    }
+help-make-dataset = śuwa quality daa sisar open dataset desmayar mii miriin ce duunin
+sign-up-account = ac̣count e gane sign up etin
+email-subscription-title = email updates e gane sign up etin
+email-subscription-title-new = common voice e newsletter, goal reminder daa progress updates e gane sign up etin
 
 ## Account Benefits
 
+benefits = faaydan
 
 ## What's public
 
