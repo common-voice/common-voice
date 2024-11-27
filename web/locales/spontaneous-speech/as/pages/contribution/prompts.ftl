@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = লিপিবদ্ধ কেনেকৈ কৰ
 learn-how-to-use-transcribe-explanation = 'উম্' বা 'আঁ'-ৰ দৰে স্থানধাৰক শব্দবোৰকে ধৰি ব্যক্তিগৰাকীয়ে কথাখিনি যেনেকৈ কৈছে ঠিক তেনেকৈয়ে লিখিব।
 learn-how-to-use-transcribe-guidance = এই পৃষ্ঠাখন কেনেকৈ ব্যৱহাৰ কৰিব পাৰি— জানিবলৈ <guidanceLink>ইয়াত</guidanceLink> ক্লিক কৰক
 learn-how-to-use-check-transcript = শ্ৰুতলিপি পৰীক্ষা কেনেকৈ কৰিব— জানি লওক
+learn-how-to-use-check-transcript-explanation = শ্ৰুতলিপিত পুনৰাবৃত্তিকে ধৰি ব্যক্তিগৰাকীয়ে কোৱা প্ৰতিটো শব্দ বা অ-শাব্দিক কথোপকথনৰ উচ্চাৰণ ধৰি ৰখা উচিত।
+learn-how-to-use-check-transcript-guidance = এই পৃষ্ঠাখন কেনেকৈ ব্যৱহাৰ কৰিব পাৰি— জানিবলৈ <guidanceLink>ইয়াত</guidanceLink> ক্লিক কৰক

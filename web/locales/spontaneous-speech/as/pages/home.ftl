@@ -1,6 +1,9 @@
 ## Home page
 
 welcome-to-spontaneous-speech = স্বতঃস্ফূৰ্ত বক্তৃতালৈ আপোনাক স্বাগতম
+why-spontaneous-speech = আমি এই স্বতঃস্ফূৰ্ত বক্তৃতাৰ প্ৰট’টাইপটো কিয় সাজি উলিয়াইছোঁ
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = ট্ৰান্সলেংগুৱেজিং আৰু <mark>ক’ড-ছুইট্‌চিঙ</mark>ৰ দৰে ভাষাৰ বাস্তৱতাৰ উন্নত সমৰ্থন
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = ব্যৱহাৰ কৰিবলৈ কম বা <mark>কোনো পাঠ্য কৰ্পাছ নথকা</mark> ভাষাবোৰ (যেনে— সামাজিক উপভাষা, ভাষাভেদ, ঐতিহাসিকভাৱে অলিপিবদ্ধ ভাষা ইত্যাদি)ৰ উন্নত সমৰ্থন
 how-spontaneous-speech-works = স্বতঃস্ফূৰ্ত বক্তৃতাই কেনেকৈ কাম কৰে
