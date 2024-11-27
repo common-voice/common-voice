@@ -25,7 +25,7 @@ contribute = অৱদান দিয়ক
 
 ## Navbar
 
-respond-to-prompt = প্ৰম্‌প্টৰ প্ৰতি সঁহাৰি জনাওক
+respond-to-prompt = প্ৰম্‌প্টৰ প্ৰতি সঁহাৰি দিয়ক
 transcribe-audio = অডিঅ’ লিপিবদ্ধ কৰক
 check-transcriptions = শ্ৰুতলিপি পৰীক্ষা কৰক
 
