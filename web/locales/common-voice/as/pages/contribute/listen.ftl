@@ -12,6 +12,8 @@ listen-loading-error =
 listen-abort-title = ক্লিপবোৰৰ বৈধকৰ‌ণ শেষ কৰিবনে?
 listen-abort-cancel = বৈধকৰ‌ণ অব্যাহত ৰাখক
 listen-abort-confirm = বৈধকৰ‌ণ শেষ কৰক
+# Menu item
+validate-readings = পঢ়নৰ বৈধতা নিশ্চিত কৰক
 
 ## MENU ITEM TOOLTIPS
 
