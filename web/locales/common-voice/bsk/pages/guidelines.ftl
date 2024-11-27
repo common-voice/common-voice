@@ -53,3 +53,5 @@ adding-sentences = jumlan kaa etas
 reviewing-sentences = jumlanar hik ke barenas
 sentence-domain = jumlaa domain
 public-domain-explanation-1 = gute but laazmi bila ke uyoon text e jumlan public domain e bican beske common voice e dataset c̣c0 license e yaare diyusum bila. jmukamal yaqiin bila ke umlaan upload etin daa citation laazmi śaamil etin
+public-domain-explanation-2 = shuwa duruar ẓuwas bariṅ leel etas engin e gane behtriin jumlan ulo ćaġa bariṅ, modern paralancs bican. jumlan desmayar guke ideas ine maar madatt eći.
+public-domain-explanation-3 = mamay yaa maymo śugulmuc e kaa tʰuwaan, aam ćaġa bare jumlan desmanin-masalan "write-a-thon" cum
