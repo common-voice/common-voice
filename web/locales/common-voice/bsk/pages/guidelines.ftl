@@ -87,3 +87,7 @@ adding-sentences-subheader-special-characters-explanation-2 = baaṣin beśal lo
 adding-sentences-subheader-offensive-content = mimoos dimeecas mawaad
 adding-sentences-subheader-offensive-content-explanation = agar jumlan mimoos dimecaśo bican ke masalan laquu ćaġamin yaa kuyooće emasas e guidelines cum holum manimi ke ike jumlan maa reject etin. maa mi mepaćiyar damaṣqaltin taaki mii issue etasulo himat ećan
 reviewing-sentences-explanation-1 = agar jumla yatum ite criteriate bila ke yes button click etn
+reviewing-sentences-explanation-2 = agar jumla yatum ite criteriate api ke no button click etn
+reviewing-sentences-explanation-3 = agar ma jumla bara ulo daal xaa baan ke it ke skip netan iciyatum itetar niin.
+reviewing-sentences-explanation-4 = jumlan hik ke bareyar phaṣ manimi ke, daa jumlan gaṭi etas gane miriin ce duunin
+domain-explanation = jumla besan mazmoon ate bila ke iteer domain sey baan. muu haraṅulum damśi etas maamay baan
