@@ -21,6 +21,9 @@ faq = БКУ
 logout = Икӏ
 email-input =
     .label = Епочта
+not-available-abbreviation = Щыӏэп
 
 ## Donate banner
 
+localization-select =
+    .label = Бзэр/чӏыпӏэзэгъэуӏупӏэр къыхэх
