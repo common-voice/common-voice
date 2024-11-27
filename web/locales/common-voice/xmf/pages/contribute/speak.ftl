@@ -55,7 +55,8 @@ first-cta-gender-select-help-text =
     .label = მუჭო დახასიათენთ თქვან სქესის ვარდა გენდერს?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = მარდის მუგოშინანთ თქვანი ხონარით შემენწითჷნი.
-already-have-an-account = ანწი გიღუნანო ანგარიშ? <login> მიშულა </login>
+second-cta-subtitle-text = თე პროფილით თოლი ქუჸუნეთ თქვანი წიმე ულას დო ქაკათით ხონარეფიშ ინმაჭარალეფიშ ართობას.
+already-have-an-account = ანწი გიღუნანო ანგარიში? <login> მიშულა </login>
 create-profile-button = პროფილიშ კეთება.
 # IMAGE TAGS
 img-alt-success-checkmark = წუმოძინელო ნაქიმინაშ აღნიშვნა.
