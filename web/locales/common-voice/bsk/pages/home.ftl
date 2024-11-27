@@ -17,6 +17,8 @@ speak-paragraph = ućʰariṅe clips record etas mii open database desmanas e bu
 speak-goal-text = clips in record manimi
 listen-paragraph = meer emasumin clips in e tasdiiq etas common voice e mission ulo but zaroori bila. damaylin daa je baa senum open source voice data desmanasulo mii madat etin
 listen-goal-text = clips in e tasdiiq manimi
+hours-recorded = gantan record manimi
+hours-validated = gantane tasdiiq manimi
 
 ## Account Benefits
 
