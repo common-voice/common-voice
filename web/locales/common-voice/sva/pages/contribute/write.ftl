@@ -15,6 +15,9 @@ sc-review-small-batch-title = იმჟი ელქჷმად ფიშირ
 new-sentence-rule-1 = <noCopyright>საავტორო უფლება̄̈ლურ</noCopyright> საავტორო უფლება̄ლე შეზღუდვაურ (<cc0>-0</cc0>)
 new-sentence-rule-2 = 15 სიტყვად ხოხუ̂რა წინადადებაისგა
 new-sentence-rule-3 = სწორ გრამატიკა ლა̈ხჴჷმა̈რ
+new-sentence-rule-4 = ლა̈ხჴჷმა̈რ სწორ ორთოგრაფია ი პუნქტუაცია
+new-sentence-rule-5 = ნომ'ა̄̈ხჴჷმრა ციფრა̈ლ ი სპეციფიკურ სიმბოლუ̂ა̄̈ლ
+new-sentence-rule-6 = ნომ'ა̄̈ხჴჷმრა უცხოურ ასუ̂ა̄̈ლ
 
 ## BULK SUBMISSION 
 
