@@ -13,7 +13,7 @@ citation =
 sc-write-submit-confirm = মই নিশ্চিত কৰিছোঁ যে এই বাক্যটো <wikipediaLink>ৰাজহুৱা ড’মেইন</wikipediaLink>ৰ আৰু মোৰ লগত এইটো আপল’ড কৰাৰ অনুমতি আছে।
 sc-review-write-title = মই কি কি বাক্য যোগ কৰিব পাৰোঁ?
 sc-review-small-batch-title = একাধিক বাক্য কেনেকৈ যোগ কৰিব পাৰি
-new-sentence-rule-1 = কোনো <noCopyright>পিৰাইট</noCopyright>-সংক্ৰান্তীয় নিষেধাজ্ঞা নথকা (<cc0>cc-0</cc0>)
+new-sentence-rule-1 = কোনো <noCopyright>কপিৰাইট</noCopyright>-সংক্ৰান্তীয় নিষেধাজ্ঞা নথকা (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = প্ৰতিটো বাক্যত 15টাতকৈ কম শব্দ
 new-sentence-rule-3 = শুদ্ধ ব্যাকৰণ ব্যৱহাৰ কৰক
 new-sentence-rule-4 = শুদ্ধ বানান আৰু যতি-চিহ্ন ব্যৱহাৰ কৰক
@@ -113,7 +113,34 @@ rate-limit-toast-message-seconds =
         [one] পৰিমাণৰ সীমা চেৰাই গৈছে। 1 ছেকেণ্ড পাছত পুনৰ চেষ্টা কৰিব
        *[other] পৰিমাণৰ সীমা চেৰাই গৈছে। { $retryLimit } ছেকেণ্ড পাছত পুনৰ চেষ্টা কৰিব
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] আপুনি এই পৃষ্ঠাৰ দাখিলকৰ‌ণৰ সীমাত উপনীত হৈছে। অনুগ্ৰহ কৰি আন এটা বাক্য দাখিল কৰাৰ আগত 1 মিনিট অপেক্ষা কৰক। ধৈৰ্য্য ধৰাৰ বাবে ধন্যবাদ!
+       *[other] আপুনি এই পৃষ্ঠাৰ দাখিলকৰ‌ণৰ সীমাত উপনীত হৈছে। অনুগ্ৰহ কৰি আন এটা বাক্য দাখিল কৰাৰ আগত { $retryLimit } মিনিট অপেক্ষা কৰক। ধৈৰ্য্য ধৰাৰ বাবে ধন্যবাদ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] আপুনি এই পৃষ্ঠাৰ দাখিলকৰ‌ণৰ সীমাত উপনীত হৈছে। অনুগ্ৰহ কৰি আন এটা বাক্য দাখিল কৰাৰ আগত 1 ছেকেণ্ড অপেক্ষা কৰক। ধৈৰ্য্য ধৰাৰ বাবে ধন্যবাদ!
+       *[other] আপুনি এই পৃষ্ঠাৰ দাখিলকৰ‌ণৰ সীমাত উপনীত হৈছে। অনুগ্ৰহ কৰি আন এটা বাক্য দাখিল কৰাৰ আগত { $retryLimit } ছেকেণ্ড অপেক্ষা কৰক। ধৈৰ্য্য ধৰাৰ বাবে ধন্যবাদ!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 1টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল
+       *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
+       *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য গোটোৱা হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
+    }
+small-batch-sentences-rule-1 = “মই কি কি বাক্য যোগ কৰিব পাৰোঁ?” তাৰে পৰা নিৰ্দেশনা পালন কৰক
 small-batch-sentences-rule-2 = প্ৰতিটো শাৰীত এটাকৈ বাক্য যোগ কৰক
+small-batch-sentences-rule-3 = “Enter” বা “Return” এবাৰ টিপি বাক্যবোৰ এটা শাৰীত পৃথক কৰক
+small-batch-sentences-rule-4 = 1,000টা পৰ্যন্ত বাক্য যোগ কৰক
 
 ## MENU ITEM TOOLTIPS
 
