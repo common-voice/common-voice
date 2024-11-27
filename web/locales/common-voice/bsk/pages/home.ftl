@@ -5,6 +5,14 @@ default-tagline = belate sise ćaġa ećaan ke machine eykiyar common voice e ma
 home-cta = śatine ćaġata eti khole meer emas
 wall-of-text-start = mićʰar qudrati bila, mićare insaane bila. teeylate mi duro ar ẓuas mićʰariṅ technology mii machine ar desmayme has mimay baan. magam mićʰariṅ e system desmayar mimar kal but mićʰariṅ e data awaaji
 wall-of-text-more-mobile = butan data uyoṅko companies eedurućiyen amit lap cum baske sisale api. gute besan tʰuaan dimanas ayeći bi teeylate mii project common voice śuru etaan. project amite voice recognition uyoonar open maniṣ
+wall-of-text-more-desktop = muuto maa maymo maćʰar meer nemasin mimar open source voice database desmansulo meer madat ećaan amit cum aminane ke dvice yaa web are tʰoṣ apps in desmanas emay bai. jumla ġatanin madat etase gane ke belate machine cʰane sise ćaġamin ećaan. tʰumiśu e duro emasumiśu ar nuparan in maymo duro qualtiy daltas etin. kʰot akuruman asaan bila
+wall-of-text-first = mićʰar qudrati bila, mićare insaane bila. teeylate mi duro ar ẓuas mićʰariṅ technology mii machine ar desmayme has mimay baan. magam mićʰariṅ e system desmayar mimar kala but mićʰariṅ e data awaaji
+wall-of-text-second = butan data uyoṅko companies eedurućiyen amit lap cum baske sisale api. gutee besan tʰoṣan dimanas ayeći bi teeylate mii project common voice śuru etaan. project amite voice recognition uyoonar open maniṣ
+show-wall-of-text = butan ġatanin
+help-us-title = ućharing tasdiiq etasulo meer madat etin
+help-us-explain = play yate press etin, damayalin daa mesin: uwe  yaarum ite jumla sahi ne senumanaa?
+no-clips-to-validate = tey ġeyśila ke gute baaṣulo dimeyljar clips in api. mii miriin ce duunin daa muu record netan queue ulo fill etin
+toggle-play-tooltip = on ya ban ećar play mode press etin { shortcut-play-toggle }
 
 ## Account Benefits
 
