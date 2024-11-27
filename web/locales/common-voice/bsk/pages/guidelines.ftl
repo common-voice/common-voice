@@ -74,3 +74,7 @@ adding-sentences-subheader-length-explanation = jumlan turma cʰundo lafzin cum 
 adding-sentences-subheader-spelling-punctuation = lafz girimans daa jumla girminase qaanun
 adding-sentences-subheader-spelling-punctuation-explanation = jumlane spelling sahi maniṣ
 adding-sentences-subheader-speakable = senas meemanas
+adding-sentences-subheader-speakable-explanation = behtriin jumlan qudrati daa ćaġa bar juwan bican--ek aminan e ke  ġatanas eemanas maniṣ. senasulo farq daa muxtalif alfaazin jumlan manaas awaaji daa mii iteer ke ćamaat eća baa ke record etum jumlan mii razakaariśue ganae ooġaśo daa opinaśo maniṣ
+adding-sentences-subheader-numbers = icʰanas
+adding-sentences-subheader-numbers-explanation = source text ulo digits ooaniṣan bes ke ece śatine ġatanas ulo but ćaqooṭ ećiye. belate number in ġatay baan ke ete dataset ulo butan ćaqooṭimin eći bi. masalan number 2400 alto tariqaate ġatanas mey bila "alto walto zero hunti" or "alto hazaar ke walti tʰa ke hunit"
+adding-sentences-subheader-abbreviations = abbreviations and acronyms
