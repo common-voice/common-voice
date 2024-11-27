@@ -8,6 +8,9 @@ why-spontaneous-speech = bes mii guse spontaneous speech prototype desmaya baa?
 why-card-1-text = gunc mo mi haraṅ ćaġa bare baaṣe gane gute but mufeed bila daa ite ulo beśal maa rai etuman ke speech recgonition e sise uyi haraṅ etum ćaġamin kaa duro etiṣ
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = butan baaṣin kaa ne ćaġa etas daa baṣin badal ećume ćaġa etas amit baaṣe haqiqat bila iteer support etin
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = xaas group an e baaṣ , baaṣan qisimin, akiruminum taarixi baaṣiṅ  amikulo text corpus kaman yaa bikul api ke ike baaṣinar yaari maneyin
+how-spontaneous-speech-works = belate mi haraṅ guncmo etaś ćaġa bariṅ duro ećila
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = duġarusasin
 prompt-bubble-subtitle = sawaalan yaa duġarusasan maartirćan
@@ -26,7 +29,8 @@ data-bubble-subtitle = khata khata dataset diyusin
 contact-us = micimo doġaruś hurutin
 contact-us-title = gute project kaa manaase rai bila yaa meka partnership gane
 contact-us-email = email
-signup-input-placeholder = maymo iimeel entar etisd
+signup-form-title = ma yarmu cum mii common voice e spontaneous speech project ar bilum Beta testing group ulo baana?
+signup-input-placeholder = maymo iimeel entar etin
 signup-button-value = jaa email ar link doocin
 footer-text-privacy = alak thalak
 footer-text-terms = terms
