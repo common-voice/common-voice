@@ -14,6 +14,9 @@ ady = Адыгабзэ (Тыгъэ къохьапӏ)
 profile = Профил
 contact = Зэлъыӏэс
 privacy = Шъэфныгъэ
+terms = Хабзэхэр
+cookies = Хьалыжъыехэр
+faq = БКУ
 
 ## Donate banner
 
