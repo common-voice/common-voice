@@ -14,6 +14,12 @@ sc-review-form-source = წყარო: { $sentenceSource }
 sc-review-form-button-reject = ვარება
 sc-review-form-button-skip = გიშატება
 sc-review-form-button-approve = მეღება
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = q
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = v
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = g
 sc-review-form-keyboard-usage-custom = შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო{ sc-review-form-button-reject-shortcut } ოვარებელო დო { sc-review-form-button-skip-shortcut } გიშატებელო.
 sc-review-form-button-submit =
     .submitText = შემოწმებაში გათება.
