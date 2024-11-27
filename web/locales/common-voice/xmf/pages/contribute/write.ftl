@@ -82,6 +82,7 @@ accepted-files = ფაილიშ მეღებულ სახეობა 
 minimum-sentences = წინადადება არძაშ უჭიჭაში ოკო რდას:1000
 maximum-file-size = ფაილიშ ნტირულობა არძაშ უმოსი: 25 მბაიტი.
 what-needs-to-be-in-file = მუს ოკო შიცვენდას ფაილი?
+what-needs-to-be-in-file-explanation = ქორთხინთ ქიგნაჯინათ <templateFileLink> ფაილიშ ნიმუშის </templateFileLink>. თქვან წინადადებეფი საყოველთაო საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილ წინადადებეფიშ კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარ სახელეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.
 upload-progress-text = მეურს ეტვირთუა.
 sc-bulk-submit-confirm = ვადასტურენქ, ნამდა თე წინადადება <wikipediaLink> საყოველთაო საკუთრებას </wikipediaLink> დო მიღუ თიში ეტვირთუაშ ნება.
 bulk-upload-success-toast = წინადადებეფქ არძო ართო გეიტვირთ.
@@ -123,6 +124,18 @@ rate-limit-message-seconds =
     { $retryLimit ->
         [one] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ 1 წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
        *[other] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences }1 წინადადება რე მეღებულჷ.
+       *[other] { $uploadedSentences } წინადადება რე მეღებულჷ { $totalSentences }-შე.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences }1 წინადადება რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გაგმოტვირთე ვარებულ წინადადებეფინი.
+       *[other] { $uploadedSentences } წინადადება რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გაგმოტვირთე ვარებულ წინადადებეფინი { $totalSentences } -შე.
     }
 small-batch-sentences-rule-1 = ქიმიაჸუნი მითითებეფს "წინადადება მუჭომი ოკო რდას?"
 small-batch-sentences-rule-2 = ქიგუძინი თითო წინადადება თითო ხაზის.
