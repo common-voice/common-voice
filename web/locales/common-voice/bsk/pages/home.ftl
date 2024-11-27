@@ -19,6 +19,7 @@ listen-paragraph = meer emasumin clips in e tasdiiq etas common voice e mission 
 listen-goal-text = clips in e tasdiiq manimi
 hours-recorded = gantan record manimi
 hours-validated = gantane tasdiiq manimi
+voices-online = muu ućʰariġ online bican
 
 ## Account Benefits
 
