@@ -108,13 +108,26 @@ small-batch-response-message =
         [one] { $uploadedSentences } псалъэухахэм щыщ 1 р къилхьащ. Зырамыда псалъэухахэр къепхьэхын щхьэ <downloadLink>мыбы <downloadLink> еӏусэ.
        *[other] { $uploadedSentences } м щыщ { $totalSentences } псалъэуха къагъуэящ.Зырамыда псалъэухахэр къепхьэхын щхьэ <downloadLink>мыбы <downloadLink> еӏусэ.
     }
+small-batch-sentences-rule-1 = “Сыт хуэдэ псалъэуха иджыри къилъсхьэфын” линкым щыщ гъуазэм еплъ.
 small-batch-sentences-rule-2 = Сатыр къэс псалъэуха зэрыз тхы
+small-batch-sentences-rule-3 = "Enter” м е “Return” м зэ закъуэ уеӏусурэ псалъэухахэр сатырхэм зэризу яхуэгуэш.
 small-batch-sentences-rule-4 = Псалъэуха 1,000-м нэс хэфлъхьэ
+small-batch-sentences-rule-6 = Псалъэуха псор зы хэкӀыпӀэм хъун хуейщ.
 # menu item
 add-sentences = Псалъэуха хэлъхьэ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Псалъэуха хэлъхьэ икӀи еплъыж, упщӀэ хэлъхьэ, макъыр текс щӀы
+add-sentences-menu-item-tooltip = УибзэмкӀэ къритха псалъэухахэр хэлъхьэ
+review-sentences-menu-item-tooltip = УибзэмкӀэ къритха псалъэухахэр яплъыж
+add-questions-menu-item-tooltip = УибзэмкӀэ упщӀэхэр хэлъхьэ
+transcribe-audio-menu-item-tooltip = УибзэмкӀэ ит макъ тетхахэр текст щӀы
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Тхэн щапхъэхэм я меню
+add-sentences-menu-item-aria-label = ЦӀыхухэр еджэным щхьэкӀэ псалъэухащӀэхэр хэлъхьэ
+review-sentences-menu-item-aria-label = ЦӀыхубэм яхэлъхьэ псалъэухахэр яплъыж
+add-questions-menu-item-aria-label = ЦӀыхубэм еджэным икӀи жэуап етыным щхьэкӀэ упщӀэщӀэхэр хэлъхьэ
+transcribe-audio-menu-item-aria-label = Макъ тетхахэр текст транскриптцие щӀы

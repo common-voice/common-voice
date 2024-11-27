@@ -8,6 +8,7 @@ profile-form-additional-language =
     .label = Бзэ дэкӏуашэ
 profile-form-language =
     .label = Бзэ
+profile-form-variant-default-value = Лӏэужьыгъуэ зыри къыхэхакъым
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -22,6 +23,9 @@ native-language =
     .label = Анэдэлъхубзэ
 male_masculine = Хъу
 female_feminine = Бзы
+do_not_wish_to_say = Жысӏэну сыхуейкъым
+# Gender
+other = НэгъуэщӀ
 avatar = Авэтар
 profile-create-success = Профил ухуащӏ
 profile-close = Хуэщӏ

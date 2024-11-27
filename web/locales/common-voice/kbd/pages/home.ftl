@@ -38,6 +38,9 @@ benefits = Дызэрефӏэкӏхэр
 
 ## NAV ITEMS
 
+answer-questions = Упщӏэхэм жэуап ет <small>(Куэд мыщӏэу)</small>
+add-questions = Упщӏэхэр хэлъхьэ <small>(Куэд мыщӏэу)</small>
+press-and-stories = Къэхъукъащӏэхэр
 
 ## MENU ITEMS TOOLTIPS
 

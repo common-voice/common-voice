@@ -1,2 +1,3 @@
 ## Profile Delete
 
+keep = Ухъумэ

@@ -38,7 +38,7 @@ review-keep-recordings = Тетхахэр Ӏыгъ
 review-delete-recordings = Си тетхэхэр тегъэкӏ
 review-terms = Common Voice къызэрыбгъэсэбэпымкӏэ, ди <termsLink>Щытыкӏэхэмрэ</termsLink> <privacyLink>Щэхуныгъэ хъыбаргъэӏумрэ</privacyLink> бодэ
 terms-agree = Содэ
-terms-disagree = Сыдэркъым
+terms-disagree = Сдэкъым
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Уи макъ клипхэр зэрыптам щхьэкӀэ фӏыщӏэ пхудощӏ!
 first-cta-subtitle-text = Уэ птеухуа щӏэныгъэхэр къыдэптымэ, зэхэзылъхьэхэм нэхъ ӏэджэзыщӏэт ӏэмал-ӏэзэгъуэ яухуэну удэӏэпыкъунущ
@@ -55,7 +55,7 @@ first-cta-gender-select-help-text =
     .label = Уи лхугъэр хьэмэрэ уи зэрыбжыкӏэр дауэт зэрыптхыжынур?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Уи макъыр зэребгъэхьам щхьэкӏэ фӏыщӏэ пхудощӏ!
-second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы  макъ тэзыха адрей цӀыхухэми нэуасэ пхуэхъуфынущ.
+second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы макъ тезыха адрей цӀыхухэми нэӏуасэ пхуэхъуфынущ.
 already-have-an-account = Напэкӏуэцӏ уиӏэ ? "" <login>щӏэхьэ<login>
 create-profile-button = Напэкӏуэцыщӏэ къагъэкӏ
 # IMAGE TAGS
