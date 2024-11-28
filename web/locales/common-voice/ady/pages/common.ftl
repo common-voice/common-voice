@@ -12,7 +12,7 @@ ady = Адыгабзэ (Тыгъэ къохьапӏ)
 ## Layout
 
 profile = Профил
-help = Ӏэпыӏэгъу
+help = Ӏэпыӏэ
 contact = Зэлъыӏэс
 privacy = Шъэфныгъэ
 terms = Хабзэхэр
