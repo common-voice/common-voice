@@ -138,6 +138,8 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = ა̈თეჭმ მითითება̄̈ლს "მა̈ჲ წინადადება̄ლე ლიქმე მა̈მჲედა?"
 small-batch-sentences-rule-2 = ლახაქმ თუ̂ით წინადადება თუ̂ით ხა̈ზჟი
+small-batch-sentences-rule-3 = "Enter"-ი ჰედ “Return”-იშ ეშხუ̄̈ნ ჟილა̈თლოშ ჩუ̂ათყული̄რ წინადადება̄̈ლ თუ̂ით ხაზჟი თუ̂ით.
+small-batch-sentences-rule-4 = ჟრსაქმ 1,000-თეჟი წინადადება̄̈ლ
 
 ## MENU ITEM TOOLTIPS
 
