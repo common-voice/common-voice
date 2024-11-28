@@ -63,9 +63,12 @@ news_current_affairs = მახე ამბუ̂ა̈რ ი მიმდი�
 technology_robotics = ტექნიკა ი რობოტულ სისტემა̄̈ლ
 sentence-variant-select-label = წინადადება̄̈ ვარიანტ
 sentence-variant-select-placeholder = ჟ'ა̄̈ხითშ ვარიანტ (სავალდებულო მა̄მ ლი)
+sentence-variant-select-multiple-variants = ზოგად ნინ / ვარიანტლე ნა̈ფშირი
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = სგ'ა̄თტუ̂ა̈ირთა̈უ̂ <icon></icon> საყოველთაო საკუთრბა̄̈ წინადადება̈ლ
 
 ## SMALL BATCH SUBMISSION
 
