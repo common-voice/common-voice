@@ -1,5 +1,10 @@
 ## Prompts page
 
+record-player-header = جاۋابىڭىزنى ئۈنگە ئېلىڭ
+mic-access-error = مىكروفون زىيارىتىگە يول قويۇشىڭىز كېرەك.
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+prompt-page-instruction = { $actionType } <micIcon></micIcon> ئىمكانقەدەر تەبىئىي ئىنكاس قايتۇرۇڭ
+no-prompts-message = نۆۋەتتە بۇ تىلنىڭ ھېچقانداق ئەسكەرتىشى يوق. بەتنى يېڭىلاڭ ياكى سەل تۇرۇپ قايتا سىناڭ.
 # For the button to delete a response to a prompt
 delete = ئۆچۈر
 # For the disabled button on a prompt that indicates a prompt is already submitted

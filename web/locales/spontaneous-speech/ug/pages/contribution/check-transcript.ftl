@@ -8,6 +8,8 @@ vote-transcript-error = خەت پۈتۈككە بىلەت تاشلاۋاتقان�
 transcript-edited-success = خەت پۈتۈك مۇۋەپپەقىيەتلىك تەھرىرلەندى
 transcript-edited-error = خەت پۈتۈكنى تەھرىرلەۋاتقاندا خاتالىق كۆرۈلدى
 error-fetching-transcriptions = خەت پۈتۈككە ئېرىشىۋاتقاندا خاتالىق كۆرۈلدى. سەل تۇرۇپ قايتا سىناڭ.
+transcript-skipped-success = خەت پۈتۈكتىن مۇۋەپپەقىيەتلىك ئاتلىدى
+transcript-skipped-error = خەت پۈتۈكتىن ئاتلاۋاتقاندا خاتالىق كۆرۈلدى
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = توغرا
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
