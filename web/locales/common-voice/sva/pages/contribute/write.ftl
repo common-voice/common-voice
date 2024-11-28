@@ -33,6 +33,10 @@ single-sentence-submission = ეშხუ წინადადება̄̈ წ
 small-batch-sentence-submission = მა̄დხუ̂ა̄̈ჲ წინადება̄ლე პაკეტი წარდგენა
 bulk-sentence-submission = წინადება̄ლე სუ̂რილ პაკეტი წარდგენა
 single-sentence = ეშხუგარ
+small-batch-sentence = ხოხუ̂რა პა̈რტია
+bulk-sentence = სუ̂რილ პა̈რტია
+sentence-domain-combobox-label = წინადადება̄̈ ინტერნეტ-მისამართ
+sentence-domain-select-placeholder = ჟ'ა̄̈ხითშ მაქსიმუმ სემი დომენ (სავალდებულო მა̄მა ლი)
 
 ## BULK SUBMISSION 
 
