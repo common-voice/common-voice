@@ -80,6 +80,7 @@ select-file-mobile = ჟ'ა̄̈ხითშ ფაილ ჟილეტუ̂�
 accepted-files = ფაილრე მისაღებ ტიპა̈რ: .tsv გარ
 minimum-sentences = წინადადება̄ლე მინიმალურ შელდ ფაილისგა: 1000
 maximum-file-size = მაქსიმალურ ზომა ფაილიშ: 25 მბ
+what-needs-to-be-in-file = მა̈ჲ ხეკუ̂ესე არდე̄დს მიშგუ̂ა ფაილისგა?
 
 ## SMALL BATCH SUBMISSION
 
