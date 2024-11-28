@@ -72,6 +72,7 @@ sc-bulk-upload-header = სგ'ა̄თტუ̂ირთა̈უ̂ <icon></icon>
 sc-bulk-upload-instruction = ქ'ა̄ხა̈ჲ ისგუ ფაილ ამხა̄უ̂ ჰედ <uploadButton>-ს ესოთლ ჟილა̈ტუ̂ირთა̈უ̂დ</uploadButton>
 sc-bulk-upload-instruction-drop = ჩუ̂ახაკუ̂რ ამხაუ̂ ფაილ, ერე ჟ'ა̄̈ნტუ̂ირთაუ̂ე̄ნს
 bulk-upload-additional-information = სი ჰე̄სა ალ ფაილი ბედჟი ხოშილ ინფორმაცია ჯუღუ̂ა, იმშა წარმოდგენად გუჯა̄რ, დაგვიკავშირდი.
+template-file-additional-information = სი ჰე̄მა გუჯა̄რ ალ ფაილი ბედჟი ხოშილ ინფორმაცია̄̈ ქა̈მად , ხედუ̂ა̄̈ჲ მა̄მ ლი ჩართულ შაბლონთე̄სგა , დაგვიკავშირდი.
 
 ## SMALL BATCH SUBMISSION
 
