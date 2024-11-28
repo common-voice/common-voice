@@ -55,6 +55,12 @@ history_law_government = ისტორია, კანონ ი თაუ̂�
 language_fundamentals = ნინი საფუძვლა̈რ (მაგალითად, ციფრა̄̈ლ, ასუ̂ა̄̈ლ, თეთრ)
 # Sentence Domain dropdown option
 media_entertainment = მედია ი გართობა
+# Sentence Domain dropdown option
+nature_environment = ბუნება ი გარემო
+# Sentence Domain dropdown option
+news_current_affairs = მახე ამბუ̂ა̈რ ი მიმდინარე გოშა̈რ
+# Sentence Domain dropdown option
+technology_robotics = ტექნიკა ი რობოტულ სისტემა̄̈ლ
 
 ## BULK SUBMISSION 
 
