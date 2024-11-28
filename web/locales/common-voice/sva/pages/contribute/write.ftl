@@ -86,6 +86,7 @@ upload-progress-text = ესღრი ლიტუ̂ირთა̈უ̂ი...
 sc-bulk-submit-confirm = მი ხუ̂ადასტურა̈უ̂ი, ერე ალ წინადადება̄̈ლ ლიხ <wikipediaLink> საყოველთაო საკუთრება </wikipediaLink> ი მი  ალიარე ლიტუ̂ირთა̈უ̂ი̄ ნა̈ბ მუღუ̂ა.
 bulk-upload-success-toast = ჟი ლჷნზო̄რე წინადადება̄̈ლ ჟ'ა̄̈ნტუ̂ირთაუ̂ა̄̈ნხ
 bulk-upload-failed-toast = ლიტუ̂ირთა̈უ̂ი მა̄მ ა̈ნჴჷრჴა̄̈ნ.
+bulk-submission-success-header = მაჴუ̂ამა̄̈რ ლუყუ̂ბად ნაზზუ̂იე̄რ!
 
 ## SMALL BATCH SUBMISSION
 
