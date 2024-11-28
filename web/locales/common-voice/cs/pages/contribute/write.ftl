@@ -154,3 +154,4 @@ add-sentences-menu-item-tooltip = Přidávejte věty ve vašem jazyce
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Nabídka možností zápisu

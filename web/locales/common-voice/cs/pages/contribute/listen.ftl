@@ -12,3 +12,12 @@ listen-loading-error =
 listen-abort-title = Dokončit ověřování klipů?
 listen-abort-cancel = Pokračovat v ověřování
 listen-abort-confirm = Dokončit ověřování
+# Menu item
+validate-readings = Ověřování čtení
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Ověřujte čtení, kontrolujte přepisy
+
+## MENU ITEM ARIA LABELS
+
