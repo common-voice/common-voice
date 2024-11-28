@@ -88,6 +88,11 @@ bulk-upload-success-toast = ჟი ლჷნზო̄რე წინადად
 bulk-upload-failed-toast = ლიტუ̂ირთა̈უ̂ი მა̄მ ა̈ნჴჷრჴა̄̈ნ.
 bulk-submission-success-header = მაჴუ̂ამა̄̈რ ლუყუ̂ბად ნაზზუ̂იე̄რ!
 bulk-submission-success-subheader = სი ხომურჯუ̂ი Common Voice-ს ნიშგუ̂ეჲ ჩილადღია̈ მიზნარე მიღწევაისგა წინადადება̄ლე შელდშუ̂!
+upload-more-btn-text = ალტუ̂ირთავადმა ხოფშირა წინადადება̄̈ლ?
+file-invalid-type = არასწორ ფაილ
+file-too-large = გაილ სურუ სუ̂რილ ლი
+file-too-small = ფაილ სურუ ხოხუ̂რა ლი
+too-many-files = სურუ ფიშირ ფაილა̈რ ლიხ
 
 ## SMALL BATCH SUBMISSION
 
