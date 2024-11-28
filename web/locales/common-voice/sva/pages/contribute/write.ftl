@@ -136,6 +136,8 @@ small-batch-response-message =
         [one] ა̈ნყუ̂აბა̈ნ { $uploadedSentences } 1 წინადადებახა̈ნქა. ჟესოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂რთა̈უ̂დ.
        *[other] ა̈ნყუ̂აბა̈ნ { $uploadedSentences }{ $totalSentences }წინადადება̄̈ლხა̈ნქა. ჟესოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂რთა̈უ̂დ.
     }
+small-batch-sentences-rule-1 = ა̈თეჭმ მითითება̄̈ლს "მა̈ჲ წინადადება̄ლე ლიქმე მა̈მჲედა?"
+small-batch-sentences-rule-2 = ლახაქმ თუ̂ით წინადადება თუ̂ით ხა̈ზჟი
 
 ## MENU ITEM TOOLTIPS
 
