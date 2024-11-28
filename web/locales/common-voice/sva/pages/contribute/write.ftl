@@ -73,6 +73,9 @@ sc-bulk-upload-instruction = ქ'ა̄ხა̈ჲ ისგუ ფაილ ა�
 sc-bulk-upload-instruction-drop = ჩუ̂ახაკუ̂რ ამხაუ̂ ფაილ, ერე ჟ'ა̄̈ნტუ̂ირთაუ̂ე̄ნს
 bulk-upload-additional-information = სი ჰე̄სა ალ ფაილი ბედჟი ხოშილ ინფორმაცია ჯუღუ̂ა, იმშა წარმოდგენად გუჯა̄რ, დაგვიკავშირდი.
 template-file-additional-information = სი ჰე̄მა გუჯა̄რ ალ ფაილი ბედჟი ხოშილ ინფორმაცია̄̈ ქა̈მად , ხედუ̂ა̄̈ჲ მა̄მ ლი ჩართულ შაბლონთე̄სგა , დაგვიკავშირდი.
+try-upload-again = ახეკუ̂ჰ აჯაღ ისგუ ფაილი ამხა̄უ̂ ქალა̈თრინოშუ̂
+try-upload-again-md = ათკუჰუ̂ი̄რ მახად ლიტუ̂ირთა̈უ̂ი
+select-file = ჟ'ა̄̈ხითშ ფაილ
 
 ## SMALL BATCH SUBMISSION
 
