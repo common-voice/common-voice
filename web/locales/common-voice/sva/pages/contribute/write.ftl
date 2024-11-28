@@ -130,6 +130,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } 1 წინადადებახა̈ნქა ლუყუ̂ბე
        *[other] { $uploadedSentences }{ $totalSentences } წინადადება̄̈ლხა̈ნქა ლუყუ̂ბე
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] ა̈ნყუ̂აბა̈ნ { $uploadedSentences } 1 წინადადებახა̈ნქა. ჟესოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂რთა̈უ̂დ.
+       *[other] ა̈ნყუ̂აბა̈ნ { $uploadedSentences }{ $totalSentences }წინადადება̄̈ლხა̈ნქა. ჟესოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂რთა̈უ̂დ.
+    }
 
 ## MENU ITEM TOOLTIPS
 
