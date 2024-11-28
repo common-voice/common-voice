@@ -37,6 +37,10 @@ small-batch-sentence = ხოხუ̂რა პა̈რტია
 bulk-sentence = სუ̂რილ პა̈რტია
 sentence-domain-combobox-label = წინადადება̄̈ ინტერნეტ-მისამართ
 sentence-domain-select-placeholder = ჟ'ა̄̈ხითშ მაქსიმუმ სემი დომენ (სავალდებულო მა̄მა ლი)
+# Sentence Domain dropdown option
+agriculture_food = სოფლი მეურნეობა ი ლეზუ̂ებ
+# Sentence Domain dropdown option
+automotive_transport = საავტომობილო მრეწველობა ი ტრანსპორტ
 
 ## BULK SUBMISSION 
 
