@@ -112,6 +112,12 @@ rate-limit-toast-message-seconds =
         [one] ნახსი̄ ლიმიტ გადაჭარბებულ ლი. ა̈ხეკუ̂ჰ მახად1 წა̈მისგა
        *[other] ნახსი̄ ლიმიტ გადაჭარბებულ ლი. ა̈ხეკუ̂ჰ მახად { $retryLimit } წა̈მისგა
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] სი ქა̄თსურილ ლიმიტ ალ გუ̂ერდთე ლაზიზდ. ჟ'ა̄̈ხღელა̈უ̂ 1 წუთს უ̂ოდე აჯაღ ათზჷზი წინადადებას. მაჴუ̂მა̄̈რ, ერ ხითჷმინე!
+       *[other] სი ქა̄თსურილ ლიმიტ ალ გუ̂ერდთე ლაზიზდ. ჟ'ა̄̈ხღელა̈უ̂  { $retryLimit } წუთს უ̂ოდე აჯაღ ათზჷზი წინადადებას. მაჴუ̂მა̄̈რ, ერ ხითჷმინე!
+    }
 
 ## MENU ITEM TOOLTIPS
 
