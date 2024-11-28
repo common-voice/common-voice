@@ -69,6 +69,7 @@ sentence-variant-select-multiple-variants = ზოგად ნინ / ვა�
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = სგ'ა̄თტუ̂ა̈ირთა̈უ̂ <icon></icon> საყოველთაო საკუთრბა̄̈ წინადადება̈ლ
+sc-bulk-upload-instruction = ქ'ა̄ხა̈ჲ ისგუ ფაილ ამხა̄უ̂ ჰედ <uploadButton>-ს ესოთლ ჟილა̈ტუ̂ირთა̈უ̂დ</uploadButton>
 
 ## SMALL BATCH SUBMISSION
 
