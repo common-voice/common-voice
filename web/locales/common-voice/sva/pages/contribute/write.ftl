@@ -78,6 +78,8 @@ try-upload-again-md = ათკუჰუ̂ი̄რ მახად ლიტუ�
 select-file = ჟ'ა̄̈ხითშ ფაილ
 select-file-mobile = ჟ'ა̄̈ხითშ ფაილ ჟილეტუ̂ირთა̈უ̂დ
 accepted-files = ფაილრე მისაღებ ტიპა̈რ: .tsv გარ
+minimum-sentences = წინადადება̄ლე მინიმალურ შელდ ფაილისგა: 1000
+maximum-file-size = მაქსიმალურ ზომა ფაილიშ: 25 მბ
 
 ## SMALL BATCH SUBMISSION
 
