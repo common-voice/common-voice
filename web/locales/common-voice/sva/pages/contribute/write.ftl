@@ -141,6 +141,9 @@ small-batch-sentences-rule-2 = ლახაქმ თუ̂ით წინად
 small-batch-sentences-rule-3 = "Enter"-ი ჰედ “Return”-იშ ეშხუ̄̈ნ ჟილა̈თლოშ ჩუ̂ათყული̄რ წინადადება̄̈ლ თუ̂ით ხაზჟი თუ̂ით.
 small-batch-sentences-rule-4 = ჟრსაქმ 1,000-თეჟი წინადადება̄̈ლ
 small-batch-sentences-rule-5 = ჩი წინადადებას ხეკუ̂ეს ხუღუ̂ა̄̈ნდე̄დს ეშხუ დომენ
+small-batch-sentences-rule-6 = ჩი წინადადებას ხეკუ̂ესე ხა̈დცეს ეშხუნა̈ირ ციტატა.
+# menu item
+add-sentences = ჟესაქმ წინადადება̄̈ლ
 
 ## MENU ITEM TOOLTIPS
 
