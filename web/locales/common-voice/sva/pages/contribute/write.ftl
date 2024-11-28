@@ -149,6 +149,9 @@ add-sentences = ჟესაქმ წინადადება̄̈ლ
 
 write-contribute-menu-tooltip = ლახაქმ წინადადება̄̈ლ ი ქ'ა̄თთერა̈უ̂, ჟ'ე̄საქმ კითხუ̂ა̄̈ლ, სგ'ა̄თი̄ჲრ აუ̂დიო
 add-sentences-menu-item-tooltip = ლახაქმ წინადადება̄̈ლ ისგუ̂ა ნინჟი
+review-sentences-menu-item-tooltip = ქ'ა̄თთერუ̂ა̄̈ლ წინადადება̄̈ლ ისგუ̂ა ნინჟი
+add-questions-menu-item-tooltip = ლახაქმ კითხუ̂ა̄̈ლ ისგუ̂ა ნინჟი
+transcribe-audio-menu-item-tooltip = ჟახა̈სყ აუდიოჩანაწერლე ტრანკრიფცია ისგუ̂ა ნინჟი
 
 ## MENU ITEM ARIA LABELS
 
