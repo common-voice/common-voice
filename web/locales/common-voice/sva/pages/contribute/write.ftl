@@ -28,6 +28,11 @@ guidelines = რეკომენდაციები
 contact-us = დაგვიკავშირდი
 add-sentence-success = 1წინადადება ჟილუყუ̂ბე ლი
 add-sentence-error = შეცდომა წინადადება̄̈ ლა̈ქმაჟი̄ნ
+required-field = ჰემა იმა̈რგ, შეავსე ალ ველ.
+single-sentence-submission = ეშხუ წინადადება̄̈ წარდგენა
+small-batch-sentence-submission = მა̄დხუ̂ა̄̈ჲ წინადება̄ლე პაკეტი წარდგენა
+bulk-sentence-submission = წინადება̄ლე სუ̂რილ პაკეტი წარდგენა
+single-sentence = ეშხუგარ
 
 ## BULK SUBMISSION 
 
