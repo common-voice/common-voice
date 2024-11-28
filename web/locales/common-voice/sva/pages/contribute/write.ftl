@@ -96,6 +96,9 @@ too-many-files = სურუ ფიშირ ფაილა̈რ ლიხ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ჟესაქმ საყოველთაო საკუთრება̄̈ წინადადება̈ლ
+multiple-sentences-error = სი დეშ ხა̈ქმე აშხუ̂დ ხოშა წინადადებას აშხუ წარდგენა̈შდ
 
 ## MENU ITEM TOOLTIPS
 
