@@ -34,3 +34,5 @@ signup-terms = کلک بینچی، نی ای میل پیکھہ لنک چک کو�
 signup-input-placeholder = یری ای میل پو ربیس
 signup-button-value = نی ای میل پیکھہ لنک چی چیک کول
 footer-text-privacy = خسنگ تم کن
+footer-text-terms = تم ڈراخ کن
+footer-text-cookies = کوکیز کن
