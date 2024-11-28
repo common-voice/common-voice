@@ -24,6 +24,7 @@ login-instruction-multiple-sentences = <loginLink>სგა̄დე</loginLink> 
 how-to-cite = იმჟი ოხსყა ციტირება?
 how-to-cite-explanation-bold = ციტირება̈შდ ქალახთო̄ნ  URL-იშ ბმულ ჰედ ნაშრომი მთლიან ჟახე.
 how-to-cite-explanation = ალჲა̈რ ისგუ საკუთარ სიტყუ̂ა̄̈ლ ჰე̄მა ლიხ, უბრალოდ რე̄ქა <italicizedText> "თვითციტირება" </italicizedText>. ნა̈ჲ ხეკუ̂ეს ჩუ ნიხა̄ლდე̄დს იმ'ა̄̈ხითხ ალ კონტენტ,  ჩუ ნემჲე̄დე̄ნს ლიმწუ̂მა̈უ̂ი, საყოველთაო საკუთრება ლი ჰა მა̄მა, საავტორო უფლება̄ლე შეზღუდვაურდ ლი ჰა მა̄მა. ციტირება̄̈ ბედჟი ხოშა ინფორმაცია̄̈შდ ა̈ხკჷმა̄̈რ  ნიშგუ̂ეჲ <guidelinesLink> სახელმძღვანელო გვერდ</guidelinesLink>.
+guidelines = რეკომენდაციები
 
 ## BULK SUBMISSION 
 
