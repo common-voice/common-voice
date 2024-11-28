@@ -26,6 +26,7 @@ how-to-cite = Хэкӏыпӏэ дауэ зэрагъэлъагъуэр?
 how-to-cite-explanation-bold = URL-линккӏэ е лэжьыгъэм и цӏэ псомкӏэ хэкӏыпӏэр къэгъэлъагъу.
 how-to-cite-explanation = Псалъэухар уэ зэхэплъхьамэ, къудейуэ <italicizedText>“Сысейщ”</italicizedText> жыlэ.  Дэ мы зэхэлъыр къыщыбгъуэтар дэнэми екlуэлlапlэ иlэу lыхьэ щэху зэрыхэмылъыр къэтхутэфын хуэдэу тщlэн хуейщ. Цитатэ тхыкlэм теухуауэ щlэныгъэ нэхъыбэ щхьэкlэ ди <guidelinesLink>напэкIуэцI гъуазэ</guidelinesLink>м еплъ.
 guidelines = Гъуазэхэр
+contact-us = Къытхуегъазэ
 add-sentence-success = Псалъэуха 1 къэдгъуэящ
 add-sentence-error = Псалъэуха къиплъхьэ пэтрэ зыгуэрэ илэжащ
 required-field = Кхъыӏэ мыбдейр из щӏы
