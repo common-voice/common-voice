@@ -76,6 +76,8 @@ template-file-additional-information = სი ჰე̄მა გუჯა̄რ �
 try-upload-again = ახეკუ̂ჰ აჯაღ ისგუ ფაილი ამხა̄უ̂ ქალა̈თრინოშუ̂
 try-upload-again-md = ათკუჰუ̂ი̄რ მახად ლიტუ̂ირთა̈უ̂ი
 select-file = ჟ'ა̄̈ხითშ ფაილ
+select-file-mobile = ჟ'ა̄̈ხითშ ფაილ ჟილეტუ̂ირთა̈უ̂დ
+accepted-files = ფაილრე მისაღებ ტიპა̈რ: .tsv გარ
 
 ## SMALL BATCH SUBMISSION
 
