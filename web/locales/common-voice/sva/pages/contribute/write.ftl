@@ -100,6 +100,18 @@ too-many-files = სურუ ფიშირ ფაილა̈რ ლიხ
 small-batch-instruction = <icon></icon> ჟესაქმ საყოველთაო საკუთრება̄̈ წინადადება̈ლ
 multiple-sentences-error = სი დეშ ხა̈ქმე აშხუ̂დ ხოშა წინადადებას აშხუ წარდგენა̈შდ
 exceeds-small-batch-limit-error = დეშ ხაზზი1000-დ ხოფში̄რა წინადადებას
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ნახსი̄ ლიმიტ გადაჭარბებულ ლი. ა̈ხეკუ̂ჰ მახად1 წუთისგა
+       *[other] ნახსი̄ ლიმიტ გადაჭარბებულ ლი. ა̈ხეკუ̂ჰ მახად{ $retryLimit } წუთისგა
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ნახსი̄ ლიმიტ გადაჭარბებულ ლი. ა̈ხეკუ̂ჰ მახად1 წა̈მისგა
+       *[other] ნახსი̄ ლიმიტ გადაჭარბებულ ლი. ა̈ხეკუ̂ჰ მახად { $retryLimit } წა̈მისგა
+    }
 
 ## MENU ITEM TOOLTIPS
 
