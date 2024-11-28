@@ -55,7 +55,8 @@ const SOURCES = {
     "'sha256-b+mf6EIMFYxuAIdk6/2IF09zTUsJrlW6qZaw4opG6QU='",
     'https://*.google-analytics.com',
     'https://pontoon.mozilla.org',
-    'https://voicewall.ksaa.gov.sa',
+    'https://falakbeta.ksaa.gov.sa',
+    'https://falak.ksaa.gov.sa',
     'https://*.sentry.io',
     'https://tagmanager.google.com',
     '*.googletagmanager.com',
@@ -118,7 +119,7 @@ function getCSPHeaderValue() {
     if this function is used incorrectly
   */
   if (true || !PROD) {
-  // if (!PROD) {
+    // if (!PROD) {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
     SOURCES['style-src'].push("'unsafe-inline'")
     SOURCES['script-src'].push("'unsafe-eval'")
