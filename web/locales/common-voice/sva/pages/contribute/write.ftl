@@ -41,6 +41,14 @@ sentence-domain-select-placeholder = ჟ'ა̄̈ხითშ მაქსიმ�
 agriculture_food = სოფლი მეურნეობა ი ლეზუ̂ებ
 # Sentence Domain dropdown option
 automotive_transport = საავტომობილო მრეწველობა ი ტრანსპორტ
+# Sentence Domain dropdown option
+finance = ფინანსა̈რ
+# Sentence Domain dropdown option
+service_retail = სერვისა̈ლ ი საცალო ლიღუ̂ჭარ
+# Sentence Domain dropdown option
+general = ზოგად
+# Sentence Domain dropdown option
+healthcare = ჯანდაცვა
 
 ## BULK SUBMISSION 
 
