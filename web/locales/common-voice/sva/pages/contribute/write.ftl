@@ -157,3 +157,4 @@ transcribe-audio-menu-item-tooltip = ჟახა̈სყ აუდიოჩა�
 
 write-contribute-menu-aria-label = სგანა̈ი̄რლეშ პარამეტრალე მენიუ
 add-sentences-menu-item-aria-label = ლახაქმ წინადადება̄̈ლ საზოგადოება̄̈ ლეჭუ̂და̄̈ნიდ
+review-sentences-menu-item-aria-label = ქ'ა̄თთერუ̂ა̄̈ლ საზოგადოება̄̈ წარმოდგენილ წინადადება̄̈ლ, ჩუ მა̈ჲ ა̈რიხ.
