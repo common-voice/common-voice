@@ -124,6 +124,12 @@ rate-limit-message-seconds =
         [one] სი ქა̄თსურილ ლიმიტ ალ გუ̂ერდთე ლაზიზდ. ჟ'ა̄̈ხღელა̈უ̂ 1 წა̈მს აჯაღ წინადადება̄̈ ლიზზალ. მაჴუ̂მა̄̈რ, ერ ხითჷმინე!
        *[other] სი ქა̄თსურილ ლიმიტ ალ გუ̂ერდთე ლაზიზდ. ჟ'ა̄̈ხღელა̈უ̂ { $retryLimit } წა̈მს აჯაღ წინადადება̄̈ ლიზზალ. მაჴუ̂მა̄̈რ, ერ ხითჷმინე!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 წინადადებახა̈ნქა ლუყუ̂ბე
+       *[other] { $uploadedSentences }{ $totalSentences } წინადადება̄̈ლხა̈ნქა ლუყუ̂ბე
+    }
 
 ## MENU ITEM TOOLTIPS
 
