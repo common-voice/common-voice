@@ -49,6 +49,12 @@ service_retail = სერვისა̈ლ ი საცალო ლიღუ�
 general = ზოგად
 # Sentence Domain dropdown option
 healthcare = ჯანდაცვა
+# Sentence Domain dropdown option
+history_law_government = ისტორია, კანონ ი თაუ̂რობ
+# Sentence Domain dropdown option
+language_fundamentals = ნინი საფუძვლა̈რ (მაგალითად, ციფრა̄̈ლ, ასუ̂ა̄̈ლ, თეთრ)
+# Sentence Domain dropdown option
+media_entertainment = მედია ი გართობა
 
 ## BULK SUBMISSION 
 
