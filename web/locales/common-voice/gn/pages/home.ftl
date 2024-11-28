@@ -100,3 +100,4 @@ community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha
 
 about-menu-aria-label = Poravokuaa renda rehegua
 partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua rehe
+press-and-stories-menu-item-aria-label = Eike maranduasãi ha tembiasakue ojuehegua Common Voice ndive
