@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = حصہ گنیکو رہنمائی
+guidelines-header = حصہ دریکو رہنمائی
 guidelines-header-subtitle = ہوݰ کو کامن وائسو ڈیٹاسیٹا جملان وا اسکوردی ہوازان کیچہ کوری جمع وا تصدیق کورونو بوئے
 voice-collection = ہواز بڑاڅیک
 sentence-collection = جملہ بڑاڅیک
