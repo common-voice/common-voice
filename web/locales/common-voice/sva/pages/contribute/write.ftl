@@ -61,6 +61,8 @@ nature_environment = ბუნება ი გარემო
 news_current_affairs = მახე ამბუ̂ა̈რ ი მიმდინარე გოშა̈რ
 # Sentence Domain dropdown option
 technology_robotics = ტექნიკა ი რობოტულ სისტემა̄̈ლ
+sentence-variant-select-label = წინადადება̄̈ ვარიანტ
+sentence-variant-select-placeholder = ჟ'ა̄̈ხითშ ვარიანტ (სავალდებულო მა̄მ ლი)
 
 ## BULK SUBMISSION 
 
