@@ -27,9 +27,10 @@ do_not_wish_to_say = Жысӏэну сыхуейкъым
 # Gender
 other = НэгъуэщӀ
 avatar = Авэтар
+goals = Мурадхэр
 profile-create-success = Профил ухуащӏ
 profile-close = Хуэщӏ
-why-demographic = Сыт мы щIэ щхьэпэр?
+why-demographic = Сыт ар зыщӀыхьар?
 why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Privacy Policy
