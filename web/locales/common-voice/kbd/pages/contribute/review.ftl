@@ -23,6 +23,14 @@ sc-review-form-button-skip-shortcut = Б
 sc-review-form-keyboard-usage-custom = Абы къыщынэмыщӏауэ къэвгъэсэбэп хъунущ клавишэхэу: { sc-review-form-button-approve-shortcut } къэщтэн { sc-review-form-button-reject-shortcut } мыдэн { sc-review-form-button-skip-shortcut } блэгъэкlын
 sc-review-form-button-submit =
     .submitText = Еплъыжыныр ух
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] псалъэуха хэплъащ.
+        [one] псалъэуха хэплъащ. ФIыщIэ пхудощI.
+       *[other] псалъэуха хэплъащ. ФIыщIэ пхудощI.
+    }
 sc-review-link = Еплъыж
 
 ## REVIEW CRITERIA
