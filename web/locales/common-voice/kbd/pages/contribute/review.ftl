@@ -53,5 +53,7 @@ review-error = Мы псалъэухар  щызэхагъэкIым, щыуаг�
 review-error-rate-limit-exceeded = Фэ тIэкIу фопIащIэIуэ. Псалъэухам набдзэгубдзаплъэу фыхэплъэж, зэрыпэжыр хьэкъхъун папщIэ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Дэ зэхъуэкIыныгъэшхуэхэр диIэщ
+sc-redirect-page-subtitle-1 = Псалъэуха Зэхуэхьэзыр Common Voice и платформэ нэхъыщхьэм токIуэ. Иджы Common Voice-м псалъэуха <writeURL> къыхэтхыкI </writeURL> хьэмэрэ  кърагъэхьа псалъэухахэм <reviewURL> хэплъэж </reviewURL>.
+sc-redirect-page-subtitle-2 = Дэ упщIэ къыдэфт <matrixLink>Matrix-кIэ</matrixLink>, <discourseLink>Discourse-кIэ</discourseLink> е <emailLink>э-пощтэкIэ</emailLink>.
 # menu item
 review-sentences = Псалъэухахэм еплъыж
