@@ -89,8 +89,8 @@ skip = ქალახაცუ̂რ
 shortcuts = ჩქა̈რდლატუ̂ი̄ლნა
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> კლიპ
-       *[other] <bold>{ $count }</bold> კლიპა̈რ
+        [one] კლიპ
+       *[other] კლიპა̈რ
     }
 goal-help-recording = სი ქალოხმურჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
 goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
