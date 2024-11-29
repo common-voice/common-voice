@@ -87,3 +87,4 @@ partnerships-menu-item-tooltip = Staňte se našimi partnery
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Možnosti nabídky O nás

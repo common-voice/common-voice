@@ -50,4 +50,6 @@ msi = Sabah malajština
 pez = Východní Penan
 pne = Západní Penam
 sdo = Serian Bidayuh
+snv = Sa'ban
 tr = Turečtina
+xkl = Kenyah
