@@ -32,9 +32,11 @@ benefits = Дызэрефӏэкӏхэр
 
 ## What's public
 
+whats-public = Сыт хуэдэ щӀэныгъэхэр псом къыбгъурытынур?
 
 ## Landing
 
+welcome-staff = Фӏохъус апщий, { $company } ӏуэхущӏэхэр!
 
 ## NAV ITEMS
 
