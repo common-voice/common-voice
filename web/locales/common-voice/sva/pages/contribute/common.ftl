@@ -93,7 +93,7 @@ clips-with-count-pluralized =
        *[other] კლიპა̈რ
     }
 goal-help-recording = სი ქალოხმურჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
-goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
+goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
         [one] ხიმა ლჷმა̄რე{ $count } ხოშილი ლასყე̄ნად?
