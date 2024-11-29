@@ -16,15 +16,7 @@ sc-review-form-button-skip = ქალიცუ̂რე
 sc-review-form-button-approve = ჩულიმტკიცა̈უ̂ი
 sc-review-form-keyboard-usage-custom = აჯად ჩუჯა̈მჲე̄და, ერე ა̈ხჴჷმრა ჩქა̈რდლა̈ტუ̂ი̄ლნა: { sc-review-form-button-approve-shortcut } ლა̈მტკიცა̄̈უ̂ი, { sc-review-form-button-reject-shortcut } ლაწნა̈უ̂, { sc-review-form-button-skip-shortcut } ქალა̈ცუ̂რა
 sc-review-form-button-submit =
-    .submitText = ლისჷნჯა̈უ̂ი̄ ქალისრულე
-# Variables:
-#   $sentences (Number) - Number of sentences the user has reviewed in this session
-sc-review-form-reviewed-message =
-    { $sentences ->
-        [0] მა̄მ ლიხ განხილულ წინადადება̄̈ლ
-        [one] განხილულ ლი 1 წინადადება. მაჴუ̂მა̄̈რ!
-       *[other] { $sentences } განხილულ ლი. მაჴუ̂მა̄̈რ!
-    }
+    .submitText = ლითერუ̂ე̄მი ქალისრულე
 sc-review-form-review-failure = მიმოხილუ̂ა̄̈ ლიშხუ̂ნი დეშ ა̈ნჴჷრჴა̄̈ნ. ახეკუ̂ჰ ხოშილ გუ̂იანდ.
 sc-review-link = ქალისინჯუ̂ე
 
