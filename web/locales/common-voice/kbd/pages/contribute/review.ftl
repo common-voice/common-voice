@@ -31,6 +31,7 @@ sc-review-form-reviewed-message =
         [one] псалъэуха хэплъащ. ФIыщIэ пхудощI.
        *[other] псалъэуха хэплъащ. ФIыщIэ пхудощI.
     }
+sc-review-form-review-failure = Хэплъа псалъэухар мыхъумэжащ. КхъыIэ, итIанэ еплъыж.
 sc-review-link = Еплъыж
 
 ## REVIEW CRITERIA
