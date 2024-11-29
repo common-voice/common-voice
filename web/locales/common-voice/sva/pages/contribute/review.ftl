@@ -44,11 +44,11 @@ sc-review-rules-title = ლიმა წინადადება რეკო
 sc-review-empty-state = ამწა̈მჟი ალ ნინჟი განსახილველ წინადადება̈ლ მა̄მ ა̈რიხ.
 report-sc-different-language = იშგენ ნინ
 report-sc-different-language-detail = ალა იშგენ ნინჟი ლი ლჷი̄რ, მი ერ ხუ̂ამოწმა̈ნი ეჩეჟი მა̄დე.
-sentences-fetch-error = წინადება̄̈ ლაკადჟი̄ნ ათხუ̂იდდა შეცდომა
+sentences-fetch-error = წინადება̄̈ ლაკა̈დჟი̄ნ ათხუ̂იდდა შეცდომა
 review-error = ალ წინადება̄̈ ლასჷნჯა̈უ̂ჟი ათხუ̂იდდა შეცდომა
 review-error-rate-limit-exceeded = სურუ ჩქა̈რდ ესღრი. ეშხუ წუთს ჩულა̈ხჩარუ̂ა̈ნ ი ჩუ̂ათმოწმა̈ნ წინადება ლიმა სწორ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = სერიოზულ ცვლება̄̈ლს ლიჩოდ
+sc-redirect-page-title = ბჷგი ცვლილება̄̈ლს ლიჩოდ
 sc-redirect-page-subtitle-1 = წინადადება̄ლე მუნზორე ქ'ესტიხ  Common Voice პლატფორმათე. ათხე ჩუ ჯა̈მჲე̄და <writeURL> ჩუ̂ათიჲრა</writeURL> წინადადება ჲედ <reviewURL> ჩუ̂ათსჷნჯუ̂ა </reviewURL> თუ̂ით-თუ̂ითჟი Common Voice-თე ნაზჷზ წინადება̄̈ლ.
 sc-redirect-page-subtitle-2 = ლანო შეკითხვა̄̈ლ <matrixLink> მატრიცა</matrixLink>-ჟი, <discourseLink> Discourse </discourseLink> ჲედ<emailLink> მეილჟი</emailLink>.
 # menu item
