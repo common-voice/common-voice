@@ -87,7 +87,11 @@ review =
     ალ დო̈შდი ლადა̈ღ ქა̄̈დგუ̂ალა̄̈ნ, ხოჩა და̄̈რ ანჴა̈დ ი ამ ნაგზაისგა ამჟიგარ ი̄რა.
 skip = ქალახაცუ̂რ
 shortcuts = ჩქა̈რდლატუ̂ი̄ლნა
-goal-help-recording = სი ქალოხმა̈რჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> კლიპ
+       *[other] <bold>{ $count }</bold> კლიპა̈რ
+    }
 goal-help-validation = სი ქალოხმურჯ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
