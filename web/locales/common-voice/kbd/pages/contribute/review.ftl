@@ -42,6 +42,10 @@ sc-criteria-item-1 = Псалъэухар тэмэму тхын хуейщ.
 sc-criteria-item-2 = Псалъэухар грамматикэмкӀэ тэмэму хъун хуейщ.
 sc-criteria-item-3 = Псалъэухар макъкӀэ еджэгъуафӀэу щытын хуейщ.
 sc-criteria-item-6 = Узэплъыжьын фэе гущыПсалъэуха зыкӀэлъыплъыжын хуейхэр, зэфӀэкӀамэ нэхъыбэ псалъуха зэхуэхьэсынымкӀэ дэӀэпыкъуэгъу укъытхуэхъу
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Мы псалъэухар <icon></icon> бзэхабзэмкӀэ тэмэм хъуауэ къэпщытэжын?
+sc-review-rules-title = Дауэ псалъэухар гъуазэ хуэхъурэ?
+sc-review-empty-state = Мы бзэмкIэ хэплъыхьын псалъэуха щыӀэкъым.
 report-sc-different-language = НэгъуэщӀыбзэ
 sentences-fetch-error = Псалъэухар къыщыIэрыхьэм, щыуагъэ къэхъуащ.
 review-error = Мы псалъэухар  щызэхагъэкIым, щыуагъэ къэхъуащ.
