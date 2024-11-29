@@ -47,6 +47,7 @@ sc-review-instruction = Мы псалъэухар <icon></icon> бзэхабзэ
 sc-review-rules-title = Дауэ псалъэухар гъуазэ хуэхъурэ?
 sc-review-empty-state = Мы бзэмкIэ хэплъыхьын псалъэуха щыӀэкъым.
 report-sc-different-language = НэгъуэщӀыбзэ
+report-sc-different-language-detail = Ар сэ сыхэплъыхь бзэм фӀэкӀа сфӀэмыӀуэху бзэкӀэ тхащ.
 sentences-fetch-error = Псалъэухар къыщыIэрыхьэм, щыуагъэ къэхъуащ.
 review-error = Мы псалъэухар  щызэхагъэкIым, щыуагъэ къэхъуащ.
 review-error-rate-limit-exceeded = Фэ тIэкIу фопIащIэIуэ. Псалъэухам набдзэгубдзаплъэу фыхэплъэж, зэрыпэжыр хьэкъхъун папщIэ.
