@@ -1,10 +1,16 @@
 varying-pronunciations = Нэмыщӏ къэпсэлъыкӏэхэр
+misreadings = Мытэмэму къеджа
 background-noise = Щӏыбагъ ӏэуэлъауэ
 background-voices = Щӏыбагъ псалъэмакъхэр
 volume = Макъ лъэшыгъ
+just-unsure = Уи фIэщ?
 example = Щапхъэ
 misreadings-example-1 = Дэ кофе къэтщэхуну дыщӏокӏ.
 misreadings-example-2 = Дэ кофе къэтщэхуну дыщӏокӏ.
+misreadings-example-4 = Щӏыбжьэр блэцӏэфтащ.
+background-noise-example-1 = Триасым и динозавр абрагъуэхэр.
+background-noise-example-3 = Триас лъэхъэнэм и динозавр абрагъуэр.
+background-noise-tip-2 = [Текстым и ӏыхьэр зэхэхыркъым]
 just-unsure-explanation = Мы къывитхэм хэмыт фырихьэлӏэмэ фызэрегупсысу къыхэфх, фхуэмыщӏыжыхэ хъумэ адрей тхыгъэм фыкӏуэ.
 adding-sentences = Псалъэуха хэлъхьэ
 reviewing-sentences = Псалъэухахэр зэпыплъыхь
