@@ -1,9 +1,9 @@
 # PARTNERSHIPS PAGE
 partnerships-header = شراکت داری
 partnerships-header-text = کامن وائسا کوروم کوریکو بچین بو کیاغ کوریلیک۔ ہمو اسپہ غیژی نو کوسیان۔ تو اسپہ سوم کورمہ شریک بیک مݰکیسانہ؟ اسپہ  تہ سر ہے لوو کار کوری بو خوشان بوسی۔
-partnerships-get-in-touch = رابطا بہچے
+partnerships-get-in-touch = رابطہ بہچے
 partnerships-become-a-partner = کامن وائسا شراکت دار بوس
-partnerships-community-header = کمیونیٹی، تخلیقات وا عام رویان تنظیم
+partnerships-community-header = کمیونیٹی، تخلیقی کوروم وا عام رویان تنظیم
 partnerships-community-description = کمیونیٹی کامن وائسو ہردیو طاقت- ہیت پورا دنیا اسونی، وا ہیت وران بچین کوروم کوراک، سائنس دان وا فنکار۔ ہیا کورما شامل بیکو بارا ݯھیݯیکو بچین تو اسپہ <about> بارا </about> صفحہ  وا اسپہ <community> کمنیوٹی پلے بوکا </community>بوغے۔ تہ کی مظبوط تنظیمی شراکت داری کوریکو کی دلچسپی شیر<emailFragment> اسپہ تین نیویشے۔ </emailFragment>
 partnerships-foundations-header = فلاحی ادارہ۔
 partnerships-foundations-description = اسپہ مشرقی افریقا  انٹرنیٹو،  کورمو صحت مند  ژاغا ساوزیکو، بچین فلاحی اداران، تنظیمان وا کمیونیٹیو سوم کوروم کوسیان۔ اسپہ <programmaticWork> پروگرامو کورمان</programmaticWork> بارا خور دی معلومات گنے۔
