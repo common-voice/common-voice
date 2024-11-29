@@ -98,5 +98,5 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
 partnerships-menu-item-aria-label = کمان وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
-press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان مݰکے
-community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران کی مدد کویان تیتان پتہ کو
+press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان ژاغا بوغے
+community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران  سوم کی مدد کویان تیتان پتہ کو
