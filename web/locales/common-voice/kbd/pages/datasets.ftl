@@ -5,6 +5,7 @@ language = Бзэ
 size = Инагъ
 size-gigabyte = Гб
 size-megabyte = Мб
+go-languages-page = Бзэхэм я напэкIуэцIыр ӏух
 more = Иджыри
 close = Хуэщӏ
 data-download-yes = Ары
