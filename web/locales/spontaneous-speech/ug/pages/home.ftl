@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = تەبىئىي سۆھبەتكە خۇش كەلدىڭىز
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>خەت پۈت</mark>
 # text wrapped in <mark></mark> will have a blue background
