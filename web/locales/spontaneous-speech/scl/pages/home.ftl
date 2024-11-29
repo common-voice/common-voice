@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = لوکو لوکو رَزینیک موجونی جُو گہ سلام!
 # <br></br> represents a newline break
 wall-of-text = کامن وائیس سے مُتو پلیٹ فارمیک اڈیو ہِیں، جَدے لوکو لوکو گہ کچٹ نے تھے ہانک موجی اواجینا۔ اَنی سے لائے لائے کمیونیٹیوڑے موجی یو تھیونو سانتی دئیی، موجو سائینسدانیگہ موجی سَنینیکوڑے گہ سانتی دیئی۔
 why-spontaneous-speech = بیسے انی لوکو لوکو دینیک موجی یوکیڑے سَنونیس؟
@@ -28,3 +29,10 @@ data-bubble-subtitle = بیسے ڈیٹا سیٹ کمیکیک تھِیوں واش
 contact-us = اسوسانتی (رابطہ) تھے/ گرامئیے۔
 contact-us-title = انو پروجیٹی نی اونو خوش تھوں دا، یا اسو سانتی یو بَوں دا؟
 contact-us-email = ای میل <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = تُو اسو کامن وائیسو لوکو لوکو رزینیک موجو پروجیکٹو بِیٹا ٹیسٹنگ گُروپانی مُچھوڑینیو یو بوئی ہَوں دا؟
+signup-terms = تُو سے آنے "میئی ای-میلینی لنک چینڈ" زاپ تھے اسئی کرومو شرطے منے موس تھا۔ <termsLink> کرومو شرطے </termsLink> گہ <privacyLink> سِیریو موجی </privacyLink> گہ کامن وائیسو لوکو لوکو رَزینیک موجو بِیٹا ٹیسٹنگینی یو کدا بو بونی ہِیں رجونو موزِیلا سے تُوڑے ای-میلی گہ تھئیی۔
+signup-input-placeholder = تھنی ای میل شے
+signup-button-value = مئیی ای-میلینی لنکیک چینڈ۔
+footer-text-privacy = <privacyLink> سِیر</privacyLink>
+footer-text-terms = <termsLink> شرطے </termsLink>
+footer-text-cookies = <cookiesLink> کُوکِیز <cookiesLink>
