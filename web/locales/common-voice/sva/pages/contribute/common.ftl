@@ -1,5 +1,5 @@
 action-click = ჟილითლე
-action-tap = ლიგდური
+action-tap = სგალა̈ხფედა̄̈ნ
 contribute = ლიმურჯი
 review =
     ქალისჷ
