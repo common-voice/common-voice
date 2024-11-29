@@ -1,12 +1,18 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Vítá vás modul Spontánní řeč
 how-spontaneous-speech-works = Jak funguje spontánní řeč
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Výzva</mark>
+prompt-bubble-subtitle = Ukážeme vám výzvu nebo otázku
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Odpovědět</mark>
+respond-bubble-subtitle = Reagujte nebo odpovídejte tak přirozeně, jak jen můžete
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Přepis</mark>
+transcribe-bubble-subtitle = Zapište si, co slyšíte ve zvukových ukázkách.
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Zkontrolovat</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
 data-bubble-subtitle = Dataset pravidelně zveřejňujeme

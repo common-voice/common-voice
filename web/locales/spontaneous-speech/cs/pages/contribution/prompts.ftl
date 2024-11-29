@@ -2,7 +2,9 @@
 
 record-player-header = Nahrajte svou odpověď
 mic-access-error = Musíte povolit přístup k mikrofonu.
+error-skipping = Při přeskakování této výzvy došlo k chybě
 error-recording = Při nahrávání nastala chyba
+error-fetching-prompts = Při načítání výzev se něco pokazilo. Zkuste to prosím později.
 error-uploading-response = Při nahrávání vaší odpovědi došlo k chybě
 prompt-submitted-success = Odpověď byla úspěšně odeslána
 prompt-response-deleted-success = Odpověď byla úspěšně smazána
@@ -16,4 +18,7 @@ submit-all-button = Odeslat vše
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Naučte se používat tuto stránku
+learn-how-to-use-prompts-explanation = Odpovězte na výzvu co nejpřirozeněji v několika větách. Ujistěte se, že váš jazyk je uctivý a neurážlivý.
 learn-how-to-use-transcribe = Přečtěte si, jak přepisovat
+learn-how-to-use-check-transcript = Naučte se kontrolovat přepis
+learn-how-to-use-check-transcript-explanation = Přepis by měl zachytit každé slovo nebo nelexikální zvuk rozhovoru, který osoba řekla, včetně opakování.

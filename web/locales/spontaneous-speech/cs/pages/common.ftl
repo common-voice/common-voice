@@ -23,6 +23,9 @@ contribute = Přispět
 
 ## Navbar
 
+respond-to-prompt = Odpovědět na výzvu
+transcribe-audio = Přepis zvuku
+check-transcriptions = Zkontrolovat přepisy
 
 ## Not Found Page
 
@@ -38,5 +41,13 @@ en = Angličtina
 fr = Francouzština
 hch = Wixarika
 kzi = Kelabit
+mbf = Baba Malay
+meh = Jihozápadní Tlaxiaco Mixtec
+mel = Střední Melanau
 mmc = Michoacán Mazahua
+ms-MY = Bahasa malajština
+msi = Sabah malajština
+pez = Východní Penan
+pne = Západní Penam
+sdo = Serian Bidayuh
 tr = Turečtina

@@ -160,3 +160,5 @@ transcribe-audio-menu-item-tooltip = Přepisujte zvukové nahrávky ve vašem ja
 write-contribute-menu-aria-label = Nabídka možností zápisu
 add-sentences-menu-item-aria-label = Přidejte nové věty, které si komunita může přečíst
 review-sentences-menu-item-aria-label = Zkontrolujte existující věty odeslané komunitou
+add-questions-menu-item-aria-label = Zasílání nových otázek, které si komunita může přečíst a odpovědět na ně.
+transcribe-audio-menu-item-aria-label = Přepisujte zvukové nahrávky do textu

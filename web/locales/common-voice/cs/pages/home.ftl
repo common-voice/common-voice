@@ -78,6 +78,7 @@ read-more-about = Přečtěte si více na stránce O nás
 
 ## NAV ITEMS
 
+press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
 
 ## MENU ITEMS TOOLTIPS
