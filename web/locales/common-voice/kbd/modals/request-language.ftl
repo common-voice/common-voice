@@ -1,6 +1,6 @@
 ## Request Language Modal
 
-request-language-title = Бзэ хэтхэ
+request-language-title = Бзэ зыщIэупщIэр
 request-language-form-language =
     .label = Бзэ
 request-language-success-title = Language request successfully submitted, thank you.
