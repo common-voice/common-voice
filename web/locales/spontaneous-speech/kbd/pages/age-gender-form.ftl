@@ -5,6 +5,8 @@ add-information-button = Щӏэныгъэ хэлъхьэ
 continue-speaking-button = Псэлъэным пыщэ
 age-select-label = Уи ныбжьыр сыт?
 select-your-age = Уи ныбжьыр къыхэх
+gender-select-label = What is your sex or gender?
+select-your-gender = Select your sex or gender
 country-of-residence-label = Здэпсэу къэрал / щӏыпӏэ
 country-of-residence-placeholder =
     .placeholder = Уздэпсэу къэрал/Щӏыпӏэр итхэ
@@ -15,4 +17,7 @@ thank-you-for-your-information = Уи щӏэныгъэм щхьэкӏэ упсэ
 
 male_masculine = Цӏыхухъу
 female_feminine = Цӏыхубз
+intersex = Intersex
+transgender = Transgender
+non-binary = Non-binary
 do_not_wish_to_say = Жысӏэну сыхуейкъым
