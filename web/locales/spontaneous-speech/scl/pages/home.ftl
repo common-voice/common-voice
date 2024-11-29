@@ -10,3 +10,21 @@ why-card-2-text = باشو ترجمہ تھیونیڑے گہ انی سم بِیں
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = کوئی باشو کارپس نُش </mark> یا اپاؤک  </mark> ہُوں تو زِینوڑے گہ سَم ہِیں۔
 how-spontaneous-speech-works = لوکو لوکو رَجیک باشی سے کروم کدا تھے تھِیئں۔
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark> پرومپٹ (Prompt) </mark>
+prompt-bubble-subtitle = بیسے تُوڑے پرومپٹیک یا سوالیک پَشارون۔
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark> جواب </mark>
+respond-bubble-subtitle = اَنِیسیڑے جواب کچاک سَم تھے دیون بَوں اَدا تھے دے۔
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark> نقل </mark>
+transcribe-bubble-subtitle = آڈیونی تُوسے کونڈ داک آنے کچٹ تھے۔
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark> چَکے </mark>
+check-bubble-subtitle = نقل تھے ہِینک گہ آڈیو ایکشان ہِیں دا نُش چَکے۔
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark> موجی (ڈیٹآ) </mark>
+data-bubble-subtitle = بیسے ڈیٹا سیٹ کمیکیک تھِیوں واشونیس۔
+contact-us = اسوسانتی (رابطہ) تھے/ گرامئیے۔
+contact-us-title = انو پروجیٹی نی اونو خوش تھوں دا، یا اسو سانتی یو بَوں دا؟
+contact-us-email = ای میل <emailFragment>commonvoice@mozilla.com</emailFragment>
