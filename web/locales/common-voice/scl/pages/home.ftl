@@ -86,9 +86,12 @@ community-and-languages = کویوچ گہ باشے
 
 about-menu-tooltip = سجیئی، پریس گہ شیلوکیے، کویوچ گہ باشے
 partnerships-menu-item-tooltip = اسو نلا سجیئار با
+press-and-stories-menu-item-tooltip = اسئیی بلاگ واری اے یا اسئیی بارینی کچٹ تھے۔
+community-and-languages-menu-item-tooltip = کامن وائیس گہ، کمیونیٹئیے گہ باشے آنے چَکے۔
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = آپشنو ژھِیرو بارینی
 partnerships-menu-item-aria-label = کامن وائیش ساتی سجئیی تھینو سیچ
 press-and-stories-menu-item-aria-label = کامن وائیسو پریس ریلیزگا شیلوکو کچی ایپھو
 community-and-languages-menu-item-aria-label = کامن وائیسے سے سانتی دیک کمیونیٹی گہ باشے آنے واشے
