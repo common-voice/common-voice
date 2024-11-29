@@ -38,6 +38,7 @@ sc-review-link = Еплъыж
 
 sc-criteria-modal = Еплъыжыным и щапхъэхэр
 sc-criteria-title = Еплъыжыным и щапхъэхэр
+sc-criteria-make-sure = ФIэщ щIы псалъэухар къыкIэлъыкIуэ критерием тету зэрыщытым:
 sc-criteria-item-1 = Псалъэухар тэмэму тхын хуейщ.
 sc-criteria-item-2 = Псалъэухар грамматикэмкӀэ тэмэму хъун хуейщ.
 sc-criteria-item-3 = Псалъэухар макъкӀэ еджэгъуафӀэу щытын хуейщ.
