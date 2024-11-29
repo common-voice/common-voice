@@ -92,13 +92,14 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> კლიპ
        *[other] <bold>{ $count }</bold> კლიპა̈რ
     }
-goal-help-validation = სი ქალოხმურჯ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
+goal-help-recording = სი ქალოხმურჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
+goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }ა̈  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
-        [one] ხიმა ლჷმა̄რე { $count } ხოშილი ლასყე̄ნად?
-       *[other] ხიშდმა ლჷმა̄რე { $count } ხოშილი ლასყე̄ნად?
+        [one] ხიმა ლჷმა̄რე{ $count } ხოშილი ლასყე̄ნად?
+       *[other] ხიშდმა ლჷმა̄რე{ $count } ხოშილი ლასყე̄ნად?
     }
-speak-empty-state = ალ ნჷნჟი ლეირი წინადადება̄̈ლ ჩუ̂ა̈გუ̂შდა̈ხ...
+speak-empty-state = ალ ნჷნჟი ლერჲი წინადადება̄̈ლ ჩუ̂ა̈გუ̂შდა̈ხ...
 no-sentences-for-variants = ისგუ ნინი უ̂არიანტ შეიძლება წინადადება̄̈ლურდ ლესსუ̂! ხომურჯა ჰე̄მა ჯა̄რ, ჰე, ჟა̈ხცა̄დუ̂ინ პარამეტრა̄̈ლ, ერე ქახეწე იშგენ წინადადება̄̈ლს ისგუ̂ა ნინჟი.
 speak-empty-state-cta = სგა̄თი̄რ წინადადება̄̈ლ
 speak-loading-error =
