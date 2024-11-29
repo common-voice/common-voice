@@ -1,6 +1,6 @@
 action-click = ჟილითლე
 action-tap = სგალა̈ხფედა̄̈ნ
-contribute = ლიმურჯი
+contribute = წვლილი სგალიი
 review =
     ქალისჷ
     
