@@ -43,12 +43,12 @@ submit-form-action = Егъэхь
 
 ## Reporting
 
-report = Тхьэусыхэ
-report-title = Тхьэусыхафэ егъэхь
+report = Рапорт
+report-title = Рапорт егъэхь
 report-ask = Сыт мы псалъэухамкӏэ гугъу уезыгъэхьыр?
 report-offensive-language = Хъуэн псалэ
 report-offensive-language-detail = Псалъэухам цӏыху зэхэгъэж е гуемыӏу псалъэ хэтщ.
-report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
+report-grammar-or-spelling = Грамматикэ / орфографие щыуагъэ
 report-grammar-or-spelling-detail = Псалъэухам грамматикэ е орфографие щыуагъэ хэтщ.
 report-different-language = Нэгъэщ бзэ
 report-different-language-detail = { "" }
