@@ -152,6 +152,7 @@ add-sentences = Přidání vět
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Přidávejte a kontrolujte věty, přidávejte otázky, přepisujte zvukové záznamy
 add-sentences-menu-item-tooltip = Přidávejte věty ve vašem jazyce
 review-sentences-menu-item-tooltip = Kontrolujte věty ve vašem jazyce
 add-questions-menu-item-tooltip = Přidejte otázky ve vašem jazyce

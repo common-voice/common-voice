@@ -78,12 +78,18 @@ read-more-about = Přečtěte si více na stránce O nás
 
 ## NAV ITEMS
 
+answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
+review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
+add-questions = Přidat otázky <small>(Již brzy)</small>
+transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerství, tisk a příběhy, komunita a jazyky
 partnerships-menu-item-tooltip = Staňte se našimi partnery
+press-and-stories-menu-item-tooltip = Navštivte náš blog nebo o nás napište
 
 ## MENU ITEM ARIA LABELS
 
