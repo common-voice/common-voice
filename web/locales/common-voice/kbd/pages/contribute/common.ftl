@@ -60,7 +60,7 @@ report-other-comment =
     .placeholder = Комментарий
 success = Хьэзырщ
 continue = АдэкӀэ
-report-success = Тхьэусыхафэр зэпэщу егъэхьа хъуащ
+report-success = Рапортыр ебгъэхьащ.
 
 ## Speak & Listen Shortcuts
 
