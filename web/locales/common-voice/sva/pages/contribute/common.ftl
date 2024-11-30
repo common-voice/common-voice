@@ -1,8 +1,8 @@
 action-click = ჟ'ე̄სოთლ
-action-tap = ლიგდური
+action-tap = სგალა̈ხფედა̄̈ნ
 contribute = ლიმურჯუ̂ი
 review = მიმოხილვა
-skip = ქა ლიცვრე
+skip = ქალახაცუ̂რ
 shortcuts = ჩქა̈რდლა̈ტუ̄̈ლნა
 clips-with-count-pluralized =
     { $count ->

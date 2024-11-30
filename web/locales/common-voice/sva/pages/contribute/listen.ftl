@@ -2,7 +2,6 @@ listen = ლა̈მჰუნა̈რ
 listen-subtitle = ლა̈ნმა̈რჯუ̂ ჰერლე ლამოწმა̈ნს
 listen-instruction = { $actionType }<playIcon></playIcon> ზუსტდ ტუ̂ილდახმა წინადადება̄̈ლს?
 listen-again-instruction = ბჷგიდ ხოჩა ნაშდაბუ̂ <playIcon></playIcon> ჟა̄̈ჰუნა̄̈რ მახად შომუ̂ა̄̈ჲ მზათ ხე̄სუ̂
-listen-3rd-time-instruction = 2 ჩუ̂იბ, ამჟი̄ნ ათჯო̄დინ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ღუ̂ეშგმეპილჲა̈შ!
 listen-empty-state = შეიძლება კლიპა̈რ ოგშდახხჩუ - ჩუ̂ათმა̄̈ხ გუ̂ერდ, ჰედ ხოშილ გუ̂იანდ ა̈ხეკუ̂ჰ.
 listen-empty-state-variants = ისგუ ნინი ვარიანტ შეიძლება კლიპა̈რურ ლე̄სსუ̂! სი ხოჩა მა̈რჯუ̂დ ჰე̄მა ჯიჴდენი, ჩუ ჯა̈მჲე̄და ჟახცადუ̄ნა ისგუ პარამეტრა̈ლ, ერე ჟა̈თლაკე̄ნ იშგენ წინადადება̄̈ლს ისგუ̂ა ნინჟი.
