@@ -258,6 +258,126 @@ const VARIANTS: Variant[] = [
     variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, Сирие)',
     variant_token: 'kbd-Cyrl-SY',
   },
+  {
+    locale_name: 'pwn',
+    variant_name: '中排灣語 (Central Paiwan)',
+    variant_token: 'pwn-central',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: '東排灣語 (Eastern Paiwan)',
+    variant_token: 'pwn-eastern',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: '北排灣語 (Northern Paiwan)',
+    variant_token: 'pwn-northern',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: '南排灣語 (Southern Paiwan)',
+    variant_token: 'pwn-southern',
+  },
+  {
+    locale_name: 'trv',
+    variant_name: '德固達雅賽德克語 (Tgdaya Seediq)',
+    variant_token: 'trv-tgdaya',
+  },
+  {
+    locale_name: 'trv',
+    variant_name: '都達賽德克語 (Toda Seediq)',
+    variant_token: 'trv-toda',
+  },
+  {
+    locale_name: 'trv',
+    variant_name: '德鹿谷賽德克語 (Truku Seediq)',
+    variant_token: 'trv-truku',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: '賽考利克泰雅語 (Squliq Atayal)',
+    variant_token: 'tay-squliq',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: '澤敖利泰雅語 (Sʼuli Atayal)',
+    variant_token: 'tay-ciuli',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: '宜蘭澤敖利泰雅語 (Klesan Atayal)',
+    variant_token: 'tay-klesan',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: '四季泰雅語 (Skikun Atayal)',
+    variant_token: 'tay-skikun',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: '汶水泰雅語 (Matuʼuwal Atayal)',
+    variant_token: 'tay-mayr',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: '萬大泰雅語 (Plngawan Atayal)',
+    variant_token: 'tay-plna',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: '東魯凱語 (Eastern Rukai)',
+    variant_token: 'dru-eastern',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: '霧台魯凱語 (Wutai Rukai)',
+    variant_token: 'dru-wutai',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: '大武魯凱語 (Dawu Rukai)',
+    variant_token: 'dru-dawu',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: '萬山語 (Oponoho)',
+    variant_token: 'dru-mant',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: '多納語 (Thakongadavane)',
+    variant_token: 'dru-tona',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: '茂林語 (Teldreka)',
+    variant_token: 'dru-maga',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: '卓群布農語 (Takituduh Bunun)',
+    variant_token: 'bnn-takituduh',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: '卡群布農語 (Takibakha Bunun)',
+    variant_token: 'bnn-takibakha',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: '郡群布農語 (Isbukun Bunun)',
+    variant_token: 'bnn-isbukun',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: '巒群布農語 (Takbanuaz Bunun)',
+    variant_token: 'bnn-takbanuaz',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: '丹群布農語 (Takivatan Bunun)',
+    variant_token: 'bnn-takivatan',
+  },
 ]
 
 type Locale = {
