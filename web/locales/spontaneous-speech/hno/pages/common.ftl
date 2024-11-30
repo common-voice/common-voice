@@ -32,3 +32,17 @@ check-transcriptions = ٹرانسکرپشناں چیک کرو
 ## Not Found Page
 
 not-found-page-header = نیں ملیا
+not-found-page-content = تُسیں جڑا صفحہ ڈھونڈے او اُو نیں مل ہکیا
+# Privacy and Terms checkbox
+accept-privacy-and-terms = میں کامن وائس دیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق آں۔
+# Locales
+bsy = صباح بسایا
+cdo = فوزو
+cpx = ہینگ ہوا
+en = انگریزی
+fr = فرانسیسی
+hch = وکساریکا
+kzi = کلابٹ
+mbf = بابا مالے
+meh = ساوتھ ویسٹرن لاسیاکو مکسٹیک
+mel = سنٹرل میلاناؤ
