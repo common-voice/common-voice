@@ -378,6 +378,16 @@ const VARIANTS: Variant[] = [
     variant_name: '丹群布農語 (Takivatan Bunun)',
     variant_token: 'bnn-takivatan',
   },
+  {
+    locale_name: 'nan-tw',
+    variant_name: '白話字 (POJ)',
+    variant_token: 'nan-tw-poj',
+  },
+  {
+    locale_name: 'nan-tw',
+    variant_name: '台羅 (TL)',
+    variant_token: 'nan-tw-tl',
+  },
 ]
 
 type Locale = {
