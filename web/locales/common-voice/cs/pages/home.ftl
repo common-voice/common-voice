@@ -90,6 +90,7 @@ community-and-languages = Komunita a jazyky
 about-menu-tooltip = Partnerství, tisk a příběhy, komunita a jazyky
 partnerships-menu-item-tooltip = Staňte se našimi partnery
 press-and-stories-menu-item-tooltip = Navštivte náš blog nebo o nás napište
+community-and-languages-menu-item-tooltip = Objevte jazyky, komunity a společný hlas
 
 ## MENU ITEM ARIA LABELS
 
