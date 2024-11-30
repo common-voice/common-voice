@@ -1,7 +1,7 @@
 ## REVIEW
 
 sc-review-lang-not-selected = სი მა̄მ ჯითიშა ჟი ნინ. ქა̄დე ისგუ <profileLink> პროფილთე </profileLink> ნჷნრე ლა̈თიშდ.
-sc-review-title = ჩუ̂ათთერუ̂ წინადადება̄̈ლ
+sc-review-title = ჩუ̂ათსჷნჯა̈უ̂ წინადადება̄̈ლ
 sc-review-loading = წინადადება̄ლე სგალიჲრი...
 sc-review-select-language = ჟა̈ხითშ ნინ წინადადება̄ლე განხილუ̂ა̄̈შდ
 sc-review-no-sentences = მა̄მ ა̈რიხ განსახილუ̂ელ წინადადება̄̈ლ. <addLink> ლახაქმ ხოფშირა წინადადება̄̈ლ ათხე!</addLink>
@@ -11,7 +11,7 @@ sc-review-form-usage = წინადადება̄̈ ჩულა̈მტ�
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = წყარო: { $sentenceSource }
-sc-review-form-button-reject = ჩულიწნა̈უ̂ი
+sc-review-form-button-reject = უარყოფა
 sc-review-form-button-skip = ქალიცუ̂რე
 sc-review-form-button-approve = ჩულიმტკიცა̈უ̂ი
 sc-review-form-keyboard-usage-custom = აჯად ჩუჯა̈მჲე̄და, ერე ა̈ხჴჷმრა ჩქა̈რდლა̈ტუ̂ი̄ლნა: { sc-review-form-button-approve-shortcut } ლა̈მტკიცა̄̈უ̂ი, { sc-review-form-button-reject-shortcut } ლაწნა̈უ̂, { sc-review-form-button-skip-shortcut } ქალა̈ცუ̂რა
