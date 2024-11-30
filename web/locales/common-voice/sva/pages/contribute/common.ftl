@@ -1,4 +1,5 @@
-action-tap = სგალა̈ხფედა̄̈ნ
+action-click = ჟ'ე̄სოთლ
+action-tap = ლიგდური
 contribute = ლიმურჯუ̂ი
 review = მიმოხილვა
 skip = ქა ლიცვრე
@@ -71,6 +72,7 @@ shortcut-discard-ongoing-recording-label = ჟახაღრ ათხე̄ ნ
 shortcut-submit = უ̂ეშდ ლიტეხ
 shortcut-submit-label = კლიპრე ქალიზზი
 request-language-text = ჩიქე მა̄მ თერაჲა ისგუ ნინ Common Voice-ჟი?
+request-language-button = ხიჰრ ისგუ ნინ
 
 ## Listen Shortcuts
 
