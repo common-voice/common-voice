@@ -1,15 +1,15 @@
 action-tap = სგალა̈ხფედა̄̈ნ
 contribute = ლიმურჯუ̂ი
 review = მიმოხილვა
-skip = ქალახაცუ̂რ
-shortcuts = ჩქა̈რდლატუ̂ი̄ლნა
+skip = ქა ლიცვრე
+shortcuts = ჩქა̈რდლა̈ტუ̄̈ლნა
 clips-with-count-pluralized =
     { $count ->
         [one] კლიპ
        *[other] კლიპა̈რ
     }
 goal-help-recording = სი ქალოხმურჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
-goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღია̈ { $goalValue }  ლეჲრი̄ ლასრულას.
+goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
         [one] ხიმა ლჷმა̄რე{ $count } ხოშილი ლასყე̄ნად?
@@ -26,7 +26,7 @@ share-title-new = <bold> ქალა̈ნმა̈რჯუ̂ </bold>, ერე
 keep-track-profile = გუ̂ი ლა̄ხო ისგუ სგუ̂ებდ ნა̄ზუ̂ს ისგუ̂ა პროფილისგა
 login-to-get-started = ლა̈ბნად ჲედ სგა̄დე, ჲედ ჩუ̂ა̈თრეგისტრირა̈ნ
 target-segment-first-card = ისგუ ნა̄̈თი სგე̄სჷდ გუშგუ̂ეჲ მა̄̈ნკუ̂ი̄ სამიზნე სეგმენტთე̄სგა
-target-segment-generic-card = ისგუ ნა̄̈თი (წვლილ) სგე̄სჷდ სამიზნე სეგმენტთე̄სგა
+target-segment-generic-card = ისგუ ნა̄̈თი სგე̄სჷდ სამიზნე სეგმენტთე̄სგა
 target-segment-first-banner = ქალოხმა̈რჯუ̂ Common Voice-ს მა̄̈ნკუ̂ი̄ სამიზნე სეგმენტი ლასყე̄ნას { $locale }
 target-segment-add-voice = ჟესაქმ ისგუ ჰერ
 target-segment-learn-more = ა̈ცხირ ხოშილ!
