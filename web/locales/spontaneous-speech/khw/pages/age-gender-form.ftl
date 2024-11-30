@@ -1,8 +1,8 @@
 # Age and Gender form
-age-gender-form-title = فی البدیہ لووا حصہ دریکو  بچین تہ بو منادار!
-age-gender-form-subtile = تان بارا اسپہ سوم لو دیتی تو ساوزئے یکان سوم سفو بچین ٹینالوجی ساوزیکا مدد کوس
+age-gender-form-title = جاری مشقولگیا حصہ دریکو  بچین تہ بو منادار!
+age-gender-form-subtile = تان بارا اسپہ سوم لو دیتی تو ہر کوس استعمالو ٹینالوجی ساوزیکا مدد کوس
 add-information-button = معلومات شامل کو
-continue-speaking-button = لوو جاری سوتو
+continue-speaking-button = لوؤ جاری سوتو
 age-select-label = تہ عمر کیاغ؟
 select-your-age = تان عمرو گنے
 gender-select-label = تو موشا کیمیری؟
