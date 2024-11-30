@@ -71,3 +71,5 @@ answer-questions-menu-item-tooltip = Nahrávejte se, jak odpovídáte na otázky
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Možnosti nabídky hovoru
+read-sentences-menu-item-aria-label = Čtěte věty předložené komunitou v různých jazycích
