@@ -76,10 +76,10 @@ shortcut-record-toggle-label = Тетхэ/Къэгъэувыӏэ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Щӏэрыщӏэу тетхэж
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Тхыгъэм къегъэгъэзэж
+shortcut-discard-ongoing-recording-label = Макъ зэрытхыкӀыгъэм техыж
 shortcut-submit = Гъэзэж
-shortcut-submit-label = Клипхэр егъэхь
-request-language-text = Common Voice-ым уи бзэр иджыркӏэ хэту плъагъукъэ?
+shortcut-submit-label = Макъ зэрытхыныгъэр егъэхь
+request-language-text = Уи бзэр Common Voice-м хэту плъагъукъэ?
 request-language-button = Бзэм щӏэупщӏ
 
 ## Listen Shortcuts
