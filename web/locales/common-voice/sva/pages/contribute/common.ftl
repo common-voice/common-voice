@@ -1,6 +1,6 @@
 action-click = ჟილითლე
 action-tap = სგალა̈ხფედა̄̈ნ
-contribute = წვლილი სგალიი
+contribute = ლიმურჯუ̂ი
 review =
     ჩულითე̄რუ̂ე
     
