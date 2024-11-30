@@ -17,6 +17,7 @@ contribute-more =
        *[other] Kamasqachu kachkanki { $count } astawan ruwanaykipaq?
     }
 speak-empty-state = Kay simipi rikunapaq rimaykuna tukusqaña...
+no-sentences-for-variants = ¡Llaqtasimiykiqa manapaschá simiyoqchu kanman! Munasqaykiman hinaqa, llaqtasimiykipa huk rimayninkunata qawanaykipaqmi akllawaq.
 speak-empty-state-cta = Rimaykunata yanapay
 speak-loading-error =
     Manam ima rimaytapas hapiyta atirqaykuchu rimanaykipaq. 
