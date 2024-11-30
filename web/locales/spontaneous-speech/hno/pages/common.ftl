@@ -25,6 +25,10 @@ contribute = حصہ باؤ
 
 ## Navbar
 
+respond-to-prompt = پرامپٹ دا جواب دو
+transcribe-audio = آواز کو ٹرانسکرائب کرو
+check-transcriptions = ٹرانسکرپشناں چیک کرو
 
 ## Not Found Page
 
+not-found-page-header = نیں ملیا
