@@ -50,7 +50,6 @@ report-offensive-language-detail = ალ წინადადება ლი 
 report-grammar-or-spelling = გრამატიკული / ორთოგრაფიულ შეცდომა
 report-grammar-or-spelling-detail = ალ წინადადებაისგა გრამატიკულ ჲედ ორთოგრაფიულ შეცდომა ლი.
 report-different-language = იშგენ ნინ
-report-different-language-detail = ალა მი ერ გუ̂ა̈რგლი, ეჯ ნინშუ̂ მა̄მ ლი ლჷი̄რ.
 report-difficult-pronounce = ხოლა ლე̄ქუ̂ისგ ლი
 report-difficult-pronounce-detail = ალას ხეჩდა ეჯკა̈ლი სიტყუ̂ა̄̈ლ ჲედ ფრაზა̄̈ლ, ხედა̄̈ ლიჭუ̂და̄ნე ჲედ ლი̄ქუ̈სგ გარჯ ლი.
 report-offensive-speech = შეურაცხმყოფელ გარგლა
@@ -72,7 +71,6 @@ shortcut-discard-ongoing-recording-label = ჟახაღრ ათხე̄ ნ
 shortcut-submit = უ̂ეშდ ლიტეხ
 shortcut-submit-label = კლიპრე ქალიზზი
 request-language-text = ჩიქე მა̄მ თერაჲა ისგუ ნინ Common Voice-ჟი?
-request-language-button = ხიჰრ ისგუ ნინ
 
 ## Listen Shortcuts
 
