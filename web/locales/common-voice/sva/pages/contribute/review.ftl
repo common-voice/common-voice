@@ -3,7 +3,7 @@
 sc-review-lang-not-selected = სი მა̄მ ჯითიშა ჟი ნინ. ქა̄დე ისგუ <profileLink> პროფილთე </profileLink> ნჷნრე ლა̈თიშდ.
 sc-review-title = ჩუ̂ათსჷნჯა̈უ̂ წინადადება̄̈ლ
 sc-review-loading = წინადადება̄ლე სგალიჲრი...
-sc-review-select-language = ჟა̈ხითშ ნინ წინადადება̄ლე განხილუ̂ა̄̈შდ
+sc-review-select-language = ჟა̈ხითშ ნინ წინადადება̄ლე განხილუ̂აჟი̄შდ
 sc-review-no-sentences = მა̄მ ა̈რიხ განსახილუ̂ელ წინადადება̄̈ლ. <addLink> ლახაქმ ხოფშირა წინადადება̄̈ლ ათხე!</addLink>
 sc-review-form-prompt =
     .message = განხილულ წინადება̄̈ლ მა̄მ ლიხ ქა ლჷზზე, ხიმა დარწმუნებულ?
@@ -46,7 +46,7 @@ sc-review-empty-state = ალწა̈მჟი ალ ნინჟი გან
 report-sc-different-language = იშგენ ნინ
 report-sc-different-language-detail = ალა იშგენ ნინჟი ლი ლჷი̄რ, მი ერ ხუ̂ამოწმა̈ნი ეჩეჟი მა̄დე.
 sentences-fetch-error = წინადება̄̈ ლაკა̈დჟი̄ნ ათხუ̂იდდა შეცდომა
-review-error = ალ წინადება̄̈ ლასჷნჯა̈უ̂ჟი ათხუ̂იდდა შეცდომა
+review-error = ალ წინადება̄̈ განხილუ̂აჟი ათხუ̂იდდა შეცდომა
 review-error-rate-limit-exceeded = სურუ ჩქა̈რდ ესღრი. ეშხუ წუთს ჩულა̈ხჩარუ̂ა̈ნ ი ჩუ̂ათმოწმა̈ნ წინადება ლიმა სწორ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ბჷგი ცვლილება̄̈ლს ლიჩოდ
