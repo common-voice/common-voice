@@ -1,4 +1,3 @@
-action-click = ჟილითლე
 action-tap = სგალა̈ხფედა̄̈ნ
 contribute = ლიმურჯუ̂ი
 review = მიმოხილვა
