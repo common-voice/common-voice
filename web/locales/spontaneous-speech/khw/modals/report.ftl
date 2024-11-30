@@ -1,7 +1,7 @@
 ## Report Modal
 
 report-modal-title = رپورٹو جمع کو
-report-modal-subtitle = ہمی موادان سوم  تہ تین کیا مسلہ شیرا؟
+report-modal-subtitle = ہمی مواد تہ تین کیا مسلٔہ پیدا کونیانا؟
 offensive_speech = شوم مواد
 offensive_speech-detail = ہیہ موژی غیر مہذب یا شوم لو شیر۔
 different_language = مختلف وار
