@@ -21,9 +21,9 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] მა̄მ ა̈რიხ განხილულ წინადადება̄̈ლ.
-        [one] 1წინადაება ლი განხილულ. მაჴუ̂მა̄̈რ!
-       *[other] { $sentences } განხილულ წინადადება̄̈ლ. მაჴუ̂მა̄̈რ!
+        [0] მა̄მ ლიხ წინადადება̄̈ლ განხილულ
+        [one] 1 წინადადება ლი განხილულ. მაჴუ̂მა̄̈რ!
+       *[other] განხილულ ლი { $sentences } წინადადება. მაჴუ̂მა̄̈რ!
     }
 sc-review-form-review-failure = მიმოხილუ̂ა̄̈ ლიშხუ̂ნი დეშ ა̈ნჴჷრჴა̄̈ნ. ახეკუ̂ჰ ხოშილ გუ̂იანდ.
 sc-review-link = ქალითე̄რუ̂ე
