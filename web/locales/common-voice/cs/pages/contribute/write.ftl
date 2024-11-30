@@ -141,7 +141,9 @@ add-small-batch-success =
         [many] { $uploadedSentences } z { $totalSentences } shromážděných vět
        *[other] { $uploadedSentences } z { $totalSentences } shromážděných vět
     }
+small-batch-sentences-rule-1 = Postupujte podle pokynů v části “Jaké věty mohu přidat?”.
 small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
+small-batch-sentences-rule-3 = Oddělte věty do jednoho řádku jedním stisknutím klávesy “Enter” nebo “Return”.
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
 small-batch-sentences-rule-5 = Všechny věty musí mít stejnou licenci
 small-batch-sentences-rule-6 = Všechny věty musí mít stejnou citaci
