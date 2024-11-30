@@ -22,6 +22,10 @@ submit-all-button = Odeslat vše
 
 learn-how-to-use-prompts = Naučte se používat tuto stránku
 learn-how-to-use-prompts-explanation = Odpovězte na výzvu co nejpřirozeněji v několika větách. Ujistěte se, že váš jazyk je uctivý a neurážlivý.
+learn-how-to-use-prompts-guidance = Klepněte <guidanceLink>zde</guidanceLink> a dozvíte se, jak tuto stránku používat
 learn-how-to-use-transcribe = Přečtěte si, jak přepisovat
+learn-how-to-use-transcribe-explanation = Zapište si přesně, co daná osoba řekla, včetně zástupných slov jako „ehm“ nebo „errr“.
+learn-how-to-use-transcribe-guidance = Klepněte <guidanceLink>zde</guidanceLink> a dozvíte se, jak tuto stránku používat
 learn-how-to-use-check-transcript = Naučte se kontrolovat přepis
 learn-how-to-use-check-transcript-explanation = Přepis by měl zachytit každé slovo nebo nelexikální zvuk rozhovoru, který osoba řekla, včetně opakování.
+learn-how-to-use-check-transcript-guidance = Klepněte <guidanceLink>zde</guidanceLink> a dozvíte se, jak tuto stránku používat
