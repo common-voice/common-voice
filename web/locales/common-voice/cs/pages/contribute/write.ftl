@@ -141,6 +141,14 @@ add-small-batch-success =
         [many] { $uploadedSentences } z { $totalSentences } shromážděných vět
        *[other] { $uploadedSentences } z { $totalSentences } shromážděných vět
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Shromážděné věty: { $uploadedSentences } z 1. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+        [few] Shromážděné věty: { $uploadedSentences } z { $totalSentences }. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+        [many] Shromážděné věty: { $uploadedSentences } z { $totalSentences }. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+       *[other] Shromážděné věty: { $uploadedSentences } z { $totalSentences }. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+    }
 small-batch-sentences-rule-1 = Postupujte podle pokynů v části “Jaké věty mohu přidat?”.
 small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
 small-batch-sentences-rule-3 = Oddělte věty do jednoho řádku jedním stisknutím klávesy “Enter” nebo “Return”.
