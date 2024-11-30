@@ -18,6 +18,11 @@ validate-readings = Ověřování čtení
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Ověřujte čtení, kontrolujte přepisy
+validate-readings-menu-item-tooltip = Ověřte čtení zaznamenané uživateli ve vašem jazyce
+review-transcriptions-menu-item-tooltip = Zkontrolujte přepisy odeslané uživateli ve vašem jazyce
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Možnosti nabídky poslouchání
+validate-readings-menu-item-aria-label = Ověřte čtení odeslané členy komunity
+review-transcriptions-menu-item-aria-label = Zkontrolujte přesnost přepisu zaznamenaných vět

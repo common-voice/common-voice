@@ -65,6 +65,9 @@ read-sentences = Čtení vět
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Čtěte věty, odpovídejte na otázky
+read-sentences-menu-item-tooltip = Nahrajte se při čtení vět ve svém jazyce
+answer-questions-menu-item-tooltip = Nahrávejte se, jak odpovídáte na otázky a výzvy ve svém jazyce.
 
 ## MENU ITEM ARIA LABELS
 
