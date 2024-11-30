@@ -6,6 +6,8 @@ action-click = Klepnout
 action-tap = Klepněte
 # Label for language switcher
 interface-language = Jazyk rozhraní:
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+contribution-picker-label = Přispívání do datové sady pro jazyk { $language }
 # Label for button on contribution switcher
 change = Změnit
 coming-soon = Další jazyky již brzy
