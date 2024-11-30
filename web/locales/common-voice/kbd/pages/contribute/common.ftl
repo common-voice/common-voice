@@ -80,7 +80,7 @@ shortcut-discard-ongoing-recording-label = Макъ зэрытхыкӀыгъэм
 shortcut-submit = Гъэзэж
 shortcut-submit-label = Макъ зэрытхыныгъэр егъэхь
 request-language-text = Уи бзэр Common Voice-м хэту плъагъукъэ?
-request-language-button = Бзэм щӏэупщӏ
+request-language-button = Бзэщlэ дэщlыгъуа хъун щхьэкlэ лъэlу егъэхь
 
 ## Listen Shortcuts
 
