@@ -30,6 +30,7 @@ contact-us = اساں سا رابطہ کر
 contact-us-title = ہِے منصوبے ساں رَلّݨ تی وِچ دلچسپی رکھدا ہیں، یا اساں ساں شرکتالا کندا ہیں؟
 contact-us-email = ای میل:<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = چھا پہلے آ لا کر تُو ہِے کامن وائس تے آپ آ آپ تقریر منصوبہ واسطے اساں جے بِیٹا ٹیسٹنگ ٹولے تی وِچ ہتھیں؟
+signup-terms = "منجی ای میل تی ہِک لِنک مُنج" تی کِلک کرسݨ تی، تُوں اسانجی <termsLink>خدمت تیاں شرطیاں</privacyLink> ٻِیا <privacyLink>رازداری پالیسی</privacyLink> ساں راضی ہیں ٻِیا ہِے کہ موزیلا تؤک بِیٹا تی وِچ حِصّہ گھولݨ تے باریک معلومات ساں گݙ ای میل کر سڳدا ہِے۔ کامن وائس تے آپ آ آپ تقریر منصوبے واسطے ٹیسٹنگ۔
 signup-input-placeholder = آپݨاں ای میل وِڄ
 signup-button-value = مینجے ای میل تے ہِک لنک مُنڄ
 footer-text-privacy = <privacyLink>پرائیویسی</privacyLink>
