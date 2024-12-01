@@ -1,6 +1,9 @@
 ## Home page
 
 welcome-to-spontaneous-speech = آپ آ تقریر وِچ خوش آمدید
+# <br></br> represents a newline break
+wall-of-text = کامن وائس قدرتی، بے ساختہ، غیر سکرپٹ تھئی ہوئی تقریریک جمع کرݨ تی توجہ ݙیݨ والے ٻئے پلیٹ فارم شروع کندا پِیا ہِے۔ ہِے ساں گھݨیں برادرینک جلدی ساں ڈیٹا جمع کرݨ تی وِچ مدد مِلسے، ٻِیال ہِے ڈیٹا سائنسدانیں ٻِیا ڈویلپرز واسطے چَنڳا راہسے۔
+why-spontaneous-speech = اساں ہِے بے ساختہ تقریر پروٹو ٹائپ کیوں جوڑی ہِے
 how-spontaneous-speech-works = آپ آ تقریر کُکر کَم کن٘دی ہِے
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامپٹ</mark>
