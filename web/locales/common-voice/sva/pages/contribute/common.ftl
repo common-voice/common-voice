@@ -83,7 +83,16 @@ request-language-button = ხიჰრ ისგუ ნინ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ლიფშუ̂დე/ლიჩრა̈უ̂ი
 shortcut-play-toggle-label = სგუ̂ებდ ლი̄ზი/ჩულიჩრაუ̂ა̄̈ლ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ა̄დუ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = მა̄მა
 
 ## Validation criteria
 
@@ -100,6 +109,7 @@ contribution-misreadings-description-extended-list-3 = მეკუ̂შდე �
 contribution-misreadings-description-extended-list-4 = ქახაცუ̂ირ უ̂ეშგმეპილჲა̈ სიტყუ̂ა̄̈ ლა̈შთხა ნა̈ი̄რი სურუ ჩქა̈რდ ლისრულემი ბა̈დშუ̂.
 contribution-misreadings-description-extended-list-5 = სიტყვა̄̈ ლიჭუ̂და̄̈ნია̈ ფიშრა̄მინ ლიკჰუ̄რე.
 contribution-misreadings-example-1-title = Triassi-ი უ̂ითმათა̈რ დინოზაუ̂რა̈ლ.
+contribution-misreadings-example-2-title = ტრიასი ხოშე̄მიშთა̄ნ დინოზაუ̂რ
 contribution-misreadings-example-2-explanation = ['დინოზაუ̂რა̈ლ' ხაკუ]
 contribution-misreadings-example-3-title = ტრიასი ხოშე̄მიშთან დინოზაუ̂რა̄̈ლ-.
 contribution-misreadings-example-3-explanation = [ნა̈ი̄რ ქუ̂ეცნი უ̂ეშგიმპილჲა̈ სიტყუ̂ა̄̈ ქალისრულა̄ლ]
