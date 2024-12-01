@@ -28,4 +28,4 @@ learn-how-to-use-transcribe-explanation = ہتے قسمہ نیویشے کیچہ 
 learn-how-to-use-transcribe-guidance = ہیا صفحو استعمالو ݯھیݯھیکو بچین ہیا<guidanceLink>کلک کو</guidanceLink>
 learn-how-to-use-check-transcript = نیویشیرو لوڑیک ݯھیݯھے
 learn-how-to-use-check-transcript-explanation = نیویشیروا ہر لفظ بیلیک، بےمعنی مشقولگیو ہواز وا جوگان راردو سف شامل بیلیک۔
-learn-how-to-use-check-transcript-guidance = ہیا صفحو استعمالو ݯھیݯھیکو بچین ہیا<guidanceLink>کلک کو</guidanceLink>
+learn-how-to-use-check-transcript-guidance = ہیہ صفحو استعمالو ݯھیݯھیکو بچین ہیہ<guidanceLink>کلک کو</guidanceLink>
