@@ -18,9 +18,11 @@ sc-review-form-button-approve = ჩულიმტკიცა̈უ̂ი
 sc-review-form-button-approve-shortcut = ა̄დუ
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = მა̄მა
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ქალიცუ̂რე
 sc-review-form-keyboard-usage-custom = აჯად ჩუჯა̈მჲე̄და, ერე ა̈ხჴჷმრა ჩქა̈რდლა̈ტუ̂ი̄ლნა: { sc-review-form-button-approve-shortcut } ლა̈მტკიცა̄̈უ̂ი, { sc-review-form-button-reject-shortcut } ლაწნა̈უ̂, { sc-review-form-button-skip-shortcut } ქალა̈ცუ̂რა
 sc-review-form-button-submit =
-    .submitText = ლითერუ̂ე̄მი ქალისრულე
+    .submitText = ლითე̄რუ̂ე̄მი ქალისრულე
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -41,14 +43,14 @@ sc-criteria-item-1 = წინადადება სწორდ ხეკუ
 sc-criteria-item-2 = წინადადება ხეკუ̂ესე ლესსუ̂ გრამატიკულდ სწორ.
 sc-criteria-item-3 = წინადადება ხეკუ̂ესე ქა იქუ̂ო̄ლდე̄დს.
 sc-criteria-item-4 = წინადადება კრიტერიუმა̈ლს სგა ჰემა ხოსყი, ჟესოთლ &quot; ჩულიმტკიცა̈უ̂ი &quot; ლერსგუ̂ენ ღილაკ.
-sc-criteria-item-5-2 = წინადადება ჰემა მა̄მ აკმაყოფილე ჩულჷშჷლდანე კრიტერიუმა̈ლს, ჟესოთლ ღილაკს &quot;უ̂არ&quot; წინადადებაისგა დარწმუნებულ ჰე მა̄მ ხი,  ჩუ ჯა̈მჲე̄და ქალახცურა ი ქა̄ტეხ ეჩანღუ̄ეშთე.
+sc-criteria-item-5-2 = წინადადება ჰემა მა̄მ აკმაყოფილე ჩულჷშჷლდანე კრიტერიუმა̈ლს, ჟესოთლ ღილაკს &quot;უ̂არ&quot; წინადადებაისგა დარწმუნებულ ჰე მა̄მ ხი,  ჩუ ჯა̈მჲე̄და ქალახცურა ი ქა̄ტეხ ეჩუნღუ̄ეშთე.
 sc-criteria-item-6 = წინადადება̈ლ სგ'ე̄სა ლა̈ჯშდა̈ხ, ჯეჰრიდ, ერე ლა̈ნმა̈რჯუ̂ ხოფში̄რა წინადადება̄ლე ლაყუ̂ბას!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ჩუ̂ათმოწმა̈ნ <icon></icon> ალ წინადადება ლიმა სწორ?
 sc-review-rules-title = ლიმა წინადადება რეკომენდაცია̄ლე მასყა?
 sc-review-empty-state = ალწა̈მჟი ალ ნინჟი განსახილველ წინადადება̈ლ მა̄მ ა̈რიხ.
 report-sc-different-language = იშგენ ნინ
-report-sc-different-language-detail = ალა იშგენ ნინჟი ლი ლჷი̄რ, მი ერ ხუ̂ამოწმა̈ნი ეჩეჟი მა̄დე.
+report-sc-different-language-detail = ალა იშგენ ნინჟი ლი ლჷი̄რ, მი ერ ხუ̂ამოწმა̈ნი, ეჩეჟი მა̄დე.
 sentences-fetch-error = წინადება̄̈ ლაკა̈დჟი̄ნ ათხუ̂იდდა შეცდომა
 review-error = ალ წინადება̄̈ განხილუ̂აჟი ათხუ̂იდდა შეცდომა
 review-error-rate-limit-exceeded = სურუ ჩქა̈რდ ესღრი. ეშხუ წუთს ჩულა̈ხჩარუ̂ა̈ნ ი ჩუ̂ათმოწმა̈ნ წინადება ლიმა სწორ.
