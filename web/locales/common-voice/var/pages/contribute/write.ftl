@@ -5,8 +5,8 @@ write-instruction = Toaga<icon></icon> pile naosari wa dominio publico
 write-page-subtitle = Oracionichi manitoame programachi kawisita como conjuntochitia toaniame datos licenciachi cc-0, Disponiblechi iniwae puka publikochi simiyame
 sentence =
     .label = Itaperi chee wame
-sentence-input-placeholder = Toaga iwa naosari dominio publico uka itaperi
-small-batch-sentence-input-placeholder = Toega wa nati itaperi dominio publico
+sentence-input-placeholder = Toaga i'wá naosari dominio publico uka itaperi
+small-batch-sentence-input-placeholder = Toega i'wá nati itaperi dominio publico
 citation-input-placeholder = Ereka  toaga peja uka kanamu  najuka uka itaperi. Nateameju buu chee wam
 citation =
     .label = iwa toamitia puuka ciita
@@ -145,3 +145,9 @@ small-batch-sentences-rule-3 =
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
 small-batch-sentences-rule-5 = Yomá pukà oracioné waátiamé temachy inemetaá
 small-batch-sentences-rule-6 = Yomá oracioné itania inibaemicho piíché akaná oyaniá i nenemía akaná Tamó iyagó
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
