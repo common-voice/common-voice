@@ -1,7 +1,7 @@
 ## DemoLayout
 
-demo-get-started = Щӏэдвгъадзэ
-demo-welcome = Common Voice-ым къеблагъэ
+demo-get-started = Къыщӏэдвгъэж
+demo-welcome = Common Voice-м къеблагъэ
 
 ## Demo Datasets
 
