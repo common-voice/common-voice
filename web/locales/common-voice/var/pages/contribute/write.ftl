@@ -39,9 +39,9 @@ bulk-sentence = Yomá werumá
 sentence-domain-combobox-label = Teema pu'ká orasioni
 sentence-domain-select-placeholder = Selecionapa asta paika teema. (yoraniame).
 # Sentence Domain dropdown option
-agriculture_food = Agriculturachi y kokowaniame
+agriculture_food = Agrikulturači y kokowaniame
 # Sentence Domain dropdown option
-automotive_transport = Carrochi oillame yoma camiónchi oillame
+automotive_transport = Karroči oiyame yoma camiónči oiyame
 # Sentence Domain dropdown option
 finance = financiadoniame
 # Sentence Domain dropdown option
