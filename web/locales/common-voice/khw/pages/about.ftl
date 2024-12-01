@@ -121,7 +121,7 @@ about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریک
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  بچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیہ کو اہم، وا خور رویان تین وارو حقوقان، ہوازو اے آئی، یا ٹیکنالوجیا تعاصبو بارا لوو دیت۔ سوشل میڈیا چلیکو خور مشوران بچین ہیہ ژاغا<campaignLink>  لوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
 about-playbook-how-grow-language-content-6 = شراکت داری وا تعلقات
-about-playbook-how-grow-language-content-7 = خور رویان مݰکے کاکی ہیہ بارا سوچ کونیان ۔ ہیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہیتان تین لو دیت کی کیچہ کوری مدد کونی وا مدد کو کوریلیک۔خور بو رویان سوم تاریکو بچین <outreachTemplates>  اسپہ تیار ای میلان </outreachTemplates>لوڑے۔
+about-playbook-how-grow-language-content-7 = خور رویان مݰکے کاکی ہیہ بارا دونینیان ۔ ہیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہیتانتین لو دیت کی کیچہ کوری مدد کونی وا مدد کو کوریلیک۔خور بو رویان سوم تاریکو بچین <outreachTemplates>  اسپہ تیار ایمیلان </outreachTemplates>لوڑے۔
 about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</strong>۔ تا وارو ڈال  بلکل خور بیلیک وا ہمیت شروع کوریکو ای کما طریقہ۔
 
 ## How to validate
