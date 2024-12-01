@@ -43,15 +43,15 @@ agriculture_food = Agrikulturači y kokowaniame
 # Sentence Domain dropdown option
 automotive_transport = Karroči oiyame yoma camiónči oiyame
 # Sentence Domain dropdown option
-finance = financiadoniame
+finance = finansiadoniame
 # Sentence Domain dropdown option
 service_retail = Puka, paipaki tewaniame
 # Sentence Domain dropdown option
-general = Yoma amó nawesary
+general = Yoma amó nawesari
 # Sentence Domain dropdown option
 healthcare = Kaweruma yasiniamé
 # Sentence Domain dropdown option
-history_law_government = Gente nawesary , Tamó derechochy Yoma gobiernochy
+history_law_government = Gente nawesari , Tamó derečoči yoma gobiernočy
 # Sentence Domain dropdown option
 language_fundamentals = Tamoó nawesarí
 # Sentence Domain dropdown option
