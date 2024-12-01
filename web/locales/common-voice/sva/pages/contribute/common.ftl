@@ -51,6 +51,7 @@ report-offensive-language-detail = ალ წინადადება ლი 
 report-grammar-or-spelling = გრამატიკული / ორთოგრაფიულ შეცდომა
 report-grammar-or-spelling-detail = ალ წინადადებაისგა გრამატიკულ ჲედ ორთოგრაფიულ შეცდომა ლი.
 report-different-language = იშგენ ნინ
+report-different-language-detail = ალა იშგენ ნინშუ̂ ლი ლჷი̄რ, მი ერ გუ̂ა̈რგლი, ეჯნოშ მა̄მა.
 report-difficult-pronounce = ხოლა ლე̄ქუ̂ისგ ლი
 report-difficult-pronounce-detail = ალას ხეჩდა ეჯკა̈ლი სიტყუ̂ა̄̈ლ ჲედ ფრაზა̄̈ლ, ხედა̄̈ ლიჭუ̂და̄ნე ჲედ ლი̄ქუ̈სგ გარჯ ლი.
 report-offensive-speech = შეურაცხმყოფელ გარგლა
@@ -63,6 +64,8 @@ report-success = მა̈გ ხოჩამდ ლა̈სუ̂!
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ქალიცუ̂რე
 
 ## Speak Shortcuts
 
