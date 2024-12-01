@@ -55,13 +55,13 @@ history_law_government = Gente nawesari , Tamó derečoči yoma gobiernočy
 # Sentence Domain dropdown option
 language_fundamentals = Tamoó nawesarí
 # Sentence Domain dropdown option
-media_entertainment = Gente induachí y gente neneachí itapitií
+media_entertainment = Gente induačí y gente neneačí itapitií
 # Sentence Domain dropdown option
-nature_environment = Yomá itapichi induachí  y animaríy sewa induachí
+nature_environment = Yomá itapiči induačí  i animaríy sewa induačí
 # Sentence Domain dropdown option
-news_current_affairs = Tamó chaneníame y yomá umatoamé kuwé
+news_current_affairs = Tamó čaneníame i yomá umatoamé kuwé
 # Sentence Domain dropdown option
-technology_robotics = jenté yoame y jenté yoame itapití apoe nonoame
+technology_robotics = henté yoame i henté yoame itapití apoe nonoame
 sentence-variant-select-label = Na watiamé ujúpú oracioné nawesarí pirechy ojoegachy jenté. Weiká oracioné induamé
 sentence-variant-select-placeholder = Usaá puká  capó nawesary pirechy jenté michikachí. Yoraniame
 sentence-variant-select-multiple-variants = Nawesary yomá / weikaá ujupú kapó
