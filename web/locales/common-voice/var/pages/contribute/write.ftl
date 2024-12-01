@@ -33,10 +33,10 @@ required-field = Kaweruma eraga amo čanene iwá iyotemičó
 single-sentence-submission = Amó nehario pile naosari
 small-batch-sentence-submission = Itočeniame orasioni yoomaga pienapi kaakaporame
 bulk-sentence-submission = Uhuragane weika orasioné
-single-sentence = Kí aká induame oracioné
+single-sentence = Kí aká induame orasioné
 small-batch-sentence = Yomá nuhutí
 bulk-sentence = Yomá werumá
-sentence-domain-combobox-label = Teema puka oracioni
+sentence-domain-combobox-label = Teema pu'ká orasioni
 sentence-domain-select-placeholder = Selecionapa asta paika teema. (yoraniame).
 # Sentence Domain dropdown option
 agriculture_food = Agriculturachi y kokowaniame
