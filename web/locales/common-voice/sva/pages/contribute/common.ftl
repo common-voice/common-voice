@@ -69,7 +69,11 @@ shortcut-skip = ქალიცუ̂რე
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ლიჲრი/ლიჩრა̈უ̂ი
 shortcut-record-toggle-label = ლი̄რი/ლიჩრაუ̂ა̄̈ლ
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = კლიპი მახა̄ნ ლი̄რი
 shortcut-discard-ongoing-recording-label = ჟახაღრ ათხე̄ ნა̈ი̄რ
 shortcut-submit = უ̂ეშდ ლიტეხ
