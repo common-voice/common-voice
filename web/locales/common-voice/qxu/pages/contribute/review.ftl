@@ -20,6 +20,9 @@ sc-review-form-button-approve-shortcut = A
 sc-review-form-button-reject-shortcut = M
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Llaqta ñankunatapas llamk'achiy atikunki: { sc-review-form-button-approve-shortcut } Arinipaq, { sc-review-form-button-reject-shortcut }  Karunchapaq, { sc-review-form-button-skip-shortcut } Saqipaq
+sc-review-form-button-submit =
+    .submitText = Qhawaspaq tukuna
 
 ## REVIEW CRITERIA
 
