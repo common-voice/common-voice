@@ -1,15 +1,15 @@
 ## WRITE PAGE
 
 write = Ereka hu osinime
-write-instruction = Toaga<icon></icon> pile naosari wa dominio publico
-write-page-subtitle = Oracionichi manitoame programachi kawisita como conjuntochitia toaniame datos licenciachi cc-0, Disponiblechi iniwae puka publikochi simiyame
+write-instruction = Toaga<icon></icon> pile naosari wa dominio publiko
+write-page-subtitle = Orasioniči manitoame programači kawisita komo konjuntočitia toaniame datos licenciači cc-0, Disponibleči iniwae puka publikoči simiyame
 sentence =
     .label = Itaperi chee wame
 sentence-input-placeholder = Toaga i'wá naosari dominio publico uka itaperi
 small-batch-sentence-input-placeholder = Toega i'wá nati itaperi dominio publico
 citation-input-placeholder = Ereka  toaga peja uka kanamu  najuka uka itaperi. Nateameju buu chee wam
 citation =
-    .label = I'wá toamitia pu'ká ciita
+    .label = I'wá toamitia pu'ká siita
 sc-write-submit-confirm = Ereka chani wa itaperi <wikipediaLink>dominio publico</wikipediaLink>, Kainega itamira motepumina uka itaperi
 sc-review-write-title = Čirime najumeree
 sc-review-small-batch-title = Čireka toawame juu wueka
