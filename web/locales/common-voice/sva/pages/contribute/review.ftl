@@ -1,7 +1,7 @@
 ## REVIEW
 
 sc-review-lang-not-selected = სი მა̄მ ჯითიშა ჟი ნინ. ქა̄დე ისგუ <profileLink> პროფილთე </profileLink> ნჷნრე ლა̈თიშდ.
-sc-review-title = ჩუ̂ათსჷნჯა̈უ̂ წინადადება̄̈ლ
+sc-review-title = ქა̄თთერუ̂ა̄̈ლ წინადადება̄̈ლ
 sc-review-loading = წინადადება̄ლე სგალიჲრი...
 sc-review-select-language = ჟა̈ხითშ ნინ წინადადება̄ლე განხილუ̂აჟი̄შდ
 sc-review-no-sentences = მა̄მ ა̈რიხ განსახილუ̂ელ წინადადება̄̈ლ. <addLink> ლახაქმ ხოფშირა წინადადება̄̈ლ ათხე!</addLink>
@@ -14,6 +14,10 @@ sc-review-form-source = წყარო: { $sentenceSource }
 sc-review-form-button-reject = უარყოფა
 sc-review-form-button-skip = ქალიცუ̂რე
 sc-review-form-button-approve = ჩულიმტკიცა̈უ̂ი
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = ა̄დუ
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = მა̄მა
 sc-review-form-keyboard-usage-custom = აჯად ჩუჯა̈მჲე̄და, ერე ა̈ხჴჷმრა ჩქა̈რდლა̈ტუ̂ი̄ლნა: { sc-review-form-button-approve-shortcut } ლა̈მტკიცა̄̈უ̂ი, { sc-review-form-button-reject-shortcut } ლაწნა̈უ̂, { sc-review-form-button-skip-shortcut } ქალა̈ცუ̂რა
 sc-review-form-button-submit =
     .submitText = ლითერუ̂ე̄მი ქალისრულე
