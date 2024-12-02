@@ -14,6 +14,9 @@ record-cancel = Ama hukmanta hirquychu
 record-instruction = { $actionType }<recordIcon></recordIcon> chaymanta rimayta kallpawan ñawiriy
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ruwasqa kaptin
 record-three-more-instruction = Kimsa rinapaq!
+record-again-instruction = Hatun!<recordIcon></recordIcon> Qatiqnin clipkita hirquy
+record-again-instruction2 = Chayta hinalla ruway, hukmanta qillqay <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Qhipa kaq!
 
 ## MENU ITEM TOOLTIPS
 
