@@ -3,7 +3,10 @@
 report-modal-title = Emondo marandu
 report-modal-subtitle = Mba’ete apañu’áipa eguereko ko tetepy ndive
 offensive_speech = Ñe’ẽreity Ivaíva
+offensive_speech-detail = Pe tetepy oguereko ñe’ẽvai ha oporoko’õva.
 different_language = Ambuéva ñe’ẽ
+different_language-detail = Pe tetepy oguereko ñe’ẽ iñambuéva upe eha’ãrõvagui.
+personally_identifiable_information = Marandu tapicha kuaaukaha
 report-other-comment =
     .placeholder = Je’erei
 # Label for textarea in report modal

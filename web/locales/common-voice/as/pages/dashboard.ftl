@@ -103,7 +103,7 @@ share-goal = মোৰ লক্ষ্য ভাগ-বতৰা কৰক
 
 ## Goals
 
-streaks = ষ্ট্ৰিক্‌চ
+streaks = ষ্ট্ৰীকবোৰ
 days =
     { $count ->
         [one] দিন

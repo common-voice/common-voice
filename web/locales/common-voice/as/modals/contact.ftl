@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = যোগাযোগ পত্ৰ
+contact-title = যোগাযোগৰ প্ৰ-পত্ৰ
 contact-form-name =
     .label = নাম
 contact-form-message =

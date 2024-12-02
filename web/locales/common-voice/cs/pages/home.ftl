@@ -78,11 +78,23 @@ read-more-about = Přečtěte si více na stránce O nás
 
 ## NAV ITEMS
 
+answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
+review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
+add-questions = Přidat otázky <small>(Již brzy)</small>
+transcribe-audio = Přepis zvuku <small>(již brzy)</small>
+press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerství, tisk a příběhy, komunita a jazyky
 partnerships-menu-item-tooltip = Staňte se našimi partnery
+press-and-stories-menu-item-tooltip = Navštivte náš blog nebo o nás napište
+community-and-languages-menu-item-tooltip = Objevte jazyky, komunity a společný hlas
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Možnosti nabídky O nás
+partnerships-menu-item-aria-label = Další informace o partnerství se službou Common Voice
+press-and-stories-menu-item-aria-label = Přístup k tiskovým zprávám a příběhům souvisejícím s Common Voice
+community-and-languages-menu-item-aria-label = Prozkoumejte komunitu a jazyky podporované službou Common Voice

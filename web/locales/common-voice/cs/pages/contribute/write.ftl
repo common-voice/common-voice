@@ -141,7 +141,17 @@ add-small-batch-success =
         [many] { $uploadedSentences } z { $totalSentences } shromážděných vět
        *[other] { $uploadedSentences } z { $totalSentences } shromážděných vět
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Shromážděné věty: { $uploadedSentences } z 1. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+        [few] Shromážděné věty: { $uploadedSentences } z { $totalSentences }. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+        [many] Shromážděné věty: { $uploadedSentences } z { $totalSentences }. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+       *[other] Shromážděné věty: { $uploadedSentences } z { $totalSentences }. Klepnutím <downloadLink>sem</downloadLink> stáhnete odmítnuté věty.
+    }
+small-batch-sentences-rule-1 = Postupujte podle pokynů v části “Jaké věty mohu přidat?”.
 small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
+small-batch-sentences-rule-3 = Oddělte věty do jednoho řádku jedním stisknutím klávesy “Enter” nebo “Return”.
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
 small-batch-sentences-rule-5 = Všechny věty musí mít stejnou licenci
 small-batch-sentences-rule-6 = Všechny věty musí mít stejnou citaci
@@ -150,7 +160,16 @@ add-sentences = Přidání vět
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Přidávejte a kontrolujte věty, přidávejte otázky, přepisujte zvukové záznamy
 add-sentences-menu-item-tooltip = Přidávejte věty ve vašem jazyce
+review-sentences-menu-item-tooltip = Kontrolujte věty ve vašem jazyce
+add-questions-menu-item-tooltip = Přidejte otázky ve vašem jazyce
+transcribe-audio-menu-item-tooltip = Přepisujte zvukové nahrávky ve vašem jazyce
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Nabídka možností zápisu
+add-sentences-menu-item-aria-label = Přidejte nové věty, které si komunita může přečíst
+review-sentences-menu-item-aria-label = Zkontrolujte existující věty odeslané komunitou
+add-questions-menu-item-aria-label = Zasílání nových otázek, které si komunita může přečíst a odpovědět na ně.
+transcribe-audio-menu-item-aria-label = Přepisujte zvukové nahrávky do textu

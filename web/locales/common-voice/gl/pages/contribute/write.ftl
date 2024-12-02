@@ -2,7 +2,7 @@
 
 write = Escriba
 write-instruction = Engada <icon></icon> unha frase de dominio público
-write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
+write-page-subtitle = As frases achegadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
 sentence-input-placeholder = Introduza aquí a súa frase de dominio público

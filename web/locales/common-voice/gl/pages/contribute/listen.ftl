@@ -24,3 +24,5 @@ review-transcriptions-menu-item-tooltip = Revisar transcricións feitas por usua
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Menú de opcións de escoita
+validate-readings-menu-item-aria-label = Validar as lecturas enviadas polos membros da comunidade
+review-transcriptions-menu-item-aria-label = Revisar as transcricións das frases gravadas para comprobar a súa precisión

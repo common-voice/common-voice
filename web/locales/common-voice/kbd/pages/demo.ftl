@@ -1,7 +1,7 @@
 ## DemoLayout
 
-demo-get-started = Щӏэдвгъадзэ
-demo-welcome = Common Voice-ым къеблагъэ
+demo-get-started = Къыщӏэдвгъэж
+demo-welcome = Common Voice-м къеблагъэ
 
 ## Demo Datasets
 
@@ -13,6 +13,7 @@ demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-card-body = To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.
 
 ## Demo Contribute
 
