@@ -55,6 +55,10 @@ benefits = faaydan
 
 ## Landing
 
+welcome-staff = kaa duro etaśuar damaanana osin
+help-contribute = maymo maćʰar nemas daa common voice ulo profile desman maa har raxte open source data set dasmanas maamay baan
+login-company = maymo email cum login/sign maneyiṅ
+profile-not-required = maćʰar emasas e gane maymo profile manaas laazimi api magam marii ce duuy bi, yaare bareniṅ
 read-more-about = mii About page ate maziit ġatanin
 
 ## NAV ITEMS
