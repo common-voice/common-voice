@@ -3,7 +3,7 @@
 welcome-to-spontaneous-speech = اسپونٹینئس اسپیچا گیکو بچین تہ منادار
 # <br></br> represents a newline break
 wall-of-text = کمان وائس قدرتی، تنار تان وا نو نیویشیرو لوان بچین ایک خور ژاغا شروع کویان۔ ہیہ امبوخ معلوماتان شاؤ بڑاڅیکا بو کمیونیٹان سوم مدد کوئے، وا ڈیٹو سائنسدانان وا ساوزیکان تین دی فائدہ تریر۔
-why-spontaneous-speech = اسپہ ہیہ فی البدیہ لوان ای نمونہ کو ساوزیسیان؟
+why-spontaneous-speech = اسپہ ہیہ سپونٹینئس اسپیچو  ای نمونہ کو ساوزیسیان؟
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = فائد مند بوئے<mark> پوشٹہ لو دیکو حالاتا</mark> وا ہورو ہݰ معاملہ استعمال  بوئے (مثلا تو کیا وختا کہ ہݰ مݰکیتاو کہ لوو ہوݰ کوراک ہتیتان سوم کوروم کورار کا کی نو نیویشی وا عام لو دونیان )
 # text wrapped with <mark></mark> will have a light red background
