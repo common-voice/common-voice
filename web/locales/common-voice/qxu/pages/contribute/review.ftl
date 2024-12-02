@@ -32,8 +32,11 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } rimaytakuna qhawarisqa. Riqsikuyki!
     }
 sc-review-form-review-failure = Qhawarisqa nisqataqa manam waqaychayta atirqakuchu. Ama hina kaspa, qhipaman hukmanta kallpachakuy.
+sc-review-link = Kutipay
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Kamachiykunata qhaway
+sc-criteria-title = Kamachiykunata qhaway
 # menu item
 review-sentences = Rimaykunata qawariy
