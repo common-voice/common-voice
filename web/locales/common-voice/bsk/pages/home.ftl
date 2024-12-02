@@ -62,6 +62,8 @@ whats-public = besan awaami?
 email-not-public = mi maa email men ke ayoortirćan
 recordings-and-locale-public = maa recordings beruman etaan kaa daa amit baaṣulo duro ećaam iteer uyoone bareyman
 username-optin-public = meyilk ayosum maymo uyoone barenas username an desqatas maamay baan
+demographic-deidentified-clarity-2 = maymo rayate jama etum demographic data (gener, baax, daa ,garaase andaaz ) uyoon ar aaśkaar ayećan daa gute maa  dataset ulo maa ac̣count e kaa ke omay mi. hanuman audio cilips ine demographc data kaa meeym beske ac̣urate analysis gane awaaji ẓuc̣i, masalan tehqiiq etaśue tayaar otas models han xaas demographic segment ane gane meeymi
+username-email-not-demographic = holne ooltiras data kaa maa username daa email oomaymi
 
 ## Landing
 
