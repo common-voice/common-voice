@@ -43,6 +43,6 @@ sc-criteria-item-1 = Chay rimayqa allintam qillqasqa kanan.
 sc-criteria-item-2 = Chay rimayqa kamachisqa simi allin kanan.
 sc-criteria-item-3 = Chay rimayqa rimanapaq hinam kanan.
 sc-criteria-item-4 = Sichus rimay kamachiykunawan tupan chayqa, &quot;Uyakuy&quot; pañapi ñit’inata.
-sc-criteria-item-5-2 = Sichus rimay kamachiykunawan tupan mana chayqa, &quot;Sichus rimay kamachiykunawan tupan chayqa, &quot;Karunchay&quot; lluqipi ñit’inata. Sichus mana chiqachu kanki chay rimaymanta chayqa, siqispataq qatiqninman riwaq.
+sc-criteria-item-5-2 = Sichus rimay kamachiykunawan tupan mana chayqa, &quot;Sichus rimay kamachiykunawan tupan chayqa, &quot;Karunchay&quot; lluqipi ñit’inata. Sichus mana chiqachu kanki chay rimaymanta chayqa, saqispataq qatiqninman riwaq.
 # menu item
 review-sentences = Rimaykunata qawariy
