@@ -58,9 +58,19 @@ second-cta-header-text = Kunkaykita yanapasqaykimantalla!
 second-cta-subtitle-text = Kikinchakuy kaqwan, ruwayniyki qhawayta atikunki chaymanta huk ayllu kunka willay yanapakuqkunawan tinkiyta atikunki.
 already-have-an-account = ¿Kanchu kikinchakuyki? <login>Yaykuy</login>
 create-profile-button = Kikinchakuyta ruway
+# IMAGE TAGS
+img-alt-success-checkmark = Allin ruwaypa tuyrunin
+# menu item
+read-sentences = Rimaykunata ñawinchay
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Rimaykunata ñawinchay, Tapukuykunata kutichiy
+read-sentences-menu-item-tooltip = Simiykipi rimaykunata ñawinchaspa qillqay
+answer-questions-menu-item-tooltip = Tapukuykunata tapuykunata simiykipi kutichispa qillqay
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Kunka akllanakuna qillqa
+read-sentences-menu-item-aria-label = Ayllu runakunapa apachisqan rimaykunata imaymana simikunapi ñawinchay
+answer-questions-menu-item-aria-label = Musuq tapukuyta llaqta runakuna ñawinchaspa kutichinankupaq apachiy
