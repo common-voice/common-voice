@@ -53,5 +53,6 @@ report-sc-different-language = Huk simi
 report-sc-different-language-detail = Chayqa qillqasqa kachkan hukniray simipi, qhawarisqaymanta.
 sentences-fetch-error = Huk pantaymi karqan rimaykunata apamuspa
 review-error = Kay rimayta qhawarispa pantaymi karqan
+review-error-rate-limit-exceeded = Llumpay utqayllam richkanki. Ama hina kaspa, huk asniqlla rimayta qhaway, allin kasqanmanta yachanaykipaq.
 # menu item
 review-sentences = Rimaykunata qawariy
