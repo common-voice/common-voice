@@ -4,7 +4,7 @@ speak-subtitle = Уи макъыр ет
 record-cta = Тетхэн щӀэдзэ
 record-platform-not-supported = Ди жагъуэщ, уи платформэр иджыпстукӏэ зыщӏэгъэкъуакъым.
 record-platform-not-supported-desktop = Iэнэтет ӏэмӏпсымэхэмкӏэ … къебгъэхыу хэлъхьэ пщӏыфынущ
-record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
+record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, … тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
 record-must-allow-microphone = Микрофон екӏуэлӏапӏэм хуитыныгъэ ептын хуейщ.
 record-no-mic-found = Микрофон къэгъуэта щыӏэкъым.
 record-error-too-short = Тетхэныр кӏэщӏыӏуэщ.
@@ -34,11 +34,11 @@ review-submit-msg = Уи тетхэхэм щхьэкӏэ фӏыщӏэ пхудо
 review-recording = Еплъыж
 review-rerecord = Тетхэж
 review-cancel = Егъэхьыныр къутэж
-review-keep-recordings = Тетхахэр  Ӏыгъ
+review-keep-recordings = Тетхахэр Ӏыгъ
 review-delete-recordings = Си тетхэхэр тегъэкӏ
 review-terms = Common Voice къызэрыбгъэсэбэпымкӏэ, ди <termsLink>Щытыкӏэхэмрэ</termsLink> <privacyLink>Щэхуныгъэ хъыбаргъэӏумрэ</privacyLink> бодэ
 terms-agree = Содэ
-terms-disagree = Сыдэркъым
+terms-disagree = Сдэкъым
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Уи макъ клипхэр зэрыптам щхьэкӀэ фӏыщӏэ пхудощӏ!
 first-cta-subtitle-text = Уэ птеухуа щӏэныгъэхэр къыдэптымэ, зэхэзылъхьэхэм нэхъ ӏэджэзыщӏэт ӏэмал-ӏэзэгъуэ яухуэну удэӏэпыкъунущ
@@ -55,17 +55,17 @@ first-cta-gender-select-help-text =
     .label = Уи лхугъэр хьэмэрэ уи зэрыбжыкӏэр дауэт зэрыптхыжынур?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Уи макъыр зэребгъэхьам щхьэкӏэ фӏыщӏэ пхудощӏ!
-second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы  макъ тэзыха адрей цӀыхухэми нэуасэ пхуэхъуфынущ.
-already-have-an-account = Напэкӏуэцӏ уиӏэ ? "" <login>щӏэхьэ<login>
-create-profile-button = Напэкӏуэцыщӏэ къагъэкӏ
+second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы макъ тезыха адрей цӀыхухэми нэӏуасэ пхуэхъуфынущ.
+already-have-an-account = Ӏэкаунт уиӏахэ? <login>Ихьэ<login>
+create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
 # IMAGE TAGS
 img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
 # menu item
-read-sentences = Псалъэухахэр еджэ
+read-sentences = Псалъэухахэм яджэ
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Псалъэухахэр еджэ, Упщӏэхэм жэуап ет
+speak-contribute-menu-tooltip = Псалъэухахэм еджэ, упщӏэхэм жэуап ет
 read-sentences-menu-item-tooltip = Уи бзэкӏэ псалъэуха ущеджэм езым зытетхэж
 answer-questions-menu-item-tooltip = Уи бзэкӏэ упщӏэхэмрэ чэнджэщхэмрэ жэуап щептым езым зытетхэж
 

@@ -51,8 +51,20 @@ activity-needed-calculation-plural =
     }зы махуэм.
 how-many-per-day = Лъэщ! Махуэм тхыгъэ дапщэ?
 how-many-a-week = Лъэщ! Тхьэмахуэм тхыгъэ дапщэ?
+goal-interval-weekly = Тхьэмахуэ къэс
 share-goal-type-speak = Къэпсалъэ
 share-goal-type-listen = Едэӏу
 
 ## Goals
 
+streaks = Махуэ зэпыту
+days =
+    { $count ->
+        [one] Махуэ
+       *[other] Махуэу
+    }
+validations =
+    { $count ->
+        [one] Хэплъэж
+       *[other] Хэплъэжу
+    }

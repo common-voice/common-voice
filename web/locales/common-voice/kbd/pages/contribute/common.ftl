@@ -43,24 +43,24 @@ submit-form-action = Егъэхь
 
 ## Reporting
 
-report = Тхьэусыхэ
-report-title = Тхьэусыхафэ егъэхь
+report = Рапорт
+report-title = Рапорт егъэхь
 report-ask = Сыт мы псалъэухамкӏэ гугъу уезыгъэхьыр?
 report-offensive-language = Хъуэн псалэ
 report-offensive-language-detail = Псалъэухам цӏыху зэхэгъэж е гуемыӏу псалъэ хэтщ.
-report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
+report-grammar-or-spelling = Грамматикэ / орфографие щыуагъэ
 report-grammar-or-spelling-detail = Псалъэухам грамматикэ е орфографие щыуагъэ хэтщ.
-report-different-language = Нэгъэщ бзэ
-report-different-language-detail = { "" }
-report-difficult-pronounce = БгъэIуэну гугъущ
-report-difficult-pronounce-detail = Еджэгъуей е къэпсэлъыгъуей псалъэхэр, псалъэ зэпхахэр хэтщ.
+report-different-language = Нэгъуэщӏыбзэ
+report-different-language-detail = Сызэрыщыпсалъэ бзэкӀэ фӀэмыкӀыу тхащ.
+report-difficult-pronounce = Жыӏэгъуейщ.
+report-difficult-pronounce-detail = Къеджэн е къэпсэлъэн гугъу хъу псалъэ е псалъэуха къыхэтщ.
 report-offensive-speech = Хъуэн псалъэ
-report-offensive-speech-detail = { "" }
+report-offensive-speech-detail = Макъ тетхам цӏыху зэхэгъэж е гуемыӏу псэлъэ хэтщ.
 report-other-comment =
-    .placeholder = ЩIэтхэ
+    .placeholder = Комментарий
 success = Хьэзырщ
 continue = АдэкӀэ
-report-success = Тхьэусыхафэр зэпэщу егъэхьа хъуащ
+report-success = Рапортыр ебгъэхьащ.
 
 ## Speak & Listen Shortcuts
 
@@ -72,15 +72,15 @@ shortcut-skip = с
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = р
-shortcut-record-toggle-label = Трегъатхэ/Къэгъэувыӏэ
+shortcut-record-toggle-label = Тетхэ/Къэгъэувыӏэ
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Щӏэрыщӏу егъэтхыж
+shortcut-rerecord-toggle-label = Щӏэрыщӏэу тетхэж
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Тхыгъэм къегъэгъэзэж
+shortcut-discard-ongoing-recording-label = Макъ зэрытхыкӀыгъэм техыж
 shortcut-submit = Гъэзэж
-shortcut-submit-label = Клипхэр егъэхь
-request-language-text = Common Voice-ым уи бзэр иджыркӏэ хэту плъагъукъэ?
-request-language-button = Бзэм щӏэупщӏ
+shortcut-submit-label = Макъ зэрытхыныгъэр егъэхь
+request-language-text = Уи бзэр Common Voice-м хэту плъагъукъэ?
+request-language-button = Бзэщlэ дэщlыгъуа хъун щхьэкlэ лъэlу егъэхь
 
 ## Listen Shortcuts
 
@@ -102,7 +102,7 @@ contribution-criteria-link = Хабзэм щӏэупщӏэ
 contribution-criteria-page-title = Узэрыхыхьэпхъэ пщалъэхэр
 contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
 contribution-for-example = щапхъэ
-contribution-misreadings-title = Къеджэкӏэ пхэнжхэр
+contribution-misreadings-title = Къеджэныгъэ мытэрэз
 contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
 contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
 contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.

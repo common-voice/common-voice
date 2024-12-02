@@ -61,7 +61,7 @@ create-profile-button = Профил шӏы
 # IMAGE TAGS
 img-alt-success-checkmark = Гъэхъагъэ итамыгъ!
 # menu item
-read-sentences = Гущыӏэухыгъэхэм къяджэн
+read-sentences = Гущыӏэухыгъэхэм къядж
 
 ## MENU ITEM TOOLTIPS
 

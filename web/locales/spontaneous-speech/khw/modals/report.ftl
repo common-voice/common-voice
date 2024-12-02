@@ -1,13 +1,13 @@
 ## Report Modal
 
 report-modal-title = رپورٹو جمع کو
-report-modal-subtitle = ہمی موادان سوم  تہ تین کیا مسلہ شیرا؟
+report-modal-subtitle = ہمی مواد تہ تین کیا مسلٔہ پیدا کونیانا؟
 offensive_speech = شوم مواد
 offensive_speech-detail = ہیہ موژی غیر مہذب یا شوم لو شیر۔
 different_language = مختلف وار
 different_language-detail = اوا کیا وارو کی توقع کوراو اوشتام ہیا شیرو وار ہتیغار مختلف۔
 personally_identifiable_information = تان شناختو قابل معلومات
-personally_identifiable_information-detail = ہمی موادان موژی کیا انسانو ذاتی طورا ہوݰ کوریو بݰ  معلومات شینی، کچا کی توغو نام، ای میل ایڈریس، ژاغہ، شناختی نمبر یا فون نمبر۔
+personally_identifiable_information-detail = ہمی موادان موژی کوس ذاتی طورا ہوݰ کوریکو بݰ معلومات شینی، کیچہ کی تیتان نام، ای میل ایڈریس، ژاغا، شناختی نمبر یا فون نمبر۔
 report-other-comment =
     .placeholder = تبصرہ
 # Label for textarea in report modal

@@ -6,6 +6,7 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> Escoite a
 check-editbox-header = Comprobar
 no-transcriptions-message = Actualmente non hai transcricións para revisar neste idioma. Por favor actualice a páxina ou ténteo de novo máis tarde.
 vote-transcript-success = Voto enviado
+vote-transcript-error = Produciuse un erro ao votar a transcrición
 transcript-edited-success = Editouse a transcrición
 transcript-edited-error = Produciuse un erro ao editar a transcrición
 error-fetching-transcriptions = Produciuse un erro ao recuperar as transcricións. Ténteo de novo máis tarde.

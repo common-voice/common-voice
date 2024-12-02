@@ -33,6 +33,8 @@ required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
+small-batch-sentence = نکا بیچ
+bulk-sentence = وݙی بیچ
 sentence-domain-combobox-label = جملے دی ڈومین
 sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
