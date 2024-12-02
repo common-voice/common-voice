@@ -57,5 +57,6 @@ review-error-rate-limit-exceeded = Llumpay utqayllam richkanki. Ama hina kaspa, 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wakin hatun tukuchipakunata ruwachkayku
 sc-redirect-page-subtitle-1 = Sentence Collector runaqa Common Voice kuyuchkan. Kunanqa <writeURL>qillqayta</writeURL> huk rimayta icha <reviewURL>qhaway</reviewURL> huklla rimay kachasqakunata Common Voice atikunki.
+sc-redirect-page-subtitle-2 = Chaykunamanta tapuwayku <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> utaq <emailLink>email</emailLink>.
 # menu item
 review-sentences = Rimaykunata qawariy
