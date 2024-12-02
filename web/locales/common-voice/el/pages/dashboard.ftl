@@ -18,7 +18,7 @@ validated-clips = Επικυρώσεις
 total-approved = Σύνολο εγκεκριμένων
 overall-accuracy = Συνολική ακρίβεια
 set-visibility = Ορατότητα
-visibility-explainer = Αυτή η ρύθμιση ελέγχει την ορατότητά σας στην κατάταξη. Αν επιλέξετε «Απόκρυψη», η πρόοδός σας θα είναι ιδιωτική. Αυτό σημαίνει ότι η εικόνα, το όνομα χρήστη και η πρόοδός σας σας δεν θα εμφανίζονται στην κατάταξη. Σημειώστε ότι η ανανέωση της κατάταξης διαρκεί ~{ $minutes } λεπτά.
+visibility-explainer = Αυτή η ρύθμιση ελέγχει την ορατότητά σας στην κατάταξη. Αν επιλέξετε «Απόκρυψη», η πρόοδός σας θα είναι ιδιωτική, δηλαδή η εικόνα και το όνομα χρήστη σας δεν θα εμφανίζονται στην κατάταξη. Η ανανέωση της κατάταξης διαρκεί ~{ $minutes } λεπτά.
 visibility-overlay-note = Σημείωση: Αν έχετε επιλέξει «Εμφάνιση», μπορείτε να αλλάξετε αυτήν τη ρύθμιση στη <profileLink>σελίδα «Προφίλ»</profileLink>
 show-ranking = Εμφάνιση κατάταξης
 
@@ -41,10 +41,10 @@ finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασί�
 lose-changes-warning = Αν αποχωρήσετε τώρα, θα χάσετε τις αλλαγές σας
 build-custom-goal = Δημιουργήστε έναν προσαρμοσμένο στόχο
 help-reach-hours-pluralized =
-    Βοηθήστε μας να φτάσουμε { NUMBER($hours) ->
-        [one] { $hours } ώρα
-       *[other] { $hours } ώρες
-    } στα { $language } με ένα προσωπικό στόχο
+    { NUMBER($hours) ->
+        [one] Βοηθήστε μας να φτάσουμε τη { $hours } ώρα στα { $language } με έναν προσωπικό στόχο
+       *[other] Βοηθήστε μας να φτάσουμε τις { $hours } ώρες στα { $language } με έναν προσωπικό στόχο
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Βοηθήστε το Common Voice να φτάσει τη { $hours } ώρα σε μια γλώσσα με έναν προσωπικό στόχο
@@ -80,9 +80,9 @@ help-share-goal = Βοηθήστε μας να βρείτε περισσότερ
 confirm-goal = Επιβεβαίωση
 goal-interval-weekly = Εβδομαδιαία
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Μοιραστείτε τον ημερήσιο στόχο σας { $count } κλιπ για { $type }
+share-n-daily-contribution-goal = Μοιραστείτε τον ημερήσιο στόχο των { $count } αποσπασμάτων για { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Μοιραστείτε τον εβδομαδιαίο στόχο σας { $count } κλιπ για { $type }
+share-n-weekly-contribution-goal = Μοιραστείτε τον εβδομαδιαίο στόχο των { $count } αποσπασμάτων για { $type }
 share-goal-type-speak = Ομιλία
 share-goal-type-listen = Ακρόαση
 share-goal-type-both = Ομιλία και ακρόαση

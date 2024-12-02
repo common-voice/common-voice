@@ -43,7 +43,7 @@ terms-disagree = Non estou conforme
 first-cta-header-text = Grazas por doar os seus fragmentos de voz!
 first-cta-subtitle-text = Desexa compartir información sobre a súa forma de falar?
 why-donate = Por que preguntamos?
-why-donate-explanation-1 = Esta información é opcional, polo que só debe engadila se así o desexa. Cando publicamos o conxunto de datos, anonimizamos toda a información persoal e asegurámonos de que información como o seu nome e o seu correo electrónico non estean conectadas a información demográfica (idade, sexo etc.)
+why-donate-explanation-1 = Esta información é opcional, polo que só debe engadila se así o desexa. Cando publicamos o conxunto de datos, anonimizamos toda a información persoal e asegurámonos de que información como o seu nome e o seu correo electrónico non estea conectada a información demográfica (idade, sexo etc.)
 why-donate-explanation-2 = Para que a tecnoloxía funcione ben para todo o mundo, os datos empregados polas persoas que a desenvolven deben reflectir unha ampla gama de formas de falar. Por exemplo, se non incluímos ningún falante cun acento concreto, entón a tecnoloxía non funcionará ben para as persoas con ese acento. <learnMore>Saber máis sobre por que son importantes os metadatos.</learnMore>
 add-information-button = Engadir información
 continue-speaking-button = Non, grazas. Prefiro seguir falando
@@ -54,7 +54,7 @@ first-cta-gender-select-default-option = Seleccione unha opción
 first-cta-gender-select-help-text =
     .label = Como describiría o seu sexo ou xénero?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Grazas por aportar a súa voz!
+second-cta-header-text = Grazas por achegar a súa voz!
 second-cta-subtitle-text = Cun perfil, pode facer o seguimento da súa actividade e participar na comunidade de colaboradores de datos de voz.
 already-have-an-account = Xa ten unha conta? <login>Iniciar sesión</login>
 create-profile-button = Crear un perfil
@@ -65,6 +65,12 @@ read-sentences = Ler frases
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Ler frases, responder preguntas
+read-sentences-menu-item-tooltip = Ler e gravar frases no seu idioma
+answer-questions-menu-item-tooltip = Gravar respostas a preguntas e indicacións no seu idioma
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Menú de opcións de fala
+read-sentences-menu-item-aria-label = Ler frases enviadas pola comunidade en varios idiomas
+answer-questions-menu-item-aria-label = Enviar unha nova pregunta para que a comunidade lea e responda

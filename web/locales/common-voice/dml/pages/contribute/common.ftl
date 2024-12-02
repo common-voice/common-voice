@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> کلپ
        *[other] <bold>{ $count }</bold> کلپ نم
     }
-goal-help-recording = تو عام کاڻ کی وعبنہ مدد کُروپ<goalPercentage> </goalPercentage> امونہ روزانہ{ $goalValue } ریکارڈنگ تہ مقصد
-goal-help-validation = تو عام کاڻ ساں  مدد کُروپ ویبنہ<goalPercentage> </goalPercentage> امونہ روزانہ تہ{ $goalValue } مقصد تہ توثیقہ
+goal-help-recording = تو کامن وائس کی وعبنہ مدد کُروپ<goalPercentage> </goalPercentage> امونہ روزانہ{ $goalValue } ریکارڈنگ تہ مقصد
+goal-help-validation = تو کامن وائس ساں  مدد کُروپ ویبنہ<goalPercentage> </goalPercentage> امونہ روزانہ تہ{ $goalValue } مقصد تہ توثیقہ
 contribute-more =
     { $count ->
         [one] ایک ورے { $count } کُرئیں کی تیار تھوپی
@@ -26,7 +26,7 @@ keep-track-profile = پروفائل ملی تانوں پیش رفت ݜا نظر 
 login-to-get-started = لاگِن یا سائن اپ کُرے شروع کُرعیں کی
 target-segment-first-card = تو امونہ اول ہدف تہ حصہ تعاون کُنپ
 target-segment-generic-card = تو ایک ہدف ویلہ حصہ تعاون کُنپ
-target-segment-first-banner = عام کاڻ تہ اول ہدف تہ حصہ ژوپنہ مدد کُرا{ $locale }
+target-segment-first-banner = کامن وائس تہ اول ہدف تہ حصہ ژوپنہ مدد کُرا{ $locale }
 target-segment-add-voice = تانوں کاڻ جمع کُرا
 target-segment-learn-more = لے ڇھیڇا
 change-preferences = ترجیہات نم بدل کُرا
@@ -77,7 +77,7 @@ shortcut-discard-ongoing-recording = ای ایس سی ESC
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ رد کُرے
 shortcut-submit = گیرنکھتن
 shortcut-submit-label = کلپ نم جمع کُرا
-request-language-text = ژا تلی تاں باݜہ عام کاڻہ نی بینُم
+request-language-text = ژا تلی تاں باݜہ کامن وائسہ نی بینُم
 request-language-button = ایک باݜہ تہ درخواست کُرے
 
 ## Listen Shortcuts

@@ -76,6 +76,7 @@ read-more-about = Lege plus in nostre pagina: A proposito
 ## NAV ITEMS
 
 answer-questions = Responder a questiones <small>(Tosto veniente)</small>
+review-transcriptions = Verifica le transcriptiones <small>(Tosto veniente)</small>
 add-questions = Adder Questiones <small>(Tosto veniente)</small>
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos

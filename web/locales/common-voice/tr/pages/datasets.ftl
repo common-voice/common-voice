@@ -95,3 +95,7 @@ release-version = Sürüm
 dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Ses verisi kümelerimizi indirin
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice verilerine erişebilmeniz için indirme seçenekleri

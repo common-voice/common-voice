@@ -59,3 +59,5 @@ review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kont
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.
 sc-redirect-page-subtitle-2 = Pýtajte sa nás na <matrixLink>Matrixe</matrixLink>, <discourseLink>Discourse</discourseLink> alebo <emailLink>e‑mailom</emailLink>.
+# menu item
+review-sentences = Kontrola viet

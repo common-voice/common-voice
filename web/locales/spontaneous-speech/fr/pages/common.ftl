@@ -33,22 +33,21 @@ check-transcriptions = Vérifier les transcriptions
 
 not-found-page-header = Non trouvé
 not-found-page-content = La page que vous recherchez est introuvable
-
 # Privacy and Terms checkbox
 accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou
-en = English
-mbf = Baba Malay
-msi = Sabah Malay
-ms-MY = Bahasa Malay
-pne = Western Penan
-kzi = Kelabit
 cpx = Heng Hua
-kai = Kelabit
+en = English
+fr = Français
+kzi = Kelabit
+mbf = Baba Malay
+meh = Mixtèque du sud-ouest de Tlaxiaco
 mel = Central Melanau
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pne = Western Penan
 sdo = Serian Bidayuh
-sdo = Serian Bidayuh
+tr = Turc
 xkl = Kenyah

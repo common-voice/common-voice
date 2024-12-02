@@ -65,8 +65,12 @@ read-sentences = Cümleleri oku
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Cümleleri oku, soruları yanıtla
+read-sentences-menu-item-tooltip = Kendi dilinizde cümleleri okurken sesinizi kaydedin
+answer-questions-menu-item-tooltip = Sorulara ve komutlara kendi dilinizde yanıt verirken sesinizi kaydedin
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Konuşma seçenekleri menüsü
 read-sentences-menu-item-aria-label = Topluluğun çeşitli dillerde gönderdiği cümleleri okuyun
+answer-questions-menu-item-aria-label = Topluluğun okuyup yanıtlaması için yeni bir soru gönderin

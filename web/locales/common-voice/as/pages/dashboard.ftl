@@ -4,9 +4,9 @@ your-languages = আপোনাৰ ভাষাবোৰ
 toward-next-goal = পৰৱৰ্তী লক্ষ্যৰ দিশে
 goal-reached = লক্ষ্যত উপনীত হৈছে
 clips-you-recorded = আপুনি ৰেকৰ্ড কৰা ক্লিপৰ সংখ্যা
-clips-you-validated = আপুনি বৈধকৰণ কৰা ক্লিপৰ সংখ্যা
+clips-you-validated = আপুনি বৈধতা নিশ্চিত কৰা ক্লিপৰ সংখ্যা
 todays-recorded-progress = কমন ভইচৰ আজিৰ ক্লিপ ৰেকৰ্ড কৰা প্ৰগতি
-todays-validated-progress = কমন ভইচৰ আজিৰ ক্লিপ বৈধকৰণ কৰা প্ৰগতি
+todays-validated-progress = কমন ভইচৰ আজিৰ ক্লিপ বৈধকৰণৰ প্ৰগতি
 stats = পৰিসংখ্যা
 awards = বঁটা
 you = আপুনি
@@ -103,7 +103,7 @@ share-goal = মোৰ লক্ষ্য ভাগ-বতৰা কৰক
 
 ## Goals
 
-streaks = ষ্ট্ৰিক্‌চ
+streaks = ষ্ট্ৰীকবোৰ
 days =
     { $count ->
         [one] দিন

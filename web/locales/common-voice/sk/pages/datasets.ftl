@@ -94,3 +94,7 @@ release-version = Verzia
 dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Stiahnite si naše hlasové kolekcie údajov
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Možnosti sťahovania pre prístup k údajom Common Voice

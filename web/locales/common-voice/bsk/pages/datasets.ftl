@@ -1,0 +1,92 @@
+## Datasets Page
+
+datasets-heading = datasetiṅ
+datasets-headline = mi buṭan baaṣiṅulo ućʰariṅe uyoonar dataset desmaya baan amit aminane ke istimaal ne speech enabled applications in train etas omay baan
+datasets-positioning = mii bac̣ik bila ke uyoṅko ućʰariṅe dataset e machine ate henas ućʰariṅe technology ulo muqaabila daa naya duroin ulo baskaar eći. common voice e butan baaṣiṅe dataset muuto ke uyoon cum uyum ućʰariṅe dataset bi. gute page ar barenin ami tʰumiṅ open source ućʰariṅe dataset gane reference hub bila daa common voice akhilate yaarqiṣ meeymi, mii release updates gane home
+language = baaṣ
+download-dataset-header = dataset download etin
+download-delta-explainer = mii kaman tabdiilimin etaan. delta segments ulo uyoon cum thuwaan clipin bican. gute duro baaraulo daa ġatanin
+download-dataset-tag = awaaji bilum baaṣe dataset damśi etin daa amit version download etase ray bila ke ite damśi etin
+# File size in gigabytes
+size = diś ganas
+validated-hr-total = tasdiiq manum tok gantan
+overall-hr-total = tok uyoon gantan
+cv-license = license
+audio-format = ićʰare format
+dataset-splits = traṅ (yoolin daa hilesa be dasin)
+number-of-voices = ućʰariṅe taadaat
+splits = traṅ etas
+email-to-download = download e gane email enter etin
+why-email = email an bes? dataset ulo besan jin deen badal etas manimi ke maaka raabta ećar daa email e hihine kaa raabtulo meuruśi bi
+why-donate-datasets-page = mozila common voice dunyaatulo  har raxte sise gati etum ućʰariṅe dataset bila daa mimar śat uyoon donations cum miyaća baan. gute duro ate yoolulo hik million dollars xarća bi amicate tʰaa cum baske  datasets host eáaan daa platform warc ećaan. uyoon śaamil otas data maa ke qadar ećaan ke kʰulto donate etin
+confirm-size = ma download ećar tayaar baan
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = maa common voice dataset ulo ćaġamin etum ine menan bai ke nuse phaṣ ayćan nuse maan etin
+confirm-join-mailing-list = maa common voice e mailing list ulo kaa manaae ray ećaan
+download-language = download etin
+validated-hours = gantane tasdiiq etin
+recorded-hours = record etum gantan
+whats-inside = comon voice dataset ulo besan bi?
+dataset-description-hours = data set e har entry ulo han desqatum MP3 an bila daa ite ce yom text bila. dataset ulo demographic data maslan age, sex daa ac̣cent e maalumaat ke bila amit cum speech recognition engine e ac̣curacy train ećar madat eći bi. gute kheenulo dataset ulo baaṣiṅulo tasdiiq etum gantan bican leikin mii hamiś butan ućʰariṅ ke baaṣiṅ kaa eća baan. baaṣane buyatar yaa emaśar duuyar mii baaṣine patuar joot maniin
+want-dataset-update = updates in awaaji beśal mii common voice dataset e thoṣ version diyusumar? mii newsletter subscribe etin.
+subscribe = subscribe
+get-started-speech = bariṅ leel etase kaa duro duunin
+other-datasets = tʰum ućarulo dataset in
+feedback-q = juwaap mićʰiyas mamanas bilaa?
+# This indicates that there is no data to display
+no-information = be ke maalumat api
+resource-nemo-info = NVIDA NeMO je baa senumin ćaġa bare AI models dosmayar research etaśue gana open source toolkit bi
+resource-deepspeech-info = ćaġamin leel etas applications desmayar mozilla open source e ućʰar leel etase deep speech engine istimaal etas mey bila. mii Github overview ġatanin daa deepspeech discourse e kaa numan belata duro duunas bila ke henin
+resource-coqui-info = Coquiye open speech technologiye gane duro ećila. uwe project inulo deep learning cum SST daa TTS injenin bican
+community-playbook = kuyooće playbook
+resource-playbook-info = tok common voice e safar ate localisation cum dataset eduruas daa belate kuyooće kaa juda mayaar mariinc ce duunas guidance ar barenin
+data-other-librispeech-description = Librispeech taqriiban 16Khz e hazaar gantane angreezi baring amik LibriVox project e ghatumin audiobooks cum daal etum bican
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM e corpus TED website ate bicum transcriptions daa audio talks cum desmanum bila
+data-other-voxforge-description = transcribed speech gati ećar VoxForge setup delaanamit  free and open source speech recoginition engines e kaa  duruar sućar.
+data-other-tatoeba-description = baaś henasar duroar sućar Tatoeba jumlane daa spoken audio but uyum database bila. gute download ulo uymo sise record etum spoken English bila.
+your-feedback = belate common voice e dataset daltas etase ideas in mamale bicana? discourse ate mesin naa
+go-discourse = discourse ar niin
+missing-language = maa baaṣ dataset ulo ganaas eyśaana? baṣan e gane buyatar mii baaṣe patuatar maskil etin
+go-languages-page = baṣine patuatar niin
+ready-to-validate = jumlane tasdiiq etase gane juwaap mićʰićar tayaar baana?
+more = daa/hik ke
+close = ban eti
+download = download eti
+dataset-version = version
+sha256-checksum-copied = SHA256 checksum copy manimi
+sha256-checksum-copied-error = SHA256 checksum copy omanini
+clipboard-not-supported = clipboard ar support api
+no-information-available = besan ke maalumatan api
+dataset-metadata-sex = hilesan be dasinan
+# dataset metadata - age of contributor
+dataset-metadata-age = umur
+donate-modal-message = maa dataset download meey bi
+dataset-donate-modal-heading = maar leel biluma?
+donate-modal-explanation-1 = 100 cum baske baaṣe kuyooće mene mi etas duruate barosa ećaan ite dataset host ećar daa platform improve ecár taqriiban yoolulo hik million dollars e xarća bi amit
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = inclusive data qadar ećaan ke khole khulto donate etin
+data-download-singleword-title = hank lafze target segment download etin
+data-download-singleword-callout-v2 = khot use case driven segment ulum data spoken digit recognition yaa yes/no detection ar śat ićʰići bi
+data-download-button = common voice data download eti
+data-download-yes = awa
+data-download-deny = beeya
+data-download-license = license
+data-download-modal = maa bas muu download  ećuman, súru eti?
+data-subtitle = mi buṭan baaṣiṅulo ućʰariṅe uyoonar dataset desmaya baan amit aminane ke istimaal ne speech enabled applications in train etas omay baan
+data-explanatory-text = mii bac̣ik bila ke uyoṅko ućʰariṅe dataset e machine ate henas ućʰariṅe technology ulo muqaabila daa naya duroin ulo baskaar eći. common voice e butan baaṣiṅe dataset muuto ke uyoon cum uyum ućʰariṅe dataset bi. gute page ar barenin ami tʰumiṅ open source ućʰariṅe dataset gane reference hub bila daa common voice akhilate yaarqiṣ meeymi, mii release updates gane home
+data-get-started = Speech Recognition kaa duro duunin
+data-other-title = tʰumin ućarine dataset in
+data-other-goto = ele niin
+data-other-download = data download eti
+data-bundle-button = dataset bundle download etin
+data-bundle-description = common voice e data kaa uyon yatum tʰumin ućʰarine dataset in
+release-version = version
+dataset-date = tariix
+license = license
+license-mixed = jarmaṣ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = mii mićʰare dataset in download etin
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = common voice e data ac̣cess ećar download etas option in

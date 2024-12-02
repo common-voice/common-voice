@@ -1,12 +1,12 @@
 ## REVIEW
 
-sc-review-lang-not-selected = iyeta peji kitu'imu itana na'wesari na,wamia. Pawé simika ne'neme <profileLink>waa perfirechi</profileLink>  pa'ke tu'tay piripi o we'ka nawesari na'iwamia.
-sc-review-title = revisandomia puka oracioni
-sc-review-loading = umatoteniame  oracioni puka programachi
-sc-review-select-language = Usá pii nawesary nenémichó oracioné
-sc-review-no-sentences = kite waasi o'rasioni  púka ne'neniame. <addLink> na'peniame e'peché o'rasioni</addLink>
+sc-review-lang-not-selected = Iyeta pehi kitu'imu itana na'wesari na wamia. Pawé simika ne'neme <profileLink>waa perfireči</profileLink>  pa'ke tu'tay piripi o we'ka nawesari na'iwamia.
+sc-review-title = Rebisandomia pu'ká orasioni
+sc-review-loading = Umatoteniame orasioni pu'ká programači
+sc-review-select-language = Usá pii nawesari nenémičó orasioné
+sc-review-no-sentences = Kite waasi o'rasioni  pu'ká ne'neniame. <addLink> Na'peniame epečé o'rasioni</addLink>
 sc-review-form-prompt =
-    .message = Ka'i ito'chena pu'ka ne'netiame, ¿pichi'wá chani'mú?
+    .message = Ka'i ito'čena pu'ká ne'netiame, ¿piči'wá čani'mú?
 sc-review-form-usage =
     Ri'siitate wa'a a'jámina pu'ka yorapame. Ri'siitate waa jo'wena'mina puka kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
     ka'te na'tekepa puka itochemia amo ne'neria</strong>

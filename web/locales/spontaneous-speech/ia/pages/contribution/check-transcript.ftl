@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Ascolta le registration vocal, e verifica le transcription. Concorda illo? Si non, redige lo pro concordar perfectemente.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Marcar
 no-transcriptions-message = Il ha actualmente nulle transcriptiones a verificar pro iste lingua. Renova le pagina o retenta plus tarde.

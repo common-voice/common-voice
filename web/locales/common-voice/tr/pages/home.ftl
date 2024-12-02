@@ -78,6 +78,10 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 ## NAV ITEMS
 
+answer-questions = Soru yanıtla <small>(Çok yakında)</small>
+review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
+add-questions = Soru ekle <small>(Çok yakında)</small>
+transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
 
@@ -85,7 +89,12 @@ community-and-languages = Topluluk ve Diller
 
 about-menu-tooltip = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller
 partnerships-menu-item-tooltip = İş ortağımız olun
+press-and-stories-menu-item-tooltip = Blogumuzu ziyaret edin veya hakkımızda yazı yazın
+community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voice’u keşfedin
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Seçenekler menüsü hakkında
+partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi alın
+press-and-stories-menu-item-aria-label = Common Voice ile ilgili basın bültenlerine ve haberlere ulaşın
+community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve desteklenen dilleri keşfedin

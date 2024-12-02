@@ -2,7 +2,7 @@ action-click = Теӏункӏ
 action-tap = Теӏаб
 contribute = Ӏахьэ хэлъхьан
 review = Еплъыжъын
-skip = Блэгъакӏ
+skip = Блэкӏ
 shortcuts = Гъогу кӏэкӏхэр
 clips-with-count-pluralized =
     { $count ->

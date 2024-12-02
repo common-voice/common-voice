@@ -2,7 +2,7 @@
 
 write = Escriba
 write-instruction = Engada <icon></icon> unha frase de dominio público
-write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
+write-page-subtitle = As frases achegadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
 sentence-input-placeholder = Introduza aquí a súa frase de dominio público
@@ -148,6 +148,16 @@ add-sentences = Engadir frases
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Engadir e revisar frases, engadir preguntas e transcribir gravacións
+add-sentences-menu-item-tooltip = Engadir frases no seu idioma
+review-sentences-menu-item-tooltip = Revisar frases no seu idioma
+add-questions-menu-item-tooltip = Engadir preguntas no seu idioma
+transcribe-audio-menu-item-tooltip = Transcribir gravacións de audio no seu idioma
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Menú de opcións de escrita
+add-sentences-menu-item-aria-label = Engadir novas frases para lectura
+review-sentences-menu-item-aria-label = Revisar frases enviadas pola comunidade
+add-questions-menu-item-aria-label = Enviar novas preguntas para que a comunidade lea e responda
+transcribe-audio-menu-item-aria-label = Transcribir gravacións de audio

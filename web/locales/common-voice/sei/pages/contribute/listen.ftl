@@ -1,4 +1,4 @@
-listen = Sahqueecӧl aha
+listen = Sahqueecöl aha
 listen-subtitle = Icaaitom ziix quih an hant cooit coi cӧihiipe xah, cӧimiipe xah taax hoocta
 listen-instruction = { $actionType } <playIcon></playIcon> ¿Icaaitom hac miizj itamxoj?
 listen-again-instruction = ¡Ziix inyaai hac inxahiipet! <playIcon></playIcon> Impooxi haptco mos insqueecӧl ah
@@ -10,3 +10,9 @@ listen-loading-error = Icaaitom ziix quih an hant cooit coi icapacta iyomá. Hal
 listen-abort-title = ¿Icaaitom ziix quih an hant cooit coii cӧmihoocta hac taa cӧiiha ya?
 listen-abort-cancel = Cói icaaitom ziix quih an hant cooit coi cӧihiipe xah taax insoocta aha
 listen-abort-confirm = Icaaitom ziix quih an hant cooit coi cӧhihoocta hac taa cӧiiha ha
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

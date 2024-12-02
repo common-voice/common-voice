@@ -12,13 +12,9 @@ show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
 no-clips-to-validate = Vypadá to, že v tomto jazyce nejsou k poslechu žádné nahrávky. Pomozte nám nějakou nahrát.
-vote-yes = Ano
-vote-no = Ne
 toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
-speak-subtitle = Darujte svůj hlas
 speak-paragraph = Pořizování nahrávek hlasu je nedílnou součástí tvorby naší otevřené databáze. A pro některé i zábava.
 speak-goal-text = Počet nahrávek
-listen-subtitle = Pomozte nám ověřovat nahrávky
 listen-paragraph = Ověřování hlasových nahrávek je pro projekt Common Voice také důležité. Zaposlouchejte se a pomozte nám vytvořit kvalitní veřejně přístupnou databázi.
 listen-goal-text = Klipů ověřeno
 hours-recorded = Hodin nahráno
@@ -79,3 +75,26 @@ help-contribute = Pomozte vybudovat různorodý otevřený dataset. Vytvořte si
 login-company = Přihlásit / Zaregistrovat se e-mailem { $company }
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 read-more-about = Přečtěte si více na stránce O nás
+
+## NAV ITEMS
+
+answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
+review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
+add-questions = Přidat otázky <small>(Již brzy)</small>
+transcribe-audio = Přepis zvuku <small>(již brzy)</small>
+press-and-stories = Tisk a příběhy
+community-and-languages = Komunita a jazyky
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerství, tisk a příběhy, komunita a jazyky
+partnerships-menu-item-tooltip = Staňte se našimi partnery
+press-and-stories-menu-item-tooltip = Navštivte náš blog nebo o nás napište
+community-and-languages-menu-item-tooltip = Objevte jazyky, komunity a společný hlas
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Možnosti nabídky O nás
+partnerships-menu-item-aria-label = Další informace o partnerství se službou Common Voice
+press-and-stories-menu-item-aria-label = Přístup k tiskovým zprávám a příběhům souvisejícím s Common Voice
+community-and-languages-menu-item-aria-label = Prozkoumejte komunitu a jazyky podporované službou Common Voice

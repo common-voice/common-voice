@@ -1,38 +1,76 @@
-record-cta = Тхын щIэдзэ
-record-platform-not-supported = We’re sorry, your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
-record-platform-not-supported-ios-non-safari = On iOS please continue with Safari to enable recording…
-record-must-allow-microphone = You must allow microphone access.
-record-no-mic-found = No microphone found.
-record-error-too-short = The recording was too short.
-record-error-too-long = The recording was too long.
-record-error-too-quiet = The recording was too quiet.
-record-cancel = Cancel Re-recording
-record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
-record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
-record-three-more-instruction = Three to go!
-record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
-record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon> Last one!
-review-tooltip = Review & re-record clips here as you go
-share-clip = Share your clip
-share-common-voice = Share Common Voice
-review-instruction = Review & re-record clips if needed
-record-submit-tooltip = { $actionType } submit when ready
-clips-uploaded = Clips Uploaded
-record-abort-title = Finish recording first?
-record-abort-text = Leaving now means you'll lose your progress
-record-abort-submit = Егъэхь пычыгъуэр
-record-abort-continue = Тхын ух
-record-abort-delete = КъикIи тхыгъэхэр их.
-review-aborted = Upload aborted. Do you want to delete your recordings?
-review-submit-title = Review & Submit
-review-submit-msg = Thank you for recording!<lineBreak></lineBreak>Now review and submit your clips below.
-review-recording = Хэплъэ
+speak = Псалъэ
+speak-now = Иджыпсту псалъэ
+speak-subtitle = Уи макъыр ет
+record-cta = Тетхэн щӀэдзэ
+record-platform-not-supported = Ди жагъуэщ, уи платформэр иджыпстукӏэ зыщӏэгъэкъуакъым.
+record-platform-not-supported-desktop = Iэнэтет ӏэмӏпсымэхэмкӏэ … къебгъэхыу хэлъхьэ пщӏыфынущ
+record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, … тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
+record-must-allow-microphone = Микрофон екӏуэлӏапӏэм хуитыныгъэ ептын хуейщ.
+record-no-mic-found = Микрофон къэгъуэта щыӏэкъым.
+record-error-too-short = Тетхэныр кӏэщӏыӏуэщ.
+record-error-too-long = Тетхэныр кӏыхьыӏуэщ.
+record-error-too-quiet = Тетхэныр щэхуӏуэщ.
+record-cancel = Тетхэжыныр къутэж
+record-instruction = { $actionType }<recordIcon></recordIcon>, иужькӀэ псалъэухам ину къеджэж
+record-stop-instruction = Щызэфӏэкӏам щыгъуэ { $actionType }<stopIcon></stopIcon>
+record-three-more-instruction = Щыщ къэнэжар!
+record-again-instruction = Фlы дыдэщ! <recordIcon></recordIcon> Къыкlэлъыкlуэ клипыр тетхэ
+record-again-instruction2 = Апхуэдэу къыпыщэ, <recordIcon></recordIcon>р аргуэру тетхэ
+record-last-instruction = <recordIcon></recordIcon> Иужь зыр!
+review-tooltip = Еплъыжи ущырикӏуэм мыбы ит клипхэр тетхэж
+share-clip = Уи клипыр дэгуэш
+share-common-voice = Common Voice-р дэгуэш
+review-instruction = Еплъыжи хуейуэ щытмэ мыбы ит клипхэр тетхэж
+record-submit-tooltip = { $actionType } хьэзыр щыхъуам егъэхь
+clips-uploaded = Клипхэр илъхьа хъуащ
+record-abort-title = Япэ щӀыкӀэ тетхэныр ухын?
+record-abort-text = Иджыпсту икlыжыным уи ефӏэкӏуэныгъэр бгъэкӏуэдыну къокӏ
+record-abort-submit = Клипхэр егъэхь
+record-abort-continue = Тетхэныр ух
+record-abort-delete = Къыхэкlыжи клипхэр тегъэкlыж
+review-aborted = Илъхьэныр зэпыудащ. Уи тетхэхэр тебгъэкlыжыну ухуей?
+review-submit-title = Еплъыжи егъэхь
+review-submit-msg = Уи тетхэхэм щхьэкӏэ фӏыщӏэ пхудощӏ!<lineBreak></lineBreak>Иджы ищӏагъым щыӏэ уи тетхэхэм еплъыжи егъэхь.
+review-recording = Еплъыж
 review-rerecord = Тетхэж
-review-cancel = Йомыгъэхь
-review-keep-recordings = Си тхыгъэ хъумэ
-review-delete-recordings = Си тхыгъэ игъэкI
-review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-terms-agree = Сы аразыщ
-terms-disagree = Сы мы аразы
+review-cancel = Егъэхьыныр къутэж
+review-keep-recordings = Тетхахэр Ӏыгъ
+review-delete-recordings = Си тетхэхэр тегъэкӏ
+review-terms = Common Voice къызэрыбгъэсэбэпымкӏэ, ди <termsLink>Щытыкӏэхэмрэ</termsLink> <privacyLink>Щэхуныгъэ хъыбаргъэӏумрэ</privacyLink> бодэ
+terms-agree = Содэ
+terms-disagree = Сдэкъым
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Уи макъ клипхэр зэрыптам щхьэкӀэ фӏыщӏэ пхудощӏ!
+first-cta-subtitle-text = Уэ птеухуа щӏэныгъэхэр къыдэптымэ, зэхэзылъхьэхэм нэхъ ӏэджэзыщӏэт ӏэмал-ӏэзэгъуэ яухуэну удэӏэпыкъунущ
+why-donate = Щхьэ уупщIэрэ?
+why-donate-explanation-1 = Мы щӏэныгъэр ептыныр ӏэмалыншӏкъым - тыншу ущыщыт къуэдейращ щыхэплъэн хуейр. Датэщыпар щыдублам зы цӏыху хуэгъэзауэ щыт щӏэныгъэу хъуар анонимнэ тщӏынущ, икӏи уи цӏэ е э-пощт хуэдэ щӏэныгъэхэр ныбжь е лъхугъэ хуэдэ демографие теухуа щӏэныгъэхэм зэрымыпыщӏам щыгъуазэ зыхуэтщӏынущ.
+why-donate-explanation-2 = Щӏэныпхър хэти щхьэкӏэ фӏыуэ лэжьэн папщӏэ зэхэзылъхьэхэм щӏэныпхъэр яухуэнкӏэ дэӏэпыкъуэгъу къахуэхъу датэм цӏыху зэхуэмыдэ ӏэджи къигъэлъагъуэу щытын хуейщ. Псалъэм папщӏэ, белджылыуэ зы акцент зиӏэ псэлъакӏуэхэр къыхэдмыгъэхьэмэ, щӏэныпхъэр а акцентым ирипсалъэ цӏыхухэм щхьэкӏэ фӏыуэ лэжьэнукъым. <learnMore>Метэдатэм и мыхьэнэшхуэм теухуауэ нэхъыбэ зэгъащӏэ.</learnMore>
+add-information-button = Щӏэныгъэ хэлъхьэ
+continue-speaking-button = Хьэуэ, упсэу, псэлъэным къыпыщэ
+create-profile-text = Уи щӏэныгъэхэр пхъумэну ухуей? <createProfile>Профиль къызэгъэпэщ</createProfile>
+thanks-for-voice-toast = Уи макъ щӏэныгъэхэм щхьэкӏэ фӏыщӏэ пхудощӏ
+thanks-for-voice-toast-error = Уи макъ щӏэныгъэхэр егъэхьа щыхъум щыуагъэ къэхъуащ
+first-cta-gender-select-default-option = Вариант къыхэх
+first-cta-gender-select-help-text =
+    .label = Уи лхугъэр хьэмэрэ уи зэрыбжыкӏэр дауэт зэрыптхыжынур?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Уи макъыр зэребгъэхьам щхьэкӏэ фӏыщӏэ пхудощӏ!
+second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы макъ тезыха адрей цӀыхухэми нэӏуасэ пхуэхъуфынущ.
+already-have-an-account = Ӏэкаунт уиӏахэ? <login>Ихьэ<login>
+create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
+# IMAGE TAGS
+img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
+# menu item
+read-sentences = Псалъэухахэм яджэ
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Псалъэухахэм еджэ, упщӏэхэм жэуап ет
+read-sentences-menu-item-tooltip = Уи бзэкӏэ псалъэуха ущеджэм езым зытетхэж
+answer-questions-menu-item-tooltip = Уи бзэкӏэ упщӏэхэмрэ чэнджэщхэмрэ жэуап щептым езым зытетхэж
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Псэлъэкӏэ теухуэныгъэхэм и меню
+read-sentences-menu-item-aria-label = Зэхэтым бзэ зэмыщхьхэмкӏэ къыригъэхьа псалъэухахэм еджэ
+answer-questions-menu-item-aria-label = Зэхэтым еджэу жэуап иритыну упщӏэщӏэ хуегъэхь

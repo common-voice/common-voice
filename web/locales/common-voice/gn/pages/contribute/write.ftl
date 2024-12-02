@@ -129,6 +129,7 @@ add-sentences = Embojuaju ñe’ẽjuaju
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Embojuaju ha ehechajey ñe’ẽjuaju, eporandu, embohasa jehaípe ñongatupyre
 add-sentences-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
 review-sentences-menu-item-tooltip = Ehechajey umi ñe’ẽjuaju ne ñe’ẽme
 add-questions-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
@@ -139,4 +140,5 @@ transcribe-audio-menu-item-tooltip = Emoñe’ẽjehai umi ñongatupyre ne ñe�
 write-contribute-menu-aria-label = Jehaipy jeporavoha
 add-sentences-menu-item-aria-label = Embojuapy ñe’ẽjuaju pyahu tekohagua omoñe’ẽ hag̃ua
 review-sentences-menu-item-aria-label = Ehechajey ñe’ẽjuaju tekohagua he’iva’ekue
+add-questions-menu-item-aria-label = Eguerahauka porandu pyahu tekohagua omoñe’ẽ ha ombohovái hag̃ua
 transcribe-audio-menu-item-aria-label = Emoñe’ẽjehai umi ñongatupyre haipýpe
