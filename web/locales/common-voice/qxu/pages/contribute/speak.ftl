@@ -8,6 +8,12 @@ record-platform-not-supported-ios-non-safari = iOS chillikukuna ama hina kaspa S
 record-must-allow-microphone = Mikiman haykuytan saqinayki.
 record-no-mic-found = Mana miki tarisqachu.
 record-error-too-short = Chay rimayqa pisillam karqa.
+record-error-too-long = Chay rimayqa llumpay unaymi karqa.
+record-error-too-quiet = Chay rimayqa nishutan ch’inlla karqa.
+record-cancel = Ama hukmanta hirquychu
+record-instruction = { $actionType }<recordIcon></recordIcon> chaymanta rimayta kallpawan ñawiriy
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ruwasqa kaptin
+record-three-more-instruction = Kimsa rinapaq!
 
 ## MENU ITEM TOOLTIPS
 
