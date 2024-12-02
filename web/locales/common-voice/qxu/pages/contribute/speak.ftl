@@ -20,6 +20,9 @@ record-last-instruction = <recordIcon></recordIcon> Qhipa kaq!
 review-tooltip = Rispayki kaypi clipkunata qhaway hinaspa yapamanta hirquy
 share-clip = Rakinakuy clipki
 share-common-voice = Rakinakuy Common Voice
+review-instruction = Rispayki clipkunata qhaway allin kaptin
+record-submit-tooltip = { $actionType } wakichisqa kaptin apachiy
+clips-uploaded = Clipkuna churasqa
 
 ## MENU ITEM TOOLTIPS
 
