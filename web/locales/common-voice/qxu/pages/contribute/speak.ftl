@@ -43,10 +43,16 @@ terms-disagree = Ñuqa mana huñikuni
 first-cta-header-text = Clipkuna nisqaykichikta qusqaykichikmantalla!
 first-cta-subtitle-text = Kikiykimanta willawaspayku, ruwaqkunata yanapanki aswan llapanpaq tiqta ruwanankupaq
 why-donate = Imanasqataq tapukunki?
-why-donate-explanation-1 = Kay willakuyqa munasqa qunapaqmi - allin kawsakuspalla yapanayki tiyan. Mayk'aq willay huñuta kachariyku, llapa sapalla willayta sutiwan sutichayku, chaymanta sutiyki chaymanta email hina willayta mana llaqta willaywan tinkisqachu kanku edad utaq qhari hina.
+why-donate-explanation-1 = Kay willakuyqa munasqa qunapaqmi - allin kawsakuspalla yapanayki tiyan. Mayk'aq willay huñuta kachariyku, llapa sapalla willayta sutiwan sutichayku, chaymanta sutiyki chaymanta email hina willayta mana llaqta willaywan tinkisqachu kanku hayk'a wata utaq qhari hina.
 why-donate-explanation-2 = Tiq llapa runapaq allin llamk'ananpaq, ruwaqkunata tiqta ruwayta yanapaq willaykunaqa imaymana runakunap rikch'ayninta rikuchinan tiyan. Sichus mana ima runakunatapas huk llaqtasimiyuqta churanchikchu chayqa, chay tiq mana allintachu llamkanqa chay llaqtasimiyuq runakunapaq. <learnMore>Metadata ancha chaniyuq kasqanmanta astawan yachay.</learnMore>
 add-information-button = Willakuykunata yapay
 continue-speaking-button = Mana, rimachallay
+create-profile-text = ¿Willakuyniykikunata waqaychayta munankichu? <createProfile>Kikinchakuyta ruway</createProfile>
+thanks-for-voice-toast = Kunkamanta willakuyniykimantalla
+thanks-for-voice-toast-error = Kunka willakuyniyki apachispa pantasqa karqan
+first-cta-gender-select-default-option = Huk akllanata akllay
+first-cta-gender-select-help-text =
+    .label = ¿Imaynatataq willawaq qari utaq warmi kasqaykita?
 
 ## MENU ITEM TOOLTIPS
 
