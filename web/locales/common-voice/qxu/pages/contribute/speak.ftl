@@ -53,6 +53,11 @@ thanks-for-voice-toast-error = Kunka willakuyniyki apachispa pantasqa karqan
 first-cta-gender-select-default-option = Huk akllanata akllay
 first-cta-gender-select-help-text =
     .label = ¿Imaynatataq willawaq qari utaq warmi kasqaykita?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Kunkaykita yanapasqaykimantalla!
+second-cta-subtitle-text = Kikinchakuy kaqwan, ruwayniyki qhawayta atikunki chaymanta huk ayllu kunka willay yanapakuqkunawan tinkiyta atikunki.
+already-have-an-account = ¿Kanchu kikinchakuyki? <login>Yaykuy</login>
+create-profile-button = Kikinchakuyta ruway
 
 ## MENU ITEM TOOLTIPS
 
