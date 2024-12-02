@@ -113,6 +113,7 @@ hero-title = Technology that speaks your language
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Why should AI only cover 1% of global languages?</bold>
 hero-subtitle-2 = Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.
+# icon is an arrow that points downwards
 get-started = Get started <icon><icon>
 
 ## Action items section
@@ -149,3 +150,8 @@ contribute-github = Contribute on Github
 contribute-github-content = This project would not be possible without people like you. 🎉 There are many ways to get involved with Common Voice - you don't have to know how to code to contribute!
 # label for button
 contribute-github-action = Contribute on Github
+
+## Featured section
+featured-section-title = Featured in...
+# icon is an arrow that points downwards
+download-press-pack = Download our press pack <icon></icon>
