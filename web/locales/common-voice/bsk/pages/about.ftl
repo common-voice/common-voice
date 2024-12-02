@@ -111,30 +111,30 @@ about-playbook-how-grow-language-content-8 = maa baaṣ etas sis xaas omayman da
 
 about-playbook-how-validate = jaar belate leel meymi ke ućhare clip approve ootas bila nuse?
 about-playbook-how-validate-content-1 = ma damayljaan daa uwe ćaġa masulo balićila ke, ućʰare cilip choor approve etas awaaji.
-about-playbook-how-validate-content-2 = amine accent un cum thum bila ke ite reject ayeti beske ućhare recognition gane zaroori bila ke uyoonar gusee daltasanate duro etiṣ.
-about-playbook-how-validate-content-3 = agar talafuz mesulo balaas mumkin api ke, daa itum khitum ućharing bican ke, thumiśuwe ućharing bica ke ite ućhare kilip reject eṭin. daa sahi etase critera maalumaaṭ gane khole barenin [accuracy link]
-about-playbook-how-validate-content-4 = agar ućhare clip altan sise reject etuman ke et thum datasetanar nićila.
+about-playbook-how-validate-content-2 = amine accent un cum thum bila ke ite reject ayeti beske ućʰare recognition gane zaroori bila ke uyoonar gusee daltasanate duro etiṣ.
+about-playbook-how-validate-content-3 = agar talafuz mesulo balaas mumkin api ke, daa itum khitum ućharing bican ke, thumiśuwe ućhariṅ bica ke ite ućhare kilip reject eṭin. daa sahi etase critera maalumaaṭ gane khole barenin [accuracy link]
+about-playbook-how-validate-content-4 = agar ućʰare clip altan sise reject etuman ke et thum datasetanar nićila.
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = dataset belate access ećam daa istimaal ećam?
-about-playbook-how-access-dataset-content-1 = ma dataset pageatar niṣ maamay ban kholum [dataset page],  version ke baaṣ nisalginin daa download eṭin! Guke files ine ulo metadata bila masalan  demographic maalumaat ḍaa tasdiiqe data.
-about-playbook-how-access-dataset-content-2 = ASR model diyulase gane barey baan maa sise kaa khole connect manisr maamay baan.[discourse link]
+about-playbook-how-access-dataset = dataset belate access ećam daa eedurućam?
+about-playbook-how-access-dataset-content-1 = ma dataset page atar niṣ maamay ban kʰolum [dataset page],  version ke baaṣ damśi etin daa download eṭin! guke files ulo metadata bila masalan  demographic maalumaat ḍaa tasdiiqe data.
+about-playbook-how-access-dataset-content-2 = ASR model diyulase gane barey baan maa sise kaa kʰole connect manisr maamay baan.[discourse link]
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Project e feeslan belate gay baan?
 about-playbook-how-project-governance-content-1 = Mozillaa common voice e project e kamiyaabiulo dunyatulum har kaṭe sis maslan activist, linguist, data scientist, academics and software engineeriśuwe urin bila.
-about-playbook-how-project-governance-content-2 = mii intizaam guce dakumucate dal diyen bila:
+about-playbook-how-project-governance-content-2 = mii intizaam guce ḍakumucate dal diyen bila:
 about-playbook-how-project-governance-content-3 = Privacy, security daa transparency
-about-playbook-how-project-governance-content-4 = Community duroing daa feeslan etas
-about-playbook-how-project-governance-content-5 = śuwa bagahark henas daa duroin meecanas
+about-playbook-how-project-governance-content-4 = kuyooć duroiṅ daa feeslan etas
+about-playbook-how-project-governance-content-5 = śuwa baġhark henas daa duroin meecanas
 about-playbook-how-project-governance-content-6 = gatimo zimawaari
-about-playbook-how-project-governance-content-7 = Belate eġucarća baan ke khole ġatanin [governance link]
+about-playbook-how-project-governance-content-7 = belate eġucarća baan ke khole ġatanin [governance link]
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = Hanjuko ućharing belate fund ećaan?
-about-playbook-how-funded-content-1 = Hanjuko ućharinge project mozilla foundation US 501c3 bila. Tok project ḍunyaatulum sise donation ḍaa khuwe <philantropicGrantLink> fund ećaan
-about-playbook-how-funded-content-2 = Community program egucaras, platform warc eṭas, dataset ḍiusas ḍaa lagaaṭar host ećar juḍa but biduro nićiye
-about-playbook-how-funded-content-3 = maa iḍara project gane marin emaśaan ke khole maimo donation <donateLink> yaa mii kaatum team kaaa khole raabiṭa eṭin  <emailFragment>commonvoice@mozilla.com</emailFragment>.
+about-playbook-how-funded = common voice ar belate fund ećaan?
+about-playbook-how-funded-content-1 = common voice e project mozilla foundation US 501c3 bila. Tok project dunyaatulum sise donation daa kʰuwe <philantropicGrantLink> fund ećaan
+about-playbook-how-funded-content-2 = Community program egucaras, platform warc eṭas, dataset diyusas daa lagaaṭar host ećar juḍa but biduro nićiyen
+about-playbook-how-funded-content-3 = maa idara project gane marin emaśaan ke kʰole maimo donation <donateLink> yaa mii kaatum team kaaa khole raabiṭa eṭin  <emailFragment>commonvoice@mozilla.com</emailFragment>.
