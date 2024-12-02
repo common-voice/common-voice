@@ -5,3 +5,5 @@ transcription-page-instruction = آڈیو کلپ سنڑو ہور ٹرانسک�
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = جائزہ گِِھنو
 no-transcriptions-message = اس زبان دیاں ہور کوئی ٹرانسکرپشناں جائزہ گِھنّا آسطے نیں۔ مہربانی نال صفحے کو تازہ کرو یا فِر بعد بچ کوشش کریو۔
+vote-transcript-success = ٹرانسکرپٹ کو کامیابی دا ووٹ دِتّا۔
+vote-transcript-error = ٹرانسکرپٹ کو ووٹ دیندیاں ہک غلطی ہو گئی
