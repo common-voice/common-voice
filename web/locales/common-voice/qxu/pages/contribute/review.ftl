@@ -38,5 +38,9 @@ sc-review-link = Kutipay
 
 sc-criteria-modal = Kamachiykunata qhaway
 sc-criteria-title = Kamachiykunata qhaway
+sc-criteria-make-sure = Chay rimayqa kay kamachiykuna hunt’asqanmanta qhawariy:
+sc-criteria-item-1 = Chay rimayqa allintam qillqasqa kanan.
+sc-criteria-item-2 = Chay rimayqa kamachisqa simi allin kanan.
+sc-criteria-item-3 = Chay rimayqa rimanapaq hinam kanan.
 # menu item
 review-sentences = Rimaykunata qawariy
