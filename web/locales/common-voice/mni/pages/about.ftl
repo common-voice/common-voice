@@ -155,3 +155,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ꯑꯩꯈꯣ�
 ## How is Common Voice funded
 
 about-playbook-how-funded = ꯀꯃꯥꯢꯅ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯁꯦꯟꯊꯪ ꯊꯥꯗꯕꯒꯦ ?
+about-playbook-how-funded-content-1 = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯌꯨ.ꯑꯦꯁ.꯵꯰꯱ꯁꯤ꯳ꯒꯤ ꯃꯣꯖꯤꯂꯥ ꯐꯥꯎꯟꯗꯦꯁꯟꯒꯤ ꯊꯧꯔꯥꯡ ꯑꯃꯅꯤ ꯫ ꯄ꯭ꯔꯣꯖꯦꯛꯇ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯃꯄꯨꯡ ꯐꯥꯅ <philantropicGrantLink>ꯐꯤꯂꯥꯟꯇ꯭ꯔꯣꯄꯤꯛ ꯒ꯭ꯔꯥꯟ</philantropicGrantLink>, ꯑꯃꯁꯨꯡ ꯃꯥꯂꯦꯝ ꯁꯤꯟꯕ ꯊꯨꯡꯅꯥ ꯂꯩꯔꯤꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯗꯒꯤ ꯑꯀꯠꯁꯦꯜ ꯊꯥꯗꯔꯤ ꯫
+about-playbook-how-funded-content-2 = ꯗꯦꯇꯥꯁꯦꯠꯁꯤꯡ ꯑꯁꯤ ꯂꯦꯞꯇꯅ ꯊꯧꯕꯨꯔꯦꯜ ꯑꯣꯏꯕ ꯑꯃꯁꯨꯡ ꯊꯥꯗꯣꯛꯄꯗꯥ, ꯐꯝꯄꯥꯛ ꯑꯁꯤ ꯐꯒꯠꯍꯟꯕꯗ ꯑꯃꯁꯨꯡ <africaMradiLink>ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯄ꯭ꯔꯣꯒ꯭ꯔꯥꯃꯁꯤꯡ</africaMradiLink> ꯆꯂꯥꯏꯕꯗ ꯁꯦꯜ ꯌꯥꯝꯅ ꯆꯪꯏ ꯫
+about-playbook-how-funded-content-3 = <emailFragment>commonvoice@mozilla.com</emailFragment>
