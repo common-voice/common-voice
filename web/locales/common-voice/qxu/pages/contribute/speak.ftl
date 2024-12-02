@@ -17,6 +17,9 @@ record-three-more-instruction = Kimsa rinapaq!
 record-again-instruction = Hatun!<recordIcon></recordIcon> Qatiqnin clipkita hirquy
 record-again-instruction2 = Chayta hinalla ruway, hukmanta qillqay <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Qhipa kaq!
+review-tooltip = Rispayki kaypi clipkunata qhaway hinaspa yapamanta hirquy
+share-clip = Rakinakuy clipki
+share-common-voice = Rakinakuy Common Voice
 
 ## MENU ITEM TOOLTIPS
 
