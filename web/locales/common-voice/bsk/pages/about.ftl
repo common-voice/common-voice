@@ -8,16 +8,16 @@ how-does-it-work-text = Mii dunyaatulum ućʰariṅe dataset gati echa baan. may
 ## How does it work section
 
 about-language-req-subtitle = menane baaṣan kaa ećar duġaruśam.
-about-localization-title = website localization
-about-localization-subtitle = gute website text ite baaṣulo tarjuma manila
-about-sentence-collection-title = gati etumin jumulan
-about-sentence-collection-subtitle = jumlan śatine ġatayar gaṭi etum bican
+about-localization-title = website miimo baaṣulo desmaẏas
+about-localization-subtitle = gute websit e text ite baaṣulo tarjuma manila
+about-sentence-collection-title = gati etumin jumulaṅ
+about-sentence-collection-subtitle = jumlaṅ śatine ġatayar gaṭi etum bican
 about-new-lang-title = thoṣ baaṣan śuru etuman
 about-new-lang-subtitle = mii gute baaṣulu common voice e site śuru eṭaan
-about-voice-contrib-title = emasumin ućharing
+about-voice-contrib-title = emasumin ućhariṅ
 about-voice-contrib-subtitle = sis duunin daa ućhariṅ emaśaan
-about-voice-validation-title = ućharinge tasqeeq etas
-about-voice-validation-subtitle = thumiśo sise ike ućharinge clips e tasḍiiq ećaan
+about-voice-validation-title = ućhariṅe tasdiiq etas
+about-voice-validation-subtitle = thumiśo sise ike ućhariṅe clips iṅe tasdiiq ećaan
 about-dataset-release-title = detaset diyusuman
 about-dataset-release-subtitle = mii dataset har uskosar diyuśa baan
 about-subscribe-text = common voice cum dugharuśume huruśumana?
