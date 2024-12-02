@@ -24,3 +24,6 @@ learn-how-to-use-prompts = سِکھو اے صفحہ کسطرح استعمال ک
 learn-how-to-use-prompts-explanation = پرومٹس کو جتنا ہو سکا صرف قدرتی طور تے ہک دو جملیاں بچ جواب دیو۔ اے یقینی بنڑاؤ کہ تسدی زبان تہذیب آلی تے بے ضرر ہوّے۔
 learn-how-to-use-prompts-guidance = <guidanceLink>اِتھا</guidanceLink>کلک کرو اے سکھنڑا آسطے کہ اے صفحہ کسطرح استعمال کراں
 learn-how-to-use-transcribe = سکھو کسطرح ٹرانسکرائب کردے نے
+learn-how-to-use-transcribe-explanation = بلکل اُئی لکھو جڑّا کسی آخیا دا اے، پلیس ہولڈر لفظ جسطرح 'um' یا 'errr' نال ای
+learn-how-to-use-transcribe-guidance = <guidanceLink>اِتھا</guidanceLink>کلک کرو اے سکھنڑا آسطے کہ اے صفحہ کسطرح استعمال کرنا اے
+learn-how-to-use-check-transcript = اے سکھو کہ کسطرح ہک ٹرانسکرپشن دا جائزہ گَھنّا اے
