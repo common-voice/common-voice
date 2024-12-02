@@ -62,7 +62,7 @@ nature_environment = Yomá itapiči induačí  i animaríy sewa induačí
 news_current_affairs = Tamó čaneníame i yomá umatoamé kuwé
 # Sentence Domain dropdown option
 technology_robotics = henté yoame i henté yoame itapití apoe nonoame
-sentence-variant-select-label = Na watiamé ujúpú oracioné nawesarí pirechy ojoegachy jenté. Weiká oracioné induamé
+sentence-variant-select-label = Na watiamé uhúpú orasioné nawesarí pirečy ohoegai henté. Weiká orasioné induamé
 sentence-variant-select-placeholder = Usaá puká  capó nawesary pirechy jenté michikachí. Yoraniame
 sentence-variant-select-multiple-variants = Nawesary yomá / weikaá ujupú kapó
 
