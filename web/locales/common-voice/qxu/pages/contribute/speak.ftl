@@ -29,6 +29,10 @@ record-abort-submit = Apachiy clipkuna
 record-abort-continue = Hirquta tukunki
 record-abort-delete = Lluqsiy hinaspa clipkunata chinkachiy
 review-aborted = Hurquchasqa apachiy. Hirqusqaykikunatachu chinkachiyta munanki?
+review-submit-title = Qhawaspa apachiy
+review-submit-msg = Hirqusqaykimantallay!<lineBreak></lineBreak>Kunanqa qhaway hinaspa uraypi clipsniykikunata apachiy.
+review-recording = Kutipay
+review-rerecord = Yapamanta hirquy
 
 ## MENU ITEM TOOLTIPS
 
