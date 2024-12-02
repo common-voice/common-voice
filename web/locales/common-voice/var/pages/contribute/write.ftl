@@ -100,18 +100,18 @@ too-many-files = Weika toatiame arčivoči
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Toaga epečé itaperi tamo dominio publiko tamo naosarila
 multiple-sentences-error = Kí weika orasioné toiná uhuramičó envioči sensiyoičó
-exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oraciones
+exceeds-small-batch-limit-error = Kí no toarú itočemičo epečé 1000 orasiones
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí.  Enchy yoamitiá  piripi munitochi
-       *[other] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí.  Enchy yoamitiá  { $retryLimit } munitochi
+        [one] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí.  Enči yoamitiá  piripi munitoči
+       *[other] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí.  Enči yoamitiá  { $retryLimit } munitoči
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Cheriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí, enchy yoamitiá piripi segundochi.
-       *[other] heriwema amó kianiné itochegobá veiká oracioné umatoteremú iwatiamí, enchy yoamitiá { $retryLimit } segundochi.
+        [one] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí, enči yoamitiá piripi segundoči.
+       *[other] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí, enči yoamitiá { $retryLimit } segundoči.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
