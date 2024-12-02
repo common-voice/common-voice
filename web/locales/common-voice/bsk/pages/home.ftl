@@ -51,9 +51,16 @@ email-subscription-title-new = common voice e newsletter, goal reminder daa prog
 benefits = faaydan
 rich-data = meyik ayosum kama demographic data nemasin maymo data butan maalumaat ke desmanin. mii demographic data jama etum ine leel ayoomanas ne hole sisar emaśa baan
 improve-audio = ućʰaring data speech recognition ac̣curacy tayaar etasulo profile e maalumate mićʰiiṅ
+keep-track = maymo duro e track oosin daa har raxte baaṣiṅ e data hisaap oosin
+compare-progress = maymo duro daa tok dunyatulo tʰum sise duro muqaabila ulo barenin
+view-goals = maymo daa project maqasidine hisab ate maymo duro  bareniṅ
+join-newsletter = naya project maalumaat daa updates gane mii email list ulo optionally kaa maneyin
 
 ## What's public
 
+whats-public = besan awaami?
+email-not-public = mi maa email men ke ayoortirćan
+recordings-and-locale-public = maa recordings beruman etaan kaa daa amit baaṣulo duro ećaam iteer uyoone bareyman
 
 ## Landing
 
