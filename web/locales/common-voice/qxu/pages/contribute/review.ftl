@@ -23,6 +23,15 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Llaqta ñankunatapas llamk'achiy atikunki: { sc-review-form-button-approve-shortcut } Arinipaq, { sc-review-form-button-reject-shortcut }  Karunchapaq, { sc-review-form-button-skip-shortcut } Saqipaq
 sc-review-form-button-submit =
     .submitText = Qhawaspaq tukuna
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] mana rimaykuna qhawarisqa.
+        [one] 1 rimayta qhawarisqa. Riqsikuyki!
+       *[other] { $sentences } rimaytakuna qhawarisqa. Riqsikuyki!
+    }
+sc-review-form-review-failure = Qhawarisqa nisqataqa manam waqaychayta atirqakuchu. Ama hina kaspa, qhipaman hukmanta kallpachakuy.
 
 ## REVIEW CRITERIA
 
