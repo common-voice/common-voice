@@ -24,21 +24,20 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Ka'awe usaroamamu kiteperuma tachuchaniame; puka{ sc-review-form-button-approve-shortcut }yorame ; { sc-review-form-button-reject-shortcut } kinakimia i{ sc-review-form-button-skip-shortcut }  ni'nia
 sc-review-form-button-submit =
-    .submitText = 15. Ka'juka pu'ka re'wisaroaka
+    .submitText = 15. Ka'juka pu'ká re'wisaroaka
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] piripioi o'rásioni eewisaroatiame
+        [0] piripioi o'rásioni reewisaroatiame
         [one]
             Piripi o'rásioni rewisaroatiame  
-            ¡che'riwema!
+            ¡čeriwe'ma!
        *[other]
             { $sentences } o'rásioni revi'saroatiame
-            
-            ¡cheriwe'ma!
+            ¡čeriwe'ma!
     }
-sc-review-form-review-failure = Kí katewere amo yoariá. Enchí yoamitiá ejebá
+sc-review-form-review-failure = Kíkatewere amo yoariá. Enčí yoamitiá ehebá
 sc-review-link = Neneniame
 
 ## REVIEW CRITERIA
