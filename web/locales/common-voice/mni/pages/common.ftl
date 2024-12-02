@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = ꯑꯐꯥꯔ
 ab = ꯑꯕꯈꯥꯓ
+abb = ꯕꯦꯟꯀꯣꯟ
 ace = ꯑꯆꯦꯅꯤꯁ
 ady = ꯑꯗꯥꯏꯒꯤ
 af = ꯑꯐ꯭ꯔꯤꯀꯥꯟꯁ
@@ -198,12 +200,6 @@ zza = ꯓꯥꯓꯥ
 
 ## Layout
 
-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
-speak-now = ꯍꯧꯖꯤꯛ ꯉꯥꯡꯉꯨ
-datasets = ꯗꯥꯇꯥꯁꯤꯡ
-languages = ꯂꯣꯟꯁꯤꯡ
-about = ꯃꯇꯥꯡꯗ
-partner = ꯈꯣꯡꯂꯣꯏ
 profile = ꯄ꯭ꯔꯣꯐꯥꯏꯜ
 help = ꯃꯇꯦꯡ
 contact = ꯄꯥꯎ ꯐꯥꯎꯐꯝ
@@ -222,7 +218,6 @@ privacy-info = ꯑꯩꯈꯣꯢꯅ ꯋꯥꯁꯛꯂꯤ ꯃꯗꯨꯗꯤ ꯅꯍꯥ�
 return-to-cv = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯗ ꯍꯟꯂꯨ
 email-input =
     .label = ꯏꯃꯦꯜ
-submit-form-action = ꯄꯤꯁꯤꯟꯕ
 loading = ꯆꯤꯡꯊꯔꯤ
 email-opt-in-info = ꯑꯩꯅ ꯏꯃꯦꯜ ꯂꯥꯛꯍꯟꯕ ꯄꯥꯝꯃꯤ ꯄꯥꯟꯖꯤꯜ ꯅꯤꯡꯁꯤꯡꯍꯟꯕ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯁꯤꯡ ꯱ꯁꯨꯡ ꯑꯅꯧꯕ ꯂꯥꯛꯄꯁꯤꯡ ꯫
 email-opt-in-info-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯖꯦꯜ ꯊꯥꯅꯕ ꯄꯔꯤꯡꯗ ꯌꯥꯎꯁꯤꯟꯂꯨ
