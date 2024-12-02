@@ -27,6 +27,7 @@ how-to-cite-explanation-bold = URL t'inkiwan utaq llamk'aypa hunt'asqa sutinwan 
 how-to-cite-explanation = Kikin simiyki kaptinqa, <italicizedText>“Kikinmanta rimay”</italicizedText> nispalla niy. Yachanayku tiyan maypi kay willayta tarisqaykita chaymanta qhawayta atiykuman yachasqa kaqpi kaqta chaymanta mana copyright hark'aykuna ruwanapaq. Aswan citacionmanta willakuypaq <guidelinesLink>Guidelines page</guidelinesLink> nisqapi qhaway.
 guidelines = Guidelines
 contact-us = Ñuqaykuwan rimanakuy
+add-sentence-success = 1 rimay huñusqa
 
 ## BULK SUBMISSION 
 
