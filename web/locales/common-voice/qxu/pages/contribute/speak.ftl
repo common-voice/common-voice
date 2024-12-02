@@ -43,6 +43,10 @@ terms-disagree = Ñuqa mana huñikuni
 first-cta-header-text = Clipkuna nisqaykichikta qusqaykichikmantalla!
 first-cta-subtitle-text = Kikiykimanta willawaspayku, ruwaqkunata yanapanki aswan llapanpaq tiqta ruwanankupaq
 why-donate = Imanasqataq tapukunki?
+why-donate-explanation-1 = Kay willakuyqa munasqa qunapaqmi - allin kawsakuspalla yapanayki tiyan. Mayk'aq willay huñuta kachariyku, llapa sapalla willayta sutiwan sutichayku, chaymanta sutiyki chaymanta email hina willayta mana llaqta willaywan tinkisqachu kanku edad utaq qhari hina.
+why-donate-explanation-2 = Tiq llapa runapaq allin llamk'ananpaq, ruwaqkunata tiqta ruwayta yanapaq willaykunaqa imaymana runakunap rikch'ayninta rikuchinan tiyan. Sichus mana ima runakunatapas huk llaqtasimiyuqta churanchikchu chayqa, chay tiq mana allintachu llamkanqa chay llaqtasimiyuq runakunapaq. <learnMore>Metadata ancha chaniyuq kasqanmanta astawan yachay.</learnMore>
+add-information-button = Willakuykunata yapay
+continue-speaking-button = Mana, rimachallay
 
 ## MENU ITEM TOOLTIPS
 
