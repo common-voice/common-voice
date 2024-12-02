@@ -49,6 +49,8 @@ email-subscription-title-new = common voice e newsletter, goal reminder daa prog
 ## Account Benefits
 
 benefits = faaydan
+rich-data = meyik ayosum kama demographic data nemasin maymo data butan maalumaat ke desmanin. mii demographic data jama etum ine leel ayoomanas ne hole sisar emaśa baan
+improve-audio = ućʰaring data speech recognition ac̣curacy tayaar etasulo profile e maalumate mićʰiiṅ
 
 ## What's public
 
