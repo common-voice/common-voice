@@ -63,15 +63,15 @@ news_current_affairs = Tamó čaneníame i yomá umatoamé kuwé
 # Sentence Domain dropdown option
 technology_robotics = henté yoame i henté yoame itapití apoe nonoame
 sentence-variant-select-label = Na watiamé uhúpú orasioné nawesarí pirečy ohoegai henté. Weiká orasioné induamé
-sentence-variant-select-placeholder = Usaá puká  capó nawesary pirechy jenté michikachí. Yoraniame
-sentence-variant-select-multiple-variants = Nawesary yomá / weikaá ujupú kapó
+sentence-variant-select-placeholder = Usaá puká  capó nawesari pireči henté mičikačí. Yoraniame
+sentence-variant-select-multiple-variants = Nawesari yomá / weikaá uhupú kapó
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Muenapu fraase dominio publicandoka<icon></icon>
-sc-bulk-upload-instruction = muenapu puka archivo iva, clic yoraka kargandomia
-sc-bulk-upload-instruction-drop = Nasonamia puka archivochi maniame umatotemia programachi
+sc-bulk-upload-header = Muenapu fraase dominio publikandoka<icon></icon>
+sc-bulk-upload-instruction = muenapu pu'ká arčivo i'wá, klik yoraka kargandomia
+sc-bulk-upload-instruction-drop = Nasonamia pu'ká arčivoči maniame umatotemia programači
 bulk-upload-additional-information = Sii maniso epeche informacióni, sii muu kianaria ikachi archivochi maniame,   naewasamitia <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ii maniso epeche información adicional si naewasanaria, pukachi archivo ki manitoame ki incluyendotiame plantillachi, naewasamitia ki manitosa<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Yoá enchy, panisugá amó archivo ivá
