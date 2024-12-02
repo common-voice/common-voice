@@ -116,8 +116,8 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá pii munitochy enchí itochemaria pirechy oración.  ¡cheriwema amó pulleriachó!
-       *[other] Umatoteremú enkaantí amoó ujurariá iká paginachi. Pullegá { $retryLimit } munitochi enchí itochemaria pirechy oración.  ¡cheriwema amó pulleriachó!
+        [one] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá pii munitočy enčí itočemaria pirečy orasión.  ¡Čeriwema amó puyeriačó!
+       *[other] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá { $retryLimit } munitoči enčí itočemaria pireči oración.  ¡Čeriwema amó puyeriačó!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
