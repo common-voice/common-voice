@@ -47,9 +47,9 @@ sc-criteria-title = Yo'raniame pu'ká revisaroaniame
 sc-criteria-make-sure = Yoma o'rasioni itomete kumpiaroamia yo'má a'hama si'miyame yo'raka:
 sc-criteria-item-1 = I'hi na'wesari e'nimapu kawé yo'tetiame ka'wetiame
 sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
-sc-criteria-item-3 = Iji na'wesari eni'mapu túka machitaniame
-sc-criteria-item-4 = e'je ika o'rásioni cumpiorani púka yo'rá , wa'a &quot; yo'rapame&quot; wa'a a'jamina
-sc-criteria-item-5-2 = e'jee ika o'rásioni ka'i kumpiaroaso pu'ka yo'rá, ta'china &quot;ki na'kiwame&quot;, wa'a jo'wenamina e'jee kina'neria ka'wé  Kaweni'ni i u'mató wa'a pirenachi
+sc-criteria-item-3 = Ihi na'wesari eni'mapu túka mačitaniame
+sc-criteria-item-4 = E'he ika o'rásioni kumpiorani pu'ká yo'rá , wa'a &quot; yo'rapame &quot; wa'a a'hamina
+sc-criteria-item-5-2 = E'hee ika o'rásioni ka'i kumpiaroaso pu'ká yo'rá, ta'čina &quot; kina'kiwame &quot;, wa'a ho'wenamina e'hee kina'neria ka'wé.  Kaweni'ni i u'mató wa'a pirenači
 sc-criteria-item-6 = ki'tio epeche wa'asi  o'rasioni púka i'tapiti, ¡ I no'kui wa'a u'ka e'peche orasioni!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Tu'niame<icon></icon>i'ji u'ju piripi o'rásioni na'yawoaniame ka'wé
