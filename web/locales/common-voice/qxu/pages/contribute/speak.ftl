@@ -23,6 +23,12 @@ share-common-voice = Rakinakuy Common Voice
 review-instruction = Rispayki clipkunata qhaway allin kaptin
 record-submit-tooltip = { $actionType } wakichisqa kaptin apachiy
 clips-uploaded = Clipkuna churasqa
+record-abort-title = Ñawpaqtaqa hirquta tukunkichu?
+record-abort-text = Kunan ripuyqa, ñawpaqman purisqaykita chinkachinaykita niyta munan
+record-abort-submit = Apachiy clipkuna
+record-abort-continue = Hirquta tukunki
+record-abort-delete = Lluqsiy hinaspa clipkunata chinkachiy
+review-aborted = Hurquchasqa apachiy. Hirqusqaykikunatachu chinkachiyta munanki?
 
 ## MENU ITEM TOOLTIPS
 
