@@ -92,16 +92,18 @@ const Content = ({
                   {renderContent()}
                 </div>
               </li>
-              <Tooltip
-                anchorSelect={`#${menuItemTooltip}`}
-                place="bottom"
-                style={{
-                  width: 'auto',
-                  maxWidth: '350px',
-                  position: 'absolute',
-                }}>
-                {getString(menuItemTooltip)}
-              </Tooltip>
+              <div>
+                <Tooltip
+                  anchorSelect={`#${menuItemTooltip}`}
+                  place="bottom"
+                  style={{
+                    width: 'auto',
+                    maxWidth: '350px',
+                    position: 'absolute',
+                  }}>
+                  {getString(menuItemTooltip)}
+                </Tooltip>
+              </div>
             </React.Fragment>
           )
         })}

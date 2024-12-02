@@ -142,7 +142,7 @@ header {
     height: var(--header-height);
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
-    padding: var(--page-margin);
+    padding: 20px;
     background: var(--white);
     z-index: var(--header-z-index);
 

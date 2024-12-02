@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import React from 'react'
 import { Localized } from '@fluent/react'
 
@@ -7,9 +8,14 @@ import { ArrowRight, MicIcon, Play } from '../../../ui/icons'
 import { LocaleLink } from '../../../locale-helpers'
 import URLS from '../../../../urls'
 
+import { usePreloadImage } from '../../../../hooks/use-preload-image'
+
 import './hero-section.css'
 
 export const HeroSection = () => {
+  const imageUrl = require('./assets/hero-hd.jpg')
+  const isLoaded = usePreloadImage(imageUrl)
+
   return (
     <section className="hero-section">
       <div className="hero-container">
@@ -30,7 +36,9 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <div className="hero-background">
+          <div
+            className="hero-background"
+            style={{ backgroundImage: isLoaded ? `url(${imageUrl})` : 'none' }}>
             <div className="buttons">
               <div className="listen-container">
                 <LocaleLink className="listen" to={URLS.LISTEN}>

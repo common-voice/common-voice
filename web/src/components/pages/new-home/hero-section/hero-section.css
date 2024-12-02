@@ -153,7 +153,6 @@
             }
 
             .hero-background {
-                background: url('./assets/hero-hd.jpg');
                 background-size: cover;
                 border-top-left-radius: 60%;
                 border-bottom-left-radius: 60%;
@@ -162,7 +161,7 @@
 
                 @media (--md-up) {
                     min-height: 600px;
-                    min-width: 600px;
+                    min-width: 575px;
                     max-width: 620px;
                     max-height: 600px;
                 }
@@ -216,8 +215,9 @@
                     }
 
                     @media (--lg-only) {
-                        height: 27%;
+                        height: 19%;
                         width: 50vw;
+                        max-height: 620px;
                     }
 
                     @media (--md-only) {
@@ -353,7 +353,7 @@
 
                 @media (--xl-up) {
                     width: 50%;
-                    top: 24%;
+                    top: 17%;
                     left: 50%;
                 }
 

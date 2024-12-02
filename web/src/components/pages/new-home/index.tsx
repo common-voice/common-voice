@@ -1,13 +1,16 @@
 import React from 'react'
 
-import Page from '../../ui/page'
 import { HeroSection } from './hero-section'
+import { ActionItemsSection } from './action-items-section'
 import { CommunitySection } from './community-section'
+
+import Page from '../../ui/page'
 
 const Home = () => {
   return (
     <Page className="home">
       <HeroSection />
+      <ActionItemsSection />
       <CommunitySection />
     </Page>
   )

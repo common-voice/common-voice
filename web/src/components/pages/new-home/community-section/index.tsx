@@ -1,78 +1,70 @@
-import React from 'react'
-import { Localized } from '@fluent/react'
+import React, { useState } from 'react'
+import { Localized, useLocalization } from '@fluent/react'
+import classNames from 'classnames'
 
-import { LinkButton } from '../../../ui/ui'
-import { ChevronRight } from '../../../ui/icons'
+import { sections } from './sections'
 
-import URLs from '../../../../urls'
+import { TextButton } from '../../../ui/ui'
+
+import CloseIcon from './assets/close.svg'
+
+import PlusIcon from '../../../../components/ui/icons/plus.svg'
 
 import './community-section.css'
 
-export const CommunitySection = () => {
+export const CommunitySection: React.FC = () => {
+  const [activeSection, setActiveSection] = useState<number>(0)
+  const { l10n } = useLocalization()
+
+  const handleToggle = (index: number) => {
+    setActiveSection(activeSection === index ? null : index)
+  }
+
   return (
     <section className="community-section">
       <div className="community-section-container">
         <Localized id="community-section-title">
           <h1 className="title" />
         </Localized>
-
-        <Localized id="community-section-subtitle">
-          <p className="subtitle" />
-        </Localized>
-
-        <div className="card-container">
-          <div className="card">
-            <div className="card-image scripted" />
-            <div className="card-body">
-              <Localized id="scripted-card-header">
-                <h2 className="card-header" />
-              </Localized>
-              <Localized id="scripted-card-content">
-                <p />
-              </Localized>
-              <LinkButton rounded to={URLs.SPEAK}>
-                <Localized id="speak">
-                  <span />
-                </Localized>
-                <ChevronRight />
-              </LinkButton>
-            </div>
+        <div className="pane-container">
+          <div className="left-pane">
+            {sections.map((section, index) => (
+              <div key={index} className="section">
+                <TextButton
+                  className={classNames('section-header', {
+                    active: activeSection === index,
+                  })}
+                  onClick={() => handleToggle(index)}>
+                  {l10n.getString(section.title)}
+                  <span className="toggle-icon">
+                    {activeSection === index ? (
+                      <img src={CloseIcon} alt="close icon" />
+                    ) : (
+                      <img src={PlusIcon} alt="open icon" className="open" />
+                    )}
+                  </span>
+                </TextButton>
+                {activeSection === index && (
+                  <div className="section-content">
+                    <p>{l10n.getString(section.content)}</p>
+                    <section.action />
+                    <img
+                      src={sections[activeSection].image}
+                      alt=""
+                      className="section-image"
+                    />
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
-
-          <div className="card">
-            <div className="card-image spontaneous" />
-            <div className="card-body">
-              <Localized id="spontaneous-card-header">
-                <h2 className="card-header" />
-              </Localized>
-              <Localized id="spontaneous-card-content">
-                <p />
-              </Localized>
-              <LinkButton rounded className="disabled">
-                <Localized id="coming-soon">
-                  <span />
-                </Localized>
-                <ChevronRight />
-              </LinkButton>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="card-image language-text" />
-            <div className="card-body">
-              <Localized id="language-text-card-header">
-                <h2 className="card-header" />
-              </Localized>
-              <Localized id="language-text-card-content">
-                <p />
-              </Localized>
-              <LinkButton rounded to={URLs.WRITE}>
-                <Localized id="add-text">
-                  <span />
-                </Localized>
-                <ChevronRight />
-              </LinkButton>
-            </div>
+          <div className="right-pane">
+            {activeSection !== null && (
+              <img
+                src={sections[activeSection].image}
+                alt="Community Section"
+              />
+            )}
           </div>
         </div>
       </div>
