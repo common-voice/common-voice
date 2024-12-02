@@ -36,6 +36,7 @@ review-rerecord = Yapamanta hirquy
 review-cancel = Apachitaqa chinkachiy
 review-keep-recordings = Hirqukunata waqaychay
 review-delete-recordings = Hirqukunata chinkachiy
+review-terms = Common Voice llamk'achispa, <termsLink>Paqarisqakuna</termsLink> chaymanta <privacyLink>Sapalla willayniyku</privacyLink> kaqwan ari ñinki
 
 ## MENU ITEM TOOLTIPS
 
