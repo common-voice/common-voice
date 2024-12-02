@@ -19,20 +19,20 @@ respond-bubble-title = <mark>جواب دیت</mark>
 respond-bubble-subtitle = ہمو تین تا جواب کندوری کی ہوئے قدرتی بیلیک
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>نیویشیکا غیراوے</mark>
-transcribe-bubble-subtitle = ہتوغو نیویشے کیاغ کی اسکوردی ہوازا کار ارو
+transcribe-bubble-subtitle = ہتوغو نیویشے کیاغ کی ہوازا کار ارو
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>لوڑے</mark>
-check-bubble-subtitle = چیک کوکی کی نویشیرو اوچے ہواز ای قسمہ؟
+check-bubble-subtitle = چیک کوکی نیویشیرو اوچے ہواز ای قسمہ؟
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ڈیٹا</mark>
-data-bubble-subtitle = اسپہ وقتا فوقتا ڈیٹاسیٹو پوشٹا انگوسیان
+data-bubble-subtitle = اسپہ وقتاً فوقتاً ڈیٹاسیٹو پوروشٹا انگوسیان
 contact-us = اسپہ سوم رابطہ کو
-contact-us-title = تا ہیہ منصوبہ شامل بیکا دلچسپی شیرا یا اسپہ سوم شراکت کوسانا؟
+contact-us-title = تہ ہیہ منصوبہ شامل بیکا دلچسپی شیرا یا اسپہ سوم شراکت کوسانا؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = تو کمان وائسو اسپونٹینئس اسپیچ منصوبو ہیہ جوو ٹسٹ گروپا اسپہ سوم پروشٹیار شامل اسوسا؟
-signup-terms = "لینکو ای میلا مہ تین انځاوے" کلک کی ارو ہیہ لوو منیتاو کی اسپہ<termsLink> کورمو شرط تہ تین قبول</termsLink>وا<privacyLink> رازردری پالیسی</privacyLink> وا موزیلا دی معلوماتان تہ تین ای میل کوئے کہ کامن وائسو اسپونٹینئس اسپیچ منصوبہ کیچہ کوری حصہ گانیس۔
+signup-terms = "لینکو ای میلا مہ تین انځاوے" کلک کی ارو ہیہ لووٰ منیتاو کی اسپہ<termsLink> کورمو شرط تہ تین قبول</termsLink>وا<privacyLink> رازردری پالیسی</privacyLink> وا موزیلا دی معلوماتان تہ تین ای میل کوئے کہ کامن وائسو اسپونٹینئس اسپیچ منصوبہ کیچہ کوری حصہ گانیس۔
 signup-input-placeholder = تان ای میل ایڈریسو نیویشے
-signup-button-value = ما ای میلا کوری ای لنک انځاوے
+signup-button-value = مہ ای میلا کوری ای لنک انځاوے
 footer-text-privacy = <privacyLink>رازدری</privacyLink>
 footer-text-terms = <termsLink>شرائط</termsLink>
 footer-text-cookies = <cookiesLink>کوکیز<cookiesLink>
