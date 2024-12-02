@@ -46,33 +46,33 @@ about-stay-in-touch-text-2 = ma mozila language community ulo thumiśo kaa mila 
 about-nav-why-common-voice = bes?
 about-nav-how-it-works = belate?
 about-nav-partners = kaatumiśo
-about-nav-get-involved = ḍurouar kaa maneyin
-about-nav-how-it-works-2 = belate common voice e duro ećibi?
+about-nav-get-involved = durouar kaa maneyin
+about-nav-how-it-works-2 = belate common voice e duro eći bi?
 about-nav-playbook = belate kaa manaas bila ke ite hen
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = common voice ate besan baaṣ  bila?
-about-playbook-what-is-language-content-1 = baaṣate samba etase butan ganeng bican. speech recognition models e gane, common voice e barey bi ke gute baaṣe sise hihine osulo balićila agar uwe kaman ćamaat etuman ke.
-about-playbook-what-is-language-content-2 = mii ray bila ke baring e model butan har qisime sise osulo baliṣ. gute gane, ućharinge dataset butan sise numaayndagi maniṣ.
-about-playbook-what-is-language-content-3 = beeruman baaṣinge grammar, lafzing, ṭalafuzulo butan farq bila. ṭeylate 2022 ulo variants śuru eṭaan. gute baaṣ etaśuar uymo baaṣ uyongkaro datasetulo leel etas oomay baan.
+about-playbook-what-is-language = common voice ate baaṣ besan bila?
+about-playbook-what-is-language-content-1 = baaṣate samba etase butan ganeṅ bican. speech recognition models e gane, common voice e barey bi ke gute baaṣe sise hihine osulo balićila agar uwe kaman ćamaat etuman ke.
+about-playbook-what-is-language-content-2 = mii ray bila ke baring e model butan har qisime sise osulo baliṣ. gute gane, ućhariṅe datasetulo butan sise numaayndagi maniṣ.
+about-playbook-what-is-language-content-3 = beeruman baaṣiṅe grammar, lafzing, ṭalafuzulo butan farq bila. ṭeylate 2022 ulo variants śuru eṭaan. gute baaṣ etaśuar uymo baaṣ uyongkaro datasetulo leel etas oomay baan.
 
 ## How do I add a language
 
 about-playbook-how-add-language = je belate baaṣan kaa ećam?
-about-playbook-how-add-language-content-1 = yarkamaas maymo baaṣ ulo bila ite baren. agar api ke baaṣ kaa etase uzur ooco. alto ganeng bican. site e tarjuma etas daa ćagaming gati eṭas.
-about-playbook-how-add-language-translating-heading = sitee e tarjuma etas
+about-playbook-how-add-language-content-1 = yarkamaas maymo baaṣ ulo bila ite baren. agar api ke baaṣ kaa etase uzur ooco. alto ganeṅ bican. site e tarjuma etas daa ćagamiṅ gati eṭas.
+about-playbook-how-add-language-translating-heading = site e tarjuma etas
 about-playbook-how-add-language-translating-content-1 = belate pontoon egucaras bila ke mii video ar barenin
-about-playbook-how-add-language-translating-content-2 = mii mozila duscak pontoon tarjuma etase gane eeduroća baan. Pontoon ulo butan baaṣing bican. maa baaṣ api ke maa ate maymo baaṣ kaa eṭase uzur etin. netan maa baaṣ hanjuko common voice project ulo kaa meeymi. thoṣ baaṣe uzure gane kholar niin site e tarjumane gane kholar barenin
-about-playbook-how-add-language-collecting-sentences-heading = jumlan gati eṭas
-about-playbook-how-add-language-collecting-sentences-content-1 = jumlan gati eṭase gane mii maykinase video ar barenin
-about-playbook-how-add-language-collecting-sentences-content-2 = khole maa kaman jumlan kaa etas maa bay baan. ḍaa butan jumlan kaa etase gane khole niin Github masate oosin ke jumlan akholum maniṣ  ,daa maymo jumlan ke girminas maa bay baan
-about-playbook-how-add-language-collecting-sentences-content-3 = daa maziiḍ jumlan gati etase gane khole barenin
+about-playbook-how-add-language-translating-content-2 = mii mozila tools pontoon e tarjuma etase gane eeduroća baan. Pontoon ulo butan baaṣiṅ bican. maa baaṣ api ke maymo baaṣ kaa eṭase uzur etin. netan maa baaṣ common voice project ulo kaa meeymi. thoṣ baaṣe uzure gane kholar niin site e tarjumane gane khole barenin
+about-playbook-how-add-language-collecting-sentences-heading = jumlaṅ gati eṭas
+about-playbook-how-add-language-collecting-sentences-content-1 = jumlaṅ gati eṭase gane mii maykinase video ar barenin
+about-playbook-how-add-language-collecting-sentences-content-2 = khole maa kaman jumlaṅ kaa etas maa bay baan. ḍaa butan jumlaṅ kaa etase gane khole niin Github masate oosin ke jumlan akʰolum maniṣ  ,daa maymo jumlaṅ ke girminas maa bay baan
+about-playbook-how-add-language-collecting-sentences-content-3 = daa maziiḍ jumlaṅ gati etase gane khole barenin
 
 ## How does localization work
 
-about-playbook-how-localize = localization site belate duro eći bi?
+about-playbook-how-localize = site localization e belate duro eći bi?
 about-playbook-how-localize-content-1 = common voice e tarjuman khole mey bila
 about-playbook-how-localize-content-2 = khole account desmanin. agar maa han api ke. iciyate maymo baaṣ isalginin ite cum praajekt isalginin khole  khole ṭarjuma ećar failing meymi.  Hanate klik eṭin. neṭanin khole angreziulo lafzing maartirci daa tarjuma ećar diś bila.
 about-playbook-how-localize-content-3 = angrezi cum tarjuma etin, leikin maa yeeśuman thumin baaṣinulo. Khole click ne  amit maa baaṣ bila ke ite kaa etin. yaarumuś doẏpa yuukiulo tarjuma etas ite list meymi amitar seybaan  tarjuman  site ate han guncan iciyate ġeyśican.
