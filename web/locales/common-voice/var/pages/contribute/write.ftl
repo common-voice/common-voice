@@ -89,17 +89,17 @@ bulk-upload-success-toast = Weiká orasioné itočeremú
 bulk-upload-failed-toast = Amó muenapuriá kí muenaré, enči yoamitiá
 bulk-submission-success-header = Čeriwema amó kianiné itočegobá veiká orasioné
 bulk-submission-success-subheader = Katimu kuika Common Voice, asepamia taamo objetivoči orasioniči senepei diarioči neteniame
-upload-more-btn-text = Toaga epeche itaperi
+upload-more-btn-text = Toaga epeče itaperi
 file-invalid-type = Kai nateame wa toatume
-file-too-large = Weruma juu wua toatume
-file-too-small = Bokawi juu wua toatume
-too-many-files = weika toatiame archivochi
+file-too-large = Werumá huu wua toatume
+file-too-small = Bokawi huu wua toatume
+too-many-files = Weika toatiame arčivoči
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = Toaga epeche itaperi tamo dominio publico tamo naosarila
-multiple-sentences-error = Kí weika oracioné toiná ujuramichó enviochy sencilloichó
+small-batch-instruction = Toaga epečé itaperi tamo dominio publiko tamo naosarila
+multiple-sentences-error = Kí weika orasioné toiná uhuramičó envioči sensiyoičó
 exceeds-small-batch-limit-error = Kí no toarú itochemicho epeche 1000 oraciones
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
