@@ -21,6 +21,12 @@ new-sentence-rule-5 = Mana yupaykuna, sananpakuna ima
 new-sentence-rule-6 = Mana hawa llaqtamanta qillqakuna
 new-sentence-rule-7 = Include appropriate citation
 new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
+login-instruction-multiple-sentences = <loginLink>Yaykuy</loginLink> utaq <loginLink>qillqakuy</loginLink> achka rimaykunata yapanaykipaq
+how-to-cite = Imaynatataq pukyuta rimasaq?
+how-to-cite-explanation-bold = URL t'inkiwan utaq llamk'aypa hunt'asqa sutinwan rimay.
+how-to-cite-explanation = Kikin simiyki kaptinqa, <italicizedText>“Kikinmanta rimay”</italicizedText> nispalla niy. Yachanayku tiyan maypi kay willayta tarisqaykita chaymanta qhawayta atiykuman yachasqa kaqpi kaqta chaymanta mana copyright hark'aykuna ruwanapaq. Aswan citacionmanta willakuypaq <guidelinesLink>Guidelines page</guidelinesLink> nisqapi qhaway.
+guidelines = Guidelines
+contact-us = Ñuqaykuwan rimanakuy
 
 ## BULK SUBMISSION 
 
