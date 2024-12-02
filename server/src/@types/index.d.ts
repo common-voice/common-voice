@@ -3,6 +3,12 @@ declare global {
     includes(val: string): boolean
     startsWith(val: string): boolean
   }
+
+  namespace Express {
+    interface Request {
+      eventToken?: any
+    }
+  }
 }
 
 declare module 'express-session' {

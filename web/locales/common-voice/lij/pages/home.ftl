@@ -14,13 +14,9 @@ show-wall-of-text = Saccine de ciù
 help-us-title = Aggiuttine à validâ e frase!
 help-us-explain = Sciacca Reproduxi, senti e dinne: l'an lezuo ben a frase chì de sotta?
 no-clips-to-validate = Pâ che no ghe son registraçioin in sta lengua chì. Contribuisci à registrâ quarcösa.
-vote-yes = Scì
-vote-no = Na
 toggle-play-tooltip = Sciacca { shortcut-play-toggle } pe inandiâ ò fermâ a lettua
-speak-subtitle = Doña a teu voxe
 speak-paragraph = A registraçion vocale de frase a l’é unna parte fondamentale da construçion da nòstra base de dæti; pe çertidun, quella ch’a l’addemoa de ciù ascì.
 speak-goal-text = Registraçioin
-listen-subtitle = Aggiuttine à verificâ e registraçioin
 listen-paragraph = Verificâ e registraçioin fæte da-i atri l’é importante tanto pægio pe-a miscion de Common Voice. Sentile, e aggiuttine à creâ unna base de dæti averta e de qualitæ.
 listen-goal-text = Registraçioin verificæ
 hours-recorded = Oe registræ
@@ -78,3 +74,26 @@ help-contribute = Crea un profî Common Voice e doña a teu voxe pe aggiuttâne 
 login-company = Intra / Scrivite con l’addresso de pòsta de { $company }
 profile-not-required = Avei un profî o no l’é neçessäio, ma o l’é megio.
 read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
+
+## NAV ITEMS
+
+answer-questions = Replica a-e domande <small>(disponibile fito)</small>
+review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
+add-questions = Azzonzi de domande <small>(disponibile fito)</small>
+transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
+press-and-stories = Stampa e stöie
+community-and-languages = Communitæ e lengue
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Conlaboraçioin, stampa e stöie, communitæ e lengue
+partnerships-menu-item-tooltip = Conlabora con niatri
+press-and-stories-menu-item-tooltip = Vixita o nòstro blog ò scrivi in sce de niatri
+community-and-languages-menu-item-tooltip = Screuvi lengue, communitæ e Common Voice
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menù de opçioin d’informaçioin
+partnerships-menu-item-aria-label = Saccine de ciù in scê collaboraçioin con Common Voice
+press-and-stories-menu-item-aria-label = Ammia i communicati stampa e articoli in sce Common Voice
+community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue supportæ da Common Voice

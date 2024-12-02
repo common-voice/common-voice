@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = კა́ვშირ ჲარ
+contact-title = კა́ვშირჲარეჼ ვე́ლი
 contact-form-name =
     .label = წე
 contact-form-message =

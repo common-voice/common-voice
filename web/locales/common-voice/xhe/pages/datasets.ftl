@@ -94,3 +94,7 @@ release-version = ورژن
 dataset-date = تاریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = رَلّا مِلّا
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اَساں جی ٻولی تے ڈیٹا سیٹسیک ڈاؤن لوڈ کر
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس تے ڈیٹاک پُہنچݨ واسطے ڈاؤن لوڈ تیاں ترتیبیاں

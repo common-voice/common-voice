@@ -151,3 +151,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Saccine de ci�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Comm’o l’é finançiou Common Voice?
+about-playbook-how-funded-content-1 = Common Voice o l’é un progetto da Mozilla Foundation, unna fondaçion di Stati Unii de tipo 501c3. O progetto a-o momento o l’é finançiou areo da de <philantropicGrantLink>contribuçioin filantròpiche</philantropicGrantLink>, e de donaçioin da-e gente de tutto o mondo.
+about-playbook-how-funded-content-2 = Ospitâ e pubricâ i dataset, amegioâ a ciattaforma e manezzâ i <africaMradiLink>programmi da communitæ</africaMradiLink> o l’é ben ben cao.
+about-playbook-how-funded-content-3 = Se à ti ò a-a teu organizzaçion ghe fïse cao contribuî a-o progetto, poei fâ unna <donateLink>donaçion</donateLink> ò contattâ a nòstra squaddra ch’a s’òccupa de partnership à l’addresso <emailFragment>commonvoice@mozilla.com</emailFragment>.

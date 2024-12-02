@@ -20,6 +20,7 @@ const ValidatorLocales = [
   'uz',
   'yue',
   'sq',
+  'yaq',
   'default_locale',
 ] as const
 

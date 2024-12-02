@@ -65,6 +65,7 @@ read-sentences = تم سیر کن زیر
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = تم سیر کن زیر، سوال کن لا تم لزوق بیوس
 read-sentences-menu-item-tooltip = یری سکت پینگنو تم سیر کن زیرینچی ریکارڈ بیوس۔
 answer-questions-menu-item-tooltip = تریسپا تراسپونگلا تم لزوغین یری سکت پینگنو ریکارڈ بیوس
 

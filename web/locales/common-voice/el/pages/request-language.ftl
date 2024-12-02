@@ -21,7 +21,7 @@ request-language-form-info-explanation-list-1 = Ονόματα της γλώσσ
 request-language-form-info-explanation-list-2 = <isoCodeLink>Κωδικούς ISO</isoCodeLink> εάν τους γνωρίζετε
 request-language-form-info-explanation-list-3 = Συνδέσμους για ιστοτόπους ώστε να κατανοήσουμε τη γλώσσα
 request-language-google-recaptcha-required = Εάν θέλετε να συνεχίσετε, απαιτείται το reCAPTCHA
-request-language-google-recaptcha-error = Κάτι πήγε στραβά με το reCAPTCHA. Παρακαλούμε δοκιμάστε ξανά.
+request-language-google-recaptcha-error = Κάτι πήγε στραβά με το reCAPTCHA. Δοκιμάστε ξανά.
 # Success page
 request-language-success-heading = Σας ευχαριστούμε! Έχετε στείλει αίτημα για νέα γλώσσα
 request-language-success-list-1 =
@@ -36,5 +36,5 @@ request-language-success-list-3 =
     στείλτε email στο <emailLink>{ $email }</emailLink>
     και θα επικοινωνήσουμε μαζί σας!
 request-language-error =
-    Μπορεί να μην έχουμε λάβει αυτό το αίτημα. Παρακαλούμε στείλτε απευθείας email
-    στο <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!
+    Ενδέχεται να μην έχουμε λάβει αυτό το αίτημα. Στείλτε email απευθείας στο
+    <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!

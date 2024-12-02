@@ -27,6 +27,31 @@ contribute = تۆھپە قوشاي
 
 respond-to-prompt = ئىنكاس قايتۇرۇش
 transcribe-audio = ئۈننى خەتكە پۈت
+check-transcriptions = خەت پۈتۈكنى تەكشۈر
 
 ## Not Found Page
 
+not-found-page-header = تېپىلمىدى
+not-found-page-content = سىز ئىزدەۋاتقان بەت تېپىلمىدى
+# Privacy and Terms checkbox
+accept-privacy-and-terms = مەن Common Voice نىڭ <termsLink> شەرتلىرى </termsLink> ۋە <privacyLink>مەخپىيەتلىك ئۇقتۇرۇشى </privacyLink> غا قوشۇلىمەن.
+# Locales
+bsy = ساباھ بىسايا
+cdo = فۇجۇ
+cpx = خىڭخۇا
+en = ئىنگلىزچە
+fr = فىرانسۇزچە
+hch = ۋىكسارىكا
+kzi = كېلابىت
+mbf = بابا مالاي
+meh = مىكستېك (غەربىي جەنۇپ لاكسىياكو)
+mel = مەركىزى مىلانو
+mmc = مىچوكان مازاخو
+ms-MY = باخاسا مالاي
+msi = ساباھ مالاي
+pez = شەرقىي پېنان
+pne = غەربىي پېنان
+sdo = سېرىيان بىدايۇخ
+snv = سابان
+tr = تۈركچە
+xkl = كېنىيەچە

@@ -31,7 +31,7 @@ add-sentence-success = جملہ جمع با
 add-sentence-error = جملہ جمع کُرنہ خرابی
 required-field = مہربانی کُری یہ فیلڈ پورے
 single-sentence-submission = ایک جملہ جمع کُرن
-small-batch-sentence-submission = اُوچھوٹہ بیچ تہ جملہ کُرن
+small-batch-sentence-submission = اُوچھہ جملہ جمع کُرن
 bulk-sentence-submission = لے تعدادہ جملہ جمع کُرن
 single-sentence = کیول
 small-batch-sentence = اُوچھوٹی بیچ
@@ -88,7 +88,7 @@ sc-bulk-submit-confirm = ائی تصدیق کُنُم تہ میں جملہ نم 
 bulk-upload-success-toast = لے  جملہ نم اپ لوڈ با
 bulk-upload-failed-toast = اپ لوڈ ناکم با، مہربانی کُری دوبارہ کوشیش کُرے
 bulk-submission-success-header = بلک جمع کُرانہ تعاون کرُنہ تا لے مہربانی
-bulk-submission-success-subheader = تو عام کاڻ ساں روزانہ تہ جملہ تہ ہدف پورہ کُرنہ امونہ مدد کُنپ
+bulk-submission-success-subheader = تو کامن وائس ساں روزانہ تہ جملہ تہ ہدف پورہ کُرنہ امونہ مدد کُنپ
 upload-more-btn-text = ورے جملہ نم اپ لوڈ کُرے
 file-invalid-type = غلط فائل
 file-too-large = فائل لے بلو درو
@@ -98,7 +98,7 @@ too-many-files = لے زیت فائل نم
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon> </icon> لے عوامی ڈومین جملہ نم شامل کُرے
+small-batch-instruction = <icon> </icon> متعدد عوامی ڈومین تہ جملہ نم شامل کُرا
 multiple-sentences-error = تو ایک جمع کُرنہ لے جملہ نم اکٹین نی بئیپ
 exceeds-small-batch-limit-error = ایک زرہ تہ زیت جملہ نم جمع کُرین نی بئیپ
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
@@ -138,8 +138,8 @@ small-batch-response-message =
        *[other] { $uploadedSentences } ساں { $totalSentences } جملہ نم جمع با۔ کلک<downloadLink> ایا </downloadLink>مسترد بئی سن جملہ نم ڈون لوڈ کُرئیں کی۔
     }
 small-batch-sentences-rule-1 = رہمنا اُصولہ ݜا عمل کُرا۔ تے ائی کیرا جملہ نم جمع کُرین بئیم
-small-batch-sentences-rule-2 = ہر لائنہ ایک جمل شامل کُرے
-small-batch-sentences-rule-3 = ایک پھیر انٹر یا ری انٹر چوٹی جملہ نم ایک لائنہ جدا کُرا
+small-batch-sentences-rule-2 = ہر لائنہ ایک جمل شامل کُرا
+small-batch-sentences-rule-3 = ایک پھیر انٹر یا ری انٹر چُوٹی جملہ نم ایک لائنہ جدا کُرا
 small-batch-sentences-rule-4 = ایک زرہ 1,000تلی جملہ نم شامل کُرا
 small-batch-sentences-rule-5 = سپُن جملہ نم ساں ایک ڈومین تھین ضروری درو
 small-batch-sentences-rule-6 = سپُن جملہ نم ساں ایک حوالہ  تھین ضروری درو

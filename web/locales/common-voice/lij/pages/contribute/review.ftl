@@ -45,6 +45,8 @@ sc-criteria-item-3 = E fräse an da ëse prononçiabile.
 sc-criteria-item-4 = Se a frase a satisfa i critëi, sciacca o pommello «Appreuva» in sciâ drita.
 sc-criteria-item-5-2 = Se a frase a no satisfa i critëi chì de d’ato, sciacca in sciô pommello «Refua» in sciâ manciña. Se no t’ê seguo, ti peu ascì passâ à quella apreuvo.
 sc-criteria-item-6 = Se no gh’é ciù de frase da approvâ, aggiuttine à arrecheuggine de atre!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Contròlla <icon></icon> che a frase a segge giusta da-o ponto de vista linguistico?
 sc-review-rules-title = A frase a respeta e linie guidda?
 sc-review-empty-state = Pe-o momento no gh’é de frase da verificâ pe sta lengua.
 report-sc-different-language = Atra lengua
@@ -56,3 +58,5 @@ review-error-rate-limit-exceeded = T’ê tròppo lesto. Piggite un pittin ciù 
 sc-redirect-page-title = Semmo apreuvo à fâ di cangiamenti importanti
 sc-redirect-page-subtitle-1 = O Sentence Collector o l’é apreuvo à mesciâse in sciâ ciattaforma prinçipale de Common Voice. Oua ti peu <writeURL>scrive</writeURL> unna frase ò <reviewURL>verificâ</reviewURL> e frase mandæ in sce Common Voice.
 sc-redirect-page-subtitle-2 = Poñine de domande in sce <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ò pe <emailLink>email</emailLink>.
+# menu item
+review-sentences = Verifica de frase

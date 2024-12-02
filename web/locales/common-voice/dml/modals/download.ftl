@@ -5,5 +5,5 @@ download-helpus = کاڻ تہ ٹیکنالوجی تہ برادری ژوپنہ ا
 download-form-email =
     .label = تانوں ای میل انٹر کُرا
     .value = مہربانی، رابطہ تھیمہ
-download-back = عام کاڻ تہ ڈیٹہ شیٹہ کی گیرنکھتی یت
+download-back = کام وائس تہ ڈیٹہ شیٹہ کی گیرنکھتی یت
 download-no = نی مہرہ بانی ،نی شکریہ

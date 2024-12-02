@@ -1,7 +1,8 @@
 action-click = Теуэ
-action-tap = Iусэ
+action-tap = Текъузэ
 contribute = Хэгъахъуэ
-skip = Блэк1
+review = Хэплъэж
+skip = БлэкӀ
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
     { $count ->
@@ -15,41 +16,51 @@ contribute-more =
         [one] Ухьэзыр иджыри птыну?
        *[other] Ухьэзыр иджыри птыну?
     }
-speak-empty-state = We've run out of sentences to record in this language...
-speak-empty-state-cta = Contribute sentences
+speak-empty-state = Мы бзэмкӏэ псалъэуха тегъэтхын къэнэжакъым...
+no-sentences-for-variants = Уи псэлъэкӏэмкӏэ мыпхуэдэ псалъэуха щапхъэ къэнэжакъым! Пфӏэигъуэмэ, нэгъуэщӏ псалъэухахэр плъагъуным папщӏэ уи настройкэхэр зэблэхъу.
+speak-empty-state-cta = Псалъэухахэм къыхэлъхэ
+speak-loading-error =
+    Уедэӏуэн щхьэкӏэ  макъ тетхар ауэ къэдгъуэтыфакъым.
+    Кхъыӏэ, итӏанэ аргуэру еплъыж.
 record-button-label = Уи макъ егъэтх
-share-title-new = <bold>Help us</bold> find more voices
-keep-track-profile = Keep track of your progress with a profile
-login-to-get-started = Log in or sign up to get started
-target-segment-first-card = You’re contributing to our first target segment
-target-segment-generic-card = You’re contributing to a target segment
-target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
-target-segment-add-voice = Add Your Voice
-target-segment-learn-more = Learn More
-
-## Contribution Nav Items
-
+share-title-new = Макъ трезгъэтхэфын иджыри <bold>къытхуэгъуэт</bold>
+keep-track-profile = Профил зэгъэпэщи уи хэхъуэныгъэм кӏэлъыплъ
+login-to-get-started = Ухуежьэным папщӏэ хыхьи регистрацэ щӏы
+target-segment-first-card = Япэрей ди ӏуэху ӏыхьэм хэлъхьэныгъэ хубощӏыр
+target-segment-generic-card = Ди ӏуэху ӏыхьэм хэлъхьэныгъэ хубощӏыр
+target-segment-first-banner = Common Voice-ым и япэрей ӏуэху ӏыхьэ { $locale } -р зэгъэпэщынымкӏэ къыддэӏэпыкъу
+target-segment-add-voice = Уи макъыр хэгъэхьэ
+target-segment-learn-more = Нэхъ ӏупщӏу
+change-preferences = Настройкэхэр зэхъуэкӏ
+login-signup = Ихьэн / Зэгъэпэщын
+vote-yes = Нтӏэ
+vote-no = Хьэуэ
+datasets = Датэсет
+languages = Бзэхэр
+about = Дэ теухуауэ
+partner = { "" }
+submit-form-action = Егъэхь
 
 ## Reporting
 
-report = Iуатэ
-report-title = Iуатэ егъэхь
-report-ask = What issues are you experiencing with this sentence?
+report = Рапорт
+report-title = Рапорт егъэхь
+report-ask = Сыт мы псалъэухамкӏэ гугъу уезыгъэхьыр?
 report-offensive-language = Хъуэн псалэ
-report-offensive-language-detail = The sentence has disrespectful or offensive language.
-report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
-report-grammar-or-spelling-detail = The sentence has a grammatical or spelling error.
-report-different-language = Нэгъэщ бзэ
-report-different-language-detail = It is written in a language different than what I’m speaking.
-report-difficult-pronounce = БгъэIуэну гугъущ
-report-difficult-pronounce-detail = It contains words or phrases that are hard to read or pronounce.
-report-offensive-speech = Хъуэн псалэ
-report-offensive-speech-detail = Тхам хъуэн, пщ1эм еуэ псалъэ хэтщ
+report-offensive-language-detail = Псалъэухам цӏыху зэхэгъэж е гуемыӏу псалъэ хэтщ.
+report-grammar-or-spelling = Грамматикэ / орфографие щыуагъэ
+report-grammar-or-spelling-detail = Псалъэухам грамматикэ е орфографие щыуагъэ хэтщ.
+report-different-language = Нэгъуэщӏыбзэ
+report-different-language-detail = Сызэрыщыпсалъэ бзэкӀэ фӀэмыкӀыу тхащ.
+report-difficult-pronounce = Жыӏэгъуейщ.
+report-difficult-pronounce-detail = Къеджэн е къэпсэлъэн гугъу хъу псалъэ е псалъэуха къыхэтщ.
+report-offensive-speech = Хъуэн псалъэ
+report-offensive-speech-detail = Макъ тетхам цӏыху зэхэгъэж е гуемыӏу псэлъэ хэтщ.
 report-other-comment =
-    .placeholder = ЩIэтхэ
-success = Success
+    .placeholder = Комментарий
+success = Хьэзырщ
 continue = АдэкӀэ
-report-success = Хьэзыр хъащ
+report-success = Рапортыр ебгъэхьащ.
 
 ## Speak & Listen Shortcuts
 
@@ -61,22 +72,22 @@ shortcut-skip = с
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = р
-shortcut-record-toggle-label = Тхы/ув
+shortcut-record-toggle-label = Тетхэ/Къэгъэувыӏэ
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Пычыгъуэр щӀэу тхыж
+shortcut-rerecord-toggle-label = Щӏэрыщӏэу тетхэж
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Discard ongoing recording
+shortcut-discard-ongoing-recording-label = Макъ зэрытхыкӀыгъэм техыж
 shortcut-submit = Гъэзэж
-shortcut-submit-label = Submit clips
-request-language-text = Зэк1э уи бзэр Common Voice-м хэту плъагъукъэ?
-request-language-button = Бзэм щӀэупщӀ
+shortcut-submit-label = Макъ зэрытхыныгъэр егъэхь
+request-language-text = Уи бзэр Common Voice-м хэту плъагъукъэ?
+request-language-button = Бзэщlэ дэщlыгъуа хъун щхьэкlэ лъэlу егъэхь
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = п
-shortcut-play-toggle-label = Гъэ1у/Ув
+shortcut-play-toggle-label = Къегъэуэ/Къегъэувыӏэ
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = й
@@ -86,12 +97,12 @@ shortcut-vote-no = н
 
 ## Validation criteria
 
-contribution-criteria-nav = Criteria
-contribution-criteria-link = Understand contribution criteria
-contribution-criteria-page-title = Contribution Criteria
+contribution-criteria-nav = Пщалъэ
+contribution-criteria-link = Хабзэм щӏэупщӏэ
+contribution-criteria-page-title = Узэрыхыхьэпхъэ пщалъэхэр
 contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
-contribution-for-example = for example
-contribution-misreadings-title = Misreadings
+contribution-for-example = щапхъэ
+contribution-misreadings-title = Къеджэныгъэ мытэрэз
 contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
 contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
 contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.

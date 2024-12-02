@@ -18,6 +18,7 @@ validated-hr-total = Oe totale verificæ
 overall-hr-total = Oe totale
 cv-license = Liçensa
 audio-format = Formato audio
+dataset-splits = Gruppi (etæ e sesso)
 number-of-voices = Numero de voxe
 splits = Divixoin
 email-to-download = Metti o teu adresso de pòsta elettrònica pe descarregâ
@@ -40,6 +41,8 @@ subscribe = Scrivite
 get-started-speech = Comensa co-o reconoscimento vocale
 other-datasets = Atri dataset vocali
 feedback-q = T’æ di suggerimenti?
+# This indicates that there is no data to display
+no-information = Nisciuña informaçion
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ o l’é un <docsLink>toolkit open source</docsLink> pe-i reçercatoî che desviluppan di modelli conversaçionali de intelligensa artifiçià à l’avanguardia.
 resource-deepspeech-info = O motô de reconoscimento vocale de Moilla, Deep Speech, o peu ëse deuviou pe creâ de appricaçioin de reconoscimento vocale. Lezi o nòstro <githubLink>sonto in sce GitHub</githubLink> ò piggia parte <discourseLink>in sce Discourse</discourseLink> pe descrovî comme inandiâ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> a l’é unn’organizzaçion ch’a se dedica a-e tecnologie vocale open source. Tra i seu progetti gh’é di motoî STT e TTS baseæ in sciô deep learning.
@@ -62,6 +65,12 @@ dataset-version = Verscion
 sha256-checksum-copied = Checksum SHA256 stæto copiou!
 sha256-checksum-copied-error = No emmo posciuo copiâ o checksum SHA256
 clipboard-not-supported = Apponti no supportæ
+no-information-available = Nisciuña informaçion disponibile
+dataset-metadata-sex = Sesso
+# dataset metadata - age of contributor
+dataset-metadata-age = Etæ
+donate-modal-message = O teu dataset o l’é apreuvo à ëse descarregou.
+dataset-donate-modal-heading = Ti ô saivi che…
 data-download-singleword-title = Descarrega o segmento particolâ co-e poule scingole
 data-download-singleword-callout-v2 = Sto segmento o l’é basou in sce un caxo d’utilizzaçion particolâ e o l’à di dæti pe amegioâ o reconoscimento vocale de giffre e o reconoscimento de scì/na.
 data-download-button = Descarrega i dæti de Common Voice
@@ -81,3 +90,7 @@ release-version = Verscion
 dataset-date = Dæta
 license = Liçensa: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesccio
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Descarrega i nòstri dataset vocali
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Opçioin de descarregamento pe accede a-i dæti de Common Voice

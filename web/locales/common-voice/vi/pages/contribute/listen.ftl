@@ -12,3 +12,14 @@ listen-loading-error =
 listen-abort-title = Hoàn tất xác thực clip?
 listen-abort-cancel = Tiếp tục xác thực
 listen-abort-confirm = Hoàn tất xác thực
+
+## MENU ITEM TOOLTIPS
+
+validate-readings-menu-item-tooltip = Xác thực các bài đọc do người dùng ghi lại bằng ngôn ngữ của bạn
+review-transcriptions-menu-item-tooltip = Xem lại các bản ghi do người dùng gửi bằng ngôn ngữ của bạn
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Tuỳ chọn khi nghe
+validate-readings-menu-item-aria-label = Xác thực các bài đọc được gửi bởi thành viên cộng đồng
+review-transcriptions-menu-item-aria-label = Đánh giá bản ghi các câu đã được ghi âm để đảm bảo độ chính xác

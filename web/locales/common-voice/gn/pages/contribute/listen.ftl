@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = Ehechajey ñe’ẽjehai ombo’uva po
 
 listen-contribute-menu-aria-label = Ñomongetarã poravoha
 validate-readings-menu-item-aria-label = Emboaje ñongatupy omondóva tekohagua
+review-transcriptions-menu-item-aria-label = Ehechajey umi ñe’ẽjuaju ñongatupyre oñembohasáva jehaípe

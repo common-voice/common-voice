@@ -10,7 +10,7 @@ todays-validated-progress = کلپہ مُدیوکہ پیش رفت ساں توث�
 stats = اعداد و شمار
 awards = ایوارڈ نم
 you = بی
-everyone = ہر کُرئی
+everyone = ہر ایک
 contribution-activity = اکَٹی کُرِیسن کرم
 top-contributors = سپُن تہ لے تعاون کُرال
 recorded-clips = ریکارڈ کُریسن کلپس نم
@@ -25,7 +25,7 @@ show-ranking = مائی درجہ بندی کَڅئی
 ## Custom Goals
 
 get-started-goals = مقصدہ ملی شُرو کُرا
-create-custom-goal = ایک تانوں مرضی تہ مقصد ژوپایا
+create-custom-goal = ایک حسب ضرورت  گول/ مقصد ژوپایا
 goal-type = تو کیہ قسم مقصد ژوپن گھٹِنپ
 both-speak-and-listen = دوئں
 both-speak-and-listen-long = دوئں کُھنڈا آں اُشتُرُنا
@@ -47,16 +47,77 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] عام کاڻ ساں مدد کُرا ویبنہ { $hours } گینٹا ایک باݜہ ایک ذاتی مقصدہ ملی
-       *[other] عام کاڻ ساں مدد کُرا ویبنہ { $hours }گینٹہ نامہ ایک باݜہ ایک ذاتی مقصدہ ملی
+        [one] کامن وائس ساں مدد کُرا ویبنہ { $hours } گینٹا ایک باݜہ ایک ذاتی مقصدہ ملی
+       *[other] کامن وائس ساں مدد کُرا ویبنہ { $hours }گینٹہ نامہ ایک باݜہ ایک ذاتی مقصدہ ملی
     }
 set-a-goal = مقصد ژوپئی
 cant-decide = فیصلہ کُرین نی بئیپ
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+    }
 how-many-per-day = ہر دیو کتی کلپس ژوپئیمہ
 how-many-a-week = ہفتا کتی کلپس نم ژُپئیمہ
 which-goal-type = تو کیہ کُھنڈن گٹنپ اُشتُرونن گٹِنپ یا دوئں
 receiving-emails-info = تو فلحال ای میل مِلو بئیں کی تیار تِھی لکہ مقصد تہ یاد دہانی تازہ ترقی آں کامن وائس ساں بارا نیوزلیٹر
-not-receiving-emails-info = تو فی الحال مسہ سیٹ تُھوپ<bold>نی</bold> ای میل وصول کُرا کنوئی تے مقصد تہ یاددہانی ، ما عام کاڻ تہ بارہ پروگرس اپڈیٹس آں خبر تہ خط
+not-receiving-emails-info = تو فی الحال مسہ سیٹ تُھوپ<bold>نی</bold> ای میل وصول کُرا کنوئی تے مقصد تہ یاددہانی ، ما کامن وائس تہ بارہ پروگرس اپڈیٹس آں خبر تہ خط
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } کلپ
@@ -73,7 +134,7 @@ share-goal-type-speak = مُشکُل بین
 share-goal-type-listen = اُشترونن
 share-goal-type-both = مُشکُل بینن آں اُشتُرونن
 # LINK will be replaced with the current URL
-goal-share-text = ژا عام کاڻ کی ما کاڻ عطیہ کُرن زاتی مقصد درو، مو ملی شامل با آں مشین نامہ کڅنہ مدد کُرا تے انسان کنو بئی مُشکُل بین{ $link }
+goal-share-text = ژا کامن وائس کی ما کاڻ عطیہ کُرن زاتی مقصد درو، مو ملی شامل با آں مشین نامہ کڅنہ مدد کُرا تے انسان کنو بئی مُشکُل بین{ $link }
 weekly-goal-created = تاں ہفتہ وار مقصد ژوپئن گا
 daily-goal-created = تاں روزانہ تہ مقصد ژوپئن گا
 track-progress = ایا آں اعداد و شمار تہ تانوں  پھٹہ پیش رفت ٹریک کُرا

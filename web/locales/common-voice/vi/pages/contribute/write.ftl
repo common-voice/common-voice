@@ -116,3 +116,18 @@ small-batch-sentences-rule-3 = Tách các câu thành một dòng bằng cách n
 small-batch-sentences-rule-4 = Thêm tối đa 1000 câu
 small-batch-sentences-rule-5 = Tất cả các câu phải có cùng một phạm vi
 small-batch-sentences-rule-6 = Tất cả các câu phải có cùng một trích dẫn
+# menu item
+add-sentences = Thêm câu
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Thêm các câu bằng ngôn ngữ của bạn
+review-sentences-menu-item-tooltip = Xem lại các câu trong ngôn ngữ của bạn
+add-questions-menu-item-tooltip = Thêm các câu hỏi bằng ngôn ngữ của bạn
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Tuỳ chọn khi viết
+add-sentences-menu-item-aria-label = Thêm các câu mới để cộng đồng cùng đọc
+review-sentences-menu-item-aria-label = Xem lại các câu hiện có đã được cộng đồng đăng lên
+add-questions-menu-item-aria-label = Đăng các câu hỏi mới để cộng đồng cùng đọc và trả lời

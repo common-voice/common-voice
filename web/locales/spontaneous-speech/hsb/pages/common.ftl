@@ -21,7 +21,7 @@ report-button = Zdźělić
 # For the button to skip an item
 skip-button = Přeskočić
 submit-button = Wotpósłać
-contribute = Přinošować
+contribute = Sobu dźěłać
 
 ## Navbar
 

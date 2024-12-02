@@ -143,10 +143,21 @@ small-batch-sentences-rule-3 = Tekil cümleleri “Enter” ya da “Return” t
 small-batch-sentences-rule-4 = En fazla 1.000 cümle ekleyebilirsiniz
 small-batch-sentences-rule-5 = Tüm cümleler aynı alandan olmalıdır
 small-batch-sentences-rule-6 = Tüm cümleler aynı kaynaktan olmalıdır
+# menu item
+add-sentences = Cümle ekle
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Cümle ekle ve denetle, soru ekle, sesi metne dönüştür
+add-sentences-menu-item-tooltip = Dilinizde cümleler ekleyin
+review-sentences-menu-item-tooltip = Dilinizdeki cümleleri denetleyin
+add-questions-menu-item-tooltip = Dilinizde sorular ekleyin
+transcribe-audio-menu-item-tooltip = Dilinizdeki ses kayıtlarını metne dönüştürün
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Yazma seçenekleri menüsü
+add-sentences-menu-item-aria-label = Topluluğun okuması için yeni cümleler ekleyin
+review-sentences-menu-item-aria-label = Topluluk tarafından gönderilen cümleleri gözden geçirin
+add-questions-menu-item-aria-label = Topluluğun okuyup yanıtlaması için yeni sorular gönderin
+transcribe-audio-menu-item-aria-label = Ses kayıtlarını metne dönüştürün
