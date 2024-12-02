@@ -33,6 +33,9 @@ review-submit-title = Qhawaspa apachiy
 review-submit-msg = Hirqusqaykimantallay!<lineBreak></lineBreak>Kunanqa qhaway hinaspa uraypi clipsniykikunata apachiy.
 review-recording = Kutipay
 review-rerecord = Yapamanta hirquy
+review-cancel = Apachitaqa chinkachiy
+review-keep-recordings = Hirqukunata waqaychay
+review-delete-recordings = Hirqukunata chinkachiy
 
 ## MENU ITEM TOOLTIPS
 
