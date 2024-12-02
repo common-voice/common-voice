@@ -61,6 +61,7 @@ join-newsletter = naya project maalumaat daa updates gane mii email list ulo opt
 whats-public = besan awaami?
 email-not-public = mi maa email men ke ayoortirćan
 recordings-and-locale-public = maa recordings beruman etaan kaa daa amit baaṣulo duro ećaam iteer uyoone bareyman
+username-optin-public = meyilk ayosum maymo uyoone barenas username an desqatas maamay baan
 
 ## Landing
 
