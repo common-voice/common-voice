@@ -54,5 +54,8 @@ report-sc-different-language-detail = Chayqa qillqasqa kachkan hukniray simipi, 
 sentences-fetch-error = Huk pantaymi karqan rimaykunata apamuspa
 review-error = Kay rimayta qhawarispa pantaymi karqan
 review-error-rate-limit-exceeded = Llumpay utqayllam richkanki. Ama hina kaspa, huk asniqlla rimayta qhaway, allin kasqanmanta yachanaykipaq.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Wakin hatun tukuchipakunata ruwachkayku
+sc-redirect-page-subtitle-1 = Sentence Collector runaqa Common Voice kuyuchkan. Kunanqa <writeURL>qillqayta</writeURL> huk rimayta icha <reviewURL>qhaway</reviewURL> huklla rimay kachasqakunata Common Voice atikunki.
 # menu item
 review-sentences = Rimaykunata qawariy
