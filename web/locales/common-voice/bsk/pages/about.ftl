@@ -73,27 +73,27 @@ about-playbook-how-add-language-collecting-sentences-content-3 = daa maziiḍ ju
 ## How does localization work
 
 about-playbook-how-localize = site localization e belate duro eći bi?
-about-playbook-how-localize-content-1 = common voice e tarjuman khole mey bila
-about-playbook-how-localize-content-2 = khole account desmanin. agar maa han api ke. iciyate maymo baaṣ isalginin ite cum praajekt isalginin khole  khole ṭarjuma ećar failing meymi.  Hanate klik eṭin. neṭanin khole angreziulo lafzing maartirci daa tarjuma ećar diś bila.
-about-playbook-how-localize-content-3 = angrezi cum tarjuma etin, leikin maa yeeśuman thumin baaṣinulo. Khole click ne  amit maa baaṣ bila ke ite kaa etin. yaarumuś doẏpa yuukiulo tarjuma etas ite list meymi amitar seybaan  tarjuman  site ate han guncan iciyate ġeyśican.
+about-playbook-how-localize-content-1 = common voice e tarjumaṅ khole mey bila
+about-playbook-how-localize-content-2 = khole account desmanin. agar maa han api ke. iciyate maymo baaṣ damśi eitin ite cum project damśi etin. khole ṭarjuma ećar files meymi.  hanate click eṭin. neṭanin khole angreziulo lafzing maartirci daa tarjuma ećar diś bila.
+about-playbook-how-localize-content-3 = angrezi cum tarjuma etin, leikin maa yeeśuman thumin baaṣinulo. kʰole click ne  amit maa baaṣ bila ke ite kaa etin. yaarumuś doẏpa yuukiulo tarjuma etas ite list meymi amitar sey baan  tarjuman e  site ate han guncan iciyate ġeyśican.
 about-playbook-how-localize-content-4 = site śuru mayaar tayaar bila beśal 75% duro mukamal manimi ke
-about-playbook-how-localize-content-5 = masulo biśaćar mii video min barenin
+about-playbook-how-localize-content-5 = masulo biśaćar mii video barenin
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = jumulan belate kaa ećam?
-about-playbook-how-add-sentences-content-1 = jumlan khole kaa etas maamay baan [write page] yaa jumlan ḍubara esaljar khole [review page]
-about-playbook-how-add-sentences-content-2 = jumlan hanjuko ućharingulo śaamil ećar altan sise nuparan manzoor etiṣan. Jumlan public domain ulo maniṣ ḍaa turma chunḍo lafzing cum jot maniṣ. Text e ḍamn cum ḍugharusin waiver gane and gutte process gane mii kaa rabitta ettin commonvoice@mozilla.com
-about-playbook-how-add-sentences-content-3 = gute istimal netan Wikepedia cum  khutukiyo jumlan ḍuruwar suṣ maamay baan
+about-playbook-how-add-sentences = jumulaṅ belate kaa ećam?
+about-playbook-how-add-sentences-content-1 = jumlaṅ khole kaa etas maamay baan [write page] yaa jumlaṅ ḍubara esaljar khole barenin [review page]
+about-playbook-how-add-sentences-content-2 = jumlaṅ common voice ulo śaamil ećar altan sise nuparan manzoor etiṣan. Jumlaṅ public domain ulo maniṣ daa turma chundo lafzing cum jot maniṣ. Text e daman cum dugharusin waiver gane and gute process gane mii kaa rabita etin commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = gute istimal netan Wikepedia cum  khutukiyo jumlan duruwar suṣ maamay baan
 
 ## How to record quality
 
-about-playbook-how-record-quality = ḍalṭas quality ulo ućhare clip belate record ećam?
-about-playbook-how-record-content-1 = maymo maćharulo ćaġa etin! belate maa ćaġa ećaan ke ite khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
+about-playbook-how-record-quality = dalṭas quality ulo ućʰare clip belate record ećam?
+about-playbook-how-record-content-1 = maymo mać..ʰarulo ćaġa etin! belate maa ćaġa ećaan ke ite khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
 about-playbook-how-record-content-2 = madigaartak ućharing oomaniṣ daa ma dimeyalas mimar asaan maniṣ.
-about-playbook-how-record-content-3 = jumlan śan ne ġatanin, besan ke lafzan phaṭ ayetin, baḍal yaa kaa  ayetin.
+about-playbook-how-record-content-3 = jumlaṅ śan ne ġatanin, besan ke lafzan phaṭ ayetin, baḍal ayetin, yaa kaa  ayetin.
 about-playbook-how-record-content-4 = maa ćaġa etas cum yaar platform e record etasar barenin daa beśal ćaġa bas etumar et ban maniṣ.
-about-playbook-how-record-content-5 = akhole mazeed warc etase tariqaar barenin [accuracy link]
+about-playbook-how-record-content-5 = akʰole mazeed warc etase tariqaar barenin [accuracy link]
 
 ## How to grow language
 
