@@ -1,13 +1,13 @@
 ## ABOUT US
 
 about-title = Bes common voice?
-about-header-description-v2 = common voice uyoon sise gane ićhare dataset bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ićhare dataseting kampnimine bican.  ićhare datasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućharing api. ićharing technologiulo butan baasinge kaa duro ayećhibi teeylate sis gati nuko ućharin har dishulo bageeś eṭase ćamaat eća baan
-how-does-it-work-title-v2 = Belate common voice e duro ećibi?
-how-does-it-work-text = Mii dunyaatulum ućharinge dataset gati echa baan. Mayno baaṣulo ićharing meer doocing . thumiśuwe duroing tasḍiiq netan deetaset warc etin.
+about-header-description-v2 = common voice uyoon sise gane ućʰariṅe dataset an bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ućʰariṅe dataseting kampnimine bican.  ućʰare datasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućʰariṅ api. ućʰariṅe technologiulo butan baasiṅe kaa duro ayećhibi teeylate sis gati nuko ućʰariṅ har diśulo bageeś eṭase ćamaat eća baan
+how-does-it-work-title-v2 = Belate common voice e duro eći bi?
+how-does-it-work-text = Mii dunyaatulum ućʰariṅe dataset gati echa baan. mayno baaṣulo maćʰariṅ meer doocin . tʰumiśuwe duroiṅ tasḍiiq netan dataset warc etin.
 
 ## How does it work section
 
-about-language-req-subtitle = menane baaṣ kaa ećar duġaruśam.
+about-language-req-subtitle = menane baaṣan kaa ećar duġaruśam.
 about-localization-title = website localization
 about-localization-subtitle = gute website text ite baaṣulo tarjuma manila
 about-sentence-collection-title = gati etumin jumulan
