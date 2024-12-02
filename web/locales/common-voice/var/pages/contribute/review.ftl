@@ -24,7 +24,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Ka'awe usaroamamu kiteperuma tachuchaniame; puka{ sc-review-form-button-approve-shortcut }yorame ; { sc-review-form-button-reject-shortcut } kinakimia i{ sc-review-form-button-skip-shortcut }  ni'nia
 sc-review-form-button-submit =
-    .submitText = 15. Ka'juka pu'ká re'wisaroaka
+    .submitText = Ka'juka pu'ká re'wisaroaka
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -42,10 +42,10 @@ sc-review-link = Neneniame
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = Yo'raniame puka revisaroaniame
-sc-criteria-title = Yo'raniame puka revisaroaniame
-sc-criteria-make-sure = 21. Yoma o'rasioni itomete cumpiaroamia yo'má a'jama si'miyame yo'raka:
-sc-criteria-item-1 = i'ji na'wesari e'nimapu ka'we yo'tetiame ka'wetiame
+sc-criteria-modal = Yo'raniame pu'ká revisaroaniame
+sc-criteria-title = Yo'raniame pu'ká revisaroaniame
+sc-criteria-make-sure = Yoma o'rasioni itomete kumpiaroamia yo'má a'hama si'miyame yo'raka:
+sc-criteria-item-1 = I'hi na'wesari e'nimapu kawé yo'tetiame ka'wetiame
 sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
 sc-criteria-item-3 = Iji na'wesari eni'mapu túka machitaniame
 sc-criteria-item-4 = e'je ika o'rásioni cumpiorani púka yo'rá , wa'a &quot; yo'rapame&quot; wa'a a'jamina
