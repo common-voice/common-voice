@@ -8,11 +8,11 @@ sc-review-no-sentences = Kite waasi o'rasioni  pu'ká ne'neniame. <addLink> Na'p
 sc-review-form-prompt =
     .message = Ka'i ito'čena pu'ká ne'netiame, ¿piči'wá čani'mú?
 sc-review-form-usage =
-    Ri'siitate wa'a a'jámina pu'ka yorapame. Ri'siitate waa jo'wena'mina puka kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
-    ka'te na'tekepa puka itochemia amo ne'neria</strong>
+    Ri'siitate wa'a a'jámina pu'ká yorapame. Ri'siitate wa'a jo'wena'mina pu'ká kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
+    ka'te na'tekepa pu'ká itočemia amo ne'neria</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = Akana machijipakamu{ $sentenceSource }
+sc-review-form-source = Akana mačijipakamu{ $sentenceSource }
 sc-review-form-button-reject = Ki'nakitiamé
 sc-review-form-button-skip = Umatote aampa
 sc-review-form-button-approve = Yorame
