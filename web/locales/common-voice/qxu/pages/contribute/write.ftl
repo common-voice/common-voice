@@ -10,6 +10,9 @@ small-batch-sentence-input-placeholder = Kaypi yachasqa rimakunaniykita qillqay
 citation-input-placeholder = Rimanakuyniykipa maymanta hamusqanmanta rimay (ruraypaqkama)
 citation =
     .label = Willakuy
+sc-write-submit-confirm = Kay rimayqa <wikipediaLink>llapa runap kamachiynin</wikipediaLink> kasqanmantam takyachini, chaytataq churanaypaqmi ñiniyuq kani.
+sc-review-write-title = Ima rimaykunatataq yapayman?
+sc-review-small-batch-title = Imaynatataq achka rimaykunata yapasunman
 
 ## BULK SUBMISSION 
 
