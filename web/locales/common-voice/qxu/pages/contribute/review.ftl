@@ -44,5 +44,14 @@ sc-criteria-item-2 = Chay rimayqa kamachisqa simi allin kanan.
 sc-criteria-item-3 = Chay rimayqa rimanapaq hinam kanan.
 sc-criteria-item-4 = Sichus rimay kamachiykunawan tupan chayqa, &quot;Uyakuy&quot; pañapi ñit’inata.
 sc-criteria-item-5-2 = Sichus rimay kamachiykunawan tupan mana chayqa, &quot;Sichus rimay kamachiykunawan tupan chayqa, &quot;Karunchay&quot; lluqipi ñit’inata. Sichus mana chiqachu kanki chay rimaymanta chayqa, saqispataq qatiqninman riwaq.
+sc-criteria-item-6 = Sichus qhawarinaykipaq rimaykuna tukukun chayqa, yanapawayku aswan rimaykunata huñunaykipaq!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> nisqapi qhaway kay rimayqa simipi allinchu?
+sc-review-rules-title = Chay rimayqa kamachikuykunaman hinachu tupan?
+sc-review-empty-state = Kunan pachaqa manan kay simipi rimanapaq rimaykuna kanchu.
+report-sc-different-language = Huk simi
+report-sc-different-language-detail = Chayqa qillqasqa kachkan hukniray simipi, qhawarisqaymanta.
+sentences-fetch-error = Huk pantaymi karqan rimaykunata apamuspa
+review-error = Kay rimayta qhawarispa pantaymi karqan
 # menu item
 review-sentences = Rimaykunata qawariy
