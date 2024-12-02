@@ -37,6 +37,12 @@ review-cancel = Apachitaqa chinkachiy
 review-keep-recordings = Hirqukunata waqaychay
 review-delete-recordings = Hirqukunata chinkachiy
 review-terms = Common Voice llamk'achispa, <termsLink>Paqarisqakuna</termsLink> chaymanta <privacyLink>Sapalla willayniyku</privacyLink> kaqwan ari ñinki
+terms-agree = Ñuqa huñikuni
+terms-disagree = Ñuqa mana huñikuni
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Clipkuna nisqaykichikta qusqaykichikmantalla!
+first-cta-subtitle-text = Kikiykimanta willawaspayku, ruwaqkunata yanapanki aswan llapanpaq tiqta ruwanankupaq
+why-donate = Imanasqataq tapukunki?
 
 ## MENU ITEM TOOLTIPS
 
