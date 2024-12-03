@@ -3,7 +3,7 @@ const DASHBOARD = '/dashboard'
 const DEMO = '/demo'
 
 export default Object.freeze({
-  ROOT: '/voicewall',
+  ROOT: '',
 
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',
