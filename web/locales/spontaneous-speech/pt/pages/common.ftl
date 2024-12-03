@@ -21,6 +21,8 @@ check-transcriptions = Verificar transcrições
 
 not-found-page-header = Não encontrado
 not-found-page-content = A página que você procura não pôde ser encontrada
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Concordo com os <termsLink>Termos</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> do Common Voice
 en = Inglês
 fr = Francês
 tr = Turco
