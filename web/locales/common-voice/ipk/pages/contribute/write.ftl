@@ -24,6 +24,7 @@ new-sentence-rule-8 = Makimaġnaiḷḷugi uqaluit
 login-instruction-multiple-sentences = <loginLink>Atchiiḷutin</loginLink> <loginLink>immiiñiaġuviñ</loginLink> iñugiaguraqtuanik uqalugnik.
 how-to-cite = Qanuq nalunaiġñiaqpigi kaŋiŋit?
 how-to-cite-explanation-bold = Kaŋŋiġḷugi paqirviksraŋagun naakka taggisiŋagun savaam.
+how-to-cite-explanation = Uqaluit uvaniittuat kiapayaaq atuġumiñaġniaġai. Uqalutin tuuġlugu <italicizedText>“Self Citation”</italicizedText>. Maliġikki <guidelinesLink>maliġiaksrat</guidelinesLink> ukua.
 guidelines = Maliġiaksrat
 contact-us = Tusaayugaaq
 add-sentence-success = Atausiq uqaluk katiqsraq
@@ -81,6 +82,9 @@ accepted-files = Akuqtuat savaat qanusiutilaaŋit: .tsv kisiisa
 minimum-sentences = Iñugiakisilaaksraŋit uqaluit savaami: 1000
 maximum-file-size = Iñugiaktilaaksraŋit uqaluit savaami: 25 MB
 what-needs-to-be-in-file = Sunik imaqaqtuksrauva savaaġa?
+what-needs-to-be-in-file-explanation =
+    Maliġikki <templateFileLink>Template-put</templateFileLink>. Nalupqinaiġiga una uqaluk kiapayaaq atuġumiñaġaa suli ikuyumiñaġaa. Aglaŋaruksraurut iluaġlutiŋ
+    Kaŋiqsiñaqtuksraurut. Uqaluk taisuġnaqtuksrauruq. Atuġnak kisirrutinik suli iḷauŋitchuanik atchagani. Makimaġnaiḷḷugi uqaluit (10-15 seconds). Allat uqautchit atchagaŋit atuġnagit.
 upload-progress-text = Ikusiruq suli...
 sc-bulk-submit-confirm = Nalunaiġiga kiitaaġutiqaqtuŋa ikuniŋatigun ukua savaat (<wikipediaLink>public domain</wikipediaLink>).
 bulk-upload-success-toast = Iñugiaktuat Uqaluit Ikurut
@@ -102,7 +106,7 @@ exceeds-small-batch-limit-error = Ikusiyumiñaitchutin uqalugnik qaaŋiġlugi 10
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Sukasaqpaitchutin. Uuktuatqikkumautin atausiq ikarraurat qaaŋianikpata.
+        [one] Sukasaqpaitchutin. Uuktuatqikkumautin atausiq ikarrauraq qaaŋianikpan.
        *[other] Sukasaqpaitchutin. Uuktuatqikkumautin { $retryLimit } ikarraurat qaaŋianikpata.
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
@@ -110,6 +114,18 @@ rate-limit-toast-message-seconds =
     { $retryLimit ->
         [one] Sukasaqpaitchutin. Uuktuatqikkumautin atausiq second qaaŋianikpata.
        *[other] Sukasaqpaitchutin. Uuktuatqikkumautin { $retryLimit } seconds qaaŋianikpata.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Sukasaqpaitchutin. Uuktuatqikkumautin 1 ikarrauraq qaaŋianikpan. Quyanaq utaqqigaviñ.
+       *[other] Sukasaqpaitchutin. Uuktuatqikkumautin { $retryLimit } ikarraurat qaaŋianikpata. Quyanaq utaqqigaviñ.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Sukasaqpaitchutin. Uuktuatqikkumautin 1 second qaaŋianikpan. Quyanaq utaqqigaviñ.
+       *[other] Sukasaqpaitchutin. Uuktuatqikkumautin { $retryLimit } seconds qaaŋianikpata. Quyanaq utaqqigaviñ.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
