@@ -17,6 +17,9 @@ validate-readings = Cucukluki Qalarutkat Assilriit
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Cucukluki Qalarutkat Assilriit, Igausngalriit-llu Assilriit
+validate-readings-menu-item-tooltip = Cucukluki Qalarutkat Assilriit Qaneryaravni
+review-transcriptions-menu-item-tooltip = Cucukluki Igausngalriit Assilriit Qaneryaravni
 
 ## MENU ITEM ARIA LABELS
 
