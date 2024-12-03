@@ -97,6 +97,8 @@ too-many-files = Nishu achka willañiqikuna
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> nisqa achka simita yapay, llapa runaq kamachisqan rimaytakuna
 
 ## MENU ITEM TOOLTIPS
 
