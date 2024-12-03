@@ -1,4 +1,4 @@
-action-click = Click yorapa
+action-click = Klik yorapa
 action-tap = Puka
 contribute = Yooma pienapi apo kuyame
 review = Neene puuka
@@ -26,11 +26,6 @@ target-segment-first-banner = Ta'mó ku'i yo'raka pu'ka pa'cha yoraniame i'ka i'
 target-segment-add-voice = Toamitia amo naewasari
 target-segment-learn-more = Epeche weika información
 change-preferences = Na'kuriwaniame a'po ino'wareka
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kawetiamera úniame puka chiame
-contribute-sentence-collection-nav-header = Ma'chipaniame pu'ka na'wesari
 login-signup = Oinemera sesión neteka...regitradosa
 vote-yes = ejeé
 vote-no = kai
