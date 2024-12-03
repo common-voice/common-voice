@@ -18,7 +18,11 @@ validate-readings = Iluaġmagaakki Immiqsat
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Iluaġmagaakki Immiqsat, Iluaġmagaakki Uqaluit
-validate-readings-menu-item-tooltip = Iluaġmagaakki Immiqsat Iñupiatun.
+validate-readings-menu-item-tooltip = Iluaġmagaakki Immiqsat Iñupiatun
+review-transcriptions-menu-item-tooltip = Iluaġmagaakki Uqaluit Iñupiatun
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Naalaktuaġiñ (Menu)
+validate-readings-menu-item-aria-label = Iluaġmagaakki Allat Immiqsat
+review-transcriptions-menu-item-aria-label = Iluaġmagaakki Uqaluit. Iłuaqpat?

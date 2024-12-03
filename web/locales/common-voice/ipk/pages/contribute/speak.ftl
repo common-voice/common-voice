@@ -60,9 +60,16 @@ already-have-an-account = Qaqasaurakun ikkuviqaanikpiñ? <login>Ikkuiñ</login>
 create-profile-button = Ilikkun iḷisimaraksraliuġiñ
 # IMAGE TAGS
 img-alt-success-checkmark = nakuuruq
+# menu item
+read-sentences = Taiguakki Uqaluit
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Taiguakki Uqaluit, Kiukki Apiqqutit
+read-sentences-menu-item-tooltip = Iġñan atuġlugu immiqsiiñ
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Uqallagiñ (Menu)
+read-sentences-menu-item-aria-label = Taiguakki Allat Uqaluit
+answer-questions-menu-item-aria-label = Iḷḷatiuŋ Apiqqutiq
