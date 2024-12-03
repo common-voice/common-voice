@@ -38,7 +38,7 @@ submit-form-action = itočeniame
 ## Reporting
 
 report = Informandomia naewasari
-report-title = Itocheniame informe netesa
+report-title = Itočeniame informe netesa
 report-ask = ithana uju puu newesari?
 report-offensive-language = naereka nawesamé
 report-offensive-language-detail = Kí  yoreká nawesanimú naerachanimú.
