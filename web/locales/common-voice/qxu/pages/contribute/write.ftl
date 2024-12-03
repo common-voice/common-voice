@@ -82,6 +82,12 @@ accepted-files = Chaskisqa willañiqi layakuna: .tsv kaqlla
 minimum-sentences = Philipi aswan pisi rimaykuna: 1000
 maximum-file-size = Willañiqip aswan hatun sayaynin: 25 MB
 what-needs-to-be-in-file = Imataq philiypi kanan?
+what-needs-to-be-in-file-explanation = Ama hina kaspa, <templateFileLink>willañiqiyku</templateFileLink> nisqapi qhaway. Rimasqaykikunaqa mana copyright nisqayuqmi kanan (CC0 utaq apachiqpa saqisqan llamkay) hinaspapas sutilla, simi kamachiq nisqapi allin hinaspa mana sasa ñawinchanapaqmi kanan. Chay apachisqa rimaykunaqa yaqa 10-15 sec nisqapim ñawinchanapaq, manataqmi yupaykunata, sutikunata, sananpa nisqakunatapas churanachu.
+upload-progress-text = Yapayqa puririchkanmi...
+sc-bulk-submit-confirm = Kay rimayqa <wikipediaLink>llapa runap kamachiynin</wikipediaLink> kasqanmantam takyachini, chaytataq churanaypaqmi ñiniyuq kani.
+bulk-upload-success-toast = Achka Rimaykuna Yapasqa
+bulk-upload-failed-toast = Yapayqa manam atirqanchu, ama hina kaspa, musuqmanta kallpachakuy.
+bulk-submission-success-header = Hatun apachiykita yanapasqaykimantalla!
 
 ## SMALL BATCH SUBMISSION
 
