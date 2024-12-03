@@ -17,6 +17,7 @@ contribute-more =
        *[other] { $count } suli?
     }
 speak-empty-state = Uqaluit immiqsaliuġutit nuŋurut.
+no-sentences-for-variants = Immiqsat kutautikkun nuŋurut, simmiġumiñaġiñ allamun kutaunmun pisukkuviñ.
 speak-empty-state-cta = Qaitchivsaaġiñ uqalugnik
 speak-loading-error =
     Paqitchiŋitchugut uqalugnik.
@@ -72,9 +73,48 @@ shortcut-skip = s
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Immiqsiiñ/Nutqaġiñ
 shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording-label = Igirruŋ igliqtuaq immiqsaq
+request-language-text = Tautuŋitpiuŋ uqausiñ Common Voice-mi?
+request-language-button = Apiqsriiñ uqausimik
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Aullaqtirruŋ/Nutqaqtirruŋ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Ittuksrat
+contribution-criteria-link = Kaŋiqsilugit aitchuunmi ittuksrat
+contribution-criteria-page-title = Aitchuunmi Ittuksrat
+contribution-criteria-page-description = Maliġilugit makua aitchuunmi ittuksrat naalaktuaġuviñ naakka aglakkuviñ uqalugnik.
+contribution-for-example = Maliġilugit makua:
+contribution-misreadings-title = Taiguamaqługniġit
+contribution-misreadings-description = Naalaktuaġuviñ, piqatigiiksilaallaalugik immiqsaġlu aglaaġlu.  Allagiikpagnik akuqtuġnagik. <br />Iñugiaktuat iñuit killukuaqtaġuurut inna:
+contribution-misreadings-description-extended-list-1 = Taiguaqługit iluqaisa atchagat.
+contribution-misreadings-description-extended-list-2 = n/a
+contribution-misreadings-description-extended-list-3 = n/a
+contribution-misreadings-description-extended-list-4 = Nutqaġuuruq iluqaan taiguaġaluaġnagu.
+contribution-misreadings-description-extended-list-5 = Taiguatqigaaqługu uqaluk.
+contribution-background-noise-title = Avatimi Nipit
+contribution-background-noise-description = Akuqtuaġilugu immiqsaq avatimi nipit tusaġnaġaluaqtillugi.
+contribution-background-noise-description-extended = Immiqsaq nutqaqtaqpan, akuqtuaġinagu.
+contribution-background-noise-example-2-explanation = [Tusaġnaitpata iḷaŋit uqaluit]
+contribution-background-voices-title = Avatimi iġñat
+contribution-background-voices-description = Tusaaguvuñ kaŋiqsiñaqtuanik avatimiñ uqaqtuanik, akuqtuaġinagu.
+contribution-volume-title = Nipatuniq
+contribution-volume-description = Nipatuvaitpan naakka nipakitpaitpan, akuqtuaġinagu.
+contribution-reader-effects-title = Taiguaqtim Inillaktittaŋi
+contribution-reader-effects-description = Akuqtullaniaġitin iñugiaktuat immiqsat, nipatugaluaqpata naakka nipakitkaluaqpata, aglaan akuqtuġnagi immiqsat atuutit.
+contribution-just-unsure-title = Nalupqisukpiñ?
+contribution-just-unsure-description = Pisuqtilaaġlutin akuqtuaġiniaġupki naakka akuqtuaġiniaŋitkupki immiat.  Nalupqisugigupki, qaaŋiqsaaġlugi.
+see-more = <chevron></chevron> Tautugukkupki allat
+see-less = <chevron></chevron> Iriġukkupki
