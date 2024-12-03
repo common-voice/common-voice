@@ -37,11 +37,11 @@ review-cancel = Nasonaga uka amó neterio
 review-keep-recordings = Waa tehiwaga uka amó neterio
 review-delete-recordings = Nasonaga uka no'ó neterio
 review-terms = Čireka unewame Common Voice, uka  itaperi tamo neterio, nati papamila naosame noriwi
-terms-agree = Kawe ju noo chigo
+terms-agree = Kawe hu no'ó čigo
 terms-disagree = Kaine kawe intani
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
-first-cta-subtitle-text = ¿Peniremu elani tojachaga uka naosari amó naosao?
+first-cta-header-text = Čeriwera uka amó nanosariwa nehario sulala
+first-cta-subtitle-text = ¿Peniremu elani tohačaga uka naosari amó naosao?
 why-donate = Chekamu tukena?
 why-donate-explanation-1 = Iji ositume uju. Kawemu enerena .Namu nanajuna uka pienawi llomaga reme unena, Remega kawe neseroma uka itaperi nati omo tewula ositume kai peja katime nati itaperi chireka nati pamiwaila nati amó sexo
 why-donate-explanation-2 = Pile wua ereka kaweju tecnologia llomaga, uka najutume uka netetume ereka netesiga uka ipakorume senegachi kai reme cheenarema pile naosame nukwarijo penieme erekago kay kajuma kawego uka kai naosame ipakorume<learnMore>Neteka pilechi weika metadatos nateame</learnMore>
