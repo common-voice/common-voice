@@ -152,6 +152,12 @@ write-contribute-menu-tooltip = Rimaykunata yapay hinaspa qawariy, Tapukuykunata
 add-sentences-menu-item-tooltip = Simiykipi rimaykunata yapay
 review-sentences-menu-item-tooltip = Simiykipi rimaykunata qhaway
 add-questions-menu-item-tooltip = Simiykipi tapukuykunata yapay
+transcribe-audio-menu-item-tooltip = Uyarinapaq hirqukunata rimaynikipi qillqay
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqay akllanakuna
+add-sentences-menu-item-aria-label = Llaqta runakuna ñawinchananpaq musuq rimaykunata yapay
+review-sentences-menu-item-aria-label = Llaqta runakunapa apachisqan rimaykunata qawariy
+add-questions-menu-item-aria-label = Musuq tapukuykunata llaqta runakuna ñawinchaspa kutichinankupaq apachiy
+transcribe-audio-menu-item-aria-label = Hirqukuna uyarinapaq kaqta qillqaman qillqay
