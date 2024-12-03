@@ -28,6 +28,10 @@ how-to-cite-explanation = Kikin simiyki kaptinqa, <italicizedText>“Kikinmanta 
 guidelines = Guidelines
 contact-us = Ñuqaykuwan rimanakuy
 add-sentence-success = 1 rimay huñusqa
+add-sentence-error = Rimayta yapaypi pantay
+required-field = Ama hina kaspa, kay pampata hunt'achiy.
+single-sentence-submission = Huk rimaylla apachiy
+small-batch-sentence-submission = Huch’uy t’aqapi mañakuykunata apachiy
 
 ## BULK SUBMISSION 
 
