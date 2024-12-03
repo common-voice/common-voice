@@ -32,6 +32,22 @@ add-sentence-error = Rimayta yapaypi pantay
 required-field = Ama hina kaspa, kay pampata hunt'achiy.
 single-sentence-submission = Huk rimaylla apachiy
 small-batch-sentence-submission = Huch’uy t’aqapi mañakuykunata apachiy
+bulk-sentence-submission = Hatun huñupi mañakuykunata apachiy.
+single-sentence = Sapalla
+small-batch-sentence = Huch’uy t’aqapi
+bulk-sentence = Hatun t’aqapi
+sentence-domain-combobox-label = Mañakuy Yachay
+sentence-domain-select-placeholder = Kimsa kamachiykama akllay (munasqa)
+# Sentence Domain dropdown option
+agriculture_food = Chakra llamk’ay, mikhuy ima
+# Sentence Domain dropdown option
+automotive_transport = Automotive and Transport
+# Sentence Domain dropdown option
+finance = Wakiy
+# Sentence Domain dropdown option
+service_retail = Service and Retail
+# Sentence Domain dropdown option
+general = General
 
 ## BULK SUBMISSION 
 
