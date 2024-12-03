@@ -63,4 +63,6 @@ review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Močiwite'me yora'ka werumá Ka'weintapaká
 sc-redirect-page-subtitle-1 = Iče'pači wa'a o'inia no'kani wa'a o'ineaniači oičaka wa'a Common Voice. E'peo kawe <writeURL>yótemamu</writeURL> piripi o'rásioni.<reviewURL> Re'wisaroa </reviewURL>i'točetiame pu'ká o'rásioni pi'neri wa'a Common Voice
-sc-redirect-page-subtitle-2 = támo i'natuke <matrixLink>matrix</matrixLink><discourseLink>na'iwaniame</discourseLink> o <emailLink>emairichi</emailLink>
+sc-redirect-page-subtitle-2 = Támo i'natuke <matrixLink>matrix</matrixLink><discourseLink>na'iwaniame</discourseLink> o <emailLink>emairiči</emailLink>
+# menu item
+review-sentences = Revisandomia pu'ká orasioni
