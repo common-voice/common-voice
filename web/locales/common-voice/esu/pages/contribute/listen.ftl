@@ -12,3 +12,11 @@ listen-loading-error =
 listen-abort-title = Taq'uten-qaa cucukellerkamek qalarutkanek?
 listen-abort-cancel = Cucukluki cali
 listen-abort-confirm = Taqluku cucukellerkaq
+# Menu item
+validate-readings = Cucukluki Qalarutkat Assilriit
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
