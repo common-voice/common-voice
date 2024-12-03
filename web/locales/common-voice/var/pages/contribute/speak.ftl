@@ -42,11 +42,11 @@ terms-disagree = Kaine kawe intani
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Čeriwera uka amó nanosariwa nehario sulala
 first-cta-subtitle-text = ¿Peniremu elani tohačaga uka naosari amó naosao?
-why-donate = Chekamu tukena?
-why-donate-explanation-1 = Iji ositume uju. Kawemu enerena .Namu nanajuna uka pienawi llomaga reme unena, Remega kawe neseroma uka itaperi nati omo tewula ositume kai peja katime nati itaperi chireka nati pamiwaila nati amó sexo
-why-donate-explanation-2 = Pile wua ereka kaweju tecnologia llomaga, uka najutume uka netetume ereka netesiga uka ipakorume senegachi kai reme cheenarema pile naosame nukwarijo penieme erekago kay kajuma kawego uka kai naosame ipakorume<learnMore>Neteka pilechi weika metadatos nateame</learnMore>
+why-donate = ¿Čekamu tukena?
+why-donate-explanation-1 = Ihi ositume uhu. Kawemu enerena .Namu nanahuna uka pienawi yomaga reme unena, Remega kawe neseroma uka itaperi nati omo tewula ositume kai peha katime nati itaperi čireka nati pamiwaila nati amó sekso
+why-donate-explanation-2 = Pile wua ereka kawehu teknologia yomaga, uka nahutume uka netetume ereka netesiga uka ipakorume senegači kai reme čeenarema pile naosame nukwariho penieme erekago kai kahuma kawego uka kai naosame ipakorume<learnMore>Neteka pileči weika metadatos nateame</learnMore>
 add-information-button = Neteka itaperi
-continue-speaking-button = Kai cheriwerawa, simitenamu naosaga
+continue-speaking-button = Kai čeriwerawa, simitenamu naosaga
 create-profile-text = Katewenaremu uka amó neterio. <createProfile>neteka pile toapome wa Coomon Voice?</createProfile>
 thanks-for-voice-toast = Cheriwerawa pasa muu noo chane uka aosari
 thanks-for-voice-toast-error = Kai kawe simerorume uka amó neterio
