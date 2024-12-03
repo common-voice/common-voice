@@ -10,3 +10,6 @@ partnerships-foundations-description = mee inernet cum śuwa duroin maniṣ nuse
 partnerships-governments-header = hukumat
 partnerships-governments-description = me baaṣine huqooq, tʰuwaan duroiṅ daa public sector tenchology ulo duroin e gane madad e;car but xośaan baan. maa agar uyum project yaa campain gane duro etas ray bila ke meeka gute email address ate meeka rabta ulo hurutin
 partnerships-academia-header = universities in, academics and researchers
+partnerships-our-partners = mii kaatumiśo
+# menu item
+partners = kaatumiśo

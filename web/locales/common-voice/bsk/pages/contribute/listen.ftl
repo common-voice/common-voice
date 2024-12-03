@@ -6,9 +6,9 @@ listen-3rd-time-instruction = alto manimi. daltas duro ećume huru
 listen-last-time-instruction = han pʰaṣuluman
 listen-empty-state = mamale clips pʰaṣ manimi ke page refresh etin yaa hik ke iciyaṭe try etin
 listen-empty-state-variants = une baaṣulo clips pʰaṣ meymi. gose dumarći bi ke setting badal ne guymo baaṣulo thumin jumlaṅ baren
-listen-loading-error = maltumal maarćar mi audio clip suas ameemanuman. iciyaṭe hik ke ćamaaṭ etin
-listen-abort-title = tasdiiq etas phaṣ etin
-listen-abort-cancel = tasqqiiq ećar duun
+listen-loading-error = maltumal maarćar mi audio clipan diyuas ameemanuman. muśate hik ke ćamaaṭ etin
+listen-abort-title = tasdiiq etas pʰaṣ etin
+listen-abort-cancel = tasdiiq ećar duun
 listen-abort-confirm = tasdiiq etas phaṣ etin
 # Menu item
 validate-readings = ġatanase tasqii etin
