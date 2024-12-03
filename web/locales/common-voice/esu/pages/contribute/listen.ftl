@@ -23,3 +23,6 @@ review-transcriptions-menu-item-tooltip = Cucukluki Igausngalriit Assilriit Qane
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Niicugniluki (Menu)
+validate-readings-menu-item-aria-label = Cucukluki Allat Qalarutkat Assilriit
+review-transcriptions-menu-item-aria-label = Cucukluki Allat Qalarutkat Assilriit

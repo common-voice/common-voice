@@ -143,3 +143,16 @@ small-batch-sentences-rule-3 = Avvluki igausngalriit atauciqu'urluki line-akun n
 small-batch-sentences-rule-4 = Ilaluten igausngalrianek 1,000 ngel'ekluku
 small-batch-sentences-rule-5 = Tamarmeng igausngalriit domain-ait ayuqarkaugut
 small-batch-sentences-rule-6 = Tamarmeng igausngalriit naken igausngaciit ayuqarkaugut
+# menu item
+add-sentences = Ilaluten Igausngalrianek
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Ilaluten Igausngalrianek Cucuklirluten Assilrianek, Ilaluten Apyutnek, Igaulluki Qalarutkat
+add-sentences-menu-item-tooltip = Ilaluten igausngalrianek qaneryaravtun
+review-sentences-menu-item-tooltip = Cucuklirluten assilrianek igausngalrianek qaneryaravni
+add-questions-menu-item-tooltip = Ilaluten apyutnek qaneryaravni
+transcribe-audio-menu-item-tooltip = Igaulluki qalarutkat qaneryaravni
+
+## MENU ITEM ARIA LABELS
+
