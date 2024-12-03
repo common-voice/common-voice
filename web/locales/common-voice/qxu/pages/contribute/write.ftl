@@ -72,6 +72,12 @@ sentence-variant-select-multiple-variants = Runa simi / achka hirqunakuna
 sc-bulk-upload-header = Yapay <icon></icon> llapa runaq kamachisqan rimayta nisqa simita
 sc-bulk-upload-instruction = Kayman willañiqiykita aysay icha <uploadButton> ñit'iy yapanaykipaq</uploadButton>
 sc-bulk-upload-instruction-drop = Kaypi willañiqita urmachiy yapanaykipaq
+bulk-upload-additional-information = Sichus huk willakuy kay willañiqimanta quyta munanki, ama hina kaspa nisqawan rimanakuy <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Sichus kay willañiqimanta huk willayta quyta munanki, mana plantillapichu, ama hina kaspa, nisqawan rimanakuy<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Hukmanta kallpachakuy willañiqiykita kaypi aysaspa
+try-upload-again-md = Hukmanta churayta kallpachakuy
+select-file = Willayta akllay
+select-file-mobile = Yapayta munasqayki willañiqita akllay
 
 ## SMALL BATCH SUBMISSION
 
