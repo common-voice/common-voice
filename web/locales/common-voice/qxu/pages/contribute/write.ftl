@@ -78,6 +78,10 @@ try-upload-again = Hukmanta kallpachakuy willañiqiykita kaypi aysaspa
 try-upload-again-md = Hukmanta churayta kallpachakuy
 select-file = Willayta akllay
 select-file-mobile = Yapayta munasqayki willañiqita akllay
+accepted-files = Chaskisqa willañiqi layakuna: .tsv kaqlla
+minimum-sentences = Philipi aswan pisi rimaykuna: 1000
+maximum-file-size = Willañiqip aswan hatun sayaynin: 25 MB
+what-needs-to-be-in-file = Imataq philiypi kanan?
 
 ## SMALL BATCH SUBMISSION
 
