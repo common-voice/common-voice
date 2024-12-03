@@ -99,6 +99,47 @@ too-many-files = Nishu achka willañiqikuna
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> nisqa achka simita yapay, llapa runaq kamachisqan rimaytakuna
+multiple-sentences-error = Huklla apachisqapaqqa manam achka rimaykunata yapayta atiwaqchu
+exceeds-small-batch-limit-error = Mana 1000manta aswan rimaykunata apachiyta atinchu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 minute
+       *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
+small-batch-sentences-rule-1 = “Ima rimaykunatataq yapayman?” nisqamanta kamachikuykunata qatipay
+small-batch-sentences-rule-2 = Sapa chirupi huk rimayta yapay
+small-batch-sentences-rule-3 = Huk kutillata “Yaykuy” utaq “Kutichiy” nisqapi ñit’ispa rimaykunata huk chiruman t’aqay
 
 ## MENU ITEM TOOLTIPS
 
