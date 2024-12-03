@@ -1,5 +1,5 @@
 # PARTNERSHIPS PAGE
-partnerships-header = kaa numa duro etas
+partnerships-header = kaatumiśo
 partnerships-header-text = common voice e duro ce duuniṣ xaa butan duroiṅ etas meey bila. mii midamate ayeća baan. meeka duro ećumaa? mamacum dimeyljar milćin ne baan
 partnerships-get-in-touch = meeka raabita etin
 partnerships-become-a-partner = common voice e kaa duro etaśo maneyin
@@ -12,6 +12,9 @@ partnerships-governments-description = me baaṣine huqooq, tʰuwaan duroiṅ da
 partnerships-academia-header = universities in, academics and researchers
 partnerships-academia-description = mii etas duro uyum maqsad open innovations bila. research ulo gati numa duro ećar, data gati ećar daa interviews e gane mii kaa rabita etin
 partnerships-small-business-header = jot karubaariṅ amutulo tech ke AI tʰoṣ kaarubaariṅ
+partnerships-small-business-description = mii hamiiśa data eeduruśo cum uwe needs daa context baaraulo dimeyljume baan.
+partnerships-corporates-header = uyum peemaanate duro etaśo corporates daa platform compani miṅ
+partnerships-corporates-description = agar maa meeka maziid dataset e baraulo ćaġat ećaan ke, planned platform expansions ulo kaa numa invest etase ray bila ke mimar akhole email doocin
 partnerships-our-partners = mii kaatumiśo
 # menu item
 partners = kaatumiśo
