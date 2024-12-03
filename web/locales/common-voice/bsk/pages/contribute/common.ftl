@@ -43,7 +43,7 @@ submit-form-action = jama etin
 
 report = xabar orin yaa report etin
 report-title = report jama etin
-report-ask = guke jumlane kaa beshko ćaqoṭimiṅ mayar ẓuc̣ican
+report-ask = guke jumlaṅe kaa beśko ćaqoṭimiṅ mayar ẓuc̣ican
 report-offensive-language = mes meeyalsyo baaṣ
 report-offensive-language-detail = guke jumaln mes meeyalas baaṣulo bican
 report-grammar-or-spelling = grammar yaa spelline ṭhis pisin
