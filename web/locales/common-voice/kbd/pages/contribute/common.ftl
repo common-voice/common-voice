@@ -31,14 +31,14 @@ target-segment-generic-card = Ди ӏуэху ӏыхьэм хэлъхьэныг�
 target-segment-first-banner = Common Voice-ым и япэрей ӏуэху ӏыхьэ { $locale } -р зэгъэпэщынымкӏэ къыддэӏэпыкъу
 target-segment-add-voice = Уи макъыр хэгъэхьэ
 target-segment-learn-more = Нэхъыбэ зэгъэщӏэн
-change-preferences = Настройкэхэр зэхъуэкӏ
-login-signup = Ихьэн / Зэгъэпэщын
+change-preferences = Теухуапӏэр зэхъуэкӏ
+login-signup = Ихьэн / Зыхэтхэн
 vote-yes = Нтӏэ
 vote-no = Хьэуэ
 datasets = Датэсет
 languages = Бзэхэр
-about = Дэ теухуауэ
-partner = { "" }
+about = Теухуауэ
+partner = Лэжьэгъу
 submit-form-action = Егъэхь
 
 ## Reporting
@@ -46,7 +46,7 @@ submit-form-action = Егъэхь
 report = Рапорт
 report-title = Рапорт егъэхь
 report-ask = Сыт мы псалъэухамкӏэ гугъу уезыгъэхьыр?
-report-offensive-language = Хъуэн псалэ
+report-offensive-language = Гуемыӏу псалъэ
 report-offensive-language-detail = Псалъэухам цӏыху зэхэгъэж е гуемыӏу псалъэ хэтщ.
 report-grammar-or-spelling = Грамматикэ / орфографие щыуагъэ
 report-grammar-or-spelling-detail = Псалъэухам грамматикэ е орфографие щыуагъэ хэтщ.
