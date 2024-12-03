@@ -127,10 +127,23 @@ small-batch-sentences-rule-1 = Maliġikki maliġiaksrat ukua “What sentences c
 small-batch-sentences-rule-2 = Atausiullagu uqaluk iḷḷatiuŋ titiġniḷḷaamun
 small-batch-sentences-rule-3 = Avillaakki uqaluit tuuġlugu “Enter” or “Return”
 small-batch-sentences-rule-4 = Iḷisiiñ 1000 qaaŋiġaluaġnagi uqalugnik
+small-batch-sentences-rule-5 = Iluqatiŋ uqaluit domain-qaqtuksrauruq atiruamik
 small-batch-sentences-rule-6 = Iluqatiŋ uqaluit kaŋiqaqtuksrauruq atiruamik
+# menu item
+add-sentences = Iḷḷatikki Uqaluit
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Iḷḷatikki Iluaġmagaakki Uqaluit, Iḷḷatikki Apiqqutit, Aglautikki Immiqsat
+add-sentences-menu-item-tooltip = Iḷḷatikki Uqaluit Iñupiatun
+review-sentences-menu-item-tooltip = Iluaġmagaakki Uqaluit Iñupiatun
+add-questions-menu-item-tooltip = Iḷḷatikki Apiqqutit Iñupiatun
+transcribe-audio-menu-item-tooltip = Aglautikki Immiqsat Iñupiatun
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Aglagiñ (Menu)
+add-sentences-menu-item-aria-label = Iḷḷatikki Nutaat Uqaluit Iñupiatun
+review-sentences-menu-item-aria-label = Iluaġmagaakki Allat Uqaluit Iñupiatun
+add-questions-menu-item-aria-label = Iḷḷatikki Nutaat Apiqqutit Iñupiatun
+transcribe-audio-menu-item-aria-label = Aglautikki Immiqsat Iñupiatun

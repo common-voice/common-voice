@@ -67,6 +67,7 @@ read-sentences = Taiguakki Uqaluit
 
 speak-contribute-menu-tooltip = Taiguakki Uqaluit, Kiukki Apiqqutit
 read-sentences-menu-item-tooltip = Iġñan atuġlugu immiqsiiñ
+answer-questions-menu-item-tooltip = Kiukki Allat Apiqqutit
 
 ## MENU ITEM ARIA LABELS
 
