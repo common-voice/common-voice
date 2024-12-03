@@ -9,10 +9,10 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> paikapi ivotetiame
        *[other] <bold>{ $count }</bold> weika toatiame iyoteka
     }
-goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivochi diarichio grawandotiame { $goalValue }
-goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivochi diariochio_taamo yoraria{ $goalValue }.
-contribute-more = Listochi netemia { $count } enchi.
-speak-empty-state = Teeme kiniwaega etipiru puka frases taamo grawaomia ikachi idiomachi
+goal-help-recording = Čeriwema aamo kiyaine noo kuiretičo, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivoči diaričio grawandotiame { $goalValue }
+goal-help-validation = Čeriwema aamo kiyaine no'ó kuiretičo, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivoči diariočio taamo yoraria{ $goalValue }.
+contribute-more = Listoči netemia { $count } enčí.
+speak-empty-state = Teeme kiniwaega etipiru pu'ká frases taamo grawaomia ikači idiomači
 no-sentences-for-variants = Taamo mochikachi weyka naewasari intunapa .wekana comunidachi
 speak-empty-state-cta = Epeche weika toamitia  puka frases
 speak-loading-error = Ki kawe machenaru toaniame oracionichi. Weikachuri onepa toaka
