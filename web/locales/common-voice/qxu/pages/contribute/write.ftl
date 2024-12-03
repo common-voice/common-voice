@@ -64,9 +64,14 @@ news_current_affairs = Willakuykuna hinaspa Kunan pachakuna
 technology_robotics = Tiq
 sentence-variant-select-label = Rimay hirquna
 sentence-variant-select-placeholder = Huk hirqunata akllay (munasqa)
+sentence-variant-select-multiple-variants = Runa simi / achka hirqunakuna
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Yapay <icon></icon> llapa runaq kamachisqan rimayta nisqa simita
+sc-bulk-upload-instruction = Kayman willañiqiykita aysay icha <uploadButton> ñit'iy yapanaykipaq</uploadButton>
+sc-bulk-upload-instruction-drop = Kaypi willañiqita urmachiy yapanaykipaq
 
 ## SMALL BATCH SUBMISSION
 
