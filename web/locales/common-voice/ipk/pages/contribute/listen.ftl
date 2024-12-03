@@ -12,9 +12,13 @@ listen-loading-error =
 listen-abort-title = Naliġaanikpiñ nakuuruanik immiqsanik?
 listen-abort-cancel = Kiikaa iluaġmagaavsivsaaġiñ
 listen-abort-confirm = Naatki iluaġmagaaqtatin
+# Menu item
+validate-readings = Iluaġmagaakki Immiqsat
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Iluaġmagaakki Immiqsat, Iluaġmagaakki Uqaluit
+validate-readings-menu-item-tooltip = Iluaġmagaakki Immiqsat Iñupiatun.
 
 ## MENU ITEM ARIA LABELS
 
