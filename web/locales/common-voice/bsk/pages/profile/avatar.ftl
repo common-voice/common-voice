@@ -1,4 +1,8 @@
 ## Profile - Avatar
 
-browse-file-title = image file an upload etin
-browse-file = dadal etin daa ulo biśayin yaa browse etin
+browse-file-title = image e file an upload etin
+browse-file = drag etin daa drop etin yaa browse etin
+connect-gravatar = gravatar kaa connect maneyin
+gravatar_not_found = maa email ar gravatar an amiyaman
+file_too_large = damśi etum file but uyum bila
+avatar-uploaded = avatar upload manimi
