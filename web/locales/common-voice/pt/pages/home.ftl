@@ -87,6 +87,9 @@ community-and-languages = Comunidade e idiomas
 about-menu-tooltip = Parcerias, imprensa e histórias, comunidade e idiomas
 partnerships-menu-item-tooltip = Seja nosso parceiro
 press-and-stories-menu-item-tooltip = Visite nosso blog ou escreva sobre nós
+community-and-languages-menu-item-tooltip = Descubra idiomas e comunidades e Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menu de opções de informações
+partnerships-menu-item-aria-label = Saiba mais sobre parcerias com o Common Voice
