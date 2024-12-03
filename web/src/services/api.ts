@@ -172,7 +172,7 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/locales/${locale}/messages.ftl`, { isJSON: false })
+    return this.fetch(`/voicewall/locales/${locale}/messages.ftl`, { isJSON: false })
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
