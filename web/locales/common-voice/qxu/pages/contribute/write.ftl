@@ -48,6 +48,22 @@ finance = Wakiy
 service_retail = Service and Retail
 # Sentence Domain dropdown option
 general = General
+# Sentence Domain dropdown option
+healthcare = Qhali kay
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Willakuykuna hinaspa kusirikuykuna
+# Sentence Domain dropdown option
+nature_environment = Pachamamawan
+# Sentence Domain dropdown option
+news_current_affairs = Willakuykuna hinaspa Kunan pachakuna
+# Sentence Domain dropdown option
+technology_robotics = Tiq
+sentence-variant-select-label = Rimay hirquna
+sentence-variant-select-placeholder = Huk hirqunata akllay (munasqa)
 
 ## BULK SUBMISSION 
 
