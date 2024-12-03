@@ -57,7 +57,7 @@ sc-review-rules-title = ¿u'u orasioni kum'piaroania pu'ká apo yo'rá?
 sc-review-empty-state = E'peo pi'čiwači ki'te ne'neniame pu'ká re'wisaroatiame e'pe ika na'wesariči
 report-sc-different-language = Pireči naewasari
 report-sc-different-language-detail = Baatía iyoterepú pirečí idioma kí no'o neneačí
-sentences-fetch-error = Inture piripi weka tiame waa iyaniachi orasioni
+sentences-fetch-error = Inture piripi weka tiame waa iyaniači orasioni
 review-error = inture piri'pi wekatiame wa'a re'wisaroaniachi i'ká orasióni
 review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
