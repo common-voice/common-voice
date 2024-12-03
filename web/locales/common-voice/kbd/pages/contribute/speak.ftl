@@ -3,7 +3,7 @@ speak-now = Иджыпсту псалъэ
 speak-subtitle = Уи макъыр ет
 record-cta = Тетхэн щӀэдзэ
 record-platform-not-supported = Ди жагъуэщ, уи платформэр иджыпстукӏэ зыщӏэгъэкъуакъым.
-record-platform-not-supported-desktop = Iэнэтет ӏэмӏпсымэхэмкӏэ … къебгъэхыу хэлъхьэ пщӏыфынущ
+record-platform-not-supported-desktop = Iэнэтет ӏэмэпсымэхэмкӏэ … къебгъэхыу хэлъхьэ пщӏыфынущ
 record-platform-not-supported-ios-non-safari = IOS урилажьэм, кхъыӏэ, … тетхэныр жыджэр пщӏын папщӏэ Safari-кӏэ къыпыщэ
 record-must-allow-microphone = Микрофон екӏуэлӏапӏэм хуитыныгъэ ептын хуейщ.
 record-no-mic-found = Микрофон къэгъуэта щыӏэкъым.
@@ -18,17 +18,17 @@ record-again-instruction = Фlы дыдэщ! <recordIcon></recordIcon> Къыкl
 record-again-instruction2 = Апхуэдэу къыпыщэ, <recordIcon></recordIcon>р аргуэру тетхэ
 record-last-instruction = <recordIcon></recordIcon> Иужь зыр!
 review-tooltip = Еплъыжи ущырикӏуэм мыбы ит клипхэр тетхэж
-share-clip = Уи клипыр дэгуэш
+share-clip = Тептха макъыр дэгуэш
 share-common-voice = Common Voice-р дэгуэш
-review-instruction = Еплъыжи хуейуэ щытмэ мыбы ит клипхэр тетхэж
+review-instruction = Еплъыжи хуейуэ щытмэ мыбы ит макъ тептхахэр аргуэру тетхэж
 record-submit-tooltip = { $actionType } хьэзыр щыхъуам егъэхь
-clips-uploaded = Клипхэр илъхьа хъуащ
+clips-uploaded = Макъ тетхахэр илъхьа хъуащ
 record-abort-title = Япэ щӀыкӀэ тетхэныр ухын?
 record-abort-text = Иджыпсту икlыжыным уи ефӏэкӏуэныгъэр бгъэкӏуэдыну къокӏ
-record-abort-submit = Клипхэр егъэхь
+record-abort-submit = Макъ тептхахэр егъэхь
 record-abort-continue = Тетхэныр ух
-record-abort-delete = Къыхэкlыжи клипхэр тегъэкlыж
-review-aborted = Илъхьэныр зэпыудащ. Уи тетхэхэр тебгъэкlыжыну ухуей?
+record-abort-delete = Къыхэкlыжи макъ тептхахэр тегъэкlыж
+review-aborted = Илъхьэныр зэпыудащ. Уи макъ тептхахэр тебгъэкlыжыну ухуей?
 review-submit-title = Еплъыжи егъэхь
 review-submit-msg = Уи тетхэхэм щхьэкӏэ фӏыщӏэ пхудощӏ!<lineBreak></lineBreak>Иджы ищӏагъым щыӏэ уи тетхэхэм еплъыжи егъэхь.
 review-recording = Еплъыж
@@ -56,7 +56,7 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Уи макъыр зэребгъэхьам щхьэкӏэ фӏыщӏэ пхудощӏ!
 second-cta-subtitle-text = Щхьэ напэкӀуэц (профайл) пщӀа нэуж Ӏуэху пщӀахэм уеплъыфынущ иджы макъ тезыха адрей цӀыхухэми нэӏуасэ пхуэхъуфынущ.
-already-have-an-account = Ӏэкаунт уиӏахэ? <login>Ихьэ<login>
+already-have-an-account = Аккаунт уиӏахэ? <login>Ихьэ<login>
 create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
 # IMAGE TAGS
 img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
@@ -71,6 +71,6 @@ answer-questions-menu-item-tooltip = Уи бзэкӏэ упщӏэхэмрэ чэ
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = Псэлъэкӏэ теухуэныгъэхэм и меню
+speak-contribute-menu-aria-label = Псэлъэкӏэ теухуэныгъэм и меню
 read-sentences-menu-item-aria-label = Зэхэтым бзэ зэмыщхьхэмкӏэ къыригъэхьа псалъэухахэм еджэ
 answer-questions-menu-item-aria-label = Зэхэтым еджэу жэуап иритыну упщӏэщӏэ хуегъэхь
