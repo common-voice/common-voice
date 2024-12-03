@@ -54,7 +54,7 @@ report-different-language = Нэгъуэщӏыбзэ
 report-different-language-detail = Сызэрыщыпсалъэ бзэкӀэ фӀэмыкӀыу тхащ.
 report-difficult-pronounce = Жыӏэгъуейщ.
 report-difficult-pronounce-detail = Къеджэн е къэпсэлъэн гугъу хъу псалъэ е псалъэуха къыхэтщ.
-report-offensive-speech = Хъуэн псалъэ
+report-offensive-speech = Гуемыӏу псалъэ
 report-offensive-speech-detail = Макъ тетхам цӏыху зэхэгъэж е гуемыӏу псэлъэ хэтщ.
 report-other-comment =
     .placeholder = Комментарий
@@ -78,7 +78,7 @@ shortcut-rerecord-toggle-label = Щӏэрыщӏэу тетхэж
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Макъ зэрытхыкӀыгъэм техыж
 shortcut-submit = Гъэзэж
-shortcut-submit-label = Макъ зэрытхыныгъэр егъэхь
+shortcut-submit-label = Макъ тептхахэр егъэхь
 request-language-text = Уи бзэр Common Voice-м хэту плъагъукъэ?
 request-language-button = Бзэщlэ дэщlыгъуа хъун щхьэкlэ лъэlу егъэхь
 
