@@ -140,9 +140,18 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = “Ima rimaykunatataq yapayman?” nisqamanta kamachikuykunata qatipay
 small-batch-sentences-rule-2 = Sapa chirupi huk rimayta yapay
 small-batch-sentences-rule-3 = Huk kutillata “Yaykuy” utaq “Kutichiy” nisqapi ñit’ispa rimaykunata huk chiruman t’aqay
+small-batch-sentences-rule-4 = 1,000 rimaykama yapay
+small-batch-sentences-rule-5 = Llapan rimaykuna huk taripanayuq kananku
+small-batch-sentences-rule-6 = Llapan rimaykuna huk waqyanayuq kananku
+# menu item
+add-sentences = Rimaykunata Yapay
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Rimaykunata yapay hinaspa qawariy, Tapukuykunata yapay, uyarinapaq qillqay
+add-sentences-menu-item-tooltip = Simiykipi rimaykunata yapay
+review-sentences-menu-item-tooltip = Simiykipi rimaykunata qhaway
+add-questions-menu-item-tooltip = Simiykipi tapukuykunata yapay
 
 ## MENU ITEM ARIA LABELS
 
