@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = Separe frases de uma mesma linha pressionando “
 small-batch-sentences-rule-4 = Adicione até 1000 frases
 small-batch-sentences-rule-5 = Todas as frases devem ser do mesmo domínio
 small-batch-sentences-rule-6 = Todas as frases devem ter a mesma citação
+# menu item
+add-sentences = Adicionar frases
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Adicionar e revisar frases, adicionar perguntas, transcrever áudio
+add-sentences-menu-item-tooltip = Adicionar frases em seu idioma
+review-sentences-menu-item-tooltip = Revisar frases em seu idioma
+add-questions-menu-item-tooltip = Adicionar perguntas em seu idioma
+transcribe-audio-menu-item-tooltip = Transcrever gravações de áudio em seu idioma
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Menu de opções de escrita
+add-sentences-menu-item-aria-label = Adicionar novas frases para a comunidade ler
+review-sentences-menu-item-aria-label = Revisar frases existentes enviadas pela comunidade
+add-questions-menu-item-aria-label = Enviar novas perguntas para a comunidade ler e responder
+transcribe-audio-menu-item-aria-label = Transcrever gravações de áudio em texto

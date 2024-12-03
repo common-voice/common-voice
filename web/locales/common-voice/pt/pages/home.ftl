@@ -12,13 +12,9 @@ show-wall-of-text = Saiba mais
 help-us-title = Ajude-nos a validar as frases!
 help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase abaixo corretamente?
 no-clips-to-validate = Parece que não há nenhuma frase para ouvir nesse idioma. Ajude-nos a preencher essa espaço gravando algo agora.
-vote-yes = Sim
-vote-no = Não
 toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
-speak-subtitle = Doe sua voz
 speak-paragraph = A gravação de clipes de voz é parte integrante da construção do nosso conjunto de dados aberto; alguns diriam que é a parte divertida também.
 speak-goal-text = Clipes gravados
-listen-subtitle = Nos ajude a validar vozes
 listen-paragraph = Validar clipes doados é igualmente importante para a missão do Common Voice. Ouça e nos ajude a criar dados de voz de código aberto de qualidade.
 listen-goal-text = Clipes validados
 hours-recorded = Horas gravadas
@@ -76,3 +72,21 @@ help-contribute = Você pode ajudar a construir um conjunto de dados de código 
 login-company = Entrar / Cadastrar-se com email de { $company }
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 read-more-about = Saiba mais sobre o Common Voice
+
+## NAV ITEMS
+
+answer-questions = Responder perguntas <small>(em breve)</small>
+review-transcriptions = Revisar transcrições <small>(em breve)</small>
+add-questions = Adicionar perguntas <small>(em breve)</small>
+transcribe-audio = Transcrever áudio <small>(em breve)</small>
+press-and-stories = Imprensa e histórias
+community-and-languages = Comunidade e idiomas
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Parcerias, imprensa e histórias, comunidade e idiomas
+partnerships-menu-item-tooltip = Seja nosso parceiro
+press-and-stories-menu-item-tooltip = Visite nosso blog ou escreva sobre nós
+
+## MENU ITEM ARIA LABELS
+

@@ -66,9 +66,11 @@ read-sentences = Ler frases
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Ler frases, responder perguntas
-read-sentences-menu-item-tooltip = Grave a si mesmo lendo frases em seu idioma
-answer-questions-menu-item-tooltip = Grave a si mesmo respondendo dúvidas e consultas em seu idioma
+read-sentences-menu-item-tooltip = Gravar a si mesmo lendo frases em seu idioma
+answer-questions-menu-item-tooltip = Gravar a si mesmo respondendo dúvidas e consultas em seu idioma
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Menu de opções de fala
+read-sentences-menu-item-aria-label = Ler frases enviadas pela comunidade em vários idiomas
+answer-questions-menu-item-aria-label = Enviar uma nova pergunta para a comunidade ler e responder
