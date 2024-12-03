@@ -3,7 +3,7 @@ speak-now = Naosa é ego
 speak-subtitle = Kiaga pile naosali
 record-cta = Oinaga
 record-platform-not-supported = Kainetesa kawe itaperi nulatume
-record-platform-not-supported-desktop = Natichi tekipuwame computadora kuala netewame wuasi
+record-platform-not-supported-desktop = Natiči tekipuwame komputadora kuala netewame wuasi
 record-platform-not-supported-ios-non-safari = Kana kati IOS, SAFARI wa buu, taperi puyachame
 record-must-allow-microphone = Kaweju simitega naosaga micrófono chi
 record-no-mic-found = Kai muu tewaka micrófono
@@ -60,3 +60,9 @@ already-have-an-account = Toainamo uka itaperi<iniciar sesión>Oinaga itaperi</i
 create-profile-button = Ne tenaresaga uka pile coomon voice
 # IMAGE TAGS
 img-alt-success-checkmark = Amó  kawe najurio itaperi
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
