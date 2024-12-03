@@ -2,6 +2,7 @@
   "name": "web",
   "version": "1.0.0",
   "private": true,
+  "homepage": "/voicewall",
   "dependencies": {
     "@fluent/bundle": "0.17.1",
     "@fluent/langneg": "0.6.2",
