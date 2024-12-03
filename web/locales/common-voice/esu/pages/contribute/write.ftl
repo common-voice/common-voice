@@ -156,3 +156,8 @@ transcribe-audio-menu-item-tooltip = Igaulluki qalarutkat qaneryaravni
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Igaulluki (Menu)
+add-sentences-menu-item-aria-label = Ilaluten nutaranek igausngalrianek, allat yuut naaqsugngalrianek
+review-sentences-menu-item-aria-label = Cucuklirluten assilrianek allanek igausngalrianek
+add-questions-menu-item-aria-label = Ilaluten apyutnek nutaranek, allat yuut kiuyugngalrianek
+transcribe-audio-menu-item-aria-label = Igaulluki qalarutkat Yugcetun
