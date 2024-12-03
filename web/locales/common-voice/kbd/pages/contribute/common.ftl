@@ -6,31 +6,31 @@ skip = БлэкӀ
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
     { $count ->
-        [one] пычы
-       *[other] пычыу
+        [one] макъ тетха
+       *[other] макъ тетха
     }
 goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
 goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
-        [one] Ухьэзыр иджыри птыну?
-       *[other] Ухьэзыр иджыри птыну?
+        [one] иджыри пщӏыну ухьэзыр?
+       *[other] иджыри пщӏыну ухьэзыр?
     }
 speak-empty-state = Мы бзэмкӏэ псалъэуха тегъэтхын къэнэжакъым...
-no-sentences-for-variants = Уи псэлъэкӏэмкӏэ мыпхуэдэ псалъэуха щапхъэ къэнэжакъым! Пфӏэигъуэмэ, нэгъуэщӏ псалъэухахэр плъагъуным папщӏэ уи настройкэхэр зэблэхъу.
+no-sentences-for-variants = Уи бзэ вариатымкӏэ псалъэуха къэнэжакъым! Пфӏэигъуэмэ, нэгъуэщӏ псалъэухахэр плъагъуным папщӏэ уи теухуапӏэр зэхъуэкӏ.
 speak-empty-state-cta = Псалъэухахэм къыхэлъхэ
 speak-loading-error =
-    Уедэӏуэн щхьэкӏэ  макъ тетхар ауэ къэдгъуэтыфакъым.
+    Уедэӏуэн щхьэкӏэ макъ тетхар ауэ къэдгъуэтыфакъым.
     Кхъыӏэ, итӏанэ аргуэру еплъыж.
-record-button-label = Уи макъ егъэтх
+record-button-label = Уи макъ тегъэтх
 share-title-new = Макъ трезгъэтхэфын иджыри <bold>къытхуэгъуэт</bold>
 keep-track-profile = Профил зэгъэпэщи уи хэхъуэныгъэм кӏэлъыплъ
-login-to-get-started = Ухуежьэным папщӏэ хыхьи регистрацэ щӏы
+login-to-get-started = Ухуежьэным папщӏэ хыхьи зэгъэтх
 target-segment-first-card = Япэрей ди ӏуэху ӏыхьэм хэлъхьэныгъэ хубощӏыр
 target-segment-generic-card = Ди ӏуэху ӏыхьэм хэлъхьэныгъэ хубощӏыр
 target-segment-first-banner = Common Voice-ым и япэрей ӏуэху ӏыхьэ { $locale } -р зэгъэпэщынымкӏэ къыддэӏэпыкъу
 target-segment-add-voice = Уи макъыр хэгъэхьэ
-target-segment-learn-more = Нэхъ ӏупщӏу
+target-segment-learn-more = Нэхъыбэ зэгъэщӏэн
 change-preferences = Настройкэхэр зэхъуэкӏ
 login-signup = Ихьэн / Зэгъэпэщын
 vote-yes = Нтӏэ
