@@ -381,12 +381,12 @@ const VARIANTS: Variant[] = [
   {
     locale_name: 'nan-tw',
     variant_name: '白話字 (POJ)',
-    variant_token: 'nan-tw-pehoeji',
+    variant_token: 'nan-TW-pehoeji',
   },
   {
     locale_name: 'nan-tw',
     variant_name: '台羅 (TL)',
-    variant_token: 'nan-tw-tailo',
+    variant_token: 'nan-TW-tailo',
   },
 ]
 
