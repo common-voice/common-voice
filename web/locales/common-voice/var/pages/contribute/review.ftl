@@ -58,9 +58,9 @@ sc-review-empty-state = E'peo pi'čiwači ki'te ne'neniame pu'ká re'wisaroati
 report-sc-different-language = Pireči naewasari
 report-sc-different-language-detail = Baatía iyoterepú pirečí idioma kí no'o neneačí
 sentences-fetch-error = Inture piripi weka tiame waa iyaniači orasioni
-review-error = inture piri'pi wekatiame wa'a re'wisaroaniachi i'ká orasióni
+review-error = Inture piri'pi wekatiame wa'a re'wisaroaniači i'ká orasióni
 review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Mochiwite'me yora'ka weruma Ka'weintapaká
-sc-redirect-page-subtitle-1 = .iche'pachi wa'a o'inia no'kani wa'a o'ineaniachi oichaka wa'a Common Voice. E'peo kawe <writeURL>yótemamu</writeURL> piripi o'rásioni.<reviewURL> Re'wisaroa </reviewURL>i'tochetiame pu'ka o'rásioni pi'neri wa'a Common Voice
+sc-redirect-page-title = Močiwite'me yora'ka werumá Ka'weintapaká
+sc-redirect-page-subtitle-1 = Iče'pači wa'a o'inia no'kani wa'a o'ineaniači oičaka wa'a Common Voice. E'peo kawe <writeURL>yótemamu</writeURL> piripi o'rásioni.<reviewURL> Re'wisaroa </reviewURL>i'točetiame pu'ká o'rásioni pi'neri wa'a Common Voice
 sc-redirect-page-subtitle-2 = támo i'natuke <matrixLink>matrix</matrixLink><discourseLink>na'iwaniame</discourseLink> o <emailLink>emairichi</emailLink>
