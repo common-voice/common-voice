@@ -77,9 +77,57 @@ try-upload-again = Kalitqiksaġuŋ savaan uvuŋa
 try-upload-again-md = Ikutqiksaġuŋ
 select-file = Naliġagiñ savaamik
 select-file-mobile = Naliġagiñ savaamik ikusuktaġnik
+accepted-files = Akuqtuat savaat qanusiutilaaŋit: .tsv kisiisa
+minimum-sentences = Iñugiakisilaaksraŋit uqaluit savaami: 1000
+maximum-file-size = Iñugiaktilaaksraŋit uqaluit savaami: 25 MB
+what-needs-to-be-in-file = Sunik imaqaqtuksrauva savaaġa?
+upload-progress-text = Ikusiruq suli...
+sc-bulk-submit-confirm = Nalunaiġiga kiitaaġutiqaqtuŋa ikuniŋatigun ukua savaat (<wikipediaLink>public domain</wikipediaLink>).
+bulk-upload-success-toast = Iñugiaktuat Uqaluit Ikurut
+bulk-upload-failed-toast = Ikuŋitchuq, uuktuatqigiñ.
+bulk-submission-success-header = Quyanaq ikusigaviñ inugiaktuanik uqalugnik!
+bulk-submission-success-subheader = Ikayuġitin Common Voice-kut tikisaksriaŋisigun uqaluktigun!
+upload-more-btn-text = Ikusivsaaġiñ uqalugnik?
+file-invalid-type = Savaaq iluitchuq
+file-too-large = Savaaq aŋivaitchuq
+file-too-small = Savaaq mikivaitchuq
+too-many-files = Savaat iñugiakpaitchut
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Ikukki kiapayaaq atuġumiñaqtaŋi uqaluit
+multiple-sentences-error = Ikusiyumiñaitchutin iñugiaktuanik uqalugnik atautchikun
+exceeds-small-batch-limit-error = Ikusiyumiñaitchutin uqalugnik qaaŋiġlugi 1000
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Sukasaqpaitchutin. Uuktuatqikkumautin atausiq ikarraurat qaaŋianikpata.
+       *[other] Sukasaqpaitchutin. Uuktuatqikkumautin { $retryLimit } ikarraurat qaaŋianikpata.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Sukasaqpaitchutin. Uuktuatqikkumautin atausiq second qaaŋianikpata.
+       *[other] Sukasaqpaitchutin. Uuktuatqikkumautin { $retryLimit } seconds qaaŋianikpata.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 uqalugniñ katiqsraq
+       *[other] { $uploadedSentences } of { $totalSentences } uqalugniñ katiqsraq
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 uqalugniñ katiqsraq. <downloadLink>Tuuġuŋ una</downloadLink> aasii piiġḷugi uqaluit akuqtuŋitchait.
+       *[other] { $uploadedSentences } of { $totalSentences } uqalugniñ katiqsraq. <downloadLink>Tuuġuŋ una</downloadLink> aasii piiġḷugi uqaluit akuqtuŋitchait.
+    }
+small-batch-sentences-rule-1 = Maliġikki maliġiaksrat ukua “What sentences can I add?”
+small-batch-sentences-rule-2 = Atausiullagu uqaluk iḷḷatiuŋ titiġniḷḷaamun
+small-batch-sentences-rule-3 = Avillaakki uqaluit tuuġlugu “Enter” or “Return”
+small-batch-sentences-rule-4 = Iḷisiiñ 1000 qaaŋiġaluaġnagi uqalugnik
+small-batch-sentences-rule-6 = Iluqatiŋ uqaluit kaŋiqaqtuksrauruq atiruamik
 
 ## MENU ITEM TOOLTIPS
 
