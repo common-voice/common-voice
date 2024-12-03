@@ -88,6 +88,12 @@ sc-bulk-submit-confirm = Kay rimayqa <wikipediaLink>llapa runap kamachiynin</wik
 bulk-upload-success-toast = Achka Rimaykuna Yapasqa
 bulk-upload-failed-toast = Yapayqa manam atirqanchu, ama hina kaspa, musuqmanta kallpachakuy.
 bulk-submission-success-header = Hatun apachiykita yanapasqaykimantalla!
+bulk-submission-success-subheader = ¡Common Voiceta sapa p'unchaw rimay paqtaykuman chayananpaq yanapachkanki!
+upload-more-btn-text = Aswan rimaykunata churay?
+file-invalid-type = Mana allin willañiqi
+file-too-large = Willañiqiqa ancha hatunmi
+file-too-small = Willañiqiqa ancha uchuyllam
+too-many-files = Nishu achka willañiqikuna
 
 ## SMALL BATCH SUBMISSION
 
