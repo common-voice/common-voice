@@ -282,7 +282,9 @@ LocalizedPage = withRouter(
 );
 
 const App = () => {
-  const history = createBrowserHistory();
+    const history = createBrowserHistory({
+      basename: '/voicewall',
+    })
 
   return (
     <Suspense fallback={<Spinner />}>
