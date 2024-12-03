@@ -12,3 +12,4 @@ submit-all-button = Enviar tudo
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Saiba a usar esta página
+learn-how-to-use-transcribe = Saiba como transcrever
