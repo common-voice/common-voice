@@ -33,7 +33,7 @@ datasets = Conhuntočii tewara
 languages = Weika naewasari naewaniame
 about = wapí waá
 partner = Yoomatiame socioba
-submit-form-action = itocheniame
+submit-form-action = itočeniame
 
 ## Reporting
 
