@@ -53,10 +53,10 @@ sc-criteria-item-5-2 = E'hee ika o'rásioni ka'i kumpiaroaso pu'ká yo'rá, ta'c
 sc-criteria-item-6 = ki'tio epečé wa'asi  o'rasioni pu'ká i'tapiti, ¡ I no'kui wa'a u'ka e'pečé orasioni!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Tu'niame<icon></icon>i'hi u'hu piripi o'rásioni na'yawoaniame ka'wé
-sc-review-rules-title = ¿u'u orasioni kum'piaroania púka apo yo'rá?
-sc-review-empty-state = E'peo pi'chiwachi ki'te ne'neniame puka re'wisaroatiame e'pe ika na'wesarichi
-report-sc-different-language = Pirechi naewasari
-report-sc-different-language-detail = Vaatía illoterepú pirechy idioma kí no'o neneachí
+sc-review-rules-title = ¿u'u orasioni kum'piaroania pu'ká apo yo'rá?
+sc-review-empty-state = E'peo pi'čiwači ki'te ne'neniame pu'ká re'wisaroatiame e'pe ika na'wesariči
+report-sc-different-language = Pireči naewasari
+report-sc-different-language-detail = Baatía iyoterepú pirečí idioma kí no'o neneačí
 sentences-fetch-error = Inture piripi weka tiame waa iyaniachi orasioni
 review-error = inture piri'pi wekatiame wa'a re'wisaroaniachi i'ká orasióni
 review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
