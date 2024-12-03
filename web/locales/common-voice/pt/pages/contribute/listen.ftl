@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Terminar a validação de clipes?
 listen-abort-cancel = Continuar a validar
 listen-abort-confirm = Terminar a validação
+# Menu item
+validate-readings = Validar leituras
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Validar leituras, revisar transcrições
+validate-readings-menu-item-tooltip = Validar leituras gravadas por usuários em seu idioma
+review-transcriptions-menu-item-tooltip = Revisar transcrições enviadas por usuários em seu idioma
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Menu de opções de escuta
+validate-readings-menu-item-aria-label = Validar leituras enviadas por membros da comunidade
+review-transcriptions-menu-item-aria-label = Revisar a exatidão de transcrições de frases gravadas

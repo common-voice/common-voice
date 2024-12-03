@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Você está indo rápido demais. Dedique um m
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.
 sc-redirect-page-subtitle-2 = Faça-nos perguntas no <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>email</emailLink>.
+# menu item
+review-sentences = Revisar frases
