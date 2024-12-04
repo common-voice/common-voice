@@ -73,4 +73,4 @@ help-sex-or-gender-changes = sex yaa gender badal etase gane madat awaajiya?
 help-sex-or-gender-changes-explanation = mii butan options nemasin sisar butan choice iṅ uymo sex yaa gender e baaraulo meśar uġuya baan
 variant-contribution-options-header = variant emasase options
 variant-contribution-help = beramun baaṣe qisimiṅ daa dialects baaṣanulo yaa baaṣe xandaanulo hahanc cum but farq mey bican. agar xaas baaṣe qisimanate duro etasulo muśkilaat bila ke maymo preferences badal etiṣ maamay baan
-variant-contribution-option-1 = jaa baaṣe ulum uyoon qisimiṅe clips daa jumlan aaltir
+variant-contribution-option-1 = jaa baaṣe ulum uyoon variants e clips daa jumlaṅ aaltir
