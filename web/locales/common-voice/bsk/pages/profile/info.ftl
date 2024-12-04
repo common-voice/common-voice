@@ -66,3 +66,5 @@ skip-submission-note = mamar darum sen ke damaylin haran damśi etas e gane emas
 off = ban etas
 on = on etas
 help-accent = ćaġa etase andaaze gane kaman madat awaaji bilaa?
+help-accent-explanation = maa lafziṅ talafuz maa ćaġa etas andaaz ate bila. kʰutulo butan awaamiliṅ belate maa amulo hurutaan, amik tʰumiṅ baaṣiṅ ećaan daa ṭhumiṅ ke bica. besan ke yom maalumaatan khole meeka share etin
+help-variants = han baaṣe muxtalif qisimine baraaulo kaman madat awaajiya?
