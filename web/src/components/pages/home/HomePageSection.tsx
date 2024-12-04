@@ -25,7 +25,7 @@ export default function HomePageSection() {
           </p>
           <div className="self-center">
             <img
-              src="/img/link-forward-rounded.svg"
+              src="img/link-forward-rounded.svg"
               alt="link-forward"
               height={20}
               width={15}
@@ -68,7 +68,7 @@ export default function HomePageSection() {
               <LocaleLink to={URLS.SPEAK}>
                 <div>
                   <img
-                    src="/img/mic-icon.svg"
+                    src="img/mic-icon.svg"
                     alt="mic-icon"
                     className={` ${classes['clickable-icon']} w-[110px] h-[110px] cursor-pointer mx-auto`}
                   />
@@ -78,7 +78,7 @@ export default function HomePageSection() {
             </div>
           </div>
           <img
-            src="/img/phone-speak.svg"
+            src="img/phone-speak.svg"
             alt="phone-speak"
             className="w-[100%] mt-[100px]"
           />
@@ -115,7 +115,7 @@ export default function HomePageSection() {
               <LocaleLink to={URLS.LISTEN}>
                 <div>
                   <img
-                    src="/img/play-icon.svg"
+                    src="img/play-icon.svg"
                     alt="mic-icon"
                     className={` ${classes['clickable-icon']} w-[110px] h-[110px] cursor-pointer mx-auto`}
                   />
@@ -125,7 +125,7 @@ export default function HomePageSection() {
             </div>
           </div>
           <img
-            src="/img/phone-listen.svg"
+            src="img/phone-listen.svg"
             alt="phone-speak"
             className="w-[100%] mt-[115px]"
           />

@@ -8,7 +8,7 @@ export default function FalakHeader() {
       <div className="inner-pages py-4 px-4 mx-0 gap-8 md:mx-6 lg:mx-8 xl:mx-8 lg:px-8 flex items-center justify-between">
         <a className="flex items-center" href="https://falak.ksaa.gov.sa/">
           <img
-            src="/img/falak-logo-light.svg"
+            src="img/falak-logo-light.svg"
             alt="مِنَصّةُ فلك"
             height="38"
             className="mr-0 lg:mr-2 mb-1 h-[38px] "
@@ -64,7 +64,7 @@ export default function FalakHeader() {
               href="https://falak.ksaa.gov.sa/auth/login"
               className={`flex items-center space-x-2 ${classes['login-button']}`}>
               <img
-                src="/img/icon-login.svg"
+                src="img/icon-login.svg"
                 alt="مِنَصّةُ فلك"
                 height="15"
                 className={classes['button-image']}

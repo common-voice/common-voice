@@ -25,7 +25,7 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
 
       <div className="about-container">
         <div className="robot-section">
-          <img src="/img/mars-3d.png" alt="Robot" />
+          <img src="img/mars-3d.png" alt="Robot" />
         </div>
 
         <div className="text-section">

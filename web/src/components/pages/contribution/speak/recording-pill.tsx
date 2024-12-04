@@ -100,7 +100,7 @@ function RecordingPill({
               onMouseEnter={() => setShowSentenceTooltip(true)}
               onMouseLeave={() => setShowSentenceTooltip(false)}>
               <span className="padder">
-                {isPlaying ? <StopIcon /> : <img src="/img/play-rounded.svg" alt="play-icon" />}
+                {isPlaying ? <StopIcon /> : <img src="img/play-rounded.svg" alt="play-icon" />}
               </span>
             </button>
           </Tooltip>
@@ -111,7 +111,7 @@ function RecordingPill({
               <Tooltip arrow title={getString('review-tooltip')}>
                 <button className="redo" type="button" onClick={onRerecord}>
                   <span className="padder">
-                    <img src="/img/repeat-rounded.svg" alt="repeat-icon" />
+                    <img src="img/repeat-rounded.svg" alt="repeat-icon" />
                   </span>
                 </button>
               </Tooltip>

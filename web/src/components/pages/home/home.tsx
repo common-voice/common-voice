@@ -201,7 +201,7 @@ export default function HomePage() {
       {user.account ? (
         <section className="contribute-section">
           <div className="mars-container">
-            {/* <img src="/img/mars.svg" alt="Mars" /> */}
+            {/* <img src="img/mars.svg" alt="Mars" /> */}
               {launched.map(language => (
                 <LanguageCard
                   key={language.locale}
