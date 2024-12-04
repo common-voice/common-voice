@@ -72,9 +72,9 @@ shortcut-rerecord-toggle-label = Raroariame e'nčiwemera kite'peruma
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = U'yeniame pu'ká ra'waroatiame wa'a ma'siteniači
 shortcut-submit = E'naniame
-shortcut-submit-label = i'tochetiame ra'waroatiame
-request-language-text = ¿i'weka pe'ji kitewanimu a'mo nawesariwa wa'a Common Voice?
-request-language-button = ithamàne piripi nawésari
+shortcut-submit-label = i'točetiame ra'waroatiame
+request-language-text = ¿i'weka pe'hi kitewanimu a'mo nawesariwa wa'a Common Voice?
+request-language-button = ithamáne piripi nawésari
 
 ## Listen Shortcuts
 
@@ -92,7 +92,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Yo'raniame
-contribution-criteria-link = Pe'nipaniame we'ka wajachi yo'ra pu'ka na'wesaniame
+contribution-criteria-link = Pe'nipaniame we'ka wahači yo'ra pu'ká na'wesaniame
 contribution-criteria-page-title = yo'raniame pu'u na'wesaniame
 contribution-criteria-page-description = pe'nipaniame e'peche ka'we ki'iyaka ke'puka onamuka pu'ka rawarotiame i ka'we ma'chitamamu achina yoraka yoramia  pu'ka a'mo ra'waroa
 contribution-for-example = Achinatiame.
