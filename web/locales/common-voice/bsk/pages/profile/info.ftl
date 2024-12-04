@@ -70,3 +70,7 @@ help-accent-explanation = maa lafziṅ talafuz maa ćaġa etas andaaz ate bila. 
 help-variants = han baaṣe muxtalif qisimine baraaulo kaman madat awaajiya?
 help-variants-explanation = variants har baaṣane han iymo xaas śakalan bila masalan men han diśanulo gati huruśaan ke uwe hihine kaa ećaan. gukeer gaai gaai dialects ke sey baan
 help-sex-or-gender-changes = sex yaa gender badal etase gane madat awaajiya?
+help-sex-or-gender-changes-explanation = mii butan options nemasin sisar butan choice iṅ uymo sex yaa gender e baaraulo meśar uġuya baan
+variant-contribution-options-header = variant emasase options
+variant-contribution-help = beramun baaṣe qisimiṅ daa dialects baaṣanulo yaa baaṣe xandaanulo hahanc cum but farq mey bican. agar xaas baaṣe qisimanate duro etasulo muśkilaat bila ke maymo preferences badal etiṣ maamay baan
+variant-contribution-option-1 = jaa baaṣe ulum uyoon qisimiṅe clips daa jumlan aaltir
