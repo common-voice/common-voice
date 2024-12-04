@@ -13,20 +13,20 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
           let imgSrc = ''
 
           if (stepsDone) {
-            imgSrc = '/img/progress-check.svg'
+            imgSrc = '/voicewall/img/progress-check.svg'
           }
 
           if (!stepsDone) {
             if (index < currentStep) {
-              imgSrc = '/img/progress-check.svg' // Successful step
+              imgSrc = '/voicewall/img/progress-check.svg' // Successful step
             } else if (index === currentStep) {
-              imgSrc = '/img/progress-check-active.svg'
+              imgSrc = '/voicewall/img/progress-check-active.svg'
             } else {
-              imgSrc = '/img/progress-check-muted.svg'
+              imgSrc = '/voicewall/img/progress-check-muted.svg'
             }
           }
 
-          const isSuccess = imgSrc === '/img/progress-check.svg'
+          const isSuccess = imgSrc === '/voicewall/img/progress-check.svg'
 
           return (
 
