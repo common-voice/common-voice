@@ -49,12 +49,28 @@ email-subscription-title-new = common voice e newsletter, goal reminder daa prog
 ## Account Benefits
 
 benefits = faaydan
+rich-data = meyik ayosum kama demographic data nemasin maymo data butan maalumaat ke desmanin. mii demographic data jama etum ine leel ayoomanas ne hole sisar emaśa baan
+improve-audio = ućʰaring data speech recognition ac̣curacy tayaar etasulo profile e maalumate mićʰiiṅ
+keep-track = maymo duro e track oosin daa har raxte baaṣiṅ e data hisaap oosin
+compare-progress = maymo duro daa tok dunyatulo tʰum sise duro muqaabila ulo barenin
+view-goals = maymo daa project maqasidine hisab ate maymo duro  bareniṅ
+join-newsletter = naya project maalumaat daa updates gane mii email list ulo optionally kaa maneyin
 
 ## What's public
 
+whats-public = besan awaami?
+email-not-public = mi maa email men ke ayoortirćan
+recordings-and-locale-public = maa recordings beruman etaan kaa daa amit baaṣulo duro ećaam iteer uyoone bareyman
+username-optin-public = meyilk ayosum maymo uyoone barenas username an desqatas maamay baan
+demographic-deidentified-clarity-2 = maymo rayate jama etum demographic data (gener, baax, daa ,garaase andaaz ) uyoon ar aaśkaar ayećan daa gute maa  dataset ulo maa ac̣count e kaa ke omay mi. hanuman audio cilips ine demographc data kaa meeym beske ac̣urate analysis gane awaaji ẓuc̣i, masalan tehqiiq etaśue tayaar otas models han xaas demographic segment ane gane meeymi
+username-email-not-demographic = holne ooltiras data kaa maa username daa email oomaymi
 
 ## Landing
 
+welcome-staff = kaa duro etaśuar damaanana osin
+help-contribute = maymo maćʰar nemas daa common voice ulo profile desman maa har raxte open source data set dasmanas maamay baan
+login-company = maymo email cum login/sign maneyiṅ
+profile-not-required = maćʰar emasas e gane maymo profile manaas laazimi api magam marii ce duuy bi, yaare bareniṅ
 read-more-about = mii About page ate maziit ġatanin
 
 ## NAV ITEMS

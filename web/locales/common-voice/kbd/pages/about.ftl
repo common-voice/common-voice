@@ -11,9 +11,9 @@ about-listen = КъэдаӀуэ
 about-yes-votes = ≥ 2 ӏэ ӏэт нэхъыбэ
 about-no-votes = ≥ 2 зыри ӏэ ӏэт щыӏэкъым
 about-get-involved = Хэхьэ
-about-nav-why-common-voice = Сытым щхьа?
-about-nav-how-it-works = Дау?
-about-nav-partners = Лэжьэгъу
+about-nav-why-common-voice = Сыт щхьэкӏэ?
+about-nav-how-it-works = Дауэ?
+about-nav-partners = Лэжьэгъухэр
 about-nav-get-involved = Хэхьэ
 
 ## Community Playbook Content
