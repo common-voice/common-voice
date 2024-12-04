@@ -1,8 +1,8 @@
 ## Contact Modal
 
-contact-title = dugharsuse form
+contact-title = duġarsuse form
 contact-form-name =
     .label = Guyik
 contact-form-message =
-    .label = taqhpa
+    .label = taxpa
 contact-required = awaaji bican

@@ -1,8 +1,8 @@
 ## Home page
 
-welcome-to-spontaneous-speech = Bievenida a Parla Espontania
+welcome-to-spontaneous-speech = Bieveniu/ida a Parla Espontania
 # <br></br> represents a newline break
-wall-of-text = Common Voice ye lanzando una segunda plataforma enfocada a entender la parla organica, espontania y sin guión. Isto aduyará a muitas comunidatz a replegar datos más rapidament, asinas como será útil ta científicos de datos y desenvolvedors.
+wall-of-text = Common Voice ye lanzando una segunda plataforma enfocada a entender la parla organica, espontania y sin guión. Isto aduyará a muitas comunidaz a replegar datos mas rapidament, asinas como será útil ta cientificos de datos y desenrolladors.
 why-spontaneous-speech = Per qué hemos feito este prototipo de Parla Espontania
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Útil pa los <mark>contextos de parola organica</mark> y casos d'uso (per eixemplo, cuan quiers que lo reconoiximiento d'a parla funcione con personas que charren espontaniament u coloquialment)

@@ -75,6 +75,7 @@ shortcut-record-toggle = ლიჲრი/ლიჩრა̈უ̂ი
 shortcut-record-toggle-label = ლი̄რი/ლიჩრაუ̂ა̄̈ლ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = კლიპი მახა̄ნ ლი̄რი
+shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = ჟახაღრ ათხე̄ ნა̈ი̄რ
 shortcut-submit = უ̂ეშდ ლიტეხ
 shortcut-submit-label = კლიპრე ქალიზზი

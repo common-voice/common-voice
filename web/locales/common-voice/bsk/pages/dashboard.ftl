@@ -18,6 +18,8 @@ validated-clips = tasdiiq etum clips
 total-approved = mukamal approved
 overall-accuracy = overall accuracy
 set-visibility = jaa barenas ite warc eti
+visibility-explainer = gute setting e maa leaderboard visibility qaabu eći bi. beśal ayeeġanuman ke maa duro mene ke eeyśaan. gute matal maa image, meyik daa duro leaderboard ate aqayśila. gute note etin ke leaderboard refresh etuman ke badal manasumo minute an yaa minutes iṅ laga meey bican
+visibility-overlay-note = girminiṅ: beśal "Visble' ate oosuman ke, gute setting profile page cum badal mey mi
 show-ranking = jaa ranking aartir
 
 ## Custom Goals
@@ -50,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = maksad desman
 cant-decide = feesla etas amaamanuma?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
+                            }
+                    }
+            }
+    }
 how-many-per-day = but shuwa. beeruman clips in han gunculo
 how-many-a-week = but shuwa. beeruman clips in han haftaulo?
 which-goal-type = senase be damaylase ray be ooltalik?

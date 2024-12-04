@@ -1,4 +1,4 @@
-action-click = Click yorapa
+action-click = Klik yorapa
 action-tap = Puka
 contribute = Yooma pienapi apo kuyame
 review = Neene puuka
@@ -9,57 +9,52 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> paikapi ivotetiame
        *[other] <bold>{ $count }</bold> weika toatiame iyoteka
     }
-goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivochi diarichio grawandotiame { $goalValue }
-goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivochi diariochio_taamo yoraria{ $goalValue }.
-contribute-more = Listochi netemia { $count } enchi.
-speak-empty-state = Teeme kiniwaega etipiru puka frases taamo grawaomia ikachi idiomachi
-no-sentences-for-variants = Taamo mochikachi weyka naewasari intunapa .wekana comunidachi
-speak-empty-state-cta = Epeche weika toamitia  puka frases
-speak-loading-error = Ki kawe machenaru toaniame oracionichi. Weikachuri onepa toaka
+goal-help-recording = Čeriwema aamo kiyaine noo kuiretičo, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivoči diaričio grawandotiame { $goalValue }
+goal-help-validation = Čeriwema aamo kiyaine no'ó kuiretičo, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivoči diariočio taamo yoraria{ $goalValue }.
+contribute-more = Listoči netemia { $count } enčí.
+speak-empty-state = Teeme kiniwaega etipiru pu'ká frases taamo grawaomia ikači idiomači
+no-sentences-for-variants = Taamo močikači weyka naewasari intunapa .wekana comunidači
+speak-empty-state-cta = Epečé weika toamitia  pu'ká frases
+speak-loading-error = Kikawe mačenaru toaniame orasioniči. Weikačuri onepa toaka
 record-button-label = Amo grabandotane amo naewa
 share-title-new = <bold> ikachi </bold> grawaonia amo naewa
 keep-track-profile = Aatenamu puuka progreso perfil neteka
-login-to-get-started = Oinare sesión ...oinepa ivosichi toaka
-target-segment-first-card = Katimo taamoma colaborandomia taamo paacha piripi yoratiame objetivochi
+login-to-get-started = Oinare sesión ...oinepa ibosiči toaka
+target-segment-first-card = Katimo taamoma colaborandomia taamo paača piripi yoratiame objetivoči
 target-segment-generic-card = Yo'ranimu ku'ika pi'repikuichi púka i'tapiti
-target-segment-first-banner = Ta'mó ku'i yo'raka pu'ka pa'cha yoraniame i'ka i'tapiti wa'a Common Voice wa'a
+target-segment-first-banner = Ta'mó ku'i yo'raka pu'ká pa'ča yoraniame i'ka i'tapiti wa'a Common Voice wa'a
 target-segment-add-voice = Toamitia amo naewasari
-target-segment-learn-more = Epeche weika información
+target-segment-learn-more = Epečé weika informasión
 change-preferences = Na'kuriwaniame a'po ino'wareka
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kawetiamera úniame puka chiame
-contribute-sentence-collection-nav-header = Ma'chipaniame pu'ka na'wesari
-login-signup = Oinemera sesión neteka...regitradosa
-vote-yes = ejeé
-vote-no = kai
-datasets = Conjuntochii tewara
+login-signup = Oinemera sesión neteka/ regitradosa
+vote-yes = Eheé
+vote-no = Kai
+datasets = Conhuntočii tewara
 languages = Weika naewasari naewaniame
 about = wapí waá
 partner = Yoomatiame socioba
-submit-form-action = itocheniame
+submit-form-action = itočeniame
 
 ## Reporting
 
 report = Informandomia naewasari
-report-title = Itocheniame informe netesa
-report-ask = ithana uju puu newesari?
+report-title = Itočeniame informe netesa
+report-ask = ¿ithana uhu puú newesari?
 report-offensive-language = naereka nawesamé
-report-offensive-language-detail = Kí  yoreká nawesanimú naerachanimú.
-report-grammar-or-spelling = Wekaka yo'ratiame o pu'ka i'yotetiame
-report-grammar-or-spelling-detail = I'ji na'wesari i'niwae we'kaka yoratiame o pu'ka yo'tetiame
-report-different-language = Pirechi naewasari
-report-different-language-detail = Yo'teniame ka'ti pi'repi na'wesarichi se'wina che'ka ki'no na'iwachitia
-report-difficult-pronounce = Tekite pronuciadoniame
-report-difficult-pronounce-detail = Itona nawésary leyeroaniame tekitíamepu.
+report-offensive-language-detail = Kíyoreká nawesanimú naeračanimú.
+report-grammar-or-spelling = Wekaka yo'ratiame o pu'ká  i'yotetiame
+report-grammar-or-spelling-detail = I'hi na'wesari i'niwae we'kaka yoratiame o pu'ká yo'tetiame
+report-different-language = Pireči naewasari
+report-different-language-detail = Yo'teniame ka'ti pi'repi na'wesariči se'wina če'ka ki'no na'iwačitia
+report-difficult-pronounce = Tekite pronusiadoniame
+report-difficult-pronounce-detail = Itona nawésari leyeroaniame tekitíamepu.
 report-offensive-speech = I 'no'waeme ta'mó nekamupatiame
-report-offensive-speech-detail = Grabacionía itónapu piripi naeracheka nawesaniame o achikoricheniame.
+report-offensive-speech-detail = Grabasionía itónapu piripi naeračeka nawesaniame o ačikoričeniame.
 report-other-comment =
     .placeholder = Nayawatiamé
 success = Kawétiame
 continue = simiteniame
-report-success = Kawetiame itocheretúpu nawesatiameá
+report-success = Kawetiame itočeretúpu nawesatiameá
 
 ## Speak & Listen Shortcuts
 
@@ -71,15 +66,15 @@ shortcut-skip = h
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
-shortcut-record-toggle-label = Ra'waroatiame / chu'chapaniame
+shortcut-record-toggle-label = Ra'waroatiame / Ču'čapaniame
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Raroariame e'nchiwemera kite'peruma
+shortcut-rerecord-toggle-label = Raroariame e'nčiwemera kite'peruma
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = U'yeniame pu'ka ra'waroatiame wa'a ma'siteniachi
+shortcut-discard-ongoing-recording-label = U'yeniame pu'ká ra'waroatiame wa'a ma'siteniači
 shortcut-submit = E'naniame
-shortcut-submit-label = i'tochetiame ra'waroatiame
-request-language-text = ¿i'weka pe'ji kitewanimu a'mo nawesariwa wa'a Common Voice?
-request-language-button = ithamàne piripi nawésari
+shortcut-submit-label = i'točetiame ra'waroatiame
+request-language-text = ¿i'weka pe'hi kitewanimu a'mo nawesariwa wa'a Common Voice?
+request-language-button = ithamáne piripi nawésari
 
 ## Listen Shortcuts
 
@@ -97,29 +92,29 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Yo'raniame
-contribution-criteria-link = Pe'nipaniame we'ka wajachi yo'ra pu'ka na'wesaniame
+contribution-criteria-link = Pe'nipaniame we'ka wahači yo'ra pu'ká na'wesaniame
 contribution-criteria-page-title = yo'raniame pu'u na'wesaniame
-contribution-criteria-page-description = pe'nipaniame e'peche ka'we ki'iyaka ke'puka onamuka pu'ka rawarotiame i ka'we ma'chitamamu achina yoraka yoramia  pu'ka a'mo ra'waroa
-contribution-for-example = Achinatiame.
-contribution-misreadings-title = Kikaweruma chaniwame.
-contribution-misreadings-description = wa'a ina'muka, rewisaroa ka'weinateka pu'ka yora'tiame wa'a rawarotiame pu'u wa'achitiame wa'a yotetiame; katenaki wa'a ra'waroatiame ikepó pu'ka ra'waroatiame kiwarachi chiameenisó, na'nasipami we'katiame we'ka yo'matiempo tetewiniapu:
-contribution-misreadings-description-extended-list-1 = Toina pirepi <strong>"el" </strong>o <strong>"la" </strong>wa'a o'ichaka pu'ka ra'waroatiame
-contribution-misreadings-description-extended-list-2 = Toina pirepi <strong>s</strong> wa'a ru'timochi pu'ka na'wesarichi
-contribution-misreadings-description-extended-list-3 = reyeraaka na'peka pu'ka  pichi'wáchi kái intuame natiká tiame pa'puka yo'rameti pu'ka i'chiyo o tenawinániame
-contribution-misreadings-description-extended-list-4 = We'kateka ka'juyachi wa'a neipa nawesari kaporame ra'waroatiame u'matoka kúwe
-contribution-misreadings-description-extended-list-5 = ne'nesa we'sa utewachi leyeroaka piripi nawesari
-contribution-misreadings-example-1-title = Wa'ja ri'nosaurio kayetupakame wa'a triasikochi
-contribution-misreadings-example-2-title = Pu'u rinosaurio kayetupakame wa'a triasikochi
-contribution-misreadings-example-2-explanation = [enimete'eri pu'u ’rinosaurio‘]
-contribution-misreadings-example-3-title = Wa'ja rinosaurio ka'yetupakame wa'a triasi-
-contribution-misreadings-example-3-explanation = [pu'u ra'waroatiame wa'a te'we'so'o pa'cha pu'ka kuwepaka wa'a ne'ipa na'wesaniame ]
-contribution-misreadings-example-4-title = Wa'ja rinosaurio ka'yetupakame wa'a triasiko. Ejeé.
-contribution-misreadings-example-4-explanation = [intuna ra'waroatiame we'ka pu'u yotetiame]
-contribution-misreadings-example-5-title = Siminané neéa waà pueblochitú
-contribution-misreadings-example-6-title = Simané waá pueblochitú
+contribution-criteria-page-description = pe'nipaniame epečé ka'we ki'iyaka ke'puka onamuka pu'ká rawarotiame i ka'we ma'chitamamu ačina yoraka yoramia  pu'ká a'mo ra'waroa
+contribution-for-example = Ačinatiame.
+contribution-misreadings-title = Kikaweruma čaniwame.
+contribution-misreadings-description = wa'a ina'muka, rewisaroa ka'weinateka pu'ká yora'tiame wa'a rawarotiame puú wa'achitiame wa'a yotetiame; katenaki wa'a ra'waroatiame ikepó pu'ká ra'waroatiame kiwarači čiameenisó, na'nasipami we'katiame we'ka yo'matiempo tetewiniapu:
+contribution-misreadings-description-extended-list-1 = Toina pirepi <strong>"el" </strong>o <strong>"la" </strong>wa'a o'ičaka pu'ká ra'waroatiame
+contribution-misreadings-description-extended-list-2 = Toina pirepi <strong>s</strong> wa'a ru'timoči pu'ká na'wesariči
+contribution-misreadings-description-extended-list-3 = reyeraaka na'peka pu'ká  piči'wáči kái intuame natiká tiame pa'puka yo'rameti pu'ka i'čiyo o tenawinániame
+contribution-misreadings-description-extended-list-4 = We'kateka ka'huyači wa'a neipa nawesari kaporame ra'waroatiame u'matoka kúwe
+contribution-misreadings-description-extended-list-5 = ne'nesa we'sa utewači leyeroaka piripi nawesari
+contribution-misreadings-example-1-title = Wa'ha ri'nosaurio kayetupakame wa'a triasikoči
+contribution-misreadings-example-2-title = Puú rinosaurio kayetupakame wa'a triasikoči
+contribution-misreadings-example-2-explanation = [enimete'eri puú ’rinosaurio‘]
+contribution-misreadings-example-3-title = Wa'ha rinosaurio ka'yetupakame wa'a triasi-
+contribution-misreadings-example-3-explanation = [puú ra'waroatiame wa'a te'we'so'o pa'ča pu'ká kuwepaka wa'a ne'ipa na'wesaniame ]
+contribution-misreadings-example-4-title = Wa'ha rinosaurio ka'yetupakame wa'a triasiko. Ejeé.
+contribution-misreadings-example-4-explanation = [intuna ra'waroatiame we'ka puú yotetiame]
+contribution-misreadings-example-5-title = Siminané neéa waá puebločitú
+contribution-misreadings-example-6-title = Simané waá puebločitú
 contribution-misreadings-example-6-explanation = [wa'a tiame enimete “a'poe”]
-contribution-misreadings-example-7-title = No'ranine wa'a no'o o'joekachi
-contribution-misreadings-example-7-explanation = [Ki'te 'no'o' wa'a pu'ka to'atiachi yo'ratiame]
+contribution-misreadings-example-7-title = No'ranine wa'a no'ó o'hoekači
+contribution-misreadings-example-7-explanation = [Ki'te 'no'ó' wa'a pu'ká to'atiači yo'ratiame]
 contribution-misreadings-example-8-title = Pu'u chu'churi u'maturu i'yetasimika
 contribution-misreadings-example-8-explanation = [pu'ka ki'nowaeme ka'i ikepani]
 contribution-varying-pronunciations-title = na'iwaniame ka'we na'petiame
