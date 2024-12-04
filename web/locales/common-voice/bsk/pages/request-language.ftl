@@ -9,3 +9,10 @@ request-language-form-info =
     .label = baaṣ e maalumaat
 request-language-form-info-explanation = baaṣe baaraulo beruman ke maalumaat bila ke gati etin. guke kaa etas maamay baan
 request-language-form-info-explanation-list-1 = une baaṣe iik
+request-language-form-info-explanation-list-2 = maar leel bila ke ISO codes
+request-language-form-info-explanation-list-3 = baaṣ mesulo biśaćar websites iṅe links
+request-language-google-recaptcha-required = agar yarqiṣ etas ray bila mamar reCAPTCHA awaaji bi
+request-language-google-recaptcha-error = reCAPTCHA kaa besan ṭʰis manimi. hik ke kośiś etin
+# Success page
+request-language-success-heading = juu maar, maa tʰos baṣane duġarusaan
+request-language-success-list-1 = maa cʰoor email mayaćuman amitulo belate baaṣ common voice ulo kaa ećaan ke ite baraaulo han han ne maśan
