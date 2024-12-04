@@ -16,3 +16,4 @@ request-language-google-recaptcha-error = reCAPTCHA kaa besan ṭʰis manimi. hi
 # Success page
 request-language-success-heading = juu maar, maa tʰos baṣane duġarusaan
 request-language-success-list-1 = maa cʰoor email mayaćuman amitulo belate baaṣ common voice ulo kaa ećaan ke ite baraaulo han han ne maśan
+request-language-success-list-2 = mii gati duro etas manager e maa kaa rabita eći daa maa mariin ce duuimi, daa xabar maarći agar yarne maa mene gati numa maa baṣate duro ećaan ke
