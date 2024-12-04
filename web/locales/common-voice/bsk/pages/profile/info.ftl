@@ -68,3 +68,5 @@ on = on etas
 help-accent = ćaġa etase andaaze gane kaman madat awaaji bilaa?
 help-accent-explanation = maa lafziṅ talafuz maa ćaġa etas andaaz ate bila. kʰutulo butan awaamiliṅ belate maa amulo hurutaan, amik tʰumiṅ baaṣiṅ ećaan daa ṭhumiṅ ke bica. besan ke yom maalumaatan khole meeka share etin
 help-variants = han baaṣe muxtalif qisimine baraaulo kaman madat awaajiya?
+help-variants-explanation = variants har baaṣane han iymo xaas śakalan bila masalan men han diśanulo gati huruśaan ke uwe hihine kaa ećaan. gukeer gaai gaai dialects ke sey baan
+help-sex-or-gender-changes = sex yaa gender badal etase gane madat awaajiya?
