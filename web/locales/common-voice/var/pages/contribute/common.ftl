@@ -93,11 +93,11 @@ shortcut-vote-no = n
 
 contribution-criteria-nav = Yo'raniame
 contribution-criteria-link = Pe'nipaniame we'ka wahači yo'ra pu'ká na'wesaniame
-contribution-criteria-page-title = yo'raniame pu'u na'wesaniame
+contribution-criteria-page-title = yo'raniame puú na'wesaniame
 contribution-criteria-page-description = pe'nipaniame epečé ka'we ki'iyaka ke'puka onamuka pu'ká rawarotiame i ka'we ma'chitamamu ačina yoraka yoramia  pu'ká a'mo ra'waroa
 contribution-for-example = Ačinatiame.
 contribution-misreadings-title = Kikaweruma čaniwame.
-contribution-misreadings-description = wa'a ina'muka, rewisaroa ka'weinateka pu'ká yora'tiame wa'a rawarotiame puú wa'achitiame wa'a yotetiame; katenaki wa'a ra'waroatiame ikepó pu'ká ra'waroatiame kiwarači čiameenisó, na'nasipami we'katiame we'ka yo'matiempo tetewiniapu:
+contribution-misreadings-description = wa'a ina'muka, rewisaroa ka'weinateka pu'ká yora'tiame wa'a rawarotiame puú wa'ačitiame wa'a yotetiame; katenaki wa'a ra'waroatiame ikepó pu'ká ra'waroatiame kiwarači čiameenisó, na'nasipami we'katiame we'ka yo'matiempo tetewiniapu:
 contribution-misreadings-description-extended-list-1 = Toina pirepi <strong>"el" </strong>o <strong>"la" </strong>wa'a o'ičaka pu'ká ra'waroatiame
 contribution-misreadings-description-extended-list-2 = Toina pirepi <strong>s</strong> wa'a ru'timoči pu'ká na'wesariči
 contribution-misreadings-description-extended-list-3 = reyeraaka na'peka pu'ká  piči'wáči kái intuame natiká tiame pa'puka yo'rameti pu'ka i'čiyo o tenawinániame
