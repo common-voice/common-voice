@@ -24,6 +24,9 @@
 
             @media (--xl-up) {
                 gap: 8rem;
+            }
+
+            @media (--lg-up) {
                 justify-content: center;
             }
 
