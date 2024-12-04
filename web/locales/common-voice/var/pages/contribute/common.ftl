@@ -68,7 +68,7 @@ shortcut-skip = h
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Ra'waroatiame / Ču'čapaniame
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Raroariame e'nčiwemera kite'peruma
+shortcut-rerecord-toggle-label = Raroariame enčí wemera kite'peruma
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = U'yeniame pu'ká ra'waroatiame wa'a ma'siteniači
 shortcut-submit = E'naniame
@@ -81,7 +81,7 @@ request-language-button = ithamáne piripi nawésari
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
-shortcut-play-toggle-label = yoraniame / chu'chapaniame
+shortcut-play-toggle-label = Yoraniame /Ču'čapaniame
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -115,7 +115,7 @@ contribution-misreadings-example-6-title = Simané waá puebločitú
 contribution-misreadings-example-6-explanation = [wa'a tiame enimete “a'poe”]
 contribution-misreadings-example-7-title = No'ranine wa'a no'ó o'hoekači
 contribution-misreadings-example-7-explanation = [Ki'te 'no'ó' wa'a pu'ká to'atiači yo'ratiame]
-contribution-misreadings-example-8-title = Pu'u chu'churi u'maturu i'yetasimika
+contribution-misreadings-example-8-title = Puú čuhčúri u'maturu i'yetasimika
 contribution-misreadings-example-8-explanation = [pu'ka ki'nowaeme ka'i ikepani]
 contribution-varying-pronunciations-title = na'iwaniame ka'we na'petiame
 contribution-varying-pronunciations-description = a'mo inateka pa'cha kinakimotumia piripi ra'waroatiame a'kana ina'munia intuame pirepi ki'kaweruma cheniame.  intuna ka'yokapi na'peraeme pu'u yo'ratiame pu'u cheniame na'wesari wa'a mochiniachiámi, senekachi wa'jachi kinamunapu wa'a a'pó o'joekachi. kawe pa'teme pu'u ra'waroatiame wa'api i'ka nawesatiame itoi asentó se'wi namina, u'sa.
