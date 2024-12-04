@@ -74,3 +74,6 @@ help-sex-or-gender-changes-explanation = mii butan options nemasin sisar butan c
 variant-contribution-options-header = variant emasase options
 variant-contribution-help = beramun baaṣe qisimiṅ daa dialects baaṣanulo yaa baaṣe xandaanulo hahanc cum but farq mey bican. agar xaas baaṣe qisimanate duro etasulo muśkilaat bila ke maymo preferences badal etiṣ maamay baan
 variant-contribution-option-1 = jaa baaṣe ulum uyoon variants e clips daa jumlaṅ aaltir
+variant-contribution-option-2 = sirif jaa jeymo baaṣe variant e jumlan daa clips aaltir
+variant-contribution-warning-title = uyoon jumlaṅ ke clips ate variant tag darum delum api
+variant-contribution-warning-subtitle = agar mamar contribute ećar masla bila ke maa amit ke kʰenulo maymo baaṣe uyoon mawaad barenas maamay baan
