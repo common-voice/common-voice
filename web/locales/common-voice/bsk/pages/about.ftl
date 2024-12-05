@@ -89,7 +89,7 @@ about-playbook-how-add-sentences-content-3 = gute istimal netan Wikepedia cum  k
 ## How to record quality
 
 about-playbook-how-record-quality = dalṭas quality ulo ućʰare clip belate record ećam?
-about-playbook-how-record-content-1 = maymo mać..ʰarulo ćaġa etin! belate maa ćaġa ećaan ke ite khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
+about-playbook-how-record-content-1 = maymo maćʰarulo ćaġa etin! belate maa ćaġa ećaan ke ite khole welcome bila. Mimar maa maymo accent, volume, style ke intonation awaaji.
 about-playbook-how-record-content-2 = madigaartak ućharing oomaniṣ daa ma dimeyalas mimar asaan maniṣ.
 about-playbook-how-record-content-3 = jumlaṅ śan ne ġatanin, besan ke lafzan phaṭ ayetin, baḍal ayetin, yaa kaa  ayetin.
 about-playbook-how-record-content-4 = maa ćaġa etas cum yaar platform e record etasar barenin daa beśal ćaġa bas etumar et ban maniṣ.
