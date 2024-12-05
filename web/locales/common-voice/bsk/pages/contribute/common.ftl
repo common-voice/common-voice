@@ -13,7 +13,7 @@ goal-help-recording = gunce record etase mush car diusasulo maa common voice iri
 goal-help-validation = maa common voice imu gunce validation mush car diusasulo irin ce duunan
 contribute-more =
     { $count ->
-        [one] daa ećar tayaar manein
+        [one] daa duro ećar tayaar manein
        *[other] daa
     }
 speak-empty-state = mii gute baaṣulo jumlan record etase gane phaṣ manimi
@@ -48,7 +48,7 @@ report-offensive-language = ġuniqiṣ baaṣ
 report-offensive-language-detail = guke jumaln meeyalas baaṣulo bican
 report-grammar-or-spelling = grammar yaa spelline ṭʰis pisin
 report-grammar-or-spelling-detail = jumlanulo grammar yaa spelline ṭʰis pisin bican.
-report-different-language = thum baaṣan
+report-different-language = muxtalif baaṣan
 report-different-language-detail = jaa ġaraas ite cum kʰot tʰum baaṣanulo girminaan
 report-difficult-pronounce = seyar ḍoom bila
 report-difficult-pronounce-detail = khutulo lafzin ke bariṅ ġatayar ḍom bican
@@ -146,5 +146,5 @@ contribution-reader-effects-title = ġatanas ine asarin
 contribution-reader-effects-description = butan recordings sise uymo ućarulo bican. gayimo ućaring aumlo śatine ġaruan, khusr khusr manuaan yaa drama juwan ġaruan ke ike accept etin. ġarene yaa computer synthesized ućharing reject etin.
 contribution-just-unsure-title = leel api
 contribution-just-unsure-description = tey besan mayar ddimi amite guke guideline cover ayećibi ke maymo judgment cum vote etin. agar decide ettas amaamanuman ke skip netan next recording atar niin
-see-more = butan yeecin
-see-less = kaman yeecas
+see-more = butanar baren
+see-less = kamanar baren
