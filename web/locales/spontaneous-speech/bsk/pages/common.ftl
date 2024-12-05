@@ -25,7 +25,17 @@ contribute = emasin
 
 ## Navbar
 
+respond-to-prompt = duro etin masum ite juwaap mićʰiin
+transcribe-audio = audio transcribe etin
+check-transcriptions = transcriptions ar baren
 
 ## Not Found Page
 
+not-found-page-header = ataaġurkam
+not-found-page-content = maa barenas ite page atamaġurśuman
+# Privacy and Terms checkbox
+accept-privacy-and-terms = jaa common voice e terms ke privacy policy cum itifaaq bila
+# Locales
+bsy = Sabah Bisaya
+cdo = fuzhou
 xkl = kenyah
