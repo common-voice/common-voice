@@ -1,5 +1,6 @@
 ## DemoLayout
 
+demo-get-started = Етэжъугъэгъажь
 
 ## Demo Datasets
 

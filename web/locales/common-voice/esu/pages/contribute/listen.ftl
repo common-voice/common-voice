@@ -12,3 +12,17 @@ listen-loading-error =
 listen-abort-title = Taq'uten-qaa cucukellerkamek qalarutkanek?
 listen-abort-cancel = Cucukluki cali
 listen-abort-confirm = Taqluku cucukellerkaq
+# Menu item
+validate-readings = Cucukluki Qalarutkat Assilriit
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Cucukluki Qalarutkat Assilriit, Igausngalriit-llu Assilriit
+validate-readings-menu-item-tooltip = Cucukluki Qalarutkat Assilriit Qaneryaravni
+review-transcriptions-menu-item-tooltip = Cucukluki Igausngalriit Assilriit Qaneryaravni
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Niicugniluki (Menu)
+validate-readings-menu-item-aria-label = Cucukluki Allat Qalarutkat Assilriit
+review-transcriptions-menu-item-aria-label = Cucukluki Allat Qalarutkat Assilriit

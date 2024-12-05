@@ -145,6 +145,7 @@ or = Odia
 os = Oseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
+pcm = Pidgin nixeriano
 pl = Polaco
 ps = Patxo
 pt = Portugués
