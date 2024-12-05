@@ -17,7 +17,7 @@ request-language-form-info-explanation =
     وارو  بارا کندوری کی ہوئے معلومات شامل کو۔
     ہیرا شامل بونی:
 request-language-form-info-explanation-list-1 = تہ وارو نام
-request-language-form-info-explanation-list-2 = </isoCodeLink> ISO  کوڈ</isoCodeLink> کہ تہ تین پتہ
+request-language-form-info-explanation-list-2 = </isoCodeLink> آئی ایس او کوڈ</isoCodeLink> کہ تہ تین پتہ
 request-language-form-info-explanation-list-3 = ویب سائٹان لنک کہ ہتیت تہ وارو ہوݰ کوریکا اسپہ مدد کونی۔
 request-language-google-recaptcha-required = ری کیپچا ضروری اگر تو پروشٹی کی بیسان
 request-language-google-recaptcha-error = وا کیپچا ݯھکیاوا کورا نقص ہائے۔ وا کھوشش کو
