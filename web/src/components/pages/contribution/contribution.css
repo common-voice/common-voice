@@ -587,6 +587,7 @@
             [dir='rtl'] & {
                 left: 100% !important;
                 right: unset;
+                text-align: start;
             }
         }
     }

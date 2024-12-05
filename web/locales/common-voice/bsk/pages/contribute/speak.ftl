@@ -1,5 +1,5 @@
-speak = sen
-speak-now = muto sen
+speak = senin
+speak-now = muto senin
 speak-subtitle = maćhar emasin
 record-cta = recording ećar duun
 record-platform-not-supported = mimar baxṣiṣ etin. maa platform e gute kheenulo madat ayeći bi

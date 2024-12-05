@@ -2,7 +2,7 @@
 
 sc-review-lang-not-selected = maa baaṣṅ damśi ayetaa. khole profile ar namaa baaṣṅ damśi etin
 sc-review-title = jumlan hik dame daa barenin
-sc-review-loading = jumlan load etin
+sc-review-loading = jumlan load mey bican
 sc-review-select-language = baaṣ damśi netanin jumlan hik ḍame daa barenin
 sc-review-no-sentences = hik ḍame daa bareyar han ke jumlan api
 sc-review-form-prompt =
