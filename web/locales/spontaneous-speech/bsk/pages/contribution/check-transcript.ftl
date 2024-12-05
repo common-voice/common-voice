@@ -12,3 +12,9 @@ transcript-edited-error = transcript edit etasulo besan ṭʰisan manimi
 error-fetching-transcriptions = besan ṭhisan manimi  transcriptions daal etasulo. hik ke iciyate kośiś etin
 transcript-skipped-success = transcript kaamiyaabi kaa skip manimi
 transcript-skipped-error = transcript skip etasulo besan ṭʰisan manimi
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = cʰan
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = manimi
+# For the button on the Check Transcriptions page to edit a transcription
+edit = edit etin
