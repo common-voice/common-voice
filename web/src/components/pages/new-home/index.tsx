@@ -4,6 +4,7 @@ import { HeroSection } from './hero-section'
 import { ActionItemsSection } from './action-items-section'
 import { CommunitySection } from './community-section'
 import { FeaturedSection } from './featured-section'
+import { DevelopersSection } from './developers-section'
 
 import Page from '../../ui/page'
 
@@ -14,6 +15,7 @@ const Home = () => {
       <ActionItemsSection />
       <CommunitySection />
       <FeaturedSection />
+      <DevelopersSection />
     </Page>
   )
 }

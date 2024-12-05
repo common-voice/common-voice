@@ -2,9 +2,10 @@ import React from 'react'
 
 import { Button } from '../../../ui/ui'
 
-import './featured-section.css'
 import { Localized } from '@fluent/react'
-import { ArrowRight } from '../../../ui/icons'
+import { CloudIcon } from '../../../ui/icons'
+
+import './featured-section.css'
 
 export const FeaturedSection = () => {
   return (
@@ -28,7 +29,7 @@ export const FeaturedSection = () => {
             className="logo"
           />
         </div>
-        <Localized id="download-press-pack" elems={{ icon: <ArrowRight /> }}>
+        <Localized id="download-press-pack" elems={{ icon: <CloudIcon /> }}>
           <Button rounded />
         </Localized>
       </div>

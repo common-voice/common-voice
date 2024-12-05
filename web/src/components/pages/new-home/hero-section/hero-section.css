@@ -212,6 +212,7 @@
                         position: relative;
                         height: 54vh;
                         min-height: 630px;
+                        max-height: 670px;
                     }
 
                     @media (--lg-only) {
@@ -353,7 +354,7 @@
 
                 @media (--xl-up) {
                     width: 50%;
-                    top: 17%;
+                    top: 13%;
                     left: 50%;
                 }
 

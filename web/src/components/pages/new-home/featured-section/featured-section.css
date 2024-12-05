@@ -53,7 +53,6 @@
             width: auto;
 
             svg {
-                transform: rotate(90deg);
                 margin-inline-start: 12px;
 
                 path {
