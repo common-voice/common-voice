@@ -1,7 +1,7 @@
 ## Report Modal
 
-report-modal-title = Malakgachakán tachiwín
-report-modal-subtitle = Tuku ya takglhuwit takgasa nak jaé tu lichiwinamanau?
+report-modal-title = Kgamalakachipi akgtum takatsin
+report-modal-subtitle = Tuku ya takglhuwin kgatlhiya nak ja'e puskujni?
 offensive_speech = Jaé wekg kimakglhuwi
 offensive_speech-detail = Tuku wilakgolh juú xatachiwín kimakglhuwi
 different_language = Jaé tachiwín ni xatutunakú
