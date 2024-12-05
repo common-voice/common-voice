@@ -21,3 +21,4 @@ submit-all-button = uyoon jama etin
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = page belata egucarćaan ke ite henin
+learn-how-to-use-prompts-explanation = masum ikeer but samba ayetum han alto jumlanulo juwaap mićʰiyas maamay baan. maa baaṣ ulo adap daa malciṣin omaniṣ
