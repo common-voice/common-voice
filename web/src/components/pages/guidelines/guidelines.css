@@ -340,6 +340,11 @@
                             align-items: center;
                             justify-content: center;
 
+                            [dir='rtl'] & {
+                                margin-left: 24px;
+                                margin-right: unset;
+                            }
+
                             @media (--sm-down) {
                                 height: 43px;
                                 width: 43px;
