@@ -1,6 +1,7 @@
-const PROFILE = '/profile';
-const DASHBOARD = '/dashboard';
-const DEMO = '/demo';
+const PROFILE = '/profile'
+const DASHBOARD = '/dashboard'
+const DEMO = '/demo'
+const SPONTANEOUS_SPEECH = '/spontaneous-speech/beta'
 
 export default Object.freeze({
   ROOT: '',
@@ -37,6 +38,9 @@ export default Object.freeze({
   PARTNER: '/partner',
   GUIDELINES: '/guidelines',
   SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
+
+  SPONTANEOUS_SPEECH,
+  SPONTANEOUS_SPEECH_REDIRECT: '/spontaneous-speech-redirect',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',
