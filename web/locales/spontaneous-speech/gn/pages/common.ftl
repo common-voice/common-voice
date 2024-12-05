@@ -3,8 +3,14 @@
 # Toast message that is displayed when an error occurs
 error = Javy
 action-click = Eikutu
+action-tap = Kanílla
+# Label for language switcher
+interface-language = Jehechaha ñe’ẽ:
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+contribution-picker-label = Oipytyvõva { $language } mba’ekuaarã atýpe
 # Label for button on contribution switcher
 change = Moambue
+coming-soon = Nda’areiete oĩvéta ñe’ẽnguéra
 # Toast message that is displayed when an item is skipped
 skipped = Ñomimby
 audioplayer-header = Ehendu
