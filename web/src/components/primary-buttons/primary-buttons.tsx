@@ -48,9 +48,9 @@ export const RecordButton = ({
       {...props}
     >
       {status === 'recording' ? (
-        <img src="img/pause-icon.svg" alt="pause icon" />
+        <img src="/voicewall/img/pause-icon.svg" alt="pause icon" />
       ) : (
-        <img src="img/mic-icon.svg" alt="play icon" />
+        <img src="/voicewall/img/mic-icon.svg" alt="play icon" />
       )}
     </button>
   );
@@ -79,10 +79,10 @@ export const PlayButton = ({
       {...props}
     >
       {isPlaying ? (
-        <img src="img/pause-icon.svg" alt="pause icon" />
+        <img src="/voicewall/img/pause-icon.svg" alt="pause icon" />
       ) : (
         <img
-        src="img/play-icon.svg"
+        src="/voicewall/img/play-icon.svg"
         alt="play-icon"
   
       />

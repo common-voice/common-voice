@@ -9,7 +9,7 @@ export default function Header() {
       <div className={classes.header}>
         <div className={classes.navList}>
           <img
-            src="img/falak-logo-light.svg"
+            src="/voicewall/img/falak-logo-light.svg"
             alt="falak-logo"
             className={classes.logo}
           />
@@ -150,7 +150,7 @@ export default function Header() {
           </ul>
           <button className={`${classes.loginButton} group btn`}>
             <img
-              src="img/login-icon.svg"
+              src="/voicewall/img/login-icon.svg"
               alt="login-icon"
               className="inline ml-2 transform transition-transform duration-300 group-hover:-translate-x-1"
             />

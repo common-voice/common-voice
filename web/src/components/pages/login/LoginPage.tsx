@@ -6,7 +6,7 @@ export default function LoginPage() {
 {/* Login Form */}
 <div className='flex flex-col items-center p-4 flex-1 min-w-[480px]'>
     <div className="bg-white p-8 rounded-lg max-w-md w-full space-y-4">
-    <img src="img/falak-org-logo.svg" alt="falak-org-logo"  height={95} width={260} className='mb-[6rem]' />
+    <img src="/voicewall/img/falak-org-logo.svg" alt="falak-org-logo"  height={95} width={260} className='mb-[6rem]' />
         <h2 className="text-2xl  text-center text-[#0f2837] mb-4">
           مرحباً بك,<span className="text-[#00758A]"> في فلك</span>
         </h2>
@@ -64,7 +64,7 @@ export default function LoginPage() {
 
           <div className="flex items-center justify-between mb-4">
             <label className="flex items-center">
-                {/* <img src="img/remember-me-icon.svg" alt="" /> */}
+                {/* <img src="/voicewall/img/remember-me-icon.svg" alt="" /> */}
             <input type="checkbox" className="checkbox mx-2 checkbox-accent rounded-full" />
             <span className="ml-2 text-sm text-gray-600">
                 الموافقة على الشروط والأحكام
@@ -87,7 +87,7 @@ export default function LoginPage() {
 </div>
 {/* Login Image Section */}
 <div className='w-full max-w-[712px] min-w-[480px] flex-1 hidden md:block'>
-<img src="img/bg-login.png" alt="bg-login" className='w-full h-full' />
+<img src="/voicewall/img/bg-login.png" alt="bg-login" className='w-full h-full' />
 </div>
     </div>
   )
