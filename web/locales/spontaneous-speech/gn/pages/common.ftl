@@ -44,6 +44,7 @@ hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Mixteco Tlaxiaco pegua
+mel = Melanau mbytépe
 ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan Oriental
