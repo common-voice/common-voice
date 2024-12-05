@@ -21,11 +21,11 @@ about-voice-validation-subtitle = thumiśo sise ike ućhariṅe clips iṅe tasd
 about-dataset-release-title = detaset diyusuman
 about-dataset-release-subtitle = mii dataset har uskosar diyuśa baan
 about-subscribe-text = common voice cum dugharuśume huruśumana?
-about-speak = sen
+about-speak = senin
 about-speak-text = emasaśuwe emasumiṅ baring cum nuqatan ućhariṅ record ećaan
 about-listen-queue = dimeylase queue
 about-listen-queue-text = ućhariṅ e clips iṅ gati etum queue ar nuki ultumal oorćar tayaar ećaan
-about-listen = dukoyal
+about-listen = damayalin
 about-listen-text = jumla sahi ġatanaiya ite tasdiiq user e emasum clip ar nuparn ećai
 about-is-it-valid = gute clip sahi bilaa?
 about-is-it-valid-text = ućhare clip 'valid' mark mey bila beśal user e awa vote ićimar
@@ -68,12 +68,12 @@ about-playbook-how-add-language-translating-content-2 = mii mozila tools pontoon
 about-playbook-how-add-language-collecting-sentences-heading = jumlaṅ gati eṭas
 about-playbook-how-add-language-collecting-sentences-content-1 = jumlaṅ gati eṭase gane mii maykinase video ar barenin
 about-playbook-how-add-language-collecting-sentences-content-2 = khole maa kaman jumlaṅ kaa etas maa bay baan. ḍaa butan jumlaṅ kaa etase gane khole niin Github masate oosin ke jumlan akʰolum maniṣ  ,daa maymo jumlaṅ ke girminas maa bay baan
-about-playbook-how-add-language-collecting-sentences-content-3 = daa maziiḍ jumlaṅ gati etase gane khole barenin
+about-playbook-how-add-language-collecting-sentences-content-3 = daa maziiḍ jumlaṅ gati etase gane kʰole barenin
 
 ## How does localization work
 
 about-playbook-how-localize = site localization e belate duro eći bi?
-about-playbook-how-localize-content-1 = common voice e tarjumaṅ khole mey bila
+about-playbook-how-localize-content-1 = common voice e tarjumaṅ kʰole mey bila
 about-playbook-how-localize-content-2 = khole account desmanin. agar maa han api ke. iciyate maymo baaṣ damśi eitin ite cum project damśi etin. khole ṭarjuma ećar files meymi.  hanate click eṭin. neṭanin khole angreziulo lafzing maartirci daa tarjuma ećar diś bila.
 about-playbook-how-localize-content-3 = angrezi cum tarjuma etin, leikin maa yeeśuman thumin baaṣinulo. kʰole click ne  amit maa baaṣ bila ke ite kaa etin. yaarumuś doẏpa yuukiulo tarjuma etas ite list meymi amitar sey baan  tarjuman e  site ate han guncan iciyate ġeyśican.
 about-playbook-how-localize-content-4 = site śuru mayaar tayaar bila beśal 75% duro mukamal manimi ke
