@@ -1,10 +1,12 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { Button } from '../../../ui/ui'
+import { LinkButton } from '../../../ui/ui'
 import { ArrowRight } from '../../../ui/icons'
 
 import Table from './assets/table.png'
+
+import URLs from '../../../../urls'
 
 import './developers-section.css'
 
@@ -20,9 +22,11 @@ export const DevelopersSection = () => {
             <Localized id="developers-section-subtitle">
               <p />
             </Localized>
-            <Localized id="explore-datasets" elems={{ icon: <ArrowRight /> }}>
-              <Button rounded />
-            </Localized>
+            <LinkButton rounded to={URLs.DATASETS}>
+              <Localized id="explore-datasets" elems={{ icon: <ArrowRight /> }}>
+                <span />
+              </Localized>
+            </LinkButton>
           </div>
           <div className="image-container">
             <img src={Table} alt="" width={570} />
