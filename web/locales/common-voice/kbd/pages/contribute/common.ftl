@@ -6,39 +6,39 @@ skip = БлэкӀ
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
     { $count ->
-        [one] пычы
-       *[other] пычыу
+        [one] макъ тетха
+       *[other] макъ тетха
     }
 goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
 goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
-        [one] Ухьэзыр иджыри птыну?
-       *[other] Ухьэзыр иджыри птыну?
+        [one] иджыри пщӏыну ухьэзыр?
+       *[other] иджыри пщӏыну ухьэзыр?
     }
 speak-empty-state = Мы бзэмкӏэ псалъэуха тегъэтхын къэнэжакъым...
-no-sentences-for-variants = Уи псэлъэкӏэмкӏэ мыпхуэдэ псалъэуха щапхъэ къэнэжакъым! Пфӏэигъуэмэ, нэгъуэщӏ псалъэухахэр плъагъуным папщӏэ уи настройкэхэр зэблэхъу.
+no-sentences-for-variants = Уи бзэ вариатымкӏэ псалъэуха къэнэжакъым! Пфӏэигъуэмэ, нэгъуэщӏ псалъэухахэр плъагъуным папщӏэ уи теухуапӏэр зэхъуэкӏ.
 speak-empty-state-cta = Псалъэухахэм къыхэлъхэ
 speak-loading-error =
-    Уедэӏуэн щхьэкӏэ  макъ тетхар ауэ къэдгъуэтыфакъым.
+    Уедэӏуэн щхьэкӏэ макъ тетхар ауэ къэдгъуэтыфакъым.
     Кхъыӏэ, итӏанэ аргуэру еплъыж.
-record-button-label = Уи макъ егъэтх
+record-button-label = Уи макъ тегъэтх
 share-title-new = Макъ трезгъэтхэфын иджыри <bold>къытхуэгъуэт</bold>
 keep-track-profile = Профил зэгъэпэщи уи хэхъуэныгъэм кӏэлъыплъ
-login-to-get-started = Ухуежьэным папщӏэ хыхьи регистрацэ щӏы
+login-to-get-started = Ухуежьэным папщӏэ хыхьи зэгъэтх
 target-segment-first-card = Япэрей ди ӏуэху ӏыхьэм хэлъхьэныгъэ хубощӏыр
 target-segment-generic-card = Ди ӏуэху ӏыхьэм хэлъхьэныгъэ хубощӏыр
 target-segment-first-banner = Common Voice-ым и япэрей ӏуэху ӏыхьэ { $locale } -р зэгъэпэщынымкӏэ къыддэӏэпыкъу
 target-segment-add-voice = Уи макъыр хэгъэхьэ
-target-segment-learn-more = Нэхъ ӏупщӏу
-change-preferences = Настройкэхэр зэхъуэкӏ
-login-signup = Ихьэн / Зэгъэпэщын
+target-segment-learn-more = Нэхъыбэ зэгъэщӏэн
+change-preferences = Теухуапӏэр зэхъуэкӏ
+login-signup = Ихьэн / Зыхэтхэн
 vote-yes = Нтӏэ
 vote-no = Хьэуэ
 datasets = Датэсет
 languages = Бзэхэр
-about = Дэ теухуауэ
-partner = { "" }
+about = Теухуауэ
+partner = Лэжьэгъу
 submit-form-action = Егъэхь
 
 ## Reporting
@@ -46,7 +46,7 @@ submit-form-action = Егъэхь
 report = Рапорт
 report-title = Рапорт егъэхь
 report-ask = Сыт мы псалъэухамкӏэ гугъу уезыгъэхьыр?
-report-offensive-language = Хъуэн псалэ
+report-offensive-language = Гуемыӏу псалъэ
 report-offensive-language-detail = Псалъэухам цӏыху зэхэгъэж е гуемыӏу псалъэ хэтщ.
 report-grammar-or-spelling = Грамматикэ / орфографие щыуагъэ
 report-grammar-or-spelling-detail = Псалъэухам грамматикэ е орфографие щыуагъэ хэтщ.
@@ -54,7 +54,7 @@ report-different-language = Нэгъуэщӏыбзэ
 report-different-language-detail = Сызэрыщыпсалъэ бзэкӀэ фӀэмыкӀыу тхащ.
 report-difficult-pronounce = Жыӏэгъуейщ.
 report-difficult-pronounce-detail = Къеджэн е къэпсэлъэн гугъу хъу псалъэ е псалъэуха къыхэтщ.
-report-offensive-speech = Хъуэн псалъэ
+report-offensive-speech = Гуемыӏу псалъэ
 report-offensive-speech-detail = Макъ тетхам цӏыху зэхэгъэж е гуемыӏу псэлъэ хэтщ.
 report-other-comment =
     .placeholder = Комментарий
@@ -78,7 +78,7 @@ shortcut-rerecord-toggle-label = Щӏэрыщӏэу тетхэж
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Макъ зэрытхыкӀыгъэм техыж
 shortcut-submit = Гъэзэж
-shortcut-submit-label = Макъ зэрытхыныгъэр егъэхь
+shortcut-submit-label = Макъ тептхахэр егъэхь
 request-language-text = Уи бзэр Common Voice-м хэту плъагъукъэ?
 request-language-button = Бзэщlэ дэщlыгъуа хъун щхьэкlэ лъэlу егъэхь
 

@@ -1,11 +1,12 @@
 import { ChallengeTeamToken, ChallengeToken } from 'common'
 import { AES, enc } from 'crypto-js'
-import { NextFunction, Request, Response } from 'express'
+import { CookieOptions, NextFunction, Request, Response } from 'express'
 import * as session from 'express-session'
 import { Issuer } from 'openid-client'
 import { getConfig } from './config-helper'
 import {
   CALLBACK_URL,
+  COMMON_VOICE_DOMAIN_MAP,
   callbackURL,
 } from './infrastructure/authentication/authentication'
 import { earnBonus } from './lib/model/achievements'
@@ -29,6 +30,8 @@ const {
   FXA: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
 } = getConfig()
 
+const COOKIE_MAX_AGE_30_DAYS = 30 * 24 * 60 * 60 * 1000
+
 export const setupAuthRouter = async () => {
   const fxaIssuer = await Issuer.discover(DOMAIN)
   const client = new fxaIssuer.Client({
@@ -45,7 +48,7 @@ export const setupAuthRouter = async () => {
   router.use(
     session({
       cookie: {
-        maxAge: 30 * 24 * 60 * 60 * 1000,
+        maxAge: COOKIE_MAX_AGE_30_DAYS,
         secure: PROD,
       },
       secret: SECRET,
@@ -79,9 +82,9 @@ export const setupAuthRouter = async () => {
         locale,
         ...(user && query.change_email !== undefined
           ? {
-            old_user: user,
-            old_email: user.email,
-          }
+              old_user: user,
+              old_email: user.email,
+            }
           : {}),
         redirect: query.redirect || null,
         enrollment: {
@@ -163,11 +166,11 @@ export const setupAuthRouter = async () => {
         // [TODO] there should be an elegant way to get the client_id here
         const client_id = await UserClient.findClientId(user.email)
 
-        response.cookie('mcv_session', jwt.sign({ client_id }, JWT_KEY), {
-          httpOnly: true,
-          secure: PROD,
-          maxAge: 30 * 24 * 60 * 60 * 1000,
-        })
+        response.cookie(
+          'mcv_session',
+          jwt.sign(createJwtPayload(client_id, false), JWT_KEY),
+          createSessionCookieOptions()
+        )
 
         await earnBonus('sign_up_first_three_days', [
           enrollment.challenge,
@@ -183,7 +186,7 @@ export const setupAuthRouter = async () => {
       // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
       response.redirect(
         redirect ||
-        `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
+          `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
       )
     } else {
       response.redirect(redirect || basePath + 'login-success')
@@ -213,12 +216,8 @@ export async function authMiddleware(
       request.session.user.client_id = accountClientId
       response.cookie(
         'mcv_session',
-        jwt.sign({ client_id: accountClientId }, JWT_KEY),
-        {
-          httpOnly: true,
-          secure: PROD,
-          maxAge: 30 * 24 * 60 * 60 * 1000,
-        }
+        jwt.sign(createJwtPayload(accountClientId, false), JWT_KEY),
+        createSessionCookieOptions()
       )
       next()
       return
@@ -243,14 +242,34 @@ export async function authMiddleware(
       }
     }
 
-    response.cookie('mcv_session', jwt.sign({ client_id }, JWT_KEY), {
-      httpOnly: true,
-      secure: PROD,
-      maxAge: 30 * 24 * 60 * 60 * 1000,
-    })
+    response.cookie(
+      'mcv_session',
+      jwt.sign(createJwtPayload(client_id, true), JWT_KEY),
+      createSessionCookieOptions()
+    )
 
     request.session.user = { ...request.session.user, client_id }
   }
 
   next()
+}
+
+function createJwtPayload(
+  clientId: string,
+  anonymous: boolean
+): { sub: string; iss: string; aud: string; anonymous: boolean } {
+  return {
+    iss: COMMON_VOICE_DOMAIN_MAP[ENVIRONMENT],
+    aud: COMMON_VOICE_DOMAIN_MAP[ENVIRONMENT],
+    sub: clientId,
+    anonymous,
+  }
+}
+
+function createSessionCookieOptions(): CookieOptions {
+  return {
+    httpOnly: true,
+    secure: PROD,
+    maxAge: COOKIE_MAX_AGE_30_DAYS,
+  }
 }

@@ -60,3 +60,17 @@ already-have-an-account = Account-angqertuten-qaa? <login>Log-in-arluten</login>
 create-profile-button = Profile-aliluten
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark-aq
+# menu item
+read-sentences = Qanerluki Igausngalriit
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Qanerluki Igausngalriit, Kiuluki Apyutet
+read-sentences-menu-item-tooltip = Aperluki igausngalriit qaneryaravni
+answer-questions-menu-item-tooltip = Kiuluki apyutet qaneryaravni
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Qanerluki (Menu)
+read-sentences-menu-item-aria-label = Aperluki allat igausngalriit
+answer-questions-menu-item-aria-label = Submit-arluten nutaramek apyutmek, allat kiuyugngalrianek

@@ -1,4 +1,4 @@
-action-click = کلک
+action-click = کلک کو
 action-tap = شینے
 contribute = حصہ دریک
 review = وا لوڑے

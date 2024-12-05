@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Cukassiyaagtuten. Uitaqaqaa, una-qaa igausnga
 sc-redirect-page-title = Cimirpagarkangqertukut
 sc-redirect-page-subtitle-1 = Sentence Collector-aaq Common Voice platform-amun nugtartuq. <writeURL>Igaucugngauten</writeURL> wall'u <reviewURL>Review-aryugngauten</reviewURL> igausngalrianek Common Voice-ami.
 sc-redirect-page-subtitle-2 = Apcugngaavkut <matrixLink>Matrix-akun</matrixLink>, <discourseLink>Discourse-akun</discourseLink> wall'u <emailLink>email-akun</emailLink>.
+# menu item
+review-sentences = Review-arluki Igausngalriit

@@ -43,13 +43,13 @@ submit-form-action = jama etin
 
 report = xabar orin yaa report etin
 report-title = report jama etin
-report-ask = guke jumlane kaa beshko ćaqoṭimiṅ mayar ẓuc̣ican
-report-offensive-language = mes meeyalsyo baaṣ
-report-offensive-language-detail = guke jumaln mes meeyalas baaṣulo bican
-report-grammar-or-spelling = grammar yaa spelline ṭhis pisin
-report-grammar-or-spelling-detail = jumlanulo grammar yaa spelline ṭhis pisin bican.
+report-ask = guke jumlaṅe kaa beśko ćaqoṭimiṅ mayar ẓuc̣ican
+report-offensive-language = ġuniqiṣ baaṣ
+report-offensive-language-detail = guke jumaln meeyalas baaṣulo bican
+report-grammar-or-spelling = grammar yaa spelline ṭʰis pisin
+report-grammar-or-spelling-detail = jumlanulo grammar yaa spelline ṭʰis pisin bican.
 report-different-language = thum baaṣan
-report-different-language-detail = jaa ġaraas ite cum khot thum baaṣanulo girminaan
+report-different-language-detail = jaa ġaraas ite cum kʰot tʰum baaṣanulo girminaan
 report-difficult-pronounce = seyar ḍoom bila
 report-difficult-pronounce-detail = khutulo lafzin ke bariṅ ġatayar ḍom bican
 report-offensive-speech = mes ćakali meetas bariṅ
@@ -75,10 +75,10 @@ shortcut-rerecord-toggle = hik cum chindi
 shortcut-rerecord-toggle-label = dubara record etum clip
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = manum ite record eeri
-shortcut-submit = phar mane
+shortcut-submit = pʰar mane
 shortcut-submit-label = clip jama eti
-request-language-text = common voice ulo maymo baaṣ  darum apiya?
-request-language-button = baaṣe buyat etin
+request-language-text = maa baaṣ common voice ulo darum apiya?
+request-language-button = baaṣ kaa etase buyat etin
 
 ## Listen Shortcuts
 
@@ -116,7 +116,7 @@ contribution-misreadings-example-4-title = awa Triassic-e juda uyonko dinosaurs
 contribution-misreadings-example-4-explanation = awajiye text cum but record manila
 contribution-misreadings-example-5-title = mi coffee miyaar hole nića baan
 contribution-misreadings-example-6-title = mi coffee miyaar hole nića ba
-contribution-misreadings-example-6-explanation = nića baan manaas awaaj
+contribution-misreadings-example-6-explanation = nića baan manaas awaaji
 contribution-misreadings-example-7-title = mi coffee miyaar hole nića baan
 contribution-misreadings-example-7-explanation = original texulo ‘a’ api
 contribution-misreadings-example-8-title = ḍunḍu lam manimi
