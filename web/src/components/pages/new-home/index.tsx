@@ -5,6 +5,7 @@ import { ActionItemsSection } from './action-items-section'
 import { CommunitySection } from './community-section'
 import { FeaturedSection } from './featured-section'
 import { DevelopersSection } from './developers-section'
+import { GetInvolvedSection } from './get-involved'
 
 import Page from '../../ui/page'
 
@@ -16,6 +17,7 @@ const Home = () => {
       <CommunitySection />
       <FeaturedSection />
       <DevelopersSection />
+      <GetInvolvedSection />
     </Page>
   )
 }

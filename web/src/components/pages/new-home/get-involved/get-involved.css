@@ -1,0 +1,94 @@
+.get-involved-section {
+    text-align: center;
+    padding: 2rem;
+    background: url('../shared-assets/background.jpg');
+    background-position-y: 100%;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size: 40px;
+        margin-block-end: 1.5rem;
+        text-align: left;
+    }
+
+    .cards-container {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        @media (--md-down) {
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            text-align: left;
+            max-width: 370px;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            @media (--sm-up) {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+
+            .card-image {
+                background-color: #ddd;
+                height: 150px;
+                width: 100%;
+                border-radius: 4px;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                flex-grow: 1;
+
+                li {
+                    margin-bottom: 0.5rem;
+
+                    a {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: #5e5e5e;
+                        text-decoration: none;
+                        font-weight: 500;
+                        padding: 0.5rem 0;
+                        border-bottom: 1px solid #eee;
+
+                        span {
+                            font-size: 1.25rem;
+                            color: #7a57d1;
+                        }
+
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .get-involved {
+        .cards-container {
+            grid-template-columns: 1fr;
+            gap: 1rem; /* Keep smaller gap on mobile screens */
+        }
+    }
+}
