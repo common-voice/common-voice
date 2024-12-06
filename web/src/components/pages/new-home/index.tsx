@@ -9,7 +9,11 @@ import { GetInvolvedSection } from './get-involved'
 
 import Page from '../../ui/page'
 
+import { useScrollToSection } from '../../../hooks/use-scroll-to-section'
+
 const Home = () => {
+  useScrollToSection()
+
   return (
     <Page className="home">
       <HeroSection />

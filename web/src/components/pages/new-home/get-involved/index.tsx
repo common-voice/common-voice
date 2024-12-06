@@ -16,7 +16,7 @@ export const GetInvolvedSection = () => {
   const [_, toLocaleRoute] = useLocale()
 
   return (
-    <section className="get-involved-section">
+    <section className="get-involved-section" id="get-involved">
       <Localized id="get-involved-section-title">
         <h2 />
       </Localized>
