@@ -1,3 +1,4 @@
+add-information-button = Мәгълүмат өстәү
 thank-you-for-your-information = Мәгълүматыгыз өчен рәхмәт
 
 ## Gender dropdown
