@@ -85,11 +85,15 @@
                         margin-block-start: 2rem;
                     }
 
-                    svg {
-                        margin-inline-start: 12px;
+                    span {
+                        display: inline-flex;
 
-                        path {
-                            fill: var(--white);
+                        svg {
+                            margin-inline-start: 12px;
+
+                            path {
+                                fill: var(--white);
+                            }
                         }
                     }
 
@@ -101,10 +105,6 @@
             }
 
             .image-container {
-                @media (--xs-down) {
-                    /* align-self: flex-end; */
-                }
-
                 img {
                     @media (--lg-down) {
                         width: 500px;

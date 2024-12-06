@@ -2,7 +2,7 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { Button } from '../../../ui/ui'
+import { LinkButton } from '../../../ui/ui'
 import { ArrowRight, MicIcon, Play } from '../../../ui/icons'
 
 import { LocaleLink } from '../../../locale-helpers'
@@ -31,7 +31,10 @@ export const HeroSection = () => {
               <p />
             </Localized>
             <Localized id="get-started" elems={{ icon: <ArrowRight /> }}>
-              <Button rounded />
+              <LinkButton
+                rounded
+                to={`${URLS.NEW_ROOT}?page=home#get-involved`}
+              />
             </Localized>
           </div>
         </div>
