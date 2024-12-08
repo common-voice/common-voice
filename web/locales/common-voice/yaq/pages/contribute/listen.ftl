@@ -10,3 +10,17 @@ listen-loading-error = Kat’te a am tobo’otek jume nok jiawai jiyokaim, chia 
 listen-abort-title = ¿Kantam mabetne jume nok jiawai jiyokaim?
 listen-abort-cancel = Ketun a mabettne.
 listen-abort-confirm = Kantam mabetne.
+# Menu item
+validate-readings = Nook jityokaim mabeta
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Nook jityokaim mabeta,  a bitne jume nana’ana mamatoim
+validate-readings-menu-item-tooltip = Nook jityokaim mabeta em nook jiwai a nooka po lutula.
+review-transcriptions-menu-item-tooltip = Bitcha jume mamatoim em a nookapo.
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Yeu pu’aria nook jiawaim
+validate-readings-menu-item-aria-label = Nook jityokaim mabeta jume itom komunilat ta bit’tualaum
+review-transcriptions-menu-item-aria-label = Majtekilbicha Bitcha jume nook jiawai mamatoim jaibu jityokaim
