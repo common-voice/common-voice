@@ -60,3 +60,17 @@ already-have-an-account = ¿Jaibu empo im boo’o tekil ta ya’ala? Amma kibake
 create-profile-button = Bo'o tekil ta ya
 # IMAGE TAGS
 img-alt-success-checkmark = Tu’isi yokai bit’ri
+# menu item
+read-sentences = Ji’ojnoka jume nook jawaim.
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Ji’ojnoka jume nook jiawaim, am yopna nattemaiwaim.
+read-sentences-menu-item-tooltip = Nook jityokaim yea en nookapo lutula.
+answer-questions-menu-item-tooltip = Nook jityokaim yea natteamaiwaim yeupnakai a nookaapo.
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Imi’i yeu pu’aria nookta.
+read-sentences-menu-item-aria-label = Ji’ojnoka tabwi nookim po lutula.
+answer-questions-menu-item-aria-label = Bit’tua nattemaiwaimta junabe a Ji’ojnokne into a yeupnane jume itom komunilat.
