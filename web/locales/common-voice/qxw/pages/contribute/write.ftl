@@ -107,9 +107,57 @@ rate-limit-toast-message-minutes =
         [one] Llumpay wayrallam. Muśhuqpiqta 1 minutućhu lulaykuy
        *[other] Llumpay wayrallam. Muhuqpiqta lulaykuy { $retryLimit } minutoćhu
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Llumpay wayrallam. Muśhuqpiqta 1 segundoćhu lulaykuy
+       *[other] Llumpay wayrallam . Muśhuqpiqta lulaykuy { $retryLimit } segundoćhu
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Llumpaytam apaachinki kay lapiman. 1 minuto alkaykuy huk limayta apachinaykipaq. ¡Yusulpa alkaśhqaykipiqta!
+       *[other] Llumpaytam apaachinki kay lapiman. Alkaykuy { $retryLimit } minuto huk limayta apachinaykipaq. ¡ Yusulpa alkaśhqaykipiqta!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Llumpaytam apaachinki kay lapiman. 1 segundo alkaykuy huk limayta apachinaykipaq. ¡Yusulpa alkaśhqaykipiqta!
+       *[other] Llumpaytam apaachinki kay lapiman. Alkaykuy { $retryLimit } segundo huk limayta apachinaykipaq. ¡ Yusulpa alkaśhqaykipiqta!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 pallaśhqa limaypiqta
+       *[other] { $uploadedSentences } de { $totalSentences } pallaśhqa limaykuna
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 pallaśhqa limaypiqta. ñitiykamuy <downloadLink>kaypi</downloadLink> Mana awniśhqa limaykunata ćhaskiykunaykipaq.
+       *[other] { $uploadedSentences } de { $totalSentences } recopiladas. Haz clic <downloadLink>aquí</downloadLink> Mana awniśhqa limaykunata ćhaskiykunaykipaq.
+    }
+small-batch-sentences-rule-1 = Kamachiykunata lulay “¿Ima limaykunatam yapaykuuman?”
+small-batch-sentences-rule-2 = Huk wachiman huk limayta yapay
+small-batch-sentences-rule-3 = Limaykunata huk wachimankam lakiy, hukhuklla waćhi paćhkaykuykama.
+small-batch-sentences-rule-4 = 1000 limaykuykama yapay
+small-batch-sentences-rule-5 = Hukllay śhuntuyllaćhuumi llapa limaykuna kamaykunan
+small-batch-sentences-rule-6 = llapa limaykuna huk ćhayayniyuqlla liqsiyniyuqlla kapaakunan
+# menu item
+add-sentences = limaykunata yapay
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Limaykunata yapaykuy likapaykuy, tapuykunata yapaykuy, uyalinakunata qillqaykuy
+add-sentences-menu-item-tooltip = Shimiykićhu limaykunata yapay
+review-sentences-menu-item-tooltip = Shimiykićhu limaykunata likapaykuy
+add-questions-menu-item-tooltip = Shimiykićhu limaykunata yapaykuy
+transcribe-audio-menu-item-tooltip = Shimiykićhu uyalinapaq kaqkunata qillqaykuy
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqaykunapaq kaqkuna
+add-sentences-menu-item-aria-label = Llapa huntunaku limaykunata ñawinchapaakunanpaq yapay
+review-sentences-menu-item-aria-label = śhuntunakuq limaykunata mañakuśhqanta likapaykuy
+add-questions-menu-item-aria-label = Muhuq tapuykunata apachiy huntunaku ñawinchananpaq kutichinanpaq
+transcribe-audio-menu-item-aria-label = Uyalinapaq kaqkunata qillqay
