@@ -62,12 +62,51 @@ nature_environment = Pachamama muyuliqninwan
 news_current_affairs = Willakuqkuna kanan kaqkuna
 # Sentence Domain dropdown option
 technology_robotics = Tecnología nishqa robótica nishqa
+sentence-variant-select-label = Limaykaqpa huknilaq limaynin
+sentence-variant-select-placeholder = Seleccione una variante (munallal)
+sentence-variant-select-multiple-variants = Llapanpa limaynin / achka huknilaqkama
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Llapan limaśhqan limaykunata ćhulamuy <icon></icon>
+sc-bulk-upload-instruction = Kayman maytuykita chutamuy uutak <uploadButton>ñitiy qishpichinaykipaq</uploadButton>
+sc-bulk-upload-instruction-drop = Kayćhu kaćhaymakuy maytuta qishpichinaykipaqKayćhu kaćhaymakuy maytuta qishpichinaykipaq
+bulk-upload-additional-information = Si hay información adicional que quieres proporcionar sobre este archivo, ponte en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Si hay información adicional que quieres proporcionar sobre este archivo que no está incluida en la plantilla, ponte en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Inténtalo de nuevo arrastrando tu archivo aquí
+try-upload-again-md = Intenta subir de nuevo
+select-file = Maytuta nishqata aklay
+select-file-mobile = Maytuta apachinaykipaq aklay
+accepted-files = Imaymananila maytukuna: hapallan .tsv
+minimum-sentences = Kaychikam limaykuna maytućhu kanan: 1000
+maximum-file-size = Kay ćhayaymi maytukaq kanan: 25 MB
+what-needs-to-be-in-file = ¿Imam kikiykipa maytuućhu kanan?
+what-needs-to-be-in-file-explanation = Tapukamuy <templateFileLink>kamaqpa maytun</templateFileLink>. Mana derecho de autor nishayuqmi limayniykikuna kapaakunan (CC0 uutak apachimuqkaqpa kikin lulaśhqan) chuyalla, allin aypuśhqan yalpupaśhlla ñawinchana. Apachimuśhqa limaykunakaq 10piqta 15kama segundulla ñawinchanan kapaakunan mana yupayniyuqkama, mana śhutichaśhqa mana huknilaq qillqayniyuq.
+upload-progress-text = Qishpichkan ...
+sc-bulk-submit-confirm = Aw niyaami kay limaykuna kaśhqanta <wikipediaLink>llapanpaq limaśhqan</wikipediaLink> aw nishqam qishpichinapaq.
+bulk-upload-success-toast = Achka limaykuna qishpichishqa
+bulk-upload-failed-toast = Manam qishpiqlunchu, Yapaykuy.
+bulk-submission-success-header = ¡Yusulpayki achkata apachimuśhqaykipiqta!
+bulk-submission-success-subheader = ¡Common Voicetam yanapayanki muyun muyun kamachinakulkaaśhqanta lulapaakunanpaq!
+upload-more-btn-text = ¿Limaykunata ćhulana?
+file-invalid-type = Manantiyaśhqa maytu
+file-too-large = Llumpay hatunmi maytukaq
+file-too-small = Llumpay uchukmi maytukaq
+too-many-files = Llumpay achka maytukunam
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Yapay <icon></icon> achka llapanpaq limaśhqan limaykuna
+multiple-sentences-error = Manam uchuklla atichikuqćhu achka limaykunata apachiyta atipanchikchu.
+exceeds-small-batch-limit-error = Manam 1000 limaykunapiqta masta apachiyta atipanchikchu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Llumpay wayrallam. Muśhuqpiqta 1 minutućhu lulaykuy
+       *[other] Llumpay wayrallam. Muhuqpiqta lulaykuy { $retryLimit } minutoćhu
+    }
 
 ## MENU ITEM TOOLTIPS
 
