@@ -60,12 +60,52 @@ report-success = Willaykaqta ćhaskiqlunmi
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Ćhulay/Śhaakuy
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Muśhuqpiqta ćhulay
+shortcut-discard-ongoing-recording = Yalquy
+shortcut-discard-ongoing-recording-label = Hitay
+shortcut-submit = Kutiy
+shortcut-submit-label = Apachiy
+request-language-text = ¿Manalaqchum Common Voicećhu shimiykita talinki?
+request-language-button = Huk shimita mañakuy
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = Reproducir/Detener
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = a
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = m
 
 ## Validation criteria
 
+contribution-criteria-nav = Tantiyaykuna
+contribution-criteria-link = Yanapanakuq tantiyaykunapiqta yaćhaykuy
+contribution-criteria-page-title = Yanapakuq tantiyaykuna
+contribution-criteria-page-description = ¡Uyalil ashiyta yaćhapakunaykipaq haypiqta kikiykipaq grabacioniykita ćhulanaykipaq yaćhapakuy!
+contribution-for-example = Kaynu
+contribution-misreadings-title = Pantaśhqa ñawinchaśhqakuna
+contribution-misreadings-description = Uyalil, allinta likaykuy grabaśhqakaqwan qillqaśhqakaq tinkunanta; ama awniychu grabacionkaq qillqaykaqwan tinkuptin. <br/> Kaykunam ancha pantaśhqakuna:
+contribution-misreadings-description-extended-list-1 = Hukmi wanayan <strong>'El'</strong> o <strong>'La'</strong> grabación qallaykuptin.
+contribution-misreadings-description-extended-list-2 = Hukmi wanayan <strong>'s'</strong> limay kamakaptin.
+contribution-misreadings-description-extended-list-3 = Kuskachakuymi nil pantay mana kaykaptin, kaynu "pal" kaynu kananpiqta "para el", utak huknilaqpa.
+contribution-misreadings-description-extended-list-4 = Kamakaq limaykaqpa kamakayninta chinkapakuyllumpay wayralla grabaciónta kamakal.
+contribution-misreadings-description-extended-list-5 = Achka kuti ñawinchayta atipay.
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
