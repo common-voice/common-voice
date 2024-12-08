@@ -1,3 +1,5 @@
+action-click = Click
+action-tap = Tap
 contribute = Yanapanakuy
 review = Likapay
 skip = Pachkay
@@ -139,3 +141,10 @@ contribution-background-voices-description-extended = Grabacionkaq kamakaptin uu
 contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = ¿śhamunkiña? <strong>[llamado por otro]</strong>
 contribution-volume-title = Uyalinata wiñalichiq
+contribution-volume-description = Ñawinchaqkunapaq limahqan huknilaqkama kallpayuqmi. Ama awniychu llumpay kallpayuq kal hukkaqkunata pampaptin uutak (aśhtawan) mana uyalina wañulpuyaptin mana qillqayta tantiyapaykul.
+contribution-reader-effects-title = Ñawinchaqkaqpa lulayninkuna
+contribution-reader-effects-description = Llapa grabacionkunam rasunpa nunakuna limaśqanpiqta. Apalkaćhaq grabacionkunatapis awninmi, yaćhayllapa uutak chuyallapa "llakiypaq" kaptinpis. Ama awniychu takishqa  sintética uutak robotpa paćhyachishqankunata.
+contribution-just-unsure-title = ¿Mana rasunllaćhu kal?
+contribution-just-unsure-description = Kay kamachikuykuna kamachishqanta imatapis mana talil, aklay allinta tantiyapakuśhqaytanuulla. Mana aklayta atipal, atiynin grabacionkamam paćhakay.
+see-more = Achkata likay
+see-less = Aśhllayta likay
