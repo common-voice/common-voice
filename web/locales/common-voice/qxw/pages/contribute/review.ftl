@@ -44,3 +44,19 @@ sc-criteria-item-2 = Limaykaq allin aypuykuśhqa kananmi.
 sc-criteria-item-3 = Limaykaq limaykunalla kananmi.
 sc-criteria-item-4 = Limaykaq rasunpa haynu kaptin, kayćhu ñitiy &quot;Aprobar&quot; alliqman.
 sc-criteria-item-5-2 = Mana kamachiśhqanuuchu limaykaq kaptinqa, kayćhu ñitiy &quot;Rechazar&quot; ichuqman. Mana yaćhalqa, paćhakay haypiqta hukkaq kaqman liy.
+sc-criteria-item-6 = manaña limaykuna likanapaq kaptinqa, ¡limaykunata huntuyta yanapakuy!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = laćhkay <icon></icon> ¿allin limaśhqanu allinchu kay limaykaq?
+sc-review-rules-title = ¿Nishqan kamachishqanuuchum?
+sc-review-empty-state = Manam kay shimikaqćhu likaykunapaq limaykuna kanchu.
+report-sc-different-language = Huk shimi
+report-sc-different-language-detail = Likahqaapiqta huknilaq shimićhuumi qillqahqa kaykan.
+sentences-fetch-error = Limaykunata ashiyalmi pantaqlun.
+review-error = Huk pantaymi yuliqmun kay limaykunata likapayal.
+review-error-rate-limit-exceeded = Llumpay wayram liyanchik. Hamaykuy limaykunata likaykunaykipaq rasunpa allinlla kananpaq.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Hatun tiklaykunata lulayanchik
+sc-redirect-page-subtitle-1 = Sentence Collectormi Common Voicepa allinnin plataformanman liyan. Kanan atipanki  <writeURL>escribir</writeURL> huk limayta <reviewURL>revisar</reviewURL> Common Voiceman hukhuklla limaykunata apachiyta.
+sc-redirect-page-subtitle-2 = Kayćhu tapukuśhun <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
+# menu item
+review-sentences = Limaykunata likaykuy
