@@ -51,6 +51,12 @@ report-different-language-detail = Limaśhqaapiqta huknila shimićhu qillqaśhqa
 report-difficult-pronounce = Sasa shimi paćhyanam
 report-difficult-pronounce-detail = Sasa paćhyachina limayniyuqmi.
 report-offensive-speech = Millanaśh willakuyniyuqmi
+report-offensive-speech-detail = Usuchikuq shimiyuqmi kay ćhulaśhqa limaykaq.
+report-other-comment =
+    .placeholder = Limapaykuy
+success = Allinmi
+continue = Qatiykuy
+report-success = Willaykaqta ćhaskiqlunmi
 
 ## Speak & Listen Shortcuts
 
