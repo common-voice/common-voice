@@ -48,6 +48,9 @@ report-grammar-or-spelling = Pantay qillqaymi
 report-grammar-or-spelling-detail = Kay limaykaq pataśhqa qillqayniyuqmi.
 report-different-language = Huk shimi
 report-different-language-detail = Limaśhqaapiqta huknila shimićhu qillqaśhqam kaykan.
+report-difficult-pronounce = Sasa shimi paćhyanam
+report-difficult-pronounce-detail = Sasa paćhyachina limayniyuqmi.
+report-offensive-speech = Millanaśh willakuyniyuqmi
 
 ## Speak & Listen Shortcuts
 
