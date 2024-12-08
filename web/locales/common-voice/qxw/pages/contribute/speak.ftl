@@ -34,9 +34,43 @@ review-submit-msg = ¡Yusulpaa ćhulahqaykipiqta!<lineBreak></lineBreak>Kanan li
 review-recording = Likaykuy
 review-rerecord = Muśhuqpiqta uyalinapaq ćhulay
 review-cancel = Mana apachina
+review-keep-recordings = Uyalinapaq ćhulaykuy
+review-delete-recordings = Uyalinaapaq ćhulaśhqaata wañuchiy
+review-terms = lulapakul Common Voice, awninki <termsLink>kamachikuykunata</termsLink> haypiq <privacyLink>Amachakunapaq kamachikuyta</privacyLink>
+terms-agree = Aw awniymi
+terms-disagree = Mana awniichu
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Yusulpaa limay paćhayaniykita qukuhqaykipiq!
+first-cta-subtitle-text = ¿Imanilaq limayniyki kahqanpiqta willakuyta munanki?
+why-donate = ¿Imapiqmi tapukunki?
+why-donate-explanation-1 = Munallal willakunki; munallal yapaykunki. Llapa hutikunata liqsichil, manam śhutikunatachu kamalachinchik śhutiyki, correo electronicoyki manam kuskachahqachu wataykiwan uutak nuna kayniykiwan.
+why-donate-explanation-2 = Llapanchikpaq tecnología allinlla lulapakunanpaq, tecnología lulaqkuna yanapakulkaananapaq llapanilaq nunakunam kamalaqnan. kaynu, Mana huknilaq limay paćhyayniyuq nunata awniptinchik, manam llapa nunakunapaq allinllachu lulapakunqa. <learnMore>Maskaskata yaćhapakuy imapiq matadotokuna sumaq kapaakuhqanpiqta.</learnMore>
+add-information-button = Willakuyta yapaykuy
+continue-speaking-button = Manam pay, limaykuylaq.
+create-profile-text = ¿śhutiykita ćhulakuyta munanki? <createProfile>Nuna liqsichiyta lulay</createProfile>
+thanks-for-voice-toast = Limay paćhayachiyniykilayku yusulpaa.
+thanks-for-voice-toast-error = Limay paćhyayniykita apayaachilmi pantapaakuqlun.
+first-cta-gender-select-default-option = Hukta aklaykuy
+first-cta-gender-select-help-text =
+    .label = ¿imanilaqtam nuna kayniykita willakuyta munanki?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡limay paćhayayniykita quykuśhqaykipiqta yusulpaa!
+second-cta-subtitle-text = huk nunata liqsichiywan, lulapakuyninta liqsilunkimanmi haypiqta huk limaynin paćhyachiq quqkunatapis liqsinkimanmi.
+already-have-an-account = ¿kapuśhunki śhutiyki liqsichiq? <lulayta qallaykuy>lulayta qallaykuy</lulayta qallaykuy>
+create-profile-button = Nuna liqsichiqta lulay
+# IMAGE TAGS
+img-alt-success-checkmark = allin lulaśhqaykita kamalachiq
+# menu item
+read-sentences = limaykunata ñawinchay
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Limaykunata ñawinchay, tapuykunata kutichiy
+read-sentences-menu-item-tooltip = himiykićhu uyalinapaq kaqkunata ćhulay
+answer-questions-menu-item-tooltip = Tapuykunata kutichinapaq shimiykićhu uyalinapaq ćhulay
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Limanapaq kaqkuna
+read-sentences-menu-item-aria-label = Huknilaq shimikunaćhu limaykunata ñawinchay
+answer-questions-menu-item-aria-label = Huk tapuyta masikunaman apachiy kutichipaakunanpaq
