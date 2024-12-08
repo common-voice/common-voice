@@ -1,3 +1,6 @@
+speak = Parra
+speak-now = Parra ora
+speak-subtitle = Dùnani a to vuci
 record-cta = Accumincia a riggistrari
 record-platform-not-supported = Ni dispiaci, ma accamora a to chiattafurma nun è suppurtata.
 record-platform-not-supported-desktop = Nnî computer desktop poi cuntribbuiri scarricannu…
@@ -49,3 +52,9 @@ first-cta-gender-select-help-text =
     .label = Comu discrivissi u to gèniri?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Grazzi chi ni dunasti a to vuci!
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
