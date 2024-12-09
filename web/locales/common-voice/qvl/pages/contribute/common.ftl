@@ -38,9 +38,21 @@ vote-no = Mana
 datasets = Willaykuna shuntushqa
 languages = Shimikuna
 about = Kaypita
+partner = Masi
+submit-form-action = Apachiy
 
 ## Reporting
 
+report = Willakuy
+report-title = Willakuyta apachiy
+report-ask = Rimaychachaw, ¿imataq mana allichu kaykan?
+report-offensive-language = Ashllikuq shimi
+report-offensive-language-detail = Chay rimaychaqa ashllikuq shimiyuqmi.
+report-grammar-or-spelling = Pantashqa qillqayyuq
+report-grammar-or-spelling-detail = Chay rimaychaqa pantashqa qillqayyuqmi.
+report-different-language = Huk shimi
+report-different-language-detail = Manami rimashqaa shimichawchu qillqashqa kaykan.
+report-difficult-pronounce = Sasa pashtachiymi
 
 ## Speak & Listen Shortcuts
 
