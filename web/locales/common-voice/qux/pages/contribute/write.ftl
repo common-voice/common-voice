@@ -32,9 +32,49 @@ add-sentence-error = rimayta yapahqanćhu pantapakuq
 required-field = Kay haakuqta huntachiy.
 single-sentence-submission = Huk rimayllata apachiy
 small-batch-sentence-submission = Uchuk huntunakuyllaćhu rimayta apachiy
+bulk-sentence-submission = Achka rimayta apachiy
+single-sentence = Hukllay rimaylla
+small-batch-sentence = Uchuk huntuylla
+bulk-sentence = Hatun śhuntuy
+sentence-domain-combobox-label = Rimaypa śhutin
+sentence-domain-select-placeholder = Kimsa śhutikama akray (munallal)
+# Sentence Domain dropdown option
+agriculture_food = ćhakratalpuy mikuykuna
+# Sentence Domain dropdown option
+automotive_transport = Automotriz nishqa purinapaq
+# Sentence Domain dropdown option
+finance = Qillay
+# Sentence Domain dropdown option
+service_retail = Rurapakuy aśhllayllapa rantikuy
+# Sentence Domain dropdown option
+general = Llapan
+# Sentence Domain dropdown option
+healthcare = Allinkay
+# Sentence Domain dropdown option
+history_law_government = Historia nishqa, Kamachiq Umanchaq
+# Sentence Domain dropdown option
+language_fundamentals = Rimaypa sapin (p.ej. yupaykuna, qillqay, qillay)
+# Sentence Domain dropdown option
+media_entertainment = Willaqkuna hamachiqkuna
+# Sentence Domain dropdown option
+nature_environment = Pachamama muyuriqninwan
+# Sentence Domain dropdown option
+news_current_affairs = Willakuqkuna kanan kaqkuna
+# Sentence Domain dropdown option
+technology_robotics = Tecnología nishqa robótica nishqa
+sentence-variant-select-label = Rimaykaqpa hukniraq rimaynin
+sentence-variant-select-placeholder = Seleccione una variante (munalla)
+sentence-variant-select-multiple-variants = llapanpa rimaynin / achka hukniraqkama
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = llapan rimaśhqan rimaykunata ćhuramuy <icon></icon>
+sc-bulk-upload-instruction = Kayman maytuykita chutamuy uutak <uploadButton>ñitiy qishpichinaykipaq</uploadButton>
+sc-bulk-upload-instruction-drop = Kayćhu kaćhaymakuy maytuta qishpichinaykipaq
+bulk-upload-additional-information = Si hay información adicional que quieres proporcionar sobre este archivo, ponte en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Si hay información adicional que quieres proporcionar sobre este archivo que no está incluida en la plantilla, ponte en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Inténtalo de nuevo arrastrando tu archivo aquí
 
 ## SMALL BATCH SUBMISSION
 
