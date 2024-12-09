@@ -19,7 +19,7 @@ guidelines = নিৰ্দেশনা
 # For the button to report an item
 report-button = সদৰি কৰক
 # For the button to skip an item
-skip-button = বাদ দিয়ক
+skip-button = এৰক
 submit-button = দাখিল কৰক
 contribute = অৱদান দিয়ক
 
