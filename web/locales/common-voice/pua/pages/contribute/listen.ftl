@@ -10,3 +10,11 @@ listen-loading-error = Noksï úska kurhantikwaechani karhataani. Tatsikwa mént
 listen-abort-title = ¿K'amarani kurhantikwaechani k'uparhataani?
 listen-abort-cancel = Kúparhataani jarhani útasï
 listen-abort-confirm = K'amarani kúparhataani
+# Menu item
+validate-readings = Sési exeani patsakataechani
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

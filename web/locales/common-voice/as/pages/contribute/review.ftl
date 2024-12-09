@@ -12,7 +12,7 @@ sc-review-form-usage = বাক্যটো অনুমোদিত কৰি�
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = উৎস: { $sentenceSource }
 sc-review-form-button-reject = নাকচ কৰক
-sc-review-form-button-skip = বাদ দিয়ক
+sc-review-form-button-skip = এৰক
 sc-review-form-button-approve = অনুমোদন জনাওক
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
