@@ -101,9 +101,63 @@ too-many-files = Llumpay achka maytukunam
 small-batch-instruction = Yapay <icon></icon> achka llapanpaq rimaśhqan rimaykuna
 multiple-sentences-error = Manam uchuklla atichikuqćhu achka rimaykunata apachiyta atipanchikchu.
 exceeds-small-batch-limit-error = Manam 1000 rimaykunapiqta masta apachiyta atipanchikchu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Llumpay wayrallam. Muśhuqpiqta 1 minutućhu ruraykuy
+       *[other] Llumpay wayrallam. Muhuqpiqta ruraykuy { $retryLimit } minitićhu
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] llumpay wayrallam. Muśhuqpiqta huk segundoćhu ruraykuy
+       *[other] llumpay wayrallam . Muśhuqpiqta ruraykuy { $retryLimit } segundoćhu
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] llumpaytam apaachinki kay rapiman. Huk minuto alkaykuy huk rimayta apachinaykipaq. ¡Yusulpa alkaśhqaykipiqta!
+       *[other] llumpaytam apaachinki kay rapiman. Alkaykuy { $retryrimit } minuto huk rimayta apachinaykipaq. ¡ Yusulpa alkaśhqaykipiqta!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] llumpaytam apaachinki kay rapiman. 1 siq alkaykuy huk rimayta apachinaykipaq. ¡Yusulpa alkaśhqaykipiqta!
+       *[other] llumpaytam apaachinki kay rapiman. Alkaykuy { $retryLimit } siq huk rimayta apachinaykipaq. ¡ Yusulpa alkaśhqaykipiqta!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 pallaśhqa rimaypiqta
+       *[other] { $uploadedSentences } de { $totalSentences } pallaśhqa rimaykuna
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } huk pallaśhqa rimaypiqta. ñitiykamuy <downloadLink>aquí</downloadLink> Mana awniśhqa rimaykunata ćhaskiykunaykipaq.
+       *[other] { $uploadedSentences } de { $totalSentences } recopiradas. Haz cric <downloadLink>kaypi</downloadLink> Mana awniśhqa rimaykunata ćhaskiykunaykipaq.
+    }
+small-batch-sentences-rule-1 = Kamachiykunata ruray “¿Ima rimaykunatam yapaykuuman?”
+small-batch-sentences-rule-2 = Huk wachiman huk rimayta yapay
+small-batch-sentences-rule-3 = Rimaykunata huk wachimankam rakiy, hukhuklla waćhi paćhkaykuykama.
+small-batch-sentences-rule-4 = 1000 rimaykuykama yapay
+small-batch-sentences-rule-5 = Hukllay śhuntuyllaćhuumi llapa rimaykuna kamaykunan
+small-batch-sentences-rule-6 = Llapa rimaykuna huk ćhayayniyuqlla riqsiyniyuqlla kapaakunan
+# menu item
+add-sentences = Rimaykunata yapaykuy rikapaykuy, tapuykunata yapaykuy, uyarinakunata qillqaykuy
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Shimiykićhu rimaykunata yapay
+add-sentences-menu-item-tooltip = Shimiykićhu rimaykunata rikapaykuy
+review-sentences-menu-item-tooltip = Shimiykićhu rimaykunata rikapaykuy
+add-questions-menu-item-tooltip = Shimiykićhu rimaykunata yapaykuy
+transcribe-audio-menu-item-tooltip = Shimiykićhu uyarinapaq kaqkunata qillqaykuy
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqaykunapaq kaqkuna
+add-sentences-menu-item-aria-label = Llapa huntunaku rimaykunata ñawinchapaakunanpaq yapay
+review-sentences-menu-item-aria-label = Shuntunakuq rimaykunata mañakuśhqanta rikapaykuy
+add-questions-menu-item-aria-label = Muhuq tapuykunata apachiy huntunaku ñawinchananpaq kutichinanpaq
+transcribe-audio-menu-item-aria-label = Uyarinapaq kaqkunata qillqay
