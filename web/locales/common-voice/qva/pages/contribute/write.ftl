@@ -36,12 +36,71 @@ bulk-sentence-submission = Achka rimayta apachiy
 single-sentence = Hukllay rimaylla
 small-batch-sentence = Uchuk huntuylla
 bulk-sentence = Hatun śhuntuy
+sentence-domain-combobox-label = Rimaypa śhutin
+sentence-domain-select-placeholder = Kimsa śhutikama akray (munallal)
+# Sentence Domain dropdown option
+agriculture_food = ćhakratalpuy mikuykuna
+# Sentence Domain dropdown option
+automotive_transport = Automotive and Transport
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+service_retail = Service and Retail
+# Sentence Domain dropdown option
+general = General
+# Sentence Domain dropdown option
+healthcare = Healthcare
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Media and Entertainment
+# Sentence Domain dropdown option
+nature_environment = Nature and Environment
+# Sentence Domain dropdown option
+news_current_affairs = News and Current Affairs
+# Sentence Domain dropdown option
+technology_robotics = Technology and Robotics
+sentence-variant-select-label = Rimaykaqpa hukniraq rimaynin
+sentence-variant-select-placeholder = Seleccione una variante (munalla)
+sentence-variant-select-multiple-variants = Llapanpa rimaynin / achka hukniraqkama
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Llapan rimaśhqan rimaykunata ćhuramuy <icon></icon>
+sc-bulk-upload-instruction = Kayman maytuykita chutamuy uutak <uploadButton>ñitiy qishpichinaykipaq</uploadButton>
+sc-bulk-upload-instruction-drop = Kayćhu kaćhaymakuy maytuta qishpichinaykipaq
+bulk-upload-additional-information = Si hay información adicional que quieres proporcionar sobre este archivo, ponte en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Si hay información adicional que quieres proporcionar sobre este archivo que no está incluida en la plantilla, ponte en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Inténtalo de nuevo arrastrando tu archivo aquí
+try-upload-again-md = Intenta subir de nuevo
+select-file = Maytuta nishqata akray
+select-file-mobile = Maytuta apachinaykipaq akray
+accepted-files = Imaymananira maytukuna: hapallan .tsv
+minimum-sentences = Kaychikam rimaykuna maytućhu kanan: 1000
+maximum-file-size = Kay ćhayaymi maytukaq kanan: 25 MB
+what-needs-to-be-in-file = ¿Imam kikiykipa maytuućhu kanan?
+what-needs-to-be-in-file-explanation = Tapukamuy <templateFileLink>kamaqpa maytun</templateFileLink>. Mana derecho de autor nishayuqmi rimayniykikuna kapaakunan (CC0 uutak apachimuqkaqpa kikin ruraśhqan) chuyalla, allin aypuśhqan yalpupaśhlla ñawinchana. Apachimuśhqa rimaykunakaq 10piqta 15kama segundulla ñawinchanan kapaakunan mana yupayniyuqkama, mana śhutichaśhqa mana hukniraq qillqayniyuq.
+upload-progress-text = Qishpichkan ...
+sc-bulk-submit-confirm = Aw niyaami kay rimaykuna kaśhqanta <wikipediaLink>llapanpaq rimaśhqan</wikipediaLink> aw nishqam qishpichinapaq.
+bulk-upload-success-toast = Achka rimaykuna qishpichishqa
+bulk-upload-failed-toast = Manam qishpiqrunchu, Yapaykuy.
+bulk-submission-success-header = ¡Yusulpayki achkata apachimuśhqaykipiqta!
+bulk-submission-success-subheader = ¡Common Voicetam yanapayanki muyun muyun kamachinakulkaaśhqanta rurapaakunanpaq!
+upload-more-btn-text = ¿Rimaykunata ćhurana?
+file-invalid-type = Manantiyaśhqa maytu
+file-too-large = Llumpay hatunmi maytukaq
+file-too-small = Llumpay uchukmi maytukaq
+too-many-files = Llumpay achka maytukunam
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Yapay <icon></icon> achka llapanpaq rimaśhqan rimaykuna
+multiple-sentences-error = Manam uchuklla atichikuqćhu achka rimaykunata apachiyta atipanchikchu.
+exceeds-small-batch-limit-error = Manam 1000 rimaykunapiqta masta apachiyta atipanchikchu
 
 ## MENU ITEM TOOLTIPS
 
