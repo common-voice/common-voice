@@ -1,8 +1,18 @@
 services:
+  nginx:
+    build:
+      context: _dev/nginx
+      dockerfile: Dockerfile
+    links:
+      - web
+    networks:
+      - common-voice-network
+    ports:
+      - 9090:9090
   db:
     image: mysql:8.0.31
     networks:
-      - voice-web
+      - common-voice-network
     container_name: db
     restart: unless-stopped
     environment:
@@ -18,14 +28,12 @@ services:
     container_name: redis
     restart: unless-stopped
     networks:
-      - voice-web
+      - common-voice-network
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
-    ports:
-      - 8080:8080
     networks:
-      - voice-web
+      - common-voice-network
     command:
       [
         '-scheme',
@@ -50,15 +58,13 @@ services:
     volumes:
       - ./bundler:/home/node/code
     networks:
-      - voice-web
-    ports:
-      - 9001:9001
+      - common-voice-network
     command: bash -c "npm ci && npm run build && npm start"
   web:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    container_name: web
+    container_name: common-voice
     user: '${UID:-10001}:${GID:-10001}'
     links:
       - db
@@ -69,10 +75,12 @@ services:
     environment:
       - DOTENV_CONFIG_PATH=/code/.env-local-docker
     networks:
-      - voice-web
+      - common-voice-network
     ports:
       - 9000:9000
     command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn --frozen-lockfile && yarn start"
 
 networks:
-  voice-web:
+  common-voice-network:
+    name: common-voice-network
+    external: true
