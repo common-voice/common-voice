@@ -107,6 +107,40 @@ rate-limit-toast-message-minutes =
         [one] llumpay wayrallam. Muśhuqpiqta huk minutućhu ruraykuy
        *[other] llumpay wayrallam. Muhuqpiqta ruraykuy { $retryLimit } minutoćhu
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] llumpay wayrallam. Muśhuqpiqta 1 segundoćhu ruraykuy
+       *[other] llumpay wayrallam . Muśhuqpiqta ruraykuy { $retryLimit } segundoćhu
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] llumpaytam apaachinki kay rapiman. 1 minuto alkaykuy huk rimayta apachinaykipaq. ¡Yusulpa alkaśhqaykipiqta!
+       *[other] llumpaytam apaachinki kay rapiman. Alkaykuy { $retryLimit } minitikuna huk rimayta apachinaykipaq. ¡ Yusulpa alkaśhqaykipiqta!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] llumpaytam apaachinki kay rapiman. 1 siq alkaykuy huk rimayta apachinaykipaq. ¡Yusulpa alkaśhqaykipiqta!
+       *[other] llumpaytam apaachinki kay rapiman. Alkaykuy { $retryLimit } siq huk rimayta apachinaykipaq. ¡ Yusulpa alkaśhqaykipiqta!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 pallaśhqa rimaypiqta
+       *[other] { $uploadedSentences } de { $totalSentences } pallaśhqa rimaykuna
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 pallaśhqa rimaypiqta. ñitiykamuy <downloadLink>kaypi</downloadLink> Mana awniśhqa rimaykunata ćhaskiykunaykipaq.
+       *[other] { $uploadedSentences } de { $totalSentences } recopiradas. Haz cric <downloadLink>kaypi</downloadLink> Mana awniśhqa rimaykunata ćhaskiykunaykipaq.
+    }
+small-batch-sentences-rule-1 = kamachiykunata ruray “¿Ima rimaykunatam yapaykuuman?”
+small-batch-sentences-rule-2 = Huk wachiman huk rimayta yapay
+small-batch-sentences-rule-3 = rimaykunata huk wachimankam rakiy, hukhuklla waćhi paćhkaykuykama
+small-batch-sentences-rule-4 = 1.000 rimaykuykama yapay
 
 ## MENU ITEM TOOLTIPS
 
