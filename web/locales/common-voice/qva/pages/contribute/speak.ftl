@@ -1,5 +1,52 @@
 speak = Rimay
 speak-now = Kanan rimay
+speak-subtitle = Rimay paćhyayniykita qukuy
+record-cta = Churayta qallaykuy
+record-platform-not-supported = Ama llakikuychu, kanan prataformayki manam yanapaśhqachu.
+record-platform-not-supported-desktop = Miisa kumputadorakunaćhu, hayllaraq yalqumuqkaqta ćhaskikunkimanmi...
+record-platform-not-supported-ios-non-safari = iOSćhu ama haynaspa Safarićhu atiykuy uyarinapaq ćhuraśhqaykita uyarinaykipaq…
+record-must-allow-microphone = Rimanaykipaq awninaykim.
+record-no-mic-found = Manam rimanapaq imapis tarikunchu.
+record-error-too-short = Uyarinapaq llumpay uchukllam kalqun.
+record-error-too-long = Uyarinapaq llumpay hatunmi kalqun.
+record-error-too-quiet = Uyarinapaq upapallallam kalqun.
+record-cancel = Amam uyarinapaq ćhuraychu
+record-instruction = { $actionType } <recordIcon> </recordIcon> haypiqta hanayćhu rimaykaqta ñawinchay
+record-stop-instruction = { $actionType } <stopIcon> </stopIcon> kamakaqrul
+record-three-more-instruction = ¡Kimsaraqmi kaykan!
+record-again-instruction = ¡Allinmi! <recordIcon></recordIcon> Atipaykuyraq uyarinapaq ćhuraykaqta
+record-again-instruction2 = Haynuulla ruray, muśhuqpiqta uyarinapaq ćhuray <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ¡Kamakaykaqta!
+review-tooltip = Rikaykuy haypiqta muhuqpiqta uyarinapaq ćhuraykuy
+share-clip = Clipniykita aypuy
+share-common-voice = Common Voice aypuy
+review-instruction = Wanaptinqa, rikaykuy haypiqta muhuqpiqta uyarinapaq ćhuraykuy
+record-submit-tooltip = { $actionType } Kamakaqrul apachimuy
+clips-uploaded = Uyarinapaq ćhuraśhqaykikuna
+record-abort-title = ¿Puntata uyariyta ćhuraytachum munanki?
+record-abort-text = Kanan yalqul, lliw ruraśhqaykitam chinkapakunki
+record-abort-submit = Apachiy
+record-abort-continue = Uyarinapaq kamakay
+record-abort-delete = Yalquy haypiqta wañuchiy uyarinakunata
+review-aborted = Mana qishpichishqa. ¿Uyarinaykikunata wañuchiyta munanki?
+review-submit-title = Rikaykuy apachiy
+review-submit-msg = ¡Yusulpaa ćhurahqaykipiqta!<lineBreak></lineBreak>Kanan rikaykuy haypiqta apachiy uyarinapaq ćhurahqaykikunata atiyllaman.
+review-recording = Rikaykuy
+review-rerecord = Muśhuqpiqta uyarinapaq ćhuray
+review-cancel = Mana apachina
+review-keep-recordings = Uyarinapaq ćhuraykuy
+review-delete-recordings = Uyarinaapaq ćhuraśhqaata wañuchiy
+review-terms = Rurapakul Common Voice, awninki <termsLink>kamachikuykunata</termsLink> haypiq <privacyLink>Amachakunapaq kamachikuyta</privacyLink>
+terms-agree = Aw awniymi
+terms-disagree = Manam awniichu
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Yusulpaa rimay paćhayaniykita qukuhqaykipiq!
+first-cta-subtitle-text = ¿Imaniraq rimayniyki kahqanpiqta willakuyta munanki?
+why-donate = ¿Imapiqmi tapukunki?
+why-donate-explanation-1 = Munallal willakunki; munallal yapaykunki. llapa hutikunata riqsichil, manam śhutikunatachu kamarachinchik śhutiyki, correo electronicoyki manam kuskachahqachu wataykiwan uutak nuna kayniykiwan.
+why-donate-explanation-2 = Llapanchikpaq tecnología allinlla rurapakunanpaq, tecnología ruraqkuna yanapakulkaananapaq llapaniraq nunakunam kamaraqnan. kaynu, Mana hukniraq rimay paćhyayniyuq nunata awniptinchik, manam llapa nunakunapaq allinllachu rurapakunqa. <learnMore>Maskaskata yaćhapakuy imapiq matadotokuna sumaq kapaakuhqanpiqta.</learnMore>
+add-information-button = Willakuyta yapaykuy
+continue-speaking-button = Manam pay, rimaykuyraq.
 
 ## MENU ITEM TOOLTIPS
 
