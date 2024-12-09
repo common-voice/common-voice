@@ -8,3 +8,5 @@ partnerships-governments-header = Хөкүмәтләр
 partnerships-academia-header = Университетлар, академик оешмалар һәм фәнни хезмәткәрләр
 partnerships-small-business-header = Кече бизнес, шул исәптән технология һәм ЯИ стартаплары
 partnerships-our-partners = Партнёрларыбыз
+# menu item
+partners = Партнёрлар

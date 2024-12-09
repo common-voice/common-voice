@@ -166,6 +166,11 @@
                 color: var(--black);
                 cursor: pointer;
 
+                [dir='rtl'] & {
+                    margin-left: 20px;
+                    margin-right: unset;
+                }
+
                 @media (--sm-down) {
                     width: 100px;
                 }

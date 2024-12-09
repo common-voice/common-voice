@@ -50,3 +50,8 @@ sc-review-empty-state = Accamora nun cci sunnu frasi di validari nna sta lingua.
 report-sc-different-language = Lingua diversa
 report-sc-different-language-detail = È scritta nta na lingua diversa di chiḍḍa chi staju validannu.
 sentences-fetch-error = Mmattìu n'erruri ricupirannu i frasi
+review-error-rate-limit-exceeded = Staju jennu troppu assai lestu. Pìgghiati n'anticchia cchiù assai di tempu pi virificari chi a frasi è bona.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Stamu facennu canci mpurtanti
+# menu item
+review-sentences = Vàlida i frasi

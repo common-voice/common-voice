@@ -3,6 +3,7 @@
 # Toast message that is displayed when an error occurs
 error = Хата
 action-click = Чиртү
+action-tap = Төймәгә басып алыгыз
 # Label for language switcher
 interface-language = Интерфейс теле:
 # Label for button on contribution switcher
