@@ -1,4 +1,4 @@
-import { pipe } from 'fp-ts/lib/function'
+import { flow, pipe } from 'fp-ts/lib/function'
 import * as O from 'fp-ts/Option'
 import { findFirst } from 'fp-ts/Array'
 import { InsertBulkSentences } from '../../../repository/sentences-repository'
@@ -10,6 +10,8 @@ import { FetchSentenceDomains } from '../../../repository/domain-repository'
 import { SentenceDomainDescription } from 'common'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 import { FetchVariants } from '../../../repository/variant-repository'
+import * as S from 'fp-ts/lib/string'
+import * as A from 'fp-ts/lib/Array'
 
 export const AddBulkSentencesCommandHandler =
   (readTsvIntoMemory: ReadTsvIntoMemory) =>
@@ -21,12 +23,15 @@ export const AddBulkSentencesCommandHandler =
     return pipe(
       TE.Do,
       TE.bind('sentences', () =>
-        readTsvIntoMemory<{
-          'Sentence (mandatory)': string
-          'Source (mandatory)': string
-          'Domain (optional)': string
-          'Variant (optional, where applicable)': string
-        }>(cmd.tsvFile)
+        pipe(
+          readTsvIntoMemory<{
+            'Sentence (mandatory)': string
+            'Source (mandatory)': string
+            'Domain (optional)': string
+            'Variant (optional, where applicable)': string
+          }>(cmd.tsvFile),
+          TE.map(A.map(toLowerAndRemoveContentInScopes))
+        )
       ),
       TE.chainFirst(() => TE.right(console.log('Fetching user client email'))),
       TE.bind('clientId', () => fetchUserClientIdByEmail(cmd.email)),
@@ -48,20 +53,19 @@ export const AddBulkSentencesCommandHandler =
       TE.map(
         ({ sentences, clientId, domains, variants }): SentenceSubmission[] =>
           sentences.map(submission => {
+            console.log(submission)
             let sub: SentenceSubmission = {
-              sentence: submission['Sentence (mandatory)']
-                .trim()
-                .replace(/\s/gi, ' '),
-              source: submission['Source (mandatory)'].trim(),
+              sentence: submission['sentence'].trim().replace(/\s/gi, ' '),
+              source: submission['source'].trim(),
               locale_id: cmd.localeId,
               client_id: clientId,
               domain_ids: O.none,
               variant_id: O.none,
             }
 
-            if (submission['Domain (optional)'] !== '') {
+            if (submission['domain']) {
               const domainDescription = submission[
-                'Domain (optional)'
+                'domain'
               ].trim() as SentenceDomainDescription
               const domain = domains.find(
                 d => d.description === domainDescription
@@ -75,9 +79,8 @@ export const AddBulkSentencesCommandHandler =
               }
             }
 
-            if (submission['Variant (optional, where applicable)'] !== '') {
-              const variantTag =
-                submission['Variant (optional, where applicable)']
+            if (submission['variant']) {
+              const variantTag = submission['variant']
               const variantId = pipe(
                 variants,
                 findFirst(v => v.tag === variantTag),
@@ -99,3 +102,16 @@ export const AddBulkSentencesCommandHandler =
       TE.chain(insertBulkSentences)
     )
   }
+
+const transformObjectKeys =
+  (f: (k: string) => string) =>
+  (obj: { [key: string]: string }): { [key: string]: string } =>
+    Object.keys(obj).reduce((acc, k) => {
+      acc[f(k)] = obj[k]
+      return acc
+    }, {} as { [key: string]: string })
+
+const toLowerAndRemoveContentInScopes = flow(
+  transformObjectKeys(S.toLowerCase),
+  transformObjectKeys(S.replace(/\s*\(.*\)\s*/, ''))
+)

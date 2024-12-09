@@ -143,3 +143,21 @@ small-batch-sentences-rule-3 = Nook jiawaim na’ikimte Wuepul wi’ia po lula.
 small-batch-sentences-rule-4 = 1.000 nook jiawaim juni empo a ama kibacha.
 small-batch-sentences-rule-5 = Nika ke jume sime nook jiawai ama nau kiane wuepul lominio po.
 small-batch-sentences-rule-6 = Nita ke jume siime nook jiawaim nalebenak leeta into nal’lebenak taetejwaine.
+# menu item
+add-sentences = Nookim kibacha
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Kibacha into nook jiawaim bicha, kibachá nattemaine nook, jityokaim mamatoime.
+add-sentences-menu-item-tooltip = Kibachá em nook jiawai nookapo.
+review-sentences-menu-item-tooltip = Majtekilbicha jume nookim em nookpo.
+add-questions-menu-item-tooltip = Kibachá em nook jiawai nookapo.
+transcribe-audio-menu-item-tooltip = Am mamatoi jume nook jityokaim em nookpo.
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Yeu, pu’aria jiojtebetchibo.
+add-sentences-menu-item-aria-label = Kibachá bemela nook jiawaim juname itom komunilat am Ji’ojnokne.
+review-sentences-menu-item-aria-label = Bitcha nook jiawaim komunilat ta yeu puala’um.
+add-questions-menu-item-aria-label = Bit’tua bemela nattemaiwaim junabe u komunilat am bit’ne into am yeupnane.
+transcribe-audio-menu-item-aria-label = Am mamatoi jume nook jityokaim.

@@ -7,7 +7,7 @@ sc-review-select-language = Ama hina kaspa, huk simita akllay rimaykunata qhawar
 sc-review-no-sentences = Mana rimaykuna kanchu qhawarinapaq. <addLink>Kunanqa aswan rimaykunata yapay!</addLink>
 sc-review-form-prompt =
     .message = Kutin rikusqa rimaykuna mana apachisqachu, chiqachu kanki?
-sc-review-form-usage = Pañaman llalliy chay rimayta chiqakanaykipaq. Lloq’iman llalliy mana chaskinaykipaq. Chayta saqinaykipaqqa wichayman llalliy. <strong>Ama qunqaychu yuyayniyki apachiyta!</strong>
+sc-review-form-usage = Pañaman llalliy chay rimayta chiqakanaykipaq. Lluq’iman llalliy mana chaskinaykipaq. Chayta saqinaykipaqqa wichayman llalliy. <strong>Ama qunqaychu yuyayniyki apachiyta!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Pukyu: { $sentenceSource }
