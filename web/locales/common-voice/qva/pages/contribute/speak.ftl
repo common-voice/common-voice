@@ -47,9 +47,30 @@ why-donate-explanation-1 = Munallal willakunki; munallal yapaykunki. llapa hutik
 why-donate-explanation-2 = Llapanchikpaq tecnología allinlla rurapakunanpaq, tecnología ruraqkuna yanapakulkaananapaq llapaniraq nunakunam kamaraqnan. kaynu, Mana hukniraq rimay paćhyayniyuq nunata awniptinchik, manam llapa nunakunapaq allinllachu rurapakunqa. <learnMore>Maskaskata yaćhapakuy imapiq matadotokuna sumaq kapaakuhqanpiqta.</learnMore>
 add-information-button = Willakuyta yapaykuy
 continue-speaking-button = Manam pay, rimaykuyraq.
+create-profile-text = ¿Shutiykita ćhurakuyta munanki?
+thanks-for-voice-toast = Rimay paćhayachiyniykirayku yusulpaa.
+thanks-for-voice-toast-error = Rimay paćhyayniykita apayaachilmi pantapaakuqrun.
+first-cta-gender-select-default-option = Hukta akraykuy
+first-cta-gender-select-help-text =
+    .label = ¿Imaniraqtam nuna kayniykita willakuyta munanki?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Rimay paćhayayniykita quykuśhqaykipiqta yusulpaa!
+second-cta-subtitle-text = Huk nunata riqsichiywan, rurapakuyninta riqsirunkimanmi haypiqta huk rimaynin paćhyachiq quqkunatapis riqsinkimanmi.
+already-have-an-account = ¿Kapuśhunki śhutiyki riqsichiq? <login>rurayta qallaykuy</login>
+create-profile-button = Nuna riqsichiqta ruray
+# IMAGE TAGS
+img-alt-success-checkmark = Allin ruraśhqaykita kamarachiq
+# menu item
+read-sentences = Rimaykunata ñawinchay
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Rimaykunata ñawinchay, tapuykunata kutichiy
+read-sentences-menu-item-tooltip = Himiykićhu uyarinapaq kaqkunata ćhuray
+answer-questions-menu-item-tooltip = Tapuykunata kutichinapaq shimiykićhu uyarinapaq ćhuray
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Rimanapaq kaqkuna
+read-sentences-menu-item-aria-label = Hukniraq shimikunaćhu rimaykunata ñawinchay
+answer-questions-menu-item-aria-label = Huk tapuyta masikunaman apachiy kutichipaakunanpaq
