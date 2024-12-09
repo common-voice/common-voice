@@ -161,3 +161,14 @@ developers-section-title = Publicly accessible open speech datasets in 130+ lang
 developers-section-subtitle = Datasets for ASR, SST, TTS, and other NLP contexts - created through community participation.
 # icon is an arrow that points to the right
 explore-datasets = Explore datasets <icon></icon>
+
+## Get involved section
+get-involved-section-title = Get involved
+read-sentences-link = Read sentences
+validate-readings-link = Validate readings
+contribute-link = Contribute to text corpus
+answer-questions-link = Answer questions
+transcribe-answers-link = Transcribe answers
+review-transcriptions-link = Review transcriptions
+contribute-text-link = Contribute text
+press-and-stories-link = Press and stories

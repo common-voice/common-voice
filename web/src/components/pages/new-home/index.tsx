@@ -5,10 +5,15 @@ import { ActionItemsSection } from './action-items-section'
 import { CommunitySection } from './community-section'
 import { FeaturedSection } from './featured-section'
 import { DevelopersSection } from './developers-section'
+import { GetInvolvedSection } from './get-involved'
 
 import Page from '../../ui/page'
 
+import { useScrollToSection } from '../../../hooks/use-scroll-to-section'
+
 const Home = () => {
+  useScrollToSection()
+
   return (
     <Page className="home">
       <HeroSection />
@@ -16,6 +21,7 @@ const Home = () => {
       <CommunitySection />
       <FeaturedSection />
       <DevelopersSection />
+      <GetInvolvedSection />
     </Page>
   )
 }
