@@ -141,9 +141,23 @@ small-batch-sentences-rule-1 = kamachiykunata ruray “¿Ima rimaykunatam yapayk
 small-batch-sentences-rule-2 = Huk wachiman huk rimayta yapay
 small-batch-sentences-rule-3 = rimaykunata huk wachimankam rakiy, hukhuklla waćhi paćhkaykuykama
 small-batch-sentences-rule-4 = 1.000 rimaykuykama yapay
+small-batch-sentences-rule-5 = Hukllay śhuntuyllaćhuumi llapa rimaykuna kamaykunan
+small-batch-sentences-rule-6 = llapa rimaykuna huk ćhayayniyuqlla riqsiyniyuqlla kapaakunan
+# menu item
+add-sentences = rimaykunata yapay
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Rimaykunata yapaykuy rikapaykuy, tapuykunata yapaykuy, uyarinakunata qillqaykuy
+add-sentences-menu-item-tooltip = Shimiykićhu rimaykunata yapay
+review-sentences-menu-item-tooltip = Shimiykićhu rimaykunata rikapaykuy
+add-questions-menu-item-tooltip = Shimiykićhu rimaykunata yapaykuy
+transcribe-audio-menu-item-tooltip = Shimiykićhu uyarinapaq kaqkunata qillqaykuy
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqaykunapaq kaqkuna
+add-sentences-menu-item-aria-label = Qillqaykunapaq kaqkuna
+review-sentences-menu-item-aria-label = Llapa huntunaku rimaykunata ñawinchapaakunanpaq yapay
+add-questions-menu-item-aria-label = Shuntunakuq rimaykunata mañakuśhqanta rikapaykuy
+transcribe-audio-menu-item-aria-label = Muhuq tapuykunata apachiy huntunaku ñawinchananpaq kutichinanpaq
