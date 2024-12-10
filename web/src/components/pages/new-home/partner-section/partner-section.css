@@ -1,0 +1,108 @@
+.partner-section {
+    .partner-section-container {
+        background: linear-gradient(
+                90deg,
+                #f6f1d6 24%,
+                rgba(255, 239, 143, 0) 100%
+            ),
+            url('./assets/background.webp');
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+
+        @media (--sm-down) {
+            height: 80vh;
+            background: linear-gradient(
+                    180deg,
+                    #ffef8f 44.5%,
+                    rgba(255, 239, 143, 0) 100%
+                ),
+                url('./assets/background-sm.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-y: 100%;
+        }
+
+        @media (--md-up) {
+            height: 50vh;
+        }
+
+        .content {
+            height: inherit;
+            padding: 4rem 2rem;
+
+            @media (--xl-up) {
+                left: 15%;
+                position: relative;
+            }
+
+            @media (--md-and-lg-only) {
+                padding-inline: 4rem;
+            }
+
+            @media (--sm-down) {
+                padding-block: 2rem;
+            }
+
+            h2.title {
+                font-size: 40px;
+                font-weight: 500;
+                margin-block-end: 32px;
+
+                @media (--sm-down) {
+                    font-size: 24px;
+                }
+            }
+
+            p {
+                font-family: var(--strong-font-family);
+                font-size: 21px;
+                font-weight: 400;
+                margin-block-end: 20px;
+                width: auto;
+                max-width: 450px;
+
+                @media (--sm-down) {
+                    font-size: 18px;
+                }
+            }
+
+            .text-button {
+                margin-block-start: 2rem;
+                padding: 0.75rem 1.5rem;
+                font-size: var(--font-size);
+                background: var(--light-purple);
+                color: var(--white);
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 57px;
+                width: 260px;
+                font-weight: 600;
+
+                span {
+                    display: flex;
+                }
+
+                svg {
+                    margin-inline-start: 12px;
+
+                    path {
+                        fill: var(--white);
+                    }
+                }
+
+                &:hover {
+                    color: var(--white);
+                    background-color: var(--light-purple);
+                }
+            }
+        }
+    }
+}
