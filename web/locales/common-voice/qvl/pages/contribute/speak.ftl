@@ -48,9 +48,29 @@ why-donate-explanation-2 = Tecnología llapanpaq alli kananpaqqa, tecnología ka
 add-information-button = Willaykunata yapay
 continue-speaking-button = Mana, rimayraq
 create-profile-text = ¿Willakuyniykikunata churayta munankiku? <createProfile>Kikinchakuyniykita kamay</createProfile>
+thanks-for-voice-toast = Kunka rimay willayniykipita payllaa
+thanks-for-voice-toast-error = Kunka rimay willayniyki apachiychaw pantay karqun
+first-cta-gender-select-default-option = Huk akranata akray
+first-cta-gender-select-help-text =
+    .label = ¿Imanawtaq ullqu icha warmi kashqaykita willankiman?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Kunka rimayniykipita payllaa!
+second-cta-subtitle-text = Kikinchakurqa rurashqaykikunatami rikanki, kunka rimayninkunata qukuqkunawanpismi tinkunki.
+already-have-an-account = ¿Kanku kikinchakuyniyki? <login>Yaykuy</login>
+create-profile-button = Kikinchakuyniykita kamay
+# IMAGE TAGS
+img-alt-success-checkmark = Alli ruraypa tuyruynin
+# menu item
+read-sentences = Rimaykunata ñawinchay
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Rimaykunata ñawinchay, tapukuykunata kutichiy
+read-sentences-menu-item-tooltip = Shimiykichaw rimaykunata ñawinchashpa rimay
+answer-questions-menu-item-tooltip = Shimiykichaw tapukuykunata kutichishpa rimay
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Kunka rimay akrana
+read-sentences-menu-item-aria-label = Huk shimikunachaw rimaykunata ñawinchay
+answer-questions-menu-item-aria-label = Runakuna ñawinchashpa kutichiyaananpaq tapukuyta apachiy
