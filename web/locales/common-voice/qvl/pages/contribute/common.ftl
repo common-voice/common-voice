@@ -69,9 +69,61 @@ shortcut-skip = p
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Record/Stop
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Re-record clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
+shortcut-submit = Kutiy
+shortcut-submit-label = Apachiy
+request-language-text = ¿Manaraqku shimiykita Common Voicechaw rikanki?
+request-language-button = Huk shimita mañakuy
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = a
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = m
 
 ## Validation criteria
 
+contribution-criteria-nav = Yuyaykuna
+contribution-criteria-link = Yanapakuy yuyaykunapita ashwanta yachakuy
+contribution-criteria-page-title = Yanapakuy yuyaykuna
+contribution-criteria-page-description = ¡Kunka rimaykunata wiyar ima ashinaykita ashwan yachakuy, kikiykipa kunka rimayniykita imanaw allichanaykipaqpis yachakuy!
+contribution-for-example = Kaynaw
+contribution-misreadings-title = Pantashqa kaayiykuna
+contribution-misreadings-description = Wiyarqa, rimashqawan qillqashqa tikushqanta shumaq allilla rikapay; rimashqawan qillqashqa mana tinkuptinqa ama awniychu. <br />Wakin pantaykunaqa kaynawmi kayan:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
+contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
+contribution-misreadings-example-8-title = The bumblebee sped by.
+contribution-misreadings-example-8-explanation = [Manami yaykushqan tinkunchu]
+contribution-varying-pronunciations-title = Varying Pronunciations
+contribution-varying-pronunciations-description = Huk niraq pashtachiyta wiyarqa rasllaqa manami kay allichu nishpa niychu. Huk shimitaqa imayka laayapami pashtachiyanman, markaykichaw manapischi huk niraq pashtachiykunata wiyashqaykichu. Chayqa huk niraqpa pashtachiyaptinpis, rimayashqanta tantiyaptiykiqa, awniykuy.
+contribution-varying-pronunciations-description-extended = Ichanqa ñawinchaq chay shimita riqinmanchu, llutanta pashtachiykanmanpis, chayqa ama awniychu. Mana yacharqa pitiyta tanuy.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
