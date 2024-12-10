@@ -32,23 +32,69 @@ easy-difficulty = Тыншщ
 average-difficulty = Курыт
 difficult-difficulty = Гугъу
 pro-difficulty = Iэзэ
-build-custom-goal = Си гъэпс щIэдзэ
-set-a-goal = Гъэпс, Теухуэ
-cant-decide = Иомыкурэ?
+build-custom-goal = Езым уи мурадыр зыхуэгъэув
+cant-decide = Унафэ фыхъуркъэ?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] Сыхьэт
-       *[other] Сыхьэту
-    }нэсыф{ NUMBER($periodMonths) ->
-        [one] мазэ
-       *[other] мазэу
-    }е{ NUMBER($people) ->
-        [one] цIыху
-       *[other] цIыхуу
-    }тхы{ NUMBER($clipsPerDay) ->
-        [one] кIэщI
-       *[other] кIэщIу
-    }зы махуэм.
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Лъэщ! Махуэм тхыгъэ дапщэ?
 how-many-a-week = Лъэщ! Тхьэмахуэм тхыгъэ дапщэ?
 goal-interval-weekly = Тхьэмахуэ къэс
