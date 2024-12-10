@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Pro ite Common Voice?
+about-header-description-v2 =
+    <p>Common Voice est unu pachete de datos de boghe a disponimentu in manera pùblica, chi funtzionat gràtzias a is boghes de is collaboradores voluntàrios in totu su mundu. Is persones chi bolent fraigare aplicatziones de boghe podent impreare su pachete de datos pro annestrare is màchinas.</p>
+    <p>Pro immoe, sa majoria de is pachetes de datos de boghe ddos possedint is aziendas, chi isfiadat s'innovatzione. De prus, in is pachetes de datos de boghe sunt sutarapresentados: persones chi non faeddant s'inglesu, persones de colore, persones disàbiles, fèminas e persones LGBTQIA+. Custu bolet nàrrere chi sa tecnolgia vocale non funtzionat pro medas lìnguas e chi, in ue funtzionat, non diat pòdere àere is pròpias prestatziones pro totus. Bolimus mudare totu custu mobilitende is persones de onni logu a cumpartzire sa boghe issoro.</p>
 how-does-it-work-title-v2 = Comente funtzionat Common Voice?
 how-does-it-work-text = Semus creende in manera collaborativa unu pachete de datos cun lissèntzia de còdighe abertu. Dona sa boghe tua, verìfica is registratziones fatas de àteras persones, faghe chi su pachete de datos siat mègius pro totus.
 
