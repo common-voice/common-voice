@@ -95,7 +95,7 @@ activity-needed-calculation-plural =
                     }
             }
     }
-how-many-per-day = Лъэщ! Махуэм тхыгъэ дапщэ?
+how-many-per-day = Хъарзынэщ! Махуэ къэс сыт хуэдиз макъ тептхэрэ?
 how-many-a-week = Лъэщ! Тхьэмахуэм тхыгъэ дапщэ?
 goal-interval-weekly = Тхьэмахуэ къэс
 share-goal-type-speak = Къэпсалъэ
