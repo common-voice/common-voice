@@ -11,6 +11,34 @@ sc-review-form-usage = Alliqman chay rimayta awninaykipaq apay. Ichuqman mana aw
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Source: { $sentenceSource }
+sc-review-form-button-reject = Mana niy
+sc-review-form-button-skip = Pintiy
+sc-review-form-button-approve = Awniy
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = P
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = M
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip
+sc-review-form-button-submit =
+    .submitText = Rikapayta ushay
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Rikapashqa rimaykuna manami kanchu.
+        [one] 1 rikapashqa rimay. ¡Payllaa!
+       *[other] { $sentences } rikapashqa rimaytakuna. ¡Payllaa!
+    }
+sc-review-form-review-failure = Rikapashqa rimaykuna manami churakashqachu. Qipaman kutiykur kallpachakuy.
+sc-review-link = Rikapay
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Rikapaypaq kamachiykuna
+sc-criteria-title = Rikapaypaq kamachiykuna
+sc-criteria-make-sure = Llapan rimaykuna kay shamuq kamachiykunamannaw kanan:
+sc-criteria-item-1 = Chay rimayqa alli qillqashqami kanan.
+sc-criteria-item-2 = Chay rimayqa shimikamaymannawmi kanan.
+sc-criteria-item-3 = Chay rimayqa pashtachinapaqnawmi kanan.
