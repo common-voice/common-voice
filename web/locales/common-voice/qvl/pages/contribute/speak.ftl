@@ -1,0 +1,27 @@
+speak = Rimay
+speak-now = Kanan rimay
+speak-subtitle = Kunka rimayniykita quykuy
+record-cta = Rimayta qallariy
+record-platform-not-supported = Llakikuyaa, llikaykiqa kanan manami yanapashqachu kaykan.
+record-platform-not-supported-desktop = Computadorakunachaw mushuq kaqta urachinkimanmi...
+record-platform-not-supported-ios-non-safari = iOS nishqanchawqa Safariman ayway, kunka rimaykunata ratachinaykipaq...
+record-must-allow-microphone = Microfonoman yaykuyta haqinayki.
+record-no-mic-found = Manami ima microfonopis kanchu.
+record-error-too-short = Rimayqa pishillami karqun.
+record-error-too-long = Rimayqa allaapa unaymi karqun.
+record-error-too-quiet = Rimayqa allaapa upaallallami karqun.
+record-cancel = Yapay rimaykashqaykita qulluchiy
+record-instruction = { $actionType }<recordIcon></recordIcon> chaypita rimayta kallpawan ñawinchay
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> usharirqa
+record-three-more-instruction = Kimsaraqmi kan!
+record-again-instruction = ¡Allaapa alli!<recordIcon></recordIcon> Qatiqnin kunka rimayniykita rimay
+record-again-instruction2 = Chayta chaynawlla ruray, yapay rimay <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Qipa kaq!
+review-tooltip = Kunka rimaykunata rikapashpa kaychaw yapay rimay
+share-clip = Kunka rimayniykita hukkunaman apachiy
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
