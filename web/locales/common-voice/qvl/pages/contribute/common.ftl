@@ -53,9 +53,19 @@ report-grammar-or-spelling-detail = Chay rimaychaqa pantashqa qillqayyuqmi.
 report-different-language = Huk shimi
 report-different-language-detail = Manami rimashqaa shimichawchu qillqashqa kaykan.
 report-difficult-pronounce = Sasa pashtachiymi
+report-difficult-pronounce-detail = Sasa ñawinchanapaq icha sasa pashtachinapaq shimikuna icha rimaykunami kan.
+report-offensive-speech = Ashllikuq rimay
+report-offensive-speech-detail = Chay rimaychawqa ashllikuq shimikunami kaykan.
+report-other-comment =
+    .placeholder = Rimakuy
+success = Allinmi
+continue = Qatiy
+report-success = Chay willakuyqa chaskishqanami
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = p
 
 ## Speak Shortcuts
 
