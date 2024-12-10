@@ -2,8 +2,8 @@
 
 your-languages = Фи бзэ
 toward-next-goal = Пэщыт Iуэху
-goal-reached = Goal reached
-clips-you-recorded = Евгъэтхащ
+goal-reached = Мурадыр къызэхъулӏащ
+clips-you-recorded = Уи макъыр тептхащ
 clips-you-validated = Фыхэплъащ
 todays-recorded-progress = Common Voice-м нобэ тхыгъэу ит
 todays-validated-progress = Common Voice-м нобэ тхыгъэу хэплъэжа
@@ -22,8 +22,8 @@ show-ranking = Си рейтингыр гъэлъагъуэ
 
 ## Custom Goals
 
-get-started-goals = Гъэпс
-create-custom-goal = Си гъэпс щIэдзэ
+get-started-goals = Уи мурадыр зыхуэгъэув
+create-custom-goal = Езыр-езыру мурад щӀын
 both-speak-and-listen = ТIури
 both-speak-and-listen-long = ТIури (тхыи хэплъэж)
 daily-goal = Махуэ гъэпс
