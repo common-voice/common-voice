@@ -12,13 +12,18 @@ import { PartnersSection } from './partners-section'
 import Page from '../../ui/page'
 
 import { useScrollToSection } from '../../../hooks/use-scroll-to-section'
+import { isContributable, useLocale } from '../../locale-helpers'
 
 const Home = () => {
   useScrollToSection()
 
+  const [locale] = useLocale()
+
+  const isLocaleContributable = isContributable(locale)
+
   return (
     <Page className="home">
-      <HeroSection />
+      <HeroSection isLocaleContributable={isLocaleContributable} />
       <ActionItemsSection />
       <CommunitySection />
       <FeaturedSection />

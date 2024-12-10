@@ -93,6 +93,7 @@ add-questions = Add Questions <small>(Coming soon)</small>
 transcribe-audio = Transcribe Audio <small>(Coming soon)</small>
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
+coming-soon = Coming soon
 
 ## MENU ITEMS TOOLTIPS
 about-menu-tooltip = Partnerships, Press and Stories, Community and Languages

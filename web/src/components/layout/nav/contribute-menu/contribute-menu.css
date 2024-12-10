@@ -70,7 +70,6 @@
             display: flex;
             background: var(--white);
             box-shadow: 0 2px 5px 0 var(--light-grey);
-            /* max-height: 100px; */
 
             .vertical-line {
                 border-inline-start: 1px solid var(--grey);
@@ -106,7 +105,7 @@
                         margin-inline-end: 0;
                     }
 
-                    &.coming-soon p {
+                    &.coming-soon {
                         color: var(--warm-grey);
                         cursor: default;
 

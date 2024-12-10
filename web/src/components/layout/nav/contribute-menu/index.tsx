@@ -10,6 +10,7 @@ import ContributeMenuContent from '../contribute-menu-content'
 
 import { LocalizedNavLink, NavItem } from '../nav'
 import URLS from '../../../../urls'
+import { isContributable, useLocale } from '../../../locale-helpers'
 
 import './contribute-menu.css'
 
@@ -27,7 +28,6 @@ export type MenuConfig = {
   items?: ContributeMenuItem[]
   menuTooltip: string
   menuAriaLabel: string
-  renderContributableLocaleLock?: boolean
 }
 
 interface ContributeMenuProps extends RouteComponentProps {
@@ -53,6 +53,10 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   menuAriaLabel,
 }) => {
   const { l10n } = useLocalization()
+
+  const [locale] = useLocale()
+
+  const isLocaleContributable = isContributable(locale)
 
   const hasMenuItems = menuItems && menuItems.length > 0
 
@@ -132,6 +136,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
               className="mobile-menu-list"
               contributeMenuItems={menuItems}
               isUserLoggedIn={isUserLoggedIn}
+              isLocaleContributable={isLocaleContributable}
             />
           </div>
         )}
@@ -142,6 +147,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
                 className="menu-list"
                 contributeMenuItems={menuItems}
                 isUserLoggedIn={isUserLoggedIn}
+                isLocaleContributable={isLocaleContributable}
               />
             </div>
           </div>

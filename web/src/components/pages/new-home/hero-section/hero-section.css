@@ -311,6 +311,10 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
+
+                        &.disabled {
+                            pointer-events: none;
+                        }
                     }
 
                     .speak {

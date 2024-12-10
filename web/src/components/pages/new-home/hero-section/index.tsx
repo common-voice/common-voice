@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import React from 'react'
 import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
 import { LinkButton } from '../../../ui/ui'
 import { ArrowRight, MicIcon, Play } from '../../../ui/icons'
@@ -12,9 +13,15 @@ import { usePreloadImage } from '../../../../hooks/use-preload-image'
 
 import './hero-section.css'
 
-export const HeroSection = () => {
+type Props = {
+  isLocaleContributable: boolean
+}
+
+export const HeroSection: React.FC<Props> = ({ isLocaleContributable }) => {
   const imageUrl = require('./assets/hero-hd.jpg')
   const isLoaded = usePreloadImage(imageUrl)
+
+  const linkDisabled = !isLocaleContributable
 
   return (
     <section className="hero-section">
@@ -44,12 +51,18 @@ export const HeroSection = () => {
             style={{ backgroundImage: isLoaded ? `url(${imageUrl})` : 'none' }}>
             <div className="buttons">
               <div className="listen-container">
-                <LocaleLink className="listen" to={URLS.LISTEN}>
+                <LocaleLink
+                  className={classNames('listen', {
+                    disabled: linkDisabled,
+                  })}
+                  to={URLS.LISTEN}>
                   <Play />
                 </LocaleLink>
                 <div className="background" />
               </div>
-              <LocaleLink className="speak" to={URLS.SPEAK}>
+              <LocaleLink
+                className={classNames('speak', { disabled: linkDisabled })}
+                to={URLS.SPEAK}>
                 <MicIcon />
               </LocaleLink>
             </div>
