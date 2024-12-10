@@ -19,6 +19,35 @@ record-again-instruction2 = Chayta chaynawlla ruray, yapay rimay <recordIcon></r
 record-last-instruction = <recordIcon></recordIcon> Qipa kaq!
 review-tooltip = Kunka rimaykunata rikapashpa kaychaw yapay rimay
 share-clip = Kunka rimayniykita hukkunaman apachiy
+share-common-voice = Common Voiceta hukkunaman apachiy
+review-instruction = Rikapay yapay rimanayki kaptinqa, rimay
+record-submit-tooltip = { $actionType } usharirqa apachiy
+clips-uploaded = Wichachishqa kunka rimaykuna
+record-abort-title = ¿Ñawpataqa rimar ushaytaraqku munanki?
+record-abort-text = Kanan yarqurqa, kananyaq llapan rurashqaykitami uqranki
+record-abort-submit = Apachiy
+record-abort-continue = Rimayta ushay
+record-abort-delete = Yarquy; chaypita kunka rimaykunata qulluchiy
+review-aborted = Wichashqanta chawachiy. ¿Kunka rimayniykikunataku qulluchiyta munanki?
+review-submit-title = Rikapashpa apachiy
+review-submit-msg = ¡Rimashqaykipita payllaa!<lineBreak></lineBreak>Kananqa rikapashpa rimayniykikunata apachiy.
+review-recording = Kutipay
+review-rerecord = Yapay rimay
+review-cancel = Apachiyta qulluchiy
+review-keep-recordings = Kunka rimaykunata churaraachiy
+review-delete-recordings = Rimayniikunata qulluchiy
+review-terms = Common Voiceta iñishishpaqa, <termsLink>iñishinapaq kamachiyniikunatami</termsLink> chaypita <privacyLink>mana achkaq musyanan kamachiyniikunatapismi</privacyLink> awninki
+terms-agree = Ñuqa awniimi
+terms-disagree = Ñuqa manami awniichu
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Kunka rimayniykunata qushqaykipita payllaa!
+first-cta-subtitle-text = ¿Munankimanku imanaw rimashqaykipita ima willayllatapis hukkunaman apachiyta?
+why-donate = ¿Imanirtaq tapukunki?
+why-donate-explanation-1 = Kay willaytaqa munarraqmi yapanayki; mana allinaw qampaq kaptinqa, ama yapaychu. Llapan willayta hukkunapaq rikachirqa, huk shutikunata iñishishpami kay willaykunata rikachiyaa. Shutinpis, emailninpis watanwan icha ima kashqanwan (warmi icha ullqu) mana tinkunantami shumaq rikayaa.
+why-donate-explanation-2 = Tecnología llapanpaq alli kananpaqqa, tecnología kamaqkunata yanapaq willaykunaqa tukuy niraq runakunatami rikachinan. Huk niraq pashtachiyyuq rimaq mana kaptinqa, chayqa tecnología chay huk niraq pashtachiyyuq runakunapaq manami allitsu kanqa. <learnMore>Metadatokuna imanir allaapa alli kashqanpita willaykunata chaskiy.</learnMore>
+add-information-button = Willaykunata yapay
+continue-speaking-button = Mana, rimayraq
+create-profile-text = ¿Willakuyniykikunata churayta munankiku? <createProfile>Kikinchakuyniykita kamay</createProfile>
 
 ## MENU ITEM TOOLTIPS
 
