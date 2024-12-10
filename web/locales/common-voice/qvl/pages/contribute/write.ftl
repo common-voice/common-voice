@@ -107,9 +107,57 @@ rate-limit-toast-message-minutes =
         [one] Rate limit exceeded. Try again in 1 minute
        *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] 	You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
+small-batch-sentences-rule-1 = Follow guidelines from “What sentences can I add?”
+small-batch-sentences-rule-2 = Add one sentence per line
+small-batch-sentences-rule-3 = Separate sentences into one line by pressing “Enter” or “Return” once
+small-batch-sentences-rule-4 = Add up to 1,000 sentences
+small-batch-sentences-rule-5 = All sentence must have the same domain
+small-batch-sentences-rule-6 = All sentences must have the same citation
+# menu item
+add-sentences = Add Sentences
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Add and Review Sentences, Add Questions, Transcribe Audio
+add-sentences-menu-item-tooltip = Shimiykichaw rimaykunata yapay
+review-sentences-menu-item-tooltip = Shimiykichaw rimaykunata rikapay
+add-questions-menu-item-tooltip = Shimiykichaw tapukuykunata yapay
+transcribe-audio-menu-item-tooltip = Shimiykichaw kunka rimaykunata wiyanapaq qillqay
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqay akranakuna
+add-sentences-menu-item-aria-label = Runakuna ñawinchananpaq mushuq rimaykunata yapay
+review-sentences-menu-item-aria-label = Runakuna apachimushqan rimaykunata rikapay
+add-questions-menu-item-aria-label = Mushuq tapukuykunata runakuna ñawinchashpa kutichiyaamunanpaq apachiy
+transcribe-audio-menu-item-aria-label = Kunka rimaykunata wiyanapaq qillqay
