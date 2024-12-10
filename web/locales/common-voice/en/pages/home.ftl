@@ -183,3 +183,6 @@ partner-section-subtitle-civil-society = <bold>Civil society and researchers</bo
 partner-section-subtitle-philantropy = <bold>Philanthropy</bold> - sponsor dataset creation to fuel local innovation and development
 # icon is an arrow that points to the right
 get-in-touch-button = Get in touch <icon></icon>
+
+# Partners section
+our-partners-include = Our partners include...

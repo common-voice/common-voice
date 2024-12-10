@@ -7,6 +7,7 @@ import { FeaturedSection } from './featured-section'
 import { DevelopersSection } from './developers-section'
 import { GetInvolvedSection } from './get-involved'
 import { PartnerSection } from './partner-section'
+import { PartnersSection } from './partners-section'
 
 import Page from '../../ui/page'
 
@@ -24,6 +25,7 @@ const Home = () => {
       <DevelopersSection />
       <GetInvolvedSection />
       <PartnerSection />
+      <PartnersSection />
     </Page>
   )
 }
