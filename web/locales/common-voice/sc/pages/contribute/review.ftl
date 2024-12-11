@@ -51,3 +51,11 @@ sc-review-rules-title = Sa fràsia rispetat is lìnias ghia?
 sc-review-empty-state = In custu momentu, non nch'at fràsias de revisionare in custa limba.
 report-sc-different-language = Lìngua diferente
 report-sc-different-language-detail = Est iscrita in una limba diferente dae cussa chi so revisionende.
+sentences-fetch-error = Faddina recuperende fràsias
+review-error = Faddina durante sa revisione de custa fràsia
+review-error-rate-limit-exceeded = Ses andende tropu a lestru. Piga·ti unu momentu pro revisionare sa fràsia pro t’assegurare chi siat curreta.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Semus preparende modìficas mannas
+sc-redirect-page-subtitle-2 = Nos podes fàghere preguntas in <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> e pro mèdiu de <emailLink>posta eletrònica</emailLink>.
+# menu item
+review-sentences = Revisiona fràsias
