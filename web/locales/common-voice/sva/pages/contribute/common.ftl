@@ -71,7 +71,7 @@ shortcut-skip = ქ
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ლიჲრი/ლიჩრა̈უ̂ი
+shortcut-record-toggle = ლ/ლ
 shortcut-record-toggle-label = ლი̄რი/ლიჩრაუ̂ა̄̈ლ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = კლიპი მახა̄ნ ლი̄რი
@@ -86,14 +86,14 @@ request-language-button = ხიჰრ ისგუ ნინ
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = ლიფშუ̂დე/ლიჩრა̈უ̂ი
+shortcut-play-toggle = L
 shortcut-play-toggle-label = სგუ̂ებდ ლი̄ზი/ჩულიჩრაუ̂ა̄̈ლ
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = ა̄დუ
+shortcut-vote-yes = ა̄
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = მა̄მა
+shortcut-vote-no = მ
 
 ## Validation criteria
 
@@ -129,7 +129,7 @@ contribution-varying-pronunciations-description-extended = მე̄რმეჲ,
 contribution-varying-pronunciations-example-1-title = ეჯას თხუმჟი ბერეტ ხაგდა.
 contribution-varying-pronunciations-example-1-explanation = ['ბერეტ']-ს მახუ̂ილს მა̄̈ნკუ̂ი̄ მარცუ̂ალჟიჲ ჩუხოყა (ბრიტ.) ი მე̄რმაჟიჲ (აშშ)]
 contribution-varying-pronunciations-example-2-title = ტუ̂ეტ ანკაჩე.
-contribution-varying-pronunciations-example-2-explanation = [‘Raised’ ინგლისურისგა ჩიგარ ი̄ქუ̂ი იმუ̂ა̄̈ჟი ეშხუ მარცვალ, მა̄მა ჲო̄რი]
+contribution-varying-pronunciations-example-2-explanation = [Raised ინგლისურისგა ჩიგარ ი̄ქუ̂ი იმუ̂ა̄̈ჟი ეშხუ მარცვალ, მა̄მა ჲო̄რი]
 contribution-background-noise-title = აგრე̄უ̂ს სა̈ხმა̈ხ
 contribution-background-noise-description = ნა̈ჲ ნაკუ, ერე მანქანურ ლითუ̂რი̄ ალგორითმა̈ლდ ჟანმჲე̄დახ მო̄შ-მო̄შ აგრე̄უ̂ა̄̈ სა̈ხმა̈ხი ჩულიმშიჲე ი ზჷმშუ̂ ხოკლათხა ჰერა̄̈ლსი შეიძლება ჩუხეყე̄ნს ეჯ პირობშუ̂, ერე ეჯა მა̄მ  ა̈ჯმა̈უ̂ინნე ტექსტი მთლიანობაისგა ლაჰუ̂ნა̈რს. წყჷნა̄̈რ ფონურ მუსიკას ჩუ ხაყა; მუსიკა ეჯზუმ კჷლთხი, ერე ჯიმა̈უ̂ინე̄დს სიტყუ̂ა̄ლე თითოლაჟი ლა̈ცხირს — მა̄მა.
 contribution-background-noise-description-extended = ნა̈ჲრ ჟი ჰემა ხეღრენი, მო̄დეჲ შჷრშნი, უ̂არ ლე̄ქა, ტექსტი მთლია̈ნდ ლიჰუ̂ნა̈რი ჰემა მა̄მ იჴჷრჴი.
