@@ -50,12 +50,81 @@ service_retail = Service and Retail
 general = Llapan
 # Sentence Domain dropdown option
 healthcare = Alli kay
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Willakuykunawan qaynakuna
+# Sentence Domain dropdown option
+nature_environment = Pachamamawan kawashqanchik patsakuna
+# Sentence Domain dropdown option
+news_current_affairs = Mushuq willakuykuna, kanan watakunachaw imanaykuna
+# Sentence Domain dropdown option
+technology_robotics = Technology and Robotics
+sentence-variant-select-label = Rimaypa huk niraq pashtachiynin
+sentence-variant-select-placeholder = Huk niraq pashtachiyninta akray (munarqa)
+sentence-variant-select-multiple-variants = Shimi / imayka niraq pashtachiykuna
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Yapay <icon></icon> llapan runapaq kaq rimaykunata wichachiy
+sc-bulk-upload-instruction = Kayman willañiqiykita qarachay icha <uploadButton> yapanaykipaq tanuy</uploadButton>
+sc-bulk-upload-instruction-drop = Yapanaykipaq kayman willañiqita urmachiy
+bulk-upload-additional-information = Ashwan willay kay willañiqipita quyta munarqa, kayman qillqamuy <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Kay willañiqipita plantillachaw mana kaq willayta quyta munarqa, kayman qillqamuy <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Willañiqiykita kayman qarachashpa yapay kallpachakuy
+try-upload-again-md = Yapay wichachiyta kallpachakuy
+select-file = Willañiqita akray
+select-file-mobile = Munashqayki willañiqita wichachinaykipaq akray
+accepted-files = Ima niraq willañiqi chaskikashqan:.tsv kaqlla
+minimum-sentences = Willañiqichaw ayka rimaykuna kanan: 1000
+maximum-file-size = Willañiqi ayka lasanan: 25 MB
+what-needs-to-be-in-file = ¿Imataq qillqa taparachaw kanan?
+what-needs-to-be-in-file-explanation = Kay <templateFileLink>willañiqiyku</templateFileLink> nishqanchaw rikay. Rimayniykikunaqa mana copyright nishqanyuqmi kanan (CC0 icha apachiqpa haqishqan llamkayninmi kanan) hinapis shutilla, shimikamaymannaw allilla, mana sasa ñawinchanapaqpismi kanan. Chay apachimushqa rimaykunaqa 10 segupita 15 segundoyaqllami ñawinchanapaq kanan, manami yupaykunata, kikin shutikunata, sananpakunatapis churanachu.
+upload-progress-text = Wichaykanmi...
+sc-bulk-submit-confirm = Kay rimayqa <wikipediaLink>llapan runapaq </wikipediaLink> kashqanta musyaami, chayta churanaapaqmi mañakushqaapismi.
+bulk-upload-success-toast = Achka rimaykuna yapakashqa
+bulk-upload-failed-toast = Manami yapakashqachu, yapay kallpachakuy.
+bulk-submission-success-header = Achkapa apachimushqaykipita payllaq!
+bulk-submission-success-subheader = ¡Common Voiceta hunaq-hunaq rimaykuna yapakaananpaq yanapaykanki!
+upload-more-btn-text = ¿Ashwan rimaykuna wichachiytaku munanki?
+file-invalid-type = Mana alli willañiqi
+file-too-large = Willañiqiqa allaapami lasan
+file-too-small = Willañiqiqa allaapa ichikmi lasan
+too-many-files = Allaapa achka willañiqikuna
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = small-batch-instruction = <icon></icon> llapan runapaq achka rimaykunata yapay
+multiple-sentences-error = multiple-sentences-error = Huklla apachiypaqqa manami achka rimaykuna yapayta atinkichu
+exceeds-small-batch-limit-error = exceeds-small-batch-limit-error = 1000 rimaypitaqa mananami ashwan rimaykunata apachiyta atinkichu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 minute
+       *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }
 
 ## MENU ITEM TOOLTIPS
 
