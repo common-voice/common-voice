@@ -113,6 +113,11 @@ about-playbook-how-access-dataset-content-2 = Si ses chirchende ainas pro creare
 about-playbook-how-project-governance = Comente si pigant is detzisiones de su progetu?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice est possìbile gràtzias a una comunidade diversa de ativistas, linguistas, iscientziados de datos e ingegneris de programmas de totu su mundu. Su progetu est gestidu dae sa Fundatzione Mozilla.
 about-playbook-how-project-governance-content-3 = Riservadesa, seguresa e trasparèntzia.
+about-playbook-how-project-governance-content-4 = Partetzipatzione de sa comunidade in su protzessu de detzisiones.
+about-playbook-how-project-governance-content-5 = Valore e reconnoschimentu.
+about-playbook-how-project-governance-content-6 = Responsabilidade mùtua
+about-playbook-how-project-governance-content-7 = <governanceLink>Àteras informatziones in pitzus de comente nos guvernamus</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Comente est finantziadu Common Voice?

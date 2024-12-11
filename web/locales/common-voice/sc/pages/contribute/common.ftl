@@ -17,7 +17,11 @@ contribute-more =
        *[other] Ses prontu a nde fàghere àteros { $count }?
     }
 speak-empty-state = Amus acabbadu is frases de registrare in custa limba...
+no-sentences-for-variants = Podet èssere chi non nche siant prus fràsias a disponimentu pro sa variedade linguìstica tua. Si boles, podes modificare is cunfiguratziones pro bìdere àteras fràsias a intro de sa limba tua.
 speak-empty-state-cta = Contribui cun frases
+speak-loading-error =
+    No amus pòdidu carrigare is fràsias.
+    Torra·nche a proare a pustis.
 record-button-label = Registra sa boghe tua
 share-title-new = <bold>Agiuda·nos</bold> a agatare prus boghes
 keep-track-profile = Sighi su progressu tuo cun unu profilu
@@ -28,6 +32,14 @@ target-segment-first-banner = Agiuda a creare su primu segmentu obietivu de Comm
 target-segment-add-voice = Agiunghe sa boghe tua
 target-segment-learn-more = Àteras informatziones
 change-preferences = Modìfica is preferèntzias
+login-signup = Intra/Registra·ti
+vote-yes = Eja
+vote-no = Nono
+datasets = Pachetes de datos
+languages = Limbas
+about = Informatziones
+partner = Alleàntzias
+submit-form-action = Imbia
 
 ## Reporting
 
