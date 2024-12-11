@@ -4,6 +4,10 @@ welcome-to-spontaneous-speech = تەبىئىي سۆھبەتكە خۇش كەلد�
 # <br></br> represents a newline break
 wall-of-text = Common Voice ئەسلى، تەبىئىي، خەتكە پۈتۈلمىگەن سۆھبەتلەرنى توپلاشقا مەركەزلەشكەن ئىككىنچى سۇپىنى قوزغىتىۋاتىدۇ. بۇ نۇرغۇن جامائەتنىڭ تېز سۈرئەتتە سانلىق مەلۇمات توپلىشىغا ياردەم بېرىدۇ، شۇنداقلا سانلىق مەلۇمات ئالىملىرى ۋە ئىجادكارلىرى ئۈچۈنمۇ قولايلىق.
 why-spontaneous-speech = نېمە ئۈچۈن تەبىئىي سۆھبەت ئەسلى تۈرىنى قۇرىمىز
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = <mark>تەبىئىي سۆھبەت مۇھىتى</mark>غا ماسلىشىشقا پايدىلىق ۋە ئەمەلىي مىسال (مەسىلەن، ئاۋاز تونۇش تېخنىكىسى تېكىستسىز ئېغىز تىلى بايانىنى بىر تەرەپ قىلىش)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = تىل ھالقىغان ۋە <mark>تىل كودى ئالماشتۇرۇش</mark>قا ئوخشاش ئەمەلىي تىل قوللىنىش مۇھىتىنى تېخىمۇ قوللاش
 how-spontaneous-speech-works = تەبىئىي سۆھبەت قانداق ئىشلەيدۇ
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>خەت پۈت</mark>
