@@ -3,7 +3,7 @@ action-tap = Toca
 contribute = Contribui
 review = Revisiona
 skip = Brinca
-shortcuts = Incurtzaduras
+shortcuts = Curtzadòrgios
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> registratzione
@@ -28,11 +28,6 @@ target-segment-first-banner = Agiuda a creare su primu segmentu obietivu de Comm
 target-segment-add-voice = Agiunghe sa boghe tua
 target-segment-learn-more = Àteras informatziones
 change-preferences = Modìfica is preferèntzias
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Regorta de boghes
-contribute-sentence-collection-nav-header = Regorta de fràsias
 
 ## Reporting
 

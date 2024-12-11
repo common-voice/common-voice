@@ -80,6 +80,9 @@ about-playbook-how-add-sentences = Comente fatzo a agiùnghere fràsias?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Èvita tropu abbolotu in s’isfundu: diat dèpere èssere fàtzile a ti intèndere.
+about-playbook-how-record-content-3 = Leghe is fràsias cun atentzione: non perdas, càmbies o agiungas faeddos.
+about-playbook-how-record-content-4 = Assegura·ti chi sa prataforma est registrende in antis de cumintzare a faeddare, e chi si firmat una borta apas acabbadu.
 
 ## How to grow language
 
