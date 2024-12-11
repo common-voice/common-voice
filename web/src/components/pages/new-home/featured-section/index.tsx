@@ -14,16 +14,18 @@ export const FeaturedSection = () => {
           <h2 className="featured-title" />
         </Localized>
         <div className="featured-logos">
-          <img src={require('./assets/forbes.svg')} alt="" className="logo" />
-          <img src={require('./assets/newsweek.svg')} alt="" className="logo" />
-          <img src={require('./assets/bbc.svg')} alt="" className="logo" />
           <img
-            src={require('./assets/bloomberg.svg')}
+            src={require('./assets/MIT-technology-review.svg')}
             alt=""
             className="logo"
           />
           <img
-            src={require('./assets/newscientist.svg')}
+            src={require('./assets/fast-company.svg')}
+            alt=""
+            className="logo"
+          />
+          <img
+            src={require('./assets/financial-times.svg')}
             alt=""
             className="logo"
           />

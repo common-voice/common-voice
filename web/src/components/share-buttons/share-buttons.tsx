@@ -2,33 +2,34 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useRef } from 'react';
-import { trackSharing } from '../../services/tracker';
-import { Notifications } from '../../stores/notifications';
-import { FontIcon, XIcon } from '../ui/icons';
-import { useLocale } from '../locale-helpers';
-import URLS from '../../urls';
+} from '@fluent/react'
+import * as React from 'react'
+import { useRef } from 'react'
+import { trackSharing } from '../../services/tracker'
+import { Notifications } from '../../stores/notifications'
+import { FontIcon, FooterLinkIcon, XIcon } from '../ui/icons'
+import { useLocale } from '../locale-helpers'
+import URLS from '../../urls'
 
-import './share-buttons.css';
-import { useAction } from '../../hooks/store-hooks';
+import { useAction } from '../../hooks/store-hooks'
 
-const SHARE_URL = URLS.HTTP_ROOT;
+import './share-buttons.css'
+
+const SHARE_URL = URLS.HTTP_ROOT
 
 interface Props extends WithLocalizationProps {
-  shareTextId?: string;
+  shareTextId?: string
 }
 
 function ShareButtons({ getString, shareTextId }: Props) {
-  const [locale] = useLocale();
-  const addNotification = useAction(Notifications.actions.addPill);
+  const [locale] = useLocale()
+  const addNotification = useAction(Notifications.actions.addPill)
   const encodedShareText = encodeURIComponent(
     shareTextId
       ? getString(shareTextId, { link: SHARE_URL })
       : getString('share-text', { link: SHARE_URL })
-  );
-  const shareURLInputRef = useRef(null);
+  )
+  const shareURLInputRef = useRef(null)
 
   return (
     <>
@@ -36,9 +37,9 @@ function ShareButtons({ getString, shareTextId }: Props) {
         id="link-copy"
         className="share-button"
         onClick={() => {
-          shareURLInputRef.current.select();
-          document.execCommand('copy');
-          trackSharing('link', locale);
+          shareURLInputRef.current.select()
+          document.execCommand('copy')
+          trackSharing('link', locale)
 
           addNotification(
             <>
@@ -47,11 +48,19 @@ function ShareButtons({ getString, shareTextId }: Props) {
                 <span />
               </Localized>
             </>
-          );
+          )
         }}>
         <input type="text" readOnly value={SHARE_URL} ref={shareURLInputRef} />
-        <FontIcon type="link" />
+        <FooterLinkIcon />
       </button>
+      <a
+        className="share-button"
+        href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => trackSharing('twitter', locale)}>
+        <XIcon />
+      </a>
       <a
         className="share-button"
         href={
@@ -63,16 +72,8 @@ function ShareButtons({ getString, shareTextId }: Props) {
         onClick={() => trackSharing('facebook', locale)}>
         <FontIcon type="facebook" />
       </a>
-      <a
-        className="share-button"
-        href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={() => trackSharing('twitter', locale)}>
-        <XIcon />
-      </a>
     </>
-  );
+  )
 }
 
-export default withLocalization(ShareButtons);
+export default withLocalization(ShareButtons)

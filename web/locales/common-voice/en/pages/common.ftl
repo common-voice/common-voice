@@ -307,6 +307,7 @@ privacy = Privacy
 terms = Terms
 cookies = Cookies
 faq = FAQ
+documentation = Documentation
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
