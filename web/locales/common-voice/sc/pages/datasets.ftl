@@ -10,6 +10,7 @@ datasets-positioning =
     Càstia·ti custa pàgina comente riferimentu pro àteros pachetes de datos vocales lìberos e, a manu a manu chi Common Voice sighit a crèschere, comente una pàgina pro is atualizatziones de is versiones nostras.
 language = Limba
 download-dataset-header = Iscàrriga su pachete de datos
+download-delta-explainer = Amus fatu calicuna modìfica. Is segmentos Delta cuntenent isceti is registratziones prus reghentes dae s’ùrtima versione. <deltaLink>Àteras informatziones in pitzus de custu traballu</deltaLink>.
 # File size in gigabytes
 size = Mannària
 validated-hr-total = Totale de oras aprovadas
