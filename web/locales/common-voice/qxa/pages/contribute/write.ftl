@@ -21,7 +21,7 @@ new-sentence-rule-5 = Yupaykuna, sananpakunapis manami kananchu
 new-sentence-rule-6 = Haapa qillqakuna manami kananchu
 new-sentence-rule-7 = Include appropriate citation
 new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
-login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
+login-instruction-multiple-sentences = <loginLink>Yaykuy</loginLink> icha <loginLink>qillqakuy</loginLink> achka rimaykunata yapanaykipaq
 how-to-cite = ¿Imanawtaq willashaq?
 how-to-cite-explanation-bold = URL tinkita churashpa icha qillqashqa maytupa llapan shutinta qillqashpa willay.
 how-to-cite-explanation = Kikiykipa shimiyki kaptinqa, <italicizedText>“Kikiipa willaynii”</italicizedText> nishpalla niy. Maychaw kay willayta tarishqaykitami musyayta munayaa, llapan runapaq kaqta, mana kaqtapis musyayaanaapaq, chaypita copyrightpa kamachiyninkunapita washakuyaanaapaq. Willaykuna churaypita <guidelinesLink>Guidelines page</guidelinesLink> nishqanchaw ashwan rikay.
@@ -43,27 +43,27 @@ agriculture_food = Chakra llamkay, mikuypis
 # Sentence Domain dropdown option
 automotive_transport = Automotive and Transport
 # Sentence Domain dropdown option
-finance = Finance
+finance = Wakiy
 # Sentence Domain dropdown option
 service_retail = Service and Retail
 # Sentence Domain dropdown option
 general = Llapan
 # Sentence Domain dropdown option
-healthcare = Healthcare
+healthcare = Alli kay
 # Sentence Domain dropdown option
 history_law_government = History, Law and Government
 # Sentence Domain dropdown option
 language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
 # Sentence Domain dropdown option
-media_entertainment = Media and Entertainment
+media_entertainment = Willakuykunawan qaynakuna
 # Sentence Domain dropdown option
-nature_environment = Nature and Environment
+nature_environment = Pachamamawan kawashqanchik patsakuna
 # Sentence Domain dropdown option
-news_current_affairs = News and Current Affairs
+news_current_affairs = Mushuq willakuykuna, kanan watakunachaw imanaykuna
 # Sentence Domain dropdown option
 technology_robotics = Technology and Robotics
 sentence-variant-select-label = Rimaypa huk niraq pashtachiynin
-sentence-variant-select-placeholder = Huk niraq pashtachiyninta akray (munasqa)
+sentence-variant-select-placeholder = Huk niraq pashtachiyninta akray (munarqa)
 sentence-variant-select-multiple-variants = Shimi / imayka niraq pashtachiykuna
 
 ## BULK SUBMISSION 
@@ -98,9 +98,9 @@ too-many-files = Allaapa achka willañiqikuna
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> llapan runapaq achka rimaykunata yapay
-multiple-sentences-error = Huklla apachiypaqqa manami achka rimaykuna yapayta atinkichu
-exceeds-small-batch-limit-error = 1000 rimaypitaqa mananami ashwan rimaykunata apachiyta atinkichu
+small-batch-instruction = small-batch-instruction = <icon></icon> llapan runapaq achka rimaykunata yapay
+multiple-sentences-error = multiple-sentences-error = Huklla apachiypaqqa manami achka rimaykuna yapayta atinkichu
+exceeds-small-batch-limit-error = exceeds-small-batch-limit-error = 1000 rimaypitaqa mananami ashwan rimaykunata apachiyta atinkichu
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
@@ -117,7 +117,7 @@ rate-limit-toast-message-seconds =
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
-       *[other] 	You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
@@ -125,39 +125,9 @@ rate-limit-message-seconds =
         [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
        *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
     }
-# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-add-small-batch-success =
-    { $totalSentences ->
-        [one] { $uploadedSentences } of 1 sentence collected
-       *[other] 	{ $uploadedSentences } of { $totalSentences } sentences collected
-    }
-# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-small-batch-response-message =
-    { $totalSentences ->
-        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
-       *[other] 	{ $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
-    }
-small-batch-sentences-rule-1 = “¿Ima rimaykunatataq yapaaman?” nishqanpita kamachiykunata qatiy
-small-batch-sentences-rule-2 = Sapa siqiman huk rimayta yapay
-small-batch-sentences-rule-3 = Huk kutillata “Yaykuy” icha “Kutichiy” nishqanchaw ñitishpa rimaykunata huk siqiman rakiy
-small-batch-sentences-rule-4 = 1,000 rimayyaq yapay
-small-batch-sentences-rule-5 = Llapan rimaykuna aywanayuq kanan
-small-batch-sentences-rule-6 = Llapan rimaykuna willayuq kanan
-# menu item
-add-sentences = Rimaykunata yapay
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = Rimaykunata yapay, rikapaypis, Tapukuykunata yapay, kunka rimaykunata wiyanapaq qillqay
-add-sentences-menu-item-tooltip = Shimiykichaw rimaykunata yapay
-review-sentences-menu-item-tooltip = Shimiykichaw rimaykunata rikapay
-add-questions-menu-item-tooltip = Shimiykichaw tapukuykunata yapay
-transcribe-audio-menu-item-tooltip = Shimiykichaw kunka rimaykunata wiyanapaq qillqay
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = Qillqay akranakuna
-add-sentences-menu-item-aria-label = Runakuna ñawinchananpaq mushuq rimaykunata yapay
-review-sentences-menu-item-aria-label = Runakuna apachimushqan rimaykunata rikapay
-add-questions-menu-item-aria-label = Mushuq tapukuykunata runakuna ñawinchashpa kutichiyaamunanpaq apachiy
-transcribe-audio-menu-item-aria-label = Kunka rimaykunata wiyanapaq qillqay
