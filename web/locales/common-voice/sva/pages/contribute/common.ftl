@@ -65,7 +65,7 @@ report-success = მა̈გ ხოჩამდ ლა̈სუ̂!
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = ქალიცუ̂რე
+shortcut-skip = ქ
 
 ## Speak Shortcuts
 
