@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Localized } from '@fluent/react'
+import { Link } from 'react-router-dom'
 import { trackNav } from '../../services/tracker'
 import URLS from '../../urls'
 import ShareButtons from '../share-buttons/share-buttons'
@@ -7,7 +8,7 @@ import { TextButton } from '../ui/ui'
 import { LocaleLink, useLocale } from '../locale-helpers'
 import Logo from './logo'
 import SubscribeNewsletter from './subscribe-newsletter'
-import { GitHubLink } from '../shared/links'
+import { ContactLink, GitHubLink } from '../shared/links'
 
 import './footer.css'
 
@@ -33,6 +34,7 @@ const LocalizedLocaleLink = ({
 }
 
 const Footer = React.memo(() => {
+  const [, toLocaleRoute] = useLocale()
   return (
     <footer>
       <div id="moz-links">
@@ -40,6 +42,11 @@ const Footer = React.memo(() => {
         <div className="links">
           <div className="divider-vertical" />
           <div>
+            <ContactLink>
+              <Localized id="contact-us">
+                <p />
+              </Localized>
+            </ContactLink>
             <LocalizedLocaleLink
               id="privacy"
               to={URLS.PRIVACY}
@@ -62,6 +69,15 @@ const Footer = React.memo(() => {
           <div>
             <LocalizedLocaleLink id="about" to={URLS.ABOUT} />
             <GitHubLink>GitHub</GitHubLink>
+            <Localized id="faq">
+              <Link to={toLocaleRoute(URLS.FAQ)} />
+            </Localized>
+            <Localized id="documentation">
+              <Link to={toLocaleRoute(URLS.FAQ)} />
+            </Localized>
+            <Localized id="download">
+              <Link to={toLocaleRoute(URLS.DATASETS)} />
+            </Localized>
           </div>
         </div>
 
