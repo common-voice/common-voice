@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = خەتكە قانداق پۈتۈشنى ئۆگىن�
 learn-how-to-use-transcribe-explanation = سۆزلەۋاتقان كىشىنىڭ نېمە دېگەنلىكىنى تەپسىلىي يېزىڭ، «ھە» ياكى «ھىم» دېگەندەك ئەمەلىي مەنىسى يوق سۆزلەرمۇ شۇنىڭ ئىچىدە.
 learn-how-to-use-transcribe-guidance = <guidanceLink>بۇ جاي</guidanceLink>نى چېكىپ بۇ بەتنى قانداق ئىشلىتىشنى ئۆگىنىڭ
 learn-how-to-use-check-transcript = خەت پۈتۈكنى قانداق تەكشۈرۈشنى ئۆگىنىڭ
+learn-how-to-use-check-transcript-explanation = خەت پۈتۈككە سۆزلىگۈچىنىڭ دېگەن ھەممە گېپى خاتىرىلىنىشى كېرەك، سۆز ئەمەس سۆھبەت ئاۋازى، تەكرارلىغانلىرىمۇ شۇنىڭ ئىچىدە.
+learn-how-to-use-check-transcript-guidance = <guidanceLink>بۇ جاي</guidanceLink>نى چېكىپ بۇ بەتنى قانداق ئىشلىتىشنى ئۆگىنىڭ
