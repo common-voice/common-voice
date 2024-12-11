@@ -44,15 +44,88 @@ submit-form-action = Apachiy
 ## Reporting
 
 report = Willakuy
+report-title = Willakuyta apachiy
+report-ask = What issues are you experiencing with this sentence?
+report-offensive-language = Millay simi
+report-offensive-language-detail = Chay rimaychaqa ashllikuq shimiyuqmi.
+report-grammar-or-spelling = Grammatical / spelling error
+report-grammar-or-spelling-detail = The sentence has a grammatical or spelling error.
+report-different-language = Huk simi
+report-different-language-detail = Manami rimashqaa shimichawchu qillqashqa kaykan.
+report-difficult-pronounce = Sasa pashtachiymi
+report-difficult-pronounce-detail = Sasa ñawinchanapaq icha sasa pashtachinapaq shimikuna icha rimaykunami kan.
+report-offensive-speech = Ashllikuq rimay
+report-offensive-speech-detail = Chay rimaychawqa ashllikuq shimikunami kaykan.
+report-other-comment =
+    .placeholder = Rimakuy
+success = Allinmi
+continue = Qatiy
+report-success = Chay willakuyqa chaskishqanami
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Record/Stop
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Re-record clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
+shortcut-submit = Kutiy
+shortcut-submit-label = Apachiy
+request-language-text = ¿Manaraqku shimiykita Common Voicechaw rikanki?
+request-language-button = Huk shimita mañakuy
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = a
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = m
 
 ## Validation criteria
 
+contribution-criteria-nav = Criteria
+contribution-criteria-link = Understand contribution criteria
+contribution-criteria-page-title = Contribution Criteria
+contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
+contribution-for-example = kaynaw
+contribution-misreadings-title = Misreadings
+contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
+contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
+contribution-misreadings-example-8-title = The bumblebee sped by.
+contribution-misreadings-example-8-explanation = [Mismatched content]
+contribution-varying-pronunciations-title = Varying Pronunciations
+contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
+contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
