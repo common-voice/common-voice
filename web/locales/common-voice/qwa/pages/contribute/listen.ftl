@@ -11,9 +11,18 @@ listen-loading-error =
     Qipaman kutiykur kallpachakuy.
 listen-abort-title = ¿Usharqunkiku chay kunka rimaykuna awniyta?
 listen-abort-cancel = Awniyta qatishaqraq
+listen-abort-confirm = Awniyta ushashaq
+# Menu item
+validate-readings = Kunka rimaykunata awniy
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Kunka rimaykunata awniy, rikapaypis
+validate-readings-menu-item-tooltip = Shimiykichaw kaq kunka rimaykunata awniy.
+review-transcriptions-menu-item-tooltip = Shimiykichaw qillqashqa qillqaykuna rikapay
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Akranakunata wiyay
+validate-readings-menu-item-aria-label = Marka runakuna apachiyaamushqan kunka rimaykunata rikapay
+review-transcriptions-menu-item-aria-label = Rimayashqan rimaykuna qillqakashqankunata rikapay
