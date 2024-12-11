@@ -16,13 +16,19 @@ prompt-bubble-title = <mark>ئەسكەرتىش</mark>
 prompt-bubble-subtitle = سىزگە ئەسكەرتىش ياكى سوئالنى كۆرسىتىمىز
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جاۋاب</mark>
+respond-bubble-subtitle = ئامالنىڭ بارىچە تەبىئىي ئىنكاس ياكى جاۋاب قايتۇرۇڭ
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>خەت پۈت</mark>
+transcribe-bubble-subtitle = ئۈن ئۈزۈندىسىدىن نېمىنى ئاڭلىغىنىڭىزنى يېزىڭ
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>تەكشۈر</mark>
+check-bubble-subtitle = خەت پۈتۈكنىڭ ئاۋازغا ماس كېلىدىغان كەلمەيدىغانلىقىنى تەكشۈرۈڭ
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>سانلىق مەلۇمات</mark>
+data-bubble-subtitle = سانلىق مەلۇمات توپلىمىنى قەرەللىك ھالدا تارقىتىمىز
 contact-us = بىز بىلەن ئالاقىلىشىڭ
+contact-us-title = بۇ قۇرۇلۇشقا قاتنىشىشقا قىزىقامسىز ياكى بىز بىلەن ھەمكارلىشامسىز؟
+contact-us-email = ئېلخەت: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = سىز Common Voice نىڭ تەبىئىي سۆھبەت قۇرۇلۇشىنىڭ سىناق گۇرۇپپىمىزدىمۇ؟
 signup-input-placeholder = ئېلخىتىڭىزنى كىرگۈزۈڭ
 signup-button-value = ئۇلانمىنى ئېلخېتىمگە ئەۋەتىڭ
