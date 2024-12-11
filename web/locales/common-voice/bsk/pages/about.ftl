@@ -7,8 +7,8 @@ how-does-it-work-text = Mii dunyaatulum ućʰariṅe dataset gati echa baan. may
 
 ## How does it work section
 
-about-language-req-subtitle = menane baaṣan kaa ećar duġaruśam.
-about-localization-title = website miimo baaṣulo desmaẏas
+about-language-req-subtitle = girminin
+about-localization-title = website localization
 about-localization-subtitle = gute websit e text ite baaṣulo tarjuma manila
 about-sentence-collection-title = gati etumin jumulaṅ
 about-sentence-collection-subtitle = jumlaṅ śatine ġatayar gaṭi etum bican
