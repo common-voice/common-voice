@@ -39,3 +39,24 @@ sc-review-link = Rikapay
 sc-criteria-modal = ⓘ Rikapaypaq kamachiykuna
 sc-criteria-title = Rikapaypaq kamachiykuna
 sc-criteria-make-sure = Llapan rimaykuna kay shamuq kamachiykunamannaw kanan:
+sc-criteria-item-1 = Chay rimayqa alli qillqashqami kanan.
+sc-criteria-item-2 = Chay rimayqa shimikamaymannawmi kanan.
+sc-criteria-item-3 = Chay rimayqa pashtachinapaqnawmi kanan.
+sc-criteria-item-4 = Kamachiykunamannaw rimay kaptinqa, &quot;Awniy&quot; alliqchaw tanuy.
+sc-criteria-item-5-2 = Kamachiykunamannaw rimay mana kaptinqa, &quot;Mana niy&quot; ichuqchaw tanuy. Mana musyarqa pintinkimanmi, niykur qatiqninmanmi aywankiman.
+sc-criteria-item-6 = Rikapaanaykipaq rimaykuna mana kaptinnaqa, ¡ashwan rimaykuna shuntayta yanapayaamay!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Ashpiy <icon></icon> Shimiykichaw, ¿alliku kay rimay kaykan?
+sc-review-rules-title = ¿Chay rimayqa kamachikuykunamannawku kaykan?
+sc-review-empty-state = Kananqa manami kay shimichaw rimaykuna rikapaanapaq kannachu.
+report-sc-different-language = Huk shimi
+report-sc-different-language-detail = Manami shimi rikapaykashqaachawchu kaykan.
+sentences-fetch-error = Rimaykuna ashiychaw pantaymi karqun.
+review-error = Kay rimayta rikapaychaw pantaymi karqun
+review-error-rate-limit-exceeded = Allaapa rasmi aywaykanki. Rimayta achka kuti rikapaykuy, alli kashqanta musyanaykipaq.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Shumaq aruykunatami ruraykaayaa
+sc-redirect-page-subtitle-1 = Sentence Collector nishqanqa Common Voice nishqanmanmi aywakuykan. Kananqa <writeURL>qillqayta</writeURL> huk rimayta icha <reviewURL>qhaway</reviewURL> hukllaylla rimay apachiytapis Common Voice atinkimanmi.
+sc-redirect-page-subtitle-2 = Chaykunapita tapuyaamay <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> utaq <emailLink>email</emailLink>.
+# menu item
+review-sentences = Rimaykunata rikapay
