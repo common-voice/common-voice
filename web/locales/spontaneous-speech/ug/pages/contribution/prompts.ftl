@@ -24,3 +24,6 @@ learn-how-to-use-prompts = بۇ بەتنى قانداق ئىشلىتىشنى ئ�
 learn-how-to-use-prompts-explanation = ئامالنىڭ بارىچە بىر قانچە تەبىئىي جۈملە بىلەن سۆز بېشىغا جاۋاب قايتۇرۇڭ. ئىشلەتكەن تىلىڭىز باشقىلارغا ھۆرمەتلەپ، بىزار قىلمىسۇن.
 learn-how-to-use-prompts-guidance = <guidanceLink>بۇ جاي</guidanceLink>نى چېكىپ بۇ بەتنى قانداق ئىشلىتىشنى ئۆگىنىڭ
 learn-how-to-use-transcribe = خەتكە قانداق پۈتۈشنى ئۆگىنىش
+learn-how-to-use-transcribe-explanation = سۆزلەۋاتقان كىشىنىڭ نېمە دېگەنلىكىنى تەپسىلىي يېزىڭ، «ھە» ياكى «ھىم» دېگەندەك ئەمەلىي مەنىسى يوق سۆزلەرمۇ شۇنىڭ ئىچىدە.
+learn-how-to-use-transcribe-guidance = <guidanceLink>بۇ جاي</guidanceLink>نى چېكىپ بۇ بەتنى قانداق ئىشلىتىشنى ئۆگىنىڭ
+learn-how-to-use-check-transcript = خەت پۈتۈكنى قانداق تەكشۈرۈشنى ئۆگىنىڭ
