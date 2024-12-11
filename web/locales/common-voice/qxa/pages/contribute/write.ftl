@@ -125,9 +125,39 @@ rate-limit-message-seconds =
         [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
        *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
+small-batch-sentences-rule-1 = “¿Ima rimaykunatataq yapaaman?” nishqanpita kamachiykunata qatiy
+small-batch-sentences-rule-2 = Sapa siqiman huk rimayta yapay
+small-batch-sentences-rule-3 = Huk kutillata “Yaykuy” icha “Kutichiy” nishqanchaw ñitishpa rimaykunata huk siqiman rakiy
+small-batch-sentences-rule-4 = 1,000 rimayyaq yapay
+small-batch-sentences-rule-5 = Llapan rimaykuna aywanayuq kanan
+small-batch-sentences-rule-6 = Llapan rimaykuna willayyuq kanan
+# menu item
+add-sentences = Rimaykunata yapay
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Rimaykunata yapay, rikapaypis, Tapukuykunata yapay, kunka rimaykunata wiyanapaq qillqay
+add-sentences-menu-item-tooltip = Shimiykichaw rimaykunata yapay
+review-sentences-menu-item-tooltip = Shimiykichaw rimaykunata rikapay
+add-questions-menu-item-tooltip = Shimiykichaw tapukuykunata yapay
+transcribe-audio-menu-item-tooltip = Shimiykichaw kunka rimaykunata wiyanapaq qillqay
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqay akranakuna
+add-sentences-menu-item-aria-label = Runakuna ñawinchananpaq mushuq rimaykunata yapay
+review-sentences-menu-item-aria-label = Runakuna apachimushqan rimaykunata rikapay
+add-questions-menu-item-aria-label = Mushuq tapukuykunata runakuna ñawinchashpa kutichiyaamunanpaq apachiy
+transcribe-audio-menu-item-aria-label = Kunka rimaykunata wiyanapaq qillqay
