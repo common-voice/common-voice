@@ -171,6 +171,10 @@
             text-transform: capitalize;
             font-size: 16px;
             padding: 0;
+            overflow-x: auto;
+            max-width: 280px;
+            white-space: nowrap;
+            width: auto;
         }
 
         a.contribute-link {

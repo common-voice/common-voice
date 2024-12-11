@@ -58,15 +58,25 @@ const Content = ({
               return (
                 <>
                   <Icon />
-                  <Localized id={localizedId}>
+                  <Localized
+                    id={`${localizedId}-coming-soon`}
+                    elems={{ small: <span /> }}>
                     <p className="coming-soon-text" />
                   </Localized>
-                  <span>({l10n.getString('coming-soon')})</span>
                 </>
               )
             }
 
-            if (internalHref && isLocaleContributable) {
+            if (isLocaleContributable && isSpeakOrListenUrl) {
+              return (
+                <LocaleLink to={internalHref} className="contribute-link">
+                  <Icon />
+                  <Localized id={localizedId} />
+                </LocaleLink>
+              )
+            }
+
+            if (internalHref && !isSpeakOrListenUrl) {
               return (
                 <LocaleLink to={internalHref} className="contribute-link">
                   <Icon />
