@@ -388,6 +388,16 @@ const VARIANTS: Variant[] = [
     variant_name: '台羅 (TL)',
     variant_token: 'nan-TW-tailo',
   },
+  {
+    locale_name: 'var',
+    variant_name: 'Warihío (Guarijío de la sierra)',
+    variant_token: 'var-sierra',
+  },
+  {
+    locale_name: 'var',
+    variant_name: 'Makurawe (Guarijío del río)',
+    variant_token: 'var-delrio',
+  },
 ]
 
 type Locale = {
