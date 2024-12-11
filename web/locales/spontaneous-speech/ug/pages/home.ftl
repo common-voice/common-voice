@@ -8,7 +8,14 @@ why-spontaneous-speech = نېمە ئۈچۈن تەبىئىي سۆھبەت ئەس�
 why-card-1-text = <mark>تەبىئىي سۆھبەت مۇھىتى</mark>غا ماسلىشىشقا پايدىلىق ۋە ئەمەلىي مىسال (مەسىلەن، ئاۋاز تونۇش تېخنىكىسى تېكىستسىز ئېغىز تىلى بايانىنى بىر تەرەپ قىلىش)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = تىل ھالقىغان ۋە <mark>تىل كودى ئالماشتۇرۇش</mark>قا ئوخشاش ئەمەلىي تىل قوللىنىش مۇھىتىنى تېخىمۇ قوللاش
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = ئاز ئۇچرايدىغان ياكى پايدىلانغىلى بولىدىغان <mark>يېزىق تېكىست توپلىمى يوق</mark> تىل (مەسىلەن، كوچا تىلى، شىۋە، ئىلگىرى يېزىقى يوق تىل قاتارلىق) نى تېخىمۇ ياخشى قوللاش
 how-spontaneous-speech-works = تەبىئىي سۆھبەت قانداق ئىشلەيدۇ
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>ئەسكەرتىش</mark>
+prompt-bubble-subtitle = سىزگە ئەسكەرتىش ياكى سوئالنى كۆرسىتىمىز
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جاۋاب</mark>
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>خەت پۈت</mark>
 # text wrapped in <mark></mark> will have a blue background
