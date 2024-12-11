@@ -20,6 +20,49 @@ new-sentence-rule-4 = Shimipa alli qillqayninta, chikukunatapis iñishiy
 new-sentence-rule-5 = Yupaykuna, sananpakunapis manami kananchu
 new-sentence-rule-6 = Haapa qillqakuna manami kananchu
 new-sentence-rule-7 = Include appropriate citation
+new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
+login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
+how-to-cite = ¿Imanawtaq willashaq?
+how-to-cite-explanation-bold = URL tinkita churashpa icha qillqashqa maytupa llapan shutinta qillqashpa willay.
+how-to-cite-explanation = Kikiykipa shimiyki kaptinqa, <italicizedText>“Kikiipa willaynii”</italicizedText> nishpalla niy. Maychaw kay willayta tarishqaykitami musyayta munayaa, llapan runapaq kaqta, mana kaqtapis musyayaanaapaq, chaypita copyrightpa kamachiyninkunapita washakuyaanaapaq. Willaykuna churaypita <guidelinesLink>Guidelines page</guidelinesLink> nishqanchaw ashwan rikay.
+guidelines = Kamachiykuna
+contact-us = Ñuqakunawan rimanakuy
+add-sentence-success = 1 shuntashqa rimay
+add-sentence-error = Rimay yapaychaw pantay
+required-field = Kay pampata huntachiy.
+single-sentence-submission = Huk rimayllata apachiy
+small-batch-sentence-submission = Ichik ichikpa rimaykunata apachiy
+bulk-sentence-submission = Achkapa rimaykunata apachiy.
+single-sentence = Hapallan rimay
+small-batch-sentence = Ichik shuntu
+bulk-sentence = Hatun shuntu
+sentence-domain-combobox-label = Rimaypa aywanan
+sentence-domain-select-placeholder = Kimsa aywanatapis akrankimanmi (munasqa)
+# Sentence Domain dropdown option
+agriculture_food = Chakra llamkay, mikuypis
+# Sentence Domain dropdown option
+automotive_transport = Automotive and Transport
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+service_retail = Service and Retail
+# Sentence Domain dropdown option
+general = Llapan
+# Sentence Domain dropdown option
+healthcare = Healthcare
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Media and Entertainment
+# Sentence Domain dropdown option
+nature_environment = Nature and Environment
+# Sentence Domain dropdown option
+news_current_affairs = News and Current Affairs
+# Sentence Domain dropdown option
+technology_robotics = Technology and Robotics
+sentence-variant-select-label = Rimaypa huk niraq pashtachiynin
 
 ## BULK SUBMISSION 
 
