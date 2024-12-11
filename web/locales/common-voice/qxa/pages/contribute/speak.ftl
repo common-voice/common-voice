@@ -71,3 +71,6 @@ answer-questions-menu-item-tooltip = Tapukuykunata tapuykunata simiykipi kutichi
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Kunka akllanakuna qillqa
+read-sentences-menu-item-aria-label = Ayllu runakunapa apachisqan rimaykunata imaymana simikunapi ñawinchay
+answer-questions-menu-item-aria-label = Musuq tapukuyta llaqta runakuna ñawinchaspa kutichinankupaq apachiy
