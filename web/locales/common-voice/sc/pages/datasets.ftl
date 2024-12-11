@@ -11,12 +11,14 @@ datasets-positioning =
 language = Limba
 download-dataset-header = Iscàrriga su pachete de datos
 download-delta-explainer = Amus fatu calicuna modìfica. Is segmentos Delta cuntenent isceti is registratziones prus reghentes dae s’ùrtima versione. <deltaLink>Àteras informatziones in pitzus de custu traballu</deltaLink>.
+download-dataset-tag = Seletziona su pachete de datos de sa limba chi boles e seletziona sa versione chi boles iscarrigare.
 # File size in gigabytes
 size = Mannària
 validated-hr-total = Totale de oras aprovadas
 overall-hr-total = Totale de oras
 cv-license = Lissèntzia
 audio-format = Formatu de àudio
+dataset-splits = Grupos (edade e sessu)
 number-of-voices = Nùmeru de boghes
 splits = Partziduras
 email-to-download = Inserta s'indiritzu de posta eletrònica pro iscarrigare
@@ -25,6 +27,7 @@ confirm-size = Ses prontu a cumintzare un'iscarrigamentu de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Atzetas</b> de non chircare de determinare s'identidade de is chistionadores in su pachete de datos de Common Voice
+confirm-join-mailing-list = Bògio aderire a sa lista de posta de Common Voice
 download-language = Iscàrriga ({ $language })
 validated-hours = Oras validadas
 recorded-hours = Oras registradas
@@ -67,6 +70,7 @@ dataset-metadata-sex = Sessu
 # dataset metadata - age of contributor
 dataset-metadata-age = Edade
 donate-modal-message = Iscarrighende su pachete de datos.
+dataset-donate-modal-heading = Ischias chi…?
 data-download-singleword-title = Iscàrriga su segmentu ispetzìficu cun is faeddos individuales
 data-download-singleword-callout-v2 = Custu est unu segmentu basadu subra de unu casu de impitu ispetzìficu chi cuntenet datos pro alimentare su reconnoschimentu vocale de is tzifras e su rilevamentu de eja/nono.
 data-download-button = Iscàrriga datos de Common Voice
@@ -86,3 +90,7 @@ release-version = Versione
 dataset-date = Data
 license = Lissèntzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Iscàrriga is pachetes de datos de boghe nostros
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Optziones de iscarrigamentu pro s’atzessu a is datos de Common Voice
