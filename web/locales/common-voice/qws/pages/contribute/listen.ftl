@@ -23,3 +23,6 @@ review-transcriptions-menu-item-tooltip = Shimiykichaw qillqashqa qillqaykuna ri
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Akranakunata wiyay
+validate-readings-menu-item-aria-label = Marka runakuna apachiyaamushqan kunka rimaykunata rikapay
+review-transcriptions-menu-item-aria-label = Rimayashqan rimaykuna qillqakashqankunata rikapay
