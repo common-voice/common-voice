@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType }<playIcon></playIcon>ئاۋاز ئۈزۈندىسىنى ئاڭلاپ، خەت پۈتۈكىنى تەكشۈرۈڭ. ماس كېلەمدۇ؟ ئەگەر ماس كەلمىسە، ئۇنى تەھرىرلەپ تولۇق ماسلاشتۇرۇڭ.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = تەكشۈر
 no-transcriptions-message = ھازىر بۇ تىلدا ھېچقانداق خەت پۈتۈك يوق. بەتنى يېڭىلاڭ ياكى سەل تۇرۇپ قايتا سىناڭ.

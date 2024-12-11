@@ -21,4 +21,6 @@ submit-all-button = ھەممىنى يوللا
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = بۇ بەتنى قانداق ئىشلىتىشنى ئۆگىنىۋېلىڭ
+learn-how-to-use-prompts-explanation = ئامالنىڭ بارىچە بىر قانچە تەبىئىي جۈملە بىلەن سۆز بېشىغا جاۋاب قايتۇرۇڭ. ئىشلەتكەن تىلىڭىز باشقىلارغا ھۆرمەتلەپ، بىزار قىلمىسۇن.
+learn-how-to-use-prompts-guidance = <guidanceLink>بۇ جاي</guidanceLink>نى چېكىپ بۇ بەتنى قانداق ئىشلىتىشنى ئۆگىنىڭ
 learn-how-to-use-transcribe = خەتكە قانداق پۈتۈشنى ئۆگىنىش
