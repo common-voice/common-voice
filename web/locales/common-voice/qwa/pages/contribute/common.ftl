@@ -1,5 +1,5 @@
 action-click = Click
-action-tap = Akray
+action-tap = Tap
 contribute = Yanapay
 review = Kutipay
 skip = Pintiy
@@ -21,14 +21,14 @@ no-sentences-for-variants = ¡Markashimiykiqa manapischi shimiyuqchu kanman! Mun
 speak-empty-state-cta = Ashwan rimaychakunata qillqar yanapakuy
 speak-loading-error =
     Manami ima rimaytapis rimanaykipaq tariyta atiyaachu. 
-    Qipaman kutiykur kallpachakuy.
+        Qipaman kutiykur kallpachakuy.
 record-button-label = Kunka rimayniykiwan rimay
 share-title-new = <bold>Yanapayaamay</bold> ashwan kunka rimaykunata tariyaanapaq
 keep-track-profile = Qillqakamachiy ñawpaman purishqaykita rikanaykipaq
 login-to-get-started = Yaykuy icha qillqakuy qallariypaq
 target-segment-first-card = Ñawpa kaq taqaakunachaw yanapakuykanki
 target-segment-generic-card = Taqaakunachaw yanapakuykanki
-target-segment-first-banner = Common Voicepa ñawpa kaq taqan kamayta yanapakuy { $locale } nishqanchaw
+target-segment-first-banner = Común Voicepa ñawpa kaq taqan kamayta yanapakuy { $locale } nishqanchaw
 target-segment-add-voice = Kunka rimayniykita yapay
 target-segment-learn-more = Ashawan willa
 change-preferences = Munashqakunata hukman trukachiy
@@ -65,7 +65,7 @@ report-success = Chay willakuyqa chaskishqanami
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = p
+shortcut-skip = s
 
 ## Speak Shortcuts
 
@@ -76,7 +76,7 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Discard ongoing recording
+shortcut-discard-ongoing-recording-label = Illakaachiy
 shortcut-submit = Kutiy
 shortcut-submit-label = Apachiy
 request-language-text = ¿Manaraqku shimiykita Common Voicechaw rikanki?
@@ -101,9 +101,9 @@ contribution-criteria-nav = Yuyaykuna
 contribution-criteria-link = Yanapakuy yuyaykunapita ashwanta yachakuy
 contribution-criteria-page-title = Yanapakuy yuyaykuna
 contribution-criteria-page-description = ¡Kunka rimaykunata wiyar ima ashinaykita ashwan yachakuy, kikiykipa kunka rimayniykita imanaw allichanaykipaqpis yachakuy!
-contribution-for-example = Kaynaw
+contribution-for-example = kaynaw
 contribution-misreadings-title = Pantashqa kaayiykuna
-contribution-misreadings-description = Wiyarqa, rimashqawan qillqashqa tikushqanta shumaq allilla rikapay; rimashqawan qillqashqa mana tinkuptinqa ama awniychu. <br />Wakin pantaykunaqa kaynawmi kayan:
+contribution-misreadings-description = Wiyarqa, rimashqawan qillqashqa tikushqanta shumaq allilla rikapay; rimashqawan qillqashqa mana tinkuptinqa ama awniychu. <br /> Wakin pantaykunaqa kaynawmi kayan:
 contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
 contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
 contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
@@ -122,7 +122,7 @@ contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-title = We are going out to get a coffee.
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
-contribution-misreadings-example-8-explanation = [Manami yaykushqan tinkunchu]
+contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-title = Varying Pronunciations
 contribution-varying-pronunciations-description = Huk niraq pashtachiyta wiyarqa rasllaqa manami kay allichu nishpa niychu. Huk shimitaqa imayka laayapami pashtachiyanman, markaykichaw manapischi huk niraq pashtachiykunata wiyashqaykichu. Chayqa huk niraqpa pashtachiyaptinpis, rimayashqanta tantiyaptiykiqa, awniykuy.
 contribution-varying-pronunciations-description-extended = Ichanqa ñawinchaq chay shimita riqinmanchu, llutanta pashtachiykanmanpis, chayqa ama awniychu. Mana yacharqa pitiyta tanuy.
@@ -131,17 +131,17 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK w
 contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 contribution-background-noise-title = Qapariy wiyakan
-contribution-background-noise-description = Kay software qapariykunapita yachananta munayaa. Rimayashqan shumaq wiyakaptinqa, sinchi qapariykunatapis awnishwanmi. Mana allaapa wiyakaq qutsukunapis allimi kanman, ichanqa qutsukuna sinchi wiyakashqanrayku shimikunata mana alli wiyaptiyki, chayqa manami allichu.
+contribution-background-noise-description = Kay machine learning algorithms qapariykunapita yachananta munayaa. Rimayashqan shumaq wiyakaptinqa, sinchi qapariykunatapis awnishwanmi. Mana allaapa wiyakaq qutsukunapis allimi kanman, ichanqa qutsukuna sinchi wiyakashqanrayku shimikunata mana alli wiyaptiyki, chayqa manami allichu.
 contribution-background-noise-description-extended = Rimayashqanta chawachiyaptin icha qapariykuna wiyakaptin, ama awniychu; ichanqa llapan rimayashqan wiyakaptinqa awniy.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> The giant dinosaurs of the <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
 contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> giant dinosaurs of <strong>[crackle]</strong> -riassic.
-contribution-background-voices-title = Qapariy wiyakankuna
+contribution-background-voices-title = Kunka rimaykuna wiyakan
 contribution-background-voices-description = Mana allaapa wiyakaq qapariykuna kaptinqa allimi, ichanqa manami chay yapashqa kunka rimaykuna softwareta pantachinanta munayaachu. Mana qillqaychaw kaq shimikunata wiyaptiykiqa, ama awniychu. Kayqa chaynaw televisiónta mana upichishqaraykumi icha rimaq runapa hiruruyninchaw hukkuna rimayashqanraykupismi.
 contribution-background-voices-description-extended = Rimayashqanta chawachiyaptin icha qapariykuna wiyakaptin, ama awniychu; ichanqa llapan rimayashqan wiyakaptinqa awniy.
 contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
-contribution-background-voices-example-1-explanation = Are you coming? <strong>[called by another]</strong>
+contribution-background-voices-example-1-explanation = ¿Shamuykankinaku? <strong>[hukpa qayakushqa]</strong>
 contribution-volume-title = Winana
 contribution-volume-description = Ñawinchaqkunaqa manami chaynawlla rimaypa ñawinchayan. Qapariypa rimayashqanrayku icha allaapa upaalla rimayashqanrayku mana tantiyaptiykiqa ama awniychu.
 contribution-reader-effects-title = Ñawinchaqpa rurayninkuna
