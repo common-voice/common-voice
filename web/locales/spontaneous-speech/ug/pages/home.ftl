@@ -30,6 +30,7 @@ contact-us = بىز بىلەن ئالاقىلىشىڭ
 contact-us-title = بۇ قۇرۇلۇشقا قاتنىشىشقا قىزىقامسىز ياكى بىز بىلەن ھەمكارلىشامسىز؟
 contact-us-email = ئېلخەت: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = سىز Common Voice نىڭ تەبىئىي سۆھبەت قۇرۇلۇشىنىڭ سىناق گۇرۇپپىمىزدىمۇ؟
+signup-terms = «ئېلخېتىمگە ئۇلانما يوللا»نى چېكىش ئارقىلىق، بىزنىڭ <termsLink>مۇلازىمەت ماددىلىرى</termsLink> ۋە <privacyLink>شەخسىيەت تۈزۈمى</privacyLink>مىزگە قوشۇلغان بولىسىز. Mozilla سىزگە Common Voice نىڭ تەبىئىي سۆھبەت قۇرۇلۇشىنىڭ سىناق نەشرىگە قانداق قاتنىشىش ھەققىدە ئېلخەت ئەۋەتىشى مۇمكىن.
 signup-input-placeholder = ئېلخىتىڭىزنى كىرگۈزۈڭ
 signup-button-value = ئۇلانمىنى ئېلخېتىمگە ئەۋەتىڭ
 footer-text-privacy = <privacyLink>شەخسىيەت</privacyLink>
