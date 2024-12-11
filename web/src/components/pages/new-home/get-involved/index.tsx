@@ -2,6 +2,7 @@ import React from 'react'
 import { Localized, useLocalization } from '@fluent/react'
 import { Link } from 'react-router-dom'
 import { Tooltip } from 'react-tooltip'
+import classNames from 'classnames'
 
 import { ArrowRight } from '../../../ui/icons'
 
@@ -11,7 +12,13 @@ import URLs from '../../../../urls'
 
 import './get-involved.css'
 
-export const GetInvolvedSection = () => {
+type Props = {
+  isLocaleContributable: boolean
+}
+
+export const GetInvolvedSection: React.FC<Props> = ({
+  isLocaleContributable,
+}) => {
   const { l10n } = useLocalization()
   const [_, toLocaleRoute] = useLocale()
 
@@ -30,21 +37,41 @@ export const GetInvolvedSection = () => {
             <li>
               <Link to={toLocaleRoute(URLs.SPEAK)}>
                 <Localized id="read-sentences-link">
-                  <span />
+                  <span id="read-sentences-link" />
                 </Localized>
-                <div className="arrow-container">
+                <div
+                  className={classNames('arrow-container', {
+                    disabled: !isLocaleContributable,
+                  })}>
                   <ArrowRight />
                 </div>
+                <Tooltip
+                  anchorSelect="#read-sentences-link"
+                  place="bottom"
+                  hidden={isLocaleContributable}
+                  style={{ fontFamily: 'Open Sans', fontSize: '14.4px' }}>
+                  {l10n.getString('coming-soon')}
+                </Tooltip>
               </Link>
             </li>
             <li>
               <Link to={toLocaleRoute(URLs.LISTEN)}>
                 <Localized id="validate-readings-link">
-                  <span />
+                  <span id="validate-readings-link" />
                 </Localized>
-                <div className="arrow-container">
+                <div
+                  className={classNames('arrow-container', {
+                    disabled: !isLocaleContributable,
+                  })}>
                   <ArrowRight />
                 </div>
+                <Tooltip
+                  anchorSelect="#validate-readings-link"
+                  place="bottom"
+                  hidden={isLocaleContributable}
+                  style={{ fontFamily: 'Open Sans', fontSize: '14.4px' }}>
+                  {l10n.getString('coming-soon')}
+                </Tooltip>
               </Link>
             </li>
             <li>

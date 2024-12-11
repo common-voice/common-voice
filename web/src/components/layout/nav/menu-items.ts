@@ -32,7 +32,6 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         menuItemAriaLabel: 'answer-questions-menu-item-aria-label',
       },
     ],
-    renderContributableLocaleLock: true,
     menuTooltip: 'speak-contribute-menu-tooltip',
     menuAriaLabel: 'speak-contribute-menu-aria-label',
   },
@@ -53,7 +52,6 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         menuItemAriaLabel: 'review-transcriptions-menu-item-aria-label',
       },
     ],
-    renderContributableLocaleLock: true,
     menuTooltip: 'listen-contribute-menu-tooltip',
     menuAriaLabel: 'listen-contribute-menu-aria-label',
   },
@@ -107,8 +105,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       {
         icon: ShareLinkIcon,
         localizedId: 'press-and-stories',
-        externalHref:
-          'https://foundation.mozilla.org/blog/topic/common-voice/',
+        externalHref: 'https://foundation.mozilla.org/blog/topic/common-voice/',
         menuItemTooltip: 'press-and-stories-menu-item-tooltip',
         menuItemAriaLabel: 'press-and-stories-menu-item-aria-label',
       },

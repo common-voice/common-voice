@@ -1,5 +1,6 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
 import { LinkButton } from '../../../ui/ui'
 import { ChevronRight } from '../../../ui/icons'
@@ -8,7 +9,13 @@ import URLs from '../../../../urls'
 
 import './action-items-section.css'
 
-export const ActionItemsSection = () => {
+type Props = {
+  isLocaleContributable: boolean
+}
+
+export const ActionItemsSection: React.FC<Props> = ({
+  isLocaleContributable,
+}) => {
   return (
     <section className="action-items-section">
       <div className="action-items-section-container">
@@ -30,8 +37,11 @@ export const ActionItemsSection = () => {
               <Localized id="scripted-card-content">
                 <p />
               </Localized>
-              <LinkButton rounded to={URLs.SPEAK}>
-                <Localized id="speak">
+              <LinkButton
+                rounded
+                to={isLocaleContributable ? URLs.SPEAK : ''}
+                className={classNames({ disabled: !isLocaleContributable })}>
+                <Localized id={isLocaleContributable ? 'speak' : 'coming-soon'}>
                   <span />
                 </Localized>
                 <ChevronRight />

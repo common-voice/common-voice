@@ -1,8 +1,7 @@
 import React from 'react'
+import { Localized } from '@fluent/react'
 
 import { Button } from '../../../ui/ui'
-
-import { Localized } from '@fluent/react'
 import { CloudIcon } from '../../../ui/icons'
 
 import './featured-section.css'
