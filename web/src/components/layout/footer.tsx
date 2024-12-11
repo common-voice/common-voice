@@ -1,27 +1,26 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import { trackNav } from '../../services/tracker';
-import URLS from '../../urls';
-import ShareButtons from '../share-buttons/share-buttons';
-import { ContactIcon, DiscourseIcon, SupportIcon } from '../ui/icons';
-import { TextButton } from '../ui/ui';
-import { LocaleLink, useLocale } from '../locale-helpers';
-import Logo from './logo';
-import SubscribeNewsletter from './subscribe-newsletter';
-import { ContactLink, DiscourseLink, GitHubLink } from '../shared/links';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import { trackNav } from '../../services/tracker'
+import URLS from '../../urls'
+import ShareButtons from '../share-buttons/share-buttons'
+import { TextButton } from '../ui/ui'
+import { LocaleLink, useLocale } from '../locale-helpers'
+import Logo from './logo'
+import SubscribeNewsletter from './subscribe-newsletter'
+import { GitHubLink } from '../shared/links'
 
-import './footer.css';
+import './footer.css'
 
 const LocalizedLocaleLink = ({
   id,
   to,
   dataTestId,
 }: {
-  id: string;
-  to: string;
-  dataTestId?: string;
+  id: string
+  to: string
+  dataTestId?: string
 }) => {
-  const [locale] = useLocale();
+  const [locale] = useLocale()
   return (
     <Localized id={id}>
       <LocaleLink
@@ -30,54 +29,16 @@ const LocalizedLocaleLink = ({
         data-testid={dataTestId}
       />
     </Localized>
-  );
-};
+  )
+}
 
 const Footer = React.memo(() => {
-  const [locale] = useLocale();
   return (
     <footer>
-      <div id="help-links">
-        <LocaleLink to={URLS.ABOUT} onClick={() => trackNav('about', locale)}>
-          <SupportIcon />
-          <Localized id="about">
-            <div />
-          </Localized>
-        </LocaleLink>
-        <div className="divider" />
-        <DiscourseLink id="discourse">
-          <DiscourseIcon />
-          <div>Discourse</div>
-        </DiscourseLink>
-        <div className="divider" />
-        <ContactLink>
-          <ContactIcon />
-          <Localized id="contact">
-            <div />
-          </Localized>
-        </ContactLink>
-      </div>
       <div id="moz-links">
-        <div className="logo-container">
-          <Logo isReverse />
-          <p className="license">
-            <Localized
-              id="content-license-text"
-              elems={{
-                licenseLink: (
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                  />
-                ),
-              }}>
-              <span />
-            </Localized>
-          </p>
-        </div>
         <div className="divider-bottom" />
         <div className="links">
+          <div className="divider-vertical" />
           <div>
             <LocalizedLocaleLink
               id="privacy"
@@ -122,15 +83,36 @@ const Footer = React.memo(() => {
           <TextButton
             className="back-top"
             onClick={() => {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
+              window.scrollTo({ top: 0, behavior: 'smooth' })
             }}
           />
         </Localized>
       </div>
+
+      <div id="logo-license-text">
+        <div className="logo-container">
+          <Logo isReverse />
+          <p className="license">
+            <Localized
+              id="content-license-text"
+              elems={{
+                licenseLink: (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
+                  />
+                ),
+              }}>
+              <span />
+            </Localized>
+          </p>
+        </div>
+      </div>
     </footer>
-  );
-});
+  )
+})
 
-Footer.displayName = 'Footer';
+Footer.displayName = 'Footer'
 
-export default Footer;
+export default Footer

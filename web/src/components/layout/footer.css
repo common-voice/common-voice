@@ -63,7 +63,7 @@ footer {
 
     @media (--xl-up) {
         margin: 0 auto;
-        padding: 0.4rem 0;
+        padding: 0.4rem 20px;
         max-width: var(--desktop-width);
         width: 100%;
         flex-direction: row;
@@ -80,44 +80,6 @@ footer {
 
         &:hover {
             color: var(--blue);
-        }
-    }
-
-    & .logo-container {
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 4rem;
-
-        @media (--xl-up) {
-            flex-direction: column;
-            min-width: 9rem;
-            margin-inline-end: 8rem;
-            margin-top: 0;
-        }
-
-        & .Logo {
-            font-size: 1rem;
-            padding-inline-end: 4rem;
-        }
-
-        & .Logo,
-        & .LogoImage {
-            height: 2.5rem;
-            max-height: 2.5rem;
-
-            @media (--xl-up) {
-                height: auto;
-            }
-        }
-
-        & .license {
-            font-size: 0.7rem;
-
-            @media (--xl-up) {
-                margin-top: 1.5rem;
-            }
         }
     }
 
@@ -180,6 +142,54 @@ footer {
     }
 }
 
+#logo-license-text {
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: var(--desktop-width);
+    padding-inline-start: 20px;
+
+    & .logo-container {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        margin-top: 4rem;
+        margin-block-end: 4rem;
+
+        @media (--xl-up) {
+            min-width: 9rem;
+            margin-top: 0;
+        }
+
+        & .Logo {
+            font-size: 1rem;
+        }
+
+        & .Logo,
+        & .LogoImage {
+            height: 2.5rem;
+            max-height: 2.5rem;
+
+            @media (--lg-down) {
+                margin-inline-end: 2rem;
+            }
+
+            @media (--xl-up) {
+                height: 150px;
+            }
+        }
+
+        & .license {
+            font-size: var(--font-size-xs);
+            color: var(--white);
+
+            a {
+                color: var(--light-purple);
+            }
+        }
+    }
+}
+
 #sharing {
     padding: 1.5rem 2rem;
     display: flex;
@@ -202,10 +212,10 @@ footer {
     & .icons {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
 
         & > * {
-            margin: 0 21px;
+            margin: 0 8px;
         }
     }
 }
@@ -214,7 +224,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    flex: 1.5;
+    /* flex: 1.5; */
     align-items: center;
 
     @media (--xl-up) {
