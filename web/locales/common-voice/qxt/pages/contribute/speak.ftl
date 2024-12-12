@@ -60,9 +60,17 @@ already-have-an-account = Already have an account? <login>Log-In</login>
 create-profile-button = Create a profile
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark
+# menu item
+read-sentences = Rimaykunata ñawinchay
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Rimaykunata ñawinchay, tapuykunata kutichiy
+read-sentences-menu-item-tooltip = Himiykichu uyarinapaq kaqkunata churay
+answer-questions-menu-item-tooltip = Tapuykunata kutichinapaq shimiykichu uyarinapaq churay
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Rimanapaq kaqkuna
+read-sentences-menu-item-aria-label = Hukniraq shimikunachu rimaykunata ñawinchay
+answer-questions-menu-item-aria-label = Huk tapuyta masikunaman apachiy kutichipaakunanpaq
