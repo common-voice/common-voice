@@ -4,7 +4,6 @@ write = Пісаць
 write-page-subtitle = Сказы, дададзеныя тут, будуць уключаны ў агульнадаступны набор дадзеных пад ліцэнзіяй cc-0.
 sentence =
     .label = Сказ
-sentence-input-value = Напішыце тут ваш сказ, які знаходзіцца ў грамадскім набытку
 citation =
     .label = Цытата
 sc-review-write-title = Якія сказы можна дадаць?
@@ -28,4 +27,14 @@ bulk-sentence-submission = Дабавіць шмат сказаў
 single-sentence = Адзін сказ
 
 ## BULK SUBMISSION 
+
+maximum-file-size = Максімальны памер файла: 25 Мб
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 
