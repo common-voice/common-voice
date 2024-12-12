@@ -66,6 +66,11 @@ read-sentences = Read Sentences
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Rimaykunata ñawinchay, tapuykunata kutichiy
+read-sentences-menu-item-tooltip = Himiykichu uyarinapaq kaqkunata churay
+answer-questions-menu-item-tooltip = Tapuykunata kutichinapaq shimiykichu uyarinapaq churay
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Speak options menu
+read-sentences-menu-item-aria-label = Read sentences submitted by the community in various languages
+answer-questions-menu-item-aria-label = Mushuq tapukuyta runakuna ñawinchashpa kutichiyaamunanpaq apachiy
