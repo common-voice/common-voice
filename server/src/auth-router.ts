@@ -71,7 +71,9 @@ export const setupAuthRouter = async () => {
       query,
       session: { user },
     } = req
-    const locale = getLocaleFromReferrer(headers.referer || '')
+    const locale = headers.referer
+      ? getLocaleFromReferrer(headers.referer)
+      : 'en'
 
     const state = AES.encrypt(
       JSON.stringify({
