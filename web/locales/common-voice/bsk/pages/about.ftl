@@ -3,12 +3,12 @@
 about-title = Bes common voice?
 about-header-description-v2 = common voice uyoon sise gane ućʰariṅe dataset an bila amitar razakaariśuwe śat ićhićaan. Saati khulto, butan  ućʰariṅe dataseting kampnimine bican.  ućʰare datasetulo angrezi aqaraśo, thum range sis, mazuuriśo, gusgiyaas, LGPTQIA ućʰariṅ api. ućʰariṅe technologiulo butan baasiṅe kaa duro ayećhibi teeylate sis gati nuko ućʰariṅ har diśulo bageeś eṭase ćamaat eća baan
 how-does-it-work-title-v2 = Belate common voice e duro eći bi?
-how-does-it-work-text = Mii dunyaatulum ućʰariṅe dataset gati echa baan. mayno baaṣulo maćʰariṅ meer doocin . tʰumiśuwe duroiṅ tasḍiiq netan dataset warc etin.
+how-does-it-work-text = Mii dunyaatulum ućʰariṅe dataset gati echa baan. maymo baaṣulo maćʰariṅ meer doocin . tʰumiśuwe duroiṅ tasḍiiq netan dataset warc etin.
 
 ## How does it work section
 
-about-language-req-subtitle = menane baaṣan kaa ećar duġaruśam.
-about-localization-title = website miimo baaṣulo desmaẏas
+about-language-req-subtitle = girminin
+about-localization-title = website localization
 about-localization-subtitle = gute websit e text ite baaṣulo tarjuma manila
 about-sentence-collection-title = gati etumin jumulaṅ
 about-sentence-collection-subtitle = jumlaṅ śatine ġatayar gaṭi etum bican
