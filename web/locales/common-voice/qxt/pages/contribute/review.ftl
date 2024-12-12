@@ -51,3 +51,12 @@ sc-review-rules-title = ¿Nishqan kamachishqanuuchum?
 sc-review-empty-state = Manam kay shimikaqchu rikaykunapaq rimaykuna kanchu.
 report-sc-different-language = Huk shimi
 report-sc-different-language-detail = Rikahqaapiqta huknilaq shimichuumi qillqahqa kaykan.
+sentences-fetch-error = Rimaykunata ashiyalmi pantaqrun.
+review-error = Huk pantaymi yuriqmun kay rimaykunata rikapayal.
+review-error-rate-limit-exceeded = Llumpay wayram riyanchik. Hamaykuy rimaykunata rikaykunaykipaq rasunpa allinlla kananpaq.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Hatun tiklaykunata rurayanchik
+sc-redirect-page-subtitle-1 = Sentence Collectormi Common Voicepa allinnin plataformanman riyan. Kanan atipanki  <writeURL>escribir</writeURL> huk rimayta <reviewURL>revisar</reviewURL> Common Voiceman hukhuklla rimaykunata apachiyta.
+sc-redirect-page-subtitle-2 = Kaychu tapukushun <matrixrink>Matrix</matrixrink>, <discourserink>Discourse</discourserink> o <emaillink>email</emaillink>.
+# menu item
+review-sentences = Rimaykunata rikaykuy
