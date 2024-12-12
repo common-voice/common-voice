@@ -84,12 +84,80 @@ maximum-file-size = Kay chayaymi maytukaq kanan: 25 MB
 what-needs-to-be-in-file = ¿Imam kikiykipa maytuuchu kanan?
 what-needs-to-be-in-file-explanation = Tapukamuy <templateFileLink>kamaqpa maytun</templateFileLink>. Mana derecho de autor nishayuqmi rimayniykikuna kapaakunan (CC0 uutak apachimuqkaqpa kikin rurashqan) chuyalla, allin aypushqan yalpupashlla ñawinchana. Apachimushqa rimaykunakaq 10piqta 15kama segundulla ñawinchanan kapaakunan mana yupayniyuqkama, mana shutichashqa mana hukniraq qillqayniyuq.
 upload-progress-text = Qishpichkan ...
+sc-bulk-submit-confirm = Aw niyaami kay rimaykuna kashqanta <wikipediaLink>llapanpaq rimashqan</wikipediaLink> aw nishqam qishpichinapaq.
+bulk-upload-success-toast = Bulk Sentences Uploaded
+bulk-upload-failed-toast = Upload failed, please retry.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
+upload-more-btn-text = Upload more sentences?
+file-invalid-type = Manantiyashqa maytu
+file-too-large = Llumpay hatunmi maytukaq
+file-too-small = Llumpay uchukmi maytukaq
+too-many-files = Llumpay achka maytukunam
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Yapay <icon></icon> achka llapanpaq rimashqan rimaykuna
+multiple-sentences-error = Manam uchuklla atichikuqchu achka rimaykunata apachiyta atipanchikchu.
+exceeds-small-batch-limit-error = Manam 1000 rimaykunapiqta masta apachiyta atipanchikchu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 minute
+       *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
+small-batch-sentences-rule-1 = Kamachiykunata ruray “¿Ima rimaykunatam yapaykuuman?”
+small-batch-sentences-rule-2 = Huk wachiman huk rimayta yapay
+small-batch-sentences-rule-3 = Rimaykunata huk wachimankam rakiy, hukhuklla wachi pachkaykuykama.
+small-batch-sentences-rule-4 = 1000 rimaykuykama yapay
+small-batch-sentences-rule-5 = Hukllay shuntuyllachuumi llapa rimaykuna kamaykunan
+small-batch-sentences-rule-6 = Llapa rimaykuna huk chayayniyuqlla riqsiyniyuqlla kapaakunan
+# menu item
+add-sentences = Rimaykunata yapay
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Rimaykunata yapaykuy rikapaykuy, tapuykunata yapaykuy, uyarinakunata qillqaykuy
+add-sentences-menu-item-tooltip = Shimiykichu rimaykunata yapay
+review-sentences-menu-item-tooltip = Shimiykichu rimaykunata rikapaykuy
+add-questions-menu-item-tooltip = Shimiykichu rimaykunata yapaykuy
+transcribe-audio-menu-item-tooltip = Shimiykichu uyarinapaq kaqkunata qillqaykuy
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqaykunapaq kaqkuna
+add-sentences-menu-item-aria-label = Llapa huntunaku rimaykunata ñawinchapaakunanpaq yapay
+review-sentences-menu-item-aria-label = Shuntunakuq rimaykunata mañakushqanta rikapaykuy
+add-questions-menu-item-aria-label = Muhuq tapuykunata apachiy huntunaku ñawinchananpaq kutichinanpaq
+transcribe-audio-menu-item-aria-label = Uyarinapaq kaqkunata qillqay
