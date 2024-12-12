@@ -2,8 +2,8 @@
 
 your-languages = Фи бзэ
 toward-next-goal = Пэщыт Iуэху
-goal-reached = Goal reached
-clips-you-recorded = Евгъэтхащ
+goal-reached = Мурадыр къызэхъулӏащ
+clips-you-recorded = Уи макъыр тептхащ
 clips-you-validated = Фыхэплъащ
 todays-recorded-progress = Common Voice-м нобэ тхыгъэу ит
 todays-validated-progress = Common Voice-м нобэ тхыгъэу хэплъэжа
@@ -22,8 +22,8 @@ show-ranking = Си рейтингыр гъэлъагъуэ
 
 ## Custom Goals
 
-get-started-goals = Гъэпс
-create-custom-goal = Си гъэпс щIэдзэ
+get-started-goals = Уи мурадыр зыхуэгъэув
+create-custom-goal = Езыр-езыру мурад щӀын
 both-speak-and-listen = ТIури
 both-speak-and-listen-long = ТIури (тхыи хэплъэж)
 daily-goal = Махуэ гъэпс
@@ -32,25 +32,72 @@ easy-difficulty = Тыншщ
 average-difficulty = Курыт
 difficult-difficulty = Гугъу
 pro-difficulty = Iэзэ
-build-custom-goal = Си гъэпс щIэдзэ
-set-a-goal = Гъэпс, Теухуэ
-cant-decide = Иомыкурэ?
+build-custom-goal = Езым уи мурадыр зыхуэгъэув
+cant-decide = Унафэ фыхъуркъэ?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] Сыхьэт
-       *[other] Сыхьэту
-    }нэсыф{ NUMBER($periodMonths) ->
-        [one] мазэ
-       *[other] мазэу
-    }е{ NUMBER($people) ->
-        [one] цIыху
-       *[other] цIыхуу
-    }тхы{ NUMBER($clipsPerDay) ->
-        [one] кIэщI
-       *[other] кIэщIу
-    }зы махуэм.
-how-many-per-day = Лъэщ! Махуэм тхыгъэ дапщэ?
-how-many-a-week = Лъэщ! Тхьэмахуэм тхыгъэ дапщэ?
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
+                            }
+                    }
+            }
+    }
+how-many-per-day = Хъарзынэщ! Махуэ къэс сыт хуэдиз макъ тептхэрэ?
+how-many-a-week = Хъарзынэщ! Тхьэмахуэ къэс сыт хуэдиз макъ тептхэрэ?
+which-goal-type = Фтетхыну, къэфпщытэну хьэмэрэ модрейри?
 goal-interval-weekly = Тхьэмахуэ къэс
 share-goal-type-speak = Къэпсалъэ
 share-goal-type-listen = Едэӏу

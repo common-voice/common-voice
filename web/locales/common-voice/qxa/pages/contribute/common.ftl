@@ -1,9 +1,9 @@
-action-click = Click
+action-click = Tanuy
 action-tap = Akray
 contribute = Yanapay
 review = Kutipay
 skip = Pintiy
-shortcuts = Pishi purinakuna
+shortcuts = Shortcuts
 clips-with-count-pluralized =
     { $count ->
         [one] Clip
@@ -21,7 +21,7 @@ no-sentences-for-variants = ¡Markashimiykiqa manapischi shimiyuqchu kanman! Mun
 speak-empty-state-cta = Ashwan rimaychakunata qillqar yanapakuy
 speak-loading-error =
     Manami ima rimaytapis rimanaykipaq tariyta atiyaachu. 
-    Qipaman kutiykur kallpachakuy.
+        Qipaman kutiykur kallpachakuy.
 record-button-label = Kunka rimayniykiwan rimay
 share-title-new = <bold>Yanapayaamay</bold> ashwan kunka rimaykunata tariyaanapaq
 keep-track-profile = Qillqakamachiy ñawpaman purishqaykita rikanaykipaq
@@ -35,7 +35,7 @@ change-preferences = Munashqakunata hukman trukachiy
 login-signup = Yaykuy / Qillqakuy
 vote-yes = Aw
 vote-no = Mana
-datasets = Willaykuna shuntushqa
+datasets = Datasets
 languages = Shimikuna
 about = Kaypita
 partner = Masi
@@ -58,7 +58,7 @@ report-offensive-speech = Ashllikuq rimay
 report-offensive-speech-detail = Chay rimaychawqa ashllikuq shimikunami kaykan.
 report-other-comment =
     .placeholder = Rimakuy
-success = Allinmi
+success = Allimi
 continue = Qatiy
 report-success = Chay willakuyqa chaskishqanami
 
@@ -76,9 +76,9 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Discard ongoing recording
+shortcut-discard-ongoing-recording-label = Illakaachiy
 shortcut-submit = Kutiy
-shortcut-submit-label = Apachiy
+shortcut-submit-label = Kunka rimaykunata apachiy
 request-language-text = ¿Manaraqku shimiykita Common Voicechaw rikanki?
 request-language-button = Huk shimita mañakuy
 
@@ -87,7 +87,7 @@ request-language-button = Huk shimita mañakuy
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Play/Stop
+shortcut-play-toggle-label = Play/stop
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = a
@@ -101,7 +101,7 @@ contribution-criteria-nav = Yuyaykuna
 contribution-criteria-link = Yanapakuy yuyaykunapita ashwanta yachakuy
 contribution-criteria-page-title = Yanapakuy yuyaykuna
 contribution-criteria-page-description = ¡Kunka rimaykunata wiyar ima ashinaykita ashwan yachakuy, kikiykipa kunka rimayniykita imanaw allichanaykipaqpis yachakuy!
-contribution-for-example = Kaynaw
+contribution-for-example = kaynaw
 contribution-misreadings-title = Pantashqa kaayiykuna
 contribution-misreadings-description = Wiyarqa, rimashqawan qillqashqa tikushqanta shumaq allilla rikapay; rimashqawan qillqashqa mana tinkuptinqa ama awniychu. <br />Wakin pantaykunaqa kaynawmi kayan:
 contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
@@ -122,7 +122,7 @@ contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-title = We are going out to get a coffee.
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
-contribution-misreadings-example-8-explanation = [Manami yaykushqan tinkunchu]
+contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-title = Varying Pronunciations
 contribution-varying-pronunciations-description = Huk niraq pashtachiyta wiyarqa rasllaqa manami kay allichu nishpa niychu. Huk shimitaqa imayka laayapami pashtachiyanman, markaykichaw manapischi huk niraq pashtachiykunata wiyashqaykichu. Chayqa huk niraqpa pashtachiyaptinpis, rimayashqanta tantiyaptiykiqa, awniykuy.
 contribution-varying-pronunciations-description-extended = Ichanqa ñawinchaq chay shimita riqinmanchu, llutanta pashtachiykanmanpis, chayqa ama awniychu. Mana yacharqa pitiyta tanuy.

@@ -1,7 +1,12 @@
 ## REVIEW
 
+sc-review-title = Праверыць сказы
+sc-review-loading = Загрузка сказаў…
 sc-review-select-language = Калі ласка, выберыце мову для праверкі сказаў.
 sc-review-no-sentences = Няма сказаў для праверкі. <addLink>Дадаць новыя сказы!</addLink>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Крыніца: { $sentenceSource }
 sc-review-form-button-reject = Адхіліць
 sc-review-form-button-skip = Прапусціць
 sc-review-form-button-approve = Зацвердзіць

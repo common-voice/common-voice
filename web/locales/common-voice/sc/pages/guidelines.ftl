@@ -1,3 +1,6 @@
+# GUIDELINES PAGE
+guidelines-header = Lìnias ghia pro sa partetzipatzione
+guidelines-header-subtitle = Cumprende comente partetzipare e validare fràsias e registratziones de boghe a su pachete de datos de Common Voice
 voice-collection = Regorta de boghes
 sentence-collection = Regòllida de frases
 varying-pronunciations = Pronùntzias chi mudant
@@ -9,6 +12,8 @@ volume = Volume
 reader-effects = Efetos de leghidura
 just-unsure = Tenes dudas?
 example = Esempru
+varying-pronunciations-explanation-1 = Totu is atzentos sunt benebènnidos! Pensa·nche unu pagu in antis de refudare una registratzione ca chie leghet at pronuntziadu male unu faeddu, at postu s’atzentu in su tretu isballiadu o paret chi apat ignoradu unu puntu interrogativu. Ddoe sunt pronùntzias medas impreadas in su sardu, e podet èssere chi non ddas apas mai intèndidas in sa comunidade locale tua. Chirca de tènnere unu pagu de elastitzidade e de aprètziu pro chie faeddat in manera diferente dae sa tua.
+varying-pronunciations-explanation-2 = Dae s'àtera banda, si pensas chi chie leghet no apat mai bidu cussu faeddu e siat isceti chirchende de addivinare sa pronùntzia, refuda·dda. Si non ses seguru, imprea su butone Brinca.
 still-have-questions = Tenes ancora dudas?
 contact-common-voice = Cuntata s'iscuadra de Common Voice
 public-domain = Domìniu pùblicu
