@@ -48,9 +48,24 @@ why-donate-explanation-2 = For technology to work well for everyone, the data th
 add-information-button = Willakuyta yapaykuy
 continue-speaking-button = Manam pay, rimaykuyraq.
 create-profile-text = ¿Shutiykita ćhurakuyta munanki? <createProfile>Nuna riqsichiyta ruray</createProfile>
+thanks-for-voice-toast = Thank you for your voice information
+thanks-for-voice-toast-error = An error occurred submitting your voice information
+first-cta-gender-select-default-option = Hukta akraykuy
+first-cta-gender-select-help-text =
+    .label = ¿Imaniraqtam nuna kayniykita willakuyta munanki?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Thank you for donating your voice clips!
+second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
+already-have-an-account = Already have an account? <login>Log-In</login>
+create-profile-button = Create a profile
+# IMAGE TAGS
+img-alt-success-checkmark = success checkmark
+# menu item
+read-sentences = Read Sentences
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Rimaykunata ñawinchay, tapuykunata kutichiy
 
 ## MENU ITEM ARIA LABELS
 
