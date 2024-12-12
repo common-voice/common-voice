@@ -71,11 +71,7 @@ export const setupAuthRouter = async () => {
       query,
       session: { user },
     } = req
-    let locale = 'en'
-    if (headers.referer) {
-      const refererUrl = new URL(headers.referer)
-      locale = refererUrl.pathname.split('/')[1] || 'en'
-    }
+    const locale = getLocaleFromReferrer(headers.referer || '')
 
     const state = AES.encrypt(
       JSON.stringify({
@@ -272,4 +268,15 @@ function createSessionCookieOptions(): CookieOptions {
     secure: PROD,
     maxAge: COOKIE_MAX_AGE_30_DAYS,
   }
+}
+
+function getLocaleFromReferrer(referrer: string) {
+  const refererUrl = new URL(referrer)
+  const locale = refererUrl.pathname.split('/')[1] || 'en'
+
+  if (locale.includes('spontaneous-speech')) {
+    return 'en'
+  }
+
+  return locale
 }
