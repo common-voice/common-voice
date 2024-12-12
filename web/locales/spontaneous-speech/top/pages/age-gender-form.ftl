@@ -1,13 +1,13 @@
 # Age and Gender form
-age-gender-form-title = Paxkatkatsini ixlakata mintamakgtaya nakxa Stujua Tachiwin
-age-gender-form-subtile = Akxni kinkalitakgalhchiwinána milatamat nakamakgtayáya tiliskujkgoy xa tatlawa sasti limaskujun kakilhtamakú.
-add-information-button = Nalimaukayáu takatsin
+age-gender-form-title = Paxkatkatsini makgtayapat Kintachiwinkán!
+age-gender-form-subtile = Kilitachiwinanti tiku wix, chu ki makgtayaya nak jae puskujut.
+add-information-button = Kamakgi mintakatsi
 continue-speaking-button = Kachiwinanparawi
 age-select-label = Niku akglhit káta kgalhiyan?
 select-your-age = Kaputsa min kata
 gender-select-label = Wix chixkú osu puskat?
 select-your-gender = Kaputsa tuku wix
-country-of-residence-label = Niku tapakgsiya nak lanka tiyat
+country-of-residence-label = Niku tapakgsiya
 country-of-residence-placeholder =
     .placeholder = Kawili niku lanka tiyat tapakgsiya
 why-are-you-asking = Wana likgalhskininanáu?
