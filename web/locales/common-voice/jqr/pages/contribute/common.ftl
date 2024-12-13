@@ -69,3 +69,7 @@ contribution-background-voices-description-extended = If the recording breaks up
 contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = Are you coming? <strong>[called by another]</strong>
 contribution-volume-title = Volume
+contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
+contribution-reader-effects-title = Reader Effects
+contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
+contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
