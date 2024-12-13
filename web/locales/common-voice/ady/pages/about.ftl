@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = Сыд пае Комон Войс?
+how-does-it-work-title-v2 = Комон Войс сыдэущтэу мэлажьа?
 
 ## How does it work section
 
