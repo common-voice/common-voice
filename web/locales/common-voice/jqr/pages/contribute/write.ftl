@@ -44,12 +44,60 @@ select-file-mobile = Select File to Upload
 accepted-files = Accepted file types: .tsv only
 minimum-sentences = Minimum sentences in file: 1000
 maximum-file-size = Maximum file size: 25 MB
+what-needs-to-be-in-file = What needs to be in my file?
+what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
+upload-progress-text = Upload in progress...
+sc-bulk-submit-confirm = I confirm that these sentence are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
+bulk-upload-success-toast = Bulk Sentences Uploaded
+bulk-upload-failed-toast = Upload failed, please retry.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
+upload-more-btn-text = Upload more sentences?
+file-invalid-type = Invalid file
 
 ## SMALL BATCH SUBMISSION
 
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 minute
+       *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
 
 ## MENU ITEM TOOLTIPS
 
+transcribe-audio-menu-item-tooltip = Transcribe audio recordings in your language
 
 ## MENU ITEM ARIA LABELS
 
+transcribe-audio-menu-item-aria-label = Transcribe audio recordings into text
