@@ -1,0 +1,71 @@
+action-tap = Tap
+clips-with-count-pluralized =
+    { $count ->
+        [one] Clip
+       *[other] Clips
+    }
+goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
+goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
+contribute-more =
+    { $count ->
+        [one] Ready to do { $count } more?
+       *[other] Ready to do { $count } more?
+    }
+login-signup = Log In / Sign Up
+datasets = Datasets
+
+## Reporting
+
+
+## Speak & Listen Shortcuts
+
+
+## Speak Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Validation criteria
+
+contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
+contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
+contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
+contribution-misreadings-example-8-title = The bumblebee sped by.
+contribution-misreadings-example-8-explanation = [Mismatched content]
+contribution-varying-pronunciations-title = Varying Pronunciations
+contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
+contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
+contribution-background-noise-title = Background Noise
+contribution-background-noise-description = We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.
+contribution-background-noise-description-extended = If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> The giant dinosaurs of the <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
+contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> giant dinosaurs of <strong>[crackle]</strong> -riassic.
+contribution-background-voices-title = Background Voices
+contribution-background-voices-description = A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.
+contribution-background-voices-description-extended = If the recording breaks up or has crackles, reject unless the entirety of the text can still be heard.
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = Are you coming? <strong>[called by another]</strong>
+contribution-volume-title = Volume
