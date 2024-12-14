@@ -1,5 +1,58 @@
+action-click = ویستہ
+action-tap = ووسپلستہ
+contribute = سنہ ستہ
+review = پلݣاستہ
+skip = پوتیاستہ
+shortcuts = موٹی
+clips-with-count-pluralized =
+    { $count ->
+        [one] او <bold>{ $count }</bold>
+       *[other] ورں <bold>{ $count }</bold>
+    }
+goal-help-recording = تو کامن وائس  <goalPercentage></goalPercentage>ایموستہ ہرگرجارستہ  { $goalValue }ریکاڈ ستہ ترں بدوی اشیستہ تہ کمک کعا
+goal-help-validation = تو کامن وائس<goalPercentage> </goalPercentage>  ہرگرجار{ $goalValue }ݜتل بووارستہ ترں پوڑا ستہ تہ کمک کعا
+contribute-more =
+    { $count ->
+        [one] ورں دی کوستہ { $count }تہ تیار اسیشہ ؟
+       *[other] تیار اسیشہ { $count }ورں دی کوستہ تہ ؟
+    }
+speak-empty-state = اینہ وری تہ ورں دی جملہ ریکاڈ کوستہ تݩع تیو برݣ  گوسیش
+no-sentences-for-variants = توستہ ورئ ستہ ورجن جملہ تںع خالی بو بتہ اگر تیعو مطمئن اسیش ابا تیو توستہ ترتیب بدل کتے توستہ وری تہ اچادی جملہ وعں بچی
+speak-empty-state-cta = اپاربی جملہ
+speak-loading-error = ایمو توکہ ولہ ستہ کہ کائی جملہ اݣہ نہ بیاسمیش  مہربانی کہ اڅلک درئ دی ابل کشی
+record-button-label = توستہ کوٹہ ریکاڈ کشی
+share-title-new = <bold>ایمومع کمک کشی </bold>ورں کوٹہ زعݩہ
+keep-track-profile = توستہ ترقی جاری ساتہ پروفائل مع
+login-to-get-started = اکاؤنٹ تہ اتو یا باڅ شروع کوستہ دیوکں
+target-segment-first-card = تیوسنہ چی ایموستہ اول ترں  ستہ بٹہ تہ
+target-segment-generic-card = تیو سنہ چی اہ ترں ستہ بٹہ تہ
+target-segment-first-banner = کمک شی اول ترں ایپاستہ ستہ جبٹہ تں { $locale }
+target-segment-add-voice = توستہ کوٹہ سنا
+target-segment-learn-more = ورں دی یاد کشی
+change-preferences = ترجیع بدل کشی
+login-signup = اتویی بہ اڅ
+vote-yes = ݜٹل
+vote-no = نئی
+datasets = معلومات ٹیچ کوع
+languages = وری
+about = بارہ تہ
+partner = پلئ
+submit-form-action = اپار کوستہ
+
 ## Reporting
 
+report = ثو پعستہ
+report-title = ݜو اپار کوستہ
+report-ask = امنی جملہ مع کائی تکلیف تجربہ کوچی ؟
+report-offensive-language = ڈگر وری
+report-offensive-language-detail = ڈگر وریستہ یابے عزتی ستہ جملہ
+report-grammar-or-spelling = گرائمری ستہ املاء ستہ غلطی
+report-grammar-or-spelling-detail = جملہ ستہ گرائمر یا املاء غلط اسہ
+report-different-language = مختلف وری
+report-different-language-detail = اینہ وری تہ کائی سترے سہ با اامکئ کائی ولہ تم با امکیو تݩع مختلف ائ
+report-difficult-pronounce = ولہ ستہ تہ مشکلات
+report-difficult-pronounce-detail = اس میں ایسے الفاظ اور عبارت شامل یئں جوپڑھنے یاتلفظ کرنے میں مشکل ہے
+report-offensive-speech = سپک کولہ تقریر
 report-offensive-speech-detail = اینہ کلیب تہ سپک یا بے عزتی ستہ وری استعما ل کعستہ ای
 report-other-comment =
     .placeholder = تبصرہ
