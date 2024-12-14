@@ -20,8 +20,23 @@ new-sentence-rule-4 = Use correct spelling and punctuation
 new-sentence-rule-5 = Janiw jakhunakas jan ukax yaqha chimpunakas utjkiti
 new-sentence-rule-6 = Janiw yaqha qillqanakax utjkiti
 new-sentence-rule-7 = Include appropriate citation
+new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
 login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
+how-to-cite = Kunjamas nayax cita?
+how-to-cite-explanation-bold = URL uñt’ayawimpi jan ukax lurawi phuqhat sutimpi uñt’ayawi.
 how-to-cite-explanation = If it’s your own words, just say <italicizedText>“Self Citation”</italicizedText>. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
+guidelines = Irnaqawi
+contact-us = Jiwasanakampi aruskipt’aña
+add-sentence-success = 1 apthapit aruchja
+add-sentence-error = Pantjasiw aruchja yapxatañataki
+required-field = Aka chimpu phuqhachañamawa.
+single-sentence-submission = Mä sapa aru uñt’ayaña
+small-batch-sentence-submission = Jisk’a t’aqa aruchjanak uñt’ayaña
+bulk-sentence-submission = Jach’a arunak uñt’ayaña
+single-sentence = Single
+small-batch-sentence = Jisk’a t’aqa
+bulk-sentence = Jach’a tantachawi
+sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
 agriculture_food = Agriculture and Food
@@ -49,9 +64,14 @@ news_current_affairs = News and Current Affairs
 technology_robotics = Technology and Robotics
 sentence-variant-select-label = Sentence Variant
 sentence-variant-select-placeholder = Select a variant (optional)
+sentence-variant-select-multiple-variants = Taqi aru / walja mayjt’awinaka
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> public domain sentences
+sc-bulk-upload-instruction = Aka chiqar qillqat apsuñamawa jan ukax <uploadButton>ch’iqt’am apkatañataki</uploadButton>
+sc-bulk-upload-instruction-drop = Aka chiqanx mä qillqat jaqukipañaw apkatañataki
 bulk-upload-additional-information = If there is additional information you want to provide about this file, please contact <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = If there is additional information you want to provide about this file that is not included in the template, please contact <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Try again by dragging your file here
