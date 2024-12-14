@@ -1,4 +1,9 @@
+action-click = Click
 action-tap = Tap
+contribute = Yanpaña
+review = Uñakipaña
+skip = Jark'aña
+shortcuts = Shortcuts
 clips-with-count-pluralized =
     { $count ->
         [one] Clip
@@ -11,6 +16,9 @@ contribute-more =
         [one] Ready to do { $count } more?
        *[other] Ready to do { $count } more?
     }
+speak-empty-state = Jiwasax aka arun qillqt'añatakix aruchjanakax tukusxiwa...
+no-sentences-for-variants = Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.
+speak-empty-state-cta = Arsunaka yanapt’aña
 login-signup = Log In / Sign Up
 datasets = Datasets
 
