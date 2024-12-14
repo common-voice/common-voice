@@ -27,6 +27,7 @@ check-bubble-subtitle = Você verifica se a transcrição corresponde ao áudio
 data-bubble-title = <mark>Dados</mark>
 data-bubble-subtitle = Nós disponibilizamos periodicamente o conjunto de dados
 contact-us = Contacte-nos
+contact-us-title = Tem interesse em se envolver neste projeto ou fazer uma parceria connosco?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Já está no nosso grupo de testes Beta para o Projeto de Discurso Espontâneo da Common Voice?
 signup-terms = Ao clicar em “Enviar um link para meu e-mail”, concorda com nossos <termsLink>Termos do Serviço</termsLink> e <privacyLink>Política de Privacidade</privacyLink> e que a Mozilla pode enviar e-mails com informações sobre como participar no Teste Beta do Projeto de Discurso Espontâneo da Common Voice.
