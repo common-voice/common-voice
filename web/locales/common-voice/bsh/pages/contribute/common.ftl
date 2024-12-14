@@ -43,3 +43,8 @@ shortcut-vote-no = ن
 ## Validation criteria
 
 contribution-criteria-nav = معیار
+contribution-criteria-link = بٹہ اشیستہ ستہ معیار زعݩستہ
+contribution-criteria-page-title = بٹہ اشیستہ ستہ معیار
+contribution-criteria-page-description = کائی ول تو وائس کلپ سݣہ ییبا تو کائی کیوت کاع ای اینہ زعں سورہ یوستہ وائس ریکارڈ دی لستہ ایپا ستہ تہ مدد کشݩع
+contribution-for-example = لکہ اوجستہ کہ
+contribution-misreadings-title = نمل ولہ ستہ
