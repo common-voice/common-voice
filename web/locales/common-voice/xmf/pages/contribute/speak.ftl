@@ -1,6 +1,6 @@
 speak = ინოჭარუა
-speak-now = ჩიება ქიდიჭყით.
-speak-subtitle = შემენწით თქვანი ხონარით.
+speak-now = იჩით.
+speak-subtitle = შემენწით თქვან ხონარით.
 record-cta = ინოჭარუაშ დოჭყაფა.
 record-platform-not-supported = სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.
 record-platform-not-supported-desktop = სამაგიდო კომპიუტერს შეილებუნა ჩამოტვირთათ
