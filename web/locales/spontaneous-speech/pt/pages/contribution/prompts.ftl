@@ -21,4 +21,11 @@ submit-all-button = Enviar tudo
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Saiba a usar esta página
+learn-how-to-use-prompts-explanation = Responda apenas à consulta, o mais naturalmente possível, em algumas frases. Certifique-se de que sua linguagem seja respeitosa e inofensiva.
+learn-how-to-use-prompts-guidance = Clique <guidanceLink>aqui</guidanceLink> para saber como utilizar esta página
 learn-how-to-use-transcribe = Saiba como transcrever
+learn-how-to-use-transcribe-explanation = Escreva exatamente o que a pessoa disse, incluindo palavras de substituição como "hum" ou "errr".
+learn-how-to-use-transcribe-guidance = Clique <guidanceLink>aqui</guidanceLink> para saber como utilizar esta página
+learn-how-to-use-check-transcript = Aprenda como verificar uma transcrição
+learn-how-to-use-check-transcript-explanation = Uma transcrição deve capturar cada palavra ou som de conversação não lexical que foi dito pela pessoa, incluindo repetições.
+learn-how-to-use-check-transcript-guidance = Clique <guidanceLink>aqui</guidanceLink> para saber como utilizar esta página

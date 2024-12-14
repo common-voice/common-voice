@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = Obrigado por contribuir para o Spontaneous Speech!
+age-gender-form-title = Obrigado por contribuir para o Discurso Espontâneoh!
 age-gender-form-subtile = Ao partilhar informações sobre si mesmo, vai apoiar os programadores na criação de tecnologias mais inclusivas.
 add-information-button = Adicionar informações
 continue-speaking-button = Continuar a falar
