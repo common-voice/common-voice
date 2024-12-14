@@ -17,6 +17,17 @@ record-three-more-instruction = صِرِف ڇا مُت
 record-again-instruction = شاباش!<recordIcon></recordIcon>تاں مُت کٹرُو ٹیپ کرہ
 record-again-instruction2 = ݜُو ول تُھو، گتہ ٹیپ کرہ<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>یے آخری!
+review-tooltip = دُوہیڑی نھالہ آں بے ہان٘س ݜلہ کٹرو گتہ رِکاڈ کرہ
+share-clip = تاں کٹرو ڇِہے/شریک کرہ
+share-common-voice = بُٹواںاواز خلکؤں ڇِہے
+review-instruction = دُوہیڑی نھالہ آں کہ زرت ہُون٘دُوں گتہ ٹیپ کرہ
+record-submit-tooltip = تیار ہُون٘د کھیںجمع کرہ
+clips-uploaded = کٹرو بُوئ اُکھالژی گے
+record-abort-title = اول رِکاڈِن٘گ بس یی؟
+record-abort-text = ہُویں پھت کرے بیوں تاں پراگریس پھت کرؤں تُھو
+record-abort-submit = کٹرو جمع کرہ
+record-abort-continue = ٹېپ کرؤں بس کرہ
+record-abort-delete = پھت کرہ آں کٹرو لاء دے
 
 ## MENU ITEM TOOLTIPS
 
