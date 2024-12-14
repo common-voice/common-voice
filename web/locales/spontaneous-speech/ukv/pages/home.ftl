@@ -16,3 +16,6 @@ prompt-bubble-title = 'dolet
 prompt-bubble-subtitle = Yi de kpekinda do 'dolet kode piyet
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = Rugö
+respond-bubble-subtitle = Do bublo rugö kode rukökindö bge na 'beron na
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = Gayerju na kulaesi lo jama yi wuröt
