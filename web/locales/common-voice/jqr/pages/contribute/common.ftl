@@ -19,11 +19,35 @@ contribute-more =
 speak-empty-state = Jiwasax aka arun qillqt'añatakix aruchjanakax tukusxiwa...
 no-sentences-for-variants = Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.
 speak-empty-state-cta = Arsunaka yanapt’aña
+speak-loading-error =
+    Janiw kuna frases ukanakas jumanakan arsupxañamatak apsuñjamäkänti.
+    Mä juk’a pachatxa mayampi yant’apxañani.
+record-button-label = Arunak grabañamawa
+share-title-new = <bold>Yanapt'apxita</bold> juk'amp arunaka jikxatañataki.
+keep-track-profile = Mä perfil ukamp nayrar sartawim uñakipaña
+login-to-get-started = Log in or sign up to get started
+target-segment-first-card = Jumax nayrïr t’aqa amtäwisaruw yanapt’askta
+target-segment-generic-card = Jumax mä amtawi segmento ukar yanapt’askta
+target-segment-first-banner = Nayrïr Common Voice amtäwi segmento lurañ yanapt’i { $locale } ukan.
+target-segment-add-voice = Aru yapxataña
+target-segment-learn-more = Jisk’a yatiqaña
+change-preferences = Mayjt’ayaña munañanaka
 login-signup = Log In / Sign Up
+vote-yes = Jisa
+vote-no = Janiwa
 datasets = Datasets
+languages = Arunaka
+about = Niya
+partner = Masi
+submit-form-action = Uñt’ayaña
 
 ## Reporting
 
+report = Yatiyawi
+report-title = Mä yatiyaw uñt’ayaña
+report-ask = ¿Kuna jan walt’awis aka aruchjan utji?
+report-offensive-language = Jan wali aru
+report-offensive-language-detail = Uka aruchjax jan respeto jan ukax jan wali arunak uñt’ayi.
 
 ## Speak & Listen Shortcuts
 
