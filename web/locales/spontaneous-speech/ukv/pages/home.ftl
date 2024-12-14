@@ -23,3 +23,5 @@ transcribe-bubble-subtitle = Ti do wuröki kak ŋo' nagon do yiŋ yi bgorol lo m
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = mete'
 check-bubble-subtitle = Ti do mete' ŋo' na wuro kune momrja ko bgörölö kulo
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = Nambajin na tutune
