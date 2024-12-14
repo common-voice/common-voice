@@ -53,19 +53,56 @@ report-grammar-or-spelling-detail = The sentence has a grammatical or spelling e
 report-different-language = Yaqha aru
 report-different-language-detail = Nayan arsutajat sipan mayja arun qillqatawa.
 report-difficult-pronounce = Arsuñax ch’amawa
+report-difficult-pronounce-detail = Uñakipañ jan ukax arsuñ ch’amamp arunak jan ukax aruchjanak uñt’ayi.
+report-offensive-speech = Ukax mä jan wali lurawiwa
+report-offensive-speech-detail = The clip has disrespectful or offensive language.
+report-other-comment =
+    .placeholder = Uñt’ayañataki
+success = Suma sartawi
+continue = Sarantaskakiwa
+report-success = Yatiyäwix suma uñt’ayatawa
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = j
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = s
+shortcut-record-toggle-label = Record/Stop
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Re-record clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Grabacionanak jaqukipañax sarantaski
+shortcut-submit = Kutt’ayaña
+shortcut-submit-label = Grabacionanak uñt’ayaña
+request-language-text = ¿Jichhakamax janiw arumax Common Voice ukan jikxataskiti?
+request-language-button = Mä aru mayiña
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Criteria
+contribution-criteria-link = Understand contribution criteria
+contribution-criteria-page-title = Contribution Criteria
 contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
+contribution-for-example = for example
+contribution-misreadings-title = Misreadings
 contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
 contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
 contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
@@ -109,4 +146,7 @@ contribution-volume-title = Volume
 contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
 contribution-reader-effects-title = Reader Effects
 contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
+contribution-just-unsure-title = Just Unsure?
 contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
+see-more = <chevron></chevron>See more
+see-less = <chevron></chevron>See less
