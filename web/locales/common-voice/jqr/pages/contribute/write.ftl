@@ -91,9 +91,16 @@ bulk-submission-success-header = Thank you for contributing your bulk submission
 bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
 upload-more-btn-text = Upload more sentences?
 file-invalid-type = Invalid file
+file-too-large = Qillqatax wali jach’awa
+file-too-small = Qillqatax wali jisk’akiwa
+too-many-files = Sinti walja qillqatanaka
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Add multiple public domain sentences
+multiple-sentences-error = Janiw mä sapa apayanx walja aruchjanak yapxatañjamäkiti.
+exceeds-small-batch-limit-error = Janiw 1000 jila aruchjanak uñt’ayañax wakiskiti
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
@@ -130,11 +137,27 @@ small-batch-response-message =
         [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
        *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
     }
+small-batch-sentences-rule-1 = “¿Kuna aruchjanakas yapxataspa?”
+small-batch-sentences-rule-2 = Mä aruchja sapa chiqaru yapxataña
+small-batch-sentences-rule-3 = Arsunaka sapa chiqaru mä chiqaru jaljaña, sapa chiqaru mä chiqaru jaljañampi.
+small-batch-sentences-rule-4 = 1000 aruchjanaka yapxataña
+small-batch-sentences-rule-5 = Taqi aruchjanakax pachpa dominio ukar mantañapawa
+small-batch-sentences-rule-6 = Taqi aruchjanakax pachpa phunchhawimpi, pachpa chimpumpiw utjañapa
+# menu item
+add-sentences = Arsunaka yapxataña
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Arsunak yapxataña ukat uñakipaña, jiskt’äwinak yapxataña, grabacionanak qillqt’aña
+add-sentences-menu-item-tooltip = Aruman aruchjanak yapxataña
+review-sentences-menu-item-tooltip = Aruman aruchjanak uñakipaña
+add-questions-menu-item-tooltip = Aruman aruchjanak yapxataña
 transcribe-audio-menu-item-tooltip = Transcribe audio recordings in your language
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Write options menu
+add-sentences-menu-item-aria-label = Machaq aruchjanak yapxataña ayllun ullart'añapataki
+review-sentences-menu-item-aria-label = Ayllun amuyt’ayat aruchjanak uñakipaña
+add-questions-menu-item-aria-label = Machaq jiskt’awinak ayllun ullart’añapataki ukat jaysañapataki
 transcribe-audio-menu-item-aria-label = Transcribe audio recordings into text
