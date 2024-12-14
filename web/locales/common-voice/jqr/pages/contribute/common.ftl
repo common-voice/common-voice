@@ -48,6 +48,11 @@ report-title = Mä yatiyaw uñt’ayaña
 report-ask = ¿Kuna jan walt’awis aka aruchjan utji?
 report-offensive-language = Jan wali aru
 report-offensive-language-detail = Uka aruchjax jan respeto jan ukax jan wali arunak uñt’ayi.
+report-grammar-or-spelling = Grammatical / spelling error
+report-grammar-or-spelling-detail = The sentence has a grammatical or spelling error.
+report-different-language = Yaqha aru
+report-different-language-detail = Nayan arsutajat sipan mayja arun qillqatawa.
+report-difficult-pronounce = Arsuñax ch’amawa
 
 ## Speak & Listen Shortcuts
 
