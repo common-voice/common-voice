@@ -19,3 +19,7 @@ respond-bubble-title = Rugö
 respond-bubble-subtitle = Do bublo rugö kode rukökindö bge na 'beron na
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = Gayerju na kulaesi lo jama yi wuröt
+transcribe-bubble-subtitle = Ti do wuröki kak ŋo' nagon do yiŋ yi bgorol lo moka
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = mete'
+check-bubble-subtitle = Ti do mete' ŋo' na wuro kune momrja ko bgörölö kulo
