@@ -90,7 +90,7 @@ shortcut-play-toggle = L
 shortcut-play-toggle-label = სგუ̂ებდ ლი̄ზი/ჩულიჩრაუ̂ა̄̈ლ
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = ა̄
+shortcut-vote-yes = ა
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = მ
