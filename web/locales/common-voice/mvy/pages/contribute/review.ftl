@@ -42,6 +42,20 @@ sc-criteria-make-sure = ݜس بال پکی را چے جُملی من چور ݜَ
 sc-criteria-item-1 = جُملَیں ہیزی صحیح ہو۔
 sc-criteria-item-2 = جُملہ گرامرہ مہ صحیح ہو۔
 sc-criteria-item-3 = جُملہ پڑژئیں قابل ہو۔
+sc-criteria-item-4 = جُملہ شرطؤںلا پُوری ہُون٘دُوں&quot;قبلاچھی&quot; بٹن چے دڇھیں کِھن٘گی لا تُھو کلِک کرہ
+sc-criteria-item-5-2 = کہ جُملہ بُو تل ݜَیں شرطؤں لا پوری نی تھی کھیں &quot;کگا&quot; کھبُوئ کِھن٘گی یاں بٹنہ لا کلِک کری۔ کہ تُو جُملاں بارہ مہ مکمل پو نی تُھو کھیں اس پھت کرے مُوٹُھو گتہ بیں یاں تُھو۔
+sc-criteria-item-6 = کہ تی گائے دُوہیڑی نھالَیں یا کریا جُملی بارژی تھی کھیں تے زؤں ملی مُتی جُملی جمع کرَیں مہ مدد کرہ گل۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = نھال لہ<icon></icon> ݜُو ژِباں حساب ہِن صحیح جُملہ تھی یی؟
+sc-review-rules-title = جُملہ زَیں پان٘د پشائیں مطابق تھی یی؟
+sc-review-empty-state = ݜُو وخ ݜس ژِبہ مہ دُوہیڑی نھالَیں یاں کریا جُملی نی تھی۔
+report-sc-different-language = مُتی ژیب
+report-sc-different-language-detail = دُوہیڑی نھالَیں ژِبہ نہ اُو جُدا ژِبہ مہ لِکژی تھی۔
+sentences-fetch-error = جُملی څؤں مُوٹِھن اَیں مہ غلطی اوک ایگے۔
+review-error = ݜس جُملہ دُوہیڑی نھالَیں مہ غلطی اوک ای تھی۔
+review-error-rate-limit-exceeded = تُوچو تیزی ہُوگا۔ ہِلاک ارام لا لک جُملہ دُوہیڑی نھالہ گل لہ ݜُو بال پکی ہو چے اَو صحیح تھی۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = بے ہُویں گَھیں بدلی کرَیں مہ تھو۔
 sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو پُویں عام اوازاں پلیٹ فارمے روان تُھو۔ تُو ہُویں ایکجُملہ <writeURL>لِکَیں </writeURL>تُھو گتہ یا <reviewURL>دُوہیڑی نھالَیں</reviewURL>تھو گتہ  آں تے عام اواز مہ جمع کرَیں تھو۔
 sc-redirect-page-subtitle-2 = <matrixLink>مېترکس</matrixLink>،</matrixLink>ڈِسکورس</discourseLink>یا<emailLink>ای میل</emailLink> لا زؤں نہ تپُوس کری۔
 # menu item
