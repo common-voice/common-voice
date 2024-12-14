@@ -46,18 +46,18 @@ report-title = მოხსენებაშ ჯღონა.
 report-ask = მუ კილი უღუ თე წინადადებეფს?
 report-offensive-language = ოლანძღარი ზიტყვა.
 report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე.
-report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
+report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა.
 report-grammar-or-spelling-detail = წინადადებას გრამატიკული ვარდა თინჭარუაში კილი უღუ.
-report-different-language = შხვანერი ნინა
-report-different-language-detail = ჩქიმი ოჩიებე ნინაშე გინორთელი ნინათ რე ჭარილი
-report-difficult-pronounce = ძნელი ორაგადე რე
-report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ
-report-offensive-speech = უწმაწურ ჩიება
-report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე
+report-different-language = შხვანერი ნინა.
+report-different-language-detail = ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ რე ჭარილი.
+report-difficult-pronounce = ძნელი ორაგადე რე.
+report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ.
+report-offensive-speech = უწმაწურ ჩიება.
+report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე.
 report-other-comment =
-    .placeholder = გერაგადი
-success = გომორძგუა
-continue = გაგძელება
+    .placeholder = კომენტარი.
+success = გომორძგუა.
+continue = გაგძელება.
 report-success = მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ.
 
 ## Speak & Listen Shortcuts
@@ -70,7 +70,7 @@ shortcut-skip = g
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = i
-shortcut-record-toggle-label = ინოჭარუა / გაჩერება
+shortcut-record-toggle-label = ინოჭარუა / გაჩერება.
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = დუდშე ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
