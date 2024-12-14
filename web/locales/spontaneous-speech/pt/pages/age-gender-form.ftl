@@ -11,6 +11,7 @@ country-of-residence-label = País ou região de residência
 country-of-residence-placeholder =
     .placeholder = Informe seu país ou região de residência
 why-are-you-asking = Por que pergunta?
+why-are-you-asking-explanation = Esta informação é opcional - deve fornecê-la apenas se se sentir confortável. Quando publicamos o conjunto de dados, pseudo-anonimizamos todas as informações pessoais e garantimos que dados como o seu nome e e-mail não sejam associados a informações demográficas como a idade ou o género. Para que a tecnologia funcione bem para todos, os dados que ajudam os programadores a criar tecnologia precisam refletir uma ampla diversidade de pessoas. Saiba mais sobre a importância dos metadados.
 thank-you-for-your-information = Obrigado por suas informações
 
 ## Gender dropdown
