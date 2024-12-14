@@ -6,8 +6,8 @@ sc-review-loading = წინადადებეფ ეიტვირთუ.
 sc-review-select-language = ქორთხინთ, გეჲშაგორით ნინა წინადადებეფიში შიომოწმებელო.
 sc-review-no-sentences = შიომოწმებელი წინადადებეფი ვარე. <addLink> სი ქიგუძინი ასე! </addLink>
 sc-review-form-prompt =
-    .message = გინომოწმებულ წინადადებეფი ვაჯღონელე დარწუმებული ქორეთო?
-sc-review-form-usage = გინუკინით მარძგვანჷშე წინადადებეფი ქიმიღათჷნი. გინუკინით კვარჩხანჷშე ვარია ქოთქუათჷნი. ეუკინი ჟი, გიშატებელო. <strong> ვაგგოჭყორდანი გინომოწმებულეფიშ წუმორინაფა.
+    .message = გინომოწმებულ წინადადებეფი ვაჯღონელე, დარწუმებული ქორეთო?
+sc-review-form-usage = გინუკინით მარძგვანჷშე წინადადებეფი ქიმიღათჷნი. გინუკინით კვარჩხანჷშე ვარია ქოთქუათჷნი. ეუკინი ჟი, გიშატებელო. <strong> ვაგგოჭყორდანი გინომოწმებულეფიშ წუმორინაფაქ.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = წყარო: { $sentenceSource }
