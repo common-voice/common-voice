@@ -66,12 +66,38 @@ shortcut-skip = پ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = م
+shortcut-record-toggle-label = ٹیپ کرہ/اوریا
+shortcut-rerecord-toggle = [1 نہ 5]
+shortcut-rerecord-toggle-label = کٹرُو گتہ ٹیپ کرہ
+shortcut-discard-ongoing-recording = ڈیوہ
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ الُو دے/لاء دے۔
+shortcut-submit = واپسی
+shortcut-submit-label = کٹرو جمع کرہ
+request-language-text = ہَویں ہاری تُوں عام آوازاں پروگرامہ مہ تَیں ژیب نی پَیچھی یی؟
+request-language-button = ژِباں کریا درخواست کرہ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ب
+shortcut-play-toggle-label = باشا/اوریا
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = آ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = شرطہ
+contribution-criteria-link = مدد کرَیں یاں شرطہ پُنیا
+contribution-criteria-page-title = مدد کرَیں یاں شرطہ
+contribution-criteria-page-description = اما پورژا چے اوازاں کٹرو ݜون٘وَیں یاں وخ گنے فکر کرؤں تھو آں گِشے تاں اوازاں ٹیپ کرؤں سم کرؤں تھو!
 contribution-for-example = مثالاں طور ہِن
 contribution-misreadings-title = اوان پڑزیل
 contribution-misreadings-description = کان٘ڑ دیے ہان٘س جُختُو نھالی چہ گی لِکزَئیل تُھو بہ عینہ سو ٹَیپ ہونٚل تُھو گی نئی; کہ معمولی لکھ غلطی تھی کھئیں گتہ انکار کرہ۔<br />عام غلطی اُن٘دگی ݜَئیں تھی;
@@ -94,7 +120,7 @@ contribution-misreadings-example-7-title = بے ڇھاری ایک کافی او�
 contribution-misreadings-example-7-explanation = اصل لِکیلی مہ ‘ا’ نی تُھو
 contribution-misreadings-example-8-title = مانٚڇھی ہل لک لھن٘گی گے۔
 contribution-misreadings-example-8-explanation = اوان مِلال مواد
-contribution-varying-pronunciations-title = بدلُژان٘لی ادائیگی
+contribution-varying-pronunciations-title = رنٚگا رنٚگ ادائیگی
 contribution-varying-pronunciations-description = خبردار! اوان پڑی ڇھی،یا اوان زئ سختی آڇھی یا سوالیہ نشان پھت کرہ چھی کرے ایک کٹرُو ݜَیں بلیُوں لا کگَیں نہ مُوٹھن سُوچ کری۔گِنہ چے دُنئ مہ مُختلف قسم خلکہ قسما قِسمَیں لہجیُوں مہ مختلف ادائیگی کراں تھو، سیوں مہ بیکتُک څیز ݜے ہو تُھو چے سَیں څاں کچھ اور خلکؤں نہ تُون نی ݜُون٘یل ہو تُھو۔ کاں خلکہ څؤں نہ ہِلاک کرٹ ژیب دیں تھو کھیں سِوَیں ہُم ہِلاک اہمیت دی۔
 contribution-varying-pronunciations-description-extended = ہاں کہ څَیں لیل ہُوئ تُھو چے ایک ہٛڑان٘لہ اوک ݜس لفظ نی پُنیائ تُھو آں اٹکلہ لا اسیں ادائیگی یاں کوشیش کیر تُھو کھیں تے کگائے۔ آں کہ تے سم پتہ نی تھی کھیں تے پھت کرہ۔
 contribution-varying-pronunciations-example-1-title = تاں ݜݜہ لا سِیں کُھوئ چھائ
@@ -107,3 +133,17 @@ contribution-background-noise-description-extended = کہ رکاڈِن٘گ ݜژ�
 contribution-background-noise-example-1-fixed-title = <strong>جِسہ</strong>ڇگن٘ڑیاں</strong>افتی ڈائنوسارہ<strong>
 contribution-background-noise-example-2-fixed-title = ڇگن٘ڑیاں<strong>کھان٘گی</strong>افتی ڈائنوسارہ
 contribution-background-noise-example-2-explanation = لِکیلی یاں ایک حصہ اوک نی ݜُون٘وُژ تُھو
+contribution-background-noise-example-3-fixed-title = <strong>[کڑسَیں]</strong>ڇگن٘ڑیاں<strong>[کڑسَیں]<strong>افتی ڈائنوسارہ
+contribution-background-voices-title = ڈاپاتیاں اوازی
+contribution-background-voices-description = سِس لک ڈاپاتیاں شُورہُون٘دُوں ہولویں، خو ݜے نی ہو چے شُور مہ تیرئ بلیُوں ہِن مشینی الگورِدم لا اثر وے آں سو مژ نہ ݜے بلی اُوڇھ چے کؤں اصل لِکیلی مہ نی ہو۔کہ لِکیلی نہ تیرئ بلی تُوں ݜُون٘یلی کھیں تے اوازاں کٹرُو کگا(ریجیکٹ کری)۔اُو اکثر ݜے لک وختہ مہ ہوئ تھو چے کلہ یا کچھ بے کاں بلی بناں یا ٹی وی چالُو دھریلی ہو۔
+contribution-background-voices-description-extended = کہ رکاڈِن٘گ ݜژِیا یا مژمہ کڑسَیں نِکئ لُوں آں بُٹی لکیلی صحیح نی پڑژِلُوں تے رِکاڈِن٘گ کگائ
+contribution-background-voices-example-1-title = ڇَگن٘ڑیاں افتی ڈائنوسارہ۔<strong>[پڑَیں یاں ایک اواز اوک ایل]</strong>
+contribution-background-voices-example-1-explanation = تُو ای تُھو یی؟<strong>[الُوئے کؤکیر]</strong>
+contribution-volume-title = اواز
+contribution-volume-description = پڑان٘لہ واں تالا بنَیں مہ تے سِس بنَیں مہ تنی فرق لازمی ہو تُھو خو کہ کہ ݜتُک تا لا ہو چے تسی ہِن رکاڈِن٘گ نش یا (اکثر ݜے ہُوئ تھی چے) ݜتُک سِس ہو چے لِکیلیاں حوالہ نہ بغیر گتہ تُو گی نی ݜُون٘یں کھیں تے لازمی کگائ۔
+contribution-reader-effects-title = پڑان٘لو اثر کیری تُھو
+contribution-reader-effects-description = اکثر رکاڈن٘گہ خلکؤں تاں قُدرتی اوازؤں مہ کرچھی۔ݜے لک رِکاڈِن٘گ تُس قببلاہاں تھو چےکسی مہ ݜے کلہ کلہ چغئ ہوں، پھش پھش ہو یا ݜے ڈرامائی لک اواز ہو۔ خو کمپیوٹرہ لا سندژیل اواز آں گانی کریلی اوازی کگاگلی۔
+contribution-just-unsure-title = سَم پتہ نی تھی یی؟
+contribution-just-unsure-description = کہ تی مُوٹِھن ݜے بِگ څیز ایگا چے زَیں پان٘د پشائ(گائیڈلائن) مہ سو نی ہو کھیں تے تاں ہی یاں صِدقہ ہِن فیصلہ کرہ۔کہ تو گتہ ہُم فیصلہ نیرَیں تُھو کھیں پھت کرَیں یاں بٹنہ لا دی ایت رکاڈن٘گے بہ۔
+see-more = </chevron><chevron>چیرو نھالی
+see-less = </chevron></chevron>کم نھالی
