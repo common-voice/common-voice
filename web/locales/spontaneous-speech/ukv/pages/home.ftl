@@ -35,3 +35,4 @@ signup-input-placeholder = Tolupe emayl net na
 signup-button-value = sunyu link na kuwe yo emayl
 footer-text-privacy = Konda na ŋo könut geleŋ
 footer-text-terms = Jamesi, kukyesi logon gwon ko nyönyökit ka'de
+footer-text-cookies = kine a failijin na 'di'dik
