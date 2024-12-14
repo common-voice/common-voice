@@ -10,3 +10,9 @@ why-card-1-text = Ko 'bulit yi, kulya na jame' yi töyili, a tokitaji' kulya nag
 why-card-2-text = Na'but parik
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = A na'but togu na kutusen logon gwon ko kulaesi lo ku'dik kode kulyaesi lo tune yi kutusen ka'de ka'de yi tokitayi(miret nanyit, kutusen logon ti teŋ na ŋutụu  kerijin ka'de ka'dek kutusen logon a ko wuro yi lukikiri ko kule jore)
+how-spontaneous-speech-works = Kulya nagon a ko wurö kune kita ada
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = 'dolet
+prompt-bubble-subtitle = Yi de kpekinda do 'dolet kode piyet
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = Rugö
