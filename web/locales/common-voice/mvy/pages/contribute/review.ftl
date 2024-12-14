@@ -23,9 +23,25 @@ sc-review-form-button-skip-shortcut = ک
 sc-review-form-keyboard-usage-custom = { sc-review-form-button-approve-shortcut }قبلَیں،{ sc-review-form-button-reject-shortcut }کگَیں،{ sc-review-form-button-skip-shortcut }یا پھت کرَیں یاں کریا ہُویں تُو کی بورڈَیں کھٹَیں پن٘دہ گتہ اختیار کرَیں تُھو۔
 sc-review-form-button-submit =
     .submitText = دُوہیڑی نھالؤں بس۔
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] کوَیں جُملہ دوہیڑی نی نھالژی تھی۔
+        [one] جُملہ دوہیڑی نھالژی گے۔ تیں شُکھریہ!
+       *[other] جُملی دوہیڑی نھالژی گے۔ تیں شُُکھریہ!
+    }
+sc-review-form-review-failure = دوہیڑی نھالژؤں اڑ مہ دھری تُھو۔ پتَیں لک گتہ کوشش کرہ گل۔
+sc-review-link = دوہیڑی نھالہ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = دُوہیڑی نھالَیں یاں شرطہ
+sc-criteria-title = دُوہیڑی نھالَیں یاں شرطہ
+sc-criteria-make-sure = ݜس بال پکی را چے جُملی من چور ݜَیں شرطؤں لا پُوری تھویی؟
+sc-criteria-item-1 = جُملَیں ہیزی صحیح ہو۔
+sc-criteria-item-2 = جُملہ گرامرہ مہ صحیح ہو۔
+sc-criteria-item-3 = جُملہ پڑژئیں قابل ہو۔
 sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو پُویں عام اوازاں پلیٹ فارمے روان تُھو۔ تُو ہُویں ایکجُملہ <writeURL>لِکَیں </writeURL>تُھو گتہ یا <reviewURL>دُوہیڑی نھالَیں</reviewURL>تھو گتہ  آں تے عام اواز مہ جمع کرَیں تھو۔
 sc-redirect-page-subtitle-2 = <matrixLink>مېترکس</matrixLink>،</matrixLink>ڈِسکورس</discourseLink>یا<emailLink>ای میل</emailLink> لا زؤں نہ تپُوس کری۔
 # menu item
