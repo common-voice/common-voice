@@ -8,3 +8,5 @@ why-spontaneous-speech = Konyo yi bgeja kulyaesi logon 'bako wurö yi bgiyari le
 why-card-1-text = Ko 'bulit yi, kulya na jame' yi töyili, a tokitaji' kulya nagoŋ a gbak .(mirte na ko do miindi gbuluunda  na kulyeesi' yi kita ko ŋutuu jambu ŋo nagoŋ 'ba wuro kak nagoŋ a ti lipunök.)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Na'but parik
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = A na'but togu na kutusen logon gwon ko kulaesi lo ku'dik kode kulyaesi lo tune yi kutusen ka'de ka'de yi tokitayi(miret nanyit, kutusen logon ti teŋ na ŋutụu  kerijin ka'de ka'dek kutusen logon a ko wuro yi lukikiri ko kule jore)
