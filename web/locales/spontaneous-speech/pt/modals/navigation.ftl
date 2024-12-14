@@ -7,5 +7,6 @@ check = Verificar
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = Transcrever
 loading = Carga em andamento…
+login-signup = Entrar / Registar
 login = Entrar
 logout = Sair
