@@ -1,9 +1,25 @@
 ## WRITE PAGE
 
+write = Qillqaña
 write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
+sentence =
+    .label = Arsuña
+sentence-input-placeholder = Enter your public domain sentence here
+small-batch-sentence-input-placeholder = Enter your public domain sentence here
+citation-input-placeholder = Reference the source of your sentence (required)
+citation =
+    .label = Uñt’ayawi
 sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
+sc-review-write-title = ¿Kuna aruchjanaksa yapxatasma?
+sc-review-small-batch-title = ¿Kunjamatsa walja aruchjanak yapxatasma?
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Sapa aruchjax 15 arut juk’ampikiw utji.
+new-sentence-rule-3 = Use correct grammar
+new-sentence-rule-4 = Use correct spelling and punctuation
+new-sentence-rule-5 = Janiw jakhunakas jan ukax yaqha chimpunakas utjkiti
+new-sentence-rule-6 = Janiw yaqha qillqanakax utjkiti
+new-sentence-rule-7 = Include appropriate citation
 login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
 how-to-cite-explanation = If it’s your own words, just say <italicizedText>“Self Citation”</italicizedText>. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
 sentence-domain-select-placeholder = Select up to three domains (optional)
