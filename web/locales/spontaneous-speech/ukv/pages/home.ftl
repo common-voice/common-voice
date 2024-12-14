@@ -25,3 +25,6 @@ check-bubble-title = mete'
 check-bubble-subtitle = Ti do mete' ŋo' na wuro kune momrja ko bgörölö kulo
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = Nambajin na tutune
+data-bubble-subtitle = yi kune diŋitan yi' kilo kokolor' tutune na nambajin kode loŋio lo peta
+contact-us = Pine yi'
+contact-us-title = Do ŋona gwon ko teili lo morakinda yi na projek, kode kita ko yi'?
