@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = Aruman lurat qillqatanakap uñakipaña
 
 listen-contribute-menu-aria-label = Listen options menu
 validate-readings-menu-item-aria-label = Ayllunkir jaqinakan apayat grabacionanak chiqanchaña
+review-transcriptions-menu-item-aria-label = Qillqat aruchjanakan qillqatanakap uñakipaña
