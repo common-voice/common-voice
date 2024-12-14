@@ -1,5 +1,5 @@
 action-click = ჟ'ე̄სოთლ
-action-tap = სგალა̈ხფედა̄̈ნ
+action-tap = ლიგდური
 contribute = ლიმურჯუ̂ი
 review = მიმოხილვა
 skip = ქალახაცუ̂რ
@@ -98,7 +98,7 @@ shortcut-vote-no = მ
 ## Validation criteria
 
 contribution-criteria-nav = კრიტერიუმა̈ლ
-contribution-criteria-link = ჩუ̂ა̈ცხირ კრიტერიუმა̈ლ
+contribution-criteria-link = ჩუ̂ათცხირ კრიტერიუმა̈ლ
 contribution-criteria-page-title = წუ̂ლილი კრიტერიუმა̈ლ
 contribution-criteria-page-description = ჟა̈ხმეჴერ იმ ხაკუ ხოშა გუ̂ა̈კუ̂ირ ჰერშუ̂ ნა̈ირი ლაჰუ̂ნა̈რჟი ი ისგუ ჰერშუ̂ ნა̈ირა̈ლი ჩუ̂ათსიკეთ!
 contribution-for-example = მაგალითად
