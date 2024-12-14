@@ -25,7 +25,7 @@ contribute = Contribuir
 
 ## Navbar
 
-respond-to-prompt = Responder ao pedido
+respond-to-prompt = Responder à consulta
 transcribe-audio = Transcrever áudio
 check-transcriptions = Verificar transcrições
 
