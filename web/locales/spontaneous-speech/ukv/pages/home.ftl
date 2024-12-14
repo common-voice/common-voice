@@ -29,3 +29,4 @@ data-bubble-subtitle = yi kune diŋitan yi' kilo kokolor' tutune na nambajin kod
 contact-us = Pine yi'
 contact-us-title = Do ŋona gwon ko teili lo morakinda yi na projek, kode kita ko yi'?
 contact-us-email = Loŋio lo sonyo ko wuyu yi köbuŋwöt
+signup-form-title = Do a jo yi teŋ niyaŋ na temba na bgorolo lo dedena ko kutuk logon a ko wuro projek?
