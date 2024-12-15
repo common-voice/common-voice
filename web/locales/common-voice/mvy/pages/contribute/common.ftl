@@ -13,10 +13,10 @@ goal-help-recording = تئیں کام وائیس ریچ { $goalValue } پروگ�
 goal-help-validation = تئیں کامن وائیس ریچ <goalPercentage></goalPercentage> پروگراماں دیساں { $goalValue } صحیح کریاں نخ یا حدف حاصل کرہ څھے۔
 contribute-more =
     { $count ->
-       *[other] { $count } اوک مُت کرَیں تیار تُھو یی؟
+       *[other] کم لکھ مُت { $count } تیار تھے ائی؟
     }
-speak-empty-state = زؤں گائے ریکارڈ کرَیں یاں کریا مُتی بلی بارژی تھی۔۔۔
-no-sentences-for-variants = میں قاس څَیں ݜُو خاص ژیبَیں جُملی زؤں گائے بارژی تھی، کہ تے مِٹھی لیل ہون٘دوں تاں سیٹنگ بدل کر لہ تُو تَیں ژیبہ مہ مُتی بلی پش۔
+speak-empty-state = زاں گے ریکارڈ کرَیں کراں مُوئیت بلی بارزی تھی۔۔۔۔
+no-sentences-for-variants = مئیں قیاس ہن څَئیں ݜُو خاص زبئیں جُملی زانٚگئے بارزی تھی، کہ تے مِٹھ لیل ہُنلُو تاں سیٹنگ بدل کر تہ تُو تَئیں زِب مہ مُوئیت جملی پشے۔
 speak-empty-state-cta = بلی/جُملی ٹل کرہ
 speak-loading-error = زَیں ݜے گی بلی نی ملِلی چے سیوں تو بان۔ پتَیں لک کوشیش کرہ گل۔
 record-button-label = تاں اواز ٹیپ کرہ
