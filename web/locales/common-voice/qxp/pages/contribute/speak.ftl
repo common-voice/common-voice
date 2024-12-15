@@ -24,6 +24,10 @@ review-instruction = Clipkunata qhawapariy & wakmanta rimaykuriy chayna kaqtinqa
 record-submit-tooltip = { $actionType } ruwasqaña kashaqtinqa apachiy
 clips-uploaded = Clipkuna Q'ipisqa
 record-abort-title = Rimay ruwaytaraq tukuriy?
+record-abort-text = Kunan ripuspaqa ruwasqaykikuna chinkapunqa
+record-abort-submit = Clipkunata apachiy
+record-abort-continue = Rimay ruwayta tukuy
+record-abort-delete = Lluqsiy & Clipkunata pichay
 
 ## MENU ITEM TOOLTIPS
 
