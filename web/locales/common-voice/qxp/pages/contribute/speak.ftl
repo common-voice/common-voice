@@ -44,6 +44,11 @@ first-cta-header-text = Añay niyki clipkunata qusqaykimanta!
 first-cta-subtitle-text = Kikiykimanta willawaspayku, softwareruwaqkunata aswan llapanchispaq technologiata ruwanankupaq yanapanki
 why-donate = Imaraykutaq tapukunki?
 why-donate-explanation-1 = Kay willakuyqa munaqtiykiqa qunapaqmi - chiqaq munaspallapuni yapanayki. Yuyayhuñu tukusqa kanqa hina, llapa qanmanta willakusqayki pakasqa sutiwan kanqa, hinaqa sutiyki hinallataq emailniyki mana llaqta willaywan t'ipasqachu kanqa, mana hayk'a wata utaq qhari/warmi hina.
+why-donate-explanation-2 = Technologia llapa runapaq allin llamk'ananpaq, yuyayhuñuqa imaymana runakunaq ruwasqanta rikuchinan. Sichus mana ima runakunatapas huk llaqtasimiyuqta churanchischu chayqa, chay technologian mana allintachu llamkanqa chay llaqtasimiyuq runakunapaq. <learnMore>Imanaqtin metadata ancha kusa kasqanmanta yachay.</learnMore>
+add-information-button = Willakuyta yapay
+continue-speaking-button = Mana, rimayraq
+create-profile-text = Willakuyniykikunata waqaychayta munankichu? <createProfile>Musuq cuentata kichariy</createProfile>
+thanks-for-voice-toast = Añay niyki kunkarimayniykimanta willakamusqaykita
 
 ## MENU ITEM TOOLTIPS
 
