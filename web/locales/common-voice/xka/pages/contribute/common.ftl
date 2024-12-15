@@ -14,6 +14,9 @@ target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
 vote-yes = آم
 vote-no = نا
+datasets = ناٹہ چھورل
+languages = جب
+about = بابت
 partner = سیت
 submit-form-action = نام
 
@@ -22,6 +25,7 @@ submit-form-action = نام
 report = خبر
 report-title = رس مے اتہ زات ٹیکیل این آں تسے منیل تے چݨیل بیکر این
 report-offensive-language = اوران جیب
+report-grammar-or-spelling-detail = اوں جولا می گرمر تے ٹکیل کھچؘہ این
 report-different-language = اوراک اَجیب
 report-different-language-detail = مہ کاں جیب دون تےۡاُن تس دا اوراک َجیب مےۡچݨاگال این
 report-difficult-pronounce = منیل مےۡبیکھر
