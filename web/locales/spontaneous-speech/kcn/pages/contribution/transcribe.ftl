@@ -8,3 +8,4 @@ no-audio-message = Sawede mafi sauti al bi kutu fi kataba fi rutan wede. tafadha
 create-transcript-success = Kalam al maktub gedimu to najah
 create-transcript-error = Khata beinu zaman gi kalagu kalam al maktub wede
 error-playing-audio = Khata zaman gi alabu malaf ta sauti
+error-fetching-audio = Haja ruwa awaja zaman gusu sauti ta kalamaa al maktub. Tafadhal aburu mara taan baaden
