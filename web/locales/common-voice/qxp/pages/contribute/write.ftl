@@ -24,6 +24,17 @@ general = Llapan
 healthcare = Allinkaymanta
 # Sentence Domain dropdown option
 history_law_government = Historia, Kamachiq hinllataq Suyuumanchaq
+# Sentence Domain dropdown option
+language_fundamentals = Simimanta Qallariy yachaykuna (e.g. Yupaykuna, Simikuna, Qullqi)
+# Sentence Domain dropdown option
+media_entertainment = Media hinallataq Entertainment
+# Sentence Domain dropdown option
+nature_environment = Pachamama hinallataq Kawsay
+# Sentence Domain dropdown option
+news_current_affairs = Willakuykunamanta hinallataq Kunan Kawsaykunamanta
+# Sentence Domain dropdown option
+technology_robotics = Technologia hinallataq Robotics
+sentence-variant-select-label = Rimaypaq huk niraq rimaypi
 
 ## BULK SUBMISSION 
 
