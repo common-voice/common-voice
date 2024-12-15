@@ -11,15 +11,15 @@ sc-review-form-usage = جُملہ قبُول کریاں کراں  دڇُھوئی
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مُون٘ڈ:{ $sentenceSource }۔
-sc-review-form-button-reject = کگا
-sc-review-form-button-skip = پھت کرہ/ٹھن٘گ کرہ
-sc-review-form-button-approve = قبلا
+sc-review-form-button-reject = کگا.
+sc-review-form-button-skip = پھت کرہ/ٹھن٘گ کرہ.
+sc-review-form-button-approve = قبلا.
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = ق
+sc-review-form-button-approve-shortcut = ق.
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = ن
+sc-review-form-button-reject-shortcut = ک
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = ک
+sc-review-form-button-skip-shortcut = ٹ
 sc-review-form-keyboard-usage-custom = { sc-review-form-button-approve-shortcut }قبلَیں،{ sc-review-form-button-reject-shortcut }کگَیں،{ sc-review-form-button-skip-shortcut }یا پھت کرَیں یاں کریا ہُویں تُو کی بورڈَیں کھٹَیں پن٘دہ گتہ اختیار کرَیں تُھو۔
 sc-review-form-button-submit =
     .submitText = دُوہیڑی نھالؤں بس۔
