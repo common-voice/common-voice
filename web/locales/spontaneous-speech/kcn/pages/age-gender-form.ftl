@@ -20,3 +20,5 @@ male_masculine = Ragi
 female_feminine = Mariya
 intersex = Abjinsein
 transgender = Abgeeru jinsi
+non-binary = Bila jinsi
+do_not_wish_to_say = Maa gi tamani kelemu
