@@ -1,5 +1,8 @@
 action-click = کۡلک ؛ ٹک
-contribute = څھداوَہ
+action-tap = څھداوَہ
+contribute = لُبُسِک
+review = گِری بالِک
+skip = اِٹِکِک
 
 ## Reporting
 
