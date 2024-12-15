@@ -6,9 +6,10 @@ skip = اِٹِکِک
 shortcuts = کھٹن کېراوَہ
 clips-with-count-pluralized =
     { $count ->
-        [one] حصہ
+        [one] <bold>{ $count }</bold> حصہ
        *[other] { "" }
     }
+goal-help-recording = توئیں کامن وائیسہ<goalPercentage></goalPercentage>اسَنہ ہر باگانہ{ $goalValue }ریکاڈِنگاں فیدِکہ مدد کېرُو!
 speak-empty-state = امہ مِنزی اسہ باتِیَنی ریکارڈ کېرِکہ ݭڅی جُملہ نِمَتی تنیت۔۔۔
 
 ## Reporting
