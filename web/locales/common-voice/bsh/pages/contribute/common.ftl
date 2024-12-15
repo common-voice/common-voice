@@ -104,3 +104,5 @@ contribution-misreadings-title = نمل ولہ ستہ
 contribution-misreadings-description = سݣہ ستہ پمیچ اینہ بلیوک احتیاط مع ایش کشݩع چہ کائ لتری ریکااڈ کعسہ با  ستہ سئی بولہ کہ کائ سترے سہ با اگر اچاک غلطی می بیبا ستہ رد کݜمع<br /> بلیک عام غلطی تہ شامل اسہ
 contribution-misreadings-description-extended-list-1 = ٹکاں استہ <strong>ا</strong>یا<strong>امنی </strong>نشتریک  ریکا ڈ تہ
 contribution-misreadings-description-extended-list-2 = ٹکاں استہ <strong> س</strong> لفظ ستہ پٹوے ریک تہ
+contribution-misreadings-description-extended-list-3 = اپارکولی الفاظ ولہ ستہ حقیقت تہ اتکی نہ ائ لکہ we're اینا جائے تہ we are ولہ ستہ
+contribution-misreadings-description-extended-list-4 = آخری لفظ ستہ اختتام پتہ کوستہ کہ کع با رکاڈنگ نوݜٹا بند بوتہ
