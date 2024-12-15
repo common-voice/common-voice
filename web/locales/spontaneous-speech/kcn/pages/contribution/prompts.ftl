@@ -24,3 +24,6 @@ learn-how-to-use-prompts = Alimu teriga ta soo ma safha wede
 learn-how-to-use-prompts-explanation = Bes juwabu matlaba de fi shikil tabiya al ita agder fi jumla tinein. Hakikisha rutan taki ta hishma wu maa ta jerima.
 learn-how-to-use-prompts-guidance = Nakasi ini fi arufu teriga ta so ma safha wede.
 learn-how-to-use-transcribe = Alimu teriga ta kutu kalam fi kataba.
+learn-how-to-use-transcribe-explanation = Katib falata adiil kalam ab ajol de kelem, ligo fogo kalam ja 'um', 'err'.
+learn-how-to-use-transcribe-guidance = Nakasi ini fi arufu teriga ta so ma safha wede.
+learn-how-to-use-check-transcript = Alimu teriga ta hakikisha kalam al al maktub
