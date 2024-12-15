@@ -21,6 +21,7 @@ share-title-new = دی اوازونی بیلڑیل  می اسے مدد تہ
 keep-track-profile = اپان دی تانی ترقی اےۡ اّپروفاییل رݭ
 login-to-get-started = شوروتال کیر لاگ ان یا ساین اپ بہ
 target-segment-first-card = تو اسے اولوک باگ اِج بییل می تو پاڈیزون۔
+target-segment-generic-card = ا مقصد کیر تو تانی ڈا  ڈیزون
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
 target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
@@ -53,6 +54,7 @@ report-success = راپوٹ کمیابی سہ قبولیل
 ## Speak Shortcuts
 
 shortcut-submit = نوٹھ
+request-language-text = ای لا تانی جیب کامن وایس رل نہ نال۔
 
 ## Listen Shortcuts
 
