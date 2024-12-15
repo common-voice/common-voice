@@ -132,3 +132,5 @@ contribution-background-noise-description-extended = اگر ریکا ڈنگ پٹ
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> الہ ڈائنوسور <strong>[cough </strong> تری یاسیک ۔
 contribution-background-noise-example-2-fixed-title = الہ ڈائنوسور <strong>[cough]</strong>ٹریاسک ستہ ۔
 contribution-background-noise-example-2-explanation = متن ستہ حصہ چہ سݣستہ نہ بوتہ
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>الہ ڈائنو سور <strong>[crackle]</strong>ریاسیک ۔
+contribution-background-voices-title = پتیارہ کوٹ
