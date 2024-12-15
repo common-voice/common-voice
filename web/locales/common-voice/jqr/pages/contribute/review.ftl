@@ -50,5 +50,13 @@ sc-review-instruction = Check <icon></icon> is this a linguistically correct sen
 sc-review-rules-title = Does the sentence meet the guidelines?
 sc-review-empty-state = Ahora no hay oraciones para revisar en este idioma.
 report-sc-different-language = Yaqha aru
+report-sc-different-language-detail = Ukajj nayajj uñakiptʼaskta ukat sipansa yaqha arun qillqatawa
+sentences-fetch-error = An error occurred fetching sentences
+review-error = An error occurred reviewing this sentence
+review-error-rate-limit-exceeded = You're going too fast. Please take a moment to review the sentence to make sure it's correct.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+# menu item
+review-sentences = Revisar Oraciones
