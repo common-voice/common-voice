@@ -25,6 +25,9 @@ help = مدد
 faq = چے کرېل تپُوسہ
 email-input =
     .label = ای میل
+not-available-abbreviation = نیتُھو
 
 ## Donate banner
 
+localization-select =
+    .label = ژیب / علاقہ خوش کرہ
