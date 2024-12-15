@@ -5,7 +5,7 @@ error = Khata
 action-click = Nakas
 action-tap = Lemes
 # Label for language switcher
-interface-language = Rutal al beenu
+interface-language = Rutan al beinu
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Awunun fi koum ta malumaat ta
 # Label for button on contribution switcher
@@ -35,3 +35,14 @@ not-found-page-header = Maa ligo
 not-found-page-content = Safha al ita gi gusu de maa agder ligo uwo
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ana gi rudu ma sauti wayi
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Ingilisi
+fr = Faransa
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay
+meh = South western Tlaxiaco Mixtec
+mel = Central Melanau
