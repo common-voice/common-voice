@@ -1,10 +1,10 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تُوں ایک گتہ ژیب خوش نیرہ چھی۔تاں </profileLink>پروفائلے<profileLink> بئ گیل ژِبہ خوش کرہ۔
-sc-review-title = جُملی دُوہیڑی نھالہ
-sc-review-loading = جُملی ہُویں اېں تھی۔۔۔۔۔
-sc-review-select-language = جُملی دُوہیڑی(دوبارہ) نھالَیں کریا ایک ژیب اوک خوش کرہ لہ
-sc-review-no-sentences = دوہیڑی نھالَیں یاں کریا جُملی نی تھی<addLink>ہُویں مُتی جُملی ٹل کرہ گل</addLink>
+sc-review-lang-not-selected = تُوں ایک گتہ زیب خوش نیرہ څھے۔مھیربانی کرے تاں </profileLink>پروفائلے<profileLink> بزی اک زیب اوک  خوش کرہ۔
+sc-review-title = جُملی گتہ نھالہ
+sc-review-loading = جُملی لوڈ ہُوئینتی۔۔۔۔۔
+sc-review-select-language = جُملی گتہ (دوبارہ) نھالَئیں کراں اک زیب اوک خوش کرہ
+sc-review-no-sentences = گتہ (دوبارہ) نھالَئیں  کراں جُملی نی تھی<addLink>ہُوئیں مُتی جُملی ٹل کرہ </addLink>
 sc-review-form-prompt =
     .message = دُوہیڑی نھالیلی جُملی جمع نی ہُوتھی، پکی بال تھی؟
 sc-review-form-usage = جُملہ قبُول کرَیں یاں کریا دڇھیں کِھن٘گی لا ڙر کرہ آں کگَیں یاں کریا کھبُوئ کِھن٘گی لا ڙر کرہ۔<strong>دُوہیڑی نھالؤں جمع کرؤں اؤن٘ݜہ نئ ہوئ</strong>
