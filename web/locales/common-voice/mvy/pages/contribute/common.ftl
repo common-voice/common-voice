@@ -1,9 +1,9 @@
 action-click = ٹَک
-action-tap = ٹک
-contribute = تاں حصہ گلہ
-review = دوبارہ نھالہ
-skip = پَھت کرہ
-shortcuts = کھٹَیں پاند
+action-tap = ٹیپ
+contribute = تاں حصہ گلہ۔
+review = دوبارہ نھالہ/نظر ثانی
+skip = پَھت کرہ۔
+shortcuts = کھٹَیں پاند۔
 clips-with-count-pluralized =
     { $count ->
         [one] کٹرُو
@@ -144,6 +144,6 @@ contribution-volume-description = ریکارڈنٚگ مہ منئیں والوں 
 contribution-reader-effects-title = پڑان٘لَو اثرانداز ہُونٚت۔
 contribution-reader-effects-description = اکثر رکارڈن٘گ خلقؤں تاں قُدرتی اوازؤں مہ تھے۔ݜے لکھ رِکارڈِن٘گ تُس قبلاہانٚتے چہ کسی مہ ݜے کلہ کلہ چغئ ہوں، پھش پھش ہو یا ݜے ڈرامائی لکھ اواز ہو۔ خو کمپیوٹرہ تل سندزیل اواز آں گیل کریل اوازہ الُو دی۔
 contribution-just-unsure-title = سَم پت نی تھی؟
-contribution-just-unsure-description = کہ تی مُوٹِھن ݜے بِگ څیز ایگا چے زَیں پان٘د پشائ(گائیڈلائن) مہ سو نی ہو کھیں تے تاں ہی یاں صِدقہ ہِن فیصلہ کرہ۔کہ تو گتہ ہُم فیصلہ نیرَیں تُھو کھیں پھت کرَیں یاں بٹنہ لا دی ایت رکاڈن٘گے بہ۔
-see-more = </chevron><chevron>چیرو نھالی
-see-less = </chevron></chevron>کم نھالی
+contribution-just-unsure-description = کہ تی مُوئیٹھوں ݜے بِگ څیز ایگا چہ ݜئیں لھنٚگِل منِل بلیوں مہ سو نی ہو کھئیں تے تاں ہیاں صِدقہ ہِن فیصلہ کرہ ۔ کہ تو گتہ ہُم فیصلہ نیرہانٚت  کھئیں  تے پھت کرَیں بٹنہ تل ٹک کرے تے مُوٹُھو مُت رکارڈن٘گے بہ۔
+see-more = </chevron><chevron>مُتی نھالی
+see-less = </chevron></chevron>کم نھالی۔

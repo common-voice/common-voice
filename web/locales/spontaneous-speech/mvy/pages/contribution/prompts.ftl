@@ -8,6 +8,9 @@ no-prompts-message = آس جِباں فلحال گی چھر نیتھو. تو گ�
 error-recording = ٹیپ کراں دی بِگی خرابی ایگے
 error-uploading-response = تیں جواب اُکھال ہان٘س بگ مسؽلہ ایگے
 prompt-submitted-success = جواب کامیابی ہِن جمع ہُوگا
+prompt-response-deleted-success = جواب کامیابی ہِن الُو دگیلی
+# For the button to delete a response to a prompt
+delete = الُوۡ دے
 
 ## Explainer text (Respond to Prompt)
 
