@@ -55,9 +55,13 @@ report-success = راپوٹ کمیابی سہ قبولیل
 
 shortcut-submit = نوٹھ
 request-language-text = ای لا تانی جیب کامن وایس رل نہ نال۔
+request-language-button = اّجیب تہ درخاس دہ۔
 
 ## Listen Shortcuts
 
 
 ## Validation criteria
 
+contribution-criteria-nav = شرطونی
+contribution-criteria-link = امداد تالے،ۡشرطونی پویان
+contribution-criteria-page-title = امداد اے شرطونی
