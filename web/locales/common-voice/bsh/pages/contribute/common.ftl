@@ -1,4 +1,4 @@
-action-click = ویستہ
+action-click = ووسپلہ ستہ
 action-tap = ووسپلستہ
 contribute = سنہ ستہ
 review = پلݣاستہ
