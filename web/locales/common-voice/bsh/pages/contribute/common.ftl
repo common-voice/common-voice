@@ -115,3 +115,6 @@ contribution-misreadings-example-3-explanation = آخری لفظو لکہ نہ �
 contribution-misreadings-example-4-title = ٹریاسیک ستہ الی ڈائنوسور ۔ او
 contribution-misreadings-example-4-explanation = سترے تݩع ریکاڈنگ سکال بستتہ ای
 contribution-misreadings-example-5-title = ایکو کافی اݣع برہ لہ اتمیش
+contribution-misreadings-example-6-explanation = بوستہ اسہ (ا یمو اسمیش )
+contribution-misreadings-example-7-title = اہ کافی اݣع برہ لہ اتمیش
+contribution-misreadings-example-7-explanation = نئی (ا)اصلی سترئ تہ
