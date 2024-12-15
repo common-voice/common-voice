@@ -11,6 +11,8 @@ prompt-submitted-success = جواب کامیابی ہِن جمع ہُوگا
 prompt-response-deleted-success = جواب کامیابی ہِن الُو دگیلی
 # For the button to delete a response to a prompt
 delete = الُوۡ دے
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = جمع ہُوگا
 
 ## Explainer text (Respond to Prompt)
 
