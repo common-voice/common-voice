@@ -118,3 +118,6 @@ contribution-misreadings-example-5-title = ایکو کافی اݣع برہ لہ 
 contribution-misreadings-example-6-explanation = بوستہ اسہ (ا یمو اسمیش )
 contribution-misreadings-example-7-title = اہ کافی اݣع برہ لہ اتمیش
 contribution-misreadings-example-7-explanation = نئی (ا)اصلی سترئ تہ
+contribution-misreadings-example-8-explanation = مواد اہ یار نہ بیبا
+contribution-varying-pronunciations-title = مختلف تلفظ
+contribution-varying-pronunciations-description = امنی ھدایت اینہ وری تہ پارہ اشارہ کوتت چہ مختلف منچا ستہ لہجہ سورہ تلفظ یاوری ولستہ ستہ انداز قبول کوستہ تہ برداشت کاع  سورہ  وسعت نظری مع بلیو ک ال بوڑہ مع کودیوم کاع اسہ
