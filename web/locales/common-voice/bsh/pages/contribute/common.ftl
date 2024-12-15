@@ -134,3 +134,4 @@ contribution-background-noise-example-2-fixed-title = الہ ڈائنوسور <s
 contribution-background-noise-example-2-explanation = متن ستہ حصہ چہ سݣستہ نہ بوتہ
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>الہ ڈائنو سور <strong>[crackle]</strong>ریاسیک ۔
 contribution-background-voices-title = پتیارہ کوٹ
+contribution-background-voices-description = اہ چاک وعجو سئ اسہ لیکن اضافہ کوٹ نہ بوستہ ائ چہ ایکی الگوردم مشین آجیستہ کوٹ زعاں ستہ مجبور کولے چہ ستہ سترے متن تہ شامل نہ بیبا ۔ اگر توتہ متن تݩع علاوہ واضح الفاظ پکار اڅلہ بیبا ستہ کلپ مسترد کوع بولے عام ول تہ آجیستہ ستہ ول تہ بولای کوئ ٹی وی چلو بیبا ،انیار اتکیار وری ولہ لے بیبا
