@@ -18,3 +18,5 @@ thank-you-for-your-information = Shukran fi malumaat taki
 
 male_masculine = Ragi
 female_feminine = Mariya
+intersex = Abjinsein
+transgender = Abgeeru jinsi
