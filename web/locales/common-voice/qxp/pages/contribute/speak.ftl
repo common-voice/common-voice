@@ -28,6 +28,13 @@ record-abort-text = Kunan ripuspaqa ruwasqaykikuna chinkapunqa
 record-abort-submit = Clipkunata apachiy
 record-abort-continue = Rimay ruwayta tukuy
 record-abort-delete = Lluqsiy & Clipkunata pichay
+review-aborted = Q'ipiy pantasqa. Rimay ruwayniykikunata pichayta munanki?
+review-submit-title = Qhawapay & Apachiy
+review-submit-msg = Añay rimay ruwasqaykimanta!<lineBreak></lineBreak>Kunanqa qhawapay hinaspa uraypi clipniykikunata apachiy.
+review-recording = Qhawapay
+review-rerecord = Wakmanta rimayta ruway
+review-cancel = Apachiyta Qulluchiy
+review-keep-recordings = Rimay ruwasqakunata waqaychay
 
 ## MENU ITEM TOOLTIPS
 
