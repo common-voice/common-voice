@@ -66,6 +66,10 @@ read-sentences = Rimaykunata Rimay
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Rimaykunata Rimay, Tapukuykunata Kutichiy
+read-sentences-menu-item-tooltip = Simiykipi rimaykunata rimariy
+answer-questions-menu-item-tooltip = Simiykipi tapuykunata hinallataq willaykunata rimariy
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Rimay akllanakuna
+read-sentences-menu-item-aria-label = Ayllu runakunaq imaymana simikunapi apachimusqan rimaykunata rimariy
