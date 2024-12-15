@@ -11,6 +11,9 @@ clips-with-count-pluralized =
     }
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
 target-segment-learn-more = دی پا جاناں
+change-preferences = مک گیرو
+vote-yes = آم
+vote-no = نا
 partner = سیت
 submit-form-action = نام
 
