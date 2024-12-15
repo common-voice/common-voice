@@ -8,3 +8,8 @@ why-spontaneous-speech = Sababu sunu ina abinu tajriba ta wanasa ta sutfa
 why-card-1-text = Muhimu fi kalamaa ta kiliga ma istamil gediya mathalan kan ita aju kede arufu ita fi wanasa ta so kidima ma anas al gi wonusu wanasa al maa ma kataba wu al moyomoyo
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Fi seme ta shaja haki ta rutan ja targim rutanaa ma badulu beina ta rutan tinein aw ziada
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Fi seme ta shaja rutana al endis siya au maa makataba ta istimal mathalan lahja, al gi geeru geeru fi historiya ta rutan al maa ma kataba
+how-spontaneous-speech-works = Teriga al wanasa ta sutfa gi so moo
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = Matlaba
