@@ -5,6 +5,13 @@ sentence =
     .label = Rimay
 new-sentence-rule-3 = Allin simi kamaywan tupanan
 new-sentence-rule-6 = Mana hawa simimanta qillqakuna
+single-sentence = Sapalla
+small-batch-sentence = Huch’uy rimayhuñu
+bulk-sentence = Hatun rimayhuñu
+sentence-domain-combobox-label = Rimaypaq Mitan
+sentence-domain-select-placeholder = Kimsa mitaykunata akllay (munarispaqa)
+# Sentence Domain dropdown option
+agriculture_food = Chakra Llamk’ay hinallataq Mikhuy
 
 ## BULK SUBMISSION 
 
