@@ -125,3 +125,5 @@ contribution-varying-pronunciations-description-extended = کوئی کائی ک�
 contribution-varying-pronunciations-example-1-title = ایکی ݜئ تہ شوکاکوع پݜئ تعسی
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ستہ تلفظ آدیو صورت تہ سئی اسہ پنوی واہ ھجاہ تہ زور بوتہ (uk) تہ نئی دیوبولی ھجا (US) تہ بوتہ با ۔
 contribution-varying-pronunciations-example-2-title = ستہ ستہ دوی اوتینسی
+contribution-varying-pronunciations-example-2-explanation = [‘Raised) انگریزی تہ پمیشہ اہ ھجا مع استعمال کاع بولی اسہ نئ چہ دیو مع ۔
+contribution-background-noise-title = پتیارہ کوٹ
