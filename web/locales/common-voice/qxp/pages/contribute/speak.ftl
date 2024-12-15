@@ -73,3 +73,4 @@ answer-questions-menu-item-tooltip = Simiykipi tapuykunata hinallataq willaykuna
 
 speak-contribute-menu-aria-label = Rimay akllanakuna
 read-sentences-menu-item-aria-label = Ayllu runakunaq imaymana simikunapi apachimusqan rimaykunata rimariy
+answer-questions-menu-item-aria-label = Musuq tapukuyta aylluman rimanankupaq hinallataq kutichinankupaq apachiy
