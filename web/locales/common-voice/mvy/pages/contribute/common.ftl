@@ -1,4 +1,4 @@
-action-click = کلٍک
+action-click = ٹَک
 action-tap = ٹک
 contribute = تاں حصہ گلہ
 review = دوبارہ نھالہ
