@@ -106,3 +106,6 @@ contribution-misreadings-description-extended-list-1 = ٹکاں استہ <strong
 contribution-misreadings-description-extended-list-2 = ٹکاں استہ <strong> س</strong> لفظ ستہ پٹوے ریک تہ
 contribution-misreadings-description-extended-list-3 = اپارکولی الفاظ ولہ ستہ حقیقت تہ اتکی نہ ائ لکہ we're اینا جائے تہ we are ولہ ستہ
 contribution-misreadings-description-extended-list-4 = آخری لفظ ستہ اختتام پتہ کوستہ کہ کع با رکاڈنگ نوݜٹا بند بوتہ
+contribution-misreadings-description-extended-list-5 = اہ لفظا ولہ ستہ کں سکال ویں کوشش کاع
+contribution-misreadings-example-1-title = ٹریاسیک ستہ الی ڈائئنوسور
+contribution-misreadings-example-2-title = ٹریاسیک ستہ الی ڈائئنوسور
