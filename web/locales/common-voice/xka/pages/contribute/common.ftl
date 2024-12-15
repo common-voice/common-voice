@@ -18,6 +18,9 @@ contribute-more =
     }
 record-button-label = تانی تراٹ ریکاٹ تہ
 share-title-new = دی اوازونی بیلڑیل  می اسے مدد تہ
+keep-track-profile = اپان دی تانی ترقی اےۡ اّپروفاییل رݭ
+login-to-get-started = شوروتال کیر لاگ ان یا ساین اپ بہ
+target-segment-first-card = تو اسے اولوک باگ اِج بییل می تو پاڈیزون۔
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
 target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
