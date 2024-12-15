@@ -35,6 +35,8 @@ review-recording = Qhawapay
 review-rerecord = Wakmanta rimayta ruway
 review-cancel = Apachiyta Qulluchiy
 review-keep-recordings = Rimay ruwasqakunata waqaychay
+review-delete-recordings = Ruwasqay rimaykunata pichay
+review-terms = Common Voicewan llamk'aspa, <termsLink>Kamachikuykuna</termsLink> hinallataq <privacyLink>Waqaychay Willakuykuna</privacyLink> allimpi tarikunki
 
 ## MENU ITEM TOOLTIPS
 
