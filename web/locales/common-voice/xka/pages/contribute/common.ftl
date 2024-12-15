@@ -11,6 +11,13 @@ clips-with-count-pluralized =
     }
 goal-help-recording = اسےۡہر دوسے،ۡ             ریکارڈ مقصد                      مےۡتی کامن وای،س اےۡ  مدد تال
 goal-help-validation = دی       کیر راڈ با۔
+contribute-more =
+    { $count ->
+        [one] دی      کیر راڈبا
+       *[other] دی اےۡ کیر راڈ با
+    }
+record-button-label = تانی تراٹ ریکاٹ تہ
+share-title-new = دی اوازونی بیلڑیل  می اسے مدد تہ
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
 target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
