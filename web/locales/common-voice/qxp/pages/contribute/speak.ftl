@@ -55,9 +55,17 @@ first-cta-gender-select-help-text =
     .label = ¿Imaynatataq willawaq qari utaq warmi kasqaykita?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Añay niyki rimayniykiwan yanapasqaykimanta!
+second-cta-subtitle-text = Profilewanqa, ruwasqaykikunata qhawayta atiwaq hinallataq huk rimaqkunaayllu yanapakuqkunawan tupayta atiwaq.
+already-have-an-account = Cuentayuqchu? <login>Yaykuy</login>
+create-profile-button = Musuq cuentata kichariy
+# IMAGE TAGS
+img-alt-success-checkmark = allin ruway ch'ikuy
+# menu item
+read-sentences = Rimaykunata Rimay
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Rimaykunata Rimay, Tapukuykunata Kutichiy
 
 ## MENU ITEM ARIA LABELS
 
