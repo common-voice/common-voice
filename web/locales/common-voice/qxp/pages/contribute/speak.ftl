@@ -37,6 +37,12 @@ review-cancel = Apachiyta Qulluchiy
 review-keep-recordings = Rimay ruwasqakunata waqaychay
 review-delete-recordings = Ruwasqay rimaykunata pichay
 review-terms = Common Voicewan llamk'aspa, <termsLink>Kamachikuykuna</termsLink> hinallataq <privacyLink>Waqaychay Willakuykuna</privacyLink> allimpi tarikunki
+terms-agree = Ari nini
+terms-disagree = Mana ari ninichu
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Añay niyki clipkunata qusqaykimanta!
+first-cta-subtitle-text = Kikiykimanta willawaspayku, softwareruwaqkunata aswan llapanchispaq technologiata ruwanankupaq yanapanki
+why-donate = Imaraykutaq tapukunki?
 
 ## MENU ITEM TOOLTIPS
 
