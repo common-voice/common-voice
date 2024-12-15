@@ -25,6 +25,8 @@ contribute = Awunu
 
 ## Navbar
 
+respond-to-prompt = Juwab matlaba
+transcribe-audio = Kutu kalam fi sauti
 
 ## Not Found Page
 
