@@ -10,6 +10,11 @@ record-no-mic-found = Mana ima mikrofonopis tarisqachu.
 record-error-too-short = Kay rimayqa pisillam karqan.
 record-error-too-long = Kay rimayqa nishu unaymi karqan.
 record-error-too-quiet = Kay rimayqa nishu ch’inlla karqan.
+record-cancel = Rimay ruwayta qulluchiy
+record-instruction = { $actionType }<recordIcon></recordIcon> chaymanta rimayta kallpawan rimariy
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ruwasqaña kaqtin
+record-three-more-instruction = Kimsallañam!
+record-again-instruction = Kusapuni!<recordIcon></recordIcon> Qatiqnin clipta rimay
 
 ## MENU ITEM TOOLTIPS
 
