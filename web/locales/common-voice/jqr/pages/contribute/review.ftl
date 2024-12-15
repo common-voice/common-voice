@@ -1,5 +1,9 @@
 ## REVIEW
 
+sc-review-lang-not-selected = You have not selected any languages. Please go to your <profileLink>Profile</profileLink> to select languages.
+sc-review-title = Revisar Oraciones
+sc-review-loading = Cargando oraciones...
+sc-review-select-language = Elige un idioma para revisar oraciones
 sc-review-form-usage = Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. <strong>Do not forget to submit your review!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
