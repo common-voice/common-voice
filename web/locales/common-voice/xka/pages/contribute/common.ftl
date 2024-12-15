@@ -10,6 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>ٹۡار
     }
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
+target-segment-learn-more = دی پا جاناں
 partner = سیت
 submit-form-action = نام
 
