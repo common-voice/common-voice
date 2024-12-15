@@ -27,6 +27,11 @@ contribute = Awunu
 
 respond-to-prompt = Juwab matlaba
 transcribe-audio = Kutu kalam fi sauti
+check-transcriptions = Hakikisha kalamaa al maktub
 
 ## Not Found Page
 
+not-found-page-header = Maa ligo
+not-found-page-content = Safha al ita gi gusu de maa agder ligo uwo
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Ana gi rudu ma sauti wayi
