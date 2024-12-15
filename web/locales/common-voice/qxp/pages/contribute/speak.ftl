@@ -21,6 +21,9 @@ review-tooltip = kaypi Qhawapay & wakmanta clipkunata rimay munasqaykiman hina
 share-clip = Clipniykita ch'iqiririchiy
 share-common-voice = Common Voiceta ch'iqiririchiy
 review-instruction = Clipkunata qhawapariy & wakmanta rimaykuriy chayna kaqtinqa
+record-submit-tooltip = { $actionType } ruwasqaña kashaqtinqa apachiy
+clips-uploaded = Clipkuna Q'ipisqa
+record-abort-title = Rimay ruwaytaraq tukuriy?
 
 ## MENU ITEM TOOLTIPS
 
