@@ -29,3 +29,4 @@ data-bubble-subtitle = Maramara ina gi tala koum ta malumaat de
 contact-us = Wonusu ma ina
 contact-us-title = Kun ma haam fi sharaka fi mashru wede, au limu ida ma ina
 contact-us-email = Anwan ta email
+signup-form-title = Sei ita jahiz kun ma ina fi majmu taina al afdhal fi aburu ta mashru ta kalam al sutfa?
