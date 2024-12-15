@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] کٹرُو
        *[other] کٹرو
     }
-goal-help-recording = تُوں عام اوازاں دیساں ریکارڈ کرَیں یاں{ $goalValue } مقصد<goalPercentage></goalPercentage> ݜِݜے ڇیلیاچھی!
-goal-help-validation = تُوں عام اوازاں دیساں صحیح کرَیں یاں{ $goalValue } مقصد<goalPercentage></goalPercentage> ݜِݜے ڇیلیاچھی!
+goal-help-recording = تئیں کام وائیس ریچ { $goalValue } پروگراماں دیساں <goalPercentage></goalPercentage> ریکارڈنٚگاں نخ یا حدف حاصل کرئیں مہ کمُک کرہ څھے!
+goal-help-validation = تئیں کامن وائیس ریچ <goalPercentage></goalPercentage> پروگراماں دیساں { $goalValue } صحیح کریاں نخ یا حدف حاصل کرہ څھے۔
 contribute-more =
     { $count ->
        *[other] { $count } اوک مُت کرَیں تیار تُھو یی؟
