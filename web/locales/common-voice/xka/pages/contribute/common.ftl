@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>اے ٹار
        *[other] <bold>{ $count }</bold>ٹۡار
     }
+goal-help-recording = اسےۡہر دوسے،ۡ             ریکارڈ مقصد                      مےۡتی کامن وای،س اےۡ  مدد تال
+goal-help-validation = دی       کیر راڈ با۔
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
 target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
