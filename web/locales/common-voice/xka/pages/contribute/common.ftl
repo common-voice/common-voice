@@ -1,4 +1,4 @@
-action-click = ٹک
+action-click = مثال سہ
 action-tap = تراپ
 contribute = امداد
 review = نالیل
@@ -31,6 +31,9 @@ report-different-language-detail = مہ کاں جیب دون تےۡاُن تس �
 report-difficult-pronounce = منیل مےۡبیکھر
 report-difficult-pronounce-detail = رس مےۡ تہ ذات ٹیکیل این اوں ںسو منیل مےۡبیکھر این
 report-offensive-speech = { "" }
+success = کمیابی
+continue = روان
+report-success = راپوٹ کمیابی سہ قبولیل
 
 ## Speak & Listen Shortcuts
 
