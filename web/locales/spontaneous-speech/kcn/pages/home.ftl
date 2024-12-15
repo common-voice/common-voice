@@ -13,3 +13,12 @@ why-card-3-text = Fi seme ta shaja rutana al endis siya au maa makataba ta istim
 how-spontaneous-speech-works = Teriga al wanasa ta sutfa gi so moo
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = Matlaba
+prompt-bubble-subtitle = Ina bi weri neita matlaba au sual
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = Juwab
+respond-bubble-subtitle = Kede ita juwab au majibu fogo fi sikil tabiya al ita agder
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = Kutu kalam fi kataba
+transcribe-bubble-subtitle = Katib falata kalam al ita gi asuma fi sauti al ma gata de
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = Hakikisha
