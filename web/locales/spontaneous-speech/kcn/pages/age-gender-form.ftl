@@ -7,6 +7,10 @@ age-select-label = Umri taki kam?
 select-your-age = Legetu umri taki.
 gender-select-label = Jinsi taki yatu?
 select-your-gender = Legetu jinsi taki
+country-of-residence-label = Bele/mantiqa ta maishi
+country-of-residence-placeholder =
+    .placeholder = { "" }
+why-are-you-asking = Lee ita ga asadu?
 
 ## Gender dropdown
 
