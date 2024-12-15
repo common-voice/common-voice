@@ -15,6 +15,10 @@ record-instruction = { $actionType }<recordIcon></recordIcon> chaymanta rimayta 
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ruwasqaña kaqtin
 record-three-more-instruction = Kimsallañam!
 record-again-instruction = Kusapuni!<recordIcon></recordIcon> Qatiqnin clipta rimay
+record-again-instruction2 = Allintapuni ruwashanki, wakmanta rimaykuy <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Qhipa kaqllañam!
+review-tooltip = kaypi Qhawapay & wakmanta clipkunata rimay munasqaykiman hina
+share-clip = Clipniykita rakirpariy
 
 ## MENU ITEM TOOLTIPS
 
