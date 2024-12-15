@@ -12,6 +12,18 @@ sentence-domain-combobox-label = Rimaypaq Mitan
 sentence-domain-select-placeholder = Kimsa mitaykunata akllay (munarispaqa)
 # Sentence Domain dropdown option
 agriculture_food = Chakra Llamk’ay hinallataq Mikhuy
+# Sentence Domain dropdown option
+automotive_transport = Automotive hinallataq Transport
+# Sentence Domain dropdown option
+finance = Qullqimanta
+# Sentence Domain dropdown option
+service_retail = Service hinallataq Retail
+# Sentence Domain dropdown option
+general = Llapan
+# Sentence Domain dropdown option
+healthcare = Allinkaymanta
+# Sentence Domain dropdown option
+history_law_government = Historia, Kamachiq hinllataq Suyuumanchaq
 
 ## BULK SUBMISSION 
 
