@@ -22,3 +22,10 @@ transcribe-bubble-title = Kutu kalam fi kataba
 transcribe-bubble-subtitle = Katib falata kalam al ita gi asuma fi sauti al ma gata de
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = Hakikisha
+check-bubble-subtitle = Hakikisha kan wanasa al maktub de gi wafiki ma sauti
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = Malumaat
+data-bubble-subtitle = Maramara ina gi tala koum ta malumaat de
+contact-us = Wonusu ma ina
+contact-us-title = Kun ma haam fi sharaka fi mashru wede, au limu ida ma ina
+contact-us-email = Anwan ta email
