@@ -21,5 +21,6 @@ review-transcriptions-menu-item-tooltip = تئیں زب مہ استعمال کر
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = ݜُوئیں اختیاراتوں ڈبرُو
+listen-contribute-menu-aria-label = ݜُوئیں اختیاراتوں ڈبرُو۔
 validate-readings-menu-item-aria-label = مقامی خلقوں جمع کرئیل لکِل صحیح کرے تصدیق کرہ۔
+review-transcriptions-menu-item-aria-label = ریکارڈ کرئیل نقلوں تصحیح کرئیں کراں سیوں تل نظر ثانی کرہ
