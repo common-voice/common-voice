@@ -127,3 +127,8 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ستہ �
 contribution-varying-pronunciations-example-2-title = ستہ ستہ دوی اوتینسی
 contribution-varying-pronunciations-example-2-explanation = [‘Raised) انگریزی تہ پمیشہ اہ ھجا مع استعمال کاع بولی اسہ نئ چہ دیو مع ۔
 contribution-background-noise-title = پتیارہ کوٹ
+contribution-background-noise-description = ایمووگہ تمیش چہ  لرننگ مشیں ستہ طریقہ کار مختلف پتیارہ کوٹ حفاظت کولے تااتکی ویک ڄاوینہ کوٹ دی قابل قبول بولہ اینہ شرط مع چہ ایکی تو پورہ متن سݣہ ستہ تݩع نہ اوتیالی  ۔ݜیل موسیقی سئی اسہ لیکن موسیقی آجیک الݩع بیبا چہ تیو ہر لفظو نہ سݣہ لاش  ۔
+contribution-background-noise-description-extended = اگر ریکا ڈنگ پٹݣہ یی با یا ڄلائ بیبا کوئی ویک څݣ متن سݣہ ستہ نہ بولہ بیبا ایکیا مسترد کشݩع
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> الہ ڈائنوسور <strong>[cough </strong> تری یاسیک ۔
+contribution-background-noise-example-2-fixed-title = الہ ڈائنوسور <strong>[cough]</strong>ٹریاسک ستہ ۔
+contribution-background-noise-example-2-explanation = متن ستہ حصہ چہ سݣستہ نہ بوتہ
