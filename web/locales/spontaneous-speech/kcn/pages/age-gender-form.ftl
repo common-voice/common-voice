@@ -5,6 +5,8 @@ add-information-button = Zidu kabariya
 continue-speaking-button = Istamiir fi wanasa
 age-select-label = Umri taki kam?
 select-your-age = Legetu umri taki.
+gender-select-label = Jinsi taki yatu?
+select-your-gender = Legetu jinsi taki
 
 ## Gender dropdown
 
