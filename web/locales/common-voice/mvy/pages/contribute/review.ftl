@@ -6,11 +6,11 @@ sc-review-loading = جُملی لوڈ ہُوئینتی۔۔۔۔۔
 sc-review-select-language = جُملی گتہ (دوبارہ) نھالَئیں کراں اک زیب اوک خوش کرہ
 sc-review-no-sentences = گتہ (دوبارہ) نھالَئیں  کراں جُملی نی تھی<addLink>ہُوئیں مُتی جُملی ٹل کرہ </addLink>
 sc-review-form-prompt =
-    .message = دُوہیڑی نھالیلی جُملی جمع نی ہُوتھی، پکی بال تھی؟
-sc-review-form-usage = جُملہ قبُول کرَیں یاں کریا دڇھیں کِھن٘گی لا ڙر کرہ آں کگَیں یاں کریا کھبُوئ کِھن٘گی لا ڙر کرہ۔<strong>دُوہیڑی نھالؤں جمع کرؤں اؤن٘ݜہ نئ ہوئ</strong>
+    .message = تئیں پک یقین تُھو اَئی چہ گتہ )(دوبارہ) نھالیل جُملی جمع نی ہُونٚتھی؟
+sc-review-form-usage = جُملہ قبُول کریاں کراں  دڇُھوئی کِھن٘گی تل ڙر کرہ آں کگَئیں کراں کھبُوئ کِھن٘گی تل ڙر کرہ۔<strong>گتہ نھالیل کام جمع کرؤں اُوݜہ نئ ہُوئے </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = مُون٘ڈ:{ $sentenceSource }
+sc-review-form-source = مُون٘ڈ:{ $sentenceSource }۔
 sc-review-form-button-reject = کگا
 sc-review-form-button-skip = پھت کرہ/ٹھن٘گ کرہ
 sc-review-form-button-approve = قبلا
