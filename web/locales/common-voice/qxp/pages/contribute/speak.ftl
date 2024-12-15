@@ -49,6 +49,12 @@ add-information-button = Willakuyta yapay
 continue-speaking-button = Mana, rimayraq
 create-profile-text = Willakuyniykikunata waqaychayta munankichu? <createProfile>Musuq cuentata kichariy</createProfile>
 thanks-for-voice-toast = Añay niyki kunkarimayniykimanta willakamusqaykita
+thanks-for-voice-toast-error = Kunkarimayniykimanta willakamushaqtiyki huk pantachi ukhurirqan
+first-cta-gender-select-default-option = Hukta akllay
+first-cta-gender-select-help-text =
+    .label = ¿Imaynatataq willawaq qari utaq warmi kasqaykita?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Añay niyki rimayniykiwan yanapasqaykimanta!
 
 ## MENU ITEM TOOLTIPS
 
