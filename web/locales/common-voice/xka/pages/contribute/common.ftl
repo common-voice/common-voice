@@ -1,4 +1,4 @@
-action-click = مثال سہ
+action-click = ٹسار
 action-tap = تراپ
 contribute = امداد
 review = نالیل
