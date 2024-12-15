@@ -20,6 +20,12 @@ add-sentences = Rimaykunata Yapay
 add-sentences-menu-item-tooltip = Simiykipi rimaykunata yapay
 review-sentences-menu-item-tooltip = Simiykipi rimaykunata qhawapay
 add-questions-menu-item-tooltip = Simiykipi tapukuykunata yapay
+transcribe-audio-menu-item-tooltip = Rimasqa rimaykunata simiykipi qillqaqay
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Qillqay akllanakuna
+add-sentences-menu-item-aria-label = Aylluman musuq rimaykunata rimanankupaq yapay
+review-sentences-menu-item-aria-label = Ayllu apachimusqa rimaykunata qhawapay
+add-questions-menu-item-aria-label = Musuq tapukuykunata aylluman rimanankupaq hinallataq kutichinankupaq apachiy
+transcribe-audio-menu-item-aria-label = Rimasqa rimaykunata qillqayman tiqray
