@@ -43,6 +43,7 @@ terms-disagree = Mana ari ninichu
 first-cta-header-text = Añay niyki clipkunata qusqaykimanta!
 first-cta-subtitle-text = Kikiykimanta willawaspayku, softwareruwaqkunata aswan llapanchispaq technologiata ruwanankupaq yanapanki
 why-donate = Imaraykutaq tapukunki?
+why-donate-explanation-1 = Kay willakuyqa munaqtiykiqa qunapaqmi - chiqaq munaspallapuni yapanayki. Yuyayhuñu tukusqa kanqa hina, llapa qanmanta willakusqayki pakasqa sutiwan kanqa, hinaqa sutiyki hinallataq emailniyki mana llaqta willaywan t'ipasqachu kanqa, mana hayk'a wata utaq qhari/warmi hina.
 
 ## MENU ITEM TOOLTIPS
 
