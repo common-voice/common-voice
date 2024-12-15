@@ -18,7 +18,9 @@ record-again-instruction = Kusapuni!<recordIcon></recordIcon> Qatiqnin clipta ri
 record-again-instruction2 = Allintapuni ruwashanki, wakmanta rimaykuy <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Qhipa kaqllañam!
 review-tooltip = kaypi Qhawapay & wakmanta clipkunata rimay munasqaykiman hina
-share-clip = Clipniykita rakirpariy
+share-clip = Clipniykita ch'iqiririchiy
+share-common-voice = Common Voiceta ch'iqiririchiy
+review-instruction = Clipkunata qhawapariy & wakmanta rimaykuriy chayna kaqtinqa
 
 ## MENU ITEM TOOLTIPS
 
