@@ -11,6 +11,8 @@ new-sentence-rule-6 = Mana hawa simimanta qillqakuna
 
 ## SMALL BATCH SUBMISSION
 
+# menu item
+add-sentences = Rimaykunata Yapay
 
 ## MENU ITEM TOOLTIPS
 
