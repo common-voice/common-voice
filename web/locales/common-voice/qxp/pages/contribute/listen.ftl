@@ -5,6 +5,7 @@ listen-again-instruction = Allin llamk'ay!<playIcon></playIcon> Wakmanta uyariy 
 listen-3rd-time-instruction = 2 ña, kusapuni!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> ¡Qipa kaqllañan!
 listen-empty-state = Clip rimaykuna llipinchuna ruwasqaña - ama hina kaspa p'anqata musuqchay, utaq chaymanta kutimuspa wakmanta qhawaykuy.
+listen-empty-state-variants = Ayllu simiykipi clipkuna hunt'asqañachunan! Sichus munawaq, huk niraq suyuyki simipi rimaykunata qhawanaykipaq akllariwaq.
 listen-loading-error =
     Manam ima clipkunatapas uyarinaykipaq tariyta atirqaykuchu.
     Ama hina kaspa, chaymanta wakmanta yanariy.
