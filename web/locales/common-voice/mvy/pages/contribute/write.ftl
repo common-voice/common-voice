@@ -51,6 +51,19 @@ too-many-files = فائلہ چے چئ ہُو تھو۔
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon> </icon> عوامی ملکیتیں چئ جُملی جمع کرہ۔
 multiple-sentences-error = ایک ہیش جمع کرَیں مہ تُو چئ جُملی ٹل نیرہاں تُھو۔
+exceeds-small-batch-limit-error = 1000جُملیُوں نہ تیرئ جمع نیر ہاں تُھو
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔1 مِلٹ پاتیُون گتہ کوشش کرہ
+       *[other] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔ { $retryLimit } مِلٹہ پاتیُون گتہ کوشش کرہ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔1 سِکنڈ پاتیُون گتہ کوشش کرہ
+       *[other] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔ { $retryLimit } سِکن٘ڈہ پاتیُون گتہ کوشش کرہ
+    }
 
 ## MENU ITEM TOOLTIPS
 
