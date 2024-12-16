@@ -20,3 +20,7 @@ report-sc-different-language-detail = اینہ جملہ ستہ جائز ہ اݣ�
 review-error-rate-limit-exceeded = تیو بلیو ک نݜٹا روان اسیش مہربانی کہ تئ اچاک ول نکسا اینہ جملہ ستہ جائزہ اݣا چہ یقین کاع بولا چہ اینہ سئ اسہ کہ
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ایمو بلیو ک الہ تبدیلی اوہ تمیش
+sc-redirect-page-subtitle-1 = سینٹنس کلیکٹرشترک بنیادی کامن وائس پلیٹ فارم تہ منتقل بوتہ شترک تیو اہ جملہ <writeURL> سترابچی یا </writeURL> کامن وائس تہ واحد جملہ ستہ جمع اوستہ کہ <reviewURL> جائزہ اݣہ بچی
+sc-redirect-page-subtitle-2 = ایمو تݩع سوال کوبہ تݩع اینہ ایمیل تہ <matrixLink></matrixLink><discourseLink></discourseLink><emailLink></emailLink>
+# menu item
+review-sentences = جملہ ستہ دوبارہ جائزہ اوݣݩع
