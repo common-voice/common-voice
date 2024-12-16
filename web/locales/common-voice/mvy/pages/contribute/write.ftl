@@ -64,6 +64,18 @@ rate-limit-toast-message-seconds =
         [one] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔1 سِکنڈ پاتیُون گتہ کوشش کرہ
        *[other] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔ { $retryLimit } سِکن٘ڈہ پاتیُون گتہ کوشش کرہ
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن 1 مِلٹ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+       *[other] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن { $retryLimit } مِلٹہ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن 1 سِکنڈ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+       *[other] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن { $retryLimit } سِکنۡڈہ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+    }
 
 ## MENU ITEM TOOLTIPS
 
