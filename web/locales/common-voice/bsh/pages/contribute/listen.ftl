@@ -1,3 +1,4 @@
+listen-instruction = امکی اینہ جملہ وݜچے ولہ بلہ آیہ?
 listen-3rd-time-instruction = ویعں ! اینہ جاری کشی<playIcon></playIcon>
 listen-last-time-instruction = اخر او<playIcon></playIcon>
 listen-empty-state = ایموستہ کلپس ممکنہ طور تہ لکہ بیسہ صفحہ نوئ کشی ، ستہ مع دوبارہ ابل کشی
@@ -17,3 +18,5 @@ review-transcriptions-menu-item-tooltip = سݣہ ستہ ݜاتیک کوستہ م
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = اوگعما پارستݩع جمع کعستہ عبارت تصدیق کشݩع
+validate-readings-menu-item-aria-label = ریکاڈ کعہ  جملہ ستہ سترئ سئی ایہ کہ جا ئزہ اݣݩع
