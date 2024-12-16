@@ -53,12 +53,24 @@ report-different-language-detail = ووئی اسہ باتِیہ پېنہ بېل 
 report-difficult-pronounce = تلفظ کېراوَہ گران
 report-difficult-pronounce-detail = اتے اِشِلی الفاظ یا جُملہ تھمېت زِی تسُو ژواوَہ یا تلفظ کېراوَہ گران تھِمان۔
 report-offensive-speech = جارحانہ تقریر
+report-offensive-speech-detail = کلِپہ بےعزت کېرنی یا جارحانہ باتی تھنی۔
+report-other-comment =
+    .placeholder = تبصرہ
+success = برَئی
+continue = جاری دَرا
+report-success = رپوٹ کامیابِی ئے منظور کېران گئ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = رکاٹ/ وُٹا
 
 ## Listen Shortcuts
 
