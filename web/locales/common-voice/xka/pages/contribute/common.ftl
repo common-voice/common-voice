@@ -71,3 +71,4 @@ request-language-button = اّجیب تہ درخاس دہ۔
 contribution-criteria-nav = شرطونی
 contribution-criteria-link = امداد تالے،ۡشرطونی پویان
 contribution-criteria-page-title = امداد اے شرطونی
+contribution-for-example = مثال سہ
