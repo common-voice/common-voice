@@ -20,8 +20,11 @@ new-sentence-rule-4 = Allin qillqasqa hinallataq sanampasqa kanan
 new-sentence-rule-5 = Yupaykuna hinallataq wak niraq sananpakuna manam kananchu
 new-sentence-rule-6 = Mana hawa simimanta qillqakuna
 new-sentence-rule-7 = Maymanta hamusqanta churana
+new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
+login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
 how-to-cite = Imaynatataq maymanta hamusqanta churasaq?
 how-to-cite-explanation-bold = URLta utaq Mayt'uq hunt'asqa sut'inta churanayki.
+how-to-cite-explanation = If it’s your own words, just say <italicizedText>“Self Citation”</italicizedText>. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
 guidelines = Kamachiqkuna
 contact-us = Rimaykuwayku
 add-sentence-success = 1 rimay huñusqa
@@ -65,10 +68,34 @@ sentence-variant-select-multiple-variants = Suyu simi / huk ishkay ayllu rimayku
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> llaqtaq kayninpi rimaykunata q'ipiy
+sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
+sc-bulk-upload-instruction-drop = Drop file here to upload
+bulk-upload-additional-information = If there is additional information you want to provide about this file, please contact <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = If there is additional information you want to provide about this file that is not included in the template, please contact <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Try again by dragging your file here
+try-upload-again-md = Try uploading again
+select-file = Select File
+select-file-mobile = Select File to Upload
+accepted-files = Accepted file types: .tsv only
+minimum-sentences = Minimum sentences in file: 1000
+maximum-file-size = Maximum file size: 25 MB
+what-needs-to-be-in-file = What needs to be in my file?
+what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
+upload-progress-text = Q'ipiykushanmi...
+sc-bulk-submit-confirm = Kay rimaykunaqa <wikipediaLink>llaqtaq kayninpin</wikipediaLink> hinallataq ñuqam siqachinaypaq kamachisqa kani.
+bulk-upload-success-toast = Hatun Rimaykunahuñu Q'ipichiy
+bulk-upload-failed-toast = Q'ipiy pantasqa, wakmanta yanay.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
+upload-more-btn-text = Aswan rimaykunata q'ipiriy?
 
 ## SMALL BATCH SUBMISSION
 
 small-batch-sentences-rule-1 = “Ima rimaykunatataq yapayman?” kamachikuykunata tupariy
+small-batch-sentences-rule-2 = Sapa wachupi huk rimayta yapay
+small-batch-sentences-rule-3 = Rimaykunata huk wachumankama rakiy “Yaykuy” utaq “Kutichiy” hukllata ñit'ispa
 small-batch-sentences-rule-4 = 1,000 rimaykunakama yapay
 small-batch-sentences-rule-5 = Llapan rimaykuna kasqan mitayuq kananku
 small-batch-sentences-rule-6 = Llapan rimaykuna kasqan maymanta kananku
