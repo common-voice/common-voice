@@ -81,8 +81,8 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } مہ 1 جُملہ اکٹھِراگِل
-       *[other] { $uploadedSentences } مہ { $totalSentences } جُملی اکٹھِراگِل۔
+        [one] 1 مہ { $uploadedSentences } جُمل اکٹھِراگِلیۡ
+       *[other] { $totalSentences } مہ { $uploadedSentences } جُملی اکٹھِراگِلیۡ۔
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
@@ -90,6 +90,8 @@ small-batch-response-message =
         [one] 1 مہ { $uploadedSentences } جُملہ اکٹھِراچھی۔ <downloadLink>ݜلہ</downloadLink> کلِک کری لہ کگالیۡ جُملی منی واں۔
        *[other] { $totalSentences } مہ { $uploadedSentences } جُملی اکٹھِراچھی۔ <downloadLink>ݜلہ</downloadLink> کلِک کری لہ کگالیۡ جُملی منی واں۔
     }
+small-batch-sentences-rule-1 = “مہ گھِن٘لیۡ جُملی ٹل کرہاں مَیں تُھو؟” نہ پاند پشائ لا عمل کری
+small-batch-sentences-rule-2 = ایک کھِیریۡ مہ ایک جُملہ لِکی
 
 ## MENU ITEM TOOLTIPS
 
