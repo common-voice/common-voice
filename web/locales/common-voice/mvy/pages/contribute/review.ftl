@@ -20,27 +20,27 @@ sc-review-form-button-approve-shortcut = ق.
 sc-review-form-button-reject-shortcut = ک
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ٹ
-sc-review-form-keyboard-usage-custom = { sc-review-form-button-approve-shortcut }قبلَیں،{ sc-review-form-button-reject-shortcut }کگَیں،{ sc-review-form-button-skip-shortcut }یا پھت کرَیں یاں کریا ہُویں تُو کی بورڈَیں کھٹَیں پن٘دہ گتہ اختیار کرَیں تُھو۔
+sc-review-form-keyboard-usage-custom = تُس کی بورڈ تل موجود کُھوئیٹ پنٚدہ { sc-review-form-button-approve-shortcut } { sc-review-form-button-approve-shortcut } قبلَئیں کراں{ sc-review-form-button-reject-shortcut } کگئیں کراں{ sc-review-form-button-skip-shortcut } ٹھنٚگ کرئیں کراں استعمال کرہانٚتے
 sc-review-form-button-submit =
-    .submitText = دُوہیڑی نھالؤں بس۔
+    .submitText = گتہ  نہالؤں بئیرائے۔
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] کوَیں جُملہ دوہیڑی نی نھالژی تھی۔
-        [one] جُملہ دوہیڑی نھالژی گے۔ تیں شُکھریہ!
-       *[other] جُملی دوہیڑی نھالژی گے۔ تیں شُُکھریہ!
+        [0] غیر نظرثانی کرِل جملی
+        [one] 1۔ جملییوں تل نظرثانی کرئیں شکریہ
+       *[other] { $sentences } جملییوں تل نظرثانی کرئیں شکریہ
     }
-sc-review-form-review-failure = دوہیڑی نھالژؤں اڑ مہ دھری تُھو۔ پتَیں لک گتہ کوشش کرہ گل۔
-sc-review-link = دوہیڑی نھالہ
+sc-review-form-review-failure = گتہ نہالَل/نظرثانی کرَیل کام محفوظ نی ہُونٚتُھو پتئیں لکھ گتہ کڑا کرہ گل۔
+sc-review-link = گتہ نہالہ/نظر ثانی کرہ
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = دُوہیڑی نھالَیں یاں شرطہ
-sc-criteria-title = دُوہیڑی نھالَیں یاں شرطہ
-sc-criteria-make-sure = ݜس بال پکی را چے جُملی من چور ݜَیں شرطؤں لا پُوری تھویی؟
-sc-criteria-item-1 = جُملَیں ہیزی صحیح ہو۔
-sc-criteria-item-2 = جُملہ گرامرہ مہ صحیح ہو۔
+sc-criteria-modal = گتہ نہالئیں/نظرثانی کرئیں شرطہ
+sc-criteria-title = گتہ نہالئیں/نظرثانی کرئیں شرطہ
+sc-criteria-make-sure = ݜس بال پکی را چہ جُملی منڅَور  دَئیل ݜَئیں شرطؤں تل پُوئیر تھی۔
+sc-criteria-item-1 = جُملَئیں ہیزی ہر صورتی منٚز صحیح ہو۔
+sc-criteria-item-2 = جُملہ گرامراں لحاظ ہن  صحیح ہو۔
 sc-criteria-item-3 = جُملہ پڑژئیں قابل ہو۔
 sc-criteria-item-4 = جُملہ شرطؤںلا پُوری ہُون٘دُوں&quot;قبلاچھی&quot; بٹن چے دڇھیں کِھن٘گی لا تُھو کلِک کرہ
 sc-criteria-item-5-2 = کہ جُملہ بُو تل ݜَیں شرطؤں لا پوری نی تھی کھیں &quot;کگا&quot; کھبُوئ کِھن٘گی یاں بٹنہ لا کلِک کری۔ کہ تُو جُملاں بارہ مہ مکمل پو نی تُھو کھیں اس پھت کرے مُوٹُھو گتہ بیں یاں تُھو۔
