@@ -41,3 +41,12 @@ sc-criteria-title = جائزہ معیار
 sc-criteria-make-sure = یقینی کېرِؤ زی جُملہ اسُو معیارہ رتئ فورہ تھنہ:
 sc-criteria-item-1 = جُملانہ ہیجا سئ بِتېؤ۔
 sc-criteria-item-2 = جُملہ گرامَرَنہ لحاظے سئ بِتېؤ۔
+sc-criteria-item-3 = جُملہ ژوَنہ تھتېؤ۔
+sc-criteria-item-4 = کېنے زی جُملہ معیارہ فُورہ بُوَہ بہ، تولے&quot; منظور کېرِؤ&quot; داچِنی بکے تھنَئیک۔
+sc-criteria-item-5-2 = کېنے زی جُملہ معیارہ فُورہ نہ بِمان بہ جو &quot; رد کېرِؤ&quot; بٹن کھؤڑی بکے تھنَئیت۔ اگر جُملا نہ بارا یقین نہ بِمان بہ، جو تسہ ووڑی پُدماپِیاں دِؤ۔
+sc-criteria-item-6 = جائزہ گوئیکہ ݭڅی جُملہ نام نِمَتی تنَئیت بہ مېرَبانی کېری واری جُملہ جمع کېرِکہ امَہ مِنزی ہسپلہ ݭَؤ!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چیک کېرِؤ<icon></icon>ووئی باتِیَنی لحاظے سئ جُملہ تھنا؟
+sc-review-rules-title = جُملہ ہدایاتہ فُورہ بِمانا؟
+sc-review-empty-state = فِلیالن اسہ باتِیہ چیک کېرِکہ ݭڅی کی جُملہ نہ تھنَئیت۔
+report-sc-different-language = مختلف باتی
