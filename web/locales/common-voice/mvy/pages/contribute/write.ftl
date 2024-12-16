@@ -158,6 +158,6 @@ transcribe-audio-menu-item-tooltip = ٹیپ کریل اوازاں لفظ  تَئ
 
 write-contribute-menu-aria-label = لکئیں اختیاراتوں مینو
 add-sentences-menu-item-aria-label = خلقوں کراں  نَئیں جُملی لِکے ٹل کرہ
-review-sentences-menu-item-aria-label = خلکہ وَیں جمع کریلیۡ جُملی دُوبارہ نھالہ
-add-questions-menu-item-aria-label = خلکہ واں کریا ناں سوالہ جمع کرہ لہ سَیں پڑاں آں جواب دیں
-transcribe-audio-menu-item-aria-label = ٹیپ کریل اوازاں لفظ لفظ لِکہ
+review-sentences-menu-item-aria-label = خلقوں جمع کریل جُملی دُوبارہ نھالہ
+add-questions-menu-item-aria-label = خلقوں کراں نوں سوالہ جمع کرہ تہ سَئیں پڑاں آں جواب دیاں
+transcribe-audio-menu-item-aria-label = ٹیپ کریل اوازاں لفظ  لِکہ
