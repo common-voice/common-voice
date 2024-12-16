@@ -36,6 +36,12 @@ review-rerecord = دوبُوڑہ رِکاڈ کېرِؤ
 review-cancel = جمع کېراوا منسوخ کېرِؤ
 review-keep-recordings = رِکاڈِنگہ تھوئیؤ
 review-delete-recordings = مونی رِکاڈِنگہ ناشِؤ
+review-terms = کامن وائسَنہ استعمالَہ ݭڅی مے امَنی <termsLink>شرائط</termsLink>اؤ<privacyLink>رازَنی نوٹس</privacyLink> مِنزی اتِفاق کېرِمانېؤ
+terms-agree = آں مَنِمېم
+terms-disagree = آں نہ منِمېم
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تانُو کھنٹَنی کِلپس عطیہ کېرِکہ ݭڅی مېنہ شکریہ!
+first-cta-subtitle-text = اماں تانُو بارا ژَئی مے ڈیویلپرزہ واری بی جامع ٹېکنالوجی ݫُپَئیکہ مدد کېرِوَہ
 
 ## MENU ITEM TOOLTIPS
 
