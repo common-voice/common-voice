@@ -24,6 +24,14 @@ sentence-variant-select-multiple-variants = عام ژیب/چئ لہجی
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ یا<uploadButton>بُوۡئ اُکھالَیں یاں کریا کلِک کرہ</uploadButton>
+sc-bulk-upload-instruction-drop = فائل ݜلہ پھت کرہ لہ بُوۡئ اُک
+bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں ملی بال بنہ<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ
+try-upload-again-md = فائل گتہ بُوۡئ اُکھالہ
+select-file = فائل خوش کرہ
+select-file-mobile = فائل خوش کرہ لہ بُوۡئ اُک
+accepted-files = قبلُژیل فائلاں قِسمہ: صرف tsv.
 
 ## SMALL BATCH SUBMISSION
 
