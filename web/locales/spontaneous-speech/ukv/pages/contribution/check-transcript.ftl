@@ -8,3 +8,4 @@ no-transcriptions-message = Tiyanana ŋo na wurö 'bayin yi lo kutuk nagon mindi
 vote-transcript-success = wuröt lo wule 'bura'
 vote-transcript-error = liyaŋet a konda 'börik yi diŋit na wulundö  na kilo wuröt.
 transcript-edited-success = Wuröt kulo a ririki 'bura'
+transcript-edited-error = error a pokin i di'git na wuröni transcript na

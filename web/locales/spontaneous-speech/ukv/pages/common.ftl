@@ -52,3 +52,6 @@ msi = rutan lo jama i jur lo Malaysia
 pez = rutan lo jama ko 'gutu ti Austrians
 pne = rutan lo jama ko 'gutu ti Western Austrians
 sdo = 'gutu lo sida i serian division
+snv = 'gutu lo si'da i jur lo penan
+tr = 'gutu lo si'da i jur lo Turkey
+xkl = 'gutu lo si'da Sarawak
