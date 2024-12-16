@@ -7,34 +7,34 @@ action-tap = Spalhkan
 # Label for language switcher
 interface-language = Xtachiwin xlakan web:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
-contribution-picker-label = Mintamakgtaya nak xa tamakxtumit tatsokgni { $language }
+contribution-picker-label = Mintamakgtayat xa tamakxtumit tatsokgni { $language }
 # Label for button on contribution switcher
 change = Lakgpalikan
 coming-soon = Nix limakgas na anan tlakglhuwa tachiwin
-media-recorder-api-not-supported = Miliskujni nimali tanuya nak xasasti taskujut internet nilay namaskujú API Media Recorder.
+media-recorder-api-not-supported = Miliskujni nila malikí xa taskujut internet nilay namaskujú API Media Recorder
 # Toast message that is displayed when an item is skipped
-skipped = Akgpakgosnit
+skipped = Akgpuntsalalh
 audioplayer-header = Kgaxmatkan
-guidelines = Tantustalamit
+guidelines = Makgatsiniyán tuku tlan chu nitlan
 # For the button to report an item
-report-button = Makgatsinankan
+report-button = Makgatsinankán
 # For the button to skip an item
-skip-button = Kgoskan
-submit-button = Malakgachakan
+skip-button = Kgoskán
+submit-button = Malakgachakán
 contribute = Tamakgtayan
 
 ## Navbar
 
 respond-to-prompt = Kgalhtinankan takgalhskinit
 transcribe-audio = Tsokgkan tuku kgaxmatkan
-check-transcriptions = Putsanankan nak xa tatsokgni
+check-transcriptions = Putsanankan nak xa talakatsokgni
 
 ## Not Found Page
 
 not-found-page-header = Ni takgeska
 not-found-page-content = Xlakan web nima ixputsapat ni takgeska
 # Privacy and Terms checkbox
-accept-privacy-and-terms = Tlan ktlaway nakkgaxmatní la tuku wan xalimapakgsin <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu nachuná  <privacyLink>latá natamakgtakalha wekg tukú klichiwinalh</privacyLink> nak Common Voice
+accept-privacy-and-terms = Akit kmatlaní <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu <privacyLink>latá natamakgtakalha wekg tukú klichiwinalh</privacyLink> nak Common Voice
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou
