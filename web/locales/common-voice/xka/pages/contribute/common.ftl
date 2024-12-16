@@ -16,6 +16,7 @@ contribute-more =
         [one] دی      کیر راڈبا
        *[other] دی اےۡ کیر راڈ با
     }
+speak-empty-state-cta = جملہ ترال مےۡمدد تہ۔
 record-button-label = تانی تراٹ ریکاٹ تہ
 share-title-new = دی اوازونی بیلڑیل  می اسے مدد تہ
 keep-track-profile = اپان دی تانی ترقی اےۡ اّپروفاییل رݭ
@@ -37,6 +38,7 @@ submit-form-action = نام
 
 report = خبر
 report-title = رس مے اتہ زات ٹیکیل این آں تسے منیل تے چݨیل بیکر این
+report-ask = اوں جملا م توٹھ گوا بیکھراین
 report-offensive-language = اوران جیب
 report-grammar-or-spelling-detail = اوں جولا می گرمر تے ٹکیل کھچؘہ این
 report-different-language = اوراک اَجیب
