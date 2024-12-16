@@ -63,11 +63,13 @@ shortcut-record-toggle-label = شرو/ایٹھی
 shortcut-rerecord-toggle-label = ریکاڈ دیرا
 shortcut-discard-ongoing-recording-label = روان ریکاڈنگ ختم تھ
 shortcut-submit = نوٹھ
+shortcut-submit-label = کلپس جمع تھا
 request-language-text = ای لا تانی جیب کامن وایس رل نہ نال۔
 request-language-button = اّجیب تہ درخاس دہ۔
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = شرو/ایٹھی
 
 ## Validation criteria
 
