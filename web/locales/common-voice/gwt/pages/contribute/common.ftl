@@ -97,3 +97,7 @@ shortcut-vote-no = اېن
 
 contribution-criteria-nav = معیار
 contribution-criteria-link = پَلے بِکَنہ اصولہ پیانِؤ
+contribution-criteria-page-title = شراکتَنہ معیار
+contribution-criteria-page-description = پروزِؤ زی کھنٹَنی کلپسہ ݭُنڈِمېنے کی کوڅَنہ تھنہ اؤ تانُو کھنٹَنی رکاڈِنگہ بی لؤ بئ ݫُپَئیکہ مدد کېرِؤ!
+contribution-for-example = مثلاً
+contribution-misreadings-title = غلط زانِک
