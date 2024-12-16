@@ -129,3 +129,5 @@ contribution-varying-pronunciations-example-1-explanation = ['بېرٹ' بئ ت�
 contribution-varying-pronunciations-example-2-title = تسَنہ ہست رت بِسن بُوَہ۔
 contribution-varying-pronunciations-example-2-explanation = [انگریزِیہ 'رت بِسنتہ'ہمیشہ یَہ حرفے تلفظ ژوان دِمان، دُو نئ]
 contribution-background-noise-title = پتانی شور
+contribution-background-noise-description = امہ ݭېنݭ کېرِمېک زی مشین لرننگ الگورتھم مختلف قسمَنہ پتانی شورہ قابُو کېرِکَنہ قابل بِیَؤ، اؤ تول مِزان زی نسبتاً وتھېلی کھنٹہ بی قبُول کېران دِمان خو شرط ووئی تھنی زی سے مے فُورہ عبارتہ ݭُنڈِکہ پېنہ بند مہ کېرِیَؤ۔ سکوننہ پس منظرَنہ ہارہ سئ تھنہ؛ ہارہ مے ہر لفظہ ݭُنڈِکہ پېنہ بند کېرِکہ ݭڅی لَؤ تېز تھنی۔
+contribution-background-noise-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ یا تېنے درز گئ بہ تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
