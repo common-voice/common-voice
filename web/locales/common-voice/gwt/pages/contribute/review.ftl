@@ -57,3 +57,6 @@ review-error-rate-limit-exceeded = تُو لَؤ تادی ئے څُوئی تنَ
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = امہ یکَتہ ڈَڈل تبدیلی کېرِمېک
 sc-redirect-page-subtitle-1 = جُملہ نامہ جمع کېرِݪہ بُنیادی کامن وائس پلېٹ فارماں څُوئی تنہ۔ نوری مےکامن وائیسہ یہ جُملہ<writeURL>لِکِی بمانېؤ</writeURL>یہ جُملہ<reviewURL> جائزہ گوو</reviewURL>یہ جُملہ کامن وائسہ جمع کېری بمانېؤ۔
+sc-redirect-page-subtitle-2 = امہ پېنہ سوالات کھۡدَؤ<matrixLink> میٹرکس</matrixLink>،<discourseLink>ڈسکورس</discourseLink>یا <emailLink>ای میل</emailLink>۔
+# menu item
+review-sentences = جُملہ نامَنہ جائزہ گوو
