@@ -49,9 +49,28 @@ add-information-button = معلومات جمع کری
 continue-speaking-button = نئ شکریہ، منوں جاری رچھہ
 create-profile-text = توۡ تئیں معلومات محفوظ کرئیں لکھانٚت؟ <createProfile> تے اک پروفائیل سندہ </createProfile>
 thanks-for-voice-toast = تئیں ائیں ہِن دیل معلوماتوں شکریہ
+thanks-for-voice-toast-error = تئیں ائیں ہِن دیل معلومات جمع کرئیں مہ اک غلطی ہُوں تھی۔
+first-cta-gender-select-default-option = اک بال اوک اُڇھہ
+first-cta-gender-select-help-text =
+    .label = توۡ تاں جنس گِشے بیان کرہ ݜَت؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تاں اواز مہ مواد جمع کرے مدد کرئیں شکریہ
+second-cta-subtitle-text = تاک پروفائیل ہِن توۡ تاں کموں تے سرگرمیوں تل نظر رڇھانٚت آں اواز میں ڈیٹا دئیں والوں مل ملہانٚت۔
+already-have-an-account = مُوئیٹھوں نہ اکاونٹ موجود تُھو؟<login> داخل ہُو۔ </login>
+create-profile-button = پروفائیل سندہ
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی نہالئیں نخ
+# menu item
+read-sentences = جُملی پڑھہ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جُملے پڑے سوالوں جواب دے۔
+read-sentences-menu-item-tooltip = تئیں زب مہ تاں اواز مہ جُملی پڑے ٹیپ کرہ۔
+answer-questions-menu-item-tooltip = تئیں زب مہ سوالوں جواب دیہانٚس تاں اواز ٹیپ کرہ۔
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = منئیں اختیاراتوں مینو
+read-sentences-menu-item-aria-label = مختلف زبوں مہ جمع کریل خلقوں جُملی پڑہ
+answer-questions-menu-item-aria-label = مُت خلقوں کراں اک نوں سوال پھت کرہ چہ سئیں پڑے جواب دییاں۔
