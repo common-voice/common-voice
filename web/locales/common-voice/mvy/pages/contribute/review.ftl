@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تُوں ایک گتہ زیب خوش نیرہ څھے۔مھیربانی کرے تاں </profileLink>پروفائلے<profileLink> بزی اک زیب اوک  خوش کرہ۔
+sc-review-lang-not-selected = تُوں ایک گتہ زیب خوش نیرہ څھے۔مھیربانی کرے تاں </profileLink>پروفائلے<profileLink> بزی اک زیب اوک  خوش کرہ
 sc-review-title = جُملی گتہ نھالہ
 sc-review-loading = جُملی لوڈ ہُوئینتی۔۔۔۔۔
 sc-review-select-language = جُملی گتہ (دوبارہ) نھالَئیں کراں اک زیب اوک خوش کرہ
