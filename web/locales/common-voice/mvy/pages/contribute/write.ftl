@@ -122,8 +122,8 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن 1 سِکنڈ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
-       *[other] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن { $retryLimit } سِکنۡڈہ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+        [one] تئیں ݜس پن٘ڑ تل جمع کرئیں حد لھنٚگا څھے مُتیۡ جُملی جمع کرئیں نہ مُئیٹھوں اک سِکنڈ وار دگل۔ بال ݜُون٘وَئیں شکریہ۔
+       *[other] تئیں ݜس پن٘ڑ تل جمع کرئیں حد لن٘گھا څھے مُتیۡ جُملی جمع کرئیں نہ مُئیٹھوں { $retryLimit } سِکنۡڈہ وار دگل۔ بال ݜُون٘وَئیں شکریہ۔
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
