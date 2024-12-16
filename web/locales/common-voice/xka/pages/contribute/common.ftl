@@ -77,3 +77,5 @@ contribution-misreadings-example-4-explanation = داوگال متن دا باڑ
 contribution-misreadings-example-5-title = بے چہ گینل تھے درتھ بان
 contribution-misreadings-example-6-explanation = اسان تھ اشل پکار
 contribution-misreadings-example-8-title = بھونرا شور مݭ بل
+contribution-varying-pronunciations-title = باڑ تلفظ
+contribution-varying-pronunciations-description = ݭیݭ رل تا بیریٹ ݭاݭ
