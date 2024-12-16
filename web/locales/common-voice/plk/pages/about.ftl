@@ -16,6 +16,12 @@ about-clip-graveyard-text =
     
     بیْس آ جگو گہ تنظیمو شکریہ ادا تھوݨَس چہ سیْݨا آ منصوبہ دہ امداد تھیگہ۔
 about-get-involved = ٹَل بِیا
+about-get-involved-text-2 =
+    مشترکہ آواز شناکَک گہ مڑنے سنون دہ امداد تھینَت یا؟
+    لئی مُݜٹیْ ای میلے ذریعہ گیْ رابطہ تِھیا یا <discourseLink> موْݜ تِھیا </discourseLink>
+    فورم سائٹے مسائلو ذریعہ جمع تھیَا <githubLink>گٹ ہب</githubLink> یا ٹل بِیا  <matrixLink>میٹریکس  </matrixLink>کمیونٹی چیٹ
+about-stay-in-touch = موْ رابطہ دہ کاتھ بوْم؟
+about-stay-in-touch-button = سائن اپ
 
 ## Community Playbook Content
 ## What is a language
