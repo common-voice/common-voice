@@ -6,6 +6,20 @@ record-platform-not-supported = تھُکُم، تونہ پلېٹ فارم فلی
 record-platform-not-supported-desktop = ڈسکٹاپ آلاتہ مے ڈاون لوڈ کېری تعاون کېری بمانېؤ۔۔۔
 record-platform-not-supported-ios-non-safari = مېرَبانی کېری آئی او ایسہ رتئ رکاڈِنگہ فعال کېرِکہ ݭڅی سفارِیہ مِنزی جاری ساتِؤ۔
 record-must-allow-microphone = مائیکرو فوناں فېدِکاں مېنہ اجازہ ݪِیَنہ بِبہ۔
+record-no-mic-found = کرېک مائیکرو فون نہ لېوان گہ۔
+record-error-too-short = رکاڈِنگ لؤ کھٹَنی بُوئی۔
+record-error-too-long = رکاڈِنگ لؤ لِگالی بۡوئی
+record-error-too-quiet = رِکاڈِنگ لؤ څُست بِسن بُوئی۔
+record-cancel = دوبُوڑہ رِکاڈِنگہ منسوخ کېرہ۔
+record-instruction = { $actionType }<recordIcon></recordIcon>گِری جُملا زورے ژا
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>کول زی کېران گہ بہ تولی
+record-three-more-instruction = ݪے دِکہ ݭڅی!
+record-again-instruction = لؤ بئ<recordIcon></recordIcon> تانُو ژِݪہ کِلپہ رکاڈ کېرِؤ
+record-again-instruction2 = اسہ جاری ساتِؤ، دوبُوڑہ رِکاڈ کېرِؤ<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> آخېری!
+review-tooltip = دِمېنے اِتے کِلپسَنہ جائزہ گوو اؤ دوبُوڑہ رِکاڈ کېرِؤ
+share-clip = تانُو کِلپ شئیر کېرِؤ
+share-common-voice = مشترک کھنٹہ حصہ گوو
 
 ## MENU ITEM TOOLTIPS
 
