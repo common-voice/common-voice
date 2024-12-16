@@ -69,18 +69,19 @@ sentence-variant-select-multiple-variants = عام زیب/څئ لہجی
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = عوامی مِلکیتیں جُملی بُوۡئ اُکھالہ <icon></icon>
-sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ یا<uploadButton>بُوۡئ اُکھالَیں یاں کریا کلِک کرہ</uploadButton>
-sc-bulk-upload-instruction-drop = فائل ݜلہ پھت کرہ لہ بُوۡئ اُک
-bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں ملی بال بنہ<emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ
-try-upload-again-md = فائل گتہ بُوۡئ اُکھالہ
-select-file = فائل خوش کرہ
-select-file-mobile = فائل خوش کرہ لہ بُوۡئ اُک
-accepted-files = قبلُژیل فائلاں قِسمہ: صرف tsv.
-minimum-sentences = فائلہ مہ کم نہ کم جُملی: 1000
-maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی
-what-needs-to-be-in-file = فائلہ مہ گی ہوں پکار تُھو؟
+sc-bulk-upload-header = بُوۡئ اُکھالہ <icon> </icon>عوامی ڈومین والا جُملی
+sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ <uploadButton>بُوۡئ اُکھالَئیں کراں ٹک کرہ</uploadButton>
+sc-bulk-upload-instruction-drop = فائل بُوئی اُکھالئیں کراں ݜلہ ڇھپ کرہ۔
+bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں مل ربطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ݜش فائیلاں بارہ مہ توۡ مُتی گی تفصیلات دینٚت کھئیں تے زاں مل رابطہ کرہ۔ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ۔
+try-upload-again-md = فائل گتہ بُوۡئ اُکھالئیں کوشش کرہ
+select-file = فائل خوش کرہ۔
+select-file-mobile = بُوئی اُکھالئیں کراں فائیل خوش کرہ
+accepted-files = گھئیں فائیل مل چہ .tsv لکزئیل ہُونٚت صرف سئیں خوش کرہ
+minimum-sentences = اک فائیل مہ کم نہ کم جُملی: 1000
+maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی تُھو
+what-needs-to-be-in-file = فائلہ مہ گی ہوں پکار تُھو؟۔
 upload-progress-text = بُوۡئ اُکھالؤں روان تُھو۔۔۔
 sc-bulk-submit-confirm = مہ ݜس بال پکیۡرام تُھو چے ݜَیں جُملی <wikipediaLink>عوامَیں مِلکیَت</wikipediaLink>تھی آں می گائ ݜِواں بُوۡئ اُکھالَیں یاں اِجازہ تُھو۔
 bulk-upload-success-toast = چئ جُملی وَیں بٹیۡ بُوۡئ اُکھالژی تھی۔
