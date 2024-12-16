@@ -77,7 +77,7 @@ shortcut-discard-ongoing-recording = اِی ایس سی
 shortcut-discard-ongoing-recording-label = جاری ریکاٹہ رد کېرہ
 shortcut-submit = پتہ گِرَئیک
 shortcut-submit-label = کِلپسہ جمع کېرَوا
-request-language-text = نوری مِزان کامن وائیسہ تونی باتی نہ تان گئ؟
+request-language-text = کامن وائیسہ تونی باتی نوری مِزان تان نہ دِمان؟
 request-language-button = یَہ باتِیاں درخاست کېرَہ
 
 ## Listen Shortcuts
@@ -86,6 +86,14 @@ request-language-button = یَہ باتِیاں درخاست کېرَہ
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پی
 shortcut-play-toggle-label = چلا/ وُٹا
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = اېن
 
 ## Validation criteria
 
+contribution-criteria-nav = معیار
+contribution-criteria-link = پَلے بِکَنہ اصولہ پیانِؤ
