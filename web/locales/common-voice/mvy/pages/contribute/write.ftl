@@ -11,7 +11,10 @@ new-sentence-rule-6 = ڇھاری مُلکاں حرفہ استعمال نیری
 contact-us = زاں مِل بال بنی
 add-sentence-success = جُملہ جمع کرژِگے۔
 required-field = ݜس زائ پوری
+small-batch-sentence-submission = جُملی وَین لیکھیۡ گڑُو جمع کرؤں
+bulk-sentence-submission = چئ جُملی اکٹھی جمع کرؤں
 single-sentence = کیالی
+small-batch-sentence = جُملی وَیں گڑُو
 # Sentence Domain dropdown option
 general = عام
 
