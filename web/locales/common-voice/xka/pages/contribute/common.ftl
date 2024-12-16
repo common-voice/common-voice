@@ -73,3 +73,6 @@ contribution-criteria-link = امداد تالے،ۡشرطونی پویان
 contribution-criteria-page-title = امداد اے شرطونی
 contribution-for-example = مثال سہ
 contribution-misreadings-example-3-explanation = آخری ٹکل ختمبال دا مݭ ریکاڈنگ بان تھال
+contribution-misreadings-example-4-explanation = داوگال متن دا باڑریکاڈتھال
+contribution-misreadings-example-5-title = بے چہ گینل تھے درتھ بان
+contribution-misreadings-example-6-explanation = اسان تھ اشل پکار
