@@ -2,6 +2,7 @@
 
 write = Qillqay
 write-instruction = <icon></icon> llaqtaq kaynin rimayta yapay
+write-page-subtitle = Kaypi yanapasqa rimaykuna huk llapa runapaq cc-0 rimayhuñuman yapasqa kanqa.
 sentence =
     .label = Rimay
 sentence-input-placeholder = Llaqtaq kayninpi rimayta kaypi qillqay
@@ -28,6 +29,7 @@ add-sentence-error = Rimay yapaypi pantay
 required-field = Ama hina kaspa, kayta hunt'achiy.
 single-sentence-submission = Huk rimaylla apachiy
 small-batch-sentence-submission = Huch’uy rimayhuñu apachiy
+bulk-sentence-submission = Hatun rimaykunahuñu apachiy
 single-sentence = Sapalla
 small-batch-sentence = Huch’uy rimayhuñu
 bulk-sentence = Hatun rimayhuñu
@@ -66,12 +68,16 @@ sentence-variant-select-multiple-variants = Suyu simi / huk ishkay ayllu rimayku
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-1 = “Ima rimaykunatataq yapayman?” kamachikuykunata tupariy
 small-batch-sentences-rule-4 = 1,000 rimaykunakama yapay
+small-batch-sentences-rule-5 = Llapan rimaykuna kasqan mitayuq kananku
+small-batch-sentences-rule-6 = Llapan rimaykuna kasqan maymanta kananku
 # menu item
 add-sentences = Rimaykunata Yapay
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Rimaykunata yapay hinaspa qhawapay, Tapukuykunata yapay, Uyariykunamanta qillqaqay
 add-sentences-menu-item-tooltip = Simiykipi rimaykunata yapay
 review-sentences-menu-item-tooltip = Simiykipi rimaykunata qhawapay
 add-questions-menu-item-tooltip = Simiykipi tapukuykunata yapay
