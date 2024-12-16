@@ -10,3 +10,13 @@ listen-loading-error = Amo otikajsikej tlen uelis tikkakis. Teotlatki noso mostl
 listen-abort-title = ¿Yotlanki titlakakis?
 listen-abort-cancel = Okseki xikinkaki
 listen-abort-confirm = Xitlami titlakakis
+# Menu item
+validate-readings = Xikmotili tlajtoltilistli
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Xikmotili tlajtoltilistli uan tlen okijkuilojkej
+validate-readings-menu-item-tooltip = Xikmotili tlen yokitlajtoltijkej ika motlajtolkopa
+
+## MENU ITEM ARIA LABELS
+
