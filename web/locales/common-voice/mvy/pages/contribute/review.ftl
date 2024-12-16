@@ -10,10 +10,10 @@ sc-review-form-prompt =
 sc-review-form-usage = جُملہ قبُول کریاں کراں  دڇُھوئی کِھن٘گی تل ڙر کرہ آں کگَئیں کراں کھبُوئ کِھن٘گی تل ڙر کرہ۔<strong>گتہ نہالیل کام جمع کرؤں اُوݜہ نئ ہُوئے </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = مُون٘ڈ:{ $sentenceSource }۔
-sc-review-form-button-reject = کگا.
+sc-review-form-source = مُون٘ڈ:{ $sentenceSource }
+sc-review-form-button-reject = کگا
 sc-review-form-button-skip = پھت کرہ/ٹھن٘گ کرہ.
-sc-review-form-button-approve = قبلا.
+sc-review-form-button-approve = قبلا
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ق.
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
