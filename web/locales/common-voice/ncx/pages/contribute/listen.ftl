@@ -10,3 +10,17 @@ listen-loading-error = Amo otikajsikej tlen uelis tikkakis. Teotlatki noso mostl
 listen-abort-title = ¿Yotlanki titlakakis?
 listen-abort-cancel = Okseki xikinkaki
 listen-abort-confirm = Xitlami titlakakis
+# Menu item
+validate-readings = Xikmotili tlajtoltilistli
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Xikmotili tlajtoltilistli uan tlen okijkuilojkej
+validate-readings-menu-item-tooltip = Xikmotili tlen yokitlajtoltijkej ika motlajtolkopa
+review-transcriptions-menu-item-tooltip = Xikmotili tlen okitenkakijkej uan okijkuilojkej ika motlajtolkopa
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Tlen uelis tikkakis
+validate-readings-menu-item-aria-label = Xikmotili tlen okitlajtoltijkej oksekimej
+review-transcriptions-menu-item-aria-label = Xikmotili tlen okitenkakijkej kox kuali okijkuilokej

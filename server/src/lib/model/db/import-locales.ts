@@ -550,7 +550,14 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
 
 const fetchExistingLanguages = async () => {
   const [existinglanguages] = await db.query(`
-      select t.locale_id as has_clips, l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count, is_translated
+      select
+        t.locale_id as has_clips,
+        l.id,
+        l.name,
+        l.target_sentence_count as target_sentence_count,
+        count(1) as total_sentence_count,
+        is_translated,
+        is_contributable
       from locales l
       left join sentences s on s.locale_id = l.id
       left join (select c.locale_id from clips c group by c.locale_id) t on t.locale_id = s.locale_id
