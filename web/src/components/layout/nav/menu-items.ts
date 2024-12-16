@@ -81,7 +81,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: TranscribeIcon,
-        localizedId: 'transcribe-audio',
+        localizedId: 'transcribe-audio-coming-soon',
         menuItemTooltip: 'transcribe-audio-menu-item-tooltip',
         menuItemAriaLabel: 'transcribe-audio-menu-item-aria-label',
       },
