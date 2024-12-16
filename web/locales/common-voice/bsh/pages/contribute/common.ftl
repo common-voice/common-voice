@@ -1,5 +1,5 @@
-action-click = ووسپلہ ستہ
-action-tap = ووسپلستہ
+action-click = ووسپلہ
+action-tap = ووسپلہ
 contribute = سنہ ستہ
 review = پلݣاستہ
 skip = پوتیاستہ
