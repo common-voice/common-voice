@@ -1,5 +1,7 @@
 ## Transcribe Audio page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+audio-page-instruction = Ko wuröki kak ŋo' nagon do a yiŋ ŋutu' yi jambu
 editbox-header = Nyökundö na ŋo' na jama yi wuröt
 editbox-placeholder = Wuröki kak ŋo' nagon do a yiŋ ŋutu' yi jambu ni
 no-audio-message = Tiyanana bgorolo nyu 'ban logon bubulo wurö . Böŋö topurene na pele kode nyöki 'dok.
