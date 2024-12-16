@@ -27,6 +27,19 @@ show-ranking = Makitakan tlen yonikchi
 get-started-goals = Xikpeualti tlen tikajxitisneki
 create-custom-goal = Xiktlali tlen moneuian tikajxitisneki
 goal-type = ¿Kenijki tlen tikneki tikajxitis?
+both-speak-and-listen = Non ome
+both-speak-and-listen-long = Ome (Nitlajtos uan Nitlakakis)
+daily-goal = Mojmostla
+weekly-goal = Chijchikome
+easy-difficulty = Amo oui
+average-difficulty = San kuali
+difficult-difficulty = Oui
+pro-difficulty = Ixtlamatki
+lose-goal-progress-warning = Tla tikpatlas tlen tikajxitisneki, ayakmo tikitas tlen yotikajxitijka.
+want-to-continue = ¿Yikuali ijkon?
+finish-editing = ¿Tikneki achto tiktlamiltis?
+lose-changes-warning = Tla tikisa, tikpolos tlen yotikpatlajka
+build-custom-goal = Xikpejpena tlen moneuian tikneki tikajxitis
 
 ## Goals
 
