@@ -47,9 +47,30 @@ why-donate-explanation-1 = This information is optional to provide - you should 
 why-donate-explanation-2 = For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. <learnMore>Learn more about why metadata matters.</learnMore>
 add-information-button = Yatiyawinak yapxataña
 continue-speaking-button = Janiwa yuspajarañati, arst’askakiñani
+create-profile-text = Want to save your information? <createProfile>Create a profile</createProfile>
+thanks-for-voice-toast = Thank you for your voice information
+thanks-for-voice-toast-error = An error occurred submitting your voice information
+first-cta-gender-select-default-option = Mä amtawi ajlliñamawa
+first-cta-gender-select-help-text =
+    .label = ¿Kunjamsa chacha warmi jan ukajj chacha warmit parltʼasma?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Voice ukanakam churatamat yuspajarapxsma!
+second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
+already-have-an-account = Already have an account? <login>Log-In</login>
+create-profile-button = Create a profile
+# IMAGE TAGS
+img-alt-success-checkmark = success checkmark
+# menu item
+read-sentences = Arsunaka uñxatt’aña
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Arsunaka uñxatt’aña, Jiskt’awinaka jaysaña
+read-sentences-menu-item-tooltip = Aruman aruchjanak liytʼasajj juma pachpaw qellqtʼasiñama
+answer-questions-menu-item-tooltip = Jiskt’awinakarusa, jiskt’awinakarusa aruman jaysaña qillqt’aña
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Speak options menu
+read-sentences-menu-item-aria-label = Aylluna uñt’ayata aruchjanaka kunaymana arunakata ullart’aña
+answer-questions-menu-item-aria-label = Mä machaq jiskt’awi aylluna ullart’añataki ukhamaraki jaysañataki
