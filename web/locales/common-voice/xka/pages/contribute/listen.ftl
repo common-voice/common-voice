@@ -3,9 +3,12 @@ listen-subtitle = آوازم جانل می اسے مدد تھا
 listen-abort-title = کلپسہ توثیق ختم تھا
 listen-abort-cancel = توثیق روان تھا
 listen-abort-confirm = توثیق ختم تھا
+# Menu item
+validate-readings = منیل توثیق تھا
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = منیل اَ توثیق تھا تہ نقلاؘ آل لاَ
 
 ## MENU ITEM ARIA LABELS
 
