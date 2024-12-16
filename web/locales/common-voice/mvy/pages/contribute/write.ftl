@@ -134,29 +134,30 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] 1 مہ { $uploadedSentences } جُملہ اکٹھِراچھی۔ <downloadLink>ݜلہ</downloadLink> کلِک کری لہ کگالیۡ جُملی منی واں۔
-       *[other] { $totalSentences } مہ { $uploadedSentences } جُملی اکٹھِراچھی۔ <downloadLink>ݜلہ</downloadLink> کلِک کری لہ کگالیۡ جُملی منی واں۔
+        [one] اک مہ { $uploadedSentences } جُملہ ٹَوڅھے۔ ٹک کرہ۔ <downloadLink>ݜلہ</downloadLink> کگالیۡ جُملی منی والئیں کراں۔
+       *[other] { $totalSentences } مہ { $uploadedSentences } ٹَوزل جُملی۔  <downloadLink>ݜلہ</downloadLink> ٹک کرہ تہ کگالیۡ جُملی منی واں۔
     }
-small-batch-sentences-rule-1 = “مہ گھِن٘لیۡ جُملی ٹل کرہاں مَیں تُھو؟” نہ پاند پشائ لا عمل کری
-small-batch-sentences-rule-2 = ایک کھِیریۡ مہ ایک جُملہ لِکی
-small-batch-sentences-rule-3 = جُملی کوکسیۡ نہ جُدا کرے ایک کھِیریۡ مہ ائیں یاں کریا “Enter” یا “Return” لا ایک ہیش چکس کری۔
-small-batch-sentences-rule-4 = 1,000 جُملیُوں ہاریۡ ٹل کری
-small-batch-sentences-rule-5 = بُٹیۡ جُملی ایک زئ نہ آلیۡ ہوں پکار تھو
-small-batch-sentences-rule-6 = بُٹیۡ جُملی وَیں حوالہ ایک ہوں پکار تھی۔
+small-batch-sentences-rule-1 = ہدایات مہ سئ کری چہ توۡ گھئین جُملی ٹل کرہانٚت؟
+small-batch-sentences-rule-2 = اک کھِیر مہ اک جُملہ لِکی
+small-batch-sentences-rule-3 = جُملی کوکسیۡ نہ جُدا کرے ایک کھِیر مہ ائیں کراں “Enter” یا “Return” تل ایک ہیش چکس کری۔
+small-batch-sentences-rule-4 = 1,000 جُملیُوں ہار ٹل کری
+small-batch-sentences-rule-5 = بُئیٹ جُملی ایک زائے نہ یعنی اک ڈومین نہ اَئیل ہوں پکار تھی۔
+small-batch-sentences-rule-6 = بُئیٹ جُملوں حوالہ اک ہوں پکار تھی۔
 # menu item
-add-sentences = جُملی ٹل کرہ
+add-sentences = جُملی ٹل کری
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جُملی ٹل کرہ آں دُوبارہ نھالہ، سوالہ ٹل کرہ، اوازاں نقل لِکہ
-add-sentences-menu-item-tooltip = تَیں ژبہۡ مہ جُملی لِکے ٹل کرہ
-review-sentences-menu-item-tooltip = تَیں ژِبَیں جُملی دُوبارہ نھالہ
-add-questions-menu-item-tooltip = تَیں ژِبہۡ مہ سُوالہ لِکے ٹل کرہ
-transcribe-audio-menu-item-tooltip = ٹیپ کریل اوازاں لفظ لفظ تَیں ژِبہۡ مہ لِکہ
+write-contribute-menu-tooltip = جُملی ٹل کری آں گتہ  نہانٚلی،  سوالہ ٹل کری، اوازاں نقل لِکی
+add-sentences-menu-item-tooltip = تَئیں زب مہ جُملی لِکے ٹل کرہ
+review-sentences-menu-item-tooltip = تَئیں زبَئیں جُملی دُوبارہ نہانٚلہ
+add-questions-menu-item-tooltip = تَئیں زب مہ سُوالہ لِکے ٹل کرہ
+transcribe-audio-menu-item-tooltip = ٹیپ کریل اوازاں لفظ  تَئیں زب مہ لِکہ
 
 ## MENU ITEM ARIA LABELS
 
-add-sentences-menu-item-aria-label = خلکہ واں کریا نَیں جُملی لِکے ٹل کرہ
+write-contribute-menu-aria-label = لکئیں اختیاراتوں مینو
+add-sentences-menu-item-aria-label = خلقوں کراں  نَئیں جُملی لِکے ٹل کرہ
 review-sentences-menu-item-aria-label = خلکہ وَیں جمع کریلیۡ جُملی دُوبارہ نھالہ
 add-questions-menu-item-aria-label = خلکہ واں کریا ناں سوالہ جمع کرہ لہ سَیں پڑاں آں جواب دیں
 transcribe-audio-menu-item-aria-label = ٹیپ کریل اوازاں لفظ لفظ لِکہ
