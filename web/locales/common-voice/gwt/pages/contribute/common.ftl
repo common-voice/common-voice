@@ -33,9 +33,19 @@ change-preferences = ترجیحاتہ بدل کېرِؤ
 login-signup = لاگ اِن/ سائن اپ کېرِؤ
 vote-yes = اے
 vote-no = نئ
+datasets = ڈیٹا سیٹس
+languages = باتی نام
+about = ݭڅی
+partner = شریک
+submit-form-action = سِپاراوَہ
 
 ## Reporting
 
+report = رپوٹ
+report-title = رپوٹ ݪِؤ
+report-ask = اتے جُملا مِنزی کریَک مسائل مېنہ پُراں آئیت؟
+report-offensive-language = جارحانہ باتی
+report-offensive-language-detail = جُملانہ منزے بےعزت کېرَنی یا جارحانہ باتی تھنی۔
 
 ## Speak & Listen Shortcuts
 
