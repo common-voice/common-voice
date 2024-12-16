@@ -45,6 +45,13 @@ help-reach-hours-pluralized =
         [one] Techpaleui matikajxitikan { $hours } hora ika { $language } ika tlen tikajxitisneki
        *[other] Techpaleui matikinmajxitikan { $hours } horas ika { $language } ika tlen tikajxitisneki
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Xikpaleui Tinochtin Titlajtoaj makajxiti { $hours } hora ika se tlajtolkopa ika tlen tikajxitisneki
+       *[other] Xikpaleui Tinochtin Titlajtoaj makinmajxiti { $hours } horas ika se tlajtolkopa ika tlen tikajxitisneki
+    }
+set-a-goal = Xiktlali tlen tikajxitisneki
+cant-decide = ¿Amo tikmati tlen tikpejpenas?
 
 ## Goals
 
