@@ -20,6 +20,7 @@ review-instruction = ضرورت چمہ ییبا کلپس ستہ جائزہ اݣ�
 record-submit-tooltip = { $actionType } تیار بیبا جمع کر ہ واݩع
 clips-uploaded = کلپس اپ لوڈ بستای
 record-abort-title = پنوی وای ریکا ڈنگ پوڈی ستای ؟
+record-abort-text = شترک تیو اچی با توستہ ترقی ( مطلب چوک کودیوم کعستای با )ستہ پیس کولاش
 record-abort-submit = { "" }
 
 ## MENU ITEM TOOLTIPS
