@@ -35,6 +35,8 @@ news_current_affairs = Willakuykunamanta hinallataq Kunan Kawsaykunamanta
 # Sentence Domain dropdown option
 technology_robotics = Technologia hinallataq Robotics
 sentence-variant-select-label = Rimaypaq huk niraq rimaypi
+sentence-variant-select-placeholder = Huk ayllu rimayta akllay (munarispaqa)
+sentence-variant-select-multiple-variants = Suyu simi / huk ishkay ayllu rimaykuna
 
 ## BULK SUBMISSION 
 
