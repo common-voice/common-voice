@@ -101,3 +101,6 @@ contribution-criteria-page-title = شراکتَنہ معیار
 contribution-criteria-page-description = پروزِؤ زی کھنٹَنی کلپسہ ݭُنڈِمېنے کی کوڅَنہ تھنہ اؤ تانُو کھنٹَنی رکاڈِنگہ بی لؤ بئ ݫُپَئیکہ مدد کېرِؤ!
 contribution-for-example = مثلاً
 contribution-misreadings-title = غلط زانِک
+contribution-misreadings-description = ݭُنڈِمېنے لؤ احتیاط کېری بالِؤ زِی کی ریکاڈ کېران دِتنہ بہ سے بېخی سے می تھنا زی کی لِکان دِتنہ۔ کېنے زی یفَلہ غلطی بِبوت بہ ژو پتہ گِرَؤ۔<br />لؤ عام غلطِیہ شامل تھنَئیت:
+contribution-misreadings-description-extended-list-1 = رکاڈِنگَنہ اوَلہ<strong>'A'</strong>'or'<strong>'the</strong> غائب تھنہ۔
+contribution-misreadings-description-extended-list-2 = لفظنہ آخرہ <strong>'s'</strong> غائب تھنہ۔
