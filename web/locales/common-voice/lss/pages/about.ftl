@@ -17,7 +17,8 @@ about-sentence-collection-subtitle = جملا جمع چِي ويان ته ماڻ
 about-new-lang-title = بي زبان آ شروع ٿي وئي.
 about-new-lang-subtitle = اسين ڪومن وائس سائٽ هنا زبانم شروع ته ڪريان.
 about-voice-contrib-title = وائس جو ڪنٽربيوشن
-about-voice-contrib-subtitle = ماڻھو اچين تl ٻيو contribute
+about-voice-contrib-subtitle = ماڻھو اچين تا ٻيو پانجي آواز ڪنٽربوٽ  تا ڪن.
+about-voice-validation-title = وائس جی ويلیڏيشن
 
 ## Community Playbook Content
 ## What is a language
