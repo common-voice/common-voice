@@ -83,7 +83,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: TranscribeIcon,
-        localizedId: 'transcribe-audio',
+        localizedId: 'transcribe-audio-coming-soon',
         menuItemTooltip: 'transcribe-audio-menu-item-tooltip',
         menuItemAriaLabel: 'transcribe-audio-menu-item-aria-label',
       },
@@ -107,8 +107,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       {
         icon: ShareLinkIcon,
         localizedId: 'press-and-stories',
-        externalHref:
-          'https://foundation.mozilla.org/blog/topic/common-voice/',
+        externalHref: 'https://foundation.mozilla.org/blog/topic/common-voice/',
         menuItemTooltip: 'press-and-stories-menu-item-tooltip',
         menuItemAriaLabel: 'press-and-stories-menu-item-aria-label',
       },
