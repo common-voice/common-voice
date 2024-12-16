@@ -24,6 +24,8 @@ sentence-variant-select-multiple-variants = عام ژیب/چئ لہجی
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = عوامی مِلکیتیں جُملی بُوۡئ اُکھالہ <icon></icon>
 sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ یا<uploadButton>بُوۡئ اُکھالَیں یاں کریا کلِک کرہ</uploadButton>
 sc-bulk-upload-instruction-drop = فائل ݜلہ پھت کرہ لہ بُوۡئ اُک
 bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں ملی بال بنہ<emailFragment>commonvoice@mozilla.com</emailFragment>
@@ -75,6 +77,12 @@ rate-limit-message-seconds =
     { $retryLimit ->
         [one] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن 1 سِکنڈ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
        *[other] تُوں ݜس پن٘ڑہۡ لا جمع کرَیں یاں حد لن٘گھا چھی مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن { $retryLimit } سِکنۡڈہ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } مہ 1 جُملہ اکٹھِراگِل
+       *[other] { $uploadedSentences } مہ { $totalSentences } جُملی اکٹھِراگِل۔
     }
 
 ## MENU ITEM TOOLTIPS
