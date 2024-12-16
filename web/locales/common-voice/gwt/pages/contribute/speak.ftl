@@ -20,6 +20,22 @@ record-last-instruction = <recordIcon></recordIcon> آخېری!
 review-tooltip = دِمېنے اِتے کِلپسَنہ جائزہ گوو اؤ دوبُوڑہ رِکاڈ کېرِؤ
 share-clip = تانُو کِلپ شئیر کېرِؤ
 share-common-voice = مشترک کھنٹہ حصہ گوو
+review-instruction = جائزہ گوو اؤ گِری رِکاڈ کېرِؤ زی پکار تھنی بہ
+record-submit-tooltip = { $actionType } تیار بُوئی بہ جمع کېرِؤ
+clips-uploaded = کِلپس اپلوڈ بوئیت
+record-abort-title = اول رکاڈِنگہ ختم کېرِکا؟
+record-abort-text = نوری ووڑِکَنی مطلب ووئی تھنی زی مے تانُو ترقیہ پېنہ ہستون کېرِوَہ
+record-abort-submit = کِلپسہ جمع کېرَوؤ
+record-abort-continue = رِکاڈِنگہ فُورہ کېرہ
+record-abort-delete = بېران نېس اؤ کِلپسہ بکا
+review-aborted = اپلوڈِنگ وُٹان گئ۔ مے تانُو رِکاڈِنگہ ناݭانی ژِمانا؟
+review-submit-title = جائزہ گوو اؤ جمع کېرَؤ
+review-submit-msg = رِکاڈِنگہ ݭڅی مېنہ شکریہ! <lineBreak></lineBreak>نوری اسُو کِلپسَنہ جائزہ گوو اؤ جمع کېرَوَؤ۔
+review-recording = جائزہ گوؤ
+review-rerecord = دوبُوڑہ رِکاڈ کېرِؤ
+review-cancel = جمع کېراوا منسوخ کېرِؤ
+review-keep-recordings = رِکاڈِنگہ تھوئیؤ
+review-delete-recordings = مونی رِکاڈِنگہ ناشِؤ
 
 ## MENU ITEM TOOLTIPS
 
