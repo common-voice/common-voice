@@ -245,7 +245,8 @@ const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)',
+    variant_name:
+      'Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)',
     variant_token: 'kbd-Latn-TR-t-kbd-cyrl',
   },
   {
@@ -606,8 +607,10 @@ export async function importLocales() {
       const hasEnoughSentences =
         allLanguages[language.code]?.hasEnoughSentences || false
 
-      //if a lang has clips, consider it contributable
-      const is_contributable = languagesWithClips[language.code]
+      // if a lang is set to be contributable or has clips, consider it contributable
+      const is_contributable = allLanguages[language.code].is_contributable
+        ? 1
+        : languagesWithClips[language.code]
         ? 1
         : isTranslated && hasEnoughSentences // no prev clips, check translated and enough sentences
         ? 1
