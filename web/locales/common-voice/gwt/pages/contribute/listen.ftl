@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = تانُو گاݭٹے صارِفَنی
 
 listen-contribute-menu-aria-label = اختیاراتَنی تفصیلاتہ ݭُنڈِؤ
 validate-readings-menu-item-aria-label = برادرِیَنہ ممبراننی بکنہ جمع کېرَئیسنت ریڈینگَنی توثیق کېرِؤ
+review-transcriptions-menu-item-aria-label = سئ کېرِکہ ݭڅی رکاڈ بِسنت جملہ نامَنی نقَلَنہ جائزہ گوو
