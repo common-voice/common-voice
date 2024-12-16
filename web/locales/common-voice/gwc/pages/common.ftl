@@ -279,6 +279,12 @@ email-input =
 loading = پُورجنت۔۔۔۔
 email-opt-in-info = یہ ایمیل حاصل کٞروگ دیانت، مقصدیں یاد دہانیں کیر، ماٞں میڄکہ بچوگ مالوم کٞروگیں کیر تے کامن وائساں رسالہ ایں کیر۔
 email-opt-in-info-title = کامن وائس ایں ایمیلیں لسٹ مئی شامل ہو
+email-opt-in-info-sub-with-challenge = ایمیل حاصل کٞروگ دیانت، مشکلاتاٞں باراٞ مئی تے مقصدیں یاد دہانیں کیر، ماٞں میڄکہ بچوگ مالوم کٞروگیں کیر تے کامن وائساں رسالہ ایں کیر۔
+email-opt-in-privacy-v2 = ایمیل حاصل کٞروگیں کیر تُو ایں مننت اُوں مکہ مسلہ نات کاٞں طریقاٞ سہ موزیلا ایں سسٹم چلانت، ائی موزیلا ایں <privacyLink>رازدیری ایں پالیسی مئی شامل تھو</privacyLink>۔
+indicates-required = ایسٹیریک (*) کاٞں خانہ مئی تسوں پُروگ ضریلی تھو۔
+not-available-abbreviation = موجود نانت
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>ما کہ </mark><br/><mark>چھیں مددیں ضرولات تھی</mark>۔
