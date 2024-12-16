@@ -27,18 +27,44 @@ how-to-cite-explanation-bold = کم اوکاں پُور ناں یا یو آر ا
 how-to-cite-explanation = اگر کہ ائیں تئیں تاں لفظہ تھے کھئیں تے منہ <italicizedText> تاں حوالہ</italicizedText>۔ بے ݜس تل اماں پورزئیں لکھانٚتے چہ ائیں بلی تئیں گُلاں آڅھے تے چہ بے تس عوامی ڈومین مہ چیک کرج آں امان پورزیج چہ الہ گی کاپی رائیٹ پابندیہ نی تھی۔ حوالہ جاتوں حوالہ ہِن مُتی تفصیل معلوم کرئیں کراں <guidelinesLink>ہدایاتوں صفحہ تل ٹک کری </guidelinesLink>
 guidelines = ہدایات
 contact-us = زاں مل رابطہ کری
-add-sentence-success = جُملہ جمع کرژِگے۔
-required-field = ݜس زائ پوری
-small-batch-sentence-submission = کم جُملی وَیں بٹُو جمع کرؤں
-bulk-sentence-submission = چئ جُملی اکٹھی جمع کرؤں
-single-sentence = کیالی
-small-batch-sentence = کم جُملی وَیں بٹُو
-bulk-sentence = چئ جُملی وَیں بٹیۡ
+add-sentence-success = اک جُملہ جمع ہُونٚتھی۔
+add-sentence-error = غلطی جمع کرئیں والا جُملہ
+required-field = ݜس زائے پوری
+single-sentence-submission = اک جُملہ جمع کروں
+small-batch-sentence-submission = کم جُملیوں اک سٹ جمع کرؤں
+bulk-sentence-submission = څئ جُملی اکزائے جمع کرؤں
+single-sentence = چلوں
+small-batch-sentence = لکھ لکھ سیٹ
+bulk-sentence = گھوں سیٹ
+sentence-domain-combobox-label = جُملیوں ڈومین
+sentence-domain-select-placeholder = ڇا ڈومینوں ہار توۡ انتخاب کرہانٚت (اختیاری)
 # Sentence Domain dropdown option
-general = عام
-sentence-variant-select-label = جُملَیں مُتیۡ حالت
-sentence-variant-select-placeholder = لہجہ خوش کرہ (لازمی نی تُھو)
-sentence-variant-select-multiple-variants = عام ژیب/چئ لہجی
+agriculture_food = خوراک تے ذراعت
+# Sentence Domain dropdown option
+automotive_transport = گاڑی تے مشنہ
+# Sentence Domain dropdown option
+finance = حساب کتاب
+# Sentence Domain dropdown option
+service_retail = خدمت تے پرچون
+# Sentence Domain dropdown option
+general = عام۔
+# Sentence Domain dropdown option
+healthcare = صحت
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون تے حکومت
+# Sentence Domain dropdown option
+language_fundamentals = زبئیں بنیادی څزہ لکہ ہندسی، حرفہ، پیس
+# Sentence Domain dropdown option
+media_entertainment = میڈیا تے ناٹ ماٹ
+# Sentence Domain dropdown option
+nature_environment = قدرتی ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبری تے حالات حاضرہ
+# Sentence Domain dropdown option
+technology_robotics = ٹکنالوجی تے روبوٹہ
+sentence-variant-select-label = جُملَیں مُئیت حالت
+sentence-variant-select-placeholder = لہجہ خوش کرہ (اختیاری)
+sentence-variant-select-multiple-variants = عام زیب/څئ لہجی
 
 ## BULK SUBMISSION 
 
