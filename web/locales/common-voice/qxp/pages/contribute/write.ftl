@@ -1,8 +1,11 @@
 ## WRITE PAGE
 
 write = Qillqay
+write-instruction = <icon></icon> llaqtaq kaynin rimayta yapay
 sentence =
     .label = Rimay
+sentence-input-placeholder = Llaqtaq kayninpi rimayta kaypi qillqay
+small-batch-sentence-input-placeholder = Llaqtaq kayninpi rimaykunata kaypi qillqay
 new-sentence-rule-3 = Allin simi kamaywan tupanan
 new-sentence-rule-6 = Mana hawa simimanta qillqakuna
 single-sentence = Sapalla
