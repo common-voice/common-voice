@@ -134,3 +134,5 @@ contribution-background-noise-description-extended = کېنے زی ریکاڈِ�
 contribution-background-noise-example-1-fixed-title = <strong>[ٹھِشُوں]</strong></strong>[څھاسِک]<strong>ٹرایاسِکَنہ دېوَہ سمَلہ ڈائینوسار۔
 contribution-background-noise-example-2-fixed-title = دېو ڈائینو<strong>[څھاسِک]</strong>ٹرائیسِک۔
 contribution-background-noise-example-2-explanation = [عبارتَنہ کی حصہ ݭُنڈان نہ دِمان]
+contribution-background-noise-example-3-fixed-title = <strong>[کرېکل]</strong>دېوَہ سمَلہ ڈائیناسور<strong>[کرېکل]<strong>ریاسِک۔
+contribution-background-voices-title = پتانی کھنٹ
