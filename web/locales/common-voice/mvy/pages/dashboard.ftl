@@ -13,6 +13,10 @@ everyone = ہرکاں/ہر اوک
 contribution-activity = مدد کرئیں کمہ
 top-contributors = څو زیات کرِل مدد
 recorded-clips = ریکارڈ کریل کٹرَو
+validated-clips = منظور کریل کٹرَو
+total-approved = بُٹ منظور ہُونٚل
+overall-accuracy = مجموعی صحت
+set-visibility = اماں پشوں ٹھیک کروں
 
 ## Custom Goals
 
