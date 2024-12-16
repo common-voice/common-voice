@@ -84,6 +84,7 @@ contribution-misreadings-example-3-explanation = آخری ٹکل ختمبال د
 contribution-misreadings-example-4-explanation = داوگال متن دا باڑریکاڈتھال
 contribution-misreadings-example-5-title = بے چہ گینل تھے درتھ بان
 contribution-misreadings-example-6-explanation = اسان تھ اشل پکار
+contribution-misreadings-example-7-explanation = اصلی متن می اے نان
 contribution-misreadings-example-8-title = بھونرا شور مݭ بل
 contribution-varying-pronunciations-title = باڑ تلفظ
 contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآݭ
