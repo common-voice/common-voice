@@ -40,6 +40,11 @@ want-to-continue = ¿Yikuali ijkon?
 finish-editing = ¿Tikneki achto tiktlamiltis?
 lose-changes-warning = Tla tikisa, tikpolos tlen yotikpatlajka
 build-custom-goal = Xikpejpena tlen moneuian tikneki tikajxitis
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Techpaleui matikajxitikan { $hours } hora ika { $language } ika tlen tikajxitisneki
+       *[other] Techpaleui matikinmajxitikan { $hours } horas ika { $language } ika tlen tikajxitisneki
+    }
 
 ## Goals
 
