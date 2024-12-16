@@ -59,6 +59,9 @@ report-success = راپوٹ کمیابی سہ قبولیل
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = شرو/ایٹھی
+shortcut-rerecord-toggle-label = ریکاڈ دیرا
+shortcut-discard-ongoing-recording-label = روان ریکاڈنگ ختم تھ
 shortcut-submit = نوٹھ
 request-language-text = ای لا تانی جیب کامن وایس رل نہ نال۔
 request-language-button = اّجیب تہ درخاس دہ۔
