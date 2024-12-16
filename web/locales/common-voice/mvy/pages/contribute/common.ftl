@@ -1,7 +1,7 @@
 action-click = ٹَک
 action-tap = ٹیپ
 contribute = تاں حصہ گلہ۔
-review = دوبارہ نھالہ/نظر ثانی
+review = دوبارہ/دُوہیڑی نھالہ
 skip = پَھت کرہ۔
 shortcuts = کھٹَیں پاند۔
 clips-with-count-pluralized =
