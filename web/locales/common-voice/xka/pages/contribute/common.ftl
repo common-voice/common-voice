@@ -79,6 +79,7 @@ contribution-criteria-page-title = امداد اے شرطونی
 contribution-criteria-page-description = اوں بات رل اپان پوتا آواز کلپ بوجیل ٹائم رل گاں تھ اوب تھے  ا تسدے اسے ریکاڈننگ ران بہ تو
 contribution-for-example = لخا
 contribution-misreadings-title = کھچہ منیل
+contribution-misreadings-description = بوجل ٹآئم رل باڑاوپ تھہ ا کاں شہ ریکاڈ باگیال این تو سو چݨگیال لی ڄلا این ا اوڄٹ کھچہ پا گوا لات تھ سو دیر گن غلطی اساب بھ
 contribution-misreadings-example-3-explanation = آخری ٹکل ختمبال دا مݭ ریکاڈنگ بان تھال
 contribution-misreadings-example-4-explanation = داوگال متن دا باڑریکاڈتھال
 contribution-misreadings-example-5-title = بے چہ گینل تھے درتھ بان
