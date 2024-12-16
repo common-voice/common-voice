@@ -615,7 +615,7 @@ export async function importLocales() {
         allLanguages[language.code]?.hasEnoughSentences || false
 
       // if a lang is set to be contributable or has clips, consider it contributable
-      const is_contributable = allLanguages[language.code].is_contributable
+      const is_contributable = allLanguages[language.code]?.is_contributable
         ? 1
         : languagesWithClips[language.code]
         ? 1
