@@ -30,10 +30,14 @@ about-nav-why-common-voice = کیْہ؟
 about-nav-how-it-works = کاتھ؟
 about-nav-partners = ملگیرے
 about-nav-how-it-works-2 = کامن وائس سہ کاتھ کوْم تِھینوْ؟
+about-nav-playbook = سِڇھونے طریقہ معلوم تِھیا
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس اےْ جِب جوکِن؟
+about-playbook-what-is-language-content-1 = جِبے بارَد گُنونے لا طریقائین۔ اسپیچ ریکگنیشن ماڈلو مقصدے کِرِیا، کامن وائس سہ تجویز تھینو چہ مشترکہ فہمِجیْ توجو دِیا یا آ جِب دینک بسکَس ایْک مُتوْ لڇھونے کوشش تھینَن یا؟
+about-playbook-what-is-language-content-2 = بیْس لُکھوݨَس چہ اسپیچ ماڈلز مقررینو متنوع رینج  پرجونے کِرِیا بَرَن، ادا بونے کِرِیا صوتی ڈیٹاسیٹ  سہ لا گہ مختلف جگو نمائندگی تھون پکارن۔
 
 ## How do I add a language
 
