@@ -120,3 +120,5 @@ contribution-misreadings-example-6-explanation = [”امہ تھنَئیک” ت
 contribution-misreadings-example-7-title = امہ کافی گوئیکاں بېرانت دِمېک۔
 contribution-misreadings-example-7-explanation = [اصل متَنہ کرېک'a' نہ تھنَئیت]
 contribution-misreadings-example-8-title = اِنڄ ہرَمہ ݭُورہ پُر نېسُوَہ۔
+contribution-misreadings-example-8-explanation = [بېل بخہ مواد]
+contribution-varying-pronunciations-title = بېل بېل تلفظ
