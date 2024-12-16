@@ -22,6 +22,14 @@ about-get-involved-text-2 =
     فورم سائٹے مسائلو ذریعہ جمع تھیَا <githubLink>گٹ ہب</githubLink> یا ٹل بِیا  <matrixLink>میٹریکس  </matrixLink>کمیونٹی چیٹ
 about-stay-in-touch = موْ رابطہ دہ کاتھ بوْم؟
 about-stay-in-touch-button = سائن اپ
+about-stay-in-touch-text-1 =
+    <emailFragment>سائن اپ  </emailFragment>
+    اسے میلنگ لسٹ دہ آ پرجونے کِرِیا چہ څھوْس کامن وائس جیْ مہمات، ایونٹس گہ مشترکہ ڈیزائنے خصوصیات دہ کاتھ حصہ ہربانَت۔
+about-stay-in-touch-text-2 = څھوْ  موزیلا جِبے کمیونیٹیز دہ ٹل بوئے مُتہ جگو سے ملاقت تھوبانَت<discourseLink> موْݜ کال</discourseLink>یا موضوع جیْ موْݜ کال، یا <matrixLink>میٹریکس </matrixLink>جنی مشورائے کِرِیا۔
+about-nav-why-common-voice = کیْہ؟
+about-nav-how-it-works = کاتھ؟
+about-nav-partners = ملگیرے
+about-nav-how-it-works-2 = کامن وائس سہ کاتھ کوْم تِھینوْ؟
 
 ## Community Playbook Content
 ## What is a language
