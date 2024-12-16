@@ -32,3 +32,26 @@ check-transcriptions = Nën gin n'ëcöö
 ## Not Found Page
 
 not-found-page-header = Ba onwongere
+not-found-page-content = Poth karatac na in ïyënyö ba onwongere
+# Privacy and Terms checkbox
+accept-privacy-and-terms = An aye dwön n'ënaa ïë, cïk ëka müng, ngëc
+# Locales
+bsy = Lëb Sabah Bisaya
+cdo = Lëb Fuzhou
+cpx = Lëb Heng Hua
+en = Lëb münü
+fr = Lëb French
+hch = Lëb Wixarika
+kzi = Lëb Kelabit
+mbf = Lëb Baba Malay
+meh = Lëb Southwestern Tlaxiaco Mixtec
+mel = Lëb Central Melanau
+mmc = Lëb Michoacan Mazahua
+ms-MY = Lëb Bahasa Malay
+msi = Lëb Sabah Malay
+pez = Lëb Eastern Penan
+pne = Lëb Western Penan
+sdo = Lëb Serian Bidayuh
+snv = Lëb Sa'ban
+tr = Lëb Turkish
+xkl = Lëb Kenyah
