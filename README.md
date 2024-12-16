@@ -19,6 +19,12 @@ This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org),
 - [Matrix chat](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)
 - [License](./LICENSE)
 
+## First time here ? 
+
+👍 As in all open source project, newcomers are always welcome ! 
+
+⏩ In order to help you to understand where you are and where to go, please start by reviewing the [Community Onboarding page](https://common-voice.github.io/community-playbook/sub_pages/onboarding.html), at least the [Onboarding slides](https://docs.google.com/presentation/d/1FVTWmWYZCfmjkfASm3EVImMrY-Hu__C3z8XZ8f4VyNk/edit?usp=sharing) document. It will save you from many misunderstanding in the future, whether you just want to understand the project, contribute with your voice, or code algorithms. 
+
 ## How to contribute
 
 🎉 First off, thanks for taking the time to contribute! This project would not be possible without people like you. 🎉
