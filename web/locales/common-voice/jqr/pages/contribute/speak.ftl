@@ -1,3 +1,9 @@
+speak = Hablar
+speak-now = jichhax parlt’asipxam
+speak-subtitle = Dona tu voz
+record-cta = Empezar a grabar
+record-platform-not-supported = Lo sentimos, tu plataforma todavía no está incluída
+record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
 record-platform-not-supported-ios-non-safari = On iOS please continue with Safari to enable recording…
 record-no-mic-found = No microphone found.
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
