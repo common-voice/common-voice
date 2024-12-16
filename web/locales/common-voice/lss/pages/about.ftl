@@ -13,6 +13,11 @@ about-language-req-subtitle = ڪير  پانجي  زبانک وجن تو چائ�
 about-localization-title = ويبسائٽ آ جي لاڪليزيشن
 about-localization-subtitle = ويبسائٽ آ جي لکت آ جو ترجمو هنءَ زبان ام ٿي ويو.
 about-sentence-collection-title = جملي جي ڪليڪشن.
+about-sentence-collection-subtitle = جملا جمع چِي ويان ته ماڻھو پڙھن.
+about-new-lang-title = بي زبان آ شروع ٿي وئي.
+about-new-lang-subtitle = اسين ڪومن وائس سائٽ هنا زبانم شروع ته ڪريان.
+about-voice-contrib-title = وائس جو ڪنٽربيوشن
+about-voice-contrib-subtitle = ماڻھو اچين تl ٻيو contribute
 
 ## Community Playbook Content
 ## What is a language
