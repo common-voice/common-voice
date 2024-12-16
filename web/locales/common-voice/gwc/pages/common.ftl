@@ -257,6 +257,17 @@ zza = زازا
 
 ## Layout
 
+profile = تانی تفصیل
+help = مدد
+contact = رابطہ
+privacy = رازدیری
+terms = شرطونہ
+cookies = کوکیز
+faq = باٞر دیر تپیس کراٞل سوالہ
+content-license-text = لیساٞن اٞ تخلیقی<licenseLink>  تے عام مواداں </licenseLink> میہ شامل تھو
+share-title = تانی ہاواز دیاٞگ والاٞ باتاٞگ مئی ما سہ مداٞد کراٞ ۔
+share-text = مشین کٞہ پشا اصل خلق کھیکی جولاٞں، تانی ہاواز داٞ { $link }
+link-copied = لنک نقل ہی
 
 ## Donate banner
 
