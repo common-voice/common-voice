@@ -107,4 +107,6 @@ contribution-misreadings-description-extended-list-2 = لفظنہ آخرہ <stro
 contribution-misreadings-description-extended-list-3 = بڈَئ ژواوَہ زی حقیقتہ تېمے نہ تھنَئیت،لکہ ”امہ تھنَئیک” نہ ٹھانہ ”امہ تھنَئیک” یا تسَنہ برخلاف۔
 contribution-misreadings-description-extended-list-4 = ریکارڈِنگہ لؤ تادِئے څھِنی تسَنی آخری لفظَنہ پتہ ٹُنٹا یاد کېراوَہ۔
 contribution-misreadings-description-extended-list-5 = یَہ لفظہ ژَئیکَنی کتہ کُوشُش کېرِک۔
-contribution-misreadings-example-1-title = ٹِیاسِکَنہ دیوَہ پیدہ ڈائیناسور۔
+contribution-misreadings-example-1-title = ٹِریاسِکَنہ دېوَہ پېدہ ڈائیناسور نام۔
+contribution-misreadings-example-2-title = ٹریاسِیَنہ دېوَہ پېدہ ڈائیناسور۔
+contribution-misreadings-example-2-explanation = [’ڈائیناسور‘ بِیَنہ تھنہ]
