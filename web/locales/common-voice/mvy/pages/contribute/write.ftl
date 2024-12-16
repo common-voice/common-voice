@@ -32,6 +32,10 @@ try-upload-again-md = فائل گتہ بُوۡئ اُکھالہ
 select-file = فائل خوش کرہ
 select-file-mobile = فائل خوش کرہ لہ بُوۡئ اُک
 accepted-files = قبلُژیل فائلاں قِسمہ: صرف tsv.
+minimum-sentences = فائلہ مہ کم نہ کم جُملی: 1000
+maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی
+what-needs-to-be-in-file = فائلہ مہ گی ہوں پکار تُھو؟
+upload-progress-text = بُوۡئ اُکھالؤں روان تُھو۔۔۔
 
 ## SMALL BATCH SUBMISSION
 
