@@ -55,9 +55,22 @@ first-cta-gender-select-help-text =
     .label = مے تانُو جنس یا جنسَنی وضاحتہ کِرَوے بیان کېرِوَہ؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تانُو کھنٹہ ݪِکہ ݭڅی مېنہ شکریہ!
+second-cta-subtitle-text = پروفائلہ مِنزی مے تانُو ݪمہ رتئ نظر ساتی بمانېؤ اؤ کھنٹَنہ ڈیٹانہ تعاؤن کېرِݪا مِنزی برادرِیہ مِنزی لُبُوسی بمانېؤ۔
+already-have-an-account = پُدمانہ می اکاونٹ تھنا؟<login>لاگ اِن</login>
+create-profile-button = پروفائل ݫُپَؤ
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابِیَنہ نخہ
+# menu item
+read-sentences = جُملہ نامہ ژَؤ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جُملا ژَؤ سوالاتَنی جواب نامہ ݪِؤ
+read-sentences-menu-item-tooltip = تانَئ جُملا ژمېنے تانَئ رِکاڈ کېرِؤ
+answer-questions-menu-item-tooltip = تانُو ہانسِی ئے سوالات اؤ اشارانہ جواب ݪِمېنے تانُو رِکاڈہ کېرِؤ
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اختیاراتَنہ مینو ژَؤ
+read-sentences-menu-item-aria-label = معاشرانی بکَنہ بېل بېل باتِیہ جمع کېرَئیسنت جُملہ نامہ ژَؤ
+answer-questions-menu-item-aria-label = معاشرانہ ژَئیک اؤ جواب ݪِکہ ݭڅی یَہ نونگی سوال جمع کېرَوَؤ
