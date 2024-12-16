@@ -1,9 +1,9 @@
-speak = گولہ
-speak-now = ہُویں بنہ
-speak-subtitle = تاں اواز دے
-record-cta = ٹېپ کرَیں شروع کرہ
-record-platform-not-supported = خپا نی ہو، تیں پلېٹ فارم فی الحال رڇِھگ تھو
-record-platform-not-supported-desktop = تاں ڈِسک ٹاپاں آلیُوں ہِن تُو منی والے څصہ گلَیں تُھو۔
+speak = منہ
+speak-now = ہِئیں مَنہ
+speak-subtitle = تاں اواز دَے۔
+record-cta = ٹَېپ کرَئیں شروع کرہ
+record-platform-not-supported = خپا نی ہُو، تئیں پلېٹ فارم فی الحال کام نیرانٚت۔
+record-platform-not-supported-desktop = تاں کمپیوٹرہ تل توۡ بِگ اوک ڈاؤن لوڈ کرے تاں حصہ گلہانٚت۔
 record-platform-not-supported-ios-non-safari = iOS لا رِکارڈِن٘گ کرَیں یاں کریا سفاری لا جاری رڇھی گل۔
 record-must-allow-microphone = تے مېکے اجازہ دیوں ہو تُھو
 record-no-mic-found = میک نی ڇؤژی تُھو

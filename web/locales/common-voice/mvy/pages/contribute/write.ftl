@@ -37,9 +37,20 @@ maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی
 what-needs-to-be-in-file = فائلہ مہ گی ہوں پکار تُھو؟
 upload-progress-text = بُوۡئ اُکھالؤں روان تُھو۔۔۔
 sc-bulk-submit-confirm = مہ ݜس بال پکیۡرام تُھو چے ݜَیں جُملی <wikipediaLink>عوامَیں مِلکیَت</wikipediaLink>تھی آں می گائ ݜِواں بُوۡئ اُکھالَیں یاں اِجازہ تُھو۔
+bulk-upload-success-toast = چئ جُملی وَیں بٹیۡ بُوۡئ اُکھالژی تھی۔
+bulk-upload-failed-toast = بُوۡئ نی اُکھالژی تُھو، گتہ کوشِش کرہ گل۔
+bulk-submission-success-header = چئ جُملی اکٹھی جمع کرَیں یاں کریا تیں شُکھریہ۔
+bulk-submission-success-subheader = تُو زاں دیساں نخ پُور کرَیں مہ کامن وائسَیں مدد کیریۡ تُھو
+upload-more-btn-text = مُتیۡ جُملی بُوۡئ اُکھالیۡ تُھو یی؟
+file-too-large = فائل چو گھوں تُھو
+file-too-small = فائل چو لیکھ تُھو
+too-many-files = فائلہ چے چئ ہُو تھو۔
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon> </icon> عوامی ملکیتیں چئ جُملی جمع کرہ۔
+multiple-sentences-error = ایک ہیش جمع کرَیں مہ تُو چئ جُملی ٹل نیرہاں تُھو۔
 
 ## MENU ITEM TOOLTIPS
 
