@@ -18,6 +18,8 @@ validated-clips = Tlajtoli tlen yokimotilijkej
 total-approved = Nochi tlen yikuali
 overall-accuracy = Kanachi kiyekchiuaj
 set-visibility = Manechitakan noso amo
+visibility-explainer = Nika uelis tiktlalis kox kitaskej kanachi titlapaleuia. Tla tiktlaatia, amo kitaskej. Kijtosneki moixkopinal, motoka uan tlen yotikchi amo monextis itech Akinmej okachi tlapaleuiaj. Xikilnamiki nin uejkaua ~{ $minutes }minutos moyankuilis.
+visibility-overlay-note = Xikmati: Tla tiktlalilis 'Makitakan', uelis tikpatlas kanin kijtoa <profileLink>Motech</profileLink>
 
 ## Custom Goals
 
