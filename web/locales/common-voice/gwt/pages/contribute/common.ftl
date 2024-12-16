@@ -131,3 +131,6 @@ contribution-varying-pronunciations-example-2-explanation = [انگریزِیہ 
 contribution-background-noise-title = پتانی شور
 contribution-background-noise-description = امہ ݭېنݭ کېرِمېک زی مشین لرننگ الگورتھم مختلف قسمَنہ پتانی شورہ قابُو کېرِکَنہ قابل بِیَؤ، اؤ تول مِزان زی نسبتاً وتھېلی کھنٹہ بی قبُول کېران دِمان خو شرط ووئی تھنی زی سے مے فُورہ عبارتہ ݭُنڈِکہ پېنہ بند مہ کېرِیَؤ۔ سکوننہ پس منظرَنہ ہارہ سئ تھنہ؛ ہارہ مے ہر لفظہ ݭُنڈِکہ پېنہ بند کېرِکہ ݭڅی لَؤ تېز تھنی۔
 contribution-background-noise-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ یا تېنے درز گئ بہ تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
+contribution-background-noise-example-1-fixed-title = <strong>[ٹھِشُوں]</strong></strong>[څھاسِک]<strong>ٹرایاسِکَنہ دېوَہ سمَلہ ڈائینوسار۔
+contribution-background-noise-example-2-fixed-title = دېو ڈائینو<strong>[څھاسِک]</strong>ٹرائیسِک۔
+contribution-background-noise-example-2-explanation = [عبارتَنہ کی حصہ ݭُنڈان نہ دِمان]
