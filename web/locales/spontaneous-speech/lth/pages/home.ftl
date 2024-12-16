@@ -20,3 +20,19 @@ respond-bubble-subtitle = In ïtwërö gamö onyo ïdök ïë ï kite na cön na
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = Cöö cöc
 transcribe-bubble-subtitle = Cöö pïny gin na iwinyo kï ï dwön n'ëmakö.
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = N'ënënö
+check-bubble-subtitle = In nën ka cöc n'ëcöö rwatërë kï dwön n'ëmakö.
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = Data
+data-bubble-subtitle = Wan ebino mïö dataset karë kï karë.
+contact-us = Mïïwa engee
+contact-us-title = Itye kï miti më bedo ï projek ni, onyo më tic kanya acël ködwa?
+contact-us-email = Email:
+signup-form-title = In dong itye ï gurupwa më Beta testing pï dwön n'önaa më projek më twak na cön.
+signup-terms = Ka ïdïö or link yo email na mëga, ëka iyee cïkwa më tic ëka cïk më müng ëka ömïï Mozilla oor email bothi kï köp ï kite më tic kï Beta Testing pï Dwön n'ënaa ïë më projek më twak na cön.
+signup-input-placeholder = Keth emailni
+signup-button-value = Or link ï emailna
+footer-text-privacy = Müng
+footer-text-terms = Cïk
+footer-text-cookies = Cookies
