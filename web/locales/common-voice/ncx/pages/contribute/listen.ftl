@@ -17,6 +17,10 @@ validate-readings = Xikmotili tlajtoltilistli
 
 listen-contribute-menu-tooltip = Xikmotili tlajtoltilistli uan tlen okijkuilojkej
 validate-readings-menu-item-tooltip = Xikmotili tlen yokitlajtoltijkej ika motlajtolkopa
+review-transcriptions-menu-item-tooltip = Xikmotili tlen okitenkakijkej uan okijkuilojkej ika motlajtolkopa
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Tlen uelis tikkakis
+validate-readings-menu-item-aria-label = Xikmotili tlen okitlajtoltijkej oksekimej
+review-transcriptions-menu-item-aria-label = Xikmotili tlen okitenkakijkej kox kuali okijkuilokej
