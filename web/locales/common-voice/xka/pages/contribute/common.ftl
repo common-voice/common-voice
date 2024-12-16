@@ -1,4 +1,4 @@
-action-click = ٹسار
+action-click = اوں کلپ میی اوبوٹ جولال این
 action-tap = تراپ
 contribute = امداد
 review = نالیل
@@ -17,6 +17,7 @@ contribute-more =
        *[other] دی اےۡ کیر راڈ با
     }
 speak-empty-state-cta = جملہ ترال مےۡمدد تہ۔
+speak-loading-error = ایس تو سہ جولالہ گیبی نہ لاد۔۔پتا دیراں مہ پݭ۔
 record-button-label = تانی تراٹ ریکاٹ تہ
 share-title-new = دی اوازونی بیلڑیل  می اسے مدد تہ
 keep-track-profile = اپان دی تانی ترقی اےۡ اّپروفاییل رݭ
@@ -48,6 +49,7 @@ report-different-language-detail = مہ کاں جیب دون تےۡاُن تس �
 report-difficult-pronounce = منیل مےۡبیکھر
 report-difficult-pronounce-detail = رس مےۡ تہ ذات ٹیکیل این اوں ںسو منیل مےۡبیکھر این
 report-offensive-speech = { "" }
+report-offensive-speech-detail = اوں کلپ می ابوٹ جولال این۔
 report-other-comment =
     .placeholder = جول
 success = کمیابی
@@ -76,12 +78,12 @@ shortcut-play-toggle-label = شرو/ایٹھی
 contribution-criteria-nav = شرطونی
 contribution-criteria-link = امداد تالے،ۡشرطونی پویان
 contribution-criteria-page-title = امداد اے شرطونی
-contribution-criteria-page-description = اوں بات رل اپان پوتا آواز کلپ بوجیل ٹائم رل گاں تھ اوب تھے  ا تسدے اسے ریکاڈننگ ران بہ تو
+contribution-criteria-page-description = اوں بات رل اپان پوتا آواز کلپ بوجیل ٹائم رل گاں تھ اوب تھے  ا تسدے اسے ریکاڈننگ ران بہ تہ
 contribution-for-example = لخا
 contribution-misreadings-title = کھچہ منیل
 contribution-misreadings-description = بوجل ٹآئم رل باڑاوپ تھہ ا کاں شہ ریکاڈ باگیال این تو سو چݨگیال لی ڄلا این ا اوڄٹ کھچہ پا گوا لات تھ سو دیر گن غلطی اساب بھ
 contribution-misreadings-description-extended-list-4 = ریکاڈنگ باڑشردہ کٹ تھتہ اخری ٹکیل ا ختم تھال ݭار بل
-contribution-misreadings-description-extended-list-5 = ا  ٹکیل منیل ا باڑ کوشش تھ
+contribution-misreadings-description-extended-list-5 = ا  ٹکیل منیل رل باڑ کوشش تھال
 contribution-misreadings-example-1-title = ٹریاسک ا گن ڈانیاسور
 contribution-misreadings-example-2-explanation = بیدےۡ (ڈاینا سور)
 contribution-misreadings-example-3-explanation = آخری ٹکل ختمبال دا مݭ ریکاڈنگ بان تھ
@@ -94,6 +96,8 @@ contribution-misreadings-example-8-title = بھونرا شور مݭ بل
 contribution-varying-pronunciations-title = باڑ تلفظ
 contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآݭ
 contribution-varying-pronunciations-example-2-title = تسے تھیر رسہ آس
+contribution-varying-pronunciations-example-2-explanation = انگریزیا می اکھٹآ من جون  دو  با نہ
+contribution-background-noise-title = شن پتا آؤؤ
 contribution-background-voices-description-extended = کیرا ریکاڈنگ ایٹھیت یا اوران بیل تہ مکھے ختم تھا کیتھک ایں رو پاک نہ بوجیل ݭات تہ
 contribution-background-voices-example-1-title = ٹراسک کہ گن ڈیناسور
 contribution-background-voices-example-1-explanation = تو یون آں?
