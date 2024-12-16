@@ -104,3 +104,7 @@ contribution-misreadings-title = غلط زانِک
 contribution-misreadings-description = ݭُنڈِمېنے لؤ احتیاط کېری بالِؤ زِی کی ریکاڈ کېران دِتنہ بہ سے بېخی سے می تھنا زی کی لِکان دِتنہ۔ کېنے زی یفَلہ غلطی بِبوت بہ ژو پتہ گِرَؤ۔<br />لؤ عام غلطِیہ شامل تھنَئیت:
 contribution-misreadings-description-extended-list-1 = رکاڈِنگَنہ اوَلہ<strong>'A'</strong>'or'<strong>'the</strong> غائب تھنہ۔
 contribution-misreadings-description-extended-list-2 = لفظنہ آخرہ <strong>'s'</strong> غائب تھنہ۔
+contribution-misreadings-description-extended-list-3 = بڈَئ ژواوَہ زی حقیقتہ تېمے نہ تھنَئیت،لکہ ”امہ تھنَئیک” نہ ٹھانہ ”امہ تھنَئیک” یا تسَنہ برخلاف۔
+contribution-misreadings-description-extended-list-4 = ریکارڈِنگہ لؤ تادِئے څھِنی تسَنی آخری لفظَنہ پتہ ٹُنٹا یاد کېراوَہ۔
+contribution-misreadings-description-extended-list-5 = یَہ لفظہ ژَئیکَنی کتہ کُوشُش کېرِک۔
+contribution-misreadings-example-1-title = ٹِیاسِکَنہ دیوَہ پیدہ ڈائیناسور۔
