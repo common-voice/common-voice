@@ -86,31 +86,32 @@ what-needs-to-be-in-file-explanation = مھیربانی کرے زئیں ݜئیں
 upload-progress-text = بُوئ اُکھالؤں روان تُھو۔۔۔.
 sc-bulk-submit-confirm = مہ ݜس بال پکیۡرانٚت آں تصدیق کرانٚت چہ ݜَئیں جُملی <wikipediaLink>عوامَیں ڈومیناں کراں </wikipediaLink>تھی آں مگے ݜئیں بُوئ اُکھالَئیں اِجازہ تُھو۔
 bulk-upload-success-toast = څئ جُملی اکزائے بُوئی اُکھالزی تھی۔
-bulk-upload-failed-toast = بُوۡئ نی اُکھالژی تُھو، گتہ کوشِش کرہ گل۔
-bulk-submission-success-header = چئ جُملی اکٹھی جمع کرَیں یاں کریا تیں شُکھریہ۔
-bulk-submission-success-subheader = تُو زاں دیساں نخ پُور کرَیں مہ کامن وائسَیں مدد کیریۡ تُھو
-upload-more-btn-text = مُتیۡ جُملی بُوۡئ اُکھالیۡ تُھو یی؟
-file-too-large = فائل چو گھوں تُھو
-file-too-small = فائل چو لیکھ تُھو
-too-many-files = فائلہ چے چئ ہُو تھو۔
+bulk-upload-failed-toast = بُوئی اُکھالزوں فیل ہُوں تُھو، گتہ کوشش کرہ
+bulk-submission-success-header = څئی جُملی اکزائے جمع کرئیں شکریہ
+bulk-submission-success-subheader = توۡ زاں دِساں نخ پُور کرئیں مہ کامن وائیس ریچ پروگرامئیں مدد کرانٚت۔
+upload-more-btn-text = مُتی جُملہ بُوئی اُکھالہ۔
+file-invalid-type = غلط فائیل
+file-too-large = فائل څو گھوں تُھو
+file-too-small = فائل څو لکھ تُھو
+too-many-files = څئی فائلہ اکزائے
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon> </icon> عوامی ملکیتیں چئ جُملی جمع کرہ۔
-multiple-sentences-error = ایک ہیش جمع کرَیں مہ تُو چئ جُملی ٹل نیرہاں تُھو۔
-exceeds-small-batch-limit-error = 1000جُملیُوں نہ تیرئ جمع نیر ہاں تُھو
+small-batch-instruction = <icon> </icon> عوامی ڈومیناں څئ جُملی جمع کرہ۔
+multiple-sentences-error = اک ہیش جمع کرَیں مہ توۡ څئ جُملی ٹل نیرہانٚت۔
+exceeds-small-batch-limit-error = 1000جُملیُوں نہ تیرئ جمع نیرہانٚت۔
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔1 مِلٹ پاتیُون گتہ کوشش کرہ
-       *[other] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔ { $retryLimit } مِلٹہ پاتیُون گتہ کوشش کرہ
+        [one] بُوئ اُکھالَئیں حد لھنٚگی تُھو۔اک مِلٹ پاتیُوں گتہ کوشش کرہ
+       *[other] بُوئ اُکھالَئیں حد لھنٚگی تُھو۔ { $retryLimit } مِلٹہ پاتیُوں گتہ کوشش کرہ
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔1 سِکنڈ پاتیُون گتہ کوشش کرہ
-       *[other] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔ { $retryLimit } سِکن٘ڈہ پاتیُون گتہ کوشش کرہ
+        [one] بُوۡئ اُکھالَئیں  حد لھنٚگی تُھو۔اک سِکنڈ پاتیُوں گتہ کوشش کرہ
+       *[other] بُوۡئ اُکھالَئیں  حد لھنٚگی تُھو۔ { $retryLimit } سِکن٘ڈہ پاتیُوں گتہ کوشش کرہ
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
