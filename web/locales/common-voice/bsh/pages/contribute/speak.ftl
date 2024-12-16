@@ -14,6 +14,12 @@ record-again-instruction = بلیوک لستہ اڅہ لی کلپ  ریکاڈ ک
 record-again-instruction2 = اینو جاری ساتہ دوبارہ  ریکاڈ کشی
 record-last-instruction = <recordIcon> </recordIcon> آخری او
 review-tooltip = انی توستہ کلپس ستہ جائزہ اوݣہ سورہ دوبارہ ریکاڈ کشی
+share-clip = توستہ کلیپ گاش کشی
+share-common-voice = توستہ کامن وائس گاݜ کشی
+review-instruction = ضرورت چمہ ییبا کلپس ستہ جائزہ اݣہ سورہ دوبارہ ریکاڈ کشی
+record-submit-tooltip = { $actionType } تیار بیبا جمع کر ہ واݩع
+clips-uploaded = کلپس اپ لوڈ بستای
+record-abort-title = پنوی وای ریکا ڈنگ پوڈی ستای ؟
 record-abort-submit = { "" }
 
 ## MENU ITEM TOOLTIPS
