@@ -92,9 +92,18 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = “مہ گھِن٘لیۡ جُملی ٹل کرہاں مَیں تُھو؟” نہ پاند پشائ لا عمل کری
 small-batch-sentences-rule-2 = ایک کھِیریۡ مہ ایک جُملہ لِکی
+small-batch-sentences-rule-3 = جُملی کوکسیۡ نہ جُدا کرے ایک کھِیریۡ مہ ائیں یاں کریا “Enter” یا “Return” لا ایک ہیش چکس کری۔
+small-batch-sentences-rule-4 = 1,000 جُملیُوں ہاریۡ ٹل کری
+small-batch-sentences-rule-5 = بُٹیۡ جُملی ایک زئ نہ آلیۡ ہوں پکار تھو
+small-batch-sentences-rule-6 = بُٹیۡ جُملی وَیں حوالہ ایک ہوں پکار تھی۔
+# menu item
+add-sentences = جُملی ٹل کرہ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جُملی ٹل کرہ آں دُوبارہ نھالہ، سوالہ ٹل کرہ، اوازاں نقل لِکہ
+add-sentences-menu-item-tooltip = تَیں ژبہۡ مہ جُملی لِکے ٹل کرہ
+review-sentences-menu-item-tooltip = تَیں ژِبَیں جُملی دُوبارہ نھالہ
 
 ## MENU ITEM ARIA LABELS
 
