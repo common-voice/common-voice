@@ -64,16 +64,16 @@ news_current_affairs = خبری تے حالات حاضرہ
 technology_robotics = ٹکنالوجی تے روبوٹہ
 sentence-variant-select-label = جُملَیں مُئیت حالت
 sentence-variant-select-placeholder = لہجہ خوش کرہ (اختیاری)
-sentence-variant-select-multiple-variants = عام زیب/څئ لہجی
+sentence-variant-select-multiple-variants = عام زیب/څئ لہجی.
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = بُوۡئ اُکھالہ <icon> </icon>عوامی ڈومین والا جُملی
-sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ <uploadButton>بُوۡئ اُکھالَئیں کراں ٹک کرہ</uploadButton>
+sc-bulk-upload-header = بُوۡئ اُکھالہ <icon> </icon>عوامی ڈومین والا جُملی.
+sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ <uploadButton> یا بُوۡئ اُکھالَئیں کراں ٹک کرہ</uploadButton>
 sc-bulk-upload-instruction-drop = فائل بُوئی اُکھالئیں کراں ݜلہ ڇھپ کرہ۔
-bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں مل ربطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ݜش فائیلاں بارہ مہ توۡ مُتی گی تفصیلات دینٚت کھئیں تے زاں مل رابطہ کرہ۔ <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں مل رابطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ݜش فائیلاں بارہ مہ توۡ مُتی گی تفصیلات دینٚت کھئیں تے زاں مل رابطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ۔
 try-upload-again-md = فائل گتہ بُوۡئ اُکھالئیں کوشش کرہ
 select-file = فائل خوش کرہ۔
@@ -128,8 +128,8 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] 1 مہ { $uploadedSentences } جُمل اکٹھِراگِلیۡ
-       *[other] { $totalSentences } مہ { $uploadedSentences } جُملی اکٹھِراگِلیۡ۔
+        [one] اک مہ { $uploadedSentences } جُملہ جمع ہُونٚتھی
+       *[other] { $totalSentences } مہ { $uploadedSentences } جُملی جمع ہُونٚتھی
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
