@@ -72,3 +72,4 @@ contribution-criteria-nav = شرطونی
 contribution-criteria-link = امداد تالے،ۡشرطونی پویان
 contribution-criteria-page-title = امداد اے شرطونی
 contribution-for-example = مثال سہ
+contribution-misreadings-example-3-explanation = آخری ٹکل ختمبال دا مݭ ریکاڈنگ بان تھال
