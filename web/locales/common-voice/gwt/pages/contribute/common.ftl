@@ -7,7 +7,7 @@ shortcuts = کھٹن کېراوَہ
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> حصہ
-       *[other] { "" }
+       *[other] <bold>{ $count }</bold>حصہ
     }
 goal-help-recording = توئیں کامن وائیسہ<goalPercentage></goalPercentage>اسَنہ ہر باگانہ{ $goalValue }ریکاڈِنگاں فیدِکہ مدد کېرُو!
 goal-help-validation = توئیں کامن وئیسہ </goalPercentage><goalPercentage>اسَنہ ہر باگانہ { $goalValue } توثیقی ہدفاں فېدِکہ مدد کېرُو!
@@ -146,3 +146,5 @@ contribution-reader-effects-title = ژَئیݪانہ اثر
 contribution-reader-effects-description = زیات رکاڈِنگ تسُو خلَکَنی بِمان زی تانُو قدرتی کھنٹے باتی کېرِمېت۔ مے کول کول غیر معیاری رکاڈہ قبُول کېری بَمانېؤ کریکېن چیغ ݪِتون بہ، کھمٹَئ تران باتی کېرون بہ، یا اخکارہ باتی تھنی زی ڈرامائی کھنٹے فیدان دِمان۔ مېرَبانی کېری ݪِسن ہارانی رکاڈِنگہ اؤ کمپیؤ ٹرَنی ݫُپَئیسنت کھنٹہ استعمال کېرِݪا رد کېرِؤ۔
 contribution-just-unsure-title = صرف بے باوَری؟
 contribution-just-unsure-description = کېنے زی مے اِشِلی شئ لېوو بہ زی تسُونہ قابُو کېراوَہ تېن راہنما رِکے ݪی نہ کېرِمېت، جو مېرَبانی کېرِؤ تانُو لفِلہ فیصلانہ مطابق ووٹ ݪِؤ۔ اگر زی مے واقعی فیصلہ کېری نہ بَمانېؤ بہ تولی سکیپ بٹن استعمال کېرِؤ اؤ پُرَنی رکاڈِنگاں دِؤ۔
+see-more = <chevron></chevron>واری بی بالِؤ
+see-less = <chevron></chevron> اِپِلہ بالِؤ
