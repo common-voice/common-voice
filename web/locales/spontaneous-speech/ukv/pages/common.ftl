@@ -46,3 +46,4 @@ kzi = rutan lo kakuruk kwörön lo sida malayasia
 mbf = rutan lo jama ko 'gutu ti suwöt lo china
 meh = rutan lo jama ko 'gutu ti southwestern Tlaxiaco
 mel = rutan lo jama ko 'gutu lo si'da i swot lo central malaysia
+mmc = 'gutu lo sida central maxico
