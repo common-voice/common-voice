@@ -84,6 +84,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } مہ 1 جُملہ اکٹھِراگِل
        *[other] { $uploadedSentences } مہ { $totalSentences } جُملی اکٹھِراگِل۔
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1 مہ { $uploadedSentences } جُملہ اکٹھِراچھی۔ <downloadLink>ݜلہ</downloadLink> کلِک کری لہ کگالیۡ جُملی منی واں۔
+       *[other] { $totalSentences } مہ { $uploadedSentences } جُملی اکٹھِراچھی۔ <downloadLink>ݜلہ</downloadLink> کلِک کری لہ کگالیۡ جُملی منی واں۔
+    }
 
 ## MENU ITEM TOOLTIPS
 

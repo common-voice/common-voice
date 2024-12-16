@@ -28,6 +28,19 @@ record-abort-text = ہِئیں پھت کرے بیوں تاں کریل کام ل�
 record-abort-submit = کٹرَو جمع کرہ
 record-abort-continue = ٹېپ کرؤں بس کرہ۔
 record-abort-delete = ڇاری نِکہ آں کٹرَو نشا۔
+review-aborted = بُوئی اُکھالوں (اپلوڈ) خراب ہُوں تُھو۔ توۡ تاں ٹیپ کریل کام نشانٚت اَئی؟
+review-submit-title = گتہ نہانٚلے جمع کرہ۔
+review-submit-msg = تئیں ریکارڈنٚگ کرئیں شکریہ <lineBreak> </lineBreak>ہِئیں منڅور ݜئیں دیل کٹرَو گتہ نہانٚلے جمع کرہ۔
+review-recording = گتہ نہانٚلہ/نظر ثانی کرہ
+review-rerecord = گتہ ٹیپ کرہ
+review-cancel = جمع کروں کینسل کرہ
+review-keep-recordings = ریکارڈ کریل کام اماں گے رڇھہ
+review-delete-recordings = مئیں ریکارڈ کریل کام نشاء
+review-terms = کامن وائیس استعمال کرہانٚس توۡ اتفاق کرانٚت <termsLink> زاں شرطوں مل </termsLink> آں <privacyLink> رازاں نوٹس
+terms-agree = مہ اتفاق کرانٚت۔
+terms-disagree = مہ اتفاق نیرانٚت۔
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تاں اواز مہ ٹیپ کریل کٹرَو زاں کراں دے شکریہ۔
 
 ## MENU ITEM TOOLTIPS
 
