@@ -136,3 +136,6 @@ contribution-background-noise-example-2-fixed-title = دېو ڈائینو<strong
 contribution-background-noise-example-2-explanation = [عبارتَنہ کی حصہ ݭُنڈان نہ دِمان]
 contribution-background-noise-example-3-fixed-title = <strong>[کرېکل]</strong>دېوَہ سمَلہ ڈائیناسور<strong>[کرېکل]<strong>ریاسِک۔
 contribution-background-voices-title = پتانی کھنٹ
+contribution-background-voices-description = یَہ سُکوننی پس منظرَنہ شورماشور سئ تھنہ، خو امہ اِشِلی زیاتی کھنٹ نامہ ݭُنڈانے نہ ژِمان زی تسُونہ وجئ مشین الگورتھم اِشِلی الفاظہ پیانِی بیَؤ زی لِکِسن عبارَتہ نہ تھنَئیت۔ اگر زی مے عبارَتَہ بایہ غیر بیل بیل الفاظ ݭُنڈی بَمانېؤ بہ جو کِلِپہ رد کېرَنہ تھِمان۔ عام طورے اِشِلہ بِمان زی کېنے ٹی وی ووڑان دِبُوئی بہ یا کېنے نېڑَئی باتی نام بِمان بوئیت بہ۔
+contribution-background-voices-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ، یا تېنے درز گئ بہ، تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
+contribution-background-voices-example-1-title = { "" }
