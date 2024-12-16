@@ -36,6 +36,7 @@ minimum-sentences = فائلہ مہ کم نہ کم جُملی: 1000
 maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی
 what-needs-to-be-in-file = فائلہ مہ گی ہوں پکار تُھو؟
 upload-progress-text = بُوۡئ اُکھالؤں روان تُھو۔۔۔
+sc-bulk-submit-confirm = مہ ݜس بال پکیۡرام تُھو چے ݜَیں جُملی <wikipediaLink>عوامَیں مِلکیَت</wikipediaLink>تھی آں می گائ ݜِواں بُوۡئ اُکھالَیں یاں اِجازہ تُھو۔
 
 ## SMALL BATCH SUBMISSION
 

@@ -56,7 +56,7 @@ review-error = ݜس جُملہ گتہ نہالَئیں مہ غلطی اوک ہُ
 review-error-rate-limit-exceeded = توۡ څئ تیز روان تُھو۔ مھیربانی کرے ہلاکو وخ ہرے جملہ گتہ نہالہ چہ گی غلطی نی دھرے۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بے ہِئیں ہلاکو گھئیں بدلی کرانتے۔
-sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو پُویں عام اوازاں پلیٹ فارمے روان تُھو۔ تُو ہُویں ایکجُملہ <writeURL>لِکَیں </writeURL>تُھو گتہ یا <reviewURL>دُوہیڑی نھالَیں</reviewURL>تھو گتہ  آں تے عام اواز مہ جمع کرَیں تھو۔
-sc-redirect-page-subtitle-2 = <matrixLink>مېترکس</matrixLink>،</matrixLink>ڈِسکورس</discourseLink>یا<emailLink>ای میل</emailLink> لا زؤں نہ تپُوس کری۔
+sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو مُنٚڈاں  کام وائیس پلیٹ فارمے روان تُھو۔ تُو ہِئیں  <writeURL>لِکہانٚت </writeURL>اک جُملہ <reviewURL>گتہ نہالہانٚت </reviewURL> آں اک چلِئیں جُملہ کامن وائیس منٚز جمع کرہانٚت۔
+sc-redirect-page-subtitle-2 = ݜَس تل اک سوال تپُوس کرہ <matrixLink> میٹرکس </matrixLink>، <discourseLink> ڈسکورس یا بحث </discourseLink> یا <emailLink> ایمیل </emailLink>
 # menu item
-review-sentences = جُملی دُوبارہ نھالہ
+review-sentences = جُملی  گتہ (دُوبارہ) نہانٚلہ
