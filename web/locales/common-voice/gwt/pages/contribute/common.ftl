@@ -122,3 +122,6 @@ contribution-misreadings-example-7-explanation = [اصل متَنہ کرېک'a' 
 contribution-misreadings-example-8-title = اِنڄ ہرَمہ ݭُورہ پُر نېسُوَہ۔
 contribution-misreadings-example-8-explanation = [بېل بخہ مواد]
 contribution-varying-pronunciations-title = بېل بېل تلفظ
+contribution-varying-pronunciations-description = اېن بُنیادے کرېک کِلپہ رد کېرِکہ پېنہ پُدَمہ احتیاط کېرِؤ زی قاری ئے کرېک لفظَنی غلط تلفظ کېرِتُوس، زورہ غلط ٹھانہ تھوئی تُوس، یا ظاہراً سوالیہ نشانہ  ووڑیتُوس۔ سپُورہ دُنیا مختلف قسمَنہ تلفظ استعمالہ تھنَئیک، تسُونہ منزَنہ کِیہ تہ مے تانُو مقامی برادَرِیہ نہ ݭُنڈِی تِوَہ۔ مېرَبانی کېرِی تسُو خلَکہ ݭڅی صفَتَنی یَہ مارجن ݫُپَؤ زی مے مِنزی مختلف باتی کېری بَمېت۔
+contribution-varying-pronunciations-description-extended = واری بکے زی مے اِشِلہ زانِمانېؤ بہ زی قارِیاں شاید اسہ پېنہ پُدَمہ کول بی ووئی لفظ نہ فیدی تِنی، اؤ سے صرف تلَفُظہ رتئ غلط قیاس کېرِمان، جو مېرَبانی کېری رد کېرِؤ۔ کېنے زی مېنی یقین نہ تھنی بہ جو، اِسکېپ بٹن استعمال کېرِؤ۔
+contribution-varying-pronunciations-example-1-title = تانُو ݭَؤٹا تېنے فوجی ٹوپی آنڅی دارُوس۔
