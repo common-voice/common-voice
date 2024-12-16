@@ -20,6 +20,24 @@ sc-review-form-button-approve-shortcut = وائی
 sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
+sc-review-form-keyboard-usage-custom = مے کیبورڈ شارٹ کٹسہ بی استعمال کېری بمانېؤ{ sc-review-form-button-approve-shortcut }تصدیق کېرِکاں،{ sc-review-form-button-reject-shortcut } رد کېرِکاں{ sc-review-form-button-skip-shortcut }شارٹ کٹہ ووڑِؤ
+sc-review-form-button-submit =
+    .submitText = جائزا نِمَتَؤ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] کرېک جُملانہ جائزہ نہ گوان گہ۔
+        [one] ا جملانہ جائزہ گوان گہ۔ شکریہ!
+       *[other] { $sentences }جُملانہ جائزہ گوان گہ ۔شکریہ!
+    }
+sc-review-form-review-failure = جائزہ محفوظ کېران نہ گہ۔ مېرَبانی کېری گری کُوشُش کېرِؤ۔
+sc-review-link = جائزہ گوو
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = جائزانہ معیار
+sc-criteria-title = جائزہ معیار
+sc-criteria-make-sure = یقینی کېرِؤ زی جُملہ اسُو معیارہ رتئ فورہ تھنہ:
+sc-criteria-item-1 = جُملانہ ہیجا سئ بِتېؤ۔
+sc-criteria-item-2 = جُملہ گرامَرَنہ لحاظے سئ بِتېؤ۔
