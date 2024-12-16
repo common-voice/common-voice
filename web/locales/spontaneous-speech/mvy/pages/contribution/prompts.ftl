@@ -20,3 +20,6 @@ submit-all-button = بُٹہۡ جمع کرہ
 
 learn-how-to-use-prompts = ݜس پن٘ڑوۡ گِشے چلاں تھو سِڇھہ
 learn-how-to-use-prompts-explanation = ݜس نوٹاں تی ہلالیں گِشے بانُوں سو شُو ایک دُو جُملیُوۡں مہ جواب دے۔ بس ݜس خیال رڇھہ چےۡ جُملی اچھ اِسپُور نی ہوں۔
+learn-how-to-use-prompts-guidance = ݜس پن٘ڑو گِشے چلؤں تُھو ݜس سِڇَھیں یاں کریا<guidanceLink>ݜُو زئ</guidanceLink>کلِک کرہ
+learn-how-to-use-transcribe = لفظ بہ لفظ نقل کرؤں سِڇھہ
+learn-how-to-use-transcribe-explanation = ماݜے چےۡ گِشے بنہ چھی ٹک سوۡ شاں لِکہ، بئ ݜُوۡ زئ ہریۡ چےۡ 'ہم' تےۡ 'آ' گتہ۔
