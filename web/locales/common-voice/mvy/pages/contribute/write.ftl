@@ -1,11 +1,19 @@
 ## WRITE PAGE
 
-write = لِکہ
+write = لِکہ۔
+write-instruction = جمع کرہ <icon> </icon> اک عوامی ڈومین والا جُملہ
+write-page-subtitle = ݜلہ جمع کریل جُملی اک عوامی طور تل موجود سی سی -0 لھیسن والا ڈیٹا سیٹ مل ٹل ہُونٚݜِتی۔
 sentence =
-    .label = جُملہ
+    .label = جُملہ۔
+sentence-input-placeholder = ݜلہ عوامی جُملہ مُت خلقوں کراں داخل کرہ۔
+small-batch-sentence-input-placeholder = ݜلہ عوامی جُملہ مُت خلقوں کراں داخل کرہ۔
+citation-input-placeholder = تئیں جُملاں مُنٚڈاں حوالہ دے۔ (لازمی)
 citation =
-    .label = حوالہ
-sc-review-write-title = مہ گِھن٘ل جُملی شامِل‌ کرامَیں تُھو؟
+    .label = حوالہ۔
+sc-write-submit-confirm = مہ تصدیق کرانٚت چہ اُو جُملہ <wikipediaLink> عوامی ڈومین والا تھی </wikipediaLink> آں مِگے اس بوئی اکھالئیں یعنی اپلوڈ کرئیں اجازہ تُھو۔
+sc-review-write-title = مہ گھئین جُملی شامِل‌ کرہانٚت؟
+sc-review-small-batch-title = بیکتُوک جُملی گِشے شامل کرانٚتے؟
+new-sentence-rule-1 = <noCopyright> کاپی رائیٹ نیتُھو </noCopyright> پابندیہ <cc0> سی سی -0</cc0>
 new-sentence-rule-2 = 15 لفظؤں نہ کم لفظہ جُملہ مہ ہوں
 new-sentence-rule-3 = صحیح گرامر استعمال کرہ۔
 new-sentence-rule-6 = ڇھاری مُلکاں حرفہ استعمال نیری
