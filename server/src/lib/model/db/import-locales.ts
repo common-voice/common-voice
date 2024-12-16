@@ -245,7 +245,8 @@ const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)',
+    variant_name:
+      'Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)',
     variant_token: 'kbd-Latn-TR-t-kbd-cyrl',
   },
   {
@@ -257,6 +258,146 @@ const VARIANTS: Variant[] = [
     locale_name: 'kbd',
     variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, Сирие)',
     variant_token: 'kbd-Cyrl-SY',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: 'pinayuanan a tjinuvecekadanan (中排灣語)',
+    variant_token: 'pwn-central',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: 'pinayuanan a kinaikacedasan (東排灣語)',
+    variant_token: 'pwn-eastern',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: 'pinayuanan a tjinuvirian (北排灣語)',
+    variant_token: 'pwn-northern',
+  },
+  {
+    locale_name: 'pwn',
+    variant_name: 'pinayuanan a tjinainavaljan (南排灣語)',
+    variant_token: 'pwn-southern',
+  },
+  {
+    locale_name: 'trv',
+    variant_name: 'Kari Seediq Tgdaya (德固達雅賽德克語)',
+    variant_token: 'trv-tgdaya',
+  },
+  {
+    locale_name: 'trv',
+    variant_name: 'Kari Sediq Toda (都達賽德克語)',
+    variant_token: 'trv-teuda',
+  },
+  {
+    locale_name: 'trv',
+    variant_name: 'Kari Seejiq Truku (德鹿谷賽德克語)',
+    variant_token: 'trv-truku',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: 'keʼ na Squliq Tayal (賽考利克泰雅語)',
+    variant_token: 'tay-squliq',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: 'kay na Sʼuli Tayan (澤敖利泰雅語)',
+    variant_token: 'tay-ciuli',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: 'keʼ na Cʼoli Klesan Tayal (宜蘭澤敖利泰雅語)',
+    variant_token: 'tay-klesan',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: 'ke na Cquliq Tayal (四季泰雅語)',
+    variant_token: 'tay-cquliq',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: 'kayiʼ na Matuʼuwal (汶水泰雅語)',
+    variant_token: 'tay-matuuwal',
+  },
+  {
+    locale_name: 'tay',
+    variant_name: 'keʼ na Pingawan (萬大泰雅語)',
+    variant_token: 'tay-pingawan',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: 'Ngodradrekai ka so Taromak (東魯凱語)',
+    variant_token: 'dru-taromak',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: 'Ngudradreadrekadhane ka Veday (霧臺魯凱語)',
+    variant_token: 'dru-veday',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: 'Ngudradreadrekadha ka Tailailabuwana (大武魯凱語)',
+    variant_token: 'dru-labuane',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: 'ʼakoʼoponohae (萬山語)',
+    variant_token: 'dru-oponoho',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: 'bakani Kongadavane (多納語)',
+    variant_token: 'dru-kunga',
+  },
+  {
+    locale_name: 'dru',
+    variant_name: 'teldredrekane (茂林語)',
+    variant_token: 'dru-teldreka',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: 'MalasTakitudu (卓群布農語)',
+    variant_token: 'bnn-takitudu',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: 'MalasTakibakha (卡群布農語)',
+    variant_token: 'bnn-bakha',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: 'MalasʼIsbubukun (郡群布農語)',
+    variant_token: 'bnn-bubukun',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: 'MalasTakbanuaz (巒群布農語)',
+    variant_token: 'bnn-banuaz',
+  },
+  {
+    locale_name: 'bnn',
+    variant_name: 'MalasTakivatan (丹群布農語)',
+    variant_token: 'bnn-vatan',
+  },
+  {
+    locale_name: 'nan-tw',
+    variant_name: '白話字 (POJ)',
+    variant_token: 'nan-TW-pehoeji',
+  },
+  {
+    locale_name: 'nan-tw',
+    variant_name: '台羅 (TL)',
+    variant_token: 'nan-TW-tailo',
+  },
+  {
+    locale_name: 'var',
+    variant_name: 'Warihío (Guarijío de la sierra)',
+    variant_token: 'var-sierra',
+  },
+  {
+    locale_name: 'var',
+    variant_name: 'Makurawe (Guarijío del río)',
+    variant_token: 'var-delrio',
   },
 ]
 
@@ -466,8 +607,10 @@ export async function importLocales() {
       const hasEnoughSentences =
         allLanguages[language.code]?.hasEnoughSentences || false
 
-      //if a lang has clips, consider it contributable
-      const is_contributable = languagesWithClips[language.code]
+      // if a lang is set to be contributable or has clips, consider it contributable
+      const is_contributable = allLanguages[language.code].is_contributable
+        ? 1
+        : languagesWithClips[language.code]
         ? 1
         : isTranslated && hasEnoughSentences // no prev clips, check translated and enough sentences
         ? 1

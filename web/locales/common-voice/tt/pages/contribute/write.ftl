@@ -78,3 +78,11 @@ too-many-files = Артык күп файл
 ## SMALL BATCH SUBMISSION
 
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
+# menu item
+add-sentences = Җөмләләр өстәү
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

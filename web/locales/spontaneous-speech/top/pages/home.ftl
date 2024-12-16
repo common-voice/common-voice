@@ -1,38 +1,38 @@
 ## Home page
 
-welcome-to-spontaneous-speech = Tlan chitanitantit nak Stujua Tachiwin.
+welcome-to-spontaneous-speech = Tlan chitanitantit nak Kintachiwinkán
 # <br></br> represents a newline break
-wall-of-text = Common Voice ama tlaway akgtum sasti limaskujun aná nikú namakí nikulá tachiwinán kristianos, jaé nakamagktaya tikú tawilana nak laktsú pulataman aná niku lakapala namamakxtumí tatsokgni wajaé natamaklakaskín watikú putsananpulay chu natatlaway lak sasti lata tuku.
-why-spontaneous-speech = Wana tlawau jaé xasasti liskujni cha Stujua Tachiwín?
+wall-of-text = Common Voice tlawama xlimakgtuy xlakan web xpalakata namamakxtumi xatachiwín. Lakapala nakamakgatsiní lhuwa pulataman xatipakgatsi kakatsinin chu titakgalhtawakganit naka makwaní.
+why-spontaneous-speech = Wana tlawaw xamasuy xa Kintachiwín?
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = Tamakglakaskín akxní <mark>tachiwinán kristianos lata xla takatsí</mark>, lata xankgalhin tachiwinankgo.
+why-card-1-text = Tlan makglakaskinkán akxní <mark>tachiwinán kristianos lata xlakan takatsí</mark>, tlan takaxmati akxni tanks chiwinankán.
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = Lutlan tamakgtayan aná nikú masima latá maklakaskinkán tu kana xatachiwín, la axkní <mark>talakgpalí tachiwín axkní chiwinamanau</mark>.
+why-card-2-text = Snun makuan akxni katsinikán tachiwín, lau ma <mark>akxni tipatuy tachiwín lichiwinama</mark>.
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = Lutlan tamakgtayan nak xatachiwín aná nikú <mark>nilhuwa xatatsokgni</mark> (aná nikú lakxtum wan putum maski tanú tatsokgnit maski nisnún wi xatatsokgní xalamakgatsa).
-how-spontaneous-speech-works = Nikula li taxtuy jaé xa Stujua Tachiwín?
+why-card-3-text = Snun makuan akxni wi lhuwa tachiwín <mark>aktsú tatsokgni</mark> (nikulá tipakgatsi chiwinankán nachuná xatachiwín nema ni tatsokgni).
+how-spontaneous-speech-works = Nikula makglakaskinkán Kintachiwinkán?
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Takgalhskininat</mark>
 prompt-bubble-subtitle = Nak kamasiniyán akgtum takgalhskinit
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Kgalhtinankán</mark>
-respond-bubble-subtitle = Kakgalhtinanti xalatá wix min tapuwan
+respond-bubble-subtitle = Kakgalhtinanti la wix min tapuwan
 # text wrapped in <mark></mark> will have a blue background
-transcribe-bubble-title = <mark>Katsokgtilha</mark>
-transcribe-bubble-subtitle = Katsokgti tuku kgaxpatti la'ta tuku talichiwinankgol
+transcribe-bubble-title = <mark>Kalakatsokgtilha</mark>
+transcribe-bubble-subtitle = Katsokgti tuku kgaxpatti nak xatalhkán tachiwín.
 # text wrapped in <mark></mark> will have a blue background
-check-bubble-title = <mark>Putsanankan</mark>
-check-bubble-subtitle = Kalakaputsanánti nak xa tatsokgni ixlakata tatalakxtumí nak tuku wankgoy
+check-bubble-title = <mark>Kalakkakxilhti</mark>
+check-bubble-subtitle = Kalakkakxilhti pala chuná xatalakgatsokgni makikanit.
 # text wrapped in <mark></mark> will have a blue background
-data-bubble-title = <mark>Datos</mark>
-data-bubble-subtitle = Magkatsinankán tu tamakxtumikgonit nak xatatsojni chali chalí
+data-bubble-title = <mark>Takgatsin</mark>
+data-bubble-subtitle = Namasiyaw pajsú pajsú xatakgatsin.
 contact-us = Kakinka tachiwinánti
-contact-us-title = Kana akgpuntinita nakinkamakgtayaya?
+contact-us-title = Kin kamaktayaputuna?
 contact-us-email = Correo:  <emailFragment>commonvoice@mozilla.com</emailFragment>
-signup-form-title = Wix kin katamakatsiya xalitamakxtumit ana niku liskújnitou Beta nak Stujua Tachiwín nak Common Voice?
-signup-terms = Akxni pitakglh natlawaya nak "Kamalkgacha xatalakchin aná nikú ktapakgsi kin correo" matlaniya <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu <privacyLink>latá natamakgtakalha wekg tukú lichiwinanti</privacyLink>, na chuná namaxkía licencia Mozilla ixlakata namalakgachaniyán xasasti takgatsín nikulá napakgtanuya nak Stujua Tachiwín nak Common Voice.
+signup-form-title = Wix taskujpat Beta nak Kintachiwinkán nak Common Voice?
+signup-terms = Akxni pitakglh natlawaya nak "Kamalakgachipi xatakatsin nak kin correo" wix matlaniya kin taskujukán <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu <privacyLink>latá natamakgtakalha wekg tukú lichiwinanti</privacyLink>, nachuná namaxkí talakaskinit Mozilla chu tlan namalakgacha takatsin la tlawamaka ja'e taskuju xa Kintachiwinkán nak Common Voice.
 signup-input-placeholder = Correo
-signup-button-value = Kamalkgacha xatalakchin aná nikú ktapakgsi kin correo
+signup-button-value = Kamalakgachipi xatakatsin nak kin correo
 footer-text-privacy = <privacyLink>latá natamakgtakalha wekg tukú klichiwinalh</privacyLink>
 footer-text-terms = <termsLink>xalistalanit nikulá namaskujuyá</termsLink>
 footer-text-cookies = <cookiesLink>Cookies<cookiesLink>

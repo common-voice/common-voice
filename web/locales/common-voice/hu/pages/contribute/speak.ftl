@@ -71,6 +71,6 @@ answer-questions-menu-item-tooltip = Vegye fel magát, hogy kérdésekre és ké
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = Beszédbeállítások menü
+speak-contribute-menu-aria-label = Beszéljen menü lehetőségei
 read-sentences-menu-item-aria-label = A közösség által beküldött mondatok felolvasása különböző nyelveken
 answer-questions-menu-item-aria-label = Küldjön be új kérdéseket és válaszokat, hogy a közösség felolvassa őket, és válaszoljon rájuk
