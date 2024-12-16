@@ -50,3 +50,10 @@ sc-review-instruction = چیک کېرِؤ<icon></icon>ووئی باتِیَنی 
 sc-review-rules-title = جُملہ ہدایاتہ فُورہ بِمانا؟
 sc-review-empty-state = فِلیالن اسہ باتِیہ چیک کېرِکہ ݭڅی کی جُملہ نہ تھنَئیت۔
 report-sc-different-language = مختلف باتی
+report-sc-different-language-detail = ووئی تسہ باتِیہ پېنہ مختلف تھنی کِیَنہ زی آں جائزہ گومېم بہ۔
+sentences-fetch-error = جُملا رت کھائیکہ ݭڅی یہ خرابی پُراں آئی
+review-error = اسہ جُملانہ جائزہ گوئیکہ ݭڅی یہ غلطی پُراں آئی
+review-error-rate-limit-exceeded = تُو لَؤ تادی ئے څُوئی تنَئیس۔ مېرَبانی کېری جُملانہ جائزہ گوئیکہ ݭڅی اِپېک وخت کھاوَہ تہ ووئی یقینی ݫُپان دِیَؤ زی ووی سئ تھنہ۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = امہ یکَتہ ڈَڈل تبدیلی کېرِمېک
+sc-redirect-page-subtitle-1 = جُملہ نامہ جمع کېرِݪہ بُنیادی کامن وائس پلېٹ فارماں څُوئی تنہ۔ نوری مےکامن وائیسہ یہ جُملہ<writeURL>لِکِی بمانېؤ</writeURL>یہ جُملہ<reviewURL> جائزہ گوو</reviewURL>یہ جُملہ کامن وائسہ جمع کېری بمانېؤ۔
