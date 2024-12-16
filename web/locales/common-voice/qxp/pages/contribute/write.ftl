@@ -90,9 +90,53 @@ bulk-upload-failed-toast = Q'ipiy pantasqa, wakmanta yanay.
 bulk-submission-success-header = Thank you for contributing your bulk submission!
 bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
 upload-more-btn-text = Aswan rimaykunata q'ipiriy?
+file-invalid-type = Invalid file
+file-too-large = File is too large
+file-too-small = File is too small
+too-many-files = Too many files
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Ashka llaqtaq kayninpi rimaykunata yapay
+multiple-sentences-error = Hukllata apachinapaqqa manam ashka rimaykunata tawqawaqchu
+exceeds-small-batch-limit-error = Manam 1000 rimaykunamanta aswan rimaykunata apachiyta atiwaqchu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 minute
+       *[other] Rate limit exceeded. Try again in { $retryLimit } minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceeded. Try again in 1 second
+       *[other] Rate limit exceeded. Try again in { $retryLimit } seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
 small-batch-sentences-rule-1 = “Ima rimaykunatataq yapayman?” kamachikuykunata tupariy
 small-batch-sentences-rule-2 = Sapa wachupi huk rimayta yapay
 small-batch-sentences-rule-3 = Rimaykunata huk wachumankama rakiy “Yaykuy” utaq “Kutichiy” hukllata ñit'ispa
