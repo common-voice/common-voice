@@ -46,6 +46,13 @@ report-title = رپوٹ ݪِؤ
 report-ask = اتے جُملا مِنزی کریَک مسائل مېنہ پُراں آئیت؟
 report-offensive-language = جارحانہ باتی
 report-offensive-language-detail = جُملانہ منزے بےعزت کېرَنی یا جارحانہ باتی تھنی۔
+report-grammar-or-spelling = گرامر/ ہجانی غلطی
+report-grammar-or-spelling-detail = جُملا گرامر یا املا نی غلطی تھنی۔
+report-different-language = مختلف باتی
+report-different-language-detail = ووئی اسہ باتِیہ پېنہ بېل تھنی زی آں ݪِمېمے۔
+report-difficult-pronounce = تلفظ کېراوَہ گران
+report-difficult-pronounce-detail = اتے اِشِلی الفاظ یا جُملہ تھمېت زِی تسُو ژواوَہ یا تلفظ کېراوَہ گران تھِمان۔
+report-offensive-speech = جارحانہ تقریر
 
 ## Speak & Listen Shortcuts
 
