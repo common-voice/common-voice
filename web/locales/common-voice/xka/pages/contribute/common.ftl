@@ -94,6 +94,7 @@ contribution-misreadings-example-8-title = بھونرا شور مݭ بل
 contribution-varying-pronunciations-title = باڑ تلفظ
 contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآݭ
 contribution-varying-pronunciations-example-2-title = تسے تھیر رسہ آس
+contribution-background-voices-description-extended = کیرا ریکاڈنگ ایٹھیت یا اوران بیل تہ مکھے ختم تھا کیتھک ایں رو پاک نہ بوجیل ݭات تہ
 contribution-background-voices-example-1-title = ٹراسک کہ گن ڈیناسور
 contribution-background-voices-example-1-explanation = تو یون آں?
 contribution-volume-title = تراٹ
