@@ -9,6 +9,8 @@ validate-readings = منیل توثیق تھا
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = منیل اَ توثیق تھا تہ نقلاؘ آل لاَ
+validate-readings-menu-item-tooltip = تانی جب می فلانکیہ ریکاڈ بیگال منیل اؘ توثیق تھا
+review-transcriptions-menu-item-tooltip = تانی جب می فلانکیہ مک دا جمع تھاگیل نقلاؘ آل لاؘ
 
 ## MENU ITEM ARIA LABELS
 
