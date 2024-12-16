@@ -94,3 +94,4 @@ contribution-misreadings-example-8-title = بھونرا شور مݭ بل
 contribution-varying-pronunciations-title = باڑ تلفظ
 contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآݭ
 contribution-varying-pronunciations-example-2-title = تسے تھیر رسہ آس
+contribution-volume-title = تراٹ
