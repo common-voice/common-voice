@@ -47,8 +47,6 @@ finance = Финанс
 # Sentence Domain dropdown option
 service_retail = ӏуэхутхьэбзэ
 # Sentence Domain dropdown option
-general = { "" }
-# Sentence Domain dropdown option
 healthcare = Узыншагъэ хъумэн
 # Sentence Domain dropdown option
 history_law_government = Тхыдэ, хабзэ икӀи жылагъуэ Ӏуэху
