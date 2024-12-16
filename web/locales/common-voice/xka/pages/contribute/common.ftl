@@ -1,4 +1,4 @@
-action-click = ٹسار
+action-click = اوں کلپ میی اوبوٹ جولال این
 action-tap = تراپ
 contribute = امداد
 review = نالیل
@@ -17,6 +17,7 @@ contribute-more =
        *[other] دی اےۡ کیر راڈ با
     }
 speak-empty-state-cta = جملہ ترال مےۡمدد تہ۔
+speak-loading-error = ایس تو سہ جولالہ گیبی نہ لاد۔۔پتا دیراںمہ پݭ۔
 record-button-label = تانی تراٹ ریکاٹ تہ
 share-title-new = دی اوازونی بیلڑیل  می اسے مدد تہ
 keep-track-profile = اپان دی تانی ترقی اےۡ اّپروفاییل رݭ
