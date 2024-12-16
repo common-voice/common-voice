@@ -78,4 +78,4 @@ contribution-misreadings-example-5-title = بے چہ گینل تھے درتھ ب
 contribution-misreadings-example-6-explanation = اسان تھ اشل پکار
 contribution-misreadings-example-8-title = بھونرا شور مݭ بل
 contribution-varying-pronunciations-title = باڑ تلفظ
-contribution-varying-pronunciations-description = ݭیݭ رل تا بیریٹ ݭاݭ
+contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآݭ
