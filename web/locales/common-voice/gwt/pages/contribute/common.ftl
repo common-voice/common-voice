@@ -71,9 +71,21 @@ shortcut-skip = ایس
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = آر
 shortcut-record-toggle-label = رکاٹ/ وُٹا
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = کِلپہ دوبارہ ریکاٹ کېرہ
+shortcut-discard-ongoing-recording = اِی ایس سی
+shortcut-discard-ongoing-recording-label = جاری ریکاٹہ رد کېرہ
+shortcut-submit = پتہ گِرَئیک
+shortcut-submit-label = کِلپسہ جمع کېرَوا
+request-language-text = نوری مِزان کامن وائیسہ تونی باتی نہ تان گئ؟
+request-language-button = یَہ باتِیاں درخاست کېرَہ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
+shortcut-play-toggle-label = چلا/ وُٹا
 
 ## Validation criteria
 
