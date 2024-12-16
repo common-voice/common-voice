@@ -288,3 +288,10 @@ not-available-abbreviation = موجود نانت
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ما کہ </mark><br/><mark>چھیں مددیں ضرولات تھی</mark>۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = موادیں سیٹ ساتوگیں کیر تے پنج بیش ما زیات جِباٞں ڈلاٞ کہ ران بھاگ داٞگیں کیر تقریباً داٞش لٞک ڈالر اٞ کاٞل مئی خرچہ ہواٞنت، اینیں کیر اُوں تام ما رہ انحصار کٞرنت۔ <strong>لخہ تھہ ایں موادیں قدر کٞرنش تے آج چندہ داٞ</strong>۔
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>تانی تحقیقیں کیر سی وی</mark><br/><mark> استمال کٞرنتاٞ؟</mark>
+languages-donate-banner-cta-explanation = کامن وائس کٞہ چنداٞ دہ مالی مداٞد میلا ہوئینت۔ مٞہ تعلیمی اداٞراٞ، سول سوسائٹی تے تحقیق والاٞ سہ تعاون کٞروگ خوش۔ کامن وائس آں استعمال باٞ پانسہ تھو، پرہ آٞس کہ بھاگ داگیں کیر تے امی فائل ساتوگیں کیر مالی مداٞد کٞروگ باٞر فائدہ من تھو۔
+localization-select =
+    .label = جِب منتخب کٞر/مقیمی
