@@ -14,3 +14,5 @@ review-transcriptions-menu-item-tooltip = تانی جب می فلانکیہ مک
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = بوجیل اؘ اختیارات اؘ مینو
+validate-readings-menu-item-aria-label = درام اؘ خلقمہ مک دا جمع تھاگیل مینلاؘ توثیق تھا
