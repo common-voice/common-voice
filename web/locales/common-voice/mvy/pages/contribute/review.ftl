@@ -48,14 +48,14 @@ sc-criteria-item-6 = کہ تیگے گتہ  نہالَئیں جُملی بارز�
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = نہال تہ<icon></icon> ݜُو زِباں حساب ہِن صحیح جُملہ تھی ائ؟
 sc-review-rules-title = نہالہ تہ اُو جُملہ دیل ہدایاتوںمطابق تھی ائی؟
-sc-review-empty-state = ݜُو وخ ݜس ژِبہ مہ دُوہیڑی نھالَیں یاں کریا جُملی نی تھی۔
-report-sc-different-language = مُتی ژیب
-report-sc-different-language-detail = دُوہیڑی نھالَیں ژِبہ نہ اُو جُدا ژِبہ مہ لِکژی تھی۔
-sentences-fetch-error = جُملی څؤں مُوٹِھن اَیں مہ غلطی اوک ایگے۔
-review-error = ݜس جُملہ دُوہیڑی نھالَیں مہ غلطی اوک ای تھی۔
-review-error-rate-limit-exceeded = تُوچو تیزی ہُوگا۔ ہِلاک ارام لا لک جُملہ دُوہیڑی نھالہ گل لہ ݜُو بال پکی ہو چے اَو صحیح تھی۔
+sc-review-empty-state = ݜُو وخ ݜس زِبہ مہ گتہ  نہالَئیں کراں جُملی نی تھی۔
+report-sc-different-language = مُئیت زِیب
+report-sc-different-language-detail = مہ چہ گی نہالانٚت، اُو تس نہ مُئیت زب مہ لکزل تھی۔
+sentences-fetch-error = جُملی څؤں مُوئیٹھوں اَئیں مہ غلطی اوک ہُونٚتھی۔
+review-error = ݜس جُملہ گتہ نہالَئیں مہ غلطی اوک ہُوں تھی۔
+review-error-rate-limit-exceeded = توۡ څئ تیز روان تُھو۔ مھیربانی کرے ہلاکو وخ ہرے جملہ گتہ نہالہ چہ گی غلطی نی دھرے۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = بے ہُویں گَھیں بدلی کرَیں مہ تھو۔
+sc-redirect-page-title = بے ہِئیں ہلاکو گھئیں بدلی کرانتے۔
 sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو پُویں عام اوازاں پلیٹ فارمے روان تُھو۔ تُو ہُویں ایکجُملہ <writeURL>لِکَیں </writeURL>تُھو گتہ یا <reviewURL>دُوہیڑی نھالَیں</reviewURL>تھو گتہ  آں تے عام اواز مہ جمع کرَیں تھو۔
 sc-redirect-page-subtitle-2 = <matrixLink>مېترکس</matrixLink>،</matrixLink>ڈِسکورس</discourseLink>یا<emailLink>ای میل</emailLink> لا زؤں نہ تپُوس کری۔
 # menu item
