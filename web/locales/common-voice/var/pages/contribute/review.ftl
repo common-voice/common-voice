@@ -1,7 +1,7 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Iyéta pehí kitu'ímo ihtána na'wésari naiwámia. Kawé simiká ne'néme <profileLink>wa'á perfireči</profileLink>  pa'ké tu'taí pirípi o we'ká na'wésari na'iwámia.
-sc-review-title = Rebisandomia pu'ká orasioni
+sc-review-lang-not-selected = Iyéta pehí kitu'ímo ihtána nawésari naiwámia. Kawé simiká ne'néme <profileLink>wa'á perfireči</profileLink>  pa'ké tu'taí pirípi o we'ká nawésari na'iwámia.
+sc-review-title = Rewisaróamia pu'ká orasióni
 sc-review-loading = Umatoteniame orasioni pu'ká programači
 sc-review-select-language = Usá pii nawesari nenémičó orasioné
 sc-review-no-sentences = Kite waasi o'rasioni  pu'ká ne'neniame. <addLink> Na'peniame epečé o'rasioni</addLink>
