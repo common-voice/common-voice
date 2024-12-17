@@ -39,6 +39,13 @@ review-delete-recordings = می ریکارڈنگ ڈیلیٹ تِھیا۔
 review-terms = کامن وائس اےْ استعمال تھے څھوْس اسے <termsLink> شرائط </termsLink> گہ <privacyLink> رازداری نوٹس سے اتفاق تھینَت </privacyLink>
 terms-agree = موْ متفِقنُس
 terms-disagree = موْ متفِق نانُس۔
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تومہ صوتی کلپس عطیہ تھونے کِرِیا څھے شکریہ ǃ
+first-cta-subtitle-text = اسوڑ توموْ بارَد رزی څھوْس ڈویلپروڑ شِناک کہ جامع ٹیکنالوجی سنون دہ امداد تُھویت۔
+why-donate = تُس کیْہ کھوجِینوئے؟
+why-donate-explanation-1 = آ معلومات دون اختیاری نیْ، څھوْ اسہ وخ دہ ٹل تھون پکارنَت چہ څھوڑ ہسنتِیا  بی۔ کرہ بیْس ڈیٹاسیٹ جاری تھوݨَس توْ بیْس تمام ذاتی معلومات محفوظ رڇھوݨَس۔ آں آ موْڙِجیْ یقین تھوݨَس چہ څھے نُوم گہ ای میل، آبادیاتی معلومات، عمر گہ جنسے بارد منسلک نانیْ۔
+add-information-button = معلومات ٹل تِھیا۔
+continue-speaking-button = نیں شکریہ، موْݜ کال جاری تِھیا۔
 
 ## MENU ITEM TOOLTIPS
 
