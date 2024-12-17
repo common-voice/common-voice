@@ -56,6 +56,7 @@ review-error = اوں جب نالیل می اؘ شہ کھچہ یال۔
 review-error-rate-limit-exceeded = بہ باڑ شور ایں اتیش دیماس بہ اوں جولال یقینی تھ آ رو کھچہ این اؘ کو نہ
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بہ گین تبدلی گیال رل ایں
-sc-redirect-page-subtitle-1 = بہ باڑ شور ایں اتیش دیماس بہ اوں جولال یقینی تھ آ رو کھچہ این اؘ کو نہ
+sc-redirect-page-subtitle-1 = جولال جمع تھال والہ کامن وائس کاں ٹپ این تو تھتی مک تھ روان این
+sc-redirect-page-subtitle-2 = اسان دا سوال تپوس تھ
 # menu item
 review-sentences = نالیگیال جولال
