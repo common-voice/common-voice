@@ -23,6 +23,11 @@ share-common-voice = میلال آواز چاچا
 review-instruction = پکار یال تھ کلپس اندازہ گی تھ دیرا ریکاڈ تھا
 record-submit-tooltip = تیار بایل رل سمٹا۔
 clips-uploaded = کلپس اوکالیل
+record-abort-title = اول ریکاڈنگ ختم تھ
+record-abort-text = تی بایل ملطب اوں ا تو تانی ترقی ختم توں
+record-abort-submit = کلپس جمع تھا
+record-abort-continue = ریکاڈنگ ختم۔
+record-abort-delete = درتھ نکھی کلپس ختم تھ
 
 ## MENU ITEM TOOLTIPS
 

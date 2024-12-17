@@ -129,6 +129,7 @@ contribution-varying-pronunciations-example-2-explanation = انگریزیا م�
 contribution-background-noise-title = شن پت آؤؤ
 contribution-background-noise-description = کیرا ریکارڈنگ ایٹیھیت یا اوران بیل تے مکھےختم تھاکتیک ایں سو صفا نہ بوجیل ݭات تہا
 contribution-background-noise-description-extended = کیرا ریکاڈنگ ایٹھیت یا اوران بیل تہ مکھے ختم تھا کیتھک ایں رو پاک نہ بوجیل ݭات تہ
+contribution-background-noise-example-1-fixed-title = شمبور  نوچیریل۔۔۔۔۔۔ٹراسیکہ گھان ڈاینوسور۔۔۔۔۔۔۔۔۔۔کھینس
 contribution-background-noise-example-2-fixed-title = [coughthe Triassic.گھن ڈاینوسار
 contribution-background-noise-example-2-explanation = مناگیلہ اتوں کٹر نہ بج بان
 contribution-background-noise-example-3-fixed-title = گھن ڈآینوسار۔۔۔۔۔۔۔۔۔۔۔ٹراسک اے°
