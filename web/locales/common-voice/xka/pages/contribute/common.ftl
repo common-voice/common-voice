@@ -16,6 +16,7 @@ contribute-more =
         [one] دی      کیر راڈبا
        *[other] دی اےۡ کیر راڈ با
     }
+speak-empty-state = اوں جیب می اساں دی  ریکارڈتھال کیر  دی جولال شوک۔۔۔
 speak-empty-state-cta = جملہ ترال مےۡمدد تہ۔
 speak-loading-error = ایس تو سہ جولالہ گیبی نہ لاد۔۔پتا دیراں مہ پݭ۔
 record-button-label = تانی تراٹ ریکاٹ تہ
