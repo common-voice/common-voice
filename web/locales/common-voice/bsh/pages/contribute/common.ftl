@@ -1,13 +1,13 @@
 action-click = ووسپلہ
 action-tap = ووسپلہ
 contribute = سنہ ستہ
-review = پلݣاستہ
+review = پلݣاہ
 skip = پوتیاستہ
 shortcuts = موٹی
 clips-with-count-pluralized =
     { $count ->
-        [one] او <bold>{ $count }</bold>
-       *[other] ورں <bold>{ $count }</bold>
+        [one] کلیپ <bold>{ $count }</bold>
+       *[other] کلیپ <bold>{ $count }</bold>
     }
 goal-help-recording = تو کامن وائس  <goalPercentage></goalPercentage>ایموستہ ہرگرجارستہ  { $goalValue }ریکاڈ ستہ ترں بدوی اشیستہ تہ کمک کعا
 goal-help-validation = تو کامن وائس<goalPercentage> </goalPercentage>  ہرگرجار{ $goalValue }ݜتل بووارستہ ترں پوڑا ستہ تہ کمک کعا
