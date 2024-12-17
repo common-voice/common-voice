@@ -25,6 +25,7 @@ sc-criteria-item-2 = جولال گرمیٹکلی ٹیک بیدے
 sc-criteria-item-3 = جولال منیل لایق بیدے
 sc-review-empty-state = اوں ٹائم رل اوں می نالیل کیر گیب جولال نان
 report-sc-different-language = اوراک اَجیب
+report-sc-different-language-detail = رو اؘ جب می چوݨگیال این ۔رس دا اوراک این ا مہ گایہ اندازہ گینون تھ
 sentences-fetch-error = اوں جولال می اؘ ورانار مک تھ یال۔
 review-error = اوں جب نالیل می اؘ شہ کھچہ یال۔
 review-error-rate-limit-exceeded = بہ باڑ شور ایں اتیش دیماس بہ اوں جولال یقینی تھ آ رو کھچہ این اؘ کو نہ
