@@ -21,3 +21,9 @@ submit-all-button = بُٹہ جمع تِھیا
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = آ صفحہ استعمال تھون سِڇھہ
+learn-how-to-use-prompts-explanation = جِنیْ گیْ قدرتی شان گیْ جُواب دِیا کچا چہ څھوْس کوئے جُملومجیْ تھوبانَت۔ آ یقینی تھیا چہ څھے جِب قابل حترامِن آ جارحانہ نانیْ
+learn-how-to-use-prompts-guidance = کلک <guidanceLink> ادی </guidanceLink> آ صفحہ استعمال تھونے طریقہ سِڇھونے کِرِیا۔
+learn-how-to-use-transcribe = نقل تھونے طریقہ سِڇھہ
+learn-how-to-use-transcribe-explanation = بالکل اج اسیہ لِکِیا کھاں مُشائے فرجاؤن، بشمول پلیس ہولڈر لفظی کاتھ چہ 'um' یا  'errr'.
+learn-how-to-use-transcribe-guidance = کلک <guidanceLink> ادی </guidanceLink> آ صفحہ استعمال تھونے طریقہ سِڇھونے کِرِیا۔
+learn-how-to-use-check-transcript = نقل چیک تھونے طریقہ سِڇھہ
