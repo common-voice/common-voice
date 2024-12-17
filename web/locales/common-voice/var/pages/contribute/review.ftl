@@ -65,4 +65,4 @@ sc-redirect-page-title = Močiwitéme yoráka werumá kaweintapáka
 sc-redirect-page-subtitle-1 = Sentence Collector ičépači wa'a o'ínia no'kaní wa'á o'inéaniači oíčaka wa'á Common Voice. Ehpéo kawé <writeURL>yotémamu</writeURL> pirípi orasióni.<reviewURL> Re'wisaroa </reviewURL>i'tóčetiame pu'ká orasióni pinéri wa'á Common Voice
 sc-redirect-page-subtitle-2 = Tamó i'natúke <matrixLink>matrix</matrixLink><discourseLink>na'iwániame</discourseLink> o <emailLink>emairíči</emailLink>
 # menu item
-review-sentences = Revisandomia pu'ká orasioni
+review-sentences = Re'wisaróamia pu'ká orasióni

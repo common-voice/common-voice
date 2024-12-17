@@ -1,7 +1,7 @@
-listen = Kepuniame
-listen-subtitle = Taamo kuimitia grabasioni yoraga
-listen-instruction = { $actionType } <playIcon></playIcon> ¿Čeníame pu'ká naewasán waa teka waasi?
-listen-again-instruction = ¡Kaweruma teki yoaremu! <playIcon></playIcon> enčí simitemitia kepuka, kawe amo masítepasa.
+listen = Kepúniame
+listen-subtitle = Tamó kuimítia rawasióni yoráka
+listen-instruction = { $actionType } <playIcon></playIcon> ¿Čeniáme pu'ká naewasa wa'á teká waási?
+listen-again-instruction = ¡Kawéruma tenkí yoáremu! <playIcon></playIcon> enčí simitémitia kepúka, kawé amó masitépasa.
 listen-3rd-time-instruction = Netekamu oka ejempločitia <playIcon></playIcon>, waa yoraka simiteniapu
 listen-last-time-instruction = <playIcon></playIcon> Ihičepu waasi ultimuči ehemplo yoraniame
 listen-empty-state = Yooma teeme iniwae pu'ká ejempločitia taamo rebisandomia, si kawe mania taamo naewasari.
