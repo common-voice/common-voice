@@ -52,6 +52,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد موقرَڑ تِھیا
 cant-decide = فیصلہ نہ تھوبامَس؟
+how-many-per-day = لئی مِݜٹیْ ǃ ہر چھک کچا کلپی؟
+how-many-a-week = لئی مِݜٹیْ ǃ ہر ہفتہ دہ کچا کلپی؟
+which-goal-type = څھوْ موْݜ کال تھینَت،  ݜِݨون کھوشنَت یا بیدہوݩڑ؟
+receiving-emails-info = څھوْ فی الحال ای میل وصول تھونڑ تِیارنَت۔ کاتھ چہ گول ریمائنڈر، می کامن وائس اےْ بارَد پروگرام اپ ڈیٹس گہ نیوز لیٹرز۔
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } کلپس
+       *[other] { $count } کلپس
+    }
+help-share-goal = ۔مُتیْ گہ آوازہ اورڑون دہ اسے امداد تِھیا، تومیْ مقصدے اشتراک تِھیا۔
+confirm-goal = مقصدے توثیق تِھیا
+goal-interval-weekly = ہفتہ واری
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = څھے { $count }کلپو ہر چھکے مقصد{ $type }
 
 ## Goals
 
