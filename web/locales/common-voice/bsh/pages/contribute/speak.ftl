@@ -56,12 +56,16 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = توستہ کوٹہ سنا ستہ کہ شکریہ!
 second-cta-subtitle-text = اہ پروفائل مع، تو توستہ کودیوم تہ اچیں وریا بچی او کٹہ بارا تہ کودیوم کولہ منچاں مع سنا بچی۔
+already-have-an-account = کویاں ستعݩ اہ اکاونٹ اسہ؟<login>اتو ای</login>
 create-profile-button = پروفائل ایپو
+# IMAGE TAGS
+img-alt-success-checkmark = لسہ نݜان
 # menu item
 read-sentences = جملہ ولہ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملہ ولہ، سوالہ ستہ جواب پع
 
 ## MENU ITEM ARIA LABELS
 
