@@ -82,3 +82,18 @@ share-goal = می مقصد شیئر تِھیا۔
 ## Goals
 
 streaks = کِھڇِی
+days =
+    { $count ->
+        [one] دیس
+       *[other] دیزیْ
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکارڈنگی
+    }
+validations =
+    { $count ->
+        [one] توثیق
+       *[other] توثیقہ
+    }
