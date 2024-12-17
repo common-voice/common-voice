@@ -36,6 +36,11 @@ review-rerecord = دوبارہ وکݜا
 review-cancel = سمستا اوتیا
 review-keep-recordings = وکݜاستہ پتہ کشہ
 review-delete-recordings = ایݩستہ وکشیتہ یسہ
+review-terms = ایار کوٹ استعمال کہ تے شا ایموستہ<termsLink> شرائط </termsLink> دے ٹکائستی نوٹس مع اتفاق کوتعݩہ
+terms-agree = ایݩ اتفاق اسہ
+terms-disagree = ایݩ اتفاق نہ اسہ
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تو ستہ کوٹہ وقف کوستہ کہ شکریہ
 create-profile-button = پروفائل ایپو
 # menu item
 read-sentences = جملہ ولہ
