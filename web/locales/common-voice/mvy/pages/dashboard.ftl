@@ -2,7 +2,7 @@
 
 your-languages = تِئیں زِبہ
 toward-next-goal = مُت نخَئیں کِھن٘گی تل۔
-goal-reached = نخ ڇیلی تُھو
+goal-reached = نخ ڇیلی تُھو۔
 clips-you-recorded = تِیں ریکارڈ کریل کٹرو
 clips-you-validated = سئیں کٹرَو چےۡ تُوں منظور کرہ څھے/چھی
 todays-recorded-progress = کٹرو رِکاڈ کرئیں آزُوک/آژُک کریل کام
