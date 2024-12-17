@@ -1,4 +1,4 @@
-listen = اس بوجیل تکیر گیب نہ لات اشبہ پتا اساں پش مربنی
+listen = بوج
 listen-subtitle = آوازم جانل می اسے مدد تھا
 listen-instruction = تین تھتی ٹیکل سیی منیل اؘ
 listen-again-instruction = کیرا تو تیار بیل تو تہ دراں من
@@ -6,6 +6,7 @@ listen-3rd-time-instruction = چیپر نام
 listen-last-time-instruction = اخری اک
 listen-empty-state = اسان دی کلپس ختم بھبو ۔پات تازو تھاتے یا دارں کوشش تھا
 listen-empty-state-variants = اوںنت بھبو اسے جب کلپسہ جب دا اریک اشہ ۔تو اتبری ایں تو تانی جب می ٹیکل نالیل کیر ترتیب انوج تھبو
+listen-loading-error = اس تی بوجیل کیر گیب نہ لات ا شبہ پتا اسان پش مربنی
 listen-abort-title = کلپسہ توثیق ختم تھا
 listen-abort-cancel = توثیق روان تھا
 listen-abort-confirm = توثیق ختم تھا
