@@ -17,6 +17,7 @@ contribute-more =
        *[other] دی اےۡ کیر راڈ با
     }
 speak-empty-state = اوں جیب می اساں دی  ریکارڈتھال کیر  دی جولال شوک۔۔۔
+no-sentences-for-variants = تی جیب جملا مین ین۔تو خوشون تہ،تانی سٹنگ بدلہ۔۔دیر تانی جیب میتانی جولال بیلڑ۔
 speak-empty-state-cta = جملہ ترال مےۡمدد تہ۔
 speak-loading-error = ایس تو سہ جولالہ گیبی نہ لاد۔۔پتا دیراں مہ پݭ۔
 record-button-label = تانی تراٹ ریکاٹ تہ
@@ -121,6 +122,7 @@ contribution-misreadings-example-7-explanation = اصلی متن می اے نا�
 contribution-misreadings-example-8-title = بھونرا شور مݭ بل
 contribution-misreadings-example-8-explanation = کھچ یوپاگاَل ٹیکل
 contribution-varying-pronunciations-title = باڑ تلفظ
+contribution-varying-pronunciations-description = منندر  کلپ اوں جولال د ن قبولیل اوں کھچہ این،ختم نخ رل نہ ایٹیترس تہ اوب تا دنیئ   میقسم قسم تلفظ آین ۔کیم کو تو شید نہکیتساں دا اراک جیب منیل تنا تہ شاباش منا
 contribution-varying-pronunciations-description-extended = دی مکھ تہ تی اوں تسلی بیل او ں منندرہ ہاوں ٹیکل کیرا بی نہ بود۔اپان داشات،کھچہ منون۔ماربینی ان تھا  نہ کاٹا۔لخہ  تو پا دو ایر بیل تھہ تے رس بھاگ رل چھور
 contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآل
 contribution-varying-pronunciations-example-1-explanation = ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔بریٹ ٹیک این۔۔۔اولوک بارل  سیپ دون اں کہ دویم رل
