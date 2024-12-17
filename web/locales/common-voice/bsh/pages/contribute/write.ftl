@@ -155,3 +155,8 @@ transcribe-audio-menu-item-tooltip = شا ستہ ورے تہ آڈیو نقل و�
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیارات ستہ منیو ستراعں
+add-sentences-menu-item-aria-label = بگعام منچاں(کمیونٹی) ولستہ کہ نوئی جملاں سناعں
+review-sentences-menu-item-aria-label = بگعام منچاں(کمیونٹی)وسعݩیستہ موجودہ جملاں نظر ثانی کشیعں
+add-questions-menu-item-aria-label = بگعام منچان (کمیونٹی ) ولستہ او جواب پعستہ کہ نوئی سوال جمع کراعں
+transcribe-audio-menu-item-aria-label = آڈیو نقل وکݜئیستا ستورئی تہ بدل کشیعں
