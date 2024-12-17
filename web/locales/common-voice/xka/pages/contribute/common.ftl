@@ -123,6 +123,7 @@ contribution-misreadings-example-8-explanation = کھچ یوپاگاَل ٹیک�
 contribution-varying-pronunciations-title = باڑ تلفظ
 contribution-varying-pronunciations-description-extended = دی مکھ تہ تی اوں تسلی بیل او ں منندرہ ہاوں ٹیکل کیرا بی نہ بود۔اپان داشات،کھچہ منون۔ماربینی ان تھا  نہ کاٹا۔لخہ  تو پا دو ایر بیل تھہ تے رس بھاگ رل چھور
 contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیریٹ ݭآل
+contribution-varying-pronunciations-example-1-explanation = ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔بریٹ ٹیک این۔۔۔اولوک بارل  سیپ دون اں کہ دویم رل
 contribution-varying-pronunciations-example-2-title = تسے تھیر آیج بیل
 contribution-varying-pronunciations-example-2-explanation = انگریزیا می اکِھٹآ من جون  دییم  با نہ
 contribution-background-noise-title = شن پت آؤؤ

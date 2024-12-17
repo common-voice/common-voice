@@ -15,6 +15,11 @@ record-instruction = جولال دریک آواز می منل باگ رل
 record-stop-instruction = کیرا بل تو
 record-three-more-instruction = بایل کیر ترا
 record-again-instruction = تی اوں دی کلپس ران ریکاڈنگ تھال
+record-again-instruction2 = رس اتو باگ رل رݭ دیرا ریکاڈ تھ
+record-last-instruction = آخری اک
+review-tooltip = بایل ٹائم رل اندازہ گی تے دیرا ریکاڈ تھ
+share-clip = تانی کلپس چاچو
+share-common-voice = میلال آواز چاچا
 
 ## MENU ITEM TOOLTIPS
 
