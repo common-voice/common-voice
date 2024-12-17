@@ -41,6 +41,7 @@ terms-agree = ایݩ اتفاق اسہ
 terms-disagree = ایݩ اتفاق نہ اسہ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تو ستہ کوٹہ وقف کوستہ کہ شکریہ
+first-cta-subtitle-text = تو بارا تہ ایمو ولہتے، جامع ٹکنالوجے ستہ تعمیر و ترقے تہ مدد کولاش
 create-profile-button = پروفائل ایپو
 # menu item
 read-sentences = جملہ ولہ
