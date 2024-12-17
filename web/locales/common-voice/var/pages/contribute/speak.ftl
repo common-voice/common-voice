@@ -1,8 +1,8 @@
-speak = Naósaga
-speak-now = Naosa é ego
-speak-subtitle = Kiaga pile naosali
-record-cta = Oinaga
-record-platform-not-supported = Kainetesa kawe itaperi nulatume
+speak = Naiwá
+speak-now = Naiwá ehpé
+speak-subtitle = Kiáka pirípi nawésari
+record-cta = Oíneka rawaróaka
+record-platform-not-supported = Kaínetesa kawé itapíti nuratiáme
 record-platform-not-supported-desktop = Natiči tekipuwame komputadora kuala netewame wuasi
 record-platform-not-supported-ios-non-safari = Kana kati IOS, SAFARI wa buu, taperi puyačame
 record-must-allow-microphone = Kawehu simitega naosaga micrófonoči
