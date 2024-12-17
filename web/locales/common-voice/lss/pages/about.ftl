@@ -23,6 +23,9 @@ about-voice-validation-subtitle = ٻيا ماڻهون ھن ڪلپنک ويليڊ
 about-dataset-release-title = ڊيٽا سيٽاَک ريليزڪر
 about-dataset-release-subtitle = اسين ڊيٽاسيٽ اَک هر ۳ مھينیم رليز تا ڪريان
 about-subscribe-text = ڪومن وائس آ سين رابطيم هونجڙ چائين تو؟
+about-speak = گهالائي
+about-speak-text = مدد گارا وائس کليپينک پڙھي ڪري هيڪڙي جملي جي بينڪ مان ريڪارڊ ڪن تا
+about-listen-queue = بدڙجي لين
 
 ## Community Playbook Content
 ## What is a language
