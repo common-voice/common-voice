@@ -58,11 +58,11 @@ sc-review-empty-state = Ehpéo pi'čiwáči ki'té ne'néniame pu'ká re'wisar
 report-sc-different-language = Piréči nawésari
 report-sc-different-language-detail = Waátia iyoterepú piréčí nawésari kí no'ó nenéačí
 sentences-fetch-error = Intúre pirípi wekatiáme wa'á re'ewisaróamia iyaniači orasioni
-review-error = Inture piri'pi wekatiame wa'a re'wisaroaniači i'ká orasióni
-review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
+review-error = Intúre pirípi wekatiáme wa'á re'wisaroanči i'ká orasióni
+review-error-rate-limit-exceeded = Umátoka iwéta siminámu. Sipu kuítapi pu'ká re'wisaróamia orasióni,  kawánanereka yoráka kawétiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Močiwite'me yora'ka werumá Ka'weintapaká
-sc-redirect-page-subtitle-1 = Iče'pači wa'a o'inia no'kani wa'a o'ineaniači oičaka wa'a Common Voice. E'peo kawe <writeURL>yótemamu</writeURL> piripi o'rásioni.<reviewURL> Re'wisaroa </reviewURL>i'točetiame pu'ká o'rásioni pi'neri wa'a Common Voice
-sc-redirect-page-subtitle-2 = Támo i'natuke <matrixLink>matrix</matrixLink><discourseLink>na'iwaniame</discourseLink> o <emailLink>emairiči</emailLink>
+sc-redirect-page-title = Močiwitéme yoráka werumá kaweintapáka
+sc-redirect-page-subtitle-1 = Sentence Collector ičépači wa'a o'ínia no'kaní wa'á o'inéaniači oíčaka wa'á Common Voice. Ehpéo kawé <writeURL>yotémamu</writeURL> pirípi orasióni.<reviewURL> Re'wisaroa </reviewURL>i'tóčetiame pu'ká orasióni pinéri wa'á Common Voice
+sc-redirect-page-subtitle-2 = Tamó i'natúke <matrixLink>matrix</matrixLink><discourseLink>na'iwániame</discourseLink> o <emailLink>emairíči</emailLink>
 # menu item
 review-sentences = Revisandomia pu'ká orasioni
