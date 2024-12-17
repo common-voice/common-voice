@@ -151,6 +151,13 @@ add-sentences = کَلاؤ نامہ لُبُسَؤ
 write-contribute-menu-tooltip = کَلاؤ لُبُسَؤ اؤ تسُونہ جائزہ گو، سوالات لُبُسَؤ، آڈیوَہ نقل کېرِؤ
 add-sentences-menu-item-tooltip = تانُو گاݭٹے کَلاؤ لُبُسَؤ
 review-sentences-menu-item-tooltip = تانُو باتِیہ کَلاوَنہ جائزہ گو
+add-questions-menu-item-tooltip = تانُو باتِیَہ کھُد نام لُبُسَؤ
+transcribe-audio-menu-item-tooltip = آڈیو رکاڈِنگہ تانُو گاݭٹے نقل کېرِؤ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیاراتَنہ مېنو لِکِؤ
+add-sentences-menu-item-aria-label = برادرِیَنہ ژَئیکہ ݭڅی کَلاؤ لُبُسَؤ
+review-sentences-menu-item-aria-label = برادرِیَنہ بکَنہ جمع کېرَئیسنت موجودہ کَلاؤ نامَنہ جائزہ گو
+add-questions-menu-item-aria-label = برادرِیہ ژَئیکہ اؤ جواب ݪِکہ ݭڅی نونگی کھُد نام ݪِݭَؤ
+transcribe-audio-menu-item-aria-label = آڈیؤ رکاڈِنگہ عبارتے نقل کېرِؤ
