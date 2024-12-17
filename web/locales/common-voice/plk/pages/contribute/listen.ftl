@@ -24,3 +24,5 @@ review-transcriptions-menu-item-tooltip = تومیْ جِب دہ صارفے طر
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = اختِیارو مینو کوْݨ دِیا۔
+validate-readings-menu-item-aria-label = قامے ممبرانو طرفِجیْ جمع تِھیلیْ پڑیارے توثیق تِھیا۔
+review-transcriptions-menu-item-aria-label = سُوݩڇِھیارے کِرِیا ریکارڈ تِھیلہ جُملِو نقلو جائزہ ہرہ۔
