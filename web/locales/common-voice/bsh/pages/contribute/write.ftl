@@ -139,6 +139,9 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = ہدایات تہ عمل کشعں “گجی جملہ اونذَ سنا باتوم؟”
 small-batch-sentences-rule-2 = ہر یال تہ اہ جملہ سنا
 small-batch-sentences-rule-3 = اہ ویں “اتوئ” یا“واپس” وسپلہتہ مع جملہ اہ یال تہ جدا کشی
+small-batch-sentences-rule-4 = 1,000تا ویک جملہ سنا
+small-batch-sentences-rule-5 = څک جملہ اہ(ڈومین ) اہ یار بوستہ آئی
+small-batch-sentences-rule-6 = څک جملاں ستہ ایار حولہ بوستہ اسہ
 
 ## MENU ITEM TOOLTIPS
 
