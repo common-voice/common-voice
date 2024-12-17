@@ -73,6 +73,14 @@ sc-bulk-upload-header = عوامی ڈومېنَنَہ کَلاوَہ<icon></icon
 sc-bulk-upload-instruction = تانُو فائېلہ اتېیاں لِکاشِؤ یا<uploadButton> اپلوڈ کېرِکہ ݭڅی کِلک کېرِؤ</uploadButton>
 sc-bulk-upload-instruction-drop = اپلوڈ کېرِکاں فائېلہ اتے ووڑِؤ
 bulk-upload-additional-information = کېنے زی اسہ فائېلَنہ بارا واری بی زیاتی معلومات ݪِک کوڅِمانېؤ بہ تولے مېرَبانی کېری<emailFragment>commonvoice@mozilla.com</emailFragment> مِنزی رابطہ کېرِؤ
+template-file-additional-information = کېنے زی زیاتی معلومات تھنَئیت بہ زی مے کوڅِمانېوے اسہ فائېلَنہ بارا ݪِؤ زی ٹېمپلېٹہ شامل نہ تھنَئیت بہ، مېرَبانی کېری رابِطہ کېرِؤ<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تانُو فائېلہ اِتېیاں لِکاشی دوبُوڑہ کُوشُش کېرِؤ
+try-upload-again-md = دوبُوڑہ اپلوڈ کېرِکَنی کُوشُش کېرِؤ
+select-file = فائلہ خوخَؤ
+select-file-mobile = اپلوڈ کېرِکہ ݭڅی فائلہ خوخَؤ
+accepted-files = قبُول بِسنت فائلَنی قسم نام: صرف ٹی ایس وی
+minimum-sentences = فائلہ کم از کم کَلاؤ نام: 1000
+maximum-file-size = فائلَنہ زیات نہ زیات سائز:25 ایم بی
 
 ## SMALL BATCH SUBMISSION
 
