@@ -24,6 +24,13 @@ new-sentence-rule-8 = مثالی شان گیْ فطری موْݜ کال (آ جم
 login-instruction-multiple-sentences = <loginLink> لاگ ان </loginLink> یا سائن اپ </loginLink> لا جُملائے ٹل تھونے کِرِیا </loginLink> لاگ ان یا سائن اپ تِھیا۔
 how-to-cite = موْس حوالہ کاتھ دیم؟
 how-to-cite-explanation-bold = یو آر ایل لنک یا کوْمے تام نُوم سے حوالہ دِیا۔
+how-to-cite-explanation = اگر آ څھے تومہ الفاظَن توْ صرف <italicizedText>  توموْ اقتباس</italicizedText> اسوْڑ آ پرجونے ضورڑتِن چہ آ مواد څھوْڑ کُدِیؤ ہشِلُن جہ بیْس چیک تھوبوݨ چہ آ عوامی ڈومین دانوْ آں کاپی رائیٹ اےْ پابندی لاگو نہ بِینیْ۔ حوالو بارَد <guidelinesLink> رہنما اصول </guidelinesLink> ڇکِیا۔
+guidelines = رہنما اصول
+contact-us = رابطہ تِھیا
+add-sentence-success = جُملہ ٹول تِھجِلوْ۔
+add-sentence-error = جُملہ ٹل تھون دہ ڇھا (غلطی)
+required-field = مہربانی تھے آ فیلڈ پُرِیا۔
+single-sentence-submission = اکلوْ جُملہ جمع تِھجِلوْ۔
 
 ## BULK SUBMISSION 
 
