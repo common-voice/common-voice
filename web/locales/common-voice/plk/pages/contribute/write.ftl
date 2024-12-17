@@ -11,6 +11,8 @@ citation-input-placeholder = توموْ جُملائے ماخذے حوالہ د�
 citation =
     .label = حوالہ
 sc-write-submit-confirm = موْس تصدیق تھمَس چہ آ جُملہ <wikipediaLink>عوامی ڈومین </wikipediaLink> اےْ نوْ آں موْڑ آ اپلوڈ تھونے اجازہ نوْ۔
+sc-review-write-title = موْس کَدَا جُملائے ٹل تھوبامَس؟
+sc-review-small-batch-title = لا جُملائے کاتھ ٹل تِھجنَن؟
 
 ## BULK SUBMISSION 
 
