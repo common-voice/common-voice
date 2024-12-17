@@ -16,6 +16,12 @@ new-sentence-rule-1 = <noCopyright>کائی حق اشاعت نہ آئی</noCopyr
 new-sentence-rule-2 = اچاک15فی الفاظ جملہ
 new-sentence-rule-3 = ݜٹل گرامر استعمال کشی
 new-sentence-rule-4 = ݜٹل املا دے اوقاف ااستعمال کشی۔
+new-sentence-rule-5 = کائ لمبر دے خاص حرف دی نئی
+new-sentence-rule-6 = کائ غیر ملکی تہجی دی نئی
+new-sentence-rule-7 = مناسب جوالہ سنا
+new-sentence-rule-8 = مثالی او فطری دے وری وار( اینہ جملہ ولہستہ کہ اسان بوستہ اسہ)
+login-instruction-multiple-sentences = <loginLink>اتو ای</loginLink>یا<loginLink> بہ ائ</loginLink>سکال جملہ سنا ستہ کہ
+how-to-cite = اوݩزہ کائی کہ حوالہ پعلوم؟
 
 ## BULK SUBMISSION 
 
