@@ -49,6 +49,13 @@ add-information-button = معلومات سنا
 continue-speaking-button = نئی شکریہ، ولہستہ جاری کشی
 create-profile-text = توستہ معلومات پتہ کوستہ وگچی با <createProfile> اہ پروفائل ایپا</createProfile>
 thanks-for-voice-toast = توستہ کوٹہ ستہ معلومات کہ بلیوک مہربانی۔
+thanks-for-voice-toast-error = توستہ کوٹہ ستہ معلومات وسعݩا تاں تہ اہ خرابی پیدا بیسہ
+first-cta-gender-select-default-option = اہ نݜانہ نݜان کشی
+first-cta-gender-select-help-text =
+    .label = تیو توستہ جنسہ کائ کہ وضاحت کولاش؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = توستہ کوٹہ سنا ستہ کہ شکریہ!
+second-cta-subtitle-text = اہ پروفائل مع، تو توستہ کودیوم تہ اچیں وریا بچی او کٹہ بارا تہ کودیوم کولہ منچاں مع سنا بچی۔
 create-profile-button = پروفائل ایپو
 # menu item
 read-sentences = جملہ ولہ
