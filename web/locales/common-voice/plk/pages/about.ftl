@@ -62,9 +62,15 @@ about-playbook-how-add-language-translating-content-2 =
       <githubRepoLink>گِٹ ہب دہ نئی جِبے کِرِیا درخواست تِھیا۔ </githubRepoLink>۔<localizationFragment> سائٹ ترجمہ دہ شناکَک گہ ڇکِیا </localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملائے جمع تھون
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جُملائے جمع تھونے کِرِیا اسے گائیڈ لائن ڇکِیا</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    څھوْس تھوبانَت <sentenceCollectorLinkAdd> اپہا جُملائے</sentenceCollectorLinkAdd>
+    یا څھوْس <bulkImportDocsLink> ایْکھاتی امپورٹ تھوبانَت</bulkImportDocsLink>۔
+    کائی بِیا چہ جُملائے بونے صورت دہ<licenseLink> س س0  (یا عوامی ڈومین)</licenseLink> یا څھوْس اکے لِکبانَت۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جُملو مجموعائے شناکَک گہ ڇکِیا </sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = لوکلائزیشن سائٹ سہ کوْم کاتھ تِھینیْ؟
 
 ## How to add sentences
 
