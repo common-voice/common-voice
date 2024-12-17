@@ -95,6 +95,9 @@ about-playbook-how-record-content-5 = <accuracyLink> سُونڇِھیارے مع
 
 ## How to grow language
 
+about-playbook-how-grow-language = بیْس کام وائس جیْ مِݜٹو طریقہ گیْ جِب کاتھ بسکربوݨَس؟
+about-playbook-how-grow-language-content-1 = کامن وائس سہ جگو تنوع اےْ  موقعائے پائد تھون یقیقنی سنینوْ چہ ڈیٹاسیٹ دہ لا جیْ لا جگو خدمت تھی۔ اسا ادا وسائل گہ ٹیمپلیٹس سنینَس کھاں څھوْس استعمال تھوبانَت۔
+about-playbook-how-grow-language-content-2 = واقعات
 
 ## How to validate
 
