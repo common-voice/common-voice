@@ -17,9 +17,14 @@ demo-account = اکاؤنٹ
 ## Demo Account
 
 demo-account-card-header = شراکت دیوکں اکاؤنٹ بوستہ ضروری نہ اسہ حالانکہ اینہ مددگار اسہ
+demo-account-card-body = دڅیاریکݩہ پارہ ایمو فوائد ستہ وضاحت کوتمیش سورہ اینہ دی واضح کوتمیش چہ ایمو گجی معلومات عوامی کوتمیش ۔ ویݩع پتہ لنکس استعمال کشݩع تاکہ شا یاستہ الہ تہ اہ کامن وائس اکاؤنٹ مع شروع کوں بلاسݩع
+demo-account-enter-email =
+    .label = سائن اپ لنک سمستہ کں ایمیل ستراݩع
+demo-account-sign-up = سا ئن اپ لنک سمݩع
 
 ## Demo Contribute
 
+demo-contribute-card-header = کائی تیو توستہ کوٹ سناستہ کں یا سݣستہ کں تیار اسیشہ
 
 ## Demo Dashboard
 

@@ -142,9 +142,16 @@ small-batch-sentences-rule-3 = اہ ویں “اتوئ” یا“واپس” و�
 small-batch-sentences-rule-4 = 1,000تا ویک جملہ سنا
 small-batch-sentences-rule-5 = څک جملہ اہ(ڈومین ) اہ یار بوستہ آئی
 small-batch-sentences-rule-6 = څک جملاں ستہ ایار حولہ بوستہ اسہ
+# menu item
+add-sentences = جملاں سنا
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملاں سنا او دبارہ ایݩش کشی، سولات سنا، آدیو نقل کشی
+add-sentences-menu-item-tooltip = شاستہ ورے تہ جملاں سنا
+review-sentences-menu-item-tooltip = شاستہ ورے تہ جملاں دبارہ ایݩش کشعں
+add-questions-menu-item-tooltip = شا ستہ ورے تہ سوالہ سناعں
+transcribe-audio-menu-item-tooltip = شا ستہ ورے تہ آڈیو نقل وکݜاعں
 
 ## MENU ITEM ARIA LABELS
 
