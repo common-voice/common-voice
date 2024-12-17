@@ -18,7 +18,11 @@ about-voice-contrib-title = کوٹ ستہ تعاون
 about-voice-contrib-subtitle = منچی شامل بوتہت او یاستہ کوٹہ سنا تت
 about-voice-validation-title = کوٹہ ستہ درستگی
 about-voice-validation-subtitle = ور منچی امکی کوٹہ ستہ کلپہ  درستگی کو لہ آی
-about-dataset-release-title = ڈاٹا سیٹ نوکسیستہ
+about-dataset-release-title = ڈاٹا سیٹ جاری
+about-dataset-release-subtitle = ایمو ہر 3ماس تہ ڈیٹا سیٹ جاری کوتہمیش
+about-subscribe-text = عام کوٹہ مع رابطہ تہ پتہ بوستہ اسہ
+about-speak = ولہ/ ولستہ
+about-listen-queue = کار تہ ـ دام
 
 ## Community Playbook Content
 ## What is a language
