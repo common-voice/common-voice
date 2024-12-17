@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] یَہ کَلاوَہ پېنہ { $uploadedSentences } جمع کېران گَئیت
        *[other] { $uploadedSentences }پېنہ{ $totalSentences } کَلاؤ نامہ جمع کېران گہ
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1کَلاوَنہ { $uploadedSentences } جمع بوئیت۔ کِلک کېرِؤ۔  مسترد بِسنت کَلاؤ نامہ داون لوڈ کېرِکہ څی <downloadLink>اتے</downloadLink>
+       *[other] { $uploadedSentences }پېنہ{ $totalSentences } کَلاوَہ جمع کېران دتنہ۔ کِلک کېرِؤ۔مسترد بِسنت کَلاؤ نامہ داون لوڈ کېرِکہ څی <downloadLink>اتے</downloadLink>
+    }
 
 ## MENU ITEM TOOLTIPS
 
