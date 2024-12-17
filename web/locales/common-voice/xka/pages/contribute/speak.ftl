@@ -28,6 +28,11 @@ record-abort-text = تی بایل ملطب اوں ا تو تانی ترقی خت
 record-abort-submit = کلپس جمع تھا
 record-abort-continue = ریکاڈنگ ختم۔
 record-abort-delete = درتھ نکھی کلپس ختم تھ
+review-aborted = دیرم ملک اپلوڈ تھا تو تانی ریکاڈنگ ختم تھو اؘ۔
+review-submit-title = اندازہ گی تھ جمع تھا۔
+review-submit-msg = ریکاڈنگ تھال کیر مربنی۔تپہ  چپر تانی کلپس نالا تہ جمع تھ
+review-recording = نالیل
+review-rerecord = دیکاڈ
 
 ## MENU ITEM TOOLTIPS
 

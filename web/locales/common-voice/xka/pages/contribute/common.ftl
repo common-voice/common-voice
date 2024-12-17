@@ -134,6 +134,7 @@ contribution-background-noise-example-2-fixed-title = [coughthe Triassic.گھن 
 contribution-background-noise-example-2-explanation = مناگیلہ اتوں کٹر نہ بج بان
 contribution-background-noise-example-3-fixed-title = گھن ڈآینوسار۔۔۔۔۔۔۔۔۔۔۔ٹراسک اے°
 contribution-background-voices-title = ݭن پت آؤؤ
+contribution-background-voices-description = ا خاموش،درپتحبب تیار اینپرہ بہ دی زیتیاوازونے نہ خوشانکاں چوݨیل می نان تےمشین تس لٹؤؤن۔ ک چرے تواوراکتریٹ بوج بون،کلپ تہ دیر ختم تیجون۔کما ٹوی بݫون یا جولال باڑ آݭةں،غلبہ تنکوم پر  اتو نت بون
 contribution-background-voices-description-extended = کیرا ریکاڈنگ ایٹھیت یا اوران بیل تہ مکھے ختم تھا کیتھک ایں رو پاک نہ بوجیل ݭات تہ
 contribution-background-voices-example-1-title = ٹراسک کہ گن ڈیناسور
 contribution-background-voices-example-1-explanation = تو یون آں?
