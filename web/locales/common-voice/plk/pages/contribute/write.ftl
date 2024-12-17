@@ -150,6 +150,14 @@ add-sentences = جُملائے ٹک تِھیا۔
 
 write-contribute-menu-tooltip = جُملائے ٹل تِھیا آں اسݨے جائزہ ہرہ، سوالات ٹل تِھیا، آڈیو نقل تِھیا۔
 add-sentences-menu-item-tooltip = تومیْ جِب دہ جُملائے ٹل تِھیا۔
+review-sentences-menu-item-tooltip = تومیْ جِب دہ جُملو جائزہ ہرہ۔
+add-questions-menu-item-tooltip = تومیْ جِب دہ سوالات ٹل تِھیا۔
+transcribe-audio-menu-item-tooltip = تومیْ جِب دہ آڈیو ریکارڈنگ نقل تِھیا۔
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیاراتو مینو لِکِیا
+add-sentences-menu-item-aria-label = قامے جگو پڑیونے کِرِیا ناں جُملائے ٹل تِھیا۔
+review-sentences-menu-item-aria-label = قامے جگو جمع تھییلہ جُملو جائزہ ہرہ۔
+add-questions-menu-item-aria-label = قامے جگو پڑیون گہ جواب دونَڑ ناں سوالات جمع تھیا۔
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگ متن دہ نقل تِھیا۔
