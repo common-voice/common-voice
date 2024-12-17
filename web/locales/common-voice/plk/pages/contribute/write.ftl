@@ -31,9 +31,55 @@ add-sentence-success = جُملہ ٹول تِھجِلوْ۔
 add-sentence-error = جُملہ ٹل تھون دہ ڇھا (غلطی)
 required-field = مہربانی تھے آ فیلڈ پُرِیا۔
 single-sentence-submission = اکلوْ جُملہ جمع تِھجِلوْ۔
+small-batch-sentence-submission = جُملو لیکھوْ بیچ جمع تِھجِلوْ۔
+bulk-sentence-submission = لا تعدادو جُملائے جمع تھیون
+single-sentence = اکلوْ
+small-batch-sentence = لیکھوْ بیچ
+bulk-sentence = بڑوْ بیچ
+sentence-domain-combobox-label = جُملائے ڈومین
+sentence-domain-select-placeholder = ڇے ڈومین بُجَیش اختیار تِھیا۔ (اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = زراعت گہ خوراک
+# Sentence Domain dropdown option
+automotive_transport = آٹوموٹو گہ ٹرانسپورٹ
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+service_retail = سروس گہ ریٹیل
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = ہیلتھ کیئر
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون گہ حُکمت
+# Sentence Domain dropdown option
+language_fundamentals = جِبے بُنیادہ اصول (مثال گیْ ہندسائے، حرفی، رقم)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا گہ تفریح
+# Sentence Domain dropdown option
+nature_environment = فطرت گہ ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبرہ گہ حالات حاضرہ
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی گہ روبوٹکس
+sentence-variant-select-label = جُملائےب تغیّر
+sentence-variant-select-placeholder = ایْک قسم منتخب تِھیا (اختیاری)
+sentence-variant-select-multiple-variants = عام جِب/بسکیْ متغیّرات
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = عوامی ڈومین اےْ جُملائے اپ لوڈ <icon></icon> تِھیا۔
+sc-bulk-upload-instruction = تومیْ فائل ادی <uploadButton> دَدلِیا یا اپ لوڈ </uploadButton> تھونے کِرِیا کلک تِھیا۔
+sc-bulk-upload-instruction-drop = اپ لوڈ تھونَڑ ادی پھل تِھیا۔
+bulk-upload-additional-information = اگر څھوْس آ فائلے بارَد جو بسکوچیْ معلومات دینَت تو مہربانی تھے رابطہ تِھیا <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اگر څھوْس آ فائلے بارَد بسکوچیْ معلومات دینَت توْ کھاں ٹیمپلیٹ دہ ٹل نانیْ تو مہربانی تھے رابطہ تِھیا۔<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تومیْ فائل ادی اٹے ست دُبار کوشِش تِھیا۔
+try-upload-again-md = ست دُبار اپ لوڈ تھونے کوشِش تِھیا۔
+select-file = فائل منتخب تِھیا
+select-file-mobile = فائل اپ لوڈ تھونَڑ منتخب تِھیا
+accepted-files = فائلے قبول بِلیْ قسم: .tsv صرف
+minimum-sentences = ایک فائل دہ کم از کم 1000 جُملائے۔
 
 ## SMALL BATCH SUBMISSION
 
