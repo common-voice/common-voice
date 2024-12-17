@@ -107,6 +107,9 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی سنِجہ۔ <
 
 ## How to validate
 
+about-playbook-how-validate = موْس کاتھ لڇھبامَس چہ صوتی کلپ منظور تھونُن یا نیں؟
+about-playbook-how-validate-content-1 = اگر څھوْس <strong>سیݨو کوْݨ دِیا </strong> آں <strong> سیݨو لڇِھ بانَت </strong>، تو عام شان گیْ <strong>منظوری دون مِݜٹِن </strong>
+about-playbook-how-validate-content-2 = <strong> ادا کلپس رَد نی تِھیا کُدی موْݜ تِھیکے ایْک لہجانوْ کھاں څھے تومو سے مختلفُن </strong>آ آوازے شناخے کِرِیا غورانوْ آں ہر جیئے کِرِیا مِݜٹُن۔
 
 ## How to access dataset
 
