@@ -30,6 +30,9 @@ add-sentence-success = جملہ وسعݩیہ
 add-sentence-error = جملہ سنا ستہ تہ خرابی
 required-field = مہربانی کہ تے اینہ فیلڈ پریک کشی
 single-sentence-submission = اہ جملہ سعݩاستہ
+small-batch-sentence-submission = لوکی جملہ سعݩستہ
+bulk-sentence-submission = سکال تعدادہ ستہ جملہ سعݩواستہ
+single-sentence = کیوع
 
 ## BULK SUBMISSION 
 
