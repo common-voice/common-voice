@@ -87,9 +87,17 @@ sc-bulk-submit-confirm = اوزہ تصدیق کوتوم اومنی جملہ<wiki
 bulk-upload-success-toast = سکال جملہ پالو تعہ
 bulk-upload-failed-toast = پلوتعستہ اوتینہ، مہربانی کہ دی ابل کشی
 bulk-submission-success-header = سکال وسعاݩستہ تہ تعاون کعستہ کہ شکریہ
+bulk-submission-success-subheader = شا کامن وائس (عام کوٹ) ایموستہ ہر گلجار ستہ ہدف پورا کوستہ تہ دوئ وکݜا تعں
+upload-more-btn-text = اچا دی جملہ پلوتعں؟
+file-invalid-type = غلط فائیل
+file-too-large = فائل بلیوک الہ اسہ
+file-too-small = فائیل بلیوک لوکہ اسہ
+too-many-files = بلیوک سکال فائل
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>سکال عوامی ڈومینہ ستہ جملہ سناعں
 
 ## MENU ITEM TOOLTIPS
 
