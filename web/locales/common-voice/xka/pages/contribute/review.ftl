@@ -43,6 +43,7 @@ sc-criteria-item-1 = جولال ٹیکل می صھی بیدے
 sc-criteria-item-2 = جولال گرمیٹکلی ٹیک بیدے
 sc-criteria-item-3 = جولال منیل لایق بیدے
 sc-criteria-item-4 = کیرا جولال ہر گاں دے ران استے دے داݭم مک وا قبول تھلے بٹن وا دا
+sc-criteria-item-5-2 = کیرا جولال را نہ اس تو تے کھور مک وا ختم تھال اؘ بٹن وا دا۔تے کیرا تی او جولال حوش نہ اس تو رس چھوری تے دی اک تے لوںگ
 sc-criteria-item-6 = کیرا توسان دی نالیل کیر جولال حلاس بیل تھ ۔دئر اسان سے دی جولال سمٹیل می مدد تھا
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ان جیب ام علم مطابق ٹیک اجولال
