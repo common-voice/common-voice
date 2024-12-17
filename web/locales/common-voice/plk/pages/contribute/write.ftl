@@ -85,9 +85,22 @@ what-needs-to-be-in-file = می فائل دہ جو بون ضورڑینیْ؟
 what-needs-to-be-in-file-explanation = مہربانی تھے ٹیپمپلیٹ فائل چیک <templateFileLink> تِھیا ٹمپلیٹ فائل </templateFileLink>۔ څھے جُملائے کاپی رائٹ جیْ پاک بون پکارن ( سی سی  یا جمع تھییکے طرفِجیْ اجازت یافتہ اصلم کوْم) گہ واضح، گرائمرے لحاظ گیْ صحیح آں پڑِیون دہ ہسان بون پکارن۔ جمع تِھیلہ جُملائے پڑِیون دہ 10-15 سیکنڈ ݜچون پکارن آں اسݨو مجی اعداد، مناسب اسما، آں خصوصری حروف ٹل نہ تِھیا۔ گروپ کمنٹ بلک جمع تھیون
 upload-progress-text = اپ لوڈ جاری نیْ
 sc-bulk-submit-confirm = موْس تصدیق تھمَس چہ آ جُملائے <wikipediaLink>عوامی ڈومین </wikipediaLink>دان آں موْڑ آ اپ لوڈ تھونے اجازہ نیْ
+bulk-upload-success-toast = بڑیع تعداد دہ جُملائے اپ لوڈ تِھجِلہ۔
+bulk-upload-failed-toast = اپ لوڈ ناکام بلِن، مہربانی تھے ست دُبار کوشِش تِھیا۔
+bulk-submission-success-header = بلک ڈیٹا جمع تھیونے کِرِیا څھے شکریہ۔
+bulk-submission-success-subheader = څھوْس کام وائس اےْ ہر چھکے جُملو اہداف ئڑ اُڇِھیون دہ اسے امداد تِھیا۔
+upload-more-btn-text = مُتہ جُملائے گہ اپ لوڈ یا؟
+file-invalid-type = غلط فائل
+file-too-large = فائل لئی بَڑِن۔
+file-too-small = فائل لئی لیکھِن
+too-many-files = لے گھݨ فائلہ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> لا تھے عوامی ڈومینے جُملائے ٹک تِھیا۔
+multiple-sentences-error = څھوْس ایْک جُملہ جمع تھونے کِرِیا لا جُملائے ٹل نہ تھوبانَت۔
+exceeds-small-batch-limit-error = 1000 جُملوجیْ بسکہ جمع نہ تھوبانَت۔
 
 ## MENU ITEM TOOLTIPS
 
