@@ -59,11 +59,17 @@ report-success = راپوٹ کمیابی سہ قبولیل
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ر
 shortcut-record-toggle-label = شرو/ایٹھی
 shortcut-rerecord-toggle-label = ریکاڈ دیرا
+shortcut-discard-ongoing-recording = ڈاییل
 shortcut-discard-ongoing-recording-label = روان ریکاڈنگ ختم تھ
 shortcut-submit = نوٹھ
 shortcut-submit-label = کلپس جمع تھا
@@ -72,6 +78,9 @@ request-language-button = اّجیب تہ درخاس دہ۔
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پ
 shortcut-play-toggle-label = شرو/ایٹھی
 
 ## Validation criteria
