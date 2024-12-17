@@ -125,6 +125,12 @@ rate-limit-message-seconds =
         [one] مے اسہ صفحا ݭڅی جمع کېرَئیکَنی حداں فېدی تَنؤ۔ مېرَبانی کېری دویَم کَلاؤ پُر کېرِکہ پېنہ پُدَمہ یَک سیکېنڈ انتظار کېرِؤ۔ مېنہ صبرَنہ شکریہ!
        *[other] مے اتے صفحا ݭڅی جمع کېرَئیکَنی حداں فېدی تَنؤ۔ مېرَبانی کېری دویَم کَلاؤ جمع کېرِکہ پېنہ پُدَمہ { $retryLimit } سیکېنڈ انتظار کېرِؤ۔ مېنہ صبرَنہ شکریہ!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] یَہ کَلاوَہ پېنہ { $uploadedSentences } جمع کېران گَئیت
+       *[other] { $uploadedSentences }پېنہ{ $totalSentences } کَلاؤ نامہ جمع کېران گہ
+    }
 
 ## MENU ITEM TOOLTIPS
 
