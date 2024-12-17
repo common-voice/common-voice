@@ -98,7 +98,21 @@ too-many-files = لؤ زیات فائل نام
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> لؤ عوامی ڈومېن لُبُسَؤ
+small-batch-instruction = <icon></icon> لؤ عوامی ڈومېن کَلاؤ نام  لُبُسَؤ
+multiple-sentences-error = مے یَکِیہ جمع کېرِکہ ݭڅی لؤ کلاؤ نام لُبُوسئ نہ بمانېؤ
+exceeds-small-batch-limit-error = 1000پېنہ زیات کَلاؤ جمع نہ کېری بَمانېؤ
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] شرَحنی حدہ پېنہ پُدَم گہ دوبُوڑہ کوشش کېرِؤ1 منیٹہ
+       *[other] شرحہ نی حدہ پېنہ پُر نېسُوَہ، گرِی کوشش کېرہ { $retryLimit } منېٹہ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] شرَحَنی  حدہ پېنہ پُر نېسُوَہ۔ 1 سیکېنڈہ دوبُوڑہ کوشش کېرِؤ۔
+       *[other] شرحَنی حدہ پېنہ پُر نېسُوَہ{ $retryLimit } سکېندہ دوبُوڑہ کوشش کېرِؤ۔
+    }
 
 ## MENU ITEM TOOLTIPS
 
