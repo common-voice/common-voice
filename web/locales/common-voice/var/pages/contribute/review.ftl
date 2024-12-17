@@ -50,9 +50,9 @@ sc-criteria-item-2 = Puú orasióni  enimápu kawé yoráka yorátiame kawétiam
 sc-criteria-item-3 = Ihí nawésari enimáputuka mačitániame
 sc-criteria-item-4 = Iká orasióni kumpiórani pu'ká yo'rá wa'á &quot; yorapáme &quot; wa'á ahámina
 sc-criteria-item-5-2 = Iká orasióni ka'á kumpiaroáso pu'ká yo'rá, tačína &quot; kinakiwáme &quot;, wa'a ho'wenámina, kinanéria kawé.  Ninímamu umatotemia wa'á pirenači
-sc-criteria-item-6 = ki'tio epečé wa'asi  o'rasioni pu'ká i'tapiti, ¡ I no'kui wa'a u'ka e'pečé orasioni!
+sc-criteria-item-6 = Kitió epečé waási  orasióni pu'ká itapití, ¡ I nokúi wa'a uká epečé orasióni!
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Tu'niame<icon></icon>i'hi u'hu piripi o'rásioni na'yawoaniame ka'wé
+sc-review-instruction = Tuniamé<icon></icon>ihí u'hú pirípi orasióni nayawoániame kawé
 sc-review-rules-title = ¿u'u orasioni kum'piaroania pu'ká apo yo'rá?
 sc-review-empty-state = E'peo pi'čiwači ki'te ne'neniame pu'ká re'wisaroatiame e'pe ika na'wesariči
 report-sc-different-language = Pireči naewasari
