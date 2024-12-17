@@ -79,6 +79,8 @@ about-playbook-how-localize-content-5 = مددتے کِرِیا اسے وضاح�
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = موْس جُملہ کاتھ ٹل تھم؟
+about-playbook-how-add-sentences-content-1 = څھوْس آ لنک جیْ جملہ ٹل تھوبانت <writePageLink> صفحہ لِکِیا</writePageLink> یا آس جی جُملائے ریویو  تھِیا صفحہ ریویو تھیا</reviewPageLink>
 
 ## How to record quality
 
