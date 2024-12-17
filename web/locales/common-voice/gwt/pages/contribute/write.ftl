@@ -48,9 +48,28 @@ finance = مالیہ
 service_retail = نوکوری اؤ پرچون بِکِنِک
 # Sentence Domain dropdown option
 general = جنرل
+# Sentence Domain dropdown option
+healthcare = صحَتَنی حفاظت
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون اؤ حکومت
+# Sentence Domain dropdown option
+language_fundamentals = باتِیَنی بنیادی بنیادی اصول(مثلاً ہندسہ، حروف، روپَئ)
+# Sentence Domain dropdown option
+media_entertainment = مېڈیا اؤ تفریح
+# Sentence Domain dropdown option
+nature_environment = فطرت اؤ ماحولیات
+# Sentence Domain dropdown option
+news_current_affairs = خبر اؤ حالاتِ حاضرہ
+# Sentence Domain dropdown option
+technology_robotics = ٹېکنالوجی اؤ روبوٹِکس
+sentence-variant-select-label = کَلاوَنہ بدل بِیاوَہ
+sentence-variant-select-placeholder = یَک قسمہ منتخب کېرَہ(اختیاری)
+sentence-variant-select-multiple-variants = عام باتی/ لَؤتغیر
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = عوامی ڈومېنَنَہ کَلاوَہ<icon></icon> اپلوڈ کېرِؤ
 
 ## SMALL BATCH SUBMISSION
 
