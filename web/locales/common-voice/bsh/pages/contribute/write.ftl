@@ -98,6 +98,8 @@ too-many-files = بلیوک سکال فائل
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon>سکال عوامی ڈومینہ ستہ جملہ سناعں
+multiple-sentences-error = شا سکال جملہ سنا نہ بہ تعں کیوعݩ او جمع کراستہ کہ
+exceeds-small-batch-limit-error = 1000تعں سکال جملہ جمع کو نہ بہ تعں
 
 ## MENU ITEM TOOLTIPS
 
