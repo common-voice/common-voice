@@ -12,6 +12,13 @@ about-localization-title = ویب سائڈ جائ
 about-localization-subtitle = ویب سائڈہ ستہ ستورئی ایکی ورے تہ پلگاں ستہ بولہ اسہ
 about-sentence-collection-title = جملہ وسعاں ستہ
 about-sentence-collection-subtitle = منچان کاٹ کہ ولہستہ کہ جملہ وسعاں ستہ بولہ آئی
+about-new-lang-title = نوئی ورئ دزستہ
+about-new-lang-subtitle = ایمو اینہ زبان تہ عام کوٹہ ستہ سائڈ دزہتمش
+about-voice-contrib-title = کوٹ ستہ تعاون
+about-voice-contrib-subtitle = منچی شامل بوتہت او یاستہ کوٹہ سنا تت
+about-voice-validation-title = کوٹہ ستہ درستگی
+about-voice-validation-subtitle = ور منچی امکی کوٹہ ستہ کلپہ  درستگی کو لہ آی
+about-dataset-release-title = ڈاٹا سیٹ نوکسیستہ
 
 ## Community Playbook Content
 ## What is a language

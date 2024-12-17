@@ -51,6 +51,7 @@ sc-review-rules-title = کائی اینہ جملہ رہنما اصول مع بر
 sc-review-empty-state = اینہ ستہ وری تہ سترئ سہ گجستہ تہ اڅ جائزہ اݣہ تم با ستہ تݩع ورں اسہ
 report-sc-different-language = جملہ حاصل کوتاں تہ اہ غلطی پمیوک آیا
 report-sc-different-language-detail = اینہ جملہ ستہ جائز ہ اݣاتاں تہ اہ غلطی پیومیوک آیا
+sentences-fetch-error = جملہ حاصل کوں ول تہ اہ غلطی با
 review-error-rate-limit-exceeded = تیو بلیو ک نݜٹا روان اسیش مہربانی کہ تئ اچاک ول نکسا اینہ جملہ ستہ جائزہ اݣا چہ یقین کاع بولا چہ اینہ سئ اسہ کہ
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ایمو بلیو ک الہ تبدیلی اوہ تمیش

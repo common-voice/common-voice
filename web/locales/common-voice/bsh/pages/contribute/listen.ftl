@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = سݣہ ستہ ݜاتیک کوستہ م
 
 listen-contribute-menu-aria-label = اوگعما پارستݩع جمع کعستہ عبارت تصدیق کشݩع
 validate-readings-menu-item-aria-label = ریکاڈ کعہ  جملہ ستہ سترئ سئی ایہ کہ جا ئزہ اݣݩع
+review-transcriptions-menu-item-aria-label = ریکاڈ کعہ جملہ ستہ نقل سئ کوستہ کں جائزہ اوݣع
