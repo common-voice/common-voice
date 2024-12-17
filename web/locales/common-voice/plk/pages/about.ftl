@@ -110,9 +110,12 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی سنِجہ۔ <
 about-playbook-how-validate = موْس کاتھ لڇھبامَس چہ صوتی کلپ منظور تھونُن یا نیں؟
 about-playbook-how-validate-content-1 = اگر څھوْس <strong>سیݨو کوْݨ دِیا </strong> آں <strong> سیݨو لڇِھ بانَت </strong>، تو عام شان گیْ <strong>منظوری دون مِݜٹِن </strong>
 about-playbook-how-validate-content-2 = <strong> ادا کلپس رَد نی تِھیا کُدی موْݜ تِھیکے ایْک لہجانوْ کھاں څھے تومو سے مختلفُن </strong>آ آوازے شناخے کِرِیا غورانوْ آں ہر جیئے کِرِیا مِݜٹُن۔
+about-playbook-how-validate-content-3 = اگر څھوْڑ لیل بِینیْ چہ تلفظ<strong> پرجون ممکن نانیْ <strong> توْ اسدی <strong> پس منظرے شور </strong>بُو، یا </strong>مُتہ جک سگہ موْݜ کال تھینَن بو، تو څھوْڑ کلپ رد تھون پکارن۔ <accuracyLink>اسے سُونڇِھیارے معیارے بارد شنا معلومات ڇکِیا </accuracyLink>
+about-playbook-how-validate-content-4 = اگر کوئے کلپ دُو جک سہ رَد تھینَن، تو اسے ڈیٹاسیٹو مختلف ذیلی سیٹو مجی اسہ جاری تِھجنَن۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = موْ ڈیٹاسیٹ بُجَیش کاتھ اُڇھام آں استعمال تھم؟
 
 ## How are decisions made
 
