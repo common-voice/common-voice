@@ -23,6 +23,10 @@ about-dataset-release-subtitle = ایمو ہر 3ماس تہ ڈیٹا سیٹ جا
 about-subscribe-text = عام کوٹہ مع رابطہ تہ پتہ بوستہ اسہ
 about-speak = ولہ/ ولستہ
 about-listen-queue = کار تہ ـ دام
+about-listen-queue-text = کوٹہ ستہ کلپ سعݩاستہ ستہ دام تہ اتیوں شیستہ بولہ آئ امکیاں کار تہستہ کہ تیار کاع کولہ آئی
+about-listen = کارتہ
+about-listen-text = استعمال کولہ عطیہ کعستہ کلپہ سہی کو لہ آئ، اینہ ایݩش کوستہ کہ ولہلہ جملہ سہی کہ ولہتہ کہ۔
+about-is-it-valid = کلیپ سہی اسہ؟
 
 ## Community Playbook Content
 ## What is a language
