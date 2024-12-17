@@ -33,6 +33,14 @@ single-sentence-submission = اہ جملہ سعݩاستہ
 small-batch-sentence-submission = لوکی جملہ سعݩستہ
 bulk-sentence-submission = سکال تعدادہ ستہ جملہ سعݩواستہ
 single-sentence = کیوع
+small-batch-sentence = لوکہ بیچ
+bulk-sentence = سکال بیچ
+sentence-domain-combobox-label = جملہ ستہ ڈومین
+sentence-domain-select-placeholder = ترہ ڈومین تا ویک انتخاب کشی(اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = زمیدای دے یو واں
+# Sentence Domain dropdown option
+automotive_transport = امو چیتہ دے اڅستہ استہ
 
 ## BULK SUBMISSION 
 
