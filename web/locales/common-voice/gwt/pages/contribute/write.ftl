@@ -27,6 +27,16 @@ how-to-cite-explanation-bold = یو آر اېل لِنک یا ݪمَنہ فُو�
 how-to-cite-explanation = کېنے زی زېمے تونی تانُو الفاظ تھنَئیت بہ جو صرف<italicizedText>“سیلف ساتئٹېشن”</italicizedText>ژَو۔ امہ اسُو پِیانِکَنی ضرورت تھنی زی میاں اِمے مواد کېنے نہ فېدِی تنَئیت تہ امہ چېک کېری بَئیکہ زی ووئی عوامی ڈومېنہ تھنہ اؤ کاپی رائیٹَنی کی پابندی لاگو نہ بِمان۔ اقتباسَنہ بارا واری معلوماتہ ݭڅی امَنی<guidelinesLink> راہنما خطوطہ بالِؤ صفحہ</guidelinesLink>۔
 guidelines = راہنما اصول
 contact-us = امہ مِنزی رابطہ کېرِؤ
+add-sentence-success = 1یَہ جُملہ جمع کېران گہ
+add-sentence-error = جُملہ لُبُسَئیکہ خرابی
+required-field = مېرَبانی کېری اسہ فیلڈہ پورِؤ۔
+single-sentence-submission = یَک کَلاؤ جمع کېراوَہ
+small-batch-sentence-submission = پولہ بیچَنہ کَلاوَہ جمع کېراوَہ
+bulk-sentence-submission = ڈَڈل کَلاوَہ جمع کېراوَہ
+single-sentence = یېکُولہ
+small-batch-sentence = پولہ جوپہ
+bulk-sentence = ڈل جوپہ
+sentence-domain-combobox-label = کَلاوَنی ڈومېن
 
 ## BULK SUBMISSION 
 
