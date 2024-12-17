@@ -80,6 +80,11 @@ select-file = فائل منتخب تِھیا
 select-file-mobile = فائل اپ لوڈ تھونَڑ منتخب تِھیا
 accepted-files = فائلے قبول بِلیْ قسم: .tsv صرف
 minimum-sentences = ایک فائل دہ کم از کم 1000 جُملائے۔
+maximum-file-size = فائلے لو جیْ لو سائز:  25 MB
+what-needs-to-be-in-file = می فائل دہ جو بون ضورڑینیْ؟
+what-needs-to-be-in-file-explanation = مہربانی تھے ٹیپمپلیٹ فائل چیک <templateFileLink> تِھیا ٹمپلیٹ فائل </templateFileLink>۔ څھے جُملائے کاپی رائٹ جیْ پاک بون پکارن ( سی سی  یا جمع تھییکے طرفِجیْ اجازت یافتہ اصلم کوْم) گہ واضح، گرائمرے لحاظ گیْ صحیح آں پڑِیون دہ ہسان بون پکارن۔ جمع تِھیلہ جُملائے پڑِیون دہ 10-15 سیکنڈ ݜچون پکارن آں اسݨو مجی اعداد، مناسب اسما، آں خصوصری حروف ٹل نہ تِھیا۔ گروپ کمنٹ بلک جمع تھیون
+upload-progress-text = اپ لوڈ جاری نیْ
+sc-bulk-submit-confirm = موْس تصدیق تھمَس چہ آ جُملائے <wikipediaLink>عوامی ڈومین </wikipediaLink>دان آں موْڑ آ اپ لوڈ تھونے اجازہ نیْ
 
 ## SMALL BATCH SUBMISSION
 
