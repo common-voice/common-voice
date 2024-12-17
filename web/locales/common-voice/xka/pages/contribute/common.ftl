@@ -1,4 +1,4 @@
-action-click = اوں کلپ میی اوبوٹ جولال این
+action-click = ٹسار
 action-tap = تراپ
 contribute = امداد
 review = نالیل
