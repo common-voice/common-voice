@@ -1,4 +1,8 @@
 speak = ولہستہ
+speak-now = اوسترک ولہ
+speak-subtitle = توستہ کوٹہ خیرات پعہ
+record-cta = وکݜاستہ' ستہ شروع کشی
+record-platform-not-supported = ایمو بولیوک افسوس اسہ شاستہ پلیٹ فارم اوسترک کودیوم نہ کوتہ
 record-platform-not-supported-desktop = ڈیسک ٹاپ ڈیوائسز تہ ڈاؤن لوڈ کتی توستہ بٹہ  تیو دی اوݣہ بچی
 record-platform-not-supported-ios-non-safari = ios تہ ریکاڈنگ فعال کتی سافاری مع جاری ستݩع
 record-must-allow-microphone = تیو مائیکروفون تہ پعاستہ اجازت  پعستہ بوچی

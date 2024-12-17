@@ -1,6 +1,25 @@
 ## REVIEW
 
 sc-review-lang-not-selected = تو کاٸ دی وری نݜان نہ کعستہ آئ۔مہربانی کہ تے تو ستہ<profileLink> پروفائل تہ ای </profileLink>ورے نݜان کوستہ کہ۔
+sc-review-form-button-approve = مݨستہ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = ی
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ن
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = س
+sc-review-form-keyboard-usage-custom = تو کی بوڑڈہ ستہ موٹی پوت استعمال کو بچی:{ sc-review-form-button-approve-shortcut } تصدیق کوستہ کہ{ sc-review-form-button-reject-shortcut } اتلاستہ کہ{ sc-review-form-button-skip-shortcut }  پڅیع پوستہ کہ
+sc-review-form-button-submit =
+    .submitText = جائزہ کلاس
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] کائ دی جملہ جائزہ نہ کعستہ آئ
+        [one] 1جملہ جائزہ کعستہ۔ ݜمݜ باݜ
+       *[other] { $sentences } دبارہ ایݩش کعا۔ ݜمݜ باش۔ شکریا
+    }
+sc-review-form-review-failure = جائزہ نہ ستاݩ گواہ ۔ مہربانی کہ تے دی ابل کشی
 
 ## REVIEW CRITERIA
 
