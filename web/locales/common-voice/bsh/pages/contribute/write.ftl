@@ -81,6 +81,12 @@ accepted-files = صرف تی ایس پی فائل قبول اسہ
 minimum-sentences = فائل تہ اچاک تعں اچاک جملہ
 maximum-file-size = سکال تعں سکال فائل پریک25ایم بی
 what-needs-to-be-in-file = ایݩستہ فائلہ تہ کائ بوستہ ضروری اسہ
+what-needs-to-be-in-file-explanation = مہربانی کہ تے ایموستہ<templateFileLink> فائلہ ایݩش کشی</templateFileLink>۔ تو ستہ جملہ حق اشاعت تہ ستعں پاک بوستہ اسہ (سی سی 0 یا سملہ ستہ اصل کودیوم ستہ اجازت) او واضح گرامر ولستہ کہ اسان بوستہ اسہ۔ سعݩئستہ جملہ ولہستہ کہ10-15 سکنڈ بوستہ اسہ۔ اعداد، خاص نام او خاص نݜان استعمال کوستہ پرہیز کاع اسہ۔
+upload-progress-text = پالوتستہ جاری اسہ۔۔۔
+sc-bulk-submit-confirm = اوزہ تصدیق کوتوم اومنی جملہ<wikipediaLink> عوامی ڈومین تہ </wikipediaLink> اوانزہ امنیاں پالوتستہ کہ اجازت پعتوم
+bulk-upload-success-toast = سکال جملہ پالو تعہ
+bulk-upload-failed-toast = پلوتعستہ اوتینہ، مہربانی کہ دی ابل کشی
+bulk-submission-success-header = سکال وسعاݩستہ تہ تعاون کعستہ کہ شکریہ
 
 ## SMALL BATCH SUBMISSION
 
