@@ -37,6 +37,17 @@ single-sentence = یېکُولہ
 small-batch-sentence = پولہ جوپہ
 bulk-sentence = ڈل جوپہ
 sentence-domain-combobox-label = کَلاوَنی ڈومېن
+sentence-domain-select-placeholder = ݪے ڈومېن مِزان خوخَؤ(واکَنہ)
+# Sentence Domain dropdown option
+agriculture_food = زراعت اؤ خوراک
+# Sentence Domain dropdown option
+automotive_transport = آٹو موٹو اؤ ٹرانسپورٹ
+# Sentence Domain dropdown option
+finance = مالیہ
+# Sentence Domain dropdown option
+service_retail = نوکوری اؤ پرچون بِکِنِک
+# Sentence Domain dropdown option
+general = جنرل
 
 ## BULK SUBMISSION 
 
