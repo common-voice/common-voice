@@ -21,6 +21,14 @@ about-speak = بَنہ
 about-listen-queue = ݜُوَیں۔کَنار
 about-listen = ݜُوئیں
 about-is-it-valid = ݜُو کَٹرو منظُور ہول تُھو ییۡ؟
+about-is-it-valid-text = استِعمال کران٘لے "آں" کرے وُٹ دِت کھیں اوازاں کٹرو لا (سُون٘ݜیۡرال) لِکُژ تُھو۔
+about-yes-votes = ≥ 2 آں کریل وُٹہ
+about-no-votes = ≥ 2 نَیں کریل وُٹہ
+about-clip-graveyard = کٹری وَیں سرائ
+about-nav-why-common-voice = گِنہۡ؟
+about-nav-how-it-works = گِشے؟
+about-nav-partners = مرگلئ
+about-nav-get-involved = اماں‌ ٹَل کرہ
 
 ## Community Playbook Content
 ## What is a language
