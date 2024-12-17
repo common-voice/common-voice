@@ -98,6 +98,10 @@ about-playbook-how-record-content-5 = <accuracyLink> سُونڇِھیارے مع
 about-playbook-how-grow-language = بیْس کام وائس جیْ مِݜٹو طریقہ گیْ جِب کاتھ بسکربوݨَس؟
 about-playbook-how-grow-language-content-1 = کامن وائس سہ جگو تنوع اےْ  موقعائے پائد تھون یقیقنی سنینوْ چہ ڈیٹاسیٹ دہ لا جیْ لا جگو خدمت تھی۔ اسا ادا وسائل گہ ٹیمپلیٹس سنینَس کھاں څھوْس استعمال تھوبانَت۔
 about-playbook-how-grow-language-content-2 = واقعات
+about-playbook-how-grow-language-content-3 = څھوْ جگوامدادے کِرِیا ایونٹس چلیبانَت۔ آ څھے گُنونِجیْ بسکیْ ہسانِن۔ آ گیْ څھوْس ویڈیو کانفرنسنگ ٹول سے ساتیْ آن لائن گہ تھوبانَت۔، یا ذاتی شان گیْ اگر آ محفوظُن توْ۔ <eventTemplate> ایونٹ چلِیونے کِرِیا اسے ٹیمپلیٹس گہ وسائل چیک تِھیا۔</eventTemplate>
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = څھوْس پیغام اُڇِھیونے کِرِیا سوشل میڈیا فارم استعمال تھوبانَت۔ ادی پوسٹے اشتراةک تِھیا کھاݩس دہ آ پشیجانیْ چہ  آ کیْہ اہمِن، آ جِبے حقوق،وائس اے آئی، یا ٹیک دہ تعصب ہا مسائلو بارَد موْݜ کال تھین جگو سے رابطہ تِھیا۔ شناک گہ مشورائے کِرِیا ڇکِیا <campaignLink>آں اسہ مواد گہ کھاں څھوْس ست دوبار استعمال تھوبانَت۔</campaignLink>
+about-playbook-how-grow-language-content-6 = شراکت داری گہ نٹ ورکس۔
 
 ## How to validate
 
