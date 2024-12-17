@@ -25,6 +25,7 @@ keep-track-profile = اپان دی تانی ترقی اےۡ اّپروفاییل
 login-to-get-started = شوروتال کیر لاگ ان یا ساین اپ بہ
 target-segment-first-card = تو اسے اولوک باگ اِج بییل می تو پاڈیزون۔
 target-segment-generic-card = ا مقصد کیر تو تانی ڈا  ڈیزون
+target-segment-first-banner = کامن وایس اولوک حد           ترال می تھیرباز تہ۔۔۔
 target-segment-add-voice = تانی تراٹ پا ٹل تھ
 target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
