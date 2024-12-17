@@ -27,6 +27,8 @@ about-listen-queue-text = کوٹہ ستہ کلپ سعݩاستہ ستہ دام ت
 about-listen = کارتہ
 about-listen-text = استعمال کولہ عطیہ کعستہ کلپہ سہی کو لہ آئ، اینہ ایݩش کوستہ کہ ولہلہ جملہ سہی کہ ولہتہ کہ۔
 about-is-it-valid = کلیپ سہی اسہ؟
+about-is-it-valid-text = کوٹہ ستہ کلیپہ "سہی" کہ نشان کاع بوتہ کائی ولتہ کاچی استعمال کو لہ لسہ کہ ووٹ پتہ با۔
+about-yes-votes = 2 لسہ ووٹ
 
 ## Community Playbook Content
 ## What is a language
