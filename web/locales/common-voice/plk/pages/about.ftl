@@ -55,6 +55,13 @@ about-playbook-how-add-language-content-1 =
      آس مجی دو مراحلن۔ سائٹے ترجمہ تھون آں جُملائے ٹول تھون۔
 about-playbook-how-add-language-translating-heading = سائٹے ترجُمہ تھون۔
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون استعمال تھونے بارَد اسے گائیڈ ڇکِیا۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    بیْس ایْک موزیلا ٹول کموݨَس کھاݩسڑ <pontoonLink> پونٹون </pontoonLink> ترجمہ تھونے کِرِیا پونٹون اےْ لے جِبانیْ،
+    اگر آ څھودیْ نِش توْ څھوْس تھوبانَت  <pontoonRequestLink>تومیْ جِب ٹل تھونے کِرِیا درخواست تِھیا<pontoonRequestLink> 
+    تے، کامن وائس پروجیکٹ دہ جِب ٹل تھونے کِرِیا،
+      <githubRepoLink>گِٹ ہب دہ نئی جِبے کِرِیا درخواست تِھیا۔ </githubRepoLink>۔<localizationFragment> سائٹ ترجمہ دہ شناکَک گہ ڇکِیا </localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملائے جمع تھون
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جُملائے جمع تھونے کِرِیا اسے گائیڈ لائن ڇکِیا</sentenceCollectorVideo>
 
 ## How does localization work
 
