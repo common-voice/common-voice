@@ -81,9 +81,12 @@ about-playbook-how-localize-content-5 = مددتے کِرِیا اسے وضاح�
 
 about-playbook-how-add-sentences = موْس جُملہ کاتھ ٹل تھم؟
 about-playbook-how-add-sentences-content-1 = څھوْس آ لنک جیْ جملہ ٹل تھوبانت <writePageLink> صفحہ لِکِیا</writePageLink> یا آس جی جُملائے ریویو  تھِیا صفحہ ریویو تھیا</reviewPageLink>
+about-playbook-how-add-sentences-content-2 = کامن وائس دہ ٹل تھونے کِرِیا جُملو جائزہ ہرونے کریا دُو جک اُچون پکارن۔ څھوْس تومیْ جِبے کِرِیا پوْن پشاٹہ اصول سنینَت <languageGuidelinesLink> ادی </languageGuidelinesLink>جْملائے آ لنک دہ بون پکارن <licenseLink> پبلک ڈومین </licenseLink> آں پنزیلے لفظوجیْ کم بون پکارن۔ څھوْس متنے دبُوݨِجیْ سنونے کِرِیا رزبانَت <waiverLink> س س0   اسے چھوٹے عمل استعمال تِھیو </waiverLink> آں اسوڑ آ سِجی ڇھیݨہ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = څھوْس استعمال تھونات <scraperLink> جُملو اقتباس </scraperLink> ویکیپیڈیا جیْ کُھٹہ جُملو فائدہ ہرون۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = موْس مڑنے آوازے کلپ کاتھ ریکارڈ تھم؟
 
 ## How to grow language
 
