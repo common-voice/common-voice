@@ -24,3 +24,7 @@ sc-criteria-item-1 = جولال ٹیکل می صھی بیدے
 sc-criteria-item-2 = جولال گرمیٹکلی ٹیک بیدے
 sc-criteria-item-3 = جولال منیل لایق بیدے
 report-sc-different-language = اوراک اَجیب
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = بہ گین تبدلی گیال رل ایں
+# menu item
+review-sentences = جولال نالیل

@@ -104,7 +104,7 @@ contribution-varying-pronunciations-example-1-title = ݭیݭ رل تا بیری�
 contribution-varying-pronunciations-example-2-title = تسے تھیر آیج بیل
 contribution-varying-pronunciations-example-2-explanation = انگریزیا می اکِھٹآ من جون  دییم  با نہ
 contribution-background-noise-title = شن پت آؤؤ
-contribution-background-noise-description = کیرا ریکارڈنگ ایٹیھیت یا اوران بیل تے مکھےختم تھاکتیک ایں سو صفا نہ بوجیل ݭات تہ
+contribution-background-noise-description = کیرا ریکارڈنگ ایٹیھیت یا اوران بیل تے مکھےختم تھاکتیک ایں سو صفا نہ بوجیل ݭات تہا
 contribution-background-noise-description-extended = کیرا ریکاڈنگ ایٹھیت یا اوران بیل تہ مکھے ختم تھا کیتھک ایں رو پاک نہ بوجیل ݭات تہ
 contribution-background-noise-example-2-explanation = مناگیلہ اتوں کٹر نہ بج بان
 contribution-background-voices-title = ݭن پت آؤؤ
