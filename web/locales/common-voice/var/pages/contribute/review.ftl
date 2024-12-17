@@ -4,9 +4,9 @@ sc-review-lang-not-selected = Iyéta pehí kitu'ímo ihtána nawésari naiwámia
 sc-review-title = Rewisaróamia pu'ká orasióni
 sc-review-loading = Umátoteniame orasióni pu'ká programáči
 sc-review-select-language = Usá pirípi nawésari nenémičó orasióne
-sc-review-no-sentences = Kite waasi o'rasioni  pu'ká ne'neniame. <addLink> Na'peniame epečé o'rasioni</addLink>
+sc-review-no-sentences = Kite waási orasióni  pu'ká neneniame. <addLink> Napéniame epečé orasióni</addLink>
 sc-review-form-prompt =
-    .message = Ka'i ito'čena pu'ká ne'netiame, ¿piči'wá čani'mú?
+    .message = Ka'i itóčena pu'ká nenétiame, ¿pičíwa čanimú?
 sc-review-form-usage =
     Ri'siitate wa'a a'jámina pu'ká yorapame. Ri'siitate wa'a jo'wena'mina pu'ká kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
     ka'te na'tekepa pu'ká itočemia amo ne'neria</strong>
