@@ -26,6 +26,23 @@ contribute = تعاون تِھیا
 ## Navbar
 
 respond-to-prompt = پرامپٹے جُواب دِیا
+transcribe-audio = آڈیو نقل تِھیا
+check-transcriptions = ٹرانسکرپشنز چیک تِھیا
 
 ## Not Found Page
 
+not-found-page-header = نہ ہشِلُن
+not-found-page-content = څھوْس کھاں صفحہ ڇکینَت، اسہ نہ ہشِلُن۔
+# Privacy and Terms checkbox
+accept-privacy-and-terms = موْس کامن وائس سے اتفاق تھمَس <termsLink> شرائط </termsLink>  آں<privacyLink> رازداری نوٹس </privacyLink>
+# Locales
+bsy = صباح بسایا
+cdo = فوزہو
+cpx = ہینگ ہوا
+en = انگلش
+fr = فرینچ
+hch = وکساریکا
+kzi = کلابِت
+mbf = بابا مالے
+meh = جنوب مغربی تلسیکو میکٹیک
+mel = وسطی میلانو
