@@ -66,6 +66,9 @@ read-sentences = جملہ ولہ
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملہ ولہ، سوالہ ستہ جواب پع
+read-sentences-menu-item-tooltip = توستہ ورے تہ جملہ ولہتے تو چیتہ وکݜا
+answer-questions-menu-item-tooltip = تو ستہ ورے تہ سوال دے نݜان ستہ جواب پعتے تو چیتہ وکݜا
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اختیاری مینیو ولہ
