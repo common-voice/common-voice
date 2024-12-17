@@ -87,6 +87,11 @@ about-playbook-how-add-sentences-content-3 = څھوْس استعمال تھون�
 ## How to record quality
 
 about-playbook-how-record-quality = موْس مڑنے آوازے کلپ کاتھ ریکارڈ تھم؟
+about-playbook-how-record-content-1 = تومیْ عام آواز دہ موْݜ تِھیا، ادی څھے موْݜ تھونے انداز مڑنینوْ۔ بیْس څھے لہجہ اج اسدو لُکھوݨَس کاتھ چہ ہنوْ، بیْس څھے معمول، انداز گہ لہجہ لُکھوݨَس۔
+about-playbook-how-record-content-2 = چارچاپیر چیخوجیْ بچ بِیا، آ  څھوْڑ ݜُݨون ہسان بون پکارن۔
+about-playbook-how-record-content-3 = جُملہ سم شان گیْ کوْݨ دِیا۔ آ پھتِیا نیں، بدل یا مُتہ لفظی گہ ٹل نہ تِھیا۔
+about-playbook-how-record-content-4 = آ موڙِجیْ یقین تِھیا چہ موْݜ تھونِجیْ مُڇھو پلیٹ فارم سہ ریکارڈنگ تِھینوْ، آں  آ څھے موْݜ کال بڑجونِجیْ پتو بن بِینوْ۔
+about-playbook-how-record-content-5 = <accuracyLink> سُونڇِھیارے معیارِجیْ شنا متیْ گہ ڇکِیا۔ </accuracyLink>
 
 ## How to grow language
 
