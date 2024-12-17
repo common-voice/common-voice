@@ -67,6 +67,12 @@ sentence-variant-select-multiple-variants = عام وری/ سکال ردو بد�
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اتیوݩسی <icon> </icon>عوامی ڈومین ستہ جملہ
+sc-bulk-upload-instruction = تو ستہ فائہ انی اشی یا<uploadButton>اتیوݩششتہ کہ ووسپلہ
+sc-bulk-upload-instruction-drop = اتیوں شیستہ کہ فائلہ انی اتلا
+bulk-upload-additional-information = اگر اینہ فائل بارا تہ اچا دی معلومات پعستہ  وگچی با مہربانی کہ رابطہ کشی<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اگر اینہ فائلہ بارا تہ اچا دی معلومات پعستہ وگہچی با ستہ ٹمپلٹہ تہ شامل نہ اسہ مہربانی کہ ربطہ کشی<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
