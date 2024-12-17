@@ -137,9 +137,20 @@ small-batch-response-message =
         [one] 1کَلاوَنہ { $uploadedSentences } جمع بوئیت۔ کِلک کېرِؤ۔  مسترد بِسنت کَلاؤ نامہ داون لوڈ کېرِکہ څی <downloadLink>اتے</downloadLink>
        *[other] { $uploadedSentences }پېنہ{ $totalSentences } کَلاوَہ جمع کېران دتنہ۔ کِلک کېرِؤ۔مسترد بِسنت کَلاؤ نامہ داون لوڈ کېرِکہ څی <downloadLink>اتے</downloadLink>
     }
+small-batch-sentences-rule-1 = ”آں کرېک کَلاؤ نامہ لُبُسَئ بمېم؟” اسُونی راہنما خطوطہ رتی عمل کېرِؤ
+small-batch-sentences-rule-2 = ہر رِکہ یَک کَلاؤ لُبُسَؤ
+small-batch-sentences-rule-3 = یَہ ور“انٹر” یا “ ریٹرن” دباؤ کېرِکے ݪی کَلاؤ نامہ یَک رِکہ بېل کېرِؤ
+small-batch-sentences-rule-4 = 1,000مِزان کَلاؤ لُبُوسَؤ
+small-batch-sentences-rule-5 = سومّی کَلاوَنہ یَک ڈومېن می تھِیَنہ تھنہ
+small-batch-sentences-rule-6 = سومّی کَلاوَنہ یَک می حوالہ بِیَنہ تھنہ
+# menu item
+add-sentences = کَلاؤ نامہ لُبُسَؤ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = کَلاؤ لُبُسَؤ اؤ تسُونہ جائزہ گو، سوالات لُبُسَؤ، آڈیوَہ نقل کېرِؤ
+add-sentences-menu-item-tooltip = تانُو گاݭٹے کَلاؤ لُبُسَؤ
+review-sentences-menu-item-tooltip = تانُو باتِیہ کَلاوَنہ جائزہ گو
 
 ## MENU ITEM ARIA LABELS
 
