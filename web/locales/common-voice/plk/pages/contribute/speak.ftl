@@ -66,6 +66,10 @@ read-sentences = جُملائے پڑِیا۔
 
 speak-contribute-menu-tooltip = جُملائے رزہ، سوالو جُوابی دِیا۔
 read-sentences-menu-item-tooltip = تومی جِب دہ جُملائے پڑِیون دہ اکو ریکارڈ تِھیا۔
+answer-questions-menu-item-tooltip = تومیْ جِب دہ سوالو گہ اشرتو جُواب دون دہ اکو ریکارڈ تِھیا۔
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اختیاراتو مینو رزہ۔
+read-sentences-menu-item-aria-label = قامے جگو طرفِجیْ مختلف جِبو جمع تِھیلہ جُملائے پڑِیا۔
+answer-questions-menu-item-aria-label = قامے جگوڑ پڑیون گہ جُواب دونے کِرِیا ایْک نو سُوال ڇھیݨ۔
