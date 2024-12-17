@@ -29,8 +29,17 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] کھاں گہ جُملہ ریویو نہ بِلُن۔
         [one] جُملہ ریویو بِلُن۔ څھے شکریہ
-       *[other] جُملو جائزہ ہرجِلوْ۔ شکریہ
+       *[other] { $sentences } جُملو جائزہ ہرجِلوْ۔ شکریہ
     }
+sc-review-form-review-failure = جإئزہ محفوظ نہ تِھجِبالُن۔ مہربانی تھے پتو پھری کوشِش تِھیا۔
+sc-review-link = ریویو
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ریویو ترجیحات
+sc-criteria-title = ریویو ترجیحات
+sc-criteria-make-sure = یقینی تِھیا چہ جُملہ درج ذیل معیارِجیْ پُوروْ بی۔
+sc-criteria-item-1 = جُملائے ہجّائے  سُونڇھہ بون پکارن۔
+sc-criteria-item-2 = جُملہ گرائمرے لحاظ گیْ سُونڇھوْ بون پکارن۔
+sc-criteria-item-3 = جملہ رزونے قابل بون پکارُن۔
+sc-criteria-item-4 = اگر جُملہ معیارِجیْ تام وزانوْ توْ &quot;منظور &quot; تھون دڇِھنِوْ بٹنِجیْ کلک تِھیا۔
