@@ -19,9 +19,17 @@ total-approved = څݣ منظور بیستہ
 overall-accuracy = څݣ ݜٹئ ستہ
 set-visibility = ییں وعں استہ ترتیب پع
 visibility-explainer = اینہ بوسیٹنگ توستہ لیڈر بورڈ وعں استہ ترتیب کنٹرول کوتہ کائی ول تہ اینہ ٹکاں گوبا ایکئ ستہ مطلب اینہ اسہ چہ توستہ مٹیک صار ستہ نام سورہ ترقی لیڈرزبورڈ تہ پعوان نہ اڅلہ ۔ نوٹ کشی چہ لیڈر بورڈ  نوی کوستہ تہ تقریبا { $minutes } منٹ ول اݣہ تہ تاکہ تبدیلی پعوان اڅلہ
+visibility-overlay-note = کوئی پوچہ اڅستہ مع سیٹ کعہ با ستہ اینہ سیٹنگ <profileLink> پروفائل صفحہ </profileLink> تݩع تبدیل کاع بوتہ
+show-ranking = ییستہ ریکنگ وعوں
 
 ## Custom Goals
 
+get-started-goals = ھدف مع دوی تݩع
+create-custom-goal = اہ ضرورت مطابق مقصد ایپاݩع
+goal-type = تیو کائی قسم  ہدف ایپاستہ وگہ چی
+both-speak-and-listen = آدیو ں
+both-speak-and-listen-long = آدیوں ولہ ستہ سݣہ ستہ
+daily-goal = ہرگرجار
 
 ## Goals
 
