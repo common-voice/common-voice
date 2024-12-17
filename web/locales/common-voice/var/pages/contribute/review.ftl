@@ -2,8 +2,8 @@
 
 sc-review-lang-not-selected = Iyéta pehí kitu'ímo ihtána nawésari naiwámia. Kawé simiká ne'néme <profileLink>wa'á perfireči</profileLink>  pa'ké tu'taí pirípi o we'ká nawésari na'iwámia.
 sc-review-title = Rewisaróamia pu'ká orasióni
-sc-review-loading = Umatoteniame orasioni pu'ká programači
-sc-review-select-language = Usá pii nawesari nenémičó orasioné
+sc-review-loading = Umátoteniame orasióni pu'ká programáči
+sc-review-select-language = Usá pirípi nawésari nenémičó orasióne
 sc-review-no-sentences = Kite waasi o'rasioni  pu'ká ne'neniame. <addLink> Na'peniame epečé o'rasioni</addLink>
 sc-review-form-prompt =
     .message = Ka'i ito'čena pu'ká ne'netiame, ¿piči'wá čani'mú?
