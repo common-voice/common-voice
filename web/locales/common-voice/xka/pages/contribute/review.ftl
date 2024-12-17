@@ -10,6 +10,12 @@ sc-review-form-prompt =
 sc-review-form-button-reject = نہ کاٹیل
 sc-review-form-button-skip = چھور
 sc-review-form-button-approve = قبولیل
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = ے
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ن
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = س
 sc-review-form-button-submit =
     .submitText = نم نالیل
 sc-review-form-review-failure = نالیگیال نہ ݭݨک بال اؘ شبہ پتا دراں ڈز

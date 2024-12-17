@@ -82,6 +82,12 @@ request-language-button = اّجیب تہ درخاس دہ۔
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
 shortcut-play-toggle-label = شرو/ایٹھی
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ے
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
@@ -122,4 +128,6 @@ contribution-background-voices-description-extended = کیرا ریکاڈنگ ا
 contribution-background-voices-example-1-title = ٹراسک کہ گن ڈیناسور
 contribution-background-voices-example-1-explanation = تو یون آں?
 contribution-volume-title = تراٹ
+contribution-reader-effects-title = منندر ام راے
 contribution-reader-effects-description = باڑریکارڈتہ ذات منندر ام آین آوں کو فطری شقل می جولال تھان۔تیس دینگ ساعت کمزیر اریکارڈنؙگ پاگینباںة
+contribution-just-unsure-title = اتیش شکیی
