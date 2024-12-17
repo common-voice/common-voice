@@ -1,4 +1,7 @@
+listen = کارتستہ
+listen-subtitle = کوٹہ ݜٹاستہ تہ ایمو مع دوئ وکݜاعݩ
 listen-instruction = امکی اینہ جملہ وݜچے ولہ بلہ آیہ?
+listen-again-instruction = دبارہ کار تہ اگر تیو تیار اسیشبا
 listen-3rd-time-instruction = ویعں ! اینہ جاری کشی<playIcon></playIcon>
 listen-last-time-instruction = اخر او<playIcon></playIcon>
 listen-empty-state = ایموستہ کلپس ممکنہ طور تہ لکہ بیسہ صفحہ نوئ کشی ، ستہ مع دوبارہ ابل کشی

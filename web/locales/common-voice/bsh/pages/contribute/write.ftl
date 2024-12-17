@@ -112,6 +112,24 @@ rate-limit-toast-message-seconds =
         [one] حد تعں پلو لسیسہ۔ 1 منٹ درئی ابل کشی
        *[other] حد تعں پلو لسیسہ۔ ابل کشی منٹ{ $retryLimit }درئی
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تیو اینہ صفحہ جمع کراستہ ستہ حد پعیسیش۔ مہربانی کہ تے سور جملہ جمع کوستہ کہ1منٹ وکیہ۔ صبر کوستہ کہ شکریہ۔
+       *[other] تیو اینہ صفحہ جمع کراستہ ستہ حد پعیسیش۔مہبانی کہ وکیہ{ $retryLimit } سور جملہ جمع کوستہ کہ۔صبر کوستہ کہ شکریہ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تیو اینہ صفحہ جمع کراستہ ستہ حد پعیسیش۔ مہربانی کہ تے سور جملہ جمع کوستہ کہ1منٹ وکیہ۔ صبر کوستہ کہ شکریہ
+       *[other] تیو اینہ صفحہ جمع کراستہ ستہ حد تہ پعیسیش۔ مہربنی کہ وکیہ { $retryLimit } سور صفحہ جمع کوستہ کہ ۔ صبر کوستہ کہ شکریہ
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } وسعݩستہ 1 اہ جملہ تہ
+       *[other] { $uploadedSentences } وسعیݩستہ جملہ{ $totalSentences } ستہ
+    }
 
 ## MENU ITEM TOOLTIPS
 
