@@ -27,6 +27,15 @@ record-abort-title = پنوی وای ریکا ڈنگ پوڈی ستای ؟
 record-abort-text = شترک تیو اچی با توستہ ترقی ( مطلب چوک کودیوم کعستای با )ستہ پیس کولاش
 record-abort-submit = کلپہ سمہ
 record-abort-continue = وکݜاستہ ختم
+record-abort-delete = نوکسہ ستہ & کلپ یسستہ
+review-aborted = پلوتستہ ختم با۔ تیو توستہ واکݜیشتہ ختم کوستہ وگچہ؟
+review-submit-title = دبارہ ایݩشی & سمہ
+review-submit-msg = وکݜاستہ کہ شکریہ!<lineBreak> </lineBreak>اوسترک دبارہ ایݩشی او تو ستہ کلپ ویعں پارہ سمہ
+review-recording = پلݣاہ
+review-rerecord = دوبارہ وکݜا
+review-cancel = سمستا اوتیا
+review-keep-recordings = وکݜاستہ پتہ کشہ
+review-delete-recordings = ایݩستہ وکشیتہ یسہ
 create-profile-button = پروفائل ایپو
 # menu item
 read-sentences = جملہ ولہ
