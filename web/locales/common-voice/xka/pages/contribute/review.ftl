@@ -18,6 +18,14 @@ sc-review-form-button-reject-shortcut = ن
 sc-review-form-button-skip-shortcut = س
 sc-review-form-button-submit =
     .submitText = نم نالیل
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] جولال دیراں نالیل۔مربنی
+        [one] دیرا نالیل جولال۔مربنی
+       *[other] مربنی ۔جولال نالیل
+    }
 sc-review-form-review-failure = نالیگیال نہ ݭݨک بال اؘ شبہ پتا دراں ڈز
 sc-review-link = نالیل
 
@@ -29,6 +37,7 @@ sc-criteria-make-sure = اوں جولال لٹوا اؘ رو اوں چیپر ج�
 sc-criteria-item-1 = جولال ٹیکل می صھی بیدے
 sc-criteria-item-2 = جولال گرمیٹکلی ٹیک بیدے
 sc-criteria-item-3 = جولال منیل لایق بیدے
+sc-criteria-item-6 = کیرا توسان دی نالیل کیر جولال حلاس بیل تھ ۔دئر اسان سے دی جولال سمٹیل می مدد تھا
 sc-review-empty-state = اوں ٹائم رل اوں می نالیل کیر گیب جولال نان
 report-sc-different-language = اوراک اَجیب
 report-sc-different-language-detail = رو اؘ جب می چوݨگیال این ۔رس دا اوراک این ا مہ گایہ اندازہ گینون تھ

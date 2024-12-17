@@ -30,7 +30,7 @@ target-segment-learn-more = دی پا جاناں
 change-preferences = مک گیرو
 vote-yes = آم
 vote-no = نا
-datasets = ناٹہ چھورل
+datasets = مالومات با گ
 languages = جب
 about = بابت
 partner = سیت
@@ -68,6 +68,7 @@ shortcut-skip = س
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
 shortcut-record-toggle-label = شرو/ایٹھی
+shortcut-rerecord-toggle = اک دا پانج ایں
 shortcut-rerecord-toggle-label = ریکاڈ دیرا
 shortcut-discard-ongoing-recording = ڈاییل
 shortcut-discard-ongoing-recording-label = روان ریکاڈنگ ختم تھ
