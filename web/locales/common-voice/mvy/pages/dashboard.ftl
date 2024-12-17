@@ -1,7 +1,7 @@
 ## Dashboard
 
-your-languages = تِیں ژِبہۡ
-toward-next-goal = مُت نخَیں کھِن٘گی تل/لا
+your-languages = تِئیں زِبہ
+toward-next-goal = مُت نخَئیں کِھن٘گی تل۔
 goal-reached = نخ ڇیلی تُھو
 clips-you-recorded = تِیں ریکارڈ کریل کٹرو
 clips-you-validated = سئیں کٹرَو چےۡ تُوں منظور کرہ څھے/چھی
@@ -62,33 +62,39 @@ n-clips-pluralized =
         [one] { $count }کٹرُو
        *[other] { $count }کٹرو
     }
-help-share-goal = تاں مقصد زَیں گتہ بنہ، زَیں مدد کرہ لہ مُت اوازی بِلاڑِگ۔
-confirm-goal = مقصد پکیۡرا
-goal-interval-weekly = ہفتہ وار
-share-goal-type-speak = بنَیں یاں
-share-goal-type-listen = ݜُن٘وَیں یاں
-share-goal-type-both = بنَیں یاں تے ݜُنۡوَیں یاں
-weekly-goal-created = تیں ہفتاں مقصد سن٘دژی تُھو
-daily-goal-created = تیں دیساں مقصد سن٘دژی تُھو
-track-progress = کماں روانتیا ݜلہ تے تاں حساباں پن٘ڑہۡ لا نھالاں بہ
-return-to-edit-goal = تاں مقصد سم یا بدل کرَیں یاں کریا پاتُو ݜلہ اےۡ
-share-goal = میں مقصد بنہ
+help-share-goal = تئیں مقصد تے نخ زاں کراں منہ چہ بیتُس گِشے مُت آوازہ چالہانٚتے؟
+confirm-goal = مقصد یا نخ پئیکرا
+goal-interval-weekly = ہفتہ وار۔
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = زاں گے چیلا { $count }تاں دیساں کٹروں نخ{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = زاں گے ڇیلا { $count }تاں ہفتاں نخاں کٹرو{ $type }
+share-goal-type-speak = منئیں
+share-goal-type-listen = ݜُن٘وَئیں
+share-goal-type-both = منئیں  تے ݜُنۡوَئیں
+# LINK will be replaced with the current URL
+goal-share-text = مئیں اُس ساتی اک ذاتی نخ یا مقصد سندہ څھے کامن وائیس پروگراماں کراں۔ می ملی شامل ہُونٚگلے مشینوں کراں ڇھڇیائے چہ واقعا منٚز خلق بلی گِشی منانٚتے  { $link }
+weekly-goal-created = تئیں ہفتئیں مقصد یا نخ سن٘دزی تُھو۔
+daily-goal-created = تیں دیساں مقصد  یا نخ سن٘دزی تُھو
+track-progress = کماں روانتیا ݜلہ تے تاں حساباں پن٘ڑہۡ تل نھالاں بہ
+return-to-edit-goal = تئیں مقصد یا نخ سم یا بدل کرَئیں کراں پاتُو ݜلہ اےۡ
+share-goal = مئیں مقصد نا نخ مُتوں کراں دے۔
 
 ## Goals
 
-streaks = کھِریۡ
+streaks = کھِریۡ۔
 days =
     { $count ->
-        [one] دیس
-       *[other] دېسهۡ
+        [one] دیس۔
+       *[other] دېسهۡ۔
     }
 recordings =
     { $count ->
-        [one] رِکاڈِن٘گ
-       *[other] رِکاڈِن٘گہ
+        [one] رِکازڈِن٘گ
+       *[other] رِکاڈِن٘گہ۔
     }
 validations =
     { $count ->
-        [one] پکیار
-       *[other] پکیارہ
+        [one] منظوری
+       *[other] منظوریہ
     }
