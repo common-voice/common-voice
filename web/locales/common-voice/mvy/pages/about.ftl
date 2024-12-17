@@ -18,6 +18,9 @@ about-dataset-release-title = ڈیٹاسیٹ جاری کرہ
 about-dataset-release-subtitle = بے ہر 3 یُون٘ہؤں مہ ڈیٹا سیٹ جاری کرِگ تھہ۔
 about-subscribe-text = کامَن وائس مِلیۡ رابطہ مہ دھرَیں یاں غرضی تُھوئی؟
 about-speak = بَنہ
+about-listen-queue = ݜُوَیں۔کَنار
+about-listen = ݜُوئیں
+about-is-it-valid = ݜُو کَٹرو منظُور ہول تُھو ییۡ؟
 
 ## Community Playbook Content
 ## What is a language

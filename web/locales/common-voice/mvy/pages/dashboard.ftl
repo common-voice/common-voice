@@ -37,17 +37,18 @@ difficult-difficulty = گِران۔
 pro-difficulty = حقہ مہ
 lose-goal-progress-warning = تئیں مقصد بدل کرہانٚس تِئیں کریل کام لاء بئیں خطرہ ہُوئینٚت۔
 want-to-continue = توۡ تاں کام جاری رڇھئیں ہجتی تُھو؟
-finish-editing = سم کرؤں اول باریائ تُھو یی؟
-build-custom-goal = تَیں مرضی یاں نخ سن٘دہ
+finish-editing = اول گی غلطی ملطی تھی کھئیں سئیں نھالے بئیرا؟
+lose-changes-warning = ہِئیں پھت کرے بییوں مطلب ݜُو تھی چہ تئیں کریل کام لاء بَݜَت۔
+build-custom-goal = تَئیں مرضئیں نخ سن٘دہ
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] مدد کرہ { $language } ژِبَیں چےۡ reach اَس { $hours } گھین٘ٹہ مہ ذاتی مقصدہ ہاری ڇیلیے۔
-       *[other] مدد کرہ { $language } ژِبَیں چےۡ reach اَس { $hours } گھین٘ٹیُوں مہ ذاتی مقصدہ ہاری ڇیلیے۔
+        [one] مدد کرہ{ $hours } گھین٘ٹوں مہ  { $language }ذاتی مقصد یا نخ ہار ڇیلئیں مہ۔
+       *[other] مدد کرہ{ $hours } گھین٘ٹوں مہ  { $language }ذاتی مقصد یا نخ ہار ڇیلئیں مہ۔
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] کامن وائس ریچَیں مدد کرہ لہ اُو { $hours } گھین٘ٹہ مہ ذاتی مقصدہ ہاری ڇیلیے۔
-       *[other] کامن وائس ریچَیں مدد کرہ لہ اُو { $hours } گھین٘ٹیُوں مہ ذاتی مقصدہ ہاری ڇیلیے۔
+        [one] کامن وائس پروگرامئیں مدد کرہ { $hours } گھین٘ٹوں مہ  اک زب مہ ذاتی مقصدہ ہار ڇیلئیں۔
+       *[other] کامن وائس پروگرامئیں مدد کرہ { $hours } گھین٘ٹوں مہ  اک زب مہ ذاتی مقصدہ ہار ڇیلئیں۔
     }
 set-a-goal = ایک مقصد اوک مقرر کر
 cant-decide = فیصلہ نیرہاں تُھو؟
