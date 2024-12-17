@@ -34,6 +34,14 @@ review-submit-msg = ریکاڈنگ تھال کیر مربنی۔تپہ  چپر ت
 review-recording = نالیل
 review-rerecord = دیکاڈ
 review-cancel = جمع تھال بس۔
+review-keep-recordings = ریکاڈنگ نام
+review-delete-recordings = می ریکاڈنگ ختم تھ۔
+review-terms = عام آواز ݭا تہ تو اسی شرائط قبولوں اؘ
+terms-agree = مہ قبولوں ۔
+terms-disagree = مہ نہ قبولوں۔
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تانی کلپس خرات تھالیل باڑ مربنی۔
+why-donate = تو گوا مینوسہ۔
 
 ## MENU ITEM TOOLTIPS
 
