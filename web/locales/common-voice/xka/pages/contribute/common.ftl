@@ -112,3 +112,4 @@ contribution-background-voices-description-extended = کیرا ریکاڈنگ ا
 contribution-background-voices-example-1-title = ٹراسک کہ گن ڈیناسور
 contribution-background-voices-example-1-explanation = تو یون آں?
 contribution-volume-title = تراٹ
+contribution-reader-effects-description = باڑریکارڈتہ ذات منندر ام آین آوں کو فطری شقل می جولال تھان۔تیس دینگ ساعت کمزیر اریکارڈنؙگ پاگینباںة
