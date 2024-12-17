@@ -33,6 +33,7 @@ review-submit-title = اندازہ گی تھ جمع تھا۔
 review-submit-msg = ریکاڈنگ تھال کیر مربنی۔تپہ  چپر تانی کلپس نالا تہ جمع تھ
 review-recording = نالیل
 review-rerecord = دیکاڈ
+review-cancel = جمع تھال بس۔
 
 ## MENU ITEM TOOLTIPS
 
