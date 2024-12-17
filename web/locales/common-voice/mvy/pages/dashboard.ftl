@@ -19,11 +19,25 @@ total-approved = بُٹ منظور ہونٚل
 overall-accuracy = مجموعی صحت/ٹھِک والئ
 set-visibility = اماں پشوں ٹھیک کروں
 visibility-explainer = ݜُو کاں ترتیب یا سٹنٚگ چہ تُھو کھئیں اُو لیڈر بورڈئیں پئیشہار کنٹرول کرانٚت۔ گی وخ چہ پُلیل ہُوند کھئیں تئیں پراگرس یا کریل کام پرائیوٹ ہُونٚݜت۔ اسئیں مطلب ݜُو تھی چہ تئیں فُٹُو، ناں تے کریل کام لیڈر بورڈ تل پشزہ ݜت نئ۔ اس بال امانٚگے نوٹ کرہ چہ لیڈر بورڈ تائیزارائیل کھئیں { $minutes } او کم لکھ وخ ہرانٚت چہ تبدیلی سموں منٚز داخل ہوُاں۔
-show-ranking = میں نمبر پشا
+visibility-overlay-note = نوٹ۔ اماں پشئیں تُس غرضی ہُنلُو تے اس سٹنٚگ تُس <profileLink> پروفائیل والا صفحہ تل نہ کرہانٚتے </profileLink>
+show-ranking = مئیں نمبر پشا
 
 ## Custom Goals
 
-both-speak-and-listen = بھجدُو
+get-started-goals = تاں نخ لا کام شروع کرہ
+create-custom-goal = تَیں مرضی یاں نخ سن٘دہ
+goal-type = تُس گی قسمئیں مقصد یا نخ سندئیں غرضی تھے؟
+both-speak-and-listen = بھجدَو
+both-speak-and-listen-long = بھجدَو (منوں تے ݜُووں)
+daily-goal = دیساں نخ۔
+weekly-goal = ہفتاں نخ۔
+easy-difficulty = ہسان
+average-difficulty = درمیانہ/اوسط
+difficult-difficulty = گِران۔
+pro-difficulty = ماہر
+want-to-continue = تُو جاتی رڇھَیں یاں غرضی تُھو یی؟
+finish-editing = سم کرؤں اول باریائ تُھو یی؟
+build-custom-goal = تَیں مرضی یاں نخ سن٘دہ
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] مدد کرہ { $language } ژِبَیں چےۡ reach اَس { $hours } گھین٘ٹہ مہ ذاتی مقصدہ ہاری ڇیلیے۔
