@@ -66,6 +66,11 @@ confirm-goal = مقصدے توثیق تِھیا
 goal-interval-weekly = ہفتہ واری
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = څھے { $count }کلپو ہر چھکے مقصد{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = شیئر تھہ { $count } توموْ کلپے ہفتہ واری مقصد { $type }
+share-goal-type-speak = موْݜ تھون
+share-goal-type-listen = کوْݨ دون
+share-goal-type-both = موْݜ تھون گہ کوْݨ دون
 
 ## Goals
 
