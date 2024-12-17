@@ -38,6 +38,7 @@ sc-criteria-item-1 = جولال ٹیکل می صھی بیدے
 sc-criteria-item-2 = جولال گرمیٹکلی ٹیک بیدے
 sc-criteria-item-3 = جولال منیل لایق بیدے
 sc-criteria-item-6 = کیرا توسان دی نالیل کیر جولال حلاس بیل تھ ۔دئر اسان سے دی جولال سمٹیل می مدد تھا
+sc-review-rules-title = اوں جولال منل اؘ مطابق این اؘ
 sc-review-empty-state = اوں ٹائم رل اوں می نالیل کیر گیب جولال نان
 report-sc-different-language = اوراک اَجیب
 report-sc-different-language-detail = رو اؘ جب می چوݨگیال این ۔رس دا اوراک این ا مہ گایہ اندازہ گینون تھ
