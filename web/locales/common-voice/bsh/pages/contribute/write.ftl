@@ -73,6 +73,14 @@ sc-bulk-upload-instruction = تو ستہ فائہ انی اشی یا<uploadButto
 sc-bulk-upload-instruction-drop = اتیوں شیستہ کہ فائلہ انی اتلا
 bulk-upload-additional-information = اگر اینہ فائل بارا تہ اچا دی معلومات پعستہ  وگچی با مہربانی کہ رابطہ کشی<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = اگر اینہ فائلہ بارا تہ اچا دی معلومات پعستہ وگہچی با ستہ ٹمپلٹہ تہ شامل نہ اسہ مہربانی کہ ربطہ کشی<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تو ستہ فائلہ انی اتیوݩشیشتہ کہ دی ابل کشی
+try-upload-again-md = دبارہ پلوتستہ ستہ ابل کشی
+select-file = فائلہ منتخب کشی
+select-file-mobile = پلوتستہ کہ فئلہ منتخب کشی
+accepted-files = صرف تی ایس پی فائل قبول اسہ
+minimum-sentences = فائل تہ اچاک تعں اچاک جملہ
+maximum-file-size = سکال تعں سکال فائل پریک25ایم بی
+what-needs-to-be-in-file = ایݩستہ فائلہ تہ کائ بوستہ ضروری اسہ
 
 ## SMALL BATCH SUBMISSION
 
