@@ -125,6 +125,13 @@ about-playbook-how-project-governance = منصوبو فیصلائے کاتھ ت�
 about-playbook-how-project-governance-content-1 = موزیلا کامن وائس تام دُنیے ایکٹوسٹو، جِبو ماہرانو، ڈیٹا سائنسدان، تعلیم گہ سافٹ ویئر انجیئرو متنوع قامو ممکن سنیگِن۔ آ  پروجیکٹ موزیلا فاؤنڈیشن اےْ انتظام دہ چلِیجانوْ۔
 about-playbook-how-project-governance-content-2 = ۔اسے حکمرانی بنیاد آ تُھوݨوجانیْ۔
 about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی گہ سُجِیار۔
+about-playbook-how-project-governance-content-4 = قامے شرکت گہ فیصلہ سازی۔
+about-playbook-how-project-governance-content-5 = قدر گہ سِیوݨ۔
+about-playbook-how-project-governance-content-6 = اکومجیْ احتسابے عمل۔
+about-playbook-how-project-governance-content-7 = <governanceLink>آ سے بارَد شناک گہ پڑِیا چہ بیْس کاتھ نظام چِلیوݨَس </governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس اےْ مالی امداد کاتھ تِھجانیْ؟
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن اےْ ایْک پروجیکٹُن، کھاں یو ایس 501 سی 3 نوْ۔ آ پروجیکٹ فی الحال تام <philantropicGrantLink>شان گیْ انسان دوستی گرانٹس گہ دُنیے جگو عطیاتو </philantropicGrantLink> ذریعہ گیْ مالی اعانت  دِجانی۔
+about-playbook-how-funded-content-2 = ڈیٹاسیٹس اےْ میزبانی گہ ریلیز تھونے، پلیٹ فارم مڑنے سنونے گہ چلِیون <africaMradiLink> آں قامے پروگرامی </africaMradiLink>چلِیون دہ بسکیْ رقم خرچ بِینیْ۔
