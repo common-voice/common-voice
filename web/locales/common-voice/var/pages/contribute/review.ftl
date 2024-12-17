@@ -38,13 +38,13 @@ sc-review-form-reviewed-message =
             ¡Čeriwéma!
     }
 sc-review-form-review-failure = Kíkátewere amó yoária. Enčí yoamítia ehépa
-sc-review-link = Neneniame
+sc-review-link = Neneniáme
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = Yo'raniame pu'ká revisaroaniame
-sc-criteria-title = Yo'raniame pu'ká revisaroaniame
-sc-criteria-make-sure = Yoma o'rasioni itomete kumpiaroamia yo'má a'hama si'miyame yo'raka:
+sc-criteria-modal = Yoraniáme pu'ká rewisaróaniame
+sc-criteria-title = Yoraniáme pu'ká rewisaróaniame
+sc-criteria-make-sure = Yomá orasióni itométe kumpiaróamia yomá aháma si'miyáme yoráka:
 sc-criteria-item-1 = I'hi na'wesari e'nimapu kawé yo'tetiame ka'wetiame
 sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
 sc-criteria-item-3 = Ihi na'wesari eni'mapu túka mačitaniame
