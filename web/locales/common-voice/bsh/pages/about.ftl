@@ -7,6 +7,7 @@ how-does-it-work-text = ایمو کوٹہ ستہ اہ کولا وسائل ڈاٹ
 
 ## How does it work section
 
+about-language-req-subtitle = کاچی ورے سنا ستہ کہ گجی کوتہت
 
 ## Community Playbook Content
 ## What is a language

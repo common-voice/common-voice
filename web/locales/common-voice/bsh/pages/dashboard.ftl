@@ -29,7 +29,12 @@ create-custom-goal = اہ ضرورت مطابق مقصد ایپاݩع
 goal-type = تیو کائی قسم  ہدف ایپاستہ وگہ چی
 both-speak-and-listen = آدیو ں
 both-speak-and-listen-long = آدیوں ولہ ستہ سݣہ ستہ
-daily-goal = ہرگرجار
+daily-goal = ہرگرجارمقصد
+weekly-goal = ہفتہ تہ مقصد
+easy-difficulty = اسان
+average-difficulty = پمیچ ستہ
+difficult-difficulty = گران
+pro-difficulty = ماہر
 
 ## Goals
 
