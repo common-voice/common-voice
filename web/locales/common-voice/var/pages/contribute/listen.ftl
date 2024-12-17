@@ -6,10 +6,10 @@ listen-3rd-time-instruction = Netekámu oká ejempločitia <playIcon></playIcon
 listen-last-time-instruction = <playIcon></playIcon> Ihičépu waási ultimúči ehémplo yoraniáme
 listen-empty-state = Yomá teéme iniwáe pu'ká ehempločitia tamó re'wisaróamia, kawé manía tamó nawésari.
 listen-empty-state-variants = Teéme ki iniwáe waási tamó pačámia audióči nawésari taámo pueblóči simiyáme. Kawétia kepúnia nawésari kianiáme sewí pueblóči močikáme naewánia pai púkači  nawésari
-listen-loading-error = Kikawisiteru teeme tekimia pu'ká audioči . Weikačuri ari oinepa yoraka enči.
-listen-abort-title = ¿Kahunaremu yooma werifikandomia., sii kaawe manía puú ejemploči?
-listen-abort-cancel = Simitenaremu yoraka werificandoka,,..sii kawe mania puú ejemploči toatiame.
-listen-abort-confirm = ¿Yooma kahunaremu rebisandoka?
+listen-loading-error = Kikawesítere teéme tékimia pu'ká audióči . Weikáčuri arí oínepa yoráka enčí.
+listen-abort-title = ¿Kahunáremu yomá werifikandómia,  kawé manía puú ehemploči?
+listen-abort-cancel = Simiténaremu yoráka werificandóka, kawé manía puú ehemploči toátiame.
+listen-abort-confirm = ¿Yomá kahunáremu re'wisaroaka?
 
 ## MENU ITEM TOOLTIPS
 
