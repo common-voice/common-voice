@@ -89,9 +89,16 @@ bulk-upload-success-toast = ڈل کَلاؤ اپلوڈ کېران گَئیت
 bulk-upload-failed-toast = اپلوڈ ناکام بُوَہ، مېرَبانی کېری دوبُوڑہ کوشش کېرِؤ۔
 bulk-submission-success-header = تانُو ڈل تعدادہ جمع کېرَئیکہ ݭڅی مېنہ شکریہ!
 bulk-submission-success-subheader = مے کامن وائیسہ امَنہ روزانہ فېدِکہ مدد کېرِمانېؤ کَلاوَنی مقاصد!
+upload-more-btn-text = واری بی کَلاؤ اپلوڈ کېرِؤ؟
+file-invalid-type = غلط فائل
+file-too-large = فائل لؤ ڈل تھنہ
+file-too-small = فائل لؤ لولہ تھنہ
+too-many-files = لؤ زیات فائل نام
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> لؤ عوامی ڈومېن لُبُسَؤ
 
 ## MENU ITEM TOOLTIPS
 
