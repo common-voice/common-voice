@@ -22,7 +22,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
-sc-review-form-keyboard-usage-custom = Ka'awe usaroamamu kiteperuma tachuchaniame; puka{ sc-review-form-button-approve-shortcut }yorame ; { sc-review-form-button-reject-shortcut } kinakimia i{ sc-review-form-button-skip-shortcut }  ni'nia
+sc-review-form-keyboard-usage-custom = Kawé usaróamamu kitepéruma tačičániame pu'ká: { sc-review-form-button-approve-shortcut }yoráme,{ sc-review-form-button-reject-shortcut } kinakimiá, i { sc-review-form-button-skip-shortcut }  ninímia
 sc-review-form-button-submit =
     .submitText = Ka'juka pu'ká re'wisaroaka
 # Variables:
