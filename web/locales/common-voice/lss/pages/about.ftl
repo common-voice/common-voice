@@ -54,10 +54,13 @@ about-nav-how-it-works = ڪيئن؟
 about-nav-partners = پارٽنرا
 about-nav-get-involved = شامل ٿيو.
 about-nav-how-it-works-2 = ڪومن وائس ڪم ڪيئن تي ڪري ؟
+about-nav-playbook = سک ته ڪيئن حصو وٽڻون آ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ڪو من وائس ام هيڪڙي زبان چو ا ؟
+about-playbook-what-is-language-content-1 = زبان ا جي باريم  سوچڻ جا الاهي طريقا ان. اسپيچ ريڪگنيشن ماڊلز جي مقصدن لا، Common Voice مشورو ڏي تو ته ’باہمي سمج ات ڌيان ڏيياڙ و کپا، يا ’ڇو هن زبان ا جي ڳالاڙ وارا هڪري ٻيک سمجهي سگهن تا جڏهن هي ڪوشش ڪن تا؟
 
 ## How do I add a language
 
