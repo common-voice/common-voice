@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>اے ٹار
        *[other] <bold>{ $count }</bold>ٹۡار
     }
-goal-help-recording = اسےۡہر دوسے،ۡ             ریکارڈ مقصد                      مےۡتی کامن وای،س اےۡ  مدد تال
+goal-help-recording = اسےۡہر دوس اے،ۡ             ریکارڈ مقصد                      مےۡتی کامن وای،س اےۡ  مدد تال
 goal-help-validation = دی       کیر راڈ با۔
 contribute-more =
     { $count ->
