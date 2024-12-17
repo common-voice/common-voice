@@ -19,6 +19,10 @@ about-new-lang-subtitle = اسين ڪومن وائس سائٽ هنا زبانم 
 about-voice-contrib-title = وائس جو ڪنٽربيوشن
 about-voice-contrib-subtitle = ماڻھو اچين تا ٻيو پانجي آواز ڪنٽربوٽ  تا ڪن.
 about-voice-validation-title = وائس جی ويلیڏيشن
+about-voice-validation-subtitle = ٻيا ماڻهون ھن ڪلپنک ويليڊيٽ تا ڪن
+about-dataset-release-title = ڊيٽا سيٽاَک ريليزڪر
+about-dataset-release-subtitle = اسين ڊيٽاسيٽ اَک هر ۳ مھينیم رليز تا ڪريان
+about-subscribe-text = ڪومن وائس آ سين رابطيم هونجڙ چائين تو؟
 
 ## Community Playbook Content
 ## What is a language
