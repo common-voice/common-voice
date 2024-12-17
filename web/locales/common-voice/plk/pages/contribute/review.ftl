@@ -52,3 +52,7 @@ sc-review-empty-state = فی الحال آ جِب دہ جائزہ ہرونے ک�
 report-sc-different-language = مختلف جِب
 report-sc-different-language-detail = آ اسہ جِبِجیْ مختلفِن کھاں سے موْس جائزہ ہرمس۔
 sentences-fetch-error = جُملو اوروڑ دہ ایْک اُرنئی آلِن۔
+review-error = آ جُملائے جائزہ ہرون دہ ایْک ڇھا بِلِن۔
+review-error-rate-limit-exceeded = څھوْ لئی جِنیْ گیْ بوجنَت۔ مہربانی تھے جُملائے جائزہ ہرونے کِرِیا شِناکَک وخ نِکھلِیا توْ آ یقین تِھجبائے چہ آ صحیح نوْ۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = بیْس شِنا بڑیْ تبدیلی تھوݨَس۔
