@@ -72,3 +72,5 @@ answer-questions-menu-item-tooltip = تو ستہ ورے تہ سوال دے نݜ�
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = اختیاری مینیو ولہ
+read-sentences-menu-item-aria-label = کمیونٹی ور ور ورے تہ سعݩیستہ جملہ ولہ
+answer-questions-menu-item-aria-label = کمیونٹی ولہستہ جواب پعستہ کہ اہ نوئی سوال سمہ۔

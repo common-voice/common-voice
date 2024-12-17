@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = ستروہ
+write = ستورا
 
 ## BULK SUBMISSION 
 
