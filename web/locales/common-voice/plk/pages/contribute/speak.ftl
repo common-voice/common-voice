@@ -46,9 +46,26 @@ why-donate = تُس کیْہ کھوجِینوئے؟
 why-donate-explanation-1 = آ معلومات دون اختیاری نیْ، څھوْ اسہ وخ دہ ٹل تھون پکارنَت چہ څھوڑ ہسنتِیا  بی۔ کرہ بیْس ڈیٹاسیٹ جاری تھوݨَس توْ بیْس تمام ذاتی معلومات محفوظ رڇھوݨَس۔ آں آ موْڙِجیْ یقین تھوݨَس چہ څھے نُوم گہ ای میل، آبادیاتی معلومات، عمر گہ جنسے بارد منسلک نانیْ۔
 add-information-button = معلومات ٹل تِھیا۔
 continue-speaking-button = نیں شکریہ، موْݜ کال جاری تِھیا۔
+create-profile-text = تومیْ معلومات محفوظ تھون لُکھینَت<createProfile> ایْک پروفائل سنِیا</createProfile>
+thanks-for-voice-toast = څھے آوازے معلوماتے شکریہ۔
+thanks-for-voice-toast-error = څھے آوازے معلومات جمع تھون دہ ایْک خرابی پیخ آلِن۔
+first-cta-gender-select-default-option = ایْک آپشن اُچِیا۔
+first-cta-gender-select-help-text =
+    .label = څھوْس تومیْ جنس یا جنسے وضاحت کاتھ تُھویت؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تومیْ آواز عطیہ دونے کِرِیا څھے شکریہ۔
+second-cta-subtitle-text = څھوْ پروفائل سے ساتیْ تومیْ سرگرمی جیْ نظر بِدبانَت آں صوتی ڈیٹائے تعاون تھیگ جگو سے رابطہ گہ تھوبانَت۔
+already-have-an-account = مُڇھو گیْ اکاؤنٹ ہنو <login> لاگ ان </login>
+create-profile-button = ایْک پروفائل سنِیا۔
+# IMAGE TAGS
+img-alt-success-checkmark = بَرَیئے نکھوْ
+# menu item
+read-sentences = جُملائے پڑِیا۔
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جُملائے رزہ، سوالو جُوابی دِیا۔
+read-sentences-menu-item-tooltip = تومی جِب دہ جُملائے پڑِیون دہ اکو ریکارڈ تِھیا۔
 
 ## MENU ITEM ARIA LABELS
 
