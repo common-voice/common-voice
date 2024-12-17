@@ -136,6 +136,9 @@ small-batch-response-message =
         [one] { $uploadedSentences } وسعݩستہ جملہ1 ستہ، وسپلہ<downloadLink> آنی </downloadLink> پتہ کعی جملہ (ڈاونلوڈ) واوکݜا ستہ کہ
        *[other] { $uploadedSentences } ستہ{ $totalSentences } جملہ وسعݩیہ۔ وسپلہ<downloadLink>آنی</downloadLink>پتہ کعی جملہ (ڈاونلوڈ) ووکݜاستہ کہ
     }
+small-batch-sentences-rule-1 = ہدایات تہ عمل کشعں “گجی جملہ اونذَ سنا باتوم؟”
+small-batch-sentences-rule-2 = ہر یال تہ اہ جملہ سنا
+small-batch-sentences-rule-3 = اہ ویں “اتوئ” یا“واپس” وسپلہتہ مع جملہ اہ یال تہ جدا کشی
 
 ## MENU ITEM TOOLTIPS
 
