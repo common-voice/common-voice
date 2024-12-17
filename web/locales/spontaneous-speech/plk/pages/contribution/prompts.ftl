@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = نقل تھونے طریقہ سِڇھہ
 learn-how-to-use-transcribe-explanation = بالکل اج اسیہ لِکِیا کھاں مُشائے فرجاؤن، بشمول پلیس ہولڈر لفظی کاتھ چہ 'um' یا  'errr'.
 learn-how-to-use-transcribe-guidance = کلک <guidanceLink> ادی </guidanceLink> آ صفحہ استعمال تھونے طریقہ سِڇھونے کِرِیا۔
 learn-how-to-use-check-transcript = نقل چیک تھونے طریقہ سِڇھہ
+learn-how-to-use-check-transcript-explanation = ٹرانسکرپشن دہ ہر لفظ یا غیر لغویٔ موْݜ کال گہ آوازے گرفت دہ ہرون پکارن، کھاں منُوڙوئے رجاؤس، مذکور سے ساتیْ۔
+learn-how-to-use-check-transcript-guidance = کلک <guidanceLink> ادی </guidanceLink> آ صفحہ استعمال تھونے طریقہ سِڇھونے کِرِیا۔
