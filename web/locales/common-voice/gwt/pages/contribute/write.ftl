@@ -1,0 +1,15 @@
+## WRITE PAGE
+
+write = یَک عوامی ڈومېن جُملہ
+
+## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
