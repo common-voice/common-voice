@@ -40,6 +40,18 @@ want-to-continue = څھوْس جاری پھتینَت یا؟
 finish-editing = مُڇھو ایڈیٹنگ بڑِیا؟
 lose-changes-warning = چیئے پھتونے مقصدن چہ څھوْ تومیْ تبدیلیوجیْ محروم بُویت۔
 build-custom-goal = تومیْ الہا گیْ مقصد سنِیا
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] امداد تِھیا { $hours } گھنٹو مجی { $language } ذاتی مقصد  سے ساتی
+       *[other] امداد تِھیا { $hours } گھنٹو مجی { $language } ذاتی مقصد  سے ساتی
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامن وائس اےْ امداد تِھیا { $hours } گھنٹائےجِبے ذاتی مقصد سے ساتیْ
+       *[other] کامن وائس اےْ امداد تِھیا { $hours } گھنٹائےجِبے ذاتی مقصد سے ساتیْ
+    }
+set-a-goal = مقصد موقرَڑ تِھیا
+cant-decide = فیصلہ نہ تھوبامَس؟
 
 ## Goals
 
