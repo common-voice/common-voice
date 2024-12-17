@@ -116,9 +116,15 @@ about-playbook-how-validate-content-4 = اگر کوئے کلپ دُو جک سہ 
 ## How to access dataset
 
 about-playbook-how-access-dataset = موْ ڈیٹاسیٹ بُجَیش کاتھ اُڇھام آں استعمال تھم؟
+about-playbook-how-access-dataset-content-1 = څھوْ صفحہ جیْ بوجبانَت <datasetsPage>ڈیٹاسیٹ صفحات</datasetsPage>، تومی الہائے ورژن گہ جِب اُچبانَت، آں اسہ ڈاؤن لوڈ تھوبانَت، فائلو مجی بارَد <metadataLink> میٹا ڈیٹا </metadataLink>بِینوْ، کاتھہ چہ آبادی معلومات گہ توثیقے ڈیٹا۔  ڈیٹا سیٹ ڈاؤن لوڈ تھونے کِرِیا څھوْ ایْک ای میل پتہ دون بُو۔
+about-playbook-how-access-dataset-content-2 = آگر څھوْس اے ایس آر ماڈلو ٹولز اورڑینَت توْ، څھوْس قامے<discourseLink> مُتہ جگو سے رابطہ تھوبانَت </discourseLink>
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبو فیصلائے کاتھ تِھجنَن؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائس تام دُنیے ایکٹوسٹو، جِبو ماہرانو، ڈیٹا سائنسدان، تعلیم گہ سافٹ ویئر انجیئرو متنوع قامو ممکن سنیگِن۔ آ  پروجیکٹ موزیلا فاؤنڈیشن اےْ انتظام دہ چلِیجانوْ۔
+about-playbook-how-project-governance-content-2 = ۔اسے حکمرانی بنیاد آ تُھوݨوجانیْ۔
+about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی گہ سُجِیار۔
 
 ## How is Common Voice funded
 
