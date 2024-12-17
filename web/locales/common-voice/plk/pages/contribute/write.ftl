@@ -101,6 +101,24 @@ too-many-files = لے گھݨ فائلہ
 small-batch-instruction = <icon></icon> لا تھے عوامی ڈومینے جُملائے ٹک تِھیا۔
 multiple-sentences-error = څھوْس ایْک جُملہ جمع تھونے کِرِیا لا جُملائے ٹل نہ تھوبانَت۔
 exceeds-small-batch-limit-error = 1000 جُملوجیْ بسکہ جمع نہ تھوبانَت۔
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] حدِجیْ تجاوز بِلِن۔ 1 منٹ پتو پھری کوشِش تِھیا۔
+       *[other] شرح اےْ حدِجیْ تجاوز بِلِن۔ منٹ دہ پھری { $retryLimit } کوشش تِھیا۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] شرح اےْ حدِجیْ تجاوز بِلِن۔ 1 سیکنڈ پتو پھری کوشش تِھیا۔
+       *[other] شرح اےْ حدِجیْ تجاوز بِلِن سیکنڈ { $retryLimit } دہ پھرہ کوشش تِھیا۔
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] څھوْ آ صفحہ اےْ کِرِیا جمع تھونے حدڑ اُڇَھتانَت۔ مہربانی تھے مُتوْ جُملہ پیش تھونِجیْ مُڇھو  1  منٹ ہسار بِیا۔
+       *[other] څھوْ آ صفحہ اےْ کِرِیا جمع تھونے حدڑ اُڇَھتانَت۔ مہربانی تھے دُوموگوْ جُملہ جمع تھونِجیْ مُڇھو { $retryLimit }  ہسار بِیا۔ څھے صبرے شکریہ۔
+    }
 
 ## MENU ITEM TOOLTIPS
 
