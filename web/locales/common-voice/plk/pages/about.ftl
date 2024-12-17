@@ -71,6 +71,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = لوکلائزیشن سائٹ سہ کوْم کاتھ تِھینیْ؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ اےْ ترجمہ آ سِجیْ بِینوْ <strong> پونٹون </strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink> اکاؤنٹ سنِیا</pontoonAccountLink> اگر څھوْدی نِش توْ تے تومیْ جِبے انتخاب تِھیا <strong> (ٹیم) </strong> آں تے پروجیکٹے انتخاب تِھیا <pontoonCvLink> کامن وائس </pontoonCvLink> ترجمہ تھونَڑ فائلہ بُویئی۔ ایْکِجیْ کلِک تِھیا،  تے انگرزی دہ لفظی گہ سیݨے ترجمہ تھونے کِرِیا ایُک باکس پشِینو۔
 
 ## How to add sentences
 
