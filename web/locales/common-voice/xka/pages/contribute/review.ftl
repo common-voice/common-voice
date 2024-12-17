@@ -12,6 +12,10 @@ sc-review-form-button-skip = چھور
 sc-review-form-button-approve = قبولیل
 sc-review-form-button-submit =
     .submitText = نم نالیل
+sc-review-form-review-failure = نالیگیال نہ ݭݨک بال اؘ شبہ پتا دراں ڈز
+sc-review-link = نالیل
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = نالیل اؘ شرطونی
+sc-criteria-make-sure = اوں جولال لٹوا اؘ رو اوں چیپر جولال سہ ݭجین اؘ کو نہ
