@@ -20,3 +20,13 @@ respond-bubble-subtitle = څھوْس سیݨوڑ قدرتی شان گیْ جوا�
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>نقل تِھیا </mark>
 transcribe-bubble-subtitle = څھوْس آڈیو کلپ دہ جوک گہ ݜُݨنَت، اسہ لِکِیا۔
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark> چیک </mark>
+check-bubble-subtitle = څھوْ چیک تِھیا چہ  ٹرانسکرپشن آڈیو سے ساتیْ مماثل ہنو یا۔
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark> ڈیٹا </mark>
+data-bubble-subtitle = بیْوس کرہ کرہ ڈیٹاسیٹ جاری تھوݨَس۔
+contact-us = اسو سے رابطہ تِھیا
+contact-us-title = آ پروجیکٹ دہ ٹل بونے دلچسبی نیْ یا  اسو سے ساتیْ شراکت داری تھون کھوش نَت؟
+contact-us-email = ای میل <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = څھوْ مُڇھو گیْ کامن وائس اےْ اسپونٹینیئس اسپیچ پروجیکٹے کِرِیا اسے بِیٹا ٹیسٹنگ گروپ دانَت؟
