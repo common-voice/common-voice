@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = یَک عوامی ڈومېن جُملہ
+write = لِکِؤ
 
 ## BULK SUBMISSION 
 
