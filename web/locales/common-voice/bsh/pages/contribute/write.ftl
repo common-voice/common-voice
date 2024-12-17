@@ -41,6 +41,16 @@ sentence-domain-select-placeholder = ترہ ڈومین تا ویک انتخاب 
 agriculture_food = زمیدای دے یو واں
 # Sentence Domain dropdown option
 automotive_transport = امو چیتہ دے اڅستہ استہ
+# Sentence Domain dropdown option
+finance = ارہ وار
+# Sentence Domain dropdown option
+service_retail = خدمت دے یا پارہ
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = وݜ مݜ
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون،دے حکومت
 
 ## BULK SUBMISSION 
 
