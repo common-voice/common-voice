@@ -131,9 +131,25 @@ add-small-batch-success =
         [one] { $uploadedSentences } 1 جُملہ ٹول تِھجِلوْ
        *[other] { $uploadedSentences } مجیْ { $totalSentences } جُملائے جمع تِھجِلہ
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 جُملہ مجنِیؤ جمع بِلوْ۔  ادی <downloadLink> کلک تِھیا </downloadLink> رد تھیلہ جُملائے ڈاؤن لوڈ تھونَڑ ادی کلک تِھیا۔
+       *[other] { $uploadedSentences }جُملو مجنِیؤ </downloadLink> جُملائے جمع بِلہ۔<downloadLink> رد تھیلہ جُملائے ڈاؤن لوڈ تھونَڑ ادی </downloadLink>جہ کلک تِھیا۔
+    }
+small-batch-sentences-rule-1 = رہنما خطوطوج عمل تھے موْس کھاں جُملائے ٹل تھوبامَس؟
+small-batch-sentences-rule-2 = ایْک جُملہ ایک کِھڇی دہ ٹل تِھیا۔
+small-batch-sentences-rule-3 = ایْک چوْٹ ”انٹر“ یا ”ریٹرن“ جیْ شت تھے جُملائے ایْک کِھڇیْ دہ جُدا تِھیا۔
+small-batch-sentences-rule-4 = 1000 جُملو بُجَیش ٹل تِھیا۔
+small-batch-sentences-rule-5 = بُٹہ جُملو ایک ڈومین بون پکارُن۔
+small-batch-sentences-rule-6 = بُٹہ جُملو ایْک حوالہ بون پکارُن۔
+# menu item
+add-sentences = جُملائے ٹک تِھیا۔
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جُملائے ٹل تِھیا آں اسݨے جائزہ ہرہ، سوالات ٹل تِھیا، آڈیو نقل تِھیا۔
+add-sentences-menu-item-tooltip = تومیْ جِب دہ جُملائے ٹل تِھیا۔
 
 ## MENU ITEM ARIA LABELS
 
