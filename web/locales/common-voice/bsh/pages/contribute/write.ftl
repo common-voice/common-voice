@@ -23,6 +23,13 @@ new-sentence-rule-8 = مثالی او فطری دے وری وار( اینہ جم
 login-instruction-multiple-sentences = <loginLink>اتو ای</loginLink>یا<loginLink> بہ ائ</loginLink>سکال جملہ سنا ستہ کہ
 how-to-cite = اوݩزہ کائی کہ حوالہ پعلوم؟
 how-to-cite-explanation-bold = یو آر ایل لنک یا کودیوم ستہ پورا نام مع حوالہ پعں
+how-to-cite-explanation = اگر اینہ توستہ الفاظ اسہ با صرف گجی کشی<italicizedText>“خود حولہ</italicizedText>۔ ایمو اینہ زعݩستہ ضروری اسہ تو اینہ مواد کو ستعݩ حاصل کعسہ اگجاعݩ ایمو ایݩش کومو چے اینہ عوامی ڈومین تہ اسہ او حق اشاعت دی لاگو نہ اسہ . حولہ جات بارہ تہ اچا دی معلومات ایموستہ<guidelinesLink> رہنمائی صفحہ تہ ایݩش کشی</guidelinesLink>
+guidelines = پوت وعاݩ
+contact-us = ایمو مع ربطہ کشی
+add-sentence-success = جملہ وسعݩیہ
+add-sentence-error = جملہ سنا ستہ تہ خرابی
+required-field = مہربانی کہ تے اینہ فیلڈ پریک کشی
+single-sentence-submission = اہ جملہ سعݩاستہ
 
 ## BULK SUBMISSION 
 
