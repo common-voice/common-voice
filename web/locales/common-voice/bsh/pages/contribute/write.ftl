@@ -1,7 +1,8 @@
 ## WRITE PAGE
 
 write = ستورا
-write-instruction = سنا<icon>ا</icon>اہ عوامی جملہ
+write-instruction = سنا<icon>ا</icon>اہ عوامی ڈومینہ جملہ
+write-page-subtitle = آنی منچاں سنہ تے وسعݩیستہ سی سیـ-0 لائسنس یافتہ ڈاتا سیٹ سنا ستہ بولہ
 sentence =
     .label = جملہ
 sentence-input-placeholder = یا ستہ عوامی جملہ آنی اتیو شعݩ
