@@ -3,11 +3,11 @@
 your-languages = تِئیں زِبہ
 toward-next-goal = مُت نخَئیں کِھن٘گی تل۔
 goal-reached = نخ ڇیلی تُھو۔
-clips-you-recorded = تِیں ریکارڈ کریل کٹرو
-clips-you-validated = سئیں کٹرَو چےۡ تُوں منظور کرہ څھے/چھی
-todays-recorded-progress = کٹرو رِکاڈ کرئیں آزُوک/آژُک کریل کام
-todays-validated-progress = کٹرو منظُور کریں یاں آزوک/آژُک کریل کام
-stats = حساب کِتاب
+clips-you-recorded = تِئیں ریکارڈ کریل کٹرو
+clips-you-validated = تئیں منظور کریل کٹرو
+todays-recorded-progress = کٹرو رِکارڈ کرئیں آزُک/آژُک کریل کام۔
+todays-validated-progress = کٹرو منظُور کرئیں آزک/آژُک کریل کام
+stats = حساب کِتاب۔
 awards = انعامہ
 you = تُوۡ
 everyone = ہرکاں/ہر اوک
