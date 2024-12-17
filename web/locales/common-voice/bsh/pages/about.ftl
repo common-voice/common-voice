@@ -8,6 +8,10 @@ how-does-it-work-text = ایمو کوٹہ ستہ اہ کولا وسائل ڈاٹ
 ## How does it work section
 
 about-language-req-subtitle = کاچی ورے سنا ستہ کہ گجی کوتہت
+about-localization-title = ویب سائڈ جائ
+about-localization-subtitle = ویب سائڈہ ستہ ستورئی ایکی ورے تہ پلگاں ستہ بولہ اسہ
+about-sentence-collection-title = جملہ وسعاں ستہ
+about-sentence-collection-subtitle = منچان کاٹ کہ ولہستہ کہ جملہ وسعاں ستہ بولہ آئی
 
 ## Community Playbook Content
 ## What is a language

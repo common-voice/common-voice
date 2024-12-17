@@ -35,6 +35,11 @@ easy-difficulty = اسان
 average-difficulty = پمیچ ستہ
 difficult-difficulty = گران
 pro-difficulty = ماہر
+lose-goal-progress-warning = توستہ مقصد بدل کوستہ مع تیو موجودہ پنوی استہ تݩع پتہ بولاش
+want-to-continue = کائی تیو جاری ساتستہ وگچہ ؟
+finish-editing = پنوی وای ترمیم پوڈا
+lose-changes-warning = شترک پاتستہ مقصد اسہ چہ تیو توستہ تبدیلی پیس کولاش
+build-custom-goal = او ضرورت مطابق مقصد ایپا ݩع
 
 ## Goals
 
