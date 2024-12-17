@@ -48,6 +48,13 @@ about-playbook-what-is-language-content-3 = کوئے جِبو گرائمر، ل�
 ## How do I add a language
 
 about-playbook-how-add-language = موْس جِب کاتھ ٹل تھم؟
+about-playbook-how-add-language-content-1 =
+    تم مُڇھو چیک تِھیا چہ څھے <languageLink> جِب  ٹلِن یا<languageLink>
+    اگر ٹل نانیْ تو تے ٹل تھوبانَت<languageRequestLink> تومیْ جِب ٹل تھونے بارَد کھوجِیا  
+     </languageRequestLink>
+     آس مجی دو مراحلن۔ سائٹے ترجمہ تھون آں جُملائے ٹول تھون۔
+about-playbook-how-add-language-translating-heading = سائٹے ترجُمہ تھون۔
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون استعمال تھونے بارَد اسے گائیڈ ڇکِیا۔</translateVideoLink>
 
 ## How does localization work
 
