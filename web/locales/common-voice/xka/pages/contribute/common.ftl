@@ -140,5 +140,6 @@ contribution-volume-description = منندر تراٹ آک دی دا قدرتی 
 contribution-reader-effects-title = منندر ام راے
 contribution-reader-effects-description = باڑریکارڈتہ ذات منندر ام آین آوں کو فطری شقل می جولال تھان۔تیس دینگ ساعت کمزیر اریکارڈنؙگ پاگینباںة
 contribution-just-unsure-title = اتیش شکیی
+contribution-just-unsure-description = کیرا تو اوں ذآتشے اوم سہ ڈپیلسو اون منیل سہ نہ یوپونس  تہ،دیر  تو تانی عقل دا کا گینتی اے تو با دو ییر بیل تہ،رس بھآگہ  چھور۔تے دی ریکارڈنگ پر تراپ دہ
 see-more = ۔۔۔۔۔۔۔۔۔۔۔باڑتہ نال
 see-less = ۔۔۔۔۔۔۔۔۔۔۔باڑتہ نال
