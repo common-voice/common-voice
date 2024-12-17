@@ -1,6 +1,18 @@
 ## REVIEW
 
 sc-review-lang-not-selected = تو کاٸ دی وری نݜان نہ کعستہ آئ۔مہربانی کہ تے تو ستہ<profileLink> پروفائل تہ ای </profileLink>ورے نݜان کوستہ کہ۔
+sc-review-title = جملہ دبارہ ایݩش کشی
+sc-review-loading = جملہ پریک بوتہ…
+sc-review-select-language = مہربانی کہ تے اہ ورے نݜان کشی جملہ دوبارہ ایݩش کوستہ کہ
+sc-review-no-sentences = دبارہ ایݩش کوستہ کہ جملہ نہ آئ<addLink> اوسترکاچاک دی جملہ اپار کشی!</addLink>
+sc-review-form-prompt =
+    .message = دبارہ ایݩش کعستہ جملہ نہ سمعیستہ آئ' پتیلاشا?
+sc-review-form-usage = جملہ تصدیق کوستہ کہ دڅیاریکاں کشی ۔اتلا ستہ کہ کواریکاں کشی۔ اتلا ستہ کہ اولݩع کشی<strong>تو ستہ جائزہ اتیوݩشتہ نہ پمݜٹہ
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = بودجہ: { $sentenceSource }
+sc-review-form-button-reject = اتلاستہ
+sc-review-form-button-skip = پوتیاستہ
 sc-review-form-button-approve = مݨستہ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ی
@@ -20,9 +32,12 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } دبارہ ایݩش کعا۔ ݜمݜ باش۔ شکریا
     }
 sc-review-form-review-failure = جائزہ نہ ستاݩ گواہ ۔ مہربانی کہ تے دی ابل کشی
+sc-review-link = پلݣاہ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = معیاری جائزہ
+sc-criteria-title = معیاری جائزہ
 sc-criteria-make-sure = اینہ وری یقینی ایپا چہ جملہ ویںع درج بی معیار تہ پورہ  اسہ کہ
 sc-criteria-item-1 = جمہ سئی ھجاء تہ بوستہ اسہ
 sc-criteria-item-2 = جملہ گرائمر لحا ظ تہ سئی بوستہ اسہ

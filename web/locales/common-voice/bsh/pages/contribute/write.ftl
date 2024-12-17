@@ -100,6 +100,18 @@ too-many-files = بلیوک سکال فائل
 small-batch-instruction = <icon></icon>سکال عوامی ڈومینہ ستہ جملہ سناعں
 multiple-sentences-error = شا سکال جملہ سنا نہ بہ تعں کیوعݩ او جمع کراستہ کہ
 exceeds-small-batch-limit-error = 1000تعں سکال جملہ جمع کو نہ بہ تعں
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] حد تعں پلول سیسہ۔ 1منٹ درئی ابل کشی
+       *[other] حد تعں پلولسیسہ۔  ابل کشی  منٹ{ $retryLimit } درئی
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] حد تعں پلو لسیسہ۔ 1 منٹ درئی ابل کشی
+       *[other] حد تعں پلو لسیسہ۔ ابل کشی منٹ{ $retryLimit }درئی
+    }
 
 ## MENU ITEM TOOLTIPS
 
