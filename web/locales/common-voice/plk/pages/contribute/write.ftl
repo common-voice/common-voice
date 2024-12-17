@@ -119,6 +119,18 @@ rate-limit-message-minutes =
         [one] څھوْ آ صفحہ اےْ کِرِیا جمع تھونے حدڑ اُڇَھتانَت۔ مہربانی تھے مُتوْ جُملہ پیش تھونِجیْ مُڇھو  1  منٹ ہسار بِیا۔
        *[other] څھوْ آ صفحہ اےْ کِرِیا جمع تھونے حدڑ اُڇَھتانَت۔ مہربانی تھے دُوموگوْ جُملہ جمع تھونِجیْ مُڇھو { $retryLimit }  ہسار بِیا۔ څھے صبرے شکریہ۔
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] څھوْ آ صفحہ اےْ کِرِیا جمع تھونے حدڑ اُڇَھتانَت۔ مہربانی تھے دوموگْ جُملہ پیش تھونِجیْ مڇھو 1 سیکنڈ انتظار تِھیا۔ څھے صبرے شکریہ۔
+       *[other] څھوْ آ صفحہ اےْ کِرِیا جمع تھونے حدڑ اُڇَھتانَت۔ مہربانی تھے دوموگْ جُملہ پیش تھونِجیْ مڇھو انتظار { $retryLimit }تِھیا۔ څھے  شکریہ۔
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 جُملہ ٹول تِھجِلوْ
+       *[other] { $uploadedSentences } مجیْ { $totalSentences } جُملائے جمع تِھجِلہ
+    }
 
 ## MENU ITEM TOOLTIPS
 
