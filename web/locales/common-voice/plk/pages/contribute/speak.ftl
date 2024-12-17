@@ -21,6 +21,24 @@ review-tooltip = بوجون دہ ادی کلپو جائزہ ہرہ آں ست د�
 share-clip = توموْ کلپ شیئر تِھیا۔
 share-common-voice = کامن وائس شیئر تِھیا۔
 review-instruction = اگر ضورڑتِن تو کلپو جائزہ ہرہ آں ست دُبار ریکارڈ تِھیا۔
+record-submit-tooltip = { $actionType } تِیارَن توْ جمع تِھیا۔
+clips-uploaded = کلپس اپ لوڈ بِلہ۔
+record-abort-title = مُڇھو ریکارڈ بڑِیا۔
+record-abort-text = چیئے پھتونے مقصدِن چہ څھوْ تومیْ ترقی جیْ بوجِیت۔
+record-abort-submit = کلپس جمع تِھیا۔
+record-abort-continue = ریکارڈنگ بڑِیا۔
+record-abort-delete = نِکھزہ آں کلپس ڈیلیٹ تِھیا۔
+review-aborted = اپ لوڈ رٹجِلِن۔ څھوْو تومیْ ریکارڈنگز حذف تھینَت یا؟
+review-submit-title = ریویو آں جمع تِھیا۔
+review-submit-msg = ریکارڈنگ تھونے کِرِیا څھے شکریہ <lineBreak></lineBreak> چیئے ذیل دہ تومہ کلپو جائزہ ہرہ آں جمع تھیا۔
+review-recording = ریویو
+review-rerecord = ست دُبار ریویو
+review-cancel = جمع تھون کینسل تِھیا۔
+review-keep-recordings = ریکارڈ جاری پھتِیا۔
+review-delete-recordings = می ریکارڈنگ ڈیلیٹ تِھیا۔
+review-terms = کامن وائس اےْ استعمال تھے څھوْس اسے <termsLink> شرائط </termsLink> گہ <privacyLink> رازداری نوٹس سے اتفاق تھینَت </privacyLink>
+terms-agree = موْ متفِقنُس
+terms-disagree = موْ متفِق نانُس۔
 
 ## MENU ITEM TOOLTIPS
 
