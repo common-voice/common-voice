@@ -21,6 +21,18 @@ visibility-explainer = ݜُو کاں ترتیب یا سٹنٚگ چہ تُھو ک
 
 ## Custom Goals
 
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] مدد کرہ { $language } ژِبَیں چےۡ reach اَس { $hours } گھین٘ٹہ مہ ذاتی مقصدہ ہاری ڇیلیے۔
+       *[other] مدد کرہ { $language } ژِبَیں چےۡ reach اَس { $hours } گھین٘ٹیُوں مہ ذاتی مقصدہ ہاری ڇیلیے۔
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامن وائس ریچَیں مدد کرہ لہ اُو { $hours } گھین٘ٹہ مہ ذاتی مقصدہ ہاری ڇیلیے۔
+       *[other] کامن وائس ریچَیں مدد کرہ لہ اُو { $hours } گھین٘ٹیُوں مہ ذاتی مقصدہ ہاری ڇیلیے۔
+    }
+set-a-goal = ایک مقصد اوک مقرر کر
+cant-decide = فیصلہ نیرہاں تُھو؟
 how-many-per-day = شاباش! دیس مہ کتُک اوک کٹرو؟
 how-many-a-week = شاباش! ہفتہ مہ کتُک اوک کٹرو؟
 which-goal-type = تُو بنَیں یاں غرضی تُھو، گی ݜُن٘وَیں یاں یا بھجدُیوں واں؟
