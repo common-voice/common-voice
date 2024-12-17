@@ -53,11 +53,11 @@ sc-criteria-item-5-2 = Iká orasióni ka'á kumpiaroáso pu'ká yo'rá, tačín
 sc-criteria-item-6 = Kitió epečé waási  orasióni pu'ká itapití, ¡ I nokúi wa'a uká epečé orasióni!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Tuniamé<icon></icon>ihí u'hú pirípi orasióni nayawoániame kawé
-sc-review-rules-title = ¿u'u orasioni kum'piaroania pu'ká apo yo'rá?
-sc-review-empty-state = E'peo pi'čiwači ki'te ne'neniame pu'ká re'wisaroatiame e'pe ika na'wesariči
-report-sc-different-language = Pireči naewasari
-report-sc-different-language-detail = Baatía iyoterepú pirečí idioma kí no'o neneačí
-sentences-fetch-error = Inture piripi weka tiame waa iyaniači orasioni
+sc-review-rules-title = ¿Puú orasióni kum'piaróania pu'ká ahpó yorá?
+sc-review-empty-state = Ehpéo pi'čiwáči ki'té ne'néniame pu'ká re'wisaróatiame ehpé iká nawésariči
+report-sc-different-language = Piréči nawésari
+report-sc-different-language-detail = Waátia iyoterepú piréčí nawésari kí no'ó nenéačí
+sentences-fetch-error = Intúre pirípi wekatiáme wa'á re'ewisaróamia iyaniači orasioni
 review-error = Inture piri'pi wekatiame wa'a re'wisaroaniači i'ká orasióni
 review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
