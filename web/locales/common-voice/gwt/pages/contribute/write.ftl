@@ -70,6 +70,9 @@ sentence-variant-select-multiple-variants = عام باتی/ لَؤتغیر
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومېنَنَہ کَلاوَہ<icon></icon> اپلوڈ کېرِؤ
+sc-bulk-upload-instruction = تانُو فائېلہ اتېیاں لِکاشِؤ یا<uploadButton> اپلوڈ کېرِکہ ݭڅی کِلک کېرِؤ</uploadButton>
+sc-bulk-upload-instruction-drop = اپلوڈ کېرِکاں فائېلہ اتے ووڑِؤ
+bulk-upload-additional-information = کېنے زی اسہ فائېلَنہ بارا واری بی زیاتی معلومات ݪِک کوڅِمانېؤ بہ تولے مېرَبانی کېری<emailFragment>commonvoice@mozilla.com</emailFragment> مِنزی رابطہ کېرِؤ
 
 ## SMALL BATCH SUBMISSION
 
