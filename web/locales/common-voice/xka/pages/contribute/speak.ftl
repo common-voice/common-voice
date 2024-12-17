@@ -20,6 +20,9 @@ record-last-instruction = آخری اک
 review-tooltip = بایل ٹائم رل اندازہ گی تے دیرا ریکاڈ تھ
 share-clip = تانی کلپس چاچو
 share-common-voice = میلال آواز چاچا
+review-instruction = پکار یال تھ کلپس اندازہ گی تھ دیرا ریکاڈ تھا
+record-submit-tooltip = تیار بایل رل سمٹا۔
+clips-uploaded = کلپس اوکالیل
 
 ## MENU ITEM TOOLTIPS
 
