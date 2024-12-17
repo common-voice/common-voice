@@ -12,9 +12,12 @@ about-sentence-collection-subtitle = جُملی خَلکا‌ں دَن جمع ک
 about-new-lang-title = نَیں ژیب خلکؤں مُوٹھن اؤں
 about-voice-contrib-title = اَواز دیوں
 about-voice-contrib-subtitle = خَلکہ ایں تھو آں تاں اوازہ دیں تھو۔
+about-voice-validation-title = اواز منظُور کرؤں
+about-voice-validation-subtitle = سیں اوازاں کٹرو مُت خلکؤں منظُور کرچھی/کرڅھے
 about-dataset-release-title = ڈیٹاسیٹ جاری کرہ
 about-dataset-release-subtitle = بے ہر 3 یُون٘ہؤں مہ ڈیٹا سیٹ جاری کرِگ تھہ۔
 about-subscribe-text = کامَن وائس مِلیۡ رابطہ مہ دھرَیں یاں غرضی تُھوئی؟
+about-speak = بَنہ
 
 ## Community Playbook Content
 ## What is a language
