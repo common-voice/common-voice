@@ -25,7 +25,8 @@ record-submit-tooltip = { $actionType } تیار بیبا جمع کر ہ واݩ�
 clips-uploaded = کلپس اپ لوڈ بستای
 record-abort-title = پنوی وای ریکا ڈنگ پوڈی ستای ؟
 record-abort-text = شترک تیو اچی با توستہ ترقی ( مطلب چوک کودیوم کعستای با )ستہ پیس کولاش
-record-abort-submit = { "" }
+record-abort-submit = کلپہ سمہ
+record-abort-continue = وکݜاستہ ختم
 create-profile-button = پروفائل ایپو
 # menu item
 read-sentences = جملہ ولہ
