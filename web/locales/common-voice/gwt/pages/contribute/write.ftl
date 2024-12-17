@@ -113,6 +113,18 @@ rate-limit-toast-message-seconds =
         [one] شرَحَنی  حدہ پېنہ پُر نېسُوَہ۔ 1 سیکېنڈہ دوبُوڑہ کوشش کېرِؤ۔
        *[other] شرحَنی حدہ پېنہ پُر نېسُوَہ{ $retryLimit } سکېندہ دوبُوڑہ کوشش کېرِؤ۔
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] مے اسہ صفحا ݭڅی جمع کېرَئیکَنی حداں فېدی تَنؤ۔ مېرَبانی کېری دویَم کَلاؤ پُر کېرِکہ پېنہ پُدَمہ یَہ مِلېٹ انتظار کېرِؤ۔ مېنہ صبرَنہ شکریہ!
+       *[other] مے اسہ صفحا ݭڅی جمع کېرَئیکَنی حداں فېدی تَنؤ۔ مېرَبانی کېری دویَم کَلاؤ پُر کېرِکہ پېنہ پُدَمہ { $retryLimit } مِلېٹ انتظار کېرِؤ۔ مېنہ صبرَنہ شکریہ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] مے اسہ صفحا ݭڅی جمع کېرَئیکَنی حداں فېدی تَنؤ۔ مېرَبانی کېری دویَم کَلاؤ پُر کېرِکہ پېنہ پُدَمہ یَک سیکېنڈ انتظار کېرِؤ۔ مېنہ صبرَنہ شکریہ!
+       *[other] مے اتے صفحا ݭڅی جمع کېرَئیکَنی حداں فېدی تَنؤ۔ مېرَبانی کېری دویَم کَلاؤ جمع کېرِکہ پېنہ پُدَمہ { $retryLimit } سیکېنڈ انتظار کېرِؤ۔ مېنہ صبرَنہ شکریہ!
+    }
 
 ## MENU ITEM TOOLTIPS
 
