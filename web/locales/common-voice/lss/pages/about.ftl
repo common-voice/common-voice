@@ -38,6 +38,8 @@ about-no-votes-text = جنهين  هيڪڙو يوزر هيڪڙي وائس کلي
 about-dataset-new = ڪومن وائيس ڊيٽا سيٽ
 about-dataset-new-text = ڪومن وائيس ڊيٽا سيٽ ام سيڪڙون ھزارون وائس آ جا سيمپل آ هونجن تا جيڪي ڊولپرنک وائيس رڪوڳڻيشن بناڙم مدد ڪن تا.
 about-clip-graveyard = کليپ آ جا قبرستان
+about-clip-graveyard-text = ڪلپا جي گريويارڊ ام وائيس ڪلپا جيڪي ڪومن وائيس ڊيٽا سيٽ ام ڪون وني ساڳيا هونجن تا. ڊيٽا سيٽ آ گان، کليپ گريوييارڊ آ بی هونجن تا. اسين ھن ما ڻھن جا شڪر گزار آ يان
+about-get-involved = شامل ٿيو.
 
 ## Community Playbook Content
 ## What is a language
