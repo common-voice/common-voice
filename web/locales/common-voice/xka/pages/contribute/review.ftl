@@ -8,6 +8,9 @@ sc-review-no-sentences = نالیل کیر گیب جولال نان تیپہ د�
 sc-review-form-prompt =
     .message = یقین این اؘ نالگیل جولال مکھا مک نہ تھال
 sc-review-form-usage = جولال سولوحال کیر دراݭم ڈونگ۔نہ قبولیل کیر کھور مک وا دے۔ ڄورل کیر  ایشتھ دے۔
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ثبوت: { $sentenceSource }
 sc-review-form-button-reject = نہ کاٹیل
 sc-review-form-button-skip = چھور
 sc-review-form-button-approve = قبولیل
@@ -17,6 +20,7 @@ sc-review-form-button-approve-shortcut = ے
 sc-review-form-button-reject-shortcut = ن
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = س
+sc-review-form-keyboard-usage-custom = { "" }
 sc-review-form-button-submit =
     .submitText = نم نالیل
 # Variables:
@@ -52,4 +56,4 @@ review-error-rate-limit-exceeded = بہ باڑ شور ایں اتیش دیماس
 sc-redirect-page-title = بہ گین تبدلی گیال رل ایں
 sc-redirect-page-subtitle-1 = بہ باڑ شور ایں اتیش دیماس بہ اوں جولال یقینی تھ آ رو کھچہ این اؘ کو نہ
 # menu item
-review-sentences = جولال نالیل
+review-sentences = نالیگیال جولال
