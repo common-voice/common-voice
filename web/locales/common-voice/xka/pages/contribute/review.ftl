@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تی اؘ جب پا نہ حوشال۔جب حوشال کیر تانی پروفائل پر چو۔
+sc-review-lang-not-selected = تی اؘ جب نہ حوشال ۔مربنی تھا تھ تانی پروفائل تھ بے تہ اپان تھ جب حوشہ
 sc-review-title = جولال تھ اوپ تھا
 sc-review-loading = جولال یوپال
 sc-review-select-language = جولال سمال کیر اؘجب حوشا
@@ -26,5 +26,6 @@ sc-criteria-item-3 = جولال منیل لایق بیدے
 report-sc-different-language = اوراک اَجیب
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بہ گین تبدلی گیال رل ایں
+sc-redirect-page-subtitle-1 = بہ باڑ شور ایں اتیش دیماس بہ اوں جولال یقینی تھ آ رو کھچہ این اؘ کو نہ
 # menu item
 review-sentences = جولال نالیل
