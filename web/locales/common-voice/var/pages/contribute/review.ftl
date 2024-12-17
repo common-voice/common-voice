@@ -8,14 +8,14 @@ sc-review-no-sentences = Kite waási orasióni  pu'ká neneniame. <addLink> Nap�
 sc-review-form-prompt =
     .message = Ka'i itóčena pu'ká nenétiame, ¿pičíwa čanimú?
 sc-review-form-usage =
-    Ri'siitate wa'a a'jámina pu'ká yorapame. Ri'siitate wa'a jo'wena'mina pu'ká kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
-    ka'te na'tekepa pu'ká itočemia amo ne'neria</strong>
+    Risiítate wa'á ahámina pu'ká yorapáme. Risiítate wa'á howenámina pu'ká kinákika.  Risiítate wa'á owépote pu´ká umatotéka. <strong>
+    kate natékepa pu'ká itóčemia amó nenéria</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = Akana mačijipakamu{ $sentenceSource }
-sc-review-form-button-reject = Ki'nakitiamé
-sc-review-form-button-skip = Umatote aampa
-sc-review-form-button-approve = Yorame
+sc-review-form-source = Akaná mačihípakamu{ $sentenceSource }
+sc-review-form-button-reject = Kinakitiáme
+sc-review-form-button-skip = Umátote aampá
+sc-review-form-button-approve = Yoráme
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = S
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
