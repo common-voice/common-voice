@@ -51,6 +51,19 @@ general = عام
 healthcare = وݜ مݜ
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون،دے حکومت
+# Sentence Domain dropdown option
+language_fundamentals = ورے ستہ بنیادی اصول (وغیرہ اعداد، تہجی ٹگں)
+# Sentence Domain dropdown option
+media_entertainment = میڈِا دے مشیک
+# Sentence Domain dropdown option
+nature_environment = قدرت سے ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبر دے سنکیاں حالات
+# Sentence Domain dropdown option
+technology_robotics = ٹکنالوجی دے مشینی انسانہ
+sentence-variant-select-label = بدل جملہ
+sentence-variant-select-placeholder = اہ تغیرہ انتخاب کشی(اختیاری)
+sentence-variant-select-multiple-variants = عام وری/ سکال ردو بدل
 
 ## BULK SUBMISSION 
 
