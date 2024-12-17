@@ -9,14 +9,14 @@ clips-with-count-pluralized =
         [one] کٹرُو
        *[other] کٹرو
     }
-goal-help-recording = تئیں کام وائیس ریچ { $goalValue } پروگراماں دیساں <goalPercentage></goalPercentage> ریکارڈنٚگاں نخ یا حدف حاصل کرئیں مہ کمُک کرہ څھے!
+goal-help-recording = تُوں کام وائیس ریچ پروگراماں <goalPercentage></goalPercentage>دیساں ریکارڈنٚگاں { $goalValue } نخ یا حدف حاصل کرئیں مہ کُمک کرہ چھی!
 goal-help-validation = تئیں کامن وائیس ریچ <goalPercentage></goalPercentage> پروگراماں دیساں { $goalValue } صحیح کریاں نخ یا حدف حاصل کرہ څھے۔
 contribute-more =
     { $count ->
        *[other] { $count } اوک مُت کرَیں تیار تُھو یی؟
     }
-speak-empty-state = زؤں گائے ریکارڈ کرَیں یاں کریا مُتی بلی بارژی تھی۔۔۔
-no-sentences-for-variants = مئیں قیاس ہن څَئیں ݜُو خاص زبئیں جُملی زانٚگئے بارزی تھی، کہ تے مِٹھ لیل ہُنلُو تاں سیٹنگ بدل کر تہ تُو تَئیں زِب مہ مُوئیت جملی پشے۔
+speak-empty-state = زؤں گائے ریکارڈ کرَیں یاں کِریا مُتیۡ بلی بارژی تھی۔۔۔
+no-sentences-for-variants = میں قاس څَیں ݜُو خاص ژیبَیں جُملی زؤں گائے بارژی تھی، کہ تے مِٹھی لیل ہُون٘دوں تاں سیٹنگ بدل کر لہ تُو تَیں ژیبہ مہ مُتیۡ بلی پَش۔
 speak-empty-state-cta = بلی/جُملی ٹل کرہ
 speak-loading-error = زَیں ݜے گی بلی نی ملِلی چے سیوں تو بان۔ پتَیں لک کوشیش کرہ گل۔
 record-button-label = تاں اواز ٹیپ کرہ
@@ -32,7 +32,7 @@ change-preferences = تَیں خوشی بدلا
 login-signup = کُھنی لن٘گھہ/ٹل ہو
 vote-yes = آں
 vote-no = نئ
-datasets = ڈېٹاسیٹ
+datasets = ڈیٹا سیٹ
 languages = ژِبہ
 about = بابتی مہ
 partner = مرگلئ
@@ -74,7 +74,7 @@ shortcut-rerecord-toggle = [1 نہ 5]
 shortcut-rerecord-toggle-label = کٹرُو گتہ ٹیپ کرہ
 shortcut-discard-ongoing-recording = ڈیوہ
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ الُو دے/لاء دے۔
-shortcut-submit = واپسی
+shortcut-submit = پاتُو گُھرہ
 shortcut-submit-label = کٹرو جمع کرہ
 request-language-text = ہَویں ہاری تُوں عام آوازاں پروگرامہ مہ تَیں ژیب نی پَیچھی یی؟
 request-language-button = ژِباں کریا درخواست کرہ
@@ -97,7 +97,7 @@ shortcut-vote-no = ن
 contribution-criteria-nav = شرطہ
 contribution-criteria-link = مدد کرَیں یاں شرطہ پُنیا
 contribution-criteria-page-title = مدد کرَیں یاں شرطہ
-contribution-criteria-page-description = اما پورژا چے اوازاں کٹرو ݜون٘وَیں یاں وخ گنے فکر کرؤں تھو آں گِشے تاں اوازاں ٹیپ کرؤں سم کرؤں تھو!
+contribution-criteria-page-description = اما پورژا چے اوازاں کٹرو ݜون٘وَیں یاں وخ گنے فکر کرؤں تھو آں گِشے تاں اواز ٹیپ کرؤں سم کرؤں تھو!
 contribution-for-example = مثالاں طور ہِن
 contribution-misreadings-title = اوان پڑزیل
 contribution-misreadings-description = کان٘ڑ دیے ہان٘س جُختُو نھالی چہ گی لِکزَئیل تُھو بہ عینہ سو ٹَیپ ہونٚل تُھو گی نئی; کہ معمولی لکھ غلطی تھی کھئیں گتہ انکار کرہ۔<br />عام غلطی اُن٘دگی ݜَئیں تھی;
