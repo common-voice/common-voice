@@ -22,6 +22,7 @@ new-sentence-rule-7 = مناسب جوالہ سنا
 new-sentence-rule-8 = مثالی او فطری دے وری وار( اینہ جملہ ولہستہ کہ اسان بوستہ اسہ)
 login-instruction-multiple-sentences = <loginLink>اتو ای</loginLink>یا<loginLink> بہ ائ</loginLink>سکال جملہ سنا ستہ کہ
 how-to-cite = اوݩزہ کائی کہ حوالہ پعلوم؟
+how-to-cite-explanation-bold = یو آر ایل لنک یا کودیوم ستہ پورا نام مع حوالہ پعں
 
 ## BULK SUBMISSION 
 
