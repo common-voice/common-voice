@@ -43,9 +43,11 @@ about-nav-playbook = سِڇھونے طریقہ معلوم تِھیا
 about-playbook-what-is-language = کامن وائس اےْ جِب جوکِن؟
 about-playbook-what-is-language-content-1 = جِبے بارَد گُنونے لا طریقائین۔ اسپیچ ریکگنیشن ماڈلو مقصدے کِرِیا، کامن وائس سہ تجویز تھینو چہ مشترکہ فہمِجیْ توجو دِیا یا آ جِب دینک بسکَس ایْک مُتوْ لڇھونے کوشش تھینَن یا؟
 about-playbook-what-is-language-content-2 = بیْس لُکھوݨَس چہ اسپیچ ماڈلز مقررینو متنوع رینج  پرجونے کِرِیا بَرَن، ادا بونے کِرِیا صوتی ڈیٹاسیٹ  سہ لا گہ مختلف جگو نمائندگی تھون پکارن۔
+about-playbook-what-is-language-content-3 = کوئے جِبو گرائمر، لفظی گہ تلفظو مجی لو گھݨ فرق بِینوْ۔ آ گیْ  بیْہ <ctaLink>متغیراتو تعارف </ctaLink>مجی 2022۔ آ گیْ قاموڑ سیْݨے جِبو بڑہ ڈیٹاسیٹ دہ چھیلرِیونے ایْک طریقہ ہشِینوْ۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = موْس جِب کاتھ ٹل تھم؟
 
 ## How does localization work
 
