@@ -55,9 +55,9 @@ first-cta-gender-select-help-text =
     .label = ¿Čimureka netenare amó sekso yoma?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Čeriwera uka amó nanosariwa nehario sulala!
-second-cta-subtitle-text = Uka pile nahunieme  rehu neteka pile oičanieme amó itaperi netewame, toinaga pienači wa amó ohelači simika čanemia amoe
-already-have-an-account = Toainamo uka itaperi<iniciar sesión>Oinaga itaperi</iniciar sesión>
-create-profile-button = Ne tenaresaga uka pile Common Voice
+second-cta-subtitle-text = Uká pirípi nahuniéme rehú netéka pirípi oičaniéme amó itapéri netewáme, toináka pienáči wa'á amó ohékači simiká čanémia amoé
+already-have-an-account = ¿Iniwaému waási cuentá? <iniciar sesión>Oínaka itapéri</iniciar sesión>
+create-profile-button = Netenarésaka uká piré Common Voice
 # IMAGE TAGS
 img-alt-success-checkmark = Amó kawé nahurió itapéri
 
