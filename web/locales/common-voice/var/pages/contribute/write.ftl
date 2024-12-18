@@ -69,9 +69,9 @@ sentence-variant-select-multiple-variants = Nawésari yomá / weiká uhupú kap�
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Muenapu fraase dominio publikandoka<icon></icon>
-sc-bulk-upload-instruction = muenapu pu'ká arčivo i'wá, klik yoraka kargandomia
-sc-bulk-upload-instruction-drop = Nasonamia pu'ká arčivoči maniame umatotemia programači
+sc-bulk-upload-header = Muenápu frase dominio publikandóka<icon></icon>
+sc-bulk-upload-instruction = Muenápu pu'ká arčíwo i'wá, klik yoráka kargandómia
+sc-bulk-upload-instruction-drop = Nasónamia pu'ká arčiwóči maniáme umatotémia programáči
 bulk-upload-additional-information = Sii maniso epeče informasióni, sii muu kianaria ikači arčivoči maniame,   naewasamitia <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = Sii maniso epee información adisional si naewasanaria, pukači arčivo ki manitoame ki inkluyendotiame plantillači, naewasamitia ki manitosa<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Yoá enči, panisugá amó arčivo i'wá
