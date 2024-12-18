@@ -43,3 +43,4 @@ other-datasets = مُتہ ڈیٹاسیٹس
 feedback-q = جو رَئی نیْ؟
 # This indicates that there is no data to display
 no-information = جوک گہ معلومات نِش
+resource-nemo-info = <githubLink>نویدا نیمو </githubLink>ایْک <docsLink> اوپن سورس ٹول کٹ </docsLink> اسہ محققینو کِرِیانیْ کھاں سہ جدید تر موْݜ کالوْ کِرِیا  اے آئی ماڈلز تِیار تھینَن۔
