@@ -44,3 +44,7 @@ feedback-q = جو رَئی نیْ؟
 # This indicates that there is no data to display
 no-information = جوک گہ معلومات نِش
 resource-nemo-info = <githubLink>نویدا نیمو </githubLink>ایْک <docsLink> اوپن سورس ٹول کٹ </docsLink> اسہ محققینو کِرِیانیْ کھاں سہ جدید تر موْݜ کالوْ کِرِیا  اے آئی ماڈلز تِیار تھینَن۔
+resource-deepspeech-info = موزیلا اےْ اوپن سورس وائس ریکگنیشن انجن ڈیپ اسپیچ  اسپیچ ریکگنیشن ایپلی کیشنز سنونے کِرِیا استعمال تِھجبانوْ۔ اسے <githubLink> گٹ ہب ریویو </githubLink> ڇکِیا یا </discourseLink> ڈیپ اسپیچ ڈسکورس سِڇھونے کِرِیا <discourseLink> ڈیپ اسپیچ ڈسکورس دہ ٹل بوئے آ سے استعمال پرُجہ۔
+resource-coqui-info = <coquiLink> کوکی </coquiLink> تقریرے ٹیکنالوجیْ پتوڑ تھونے کِرِیا وقفِن۔ آئیݨے منصوبو مجی گُٹبار گیْ سِڇھونے کِرِیا STT گہ TTS  انجن شامِلَن
+community-playbook = کمیونٹی پلے بیک
+resource-playbook-info = <playbookLink>مددگار رہنمائی اورڑِیا <playbookLink>کامن وائس اےْ پُوری سفرِجیْ، لوکلائزیشن جیْ ہرِی ڈیٹاسیٹے استعمال بُجَیش، اسے کمیونٹی سے ساتیْ ایْکھتِیونے طریقوجیْ مددگار رہنمائی اورڑِیا۔
