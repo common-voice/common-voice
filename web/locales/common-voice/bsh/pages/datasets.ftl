@@ -33,5 +33,6 @@ other-datasets = ورں دی کوٹ ستہ ڈیٹاسیٹس
 feedback-q = تیوکای رایہ وا اسیشہ
 # This indicates that there is no data to display
 no-information = کائ  معلومات نہ ای
+resource-nemo-info = <githubLink> نویڈیانیمو</githubLink>™اہ<docsLink> اوپن سورس ٹول کٹ </docsLink>اسہ  ایکی محققین دیوکں بلیوک نوئی مکالماتی اہ ای ماڈل تیار کوستہ کں  اسہ
 dataset-version = ورژن
 dataset-date = ڈیٹا
