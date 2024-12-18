@@ -90,9 +90,12 @@ about-playbook-how-record-quality = اوݩزہ لستہ معیارہ کوٹ کل
 about-playbook-how-record-content-1 = توستہ عام کوٹ تہ ولہلہ! توستہ  انی لستہ کہ ولستہ پود گو اسہ ، ایمو توستہ اصل لہجہ وگہتمیش،ایمو توستہ عام کوٹہ، انداز، او لہجہ وگہتمش۔
 about-playbook-how-record-content-2 = پتارہ ڄا وی شینگ نہ بولہ ـ تو کار تستہ آسان بولا
 about-playbook-how-record-content-3 = جملہ لستہ وݜچے ولہ ـ نہ پتہ کشی، نہ بدل، یا نہ الفاظ سنا۔
+about-playbook-how-record-content-4 = اینہ ورے یقین کشی چے تو ولستہ شروع نہ کعا کویاں پلیٹ فارم وکݜاستہ شروع کوتہ او اوستاں ویک نہ اوتیتہ چہ کائی ولتہ تو بس نہ کعاں۔
+about-playbook-how-record-content-5 = <accuracyLink>سہی بستہ ستہ معیار اچا دی ایݩش کشی</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ایمو عام کوٹ تہ ورے کائی کہ موثر ایپامو۔
 
 ## How to validate
 
