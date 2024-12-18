@@ -73,9 +73,13 @@ about-playbook-how-add-language-collecting-sentences-content-2 = شا<sentenceCo
 about-playbook-how-localize = سائٹہ ستہ جائی کائی کہ کودیوم کوتہ؟
 about-playbook-how-localize-content-1 = عام کوٹہ ستہ پلگاں <strong> پونتون تہ بوتہ</strong>۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink>اہ اکاونٹ اِپا</pontoonAccountLink> اگر نہ اسہ با۔ستمع توستہ ورے منتخب کشی<strong>(‘وریک’)</strong> ستمع توستہ پراجکٹ،<pontoonCvLink> عام کوٹ</pontoonCvLink>۔پلگݩا ستہ کہ فائل بولہ آئی۔ او ووسپلہ ،ستمع اینہ انگریزی ستہ الفاظ او امکیاں ستہ پلگݩا دیو کہ اہ بکس وعݩاتہ۔
+about-playbook-how-localize-content-3 = پلگݩا انگریزی ستہ اسہ، لیکن شا ور ورے تہ <strong> تجویذ </strong>دی وعݩ بتعݩ۔ پرفائل  نݜان تہ<strong> ووسپلہ</strong>، ستمع <strong> ترتیبات ستہ</strong> لینک تہ ستمع کائی ورے ولہلہ اسیش با ستا سنا۔ ووپچوعوکو دڅیاریکیاں بکٹے پلگݩا ستہ اہ لسٹ بولی اسہ <strong> لوکلز </strong> کاع بوتہ۔ پلگݩا اہ گلجار درئی وعاݩستہ بولہ آئی۔
+about-playbook-how-localize-content-4 = سائٹ 75% پوڈی با دزہستہ کہ تیار بوتہ۔
+about-playbook-how-localize-content-5 = مدد دیوکہ ایموستہ وضاحتی ویڈیو ایݩش کشعں۔
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = اوݩزہ جملہ کائی کہ سنالوم؟
 
 ## How to record quality
 
