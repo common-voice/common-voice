@@ -43,6 +43,7 @@ terms-disagree = مہ نہ قبولوں۔
 first-cta-header-text = تانی کلپس خرات تھالیل باڑ مربنی۔
 first-cta-subtitle-text = اسان تانی کیر منی تھ ۔تس ڈویلپرز دی پا ران ٹنالوجی ترال می مدد تھاین۔
 why-donate = تو گوا مینوسہ۔
+why-donate-explanation-1 = اوں معلومات دیل اوپر این۔توساں الا این کیر تلان نہ ۔تو ارام سے اس تو۔
 add-information-button = معلومات جمع تھا۔
 continue-speaking-button = نہ مر بنی تانی جولال جاری رݭ
 create-profile-text = تی معلومات ݭݨکیل پکار ۔پروفائل ترا
