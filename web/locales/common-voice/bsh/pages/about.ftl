@@ -40,6 +40,7 @@ about-get-involved = سنہ
 about-get-involved-text-2 = عام کوٹہ اچا دی لستہ کوستہ کہ مدد کاع بولہ؟ بلوک لستہ! ای میل بگنہ رابطہ تہ بو یا<discourseLink>ولہتے</discourseLink>فورم ، سائڈہ ستہ مسلہ سمعں<githubLink> جیٹ ہب</githubLink> یا سناعں <matrixLink> قالب</matrixLink> کمیونٹی ستہ مشقولگی۔
 about-stay-in-touch = اوݩزہ رابطہ تہ کائی کہ پتہ بولوم؟
 about-stay-in-touch-button = نوکسہ
+about-stay-in-touch-text-1 = <emailFragment> نوکسہ</emailFragment> ایموستہ میلنگ لسٹ تہ ستعں اہم واقعات او کو ڈیزائن ستہ خصوصیات تہ عام کوٹ تہ حصہ اوݩگہ بچی۔
 
 ## Community Playbook Content
 ## What is a language

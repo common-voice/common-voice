@@ -15,5 +15,6 @@ dataset-splits = بٹہ (مجار دی جنسہ)
 number-of-voices = کوٹستہ گونو
 splits = تقسیمات
 email-to-download = ڈاون لوڈکوستہ کں ای میل ستراݩع
+why-email = <b>ای میل کہ</b>ایمو اڅلی ول تہ  سیٹتہ بدل کوستہ بارہ تہ تومع رابطہ کوستہ ستہ ضرورت بولا ای میل رابطہ کوستہ نقطہ ایمو پعتہ
 dataset-version = ورژن
 dataset-date = ڈیٹا
