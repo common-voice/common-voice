@@ -53,6 +53,7 @@ about-nav-playbook = حصہ اوگݩستہ زعݩہ
 ## What is a language
 
 about-playbook-what-is-language = عام کوٹہ تہ وری کائی اسہ؟
+about-playbook-what-is-language-content-1 = ورے بارا تہ وشتہستہ ستہ بلیوک طرہقہ آئی۔ ولہستہ زعݩستہ ستہ ماڈلہ ستہ مقصد، عام کوٹ اینہ ورے تجویذ کوتہ چہ‘یا پیمیچ فہم’ یا ‘اینہ ورے ولہلہ سکال منچی اہ سورہ زعݩستہ ستہ ابل کوتہتہ؟’
 
 ## How do I add a language
 
