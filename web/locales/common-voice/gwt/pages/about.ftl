@@ -13,6 +13,19 @@ about-localization-subtitle = وئیب سائٹَنی عبارتہ تېن گاݭ
 about-sentence-collection-title = کَلاؤ ٹوپلاوَہ
 about-sentence-collection-subtitle = خلَکاں وُتھېلی کھنٹے ݫَئیکہ ݭڅی کَلاؤ جمع کېران دِمېت۔
 about-new-lang-title = نونگی باتِیَنہ شروع
+about-new-lang-subtitle = امہ اِتے باتِیہ کامن وائسہ سائٹ لانچ کېرِمېک۔
+about-voice-contrib-title = کھنٹَنہ تعاؤن
+about-voice-contrib-subtitle = خلک ژِمېت اؤ تانُو کھنٹہ حصہ تلَمېت۔
+about-voice-validation-title = کھنٹَنی تصدیق
+about-voice-validation-subtitle = واری خلَک اسُو کھنٹَنی کِلپسَنی تصدیق کېرِمېت۔
+about-dataset-release-title = ڈیٹا سیٹ رِلیز
+about-dataset-release-subtitle = امہ ہر ݪے ماسوئے پت ڈیٹا سیٹ جاری کېرِمېک۔
+about-subscribe-text = شریک کھنٹَہ مِنزی رابطا درِکاں ݭېنݭ کېرِمېکا؟
+about-speak = باتی کېرؤ
+about-speak-text = مدَتی عطیہ بِسنت کَلاؤ نامَنی بېنکَہ پېنہ ژَئی کھنٹَنی کِلپسہ رِکاڈ کېرِمېک۔
+about-listen-queue = ݭُنڈِؤ۔ قطار
+about-listen-queue-text = کھنٹَنی کِلپس جمع کېرَئیکہ ݭڅی قطارہ داخل کېران دِمېت زی تسُو ݭُنڈِکہ ݭڅی تیار کېرِمېت۔
+about-listen = ݭُنڈِؤ
 
 ## Community Playbook Content
 ## What is a language
