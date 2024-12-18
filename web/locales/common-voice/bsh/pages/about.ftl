@@ -67,6 +67,7 @@ about-playbook-how-add-language-translating-content-2 = ایمو  پلگݩستہ
 about-playbook-how-add-language-collecting-sentences-heading = جملہ سعݩاستہ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ وسعݩالہ استعمال کہ تے ایموستہ گائڈ ایݩش کشعݩ۔</sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = شا<sentenceCollectorLinkAdd> لوکی جملہ سنا بتعں </sentenceCollectorLinkAdd>، یا گیٹ ہب استعمال کہ تے<bulkImportDocsLink> سکال اتیوݩشں بتعݩ۔</bulkImportDocsLink> اینہ ورے دی یا کشیعں چہ جملہ (عوامی ڈامیں) <licenseLink>سی سی0، یا تو چیتہ ستورا بچی
+about-playbook-how-add-language-collecting-sentences-content-3 = </sentenceCollectorFragment> جملہ وسعݩاستہ کہ اچا دی ایݩش کشی
 
 ## How does localization work
 
