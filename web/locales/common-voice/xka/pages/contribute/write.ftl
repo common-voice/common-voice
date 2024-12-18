@@ -23,6 +23,7 @@ new-sentence-rule-8 = مزایہ قدرتی تے مجلس۔۔۔۔جولال من
 login-instruction-multiple-sentences = کتہ منوم
 how-to-cite = کثہ منوم
 guidelines = پان پشال
+add-sentence-success = جولال سمیٹہ
 
 ## BULK SUBMISSION 
 
