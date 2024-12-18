@@ -9,4 +9,5 @@ error-clip-upload-server = اینہ کلپ ستہ اپلوڈسرو تہ ناکا
 error-title-404 = ایمو شادیوکں صفحہ کیوت کوں نہ بتمیش۔
 error-content-404 = شاید ایموستہ <homepageLink>ہوم پیچ</homepageLink> تومع کمک کولا۔سوال کوداستہ کں مہربانی کتی <matrixLink> میٹرکس کمیونٹی چیٹ</matrixLink> تہ شامل بو <githubLink>سائٹ </githubLink>ستہ<discourseLink> مسائل ستہ ذریعہ تہ  تہ یی</discourseLink>
 error-title-503 = ایمو  غیرمتوقع طورتہ سروس معطل بوستہ پمیچ اسمیش
+error-content-503 = ویب سائٹ نوݜٹا دوبارہ بدوی اڅلئ تازہ معلومات دیوکں مہربانی کہ تہ شامل بو<matrixLink>میٹرکیکس کمیونٹی چیٹ</matrixLink> یاتہ<githubLink>گیٹ ہب </githubLink></githubLink><discourseLink> ییتاکہ ویب سائٹس بارہ مسائل رپورٹ سورہ مانیٹرکوبہ لاش
 error-code = غلطی{ $code }
