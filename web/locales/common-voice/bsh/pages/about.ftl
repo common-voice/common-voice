@@ -37,6 +37,9 @@ about-dataset-new-text = عام کوٹہ ستہ ڈیٹا سیٹ تہ چی ہزا
 about-clip-graveyard = کلیپ ستہ قبرستان
 about-clip-graveyard-text = کلپ قبرستان کوٹہ ستہ کلپ مع سنیستہ اسہ ایکی عام کوٹہ ستہ ڈیٹا سیٹ تہ نہ ایپاتہ۔ ڈیٹا سیٹ یار می کلپ قبرستان دی واوکݜاستہ کا دستیاب اسہ۔ ایمو امنی منچاں دے تنظیم ستہ شکریہ ادا کوستہ واگہتمش چہ امکیاں اینہ منصوبہ تہ مدد کعسہ:
 about-get-involved = سنہ
+about-get-involved-text-2 = عام کوٹہ اچا دی لستہ کوستہ کہ مدد کاع بولہ؟ بلوک لستہ! ای میل بگنہ رابطہ تہ بو یا<discourseLink>ولہتے</discourseLink>فورم ، سائڈہ ستہ مسلہ سمعں<githubLink> جیٹ ہب</githubLink> یا سناعں <matrixLink> قالب</matrixLink> کمیونٹی ستہ مشقولگی۔
+about-stay-in-touch = اوݩزہ رابطہ تہ کائی کہ پتہ بولوم؟
+about-stay-in-touch-button = نوکسہ
 
 ## Community Playbook Content
 ## What is a language
