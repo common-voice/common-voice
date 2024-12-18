@@ -19,4 +19,7 @@ language-validation-progress = منظُوری یاں پراگریس
 contribute = تاں حصہ گلہ۔
 get-involved-button = اماں‌ ٹَل کرہ
 get-involved-title = تاںحصہ گلہ { $lang }
+get-involved-form-title = { $lang }اپ ڈیٹاں کریا کُھنی لن٘گھہ/ٹل ہو:
+get-involved-email =
+    .label = بِجلی خط
 get-involved-return-to-languages = پاتُو ژِبؤں گےبئ
