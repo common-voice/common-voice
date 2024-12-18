@@ -18,6 +18,8 @@ new-sentence-rule-4 = صحی سپلنگ تے تلفظ تہ
 new-sentence-rule-5 = نہ ہندسہ نہ خاص ٹیکل
 new-sentence-rule-6 = دروم وطن دا خط اے°اجازت نان
 new-sentence-rule-7 = خا منیل جولال پا ٹل تہ
+new-sentence-rule-8 = مزایہ قدرتی تے مجلس۔۔۔۔جولال منیل سگار بیدہ
+login-instruction-multiple-sentences = کتہ منوم
 
 ## BULK SUBMISSION 
 
