@@ -43,6 +43,9 @@ terms-disagree = مہ نہ قبولوں۔
 first-cta-header-text = تانی کلپس خرات تھالیل باڑ مربنی۔
 why-donate = تو گوا مینوسہ۔
 continue-speaking-button = نہ مر بنی تانی جولال جاری رݭ
+create-profile-text = تی معلومات ݭݨکیل پکار ۔پروفائل ترا
+thanks-for-voice-toast = تی آواز معلومات کیر مربنی۔
+thanks-for-voice-toast-error = تی آواز اؘ معلومات سمٹیل می اورنی یال
 
 ## MENU ITEM TOOLTIPS
 
