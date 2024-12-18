@@ -43,9 +43,13 @@ finance = خزان
 # Sentence Domain dropdown option
 general = آم
 # Sentence Domain dropdown option
-healthcare = وجودرݭیل
+healthcare = یجوجودرݭیل
 # Sentence Domain dropdown option
 history_law_government = تاریخ،قانونتے سرکار
+# Sentence Domain dropdown option
+language_fundamentals = جیب اے°بنیاد۔ہندسا،ٹیکل،تے روپے
+# Sentence Domain dropdown option
+media_entertainment = میڈیا تے سال
 
 ## BULK SUBMISSION 
 
