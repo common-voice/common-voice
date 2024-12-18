@@ -46,11 +46,11 @@ why-donate = ¿Čekámu tukéna?
 why-donate-explanation-1 = Ihí ositúme uhú. Kawému enérena .Namú nanahúna uká pienáwi yomáka remé unená, Reméka kawé neseróma uká itapéri natí omó tewára ositúme kaí peha katíme natí itapéri čiréka natí pamiwáila natí amó sekso
 why-donate-explanation-2 = Piré wa'á eréka kawéhu teknología yomáka, uká nahátime uká netetúme eréka netesíka uká ipákorume senékači kaíreme čenaréma pirípi naósame nukwarího peniéme erekáko kaí kahumá kawéko uká kaí naósame ipákorume<learnMore>Neteká piréči weiká metadatos natéame</learnMore>
 add-information-button = Netéka itapéri
-continue-speaking-button = Kai čeriwerawa, simitenamu naosaga
-create-profile-text = Katewenaremu uka amó neterio. <createProfile>Neteka pile toapome wa Coomon Voice?</createProfile>
-thanks-for-voice-toast = Čeriwerawa pasa muu noo čane uka aosari
-thanks-for-voice-toast-error = Kai kawe simerorume uka amó neterio
-first-cta-gender-select-default-option = Nasonaga pile amó neterio
+continue-speaking-button = Ka'í čeriwéma, simiténamu naósaka
+create-profile-text = Katewénaremu uká amó netéria. <createProfile>Netéka piré toápome wa'á Coomon Voice?</createProfile>
+thanks-for-voice-toast = Čeriwéma pu'ká nawésari naewánia
+thanks-for-voice-toast-error = Ka'í kawé simerórume uká amó netería
+first-cta-gender-select-default-option = Nasónaka piré amó netería
 first-cta-gender-select-help-text =
     .label = ¿Čimureka netenare amó sekso yoma?
 # SECOND POST SUBMISSION CTA
