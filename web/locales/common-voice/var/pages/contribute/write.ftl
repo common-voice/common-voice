@@ -45,21 +45,21 @@ automotive_transport = Trokéči oiyáme yomá camioníči oiyáme
 # Sentence Domain dropdown option
 finance = finansiaroaniáme
 # Sentence Domain dropdown option
-service_retail = Puka, paipaki tewaniame
+service_retail = Pu'ká paipáki tewaniáme
 # Sentence Domain dropdown option
-general = Yoma amó nawesari
+general = Yomá amó nawésari
 # Sentence Domain dropdown option
-healthcare = Kaweruma yasiniamé
+healthcare = Kawéruma yasiniáme
 # Sentence Domain dropdown option
-history_law_government = Gente nawesari , Tamó derečoči yoma gobiernočy
+history_law_government = Enté nawésari, Tamó derečóči yomá obiernóči
 # Sentence Domain dropdown option
-language_fundamentals = Tamoó nawesarí
+language_fundamentals = Tamó nawésarí (número, nawésari, toomí)
 # Sentence Domain dropdown option
-media_entertainment = Gente induačí y gente neneačí itapitií
+media_entertainment = Enté intuáčí y enté neneáčí itapíti
 # Sentence Domain dropdown option
-nature_environment = Yomá itapiči induačí  i animaríy sewa induačí
+nature_environment = Yomá itapíči intuáčí  i animári sewá intuáčí
 # Sentence Domain dropdown option
-news_current_affairs = Tamó čaneníame i yomá umatoamé kuwé
+news_current_affairs = Tamó čanéniame i yomá umátoame kuwé
 # Sentence Domain dropdown option
 technology_robotics = henté yoame i henté yoame itapití apoe nonoame
 sentence-variant-select-label = Na watiamé uhúpú orasioné nawesarí pirečy ohoegai henté. Weiká orasioné induamé
