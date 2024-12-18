@@ -53,4 +53,11 @@ more = سکال
 close = بند
 download = کاپی کعسہ
 dataset-version = ورژن
+sha256-checksum-copied = sha256 کاپی کعسہ
+sha256-checksum-copied-error = چکسم 256 کاپی کوستہ تہ ناکام بی
+no-information-available = کائ معلومات نہ ای
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = مجار
+donate-modal-message = توستہ ڈیٹا سیٹ ڈاؤنلوڈ بوتہ!
 dataset-date = ڈیٹا
