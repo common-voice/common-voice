@@ -83,9 +83,12 @@ about-playbook-how-localize-content-5 = مددَہ ݭڅی امَنی وېڈیؤ 
 
 about-playbook-how-add-sentences = آں کلاوَہ کِرَوے لُبُسامہ؟
 about-playbook-how-add-sentences-content-1 = مے<writePageLink>صفحہ لِکِؤ</writePageLink> یا رتئ کلاوَہ لُبُسَئ بمانېؤ<reviewPageLink>  جائزہ صفحہ</reviewPageLink>رتئ کلاوَنہ جائزہ گوئی بمانېؤ۔
+about-playbook-how-add-sentences-content-2 = کامن وائسہ لُبُسِکہ ݭڅی کلاوَنہ جائزہ گوواوَہ اؤ دُو زَنَنہ قبُول کېراوَہ پکار تھنہ۔ مے تانُو باتِیہ ݭڅی راہنما اصول ݫُپَمانېؤ<languageGuidelinesLink>اِتے</languageGuidelinesLink>۔ کلاؤ <licenseLink> عوامی ڈومېن</licenseLink> تران اؤ 15 الفاظہ پېنہ پولہ بِیَنہ تھنَئیت۔ مے ٹکسٹَنہ مالکہ پېنہ <waiverLink> امَنہ آزادِیَنہ عملَہ استعمال کېرِمېن CC0 ݫُپَئیکہ ݭڅی ژَئی بَمانېؤ</waiverLink>۔ اؤ اماںcommonvoice@mozilla.com رتئ ݪِݭَئ بَمانېؤ۔
+about-playbook-how-add-sentences-content-3 = مے وِکی پېڈیا نہ کھٹَنی کلاوَنہ فائدہ گوئیکہ ݭڅی <scraperLink>Sentence extractor</scraperLink> استعمال کېرِی بَمانېؤ۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = آں بئ کھنٹَنی کِلپہ کِرَوے ریکاڈ کېرېمہ؟
 
 ## How to grow language
 
