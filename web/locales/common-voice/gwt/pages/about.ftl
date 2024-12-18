@@ -111,9 +111,13 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی ݫُپِؤ!</s
 
 about-playbook-how-validate = آں کِرَوے پیانی بمېم زی صوتی کِلپہ منظور کېرَنہ تھنہ خو نئ؟
 about-playbook-how-validate-content-1 = کېنے زی مے <strong> اسُو ݭُنڈی بَمانېؤ بہ </strong> اؤ<strong>پرُوزی بَمانېؤ بہ</strong>،جو عام طورے<strong> منظوری ݪِیاوَہ بئ تھنہ</strong>۔
+about-playbook-how-validate-content-2 = <strong>اِشِلہ کِلپسہ رد مہ کېرِؤ زی کېنے باتی کېرِݪانہ لہجہ مېنہ تانُوَہ پېنہ بېل تھِبہ</strong>۔ ووئی باتِیہ پیانِکہ ݭڅی ضروری تھنہ زی ہر یَکِیہ ݭڅی بئ ݪم کېرِبہ۔
+about-playbook-how-validate-content-3 = کېنے زی میاں زانان دِمان بہ زی تلفظ اسہ <strong>پروزِک ناممکن </strong> ݫپَنہ تھنہ، یا تېنے <strong>لؤ زیات پتَبَکَنی شور</strong>تھنی، یا <strong> واری خلک بی باتی کېرِمېت</strong>، جو میاں کی کِلپہ رد کېراوَہ پکار تھنہ۔</accuracyLink> امَنہ سئ کېرِکَنہ معیارَہ واری معلومات بالِؤ</accuracyLink>۔
+about-playbook-how-validate-content-4 = کېنے زی کرېک کِلپہ دو زن رد کېرِمېت بہ جو تسہ ڈیٹا سیٹَنہ مختلف پاتاپی سیٹہ جاری کېران دِمان۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = آں ڈیٹا سیٹاں کی روے فیدِمہ اؤ استعمال کېرېمہ؟
 
 ## How are decisions made
 
