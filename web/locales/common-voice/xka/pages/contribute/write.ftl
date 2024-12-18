@@ -31,6 +31,13 @@ add-sentence-error = جولال جمعہثآل  رل غلطن
 single-sentence-submission = ا کو ن جملہ باگھال
 small-batch-sentence-submission = اپان سہ
 bulk-sentence-submission = گھن جملہجمع تال
+small-batch-sentence = لکوٹوش گروپ
+bulk-sentence = جولال اے
+sentence-domain-combobox-label = ترا کارونی اپا  کیر خوشا
+# Sentence Domain dropdown option
+agriculture_food = کاروال تےخوراک
+# Sentence Domain dropdown option
+finance = { "" }
 
 ## BULK SUBMISSION 
 
