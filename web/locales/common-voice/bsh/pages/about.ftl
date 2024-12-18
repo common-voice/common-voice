@@ -80,6 +80,7 @@ about-playbook-how-localize-content-5 = مدد دیوکہ ایموستہ وضا�
 ## How to add sentences
 
 about-playbook-how-add-sentences = اوݩزہ جملہ کائی کہ سنالوم؟
+about-playbook-how-add-sentences-content-1 = شا جملہ سنا بتعں اینہ <writePageLink>ستورئی پار تہ</writePageLink>یا جائذہ کعستہ پار <reviewPageLink> جملاں جئذہ کو بتعں</reviewPageLink>۔
 
 ## How to record quality
 
@@ -109,3 +110,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>اچا دی و
 about-playbook-how-funded = عام کوٹہ ستہ کائی کہ مالی مدد کوتومیش؟
 about-playbook-how-funded-content-1 = عام کوٹ موزیلا فاونڈیشن ستہ اہ یو ایس 501 سی 3 ستہ پراجیکٹ اسہ، اینہ پراجکٹہ فلحال مکمل انسانہ وریک  گرانٹ<philantropicGrantLink> او پورا دنیا تہ ستعں منچی فنڈ اتلا تہت۔
 about-playbook-how-funded-content-2 = ڈیٹا سیٹ ایپاستہ کہ او مسلسل میزبانی کوستہ کہ بلیوک سکال ٹگݩہ حرچ بوتہت، اینہ پلیٹ فارمہ ترقی پعں او <africaMradiLink>کمیونٹی پرگرام چلاعں</africaMradiLink>۔
+about-playbook-how-funded-content-3 = اگر شا یا شاستہ تنظیم اینہ پراجکٹ تہ حصہ اوگݩستہ وگتعں با ،شا<donateLink>عطیہ</donateLink>پع بتعں، یا ایموستہ پلہئ مع رابطہ کو بتہعں<emailFragment>commonvoice@mozilla.com</emailFragment>
