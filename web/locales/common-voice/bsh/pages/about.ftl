@@ -95,6 +95,7 @@ about-playbook-how-add-sentences = اوݩزہ جملہ کائی کہ سنالو�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبہ ستہ فیصلہ کائی کہ کاع بعتہ؟
 
 ## How is Common Voice funded
 
