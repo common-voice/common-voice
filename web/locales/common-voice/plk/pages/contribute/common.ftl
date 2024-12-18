@@ -149,3 +149,7 @@ contribution-background-voices-description-extended = اگر ریکارڈنگ چ
 contribution-background-voices-example-1-title = ٹریاسکے دیوݨہ ڈائناسور <strong> [ایْک آواز گیْ پڑِیا]</strong>
 contribution-background-voices-example-1-explanation = څھوْ اینَت یا؟ <strong> [دوموگوئے لُکھاؤ] </strong>
 contribution-volume-title = والیم
+contribution-volume-description = قارئینو مجیْ حجم دہ قدرتی تغیرات بُویی۔ صرف آسہ صورت دہ رَد تِھیا کرہ حجم اچا بسکو بی چہ ریکارڈنگ چِھجیئے، یا (عام شان گیْ) اگر آ اچا کم بِی چہ څھوْس بیل لِکِیلوْ متنِجیْ کھاں رزیجانوْ اسہ ݜُݨبا نانَت
+contribution-reader-effects-title = قارئینو اثرات
+contribution-reader-effects-description = بسکیْ ریکارڈنگ اسہ جگو بِینیْ کھانس تومیْ فطری آواز دہ موْݜ کال تھینَن۔ کرہ کرہ څھوْس غیر معیاری ریکارڈنگ قبول تھوبانَت کھاں چلِیجانیْ، پُھش پُھش بِینیْ، یا ظاہرِن چہ ڈرامائی آواز دِجیئے۔ مہربانی تھے گائی دِیلیْ ریکارڈنگ گہ کمپیوٹرے ترکیب شدہ آوازیْ استعمال تھینَک رَد تِھیا۔
+contribution-just-unsure-title = صرف غیر متبَر؟
