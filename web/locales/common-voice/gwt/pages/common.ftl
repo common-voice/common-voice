@@ -246,12 +246,25 @@ yi = یدش
 yo = یوروبا
 yue = کینٹونیز
 zgh = تمازائٹ
+zh-CN = چینی(چین)
+zh-HK = چینی(ہانکانگ)
+zh-TW = چینی(تائیوان)
+zu = زولو
+zza = ززا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = ہستپلہ
+contact = رابطہ کېرِؤ
+privacy = راز ساتِک
+terms = شربن
+cookies = کوکیز
+faq = لؤ کھُدَئیسن سوال
+content-license-text = مواد  <licenseLink>Creative Commons license</licenseLink>لائسنس پاتوئے لېوان دِمان
 
 ## Donate banner
 
