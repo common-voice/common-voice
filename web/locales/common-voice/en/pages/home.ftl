@@ -87,10 +87,13 @@ profile-not-required = Having a profile is not required to contribute though it 
 read-more-about = Read more on our About page
 
 ## NAV ITEMS
-answer-questions = Answer Questions <small>(Coming soon)</small>
-review-transcriptions = Review Transcriptions <small>(Coming soon)</small>
+answer-questions = Answer Questions
+answer-questions-coming-soon = Answer Questions <small>(Coming soon)</small>
+review-transcriptions = Review Transcriptions
+review-transcriptions-coming-soon = Review Transcriptions <small>(Coming soon)</small>
 add-questions = Add Questions <small>(Coming soon)</small>
 transcribe-audio-coming-soon = Transcribe Audio <small>(Coming soon)</small>
+transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
 coming-soon = Coming soon

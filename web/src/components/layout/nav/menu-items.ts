@@ -27,7 +27,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: ChatBubbleIcon,
-        localizedId: 'answer-questions',
+        localizedId: 'answer-questions-coming-soon',
         menuItemTooltip: 'answer-questions-menu-item-tooltip',
         menuItemAriaLabel: 'answer-questions-menu-item-aria-label',
       },
@@ -46,7 +46,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: CheckCircle,
-        localizedId: 'review-transcriptions',
+        localizedId: 'review-transcriptions-coming-soon',
         requiresAuth: true,
         menuItemTooltip: 'review-transcriptions-menu-item-tooltip',
         menuItemAriaLabel: 'review-transcriptions-menu-item-aria-label',
