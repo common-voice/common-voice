@@ -72,6 +72,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 = شا<sentenceCo
 
 about-playbook-how-localize = سائٹہ ستہ جائی کائی کہ کودیوم کوتہ؟
 about-playbook-how-localize-content-1 = عام کوٹہ ستہ پلگاں <strong> پونتون تہ بوتہ</strong>۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اہ اکاونٹ اِپا</pontoonAccountLink> اگر نہ اسہ با۔ستمع توستہ ورے منتخب کشی<strong>(‘وریک’)</strong> ستمع توستہ پراجکٹ،<pontoonCvLink> عام کوٹ</pontoonCvLink>۔پلگݩا ستہ کہ فائل بولہ آئی۔ او ووسپلہ ،ستمع اینہ انگریزی ستہ الفاظ او امکیاں ستہ پلگݩا دیو کہ اہ بکس وعݩاتہ۔
 
 ## How to add sentences
 
