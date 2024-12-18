@@ -42,6 +42,7 @@ terms-disagree = مہ نہ قبولوں۔
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تانی کلپس خرات تھالیل باڑ مربنی۔
 why-donate = تو گوا مینوسہ۔
+continue-speaking-button = نہ مر بنی تانی جولال جاری رݭ
 
 ## MENU ITEM TOOLTIPS
 
