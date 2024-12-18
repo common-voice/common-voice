@@ -8,6 +8,12 @@ sc-review-no-sentences = Cha nel raaghyn erbee ayn dy scrutaghey. <addLink>Faag 
 sc-review-form-prompt =
     .message = Cha nel ny raaghyn scrutit er nyn gur stiagh, vel oo shickyr?
 sc-review-form-usage = Tayrn my yesh dy choontey mie jeh raa. Tayrn my hoshtal dy yiooldey eh. Tayrn heose dy gholl shaghey. <strong>Ny jean jarrood dy chur dty scrutaght stiagh!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Bun: { $sentenceSource }
+sc-review-form-button-reject = Jiooldee
+sc-review-form-button-skip = Gow shaghey
+sc-review-form-button-approve = Coard rish
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
