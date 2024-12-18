@@ -52,9 +52,9 @@ thanks-for-voice-toast = Čeriwéma pu'ká nawésari naewánia
 thanks-for-voice-toast-error = Ka'í kawé simerórume uká amó netería
 first-cta-gender-select-default-option = Nasónaka piré amó netería
 first-cta-gender-select-help-text =
-    .label = ¿Čimureka netenare amó sekso yoma?
+    .label = ¿Ačínia yoráka iyoténamu amó sekso henerowá?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = ¡Čeriwera uka amó nanosariwa nehario sulala!
+second-cta-header-text = ¡Čeriwéma uká amó nawésari nehária!
 second-cta-subtitle-text = Uká pirípi nahuniéme rehú netéka pirípi oičaniéme amó itapéri netewáme, toináka pienáči wa'á amó ohékači simiká čanémia amoé
 already-have-an-account = ¿Iniwaému waási cuentá? <iniciar sesión>Oínaka itapéri</iniciar sesión>
 create-profile-button = Netenarésaka uká piré Common Voice
