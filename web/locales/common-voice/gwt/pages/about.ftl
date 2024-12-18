@@ -104,9 +104,13 @@ about-playbook-how-grow-language-content-3 = مے خلَکَنی مددہ ݭڅی
 about-playbook-how-grow-language-content-4 = سوشل مېڈیا
 about-playbook-how-grow-language-content-5 = مے پېغام فېدَئیکہ ݭڅی سوشل مېڈیا پلېٹ فارم استعمال کېری بَمانېؤ۔ اِشِلی پوسٹسَنہ اشتراک کېرِؤ زی اسہ باتِیَنی وضاحت کېرِیَؤ زی ووئی کیاں اہم تھنہ، اؤ باتِیَنہ حقوق، کھنٹ AI، یا ٹېکہ تعصبہ پېرُودہ مسائلَنہ بارا باتی کېرِݪہ واری خلَکہ مِنزی رابطہ کېرِؤ۔ <campaignLink>سماجی مہم چلَئکَنہ بارا واری مشورہ بالِؤ، شامل تېمے مواد زی مے دُبُڑہ استعمال کېری بَمانېؤ</campaignLink>۔
 about-playbook-how-grow-language-content-6 = شراکت داری اؤ نیٹ ورک
+about-playbook-how-grow-language-content-7 = واری تسُو کوڅِؤ زی کی پروا کېرِمېت۔ اېمے یونیورسٹی نام، باتِیَنہ اِسکول، وکالَتَنی گروپ یا ڈیٹا سائنس برادری نام بِمېت۔ مِزان فېدِؤ اؤ اخکارہ روے وضاحت کېرِؤ زی تېمے کِرَوے مدد کېری بمېت اؤ کېناں۔ <outreachTemplates>امَنی ٹېمپلٹ آوٹ رینج ای میلز</outreachTemplates>بالِؤ۔
+about-playbook-how-grow-language-content-8 = <strong>تخلیقی ݫُپِؤ!</strong>مېنی باتِیَنی برادری منفرد تھِبہ، اؤ اسہ شروع کېرِکَنہ یَکَتہ طرېقہ تھنَئیت۔
 
 ## How to validate
 
+about-playbook-how-validate = آں کِرَوے پیانی بمېم زی صوتی کِلپہ منظور کېرَنہ تھنہ خو نئ؟
+about-playbook-how-validate-content-1 = کېنے زی مے <strong> اسُو ݭُنڈی بَمانېؤ بہ </strong> اؤ<strong>پرُوزی بَمانېؤ بہ</strong>،جو عام طورے<strong> منظوری ݪِیاوَہ بئ تھنہ</strong>۔
 
 ## How to access dataset
 
