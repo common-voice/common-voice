@@ -64,7 +64,7 @@ news_current_affairs = Tamó čanéniame i yomá umátoame kuwé
 technology_robotics = Enté yoáme i enté yoáme itapíti apoe nonoame
 sentence-variant-select-label = Na'iwátiame uhúpu orasióne nawésari piréči ohoékači enté. Weiká orasióne intuáme
 sentence-variant-select-placeholder = Usaá pu'ká nawésari piréči enté močikačí. (yoraniáme)
-sentence-variant-select-multiple-variants = Nawesari yomá / weikaá uhupú kapó
+sentence-variant-select-multiple-variants = Nawésari yomá / weiká uhupú kapó
 
 ## BULK SUBMISSION 
 
