@@ -23,6 +23,6 @@ review-transcriptions-menu-item-tooltip = Felhasználó által beküldött leira
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = Hallgatási beállítások menü
+listen-contribute-menu-aria-label = Figyeljen menü lehetőségei
 validate-readings-menu-item-aria-label = Közösség tagjai által beküldött felolvasások ellenőrzése
 review-transcriptions-menu-item-aria-label = A rögzített mondatok leiratainak pontosságának ellenőrzése

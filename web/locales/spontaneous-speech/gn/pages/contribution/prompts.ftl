@@ -9,3 +9,6 @@ submit-all-button = Emondopa
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-transcribe = Eñeha’ã embokuatia
+learn-how-to-use-check-transcript = Eñeha’ã ñembokuatia ehechajey
+learn-how-to-use-check-transcript-guidance = Eikutu <guidanceLink>ápe</guidanceLink> eiporukuaa hag̃ua ko kuatiarogue

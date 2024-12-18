@@ -198,12 +198,6 @@ zu = Zulù
 
 ## Layout
 
-speak = Chistiona
-speak-now = Chistiona immoe
-datasets = Pachetes de datos
-languages = Limbas
-about = Informatziones
-partner = Sòtzios
 profile = Profilu
 help = Agiudu
 contact = Cuntatu
@@ -223,7 +217,6 @@ privacy-info = Ti promitimus chi amus a impreare s'informatzione tua cun garbu. 
 return-to-cv = Torra a Common Voice
 email-input =
     .label = Indiritzu de posta eletrònica
-submit-form-action = Imbia
 loading = Carrighende...
 email-opt-in-info = Mi diat a pràghere de retzire messàgios de posta eletrònica comente apuntos de is obietivos, is atualizatziones de su progressu meu e bolletinos a subra de Common Voice.
 email-opt-in-info-title = Aderi a sa lista de posta de Common Voice
@@ -234,3 +227,9 @@ not-available-abbreviation = No est a disponimentu
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Tenimus bisòngiu</mark><br/><mark>de s’agiudu tuo!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Ses impreende CV</mark><br/><mark>pro sa chirca tua?</mark>
+localization-select =
+    .label = Sèbera una limba/localizatzione

@@ -15,11 +15,11 @@ sc-review-write-title = মই কি কি বাক্য যোগ কৰি
 sc-review-small-batch-title = একাধিক বাক্য কেনেকৈ যোগ কৰিব পাৰি
 new-sentence-rule-1 = কোনো <noCopyright>কপিৰাইট</noCopyright>-সংক্ৰান্তীয় নিষেধাজ্ঞা নথকা (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = প্ৰতিটো বাক্যত 15টাতকৈ কম শব্দ
-new-sentence-rule-3 = শুদ্ধ ব্যাকৰণ ব্যৱহাৰ কৰক
-new-sentence-rule-4 = শুদ্ধ বানান আৰু যতি-চিহ্ন ব্যৱহাৰ কৰক
+new-sentence-rule-3 = শুদ্ধ ব্যাকৰণ ব্যৱহাৰ কৰিব
+new-sentence-rule-4 = শুদ্ধ বানান আৰু যতি-চিহ্ন ব্যৱহাৰ কৰিব
 new-sentence-rule-5 = কোনো সংখ্যা আৰু বিশেষ বৰ্ণ থাকিব নোৱাৰিব
 new-sentence-rule-6 = কোনো আচহুৱা বৰ্ণ থাকিব নোৱাৰিব
-new-sentence-rule-7 = উপযুক্ত উদ্ধৃতি অন্তৰ্ভুক্ত কৰক
+new-sentence-rule-7 = উপযুক্ত উদ্ধৃতি অন্তৰ্ভুক্ত কৰিব
 new-sentence-rule-8 = আদৰ্শগতভাৱে স্বাভাৱিক আৰু কথোপকথনমূলক (বাক্যটো প‌ঢ়িবলৈ সহজ হোৱা উচিত)
 login-instruction-multiple-sentences = একাধিক বাক্য যোগ কৰিবলৈ <loginLink>লগ ইন</loginLink> নাইবা <loginLink>ছাইন আপ</loginLink>  কৰক
 how-to-cite = উদ্ধৃতি কেনেকৈ দিম?
@@ -137,10 +137,10 @@ small-batch-response-message =
         [one] 1টাৰ { $uploadedSentences }টা বাক্য সংগৃহীত হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
        *[other] { $totalSentences }টাৰ { $uploadedSentences }টা বাক্য সংগৃহীত হ’ল। নাকচ হোৱা বাক্যকেইটা ডাউনল’ড কৰিবলৈ <downloadLink>ইয়াত</downloadLink> ক্লিক কৰক।
     }
-small-batch-sentences-rule-1 = “মই কি কি বাক্য যোগ কৰিব পাৰোঁ?” তাৰে পৰা নিৰ্দেশনা পালন কৰক
-small-batch-sentences-rule-2 = প্ৰতিটো শাৰীত এটাকৈ বাক্য যোগ কৰক
-small-batch-sentences-rule-3 = “Enter” বা “Return” এবাৰ টিপি বাক্যবোৰ এটা শাৰীত পৃথক কৰক
-small-batch-sentences-rule-4 = 1,000টা পৰ্যন্ত বাক্য যোগ কৰক
+small-batch-sentences-rule-1 = “মই কি কি বাক্য যোগ কৰিব পাৰোঁ?” তাৰে পৰা নিৰ্দেশনা পালন কৰিব
+small-batch-sentences-rule-2 = প্ৰতিটো শাৰীত এটাকৈ বাক্য যোগ কৰিব
+small-batch-sentences-rule-3 = “Enter” বা “Return” এবাৰ টিপি বাক্যবোৰ এটা শাৰীত পৃথক কৰিব
+small-batch-sentences-rule-4 = 1,000টা পৰ্যন্ত বাক্য যোগ কৰিব
 small-batch-sentences-rule-5 = আটাইবোৰ বাক্যৰ ড’মেইন একে হ’বই লাগিব
 small-batch-sentences-rule-6 = আটাইবোৰ বাক্যৰ উদ্ধৃতি একে হ’বই লাগিব
 # menu item

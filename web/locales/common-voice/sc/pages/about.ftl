@@ -80,11 +80,19 @@ about-playbook-how-add-sentences = Comente fatzo a agiùnghere fràsias?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Èvita tropu abbolotu in s’isfundu: diat dèpere èssere fàtzile a ti intèndere.
+about-playbook-how-record-content-3 = Leghe is fràsias cun atentzione: non perdas, càmbies o agiungas faeddos.
+about-playbook-how-record-content-4 = Assegura·ti chi sa prataforma est registrende in antis de cumintzare a faeddare, e chi si firmat una borta apas acabbadu.
+about-playbook-how-record-content-5 = <accuracyLink>Àteras informatziones in pitzus de is critèrios de pretzisione.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Comente podimus crèschere una limba in manera efetiva in Common Voice?
+about-playbook-how-grow-language-content-1 = Sa creatzione de oportunidades pro chi una comunidade de persones diversa partètzipet a Common Voice garantit chi su pachete de datos serbit sa prus gente possìbile. Amus creadu resursas e modellos pro chi ddos potzas impreare!
 about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Podes organizare eventos pro incoragiare a sa gente a partetzipare. Est prus fàtzile de cantu paret. Ddu podes fàghere in lìnia cun unu sistema de vìdeu-cunferèntzias o in presèntzia si est seguru. <eventTemplate>Càstia is modellos e is resursas nostras pro organizare eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Retes sotziales
+about-playbook-how-grow-language-content-6 = Alleàntzias e retes
 
 ## How to validate
 
@@ -96,10 +104,20 @@ about-playbook-how-validate-content-4 = Si una registratzione est refudada dae 2
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Comente potzo atzèdere su pachete de datos? Comente ddu potzo impreare?
+about-playbook-how-access-dataset-content-1 = Podes andare a sa <datasetsPage>pàgina de is pachetes</datasetsPage>, seletzionare sa versione e is limbas chi boles e ddos iscarrigare. Is archìvios tenent <metadataLink>metadatos assotziados</metadataLink>, comente informatzione demogràfica e datos de validatzione. As a dèpere frunire un’indiritzu de posta eletrònica pro iscarrigare su pachete de datos.
+about-playbook-how-access-dataset-content-2 = Si ses chirchende ainas pro creare modellos ASR, podes cuntatare àtera gente in sa comunidade <discourseLink>de Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Comente si pigant is detzisiones de su progetu?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice est possìbile gràtzias a una comunidade diversa de ativistas, linguistas, iscientziados de datos e ingegneris de programmas de totu su mundu. Su progetu est gestidu dae sa Fundatzione Mozilla.
 about-playbook-how-project-governance-content-3 = Riservadesa, seguresa e trasparèntzia.
+about-playbook-how-project-governance-content-4 = Partetzipatzione de sa comunidade in su protzessu de detzisiones.
+about-playbook-how-project-governance-content-5 = Valore e reconnoschimentu.
+about-playbook-how-project-governance-content-6 = Responsabilidade mùtua
+about-playbook-how-project-governance-content-7 = <governanceLink>Àteras informatziones in pitzus de comente nos guvernamus</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Comente est finantziadu Common Voice?

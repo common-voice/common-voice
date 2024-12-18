@@ -1,15 +1,15 @@
-listen = Kepuniame
-listen-subtitle = Taamo kuimitia grabasioni yoraga
-listen-instruction = { $actionType } <playIcon></playIcon> ¿Čeníame pu'ká naewasán waa teka waasi?
-listen-again-instruction = ¡Kaweruma teki yoaremu! <playIcon></playIcon> enčí simitemitia kepuka, kawe amo masítepasa.
-listen-3rd-time-instruction = Netekamu oka ejempločitia <playIcon></playIcon>, waa yoraka simiteniapu
-listen-last-time-instruction = <playIcon></playIcon> Ihičepu waasi ultimuči ehemplo yoraniame
-listen-empty-state = Yooma teeme iniwae pu'ká ejempločitia taamo rebisandomia, si kawe mania taamo naewasari.
-listen-empty-state-variants = Teeme ki iniwae waasi taamo pačamia audioči naewasari taamo puebloči simiyame. Si kawetia kepunia naewasari kianiame sewi puebloči močikame si naewania pai pukači  naewasari
-listen-loading-error = Kikawisiteru teeme tekimia pu'ká audioči . Weikačuri ari oinepa yoraka enči.
-listen-abort-title = ¿Kahunaremu yooma werifikandomia., sii kaawe manía puú ejemploči?
-listen-abort-cancel = Simitenaremu yoraka werificandoka,,..sii kawe mania puú ejemploči toatiame.
-listen-abort-confirm = ¿Yooma kahunaremu rebisandoka?
+listen = Kepúniame
+listen-subtitle = Tamó kuimítia rawasióni yoráka
+listen-instruction = { $actionType } <playIcon></playIcon> ¿Čeniáme pu'ká naewasa wa'á teká waási?
+listen-again-instruction = ¡Kawéruma tenkí yoáremu! <playIcon></playIcon> enčí simitémitia kepúka, kawé amó masitépasa.
+listen-3rd-time-instruction = Netekámu oká ejempločitia <playIcon></playIcon>, wa'á yoráka simiteniápu
+listen-last-time-instruction = <playIcon></playIcon> Ihičépu waási ultimúči ehémplo yoraniáme
+listen-empty-state = Yomá teéme iniwáe pu'ká ehempločitia tamó re'wisaróamia, kawé manía tamó nawésari.
+listen-empty-state-variants = Teéme ki iniwáe waási tamó pačámia audióči nawésari taámo pueblóči simiyáme. Kawétia kepúnia nawésari kianiáme sewí pueblóči močikáme naewánia pai púkači  nawésari
+listen-loading-error = Kikawesítere teéme tékimia pu'ká audióči . Weikáčuri arí oínepa yoráka enčí.
+listen-abort-title = ¿Kahunáremu yomá werifikandómia,  kawé manía puú ehemploči?
+listen-abort-cancel = Simiténaremu yoráka werificandóka, kawé manía puú ehemploči toátiame.
+listen-abort-confirm = ¿Yomá kahunáremu re'wisaroaka?
 
 ## MENU ITEM TOOLTIPS
 

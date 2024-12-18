@@ -118,6 +118,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } 1 ñe’ẽjuaju mbyatypyre
        *[other] { $uploadedSentences } { $totalSentences } ñe’ẽjuaju mbyatypyre
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } { $totalSentences } rehegua mbyatypyre. Eikutu <downloadLink>ápe</downloadLink> emboguejy hag̃ua umi ñe’ẽjuaju ñemboykepyre.
+       *[other] { $uploadedSentences } { $totalSentences } rehegua mbyatypyre. Eikutu <downloadLink>ápe</downloadLink> emboguejy hag̃ua ñe’ẽjuajukuéra ñemboykepyre.
+    }
 small-batch-sentences-rule-1 = Eho ko tapére “¿Mba’e ñe’ẽjuaju ambojuapykuaa?”
 small-batch-sentences-rule-2 = Ehai peteĩ ñe’ẽjuaju tairendápe
 small-batch-sentences-rule-3 = Eipe’a ojuehagui ñe’ẽjuaju peteĩ líñope, peteĩteĩva líño jepo rupive
