@@ -26,6 +26,10 @@ about-speak-text = مدَتی عطیہ بِسنت کَلاؤ نامَنی بېن
 about-listen-queue = ݭُنڈِؤ۔ قطار
 about-listen-queue-text = کھنٹَنی کِلپس جمع کېرَئیکہ ݭڅی قطارہ داخل کېران دِمېت زی تسُو ݭُنڈِکہ ݭڅی تیار کېرِمېت۔
 about-listen = ݭُنڈِؤ
+about-listen-text = صارفین عطیہ کېرِسنت کِلپسَنی سئ گَرِیَنی تصدیق کېرِمېت، اسہ بالِمېت زی اسیکر کَلاوَہ سئ رَوے ژَمان۔
+about-is-it-valid = کِلپ سئ تھِنِیا؟
+about-is-it-valid-text = یَہ کھنٹَنی کِلپہ“سئ“ تول نخہ کېران دِمان زی صارِف تسہ ݪِمان اے ووٹ۔
+about-yes-votes = ≥2 اے ووٹ
 
 ## Community Playbook Content
 ## What is a language
