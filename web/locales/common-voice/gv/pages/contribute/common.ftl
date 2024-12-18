@@ -2,6 +2,16 @@ action-click = Crig
 action-tap = Crank
 contribute = Cur stiagh
 review = Scrutee
+skip = Er oaie
+shortcuts = Cassanyn Er-Lheh
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Veer
+        [two] <bold>{ $count }</bold> Veer
+        [few] <bold>{ $count }</bold> Meeryn
+        [many] <bold>{ $count }</bold> Meeryn
+       *[other] <bold>{ $count }</bold> Meeryn
+    }
 goal-help-recording = T'ou er chooney lesh Common Voice roshtyn <goalPercentage></goalPercentage> jeh'n dean recortyssee { $goalValue } laaoil ain!
 goal-help-validation = T'ou er chooney lesh Common Voice roshtyn <goalPercentage></goalPercentage> jeh'n dean scrutaghey { $goalValue } laaoil ain!
 contribute-more =
