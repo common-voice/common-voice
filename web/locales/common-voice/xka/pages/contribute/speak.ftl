@@ -61,6 +61,9 @@ read-sentences = جولال من۔
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جولال منا سوال اؘ جواب دا۔
+read-sentences-menu-item-tooltip = اؘ پینا اپناتھ تان جب می جولال منیل ریکاڈ تھا۔
+answer-questions-menu-item-tooltip = تانی جب می سوال تہ اشارے اؘ جواب دایل رل ااپان ریکاڈ تھ
 
 ## MENU ITEM ARIA LABELS
 
