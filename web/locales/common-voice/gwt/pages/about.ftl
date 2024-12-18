@@ -63,6 +63,7 @@ about-playbook-what-is-language-content-3 = زِنی باتِیہ گرامر، �
 about-playbook-how-add-language = آں باتِیہ کِرَوے لُبُسامہ؟
 about-playbook-how-add-language-content-1 = سومِّیہ پېنہ پُدَمہ چیک کېرہ زی مېنی باتی <languageLink>پُدَما پاݪی موجود تھنی</languageLink>۔کېنے زی اِشِلہ نہ تھنہ بہ ژو، مے <languageRequestLink> تانُو باتِیہ لُبُسَئیکَنہ بارا کھُدَئی بمانېؤ</languageRequestLink>۔ اتے دُو مرحلہ تھنَئیت</languageRequestLink> سائٹَنہ ترجمہ کېراوَہ، اؤ کَلاؤ نام ٹوپَلَئیک
 about-playbook-how-add-language-translating-heading = سائٹَنہ ترجمہ کېراوَہ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون استعمال کېرِکَنہ طېقانہ بارا امَنہ گائڈہ بالِؤ</translateVideoLink>
 
 ## How does localization work
 
