@@ -1,3 +1,4 @@
+listen = بُج
 listen-subtitle = ہواٞز صحی کٞروگ مئ مُوں مداٞد کٞر۔
 listen-instruction = <playIcon> <playIcon> { $actionType } اومٞہ جُملہ صحی منُو آٞ؟
 listen-again-instruction = شاباش!  <playIcon> <playIcon> کون تُو تیار ہُو تے دِگیراں بُج
@@ -21,3 +22,5 @@ review-transcriptions-menu-item-tooltip = اختیاراتیں لیس بُج
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = کمیونٹی آٞں ممبراٞنیں جمہ کٞریل پروگ صحی کٞر۔
+validate-readings-menu-item-aria-label = گروپ مئی موجود ممبراٞنیں پِیݭ تھی لاڑاگیل چُنڑیل کہ اجازہ داٞگ
+review-transcriptions-menu-item-aria-label = ریکارڈ کٞراٞل جُملاٞ صحی کٞروگیں کیر جائیزہ گھِن
