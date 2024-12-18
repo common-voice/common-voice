@@ -1,8 +1,8 @@
 ## WRITE PAGE
 
-write = Ereka hu osinime
-write-instruction = Toaga<icon></icon> pile naosari wa dominio publiko
-write-page-subtitle = Orasioniči manitoame programači kawisita komo konjuntočitia toaniame datos licenciači cc-0, Disponibleči iniwae puka publikoči simiyame
+write = yotéka
+write-instruction = Tóaga wa'á<icon></icon> piré naósari wa'á dominio publiko
+write-page-subtitle = Orasioníči manitóame programači kawísita komo konhuntočitiá toaniáme datos lisensiači cc-0, Disponibleči iniwáe pu'ká publikóči simíyame
 sentence =
     .label = Itaperi čee wame
 sentence-input-placeholder = Toaga i'wá naosari dominio publiko uka itaperi
