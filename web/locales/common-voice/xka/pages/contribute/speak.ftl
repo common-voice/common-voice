@@ -42,6 +42,7 @@ terms-disagree = مہ نہ قبولوں۔
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تانی کلپس خرات تھالیل باڑ مربنی۔
 why-donate = تو گوا مینوسہ۔
+add-information-button = معلومات جمع تھا۔
 continue-speaking-button = نہ مر بنی تانی جولال جاری رݭ
 create-profile-text = تی معلومات ݭݨکیل پکار ۔پروفائل ترا
 thanks-for-voice-toast = تی آواز معلومات کیر مربنی۔
