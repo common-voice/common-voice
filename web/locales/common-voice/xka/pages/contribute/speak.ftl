@@ -46,6 +46,18 @@ continue-speaking-button = نہ مر بنی تانی جولال جاری رݭ
 create-profile-text = تی معلومات ݭݨکیل پکار ۔پروفائل ترا
 thanks-for-voice-toast = تی آواز معلومات کیر مربنی۔
 thanks-for-voice-toast-error = تی آواز اؘ معلومات سمٹیل می اورنی یال
+first-cta-gender-select-default-option = ا اختیار حوشا۔
+first-cta-gender-select-help-text =
+    .label = تانی مشتوب کوتھ اخکارہ تھون۔
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تی آواز می تھیر گیرال کیر تی مربنی۔
+second-cta-subtitle-text = اکاونٹ اول دا کولاو این
+already-have-an-account = اکاونٹ اول دا کولاو این
+create-profile-button = پروفائل ترو۔
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی اؘ نخ۔
+# menu item
+read-sentences = جولال من۔
 
 ## MENU ITEM TOOLTIPS
 
