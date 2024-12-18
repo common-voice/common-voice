@@ -75,4 +75,11 @@ data-explanatory-text = ایمو یقین اسہ الہ عوامی طور تہ �
 data-get-started = <speechBlogLink>وری زعݩتی شروع کشی</speechBlogLink>
 data-other-title = ورکوٹ ستہ ڈیٹاسیٹ…
 data-other-goto = یݩع{ $name }
+data-other-download = ڈیٹا ڈاؤنلوڈ کشݩع
+data-bundle-button = ڈیٹا سیٹ بنڈل ڈاؤنلوڈکشݩع
+data-bundle-description = کامن وائس ڈیٹاسورہ اولݩع پتہ ستہ څݣ کوٹ ڈیٹاسیٹ
 dataset-date = ڈیٹا
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = اپار
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ایموستہ کوٹہ ڈیٹا سیٹس ڈاون لوڈ کشݩع
