@@ -17,3 +17,6 @@ varying-pronunciations-explanation-2 = دوموگیْ طرفڑ، اگر څھوْ
 varying-pronunciations-example = پوْن واضع ناسیْ
 varying-pronunciations-tip-1 = [کنیڈین سہ انگریزی ”رُوٹ“ ئڑ ”رَوٹ“ “ اےْ ولِجیْ آواز دینَن بو]
 varying-pronunciations-tip-2 = [برطانوی انگریزی سہ ”چِھرِݜ“ سنبانی بو]
+offensive-content-explanation = جُملائے جانچ کمیونٹی اعتدالے عملے ذریعہ گیْ تِھیجانیْ، مگر آ عمل کامل نانیْ۔ اگر څھوْس کوئے ادو جُملہ پشنَت یا ݜُݨنَت کھاں سہ څھوْ خپا یا پریشان تِھینوْ۔ مثال گیْ اسے  کمیونٹی شرکتے رہنما اصول </participationGuidelines>اے خلاف ورزی <participationGuidelines> تِھینوْ توْ مہربانی تھے یو آئی دہ فلیگ بٹنِجیْ ا<emailFragment>commonvoice@mozilla.comستعمال شَت تِھیا۔ څھوْس آ سِجیْ گہ رابطہ تھوبانَت<emailFragment>commonvoice@mozilla.com</emailFragment>
+misreadings-explanation-1 = صفحہ دہ موجود تمام الفاظ صحیح شان گیْ پڑِیون دہ فرق پائدا بِینوْ۔ ݜُݨَون دہ، لئی احتیاط گیْ چیک تِھیا چہ کھاں ریکارڈ تِھجِلُن اسہ بالکل اسدو نوْ کاتھ لِکِیلُن۔ اگر سیݨا الفاظ ٹل تھیگان توْ رَد تِھیا۔ یعنی لفظ ٹل تھاؤن یا پھتاؤن۔
+misreadings-explanation-2 = لئی عام غلطیو مجیْ شاملِن
