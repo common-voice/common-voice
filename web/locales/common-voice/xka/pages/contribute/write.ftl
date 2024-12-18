@@ -31,13 +31,21 @@ add-sentence-error = جولال جمعہثآل  رل غلطن
 single-sentence-submission = ا کو ن جملہ باگھال
 small-batch-sentence-submission = اپان سہ
 bulk-sentence-submission = گھن جملہجمع تال
+single-sentence = اکون
 small-batch-sentence = لکوٹوش گروپ
 bulk-sentence = جولال اے
 sentence-domain-combobox-label = ترا کارونی اپا  کیر خوشا
+sentence-domain-select-placeholder = ترہ باگوی خوشہ
 # Sentence Domain dropdown option
 agriculture_food = کاروال تےخوراک
 # Sentence Domain dropdown option
-finance = { "" }
+finance = خزان
+# Sentence Domain dropdown option
+general = آم
+# Sentence Domain dropdown option
+healthcare = وجودرݭیل
+# Sentence Domain dropdown option
+history_law_government = تاریخ،قانونتے سرکار
 
 ## BULK SUBMISSION 
 
