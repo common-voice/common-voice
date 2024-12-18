@@ -16,6 +16,8 @@ new-sentence-rule-2 = ا جملا بنجیش  ٹکیل دا کم بیدہ
 new-sentence-rule-3 = صحی گرامر استمال تہ۔
 new-sentence-rule-4 = صحی سپلنگ تے تلفظ تہ
 new-sentence-rule-5 = نہ ہندسہ نہ خاص ٹیکل
+new-sentence-rule-6 = دروم وطن دا خط اے°اجازت نان
+new-sentence-rule-7 = خا منیل جولال پا ٹل تہ
 
 ## BULK SUBMISSION 
 
