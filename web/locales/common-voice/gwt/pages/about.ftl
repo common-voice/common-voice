@@ -130,6 +130,10 @@ about-playbook-how-project-governance-content-3 = راز داری، حفاظت �
 about-playbook-how-project-governance-content-4 = برادرِیَنی شرکت اؤ فیصلہ ݫُپاوَہ۔
 about-playbook-how-project-governance-content-5 = قدر اؤ پیاناوَہ۔
 about-playbook-how-project-governance-content-6 = تانُو منزَنہ احتساب۔
+about-playbook-how-project-governance-content-7 = <governanceLink>اِتے نہ بارا واری بی ژَؤ زی امہ کِرَوے حکومت کېرِمېک</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائسَہ نی مالی مدد کِرَوے کېران دِمان؟
+about-playbook-how-funded-content-1 = کامن وائس موزِیلا فاونڈېشَنَنہ یَک پراجکٹ تھنہ، زیUS 501c3 تھنہ۔ اسہ پراجکٹہ فلیالن فُورہ طورے <philantropicGrantLink>مخیر حضراتَنی گرانٹ</philantropicGrantLink>، اؤ سپُورہ دُنیا نہ خلَکَنی عطیاتَنہ ذریعہ ئے مالی مدد کېران دِمان۔
+about-playbook-how-funded-content-2 = ڈیٹاسیٹسَنہ مسلسل بارِمہ څیار اؤ رِلیز کېراوَہ، پلېٹ فارَمہ لؤ بئ ݫُپَئکَنی اؤ <africaMradiLink> کمیونٹی پروگرام نام </africaMradiLink> چلَمېنے لؤ زیات دولت لگِمان۔
