@@ -67,9 +67,12 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پو
 about-playbook-how-add-language-translating-content-2 = امہ ترجما ݭڅی یہ موزِلہ ٹول استعمال کېرِمېک تساں <pontoonLink>پونٹون</pontoonLink>ژمېت۔ پونٹونہ لؤ باتی نام تھنَئیت، خو کېنے ز ی اِتے مېنی باتی نہ تھنی بہ جو مے <pontoonRequestLink>تانُو باتِیہ لُبُسَئیکَنی درخاس کېری بَمانېؤ۔</pontoonRequestLink>۔ گِری کامن وائس پراجکٹہ رتئ باتِیہ پئیدیا کېرِکہ ݭڅی <githubRepoLink>GitHub<githubRepoLink> رتئ نونگی باتِیَنی درخاس کېرِؤ۔<localizationFragment>سائٹ ترجما واری بالِؤ</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = کلاؤ ٹوپَلَئیک
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>کلاوَنہ استعمالَنہ بارا امَنہ گائڈہ بالِؤ کلکٹر</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 = مے<sentenceCollectorLinkAdd>کلاوَنی پولی تعدادہ لُبُوسَئ بمانېؤ</sentenceCollectorLinkAdd>،یا مےGithub<bulkImportDocsLink> نہ استعمال کېرِمېن</bulkImportDocsLink>بلک امپورٹس کېری بَمانېؤ۔ یاد ساتِؤ زی کَلاؤ <licenseLink>سی سی او(یا عوامی ڈومېن) </licenseLink> بیاوَہ پکار تھنہ، یا مے تانئ لِکی بَمانېؤ۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> کَلاوَہ رتئ واری بالِؤ مجموعہ</sentenceCollectorFragment>۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ لوکلائزېشن کِروے ݪم کېرِمان؟
 
 ## How to add sentences
 
