@@ -81,6 +81,7 @@ about-playbook-how-localize-content-5 = مدد دیوکہ ایموستہ وضا�
 
 about-playbook-how-add-sentences = اوݩزہ جملہ کائی کہ سنالوم؟
 about-playbook-how-add-sentences-content-1 = شا جملہ سنا بتعں اینہ <writePageLink>ستورئی پار تہ</writePageLink>یا جائذہ کعستہ پار <reviewPageLink> جملاں جئذہ کو بتعں</reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = عام کوٹ تہ جملہ شامل کعستہ کہ جائزہ کوستہ کہ دیو منچاں مݨہ ستہ ضروری اسہ۔ شا یاستہ ورے  رہنائی<languageGuidelinesLink> انی کو بتعں</languageGuidelinesLink>۔ جملہ <licenseLink> عوامی مرضے </licenseLink> تہ بوستہ اسہ او 15الفاظ تݩع اچاک بوستہ اسہ۔ شا ٹیکسٹ مالکہ تہ کودا بچی<waiverLink> سی سی 0 استعمال کہ تے </waiverLink>، او ایمو تہ دی سمہ بتعںcommonvoice@mozilla.com
 
 ## How to record quality
 
