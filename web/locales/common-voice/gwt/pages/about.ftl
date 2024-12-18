@@ -137,3 +137,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>اِتے نہ 
 about-playbook-how-funded = کامن وائسَہ نی مالی مدد کِرَوے کېران دِمان؟
 about-playbook-how-funded-content-1 = کامن وائس موزِیلا فاونڈېشَنَنہ یَک پراجکٹ تھنہ، زیUS 501c3 تھنہ۔ اسہ پراجکٹہ فلیالن فُورہ طورے <philantropicGrantLink>مخیر حضراتَنی گرانٹ</philantropicGrantLink>، اؤ سپُورہ دُنیا نہ خلَکَنی عطیاتَنہ ذریعہ ئے مالی مدد کېران دِمان۔
 about-playbook-how-funded-content-2 = ڈیٹاسیٹسَنہ مسلسل بارِمہ څیار اؤ رِلیز کېراوَہ، پلېٹ فارَمہ لؤ بئ ݫُپَئکَنی اؤ <africaMradiLink> کمیونٹی پروگرام نام </africaMradiLink> چلَمېنے لؤ زیات دولت لگِمان۔
+about-playbook-how-funded-content-3 = کېنے زی مے یا مېنی تنظیم اِتے پراجیکٹہ دُبُڑہ حصہ تلَئیکاں ݭېنݭ کېرِمان بہ جو مے یک<donateLink> عطیہ</donateLink> ݪی بَمانېؤ یا<emailFragment>commonvoice@mozilla.com</emailFragment> رتئ امَنی پارٹنر شپ ٹیمہ مِنزی رابطہ کېری بَمانېؤ۔
