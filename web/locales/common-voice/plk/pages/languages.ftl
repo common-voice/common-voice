@@ -1,5 +1,6 @@
 ## Languages Overview
 
+language-section-in-progress = جاری
 language-section-launched = لانچ بِلیْ/بِلوْ
 languages-show-more = مُتہ ڇکہ
 languages-show-less = اپیْ ڇکہ
