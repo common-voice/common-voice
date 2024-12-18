@@ -65,6 +65,7 @@ whats-public = عوامی جوکُن؟
 
 ## Landing
 
+welcome-staff = راش { $company } سٹاف ǃ
 
 ## NAV ITEMS
 
