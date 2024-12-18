@@ -96,6 +96,7 @@ about-playbook-how-record-content-5 = <accuracyLink>سہی بستہ ستہ مع�
 ## How to grow language
 
 about-playbook-how-grow-language = ایمو عام کوٹ تہ ورے کائی کہ موثر ایپامو۔
+about-playbook-how-grow-language-content-6 = پلائی وار دے نیٹورک
 
 ## How to validate
 
