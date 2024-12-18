@@ -55,6 +55,7 @@ first-cta-gender-select-help-text =
     .label = Kys verragh oo coontey jeh dty cheintys?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Gura mie ayd son cur stiagh dty choraa!
+second-cta-subtitle-text = Lesh duillag, foddee oo freayll rick er dty roortys as co-chiangley lesh pobbyl dy leih ta cur dooin fys coraa.
 already-have-an-account = Vel coontys ayd hannah? <login>Log-stiagh</login>
 create-profile-button = Jean duillag
 # IMAGE TAGS
@@ -66,6 +67,10 @@ read-sentences = Lhaih Raaghyn
 
 speak-contribute-menu-tooltip = Lhaih Raaghyn, Freggyr Feyshtyn
 read-sentences-menu-item-tooltip = Jean recortys jeed hene lhaih raaghyn ayns dty hengey
+answer-questions-menu-item-tooltip = Jean recortys jeed hene freggyrt feyshtyn as cooney ayns dty hengey
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Kaart dy reihyn loayrtee
+read-sentences-menu-item-aria-label = Lhaih raaghyn currit stiagh ec y phobble ayns ymmodee çhengaghyn
+answer-questions-menu-item-aria-label = Cur stiagh feysht noa son y phobble dy lhaih as freggyrt
