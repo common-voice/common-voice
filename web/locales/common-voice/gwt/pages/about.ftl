@@ -46,10 +46,16 @@ about-stay-in-touch-text-2 = نوری موزِیلا باتیَنی برادرِ
 about-nav-why-common-voice = کېناں؟
 about-nav-how-it-works = کِرَوے؟
 about-nav-partners = شراکتی
+about-nav-get-involved = لُبُسِؤ
+about-nav-how-it-works-2 = کامن وائس کِرَوے ݪم کېرِمان؟
+about-nav-playbook = حصہ گوئیکَنہ طیقا ہِلِؤ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائسہ رتئ باتی کی تھنی؟
+about-playbook-what-is-language-content-1 = باتِیَنہ بارا فکر کېرِکَنہ لؤ طرېقہ تھنَئیت۔ باتی پیانِکَنہ ماڈلَنی مطلبہ ݭڅی، کامن وائس تانُو مِنزی پرُوزِکہ ݭڅی فکر کېرِکاں مشورہ ݪِمان، یا کی اسہ باتِیہ ݪِݪہ زیات یَیَکِیہ پیانِکَنی کوشش کېرِمېتا؟
+about-playbook-what-is-language-content-2 = امہ کوڅِمېک زی سپیچ ماڈل تقریر کېرِݪانی متنوع رېنجہ پرُوزِکہ لؤ بئ تھِیَؤ۔ اِشِلہ بِکہ ݭڅی، کھنٹَنی ڈیٹا بېسہ مختلف خلَکَنہ نمائیندَگی کېرَنہ تھِمان۔
 
 ## How do I add a language
 
