@@ -41,6 +41,8 @@ about-get-involved = لُبُسِؤ
 about-get-involved-text-2 = کامن وئسہ واری بی بئ کېرِکہ ݭڅی مدد کېرِکاں ݭېنݭ بِمانا؟ لؤ بئ! اِی مېل یا <discourseLink> ڈِسکورس</discourseLink>فورمزَنہ ذریعَئے رابطہ کېرِؤ<githubLink>GitHub</githubLink> نہ ذریعَئے سائٹَنہ مسائلہ پېش کېرِؤ، یا <matrixLink>Matrix</matrixLink> کمیؤنِٹی چیٹہ لُبُسِؤ۔
 about-stay-in-touch = آں رابطا کِرَوے درِمہ؟
 about-stay-in-touch-button = سائن اپ کېرِؤ
+about-stay-in-touch-text-1 = امَنی مېلِنگ لِسٹہ <emailFragment>سائن اپ کېرِؤ</emailFragment> اسُو پیانِکہ ݭڅی زی مے کامن وائسہ مہمات، ایونٹس اؤ کو۔ڈیزائنَنی خصوصیاتہ کی رَوے حصہ گوئی بَمانېؤ۔
+about-stay-in-touch-text-2 = نوری موزِیلا باتیَنی برادرِیہ وارِیَہ مِنزی لُبُسی بَمانېؤ<discourseLink>ڈِسکورس</discourseLink>شامل بی موضوعاتی باتِیہ ݭڅی، یا فوری مشورا ݭڅی <matrixLink>مېٹرکس</matrixLink>
 
 ## Community Playbook Content
 ## What is a language
