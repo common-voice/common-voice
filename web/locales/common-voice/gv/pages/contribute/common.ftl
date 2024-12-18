@@ -1,5 +1,5 @@
 action-click = Crig
-action-tap = Tap
+action-tap = Crank
 contribute = Cur stiagh
 review = Scrutee
 skip = Er oaie
