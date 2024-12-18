@@ -133,3 +133,7 @@ contribution-varying-pronunciations-description =
     زائی دہ  تھاؤن، یا سوالیہ نکھوْ نظر انداز تھاؤن۔ دُنیے دہ لا قسمو تلفظ استعمال بینَن، کھاں څھوْ توموْ قبیلہ دہ نہ ݜِݨِیلانت بو۔ مہربانی تھے اسہ جگو کِرِیا تعریفے ایک مارجن پھتِیا کھانس څھوْجیْ مُتیْ شانِیؤ موْݜ تھینَن۔
 contribution-varying-pronunciations-description-extended = دوموگیْ طرفَڑ، څھوْڑ آ لیل بِینیْ چہ قاری ئڑ ادِیؤ مُڇھو ادو لفظ  تلفظ دہ نہ ہشِلُن، آں سیْس تلفظ تھونے غلط اندازہ تِھینوْ، تو مہربانی تھے اسہ رَد تِھیا۔ اگر څھوْڑ لیل نانیْ تو اسکیپ بٹن استعمال تِھیا۔
 contribution-varying-pronunciations-example-1-title = سہ سے ݜِݜِجیْ سیْسیْ بیرٹ بونِیاؤس۔
+contribution-varying-pronunciations-example-1-explanation = [بیریٹ سَمُن، اگر چہ مُڇِھنو رُکنِجیْ (یوکے) یا دوموگوْ (یوایس) جیْ  ارتکازِن]۔
+contribution-varying-pronunciations-example-2-title = سہ سے ہت اومَڑ بِلوْ
+contribution-varying-pronunciations-example-2-explanation = [انگرزی دہ رائزڈ اےْ تلفظ ہمشہ ایْک حرفے شان گیْ بِینوْ، دُو گیْ نیں]
+contribution-background-noise-title = پس منظرے چیغہ
