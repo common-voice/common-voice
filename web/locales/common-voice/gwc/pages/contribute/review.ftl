@@ -31,6 +31,10 @@ sc-review-form-reviewed-message =
         [one] 1جملہ آں جائیزہ گھینت۔ ماربینی!
        *[other] { $sentences }جملاں جائیزہ گھینت۔ ماربینی!
     }
+sc-review-form-review-failure = جائیزہ محفوظ نہ ہووانت۔ پپت دیگیراں کوشش کٞراٞ۔
+sc-review-link = جائیزہ گِھینوگ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = جائیزاں طریقہ
+sc-criteria-title = جائیزاں طریقہ
