@@ -23,6 +23,14 @@ sc-review-form-button-skip-shortcut = س
 sc-review-form-keyboard-usage-custom = تٞھہ کی بورڈاٞں اختصار پا استمال کٞرباٞں؛ { sc-review-form-button-approve-shortcut }{ sc-review-form-button-approve-shortcut }منطور کٞروگیں کیر، { sc-review-form-button-reject-shortcut }منظور نہ کٞروگیں کیر، { sc-review-form-button-skip-shortcut }{ sc-review-form-button-skip-shortcut }خیلی چھوروگیں کیر
 sc-review-form-button-submit =
     .submitText = جائیزہ ختم کٞر
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] اٞ جملہ آں جائیزہ پا نہ گھینت
+        [one] 1جملہ آں جائیزہ گھینت۔ ماربینی!
+       *[other] { $sentences }جملاں جائیزہ گھینت۔ ماربینی!
+    }
 
 ## REVIEW CRITERIA
 
