@@ -99,6 +99,11 @@ about-playbook-how-project-governance = منصوبہ ستہ فیصلہ کائی 
 about-playbook-how-project-governance-content-1 = موزیلہ عام کوٹ پورا دنیا ستہ، کودیوم کولاں، ماہر لسانیات، ڈیٹا سائنس دان، اکیڈمیکس، سافٹ ویئر انجینئر، او مختلف منچاں وسعں تے ممکن کعستہ اسہ۔ اینہ پراجیکٹ موزیلہ فاونڈیشن پکع کودیوم کوتہ۔
 about-playbook-how-project-governance-content-2 = ایموستہ مر وارہ ستہ بنیاد امنی شتیں مع اسہ۔
 about-playbook-how-project-governance-content-3 = ٹکاستہ، در بوستہ او صفا بوستہ۔
+about-playbook-how-project-governance-content-4 = منچاں ( کمیونٹی) حصہ اوگݩستہ او فیصلہ کوستہ۔
+about-playbook-how-project-governance-content-5 = معئی وا زعݩستہ۔
+about-playbook-how-project-governance-content-6 = یا پیمیچ احتساب
+about-playbook-how-project-governance-content-7 = <governanceLink>اچا دی ولہعݩ ایمو کائی چلاتمیش۔</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = عام کوٹہ ستہ کائی کہ مالی مدد کوتومیش؟
