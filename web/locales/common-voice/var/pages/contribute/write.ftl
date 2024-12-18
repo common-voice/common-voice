@@ -36,14 +36,14 @@ bulk-sentence-submission = Uhurákane weiká orasióne
 single-sentence = Ki'aká intuáme orasioné
 small-batch-sentence = Yomá nu'úti
 bulk-sentence = Yomá werumá
-sentence-domain-combobox-label = Teema pu'ká orasioni
-sentence-domain-select-placeholder = Selecionapa asta paika teema. (yoraniame).
+sentence-domain-combobox-label = Naiwániame pu'ká orasóni
+sentence-domain-select-placeholder = Toapá ahtá paiká tema. (yoraniáme).
 # Sentence Domain dropdown option
-agriculture_food = Agrikulturači y kokowaniame
+agriculture_food = Ečiwáme i koiwáme
 # Sentence Domain dropdown option
-automotive_transport = Karroči oiyame yoma camiónči oiyame
+automotive_transport = Trokéči oiyáme yomá camioníči oiyáme
 # Sentence Domain dropdown option
-finance = finansiadoniame
+finance = finansiaroaniáme
 # Sentence Domain dropdown option
 service_retail = Puka, paipaki tewaniame
 # Sentence Domain dropdown option
