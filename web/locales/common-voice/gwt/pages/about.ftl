@@ -73,6 +73,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزېشن کِروے ݪم کېرِمان؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹَنہ ترجمہ<strong>پونٹون</strong>رتئ بِمان۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink> یَک اکاونٹ ݫُپا</pontoonAccountLink> کېنے زی مے مِنزی نہ تھنہ بہ گِری، تانُو باتِیَنہ انتخاب کېرِؤ<strong>(ٹیم)</strong> اؤ گِری پراجکٹَنہ انتخاب کېرِؤ،<pontoonCvLink>کامن وائس</pontoonCvLink>۔ ترجمہ کېرِکہ ݭڅی فائل نام تھِتہ ۔ یَکِیہ رتئ کِلک کېرِؤ، گِری اېمے انگریزِیہ الفاظ اؤ تسُونہ ترجمہ کېرِکہ ݭڅی یک باکس لېڑَمان۔
 
 ## How to add sentences
 
