@@ -4,6 +4,11 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon>ݜس اوازاں کٹرُو ݜُون٘یں، آں اسیں لِکیل نھالہ لہ۔ ایں کوکسی مِلی رِن٘گا تھہ یی؟ کہ نَیں کھیں، سم کرہ لہ بالکل صحیح ہو۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = نھالہ لہ
+no-transcriptions-message = ہُویں ݜُو ژِبہ مہ نھالَیں یا دَن گیں بنیل لِکَیں مہ نی تھی۔ ݜس پن٘ڑو تازئ را یا ہِلاکَیں اے۔
+transcript-edited-error = بنیل لِکیل سَم کرَیں مہ مسلہ ای تھی
+error-fetching-transcriptions = بنیل لِکیل اَیں مہ بِگ مَسلہ ای تھی۔ پتَیں لَک اے۔
+transcript-skipped-success = بنیل لِکیل پَھت کرژی گا
+transcript-skipped-error = بنیل لِکیل پَھت کرَیں مہ بِگ مَسلہ ای تھی
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = سُون٘ݜیۡ تھی
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

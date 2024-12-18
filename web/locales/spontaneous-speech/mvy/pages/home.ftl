@@ -1,7 +1,11 @@
 ## Home page
 
 welcome-to-spontaneous-speech = ڈارِک بلیوں مہ تُو ایلوئ
+why-spontaneous-speech = زَیں امَیں بلی بنَیں والا سامُوٹُھو گِنہ سن٘دہ چھی
 how-spontaneous-speech-works = ڈارِک بلی (پروگرام) گِشے چلُژی تُھو
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>سِڇھیان٘لی بال</mark>
+prompt-bubble-subtitle = بے تے تپُوس یا سِڇھیان٘لی بال پَشا تھہ
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جواب دے</mark>
 respond-bubble-subtitle = کتُک اَما نہ ہو سؤں جواب دے
