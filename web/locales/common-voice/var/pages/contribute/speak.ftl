@@ -37,12 +37,12 @@ review-cancel = Nasónaka pu'ká amó netéria
 review-keep-recordings = Wa'á katewuéka kauká amó netéria
 review-delete-recordings = Nasonáka uká no'ó netéria
 review-terms = Čiréka unéwame Common Voice, uká  itapéri tamó netéria, natí papámira naósame noriwí
-terms-agree = Kawe hu no'ó čigo
-terms-disagree = Kaine kawe intani
+terms-agree = Kawé hu no'ó ičiyó
+terms-disagree = Kaíne kawé intáni
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Čeriwera uka amó nanosariwa nehario sulala
-first-cta-subtitle-text = ¿Peniremu elani tohačaga uka naosari amó naosao?
-why-donate = ¿Čekamu tukena?
+first-cta-header-text = Čeriwéma uká amó nawésari nehária
+first-cta-subtitle-text = ¿Penirému toháčaka uká nawésari amó nawésari?
+why-donate = ¿Čekámu tukéna?
 why-donate-explanation-1 = Ihi ositume uhu. Kawemu enerena .Namu nanahuna uka pienawi yomaga reme unena, Remega kawe neseroma uka itaperi nati omo tewula ositume kai peha katime nati itaperi čireka nati pamiwaila nati amó sekso
 why-donate-explanation-2 = Pile wua ereka kawehu teknologia yomaga, uka nahutume uka netetume ereka netesiga uka ipakorume senegači kai reme čeenarema pile naosame nukwariho penieme erekago kai kahuma kawego uka kai naosame ipakorume<learnMore>Neteka pileči weika metadatos nateame</learnMore>
 add-information-button = Neteka itaperi
@@ -59,7 +59,7 @@ second-cta-subtitle-text = Uka pile nahunieme  rehu neteka pile oičanieme amó
 already-have-an-account = Toainamo uka itaperi<iniciar sesión>Oinaga itaperi</iniciar sesión>
 create-profile-button = Ne tenaresaga uka pile Common Voice
 # IMAGE TAGS
-img-alt-success-checkmark = Amó  kawe nahurio itaperi
+img-alt-success-checkmark = Amó kawé nahurió itapéri
 
 ## MENU ITEM TOOLTIPS
 
