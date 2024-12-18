@@ -1,5 +1,6 @@
 ## Prompts page
 
+mic-access-error = مائیکروفون دی رسائی دی تہاݙی اجازت ضروری ہے۔
 # For the button to delete a response to a prompt
 delete = مٹاؤ
 # For the disabled button on a prompt that indicates a prompt is already submitted
