@@ -56,9 +56,13 @@ about-nav-playbook = حصہ گوئیکَنہ طیقا ہِلِؤ
 about-playbook-what-is-language = کامن وائسہ رتئ باتی کی تھنی؟
 about-playbook-what-is-language-content-1 = باتِیَنہ بارا فکر کېرِکَنہ لؤ طرېقہ تھنَئیت۔ باتی پیانِکَنہ ماڈلَنی مطلبہ ݭڅی، کامن وائس تانُو مِنزی پرُوزِکہ ݭڅی فکر کېرِکاں مشورہ ݪِمان، یا کی اسہ باتِیہ ݪِݪہ زیات یَیَکِیہ پیانِکَنی کوشش کېرِمېتا؟
 about-playbook-what-is-language-content-2 = امہ کوڅِمېک زی سپیچ ماڈل تقریر کېرِݪانی متنوع رېنجہ پرُوزِکہ لؤ بئ تھِیَؤ۔ اِشِلہ بِکہ ݭڅی، کھنٹَنی ڈیٹا بېسہ مختلف خلَکَنہ نمائیندَگی کېرَنہ تھِمان۔
+about-playbook-what-is-language-content-3 = زِنی باتِیہ گرامر، الفاظ اؤ تلفظہ لؤ زیات فرق تھِمان اِشِلاں، امہ2022 سہ<ctaLink>متغیرات</ctaLink> پیانَوَمېک۔ ووئی بردرِیہ ڈل ڈیٹاسېٹہ تانُو باتی نامَنہ منزے فرق کېرِکَنہ طرېقہ ݪِمان۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = آں باتِیہ کِرَوے لُبُسامہ؟
+about-playbook-how-add-language-content-1 = سومِّیہ پېنہ پُدَمہ چیک کېرہ زی مېنی باتی <languageLink>پُدَما پاݪی موجود تھنی</languageLink>۔کېنے زی اِشِلہ نہ تھنہ بہ ژو، مے <languageRequestLink> تانُو باتِیہ لُبُسَئیکَنہ بارا کھُدَئی بمانېؤ</languageRequestLink>۔ اتے دُو مرحلہ تھنَئیت</languageRequestLink> سائٹَنہ ترجمہ کېراوَہ، اؤ کَلاؤ نام ٹوپَلَئیک
+about-playbook-how-add-language-translating-heading = سائٹَنہ ترجمہ کېراوَہ
 
 ## How does localization work
 
