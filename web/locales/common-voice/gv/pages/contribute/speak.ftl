@@ -49,9 +49,23 @@ add-information-button = Cur stiagh fys
 continue-speaking-button = Cha by vie, gow er lesh loayrt
 create-profile-text = By vie lhiat sauail dt'ysseree? <createProfile>Jean duillag</createProfile>
 thanks-for-voice-toast = Gura mie ayd son dt'ys coraa
+thanks-for-voice-toast-error = Va boirey ayn lesh cur stiagh dt'ys coraa
+first-cta-gender-select-default-option = Reih reih
+first-cta-gender-select-help-text =
+    .label = Kys verragh oo coontey jeh dty cheintys?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gura mie ayd son cur stiagh dty choraa!
+already-have-an-account = Vel coontys ayd hannah? <login>Log-stiagh</login>
+create-profile-button = Jean duillag
+# IMAGE TAGS
+img-alt-success-checkmark = cowrey rah
+# menu item
+read-sentences = Lhaih Raaghyn
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Lhaih Raaghyn, Freggyr Feyshtyn
+read-sentences-menu-item-tooltip = Jean recortys jeed hene lhaih raaghyn ayns dty hengey
 
 ## MENU ITEM ARIA LABELS
 
