@@ -5,6 +5,9 @@ transcription-page-instruction = { $actionType }<playIcon></playIcon>ݜس اوا
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = نھالہ لہ
 no-transcriptions-message = ہُویں ݜُو ژِبہ مہ نھالَیں یا دَن گیں بنیل لِکَیں مہ نی تھی۔ ݜس پن٘ڑو تازئ را یا ہِلاکَیں اے۔
+vote-transcript-success = بنیل لِکژیلاں کِریا ووٹ دیوژِگا
+vote-transcript-error = بنیل لِکژیلاں دَن وُٹ دیں مہ بِگ مَسلہ ای تھی
+transcript-edited-success = بَنیل لِکیل مہ کام ہُو مُچی گا
 transcript-edited-error = بنیل لِکیل سَم کرَیں مہ مسلہ ای تھی
 error-fetching-transcriptions = بنیل لِکیل اَیں مہ بِگ مَسلہ ای تھی۔ پتَیں لَک اے۔
 transcript-skipped-success = بنیل لِکیل پَھت کرژی گا
