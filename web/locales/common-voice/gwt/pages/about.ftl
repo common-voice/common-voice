@@ -36,6 +36,11 @@ about-no-votes-text = کول زی صارِف کھنٹَنی کِلپہ رد کې
 about-dataset-new = کامن وائس ڈیٹا سیٹ
 about-dataset-new-text = کامن وائس ڈیٹا سیٹہ زرگونانی تعدادَہ کھنٹ نامَنہ نامونہ لُبُسِسنت تھنَئیت زی ڈِویلوپرزہ کھنٹہ پیانِکَنی ٹولز ݫُپَئیکہ مدد کېرِمېت۔
 about-clip-graveyard = کِلپ گورتھانتہ
+about-clip-graveyard-text = کِلپ گورتھانتہ کھنٹَنی کِلپسہ مِنزی شامل  تھنہ زی اسہ کامن وائس ڈیٹا سیٹہ نہ ݫُپَمان۔ ڈیٹا سیٹَنی گاݭٹے، کِلپ گورتھانتہ بی ڈاؤن لوڈہ ݭڅی لېوان دِمان۔ امہ اسُو خلَکنہ اؤ تنظیم نامَنہ شکریہ ادا کېرِمېک زی تسُوئیں اِتے منصوبا مدد کېرون:
+about-get-involved = لُبُسِؤ
+about-get-involved-text-2 = کامن وئسہ واری بی بئ کېرِکہ ݭڅی مدد کېرِکاں ݭېنݭ بِمانا؟ لؤ بئ! اِی مېل یا <discourseLink> ڈِسکورس</discourseLink>فورمزَنہ ذریعَئے رابطہ کېرِؤ<githubLink>GitHub</githubLink> نہ ذریعَئے سائٹَنہ مسائلہ پېش کېرِؤ، یا <matrixLink>Matrix</matrixLink> کمیؤنِٹی چیٹہ لُبُسِؤ۔
+about-stay-in-touch = آں رابطا کِرَوے درِمہ؟
+about-stay-in-touch-button = سائن اپ کېرِؤ
 
 ## Community Playbook Content
 ## What is a language
