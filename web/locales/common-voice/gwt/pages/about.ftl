@@ -75,9 +75,14 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ لوکلائزېشن کِروے ݪم کېرِمان؟
 about-playbook-how-localize-content-1 = کامن وائس سائٹَنہ ترجمہ<strong>پونٹون</strong>رتئ بِمان۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink> یَک اکاونٹ ݫُپا</pontoonAccountLink> کېنے زی مے مِنزی نہ تھنہ بہ گِری، تانُو باتِیَنہ انتخاب کېرِؤ<strong>(ٹیم)</strong> اؤ گِری پراجکٹَنہ انتخاب کېرِؤ،<pontoonCvLink>کامن وائس</pontoonCvLink>۔ ترجمہ کېرِکہ ݭڅی فائل نام تھِتہ ۔ یَکِیہ رتئ کِلک کېرِؤ، گِری اېمے انگریزِیہ الفاظ اؤ تسُونہ ترجمہ کېرِکہ ݭڅی یک باکس لېڑَمان۔
+about-playbook-how-localize-content-3 = ترجمہ انگرېزِیہ تھنہ، خو مے واری باتِیہ<strong>تجاوئز</strong> بالی بمانېؤ۔ <strong>پروفائل</strong>آئیکنَہ رتئ کِلک کېرِؤ، گِری <strong>ترتیبات</strong> لِنکہ رتئ کِلک کېرِؤ اؤ کرېک بی باتِیہ زی مے ژمانېوے تسہ لُبُسَؤ۔ پاتوئے داچِنی کھُٹیاکہ ترجمانی یَہ فرست تھِبہ تساں <strong>لوکلز</strong> ژمېت۔ ترجمہ یَک باگَئے پت سائٹہ لېڑان دِنېت۔
+about-playbook-how-localize-content-4 = سائٹ 75 فیصد فورہ بِک مِز فېدِکے پت لانچ بِکہ ݭڅی تیار تھنی۔
+about-playbook-how-localize-content-5 = مددَہ ݭڅی امَنی وېڈیؤ وضاحت کېرِݪی تھنی بالِؤ۔
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = آں کلاوَہ کِرَوے لُبُسامہ؟
+about-playbook-how-add-sentences-content-1 = مے<writePageLink>صفحہ لِکِؤ</writePageLink> یا رتئ کلاوَہ لُبُسَئ بمانېؤ<reviewPageLink>  جائزہ صفحہ</reviewPageLink>رتئ کلاوَنہ جائزہ گوئی بمانېؤ۔
 
 ## How to record quality
 
