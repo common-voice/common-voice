@@ -80,3 +80,6 @@ adding-sentences-subheader-numbers-explanation = ماخذ متن دہ مثالی
 adding-sentences-subheader-abbreviations = مخففات
 adding-sentences-subheader-abbreviations-explanation = ماخذو متن دہ مخففات گہ اختصاریے کاتھ چہ “USA” or “ICE”  آئیݨوجیْ گُریز تھون پکارِن تے چہ ییْہ آ ولِجیْ پڑِیجکنَن کھاں سیݨے ہِجّو سے مطابقت نہ لرینَن۔  مُتیْ آ چہ ایک مخففے کِرِیا لے صحیح ریڈنگز گہ بوبانِن
 adding-sentences-subheader-punctuation = اوقاف
+adding-sentences-subheader-punctuation-explanation = خاص علامات گہ اوقاف صرف اسہ وخ دہ ٹل تھون پکارن کرہ چہ بالکل ضورڑی بین۔ مثال گیْ انگرزی لفظ دہ شامِلُن کاتھ “don’t” گہ  “we’re” آں آئیݨو سورس ٹیکسٹ دہ ٹل تھون پکارَن، مگر آ موڙیْ امکان نِش چہ څھوْڑ کرہ گہ “@” یا “#.” ہَے خاص علامتو ضورڑت بِی۔
+adding-sentences-subheader-special-characters = خاص حرفی گہ غیر ملکی خطوط
+adding-sentences-subheader-special-characters-explanation-1 = کھاں جِب دہ موْݜ کال بِینوْ آسَس دہ حرفی صحیح بون پکارَن۔ مثال گیْ “ж” روسی حروف تہجی دہ ایْک حرفُن مگر انگرزی دہ کرہ گہ استعمال نہ بِینوْ۔ آ سے کِرِیا انگرزی کھاں گہ متن دہ کرہ گہ ظاہر نہ بون پکارُن۔
