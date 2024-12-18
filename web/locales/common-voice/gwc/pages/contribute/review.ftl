@@ -38,3 +38,4 @@ sc-review-link = جائیزہ گِھینوگ
 
 sc-criteria-modal = جائیزاں طریقہ
 sc-criteria-title = جائیزاں طریقہ
+sc-criteria-make-sure = اِیں یقین کراٞ اُوں جملہ داگاٞل طریقہ کار رہ پورہ ینت؛
