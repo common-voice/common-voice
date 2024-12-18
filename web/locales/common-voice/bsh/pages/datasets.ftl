@@ -28,5 +28,10 @@ validated-hours = تصدیق بی گھنٹہ
 recorded-hours = ریکاڈبی گھنٹہ
 whats-inside = کامن وائس تہ ڈیٹاسیٹ تہ کائ شامل آی؟
 want-dataset-update = کای تیو وگچہ چہ کوئ کامن وائس ڈیٹاسیٹ ستہ نوئ ورژن جاری کعہ با توتہ ڈیٹس پعوتہ?ایموستہ نیوز لیٹردیوکں سبسکرائب کشی
+subscribe = سبسکرائب
+other-datasets = ورں دی کوٹ ستہ ڈیٹاسیٹس
+feedback-q = تیوکای رایہ وا اسیشہ
+# This indicates that there is no data to display
+no-information = کائ  معلومات نہ ای
 dataset-version = ورژن
 dataset-date = ڈیٹا

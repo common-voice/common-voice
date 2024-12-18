@@ -66,6 +66,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پو
 about-playbook-how-add-language-translating-content-2 = ایمو  پلگݩستہ کہ اہ موزیلا اوزار استعمال کوتہمش <pontoonLink>ستا کہ پونتوں کولہ آئی۔</pontoonLink>۔ پونتوں تہ بلیوک سکال وری آئی اگر شاستہ وری نہ اسہ با شا یاستہ ورے سنا ستی کہ عرضی <pontoonRequestLink>کو بتعݩ</pontoonRequestLink>۔ ستمع عام کوٹہ ستہ پراجکٹ تہ ورے اتیوݩشیستہ کہ </githubRepoLink><githubRepoLink>گیٹ ہب تہ نوئی ورے کہ عرضی کو بتعں</githubRepoLink<localizationFragment>سائڈ پلگݩا تہ اچا دی ایݩش کشی۔</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملہ سعݩاستہ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ وسعݩالہ استعمال کہ تے ایموستہ گائڈ ایݩش کشعݩ۔</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = شا<sentenceCollectorLinkAdd> لوکی جملہ سنا بتعں </sentenceCollectorLinkAdd>، یا گیٹ ہب استعمال کہ تے<bulkImportDocsLink> سکال اتیوݩشں بتعݩ۔</bulkImportDocsLink> اینہ ورے دی یا کشیعں چہ جملہ (عوامی ڈامیں) <licenseLink>سی سی0، یا تو چیتہ ستورا بچی
 
 ## How does localization work
 
