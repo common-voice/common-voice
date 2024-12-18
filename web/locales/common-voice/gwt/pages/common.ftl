@@ -279,6 +279,14 @@ email-input =
 loading = لوڈ بِمان۔۔۔
 email-opt-in-info = آں ای مېل گوئیکاں ݭېنݭ کېرېمہ لکہ زی مقصدہ کائے گِراوَہ، مونی پُر دِکَنہ تازہ ݪم اؤ کامن وئسَنہ بارا نیوز لېٹر۔
 email-opt-in-info-title = کامن وائس مېلنگ لِسٹہ شامل تھنَئیم
+email-opt-in-info-sub-with-challenge = کامن وئسَنہ بارا ای مېلزہ پېدہ چیلینج اؤ مقصدَنی تاقید، پُردِکَنہ تازہ ݪم اؤ نیوز لېٹر وصول کېرِؤ۔
+email-opt-in-privacy-v2 = ای مېلز وصول کېرِکہ ݭڅی آپٹ اِن کېرِمېن مے اسہ ژَمانېؤ زی مے موزیلا نی اسُو معلوماتہ سمبال کېرِکہ ݭڅی سئ تھنَؤ لکہ زی موزیلا نی<privacyLink>رازدارِیَنی پالیسی</privacyLink> تران وضاحت کېران دِتِنی۔
+indicates-required = تارا(*)نہ نخہ کېرِسنت فیلڈز پکار تھنَئیت۔
+not-available-abbreviation = این/اے
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>امہ </mark><br/><mark> مېنی مددَنی ضرورت تھنی!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈېٹا سیٹسَنی بارِمہ گرت کېرِکاں اؤ +100 باتِیَنی برادرِیَہ ݭڅی پلېٹ فارَمہ بہتر ݫُپَئیکہ ݭڅی قابُو یَک ملین ڈالر کالہ لگِمېت زی امَنہ کېرِسنتہ رتئ دارومدار تھنہ۔<strong> کېنے زی مے ووڑاتہ، جامع ڈېٹا نی قدر کېرِمانېؤ بہ جو ۔ نون می عطیہ کېرِؤ!</strong>
