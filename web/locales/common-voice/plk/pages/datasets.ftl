@@ -72,3 +72,12 @@ dataset-metadata-age = عمر
 donate-modal-message = څھے ڈیٹاسیٹ ڈاؤن لوڈ بِینوْ
 dataset-donate-modal-heading = څھوْڑ لیلِن یا؟
 donate-modal-explanation-1 = ڈیٹا سیٹے مدڇِھیار تھون گہ 100+ جِبو کمیونٹی کِرِیا پلیٹ فارم مِݜٹوْ سنونے کِرِیا تقریباً ایک ملین ڈالر کالو سر دہ خرچ بینَن، کھاں بیْس تھوݨَس، اسہ جیْ سہ ڈاڈَن؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> اگر څھوْ سخی نَت آں جامع ڈیٹائے قدر تھینَت توْ اش عطیہ تِھیا </bold>
+data-download-singleword-title = سنگل ورڈ ٹارگٹ سیگمنٹ ڈاؤن لوڈ تِھیا
+data-download-singleword-callout-v2 = آ ایْک استعمال کیس گیْ چلیجیئے سیگمنٹُن کھاݩس دہ رزِجَن ہندسو شناخ گیْ اوں/نیں پتہ ݜیونے کِرِیا ڈیٹا بِینوْ
+data-download-button = کامن وائس ڈیٹا ڈاؤن لوڈ تِھیا
+data-download-yes = اوں
+data-download-deny = نیں
+data-download-license = لائسنس <licenseLink> سی سی-0 </licenseLink>
+data-download-modal = څھو  ڈاؤن لوڈ شیروع تھون دانَت<size> { $size } جی بی</size> مُڇھوڑ بوجہ؟
