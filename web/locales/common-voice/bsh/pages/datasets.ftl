@@ -60,4 +60,14 @@ dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = مجار
 donate-modal-message = توستہ ڈیٹا سیٹ ڈاؤنلوڈ بوتہ!
+dataset-donate-modal-heading = کای شا زعںݩتعں
+donate-modal-explanation-1 = ڈیٹاسیٹس ستہ میزبانی سورہ امکیاں وریں 100اوگعاماںکں پلیٹ فارم بہتر ایپاستہ تہ یرسہ تہ تقریبا اہ ملین ڈالرخرچہ آزیاچہ ایکی ایموستہ خدمت مع گٹݣ گوسہ
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> اگر تیو پعوان سورہ شمولیتی ڈیٹاستہ قدر کوتݩع با شترک می عطیہ کشݩع</bold>
+data-download-singleword-title = سنگل ورڈٹارگٹ سیگمنٹ ڈان لوڈ کشݩع
+data-download-singleword-callout-v2 = اینہ اہ استعمال ستہ کیستہ ایپی ستہ سیگمنٹ اسہ اتکی ولای وری ستہ تعدادزعݩستہ سورہ او یانئ زعݩستہ دیوکں ڈیٹاموجود اسہ
+data-download-button = کامن وسئس ڈیٹاڈاون لوڈ کشݩع
+data-download-yes = ݜٹل
+data-download-license = لائسنس<licenseLink>کک -0</licenseLink>
+data-download-modal = تیو ڈاون لوڈ شروع <size>{ $size }جی بی </size>کولہ اسیش کای تیو پنوی وای استہ وگچہ؟
 dataset-date = ڈیٹا
