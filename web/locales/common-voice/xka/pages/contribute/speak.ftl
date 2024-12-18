@@ -41,6 +41,7 @@ terms-agree = مہ قبولوں ۔
 terms-disagree = مہ نہ قبولوں۔
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تانی کلپس خرات تھالیل باڑ مربنی۔
+first-cta-subtitle-text = اسان تانی کیر منی تھ ۔تس ڈویلپرز دی پا ران ٹنالوجی ترال می مدد تھاین۔
 why-donate = تو گوا مینوسہ۔
 add-information-button = معلومات جمع تھا۔
 continue-speaking-button = نہ مر بنی تانی جولال جاری رݭ
