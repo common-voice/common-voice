@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = ڈارِک بلیوں مہ تُو ایلوئ
+# <br></br> represents a newline break
+wall-of-text = کامن وائس دُویُوں پلیٹ فارم کُھلاؤ کیری تُھو چے تسیں توجہ فی البدیہہ، بغیر لِکیلی انسان وَیں بنژیلی بلیُوں لا ہو تُھو۔ ݜسی نہ فَیدہ ݜُو ہو تُھو چے بیکتُک خلکہ ہن٘گس معلومات جمع کرہاں تھو، سن٘دان٘لہ تے معلوماتاں سائن٘سدانؤں گتہ فَیدہ ہو تُھو۔
 why-spontaneous-speech = زَیں امَیں بلی بنَیں والا سامُوٹُھو گِنہ سن٘دہ چھی
 how-spontaneous-speech-works = ڈارِک بلی (پروگرام) گِشے چلُژی تُھو
 # text wrapped in <mark></mark> will have a blue background
