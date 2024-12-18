@@ -63,6 +63,9 @@ about-playbook-how-add-language = اوݩزہ ورے کائی کہ سنالوم؟
 about-playbook-how-add-language-content-1 = نشتیریک، ایݩش کشی اگر توستہ زبان <languageLink> کویاں ستعں اسہ با</languageLink>۔ اگر نہ اسہ با، تیو<languageRequestLink>توستہ ورے بارا تہ کودا بچی</languageRequestLink>۔ آنی دیو پوت آئی۔ سائڈہ پلگݩستہ، او جملاں وسعاݩستہ۔
 about-playbook-how-add-language-translating-heading = سائڈہ پلگݩاستہ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونتونہ استعمال کوستہ کہ ایموستہ پا یال ایݩش کشیعں۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = ایمو  پلگݩستہ کہ اہ موزیلا اوزار استعمال کوتہمش <pontoonLink>ستا کہ پونتوں کولہ آئی۔</pontoonLink>۔ پونتوں تہ بلیوک سکال وری آئی اگر شاستہ وری نہ اسہ با شا یاستہ ورے سنا ستی کہ عرضی <pontoonRequestLink>کو بتعݩ</pontoonRequestLink>۔ ستمع عام کوٹہ ستہ پراجکٹ تہ ورے اتیوݩشیستہ کہ </githubRepoLink><githubRepoLink>گیٹ ہب تہ نوئی ورے کہ عرضی کو بتعں</githubRepoLink<localizationFragment>سائڈ پلگݩا تہ اچا دی ایݩش کشی۔</localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملہ سعݩاستہ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ وسعݩالہ استعمال کہ تے ایموستہ گائڈ ایݩش کشعݩ۔</sentenceCollectorVideo>
 
 ## How does localization work
 
