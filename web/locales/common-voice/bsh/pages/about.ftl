@@ -55,9 +55,12 @@ about-nav-playbook = حصہ اوگݩستہ زعݩہ
 about-playbook-what-is-language = عام کوٹہ تہ وری کائی اسہ؟
 about-playbook-what-is-language-content-1 = ورے بارا تہ وشتہستہ ستہ بلیوک طرہقہ آئی۔ ولہستہ زعݩستہ ستہ ماڈلہ ستہ مقصد، عام کوٹ اینہ ورے تجویذ کوتہ چہ‘یا پیمیچ فہم’ یا ‘اینہ ورے ولہلہ سکال منچی اہ سورہ زعݩستہ ستہ ابل کوتہتہ؟’
 about-playbook-what-is-language-content-2 = ایمو ور ور حد تہ ولہلا ں کہ ولہستہ ستہ ماڈلہ لستہ کہ زعݩلہ کہ شتان کوتمیش۔ اینہ گجاعں کوٹہ ستہ ڈیٹا سیٹہ ور ور سکال منچان نمائندگی کوستہ اسہ۔
+about-playbook-what-is-language-content-3 = اہڑہ وریں تہ گرامر، زخیرہ الفاظ، او تلفظ تہ بلیوک سکال فرق اسہ۔ اینہ گجاعں، ایمو2022<ctaLink>تہ ‘متغیر’</ctaLink> متعارف کوتمیش۔ اینہ منچاں (کمیونٹے) امیاں ستہ زبانہ ستہ الہ ڈیٹا سیٹ فرق کوستہ ستہ طریقہ پعتہ۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = اوݩزہ ورے کائی کہ سنالوم؟
+about-playbook-how-add-language-content-1 = نشتیریک، ایݩش کشی اگر توستہ زبان <languageLink> کویاں ستعں اسہ با</languageLink>۔ اگر نہ اسہ با، تیو<languageRequestLink>توستہ ورے بارا تہ کودا بچی</languageRequestLink>۔ آنی دیو پوت آئی۔ سائڈہ پلگݩستہ، او جملاں وسعاݩستہ۔
 
 ## How does localization work
 
