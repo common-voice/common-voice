@@ -43,6 +43,9 @@ about-stay-in-touch = آں رابطا کِرَوے درِمہ؟
 about-stay-in-touch-button = سائن اپ کېرِؤ
 about-stay-in-touch-text-1 = امَنی مېلِنگ لِسٹہ <emailFragment>سائن اپ کېرِؤ</emailFragment> اسُو پیانِکہ ݭڅی زی مے کامن وائسہ مہمات، ایونٹس اؤ کو۔ڈیزائنَنی خصوصیاتہ کی رَوے حصہ گوئی بَمانېؤ۔
 about-stay-in-touch-text-2 = نوری موزِیلا باتیَنی برادرِیہ وارِیَہ مِنزی لُبُسی بَمانېؤ<discourseLink>ڈِسکورس</discourseLink>شامل بی موضوعاتی باتِیہ ݭڅی، یا فوری مشورا ݭڅی <matrixLink>مېٹرکس</matrixLink>
+about-nav-why-common-voice = کېناں؟
+about-nav-how-it-works = کِرَوے؟
+about-nav-partners = شراکتی
 
 ## Community Playbook Content
 ## What is a language
