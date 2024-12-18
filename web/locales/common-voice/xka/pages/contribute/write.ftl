@@ -2,6 +2,7 @@
 
 write = چوݨ
 write-instruction = سمٹ۔۔۔۔۔۔۔۔۔عام مانوش ام جولال
+write-page-subtitle = کاں جملا اماپر سمٹا گیل این یان خلق ام دسہ لایسنسی ڈیٹا سیٹ سہ جمعہ بہ
 sentence =
     .label = جولال
 sentence-input-placeholder = تانی عوامیاّ جولال تہ
