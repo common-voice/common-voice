@@ -99,8 +99,8 @@ too-many-files = Weika toatiame arčivoči
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Toaga epečé itaperi tamo dominio publiko tamo naosarila
-multiple-sentences-error = Kí weika orasioné toiná uhuramičó envioči sensiyoičó
-exceeds-small-batch-limit-error = Kí no toarú itočemičo epečé 1000 orasiones
+multiple-sentences-error = Kiánine itočpékopa weiká orasióne umatóteremu iwatíami. Enčí yoámitia pirépi minútoči.
+exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 orasiónes
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
