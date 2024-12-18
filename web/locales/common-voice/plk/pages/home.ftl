@@ -23,6 +23,11 @@ wall-of-text-second =
     کھاں سہ اختراع رٹِینوْ۔ آ وجہ گیْ اسا کامن وائس شیروع تھیسَن، آوازے شناخ پتوڑ پھتون دہ مدد دونے کِرِیا ایْک پروجیکٹ
 show-wall-of-text = شِنا مُتیْ پڑِیا
 help-us-title = جُملو توثیق دہ اسے امداد تِھیا
+help-us-explain = پلے بٹن شت تِھیا، کوْݨ دِیا آں اسوڑ رزہ چہ سیْݨا کھریْ دیلہ جُملائے صحیح شان گیْ رجیگہ یا؟
+no-clips-to-validate = ادَئی لیل بِینیْ چہ آ جِب دہ کوْݨ دونے کِرِیا کھاں گہ کلِپ نِیش۔ چیئے شناکَک ریکارڈ تھون دہ اسے امداد تِھیا
+toggle-play-tooltip = شت تِھیا { shortcut-play-toggle } پلے موڈ ٹوگل تھونے کِرِیا
+speak-paragraph = وائس کلپس اےْ ریکارڈنگ اسے اوپن ڈیٹاسیٹ اےْ تعمیرے ایْک لازمی باگوْن۔ کوئے سی رزُوئے چہ آ گہ مزاکے باگوْن۔
+speak-goal-text = کلپس ریکارڈ تِھجِلہ
 listen-goal-text = کلپو توثیق تِھجِلیْ
 hours-recorded = گھنٹائے ریکارڈ بِلہ
 hours-validated = گھنٹو توثیق بِلیْ
@@ -48,12 +53,15 @@ x-years-short =
         [one] y { $count }
        *[other] y { $count }
     }
+email-subscription-title = ای میل اپ ڈیٹ تھونے کِرِیا سائن اپ
 
 ## Account Benefits
 
+benefits = فائدائے
 
 ## What's public
 
+whats-public = عوامی جوکُن؟
 
 ## Landing
 
