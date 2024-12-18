@@ -23,8 +23,10 @@ new-sentence-rule-7 = خا منیل جولال پا ٹل تہ
 new-sentence-rule-8 = مزایہ قدرتی تے مجلس۔۔۔۔جولال منیل سگار بیدہ
 login-instruction-multiple-sentences = کتہ منوم
 how-to-cite = کثہ منوم
+how-to-cite-explanation-bold = ترام اے°  صحی نام
 guidelines = پان پشال
-add-sentence-success = جولال سمیٹہ
+contact-us = اساں پݭ
+add-sentence-success = جولال سمیٹیل
 
 ## BULK SUBMISSION 
 
