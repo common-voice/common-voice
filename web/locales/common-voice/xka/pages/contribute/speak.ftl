@@ -69,3 +69,4 @@ answer-questions-menu-item-tooltip = تانی جب می سوال تہ اشارے
 
 speak-contribute-menu-aria-label = موقاؘ رل منا۔
 read-sentences-menu-item-aria-label = درام مک دا اوراک اوراک جبومی سمٹیگال جولال منا۔
+answer-questions-menu-item-aria-label = درام تھ منل تے جواب دایل کیر نم سوال جمع تھال پکار
