@@ -41,10 +41,18 @@ about-get-involved-text-2 = عام کوٹہ اچا دی لستہ کوستہ کہ
 about-stay-in-touch = اوݩزہ رابطہ تہ کائی کہ پتہ بولوم؟
 about-stay-in-touch-button = نوکسہ
 about-stay-in-touch-text-1 = <emailFragment> نوکسہ</emailFragment> ایموستہ میلنگ لسٹ تہ ستعں اہم واقعات او کو ڈیزائن ستہ خصوصیات تہ عام کوٹ تہ حصہ اوݩگہ بچی۔
+about-stay-in-touch-text-2 = تیو موزیلہ وری ستہ کمیونٹی تہ ورں مع ملا بو بچی<discourseLink>ڈسکورس </discourseLink>موضوع گفتگو یا<matrixLink> قالب </matrixLink> تہ نوݜٹہ سنا تے۔
+about-nav-why-common-voice = کا؟
+about-nav-how-it-works = کائی کہ؟
+about-nav-partners = وریک
+about-nav-get-involved = سنہ
+about-nav-how-it-works-2 = کاٸ کہ ایار کوٹ کودیوم کوتت؟
+about-nav-playbook = حصہ اوگݩستہ زعݩہ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = عام کوٹہ تہ وری کائی اسہ؟
 
 ## How do I add a language
 
