@@ -70,6 +70,8 @@ about-playbook-how-add-language-collecting-sentences-content-2 = شا<sentenceCo
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹہ ستہ جائی کائی کہ کودیوم کوتہ؟
+about-playbook-how-localize-content-1 = عام کوٹہ ستہ پلگاں <strong> پونتون تہ بوتہ</strong>۔
 
 ## How to add sentences
 
