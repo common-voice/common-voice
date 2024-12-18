@@ -27,6 +27,10 @@ how-to-cite-explanation-bold = ترام اے°  صحی نام
 guidelines = پان پشال
 contact-us = اساں پݭ
 add-sentence-success = جولال سمیٹیل
+add-sentence-error = جولال جمعہثآل  رل غلطن
+single-sentence-submission = ا کو ن جملہ باگھال
+small-batch-sentence-submission = اپان سہ
+bulk-sentence-submission = گھن جملہجمع تال
 
 ## BULK SUBMISSION 
 
