@@ -1,10 +1,10 @@
 ## Dashboard
 
-your-languages = تِیں ژِبہۡ
-toward-next-goal = مُت نخَئیں کِھن٘گی تل۔
+your-languages = تِیں ژِبہۡ/زِبہ
+toward-next-goal = مُت نخَیں کِھن٘گی تل/لا۔
 goal-reached = نخ ڇیلی تُھو۔
-clips-you-recorded = تِئیں ریکارڈ کریل کٹرو
-clips-you-validated = تئیں منظور کریل کٹرو
+clips-you-recorded = تِیں ریکارڈ کریل کٹرو
+clips-you-validated = تیں منظور کریل کٹرو
 todays-recorded-progress = کٹرو رِکارڈ کرئیں آزُک/آژُک کریل کام۔
 todays-validated-progress = کٹرو منظُور کرئیں آزک/آژُک کریل کام
 stats = حساب کِتاب۔
