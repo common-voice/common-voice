@@ -4,6 +4,7 @@
 
 ## Languages
 
+yue = Cantoanish
 
 # [/]
 
