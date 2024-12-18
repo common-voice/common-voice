@@ -4,6 +4,28 @@
 
 ## Languages
 
+ar = Arabish
+bg = Bulgeyrish
+bn = Bengaalish
+br = Britaanish
+ca = Catalaanish
+cs = Sheckish
+cy = Bretnish
+da = Danvargish
+de = Germaanish
+en = Baarle
+es = Spaainish
+eu = Bascish
+fa = Pershish
+fi = Fynlannish
+fr = Frangish
+fy-NL = Freeshlannish
+ga-IE = Yernish
+gl = Galleeshish
+he = Hewnish
+ja = Shapaanish
+kw = Kernowish
+lv = Latvish
 yue = Cantoanish
 
 # [/]
