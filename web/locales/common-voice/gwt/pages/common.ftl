@@ -290,3 +290,8 @@ not-available-abbreviation = این/اے
 donate-banner-cta = <mark>امہ </mark><br/><mark> مېنی مددَنی ضرورت تھنی!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = ڈېٹا سیٹسَنی بارِمہ گرت کېرِکاں اؤ +100 باتِیَنی برادرِیَہ ݭڅی پلېٹ فارَمہ بہتر ݫُپَئیکہ ݭڅی قابُو یَک ملین ڈالر کالہ لگِمېت زی امَنہ کېرِسنتہ رتئ دارومدار تھنہ۔<strong> کېنے زی مے ووڑاتہ، جامع ڈېٹا نی قدر کېرِمانېؤ بہ جو ۔ نون می عطیہ کېرِؤ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ݭڅی سی وی استعمال کېرِک</mark><br/><mark>مېنی تحقیق</mark>
+languages-donate-banner-cta-explanation = کامن وائسہ عطیات اؤ گرانٹسے مالی مدد ݪِیان دِمان! امہ ماہرین تعلیم، سول سوسائیٹی اؤ صنعتَنہ محققینہ مِنزی تعاؤنہ خوخمېل۔ کامن وائس استعمال کېرِکہ ݭڅی اېڑیا تھنہ، خو گرانٹَنہ تجاویزَنہ ذریعہ ئے پلیٹ فارم اؤ بارِمہ گرَتَنہ خرچا حصہ تلاوَہ واقعی مددگار تھنہ۔
+localization-select =
+    .label = باتی/ لوکلائزیشَنَنی انتخاب کېرِؤ
