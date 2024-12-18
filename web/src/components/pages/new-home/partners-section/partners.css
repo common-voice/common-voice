@@ -1,0 +1,45 @@
+.partners-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: var(--white);
+
+    .partners-section-container {
+        .partners-title {
+            font-size: 40px;
+            margin-block-end: 30px;
+
+            @media (--sm-down) {
+                font-size: var(--font-size-lg);
+            }
+        }
+
+        .partners-logos {
+            display: flex;
+            align-items: center;
+            gap: 6vw;
+            overflow: auto;
+            white-space: nowrap;
+            position: relative;
+            padding: 1rem 0;
+
+            @media (--lg-down) {
+                gap: 4vw;
+            }
+
+            @media (--sm-down) {
+                gap: 35vw;
+            }
+
+            @media (--lg-up) {
+                justify-content: center;
+            }
+
+            .logo {
+                flex-shrink: 0;
+                min-width: fit-content;
+                padding: 0;
+                white-space: nowrap;
+            }
+        }
+    }
+}

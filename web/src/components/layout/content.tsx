@@ -1,30 +1,31 @@
-import * as React from 'react';
-import { Switch, Route, Redirect } from 'react-router';
-import * as Sentry from '@sentry/react';
+import * as React from 'react'
+import { Switch, Route, Redirect } from 'react-router'
+import * as Sentry from '@sentry/react'
 
-import URLS from '../../urls';
-import { isContributable, useLocale } from '../locale-helpers';
-import DocumentPage from '../pages/document-page';
-import { Spinner } from '../ui/ui';
-import { LoginFailure, LoginSuccess } from '../pages/login';
-const HomePage = React.lazy(() => import('../pages/home/home'));
-const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
-const LanguagesPage = React.lazy(() => import('../pages/languages/languages'));
+import URLS from '../../urls'
+import { isContributable, useLocale } from '../locale-helpers'
+import DocumentPage from '../pages/document-page'
+import { Spinner } from '../ui/ui'
+import { LoginFailure, LoginSuccess } from '../pages/login'
+const HomePage = React.lazy(() => import('../pages/home/home'))
+const NewHomePage = React.lazy(() => import('../pages/new-home'))
+const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'))
+const LanguagesPage = React.lazy(() => import('../pages/languages/languages'))
 const LanguagesRequestPage = React.lazy(() => {
-  return import('../pages/languages/request/request');
-});
+  return import('../pages/languages/request/request')
+})
 const LanguagesRequestSuccessPage = React.lazy(() => {
-  return import('../pages/languages/request/request-success');
-});
-const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
-const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
-const AboutPage = React.lazy(() => import('../pages/about/about'));
-const LandingPage = React.lazy(() => import('../pages/landing/landing'));
-const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
-const PartnerPage = React.lazy(() => import('../pages/partner/partner'));
+  return import('../pages/languages/request/request-success')
+})
+const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'))
+const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'))
+const AboutPage = React.lazy(() => import('../pages/about/about'))
+const LandingPage = React.lazy(() => import('../pages/landing/landing'))
+const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'))
+const PartnerPage = React.lazy(() => import('../pages/partner/partner'))
 const GuidelinesPage = React.lazy(
   () => import('../pages/guidelines/guidelines')
-);
+)
 const SentenceCollectorRedirectPage = React.lazy(
   () =>
     import('../pages/sentence-collector-redirect/sentence-collector-redirect')
@@ -41,6 +42,11 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.ROOT)}
           component={HomePage}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.NEW_ROOT)}
+          component={NewHomePage}
         />
         <SentryRoute
           exact
@@ -198,7 +204,7 @@ export default function Content({ location }: { location: any }) {
           render={() => {
             // note: this is redundant with routing in LocalizedPage in app.tsx, and handles
             // locale changing edge cases where toLocaleRoute is still using the old locale
-            return <Redirect to={toLocaleRoute(URLS.WRITE)} />;
+            return <Redirect to={toLocaleRoute(URLS.WRITE)} />
           }}
         />
         <SentryRoute

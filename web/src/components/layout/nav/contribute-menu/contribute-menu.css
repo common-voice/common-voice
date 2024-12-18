@@ -101,10 +101,11 @@
                     a {
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        max-width: 210px;
+                        max-width: 230px;
+                        margin-inline-end: 0;
                     }
 
-                    &.coming-soon p {
+                    &.coming-soon {
                         color: var(--warm-grey);
                         cursor: default;
 
@@ -130,6 +131,7 @@
                 svg {
                     width: 16px;
                     height: 16px;
+
                     path {
                         fill: var(--black);
                     }
@@ -169,6 +171,19 @@
             text-transform: capitalize;
             font-size: 16px;
             padding: 0;
+            overflow-x: auto;
+            max-width: 280px;
+            white-space: nowrap;
+            width: auto;
+        }
+
+        a.contribute-link {
+            display: flex;
+            align-items: center;
+
+            svg {
+                margin-inline-end: 12px;
+            }
         }
     }
 

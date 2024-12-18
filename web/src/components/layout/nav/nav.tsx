@@ -3,11 +3,7 @@ import * as React from 'react'
 
 import { trackNav, getTrackClass } from '../../../services/tracker'
 
-import {
-  ContributableLocaleLock,
-  LocaleNavLink,
-  useLocale,
-} from '../../locale-helpers'
+import { LocaleNavLink, useLocale } from '../../locale-helpers'
 import { menuItems } from './menu-items'
 import ContributeMenu from './contribute-menu'
 import { useAccount } from '../../../hooks/store-hooks'
@@ -75,11 +71,7 @@ const Nav: React.FC<NavProps> = ({
       />
     )
 
-    return menuItems[menuItem].renderContributableLocaleLock ? (
-      <ContributableLocaleLock key={menuItem}>{menu}</ContributableLocaleLock>
-    ) : (
-      menu
-    )
+    return menu
   }
 
   return (

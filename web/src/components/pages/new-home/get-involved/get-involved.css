@@ -1,0 +1,161 @@
+.get-involved-section {
+    text-align: center;
+    padding: 4rem;
+    background: url('../shared-assets/background.jpg');
+    background-position-y: 100%;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+
+    @media (--sm-down) {
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-block: 40px;
+        text-align: left;
+        position: relative;
+
+        @media (--xl-up) {
+            left: 15%;
+            width: fit-content;
+        }
+
+        @media (--sm-down) {
+            font-size: 24px;
+        }
+    }
+
+    .cards-container {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        @media (--md-down) {
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: left;
+            max-width: 370px;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+
+            @media (--sm-down) {
+                height: 500px;
+            }
+
+            h3 {
+                font-size: 24px;
+                margin-block-end: 2rem;
+                font-weight: 600;
+
+                @media (--sm-down) {
+                    font-size: 18px;
+                }
+            }
+
+            .card-image {
+                background-color: #ddd;
+                height: 175px;
+                width: 100%;
+                border-radius: 5px;
+                margin-block-end: 2rem;
+
+                &.scripted {
+                    background-image: url('./assets/scripted-speech.jpg');
+                    background-size: cover;
+                }
+
+                &.spontaneous {
+                    background-image: url('./assets/spontaneous-speech.jpg');
+                    background-size: cover;
+                }
+
+                &.language-text {
+                    background-image: url('./assets/language-text.jpg');
+                    background-size: cover;
+                }
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                flex-grow: 1;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-block-end: 0.5rem;
+                    padding: 0.5rem 0;
+                    border-block-end: 1px solid rgb(0, 0, 0, 0.25);
+
+                    &:first-of-type {
+                        border-block-start: 1px solid rgb(0, 0, 0, 0.25);
+                    }
+
+                    .arrow-container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background: var(--light-purple);
+
+                        @media (--sm-down) {
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        &.disabled {
+                            background: var(--warm-grey);
+                        }
+
+                        svg {
+                            @media (--sm-down) {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+
+                        path {
+                            fill: var(--white);
+                        }
+                    }
+
+                    p {
+                        cursor: default;
+                    }
+
+                    a,
+                    p {
+                        display: flex;
+                        flex: 1;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: var(--black);
+                        text-decoration: underline;
+                        text-decoration-thickness: 1px;
+                        font-size: 20px;
+                        font-family: var(--strong-font-family);
+                        font-weight: 400;
+
+                        @media (--sm-down) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
