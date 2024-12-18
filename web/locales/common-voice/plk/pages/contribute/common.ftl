@@ -137,3 +137,5 @@ contribution-varying-pronunciations-example-1-explanation = [بیریٹ سَمُ
 contribution-varying-pronunciations-example-2-title = سہ سے ہت اومَڑ بِلوْ
 contribution-varying-pronunciations-example-2-explanation = [انگرزی دہ رائزڈ اےْ تلفظ ہمشہ ایْک حرفے شان گیْ بِینوْ، دُو گیْ نیں]
 contribution-background-noise-title = پس منظرے چیغہ
+contribution-background-noise-description = بیْس لُکھوݨَس چہ مشین لرننگ الگور تھم مختلف قِسمے پس منظرے چیغہ ہنڈل تھونے قابل بِی، آں ادی بُجَیش چہ لئی اُتَھلیْ آوازہ گہ قبول تِھجنَن،  کاٹ آ نیْ چہ اسیْس څھوْ تام متن ݜُݨونِجیْ نہ رٹین۔ پرسکون پس منظرے موسیقی سَمِن؛ څھوْ ہر لفظ ݜُݨونِجیْ رٹونے کِرِیا لئی اُتھلیْ آواز دہ موسیقی نانیْ۔
+contribution-background-noise-description-extended = اگر ریکارڈنگ چِھجانیْ، یا اسَس دہ میر اِینیْ، تے اسَس رَد تِھیا، کرہ بُجَیش چہ تام متن  ݜُݨِجیْ نیں۔
