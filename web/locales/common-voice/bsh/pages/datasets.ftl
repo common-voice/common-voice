@@ -29,6 +29,7 @@ recorded-hours = ریکاڈبی گھنٹہ
 whats-inside = کامن وائس تہ ڈیٹاسیٹ تہ کائ شامل آی؟
 want-dataset-update = کای تیو وگچہ چہ کوئ کامن وائس ڈیٹاسیٹ ستہ نوئ ورژن جاری کعہ با توتہ ڈیٹس پعوتہ?ایموستہ نیوز لیٹردیوکں سبسکرائب کشی
 subscribe = سبسکرائب
+get-started-speech = وری زعݩہ تے شروع کشی
 other-datasets = ورں دی کوٹ ستہ ڈیٹاسیٹس
 feedback-q = تیوکای رایہ وا اسیشہ
 # This indicates that there is no data to display
