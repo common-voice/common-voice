@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = ڈیٹاسیٹ
 datasets-headline = بیْس آوازو ایْک اوپن سورس، کثیر زبانی ڈیٹا سیٹ سنوݨَس کھاں کوئے سگہ اسپیچے قابل ایپلی کیشنز ترتیب دونَڑ استعمال تھوبانوْ۔
 datasets-positioning =
     اسوڑ یقینِن چہ بڑہ، عوامی شان گیْ ہشِی صوتی ڈیٹا سیٹس مشین لرننگ جیْ مبنی اسپیچ ٹیکنالوجی دہ جدت گہ صحت مند ساؤدگری مقابلوڑ فروغ دِجُِو۔
@@ -90,3 +91,10 @@ data-other-download = ڈیٹا ڈاؤن لوڈ تِھیا
 data-bundle-button = ڈیٹا سیٹ ٹوپَل ڈاؤن لوڈ تِھیا
 data-bundle-description = کامن وائس ڈیٹا جیْ علاوہ مُتہ تمام صوتی ڈیٹاسیٹس
 release-version = ورژن
+dataset-date = تاریخ
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = گَڑ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسے صوتی ڈیٹاسیٹس ڈاؤن لوڈ تِھیا
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس ڈیٹا بُجَیش اُڇھونے اختیارات ڈاؤن لوڈ تِھیا
