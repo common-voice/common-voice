@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
 write = yotéka
-write-instruction = Tóaga wa'á<icon></icon> piré naósari wa'á dominio publiko
+write-instruction = Toága wa'á<icon></icon> piré naósari wa'á dominio publiko
 write-page-subtitle = Orasioníči manitóame programači kawísita komo konhuntočitiá toaniáme datos lisensiači cc-0, Disponibleči iniwáe pu'ká publikóči simíyame
 sentence =
     .label = Itapéri čee wáme
-sentence-input-placeholder = Toaga i'wá naosari dominio publiko uka itaperi
-small-batch-sentence-input-placeholder = Toega i'wá nati itaperi dominio publiko
+sentence-input-placeholder = Toága i'wá naósari dominio publiko uká itapéri
+small-batch-sentence-input-placeholder = Toága i'wá nati itapéri dominio publiko
 citation-input-placeholder = Ereka  toaga peja uka kanamu  najuka uka itaperi. Nateameju buu čee wam
 citation =
     .label = I'wá toamitia pu'ká siita
