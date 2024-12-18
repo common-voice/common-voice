@@ -10,6 +10,7 @@ citation-input-placeholder = تانی جولال ٹبوت گییہ
 citation =
     .label = منییل
 sc-write-submit-confirm = می اوں منوناوں جولالعوامی این تے مدی رسے اپلوڈ تھالہ اجازتاین
+sc-review-write-title = گہ ذات جولال ٹل تم
 
 ## BULK SUBMISSION 
 
