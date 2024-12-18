@@ -83,3 +83,7 @@ adding-sentences-subheader-punctuation = اوقاف
 adding-sentences-subheader-punctuation-explanation = خاص علامات گہ اوقاف صرف اسہ وخ دہ ٹل تھون پکارن کرہ چہ بالکل ضورڑی بین۔ مثال گیْ انگرزی لفظ دہ شامِلُن کاتھ “don’t” گہ  “we’re” آں آئیݨو سورس ٹیکسٹ دہ ٹل تھون پکارَن، مگر آ موڙیْ امکان نِش چہ څھوْڑ کرہ گہ “@” یا “#.” ہَے خاص علامتو ضورڑت بِی۔
 adding-sentences-subheader-special-characters = خاص حرفی گہ غیر ملکی خطوط
 adding-sentences-subheader-special-characters-explanation-1 = کھاں جِب دہ موْݜ کال بِینوْ آسَس دہ حرفی صحیح بون پکارَن۔ مثال گیْ “ж” روسی حروف تہجی دہ ایْک حرفُن مگر انگرزی دہ کرہ گہ استعمال نہ بِینوْ۔ آ سے کِرِیا انگرزی کھاں گہ متن دہ کرہ گہ ظاہر نہ بون پکارُن۔
+adding-sentences-subheader-special-characters-explanation-2 = جِبہ مقامی بونے وجہ گیْ سیݨے توثیقے کِرِیا بسکوچہ تقاضائے بوبانَن۔ اگر کوئے جِبے کِرِیا توثیقے جو مخصوص  فائل نِش توْ  تے شراکت دارو کِرِیا انگرزی قواعد ظاہر بُوِیی۔
+adding-sentences-subheader-offensive-content = جارحانہ مواد
+adding-sentences-subheader-offensive-content-explanation = اگر جُملہ جارحانہ یا غماٹُن۔ مثالےشان گیْ واضح موادے وجہ گیْ، یا اسے کیونٹی شرکتے رہنما اصولے خلاف ورزی <communityGuidelines> بِی توْ  تے څھوْس جُملہ رَد تِھیا۔  څھوْس اسو سے آ سِجیْ رابطہ تھوبانَت <emailFragment>commonvoice@mozilla.com</emailFragment>
+reviewing-sentences-explanation-1 = اگر جُملہ اجِنوْ معیارِجیْ تام بِینوْ تو ”اوں“ بٹنِجیْ کلِک تِھیا
