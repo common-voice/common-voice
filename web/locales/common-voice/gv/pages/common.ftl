@@ -13,6 +13,7 @@ cs = Sheckish
 cy = Bretnish
 da = Danvargish
 de = Germaanish
+el = Greagish
 en = Baarle
 es = Spaainish
 eu = Bascish
@@ -26,6 +27,13 @@ he = Hewnish
 ja = Shapaanish
 kw = Kernowish
 lv = Latvish
+pl = Polynnish
+pt = Portiugish
+ru = Rooshish
+sco = Baarle Albinagh
+tr = Turkish
+uk = Ookraanish
+yi = Ewdish
 yue = Cantoanish
 
 # [/]
