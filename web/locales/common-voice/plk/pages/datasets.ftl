@@ -8,3 +8,16 @@ datasets-positioning =
     
     آ صفحہ مُتہ اوپن سورس وائس ڈیٹا سیٹو شِرِیا  ایْک حوالائے مرکزے شان گیْ ڇکِیا آں کاتھ چہ کامن وائس بسکِیو بوجانیْ، آ اسے ریلیزو تازہ کاریو ایْک گوݜُن
 language = جِب
+download-dataset-header = ڈیٹاسیٹ ڈاؤن لوڈ تِھیا
+download-delta-explainer = اسا شِناکَک تبدلیئے تھیسَن۔ ڈیٹا سیگمنٹس دہ آخری ریلیززِجیْ <deltaLink> پتو چُوکہ کلپش ٹلَن۔ آ کومے بارَد مُتیْ گہ پڑِیا </deltaLink>
+download-dataset-tag = پکار جِبے ڈیٹا سیٹ منتخب تِھیا آں اسہ ورژن منتخب تِھیا کھاں ڈاؤن لوڈ تھون کھوشنَت۔
+# File size in gigabytes
+size = سائز
+validated-hr-total = توثیق تِھیلوْ ایچ آر۔ بُٹوْ
+overall-hr-total = مجموعی شان گی ایچ آر۔ بُٹوْ
+cv-license = کوْݨ دِیا
+audio-format = آڈیو فارمیٹ
+dataset-splits = تقسیم (عمر گہ جنس)
+number-of-voices = آوازو تعداد
+splits = تقسیم
+email-to-download = ڈاؤن لوڈ تھونَڑ ای میل لِکِیا
