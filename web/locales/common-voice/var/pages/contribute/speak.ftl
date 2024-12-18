@@ -35,8 +35,8 @@ review-recording = Nené pu'ká
 review-rerecord = Oíne enčí rawaroáka
 review-cancel = Nasónaka pu'ká amó netéria
 review-keep-recordings = Wa'á katewuéka kauká amó netéria
-review-delete-recordings = Nasonaga uka no'ó neterio
-review-terms = Čireka unewame Common Voice, uka  itaperi tamo neterio, nati papamila naosame noriwi
+review-delete-recordings = Nasonáka uká no'ó netéria
+review-terms = Čiréka unéwame Common Voice, uká  itapéri tamó netéria, natí papámira naósame noriwí
 terms-agree = Kawe hu no'ó čigo
 terms-disagree = Kaine kawe intani
 # FIRST POST SUBMISSION CTA
