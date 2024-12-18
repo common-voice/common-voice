@@ -61,6 +61,8 @@ about-playbook-what-is-language-content-3 = اہڑہ وریں تہ گرامر، 
 
 about-playbook-how-add-language = اوݩزہ ورے کائی کہ سنالوم؟
 about-playbook-how-add-language-content-1 = نشتیریک، ایݩش کشی اگر توستہ زبان <languageLink> کویاں ستعں اسہ با</languageLink>۔ اگر نہ اسہ با، تیو<languageRequestLink>توستہ ورے بارا تہ کودا بچی</languageRequestLink>۔ آنی دیو پوت آئی۔ سائڈہ پلگݩستہ، او جملاں وسعاݩستہ۔
+about-playbook-how-add-language-translating-heading = سائڈہ پلگݩاستہ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونتونہ استعمال کوستہ کہ ایموستہ پا یال ایݩش کشیعں۔</translateVideoLink>
 
 ## How does localization work
 
