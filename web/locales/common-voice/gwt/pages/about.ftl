@@ -64,6 +64,9 @@ about-playbook-how-add-language = آں باتِیہ کِرَوے لُبُسام�
 about-playbook-how-add-language-content-1 = سومِّیہ پېنہ پُدَمہ چیک کېرہ زی مېنی باتی <languageLink>پُدَما پاݪی موجود تھنی</languageLink>۔کېنے زی اِشِلہ نہ تھنہ بہ ژو، مے <languageRequestLink> تانُو باتِیہ لُبُسَئیکَنہ بارا کھُدَئی بمانېؤ</languageRequestLink>۔ اتے دُو مرحلہ تھنَئیت</languageRequestLink> سائٹَنہ ترجمہ کېراوَہ، اؤ کَلاؤ نام ٹوپَلَئیک
 about-playbook-how-add-language-translating-heading = سائٹَنہ ترجمہ کېراوَہ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون استعمال کېرِکَنہ طېقانہ بارا امَنہ گائڈہ بالِؤ</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = امہ ترجما ݭڅی یہ موزِلہ ٹول استعمال کېرِمېک تساں <pontoonLink>پونٹون</pontoonLink>ژمېت۔ پونٹونہ لؤ باتی نام تھنَئیت، خو کېنے ز ی اِتے مېنی باتی نہ تھنی بہ جو مے <pontoonRequestLink>تانُو باتِیہ لُبُسَئیکَنی درخاس کېری بَمانېؤ۔</pontoonRequestLink>۔ گِری کامن وائس پراجکٹہ رتئ باتِیہ پئیدیا کېرِکہ ݭڅی <githubRepoLink>GitHub<githubRepoLink> رتئ نونگی باتِیَنی درخاس کېرِؤ۔<localizationFragment>سائٹ ترجما واری بالِؤ</localizationFragment>۔
+about-playbook-how-add-language-collecting-sentences-heading = کلاؤ ٹوپَلَئیک
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>کلاوَنہ استعمالَنہ بارا امَنہ گائڈہ بالِؤ کلکٹر</sentenceCollectorVideo>۔
 
 ## How does localization work
 
