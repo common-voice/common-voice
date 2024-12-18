@@ -50,6 +50,12 @@ history_law_government = تاریخ،قانونتے سرکار
 language_fundamentals = جیب اے°بنیاد۔ہندسا،ٹیکل،تے روپے
 # Sentence Domain dropdown option
 media_entertainment = میڈیا تے سال
+# Sentence Domain dropdown option
+news_current_affairs = اوں وحت اؘ خبرونی
+# Sentence Domain dropdown option
+technology_robotics = ٹکنالوجی تہ روبوٹکس
+sentence-variant-select-label = جولال اؘ تغیر
+sentence-variant-select-placeholder = اوتھا اؘ متغیر خوشا۔
 
 ## BULK SUBMISSION 
 
