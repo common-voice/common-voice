@@ -56,9 +56,14 @@ news_current_affairs = اوں وحت اؘ خبرونی
 technology_robotics = ٹکنالوجی تہ روبوٹکس
 sentence-variant-select-label = جولال اؘ تغیر
 sentence-variant-select-placeholder = اوتھا اؘ متغیر خوشا۔
+sentence-variant-select-multiple-variants = عام جب اؘ متعدد متغیرات
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = عوامی ڈومین جولال اوکلا
+sc-bulk-upload-instruction = اوکلیل کیر تہ ٹسار دیل کیر تانی فائل اومات دیرکالا
+sc-bulk-upload-instruction-drop = فائل اوکالیل کیر اوما چھورا۔
 
 ## SMALL BATCH SUBMISSION
 
