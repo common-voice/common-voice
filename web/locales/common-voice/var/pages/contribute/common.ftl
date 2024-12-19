@@ -1,9 +1,9 @@
-action-click = Klik yorapa
-action-tap = Puka
-contribute = Yooma pienapi apo kuyame
-review = Neene puuka
-skip = Umatote aampa
-shortcuts = Risaka umatoniame
+action-click = Klik yorapá
+action-tap = Uká
+contribute = Yomá pienápi ahpó kuyáme
+review = Nené pu'ká
+skip = Umátote ampá
+shortcuts = Risáka umátoniame
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> paikapi ivotetiame
