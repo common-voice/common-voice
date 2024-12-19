@@ -32,7 +32,7 @@ required-field = ماربینی تہ او فیلڈ چوپوٹ تہ
 single-sentence-submission = ا کو ن جملہ باگھال
 small-batch-sentence-submission = اپان سہ
 bulk-sentence-submission = گھن جملہجمع تال
-single-sentence = اکون
+single-sentence = اکون  / اّک
 small-batch-sentence = لکوٹوش گروپ
 bulk-sentence = جولال اے
 sentence-domain-combobox-label = ترا کارونی اپا  کیر خوشا
@@ -40,7 +40,11 @@ sentence-domain-select-placeholder = ترہ باگوی خوشہ
 # Sentence Domain dropdown option
 agriculture_food = کاروال تےخوراک
 # Sentence Domain dropdown option
+automotive_transport = اٹومو ٹیو تے یادا دی با تہ بییل
+# Sentence Domain dropdown option
 finance = خزان
+# Sentence Domain dropdown option
+service_retail = خزمت/ریٹیل
 # Sentence Domain dropdown option
 general = آم
 # Sentence Domain dropdown option
