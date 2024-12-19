@@ -1,3 +1,6 @@
+# GUIDELINES PAGE
+guidelines-header = کمک ستہ رھنمااصول
+guidelines-header-subtitle = کامن وائس ڈیٹاسیٹ تہ جملہ سورہ آڈیوکلپس جمع کراستہ سورہ تصدیق ستہ کوستہ طریقہ زعݩہ
 varying-pronunciations = مختلف تلفظ
 misreadings = نمل ولہ ستہ
 background-noise = پتیارہ کوٹ
