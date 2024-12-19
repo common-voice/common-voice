@@ -44,7 +44,7 @@ const Pill = ({
   >
     <div className="contents">{children}</div>
     <div className="num">
-      {status === 'done' && <img src="/voicewall/img/check-mark.svg" alt="check-mark" width={26} height={26} />}
+      {status === 'done' && <img src="/voicewall/img/Check-mark.svg" alt="check-mark" width={26} height={26} />}
       {status === 'pending' && <img src="/voicewall/img/check-mark-muted.svg" alt="check-mark-muted" width={26} height={26} />}
       {status === 'active' && <span>{num}</span>}
     </div>
