@@ -104,14 +104,14 @@ exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 ora
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí.  Enči yoamitiá  piripi munitoči
-       *[other] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí.  Enči yoamitiá  { $retryLimit } munitoči
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami.  Enči yoámitia  piripi munútoči
+       *[other] Kianiné itočekopá weiká orasión umatóteremu iwatíami.  Enči yoámitia  { $retryLimit } minútoči
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí, enči yoamitiá piripi segundoči.
-       *[other] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí, enči yoamitiá { $retryLimit } segundoči.
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia pirípi segundóči.
+       *[other] kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia { $retryLimit } segundóči.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
