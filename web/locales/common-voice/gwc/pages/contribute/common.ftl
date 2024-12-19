@@ -104,6 +104,7 @@ contribution-misreadings-title = کھوچو پروگ
 contribution-misreadings-description = کون بُجوݭات، بیݭاٞ اُوں کٞناں ریکارڈ ہُوت تتھی ای چُنڑجینت؛ آٞس مئی کٞہ اِیچھیٹ غلطی پا تھی تام قبول مُو کٞر۔ باٞر عام غلطیاٞنیں اِیں تھی؛
 contribution-misreadings-description-extended-list-1 = ڄھار ہوگیل <strong> اٞ </strong><strong> یا </strong> ریکارڈنگاٞں اواٞل مئی
 contribution-misreadings-description-extended-list-2 = ڄھار ہوگیل اٞ <strong> س </strong> الفاظاٞں آخر مئی
+contribution-misreadings-description-extended-list-5 = لفظ پروگ مئ اٞلات دھیر کوشیش کٞروگ۔
 contribution-misreadings-example-3-explanation = [ریکارڈنگ نیپتوگ لفظاٞں دُوت ما پھِرمال کاٹ ہی]
 contribution-misreadings-example-4-explanation = [کتیک متن پکاٞر آش تاٞس ما زیات ریکارڈ ہِت]
 contribution-misreadings-example-5-title = مٞہ کافی ایں کیر بھاٞر کٞہ بچٞنت۔
