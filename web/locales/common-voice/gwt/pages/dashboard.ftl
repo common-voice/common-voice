@@ -36,6 +36,15 @@ average-difficulty = منزَنہ
 difficult-difficulty = گران
 pro-difficulty = پرو
 lose-goal-progress-warning = تانُو مقصدَہ ترمېم کېرِکے ݪی، مے تانُو موجودہ پُر دِکہ فُسَئ بَمانېؤ۔
+want-to-continue = مے جاری دراوَہ کوڅِمانېوا؟
+finish-editing = اول ترمیمہ فُورہ کېرِؤ؟
+lose-changes-warning = نوری ووڑِکَنی مطلب تھنی زی مے تانُو تبدیلِی نامہ فُسَوَہ
+build-custom-goal = ضرورَتَنہ مطابق یَک مقصد ݫُپَؤ
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامن وئسہ ذاتی مقصدَہ مِنزی باتِیہ{ $hours }گېنٹہ مِزا فېدِکہ مدد کېرِؤ
+       *[other] کامن وئسہ ذاتی مقصدَہ مِنزی باتِیہ{ $hours }گېنٹہ مِزا فېدِکہ مدد کېرِؤ
+    }
 
 ## Goals
 
