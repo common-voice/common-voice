@@ -113,6 +113,7 @@ rate-limit-toast-message-seconds =
         [one] حد دا لنگیل۔۔۔۔۔منٹ می دیراں ڈیز
        *[other] وخ گو۔۔۔۔منٹ می دراں ݭج
     }
+small-batch-sentences-rule-3 = اک ا  کریک می جملا اراک تہانٹر
 small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
 small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔
 small-batch-sentences-rule-6 = سوا جملا ا ک ڄھلا من جہن
