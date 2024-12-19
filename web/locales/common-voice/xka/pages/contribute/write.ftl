@@ -24,7 +24,7 @@ new-sentence-rule-8 = مزایہ قدرتی تے مجلس۔۔۔۔جولال من
 login-instruction-multiple-sentences = کتہ منوم
 how-to-cite = کثہ منوم
 how-to-cite-explanation-bold = ترام اے°  صحی نام
-guidelines = پان پشال
+guidelines = بییل پان
 contact-us = اساں پݭ
 add-sentence-success = جولال سمیٹیل
 add-sentence-error = جولال جمعہثآل  رل غلطن
@@ -50,6 +50,8 @@ history_law_government = تاریخ،قانونتے سرکار
 language_fundamentals = جیب اے°بنیاد۔ہندسا،ٹیکل،تے روپے
 # Sentence Domain dropdown option
 media_entertainment = میڈیا تے سال
+# Sentence Domain dropdown option
+nature_environment = قدرت تے ماحول
 # Sentence Domain dropdown option
 news_current_affairs = اوں وحت اؘ خبرونی
 # Sentence Domain dropdown option
@@ -78,6 +80,7 @@ upload-more-btn-text = دی جولال پا اوکال۔
 file-invalid-type = کھچہ فائل
 file-too-large = فائل باڑ گن این۔
 file-too-small = فائل باڑ لوکٹ این۔
+too-many-files = باڑ ذات فائلونی آس
 
 ## SMALL BATCH SUBMISSION
 
