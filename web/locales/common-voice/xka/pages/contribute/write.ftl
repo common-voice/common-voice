@@ -81,6 +81,7 @@ sc-bulk-submit-confirm = تو اک جولال کیر باڑ جوابونے نہ 
 bulk-upload-success-toast = جولال اوکالیل
 bulk-upload-failed-toast = اوکلیل جاری تھا۔
 bulk-submission-success-header = تانی بلک جمع تھا می مدد تھال اؘ تی باڑ مربنی۔
+bulk-submission-success-subheader = تو ھرہ دوس منیلہ جولال سمٹیل می کامن وایس سہ مدد تھون
 upload-more-btn-text = دی جولال پا اوکال۔
 file-invalid-type = کھچہ فائل
 file-too-large = فائل باڑ گن این۔
@@ -89,6 +90,8 @@ too-many-files = باڑ ذات فائلونی آس
 
 ## SMALL BATCH SUBMISSION
 
+multiple-sentences-error = تو ا جولال کیر  باڑ  جوابونی نہ دیبون
+exceeds-small-batch-limit-error = زر جملا دا باڑ جمہ نہ تیبون
 
 ## MENU ITEM TOOLTIPS
 
