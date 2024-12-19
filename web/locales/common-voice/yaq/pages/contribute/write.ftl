@@ -134,8 +134,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] () ye’u puarime, into a pit’ta imi’i () kom am wik betchibo jume nook jiawaim ka mabetwuakame
-       *[other] () jume () nautoirime). Im a pit’ta kom am wik betchibo jume nook jiawaim ka mabetwuakame.
+        [one] { $uploadedSentences } ye’u puarime, into a pit’ta imi’i () kom am wik betchibo jume nook jiawaim ka mabetwuakame
+       *[other] { $uploadedSentences } jume { $totalSentences } nautoirime). Im a pit’ta kom am wik betchibo jume nook jiawaim ka mabetwuakame.
     }
 small-batch-sentences-rule-1 = Lutu’uria ta ja’jase ""¿jita nook jiawai ta ne a amman bittua?""
 small-batch-sentences-rule-2 = Wuepul nook jiawai ta ama kibacha wue’epul wi’ia po lula
