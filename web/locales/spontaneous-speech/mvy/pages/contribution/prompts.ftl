@@ -6,6 +6,7 @@ mic-access-error = تے مېکے اجازت دیؤں ہو تُھوْ
 prompt-page-instruction = آں کتوک تِنا ھوئی تھو کھن تسیں جواب دے
 no-prompts-message = آس جِباں فلحال گی چھر نیتھو. تو گتہ ݜس کُھولاکرہ یا کم لکھ پتئں کوشش کرہ
 error-skipping = ݜَس بنئیل لکیل پھرہانس بگی نشیْ گا
+error-recording = ٹیپ کراں دی بِگی خرابی ایگے
 error-uploading-response = تیں جواب اُکھال ہان٘س بگ مسئلہ ایگے
 prompt-submitted-success = جواب کامیابی ہِن جمع ہُوگا
 prompt-response-deleted-success = جواب کامیابی ہِن الُو دگیلی
