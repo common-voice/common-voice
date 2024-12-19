@@ -29,6 +29,19 @@ x-weeks-short =
         [one] ہفتہ
        *[other] { $count }وک
     }
+x-months-short =
+    { $count ->
+        [one] { $count } مو
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }ے
+       *[other] { "" }
+    }
+help-make-dataset = لستہ معیاری، عوامہ دیوکہ آزاد ڈیٹا سیٹ ایپاستہ تہ ایموستہ مدد کشعں۔
+sign-up-account = اہ اکاونٹہ دیوکہ سائین اپ کشی۔
+email-subscription-title = ای میل نوئی کوستہ کہ سائن اپ کشی
 
 ## Account Benefits
 
