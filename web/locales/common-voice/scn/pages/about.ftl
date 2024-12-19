@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Picchì Common Voice?
+about-header-description-v2 =
+    <p>Common Voice è nu nzemi di dati dispunìbbili ô pùbblicu, fattu chî vuci di cuntribbutura vuluntari di tuttu u munnu. Cu' voli custrujiri applicazzioni vucali po usari sti dati pi nzignàrici ê mudeḍḍi linguìstici nfurmàtici.</p>
+    <p>Accamora, a majurìa dî nzemi di dati vucali è di prupità di cumpagnìi privati, e chistu ferma a nnuvazzioni. Cchiù assai, sti nzemi di dati nun riprisentanu bonu cu' nun parra ngrisi, genti di culuri, genti cu disabbilità, fìmmini e genti LGBTQIA+. Chistu veni a diri chi a ticnuluggìa vucali nun funziona pi nenti pi assai lingui, e pi chiḍḍi unni funziona, nun funziona bonu â stissa manera pi tutti. Vulemu canciari sta situazzioni mubbilitannu i genti unni si tròvanu-tròvanu pi fàrici spàrtiri i so vuci.</p>
 how-does-it-work-title-v2 = Comu funziona Common Voice?
 how-does-it-work-text = Stamu arricugghiennu nu nzemi lìbbiru di vuci. Dùnani a to vuci, cuntrolla l'accuratizza dî riggistrazziuna vucali di l'autri, ammigghiura i dati pi tutti.
 
