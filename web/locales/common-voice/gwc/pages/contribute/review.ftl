@@ -50,3 +50,13 @@ sc-review-instruction = پتہ ݭا <icon></icon>امی جملاٞں جیباں 
 sc-review-rules-title = جملاٞ طریقہ کاٞر رہ پُورہ تھو آٞ؟
 sc-review-empty-state = مُوٹو اِیں جِب مئے جائیزیں کیر دی جملاٞ نانت۔
 report-sc-different-language = دی جِب
+report-sc-different-language-detail = ائی اِیں جِب مئی چُنڑیت کاٞس رہ یہ نظاٞر تلنت۔
+sentences-fetch-error = جملاٞ گٞژوگ مئی اٞ غلطی ییئے۔
+review-error = جملاٞ رہ نظاٞر تلوگ مئی اٞ غلطی ییئے۔
+review-error-rate-limit-exceeded = تُو باٞڄ تیز بچنت۔ ماربینی کاٞ اتوشی سات امی جملاں جائیزہ گھین اُوں آم صحی تُھو آٞ۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = مٞہ کٞتیک گھین تبدیلی کٞرنت۔
+sc-redirect-page-subtitle-1 = جملاں جمع کٞروگ والہ کامن وائیس آں اصل بھاگ بچنت۔ تُو مُٹو کامن وائیس مئی جمع کٞروگیں کیر اٞ جملہ <writeURL>چُونڑ یا اٞ <reviewURL>جملاں جائیزہ </reviewURL>گھین۔
+sc-redirect-page-subtitle-2 = <matrixLink>میٹریکس</matrixLink>, <discourseLink>جولاگ</discourseLink> یا <emailLink>ایمیل </emailLink>دہ سوال کٞر۔
+# menu item
+review-sentences = جُملاٞ آں جائیزہ گھِن
