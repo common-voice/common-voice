@@ -76,6 +76,7 @@ accepted-files = قبولگیل فائل لم اؘ قیسم ۔tsv ایلا۔
 minimum-sentences = فائلوں می اوشٹ دا اوشٹ جولال (1000)
 maximum-file-size = باڑ دا باڑ فائل ناپ 25 mb
 what-needs-to-be-in-file = توٹھ می فائل می اشل اؘ ضروت این۔
+what-needs-to-be-in-file-explanation = اسی ٹملیٹ  فاییل نال۔۔تی جمہ  تاگیل جولال کاپی رایٹ فری بیدہ ۔گریمیر  لحاظ دا صحیتے  منیل می سگار بیدہ۔جمہ تاگیل جملہ باڑیل دش پنجیش سکنڑگینہ تے خآص ٹکیل،تے ہندسا بھآگ  رل چھورا
 upload-progress-text = اوکالیل جاری
 sc-bulk-submit-confirm = تو اک جولال کیر باڑ جوابونے نہ دیبون
 bulk-upload-success-toast = جولال اوکالیل
