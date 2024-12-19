@@ -116,14 +116,20 @@ rate-limit-toast-message-seconds =
 small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
 small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔
 small-batch-sentences-rule-6 = سوا جملا ا ک ڄھلا من جہن
+# menu item
+add-sentences = جملا  سمٹ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملاسمٹ تے نالہ۔سوالونی پا میلہ۔اڈیو  ٹرانسکرابت
+add-sentences-menu-item-tooltip = تا نی جیب می جملا جمع۔تھا
+review-sentences-menu-item-tooltip = تانی جیب جملا دیراں  نال۔
 add-questions-menu-item-tooltip = تانی جیب می سوالونی پا ٹل تا
 transcribe-audio-menu-item-tooltip = تانی جیب اے°اڈیو ریکارڈنگ ٹرانسکراییب تہ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اپشن مینو چݨ۔
 add-sentences-menu-item-aria-label = تانی خلق ام کیر نوم نوم جولال  چݨا
 review-sentences-menu-item-aria-label = تسے خلق ام کتہ جولال تال تے تس دی یرا نال سو کتہ این
 add-questions-menu-item-aria-label = تای جیب خلق ام رل کھجال کیر دی سوالونی  نام اون تن نیلی منان  تے جواب دان تہ۔
