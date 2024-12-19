@@ -18,6 +18,17 @@ listen-goal-text = کلیپ توثیق کعئے
 hours-recorded = گھنٹہ وکݜیہ
 hours-validated = گھنٹہ توثیق با
 voices-online = کوٹ اوسترک آنلائن
+todays-progress = اوسترک گلجار ستہ پیش رفت
+help-reach-goal = پعاستہ کہ ایمو مع مدد کشعں{ $goal }
+read-terms-q = شا ایموستہ شرئط ولئیستی ایہ؟
+ready-to-record = توستہ کوٹہ عطیہ کوستہ کہ تیار اسیشہ؟
+all-locales = څک
+today = اوسترک گلجار
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count }وک
+    }
 
 ## Account Benefits
 

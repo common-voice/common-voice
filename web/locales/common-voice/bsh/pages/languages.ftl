@@ -7,3 +7,6 @@ sentences = جملہ
 language-validation-hours = سکال گھنٹہ
 language-validation-progress = ترقی ستہ توثیق
 contribute = سنہ
+get-involved-email =
+    .label = ای میل
+get-involved-submit = جمع
