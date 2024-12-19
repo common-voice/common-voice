@@ -4,3 +4,5 @@ background-noise = ڈاپاتیاں شُور
 background-voices = ڈاپاتیوں آوازہ
 volume = اواز۔
 reader-effects = پڑان٘لو اثر انداز ہُوئ تُھو
+just-unsure = سَم پت نی تھی؟
+example = مِثال
