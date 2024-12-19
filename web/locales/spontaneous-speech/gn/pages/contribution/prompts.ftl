@@ -2,6 +2,8 @@
 
 record-player-header = Eñongatu ne ñembohovái
 mic-access-error = Emoneĩva’erã pe ñe’ẽatãhápe jeike.
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+prompt-page-instruction = { $actionType } <micIcon></micIcon> ha embohovái ikatuháicha
 error-skipping = Oiko jejavy emboykekuévo ko ñe’ẽmondo
 error-recording = Oiko jejavy eñongtukuévo upe ayvu
 # For the button to delete a response to a prompt
