@@ -1,14 +1,23 @@
 # GUIDELINES PAGE
 guidelines-header = کمک ستہ رھنمااصول
 guidelines-header-subtitle = کامن وائس ڈیٹاسیٹ تہ جملہ سورہ آڈیوکلپس جمع کراستہ سورہ تصدیق ستہ کوستہ طریقہ زعݩہ
+voice-collection = آواز ستہ مجموعہ
+sentence-collection = جملہ ستہ مجموعہ
 varying-pronunciations = مختلف تلفظ
 misreadings = نمل ولہ ستہ
+offensive-content = ضرر پعوالہ مواد
 background-noise = پتیارہ کوٹ
 background-voices = پتیارہ کوٹ
 volume = آواز (حجم )
 reader-effects = ولہ لے ستہ تاثرات
 just-unsure = پنع غیر یقینی
 example = مثال
+varying-pronunciations-explanation-1 = ایمومختلف لہجہ ستہ خیرمقدم کوتمیش اہ کلپ رد کوستہ تݩع پنوی وای بلیوک محتاط بوݩع ۔کہ کع با تیو گجی وشچہ ولہ لے لفظ غلط تلفظ کعیسہ لے کہ ۔زورغلط جائ تہ وینسہ یا نحو نظر انداز کعسہ کہ ۔دنیا تہ بلیوک قسم تلفظات استعمال بوتت امکیاں پمیچ تو مقامی اوگعماں تہ نہ سݣئ سہ لے  برائے کرم امکی منچاں  دی بلیوک سکال حوصلہ افزائی کشݩع ۔چہ امکی توتݩع مختلف انداز تہ وری ولہ تت
+varying-pronunciations-explanation-2 = دیوبولی تہ اگر تو چمہ ایبا چہ ولہ اینہ لفظ مع بلد نہ اسہ لہ سورہ ستہ تلفظ ستہ غلط اندازہ لگاتہ کہ ستہ برائے کرم کلپ مسترد کشݩع۔اگرشا شک بیبا ستہ صورت تہ اسٹرکشن پاتستہ کں اسکپ  بٹن استعمال کشݩع۔
+varying-pronunciations-example = پوت واضح نہ اسی
+varying-pronunciations-tip-1 = کینیڈا انگریزی تہ routeروٹ یارکہ ولستہ بوتہ
+varying-pronunciations-tip-2 = برطانیہ انگریزی تہ route روٹ یارکہ ولستہ بوتہ
+offensive-content-explanation = جملہ اگعاماں ستہ نگرانی عمل ذریعہ تہ اوش کوستہ بولای لیکن اینہ عمل مکمل طورتہ سئ نہ بولہ اسہ۔اگرتو آجستہ جملہ وعیں با یاسݣہ ایبا چہ ستہ تو تکلیف پعتہ یاپریشان کوتہ مثلا کہ کعہ با اینہ ایموستہ اوگعاماں سنہ ستہ<participationGuidelines> رہنما اصول </participationGuidelines>ستہ خلاف ورزی  کولہ بیبا مہربانی کتئ فلیک بٹن استعمال کشݩع شا ایمو مع رابطہ دی کوں بتݩع<emailFragment>commonvoice@mozilla.com</emailFragment>
 misreadings-explanation-5 = اپارکولی الفاظ ولہ ستہ حقیقت تہ اتکی نہ ائ لکہ we're اینا جائے تہ we are ولہ ستہ
 misreadings-explanation-6 = آخری لفظ ستہ اختتام پتہ کوستہ کہ کع با رکاڈنگ نوݜٹا بند بوتہ
 misreadings-explanation-7 = اہ لفظا ولہ ستہ کں سکال ویں کوشش کاع
