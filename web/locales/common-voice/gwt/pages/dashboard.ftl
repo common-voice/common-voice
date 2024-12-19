@@ -52,6 +52,77 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = یَہ مقصدہ فُورہ کېرِؤ
 cant-decide = فیصلہ کېرِی نہ بَمانېوا؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
+how-many-per-day = لؤ بئ! یَکېک دېسے کتہ کِلپس؟
+how-many-a-week = لؤ بئ! یَہ ݭُکُوارہ کتہ کِلپس؟
+which-goal-type = باتی کېرانے ژِمانا، ݭُنڈانے ژِمانا خو دُمِمِی؟
+receiving-emails-info = مے فلیالَن کامن وائسَنہ بارا ای مېلز لکہ زی گول ریمائینڈرز، مېری پراگرس اپڈېٹس اؤ نیوز لېٹر وصول کېرِکاں تیار تھنَؤ
+not-receiving-emails-info = مے فلیالن<bold>NOT</bold> رتئ سیٹ تھنَؤ لَکہ زی گول ریمائینڈرز، مېری پراگرس اپڈېٹس اؤ کامن وائسَنہ بار نیوز لېٹرز وصول
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count }کلپس
+       *[other] { $count }کِلپس
+    }
 
 ## Goals
 
