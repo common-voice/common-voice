@@ -140,11 +140,11 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = Simetépa pautandóka, ¿istána orasióni napétaria?
 small-batch-sentences-rule-2 = Toamétamu orasioni risáka rineáči
 small-batch-sentences-rule-3 =
-    Toamitiá orasioné pii enči pii lineači ,
-    Ninimitia pii lineači toika pii lineači pireči
-small-batch-sentences-rule-4 = Weika nahuwe pile miri naosari
-small-batch-sentences-rule-5 = Yomá pu'ká orasioné waátiamé temači inemetaá
-small-batch-sentences-rule-6 = Yomá orasioné itania inibaemičo piíčé akaná oyaniá i nenemía akaná tamó iyagó
+    Toámitia orasióne píi enčí pií rineáči ,
+    Ninímitia pirípi rineáči toíka pirípi rineáči piréči
+small-batch-sentences-rule-4 = Weiká napé 1.000 naósari
+small-batch-sentences-rule-5 = Yomá pu'ká orasióne waátiame témači inemetaá
+small-batch-sentences-rule-6 = Yomá orasióne iyánia iniwáemičo pirečí akaná iyánia i nenémia akaná tamó yorá
 
 ## MENU ITEM TOOLTIPS
 
