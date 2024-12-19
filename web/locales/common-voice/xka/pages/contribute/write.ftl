@@ -66,6 +66,7 @@ sentence-variant-select-multiple-variants = عام جب اؘ متعدد متغی
 sc-bulk-upload-header = عوامی ڈومین جولال اوکلا
 sc-bulk-upload-instruction = اوکلیل کیر تہ ٹسار دیل کیر تانی فائل اومات دیرکالا
 sc-bulk-upload-instruction-drop = فائل اوکالیل کیر اوما چھورا۔
+bulk-upload-additional-information = تو آوں فایل بارہ می دی  پا بتہ دون تےماریبینی تا اساں لہ
 try-upload-again = تانی فائل اوماتھ دیرکیلی تھ دیرا کوشش تھ
 try-upload-again-md = دیرا اوکالیل اؘ کوشش تھ۔
 select-file = فائل حوشا۔
