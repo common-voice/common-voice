@@ -1,7 +1,7 @@
 ## Prompts page
 
-record-player-header = تاں جواب ٹیپ کرہ
-mic-access-error = تے مېکے اجازہ دیوں ہو تُھو
+record-player-header = تاں جَواب ٹیپ کَرَہ
+mic-access-error = تے مېکے اجازت دیؤں ہو تُھوْ
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = آں کتوک تِنا ھوئی تھو کھن تسیں جواب دے
 no-prompts-message = آس جِباں فلحال گی چھر نیتھو. تو گتہ ݜس کُھولاکرہ یا کم لکھ پتئں کوشش کرہ
@@ -23,3 +23,7 @@ learn-how-to-use-prompts-explanation = ݜس نوٹاں تی ہلالیں گِش�
 learn-how-to-use-prompts-guidance = ݜس پن٘ڑو گِشے چلؤں تُھو ݜس سِڇَھیں یاں کریا<guidanceLink>ݜُو زئ</guidanceLink>کلِک کرہ
 learn-how-to-use-transcribe = لفظ بہ لفظ نقل کرؤں سِڇھہ
 learn-how-to-use-transcribe-explanation = ماݜے چےۡ گِشے بنہ چھی ٹک سوۡ شاں لِکہ، بئ ݜُوۡ زئ ہریۡ چےۡ 'ہم' تےۡ 'آ' گتہ۔
+learn-how-to-use-transcribe-guidance = ݜس پن٘ڑو گِشے چلؤں تُھو ݜس سِڇَھیں یاں کریا<guidanceLink>ݜُو زئ</guidanceLink>ٹک کرہ
+learn-how-to-use-check-transcript = نقل نہالؤں سڇھی
+learn-how-to-use-check-transcript-explanation = ایکیک لفظاں نقل یا بنئی ٹقلی تاں گرفت مہ دھؤں پکار کس ماݜے بنیلاں، تکرار ملی
+learn-how-to-use-check-transcript-guidance = ݜس پݨو گِشے چلؤں تُھو ݜس سِڇَھیں یاں کریا<guidanceLink>ݜُندہ</guidanceLink>ٹَک کرہ
