@@ -16,3 +16,4 @@ misreadings-example-4 = تارک نݜٹہ تیر بے
 misreadings-tip-1 = بوستہ اسہ (ا یمو اسمیش )
 misreadings-tip-2 = نئی (ا)اصلی سترئ تہ
 misreadings-tip-3 = مواد اہ یار نہ بیبا
+background-noise-example-1 = ٹریاسیک ستہ الی ڈائئنوسور
