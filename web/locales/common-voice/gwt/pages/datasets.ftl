@@ -37,3 +37,6 @@ feedback-q = کی رائے تھنی؟
 # This indicates that there is no data to display
 no-information = کی معلومات نہ تھنَئیت
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ یَک<docsLink> اوپن سورس ٹول کِٹ </docsLink> تھنی زی محققینہ ݭڅی سافہ پېنہ نُونگی باتِیَنہ اے ون ماڈل تیار کېرِمېت۔
+resource-deepspeech-info = موزیلانہ اوپن سورس وئس رکگنېشن اینجن ڈیپ اسپیچہ سپیچ رکگنېشن ایپلِکېشن ݫُوپَئیکہ ݭڅی استعمال کېران دِمان۔ امَنہ<githubLink>Github جائزہ</githubLink> ژَؤ یا شروع کېرِکَنہ طرېقا ہِلِکہ ݭڅی <discourseLink>DeepSpeech Discourse</discourseLink> تران لُبُسِتېؤ۔
+resource-coqui-info = <coquiLink>Coqui</coquiLink> تقریرَنی ٹېکنالوجِیہ ووڑَئیکہ ݭڅی وقف تھنی۔ اسُونہ منصوبا لفِلہ ہِلِکہ رتئ ایس ٹی ٹی اؤ ٹی ٹی ایس اینجن شامل  تھنَئیت۔
+community-playbook = برادرِیَنہ پلے بُک
