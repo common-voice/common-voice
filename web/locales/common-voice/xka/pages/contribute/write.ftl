@@ -64,6 +64,11 @@ sentence-variant-select-multiple-variants = عام جب اؘ متعدد متغی
 sc-bulk-upload-header = عوامی ڈومین جولال اوکلا
 sc-bulk-upload-instruction = اوکلیل کیر تہ ٹسار دیل کیر تانی فائل اومات دیرکالا
 sc-bulk-upload-instruction-drop = فائل اوکالیل کیر اوما چھورا۔
+try-upload-again = تانی فائل اوماتھ دیرکیلی تھ دیرا کوشش تھ
+try-upload-again-md = دیرا اوکالیل اؘ کوشش تھ۔
+select-file = فائل حوشا۔
+select-file-mobile = فائل حوشا تھ اوکالا۔
+accepted-files = قبولگیل فائل لم اؘ قیسم ۔tsv ایلا۔
 
 ## SMALL BATCH SUBMISSION
 
