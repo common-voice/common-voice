@@ -122,14 +122,14 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá pii segundoči enčí itočemaria pirečy orasión. Čeriwema amó puyeriačó.
-       *[other] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá { $retryLimit }segundoči enčí itočemaria pireči orasión. Čeriwema amó puyeriačó.
+        [one] Umatóteremu ékanati amó uhúraria iká pagináči. Puyéka pií segundóči enčí itočenaria piréči orasión. Čeriwéma amó puyeríčo.
+       *[other] Umatóteremú ékanati amó uhúraria iká pagináči. Puyéka { $retryLimit }segundóči enčí itóčenaria piréči orasión. Čeriwéma amó puyeríčo.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } oña 1 Orasioné kawetíamé
-       *[other] { $uploadedSentences }oña { $totalSentences }orasioné kawetíamé
+        [one] { $uploadedSentences } ónia  1 orasión kawétiame
+       *[other] { $uploadedSentences }ónia { $totalSentences }orasióne kawétiame
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
