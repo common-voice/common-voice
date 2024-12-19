@@ -95,3 +95,4 @@ transcribe-audio-menu-item-tooltip = تانی جیب اے°اڈیو ریکارڈ
 ## MENU ITEM ARIA LABELS
 
 add-sentences-menu-item-aria-label = تانی خلق ام کیر نوم نوم جولال  چݨا
+review-sentences-menu-item-aria-label = تسے خلق ام کتہ جولال تال تے تس دی یرا نال سو کتہ این
