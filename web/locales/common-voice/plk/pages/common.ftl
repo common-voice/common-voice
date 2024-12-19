@@ -268,6 +268,30 @@ content-license-text = ایْک کھری ہشی مواد<licenseLink> تخلیق
 share-title = مُت جگوڑ سیݨے آواز دون گہ اورڑونے کِرِیا اسے امداد تِھیا ǃ
 share-text = مشِینوڑ آ سِڇھرِیون دہ امداد تِھیا چہ اصل جک سہ کاتھ موْݜ کال تھینَن، تومیْ آواز عطیہ تِھیا۔{ $link }
 link-copied = لِنک کاپی بِلوْ
+back-top = پتو چُھوپڑ بوجہ
+logout = لاگ آؤٹ
+donate = عطیہ تِھیا
+stayintouch = بیْس موزیلا دہ وائس ٹیکنالوجی چاپیر ایْک قام سنوݨَس۔ بیْس اپ ڈیٹس گہ ڈیٹائے ناں ذریعوگیْ رابطہ دہ بون کھوشنَس۔ آ سے بارَد مُتیْ گہ سِڇھون لڇھون کھوْشنَس چہ څھوْس آ ڈیٹا کاتھ کمینَت۔
+privacy-info = بیْس څھے معلومات احتیاط گیْ چھورونے لوظ تھوݨَس۔ اسے بارَد مُتیْ گہ پڑِیا۔ <privacyLink>رازداری نوٹس<privacyLink>
+return-to-cv = کامن وائس ئڑ پتوڑ اِیا
+email-input =
+    .label = ای میل
+loading = لوڈنگ
+email-opt-in-info = موْ ای میل گِݨون کھوْش بوس، کاتھ چہ مقصدے کائنی، میں پیشرفتے تازہ کاری آں کامن وائس اےْ بارَد خبری خط۔
+email-opt-in-info-title = کامن وائس میلنگ لسٹ دہ ٹل بِیا
+email-opt-in-info-sub-with-challenge = کامن وائس اےْ بارد ای میلز کاتھ چہ چیلنج گہ ہدفے کائنی، پیشرفتے تازہ کاری گہ خبری خط وصول تِھیا۔
+email-opt-in-privacy-v2 = ای میلز وصول تھونے انتخاب تھون دہ څھوْس آ رزنَت چہ څھوْس موزیلا اےْ آ معلومات سمٹون کھوْشنَت کاتھ چہ موزیلا دہ بیان تِھجِلِن<privacyLink> رازداری پالیسی<privacyLink>
+indicates-required = تاروْ گیْ (*) نکھوْ تِھیلیْ فیلڈ پکارِن
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>اسوڑ پکارِن</mark><br/> <mark> څھے امداد<mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹا سِیٹے میزبانی تھون آں  100 + زبوقامے پلیٹ فارم ادِیؤ گہ مِݜٹوْ سنونے کِرِیا تقریباَ ایک ملین ڈالر کالو سرے خرچ بینَن، کوئے چہ اسے تِھیلکِجیْ ڈاڈ بینَن<strong> اگر څھوْس شِیلوْ ہِیؤ گیْ جامع ڈیٹائے قدر تھینَت تو اش عطیہ تِھیا۔<strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> سی وی استعمال تھونے کِرِیا</mark><br/> <mark>څھے اوروڑ</mark>
+languages-donate-banner-cta-explanation = کامن وائس ئڑ عطیات گہ گرانٹس گیْ مالی اعانت تِھجانیْ،  اسوڑ تعلیمے ماہران، سول سوسائٹی گہ صنعتے محققینو سے تعاون تھون پسندِن۔ کامن وائس استعمال تھون گُچِھن، مگر گرانٹے تجاویزو ذریعے پلیٹ فارم گہ  مدڇِھیارے اخراجات دہ باگوْ یون واقعی مددگارن۔
+localization-select =
+    .label = جِب/لوکلائزیشنے انتخاب تِھیا۔

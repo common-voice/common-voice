@@ -78,6 +78,7 @@ shortcut-skip = س
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
 shortcut-record-toggle-label = ریکارڈ/سٹاپ
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = کلپ ست دُبار ریکارڈ تِھیا۔
 shortcut-discard-ongoing-recording = پھتِیا۔
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ رَد تِھیا۔
