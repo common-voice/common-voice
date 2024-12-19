@@ -73,6 +73,8 @@ join-newsletter = پروجیکٹے بارد اپ ڈیٹس گہ نئی معلوم
 
 whats-public = عوامی جوکُن؟
 email-not-public = بیْس څھے ای میل پبلک نہ تُھوِیس
+recordings-and-locale-public = ریکارنگو تعداد گہ څھوْس کھاں جِبوجی تعاون تھینَت اسہ عوامی بُوِیی
+username-optin-public = څھوْس توموْ صارف نُوم څرگَن یا چَپ سنونے انتخاب تھوبانَت
 
 ## Landing
 
