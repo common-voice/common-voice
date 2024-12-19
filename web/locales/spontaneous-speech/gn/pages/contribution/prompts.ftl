@@ -1,6 +1,9 @@
 ## Prompts page
 
+record-player-header = Eñongatu ne ñembohovái
+mic-access-error = Emoneĩva’erã pe ñe’ẽatãhápe jeike.
 error-skipping = Oiko jejavy emboykekuévo ko ñe’ẽmondo
+error-recording = Oiko jejavy eñongtukuévo upe ayvu
 # For the button to delete a response to a prompt
 delete = Mboguete
 # For the disabled button on a prompt that indicates a prompt is already submitted
