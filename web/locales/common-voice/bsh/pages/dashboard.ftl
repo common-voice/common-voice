@@ -72,6 +72,29 @@ share-n-weekly-contribution-goal = توستہ { $count }ہفتہ وار  ہدف 
 share-goal-type-speak = ولستہ
 share-goal-type-listen = سݣستہ
 share-goal-type-both = ولستہ سݣستہ
+# LINK will be replaced with the current URL
+goal-share-text = دیوکں ییں کوٹ عطیات ستہ اہ ذتی ہدف ایپئ سہ ییں مع شامل بوݩع سورہ مشینہ زعاں ستہ تہ کمک کشݩعچہ حقیقی منچی کائیکہ ولہ تت۔{ $link }
+weekly-goal-created = توستہ ہفتہ وار ہدف ایپئ سہ
+daily-goal-created = توستہ روزانہ ہدف ایپئ سہ
+track-progress = ترقی ٹریک کݜݩع انی دی یاست اعداد وشمار ستہ صفحہ تہ دی
+return-to-edit-goal = کائ ول تہ دی یوستہ ہدف ایڈٹ کوستہ کں انی واپس اڅݩع
+share-goal = ییستہ ہدف گاݜ کشݩع
 
 ## Goals
 
+streaks = یال
+days =
+    { $count ->
+        [one] واس
+       *[other] واس
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] سکال ریکارڈنگ
+    }
+validations =
+    { $count ->
+        [one] تصدیق
+       *[other] تصدیق
+    }
