@@ -24,6 +24,7 @@ new-sentence-rule-8 = مزایہ قدرتی تے مجلس۔۔۔۔جولال من
 login-instruction-multiple-sentences = کتہ منوم
 how-to-cite = کثہ منوم
 how-to-cite-explanation-bold = ترام اے°  صحی نام
+how-to-cite-explanation = ان  جولالتی تانی تہ ایلہ اتیک منؓ می منیل،ًبہ نالان تی اوں جولا کما دا گیال۔  ان پبلک ڈؤمین آں،تے کاپی رایٹ قاد پا نان۔دی اپان پویانیلکیر اسی گایڈلاین نالا
 guidelines = بییل پان
 contact-us = اساں پݭ
 add-sentence-success = جولال سمیٹیل
