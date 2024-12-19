@@ -28,6 +28,7 @@ guidelines = بییل پان
 contact-us = اساں پݭ
 add-sentence-success = جولال سمیٹیل
 add-sentence-error = جولال جمعہثآل  رل غلطن
+required-field = ماربینی تہ او فیلڈ چوپوٹ تہ
 single-sentence-submission = ا کو ن جملہ باگھال
 small-batch-sentence-submission = اپان سہ
 bulk-sentence-submission = گھن جملہجمع تال
