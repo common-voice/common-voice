@@ -27,3 +27,4 @@ citing-sentences-subheader-websites = ویب سائٹ
 citation =
     .label = حوالہ
 adding-sentences-subheader-spelling-punctuation-explanation = جمہ سئی ھجاء تہ بوستہ اسہ
+reviewing-sentences-explanation-4 = اگر جائزہ اݣستہ دیوکں توتہ جملہ لکہ بیبا مہربانی کتہ ایموتہ اہ چا دی جملہ جمع کوستہ تہ کمک کشݩع
