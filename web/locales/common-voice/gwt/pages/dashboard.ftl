@@ -123,6 +123,39 @@ n-clips-pluralized =
         [one] { $count }کلپس
        *[other] { $count }کِلپس
     }
+help-share-goal = واری کھنٹ نامہ کوڅِکہ امَنی مدد کېرِؤ، تانُو مقصدہ شریک کېرِؤ
+confirm-goal = مقصدَنی تصدیق کېرِؤ
+goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = تانُو { $count } کِلپَنہ روزانہ مقصدَ { $type } ݭڅی شئر کېرِؤ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = تانُو کاونٹ{ $count } کِلپَنہ ہفتہ وار ہدفَ { $type } ݭڅی شئر کېرِؤ
+share-goal-type-speak = باتی کېرِمان
+share-goal-type-listen = ݭُنڈِمان
+share-goal-type-both = ژَواوَہ اؤ ݭُنڈاوَہ
+# LINK will be replaced with the current URL
+goal-share-text = مُوئی نوری کامن وائسہ صوتی عطیہ کېرِکہ تانُو مقصد ݫُپَئیتُوم۔۔ مو مِنزی لُبُسِؤ اؤ ماشېن نامہ اسہ ہِلَئیکَنی مدد کېرِؤ زی حقیقی خلک شِلہ روے باتی کېرِمېت{ $link }
+weekly-goal-created = مېنی ہفتہ وار مقصد ݫُپی تِنی
+daily-goal-created = مېنی دېس دېسَنی مقصد ݫُپی تِنی۔
+track-progress = اِتے اؤ تانُو اعداد و شمارَنہ فٹا رتئ پېش رفتہ ٹرېک کېرِؤ۔
+return-to-edit-goal = کرېک بی وختہ تانُو مقصدہ بدل کېرِکہ ݭڅی اِتیاں پتہ گِرِی دِؤ۔
+share-goal = مونی مقصدہ شئر کېرِؤ
 
 ## Goals
 
+streaks = رِک نام
+days =
+    { $count ->
+        [one] دېس
+       *[other] دپس نام
+    }
+recordings =
+    { $count ->
+        [one] رِکاڈِنگ
+       *[other] رِکاڈنگز
+    }
+validations =
+    { $count ->
+        [one] تصدیق
+       *[other] تصدیق
+    }
