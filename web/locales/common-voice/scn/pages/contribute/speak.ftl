@@ -69,3 +69,4 @@ answer-questions-menu-item-tooltip = Riggìstrati mentri chi arrispunni a dumann
 
 speak-contribute-menu-aria-label = Minù dî scartati vucali
 read-sentences-menu-item-aria-label = Leggi frasi mannati dâ cumunità nna assai lingui
+answer-questions-menu-item-aria-label = Manna na nova dumanna â cumunità pi fariccilla lèggiri e aviri na risposta
