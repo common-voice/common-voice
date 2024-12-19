@@ -1,8 +1,8 @@
 speak = K̃han
 speak-now = Niv K̃han
 speak-subtitle = K̃hũ owozẽ Ẽtya rand/ K̃hu owozẽ nomũs rand
-record-cta = Record̃ k̃hak s̃hẽru
-record-platform-not-supported = sakẽr ẽfsũs ti plet̃formi mẽdẽdgor nast
+record-cta = Ricord̃ k̃hak s̃hẽru
+record-platform-not-supported = sakẽri ẽfsũs ti plet̃formi mẽdẽdgor nast
 record-platform-not-supported-desktop = Sẽk deskt̃op asbobẽs̃h downlowd̃ car k̃hẽ mẽdadẽ basẽs̃h wez
 record-platform-not-supported-ios-non-safari = miribini car k̃hẽ sẽk ISO record car woz sẽk Safari fẽol go
 record-must-allow-microphone = Tawri dẽ maykrofun g̃hetak ijozat dẽrkor

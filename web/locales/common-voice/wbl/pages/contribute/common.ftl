@@ -13,7 +13,6 @@ goal-help-recording = tawẽ common Voysẽr (Common voice) ẽr g̃hetak <goalP
 goal-help-validation = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert <goalPercentage></goalPercentage>{ $goalValue }
 speak-empty-state = Hẽskem zik darj k̃hakri spo s̃hik̃h jũmlayisht vek̃hk
 no-sentences-for-variants = Mũmkini ki ti zikẽ mukhtalif sokhtisht cẽ jũmlavẽn tẽr vich hũmin, agar ki tus̃h saz, tus̃h digar jũmlavẽ tayinẽ dẽstan k̃hũ zikẽ tẽrtibvẽ badalẽ bas wezẽ
-speak-loading-error = Sakẽs̃h tor k̃hẽnakẽr chiz jũmla ne gotẽn. Miriboni car woz kushish’
 record-button-label = K̃hũ owozẽ record̃
 share-title-new = <bold>sakẽr c̃hak owozvẽ gũrtnẽr mẽdad/ yormandi car </bold>
 keep-track-profile = Dẽ K̃hũ tẽr pẽrũt rec̃hnẽn k̃hũ profaylẽ (profile-ẽ) bẽ tayin/ rẽdikig̃h car
@@ -23,7 +22,6 @@ target-segment-generic-card = tus̃h yi baf maqsadẽ dẽstan hisadori/ tẽowu
 target-segment-first-banner = Dẽ { $locale } Common Voysẽ (common Voice) awalgũni maqsad hosilẽr mẽdad car
 target-segment-add-voice = K̃hũ owozẽ qẽti car/ shomil car
 target-segment-learn-more = bes̃h dish/ ziyot dish
-change-preferences = Tarjihotvẽ badal car
 login-signup = Log in/ sign up
 vote-yes = yan
 vote-no = ney
@@ -31,14 +29,13 @@ datasets = d̃at̃aset̃s (datasets)
 languages = Zikisht/ zẽbonisht
 about = Barar
 partner = hisador
-submit-form-action = Jama car/ kat̃
+submit-form-action = Jama car/ ta kat̃
 
 ## Reporting
 
 report = rapot̃/ pe
-report-title = yi rapot̃ jama car
+report-title = yi rapot jama car
 report-ask = hadẽm jũmlanẽs̃h tor chiz mũshkilisht wocẽn?
-report-offensive-language = sakht qẽsa/ zar zik
 report-offensive-language-detail = Jumlayi badh tẽmiz yoyi  zar zik
 report-grammar-or-spelling = Gramar/ hijaẽ nuqs
 report-grammar-or-spelling-detail = Dẽ jũmlayi gẽramar yoy hijaẽ nuqs
