@@ -7,3 +7,4 @@ download-dataset-header = ڈیاسیٹ منی والہ (ڈاؤن لوڈ کرہ)
 size = سائز
 number-of-voices = چے اوازی
 email-to-download = بِجلی خط لِکہ کہ ڈاؤنلوڈ کیریۡ تُھو
+validated-hours = سُون٘ݜیۡرالیۡ گین٘ٹی (منظور ہُولیۡ)
