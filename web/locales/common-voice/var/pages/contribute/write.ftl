@@ -1,13 +1,13 @@
 ## WRITE PAGE
 
 write = yotéka
-write-instruction = Toága wa'á<icon></icon> piré naósari wa'á dominio publiko
+write-instruction = Toáka wa'á<icon></icon> piré naósari wa'á rominio publiko
 write-page-subtitle = Orasioníči manitóame programači kawísita komo konhuntočitiá toaniáme datos lisensiači cc-0, Disponibleči iniwáe pu'ká publikóči simíyame
 sentence =
     .label = Itapéri čee wáme
-sentence-input-placeholder = Toága i'wá naósari dominio publiko uká itapéri
-small-batch-sentence-input-placeholder = Toága i'wá nati itapéri dominio publiko
-citation-input-placeholder = Eréka  toága péha uká kanámu na'juká uká itapéri. U'téwáči
+sentence-input-placeholder = Toáka i'wá naósari rominio publiko uká itapéri
+small-batch-sentence-input-placeholder = Toáka i'wá nati itapéri rominio publiko
+citation-input-placeholder = Eréka toáka péha uká kanámu na'juká uká itapéri. U'téwáči
 citation =
     .label = I'wá toamítia pu'ká siita
 sc-write-submit-confirm = Eréka ča'ní wa'á itapéri <wikipediaLink>dominio publiko</wikipediaLink>, Káinega i'tamíra motepúmina uká itapéri
@@ -24,7 +24,7 @@ new-sentence-rule-8 = Oracioniči maniáme natural iniméta tamó naewámia,,(k
 login-instruction-multiple-sentences = <loginLink>oi'népa sesión netéka</loginLink><loginLink>apóto aniáme </loginLink> Napéniame weká orasióni
 how-to-cite = ¿Ihtána yoáka iyotemané akaná mačihipakáne orasióne?
 how-to-cite-explanation-bold = Sítači pií enlaseči URL o iyotéka yomá tewá obráči
-how-to-cite-explanation = Muú isiremú nawésaká owerá čaní  <italicizedText>"Autosita"</italicizedText> Nanerenané akaná teikámu iká kontenido nenémia si pičiwuá uhúpu yomá henteičó, Kí aplikandona restriksiones de derečo de autor. Espéče itapíti nenénaria sitaíčo nenémitia tamó<guidelinesLink> pagina</guidelinesLink>
+how-to-cite-explanation = Muú isiremú nawésaká owerá čaní  <italicizedText>"Autosita"</italicizedText> Nanerenané akaná teikámu iká konteniro nenémia si pičiwuá uhúpu yomá enteičó, Kí aplikanrona restriksiones de derečo de autor. Espéče itapíti nenénaria sitaíčo nenémitia tamó<guidelinesLink> pahiná</guidelinesLink>
 guidelines = Weiká regláči
 contact-us = Tamó péha inó
 add-sentence-success = Nawésari ra'waroatiáme utiáme wa'á náyawaniači
@@ -116,14 +116,14 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] Umatóteremú ékanati amó uhúraria iká pagináči. Puyéka pií minútoči enčí itóčenaria piréči orasión.  ¡Čeriwéma amó puyeríčó!
-       *[other] Umatóteremú ékanati amó uhúraria iká pagináči. Puyeká { $retryLimit } munitoči enčí itočemaria pireči oración.  ¡Čeriwéma amó puyeríčó!
+        [one] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka pií minútoči enčí itóčenaria piréči orasión.  ¡Čeriwéma amó puyeríčó!
+       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyeká { $retryLimit } munitoči enčí itočemaria pireči oración.  ¡Čeriwéma amó puyeríčó!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] Umatóteremu ékanati amó uhúraria iká pagináči. Puyéka pií segundóči enčí itočenaria piréči orasión. Čeriwéma amó puyeríčo.
-       *[other] Umatóteremú ékanati amó uhúraria iká pagináči. Puyéka { $retryLimit }segundóči enčí itóčenaria piréči orasión. Čeriwéma amó puyeríčo.
+        [one] Umatóteremu ékanati amó uhúraria iká pahináči. Puyéka pií segundóči enčí itočenaria piréči orasión. Čeriwéma amó puyeríčo.
+       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka { $retryLimit }segundóči enčí itóčenaria piréči orasión. Čeriwéma amó puyeríčo.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
