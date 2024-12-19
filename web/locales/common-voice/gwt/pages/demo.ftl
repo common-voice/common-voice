@@ -31,3 +31,4 @@ demo-listen-subtitle = تعاون کېرِکہ ݭڅی تیار تھنوا؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = ذاتی ڈېش بورڈز مے انفرادی اؤ کمیونِٹِیَنی پېش رفتَنہ بارا  اپ ٹو ڈېٹ درَمان۔
