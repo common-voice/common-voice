@@ -13,6 +13,7 @@ background-noise-tip-2 = [Nun si senti na parti dû testu]
 background-voices-explanation = N'anticchia di scrusciu di funnu va bonu, ma si poi sèntiri a n'autru cristianu parrari 'n manera distinta, a riggistrazzioni s'àv'a rifiutari. Chistu mmatti speci quannu unu si scorda a tilivisioni aḍḍumata, o quannu vicinu mmatti na cummirsazzioni.
 background-voices-example-1 = I dinusauri giaganti dû Triàssicu. [liggiutu di na vuci sula]
 background-voices-tip-1 = Stai vinennu? [chiamatu di n'autru]
+just-unsure-explanation = Si trovi quarchi cosa chi nun è cunzidirata di sti dirittivi, pi favuri vuta chiḍḍu chi penzi megghiu. Si nun sai dicidiri, sauta a frasi e vai â riggistrazzioni appressu.
 still-have-questions = Ài ancora dumanni?
 contact-common-voice = Cuntatta a squatra di Common Voice
 public-domain = Duminiu pùbblicu

@@ -24,7 +24,7 @@ new-sentence-rule-8 = A frasi àv'a èssiri naturali e discurrèvili (fàcili di
 login-instruction-multiple-sentences = <loginLink>Trasi</loginLink> o <loginLink>scrìviti</loginLink> pi jùnciri cchiù assai di na frasi
 how-to-cite = Comu fazzu na citazzioni?
 how-to-cite-explanation-bold = Metti nu nnirizzu URL o u nomu cumpletu di l'opra.
-how-to-cite-explanation = Si sunnu palori to, mètticci <italicizedText>“Autu-citazzioni”</italicizedText>. Ni serbi sapiri unni attruvasti stu cuntinutu accussì putemu virìficari chi è nnô duminiu pùbblicu e nun cci sunnu prubblemi di diritti d'auturi. P'aviri cchiù assai nfurmazzioni ncapu ê citazzioni, vidi i nostri <guidelinesLink>Lini guida</guidelinesLink>.
+how-to-cite-explanation = Si sunnu palori to, mètticci <italicizedText>“Autu-citazzioni”</italicizedText>. Ni serbi sapiri unni attruvasti stu cuntinutu accussì putemu virìficari chi è nnô duminiu pùbblicu e nun cci sunnu prubblemi di diritti d'auturi. P'aviri cchiù assai nfurmazzioni ncapu ê citazzioni, vidi i nostri <guidelinesLink>Dirittivi</guidelinesLink>.
 guidelines = Dirittivi
 contact-us = Cuntàttani
 add-sentence-success = 1 frasi ricugghiuta
@@ -107,6 +107,7 @@ add-small-batch-success =
         [one] { $uploadedSentences } di na frasi sula ricugghiuta
        *[other] { $uploadedSentences } di { $totalSentences } frasi ricugghiuti
     }
+small-batch-sentences-rule-1 = Sicuta i lini guida dâ sizzioni “Chi frasi pozzu jùnciri?”
 
 ## MENU ITEM TOOLTIPS
 

@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = Rividi i trascrizzioni mannati di l'ut
 
 listen-contribute-menu-aria-label = Minù dî scartati di scutari
 validate-readings-menu-item-aria-label = Virìfica i liggiuti mannati dî mèmmiri dâ cumunità
+review-transcriptions-menu-item-aria-label = Virìfica a currittizza dî trascrizzioni dî frasi riggistrati

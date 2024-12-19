@@ -135,5 +135,6 @@ contribution-volume-title = Vulumi
 contribution-reader-effects-title = Mmàttiti di littura
 contribution-reader-effects-description = A majurìa di riggistrazzioni sunnu di genti chi pàrranu câ so vuci naturali. Poi accittari a riggistrazzioni uccasiunali chi veni vuciata, murmurijata o riggistrata apposta nta na vuci "drammàtica". Pi favuri rifiuta riggistrazzioni cantati e chiḍḍi chi ùsanu na vuci ginirata dû computer.
 contribution-just-unsure-title = Ài dubbi?
+contribution-just-unsure-description = Si trovi quarchi cosa chi nun è cunzidirata di sti dirittivi, pi favuri vuta chiḍḍu chi penzi megghiu. Si nun sai dicidiri, sauta a frasi e vai â riggistrazzioni appressu.
 see-more = <chevron></chevron> Vidi cchiù assai
 see-less = <chevron></chevron> Vidi cchiù picca
