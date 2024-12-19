@@ -5,7 +5,7 @@ mic-access-error = تے مېکے اجازت دیؤں ہو تُھوْ
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = آں کتوک تِنا ھوئی تھو کھن تسیں جواب دے
 no-prompts-message = آس جِباں فلحال گی چھر نیتھو. تو گتہ ݜس کُھولاکرہ یا کم لکھ پتئں کوشش کرہ
-error-recording = ٹیپ کراں دی بِگی خرابی ایگے
+error-skipping = ݜَس بنئیل لکیل پھرہانس بگی نشیْ گا
 error-uploading-response = تیں جواب اُکھال ہان٘س بگ مسئلہ ایگے
 prompt-submitted-success = جواب کامیابی ہِن جمع ہُوگا
 prompt-response-deleted-success = جواب کامیابی ہِن الُو دگیلی
