@@ -42,3 +42,11 @@ sc-criteria-make-sure = اِیں یقین کراٞ اُوں جملہ داگاٞ�
 sc-criteria-item-1 = جملہ صحی چُنڑجینت۔
 sc-criteria-item-2 = جملہ گرامراٞں لحاظ دہ صحی چُنڑجینت۔
 sc-criteria-item-3 = جملہ ادا کرجاں۔
+sc-criteria-item-4 = لخہ جملہ طریقاٞ رہ پورہ تھو تے، &quot; رہ کلیک کٞر، منظور کٞروگاں &quot; بٹن لاڄھیم پِیڄ کٞہ تُھو۔
+sc-criteria-item-5-2 = لخہ جملہ رتہ داگاٞل طریقہ کاٞر رہ پورہ نانت تے، کلیک کٞر&quot; نامنظور کٞروگاں &quot; بٹن کھوری پِیڄ کٞہ تھو۔ لخہ تُو جملاٞں باراٞ مئی غیر یقینی تھو تے، تُو تھوکو پا آٞس چھیری دی کٞہ چو۔
+sc-criteria-item-6 = لخہ تھکے جائیزیں کیر جملاٞ لاٞست تے، تھوکو ما سہ ماربینی کاٞ دی جملاٞ جمع کٞر۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = پتہ ݭا <icon></icon>امی جملاٞں جیباں علیماٞں لحاٞظ دہ صحی تُھو آٞ؟
+sc-review-rules-title = جملاٞ طریقہ کاٞر رہ پُورہ تھو آٞ؟
+sc-review-empty-state = مُوٹو اِیں جِب مئے جائیزیں کیر دی جملاٞ نانت۔
+report-sc-different-language = دی جِب
