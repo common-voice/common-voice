@@ -26,3 +26,4 @@ sentence-domain = جملہ ستہ ڈومین
 citing-sentences-subheader-websites = ویب سائٹ
 citation =
     .label = حوالہ
+adding-sentences-subheader-spelling-punctuation-explanation = جمہ سئی ھجاء تہ بوستہ اسہ
