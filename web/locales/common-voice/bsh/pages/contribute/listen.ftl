@@ -1,4 +1,7 @@
+listen = کارتستہ
+listen-subtitle = کوٹہ ݜٹاستہ تہ ایمو مع دوئ وکݜاعݩ
 listen-instruction = امکی اینہ جملہ وݜچے ولہ بلہ آیہ?
+listen-again-instruction = دبارہ کار تہ اگر تیو تیار اسیشبا
 listen-3rd-time-instruction = ویعں ! اینہ جاری کشی<playIcon></playIcon>
 listen-last-time-instruction = اخر او<playIcon></playIcon>
 listen-empty-state = ایموستہ کلپس ممکنہ طور تہ لکہ بیسہ صفحہ نوئ کشی ، ستہ مع دوبارہ ابل کشی
@@ -20,3 +23,4 @@ review-transcriptions-menu-item-tooltip = سݣہ ستہ ݜاتیک کوستہ م
 
 listen-contribute-menu-aria-label = اوگعما پارستݩع جمع کعستہ عبارت تصدیق کشݩع
 validate-readings-menu-item-aria-label = ریکاڈ کعہ  جملہ ستہ سترئ سئی ایہ کہ جا ئزہ اݣݩع
+review-transcriptions-menu-item-aria-label = ریکاڈ کعہ جملہ ستہ نقل سئ کوستہ کں جائزہ اوݣع

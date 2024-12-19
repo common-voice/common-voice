@@ -6,7 +6,7 @@ mic-access-error = تے مېکے اجازہ دیوں ہو تُھو
 prompt-page-instruction = آں کتوک تِنا ھوئی تھو کھن تسیں جواب دے
 no-prompts-message = آس جِباں فلحال گی چھر نیتھو. تو گتہ ݜس کُھولاکرہ یا کم لکھ پتئں کوشش کرہ
 error-recording = ٹیپ کراں دی بِگی خرابی ایگے
-error-uploading-response = تیں جواب اُکھال ہان٘س بگ مسؽلہ ایگے
+error-uploading-response = تیں جواب اُکھال ہان٘س بگ مسئلہ ایگے
 prompt-submitted-success = جواب کامیابی ہِن جمع ہُوگا
 prompt-response-deleted-success = جواب کامیابی ہِن الُو دگیلی
 # For the button to delete a response to a prompt

@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Eg̃uahẽporã Spontaneous Speech-pe
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Prompt</mark>
 # text wrapped in <mark></mark> will have a blue background

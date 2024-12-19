@@ -1,25 +1,25 @@
-action-click = Klik yorapa
-action-tap = Puka
-contribute = Yooma pienapi apo kuyame
-review = Neene puuka
-skip = Umatote aampa
-shortcuts = Risaka umatoniame
+action-click = Klik yorapá
+action-tap = Uká
+contribute = Yomá pienápi ahpó kuyáme
+review = Nené pu'ká
+skip = Umátote ampá
+shortcuts = Risáka umátoniame
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> paikapi ivotetiame
-       *[other] <bold>{ $count }</bold> weika toatiame iyoteka
+        [one] <bold>{ $count }</bold> paikápi iyoténiame
+       *[other] <bold>{ $count }</bold> weiká toatiáme iyotéka
     }
-goal-help-recording = Čeriwema aamo kiyaine noo kuiretičo, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivoči diaričio grawandotiame { $goalValue }
-goal-help-validation = Čeriwema aamo kiyaine no'ó kuiretičo, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivoči diariočio taamo yoraria{ $goalValue }.
-contribute-more = Listoči netemia { $count } enčí.
-speak-empty-state = Teeme kiniwaega etipiru pu'ká frases taamo grawaomia ikači idiomači
-no-sentences-for-variants = Taamo močikači weyka naewasari intunapa .wekana comunidači
-speak-empty-state-cta = Epečé weika toamitia  pu'ká frases
-speak-loading-error = Kikawe mačenaru toaniame orasioniči. Weikačuri onepa toaka
-record-button-label = Amo grabandotane amo naewa
-share-title-new = <bold> ikachi </bold> grawaonia amo naewa
-keep-track-profile = Aatenamu puuka progreso perfil neteka
-login-to-get-started = Oinare sesión ...oinepa ibosiči toaka
+goal-help-recording = Čeriwéma amó kiyáine no'ó kuíretičo, Common Voice aséparetu <goalPercentage></goalPercentage> tamó, yorária objetiwóči yomá tawé rawaróatiame { $goalValue }
+goal-help-validation = Čeriwéma amó kiyáine no'ó kuíretičo, Common voice aséparatu <goalPercentage></goalPercentage>  tamó yorária objetiwoči yomá tawé tamó yorária{ $goalValue }.
+contribute-more = ¿Istoči netémia { $count } enčí?.
+speak-empty-state = Teme kiníwaeka etipíru pu'ká naiwátiame tamó rawaróatiame ikáči.
+no-sentences-for-variants = Tamó močikáči weiká nawésari intúnapa  weikaná ohoéniači
+speak-empty-state-cta = Epečé weiká toamítia  pu'ká frases
+speak-loading-error = Kikawé mačenáru toániame orasioníči. Weikáčuri oínepa toáka
+record-button-label = Amó rawaróatiame amó nawésari
+share-title-new = <bold> tamó kuí </bold>iyáka nawésari
+keep-track-profile = Netenámu pu'ká progreso perfil netéka
+login-to-get-started = Oínare sesion. Oínepa iyosíči toáka
 target-segment-first-card = Katimo taamoma colaborandomia taamo paača piripi yoratiame objetivoči
 target-segment-generic-card = Yo'ranimu ku'ika pi'repikuichi púka i'tapiti
 target-segment-first-banner = Ta'mó ku'i yo'raka pu'ká pa'ča yoraniame i'ka i'tapiti wa'a Common Voice wa'a
@@ -139,8 +139,8 @@ contribution-background-voices-example-1-explanation = ¿Wa'a inisina? <strong>[
 contribution-volume-title = Muenapu
 contribution-volume-description = I'ntunae na'pepateniame kita inowaeme. Ka'tenaki pu'ká ra'waroatiame pirepi pu'ká mo'enapuniame te'pa muenaputiame kitamo inamutiame, epečé e'peyo'raniame) ka'wetere eni'sopu ki kawé inamutena pu'ká če'tiame ki čaneka ne'netiame pu'ká toatiame yotetiame.
 contribution-reader-effects-title = We'kaka yoratiame pu'ká yo'tekame
-contribution-reader-effects-description = yo'ma ačitio tiempoči ra'waroatiame u'hupu e'nte naiwame a'po na'wesari nayawa kawé nakitaema rawaroriama wa'a tapitika čiači sinaka mo'enatičeka o re'yeroaka kawé naiwaka "u'matoteka". kinaki pu'ká ra'waroatiame itetatiame i wa'a yoratiame nabesariči to'niame kinakiwame  si'sioki netetiame
-contribution-just-unsure-title = ¿ki kawe na'neriame e'sinamu ?
+contribution-reader-effects-description = Yomá ačítio tiempóči ra'waróatiame uhúpu enté naiwáme ahpó nawésari nayawá kawé nakitáema rawaróriama wa'á tapitíka čiačí sináka móenatičeka o reyeroaka kawé naiwaka "umátoteka". Kinakí pu'ká rawaróatiame itétatiame i'wá yoratiame nabesariči to'niame kinakiwame  sisióki netetiáme
+contribution-just-unsure-title = ¿kikawé naneriáme enisámu ?
 contribution-just-unsure-description = i'si te'isa na'tepasa'a i'tapiti i'ji ne'tetiame ka'i kuipame yo'ra pirechimuna a'mo ka'we i'tachitia yotetiame. Isi pichiwa kintuso'o,  , u'saroa pu'ka ra'waroatiame,  i ka'chi isika ka'weintamane.
-see-more = </chevron></chevron>epečé weika
-see-less = <chevron></chevron>neene paykapi
+see-more = </chevron></chevron>Nenéniame weiká
+see-less = <chevron></chevron>Nenéniame paikápi
