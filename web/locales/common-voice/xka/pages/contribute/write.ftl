@@ -91,8 +91,16 @@ too-many-files = باڑ ذات فائلونی آس
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = ا لد اولسی جولال  پا ٹل تھا
 multiple-sentences-error = تو ا جولال کیر  باڑ  جوابونی نہ دیبون
 exceeds-small-batch-limit-error = زر جملا دا باڑ جمہ نہ تیبون
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] حد دا لنگییل۔۔۔۔ منٹ می دںراں ڈیز
+       *[other] وخ لنگیل ۔۔۔۔۔منٹ می دیراں ݭج
+    }
 
 ## MENU ITEM TOOLTIPS
 
