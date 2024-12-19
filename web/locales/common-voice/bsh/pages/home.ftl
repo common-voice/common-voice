@@ -74,9 +74,17 @@ read-more-about = ایمو بارا تہ صفحہ تہ مزید ولہ۔
 ## NAV ITEMS
 
 answer-questions = سوال جواب<small>(نوݜٹہ اڅہتی)</small>
+review-transcriptions = ٹرانکرپشن جائزہ کشی<small>(نوݜٹہ اڅہتہ)</small>
+add-questions = سوال سنا<small>(نوݜٹہ اڅہتی)</small>
+transcribe-audio = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
+press-and-stories = وسپلہ دے پرݩجیکہ
+community-and-languages = کمیونٹی (اوگعمہ) دے ورے
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = پلئی وار، وسپلہ، پرݩجیک، اوگعمہ(کمیونٹی) دے ورے
+partnerships-menu-item-tooltip = ایمو مع پلئے بو۔
+press-and-stories-menu-item-tooltip = ایموستہ بلاگ ایݩش کشی یا ایمو بارا تہ ستورا
 
 ## MENU ITEM ARIA LABELS
 
