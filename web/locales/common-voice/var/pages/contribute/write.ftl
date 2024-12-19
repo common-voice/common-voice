@@ -88,17 +88,17 @@ sc-bulk-submit-confirm = Nanérenane iká orasióne <wikipediaLink>yomaíčo en
 bulk-upload-success-toast = Weiká orasióne itóčeremu
 bulk-upload-failed-toast = Amó muenápuria kí'muenáre, enčí yoamítia
 bulk-submission-success-header = Čeriwema amó kiánine itóčekopa weiká orasióne
-bulk-submission-success-subheader = Katimu kuika Common Voice, asepamia taamo objetivoči orasioniči senepei diarioči neteniame
-upload-more-btn-text = Toaga epeče itaperi
-file-invalid-type = Kai nateame wa toatume
-file-too-large = Werumá huu wua toatume
-file-too-small = Bokawi huu wua toatume
-too-many-files = Weika toatiame arčivoči
+bulk-submission-success-subheader = Katímu kúika Common Voice, asépamia tamó objetiwóči orasióniči senepí yomá tawé neteniáme
+upload-more-btn-text = Toáka epéče itapéri
+file-invalid-type = Kaí nateyáme wa'á toátiame
+file-too-large = Werumá uhú wa'á toátiame
+file-too-small = Paikápi uhú wa'á toátiame
+too-many-files = Weiká toátiame arčiwóči
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = Toaga epečé itaperi tamo dominio publiko tamo naosarila
+small-batch-instruction = Nahpé weká orasióne tamó rominio ičíyo
 multiple-sentences-error = Kiánine itočpékopa weiká orasióne umatóteremu iwatíami. Enčí yoámitia pirépi minútoči.
 exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 orasiónes
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
