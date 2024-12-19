@@ -72,6 +72,12 @@ accepted-files = قبولگیل فائل لم اؘ قیسم ۔tsv ایلا۔
 minimum-sentences = فائلوں می اوشٹ دا اوشٹ جولال (1000)
 maximum-file-size = باڑ دا باڑ فائل ناپ 25 mb
 what-needs-to-be-in-file = توٹھ می فائل می اشل اؘ ضروت این۔
+bulk-upload-failed-toast = اوکلیل جاری تھا۔
+bulk-submission-success-header = تانی بلک جمع تھا می مدد تھال اؘ تی باڑ مربنی۔
+upload-more-btn-text = دی جولال پا اوکال۔
+file-invalid-type = کھچہ فائل
+file-too-large = فائل باڑ گن این۔
+file-too-small = فائل باڑ لوکٹ این۔
 
 ## SMALL BATCH SUBMISSION
 
