@@ -1,5 +1,6 @@
 ## Prompts page
 
+error-skipping = Oiko jejavy emboykekuévo ko ñe’ẽmondo
 # For the button to delete a response to a prompt
 delete = Mboguete
 # For the disabled button on a prompt that indicates a prompt is already submitted
