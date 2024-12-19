@@ -75,3 +75,5 @@ variant-contribution-options-header = شراکتے مختلف آپشنز
 variant-contribution-help = کوئے جِب یا جِبوخاندان مجیْ کوئے قسمہ یا لہجائے ایْک مُتوجیْ مختلف بینَن۔ اگر څھوْڑ کوئے خاص قسم سے میشِیون دہ گران بِینیْ توْ ادی تومیْ ترجیحات تبدیل تھوبانَت۔
 variant-contribution-option-1 = موْڑ می جِب دہ موجود تمام قسمو جُملائے گہ کلپس پشِیا
 variant-contribution-option-2 = موْڑ صرف می متغیرو سے جملائے گہ کلپس پشِیا
+variant-contribution-warning-title = چیئے بُجَیش بُٹہ جُملائے گہ کلپو مجیْ مختلف ٹیگیْ نِش
+variant-contribution-warning-subtitle = اگر څھوْڑ تعاون تھون دہ گران لیل بِینیْ، توْ څھوْ کھاں گہ وخ دہ تومیْ جِبے مواد پشون واپس بوجبانَت
