@@ -96,5 +96,5 @@ recordings =
 validations =
     { $count ->
         [one] تصدیق
-       *[other] تصدیق
+       *[other] تصدیقات
     }
