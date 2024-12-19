@@ -67,6 +67,7 @@ sc-bulk-upload-header = عوامی ڈومین جولال اوکلا
 sc-bulk-upload-instruction = اوکلیل کیر تہ ٹسار دیل کیر تانی فائل اومات دیرکالا
 sc-bulk-upload-instruction-drop = فائل اوکالیل کیر اوما چھورا۔
 bulk-upload-additional-information = تو آوں فایل بارہ می دی  پا بتہ دون تےماریبینی تا اساں لہ
+template-file-additional-information = اسی ٹمپلیٹ فاییل  نالہ۔تسے جولا کاپی رایٹ فری بیدہ۔تگریمیٹیکلی  صفا بیدہ تے منیل تہ سگار اشہ
 try-upload-again = تانی فائل اوماتھ دیرکیلی تھ دیرا کوشش تھ
 try-upload-again-md = دیرا اوکالیل اؘ کوشش تھ۔
 select-file = فائل حوشا۔
@@ -88,6 +89,9 @@ too-many-files = باڑ ذات فائلونی آس
 
 ## MENU ITEM TOOLTIPS
 
+add-questions-menu-item-tooltip = تانی جیب می سوالونی پا ٹل تا
+transcribe-audio-menu-item-tooltip = تانی جیب اے°اڈیو ریکارڈنگ ٹرانسکراییب تہ
 
 ## MENU ITEM ARIA LABELS
 
+add-sentences-menu-item-aria-label = تانی خلق ام کیر نوم نوم جولال  چݨا
