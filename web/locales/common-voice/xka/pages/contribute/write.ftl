@@ -69,6 +69,9 @@ try-upload-again-md = دیرا اوکالیل اؘ کوشش تھ۔
 select-file = فائل حوشا۔
 select-file-mobile = فائل حوشا تھ اوکالا۔
 accepted-files = قبولگیل فائل لم اؘ قیسم ۔tsv ایلا۔
+minimum-sentences = فائلوں می اوشٹ دا اوشٹ جولال (1000)
+maximum-file-size = باڑ دا باڑ فائل ناپ 25 mb
+what-needs-to-be-in-file = توٹھ می فائل می اشل اؘ ضروت این۔
 
 ## SMALL BATCH SUBMISSION
 
