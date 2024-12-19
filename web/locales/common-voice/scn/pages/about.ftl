@@ -43,8 +43,12 @@ about-clip-graveyard-text =
     
     Vulìssimu diri grazzi a sti cristiani e st'urganizzazzioni pû so ajutu cû pruggettu:
 about-get-involved = Cullàbbura cu nuiautri
+about-get-involved-text-2 =
+    Ni vo' ajutari a fari Common Voice ancora megghiu?
+    Accussì si fa! Cuntàttani cu n'e-mail o nne <discourseLink>Discourse</discourseLink>, signalija i prubblemi dû situ nne <githubLink>GitHub</githubLink> o jùnciti â chiacchiarijata dâ cumunità nne <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comu pozzu arristari attualizzatu?
 about-stay-in-touch-button = Riggìstrati
+about-stay-in-touch-text-2 = Canusci autri genti dâ cumunità linguìstica di Mozilla juncènnuti a <discourseLink>Discourse</discourseLink> pî discurruti longhi, o a <matrixLink>Matrix</matrixLink> p'aviri un cunzigghiu lestu.
 about-nav-why-common-voice = Picchì?
 about-nav-how-it-works = Comu?
 about-nav-partners = Assuciati
