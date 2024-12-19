@@ -1,150 +1,150 @@
 ## WRITE PAGE
 
-write = Ereka hu osinime
-write-instruction = Toaga<icon></icon> pile naosari wa dominio publiko
-write-page-subtitle = Orasioniči manitoame programači kawisita komo konjuntočitia toaniame datos licenciači cc-0, Disponibleči iniwae puka publikoči simiyame
+write = yotéka
+write-instruction = Toáka wa'á<icon></icon> piré naósari wa'á rominio publiko
+write-page-subtitle = Orasioníči manitóame programači kawísita komo konhuntočitiá toaniáme datos lisensiači cc-0, Disponibleči iniwáe pu'ká publikóči simíyame
 sentence =
-    .label = Itaperi čee wame
-sentence-input-placeholder = Toaga i'wá naosari dominio publiko uka itaperi
-small-batch-sentence-input-placeholder = Toega i'wá nati itaperi dominio publiko
-citation-input-placeholder = Ereka  toaga peja uka kanamu  najuka uka itaperi. Nateameju buu čee wam
+    .label = Itapéri čee wáme
+sentence-input-placeholder = Toáka i'wá naósari rominio publiko uká itapéri
+small-batch-sentence-input-placeholder = Toáka i'wá nati itapéri rominio publiko
+citation-input-placeholder = Eréka toáka péha uká kanámu na'juká uká itapéri. U'téwáči
 citation =
-    .label = I'wá toamitia pu'ká siita
-sc-write-submit-confirm = Ereka čani wa itaperi <wikipediaLink>dominio publiko</wikipediaLink>, Kainega itamira motepumina uka itaperi
-sc-review-write-title = Čirime najumeree
-sc-review-small-batch-title = Čireka toawame juu wueka
-new-sentence-rule-1 = Ki iniwaeme obstáculos tewaniame ni apo derecho ba naateteniame puka autor
-new-sentence-rule-2 = Čireka osiwame juu bokawi pile mariki naosari
-new-sentence-rule-3 = Yoamitia pukaá gramátika kawetíamé
-new-sentence-rule-4 = Ukané letrá y puntuacioné kawetíamé
-new-sentence-rule-5 = Kité numeroó yoma akaná illoteniačy
-new-sentence-rule-6 = Ywa intume tamo naosarila
-new-sentence-rule-7 = Illotemia kawetíamé  akaná ukamu orasioné
-new-sentence-rule-8 = Oracioniči maniame natural inimeta taamo naewamia,,(ki teki inimičo leyendoka)
-login-instruction-multiple-sentences = <loginLink>oinepa sesion neteka</loginLink><loginLink>registrandosa </loginLink>eme weika  oracioni netepaičo
-how-to-cite = Itaná yoaga iyotemané akaná mačihipagane orasione
-how-to-cite-explanation-bold = Sitači pii enlaseči URL o iyotega yoma tewa obrači
-how-to-cite-explanation = Muú isiremú nawesagá owerá čaní  <italicizedText>"Autosita"</italicizedText>. nanerenané akaná teikamú iká kontenido nenemía si pičiwua ujupú yomá henteičó, Kí aplikandona restriksiones de derečo de autor. Espečé itapití nenenaria sitaičo nenemitia tamó<guidelinesLink> pagina</guidelinesLink>
-guidelines = Weiká reglačy
-contact-us = Tamo peha ino
-add-sentence-success = Nawesari ra'waroatiame utiame wa'a nayawaniači
-add-sentence-error = Wekaremú yáčega orasioné
-required-field = Kaweruma eraga amo čanene iwá iyotemičó
-single-sentence-submission = Amó nehario pile naosari
-small-batch-sentence-submission = Itočeniame orasioni yoomaga pienapi kaakaporame
-bulk-sentence-submission = Uhuragane weika orasioné
-single-sentence = Kí aká induame orasioné
-small-batch-sentence = Yomá nuhutí
+    .label = I'wá toamítia pu'ká siita
+sc-write-submit-confirm = Eréka ča'ní wa'á itapéri <wikipediaLink>dominio publiko</wikipediaLink>, Káinega i'tamíra motepúmina uká itapéri
+sc-review-write-title = ¿Čirimé nahumére?
+sc-review-small-batch-title = ¿Ačiná yoráka napéniame wéka orasióne?
+new-sentence-rule-1 = Ki iniwaéme obstáculos tewaniáme ni ahpó derecho ba nateteniáme pu'ká autor
+new-sentence-rule-2 = Osa 15 nawésari pu'ká orasión.
+new-sentence-rule-3 = Yoamítia pu'ká gramátika kawétiame
+new-sentence-rule-4 = Ukané letrá y puntuacioné kawétíame
+new-sentence-rule-5 = Kité numeró yomá akaná iyoténiači
+new-sentence-rule-6 = I'wá intúme tamo naósarira
+new-sentence-rule-7 = Iyotémia kawétiame  akaná ukámu orasióne
+new-sentence-rule-8 = Oracioniči maniáme natural iniméta tamó naewámia,,(ki'tekí inimíčo leyendóka)
+login-instruction-multiple-sentences = <loginLink>oi'népa sesión netéka</loginLink><loginLink>apóto aniáme </loginLink> Napéniame weká orasióni
+how-to-cite = ¿Ihtána yoáka iyotemané akaná mačihipakáne orasióne?
+how-to-cite-explanation-bold = Sítači pií enlaseči URL o iyotéka yomá tewá obráči
+how-to-cite-explanation = Muú isiremú nawésaká owerá čaní  <italicizedText>"Autosita"</italicizedText> Nanerenané akaná teikámu iká konteniro nenémia si pičiwuá uhúpu yomá enteičó, Kí aplikanrona restriksiones de derečo de autor. Espéče itapíti nenénaria sitaíčo nenémitia tamó<guidelinesLink> pahiná</guidelinesLink>
+guidelines = Weiká regláči
+contact-us = Tamó péha inó
+add-sentence-success = Nawésari ra'waroatiáme utiáme wa'á náyawaniači
+add-sentence-error = Wekáremu yotéka orasióne
+required-field = Kawéruma eráka amó čanéne i'wá iyotemíčó
+single-sentence-submission = Amó nehário piré naósari
+small-batch-sentence-submission = Itočeniáme orasióni yomáka pienápi ka'kapórame
+bulk-sentence-submission = Uhurákane weiká orasióne
+single-sentence = Ki'aká intuáme orasioné
+small-batch-sentence = Yomá nu'úti
 bulk-sentence = Yomá werumá
-sentence-domain-combobox-label = Teema pu'ká orasioni
-sentence-domain-select-placeholder = Selecionapa asta paika teema. (yoraniame).
+sentence-domain-combobox-label = Naiwániame pu'ká orasóni
+sentence-domain-select-placeholder = Toapá ahtá paiká tema. (yoraniáme).
 # Sentence Domain dropdown option
-agriculture_food = Agrikulturači y kokowaniame
+agriculture_food = Ečiwáme i koiwáme
 # Sentence Domain dropdown option
-automotive_transport = Karroči oiyame yoma camiónči oiyame
+automotive_transport = Trokéči oiyáme yomá camioníči oiyáme
 # Sentence Domain dropdown option
-finance = finansiadoniame
+finance = finansiaroaniáme
 # Sentence Domain dropdown option
-service_retail = Puka, paipaki tewaniame
+service_retail = Pu'ká paipáki tewaniáme
 # Sentence Domain dropdown option
-general = Yoma amó nawesari
+general = Yomá amó nawésari
 # Sentence Domain dropdown option
-healthcare = Kaweruma yasiniamé
+healthcare = Kawéruma yasiniáme
 # Sentence Domain dropdown option
-history_law_government = Gente nawesari , Tamó derečoči yoma gobiernočy
+history_law_government = Enté nawésari, Tamó derečóči yomá obiernóči
 # Sentence Domain dropdown option
-language_fundamentals = Tamoó nawesarí
+language_fundamentals = Tamó nawésarí (número, nawésari, toomí)
 # Sentence Domain dropdown option
-media_entertainment = Gente induačí y gente neneačí itapitií
+media_entertainment = Enté intuáčí y enté neneáčí itapíti
 # Sentence Domain dropdown option
-nature_environment = Yomá itapiči induačí  i animaríy sewa induačí
+nature_environment = Yomá itapíči intuáčí  i animári sewá intuáčí
 # Sentence Domain dropdown option
-news_current_affairs = Tamó čaneníame i yomá umatoamé kuwé
+news_current_affairs = Tamó čanéniame i yomá umátoame kuwé
 # Sentence Domain dropdown option
-technology_robotics = henté yoame i henté yoame itapití apoe nonoame
-sentence-variant-select-label = Na watiamé uhúpú orasioné nawesarí pirečy ohoegai henté. Weiká orasioné induamé
-sentence-variant-select-placeholder = Usaá puká  capó nawesari pireči henté mičikačí. Yoraniame
-sentence-variant-select-multiple-variants = Nawesari yomá / weikaá uhupú kapó
+technology_robotics = Enté yoáme i enté yoáme itapíti apoe nonoame
+sentence-variant-select-label = Na'iwátiame uhúpu orasióne nawésari piréči ohoékači enté. Weiká orasióne intuáme
+sentence-variant-select-placeholder = Usaá pu'ká nawésari piréči enté močikačí. (yoraniáme)
+sentence-variant-select-multiple-variants = Nawésari yomá / weiká uhupú kapó
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Muenapu fraase dominio publikandoka<icon></icon>
-sc-bulk-upload-instruction = muenapu pu'ká arčivo i'wá, klik yoraka kargandomia
-sc-bulk-upload-instruction-drop = Nasonamia pu'ká arčivoči maniame umatotemia programači
-bulk-upload-additional-information = Sii maniso epeče informasióni, sii muu kianaria ikači arčivoči maniame,   naewasamitia <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = Sii maniso epee información adisional si naewasanaria, pukači arčivo ki manitoame ki inkluyendotiame plantillači, naewasamitia ki manitosa<emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = Yoá enči, panisugá amó arčivo i'wá
-try-upload-again-md = Enči muenapú tepá pu'ká (arčivo)
-select-file = Nasona uka toatume wua
-select-file-mobile = Naa hugó sé enči wua toaga uka itaperi
-accepted-files = Číntíamé oserí nakíwame uhúpú waá .tsv
-minimum-sentences = kantidaba minima orasioni yoratiame arčivoči: 1000
-maximum-file-size = Espečé werumá arčivo kesčumá: 25 MB
-what-needs-to-be-in-file = ¿itaná nakí inibaemia noó oseri?
-what-needs-to-be-in-file-explanation = Iyapá ta'mo ka'teweriači waapuka kawe <templateFileLink>nateyame.</templateFileLink>a'mo orasioniwa e'nimapu yora'tiame a'hámina pu'u ne'tekame (CCO o te'ki pa'cha yoratiame nu'retiame pu'ka yo'rame'e, eniniame máčiame ka'we yo'raka yoratiame kawetiame, kitekitiame pu'u reyeroania, pu'u orasioni i'točetiame enimapu kitepe'enipaniame 10 i 15 mari'ki ku'we reyeroamia.
-upload-progress-text = Puyegá pehí muenapunía
-sc-bulk-submit-confirm = Nanerenané iká orasioné <wikipediaLink>yomaičó henté </wikipediaLink>ihupú yomá inibaené permiso muenapumía
-bulk-upload-success-toast = Weiká orasioné itočeremú
-bulk-upload-failed-toast = Amó muenapuriá kí muenaré, enči yoamitiá
-bulk-submission-success-header = Čeriwema amó kianiné itočegobá veiká orasioné
-bulk-submission-success-subheader = Katimu kuika Common Voice, asepamia taamo objetivoči orasioniči senepei diarioči neteniame
-upload-more-btn-text = Toaga epeče itaperi
-file-invalid-type = Kai nateame wa toatume
-file-too-large = Werumá huu wua toatume
-file-too-small = Bokawi huu wua toatume
-too-many-files = Weika toatiame arčivoči
+sc-bulk-upload-header = Muenápu frase dominio publikandóka<icon></icon>
+sc-bulk-upload-instruction = Muenápu pu'ká arčíwo i'wá, klik yoráka kargandómia
+sc-bulk-upload-instruction-drop = Nasónamia pu'ká arčiwóči maniáme umatotémia programáči
+bulk-upload-additional-information = Sii manisó ehpé nformasión adicional, sii naewásanaria púkači arčiwóči, ayéwa pu'ká ahama <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Sii manisó ehpé información adisional si naewásanaria, púkači arčivo ki'manitoáme ki'inkluyendotiáme plantillači, naewasamitia ki'manitósa<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Yorá enčí panisúká amó arčiwó i'wá
+try-upload-again-md = Enči muenapú tepá pu'ká (arčiwó)
+select-file = Nasóna uká toatiáme
+select-file-mobile = Naa huká enčí wa'á toáka uká itapéri
+accepted-files = Síntíamé oserí nakiwáme uhúpu wa'á .tsv
+minimum-sentences = pukéki orasióni yoratiame mačičiáme arčiwóči: 1000
+maximum-file-size = Espéče werumá arčiwó kesčúma: 25 MB
+what-needs-to-be-in-file = ¿itaná nakí iniwaémia no'ó oserí?
+what-needs-to-be-in-file-explanation = Iyapá tamó ka'tewériači wa'á pu'ká kawé <templateFileLink>nateyáme.</templateFileLink>amó orasióniwa enimápu yoratiáme a'hámina puú netekáme (CCO o teki pácha yoratiáme nuretiáme pu'ká yoráme, eniniáme máčíame kawé yoráka yoratiáme kawétiame, kitékitiame puú reyéroania, puú orasióni itóčetiame enimápu kitepé enipániame 10 i 15  kuwé reyeroámia. Kiyoraméte napéka numerós, apótewa iniwaéka nateyáme.
+upload-progress-text = Puyéka pehí muenápunia
+sc-bulk-submit-confirm = Nanérenane iká orasióne <wikipediaLink>yomaíčo enté </wikipediaLink>ihípu yomá iniwaéne permiso muenápunia
+bulk-upload-success-toast = Weiká orasióne itóčeremu
+bulk-upload-failed-toast = Amó muenápuria kí'muenáre, enčí yoamítia
+bulk-submission-success-header = Čeriwema amó kiánine itóčekopa weiká orasióne
+bulk-submission-success-subheader = Katímu kúika Common Voice, asépamia tamó objetiwóči orasióniči senepí yomá tawé neteniáme
+upload-more-btn-text = Toáka epéče itapéri
+file-invalid-type = Kaí nateyáme wa'á toátiame
+file-too-large = Werumá uhú wa'á toátiame
+file-too-small = Paikápi uhú wa'á toátiame
+too-many-files = Weiká toátiame arčiwóči
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = Toaga epečé itaperi tamo dominio publiko tamo naosarila
-multiple-sentences-error = Kí weika orasioné toiná uhuramičó envioči sensiyoičó
-exceeds-small-batch-limit-error = Kí no toarú itočemičo epečé 1000 orasiones
+small-batch-instruction = Nahpé weká orasióne tamó rominio ičíyo
+multiple-sentences-error = Kiánine itočpékopa weiká orasióne umatóteremu iwatíami. Enčí yoámitia pirépi minútoči.
+exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 orasiónes
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí.  Enči yoamitiá  piripi munitoči
-       *[other] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí.  Enči yoamitiá  { $retryLimit } munitoči
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami.  Enči yoámitia  piripi munútoči
+       *[other] Kianiné itočekopá weiká orasión umatóteremu iwatíami.  Enči yoámitia  { $retryLimit } minútoči
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí, enči yoamitiá piripi segundoči.
-       *[other] Čeriwema amó kianiné itočegobá veiká orasioné umatoteremú iwatiamí, enči yoamitiá { $retryLimit } segundoči.
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia pirípi segundóči.
+       *[other] kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia { $retryLimit } segundóči.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá pii munitočy enčí itočemaria pirečy orasión.  ¡Čeriwema amó puyeriačó!
-       *[other] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá { $retryLimit } munitoči enčí itočemaria pireči oración.  ¡Čeriwema amó puyeriačó!
+        [one] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka pií minútoči enčí itóčenaria piréči orasión.  ¡Čeriwéma amó puyeríčó!
+       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyeká { $retryLimit } munitoči enčí itočemaria pireči oración.  ¡Čeriwéma amó puyeríčó!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá pii segundoči enčí itočemaria pirečy orasión. Čeriwema amó puyeriačó.
-       *[other] Umatoteremú enkaantí amoó uhurariá iká paginači. Puyegá { $retryLimit }segundoči enčí itočemaria pireči orasión. Čeriwema amó puyeriačó.
+        [one] Umatóteremu ékanati amó uhúraria iká pahináči. Puyéka pií segundóči enčí itočenaria piréči orasión. Čeriwéma amó puyeríčo.
+       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka { $retryLimit }segundóči enčí itóčenaria piréči orasión. Čeriwéma amó puyeríčo.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } oña 1 Orasioné kawetíamé
-       *[other] { $uploadedSentences }oña { $totalSentences }orasioné kawetíamé
+        [one] { $uploadedSentences } ónia  1 orasión kawétiame
+       *[other] { $uploadedSentences }ónia { $totalSentences }orasióne kawétiame
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } oña pii orasión čapitiamé. <downloadLink> Iva</downloadLink> Čečemitia puká tekipumiá orasiones itaná nakitiamè
-       *[other] { $uploadedSentences } oña{ $totalSentences }orasión čapitiamé. <downloadLink>Iva</downloadLink> Čečemitia puká tekipumiá orasiones itaná nakitiamè
+        [one] { $uploadedSentences } ónia pií orasión kawétiame. Clik yorápa <downloadLink> i'wá</downloadLink> Čečemítia pu'ká tekipúmia orasióne ikinakitiáme
+       *[other] { $uploadedSentences } ónia { $totalSentences }orasión kawétiame. Clik yorápa<downloadLink>I'wá</downloadLink> Čečemitia pu'ká tekipúmia orasióne iitinakitiáme
     }
-small-batch-sentences-rule-1 = Simetepa pautandoka, ¿istana orasioni toetaria agregandoka?
-small-batch-sentences-rule-2 = Toametamu orasioni risaka lineači
+small-batch-sentences-rule-1 = Simetépa pautandóka, ¿istána orasióni napétaria?
+small-batch-sentences-rule-2 = Toamétamu orasioni risáka rineáči
 small-batch-sentences-rule-3 =
-    Toamitiá orasioné pii enči pii lineači ,
-    Ninimitia pii lineači toika pii lineači pireči
-small-batch-sentences-rule-4 = Weika nahuwe pile miri naosari
-small-batch-sentences-rule-5 = Yomá pu'ká orasioné waátiamé temači inemetaá
-small-batch-sentences-rule-6 = Yomá orasioné itania inibaemičo piíčé akaná oyaniá i nenemía akaná tamó iyagó
+    Toámitia orasióne píi enčí pií rineáči ,
+    Ninímitia pirípi rineáči toíka pirípi rineáči piréči
+small-batch-sentences-rule-4 = Weiká napé 1.000 naósari
+small-batch-sentences-rule-5 = Yomá pu'ká orasióne waátiame témači inemetaá
+small-batch-sentences-rule-6 = Yomá orasióne iyánia iniwáemičo pirečí akaná iyánia i nenémia akaná tamó yorá
 
 ## MENU ITEM TOOLTIPS
 

@@ -52,7 +52,10 @@ first-cta-gender-select-help-text =
     .label = Comu discrivissi u to gèniri?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Grazzi chi ni dunasti a to vuci!
+already-have-an-account = Ài già un cuntu? <login>Trasi</login>
 create-profile-button = Cria un prufilu
+# IMAGE TAGS
+img-alt-success-checkmark = mercu di successu
 # menu item
 read-sentences = Leggi i frasi
 
@@ -65,3 +68,5 @@ answer-questions-menu-item-tooltip = Riggìstrati mentri chi arrispunni a dumann
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Minù dî scartati vucali
+read-sentences-menu-item-aria-label = Leggi frasi mannati dâ cumunità nna assai lingui
+answer-questions-menu-item-aria-label = Manna na nova dumanna â cumunità pi fariccilla lèggiri e aviri na risposta

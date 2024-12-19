@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = Сыт щхьэкӏэ Common Voice?
+how-does-it-work-title-v2 = Common Voice-р дауэ лажьэрэ?
 
 ## How does it work section
 

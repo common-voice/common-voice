@@ -1,68 +1,68 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Iyéta pehí kitu'ímo ihtána na'wésari naiwámia. Kawé simiká ne'néme <profileLink>wa'á perfireči</profileLink>  pa'ké tu'taí pirípi o we'ká na'wésari na'iwámia.
-sc-review-title = Rebisandomia pu'ká orasioni
-sc-review-loading = Umatoteniame orasioni pu'ká programači
-sc-review-select-language = Usá pii nawesari nenémičó orasioné
-sc-review-no-sentences = Kite waasi o'rasioni  pu'ká ne'neniame. <addLink> Na'peniame epečé o'rasioni</addLink>
+sc-review-lang-not-selected = Iyéta pehí kitu'ímu ihtaná nawésari naíwamia. Kawé simiká ne'néme <profileLink>wa'á perfiréči</profileLink>  paké tu'taí pirípi o weká nawésari naíwamia.
+sc-review-title = Rewisaróamia pu'ká orasióni
+sc-review-loading = Umátoteniame orasióni pu'ká programáči
+sc-review-select-language = Usá pirípi nawésari nenémičó orasióne
+sc-review-no-sentences = Kite waási orasióni  pu'ká neneniame. <addLink> Napéniame epečé orasióni</addLink>
 sc-review-form-prompt =
-    .message = Ka'i ito'čena pu'ká ne'netiame, ¿piči'wá čani'mú?
+    .message = Ka'i itóčena pu'ká nenétiame, ¿pičíwa čanimú?
 sc-review-form-usage =
-    Ri'siitate wa'a a'jámina pu'ká yorapame. Ri'siitate wa'a jo'wena'mina pu'ká kinakika.  Ri'siitate wa'a o'wepoté puka u'matoteka. <strong>
-    ka'te na'tekepa pu'ká itočemia amo ne'neria</strong>
+    Risiítate wa'á ahámina pu'ká yorapáme. Risiítate wa'á howenámina pu'ká kinákika.  Risiítate wa'á owépote pu´ká umatotéka. <strong>
+    kate natékepa pu'ká itóčemia amó nenéria</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = Akana mačijipakamu{ $sentenceSource }
-sc-review-form-button-reject = Ki'nakitiamé
-sc-review-form-button-skip = Umatote aampa
-sc-review-form-button-approve = Yorame
+sc-review-form-source = Akaná mačihípakamu{ $sentenceSource }
+sc-review-form-button-reject = Kinakitiáme
+sc-review-form-button-skip = Umátote aampá
+sc-review-form-button-approve = Yoráme
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = S
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
-sc-review-form-keyboard-usage-custom = Ka'awe usaroamamu kiteperuma tachuchaniame; puka{ sc-review-form-button-approve-shortcut }yorame ; { sc-review-form-button-reject-shortcut } kinakimia i{ sc-review-form-button-skip-shortcut }  ni'nia
+sc-review-form-keyboard-usage-custom = Kawé usaróamamu kitepéruma tačičániame pu'ká: { sc-review-form-button-approve-shortcut }yoráme,{ sc-review-form-button-reject-shortcut } kinakimiá, i { sc-review-form-button-skip-shortcut }  ninímia
 sc-review-form-button-submit =
-    .submitText = Ka'juka pu'ká re'wisaroaka
+    .submitText = Kahuka pu'ká rewisaróaka
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] piripioi o'rásioni reewisaroatiame
+        [0] pirípiói orasióni rewisaróatiame
         [one]
-            Piripi o'rásioni rewisaroatiame  
-            ¡čeriwe'ma!
+            Pirípi orasióni rewisaróatiame  
+            ¡Čeriwéma!
        *[other]
-            { $sentences } o'rásioni revi'saroatiame
-            ¡čeriwe'ma!
+            { $sentences } orasióni rewisaróatiame
+            ¡Čeriwéma!
     }
-sc-review-form-review-failure = Kíkatewere amo yoariá. Enčí yoamitiá ehebá
-sc-review-link = Neneniame
+sc-review-form-review-failure = Kíkátewere amó yoária. Enčí yoamítia ehépa
+sc-review-link = Neneniáme
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = Yo'raniame pu'ká revisaroaniame
-sc-criteria-title = Yo'raniame pu'ká revisaroaniame
-sc-criteria-make-sure = Yoma o'rasioni itomete kumpiaroamia yo'má a'hama si'miyame yo'raka:
-sc-criteria-item-1 = I'hi na'wesari e'nimapu kawé yo'tetiame ka'wetiame
-sc-criteria-item-2 = Pu'u orasioni  enimápu kawé yo'oraka yo'ratiame kawé'tiame
-sc-criteria-item-3 = Ihi na'wesari eni'mapu túka mačitaniame
-sc-criteria-item-4 = E'he ika o'rásioni kumpiorani pu'ká yo'rá , wa'a &quot; yo'rapame &quot; wa'a a'hamina
-sc-criteria-item-5-2 = E'hee ika o'rásioni ka'i kumpiaroaso pu'ká yo'rá, ta'čina &quot; kina'kiwame &quot;, wa'a ho'wenamina e'hee kina'neria ka'wé.  Kaweni'ni i u'mató wa'a pirenači
-sc-criteria-item-6 = ki'tio epečé wa'asi  o'rasioni pu'ká i'tapiti, ¡ I no'kui wa'a u'ka e'pečé orasioni!
+sc-criteria-modal = Yoraniáme pu'ká rewisaróaniame
+sc-criteria-title = Yoraniáme pu'ká rewisaróaniame
+sc-criteria-make-sure = Yomá orasióni itométe kumpiaróamia yomá aháma si'miyáme yoráka:
+sc-criteria-item-1 = Ihí nawésari enimápu kawé yotétiame kawétiame
+sc-criteria-item-2 = Puú orasióni  enimápu kawé yoráka yorátiame kawétiame
+sc-criteria-item-3 = Ihí nawésari enimáputuka mačitániame
+sc-criteria-item-4 = Iká orasióni kumpiórani pu'ká yo'rá wa'á &quot; yorapáme &quot; wa'á ahámina
+sc-criteria-item-5-2 = Iká orasióni ka'á kumpiaroáso pu'ká yo'rá, tačína &quot; kinakiwáme &quot;, wa'a ho'wenámina, kinanéria kawé.  Ninímamu umatotemia wa'á pirenači
+sc-criteria-item-6 = Kitió epečé waási  orasióni pu'ká itapití, ¡ I nokúi wa'a uká epečé orasióni!
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Tu'niame<icon></icon>i'hi u'hu piripi o'rásioni na'yawoaniame ka'wé
-sc-review-rules-title = ¿u'u orasioni kum'piaroania pu'ká apo yo'rá?
-sc-review-empty-state = E'peo pi'čiwači ki'te ne'neniame pu'ká re'wisaroatiame e'pe ika na'wesariči
-report-sc-different-language = Pireči naewasari
-report-sc-different-language-detail = Baatía iyoterepú pirečí idioma kí no'o neneačí
-sentences-fetch-error = Inture piripi weka tiame waa iyaniači orasioni
-review-error = Inture piri'pi wekatiame wa'a re'wisaroaniači i'ká orasióni
-review-error-rate-limit-exceeded = U'matoka i'weta siminamu. Sipu ku'itapi pu'ka re'wisaroamia o'rásioni,  ka'wenanereka yo'raka ka'wetiame
+sc-review-instruction = Tuniamé<icon></icon>ihí u'hú pirípi orasióni nayawoániame kawé
+sc-review-rules-title = ¿Puú orasióni kum'piaróania pu'ká ahpó yorá?
+sc-review-empty-state = Ehpéo pi'čiwáči ki'té ne'néniame pu'ká re'wisaróatiame ehpé iká nawésariči
+report-sc-different-language = Piréči nawésari
+report-sc-different-language-detail = Waátia iyoterepú piréčí nawésari kí no'ó nenéačí
+sentences-fetch-error = Intúre pirípi wekatiáme wa'á re'ewisaróamia iyaniači orasioni
+review-error = Intúre pirípi wekatiáme wa'á re'wisaroanči i'ká orasióni
+review-error-rate-limit-exceeded = Umátoka iwéta siminámu. Sipu kuítapi pu'ká re'wisaróamia orasióni,  kawánanereka yoráka kawétiame
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Močiwite'me yora'ka werumá Ka'weintapaká
-sc-redirect-page-subtitle-1 = Iče'pači wa'a o'inia no'kani wa'a o'ineaniači oičaka wa'a Common Voice. E'peo kawe <writeURL>yótemamu</writeURL> piripi o'rásioni.<reviewURL> Re'wisaroa </reviewURL>i'točetiame pu'ká o'rásioni pi'neri wa'a Common Voice
-sc-redirect-page-subtitle-2 = Támo i'natuke <matrixLink>matrix</matrixLink><discourseLink>na'iwaniame</discourseLink> o <emailLink>emairiči</emailLink>
+sc-redirect-page-title = Močiwitéme yoráka werumá kaweintapáka
+sc-redirect-page-subtitle-1 = Sentence Collector ičépači wa'a o'ínia no'kaní wa'á o'inéaniači oíčaka wa'á Common Voice. Ehpéo kawé <writeURL>yotémamu</writeURL> pirípi orasióni.<reviewURL> Re'wisaroa </reviewURL>i'tóčetiame pu'ká orasióni pinéri wa'á Common Voice
+sc-redirect-page-subtitle-2 = Tamó i'natúke <matrixLink>matrix</matrixLink><discourseLink>na'iwániame</discourseLink> o <emailLink>emairíči</emailLink>
 # menu item
-review-sentences = Revisandomia pu'ká orasioni
+review-sentences = Re'wisaróamia pu'ká orasióni
