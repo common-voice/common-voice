@@ -105,7 +105,7 @@ exceeds-small-batch-limit-error = Ka bittuatuk jume 1000 nook jiawaim
 rate-limit-toast-message-minutes =
     { $retryLimit ->
         [one] Junum tajti jiba a chumti wueye. Chia chukula juchi a jiobilane
-       *[other] nabujti ama wuam siika a yepsa po tajtia, chia chuka juchi a jiobilane () minutom po
+       *[other] nabujti ama wuam siika a yepsa po tajtia, chia chuka juchi a jiobilane { $retryLimit } minutom po
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
@@ -117,19 +117,19 @@ rate-limit-toast-message-seconds =
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha juchi wuate jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
-       *[other] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha () minutom jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
+       *[other] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha { $retryLimit } minutom jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
         [one] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chubala bo’obicha juchi wuate jiawai nookim bittuabaeteko. ¡Chookuttsia em yantelaitukabetchibo!
-       *[other] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chunala bo’obicha () segundom se’nu nook jiawai ta bittuabetchibo. ¡Chookuttsia em yantelaitukabetchibo!
+       *[other] Jaibu e nabujtia e am bittuasuk jaibu kawetu inim pagina po. Chunala bo’obicha { $retryLimit } segundom se’nu nook jiawai ta bittuabetchibo. ¡Chookuttsia em yantelaitukabetchibo!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] () wepulek ye’u poarime
-       *[other] () jume () ye’u puarime.
+        [one] { $uploadedSentences } wepulek ye’u poarime
+       *[other] { $uploadedSentences } jume { $totalSentences } ye’u puarime.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
