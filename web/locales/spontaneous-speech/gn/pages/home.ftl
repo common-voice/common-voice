@@ -1,10 +1,13 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Eg̃uahẽporã Spontaneous Speech-pe
+how-spontaneous-speech-works = Mba’éichapa oiko ayvu jeporu
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Prompt</mark>
+prompt-bubble-subtitle = Rohechaukáta ñe’ẽmondo térã porandu
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Mbohovái</mark>
+respond-bubble-subtitle = Embohovái térã embohovái chupe ikatuháicha
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Ñe’ẽjehai</mark>
 # text wrapped in <mark></mark> will have a blue background
