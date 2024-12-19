@@ -7,3 +7,4 @@ request-language-success-title = بݳݽݵئ بُݵَت کامیابِس کݸٹ �
 request-language-success-content = اَمݺ مذݶد معلُݸماتݵڎ کݸٹ رݳبِطَنَہ بݵشَم تَہ کِی اِرِی بݳݽ بݸت ڞگَہ کݳمَن وائس کݸٹ کݸٹ اِرݵنݣݺ چھݺ
 select-language = بݳݽ دِسقَٹݳر
 other-language = اݸر بݳݽ
+yes-receive-emails = اَݸݳ، مَشُݸ اِی مݵل بِجݳل. اُݸ کݳمَن وائس پرݸجݵکٹ ݵئ بݳرݳس ہݵݽ ہݸئی نَہ پَسَن اِرݳس
