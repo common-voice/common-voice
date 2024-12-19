@@ -6,3 +6,4 @@ volume = اواز۔
 reader-effects = پڑان٘لو اثر انداز ہُوئ تُھو
 just-unsure = سَم پت نی تھی؟
 example = مِثال
+varying-pronunciations-example = پان٘د صاف نی آن٘سیۡ۔
