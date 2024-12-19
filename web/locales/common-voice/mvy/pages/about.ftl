@@ -1,7 +1,7 @@
 ## ABOUT US
 
 about-title = کامن وائس گِنہ؟
-how-does-it-work-title-v2 = بُٹواں اواز گِشے کام کیر تُھو؟
+how-does-it-work-title-v2 = کامن وائس گِشے کام کیر تُھو؟
 
 ## How does it work section
 
@@ -52,6 +52,7 @@ about-nav-playbook = سِڇھہ، اسی مہ گِشے حِصہ ہراں تھہ
 about-playbook-what-is-language = کامَن وائسہ لا ژیب گی څیز تھی؟
 about-playbook-what-is-language-content-1 = ژِباں بارہ مہ تَصُور کرَیں بِکتُک ولہ تھہ۔ اواز پُنَیں یاں ماڈلاں کِریا، کامَن وائس تے مَشورہ دی تُھو چے 'دُیں کِھن٘گیوں نہ پو ہُیں' لا ذِہِن دھا، یا 'ݜس ژیب دین٘لہ کہ اَماں پورژَیں کوشِش کیرُوں ایک مُتَیں بلیوں لا پو ہوں یی؟'
 about-playbook-what-is-language-content-2 = بے لُکِھگ تھہ چے بلی واں ماڈل رَن٘گ رَن٘گاں بنان٘لہ وَیں ژِب لا مِٹَھیں سَم پوۡرُژ۔ ݜسیں دَن، ایک اوازاں ڈیٹاسیٹے پکار تھی چے سو رَن٘گ رَن٘گا خلکَیں ترجمانی کیر۔
+about-playbook-what-is-language-content-3 = دھان٘کہ ژِبہ ݜے تھی چے سِواں گرامر، لفظہ وَیں ڈھیری آں ادائیگی مہ چو زیات فرق ہُوئ تُھو۔ ݜُو وجہ نہ زَیں 2022 مہ لہجی </ctaLink> متعارف کریا چھی<ctaLink>۔
 
 ## How do I add a language
 
@@ -60,16 +61,18 @@ about-playbook-how-add-language-translating-heading = سائٹَیں ژیب گُ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>زاں پَشان٘لو نھالی لہ پونٹُون گِشے چَلاں تھہ۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملی جمع کرُژاں تھی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>زاں پَشان٘لو نھالی چے جُملی جمع کران٘لو گِشے چَلاں تھہ</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جُملی جمع کرَیں یاں بابتی مہ ہِلاک مُت نھالی</sentenceCollectorFragment>۔
 
 ## How does localization work
 
-about-playbook-how-localize = سائٹ تَیں ژِبے مرَک‌ کر گِشے چلُژ تُھو؟
+about-playbook-how-localize = سائٹ تَیں ژِبے مرَک‌ کرے گِشے چلُژ تُھو؟
 about-playbook-how-localize-content-1 = کامن وائساں ژیب گُھرؤں</strong> پونٹُون<strong>۔لا ہوئ تُھو۔
 about-playbook-how-localize-content-4 = کلہ اُو 75% ہُون٘د کھیں، ویب سائٹ شروع کرَیں تیار ہو تُھو۔
 about-playbook-how-localize-content-5 = مَدتیاں کِریا، زاں پورژان٘لہ ویڈیو نھالی۔
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = مہ جُملی گِشے ٹل کرم؟
 
 ## How to record quality
 

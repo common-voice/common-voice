@@ -11,6 +11,7 @@ contribution-picker-label = { $language }دَن ڈیٹاسیٹے ٹل کرؤں
 # Label for button on contribution switcher
 change = بدلا
 coming-soon = مُتیۡ ژیبہۡ ژُن٘ڑُو اے تھی
+media-recorder-api-not-supported = ݜُین
 # Toast message that is displayed when an item is skipped
 skipped = پَھت کریل
 audioplayer-header = ݜُویں
@@ -25,6 +26,8 @@ contribute = تاں حصہ گلہ۔
 ## Navbar
 
 respond-to-prompt = مدتیاں جواب
+transcribe-audio = بنیل لِکیلاں اواز
+check-transcriptions = بنیل لِکیل بدلا
 
 ## Not Found Page
 
