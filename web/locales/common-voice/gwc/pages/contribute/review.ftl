@@ -39,3 +39,6 @@ sc-review-link = جائیزہ گِھینوگ
 sc-criteria-modal = جائیزاں طریقہ
 sc-criteria-title = جائیزاں طریقہ
 sc-criteria-make-sure = اِیں یقین کراٞ اُوں جملہ داگاٞل طریقہ کار رہ پورہ ینت؛
+sc-criteria-item-1 = جملہ صحی چُنڑجینت۔
+sc-criteria-item-2 = جملہ گرامراٞں لحاظ دہ صحی چُنڑجینت۔
+sc-criteria-item-3 = جملہ ادا کرجاں۔
