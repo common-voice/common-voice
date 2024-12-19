@@ -23,3 +23,6 @@ reader-effects-explanation = سکال ریکا ڈنگ منچا ستہ قدرتی
 just-unsure-explanation = اگر توتہ آجستہ لتری بدو گوبا چہ امکیاں ستہ انی احاطہ نہ بیستہ بیبا تیو برائے کرم توستہ لے رایہ مطا بق ووٹ اتیوشی اگرتیو واقعی فیصلہ کونہ بلہ بیش با اسکیپ بٹن استعمال کشی پنوی وای ریکا ڈنگ تہ یی
 adding-sentences = جملہ شامل کوستہ
 sentence-domain = جملہ ستہ ڈومین
+citing-sentences-subheader-websites = ویب سائٹ
+citation =
+    .label = حوالہ
