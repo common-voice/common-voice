@@ -64,3 +64,12 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = عمر
 donate-modal-message = مېنہ ڈېٹا سیٹ ڈاون لوڈ بِمان!
 dataset-donate-modal-heading = مے کی پیانِمانېوا۔۔۔
+donate-modal-explanation-1 = ڈېٹا سیٹسَنی مېزبانی کېرِکہ اؤ100+ باتِیَنی برادری نامہ ݭڅی پلېٹ فارَمہ بہتر ݫُپَئیکہ ݭڅی تقریباً یَک ملیَن ڈالر کالہ لگِمېت زی امہ کېرِمېکا؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگر زی مے فراخ، جامع ڈېٹانی قدر کېرِمانېؤ بہ ژو۔ نُون می عطیہ کېرِؤ!</bold>
+data-download-singleword-title = سنگل ورڈ ٹارگٹ سِگمېنٹہ ڈاون لوڈ کېرِؤ
+data-download-singleword-callout-v2 = ووئی یَہ استعمال کېسے چَلِݪہ طبقہ تھنہ تېنے ژوَنہ ہندسانی شناخت اؤ ای/ نئ یَنہ پتہ لگَئیکہ ݭڅی ڈیٹا تھِمان۔
+data-download-button = کامن وائس ڈېٹا ڈاون لوڈ کېرِؤ
+data-download-yes = اِی
+data-download-deny = نئ
+data-download-license = لائسنس: <licenseLink>سی سی-0</licenseLink>
