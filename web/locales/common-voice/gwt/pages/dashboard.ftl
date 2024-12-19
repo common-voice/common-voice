@@ -35,6 +35,7 @@ easy-difficulty = ہانسان
 average-difficulty = منزَنہ
 difficult-difficulty = گران
 pro-difficulty = پرو
+lose-goal-progress-warning = تانُو مقصدَہ ترمېم کېرِکے ݪی، مے تانُو موجودہ پُر دِکہ فُسَئ بَمانېؤ۔
 
 ## Goals
 
