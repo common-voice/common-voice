@@ -85,6 +85,11 @@ community-and-languages = کمیونٹی (اوگعمہ) دے ورے
 about-menu-tooltip = پلئی وار، وسپلہ، پرݩجیک، اوگعمہ(کمیونٹی) دے ورے
 partnerships-menu-item-tooltip = ایمو مع پلئے بو۔
 press-and-stories-menu-item-tooltip = ایموستہ بلاگ ایݩش کشی یا ایمو بارا تہ ستورا
+community-and-languages-menu-item-tooltip = ورے، منچاݩ، عام کوٹہ بنڅا۔
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = مرضی ستہ مینو بارا تہ
+partnerships-menu-item-aria-label = عام کوٹہ مع پلئی وار زعݩہ
+press-and-stories-menu-item-aria-label = عام کوٹہ بگنہ پرس رلیز دے پرݩجیک تہ پعا۔
+community-and-languages-menu-item-aria-label = عام کوٹہ مع منچاݩ (کمیونٹی) دے ورے بنڅا
