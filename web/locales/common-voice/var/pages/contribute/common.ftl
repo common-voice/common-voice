@@ -6,12 +6,12 @@ skip = Umátote ampá
 shortcuts = Risáka umátoniame
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> paikapi ivotetiame
-       *[other] <bold>{ $count }</bold> weika toatiame iyoteka
+        [one] <bold>{ $count }</bold> paikápi iyoténiame
+       *[other] <bold>{ $count }</bold> weiká toatiáme iyotéka
     }
-goal-help-recording = Čeriwema aamo kiyaine noo kuiretičo, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivoči diaričio grawandotiame { $goalValue }
-goal-help-validation = Čeriwema aamo kiyaine no'ó kuiretičo, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivoči diariočio taamo yoraria{ $goalValue }.
-contribute-more = Listoči netemia { $count } enčí.
+goal-help-recording = Čeriwéma amó kiyáine no'ó kuíretičo, Common Voice aséparetu <goalPercentage></goalPercentage> tamó, yorária objetiwóči yomá tawé rawaróatiame { $goalValue }
+goal-help-validation = Čeriwéma amó kiyáine no'ó kuíretičo, Common voice aséparatu <goalPercentage></goalPercentage>  tamó yorária objetiwoči yomá tawé tamó yorária{ $goalValue }.
+contribute-more = ¿Istoči netémia { $count } enčí?.
 speak-empty-state = Teeme kiniwaega etipiru pu'ká frases taamo grawaomia ikači idiomači
 no-sentences-for-variants = Taamo močikači weyka naewasari intunapa .wekana comunidači
 speak-empty-state-cta = Epečé weika toamitia  pu'ká frases
@@ -142,5 +142,5 @@ contribution-reader-effects-title = We'kaka yoratiame pu'ká yo'tekame
 contribution-reader-effects-description = yo'ma ačitio tiempoči ra'waroatiame u'hupu e'nte naiwame a'po na'wesari nayawa kawé nakitaema rawaroriama wa'a tapitika čiači sinaka mo'enatičeka o re'yeroaka kawé naiwaka "u'matoteka". kinaki pu'ká ra'waroatiame itetatiame i wa'a yoratiame nabesariči to'niame kinakiwame  si'sioki netetiame
 contribution-just-unsure-title = ¿ki kawe na'neriame e'sinamu ?
 contribution-just-unsure-description = i'si te'isa na'tepasa'a i'tapiti i'ji ne'tetiame ka'i kuipame yo'ra pirechimuna a'mo ka'we i'tachitia yotetiame. Isi pichiwa kintuso'o,  , u'saroa pu'ka ra'waroatiame,  i ka'chi isika ka'weintamane.
-see-more = </chevron></chevron>epečé weika
+see-more = </chevron></chevron>Nenéniame weiká
 see-less = <chevron></chevron>neene paykapi
