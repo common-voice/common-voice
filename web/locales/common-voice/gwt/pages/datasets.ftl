@@ -88,3 +88,5 @@ license = لائسنس:<licenseLink>{ $license }</licenseLink>
 license-mixed = مِلِسنت
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = امَنہ صوتی ڈېٹا سیٹہ ڈاون لوڈ کېرِؤ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس ڈېٹاں فېدِ کہ ݭڅی اختیاراتہ ڈاون لوڈ کېرِؤ
