@@ -113,6 +113,12 @@ rate-limit-toast-message-seconds =
         [one] حد دا لنگیل۔۔۔۔۔منٹ می دیراں ڈیز
        *[other] وخ گو۔۔۔۔منٹ می دراں ݭج
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تو اوں پیج می جمع تالے حد تہ پݭ۔دی جمع تال کیر ا ۔۔۔۔۔۔ منٹ کٹار
+       *[other] اوںپیج می جمع تال کیر باگ نان۔۔ دی جلال پامیلونس تےاتیش  صبر تہ۔ماربینی
+    }
 small-batch-sentences-rule-3 = اک ا  کریک می جملا اراک تہانٹر
 small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
 small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔
