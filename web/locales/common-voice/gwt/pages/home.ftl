@@ -15,6 +15,36 @@ no-clips-to-validate = اِشِلہ زانان دِمان  زی اسہ باتِ�
 toggle-play-tooltip = پلے موڈ لوکل کېرِکہ ݭڅی{ shortcut-play-toggle } رتئ زور کېرِؤ
 speak-paragraph = وائس کِلپسَنی رِکاڈِنگ امَنہ اوپن ڈېٹا سیٹَنی ݫُپِکَنہ یَہ لازمی حصہ تھنہ؛ کرہ ژاتہ زی ووئی بی مزا نہ حصہ تھنہ۔
 speak-goal-text = کِلپس رکاڈ کېران گئیت
+listen-paragraph = عطیہ کېرِسنت کِلپسَنی تصدیق کېرِک کامن وائس ماشینہ ݭڅی اتہ می اہم تھنہ۔ ݭُنڈِؤ اؤ معیاری اوپن سورس وائس ڈېٹا ݫُپَئیکہ امہ مِنزی ہسپلہ ݭَؤ۔
+listen-goal-text = کِلپسَنی توثیق کېران گئ
+hours-recorded = فایَہ رِکاڈ کېران گَئیت
+hours-validated = فایا نی توثیق
+voices-online = کھنٹ نوری آن لائن
+todays-progress = نُنُوکہ پُر دِک
+help-reach-goal = { $goal }مِزان فېدِکہ امہ مِنزی ہسپَلہ ݭَؤ
+read-terms-q = کی مے امَنی شربن نامہ ژَئیتووا؟
+ready-to-record = تانُو کھنٹَہ عطیہ کېرِکہ ݭڅی تیار تھنوا؟
+all-locales = سومّی
+today = نُن
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count }ہفتہ
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } ماسوئے
+       *[other] ماسوئے
+    }
+x-years-short =
+    { $count ->
+        [one] فېلی{ $count }
+       *[other] کال{ $count }
+    }
+help-make-dataset = یَک ڈل معیار، عوامی طورے ووڑاتہ ڈېٹاسیٹ ݫُپَئیکہ امَنی مدد کېرِؤ
+sign-up-account = یَک اکاونٹہ ݭڅی سائن اپ کېرِؤ
+email-subscription-title = اِی مېل اپڈېٹسَہ ݭڅی سائن اپ کېرِؤ
+email-subscription-title-new = کامن وائس نیوز لیٹرز، حدفَنہ کائے گِرَئیک اؤ پُر دِکَنہ تازہ ݪَمہ ݭڅی سائن اپ کېرِؤ
 
 ## Account Benefits
 
