@@ -29,6 +29,16 @@ create-custom-goal = yi zẽrũrate maqsad gok̃h
 goal-type = Chiz sokht maqsad k̃hakẽ zẽrũrati?
 both-speak-and-listen = kifch
 both-speak-and-listen-long = Kifch (k̃hẽnak woz kẽs̃hũn)
+daily-goal = Harorẽ maqsad
+weekly-goal = Haftẽwor maqsad
+easy-difficulty = oson
+average-difficulty = dẽrmiyon
+difficult-difficulty = zur
+pro-difficulty = trmis/ terpẽrũt
+lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ hẽyem tẽreqiye nũs
+want-to-continue = tus̃h jori lecra?/ tus̃h jori lẽcẽrnẽ zoq cara?
+finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
+lose-changes-warning = haniv lẽcernẽ maniyi yem ki tu
 
 ## Goals
 
