@@ -23,6 +23,10 @@ about-speak = Qẽsa car
 about-listen-queue = kus̃huy-qutor
 about-listen-queue-text = Voice Clip'ves̃h da yi qutor katen k̃he kus̃huy'ner tyor caren
 about-listen = Kẽs̃hũy
+about-listen-text = User'isht bakhs̃h k̃hetk clip've rostig̃he tayin caren, woz tayin cart ki qẽsa k̃hetke jumla rost joyetk
+about-is-it-valid = Clip rost teya?
+about-is-it-valid-text = Voice clip'esh "drust" nis̃hun din, cay waqtes̃h'ki user yower Yan vote rand
+about-yes-votes = ≥ 2 yan votisht
 
 ## Community Playbook Content
 ## What is a language
