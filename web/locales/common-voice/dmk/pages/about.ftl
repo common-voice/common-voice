@@ -47,6 +47,7 @@ about-get-involved-text-2 =
     بُݸت شݳ! اِݵ مݵل یݳ <discourseLink> ڈِسکݸرس </discourseLink> فݸرَمݵݣݺ زَرِݵَس رݳبِطہ رݳ، سݳئٹݵئ مَسلݳݣہ <githubLink> گِٹ حَبَس </githubLink> جَمع رݳ، ݵݳ <matrixLink> مݵٹرݵکس </matrixLink> کَمیُݸنِٹِݵ چݵٹَنہ کݸٹ ہُݸّݴ.
 about-stay-in-touch = اُݸ کݵ ہُݸئی رݳبِطَنَہ بݵشݳس؟
 about-stay-in-touch-button = سݳئن اَپ اِرݳ
+about-stay-in-touch-text-1 = اَمݳ مݵلِنگ لِسٹَنݳ <emailFragment> سݳئن اَپ </emailFragment> اِرݳ تݳکِہ تُمݺ اݽݵئ لݵل شَکَتہ تُمݺ کݳمَن وݳئسݵئ کَمَݳ، کھینݸݣ، نݸ گَٹݵ نݸ ڈِݵزݳنݵݣݺ شݸنَکُݽݵمݳ کݵ رِݵ حِصَہ لݵئی شَکݵگݸت.
 
 ## Community Playbook Content
 ## What is a language
