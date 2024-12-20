@@ -40,6 +40,18 @@ want-to-continue = tus̃h jori lecra?/ tus̃h jori lẽcẽrnẽ zoq cara?
 finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
 lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃htkvẽ nũs
 build-custom-goal = k̃hũ ẽrmon/ destũrẽ maqsad go
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] kũk̃htẽr zoti maqsadẽr yi soat mẽdad { $hours }{ $language }
+       *[other] kũk̃htẽr zoti maqsadẽr yi soat mẽdad{ $hours }{ $language }
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Kommon Voysẽr mẽdad woc ki ya dẽ ti zikẽ zoti maqsad g̃hat { $hours }
+       *[other] Kommon Voysẽr mẽdad woc ki ya dẽ ti zikẽ zoti maqsad g̃hat { $hours }
+    }
+set-a-goal = Ye maqsad lecẽr
+cant-decide = faysila basẽs̃h ne wezim?
 
 ## Goals
 
