@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = Cont̃ect̃ form
+contact-title = Kont̃ect̃ form
 contact-form-name =
     .label = nung
 contact-form-message =

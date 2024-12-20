@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = Chizer Common Voice?
+about-title = Chizer Common Voice?...... Kommon Voys chizẽr?
 
 ## How does it work section
 
