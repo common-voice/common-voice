@@ -103,6 +103,10 @@ about-playbook-how-record-content-5 = <accuracyLink>دُرستکی کو اصول
 ## How to grow language
 
 about-playbook-how-grow-language = ہم کامن وائس پو ایک موئثر زبان کِنوں ترقی دے سکاں
+about-playbook-how-grow-language-content-1 = موقعو پیدا کرنا ان مختلف لوکاں واسطے جہڑا کامن وائس ما حصّو لیے تے جتنا ممکن ہو سکے لوک  ڈیٹا سیٹ کی خدمات نا یقینی بنائے۔ہم نے ٹمپلیٹ بنان کو موقعو پیدا کیو ہے جہڑی تم استعمال کر سکے ۔
+about-playbook-how-grow-language-content-2 = تقریبات
+about-playbook-how-grow-language-content-3 = تم تقرینات نا چلا سکے لوکاں کا لوکاں کا حصہ کی مدد کر کے ۔یوہ اتنو آسان ہے جتنو تم سوچ سکے ۔تم ویڈیو کانفرنس کال کے ذریعے اس طرح کر سکے کدے یوہ محفوظ ہے <eventTemplate>مھاری ٹمپلیٹس تے ذریعاں نا چیک کرو اپنی تقرینات نا چلاؤ </eventTemplate>
+about-playbook-how-grow-language-content-4 = سوشل میڈیو
 
 ## How to validate
 
