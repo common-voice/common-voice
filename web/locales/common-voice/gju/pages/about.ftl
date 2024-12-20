@@ -129,6 +129,16 @@ about-playbook-how-access-dataset-content-2 = کدے تم اثر ماڈل بنا
 ## How are decisions made
 
 about-playbook-how-project-governance = پروجیکٹ بنان کو فیصلو کنوں کری جائے
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائس نا ممکن بنایو ہے مختلف لوکاں نے ، صلاح کار ، ماہر زبان ،ڈیٹا کو ماہر تعلیمی تے سوفٹ ویئر انجنئر ساری دُنیا تے ۔تے اس پروجیٹ کی نگرانی موزیلا فاؤنڈیشن کرے
+about-playbook-how-project-governance-content-2 = مھاری نگرانی بنائی گئی ہے کی بنیاداں پو
+about-playbook-how-project-governance-content-3 = رازداری ،سکیورٹی تے شفافیت
+about-playbook-how-project-governance-content-4 = کمیونٹی کو حصو لینو تے فیصلہ کرنا
+about-playbook-how-project-governance-content-5 = اقدار تے پہچان
+about-playbook-how-project-governance-content-6 = باہمی ذمہ داری
+about-playbook-how-project-governance-content-7 = <governanceLink>مزید پڑھوں کہ مھاری نگرانی کس طرح ھوے </governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس کس طرح بنائی جائے ؟
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن کو ایک پروجیکٹ ہے یو ایس اے کو 501 سئ 3۔اس ٹیم اس نا فنڈ دیئے مکمل طور پو <philantropicGrantLink>فلپائن گرانٹ ۔ </philantropicGrantLink>تے عطیات پور ی دُنیا تے
+about-playbook-how-funded-content-2 = اس نا لگاتار میزبانی کرن تے ڈیٹا سیٹ نا دسن واسطے مُچ زیادہ رقم خرچ ہوے پلیٹ فار م بہتر کرن واسطے تے کمیونٹی پروگرام چلان واسطے <africaMradiLink>
