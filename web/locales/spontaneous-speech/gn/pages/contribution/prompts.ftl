@@ -23,5 +23,7 @@ submit-all-button = Emondopa
 learn-how-to-use-prompts = Mba’éicha eiporukuaáta ko kuatiarogue
 learn-how-to-use-prompts-guidance = Eikutu <guidanceLink>ápe</guidanceLink> eiporukuaa hag̃ua ko kuatiarogue
 learn-how-to-use-transcribe = Eñeha’ã embokuatia
+learn-how-to-use-transcribe-explanation = Ehai pe he’iva’ekue tapicha, oĩhápe ñe’ẽ ñemigua ikatukuaáva 'um' térã 'errr'.
+learn-how-to-use-transcribe-guidance = Eikutu <guidanceLink>ápe</guidanceLink> eiporukuaa hag̃ua ko kuatiarogue
 learn-how-to-use-check-transcript = Eñeha’ã ñembokuatia ehechajey
 learn-how-to-use-check-transcript-guidance = Eikutu <guidanceLink>ápe</guidanceLink> eiporukuaa hag̃ua ko kuatiarogue
