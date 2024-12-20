@@ -8,3 +8,5 @@ partnerships-community-description = کمیونٹی عام کوٹہ ستہ بر�
 partnerships-foundations-header = مم
 partnerships-foundations-description = ایمو مشریقی افریقہ خصوصی توجہ مع، انٹرنیٹہ لستہ وش وا جائ اپیاستہ کہ فاونڈیشن، سول سوسائٹئ، کمیونٹی ستہ پلئی مع کودیوم کوتہمیش۔ ایموستہ <programmaticWork> پرگرامی کودیوم </programmaticWork> بارا تہ اچا دی زعں۔</programmaticWork>
 partnerships-governments-header = مر وار
+partnerships-governments-description = ایمو ٹکنالوجی ، نوئی وار، ورے ستے حقوق تہ عوامی سکٹر سنہ تے تعاون کوستہ تہ پر جاش اسہمیش۔ اگر تیو کائ پراجیکٹ یا مہم چلا ستہ کہ وشتہچی با ، مہرانی کہ<emailFragment>رابطہ کشی</emailFragment>
+partnerships-academia-header = یونیورسٹی، ماہر تعلیم، تحقیق کولہ۔
