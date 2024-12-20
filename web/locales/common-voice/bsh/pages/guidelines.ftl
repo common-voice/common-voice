@@ -71,4 +71,5 @@ adding-sentences-subheader-length = ددرگݩع وار
 adding-sentences-subheader-length-explanation = جملہ تہ 15الفاظ تݩع اچاک بوستہ اسہ
 adding-sentences-subheader-spelling-punctuation = ݜٹل املا دے اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = جمہ سئی ھجاء تہ بوستہ اسہ
+adding-sentences-subheader-speakable = ولہ بلہ
 reviewing-sentences-explanation-4 = اگر جائزہ اݣستہ دیوکں توتہ جملہ لکہ بیبا مہربانی کتہ ایموتہ اہ چا دی جملہ جمع کوستہ تہ کمک کشݩع
