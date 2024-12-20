@@ -12,6 +12,7 @@ about-localization-title = "Website" maqomi k̃hak
 about-localization-subtitle = "website" matan hada zik tarjuma vitk.
 about-sentence-collection-title = Jumlaev jama k̃hak
 about-sentence-collection-subtitle = Khalgver S̃hukh joyne distan jumlavev jama k̃hetk
+about-new-lang-title = S̃heg̃hd Zike Soat K̃hak
 
 ## Community Playbook Content
 ## What is a language
