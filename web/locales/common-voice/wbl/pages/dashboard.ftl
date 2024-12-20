@@ -38,7 +38,8 @@ pro-difficulty = trmis/ terpẽrũt
 lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ hẽyem tẽreqiye nũs
 want-to-continue = tus̃h jori lecra?/ tus̃h jori lẽcẽrnẽ zoq cara?
 finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
-lose-changes-warning = haniv lẽcernẽ maniyi yem ki tu
+lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃htkvẽ nũs
+build-custom-goal = k̃hũ ẽrmon/ destũrẽ maqsad go
 
 ## Goals
 
