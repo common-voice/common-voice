@@ -33,6 +33,8 @@ about-no-votes-text = cay wakht'es̃h ki yi user voice clip qubul ne cart yow'es
 about-dataset-new = Common Voice Dataset
 about-dataset-new-text = da Common Voice Dataset'es̃h cum sad hazor owoz namun'isht wocen kumdes̃h'ki sokhtmon'er owoz dishn'e owzor'ev tyor k̃hak'er madad wost
 about-clip-graveyard = Clip Qabriston
+about-get-involved = shareek wocit
+about-get-involved-text-2 = Common Voice woz be baf k̃hak'e zoqes̃h lecra?
 
 ## Community Playbook Content
 ## What is a language
