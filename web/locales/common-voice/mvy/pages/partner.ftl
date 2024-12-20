@@ -4,8 +4,10 @@ partnerships-header-text = کامَن وائس سَن٘دؤں ٹقل نی تھی
 partnerships-get-in-touch = رابطہ رڇھہ
 partnerships-become-a-partner = کامن وائساں مرگلئ سن٘دژہ
 partnerships-foundations-header = فاؤنڈیشنہ
-partnerships-foundations-description = بے فاؤنڈیشنؤں مِلیۡ، سِول سوسائٹی مِلیۡ، آں کمیونٹیاں پاٹنرؤں مِلیۡ کام کرِگ تھہ لہ انٹرنیٹ صحت مند زائ سَن٘دُژ، خاص کر سُریۡ اُکیۡ افریقہ فوکس تُھو۔
+partnerships-foundations-description = بے فاؤنڈیشنؤں مِلیۡ، سِول سوسائٹی مِلیۡ، آں کمیونٹیاں پاٹنرؤں مِلیۡ کام کرِگ تھہ لہ انٹرنیٹ صحت مند زائ سَن٘دُژ، خاص کر سُوریۡ اُکیۡ افریقہ فوکس تُھو۔
 partnerships-governments-header = حُکمتی
+partnerships-academia-header = یونیورسٹیہ، تعلیم مِلیۡ گَن٘ڈژیل آں تحقیق کران٘لہ
+partnerships-small-business-header = لیکھہ اُپارہ، ٹیک آں اے آئ شُروعاتہ شامل تھہ
 partnerships-our-partners = زاں مرگلئ
 # menu item
 partners = مرگلئ
