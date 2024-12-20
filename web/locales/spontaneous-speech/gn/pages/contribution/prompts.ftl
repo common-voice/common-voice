@@ -4,8 +4,10 @@ record-player-header = Eñongatu ne ñembohovái
 mic-access-error = Emoneĩva’erã pe ñe’ẽatãhápe jeike.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ha embohovái ikatuháicha
+no-prompts-message = Ko’ág̃a ndaipóri porandu ko ñe’ẽme g̃uarã. Embohekopyahu pe kuatiarogue térã eha’ãjey ag̃ave.
 error-skipping = Oiko jejavy emboykekuévo ko ñe’ẽmondo
 error-recording = Oiko jejavy eñongtukuévo upe ayvu
+error-fetching-prompts = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ãjey ag̃amieve.
 error-uploading-response = Oiko jejavy emyanyhẽnguévo upe mbohovái
 prompt-submitted-success = Mbohovái ohóma hekopete
 prompt-response-deleted-success = Mbohovái oñemboguéma hekopete
