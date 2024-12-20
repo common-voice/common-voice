@@ -72,4 +72,6 @@ adding-sentences-subheader-length-explanation = جملہ تہ 15الفاظ تݩ�
 adding-sentences-subheader-spelling-punctuation = ݜٹل املا دے اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = جمہ سئی ھجاء تہ بوستہ اسہ
 adding-sentences-subheader-speakable = ولہ بلہ
+adding-sentences-subheader-speakable-explanation = لئ جملہ قدرتی سورہ وری پل ستہ انداز تہ بوستہ اسہ —ایکیا ولستہ آسان بولا۔اگرچہ کوٹ ستہ تنوع سورہ جملہ تہ مختلف الفاظ اہم ائ۔ایمواینہ دی وگہ تمیش چہ ایموستہ رضار اوگعاماںدیوکں ریکارڈکعہ جملہ چوک اسان سورہ دلچسپ بیبا  اچادی ارس وا بوتہ
+adding-sentences-subheader-numbers = گونو
 reviewing-sentences-explanation-4 = اگر جائزہ اݣستہ دیوکں توتہ جملہ لکہ بیبا مہربانی کتہ ایموتہ اہ چا دی جملہ جمع کوستہ تہ کمک کشݩع
