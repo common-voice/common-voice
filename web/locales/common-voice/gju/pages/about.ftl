@@ -47,10 +47,19 @@ about-get-involved-text-2 = کامن وائس نا بہتر بنان واسطے 
 about-stay-in-touch = ہوں کس طرح رابطہ ما رہ سکوں
 about-stay-in-touch-button = اُپر آؤں
 about-stay-in-touch-text-1 = <emailFragment>اُپر آؤں </emailFragment>مھاری میل کی لسٹ پو سکھن واسطے تم اس مُہم ما حصو کس طرح لے سکے ، تے کامن وائس کی تقریبات اور دوجا مشترکہ ڈیزائن کی خصوصیات ما
+about-stay-in-touch-text-2 = تم دُوجا لوکاں نا بے مل سکے موزیلا زبان کی کمیونٹی ما <discourseLink> گفتگو </discourseLink>خاص گل بات یا <matrixLink>میٹرکس </matrixLink>جلدی نصیحت واسطے
+about-nav-why-common-voice = کیوں ؟
+about-nav-how-it-works = کِنوں
+about-nav-partners = ساتھی
+about-nav-get-involved = شامل ہو جاؤں
+about-nav-how-it-works-2 = کامن وائس کس طرح کم کرے ؟
+about-nav-playbook = سیکھوں ، کس طرح حصّو لیو جائے
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس ما کہڑی زبان ہے
+about-playbook-what-is-language-content-1 = زبان کا بارا ما سوچن واسطے مُچ سارا راہ ہیں۔تقریر کا ماڈل نا سیانن کا مقصد واسطے کامن وائس آپس کی ذہانت  کو مشورہ دیئے ۔یا اس زبان کو بولن ہالاں ایک دُوجا نا جلدی سمجھ لیے کدے وِہ کوشش کرے
 
 ## How do I add a language
 
