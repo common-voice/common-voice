@@ -15,6 +15,10 @@ about-localization-subtitle = وݵبسݳئٹݵئ گِرمِنݳیݳ ہائی ب�
 about-sentence-collection-title = سݵنٹݵنس کُلݵکشَن
 about-sentence-collection-subtitle = جملاݣہ گَٹی اِرݸ جاݣݺ چھݺ کِجݵتَہ بندَن اݵݣ قِیو اِرِی مُنی شَکݸن.
 about-new-lang-title = نَمِی بݳݽݵئ شُرݸع
+about-new-lang-subtitle = اَمݺ کݳمَن وݳئسݵئ شُرُݸع اݽݳئی بݳݽَنَہ رَم چھݸم.
+about-voice-contrib-title = چھَتݵئ حِصَہ
+about-voice-contrib-subtitle = بندݺ آݣݺ چھݺ نݸ اپَنݵئ چھَتݵئ حِصَہ دݵݣݺ چھݺ.
+about-voice-validation-title = چھَتݵئ تصدِݵق کُݽ
 
 ## Community Playbook Content
 ## What is a language
