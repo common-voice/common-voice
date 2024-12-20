@@ -28,6 +28,10 @@ about-speak-text = حصّو لین ہالا واز کو کلپ ریکارڈ کر
 about-listen-queue = لین نا سنو
 about-listen-queue-text = وائس کا کلپ داخل کری جائے جمع کرن ہالی لین ما جہڑی اُنہاں نا سنن واسطے تیار کرے
 about-listen = سنوں
+about-listen-text = صارفین عطیو کری وی  کلپس کی درستگی کی توثیق کرے ، یوہ  جانتاں واں کہ پڑھن  ہالا ں   نے جملو   صحیح طریقہ  نال پڑھیو  ہے۔
+about-is-it-valid = آیو کلپ ٹھیک ہے
+about-is-it-valid-text = واز کی کلپ کو نشان لگو وھے ''صحیح '' جد ایک استعمال کرن ہالو اس نا ہاں کو ووٹ دیئے ۔
+about-yes-votes = ہاں کو ووٹ
 
 ## Community Playbook Content
 ## What is a language
