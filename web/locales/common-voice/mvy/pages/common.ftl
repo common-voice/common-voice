@@ -284,6 +284,8 @@ not-available-abbreviation = نیتُھو
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>زَیں تیں مدد</mark><br/><mark>پکار تھی</mark>۔
+# Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = </mark>تَیں تحقیقاں دَن <mark> <br/></mark> سی وی استعمال کیر تٗھویی؟<mark>
 localization-select =
     .label = ژیب / علاقہ خوش کرہ

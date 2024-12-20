@@ -45,15 +45,22 @@ rich-data = تاں جمع کریل مواد کتُک ہو سؤں بے نؤں ا�
 
 ## What's public
 
+whats-public = پبلک گی تُھو؟
+email-not-public = بے تیں ای میل خلکؤں نی پشا تھو۔
+recordings-and-locale-public = رِکاڈِن٘گہ آں حصہ گلیلیۡ ژِبہۡ بُٹ خلکؤں لیل تھی۔
 
 ## Landing
 
 
 ## NAV ITEMS
 
+press-and-stories = اخبار تے خبری
+community-and-languages = خلکہ تے ژِبہۡ
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = مرگلتیا، اخبار تے خبری، خلکہ آں ژِبہۡ
+partnerships-menu-item-tooltip = زاں ملی مرگلئ
 
 ## MENU ITEM ARIA LABELS
 
