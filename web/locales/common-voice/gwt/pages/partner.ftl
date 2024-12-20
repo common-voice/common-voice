@@ -12,3 +12,9 @@ partnerships-governments-description = امہ ٹېکنالوجی، اختراع 
 partnerships-academia-header = یونوروسٹی نام، ماہرین تعلیم اؤ تحقیق کېرِݪہ خلک
 partnerships-academia-description = امہ زی کی کېرِ مېک بہ تسَنہ ہېڑہ منزے ووڑاتی اختراع تھنی۔ تحقیقی تعاون، ڈېٹا ٹوپلَئیکاں یا انٹر ویو نامہ ݭڅی،<emailFragment> فېدِؤ</emailFragment>
 partnerships-small-business-header = پولہ کاروبار، ٹېک اووَر اؤ ال سٹارٹ اېپس شامل
+partnerships-small-business-description = امہ ہمیشہ ڈېٹا صارفینَہ پېنہ تسُونی ضروریاتہ اؤ سیاق و سباقَنہ بارا ݭُنڈِک کوڅِ مېک۔ ڈېٹا ٹوپلَئیکَنی پلېٹ فارَمہ رتئ تعاون کېرِکہ پاݪی ڈېٹا نی صحَتَنی بصیرت پئیدیا کېرِک مِزان، امہ مے پېنہ<emailFragment> ݭُنڈِک کوڅِمېک۔</emailFragment>
+partnerships-corporates-header = ڈل پېمانا نی کارپورېٹس اؤ پلېٹ فارم کمپنی نام
+partnerships-corporates-description = کېنے زی مے ڈېٹا سیٹَنہ بارا واری باتی کېرِکاں ݭېنݭ کېرِمانېؤ بہ، منصوبہ بند پلېٹ فارَمَنی توسیعَہ مشترکہ سرامایہ کاری کېرِک کوڅِمانېؤ بہ یا تعاؤنَنہ موقع نام تلاش کېرِک کوڅِمانېؤ بہ جو <emailFragment> اماں یک رِک ووڑِؤ۔ </emailFragment>
+partnerships-our-partners = امَنہ حصہ داران
+# menu item
+partners = شراکتی
