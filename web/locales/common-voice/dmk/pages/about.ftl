@@ -11,6 +11,10 @@ how-does-it-work-text = امݺ چھتݵݣݺ کھُلَہ سݸرس ڈݵٹݳ سݵ�
 
 about-language-req-subtitle = کݸکِن مُنݳگَہ چھَ اݵکَہ بݳݽَکَہ کݸٹ ہݸ.
 about-localization-title = وݵبسݳئٹ لݸکلائزݵشَن
+about-localization-subtitle = وݵبسݳئٹݵئ گِرمِنݳیݳ ہائی بݳݽَنَہ فَر اِرݸ جݳگَہ چھَہ
+about-sentence-collection-title = سݵنٹݵنس کُلݵکشَن
+about-sentence-collection-subtitle = جملاݣہ گَٹی اِرݸ جاݣݺ چھݺ کِجݵتَہ بندَن اݵݣ قِیو اِرِی مُنی شَکݸن.
+about-new-lang-title = نَمِی بݳݽݵئ شُرݸع
 
 ## Community Playbook Content
 ## What is a language
