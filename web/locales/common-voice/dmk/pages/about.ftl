@@ -30,6 +30,8 @@ about-listen-queue-text = چھَتݵئ کِلِپہ اݵکہ سَبمیشَن ق
 about-listen = پَرُچ
 about-listen-text = اِستِمݳل ارݵݣݺ اݵݣݺ دݵنݺ کِلِپݵݣݺ ٹھِیک چھݳئ تَصدݵق اِرݵݣݺ چھݺ ، نݸ چݵک اِرݵݣݺ چھݵتݳ منݵگہ ہݵَن جُملݳݣہ ٹھݵک مُنِن چھݳ.
 about-is-it-valid = کِلِپ سݸچ چھِݵݺ؟
+about-is-it-valid-text = اݵک چھݸتِکݵ کِلپ "سݸچ" ہݳئی وَقتَنَہ ہݸگَہ چھَہ کَبݺ اِستِمݳل ارݵگݳ ہݵَن اَوݳ رِݵ وݸٹݳ دݵنِن تݳ.
+about-yes-votes = 2 اَوݳ وݸٹݳ
 
 ## Community Playbook Content
 ## What is a language
