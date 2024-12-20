@@ -16,3 +16,5 @@ partnerships-small-business-description = ⵍⴰ ⴰⴱⴷⴰ ⵏⵙⵉⴳⴳⵉ
 partnerships-corporates-header = ⵜⵉⵎⵙⵙⵓⵔⵉⵏ ⵜⵉⵎⵇⵇⵔⴰⵏⵉⵏ ⴷ ⵜⵎⵙⵙⵓⵔⵉⵏ ⵏ ⵜⵙⵉⵍⴰⵡⵉⵏ
 partnerships-corporates-description = ⵎⴽ ⵍⴰ ⵜⵙⵉⴳⴳⵉⵍⴷ ⴰⴷ ⵜⵙⵉⵡⵍⴷ ⵓⴳⴳⴰⵔ ⵅⴼ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ, ⵜⵅⵙⴷ ⴰⴷ ⵜⴷⵔⵓⴷ ⴳ ⵓⵙⵙⴰⵔⵓ ⴰⵎⵛⵛⴰⵔ ⵏ ⵉⵏⵖⵍⴰⵏ ⵏ ⵜⵙⵉⵍⴰ ⵏⵏⴰ ⵉⵜⵜⵓⵙⵖⵉⵡⵙⵏ ⵏⵉⵖ ⵍⴰ ⵜⵙⵉⴳⴳⵉⵍⴷ ⵉⵣⵎⴰⵣ ⵏ ⵓⵎⵢⴰⵡⴰⵙ, <emailFragment>ⴰⵔⴰ ⴰⵏⵖ ⴷ.</emailFragment>
 partnerships-our-partners = ⵉⵎⵛⵛⵔⴽⵏ ⵏⵏⵖ
+# menu item
+partners = ⵉⵎⵛⵛⵔⴽⵏ
