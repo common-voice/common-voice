@@ -18,6 +18,7 @@ validated-clips = towsiq k̃hetk klip
 total-approved = kul manzũr
 overall-accuracy = Ijtimoi drustẽgi/ pẽtun drũstẽgi/ kũl drũstẽgi
 set-visibility = Maz̃h winge set̃ car/ z̃hũ moujudẽdiyẽ set̃ car
+visibility-explainer = Hayem set̃ingẽsh ti lowd̃bord̃ wingẽ kant̃rol cart. Pẽrdhvj k̃hakrẽb ti yark nẽji wost. Yo matlabi yem ki ti sũrat, istimol k̃hakẽ kũzgẽ nung, woz yo tẽreqib sẽk (Leaderboard) ne winẽn. Dẽ k̃hũ yod dũrz ki lid̃ẽrbord̃ẽ (leaderboard) tabdiliyẽ c̃hk k̃hakres̃h (refresh) dẽqiqa dũrzd  ̃{ $minutes }
 
 ## Custom Goals
 
