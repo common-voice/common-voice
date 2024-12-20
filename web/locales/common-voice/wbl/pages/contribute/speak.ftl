@@ -37,7 +37,7 @@ review-cancel = Jama k̃hakẽ mansukh/ rad car
 review-keep-recordings = ricord̃ingvẽ lecẽr
 review-delete-recordings = Z̃hũ rikord̃ing but
 review-terms = Kommon Voysẽs̃h istimol k̃hẽ dẽ spo qẽsanẽs̃h jũr woc<termsLink>shart</termsLink>woz<privacyLink>rozdoriyẽ not̃is</privacyLink>
-terms-agree = wush yan k̃hanẽm/ wus̃h itifoq carẽm
+terms-agree = wush yan k̃hanẽm
 terms-disagree = Wush itifoq ne carẽm/ wus̃h yan ne k̃hanẽm
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = K̃hũ owozẽ kẽlip k̃hakẽr s̃hobos̃h
