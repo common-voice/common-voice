@@ -94,9 +94,15 @@ about-playbook-how-add-sentences-content-3 = تم استعمال کر سکے <sc
 ## How to record quality
 
 about-playbook-how-record-quality = ہوں ایک اُچا معیار کی واز کی کلپ نا کس طرح محفوظ کروں
+about-playbook-how-record-content-1 = اپنی عام زبان نا بولوں ۔جس طرح تم بولے ہم ات  خوش آمدید کہاں  ۔ ہم تھارا لہجہ نا اسی طرح دیکھنو چاہواں تے ہم واز کو والیم بھی عام سننو چاہواں تھارو اندا ز  تے انٹو نیشن نے
+about-playbook-how-record-content-2 = کاہڈ کی زیادہ واز تے بچوں ۔تم نا سننو آسان ہو چاہیے
+about-playbook-how-record-content-3 = فقراں نا غور نال پڑھو ،تبدیل کرنو یا جمع کرنو نہ چھوڈو
+about-playbook-how-record-content-4 = اس گل کو یقین کر لیو کہ پلیٹ فارام تھاری واز نا ریکارڈ کرے لگو جد تم بولنو شروع کرے تے وہ صرف بند کرے جد تم بولنو ختم کرے
+about-playbook-how-record-content-5 = <accuracyLink>دُرستکی کو اصول مزید دیکھوں </accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ہم کامن وائس پو ایک موئثر زبان کِنوں ترقی دے سکاں
 
 ## How to validate
 
