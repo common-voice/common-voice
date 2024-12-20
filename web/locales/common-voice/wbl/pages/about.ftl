@@ -7,6 +7,11 @@ how-does-it-work-text = Sakes̃h owozve "dataset" ve de khalgve mulung yi ozod (
 
 ## How does it work section
 
+about-language-req-subtitle = Koye Zik qiti k̃haker k̃hinentk.
+about-localization-title = "Website" maqomi k̃hak
+about-localization-subtitle = "website" matan hada zik tarjuma vitk.
+about-sentence-collection-title = Jumlaev jama k̃hak
+about-sentence-collection-subtitle = Khalgver S̃hukh joyne distan jumlavev jama k̃hetk
 
 ## Community Playbook Content
 ## What is a language
