@@ -1,5 +1,6 @@
 ## Error pages
 
+banner-error-slow-1 = خپا نی ہو؛ کامن وائس خس اوک سِس چلُژ تُھو۔ تیں ݜُو دلچسپی یاں کریا شُکھرتی۔
 banner-error-slow-2 = زاں لاچئ گھن٘ڑ تھی آں ہُویں بے مسلی معلوم کرِگ تھہ۔
 banner-error-slow-link = حالتیاں پن٘ڑو
 error-something-went-wrong = خَپا نی ہو، بِگ کام اوان ہُو تُھو
