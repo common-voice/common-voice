@@ -75,6 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize = سݳئٹ لݸکلݳئزݵشَنَن کِݵ رِݵ کݸم ارݵگݳ چھݳ؟
 
 ## How to add sentences
 
