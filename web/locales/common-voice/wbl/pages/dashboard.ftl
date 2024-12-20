@@ -93,3 +93,8 @@ recordings =
         [one] Rikod̃
        *[other] Rikod̃isht
     }
+validations =
+    { $count ->
+        [one] Towsiq
+       *[other] Towsiqisht
+    }

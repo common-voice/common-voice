@@ -21,6 +21,8 @@ about-dataset-release-subtitle = sakesh da her thru muy dataset oshkor caren
 about-subscribe-text = da  Common Voice'en robita'er halak zoqesh lecra?
 about-speak = Qẽsa car
 about-listen-queue = kus̃huy-qutor
+about-listen-queue-text = Voice Clip'ves̃h da yi qutor katen k̃he kus̃huy'ner tyor caren
+about-listen = Kẽs̃hũy
 
 ## Community Playbook Content
 ## What is a language
