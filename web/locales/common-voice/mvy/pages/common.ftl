@@ -208,7 +208,7 @@ st = شمالی سوٹھو
 sv-SE = سویڈنی
 sw = سواہِلی
 syr = سیریَک
-ta = تامِل
+ta = تامِل/ٹَمل/کُن٘ڈلو
 te = تِلوگو
 teg = ٹیکی
 tg = تاجِکی
@@ -274,10 +274,16 @@ donate = خلکؤں دے
 return-to-cv = پاتُو کامَن‌ وائسوَیں گُھرہ
 email-input =
     .label = بِجلی خط (ای میل)
+loading = ایں والا تُھو…
+email-opt-in-info = مہ خوش تُھو چے مے کامن وائس نہ کَمواں یادی ایَئیں، کماں مُوٹُھو ڙھس ہوئ یاں رِکاڈ آں خبرخطی وَیں بابتی مہ بِجلی خطی ایں۔
 email-opt-in-info-title = کامن وائساں خطی وَیں لیشی ٹَل ہو
+email-opt-in-info-sub-with-challenge = امَیں ݜے لک بِجلی خطی ایا چے سیوں مہ گِران کام، نخ یادی اَیؤں، کام کتُک مُوٹُھو ڙَھس ہُون٘د، آں کامن وائسَں خبرخطی ہوں۔
+indicates-required = تارٹُویں (*) زئ ہر گِشے  پورؤں تُھو۔
 not-available-abbreviation = نیتُھو
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = </mark>تَیں تحقیقاں دَن <mark> <br/></mark> سی وی استعمال کیر تٗھویی؟<mark>
 localization-select =
     .label = ژیب / علاقہ خوش کرہ
