@@ -22,6 +22,9 @@ about-voice-validation-title = چھَتݵئ تصدِݵق کُݽ
 about-voice-validation-subtitle = اݸر بندݺ ہݵئ چھَتݵئ کِلِپݵݣݺ تَصدِیق اِرݵݣݺ چھݺ.
 about-dataset-release-title = ڈݵٹݳ سݵٹ رِلِیز
 about-dataset-release-subtitle = اَمݺ ہَر 3 مݴسمݸ ڈݵٹݳ سݵٹ جݳرِی رَم چھݸم
+about-subscribe-text = تُمݺ کݳمَن وݳئسَس کݸٹ رݳبطَنَہ بݵشِنݳئ رݳئ رݵگݸ چھݸتݺ؟
+about-speak = مُن
+about-speak-text = حِصَہ دݵنݣݺ ایݣݺ دݵنݺ اݵݣ جُملݵݣے بݵنکَس مݸ مُنِی چھَتݵئ کِلِپݸنݣ ریکݳٹ ارݵݣݺ چھݺ.
 
 ## Community Playbook Content
 ## What is a language
