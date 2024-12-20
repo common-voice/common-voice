@@ -69,7 +69,7 @@ sentence-variant-select-multiple-variants = عام جِب / باٞر بداٞل 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = بار کٞر<icon> </icon> عوامی ڈومیںاٞں جُملاٞ
+sc-bulk-upload-header = بار کٞر<icon> </icon> عوامی ڈومیناٞں جُملاٞ
 sc-bulk-upload-instruction = تانی فائل گشی لکالین ہِماک گھیٞہ یا<uploadButton> بار کٞروگیں کیر کلِک کٞر </uploadButton>
 sc-bulk-upload-instruction-drop = بار کٞروگیں کیر فائیل ہماٞ رہ تل
 bulk-upload-additional-information = لخہ اِیں فائیلاٞں باٞراٞ مئ تُو دی کٞہ مالومات پھݭانش تہ ماٞربینی کاٞ رابطہ کٞر <emailFragment>commonvoice@mozilla.com</emailFragment>
