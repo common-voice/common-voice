@@ -1,9 +1,9 @@
 ## Download Modal
 
 download-title = ti downloadi ogh̃oz vitk/ ti downlowd̃i shẽtu vitk..... ti d̃ownlowd̃ẽ oghoz k̃het. / ti d̃own lowdi shẽru vitk.
-download-helpus = wezit voice technology gird yi jamoat tyor caren, email zaryan robita'er halen
+download-helpus = wezit voice technology gird yi jamoat tyor caren, email zaryan robita'er halen.... voys teknolojiẽ gird yi jamat tiyor k̃hakẽr sakẽr mẽdad woc, sẽk emailẽ sak tẽr lẽman halẽn.
 download-form-email =
-    .label = k̃hu email darj car
-    .value = s̃hobos̃h, sakep robita'er halen
+    .label = k̃hu email darj car......... k̃hũ email darj car
+    .value = s̃hobos̃h, sakep robita'er halen....... s̃hos̃h sakẽm robitar halẽn
 download-back = common voice datasets'er pishew
 download-no = ney s̃hobos̃h
