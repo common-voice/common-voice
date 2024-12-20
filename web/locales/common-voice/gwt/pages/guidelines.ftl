@@ -61,3 +61,6 @@ public-domain-explanation-6 = حکومت نام، فائدہ نہ ݪِݪہ اِ�
 citing-sentences-explanation-1 = حوالہ نامہ لُبُساوَہ ضرور تھنہ تہ امہ چېک کېری بَئیکہ زی کَلاؤ عوامی ڈومېنہ تھنَئیت اؤ کاپی رائیٹَنی کی بندېز نہ لگِمان۔
 citing-sentences-subheader-websites = وېب سائٹس
 citing-sentences-subheader-websites-explanation = مے وېب سائٹ لُبُسَئ بمانېؤ، لکہ چہ "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = تعلیمی حوالہ
+citing-sentences-subheader-academic-reference-explanation = مے اېکېڈېمِک حوالہ ݪِکَنہ طرېقہ استعمال کېری بَمانېؤ، لکہ چہ ہارورڈ اِسٹائل ”موزیلا (2021) کامن وائس۔https://commonvoice.mozilla.org/ (رتئ لېوان دِمان: 15ستمبر 2021)”
+citing-sentences-subheader-offline-sources = آف لائن ذرائع
