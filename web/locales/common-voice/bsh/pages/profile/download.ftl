@@ -24,3 +24,7 @@ download-request-archive-multiple = زیپ فائلہ مع { $archiveCount } ب�
 download-request-assembling-description = توستہ فائلہ وسعݩاتہت۔ مہربانی کہ تے دبارہ ایݩش کشی
 download-request-refresh-button = تازہ کشی
 download-request-modal-title = لینک ووکݜا
+download-request-modal-description = توستہ زیپ فائلہ ووکݜاستہ کہ لینک امنی آئی۔
+download-request-link-text = زیپ{ $offset } ستہ{ $total }
+download-request-metadata-link = جملہ ستہ متن
+download-request-link-single = تیو توستہ یو ار ایل تو شتان کعستہ ڈانلوڈ منیجر تہ کاپی یا پیسٹ دی کو بچی۔ امکیاں ستہ معاد 12گھنٹہ اسہ ، لیکن تیو نوئی ایپاستہ کہ دی واپس اینہ صفحہ تہ اڅہ بچی
