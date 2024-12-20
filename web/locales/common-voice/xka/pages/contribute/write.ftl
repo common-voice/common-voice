@@ -131,6 +131,13 @@ add-small-batch-success =
         [one] ۔۔۔۔۔۔۔۔۔۔۔۔جولال سمٹیل
        *[other] جملا سمٹیل
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] جملا سمٹیل۔۔۔۔۔۔رجکٹ جملا ڈاون لوڈ ۔ایں کیراما ا ٹسار دا
+       *[other] ۔۔۔جولال معتال۔۔۔۔نا اخلی جولال  اوکالیل کیر اما اٹسار دہ
+    }
+small-batch-sentences-rule-1 = گاییڈ لاین پر چا۔گہ ذات جملہ مہ ٹل تیبوں
 small-batch-sentences-rule-3 = اک ا  کریک می جملا اراک تہانٹر
 small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
 small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔
