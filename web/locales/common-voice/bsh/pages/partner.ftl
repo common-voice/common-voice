@@ -10,3 +10,5 @@ partnerships-foundations-description = ایمو مشریقی افریقہ خصو
 partnerships-governments-header = مر وار
 partnerships-governments-description = ایمو ٹکنالوجی ، نوئی وار، ورے ستے حقوق تہ عوامی سکٹر سنہ تے تعاون کوستہ تہ پر جاش اسہمیش۔ اگر تیو کائ پراجیکٹ یا مہم چلا ستہ کہ وشتہچی با ، مہرانی کہ<emailFragment>رابطہ کشی</emailFragment>
 partnerships-academia-header = یونیورسٹی، ماہر تعلیم، تحقیق کولہ۔
+partnerships-academia-description = ایمو کائ کوتمیش با ستہستہ زرہ تہ آزاد انوویشن اسہ۔ تحقیقی تعاون، ڈیٹا وسݩستہ یا انٹرویو ۔<emailFragment> پعاعں</emailFragment>
+partnerships-small-business-header = لوکہ کاروبار، بشمول ٹیک دے اے آئ ، سٹارٹ اپس
