@@ -78,9 +78,15 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائیٹ لوکلائزیشن کِنوں کم کرے ؟
+about-playbook-how-localize-content-1 = کامن وائس کو ترجمو موجود ہے <strong>پونٹون  پو </strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink> اپنو اکاؤنٹ بناؤ۔</pontoonAccountLink>کدے تھارو نیہہ فر اپنی زبان چُنو <strong>ٹیم </strong>تے فر پروجیکٹ چُنو <pontoonCvLink>کامن وائس </pontoonCvLink>۔ات فائل وھے گی ترجمہ واسطے ۔ایک پو کلک کروں ،فر یاہ انگلش ما حرف دَسے گی تے ایک بکس ترجمو کرن واسطے
+about-playbook-how-localize-content-3 = ترجمہ انگریزی تے ہے لیکن تم دیکھ سکے <strong>تجاویز </strong>دُوجی زباناں ما۔کلک کروں <strong>فائل ،آئیکن ،فر <strong>ترتیبات </strong>لنک کرو تے جمع کرو کوئی وی زبان جہڑی تم بولے۔ ترلے سِرے سجا ہتھ پو کونا ما لسٹ وھے گی ترجمہ کی جس نا  <strong> لوکلز کہے </strong>۔ترجمو سائیٹ پو ایک سن کاہڈ دسے گو ۔
+about-playbook-how-localize-content-4 = سائیٹ شروع کرن واسطے تیار ہے جد یاہ پ 75 فیصد پو ری  ہو جائے
+about-playbook-how-localize-content-5 = مھاری مدد کرن ہالی وضاحتی ویڈیو نا دیکھوں
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ہوں فقرا کِنوں جمع کروں
 
 ## How to record quality
 
