@@ -23,6 +23,7 @@ data-bubble-subtitle = بے تاں ڈیٹا سیٹ وَخ نا وَخ کُھلا
 contact-us = زاں مِل بال الاؤ کری
 contact-us-title = زَیں ݜُو منصوبہ مہ شامِل ہوئیں یاں یا زؤں ملی ٹَل ہوئیں یاں غرضی تُھوئی؟
 contact-us-email = بِجلی خط (ای میل): <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-terms = “میں بجلی خطی لا کڑہ ڇِہے” اسی لا ٹک کرئیں مقصد ݜُو تھی چے تُوۡ زاں<termsLink>خدمتی یاں شرطہ</termsLink>تے<privacyLink>رازداری یاں اصولؤں</privacyLink>لا راضی تُھو آں ݜسے گتہ خوش تُھو چےۡ موزیلا تے بجلی خط ڇِہے ہاں تُھو ݜس معلومات دیں یاں کریا چےۡ "کامن وائسں ڈارِک بلی بنَیں یاں" پراجیکٹَیں اولَیں ٹیسٹن٘گ گِشے کراں تھو۔
 signup-input-placeholder = تاں ای میل (بجلی خط) لِکہ
 signup-button-value = کَڑہ(لِنک) مے بجلی خطی(ای میل) لا ڇِہے
 footer-text-privacy = <privacyLink> اَپُویں</privacyLink>
