@@ -8,6 +8,7 @@ partnerships-foundations-description = بے فاؤنڈیشنؤں مِلیۡ، س
 partnerships-governments-header = حُکمتی
 partnerships-academia-header = یونیورسٹیہ، تعلیم مِلیۡ گَن٘ڈژیل آں تحقیق کران٘لہ
 partnerships-small-business-header = لیکھہ اُپارہ، ٹیک آں اے آئ شُروعاتہ شامل تھہ
+partnerships-corporates-header = گھیں دَرجاں کارپُوۡریٹہ آں پلیٹ فام کمپنیہ
 partnerships-our-partners = زاں مرگلئ
 # menu item
 partners = مرگلئ
