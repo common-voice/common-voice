@@ -19,6 +19,8 @@ feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی
 community-playbook = خلکاں باشَیں یاں کتاب
+resource-playbook-info = ژیب تَیں رؤں، ڈیٹا سیٹاں استعمال آں زاں خلکؤں ملی رابطہ کرَیں ہاریساری ”کامن وائسَیں“ سفری مہ زَیں <playbookLink> مدد ہرہ</playbookLink>
+data-other-librispeech-description = LibriSpeech تقریبا 1000 گین٘ٹی وَیں ان٘گرزیں بلی یی تے اوازاں کِتابؤں نہ پڑژیلی بلی تھی کؤں چے LibriVox project پراجیکٹ نہ اؤژی تھی۔
 data-other-ted-name = ٹیڈ-لِیَم کارپس
 data-other-ted-description = ٹیڈ-لِیَم کارپس TED ویب سائٹہ لا موجُود اوازاں مشقُلا آں تسِیں لِکیلی حالتی نہ سن٘دژی تُھو
 go-discourse = بال الاوَیں زئ بہ
