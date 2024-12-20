@@ -26,23 +26,23 @@ target-segment-first-banner = Tamó kúi yoráka pu'ká pačá yoraniáme iká 
 target-segment-add-voice = Toamítia amó nawésari
 target-segment-learn-more = Epečé weiká informasión
 change-preferences = Nakuríwaniame ahpó inowaéka
-login-signup = Oinemera sesión neteka/ regitradosa
+login-signup = Oínemera sesión neteká/ amó puntaroása
 vote-yes = Eheé
 vote-no = Ka'í
-datasets = Conhuntočii tewara
-languages = Weika naewasari naewaniame
-about = wapí waá
-partner = Yoomatiame socioba
-submit-form-action = itočeniame
+datasets = Weikána napéraeme tewará
+languages = Weiká nawésari
+about = Wapí wa'á
+partner = Yomatiáme tamó kuyáme
+submit-form-action = itóčeniame
 
 ## Reporting
 
-report = Informandomia naewasari
-report-title = Itočeniame informe netesa
-report-ask = ¿ithana uhu puú newesari?
-report-offensive-language = naereka nawesamé
-report-offensive-language-detail = Kíyoreká nawesanimú naeračanimú.
-report-grammar-or-spelling = Wekaka yo'ratiame o pu'ká  i'yotetiame
+report = Tuyémia nawésari
+report-title = Itočeniame informe netesá
+report-ask = ¿ithána uhú puú kikawetiamé nawésari?
+report-offensive-language = Naéreka nawésame
+report-offensive-language-detail = Kíyoréka nawésanimu naéračanimu
+report-grammar-or-spelling = Wekáka yorátiame  pu'ká  iyotétiame
 report-grammar-or-spelling-detail = I'hi na'wesari i'niwae we'kaka yoratiame o pu'ká yo'tetiame
 report-different-language = Pireči naewasari
 report-different-language-detail = Yo'teniame ka'ti pi'repi na'wesariči se'wina če'ka ki'no na'iwačitia
