@@ -18,6 +18,9 @@ about-voice-validation-title = owoz durustgi
 about-voice-validation-subtitle = digar khalgisht ya owoz clip've ozmud caren
 about-dataset-release-title = Dataset oshkor
 about-dataset-release-subtitle = sakesh da her thru muy dataset oshkor caren
+about-subscribe-text = da  Common Voice'en robita'er halak zoqesh lecra?
+about-speak = Qẽsa car
+about-listen-queue = kus̃huy-qutor
 
 ## Community Playbook Content
 ## What is a language

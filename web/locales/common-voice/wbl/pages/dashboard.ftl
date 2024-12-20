@@ -76,6 +76,20 @@ share-goal-type-both = K̃hẽnak woz kẽs̃hũn/ k̃henakẽt k̃s̃hũn
 goal-share-text = Maz̃hẽ #kommonVoysẽr zoti maqsad k̃hetk-mar medad wocit, mashinẽ joyũvẽn ki khalgẽs̃h cersokht k̃hand { $link }
 weekly-goal-created = Ti haftawor maqsadẽv khẽtk
 daily-goal-created = Ti harorẽ maqsadẽv k̃hetk
+track-progress = hẽdrem khũ hisobkitobẽ tẽrẽqiyẽ didig̃h
+return-to-edit-goal = Kum bẽ soat pẽspudh hadrem k̃hu maqsadẽ badal
+share-goal = K̃hũ maqsadẽ shomil
 
 ## Goals
 
+streaks = Chirgisht
+days =
+    { $count ->
+        [one] Ror
+       *[other] Rorisht
+    }
+recordings =
+    { $count ->
+        [one] Rikod̃
+       *[other] Rikod̃isht
+    }
