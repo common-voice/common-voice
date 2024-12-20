@@ -30,3 +30,11 @@ profile-form-add-accent = نونگہ ضرورَتَنہ مطابق لہجا”{ 
 profile-form-submit-save = خۡندی کېرِؤ
 profile-form-submit-saved = خُندی کېران گہ
 male_masculine = لَوڑی/ لَوڑی زَن
+female_feminine = شگالی/ شگالی رنگہ
+intersex = نرخَزَئی
+transgender = ٹرانس جېنڈر
+non-binary = غیر بائنری
+do_not_wish_to_say = ژَئیکاں ݭېنݭ نہ بِمان
+# Gender
+other = واری
+why-profile-title = پروفائل کېناں؟
