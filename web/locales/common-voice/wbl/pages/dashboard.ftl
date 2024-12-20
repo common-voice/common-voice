@@ -14,6 +14,10 @@ everyone = kũk̃ht/ k̃ũtan
 contribution-activity = shẽrikat doriẽ yark
 top-contributors = cẽ kũk̃htẽn ghafch shirkat dori
 recorded-clips = Rekord̃ k̃hetk klip
+validated-clips = towsiq k̃hetk klip
+total-approved = kul manzũr
+overall-accuracy = Ijtimoi drustẽgi/ pẽtun drũstẽgi/ kũl drũstẽgi
+set-visibility = Maz̃h winge set̃ car/ z̃hũ moujudẽdiyẽ set̃ car
 
 ## Custom Goals
 
