@@ -35,6 +35,23 @@ easy-difficulty = آسان
 average-difficulty = متناسب
 difficult-difficulty = مشکل
 pro-difficulty = پہلو
+lose-goal-progress-warning = تم اپنا گول نا بدل کے ، تم اپنی موجودہ ترقی نا نقصان کرسکے
+want-to-continue = آیو تم جاری رکھنو چاہئے ؟
+finish-editing = تبدیلی نا پہلاں ختم کروں
+lose-changes-warning = اس ٹیم چھوڈن کو مطلب یوہ وھے کہ تم نے اپنی تبدیلی ضائع کر چھُڑی
+build-custom-goal = ایک کسٹم گول بناؤ ں
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] مدد تا پوہچو { $hours }گھنٹا ما { $language }ایک ذاتی گول نال
+       *[other] مدد تا پوہچو { $hours }گھنٹاں ما { $language }ایک ذاتی گول نال
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامن وائس کی پوہچ { $hours }گھنٹو ایک زبان کو ایک ذاتی گول نال
+       *[other] کامن وائس کی پوہچ { $hours }گھنٹا ایک زبان کو ایک ذاتی گول نال
+    }
+set-a-goal = ایک گول سیٹ کرو
+cant-decide = فیصلو نیہہ کر سکتو
 
 ## Goals
 
