@@ -17,3 +17,4 @@ varying-pronunciations-explanation-2 = ورِی بکے، کېنے زی میاں 
 varying-pronunciations-example = فنت صفا نہ بُوئی۔
 varying-pronunciations-tip-1 = [کېنېڈانی انگرېزی ”رُوٹَ” ”رُوٹَ” نی گاݭٹے کھنٹہ ݪی بَمان]
 varying-pronunciations-tip-2 = [برطانیا نی انگرېزی ”ناڑ” ”ناڑ”ݫُپَئ بَمان]
+offensive-content-explanation = کَلاوَنی ازمېخ برادرِیَنہ اعتدالَنہ عمَلَنہ ذریعہ ئے کېران دِمان، گِرِی بی ووئی ݪم فُورہ نہ تھنہ۔ کېنے زی مے کرېک اِشِلی کلاؤ تمانېؤ یا ݭُنڈِمانؤ بہ زی مے روݭَمان یا پرېشان کېرِمان بہ۔ مثالَنہ طورے ووئی زی امَنی خلاف ورزی کېرِمان<participationGuidelines> برادرِیَنی شرکت فنت لېڑَئیݪی رِک</participationGuidelines>۔ مېرَبانی کېری کېرِؤ۔ یو آئی یَہ فلېگ بٹن استعمال کېرِؤ۔ مے امہ مِنزی اِتے رتئ بی رابطہ کېرہ بَمانېؤ<emailFragment>commonvoice@mozilla.com</emailFragment>۔
