@@ -87,9 +87,13 @@ about-playbook-how-localize-content-5 = مھاری مدد کرن ہالی وضا
 ## How to add sentences
 
 about-playbook-how-add-sentences = ہوں فقرا کِنوں جمع کروں
+about-playbook-how-add-sentences-content-1 = تم فقرا جمع کر سکے اس پو <writePageLink>صفحو لکھوں </writePageLink>یا فقرا ں کو جائزو لیو <reviewPageLink>جائزہ کو صفحو </reviewPageLink>
+about-playbook-how-add-sentences-content-2 = فقراں لازمی طور پو چیک کیا وا وھے تے کم تے کم دو ادمی انہاں نا قبول کرے جہرا کامن وائس ما شامل کیاہے ۔تم اپنی زبان واسطے ہدایت نے بنا سکے <languageGuidelinesLink>ات </languageGuidelinesLink>جملا پبلک ڈومین ما ہونا چاہیے </licenseLink> تے پندرہ تے گھٹ حرفاں کا ہونا چاہیے ۔تم عبارت لکھن ہالا تے پوچھ سکے <waiverLink>سی سی 0 اپنو دیکھن کو مرحلو </waiverLink> تے مھارے تا بھیج سکے commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = تم استعمال کر سکے <scraperLink>فقراں نا کڈھن ہالو </scraperLink>چھوٹا فقرا لین واسطے وکی  پیڈیا تے
 
 ## How to record quality
 
+about-playbook-how-record-quality = ہوں ایک اُچا معیار کی واز کی کلپ نا کس طرح محفوظ کروں
 
 ## How to grow language
 
