@@ -55,6 +55,7 @@ cant-decide = faysila basẽs̃h ne wezim?
 how-many-per-day = gok̃h! haror cum klip? harorẽs̃h cum klip gok̃h?
 how-many-a-week = gok̃h! cum klip har hẽfta?/ har hẽftas̃h cum klip gok̃h?
 which-goal-type = Tus̃h sirf k̃hẽnak, kẽshũnẽ zoqa ne kifch?
+receiving-emails-info = Maqsade sek yod wẽzũmnẽ mẽtobiq tut email wẽsuler tiyor, z̃hũ tẽreqi malumotẽ mutobiq, Kommon Voysẽ barar z̃hũ yodẽhoni, tẽreqi woz khẽbarẽ khat
 
 ## Goals
 
