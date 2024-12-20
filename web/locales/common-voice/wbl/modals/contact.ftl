@@ -5,4 +5,4 @@ contact-form-name =
     .label = nung
 contact-form-message =
     .label = pyghom... payghom/ peghom
-contact-required = zaruriyi... rẽrũriyi
+contact-required = zaruriyi...Zẽrũriyi
