@@ -14,3 +14,7 @@ partnerships-academia-description = ایمو کائ کوتمیش با ستہست
 partnerships-small-business-header = لوکہ کاروبار، بشمول ٹیک دے اے آئ ، سٹارٹ اپس
 partnerships-small-business-description = ایمو ہمیشہ ڈیٹا استعمال کولاں ضروریات دے سیاق و سبق بارا تہ کارتہ ستہ شتان کوتہمیش۔ ڈیٹا وسعݩستہ ستہ پلیٹ فارم تہ تعاون کوستہ ستعں گا تے ڈیٹا ستہ درستگی تا ویک <emailFragment> ایمو شا کوتہستہ وگاتمیش</emailFragment>
 partnerships-corporates-header = الہ پیمانہ تہ کارپوریٹس دے پلیٹ فارم کمپنی
+partnerships-corporates-description = اگر تیو ڈیٹا سیٹ بارا تہ مزید ولہستہ وگہچی با منصوبہ بند پیلٹ فارمہ توسیع تہ مشترک سرمایہ کاری کوستہ وگہچی با  یا تعاون کوستہ کہ ساس ایݩش کوچی با ایمو تہ <emailFragment>اشارہ کشی</emailFragment>
+partnerships-our-partners = ایموستہ پلئیان
+# menu item
+partners = پلئیان
