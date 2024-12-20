@@ -119,6 +119,18 @@ rate-limit-message-minutes =
         [one] تو اوں پیج می جمع تالے حد تہ پݭ۔دی جمع تال کیر ا ۔۔۔۔۔۔ منٹ کٹار
        *[other] اوںپیج می جمع تال کیر باگ نان۔۔ دی جلال پامیلونس تےاتیش  صبر تہ۔ماربینی
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] لجمع تال کیر تو حد تہ۔پݭ۔دی جمعتال کیر اتیݭ کٹآر۔ماربینی آشل
+       *[other] جمع ترال۔کیردی باگ نان۔دی پا ٹل تونس تے اتیش ناکام تہ۔ماربینی
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] ۔۔۔۔۔۔۔۔۔۔۔۔جولال سمٹیل
+       *[other] جملا سمٹیل
+    }
 small-batch-sentences-rule-3 = اک ا  کریک می جملا اراک تہانٹر
 small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
 small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔
