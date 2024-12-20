@@ -27,6 +27,8 @@ about-listen-text = User'isht bakhs̃h k̃hetk clip've rostig̃he tayin caren, w
 about-is-it-valid = Clip rost teya?
 about-is-it-valid-text = Voice clip'esh "drust" nis̃hun din, cay waqtes̃h'ki user yower Yan vote rand
 about-yes-votes = ≥ 2 yan votisht
+about-yes-votes-text = da Common Voice dataset wuzumner, yi voice clip bu user'ver durust dishn wost
+about-no-votes = ≥ 2 bu ney votisht
 
 ## Community Playbook Content
 ## What is a language
