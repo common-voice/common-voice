@@ -19,12 +19,14 @@
     & .goal-title {
         font-size: 14px;
         line-height: 1.71;
+        max-width: 280px;
     }
 
     & .submittable-field {
         margin-bottom: 20px;
         display: flex;
         flex-direction: row;
+        max-width: 300px;
     }
 
     & input,
@@ -64,7 +66,7 @@
     }
 
     & .submit-button {
-        background-color: var(--blue);
+        background-color: var(--light-purple);
 
         & .icon {
             height: 12px;
@@ -101,6 +103,7 @@
     & .labeled-checkbox {
         display: flex;
         justify-content: center;
+        max-width: 300px;
     }
 
     & .checkbox-container {
