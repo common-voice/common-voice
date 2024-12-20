@@ -52,6 +52,11 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ایک گول سیٹ کرو
 cant-decide = فیصلو نیہہ کر سکتو
+how-many-per-day = بہت اعلیٰ ، ایک دن کی کتنی کلپس ؟
+how-many-a-week = بہت اعلیٰ ، کتنے کلپس ایک ہفتے کے ؟
+which-goal-type = تم بولن چاہو، سنن چاہو یا دوہے ؟
+receiving-emails-info = تم نا ہون ای میل لبھے گی ، جس طرح گول کی یادہانی کی میر ی ترقی کی موجودہ صورتحال تے خبر کامن وائس کا بارا ما
+not-receiving-emails-info = تم ہون سیٹ ہویا ہے <bold>نہیں </bold>گول کی ای  میل حاصل کرے گا یادہانی کی ، ترقی کی صورتحال تے خبر کامن وائس کی
 
 ## Goals
 
