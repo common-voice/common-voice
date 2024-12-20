@@ -3,6 +3,9 @@
 language-section-in-progress = جاری سہ
 language-section-in-progress-new-description = امنی وری استرک کمیونٹی ستہ ترقی پکعو اى <localizationGlossaryLink> ویب سائٹ مقامی ایپوستہ<sentenceCollectionGlossaryLink> جملہ مجموعہ</sentenceCollectionGlossaryLink> شروع کوستہ کہ ضروری ای۔
 language-section-launched = شروع کعسہ
+language-section-launched-description = امنی شروع دیو کہ ویب سائٹ کامیابی مع<localizationGlossaryLink>مقامی  ایپئا</localizationGlossaryLink>او <sentenceCollectionGlossaryLink> جملہ جمع کعستای</sentenceCollectionGlossaryLink> تاکہ راوان <speakLink> ولّلہ</speakLink>او<listenLink>   سݣہ</listenLink> شریک بولوں کہ اجازت پعہ ستہ بؤلو۔
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = اخری  اپڈیٹ
 languages-show-more = ورہ دی اوش کشݩع
 languages-show-less = اچاک اوش کشݩع
 language-meter-in-progress = ترقی
