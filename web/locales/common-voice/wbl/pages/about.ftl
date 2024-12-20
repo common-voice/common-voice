@@ -13,6 +13,11 @@ about-localization-subtitle = "website" matan hada zik tarjuma vitk.
 about-sentence-collection-title = Jumlaev jama k̃hak
 about-sentence-collection-subtitle = Khalgver S̃hukh joyne distan jumlavev jama k̃hetk
 about-new-lang-title = S̃heg̃hd Zike Soat K̃hak
+about-voice-contrib-subtitle = khalgisht wezin woz k̃hu owoz've peesh caran
+about-voice-validation-title = owoz durustgi
+about-voice-validation-subtitle = digar khalgisht ya owoz clip've ozmud caren
+about-dataset-release-title = Dataset oshkor
+about-dataset-release-subtitle = sakesh da her thru muy dataset oshkor caren
 
 ## Community Playbook Content
 ## What is a language

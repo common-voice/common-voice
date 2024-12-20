@@ -65,6 +65,17 @@ n-clips-pluralized =
 help-share-goal = Maqsad sẽtũynẽr sakẽr ziyoda owoz hosil k̃hakẽ mẽdad
 confirm-goal = Maqsadẽ tasdiq car
 goal-interval-weekly = Haftawor
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Khũ harorẽ maqsade qẽti shomil car { $count }{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Haftawor maqsadẽ klipẽ shomil { $count }{ $type }
+share-goal-type-speak = K̃hẽnak
+share-goal-type-listen = Kẽs̃hũyn
+share-goal-type-both = K̃hẽnak woz kẽs̃hũn/ k̃henakẽt k̃s̃hũn
+# LINK will be replaced with the current URL
+goal-share-text = Maz̃hẽ #kommonVoysẽr zoti maqsad k̃hetk-mar medad wocit, mashinẽ joyũvẽn ki khalgẽs̃h cersokht k̃hand { $link }
+weekly-goal-created = Ti haftawor maqsadẽv khẽtk
+daily-goal-created = Ti harorẽ maqsadẽv k̃hetk
 
 ## Goals
 
