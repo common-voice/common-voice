@@ -69,9 +69,15 @@ about-playbook-how-add-language = ہوں ایک زبان نا کِنوں شام�
 about-playbook-how-add-language-content-1 = پہلاں دیکھوں کدے تھاری بان <languageLink>پہلاں تے موجود ہے </languageLink>کدے یاہ نیہہ تم کر سکے <languageRequestLink> پوچھ سکے اپنی زبان نا جمع کرن واسطے </languageRequestLink>۔دو مراحل ہے ات ،سائیٹ کو ترجمو کرنو تے فقراں کو جمع کرنو
 about-playbook-how-add-language-translating-heading = سائیٹ کو ترجمو کرنو
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>مھاری ہدایت نا دیکھوں کہ پنٹوں نا کِنوں استعمال کرے </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = ہم نا موزیلا ٹول  کہیے <pontoonLink> پونٹون </pontoonLink>ترجمہ واسطے۔پونٹون ما مُچ ساری زبان وھے لیکن کدے اس ما تھا ری زبان نیہہ تے تم کر سکے <pontoonRequestLink>اپنی زبان کی درخواست جمع کرن واسطے </pontoonRequestLink>۔۔فر زبان نا  کامن وائس پروجیکٹ پو دستیاب ہون واسطے<githubRepoLink>درخواست کرو گٹ ھب نا نئی زبان واسطے ۔</githubRepoLink><localizationFragment> تے ترجمہ کی سائیٹ پو ہور دیکھوں </localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = فقراں نا جمع کرنو
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>مھاری ہدایت دیکھوں فقراں نا جمع کرن واسطے </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = تم چھوٹا فقرا </sentenceCollectorLinkAdd> جمع کر سکے <sentenceCollectorLinkAdd> یا تم کر سکے <bulkImportDocsLink>گٹ ھب نا استعمال کر کے بڑا جملہ بے لے سکے </bulkImportDocsLink>یاد رکھوں جملاں نا لوڑ وھے <licenseLink>سی سی یا پبلک ڈومین </licenseLink>یا تم اپنا بے لکھ سکے
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملا جمع کرن واسطے ہور دیکھوں </sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = سائیٹ لوکلائزیشن کِنوں کم کرے ؟
 
 ## How to add sentences
 
