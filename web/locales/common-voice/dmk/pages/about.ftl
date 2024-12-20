@@ -19,6 +19,9 @@ about-new-lang-subtitle = اَمݺ کݳمَن وݳئسݵئ شُرُݸع اݽݳئ
 about-voice-contrib-title = چھَتݵئ حِصَہ
 about-voice-contrib-subtitle = بندݺ آݣݺ چھݺ نݸ اپَنݵئ چھَتݵئ حِصَہ دݵݣݺ چھݺ.
 about-voice-validation-title = چھَتݵئ تصدِݵق کُݽ
+about-voice-validation-subtitle = اݸر بندݺ ہݵئ چھَتݵئ کِلِپݵݣݺ تَصدِیق اِرݵݣݺ چھݺ.
+about-dataset-release-title = ڈݵٹݳ سݵٹ رِلِیز
+about-dataset-release-subtitle = اَمݺ ہَر 3 مݴسمݸ ڈݵٹݳ سݵٹ جݳرِی رَم چھݸم
 
 ## Community Playbook Content
 ## What is a language
