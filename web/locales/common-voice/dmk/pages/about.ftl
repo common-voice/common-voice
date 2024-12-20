@@ -53,7 +53,7 @@ about-stay-in-touch-text-2 =
     یݳ <matrixLink> مݵٹریکسنݳ </matrixLink> کݸٹ ہݸئی ݽَتَݳ مَشُݸرَہ لݸ.
 about-nav-why-common-voice = کِجݺ ؟
 about-nav-how-it-works = کِݵ ہݸئی ؟
-about-nav-partners = کݸٹ کمݸنݺ
+about-nav-partners = کݸٹݸ کمݸنݺ
 about-nav-get-involved = کݸٹ ہُݸّݳ
 about-nav-how-it-works-2 = کݳمَن وائس کݵ رِݵ کݸم اِرݵگہ چھہ؟
 about-nav-playbook = چھݵچݳ تݳ کݵ رِݵ حِصَہ لݵنݳ چھَݳ
