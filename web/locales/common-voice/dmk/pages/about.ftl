@@ -65,6 +65,10 @@ about-playbook-what-is-language = کݳمَن وݳئسَس باݽ کِسَکݳ چ
 
 ## How do I add a language
 
+about-playbook-how-add-language = اُݸ کݵ رِݵ باݽ کݸٹ ارݳس؟
+about-playbook-how-add-language-translating-heading = سݳئٹݵئی تَرجُمَہ رِنݳ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> امݳ چھِچَلُݸݳنݳ دݵکھݳ تݳ کݵ رِی پݸنٹݸن اِستِمݳل اِرݵݣݺ چھݺ.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = جُملݳݣہ جَمَع رِنݳ
 
 ## How does localization work
 
