@@ -29,6 +29,10 @@ about-is-it-valid-text = Voice clip'esh "drust" nis̃hun din, cay waqtes̃h'ki u
 about-yes-votes = ≥ 2 yan votisht
 about-yes-votes-text = da Common Voice dataset wuzumner, yi voice clip bu user'ver durust dishn wost
 about-no-votes = ≥ 2 bu ney votisht
+about-no-votes-text = cay wakht'es̃h ki yi user voice clip qubul ne cart yow'es̃h da qutor pishit. bu gudor qubul ne wocner ya voice clip'es̃h ra clip qabriston pirvit
+about-dataset-new = Common Voice Dataset
+about-dataset-new-text = da Common Voice Dataset'es̃h cum sad hazor owoz namun'isht wocen kumdes̃h'ki sokhtmon'er owoz dishn'e owzor'ev tyor k̃hak'er madad wost
+about-clip-graveyard = Clip Qabriston
 
 ## Community Playbook Content
 ## What is a language
