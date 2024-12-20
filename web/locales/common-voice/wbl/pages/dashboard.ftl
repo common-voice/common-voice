@@ -12,6 +12,8 @@ awards = aword̃isht
 you = tu
 everyone = kũk̃ht/ k̃ũtan
 contribution-activity = shẽrikat doriẽ yark
+top-contributors = cẽ kũk̃htẽn ghafch shirkat dori
+recorded-clips = Rekord̃ k̃hetk klip
 
 ## Custom Goals
 
