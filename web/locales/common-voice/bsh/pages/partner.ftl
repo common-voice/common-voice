@@ -6,3 +6,5 @@ partnerships-become-a-partner = عام کوٹہ ستہ پلئی بو
 partnerships-community-header = کمیونٹی، تخلیقیات دے سول معاشرہ
 partnerships-community-description = کمیونٹی عام کوٹہ ستہ بروپعلی زرہ اسہـ امکی پورا دنیا تہ ستعں آجا، او ورے تہ کودیوم کولہ دے سائنسدان، دے کارہ آئ۔ شا ایموستہ<about></about>صفحہ ایموستہ مشیں کتاب <community> تی سنہستہ کہ اچا دی زعں بتعں</community>۔ار شا وشچے تنظیم تہ پلئ بوستہ ستہ شتان کوتعں با رابطہ کشعں۔</emailFragment>
 partnerships-foundations-header = مم
+partnerships-foundations-description = ایمو مشریقی افریقہ خصوصی توجہ مع، انٹرنیٹہ لستہ وش وا جائ اپیاستہ کہ فاونڈیشن، سول سوسائٹئ، کمیونٹی ستہ پلئی مع کودیوم کوتہمیش۔ ایموستہ <programmaticWork> پرگرامی کودیوم </programmaticWork> بارا تہ اچا دی زعں۔</programmaticWork>
+partnerships-governments-header = مر وار
