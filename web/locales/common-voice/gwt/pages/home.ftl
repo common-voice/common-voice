@@ -75,9 +75,23 @@ read-more-about = امنہ بارا موخہ رتئ واری بی ژَؤ
 
 ## NAV ITEMS
 
+answer-questions = کھُد نامَنی جواب ݪِؤ<small>(ددُوپی ژِمان)</small>
+review-transcriptions = ٹرانسکِپشَنَنہ جائزہ گوؤ<small>(ݭُورہ ژِمان)</small>
+add-questions = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)</small>
+transcribe-audio = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
+press-and-stories = پرېس اؤ ہیڄان نام
+community-and-languages = برادری اؤ باتی نام
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت داری، پرېس اؤ ہیڄان نام، برادری اؤ باتی نام
+partnerships-menu-item-tooltip = امہ مِنزی شراکت کېرِؤ
+press-and-stories-menu-item-tooltip = امَنی بلاکاں دِؤ یا امَنہ بارا لِکِؤ
+community-and-languages-menu-item-tooltip = باتی نام اؤ برادری نامہ  اؤ مشترکہ کھنٹ نامہ معلوم کېرِؤ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اختیاراتَنہ مینُوَنہ بارا
+partnerships-menu-item-aria-label = کامن وائسہ مِنزی شراکَتَنہ بارا پروزِؤ
+press-and-stories-menu-item-aria-label = کامن وائسَنہ متعلق پرېس ریلیز اؤ ہیڄان ناماں فُک فېدَؤ
+community-and-languages-menu-item-aria-label = کامن وئسَنہ ذریعہ ئے تعاون لېئسنت برادری اؤ باتی نامہ معلوم کېرِؤ
