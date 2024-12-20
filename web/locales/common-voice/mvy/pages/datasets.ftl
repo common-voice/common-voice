@@ -19,7 +19,8 @@ feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی
 community-playbook = خلکاں باشَیں یاں کتاب
-data-other-ted-name = ٹیڈ-لِیَم وجُود
+data-other-ted-name = ٹیڈ-لِیَم کارپس
+data-other-ted-description = ٹیڈ-لِیَم کارپس TED ویب سائٹہ لا موجُود اوازاں مشقُلا آں تسِیں لِکیلی حالتی نہ سن٘دژی تُھو
 go-discourse = بال الاوَیں زئ بہ
 go-languages-page = ژِبہۡ واں پن٘ڑے بہ
 ready-to-validate = جُملی سُون٘ݜیۡرَیں مہ زَیں مدد کرَیں تیار تُھویی؟
