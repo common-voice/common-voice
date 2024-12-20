@@ -51,10 +51,17 @@ about-stay-in-touch-text-1 = اَمݳ مݵلِنگ لِسٹَنݳ <emailFragment
 about-stay-in-touch-text-2 =
     تُمݺ مݸزݵلݳئی بݳݽݵئ کَمݵݸنِٹݵز نݳ اݵک اݵکݵڎ کݸٹ ٹھُمُک ہݸئی شکݺ گُچھݸت<discourseLink>ڈِسکݸرسَنہ </discourseLink> کݸٹ ہݸئی مݸضݸڎ چَغݳ رݳ.
     یݳ <matrixLink> مݵٹریکسنݳ </matrixLink> کݸٹ ہݸئی ݽَتَݳ مَشُݸرَہ لݸ.
+about-nav-why-common-voice = کِجݺ ؟
+about-nav-how-it-works = کِݵ ہݸئی ؟
+about-nav-partners = کݸٹ کمݸنݺ
+about-nav-get-involved = کݸٹ ہُݸّݳ
+about-nav-how-it-works-2 = کݳمَن وائس کݵ رِݵ کݸم اِرݵگہ چھہ؟
+about-nav-playbook = چھݵچݳ تݳ کݵ رِݵ حِصَہ لݵنݳ چھَݳ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کݳمَن وݳئسَس باݽ کِسَکݳ چھݵ؟
 
 ## How do I add a language
 
