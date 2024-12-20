@@ -3,7 +3,7 @@ action-tap = دبار دہ
 contribute = حصّہ گِھنوگ
 review = جائیزہ گِھینوگ
 skip = چھوروگ
-shortcuts = آسان پن
+shortcuts = کٞھٹِین پن
 clips-with-count-pluralized =
     { $count ->
         [one] اٞک
