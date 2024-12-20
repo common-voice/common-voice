@@ -26,6 +26,8 @@ about-subscribe-text = تُمݺ کݳمَن وݳئسَس کݸٹ رݳبطَنَہ 
 about-speak = مُن
 about-speak-text = حِصَہ دݵنݣݺ ایݣݺ دݵنݺ اݵݣ جُملݵݣے بݵنکَس مݸ مُنِی چھَتݵئ کِلِپݸنݣ ریکݳٹ ارݵݣݺ چھݺ.
 about-listen-queue = لِسَن ـ کویݸ
+about-listen-queue-text = چھَتݵئ کِلِپہ اݵکہ سَبمیشَن قَطارِکِشݸ بݳئݸ جݳݣݺ چھݺ کݸنِیݳ اݵݣ پݸرجِنَئ کݳرݸ تَیݳر ارݵگݵ چھِی.
+about-listen = پَرُچ
 
 ## Community Playbook Content
 ## What is a language
