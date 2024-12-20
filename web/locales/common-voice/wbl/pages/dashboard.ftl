@@ -10,6 +10,8 @@ todays-validated-progress = Sẽk klipẽv wudh Kommon Voys towsiq kert
 stats = hisob kitob
 awards = aword̃isht
 you = tu
+everyone = kũk̃ht/ k̃ũtan
+contribution-activity = shẽrikat doriẽ yark
 
 ## Custom Goals
 
