@@ -60,9 +60,15 @@ about-nav-playbook = سیکھوں ، کس طرح حصّو لیو جائے
 
 about-playbook-what-is-language = کامن وائس ما کہڑی زبان ہے
 about-playbook-what-is-language-content-1 = زبان کا بارا ما سوچن واسطے مُچ سارا راہ ہیں۔تقریر کا ماڈل نا سیانن کا مقصد واسطے کامن وائس آپس کی ذہانت  کو مشورہ دیئے ۔یا اس زبان کو بولن ہالاں ایک دُوجا نا جلدی سمجھ لیے کدے وِہ کوشش کرے
+about-playbook-what-is-language-content-2 = ہم چاہواں کہ اسپیچ ماڈلز بولن ہالاں کی  متنوع دائرہ کار  نا  سمجھن ما بہتر وھے۔ ایسو کرن واسطے  واز کا  ڈیٹاسیٹ نا مُچ سارا مختلف لوکاں کی نمائندگی کرنی چاہیے؛
+about-playbook-what-is-language-content-3 = کجاں  زباناں  ما  گرامر، الفاظ تے  تلفظ ما مُچ زیادہ فرق وھے ۔اس مقصد واسطے ہم ہے <ctaLink>متعارف کراواں ۔متغیرات </ctaLink>ما 2022۔ یوہ کمیونٹی نا اپنی زبان نا بڑا ڈیٹا بیس پو فرق کرن کو راہ دیئے
 
 ## How do I add a language
 
+about-playbook-how-add-language = ہوں ایک زبان نا کِنوں شامل کروں
+about-playbook-how-add-language-content-1 = پہلاں دیکھوں کدے تھاری بان <languageLink>پہلاں تے موجود ہے </languageLink>کدے یاہ نیہہ تم کر سکے <languageRequestLink> پوچھ سکے اپنی زبان نا جمع کرن واسطے </languageRequestLink>۔دو مراحل ہے ات ،سائیٹ کو ترجمو کرنو تے فقراں کو جمع کرنو
+about-playbook-how-add-language-translating-heading = سائیٹ کو ترجمو کرنو
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>مھاری ہدایت نا دیکھوں کہ پنٹوں نا کِنوں استعمال کرے </translateVideoLink>
 
 ## How does localization work
 
