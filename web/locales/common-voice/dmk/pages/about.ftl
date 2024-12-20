@@ -69,6 +69,8 @@ about-playbook-how-add-language = اُݸ کݵ رِݵ باݽ کݸٹ ارݳس؟
 about-playbook-how-add-language-translating-heading = سݳئٹݵئی تَرجُمَہ رِنݳ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> امݳ چھِچَلُݸݳنݳ دݵکھݳ تݳ کݵ رِی پݸنٹݸن اِستِمݳل اِرݵݣݺ چھݺ.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملݳݣہ جَمَع رِنݳ
+about-playbook-how-add-language-collecting-sentences-content-1 = </sentenceCollectorVideo>سݵنٹݵنس کُلݵکٹَر اِستِمݳل اِرِنݳئی کݳرݸ امݳ چھِچَلُݸݳنݳ دݵکھݳ<sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>بݸت جُملݺ جَمع رنݳئی بارݳس دیکھݳ</sentenceCollectorFragment>
 
 ## How does localization work
 
