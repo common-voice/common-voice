@@ -56,6 +56,15 @@ how-many-per-day = gok̃h! haror cum klip? harorẽs̃h cum klip gok̃h?
 how-many-a-week = gok̃h! cum klip har hẽfta?/ har hẽftas̃h cum klip gok̃h?
 which-goal-type = Tus̃h sirf k̃hẽnak, kẽshũnẽ zoqa ne kifch?
 receiving-emails-info = Maqsade sek yod wẽzũmnẽ mẽtobiq tut email wẽsuler tiyor, z̃hũ tẽreqi malumotẽ mutobiq, Kommon Voysẽ barar z̃hũ yodẽhoni, tẽreqi woz khẽbarẽ khat
+not-receiving-emails-info = tut filhol set̃<bold>not</bold>email wesul car maqsad yadehoni metobiq, z̃hũ tẽreqiyẽ molumot woz khẽbare khat Kommon Voyse barar
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count }klip
+       *[other] { $count }klips
+    }
+help-share-goal = Maqsad sẽtũynẽr sakẽr ziyoda owoz hosil k̃hakẽ mẽdad
+confirm-goal = Maqsadẽ tasdiq car
+goal-interval-weekly = Haftawor
 
 ## Goals
 
