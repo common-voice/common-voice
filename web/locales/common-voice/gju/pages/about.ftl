@@ -115,9 +115,14 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی ہو جاؤں 
 ## How to validate
 
 about-playbook-how-validate = ہوں کس طرح جانوں کہ آیو میر ی واز کی کلپ منظور ہوئی ؟
+about-playbook-how-validate-content-1 = کدے تم کر سکے <strong>اُنہاں نا سنو </strong>تے <strong>  اُنہاں نا سمجھو ۔یوہ عام طور پو <strong>بہترین ہے منظور واسطے </strong>
+about-playbook-how-validate-content-2 = <strong> کسی کلپ نا جھڑکو نہ <strong> کیوں جے اس نا بولن ہالا کو یوہ اثاثو ہے جہڑو کہ تھارا تے مختلف ہے </strong>واز کی پہچان واسطے یوہ اہم ہے ہر کسے کا بہتر کم کرن واسطے
+about-playbook-how-validate-content-3 = کدے تھارو خیال ہے جے رموز اوقاف بنائے <strong>ناممکن سمجھ نا </strong> یا کدے ہے <strong>کاہڈ زیادہ واز ہے </strong>یا کدے ہے <strong>دُوجا لوک مُچ زیادہ بولے لگا </strong>فر تم کلپ نا چھوڈ دیو <accuracyLink> مھاری دُرستگی کی معلوما ت نا مزید دیکھوں </accuracyLink>
+about-playbook-how-validate-content-4 = کدے ایک کلپ دو لوکاں نے قبول نہ کریو تے یوہ دسیو جاسکے کسی دوجی ڈیٹا سیٹ پو
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ہوں کس طرح ڈیٹا سیت تک پوہچوں تے اس نا استعمال کروں
 
 ## How are decisions made
 
