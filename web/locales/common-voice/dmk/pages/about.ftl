@@ -32,6 +32,8 @@ about-listen-text = اِستِمݳل ارݵݣݺ اݵݣݺ دݵنݺ کِلِپݵݣ
 about-is-it-valid = کِلِپ سݸچ چھِݵݺ؟
 about-is-it-valid-text = اݵک چھݸتِکݵ کِلپ "سݸچ" ہݳئی وَقتَنَہ ہݸگَہ چھَہ کَبݺ اِستِمݳل ارݵگݳ ہݵَن اَوݳ رِݵ وݸٹݳ دݵنِن تݳ.
 about-yes-votes = 2 اَوݳ وݸٹݳ
+about-yes-votes-text = کݳمَن وݳئس ڈݵٹݳ سݵٹَنَہ کݸٹ ہݸئنݳئ کݳرݸ، کݸنِتَہ چھَتݵئ کِلِپِکݵ تَصدِیق دݸئی اݸرݳ اِستِمال اِرݵݣݺ اݵݣݺ ݣہ زَرݵَس ہݸئنہ اوݳجݵ.
+about-no-votes = 2 نِکی وݸٹݳ
 
 ## Community Playbook Content
 ## What is a language
