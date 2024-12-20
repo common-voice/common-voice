@@ -73,4 +73,3 @@ answer-questions-menu-item-tooltip = k̃hũ zikẽr sowolvẽt ishor̃avẽ je�
 
 speak-contribute-menu-aria-label = muqavẽ menuvẽ k̃han
 read-sentences-menu-item-aria-label = cẽ jẽmoatvẽ gẽnan mukhtalif zikẽr jũmlavẽ joy
-answer-questions-menu-item-aria-label = cẽ jẽmoaten yi s̃heg̃hd sowol car ki yasht joyn woz jẽwob randẽn
