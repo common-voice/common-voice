@@ -28,6 +28,8 @@ about-speak-text = حِصَہ دݵنݣݺ ایݣݺ دݵنݺ اݵݣ جُملݵݣے
 about-listen-queue = لِسَن ـ کویݸ
 about-listen-queue-text = چھَتݵئ کِلِپہ اݵکہ سَبمیشَن قَطارِکِشݸ بݳئݸ جݳݣݺ چھݺ کݸنِیݳ اݵݣ پݸرجِنَئ کݳرݸ تَیݳر ارݵگݵ چھِی.
 about-listen = پَرُچ
+about-listen-text = اِستِمݳل ارݵݣݺ اݵݣݺ دݵنݺ کِلِپݵݣݺ ٹھِیک چھݳئ تَصدݵق اِرݵݣݺ چھݺ ، نݸ چݵک اِرݵݣݺ چھݵتݳ منݵگہ ہݵَن جُملݳݣہ ٹھݵک مُنِن چھݳ.
+about-is-it-valid = کِلِپ سݸچ چھِݵݺ؟
 
 ## Community Playbook Content
 ## What is a language
