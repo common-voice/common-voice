@@ -25,6 +25,7 @@ about-dataset-release-subtitle = اَمݺ ہَر 3 مݴسمݸ ڈݵٹݳ سݵٹ ج
 about-subscribe-text = تُمݺ کݳمَن وݳئسَس کݸٹ رݳبطَنَہ بݵشِنݳئ رݳئ رݵگݸ چھݸتݺ؟
 about-speak = مُن
 about-speak-text = حِصَہ دݵنݣݺ ایݣݺ دݵنݺ اݵݣ جُملݵݣے بݵنکَس مݸ مُنِی چھَتݵئ کِلِپݸنݣ ریکݳٹ ارݵݣݺ چھݺ.
+about-listen-queue = لِسَن ـ کویݸ
 
 ## Community Playbook Content
 ## What is a language
