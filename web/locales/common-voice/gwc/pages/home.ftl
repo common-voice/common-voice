@@ -22,6 +22,7 @@ hours-validated = گینٹاٞ قابل قبول ہو
 voices-online = مُٹو ہواٞزونہ آنلائن
 todays-progress = آجیگ ترقی
 help-reach-goal = ہدف حاصیل کٞروگ مئ مداٞد کٞر{ $goal }
+read-terms-q = تٞھہ مُوں شرطونہ بیݭیتاٞ؟
 ready-to-record = تانی ہواز عطیہ کٞروگیں کیر تیار تھواٞ؟
 all-locales = سواٞ
 today = آج
