@@ -9,7 +9,7 @@ error-skipping = پرامٹ پوتیو تاتہ اہ غلطی پیمیوک اى
 error-recording = ریکارڈنگ کوتا تہ  اہ غلطی پیمیوک اى
 error-fetching-prompts = متن ستہ تیاری دیوکں پرامٹ حاصل کوتاتں اڅلک غلطی بامہربانی کتئ پتیارہ ابل کشݩع۔
 error-uploading-response = توستہ جواب اپلوڈ کوتاتں اہ غلطی پیمیوک اى
-prompt-submitted-success = جواب کامیابی مع جمع کعا
+prompt-submitted-success = جواب اکامی مع جمع کعا
 prompt-response-deleted-success = جواب اکامی مع یسیؤ
 # For the button to delete a response to a prompt
 delete = یَسہ
@@ -22,3 +22,4 @@ submit-all-button = څنگ جمع کشی
 
 learn-how-to-use-prompts = یاد کشی اینہ صفحہ کائ کہ استعمال کوستہ اسہ کا
 learn-how-to-use-prompts-guidance = کلک<guidanceLink>انی</guidanceLink>یاد کوستہ کہ صفحہ کائ کہ استعمال کوستہ اسہ کا
+learn-how-to-use-transcribe = ٹرانسکرائب کوستہ زعں
