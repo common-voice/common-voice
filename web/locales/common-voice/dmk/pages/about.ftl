@@ -80,7 +80,10 @@ about-playbook-how-add-language-translating-content-2 =
     نݸ کݳمَن وݳئس پروجݵکٹَس <githubRepoLink> اݽݳئی باݽ تھݵئ نݳئ کݳرݸ، GitHub</githubRepoLink> نمݵ باݽݵئ درخاست اِرݳ. <localizationFragment>سݳئٹݵئ تَرجُمئ بݳرݳنݳ مزݵد دݵکھݳ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = جُملݳݣہ جَمَع رِنݳ
 about-playbook-how-add-language-collecting-sentences-content-1 = </sentenceCollectorVideo>سݵنٹݵنس کُلݵکٹَر اِستِمݳل اِرِنݳئی کݳرݸ امݳ چھِچَلُݸݳنݳ دݵکھݳ<sentenceCollectorVideo>
-about-playbook-how-add-language-collecting-sentences-content-2 = تُمݺ <sentenceCollectorLinkAdd>کمݵک جُملݺ جَرمݸݽ اِرِݵ شکݵگُچھݸت</sentenceCollectorLinkAdd>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تُمݺ <sentenceCollectorLinkAdd>کمݵک جُملݺ جَرمݸݽ اِرِݵ شکݵگُچھݸت</sentenceCollectorLinkAdd>
+    یݳ تُمݺ <bulkImportDocsLink> بَلک امپݸرٹ اِرݵ شکݵگُچھݸت GitHub</bulkImportDocsLink> اِستِمݳل اِرِنݺ.
+    ݵݳت تھݳنݳ جُملݳݣا <licenseLink>CC0 ہݸئنݳ ضرݸرݵ (ݵݳ پَبلِک ڈݸمݵن) </licenseLink> ݵݳ تُمݺ اَپَنݵئ گِرمِنݳئی شکݵگُچھݸت.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>بݸت جُملݺ جَمع رنݳئی بارݳس دیکھݳ</sentenceCollectorFragment>
 
 ## How does localization work
