@@ -104,6 +104,8 @@ about-playbook-how-grow-language-content-3 = Sashtes̃h Rujve c̃huwuvne bas vez
 about-playbook-how-grow-language-content-4 = Yurtdoriye nashriyotisht
 about-playbook-how-grow-language-content-5 = Sashtes̃h pyghomotve sutuyne distan yurthdoriye nashriyot e zariave istimol k̃hake bas vezit. hazing pyghomve sutuyit ki yawen ahmiyat humut woz khalgve mes̃han yave zike huquq e rang abashve bobaten qẽsave carit,  woz boridigar istimol wocne matanve 'voice AI' muhimve zaria verkhuvit.
 about-playbook-how-grow-language-content-6 = Shirkatdoriy et 'networks'
+about-playbook-how-grow-language-content-7 = Hayave sẽma carit kuyes̃hki khiyol lecert. Hadamve dest Jamia't; zike schoolisht; himoyati guruhisht yoy 'data science' guruhisht shomil tey.  Damev g̃hitake kushesh carit woz ramve puzuv katithki chisokht woz chizer yaver madadgor wocn awaji. spo rabitahe emailve 'template' tayin carit.
+about-playbook-how-grow-language-content-8 = Takhleeqi wocit, save zike guruhep yagonah wost, woz yemisht oghoz k̃hake distan chandi tariqaisht.
 
 ## How to validate
 
