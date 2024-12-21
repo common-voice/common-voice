@@ -17,3 +17,4 @@ dataset-splits = Taqsim (Umẽr jins)
 number-of-voices = Owozve tedod
 splits = Taqsimisht
 email-to-download = D̃ownlowd̃ẽ dẽstan k̃hũ mail kat̃
+why-email = <b>email chizẽr?</b> Datasetẽ tabdilẽ badalẽ destanẽb sakrẽb rabitar emailẽ zẽrũrat wost, Emailes̃h sakẽr rabita nis̃huni rand
