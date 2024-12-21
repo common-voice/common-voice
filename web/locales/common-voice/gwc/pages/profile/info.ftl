@@ -1,0 +1,42 @@
+## ProfileForm
+
+profile-form-username =
+    .label = استمال کٞروگ والاں نام
+profile-form-native-language =
+    .label = تانی جِب
+profile-form-additional-language =
+    .label = اضافی جِب
+profile-form-language =
+    .label = جِب
+profile-form-variant =
+    .label = جِبیں کیں قسِم تو مٞننت؟
+profile-form-variant-default-value = قسم نہ خوشیت
+profile-form-accent =
+    .label = لہجہ
+profile-form-custom-accent-help-text =
+    .label = تو تانی لہجہ کھیکی بیان کٞرباں؟
+profile-form-custom-accent-placeholder-2 = تانی لہجہ بیان کٞروگیں کیر ٹیپنگ شورو کٞر۔
+profile-form-age =
+    .label = اُمر
+profile-form-gender-2 =
+    .label = صنف یا جنس
+leaderboard-visibility =
+    .label = لیڈربورڈ اخکارہ ہوگ
+hidden = بیلیوگ
+visible = اخکارہ
+native-language =
+    .label = تانی جِب
+profile-form-add-accent = ناٞم لہجہ میلا{ $inputValue }
+profile-form-submit-save = محفوظ کٞر
+profile-form-submit-saved = محفوظ کیت
+male_masculine = مِیش‌/ مذکر
+female_feminine = اِیس / موئنث
+intersex = ہجڑا
+transgender = ہیجڑا
+non-binary = ہیجڑا
+do_not_wish_to_say = اِیں مٞنوگ مُو خوشاٞ
+# Gender
+other = دی
+why-profile-title = کا اٞ تفصیل؟
+why-profile-text = تانی متیلق کٞتیک مالومات داٞگ دہ، کاں آڈیو مواد تئ جمع کیت تہ کامن وائس کٞہ اٞئی باٞر فاجدہ من ہوگ  جولاگ پیانوگ والٞلاٞ انجنز کٞہ اوں اِیں مواد  استمال کاٞ تانی صحی کٞروگ ران کٞرگ۔
+dashboard = ڈیش بورڈ
