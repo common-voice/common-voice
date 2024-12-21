@@ -14,3 +14,6 @@ overall-hr-total = Kul tasdiq k̃hetk Hr
 cv-license = laysenz
 audio-format = Odiuy Format̃
 dataset-splits = Taqsim (Umẽr jins)
+number-of-voices = Owozve tedod
+splits = Taqsimisht
+email-to-download = D̃ownlowd̃ẽ dẽstan k̃hũ mail kat̃
