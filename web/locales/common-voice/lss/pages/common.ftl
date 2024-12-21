@@ -280,6 +280,10 @@ email-opt-in-info = آن چائين تو تا مانک اي ميلا ملن جي
 email-opt-in-info-title = اڇو ڪومن وائيس ميلنگ لسٽ ام
 email-opt-in-info-sub-with-challenge = حاصل ڪريو اي مي ا جيئن چئلينج ٻيو گول ريمندرا، پروگريساپڊيٽا، ٻيو ڪو من وائيس ا جون خبرون.
 email-opt-in-privacy-v2 = اي ميلا وصول ڪرڻ لا آپٽ اِن ڪري، اوين بيان ڪريو تا ته اوين ٺيڪ ايو تا Mozilla هنا معلومات اک سنڀالڻ سين جيئن Mozilla جي <privacy Link>Privacy Policy</privacy Link> ام وضاحت ٿي ا.
+indicates-required = فيلڊ جيم اسٽرسک (*) جو نشان ا ايئي ضروري ان.
+not-available-abbreviation = ناهي موجود
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = اسانک توجي مدد تي کپا.
