@@ -86,9 +86,12 @@ about-playbook-how-localize-content-1 = ہݳمَن وݳئس سݳئٹݶئ تَر�
 about-playbook-how-localize-content-2 = اݵک اݵکݳݸنٹݵک <pontoonAccountLink> دُرݳلݳ </pontoonAccountLink> اَگَر ہَگݸس مݸ تُمݺ پݳ اݵکاݸنٹ نݳ تݳ. اݵس مݸ ݼھاسِݵ اَپَنݵئ بݳݽ <strong> (ٹِݵم) </strong> دِسقَٹݳرݳ نݸ گُچَنݵئ رݳ، <pontoonCvLink>کݳمَن وݳئس۔</pontoonCvLink> تَرجُمَہ اِرِنݳئی کݳرݸ فݳئلݸݣ مَݸجُݸد ہݸݣݺ۔ کݸنݸ تا اݵکِس ذُق اِرݳ، نݸ اݵَن اݵݣ الفݳظݸݣ اَنگِرݵزݵ نݳ دِکھِلݳگݳ چھݳ نݸ اݵݣݺ تَرجُمہ رِنݳئی کݳرݸ اݵکہ بݳکسَکݳ دݵگݳ چھݳ۔
 about-playbook-how-localize-content-3 = تَرجُمہ اَنگرݵزݵسمݸ چھݳ، لݵکِن تُمݺ اݸر بݳݽݵمݳ <strong> تَجݳوِݵزݳ</strong> دݵکھݵ شکݵگُچݸت۔ <strong>پرݸفݳئل</strong> آئکݸنَس ذُق اِرݳ، نݸ سݵٹݣزݵئ لِنکَس جݸ، نݸ اݵݣ بݳݽݸݣ کݸٹ اِرݳ کݸنݺ تُمݺ باشݵگُچݸت تݳ۔ منݵنݵ دَڎِنݳ کݸنَنݳ اݵک فِرِستݵک ہݸگݳ کݸنݸشُݸ </strong>Locales </strong> اِرݵݣݺ چھݺ. تَرجُمݳݣݳ سݳئٹس اݵکدݸ بَعد دِکھِلݸݣݺ.
 about-playbook-how-localize-content-4 = اݽائی سݳئٹ ہݳئی وَقتَنہ شُرُوع رنݳئئی کݳرݸ تَݵݳر ہݸگݵ کَبݺ اݽݳئی 75% مُکَمَل ہݸگݵ.
+about-playbook-how-localize-content-5 = مَدَد اِرِنݳئی کݳرݸ امݳ وݵڈݵݸ وَضݳحَت دݵکھݳ
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = اُݸ جُملݳݣݳ کݵ رݵ کݸٹ اِرݳس؟
+about-playbook-how-add-sentences-content-1 = تُمݺ جُملݳݣݳ <writePageLink>گِرمنݳݣݺ وَرَقݵڎ</writePageLink> گَٹݵ رِݵ شکݵگُچھݸت یݳ دسقَٹݳرِنݺ <reviewPageLink> وَرَقݵڎ</reviewPageLink> جُملݺ دِسقَٹݳرِݵ شَکݵگُچھݸت.
 
 ## How to record quality
 
