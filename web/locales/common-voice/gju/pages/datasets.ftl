@@ -9,3 +9,16 @@ datasets-positioning =
     
     اس صفحہ کا دوجا اوپن سورس واز کا ڈیٹا سیٹس واسطے  ایک حوالہ مرکز کا طور پو دیکھو  تے  جنوں جنوں کامن وائس ترقی کرےمھاری نوی  ریلیز اپڈیٹس واسطے  ایک مرکز کا  طور پو  استعمال کریں۔
 language = زبان
+download-dataset-header = ڈیٹا سیٹ نا ڈاؤن لوڈ کرو
+download-delta-explainer = ہم نے کج تبدیلی کری ہیں ۔ ڈیلٹو سجمنٹ ما تازہ چلی وی کلپس ہوے ۔<deltaLink> اس کم کا بارا ما مزید پڑھو </deltaLink>
+download-dataset-tag = مطلوبہ زبان کو ڈیٹو سیٹ چنو تے تے واہ قسم جہڑی تم ڈاؤن لوڈ کرنو پسند کرے
+# File size in gigabytes
+size = ناپ
+validated-hr-total = تصدیق شدہ ۔ ایچ آر ٹوٹل
+overall-hr-total = سارو ایچ آر ٹوٹل
+cv-license = اجازت نامو
+audio-format = واز کو فارمیٹ
+dataset-splits = الگ کرو (عمر تے جنس )
+number-of-voices = واز کی تعداد
+splits = تقسیم کرنو
+email-to-download = ای میل نا ڈاؤن لوڈ واسطے داخل کرو
