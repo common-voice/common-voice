@@ -144,6 +144,7 @@ mr = مراٹھی
 mrj = ہل مارل
 ms = مالے
 mt = مالٹیز
+mxu = برمیز
 myv = ازیا
 nan-tw = میانن۔۔۔۔۔تایوانیز
 nb-NO = ناروین بکمل
@@ -267,6 +268,10 @@ return-to-cv = کامن وایس پر نو ٹ
 email-input =
     .label = ای میل
 loading = لوڈ تال۔۔اوکالیل
+email-opt-in-info = مہ ٹھ ای میل بال شات تھےمہ خوشالان مٹ می حدف  پشون تے
+email-opt-in-info-title = کامن وایس کاں میلنگ لسٹ   ااین تہ      تس سہٹل بہ
 
 ## Donate banner
 
+localization-select =
+    .label = جیب لہکلایزیشن جوݭ
