@@ -31,3 +31,4 @@ demo-listen-subtitle = tẽawunrẽt tiyor teya?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = zoti d̃ishbord̃ẽs̃h tawẽ cẽ har khalg woz jẽmoatẽ pẽshraftẽn bokhẽbar lecẽr
