@@ -16,6 +16,7 @@ contribute-more =
         [one] { $count }  اِرِنݳشݸتݵݳر
        *[other] { $count } مزݵد
     }
+speak-empty-state = امݺ اݽائی باݽَنݳ رݵکاٹ اِرِنݳئی کݳرݸ جُملݵڎ مݸ نمݳرُن ہُݵݸم چھݸم.
 target-segment-generic-card = تُݸ اݵکہ سَلگِنِنے مُشِکِشُو حِصہ بݳ چھݳئی
 
 ## Reporting
