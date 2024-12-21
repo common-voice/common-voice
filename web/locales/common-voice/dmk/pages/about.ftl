@@ -92,6 +92,7 @@ about-playbook-how-localize-content-5 = مَدَد اِرِنݳئی کݳرݸ ا�
 
 about-playbook-how-add-sentences = اُݸ جُملݳݣݳ کݵ رݵ کݸٹ اِرݳس؟
 about-playbook-how-add-sentences-content-1 = تُمݺ جُملݳݣݳ <writePageLink>گِرمنݳݣݺ وَرَقݵڎ</writePageLink> گَٹݵ رِݵ شکݵگُچھݸت یݳ دسقَٹݳرِنݺ <reviewPageLink> وَرَقݵڎ</reviewPageLink> جُملݺ دِسقَٹݳرِݵ شَکݵگُچھݸت.
+about-playbook-how-add-sentences-content-2 = جُملاݣݳ کݳمَن وݳئس نݳ کݸٹ اِرِنݳئی کݳرݸ دݸئݵ بَندݺ نَظَرثݳنݵ رِنݳ نݸ مَنظݸرݵ ضَرݸلݵ چھِݵ. تُمݺ اَپَنݵئ بݳݽݵئ <languageGuidelinesLink> کݳرݸ شَلدݳݣݳ تھݳ دُرݳلݵ شکݵگُچھݸت. </languageGuidelinesLink>جُملݳݣݳ <licenseLink>عَوݳمݵئ ڈݸمݵن نَنݳ</licenseLink> ہݸئنݺ اواجݵ نݸ 15 اَلفݳظݵڎ مݸ کَم ڎِگݺ ہݸن. تُمݺ کݸنݸ گِرمِنݳݵݳکݵ دمݳنَس مݸ دَرخݳست اِرِݵ شکݺگُچھݸت کِہ اݵَن ہݵئ<waiverLink> CCO منݵنݵ امݳ وݳئݸر پرݳسݵسݵئ</waiverLink> ذرݵعَس فَرݳہَم اِرݸ نݸ امݵچُݸ اݽݵَسcommonvoice@mozilla.com بِجݳلݸ.
 
 ## How to record quality
 
