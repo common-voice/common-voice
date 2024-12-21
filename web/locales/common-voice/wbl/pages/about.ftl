@@ -81,6 +81,8 @@ about-playbook-how-localize-content-5 = Spo 'Video explainer' madad e haten tayi
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Wuzep chisokht jumlave qiti carem?
+about-playbook-how-add-sentences-content-1 = Sashtes̃h jumlave sẽk nivishne safha kitake bas vezit, yoy jumlave sẽk 'Review page' nazar katith.
 
 ## How to record quality
 
