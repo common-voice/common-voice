@@ -42,10 +42,18 @@ about-get-involved-text-2 = Common Voice woz be baf k̃hak'e zoqes̃h lecra?
 about-stay-in-touch = Wuz chi sokht qiti wocem?
 about-stay-in-touch-button = Dastkhat gok̃hit
 about-stay-in-touch-text-1 = Dastkhat gok̃hit
+about-stay-in-touch-text-2 = Sashtes̃h makhsus mowzuver qisa khake haten "discourse link" e zaria en de "Mozila language" guruhe mes̃han muloqot k̃hake bas vezit, yoy yidamer shelda durzner sẽk "Matrixlin" es̃h robita carit
+about-nav-why-common-voice = Chizer?
+about-nav-how-it-works = Chisokht?
+about-nav-partners = Yorbarisht
+about-nav-get-involved = Qiti wocit
+about-nav-how-it-works-2 = "Common voice" es̃h chisokht yark cart?
+about-nav-playbook = Hissadori yek̃hk vocit
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Yi ziki sẽk "Common voice" chiz?
 
 ## How do I add a language
 
