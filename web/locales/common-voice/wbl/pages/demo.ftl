@@ -32,3 +32,4 @@ demo-listen-subtitle = tẽawunrẽt tiyor teya?
 ## Demo Dashboard
 
 demo-dashboard-card-header = zoti d̃ishbord̃ẽs̃h tawẽ cẽ har khalg woz jẽmoatẽ pẽshraftẽn bokhẽbar lecẽr
+demo-dashboard-card-body = har yi atya k̃hetk owozẽ woz owd̃iyo klip towsiq car.ti akountẽ d̃ishbord̃i apd̃et̃ <br/> ti akownt̃ẽ d̃ishbord̃ẽsh har zikẽ tozat̃erin peshraftẽr apd̃et̃ carẽn, dẽ kumdẽs̃h ki tu tawun car. yan, tus̃h cẽ yiwẽn ziyoda hisa kat̃!<br/><br/>k̃hu holot tayinẽr d̃ishbord̃ẽ istmol, tayin ki tus̃h cẽrsokht go dẽ digarvẽn dẽ kommuteti woz haftaworẽt harorẽ hadaf muqarar
