@@ -61,6 +61,9 @@ about-playbook-what-is-language-content-3 = De chandi zikve graimar, lafzev, woz
 ## How do I add a language
 
 about-playbook-how-add-language = Wuz yi zike chisokht katem?
+about-playbook-how-add-language-content-1 = Tẽrmis tayin cer ki ti ziki hadra maujud teya, agarki nasti; yanes̃h tu k̃hu zike hadra kitake arz k̃hake bas veze. Hadrai bu darja'esht, Site Tarjuma k̃hak woz Jumlahev jama k̃hak.
+about-playbook-how-add-language-translating-heading = 'Site' Tarjuma k̃hak
+about-playbook-how-add-language-translating-content-1 = Pontoon e estimol k̃hake haten spo 'guide' tayin carit.
 
 ## How does localization work
 
