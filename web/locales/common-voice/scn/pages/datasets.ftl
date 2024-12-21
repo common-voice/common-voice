@@ -3,7 +3,7 @@
 datasets-heading = Archivi dî dati
 language = Lingua
 download-dataset-header = Scàrrica i dati
-download-dataset-tag = Scegghi l'archiviu dâ lingua e dâ virsiuni chi voi scarricari.
+download-dataset-tag = Scegghi l'archiviu dâ lingua e dâ virsioni chi voi scarricari.
 # File size in gigabytes
 size = Grannizza
 validated-hr-total = Tutali uri appruvati
@@ -24,7 +24,7 @@ download-language = Scàrrica { $language }
 validated-hours = Uri appruvati
 recorded-hours = Uri riggistrati
 whats-inside = Soccu cc'è nnî dati Common Voice?
-want-dataset-update = Voi l'attualizzazzioni quannu pubbricamu na nova virsiuni dî dati Common Voice? Scrìviti ô nostru bullittinu.
+want-dataset-update = Vo' attualizzi quannu pubblicamu na virsioni nova dî dati Common Voice? Scrìviti ô nostru bullittinu.
 subscribe = Scrìviti
 get-started-speech = Accumincia cû ricanuscimentu vucali
 other-datasets = Autri dati vucali

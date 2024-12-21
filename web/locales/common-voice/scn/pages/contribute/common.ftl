@@ -30,7 +30,7 @@ target-segment-first-card = Stai cuntribbuennu ô nostru primu sigmentu ubbittiv
 target-segment-generic-card = Stai cuntribbuennu ôn sigmentu ubbittivu
 target-segment-first-banner = Ajuta a criari u primu sigmentu ubbittivu di Common Voice 'n { $locale }
 target-segment-add-voice = Agghiungi a to vuci
-target-segment-learn-more = Cchiù nfurmazziuna
+target-segment-learn-more = Cchiù nfurmazzioni
 change-preferences = Cancia prifirenzi
 login-signup = Trasi / Riggìstrati
 vote-yes = Se
@@ -44,7 +44,7 @@ submit-form-action = Manna
 ## Reporting
 
 report = Signala
-report-title = Mmìa na signalazziuni
+report-title = Mmìa na signalijazzioni
 report-ask = Chi prubblemi ài cu sta frasi?
 report-offensive-language = Linguaggiu uffinzivu
 report-offensive-language-detail = A frasi cunteni un linguaggiu nun rispittusu o uffinzivu.
@@ -60,7 +60,7 @@ report-other-comment =
     .placeholder = Cummentu
 success = Fattu
 continue = Cuntinua
-report-success = A signalazziuni fu mmiata.
+report-success = A signalijazzioni fu mmiata.
 
 ## Speak & Listen Shortcuts
 

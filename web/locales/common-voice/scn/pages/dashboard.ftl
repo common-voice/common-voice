@@ -16,7 +16,7 @@ top-contributors = Cullabburatura cchiù attivi
 recorded-clips = Riggistrazziuna fatti
 validated-clips = Riggistrazziuna validati
 total-approved = Tutali appruvati
-overall-accuracy = Pricisiuni glubbali
+overall-accuracy = Pricisioni glubbali
 set-visibility = Mposta a me visibbilità
 show-ranking = Ammustra a me pusizzioni
 
@@ -177,11 +177,11 @@ days =
     }
 recordings =
     { $count ->
-        [one] Riggistrazziuni
-       *[other] Riggistrazziuna
+        [one] Riggistrazzioni
+       *[other] Riggistrazzioni
     }
 validations =
     { $count ->
-        [one] Validazziuni
-       *[other] Validazziuna
+        [one] Validazzioni
+       *[other] Validazzioni
     }
