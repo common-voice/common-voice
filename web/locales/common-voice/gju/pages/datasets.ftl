@@ -33,3 +33,12 @@ download-language = ڈاؤن لوڈ کرو { $language }
 validated-hours = تصدیق شدہ گھنٹا
 recorded-hours = ریکارڈ کیا وا گھنٹہ
 whats-inside = کامن وائس ڈیٹا سیٹ کے اندر کے ہے ؟
+dataset-description-hours = ڈیٹا سیٹ ما ہر انٹری ایک مثالی ایم پی تھری رکھے ۔3 تے اس کے برعکس ٹیکسٹ فائل ۔ اُنھ ما مچ <b> { $total } ریکارڈ کیا وا گھنٹہ ٰڈٹیٹا سیٹ ما میٹا ڈیٹا کی طرح کی عمر، جنس تے لہجہ  کا وھے </b> جہڑا کہ زبان کی درستگی تے پہچان ما انجن کو کم کرے ۔ اس وقت ڈیٹو سیٹ <b> ما تصدیق شدہ گھنتہ زبان کا <b> لیکن ہم اگے ہور زبان کی واز جمع کراں { $languages }۔ مھاری زباناں نا دیکھو <languagesLink>زباناں کو صفحو </languagesLink>زبان کی درخواست کر کے یا حصّو لے کے </b>{ $valid }</b>
+want-dataset-update = اپ ڈیٹ کرن کی لوڑ وھے جد کدی ہم نوی قسم شروع کراں کامن وائس کا ڈیٹا سیٹ کی ۔مھارا نیوذ لیٹر نا دیکھو
+subscribe = دیکھتا رہوں
+get-started-speech = شروع کرو زبان کی پہچان کے نال
+other-datasets = دوجا وائس ڈیتا سیٹ
+feedback-q = پتو خبر لیو
+# This indicates that there is no data to display
+no-information = کوئی معلومات نیہہ
+resource-nemo-info = <githubLink>این وی آئی ڈی آئی اے ۔ این ای ایم او</githubLink>ایک ہے <docsLink>اوپن ذریعو ٹولز کو </docsLink> محقق واسطے جدید ترین واز کا اے ون ماڈل بنان واسطے
