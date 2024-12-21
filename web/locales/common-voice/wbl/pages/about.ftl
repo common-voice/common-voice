@@ -64,6 +64,9 @@ about-playbook-how-add-language = Wuz yi zike chisokht katem?
 about-playbook-how-add-language-content-1 = Tẽrmis tayin cer ki ti ziki hadra maujud teya, agarki nasti; yanes̃h tu k̃hu zike hadra kitake arz k̃hake bas veze. Hadrai bu darja'esht, Site Tarjuma k̃hak woz Jumlahev jama k̃hak.
 about-playbook-how-add-language-translating-heading = 'Site' Tarjuma k̃hak
 about-playbook-how-add-language-translating-content-1 = Pontoon e estimol k̃hake haten spo 'guide' tayin carit.
+about-playbook-how-add-language-translating-content-2 = Sakees̃h tarjumahe haten 'Pontoon' e nungan yi 'Mozila tool' estimol caren. 'Pontoon' en ghafch zikisht tey. Laikin, agar savni ki nast, yanes̃h sasht k̃hu zike kitake arz k̃hake bas vezit. Yandi S̃heg̃hd zike sẽk 'GitHub' de'Common voice project' wuzumne bases̃h vezit. Bes̃h dishne haten sẽk 'translation ste' tayinit.
+about-playbook-how-add-language-collecting-sentences-heading = Jumlahev Jama k̃hak
+about-playbook-how-add-language-collecting-sentences-content-1 = 'Sentence Collector' e estimol carit k̃he spo 'guide' tayin carit.
 
 ## How does localization work
 
