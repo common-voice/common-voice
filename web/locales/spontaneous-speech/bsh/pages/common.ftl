@@ -10,6 +10,7 @@ interface-language = انٹرفیس وری
 contribution-picker-label = ڈیٹ سیٹ { $language } شریک بوستہ
 # Label for button on contribution switcher
 change = بدل
+coming-soon = ورں وری دی نݜٹو ازیا
 media-recorder-api-not-supported = توستہ براؤزر تہ میڈیا ریکارڈر اےپی ای حمایت نہ کوتہ
 # Toast message that is displayed when an item is skipped
 skipped = نظر انداز کعہ
