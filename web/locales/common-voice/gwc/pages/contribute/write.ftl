@@ -69,7 +69,7 @@ sentence-variant-select-multiple-variants = عام جِب / باٞر بداٞل 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = بار کٞر<icon> </icon> عوامی ڈومیںاٞں جُملاٞ
+sc-bulk-upload-header = بار کٞر<icon> </icon> عوامی ڈومیناٞں جُملاٞ
 sc-bulk-upload-instruction = تانی فائل گشی لکالین ہِماک گھیٞہ یا<uploadButton> بار کٞروگیں کیر کلِک کٞر </uploadButton>
 sc-bulk-upload-instruction-drop = بار کٞروگیں کیر فائیل ہماٞ رہ تل
 bulk-upload-additional-information = لخہ اِیں فائیلاٞں باٞراٞ مئ تُو دی کٞہ مالومات پھݭانش تہ ماٞربینی کاٞ رابطہ کٞر <emailFragment>commonvoice@mozilla.com</emailFragment>
@@ -82,6 +82,7 @@ accepted-files = منظور فائیلیں قِسم : صِرف tsv.
 minimum-sentences = فائیل مئ کٞم از کٞم جُملاٞ : 1000
 maximum-file-size = فائیلیں زیات نہ زیات سیز: 25 MB
 what-needs-to-be-in-file = میں فائیل مئ کنا پکاٞر تھی؟
+what-needs-to-be-in-file-explanation = ماربینی کاٞ مُوں <templateFileLink>نمونا ایں فیل بِیݭاٞ</templateFileLink>۔ تُھون جملاٞ آں حاق ہیکاٞ تُھو (0CC یا اجازہ اصل کار کٞن جمع کیت) تے آٞس مئی واضح ہو، گرامر آں حساٞب سہ پروگ مئی صحی تے آسان۔ جمع کٞراَٞ جملاٞ اندازاٞ دہ 10-15سیکنڈ پروگ مئی گھینئی تے لٞمر مُو داٞ، اسم معرفہ تے خاص ٹیکیل۔
 upload-progress-text = بار ہوگ جاری تھی
 sc-bulk-submit-confirm = یہ تصدیق کٞرنتھوں اومی جُملاٞ <wikipediaLink> عوامی ڈومین </wikipediaLink> تھو تو تے مکٞہ اسوں بار کٞروگیں اجازاٞت تھی۔
 bulk-upload-success-toast = باٞر جُملاٞ بار ہُو

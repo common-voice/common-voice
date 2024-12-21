@@ -5,7 +5,6 @@ write-instruction = ⵔⵏⵓ <icon></icon> ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏ
 write-page-subtitle = ⵔⴰⴷ ⵜⵜⵓⵔⵏⴰⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⴳⵏⵉⵏ ⴷⴰ ⵖⵔ ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⴷⴷⴰⵡ ⵢⴰⵜ ⵜⵓⵔⴰⴳⵜ cc-0 ⵉⵙⴰⴳⴰⵏ ⵙ ⵓⴳⴷⵓⴷⴰⵏ.
 sentence =
     .label = ⵜⴰⵡⵉⵏⵙⵜ
-sentence-input-value = ⵙⵙⴽⵛⵎⴰⵜ ⵜⴰⵡⵉⵏⵙⵜ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ ⵏⵏⵓⵏ ⴷⴰ
 citation =
     .label = ⵜⴰⴱⴷⴰⵔⵜ
 sc-write-submit-confirm = ⵍⴰ ⵙⵙⴷⵉⴷⵖ ⵎⴰⵙ ⴷ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴳⴰ <wikipediaLink>ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink>, ⵜⵉⵍⵉ ⴷⴰⵔⵉ ⵜⵓⵔⴰⴳⵜ ⴰⴷ ⵜⵜ ⵙⴽⵜⵔⵖ.
@@ -29,7 +28,6 @@ required-field = ⵎⴽ ⵜⵓⴼⵉⴷ, ⴽⵜⵓⵔ ⵉⴳⵔ ⴰ.
 single-sentence-submission = ⴰⵣⴰⵏ ⵏ ⵜⵡⵉⵏⵙⵜ ⵜⴰⵎⵢⴰⵏⵜ
 bulk-sentence-submission = ⴰⵣⴰⵏ ⵏ ⵜⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
 single-sentence = ⵜⴰⵡⵉⵏⵙⵜ ⵜⴰⵎⵢⴰⵏⵜ
-bulk-sentences = ⵜⵉⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
 sentence-domain-combobox-label = ⴰⴳⵍⴰ ⵏ ⵜⵡⵉⵏⵙⵜ
 sentence-domain-select-placeholder = ⵙⵜⵢ ⴰⵔ ⴽⵕⴰⴹ ⵡⴰⴳⵍⴰⵜⵏ (ⵓⴷⵖⵉⵔ)
 # Sentence Domain dropdown option
@@ -68,3 +66,14 @@ file-invalid-type = ⴰⴼⴰⵢⵍⵓ ⵓⵔ ⵉⵣⵔⵉⵢⵏ
 file-too-large = ⵉⵎⵇⵇⵓⵔ ⵓⴼⴰⵢⵍⵓ ⵙ ⴽⵉⴳⴰⵏ
 file-too-small = ⵉⵎⵥⵥⵉⵢ ⵓⴼⴰⵢⵍⵓ ⵙ ⴽⵉⴳⴰⵏ
 too-many-files = ⴰⴳⵓⴷⵉ ⵏ ⵉⴼⵓⵢⵍⴰ
+
+## SMALL BATCH SUBMISSION
+
+# menu item
+add-sentences = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

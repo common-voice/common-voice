@@ -54,6 +54,8 @@ x-years-short =
         [one] y { $count }
        *[other] y { $count }
     }
+help-make-dataset = ایْک مڑنے معیار گہ عوامی شان گیْ اوزگار ڈیٹاسیٹ سنون دہ اسے امداد تِھیا
+sign-up-account = اکاؤنٹ سنون سائن اپ تِھیا
 email-subscription-title = ای میل اپ ڈیٹ تھونے کِرِیا سائن اپ
 email-subscription-title-new = کامن وائس خبری خطو ہدفی کائی تھون گہ  مُڇھوڑ ڙَس بونے تازہ موڙوْ بارَد سائن اپ تِھیا۔
 
@@ -71,16 +73,40 @@ join-newsletter = پروجیکٹے بارد اپ ڈیٹس گہ نئی معلوم
 
 whats-public = عوامی جوکُن؟
 email-not-public = بیْس څھے ای میل پبلک نہ تُھوِیس
+recordings-and-locale-public = ریکارنگو تعداد گہ څھوْس کھاں جِبوجی تعاون تھینَت اسہ عوامی بُوِیی
+username-optin-public = څھوْس توموْ صارف نُوم څرگَن یا چَپ سنونے انتخاب تھوبانَت
+demographic-deidentified-clarity-2 =
+    اختیاری شان گیْ جمع تِھیلوْ آبادیاتی ڈیٹا (مثلاَ عمر، جنس، جِب گہ لہجہ) څھے پروفائیل دہ کرہ 
+    گہ عوامی نہ تِھجَو، آں ڈیٹاسیٹ دہ څھے اکاؤنٹ سے لنک گہ نہ تِھجَو۔  آ انفرادی آڈیو کلپی ڈیموگرافک ڈیٹا سے ساتیْ بسکو صحیح تجزیہ تھونے مقصد گیْ منسلک تِھجَو۔ مثالے شان گیْ، آ بوبانی چہ ایْک ریسرچر سہ ایْک مخصوص طبقائے کِرِیا تربیتی ماڈل سنی۔ ایْک محقق سہ ایْک مخصوص آبادیاتی طبقائے کِرِیا تربیتی ماڈل
+username-email-not-demographic = څھے نوم گہ ای میل شائع تِھیلو ڈیٹا سے منسلک نہ تِھجَو۔
 
 ## Landing
 
 welcome-staff = راش { $company } سٹاف ǃ
+help-contribute = څھوْس کامن وائس جیْ پروفائل سنے تومیْ آوازے تعاون تھے متنوع گہ  اوپن ڈیٹاسیٹ سنون دہ مدد تھوبانَت
+login-company = لاگ ان/سائن ان { $company } تومیْ ای میل سے ساتیْ
+profile-not-required = پروفائل بون ضوروڑی نانیْ چہ اسَس دہ باگوْ ویجیئے حالانکہ آ مددگارن، کھریْ کیْہ ڇکِیا
+read-more-about = اسے بارَد صفحہ جیْ شِناک گہ پڑِیا
 
 ## NAV ITEMS
 
+answer-questions = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
+review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
+add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+press-and-stories = پریس گہ شِلَویئے
+community-and-languages = کمیونٹی گہ جِبہ
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت داری، پریس، شِلَویئے، کمیونٹی گہ جِبہ
+partnerships-menu-item-tooltip = اسو سے شراکت تِھیا
+press-and-stories-menu-item-tooltip = اسے بلاگڑ بوجہ یا اسے بارَد لِکِیا
+community-and-languages-menu-item-tooltip = جِبہ، کمیونیٹیز گہ مشترکہ آواز اورڑِیا
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اختِیاراتو مینو بارَد
+partnerships-menu-item-aria-label = کامن وائس سے ساتیْ شراکتے بارَد معلوم تِھیا
+press-and-stories-menu-item-aria-label = کامن وائس اےْ بارَد پریس ریلیز گہ شِلَویئے بُجَیش اُڇِھیار حاصل تِھیا
+community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریعہ گیْ تعاون یافتہ کمیونٹی گہ جِبو بارَد معلوم تِھیا

@@ -52,10 +52,74 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد موقرَڑ تِھیا
 cant-decide = فیصلہ نہ تھوبامَس؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+    }
 how-many-per-day = لئی مِݜٹیْ ǃ ہر چھک کچا کلپی؟
 how-many-a-week = لئی مِݜٹیْ ǃ ہر ہفتہ دہ کچا کلپی؟
 which-goal-type = څھوْ موْݜ کال تھینَت،  ݜِݨون کھوشنَت یا بیدہوݩڑ؟
 receiving-emails-info = څھوْ فی الحال ای میل وصول تھونڑ تِیارنَت۔ کاتھ چہ گول ریمائنڈر، می کامن وائس اےْ بارَد پروگرام اپ ڈیٹس گہ نیوز لیٹرز۔
+not-receiving-emails-info =
+    څھوْ چیئے توْ <bold> نیں </bold> ای میل وصول تھون  کاتھ چہ گول ریمانڈرز،  می
+    پراگریس اپ ڈیٹس گہ کامن وائس اےْ بارَد خبری خطی
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } کلپس

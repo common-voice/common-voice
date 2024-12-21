@@ -10,6 +10,7 @@ about-sentence-collection-title = Гущыӏэухыгъэ угъоигъ
 about-voice-validation-title = Макъэ къэгъэшъыпкъэн
 about-speak = Гущыӏ
 about-listen = Едэӏу
+about-dataset-new = Коммон Войс къэтыгъэ зэкӏэугъоягъ
 about-stay-in-touch-button = Зыхатх
 about-nav-why-common-voice = Сыд пае?
 about-nav-how-it-works = Сыдэущтэу?

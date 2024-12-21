@@ -24,14 +24,16 @@ new-sentence-rule-8 = مزایہ قدرتی تے مجلس۔۔۔۔جولال من
 login-instruction-multiple-sentences = کتہ منوم
 how-to-cite = کثہ منوم
 how-to-cite-explanation-bold = ترام اے°  صحی نام
+how-to-cite-explanation = ان  جولالتی تانی تہ ایلہ اتیک منؓ می منیل،ًبہ نالان تی اوں جولا کما دا گیال۔  ان پبلک ڈؤمین آں،تے کاپی رایٹ قاد پا نان۔دی اپان پویانیلکیر اسی گایڈلاین نالا
 guidelines = بییل پان
 contact-us = اساں پݭ
 add-sentence-success = جولال سمیٹیل
 add-sentence-error = جولال جمعہثآل  رل غلطن
+required-field = ماربینی تہ او فیلڈ چوپوٹ تہ
 single-sentence-submission = ا کو ن جملہ باگھال
 small-batch-sentence-submission = اپان سہ
 bulk-sentence-submission = گھن جملہجمع تال
-single-sentence = اکون
+single-sentence = اکون  / اّک
 small-batch-sentence = لکوٹوش گروپ
 bulk-sentence = جولال اے
 sentence-domain-combobox-label = ترا کارونی اپا  کیر خوشا
@@ -39,7 +41,11 @@ sentence-domain-select-placeholder = ترہ باگوی خوشہ
 # Sentence Domain dropdown option
 agriculture_food = کاروال تےخوراک
 # Sentence Domain dropdown option
+automotive_transport = اٹومو ٹیو تے یادا دی با تہ بییل
+# Sentence Domain dropdown option
 finance = خزان
+# Sentence Domain dropdown option
+service_retail = خزمت/ریٹیل
 # Sentence Domain dropdown option
 general = آم
 # Sentence Domain dropdown option
@@ -107,14 +113,50 @@ rate-limit-toast-message-seconds =
         [one] حد دا لنگیل۔۔۔۔۔منٹ می دیراں ڈیز
        *[other] وخ گو۔۔۔۔منٹ می دراں ݭج
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تو اوں پیج می جمع تالے حد تہ پݭ۔دی جمع تال کیر ا ۔۔۔۔۔۔ منٹ کٹار
+       *[other] اوںپیج می جمع تال کیر باگ نان۔۔ دی جلال پامیلونس تےاتیش  صبر تہ۔ماربینی
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] لجمع تال کیر تو حد تہ۔پݭ۔دی جمعتال کیر اتیݭ کٹآر۔ماربینی آشل
+       *[other] جمع ترال۔کیردی باگ نان۔دی پا ٹل تونس تے اتیش ناکام تہ۔ماربینی
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] ۔۔۔۔۔۔۔۔۔۔۔۔جولال سمٹیل
+       *[other] جملا سمٹیل
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] جملا سمٹیل۔۔۔۔۔۔رجکٹ جملا ڈاون لوڈ ۔ایں کیراما ا ٹسار دا
+       *[other] ۔۔۔جولال معتال۔۔۔۔نا اخلی جولال  اوکالیل کیر اما اٹسار دہ
+    }
+small-batch-sentences-rule-1 = گاییڈ لاین پر چا۔گہ ذات جملہ مہ ٹل تیبوں
+small-batch-sentences-rule-3 = اک ا  کریک می جملا اراک تہانٹر
+small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
+small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔
+small-batch-sentences-rule-6 = سوا جملا ا ک ڄھلا من جہن
+# menu item
+add-sentences = جملا  سمٹ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملاسمٹ تے نالہ۔سوالونی پا میلہ۔اڈیو  ٹرانسکرابت
+add-sentences-menu-item-tooltip = تا نی جیب می جملا جمع۔تھا
+review-sentences-menu-item-tooltip = تانی جیب جملا دیراں  نال۔
 add-questions-menu-item-tooltip = تانی جیب می سوالونی پا ٹل تا
 transcribe-audio-menu-item-tooltip = تانی جیب اے°اڈیو ریکارڈنگ ٹرانسکراییب تہ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اپشن مینو چݨ۔
 add-sentences-menu-item-aria-label = تانی خلق ام کیر نوم نوم جولال  چݨا
 review-sentences-menu-item-aria-label = تسے خلق ام کتہ جولال تال تے تس دی یرا نال سو کتہ این
 add-questions-menu-item-aria-label = تای جیب خلق ام رل کھجال کیر دی سوالونی  نام اون تن نیلی منان  تے جواب دان تہ۔
+transcribe-audio-menu-item-aria-label = اڈیو ریکارڈنگ متن میں ٹرانسکراب کریں
