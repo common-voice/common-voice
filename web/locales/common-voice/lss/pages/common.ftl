@@ -264,6 +264,12 @@ terms = ترمز
 cookies = ڪڪيز
 faq = FAQ
 content-license-text = مواد موجود آ ڪرياٽيو ڪامنز لائسنس جي هيٺان
+share-title = اسانجي مدد ڪريو ناراڻن بينک جيڪي پانجي آواز ڏئي سڱن
+share-text = مشيننک ماڻھون ڪيئن تا ڳا لا ئين سيکارڻم اسانجي مدد کريو، پانجي آواز ڏيئي.
+link-copied = لنڪ ڪاپي ڇي ويو.
+back-top = مٿي واپس ونئڻ
+logout = ٻار نڪرڻ
+donate = ڊيڻ
 
 ## Donate banner
 
