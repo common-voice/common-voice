@@ -74,3 +74,4 @@ data-download-yes = yan
 data-download-deny = ney
 data-download-license = laysenz<licenseLink>CC-0</licenseLink>
 data-download-modal = tut yi d̃ownlowd̃ẽr tiyo <size>{ $size }GB</size>jori?
+data-subtitle = sakẽs̃h owozẽn yi het̃ woz yũrtẽr dastyob d̃at̃a sẽt gon, askas̃h koy bẽ ki cẽ k̃hẽnakẽ fayilẽ aplikashanẽ (aplicayion) tẽrbiyat rẽdho baswezin.
