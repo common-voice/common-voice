@@ -18,6 +18,13 @@ dsb = Maghribi Slavic (Lusatia) he Zik
 dua = Camaroon e yi Banto Zik
 dv = Maldive sarkori zik
 dyu = Maghribi Afriqa he yi lup zik
+ebr = Shak Zik (Kyaman yoy Giyaman)
+ee = May
+el = Yunani
+en = Angreezi
+eo = Rabita he zik (European)
+es = Espani zik yoy Khalgisht
+et = Estoni Zik
 
 # [/]
 
