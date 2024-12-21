@@ -16,3 +16,4 @@ request-language-google-recaptcha-error = کائلتری غلط با ری کیپ
 request-language-success-heading = شکریہ تو سامیو نوئ وری ستہ تفتیش
 request-language-success-list-1 = تو تہ زبتئ اہ ای میل ملابولئ استہ تہ توستہ ودی کامن وائس تہ شامل کوستہ ستہ مراحل ستہ وضاحت کعستہ بؤلو
 request-language-success-list-2 = ایموستہ کمیونٹی منیجر تومع رابطہ کولہ تکہ سکال مدد پہ ستہ بولہ تو انہ ولستہ بولوش چی پونیوائ ستاع کچی کمیونٹی توستہ وری تہ کودیوم کوتہ تہ نئ نیئا
+request-language-success-list-3 = اگر تو تہ ایچوک وُس تاویک جواب ملا نہ با بو ستامعہ <emailLink>{ $email }</emailLink>زریعہ تہ ایمو معہ رابطہ کشںع ایمو تو جواب پعمو
