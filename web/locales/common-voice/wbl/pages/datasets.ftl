@@ -18,3 +18,7 @@ number-of-voices = Owozve tedod
 splits = Taqsimisht
 email-to-download = D̃ownlowd̃ẽ dẽstan k̃hũ mail kat̃
 why-email = <b>email chizẽr?</b> Datasetẽ tabdilẽ badalẽ destanẽb sakrẽb rabitar emailẽ zẽrũrat wost, Emailes̃h sakẽr rabita nis̃huni rand
+why-donate-datasets-page = Mozilla Kommon Voysi yi dẽnyo cẽ kũk̃htẽn lup mutanauw ijtimoẽ k̃hẽnakẽ het̃ D̃ataset̃ kumdẽs̃h ki sẽk ẽtya c̃het. Yemẽs̃h harsol taqriben yi "million" dollarẽ d̃at̃aset̃ woz 100+ zikvẽ jẽmoatẽs̃h tẽrpẽrũts̃h wuzumd koyishtẽs̃h ki sẽk spo yark qẽtyan. Tus̃h ki agar opẽn qadẽr daqrẽ car<b>wudhg ẽtya rnad!</b>
+confirm-size = Ti d̃awlowd̃ẽ shẽrũ k̃hakri tẽyor <b>{ $size }
+size-gigabyte = GB
+size-megabyte = MB
