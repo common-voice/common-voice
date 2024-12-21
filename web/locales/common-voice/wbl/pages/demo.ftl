@@ -17,6 +17,8 @@ demo-account = Hisob/ Akownt
 
 ## Demo Account
 
+demo-account-card-header = Akownt wocni zẽrũrat nas ki shirkatdori caren, magam yemi yormand
+demo-account-card-body = tẽr rostẽ gẽnas̃h foyda khonaẽ gon wozẽs̃h oyon gon ki sakẽs̃h chiz molũmotẽ pẽ jẽhon gon. Cẽ kommon voysẽn shẽrũ k̃haker sẽk k̃hũ esbob dem dest limkẽ istimol car.
 
 ## Demo Contribute
 
