@@ -9,3 +9,12 @@ vote-transcript-success = ٹرانسکِرپٹہ کامیابی ئے ووٹ ݪی
 vote-transcript-error = ٹرانسکرپٹہ ووٹ ݪِمېنے یَہ خرابی پُراں آئی
 transcript-edited-success = نقَلَنی کامیابِی ئے ترمیم کېران گئ
 transcript-edited-error = ٹرانسکِرپٹہ ترمیم کېرِمېنے یَہ خرابی پُدَماں آئی
+error-fetching-transcriptions = نقل نامہ رت کھائیمېنے اِپېک غلطی بُوئی۔ مېرَبانی کېری پتا دُوبُوڑہ کُوشُش کېرِؤ۔
+transcript-skipped-success = نقَلہ کامیابی ئے ووڑان گہ
+transcript-skipped-error = ٹرانسکِرپٹہ ووڑِمېنے یَہ خرابی پېش بُوئی
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = سئ
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = بُوَہ
+# For the button on the Check Transcriptions page to edit a transcription
+edit = ترمیم کېرِؤ
