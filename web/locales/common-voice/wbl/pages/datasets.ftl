@@ -29,3 +29,7 @@ validated-hours = soatvẽ towsiq
 recorded-hours = Rikord̃ẽ wakhtisht/ soatisht
 whats-inside = Dẽ Kommon Voysẽ d̃at̃aset̃ẽ desti chiz?
 dataset-description-hours = Dẽ d̃at̃asetẽs̃h har darjẽn yi alag MP3 woz yon k̃hũn matanẽ foyil wost. Dẽ d̃at̃aset rikord̃ k̃hetk ghafch soatẽ  <b>{ $total }</b>d̃mogrefik met̃a d̃at̃ayi bẽ shomil, yaniki, ũmẽr, jins, lehja kumdẽs̃h ki k̃henakẽ rikord̃ẽ drustẽgig̃hir mashinẽr medad wost. hanivi d̃at̃aset̃ sẽk<b>{ $valid }</b>mushtamil, zikẽ towsiqẽ soatẽs̃h <b>{ $languages }</b>,magam sakes̃h hamish ziyoda owozẽt zikẽ shomilẽn. spo zikẽ wẽraqẽ <languagesLink> yi loy tayin, zikẽ bobatẽn yoy shomil k̃hakẽr
+want-dataset-update = sakẽs̃h ki kommon voyse s̃heg̃hd d̃at̃asẽtẽ jori carẽn to yorẽs̃h apd̃et̃ dẽrkor wost, sasht spo khẽbarẽ khate sabsekrayb carit
+subscribe = Sabsẽkrayb
+get-started-speech = K̃hẽnakẽ rikord̃ingẽ mes̃h shẽru
+other-datasets = digar owozẽ d̃at̃aset̃isht
