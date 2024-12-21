@@ -1,5 +1,7 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = غلطی
 action-click = کلک
 action-tap = ووسپلہ
 # Label for language switcher
@@ -36,3 +38,19 @@ accept-privacy-and-terms = اوݩزی عام کوٹ مع اتفاق کوتوم<t
 bsy = صباح بسایا
 cdo = فوزو
 cpx = ہینگ ہوا
+en = انگریزی
+fr = فرانسی
+hch = وِکسیریکا
+kzi = کیلابٹ
+mbf = بابا ملای
+meh = جنوب مغربی ٹلکیاکو مکسٹیک
+mel = سنٹرل میلانو
+mmc = مچوآکان مازاہوا
+ms-MY = بہاسا مالے
+msi = سباہ مالئ
+pez = مشرقی پینان
+pne = مغربی پینان
+sdo = سیریان بیڈایو
+snv = سابان
+tr = ترکی
+xkl = کینیا
