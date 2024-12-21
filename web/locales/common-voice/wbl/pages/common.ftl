@@ -12,6 +12,12 @@ ady = Shumol-Maghribi Kakeshian Zik yoy Khalgisht
 af = Afriqahe Khalgisht
 am = Ethopian (Habashi)
 an = Aragon e Zik yoy Khalgisht
+dav = Junub-Mashriqi Kenya he Taita khalgve Zik
+de = Jarman Zik yoy Khalg
+dsb = Maghribi Slavic (Lusatia) he Zik
+dua = Camaroon e yi Banto Zik
+dv = Maldive sarkori zik
+dyu = Maghribi Afriqa he yi lup zik
 
 # [/]
 
