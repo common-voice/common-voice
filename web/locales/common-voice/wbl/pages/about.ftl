@@ -118,6 +118,7 @@ about-playbook-how-validate-content-4 = Agar bu khalgve ki yi 'clip' radd kert, 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Wuzep chisokht 'dataset' e gotem?
+about-playbook-how-access-dataset-content-1 = Sashtes̃h de 'dataset' ve safha rẽc̃hne bas vezit, woz k̃hu maqsade zike intikhob carit woz yawe 'download' carit. Woz de filevenep 'metadata' munsalik wost, maslan Obodiye ma'lumot woz 'validation data'. saverep 'dataset' 'download' k̃hake distan yi email pata rẽdho wost.
 
 ## How are decisions made
 
