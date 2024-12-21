@@ -25,10 +25,30 @@ about-speak = مٞن
 about-speak-text = شرکتداٞراٞن وائس کلپ ریکارڈ کٞرنتر جمع کٞراٞل جملاٞ تھی پٞری تئ۔
 about-listen-queue = بُجوگاں قطار
 about-listen-queue-text = وائس کلپونہ جمع کٞروگاٞں قطاٞر مئ شِیٹ کٞرنت سٞہ اوم تیار کٞراں بُجوگ کٞہ۔
+about-listen = بُج
+about-listen-text = صارفین داٞگاٞل کلپنیں تصدیق کٞرگ، چیک کٞرگ اوں مٞنوگ والہ جملہ صحی پٞرونت۔
+about-is-it-valid = اِیں کلپ صحی آٞ؟
+about-is-it-valid-text = کون اٞ صارف اٞ وائس کلپ کٞہ ییس منی ووٹ دیت سٞہ صحی ناٞخ ہویں۔
+about-yes-votes = 2اوں آٞں ووٹونہ
+about-yes-votes-text = کامن وائس ڈیٹا سیٹ کٞہ اٞ وائس داٞݭات لازمی دوئی جدا صارفین ماتھی تصدیق کٞراگ۔
+about-no-votes = 2 نہ آٞں ووٹونہ
+about-no-votes-text = کون اٞ صارف اٞ ا وائس کلپ رد کیر سٞہ قطاٞر کٞہ اوپس ییں۔دوئیم دیر رد کیر  وائس کلپ کلپیں قبٞریٹ کٞہ بچیں۔
+about-dataset-new = کامن وائس ڈیٹا سیٹ
+about-dataset-new-text = کامن وائس ڈیٹا سیٹ مئ سوونہ زرگونہ وائس سیمپل ڈیویلپریں مداٞد کٞراٞں اوں ہواز پویانوگ واَلاٞ آلاٞ چاگ۔
+about-clip-graveyard = کلپیں قبریٹ
+about-clip-graveyard-text = کلپیں قبٞریٹ مئ تٞتھی وائس کلپونہ شامل تھی اوں توم کامن وائس ڈیٹا سیٹ مئ نہ ییت تہ، کلپیں قبریٹ ڈاونلودیں کیر موجود تھی۔
+about-get-involved = شامل ہُو
+about-nav-why-common-voice = کا؟
+about-nav-how-it-works = کھیکی؟
+about-nav-partners = سیتاٞن
+about-nav-get-involved = شامل ہُو
+about-nav-how-it-works-2 = کھیکی کامن وائس کار کٞرنت؟
+about-nav-playbook = اِزدہ کٞر کھیکی حصہ گھیناٞ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس راٞکٞہ اٞ جِب کناں؟
 
 ## How do I add a language
 
