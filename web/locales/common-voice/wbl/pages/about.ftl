@@ -75,6 +75,9 @@ about-playbook-how-add-language-collecting-sentences-content-3 = Sẽk Jama k̃h
 about-playbook-how-localize = 'Site localization' es̃h chisokht yark cart?
 about-playbook-how-localize-content-1 = 'Common voice site' e tarjuma es̃h sẽk 'Pontoon' wost.
 about-playbook-how-localize-content-2 = yi 'account' tayor car, agar tirmiskini ki nast Yandi k̃hu zike intikhob carit can cẽbas project 'Common voice' e intikhob carit. Hadraep filev tarjuma he haten gotit. Sẽk yiewev ki 'click' kert, yawep angreezi lavzev disuvd woz yik boxep tarjumaher disuvd.
+about-playbook-how-localize-content-3 = Tarjuma'e ce Angreezi ziken, laikin sashtes̃h mashorve de digar zikev be winge bas vezit. Sek 'profile icon' click carit, yandi the 'settings' rec̃hit k̃he k̃hu dishne zike hadra kat̃ith. Ce rost dhaste dest burj ep 'Locales' e nungan tarjumave qutor gotit. Tarjumavep yi roren cẽbas sẽk 'site' winnit.
+about-playbook-how-localize-content-4 = 'Site' ep haya wakht sohat wost, ce wakhtki 75 % yark pura witey.
+about-playbook-how-localize-content-5 = Spo 'Video explainer' madad e haten tayin carit.
 
 ## How to add sentences
 
