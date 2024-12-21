@@ -89,6 +89,9 @@ about-playbook-how-add-sentences-content-3 = sashtes̃h 'Sentence extractor' en 
 ## How to record quality
 
 about-playbook-how-record-quality = Wuzes̃h yi baf ma'yare 'Voice clip' chisokht 'record' carem?
+about-playbook-how-record-content-1 = K̃hu Om owozer qissa car! Hadremep save qasa k̃hake andozer khush omadeed k̃hanen. Chisokhti ki save lahja tey, sakri haya awaji, woz sakri save owoze 'volume, style' woz wuch past k̃hake andoz awaji.
+about-playbook-how-record-content-2 = tẽr cẽbas ghafch shur me humut. woz save kus̃huyn oson wocen awaji.
+about-playbook-how-record-content-3 = Jumlave ehtiyote mẽs̃han joyit, Lavzve lecrit, badal yoy bes̃h me joyit.
 
 ## How to grow language
 
