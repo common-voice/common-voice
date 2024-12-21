@@ -106,6 +106,8 @@ about-playbook-how-add-sentences-content-3 = تُمݺ جُملݳ<scraperLink> ا
 
 about-playbook-how-record-quality = شݸنݳ معݵݳرݵئ چھَتݵئ کِلِپ کݵ رِݵ رݵکݳٹ ارَم؟
 about-playbook-how-record-content-1 = اَپَنݵئ عݳم چھَتَنݳ چَغݳ رݳ! امݺ تھݳ تُمݳ بݳشِنئ اَندݳزَشݸ خݵر مَقدَم اِرَم چھݸم. امݵچُݸ تُمݳ بݳشِنݳ کݵ ہݸئ چھَتݳ ہݵئ ہݸئ اوݳجݵ، نݸ امݺ چُݸ تُمݳ ڞݳنݸ چھݸت، اندݳز نݸ لہجَہ پَسَن چھݳ.
+about-playbook-how-record-content-2 = پَچِپڎِݵݸ شݸر کَم اِرݳ. تمݵڎ پَݸرجِنݳ آسݸن ہݸئنݳ اوݳجݵ.
+about-playbook-how-record-content-3 = جُملہ غݸرَس کݸٹ مُنݳ۔ الفاظݸݣ فَت، تَبدݵل یݳ بݸسک نݵ رݳ.
 
 ## How to grow language
 
