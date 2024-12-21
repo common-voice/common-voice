@@ -45,3 +45,6 @@ data-other-librispeech-description = LibriSpeechi ẽndozan1000 soatẽ 16Khz En
 data-other-ted-name = TED_LIUM Corpus
 data-other-ted-description = TED-LIUM corpus  audio talkev k̃hetu woz yavẽ tẽrjumayi sek  TED website tey.
 data-other-voxforge-description = VoxForge yi set̃ up tu kqẽsaẽ tẽrjuma jama carẽn muft and 'Open Source khẽnak dishnẽ enjenve
+data-other-tatoeba-description = T̃at̃obayi jumlave yi lup d̃t̃abes, terjuma, woz k̃hẽnetk aud̃ioven zik yek̃hk wocnẽ destan. hadem d̃ownlowdi zik k̃hẽnakẽkũzgve rikordisht.
+your-feedback = tus̃h disha ki Kommunit̃ Voys d̃at̃asetẽb cẽr sokht baf gon ? sakẽr sek Discours k̃han
+go-discourse = Sẽk d̃iscous rec̃h
