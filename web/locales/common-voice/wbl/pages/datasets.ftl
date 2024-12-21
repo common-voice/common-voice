@@ -88,3 +88,5 @@ license = Laysenz:<licenseLink>{ $license }</licenseLink>
 license-mixed = Qẽti/ jẽrgit
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Spo owozẽ d̃at̃asẽtẽ d̃ownlowd̃
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Dẽ kommon vos g̃hẽtakẽr ikhtiyor/ zoqvẽ d̃ownlowd̃
