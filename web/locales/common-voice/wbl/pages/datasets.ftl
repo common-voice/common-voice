@@ -62,3 +62,6 @@ no-information-available = Chiz malumoti nast
 dataset-metadata-sex = jins
 # dataset metadata - age of contributor
 dataset-metadata-age = Ũmr
+donate-modal-message = Ti d̃at̃aset̃s̃h d̃onlowd̃ wost!
+dataset-donate-modal-heading = Cẽr tawẽ dishta…
+donate-modal-explanation-1 = D̃at̃aset̃e mizbonig̃hrẽs̃h har sol million d̃ollarisht rec̃hẽn wozẽs̃h 100+ zikvẽ tẽr pẽrũt yundakẽr plet̃form rand. yave dorumẽdor sek po yark
