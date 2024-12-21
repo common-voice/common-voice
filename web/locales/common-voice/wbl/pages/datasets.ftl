@@ -65,3 +65,7 @@ dataset-metadata-age = Ũmr
 donate-modal-message = Ti d̃at̃aset̃s̃h d̃onlowd̃ wost!
 dataset-donate-modal-heading = Cẽr tawẽ dishta…
 donate-modal-explanation-1 = D̃at̃aset̃e mizbonig̃hrẽs̃h har sol million d̃ollarisht rec̃hẽn wozẽs̃h 100+ zikvẽ tẽr pẽrũt yundakẽr plet̃form rand. yave dorumẽdor sek po yark
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>agar sashtẽs̃h ki het̃ shomil d̃ata qdrit- haniv atya randit!</bold>
+data-download-singleword-title = Wir harf T̃arget Segment̃ẽ d̃ownlod̃it
+data-download-singleword-callout-v2 = yemi yi istimol kasẽn (use case) vit sẽgment dẽmes̃h k̃hẽnakẽ hindisavẽ shenokht, yan / ney malũm wost
