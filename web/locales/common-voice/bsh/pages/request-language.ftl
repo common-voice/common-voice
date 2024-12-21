@@ -14,3 +14,5 @@ request-language-google-recaptcha-required = اگر تیو پونیوائ است
 request-language-google-recaptcha-error = کائلتری غلط با ری کیپچا کوتاتہ مہربانی کہ تے درے دی کوشیش کشی
 # Success page
 request-language-success-heading = شکریہ تو سامیو نوئ وری ستہ تفتیش
+request-language-success-list-1 = تو تہ زبتئ اہ ای میل ملابولئ استہ تہ توستہ ودی کامن وائس تہ شامل کوستہ ستہ مراحل ستہ وضاحت کعستہ بؤلو
+request-language-success-list-2 = ایموستہ کمیونٹی منیجر تومع رابطہ کولہ تکہ سکال مدد پہ ستہ بولہ تو انہ ولستہ بولوش چی پونیوائ ستاع کچی کمیونٹی توستہ وری تہ کودیوم کوتہ تہ نئ نیئا
