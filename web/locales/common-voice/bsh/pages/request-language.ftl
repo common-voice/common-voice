@@ -2,6 +2,7 @@
 
 request-language-heading = نوئ وری بارہ تہ کودو
 request-language-explanation-1 = ایشکشی اگر توستہ وری لیسٹ تہ اسہ با<languagesPageLink> کامن وائس ستہ زبان ستہ صفحہ</languagesPageLink> اگر نہ اسہ با اینہ فارم پورا کشی او ایمو تاتہ ای میل ستُرہ سمہ مو وضاحت مع چی کائکہ توستہ وری ستہ ترتیب کولوش </strong>۔
+request-language-explanation-2 = ایمو ایمستہ کمیونٹی منیجر دی<strong> خبر کومواگر تیو دلچسپی</strong> اݩگہ چی با تاکہ استہ تو ورہ دی مدد یا معلومات پعہ بلو کائ تو بکار بیبو
 request-language-form-email =
     .label = توستہ ای میل ایڈریس
 request-language-form-info =
@@ -17,3 +18,4 @@ request-language-success-heading = شکریہ تو سامیو نوئ وری ست
 request-language-success-list-1 = تو تہ زبتئ اہ ای میل ملابولئ استہ تہ توستہ ودی کامن وائس تہ شامل کوستہ ستہ مراحل ستہ وضاحت کعستہ بؤلو
 request-language-success-list-2 = ایموستہ کمیونٹی منیجر تومع رابطہ کولہ تکہ سکال مدد پہ ستہ بولہ تو انہ ولستہ بولوش چی پونیوائ ستاع کچی کمیونٹی توستہ وری تہ کودیوم کوتہ تہ نئ نیئا
 request-language-success-list-3 = اگر تو تہ ایچوک وُس تاویک جواب ملا نہ با بو ستامعہ <emailLink>{ $email }</emailLink>زریعہ تہ ایمو معہ رابطہ کشںع ایمو تو جواب پعمو
+request-language-error = اجیستہ دی بوتہ چی ایمو توستہ درخواست بُدوئ نہ شیمو استہ ول تہ مہربانی کتئ ایمو مع براہ راست <emailLink>{ $email }</emailLink>رابطہ کشݩع ایمو شو جواب پعمو!
