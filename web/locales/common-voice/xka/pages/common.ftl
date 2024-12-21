@@ -260,6 +260,13 @@ cookies = کوکییز
 faq = ف۔آ۔ق
 share-text = ہیلو    مشینانو ام تہ پشہ،سبطینی اۡم  خلق کتھ  جولاں۔تانی تراٹ ۔۔۔۔۔۔۔۔۔۔رل میلہ
 link-copied = لنک نقل بیل
+logout = پتبہ دہ ثا بال کیر
+donate = امداد
+stayintouch = بہ لوظتھان اوںتیمعلومات رݭے۔دی  با من
+return-to-cv = کامن وایس پر نو ٹ
+email-input =
+    .label = ای میل
+loading = لوڈ تال۔۔اوکالیل
 
 ## Donate banner
 
