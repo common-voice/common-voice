@@ -57,3 +57,7 @@ accept-privacy-and-terms = اوݩزی عام کوٹ مع اتفاق کوتوم<t
 login-identity = اتوستہ زعݩوار
 login = اتوئ
 edit = سنا
+email-subscriptions = ای میل سبسکریبشن
+download-profile = ایݩستہ ڈیٹا ووکݜا
+contribution-experience = حصہ داری ستہ تجربہ
+skip-submission-feedback = جمع کراستہ ستہ تاثراتہ اتلا
