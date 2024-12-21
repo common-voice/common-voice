@@ -15,6 +15,10 @@ prompt-response-deleted-success = جواب اکامی مع یسیؤ
 delete = یَسہ
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = جمع کعہ
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = څنگ جمع کشی
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = یاد کشی اینہ صفحہ کائ کہ استعمال کوستہ اسہ کا
+learn-how-to-use-prompts-guidance = کلک<guidanceLink>انی</guidanceLink>یاد کوستہ کہ صفحہ کائ کہ استعمال کوستہ اسہ کا
