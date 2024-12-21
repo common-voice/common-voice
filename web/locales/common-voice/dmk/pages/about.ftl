@@ -109,9 +109,11 @@ about-playbook-how-record-content-1 = اَپَنݵئ عݳم چھَتَنݳ چَ�
 about-playbook-how-record-content-2 = پَچِپڎِݵݸ شݸر کَم اِرݳ. تمݵڎ پَݸرجِنݳ آسݸن ہݸئنݳ اوݳجݵ.
 about-playbook-how-record-content-3 = جُملہ غݸرَس کݸٹ مُنݳ۔ الفاظݸݣ فَت، تَبدݵل یݳ بݸسک نݵ رݳ.
 about-playbook-how-record-content-4 = یَقݵنݵ اِرݳ تݳ پلݵٹفݳم رݵکݳڈِݣ شُرݸع رِنَس مݸ ہَگݵ فَعݳل ہݸن نݸ اݽݵئ ہݳئی وَقتݵئ بَن ہݸ کبݺ تُمݺ الݸ پُرݳ رݸت تݳ.
+about-playbook-how-record-content-5 = <accuracyLink> ٹھݵٹھݳک کرݳئٹݵرِݵَس مزݵد دݵکھݳ.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = امݺ کݳمَن وݳئسَس کِݵ رِݵ چُستِس کݸٹ بݳݽ فَٹُݸݳئ شَکَم چھݸم؟
 
 ## How to validate
 
