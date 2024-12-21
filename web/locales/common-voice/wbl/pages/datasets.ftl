@@ -9,3 +9,5 @@ download-delta-explainer = Sakẽ z̃aq badalẽv k̃hetk, D̃elt̃a degments̃h
 download-dataset-tag = Zẽrũratẽ zikẽ yewẽr  k̃hẽ haya varzhanẽ durz kumdes̃h ki tu d̃awlowdẽ zoq car
 # File size in gigabytes
 size = Qolib
+validated-hr-total = Kũl tasdiq k̃het Hr
+overall-hr-total = Kul tasdiq k̃hetk Hr
