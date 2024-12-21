@@ -53,3 +53,12 @@ go-languages-page = Sẽk zikvẽ wẽraq rec̃h
 ready-to-validate = jumlave towsiqrẽt tiyora?
 more = z̃aq woz
 close = g̃hurt, band
+download = D̃ownlowd̃
+dataset-version = vẽrzhan
+sha256-checksum-copied = SHA256 Checksum naqẽl!
+sha256-checksum-copied-error = Checksum SHA256 naqlẽr nokom
+clipboard-not-supported = Klipbords̃h yat ne cart
+no-information-available = Chiz malumoti nast
+dataset-metadata-sex = jins
+# dataset metadata - age of contributor
+dataset-metadata-age = Ũmr
