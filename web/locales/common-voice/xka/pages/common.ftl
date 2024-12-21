@@ -253,6 +253,10 @@ zza = زازا
 profile = پروفاییل
 help = ہلپ۔۔۔۔مدد
 contact = کنٹیکٹ ۔۔۔۔۔۔رابطہ
+privacy = پرایویسی۔۔۔۔۔اپانتہ۔۔۔۔۔پلاگیال
+terms = شرطونی
+cookies = کوکییز
+faq = ف۔آ۔ق
 
 ## Donate banner
 
