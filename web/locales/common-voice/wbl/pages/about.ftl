@@ -54,6 +54,7 @@ about-nav-playbook = Hissadori yek̃hk vocit
 ## What is a language
 
 about-playbook-what-is-language = Yi ziki sẽk "Common voice" chiz?
+about-playbook-what-is-language-content-1 = Zike bobaten fikrisht ghafchzel. Qissa he namunahev takhpa k̃hake bobaten, "Common vooice" es̃h "limane rẽpuzuv" kitak, yoy oyo hadem zik qissa k̃hake khalgishtes̃h bus̃hter limane qissave dishna, agar yaveki koshesh kert?
 
 ## How do I add a language
 
