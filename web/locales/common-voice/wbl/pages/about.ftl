@@ -112,9 +112,12 @@ about-playbook-how-grow-language-content-8 = Takhleeqi wocit, save zike guruhep 
 about-playbook-how-validate = Wuzep chisokht dishemki yi 'voice clip' em manzoor k̃haker.
 about-playbook-how-validate-content-1 = Agar tues̃hki yave kus̃huy woz repuzuves̃h pirvit, yani ghafch bafki manzoor car.
 about-playbook-how-validate-content-2 = Haya 'clip' ve na manzoor mecar, kumdve lehjayi ki ce tinen mukhtalif tey. yemi owozev takhpa k̃hake haten her yiewe distan ahm tey.
+about-playbook-how-validate-content-3 = Agar tawres̃h sudhuyd ki tallafuze repuzuv kitaki nomumkin, yoy ter cẽbasi ghafch shur, yoy digar khalgishtes̃h be qẽsa caren, yandi tawer 'clip' radd k̃hak awaji. Bes̃h malumote haten spo 'accuracy criteria' he tayin carit.
+about-playbook-how-validate-content-4 = Agar bu khalgve ki yi 'clip' radd kert, yandi yawes̃h dẽ 'dataset' yi mukhtalif 'subset' disuven.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Wuzep chisokht 'dataset' e gotem?
 
 ## How are decisions made
 
