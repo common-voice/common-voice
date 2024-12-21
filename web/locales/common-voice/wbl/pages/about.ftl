@@ -22,6 +22,7 @@ about-dataset-release-title = Dataset oshkor
 about-dataset-release-subtitle = sakesh da her thru muy dataset oshkor caren
 about-subscribe-text = da  Common Voice'en robita'er halak zoqesh lecra?
 about-speak = Qẽsa car
+about-speak-text = Ce Jumlahe zakhiraven bukhs̃h k̃hake kuzgisht k̃hu sadohe "record" caren
 about-listen-queue = kus̃huy-qutor
 about-listen-queue-text = Voice Clip'ves̃h da yi qutor katen k̃he kus̃huy'ner tyor caren
 about-listen = Kẽs̃hũy
@@ -35,8 +36,11 @@ about-no-votes-text = cay wakht'es̃h ki yi user voice clip qubul ne cart yow'es
 about-dataset-new = Common Voice Dataset
 about-dataset-new-text = da Common Voice Dataset'es̃h cum sad hazor owoz namun'isht wocen kumdes̃h'ki sokhtmon'er owoz dishn'e owzor'ev tyor k̃hak'er madad wost
 about-clip-graveyard = Clip Qabriston
+about-clip-graveyard-text = Qabristone "Clip" haya owoze clipisht kumdisht ki de "Common voice dataset" ne rek̃hk. "Dataset" e rang Clipe Qabristones̃h be "download" wost
 about-get-involved = shareek wocit
 about-get-involved-text-2 = Common Voice woz be baf k̃hak'e zoqes̃h lecra?
+about-stay-in-touch = Wuz chi sokht qiti wocem?
+about-stay-in-touch-button = Dastkhat gok̃hit
 
 ## Community Playbook Content
 ## What is a language
