@@ -75,3 +75,16 @@ data-download-deny = ney
 data-download-license = laysenz<licenseLink>CC-0</licenseLink>
 data-download-modal = tut yi d̃ownlowd̃ẽr tiyo <size>{ $size }GB</size>jori?
 data-subtitle = sakẽs̃h owozẽn yi het̃ woz yũrtẽr dastyob d̃at̃a sẽt gon, askas̃h koy bẽ ki cẽ k̃hẽnakẽ fayilẽ aplikashanẽ (aplicayion) tẽrbiyat rẽdho baswezin.
+data-explanatory-text = sakri yaqin ki awomẽr dastyob lup d̃at̃a set̃ kumdi ki sẽk mashin dishen tey yab dẽ k̃henakẽ t̃eknoloji jidat wũzimd woz sihatmand sẽwdogarig̃hẽ mẽqobila/ t̃akbozib tẽr pẽrũt wũzũmd. yemi pẽtũn dẽnyo kushish woz skẽs̃h kũkhtẽr dawat randen ki shomil wocẽn. spo maqsadi k̃henakẽ t̃eknolojiyẽ kũk̃htẽr k̃hak, akosi cart ki cẽ petũn dẽnyonẽv owosisht
+data-get-started = <speechBlogLink>k̃hẽnak rikording shẽru car</speechBlogLink>
+data-other-title = digar owozẽ d̃at̃sẽt…
+data-other-goto = rech{ $name }
+data-other-download = D̃at̃aẽ D̃ownlod̃
+data-bundle-button = D̃at̃aset̃ẽ khẽfchaẽ d̃ownlowd̃
+data-bundle-description = Kommon Voysẽ d̃ata woz sẽk sar dan qẽti digar  owosẽ d̃at̃a set̃vẽ.
+release-version = vẽrzhan
+dataset-date = D̃at̃a
+license = Laysenz:<licenseLink>{ $license }</licenseLink>
+license-mixed = Qẽti/ jẽrgit
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Spo owozẽ d̃at̃asẽtẽ d̃ownlowd̃
