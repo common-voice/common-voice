@@ -265,7 +265,12 @@ terms = شرائط
 cookies = کوکیز
 faq = فاق
 content-license-text = مواد موجود ائ اتیوع<licenseLink>کریٹیو کامنز لائسنس</licenseLink>
-share-title = ایمو مع کمک کشی کیوت کوستہ کہ ورںچی امکی یوستہ کوٹ وقف کولہ!
+share-title = ایمو مع کمک کشی کیوت کوستہ کہ ورں چی امکی یوستہ کوٹ عطیہ کولہ کولہ!
+share-text = مشینہ زعاݩستہ کہ کمک کشݩع چہ اصلی مچی کائیکہ ولہ تت یاستہ کوٹ انی عطیہ  کشݩع{ $link }
+link-copied = لنک کاپی کعیہ
+back-top = واپس اولںع
+logout = لاگ اوٹ
+donate = عطیہ
 email-input =
     .label = ای میل
 
