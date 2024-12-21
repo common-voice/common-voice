@@ -41,6 +41,7 @@ about-get-involved = shareek wocit
 about-get-involved-text-2 = Common Voice woz be baf k̃hak'e zoqes̃h lecra?
 about-stay-in-touch = Wuz chi sokht qiti wocem?
 about-stay-in-touch-button = Dastkhat gok̃hit
+about-stay-in-touch-text-1 = Dastkhat gok̃hit
 
 ## Community Playbook Content
 ## What is a language
