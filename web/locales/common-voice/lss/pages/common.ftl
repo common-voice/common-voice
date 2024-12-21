@@ -237,12 +237,33 @@ vec = وينيٽيان
 vi = نيتنامز
 vmw = ايمخوا
 vot = ووٽڪ
+wep = ويسٽفليان
+wes = ڪيمرون پيجَن
+wo = ولوف
+xh = زهوسو
+yi = ييديش
+yo = يوروبا
+yue = ڪينتونز
+zgh = تمزائيگٽ
+zh-CN = چائنيز (چائنا)
+zh-HK = چائنيز (هونگ ڪونگ)
+zh-TW = چائنيز (تائيوان)
+zu = زو لو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مدد ڪرڻ
+contact = رابطو ڪرڻ
+privacy = پرائيويسي
+terms = ترمز
+cookies = ڪڪيز
+faq = FAQ
+content-license-text = مواد موجود آ ڪرياٽيو ڪامنز لائسنس جي هيٺان
 
 ## Donate banner
 
