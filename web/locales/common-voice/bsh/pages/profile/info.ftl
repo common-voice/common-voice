@@ -29,4 +29,12 @@ native-language =
 profile-form-add-accent = نوئ طرز تہ لہجہ سنا"{ $inputValue }'
 profile-form-submit-save = محفوظ کشی
 profile-form-submit-saved = محفوظ با
-male_masculine = نہ/شتری
+male_masculine = منچی/نہ
+female_feminine = جوکوعں/شتری
+intersex = نہ جوکوعں نہ منچی
+transgender = نہ جوکوعں نہ منچی
+non-binary = غیر ثنائی نظام
+do_not_wish_to_say = گجی کوستہ نہ وگچی
+# Gender
+other = سور
+why-profile-title = کا اہ پروفائل؟
