@@ -128,6 +128,7 @@ about-playbook-how-grow-language-content-8 = <strong> تخلݵقݵ ہُݸݳ!</st
 about-playbook-how-validate = اُݸ کݵ رِݵ ݵنݳ بݳئی شکݳس کِہ بݳݽݵئ کِلِپ مَنظُݸر اِرِنݵ چھِݺ نݳ؟
 about-playbook-how-validate-content-1 = اَگَر تمݺ <strong>انݣݵڎ پݸرجݵ<strong> شکݵگُچھݸت </strong> نݸ <strong> ݵَنݳ بݳئی شکݵگُچھݸت </strong> ، تݸ اشݵنݳ <strong> مَنظُݸر اِرِنݳ بݸت شݳ ہݸگݳ چھݳ</strong>.
 about-playbook-how-validate-content-2 = <strong>اشݵݣݳ کِلِپݳ مُستَرَد نݵ رݳ کݳجݵک بݳشݵگݳ ہݵیݵئ لہجَہ تُمݳ اَپَنݵئی</strong> لہجَس مݸ مُقتَلِپ ہݸ. اݽݵئ بُٹݵݣݺ کݳرݸ چھتݵئ دݽݳرِنݳ شݳ رِنݳئی کݳرݸ اہم چھݳ.
+about-playbook-how-validate-content-3 = اَگَر تمݵچݸ اَشݵ دکھلݸنݳتݳ تَلَفُظݵئ ݸجَس<strong> اݵݣݵڎ ݵنݳ بݳنݳ</strong> نݳمُنکِن چھݳ، ݵݳ پَچݵپَڎݵ <strong>بُݸت شݸر</strong> چھݳ، ݵݳ <strong>اݸرݳ بَندَن بݳشݵݣݺ چھݺ</strong>، تݸ تمݺ کِلِپ مُسترَد اِرِنݳ اَوݳجݵ. <accuracyLink>مزݵد مَعلݸمݳتݵݣݺ کݳرݸ امݳ ٹھݵک اِرِنݳئی معݵݳرݸݣ دݵکھݳ</accuracyLink>.
 
 ## How to access dataset
 
