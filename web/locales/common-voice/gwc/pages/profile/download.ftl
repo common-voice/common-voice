@@ -1,5 +1,11 @@
 ## Profile Download
 
+download-q = تٞھکٞہ تانی مواد ڈاونلوڈ کٞروگیں ضرولاٞت تھی آٞ؟
+download-info = ماں کٞہ  مٞن تو کٞناں ڈاونلوڈ کٞروگ خوشانت؛
+download-profile-title = تانی تفصیل
+download-profile-info = شامل تھو ایمیل، نام تے بھاگاں مالومات فوری موجود تھو
+download-profile-size = کٞتیک باٞئٹس
+download-recordings-title = ریکارڈِنگز
 download-recordings-info = شامل تھو mp3s تے تساٞں متعلق جملاٞ، کیدےشی تیار کٞروگ مئ اٞتوشی ٹیم گینٞگ۔
 download-recordings-size = عموماً میگا بائٹس
 download-recordings-unavailable = تٞھہ تانی ریکارڈنگز آں درخاست نہ کٞرباٞں کون مِڄ گٞشی درخاست جاری ہو تہ۔
