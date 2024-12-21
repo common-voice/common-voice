@@ -6,6 +6,7 @@ demo-welcome-subheader = دی پا جانی۔وش این۔۔۔تے پراجیک�
 
 ## Demo Datasets
 
+card-button-next = دی
 
 ## Demo Account
 
