@@ -1,5 +1,7 @@
 ## Transcribe Audio page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+audio-page-instruction = چھوڈآ تس ات میش گھوا مینل رل بت۔
 editbox-header = نقل تھال
 editbox-placeholder = جوݨڑا تس اوں میش اوما گوا منیل رل بت۔
 no-audio-message = اوں جب می نقل تھال کیر گیب اڈیو نان ۔مربنی تھا پات تازہ تھاتھ پتا دیرا کوشش تھا
