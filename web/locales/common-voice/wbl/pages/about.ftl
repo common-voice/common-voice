@@ -74,6 +74,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = Sẽk Jama k̃h
 
 about-playbook-how-localize = 'Site localization' es̃h chisokht yark cart?
 about-playbook-how-localize-content-1 = 'Common voice site' e tarjuma es̃h sẽk 'Pontoon' wost.
+about-playbook-how-localize-content-2 = yi 'account' tayor car, agar tirmiskini ki nast Yandi k̃hu zike intikhob carit can cẽbas project 'Common voice' e intikhob carit. Hadraep filev tarjuma he haten gotit. Sẽk yiewev ki 'click' kert, yawep angreezi lavzev disuvd woz yik boxep tarjumaher disuvd.
 
 ## How to add sentences
 
