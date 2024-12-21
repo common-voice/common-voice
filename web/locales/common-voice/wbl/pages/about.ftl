@@ -102,6 +102,8 @@ about-playbook-how-grow-language-content-1 = Sakes̃h yi zike kum hade batken mo
 about-playbook-how-grow-language-content-2 = Rujisht
 about-playbook-how-grow-language-content-3 = Sashtes̃h Rujve c̃huwuvne bas vezit, kumdve madadnes̃h ki khalgisht hisa kit~ake bas vezin. Yemi ce save fikren be ghafch oson. Sashtes̃h yeme 'videoconferencing tool' ve madaden 'online' k̃hake bas vezit. Tuke rujve tayin k̃hake distan spo 'templates' woz wasoyilves̃h tayin k̃hake bas vezit.
 about-playbook-how-grow-language-content-4 = Yurtdoriye nashriyotisht
+about-playbook-how-grow-language-content-5 = Sashtes̃h pyghomotve sutuyne distan yurthdoriye nashriyot e zariave istimol k̃hake bas vezit. hazing pyghomve sutuyit ki yawen ahmiyat humut woz khalgve mes̃han yave zike huquq e rang abashve bobaten qẽsave carit,  woz boridigar istimol wocne matanve 'voice AI' muhimve zaria verkhuvit.
+about-playbook-how-grow-language-content-6 = Shirkatdoriy et 'networks'
 
 ## How to validate
 
