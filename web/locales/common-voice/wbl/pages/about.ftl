@@ -134,3 +134,5 @@ about-playbook-how-project-governance-content-7 = Spo Intizomve bobaten woz be j
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = 'Common voice' es̃h Chisokht atiya got?
+about-playbook-how-funded-content-1 = 'Common Voice' i Mozilla Foundation e yi project tey, yi US 501 c 3. Nivo projectes̃h komilan khairati atiyatve zaria hen woz ce putun dunyohe khalgve atiyatven pura caren.
