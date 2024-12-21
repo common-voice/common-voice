@@ -43,3 +43,5 @@ community-playbook = Jamoatẽ Playbook
 resource-playbook-info = Sẽk pẽtun Kommon V|odesẽfar <playbookLink>medadgor hidoyatẽ hosil</playbookLink>Ce lokẽlizashanẽn d̃at̃asetẽistimolẽ batk, hayaran dẽ po jamoaten cẽr sokht qẽti wocẽn
 data-other-librispeech-description = LibriSpeechi ẽndozan1000 soatẽ 16Khz English k̃hẽnake kumdev ki ce 'read audiobookẽn cẽ LibriVox project.
 data-other-ted-name = TED_LIUM Corpus
+data-other-ted-description = TED-LIUM corpus  audio talkev k̃hetu woz yavẽ tẽrjumayi sek  TED website tey.
+data-other-voxforge-description = VoxForge yi set̃ up tu kqẽsaẽ tẽrjuma jama carẽn muft and 'Open Source khẽnak dishnẽ enjenve
