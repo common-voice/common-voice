@@ -25,6 +25,10 @@ en = Angreezi
 eo = Rabita he zik (European)
 es = Espani zik yoy Khalgisht
 et = Estoni Zik
+eto = Junubi Englistone yi Diyor
+eu = Shumol-Maghribi Spain woz Junub-Mashriqi France e yi Guruh e Zik
+ewo = Cameroon e Khalgve Bantu Zik
+fa = Porsi zik
 
 # [/]
 
