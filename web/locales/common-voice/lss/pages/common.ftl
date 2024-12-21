@@ -287,3 +287,7 @@ not-available-abbreviation = ناهي موجود
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = اسانک توجي مدد تي کپا.
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڊيٽا سيٽن جي ميزباني ڪرڻ ٻيو +۱۰۰ زبانن جي برادرين لاجيڪي اسان جي ڪمن تي ڀروسو ڪندان پليٽ فارم اک بهتر ڪرڻ لا هر سال هيڪري ملين ڊالرن تائين خرچ ڇندان .  <strong>اگر تون کليل، جامع ڊيٽا ک اهميت ڏين تو ته اڄ ئي عطيو ڪر!
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = CV استعمال ڪرين تو پا ننجي تحقيق ا لا ؟
