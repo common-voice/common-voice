@@ -109,6 +109,9 @@ about-playbook-how-grow-language-content-8 = Takhleeqi wocit, save zike guruhep 
 
 ## How to validate
 
+about-playbook-how-validate = Wuzep chisokht dishemki yi 'voice clip' em manzoor k̃haker.
+about-playbook-how-validate-content-1 = Agar tues̃hki yave kus̃huy woz repuzuves̃h pirvit, yani ghafch bafki manzoor car.
+about-playbook-how-validate-content-2 = Haya 'clip' ve na manzoor mecar, kumdve lehjayi ki ce tinen mukhtalif tey. yemi owozev takhpa k̃hake haten her yiewe distan ahm tey.
 
 ## How to access dataset
 
