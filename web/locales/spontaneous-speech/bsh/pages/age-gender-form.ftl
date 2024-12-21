@@ -10,6 +10,14 @@ select-your-gender = توستہ جنس منتخب کشی
 country-of-residence-label = وطن/علاقہ وپسیں جائ
 country-of-residence-placeholder =
     .placeholder = داخل کشی توستہ وطن/علاقہ تہ وپسیں جائ
+why-are-you-asking = تو کا کوداچی؟
+thank-you-for-your-information = توستہ معلومات دیو کہ شکریہ
 
 ## Gender dropdown
 
+male_masculine = منچی/نہ
+female_feminine = جوکوعں/شتری
+intersex = نہ جوکوعں نہ منچی
+transgender = نہ جوکوعں نہ منچی
+non-binary = غیر ثنائی نظام
+do_not_wish_to_say = گجی کوستہ نہ وگچی
