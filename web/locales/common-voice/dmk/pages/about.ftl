@@ -69,6 +69,10 @@ about-playbook-what-is-language-content-3 = کمݵک بݳݽݵمݳ گرݳمَر،
 ## How do I add a language
 
 about-playbook-how-add-language = اُݸ کݵ رِݵ باݽ کݸٹ ارݳس؟
+about-playbook-how-add-language-content-1 =
+    یَرکَمݳس اݽݵئ دݵکھݳ تا آݵݳ تُمݳ بݳݽ <languageLink> اَوَلسمݸ مَݸجݸد چھِیݺ. </languageLink>
+    اَگر نݳتݳ، تُݸتُمݺ <languageRequestLink> اَپَنݵئ بݳݽ </languageRequestLink> کݸٹ اِرِنݳئی دَرخݳست دݵئ شکݺ گُچھݸت.
+    اݽݵیݵئ دُݸئی مَرݳحلَہ چھݺ. سݳئٹݵئ تَرجُمہ رِنݳ، نݸ جُملݳݣݳ جَمَع رِنݳ
 about-playbook-how-add-language-translating-heading = سݳئٹݵئی تَرجُمَہ رِنݳ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> امݳ چھِچَلُݸݳنݳ دݵکھݳ تݳ کݵ رِی پݸنٹݸن اِستِمݳل اِرݵݣݺ چھݺ.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملݳݣہ جَمَع رِنݳ
