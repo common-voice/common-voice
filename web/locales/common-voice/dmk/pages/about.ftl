@@ -75,8 +75,12 @@ about-playbook-how-add-language-content-1 =
     اݽݵیݵئ دُݸئی مَرݳحلَہ چھݺ. سݳئٹݵئ تَرجُمہ رِنݳ، نݸ جُملݳݣݳ جَمَع رِنݳ
 about-playbook-how-add-language-translating-heading = سݳئٹݵئی تَرجُمَہ رِنݳ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> امݳ چھِچَلُݸݳنݳ دݵکھݳ تݳ کݵ رِی پݸنٹݸن اِستِمݳل اِرݵݣݺ چھݺ.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    امݺ ترجُمݳئی کݳرݸ مݸزݵلݳئی اݵکݳ ٹݸلَکݳ <pontoonLink>پݸنٹݸن </pontoonLink> اِستِمݳل اِرَم چھݸم. پݸنٹݸن نَنݳ تُشݳر بݳݽݸݣ مَݸجُݸد چھݺ، لݵکِن اَگَر تُمݳ بݳݽ اݽݵَنݳ کݸٹ</pontoonRequestLink> نݳتݳ تݸ تمݺ اپَنݵئ باݽ کݸٹ اِرِنائی درخݳست<pontoonRequestLink> اِرِݵ شکݵگُچھݸت.
+    نݸ کݳمَن وݳئس پروجݵکٹَس <githubRepoLink> اݽݳئی باݽ تھݵئ نݳئ کݳرݸ، GitHub</githubRepoLink> نمݵ باݽݵئ درخاست اِرݳ. <localizationFragment>سݳئٹݵئ تَرجُمئ بݳرݳنݳ مزݵد دݵکھݳ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = جُملݳݣہ جَمَع رِنݳ
 about-playbook-how-add-language-collecting-sentences-content-1 = </sentenceCollectorVideo>سݵنٹݵنس کُلݵکٹَر اِستِمݳل اِرِنݳئی کݳرݸ امݳ چھِچَلُݸݳنݳ دݵکھݳ<sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = تُمݺ <sentenceCollectorLinkAdd>کمݵک جُملݺ جَرمݸݽ اِرِݵ شکݵگُچھݸت</sentenceCollectorLinkAdd>
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>بݸت جُملݺ جَمع رنݳئی بارݳس دیکھݳ</sentenceCollectorFragment>
 
 ## How does localization work
