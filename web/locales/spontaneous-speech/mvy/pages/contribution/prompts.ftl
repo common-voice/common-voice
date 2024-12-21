@@ -1,6 +1,6 @@
 ## Prompts page
 
-record-player-header = تاں جَواب ٹیپ کَرَہ
+record-player-header = تاں جواب ٹیپ کرہ
 mic-access-error = تے مېکے اجازت دیؤں ہو تُھوْ
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = آں کتوک تِنا ھوئی تھو کھن تسیں جواب دے
