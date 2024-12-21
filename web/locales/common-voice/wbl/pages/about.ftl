@@ -98,6 +98,8 @@ about-playbook-how-record-content-5 = Sek durustgi ma'yar woz be tayin carit.
 ## How to grow language
 
 about-playbook-how-grow-language = Sakes̃h yi zike kum hade batken moassar tariqahen sẽk 'Common voice' terpurut k̃hake bas vezin?
+about-playbook-how-grow-language-content-1 = Sakes̃h yi zike kum hade batken moassar tariqahen sẽk 'Common voice' terpurut k̃hake bas vezin? Sake hayawe istimol k̃hake distan wasoyil et 'templates' paydo k̃hetk.
+about-playbook-how-grow-language-content-2 = Rujisht
 
 ## How to validate
 
