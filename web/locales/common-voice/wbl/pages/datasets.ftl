@@ -41,3 +41,5 @@ resource-deepspeech-info = Mozillaẽ ozodh khizmatẽ owoz dishnẽ engen 'Deep
 resource-coqui-info = <coquiLink>Corqui</coquiLink>ozodh qẽsa dẽsta makhsus t̃eknoloji. hadem mansubavi medest yek̃hk wocner STT woz TTs enjenisht
 community-playbook = Jamoatẽ Playbook
 resource-playbook-info = Sẽk pẽtun Kommon V|odesẽfar <playbookLink>medadgor hidoyatẽ hosil</playbookLink>Ce lokẽlizashanẽn d̃at̃asetẽistimolẽ batk, hayaran dẽ po jamoaten cẽr sokht qẽti wocẽn
+data-other-librispeech-description = LibriSpeechi ẽndozan1000 soatẽ 16Khz English k̃hẽnake kumdev ki ce 'read audiobookẽn cẽ LibriVox project.
+data-other-ted-name = TED_LIUM Corpus
