@@ -124,6 +124,13 @@ about-playbook-how-access-dataset-content-2 = Agar sashtes̃hki 'ASR models' tay
 ## How are decisions made
 
 about-playbook-how-project-governance = Project e bobaten faiisẽla es̃h chisokht wost?
+about-playbook-how-project-governance-content-1 = 'Mozilla Common Voice' es̃h ce putun dunyohe mukhtalif guruh; sargarm korindah; zike olim;'data scientists'; mohir e ta'leem; woz 'software engineers' ve zariahen mumkin gok̃hen. Projectes̃h 'Mozilla Foundation' e zimaworiyer C̃hit.
+about-playbook-how-project-governance-content-2 = Spo Intizome bunyodhi eskem istinev barqaror:
+about-playbook-how-project-governance-content-3 = Raazdari; Hifozat; woz Shafofiyat.
+about-playbook-how-project-governance-content-4 = Guruhi Shirkat woz Faisala sozi.
+about-playbook-how-project-governance-content-5 = Qadr et Qabuliyat.
+about-playbook-how-project-governance-content-6 = Terliman Zimadori.
+about-playbook-how-project-governance-content-7 = Spo Intizomve bobaten woz be joyit.
 
 ## How is Common Voice funded
 
