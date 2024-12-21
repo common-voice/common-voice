@@ -33,3 +33,6 @@ want-dataset-update = sakẽs̃h ki kommon voyse s̃heg̃hd d̃at̃asẽtẽ jor
 subscribe = Sabsẽkrayb
 get-started-speech = K̃hẽnakẽ rikord̃ingẽ mes̃h shẽru
 other-datasets = digar owozẽ d̃at̃aset̃isht
+feedback-q = Chiz mashwẽryi teya?
+# This indicates that there is no data to display
+no-information = malũmoti nast
