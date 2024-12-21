@@ -114,6 +114,8 @@ about-playbook-how-record-content-5 = <accuracyLink> ٹھݵٹھݳک کرݳئٹݵ
 ## How to grow language
 
 about-playbook-how-grow-language = امݺ کݳمَن وݳئسَس کِݵ رِݵ چُستِس کݸٹ بݳݽ فَٹُݸݳئ شَکَم چھݸم؟
+about-playbook-how-grow-language-content-1 = مُقتَلف بندݵچُݸ کݳمَن وݳئس نݳ اَپَنݵئ حِصہ بݳنݳئی مݸقݳݣݳ پݵدݳ رِنݳ یقݵنݵ رݵگݳ چھݳ کِہ اݽݵئ ڈݵٹݳ سݵٹَن بݸتَس مݸ بݸت بندݵݣݺ خِسمَت اِرݸ. امݺ وسݳئلݳ نݸ ٹݵمپلݵٹس تݵݳر اِرݸم چھݸم کݸنݺ تُمݺ اِستِمݳل اِرِی شکݵگُچھݸت!
+about-playbook-how-grow-language-content-2 = کھݵنݸݣ
 
 ## How to validate
 
