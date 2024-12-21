@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = ایمو مع رابطہ کشی
+contact-title = رابطہ ستہ فرم
 contact-form-name =
     .label = نام
 contact-form-message =

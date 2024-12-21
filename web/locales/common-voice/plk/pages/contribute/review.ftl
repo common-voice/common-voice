@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = څھوْ لئی جِنیْ گیْ بوجنَ�
 sc-redirect-page-title = بیْس شِنا بڑیْ تبدیلی تھوݨَس۔
 sc-redirect-page-subtitle-1 = جُملہ جمع تِھیک بنیادی کامن وائس پلیٹ فارمڑ بوجانوْ۔ چیئے څھوْ <writeURL> لِکِیا</writeURL> ایْک جُملہ یا <reviewURL> ریویو تِھیا </reviewURL> ایْک جُملہ کامن وائس جیْ جمع تِھیا۔
 sc-redirect-page-subtitle-2 = سوالات کھوجِیا <matrixLink> میٹریکس </matrixLink><discourseLink>موْݜ کال </discourseLink> یا <emailLink> ای میل</emailLink>
+# menu item
+review-sentences = جُملو جائزہ ہرہ۔

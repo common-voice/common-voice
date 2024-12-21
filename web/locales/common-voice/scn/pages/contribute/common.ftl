@@ -30,7 +30,7 @@ target-segment-first-card = Stai cuntribbuennu ô nostru primu sigmentu ubbittiv
 target-segment-generic-card = Stai cuntribbuennu ôn sigmentu ubbittivu
 target-segment-first-banner = Ajuta a criari u primu sigmentu ubbittivu di Common Voice 'n { $locale }
 target-segment-add-voice = Agghiungi a to vuci
-target-segment-learn-more = Cchiù nfurmazziuna
+target-segment-learn-more = Cchiù nfurmazzioni
 change-preferences = Cancia prifirenzi
 login-signup = Trasi / Riggìstrati
 vote-yes = Se
@@ -44,7 +44,7 @@ submit-form-action = Manna
 ## Reporting
 
 report = Signala
-report-title = Mmìa na signalazziuni
+report-title = Mmìa na signalijazzioni
 report-ask = Chi prubblemi ài cu sta frasi?
 report-offensive-language = Linguaggiu uffinzivu
 report-offensive-language-detail = A frasi cunteni un linguaggiu nun rispittusu o uffinzivu.
@@ -55,12 +55,12 @@ report-different-language-detail = È scritta nna na lingua diversa di chiḍḍ
 report-difficult-pronounce = Diffìcili di prununciari
 report-difficult-pronounce-detail = Cunteni palori o frasi chi sunnu diffìcili di lèggiri o prununciari.
 report-offensive-speech = Linguaggiu uffinzivu
-report-offensive-speech-detail = A riggistrazziuni cuntenti un linguaggiu nun rispittusu o uffinzivu.
+report-offensive-speech-detail = A riggistrazzioni cuntenti un linguaggiu nun rispittusu o uffinzivu.
 report-other-comment =
     .placeholder = Cummentu
 success = Fattu
 continue = Cuntinua
-report-success = A signalazziuni fu mmiata.
+report-success = A signalijazzioni fu mmiata.
 
 ## Speak & Listen Shortcuts
 
@@ -105,7 +105,7 @@ contribution-misreadings-title = Sbagghi di littura
 contribution-misreadings-description-extended-list-1 = Mancanza di l'<strong>artìculi</strong> all'inizziu dâ riggistrazzioni.
 contribution-misreadings-description-extended-list-2 = Mancanza dâ <strong>vucali finali</strong> di na palora.
 contribution-misreadings-description-extended-list-3 = Cuntrazzioni dâ littura ca nun cci sunnu, a tipu "'scutari" mmeci di "ascutari", o puru ô cuntrariu.
-contribution-misreadings-description-extended-list-4 = Mancanza dâ fini di l'ùrtima palora picchì a riggistrazzioni fu firmata troppu viatu.
+contribution-misreadings-description-extended-list-4 = Mancanza dâ fini di l'ùrtima palora picchì a riggistrazzioni fu firmata troppu assai viatu.
 contribution-misreadings-description-extended-list-5 = Pruvari cchiù assai di na vota a lèggiri na palora.
 contribution-misreadings-example-1-title = I dinusauri giaganti dû Triàssicu.
 contribution-misreadings-example-2-title = I dinusauru giaganti dû Triàssicu

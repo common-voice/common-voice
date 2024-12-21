@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = ⵍⴰ ⵜⴻⵜⵜⴷⴷⵓⴷ ⵙ ⴽⵉⴳ
 sc-redirect-page-title = ⵍⴰ ⵏⵙⴽⴰⵔ ⴽⵔⴰ ⵏ ⵉⵙⵏⴼⵍⵏ ⵉⵎⵇⵇⵔⴰⵏⵏ
 sc-redirect-page-subtitle-1 = ⵔⴰⴷ ⵉⵎⵎⵓⵜⵜⵢ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵖⵔ ⵜⵙⵉⵍⴰ ⵜⴰⴷⵙⵍⴰⵏⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⵜⵣⵎⵔⴷ ⴷⵖⵉ <writeURL>ⴰⴷ ⵜⴰⵔⴰⴷ</writeURL> ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏⵉⵖ <reviewURL>ⴰⴷ ⵜⵙⵙⵉⵔⵎⴷ</reviewURL> ⴰⵣⴰⵏⵏ ⵏ ⵜⵡⵉⵏⵙⵜ ⵜⴰⴼⵔⴷⵉⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 sc-redirect-page-subtitle-2 = ⵙⵇⵙⴰ ⴰⵏⵖ ⵉⵙⵇⵙⵉⵜⵏ ⴳ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>, <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ</discourseLink> ⵏⵉⵖ <emailLink>ⵉⵎⴰⵢⵍ</emailLink>.
+# menu item
+review-sentences = ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ

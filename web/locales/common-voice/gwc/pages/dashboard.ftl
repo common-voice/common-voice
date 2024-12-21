@@ -72,6 +72,8 @@ share-n-weekly-contribution-goal = تانی { $count } کلِپاں ہفتہ و�
 share-goal-type-speak = جولاگ
 share-goal-type-listen = بُجوگ
 share-goal-type-both = جولاگ تے بُجوگ
+# LINK will be replaced with the current URL
+goal-share-text = مئی سجہ اپان سہ #کامن وائیس مئی عطیہ ایں کیر اٞ ذاتی ہدف چائے تے مشین کہ چھاٞل پشائے اُوں اصل خلق کھیکی جولاٞں{ $link }
 weekly-goal-created = چھاں ہفتہ وار ہدف چاجِنت
 daily-goal-created = چھاں دوساں ہدف چاجِنت
 track-progress = کاریں ترقی ہیماٞ تے تانی حِساٞباٞں پاٞݪ رہ مالوم کٞر
@@ -80,6 +82,7 @@ share-goal = ماں ہدف شریک کٞر
 
 ## Goals
 
+streaks = جولاٞگ
 days =
     { $count ->
         [one] دوس

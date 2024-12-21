@@ -1,4 +1,5 @@
 listen = ⵙⵍⵍ
+listen-subtitle = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵣⵣⵔⵢ ⵉⴳⵕⴹⴰⵏ
 listen-instruction = { $actionType }<playIcon></playIcon> ⵉⵙ ⵙⵓⵙⵔⵏ ⵜⴰⵡⵉⵏⵙⵜ ⵙ ⵓⵏⵖⴰⴷ?
 listen-again-instruction = ⴰⵢⵢⵓⵣ!<playIcon></playIcon> ⵙⵍⵍ ⴷⴰⵖ ⴰⴷⴷⴰⵢ ⵜⵎⵓⵜⵜⴳⴷ
 listen-3rd-time-instruction = 2 ⵀⵉⵍⵍⵉ, ⵙⵎⴷ ⵙⵓⵍ ⵎⴽⴰ!<playIcon></playIcon>
@@ -10,3 +11,9 @@ listen-loading-error =
 listen-abort-title = ⵙⵎⴷ ⴰⵣⵣⵔⴰⵢ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ?
 listen-abort-cancel = ⵙⵎⴷ ⵙⵓⵍ ⴰⵣⵣⵔⴰⵢ
 listen-abort-confirm = ⵙⵎⴷ ⴰⵣⵣⵔⴰⵢ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

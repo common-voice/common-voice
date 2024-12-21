@@ -11,22 +11,18 @@ wall-of-text-second = A majuranza dî dati usati dî granni cumpagnìi nun è di
 show-wall-of-text = Cchiù nfurmazziuna
 help-us-title = Ajùtani a cuntrullari i frasi!
 help-us-explain = Ammacca u buttuni dâ ripruduzziuni, ascuta e vàluta: a frasi fu prununciata bonu?
-no-clips-to-validate = Parissi ca nun cci sunnu frasi riggistrati nna sta lingua. Ajùtani riggistrànnunni quarcuna ora.
-vote-yes = Se
-vote-no = No
+no-clips-to-validate = Parissi ca nun cci sunnu frasi riggistrati nna sta lingua. Ajùtani riggistrànnunni quarchiduna ora.
 toggle-play-tooltip = Ammacca { shortcut-play-toggle } pi passari â mudalità di ripruduzziuni
-speak-subtitle = Dùnani a to voci
-speak-paragraph = Riggistrari i frasi è na parti ntigranti pâ custruzziuni dû nostru pruggettu: certi dicìssiru chi è puru a parti cchiù divirtenti.
+speak-paragraph = Riggistrari i frasi è na parti ntigranti pâ custruzzioni dû nostru pruggettu: certi dicìssiru chi è puru a parti cchiù divirtenti.
 speak-goal-text = Riggistrazziuna
-listen-subtitle = Ajùtani a cuntrullari i vuci
-listen-paragraph = Cuntrullari i riggistrazziuna fatti di autri è macari mpurtanti pâ missiuni di Common Voice. Ascùtali e ajùtani a criari dati vucali lìbbiri di qualità.
-listen-goal-text = Riggistrazziuna validati
+listen-paragraph = Cuntrullari i riggistrazzioni fatti di autri è macari mpurtanti pâ missioni di Common Voice. Ascùtali e ajùtani a criari dati vucali lìbbiri di qualità.
+listen-goal-text = Riggistrazzioni validati
 hours-recorded = Uri riggistrati
 hours-validated = Uri validati
 voices-online = Vuci 'n linia ora
 todays-progress = Prugressu di oji
 help-reach-goal = Ajùtani ad arrivari a { $goal }
-read-terms-q = Liggisti i nostri cunnizziuna d'usu?
+read-terms-q = Liggisti i nostri cunnizzioni d'usu?
 ready-to-record = Sì prontu pi dunari a to vuci?
 all-locales = Tutti
 today = Oji
@@ -48,23 +44,23 @@ x-years-short =
 help-make-dataset = Ajùtani a custruiri na basi di dati d'alta qualità e dispunìbbili pubblicamenti
 sign-up-account = Riggìstrati
 email-subscription-title = Iscrìviti ê nutizzi nnall'e-mail
-email-subscription-title-new = Iscrìviti ê littri di nfurmazziuni di Common Voice, ê mimuranni supra l'ubbittivi ed ê nutizzi supra i prugressi.
+email-subscription-title-new = Scrìviti ê littri di nfurmazzioni di Common Voice, ê mimuranni supra l'ubbittivi e ê nutizzi supra i prugressi.
 
 ## Account Benefits
 
 benefits = Binifici
-rich-data = Fai cchiù ricchi pussìbbili i dati chi manni dànnuni quarchi nfurmazziuni dimugràfica anònima. Sti nfurmazziuna sarannu cancillati prima di pubblicari i dati.
-improve-audio = I nfurmazziuna dû prufilu fannu crìsciri a qualità dî dati usati e a pricisiuni dû ricanuscimentu vucali.
+rich-data = Fai cchiù ricchi pussìbbili i dati chi manni dànnuni quarchi nfurmazzioni dimugràfica anònima. Sti nfurmazzioni sarannu cancillati prima di pubblicari i dati.
+improve-audio = I nfurmazzioni dû prufilu fannu crìsciri a qualità dî dati usati e a pricisioni dû ricanuscimentu vucali.
 keep-track = Teni trazza dî to prugressi e statìstichi nnê lingui unni cullàbburi.
 compare-progress = Vidi comu è u to prugressu 'n cunfruntu all'autri cullabburatura 'n tuttu u munnu.
 view-goals = Vidi u to prugressu cu l'ubbittivi pirsunali e dû pruggettu.
-join-newsletter = Si voi, ti po' iscrìviri â nostra lista e-mail pi ricìviri l'attualizzazziuna e l'ùrtimi nfurmazziuna supra u pruggettu.
+join-newsletter = Si voi, ti po' scrìviri â nostra lista e-mail pi ricìviri l'attualizzi e l'ùrtimi nfurmazzioni supra ô pruggettu.
 
 ## What's public
 
 whats-public = Quali dati su' pùbblici?
 email-not-public = Nun pubblicaremu u to nnirizzu e-mail.
-recordings-and-locale-public = U nùmmaru di riggistrazziuna e i lingui unni cullàbburi sarannu pùbblici.
+recordings-and-locale-public = U nùmmaru di riggistrazzioni e i lingui unni cullàbburi sarannu pùbblici.
 username-optin-public = Po' scègghiri si pùbblicari u to nomu utenti o arristari anònimu.
 demographic-deidentified-clarity-2 = I dati dimugràfici carricati (pi scempru età, gèniri, lingua e accentu) nun sarannu mai fatti pùbblici ncapu ô to prufilu, e nun sarannu lijati ô to cuntu nnê dati. I riggistrazzioni audiu nnividuali sarannu assuciati ê dati dimugràfici pi aviri n'analisi cchiù pricisa, pi scempru, un ricircaturi putissi vuliri nzignari un mudeḍḍu p'un sigmentu di pupulazzioni spicìficu.
 username-email-not-demographic = U to nomu utenti e u to nnirizzu e-mail nun sarannu assuciati chî dati pubblicati.
@@ -76,3 +72,12 @@ help-contribute = Crea un prufilu Common Voice e cuntribbuisci câ to vuci pi cr
 login-company = Trasi / Riggìstrati cu nu nnirizzu e-mail di { $company }
 profile-not-required = Aviri un prufilu nun è ubbligatoriu pi cuntribbuiri, ma po èssiri ùtili: vidi picchì cchiù sutta.
 read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -5,7 +5,7 @@ about-header-description-v2 =
     <p>Common Voice è nu nzemi di dati dispunìbbili ô pùbblicu, fattu chî vuci di cuntribbutura vuluntari di tuttu u munnu. Cu' voli custrujiri applicazzioni vucali po usari sti dati pi nzignàrici ê mudeḍḍi linguìstici nfurmàtici.</p>
     <p>Accamora, a majurìa dî nzemi di dati vucali è di prupità di cumpagnìi privati, e chistu ferma a nnuvazzioni. Cchiù assai, sti nzemi di dati nun riprisentanu bonu cu' nun parra ngrisi, genti di culuri, genti cu disabbilità, fìmmini e genti LGBTQIA+. Chistu veni a diri chi a ticnuluggìa vucali nun funziona pi nenti pi assai lingui, e pi chiḍḍi unni funziona, nun funziona bonu â stissa manera pi tutti. Vulemu canciari sta situazzioni mubbilitannu i genti unni si tròvanu-tròvanu pi fàrici spàrtiri i so vuci.</p>
 how-does-it-work-title-v2 = Comu funziona Common Voice?
-how-does-it-work-text = Stamu arricugghiennu nu nzemi lìbbiru di vuci. Dùnani a to vuci, cuntrolla l'accuratizza dî riggistrazziuna vucali di l'autri, ammigghiura i dati pi tutti.
+how-does-it-work-text = Stamu ricugghiennu nu nzemi lìbbiru di vuci. Dùnani a to vuci, cuntrolla l'accuratizza dî riggistrazzioni vucali di l'autri, ammigghiura i dati pi tutti.
 
 ## How does it work section
 
@@ -28,11 +28,11 @@ about-speak-text = I cullabburatura riggìstranu audiu liggennu di na banca di f
 about-listen-queue = Cuda d'ascutu
 about-listen-queue-text = I riggistrazzioni vucali tràsinu nta na cuda di chiḍḍi lesti pi èssiri 'scutati.
 about-listen = Ascuta
-about-listen-text = L'utenti vàlidanu a pricisiuni dî riggistrazzioni dunati, cuntrullannu chi u litturi liggìu bonu a frasi.
-about-is-it-valid = A riggistrazziuni è vàlita?
-about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita” quannu n'utenti l'appruva dànnuci un Se.
+about-listen-text = L'utenti vàlidanu a pricisioni dî riggistrazzioni dunati, cuntrullannu chi u litturi liggìu bonu a frasi.
+about-is-it-valid = A riggistrazzioni è vàlita?
+about-is-it-valid-text = Na riggistrazzioni vucali veni marcata comu “vàlita” quannu n'utenti l'appruva dànnuci un Se.
 about-yes-votes = ≥ 2 voti Se
-about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
+about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazzioni vucali àvi a èssiri appruvata di du' utenti diversi.
 about-no-votes = ≥ 2 voti No
 about-no-votes-text = Quannu n'utenti rifiuta na riggistrazzioni, chista torna 'n coda. Si veni rifiutata n'autra vota, a riggistrazzioni veni misa ntô Cimiteru dî Riggistrazzioni.
 about-dataset-new = Nzemi di dati di Common Voice
@@ -74,8 +74,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Comu funziona a lucalizzazzioni dû situ?
 about-playbook-how-localize-content-1 = A traduzzioni dû situ Common Voice mmatti nne <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un cuntu</pontoonAccountLink> si nun nn'ài unu. Doppu, scegghi a to lingua <strong>("Squatra")</strong> e pigghia u pruggettu <pontoonCvLink>Common Voice</pontoonCvLink>. Cci sarannu prichi di tradùciri. Pìgghiani unu, cci sarà na frasi 'n ingrisi e un campu unni scrìviri a traduzzioni.
-about-playbook-how-localize-content-3 = A traduzzioni è dû ngrisi, ma poi vìdiri <strong>suggirimenti</strong> d'autri lingui. Ammacca ncapu all'icuna <strong>Prufilu</strong>, doppu <strong>Mpustazzioni</strong> e agghiunci i lingui chi parri. Ô gnuni vasciu a dritta cci sarà na lista di traduzzioni chiamati <strong>Locales</strong>. I traduzzioni cumpàrinu ncapu ô situ doppu un jornu.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un cuntu</pontoonAccountLink> si nun nn'ài unu. Doppu, scarta a to lingua <strong>("Squatra")</strong> e pigghia u pruggettu <pontoonCvLink>Common Voice</pontoonCvLink>. Cci sarannu prichi di tradùciri. Pìgghianni unu, cci sarà na frasi 'n ingrisi e un campu unni scrìviri a traduzzioni.
+about-playbook-how-localize-content-3 = A traduzzioni è dû ngrisi, ma poi vìdiri <strong>suggirimenti</strong> d'autri lingui. Ammacca ncapu â cona <strong>Prufilu</strong>, doppu <strong>Mpustazzioni</strong> e agghiunci i lingui chi parri. Ô gnuni vasciu a dritta cci sarà na lista di traduzzioni chiamati <strong>Locales</strong>. I traduzzioni cumpàrinu ncapu ô situ doppu un jornu.
 about-playbook-how-localize-content-4 = U situ si po ràpiri quannu è cumpletu ô 75%.
 about-playbook-how-localize-content-5 = Vidi u nostru vidiu schicativu p'ajutu.
 
@@ -92,7 +92,7 @@ about-playbook-how-record-content-1 = Parra câ to vuci nurmali! Semu cuntenti d
 about-playbook-how-record-content-2 = Allàscati dû scrusciu di funnu - àv'a èssiri fàcili sintìriti.
 about-playbook-how-record-content-3 = Stai accura quannu leggi - nun ti pèrdiri, nun agghiùnciri e nun canciari i palori.
 about-playbook-how-record-content-4 = Assicùrati chi a chiattafurma sta riggistrannu prima chi accuminci a parrari, e chi si ferma sulu quannu finisti.
-about-playbook-how-record-content-5 = <accuracyLink>Leggi cchiù assai ncapu ê criteri di pricisiuni</accuracyLink>.
+about-playbook-how-record-content-5 = <accuracyLink>Leggi cchiù assai ncapu ê criteri di pricisioni</accuracyLink>.
 
 ## How to grow language
 
