@@ -36,3 +36,4 @@ other-datasets = digar owozẽ d̃at̃aset̃isht
 feedback-q = Chiz mashwẽryi teya?
 # This indicates that there is no data to display
 no-information = malũmoti nast
+resource-nemo-info = <githubLink>NVIDIA MeMo</githubLink>™ teyi yi<docsLink>het̃ zẽrya t̃ulkit̃</docsLink>jẽdidtẽrin qẽsa k̃hakẽ AI mod̃el tẽyor k̃hakẽkũzg mohqiqvẽ destan
