@@ -67,9 +67,13 @@ about-playbook-how-add-language-translating-content-1 = Pontoon e estimol k̃hak
 about-playbook-how-add-language-translating-content-2 = Sakees̃h tarjumahe haten 'Pontoon' e nungan yi 'Mozila tool' estimol caren. 'Pontoon' en ghafch zikisht tey. Laikin, agar savni ki nast, yanes̃h sasht k̃hu zike kitake arz k̃hake bas vezit. Yandi S̃heg̃hd zike sẽk 'GitHub' de'Common voice project' wuzumne bases̃h vezit. Bes̃h dishne haten sẽk 'translation ste' tayinit.
 about-playbook-how-add-language-collecting-sentences-heading = Jumlahev Jama k̃hak
 about-playbook-how-add-language-collecting-sentences-content-1 = 'Sentence Collector' e estimol carit k̃he spo 'guide' tayin carit.
+about-playbook-how-add-language-collecting-sentences-content-2 = Sashtes̃h zaqlai jumlahev jama k̃hake bas vezit, Yoy 'GitHub' e estimol carit k̃he c̃hak jumlaves̃h hosil k̃hake bas vezit. De yod lecrit ki jumlaver 'CCO' Yoy k̃hu jumlaves̃h nivishne bas vezit.
+about-playbook-how-add-language-collecting-sentences-content-3 = Sẽk Jama k̃hetk Jumlahev woz be tayin carit.
 
 ## How does localization work
 
+about-playbook-how-localize = 'Site localization' es̃h chisokht yark cart?
+about-playbook-how-localize-content-1 = 'Common voice site' e tarjuma es̃h sẽk 'Pontoon' wost.
 
 ## How to add sentences
 
