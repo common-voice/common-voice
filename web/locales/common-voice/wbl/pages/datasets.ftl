@@ -11,3 +11,6 @@ download-dataset-tag = Zẽrũratẽ zikẽ yewẽr  k̃hẽ haya varzhanẽ du
 size = Qolib
 validated-hr-total = Kũl tasdiq k̃het Hr
 overall-hr-total = Kul tasdiq k̃hetk Hr
+cv-license = laysenz
+audio-format = Odiuy Format̃
+dataset-splits = Taqsim (Umẽr jins)
