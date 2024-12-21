@@ -32,7 +32,7 @@ feedback-q = Ài suggirimenti?
 # This indicates that there is no data to display
 no-information = Nuḍḍa nfurmazzioni
 community-playbook = Libbru dâ Cumunità
-data-other-librispeech-description = LibriSpeech è un corpus cu circa 1000 uri di riggistrazziuna 'n ingrisi a 16kHz di audiulibbra dû pruggettu LibriVox.
+data-other-librispeech-description = LibriSpeech è un corpus cu circa 1000 uri di riggistrazzioni 'n ingrisi a 16kHz di audiulibbra dû pruggettu LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM fu crijatu dî cunfirenzi dispunìbbili dû situ TED, e dî so trascrizziuna.
 your-feedback = Ài suggirimenti supra a comu ammigghiurari i dati di Common Voice? Fannillu sapiri nne Discourse
@@ -54,7 +54,7 @@ dataset-metadata-age = Età
 donate-modal-message = Stai scarricanu l'archiviu dî dati
 dataset-donate-modal-heading = U sapivi chi…
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>Si duni valuri ê dati lìbbiri - dona oji!</bold>
+donate-modal-explanation-2 = <bold>Si ci duni valuri ê dati lìbbiri - dona oji!</bold>
 data-download-singleword-title = Scàrrica u sigmentu spicìficu chî palori sìnguli
 data-download-button = Scàrrica i dati di Common Voice
 data-download-yes = Se

@@ -11,7 +11,7 @@ demo-language-select-card-body = Grazzi ê cuntribbuti di cchiù assai di 259 mi
 card-button-next = Avanti
 card-button-back = Nnarrè
 demo-language-select-label = Vidi i lingui
-demo-eofy-header = Virsiuni finali dû 2019
+demo-eofy-header = Pubblicazzioni finali dû 2019
 demo-eofy-sub_header = Archiviu dî dati, lestu pû scarricamentu
 demo-account = Cuntu
 

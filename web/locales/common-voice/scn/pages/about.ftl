@@ -75,7 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Comu funziona a lucalizzazzioni dû situ?
 about-playbook-how-localize-content-1 = A traduzzioni dû situ Common Voice mmatti nne <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un cuntu</pontoonAccountLink> si nun nn'ài unu. Doppu, scarta a to lingua <strong>("Squatra")</strong> e pigghia u pruggettu <pontoonCvLink>Common Voice</pontoonCvLink>. Cci sarannu prichi di tradùciri. Pìgghianni unu, cci sarà na frasi 'n ingrisi e un campu unni scrìviri a traduzzioni.
-about-playbook-how-localize-content-3 = A traduzzioni è dû ngrisi, ma poi vìdiri <strong>suggirimenti</strong> d'autri lingui. Ammacca ncapu â cuna <strong>Prufilu</strong>, doppu <strong>Mpustazzioni</strong> e agghiunci i lingui chi parri. Ô gnuni vasciu a dritta cci sarà na lista di traduzzioni chiamati <strong>Locales</strong>. I traduzzioni cumpàrinu ncapu ô situ doppu un jornu.
+about-playbook-how-localize-content-3 = A traduzzioni è dû ngrisi, ma poi vìdiri <strong>suggirimenti</strong> d'autri lingui. Ammacca ncapu â cona <strong>Prufilu</strong>, doppu <strong>Mpustazzioni</strong> e agghiunci i lingui chi parri. Ô gnuni vasciu a dritta cci sarà na lista di traduzzioni chiamati <strong>Locales</strong>. I traduzzioni cumpàrinu ncapu ô situ doppu un jornu.
 about-playbook-how-localize-content-4 = U situ si po ràpiri quannu è cumpletu ô 75%.
 about-playbook-how-localize-content-5 = Vidi u nostru vidiu schicativu p'ajutu.
 
