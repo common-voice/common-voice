@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = Sek durustgi ma'yar woz be tayin carit.
 about-playbook-how-grow-language = Sakes̃h yi zike kum hade batken moassar tariqahen sẽk 'Common voice' terpurut k̃hake bas vezin?
 about-playbook-how-grow-language-content-1 = Sakes̃h yi zike kum hade batken moassar tariqahen sẽk 'Common voice' terpurut k̃hake bas vezin? Sake hayawe istimol k̃hake distan wasoyil et 'templates' paydo k̃hetk.
 about-playbook-how-grow-language-content-2 = Rujisht
+about-playbook-how-grow-language-content-3 = Sashtes̃h Rujve c̃huwuvne bas vezit, kumdve madadnes̃h ki khalgisht hisa kit~ake bas vezin. Yemi ce save fikren be ghafch oson. Sashtes̃h yeme 'videoconferencing tool' ve madaden 'online' k̃hake bas vezit. Tuke rujve tayin k̃hake distan spo 'templates' woz wasoyilves̃h tayin k̃hake bas vezit.
+about-playbook-how-grow-language-content-4 = Yurtdoriye nashriyotisht
 
 ## How to validate
 
