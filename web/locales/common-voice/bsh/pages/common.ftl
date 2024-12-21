@@ -249,12 +249,23 @@ zgh = تمازغیتی
 zh-CN = چینائی
 zh-HK = چینائی (ہانگ کانگ  )
 zh-TW = چینائی(تایوان )
+zu = زولو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = کمک
+contact = رابطہ
+privacy = ٹکاستہ
+terms = شرائط
+cookies = کوکیز
+faq = فاق
+content-license-text = مواد موجود ائ اتیوع<licenseLink>کریٹیو کامنز لائسنس</licenseLink>
+share-title = ایمو مع کمک کشی کیوت کوستہ کہ ورںچی امکی یوستہ کوٹ وقف کولہ!
 email-input =
     .label = ای میل
 
