@@ -83,6 +83,7 @@ about-playbook-how-localize-content-5 = Spo 'Video explainer' madad e haten tayi
 
 about-playbook-how-add-sentences = Wuzep chisokht jumlave qiti carem?
 about-playbook-how-add-sentences-content-1 = Sashtes̃h jumlave sẽk nivishne safha kitake bas vezit, yoy jumlave sẽk 'Review page' nazar katith.
+about-playbook-how-add-sentences-content-2 = De 'Common voice' shomil k̃hake haten bu khalgver jumlahev tayin woz qabul k̃hak awaji. Sasht k̃hu zike haten hadrem 'guideline' peydo carit. Jumlaver de 'Public domain'  wocen awaji woz 15 lavzven k̃hut̃ humut. spo 'waiver process e estimol carit k̃he sashtes̃h maten nivshetk khalges̃h CC0 k̃hakebas vezit, woz saker sẽk 'common voice@mozilla.com' sutuyne bas vezit.
 
 ## How to record quality
 
