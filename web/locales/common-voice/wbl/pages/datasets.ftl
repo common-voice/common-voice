@@ -39,3 +39,5 @@ no-information = malũmoti nast
 resource-nemo-info = <githubLink>NVIDIA MeMo</githubLink>™ teyi yi<docsLink>het̃ zẽrya t̃ulkit̃</docsLink>jẽdidtẽrin qẽsa k̃hakẽ AI mod̃el tẽyor k̃hakẽkũzg mohqiqvẽ destan
 resource-deepspeech-info = Mozillaẽ ozodh khizmatẽ owoz dishnẽ engen 'Deep Speech'ẽs̃h qẽsa dishnẽr istimolẽ bas wezin. Spo <githubLink>joy, dẽrwozaẽ tayin<githubLink></githubLink>woz shomil woc<discourseLink>dẽ D̃eepspeech D̃iscourse</discourseLink>yem dishnẽr ki cẽr sokht shẽrun.
 resource-coqui-info = <coquiLink>Corqui</coquiLink>ozodh qẽsa dẽsta makhsus t̃eknoloji. hadem mansubavi medest yek̃hk wocner STT woz TTs enjenisht
+community-playbook = Jamoatẽ Playbook
+resource-playbook-info = Sẽk pẽtun Kommon V|odesẽfar <playbookLink>medadgor hidoyatẽ hosil</playbookLink>Ce lokẽlizashanẽn d̃at̃asetẽistimolẽ batk, hayaran dẽ po jamoaten cẽr sokht qẽti wocẽn
