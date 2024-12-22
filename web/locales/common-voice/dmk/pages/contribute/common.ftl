@@ -114,3 +114,4 @@ contribution-misreadings-example-2-title = ٹرݵݳسِک دݸرݵئ قِݣ مَ
 contribution-misreadings-example-2-explanation = [اݽݵئ 'ڈݳئنݳسݸرݳ' ہݸئنݳ ݳݸݳجِݵݳ]
 contribution-misreadings-example-3-title = ٹرݵݳسِݵ دݸرݵئ قِݣ مَقݣ ڈݳئنݳسݸرݳ-.
 contribution-misreadings-example-3-explanation = [رݵکݳڈݵݣ آخرݵ لفظݵئ اختتامَس مݸ ہگݵ ہݸئی چُرُک ہݸئی چھݵ]
+contribution-misreadings-example-4-title = ٹرݵݳسِک دݸرݵئ قِݣ مَقݣ ڈݳئنݳسݸرݳ. ݳݸݳ.
