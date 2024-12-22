@@ -114,6 +114,10 @@ kab = Kabyle hi De Algeria Berber Qawmiyate Zik
 kbd = De Russian Federation e dest Kabardian i yi nopaid wocne Zik
 ki = De Keya Gikuyu Qawmiyate Zikres̃h Kikuyu k̃hanen
 kk = Kazakhistone sarkori Zik, Yi Turki Zike S̃holkhi
+kln = Kalenjin i yi Afriqi Sahara he Zik
+km = Khmer Zikes̃h de Junub Mashriqi Asia, Cambodia, Vietnam, Thailand woz digar mulkev k̃hanen
+kmr = Kurmanji i yi Kurdi Zik kumdes̃hki de Shumali Iraq; Turki; Shaam (Syria) woz Shumal-Mashriqi et Shumal Maghribi Iron K̃hanen
+kn = Kannada Zikes̃h the Hindustone Karnataka Iloqa K̃hanen
 
 # [/]
 

@@ -56,3 +56,4 @@ public-domain-explanation-1 = Yemi gha zẽrũri ki tẽmon nivishet jumlavev m
 public-domain-explanation-3 = k̃hat yoy dẽ k̃hũ dustvẽn yoy zikẽ kommuniti mẽs̃h jadid qẽsaẽ jumlave gok̃hit - yanike write-a-thon sẽbabẽn
 public-domain-explanation-4 = nẽvishnẽ kũzgvẽn robita, drama nigor yoy screen nevishnẽkũzg  k̃hẽ yavẽ pers, yashtẽs̃h ki zoqẽn k̃hũ caq yarkẽ  hẽr mẽrdumẽ bakhs̃h/ehata kat̃en
 public-domain-explanation-5 = nivishetkẽ matanẽ sẽma kumrẽs̃h ki naqlẽhaq istmol ne wost - misoli ki ziyoda haya kitobisht kumdvẽv ki 1920sen tẽrmis pẽ jẽhon k̃het
+public-domain-explanation-6 = Hũkũmat, bi mẽnofa adorav woz mid̃ia adoravẽ s̃hik̃h rec̃h ki yavni chiz sẽk tẽnz̃et (web) mewod, rapot̃, ter medumẽ ehata (domain) teya?
