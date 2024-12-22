@@ -13,6 +13,7 @@ dataset-splits = اوراک تال ۔۔۔۔۔۔عمر رلتے سکس رل
 number-of-voices = تراٹ آم تعداد
 splits = اوراک تال۔۔۔۔۔ڈھاتال
 email-to-download = ڈآونلوڈ کیرایمیل لنگہ
+why-email = ای میل گانٹھ۔۔۔۔بہ ڈیٹابیس می بدلی بال شیت تے، اوں بہ تساہ لائ۔۔
 confirm-size = ا ڈآونلوڈ شورو تھا ل کیربہ تیار این
 size-gigabyte = جی بی
 size-megabyte = ام بی
