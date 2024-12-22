@@ -7,6 +7,8 @@ download-dataset-header = معلومات ڈاون لوڈ تہ
 download-dataset-tag = تا خوش جیب ڈیٹا بیس جوشا۔تے کاںورژن ڈاونلوڈ تھاونس تے خوشہ
 # File size in gigabytes
 size = سایز
+validated-hr-total = باڑ باگیل۔
+overall-hr-total = سمٹال
 cv-license = لایسنس
 audio-format = اڈیو فارمیٹ
 dataset-splits = اوراک تال ۔۔۔۔۔۔عمر رلتے سکس رل
@@ -20,4 +22,7 @@ size-megabyte = ام بی
 confirm-no-identify = تو  ان قبولون اں  کامن وایس ڈیٹاسیٹ  می منندر اے°پویانیل کوشش نہ تہ
 confirm-join-mailing-list = کامن وایس میلنگ لسٹ می شامل بون آ
 download-language = ڈاون لوڈ۔۔۔۔۔۔
+validated-hours = گیٹا باڑ تھایل۔
+recorded-hours = ریکاڈنگ ای گینٹا۔
+whats-inside = عام صوتی ڈیٹا سیٹ شی لینگال
 subscribe = سبسکرایب
