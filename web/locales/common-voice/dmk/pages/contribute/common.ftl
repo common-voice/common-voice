@@ -138,3 +138,5 @@ contribution-background-noise-example-2-fixed-title = قِݣ مقِݣ ڈݳئنݸ
 contribution-background-noise-example-2-explanation = [گِرمِنݳݵݳئی ترݣݵک حِصَہ نݵ پݸرجݸ جݳگݳچھݳ]
 contribution-background-noise-example-3-fixed-title = <strong>[تقݸݣ]</strong>قِݣ مَقِݣ <strong>[تقݸݣ] </strong> ـرݵݳسِک.
 contribution-background-voices-title = پَچِپَڎِݵݸ چھَتݳ
+contribution-background-voices-description = اݵݣ کمݵک پچݵپڎݵݸ ہَݸ جَݸ قبݸل اِرِنَس ݵݸݽک چھݳ، لݵکِن امݵچُݸ بݸسک چھݳتݳ اݸݳجݵ نݳ کݸنݺ کݸنݵتݳ مشݵن الگݸرتھمَس اشݵݣݳ الفݳظݸݣ دݽݳرِنَس مجبݸر اِری شکݵگِچھݵ کݸنݺ گِرمِنݳݵݳ نݳ مݸجݸد نݵ ہݸن. اگر تمݵچݸ گِرمِنݳݵَس مݸ علݳݸہ سَرکݺ الفݳظݸݣ پݸرجݸ گݵݺ تݳ تݸ کِلِپ مُسترد اِرِنݳ ݳݸݳجݵ. عݳم طݸرَس اݽݵئ ہݳئی وَقتݵئ ہݸگݳ چھݳ کبݺ ٹݵ ݸݵ ہنݵگݵ چھݵ یݳ اَمُنپَڎݵ تݸنپَڎݵ کݵسݵک چغݳ الݸک ہݸگݳ چھݳ.
+contribution-background-voices-description-extended = اَگَر رݵکݳڈݵݣ تَق پَقݵئ دَرݸ ہݸ یݳ اݽݵئَنݳ تقݸݣ ہݸن، تݸ اݵݣݵڎ مسترد اِرݳ اتݵئ کݵچُݸ خݳ تݳ گرمِنݳݵݳئی پݸرݳ حِصَہ صݳف پݸرجݸن نݵ دݸ.
