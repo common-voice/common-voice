@@ -79,6 +79,10 @@ community-and-languages = خلکہ تے ژِبہۡ
 about-menu-tooltip = مرگلتیا، اخبار تے خبری، خلکہ آں ژِبہۡ
 partnerships-menu-item-tooltip = زاں ملی مرگلئ
 press-and-stories-menu-item-tooltip = زاں بلاگے بہ یا زاں لا بِگ لِکہ
+community-and-languages-menu-item-tooltip = ژِبہۡ، مُختلف خلکَہ‌وَیں ڈلی آں کامن وائس معلوم کرہ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اختیاراتَیں لیشیاں بارہ مہ
+partnerships-menu-item-aria-label = کامن وائسہ مِلیۡ مرگَلتیاں بارہ مہ سِڇھہ/ڇِڇہ
+community-and-languages-menu-item-aria-label = کامن وائس چےۡ گھِن٘ل خلکہ آں ژِبؤں مِلیۡ اُولی ہوئ تُھو سیوں لا گَر پَھر ہو
