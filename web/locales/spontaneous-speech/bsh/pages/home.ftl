@@ -30,6 +30,7 @@ contact-us = ایمو مع رابطہ کشی
 contact-us-title = اینہ پراجیکٹ تہ سنہ ستہ شتان کوچہ یا ایمو مع پلئ  بوستہ شتان کوچی؟
 contact-us-email = ای میل<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = تیو ایموستہ عام کوٹہ ستہ اڈگں ولستہ ستہ پراجیکٹ تہ شامل اسیشہ؟
+signup-terms = “ایݩستہ ای میل تہ اہ لینک سمہ“ وسپلہ تے ۔ تیو ایموستہ <termsLink> شرائطہ ستہ سرروس </termsLink> مع اتفاق کوچی با۔او <privacyLink>ٹکاں پالیسی</privacyLink> او موزیلا  بیٹا ٹسٹنگ عام کوٹہ کہ ڈگں تقرر پراجیکٹ تہ کائی کہ حصہ اگݩلہ آئی کہ ای میل کو بتہ۔
 signup-input-placeholder = ای میل اتیوݩشی
 signup-button-value = ایستہ ایم میل تہ لنک سمہ
 footer-text-privacy = <privacyLink>ٹکاں</privacyLink>
