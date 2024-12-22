@@ -12,6 +12,7 @@ ady = Shumol-Maghribi Kakeshian Zik yoy Khalgisht
 af = Afriqahe Khalgisht
 am = Ethopian (Habashi)
 an = Aragon e Zik yoy Khalgisht
+ar = Arabi zik
 dav = Junub-Mashriqi Kenya he Taita khalgve Zik
 de = Jarman Zik yoy Khalg
 dsb = Maghribi Slavic (Lusatia) he Zik
