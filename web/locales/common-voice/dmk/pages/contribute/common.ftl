@@ -133,3 +133,4 @@ contribution-varying-pronunciations-example-2-explanation = ['Raised' اَݣگر
 contribution-background-noise-title = پَچِپَڎݵݸ شݸر
 contribution-background-noise-description = امݺ رݳئی رَم چھݸم کہ مشݵنَس چھچِنݺ اَلگݸرتھمز مقتَلِف قِسمݵݣݺ پچݵپڎݵݸ شݸر ہنݳنَس ݵݸݽک ہݸن، نݸ نسبتݳً اُتھُلݺ چھَتݳ تݳ مݳن ارِنَس ݵݸݽک ہݸئݵ شکݵگَݵ چھݵ، بشرطݵکہ اݵݣݺ تمݵڎ پݸرݳ گِرمِنݳݵݳ پݸرجِنَس مݸ نݵ رݳٹھݸن. چھݸتݵݣ پچِپڎِݵݸ حرݵپ ٹھݵک چھݵ؛ اتݵئݵک اُتھُلݵ حرݵپ کݸنِݵݳ تمݵڎ ہر لفظ پݸرجِنَس مݸ رَٹھݸن، قبݸل اِرِنس ݵݸݽک نݳ.
 contribution-background-noise-description-extended = اَگَر رݵکݳڈݵݣ تَق پَقݵئ دَرݸ ہݸ یݳ اݽݵئَنݳ تقݸݣ ہݸن، تݸ اݵݣݵڎ مسترد اِرݳ اتݵئ کݵچُݸ خݳ تݳ گرمِنݳݵݳئی پݸرݳ حِصَہ صݳف پݸرجݸن نݵ دݸ.
+contribution-background-noise-example-1-fixed-title = <strong>[چھِݵکݳ] </strong>ٹرݳݵݳسکݵئ زمݳنئی </strong>قرݳبِڈِݣ ڈݳݵنݳسݸر. </strong> [خݹسݳ]
