@@ -36,3 +36,6 @@ background-noise-explanation = tawri rikording har lavz kẽs̃hũy dẽrkor. s
 background-noise-example-1 = T̃riassikẽ borzẽngi rang d̃inosaurs
 background-noise-example-2 = [shẽtref] [qokẽn] Borzẽngi rang D̃aynosour
 background-noise-example-3 = Nido Borzẽngi [qokhtẽ] T̃esik
+background-noise-example-4 = [Krekal] Borzẽngiran daynasour [Krakaal] -raysik
+background-noise-tip-1 = [t̃er cẽbasẽ shurẽ bẽrbod kert ]
+background-noise-tip-2 = matanẽ z̃aq hisaẽ kẽs̃hũyni mũshkil
