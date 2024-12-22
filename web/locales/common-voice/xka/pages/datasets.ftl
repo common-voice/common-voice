@@ -6,3 +6,5 @@ download-dataset-header = معلومات ڈاون لوڈ تہ
 number-of-voices = تراٹ آم تعداد
 splits = جی بی
 size-megabyte = ام بی
+confirm-no-identify = تو  ان قبولون اں  کامن وایس ڈیٹاسیٹ  می منندر اے°پویانیل کوشش نہ تہ
+subscribe = سبسکرایب
