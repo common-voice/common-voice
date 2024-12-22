@@ -15,3 +15,10 @@ check-bubble-subtitle = تیو اینہ ایشکوچی چہ ایا ٹرانسک�
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ڈیٹا</mark>
 data-bubble-subtitle = ڈیٹا سیٹ جاری کشی
+contact-us = ایمو مع رابطہ کشی
+contact-us-email = ای میل<emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-input-placeholder = ای میل اتیوݩشی
+signup-button-value = ایستہ ایم میل تہ لنک سمہ
+footer-text-privacy = <privacyLink>ٹکاں</privacyLink>
+footer-text-terms = <termsLink>شرائط</termsLink>
+footer-text-cookies = <cookiesLink>کو کیز<cookiesLink>
