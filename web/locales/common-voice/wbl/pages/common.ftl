@@ -92,6 +92,11 @@ he = Israel e Qaumi Zik. Yemres̃h Ibrani Zik be K̃hanen
 hi = hindustone yi Hind-Aryoyi Zik
 hil = Fillipine (Phillipine) yi Austrnesian Ilaqayi Zik
 hr = Junubi Slavic 'Croatia' he Qaumi Zik
+hsb = Maghribi Slavic, Sorbia Qawmiyate Zik
+ht = Haiti e Qawmi Zik
+hu = Hunggary e Qawmi Zik
+hy-AM = Armenia he Qawmi Zik
+hyw = Maghribi Armeni Ziki Turky Ziker qareb, Laikin ter nopaid wocne gẽnahi
 
 # [/]
 
