@@ -48,6 +48,11 @@ report-title = رپݸٹ بِجݳلِنݳ
 report-ask = تݸ اݽݵݣ جملݵڎ کݸٹ کݸنݺ مسلݵݣݺ تجربݳ رݺ چھݳئی؟
 report-offensive-language = تݸہݵن آمݵز بݳݽ
 report-offensive-language-detail = جملݳنݳ بݵ اَدَپݵ ݵݳ تݸہݵن آمݵز بݳݽ چھݵ.
+report-grammar-or-spelling = گرݳئمر/اِملݳئی غلطی
+report-grammar-or-spelling-detail = جملہ نݳ گرݳئمرݵئ ݵݳ املݳئݵ غلطݶ چھݵ.
+report-different-language = مقتلِف باݽ
+report-different-language-detail = اݽݵئ اشݵ باݽݵکِنݳ گِرمِنݸ گݵݳچھَتݳ کݸنݸ مݺ اِرِم بݳݽَسمݸ مݸ مقتَلِف چھݳ.
+report-difficult-pronounce = تلفظݵئ مُشکِل
 
 ## Speak & Listen Shortcuts
 
