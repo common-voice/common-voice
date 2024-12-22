@@ -8,3 +8,4 @@ error-clip-upload = hayem kelipni aplowd̃ nung, jori lecẽrẽna?
 error-clip-upload-server = hayem kẽlipẽ uplowd̃s̃h nokom wost, wẽraqẽ dũbora lowd̃ yoy dẽbora kushish.
 error-title-404 = sakẽr haya wẽraqẽ tor ne hotẽn
 error-content-404 = mũmkini spo<homepageLink>hompej</homepageLink>mẽdad wost?sowol persnẽr, shomil woc<matrixLink>jirgit jamoati gap</matrixLink>.sẽk<githubLink> zẽrya didig̃h GitHub</githubLink>yoy rec̃h<discourseLink>spo qẽsa
+error-title-503 = bikhẽbarẽsh d̃ownlowd̃ sakẽr band wost
