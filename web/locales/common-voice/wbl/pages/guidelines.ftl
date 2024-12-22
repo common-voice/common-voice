@@ -16,3 +16,4 @@ varying-pronunciations-explanation-1 = har qisme lehjarẽs̃h khũshomẽdin k
 varying-pronunciations-explanation-2 = tor ki sẽdhoydẽ ki joynẽ kuzgẽ kumd harf tag ne winetk, wozẽs̃h telafuzẽs̃h ghelat ẽndoza cart, miriboni car k̃hẽ rad car agar ki tori yaqin nast, shekhsnẽ mẽrwotẽ pakhch.
 varying-pronunciations-example = vẽdek pokiza ne tu/ vẽdek nomalum tu
 varying-pronunciations-tip-1 = Kẽned̃aẽ Ẽnglizis̃h "rout" "rowt" gok̃ht
+varying-pronunciations-tip-2 = [British Ẽnglish albat "root" gok̃ht]
