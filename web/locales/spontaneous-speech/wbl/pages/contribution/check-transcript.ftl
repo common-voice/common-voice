@@ -10,3 +10,11 @@ vote-transcript-error = Nivishetker (transkripter) roy (vot̃) rẽdho wakht,  g
 transcript-edited-success = Nivishetk (transcript) komyobig̃h mes̃h piwaynd vite
 transcript-edited-error = Nivishetk (transcript) rost k̃hak (edit̃) wakht ghalatig̃h pũrũt wezde
 error-fetching-transcriptions = Z̃aqchiz ghalat vite dẽ nivishetk (transkript) yundak wakht. Mehrboni carit k̃he z̃aq cẽbas n kushish carit
+transcript-skipped-success = t̃ranskript Komyobi mes̃h n trẽ cẽbas lekert
+transcript-skipped-error = Trẽ nivishetk-e (transcript-e)   sar rũnd̃ũk wakht, ghalatig̃h vite.
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = Dũrũst
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Vite
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Rost
