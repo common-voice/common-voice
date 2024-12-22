@@ -74,6 +74,9 @@ fan = Janwarve Draoz Dundukisht
 ff = De Senegal et Sudane Shupunve Zik
 fi = Finland e Khalgish yoy Zik
 fo = De Denmark Faroe Jazeera he Khalgve Zik
+fr = Fransisi Zik
+fub = De Maghribi Afriqa he chandilkve Zik
+fue = Maghribi Afriqa he Niger-Congo Khondone Zik
 
 # [/]
 
