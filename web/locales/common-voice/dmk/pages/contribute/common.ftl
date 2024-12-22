@@ -124,3 +124,4 @@ contribution-misreadings-example-7-explanation = [اَصَلݵ گرمِنݳݵَ�
 contribution-misreadings-example-8-title = مَݷِݵݵݺ بَڑݵ مَچھِݵ ݽر ہݸئی گݵئ.
 contribution-misreadings-example-8-explanation = [نݵ خرِشِنݳ مݸݳد]
 contribution-varying-pronunciations-title = مُقتلف تلفُظݳ
+contribution-varying-pronunciations-description = کݸنِتݳ کِلِپِکِشُݸ اݽݵئ مُنِݵ مُسترد اِرِنَسمݸ ہگݵ محتݳط بݵشݳ کِہ منݵگݳ ہݵَن کݸنِتݳ لفظِکݵ غَلَط تَلَفُظ اِرِن چھݳ، زݸر غَلَط دِشَس دݵنِن چھݳ، ݵݳ سوݳلݵہ نشݳنَس نظر اندݳز اِرِن چھݳ. دنݵݳت ٹݸکَنݳ مقتلف تلفظݸݣ اِستِمݳل اِرݸ جݳݣݺ چھݺ، کݸنݵڎ مَجَنݸ ترݣݵک تُمݺ اپَنݵئ مقݳمݵ برݳدرݵ نݳ نݵ پݸرجݺ ہݸگُت. مِربݳنݵ رِݵ اݵݣ بندݵݣݺ کݳرݸ گنجݳئش تھݳ کݸنݺ تُمݵڎ کݸٹ مقتَلِف اندݳزݺ مݳ بݳشݵ شکݵݣݺ چھݺ.
