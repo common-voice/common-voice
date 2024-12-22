@@ -97,6 +97,9 @@ about-playbook-how-add-sentences-content-3 = تون استعمال ڪری سڳی
 about-playbook-how-record-quality = آن کیئن هائي کوليتي آواز ريڪارڊ ڪري سڳی تو ؟
 about-playbook-how-record-content-1 = پانچی عام آواز ڳالائی. جيان تون ڳالائیتو ايئن قبول ا ھتي. اسانک توجو ايڪسينٽ کپا تو جيان آهي، ٻيو انسانک کپا عام طور جو آواز، اسٽائل پیو انتو نیشن.
 about-playbook-how-record-content-2 = الائی زیادا بیگراؤند آواز ھو نجڙک نه کپا - توک بدڙ آسان ھو نجا.
+about-playbook-how-record-content-3 = جملينک ديهان سی پڙھ. مس نکر بدلائی ہی نا يا لفـظ شامل نڪر.
+about-playbook-how-record-content-4 = غور ڪر ته پلیت فوم ریکارڊ پیو ڪری ڳالاڻ نا پیرین بیو تہ ھو بيئا جڊين تون ڳالان ختم ڪری چنین.
+about-playbook-how-record-content-5 = بیو ڏس آکیوريسی ڪرائتيريا جي باريم.
 
 ## How to grow language
 
