@@ -69,7 +69,7 @@ shortcut-skip = ایس
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = آر
+shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/ بس
 shortcut-rerecord-toggle = [1 - 5]
 shortcut-rerecord-toggle-label = کلپ دوبارا ریکارڈ تھا
@@ -125,5 +125,9 @@ contribution-varying-pronunciations-description = ایک کلپ ریجیکت ت�
 contribution-varying-pronunciations-description-extended = دومونگی طرفتی،  تھئی خیال در پڑاؤ تھونو والا تی انا لفظ مݜو کونی نیالسو، مہربانی تھئی لپیر تھی۔ تو آجا نیِلݜیل نو سکیپ بٹن دباؤ تھی۔
 contribution-varying-pronunciations-example-1-title = سی سے تمو ݜی ݜاجا فوجی کُھولی چھوریسی۔
 contribution-varying-pronunciations-example-1-explanation = [ًٰ بیریٹ ٹیِک ہن ]
+contribution-varying-pronunciations-example-2-title = سیسے ہاتھ اُووے چت آسے
+contribution-varying-pronunciations-example-2-explanation = اُوچت اوݜوجو در دُو سیلیلے ہنی۔ ڇے سیلیبلے نیِش۔
 contribution-background-noise-title = پتوتے شور
+contribution-background-noise-description = آسو ادئی الگوریتھم مشین پتوتے کامک شور سا کنٹرول تھئی۔ این ایک شانتا اُوچت اواز آسو برداشت تھوگونا سا آواز تُو منع نی تھئی اے تُو لا کلپ ݜُون لا۔ پتوتے غلئی موسیقی بئی۔ اؤ سا موسیقی توتے مسئلہ سپارینُو سا آواز غلے بئی۔
+contribution-background-noise-description-extended = کہ ریکارڈنگ پھوٹے جینُو اؤ یا ششار تھینُو رد تھا سا وخا پورے آسے بوٹ ݜُونو بینُو۔
 contribution-volume-title = والئیم

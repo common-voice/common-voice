@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = تھئی ایک جیِب منتخب نی تھے گے۔ تمو پروفایل تے بو۔ <profileLink> اؤ جیِب </profileLink>منتخب تے۔
 sc-review-title = جملئی جائزہ گھیننا
 sc-review-loading = جملئی لوڈ  تھونا
 # Variables:
@@ -25,3 +26,5 @@ sc-review-form-reviewed-message =
 
 ## REVIEW CRITERIA
 
+# menu item
+review-sentences = جملئی جائزہ گھیننا
