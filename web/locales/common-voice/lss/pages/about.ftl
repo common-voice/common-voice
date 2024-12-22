@@ -70,6 +70,9 @@ about-playbook-how-add-language = آن پانچی زبان ڪیئن و جین؟
 about-playbook-how-add-language-content-1 = پھرین ڏس ته توجی REQUEST CONTEXT or REPORT ISSUE زبان <languageLink> موجود ا </languageLink>..اگرنان ته<languageRequestLink> پانچی زبان لا درخواست ڊيي سگي تو ته وا زبان ھو نجا.language</languageRequestLink>. هن جا به اسٽیجا تا ھوجن. ترجمو کرڻ سائت جو بیو جملا جمع کرن .
 about-playbook-how-add-language-translating-heading = سائٽ جو ترجمو ڪرڻ.
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ڏِس اسان جو گائیايڊ تہ گیئن پون تون استعمال تو ڇئ. </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = اسین موزیلا جو تول پون تون تا استعمال ڪريان ترجما ڪرڻ لا. یون نون ام الائی زبانی ھوجن تيو، پر اگر تو جی زبان ڪوني ته درخواست ڪر پانجی زبان ک وجڻ لا. پو ھن زبانگ ڪومن واٹس پروجیعت موجود ڪرڻ لا درخواست ڪر ڳٺھب ام. ڏس مزيد سائٽ جي ترجمي جي با ريم.
+about-playbook-how-add-language-collecting-sentences-heading = جملا جمع ڪرڻ.
+about-playbook-how-add-language-collecting-sentences-content-1 = ڏِس ا سانجو گاھيڊ ته ڪيئن جملا جمع ڇن تا.
 
 ## How does localization work
 
