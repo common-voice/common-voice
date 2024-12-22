@@ -81,6 +81,8 @@ fuf = Yi Senegambian Zik. Yem Zikes̃h de Guinea be K̃hanen.
 fy-NL = Frisian i yi German et Netherland e Zik
 ga-IE = A'yarland (Ireland) a Qaumi Zik
 gl = Shumal- Maghribi Spain e yi Muqomi Zik
+gn = Junubi Amerikahe cebur mukve Zik
+gom = Goa-Hindustoni muqomi Zik
 
 # [/]
 
