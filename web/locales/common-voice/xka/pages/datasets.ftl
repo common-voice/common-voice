@@ -1,6 +1,6 @@
 ## Datasets Page
 
-datasets-heading = مالومات با گ
+datasets-heading = مالومات با گڈیٹا سیٹ ھر انٹری می انوج جولال  اشیں۔باڑوم می عمر،جنس،،لہجہ برہ می باڑ جولال اشیں۔سو جولال س  کے مال انجن م می باڑمدد تھینفلحال اسے ڈیٹاسیٹ می چھن اوں جیب این۔۔۔۔۔۔ بہ دی دی پا ٹل ثھان۔۔۔۔۔تو اسے پیج ۔۔۔۔۔۔۔ نال
 datasets-headline = بہ ا کولاو پان ٹران،تبا پر ا ڈآس جیب  آݭیں،تبا تس ہر کو استعمال تیبان تہز
 language = جِب
 download-dataset-header = معلومات ڈاون لوڈ تہ
@@ -55,3 +55,6 @@ data-other-download = ڈیٹا ڈاؤن لوڈ تھ۔
 release-version = ورجن۔ورجن
 dataset-date = دوس
 license = بوج
+license-mixed = گاڈ واڈ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسی صوتی ڈیٹا سیٹ ڈاؤن لوڈ تھ۔
