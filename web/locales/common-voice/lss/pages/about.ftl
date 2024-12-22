@@ -135,6 +135,7 @@ about-playbook-how-validate-content-4 =
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = آن ڊیٽا سيٽ تائین کیئن پڄِي سڳي تو ٻيو هنک ڪيئا استعمال ڪري سڳی تو؟
 
 ## How are decisions made
 
