@@ -129,3 +129,5 @@ contribution-varying-pronunciations-description-extended = دݸݵݳنݸ، اَگ
 contribution-varying-pronunciations-example-1-title = اݵسݵئ ݼݸٹݸس کھݸݵݳکݳ چھݵکݳ.
 contribution-varying-pronunciations-example-1-explanation = ['Beret' لفظ ٹھݵک چھݵ، چݳہݺ یرکمݳسݵئ حرپَس زݸر دݵنݺ کُلݵ (برطݳنݸݵ) ݵݳ دݸݵݳنݸ ہݵَس (امرݵکݵ)]
 contribution-varying-pronunciations-example-2-title = اݵسݵئ ہݸت اَپݸ اِرݸ گݵݳ چھݳ.
+contribution-varying-pronunciations-example-2-explanation = ['Raised' اَݣگرݵزݵ نݳ ہمݵش اݵک سلݵبلݵئ طݸرس مُنݸ جݳگݳ چھݳ، دݸئی نِکݵ]
+contribution-background-noise-title = پَچِپَڎݵݸ شݸر
