@@ -106,3 +106,6 @@ contribution-misreadings-title = غلَط مُنݵنݳ
 contribution-misreadings-description = کبݺ پݸرجݵگُچھݸت، تݸ اݽݵئ بݸت ہݸشَس چݵک اِرِݳ تݳ کݸنݸتݳ ریکݳٹ اِرݸ گݵݳ چھَتݳ، ہݵئ بِرکُل ہݵئ ݳݵ ہݸ کݸنݸ گرمنݸ گݵݳ چھݳکݳ؛ اگَر مݳمݸلݵ غلطݵ ہݸئݵ چھݵ تݸ ہݵئ مُستَرَد اِرݳ. <br />بݸت عام غلطݵ مݳ کݸٹ چھݳ:
 contribution-misreadings-description-extended-list-1 = رݵکݳڈݣݵئ شرݸع نݳ <strong>'A'</strong> ݵݳ <strong>'The'</strong> کمݵ چھݵ
 contribution-misreadings-description-extended-list-2 = لَفظݵئ آخرݶ <strong>'s'</strong> کمݵ چھݵ.
+contribution-misreadings-description-extended-list-3 = اشݵݣݳ پِٹݳرِنݳئی شَکَلݸݣ مُنِنݳ کݸنݺ اصلَنݳ اݵت نݵ ہݸݣݺ چھݺ، کݵ زݳئلَس "We're" رݵئ بجݳئ "We are" ݶݴ نݸ ہݵیݵئ بَر عکس
+contribution-misreadings-description-extended-list-4 = رݵکݳڈݵݣ بݸت ڞݳگݳ فَݽ اِرِنݳئی وَجَس آخرݵ لفظݵئ فَݽ ہݸئنݳ غݳئپ ہݸݵݳ.
+contribution-misreadings-description-extended-list-5 = تُشݳر کھݸشِشݺ مݳ اݵکہ لفظَکݳ مُنِنݳ.
