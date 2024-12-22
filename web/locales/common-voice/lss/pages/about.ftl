@@ -62,9 +62,11 @@ about-nav-playbook = سک ته ڪيئن حصو وٽڻون آ
 about-playbook-what-is-language = ڪو من وائس ام هيڪڙي زبان چو ا ؟
 about-playbook-what-is-language-content-1 = زبان ا جي باريم  سوچڻ جا الاهي طريقا ان. اسپيچ ريڪگنيشن ماڊلز جي مقصدن لا، Common Voice مشورو ڏي تو ته ’باہمي سمج ات ڌيان ڏيياڙ و کپا، يا ’ڇو هن زبان ا جي ڳالاڙ وارا هڪري ٻيک سمجهي سگهن تا جڏهن هي ڪوشش ڪن تا؟
 about-playbook-what-is-language-content-2 = اسين چايان تا ته تقريرا جا ماڊل بهتر هو ننجن ته ڳالاڙ وارن جي مختلف رينجک سمجهڻم. ائين ڇڻ لا، هيڪري آواز ڊيٽا سيٽک ڪيتري ئي مختلف ماڻهن جي نمائندگي ڪرڻ کپي.
+about-playbook-what-is-language-content-3 = کچھ زبانیم REQUEST CONTEXT or REPORT ISSUE الائي ويريٹيشن تي هونج ھن جي گرامر ووڪیبلری بیو پرو ننسیایشن ا م ھنا وجا سین اسین<ctaLink> متعارف ڪريان تا ۲۰۲۲ م ‘Variants’</ctaLink> . ايو جماعتیں ک رستو تیندو تا ھو پانچی زبانک وڊي دیتا بیس جي اندرا مختلف سمجن.
 
 ## How do I add a language
 
+about-playbook-how-add-language = آن پانچی زبان ڪیئن و جین؟
 
 ## How does localization work
 
