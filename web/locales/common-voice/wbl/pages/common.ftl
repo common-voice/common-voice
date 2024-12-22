@@ -101,6 +101,11 @@ ia = Latini bunyodher qoyin Zikve Majmua Zik
 ibb = Nigeria he Ibibio Qawmiyate Zik
 id = Indonesia he Qawmi Zikres̃h Bahasa be K̃hanen
 ie = Edgar von Wahl e takhleeq k̃hetk yi Ittifaqi (Masnuee) Zik
+ig = Nigeria Maghribi Afriqahe yi Qawmi Zik
+is = 'Iceland' e Qawmi Zik
+it = 'Italy' he qawmi Zik
+izh = 'Izhoric' Ziki Ural e Iloqa Finland e yi Guruhi Zik
+ja = Jopone Qawmi Zik
 
 # [/]
 
