@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = ڈیٹا سیٹ
 go-languages-page = جیِبے صفحا تے بو
 more = ہورو
 close = بند تھا
