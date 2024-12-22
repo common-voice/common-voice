@@ -22,6 +22,8 @@ demo-account-sign-up = ساین اپ لنک لاڑہ
 ## Demo Contribute
 
 demo-contribute-card-header = تی اواز ریکارڈ تال کیر تیار این۔۔۔۔۔۔۔تو ٹہ کان چھون
+demo-contribute-card-body-v2 = سکرین رل چوݨ
+demo-listen-subtitle = امداد کیر تیار
 
 ## Demo Dashboard
 
