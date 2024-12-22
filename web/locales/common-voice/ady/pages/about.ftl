@@ -7,6 +7,7 @@ how-does-it-work-title-v2 = Комон Войс сыдэущтэу мэлажь�
 
 about-localization-title = Вебсайт чӏыпӏэзэгъэуӏупӏэ
 about-sentence-collection-title = Гущыӏэухыгъэ угъоигъ
+about-new-lang-title = Бзэ кӏэ горэ итӏупщхь
 about-voice-validation-title = Макъэ къэгъэшъыпкъэн
 about-speak = Гущыӏ
 about-listen = Едэӏу
