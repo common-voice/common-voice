@@ -111,6 +111,7 @@ about-playbook-how-grow-language-content-8 = <strong>تحلیق ایپعں</stro
 
 about-playbook-how-validate = اوݩزہ کائی کہ زعݩلوم کوٹہ ستہ کلپ منظور کاع اسہ نہ یاں؟
 about-playbook-how-validate-content-1 = اگر تیو </strong>امکیاں<strong> سگݩہ بچی با او<strong> زعݩچی با امکیاں</strong>، اینہ عام طور <strong> تہ منظور</strong> کوستہ بہتر اسہ۔
+about-playbook-how-validate-content-2 = اوجیستہ کلیپہ مسترد نہ کشعں اتکی اہ وری وا ستہ اہ لہجہ اسہ او ستہ تو لہجہ تہ</strong> نہ اسہ باـ اینہ اہم اسہ چہ کوٹہ ستہ شناخت کہ ہو او کہ بہتر کودیوم کوستہ کہ۔
 
 ## How to access dataset
 
