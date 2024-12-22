@@ -50,6 +50,9 @@ crh = Crimia he Tatari Zik
 cs = Check Zik
 cv = Turki Oghur Zike yi S̃holkh, De Siberia et bazi Chine Mulki Zindah Zik
 cy = Wales Bartania he yi Zik
+da = Denmarke Qaumi Zik
+dag = Ghana et Togo ve yi Muqomi Zik
+dar = De Daghistan Russ Dargin Qaumiate Zik
 dav = Junub-Mashriqi Kenya he Taita khalgve Zik
 de = Jarman Zik yoy Khalg
 dsb = Maghribi Slavic (Lusatia) he Zik
@@ -67,6 +70,10 @@ eto = Junubi Englistone yi Diyor
 eu = Shumol-Maghribi Spain woz Junub-Mashriqi France e yi Guruh e Zik
 ewo = Cameroon e Khalgve Bantu Zik
 fa = Porsi zik
+fan = Janwarve Draoz Dundukisht
+ff = De Senegal et Sudane Shupunve Zik
+fi = Finland e Khalgish yoy Zik
+fo = De Denmark Faroe Jazeera he Khalgve Zik
 
 # [/]
 
