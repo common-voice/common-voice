@@ -152,3 +152,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> مزݵد من
 
 about-playbook-how-funded = کݳمَن وݳئس سَشُݸ کݵ ہݸئی رݸپݺ لݵݸ جݳݣݺ چھݺ؟
 about-playbook-how-funded-content-1 = کݳمَن وݳئس مݸزݵلݳ فݳݸنڈݵشَن، کݸنݸ اݵک اَمرݵکئ اِدݳرݳک 501c3 چھݳ، ہݵیݵئ اݵک منصݸبݳک چھݳ. اݽݵئ مَنصݸبݳ اݽݳئی وَقتَنݳ پݸرݳ<philantropicGrantLink> طݸرَس شَکُݽݵئ چِپِݵ ہݸت بَتݳنس نݸ دنݵݳ ٹݸکَنݸ بندݵڎ دِرِݵݸ دݵنݺ اِنداتݵئ</philantropicGrantLink> زرݵعَس ہَنݸ جݳگݳ چھݳ.
+about-playbook-how-funded-content-2 = اݽݵَن ڈݵٹݳ سݵٹݵئ ڞݳنݸ مݵزبݳنݵ نݸ جݳرݵکُݽ، پلݵٹ فݳم مَس شݳ رِنݳ<africaMradiLink> نݸ کَمݵُݸنِٹݵ پُرگرݳمݸݣ</africaMradiLink> ہَنݳنَئی کݳرݸ جُدݳ بݸت رَقَم خَرچ ہݸگݵ چھݵ.
