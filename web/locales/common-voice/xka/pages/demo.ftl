@@ -15,6 +15,8 @@ demo-account = حیساب
 ## Demo Account
 
 demo-account-card-header = ۔ساین اپلل لنکلاڑیل کیر ای میل  دہ
+demo-account-enter-email =
+    .label = ساین اپ لینک لاڑل کیر ای میل انٹر تہ
 demo-account-sign-up = ساین اپ لنک لاڑہ
 
 ## Demo Contribute

@@ -12,6 +12,9 @@ about-localization-subtitle = ویب ساٹ اے ٹکسٹ اے° ترجمہ ات
 about-sentence-collection-title = جملا سمٹیل
 about-sentence-collection-subtitle = خلق ام  درکِ منیل کیر یجولال سانگیاتاگال این
 about-new-lang-title = نم جیب شورو
+about-new-lang-subtitle = بہ اوں جیب میکامن وایس سایٹ شورو تان
+about-voice-contrib-title = اوازّ امداد تھا
+about-voice-contrib-subtitle = مانوش یانتے تانی تراٹ جمع تان
 
 ## Community Playbook Content
 ## What is a language
