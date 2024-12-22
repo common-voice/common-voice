@@ -116,6 +116,12 @@ about-playbook-how-grow-language-content-8 = ڪریايٽو بنج! تو جي ز
 ## How to validate
 
 about-playbook-how-validate = آن کیئن سمجھين تہ واٹس ڪلپ اپروو ڪرڻي ا ؟
+about-playbook-how-validate-content-1 = اگر تون پُدي سگين تو ٻيو سمجهي سڳي تو، ايو بهترين ا اپروو ڪرڻ لا.
+about-playbook-how-validate-content-2 =
+    وائس ڪلیپک ریجیڪت نہ کر اگر ڳا لاڙ 
+    وارین جو ایکسینٽ تو جی ایکسینٽ نا الگ ا.
+    ایو ضروری ا وائس رینگنیشن لا تہ ھو سینی
+    لا ڪم ڪري.
 
 ## How to access dataset
 
