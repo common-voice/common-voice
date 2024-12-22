@@ -125,3 +125,5 @@ contribution-varying-pronunciations-description = ایک کلپ ریجیکت ت�
 contribution-varying-pronunciations-description-extended = دومونگی طرفتی،  تھئی خیال در پڑاؤ تھونو والا تی انا لفظ مݜو کونی نیالسو، مہربانی تھئی لپیر تھی۔ تو آجا نیِلݜیل نو سکیپ بٹن دباؤ تھی۔
 contribution-varying-pronunciations-example-1-title = سی سے تمو ݜی ݜاجا فوجی کُھولی چھوریسی۔
 contribution-varying-pronunciations-example-1-explanation = [ًٰ بیریٹ ٹیِک ہن ]
+contribution-background-noise-title = پتوتے شور
+contribution-volume-title = والئیم

@@ -119,4 +119,5 @@ about-playbook-how-validate = ما کدا معلوم تھئن اے وائس کو
 
 ## How is Common Voice funded
 
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاونڈیشن ایک پراجیکٹ ہنو، یو ایس 501 سی3۔ چئین انا پروجیکٹ خلق چنداؤ جا فنڈ دینا، اؤ بوٹی دنیا د خلق دینا۔<philantropicGrantLink>
 about-playbook-how-funded-content-3 = تُو کہ تھئی تنظیم آنا پراجیکٹ تے دُوبھاتا تُو اینے ایک لنک سپاربھییلا <donateLink> یا آسئی پارٹنرشپ ٹیم تے ای میل کو بھئیلا۔ commonvoice@mozilla.com</emailFragment>
