@@ -1,4 +1,4 @@
-action-click = Klik
+action-click = Kẽlik
 action-tap = T̃ep
 contribute = hisa kat̃
 review = didig̃h
@@ -11,6 +11,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = tawẽ common Voysẽr (Common voice) ẽr g̃hetak <goalPercentage></goalPercentage> spo har rorẽ{ $goalValue } record̃ k̃hak mẽnzil!
 goal-help-validation = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert <goalPercentage></goalPercentage>{ $goalValue }
+contribute-more =
+    { $count ->
+        [one] c̃hak k̃hakr tẽyor? { $count }
+       *[other] c̃hak k̃hakẽr tẽyo?
+    }
 speak-empty-state = Hẽskem zik darj k̃hakri spo s̃hik̃h jũmlayisht vek̃hk
 no-sentences-for-variants = Mũmkini ki ti zikẽ mukhtalif sokhtisht cẽ jũmlavẽn tẽr vich hũmin, agar ki tus̃h saz, tus̃h digar jũmlavẽ tayinẽ dẽstan k̃hũ zikẽ tẽrtibvẽ badalẽ bas wezẽ
 record-button-label = K̃hũ owozẽ record̃
