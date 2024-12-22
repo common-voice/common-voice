@@ -18,6 +18,7 @@ about-dataset-release-subtitle = Тэ къэтыгъэ зэкӏэугъоягъ�
 about-speak = Гущыӏ
 about-listen-queue = Едэӏуным ичэзыу
 about-listen = Едэӏу
+about-is-it-valid = Тетхагъэр шъыпкъа?
 about-yes-votes = ≥ 2 ары хэдз
 about-dataset-new = Коммон Войс къэтыгъэ зэкӏэугъоягъ
 about-stay-in-touch-button = Зыхатх
