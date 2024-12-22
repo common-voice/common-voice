@@ -77,6 +77,10 @@ fo = De Denmark Faroe Jazeera he Khalgve Zik
 fr = Fransisi Zik
 fub = De Maghribi Afriqa he chandilkve Zik
 fue = Maghribi Afriqa he Niger-Congo Khondone Zik
+fuf = Yi Senegambian Zik. Yem Zikes̃h de Guinea be K̃hanen.
+fy-NL = Frisian i yi German et Netherland e Zik
+ga-IE = A'yarland (Ireland) a Qaumi Zik
+gl = Shumal- Maghribi Spain e yi Muqomi Zik
 
 # [/]
 
