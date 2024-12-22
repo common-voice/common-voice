@@ -110,14 +110,31 @@ about-playbook-how-grow-language-content-8 = <strong> تخلیقی بو۔ </stro
 ## How to validate
 
 about-playbook-how-validate = ما کدا معلوم تھئن اے وائس کونے منظور بینُو؟
+about-playbook-how-validate-content-1 = کہ تُو لی کلپو تُو ݜُون لا اؤ لݜ لا لیو نے منظور بینا۔ <strong></strong><strong></strong><strong>
+about-playbook-how-validate-content-2 = <strong> سک کلپ رد نی تھی ایرازونو والا تھئی جیِب کئی مختلف بئی</strong>انا ہر جلی کارا آواز سواؤنو ضروری ہنو۔
+about-playbook-how-validate-content-3 = کہ تو لݜ لا انا تلفظ رزوندر مشکل ہنو<strong> سی نو کلپ در پتو تے شور ہنو کنیا</strong>                      سہ دی ہور خلق موڙے تھینا</strong> سنی تو کلپ ریجیکٹ تو بئیلا۔<accuracyLink> اسئی درست موڙو معلومات ڇک بئیلا</accuracyLink>۔
+about-playbook-how-validate-content-4 = کہ ایک کلپ دو جنو جا ریجیکٹ تھینی، ایک مختلف ڈیتا سیٹ شو بینلو۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ما کدا ڈیٹا سیٹ تی اباریم اؤ سا کدا استعمال تھیم۔
+about-playbook-how-access-dataset-content-1 = تو ڈیٹاسیٹ پیج تے بج بھئی لا</datasetsPage>، تو کامیک جیِب بیچیلا سا سلیکٹ تھی، اؤ سا ڈاونلوڈ تھی! انا فائل در میٹا ڈیٹا ہُم شامل ہنو</metadataLink>، ابادی معلومات اؤ تصدیقی ڈیٹا منجہانو۔ تو انا ڈیٹا سیٹ ڈاونلوڈ تھونو کارا تمو ای میل ایڈریس  دو بئیلا۔
+about-playbook-how-access-dataset-content-2 = تو تے اے ایس ار ماڈل سپارونو کارا آوزارے ضرورت ہنی تو انا ڈیسکورس جا ہور خلقو ست رابطہ تو بھئیلا۔</discourseLink><discourseLink>
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پراجیکٹے فیصلہ ئی کدا کدا بینا؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائس ممکن ہنو مختلف کمیونٹی کارکنانو، لینگویسٹس، ڈیٹا سائینٹسٹ، اکیڈمیک اؤ سافٹ ویر انجنیئرو کارا بُوٹ دنیا د۔ پراجیکٹ موزیلا فاونڈیشن طرفکئی مقرر بیلنو۔
+about-playbook-how-project-governance-content-2 = اسہ ئی انتظامیہ انیسی تھونے چک بیانو ہُون:
+about-playbook-how-project-governance-content-3 = پراویسی، سیکیوریٹی اؤ ٹرانسپریسی۔
+about-playbook-how-project-governance-content-4 = کمیونٹی شراکت اؤ فیصلہ سازی۔
+about-playbook-how-project-governance-content-5 = سوہاونو قدر۔
+about-playbook-how-project-governance-content-6 = باہمی احتساب۔
+about-playbook-how-project-governance-content-7 = <governanceLink> ہور ہم ڇکا آسو کدئی انتظام چلائی نی</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس کدا لدو؟
 about-playbook-how-funded-content-1 = کامن وائس موزیلا فاونڈیشن ایک پراجیکٹ ہنو، یو ایس 501 سی3۔ چئین انا پروجیکٹ خلق چنداؤ جا فنڈ دینا، اؤ بوٹی دنیا د خلق دینا۔<philantropicGrantLink>
+about-playbook-how-funded-content-2 = لا ڈیتا سیٹے رݜونو اؤ شایع تھونو لالو پیسے گھٹ نا۔</africaMradiLink><africaMradiLink>
 about-playbook-how-funded-content-3 = تُو کہ تھئی تنظیم آنا پراجیکٹ تے دُوبھاتا تُو اینے ایک لنک سپاربھییلا <donateLink> یا آسئی پارٹنرشپ ٹیم تے ای میل کو بھئیلا۔ commonvoice@mozilla.com</emailFragment>
