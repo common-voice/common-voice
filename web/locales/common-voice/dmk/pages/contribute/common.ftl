@@ -60,12 +60,25 @@ report-other-comment =
     .placeholder = تبصرہ
 success = کݳمݵݳبݵ
 continue = جݳرݵ
+report-success = رپݸٹ کݳمݵݳبِس کݸٹ بِجَلݸ گݵݳ چھݳ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ریکاٹ/ڎَٹ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = دݸبݳرݳ کِلِپرݵکݳٹ ݳِرِنݳ
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = جݳرݵ رݵکݳٹ ارِنݳ فَݽ ااِرِنݳ
+shortcut-submit = واپس ہݸݵنݳ
+shortcut-submit-label = کِلِپݸݣ بِجݳلِنݳ
 
 ## Listen Shortcuts
 
