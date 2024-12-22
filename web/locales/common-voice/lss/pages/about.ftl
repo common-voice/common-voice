@@ -67,6 +67,9 @@ about-playbook-what-is-language-content-3 = کچھ زبانیم REQUEST CONTEXT 
 ## How do I add a language
 
 about-playbook-how-add-language = آن پانچی زبان ڪیئن و جین؟
+about-playbook-how-add-language-content-1 = پھرین ڏس ته توجی REQUEST CONTEXT or REPORT ISSUE زبان <languageLink> موجود ا </languageLink>..اگرنان ته<languageRequestLink> پانچی زبان لا درخواست ڊيي سگي تو ته وا زبان ھو نجا.language</languageRequestLink>. هن جا به اسٽیجا تا ھوجن. ترجمو کرڻ سائت جو بیو جملا جمع کرن .
+about-playbook-how-add-language-translating-heading = سائٽ جو ترجمو ڪرڻ.
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ڏِس اسان جو گائیايڊ تہ گیئن پون تون استعمال تو ڇئ. </translateVideoLink>
 
 ## How does localization work
 
