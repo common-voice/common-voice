@@ -17,3 +17,4 @@ varying-pronunciations-explanation-2 = tor ki sẽdhoydẽ ki joynẽ kuzgẽ ku
 varying-pronunciations-example = vẽdek pokiza ne tu/ vẽdek nomalum tu
 varying-pronunciations-tip-1 = Kẽned̃aẽ Ẽnglizis̃h "rout" "rowt" gok̃ht
 varying-pronunciations-tip-2 = [British Ẽnglish albat "root" gok̃ht]
+offensive-content-explanation = Jũmlavs̃h sẽk jamoatẽ brobar wẽzayn yewrẽn, magam yem tẽriqayi drũst nast. agar kumd jũmlas̃h ki ti qarẽ wũzũmd yoyẽs̃h to bitob gok̃ht - yaniki yas̃h jẽmoate shamuliyatẽ qonũnẽ </participationGuidelines>bẽr khilof wost <participationGuidelines>- miriboni car k̃hẽ toghẽ bot̃an UI istimolTus̃h <emailFragment>commonvoice@mozilla.com</emailFragment> dẽ sak bẽ g̃hat
