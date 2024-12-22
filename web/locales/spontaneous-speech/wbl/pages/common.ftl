@@ -39,6 +39,7 @@ accept-privacy-and-terms = Wuzes̃h kũk̃ht-e owog̃hev   mes̃h itifoq carem.
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
+en = Angreezi
 fr = Fronsisi
 hch = Wixarika
 kzi = Kelabit
