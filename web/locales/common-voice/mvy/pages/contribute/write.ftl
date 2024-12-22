@@ -51,27 +51,27 @@ healthcare = صحت
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون تے حکومت
 # Sentence Domain dropdown option
-language_fundamentals = زبئیں بنیادی څزہ لکہ ہندسی، حرفہ، پیس
+language_fundamentals = زبئیں/ژِباں بنیادی څزہۡ (لکہ ہندسی، حرفہ، پیس)
 # Sentence Domain dropdown option
-media_entertainment = میڈیا تے ناٹ ماٹ
+media_entertainment = میڈیا تے ناٹ پھار
 # Sentence Domain dropdown option
 nature_environment = قدرتی ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبری تے حالات حاضرہ
 # Sentence Domain dropdown option
 technology_robotics = ٹکنالوجی تے روبوٹہ
-sentence-variant-select-label = جُملَیں مُئیت حالت
+sentence-variant-select-label = جُملَیں مُئیت/مُتیۡ حالت
 sentence-variant-select-placeholder = لہجہ خوش کرہ (اختیاری)
-sentence-variant-select-multiple-variants = عام زیب/څئ لہجی.
+sentence-variant-select-multiple-variants = عام ژیب/څئ(چئ) لہجی.
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = بُوۡئ اُکھالہ <icon> </icon>عوامی ڈومین والا جُملی.
-sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ <uploadButton> یا بُوۡئ اُکھالَئیں کراں ٹک کرہ</uploadButton>
+sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ یا<uploadButton>بُوۡئ اُکھالَیں یاں کریا کلِک کرہ</uploadButton>
 sc-bulk-upload-instruction-drop = فائل بُوئی اُکھالئیں کراں ݜلہ ڇھپ کرہ۔
-bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں مل رابطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ݜش فائیلاں بارہ مہ توۡ مُتی گی تفصیلات دینٚت کھئیں تے زاں مل رابطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں ملی بال بنہ<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ݜس فائیلاں بارہ مہ تُوۡ مُتیۡ گی تفصیلات دینٚت/دی تُھو کھیں تے زاں مل رابطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ۔
 try-upload-again-md = فائل گتہ بُوۡئ اُکھالئیں کوشش کرہ
 select-file = فائل خوش کرہ۔
