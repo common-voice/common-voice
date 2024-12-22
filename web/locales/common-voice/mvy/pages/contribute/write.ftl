@@ -1,15 +1,15 @@
 ## WRITE PAGE
 
 write = لِکہ۔
-write-instruction = جمع کرہ <icon> </icon> اک عوامی ڈومین والا جُملہ
-write-page-subtitle = ݜلہ جمع کریل جُملی اک عوامی طور تل موجود سی سی -0 لھیسن والا ڈیٹا سیٹ مل ٹل ہُونٚݜِتی۔
+write-instruction = ایک عوامی ڈومین والا جُملہ <icon> </icon>  اک عوامی ڈومین والا جُملہ
+write-page-subtitle = ݜلہ جمع کریلیۡ جُملی ایک عوامی طور لا/تل موجود cc-0 لھیسن والا ڈیٹا سیٹ مِل ٹل ہوتھی/ ہُونٚݜِتی۔
 sentence =
-    .label = جُملہ۔
-sentence-input-placeholder = ݜلہ عوامی جُملہ مُت خلقوں کراں داخل کرہ۔
-small-batch-sentence-input-placeholder = ݜلہ عوامی جُملہ مُت خلقوں کراں داخل کرہ۔
-citation-input-placeholder = تئیں جُملاں مُنٚڈاں حوالہ دے۔ (لازمی)
+    .label = جُملہ
+sentence-input-placeholder = ݜلہ جُملہ داخل کرہ۔ (عوامی ڈومین والا)
+small-batch-sentence-input-placeholder = ݜلہ جُملی داخل کرہ۔ (عوامی ڈومین والا)
+citation-input-placeholder = تئیں جُملاں مُون٘ڈ پشا.(حوالہ دے)۔ (لازمی)
 citation =
-    .label = حوالہ۔
+    .label = حوالہ
 sc-write-submit-confirm = مہ تصدیق کرانٚت چہ اُو جُملہ <wikipediaLink> عوامی ڈومین والا تھی </wikipediaLink> آں مِگے اس بوئی اکھالئیں یعنی اپلوڈ کرئیں اجازہ تُھو۔
 sc-review-write-title = مہ گھئین جُملی شامِل‌ کرہانٚت؟
 sc-review-small-batch-title = بیکتُوک جُملی گِشے شامل کرانٚتے؟
