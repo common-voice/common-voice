@@ -8,6 +8,10 @@ how-does-it-work-text = کرا کرا ا جیب ٹل تال کیر منون
 
 about-language-req-subtitle = کیرا کیرا ا جیب ٹل تال کیر منون
 about-localization-title = ویب سایٹ لوکلایزیشن
+about-localization-subtitle = ویب ساٹ اے ٹکسٹ اے° ترجمہ اتوں جیب می بیل
+about-sentence-collection-title = جملا سمٹیل
+about-sentence-collection-subtitle = خلق ام  درکِ منیل کیر یجولال سانگیاتاگال این
+about-new-lang-title = نم جیب شورو
 
 ## Community Playbook Content
 ## What is a language
