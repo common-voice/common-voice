@@ -88,6 +88,10 @@ gu-IN = Gujarati Zikes̃h de Pokiston et Hindustan e mukhtalif jayev K̃hanen
 guc = Shumol-Mashriqi Columbia et Shumol-Maghribi Venezuela he Zik
 gya = Cameroon et Markazi Afriqahe Muqomi Zik
 ha = Hausa Zikes̃h the Chad nun Afriqi mulk k̃hanen
+he = Israel e Qaumi Zik. Yemres̃h Ibrani Zik be K̃hanen
+hi = hindustone yi Hind-Aryoyi Zik
+hil = Fillipine (Phillipine) yi Austrnesian Ilaqayi Zik
+hr = Junubi Slavic 'Croatia' he Qaumi Zik
 
 # [/]
 
