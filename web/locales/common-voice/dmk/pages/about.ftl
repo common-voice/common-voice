@@ -134,6 +134,8 @@ about-playbook-how-validate-content-4 = اگَر کݸنِتہ کِلِپَکَہ
 ## How to access dataset
 
 about-playbook-how-access-dataset = ڈݵٹݳ سݵٹݳ شُݸ خݳ کݵ رِݵ دِݽقَلتِنَکُݽ لݵم نݸ اݽݵئ اِستِمݳل اِرَم؟
+about-playbook-how-access-dataset-content-1 = تُمݺ <datasetsPage>ڈݵٹݳ سݵٹݵݣݺ وَرَقݵڎ</datasetsPage> جݳئی شکݵگُچھݸت، اوݳجݵ چھَہ وَرژن نݸ باݽݸݣ سَلگِنݳ نݸ اݵݣ ڈݳݸن لݸڈ اِرݳ! فݳئلݵڎ کݸٹ <metadataLink>خرِٹݳ مݵٹݳ ڈݵٹݳ</metadataLink>، کݸٹ ہݸگݳ چھݳ، کݵہݸئی آبݳدِݵݳتݵ معلُݸماتݸݣ نݸ تݸثݵقݵ ڈݵٹݳ. ڈݵٹݳ سݵٹ ڈݳݸن لݸڈ اِرِنݳئی کݳرݸ تمݺ اݵک اِݵ مݵل پَتَک فراہَم ارݵنݺ ہݸگُت.
+about-playbook-how-access-dataset-content-2 = اَگَر تُمݺ ASR مݳڈݵلݳ دُرݳلنݳئی کݳرݸ ٹݸلز ݼݸق اِرݵگُچھݸت تݳ،  تُمݺ کمݵݸنِٹݵ<discourseLink> اݸرݳ بندݵڎ کݸٹ   لِݽ ہݸئی شکݵگُچھݸت ڈِسکݸرسَس</discourseLink>.
 
 ## How are decisions made
 
