@@ -143,6 +143,11 @@ about-playbook-how-project-governance = پرݸجݵکٹݵ فݵصلݳݣݳ کݵ ر�
 about-playbook-how-project-governance-content-1 = مݸزݵلݳ کݳمَن وݳئس اݵک مقتِلف کَمݵݸنٹݵ کݵ وَجَس مُنکِن ہݸݵݳ چھݳ، کݸنݺ مݳ ہَگݵ خݵݽ چھݺ کَمݸنݺ، باݽݵݣݺ مݳہِرݳ، ڈݵٹݳئی سݳئنسدݳنݳ، تحقݵق اِرݵݣݺ اݵݣ نݸ سݳفٹ ݸݵئر انݵنئرݳ دُنݵݳ ٹݸکَنݸ کݸٹ چھݺ. اݽݵئی منصݸبَئی نِگِرݳنݵ مݸزݵلݳ فݳݸنڈݵشن نَݳ ارݵگݵ چھݵ.
 about-playbook-how-project-governance-content-2 = امݳ اڎݵمݸ دݵکھِنݳ اݽݵݣ ڈَکݵڎ قائم چھݳ:
 about-playbook-how-project-governance-content-3 = چَپَنݳ تݵئنݳ، حفݳظَتکُݽ نݸ سِسنُمکُݽ.
+about-playbook-how-project-governance-content-4 = کَمݵُنِٹݵ حصہدݳرݵکُݽ نݸ فݵصلݳݣݳ اِرِنݳ.
+about-playbook-how-project-governance-content-5 = قََرد نݸ مݳن اِرِنݳ.
+about-playbook-how-project-governance-content-6 = گٹݵنݸ حِسݳبکِتݳبکُݽ.
+about-playbook-how-project-governance-content-7 = <governanceLink> مزݵد منِنݳ تݳ امݺ کݵ رِݵ اِسِلݸ جݳم چھݸم</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کݳمَن وݳئس سَشُݸ کݵ ہݸئی رݸپݺ لݵݸ جݳݣݺ چھݺ؟
