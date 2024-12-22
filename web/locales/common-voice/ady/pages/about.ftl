@@ -5,6 +5,7 @@ how-does-it-work-title-v2 = Комон Войс сыдэущтэу мэлажь�
 
 ## How does it work section
 
+about-language-req-subtitle = Нэбгырэ горэ бзэ хэгъэхъонымкӏэ упчӏагъ.
 about-localization-title = Вебсайт чӏыпӏэзэгъэуӏупӏэ
 about-sentence-collection-title = Гущыӏэухыгъэ угъоигъ
 about-new-lang-title = Бзэ кӏэ горэ итӏупщхь
@@ -23,6 +24,7 @@ about-stay-in-touch-button = Зыхатх
 about-nav-why-common-voice = Сыд пае?
 about-nav-how-it-works = Сыдэущтэу?
 about-nav-partners = Ӏэхьагъухэр
+about-nav-how-it-works-2 = Комон Войс сыдэущтэу мэлажьа?
 
 ## Community Playbook Content
 ## What is a language
