@@ -100,3 +100,6 @@ shortcut-vote-no = n
 contribution-criteria-nav = کرݳئٹݵرݵݳ
 contribution-criteria-link = حِصَہ بݳنݳئی کرݳئٹݵرِݵݳ ݵَنݳ بݳ
 contribution-criteria-page-title = حِصَہ بݳنݳئی کرݳئٹݵرݵݳ
+contribution-criteria-page-description = چھَتݵئ کِلِپݳ پݸرجِنݺ تُمݺ کِسݵک چݵز دݵکھِنݳ اݸݳجݵ نݸ اپنݵئ چھتݵئ ریکݳڈِݣ شݳ رِنݳئی کݳرݸ کِسݵک مدد مِلݳ ہݸئی شکݵگِچھݵ!
+contribution-for-example = مثݳلݵئ کݳرݸ
+contribution-misreadings-title = غلَط مُنݵنݳ
