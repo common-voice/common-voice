@@ -31,9 +31,23 @@ target-segment-generic-card = تُمݺ اݵک ہَدَفݵئ طبقݳکِشُݸ 
 target-segment-first-banner = کݳمَن وݳئسݵئی ݵرکمݳسݵئ ہَدَفݵئ طَبقَنݳ{ $locale } درݳلنَنݳ مدَد اِرݳ
 target-segment-add-voice = اپنݵئ چھݸت کݸٹ اِرݳ
 target-segment-learn-more = مزݵد چھِچݳ
+change-preferences = تَرجݵحݳت بَدَل اِرݳ
+login-signup = لݳگ اِن/سݳئن اَپ
+vote-yes = اَوݳ
+vote-no = نِکݶ
+datasets = ڈݵٹݳسݵٹݴ
+languages = بݳݽݸݣ
+about = ہݵیݵئ بݳرݳنݳ
+partner = کݸٹݸ کمݸنݺ
+submit-form-action = بِجݳلِنݳ
 
 ## Reporting
 
+report = رِپݸٹ
+report-title = رپݸٹ بِجݳلِنݳ
+report-ask = تݸ اݽݵݣ جملݵڎ کݸٹ کݸنݺ مسلݵݣݺ تجربݳ رݺ چھݳئی؟
+report-offensive-language = تݸہݵن آمݵز بݳݽ
+report-offensive-language-detail = جملݳنݳ بݵ اَدَپݵ ݵݳ تݸہݵن آمݵز بݳݽ چھݵ.
 
 ## Speak & Listen Shortcuts
 
