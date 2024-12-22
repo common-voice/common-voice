@@ -7,9 +7,13 @@ demo-welcome-subheader = دی پا جانی۔وش این۔۔۔تے پراجیک�
 ## Demo Datasets
 
 card-button-next = دی
+card-button-back = پتا تہ
+demo-eofy-sub_header = وایس ڈیٹا سیٹ،ڈاون لوڈتال کیرتیار این
+demo-account = حیساب
 
 ## Demo Account
 
+demo-account-card-header = ۔ساین اپلل لنکلاڑیل کیر ای میل  دہ
 
 ## Demo Contribute
 
