@@ -111,6 +111,9 @@ jv = Indonesia he yi lup Iloqoyi Zik
 ka = 'Georgia' he Qawmi Zik
 kaa = Qaraqalpak i yi Turi Zike S̃holkh
 kab = Kabyle hi De Algeria Berber Qawmiyate Zik
+kbd = De Russian Federation e dest Kabardian i yi nopaid wocne Zik
+ki = De Keya Gikuyu Qawmiyate Zikres̃h Kikuyu k̃hanen
+kk = Kazakhistone sarkori Zik, Yi Turki Zike S̃holkhi
 
 # [/]
 
