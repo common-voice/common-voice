@@ -24,30 +24,28 @@ new-sentence-rule-8 = سئیں جُملی استعمال کری چےۡ سئیں 
 login-instruction-multiple-sentences = <loginLink>کُھنی لن٘گھی (لاگ اِن) </loginLink>یا <loginLink>اماں ٹل (سائن اپ) کرہ </loginLink>  توۡ بیکتُوک جُملی شامل کرہاں۔
 how-to-cite = مہ حوالہ گِشے دم؟
 how-to-cite-explanation-bold = کماں پُور ناں یا یو آر ایل لنک ہِن حوالہ دے۔
-how-to-cite-explanation = اگر کہ ائیں تئیں تاں لفظہ تھے کھئیں تے منہ <italicizedText> تاں حوالہ</italicizedText>۔ بے ݜس تل اماں پورزئیں لکھانٚتے چہ ائیں بلی تئیں گُلاں آڅھے تے چہ بے تس عوامی ڈومین مہ چیک کرج آں امان پورزیج چہ الہ گی کاپی رائیٹ پابندیہ نی تھی۔ حوالہ جاتوں حوالہ ہِن مُتی تفصیل معلوم کرئیں کراں <guidelinesLink>ہدایاتوں صفحہ تل ٹک کری </guidelinesLink>
-guidelines = ہدایات
+how-to-cite-explanation = اگر کہ ائیں تیں تاں لفظہ تھے/تھو کھیں تے لِکہ <italicizedText> امئیں</italicizedText>۔ بے ݜسی لا/تل اماں پورزئیں/پورژؤں لکھانٚتے/لُکِھگ تھو چےۡ ائیں بلی تُوں گُلاں آڅھے/چھے تے چےۡ بےۡ ݜس عوامی ڈومین مہ چیک کرج/کرِگ آں امان پورزیج/پورژاگ چےۡ الہ کاپی رائیٹ پابندی نی تھی۔ حوالہ جاتوں حوالہ ہِن مُتی تفصیل معلوم کرئیں یاں کریا زاں <guidelinesLink> ہدایاتواں صفحہ لا/تل ٹک کری </guidelinesLink>
+guidelines = پان٘د پشائ (ہدایات)
 contact-us = زاں مل رابطہ کری
 add-sentence-success = اک جُملہ جمع ہُونٚتھی۔
-add-sentence-error = غلطی جمع کرئیں والا جُملہ
+add-sentence-error = جُملہ جمع کرَیں مہ غلطی ایگے
 required-field = ݜس زائے پوری
-single-sentence-submission = اک جُملہ جمع کروں
-small-batch-sentence-submission = کم جُملیوں اک سٹ جمع کرؤں
-bulk-sentence-submission = څئ جُملی اکزائے جمع کرؤں
-single-sentence = چلوں
-small-batch-sentence = لکھ لکھ سیٹ
+single-sentence-submission = ایک جُملہ جمع کرؤں
+small-batch-sentence-submission = کم جُملی وَیں بٹُو جَمع کرؤں
+bulk-sentence-submission = څئ/چئ جُملی ایگٹھی جمع کرؤں
+single-sentence = کیالی/چلوں
+small-batch-sentence = جُملی وَیں لیکھیۡ بٹُو (سیٹ)
 bulk-sentence = گھوں سیٹ
-sentence-domain-combobox-label = جُملیوں ڈومین
-sentence-domain-select-placeholder = ڇا ڈومینوں ہار توۡ انتخاب کرہانٚت (اختیاری)
+sentence-domain-combobox-label = جُملی وَیں ڈومین
+sentence-domain-select-placeholder = ڇا ڈومینوں ہاریۡ توۡ انتخاب کرہانٚت/کرہَیں تُھو (اختیاری)
 # Sentence Domain dropdown option
-agriculture_food = خوراک تے ذراعت
+agriculture_food = خوراک تے زراعت
 # Sentence Domain dropdown option
-automotive_transport = گاڑی تے مشنہ
+finance = حساب کتاب/پَیس
 # Sentence Domain dropdown option
-finance = حساب کتاب
+service_retail = خدمت تے پرچون (دُکانداری)
 # Sentence Domain dropdown option
-service_retail = خدمت تے پرچون
-# Sentence Domain dropdown option
-general = عام۔
+general = عام
 # Sentence Domain dropdown option
 healthcare = صحت
 # Sentence Domain dropdown option
