@@ -26,3 +26,16 @@ validated-hours = گیٹا باڑ تھایل۔
 recorded-hours = ریکاڈنگ ای گینٹا۔
 whats-inside = عام صوتی ڈیٹا سیٹ شی لینگال
 subscribe = سبسکرایب
+get-started-speech = تقریر جانیل جانی شرو تھ۔
+other-datasets = دی صوتی ڈیٹا سیٹ۔
+feedback-q = رائے این۔
+# This indicates that there is no data to display
+no-information = گیب معلوم نان۔
+community-playbook = درام پلے بک
+go-discourse = شاعری تھ یا۔
+go-languages-page = جب اؘ پات تھ چا۔
+ready-to-validate = سزا باڑ تھال می مدد تھا۔
+more = دی۔
+close = بان۔
+download = ڈاون لوڈ۔
+dataset-version = ورجن۔
