@@ -136,3 +136,5 @@ contribution-background-noise-description-extended = اَگَر رݵکݳڈݵݣ �
 contribution-background-noise-example-1-fixed-title = <strong>[چھِݵکݳ] </strong>ٹرݳݵݳسکݵئ زمݳنئی </strong>قرݳبِڈِݣ ڈݳݵنݳسݸر. </strong> [خݹسݳ]
 contribution-background-noise-example-2-fixed-title = قِݣ مقِݣ ڈݳئنݸ <strong> [خݹسݳ] </strong> ٹرݵݳسِک.
 contribution-background-noise-example-2-explanation = [گِرمِنݳݵݳئی ترݣݵک حِصَہ نݵ پݸرجݸ جݳگݳچھݳ]
+contribution-background-noise-example-3-fixed-title = <strong>[تقݸݣ]</strong>قِݣ مَقِݣ <strong>[تقݸݣ] </strong> ـرݵݳسِک.
+contribution-background-voices-title = پَچِپَڎِݵݸ چھَتݳ
