@@ -51,3 +51,4 @@ public-domain = Mẽrdũme D̃omen
 citing-sentences = Jumla hẽwola/ zẽrya
 adding-sentences = Jumlav qẽti k̃hak
 reviewing-sentences = Jumlavẽ dẽdeg̃hik
+sentence-domain = Jũmlaẽ had/makhso d̃omen (domain)
