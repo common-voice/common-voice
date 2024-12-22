@@ -8,6 +8,9 @@ why-spontaneous-speech = ایمو اینہ اہڈگݩہ ولستہ اول نمو
 why-card-1-text = خالص ولہستہ متن کہ <mark>مفید اسہ۔</mark> او کیسسز استعمال کشیعں۔( کائ لتہ تقریرہ شناخت کولہ بیش با اکی منچاں مع کودیوم کشی چہ امکی آزاد ولہ بلہ بیبا)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ورے ستہ حقیقت دیوکہ بہتر ور ور ورے اہ سورہ پیمچ تعاون دے<mark> ور ور ورے سنہ تے</mark> ولستہ
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = امکی ورے ستہ بہتر تعاون امکیاں تہ استعمال کوستہ کہ اچاک یا <mark> ٹیکسٹ کارپس </mark> استعمال نہ اسہ (مثال کہ معاشرہ، متغیرات، تاریخی یا نہ ستوئی وا وری)
+how-spontaneous-speech-works = اڈگں (یا چیتہ) تقریر کائ کہ کودیوم کوتہ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامٹ</mark>
 prompt-bubble-subtitle = ایمو تو و عوںموپرامٹ یا سوال
@@ -24,6 +27,7 @@ check-bubble-subtitle = تیو اینہ ایشکوچی چہ ایا ٹرانسک�
 data-bubble-title = <mark>ڈیٹا</mark>
 data-bubble-subtitle = ڈیٹا سیٹ جاری کشی
 contact-us = ایمو مع رابطہ کشی
+contact-us-title = اینہ پراجیکٹ تہ سنہ ستہ شتان کوچہ یا ایمو مع پلئ  بوستہ شتان کوچی؟
 contact-us-email = ای میل<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = ای میل اتیوݩشی
 signup-button-value = ایستہ ایم میل تہ لنک سمہ
