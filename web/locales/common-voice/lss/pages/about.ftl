@@ -136,6 +136,7 @@ about-playbook-how-validate-content-4 =
 ## How to access dataset
 
 about-playbook-how-access-dataset = آن ڊیٽا سيٽ تائین کیئن پڄِي سڳي تو ٻيو هنک ڪيئا استعمال ڪري سڳی تو؟
+about-playbook-how-access-dataset-content-1 = تو وني سِڳي تو ڊيٽا سيٺ جي پيج ام، سيليڪٽ ڪر زبانیون پیو نمونا جیکی تون چائیں تو، بیو داؤ ن لوڊ ڪ ر فا ئیلیم هوندا میں دیتا جی دیمو گرافی معلومات بیو ویلی دیشن جو دیتا توک هکر و ای میل ایڈریس ڈیتر پوند داؤ لود کرن لا دیتا سینک .
 
 ## How are decisions made
 
