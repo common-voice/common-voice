@@ -32,3 +32,6 @@ misreadings-example-4 = Dhus tizig̃hẽ mes̃h shekhẽstẽ.
 misreadings-tip-1 = [ “sakẽn” wocẽn awaji/ sẽpo wocni baf]
 misreadings-tip-2 = [‘a’ dẽ asẽl nivishtk nast]
 misreadings-tip-3 = [mẽwodi yi sokht nast]
+background-noise-explanation = tawri rikording har lavz kẽs̃hũy dẽrkor. sakẽs̃h zoqẽn ki mashin yek̃hk wocnẽ algorithm loyiq wost ki tẽr cẽbas qism qisme shurvẽ didig̃hd, woz z̃aq bẽlandẽt shov owozẽ qẽbũl cart, agar ki yashtẽs̃h pẽtun jũmla k̃es̃hũynẽr qila ne wocẽn, zhẽraq z̃hẽraq woz rẽseng klipisht ki tor qila wocẽn yo mani yem ki kipẽ rad car.
+background-noise-example-1 = T̃riassikẽ borzẽngi rang d̃inosaurs
+background-noise-example-2 = [shẽtref] [qokẽn] Borzẽngi rang D̃aynosour
