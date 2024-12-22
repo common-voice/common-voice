@@ -54,3 +54,4 @@ reviewing-sentences = Jumlavẽ dẽdeg̃hik
 sentence-domain = Jũmlaẽ had/makhso d̃omen (domain)
 public-domain-explanation-1 = Yemi gha zẽrũri ki tẽmon nivishet jumlavev mẽrdũme makso <publicDomain></publicDomain> (<cc0>cc</cc0>) cergeve ki Kommon Voyse d̃at̃aset dẽ yi cc0 sanadẽ dest k̃het. agar tori ki yaqin tey yi jũmal uplowd̃ car, woz hamishat mutaliqa hawola rand.
 public-domain-explanation-3 = k̃hat yoy dẽ k̃hũ dustvẽn yoy zikẽ kommuniti mẽs̃h jadid qẽsaẽ jumlave gok̃hit - yanike write-a-thon sẽbabẽn
+public-domain-explanation-4 = nẽvishnẽ kũzgvẽn robita, drama nigor yoy screen nevishnẽkũzg  k̃hẽ yavẽ pers, yashtẽs̃h ki zoqẽn k̃hũ caq yarkẽ  hẽr mẽrdumẽ bakhs̃h/ehata kat̃en

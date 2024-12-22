@@ -106,6 +106,11 @@ is = 'Iceland' e Qawmi Zik
 it = 'Italy' he qawmi Zik
 izh = 'Izhoric' Ziki Ural e Iloqa Finland e yi Guruhi Zik
 ja = Jopone Qawmi Zik
+jbo = Lojban i yi mantiqi Oson Graimar e Zik. Yem masnuee Zike Khaliq Andrew Kelley tu.
+jv = Indonesia he yi lup Iloqoyi Zik
+ka = 'Georgia' he Qawmi Zik
+kaa = Qaraqalpak i yi Turi Zike S̃holkh
+kab = Kabyle hi De Algeria Berber Qawmiyate Zik
 
 # [/]
 
