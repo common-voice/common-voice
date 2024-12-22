@@ -27,7 +27,10 @@ share-title-new = <bold> امݷچُݸ</bold> بݸت چھَتݳ ݼݸق اِرِن
 keep-track-profile = اَپَنݵئ ہگݵ جݳݽ ہݸئنݳئی ریکݳٹ تھݵنݳئی کݳرݸ اݵکہ پرݸفݳئلَکہ دُرݳلݳ.
 login-to-get-started = لݳگ اِن اِرݳ ݵݳ شُرݸع رِنݳئی کݳرݸ سݳئن اَپ ارݳ
 target-segment-first-card = تُمݺ امݳ ݵرکمݳسݵئ ہَدَفݵئ طَبقَنَہ حِصَہ بݳگُچھݸت
-target-segment-generic-card = تُݸ اݵکہ سَلگِنِنے مُشِکِشُو حِصہ بݳ چھݳئی
+target-segment-generic-card = تُمݺ اݵک ہَدَفݵئ طبقݳکِشُݸ حِصَہ بݳگُچھݸت
+target-segment-first-banner = کݳمَن وݳئسݵئی ݵرکمݳسݵئ ہَدَفݵئ طَبقَنݳ{ $locale } درݳلنَنݳ مدَد اِرݳ
+target-segment-add-voice = اپنݵئ چھݸت کݸٹ اِرݳ
+target-segment-learn-more = مزݵد چھِچݳ
 
 ## Reporting
 
