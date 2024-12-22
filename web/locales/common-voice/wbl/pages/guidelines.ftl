@@ -13,3 +13,6 @@ reader-effects = Joynẽkũzgvẽ Asar
 just-unsure = sirf gheyr yẽqini
 example = misol
 varying-pronunciations-explanation-1 = har qisme lehjarẽs̃h khũshomẽdin k̃hanẽn! tor ki sedhoydẽ ki joynekũzge ghẽlat joyetk kumd kelipe rad k̃hakẽr ityot car. tẽnawi sẽk ghẽlat jay, yoyeve owqofẽv rẽmũs̃htk. dẽ pẽtũn dẽnyoyi ghafch qisme hijayisht. yisarẽt nivẽr dẽ k̃hu zik ne kẽs̃hẽn. miriboni car k̃hẽ yave k̃hũ pẽzũve het̃ lecẽr k̃he sẽtow
+varying-pronunciations-explanation-2 = tor ki sẽdhoydẽ ki joynẽ kuzgẽ kumd harf tag ne winetk, wozẽs̃h telafuzẽs̃h ghelat ẽndoza cart, miriboni car k̃hẽ rad car agar ki tori yaqin nast, shekhsnẽ mẽrwotẽ pakhch.
+varying-pronunciations-example = vẽdek pokiza ne tu/ vẽdek nomalum tu
+varying-pronunciations-tip-1 = Kẽned̃aẽ Ẽnglizis̃h "rout" "rowt" gok̃ht
