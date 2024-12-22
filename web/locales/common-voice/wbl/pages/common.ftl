@@ -118,6 +118,10 @@ kln = Kalenjin i yi Afriqi Sahara he Zik
 km = Khmer Zikes̃h de Junub Mashriqi Asia, Cambodia, Vietnam, Thailand woz digar mulkev k̃hanen
 kmr = Kurmanji i yi Kurdi Zik kumdes̃hki de Shumali Iraq; Turki; Shaam (Syria) woz Shumal-Mashriqi et Shumal Maghribi Iron K̃hanen
 kn = Kannada Zikes̃h the Hindustone Karnataka Iloqa K̃hanen
+knn = Knokani Zikres̃h Devanagari be K̃hanen. Yem Ziki be de Hindutone Mulk
+ko = Korea he Sarkori Zik
+kpv = komi Zyrian i De Russ yi Iloqoyi Zik
+ksf = Bafia Zikes̃h de Cameroon e Mbam e S̃hang K̃hanen
 
 # [/]
 
