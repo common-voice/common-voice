@@ -292,3 +292,6 @@ donate-banner-cta = <mark>آسو تے تھئی مددتے ضفرورت ہنی۔ 
 donate-banner-cta-explanation = سو جیبو زیات ڈیٹا سیٹ راݜونو کالے ملیئن ڈالر گھڑ تونو۔ لی جیبو خلخک آسو جا انحصار تا۔ <strong>۔ تُو عام ڈیٹا قدر تھیلا ایتے اے۔ </strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark> تمو تحقیق کارا سی وی استعمال تا۔ </mark>
+languages-donate-banner-cta-explanation = کامن وائس خلکو چندؤ آجاں فنڈ جمع بینو۔ آسو استزاو، پروفیسرو عام خلقو شراکت تھونا۔ کامن وائس استعمال تھون در فری ہینو۔ آنا دے پلیٹ فارم پروپوزل لیکونو مددگار ہنو۔
+localization-select =
+    .label = ایک جیبو ترجمائی کارا منتخب کارا۔
