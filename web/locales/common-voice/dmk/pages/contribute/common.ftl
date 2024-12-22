@@ -79,9 +79,24 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = جݳرݵ رݵکݳٹ ارِنݳ فَݽ ااِرِنݳ
 shortcut-submit = واپس ہݸݵنݳ
 shortcut-submit-label = کِلِپݸݣ بِجݳلِنݳ
+request-language-text = کݵچݸق تُمݳ بݳݽ مݸتُشُݸ خݳ کݳمَن وݳئسَس نِݵ دِکھِلݸگݵ چھِݵݺ؟
+request-language-button = بݳݽݵئ بُݵَت اِرݳ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ہَنݳ/ڎَٹ اِرݳ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = کرݳئٹݵرݵݳ
+contribution-criteria-link = حِصَہ بݳنݳئی کرݳئٹݵرِݵݳ ݵَنݳ بݳ
+contribution-criteria-page-title = حِصَہ بݳنݳئی کرݳئٹݵرݵݳ
