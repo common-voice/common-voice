@@ -89,6 +89,7 @@ about-playbook-how-localize-content-5 = اسانجو ویڈیو ایکسپلین
 
 about-playbook-how-add-sentences = آن جملا ڪيئن وجين؟
 about-playbook-how-add-sentences-content-1 = تو وجي سگي تو جملا يا لکي سگي تو يا ريويو ڪري سگي تو.
+about-playbook-how-add-sentences-content-2 = جملا ریویو ڇڻ کپن ٻيو قبول ڇڻ کین ٻا ماڻھي وٽان تا   ڪومن وائس م وجي سڳجن. تون بنائی سڳي تو گائیڈ لائنز پانچی زبان لا. جملا هونجن ۱۵ نان ڪم لفظي جا. تو هُنا مواد جي مالک نان CC ڪرڻ لا درخواست ڏيي سڳي تو ویور پروسس جي ذريعي ٻیو موڪلي سگي تو قومن وائس جي اي ميلت.
 
 ## How to record quality
 
