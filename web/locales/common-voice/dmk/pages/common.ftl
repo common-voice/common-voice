@@ -265,6 +265,12 @@ terms = شَرطݸݣ
 cookies = کݸکݵز
 faq = FAQ
 content-license-text = اݽݵئی مݸݳد کرݵݵٹݸ کݳمنز لݳئسنس</licenseLink> سَس منݵنݵ<licenseLink> دستݵݳب چھݳ
+share-title = امݵچݸ اݸرݺ اپَنݵئ چھݸت چِپݵ دݵنݳئی کݳرݸ گݸشِنݺ بلݸ مَدَد اِرݳ!
+share-text = مشݵنݵڎ اݽݵئ چھچݳلِنݺ بلݸ مَدَد اِرݳ تݳ بَندَن ݼنݺ زندگݵ نݳ کݵ رݵ چغݳ رݵݣݺ چھݺ. اݽتھݳ اَپَنݵئ چھݸت چِپِݵ دݸ{ $link }
+link-copied = لِنک کݸپݵڈ
+back-top = وݳپس اڎݵ مُشݳشݸ جݸ
+logout = لݸگ آݸٹ
+donate = چِپݵ دݸ
 
 ## Donate banner
 
