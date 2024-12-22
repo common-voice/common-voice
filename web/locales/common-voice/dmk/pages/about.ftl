@@ -140,6 +140,9 @@ about-playbook-how-access-dataset-content-2 = اَگَر تُمݺ ASR مݳڈݵل
 ## How are decisions made
 
 about-playbook-how-project-governance = پرݸجݵکٹݵ فݵصلݳݣݳ کݵ رِی اِرݸ جݳݣݺ چھݺ؟
+about-playbook-how-project-governance-content-1 = مݸزݵلݳ کݳمَن وݳئس اݵک مقتِلف کَمݵݸنٹݵ کݵ وَجَس مُنکِن ہݸݵݳ چھݳ، کݸنݺ مݳ ہَگݵ خݵݽ چھݺ کَمݸنݺ، باݽݵݣݺ مݳہِرݳ، ڈݵٹݳئی سݳئنسدݳنݳ، تحقݵق اِرݵݣݺ اݵݣ نݸ سݳفٹ ݸݵئر انݵنئرݳ دُنݵݳ ٹݸکَنݸ کݸٹ چھݺ. اݽݵئی منصݸبَئی نِگِرݳنݵ مݸزݵلݳ فݳݸنڈݵشن نَݳ ارݵگݵ چھݵ.
+about-playbook-how-project-governance-content-2 = امݳ اڎݵمݸ دݵکھِنݳ اݽݵݣ ڈَکݵڎ قائم چھݳ:
+about-playbook-how-project-governance-content-3 = چَپَنݳ تݵئنݳ، حفݳظَتکُݽ نݸ سِسنُمکُݽ.
 
 ## How is Common Voice funded
 
