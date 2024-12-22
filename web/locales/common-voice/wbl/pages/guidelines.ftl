@@ -12,3 +12,4 @@ volume = Hũjẽm
 reader-effects = Joynẽkũzgvẽ Asar
 just-unsure = sirf gheyr yẽqini
 example = misol
+varying-pronunciations-explanation-1 = har qisme lehjarẽs̃h khũshomẽdin k̃hanẽn! tor ki sedhoydẽ ki joynekũzge ghẽlat joyetk kumd kelipe rad k̃hakẽr ityot car. tẽnawi sẽk ghẽlat jay, yoyeve owqofẽv rẽmũs̃htk. dẽ pẽtũn dẽnyoyi ghafch qisme hijayisht. yisarẽt nivẽr dẽ k̃hu zik ne kẽs̃hẽn. miriboni car k̃hẽ yave k̃hũ pẽzũve het̃ lecẽr k̃he sẽtow
