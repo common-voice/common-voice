@@ -6,6 +6,8 @@ wall-of-text = عام کوٹ (کامنوائس) یا چیتہ ، نہ ستوری
 why-spontaneous-speech = ایمو اینہ اہڈگݩہ ولستہ اول نمونہ (پروٹو تائپ) کا ایپئسہ
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = خالص ولہستہ متن کہ <mark>مفید اسہ۔</mark> او کیسسز استعمال کشیعں۔( کائ لتہ تقریرہ شناخت کولہ بیش با اکی منچاں مع کودیوم کشی چہ امکی آزاد ولہ بلہ بیبا)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = ورے ستہ حقیقت دیوکہ بہتر ور ور ورے اہ سورہ پیمچ تعاون دے<mark> ور ور ورے سنہ تے</mark> ولستہ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامٹ</mark>
 prompt-bubble-subtitle = ایمو تو و عوںموپرامٹ یا سوال
