@@ -293,3 +293,5 @@ donate-banner-cta-explanation = اݽݵئ ڈݵٹݳ سݵٹݵݣݺ مݵزبݳنݵ ر
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark> CV اِستِمݳل اِرِنݳ</mark><br/><mark> تُمݳ گݸشِنݳئی کݳرݸ؟</mark>
 languages-donate-banner-cta-explanation = کݳمَنوݳئس چِپݵ دݵنݳ نݸ گرݳنٹݵڎ مݸ فنڈڈ چھݳ! اَمݺ چُݸ تعلݵمݵئ اِدݳرݳݣݳ، سݸل سݸسݳئٹݵ نݸ صنعتݵئ تحقیق ارݵݣݺ اݣݵڎ کݸٹ تعݳݸن اِرِنݳ بݸت پَسَن چھݳ۔ کݳمَن وݳئس استمݳلݵئ کݳرݸ چپݵ چھݳ، لݵکن پلݵٹفام نݸ ہݸسٹݣݵئ خرچݵمݳ تعݳݸن اِرِنݳئی کݳرݸ گرݳنٹݵئ تجݸݵز دݵنݳ ݼَنݺ مدد گݳر ثݳبِت ہݸگݳ چھݳ.
+localization-select =
+    .label = باݽݵئ / لݸکلݳئزݵشن دِسقَٹݳرݳ
