@@ -120,3 +120,4 @@ contribution-misreadings-example-5-title = امݺ کݸفݵ پݵنَشݸ بݳر �
 contribution-misreadings-example-6-title = امݺ کݸفݵ پݵنَشݸ بݳر جݳم چھݸم.
 contribution-misreadings-example-6-explanation = ["We are" ہݸئنݳ ݳݸݳجݵ]
 contribution-misreadings-example-7-title = امݺ کݸفݵ پݵنَشݸ بݳر جݳم چھݸم.
+contribution-misreadings-example-7-explanation = [اَصَلݵ گرمِنݳݵَنݳ 'a' نݳ]
