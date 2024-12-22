@@ -288,3 +288,7 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> امݵچُݸ تُمݳ</mark> مدد</mark><br/><mark> اوݳجݵ
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = اݽݵئ ڈݵٹݳ سݵٹݵݣݺ مݵزبݳنݵ رِنݳشُݸ نݸ 100+ بݳݽݵݣݺ کَمݵُنٹݵزݵݣݺ کݳرݸ پلݵٹ فام شݳ رِنݳئی کݳرݸ دݵنݳݸہ اݵک ملئن ڈݳلرݵݣݺ لݳگت آگݵ چھݵ کݸنݺ امݳ کمݵڎ انحصݳر ارݵݣݺ چھݺ. <strong>اگَر تُمݺ کھُلݳ نݸ کھُٹݳ ڈݵٹݳئی اہمِݵت ݵَنݳ بݳگُݸ چھݸت تݳ تݸ اݸچݺ اݵ چِپݵ دݸ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> CV اِستِمݳل اِرِنݳ</mark><br/><mark> تُمݳ گݸشِنݳئی کݳرݸ؟</mark>
