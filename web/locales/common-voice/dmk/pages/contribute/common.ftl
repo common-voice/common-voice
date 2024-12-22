@@ -103,3 +103,4 @@ contribution-criteria-page-title = حِصَہ بݳنݳئی کرݳئٹݵرݵݳ
 contribution-criteria-page-description = چھَتݵئ کِلِپݳ پݸرجِنݺ تُمݺ کِسݵک چݵز دݵکھِنݳ اݸݳجݵ نݸ اپنݵئ چھتݵئ ریکݳڈِݣ شݳ رِنݳئی کݳرݸ کِسݵک مدد مِلݳ ہݸئی شکݵگِچھݵ!
 contribution-for-example = مثݳلݵئ کݳرݸ
 contribution-misreadings-title = غلَط مُنݵنݳ
+contribution-misreadings-description = کبݺ پݸرجݵگُچھݸت، تݸ اݽݵئ بݸت ہݸشَس چݵک اِرِݳ تݳ کݸنݸتݳ ریکݳٹ اِرݸ گݵݳ چھَتݳ، ہݵئ بِرکُل ہݵئ ݳݵ ہݸ کݸنݸ گرمنݸ گݵݳ چھݳکݳ؛ اگَر مݳمݸلݵ غلطݵ ہݸئݵ چھݵ تݸ ہݵئ مُستَرَد اِرݳ. <br />بݸت عام غلطݵ مݳ کݸٹ چھݳ:
