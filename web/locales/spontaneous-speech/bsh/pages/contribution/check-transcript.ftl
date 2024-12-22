@@ -10,6 +10,7 @@ vote-transcript-error = ٹرانکرپشن تصدیق کو تا تاوں اہ خ
 transcript-edited-success = ٹرانسکرپشن کامیابی مع سنہیہ
 transcript-edited-error = ٹرانکرپشن تصدیق کو تا تاوں اہ خرابی پمیوک ایا
 error-fetching-transcriptions = ٹرانسکرپشن کوتہ تاوں کائ غلطی اسہ ۔ مہربانی کہ تے دبارہ ابل کشی۔
+transcript-skipped-success = ٹرنسکرپٹ کامیابی مع سکیپ با
 transcript-skipped-error = ٹرنسکرپشن اتلا تݩ تہ اہ خرابی خرابی ولو آئی سہ
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = ݜٹل
