@@ -4,6 +4,8 @@ welcome-to-spontaneous-speech = خودبخود ولستہ تہ پادگو بول
 # <br></br> represents a newline break
 wall-of-text = عام کوٹ (کامنوائس) یا چیتہ ، نہ ستوریاں ولہستہ ستہ اہ پلِٹ فارم ایپاتہ ۔ اینہ تہ ستݩع کمیونٹے نوݜٹہ سکال ڈیٹا حاصل کوستہ تہ مدد ملا بولا او ستمع ارگں ارگں اینہ ڈِیٹا سائنسدان دے ڈولپرہ دیوکہ فائدہ مند ثابت بولہ۔
 why-spontaneous-speech = ایمو اینہ اہڈگݩہ ولستہ اول نمونہ (پروٹو تائپ) کا ایپئسہ
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = خالص ولہستہ متن کہ <mark>مفید اسہ۔</mark> او کیسسز استعمال کشیعں۔( کائ لتہ تقریرہ شناخت کولہ بیش با اکی منچاں مع کودیوم کشی چہ امکی آزاد ولہ بلہ بیبا)
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامٹ</mark>
 prompt-bubble-subtitle = ایمو تو و عوںموپرامٹ یا سوال
