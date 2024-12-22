@@ -129,9 +129,11 @@ about-playbook-how-validate = اُݸ کݵ رِݵ ݵنݳ بݳئی شکݳس کِہ
 about-playbook-how-validate-content-1 = اَگَر تمݺ <strong>انݣݵڎ پݸرجݵ<strong> شکݵگُچھݸت </strong> نݸ <strong> ݵَنݳ بݳئی شکݵگُچھݸت </strong> ، تݸ اشݵنݳ <strong> مَنظُݸر اِرِنݳ بݸت شݳ ہݸگݳ چھݳ</strong>.
 about-playbook-how-validate-content-2 = <strong>اشݵݣݳ کِلِپݳ مُستَرَد نݵ رݳ کݳجݵک بݳشݵگݳ ہݵیݵئ لہجَہ تُمݳ اَپَنݵئی</strong> لہجَس مݸ مُقتَلِپ ہݸ. اݽݵئ بُٹݵݣݺ کݳرݸ چھتݵئ دݽݳرِنݳ شݳ رِنݳئی کݳرݸ اہم چھݳ.
 about-playbook-how-validate-content-3 = اَگَر تمݵچݸ اَشݵ دکھلݸنݳتݳ تَلَفُظݵئ ݸجَس<strong> اݵݣݵڎ ݵنݳ بݳنݳ</strong> نݳمُنکِن چھݳ، ݵݳ پَچݵپَڎݵ <strong>بُݸت شݸر</strong> چھݳ، ݵݳ <strong>اݸرݳ بَندَن بݳشݵݣݺ چھݺ</strong>، تݸ تمݺ کِلِپ مُسترَد اِرِنݳ اَوݳجݵ. <accuracyLink>مزݵد مَعلݸمݳتݵݣݺ کݳرݸ امݳ ٹھݵک اِرِنݳئی معݵݳرݸݣ دݵکھݳ</accuracyLink>.
+about-playbook-how-validate-content-4 = اگَر کݸنِتہ کِلِپَکَہ 2 بَندݺ مُسترد اِرِنݺ تݳ، تݸ ہݵَس ڈݵٹݳ سݵٹݵئ اݵک اݸر مِنݵنݵ پَڎِݵݸ گٹݵکُݽَنݳ کݸٹ ارݸ جݳگݳ چھݳ.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ڈݵٹݳ سݵٹݳ شُݸ خݳ کݵ رِݵ دِݽقَلتِنَکُݽ لݵم نݸ اݽݵئ اِستِمݳل اِرَم؟
 
 ## How are decisions made
 
