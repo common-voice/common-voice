@@ -39,12 +39,16 @@ about-playbook-what-is-language = Коммон Войсымкӏэ бзэр сы�
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Сайтыр къызэдзэкӏ
+about-playbook-how-add-language-collecting-sentences-heading = Гущыӏэухыгъэр угъоин
 
 ## How does localization work
 
+about-playbook-how-localize = Сайтым ичӏыпӏэзэгъэуӏупӏэ сыдэущтэу лажьэра?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Сыдэущтэу гущыӏэухыгъэхэм ахэзгъэхъощта?
 
 ## How to record quality
 
