@@ -122,6 +122,9 @@ knn = Knokani Zikres̃h Devanagari be K̃hanen. Yem Ziki be de Hindutone Mulk
 ko = Korea he Sarkori Zik
 kpv = komi Zyrian i De Russ yi Iloqoyi Zik
 ksf = Bafia Zikes̃h de Cameroon e Mbam e S̃hang K̃hanen
+kw = Cornish Zikes̃h de Britoniahe Cornwall nunjay k̃hanen.
+ky = Kyrghyziston e Sarkori Zik. Yemi be Turky Zike S̃holkh
+lb = Yemi Luxumbourg e yi Sarkori Zik
 
 # [/]
 

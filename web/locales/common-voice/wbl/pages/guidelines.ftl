@@ -59,3 +59,5 @@ public-domain-explanation-5 = nivishetkẽ matanẽ sẽma kumrẽs̃h ki naqle�
 public-domain-explanation-6 = Hũkũmat, bi mẽnofa adorav woz mid̃ia adoravẽ s̃hik̃h rec̃h ki yavni chiz sẽk tẽnz̃et (web) mewod, rapot̃, ter medumẽ ehata (domain) teya?
 citing-sentences-explanation-1 = hẽwolajotvẽ shamil k̃haki zẽrũri ki tayin carẽn ki sẽk tẽnz̃etk hawolajot shomil k̃hakẽn beshkha mẽrdumẽr ijozat
 citing-sentences-subheader-websites = Tenz̃etkig̃h
+citing-sentences-subheader-websites-explanation = tus̃h tẽnz̃etkig̃hẽ shomilẽ bas wez, yaniki Kommon Voys (common voicehttps://commonvoice.mozilla.org/)
+citing-sentences-subheader-academic-reference = talimi hewolajot
