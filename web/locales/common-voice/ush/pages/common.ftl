@@ -276,6 +276,19 @@ privacy-info = آسو چھئی معلومات تھونو وعدہ تھونا۔ �
 return-to-cv = دوبارا کامن وائس تے بجا
 email-input =
     .label = ای میل
+loading = لوڈ بیلا۔۔
+email-opt-in-info = ما کامن وائس در معلومات یا یاد دہانی ای میل آٹیما۔
+email-opt-in-info-title = کامن وائس میلنگ لسغٹ شامل با۔
+email-opt-in-info-sub-with-challenge = کامن وائس درمختلف  معلومات او نہوز لیٹرز ای میل حاصل تھا۔
+email-opt-in-privacy-v2 = ای میل حاصل تھونو تو رائیلا موزیلا لیس در ہاتھ دوبئیلا۔ <privacyLink> پرائیوسی لنک </privacyLink>
+indicates-required = کامے شئیا ایٹسریک * بیلا سا ضروری ہینو۔
+not-available-abbreviation = آنا نا پکار
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>آسو تے تھئی مددتے ضفرورت ہنی۔ </mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = سو جیبو زیات ڈیٹا سیٹ راݜونو کالے ملیئن ڈالر گھڑ تونو۔ لی جیبو خلخک آسو جا انحصار تا۔ <strong>۔ تُو عام ڈیٹا قدر تھیلا ایتے اے۔ </strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> تمو تحقیق کارا سی وی استعمال تا۔ </mark>
