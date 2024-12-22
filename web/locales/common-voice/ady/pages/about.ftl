@@ -23,15 +23,19 @@ about-is-it-valid-text = Гъэфедакӏом «ары» хэдзыным къ
 about-yes-votes = ≥ 2 ары хэдз
 about-no-votes = ≥ 2 хьау хэдз
 about-dataset-new = Коммон Войс къэтыгъэ зэкӏэугъоягъ
+about-get-involved = Хэлажь
+about-stay-in-touch = Сыдэущтэу зэпхыныгъэ къыжъудысиӏэщта?
 about-stay-in-touch-button = Зыхатх
 about-nav-why-common-voice = Сыд пае?
 about-nav-how-it-works = Сыдэущтэу?
 about-nav-partners = Ӏэхьагъухэр
+about-nav-get-involved = Хэлажь
 about-nav-how-it-works-2 = Комон Войс сыдэущтэу мэлажьа?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Коммон Войсымкӏэ бзэр сыда?
 
 ## How do I add a language
 
