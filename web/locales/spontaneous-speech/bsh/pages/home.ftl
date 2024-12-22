@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = خودبخود ولستہ تہ پادگو بولاسعں
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرامٹ</mark>
 prompt-bubble-subtitle = ایمو تو و عوںموپرامٹ یا سوال
