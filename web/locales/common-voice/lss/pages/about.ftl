@@ -80,6 +80,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = ڏِس مزيد
 
 about-playbook-how-localize = سائٽ لاڪليزيشن ڪيئن تي ڪم ڪري؟
 about-playbook-how-localize-content-1 = کومن وائيس جو ترجمو پون ٽون ات تو ڇہ.
+about-playbook-how-localize-content-2 = بنائي اڪائونٽ اگر توجو ڪوني ته. پو ڪڙ پانجي زبان ٻيو ڪڙ پروجيڪٽ اک ڪو من وائيس اک. اُتي هونديون فائليون ترجمو ڪر ڻ لا. هيڪڙي ڪڙ ، پو وا انگلش ام جملا ڏيکا ريندي ٻيو هيڪڙو باڪس ترجمو ڪرڻ لا.
 
 ## How to add sentences
 
