@@ -12,4 +12,6 @@ confirm-size = ا ڈآونلوڈ شورو تھا ل کیربہ تیار این
 size-gigabyte = جی بی
 size-megabyte = ام بی
 confirm-no-identify = تو  ان قبولون اں  کامن وایس ڈیٹاسیٹ  می منندر اے°پویانیل کوشش نہ تہ
+confirm-join-mailing-list = کامن وایس میلنگ لسٹ می شامل بون آ
+download-language = ڈاون لوڈ۔۔۔۔۔۔
 subscribe = سبسکرایب
