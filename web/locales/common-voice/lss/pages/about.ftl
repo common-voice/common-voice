@@ -83,9 +83,12 @@ about-playbook-how-localize-content-1 = کومن وائيس جو ترجمو پو
 about-playbook-how-localize-content-2 = بنائي اڪائونٽ اگر توجو ڪوني ته. پو ڪڙ پانجي زبان ٻيو ڪڙ پروجيڪٽ اک ڪو من وائيس اک. اُتي هونديون فائليون ترجمو ڪر ڻ لا. هيڪڙي ڪڙ ، پو وا انگلش ام جملا ڏيکا ريندي ٻيو هيڪڙو باڪس ترجمو ڪرڻ لا.
 about-playbook-how-localize-content-3 = ترجمو انگلش ما ڇندوں ا پر توک ٻي زباني مابي الائی مشورا ملندا. پروفائيل جي آئی کون ک ڪلک ڪر پو سيٽنگ جي لنڪ ڪر جيڪا بی زبان تو گالھا ئی تو. سینی نا ھیٽ سیدی هت ات لسٽ ھوندي ترجمي جي لوڪلس جي نالي سين. ترجما ظاھر ٿي سگن تا سائٽ جي اندر هنری دينهن جي بعد.
 about-playbook-how-localize-content-4 = ۷۵ فیصد مکمل ڇڻ جي بعد سائت لاؤنچ ڇڻ لا تیار تی ھونجا.
+about-playbook-how-localize-content-5 = اسانجو ویڈیو ایکسپلینز ڈس مدد لا .
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = آن جملا ڪيئن وجين؟
+about-playbook-how-add-sentences-content-1 = تو وجي سگي تو جملا يا لکي سگي تو يا ريويو ڪري سگي تو.
 
 ## How to record quality
 
