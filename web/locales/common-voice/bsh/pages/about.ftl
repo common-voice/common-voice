@@ -118,6 +118,8 @@ about-playbook-how-validate-content-4 = اگر اہ کلپ دیو2 منچاں م
 ## How to access dataset
 
 about-playbook-how-access-dataset = اوݩزہ ڈیٹا سیٹہ تہ کائی کہ پعالوم او استعمال کولوم؟
+about-playbook-how-access-dataset-content-1 = تیو <datasetsPage> ڈیٹا سیٹہ ستہ صفحہ تہ اہ بچی</datasetsPage> ورزنہ انتخاب کشی او ورے انتخاب کشی، او ڈاونلوڈ کشی!  فائل تہ  ابادیاتی ڈیٹا او توثیق ڈیٹا <metadataLink>میٹا ڈیٹا </metadataLink> بولہ آئی، ڈیٹا سیٹ ڈاونلوڈ کوستہ کہ تو ای میل ربطہ ستہ ضرورت اسہ
+about-playbook-how-access-dataset-content-2 = اگر تیو اے ایس ار ماڈل ایپاستہ کہ ٹولز ایݩش کوچی با کمیونٹی ستہ سور منچاں مع رابطہ کو بچی<discourseLink><discourseLink></discourseLink>
 
 ## How are decisions made
 
