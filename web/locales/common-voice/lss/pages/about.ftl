@@ -73,9 +73,13 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ڏ�
 about-playbook-how-add-language-translating-content-2 = اسین موزیلا جو تول پون تون تا استعمال ڪريان ترجما ڪرڻ لا. یون نون ام الائی زبانی ھوجن تيو، پر اگر تو جی زبان ڪوني ته درخواست ڪر پانجی زبان ک وجڻ لا. پو ھن زبانگ ڪومن واٹس پروجیعت موجود ڪرڻ لا درخواست ڪر ڳٺھب ام. ڏس مزيد سائٽ جي ترجمي جي با ريم.
 about-playbook-how-add-language-collecting-sentences-heading = جملا جمع ڪرڻ.
 about-playbook-how-add-language-collecting-sentences-content-1 = ڏِس ا سانجو گاھيڊ ته ڪيئن جملا جمع ڇن تا.
+about-playbook-how-add-language-collecting-sentences-content-2 = تو ٿورا جملا وجي سگی تو یا الا ئي بي و جی سگی تو گیتپ جي ذريعي . یادرک ته جملا ھونجن CC یا تو لکي سگي تو پاڻ.
+about-playbook-how-add-language-collecting-sentences-content-3 = ڏِس مزيد جملا جمع ڪرڻ جي باريم.
 
 ## How does localization work
 
+about-playbook-how-localize = سائٽ لاڪليزيشن ڪيئن تي ڪم ڪري؟
+about-playbook-how-localize-content-1 = کومن وائيس جو ترجمو پون ٽون ات تو ڇہ.
 
 ## How to add sentences
 
