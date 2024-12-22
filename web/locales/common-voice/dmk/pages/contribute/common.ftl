@@ -121,3 +121,6 @@ contribution-misreadings-example-6-title = امݺ کݸفݵ پݵنَشݸ بݳر �
 contribution-misreadings-example-6-explanation = ["We are" ہݸئنݳ ݳݸݳجݵ]
 contribution-misreadings-example-7-title = امݺ کݸفݵ پݵنَشݸ بݳر جݳم چھݸم.
 contribution-misreadings-example-7-explanation = [اَصَلݵ گرمِنݳݵَنݳ 'a' نݳ]
+contribution-misreadings-example-8-title = مَݷِݵݵݺ بَڑݵ مَچھِݵ ݽر ہݸئی گݵئ.
+contribution-misreadings-example-8-explanation = [نݵ خرِشِنݳ مݸݳد]
+contribution-varying-pronunciations-title = مُقتلف تلفُظݳ
