@@ -130,4 +130,9 @@ contribution-varying-pronunciations-example-2-explanation = اُوچت اوݜو�
 contribution-background-noise-title = پتوتے شور
 contribution-background-noise-description = آسو ادئی الگوریتھم مشین پتوتے کامک شور سا کنٹرول تھئی۔ این ایک شانتا اُوچت اواز آسو برداشت تھوگونا سا آواز تُو منع نی تھئی اے تُو لا کلپ ݜُون لا۔ پتوتے غلئی موسیقی بئی۔ اؤ سا موسیقی توتے مسئلہ سپارینُو سا آواز غلے بئی۔
 contribution-background-noise-description-extended = کہ ریکارڈنگ پھوٹے جینُو اؤ یا ششار تھینُو رد تھا سا وخا پورے آسے بوٹ ݜُونو بینُو۔
+contribution-background-noise-example-1-fixed-title = <strong> [ٹھینجیلو]</strong> لالو برو ڈائنوسار<strong>[کھنگیلو]</strong> ٹرائسیک۔
+contribution-background-noise-example-2-fixed-title = لالو بڑو ڈائنو<strong> [کھنگیلو]</strong>ٹرائسیک۔
+contribution-background-noise-example-2-explanation = [متن جے حصہ ݜونا نی بئی نی]
+contribution-background-noise-example-3-fixed-title = <strong> [کٹ کٹ]</strong>لالو برو ڈائنوسور در<strong> [کٹ کٹ] </strong>۔
+contribution-background-voices-title = پتوتے شورپھتوتے آوازے
 contribution-volume-title = والئیم
