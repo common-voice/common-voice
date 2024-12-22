@@ -61,3 +61,4 @@ citing-sentences-explanation-1 = hẽwolajotvẽ shamil k̃haki zẽrũri ki ta
 citing-sentences-subheader-websites = Tenz̃etkig̃h
 citing-sentences-subheader-websites-explanation = tus̃h tẽnz̃etkig̃hẽ shomilẽ bas wez, yaniki Kommon Voys (common voicehttps://commonvoice.mozilla.org/)
 citing-sentences-subheader-academic-reference = talimi hewolajot
+citing-sentences-subheader-academic-reference-explanation = Tus̃h talimi hẽwolajotẽ andoze istimole bas wez, yaniki Harvard̃ẽ endoz, "Muzilla (2021) Kommon voys (common voice. mowjũdi sek https://commonvoice.mozilla.org/ (accessed:15th september2021)"
