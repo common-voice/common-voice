@@ -247,12 +247,24 @@ yo = ݵرݸبݳ
 yue = کݵنٹݸنݵز
 zgh = تݳمݳزݵغت
 zh-CN = چݳنݵز (چݳئنݳ)
+zh-HK = چݳئنݵز (ہݸݣ کݸݣ)
+zh-TW = چݳئنݵز (تݳئݸݳن)
+zu = زُلݸ
+zza = زݳزݳ
 
 # [/]
 
 
 ## Layout
 
+profile = پرݸفݳئل
+help = مدَد
+contact = رݳبِطَہ
+privacy = چپکُݽ
+terms = شَرطݸݣ
+cookies = کݸکݵز
+faq = FAQ
+content-license-text = اݽݵئی مݸݳد کرݵݵٹݸ کݳمنز لݳئسنس</licenseLink> سَس منݵنݵ<licenseLink> دستݵݳب چھݳ
 
 ## Donate banner
 
