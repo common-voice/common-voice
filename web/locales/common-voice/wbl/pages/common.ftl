@@ -83,6 +83,11 @@ ga-IE = A'yarland (Ireland) a Qaumi Zik
 gl = Shumal- Maghribi Spain e yi Muqomi Zik
 gn = Junubi Amerikahe cebur mukve Zik
 gom = Goa-Hindustoni muqomi Zik
+gos = De Netherland e Frisian  e Dest Sexsonian Zik
+gu-IN = Gujarati Zikes̃h de Pokiston et Hindustan e mukhtalif jayev K̃hanen
+guc = Shumol-Mashriqi Columbia et Shumol-Maghribi Venezuela he Zik
+gya = Cameroon et Markazi Afriqahe Muqomi Zik
+ha = Hausa Zikes̃h the Chad nun Afriqi mulk k̃hanen
 
 # [/]
 
