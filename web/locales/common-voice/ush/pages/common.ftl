@@ -249,12 +249,33 @@ zgh = تمازیگتھ
 zh-CN = چینی
 zh-HK = چینی (ہانگکانگ)
 zh-TW = چینی (تائیوان)
+zu = زولو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = خاکہ
+help = مدد
+contact = رابطی
+privacy = پرائویسی
+terms = شرط
+cookies = کوکیز
+faq = سوال جواب
+content-license-text = مواد اینی موجود ہنو <licenseLink> کیریٹیو کامن لیسن</licenseLink>
+share-title = آسئی مدد تھا ہُورو خلخو آوزے کارا!
+share-text = مشنین تے پشارا خلخ کدا رئینا۔ تم آواز دا{ $link }
+link-copied = لنک کاپی بیلو
+back-top = واپس ݜیݜتے بجا
+logout = ویب سائٹ کئین بجا
+donate = دا
+stayintouch = آسو موزیلا در آوازے ٹینکنالوجی ایک کمیونیٹی سپارونا۔ آسو چھو ست رابطہ در بونو۔ چھو کئی ہُورو معلومات یا ڈیٹا گھیننا۔
+privacy-info = آسو چھئی معلومات تھونو وعدہ تھونا۔ آسئی آنا لنک در ہُور جیرا زا۔<privacyLink>۔ پروائیسی لنک </privacyLink>
+return-to-cv = دوبارا کامن وائس تے بجا
+email-input =
+    .label = ای میل
 
 ## Donate banner
 
