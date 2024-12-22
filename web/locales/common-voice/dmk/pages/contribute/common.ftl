@@ -53,6 +53,13 @@ report-grammar-or-spelling-detail = جملہ نݳ گرݳئمرݵئ ݵݳ املݳ
 report-different-language = مقتلِف باݽ
 report-different-language-detail = اݽݵئ اشݵ باݽݵکِنݳ گِرمِنݸ گݵݳچھَتݳ کݸنݸ مݺ اِرِم بݳݽَسمݸ مݸ مقتَلِف چھݳ.
 report-difficult-pronounce = تلفظݵئ مُشکِل
+report-difficult-pronounce-detail = اݽݵَنݳ اشݵݣݳ الفݳظݸݣ ݵݳ جملݳݣݳ کݸٹ چھݺ کݸنݺ منِنݺ بلݸ ݵݳ تلفظَ اِرِنَنݳ مُشکِل چھݺ.
+report-offensive-speech = تݸہݵن آمݵز چغݳ
+report-offensive-speech-detail = اݽݳئی کِلِپَنݳ تݸہݵن آمݵز ݵݳ بݵ ادَپݵ بݳݽ کݸٹ چھݵ.
+report-other-comment =
+    .placeholder = تبصرہ
+success = کݳمݵݳبݵ
+continue = جݳرݵ
 
 ## Speak & Listen Shortcuts
 
