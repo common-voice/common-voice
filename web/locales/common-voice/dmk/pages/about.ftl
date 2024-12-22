@@ -151,3 +151,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> مزݵد من
 ## How is Common Voice funded
 
 about-playbook-how-funded = کݳمَن وݳئس سَشُݸ کݵ ہݸئی رݸپݺ لݵݸ جݳݣݺ چھݺ؟
+about-playbook-how-funded-content-1 = کݳمَن وݳئس مݸزݵلݳ فݳݸنڈݵشَن، کݸنݸ اݵک اَمرݵکئ اِدݳرݳک 501c3 چھݳ، ہݵیݵئ اݵک منصݸبݳک چھݳ. اݽݵئ مَنصݸبݳ اݽݳئی وَقتَنݳ پݸرݳ<philantropicGrantLink> طݸرَس شَکُݽݵئ چِپِݵ ہݸت بَتݳنس نݸ دنݵݳ ٹݸکَنݸ بندݵڎ دِرِݵݸ دݵنݺ اِنداتݵئ</philantropicGrantLink> زرݵعَس ہَنݸ جݳگݳ چھݳ.
