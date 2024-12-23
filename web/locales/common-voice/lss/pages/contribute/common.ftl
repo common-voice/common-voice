@@ -31,9 +31,18 @@ target-segment-add-voice = پانجي آواز وجَ
 target-segment-learn-more = ٻيو ڏس
 change-preferences = پريفرسز ا بدلي ڪر
 login-signup = لاگ اِن/ سائن اپ
+vote-yes = ھائو
+vote-no = نا
+datasets = ڊيٽا سيٽا
+languages = زبانيون
+about = با ريم
+partner = پارٽنر
+submit-form-action = جمع ڪر
 
 ## Reporting
 
+report = رپورٽ ڪر
+report-title = رپورٽ جمع ڪر
 
 ## Speak & Listen Shortcuts
 
