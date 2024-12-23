@@ -43,6 +43,20 @@ terms-disagree = ما راضی نیِش
 first-cta-header-text = تمُو وائس کلپ تھون در مننہ!
 first-cta-subtitle-text = آسو تے تمو بارا در رس توُ ہُور خلکو مدد تھیلا
 why-donate = تُو کے تپوس کیلا؟
+why-donate-explanation-1 = آنے معلومات دونُو اختیاری ہنو۔ تھئے رضا ہنی تُو جمع تُھو بئیلا۔ کرے ڈیٹا سیٹ شائع تونا آسو تھیئی زاتی معلومات، ای میل، عمر، تھیے نوم آنا جل تے نی دونا۔
+why-donate-explanation-2 = آنا ڈیٹا سیٹے کارا لال خلک کئی ریکارڈنگ پکار ہنُو۔ مثلاً کاسو مختلف خلکو آوازے جمع نی تھون نی آنا ٹیکنالوجی کوروم نی تھونُو۔ <learnMore>۔ آسئی میٹا ڈیٹا ایسی بارا در اینی معلومات ایزدا تھے گے۔</learnMore>
+add-information-button = معلومات جمع تھا
+continue-speaking-button = نأ شکریہ؛ وینا جاری رݜا
+create-profile-text = تُو تھیئی معلومات سیو تھیلا؟ <createProfile> ایک پروفائل سپارے</createProfile>
+thanks-for-voice-toast = تمُو آوازے معلوماتے کارا شکریہ
+thanks-for-voice-toast-error = وائس جمع تھون در جے غلطی بیلی
+first-cta-gender-select-default-option = ایک آپشن کارے
+first-cta-gender-select-help-text =
+    .label = تھئی جنس جے شئی ہنُو؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تم آواز دونُو کارا شکریہ!
+second-cta-subtitle-text = اینی ایک پروفائل ست تمُو کروم اؤ جگو خلکو کوروم معلومات تھو بئیلا۔
+already-have-an-account = تھئی موݜوکئی ایکاؤنٹ ہنُو؟ <login> اینی لنھگا</login>
 create-profile-button = پروفایل سپارے
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی مارکتے

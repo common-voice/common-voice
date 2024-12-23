@@ -7,6 +7,7 @@ sc-review-select-language = جملہ ئی ݜکونو کارا ایک جیِب م
 sc-review-no-sentences = نظر ثانی کارا جملے نیِش،<addLink>ہورے جملئ ایڈ تھی</addLink>
 sc-review-form-prompt =
     .message = دوبارا ݜکالے جملئی جمع نی بیلنا، قائل ہنو؟
+sc-review-form-usage = جملہ ئی منظور تھونو کارا سوبنی طرفتی سویب تھا۔ مسترد تھونو کارا آبنی طرفتی سویب تھا۔ ہوناتی سکیپ تے۔ <strong>تم نظرثانی جمع تھوندر نی آموݜے!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = حوالہ { $sentenceSource }
