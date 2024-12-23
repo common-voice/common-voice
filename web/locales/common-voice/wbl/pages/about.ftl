@@ -98,15 +98,43 @@ about-playbook-how-record-content-5 = Sek durustgi ma'yar woz be tayin carit.
 ## How to grow language
 
 about-playbook-how-grow-language = Sakes̃h yi zike kum hade batken moassar tariqahen sẽk 'Common voice' terpurut k̃hake bas vezin?
+about-playbook-how-grow-language-content-1 = Sakes̃h yi zike kum hade batken moassar tariqahen sẽk 'Common voice' terpurut k̃hake bas vezin? Sake hayawe istimol k̃hake distan wasoyil et 'templates' paydo k̃hetk.
+about-playbook-how-grow-language-content-2 = Rujisht
+about-playbook-how-grow-language-content-3 = Sashtes̃h Rujve c̃huwuvne bas vezit, kumdve madadnes̃h ki khalgisht hisa kit~ake bas vezin. Yemi ce save fikren be ghafch oson. Sashtes̃h yeme 'videoconferencing tool' ve madaden 'online' k̃hake bas vezit. Tuke rujve tayin k̃hake distan spo 'templates' woz wasoyilves̃h tayin k̃hake bas vezit.
+about-playbook-how-grow-language-content-4 = Yurtdoriye nashriyotisht
+about-playbook-how-grow-language-content-5 = Sashtes̃h pyghomotve sutuyne distan yurthdoriye nashriyot e zariave istimol k̃hake bas vezit. hazing pyghomve sutuyit ki yawen ahmiyat humut woz khalgve mes̃han yave zike huquq e rang abashve bobaten qẽsave carit,  woz boridigar istimol wocne matanve 'voice AI' muhimve zaria verkhuvit.
+about-playbook-how-grow-language-content-6 = Shirkatdoriy et 'networks'
+about-playbook-how-grow-language-content-7 = Hayave sẽma carit kuyes̃hki khiyol lecert. Hadamve dest Jamia't; zike schoolisht; himoyati guruhisht yoy 'data science' guruhisht shomil tey.  Damev g̃hitake kushesh carit woz ramve puzuv katithki chisokht woz chizer yaver madadgor wocn awaji. spo rabitahe emailve 'template' tayin carit.
+about-playbook-how-grow-language-content-8 = Takhleeqi wocit, save zike guruhep yagonah wost, woz yemisht oghoz k̃hake distan chandi tariqaisht.
 
 ## How to validate
 
+about-playbook-how-validate = Wuzep chisokht dishemki yi 'voice clip' em manzoor k̃haker.
+about-playbook-how-validate-content-1 = Agar tues̃hki yave kus̃huy woz repuzuves̃h pirvit, yani ghafch bafki manzoor car.
+about-playbook-how-validate-content-2 = Haya 'clip' ve na manzoor mecar, kumdve lehjayi ki ce tinen mukhtalif tey. yemi owozev takhpa k̃hake haten her yiewe distan ahm tey.
+about-playbook-how-validate-content-3 = Agar tawres̃h sudhuyd ki tallafuze repuzuv kitaki nomumkin, yoy ter cẽbasi ghafch shur, yoy digar khalgishtes̃h be qẽsa caren, yandi tawer 'clip' radd k̃hak awaji. Bes̃h malumote haten spo 'accuracy criteria' he tayin carit.
+about-playbook-how-validate-content-4 = Agar bu khalgve ki yi 'clip' radd kert, yandi yawes̃h dẽ 'dataset' yi mukhtalif 'subset' disuven.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Wuzep chisokht 'dataset' e gotem?
+about-playbook-how-access-dataset-content-1 = Sashtes̃h de 'dataset' ve safha rẽc̃hne bas vezit, woz k̃hu maqsade zike intikhob carit woz yawe 'download' carit. Woz de filevenep 'metadata' munsalik wost, maslan Obodiye ma'lumot woz 'validation data'. saverep 'dataset' 'download' k̃hake distan yi email pata rẽdho wost.
+about-playbook-how-access-dataset-content-2 = Agar sashtes̃hki 'ASR models' tayor k̃hake haten owzor sama carit, Sashtes̃h sẽk 'Discourse' dẽ digar khalgve mes̃han rabita lecerne bas vezit.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Project e bobaten faiisẽla es̃h chisokht wost?
+about-playbook-how-project-governance-content-1 = 'Mozilla Common Voice' es̃h ce putun dunyohe mukhtalif guruh; sargarm korindah; zike olim;'data scientists'; mohir e ta'leem; woz 'software engineers' ve zariahen mumkin gok̃hen. Projectes̃h 'Mozilla Foundation' e zimaworiyer C̃hit.
+about-playbook-how-project-governance-content-2 = Spo Intizome bunyodhi eskem istinev barqaror:
+about-playbook-how-project-governance-content-3 = Raazdari; Hifozat; woz Shafofiyat.
+about-playbook-how-project-governance-content-4 = Guruhi Shirkat woz Faisala sozi.
+about-playbook-how-project-governance-content-5 = Qadr et Qabuliyat.
+about-playbook-how-project-governance-content-6 = Terliman Zimadori.
+about-playbook-how-project-governance-content-7 = Spo Intizomve bobaten woz be joyit.
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = 'Common voice' es̃h Chisokht atiya got?
+about-playbook-how-funded-content-1 = 'Common Voice' i Mozilla Foundation e yi project tey, yi US 501 c 3. Nivo projectes̃h komilan khairati atiyatve zaria hen woz ce putun dunyohe khalgve atiyatven pura caren.
+about-playbook-how-funded-content-2 = musalsal 'datasets' ve meezboni woz verkhuvn, platform e behtar k̃hak woz guruhi programve c̃huwuvne distan es̃h ghafch raqam kharj wost.
+about-playbook-how-funded-content-3 = Agar Sasht yoy save Idorahes̃hki de project chiz rẽdhowe zoq lecert, yanes̃h sasht yi atiya khake bas vezit yoy spo shirakatdor yorbarve mes̃han haske robita lecrit;
