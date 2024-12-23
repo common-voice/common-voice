@@ -99,7 +99,7 @@ too-many-files = فائلہ چے چئ ہُو تھہ
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon> </icon> عوامی ڈومینَیں څئ/چئ جُملی جمع کرہ
-multiple-sentences-error = اک ہیش جمع کرَیں مہ توۡ څئ جُملی ٹل نیرہانٚت۔
+multiple-sentences-error = اک ہیشی مہ تُوۡ څئ/چئ جُملی ٹل نیر ہَیں تُھو /نیر ہانٚت
 exceeds-small-batch-limit-error = 1000جُملیُوں نہ تیرئ جمع نیرہانٚت۔
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
