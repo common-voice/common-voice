@@ -84,3 +84,6 @@ adding-sentences-subheader-special-characters = khos kirdorisht wos tẽrbarẽ 
 adding-sentences-subheader-special-characters-explanation-1 = kumd zikẽs̃h ki k̃han dayi harfisht drũst wocẽn awaji. yanikidẽ Rũsiyi hẽruf “ж” yi lavz  kumdẽv ki dẽ Ẽngriz tag istmol ne k̃hetk, hazirgẽb dẽ Ẽngrizi nivishet tag ne yo winen
 adding-sentences-subheader-special-characters-explanation-2 = zikvẽni yavẽn k̃hun towsiqe qonũnisht ce woakhtẽs̃h yavẽ dajayẽn gon. agar yi zikri ki yi makhsus towsiqẽ fayil nast to Ẽngriziye qonũnvẽs̃h shomil k̃hakẽr istimolẽn
 adding-sentences-subheader-offensive-content = jarihana muwod
+adding-sentences-subheader-offensive-content-explanation = Agar ki jumlayi jarihana you pẽrishon k̃hakẽn - yaniki, waza mẽwod you spo digar qismẽ <communityGuidelines> community shamuliyat rehnẽmo wẽsũl</communityGuidelines>- twori jũmla rad k̃hak dẽrkor. tus̃h dẽ sẽk <emailFragment>commonvoice@mozilla.com</emailFragment></emailFragment> g̃hetakẽ bas wez ki mẽsla  vẽz̃ũw
+reviewing-sentences-explanation-1 = Agar jũmlas̃h ki dẽ  k̃hẽnet miyoe g̃hat, "yan" mẽrwat/ tak/ bat̃an pakhch.
+reviewing-sentences-explanation-2 = agar jũmlas̃h ki dẽ k̃hẽnet mẽyor ne g̃hat, "no"ẽ bat̃nẽ pakhch
