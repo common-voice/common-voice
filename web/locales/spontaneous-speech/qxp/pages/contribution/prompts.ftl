@@ -9,6 +9,8 @@ error-skipping = Tapukuykunata saqirparishaspa huk pantay ukhurirqun
 error-recording = Simiykita ch'ikushaspa huk pantay ukhurirqun
 error-fetching-prompts = Tapukuykunata apamushaspa huk pantaymi ukhurirqun. Ama hina kaspa, chaymanta yanaykamuy.
 error-uploading-response = Ruwasqaykita apachishaspa huk pantay ukhurirqun
+prompt-submitted-success = Kutichiy allin apachisqa
+prompt-response-deleted-success = Kutichiy allin pichasqa
 
 ## Explainer text (Respond to Prompt)
 
