@@ -87,3 +87,6 @@ adding-sentences-subheader-offensive-content = jarihana muwod
 adding-sentences-subheader-offensive-content-explanation = Agar ki jumlayi jarihana you pẽrishon k̃hakẽn - yaniki, waza mẽwod you spo digar qismẽ <communityGuidelines> community shamuliyat rehnẽmo wẽsũl</communityGuidelines>- twori jũmla rad k̃hak dẽrkor. tus̃h dẽ sẽk <emailFragment>commonvoice@mozilla.com</emailFragment></emailFragment> g̃hetakẽ bas wez ki mẽsla  vẽz̃ũw
 reviewing-sentences-explanation-1 = Agar jũmlas̃h ki dẽ  k̃hẽnet miyoe g̃hat, "yan" mẽrwat/ tak/ bat̃an pakhch.
 reviewing-sentences-explanation-2 = agar jũmlas̃h ki dẽ k̃hẽnet mẽyor ne g̃hat, "no"ẽ bat̃nẽ pakhch
+reviewing-sentences-explanation-3 = tini ki sẽk jũmla barar yaqin tey, to andi tra yor jũmal shekhs
+reviewing-sentences-explanation-4 = Agar dẽdeg̃hikrẽs̃h ki jumla kam wost, miriboni car k̃hẽ c̃hak jumla g̃hurtnẽr k̃hakẽr sakẽr  yori/ mẽdad woc
+domain-explanation = ce Ẽhatani jumla mowzu mẽrod . hanivẽs̃h, tu dẽ mung intikhobẽ bas wez
