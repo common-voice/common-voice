@@ -128,14 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] اک مہ { $uploadedSentences } جُملہ جمع ہُونٚتھی
+        [one] ایک مہ { $uploadedSentences } جُملہ جمع ہُونٚتھی
        *[other] { $totalSentences } مہ { $uploadedSentences } جُملی جمع ہُونٚتھی
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] اک مہ { $uploadedSentences } جُملہ ٹَوڅھے۔ ٹک کرہ۔ <downloadLink>ݜلہ</downloadLink> کگالیۡ جُملی منی والئیں کراں۔
-       *[other] { $totalSentences } مہ { $uploadedSentences } ٹَوزل جُملی۔  <downloadLink>ݜلہ</downloadLink> ٹک کرہ تہ کگالیۡ جُملی منی واں۔
+        [one] اک مہ { $uploadedSentences } جُملہ ٹَوڅھے/ ٹُوۡئ چھی۔ <downloadLink>ݜلہ ٹک کرہ</downloadLink> لہ کگالیۡ جُملی منی واں
+       *[other] { $totalSentences } مہ { $uploadedSentences } جُملی ٹَوڅھے/ ٹُوۡئ چھی۔ <downloadLink>ݜلہ ٹک کرہ</downloadLink> لہ کگالیۡ جُملی منی واں۔
     }
 small-batch-sentences-rule-1 = ہدایات مہ سئ کری چہ توۡ گھئین جُملی ٹل کرہانٚت؟
 small-batch-sentences-rule-2 = اک کھِیر مہ اک جُملہ لِکی
