@@ -126,6 +126,10 @@ kw = Cornish Zikes̃h de Britoniahe Cornwall nunjay k̃hanen.
 ky = Kyrghyziston e Sarkori Zik. Yemi be Turky Zike S̃holkh
 lb = Yemi Luxumbourg e yi Sarkori Zik
 lg = Luganda e Uganda Afriqahe yi Sarkori Zik
+lij = Ligurian i de Italy yi Muqomi Zik
+ln = Lingala i Congo et Markazi Afriqahe yi 'Bantu' Zik
+lo = Lao i Laos e Sarkori Zik
+lt = Lithuania he Sarkori Zik
 
 # [/]
 
