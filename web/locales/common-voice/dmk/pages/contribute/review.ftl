@@ -47,6 +47,8 @@ sc-criteria-item-5-2 = اَگَر جملݳ اڎِݵ منِنݺ معݵݳرس پُ
 sc-criteria-item-6 = اَگَر تُمݺ پݳ دݸبارہ گِرمِنݳنݳئی کݳرݸ جُملݳݣݳ فَݽ ہݸݵیتݳ مِربݳݳنݵ رِݵ اَمݵچُݸ مزݵد جملݳݣݳ جَمَع رِنݺ بلݸ مَدَد اِرݳ!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چِݵک<icon></icon> اِرݳتݳ اݽݵئ جُملݳ بݳݽݵئ حِسݳبَس ٹھݵک چھݳ؟
+sc-review-rules-title = اݽݵئ جملہ اُصݸلݵڎ اُگُلݵگݳ چھݳ؟
+sc-review-empty-state = پِلحݳل اݽݳئی بݳݽَنݳ دݸبݳرہ گِرمِنݳنݳئی کݳرݸ جملݳݣݳ نݳ.
 report-sc-different-language = مقتلِف بݳݽ
 report-sc-different-language-detail = اݽݵئ ہݳئݵ بݳݽَنݳ گِرمِنݸ گݵݳ چھݳ کݸنݸ اُݸ جݳئزہ لݵنݺ بلݸ استِمݳل نِݵ رݳ چھݵس.
 sentences-fetch-error = جُملݳݣݳ آنِنݺ بلݸ اݵکݳ غلطݵکݳ مݳگݸم اَئی.
