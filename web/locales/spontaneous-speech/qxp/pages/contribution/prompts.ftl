@@ -26,3 +26,6 @@ learn-how-to-use-prompts-guidance = Ñit'iy <guidanceLink>kayta</guidanceLink> k
 learn-how-to-use-transcribe = Rimasqakunamanta qillqaqayta yachay
 learn-how-to-use-transcribe-explanation = Chay runapaq rimasqanmanta kasqantapuni qillqapay, chaymantapas 'mm', utaq 'ehh' rimasqakunatapis.
 learn-how-to-use-transcribe-guidance = Ñit'iy <guidanceLink>kayta</guidanceLink> kay p'anqata imaynatachus purichina yachanapaq
+learn-how-to-use-check-transcript = Imaynatachus qillqaqasqakunata qhawapayta yachay
+learn-how-to-use-check-transcript-explanation = Huk qillqaqay hap'inanmi sapa simita hinallataq sapa rimayta, hinaqa runaq rimasqanwan tupan,  chaymantapas iskay kuti rimasqankunatapas.
+learn-how-to-use-check-transcript-guidance = Ñit'iy <guidanceLink>kayta</guidanceLink> kay p'anqata imaynatachus purichina yachanapaq
