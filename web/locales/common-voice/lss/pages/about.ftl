@@ -137,9 +137,7 @@ about-playbook-how-validate-content-4 =
 
 about-playbook-how-access-dataset = آن ڊیٽا سيٽ تائین کیئن پڄِي سڳي تو ٻيو هنک ڪيئا استعمال ڪري سڳی تو؟
 about-playbook-how-access-dataset-content-1 = تو وني سِڳي تو ڊيٽا سيٺ جي پيج ام، سيليڪٽ ڪر زبانیون پیو نمونا جیکی تون چائیں تو، بیو داؤ ن لوڊ ڪر! فا ئیلیم هوندا میںٽا دیتا جیا دیمو گرافی جي معلومات بیو ویلیڊیشن جو دیتا . توک ای میل ایڈریس ڏيڻ پوندو داؤ لوڊ کرن لا دیتا سینٽک .
-about-playbook-how-access-dataset-content-2 =
-    اگر تون ناریپیو تول ASR موڊل بناڙ لا تو رابطو ڪری سگی تو یہ ماتھی سین جماعت
-    > جي اندر دسخو رسم .
+about-playbook-how-access-dataset-content-2 = اگر تون ناریپیو تولا ASR موڊل بناڙ لا ته رابطو ڪری سڳی تو ٻي ماڻھي سین جماعت جي اندر ڏسڪورس جي باريم.
 
 ## How are decisions made
 
