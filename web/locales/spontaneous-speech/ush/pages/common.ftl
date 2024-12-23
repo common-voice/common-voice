@@ -25,9 +25,16 @@ contribute = دیم
 
 ## Navbar
 
+respond-to-prompt = سوال جواب دے
+transcribe-audio = آڈیو ٹرانسکرائب تھے
+check-transcriptions = ٹرانسکریپشن چیک تھے
 
 ## Not Found Page
 
+not-found-page-header = میلاؤ نہ بیلو
+not-found-page-content = کوائی صفحا تُو ݜکیلا سا میلاؤ نی بیلو
+# Privacy and Terms checkbox
+accept-privacy-and-terms = کامن وائس پورا تھون در آسئی شرائط منیلا <termsLink> آسے پرائیویسی نوٹس اینی ݜکے۔ </privacyLink>
 # Locales
 bsy = سبا بیسایا
 cdo = فوزھؤ

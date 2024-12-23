@@ -14,6 +14,14 @@ record-cancel = ریکارڈنگ کینسل تھے
 record-instruction = { $actionType } با جملہ تیز زور دے رس<recordIcon></recordIcon>
 record-stop-instruction = <stopIcon></stopIcon> کیرے بیلو
 record-three-more-instruction = ڇے دھریل نا!
+record-again-instruction = زبردست!<recordIcon> </recordIcon> تمو دومونگ کلپ پڑاؤ تھے
+record-again-instruction2 = انا چھورے، با ریکارڈ تھی<recordIcon></recordIcon>
+record-last-instruction = بس آخری
+review-tooltip = اینی کلپو جائزہ گھین اؤ لی ریکارڈ تھے
+share-clip = تمُو کلپ شئیر تھے
+share-common-voice = کامن وائس شئیر تھے
+review-instruction = جائزہ گھین اؤ دوبارا ریکارڈ تھے کو ضرورت ہنی
+record-submit-tooltip = { $actionType } کرے تیار بیلے اؤ اُولے
 clips-uploaded = کلپ اپلوڈ بیلو
 record-abort-title = اول ریکارڈنگ ختم تے؟
 record-abort-text = چین پھتونو تمُو کوروم ضائع تھونو۔
@@ -35,9 +43,20 @@ terms-disagree = ما راضی نیِش
 first-cta-header-text = تمُو وائس کلپ تھون در مننہ!
 first-cta-subtitle-text = آسو تے تمو بارا در رس توُ ہُور خلکو مدد تھیلا
 why-donate = تُو کے تپوس کیلا؟
+create-profile-button = پروفایل سپارے
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابی مارکتے
+# menu item
+read-sentences = جملئی پڑھاؤ کے
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جمللئی پڑھاؤ کے، جواب دے
+read-sentences-menu-item-tooltip = تمُو جیِب در جملئی ریکارڈ تھے۔
+answer-questions-menu-item-tooltip = تمُو جِب در سوالاتو جواب ریکارڈ تھے
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = رزونُو آپشن
+read-sentences-menu-item-aria-label = کمیونیٹی طرفے کئی جملئی پڑھاؤ تھے
+answer-questions-menu-item-aria-label = کمیوٹنی کارا ایک سوال غرئی تا سی پڑھاؤ تھین
