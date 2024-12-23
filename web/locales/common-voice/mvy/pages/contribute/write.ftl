@@ -57,7 +57,7 @@ language_fundamentals = زبئیں/ژِباں بنیادی څزہۡ (لکہ ہن
 # Sentence Domain dropdown option
 media_entertainment = میڈیا تے ناٹ پھار
 # Sentence Domain dropdown option
-nature_environment = قدرتی ماحول
+nature_environment = قدرت آں ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبری تے حالات حاضرہ
 # Sentence Domain dropdown option
@@ -78,17 +78,17 @@ try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ
 try-upload-again-md = فائل گتہ بُوۡئ اُکھالئیں کوشش کرہ
 select-file = فائل خوش کرہ۔
 select-file-mobile = بُوئی اُکھالئیں(یاں) کراں/کریا فائیل خوش کرہ
-accepted-files = گھئیں فائیل مل چہ .tsv لکزئیل ہُونٚت صرف سئیں خوش کرہ
-minimum-sentences = اک فائیل مہ کم نہ کم جُملی: 1000
+accepted-files = قبلُژیل فائلاں قِسم: صرف tsv.
+minimum-sentences = فائلہ مہ کَم نہ کَم جُملی: 1000
 maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی تُھو
-what-needs-to-be-in-file = فائلہ مہ گی ہوں پکار تُھو؟۔
-what-needs-to-be-in-file-explanation = مھیربانی کرے زئیں ݜئیں لینک چیک کری <templateFileLink> ٹمپلیٹ فائیل</templateFileLink>۔ څئیں جُملی کاپی رائیٹ نہ خالی ہُوئینٚل پکار تھی سی سی 0 یا تسئیں مالکہ نہ اجازہ ہُوئینٚل پکار تھی آں صاف، گرامراں لحاظ ہن صحیح آں پڑھئیں مہ آسان ہُوں۔ جمع شدہ جُملی پڑھئیں مہ 10 نہ 15 سیکنڈ ہار وخ پکار ہُونٚت خو ایاں مہ اسم خاص، ہندسی تے مخصوص نخہ نی ہُوئینٚل پکار تھی۔
-upload-progress-text = بُوئ اُکھالؤں روان تُھو۔۔۔.
-sc-bulk-submit-confirm = مہ ݜس بال پکیۡرانٚت آں تصدیق کرانٚت چہ ݜَئیں جُملی <wikipediaLink>عوامَیں ڈومیناں کراں </wikipediaLink>تھی آں مگے ݜئیں بُوئ اُکھالَئیں اِجازہ تُھو۔
-bulk-upload-success-toast = څئ جُملی اکزائے بُوئی اُکھالزی تھی۔
-bulk-upload-failed-toast = بُوئی اُکھالزوں فیل ہُوں تُھو، گتہ کوشش کرہ
-bulk-submission-success-header = څئی جُملی اکزائے جمع کرئیں شکریہ
-bulk-submission-success-subheader = توۡ زاں دِساں نخ پُور کرئیں مہ کامن وائیس ریچ پروگرامئیں مدد کرانٚت۔
+what-needs-to-be-in-file = میں فائلہ مہ گی ہوں پکار تُھو؟
+what-needs-to-be-in-file-explanation = زاں <templateFileLink> نموناں ݜس فائل</templateFileLink> چیک کرہ گل۔ څَیں جُملی کاپی رائیٹ نہ خالی (سی سی 0 یا تسیں مالکہ نہ اجازہ ہُوں پکار تُھو آں صاف، گرامراں لحاظ ہن صحیح آں پڑَیں مہ ہَسان ہوں پکار تھی۔ ݜَیں جُملی پڑَیں مہ 10 نہ 15 سین٘گڈؤں‌ ہاریۡ وخ بے آں ایوں مہ خاص نؤں، ہندسی تے مخصوص نخہۡ نی ہوں پکار تھہ۔
+upload-progress-text = بُوۡئ اُکھالؤں روان تُھو۔۔۔
+sc-bulk-submit-confirm = مہ ݜَس بال پکیۡرام تُھو چے ݜَیں جُملی <wikipediaLink>عوامَیں مِلکیَت</wikipediaLink>تھی آں می گائ ݜِواں بُوۡئ اُکھالَیں یاں اِجازہ تُھو۔
+bulk-upload-success-toast = څئ جُملی اکزائے بُوئی اُکھالزی/ اُکھالژی تھی
+bulk-upload-failed-toast = بُوۡئ نی اُکھالژی تُھو، گتہ کوشِش کرہ گَل۔
+bulk-submission-success-header = چئ جُملی ایکٹھی جمع کرَیں یاں کریا تیں شُکھریہ۔
+bulk-submission-success-subheader = تُوۡ زاں دِساں نخ پُور کرَیں مہ کامن وائیس ریچ پروگرامئیں مدد کرانٚت/کیریۡ تُھو!
 upload-more-btn-text = مُتی جُملہ بُوئی اُکھالہ۔
 file-invalid-type = غلط فائیل
 file-too-large = فائل څو گھوں تُھو
