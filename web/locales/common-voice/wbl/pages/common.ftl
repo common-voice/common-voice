@@ -149,6 +149,9 @@ mrj = Hill Mari Ziks̃h the Russian Federation e Ural e Kuhi Iloqahev K̃hanen
 ms = Malay Zikes̃h de Brunei; Indonisia; Malasia et Singapore K̃hanen.
 mt = Maltese Ziki ce Maghribi Arabi Ziken Niyes̃hk, yem Zikes̃h de Latin Alphabet nivshen
 mxu = Mada i Nigeria he yi Muqomi Zik
+my = Burmese i Mayanmar (Burma) he Sarkori Zik
+myv = Erzia i Russian Federation e Mordovia woz chandi digar Iloqave Zik
+nan-tw = Taiwanese Ziki Taiwane cebur panz̃ Zikve Majmua he nung tey
 
 # [/]
 
