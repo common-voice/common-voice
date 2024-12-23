@@ -13,6 +13,8 @@ help-us-title = sakẽr jũmlavẽ tosiqẽr mẽdad
 help-us-explain = play pakhch, kẽs̃hy woz sakẽr k̃han: cẽrg tub niv yem destẽ jũmlaẽ k̃hana?
 no-clips-to-validate = sẽdhũydẽs̃h ki hadẽm zik ki chi klip kẽs̃hỹnẽr nas. sakẽr caq s̃heg̃hd pes qẽtor rikordẽr mẽdad woc
 toggle-play-tooltip = pale mod̃ẽ togal (toggle) k̃hakẽr pakhch { shortcut-play-toggle }
+speak-paragraph = voys klipẽ ricod̃ing spo d̃ataset̃ẽ lazmi hisa: yisarẽb k̃hanẽn yemi mẽshkhũlig̃h bẽ tey
+speak-goal-text = klip ricord̃ing
 
 ## Account Benefits
 
