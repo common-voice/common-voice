@@ -27,3 +27,5 @@ check-bubble-subtitle = Rimasqakuna qillqasqawan tupanchu icha manachu chayta qh
 data-bubble-title = <mark>Data</mark>
 data-bubble-subtitle = Sapa kutim rimasqakunahuñuta kachariyku
 contact-us = Rimaykuwayku
+contact-us-title = ¿Yanapakuytachu utaq ñuqaykuwan kuska yanapayta munanki?
+contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
