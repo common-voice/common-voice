@@ -48,4 +48,5 @@ profile-create-success = Profile zalo!
 profile-close = Bond kor
 profile-explanation = Aplea provas-acher hishob dovorat ek profile kor ani moddot kor amchea voice data-ak anikui accurate dovorpak.
 why-demographic = Hem kityak gorjechem?
+login = Log In
 download-profile = Mhozo Data Download Kor
