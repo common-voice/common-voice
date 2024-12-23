@@ -1,0 +1,7 @@
+## Profile - Settings
+
+manage-subscriptions = K̃hũ dhetkev (sabskripshan) trẽ dhastit.
+manage-email-subscriptions = Dhetk Barqinomah  trẽ dhastit (jũr carit)
+email-already-used = Barqinomayi yi digar hisober (akkawnt̃er)  yarker wezg
+add-language = Zik e chermũv (kat̃)
+change-email-setings = Dẽ cheremn-e shinokht-e jy-e dest-e zariya en,k̃hũ barqinomah far g̃hirũv
