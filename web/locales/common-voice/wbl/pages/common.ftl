@@ -155,6 +155,7 @@ nan-tw = Taiwanese Ziki Taiwane cebur panz̃ Zikve Majmua he nung tey
 nb-NO = Norwegian Bokmal i Norway he kitobi Zik
 nd = IsiNdebele Zikes̃h de Shumali Zimbabwe k̃hanen
 ne-NP = Nepal e Sarkori Zik
+nhe = Yem Zikes̃h de Maxicove La Huasteca nung jaye khalgisht k̃hanen
 
 # [/]
 
