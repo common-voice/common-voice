@@ -137,14 +137,14 @@ small-batch-response-message =
         [one] اک مہ { $uploadedSentences } جُملہ ٹَوڅھے/ ٹُوۡئ چھی۔ <downloadLink>ݜلہ ٹک کرہ</downloadLink> لہ کگالیۡ جُملی منی واں
        *[other] { $totalSentences } مہ { $uploadedSentences } جُملی ٹَوڅھے/ ٹُوۡئ چھی۔ <downloadLink>ݜلہ ٹک کرہ</downloadLink> لہ کگالیۡ جُملی منی واں۔
     }
-small-batch-sentences-rule-1 = ہدایات مہ سئ کری چہ توۡ گھئین جُملی ٹل کرہانٚت؟
-small-batch-sentences-rule-2 = اک کھِیر مہ اک جُملہ لِکی
-small-batch-sentences-rule-3 = جُملی کوکسیۡ نہ جُدا کرے ایک کھِیر مہ ائیں کراں “Enter” یا “Return” تل ایک ہیش چکس کری۔
+small-batch-sentences-rule-1 = ہدایات مہ نھالی “مہ گھِن٘لیۡ جُملی ٹَل کرہان٘ت/کرہاں تُھو؟”
+small-batch-sentences-rule-2 = ایک کھِیریۡ مہ ایک جُملہ لِکہ
+small-batch-sentences-rule-3 = جُملی کوکسیۡ نہ جُدا کَرے ایک کھِیریۡ مہ ائیں یاں کریا “Enter” یا “Return” لا ایک ہیش چکس کری۔
 small-batch-sentences-rule-4 = 1,000 جُملیُوں ہار ٹل کری
-small-batch-sentences-rule-5 = بُئیٹ جُملی ایک زائے نہ یعنی اک ڈومین نہ اَئیل ہوں پکار تھی۔
-small-batch-sentences-rule-6 = بُئیٹ جُملوں حوالہ اک ہوں پکار تھی۔
+small-batch-sentences-rule-5 = بُٹیۡ جُملی ایک زئ نہ یعنی ایک ڈومین نہ آلیۡ ہوں پکار تھی
+small-batch-sentences-rule-6 = بُٹیۡ جُملی وَیں حَوالہ ایک ہوں پکار تھی۔
 # menu item
-add-sentences = جُملی ٹل کری
+add-sentences = جُملی ٹَل کرہ
 
 ## MENU ITEM TOOLTIPS
 
