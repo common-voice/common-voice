@@ -100,30 +100,30 @@ too-many-files = فائلہ چے چئ ہُو تھہ
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon> </icon> عوامی ڈومینَیں څئ/چئ جُملی جمع کرہ
 multiple-sentences-error = اک ہیشی مہ تُوۡ څئ/چئ جُملی ٹل نیر ہَیں تُھو /نیر ہانٚت
-exceeds-small-batch-limit-error = 1000جُملیُوں نہ تیرئ جمع نیرہانٚت۔
+exceeds-small-batch-limit-error = 1000 نہ بُوۡئ جُملی جمع نی ہوں تھی/نیرہانٚت۔
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] بُوئ اُکھالَئیں حد لھنٚگی تُھو۔اک مِلٹ پاتیُوں گتہ کوشش کرہ
-       *[other] بُوئ اُکھالَئیں حد لھنٚگی تُھو۔ { $retryLimit } مِلٹہ پاتیُوں گتہ کوشش کرہ
+        [one] بُوۡئ اُکھالَیں یاں حَد لن٘گھی تُھو۔1 مِلٹ پاتیُون گتہ کوشش کرہ
+       *[other] بُوۡئ اُکھالَیں یاں حَد لن٘گھی تُھو۔ { $retryLimit } مِلٹہ پاتیُون گتہ کوشش کرہ
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] بُوۡئ اُکھالَئیں  حد لھنٚگی تُھو۔اک سِکنڈ پاتیُوں گتہ کوشش کرہ
-       *[other] بُوۡئ اُکھالَئیں  حد لھنٚگی تُھو۔ { $retryLimit } سِکن٘ڈہ پاتیُوں گتہ کوشش کرہ
+        [one] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔1 سِکنڈ پاتیُون گتہ کوشش کرہ۔
+       *[other] بُوۡئ اُکھالَیں یاں حد لن٘گھی تُھو۔ { $retryLimit } سِن٘گڈہ پاتیُون گتہ کوشش کرہ۔
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] تئیں ݜس پن٘ڑ تل جمع کرَئیں  حد لھنٚگا څھے۔ مُتیۡ جُملی جمع کرَئیں نہ مُوئیٹھوں اک مِلٹ وار دگل۔ بال ݜُون٘وَئیں شکریہ۔
-       *[other] تئیں ݜس پن٘ڑ تل جمع کرَئیں حد لھنٚگا څھے مُتیۡ جُملی جمع کرَئیں نہ مُوئیٹھوں { $retryLimit } مِلٹہ وار دگل۔ بال ݜُون٘وَئیں شکریہ۔
+        [one] تُوں ݜس پن٘ڑہۡ لا/تل جمع کرَیں یاں حد لن٘گھا چھی/څھے مُتیۡ جُملہ جَمع کرَیں نہ مُوٹھِن 1 مِلٹ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+       *[other] تُوں ݜس پن٘ڑہۡ لا/تل جمع کرَیں یاں حد لن٘گھا چھی/څھے مُتیۡ جُملہ جَمع کرَیں نہ مُوٹھِن { $retryLimit } مِلٹہ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] تئیں ݜس پن٘ڑ تل جمع کرئیں حد لھنٚگا څھے مُتیۡ جُملی جمع کرئیں نہ مُئیٹھوں اک سِکنڈ وار دگل۔ بال ݜُون٘وَئیں شکریہ۔
-       *[other] تئیں ݜس پن٘ڑ تل جمع کرئیں حد لن٘گھا څھے مُتیۡ جُملی جمع کرئیں نہ مُئیٹھوں { $retryLimit } سِکنۡڈہ وار دگل۔ بال ݜُون٘وَئیں شکریہ۔
+        [one] تُوں ݜَس پن٘ڑہۡ لا/تل جمع کرَیں یاں حد لن٘گھا چھی/څھے مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن 1 سِکنڈ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
+       *[other] تُوں ݜَس پن٘ڑہۡ لا/تل جمع کرَیں یاں حد لن٘گھا چھی/څھے مُتیۡ جُملہ جمع کرَیں نہ مُوٹھِن { $retryLimit } سِکنۡڈہ وار دگل۔ بال ݜُون٘وَیں شُکھریہ۔
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
