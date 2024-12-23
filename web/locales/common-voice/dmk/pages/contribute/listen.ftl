@@ -17,6 +17,9 @@ validate-readings = مُنِنݳئی تصدݵق اِرݳ
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip =
+    مُنِنݳئی تصدݵق اِرݳ،
+    گِرمنݳئݵݣݺ جݳئزہ لݸ.
 
 ## MENU ITEM ARIA LABELS
 
