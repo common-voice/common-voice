@@ -1,7 +1,9 @@
 ## REVIEW
 
+sc-review-lang-not-selected = تھئی ایک جیِب منتخب نی تھے گے۔ تمو پروفایل تے بو۔ <profileLink> اؤ جیِب </profileLink>منتخب تے۔
 sc-review-title = جملئی جائزہ گھیننا
 sc-review-loading = جملئی لوڈ  تھونا
+sc-review-select-language = جملہ ئی ݜکونو کارا ایک جیِب منتخب تھی۔
 sc-review-no-sentences = نظر ثانی کارا جملے نیِش،<addLink>ہورے جملئ ایڈ تھی</addLink>
 sc-review-form-prompt =
     .message = دوبارا ݜکالے جملئی جمع نی بیلنا، قائل ہنو؟
