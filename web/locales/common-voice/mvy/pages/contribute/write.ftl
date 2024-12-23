@@ -148,16 +148,16 @@ add-sentences = جُملی ٹَل کرہ
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جُملی ٹل کری آں گتہ  نہانٚلی،  سوالہ ٹل کری، اوازاں نقل لِکی
-add-sentences-menu-item-tooltip = تَئیں زب مہ جُملی لِکے ٹل کرہ
-review-sentences-menu-item-tooltip = تَئیں زبَئیں جُملی دُوبارہ نہانٚلہ
-add-questions-menu-item-tooltip = تَئیں زب مہ سُوالہ لِکے ٹل کرہ
-transcribe-audio-menu-item-tooltip = ٹیپ کریل اوازاں لفظ  تَئیں زب مہ لِکہ
+write-contribute-menu-tooltip = جُملی ٹل کرہ آں دُوبارہ نَھالہ، سوالہ ٹل کرہ، اوازاں نقل لِکہ
+add-sentences-menu-item-tooltip = تَیں ژِبہۡ/زِب مہ جُملی لِکے ٹل کرہ
+review-sentences-menu-item-tooltip = تَیں ژِبَیں جُملی دُوبارہ نھالہ
+add-questions-menu-item-tooltip = تَیں ژِبہۡ/زِب مہ سُوالہ لِکے ٹل کرہ
+transcribe-audio-menu-item-tooltip = ٹیپ کریل اوازاں ہر لفظ تَیں ژِبہۡ/زِب مہ لِکہ
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = لکئیں اختیاراتوں مینو
-add-sentences-menu-item-aria-label = خلقوں کراں  نَئیں جُملی لِکے ٹل کرہ
-review-sentences-menu-item-aria-label = خلقوں جمع کریل جُملی دُوبارہ نھالہ
-add-questions-menu-item-aria-label = خلقوں کراں نوں سوالہ جمع کرہ تہ سَئیں پڑاں آں جواب دیاں
-transcribe-audio-menu-item-aria-label = ٹیپ کریل اوازاں لفظ  لِکہ
+write-contribute-menu-aria-label = لکئیں(یاں) اختیاراتوں مینو
+add-sentences-menu-item-aria-label = خلکہ واں کِریا نَیں جُملی لِکے ٹل کرہ
+review-sentences-menu-item-aria-label = خلکہ وَیں جَمع کریلیۡ جُملی دُوبارہ نھالہ
+add-questions-menu-item-aria-label = خلکہ واں کریا ناں سُوالہ جمع کرہ لہ سَیں پڑاں آں جواب دیں
+transcribe-audio-menu-item-aria-label = ٹیپ کریل اوازاں ہر ہر لَفظ لِکہ
