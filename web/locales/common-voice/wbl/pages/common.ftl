@@ -142,6 +142,10 @@ mhr = Medow Mari Zikes`h de Russian Federation e European Mari Qabilahe khalgish
 mk = Macedonian i Maqdunia he Sarkori Zik
 ml = Malayalam Zikes`h de Hindustone Kerala Suba k`hanen
 mn = Mongolian Zikes`h de Mongolia k`hanen
+mni = Meetei Lon Zikes̃h de Manipur, Asam et Trepura Hinduston k̃hanen
+mos = Mossi Zikes̃h de Burkina Faso et Mali k̃hanen
+mr = Marathi Zikes̃h de Hindustone Suba Maharashtra k̃hanen
+mrj = Hill Mari Ziks̃h the Russian Federation e Ural e Kuhi Iloqahev K̃hanen
 
 # [/]
 

@@ -69,3 +69,7 @@ citation =
 self-citation = K̃hũ hẽwola
 self-citation-explanation = Tawẽ ki muwod nivishẽt tus̃h k̃hũ hẽwolaẽ haz̃ir rẽdhoẽ bas wez
 adding-sentences-subheader-length = Dẽrozig̃h
+adding-sentences-subheader-length-explanation = Jẽ jũmlayi cẽ 15'en kam harfishet wocẽn awaji
+adding-sentences-subheader-spelling-punctuation = Hijat woz awqof
+adding-sentences-subheader-spelling-punctuation-explanation = Jũmlaẽ hijayi drũst wocẽn dẽrkor/ awaji
+adding-sentences-subheader-speakable = K̃hẽnakẽ loyiq
