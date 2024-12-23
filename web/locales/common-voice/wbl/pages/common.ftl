@@ -125,6 +125,7 @@ ksf = Bafia Zikes̃h de Cameroon e Mbam e S̃hang K̃hanen
 kw = Cornish Zikes̃h de Britoniahe Cornwall nunjay k̃hanen.
 ky = Kyrghyziston e Sarkori Zik. Yemi be Turky Zike S̃holkh
 lb = Yemi Luxumbourg e yi Sarkori Zik
+lg = Luganda e Uganda Afriqahe yi Sarkori Zik
 
 # [/]
 
