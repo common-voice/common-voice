@@ -5,6 +5,8 @@ sc-review-title = جملݳݣݳ دݸبݳرہ دݵکھݳ
 sc-review-loading = جملݳݣݳ اُگُلݵݣݺ چھݺ…
 sc-review-select-language = مِربݳنݵ رِݵ جُملݳئیجݳئزہ لݵنݳئی کݳرݸ بݳݽ دسقٹݳر.
 sc-review-no-sentences = دݸبݳرہ دݵکھِنَشݸ جُملݳݣݳ نݳ. <addLink> مݸتݸ مزݵد جُملݳݣݳ کݸٹ ݳݵر!</addLink>
+sc-review-form-prompt =
+    .message = تُمݺچُݸ بڅِک چھِݵݺ تݳ جملݳݣݳ کݸنݵݣݺ جݳئزہ لݵنݺ چھݺ، مݸتُشݸخݳ جَمَع نِݵ رݸ گݵݺ چھݺ؟
 
 ## REVIEW CRITERIA
 
