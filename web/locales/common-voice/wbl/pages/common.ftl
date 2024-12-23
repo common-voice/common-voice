@@ -138,6 +138,10 @@ mai = Maithili Zikes`h de Hindustonet Nepale chandi Jayev k`hanen
 mbo = Mbo (Management by Objective) Ziki Peter Druker e Ejod k`hetu
 mdf = Moksha yoy vimoksha es`h de Hindu, Budhmat, Jainmat woz Aikh Mazhabev ruhoni ozodiyer khanen
 mg = Malagasy Zikes`h de Madghaskar k`hanen
+mhr = Medow Mari Zikes`h de Russian Federation e European Mari Qabilahe khalgish K`hanen
+mk = Macedonian i Maqdunia he Sarkori Zik
+ml = Malayalam Zikes`h de Hindustone Kerala Suba k`hanen
+mn = Mongolian Zikes`h de Mongolia k`hanen
 
 # [/]
 
