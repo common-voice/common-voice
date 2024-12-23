@@ -4,6 +4,13 @@ age-gender-form-subtile = Kikiykimanta willawaspayku, softwareruwaqkunata aswan 
 add-information-button = Willakuyta yapay
 continue-speaking-button = Astawan rimaykullay
 age-select-label = Hayk'a watayuqtaq kanki?
+select-your-age = Wataykita akllaykuy?
+gender-select-label = ¿Imataq qari, warmi, utaq wak kasqayki?
+select-your-gender = Qari, warmi utaq wak kasqaykita akllariy
+country-of-residence-label = Suyu/Llaqta tiyasqayki
+country-of-residence-placeholder =
+    .placeholder = Suyu/Llaqta tiyasqaykita qillqay
+why-are-you-asking = Imaraykutaq tapukunki?
 
 ## Gender dropdown
 
