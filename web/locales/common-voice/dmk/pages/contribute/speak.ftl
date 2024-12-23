@@ -20,6 +20,10 @@ record-last-instruction = <recordIcon> </recordIcon> آخرݵ اݵک
 review-tooltip = اݽتھݳ کِلِپݵݣݺ جݳئزہ لݸ نݸ اݵݣ دݸبݳ رݵکݳٹ اِرِنݺ جݸ.
 share-clip = اپَنݵئ کِلِپ شݵر اِرݳ
 share-common-voice = کݳمَن وݳئس شݵر اِرݳ
+review-instruction = کِلِپݵݣݺ جݳئزہ لݸ ضرݸرت ہݸݵݳتݳ دݸبݳرہ رݵکݳٹ اِرَݳ
+record-submit-tooltip = { $actionType } کبݺ تݵݳر ہݸئݵتݳ ہَگِݵ بِجݳلݳ
+clips-uploaded = کِِپلسݳ اپلݸڈ ہݸݶݻ
+record-abort-title = ݵرکمݳس رݵکݳڈݵݣ مُکمل اِرݳ؟
 
 ## MENU ITEM TOOLTIPS
 
