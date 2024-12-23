@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] 	<bold>{ $count }</bold> ڪلپ
        *[other] 	<bold>{ $count }</bold> ڪلپا
     }
+goal-help-recording = تو ڪومن وائس اک روز جي رڪاڊنگ گول ات پڄڙ ام مدد ڪي آ.
+goal-help-validation = تو ڪومن وائس اک روز جي ويليڊيشن گول ات پڄڙ ام مدد ڪي آ.
 
 ## Reporting
 
