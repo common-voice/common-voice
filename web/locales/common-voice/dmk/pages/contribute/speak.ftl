@@ -10,6 +10,12 @@ record-no-mic-found = مݳئکرݸفݸنہ نݵ لݳم چھݸم.
 record-error-too-short = رݵکݳڈِݣ بݸت کھُٹݳ چھݳ کݳ.
 record-error-too-long = رݵکݳڈِݣ بݸت ڞِگݳ چھݳ کݳ.
 record-error-too-quiet = ریکݳڈݵݣ بݸت چھݸتݵݣ چھݳکݳ.
+record-cancel = ری-رݵکݳڈݵݣ منسُݸخ اِرݳ
+record-instruction = { $actionType }<recordIcon></recordIcon>نݸ جملݳ قِݵݸ اِرِݵ مُنݳ
+record-stop-instruction = { $actionType } <stopIcon> </stopIcon> کبݺ ہݸݵݳتݳ
+record-three-more-instruction = ڞݳئݵ چھݺ مزݵد!
+record-again-instruction = شݸنݳ!<recordIcon> </recordIcon> ہگݸ کِلِپ رݵکݳٹ اِرݳ
+record-again-instruction2 = ہگݵ خݵݽ اِرݳ، دݸبݳرہ رݵکݳٹ اِرݳ<recordIcon></recordIcon>
 
 ## MENU ITEM TOOLTIPS
 
