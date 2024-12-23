@@ -25,6 +25,27 @@ contribute = امداد
 
 respond-to-prompt = تیدی کیر جواب
 transcribe-audio = اڈیو ٹرانسکراییب
+check-transcriptions = ترجمہ نال
 
 ## Not Found Page
 
+not-found-page-header = نہ لاد
+not-found-page-content = توکاںپیج داوؤن اس نہ بیلڑ بال
+# Privacy and Terms checkbox
+accept-privacy-and-terms = مہ کامن وایس شرطو نی تے پرایویسی قبولون
+# Locales
+bsy = سباح بسایہ
+cdo = فوزہو
+cpx = ہنگ ہوا
+en = انگلش
+fr = فرانسیسی
+hch = وکساریکا
+kzi = کیلابٹ
+mbf = بابامالے
+meh = سدرن ٹکسیاسکومکس ٹک
+mel = سنٹرل ملاناو
+mmc = میکیکون مزاہوا
+ms-MY = بہاسا مالے
+msi = سباح مالے
+pez = ایسٹرن پنان
+pne = ویسٹرن پینان
