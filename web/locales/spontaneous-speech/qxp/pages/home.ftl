@@ -32,3 +32,6 @@ contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = ¿Common Voice’s Spontaneous Speech Projectopi kashankiñachu?
 signup-input-placeholder = Emailniykita qillqay
 signup-button-value = Linkta emailniyman apachiy
+footer-text-privacy = <privacyLink>Willakuymanta Kamachikuna</privacyLink>
+footer-text-terms = <termsLink>Kamachikuna</termsLink>
+footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
