@@ -26,7 +26,7 @@ how-to-cite = مہ حوالہ گِشے دم؟
 how-to-cite-explanation-bold = کماں پُور ناں یا یو آر ایل لنک ہِن حوالہ دے۔
 how-to-cite-explanation = اگر کہ ائیں تیں تاں لفظہ تھے/تھو کھیں تے لِکہ <italicizedText> امئیں</italicizedText>۔ بے ݜسی لا/تل اماں پورزئیں/پورژؤں لکھانٚتے/لُکِھگ تھو چےۡ ائیں بلی تُوں گُلاں آڅھے/چھے تے چےۡ بےۡ ݜس عوامی ڈومین مہ چیک کرج/کرِگ آں امان پورزیج/پورژاگ چےۡ الہ کاپی رائیٹ پابندی نی تھی۔ حوالہ جاتوں حوالہ ہِن مُتی تفصیل معلوم کرئیں یاں کریا زاں <guidelinesLink> ہدایاتواں صفحہ لا/تل ٹک کری </guidelinesLink>
 guidelines = پان٘د پشائ (ہدایات)
-contact-us = زاں مل رابطہ کری
+contact-us = زاں مِلیۡ بال بنہ
 add-sentence-success = اک جُملہ جمع ہُونٚتھی۔
 add-sentence-error = جُملہ جمع کرَیں مہ غلطی ایگے
 required-field = ݜس زائے پوری
@@ -35,7 +35,7 @@ small-batch-sentence-submission = کم جُملی وَیں بٹُو جَمع ک�
 bulk-sentence-submission = څئ/چئ جُملی ایگٹھی جمع کرؤں
 single-sentence = کیالی/چلوں
 small-batch-sentence = جُملی وَیں لیکھیۡ بٹُو (سیٹ)
-bulk-sentence = گھوں سیٹ
+bulk-sentence = چئ جُملی وَیں بَٹیۡ (گھوں سیٹ)
 sentence-domain-combobox-label = جُملی وَیں ڈومین
 sentence-domain-select-placeholder = ڇا ڈومینوں ہاریۡ توۡ انتخاب کرہانٚت/کرہَیں تُھو (اختیاری)
 # Sentence Domain dropdown option
@@ -67,15 +67,15 @@ sentence-variant-select-multiple-variants = عام ژیب/څئ(چئ) لہجی.
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = بُوۡئ اُکھالہ <icon> </icon>عوامی ڈومین والا جُملی.
+sc-bulk-upload-header = عوامی ڈومین والا جُملی <icon> </icon> بُوۡئ اُکھالہ
 sc-bulk-upload-instruction = تاں فائل ڙِھکے ݜلہ آ یا<uploadButton>بُوۡئ اُکھالَیں یاں کریا کلِک کرہ</uploadButton>
-sc-bulk-upload-instruction-drop = فائل بُوئی اُکھالئیں کراں ݜلہ ڇھپ کرہ۔
-bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں ملی بال بنہ<emailFragment>commonvoice@mozilla.com</emailFragment>
+sc-bulk-upload-instruction-drop = فائل ݜلگائ پھَت کرہ لہ بُوۡئ اُک
+bulk-upload-additional-information = کہ ݜس فائلاں بارہ مہ تیرئ گی معلومات تھی کھیں، زؤں ملی بال بنہ <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ݜس فائیلاں بارہ مہ تُوۡ مُتیۡ گی تفصیلات دینٚت/دی تُھو کھیں تے زاں مل رابطہ کرہ <emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ۔
+try-upload-again = گتہ کوشش کرے فائل ڙِھکے ݜُوۡ زئ آ
 try-upload-again-md = فائل گتہ بُوۡئ اُکھالئیں کوشش کرہ
 select-file = فائل خوش کرہ۔
-select-file-mobile = بُوئی اُکھالئیں کراں فائیل خوش کرہ
+select-file-mobile = بُوئی اُکھالئیں(یاں) کراں/کریا فائیل خوش کرہ
 accepted-files = گھئیں فائیل مل چہ .tsv لکزئیل ہُونٚت صرف سئیں خوش کرہ
 minimum-sentences = اک فائیل مہ کم نہ کم جُملی: 1000
 maximum-file-size = فائلاں سائزاں آخری حد: 25 ایم بی تُھو
