@@ -20,6 +20,8 @@ validate-readings = مُنِنݳئی تصدݵق اِرݳ
 listen-contribute-menu-tooltip =
     مُنِنݳئی تصدݵق اِرݳ،
     گِرمنݳئݵݣݺ جݳئزہ لݸ.
+validate-readings-menu-item-tooltip = اِستِمݳل اݵگݳ ہݵئݵئ رِݵکݳٹ اِرِن رݵڈِݣݵئ تصدݵق اِرݳ.
+review-transcriptions-menu-item-tooltip = اَپَنݵئ بݳݽَنݳ اِستِمݳل اِرݵگݳ ہݵَس دِرِݵݸ جَمَع اِرُݸݳئݺ گݵݺ گِرمِنݳئݵݣݺ جݳئزہ لݸ.
 
 ## MENU ITEM ARIA LABELS
 
