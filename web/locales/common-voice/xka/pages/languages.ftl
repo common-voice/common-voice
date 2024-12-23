@@ -1,6 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = بیل رل این۔
+language-section-in-progress-new-description = اتوں جب اوں ٹائم رل خلکم نگرانی چیر این۔اخکارہ تھال کیر جملہ ٹک تھال ضارولی
 language-section-launched = لانچڈ
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = پاتم شید بھال۔
