@@ -81,3 +81,4 @@ adding-sentences-subheader-abbreviations-explanation = Mukhafafisht woz mukhafaf
 adding-sentences-subheader-punctuation = Awqaf
 adding-sentences-subheader-punctuation-explanation = ghafch rẽrũrat ki vitẽ andi alomatẽt awqofe shomilit. yaniki, dẽ Ẽngrezi yi apost̃rofi shomil cẽr ki d̃on't̃” wox “we’re” wozi dẽ zẽrya nevishtk shomil k̃hak awaji, magam yemi mumkin nast ki tu coqghdẽr istimol “@“#.”
 adding-sentences-subheader-special-characters = khos kirdorisht wos tẽrbarẽ lavz
+adding-sentences-subheader-special-characters-explanation-1 = kumd zikẽs̃h ki k̃han dayi harfisht drũst wocẽn awaji. yanikidẽ Rũsiyi hẽruf “ж” yi lavz  kumdẽv ki dẽ Ẽngriz tag istmol ne k̃hetk, hazirgẽb dẽ Ẽngrizi nivishet tag ne yo winen
