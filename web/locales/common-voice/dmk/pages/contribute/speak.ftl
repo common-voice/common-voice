@@ -24,6 +24,12 @@ review-instruction = کِلِپݵݣݺ جݳئزہ لݸ ضرݸرت ہݸݵݳتݳ د
 record-submit-tooltip = { $actionType } کبݺ تݵݳر ہݸئݵتݳ ہَگِݵ بِجݳلݳ
 clips-uploaded = کِِپلسݳ اپلݸڈ ہݸݶݻ
 record-abort-title = ݵرکمݳس رݵکݳڈݵݣ مُکمل اِرݳ؟
+record-abort-text = مݸتݸ فَت اِرِنݳئی مطَلَپ ہݵئ چھَتݳ تُمݺ اَپَنݵئ ہَگݵخݵݽکُݽ نشݳگُت.
+record-abort-submit = کِلِپݸݣ بِجݳلِنݳ
+record-abort-continue = رݵکݳڈݵݣ مُکمل اِرݳ
+record-abort-delete = نکھِلݳ نݸ کِلِپݳ خَݽ اِرَݳ
+review-aborted = اَپلݸڈ مَنسݸخ ہݸݵݳ. تُمݺ اَپَنݵئ رݵکݳڈݸݣ خَݽ ارِنݳئی رݳئی اِرݵگُݸ چھݸتݺ؟
+review-submit-title = دݸبݳرہ دݵکھݳ نݸ بِجݳلݳ
 
 ## MENU ITEM TOOLTIPS
 
