@@ -11,6 +11,12 @@ clips-with-count-pluralized =
     }
 goal-help-recording = تو ڪومن وائس اک روز جي رڪاڊنگ گول ات پڄڙ ام مدد ڪي آ.
 goal-help-validation = تو ڪومن وائس اک روز جي ويليڊيشن گول ات پڄڙ ام مدد ڪي آ.
+contribute-more =
+    { $count ->
+        [one] تيار آن{ $count } REQUEST CONTEXT or REPORT ISSUE
+       *[other] ٻي لا ؟
+    }
+speak-empty-state = اسان وٽ ٻيا جملا ختم چِي ويان هنا زبان ا لا...
 
 ## Reporting
 
