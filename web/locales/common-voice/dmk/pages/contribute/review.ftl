@@ -47,5 +47,9 @@ sc-criteria-item-5-2 = اَگَر جملݳ اڎِݵ منِنݺ معݵݳرس پُ
 report-sc-different-language = مقتلِف بݳݽ
 report-sc-different-language-detail = اݽݵئ ہݳئݵ بݳݽَنݳ گِرمِنݸ گݵݳ چھݳ کݸنݸ اُݸ جݳئزہ لݵنݺ بلݸ استِمݳل نِݵ رݳ چھݵس.
 sentences-fetch-error = جُملݳݣݳ آنِنݺ بلݸ اݵکݳ غلطݵکݳ مݳگݸم اَئی.
+review-error = اݽݵئ جُملہ دݸبارہ دݵکھِنݺ بلݸ اݵکݳ غلطݵکݳ مݳگݸم اَئی.
+review-error-rate-limit-exceeded = تُمݺ بݸت تݵزِس جݳگُݸ چھݸت. مِربݳنݵ رِݵ ݳݵک ݽݸک لݸ نݸ جملݳݣݳ چِݵک اِرݳ تݳکہ اݽݵئ یقݵنݵ اِرݸ جݳئݵ شکݸ تݳ اݽݵئ ٹھݵک چھݳ رِݵ.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = امݺ کمݵک بڑݺ تبدݵلِݣ اِرَم چھݸم
 # menu item
 review-sentences = جملݳݣݳ دݸبݳرہ دݵکھݳ
