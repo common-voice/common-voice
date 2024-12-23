@@ -144,3 +144,4 @@ contribution-background-voices-example-1-title = ٹرݵݳسِک دݸرݵئ قِ�
 contribution-background-voices-example-1-explanation = تُمݺ آگُݸ چھݸتݺ؟ <strong>[اݸر ہݵَن قَݸ اِرِن]</strong>
 contribution-volume-title = وݸلِݵُݸم
 contribution-volume-description = مُنݵݣݺ اݣݵڎ مَجَنݳ چھَتݵئ قزرتݵ تبدݵلݵݣ ہݸئی شکݵݣݺ چھݺ. صِرُف ہݳئݵ صݸرَتَنݳ مُستَرَد اِرݳ کَبݺ چھݸت اتئݵک بُݸت ہݸ تݳ رݵکݳڈݵݣ خرݳپ ہݸ، ݵݳ (بُݸت عݳم طݸرَس) کبݺ چھݸت اتئݵک کَم ہݸ تݳ بغݵر گِرمِنݳݵݳئی حوݳلہ دݸ تمݺ اݽݵئی نݵ پݸرجݵ شکݸت تݳ کݵسݵک مُنݸ جݳگݳ چھݳ.
+contribution-reader-effects-title = مُنݵݣݺ اݵݣݵڎ اَثَرݳتݳ
