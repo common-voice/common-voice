@@ -82,3 +82,5 @@ adding-sentences-subheader-punctuation = Awqaf
 adding-sentences-subheader-punctuation-explanation = ghafch rẽrũrat ki vitẽ andi alomatẽt awqofe shomilit. yaniki, dẽ Ẽngrezi yi apost̃rofi shomil cẽr ki d̃on't̃” wox “we’re” wozi dẽ zẽrya nevishtk shomil k̃hak awaji, magam yemi mumkin nast ki tu coqghdẽr istimol “@“#.”
 adding-sentences-subheader-special-characters = khos kirdorisht wos tẽrbarẽ lavz
 adding-sentences-subheader-special-characters-explanation-1 = kumd zikẽs̃h ki k̃han dayi harfisht drũst wocẽn awaji. yanikidẽ Rũsiyi hẽruf “ж” yi lavz  kumdẽv ki dẽ Ẽngriz tag istmol ne k̃hetk, hazirgẽb dẽ Ẽngrizi nivishet tag ne yo winen
+adding-sentences-subheader-special-characters-explanation-2 = zikvẽni yavẽn k̃hun towsiqe qonũnisht ce woakhtẽs̃h yavẽ dajayẽn gon. agar yi zikri ki yi makhsus towsiqẽ fayil nast to Ẽngriziye qonũnvẽs̃h shomil k̃hakẽr istimolẽn
+adding-sentences-subheader-offensive-content = jarihana muwod

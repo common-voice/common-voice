@@ -1,9 +1,31 @@
 ## ProfileForm
 
+profile-form-username =
+    .label = Yarker k̃hakkũzg-e/wũzũmnkũzg-e nung
+profile-form-native-language =
+    .label = Tatpup-e (awalũ) zik
+profile-form-additional-language =
+    .label = Bes̃h zikisht
 profile-form-language =
     .label = zik
+profile-form-variant =
+    .label = Kumd digar { $language }zik es̃h tu k̃han?
+profile-form-variant-default-value = Hechkum digar ney
+profile-form-accent =
+    .label = Lahja (andoz)
+profile-form-custom-accent-help-text =
+    .label = Tuwep ce sokht k̃hũ lahja (andoz) bayon car?
+profile-form-custom-accent-placeholder-2 = K̃hũ lahja (andoz) bayon k̃hak nivishn shuru car
 profile-form-age =
-    .label = Ũmr
+    .label = Yiran (sol/ũmr)
+profile-form-gender-2 =
+    .label = Jins (k̃hiynan/mardina)
+leaderboard-visibility =
+    .label = Oshkor vẽdekjay
+hidden = Mũshetk
+visible = Oshkor
+native-language =
+    .label = Tatpup-e zik
 male_masculine = Nar/g̃hes̃h
 female_feminine = Moda/moch
 intersex = Trẽ mulung (Kifch jins-e mulung)
