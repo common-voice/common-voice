@@ -26,7 +26,7 @@ contribute = Yanapay
 ## Navbar
 
 respond-to-prompt = Tapuyman Kutichiy
-transcribe-audio = Uyariykunamanta Qillqaqay
+transcribe-audio = Rimasqakunamanta Qillqaqay
 check-transcriptions = Qillqaqaykunata Qhawapay
 
 ## Not Found Page
