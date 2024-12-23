@@ -22,7 +22,15 @@ show-ranking = می باگ مٹہ پاشہ۔
 get-started-goals = مقسد کیر شرو۔
 create-custom-goal = گاگ اؘ کیر ا مقسد تارا
 goal-type = تو گوا تھال داون
-both-speak-and-listen = دوا تی
+both-speak-and-listen = دوا تی۔۔۔۔۔۔منیل تے بجیل
+daily-goal = ہر دوسن ترام۔
+weekly-goal = ہفتہ اؘ ترام
+easy-difficulty = سوگار
+average-difficulty = مجیرم
+difficult-difficulty = بیکھر
+pro-difficulty = مکئہ
+want-to-continue = تو روان رݭیل داوین اؘ
+finish-editing = ایڈیکنگ اول ختم تھ نا۔
 
 ## Goals
 
