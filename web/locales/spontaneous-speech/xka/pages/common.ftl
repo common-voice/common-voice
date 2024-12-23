@@ -6,6 +6,8 @@ action-click = ٹسار
 action-tap = تراپ
 # Label for language switcher
 interface-language = مکھامکھ جیب
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+contribution-picker-label = ڈیٹاسیٹ سی امداد
 # Label for button on contribution switcher
 change = بدل اے°
 coming-soon = دی جیب پا شو ر یین
@@ -49,3 +51,7 @@ ms-MY = بہاسا مالے
 msi = سباح مالے
 pez = ایسٹرن پنان
 pne = ویسٹرن پینان
+sdo = سیرین بدایوہ
+snv = سبان
+tr = ٹرکش
+xkl = کینیا
