@@ -37,6 +37,12 @@ review-cancel = ہَگݵ بِجݳلِنݳ منسݸخ اِرݳ
 review-keep-recordings = رݵکݳڈݴ تھݵیݳ
 review-delete-recordings = مݺ رݵکݳڈݳ خݽ اݵر
 review-terms = کݳمَن وݳئس اِستِمݳل اِرِنݺ، تمݺ <termsLink>امݳ ٹرمز</termsLink> نݸ <privacyLink>پرݳئݸݵسݵ نݸٹس</privacyLink> سَشݸ رݳضِݵ چھݸت
+terms-agree = اُݸ رِضݳ چھِݵس
+terms-disagree = اُݸ رضݳ نݳ
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تُمݳ وݳئس کِلِپݳ چِپِݵ دݵنݳئی جُݸ!
+first-cta-subtitle-text = اَگَر تُمݺ امݳ بݳرݳنݳ منݸت تݳ، تݸ تُمݺ امݳ ڈِولپَرݵچُݸ مزݵد گَٹݵنݸ ٹݵکنݳلݸجݵ دُرݳلِنݺ بلݸ مَدد دݵگُݸت.
+why-donate = تُݸ کِجݺ مُنݳ چھݳئی؟
 
 ## MENU ITEM TOOLTIPS
 
