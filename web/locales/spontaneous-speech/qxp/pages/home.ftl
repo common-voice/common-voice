@@ -19,3 +19,11 @@ respond-bubble-title = <mark>Kutichiy</mark>
 respond-bubble-subtitle = Atisqaykiman hinan kutichiy
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Qillqaqay</mark>
+transcribe-bubble-subtitle = Imatachus uyarinki runaq rimasqan clipkunapi qillqaykuy
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Qhawapay</mark>
+check-bubble-subtitle = Rimasqakuna qillqasqawan tupanchu icha manachu chayta qhawapay
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = Sapa kutim rimasqakunahuñuta kachariyku
+contact-us = Rimaykuwayku
