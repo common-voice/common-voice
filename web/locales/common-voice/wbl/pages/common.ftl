@@ -130,6 +130,7 @@ lij = Ligurian i de Italy yi Muqomi Zik
 ln = Lingala i Congo et Markazi Afriqahe yi 'Bantu' Zik
 lo = Lao i Laos e Sarkori Zik
 lt = Lithuania he Sarkori Zik
+ltg = Latvia he Tareekhi Zik, Yem Zikes`h de Mashriqi Baltic Iloqa k`hanen
 
 # [/]
 
