@@ -19,3 +19,6 @@ misreadings-example-4 = بھونرا شور مݭ بل
 misreadings-tip-1 = اسان تھ اشل پکار
 misreadings-tip-2 = اصلی متن می اے نان
 misreadings-tip-3 = کھچ یوپاگاَل ٹیکل
+still-have-questions = تیپہ پہ رس می باڑ اؘ بیت این
+contact-common-voice = کامن وائس ٹائم سہ رابط تھا۔
+public-domain = تیپہ پہ رس می باڑ اؘ بیت این۔
