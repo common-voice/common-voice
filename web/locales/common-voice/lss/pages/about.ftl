@@ -153,3 +153,5 @@ about-playbook-how-project-governance-content-7 = مزید پڙھ تہ اسین 
 ## How is Common Voice funded
 
 about-playbook-how-funded = کو من وائس کیئن ڦند چه تی؟
+about-playbook-how-funded-content-1 = کو من واٹس موزیلا فاؤنڈنش جو پروجیڪٽ US 501c3 a ا.   پروجیڪٽ ھلا تو سماجی عطيا ٻیو امداد پوری دنیا مان.
+about-playbook-how-funded-content-2 = هنم الائي پیسو تو کپا ڊيٽا سيٽ جي ميزباني ٻيو ريليز ڪرڻ ام.
