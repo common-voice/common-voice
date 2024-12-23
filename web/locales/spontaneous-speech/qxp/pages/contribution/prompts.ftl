@@ -20,3 +20,5 @@ submit-all-button = Llipinta Apachiy
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Kay p’anqata imaynatachus purichina yachay
+learn-how-to-use-prompts-explanation = Tapukuykunata atisqaykiman hinalla kutichiy huk ishkay rimarirkunapi. Chiqanchaypuni allin rimaywan kananta mana qhinchay simiwan.
