@@ -25,3 +25,6 @@ review-transcriptions-menu-item-tooltip = اَپَنݵئ بݳݽَنݳ اِستِ
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = پݸرجِنݳئݵ اِختِݵݳرݳتݵݣݺ مݵنُݸ
+validate-readings-menu-item-aria-label = کمݵݸنِٹݵ ممبَرݺ ہَگݵ دݵنݺ گِرمنݳئݵݣݺ تصدݵق اِرݳ
+review-transcriptions-menu-item-aria-label = ٹھݵکُݽݵئ کݳرݸ رݵکݳٹ اِرݸت جُملݵݣݺ گِرمِنݳݵݳݣݳ دݸبݳرہ دݵکھݳ
