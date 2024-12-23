@@ -27,7 +27,7 @@ how-to-cite-explanation-bold = کماں پُور ناں یا یو آر ایل ل
 how-to-cite-explanation = اگر کہ ائیں تیں تاں لفظہ تھے/تھو کھیں تے لِکہ <italicizedText> امئیں</italicizedText>۔ بے ݜسی لا/تل اماں پورزئیں/پورژؤں لکھانٚتے/لُکِھگ تھو چےۡ ائیں بلی تُوں گُلاں آڅھے/چھے تے چےۡ بےۡ ݜس عوامی ڈومین مہ چیک کرج/کرِگ آں امان پورزیج/پورژاگ چےۡ الہ کاپی رائیٹ پابندی نی تھی۔ حوالہ جاتوں حوالہ ہِن مُتی تفصیل معلوم کرئیں یاں کریا زاں <guidelinesLink> ہدایاتواں صفحہ لا/تل ٹک کری </guidelinesLink>
 guidelines = پان٘د پشائ (ہدایات)
 contact-us = زاں مِلیۡ بال بنہ
-add-sentence-success = اک جُملہ جمع ہُونٚتھی۔
+add-sentence-success = ایک جُملہ جمع ہُو تھی۔
 add-sentence-error = جُملہ جمع کرَیں مہ غلطی ایگے
 required-field = ݜس زائے پوری
 single-sentence-submission = ایک جُملہ جمع کرؤں
@@ -36,10 +36,12 @@ bulk-sentence-submission = څئ/چئ جُملی ایگٹھی جمع کرؤں
 single-sentence = کیالی/چلوں
 small-batch-sentence = جُملی وَیں لیکھیۡ بٹُو (سیٹ)
 bulk-sentence = چئ جُملی وَیں بَٹیۡ (گھوں سیٹ)
-sentence-domain-combobox-label = جُملی وَیں ڈومین
+sentence-domain-combobox-label = جُملی واں ڈومین
 sentence-domain-select-placeholder = ڇا ڈومینوں ہاریۡ توۡ انتخاب کرہانٚت/کرہَیں تُھو (اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = خوراک تے زراعت
+# Sentence Domain dropdown option
+automotive_transport = گاڑی تے مشینہ
 # Sentence Domain dropdown option
 finance = حساب کتاب/پَیس
 # Sentence Domain dropdown option
@@ -47,9 +49,9 @@ service_retail = خدمت تے پرچون (دُکانداری)
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
-healthcare = صحت
+healthcare = صِحت
 # Sentence Domain dropdown option
-history_law_government = تاریخ، قانون تے حکومت
+history_law_government = تاریخ، قانون تے حُکمت
 # Sentence Domain dropdown option
 language_fundamentals = زبئیں/ژِباں بنیادی څزہۡ (لکہ ہندسی، حرفہ، پیس)
 # Sentence Domain dropdown option
