@@ -38,3 +38,5 @@ sc-review-link = دݸبݳرہ دݵکھِنݳ
 
 sc-criteria-modal = ⓘ دݸبݳرہ دݵکھِنݳئی کرݳٹݵرِݵݳ
 sc-criteria-title = دݸبݳرہ دݵکھِنݳئی کرݳٹݵرِݵݳ
+sc-criteria-make-sure = یقݵنݵ اِرَتݳ جُملہ منݵنݵ دݵنݺ معݵݳرَس پݸرݳ اُگُلݵگݳ چھݳ:
+sc-criteria-item-1 = جُملݳئݶ اِملݳ لݳزمݵ ٹھݵک ہݸ.
