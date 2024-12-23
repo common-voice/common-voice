@@ -17,6 +17,10 @@ contribute-more =
        *[other] ٻي لا ؟
     }
 speak-empty-state = اسان وٽ ٻيا جملا ختم چِي ويان هنا زبان ا لا...
+no-sentences-for-variants = توجي زبان جي شاخ جا جملا ختم ٿيا هوندا! اگر تون سمجي تو تا صحيح ا، تو ڊسي سڳي تو ٻيا جملا توجي زبان ا جا سيٽنگ اک بدلي ڪري.
+speak-empty-state-cta = جملا ڏي
+speak-loading-error = اسانک جملا ڪون ملي ساڳيا تا تون ڳا لائين. مهرباني ڪري وري ڪوشش ڪر.
+record-button-label = پانجي آواز ريڪارڊ ڪر
 
 ## Reporting
 
