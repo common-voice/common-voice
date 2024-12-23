@@ -35,7 +35,7 @@ vote-yes = جی
 vote-no = نا
 datasets = ډېټا سېټ
 languages = زبان
-about = باره
+about = باره نر
 partner = هنډی وال
 submit-form-action = شند
 
