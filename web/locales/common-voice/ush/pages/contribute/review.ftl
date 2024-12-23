@@ -38,6 +38,8 @@ sc-review-link = دوبارا ݜکیم
 
 sc-criteria-modal = جائزہ اصول
 sc-criteria-title = جائزہ اصول
+sc-criteria-item-3 = جملہ وینائے قابل ہنی
+sc-criteria-item-4 = کہ جملہ ئی اصول مطابق ہنی کلک تھا&quot; اپرو کارا&quot;سوبن طرفتی بٹنی دے۔
 sc-criteria-item-5-2 = کہ آجینو اصول مطابق جملہ ئی برابر نی بینا، کلک تھی&quot; مسترد کارا&quot;آبن طرفتی بٹنی دے۔ کہ تو تی جملہ او بارا در یقین نیِش، تو انا پھتو بئیلا اؤ مݜو تے ہورو تو بئیلا۔
 report-sc-different-language = ہُورے جیِب
 # SENTENCE-COLLECTOR-REDIRECT PAGE
