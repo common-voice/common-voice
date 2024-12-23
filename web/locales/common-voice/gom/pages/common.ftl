@@ -288,3 +288,9 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Amka zai</mark><br/><mark>tuje moddot!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Dataset host krpaak aani aami kiten kortat taka aadaarun aashillyaa 100+ bhasha smudaayaan khaatir platform sudaarpaak vrsaak sumaar lakh'ani dollars lagta. <strong>Tumi uktyaa, smaaveshk data mol dilyaar - aiz daan korat!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Amka zai</mark><br/><mark>tuji moddot!</mark>
+localization-select =
+    .label = Bhaas/sthaanikikrn nivd
