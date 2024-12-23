@@ -24,3 +24,5 @@ learn-how-to-use-prompts = Kay p’anqata imaynatachus purichina yachay
 learn-how-to-use-prompts-explanation = Tapukuykunata atisqaykiman hinalla kutichiy huk ishkay rimarirkunapi. Chiqanchaypuni allin rimaywan kananta mana qhinchay simiwan.
 learn-how-to-use-prompts-guidance = Ñit'iy <guidanceLink>kayta</guidanceLink> kay p'anqata imaynatachus purichina yachanapaq
 learn-how-to-use-transcribe = Rimasqakunamanta qillqaqayta yachay
+learn-how-to-use-transcribe-explanation = Chay runapaq rimasqanmanta kasqantapuni qillqapay, chaymantapas 'mm', utaq 'ehh' rimasqakunatapis.
+learn-how-to-use-transcribe-guidance = Ñit'iy <guidanceLink>kayta</guidanceLink> kay p'anqata imaynatachus purichina yachanapaq
