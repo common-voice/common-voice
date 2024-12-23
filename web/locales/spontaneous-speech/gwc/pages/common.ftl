@@ -38,6 +38,7 @@ accept-privacy-and-terms = یہ متفق تھو  کامن وائساٞں<termsLi
 # Locales
 bsy = سباہ بِساٞیا
 cdo = فوجو
+cpx = ہینگ ہُوا
 en = انگریزی
 fr = فرانسیسی
 hch = ویراٞریکا
