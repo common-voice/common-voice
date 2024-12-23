@@ -7,6 +7,7 @@ offensive_speech-detail = اوما پر اوبٹ تہ لات جولال این۔
 different_language = اوراک اَجیب
 different_language-detail = می کاں خیال آس تو رو رس دا اورایک اؘ جب این۔
 personally_identifiable_information = تانی جانیل اطلاعات۔
+personally_identifiable_information-detail = اوں پر اپین مانݭ پوانیل اسپاب این۔ لحہ تنی باگ ۔نام امیل تہ نمبر۔
 report-other-comment =
     .placeholder = جول
 # Label for textarea in report modal
