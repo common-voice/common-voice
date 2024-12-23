@@ -10,3 +10,5 @@ dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
 dataset-donate-modal-heading = تُو تی معلوم بیلو۔۔
+data-download-yes = صحیح بیِلو
+data-download-deny = نأ

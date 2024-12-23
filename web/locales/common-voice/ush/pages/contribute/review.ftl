@@ -51,9 +51,12 @@ sc-review-rules-title = { "" }
 sc-review-empty-state = انا جیِب در ریویو کارا جملہ ئی موجود نیِش۔
 report-sc-different-language = ہُورے جیِب
 report-sc-different-language-detail = انا مختلف در جیِبو لیکینی مہ کدا نظر ثانی تھیم۔
+sentences-fetch-error = جمللہ اینتی ایٹون در غلطی بیری
+review-error = جملئی جائزہ گھنینودنر غلطی بیلی
+review-error-rate-limit-exceeded = تُو لال تیز بئیلا۔ ایناک شانتے ساہ گھیِن أنی جملئی سہی ہینی۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = آسو لالو غٹ بدلون آٹونا
-sc-redirect-page-subtitle-1 = { "" }
+sc-redirect-page-subtitle-1 = جملہ جمع تھونو والا کور کامن وائس پلیٹ فارم تی  گاؤ۔ تو چین<writeURL> لیکونو</writeURL> ایک جملہ یا <reviewURL> ریویو</reviewURL>اکوست جملہ سبمیشن تھو بھئینو ککامن وائس۔
 sc-redirect-page-subtitle-2 = آسو کہ سوال تھی <matrixLink> نخا جا</matrixLink> ڈیسکورس </discourseLink> یا یا ای میل جا</emailLink>۔
 # menu item
 review-sentences = جملئی جائزہ گھیننا
