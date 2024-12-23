@@ -14,6 +14,10 @@ record-cancel = ریکارڈنگ کینسل تھے
 record-instruction = { $actionType } با جملہ تیز زور دے رس<recordIcon></recordIcon>
 record-stop-instruction = <stopIcon></stopIcon> کیرے بیلو
 record-three-more-instruction = ڇے دھریل نا!
+clips-uploaded = کلپ اپلوڈ بیلو
+record-abort-title = اول ریکارڈنگ ختم تے؟
+record-abort-text = چین پھتونو تمُو کوروم ضائع تھونو۔
+record-abort-submit = کلپ جمع تھونو
 
 ## MENU ITEM TOOLTIPS
 
