@@ -51,5 +51,7 @@ review-error = اݽݵئ جُملہ دݸبارہ دݵکھِنݺ بلݸ اݵکݳ �
 review-error-rate-limit-exceeded = تُمݺ بݸت تݵزِس جݳگُݸ چھݸت. مِربݳنݵ رِݵ ݳݵک ݽݸک لݸ نݸ جملݳݣݳ چِݵک اِرݳ تݳکہ اݽݵئ یقݵنݵ اِرݸ جݳئݵ شکݸ تݳ اݽݵئ ٹھݵک چھݳ رِݵ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = امݺ کمݵک بڑݺ تبدݵلِݣ اِرَم چھݸم
+sc-redirect-page-subtitle-1 = جملݳݣݳ جَمع ریگݳ ہݵئ مݸتݸ انݳرݸ کݳمَن ݸݳئس پلݵٹ فݳمَس پھَر ہݸگݳ چھݳ. <writeURL>مݸتݸ تُمݺ کݳمَن ݸݳئسَس اݵک جملݳک گِرمِنݳئی</writeURL> شکݵگُچھݸت ݵݳ <reviewURL>اݵک اݵک جملݺ جمع رݳنݳئی دَرخݳستݵݣݺ </reviewURL>جݳئزہ لݵئ شکݵگُچھݸت.
+sc-redirect-page-subtitle-2 = امݺ پݸ <matrixLink>مݵٹرݵکس</matrixLink> <discourseLink>ڈِسکݸرس</discourseLink> <emailLink>اݵ مݵل</emailLink> لَس سݸݳلݸݣ مُنݳ.
 # menu item
 review-sentences = جملݳݣݳ دݸبݳرہ دݵکھݳ
