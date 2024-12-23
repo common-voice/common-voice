@@ -15,6 +15,9 @@ size-gigabyte = جی بی
 size-megabyte = ایم بی
 download-language = مِنی والہ /ڈاؤنلوڈ { $language }
 validated-hours = سُون٘ݜیۡرالیۡ گین٘ٹی (منظور ہُولیۡ)
+whats-inside = کامن وائساں ڈیٹا سیٹہ مژ/من٘ز گی څیز تُھو؟
+get-started-speech = اے لہ اواز پُنیَیں شروع کرِگ
+other-datasets = مُتہۡ اوازاں ڈیٹاسیٹہ
 feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی

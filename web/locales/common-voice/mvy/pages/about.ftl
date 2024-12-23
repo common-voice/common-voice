@@ -99,6 +99,8 @@ about-playbook-how-access-dataset = مہ ڈیٹا سیٹ گِشے ہتے آم آ
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پراجیکٹَیں فیصلی گِشے کرُژاں تھی؟
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائساں فنڈ گولاں ای تُھو؟

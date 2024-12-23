@@ -1,11 +1,17 @@
+# GUIDELINES PAGE
+guidelines-header = حصہ گلئیں پان٘د پشائ (ہدایات)
 voice-collection = اَوازَیں کھلٹُو
+sentence-collection = جُملی وَیں کَھلٹُو
 varying-pronunciations = رنٚگا رنٚگ ادائیگی
+misreadings = اَوان پَڑژیل
+offensive-content = اڅھکوۡ مواد
 background-noise = ڈاپاتیاں شُور
 background-voices = ڈاپاتیوں آوازہ
 volume = اواز۔
 reader-effects = پڑان٘لو اثر انداز ہُوئ تُھو
 just-unsure = سَم پت نی تھی؟
 example = مِثال
+varying-pronunciations-explanation-1 = بے رن٘گا رن٘گ لہجیوں خوش ہوگ تھو۔ خبردار! اوان پڑی چھی، یا اَوان زئ لا زُور آڇھی یا سوالیہ نشان پھت کرہ چھی کرے ایک کٹرُو ݜَیں بلیُوں لا کگَیں(رد کرَیں) نہ مُوٹھن سُوچ کری۔ گِنہ چےۡ دُنئ مہ مُختلف قسم خلکہ قسما قِسمَیں لہجیُوں مہ ہر رَن٘گَیں ادائگی کراں تھو، سیوں مہ بیکتُک څیز ݜے ہو تُھو چےۡ سَیں څاں کَچھ اور مُت خلکؤں نہ تُوں نی ݜُون٘یل ہو تُھو۔ کاں خلکہ څؤں نہ ہِلاک کرٹ ژیب دیں تھو کھیں سِوَیں ہُم ہِلاک اہمیت دی۔
 varying-pronunciations-example = پان٘د صاف نی آن٘سیۡ۔
 varying-pronunciations-tip-1 = [کنیڈَیں ان٘گَرزی مہ رُوٹ 'راؤٹ' پڑژا تُھو]
 varying-pronunciations-tip-2 = [برطانیَیں ان٘گَرزی مہ ہوسی "رُوٹ" بنُژ]
