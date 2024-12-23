@@ -29,3 +29,6 @@ data-bubble-subtitle = Sapa kutim rimasqakunahuñuta kachariyku
 contact-us = Rimaykuwayku
 contact-us-title = ¿Yanapakuytachu utaq ñuqaykuwan kuska yanapayta munanki?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = ¿Common Voice’s Spontaneous Speech Projectopi kashankiñachu?
+signup-input-placeholder = Emailniykita qillqay
+signup-button-value = Linkta emailniyman apachiy
