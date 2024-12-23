@@ -29,3 +29,4 @@ download-request-modal-title = Khũmũv-e rabtisht/rishayisht/ragisht (links)
 download-request-modal-description = Dremev ya rabtisht/rishayisht/ragisht ki yav k̃hũ zip faylev khamũvit.
 download-request-link-text = Zip #{ $offset } cẽ { $total } en
 download-request-metadata-link = Jũmla-e nivishetkisht
+download-request-link-single = Sashtes̃h ya URL’v e yikto naql et piwand k̃hak (nidhũvn)  dẽ k̃hũ khus̃hketk khũmũvn-e sũkrotchi  kẽt̃ak kecerit.  Yashtep dẽ 12 so’at vec̃hen, magam sashtes̃h woz skem ruy wẽzayn  k̃he kum ki ce wakht s̃heg̃h’ves̃h paydo k̃hak kecerit.
