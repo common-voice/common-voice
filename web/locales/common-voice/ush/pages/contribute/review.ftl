@@ -20,6 +20,7 @@ sc-review-form-button-approve-shortcut = y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = تو ہُم کیبورڈ شارٹ کٹ استعمال تھو بئیلا: { sc-review-form-button-approve-shortcut } منظور تھون،{ sc-review-form-button-reject-shortcut }رد تھونو کارا{ sc-review-form-button-skip-shortcut }سکیپ تھونو کارا
 sc-review-form-button-submit =
     .submitText = جائزہ ختم بونو
 # Variables:
@@ -30,8 +31,16 @@ sc-review-form-reviewed-message =
         [one] 1
        *[other] 2
     }
+sc-review-form-review-failure = ریویو سیو نی بیلی، مہربانی تھا بعد در دوبارا کوشش تھا۔
+sc-review-link = دوبارا ݜکیم
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = جائزہ اصول
+sc-criteria-title = جائزہ اصول
+sc-criteria-item-5-2 = کہ آجینو اصول مطابق جملہ ئی برابر نی بینا، کلک تھی&quot; مسترد کارا&quot;آبن طرفتی بٹنی دے۔ کہ تو تی جملہ او بارا در یقین نیِش، تو انا پھتو بئیلا اؤ مݜو تے ہورو تو بئیلا۔
+report-sc-different-language = ہُورے جیِب
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = آسو لالو غٹ بدلون آٹونا
 # menu item
 review-sentences = جملئی جائزہ گھیننا
