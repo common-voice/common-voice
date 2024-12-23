@@ -76,3 +76,4 @@ adding-sentences-subheader-speakable = K̃hẽnakẽ loyiq
 adding-sentences-subheader-speakable-explanation = Behtẽrin jũmlayi fitri woz gap dinẽn — yawi digarvẽ joynẽr oson wocẽn awaji. dẽlavze owozẽ ikhtilof zẽrũri, skẽs̃h yem be kushishen ki rẽzokor jẽmoater ricord̃ingẽ dilchaspẽt mẽzador gon.
 adding-sentences-subheader-numbers = Adad
 adding-sentences-subheader-numbers-explanation = didẽg̃hikẽr, dẽ jũmlayi hindisa ne wocẽn baf chizer ki yashtẽs̃h sarowoz joynẽ wokht mushkil gon. kumd indisas̃h ki cẽrsokht joyen yas̃h holotẽ metobiq sẽk d̃at̃aset̃ pẽrishoni pẽydon, misoliki, hindisa “2409” albat kifche sũratẽr dũst joyd “wistẽ- cẽbũr   sifer naw”woz “bu hozorẽt cẽbũr sadẽt naw”.
+adding-sentences-subheader-abbreviations = Mukh̃faf woz mukkhafaf

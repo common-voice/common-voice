@@ -152,6 +152,8 @@ mxu = Mada i Nigeria he yi Muqomi Zik
 my = Burmese i Mayanmar (Burma) he Sarkori Zik
 myv = Erzia i Russian Federation e Mordovia woz chandi digar Iloqave Zik
 nan-tw = Taiwanese Ziki Taiwane cebur panz̃ Zikve Majmua he nung tey
+nb-NO = Norwegian Bokmal i Norway he kitobi Zik
+nd = IsiNdebele Zikes̃h de Shumali Zimbabwe k̃hanen
 
 # [/]
 
