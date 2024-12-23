@@ -17,6 +17,9 @@ record-three-more-instruction = ڞݳئݵ چھݺ مزݵد!
 record-again-instruction = شݸنݳ!<recordIcon> </recordIcon> ہگݸ کِلِپ رݵکݳٹ اِرݳ
 record-again-instruction2 = ہگݵ خݵݽ اِرݳ، دݸبݳرہ رݵکݳٹ اِرݳ<recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> آخرݵ اݵک
+review-tooltip = اݽتھݳ کِلِپݵݣݺ جݳئزہ لݸ نݸ اݵݣ دݸبݳ رݵکݳٹ اِرِنݺ جݸ.
+share-clip = اپَنݵئ کِلِپ شݵر اِرݳ
+share-common-voice = کݳمَن وݳئس شݵر اِرݳ
 
 ## MENU ITEM TOOLTIPS
 
