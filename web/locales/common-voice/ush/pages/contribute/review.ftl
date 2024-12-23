@@ -38,11 +38,22 @@ sc-review-link = دوبارا ݜکیم
 
 sc-criteria-modal = جائزہ اصول
 sc-criteria-title = جائزہ اصول
+sc-criteria-make-sure = آدے یقین تھے اے آنا جملہ کھری اصولوں مطابق ہنی:
+sc-criteria-item-1 = جملاؤ سپلنگ بالکل ٹیک ہنی۔
+sc-criteria-item-2 = { "" }
 sc-criteria-item-3 = جملہ وینائے قابل ہنی
 sc-criteria-item-4 = کہ جملہ ئی اصول مطابق ہنی کلک تھا&quot; اپرو کارا&quot;سوبن طرفتی بٹنی دے۔
 sc-criteria-item-5-2 = کہ آجینو اصول مطابق جملہ ئی برابر نی بینا، کلک تھی&quot; مسترد کارا&quot;آبن طرفتی بٹنی دے۔ کہ تو تی جملہ او بارا در یقین نیِش، تو انا پھتو بئیلا اؤ مݜو تے ہورو تو بئیلا۔
+sc-criteria-item-6 = کہ جائزے کارا تو ست جملہ ئی ختم بیلے، مہربانی تھا ہور جملئی جمع تھوندر اسائی مدد تھے۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چیک تھے</icon>انا جیِبے لحاظ دی صحیح جملئی ہنی؟
+sc-review-rules-title = { "" }
+sc-review-empty-state = انا جیِب در ریویو کارا جملہ ئی موجود نیِش۔
 report-sc-different-language = ہُورے جیِب
+report-sc-different-language-detail = انا مختلف در جیِبو لیکینی مہ کدا نظر ثانی تھیم۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = آسو لالو غٹ بدلون آٹونا
+sc-redirect-page-subtitle-1 = { "" }
+sc-redirect-page-subtitle-2 = آسو کہ سوال تھی <matrixLink> نخا جا</matrixLink> ڈیسکورس </discourseLink> یا یا ای میل جا</emailLink>۔
 # menu item
 review-sentences = جملئی جائزہ گھیننا
