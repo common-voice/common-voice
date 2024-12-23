@@ -79,3 +79,5 @@ adding-sentences-subheader-numbers-explanation = didẽg̃hikẽr, dẽ jũmlay
 adding-sentences-subheader-abbreviations = Mukh̃faf woz mukkhafaf
 adding-sentences-subheader-abbreviations-explanation = Mukhafafisht woz mukhafafisht yaniki “USA” yoy “ICE” vi dẽ  jumla zẽrya ne kẽtak baf chizẽr ki yavẽb hazir joyẽn ki yab yave hija sokht ne wost. yi mukhafafnẽb ghaf qisme drũst joyn hũmit
 adding-sentences-subheader-punctuation = Awqaf
+adding-sentences-subheader-punctuation-explanation = ghafch rẽrũrat ki vitẽ andi alomatẽt awqofe shomilit. yaniki, dẽ Ẽngrezi yi apost̃rofi shomil cẽr ki d̃on't̃” wox “we’re” wozi dẽ zẽrya nevishtk shomil k̃hak awaji, magam yemi mumkin nast ki tu coqghdẽr istimol “@“#.”
+adding-sentences-subheader-special-characters = khos kirdorisht wos tẽrbarẽ lavz
