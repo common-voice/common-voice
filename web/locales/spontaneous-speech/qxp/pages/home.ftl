@@ -30,6 +30,7 @@ contact-us = Rimaykuwayku
 contact-us-title = ¿Yanapakuytachu utaq ñuqaykuwan kuska yanapayta munanki?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = ¿Common Voice’s Spontaneous Speech Projectopi kashankiñachu?
+signup-terms = Kayta ñit'ispa “Linkta emailniyman apachiy”, qan tupanki ñuqaykuq <termsLink>Kamachikuykunawan</termsLink> hinallataq <privacyLink>Willakuymanta Kamachikunawan</privacyLink> chaymanta Mozilla emailta apachimusunkiman imaynatas Common Voice's Spontaneous Speech Projectuman waykunaykipaq.
 signup-input-placeholder = Emailniykita qillqay
 signup-button-value = Linkta emailniyman apachiy
 footer-text-privacy = <privacyLink>Willakuymanta Kamachikuna</privacyLink>
