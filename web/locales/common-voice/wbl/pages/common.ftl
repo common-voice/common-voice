@@ -131,6 +131,10 @@ ln = Lingala i Congo et Markazi Afriqahe yi 'Bantu' Zik
 lo = Lao i Laos e Sarkori Zik
 lt = Lithuania he Sarkori Zik
 ltg = Latvia he Tareekhi Zik, Yem Zikes`h de Mashriqi Baltic Iloqa k`hanen
+luo = Kenya et Tanzania he yi Lou Guruhe Zik
+lv = Latvia he Sarkori Zik
+lzz = Laz Zikes`h the Turkyet Georgia a Sarhadi K`hanen
+mai = Maithili Zikes`h de Hindustonet Nepale chandi Jayev k`hanen
 
 # [/]
 
