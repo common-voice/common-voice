@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Sharokatdoriyisht
+partnerships-header-text = Umumi owog̃hev g̃hirũvn-e dẽstan,  ghafch chizes̃h  k̃hak wost. Sakes̃h wir yem e ne gok̃hen. Zoqes̃h carit a ki dẽ saken sharokatdori carit?  Sav-e kũs̃hũyn en  sakep ghafch ziyot khũsh wocen.
 partnerships-get-in-touch = Piwand halit
 partnerships-become-a-partner = Umumi Owog̃h-e sharokatdor wocit
 partnerships-community-header = Yũrt,paydo k̃hakkũzgisht woz shahri samoj
