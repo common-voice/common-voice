@@ -21,9 +21,11 @@ submit-all-button = څنگ جمع کشی
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = یاد کشی اینہ صفحہ کائ کہ استعمال کوستہ اسہ کا
+learn-how-to-use-prompts-explanation = نوݜٹہ طبعی طور تہ جواب پعہ چوک جملہ کو بچی با۔ اینہ ورے یقین کشی چہ توستہ زبان قابل احترام دے بے ضرر اسہ۔
 learn-how-to-use-prompts-guidance = کلک<guidanceLink>انی</guidanceLink>یاد کوستہ کہ صفحہ کائ کہ استعمال کوستہ اسہ کا
 learn-how-to-use-transcribe = ٹرانسکرائب کوستہ زعں
 learn-how-to-use-transcribe-explanation = براہِ مہربانی منچی کائ منںہ تہ با خوبخو اوجیکہ ستراݩع بشمول اوجیستہ الفاظ لکہ' ام'یا 'اِرر'
 learn-how-to-use-transcribe-guidance = کلک<guidanceLink>انی</guidanceLink>یاد کوستہ کہ صفحہ کائ کہ استعمال کوستہ اسہ کا
 learn-how-to-use-check-transcript = ٹراسکریپشن کائ کہ ایںشکوعسہ کہ یاد کشںع
+learn-how-to-use-check-transcript-explanation = ٹرانسکرپشن ہر امکی لفظ یا غیر لغوی گفتگو ستہ کوٹ گرفت تہ اوستہ بولہ امکی اوستہ منچے گجی کعستہ بولہ بشمول تکرار
 learn-how-to-use-check-transcript-guidance = کلک<guidanceLink>انی</guidanceLink>یاد کوستہ کہ صفحہ کائ کہ استعمال کوستہ اسہ کا

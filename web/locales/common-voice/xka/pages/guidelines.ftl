@@ -1,0 +1,27 @@
+# GUIDELINES PAGE
+guidelines-header = پان پشال می مدد تھال۔
+voice-collection = تراٹ سمٹل۔
+sentence-collection = جولال سمٹیل
+varying-pronunciations = باڑ تلفظ
+misreadings = کھچہ منیل
+background-noise = شن پت آؤؤ
+background-voices = ݭن پت آؤؤ
+volume = تراٹ
+reader-effects = منندر ام راے
+just-unsure = اتیش شکیی
+example = مثال۔
+misreadings-explanation-2 = عام غلطیان ان این۔
+misreadings-explanation-3 = ریکاڈنگ اؘ اولک دودت رل اے ڄار این۔
+misreadings-example-1 = بے چہ پلیل کیر درتھ بان
+misreadings-example-2 = ٹیکل اؘ پاتم دودت رل ڄار این۔
+misreadings-example-3 = بے°چےہپیلیل کیردر تہ نیکان۔
+misreadings-example-4 = بھونرا شور مݭ بل
+misreadings-tip-1 = اسان تھ اشل پکار
+misreadings-tip-2 = اصلی متن می اے نان
+misreadings-tip-3 = کھچ یوپاگاَل ٹیکل
+still-have-questions = تیپہ پہ رس می باڑ اؘ بیت این
+contact-common-voice = کامن وائس ٹائم سہ رابط تھا۔
+public-domain = عوامی ڈومین۔
+citing-sentences = جملہ اؘ اولاہ دا تہ
+adding-sentences = جولال شامل تھا۔
+reviewing-sentences = جولال نالا
