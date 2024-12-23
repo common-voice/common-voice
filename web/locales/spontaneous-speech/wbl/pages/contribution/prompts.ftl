@@ -22,3 +22,10 @@ submit-all-button = Kũk̃ht chermũv/kat̃
 
 learn-how-to-use-prompts = Dish ce sokht yem ruy e yarker wũzũmen?
 learn-how-to-use-prompts-explanation = Cumer be ki kecer, fitri lihozer dẽ chand jũmla’vev ya yizẽmuner (prompter)Rost ki jawob rand . bowarig̃h car ki  sav-e jaobi dẽ obrumandig̃h (izatmandig̃h) woz biyurish (bihamlah)
+learn-how-to-use-prompts-guidance = Yem ruy-e cesokht yarker wũzũmen dẽstan <guidanceLink> drem </guidanceLink> Qlick/praqũv  (klik)
+learn-how-to-use-transcribe = Dish ki ce sokht owog̃hu qisa’v-e nivishen(t̃ranskrayben)
+learn-how-to-use-transcribe-explanation = Haya sokht nivishit  ce sokht ki ya khalgee k̃hat, yani  kum jay wũdrũkkũzg-e lavz ce sokht ki K”um” yoy “errr”
+learn-how-to-use-transcribe-guidance = Qlich/praqũv (klik) <guidanceLink>drem</guidanceLink> dish ce sokht yem ruy-e yarker wũzũmen
+learn-how-to-use-check-transcript = Dish ce sokht owog̃hũ qisa nivishetk  (t̃ranskripshan)didig̃hen?
+learn-how-to-use-check-transcript-explanation = Yi owog̃hũ qisa’v nivishetk  zarũr ya khalg-e haryi lavzev, lavz en trẽ vich owog̃hev, woz bor bor k̃hẽnetk qisa’vev qayd/ band cart.
+learn-how-to-use-check-transcript-guidance = Qlich/praqũv (klik)<guidanceLink> drem</guidanceLink> dish ce sokht yem ruy-e yarker wũzũmen
