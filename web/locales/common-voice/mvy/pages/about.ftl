@@ -77,6 +77,8 @@ about-playbook-how-add-sentences = مہ جُملی گِشے ٹل کرم؟
 ## How to record quality
 
 about-playbook-how-record-quality = مہ اُتَھلیۡ پاٹکی/کوالٹی یاں اواز گِشے ٹیپ کرَم؟
+about-playbook-how-record-content-2 = ڈاپاتیاں شُور نہ اما رڇھہ ۔ تے تیں بال سُگائ ݜُوْن٘ژا تھی۔
+about-playbook-how-record-content-3 = جُملہ احتیاط ہِن پڑہ ۔ گی لفظ پھت، بدل یا چئ را نَیں۔
 
 ## How to grow language
 
