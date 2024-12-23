@@ -79,15 +79,23 @@ about-playbook-how-add-sentences = مہ جُملی گِشے ٹل کرم؟
 about-playbook-how-record-quality = مہ اُتَھلیۡ پاٹکی/کوالٹی یاں اواز گِشے ٹیپ کرَم؟
 about-playbook-how-record-content-2 = ڈاپاتیاں شُور نہ اما رڇھہ ۔ تے تیں بال سُگائ ݜُوْن٘ژا تھی۔
 about-playbook-how-record-content-3 = جُملہ احتیاط ہِن پڑہ ۔ گی لفظ پھت، بدل یا چئ را نَیں۔
+about-playbook-how-record-content-4 = بلی شروع کرَیں نہ مُوٹھِن ݜس بال پکیرا چے پلیٹ فارم کام کیری تُھو  آں ݜُو گتہ چے اُو صرف تے بند ہو کلہ تُوں بس کیری کھیں۔
+about-playbook-how-record-content-5 = <accuracyLink>سُون٘ݜیرَیں یاں شرطہ واں بارہ مہ مُت نھالہ۔</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = کامن وائسہ لا بِس ایک ژیب اوک گِشے مُوٹُھو ہران٘گَیں تھو؟
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-6 = مرگلتیا تے نیٹ ورکہ
 
 ## How to validate
 
+about-playbook-how-validate = مے گِشے پتہ اے تھی چے اوازاں ایک کٹرُو اوک منظور کرؤں تُھو؟
+about-playbook-how-validate-content-1 = کہ تُو اس <strong>ݜُوں ہَیں تُھو </strong> آں اسی لا <strong> پو ہُوئ تُھو </strong> کھیں اُو <strong> منظُوور ہویں یاں قابل </strong> کٹرُو تُھو۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مہ ڈیٹا سیٹ گِشے ہتے آم آں استعمال کرم؟
 
 ## How are decisions made
 
