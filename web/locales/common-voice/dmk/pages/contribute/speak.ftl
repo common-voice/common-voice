@@ -16,6 +16,7 @@ record-stop-instruction = { $actionType } <stopIcon> </stopIcon> کبݺ ہݸݵݳ
 record-three-more-instruction = ڞݳئݵ چھݺ مزݵد!
 record-again-instruction = شݸنݳ!<recordIcon> </recordIcon> ہگݸ کِلِپ رݵکݳٹ اِرݳ
 record-again-instruction2 = ہگݵ خݵݽ اِرݳ، دݸبݳرہ رݵکݳٹ اِرݳ<recordIcon></recordIcon>
+record-last-instruction = <recordIcon> </recordIcon> آخرݵ اݵک
 
 ## MENU ITEM TOOLTIPS
 
