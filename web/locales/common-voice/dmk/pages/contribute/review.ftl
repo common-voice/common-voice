@@ -36,3 +36,5 @@ sc-review-link = دݸبݳرہ دݵکھِنݳ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ دݸبݳرہ دݵکھِنݳئی کرݳٹݵرِݵݳ
+sc-criteria-title = دݸبݳرہ دݵکھِنݳئی کرݳٹݵرِݵݳ
