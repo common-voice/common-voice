@@ -30,6 +30,13 @@ record-abort-continue = رݵکݳڈݵݣ مُکمل اِرݳ
 record-abort-delete = نکھِلݳ نݸ کِلِپݳ خَݽ اِرَݳ
 review-aborted = اَپلݸڈ مَنسݸخ ہݸݵݳ. تُمݺ اَپَنݵئ رݵکݳڈݸݣ خَݽ ارِنݳئی رݳئی اِرݵگُݸ چھݸتݺ؟
 review-submit-title = دݸبݳرہ دݵکھݳ نݸ بِجݳلݳ
+review-submit-msg = رݵکݳڈِݣݳشُݸ جݸ! <lineBreak></lineBreak> مݸتݸ دݸبݳرہ دݵکھݳ نݸ مِنݵنݵ تُمݳ کِلِپݳ بِجݳلݳ.
+review-recording = دݸبݳرہ دݵکھݳ/جݳئزہ لݸ
+review-rerecord = دݸبݳرہ رݵکݳٹ
+review-cancel = ہَگݵ بِجݳلِنݳ منسݸخ اِرݳ
+review-keep-recordings = رݵکݳڈݴ تھݵیݳ
+review-delete-recordings = مݺ رݵکݳڈݳ خݽ اݵر
+review-terms = کݳمَن وݳئس اِستِمݳل اِرِنݺ، تمݺ <termsLink>امݳ ٹرمز</termsLink> نݸ <privacyLink>پرݳئݸݵسݵ نݸٹس</privacyLink> سَشݸ رݳضِݵ چھݸت
 
 ## MENU ITEM TOOLTIPS
 
