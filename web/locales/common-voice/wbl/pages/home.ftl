@@ -10,6 +10,9 @@ wall-of-text-first = Owozi qũdrati, owozi k̃halẽn. haskan sak khush ki sake
 wall-of-text-second = Mup kampunishites̃h ki kumd d̃ataẽ istimolẽn ghafch khalgẽs̃h dane g̃hat. sakrẽs̃h sẽdhũy bidat/ k̃hũ k̃htkẽs̃h tẽrdest gon. askan sakẽ Kommon Voys shẽru kert, yi projekt̃ kumd ki oqozẽ shẽnokht cart woz dẽ kuk̃ht da ghat
 show-wall-of-text = Woz joy/ caq c̃hak joy
 help-us-title = sakẽr jũmlavẽ tosiqẽr mẽdad
+help-us-explain = play pakhch, kẽs̃hy woz sakẽr k̃han: cẽrg tub niv yem destẽ jũmlaẽ k̃hana?
+no-clips-to-validate = sẽdhũydẽs̃h ki hadẽm zik ki chi klip kẽs̃hỹnẽr nas. sakẽr caq s̃heg̃hd pes qẽtor rikordẽr mẽdad woc
+toggle-play-tooltip = pale mod̃ẽ togal (toggle) k̃hakẽr pakhch { shortcut-play-toggle }
 
 ## Account Benefits
 
