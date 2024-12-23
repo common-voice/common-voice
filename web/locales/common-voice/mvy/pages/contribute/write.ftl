@@ -89,16 +89,16 @@ bulk-upload-success-toast = څئ جُملی اکزائے بُوئی اُکھال
 bulk-upload-failed-toast = بُوۡئ نی اُکھالژی تُھو، گتہ کوشِش کرہ گَل۔
 bulk-submission-success-header = چئ جُملی ایکٹھی جمع کرَیں یاں کریا تیں شُکھریہ۔
 bulk-submission-success-subheader = تُوۡ زاں دِساں نخ پُور کرَیں مہ کامن وائیس ریچ پروگرامئیں مدد کرانٚت/کیریۡ تُھو!
-upload-more-btn-text = مُتی جُملہ بُوئی اُکھالہ۔
+upload-more-btn-text = مُتیۡ جُملی بُوۡئ اُکَھالیۡ تُھو یی؟
 file-invalid-type = غلط فائیل
-file-too-large = فائل څو گھوں تُھو
-file-too-small = فائل څو لکھ تُھو
-too-many-files = څئی فائلہ اکزائے
+file-too-large = فائل څو/چو گھوں تُھو
+file-too-small = فائل څو لکھ/چو لیکھوۡ تُھو
+too-many-files = فائلہ چے چئ ہُو تھہ
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon> </icon> عوامی ڈومیناں څئ جُملی جمع کرہ۔
+small-batch-instruction = <icon> </icon> عوامی ڈومینَیں څئ/چئ جُملی جمع کرہ
 multiple-sentences-error = اک ہیش جمع کرَیں مہ توۡ څئ جُملی ٹل نیرہانٚت۔
 exceeds-small-batch-limit-error = 1000جُملیُوں نہ تیرئ جمع نیرہانٚت۔
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
