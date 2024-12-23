@@ -4,9 +4,11 @@
 
 ## Languages
 
+aa = Afar
 ab = Abkhaz
+abb = Bankon
 ace = Acehnese
-ady = Adyghe
+ady = Adyghe (West Circassian)
 af = Afrikaans
 am = Amharic
 an = Aragonese
@@ -15,19 +17,32 @@ arn = Mapudungun
 as = Assami
 ast = Asturian
 az = Azerbaijani
+azz = Highland Puebla Nahuatl
 ba = Bashkir
+bal = Balochi
 bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bci = Baoule
 be = Belarusian
+beb = Bamvele
+bfd = Bafut
 bg = Bulgarian
+bkm = Kom
 bm = Bambara
 bn = Bengali
+bnm = Batanga
 bo = Tibetan
 br = Breton
+bri = Mokpwe
 bs = Bosnian
+bum = Bulu
 bxr = Buryat
 byv = Medumba
 ca = Catalan
 cak = Kaqchikel
+cdo = Eastern Min
 ckb = Central Kurdish
 cnh = Hakha Chin
 co = Corsican
@@ -37,12 +52,19 @@ cv = Chuvash
 cy = Welsh
 da = Danish
 dag = Dagbani
+dar = Dargwa
+dav = Kidaw'ida
 de = German
 dsb = Sorbian, Lower
+dua = Duala
 dv = Dhivehi
 dyu = Dioula
+ebr = Ebrie
+ee = Ewe
 el = Greek
 en = Inglish
+eo = Esperanto
+es = Spanish
 jbo = Lojban
 jv = Javanese
 ka = Georgia'che
@@ -129,12 +151,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Uloi
-speak-now = Ata uloi
-datasets = Datasets
-languages = Bhaxeo
-about = Sombondi
-partner = Bhagidar Zav
 profile = Profile
 help = Moddott Kor
 contact = Sompork
@@ -154,7 +170,6 @@ privacy-info = Ami vochon dita ki tumchi information samballun dovortolem. Amchi
 return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
-submit-form-action = Submit
 loading = Load zata...
 email-opt-in-info = Hoi, Mhaka asle emails dhad jitun Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobryo-patra asta.
 email-opt-in-info-title = Common Voice mailing list join kor
@@ -165,5 +180,5 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Amka zai</mark><br/><mark>tuje moddot!</mark>
