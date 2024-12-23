@@ -143,6 +143,13 @@ about-playbook-how-access-dataset-content-2 = اگر تون ناریپیو تو�
 
 about-playbook-how-project-governance = پروجیکٹ جا فیصلا کیئن تا چن؟
 about-playbook-how-project-governance-content-1 = موزيلا کومن وائس بنيو ا الائي مختلف جماعتين جي وجه سین جيئا ایکتیوسٽ، ماهر لسانیات، دیتا سائینٽسٽ، اڪیڊمڪا، بیو سو فتویئر انجینئرا پوری دنیا مان موزیلا فاؤنڈیشن جي وجاسین ایو پروجیکت ھلتو .
+about-playbook-how-project-governance-content-2 = اسان جي گورنفس ھنا پیلرن ته بیٿِی هلا:
+about-playbook-how-project-governance-content-3 = پرائیویسی،سیکيورتی ، بیو ترانسپیرنسی.
+about-playbook-how-project-governance-content-4 = جماعت ام حصو وڻرڙ، ٻيو فیصلا ڪرڙ.
+about-playbook-how-project-governance-content-5 = و یلیو پیو ریکگنیشن.
+about-playbook-how-project-governance-content-6 = ٻا طرفا اکاؤنٽيبلتی.
+about-playbook-how-project-governance-content-7 = مزید پڙھ تہ اسین کیئن گورنڊ ایان.
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کو من وائس کیئن ڦند چه تی؟
