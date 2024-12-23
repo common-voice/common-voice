@@ -73,3 +73,5 @@ adding-sentences-subheader-length-explanation = Jẽ jũmlayi cẽ 15'en kam ha
 adding-sentences-subheader-spelling-punctuation = Hijat woz awqof
 adding-sentences-subheader-spelling-punctuation-explanation = Jũmlaẽ hijayi drũst wocẽn dẽrkor/ awaji
 adding-sentences-subheader-speakable = K̃hẽnakẽ loyiq
+adding-sentences-subheader-speakable-explanation = Behtẽrin jũmlayi fitri woz gap dinẽn — yawi digarvẽ joynẽr oson wocẽn awaji. dẽlavze owozẽ ikhtilof zẽrũri, skẽs̃h yem be kushishen ki rẽzokor jẽmoater ricord̃ingẽ dilchaspẽt mẽzador gon.
+adding-sentences-subheader-numbers = Adad

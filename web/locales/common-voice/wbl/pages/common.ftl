@@ -146,6 +146,9 @@ mni = Meetei Lon Zikes̃h de Manipur, Asam et Trepura Hinduston k̃hanen
 mos = Mossi Zikes̃h de Burkina Faso et Mali k̃hanen
 mr = Marathi Zikes̃h de Hindustone Suba Maharashtra k̃hanen
 mrj = Hill Mari Ziks̃h the Russian Federation e Ural e Kuhi Iloqahev K̃hanen
+ms = Malay Zikes̃h de Brunei; Indonisia; Malasia et Singapore K̃hanen.
+mt = Maltese Ziki ce Maghribi Arabi Ziken Niyes̃hk, yem Zikes̃h de Latin Alphabet nivshen
+mxu = Mada i Nigeria he yi Muqomi Zik
 
 # [/]
 
