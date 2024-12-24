@@ -44,9 +44,11 @@ x-years-short =
 help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr sakẽr mẽdad woc
 sign-up-account = Yi akowntẽr (account) saynap (asing up) car
 email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (signup) car
+email-subscription-title-new = Kommon voyse k̃hẽbarẽ k̃hatẽr (newletter) saynap car, maqsadẽ sẽk yod wemukẽ kuzg woz tẽriq apd̃et̃isht
 
 ## Account Benefits
 
+benefits = Boydayisht
 
 ## What's public
 
