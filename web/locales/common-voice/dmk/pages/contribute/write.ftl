@@ -107,6 +107,24 @@ rate-limit-toast-message-minutes =
         [one] حدَسمݸ اڎݵ گِݵݳ. 1منݵٹسمݸ دݸبݳرہ کھوشش اݵر
        *[other] حدَسمݸ اڎݵ گِݵݳ. { $retryLimit }منݵٹسمݸ دݸبݳرہ کھوشش اݵر
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] حدَسمݸ اڎݵ گِݵݳ. 1سِکݵنٹسمݸ دݸبݳرہ کھوشش اݵر
+       *[other] حدَسمݸ اڎݵ گِݵݳ. { $retryLimit } سکݵنٹسمݸ دݸبݳرہ کھوشش اݵر
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تُݸ اݽݵئ وَرَقس جَمَع اِرانݳئی حد پݸرݳ رݵ چھݳئی. مِربݳنݵ رِی 1 منݵٹ ڎَٹ ہݸ نݸ اݸر جملݳک جَمع اِرݳئی. تݺ صبر اِرِنݳشݸ جݸ!
+       *[other] تُݸ اݽݵئ وَرَقس جَمَع اِرانݳئی حد پݸرݳ رݵ چھݳئی. مِربݳنݵ رِی { $retryLimit } منݵٹ ڎَٹ ہݸ نݸ اݸر جملݳک جَمع اِرݳئی. تݺ صبر اِرِنݳشݸ جݸ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تُݸ اݽݵئ وَرَقس جَمَع اِرانݳئی حد پݸرݳ رݵ چھݳئی. مِربݳنݵ رِی 1 سکݵنٹݵک ڎَٹ ہݸ نݸ اݸر جملݳک جَمع اِرݳئی. تݺ صبر اِرِنݳشݸ جݸ!
+       *[other] تُݸ اݽݵئ وَرَقس جَمَع اِرانݳئی حد پݸرݳ رݵ چھݳئی. مِربݳنݵ رِی { $retryLimit } سکݵنٹݵک ڎَٹ ہݸ نݸ اݸر جملݳک جَمع اِرݳئی. تݺ صبر اِرِنݳشݸ جݸ!
+    }
 
 ## MENU ITEM TOOLTIPS
 
