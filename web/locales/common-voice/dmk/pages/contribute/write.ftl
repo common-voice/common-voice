@@ -31,6 +31,15 @@ add-sentence-success = 1 جُملہ جَمَع اِرݸ گݵݳ
 add-sentence-error = جُملݳ خرِشݳرِنَنݳ غلَطݵ
 required-field = مِربݳنݵ رِݵ اݽݵئ شُعبہ تݳ پُر اݵر
 single-sentence-submission = اݵکݳلݸ جُملݳݣݳ ہَگݵ بِجݳلِنݳ
+small-batch-sentence-submission = جُملݵݣݺ چُنݳ گرݸپݵک بِجݳلِنݳ
+bulk-sentence-submission = جُملݵݣݺ جُدݳ بݸت ہگݵ بِجݳلِنݳ
+single-sentence = اݵک / اݵکݳلݸ / اݵک ہݸئی
+small-batch-sentence = چُنݳ گُرݸپ
+bulk-sentence = جُدݳ بڑݳ گُرݸپ
+sentence-domain-combobox-label = جملݳئی دݳئرہ
+sentence-domain-select-placeholder = ڞݳݵݳشُݸ خݳ دݳئرݳݣݳ دِسقَٹݳرݳ (اِختݵݳرݵ / پَسَنَس)
+# Sentence Domain dropdown option
+agriculture_food = زَمݵندݳرݵ نݸ کھݳنݳ پݵنݳ
 
 ## BULK SUBMISSION 
 
