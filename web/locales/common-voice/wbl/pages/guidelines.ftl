@@ -64,6 +64,7 @@ citing-sentences-subheader-websites-explanation = tus̃h tẽnz̃etkig̃hẽ sho
 citing-sentences-subheader-academic-reference = talimi hewolajot
 citing-sentences-subheader-academic-reference-explanation = Tus̃h talimi hẽwolajotẽ andoze istimole bas wez, yaniki Harvard̃ẽ endoz, "Muzilla (2021) Kommon voys (common voice. mowjũdi sek https://commonvoice.mozilla.org/ (accessed:15th september2021)"
 citing-sentences-subheader-offline-sources = cẽ tẽnovẽn beshkha zẽrya
+citing-sentences-subheader-offline-sources-explanation = Public d̃omen text kumdi ki sek tẽnov nas, tus̃h talimi hawolaẽ tariq yaniki harvard Stayl "jess(2021)z̃hũ mẽrdũmẽr laysenz nazmisht"
 citation =
     .label = Hẽwolah
 self-citation = K̃hũ hẽwola
