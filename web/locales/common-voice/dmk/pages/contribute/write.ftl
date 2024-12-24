@@ -88,9 +88,17 @@ sc-bulk-submit-confirm = اُݸ تَصدݵق اِرݳ چھݵس تݳ اݽݵݣ ج�
 bulk-upload-success-toast = جُدݳ بڑݺ جُملݳݣݳ ݳپلݸڈ اِرݸ گِݵݺ
 bulk-upload-failed-toast = اَپلݸڈ نݵ ہݸݵݺ، مِربݳنݵ رݵ دݸبݳرہ رݳ
 bulk-submission-success-header = تݸ جُدݳ بڑݳ حِصَہ ہگݵ دݵنݳئی کݳرݸ جݸ!
+bulk-submission-success-subheader = تُݸ کݳمَن وݳئسݵئ گڎݸگُڎݵئ جُملݵݣݺ ہَدَفݸݣ لݵنݳنݳ مَدَد اِرݺ چھݳئی!
+upload-more-btn-text = مزݵد جملݳݣݳ ݳپلݸڈ اِرݺ ݵݳ؟
+file-invalid-type = نݳمُنݳسب فݳئل
+file-too-large = فݳئل بُݸت بڑݳ چھݳ
+file-too-small = فݳئل بُݸت چُنݳ چھݳ
+too-many-files = بُݸتݵک فݳئلݳ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> بُݸتݵک عݸݳمݵئ دݳئرئی جملݳݣݳ خَرِشݳر
 
 ## MENU ITEM TOOLTIPS
 
