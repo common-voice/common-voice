@@ -52,6 +52,16 @@ general = عݳم
 healthcare = صحتݵئ خݵݳل
 # Sentence Domain dropdown option
 history_law_government = تݳرݵق، قݳنݸن نݸ گݸرمݵنٹ
+# Sentence Domain dropdown option
+language_fundamentals = بݳݽݵئ بُنݵݳتݸݣ (کݵ ذݳئلَس. عَدَدَ، حرفݸݣ، رَقَم)
+# Sentence Domain dropdown option
+media_entertainment = مݵڈݵݳ نݸ شُغَل تمَشݳ
+# Sentence Domain dropdown option
+nature_environment = قُذرَت نݸ مݳحݸل
+# Sentence Domain dropdown option
+news_current_affairs = خبَرݳ نݸ مݸتݸئی حݳلَتݸݣ
+# Sentence Domain dropdown option
+technology_robotics = ٹݵکنݳلݸجݵ نݸ رݸبݸٹِکس
 
 ## BULK SUBMISSION 
 
