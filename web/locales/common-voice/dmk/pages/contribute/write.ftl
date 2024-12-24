@@ -16,6 +16,11 @@ sc-review-small-batch-title = بُݸتݵک جملݳݣݳ کݵ رِی خرِشݳر
 new-sentence-rule-1 = <noCopyright> کاپݵ رݳئٹ</noCopyright> پݳبندݵݣ نݳ -0<cc0> cc</cc0>
 new-sentence-rule-2 = اݵک جملݳݸہ 15 لفظݸݣ کَم
 new-sentence-rule-3 = گرݳئمر ٹھݵک اِستِمݳل اِرݳ
+new-sentence-rule-4 = ٹھݵک اِملݳ نݸ رمݸزاݸقݳفݵݣݺ استِمݳل اِرݳ
+new-sentence-rule-5 = مخصݸص کݵرݵکٹرݳ نݸ لمبرݳ نݳ
+new-sentence-rule-6 = بݳرݸ حرفݸݣ نݳ
+new-sentence-rule-7 = منݳسب حوݳلݳݣݳ جَرمݸݽ ݳِرݳ
+new-sentence-rule-8 = اݵکہ قزرتݵ نݸ چغݳالݸݵݺ ݳجݳک اندازَکݳ لݸ. (جملہ مُنِنَشُݸ آسݸن ہݸ)
 
 ## BULK SUBMISSION 
 
