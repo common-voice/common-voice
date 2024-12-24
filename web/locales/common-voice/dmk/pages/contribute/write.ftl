@@ -74,6 +74,13 @@ sc-bulk-upload-instruction = تݺ فݳئل تݳ جݳݽ ݳݵر ݵݳ <uploadButton
 sc-bulk-upload-instruction-drop = اَپلݸڈ اِرِنݳشݸ فݳئل تھݳ تھݵئ
 bulk-upload-additional-information = اَگَر تُمݺ اݽݵئ فݳئلݵئ بݳرݳس بݸسک مَعلݸمݳت دݵنَئ رݳئی اِرݵگُچھݸت تݳ، تݸ مِربݳنݵ رِی رݳبِطہ رݳ <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = اَگَر تُمݺ اݽݵئ فݳئلݵئ بݳرݳس بݸسک مَعلݸمݳت دݵنَئ رݳئی اِرݵگُچھݸت تݳ، تݸ کݸنݺ ٹݵمپلݵٹ مݳ کݸٹ نݳ، تو مِربݳنݵ رِݵ رݳبِطَہ اِرݳ.<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تݺ فݳئل تَھݳ جݳݽ اِرِی دݸبݳرہ کھݸشِش اݵر
+try-upload-again-md = دوبݳرہ اپلݸڈݣݵئ کھݸشِش اݵر
+select-file = فݳئل دِسقَٹݳر
+select-file-mobile = اپلݸڈ اِرِنݳشݸ فݳئل دِسقَٹݳر
+accepted-files = قبݸل اِرݸ گِݵݺ فݳئل رَقتݳ: صِرُف tvs.
+minimum-sentences = فݳئلَنݳ کَمَسمݸ کَم جملݳݣݳ: 1000
+maximum-file-size = بݸتَس مݸ بݸت فݳئلݵئ سݳئز 25MB
 
 ## SMALL BATCH SUBMISSION
 
