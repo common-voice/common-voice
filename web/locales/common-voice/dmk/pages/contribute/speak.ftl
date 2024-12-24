@@ -56,9 +56,17 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تݺ چھتݵئ حِصَہ بݳنَشݸ جݸ!
 second-cta-subtitle-text = اݵکݳ پرݸفݳئلِکݵ زرِعَس، تمݺ اَپَنݵئ ہݸگݳ کمݵئ رݵکݳٹ تھݵئ شکݵگُچھݸت نݸ چھتݵئ ڈݵٹݳ دݵݣݺ ݳݵݣݵݣݺ کمݵݸنِٹِس کݸٹ لِݽ ہݸئی شکݵگُچھݸت.
+already-have-an-account = ہَگݵسمݸ اݵ اݵک اݵکݳݸنٹݵک چھݳ؟ <login> لݳگ_ اِن</login>
+create-profile-button = پرݸفݳئل دُرݳلݳ
+# IMAGE TAGS
+img-alt-success-checkmark = کݳمݵݳبݵ چݵکمݳرک
+# menu item
+read-sentences = جملݳݣݳ مُنݳ
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملݳݣݳ مُنݳ، سݸݳلݵݣݺ جݸݳب دݸ
+read-sentences-menu-item-tooltip = اپَنݵئ بݳݽَنݳ جملݳݣݳ منِݵنݺ اپݸن رݵکݳٹ اِرݳ
 
 ## MENU ITEM ARIA LABELS
 
