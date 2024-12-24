@@ -60,6 +60,8 @@ join-newsletter = Apd̃et̃ẽt woz s̃heg̃hd molumot hosil khakẽr/ dũrzne�
 
 whats-public = Pẽ jẽhoni chiz?/ chizi kũk̃htẽr?
 email-not-public = Sak ti imailẽ pẽ jehon ne gon/ kũk̃htẽr ne dhisũvẽn
+recordings-and-locale-public = Rikord̃ingẽ tedod woz kumd zirkẽs̃h shomilẽb pe jẽhon gon.
+username-optin-public = tush sirf k̃hũ nungẽ pẽ jehon go yoyes̃h yo gũmnom lecẽr.
 
 ## Landing
 
