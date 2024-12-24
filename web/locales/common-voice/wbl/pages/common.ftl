@@ -157,7 +157,10 @@ nd = IsiNdebele Zikes̃h de Shumali Zimbabwe k̃hanen
 ne-NP = Nepal e Sarkori Zik
 nhe = Yem Zikes̃h de Maxicove La Huasteca nung jaye khalgisht k̃hanen
 nhi = Western Sierra Puebla Nahutal i de Maxico Uto-Aztecan Zikve yi S̃holkh
-nia = NIAS- National Institute of Advanced Studies, India (Yem Idorah JRD Tata woz Dr. Raja Ramanna he qoyim Khetk)
+nia = Yem Idorah JRD Tata woz Dr. Raja Ramanna he qoyim Khetk NIAS- National Institute of Advanced Studies, India
+nl = Dutch Zikes̃h de Netherlands, Belgium, Surinam et Carribian Jazayir ev k̃hanen
+nn-NO = Norwegian Nynorsk Ziki Norway he Sarkori Zik
+nnh = Ngiembon i Cameroon e Guruhi Zikven yi Zik
 
 # [/]
 
