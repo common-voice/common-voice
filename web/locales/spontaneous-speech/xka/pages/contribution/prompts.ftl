@@ -19,9 +19,10 @@ submit-all-button = ساو جمع تھال
 
 learn-how-to-use-prompts = اوں پات استمال تالہ طریقہ جان۔
 learn-how-to-use-prompts-explanation = نقل نالیل طریقہ ازدہ تھ۔
+learn-how-to-use-prompts-guidance = ٹسار دہ ۔۔۔۔۔اما۔۔۔۔۔اوںپیج استعمال جانیل کیر
 learn-how-to-use-transcribe = جان کتھ ڈسکرایب تھے
 learn-how-to-use-transcribe-explanation = میش اے گوا منیل تے تتی ڄھلا چوݨ۔۔۔ممممم تے رررررر  پا چوݨ
 learn-how-to-use-transcribe-guidance = ٹسار دہ ۔۔۔۔۔اما۔۔۔۔۔اوںپیج استعمال جانیل کیر
 learn-how-to-use-check-transcript = نقل نالیل چل جان
-learn-how-to-use-check-transcript-explanation = نقل نالیل طریقہ جانا
+learn-how-to-use-check-transcript-explanation = ترجمہ م ھر ٹکیل بیدہ۔کامیش۔منیل۔تہ۔۔دوپیرہ پا ٹیک
 learn-how-to-use-check-transcript-guidance = ٹسار دہ ۔۔۔۔۔اما۔۔۔۔۔اوںپیج استعمال جانیل کیر

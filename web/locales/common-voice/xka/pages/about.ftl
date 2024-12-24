@@ -16,6 +16,7 @@ about-new-lang-subtitle = بہ اوں جیب میکامن وایس سایٹ شو
 about-voice-contrib-title = اوازّ امداد تھا
 about-voice-contrib-subtitle = مانوش یانتے تانی تراٹ جمع تان
 about-voice-validation-title = وایس ویلڈیشن
+about-voice-validation-subtitle = دی خلق اوں اوازونے  قبولان
 about-dataset-release-title = ڈیٹا بیسریلیز
 about-dataset-release-subtitle = بہ ھرہترہ ماھ رل ریلیز ڈیٹاسیٹ ریلیز تان
 about-subscribe-text = کامن وایس سہ ملی بیشونہ
