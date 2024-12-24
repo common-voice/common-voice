@@ -49,6 +49,13 @@ add-information-button = معلݸمݳت خرِشݳرݳ
 continue-speaking-button = نکݵݵݳ جݸ، بݳشِنݳ جݳرِݵ تھݵئ
 create-profile-text = تݺ معلݸمݳت محفݸظ اِرِنݳئی رݳئی اِرݺ چھݳئݺ؟ <createProfile> پرݸفݳئلَکݳ دُرݳل</createProfile>
 thanks-for-voice-toast = تݺ چھَتݵئ معلݸمݳتَشݸ جݸ ہݸ
+thanks-for-voice-toast-error = تُمݳ چھتݵئ معلݸمݳتݸݣ ہَگݵ بِجݳلِنݺ بلݸ غلطݵکݳ مݳگݸم اَئی
+first-cta-gender-select-default-option = رَݵَکݳ دِسقٹݳر
+first-cta-gender-select-help-text =
+    .label = تُݸ جݸئی چھݳئݺ مَنِش کݵ اِرݵ مُنݵیݳ؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تݺ چھتݵئ حِصَہ بݳنَشݸ جݸ!
+second-cta-subtitle-text = اݵکݳ پرݸفݳئلِکݵ زرِعَس، تمݺ اَپَنݵئ ہݸگݳ کمݵئ رݵکݳٹ تھݵئ شکݵگُچھݸت نݸ چھتݵئ ڈݵٹݳ دݵݣݺ ݳݵݣݵݣݺ کمݵݸنِٹِس کݸٹ لِݽ ہݸئی شکݵگُچھݸت.
 
 ## MENU ITEM TOOLTIPS
 
