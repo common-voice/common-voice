@@ -173,6 +173,19 @@ oc = Occitan Zikes̃h de Junubi France, Italy, Monaco woz Spain k̃hanen
 
 ## Layout
 
+link-copied = Piwandi (link) naql vite
+back-top = Pishewit da sar
+logout = Niwzit
+donate = Randit
+stayintouch = Dẽ Mozilla, sakes̃h  yũrt (mũrdũm) e dẽ owog̃h-e t̃eknoloji-e gird  pũrũt yunden. Sakep dẽ robita halak zoq caren  dẽ tozah khabarev,  s̃heg̃hd malũmot-e bandev, woz ziyot kũs̃hũyen  ki sashtes̃h ce sokht ym malũmotev yarker wũzũmit.
+privacy-info = Sakes̃h paymon (wa’da) randen  ki sakep sav-e dhetk malũmotev ehtiyot mes̃h dẽ dhast leceren. Woz be joy dẽ spo <privacyLink>roz’v-e bobat ilon </privacyLink>
+return-to-cv = Trẽ Umumi Owog̃h gẽna pishew
+email-input =
+    .label = Barqinomah
+loading = Dẽ yarki (vũres̃h cart)…
+email-opt-in-info = Wuzep barqinoma’v e gũtak zoq carem ce sokht ki  hadaf’v-e yod diyũvn, z̃hũ pũrũt rec̃hn-e bora’r ogahi, woz umumi owog̃h-e bobat khabarnomayisht.
+email-opt-in-info-title = Dẽ Umumi Owogh-e barqinomah-e fihrist cherm
+email-opt-in-info-sub-with-challenge = Got barqinomah’vev  ce sokht ki mũshkil’v et hadaf’v-e bora’r yodhoshtisht, pũrũt rec̃hn-e bobat  ogohisht, woz umumi owog̃h-e bora’r khabarnomahisht.
 email-opt-in-privacy-v2 = Barqinomah’v-e gũtak-e dẽstan k̃hũ ikhtiyor rẽdho’r en  sashtes̃h yem k̃hanit ki  savri yem qabũl  ki Mozila dem sav malũmotev pẽs̃hat ce sokht ki dẽ <privacyLink>roz’v-e polisiye</privacyLink>yem’v wũchel k̃hetk
 indicates-required = Ya asterisk (*)   nis̃hundiyetk jayishtev darkor.
 not-available-abbreviation = n/a
