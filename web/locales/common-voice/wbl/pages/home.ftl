@@ -52,9 +52,14 @@ benefits = Boydayisht
 rich-data = K̃hũ shomil k̃het d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nes̃het obodiyoti d̃at̃ kat̃ k̃hẽ. pe jẽhon k̃hakẽn tẽrmisẽsh sak tẽmon obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn
 improve-audio = profaylẽ molũmotẽs̃h k̃hẽnak dishnẽ drustẽgiyẽ tẽrbiyatẽr istimol wocnẽ od̃yowẽ baf gok̃ht
 keep-track = dẽ digar zẽbinẽv k̃hũ k̃het yarkẽ didig̃h (keep track)
+compare-progress = Tayin dẽ pẽtũn dẽnyos̃h ti yark dẽ digar shomil k̃hakẽkũzgvẽn cersokht sẽdhũyd.
+view-goals = K̃hũ yarkẽ k̃hũn woz projekt̃ẽ mẽqsadẽ mẽtobiq tayin
+join-newsletter = Apd̃et̃ẽt woz s̃heg̃hd molumot hosil khakẽr/ dũrznẽ destan K̃hũ zoqẽr de spo email list shomil woc.
 
 ## What's public
 
+whats-public = Pẽ jẽhoni chiz?/ chizi kũk̃htẽr?
+email-not-public = Sak ti imailẽ pẽ jehon ne gon/ kũk̃htẽr ne dhisũvẽn
 
 ## Landing
 
