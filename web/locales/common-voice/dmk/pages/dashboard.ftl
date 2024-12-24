@@ -38,6 +38,8 @@ pro-difficulty = مݳہِر
 lose-goal-progress-warning = اپَنݵئ مَقصَتَنݳ بَدَلِکُݽ اِرَسمݸ تُمݳ مݸتݸئ پݵشرفت ضݳئع ہݸئی شکݵگݵ چھݵ
 want-to-continue = تُمݺ جݳرݵ تھݵئنݳئی رݳئی رݵگُݸ چھݸتݺ؟
 finish-editing = ݵَرکَمݳس تَرمݵم مُکمل اِرا؟
+lose-changes-warning = مݸ جݳنݳئی مطلَپ ہݵئ چھݳتݳ تُمݺ ارݸت تبدݵلِݣ ضݳئع ہݸݣݺ.
+build-custom-goal = حسب ضرݸلت مقصَد دُرݳلݳ
 
 ## Goals
 
