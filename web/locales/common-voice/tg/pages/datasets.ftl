@@ -15,6 +15,7 @@ recorded-hours = Соатҳои сабтшуда
 subscribe = Обуна шудан
 # This indicates that there is no data to display
 no-information = Маълумот нест
+go-discourse = Гузариш ба «Discourse»
 go-languages-page = Гузариш ба саҳифаи забонҳо
 more = Бештар
 close = Пӯшидан
