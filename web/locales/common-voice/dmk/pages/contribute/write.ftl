@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] { $uploadedSentences }1 جملݳک گَٹݵ ہݸݵݳ
        *[other] { $uploadedSentences }{ $totalSentences }جُملݳݣݳ گَٹݵ ہݸݵݺ
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences }1جملݳک گَٹݵ ہݸݵݳ. مُستَرَد جملݳݣݳ ڈݳݸن لݸڈ اِرِنݳشُݸ اݽتھݳ</downloadLink> ذُق<downloadLink> اݵر
+       *[other] { $uploadedSentences } جملݳݣݳ گَٹݵ ہݸݵݺ. مُستَرَد جملݳݣݳ ڈݳݸن لݸڈاِرِناشُݸ اݽتھݳ <downloadLink>ذُق</downloadLink> اݵر
+    }
 
 ## MENU ITEM TOOLTIPS
 
