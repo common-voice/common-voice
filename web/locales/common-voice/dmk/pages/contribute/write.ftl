@@ -72,6 +72,8 @@ sentence-variant-select-multiple-variants = عݳم بݳݽ / بُݸت رَقتݳ
 sc-bulk-upload-header = اپلݸڈ <icon></icon> عݸݳمݵئ دݳئرئی جُملݳݣݳ
 sc-bulk-upload-instruction = تݺ فݳئل تݳ جݳݽ ݳݵر ݵݳ <uploadButton> اپلݸڈ ارِنݳشُݸ ذُق اݵر </uploadButton>
 sc-bulk-upload-instruction-drop = اَپلݸڈ اِرِنݳشݸ فݳئل تھݳ تھݵئ
+bulk-upload-additional-information = اَگَر تُمݺ اݽݵئ فݳئلݵئ بݳرݳس بݸسک مَعلݸمݳت دݵنَئ رݳئی اِرݵگُچھݸت تݳ، تݸ مِربݳنݵ رِی رݳبِطہ رݳ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اَگَر تُمݺ اݽݵئ فݳئلݵئ بݳرݳس بݸسک مَعلݸمݳت دݵنَئ رݳئی اِرݵگُچھݸت تݳ، تݸ کݸنݺ ٹݵمپلݵٹ مݳ کݸٹ نݳ، تو مِربݳنݵ رِݵ رݳبِطَہ اِرݳ.<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
