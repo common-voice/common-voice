@@ -24,6 +24,9 @@ about-speak = من
 about-listen-queue = بوج
 about-listen = بوج
 about-is-it-valid = اوں کلپ ساو آ
+about-is-it-valid-text = اواز کٹر تتی  وخ ایں کاٹ نہ اوں  کیراں ایں کی رس تہ آم اے°ووٹ نہ دیت تہ
+about-yes-votes = آم کیر ووٹ
+about-yes-votes-text = اواز دو مانوش قبولہیل تے رو پت پت کامن وایس ڈےٹا بیس م  آشہ
 
 ## Community Playbook Content
 ## What is a language
