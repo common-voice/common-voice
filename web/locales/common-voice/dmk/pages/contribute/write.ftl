@@ -125,6 +125,12 @@ rate-limit-message-seconds =
         [one] تُݸ اݽݵئ وَرَقس جَمَع اِرانݳئی حد پݸرݳ رݵ چھݳئی. مِربݳنݵ رِی 1 سکݵنٹݵک ڎَٹ ہݸ نݸ اݸر جملݳک جَمع اِرݳئی. تݺ صبر اِرِنݳشݸ جݸ!
        *[other] تُݸ اݽݵئ وَرَقس جَمَع اِرانݳئی حد پݸرݳ رݵ چھݳئی. مِربݳنݵ رِی { $retryLimit } سکݵنٹݵک ڎَٹ ہݸ نݸ اݸر جملݳک جَمع اِرݳئی. تݺ صبر اِرِنݳشݸ جݸ!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences }1 جملݳک گَٹݵ ہݸݵݳ
+       *[other] { $uploadedSentences }{ $totalSentences }جُملݳݣݳ گَٹݵ ہݸݵݺ
+    }
 
 ## MENU ITEM TOOLTIPS
 
