@@ -62,6 +62,8 @@ whats-public = Pẽ jẽhoni chiz?/ chizi kũk̃htẽr?
 email-not-public = Sak ti imailẽ pẽ jehon ne gon/ kũk̃htẽr ne dhisũvẽn
 recordings-and-locale-public = Rikord̃ingẽ tedod woz kumd zirkẽs̃h shomilẽb pe jẽhon gon.
 username-optin-public = tush sirf k̃hũ nungẽ pẽ jehon go yoyes̃h yo gũmnom lecẽr.
+demographic-deidentified-clarity-2 = K̃hũ zoqẽr jama k̃het obodyoti d̃at̃aẽb tag pẽ jehon ne gon yaniki (umr, jins, zik wos lehja), wozẽb dẽ d̃at̃asẽt yo ert ti akownt̃ ne kat̃ẽn. baf tayinẽ destanẽb ti zoti owd̃iu klipvẽ bad tayinẽr dẽ obodiyoti d̃at̃aẽn qẽti carẽn. misoliki, yi muhaqiqẽs̃h yimakhsũs tabqaẽ tẽrbiyatẽ dẽstan training mod̃ulẽ nis̃hon gok̃ht.
+username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomilẽb pẽ jẽhon ne gon
 
 ## Landing
 
