@@ -31,6 +31,7 @@ about-no-votes = ا ووٹ پا نان
 about-no-votes-text = کیرا ا منندر  ویس کلپ رجکٹ تون۔۔رو قطار پر بون۔۔۔ دیرا رجکٹ بیل تے۔۔۔رو۔دیر کٹر ام ڈاران پر  گو
 about-dataset-new = کامن وایس ڈیٹا سیٹ
 about-clip-graveyard = کلپ اے°گورستان
+about-clip-graveyard-text = کلپ گورستان می ار اواز آݭون اوں کاں کامن وایسہ گینس تہ  اکلپ ام چھلا اوں گورستان ڈاون لوڈ ام کیر پا این° بہ آر خلق ام تے تنظیم آم شکر ادا تھان اوں کو اسا دی این
 
 ## Community Playbook Content
 ## What is a language
