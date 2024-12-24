@@ -21,6 +21,9 @@ new-sentence-rule-5 = مخصݸص کݵرݵکٹرݳ نݸ لمبرݳ نݳ
 new-sentence-rule-6 = بݳرݸ حرفݸݣ نݳ
 new-sentence-rule-7 = منݳسب حوݳلݳݣݳ جَرمݸݽ ݳِرݳ
 new-sentence-rule-8 = اݵکہ قزرتݵ نݸ چغݳالݸݵݺ ݳجݳک اندازَکݳ لݸ. (جملہ مُنِنَشُݸ آسݸن ہݸ)
+login-instruction-multiple-sentences = بݸتݵک جُملݳݣݳ خرِشݳرِنَشُݸ <loginLink> لݳگ اِن </loginLink> ݵݳ <loginLink> سݳئن ݳپ </loginLink> ارݳ
+how-to-cite = اُݸ اقتبݳس کݵ اِری دݵس؟
+how-to-cite-explanation-bold = URL لنکَس کݸٹ اِقتِبݳس ݵݳ کمݵئ پݸرݳ نݸم.
 
 ## BULK SUBMISSION 
 
