@@ -70,9 +70,17 @@ username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomile
 welcome-staff = { $company }amlar/sẽt̃afẽr khũshomẽdid
 help-contribute = dãt̃aset̃ k̃hakẽ deestanẽsh tu common voys profyl go kẽ k̃hũ owozẽ atayash shomil k̃hakẽ bas wez
 login-company = emaile dẽ { $company }Log in/ saynap(sign up)
+profile-not-required = Shomil k̃hakri profaylẽ zẽrũrat nast albat mẽdadgor, tayin rẽ dest chizẽr
+read-more-about = Spo pejẽ z̃q woz ziyoda joy
 
 ## NAV ITEMS
 
+answer-questions = Jowob sowolisht<small>(jaldẽb wezin)</small>
+review-transcriptions = Naqlevẽ didig̃h <small>(jaldẽs̃h wezin)</small>
+add-questions = sowolẽ shomil<small>jaldẽs̃h wezin</small>
+transcribe-audio = od̃iyoẽ naqẽl<small>jaldẽs̃h wezin</small>
+press-and-stories = pakhchwoz zhindagisht
+community-and-languages = Jẽmoat woz zikisht
 
 ## MENU ITEMS TOOLTIPS
 
