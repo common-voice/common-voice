@@ -15,6 +15,9 @@ no-clips-to-validate = sẽdhũydẽs̃h ki hadẽm zik ki chi klip kẽs̃hỹ
 toggle-play-tooltip = pale mod̃ẽ togal (toggle) k̃hakẽr pakhch { shortcut-play-toggle }
 speak-paragraph = voys klipẽ ricod̃ing spo d̃ataset̃ẽ lazmi hisa: yisarẽb k̃hanẽn yemi mẽshkhũlig̃h bẽ tey
 speak-goal-text = klip ricord̃ing
+listen-paragraph = Atya k̃hetk klipist kommon voysẽr atumẽr zẽrũri. kẽs̃hũy wos yi fẽristẽ dũrz woz sake meyari open sors sarvis d̃atã k̃hakẽr sakẽr medad woc
+listen-goal-text = Klipẽ towsiq k̃hak
+hours-recorded = soatvẽ rikord̃ing
 
 ## Account Benefits
 
