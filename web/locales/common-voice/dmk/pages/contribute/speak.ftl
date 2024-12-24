@@ -67,6 +67,10 @@ read-sentences = جملݳݣݳ مُنݳ
 
 speak-contribute-menu-tooltip = جملݳݣݳ مُنݳ، سݸݳلݵݣݺ جݸݳب دݸ
 read-sentences-menu-item-tooltip = اپَنݵئ بݳݽَنݳ جملݳݣݳ منِݵنݺ اپݸن رݵکݳٹ اِرݳ
+answer-questions-menu-item-tooltip = اپَنݵئ بݳݽَنݳ سݸݳلݸݣ ہدݳݵتݵݣݺ جݸݳب دݵنݺ اپݸن رݵکݳٹ اِرݳ.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = آپشنز مݵنݸ مُنݳ
+read-sentences-menu-item-aria-label = مقتلف بݳݽݵمݳ کمݵونٹݵݳ بِجݳلِن جملݳݣݳ مُنݳ
+answer-questions-menu-item-aria-label = کمݵݸنِٹݵ شُݸ منِنݳئی کݳرݸ نݸ جݸݳب دݵنݳئی کݳرݸ نَمݵ سݸݳلَکݳ بِجݳلݳ
