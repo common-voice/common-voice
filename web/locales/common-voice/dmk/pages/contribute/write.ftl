@@ -137,6 +137,10 @@ small-batch-response-message =
         [one] { $uploadedSentences }1جملݳک گَٹݵ ہݸݵݳ. مُستَرَد جملݳݣݳ ڈݳݸن لݸڈ اِرِنݳشُݸ اݽتھݳ</downloadLink> ذُق<downloadLink> اݵر
        *[other] { $uploadedSentences } جملݳݣݳ گَٹݵ ہݸݵݺ. مُستَرَد جملݳݣݳ ڈݳݸن لݸڈاِرِناشُݸ اݽتھݳ <downloadLink>ذُق</downloadLink> اݵر
     }
+small-batch-sentences-rule-1 = "اُݸ کݸنݺ جملݳݣݳ کݸٹ اِرِی شَکݳچھݵس؟" ہݵئَس مݸ رہنمݳ اصݸلݵڎ عَمَل اِرَݳ
+small-batch-sentences-rule-2 = لکݵرݸ اݵک جملݳک خرِشݳر
+small-batch-sentences-rule-3 = ہَر جملݳک اݵکݳ نَمݵ لݳئنِݵکِنݳنݳ اَلَک اِرِنݳئی کݳرݸ "Enter" ݵݳ "Return" بٹن اݵک پھݵرݳک چِرکݳ.
+small-batch-sentences-rule-4 = 1,000 خݳ جملݳݣݳ کݸٹ اݵر
 
 ## MENU ITEM TOOLTIPS
 
