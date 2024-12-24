@@ -45,6 +45,7 @@ about-playbook-what-is-language = Забон дар «Common Voice» чист?
 
 about-playbook-how-add-language = Чӣ тавр ман забонро илова намоям?
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Дастури моро дар бораи тарзи истифодаи «Pontoon» тамошо кунед.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
 
 ## How does localization work
@@ -78,6 +79,7 @@ about-playbook-how-access-dataset-content-1 = Шумо метавонед ба �
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Қарорҳои лоиҳа чӣ гуна қабул карда мешаванд?
 about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
 about-playbook-how-project-governance-content-5 = Арзиш ва эътироф.
 about-playbook-how-project-governance-content-6 = Масъулияти тарафайн.
