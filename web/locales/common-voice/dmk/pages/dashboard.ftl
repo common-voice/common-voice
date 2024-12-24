@@ -27,6 +27,14 @@ show-ranking = مݺ درجَہ بندݵ دِکھِلݳئی
 get-started-goals = مقصَتݵڎ کݸٹ شرݸع اِرݳ
 create-custom-goal = اݵک حسب ضرولَت مَقصتݵکݵ تخلݵق اِرݳ
 goal-type = تُو کشݵݣݳ قِسمݵئ مقصَتݳ دُرݳلِنݳئی رݳئی اِرݺ چھݳئی؟
+both-speak-and-listen = دݸئݺ
+both-speak-and-listen-long = دݸئݺ (مُنِنݳ ݸہ پَݸرجِنݳ)
+daily-goal = گُڎݸگُڎݵئ مَقصَد
+weekly-goal = ہفتَئ مقصَد
+easy-difficulty = آسݸن
+average-difficulty = درمݵݳنہ
+difficult-difficulty = مُشکِل
+pro-difficulty = مݳہِر
 
 ## Goals
 
