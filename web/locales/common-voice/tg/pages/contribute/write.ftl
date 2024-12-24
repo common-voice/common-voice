@@ -72,6 +72,9 @@ add-sentences = Илова кардани ҷумлаҳо
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = Ҷумлаҳоро бо забони худ илова кунед
+review-sentences-menu-item-tooltip = Ҷумлаҳоро бо забони худ баррасӣ кунед
+add-questions-menu-item-tooltip = Саволҳоро ба забони худ илова кунед
 
 ## MENU ITEM ARIA LABELS
 
