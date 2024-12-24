@@ -173,9 +173,14 @@ oc = Occitan Zikes̃h de Junubi France, Italy, Monaco woz Spain k̃hanen
 
 ## Layout
 
+email-opt-in-privacy-v2 = Barqinomah’v-e gũtak-e dẽstan k̃hũ ikhtiyor rẽdho’r en  sashtes̃h yem k̃hanit ki  savri yem qabũl  ki Mozila dem sav malũmotev pẽs̃hat ce sokht ki dẽ <privacyLink>roz’v-e polisiye</privacyLink>yem’v wũchel k̃hetk
+indicates-required = Ya asterisk (*)   nis̃hundiyetk jayishtev darkor.
+not-available-abbreviation = n/a
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>sav-e madadi (kũmeki)</mark><mark>saker darkor</mark><br/>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Ya malũmotejay’v-e mizboni k̃hak et  100 en skẽ sar zik’v-e mũrdũm’v-e mimbar’v e behtar k̃hak haten,    dẽ yi soles̃h, qaribi yi milliyan d̃ollar res̃ht. <strong>agar sasht ki qadr carit, het̃it, trẽ liman malũmotev  wudhg rand</strong>
 # Text wrapped in <mark></mark> will have a white background.
