@@ -84,6 +84,12 @@ community-and-languages = Jẽmoat woz zikisht
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Qẽtiwocenisht, pakhc woz zhindagisht, kommunit̃y woz zikisht
+partnerships-menu-item-tooltip = Dẽ sakẽn qẽti woz
+press-and-stories-menu-item-tooltip = dẽ sẽpo blog rec̃h yoy sakẽr nivish
+community-and-languages-menu-item-tooltip = Zikvẽ, Coomunitivẽ woz Kommon voysẽ dẽryoft/ got
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Ikhtiyori menuẽ barar
+partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ barar/bobatẽn dish
