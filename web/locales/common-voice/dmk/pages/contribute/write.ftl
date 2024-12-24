@@ -82,6 +82,12 @@ accepted-files = قبݸل اِرݸ گِݵݺ فݳئل رَقتݳ: صِرُف tvs.
 minimum-sentences = فݳئلَنݳ کَمَسمݸ کَم جملݳݣݳ: 1000
 maximum-file-size = بݸتَس مݸ بݸت فݳئلݵئ سݳئز 25MB
 what-needs-to-be-in-file = مݺ فݳئلَنݳ کݵسݵک ہݸئنݳ ݳݸݳجݵ؟
+what-needs-to-be-in-file-explanation = مربݳنݵ رِی امݳ <templateFileLink>ٹݵمپلݵٹ فݳئل</templateFileLink> دݵکھݳ. تُمݳ جُملݺ کݳپݵ رݳئٹݵڎ مݸ ہݵٹ (CC0 ݵݳ جَمَع اِرݸݳنݺ اݵݣݵݣݺ اصَل ازازت لݵݳ کݸم) ہݸئنݺ اݸݳجݵ نݸ ݸݳضح، گرݳئمرݵئ لحݳظَس ٹھݵک نݸ آسݸن بݳݽَنݳ ہݸئنݺ ݳݸݳجݵ. بتݳنݺ جملئی دݸرݳنݵہ تقرݵبݳََ 10-15 سِکݵنٹݵئ ہݸݵنݳ ݳݸݳجݵ نݸ اݵݣݺ مݳ عَدَدَ، ذاتݵ نݳمݳ نݸ خصݸصݵ عِلݳمݳتݸݣ کݸٹ اِرِنَسمݸ گُرݵز اِرݸ جݳنݳ ݳݸݳجݵ.
+upload-progress-text = اَپلݸڈ ہݸگݳچھݳ
+sc-bulk-submit-confirm = اُݸ تَصدݵق اِرݳ چھݵس تݳ اݽݵݣ جُملݺ<wikipediaLink> عݸݳمݵئ دݳئرہ</wikipediaLink> نݳ چھݺ نݸ مَشݸ اݵݣ اَپلݸڈ اِرِنݳئی ازݳزت حݳصِل چھݳ.
+bulk-upload-success-toast = جُدݳ بڑݺ جُملݳݣݳ ݳپلݸڈ اِرݸ گِݵݺ
+bulk-upload-failed-toast = اَپلݸڈ نݵ ہݸݵݺ، مِربݳنݵ رݵ دݸبݳرہ رݳ
+bulk-submission-success-header = تݸ جُدݳ بڑݳ حِصَہ ہگݵ دݵنݳئی کݳرݸ جݸ!
 
 ## SMALL BATCH SUBMISSION
 
