@@ -164,6 +164,7 @@ nnh = Ngiembon i Cameroon e Guruhi Zikven yi Zik
 nqo = NKO i Maghribi Afriqahe yi Zik
 nr = IsiNdebele i Junubi Afriqahe yi Zik
 nso = Sotho Zikes̃h de Botswana et Leothu woz Shumol-Junubi Africa khanen
+ny = Chinyanja hi Junubi Afriqahe yi Guruhi Ziki
 
 # [/]
 
