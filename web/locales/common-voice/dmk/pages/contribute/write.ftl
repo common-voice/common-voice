@@ -156,3 +156,8 @@ transcribe-audio-menu-item-tooltip = پݸرجِنݳ چھَتݵئ رݵکݳڈِݣ�
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = پَسَنݵݣݺ مݵنݸ گِرمِنݳ
+add-sentences-menu-item-aria-label = کمݵݸنٹݵݳ مُنِنݳشُݸ نَمݺ جملݳݣݳ کݸٹ اِرݳ
+review-sentences-menu-item-aria-label = کمݵݸنِٹِݵݳ ہگݵ بجݳلِن جملݳݣݳ دݸبݳرہ دݵکھݳ ݵݳ جݳئزہ لݸ
+add-questions-menu-item-aria-label = کمݵُݸنِٹݵݳ مُنِنݳشݸ نݸ جݸݳپ دݵنَشُݸ نَمݺ سݸݳلݸݣ بِجݳلݳ
+transcribe-audio-menu-item-aria-label = پݸݸرجِنݳ چھَتݵئ رݵکݳڈِݣ گِرمِنݳݵَشݸ نَقَل اِرݳ
