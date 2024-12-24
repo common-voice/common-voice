@@ -81,6 +81,7 @@ select-file-mobile = اپلݸڈ اِرِنݳشݸ فݳئل دِسقَٹݳر
 accepted-files = قبݸل اِرݸ گِݵݺ فݳئل رَقتݳ: صِرُف tvs.
 minimum-sentences = فݳئلَنݳ کَمَسمݸ کَم جملݳݣݳ: 1000
 maximum-file-size = بݸتَس مݸ بݸت فݳئلݵئ سݳئز 25MB
+what-needs-to-be-in-file = مݺ فݳئلَنݳ کݵسݵک ہݸئنݳ ݳݸݳجݵ؟
 
 ## SMALL BATCH SUBMISSION
 
