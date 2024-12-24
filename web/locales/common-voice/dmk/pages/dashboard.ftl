@@ -13,8 +13,11 @@ you = تُݸ/ تُمݺ
 everyone = بُٹݺ / ہَر اݵک
 contribution-activity = حِصَہ بݳنݳئی سَرگَرمݵ
 top-contributors = اَڎݵ مُشݸ حِصَہ بݳݣݺ اݵݣ
-recorded-clips = رݵکݳٹ اِرݸت کِلِپݸݣ
+recorded-clips = رݵکݳٹ اِرݸت کِلِپݸݣ ݵݳ کِلِپݳ
 validated-clips = تصدݵق ارݸت کِلِپݸݣ ݵݳ کِلِپݳ
+total-approved = ٹݸٹَل منظݸر اِرݸت
+overall-accuracy = گَٹِنݸ ٹھݵکُّݽ / درستَگݵ
+set-visibility = مݺ دݵکھِنݳکُݽ سݵٹ اݵر
 
 ## Custom Goals
 
