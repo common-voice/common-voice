@@ -50,6 +50,8 @@ email-subscription-title-new = Kommon voyse k̃hẽbarẽ k̃hatẽr (newletter)
 
 benefits = Boydayisht
 rich-data = K̃hũ shomil k̃het d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nes̃het obodiyoti d̃at̃ kat̃ k̃hẽ. pe jẽhon k̃hakẽn tẽrmisẽsh sak tẽmon obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn
+improve-audio = profaylẽ molũmotẽs̃h k̃hẽnak dishnẽ drustẽgiyẽ tẽrbiyatẽr istimol wocnẽ od̃yowẽ baf gok̃ht
+keep-track = dẽ digar zẽbinẽv k̃hũ k̃het yarkẽ didig̃h (keep track)
 
 ## What's public
 
