@@ -7,6 +7,9 @@ sentence =
     .label = جُملݳ
 sentence-input-placeholder = تُمݳ عݸݳمݵ دݳئرئی جملہ اݽتھݳ بݳ
 small-batch-sentence-input-placeholder = تُمݳ عݸݳمݵ دݳئرئی جملݳݣݳ اݽتھݳ بݳ
+citation-input-placeholder = تُمݳ جُملݳئی زرݵعَئ حݸݳلہ دݸ. (اوݳجݵ)
+citation =
+    .label = حوݳلہ
 
 ## BULK SUBMISSION 
 
