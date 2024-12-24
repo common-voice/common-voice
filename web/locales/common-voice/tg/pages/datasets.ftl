@@ -20,6 +20,10 @@ more = Бештар
 close = Пӯшидан
 download = Боргирӣ кардан
 dataset-version = Силсила
+dataset-metadata-sex = Ҷинс
+# dataset metadata - age of contributor
+dataset-metadata-age = Синну сол
+dataset-donate-modal-heading = Шумо медонед, ки…
 data-download-button = Маълумоти «Common Voice»-ро боргирӣ кунед
 data-download-yes = Ҳа
 data-download-deny = Не
