@@ -62,9 +62,16 @@ nature_environment = قُذرَت نݸ مݳحݸل
 news_current_affairs = خبَرݳ نݸ مݸتݸئی حݳلَتݸݣ
 # Sentence Domain dropdown option
 technology_robotics = ٹݵکنݳلݸجݵ نݸ رݸبݸٹِکس
+sentence-variant-select-label = رَقتݵئ جُملہ
+sentence-variant-select-placeholder = رَقت دِسقٹݳ (اختݵݳرݵ / پَسَنَس)
+sentence-variant-select-multiple-variants = عݳم بݳݽ / بُݸت رَقتݳ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپلݸڈ <icon></icon> عݸݳمݵئ دݳئرئی جُملݳݣݳ
+sc-bulk-upload-instruction = تݺ فݳئل تݳ جݳݽ ݳݵر ݵݳ <uploadButton> اپلݸڈ ارِنݳشُݸ ذُق اݵر </uploadButton>
+sc-bulk-upload-instruction-drop = اَپلݸڈ اِرِنݳشݸ فݳئل تھݳ تھݵئ
 
 ## SMALL BATCH SUBMISSION
 
