@@ -5,5 +5,5 @@ download-helpus = wezit voice technology gird yi jamoat tyor caren, email zaryan
 download-form-email =
     .label = k̃hũ email darj car
     .value = s̃hos̃h sakẽb robitar halẽn
-download-back = common voice datasets'er pishew... tẽr Kommon Voys D̃at̃aset̃isht (Common voice Datasetws) gẽna pẽshẽw
+download-back = common voice datasets'er pishew... tẽr Kommon Voys D̃at̃aset̃iset̃ (Common voice Datasetws) gẽna pẽshẽw
 download-no = ney s̃hobos̃h

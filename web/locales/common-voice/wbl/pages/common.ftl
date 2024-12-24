@@ -165,6 +165,8 @@ nqo = NKO i Maghribi Afriqahe yi Zik
 nr = IsiNdebele i Junubi Afriqahe yi Zik
 nso = Sotho Zikes̃h de Botswana et Leothu woz Shumol-Junubi Africa khanen
 ny = Chinyanja hi Junubi Afriqahe yi Guruhi Ziki
+nyn = Runyankole i yi guruhi Zik Kumdes̃hki de Rawanda, Tanzania, DR Congo woz  Junub-Maghribi Uganda k̃hanen
+oc = Occitan Zikes̃h de Junubi France, Italy, Monaco woz Spain k̃hanen
 
 # [/]
 
@@ -174,3 +176,10 @@ ny = Chinyanja hi Junubi Afriqahe yi Guruhi Ziki
 
 ## Donate banner
 
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Ya malũmotejay’v-e mizboni k̃hak et  100 en skẽ sar zik’v-e mũrdũm’v-e mimbar’v e behtar k̃hak haten,    dẽ yi soles̃h, qaribi yi milliyan d̃ollar res̃ht. <strong>agar sasht ki qadr carit, het̃it, trẽ liman malũmotev  wudhg rand</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>K̃hũ puzhuhish-e (tahqiq-e)</mark> <mark>dẽstan  CV-e yarker wũzũmn </mark><br/>
+languages-donate-banner-cta-explanation = Umumi Owog̃hes̃h  skẽ  dhetk hadiay’v et azozi pũlev c̃hit! Sakes̃h dẽ ilimi shakhsiyatev,  shahri samoj et san’ati muhaqiq’v mes̃h hamkorigh k̃hak ghafch khus̃h caren.
+localization-select =
+    .label = Zik e Yewer/Desiyat (muqomiyat)
