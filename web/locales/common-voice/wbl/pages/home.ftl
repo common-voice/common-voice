@@ -67,6 +67,9 @@ username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomile
 
 ## Landing
 
+welcome-staff = { $company }amlar/sẽt̃afẽr khũshomẽdid
+help-contribute = dãt̃aset̃ k̃hakẽ deestanẽsh tu common voys profyl go kẽ k̃hũ owozẽ atayash shomil k̃hakẽ bas wez
+login-company = emaile dẽ { $company }Log in/ saynap(sign up)
 
 ## NAV ITEMS
 
