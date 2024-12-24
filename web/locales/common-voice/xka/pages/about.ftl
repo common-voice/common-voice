@@ -22,6 +22,7 @@ about-dataset-release-subtitle = بہ ھرہترہ ماھ رل ریلیز ڈیٹ
 about-subscribe-text = کامن وایس سہ ملی بیشونہ
 about-speak = من
 about-listen-queue = بوج
+about-listen-queue-text = وایسں کلپس سبمشن کویو می لنگال سو بجیل کیر ترون
 about-listen = بوج
 about-is-it-valid = اوں کلپ ساو آ
 about-is-it-valid-text = اواز کٹر تتی  وخ ایں کاٹ نہ اوں  کیراں ایں کی رس تہ آم اے°ووٹ نہ دیت تہ
