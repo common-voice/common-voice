@@ -24,6 +24,13 @@ new-sentence-rule-8 = اݵکہ قزرتݵ نݸ چغݳالݸݵݺ ݳجݳک اند�
 login-instruction-multiple-sentences = بݸتݵک جُملݳݣݳ خرِشݳرِنَشُݸ <loginLink> لݳگ اِن </loginLink> ݵݳ <loginLink> سݳئن ݳپ </loginLink> ارݳ
 how-to-cite = اُݸ اقتبݳس کݵ اِری دݵس؟
 how-to-cite-explanation-bold = URL لنکَس کݸٹ اِقتِبݳس ݵݳ کمݵئ پݸرݳ نݸم.
+how-to-cite-explanation = اگر اݽݵݣ تُمݳ اَپَنݵئ لفظݸݣ چھݵتݳ، بَس گِرمِنݳ<italicizedText> "ذاتݵ حݸݳلہ"</italicizedText> امݵچُݸ اݽݵئ لݵل اِرِنݳئی ضرݸلَت چھݳ تݳ تُݸ اݽݵئ موݳد کݳجُکݸ لݵئ چھݳئی تݳکہ امݺ تصدݵق اِرِݵ شَکَم تݳ اݽݵئ عݸݳمݵ ملکݵتَنݳ چھݳ نݸ اݽݵَس کݳپݵ رݳئٹݵئ پݳبندݵݣ تݳ نݳ. حݸݳلہ دݵنݳئی بݳرݳس مزݵد معلݸمݳتݵݣݺ کݳرݸ اَمݳ <guidelinesLink>رہنُمݳ اُصݸل/</guidelinesLink> وَرَق.
+guidelines = رہنُمݳ اُصُݸل
+contact-us = امݵڎ کݸٹ رݳبِطَہ رݳ
+add-sentence-success = 1 جُملہ جَمَع اِرݸ گݵݳ
+add-sentence-error = جُملݳ خرِشݳرِنَنݳ غلَطݵ
+required-field = مِربݳنݵ رِݵ اݽݵئ شُعبہ تݳ پُر اݵر
+single-sentence-submission = اݵکݳلݸ جُملݳݣݳ ہَگݵ بِجݳلِنݳ
 
 ## BULK SUBMISSION 
 
