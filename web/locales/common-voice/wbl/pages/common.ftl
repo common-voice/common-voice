@@ -156,6 +156,7 @@ nb-NO = Norwegian Bokmal i Norway he kitobi Zik
 nd = IsiNdebele Zikes̃h de Shumali Zimbabwe k̃hanen
 ne-NP = Nepal e Sarkori Zik
 nhe = Yem Zikes̃h de Maxicove La Huasteca nung jaye khalgisht k̃hanen
+nhi = Western Sierra Puebla Nahutal i de Maxico Uto-Aztecan Zikve yi S̃holkh
 
 # [/]
 
