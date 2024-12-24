@@ -40,6 +40,18 @@ sentence-domain-combobox-label = جملݳئی دݳئرہ
 sentence-domain-select-placeholder = ڞݳݵݳشُݸ خݳ دݳئرݳݣݳ دِسقَٹݳرݳ (اِختݵݳرݵ / پَسَنَس)
 # Sentence Domain dropdown option
 agriculture_food = زَمݵندݳرݵ نݸ کھݳنݳ پݵنݳ
+# Sentence Domain dropdown option
+automotive_transport = اَپَنݺ ہنݵݣݺ گݳڈݵݣ نݸ آنݳ جݳنݳ
+# Sentence Domain dropdown option
+finance = مَݴل / روپݵݺ
+# Sentence Domain dropdown option
+service_retail = خِدمت نݸ گݸݽ
+# Sentence Domain dropdown option
+general = عݳم
+# Sentence Domain dropdown option
+healthcare = صحتݵئ خݵݳل
+# Sentence Domain dropdown option
+history_law_government = تݳرݵق، قݳنݸن نݸ گݸرمݵنٹ
 
 ## BULK SUBMISSION 
 
