@@ -99,6 +99,14 @@ too-many-files = بُݸتݵک فݳئلݳ
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> بُݸتݵک عݸݳمݵئ دݳئرئی جملݳݣݳ خَرِشݳر
+multiple-sentences-error = تݸ اݵکݳلݸ ہگݵ بِجݳلِنݳئی کݳرݸ بݸتݵک جملݳݣݳ خرِشݳرݵ نݵ شکݵچھݳئی
+exceeds-small-batch-limit-error = 1000جملݵڎ مݸ اَڎݵ ہگݵ بِجݳلݵ نݵ شَکَم چھݸم
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] حدَسمݸ اڎݵ گِݵݳ. 1منݵٹسمݸ دݸبݳرہ کھوشش اݵر
+       *[other] حدَسمݸ اڎݵ گِݵݳ. { $retryLimit }منݵٹسمݸ دݸبݳرہ کھوشش اݵر
+    }
 
 ## MENU ITEM TOOLTIPS
 
