@@ -161,6 +161,9 @@ nia = Yem Idorah JRD Tata woz Dr. Raja Ramanna he qoyim Khetk NIAS- National Ins
 nl = Dutch Zikes̃h de Netherlands, Belgium, Surinam et Carribian Jazayir ev k̃hanen
 nn-NO = Norwegian Nynorsk Ziki Norway he Sarkori Zik
 nnh = Ngiembon i Cameroon e Guruhi Zikven yi Zik
+nqo = NKO i Maghribi Afriqahe yi Zik
+nr = IsiNdebele i Junubi Afriqahe yi Zik
+nso = Sotho Zikes̃h de Botswana et Leothu woz Shumol-Junubi Africa khanen
 
 # [/]
 
