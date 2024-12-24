@@ -27,6 +27,10 @@ about-is-it-valid = اوں کلپ ساو آ
 about-is-it-valid-text = اواز کٹر تتی  وخ ایں کاٹ نہ اوں  کیراں ایں کی رس تہ آم اے°ووٹ نہ دیت تہ
 about-yes-votes = آم کیر ووٹ
 about-yes-votes-text = اواز دو مانوش قبولہیل تے رو پت پت کامن وایس ڈےٹا بیس م  آشہ
+about-no-votes = ا ووٹ پا نان
+about-no-votes-text = کیرا ا منندر  ویس کلپ رجکٹ تون۔۔رو قطار پر بون۔۔۔ دیرا رجکٹ بیل تے۔۔۔رو۔دیر کٹر ام ڈاران پر  گو
+about-dataset-new = کامن وایس ڈیٹا سیٹ
+about-clip-graveyard = کلپ اے°گورستان
 
 ## Community Playbook Content
 ## What is a language
