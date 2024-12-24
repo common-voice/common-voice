@@ -157,6 +157,7 @@ nd = IsiNdebele Zikes̃h de Shumali Zimbabwe k̃hanen
 ne-NP = Nepal e Sarkori Zik
 nhe = Yem Zikes̃h de Maxicove La Huasteca nung jaye khalgisht k̃hanen
 nhi = Western Sierra Puebla Nahutal i de Maxico Uto-Aztecan Zikve yi S̃holkh
+nia = NIAS- National Institute of Advanced Studies, India (Yem Idorah JRD Tata woz Dr. Raja Ramanna he qoyim Khetk)
 
 # [/]
 
