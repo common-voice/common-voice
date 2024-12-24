@@ -167,12 +167,51 @@ nso = Sotho Zikes̃h de Botswana et Leothu woz Shumol-Junubi Africa khanen
 ny = Chinyanja hi Junubi Afriqahe yi Guruhi Ziki
 nyn = Runyankole i yi guruhi Zik Kumdes̃hki de Rawanda, Tanzania, DR Congo woz  Junub-Maghribi Uganda k̃hanen
 oc = Occitan Zikes̃h de Junubi France, Italy, Monaco woz Spain k̃hanen
+tui = Tupuri
+tvu = Tunen
+tw = Twi
+ty = Tahiti
+tyv = Tuvan
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Yukreni
+ur = Urdu
+uz = Uzbek
+ve = Tshivenda
+vec = Veneti
+vi = Viyetnomi
+vmw = Emakhuwa
+vot = Votik
+wep = Westphali
+wes = Kamarun Pijin
+wo = Wolof
+xh = Xhosa
+yi = Yidi
+yo = Yoruboyi
+yue = Kantoni
+zgh = Tamazight
+zh-CN = Chinoyi (Chin)
+zh-HK = Chinoyi (Hong Kong)
+zh-TW = Chinoyi (Taywon)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
 
 ## Layout
 
+profile = Khokah
+help = Kũmek/madad
+contact = robitah
+privacy = Rozmandiyisht
+terms = Istilohisht
+cookies = Kukiyisht
+faq = (Ziyot Persetk Sawolisht: ZPS)
+content-license-text = Mawodi dẽ dhast dẽ <licenseLink>takhliqi umumi ijozatnomah</licenseLink>
+share-title = K̃hũ owog̃h rẽdho’r dẽstan, digar khalgev s̃hukurner spo madad carit!
+share-text = Mashin-e yek̃hk k̃hak madad randit ki ce sokhtes̃h yi asl khalg qisa cart,   k̃hũ owog̃h e randit skẽ { $link }
 link-copied = Piwandi (link) naql vite
 back-top = Pishewit da sar
 logout = Niwzit
