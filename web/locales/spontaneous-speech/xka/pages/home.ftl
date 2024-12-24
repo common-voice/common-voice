@@ -1,7 +1,10 @@
 ## Home page
 
 welcome-to-spontaneous-speech = جولال کیر بڑبڑیا
-transcribe-bubble-subtitle = کاں بوجون تس چوݨ
+prompt-bubble-subtitle = بہ تو ٹھا سوال پشای
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = اتو نت چوݨ
+transcribe-bubble-subtitle = کاں بوجون تس چوݨتتی ڄھلا من
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = نال
 check-bubble-subtitle = تو نالا اں  چوݨیل منیل سہ یوبین آں
