@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = جب نالیل کیر اوں ٹائم گیب پٹکیل نان۔مربنی تھا پات تازہ تھا تھ دران کوشش تھا
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = نالا
 vote-transcript-success = ٹرانسکرپٹ ووٹ کامیاب بیل۔
