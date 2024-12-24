@@ -22,6 +22,28 @@ hours-validated = Soatve towsiq
 voices-online = Niv owozisht sẽk tẽnov/ onlayn
 todays-progress = Wudhgẽ peshraf
 help-reach-goal = Sakẽr de { $goal } g̃hẽtakẽ mẽdad
+read-terms-q = Cerg tawẽ po shatẽv joytka?
+ready-to-record = K̃hũ owazẽ atya rẽdhor joya?
+all-locales = Pẽtũn/ kũk̃ht
+today = wudhg
+x-weeks-short =
+    { $count ->
+        [one] hafta
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }mo
+       *[other] { $count }mo
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }y
+       *[other] { $count }y
+    }
+help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr sakẽr mẽdad woc
+sign-up-account = Yi akowntẽr (account) saynap (asing up) car
+email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (signup) car
 
 ## Account Benefits
 
