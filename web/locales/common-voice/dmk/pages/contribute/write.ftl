@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = گِرمِنݳنݳ
+write-instruction = عݸݳمݵئ دݳئرئی جملہ خرِشݳ
 
 ## BULK SUBMISSION 
 
