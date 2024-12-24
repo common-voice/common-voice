@@ -45,9 +45,15 @@ about-playbook-what-is-language = کامن وایس رل کا ں جیب این
 
 ## How do I add a language
 
+about-playbook-how-add-language = مہن کتھاجیب  میلام
+about-playbook-how-add-language-translating-heading = ا سایٹ ترجمہ
+about-playbook-how-add-language-translating-content-1 = پنٹون استعمال تال کیر گایڈ نالا
+about-playbook-how-add-language-collecting-sentences-heading = جولال سمٹیل
 
 ## How does localization work
 
+about-playbook-how-localize = سایٹ لوکلایزیشن کتھ کار تھون
+about-playbook-how-localize-content-1 = کامن ہاوس سایٹ اے• ترجمہ  پنٹون رل یون
 
 ## How to add sentences
 
