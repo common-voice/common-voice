@@ -2,15 +2,15 @@
 
 your-languages = savẽ zikisht
 toward-next-goal = Tra yayor hadaf gẽna / tra yayor menz̃il gẽna
-goal-reached = Menzil ghatẽ/ hadaf g̃hatẽ
+goal-reached = Mẽnzil ghatẽ/ hadaf g̃hatẽ
 clips-you-recorded = Klipisht kumdvẽt ki tawẽ shomil k̃hetk
-clips-you-validated = klipisht kumdvẽi ki tawẽ towsiq kert
+clips-you-validated = klipisht kumdvi ki tawẽ towsiq kert
 todays-recorded-progress = Sẽk klip ricord̃ Kommon Voysẽ wudhgẽ trẽqi
-todays-validated-progress = Sẽk klipẽv wudh Kommon Voys towsiq kert
+todays-validated-progress = Sẽk klipẽv wudhg Kommon Voys towsiq kert
 stats = hisob kitob
 awards = aword̃isht
 you = tu/sasht
-everyone = kũk̃ht/ k̃ũtan
+everyone = kũk̃ht/ kũtan
 contribution-activity = shẽrikat doriẽ yark
 top-contributors = cẽ kũk̃htẽn ghafch shirkat dorisht
 recorded-clips = Rikord̃/ k̃hetk klipisht
