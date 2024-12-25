@@ -34,6 +34,13 @@ difficult-difficulty = بیکھر
 pro-difficulty = مکئہ
 want-to-continue = تو روان رݭیل داوین اؘ
 finish-editing = ایڈیکنگ اول ختم تھ نا۔
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامنوایس ا جیب می ذاتی ا مقصد کیرمدد تہ
+       *[other] کامن وایس مدد تہ ا جیب می ذاتی ا مقصد ا ےکیر۔۔۔۔۔۔
+    }
+set-a-goal = ا۔مقصدنخ۔تا
+cant-decide = گیبی بام نہ لاد
 
 ## Goals
 
