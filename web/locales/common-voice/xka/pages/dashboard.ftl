@@ -60,6 +60,13 @@ share-n-weekly-contribution-goal = تانی جولال کٹر ہفتا می شی
 share-goal-type-speak = جولون
 share-goal-type-listen = بجوون
 share-goal-type-both = جو لال تےبوجیل
+# LINK will be replaced with the current URL
+goal-share-text = می کامنوایس کیراواز ڈالے تال اے کیر سیجہ ا نخ باگال،مشینان امتہ خلق امڄھلاجولال پشال کیر مہ سہ ٹل باء
+weekly-goal-created = تی ہفتایہ ٹارگٹ تریجین
+daily-goal-created = تی دوسہ ٹارگٹ تریجین
+track-progress = تانی سٹےٹس پیج رل تانیپراگرس ڄھور
+return-to-edit-goal = تانی کار۔مینکراں سات ڈیزیلکیر  آما پر نوٹ
+share-goal = می مقصد شییر تہ
 
 ## Goals
 
