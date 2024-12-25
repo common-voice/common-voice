@@ -2,6 +2,8 @@
 
 welcome-to-spontaneous-speech = جولال کیر بڑبڑیا
 why-spontaneous-speech = اس اوں اپادا تقریر رل ٹوٹائپ گانڈ ترال
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = جب اؘ سیج تھال کیر ران ترجمہ تے کوڈ ترال۔
 how-spontaneous-speech-works = ناڅامہ جولال گیہ کار تھ۔
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = اشارہ تھال۔
