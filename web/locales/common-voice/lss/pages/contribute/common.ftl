@@ -50,12 +50,29 @@ report-grammar-or-spelling = گرامر يا اسپيلنگ جو ايرر
 report-grammar-or-spelling-detail = هنا جملي م گرامر يا اسپيلنگ ا جو ايرر  ا.
 report-different-language = ٻي زبان
 report-different-language-detail = ايو لکيو بي زبان ام اُن ا نا جيڪا آن ڳالاھين پيو.
+report-difficult-pronounce = پروناlنس ڪرڻ ام مشڪل ا
+report-difficult-pronounce-detail = هنا ام لفظا يا فريزا مشڪل ان پڙهڻ يا پرونونس ڪرڻ ام.
+report-offensive-speech = آفينسيو ڳال
+report-offensive-speech-detail = کليپ ام بعيزاتي يا آفينسو زبان ا.
+report-other-comment =
+    .placeholder = ڪمينٽ ڪرڻ
+success = ڪاميابي
+continue = جاري ڪرڻ
+report-success = رپورٽ ڪاميابي ا سين پاس ڇي ويئي
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ر
+shortcut-record-toggle-label = ريڪارڊ ڪر/روڪ
+shortcut-rerecord-toggle = [۱-۵]
+shortcut-rerecord-toggle-label = وري ريڪارڊ ڪر ڪلپ اک
 
 ## Listen Shortcuts
 
