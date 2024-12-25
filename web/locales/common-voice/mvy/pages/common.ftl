@@ -288,7 +288,10 @@ not-available-abbreviation = نیتُھو
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>زَیں تیں مدد</mark><br/><mark>پکار تھی</mark>۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 100 نہ بُوۡئ ژِبہۡ واں خلکہ واں کریا ڈیٹاسیٹ سن٘دَیں، چلَیں تے سم کرَیں لا کالَیں دش لاکھ ڈالرؤں ہاری٘ خرچہ ای تُھو۔ <strong>کہ تُس ݜے کمَیں قدر کراں تھو کھیں آژ زؤں لا صدقہ کری!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = </mark>تَیں تحقیقاں دَن <mark> <br/></mark> سی وی استعمال کیر تٗھویی؟<mark>
+languages-donate-banner-cta-explanation = کامن وائس صدقہُوں تے تحفہُوں لا
 localization-select =
     .label = ژیب / علاقہ خوش کرہ
