@@ -7,7 +7,7 @@ shortcuts = short̃kat̃
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }{ $count }</bold> klip
-       *[other] <bold>{ $count }</bold> klips
+       *[other] <bold>{ $count }</bold> klipisht
     }
 goal-help-recording = tawẽ common Voysẽr (Common voice) ẽr g̃hetak <goalPercentage></goalPercentage> spo har rorẽ{ $goalValue } record̃ k̃hak mẽnzil!
 goal-help-validation = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert <goalPercentage></goalPercentage>{ $goalValue }
