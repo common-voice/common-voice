@@ -28,3 +28,4 @@ demo-listen-subtitle = امداد کیر تیار
 ## Demo Dashboard
 
 demo-dashboard-card-header = تانی ڈیش  بورڈ د تو تانی تےدرام ٹرقی دا  شید آݭوں
+demo-dashboard-card-body = تو کاںجیب می اںتی ترومون  تہ ،توسے  ڈیش بورڈ نم تیجون تی پراگرس تبا رل ایش دہ
