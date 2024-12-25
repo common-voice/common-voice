@@ -49,14 +49,14 @@ sc-criteria-item-6 = Agar dẽdeg̃hikrẽs̃h ki jumla kam wost, miriboni car k
 sc-review-instruction = kẽliki </icon> zikẽ hisobẽr drũst jũmla?
 sc-review-rules-title = Cẽrg jũmlayi yicũvnẽ mẽtobiq teya?
 sc-review-empty-state = Hẽdem ziki hanivdam chiz jũmlayisht dẽdeg̃hikẽr nast
-report-sc-different-language = mukhtalif zik
+report-sc-different-language = mukhtalif zik/qisẽm qismẽ zik
 report-sc-different-language-detail = chizẽs̃h ki wuz didig̃hẽm yemẽv haca zikẽn digar sokht nivishetk
-sentences-fetch-error = Jũmlavẽ s̃hẽkurnẽr/ wẽzũmnẽr yi noqs niyes̃htẽ
-review-error = hayem jũmla didẽg̃hikẽr yi nuqs niyes̃htẽ
+sentences-fetch-error = Jũmlavẽ wẽzũmnẽr yi noqs niyes̃htẽ
+review-error = hẽdem jũmla didẽg̃hikẽr yi nuqs niyes̃htẽ
 review-error-rate-limit-exceeded = tut gha tiz, miriboni car k̃hẽ yi daqiqa jũmla didẽg̃hikẽr rand, yẽqin k̃hakẽr ki yemi drũst.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = sakẽs̃h z̃aq lup badal k̃hakẽr gezg
-sc-redirect-page-subtitle-1 = Jũmla jama k̃hakẽ kũzgi tẽr asẽl Common Voys Plat̃form ( Common Voice Platform). tus̃h dishnẽ bas wez <writeURL> nivish </writeURL> yi jũmla yoy <reviewURL> didig̃h </reviewURL> wir jumla sẽk Common voys (common Voice ) kẽtak
+sc-redirect-page-title = sakẽn z̃aq lup badal k̃hakẽr gezg
+sc-redirect-page-subtitle-1 = Jũmla jama k̃hakẽ kũzgi tẽr asẽl kommon Voys Plat̃form ( Common Voice Platform). tus̃h dishnẽ bas wez <writeURL> nivish </writeURL> yi jũmla yoy <reviewURL> didig̃h </reviewURL> wir jumla sẽk kommon voys (common Voice ) kẽtak
 sc-redirect-page-subtitle-2 = Sakẽ sowol pers sẽk <matrixLink> Matrix</matrixLink><discourseLink> gap/ qẽsa </discourseLink> yoy <emailLink> email </emailLink>
 # menu item
 review-sentences = Jũmlavẽ didig̃h
