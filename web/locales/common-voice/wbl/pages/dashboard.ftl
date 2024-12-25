@@ -137,7 +137,7 @@ share-goal-type-both = K̃hẽnak woz kẽs̃hũn/ k̃henakẽt k̃s̃hũn
 goal-share-text = Maz̃hẽ #kommonVoysẽr zoti maqsad k̃hetk-mar medad wocit, mashinẽ joyũvẽn ki khalgẽs̃h cersokht k̃hand { $link }
 weekly-goal-created = Ti haftawor maqsadẽv khẽtk
 daily-goal-created = Ti harorẽ maqsadẽv pẽydo k̃hetk
-track-progress = hẽdrem k̃hũ hisobkitobẽ tẽrẽqiyẽ didig̃h
+track-progress = hẽdrem k̃hũ hisobkitobẽ tẽrẽqiyẽ tayin
 return-to-edit-goal = Kum bẽ soat pẽspudh hadrem k̃hũ maqsadẽ badal
 share-goal = K̃hũ maqsadẽ shomil
 
