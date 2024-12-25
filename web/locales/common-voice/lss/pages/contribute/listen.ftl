@@ -10,9 +10,15 @@ listen-loading-error = اسانک آڊيو کلپا ڪون ملي ساڳيا ت�
 listen-abort-title = ختم ڪيائيا کليپايک ويليڊيٽ ڪرڻ؟
 listen-abort-cancel = جاري رک ويليڊيٽ ڪرڻ
 listen-abort-confirm = ختم ڪر ويليڊيٽ ڪرڻ
+# Menu item
+validate-readings = ريڊنگايک ويليڊيٽ ڪر
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ريڊنگايک ويليڊيٽ ڪر، ٽرانسڪرپشنيک ريويو ڪر.
+validate-readings-menu-item-tooltip = ويليڊيٽ ڪر ريڪارڊ ٿيل ريڊنگيون توجي زبان ا جون
+review-transcriptions-menu-item-tooltip = ريويو ڪر جمع ٿيل ٽرانسڪرپشنا توجي زبان ا جون
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ٻڌ آپشنين جو مينيو
