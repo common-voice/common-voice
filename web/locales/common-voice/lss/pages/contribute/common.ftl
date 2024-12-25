@@ -126,3 +126,5 @@ contribution-varying-pronunciations-example-1-title = هنا سسي ات ٽوپ�
 contribution-varying-pronunciations-example-2-title = هن جو ھٿ مٿ-ي ا.
 contribution-background-noise-title = بيڪگرائونڊ جو شور.
 contribution-background-noise-example-1-fixed-title = [ڇڪ] وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
+contribution-background-noise-example-2-fixed-title = وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
+contribution-background-noise-example-2-explanation = [مواد جو حصو ٻدڻ ام ڪون تو اچي]
