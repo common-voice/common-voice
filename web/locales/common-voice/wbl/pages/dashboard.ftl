@@ -39,7 +39,7 @@ lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ he�
 want-to-continue = tus̃h jori lecra?/ tus̃h jori lẽcẽrnẽ zoq cara?
 finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
 lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃hetkvẽ nũs
-build-custom-goal = k̃hũ ẽrmon/ destũrẽ maqsad go
+build-custom-goal = k̃hũ ziqẽ/ destũrẽ maqsadẽ go
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] kũk̃htẽr zoti maqsadẽr yi soat mẽdad { $hours }{ $language }
