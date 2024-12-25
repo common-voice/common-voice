@@ -123,3 +123,5 @@ contribution-misreadings-example-8-title = ماکي تيزي ا سين اڳيا�
 contribution-misreadings-example-8-explanation = [ميچ ڪوني مواد]
 contribution-varying-pronunciations-title = مختلف پروننسيايشنيون
 contribution-varying-pronunciations-example-1-title = هنا سسي ات ٽوپي ودي ا.
+contribution-varying-pronunciations-example-2-title = هن جو ھٿ مٿ-ي ا.
+contribution-background-noise-title = بيڪگرائونڊ جو شور.
