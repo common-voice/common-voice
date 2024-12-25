@@ -21,6 +21,19 @@ sc-review-form-button-reject-shortcut = ن
 sc-review-form-button-skip-shortcut = س
 sc-review-form-button-submit =
     .submitText = رويو ڪرڻ ختم ڪر
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] جملا ريويو ڪون ٿيا.
+        [one] جملو رويو ٿي ويو. مهرباني!
+       *[other] جملا رويو ٿي ويا. مهرباني!
+    }
+sc-review-form-review-failure = رويو محفوظ ڪون ٿيو. مھرباني ڪري وري ڪوشش ڪر بعد ام.
+sc-review-link = ريويو ڪر
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ رويوا جو ڪرائيٽيريا
+sc-criteria-title = رويوا جو ڪرائيٽيريا
+sc-criteria-make-sure = ڏِس ته جملا هي ڪرائيٽيريا پورا ڪن:
