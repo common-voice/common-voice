@@ -3,6 +3,7 @@
 about-title = کامن وائس گِنہ؟
 about-header-description-v2 = کامن وائس ایک ݜے ڈیٹاسیٹ تُھو چے تسے ہر کؤں ڇیلَیں تُھو، ساریۡ دُنَیں نہ اماں اَن٘دو اواز دین٘لہ اسیں طاقت تھو۔ کاں خلکہ اوازاں ایپلِکیشنہ سَن٘دا تھہ سیں ݜس ڈیٹاسیٹہ مشینہ واں سِڇَھیں ماڈلاں دَن استعمال کراں تھو۔</p>ہُویں اکثر ڈیٹا سیٹہ کمپنی وَیں مِلِک تھہ، آں ݜُو سُکھیݜیار نہ خلاف تھی۔ اوازاں ڈیٹاسیٹہ ان٘گرزی نہ مُت ژِبہ وَاں خلکہ وَیں، مختلف رَن٘گہ واں خلکہ، معذور انسانہ، گھریۡماݜہ آں ایل‌جی‌بی‌ٹی‌کیو‌آئ‌اے+ خلکہ وَیں صحیح ترجمانی نےراں تھی۔ اسی معنہ ݜُو چے اواز کران٘لی ٹیکنالوجی بِکتُک ژِبؤں مہ لہ سر کام نیر تھی۔ آں کیرُوں سُگاؤ کام نیریۡ تُھو۔ بے ہر زئ یاں خلکہ حرکتی مہ آگلے سیوں لا سِواں اوازہ شیئر کریاگ تھہ۔</p>
 how-does-it-work-title-v2 = کامن وائس گِشے کام کیر تُھو؟
+how-does-it-work-text = بے اوازاں پاتُو مُن٘ڈاں ڈیٹا سیٹہ خلکؤں لا کریاگ تھہ۔ تاں اواز دے، مُت خلکاں کٹری سُون٘ݜیۡرا آں ڈیٹاسیٹ ہر کسیں دَن سَم کرہ۔
 
 ## How does it work section
 
@@ -40,6 +41,7 @@ about-get-involved = اماں‌ ٹَل کرہ
 about-get-involved-text-2 = کامَن وائس مِٹھیں سَم کرَیں مہ زَیں مَدد کرَیں یاں غرضی تُھوئ؟ چئ بَر تھی! یا خو بِجلی خَطی لا بال بنہ یا <discourseLink> بال الاؤ کرَیں زئ </discourseLink>، سائٹ مہ مَسلَیں ݜَلگائ خبر دے<githubLink>گِٹ ہَب</githubLink>یا زاں <matrixLink> میٹرِکس مہ</matrixLink> خلکاں مَشقُلائے مِلہ۔
 about-stay-in-touch = مہ رابطہ مہ گِشے دَھرَم؟
 about-stay-in-touch-button = پُنیاکی سَن٘دہ/ٹل ہو
+about-stay-in-touch-text-1 = <emailFragment> زاں بجلی خطیاں دَن پُنیاک‌ سَن٘دہ</emailFragment> لے تے پَت اے چے کامن وائس لا کَمپینؤں، پُرگِرامؤں آں ایکٹھی سَن٘دان٘لہ ڈیزائنؤں مہ تُو گِشے حِصہ ہرا تُھو۔
 about-nav-why-common-voice = گِنہۡ؟
 about-nav-how-it-works = گِشے؟
 about-nav-partners = مرگلئ
@@ -58,6 +60,7 @@ about-playbook-what-is-language-content-3 = دھان٘کہ ژِبہ ݜے تھی 
 ## How do I add a language
 
 about-playbook-how-add-language = مہ ژیب گِشے ٹَل کَرم؟
+about-playbook-how-add-language-content-1 = بُٹؤں نہ مُوٹھِن نھالہ چے تیں ژیب <languageLink> پھیں نہ موجود تھی گی نَیں</languageLink>۔ کہ نی تھی کھیں تے تو تیں جیب ٹل کریاں تپوس کراں ہاں تھو</languageRequestLink>۔  جیب ٹل کریاں دن دو ولی تھو ،اک پور سائٹ مرک کروں آں دو یوں جملی ٹول کرؤں۔
 about-playbook-how-add-language-translating-heading = سائٹَیں ژیب گُھرؤں
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>زاں پَشان٘لو نھالی لہ پونٹُون گِشے چَلاں تھہ۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملی جمع کرُژاں تھی
