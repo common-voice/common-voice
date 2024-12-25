@@ -128,3 +128,5 @@ contribution-background-noise-title = بيڪگرائونڊ جو شور.
 contribution-background-noise-example-1-fixed-title = [ڇڪ] وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
 contribution-background-noise-example-2-fixed-title = وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
 contribution-background-noise-example-2-explanation = [مواد جو حصو ٻدڻ ام ڪون تو اچي]
+contribution-background-noise-example-3-fixed-title = [کل] وڌا ڏئيناسورا [کل]-ياسڪ ا جا.
+contribution-background-voices-title = بڪگرائونڊ جون آوازيون
