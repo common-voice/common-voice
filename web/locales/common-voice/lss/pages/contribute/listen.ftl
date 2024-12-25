@@ -22,3 +22,5 @@ review-transcriptions-menu-item-tooltip = ريويو ڪر جمع ٿيل ٽران
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = ٻڌ آپشنين جو مينيو
+validate-readings-menu-item-aria-label = ويليڊيٽ ڪر جماعت جي ميمبرين وٽان جمع ٿيل ريڊنگيون
+review-transcriptions-menu-item-aria-label = ريويو ڪر ريڪارڊ ٿيل جملين جون ٽرانسڪرپشنيو صحيح هونجن لا
