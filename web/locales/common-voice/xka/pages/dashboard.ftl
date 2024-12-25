@@ -51,6 +51,7 @@ how-many-per-day = باڑ ران۔۔۔۔۔ا دوس۔میکتیک جولالکٹ
 how-many-a-week = باڑ ران ۔۔۔۔ا ہفتا میکتیک جولال اے کلپس
 which-goal-type = تو۔منونہ بجونہ یا دوا آ تی
 receiving-emails-info = اوں ؤخ رل تی کارای میل رشیل لخہ،مقصد یاد رشیل،تا نی پراگرس نم تالنالیل،تے کامن وایسبارہمی خطونی
+not-receiving-emails-info = اوں ٹیم رل تی کار ان اںای میل نہ گین لخہ،می پراگرس نوم بال،تے کامن وایس بارا می خبرونو ام خطونی
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] کلپس
@@ -76,3 +77,18 @@ share-goal = می مقصد شییر تہ
 
 ## Goals
 
+days =
+    { $count ->
+        [one] دوس
+       *[other] دوس
+    }
+recordings =
+    { $count ->
+        [one] رکارڈنگ
+       *[other] رکارڈنگونی
+    }
+validations =
+    { $count ->
+        [one] ٹیک جانیل
+       *[other] ٹیک جانیل
+    }
