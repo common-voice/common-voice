@@ -27,3 +27,4 @@ demo-listen-subtitle = امداد کیر تیار
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = تانی ڈیش  بورڈ د تو تانی تےدرام ٹرقی دا  شید آݭوں
