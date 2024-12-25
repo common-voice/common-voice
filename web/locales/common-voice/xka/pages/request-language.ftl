@@ -1,6 +1,7 @@
 ## Request Language Pages
 
 request-language-heading = نم جب باراؘ می من۔
+request-language-explanation-1 = تان جب نال اؘ کامن وائس جب می این اؘ کو نان
 request-language-form-email =
     .label = تی امیل گواؘ نخہ۔
 request-language-form-info =
