@@ -41,7 +41,7 @@ terms-agree = wush yan k̃hanẽm
 terms-disagree = Wush itifoq ne carẽm/ wus̃h yan ne k̃hanẽm
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = K̃hũ owozẽ kẽlip k̃hakẽr s̃hobos̃h
-first-cta-subtitle-text = k̃hũ bararẽs̃h sakẽr k̃han k̃hẽ d̃ẽvẽlopẽrvẽrẽs̃h t̃eknoloji d̃vẽlop k̃hakrẽb mẽdad woc
+first-cta-subtitle-text = k̃hũ bararẽs̃h sakẽr k̃han k̃hẽ k̃hakẽkuzgvẽr t̃eknoloji d̃vẽlop k̃hakrẽb mẽdad woc
 why-donate = Tus̃h chir pẽrs?
 why-donate-explanation-1 = Hayem malũmotẽn ce dhetk yemi ikhtiyori, tus̃h ki dem osoy tu yẽmẽ shomil car, woz yem yẽqin car ki molumot yaniki ti nunget emaili dẽ ti obodiaoti molũmotẽn yani ũmrẽt jinsẽn pẽywast nast.
 why-donate-explanation-2 = Tẽchnolojiyi kũk̃htẽr baf yarkẽ dẽstan, haya d̃at̃a kumdẽs̃h ki k̃hakẽkũzgvẽr t̃eknoloji k̃hakẽr medad dẽstan ghafch qismẽ khalgeve barar fikren.  yaniki, agar ki sak kumd khos tẽlafuze k̃henakẽ kũzgvẽ shomil ne carẽn, andib teknoloji haya makhsus k̃halgvẽr yark ne k̃hakẽ bas wizit<learnMore>caq ziyoda dish ki met̃ad̃at̃ayi chir zẽrũri. </learnMore>
