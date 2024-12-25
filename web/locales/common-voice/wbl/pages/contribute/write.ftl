@@ -1,8 +1,8 @@
 ## WRITE PAGE
 
 write = Nivish
-write-instruction = Yi umumi jũmla bes̃h nivishit (izofah carit) <icon></icon>
-write-page-subtitle = Ya g̃hũrtetk jũmlayishtep drem dẽ umumi dez̃hg (dastyob  vitk) cc-0 sifer lisens d̃at̃aset  shomil wocen.
+write-instruction = Yi umumi jũmlaẽ bes̃h nivishit (izofah carit) <icon></icon>
+write-page-subtitle = Ya g̃hũrtetk jũmlayishtep drem dẽ umumi dez̃hg (dastyob  vitk) cc-0 sifer laysens d̃at̃aset  shomil wocẽn.
 sentence =
     .label = jũmla
 sentence-input-placeholder = K̃hũ umumi d̃omen-e (domain) jũmla e drem nivishit
