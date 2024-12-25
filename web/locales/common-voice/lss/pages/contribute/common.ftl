@@ -73,9 +73,19 @@ shortcut-record-toggle = ر
 shortcut-record-toggle-label = ريڪارڊ ڪر/روڪ
 shortcut-rerecord-toggle = [۱-۵]
 shortcut-rerecord-toggle-label = وري ريڪارڊ ڪر ڪلپ اک
+shortcut-discard-ongoing-recording = ايسک
+shortcut-discard-ongoing-recording-label = هٽائي هلڻ واري ريڪارڊنگ اک
+shortcut-submit = واپس وڃڻ
+shortcut-submit-label = کليپک جمع ڪر
+request-language-text = ڪونتي مِلا توک تُوجي زبان ڪومن وائس ام ؟
+request-language-button = درخواست ڏي زبان ا لا
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = هلائي/روڪ
 
 ## Validation criteria
 
