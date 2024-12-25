@@ -75,6 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ تَیں ژِبے مرَک‌ کرے گِشے چلُژ تُھو؟
 about-playbook-how-localize-content-1 = کامن وائساں ژیب گُھرؤں</strong> پونٹُون<strong>۔لا ہوئ تُھو۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink> اکونٹ سندہ <pontoonAccountLink> کہ  پھیں نہ تگے نی تھو کھیں۔ تے تَیں ژِبَیں<strong>('ٹیم')</strong> خوش کرے اَمَیں پروجیکٹ خوش کرہ، <pontoonCvLink>کامن وائس</pontoonCvLink>۔ تلہ ژیب مرک کریں یاں دن فائلہ ہوتھو، اک کہ لا ٹک کرہ کھیں تے ان٘گرزی مہ لفظہ پشا تھو آں میلی چٹ ژیب مرک کریں یاں دن اک صندقو لک ہو تھی۔
+about-playbook-how-localize-content-3 = ژیب مرک کرؤں لہ ان٘گرزی نہ تُھو خو مُتیۡ ژِبوَیں <strong>رائ</strong> نھالَیں تُھو۔ <strong>پروفائیل</strong> بٹنہ لا ٹک کرہ تلاں پاتیُون <strong>سیٹِن٘گؤں</strong> بہ آں تے گھِن٘لیۡ ژیب تُو دی تُھو کھیں تس ٹل کرہ۔ دڇِھیُوں ہتہۡ لا منہ دُھتہۡ مہ ترجمی وَیں لیش <strong>Locales</strong> موجود ہو تھی تلاں مدد ہرہ۔ ژیب گُھرؤں (ترجمی) سائٹہ لا ایک دیس پاتیُون پشژا تھی۔
 about-playbook-how-localize-content-4 = کلہ اُو 75% ہُون٘د کھیں، ویب سائٹ شروع کرَیں تیار ہو تُھو۔
 about-playbook-how-localize-content-5 = مَدتیاں کِریا، زاں پورژان٘لہ ویڈیو نھالی۔
 
@@ -82,6 +83,8 @@ about-playbook-how-localize-content-5 = مَدتیاں کِریا، زاں پو�
 
 about-playbook-how-add-sentences = مہ جُملی گِشے ٹل کرم؟
 about-playbook-how-add-sentences-content-1 = تُوۡ <writePageLink>لیکیں یاں پن٘ڑہۡ</writePageLink> لا جملی ٹل کراں ہاں تھو، یا <reviewPageLink>دُوہیڑی نھالیں یاں پن٘ڑہۡ</reviewPageLink> لا دُوبارہ نھالا ہاں تھو۔
+about-playbook-how-add-sentences-content-2 = جُملی کامن وائساں دُو ماݜ وَیں نھالَیں نہ پتَیں منظُور کرژا تھی۔تُو تَیں ژِباں کریا پاند پشائ (ہدایات) <languageGuidelinesLink> ݜلہ</languageGuidelinesLink> سن٘د ہَیں تُھو۔ جُملی <licenseLink>عوامَیں مِلکِیت ہوں پکار تھی</licenseLink> آں 15 لفظؤں نہ کم ہوں/ہواں۔ تُو جُملی واں مالکہ دِش بنَیں تُھو چے تَیں جُملی <waiverLink> ݜس ولہ لا CC0 کیر</waiverLink>، آں زَیں commonvoice@mozilla.com ݜس پتہۡ لا ڇِہے۔
+about-playbook-how-add-sentences-content-3 = تُو وکی پیڈیا نہ کھَٹَیں جُملی اَیں یاں کریا <scraperLink> جُملی ڙِھکان٘لو Sentence extractor</scraperLink> گتہ کمَیں (استعمال کرَیں) تُھو۔
 
 ## How to record quality
 
