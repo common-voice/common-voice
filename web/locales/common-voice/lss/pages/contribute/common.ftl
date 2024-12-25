@@ -119,3 +119,7 @@ contribution-misreadings-example-6-title = اسين ٻار ڪافي پيئڻ و�
 contribution-misreadings-example-6-explanation = [ڇن کپا `اسين تا`]
 contribution-misreadings-example-7-title = اسين ٻار ڪافي وٽڻ تا وڃيان.
 contribution-misreadings-example-7-explanation = [`ھيڪڙو` ڪوني اصل مواد ام]
+contribution-misreadings-example-8-title = ماکي تيزي ا سين اڳيان ودي.
+contribution-misreadings-example-8-explanation = [ميچ ڪوني مواد]
+contribution-varying-pronunciations-title = مختلف پروننسيايشنيون
+contribution-varying-pronunciations-example-1-title = هنا سسي ات ٽوپي ودي ا.
