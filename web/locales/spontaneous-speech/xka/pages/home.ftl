@@ -1,7 +1,11 @@
 ## Home page
 
 welcome-to-spontaneous-speech = جولال کیر بڑبڑیا
+# <br></br> represents a newline break
+wall-of-text = کامن وائس دوئم پلٹ فام تیران ۔
 why-spontaneous-speech = اس اوں اپادا تقریر رل ٹوٹائپ گانڈ ترال
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = با ٹائم تقریر سیاق تہ سباق کیر ران این۔
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = جب اؘ سیج تھال کیر ران ترجمہ تے کوڈ ترال۔
 # text wrapped with <mark></mark> will have a light red background
@@ -26,6 +30,7 @@ contact-us = اساں لہ
 contact-us-title = تو اوں پراجکٹ یا اساں سہ ملیلدہ خو ش این آں
 contact-us-email = ای میل۔۔۔۔۔۔۔۔۔۔۔۔۔۔
 signup-form-title = گانٹھ تو کامن وایساے°سپیچ گروپ می اینہ
+signup-terms = می امیل تھ اؘ ٹسار دا اؘ لنک لاڈہ۔
 signup-input-placeholder = تانی امیل تل
 signup-button-value = می ای میل تہ ا لنک لاݫہ
 footer-text-privacy = اپان تہ اوراک  تہ
