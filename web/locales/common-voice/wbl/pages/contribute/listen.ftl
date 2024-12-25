@@ -1,5 +1,5 @@
 listen = Kẽs̃hũy
-listen-subtitle = brobarig̃hẽ mẽtobiq sakẽr mẽdad car
+listen-subtitle = Towsiqẽr sakẽr mẽdad car
 listen-instruction = { $actionType }<playIcon></playIcon> cerg yashtẽs̃h santense drũst k̃hanẽna?
 listen-again-instruction = khub yark! <playIcon></playIcon> tiyorẽt ki vitẽ dẽbora kẽs̃hũy
 listen-3rd-time-instruction = 2 redest, jori lecẽr <playIcon></playIcon>
