@@ -45,6 +45,21 @@ how-many-per-day = باڑ ران۔۔۔۔۔ا دوس۔میکتیک جولالکٹ
 how-many-a-week = باڑ ران ۔۔۔۔ا ہفتا میکتیک جولال اے کلپس
 which-goal-type = تو۔منونہ بجونہ یا دوا آ تی
 receiving-emails-info = اوں ؤخ رل تی کارای میل رشیل لخہ،مقصد یاد رشیل،تا نی پراگرس نم تالنالیل،تے کامن وایسبارہمی خطونی
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] کلپس
+       *[other] کٹر
+    }
+help-share-goal = دی تریٹ نالیل می اسے مددتھا۔۔تانی۔مقصد شییر تھا
+confirm-goal = تانی مقصد پچہ
+goal-interval-weekly = ہفتایہ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = تانی جولال کٹرہراے° دوس شیر تہ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = تانی جولال کٹر ہفتا می شییر تہ
+share-goal-type-speak = جولون
+share-goal-type-listen = بجوون
+share-goal-type-both = جو لال تےبوجیل
 
 ## Goals
 
