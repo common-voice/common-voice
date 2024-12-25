@@ -79,10 +79,12 @@ about-playbook-how-localize-content-5 = مَدتیاں کِریا، زاں پو�
 ## How to add sentences
 
 about-playbook-how-add-sentences = مہ جُملی گِشے ٹل کرم؟
+about-playbook-how-add-sentences-content-1 = تُوۡ <writePageLink>لیکیں یاں پن٘ڑہۡ</writePageLink> لا جملی ٹل کراں ہاں تھو، یا <reviewPageLink>دُوہیڑی نھالیں یاں پن٘ڑہۡ</reviewPageLink> لا دُوبارہ نھالا ہاں تھو۔
 
 ## How to record quality
 
 about-playbook-how-record-quality = مہ اُتَھلیۡ پاٹکی/کوالٹی یاں اواز گِشے ٹیپ کرَم؟
+about-playbook-how-record-content-1 = تاں عام اواز مہ بلی بنہ! تُو گِشے ہُم بانُوں بے خوشالی ہِن قبلاگ تھہ- بے تیں قُدرتی لہجہ، تیں عام تیزیار تے سِسیار، تیں اَن٘داز آں اوازاں بُوۡئ منی ہوں قدرتی لُکھِگ تھو۔
 about-playbook-how-record-content-2 = ڈاپاتیاں شُور نہ اما رڇھہ ۔ تے تیں بال سُگائ ݜُوْن٘ژا تھی۔
 about-playbook-how-record-content-3 = جُملہ احتیاط ہِن پڑہ ۔ گی لفظ پھت، بدل یا چئ را نَیں۔
 about-playbook-how-record-content-4 = بلی شروع کرَیں نہ مُوٹھِن ݜس بال پکیرا چے پلیٹ فارم کام کیری تُھو  آں ݜُو گتہ چے اُو صرف تے بند ہو کلہ تُوں بس کیری کھیں۔
@@ -91,6 +93,7 @@ about-playbook-how-record-content-5 = <accuracyLink>سُون٘ݜیرَیں یا�
 ## How to grow language
 
 about-playbook-how-grow-language = کامن وائسہ لا بِس ایک ژیب اوک گِشے مُوٹُھو ہران٘گَیں تھو؟
+about-playbook-how-grow-language-content-2 = پُرگِرامہ
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-6 = مرگلتیا تے نیٹ ورکہ
 
@@ -106,6 +109,12 @@ about-playbook-how-access-dataset = مہ ڈیٹا سیٹ گِشے ہتے آم آ
 ## How are decisions made
 
 about-playbook-how-project-governance = پراجیکٹَیں فیصلی گِشے کرُژاں تھی؟
+about-playbook-how-project-governance-content-2 = زَیں حُکمت چے گِھن٘لیۡ تُھوۡیؤں لا کُور تھی سَیں ݜَیں تھی:
+about-playbook-how-project-governance-content-3 = اپُیں (رازداری)، حِفاظت آں شفافیت
+about-playbook-how-project-governance-content-4 = خلکاں حصہ ہرؤں آں فیصلہ کرؤں۔
+about-playbook-how-project-governance-content-5 = قدر آں پُنیؤں۔
+about-playbook-how-project-governance-content-6 = دُوۡیں کِھن٘گیوں نہ تپُوس کرؤں /احتساب۔
+about-playbook-how-project-governance-content-7 = <governanceLink>زاں لا حُکمت گِشے کرُژ تھی، ݜلہ پڑہ</governanceLink>
 
 ## How is Common Voice funded
 
