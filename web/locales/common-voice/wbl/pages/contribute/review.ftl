@@ -7,10 +7,10 @@ sc-review-select-language = Miriboni car jumlavẽ didẽg̃hikẽr yi zikẽ ye
 sc-review-no-sentences = didg̃hikri chiz jũmlayisht nast. <addLink> caq woz jũmlavẽ kat̃!</addLink>
 sc-review-form-prompt =
     .message = Cẽrg tori yẽqina ki didig̃het jumlavẽv jama ne k̃hetk
-sc-review-form-usage = Jũmlavẽ manzũr k̃hakẽr tẽr rostẽ gẽna swip car. rad k̃hakẽr tẽr chap  swip. tẽ wuch gẽna yemẽ lẽcẽrnẽr swip<strong> k̃hũ didig̃hetkẽvẽ jama k̃hakẽ me rũmũs̃h</strong>
+sc-review-form-usage = Jũmlavẽ manzũr k̃hakẽr tẽr rostẽ gẽna swip car. rad k̃hakẽr tẽr chap  swip. tẽ wuch gẽna yemẽ lẽcẽrnẽr swip<strong> k̃hũ didig̃hetkvẽ jama k̃hakẽ me rũmũs̃h</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = Makhez: { $sentenceSource }
+sc-review-form-source = Makhaz: { $sentenceSource }
 sc-review-form-button-reject = Rad
 sc-review-form-button-skip = lecẽr
 sc-review-form-button-approve = Mẽnzũr
@@ -20,9 +20,9 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-form-keyboard-usage-custom = mẽnzũr, radr k̃hak yoy lẽcẽrnẽres̃h tu kibord̃ẽ istimolẽ bas wez. { sc-review-form-button-approve-shortcut }{ sc-review-form-button-approve-shortcut }{ sc-review-form-button-reject-shortcut }{ sc-review-form-button-skip-shortcut }{ sc-review-form-button-skip-shortcut }
+sc-review-form-keyboard-usage-custom = mẽnzũr, rad k̃hak yoy lẽcẽrnẽres̃h tu kibord̃ẽ istimolẽ bas wez. { sc-review-form-button-approve-shortcut }{ sc-review-form-button-approve-shortcut }{ sc-review-form-button-reject-shortcut }{ sc-review-form-button-skip-shortcut }{ sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
-    .submitText = Dẽdẽg̃hkiẽ vec̃hũv
+    .submitText = Dẽdẽg̃hkẽ vec̃hũv
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -39,7 +39,7 @@ sc-review-link = Didig̃h
 sc-criteria-modal = Didẽg̃hikẽ mẽyor
 sc-criteria-title = didẽg̃hikẽ mẽyor
 sc-criteria-make-sure = Yẽqin car ki jũmla didẽg̃hikẽki rem dest dhetk mẽyorẽ mẽtobiq
-sc-criteria-item-1 = Jũmlaẽ hijayi drũst wocẽn dẽrkor/ awaji
+sc-criteria-item-1 = Jũmlaẽ hijayi drũst wocẽn dẽrkor
 sc-criteria-item-2 = Jũmlayi gramarẽ lihozẽr dẽrũst wocẽn dẽrkor/ awaji
 sc-criteria-item-3 = Jũmla zẽrũr k̃hẽnakẽ qobil wost
 sc-criteria-item-4 = Agar jũmlas̃h ki dẽ mẽyor g̃hat sẽk rostẽ gẽna mẽrwat kẽlik car &quot;&quot;
