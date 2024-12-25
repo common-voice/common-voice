@@ -107,3 +107,6 @@ contribution-misreadings-description-extended-list-2 = لفظ ا جي اينڊ �
 contribution-misreadings-description-extended-list-3 = پڙهڻ ڪنٽرڪشن اينک جيڪي ڪون اين.
 contribution-misreadings-description-extended-list-4 = بلجڻ لفـظ ا جي اينڊ واري حصي ک جلدي رڪاڊنگ ختم ڪرڻ ام
 contribution-misreadings-description-extended-list-5 = لفظ اک الاهي دفان پڙ.
+contribution-misreadings-example-1-title = وڌا ڏئيناسورا ترياسڪ ا جا.
+contribution-misreadings-example-2-title = وڌو ڏئيناسور ترياسڪ ا جو.
+contribution-misreadings-example-2-explanation = ڇڻ کپا `ڏئيناسورا`.
