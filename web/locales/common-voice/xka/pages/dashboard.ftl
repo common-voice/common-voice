@@ -15,6 +15,7 @@ contribution-activity = تعاون ایکٹی ویٹکی
 top-contributors = آخری خزمت گار
 recorded-clips = ریکاڈتھاگیل جولال
 validated-clips = جݭاگیل کلپس
+set-visibility = می نالیل۔سمہ
 show-ranking = می باگ مٹہ پاشہ۔
 
 ## Custom Goals
