@@ -98,3 +98,7 @@ shortcut-vote-no = ن
 contribution-criteria-nav = ڪراٽيريا
 contribution-criteria-link = سمجھ ڪنٽريبوشن جو ڪرائيٽيريا
 contribution-criteria-page-title = ڪنٽريبيوشن ا جو ڪرائيٽيريا
+contribution-criteria-page-description = سمجھ ڇو ڏسرو ا وائس ڪلپيک ٻدڻ ام ٻيو مدد ڪر پانجي آواز رڪاڊنگ صحيح ڪرڻ ام.
+contribution-for-example = جيئن
+contribution-misreadings-title = غلط پڙهڻ
+contribution-misreadings-description = ٻڌهڻ ام، ڏس ته جيڪو لکيو ا ايو هي رِيڪاڊ ٿيو ا؛ ريجيڪٽ ڪر اگر ننڍيون غلطيون بي اهين. <br /> عام غلطيون اهين:
