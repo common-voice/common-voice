@@ -1,10 +1,13 @@
 ## Home page
 
 welcome-to-spontaneous-speech = جولال کیر بڑبڑیا
+why-spontaneous-speech = اس اوں اپادا تقریر رل ٹوٹائپ گانڈ ترال
 how-spontaneous-speech-works = ناڅامہ جولال گیہ کار تھ۔
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = اشارہ تھال۔
 prompt-bubble-subtitle = بہ تو ٹھا سوال پشای
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = جواب دہ
 respond-bubble-subtitle = تی جواب یا تسے جواب اپا دا س کیتک تھبان تہ
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = اتو نت چوݨ

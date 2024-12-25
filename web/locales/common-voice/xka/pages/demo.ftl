@@ -25,7 +25,7 @@ demo-account-sign-up = ساین اپ لنک لاڑہ
 ## Demo Contribute
 
 demo-contribute-card-header = تی اواز ریکارڈ تال کیر تیار این۔۔۔۔۔۔۔تو ٹہ کان چھون
-demo-contribute-card-body-v2 = سکرین رل چوݨ
+demo-contribute-card-body-v2 = تیپہ تہ توکامن وایس بارا مےاتیش جانون پا، یا رس نالے گانٹھ نہ۔۔۔۔ جولال  درِ ک منیل اےشرو تال کیر مایکروفون بٹن  رل اّٹسار دہ۔۔اوں تو دی خلق م تراٹ بوجِل خوشون تہ پلے بٹں رل ٹسار دہ۔۔۔تو دیر اون من بہاوں منیل چوݨاگیل سہ یوپونہ اں کہ نہ
 demo-listen-subtitle = امداد کیر تیار
 
 ## Demo Dashboard
