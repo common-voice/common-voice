@@ -7,6 +7,9 @@ listen-last-time-instruction = آخري!
 listen-empty-state = اسان وٽ ڪلپا ختم ٿي ويان - پيج اک ريفريش ڪر، يا وري ڪوشش ڪر
 listen-empty-state-variants = توجي زبان جي شاخ جا ڪلپا ختم ٿيا هوندا! اگر تون سمجي تو تا صحيح ا، تو ڊسي سڳي تو ٻيا جملا توجي زبان ا جا سيٽنگ اک بدلي ڪري.
 listen-loading-error = اسانک آڊيو کلپا ڪون ملي ساڳيا تا تون ٻڌين. مهرباني ڪري وري ڪوشش ڪر.
+listen-abort-title = ختم ڪيائيا کليپايک ويليڊيٽ ڪرڻ؟
+listen-abort-cancel = جاري رک ويليڊيٽ ڪرڻ
+listen-abort-confirm = ختم ڪر ويليڊيٽ ڪرڻ
 
 ## MENU ITEM TOOLTIPS
 
