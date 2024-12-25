@@ -60,9 +60,10 @@ about-playbook-what-is-language-content-3 = دھان٘کہ ژِبہ ݜے تھی 
 ## How do I add a language
 
 about-playbook-how-add-language = مہ ژیب گِشے ٹَل کَرم؟
-about-playbook-how-add-language-content-1 = بُٹؤں نہ مُوٹھِن نھالہ چے تیں ژیب <languageLink> پھیں نہ موجود تھی گی نَیں</languageLink>۔ کہ نی تھی کھیں تے تو تیں جیب ٹل کریاں تپوس کراں ہاں تھو</languageRequestLink>۔  جیب ٹل کریاں دن دو ولی تھو ،اک پور سائٹ مرک کروں آں دو یوں جملی ٹول کرؤں۔
+about-playbook-how-add-language-content-1 = بُٹؤں نہ مُوٹھِن نھالہ چے تیں ژیب <languageLink> پھیں نہ موجود تھی گی نَیں</languageLink>۔ کہ نی تھی کھیں تے <languageRequestLink> تَیں ژیب ٹل کریں یاں درخواست کرہ</languageRequestLink>۔  ژیب ٹل کریں یاں دُو کھڑپی تھو ،اک پور سائٹَیں ژیب مرک کرؤں آں دُویُوں جملی ٹُول کرؤں۔
 about-playbook-how-add-language-translating-heading = سائٹَیں ژیب گُھرؤں
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>زاں پَشان٘لو نھالی لہ پونٹُون گِشے چَلاں تھہ۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = بے   ژبی مرک کرَیں یاں دن</pontoonLink> پونٹون<pontoonLink>  کریں یاں اک موزیلا ٹول کماگ تھو۔ پونٹون مہ پیرمانوں ژیبہۡ تھی، خو تیں ژیب نی تھی کھیں تو ٹل کریاں دن <pontoonRequestLink>عرض کراں ہاں تھو</pontoonRequestLink>۔ تلاں پتئیں کامن وائس پروجیکٹ مہ ٹل کریاں دن گٹ ہب لا <githubRepoLink> نَیں ژِباں درخاس دے</githubRepoLink>۔ </localizationFragment>سائٹ مرک کریں لا مُتُویں مواد نھالہ<localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جُملی جمع کرُژاں تھی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>زاں پَشان٘لو نھالی چے جُملی جمع کران٘لو گِشے چَلاں تھہ</sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جُملی جمع کرَیں یاں بابتی مہ ہِلاک مُت نھالی</sentenceCollectorFragment>۔
@@ -71,6 +72,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = سائٹ تَیں ژِبے مرَک‌ کرے گِشے چلُژ تُھو؟
 about-playbook-how-localize-content-1 = کامن وائساں ژیب گُھرؤں</strong> پونٹُون<strong>۔لا ہوئ تُھو۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink> اکونٹ سندہ <pontoonAccountLink> کہ  پھیں نہ تگے نی تھو کھیں۔ تے تَیں ژِبَیں<strong>('ٹیم')</strong> خوش کرے اَمَیں پروجیکٹ خوش کرہ، <pontoonCvLink>کامن وائس</pontoonCvLink>۔ تلہ ژیب مرک کریں یاں دن فائلہ ہوتھو، اک کہ لا ٹک کرہ کھیں تے ان٘گرزی مہ لفظہ پشا تھو آں میلی چٹ ژیب مرک کریں یاں دن اک صندقو لک ہو تھی۔
 about-playbook-how-localize-content-4 = کلہ اُو 75% ہُون٘د کھیں، ویب سائٹ شروع کرَیں تیار ہو تُھو۔
 about-playbook-how-localize-content-5 = مَدتیاں کِریا، زاں پورژان٘لہ ویڈیو نھالی۔
 
