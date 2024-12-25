@@ -7,7 +7,7 @@ how-does-it-work-text = ماخ يې بُو سۀ جوَت او ته عام خلق
 
 ## How does it work section
 
-about-language-req-subtitle = کوک بُو پِشتِنه کوی که ا سۀ زبان ال سُو څخل ګډوی
+about-language-req-subtitle = کوک بُو پِشتِنه کوی که ا سۀ زبان ال سُو څخل ګډېوی
 about-localization-title = ته وېب سائټ ا مقامی کؤ
 about-localization-subtitle = ته وېب سائټ ا سبق فۀ زبان نر ا ترجمه
 about-sentence-collection-title = ته جملي ا جمع کؤ
