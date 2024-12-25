@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = جولال کیر بڑبڑیا
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = اشارہ تھال۔
 prompt-bubble-subtitle = بہ تو ٹھا سوال پشای
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = اتو نت چوݨ
