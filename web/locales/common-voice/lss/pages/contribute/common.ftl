@@ -125,8 +125,16 @@ contribution-varying-pronunciations-title = مختلف پروننسيايشني�
 contribution-varying-pronunciations-example-1-title = هنا سسي ات ٽوپي ودي ا.
 contribution-varying-pronunciations-example-2-title = هن جو ھٿ مٿ-ي ا.
 contribution-background-noise-title = بيڪگرائونڊ جو شور.
+contribution-background-noise-description-extended = اگر ريڪارڊنگ جورَ تي، يا کل ا اهيس، ريجيڪٽ ڪر ته پورو مواد ٻڌڻ ام ﺍﭼﻲ.
 contribution-background-noise-example-1-fixed-title = [ڇڪ] وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
 contribution-background-noise-example-2-fixed-title = وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
 contribution-background-noise-example-2-explanation = [مواد جو حصو ٻدڻ ام ڪون تو اچي]
 contribution-background-noise-example-3-fixed-title = [کل] وڌا ڏئيناسورا [کل]-ياسڪ ا جا.
 contribution-background-voices-title = بڪگرائونڊ جون آوازيون
+contribution-background-voices-description-extended = اگر ريڪارڊنگ جورَ تي، يا کل ا اهيس، ريجيڪٽ ڪر ته پورو مواد ٻڌڻ ام ﺍﭼﻲ.
+contribution-background-voices-example-1-title = وڌا ڏئيناسورا ترياسڪ ا جا. [هيڪڙي آواز ام پڙھ]
+contribution-background-voices-example-1-explanation = تون اچين تو؟ [ٻي چِيو]
+contribution-volume-title = آواز
+contribution-reader-effects-title = پڙهن واري جا اثرا
+contribution-just-unsure-title = بي يقين اھين؟
+see-more = ٻيا ڏس
