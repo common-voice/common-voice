@@ -98,8 +98,11 @@ about-playbook-how-record-content-5 = <accuracyLink>سُون٘ݜیرَیں یا�
 ## How to grow language
 
 about-playbook-how-grow-language = کامن وائسہ لا بِس ایک ژیب اوک گِشے مُوٹُھو ہران٘گَیں تھو؟
+about-playbook-how-grow-language-content-1 = رن٘گ رن٘گاں خلکہ واں کریا حصہ ہرئیں موقع دگلے کامن وائس ݜس لُوکھیۡ تُھو چے ڈیٹاسیٹ چے نہ چے خلکؤں ڇیل۔ زَیں ݜے لک وسائل تے نُمونی سن٘دہ چھی چے کؤں تُس استعمال کر ہاں!
 about-playbook-how-grow-language-content-2 = پُرگِرامہ
+about-playbook-how-grow-language-content-3 = تُس پُرگِرامہ کرے خلکؤں حصہ ہرَیں مہ مدد کریاں تھہ۔ اُو وڑیا کام تُھو۔ اَس تُس آنلائن گتہ کرہاں تھہ یا گی مسئلہ نی ہُون٘دُوں مُخ پہ مُخ گتہ کرہاں تھو۔<eventTemplate> زاں پُرگِرامہ واں نمونہ چیک کری</eventTemplate>۔
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = تُس خلکہ خبر کرَیں یاں کریا سوشل میڈیا گتہ استعمال کرہاں تھہ۔ ݜے پوسٹہ مُوٹھو رزاں ہاں تھو چے گھِن٘ل پوسٹؤں مہ ݜَیں بلی ہوں چے اسی نہ گی فَیدہ تُھو، ژِبہۡ مہ مسئلی لکھَیں اسی حقہ، اوازَیں امَیں سن٘دیل ذہانت (AI) آں ٹیکنالوجی مہ تعصب۔مُتیۡ مشورہ واں کریا <campaignLink>تاں مواد دوبارہ کمؤں تے خلکؤں اگاہی</campaignLink> لا ٹک‌ کرہ۔
 about-playbook-how-grow-language-content-6 = مرگلتیا تے نیٹ ورکہ
 
 ## How to validate
