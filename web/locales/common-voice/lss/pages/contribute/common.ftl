@@ -138,3 +138,4 @@ contribution-volume-title = آواز
 contribution-reader-effects-title = پڙهن واري جا اثرا
 contribution-just-unsure-title = بي يقين اھين؟
 see-more = ٻيا ڏس
+see-less = ٿورا ڏس
