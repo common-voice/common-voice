@@ -86,6 +86,15 @@ request-language-button = درخواست ڏي زبان ا لا
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
 shortcut-play-toggle-label = هلائي/روڪ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ي
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = ڪراٽيريا
+contribution-criteria-link = سمجھ ڪنٽريبوشن جو ڪرائيٽيريا
+contribution-criteria-page-title = ڪنٽريبيوشن ا جو ڪرائيٽيريا
