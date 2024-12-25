@@ -42,6 +42,7 @@ about-get-involved-text-2 = کامَن وائس مِٹھیں سَم کرَیں �
 about-stay-in-touch = مہ رابطہ مہ گِشے دَھرَم؟
 about-stay-in-touch-button = پُنیاکی سَن٘دہ/ٹل ہو
 about-stay-in-touch-text-1 = <emailFragment> زاں بجلی خطیاں دَن پُنیاک‌ سَن٘دہ</emailFragment> لے تے پَت اے چے کامن وائس لا کَمپینؤں، پُرگِرامؤں آں ایکٹھی سَن٘دان٘لہ ڈیزائنؤں مہ تُو گِشے حِصہ ہرا تُھو۔
+about-stay-in-touch-text-2 = موزیلائیں ژبوَیں کمیونٹی مہ مُت خلکؤں ملی ملَیں یاں غرضی تُھو کھیں <discourseLink> بال الاؤ کرَیں زئ </discourseLink> بہ لہ تلہ بلی ہوں یا زاں <matrixLink> میٹرِکس مہ</matrixLink> خلکہ نہ مشورہ آ۔
 about-nav-why-common-voice = گِنہۡ؟
 about-nav-how-it-works = گِشے؟
 about-nav-partners = مرگلئ
@@ -66,6 +67,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>زا
 about-playbook-how-add-language-translating-content-2 = بے   ژبی مرک کرَیں یاں دن</pontoonLink> پونٹون<pontoonLink>  کریں یاں اک موزیلا ٹول کماگ تھو۔ پونٹون مہ پیرمانوں ژیبہۡ تھی، خو تیں ژیب نی تھی کھیں تو ٹل کریاں دن <pontoonRequestLink>عرض کراں ہاں تھو</pontoonRequestLink>۔ تلاں پتئیں کامن وائس پروجیکٹ مہ ٹل کریاں دن گٹ ہب لا <githubRepoLink> نَیں ژِباں درخاس دے</githubRepoLink>۔ </localizationFragment>سائٹ مرک کریں لا مُتُویں مواد نھالہ<localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جُملی جمع کرُژاں تھی
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>زاں پَشان٘لو نھالی چے جُملی جمع کران٘لو گِشے چَلاں تھہ</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = ݜلگائ تُوۡ<sentenceCollectorLinkAdd>کم لک جُملی ٹل کرہاں  تُھو</sentenceCollectorLinkAdd> یا<bulkImportDocsLink> چئ جُملی ایکٹھی آہَیں تُھو</bulkImportDocsLink>۔ یادی رڇھہ چے جُملی <licenseLink> CC0 لھیسنی ہوں (یا عوامی ہوں)</licenseLink>، یا تُوۡ تَیں جُملی امَیں لک ہَیں تُھو۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جُملی جمع کرَیں یاں بابتی مہ ہِلاک مُت نھالی</sentenceCollectorFragment>۔
 
 ## How does localization work
