@@ -104,11 +104,14 @@ about-playbook-how-grow-language-content-3 = تُس پُرگِرامہ کرے خ
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تُس خلکہ خبر کرَیں یاں کریا سوشل میڈیا گتہ استعمال کرہاں تھہ۔ ݜے پوسٹہ مُوٹھو رزاں ہاں تھو چے گھِن٘ل پوسٹؤں مہ ݜَیں بلی ہوں چے اسی نہ گی فَیدہ تُھو، ژِبہۡ مہ مسئلی لکھَیں اسی حقہ، اوازَیں امَیں سن٘دیل ذہانت (AI) آں ٹیکنالوجی مہ تعصب۔مُتیۡ مشورہ واں کریا <campaignLink>تاں مواد دوبارہ کمؤں تے خلکؤں اگاہی</campaignLink> لا ٹک‌ کرہ۔
 about-playbook-how-grow-language-content-6 = مرگلتیا تے نیٹ ورکہ
+about-playbook-how-grow-language-content-7 = مُت شوقی خلک لٹا۔ سَیں یونیورسٹیُوں مہ، اِسکُلؤں مہ، مشوری دیں والا ٹولئیوں مہ آں ڈیٹا سائنسَیں کمیونٹِیُوں مہ ہوں ہاں تھہ۔ سیوں ملی بال بنہ آں سیوں سمّوں پورژا چے سِوَیں مدد گِشے آں گِنہۡ پکار تھی۔<outreachTemplates>خلکؤں بجلی خطی ڇِہېں ایں نُمونی نھالہ</outreachTemplates>۔
+about-playbook-how-grow-language-content-8 = <strong>سُکھیݜ سن٘دژہ!</strong> تِیں ژِباں خلک مُتؤں نہ مُت رن٘گاں ہو تھو آں شروعات کرَیں یاں کریا دھان٘ک پن٘دہۡ تھی۔
 
 ## How to validate
 
 about-playbook-how-validate = مے گِشے پتہ اے تھی چے اوازاں ایک کٹرُو اوک منظور کرؤں تُھو؟
 about-playbook-how-validate-content-1 = کہ تُو اس <strong>ݜُوں ہَیں تُھو </strong> آں اسی لا <strong> پو ہُوئ تُھو </strong> کھیں اُو <strong> منظُوور ہویں یاں قابل </strong> کٹرُو تُھو۔
+about-playbook-how-validate-content-2 = <strong>ݜے کٹرو کلَیں ژا رد نیرہ (نی کگا) چے سو تیں لہجہ نہ ہِلاک مرک ہو</strong> اوازاں پُنیاک‌ کران٘لاں کریا ݜُو بال چئ اہم تھی چے اُو بُٹ پُنیے۔
 
 ## How to access dataset
 
