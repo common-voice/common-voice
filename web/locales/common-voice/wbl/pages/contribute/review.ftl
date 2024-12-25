@@ -40,11 +40,11 @@ sc-criteria-modal = Didẽg̃hikẽ mẽyor
 sc-criteria-title = didẽg̃hikẽ mẽyor
 sc-criteria-make-sure = Yẽqin car ki jũmla didẽg̃hikẽki rem dest dhetk mẽyorẽ mẽtobiq
 sc-criteria-item-1 = Jũmlaẽ hijayi drũst wocẽn dẽrkor
-sc-criteria-item-2 = Jũmlayi gramarẽ lihozẽr dẽrũst wocẽn dẽrkor/ awaji
+sc-criteria-item-2 = Jũmlayi gramarẽ lihozẽr dẽrũst wocẽn dẽrkor
 sc-criteria-item-3 = Jũmla zẽrũr k̃hẽnakẽ qobil wost
 sc-criteria-item-4 = Agar jũmlas̃h ki dẽ mẽyor g̃hat sẽk rostẽ gẽna mẽrwat kẽlik car &quot;&quot;
 sc-criteria-item-5-2 = Afar jũmlas̃h ki dem wochũ meyor ne g̃hat, radẽ mẽrwatẽ kẽlik car. agar tawri ki jumla barar yẽqin tu ya jũmla lecẽr k̃hẽ dayor jumla rec̃h
-sc-criteria-item-6 = Agar dẽdeg̃hikrẽs̃h ki jumla kam wost, miriboni car k̃hẽ c̃hak jumla g̃hurtnẽr k̃hakẽr sakẽr  yori/ mẽdad woc
+sc-criteria-item-6 = Agar dẽdeg̃hikrẽs̃h ki jumla kam wost, miriboni car k̃hẽ c̃hak, jumla g̃hurtnẽr k̃hakẽr sakẽr  yori/ mẽdad woc
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = kẽliki </icon> zikẽ hisobẽr drũst jũmla?
 sc-review-rules-title = Cẽrg jũmlayi yicũvnẽ mẽtobiq teya?
