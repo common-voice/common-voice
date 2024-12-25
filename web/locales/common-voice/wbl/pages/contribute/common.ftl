@@ -53,10 +53,10 @@ report-different-language-detail = Yemẽv cẽ z̃hũ zikẽn digar sokht nivi
 report-difficult-pronounce = K̃hẽnaki zur
 report-difficult-pronounce-detail = demi zirg lavzẽt jũmlayisht ki yavẽ k̃hẽnaki zur
 report-offensive-speech = Jarihona qẽsa/ taqrir or zẽrũvnẽ qẽsa/ taqrir
-report-offensive-speech-detail = hẽdem kẽlipi badh tẽmiz or zar zik
+report-offensive-speech-detail = hẽdem kẽlipi badh tẽmiz yoy jarihona zik
 report-other-comment =
     .placeholder = bẽyon/  k̃han/ nivish
-success = komyobig̃h
+success = komyobig̃h/ komyibi
 continue = jori
 report-success = rapotẽv komyobig̃hẽ mes̃h dez̃hd/ manzũr kert
 
@@ -70,14 +70,14 @@ shortcut-skip = S
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = record̃/ hal, rũk
+shortcut-record-toggle-label = ricord̃ẽ rok/rũk
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = kẽlipẽ dẽbora rikod̃
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = jori rekord̃ingẽ zoya/ rad car
 shortcut-submit = pẽshin/ pẽshew
 shortcut-submit-label = kẽlipẽ jama/ rand
-request-language-text = Sẽ common Voysẽs̃h (common voice) ghal k̃hũ zikẽ ne winẽm/ ghalẽbatkẽs̃h k̃hũ zikẽ sẽk common voys ne winẽm
+request-language-text = Sẽk Kommon Voysẽs̃h (common voice) ghal k̃hũ zikẽ ne winẽm/ ghalẽbatkẽs̃h k̃hũ zikẽ sẽk Kommon voys ne wina?
 request-language-button = Yi zikẽ arzẽ car
 
 ## Listen Shortcuts
