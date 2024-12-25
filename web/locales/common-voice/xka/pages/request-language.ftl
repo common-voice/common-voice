@@ -6,3 +6,4 @@ request-language-form-email =
 request-language-form-info =
     .label = جب اؘ بارامی گواؘ معلومات این۔
 request-language-form-info-explanation-list-1 = توسی جب اؘ گواؘ نام۔
+request-language-form-info-explanation-list-2 = ائی ایس او کوڈز جانل ݭاتہ۔
