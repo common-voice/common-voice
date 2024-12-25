@@ -111,3 +111,6 @@ contribution-misreadings-example-1-title = وڌا ڏئيناسورا ترياس�
 contribution-misreadings-example-2-title = وڌو ڏئيناسور ترياسڪ ا جو.
 contribution-misreadings-example-2-explanation = ڇڻ کپا `ڏئيناسورا`.
 contribution-misreadings-example-3-title = وڌا ڏئيناسورا ترياس- ا جا.
+contribution-misreadings-example-3-explanation = [آخري لفظ جي اينڊ نان پرين جلدي رڪاڊنگ ختم ڪرڻ]
+contribution-misreadings-example-4-title = وڌا ڏئيناسورا ترياسڪ ا جا. ھائو.
+contribution-misreadings-example-4-explanation = الاهي ريڪارڊنگ ڇي ويهي ا جيتري ضروري هئي انا نان.
