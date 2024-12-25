@@ -125,3 +125,4 @@ contribution-varying-pronunciations-title = مختلف پروننسيايشني�
 contribution-varying-pronunciations-example-1-title = هنا سسي ات ٽوپي ودي ا.
 contribution-varying-pronunciations-example-2-title = هن جو ھٿ مٿ-ي ا.
 contribution-background-noise-title = بيڪگرائونڊ جو شور.
+contribution-background-noise-example-1-fixed-title = [ڇڪ] وڌا ڏئيناسورا [کنگ] ترياسڪ ا جا.
