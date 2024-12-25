@@ -3,7 +3,7 @@
 sc-review-lang-not-selected = Tawẽ kumd zik intikhob ne k̃hetk. miriboni car k̃hẽ rec̃h de k̃hu <profileLink> profail</profileLink> zẽk yiwernẽr
 sc-review-title = Jũmlavẽ didig̃h
 sc-review-loading = jũmlavẽs̃h katẽn
-sc-review-select-language = Miriboni car jumlavẽ didẽg̃hikẽr yi zikẽ yewẽr
+sc-review-select-language = Miriboni car jumlavẽ didẽg̃hikẽr yi zikẽ yewẽr/ intikhob
 sc-review-no-sentences = didg̃hikri chiz jũmlayisht nast. <addLink> caq woz jũmlavẽ kat̃!</addLink>
 sc-review-form-prompt =
     .message = Cẽrg tori yẽqina ki didig̃het jumlavẽv jama ne k̃hetk
