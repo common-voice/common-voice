@@ -20,12 +20,12 @@ overall-accuracy = Ijtimoi drustẽgi/ pẽtun drũstẽgi/ kũl drũstẽgi
 set-visibility = Maz̃h wingẽ set̃ car/ z̃hũ sẽdhũynẽ set̃ car
 visibility-explainer = Hayem set̃ingẽs̃h ti lowd̃bord̃ẽ wingẽ kant̃rol cart. Pẽrdhvj k̃hakrẽb ti yark nẽji wost. Yo matlabi yem ki ti sũrat, istimol k̃hakẽ kũzgẽ nung, woz yo tẽreqib sẽk (Leaderboard) ne winẽn. Dẽ k̃hũ yod dũrz ki lid̃ẽrbord̃ẽ (leaderboard) tabdiliyẽ c̃hk k̃hakres̃h (refresh) dẽqiqa dũrzd  ̃{ $minutes }
 visibility-overlay-note = dẽ yod dũrz: cẽ wakhtẽt ki wing set̃, hẽyem set̃inges̃h badal cart cẽ <profileLink>ziti malumotẽ wẽraq</profileLink>
-show-ranking = z̃hũ dẽrjabandi dhisũv
+show-ranking = z̃hũ dẽrjabandẽi dhisũv
 
 ## Custom Goals
 
 get-started-goals = Dẽ maqsadẽn s̃hẽru/ oghoz car
-create-custom-goal = yi zẽrũrate maqsad gok̃h
+create-custom-goal = yi zẽrũratẽ maqsad gok̃h
 goal-type = Chiz sokht maqsad k̃hakẽ zẽrũrati?
 both-speak-and-listen = kifch
 both-speak-and-listen-long = Kifch (k̃hẽnak woz kẽs̃hũn)
@@ -34,11 +34,11 @@ weekly-goal = Haftẽwor maqsad
 easy-difficulty = oson
 average-difficulty = dẽrmiyon
 difficult-difficulty = zur
-pro-difficulty = trmis/ terpẽrũt
-lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ hẽyem tẽreqiye nũs
+pro-difficulty = tẽrmis/ terpẽrũt
+lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ hẽyem tẽreqiye albat nũs
 want-to-continue = tus̃h jori lecra?/ tus̃h jori lẽcẽrnẽ zoq cara?
 finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
-lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃htkvẽ nũs
+lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃hetkvẽ nũs
 build-custom-goal = k̃hũ ẽrmon/ destũrẽ maqsad go
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
