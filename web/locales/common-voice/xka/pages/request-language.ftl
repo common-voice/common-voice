@@ -12,3 +12,4 @@ request-language-google-recaptcha-required = تو مݭ تہ منل داوین ت
 request-language-google-recaptcha-error = recaptach سہ گیجین گوا شہ کچھ این دران کوشش تھ
 # Success page
 request-language-success-heading = تی نم جب نالیل کیر لاڈل تی مربنی۔
+request-language-error = می شک این اؘ درحاس نہ پݭ ۔مربنی تھا اسان امیل تھا ۔بھ توسان دی پتھ پݭان۔
