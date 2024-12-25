@@ -110,3 +110,4 @@ contribution-misreadings-description-extended-list-5 = لفظ اک الاهي د
 contribution-misreadings-example-1-title = وڌا ڏئيناسورا ترياسڪ ا جا.
 contribution-misreadings-example-2-title = وڌو ڏئيناسور ترياسڪ ا جو.
 contribution-misreadings-example-2-explanation = ڇڻ کپا `ڏئيناسورا`.
+contribution-misreadings-example-3-title = وڌا ڏئيناسورا ترياس- ا جا.
