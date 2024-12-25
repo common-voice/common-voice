@@ -15,6 +15,8 @@ contribution-activity = تعاون ایکٹی ویٹکی
 top-contributors = آخری خزمت گار
 recorded-clips = ریکاڈتھاگیل جولال
 validated-clips = جݭاگیل کلپس
+total-approved = سوا قبولباگاَل
+overall-accuracy = سوا صحی
 set-visibility = می نالیل۔سمہ
 visibility-explainer = اوں سیٹنگ تی لیڈر بورڈالیل سمون،کرا پلاگیل بیل تہ،تی پراگرس پرایویٹ آݭہ۔۔ مطب ان اں تی فوٹو،نام تےتی کار لیڈر بورڈ رل نہ یہ۔۔اوں بیت تہ اوب تہ اےںلیڈر شپنوم بال می ۔۔۔۔۔۔۔منٹ گینون
 visibility-overlay-note = کرا سیٹ ٹووزیبل  پر بون تےاوں سیٹینگ۔۔۔۔۔۔۔۔۔۔۔۔پروفاییل پیج دا۔۔۔۔۔۔۔۔۔۔می بدل بون
@@ -26,14 +28,18 @@ get-started-goals = مقسد کیر شرو۔
 create-custom-goal = گاگ اؘ کیر ا مقسد تارا
 goal-type = تو گوا تھال داون
 both-speak-and-listen = دوا تی۔۔۔۔۔۔منیل تے بجیل
+both-speak-and-listen-long = منیل تے بوجیل دوآ تھی
 daily-goal = ہر دوسن ترام۔
 weekly-goal = ہفتہ اؘ ترام
 easy-difficulty = سوگار
 average-difficulty = مجیرم
 difficult-difficulty = بیکھر
 pro-difficulty = مکئہ
+lose-goal-progress-warning = کہ تو تانی نخ می  ترمیم تھون  تہ،تانی پراگرس پا نہ بایلہ تہ
 want-to-continue = تو روان رݭیل داوین اؘ
 finish-editing = ایڈیکنگ اول ختم تھ نا۔
+lose-changes-warning = تیپہ چھوریل مطلب ان اں تو تانی بدلاگال پا باییلون
+build-custom-goal = ا رواجی ٹارگٹ  تراج
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] کامنوایس ا جیب می ذاتی ا مقصد کیرمدد تہ
