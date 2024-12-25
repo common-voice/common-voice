@@ -37,3 +37,7 @@ sc-review-link = ريويو ڪر
 sc-criteria-modal = ⓘ رويوا جو ڪرائيٽيريا
 sc-criteria-title = رويوا جو ڪرائيٽيريا
 sc-criteria-make-sure = ڏِس ته جملا هي ڪرائيٽيريا پورا ڪن:
+sc-criteria-item-1 = جملو صحيح هِڄي ٿيو هونجن.
+sc-criteria-item-2 = جملو گرامر جي حساب سين صحيح هونجن.
+sc-criteria-item-3 = جملو ڳالاڻ جي حساب سين صحيح هونجا.
+report-sc-different-language = ٻي زبان
