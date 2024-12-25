@@ -85,7 +85,7 @@ request-language-button = Yi zikẽ arzẽ car
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = J̃akh, chawũv/rok (ple/st̃op)
+shortcut-play-toggle-label = J̃akh, chawũv/oũtrũm, rok (ple/st̃op)
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -96,16 +96,16 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = mẽyor
-contribution-criteria-link = jama k̃hakẽ mẽyorẽ hẽr pẽzũv kat̃
-contribution-criteria-page-title = shẽrikatdoriẽ miyor
+contribution-criteria-link = Hisadorig̃hẽ mẽyorẽ hẽr pẽzũv kat̃
+contribution-criteria-page-title = Hisadorig̃hẽ miyor
 contribution-criteria-page-description = hẽr k̃hũ pẽzũv kat̃ ki owozẽ kẽlip kẽs̃hũynẽ mẽhali chiz s̃hẽkurni zẽrũrat woz k̃hũ owozẽ baf k̃hakẽrẽb yori rand!
 contribution-for-example = yaniki
-contribution-misreadings-title = ghẽlat joyn/ ghẽlat hẽr k̃hũ pẽzũv kẽt̃ak
+contribution-misreadings-title = ghẽlat joyn
 contribution-misreadings-description = dẽ kẽs̃hũynẽn ityotẽmẽs̃h didig̃h ki chizẽv rikord̃ khẽtk woz cẽ rostig̃hnẽv chiz nivishetk; rad car agar ki gha nuqsi tey. <br />
-contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> yoy <strong>'dẽ'</strong>dẽ rekordingẽ shẽruni nẽs̃het
+contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> yoy <strong>'dẽ'</strong>dẽ rikordingẽ shẽruni nẽs̃het
 contribution-misreadings-description-extended-list-2 = dẽ lavzẽ okhir yi 's' nẽs̃htk  <strong></strong>
 contribution-misreadings-description-extended-list-3 = cont̃rakshanvẽ joyni dẽr haqiqat dra nas , cẽrsokht ki sakẽn teyẽ bejay sakẽn yoy pẽsagẽna
-contribution-misreadings-description-extended-list-4 = cẽ ricordingẽ jald rẽsidhẽn okẽri lavzẽ yandẽ nũsen
+contribution-misreadings-description-extended-list-4 = cẽ ricordingẽ jald rẽsidhẽn okẽri lavzẽ yandẽs̃h nũsen
 contribution-misreadings-description-extended-list-5 = yi lavzẽ joynẽr cum loy kushish k̃hak
 contribution-misreadings-example-1-title = T̃riassikẽ borzẽngi rang d̃inosaurs
 contribution-misreadings-example-2-title = T̃riassikẽ borzẽngiẽ rang d̃aynosaurisht
