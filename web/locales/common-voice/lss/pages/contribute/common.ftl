@@ -43,6 +43,13 @@ submit-form-action = جمع ڪر
 
 report = رپورٽ ڪر
 report-title = رپورٽ جمع ڪر
+report-ask = توک هنا جملي م ڪهڙا ايشوا اهِين؟
+report-offensive-language = آفينسيو زبان
+report-offensive-language-detail = هنا جملي م بيعزتي واري يا آفينسايو زبان ا.
+report-grammar-or-spelling = گرامر يا اسپيلنگ جو ايرر
+report-grammar-or-spelling-detail = هنا جملي م گرامر يا اسپيلنگ ا جو ايرر  ا.
+report-different-language = ٻي زبان
+report-different-language-detail = ايو لکيو بي زبان ام اُن ا نا جيڪا آن ڳالاھين پيو.
 
 ## Speak & Listen Shortcuts
 
