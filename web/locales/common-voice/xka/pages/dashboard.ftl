@@ -143,6 +143,7 @@ share-goal = می مقصد شییر تہ
 
 ## Goals
 
+streaks = سٹریکس
 days =
     { $count ->
         [one] دوس
