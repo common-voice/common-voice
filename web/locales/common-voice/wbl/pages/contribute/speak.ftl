@@ -55,11 +55,11 @@ first-cta-gender-select-help-text =
     .label = Tub k̃hũ jinsẽ cẽr sokht bẽyon car
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = K̃hũ owoz shomil k̃hakẽr s̃hobos̃h
-second-cta-subtitle-text = dẽ profaylẽnes̃h tu sẽk k̃hũ yark sqo hẽlakẽ bas wez woz dẽ owoze d̃at̃a k̃hakẽkũzgvẽ jẽmoatnẽs̃h robitar hal
-already-have-an-account = tẽ misẽkẽni yi akownt̃ tey <login> cherm/ log-in</login>
-create-profile-button = yi profyl go
+second-cta-subtitle-text = dẽ profaylẽnes̃h tu sẽk k̃hũ yark sqo hẽlakẽ bas wez woz dẽ owozẽ d̃at̃a k̃hakẽkũzgvẽ jẽmoatnẽs̃h robitar hal
+already-have-an-account = tẽr misẽkẽni yi akownt̃ tey <login> cherm/ log-in</login>
+create-profile-button = yi profayl go
 # IMAGE TAGS
-img-alt-success-checkmark = komyobiẽ nis̃hun
+img-alt-success-checkmark = komyobiyẽ nis̃hun
 # menu item
 read-sentences = jũmlavẽ joy
 
@@ -72,5 +72,5 @@ answer-questions-menu-item-tooltip = k̃hũ zikẽr sowolvẽt ishor̃avẽ je�
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = muqavẽ menuvẽ k̃han
-read-sentences-menu-item-aria-label = cẽ jẽmoatvẽ gẽnan mukhtalif zikẽr jũmlavẽ joy
+read-sentences-menu-item-aria-label = cẽ jẽmoatvẽ gẽnanjama k̃hetk mukhtalif zikẽr jũmlavẽ joy
 answer-questions-menu-item-aria-label = cẽ jẽmoaten yi s̃heg̃hd sowol car ki yasht joyn woz jẽwob randẽn
