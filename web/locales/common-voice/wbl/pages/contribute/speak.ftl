@@ -54,7 +54,7 @@ first-cta-gender-select-default-option = yi option dũrz
 first-cta-gender-select-help-text =
     .label = Tub k̃hũ jinsẽ cẽr sokht bẽyon car
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = K̃hũ owoz shomil k̃hakẽr s̃hobosh
+second-cta-header-text = K̃hũ owoz shomil k̃hakẽr s̃hobos̃h
 second-cta-subtitle-text = dẽ profaylẽnes̃h tu sẽk k̃hũ yark sqo hẽlakẽ bas wez woz dẽ owoze d̃at̃a k̃hakẽkũzgvẽ jẽmoatnẽs̃h robitar hal
 already-have-an-account = tẽ misẽkẽni yi akownt̃ tey <login> cherm/ log-in</login>
 create-profile-button = yi profyl go
