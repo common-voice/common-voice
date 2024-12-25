@@ -68,6 +68,7 @@ username-email-not-demographic = تیں نؤں آں تیں پتہۡ چاپ کر�
 ## Landing
 
 welcome-staff = { $company }کام کران٘لو، ایلوئ!
+help-contribute = کامن وائس پروفائل سن٘دے آں تاں اواز زاں کریا دگلے تُو ایک رن٘گا رن٘گ آں بُٹواں ہتے اے ڈیٹا سیٹ سن٘دَیں مہ زَیں مدد کر ہَیں تُھو۔
 login-company = مژے لنگھ/اماں  { $company } یی ای میل کھیں گڈ کرہ
 profile-not-required = امدات کریں یاں دن پروفائل ہوں گی شرط نی تھو خو کہ ہوندوں من٘ڑنَیں تُھو۔ من چور نھالہ چے آخر گِنہۡ۔
 read-more-about = پن٘ڑَیں بابتی مہ مُت پڑہ
@@ -92,4 +93,5 @@ community-and-languages-menu-item-tooltip = ژِبہۡ، مُختلف خلکَہ
 
 about-menu-aria-label = اختیاراتَیں لیشیاں بارہ مہ
 partnerships-menu-item-aria-label = کامن وائسہ مِلیۡ مرگَلتیاں بارہ مہ سِڇھہ/ڇِڇہ
+press-and-stories-menu-item-aria-label = کامن وائساں متعلق اخبارَیں خبریوں ہا گلہ۔
 community-and-languages-menu-item-aria-label = کامن وائس چےۡ گھِن٘ل خلکہ آں ژِبؤں مِلیۡ اُولی ہوئ تُھو سیوں لا گَر پَھر ہو

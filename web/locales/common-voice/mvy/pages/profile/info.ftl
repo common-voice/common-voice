@@ -66,3 +66,6 @@ help-accent-explanation = تیں لہجہ بنیادی طور ہِن ݜسے بن
 help-variants = کرٹ ژِباں بابتی مہ اما پورژائ تُھویی؟
 help-variants-explanation = کرٹ ژیب ایک ژِبَیں ایک ݜے لک حالت ہُوئ تھی چے ایک خاص گُھیں علاقاں یا قوماں خلک تس ژیب دیں۔ اسے بولی گتہ بناں تھو۔
 help-sex-or-gender-changes = جِنسَیں تبدیلی یاں بارہ مہ گی معلومات پکار تھی یی؟
+variant-contribution-option-1 = مِیں ژِبَیں بُٹیۡ لہجی وَیں جُملی تے کٹرو مے پشا
+variant-contribution-option-2 = صرف مِیں خاص لہجَیں جُملی تے اوازاں کٹرو مے پشا
+variant-contribution-warning-title = بُٹیۡ جُملیُوں لا لہجی وَیں پرچہ لا نی رِن٘گی تھی!
