@@ -40,6 +40,11 @@ want-to-continue = تُمݺ جݳرݵ تھݵئنݳئی رݳئی رݵگُݸ چھݸ
 finish-editing = ݵَرکَمݳس تَرمݵم مُکمل اِرا؟
 lose-changes-warning = مݸ جݳنݳئی مطلَپ ہݵئ چھݳتݳ تُمݺ ارݸت تبدݵلِݣ ضݳئع ہݸݣݺ.
 build-custom-goal = حسب ضرݸلت مقصَد دُرݳلݳ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] اپَنئ ذݳتݵ مقصَتس کݸٹ { $hours } گَھنٹَنݳ { $language }دِݽقلتِنَنݳ مَدَد اِرݳ
+       *[other] اپَنئ ذݳتݵ مقصَتس کݸٹ { $hours } گَھنٹَنݳ { $language }دِݽقلتِنَنݳ مَدَد اِرݳ
+    }
 
 ## Goals
 
