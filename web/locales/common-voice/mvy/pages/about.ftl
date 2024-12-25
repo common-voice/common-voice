@@ -112,10 +112,13 @@ about-playbook-how-grow-language-content-8 = <strong>سُکھیݜ سن٘دژہ!<
 about-playbook-how-validate = مے گِشے پتہ اے تھی چے اوازاں ایک کٹرُو اوک منظور کرؤں تُھو؟
 about-playbook-how-validate-content-1 = کہ تُو اس <strong>ݜُوں ہَیں تُھو </strong> آں اسی لا <strong> پو ہُوئ تُھو </strong> کھیں اُو <strong> منظُوور ہویں یاں قابل </strong> کٹرُو تُھو۔
 about-playbook-how-validate-content-2 = <strong>ݜے کٹرو کلَیں ژا رد نیرہ (نی کگا) چے سو تیں لہجہ نہ ہِلاک مرک ہو</strong> اوازاں پُنیاک‌ کران٘لاں کریا ݜُو بال چئ اہم تھی چے اُو بُٹ پُنیے۔
+about-playbook-how-validate-content-3 = کہ تے ݜے لیل‌ہُوۡئ تھی چے ادائیگیں وجہۡ نہ <strong>پو نی ہُووُژ تُھو/ہوزات</strong> یا اسی مہ <strong>ڈاپاتیاں غوغا چو زیات تُھو</strong>، یا <strong>مژ مہ مُتُوۡیں چے خلکہ بلہ بناں تھو</strong> کھیں تے کٹرُو کگالُوں کگائ (رد کری)۔ <accuracyLink> سُون٘ݜیۡرَیں یاں بارہ مہ معلومات</accuracyLink> نھالی۔
+about-playbook-how-validate-content-4 = کہ کٹرُو دُوۡیں ماݜؤں کگائ کھیں تے سو مُت ڈیٹاسیٹے بے تُھو۔
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = مہ ڈیٹا سیٹ گِشے ہتے آم آں استعمال کرم؟
+about-playbook-how-access-dataset-content-1 = تُو <datasetsPage>ڈیٹاسیٹاں پیجے</datasetsPage> گتہ بے ہاں تُھو، تلہ گِھن٘لیۡ زمژیب آں تسیں قسم تُو لُوکھیۡ تُھو تس اُڇھہ (خوش کرہ) آں منی وال (ڈاؤنلڈ کرہ)! فائلہ مِشر <metadataLink>گن٘ڈژیلیۡ معلومات</metadataLink> لکھَیں ذاتی آں منظوریں معلومات گتہ ہو تھی۔ ݜس ڈیٹا سیٹ معلوم کرَیں یاں کریا تے تَیں بجلی خطیں پتہۡ دیوں ہو تُھو۔
 
 ## How are decisions made
 
