@@ -119,6 +119,7 @@ about-playbook-how-validate-content-4 = کہ کٹرُو دُوۡیں ماݜؤں 
 
 about-playbook-how-access-dataset = مہ ڈیٹا سیٹ گِشے ہتے آم آں استعمال کرم؟
 about-playbook-how-access-dataset-content-1 = تُو <datasetsPage>ڈیٹاسیٹاں پیجے</datasetsPage> گتہ بے ہاں تُھو، تلہ گِھن٘لیۡ زمژیب آں تسیں قسم تُو لُوکھیۡ تُھو تس اُڇھہ (خوش کرہ) آں منی وال (ڈاؤنلڈ کرہ)! فائلہ مِشر <metadataLink>گن٘ڈژیلیۡ معلومات</metadataLink> لکھَیں ذاتی آں منظوریں معلومات گتہ ہو تھی۔ ݜس ڈیٹا سیٹ معلوم کرَیں یاں کریا تے تَیں بجلی خطیں پتہۡ دیوں ہو تُھو۔
+about-playbook-how-access-dataset-content-2 = کہ تُو ASR ماڈل سن٘دَیں کریا سامان نھالیۡ تُھو کھیں کمیُونٹی مہ <discourseLink> بال الاؤ کرئیں زائ (ڈِسکورس) لا </discourseLink> خلکؤں ملی رابطہ کرہاں تُھو۔
 
 ## How are decisions made
 
