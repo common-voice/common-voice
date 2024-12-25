@@ -69,3 +69,5 @@ adding-sentences-subheader-special-characters-explanation-1 = گِھن٘ل ژی�
 adding-sentences-subheader-offensive-content = اڅھکوۡ مواد
 reviewing-sentences-explanation-1 = کہ جملہ بُو تلہۡ ݜَیں شرطؤں لا پُوریۡ تھی کھیں "آں" بٹنہ لا ٹک کرہ۔
 reviewing-sentences-explanation-2 = کہ جُملہ بُول ݜَیں شرطؤں لا پُوری نی تھی کھیں تے “نَیں“ بٹنہ لا ٹک کرہ۔
+reviewing-sentences-explanation-3 = کہ جُملہ بُو تل ݜَئیں شرطؤں تل پُوئیر نی تھی کھئیں &quot;کگا &quot; کھبُوئ کِھن٘گئیں بٹنہ تل ٹک کری۔ کہ تُو جُملہ پڑی سُگا پورزی/پورژی تُھو نَیں کھئیں تے اس پھت کرے مُوٹُھو لن٘گھہ۔
+reviewing-sentences-explanation-4 = کہ تِگے گتہ نھالَئیں جُملی بارژی تھی کھیں تے زؤں ملی مُتیۡ جُملی ٹول کرَیں مہ مدد کرہ ۔
