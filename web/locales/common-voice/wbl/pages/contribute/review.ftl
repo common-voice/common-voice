@@ -57,6 +57,6 @@ review-error-rate-limit-exceeded = tut gha tiz, miriboni car k̃hẽ yi daqiqa j
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = sakẽn z̃aq lup badal k̃hakẽr gezg
 sc-redirect-page-subtitle-1 = Jũmla jama k̃hakẽ kũzgi tẽr asẽl kommon Voys Plat̃form ( Common Voice Platform). tus̃h dishnẽ bas wez <writeURL> nivish </writeURL> yi jũmla yoy <reviewURL> didig̃h </reviewURL> wir jumla sẽk kommon voys (common Voice ) kẽtak
-sc-redirect-page-subtitle-2 = Sakẽ sowol pers sẽk <matrixLink> Matrix</matrixLink><discourseLink> gap/ qẽsa </discourseLink> yoy <emailLink> email </emailLink>
+sc-redirect-page-subtitle-2 = Sakẽ sẽk <matrixLink>sowol pers<matrixLink> Matrix</matrixLink><discourseLink> gap/ qẽsa </discourseLink> yoy <emailLink> email </emailLink>
 # menu item
 review-sentences = Jũmlavẽ didig̃h
