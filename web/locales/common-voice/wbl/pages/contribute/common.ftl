@@ -9,12 +9,12 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }{ $count }</bold> klip
        *[other] <bold>{ $count }</bold> klipisht
     }
-goal-help-recording = tawẽ common Voysẽr (Common voice) ẽr g̃hetak <goalPercentage></goalPercentage> spo har rorẽ{ $goalValue } record̃ k̃hak mẽnzil!
-goal-help-validation = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert <goalPercentage></goalPercentage>{ $goalValue }
+goal-help-recording = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert! <goalPercentage></goalPercentage> { $goalValue }
+goal-help-validation = Tawẽ Kommon Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr mẽdad kert <goalPercentage></goalPercentage>{ $goalValue }
 contribute-more =
     { $count ->
         [one] c̃hak k̃hakr tẽyor? { $count }
-       *[other] c̃hak k̃hakẽr tẽyo?
+       *[other] c̃hak k̃hakẽr tẽyo?{ $count }
     }
 speak-empty-state = Hẽskem zik darj k̃hakri spo s̃hik̃h jũmlayisht vek̃hk
 no-sentences-for-variants = Mũmkini ki ti zikẽ mukhtalif sokhtisht cẽ jũmlavẽn tẽr vich hũmin, agar ki tus̃h saz, tus̃h digar jũmlavẽ tayinẽ dẽstan k̃hũ zikẽ tẽrtibvẽ badalẽ bas wezẽ
