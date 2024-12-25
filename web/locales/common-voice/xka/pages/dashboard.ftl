@@ -40,6 +40,11 @@ want-to-continue = تو روان رݭیل داوین اؘ
 finish-editing = ایڈیکنگ اول ختم تھ نا۔
 lose-changes-warning = تیپہ چھوریل مطلب ان اں تو تانی بدلاگال پا باییلون
 build-custom-goal = ا رواجی ٹارگٹ  تراج
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] مدد پشیل۔۔۔۔۔۔۔۔۔۔گنٹا می۔۔۔۔۔۔۔۔۔تا مقصد کیر
+       *[other] مددپشیل۔۔۔۔۔۔۔۔۔۔گنٹا۔می۔۔۔۔۔۔۔۔۔مقصد  اے°کیر
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] کامنوایس ا جیب می ذاتی ا مقصد کیرمدد تہ
@@ -47,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ا۔مقصدنخ۔تا
 cant-decide = گیبی بام نہ لاد
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 how-many-per-day = باڑ ران۔۔۔۔۔ا دوس۔میکتیک جولالکٹر
 how-many-a-week = باڑ ران ۔۔۔۔ا ہفتا میکتیک جولال اے کلپس
 which-goal-type = تو۔منونہ بجونہ یا دوا آ تی
