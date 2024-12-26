@@ -41,9 +41,15 @@ email-subscription-title-new = کامن وایس اے  خطونی ام،ریما
 
 benefits = فایرا
 rich-data = نال کت تی پراگرس سوا دنای خلق ام سہ مقابلہ م ان
+improve-audio = نینار تہ کت تی پراگرس دنای خلق سہ مقابل م ان
+compare-progress = تانی پراگرس دی نال۔،ذاتی تے پراجکٹ  مقصد ضد سہ
+view-goals = تاخوشیلیسہ اسے ایمیل  لسٹ  سہ    پراجکٹ ںآرا می نم نم معلومات کیر  ٹل بہ
 
 ## What's public
 
+whats-public = کاں شے خلق ام اے
+email-not-public = بہ تی ای میل پبلک نہ تے
+recordings-and-locale-public = کاں جیب تے ریکارڈںگ  تی لاڑیل  ،بہ تس عوامی تھیئ
 
 ## Landing
 
