@@ -1,9 +1,11 @@
 # GUIDELINES PAGE
 guidelines-header = پان پشال می مدد تھال۔
+guidelines-header-subtitle = کامن وایس ڈیٹا سیٹ  می جولال تے اڈیو کلپس  دی ام تہ پشال تی قبولیل اے° چھل جان
 voice-collection = تراٹ سمٹل۔
 sentence-collection = جولال سمٹیل
 varying-pronunciations = باڑ تلفظ
 misreadings = کھچہ منیل
+offensive-content = روش باگال  چݨیل
 background-noise = شن پت آؤؤ
 background-voices = ݭن پت آؤؤ
 volume = تراٹ
