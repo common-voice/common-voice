@@ -9,6 +9,15 @@ hours-validated = گینٹہ ختم تھا۔
 voices-online = جولال تیپہ تی بیل۔
 todays-progress = اجوک ترقی
 help-reach-goal = فیݭل می اسے مدد  تھا
+read-terms-q = تی اسے شرطونی مینل اؘ
+all-locales = سوا
+today = آج
+x-years-short =
+    { $count ->
+        [one] ی
+       *[other] ئ
+    }
+sign-up-account = اؘ اکونٹ کولاو تھ
 
 ## Account Benefits
 
