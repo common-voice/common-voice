@@ -31,11 +31,6 @@ target-segment-first-banner = Барои сохтани қисмати мақс�
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 change-preferences = Иваз кардани хусусиятҳо
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Маҷмуи овозҳо
-contribute-sentence-collection-nav-header = Маҷмуи ҷумлаҳо
 login-signup = Воридшавӣ / Бақайдгирӣ
 vote-yes = Ҳа
 vote-no = Не
@@ -113,5 +108,6 @@ contribution-background-noise-title = Садои атроф
 contribution-background-voices-title = Овозҳои атроф
 contribution-volume-title = Баландии садо
 contribution-reader-effects-title = Таъсирҳои хонанда
+contribution-just-unsure-title = Мутмаин нестед?
 see-more = <chevron></chevron>Бештар дидан
 see-less = <chevron></chevron>Камтар дидан

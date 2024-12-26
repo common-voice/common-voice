@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = کامن وایس عوامی جیب ام اوازونو  ام ڈیٹآسیٹ آین۔اما سوے ا خلق تانی ڈا کار تھان۔کا خلق  ویس اپلیکیشن ترا ن تن اوں ڈیٹا سیٹ استعمال تیبان۔اوں ٹیم رل باڑ وایس ڈیٹا سیٹکمپیانو ام این
+about-header-description-v2 =
+    <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
+    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also underrepresent: non-English speakers, people of colour, disabled people, women and LGBTQIA+ people. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
 how-does-it-work-title-v2 = کامن وایس کٹھ ترمون
 how-does-it-work-text = کرا کرا ا جیب ٹل تال کیر منون
 
@@ -16,20 +19,50 @@ about-new-lang-subtitle = بہ اوں جیب میکامن وایس سایٹ شو
 about-voice-contrib-title = اوازّ امداد تھا
 about-voice-contrib-subtitle = مانوش یانتے تانی تراٹ جمع تان
 about-voice-validation-title = وایس ویلڈیشن
+about-voice-validation-subtitle = دی خلق اوں اوازونے  قبولان
+about-dataset-release-title = ڈیٹا بیسریلیز
+about-dataset-release-subtitle = بہ ھرہترہ ماھ رل ریلیز ڈیٹاسیٹ ریلیز تان
 about-subscribe-text = کامن وایس سہ ملی بیشونہ
+about-speak = من
+about-listen-queue = بوج
+about-listen-queue-text = وایسں کلپس سبمشن کویو می لنگال سو بجیل کیر ترون
+about-listen = بوج
+about-listen-text = یوزرژ کیرا سپیکر جولالبود  تی  تا قبولیل الو اون ٹیک
+about-is-it-valid = اوں کلپ ساو آ
+about-is-it-valid-text = اواز کٹر تتی  وخ ایں کاٹ نہ اوں  کیراں ایں کی رس تہ آم اے°ووٹ نہ دیت تہ
+about-yes-votes = آم کیر ووٹ
+about-yes-votes-text = اواز دو مانوش قبولہیل تے رو پت پت کامن وایس ڈےٹا بیس م  آشہ
+about-no-votes = ا ووٹ پا نان
+about-no-votes-text = کیرا ا منندر  ویس کلپ رجکٹ تون۔۔رو قطار پر بون۔۔۔ دیرا رجکٹ بیل تے۔۔۔رو۔دیر کٹر ام ڈاران پر  گو
+about-dataset-new = کامن وایس ڈیٹا سیٹ
+about-clip-graveyard = کلپ اے°گورستان
+about-clip-graveyard-text = کلپ گورستان می ار اواز آݭون اوں کاں کامن وایسہ گینس تہ  اکلپ ام چھلا اوں گورستان ڈاون لوڈ ام کیر پا این° بہ آر خلق ام تے تنظیم آم شکر ادا تھان اوں کو اسا دی این
+about-get-involved = مہ پا  ٹل بیل
+about-get-involved-text-2 = مہ کتہ ٹچ بوم
+about-stay-in-touch-button = دسخط
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وایس رل کا ں جیب این
 
 ## How do I add a language
 
+about-playbook-how-add-language = مہن کتھاجیب  میلام
+about-playbook-how-add-language-translating-heading = ا سایٹ ترجمہ
+about-playbook-how-add-language-translating-content-1 = پنٹون استعمال تال کیر گایڈ نالا
+about-playbook-how-add-language-collecting-sentences-heading = جولال سمٹیل
 
 ## How does localization work
 
+about-playbook-how-localize = سایٹ لوکلایزیشن کتھ کار تھون
+about-playbook-how-localize-content-1 = کامن ہاوس سایٹ اے• ترجمہ  پنٹون رل یون
+about-playbook-how-localize-content-2 = اوں  ترجمہ انگریزی دا بیل پر تو دی۔۔۔۔۔۔۔۔۔۔۔۔جیب ام۔۔۔۔۔۔تجاویزنیل بون۔ پروفایل نخ رل ا ٹسار دہ۔دیر سیٹنگلن۔۔۔دیرتانی جیب میلہ۔دیرچیپر دراشوم مکھ تہ ترجماومہ  ا لسٹ آشہ۔رس تہ لوکیلز منان۔۔۔۔۔۔۔۔ترجما ا دوس  پتا سایٹ رل  پشاں
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = اوں جولال کتھ میلام
+about-playbook-how-add-sentences-content-1 = مہ تی ران اواز کتھ ریکارڈ تھوم
 
 ## How to record quality
 

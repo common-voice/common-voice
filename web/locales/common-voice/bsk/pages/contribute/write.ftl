@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = girmin
+write = girminin
 write-instruction = awaami domain e jumlaan
 write-page-subtitle = meer emasumin jumlan khole auyoonar uyayas licensed dataset ulo jama meeymi
 sentence =

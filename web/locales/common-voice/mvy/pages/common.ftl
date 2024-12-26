@@ -271,6 +271,7 @@ link-copied = کڑہ نقل ہُوگا
 back-top = پاتُو بُو مُوئے بہ
 logout = ڙُھوۡیں نِکہ
 donate = خلکؤں دے
+stayintouch = بے اُن٘دہ موزیلا گائ ایک اوازَیں ٹیکنالوجی آں مرگلئ وَیںٹولئ سن٘دِگ تھو۔ بے خوش ہوگ تھو چے بے څؤں ملی گن٘ڈژیل دھرِی گیل څؤں نہ تازہ ترین تے څَیں معلوماتَیں نَیں ذریعی، آں  تُس تَیں معلومات گِشے استعمال کراں تھہ ݜس ݜُون٘یگ۔
 privacy-info = بےۡ وعدہ کرِگ تھو چےۡ بےۡ تیں معلومات مہ انتہائی احتیاط کراتھو۔ زاں گائ<privacyLink>رازداری یاں نوٹس</privacyLink> تُھو تسی مہ اسیں بابتی مہ مُت پڑی۔
 return-to-cv = پاتُو کامَن‌ وائسوَیں گُھرہ
 email-input =
@@ -287,7 +288,10 @@ not-available-abbreviation = نیتُھو
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>زَیں تیں مدد</mark><br/><mark>پکار تھی</mark>۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 100 نہ بُوۡئ ژِبہۡ واں خلکہ واں کریا ڈیٹاسیٹ سن٘دَیں، چلَیں تے سم کرَیں لا کالَیں دش لاکھ ڈالرؤں ہاری٘ خرچہ ای تُھو۔ <strong>کہ تُس ݜے کمَیں قدر کراں تھو کھیں آژ زؤں لا صدقہ کری!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = </mark>تَیں تحقیقاں دَن <mark> <br/></mark> سی وی استعمال کیر تٗھویی؟<mark>
+languages-donate-banner-cta-explanation = کامن وائس صدقیُوں تے تحفیُوں لا چلُژ تُھو! بے تحقیق کران٘لؤں، عام خلکہ آں لکان٘لہ پڑان٘لؤں ملی ایکٹھی کام کرَیں خوش ہوگ تھو۔ کامن وائس لہ بالکل مفت تُھو خو اسیں پلیٹ فارمہ ملی مدد کیرُوں آں صدقہ خیرات ہِن خرچہ برداشت کیرُوں زاں ملی گھَیں مِٹھیۡ ہوتھی۔
 localization-select =
     .label = ژیب / علاقہ خوش کرہ

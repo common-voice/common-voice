@@ -13,6 +13,7 @@ language-total-progress = بُٹ
 language-search-input =
     .placeholder = بِلاڑہ
 language-speakers = بنان٘لہ
+localized = زیب/ژیب گُھریلیۡ
 sentences = جُملی
 language-validation-hours = گین٘ٹی
 language-validation-progress = منظُوری یاں پراگریس

@@ -1,7 +1,7 @@
 ## Download Modal
 
 download-title = ترتُو ا ډاؤن لوډ شُوری ݭیوک هۀ
-download-helpus = څوئ که ته آواز ته ټېکنالوجی کِلئ يې جزړ کیېن
+download-helpus = څوئ که ته آواز ته ټېکنالوجی کِلئ يې جوړ کیېن
 download-form-email =
     .label = rkburki@gmail.com
     .value = تشکر، رابطه يې سُو ساتيېن

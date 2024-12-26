@@ -1,7 +1,7 @@
 ## Dashboard
 
-your-languages = تھاری زنان
-toward-next-goal = اگلا گول کی طرف
+your-languages = تھاری زبان
+toward-next-goal = اگلی منزل کے۔
 goal-reached = گول تک پوہچ گیو
 clips-you-recorded = کلپس جہڑا تم نے ریکارڈ کریا
 clips-you-validated = کلپس جہڑاں کی توثیق ہو گئی

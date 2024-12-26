@@ -134,7 +134,7 @@ contribution-background-noise-example-1-fixed-title = <strong>نچھنو </stron
 contribution-background-noise-example-2-fixed-title = نہ پسند آن ہالی واز <strong>کھنگ </strong>نہ پسند آن ہالی گل
 contribution-background-noise-example-2-explanation = عبارت کو کوئی حصّو سُنے جا سکے
 contribution-background-noise-example-3-fixed-title = <strong>ٹُٹیو وُو </strong>نہ پسند آن ہالی <strong>ٹُٹیو وو </strong>نہ پسند آن ہالی گل
-contribution-background-voices-title = کا ہڈ کی واز
+contribution-background-voices-title = کاہڈ کی واز
 contribution-background-voices-description =
     ایک سکون کا پس منظر تے ٹھیک ہے پر ہم اس ما ایسی وازاں نا نیہہ چاہتا جن کی وجہ تے  مشین لوگرتھم 
      ایسا الفاظ کی پہنچان کر سکے جو لکھی وی عبارت ما نیہہ ہے ،تے کدے تم لکھیا وی عبارت کی بجائے بکھ بکھ الفاظ سن سکے تے تم اس کلپ نا چھوڈ دیو ۔عام طور پو ات وہے جت ٹی وی چھوڈ دِتی ہوے ۔ یا اُت نیڑے ہی کوئی گل وھے
