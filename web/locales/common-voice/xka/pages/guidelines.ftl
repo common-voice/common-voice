@@ -36,6 +36,7 @@ background-noise-tip-1 = شن پت آؤؤ  تنگال
 background-noise-tip-2 = مناگیلہ اتوں کٹر نہ بج بان
 background-voices-example-1 = ٹرایسک اے°گھن ڈاینوسار۔۔ملی منا ا تراٹ سہ
 background-voices-tip-1 = تو یونہ
+volume-explanation = منندر تراٹ آک دی دا قدرتی اوراک آشین۔کیرا اواز  باڑدریکے یا با دماس بیل تے تی چوݨیل تہ با نیلی ۔۔۔نہ بوج بال    دیر  ن قبول۔۔۔۔
 still-have-questions = تیپہ پہ رس می باڑ اؘ بیت این
 contact-common-voice = کامن وائس ٹائم سہ رابط تھا۔
 public-domain = عوامی ڈومین۔
