@@ -77,21 +77,21 @@ read-more-about = Spo pejẽ z̃aq woz ziyoda joy
 
 answer-questions = Jowob sowolishtẽb <small>(jald wezin)</small>
 review-transcriptions = Naqlevẽ didig̃h <small>(jaldẽs̃h wezin)</small>
-add-questions = sowolẽ shomil<small>jaldẽs̃h wezin</small>
-transcribe-audio = od̃iyoẽ naqẽl<small>jaldẽs̃h wezin</small>
-press-and-stories = pakhchwoz zhindagisht
+add-questions = sowolvẽ shomil<small>jaldẽs̃h wezin</small>
+transcribe-audio = od̃iyoẽ naqẽl<small>jaldẽb wezit</small>
+press-and-stories = pakhch woz zhindagisht
 community-and-languages = Jẽmoat woz zikisht
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = Qẽtiwocenisht, pakhc woz zhindagisht, kommunit̃y woz zikisht
-partnerships-menu-item-tooltip = Dẽ sakẽn qẽti woz
-press-and-stories-menu-item-tooltip = dẽ sẽpo blog rec̃h yoy sakẽr nivish
-community-and-languages-menu-item-tooltip = Zikvẽ, Coomunitivẽ woz Kommon voysẽ dẽryoft/ got
+about-menu-tooltip = Qẽtiwocnisht, pakhc woz zhindagisht, jẽmoat woz zikisht
+partnerships-menu-item-tooltip = Dẽ sakẽn qẽti woc
+press-and-stories-menu-item-tooltip = dẽ spo blog rec̃h yoy sakẽr nivish
+community-and-languages-menu-item-tooltip = Zikvẽ, jẽmoatve woz Kommon voysẽ dẽryoft/ got
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = Ikhtiyori menuẽ barar
 partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ barar/bobatẽn dish
 press-and-stories-menu-item-aria-label = Kommon Voysẽ barar press reliz woz zhindagvẽ barar/ bobat ghat/ resoyi hosil car
-community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hekur kumdveri ki Kommon voysẽ medad k̃hetk
+community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ medad k̃hetk

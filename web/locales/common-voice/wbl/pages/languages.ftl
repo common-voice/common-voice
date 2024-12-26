@@ -1,7 +1,7 @@
 ## Languages Overview
 
-language-section-in-progress = C̃hites̃h (dẽ tuk’ni)
-language-section-in-progress-new-description = Yem zikishtev hadem wakht dẽ yũrte pũrũt rec̃hn (pishrawi k̃hak).  Pishkash k̃hak haten<localizationGlossaryLink>websayt̃ desiyati (muqomiyati )</localizationGlossaryLink> woz <sentenceCollectionGlossaryLink>jũmla g̃hũrtni</sentenceCollectionGlossaryLink> darkor
+language-section-in-progress = C̃hites̃h (dẽ tukni)
+language-section-in-progress-new-description = Yem zikishtẽv hadem wakht dẽ yũrtẽ pũrũt rec̃hn (pishrawi k̃hak).  Pishkash k̃hak hatẽn<localizationGlossaryLink>websayt̃ desiyati (muqomiyati )</localizationGlossaryLink> woz <sentenceCollectionGlossaryLink>jũmla g̃hũrtni</sentenceCollectionGlossaryLink> darkor
 language-section-launched = Khamovd (pishkash kert)
 language-section-launched-description = Yem pishkash k̃hetk (khũmũvetk) zik’v-e dẽstan, ya websayt̃ev komyobig̃h mes̃h en dẽ <localizationGlossaryLink>desiyat (muqomiyat)</localizationGlossaryLink> woz demev bes̃h en tẽr bes̃h <sentenceCollectionGlossaryLink>g̃hũrtetk   jũmla’vev</sentenceCollectionGlossaryLink> pũrũt yundak dẽstan <speakLink>k̃han</speakLink>et <listenLink>kũs̃hũy</listenLink> dhetkũng’v ijozat wost
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
