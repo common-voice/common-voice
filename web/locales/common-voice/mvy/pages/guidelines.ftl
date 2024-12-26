@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = حصہ گلئیں پان٘د پشائ (ہدایات)
+guidelines-header-subtitle = کامن وائس ڈیٹا سیٹہ مہ جُملی تے اوازاں کٹرو جمع گِشے کرؤں تُھو آں منظُور کرے صحیح گِشے کرؤں تُھو، ݜسی لا اما پورژا۔
 voice-collection = اَوازَیں کھلٹُو
 sentence-collection = جُملی وَیں کَھلٹُو
 varying-pronunciations = رنٚگا رنٚگ ادائیگی

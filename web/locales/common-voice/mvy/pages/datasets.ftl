@@ -18,6 +18,8 @@ dataset-splits = تقسیم (عمر آں جِنس)
 number-of-voices = چے اوازی
 splits = تقسیم
 email-to-download = بِجلی خط لِکہ کہ ڈاؤنلوڈ کیریۡ تُھو
+why-email = <b>بِجلی خطیں گی ضرورت تھی؟</b> اېت وختہ مہ ہوسی ڈیٹاسیٹہ مہ بِگ بدلی اؤں ہو، ݜسیں کریا بِجلی خط زَیں رابطَیں پان٘د دی تھی۔
+why-donate-datasets-page = موزېلا کامن وائس دنئ یاں بُٹؤں نہ متنوع کراؤڈ سورس اوپن ڈیٹا سیٹ  تھو ۔ آں بے مُکمل طور لا صدقہ خیراتؤں لا چلژِگ تھو۔  100 نہ بُوۡئ ژِبہۡ واں خلکہ چے سَیں زاں کریل کماں تمہ لا ہوں تھو اِ اِواں کریا ڈیٹاسیٹ سن٘دَیں، چلَیں تے سم کرَیں لا کالَیں دش لاکھ ڈالرؤں ہاری٘ خرچہ ای تُھو۔ <b>زؤں لا صدقہ کری!</b>
 confirm-size = تُو ہر شُو گِشے ݜسیں <b>{ $size }</b> منی والؤں شُروع کرَیں تیار تُھو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
@@ -35,6 +37,7 @@ feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink> ایک <docsLink>اوپن سورس ٹول کِٹ</docsLink> تُھو چے سو امَیں سن٘دیل دِماغاں ،بُٹؤں نہ اُڇھېل مشقُلا کرَیں والا ماڈلہ سن٘دَیں مدد کیری تُھو۔
+resource-coqui-info = <coquiLink>Coqui</coquiLink>ایک اوپن سپیچ ٹیکنالوجی تھی۔ اِواں پراجیکٹ مہ STT تے TTS انجن٘ڑہ واں گُٹُم استعمال سِڇھیاں تھؤ۔
 community-playbook = خلکاں باشَیں یاں کتاب
 resource-playbook-info = ژیب تَیں رؤں، ڈیٹا سیٹاں استعمال آں زاں خلکؤں ملی رابطہ کرَیں ہاریساری ”کامن وائسَیں“ سفری مہ زَیں <playbookLink> مدد ہرہ</playbookLink>
 data-other-librispeech-description = LibriSpeech تقریبا 1000 گین٘ٹی وَیں ان٘گرزیں بلی یی تے اوازاں کِتابؤں نہ پڑژیلی بلی تھی کؤں چے LibriVox project پراجیکٹ نہ اؤژی تھی۔
