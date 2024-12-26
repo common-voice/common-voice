@@ -6,12 +6,21 @@ demo-welcome-subheader = پرݳجݵکٹَشُݸ حِصَہ بݳنَشُݸ نݸ �
 
 ## Demo Datasets
 
+demo-language-select-card-header = کݳمَن وݳئس عوݳمَشݸ دستݵݳب دُنݵݳتݵئ بݸتݵڎ تݳ بَڑݳ بݸت بݳݽݵݣݺ چھتݵئ ڈݵٹݳ سݵٹ چھݳ.
+card-button-next = ہَگݸ
+card-button-back = پَچݸ
+demo-language-select-label = بݳݽݸݣ ݼݸق اݵر
+demo-eofy-header = 2019 سݳلئ فݽݸ جݳرݵ چھݳ
+demo-eofy-sub_header = وݳئس ڈݵٹݳ سݵٹ، ڈݳݸن لݸڈ شُݸ تݵݳر چھݳ
+demo-account = اݵکݳݸنٹ
 
 ## Demo Account
 
+demo-account-sign-up = سݳئن اَپݵئ لِنک بِجݳل
 
 ## Demo Contribute
 
+demo-listen-subtitle = حِصَہ بݳنَشݸ تݵݳر چھݸتݺ؟
 
 ## Demo Dashboard
 
