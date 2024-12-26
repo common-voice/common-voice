@@ -8,6 +8,8 @@ why-spontaneous-speech = زَیں امَیں بلی بنَیں والا سامُ
 why-card-1-text = <mark>قُدرتی بلی واں </mark>دَن فَیدہ مَند تُھو آں مختلف حالتی استعمال کرہ (لَک، کہ تُو بانیۡ تُھو چے اواز پُنیان٘لو ݜے ماݜ مِل‌بال الاؤ کیر چے سیں بلی پھیں نہ تیار نیریل ہو )
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ژِبَیں حقیقتی، لَک، بلیوں مہ مُت ژِبؤں مرَک ہوں <mark>یا مُت ژِباں لفظہ استعمال کرؤں۔</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = سَیں ژِبواں استعمال مہ مدد چے کاں ایگُٹ لَک لِکژی تھی <mark>یا لَسر نی لِکژی تھی</mark> (لکَھیںمثال ݜے چے، خاص خلکہ وَیں ژیب، لہجہ، کرٹ ژیب یا اُون٘کھیں ہاری نی لِکژیل ژِبہ تے مُت])
 how-spontaneous-speech-works = ڈارِک بلی (پروگرام) گِشے چلُژی تُھو
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>سِڇھیان٘لی بال</mark>
@@ -16,7 +18,7 @@ prompt-bubble-subtitle = بے تے تپُوس یا سِڇھیان٘لی بال �
 respond-bubble-title = <mark>جواب دے</mark>
 respond-bubble-subtitle = کتُک اَما نہ ہو سؤں جواب دے
 # text wrapped in <mark></mark> will have a blue background
-transcribe-bubble-title = بَنیلی لِکہ
+transcribe-bubble-title = بَنیلیۡ لِکہ
 transcribe-bubble-subtitle = ݜَیں اوازاں کٹروں مہ تُوں گی ݜُون٘یل کھیں سیوں لِکہ۔
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>نھال لہ</mark>

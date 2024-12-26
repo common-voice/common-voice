@@ -24,4 +24,7 @@ get-involved-form-title = { $lang }اپ ڈیٹاں کریا کُھنی لن٘گ�
 get-involved-email =
     .label = بِجلی خط
 get-involved-submit = جمع کرہ
+get-involved-privacy-info = بےۡ وعدہ کرِگ تھو چےۡ بےۡ تیں معلومات مہ انتہائی احتیاط کراتھو۔ زاں گائ<privacyLink>رازداری یاں نوٹس</privacyLink> تُھو تسی مہ اسیں بابتی مہ مُت پڑی۔
+get-involved-success-title = تُوں { $language } ژِبہ مہ حصہ گلَیں یاں کریا تاں نؤں کامیابی ہِن لِکیا چھئ۔ تیں شُکھریہ۔
+get-involved-success-text = مُتیۡ معلومات ہتے ایگے کھیں بےۡ رابطہ کراتھو۔
 get-involved-return-to-languages = پاتُو ژِبؤں گےبئ
