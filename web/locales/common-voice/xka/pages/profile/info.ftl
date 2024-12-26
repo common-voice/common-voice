@@ -48,6 +48,7 @@ profile-create-success = ران پروفائل ترا
 profile-close = بان۔
 thanks-for-account = تانی اکاونٹ نالیل اؘ باڑ مربنی تس یا توسی اکاونٹ نالی۔
 why-demographic = گانٹھ فرق تھون۔
+accept-privacy = مہ تو ٹہ مالوما دال  رل ریضی ۔۔۔کتہ تی موزیلا ۔۔۔۔۔پرایویسیپالیسی می  ڈاگہ منیلتہ
 accept-privacy-title = گݭ دہ پالسی
 login-identity = جانی بارہ
 login = لاگ ان۔
