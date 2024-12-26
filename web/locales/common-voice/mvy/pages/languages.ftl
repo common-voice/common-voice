@@ -23,4 +23,5 @@ get-involved-title = تاںحصہ گلہ { $lang }
 get-involved-form-title = { $lang }اپ ڈیٹاں کریا کُھنی لن٘گھہ/ٹل ہو:
 get-involved-email =
     .label = بِجلی خط
+get-involved-submit = جمع کرہ
 get-involved-return-to-languages = پاتُو ژِبؤں گےبئ
