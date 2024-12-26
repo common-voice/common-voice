@@ -50,15 +50,25 @@ view-goals = تاخوشیلیسہ اسے ایمیل  لسٹ  سہ    پراجک�
 whats-public = کاں شے خلق ام اے
 email-not-public = بہ تی ای میل پبلک نہ تے
 recordings-and-locale-public = کاں جیب تے ریکارڈںگ  تی لاڑیل  ،بہ تس عوامی تھیئ
+username-optin-public = تیخوش تانی نام یوزر  پلونہ کہ بشون
+demographic-deidentified-clarity-2 = تی نامہ تے ای میلہ شایع باگال ڈیٹا سہ گیبی لیݨ نہ آشہ
 
 ## Landing
 
+read-more-about = ساسے پیج دی پا باڑ
 
 ## NAV ITEMS
 
+answer-questions = سوالونی ام جواب دہ
+add-questions = سوالونی میلہ
+transcribe-audio = اڈیو نقل تہ
+press-and-stories = چھاپتھال تے قیصا
+community-and-languages = تانی خلق تے  تنے جیب
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = دراوال،پریس تےقیصا،تانیخلق تے جیب
+partnerships-menu-item-tooltip = سیت اسں  دی
 
 ## MENU ITEM ARIA LABELS
 
