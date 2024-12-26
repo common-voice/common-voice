@@ -15,11 +15,16 @@ recorded-hours = Соатҳои сабтшуда
 subscribe = Обуна шудан
 # This indicates that there is no data to display
 no-information = Маълумот нест
+go-discourse = Гузариш ба «Discourse»
 go-languages-page = Гузариш ба саҳифаи забонҳо
 more = Бештар
 close = Пӯшидан
 download = Боргирӣ кардан
 dataset-version = Силсила
+dataset-metadata-sex = Ҷинс
+# dataset metadata - age of contributor
+dataset-metadata-age = Синну сол
+dataset-donate-modal-heading = Шумо медонед, ки…
 data-download-button = Маълумоти «Common Voice»-ро боргирӣ кунед
 data-download-yes = Ҳа
 data-download-deny = Не

@@ -7,6 +7,7 @@ demo-welcome = Хуш омадед ба «Common Voice»
 
 card-button-next = Навбатӣ
 card-button-back = Бозгашт
+demo-eofy-header = Нашр дар охири соли 2019
 demo-account = Ҳисоб
 
 ## Demo Account

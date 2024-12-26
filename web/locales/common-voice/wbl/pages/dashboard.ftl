@@ -2,30 +2,30 @@
 
 your-languages = savẽ zikisht
 toward-next-goal = Tra yayor hadaf gẽna / tra yayor menz̃il gẽna
-goal-reached = Menzil ghatẽ/ hadaf g̃hatẽ
+goal-reached = Mẽnzil ghatẽ/ hadaf g̃hatẽ
 clips-you-recorded = Klipisht kumdvẽt ki tawẽ shomil k̃hetk
-clips-you-validated = klipisht kumdvẽi ki tawẽ towsiq kert
+clips-you-validated = klipisht kumdvi ki tawẽ towsiq kert
 todays-recorded-progress = Sẽk klip ricord̃ Kommon Voysẽ wudhgẽ trẽqi
-todays-validated-progress = Sẽk klipẽv wudh Kommon Voys towsiq kert
+todays-validated-progress = Sẽk klipẽv wudhg Kommon Voys towsiq kert
 stats = hisob kitob
 awards = aword̃isht
-you = tu
-everyone = kũk̃ht/ k̃ũtan
-contribution-activity = shẽrikat doriẽ yark
-top-contributors = cẽ kũk̃htẽn ghafch shirkat dori
-recorded-clips = Rekord̃ k̃hetk klip
-validated-clips = towsiq k̃hetk klip
+you = tu/sasht
+everyone = kũk̃ht/ kũtan
+contribution-activity = Shẽrikatdori yak
+top-contributors = cẽ kũk̃htẽn ghafch shrikat k̃hakẽkũzkisht
+recorded-clips = Rikord̃/ k̃hetk klipisht
+validated-clips = Towsiq k̃hetk klipisht
 total-approved = kul manzũr k̃hetk
 overall-accuracy = Ijtimoi drustẽgi/ pẽtun drũstẽgi/ kũl drũstẽgi
 set-visibility = Maz̃h wingẽ set̃ car/ z̃hũ sẽdhũynẽ set̃ car
-visibility-explainer = Hayem set̃ingẽsh ti lowd̃bord̃ wingẽ kant̃rol cart. Pẽrdhvj k̃hakrẽb ti yark nẽji wost. Yo matlabi yem ki ti sũrat, istimol k̃hakẽ kũzgẽ nung, woz yo tẽreqib sẽk (Leaderboard) ne winẽn. Dẽ k̃hũ yod dũrz ki lid̃ẽrbord̃ẽ (leaderboard) tabdiliyẽ c̃hk k̃hakres̃h (refresh) dẽqiqa dũrzd  ̃{ $minutes }
-visibility-overlay-note = dẽ yod dũrz: cẽ woshtẽt ki wing set̃, hẽyem set̃inges̃h badal cart cẽ <profileLink>ziti malumotẽ wẽraq</profileLink>
-show-ranking = z̃hũ dẽrjabandi dhisũv
+visibility-explainer = Hayem set̃ingẽs̃h ti lowd̃bord̃ẽ wingẽ kant̃rol cart. Pẽrdhvj k̃hakrẽb ti yark nẽji wost. Yo matlabi yem ki ti sũrat, istimol k̃hakẽ kũzgẽ nung, woz yo tẽreqib sẽk (Leaderboard) ne winẽn. Dẽ k̃hũ yod dũrz ki lid̃ẽrbord̃ẽ (leaderboard) tabdiliyẽ c̃hk k̃hakres̃h (refresh) dẽqiqa dũrzd  ̃{ $minutes }
+visibility-overlay-note = dẽ yod dũrz: cẽ wakhtẽt ki wing set̃, hẽyem set̃inges̃h badal cart cẽ <profileLink>ziti malumotẽ wẽraq</profileLink>
+show-ranking = z̃hũ dẽrjabandẽi dhisũv
 
 ## Custom Goals
 
 get-started-goals = Dẽ maqsadẽn s̃hẽru/ oghoz car
-create-custom-goal = yi zẽrũrate maqsad gok̃h
+create-custom-goal = yi zẽrũratẽ maqsad gok̃h
 goal-type = Chiz sokht maqsad k̃hakẽ zẽrũrati?
 both-speak-and-listen = kifch
 both-speak-and-listen-long = Kifch (k̃hẽnak woz kẽs̃hũn)
@@ -34,12 +34,12 @@ weekly-goal = Haftẽwor maqsad
 easy-difficulty = oson
 average-difficulty = dẽrmiyon
 difficult-difficulty = zur
-pro-difficulty = trmis/ terpẽrũt
-lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ hẽyem tẽreqiye nũs
+pro-difficulty = tẽrmis/ terpẽrũt
+lose-goal-progress-warning = cẽ k̃hũ maqsadẽ badalnẽs̃h tu k̃hũ hẽyem tẽreqiye albat nũs
 want-to-continue = tus̃h jori lecra?/ tus̃h jori lẽcẽrnẽ zoq cara?
 finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
-lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃htkvẽ nũs
-build-custom-goal = k̃hũ ẽrmon/ destũrẽ maqsad go
+lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃hetkvẽ nũs
+build-custom-goal = k̃hũ ziqẽ/ destũrẽ maqsadẽ go
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] kũk̃htẽr zoti maqsadẽr yi soat mẽdad { $hours }{ $language }
@@ -52,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ye maqsad lecẽr
 cant-decide = faysila basẽs̃h ne wezim?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 how-many-per-day = gok̃h! haror cum klip? harorẽs̃h cum klip gok̃h?
 how-many-a-week = gok̃h! cum klip har hẽfta?/ har hẽftas̃h cum klip gok̃h?
 which-goal-type = Tus̃h sirf k̃hẽnak, kẽshũnẽ zoqa ne kifch?
@@ -75,9 +136,9 @@ share-goal-type-both = K̃hẽnak woz kẽs̃hũn/ k̃henakẽt k̃s̃hũn
 # LINK will be replaced with the current URL
 goal-share-text = Maz̃hẽ #kommonVoysẽr zoti maqsad k̃hetk-mar medad wocit, mashinẽ joyũvẽn ki khalgẽs̃h cersokht k̃hand { $link }
 weekly-goal-created = Ti haftawor maqsadẽv khẽtk
-daily-goal-created = Ti harorẽ maqsadẽv k̃hetk
-track-progress = hẽdrem khũ hisobkitobẽ tẽrẽqiyẽ didig̃h
-return-to-edit-goal = Kum bẽ soat pẽspudh hadrem k̃hu maqsadẽ badal
+daily-goal-created = Ti harorẽ maqsadẽv pẽydo k̃hetk
+track-progress = hẽdrem k̃hũ hisobkitobẽ tẽrẽqiyẽ tayin
+return-to-edit-goal = Kum bẽ soat pẽspudh hadrem k̃hũ maqsadẽ badal
 share-goal = K̃hũ maqsadẽ shomil
 
 ## Goals

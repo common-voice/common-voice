@@ -5,16 +5,24 @@ language = ژیب
 download-dataset-header = ڈیاسیٹ منی والہ (ڈاؤن لوڈ کرہ)
 # File size in gigabytes
 size = سائز
+validated-hr-total = بُٹ سُون٘ݜیۡرال ایچ آر۔
 cv-license = اِجازہ
 audio-format = اوازاں قِسمہ
 dataset-splits = تقسیم (عمر آں جِنس)
 number-of-voices = چے اوازی
 splits = تقسیم
 email-to-download = بِجلی خط لِکہ کہ ڈاؤنلوڈ کیریۡ تُھو
+confirm-size = تُو ہر شُو گِشے ݜسیں <b>{ $size }</b> منی والؤں شُروع کرَیں تیار تُھو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+confirm-join-mailing-list = کامن وائساں خطی وَیں لیشی مہ ٹَل ہٗوۡئ یاں غرضی تُھو یی
 download-language = مِنی والہ /ڈاؤنلوڈ { $language }
 validated-hours = سُون٘ݜیۡرالیۡ گین٘ٹی (منظور ہُولیۡ)
+recorded-hours = ٹیپ کریلیۡ گین٘ٹی
+whats-inside = کامن وائساں ڈیٹا سیٹہ مژ/من٘ز گی څیز تُھو؟
+subscribe = سبسکرائب
+get-started-speech = اے لہ اواز پُنیَیں شروع کرِگ
+other-datasets = مُتہۡ اوازاں ڈیٹاسیٹہ
 feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی
