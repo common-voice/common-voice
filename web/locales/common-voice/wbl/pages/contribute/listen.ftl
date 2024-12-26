@@ -23,4 +23,4 @@ review-transcriptions-menu-item-tooltip = Istimol k̃hakẽkũzgẽ naqlẽvẽ
 
 listen-contribute-menu-aria-label = Ikhtiyori menuẽ kẽs̃hũy
 validate-readings-menu-item-aria-label = jẽmoati mimbarvẽ jama k̃hetk joynẽ towsiq car
-review-transcriptions-menu-item-aria-label = dẽrũstẽgi dẽstan jũmlavẽ  tẽrjũmaẽ record̃ẽ didig̃h
+review-transcriptions-menu-item-aria-label = dẽrũstẽgi dẽstan jũmlavẽ  tẽrjũmaẽ ricord̃ẽ didig̃h
