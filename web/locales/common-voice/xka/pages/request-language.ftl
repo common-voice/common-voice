@@ -16,5 +16,6 @@ request-language-google-recaptcha-error = recaptach سہ گیجین گوا شہ 
 # Success page
 request-language-success-heading = تی نم جب نالیل کیر لاڈل تی مربنی۔
 request-language-success-list-1 = تو ٹھ ا ای میل بہ۔۔سو کھٹن تہ تٹھ لکھہ۔۔کتھ کتھکامن ویس سہ تو  تانی جیب میلہ تہ
-request-language-success-list-2 = درام می اسے°منیجر تساں لہ۔۔۔سو تساں تہ دی  تعاون کیر پا منہ۔تےاو ں   تساں دا اپان پو تان  اوں اما میݭ داتسے جیب رل کار تال اے°کمیونٹی این آں
+request-language-success-list-2 = اسی درام اؘ گن مدد کیر توسان سہ رابط تھو تے توساں تھ منو اؘ توسے درام اؘ توسی جب رل گوا کار تھا اؘ کو نہ۔
+request-language-success-list-3 = تی اساں ا لد دوس نہ دریش تہ،۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔د اساں لہ۔۔۔بہ تو سہ دیراں میلے
 request-language-error = می شک این اؘ درحاس نہ پݭ ۔مربنی تھا اسان امیل تھا ۔بھ توسان دی پتھ پݭان۔
