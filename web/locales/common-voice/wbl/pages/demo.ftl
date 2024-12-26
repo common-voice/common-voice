@@ -6,19 +6,19 @@ demo-welcome-subheader = z̃aq woz yek̃hk wocẽn woz dẽpoject shomil k̃hake
 
 ## Demo Datasets
 
-demo-language-select-card-header = Komon Voysi dẽnyo cẽ kũk̃htẽn lup mawjud mukhtalif zikẽ Voys d̃at̃aset
-demo-language-select-card-body = Cẽ 259k ziyoda khalgvẽ  50 sẽn ziyoda zikẽr shomil k̃hakẽr shobosh, ‘Speech-enabled applicationẽ’ khalgvẽ owozẽr baf yarkẽ destanẽv hayem d̃at̃a istimol k̃hetk
+demo-language-select-card-header = Komon Voysi dẽnyoẽ cẽ kũk̃htẽn lup mawjud mukhtalif zikẽ Voys d̃at̃aset̃
+demo-language-select-card-body = Cẽ 259k ziyoda khalgvẽ  50sẽn ziyoda zikẽr shomil k̃hakẽr shobos̃h, ‘Spich-enabled̃ dẽrkhostẽ’ khalgvẽ owozẽr baf yarkẽ dẽstanẽv hayem d̃at̃a istimol k̃hetk
 card-button-next = yayor
 card-button-back = tẽr cẽbas
 demo-language-select-label = Zikvẽ browz
 demo-eofy-header = 2019 solẽ okhirẽ Reliz
-demo-eofy-sub_header = Owozẽ Dãt̃a sẽti d̃ownlowd̃ẽr tiyor
-demo-account = Hisob/ Akownt
+demo-eofy-sub_header = Owozẽ Dãt̃asẽti d̃ownlowd̃ẽr tiyor
+demo-account = Hisob/ Akownt̃
 
 ## Demo Account
 
 demo-account-card-header = Akownt wocni zẽrũrat nas ki shirkatdori caren, magam yemi yormand
-demo-account-card-body = tẽr rostẽ gẽnas̃h foyda khonaẽ gon wozẽs̃h oyon gon ki sakẽs̃h chiz molũmotẽ pẽ jẽhon gon. Cẽ kommon voysẽn shẽrũ k̃haker sẽk k̃hũ esbob dem dest limkẽ istimol car.
+demo-account-card-body = tẽr rostẽ gẽnas̃h foyda khonaẽ gon wozẽs̃h oyon gon ki sakẽs̃h chiz molũmotẽ pẽ jẽhon gon. Cẽ kommon voysẽn shẽrũ k̃haker sẽk k̃hũ esbob dem dest linkẽ istimol car.
 demo-account-enter-email =
     .label = Sayn ap link sẽtũynẽr emaile intar
 demo-account-sign-up = sayn ap linkẽ stũy
