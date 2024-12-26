@@ -51,3 +51,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = جولال ٹیک�
 adding-sentences-subheader-speakable = مِن بال اے°
 adding-sentences-subheader-numbers = ہیندسا
 adding-sentences-subheader-punctuation = چݨیلہ نخ
+reviewing-sentences-explanation-1 = کیدرا جملا اسے° منیل  ڄھلا بیل،یس بٹن اے° ٹسار دہ
+reviewing-sentences-explanation-2 = کیدراں جولال اسی منیل ڄھلا نہ نیکیت،نو بٹن رل ٹسار دہ
+reviewing-sentences-explanation-3 = اے تی پا جملا اے° بام گیش بال،رس دا تراپ دا دی پر چو
+reviewing-sentences-explanation-4 = کیرا توسان دی نالیل کیر جملا  حلاص بیل تھ ۔دئر اسان سے دی جولال سمٹیل می مدد تھا
