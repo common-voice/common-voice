@@ -34,6 +34,8 @@ background-noise-example-3 = ٹراسیکا گھن ڈاینو۔۔۔۔۔۔۔۔۔�
 background-noise-example-4 = ۔۔۔۔۔۔۔۔۔۔۔گان ڈانوسارز ۔۔۔۔۔۔۔۔۔
 background-noise-tip-1 = شن پت آؤؤ  تنگال
 background-noise-tip-2 = مناگیلہ اتوں کٹر نہ بج بان
+background-voices-example-1 = ٹرایسک اے°گھن ڈاینوسار۔۔ملی منا ا تراٹ سہ
+background-voices-tip-1 = تو یونہ
 still-have-questions = تیپہ پہ رس می باڑ اؘ بیت این
 contact-common-voice = کامن وائس ٹائم سہ رابط تھا۔
 public-domain = عوامی ڈومین۔
