@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Hisadoriẽ fidat
-guidelines-header-subtitle = hisadoriẽ hẽr k̃hũ pẽzũv kat̃ woz jũmlavẽ towsiq car woz comon voyse d̃at̃asẽt̃ẽr owozẽ klipisht
+guidelines-header-subtitle = hisadoriẽ hẽr k̃hũ pẽzũv kat̃ woz jũmlavẽ towsiq car woz komon voysẽ d̃at̃asẽt̃ẽr owozẽ klipisht
 voice-collection = owoz g̃hũrtẽn
 sentence-collection = Jumlaev jama k̃hak
 varying-pronunciations = qisẽm qismẽ tẽlafuz
