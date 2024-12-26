@@ -36,6 +36,7 @@ other-datasets = دی صوتی ڈیٹا سیٹ۔
 feedback-q = رائے این۔
 # This indicates that there is no data to display
 no-information = گیب معلوم نان۔
+resource-nemo-info = ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔آر ریسرچرز کیر حولال ام تے جیب ام کیر باراگال ا  ٹول کٹ آں
 community-playbook = درام پلے بک
 data-other-ted-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
 go-discourse = شاعری تھ یا۔
