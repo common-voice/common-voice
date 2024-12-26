@@ -1,4 +1,4 @@
-listen = ݜُوں
+listen = ݜُوں/ݜُون٘یں
 listen-subtitle = آوازہ صحیح کرئیں مہ زئیں مدد کرہ
 listen-instruction = { $actionType } <playIcon> </playIcon>سیوں جملی سم شان ہِن ادا کرہ څھے؟
 listen-again-instruction = سُگا کام <playIcon> </playIcon> توۡ کم لکھ سم ہُوند کھئیں گتہ ݜُوں
