@@ -1,4 +1,4 @@
-speak = منہ
+speak = منہ/بنہ
 speak-now = ہِئیں مَنہ
 speak-subtitle = تاں اواز دَے۔
 record-cta = ٹَېپ کرَئیں شروع کرہ
@@ -37,8 +37,8 @@ review-cancel = جمع کروں کینسل کرہ
 review-keep-recordings = ریکارڈ کریل کام اماں گے رڇھہ
 review-delete-recordings = مئیں ریکارڈ کریل کام نشاء
 review-terms = کامن وائیس استعمال کرہانٚس توۡ اتفاق کرانٚت <termsLink> زاں شرطوں مل </termsLink> آں <privacyLink> رازاں نوٹس
-terms-agree = مہ اتفاق کرانٚت۔
-terms-disagree = مہ اتفاق نیرانٚت۔
+terms-agree = مہ اتفاق کرانٚت/کرم تُھو
+terms-disagree = مہ اتفاق نیرانٚت/نیرم تُھو
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تاں اواز مہ ٹیپ کریل کٹرَو زاں کراں دے شکریہ۔
 first-cta-subtitle-text = زاں کراں تاں بارہ مہ منگلے توۡ زاں اس قابل سندانٚت چہ بے ایک اجتماعی ٹکنالوجی سندِج۔
