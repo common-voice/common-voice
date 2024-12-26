@@ -6,6 +6,7 @@ datasets-headline =
      مہ استعمال کرہاں۔
 language = ژیب
 download-dataset-header = ڈیاسیٹ منی والہ (ڈاؤن لوڈ کرہ)
+download-delta-explainer = زَیں ہِلاک اوک بدلی یہ کرچھی۔ آخری ہیشی یاں ریلیز نہ پتَیں ڈیلٹا سیگمِنٹ مہ بُٹؤں نہ ہُویان٘ک کٹرو تھو۔<deltaLink>اس کماں بارہ مہ ݜلہ مُت پڑہ</deltaLink>۔
 download-dataset-tag = تَیں اُڇھیلیۡ ژِباں ڈیٹا سیٹ خوش کرہ آں نھالے گِھن٘ل قسمے تُو خوش تُھو کھیں تس منی والہ۔
 # File size in gigabytes
 size = سائز

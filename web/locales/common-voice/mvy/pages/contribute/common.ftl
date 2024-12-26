@@ -36,7 +36,7 @@ datasets = ڈیٹا سیٹ
 languages = ژِبہ
 about = بابتی مہ
 partner = مرگلئ
-submit-form-action = جمع
+submit-form-action = جمع کرہ
 
 ## Reporting
 
