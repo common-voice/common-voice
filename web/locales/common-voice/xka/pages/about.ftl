@@ -1,9 +1,7 @@
 ## ABOUT US
 
-about-title = کامن وایس عوامی جیب ام اوازونو  ام ڈیٹآسیٹ آین۔اما سوے ا خلق تانی ڈا کار تھان۔کا خلق  ویس اپلیکیشن ترا ن تن اوں ڈیٹا سیٹ استعمال تیبان۔اوں ٹیم رل باڑ وایس ڈیٹا سیٹکمپیانو ام این
-about-header-description-v2 =
-    <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
-    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also underrepresent: non-English speakers, people of colour, disabled people, women and LGBTQIA+ people. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
+about-title = نءکامن ویس گانٹھ
+about-header-description-v2 = کامن وایس گانٹھ
 how-does-it-work-title-v2 = کامن وایس کٹھ ترمون
 how-does-it-work-text = کرا کرا ا جیب ٹل تال کیر منون
 
