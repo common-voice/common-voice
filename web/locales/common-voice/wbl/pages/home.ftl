@@ -18,12 +18,12 @@ speak-goal-text = klip ricord̃ing
 listen-paragraph = Atya k̃hetk klipist kommon voysẽr atumẽr zẽrũri. kẽs̃hũy wos yi fẽristẽ dũrz woz sake meyari open sors sarvis d̃atã k̃hakẽr sakẽr medad woc
 listen-goal-text = Klipẽ towsiq k̃hak
 hours-recorded = soatvẽ rikord̃
-hours-validated = Soatve towsiq
-voices-online = Niv owozisht sẽk tẽnov/ onlayn
-todays-progress = Wudhgẽ peshraf
-help-reach-goal = Sakẽr de { $goal } g̃hẽtakẽ mẽdad
-read-terms-q = Cerg tawẽ po shatẽv joytka?
-ready-to-record = K̃hũ owazẽ atya rẽdhor joya?
+hours-validated = Soatvẽ towsiq
+voices-online = Nivẽv owozisht sẽk tẽnov/ onlayn
+todays-progress = Wudhgẽ peshraft
+help-reach-goal = Sakẽr da { $goal } g̃hẽtakẽ mẽdad
+read-terms-q = Cerg tawẽ po shartẽv joytka?
+ready-to-record = K̃hũ owazẽ atya rẽdhorẽt joya?
 all-locales = Pẽtũn/ kũk̃ht
 today = wudhg
 x-weeks-short =
@@ -41,10 +41,10 @@ x-years-short =
         [one] { $count }y
        *[other] { $count }y
     }
-help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr sakẽr mẽdad woc
-sign-up-account = Yi akowntẽr (account) saynap (asing up) car
+help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr, sakẽr mẽdad woc
+sign-up-account = Yi akowntẽr (account) saynap (sasing up) car
 email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (signup) car
-email-subscription-title-new = Kommon voyse k̃hẽbarẽ k̃hatẽr (newletter) saynap car, maqsadẽ sẽk yod wemukẽ kuzg woz tẽriq apd̃et̃isht
+email-subscription-title-new = Kommon voysẽ k̃hẽbarẽ k̃hatẽ (newsletter) saynap car, maqsadẽ sẽk yod wezmukẽ kuzg woz tẽrẽqiyẽ apd̃et̃isht
 
 ## Account Benefits
 
