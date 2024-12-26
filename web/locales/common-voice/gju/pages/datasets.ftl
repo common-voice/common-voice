@@ -42,3 +42,56 @@ feedback-q = پتو خبر لیو
 # This indicates that there is no data to display
 no-information = کوئی معلومات نیہہ
 resource-nemo-info = <githubLink>این وی آئی ڈی آئی اے ۔ این ای ایم او</githubLink>ایک ہے <docsLink>اوپن ذریعو ٹولز کو </docsLink> محقق واسطے جدید ترین واز کا اے ون ماڈل بنان واسطے
+resource-deepspeech-info = موزیلا کو وازں کی پہچان وسطے عام دستیاب سرچ انجن جس نا ڈیپ سپیچ کہیو جائے، یوہ وازاں کی پہچان وسطے اپلیکیشن بنان وسطے بھی کم آ سکے۔ مہارو <githubLink> گیتھب جائزہ نا پڑھیو</githubLink> یا فر<discourseLink> ڈیپ سپیچ ڈسکورس</discourseLink> ما شامل ہووں تاکہ تمنا پتو لگے جے یاہ کس طرحیا شروع ہووے۔
+resource-coqui-info = <coquiLink> کوکی</coquiLink> وازاں کی ٹیکنالوجی چلان وسطے بنائی ہے۔ ان کو یوہ منصوبو بہترین سکھن اپر مشتمل ہے جس کی بنیاد ایس ٹی ٹٰی تے ٹی ٹٰی ایس انجن اپر ہووے۔
+community-playbook = قبیلہ کی( مختلف کماں کی) رہنمائی کو کتابچو
+resource-playbook-info = <playbookLink> </playbookLink> ساری عمومی وازاں کا سفر ما تے اسی طرحیا مہارا سارا قبیلہ نال کس طرحیا رابطو ہو سکے، اس کی مددگار رہنمائی نا (اس لنک) اپر تلاش کریو
+data-other-librispeech-description = لیبری اسپیچ تقریبا 1000 گھنٹاں اپر مشتمل ایک مجموعو ہے جیہڑی لیبری ووکس پروجیکٹ کی پڑھی جان آلی آڈیو بکس تیں اخذ کردہ انگریزی تقریر ہے۔
+data-other-ted-name = ٹی ای ڈٰی-ایل آئی یو ایم کورپس
+data-other-ted-description = ٹی ای ڈی-ایل آئی یو ایم کارپس صوتی گفتگو تے ٹی ای ڈی ویب سائٹ اپر دستیاب ان کی وازں کا تجزیہ (ٹرانسکرپشن) تے بنایو گیو تھو۔
+data-other-voxforge-description = ووکس فورج نا مفت تے وازاں کی پہچان کا عام دستیاب انجن کے نال استعمال وسطے نقل شدہ تقریر جمع کرن وسطے قائم کیو گیو تھو۔
+data-other-tatoeba-description = تاتوبیبا، زبان سکھن ما استعمال وسطے جملہ ، ترجمہ تے بولی جان آلی آڈیو(صوتیات) کو ایک بڑو ڈیٹا بیس(وازاں کو ذخیرو) ہے۔ اس ڈاؤن لوڈ میں ان کی کمیونٹی کے ذریعہ ریکارڈ کی گئی بولی جان آلی انگریزی شامل ہے۔
+your-feedback = تھہارے کول کائے تجویز ہے جے  ہم کامن وائس ڈیٹا سیٹ (عمومی وازاں  کا ترتیب وار مواد) نا کس طرحیا بہتر بنا سکاں؟ آو ہم ڈسکورس(اظہار خیال) کا بارا ما کجھ سمجھاں۔
+go-discourse = ڈسکورس کے طرف چلو۔
+missing-language = ڈیٹا سیٹ(ترتیب وار مواد) ما تھہاری زبان کی عکاسی نیہہ ہوتی ؟ کسے زبان کی درخواست کرن وسطے مہارا زباناں کا صفحہ اپر چلو۔
+go-languages-page = زباناں کا صفحہ اپر چلو۔
+ready-to-validate = جملاں کی توثیق ما مدد کرن وسطے تیار ہو؟
+more = ہور
+close = کولے
+download = ڈاون لوڈ
+dataset-version = قسم(ورژن)
+sha256-checksum-copied = ایس ایچ اے 256 چیک سم کی نقل کی  ہے!
+sha256-checksum-copied-error = ایس ایچ اے 256 چیک سم نقل کرن ما ناکامی ہوئی ہے
+clipboard-not-supported = کلپ بورڈ مدد نیہہ کرتو(نیہہ چلتو)
+no-information-available = کائے معلومات دستیاب نیہہ۔
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تھہارو ڈیٹا سیٹ(ترتیب وار مواد) ڈاون لوڈ ہووے لگو
+dataset-donate-modal-heading = تمنا پتو ہے۔۔۔
+donate-modal-explanation-1 = ڈیٹا سیٹس کی میزبانی کرن وسطے تے ا100+ زباناں کی برادریاں وسطے پلیٹ فارم نا بہتر بنان وسطے ایک سال ما تقریبا ایک ملین ڈالر خرچ ہوویں جیہڑا مہارا کام اپر بھروسو کریں؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>جے کدے تم  کھلا، جامع ڈیٹا(معلومات) کی قدر کرو - اج عطیہ کرو</bold>
+data-download-singleword-title = ایک لفظٰی ٹکڑا کا ہدف نا ڈاون لوڈ کرو
+data-download-singleword-callout-v2 = یوہ ایک استعمال کیس تیں چلن آلو ٹکڑو ہے جس ما بولن آلا ہندساں کی شناخت تے ہاں / نہیں کا پتو کرن وسطے  اعداد و شمار شامل ہیں۔
+data-download-button = عمومی وازاں کا ذخیرہ نا ڈاون لوڈ کرو۔
+data-download-yes = ہاں
+data-download-deny = نہ
+data-download-license = لائسنس<licenseLink>سی سی-0</licenseLink>
+data-download-modal = تم<size>{ $size }جی بی</size> نا ڈاون لوڈ کرن وسطے تیار ہو،  عمل کرو؟
+data-subtitle = ہم وازاں کوایک کھلو تے عام لوکاں وسطے دستیاب ڈیٹا سیٹ بناواں لگا، جس نا ہر کوئی تقریر کے قابل ایپلی کیشنز نا تربیت دین وسطے استعمال کرسکے ۔
+data-explanatory-text = ہمنا یقین ہے جے بڑا تے عام لوکاں وسطے دستیاب صوتی ڈیٹا سیٹ مشین کے ذریعے سکھن  اپر مبنی گفتگو کی ٹیکنالوجی ما جدید طریقہ کار تے تجارت کا میدان ما صحیح طریقہ نال اگے بدہن  نا عام کرے۔ یاہ ایک عالمی کوشش ہے تے ہم ساراں نا شرکت کی دعوت دیاں۔ مہارو مقصد یوہ ہے جے پوری دنیا کی بکھ بکھ وازاں کی عکاسی کرتاں گفتگو(گل بات) کی ٹینالوجی  نا جامع بنان ما (لوکاں) کی مدد کراں۔
+data-get-started = <speechBlogLink> وازاں کی شناخت نال شروع کرو</speechBlogLink>
+data-other-title = دوجی وازاں کو ڈٰیٹا سیٹ
+data-other-goto = { $name } کے پاسے چلو۔
+data-other-download = معلومات نا ڈاون لوڈ کرو۔
+data-bundle-button = ڈیٹا سیٹ کا بنڈل نا ڈاون لوڈ کرو۔
+data-bundle-description = عام صوتی معلومات کے نال نال مندرجہ بالا تمام دیگر صوتی ڈیٹا سیٹ۔
+release-version = اقسام
+dataset-date = تاریخ
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = رلیو وو۔ خلط ملط
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مہارا وازاں کا ڈیٹا سیٹ نا ڈاون لوڈ کرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = عمومی وازاں کا ذخیرہ تک پہچن وسطے بکھ بکھ اختیار نا ڈاون لوڈ کرو
