@@ -69,6 +69,11 @@ community-and-languages = تانی خلق تے  تنے جیب
 
 about-menu-tooltip = دراوال،پریس تےقیصا،تانیخلق تے جیب
 partnerships-menu-item-tooltip = سیت اسں  دی
+press-and-stories-menu-item-tooltip = اسے  بارا مے چوݨ
+community-and-languages-menu-item-tooltip = جیب،خلق تے کامن ویس بیلڑ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اپشن مینو بارا مے
+partnerships-menu-item-aria-label = کامن ویاس دا دراوال  جان
+community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  خلق تے جیب   ام اے مدد تھال تنا پویان
