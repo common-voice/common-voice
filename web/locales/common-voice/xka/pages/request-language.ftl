@@ -2,10 +2,12 @@
 
 request-language-heading = نم جب باراؘ می من۔
 request-language-explanation-1 = تان جب نال اؘ کامن وائس جب می این اؘ کو نان
+request-language-explanation-2 = بہ تانی کمیونٹی منیجر  منے اوں سو نالہ تی شوخ این آں۔۔۔تن تو سہاں دی پا تیر باز تہیا دی گجینگوا امداد تسے شجونس تہ
 request-language-form-email =
     .label = تی امیل گواؘ نخہ۔
 request-language-form-info =
     .label = جب اؘ بارامی گواؘ معلومات این۔
+request-language-form-info-explanation = جیب بارا می تو کتیک آ تی معلومات ملے بونس تے میلہ۔۔رس می ان ان آشون
 request-language-form-info-explanation-list-1 = توسی جب اؘ گواؘ نام۔
 request-language-form-info-explanation-list-2 = ائی ایس او کوڈز جانل ݭاتہ۔
 request-language-form-info-explanation-list-3 = ویب سائڈ ا لنکس اسی جب جانل ݭاتہ اسی مدد تھ بھو۔
