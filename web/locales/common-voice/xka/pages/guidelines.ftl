@@ -31,6 +31,7 @@ misreadings-example-4 = بھونرا شور مݭ بل
 misreadings-tip-1 = اسان تھ اشل پکار
 misreadings-tip-2 = اصلی متن می اے نان
 misreadings-tip-3 = کھچ یوپاگاَل ٹیکل
+background-noise-explanation = تو پا ریکارڈنگ ھرٹکل بج بالہ بہ
 background-noise-example-1 = ٹرایسک  اے گان ڈاینوسار
 background-noise-example-2 = ٹرایسکا گھن ڈاینوسار
 background-noise-example-3 = ٹراسیکا گھن ڈاینو۔۔۔۔۔۔۔۔۔۔۔۔۔۔
