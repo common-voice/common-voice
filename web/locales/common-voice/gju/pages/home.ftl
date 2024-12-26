@@ -17,6 +17,8 @@ wall-of-text-second = مچ ساری معلومات جیہڑی بڑی بڑی کم
 show-wall-of-text = ہور پڑھو
 help-us-title = جملاں کی تصدیق ما مہاری مدد کرو
 help-us-explain = چلان کا بٹن نا دباو، سنو تے ہمنا دسو، تلے جملا صحیح طرحیا بولیا ہیں۔؟
+no-clips-to-validate = اس طرحیا محسوس ہووے جے اس زبان ما سنن وسطے کوئی حصو نیہہ۔ ہن کائے شے ریکاڈ کر کے اس لین نا بھرن ما مہاری مدد کرو
+toggle-play-tooltip = چلان کا طریقہ نا { shortcut-play-toggle } ٹوگل کرن وسطے دباو
 
 ## Account Benefits
 
