@@ -37,6 +37,7 @@ feedback-q = رائے این۔
 # This indicates that there is no data to display
 no-information = گیب معلوم نان۔
 community-playbook = درام پلے بک
+data-other-ted-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
 go-discourse = شاعری تھ یا۔
 go-languages-page = جب اؘ پات تھ چا۔
 ready-to-validate = سزا باڑ تھال می مدد تھا۔
