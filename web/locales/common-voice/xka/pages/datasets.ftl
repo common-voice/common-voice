@@ -37,6 +37,7 @@ feedback-q = رائے این۔
 # This indicates that there is no data to display
 no-information = گیب معلوم نان۔
 resource-nemo-info = ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔آر ریسرچرز کیر حولال ام تے جیب ام کیر باراگال ا  ٹول کٹ آں
+resource-deepspeech-info = بِسپیچ پویانیلہ اپلیکشن  ترال می موزیلاز اوپن سورستاٹ پویانیلہانجن ڈیپ سپیچ استمال تیبان۔۔شورو تھال جانیل کیر اسی ۔۔۔۔۔۔۔۔۔۔۔۔۔ڈیپ سپیچ یا ڈسکورس پر چا
 community-playbook = درام پلے بک
 data-other-ted-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
 go-discourse = شاعری تھ یا۔
