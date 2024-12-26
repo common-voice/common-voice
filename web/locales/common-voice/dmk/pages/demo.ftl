@@ -16,10 +16,13 @@ demo-account = اݵکݳݸنٹ
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = سݳئن اَپ لِنک بِجݳلِنَشُݸ اݵ مݵل بݳ
 demo-account-sign-up = سݳئن اَپݵئ لِنک بِجݳل
 
 ## Demo Contribute
 
+demo-contribute-card-header = چھݸت خَرِشݳرِنَشُݸ تݵݳر چھݸتݺ ݵݳ کݸن ڈݵنݳشݸ؟
 demo-listen-subtitle = حِصَہ بݳنَشݸ تݵݳر چھݸتݺ؟
 
 ## Demo Dashboard
