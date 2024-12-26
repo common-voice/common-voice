@@ -1,11 +1,16 @@
 ## Datasets Page
 
 datasets-heading = ڈیٹا سیٹہ
+datasets-headline =
+    بے چئ/څئ ژِبواں بُٹواں ہتے اے، ݜے لک اوازواں ڈیٹا سیٹ سن٘دِگ تھو لہ تس ہر کؤں تاں اواز استعمال کران٘لہ ایپلیکیشنہ 
+     مہ استعمال کرہاں۔
 language = ژیب
 download-dataset-header = ڈیاسیٹ منی والہ (ڈاؤن لوڈ کرہ)
+download-dataset-tag = تَیں اُڇھیلیۡ ژِباں ڈیٹا سیٹ خوش کرہ آں نھالے گِھن٘ل قسمے تُو خوش تُھو کھیں تس منی والہ۔
 # File size in gigabytes
 size = سائز
 validated-hr-total = بُٹ سُون٘ݜیۡرال ایچ آر۔
+overall-hr-total = Overall Hr. Total
 cv-license = اِجازہ
 audio-format = اوازاں قِسمہ
 dataset-splits = تقسیم (عمر آں جِنس)
