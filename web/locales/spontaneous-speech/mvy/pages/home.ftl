@@ -4,6 +4,10 @@ welcome-to-spontaneous-speech = ڈارِک بلیوں مہ تُو ایلوئ
 # <br></br> represents a newline break
 wall-of-text = کامن وائس دُویُوں پلیٹ فارم کُھلاؤ کیری تُھو چے تسیں توجہ فی البدیہہ، بغیر لِکیلی انسان وَیں بنژیلی بلیُوں لا ہو تُھو۔ ݜسی نہ فَیدہ ݜُو ہو تُھو چے بیکتُک خلکہ ہن٘گس معلومات جمع کرہاں تھو، سن٘دان٘لہ تے معلوماتاں سائن٘سدانؤں گتہ فَیدہ ہو تُھو۔
 why-spontaneous-speech = زَیں امَیں بلی بنَیں والا سامُوٹُھو گِنہ سن٘دہ چھی
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = <mark>قُدرتی بلی واں </mark>دَن فَیدہ مَند تُھو آں مختلف حالتی استعمال کرہ (لَک، کہ تُو بانیۡ تُھو چے اواز پُنیان٘لو ݜے ماݜ مِل‌بال الاؤ کیر چے سیں بلی پھیں نہ تیار نیریل ہو )
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = ژِبَیں حقیقتی، لَک، بلیوں مہ مُت ژِبؤں مرَک ہوں <mark>یا مُت ژِباں لفظہ استعمال کرؤں۔</mark>
 how-spontaneous-speech-works = ڈارِک بلی (پروگرام) گِشے چلُژی تُھو
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>سِڇھیان٘لی بال</mark>
