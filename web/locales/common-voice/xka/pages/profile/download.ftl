@@ -15,3 +15,7 @@ download-selected = جوݭل
 download-start = پروفائل ڈیٹا ڈاون لوڈ تھا۔
 download-request = ریکارڈنگز  کیر درخاس دہ
 download-requests = میشٹوک ریکارڈنگزکینیل کیر درخاس
+download-requests-info = کیرا تو ریکارڈںنگز،بہ تنا اک  یا الد  zipفایل ام ملی نا مان,,,,ن تی میشټوک د،رخاس
+download-request-button = ڈاون لوڈ۔
+download-request-title = ترال
+download-request-description = ...................تراټ ام کټر
