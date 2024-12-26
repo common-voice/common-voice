@@ -54,11 +54,16 @@ dataset-metadata-sex = جِنس
 dataset-metadata-age = عُمُر
 donate-modal-message = تیں ڈیٹاسیٹ مِنی وی تُھو
 dataset-donate-modal-heading = تُو شِدیۡ آنۡسی چے ۔۔۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <strong>کہ تُس قدر کراں تھو  بُٹواںتے ہرقسم ڈیٹاں۔ کھیں آژ زؤں لا صدقہ کری!</strong>
 data-download-button = کامن وائسَیں‌ معلومات منی والہ
 data-download-yes = آں
 data-download-deny = نَیں
 data-download-license = اجازہ<licenseLink>نَقَل</licenseLink>
 data-download-modal = تُو <size>{ $size } جی بی </size> مِنی والؤں شُروع کرَیں لا تھی، ہو لئ یی؟
+data-subtitle =
+    بے چئ/څئ ژِبواں بُٹواں ہتے اے، ݜے لک اوازواں ڈیٹا سیٹ سن٘دِگ تھو لہ تس ہر کؤں تاں اواز استعمال کران٘لہ ایپلیکیشنہ 
+     مہ استعمال کرہاں۔
 data-get-started = <speechBlogLink>بلی پُنیؤں شروع کرِگی</speechBlogLink>
 data-other-title = مُتہۡ اوازاں ڈیٹاسیٹہ۔۔۔
 data-other-goto = { $name }بہ
