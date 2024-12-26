@@ -12,6 +12,7 @@ volume = تراٹ
 reader-effects = منندر ام راے
 just-unsure = اتیش شکیی
 example = مثال۔
+varying-pronunciations-explanation-1 = بہ  اوراک لہجا ام تہ بڑبڑ منان۔۔۔کیسے°جولالاں بیت د نہ قبولیلاں تیخیال ان اوں رسے منیل کھچ این۔۔۔۔رس می باڑ احتیاط تییجون
 varying-pronunciations-example = پان صفا نہ اس
 misreadings-explanation-2 = عام غلطیان ان این۔
 misreadings-explanation-3 = ریکاڈنگ اؘ اولک دودت رل اے ڄار این۔
