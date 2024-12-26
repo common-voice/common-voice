@@ -37,3 +37,10 @@ non-binary = نان باینری
 do_not_wish_to_say = جولال تہ ایر نہ بھون۔
 # Gender
 other = دی۔
+why-profile-title = پروفائل گاݨڈ ۔
+dashboard = ڈش بورڈ
+build-profile = پروفائل ترا
+avatar = اوتار
+goals = مقصد
+settings = برابر
+edit-profile = پروفائل ترا
