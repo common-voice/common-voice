@@ -4,6 +4,7 @@ home-title = کامن وایس موزیلا۔ام  شورو تھا اوں مشی
 default-tagline = موزیلا کامن وایس ا شرو ایناوں تانی مشینانوم تہ خلق  ام چھلا  جولال پشون تہ
 home-cta = جول۔۔۔اما مدد تہ
 show-wall-of-text = دی من
+toggle-play-tooltip = سیپ دا گش
 speak-goal-text = کلپس ریکاڈ تھا۔
 listen-goal-text = کلپس ختم تھا۔
 hours-recorded = گینٹہ ریکاڈ تھا۔
