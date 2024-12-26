@@ -33,6 +33,7 @@ other-datasets = مُتہۡ اوازاں ڈیٹاسیٹہ
 feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink> ایک <docsLink>اوپن سورس ٹول کِٹ</docsLink> تُھو چے سو امَیں سن٘دیل دِماغاں ،بُٹؤں نہ اُڇھېل مشقُلا کرَیں والا ماڈلہ سن٘دَیں مدد کیری تُھو۔
 community-playbook = خلکاں باشَیں یاں کتاب
 resource-playbook-info = ژیب تَیں رؤں، ڈیٹا سیٹاں استعمال آں زاں خلکؤں ملی رابطہ کرَیں ہاریساری ”کامن وائسَیں“ سفری مہ زَیں <playbookLink> مدد ہرہ</playbookLink>
 data-other-librispeech-description = LibriSpeech تقریبا 1000 گین٘ٹی وَیں ان٘گرزیں بلی یی تے اوازاں کِتابؤں نہ پڑژیلی بلی تھی کؤں چے LibriVox project پراجیکٹ نہ اؤژی تھی۔
@@ -47,6 +48,8 @@ more = مُت
 close = بَن‌کرہ
 download = منی والہ (ڈاؤن لوڈ کرہ)
 dataset-version = وَرژَن
+sha256-checksum-copied = چیکسم SHA256 نقل ہُوگا!
+sha256-checksum-copied-error = چیکسم SHA256 نقل نېرہؤں
 clipboard-not-supported = کلِپ بورڈ نی چلُژ تُھو
 no-information-available = زؤں گے گی معلومات نی تھی
 dataset-metadata-sex = جِنس
@@ -54,6 +57,7 @@ dataset-metadata-sex = جِنس
 dataset-metadata-age = عُمُر
 donate-modal-message = تیں ڈیٹاسیٹ مِنی وی تُھو
 dataset-donate-modal-heading = تُو شِدیۡ آنۡسی چے ۔۔۔
+donate-modal-explanation-1 = 100 نہ بُوۡئ ژِبہۡ واں خلکہ چے سَیں زاں کریل کماں تمہ لا ہوں تھو اِ اِواں کریا ڈیٹاسیٹ سن٘دَیں، چلَیں تے سم کرَیں لا کالَیں دش لاکھ ڈالرؤں ہاری٘ خرچہ ای تُھو۔
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <strong>کہ تُس قدر کراں تھو  بُٹواںتے ہرقسم ڈیٹاں۔ کھیں آژ زؤں لا صدقہ کری!</strong>
 data-download-button = کامن وائسَیں‌ معلومات منی والہ
