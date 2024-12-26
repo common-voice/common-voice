@@ -7,3 +7,5 @@ error-something-went-wrong = بَخݽݵݽ اِرݳ، کِسݵک غَلَط ہُ�
 error-clip-upload = اݽݳئی کِلِپ اپلݸڈ نݵ ہݸگݵ چھݵ، کھݸشِش اِرِنݺ بݵشݳ؟
 error-clip-upload-server = سَرݸَرَس اݽݳئی کِلِپ اپلݸڈ نݵ ہݸگݵ چھݵ. پݵج دݸبݳرہ لݸڈ ݳِرݳ ݵݳ دݸبݳرہ کھݸشِش اِرݳ.
 error-title-404 = امݺ تُمݺ چُݸ ہݵئ وَرَق نݵ لݵئ شَکَم چھݸم
+error-content-404 = شݳݵد امݳ <homepageLink>ہݸم پݵجَن</homepageLink> مدَد اِرݵگݳ؟ سوݳل منݳنَشُݸ، مِربݳنݵ رݵ <matrixLink>مݵٹرݵکس کمݵݸنٹݵ </matrixLink> نݳ کݸٹ ہُݸئی <githubLink>گِٹ ہَبݵئ</githubLink> زرݵعَس مݳنݵٹر سݳئٹ مسلݵݣݺ چغݳ رݳ ݵݳ ݳمݳ <discourseLink>ڈِسکݸرس فݸرَمݵڎ ݳوݳ.</discourseLink>
+error-title-503 = امݺ دَک نݳ وَقت منݵنݵ ہݸئنݳئی تجربݳ رَم چھݸم
