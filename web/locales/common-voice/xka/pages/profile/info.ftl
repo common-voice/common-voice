@@ -59,3 +59,6 @@ help-accent = منیل می مدد زروت این۔
 help-variants = ویرئنٹ می مدد زورت این
 help-sex-or-gender-changes = میش تہ تریر بدلال می مدد زورت این
 variant-contribution-options-header = اورک ملیل اختیار
+variant-contribution-option-1 = مٹھ اسی جب می سوا قسمہ جولال تہ کلپس مشا۔
+variant-contribution-option-2 = مٹھہ ایلا اورک کلپس تہ جولال مشا۔
+variant-contribution-warning-title = سوا جولال تہ کلپس می اوراک ٹیک نہ اشو
