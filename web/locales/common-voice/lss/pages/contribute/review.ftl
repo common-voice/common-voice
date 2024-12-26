@@ -41,5 +41,6 @@ sc-criteria-item-1 = جملو صحيح هِڄي ٿيو هونجن.
 sc-criteria-item-2 = جملو گرامر جي حساب سين صحيح هونجن.
 sc-criteria-item-3 = جملو ڳالاڻ جي حساب سين صحيح هونجا.
 report-sc-different-language = ٻي زبان
+report-sc-different-language-detail = بي
 # menu item
 review-sentences = ريويو ڪر جملا.
