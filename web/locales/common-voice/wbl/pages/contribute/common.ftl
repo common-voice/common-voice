@@ -41,7 +41,7 @@ submit-form-action = Jama car/ ta kat̃
 
 ## Reporting
 
-report = rapot̃/ pe
+report = rapot̃
 report-title = yi rapot jama car
 report-ask = hadẽm jũmlavnẽs̃h tor chiz mũshkilisht wocẽn?
 report-offensive-language = Jarihona zik
@@ -55,10 +55,10 @@ report-difficult-pronounce-detail = demi zirg lavzẽt jũmlayisht ki yavẽ k�
 report-offensive-speech = Jarihona qẽsa/ taqrir or zẽrũvnẽ qẽsa/ taqrir
 report-offensive-speech-detail = hẽdem kẽlipi badh tẽmiz yoy jarihona zik
 report-other-comment =
-    .placeholder = bẽyon/  k̃han/ nivish
+    .placeholder = bẽyon/ barar k̃han, barar nivish
 success = komyobig̃h/ komyibi
 continue = jori
-report-success = rapotẽv komyobig̃hẽ mes̃h dez̃hd/ manzũr kert
+report-success = rapotẽv komyobig̃hẽ mes̃h manzũr kert
 
 ## Speak & Listen Shortcuts
 
@@ -74,8 +74,8 @@ shortcut-record-toggle-label = ricord̃ẽ rok/rũk
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = kẽlipẽ dẽbora rikord̃
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = jori rekord̃ingẽ zoya/ rad car
-shortcut-submit = pẽshin/ pẽshew
+shortcut-discard-ongoing-recording-label = jori rekord̃ingẽ zoya yoy rad car
+shortcut-submit = pẽshin yoy pẽshew
 shortcut-submit-label = kẽlipẽ jama/ rand
 request-language-text = Sẽk Kommon Voysẽs̃h (common voice) ghal k̃hũ zikẽ ne winẽm/ ghalẽbatkẽs̃h k̃hũ zikẽ sẽk Kommon voys ne wina?
 request-language-button = Yi zikẽ arzẽ car
