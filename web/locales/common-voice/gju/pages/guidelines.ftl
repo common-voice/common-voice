@@ -45,5 +45,6 @@ public-domain = پبلک ڈومین
 citing-sentences = حوالہ دین ہالا فقرا
 adding-sentences = فقراں نا جمع کرنو
 reviewing-sentences = فقراں کو جائزو لینو
-sentence-domain = فقرا کی ڈومین
+sentence-domain = فقرا کی ڈومین ہے
 public-domain-explanation-1 = یاہ گل مچ لازمی ہے کہ ساری عبارت کا فقرا پبلک ڈومین بچوں ہے <publicDomain></publicDomain><cc0>سی سی </cc0>جس طرح کہ کامن وائس کو ڈیٹو سیٹ سی سی 0 لائسنس کے تحت ہے ۔صرف تم فقرا اپ لوڈ کروں کدے تم نا  پورو یقین ہے تے تم ہمیشہ متعلقہ حوالو دیو
+public-domain-explanation-2 = مفید تقریر کی پہچان کا بہترین جُملا کولکل یا پرلانس  ہے ۔ فقراں بنان کا کُج طریقہ ہے
