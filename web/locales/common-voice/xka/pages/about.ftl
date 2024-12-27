@@ -70,6 +70,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = سایٹ لوک
 about-playbook-how-localize = سایٹ لوکلایزیشن کتھ کار تھون
 about-playbook-how-localize-content-1 = کامن ہاوس سایٹ اے• ترجمہ  پنٹون رل یون
 about-playbook-how-localize-content-2 = اوں  ترجمہ انگریزی دا بیل پر تو دی۔۔۔۔۔۔۔۔۔۔۔۔جیب ام۔۔۔۔۔۔تجاویزنیل بون۔ پروفایل نخ رل ا ٹسار دہ۔دیر سیٹنگلن۔۔۔دیرتانی جیب میلہ۔دیرچیپر دراشوم مکھ تہ ترجماومہ  ا لسٹ آشہ۔رس تہ لوکیلز منان۔۔۔۔۔۔۔۔ترجما ا دوس  پتا سایٹ رل  پشاں
+about-playbook-how-localize-content-4 = سایٹ75،،،فیصد بیل تےرو لانچ بال کیر تیار این
+about-playbook-how-localize-content-5 = مدد گینیل کیر اسے ویڈیو نال
 
 ## How to add sentences
 
@@ -78,6 +80,7 @@ about-playbook-how-add-sentences-content-1 = مہ تی ران اواز کتھ ر
 
 ## How to record quality
 
+about-playbook-how-record-quality = ران  وای کلپ کتھ ریکارڈ تیبام
 
 ## How to grow language
 
