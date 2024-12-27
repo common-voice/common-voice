@@ -54,6 +54,7 @@ about-nav-playbook = اون جان کتہ ٹل بون
 ## What is a language
 
 about-playbook-what-is-language = کامن وایس رل کا ں جیب این
+about-playbook-what-is-language-content-2 = جبوں رل فکیر کیر ا ڈاس پان این ۔
 about-playbook-what-is-language-content-3 = خینگ جی۔ گرامر می اک دی دا باڑ دی چھلا اشین
 
 ## How do I add a language
