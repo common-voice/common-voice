@@ -64,6 +64,7 @@ skip-submission-note = توٹھ تیپہ پا بھوجل والا تہ منند�
 off = بان
 on = کولاو
 help-accent = منیل می مدد زروت این۔
+help-accent-explanation = تی لہجہ اتون کتھ تو جولون تہ ۔تو کاں باھ بسیل تھ ۔تے کاں دی جب تو منوس تہ تی جب تیتی شلا اؘ شہ۔تودی کاں جولال این تے تو لہ ان اما یوپین اسان دے بھون ۔
 help-variants = ویرئنٹ می مدد زورت این
 help-sex-or-gender-changes = میش تہ تریر بدلال می مدد زورت این
 variant-contribution-options-header = اورک ملیل اختیار
