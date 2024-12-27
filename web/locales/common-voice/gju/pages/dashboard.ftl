@@ -2,7 +2,7 @@
 
 your-languages = تھاری زبان
 toward-next-goal = اگلی منزل کے۔
-goal-reached = گول تک پوہچ گیو
+goal-reached = مقصد تک پوہچ گیو
 clips-you-recorded = کلپس جہڑا تم نے ریکارڈ کریا
 clips-you-validated = کلپس جہڑاں کی توثیق ہو گئی
 todays-recorded-progress = اَج کی عمومی ترقی کامن وائس کی کلپس ریکارڈ کرن کی
