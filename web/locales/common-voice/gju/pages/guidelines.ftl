@@ -77,3 +77,5 @@ adding-sentences-subheader-punctuation = رموز اوقاف
 adding-sentences-subheader-punctuation-explanation = خاص نشانات تے رموز اوقاف اُت لائی جائے جت مُچ لازمی ہہے مثال کا طور پو ''اپوس ٹرافی '' انگلش کا حرفاں ما شامل وہے جس طرح '' نہیں'' تے ہم ہیں '' تے ماخذ متن ما یو شامل ہو سکے  پر اس طرح نہ جس طرح تم نا خاص نشان کی لوڑ وھے جس طرح @،#
 adding-sentences-subheader-special-characters = خاص کردار تے بیرونی الفاظ
 adding-sentences-subheader-special-characters-explanation-1 = حروف بولن ہالی زبان ما معتبر ہونا چاہیے ۔جس طرح ''ж'' رشین  حرف تہجی ہے تے انگریزی ما استعمال نیہہ ہوتو لہٰذہ کسے انگریزی کا ماخذ متن ما نظر نیہہ آنو چایے
+adding-sentences-subheader-special-characters-explanation-2 = زباناں کا کوی اپنا تصحیح کا قاعدہ وھے کُج اضافی مطالبات کے نال جد اُنہاں نا مقامی بنایو جائے ۔ کدے کسی زبان کی تصحیح کی کوئی فائل نیہہ تے انگریزی کو قاعدو اس ما حصّو لے سکے گو
+adding-sentences-subheader-offensive-content = جارحانہ متن
