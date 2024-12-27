@@ -57,6 +57,7 @@ email-subscriptions = امیل رکینت
 download-profile = می ڈیٹا ڈاون لوڈ تھا
 contribution-experience = میلیل تجربہ
 skip-submission-feedback = جمع تھال اؘ نالیل چھورا
+skip-submission-note = توٹھ تیپہ پا بھوجل والا تہ منندر می اک جوݭیل این۔مدد طریق بدلال کیر
 off = بان
 on = کولاو
 help-accent = منیل می مدد زروت این۔

@@ -49,6 +49,7 @@ more = دی۔
 close = بان۔
 download = ڈاون لوڈ۔
 dataset-version = ورجن۔
+clipboard-not-supported = کلپ بوڈر سپوٹ نہ بل
 no-information-available = گیب معلومات نان۔
 dataset-metadata-sex = میش۔
 # dataset metadata - age of contributor
