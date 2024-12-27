@@ -20,6 +20,37 @@ help-us-explain = چلان کا بٹن نا دباو، سنو تے ہمنا دس
 no-clips-to-validate = اس طرحیا محسوس ہووے جے اس زبان ما سنن وسطے کوئی حصو نیہہ۔ ہن کائے شے ریکاڈ کر کے اس لین نا بھرن ما مہاری مدد کرو
 toggle-play-tooltip = چلان کا طریقہ نا { shortcut-play-toggle } ٹوگل کرن وسطے دباو
 speak-paragraph = واز کا حصہ کی ریکارڈنگ مہارے عام دستیاب ڈیٹا سیٹ کا بنان ما ایک لازمی  لازمی حصوہے۔ کجھ لوک کہیں گا جے یوہ مذاخ کو بھی حصو ہے.
+speak-goal-text = حصو ریکاڈ ہو گیو
+listen-paragraph = کامن وائس کا مقصد ما دتی وہ واز کی تصدیق مچ ضروری ہے۔ تمنا اس نا سنو تے  واز کا عام دستیاب ذخیرہ نا جمع کرن ما مہاری مدد کرو۔
+listen-goal-text = حصہ کی تصدیق ہو گئی
+hours-recorded = گھنٹا بھی جمع ہو گیا
+hours-validated = گھنٹاں کی تصدیق بھی ہو گئی
+voices-online = واز ہن آن لائن ہیں
+todays-progress = اج کی ترقی
+help-reach-goal = { $goal } کا حاصل کرن ما مہاری مدد کرو
+read-terms-q = مہاری شرطاں کا بارہ ما تم نے پڑھیو؟
+ready-to-record = تم ہمنا واز دین وسطے تیار ہیں
+all-locales = سارا
+today = اج
+x-weeks-short =
+    { $count ->
+        [one] ہفتو
+       *[other] { $count } ہف
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } ماہ
+       *[other] مہنیو
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } سال
+       *[other] سال
+    }
+help-make-dataset = عام لوکاں وسطے دستیاب ہچھی قسم کو ڈیٹا سیٹ بنان ما مہاری مدد کرو
+sign-up-account = نووں اکاونٹ بنان وسطے اندر جاو
+email-subscription-title = تازہ ای میل وسطے اندر جاو
+email-subscription-title-new = کامن وائس کی خبراں ، مقصد کی یاد دہانی تے ترقی کا بارہ ما جانن وسطے اندر جاو
 
 ## Account Benefits
 
