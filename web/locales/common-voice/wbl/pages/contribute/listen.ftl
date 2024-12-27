@@ -15,7 +15,7 @@ validate-readings = Joynẽ towsiq car
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = joynẽ towsiq car, naqlẽvẽ joyiza dũrz
+listen-contribute-menu-tooltip = Joyẽn, dẽdẽg̃hikẽt tẽrjũmaẽ vec̃hũv
 validate-readings-menu-item-tooltip = Istimol k̃hakẽ kũzgvẽ rikord̃ẽ k̃hũ zikẽr towsiq car
 review-transcriptions-menu-item-tooltip = Istimol k̃hakẽkũzgẽ naqlẽvẽv k̃hũ zikẽr didig̃h
 
