@@ -27,3 +27,4 @@ demo-listen-subtitle = حِصَہ بݳنَشݸ تݵݳر چھݸتݺ؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = کیمݵݸنِٹݵ نݸ ذݳتݵ ترقݵسمݸ پَرسنل ڈݵش بݸرڈݺ اَپ ٹݸ ڈݵٹ بِنݳݣݺ چھݺ
