@@ -74,3 +74,6 @@ adding-sentences-subheader-numbers-explanation = ماخذ متن ما مثالی
 adding-sentences-subheader-abbreviations = مخففا ت تے مخففات
 adding-sentences-subheader-abbreviations-explanation = مخففات جس طرح ''یو ایس اے '' یا ''آئی سی ای '' ماخذ متن ما نییہہ ہونی چاہیے کیونکہ انہاں نا اس طرح پڑھیو جاسکے جے ان کو املا نال کوئی جوڑ نیہہ ۔
 adding-sentences-subheader-punctuation = رموز اوقاف
+adding-sentences-subheader-punctuation-explanation = خاص نشانات تے رموز اوقاف اُت لائی جائے جت مُچ لازمی ہہے مثال کا طور پو ''اپوس ٹرافی '' انگلش کا حرفاں ما شامل وہے جس طرح '' نہیں'' تے ہم ہیں '' تے ماخذ متن ما یو شامل ہو سکے  پر اس طرح نہ جس طرح تم نا خاص نشان کی لوڑ وھے جس طرح @،#
+adding-sentences-subheader-special-characters = خاص کردار تے بیرونی الفاظ
+adding-sentences-subheader-special-characters-explanation-1 = حروف بولن ہالی زبان ما معتبر ہونا چاہیے ۔جس طرح ''ж'' رشین  حرف تہجی ہے تے انگریزی ما استعمال نیہہ ہوتو لہٰذہ کسے انگریزی کا ماخذ متن ما نظر نیہہ آنو چایے
