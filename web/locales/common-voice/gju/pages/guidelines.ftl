@@ -68,3 +68,5 @@ adding-sentences-subheader-length-explanation = فقرا ما 15 تے کم حر�
 adding-sentences-subheader-spelling-punctuation = سپیلنگ تے رموز اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = فقراں ما سپیلنگ لازمی صحیح وھے
 adding-sentences-subheader-speakable = بولن کے قابل وھے
+adding-sentences-subheader-speakable-explanation = بہترین جملا قدرتی تے بولے جان ہالا وھے —ویہہ کسے کا پڑھن واسطے آسان وھے جد کہ لہجہ کو فرق تے اختلاف اہم ہے ہم اپنی کمیونٹی کا خیر خواہ لوکاں واسطے جملا  ریکارڈ کراں لگا تے فن واسطے
+adding-sentences-subheader-numbers = اعداد
