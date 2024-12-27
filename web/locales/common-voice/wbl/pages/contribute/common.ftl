@@ -117,7 +117,6 @@ contribution-misreadings-example-4-explanation = [cẽ matanẽ zẽrũratẽn 
 contribution-misreadings-example-5-title = Sakẽn koffi gũtakẽr tẽr bar tak̃hk./ sakẽn koffi sẽmar tẽr bar tak̃hk
 contribution-misreadings-example-6-title = Sakẽn koffi gũtakẽr/sẽmar tẽr bar tak̃hk.
 contribution-misreadings-example-6-explanation = [ “sakẽn” wocẽn dẽrkor/ sẽpo wocni baf]
-contribution-misreadings-example-7-title = Sakẽn koffi sẽmar tẽrbar takhk.
 contribution-misreadings-example-7-explanation = [‘a’ dẽ asẽl nivishtk nast]
 contribution-misreadings-example-8-title = Dhus tizig̃hẽ mes̃h shekhstẽ.
 contribution-misreadings-example-8-explanation = [mẽwodi yi sokht nast]
