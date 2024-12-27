@@ -49,6 +49,7 @@ about-nav-playbook = اون جان کتہ ٹل بون
 ## What is a language
 
 about-playbook-what-is-language = کامن وایس رل کا ں جیب این
+about-playbook-what-is-language-content-3 = خینگ جی۔ گرامر می اک دی دا باڑ دی چھلا اشین
 
 ## How do I add a language
 
@@ -56,6 +57,9 @@ about-playbook-how-add-language = مہن کتھاجیب  میلام
 about-playbook-how-add-language-translating-heading = ا سایٹ ترجمہ
 about-playbook-how-add-language-translating-content-1 = پنٹون استعمال تال کیر گایڈ نالا
 about-playbook-how-add-language-collecting-sentences-heading = جولال سمٹیل
+about-playbook-how-add-language-collecting-sentences-content-1 = جملا استمالکیر اسے گایڈ استمال تہ۔۔۔۔۔۔۔۔۔
+about-playbook-how-add-language-collecting-sentences-content-2 = جملا سمٹیل رل دی پا نالا
+about-playbook-how-add-language-collecting-sentences-content-3 = سایٹ لوکلایزیشن کتھ کار تھون
 
 ## How does localization work
 
