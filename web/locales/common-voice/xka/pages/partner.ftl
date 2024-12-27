@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = ملگرستیا
+partnerships-header-text = کامن وایس بال سگار نہ۔بہ رس اپان نہ تیبان۔ تو اساں سں ملگر بون ثے بہ خوش
 partnerships-get-in-touch = رابط رݭ۔
 partnerships-become-a-partner = کامن وائس ملگر بھ
 partnerships-community-header = درام اؘ پو سولہ سوسائٹی
