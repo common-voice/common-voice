@@ -10,7 +10,7 @@ request-language-form-info =
 request-language-form-info-explanation = جتنو تھہارے تے ہو سکے زبان کا بارہ  اتنی معلومات شامل کرو۔یاہ مشتمل ہووے گی:
 request-language-form-info-explanation-list-1 = تھہاری زبان کو ناں
 request-language-form-info-explanation-list-2 = <isoCodeLink> آئی ایس او کود</isoCodeLink> جے کدے تمنا پتو ہے
-request-language-form-info-explanation-list-3 = کسے ویب سائٹ کو لنک جیہڑو زبان کا بارہ ما مزید سمجھن ما مہاری مدد کرے
+request-language-form-info-explanation-list-3 = کسے ویب سائٹ نال جوڑو جیہڑو زبان کا بارہ ما مزید سمجھن ما مہاری مدد کرے
 request-language-google-recaptcha-required = جے کدے تم جاری رکھنو چاہو تے ری کیپچا کی ضرورت ہووے گی۔
 request-language-google-recaptcha-error = ری کیپچا نال کوئی مسلو ہو گیو ہے۔ بھی کوشش کرو
 # Success page
