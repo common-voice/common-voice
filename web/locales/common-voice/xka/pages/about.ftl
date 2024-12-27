@@ -81,6 +81,9 @@ about-playbook-how-add-sentences-content-1 = مہ تی ران اواز کتھ ر
 ## How to record quality
 
 about-playbook-how-record-quality = ران  وای کلپ کتھ ریکارڈ تیبام
+about-playbook-how-record-content-1 = تانی اواز دا جولا۔تو کا ں جولون تے بہ ان خوشان۔تی لہجہ ات بیدہ۔۔۔۔تی عام کاں اواز،تے لہجہ تے انداز این اسے اتونشجین
+about-playbook-how-record-content-2 = باڑ  آؤؤ دا اپان رش۔تی بجیل سگار اشہتہ
+about-playbook-how-record-content-3 = اوں  جولال ران سہ نال۔۔۔نہ گیبی درہ، ۔۔ا ٹکل پا نہ بدل تے نہ ای کمہ
 
 ## How to grow language
 
