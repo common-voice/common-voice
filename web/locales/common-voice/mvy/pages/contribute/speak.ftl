@@ -65,9 +65,9 @@ read-sentences = جُملی پڑہ
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = جُملے پڑے سوالوں جواب دے۔
+speak-contribute-menu-tooltip = جُملی پڑہ، سوالہ واں جواب دے۔
 read-sentences-menu-item-tooltip = تئیں زب مہ تاں اواز مہ جُملی پڑے ٹیپ کرہ۔
-answer-questions-menu-item-tooltip = تئیں زب مہ سوالوں جواب دیہانٚس تاں اواز ٹیپ کرہ۔
+answer-questions-menu-item-tooltip = تئیں زب/ژِبہ مہ سوالواں جواب دیہانٚس تاں اواز ٹیپ کرہ
 
 ## MENU ITEM ARIA LABELS
 

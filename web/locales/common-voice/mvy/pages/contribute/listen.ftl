@@ -11,11 +11,11 @@ listen-abort-title = کٹرَو صحیح  کرے تصدیق کرئیں عمل ب
 listen-abort-cancel = صحیح کرے تصدیق کرئیں عمل جاری رڇھہ
 listen-abort-confirm = صحیح کرے تصدیق کرئیں عمل بئیرا
 # Menu item
-validate-readings = پڑؤں صحیح کرے تصدیق کرہ
+validate-readings = پڑؤں صحیح تُھو کرے تصدیق کرہ
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = پڑؤں صحیح  کرے تصدیق کرہ، نقلوں تل نظر ثانی کرہ۔
+listen-contribute-menu-tooltip = پڑؤں صحیح تُھو کرے تصدیق کرہ، نقلوں تل/لا نظر ثانی کرہ۔
 validate-readings-menu-item-tooltip = تئیں زب مہ استعمال کرئیں والوں ریکارڈ کرئیل کام صحیح کرے تصدیق کرہ۔
 review-transcriptions-menu-item-tooltip = تئیں زب مہ استعمال کرئیں والوں جمع کرئیل نقلوں تل نظر ثانی کرہ۔
 
