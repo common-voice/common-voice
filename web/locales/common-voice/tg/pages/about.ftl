@@ -52,6 +52,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкуни�
 
 about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 about-playbook-how-localize-content-1 = Тарҷумаи сомонаи «Common Voice» дар «<strong>Pontoon</strong>» сурат мегирад.
+about-playbook-how-localize-content-4 = Сомона барои оғози кор омода мешавад, вақте ки ҳаҷми тарҷумаи он ба 75% дарсад мерасад.
 about-playbook-how-localize-content-5 = Барои кумак видеои шарҳдиҳандаи моро бинед
 
 ## How to add sentences
