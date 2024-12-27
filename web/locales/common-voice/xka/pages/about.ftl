@@ -38,6 +38,12 @@ about-clip-graveyard-text = کلپ گورستان می ار اواز آݭون ا
 about-get-involved = مہ پا  ٹل بیل
 about-get-involved-text-2 = مہ کتہ ٹچ بوم
 about-stay-in-touch-button = دسخط
+about-nav-why-common-voice = گانٹھ
+about-nav-how-it-works = کتھ
+about-nav-partners = ملگر
+about-nav-get-involved = ٹل بہ
+about-nav-how-it-works-2 = کامن وایس کٹھ ترمون
+about-nav-playbook = اون جان کتہ ٹل بون
 
 ## Community Playbook Content
 ## What is a language
