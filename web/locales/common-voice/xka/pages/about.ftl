@@ -22,6 +22,7 @@ about-dataset-release-title = ڈیٹا بیسریلیز
 about-dataset-release-subtitle = بہ ھرہترہ ماھ رل ریلیز ڈیٹاسیٹ ریلیز تان
 about-subscribe-text = کامن وایس سہ ملی بیشونہ
 about-speak = من
+about-speak-text = ملگر۔۔۔وایس کلپ داگیل جولال ام تہ نیلی ریکارڈ تھا
 about-listen-queue = بوج
 about-listen-queue-text = وایسں کلپس سبمشن کویو می لنگال سو بجیل کیر ترون
 about-listen = بوج
