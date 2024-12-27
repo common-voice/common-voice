@@ -61,7 +61,7 @@ create-profile-button = پروفائیل سندہ
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی نہالئیں نخ
 # menu item
-read-sentences = جُملی پڑھہ
+read-sentences = جُملی پڑہ
 
 ## MENU ITEM TOOLTIPS
 
