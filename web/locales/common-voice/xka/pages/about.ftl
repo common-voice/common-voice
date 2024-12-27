@@ -42,6 +42,7 @@ about-get-involved-text-2 = مہ کتہ ٹچ بوم
 about-stay-in-touch = مہ کتھ اپان میلام
 about-stay-in-touch-button = دسخط
 about-stay-in-touch-text-1 = کامن وایس رل کمپین۔واقعات تے میلال ڈیزاین فیچر جانیل کیراسے ای میلنگ لسٹ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔   رل دسخط تھہ
+about-stay-in-touch-text-2 = تس میزلا جبوں داوال می دی ام ملاب بیبان۔بہ کیرا ٹایپکل کنورسیشن کیر تیراگیل ۔۔پان سہ میملیل تھ۔یا شر مشورا کیر۔
 about-nav-why-common-voice = گانٹھ
 about-nav-how-it-works = کتھ
 about-nav-partners = ملگر
