@@ -52,6 +52,9 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مَقصَت سݵٹ اِرݳ
 cant-decide = فݵصلہ رِݵ نݵ شکݵگُچھݸتݺ؟
+how-many-per-day = بُݸت شݳ! گُڎݸ کتݵئ کِلِپݸݣ؟
+how-many-a-week = بُݸت شݳ! ہَفتہ شُݸ کتݵئ کِلِپݸݣ؟
+which-goal-type = چغݳ رِنݳئی رئی رݺ چھݳئݺ، پݸرجِنݳ یݳ دݸئݺ؟
 
 ## Goals
 
