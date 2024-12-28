@@ -84,6 +84,7 @@ about-playbook-how-localize-content-5 = مدد گینیل کیر اسے ویڈی
 about-playbook-how-add-sentences = اوں جولال کتھ میلام
 about-playbook-how-add-sentences-content-1 = مہ تی ران اواز کتھ ریکارڈ تھوم
 about-playbook-how-add-sentences-content-2 = کامن وایس  اعوامی ڈیٹآسیٹ۔سوا دنئ رضاکار  تے مددگار رس می ڈیزان۔کاں خلق اوازااپلیکیشن ترال شوخآن  تہ،تن اوں ڈیٹا سٹ استعمال تیبان۔آج لپار غلبہ اواز ڈیٹا سیٹ
+about-playbook-how-add-sentences-content-3 = تانی اواز دا جولا۔تو کا ں جولون تے بہ ان خوشان۔تی لہجہ ات بیدہ۔۔۔۔تی عام کاں اواز،تے لہجہ
 
 ## How to record quality
 
@@ -91,6 +92,7 @@ about-playbook-how-record-quality = ران  وای کلپ کتھ ریکارڈ ت
 about-playbook-how-record-content-1 = تانی اواز دا جولا۔تو کا ں جولون تے بہ ان خوشان۔تی لہجہ ات بیدہ۔۔۔۔تی عام کاں اواز،تے لہجہ تے انداز این اسے اتونشجین
 about-playbook-how-record-content-2 = باڑ  آؤؤ دا اپان رش۔تی بجیل سگار اشہتہ
 about-playbook-how-record-content-3 = اوں  جولال ران سہ نال۔۔۔نہ گیبی درہ، ۔۔ا ٹکل پا نہ بدل تے نہ ای کمہ
+about-playbook-how-record-content-4 = تانی اواز دا جولا۔تو کا ں جولون تے بہ ان خوشان۔تی لہجہ ات بیدہ۔۔۔۔تی عام کاں اواز،تے لہجہ
 
 ## How to grow language
 
