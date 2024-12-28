@@ -399,6 +399,26 @@ const VARIANTS: Variant[] = [
     variant_name: 'Makurawe (Guarijío del río)',
     variant_token: 'var-delrio',
   },
+  {
+    locale_name: 'sva',
+    variant_name: 'ლჷჟა̄ბუ',
+    variant_token: 'sva-upperbal',
+  },
+  {
+    locale_name: 'sva',
+    variant_name: 'ლუჩვაბურუ',
+    variant_token: 'sva-lowerbal',
+  },
+  {
+    locale_name: 'sva',
+    variant_name: 'ლჷლა̄შხუ',
+    variant_token: 'sva-lashkh',
+  },
+  {
+    locale_name: 'sva',
+    variant_name: 'ლჷლტეხუ',
+    variant_token: 'sva-lentekh',
+  },
 ]
 
 type Locale = {
