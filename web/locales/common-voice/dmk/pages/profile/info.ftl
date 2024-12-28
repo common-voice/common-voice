@@ -63,3 +63,4 @@ email-subscriptions = اِݵ مݵل سبسکِرِپشَنز
 download-profile = مݺ ڈݵٹݳ ڈݳݸنلݸڈ اݵر
 contribution-experience = حِصَہ بݳنݳئی تَجِربہ / کنٹرݵبݵݸشَن اݵکسپݵرݵَنس
 skip-submission-feedback = فݵڈبݵک بِجݳلِنݳ فَت اݵر
+skip-submission-description = کبݺ حِصَہ دݳرݵکُݽ اِرݸ جݳگݵ، تݸ 'Submit' ٹس ذُق اِرِنس مݸ ݼاسݵ رݳئݵ کݸٹ اِرِنݳئی کݸم فَت اِرݸ جݳگݳ. حصَہ دݳرݵکُݽ / شرݳکَت ہگݸ 5 رݵکݳڈݸݣ ݵݳ تصدݵقݵڎ کݸٹ جݴرݵ مُچݵگݵ.
