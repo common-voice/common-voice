@@ -62,13 +62,17 @@ data-download-yes = آم
 data-download-deny = نا
 data-download-license = بوج
 data-explanatory-text = مالومات با گڈیٹا سیٹ ھر انٹری می انوج جولال  اشیں۔دینگ دینگ می می عمر،جنس،،لہجہ باڑمدد تھینفلحال اسے  برہ می باڑ جولال اشیں۔سو جولال س  کے مال انجن م میڈیٹاسیٹ می چھن اوں جیب این۔۔۔۔۔۔ بہ دی دی پا ٹل ثھان۔۔۔۔۔تو اسے پیج ۔۔۔۔۔۔۔ نال
+data-get-started = تقریر جینی شرو تھا۔
 data-other-title = دی وئس ڈیٹاسئٹ
 data-other-goto = بون۔
 data-other-download = ڈیٹا ڈاؤن لوڈ تھ۔
 data-bundle-button = ڈاون لوڈ ڈیٹا سئٹ بنیز
+data-bundle-description = عام صوتی ڈیٹا دا علاوہ دی سوا صوتی ڈیٹا سیٹ رل
 release-version = ورجن۔ورجن
 dataset-date = دوس
 license = بوج
 license-mixed = گاڈ واڈ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = اسی صوتی ڈیٹا سیٹ ڈاؤن لوڈ تھ۔
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = عام صوتی ڈیٹا تھ پݭیل کیر ڈاؤن لوڈ اؘ اختیار
