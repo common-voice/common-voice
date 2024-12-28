@@ -69,6 +69,13 @@ n-clips-pluralized =
 help-share-goal = مزݵد چھَتݳ گݸشݵنݳشُݸ امݳ مَدَد اِرݳ، تُمݳ مَقصَت شݵر اِرݳ
 confirm-goal = کنفرم گݸل
 goal-interval-weekly = ہفتہ وݳر
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $count } تُمݳ گُڎݸ کِلِپݵئ مقصَت شݵر اِرݳ { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = تُمݳ{ $count } ہفتہ وݳر کِلِپݵئ مقصَت{ $type } شݵر اِرݳ
+share-goal-type-speak = بݳشِنݳ / چَغݳ رݳ
+share-goal-type-listen = پݸرجِنݳ
+share-goal-type-both = بݳشِنݳ نݸ پݸرجِنݳ
 
 ## Goals
 
