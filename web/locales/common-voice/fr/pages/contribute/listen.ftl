@@ -18,7 +18,8 @@ validate-readings = Valider les lectures
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Valider des lectures, vérifier des transcriptions
-review-transcriptions-menu-item-tooltip = Vérifier les transcriptions soumises par les utilisateurs et utilisatrices dans votre langue
+validate-readings-menu-item-tooltip = Valider les lectures enregistrées par les utilisateurs·trices dans votre langue
+review-transcriptions-menu-item-tooltip = Vérifier les transcriptions soumises par les utilisateurs·trices dans votre langue
 
 ## MENU ITEM ARIA LABELS
 
