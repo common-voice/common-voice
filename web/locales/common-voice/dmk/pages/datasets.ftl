@@ -23,3 +23,15 @@ email-to-download = ڈݳݸنلݸڈ اِرِنَشُݸ اݵ مݵل بݳ
 why-email = <b>اِݵ مݵل کِجݺ؟ </b>امݵچُݸ آنݵ وقتَنݳ ڈݵٹݳ سݵٹَنݳ تبدݵلݵݣݺ بݳرہ نݳ تُمݵڎکݸٹ رݳبِطَہ اِرِنݳئی ضرݸلَت ہݸئی شکݵگݵ چھݵ، نݸ اِݵ مݵلݳ امݵچُݸ رݳبطَئی اݵک زرݵعݳک دݵگݵ چھݵ.
 size-gigabyte = GB
 size-megabyte = MB
+community-playbook = کمݵݸنٹݵ پِلݵبُک
+data-other-ted-name = TED-LIUM Corpus
+more = مزݵد / بُݸت
+close = بَن
+download = ڈݳݸنلݸڈ
+dataset-metadata-sex = جِنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عُمر
+donate-modal-message = تُمݳ ڈݵٹݳ سݵٹ ڈݳݸنلݸڈ ہݸگݳ چھݳ
+dataset-donate-modal-heading = تُݸ دݽݳرݺ چھݳئݺ…
+data-download-yes = اَوݳ
+data-download-deny = نِکݶ
