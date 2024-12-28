@@ -51,6 +51,7 @@ profile-create-success = کݳمݵݳبݵ، پرݸفݳئل دُلݸنݵ
 profile-close = بَن اݵر
 profile-explanation = اَپَنݵئ ہَگݵ خݵݽکُݽ پرݸفݳئلَس کݸٹ ٹرݵک اِرݳ نݸ امݳ چھتݵئ ڈݵٹݳ زیݳدہ ٹھݵک اِرِنَنݳ مدد اِرݳ.
 thanks-for-account = تݺ اݵکݳݸنٹݵئ تصدݵق اِرِنݳئی جُݸ، ݵݳ مݸُ اَݸ تݺ پرݸفݳئل دُرݳلَم چھݸم.
+why-demographic = اݽݵئ کِجݺ اہم چھݳ؟
 accept-privacy-title = پرݳئوݵسݵ پݳلݵسِݵ
 login-identity = لݳگ اِن آئڈݵنٹݵٹݵ
 login = لݳگ اِن
