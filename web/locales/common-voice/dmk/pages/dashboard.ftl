@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = تُمݳ بݳݽ
+your-languages = تُمݳ بݳݽݸݣ
 toward-next-goal = ہَگݸ مقصتَس دِرِݵ
 goal-reached = مقصَتَس دِݽقلتݸت
 clips-you-recorded = تُمݺ رݵکاٹ اِرݸت کِلِپݸݣ
