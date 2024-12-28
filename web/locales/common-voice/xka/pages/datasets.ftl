@@ -41,14 +41,22 @@ resource-deepspeech-info = بِسپیچ پویانیلہ اپلیکشن  ترا�
 resource-coqui-info = ۔۔۔۔۔کوکوی۔۔۔۔۔۔۔۔۔سپیچ ٹکنالوجی کیر داگال این۔تنی پراجکٹام می  س  ٹ ٹ تے ٹ  ٹ  س انجن آشیں
 community-playbook = درام پلے بک
 resource-playbook-info = ۔۔۔۔۔۔۔۔۔۔بیلڑا۔۔۔۔۔۔۔فایدہ تیلیل پان۔۔۔۔۔۔۔۔کامن وایس سہ۔لوکلایزیشن دا گشی ڈیٹاسیٹ استعمال ایں،دی بی ان اوں کتہ تانی° خلق ام  سہ اک بے°ی
+data-other-librispeech-description = ۔۔۔۔۔۔۔۔بیلڑا۔۔۔۔۔۔۔فایدہ تیلیل پان۔۔۔۔۔۔۔۔کامن وایس سہ۔لوکلایزیشن دا گشی ڈیٹاسیٹ استعمال ایں،دی بی ان اوں کتہ تانی° خلق ام  سہ اک بے°ی
+data-other-ted-name = کراپس
 data-other-ted-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
+data-other-voxforge-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
+data-other-tatoeba-description = شاعری تھ یا۔
+your-feedback = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
 go-discourse = شاعری تھ یا۔
+missing-language = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
 go-languages-page = جب اؘ پات تھ چا۔
 ready-to-validate = سزا باڑ تھال می مدد تھا۔
 more = دی۔
 close = بان۔
 download = ڈاون لوڈ۔
 dataset-version = ورجن۔
+sha256-checksum-copied = اس ایچ اے
+sha256-checksum-copied-error = شاعری تھ یا۔
 clipboard-not-supported = کلپ بوڈر سپوٹ نہ بل
 no-information-available = گیب معلومات نان۔
 dataset-metadata-sex = میش۔
@@ -56,7 +64,11 @@ dataset-metadata-sex = میش۔
 dataset-metadata-age = عمر
 donate-modal-message = تی ڈیٹا سیٹ ڈاون لوڈ بھون۔
 dataset-donate-modal-heading = تو گیوا جانون۔
+donate-modal-explanation-1 = ڈاؤن لوڈ ا لفظی نخہ والو طبقہ
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = کامن وایس ڈیٹا ڈاؤن لوڈ تھ
 data-download-singleword-title = ڈاؤن لوڈ ا لفظی نخہ والو طبقہ ۔
+data-download-singleword-callout-v2 = بہ آواز ا اک کولاوا تہ عوامی طور شلا ڈیٹا سیٹ تران
 data-download-button = کامن وایس ڈیٹا ڈاؤن لوڈ تھ۔
 data-download-yes = آم
 data-download-deny = نا

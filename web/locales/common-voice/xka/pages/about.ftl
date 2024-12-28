@@ -61,8 +61,10 @@ about-playbook-what-is-language-content-3 = خینگ جی۔ گرامر می اک
 ## How do I add a language
 
 about-playbook-how-add-language = مہن کتھاجیب  میلام
+about-playbook-how-add-language-content-1 = کامن وایس  اعوامی ڈیٹآسیٹ۔سوا دنئ رضاکار  تے مددگار رس می ڈیزان۔کاں خلق اوازااپلیکیشن ترال شوخآن  تہ،تن اوں ڈیٹا سٹ استعمال تیبان۔آج لپار غلبہ اواز ڈیٹا سیٹ
 about-playbook-how-add-language-translating-heading = ا سایٹ ترجمہ
 about-playbook-how-add-language-translating-content-1 = پنٹون استعمال تال کیر گایڈ نالا
+about-playbook-how-add-language-translating-content-2 = کامن وایس  اعوامی ڈیٹآسیٹ۔سوا دنئ رضاکار  تے مددگار رس می ڈیزان۔کاں خلق اوازااپلیکیشن ترال شوخآن  تہ،تن اوں ڈیٹا سٹ استعمال تیبان۔آج لپار غلبہ اواز ڈیٹا سیٹ
 about-playbook-how-add-language-collecting-sentences-heading = جولال سمٹیل
 about-playbook-how-add-language-collecting-sentences-content-1 = جملا استمالکیر اسے گایڈ استمال تہ۔۔۔۔۔۔۔۔۔
 about-playbook-how-add-language-collecting-sentences-content-2 = جملا سمٹیل رل دی پا نالا
@@ -73,6 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = سایٹ لوک
 about-playbook-how-localize = سایٹ لوکلایزیشن کتھ کار تھون
 about-playbook-how-localize-content-1 = کامن ہاوس سایٹ اے• ترجمہ  پنٹون رل یون
 about-playbook-how-localize-content-2 = اوں  ترجمہ انگریزی دا بیل پر تو دی۔۔۔۔۔۔۔۔۔۔۔۔جیب ام۔۔۔۔۔۔تجاویزنیل بون۔ پروفایل نخ رل ا ٹسار دہ۔دیر سیٹنگلن۔۔۔دیرتانی جیب میلہ۔دیرچیپر دراشوم مکھ تہ ترجماومہ  ا لسٹ آشہ۔رس تہ لوکیلز منان۔۔۔۔۔۔۔۔ترجما ا دوس  پتا سایٹ رل  پشاں
+about-playbook-how-localize-content-3 = کامن وایس  اعوامی ڈیٹآسیٹ۔سوا دنئ رضاکار  تے مددگار رس می ڈیزان۔کاں خلق اوازااپلیکیشن ترال شوخآن  تہ،تن اوں ڈیٹا سٹ استعمال تیبان۔آج لپار غلبہ اواز ڈیٹا سیٹ
 about-playbook-how-localize-content-4 = سایٹ75،،،فیصد بیل تےرو لانچ بال کیر تیار این
 about-playbook-how-localize-content-5 = مدد گینیل کیر اسے ویڈیو نال
 
@@ -80,6 +83,7 @@ about-playbook-how-localize-content-5 = مدد گینیل کیر اسے ویڈی
 
 about-playbook-how-add-sentences = اوں جولال کتھ میلام
 about-playbook-how-add-sentences-content-1 = مہ تی ران اواز کتھ ریکارڈ تھوم
+about-playbook-how-add-sentences-content-2 = کامن وایس  اعوامی ڈیٹآسیٹ۔سوا دنئ رضاکار  تے مددگار رس می ڈیزان۔کاں خلق اوازااپلیکیشن ترال شوخآن  تہ،تن اوں ڈیٹا سٹ استعمال تیبان۔آج لپار غلبہ اواز ڈیٹا سیٹ
 
 ## How to record quality
 
