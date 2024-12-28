@@ -76,6 +76,8 @@ share-n-weekly-contribution-goal = تُمݳ{ $count } ہفتہ وݳر کِلِپ
 share-goal-type-speak = بݳشِنݳ / چَغݳ رݳ
 share-goal-type-listen = پݸرجِنݳ
 share-goal-type-both = بݳشِنݳ نݸ پݸرجِنݳ
+# LINK will be replaced with the current URL
+goal-share-text = مݺ چݸک #کݳمَن وائسَس اَپَنݵئ چھݸت عطݵہ رِنݳئی اݵک ذݳتݵ ہَدفݵک درݳلِم چھݵس ــ اوݳ مسکݸٹ کݸٹ ہُݸݳ نݸ مشݵنݵڎ اݽݵئ چھِچَلُݸݳنݳنݳ مݺ مدَد اِرݳ تݳ ݼَنݺ بَندَن کݵ رِݵ بݳشݵݣݺ چھݺ{ $link }
 
 ## Goals
 
