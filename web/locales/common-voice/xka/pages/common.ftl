@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = افار
+aa = اوں ڈیٹا سئٹ چلال کیر ۔رو پانج بش جب ام درام وال ران تھا کیر ۔رس رل ا کالہ دش لاکھ ڈالر ݭاجین۔
 ab = ابخآز
 abb = بنکن
 ace = اسیہنہسی
@@ -287,5 +287,9 @@ not-available-abbreviation = این۔اے
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = اسان توسی مدد پکار این۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر ݭجین۔
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = تانی ریسرج کیر سی وی اسمعال تھال۔
 localization-select =
     .label = جیب لہکلایزیشن جوݭ
