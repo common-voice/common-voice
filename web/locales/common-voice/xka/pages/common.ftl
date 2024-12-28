@@ -264,6 +264,7 @@ privacy = پرایویسی۔۔۔۔۔اپانتہ۔۔۔۔۔پلاگیال
 terms = شرطونی
 cookies = کوکییز
 faq = ف۔آ۔ق
+content-license-text = رابطہ تخلیقی العام لائسنس کے چیر اشو ۔
 share-title = ن/اے
 share-text = ہیلو    مشینانو ام تہ پشہ،سبطینی اۡم  خلق کتھ  جولاں۔تانی تراٹ ۔۔۔۔۔۔۔۔۔۔رل میلہ
 link-copied = لنک نقل بیل
@@ -271,14 +272,18 @@ back-top = ٹاپ تال کیر پت دا
 logout = پتبہ دہ ثا بال کیر
 donate = امداد
 stayintouch = بہ لوظتھان اوںتیمعلومات رݭے۔دی  با من
+privacy-info = بہ اوں لوز تھان اؘ معلومات باڑ اختیات سہ اولہ تھان۔
 return-to-cv = کامن وایس پر نو ٹ
 email-input =
     .label = ای میل
 loading = لوڈ تال۔۔اوکالیل
 email-opt-in-info = مہ ٹھ ای میل بال شات تھےمہ خوشالان مٹ می حدف  پشون تے
 email-opt-in-info-title = کامن وایس کاں میلنگ لسٹ   ااین تہ      تس سہٹل بہ
+not-available-abbreviation = این۔اے
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = اسان توسی مدد پکار این۔
 localization-select =
     .label = جیب لہکلایزیشن جوݭ
