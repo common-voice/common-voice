@@ -16,8 +16,15 @@ prompt-bubble-title = <mark>اݵکڈم</mark>
 prompt-bubble-subtitle = امݺ تمݵڎ اݵکڈم دِکھِلݳم یݳ سوݳل
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جݸݳپ</mark>
+respond-bubble-subtitle = تݸ کتݵیݵک قدرتݵ طݸرَس اݽݵیَشُݸ جوݳپ دݵنیتݳ یݳ فَر اِرِݵ منݵ تݳ شکݺ چھݳئی
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>چھتݵئ ترجمہ</mark>
+transcribe-bubble-subtitle = پݸجݵنݵ کلِپَنݳ تُݸ کݵسݵک پݸردائی چھݳتݳ گِرمِنݳئی
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>چݵک</mark>
+check-bubble-subtitle = تُݸ چݵک اݵر آیݳ چھتݵئ ترجمہ پݸرجِنݳ ہݵیَس کݸٹ بَبݸر آگݳ چھݳ
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ڈݵٹݳ</mark>
 contact-us-email = اݵ مݵل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = تُمݳ اِݵ مݵل بݳ
 signup-button-value = مݺ اݵ مݵلَس لنک بِجݳل
