@@ -97,6 +97,8 @@ about-playbook-how-record-content-4 = تانی اواز دا جولا۔تو کا
 ## How to grow language
 
 about-playbook-how-grow-language = کامن ویس رل بے کتھ ا جیب grow تیبان
+about-playbook-how-grow-language-content-1 = قسی قسیم خلق ام تہ موقع دال اوں تن کاامن وایس سہ مدد تان اوں جولال ا  سبوتاوں ڈ یٹا سیٹ کتیک خلق آم خذمت تیبون تے تون۔۔۔اس پانترال کاں تیس استمال تیبان تہ
+about-playbook-how-grow-language-content-2 = واقعات
 
 ## How to validate
 
