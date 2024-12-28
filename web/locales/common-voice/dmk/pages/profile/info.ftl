@@ -30,3 +30,5 @@ profile-form-add-accent = نَمݳ حَسبِ ضرولَت لہجَہ / بݳشݵ
 profile-form-submit-save = محفݸظ اِرݳ
 profile-form-submit-saved = محفݸظ ہݸݵݳ
 male_masculine = مَنِشکݳنݳ/مَنِشفُرݸ
+female_feminine = جݸئکݳنݳ/جݸئی گݸل
+intersex = اِنٹرسݵکس
