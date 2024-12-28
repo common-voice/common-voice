@@ -9,5 +9,6 @@ partnerships-foundations-header = بنیاد
 partnerships-governments-header = سرکار
 partnerships-academia-header = یونیورسٹیوں می سبقی تہ محقق
 partnerships-small-business-header = لوٹک روزگارمی ائی ٹی تہ اسٹاٹ پا این
+partnerships-our-partners = اسی ملگر
 # menu item
 partners = ملگر
