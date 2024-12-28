@@ -27,3 +27,4 @@ download-request-modal-title = لنک وال
 download-request-modal-description = توسے زپ فائل ڈاون لوڈ تھال کیر لنک این۔
 download-request-link-text = زڈ آئ پی
 download-request-metadata-link = جولال ا ٹکیل
+download-request-link-single = تس تانی جوݭگیل ڈاون لوڈ فائل ابا دا دی باگ تھ ݭیبان۔
