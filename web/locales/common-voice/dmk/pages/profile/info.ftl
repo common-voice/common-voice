@@ -32,3 +32,9 @@ profile-form-submit-saved = محفݸظ ہݸݵݳ
 male_masculine = مَنِشکݳنݳ/مَنِشفُرݸ
 female_feminine = جݸئکݳنݳ/جݸئی گݸل
 intersex = اِنٹرسݵکس
+transgender = خُسرَہ
+non-binary = غݵر ـ بݳئنرݵ
+do_not_wish_to_say = مُنِنݳئی رݳئݺ نݵ رݺ چھݳݺ
+# Gender
+other = اݸرݳ
+why-profile-title = پرݸفݳئل کِجݺ؟
