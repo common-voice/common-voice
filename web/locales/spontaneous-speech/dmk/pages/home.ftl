@@ -29,6 +29,7 @@ data-bubble-subtitle = امݺ وقفہ وقفَسمݸ ڈݵٹݳ سݵٹ جݳرݵ �
 contact-us = امݵڎکݸٹ رابِطہ رݳ
 contact-us-title = کݵچݸق تُمݺ اݽݵئ پرݳجݵکٹَنݳ کݸٹ ہݸئنݳئی ݵݳ امݵڎکݸٹ شراکت دݳرݵ نݳ دِلچسپݵ تھݳگُݸچھݸتݺ؟
 contact-us-email = اݵ مݵل: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = کݵچݸق تُمݺ ہَگݸسمݸ امݳ بݵٹݳ سݵٹ ٹݵسٹِݣ گرݸپَنݳ کݸٹ چھݸتݺ کݸنݸ کݳمَن وݳئسݵئ اسپݸنٹݵنِݵَس اسپݵچ پرݳجݵکٹَشُݸ چھݳ؟
 signup-input-placeholder = تُمݳ اِݵ مݵل بݳ
 signup-button-value = مݺ اݵ مݵلَس لنک بِجݳل
 footer-text-privacy = <privacyLink>پرݳئوݵسݵ</privacyLink>
