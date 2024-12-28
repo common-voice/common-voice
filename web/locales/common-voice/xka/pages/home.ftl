@@ -66,11 +66,15 @@ username-email-not-demographic = چاپ باگیاشے ام سہ ثی یوزر  
 ## Landing
 
 welcome-staff = ملگر۔۔۔۔۔۔  بڑ بڑ۔ یا
+help-contribute = کامن وایس ا پ ثانی جولال لاڑیل دہ تے پروفاییل ترا تواوپن سورس ڈیٹا سیٹ ترال مے  با ڑ مدد تی ون
+login-company = ۔۔۔۔۔۔ای میل دہ ساین ان بہ
+profile-not-required = پروفایل ترال مدد دون پر۔ لازمی نہ۔۔۔۔۔تو لو گانٹھہ تے چیپر نال
 read-more-about = ساسے پیج دی پا باڑ
 
 ## NAV ITEMS
 
 answer-questions = سوالونی ام جواب دہ
+review-transcriptions = ترجمہ دیراں نال
 add-questions = سوالونی میلہ
 transcribe-audio = اڈیو نقل تہ
 press-and-stories = چھاپتھال تے قیصا
