@@ -279,6 +279,8 @@ email-input =
 loading = لوڈ تال۔۔اوکالیل
 email-opt-in-info = مہ ٹھ ای میل بال شات تھےمہ خوشالان مٹ می حدف  پشون تے
 email-opt-in-info-title = کامن وایس کاں میلنگ لسٹ   ااین تہ      تس سہٹل بہ
+email-opt-in-info-sub-with-challenge = ای میل گینا لہا چیلنج تہ گول یاد تھا پروگریس اپ ڈیٹس اور شریک آواز اؘ  بارے میں نیوز حط
+indicates-required = تار سہ نشان زد فیلڈ ✳️ پکار این۔
 not-available-abbreviation = این۔اے
 
 ## Donate banner
