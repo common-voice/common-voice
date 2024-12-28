@@ -7,3 +7,6 @@ error-something-went-wrong = گجین گوا کھچ بیل۔۔۔خفہ نہ بہ
 error-clip-upload = اوں کلپ اوکالیلجیجما چھور بون۔ تو پا بیشی ݭج
 error-clip-upload-server = اوں کلپ اوکالیل سرور رلہ گیرون،ا ساعت بتا دیرا ڈیز
 error-title-404 = اس تی کیر آر پات نہ لاد
+error-title-503 = بہ غیر متوقع بند وقت اؘ تجربہ تھان۔
+error-content-503 = سائڈ شردہ نوٹہ۔
+error-code = کیچھ
