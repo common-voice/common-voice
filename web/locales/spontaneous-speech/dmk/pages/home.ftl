@@ -25,6 +25,9 @@ check-bubble-title = <mark>چݵک</mark>
 check-bubble-subtitle = تُݸ چݵک اݵر آیݳ چھتݵئ ترجمہ پݸرجِنݳ ہݵیَس کݸٹ بَبݸر آگݳ چھݳ
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ڈݵٹݳ</mark>
+data-bubble-subtitle = امݺ وقفہ وقفَسمݸ ڈݵٹݳ سݵٹ جݳرݵ رَم چھݸم
+contact-us = امݵڎکݸٹ رابِطہ رݳ
+contact-us-title = کݵچݸق تُمݺ اݽݵئ پرݳجݵکٹَنݳ کݸٹ ہݸئنݳئی ݵݳ امݵڎکݸٹ شراکت دݳرݵ نݳ دِلچسپݵ تھݳگُݸچھݸتݺ؟
 contact-us-email = اݵ مݵل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = تُمݳ اِݵ مݵل بݳ
 signup-button-value = مݺ اݵ مݵلَس لنک بِجݳل
