@@ -10,6 +10,7 @@ partnerships-governments-header = سرکار
 partnerships-academia-header = یونیورسٹیوں می سبقی تہ محقق
 partnerships-small-business-header = لوٹک روزگارمی ائی ٹی تہ اسٹاٹ پا این
 partnerships-corporates-header = گن ستاہ دے کارپوریٹ تہ پلیٹ فارم کمپنیاں
+partnerships-corporates-description = تس ڈیٹا سئٹ بارہ می دی پا جولال تھان تہ پلٹ فام گینال کیر مصنودی می شریک بھا۔یا مدد کیر چھل نالا۔
 partnerships-our-partners = اسی ملگر
 # menu item
 partners = ملگر
