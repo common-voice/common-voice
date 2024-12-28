@@ -19,3 +19,4 @@ download-requests-info = کیرا تو ریکارڈںنگز،بہ تنا اک  �
 download-request-button = ڈاون لوڈ۔
 download-request-title = ترال
 download-request-description = ...................تراټ ام کټر
+download-request-archive-single = اکون zip فائل نامل والا۔
