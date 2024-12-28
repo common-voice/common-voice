@@ -10,6 +10,12 @@ why-card-1-text = اݽݵئ <mark>قدرتݵ چغݳ الݸݵݺ سِݵݳق ݸ سَ
 why-card-2-text = بݳݽݵݣݺ حقݵقتݸݣ کݵ ہݸئی بݳݽݵݣݺ امتزݳج نݸ <mark>کݸڈݵئ بَدلݵ </mark> کݳرݸ شݳ مَدَد دݵنݳ.
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = اشݵݣݳ بݳݽݵݣݺ کݳرݸ شݳ مَدَد کݸنݵݣݺ کݳرݸ <mark>گِرمِنݳݵݳ مݸݳد</mark>( کݵ زائلَس سمݳجݵ لہجݳݣݳ / بݳشݵنݳئی اندݳز، مقتَلِف بݳݽݵݣݺ اندݳز، ݵݳ تݳرݵخݵ طݸرَس رَسم الخط نݳ بݳݽݸݣ) دَستݵݳب نݳ.
+how-spontaneous-speech-works = بݺ سݳختہ تقریرݳ کݵ رِی کݸم ارݵگݵ چھݵ
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>اݵکڈم</mark>
+prompt-bubble-subtitle = امݺ تمݵڎ اݵکڈم دِکھِلݳم یݳ سوݳل
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جݸݳپ</mark>
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>چݵک</mark>
 contact-us-email = اݵ مݵل: <emailFragment>commonvoice@mozilla.com</emailFragment>
