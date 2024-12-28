@@ -49,8 +49,10 @@ email-subscription-title-new = کامن وایس اے  خطونی ام،ریما
 benefits = فایرا
 rich-data = نال کت تی پراگرس سوا دنای خلق ام سہ مقابلہ م ان
 improve-audio = نینار تہ کت تی پراگرس دنای خلق سہ مقابل م ان
+keep-track = اڈذس جیب ام می تانی تاگیل  اے ریکاڈ رش
 compare-progress = تانی پراگرس دی نال۔،ذاتی تے پراجکٹ  مقصد ضد سہ
 view-goals = تاخوشیلیسہ اسے ایمیل  لسٹ  سہ    پراجکٹ ںآرا می نم نم معلومات کیر  ٹل بہ
+join-newsletter = پراجیکٹ بارا م نوم نولال دا اپان پو تال کیر اسی ای میل لشٹ سہ ٹل  ہ
 
 ## What's public
 
@@ -59,9 +61,11 @@ email-not-public = بہ تی ای میل پبلک نہ تے
 recordings-and-locale-public = کاں جیب تے ریکارڈںگ  تی لاڑیل  ،بہ تس عوامی تھیئ
 username-optin-public = تیخوش تانی نام یوزر  پلونہ کہ بشون
 demographic-deidentified-clarity-2 = تی نامہ تے ای میلہ شایع باگال ڈیٹا سہ گیبی لیݨ نہ آشہ
+username-email-not-demographic = چاپ باگیاشے ام سہ ثی یوزر  یم تے ای میل نہ اشہ
 
 ## Landing
 
+welcome-staff = ملگر۔۔۔۔۔۔  بڑ بڑ۔ یا
 read-more-about = ساسے پیج دی پا باڑ
 
 ## NAV ITEMS
