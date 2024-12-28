@@ -30,6 +30,7 @@ contact-us = امݵڎکݸٹ رابِطہ رݳ
 contact-us-title = کݵچݸق تُمݺ اݽݵئ پرݳجݵکٹَنݳ کݸٹ ہݸئنݳئی ݵݳ امݵڎکݸٹ شراکت دݳرݵ نݳ دِلچسپݵ تھݳگُݸچھݸتݺ؟
 contact-us-email = اݵ مݵل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = کݵچݸق تُمݺ ہَگݸسمݸ امݳ بݵٹݳ سݵٹ ٹݵسٹِݣ گرݸپَنݳ کݸٹ چھݸتݺ کݸنݸ کݳمَن وݳئسݵئ اسپݸنٹݵنِݵَس اسپݵچ پرݳجݵکٹَشُݸ چھݳ؟
+signup-terms = "مݺ اݵ مݵلَس لنک بِجݳلنَس" ذُق اِرِݵ تُمݺ امݳ <termsLink>خدمݵتݵݣݺ شرتݸݣ</termsLink> نݸ <privacyLink>پرݳئݸݵسݵ پݳلݵسݵس</privacyLink> کݸٹ مُتَفِق چھݸت نݸ اݽݵئ چَغݳس رݳضݵ چھݸت تݳ مݸزݵلَن تمݵچُݸ کݳمَن وݳئسݵئ اسپَنٹݵنݵَس اسپݵچ پرݳجݵکٹݵئ بݵٹݳ ٹݵسٹِݣݳنݳ حِصَہ لݵنݳئی طرݵقہ کݳرݵئ معلݸمݳتݸݣ اݵ مݵلݵئ زَرݵعَس بِجݳلݵگݳ.
 signup-input-placeholder = تُمݳ اِݵ مݵل بݳ
 signup-button-value = مݺ اݵ مݵلَس لنک بِجݳل
 footer-text-privacy = <privacyLink>پرݳئوݵسݵ</privacyLink>
