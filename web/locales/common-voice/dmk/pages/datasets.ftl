@@ -3,6 +3,9 @@
 datasets-heading = ڈݵٹݳسݵٹݴ
 datasets-headline = امݺ اݵک کھُلݳ زرݵعہ کِس، بݸت بݳݽݵݣݺ ڈݵٹݳ سݵٹ دُرݳلم چھݸم    کݸنݸنݳ چھَتݵݣݺ زخݵرہ کݸٹ ہݸگݳ کݸنݸس کݸنݸتݳ بندݳکِن تقرݵرَسمݸ تعلُق تھݳݣݺ اݵپلݵکݵشنݵچُݸ تربݵَت دݵنݳئی کݳرݸ اِستِمݳل ݳِرݵ شکݵگݳ.
 language = بݳݽ
+download-dataset-header = ڈݵٹݳ سݵٹ ڈݳݸن لݸڈ اِرݳ
 # File size in gigabytes
 size = سائز
+validated-hr-total = تصدݵق اِرݺ Hr. ٹݸٹَل
+overall-hr-total = گَٹِنݸ Hr. ٹݸٹَل
 cv-license = لائسنس
