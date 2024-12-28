@@ -78,6 +78,9 @@ share-goal-type-listen = پݸرجِنݳ
 share-goal-type-both = بݳشِنݳ نݸ پݸرجِنݳ
 # LINK will be replaced with the current URL
 goal-share-text = مݺ چݸک #کݳمَن وائسَس اَپَنݵئ چھݸت عطݵہ رِنݳئی اݵک ذݳتݵ ہَدفݵک درݳلِم چھݵس ــ اوݳ مسکݸٹ کݸٹ ہُݸݳ نݸ مشݵنݵڎ اݽݵئ چھِچَلُݸݳنݳنݳ مݺ مدَد اِرݳ تݳ ݼَنݺ بَندَن کݵ رِݵ بݳشݵݣݺ چھݺ{ $link }
+weekly-goal-created = تݺ ہفتہ ݸݳر مَقصَت تخلݵق اِرݸ گِݵݳ چھݳ
+daily-goal-created = تݺ گُڎݸ مَقصَت تخلݵق اِرݸ گِݵݳ چھݳ
+track-progress = پݵشرَفت اݽتھݳ نݸ اَپَنݵئ اعدݳد ݸ شُمݳرݵئ وَرَقݵڎ ٹرݵک اِرݳ.
 
 ## Goals
 
