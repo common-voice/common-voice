@@ -38,6 +38,7 @@ do_not_wish_to_say = جولال تہ ایر نہ بھون۔
 # Gender
 other = دی۔
 why-profile-title = پروفائل گاݨڈ ۔
+why-profile-text = تانی بارہ می گوا مولومات دای می کاں اڈیو ڈیٹا جمع تھون ۔سو تقریر می باڑ مدد تھون۔
 dashboard = ڈش بورڈ
 build-profile = پروفائل ترا
 avatar = اوتار
@@ -49,6 +50,7 @@ profile-close = بان۔
 profile-explanation = تانی کار ا ریکاڑ پروفائل شقل می رݭ ۔تے اسی وائس ڈیٹا دی پا ران بایل کیر تھیر ݭہ۔
 thanks-for-account = تانی اکاونٹ نالیل اؘ باڑ مربنی تس یا توسی اکاونٹ نالی۔
 why-demographic = گانٹھ فرق تھون۔
+why-demographic-explanation-2 = ݭربکیلا استمعال اؘ ڈیٹا لحہ عمر فرق تہ لہجہ مانیل ران تھال کیر اڈیو ڈیٹا می مدد تھون۔
 accept-privacy = مہ تو ٹہ مالوما دال  رل ریضی ۔۔۔کتہ تی موزیلا ۔۔۔۔۔پرایویسیپالیسی می  ڈاگہ منیلتہ
 accept-privacy-title = گݭ دہ پالسی
 accept-privacy-and-terms = مہ کامنوائس سہ  شرطونی تے پرائی قبولون
