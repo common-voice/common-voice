@@ -62,6 +62,7 @@ about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро ил�
 ## How to record quality
 
 about-playbook-how-record-quality = Чӣ тавр ман сабти овозии баландсифатро сабт намоям?
+about-playbook-how-record-content-3 = Ҷумларо бо диққат хонед - калимаҳоро бе хато хонед, тағйир надиҳед ё илова накунед.
 about-playbook-how-record-content-5 = <accuracyLink>Дар бораи меъёрҳои дақиқ бештар хонед.</accuracyLink>
 
 ## How to grow language
@@ -81,7 +82,9 @@ about-playbook-how-access-dataset-content-1 = Шумо метавонед ба �
 ## How are decisions made
 
 about-playbook-how-project-governance = Қарорҳои лоиҳа чӣ гуна қабул карда мешаванд?
+about-playbook-how-project-governance-content-2 = Идоракунии мо ба рукнҳои зерин асос ёфтааст:
 about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
+about-playbook-how-project-governance-content-4 = Иштироки ҷомеа ва қабули қарорҳо.
 about-playbook-how-project-governance-content-5 = Арзиш ва эътироф.
 about-playbook-how-project-governance-content-6 = Масъулияти тарафайн.
 
