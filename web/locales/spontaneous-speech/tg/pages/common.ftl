@@ -6,6 +6,9 @@ error = Хато
 interface-language = Забони интерфейс:
 # Label for button on contribution switcher
 change = Тағйир додан
+audioplayer-header = Гӯш кардан
+guidelines = Роҳнамо
+submit-button = Пешниҳод кардан
 
 ## Navbar
 
