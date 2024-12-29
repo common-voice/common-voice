@@ -71,6 +71,7 @@ adding-sentences-subheader-length-explanation = جولال می پنجیش دا 
 adding-sentences-subheader-spelling-punctuation = سپلنگ تے نخ
 adding-sentences-subheader-spelling-punctuation-explanation = جولال ٹیکلسبلنگ می صھی بیدہ
 adding-sentences-subheader-speakable = مِن بال اے°
+adding-sentences-subheader-speakable-explanation = ران جملہ ران اݭو ۔تہ رو منیل می پہ سوگار اشدہ
 adding-sentences-subheader-numbers = ہیندسا
 adding-sentences-subheader-numbers-explanation = چوݨیل منجر می ہنسہ نہ گیا۔۔۔منیل می مسلا ترون
 adding-sentences-subheader-abbreviations = مخفف
