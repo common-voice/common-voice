@@ -129,3 +129,4 @@ about-playbook-how-project-governance-content-7 = ان تہ دی پا نال ا�
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وایس تہ روپے کو دان
+about-playbook-how-funded-content-1 = کامن وایس موزیلا فاونڈیشن ۔اوں ٹیم رل رس تہ روپےفلونتراپک گرانٹس  دون تےسوادنآی دا پا خلق امداد دان
