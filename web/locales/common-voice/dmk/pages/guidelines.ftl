@@ -5,6 +5,7 @@ voice-collection = وݳئس کُلݵکشَن
 sentence-collection = سݵنٹݵنس کُلݵکشَن
 varying-pronunciations = مُقتلف تلفُظݳ
 misreadings = غلَط مُنݵنݳ
+offensive-content = اݸفݵنسِݵݸ کنٹݵنٹ / جݳرِحݳنہ مݸݳد
 background-noise = پَچِپَڎݵݸ شݸر
 background-voices = پَچِپَڎِݵݸ چھَتݳ
 volume = وݸلِݵُݸم
