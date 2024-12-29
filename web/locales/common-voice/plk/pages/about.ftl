@@ -119,20 +119,20 @@ about-playbook-how-record-content-5 = <accuracyLink> سُونڇِھیارے مع
 ## How to grow language
 
 about-playbook-how-grow-language = بیْس کام وائس جیْ مِݜٹو طریقہ گیْ جِب کاتھ بسکربوݨَس؟
-about-playbook-how-grow-language-content-1 = کامن وائس سہ جگو تنوع اےْ  موقعائے پائد تھون یقیقنی سنینوْ چہ ڈیٹاسیٹ دہ لا جیْ لا جگو خدمت تھی۔ اسا ادا وسائل گہ ٹیمپلیٹس سنینَس کھاں څھوْس استعمال تھوبانَت۔
+about-playbook-how-grow-language-content-1 = کامن وائس سہ جگو تنوع اےْ  موقعائے پائدا تھون یقیقنی سنینوْ چہ ڈیٹاسیٹ دہ لا جیْ لا جگو خدمت تھی۔ اسا ادا وسائل گہ ٹیمپلیٹس سنیسَن کھاں څھوْس استعمال تھوبانَت۔
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = څھوْ جگوامدادے کِرِیا ایونٹس چلیبانَت۔ آ څھے گُنونِجیْ بسکیْ ہسانِن۔ آ گیْ څھوْس ویڈیو کانفرنسنگ ٹول سے ساتیْ آن لائن گہ تھوبانَت۔، یا ذاتی شان گیْ اگر آ محفوظُن توْ۔ <eventTemplate> ایونٹ چلِیونے کِرِیا اسے ٹیمپلیٹس گہ وسائل چیک تِھیا۔</eventTemplate>
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
-about-playbook-how-grow-language-content-5 = څھوْس پیغام اُڇِھیونے کِرِیا سوشل میڈیا فارم استعمال تھوبانَت۔ ادی پوسٹے اشتراةک تِھیا کھاݩس دہ آ پشیجانیْ چہ  آ کیْہ اہمِن، آ جِبے حقوق،وائس اے آئی، یا ٹیک دہ تعصب ہا مسائلو بارَد موْݜ کال تھین جگو سے رابطہ تِھیا۔ شناک گہ مشورائے کِرِیا ڇکِیا <campaignLink>آں اسہ مواد گہ کھاں څھوْس ست دوبار استعمال تھوبانَت۔</campaignLink>
-about-playbook-how-grow-language-content-6 = شراکت داری گہ نٹ ورکس۔
-about-playbook-how-grow-language-content-7 = اسہ جک اوروڑ تِھیا کھاݩس تصور تھینَن۔ ییݨو مجیْ یونی ورسٹی، جِبو اسکولیْ، وکیلو گروپی یا ڈیٹا سائنس قام بوبانیْ۔ سیݨوڑ اُڇھی سم شان گیْ وضاحت تِھیا چہ کاتھ سیݨے امداد تھوبانَت آں کیْہ۔ <outreachTemplates>  اسے ٹیمپلیٹ آؤٹ ریچ ای میلز ڇکِیا </outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong>تخلیقی سنِجہ۔ </strong> څھے جِبے قام منفرد بُو، آں آ گلہ دونے شناکَک طریقائے یا ولی گہ ہنہ۔
+about-playbook-how-grow-language-content-5 = څھوْس پیغام اُڇِھیونے کِرِیا سوشل میڈیا فارم استعمال تھوبانَت۔ ادی پوسٹے اشتراک تِھیا کھاݩس دہ آ پشیجانیْ چہ  آ کیْہ اہمِن، آ جِبے حقوق، وائس اے آئی، یا ٹیک دہ تعصب ہا مسائلو بارَد موْݜ کال تھین جگو سے رابطہ تِھیا۔ شناک گہ مشورائے کِرِیا ڇکِیا <campaignLink>آں اسہ مواد گہ کھاں څھوْس ست دوبار استعمال تھوبانَت۔</campaignLink>
+about-playbook-how-grow-language-content-6 = شراکت داری گہ نٹ ورکس
+about-playbook-how-grow-language-content-7 = اسہ جک اوروڑ تِھیا کھاݩس تصور تھینَن۔ ییݨو مجیْ یونی ورسٹی، جِبو اسکولیْ، وکیلو گروپی یا ڈیٹا سائنس قامے جک بوبانَن۔ سیݨودیْ اُڇھی سم شان گیْ وضاحت تِھیا چہ کاتھ سیݨے امداد تھوبانَت آں کیْہ۔ <outreachTemplates>  اسے ٹیمپلیٹ آؤٹ ریچ ای میلز ڇکِیا </outreachTemplates>
+about-playbook-how-grow-language-content-8 = <strong>تخلیقی سنِجہ۔ </strong> څھے جِبے قام منفرد بُو، آں آ  شیروع تھونے شناکَک طریقائے یا ولی گہ ہنہ۔
 
 ## How to validate
 
 about-playbook-how-validate = موْس کاتھ لڇھبامَس چہ صوتی کلپ منظور تھونُن یا نیں؟
 about-playbook-how-validate-content-1 = اگر څھوْس <strong>سیݨو کوْݨ دِیا </strong> آں <strong> سیݨو لڇِھ بانَت </strong>، تو عام شان گیْ <strong>منظوری دون مِݜٹِن </strong>
-about-playbook-how-validate-content-2 = <strong> ادا کلپس رَد نی تِھیا کُدی موْݜ تِھیکے ایْک لہجانوْ کھاں څھے تومو سے مختلفُن </strong>آ آوازے شناخے کِرِیا غورانوْ آں ہر جیئے کِرِیا مِݜٹُن۔
+about-playbook-how-validate-content-2 = <strong> ادا کلپس رَد نہ تِھیا کُدی موْݜ تِھی کے ایْک لہجانوْ کھاں څھے تومو لہجا جیْ مختلفُن </strong>آ آوازے شناخے کِرِیا غورانوْ آں ہر جیئے کِرِیا مِݜٹُن۔
 about-playbook-how-validate-content-3 = اگر څھوْڑ لیل بِینیْ چہ تلفظ<strong> پرجون ممکن نانیْ <strong> توْ اسدی <strong> پس منظرے شور </strong>بُو، یا </strong>مُتہ جک سگہ موْݜ کال تھینَن بو، تو څھوْڑ کلپ رد تھون پکارن۔ <accuracyLink>اسے سُونڇِھیارے معیارے بارد شنا معلومات ڇکِیا </accuracyLink>
 about-playbook-how-validate-content-4 = اگر کوئے کلپ دُو جک سہ رَد تھینَن، تو اسے ڈیٹاسیٹو مختلف ذیلی سیٹو مجی اسہ رَد تِھیلہ کلپی جاری تِھجنَن۔
 
