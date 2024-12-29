@@ -20,6 +20,7 @@ sc-review-form-button-approve-shortcut = ي
 sc-review-form-button-reject-shortcut = ن
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = س
+sc-review-form-keyboard-usage-custom = تون ڪيبورڊ جا شورٽڪَٽ بي استعمال ڪري سگهي تو: { sc-review-form-button-approve-shortcut } اپروو ڪرڻ لا، { sc-review-form-button-reject-shortcut } ریجیڪٽ ڪرڻ لا، { sc-review-form-button-skip-shortcut } اِسڪپ ڪرڻ لا.
 sc-review-form-button-submit =
     .submitText = رويو ڪرڻ ختم ڪر
 # Variables:
@@ -41,6 +42,7 @@ sc-criteria-make-sure = ڏِس ته جملا هي ڪرائيٽيريا پورا 
 sc-criteria-item-1 = جملو صحيح هِڄي ٿيو هونجن.
 sc-criteria-item-2 = جملو گرامر جي حساب سين صحيح هونجن.
 sc-criteria-item-3 = جملو ڳالاڻ جي حساب سين صحيح هونجا.
+sc-criteria-item-4 = اگر جملا  ڪرائيٽیریاک پورو ڪنتا ته ڪڪ ڪر &quot; اپروو &quot; بٽڻ اک سیدی ھٿ پار.
 report-sc-different-language = ٻي زبان
 report-sc-different-language-detail = بي
 # menu item
