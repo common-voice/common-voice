@@ -101,6 +101,7 @@ about-playbook-how-grow-language-content-1 = قسی قسیم خلق ام تہ م
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تیسخلق ام امداد تھال کیر واقعات چلی بان اوں۔اوں بیت تسے سوچ دا  پا سگار۔۔تیس مکا مکھ یا ویڈیو کانفرنسنگ  انلاین پا تیبان۔۔۔ان محفوظ پا این۔
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-6 = مرگرتیا تےنٹ ورک
 
 ## How to validate
 
