@@ -50,6 +50,9 @@ sc-review-instruction = چیک <icon></icon> ڪر ته لساني طورت اي�
 sc-review-rules-title = جملو هدايتين جي متی پورو ڇه تو؟
 sc-review-empty-state = ھن زبان لا جملا کونین ریویو ڪرڻ لا.
 report-sc-different-language = ٻي زبان
-report-sc-different-language-detail = بي
+report-sc-different-language-detail = ایو لکيو مختلف زبانم ھن نا جيڪا آن ریویو بیٿو ڪرین.
+sentences-fetch-error = جملا فرڇنگ ڪرڻ ام  مسئلو آیو ا.
+review-error = جملا ريويو ڪرڻ ام  مسئلو آیو ا.
+review-error-rate-limit-exceeded = تون الائی تیز بیٹھو ھلین. مهرباني ڪري ٿورو صحيح ا سين ريويو ک رتا تون ڏسي سگهي نہ ایو جملو صحیح ا .
 # menu item
 review-sentences = ريويو ڪر جملا.
