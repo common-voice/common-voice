@@ -108,12 +108,17 @@ about-playbook-how-grow-language-content-8 = مہ ا جیب  منظوری دال
 ## How to validate
 
 about-playbook-how-validate = مہ ا جیب  منظوری دال کتہ پو بم
+about-playbook-how-validate-content-4 = ا کلپ دو مانوشوم اے رجکٹ تال۔تہ،رو ڈیٹآ سیٹ چیر دی ا دی سب سیٹ می ریلیز بہ
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ڈیٹا سیٹ تہ اپان کتھہ پشام تے کتھہ استعمالتوم
+about-playbook-how-access-dataset-content-1 = تو ے ایس آر ماڈل ترال کیرمشین یاکلالے نالون تہ،تو دراوال می دی خلق ام سہ ملا بے بون
+about-playbook-how-access-dataset-content-2 = پراجکٹ فیصلہ کتہ بین
 
 ## How are decisions made
 
+about-playbook-how-project-governance = { "" }
 
 ## How is Common Voice funded
 
