@@ -12,6 +12,8 @@ n-clips-pluralized =
         [one] ڪلپ
        *[other] ڪلپا
     }
+# LINK will be replaced with the current URL
+goal-share-text = مان هڪڙو پرسنل گول بنایو ا ڪومن وائس اک آواز جي ڊونيشن ڪرڻ لا-- مانک جوائن کر مشینیک سيکارڻ لا ماڻهو ڪيئن تا ڳالااين{ $link }.
 
 ## Goals
 
