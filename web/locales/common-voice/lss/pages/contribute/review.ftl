@@ -43,6 +43,12 @@ sc-criteria-item-1 = جملو صحيح هِڄي ٿيو هونجن.
 sc-criteria-item-2 = جملو گرامر جي حساب سين صحيح هونجن.
 sc-criteria-item-3 = جملو ڳالاڻ جي حساب سين صحيح هونجا.
 sc-criteria-item-4 = اگر جملا  ڪرائيٽیریاک پورو ڪنتا ته ڪڪ ڪر &quot; اپروو &quot; بٽڻ اک سیدی ھٿ پار.
+sc-criteria-item-5-2 = اگر جملا ڪرائيٽیریاک پورو ڪون تا ڪن، &quot; رجیڪٽ &quot; جي بٽڻ اک دٻائي اوندی هٿ پار، اگر توں مطمئن ڪوني جملين جي باریم تو پو اسکپ ڪری سگهي تو ٻيو بي جملي لا  وڃي سگهي تو.
+sc-criteria-item-6 = اگر ریویو ڪرڻ لا جملا ختم ڇي وڃن، اسانجی مدد کر بیا جملا جمع ڪرڻ ام.
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چیک <icon></icon> ڪر ته لساني طورت ايو جملو صحيح ا؟
+sc-review-rules-title = جملو هدايتين جي متی پورو ڇه تو؟
+sc-review-empty-state = ھن زبان لا جملا کونین ریویو ڪرڻ لا.
 report-sc-different-language = ٻي زبان
 report-sc-different-language-detail = بي
 # menu item
