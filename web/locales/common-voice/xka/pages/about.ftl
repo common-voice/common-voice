@@ -118,7 +118,14 @@ about-playbook-how-access-dataset-content-2 = پراجکٹ فیصلہ کتہ ب�
 
 ## How are decisions made
 
-about-playbook-how-project-governance = { "" }
+about-playbook-how-project-governance = پراجیکٹ فیصلہ کتہ بین
+about-playbook-how-project-governance-content-2 = اسے حکوت اوں تون ام رل اٹییال این
+about-playbook-how-project-governance-content-3 = پرایویسی،سیکیورٹیتے ٹرانسپیرنسی
+about-playbook-how-project-governance-content-4 = دراوال ملیل تے فیصلہ چینیل
+about-playbook-how-project-governance-content-5 = قدرتےپویانییل
+about-playbook-how-project-governance-content-6 = اک دی سہ حساب تھال
+about-playbook-how-project-governance-content-7 = ان تہ دی پا نال اساں رل  حکوت کتہ بیل
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وایس تہ روپے کو دان
