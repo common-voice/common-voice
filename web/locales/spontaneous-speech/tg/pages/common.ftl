@@ -12,6 +12,7 @@ change = Тағйир додан
 
 ## Not Found Page
 
+not-found-page-header = Ёфт нашуд
 en = Англисӣ
 fr = Фаронсавӣ
 tr = Туркӣ
