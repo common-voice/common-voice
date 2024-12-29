@@ -56,5 +56,7 @@ review-error = جملا ريويو ڪرڻ ام  مسئلو آیو ا.
 review-error-rate-limit-exceeded = تون الائی تیز بیٹھو ھلین. مهرباني ڪري ٿورو صحيح ا سين ريويو ک رتا تون ڏسي سگهي نہ ایو جملو صحیح ا .
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسین کچھ وڊیيون تبدیلیون تا ڪریان.
+sc-redirect-page-subtitle-1 = سينٽينس ڪلیکٽر ڪور ڪومن ووائس پار وڃيا پیو. تون هاڻ جملو لکي یا ریویو ڪري سڳی تو سنگل جملي جي جمع ٿيڻ ڪومن ووائس ات.
+sc-redirect-page-subtitle-2 = انسان نان پڇ سوال ميٽرڪس </matrixLink>، ڏسڪورس <discourseLink>، يا ای۔ میلم </emailLink>.
 # menu item
 review-sentences = ريويو ڪر جملا.
