@@ -12,7 +12,7 @@ how-does-it-work-text = بیْس آوازو ایک اوزگار ڈیٹا سیٹ 
 about-language-req-subtitle = کوئے سہ جِب ٹل تھونے کِرِیا رزنَن۔
 about-localization-title = ویب سائٹ لوکلائزیشن
 about-localization-subtitle = ویب سائٹے متن آ جِب دہ ترجمہ تِھجانوْ۔
-about-sentence-collection-title = جُملَو ٹولنی
+about-sentence-collection-title = جُملَو ٹول تھون
 about-sentence-collection-subtitle = جگوڑ اُتھلیْ آواز دہ پڑِیونے کِرِیا جملائے ٹول تِھجنَن۔
 about-new-lang-title = نئی جِبے آغاز
 about-new-lang-subtitle = بیْس آ جِب دہ کامن وائس سائٹ لانچ تھوݨَس۔
@@ -20,7 +20,7 @@ about-voice-contrib-title = آوازے تعاون
 about-voice-contrib-subtitle = جَک ایئنَن، آں تومیْ آوازے حصہ ٹل تھینَن۔
 about-voice-validation-title = آوازے توثیَق
 about-voice-validation-subtitle = مُتہ جک سہ آ صوتی کلپو توثیق تھینَن۔
-about-dataset-release-title = ڈیٹا سیٹ ریلیز
+about-dataset-release-title = ڈیٹا سیٹ جاری تھون
 about-dataset-release-subtitle = بیْس ہر 3 موزوجیْ ڈیٹا سیٹ جاری تھوݨَس۔
 about-subscribe-text = کامن وائس سے ساتیْ رابطہ دہ بون لُکھینَت یا؟
 about-speak = موْݜ تِھیا
@@ -31,15 +31,15 @@ about-listen = کوْݨ دِیا
 about-listen-text = صارفین سہ عطیہ تِھیلہ کلپو سُونڇِھیار گہ توثیق تھینَن، آ لڇھے چہ سپیکری جملہ صحیح شان گیْ پڑِیاؤن یا۔
 about-is-it-valid = کلپ سمُن یا؟
 about-is-it-valid-text = صوتی کلپ ”صحینوْ“ تھے نشان زد تِھجانوْ کرہ چہ کوئے صارف سہ ڇکے اوں تھے ووٹ دِینوْ۔
-about-yes-votes = ≥  2 اوں ووٹیْ۔
+about-yes-votes = ≥  2 اوں ووٹیْ
 about-yes-votes-text = آ کامن وائس ڈیٹاسیٹ دہ سنونے کِرِیا، ایْک صوتی کلپے توثیق دو جُدا جُدا صارفینو ذریعہ گیْ تِھجون پکارِن۔
 about-no-votes = ≥ 2 نیں ووٹیْ
 about-no-votes-text = کرہ چہ کوئے صارف سہ صوتی کلپ رَد تِھینوْ توْ آ کِھڇِی دہ مرک بوئے اِینوْ۔ اگر دوموگیْ چوْٹ پھری رَد تِھجِلوْ توْتے صوتی کلپ جارتَڑ پھل تِھجانوْ۔
 about-dataset-new = کامن وائس ڈیٹاسیٹ
-about-dataset-new-text = کامن وائس ڈیٹاسیٹ دہ ہزارہا آوازو مثالہ ٹلِن کھاں گیْ ڈویلپروڑ آوازو شناخے ٹول سنون دہ امداد ہشِینیْ
+about-dataset-new-text = کامن وائس ڈیٹاسیٹ دہ ہزارہا آوازو مثالہ ٹلِن کھاں گیْ ڈویلپروڑ آوازو شِناخو ٹُول سنون دہ امداد ہشِینیْ
 about-clip-graveyard = کلپ جارتو
 about-clip-graveyard-text =
-    کلپ قبرستان صوتی کلپوجیْ مشتملُن کھا کامن وائس ڈیٹاسیٹ دہ نہ بینَن۔ ڈیٹا سیٹے شِرِیا کلپ قبرستان گہ ڈاؤن لوڈے کِرِیا دستیابُن۔
+    کلپ سِرَئی صوتی کلپوجیْ مشتملِن کھا کامن وائس ڈیٹاسیٹ دہ نہ بینَن۔ ڈیٹا سیٹے شِرِیا کلپ سِرَئی گہ ڈاؤن لوڈے کِرِیا دستیابُن۔
     
     بیْس آ جگو گہ تنظیمو شکریہ ادا تھوݨَس چہ سیْݨا آ منصوبہ دہ امداد تھیگہ۔
 about-get-involved = ٹَل بِیا
