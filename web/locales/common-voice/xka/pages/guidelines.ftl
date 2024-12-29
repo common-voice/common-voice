@@ -62,6 +62,7 @@ citing-sentences-subheader-websites = ویب سایٹ
 citing-sentences-subheader-websites-explanation = تیسویب سایٹ ملی باںلخہ کامن وایس
 citing-sentences-subheader-academic-reference = تعلیمی باگ اے حوالہ
 citing-sentences-subheader-offline-sources = مکھ کامک
+citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ٹیکسٹ کے لیے جو آن لائن دستیاب نہیں ہے آپ اکیڈمیکر حوالہ دینے کا انداز استعمال کر سکتے ہیں۔
 citation =
     .label = منییل
 self-citation = تانی حوالہ
