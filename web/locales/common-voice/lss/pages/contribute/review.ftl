@@ -7,6 +7,7 @@ sc-review-select-language = مھرباني ڪري زبان سليڪٽ ڪر جم�
 sc-review-no-sentences = جملا ڪون اين ريويو ڪرڻ لا. وج ٻيا جملا هيرا!
 sc-review-form-prompt =
     .message = ريويو ٿيل جملا ڪون جمع ٿيان، يقين ائي؟
+sc-review-form-usage = سیدی ھٿ پار ڦیر جملینک اپروو ڪرڻ لا، الٽي هٿا پار ڦیر ریجیڪٽ ڪرڻ لا، متی ڦیر اِسڪپ ڪرڻ لا. پانجو ریویو جمع ڪرڻ نہ بلج.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = سورس:
