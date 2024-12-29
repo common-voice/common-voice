@@ -102,9 +102,12 @@ about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تیسخلق ام امداد تھال کیر واقعات چلی بان اوں۔اوں بیت تسے سوچ دا  پا سگار۔۔تیس مکا مکھ یا ویڈیو کانفرنسنگ  انلاین پا تیبان۔۔۔ان محفوظ پا این۔
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-6 = مرگرتیا تےنٹ ورک
+about-playbook-how-grow-language-content-7 = تخلیقی بہ۔تسے جیب ام دراوال  ران آشہ۔تے اون تہ شرو بال ا ے الد پان دی
+about-playbook-how-grow-language-content-8 = مہ ا جیب  منظوری دال رل کتہ پو۔بم
 
 ## How to validate
 
+about-playbook-how-validate = مہ ا جیب  منظوری دال کتہ پو بم
 
 ## How to access dataset
 
