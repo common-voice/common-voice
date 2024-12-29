@@ -226,3 +226,5 @@ not-available-abbreviation = Дастнорас
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Мо ба</mark><br/><mark>кумаки шумо ниёзмандем!</mark>
+localization-select =
+    .label = Интихоби забон/маҳаллисозӣ
