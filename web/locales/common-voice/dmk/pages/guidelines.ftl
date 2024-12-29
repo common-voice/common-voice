@@ -1,3 +1,6 @@
+# GUIDELINES PAGE
+guidelines-header = کنٹرݵبݵݸشَن گائڈلائنز / حِصہ بݳنݳئی شَلدݳݣݳ
+guidelines-header-subtitle = ڈݵٹݳ سݵٹَنݳ جملݳݣݳ نݸ کݳمَن وݳئسݵئ چھَتݵݣݺ کِلِپݵݣݺ حِصَہ بݳنݳ نݸ اݵݣݺ تصدݵق اِرِنݳئی طَرݵقہ ݵَنݳ بݳ.
 voice-collection = وݳئس کُلݵکشَن
 sentence-collection = سݵنٹݵنس کُلݵکشَن
 varying-pronunciations = مُقتلف تلفُظݳ
