@@ -78,3 +78,4 @@ add-questions-menu-item-tooltip = Саволҳоро ба забони худ и
 
 ## MENU ITEM ARIA LABELS
 
+transcribe-audio-menu-item-aria-label = Табдил додани сабтҳои аудиоӣ ба матн

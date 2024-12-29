@@ -4,6 +4,8 @@
 error = Хато
 # Label for language switcher
 interface-language = Забони интерфейс:
+# Label for button on contribution switcher
+change = Тағйир додан
 
 ## Navbar
 
