@@ -54,5 +54,7 @@ report-sc-different-language-detail = ایو لکيو مختلف زبانم ھن
 sentences-fetch-error = جملا فرڇنگ ڪرڻ ام  مسئلو آیو ا.
 review-error = جملا ريويو ڪرڻ ام  مسئلو آیو ا.
 review-error-rate-limit-exceeded = تون الائی تیز بیٹھو ھلین. مهرباني ڪري ٿورو صحيح ا سين ريويو ک رتا تون ڏسي سگهي نہ ایو جملو صحیح ا .
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اسین کچھ وڊیيون تبدیلیون تا ڪریان.
 # menu item
 review-sentences = ريويو ڪر جملا.
