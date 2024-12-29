@@ -20,3 +20,4 @@ answer-questions-menu-item-tooltip = پانچی آواز ریکارڊ ڪر پا�
 
 ## MENU ITEM ARIA LABELS
 
+answer-questions-menu-item-aria-label = جمع کر سوال کمیونٹی لا ته ھو پڙهڻ ٻيو جواب ڏيڻ لا.
