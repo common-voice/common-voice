@@ -2,7 +2,7 @@ action-click = کِلِک تِھیا
 action-tap = ٹیپ تِھیا
 contribute = تعاون تِھیا
 review = جائزہ ہرہ
-skip = پت تِھیا
+skip = پھت تِھیا
 shortcuts = شارٹ کٹس
 clips-with-count-pluralized =
     { $count ->
@@ -21,7 +21,7 @@ contribute-more =
         [one] تھون تِیارنُس
        *[other] مُتگہ
     }
-speak-empty-state = آ جب دہ ریکارڈ تھونے کِرِیا اسودی جملائے بڑِتھان۔
+speak-empty-state = آ جب دہ ریکارڈ تھونے کِرِیا اسودیْ جملائے بڑِتھان۔
 no-sentences-for-variants = آ بوبانی چہ څھے جِبے مختلف شقلہ جملوجیْ باہر بِیǃ اگر څھوْ ہسنتِیا دانَت توْ تے څھوْس تومیْ جِبے مُتہ جملائے ڇکونے کِرِیا تومیْ ترتیبات بدل تھوبانَت۔
 speak-empty-state-cta = جملو کِرِیا تعاون تِھیا۔
 speak-loading-error = بیْہ څھے رزونے کِرِیا کھاں گہ جُملہ حاصل نہ تھوبالانَس۔ آ گیْ ست دوبار کوشِش تِھیا۔
@@ -29,7 +29,7 @@ record-button-label = تومیْ آواز ریکارڈ تِھیا۔
 share-title-new =
     اسے امداد تِھیا</bold>
     مُتیْ آوازہ اورڑِیا <bold>
-keep-track-profile = پروفائلے سے ساتیْ تومیْ پیشرفعت جیْ نظر چھورِیا۔
+keep-track-profile = پروفائلے سے ساتیْ تومیْ پیشرفعت جیْ گہ نظر چھورِیا۔
 login-to-get-started = شیروع تھونے کِرِیا لاگ اِن تھیا یا سائن اپ تِھیا۔
 target-segment-first-card = څھوْس اسے اول نکھکے باگوْ دہ تعاون تھینَت۔
 target-segment-generic-card = څھوْس ٹارگٹ سیگمین دہ توموْ باگوْ وِینَت۔

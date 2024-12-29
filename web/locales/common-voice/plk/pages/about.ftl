@@ -133,29 +133,29 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی سنِجہ۔ <
 about-playbook-how-validate = موْس کاتھ لڇھبامَس چہ صوتی کلپ منظور تھونُن یا نیں؟
 about-playbook-how-validate-content-1 = اگر څھوْس <strong>سیݨو کوْݨ دِیا </strong> آں <strong> سیݨو لڇِھ بانَت </strong>، تو عام شان گیْ <strong>منظوری دون مِݜٹِن </strong>
 about-playbook-how-validate-content-2 = <strong> ادا کلپس رَد نہ تِھیا کُدی موْݜ تِھی کے ایْک لہجانوْ کھاں څھے تومو لہجا جیْ مختلفُن </strong>آ آوازے شناخے کِرِیا غورانوْ آں ہر جیئے کِرِیا مِݜٹُن۔
-about-playbook-how-validate-content-3 = اگر څھوْڑ لیل بِینیْ چہ تلفظ<strong> پرجون ممکن نانیْ <strong> توْ اسدی <strong> پس منظرے شور </strong>بُو، یا </strong>مُتہ جک سگہ موْݜ کال تھینَن بو، تو څھوْڑ کلپ رد تھون پکارن۔ <accuracyLink>اسے سُونڇِھیارے معیارے بارد شنا معلومات ڇکِیا </accuracyLink>
+about-playbook-how-validate-content-3 = اگر څھوْڑ لیل بِینیْ چہ تلفظ<strong> پرجون ممکن نانیْ <strong> توْ اسدی <strong> پس منظرے شور </strong>بُو، یا </strong>مُتہ جک سگہ موْݜ کال تھینَن بو، تو څھوْڑ کلپ رد تھون پکارن۔ <accuracyLink>اسے سُونڇِھیارے معیارے بارد معلومات ڇکِیا </accuracyLink>
 about-playbook-how-validate-content-4 = اگر کوئے کلپ دُو جک سہ رَد تھینَن، تو اسے ڈیٹاسیٹو مختلف ذیلی سیٹو مجی اسہ رَد تِھیلہ کلپی جاری تِھجنَن۔
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = موْ ڈیٹاسیٹ بُجَیش کاتھ اُڇھام آں کاتھ استعمال تھم؟
-about-playbook-how-access-dataset-content-1 = څھوْ صفحہ جیْ بوجبانَت <datasetsPage>ڈیٹاسیٹ صفحات</datasetsPage>، تومی الہائے ورژن گہ جِب منتخب تھوبانًَت، آں اسہ ڈاؤن لوڈ تھوبانَت، فائلو  بارَد <metadataLink> میٹا ڈیٹا </metadataLink>بِینوْ، کاتھہ چہ آبادی معلومات گہ توثیقے ڈیٹا۔  ڈیٹا سیٹ ڈاؤن لوڈ تھونے کِرِیا څھوْ ایْک ای میلے پتہ دون بُو۔
+about-playbook-how-access-dataset-content-1 = څھوْ صفحہ جیْ بوجبانَت <datasetsPage>ڈیٹاسیٹ صفحات</datasetsPage>، تومی الہائے ورژن گہ جِب منتخب تھوبانًَت، آں اسہ ڈاؤن لوڈ تھوبانَت، فائلو  بارَد <metadataLink> میٹا ڈیٹا </metadataLink>بِینوْ، کاتھہ چہ آبادی معلومات گہ توثیقے ڈیٹا۔  ڈیٹا سیٹ ڈاؤن لوڈ تھونے کِرِیا څھوْ ایْک ای میلے گہ پتہ دون بُو۔
 about-playbook-how-access-dataset-content-2 = آگر څھوْس اے ایس آر ماڈلو ٹولز اورڑینَت توْ، څھوْس قامے<discourseLink> مُتہ جگو سے رابطہ تھوبانَت </discourseLink>
 
 ## How are decisions made
 
 about-playbook-how-project-governance = منصوبو فیصلائے کاتھ تِھجنَن؟
 about-playbook-how-project-governance-content-1 = موزیلا کامن وائس تام دُنیے ایکٹوسٹو، جِبو ماہرانو، ڈیٹا سائنسدان، تعلیم گہ سافٹ ویئر انجیئرو متنوع قامو ممکن سنیگِن۔ آ  پروجیکٹ موزیلا فاؤنڈیشن اےْ انتظام دہ چلِیجانوْ۔
-about-playbook-how-project-governance-content-2 = ۔اسے انتظامو بنیاد آ تُھوݨوجانیْ۔
-about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی گہ سُجِیار
+about-playbook-how-project-governance-content-2 = اسے انتظامو بنیاد آ تُھوݨوجانیْ۔
+about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی گہ سُوݩڇِھیار
 about-playbook-how-project-governance-content-4 = قامے شرکت گہ فیصلہ سازی
 about-playbook-how-project-governance-content-5 = قدر گہ سِیوݨ۔
-about-playbook-how-project-governance-content-6 = اکومجیْ احتسابے عمل۔
+about-playbook-how-project-governance-content-6 = اکومجیْ احتسابے عمل
 about-playbook-how-project-governance-content-7 = <governanceLink>آ سے بارَد شناک گہ پڑِیا چہ بیْس کاتھ نظام چِلیوݨَس </governanceLink>
 
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائس اےْ مالی امداد کاتھ تِھجانیْ؟
-about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن اےْ ایْک پروجیکٹُن، کھاں یو ایس 501 سی 3 نوْ۔ آ پروجیکٹ فی الحال تام <philantropicGrantLink>شان گیْ انسان دوستی گرانٹس گہ دُنیے جگو عطیاتو </philantropicGrantLink> ذریعہ گیْ مالی اعانت  دِجانی۔
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن اےْ ایْک پروجیکٹُن، کھاں یو ایس 501 سی 3 نوْ۔ آ پروجیکٹ فی الحال تام <philantropicGrantLink>شان گیْ انسان دوستی گرانٹس گہ دُنیے جگو عطیاتو </philantropicGrantLink> ذریعہ گیْ مالی اعانت  گیْ چلِیجانوْ
 about-playbook-how-funded-content-2 = ڈیٹاسیٹس اےْ میزبانی گہ ریلیز تھونے، پلیٹ فارم مڑنے سنونے گہ چلِیون <africaMradiLink> آں قامے پروگرامی </africaMradiLink>چلِیون دہ بسکیْ رقم خرچ بِینیْ۔
 about-playbook-how-funded-content-3 = اگر څھوْ یا څھے تنظیم آ پروجیکٹ دہ ست دُبار باگوْ یون لُکھینیْ توْ څھوْس<donateLink>  ایْک عطیہ <donateLink> دوبانَت یا اسے پارٹنرشپ ٹیم سے رابطہ تھوبانَت۔ <emailFragment>commonvoice@mozilla.com</emailFragment>
