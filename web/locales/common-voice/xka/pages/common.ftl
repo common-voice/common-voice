@@ -280,6 +280,7 @@ loading = لوڈ تال۔۔اوکالیل
 email-opt-in-info = مہ ٹھ ای میل بال شات تھےمہ خوشالان مٹ می حدف  پشون تے
 email-opt-in-info-title = کامن وایس کاں میلنگ لسٹ   ااین تہ      تس سہٹل بہ
 email-opt-in-info-sub-with-challenge = ای میل گینا لہا چیلنج تہ گول یاد تھا پروگریس اپ ڈیٹس اور شریک آواز اؘ  بارے میں نیوز حط
+email-opt-in-privacy-v2 = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر
 indicates-required = تار سہ نشان زد فیلڈ ✳️ پکار این۔
 not-available-abbreviation = این۔اے
 
@@ -291,5 +292,6 @@ donate-banner-cta = اسان توسی مدد پکار این۔
 donate-banner-cta-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر ݭجین۔
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = تانی ریسرج کیر سی وی اسمعال تھال۔
+languages-donate-banner-cta-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر
 localization-select =
     .label = جیب لہکلایزیشن جوݭ

@@ -17,6 +17,7 @@ varying-pronunciations-explanation-2 = دی مکھ تہ تی ان خیال او�
 varying-pronunciations-example = پان صفا نہ اس
 varying-pronunciations-tip-1 = کنیڈا نگریزی روٹ تراٹ ترا لخہ راوٹ
 varying-pronunciations-tip-2 = برٹش انگلش   روٹ ترہ
+offensive-content-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر
 misreadings-explanation-1 = پیج رل چݨاگیل سوا ٹکل ران سہ منیل   می باڑ جولال این۔۔۔۔رانسہ نالا اں گوا ریکارڈ بیل تے اون تتین اں کاں  چیݨ جیل پاآ۔۔۔۔گجینگوا کماس یا اپان دا میلاس یا دراس دیر نہ قبولا
 misreadings-explanation-2 = عام غلطیان ان این۔
 misreadings-explanation-3 = ریکاڈنگ اؘ اولک دودت رل اے ڄار این۔
@@ -61,6 +62,7 @@ citing-sentences-explanation-1 = منیل میلال باڑ ضرولی ۔بہ ن
 citing-sentences-subheader-websites = ویب سایٹ
 citing-sentences-subheader-websites-explanation = تیسویب سایٹ ملی باںلخہ کامن وایس
 citing-sentences-subheader-academic-reference = تعلیمی باگ اے حوالہ
+citing-sentences-subheader-academic-reference-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر
 citing-sentences-subheader-offline-sources = مکھ کامک
 citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ٹیکسٹ کے لیے جو آن لائن دستیاب نہیں ہے آپ اکیڈمیکر حوالہ دینے کا انداز استعمال کر سکتے ہیں۔
 citation =
