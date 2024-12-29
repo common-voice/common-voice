@@ -39,7 +39,7 @@ lose-goal-progress-warning = تومیْ مقصد دہ ترمیم تھون دہ،
 want-to-continue = څھوْس جاری پھتینَت یا؟
 finish-editing = مُڇھو ایڈیٹنگ بڑِیا؟
 lose-changes-warning = چیئے پھتونے مقصدن چہ څھوْ تومیْ تبدیلیوجیْ محروم بُویت۔
-build-custom-goal = تومیْ الہا گیْ مقصد سنِیا
+build-custom-goal = تومیْ الہا گیْ مقصد موقرَڑ تِھیا
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] امداد تِھیا { $hours } گھنٹو مجی { $language } ذاتی مقصد  سے ساتی
