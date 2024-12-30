@@ -20,6 +20,9 @@ language-validation-progress = منظُوری یاں پراگریس
 contribute = تاں حصہ گلہ۔
 get-involved-button = اماں‌ ٹَل کرہ
 get-involved-title = تاںحصہ گلہ { $lang }
+get-involved-text =
+    { $lang } مہ حصہ گلَیں مہ شوق پشَیں یاں کریا چئ چئ شُکھریہ۔ بے تَیں وس کرِگ تھو چے ہر ژیب خلکہ واں کریا مُوٹُھو آگ آں رڇھِگ
+    بجلی خطیں ذریعہ لا ٹولئ خبر رڇُھژیۡ تھی۔ کہ تُو حصہ ہرَیں یاں غرضی تُھو کھیں تَیں بجلی خط من چور لِکہ۔
 get-involved-form-title = { $lang }اپ ڈیٹاں کریا کُھنی لن٘گھہ/ٹل ہو:
 get-involved-email =
     .label = بِجلی خط
