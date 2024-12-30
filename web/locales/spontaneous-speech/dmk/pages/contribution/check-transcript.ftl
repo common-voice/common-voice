@@ -14,3 +14,7 @@ transcript-skipped-success = ٹرانسکرپٹ کݳمݵݳبِسکݸٹ فَت ہ
 transcript-skipped-error = ٹرݳنسکرپٹ فَت اِرِنݺ بلݸ اݵکہ غلطݵکݳ مݳگݸم اَئی
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = ٹھݵک / صحݵح
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = ہُݸݵݳ / مکمل ہُݸݵݳ
+# For the button on the Check Transcriptions page to edit a transcription
+edit = ترمݵم / دݸبݳرہ اِرِنݳ
