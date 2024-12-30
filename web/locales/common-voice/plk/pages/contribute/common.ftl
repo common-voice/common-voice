@@ -15,7 +15,7 @@ goal-help-recording =
      اسے ہر چھکے{ $goalValue } ریکارڈنگے مقصد<goalPercentage>
 goal-help-validation =
     څھا کامن وائس بُجَیش اُڇھون دہ تعاون تھیت<goalPercentage>
-     ہر چھکے ہر چھکے توثیقے مقصد</goalPercentage>
+    اسے ہر چھکے توثیقے مقصد</goalPercentage>
 contribute-more =
     { $count ->
         [one] تھون تِیارنُس
@@ -29,10 +29,10 @@ record-button-label = تومیْ آواز ریکارڈ تِھیا۔
 share-title-new =
     اسے امداد تِھیا</bold>
     مُتیْ آوازہ اورڑِیا <bold>
-keep-track-profile = پروفائلے سے ساتیْ تومیْ پیشرفعت جیْ گہ نظر چھورِیا۔
+keep-track-profile = پروفائل سے ساتیْ تومیْ پیشرفعت جیْ گہ نظر چھورِیا۔
 login-to-get-started = شیروع تھونے کِرِیا لاگ اِن تھیا یا سائن اپ تِھیا۔
-target-segment-first-card = څھوْس اسے اول نکھکے باگوْ دہ تعاون تھینَت۔
-target-segment-generic-card = څھوْس ٹارگٹ سیگمینٹ دہ توموْ باگوْ وِینَت۔
+target-segment-first-card = څھوْس اسے اول نکھکے حصہ دہ تعاون تھینَت۔
+target-segment-generic-card = څھوْس ٹارگٹ سیگمینٹ دہ توموْ باگوْ ٹلتھینَت۔
 target-segment-first-banner = کامن وائس اےْ اول ٹارگٹ سیگمنٹ سنون دہ امداد تِھیا۔{ $locale }
 target-segment-add-voice = تومیْ آواز ٹل تِھیا۔
 target-segment-learn-more = مُتیْ گہ سڇہ
@@ -64,7 +64,7 @@ report-offensive-speech-detail = کلپ دہ توہین آمیز یا جارحا
 report-other-comment =
     .placeholder = کومنٹ
 success = بَرَئی
-continue = جاری رڇھ
+continue = جاری پھتِیا
 report-success = رپورٹ بَرَئی گیْ منظور تِھجِلیْ
 
 ## Speak & Listen Shortcuts
