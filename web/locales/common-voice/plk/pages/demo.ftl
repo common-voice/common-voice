@@ -2,7 +2,7 @@
 
 demo-get-started = اِیا شیروع تھوݨ
 demo-welcome = کامن وائس دہ راش۔
-demo-welcome-subheader = شنا متیْ  لڇھون گہ پروجیکٹ سے تعاون تھون دہ دلچسبی ہنی یا؟
+demo-welcome-subheader = شنا متیْ  لڇھون گہ پروجیکٹ سے تعاون تھون دہ څھے دلچسبی ہنی یا؟
 
 ## Demo Datasets
 
