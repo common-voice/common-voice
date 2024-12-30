@@ -52,3 +52,4 @@ citing-sentences = سݳئٹِݣ سݵنٹݵنسِز
 adding-sentences = ݳݵڈِݣ سنٹݵنسِز
 reviewing-sentences = رݵݸݵݸِݣ سنٹݵنسِز
 sentence-domain = جملݳئی دݳئرہ
+public-domain-explanation-1 = اݽݵئ بݸت ݳہم چھݳتݳ تمݳم متنݵ جملݳݣݳ <publicDomain>عݸݳمݵ ملکݵت</publicDomain> نݳ  (<cc0>cc0</cc0>) ہݸن کݵجݺ تݳ کݳمَن ݸݳئس ڈݵٹݳ سݵٹَشُݸ   لݳئسَنسݵئ تحت cc0 جݳرݵ اِرݸ گݵݳ چھݳ. صرف اݵݣ جملݳݣݳ ݳپلݸڈ اِرݳ کݸنݵݣݺ بݳرݳس تمݵچݸ ݵقݵن ہݸ، نݸ ڞݳ متعلقہ حݸݳلہ کݸٹ اِرݳ.
