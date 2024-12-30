@@ -36,3 +36,6 @@ background-noise-explanation = تُمݺ رݵکݳڈِݣݵئ ہَر لفظَکݳ �
 background-noise-example-1 = ٹرݵݳسِک دݸرݵئ قِݣ مَقݣ ڈݳئنݳسݸرݳ
 background-noise-example-2 = [چھِݵکݳ]ٹرݵݳسِک [خݸسݳ] دݸرݵئ قِݣ مَقݣ ڈݳئنݳسݸرݳ
 background-noise-example-3 = ٹِرݵݳسِک دݸرݵئ قݣ مقݣ ڈݳئنݸ [خݸسݳ].
+background-noise-example-4 = [کرݵکل] مَقِݣ ڈݳئنݳسݸرݳ [کرݵکل]ٹرݵݳسِک دݸرݵئ.
+background-noise-tip-1 = [پَچِپَݷݵݸ شݸرَن خلل اِرِن]
+background-noise-tip-2 = [گِرمِنݳݵݳئی ترݣݵک حِصَہ نݵ پݸرجݸ جݳگݳچھݳ]
