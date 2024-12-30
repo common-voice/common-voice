@@ -6,3 +6,11 @@ transcription-page-instruction = { $actionType }<playIcon></playIcon> آڈِݵݸ
 check-editbox-header = چݵک
 no-transcriptions-message = پلحݳل اݽائی بݳݽݵئ کݳرݸ کݵسݵک گِرمِنݳݵݳ مݸݳدݵک دستݵݳب نݳ. مِربݳنݵ رِݵ وَرَق دݸبݳرہ لݸڈ اِرݳ یݳ کمݵک ڎَٹ ہُݸئی مُشݳس کھݸشِش اِرݳ.
 vote-transcript-success = ٹرݳنسکرپٹ کݳمݵݳبِس کݸٹ دسقَٹݳرݸ گݵݳ.
+vote-transcript-error = ٹرݳنسکرپٹ دسقَٹݳرِنݺ بلݸ اݵکہ غلطݵکݳ مݳگݸم اَئی
+transcript-edited-success = ٹرݳنسکرپٹ کݳمݵݳبِسکݸٹ ترمݵم ہُݸئݵ
+transcript-edited-error = ٹرانسکرپٹ ترمݵم اِرِنݺ بلݸ اݵکہ غلطݵکݳ مݳگݸم اَئی
+error-fetching-transcriptions = ٹرانسکرپشنݳ آنِنݺ بلݸ مسلݳک ہُݸݵݳ. مِربݳنݵ رݵ مُشَس کھݸشِش اِرݳ.
+transcript-skipped-success = ٹرانسکرپٹ کݳمݵݳبِسکݸٹ فَت ہُݸئی
+transcript-skipped-error = ٹرݳنسکرپٹ فَت اِرِنݺ بلݸ اݵکہ غلطݵکݳ مݳگݸم اَئی
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = ٹھݵک / صحݵح
