@@ -43,23 +43,23 @@ terms-disagree = موْ متفِق نانُس۔
 first-cta-header-text = تومہ صوتی کلپس عطیہ تھونے کِرِیا څھے شکریہ ǃ
 first-cta-subtitle-text = اسوڑ توموْ بارَد رزی څھوْس ڈویلپروڑ شِناک کہ جامع ٹیکنالوجی سنون دہ امداد تُھویت۔
 why-donate = تُس کیْہ کھوجِینوئے؟
-why-donate-explanation-1 = آ معلومات دون اختیاری نیْ، څھوْ اسہ وخ دہ ٹل تھون پکارنَت چہ څھوڑ ہسنتِیا  بی۔ کرہ بیْس ڈیٹاسیٹ جاری تھوݨَس توْ بیْس تمام ذاتی معلومات محفوظ رڇھوݨَس۔ آں آ موْڙِجیْ یقین تھوݨَس چہ څھے نُوم گہ ای میل، آبادیاتی معلومات، عمر گہ جنسے بارد منسلک نانیْ۔
+why-donate-explanation-1 = آ معلومات دون اختیاری نیْ، څھوْ اسہ وخ دہ ٹل تھون پکارنَت چہ څھوڑ ہسنتِیا  بی۔ کرہ بیْس ڈیٹاسیٹ جاری تھوݨَس توْ بیْس تمام ذاتی معلومات محفوظ چھوروݨَس۔ آں آ موْڙِجیْ یقین تھوݨَس چہ څھے نُوم گہ ای میل، آبادیاتی معلومات، عمر گہ جنسے بارد منسلک نانیْ۔
 why-donate-explanation-2 = ٹیکنالوجی ہر ایْکے کِرِیا مِݜٹیْ شان گیْ کوْم تھونے کِرِیا، کھاں ڈیٹا ڈویلپوڑز کو ٹیکنالوجی سنون دہ امداد تِھینیْ۔ جگو تنوع رینجے عکاسی ضورڑتِن۔ مثال گیْ، اگر بیْس کوئے خاص لہجہ سے ساتیْ کوئی اسپیکر ٹل نہ تھوݨَس، <learnMore> توْ ٹیکنالوجی اسہ لہجائے جگو کِرِیا مڑے شان گیْ کوْم نہ تھوبَو۔ آسے بارَد شنا گہ لڇھونے کِرِیا  چہ میٹاڈیٹا سہ کیْہ اہمُن۔ </learnMore>
 add-information-button = معلومات ٹل تِھیا۔
-continue-speaking-button = نیں شکریہ، موْݜ کال جاری تِھیا۔
-create-profile-text = تومیْ معلومات محفوظ تھون لُکھینَت<createProfile> ایْک پروفائل سنِیا</createProfile>
+continue-speaking-button = نیں شکریہ، موْݜ کال جاری پھتِیا۔
+create-profile-text = تومیْ معلومات محفوظ تھون لُکھینَت توْ<createProfile> ایْک پروفائل سنِیا</createProfile>
 thanks-for-voice-toast = څھے آوازے معلوماتے شکریہ۔
 thanks-for-voice-toast-error = څھے آوازے معلومات جمع تھون دہ ایْک خرابی پیخ آلِن۔
-first-cta-gender-select-default-option = ایْک آپشن اُچِیا۔
+first-cta-gender-select-default-option = ایْک آپشن منتخب تِھیا
 first-cta-gender-select-help-text =
     .label = څھوْس تومیْ جنس یا جنسے وضاحت کاتھ تُھویت؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تومیْ آواز عطیہ دونے کِرِیا څھے شکریہ۔
-second-cta-subtitle-text = څھوْ پروفائل سے ساتیْ تومیْ سرگرمی جیْ نظر بِدبانَت آں صوتی ڈیٹائے تعاون تھیگ جگو سے رابطہ گہ تھوبانَت۔
+second-cta-subtitle-text = څھوْس پروفائل سے ساتیْ تومیْ سرگرمی جیْ نظر بِدبانَت آں صوتی ڈیٹائے تعاون تھیگ جگو سے رابطہ گہ تھوبانَت۔
 already-have-an-account = مُڇھو گیْ اکاؤنٹ ہنو <login> لاگ ان </login>
 create-profile-button = ایْک پروفائل سنِیا۔
 # IMAGE TAGS
-img-alt-success-checkmark = بَرَیئے نکھوْ
+img-alt-success-checkmark = کامیابی نکھوْ
 # menu item
 read-sentences = جُملائے پڑِیا۔
 
@@ -71,6 +71,6 @@ answer-questions-menu-item-tooltip = تومیْ جِب دہ سوالو گہ اش
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = اختیاراتو مینو رزہ۔
+speak-contribute-menu-aria-label = اختیاراتو مینو ڇکِیا
 read-sentences-menu-item-aria-label = قامے جگو طرفِجیْ مختلف جِبو جمع تِھیلہ جُملائے پڑِیا۔
 answer-questions-menu-item-aria-label = قامے جگوڑ پڑیون گہ جُواب دونے کِرِیا ایْک نو سُوال ڇھیݨ۔
