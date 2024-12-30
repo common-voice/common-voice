@@ -24,7 +24,7 @@ new-sentence-rule-8 = مثالی شان گیْ فطری موْݜ کال (آ جم
 login-instruction-multiple-sentences = <loginLink> لاگ ان </loginLink> یا سائن اپ </loginLink> لا جُملائے ٹل تھونے کِرِیا </loginLink> لاگ ان یا سائن اپ تِھیا۔
 how-to-cite = موْس حوالہ کاتھ دیم؟
 how-to-cite-explanation-bold = یو آر ایل لنک یا کوْمے تام نُوم سے حوالہ دِیا۔
-how-to-cite-explanation = اگر آ څھے تومہ الفاظَن توْ صرف <italicizedText>  توموْ اقتباس</italicizedText> اسوْڑ آ پرجونے ضورڑتِن چہ آ مواد څھوْڑ کُدِیؤ ہشِلُن جہ بیْس چیک تھوبوݨ چہ آ عوامی ڈومین دانوْ آں کاپی رائیٹ اےْ پابندی لاگو نہ بِینیْ۔ حوالو بارَد <guidelinesLink> رہنما اصول </guidelinesLink> ڇکِیا۔
+how-to-cite-explanation = اگر آ څھے تومہ الفاظَن توْ صرف <italicizedText>  توموْ اقتباس</italicizedText> اسوْڑ آ پرجونے ضورڑتِن چہ آ مواد څھوْڑ کُدِیؤ ہشِلُن چہ بیْس چیک تھوبوݨ چہ آ عوامی ڈومین دانوْ آں کاپی رائیٹ اےْ پابندی لاگو نہ بِینیْ۔ حوالو بارَد <guidelinesLink> رہنما اصول </guidelinesLink> ڇکِیا۔
 guidelines = رہنما اصول
 contact-us = رابطہ تِھیا
 add-sentence-success = جُملہ ٹول تِھجِلوْ۔
@@ -41,7 +41,7 @@ sentence-domain-select-placeholder = ڇے ڈومین بُجَیش اختیار �
 # Sentence Domain dropdown option
 agriculture_food = زراعت گہ خوراک
 # Sentence Domain dropdown option
-automotive_transport = آٹوموٹو گہ ٹرانسپورٹ
+automotive_transport = آٹوموٹِیو گہ ٹرانسپورٹ
 # Sentence Domain dropdown option
 finance = فنانس
 # Sentence Domain dropdown option
@@ -53,7 +53,7 @@ healthcare = ہیلتھ کیئر
 # Sentence Domain dropdown option
 history_law_government = تاریخ، قانون گہ حُکمت
 # Sentence Domain dropdown option
-language_fundamentals = جِبے بُنیادہ اصول (مثال گیْ ہندسائے، حرفی، رقم)
+language_fundamentals = جِبے بُنیادی اصول (مثال گیْ ہندسائے، حرفی، رقم)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا گہ تفریح
 # Sentence Domain dropdown option
@@ -62,7 +62,7 @@ nature_environment = فطرت گہ ماحول
 news_current_affairs = خبرہ گہ حالات حاضرہ
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی گہ روبوٹکس
-sentence-variant-select-label = جُملائےب تغیّر
+sentence-variant-select-label = جُملائے تغیّر
 sentence-variant-select-placeholder = ایْک قسم منتخب تِھیا (اختیاری)
 sentence-variant-select-multiple-variants = عام جِب/بسکیْ متغیّرات
 
@@ -70,7 +70,7 @@ sentence-variant-select-multiple-variants = عام جِب/بسکیْ متغیّ�
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومین اےْ جُملائے اپ لوڈ <icon></icon> تِھیا۔
-sc-bulk-upload-instruction = تومیْ فائل ادی <uploadButton> دَدلِیا یا اپ لوڈ </uploadButton> تھونے کِرِیا کلک تِھیا۔
+sc-bulk-upload-instruction = تومیْ فائل ادی <uploadButton> اٹِیا یا اپ لوڈ </uploadButton> تھونے کِرِیا کلک تِھیا۔
 sc-bulk-upload-instruction-drop = اپ لوڈ تھونَڑ ادی پھل تِھیا۔
 bulk-upload-additional-information = اگر څھوْس آ فائلے بارَد جو بسکوچیْ معلومات دینَت تو مہربانی تھے رابطہ تِھیا <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = اگر څھوْس آ فائلے بارَد بسکوچیْ معلومات دینَت توْ کھاں ٹیمپلیٹ دہ ٹل نانیْ تو مہربانی تھے رابطہ تِھیا۔<emailFragment>commonvoice@mozilla.com</emailFragment>
