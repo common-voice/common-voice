@@ -20,3 +20,5 @@ submit-all-button = بُٹݺ ہگݵ بِجݳل
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = اݽݵئ وَرَق کݵ اِرِݵ استِمݳل اِرݵݣݺ چھݺ چھݵچ
+learn-how-to-use-prompts-explanation = بس اݽݵئ پرمپٹݵئ قدرتݵ اندݳزَنݳ کمݵک جملݵمݳ جݸݳب دݸ. اݽݵئ یقݵنݵ را تݳ تُمݳ بݳݽ عزت آمݵزچھݵ تݸہݵن آمݵز نِکِن.
