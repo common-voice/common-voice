@@ -8,6 +8,8 @@ no-prompts-message = انا جیِبے کارا پرمپٹ نیِش۔ مہربا
 error-skipping = انا پرمپٹ پھتونودر ایک غلطی پیش ہنی
 error-recording = ریکارڈنگ در ایک غلطی پیش ہنی
 error-fetching-prompts = پرامپٹس ھاصل تھونو وقت درجے سا غلطی بئیا
+error-uploading-response = تھئی رسپانس اپلوڈ تھؤنو در ایک غلطی بیلسی
+prompt-submitted-success = رسپانس کامیابی ست سبمیٹ بیلو
 # For the button to delete a response to a prompt
 delete = ڈیلیٹ
 # For the disabled button on a prompt that indicates a prompt is already submitted
@@ -17,3 +19,4 @@ submit-all-button = بُوٹے اُولا
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = انا پیج چلؤنو چل ازدا تھئی

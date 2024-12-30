@@ -9,6 +9,11 @@ why-card-1-text = فائدہمند <mark> ارگنک اسپیچ کانیکسٹ</
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = جیبے ھقیقت کارا بہترین سپورٹ مثلاً جیبے ترجمہ اؤ<mark> کوڈ سوئچنگ</mark>
 how-spontaneous-speech-works = بے جوڑ تقریر کدی کوروم تھین
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark> ہوم پیج</mark>
+prompt-bubble-subtitle = اسو تو تی ایک پرمپٹ یا سوال پشارونو
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark> جواب</mark>
 respond-bubble-subtitle = تو ما تھی جواب دے تو کدا کوروم تھین
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark> ٹرانسکرائیب </mark>

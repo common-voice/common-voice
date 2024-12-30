@@ -19,7 +19,7 @@ sc-review-form-button-approve-shortcut = y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = S
+sc-review-form-button-skip-shortcut = ایس
 sc-review-form-keyboard-usage-custom = تو ہُم کیبورڈ شارٹ کٹ استعمال تھو بئیلا: { sc-review-form-button-approve-shortcut } منظور تھون،{ sc-review-form-button-reject-shortcut }رد تھونو کارا{ sc-review-form-button-skip-shortcut }سکیپ تھونو کارا
 sc-review-form-button-submit =
     .submitText = جائزہ ختم بونو
