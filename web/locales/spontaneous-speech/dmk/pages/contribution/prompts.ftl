@@ -26,3 +26,4 @@ learn-how-to-use-prompts-guidance = <guidanceLink>اݽتھݳ ذُق </guidanceLi
 learn-how-to-use-transcribe = کݵ رِی پݸرجِنݳ چھتݵئ ترجمہ رݵݣݺ چھݺ تݳ چھِچݳ
 learn-how-to-use-transcribe-explanation = بندَن کݵسݵک مُنِن چھݳ ہݵئ رݵ اِݵ گِرمِنݳ اݵݣ لفظݵڎ کݸٹ کݵ زݳئلَس 'um' ݵݳ 'err' چھݺ تݳ.
 learn-how-to-use-transcribe-guidance = <guidanceLink>اݽتھݳ ذُق </guidanceLink> ارݳ چھچِنݳشݸ تݳ کݵ رِݵ اݽݵئ وَرَق اِستِمݳل اِرݵݣݺ چھݺ
+learn-how-to-use-check-transcript = ٹرݳنسکرِپشَن کݵ رِݵ چݵک اِرݵݣݺ چھݵتݳ چھݵچ
