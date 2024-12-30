@@ -7,7 +7,7 @@ listen-last-time-instruction = <playIcon> </playIcon>ساوات
 listen-empty-state = مئیں قیاس ہن زانٚگے کٹرو بارزانٚتے۔ پنٚڑ تازا کرہ یا پاتیُوں لکھ گتہ کوشش کرہ۔
 listen-empty-state-variants = مئیں قیاس ہن څَئیں ݜُو خاص زبئیں جُملی زانٚگئے بارزی تھی، کہ تے مِٹھ لیل ہُنلُو تاں سیٹنگ بدل کر تہ تُو تَئیں زِب مہ مُوئیت جملی پشے
 listen-loading-error = زؤں تئیں ݜُوئیں کراں گھنئیں کٹرُو نی ڇالہاں څھے۔ مھیربانی کرے گتہ کوشش کرہ۔
-listen-abort-title = کٹرَو صحیح  کرے تصدیق کرئیں عمل بئیرا۔
+listen-abort-title = کٹرو واں تصدیق کرَیں یاں عمل باریۡرائ تُھو یی؟
 listen-abort-cancel = صحیح کرے تصدیق کرئیں عمل جاری رڇھہ
 listen-abort-confirm = صحیح کرے تصدیق کرئیں عمل بئیرا
 # Menu item

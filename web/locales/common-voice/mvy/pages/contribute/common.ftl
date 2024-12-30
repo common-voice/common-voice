@@ -42,7 +42,7 @@ submit-form-action = جمع کرہ
 
 report = خبر
 report-title = خبر جمع کرہ
-report-ask = اَس بلی / جُملہ مہ تے گی گِرانی لیل ہُوندی؟
+report-ask = اَس بلی / جُملہ مہ تگے گی گِرانی لیل ہُوندیۡ/ہوئین٘ت؟
 report-offensive-language = قبیح/اڅھکی ژیب
 report-offensive-language-detail = اَس جُملہ مہ اچھی یا اڅھکی ژیب استعمال ہُو تھی
 report-grammar-or-spelling = گِرامرَیں / ہیزی وَیں غلطی
