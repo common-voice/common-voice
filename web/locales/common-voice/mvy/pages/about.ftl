@@ -7,18 +7,18 @@ how-does-it-work-text = بے اوازاں پاتُو مُن٘ڈاں ڈیٹا س�
 
 ## How does it work section
 
-about-language-req-subtitle = بے کیں ایک ژیب اوک ٹل کرَیں یاں درخواست دی چھی
+about-language-req-subtitle = اول بے کؤں ایک ژیب اوک ٹل کرَیں یاں درخواست دی تُھو
 about-localization-title = ویب سائٹ تَیں ژیبے گلؤں
-about-localization-subtitle = ویب سائٹَیں لِکیل ژیب گُھرژی گے(مرک ہُوگے)۔
+about-localization-subtitle = ویب سائٹَیں لِکیل تَیں ژِبے مرک کرؤں۔
 about-sentence-collection-title = جُملی وَیں کَھلٹُو
-about-sentence-collection-subtitle = جُملی خَلکا‌ں دَن جمع کرژی تھی لہ سَیں تالا بناں
+about-sentence-collection-subtitle = خلکاں دَن جُملی جمع ہُون٘دیۡ کھیں تے سَیں تا لا بناتھو۔
 about-new-lang-title = نَیں ژیب خلکؤں مُوٹھن اؤں
-about-new-lang-subtitle = بے کامَن وائساں سائٹ ݜُو ژِب مہ شُروع کرِگ تھہ۔
+about-new-lang-subtitle = کامن وائساں ویب سائٹ ݜُو ژِبہ مہ شروع ہُوئ تُھو۔
 about-voice-contrib-title = اَواز دیوں
 about-voice-contrib-subtitle = خَلکہ ایں تھو آں تاں اوازہ دیں تھو۔
 about-voice-validation-title = اواز منظُور کرؤں
-about-voice-validation-subtitle = سیں اوازاں کٹرو مُت خلکؤں منظُور کرچھی/کرڅھے
-about-dataset-release-title = ڈیٹاسیٹ جاری کرہ
+about-voice-validation-subtitle = ݜَیں اوازاں کٹرو مُت خلک منظُور کراں تھو۔
+about-dataset-release-title = ڈیٹاسیٹ (معلُوماتَیں پیٹی) جاری کرؤں
 about-dataset-release-subtitle = بے ہر 3 یُون٘ہؤں مہ ڈیٹا سیٹ جاری کرِگ تھہ۔
 about-subscribe-text = کامَن وائس مِلیۡ رابطہ مہ دھرَیں یاں غرضی تُھو یی؟
 about-speak = بَنہ

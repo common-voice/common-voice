@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = لِکہ۔
+write = لِکہ
 write-instruction = ایک عوامی ڈومین والا جُملہ <icon> </icon>  اک عوامی ڈومین والا جُملہ
 write-page-subtitle = ݜلہ جمع کریلیۡ جُملی ایک عوامی طور لا/تل موجود cc-0 لھیسن والا ڈیٹا سیٹ مِل ٹل ہوتھی/ ہُونٚݜِتی۔
 sentence =

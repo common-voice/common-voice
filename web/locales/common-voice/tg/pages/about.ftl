@@ -52,6 +52,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкуни�
 
 about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 about-playbook-how-localize-content-1 = Тарҷумаи сомонаи «Common Voice» дар «<strong>Pontoon</strong>» сурат мегирад.
+about-playbook-how-localize-content-4 = Сомона барои оғози кор омода мешавад, вақте ки ҳаҷми тарҷумаи он ба 75 дарсад мерасад.
 about-playbook-how-localize-content-5 = Барои кумак видеои шарҳдиҳандаи моро бинед
 
 ## How to add sentences
@@ -61,6 +62,7 @@ about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро ил�
 ## How to record quality
 
 about-playbook-how-record-quality = Чӣ тавр ман сабти овозии баландсифатро сабт намоям?
+about-playbook-how-record-content-3 = Ҷумларо бо диққат хонед - калимаҳоро бе хато хонед, тағйир надиҳед ё илова накунед.
 about-playbook-how-record-content-5 = <accuracyLink>Дар бораи меъёрҳои дақиқ бештар хонед.</accuracyLink>
 
 ## How to grow language
@@ -80,7 +82,9 @@ about-playbook-how-access-dataset-content-1 = Шумо метавонед ба �
 ## How are decisions made
 
 about-playbook-how-project-governance = Қарорҳои лоиҳа чӣ гуна қабул карда мешаванд?
+about-playbook-how-project-governance-content-2 = Идоракунии мо ба рукнҳои зерин асос ёфтааст:
 about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
+about-playbook-how-project-governance-content-4 = Иштироки ҷомеа ва қабули қарорҳо.
 about-playbook-how-project-governance-content-5 = Арзиш ва эътироф.
 about-playbook-how-project-governance-content-6 = Масъулияти тарафайн.
 

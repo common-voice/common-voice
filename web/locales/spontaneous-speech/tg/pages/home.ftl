@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Хуш омадед ба «Spontanous Speech»
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Ҷавоб додан</mark>
 # text wrapped in <mark></mark> will have a blue background

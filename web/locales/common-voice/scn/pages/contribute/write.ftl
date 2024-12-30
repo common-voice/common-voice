@@ -108,6 +108,10 @@ add-small-batch-success =
        *[other] { $uploadedSentences } di { $totalSentences } frasi ricugghiuti
     }
 small-batch-sentences-rule-1 = Sicuta i lini guida dâ sizzioni “Chi frasi pozzu jùnciri?”
+small-batch-sentences-rule-2 = Junci na frasi p'ogni linia
+small-batch-sentences-rule-4 = Junci nzinu a 1.000 frasi
+# menu item
+add-sentences = Junci frasi
 
 ## MENU ITEM TOOLTIPS
 
