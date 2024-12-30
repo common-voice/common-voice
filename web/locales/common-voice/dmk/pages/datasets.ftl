@@ -65,10 +65,13 @@ download = ڈݳݸنلݸڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چݵکسم کݳپݵ ہݸݵݳ!
 sha256-checksum-copied-error = SHA256 چݵکسم کݳپݵ نݵ ہݸݵݳ!
+clipboard-not-supported = کِلِپبݸرڈ سپݸرٹ نݵ ہݸݵݳ
+no-information-available = معلݸمݳتݸݣ دستݵݳب نݳ
 dataset-metadata-sex = جِنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عُمر
 donate-modal-message = تُمݳ ڈݵٹݳ سݵٹ ڈݳݸنلݸڈ ہݸگݳ چھݳ
 dataset-donate-modal-heading = تُݸ دݽݳرݺ چھݳئݺ…
+donate-modal-explanation-1 = اݽݵئَس تقرݵبݳً اݵک ملݵَن ڈالر سالانہ خرچ ہݸݣݺ چھݺ ڈݵٹݳ سݵٹݳ ہݸسٹ اِرِنݳئی کݳرݸ نݸ +100 بݳݽݵئ کمݵݸنِٹݵݣݺ کݳرݸ پلݵٹ فݳم شݳ رِنَئ کݸنݺ امݳ خدمَتݵڎ انحصݳر ارݵگݳ چھݳ.
 data-download-yes = اَوݳ
 data-download-deny = نِکݶ
