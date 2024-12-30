@@ -45,6 +45,7 @@ feedback-q = فݵڈ بݵک چھݳ؟
 # This indicates that there is no data to display
 no-information = معلݸمݳت نݳ
 resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink>™ اݵک<docsLink> اݸپن سݸرس ٹݸل کِٹ</docsLink> لنک چھݳ کݸنݸن تحقݵق اِرݵݣݺ اݵݣݵݣݺ کݳرݸ جدݵد ترݵن مکݳلمݳتݵ AI مݳڈݵلݳ تݵݳر اِرِنݺ بلݸ تعݳݸن اِرݵگݳ چھݳ
+resource-deepspeech-info = مݸزݵلݳئی ݳݸپَن سݸرس ݸݳئس ریکگنݵشَن اِنجن ڈݵپ اسپݵچ کݸ اسپݵچ رݵکگنݵشَن اݵپلݵکݵشَنݳ دُرݳلِنݳئی کݳرݸ اِستِمݳل اِرݸ جݳئی شکݵگݳ چھݳ. امݳ <githubLink>گِٹ ہَبݵئ جݳئزہ مُنݳ</githubLink> ݵݳ <discourseLink>ڈݵپ اسپݵچݵئ ڈِسکݸرسَنݳ</discourseLink> کݸٹ ہُݸݳ تݳکہ شُرݸع رِنݳئݵ طرݵقہ چھِچݵ شکݸن.
 community-playbook = کمݵݸنٹݵ پِلݵبُک
 data-other-ted-name = TED-LIUM Corpus
 more = مزݵد / بُݸت
