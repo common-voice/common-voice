@@ -26,6 +26,8 @@ wall-of-text-second =
 show-wall-of-text = مزݵد مُنݳ / بݸت مُنݳ
 help-us-title = جملݵݣݺ تصدݵق ارِنَنݳ امݳ مدد اِرݳ!
 help-us-explain = ہَنݳنئ بَٹَن چِرکݳ، پݸرجݳ نݸ امݵچُݸ مُنݳ: منݵنݵ ہݵئ جُملہ اݵݣݺ ٹھݵک منِنݵیݺ؟
+no-clips-to-validate = اَشݵ دِکھِلݸگݳ چھَتݳ اݽݳئی بݳݽَنݳ پݸجِنݳشُݸ کِلِپݸݣ نݳ. کمݵک رݵکݳٹ اِرِݵ  ڈݵٹݳ آئٹمݵݣݺ لِسٹ پُر اِرِنݳنݳ مَدَد دݸ.
+toggle-play-tooltip = پلݺ مݸڈ کھُلݳ یݳ بَن اِرِنݳشُݸ چِرکݳ.{ shortcut-play-toggle }
 
 ## Account Benefits
 
