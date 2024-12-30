@@ -85,3 +85,14 @@ data-download-modal = تُمݺ <size>{ $size } GB</size>ڈݳݸنلݸڈ شُرݸ�
 data-subtitle = امݺ کھُلݳ نݸ عݸݳمݵ سطَس دستݵݳب چھَتݵݣݺ ڈݵٹݳ سݵٹݵک دُرݳلَم چھݸم کݸنݸ ہر کݸکِن بݳشِنَس مݸ متعلِق اݵپلݵکݵشَنݵݣݺ تربݵتݵئ کݳرݸ اِستِمݳل اِرِی شکݸن.
 data-explanatory-text = امݵچُݸ دَک چھݵ تݳ بڑݺ نݸ عݸݳمݵ سَطَس ہَتَنݳ چھݺ چھَتݵݣݺ ڈݵٹݳ سݵٹ مشݵنَس مݸ چھِچِنَس مبنݵ تقرݵرݵ ٹݵکنݳلݸجݵ نݳ جدَّت نݸ صحَت مَند کݳرݸبݳرݵ مُقݳبلَشُو فرݸغ دݵݣݺ چھݺ. اݽݵئ اݵک ٹݸک دنݵاتݵئ کھݸشِشݵک چھݳ نݸ بُٹݵچُݸ اݽݵیَنݳ حِصَہ لݵئنݳئی دعݸت دݵݣݺ چھݺ. امݳ مقصَت اݽݵئ چھݳتݳ تقرݵرݵ ٹݵکنݳلݸجݵ مزݵد  گٹَنݸ درݳلݸ جݸ، کݸنݸن دُنݵݳ ٹݸکݵئ چھَتݵݣݺ متنݸعِݵَتݵئ عکݳسݵ رݸ.
 data-get-started = <speechBlogLink> اسپݵچ رکگنݵشَنَس کݸٹ شُرݸع اِرَم</speechBlogLink>
+data-other-title = اݸرݳ چھَتݵئ ڈݵٹݳسݵٹݳ…
+data-other-goto = جݸ { $name }
+data-other-download = ڈݳݸنلݸڈ ڈݵٹݳ
+data-bundle-button = ڈݳݸنلݸڈ ڈݵٹݳ سݵٹ بنڈَل
+data-bundle-description = کݳمَن وݳئس ڈݵٹَس کݸٹ کݸٹ اَڎِݵ دݵنݺ بُٹݺ چھَتݵݣݺ ڈݵٹݳ سݵٹݳ.
+release-version = ورژن
+dataset-date = تݳرݵخ
+license = لݳئسنس: <licenseLink>{ $license }</licenseLink>
+license-mixed = جَرمݸݽ ہݸݵݳ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = امݳ چھتݵݣݺ ڈݵٹݳ سݵٹݳ ڈݳݸنلݸڈ اݵر
