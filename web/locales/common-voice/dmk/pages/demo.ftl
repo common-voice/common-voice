@@ -17,6 +17,7 @@ demo-account = اݵکݳݸنٹ
 
 ## Demo Account
 
+demo-account-card-header = حِصَہ بݳنݳشُݸ اݵکݳݸنٹݵک ہُݸئنݳ اوݳجݵ نݳ، البتہ مَدَد گݳر ہݸگݳ.
 demo-account-enter-email =
     .label = سݳئن اَپ لِنک بِجݳلِنَشُݸ اݵ مݵل بݳ
 demo-account-sign-up = سݳئن اَپݵئ لِنک بِجݳل
