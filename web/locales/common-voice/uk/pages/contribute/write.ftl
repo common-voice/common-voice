@@ -158,6 +158,14 @@ add-sentences = Додати речення
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Додавайте й перевіряйте речення, додавайте запитання і транскрипції аудіо
+add-sentences-menu-item-tooltip = Додайте речення своєю мовою
+review-sentences-menu-item-tooltip = Перевіряйте речення своєю мовою
+add-questions-menu-item-tooltip = Додавайте запитання своєю мовою
+transcribe-audio-menu-item-tooltip = Транскрибуйте аудіозаписи своєю мовою
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Меню налаштувань написання
+add-sentences-menu-item-aria-label = Додавайте нові речення для прочитання спільноті
+review-sentences-menu-item-aria-label = Перевіряйте наявні речення, надані спільнотою

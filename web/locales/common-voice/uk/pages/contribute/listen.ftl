@@ -18,7 +18,11 @@ validate-readings = Затвердити прочитання
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Затвердити прочитання, перевірити транскрипції
+validate-readings-menu-item-tooltip = Затверджуйте прочитання вашою мовою, записані користувачами
+review-transcriptions-menu-item-tooltip = Перевіряйте транскрипції вашою мовою, надані користувачами
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Меню опцій прослуховування
+validate-readings-menu-item-aria-label = Затверджуйте прочитання, надані учасниками спільноти
+review-transcriptions-menu-item-aria-label = Перевірте точність транскрипції записаних речень
