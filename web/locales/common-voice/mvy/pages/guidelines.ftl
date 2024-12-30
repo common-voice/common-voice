@@ -51,6 +51,7 @@ citing-sentences = جُملی وَیں حوالہ
 adding-sentences = جُملی ٹل کرُژاں تھی
 reviewing-sentences = جُملی دُوبارہ نھالُژاں تھی
 sentence-domain = جُملی وَیں ڈومین
+citing-sentences-explanation-1 = حوالی دېوں چو لازمی تُھو ݜے چے بے نھالِگ چے ݜَیں جُملی عوامی تھی گی نئ آں اېوں لا کاپی رائیٹاں گی قانُون تُھو گی نئ۔
 citing-sentences-subheader-websites = ویب سائٹہ
 citing-sentences-subheader-websites-explanation = تو ویب سائٹ ٹل کریں تھو/کراں ہاں تھو۔ مثالاں طور لا "کامن وائس" https://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = تعلیمی حوالہ
