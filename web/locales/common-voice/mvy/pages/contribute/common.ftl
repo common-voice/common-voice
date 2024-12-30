@@ -76,7 +76,7 @@ shortcut-discard-ongoing-recording = ڈیوہ
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ الُو دے/لاء دے۔
 shortcut-submit = پاتُو گُھرہ
 shortcut-submit-label = کٹرو جمع کرہ
-request-language-text = ہَویں ہاری تُوں عام آوازاں پروگرامہ مہ تَیں ژیب نی پَیچھی یی؟
+request-language-text = ہُویں ہاریۡ تُوں کامن وائس پروگرامہ مہ تَیں ژیب نی پَیچھی یی؟
 request-language-button = ژِباں کریا درخواست کرہ
 
 ## Listen Shortcuts
