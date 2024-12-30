@@ -48,6 +48,7 @@ resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink>™ اݵک<docsLink> 
 resource-deepspeech-info = مݸزݵلݳئی ݳݸپَن سݸرس ݸݳئس ریکگنݵشَن اِنجن ڈݵپ اسپݵچ کݸ اسپݵچ رݵکگنݵشَن اݵپلݵکݵشَنݳ دُرݳلِنݳئی کݳرݸ اِستِمݳل اِرݸ جݳئی شکݵگݳ چھݳ. امݳ <githubLink>گِٹ ہَبݵئ جݳئزہ مُنݳ</githubLink> ݵݳ <discourseLink>ڈݵپ اسپݵچݵئ ڈِسکݸرسَنݳ</discourseLink> کݸٹ ہُݸݳ تݳکہ شُرݸع رِنݳئݵ طرݵقہ چھِچݵ شکݸن.
 resource-coqui-info = <coquiLink> Coqui</coquiLink>کھُلݳ تقرݵرݵ ٹݵکنݳلݸجݵ کݳرݸ وقف چھݳ. اݵݣݺ منصݸبݺ مݳ غٹُم تعلݵمَس مبنݵ STT نݸ TTS انجݵنݳ کݸٹ چھݺ.
 community-playbook = کمݵݸنٹݵ پِلݵبُک
+resource-playbook-info = <playbookLink>مفݵد رہنمݳئݵ حݳصِل اِرݳ</playbookLink> کݸنݵݳ   پݸرݳ کݳمَن وائسݵئ سفرݵئ احݳطہ رݵگݵ چھݵ، لݸکلݳئزݵشَنَسمݸ جݳئݵ ڈݵٹݳ سݵٹݵئ اِستِمݳلَشݸ خݳ، نݸ امݳ کمݵݸنِٹس کݸٹ لِݽ ہݸئنݳئی طرݵقݳ شُݸ خݳ.
 data-other-ted-name = TED-LIUM Corpus
 more = مزݵد / بُݸت
 close = بَن
