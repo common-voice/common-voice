@@ -1,12 +1,12 @@
 speak = منہ/بنہ
-speak-now = ہِئیں مَنہ
-speak-subtitle = تاں اواز دَے۔
+speak-now = ہِئیں مَنہ/ ہُویں بنہ
+speak-subtitle = تاں اواز دے
 record-cta = ٹَېپ کرَئیں شروع کرہ
-record-platform-not-supported = خپا نی ہُو، تئیں پلېٹ فارم فی الحال کام نیرانٚت۔
+record-platform-not-supported = خپا نی ہُو، تئیں/تیں پلېٹ فارم فی الحال کام نیرانٚت/نیریۡ تُھو
 record-platform-not-supported-desktop = تاں کمپیوٹرہ تل توۡ بِگ اوک ڈاؤن لوڈ کرے تاں حصہ گلہانٚت۔
 record-platform-not-supported-ios-non-safari = iOS تل رِکارڈِن٘گ یا ٹَیپ کرَیں کراں سفاری تل ٹک کرے مُوٹُھو بہ۔
-record-must-allow-microphone = تِگے مائیکروفون یا کناں فون استعمال کرئیں اجازت دیوں ہُونٚݜَت۔
-record-no-mic-found = میک نی ڇالُوئیز تُھو
+record-must-allow-microphone = تِگے مائیکروفون یا کناں/کن٘ڑاں فون استعمال کرئیں اجازت دېوں ہُونٚݜَت/ہو تُھو۔
+record-no-mic-found = مېک نی ڇالُوئیز تُھو
 record-error-too-short = رِکارڈِن٘گ څو کھٹؤں آن٘س
 record-error-too-long = رِکارڈِن٘گ څَو ڙِگ آن٘س
 record-error-too-quiet = رِکارڈِن٘گ مہ اواز څو کم آن٘س
