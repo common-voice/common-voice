@@ -69,6 +69,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = جُملَیں ہ�
 adding-sentences-subheader-speakable = بنژَیں یاں قابل
 adding-sentences-subheader-speakable-explanation = بُٹؤں نہ من٘ڑنئ جُملی فطرتی آں مشقُلائیں ہوں تھی — گِنہٛ چے اېں پڑژَیں ہسان ہوں تھی۔ جُملہ مہ رن٘گ رن٘گاں لفظہ چے اہم تھو۔ زَیں کوشش ݜو تھی چے جُملی ݜے لک ہوں چے سَیں پڑَیں مہ تے دوبارہ نھالَیں مہ مزہ اے۔
 adding-sentences-subheader-numbers = ہِندسی
+adding-sentences-subheader-numbers-explanation = پکار لہ ݜے تھی چے جُملیُوں مہ ہندسی نی ہوں گِنہ چے اَیں تا لا بنَیں مہ گِران ہوں تھی۔ جُملہ مہ ہندسی مُوٹھ پات ایلی بلیُوں ملی تعلق رڇھاں تھی۔ مثالاں طور لا ایک نمبر “20” ”بیش“ گتہ پڑُژ تُھو آں ”دُو صفر“ گتہ۔
 adding-sentences-subheader-abbreviations = Abbreviations and Acronyms
 adding-sentences-subheader-abbreviations-explanation = Abbreviations and acronyms like “USA” or “ICE” should be avoided in the source text because they may be read in a way that does not coincide with their spelling. Additionally, there may be multiple accurate readings for a single abbreviation
 adding-sentences-subheader-punctuation = کامی تے نقطے
