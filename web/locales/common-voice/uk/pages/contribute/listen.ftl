@@ -12,9 +12,12 @@ listen-loading-error =
 listen-abort-title = Завершити перевірку озвучень?
 listen-abort-cancel = Продовжити перевірку
 listen-abort-confirm = Завершити перевірку
+# Menu item
+validate-readings = Затвердити прочитання
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Затвердити прочитання, перевірити транскрипції
 
 ## MENU ITEM ARIA LABELS
 

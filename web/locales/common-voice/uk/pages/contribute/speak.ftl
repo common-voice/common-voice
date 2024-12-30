@@ -60,3 +60,11 @@ already-have-an-account = Вже маєте обліковий запис? <logi
 create-profile-button = Створити профіль
 # IMAGE TAGS
 img-alt-success-checkmark = позначка успішності
+# menu item
+read-sentences = Прочитати речення
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

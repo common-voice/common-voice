@@ -153,3 +153,11 @@ small-batch-sentences-rule-3 = Розділяйте речення по одно
 small-batch-sentences-rule-4 = Додавайте до 1000 речень
 small-batch-sentences-rule-5 = Усі речення повинні мати однаковий домен
 small-batch-sentences-rule-6 = Усі речення повинні мати однакове цитатування
+# menu item
+add-sentences = Додати речення
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

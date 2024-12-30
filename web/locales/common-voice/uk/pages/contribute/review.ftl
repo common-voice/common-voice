@@ -67,3 +67,5 @@ review-error-rate-limit-exceeded = Ви надто поспішаєте. Пер�
 sc-redirect-page-title = Ми робимо великі зміни
 sc-redirect-page-subtitle-1 = Sentence Collector переходить на основну платформу Common Voice. Тепер ви можете <writeURL>написати</writeURL> речення або <reviewURL>розглянути</reviewURL> окремі пропозиції на Common Voice.
 sc-redirect-page-subtitle-2 = Ставте нам запитання на <matrixLink>Matrix</matrixLink>, на <discourseLink>Discourse</discourseLink> або <emailLink>електронною поштою</emailLink>.
+# menu item
+review-sentences = Перевірити речення
