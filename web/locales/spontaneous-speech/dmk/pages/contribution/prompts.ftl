@@ -7,6 +7,16 @@ prompt-page-instruction = { $actionType }<micIcon></micIcon>  نݸ جݸاب دݺ
 no-prompts-message = پِلحݳل اݽݳئی بݳݽݵئ کݳرݸ کݸنݵتݳ پرݳمپٹسݳرݺ مݸجݸد نݳ. مِربݳنݵ رِݵ وَرَق دݸبݳرہ رݵفرݵش اِرݳ ݵݳ مُشَس دݸبݳرہ کھݸشِش اِرݳ.
 error-skipping = اݽݵئ پرݳمپٹ فَت اِرِنݺ بلݸاݵکہ غلطݵکہ مݳگݸم اَئی.
 error-recording = رݵکݳڈِݣ اِرِنݺ بلݸاݵکہ غلطݵکہ مݳگݸم اَئی.
+error-fetching-prompts = پرݳمپٹ حاصِل اِرِنݺ بلݸ کمݵک غلط ہُݸݵݳ. مِربݳنݵ رِݵ مُشَس دݸبݳرہ کھݸشِش اِرݳ.
+error-uploading-response = تُمݳ جݸݳب اپلݸڈ اِرِنݺ بلݸ غلطݵکݳ مݳگݸم اَئی
+prompt-submitted-success = چھتݵئ ترجمہ / نَقَل، کݳمݵݳبِس کݸٹ ہَگݵ گݵئ
+prompt-response-deleted-success = جݸݳب کݳمݵݳبِس کݸٹ حذف ہݸئی
+# For the button to delete a response to a prompt
+delete = حذف / فَݽ
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = ہگݵ بِجݳلݸنݳ
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = بُٹݺ ہگݵ بِجݳل
 
 ## Explainer text (Respond to Prompt)
 
