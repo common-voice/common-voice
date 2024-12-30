@@ -40,10 +40,10 @@ sc-criteria-modal = ریویو ترجیحات
 sc-criteria-title = ریویو ترجیحات
 sc-criteria-make-sure = یقینی تِھیا چہ جُملہ درج ذیل معیارِجیْ پُوروْ بی۔
 sc-criteria-item-1 = جُملائے ہجّائے  سُونڇھہ بون پکارن۔
-sc-criteria-item-2 = جُملہ گرائمرے لحاظ گیْ سُونڇھوْ بون پکارن۔
+sc-criteria-item-2 = جُملہ گرائمرے لحاظ گیْ سُوݩڇھوْ بون پکارُن۔
 sc-criteria-item-3 = جملہ رزونے قابل بون پکارُن۔
 sc-criteria-item-4 = اگر جُملہ معیارِجیْ تام وزانوْ توْ &quot;منظور &quot; تھون دڇِھنِوْ بٹنِجیْ کلک تِھیا۔
-sc-criteria-item-5-2 = اگر جملہ رزِیلیْ معیارجیْ تام نہ بِینوْ تو کھبوتوْ بٹنِجیْ &quot;کلک &quot; تِھیا۔  اگر جُملائے بارَد یقین نِش تو اسس پھتے مُڇھنوڑ بوج بانَت۔
+sc-criteria-item-5-2 = اگر جملہ رزِیلیْ معیارجیْ تام نہ بِینوْ تو کھبوتوْ بٹنِجیْ &quot;کلک &quot; تِھیا۔  اگر جُملائے بارَد یقین نِش تو اسَس پھتے مُڇھنوڑ بوج بانَت۔
 sc-criteria-item-6 = اگر جائزہ ہرونے کِرِیا څھے جُملائے بڑِتھان، تو مہربانی تھے مُتہ جُملائے ٹول تھون دہ اسے امداد تِھیا۔
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیک <icon></icon> تِھیا آ لسانی اعتبار گیْ صحیح جُملانو یا؟
@@ -51,12 +51,12 @@ sc-review-rules-title = جُملہ تام ہدایاتو معیارَڑ اُڇھ
 sc-review-empty-state = فی الحال آ جِب دہ جائزہ ہرونے کِرِیا کھاں گہ جُملہ نِش۔
 report-sc-different-language = مختلف جِب
 report-sc-different-language-detail = آ اسہ جِبِجیْ مختلفِن کھاں سے موْس جائزہ ہرمس۔
-sentences-fetch-error = جُملو اوروڑ دہ ایْک اُرنئی آلِن۔
-review-error = آ جُملائے جائزہ ہرون دہ ایْک ڇھا بِلِن۔
+sentences-fetch-error = جُملو اوروڑ دہ ایْک خرابی آلِن۔
+review-error = آ جُملائے جائزہ ہرون دہ ایْک غلطی بِلِن۔
 review-error-rate-limit-exceeded = څھوْ لئی جِنیْ گیْ بوجنَت۔ مہربانی تھے جُملائے جائزہ ہرونے کِرِیا شِناکَک وخ نِکھلِیا توْ آ یقین تِھجبائے چہ آ صحیح نوْ۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = بیْس شِنا بڑیْ تبدیلی تھوݨَس۔
-sc-redirect-page-subtitle-1 = جُملہ جمع تِھیک بنیادی کامن وائس پلیٹ فارمڑ بوجانوْ۔ چیئے څھوْ <writeURL> لِکِیا</writeURL> ایْک جُملہ یا <reviewURL> ریویو تِھیا </reviewURL> ایْک جُملہ کامن وائس جیْ جمع تِھیا۔
+sc-redirect-page-title = بیْس شِنا بڑیْ معیاری تبدیلی تھوݨَس۔
+sc-redirect-page-subtitle-1 = جُملہ جمع تِھیک بنیادی کامن وائس پلیٹ فارمڑ بوجانوْ۔ چیئے څھوْس <writeURL> لِکِیا</writeURL> ایْک جُملہ یا <reviewURL> ریویو تِھیا </reviewURL> ایْک جُملہ کامن وائس جیْ جمع تِھیا۔
 sc-redirect-page-subtitle-2 = سوالات کھوجِیا <matrixLink> میٹریکس </matrixLink><discourseLink>موْݜ کال </discourseLink> یا <emailLink> ای میل</emailLink>
 # menu item
 review-sentences = جُملو جائزہ ہرہ۔
