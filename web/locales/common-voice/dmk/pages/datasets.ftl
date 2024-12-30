@@ -73,5 +73,11 @@ dataset-metadata-age = عُمر
 donate-modal-message = تُمݳ ڈݵٹݳ سݵٹ ڈݳݸنلݸڈ ہݸگݳ چھݳ
 dataset-donate-modal-heading = تُݸ دݽݳرݺ چھݳئݺ…
 donate-modal-explanation-1 = اݽݵئَس تقرݵبݳً اݵک ملݵَن ڈالر سالانہ خرچ ہݸݣݺ چھݺ ڈݵٹݳ سݵٹݳ ہݸسٹ اِرِنݳئی کݳرݸ نݸ +100 بݳݽݵئ کمݵݸنِٹݵݣݺ کݳرݸ پلݵٹ فݳم شݳ رِنَئ کݸنݺ امݳ خدمَتݵڎ انحصݳر ارݵگݳ چھݳ.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> اگَر تُمݺ کھُلݳ نݸ جَرمݸݽ ڈݵٹݳئݵ قدر ارݵگُچھݸت تݳ ـ اوچݺ چِپِݵ دݸ! </bold>
+data-download-singleword-title = سنگل ورڈ ٹݳرگݵٹ سݵگمݵنٹ ڈݳݸنلݸڈ اِرݳ
+data-download-singleword-callout-v2 = اݽݵئ اݵک کݵس استِمݳلَس مبنݵ حِصَݳک چھݳ کݸنݸنݳ حِسݳبݵئ عَدَدݵݣݺ شِنݳخت نݸ اوݳ / نِکݵ تشخݵصݵئ کݳرݸ ڈݵٹݳ کݸٹ چھݳ.
+data-download-button = کݳمَن وݳئس ڈݵٹݳ ڈݳݸنلݸڈ اِرݳ
 data-download-yes = اَوݳ
 data-download-deny = نِکݶ
+data-download-license = لݳئسنس: <licenseLink> CC-0</licenseLink>
