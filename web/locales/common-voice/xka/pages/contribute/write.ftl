@@ -138,6 +138,7 @@ small-batch-response-message =
        *[other] ۔۔۔جولال معتال۔۔۔۔نا اخلی جولال  اوکالیل کیر اما اٹسار دہ
     }
 small-batch-sentences-rule-1 = گاییڈ لاین پر چا۔گہ ذات جملہ مہ ٹل تیبوں
+small-batch-sentences-rule-2 = اک جولال تلا ا ریک ا
 small-batch-sentences-rule-3 = اک ا  کریک می جملا اراک تہانٹر
 small-batch-sentences-rule-4 = ا زر ایں جملا جمع تھآ
 small-batch-sentences-rule-5 = سوا جملاء ا ڈومین اے•بیدہ۔

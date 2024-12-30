@@ -19,3 +19,12 @@ download-requests-info = کیرا تو ریکارڈںنگز،بہ تنا اک  �
 download-request-button = ڈاون لوڈ۔
 download-request-title = ترال
 download-request-description = ...................تراټ ام کټر
+download-request-archive-single = اکون zip فائل نامل والا۔
+download-request-archive-multiple = اک شلا zip فائل می ڈا تھا۔
+download-request-assembling-description = توسی فائل جمع تھان ݭات ۔مربنی تھا پتا دران کوشش تھا
+download-request-refresh-button = نمو
+download-request-modal-title = لنک وال
+download-request-modal-description = توسے زپ فائل ڈاون لوڈ تھال کیر لنک این۔
+download-request-link-text = زڈ آئ پی
+download-request-metadata-link = جولال ا ٹکیل
+download-request-link-single = تس تانی جوݭگیل ڈاون لوڈ فائل ابا دا دی باگ تھ ݭیبان۔

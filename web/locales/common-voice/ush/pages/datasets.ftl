@@ -22,6 +22,7 @@ community-playbook = کمیونیٹی پلے بیک
 data-other-ted-name = ٹی ای ڈی (TD LIUM )مواد
 go-discourse = ڈسکورس تی بو
 go-languages-page = جیِبے صفحا تے بو
+ready-to-validate = جملؤ تصدیق کارا مدد کارا تیار با
 more = ہورو
 close = بند تھا
 download = ڈاؤنلوڈ
@@ -30,9 +31,16 @@ dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
 dataset-donate-modal-heading = تُو تی معلوم بیلو۔۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>کہ تو عاام ڈیٹا شامل بونو بیچھاتا، آج دا
+data-download-singleword-title = ٹارگٹ سیگمنٹ ایک ایک جملئی ڈاونلوڈ تھا
+data-download-singleword-callout-v2 = انا ایک استعمال کیسی چلؤنو والا ایک کوروم ہنو سا بغیر ڈیٹا پاور رزونو ہندسو کئی سواں نی بینو یا ہاں یا نی سواں بینو
+data-download-button = کامن وائس ڈیٹا ڈاونلوڈ تھا
 data-download-yes = صحیح بیِلو
 data-download-deny = نأ
 data-download-license = لیسن <licenseLink> CC0 </licenseLink>
+data-download-modal = تو ڈاونلوڈ تھونو بیچھیلا <size> { $size }مُݜو تھی
+data-subtitle = آسو ہر جیلی کارا اوپن ڈیٹاسیٹ سپارون بیچھونا تو سا رازونو کارا استعمال تھون بیچھیلا۔
 release-version = ورژن
 dataset-date = تاریخ
 license = لیسن<licenseLink>{ $license }</licenseLink>

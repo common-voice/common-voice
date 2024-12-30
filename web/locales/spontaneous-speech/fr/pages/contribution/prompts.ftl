@@ -22,9 +22,10 @@ submit-all-button = Soumettre tout
 
 learn-how-to-use-prompts = Découvrez comment utiliser cette page
 learn-how-to-use-prompts-explanation = Répondez simplement à la question de la manière la plus naturelle possible en quelques phrases. Assurez-vous que votre langage est respectueux et non offensant.
-
+learn-how-to-use-prompts-guidance = <guidanceLink>Cliquez ici</guidanceLink> pour savoir comment utiliser cette page
 learn-how-to-use-transcribe = Découvrez comment transcrire
 learn-how-to-use-transcribe-explanation = Notez exactement ce que la personne a dit, y compris les mots de remplissage comme 'euh' ou 'errr'.
-
+learn-how-to-use-transcribe-guidance = <guidanceLink>Cliquez ici</guidanceLink> pour savoir comment utiliser cette page
 learn-how-to-use-check-transcript = Découvrez comment vérifier une transcription
 learn-how-to-use-check-transcript-explanation = Une transcription doit capturer chaque mot ou son de conversation non lexical prononcé par la personne, y compris les répétitions.
+learn-how-to-use-check-transcript-guidance = <guidanceLink>Cliquez ici</guidanceLink> pour savoir comment utiliser cette page

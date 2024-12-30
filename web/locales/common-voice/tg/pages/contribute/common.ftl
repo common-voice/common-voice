@@ -101,6 +101,7 @@ contribution-criteria-link = Фаҳмидани меъёрҳои саҳми ов
 contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
 contribution-misreadings-title = Хониши нодуруст
+contribution-misreadings-example-3-explanation = [Сабт пеш аз анҷоми калимаи охирин қатъ карда мешавад]
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.

@@ -48,7 +48,7 @@ sc-criteria-item-6 = کہ تیگے گتہ نہالَئیں جُملی بارزی
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = نہال تہ<icon></icon> ݜُو زِباں حساب ہِن صحیح جُملہ تھی اَئ؟
 sc-review-rules-title = نہالہ تہ اُو جُملہ دیل ہدایاتوںمطابق تھی ائی؟
-sc-review-empty-state = ݜُو وخ ݜس زِبہ مہ گتہ نہالَئیں کراں جُملی نی تھی۔
+sc-review-empty-state = ݜُو وخ ݜس زِبہۡ /ژِبہۡ مہ دُوہیڑی نھالَیں یاں کریا جُملی نی تھی۔
 report-sc-different-language = مُئیت زِیب
 report-sc-different-language-detail = مہ چہ گی نہالانٚت، اُو تس نہ مُئیت زب مہ لکزل تھی۔
 sentences-fetch-error = جُملی څؤں مُوئیٹھوں اَئیں مہ غلطی اوک ہُونٚتھی۔

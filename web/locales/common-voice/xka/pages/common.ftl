@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = افار
+aa = اوں ڈیٹا سئٹ چلال کیر ۔رو پانج بش جب ام درام وال ران تھا کیر ۔رس رل ا کالہ دش لاکھ ڈالر ݭاجین۔
 ab = ابخآز
 abb = بنکن
 ace = اسیہنہسی
@@ -29,11 +29,15 @@ be = بایلو رشیین
 beb = بام ویلی
 bfd = بافوٹ
 bg = بلگاری
+bkm = کوم
 bm = بمبارا
 bn = بنگیلی
+bnm = بٹنگا
 bo = تپتی اوم
 br = پریٹونیا
+bri = مکپوا
 bs = پہوسنیای
+bum = بلو
 bxr = بریات
 byv = میڈومبا
 ca = کٹآلان
@@ -145,6 +149,7 @@ mrj = ہل مارل
 ms = مالے
 mt = مالٹیز
 mxu = برمیز
+my = برمی
 myv = ازیا
 nan-tw = میانن۔۔۔۔۔تایوانیز
 nb-NO = ناروین بکمل
@@ -259,6 +264,7 @@ privacy = پرایویسی۔۔۔۔۔اپانتہ۔۔۔۔۔پلاگیال
 terms = شرطونی
 cookies = کوکییز
 faq = ف۔آ۔ق
+content-license-text = رابطہ تخلیقی العام لائسنس کے چیر اشو ۔
 share-title = ن/اے
 share-text = ہیلو    مشینانو ام تہ پشہ،سبطینی اۡم  خلق کتھ  جولاں۔تانی تراٹ ۔۔۔۔۔۔۔۔۔۔رل میلہ
 link-copied = لنک نقل بیل
@@ -266,14 +272,26 @@ back-top = ٹاپ تال کیر پت دا
 logout = پتبہ دہ ثا بال کیر
 donate = امداد
 stayintouch = بہ لوظتھان اوںتیمعلومات رݭے۔دی  با من
+privacy-info = بہ اوں لوز تھان اؘ معلومات باڑ اختیات سہ اولہ تھان۔
 return-to-cv = کامن وایس پر نو ٹ
 email-input =
     .label = ای میل
 loading = لوڈ تال۔۔اوکالیل
 email-opt-in-info = مہ ٹھ ای میل بال شات تھےمہ خوشالان مٹ می حدف  پشون تے
 email-opt-in-info-title = کامن وایس کاں میلنگ لسٹ   ااین تہ      تس سہٹل بہ
+email-opt-in-info-sub-with-challenge = ای میل گینا لہا چیلنج تہ گول یاد تھا پروگریس اپ ڈیٹس اور شریک آواز اؘ  بارے میں نیوز حط
+email-opt-in-privacy-v2 = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر
+indicates-required = تار سہ نشان زد فیلڈ ✳️ پکار این۔
+not-available-abbreviation = این۔اے
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = اسان توسی مدد پکار این۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر ݭجین۔
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = تانی ریسرج کیر سی وی اسمعال تھال۔
+languages-donate-banner-cta-explanation = پانج بش جب ام درا وال اَ ڈیٹا سیٹ چلال تہ ران تھا کیر رس رل اک کالہ دش لاکھ ڈالر
 localization-select =
     .label = جیب لہکلایزیشن جوݭ
