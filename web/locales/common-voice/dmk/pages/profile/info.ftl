@@ -78,3 +78,4 @@ variant-contribution-help = کݸنݵتݳ باݽ ݵݳ بݳݽݵئ خݳندݳنَن
 variant-contribution-option-1 = مݺ باݽَݵئ تمݳم متغݵرݳتݵمݳ جملݺ نݸ کِلِپسݳ دِکھِلݳئی.
 variant-contribution-option-2 = مݺ متغݵرݳنݸ صرف جملݳݣݳ نݸ کِلِپسݳ دِکھِلݳئی.
 variant-contribution-warning-title = ⓘتمݳم جملݺ نݸ کِلِپس مݳ مݸتݸشُݸ خݳ متغݵرݳتݵݣݺ ٹݵگ نݳ!
+variant-contribution-warning-subtitle = اگر تمݵچݸ حِصَہ بݳنَنݳ مشکل ہݸگݳ چھݳتݳ، تݸ تُمݺ کݸنݵتݳ وقتݵکِنݳ اَپَنݵئ بݳݽݵئ تمݳم مݸݳد دݸبݳرہ دݵکھِنݳئی کݳرݸ سݸئچ اِرِݵ شکݵگُچھݸت.
