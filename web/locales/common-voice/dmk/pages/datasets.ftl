@@ -82,3 +82,4 @@ data-download-yes = اَوݳ
 data-download-deny = نِکݶ
 data-download-license = لݳئسنس: <licenseLink> CC-0</licenseLink>
 data-download-modal = تُمݺ <size>{ $size } GB</size>ڈݳݸنلݸڈ شُرݸع رِنݺ چھݸت، کݵچݸق تمݺ ہگݵ جݳنݳئی رئی رݵگُچھݸتݺ؟
+data-subtitle = امݺ کھُلݳ نݸ عݸݳمݵ سطَس دستݵݳب چھَتݵݣݺ ڈݵٹݳ سݵٹݵک دُرݳلَم چھݸم کݸنݸ ہر کݸکِن بݳشِنَس مݸ متعلِق اݵپلݵکݵشَنݵݣݺ تربݵتݵئ کݳرݸ اِستِمݳل اِرِی شکݸن.
