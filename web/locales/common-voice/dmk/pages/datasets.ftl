@@ -39,6 +39,12 @@ dataset-description-hours =
     ڈݵٹݳ سݵٹَنݳ ہݳئی وقتَنݳ </b>{ $languages }<b>تصدݵق اِرِنݺ گھنٹݳݣݳ <b>{ $languages }</b>بݳݽݵمݳ کݸٹ چھݺ، لݵکن امݺ ہمݵش مزݵد چھَتݳ نݸ بݳݽݸݣ کݸٹ اِرَم چھݸم. اݵک اَچَکݳ بݳ امݳ <languagesLink>بݳݽݵݣݺ وَرَقݵڎ</languagesLink> تݳکہ کݸنݵتݳ بݳݽݵکݵ درخݳست اِرَمݺ ݵݳ تعݳݸنݵئ آغݳز اِرَم.
 want-dataset-update = کبݺ امݺ کݳمَن وݳئس ڈݵٹݳ سݵٹݵئ نَمݳ ورژن جݳرݵ رَم تݳ تُمݺ تݳزہ ترݵن لݵنݳئی رَئی رݵگُچھݸتݺ؟ امݳ نݵݸزلݵٹر سبسکرݳئب اِرݳ.
 subscribe = سبسکرݳئب
+get-started-speech = اسپݵچ رکگنݵشَنَس کݸٹ شروعݳت اِرَم
+other-datasets = اݸرݳ چھتݵݣݺ ڈݵٹݳ سݵٹݳ
+feedback-q = فݵڈ بݵک چھݳ؟
+# This indicates that there is no data to display
+no-information = معلݸمݳت نݳ
+resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink>™ اݵک<docsLink> اݸپن سݸرس ٹݸل کِٹ</docsLink> لنک چھݳ کݸنݸن تحقݵق اِرݵݣݺ اݵݣݵݣݺ کݳرݸ جدݵد ترݵن مکݳلمݳتݵ AI مݳڈݵلݳ تݵݳر اِرِنݺ بلݸ تعݳݸن اِرݵگݳ چھݳ
 community-playbook = کمݵݸنٹݵ پِلݵبُک
 data-other-ted-name = TED-LIUM Corpus
 more = مزݵد / بُݸت
