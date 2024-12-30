@@ -1,8 +1,14 @@
 ## Home page
 
 welcome-to-spontaneous-speech = روان تقریر تے سلام تھونُو
+# <br></br> represents a newline break
+wall-of-text = کامن وائس ایک ہورو پلیٹ فارم لانچ تھی، سیس در بدنی دیش، خراب تقریر جمع تھونو در توجہ دینا، انیس در کمیونٹی کارا دستی ڈیٹا جمع تھونو کارا مدد تھی، انا سائنسدانی  اؤ ڈویلپری کارا فائدہ مند بھونو
+why-spontaneous-speech = اسو تی انا بے ساخت اسپیچ پروٹوٹائب کے سپارے
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = فائدہمند <mark> ارگنک اسپیچ کانیکسٹ</mark> اؤ کیس یوس کارا[ای جی۔ مثال در سمنو ست کوروم تھئیلا سا وینا تھئیلا اؤ لیک بئیلا نی ]
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = جیبے ھقیقت کارا بہترین سپورٹ مثلاً جیبے ترجمہ اؤ<mark> کوڈ سوئچنگ</mark>
+how-spontaneous-speech-works = بے جوڑ تقریر کدی کوروم تھین
 respond-bubble-subtitle = تو ما تھی جواب دے تو کدا کوروم تھین
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark> ٹرانسکرائیب </mark>
@@ -11,6 +17,7 @@ check-bubble-title = <mark> چیک </mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark> ڈیٹا </mark>
 contact-us = آسو ست رابطہ تھے
+contact-us-title = تو انا پروجیکٹ در شامل بونو جے دلچسپی لرئیلا یا اسو ست شریک بئیلا؟
 contact-us-email = ای میل <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = تو اسئی کامن وائس سپونٹینس اسپیچ بیٹا تیسٹنگ گروپ در موجود ہنو؟
 signup-terms = می ای میل جا ایک لنک ڇئینونو کارا کلک تھا، تو اسو سروس ٹرم ست متفق ہنو<termsLink> اؤ <privacyLink> پراویسی پالیسی</termsLink> اؤ موزیلا تو تی معلوماتی کارا ای میل تھو بئیلو تو کامن وائس  سپونٹینس اسپیچ  پروجیکٹ در کدا حصہ گھین بئیلا۔
