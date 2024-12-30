@@ -22,3 +22,7 @@ submit-all-button = بُٹݺ ہگݵ بِجݳل
 
 learn-how-to-use-prompts = اݽݵئ وَرَق کݵ اِرِݵ استِمݳل اِرݵݣݺ چھݺ چھݵچ
 learn-how-to-use-prompts-explanation = بس اݽݵئ پرمپٹݵئ قدرتݵ اندݳزَنݳ کمݵک جملݵمݳ جݸݳب دݸ. اݽݵئ یقݵنݵ را تݳ تُمݳ بݳݽ عزت آمݵزچھݵ تݸہݵن آمݵز نِکِن.
+learn-how-to-use-prompts-guidance = <guidanceLink>اݽتھݳ ذُق </guidanceLink> ارݳ چھچِنݳشݸ تݳ کݵ رِݵ اݽݵئ وَرَق اِستِمݳل اِرݵݣݺ چھݺ
+learn-how-to-use-transcribe = کݵ رِی پݸرجِنݳ چھتݵئ ترجمہ رݵݣݺ چھݺ تݳ چھِچݳ
+learn-how-to-use-transcribe-explanation = بندَن کݵسݵک مُنِن چھݳ ہݵئ رݵ اِݵ گِرمِنݳ اݵݣ لفظݵڎ کݸٹ کݵ زݳئلَس 'um' ݵݳ 'err' چھݺ تݳ.
+learn-how-to-use-transcribe-guidance = <guidanceLink>اݽتھݳ ذُق </guidanceLink> ارݳ چھچِنݳشݸ تݳ کݵ رِݵ اݽݵئ وَرَق اِستِمݳل اِرݵݣݺ چھݺ
