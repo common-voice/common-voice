@@ -11,6 +11,7 @@ datasets-positioning =
 language = بݳݽ
 download-dataset-header = ڈݵٹݳ سݵٹ ڈݳݸن لݸڈ اِرݳ
 download-delta-explainer = امݺ کمݵک تبدݵلِݣ اِرݸم چھݸم.  ڈݵلٹݳ سِگمݵنٹݵمݳ مݸتݸ صرف پَچݸ جݳرݵ رِنݺ اݵݣݵڎ مݸ مُشݸ تݳزہ ترݵن کِلِپݳ کݸٹ چھݺ.<deltaLink> اݽݵئ کمݵئ بݳرہ نݳ مزݵد مُنݳ</deltaLink>.
+download-dataset-tag = مطلݸبہ بݳݽݵئ ڈݵٹݳ سݵٹ دِسقَٹݳرݳ نݸ اݵݣ ورژن اُچُنݳ کݸنݺ تُمݺ ڈݳݸنلݸڈ اِرِنݳئی رݳئی اِرݵگُچھݸت.
 # File size in gigabytes
 size = سائز
 validated-hr-total = تصدݵق اِرݺ Hr. ٹݸٹَل
