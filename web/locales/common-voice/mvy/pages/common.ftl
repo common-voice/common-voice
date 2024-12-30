@@ -291,7 +291,7 @@ donate-banner-cta = <mark>زَیں تیں مدد</mark><br/><mark>پکار تھ�
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 100 نہ بُوۡئ ژِبہۡ واں خلکہ واں کریا ڈیٹاسیٹ سن٘دَیں، چلَیں تے سم کرَیں لا کالَیں دش لاکھ ڈالرؤں ہاری٘ خرچہ ای تُھو۔ <strong>کہ تُس ݜے کمَیں قدر کراں تھو کھیں آژ زؤں لا صدقہ کری!</strong>
 # Text wrapped in <mark></mark> will have a white background.
-languages-donate-banner-cta = </mark>تَیں تحقیقاں دَن <mark> <br/></mark> سی وی استعمال کیر تٗھویی؟<mark>
+languages-donate-banner-cta = </mark>تاں تحقیقاں دَن<mark> <br/></mark>سی وی استعمال کیریۡ تُھویی؟<mark>
 languages-donate-banner-cta-explanation = کامن وائس صدقیُوں تے تحفیُوں لا چلُژ تُھو! بے تحقیق کران٘لؤں، عام خلکہ آں لکان٘لہ پڑان٘لؤں ملی ایکٹھی کام کرَیں خوش ہوگ تھو۔ کامن وائس لہ بالکل مفت تُھو خو اسیں پلیٹ فارمہ ملی مدد کیرُوں آں صدقہ خیرات ہِن خرچہ برداشت کیرُوں زاں ملی گھَیں مِٹھیۡ ہوتھی۔
 localization-select =
     .label = ژیب / علاقہ خوش کرہ
