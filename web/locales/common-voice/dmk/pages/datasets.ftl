@@ -96,3 +96,5 @@ license = لݳئسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = جَرمݸݽ ہݸݵݳ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = امݳ چھتݵݣݺ ڈݵٹݳ سݵٹݳ ڈݳݸنلݸڈ اݵر
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کݳمَن وݳئس ڈݵٹَس دݽقلتݸنِنَݳئی کݳرݸ ڈݳݸنلݸڈ اِرِنݳئی اختݵݳرݳ.
