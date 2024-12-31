@@ -56,6 +56,9 @@ x-years-short =
         [one] { $count }
        *[other] y
     }
+help-make-dataset = اُتھُلݳ معݳرݵئ عݸݳمَشُݸ کھُلݳ ڈݵٹݳ سݵٹݵک دُرݳلِنݺ بلݸ ݳمݳ مدد اِرݳ
+sign-up-account = اݵکݳݸنٹݵئ کݳرݸ سݳئن اَپ اِرݳ
+email-subscription-title = اِݵ مݵل اپڈݵٹݵݣݺ کݳرݸ سݳئن اَپ اِرݳ
 
 ## Account Benefits
 
