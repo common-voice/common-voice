@@ -93,19 +93,19 @@ answer-questions = سُوالے جُواب دِیا <small> (جِنیْ اِیو
 review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
-press-and-stories = پریس گہ شِلَویئے
+press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = شراکت داری، پریس، شِلَویئے، کمیونٹی گہ جِبہ
+about-menu-tooltip = شراکت داری، پریس، قصائے، کمیونٹی گہ جِبہ
 partnerships-menu-item-tooltip = اسو سے شراکت تِھیا
 press-and-stories-menu-item-tooltip = اسے بلاگڑ بوجہ یا اسے بارَد لِکِیا
 community-and-languages-menu-item-tooltip = جِبہ، کمیونیٹیز گہ مشترکہ آواز اورڑِیا
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختِیاراتو مینو بارَد
+about-menu-aria-label = اختِیاراتو مینو بارَد ڇکِیا
 partnerships-menu-item-aria-label = کامن وائس سے ساتیْ شراکتے بارَد معلوم تِھیا
-press-and-stories-menu-item-aria-label = کامن وائس اےْ بارَد پریس ریلیز گہ شِلَویئے بُجَیش اُڇِھیار حاصل تِھیا
+press-and-stories-menu-item-aria-label = کامن وائس اےْ بارَد پریس ریلیز گہ قصَو بُجَیش اُڇِھیار حاصل تِھیا
 community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریعہ گیْ تعاون یافتہ کمیونٹی گہ جِبو بارَد معلوم تِھیا
