@@ -60,3 +60,5 @@ public-domain-explanation-5 = اشݵݣݳ گِرمِنݳݵݺ گݸشݳ کݸنݵڎ 
 public-domain-explanation-6 = حکݸمَتݳ، غݵر منݳفع بخش تنظݵمݸݣ ݵݳ مݵڈݵݳئی ادݳرݵڎ کݸٹ رݳبِطہ رݳ تݳکہ ہݵئ لݵل ہݸئی شَکݸ تݳ آݵݳ اݵݣݺ ݸݵب مݸݳد، رپݸرٹݳ ݵݳ اݸر مݸݳد عݸݳمݵئ دݳئرہ اِختݵݳرݵئ کݳرݸ ݸقف ݳِرݸ جݳئی شکݵگݳ چھݳ.
 citing-sentences-explanation-1 = اݽݵئ ضرݸلݵ چھݳ تݳحݸݳلہ جݳتݳ کݸٹ اِرݸ جݸن تݳکہ امݺ تصدݵق اِرِݵ شکݸن تݳ جملݳݣݳ عݸݳمݵئ دݳئرہ نݳ چھݺ نݸ اݽݵݣݵڎ کِسݵک رَقتِکݵ کݳپݵ رݳئٹ پݳبندݵ اطلݳق نݵ ہݸگݳ چھݳ.
 citing-sentences-subheader-websites = وݵبسݳئٹݳ / وݵبسݳئٹݸݣ
+citing-sentences-subheader-websites-explanation = تُمݺ وݵبسݳئٹ کݸٹ اِرِݵ شکݵگُت مثلݳً "کݳمَن ݸݳئس "https://commonvoice.mozilla.org/
+citing-sentences-subheader-academic-reference = اݵکݵڈمِک رݵفرݵنس / تعلݵمݵ حݸݳلہ
