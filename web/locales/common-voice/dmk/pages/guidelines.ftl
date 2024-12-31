@@ -62,3 +62,6 @@ citing-sentences-explanation-1 = اݽݵئ ضرݸلݵ چھݳ تݳحݸݳلہ جݳ�
 citing-sentences-subheader-websites = وݵبسݳئٹݳ / وݵبسݳئٹݸݣ
 citing-sentences-subheader-websites-explanation = تُمݺ وݵبسݳئٹ کݸٹ اِرِݵ شکݵگُت مثلݳً "کݳمَن ݸݳئس "https://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = اݵکݵڈمِک رݵفرݵنس / تعلݵمݵ حݸݳلہ
+citing-sentences-subheader-academic-reference-explanation = تُمݺ تعلݵمݵ حݸݳلݵݣݺ اسٹݳئل مثلݳً "مݸزݵلݳ (2021) کݳمَن وݳئس. دستݵݳب چھݺ https://commonvoice.mozilla.org/ (دݽقلتݳ: (15th September2021"
+citing-sentences-subheader-offline-sources = آفلݳئن سݸرسِز
+citing-sentences-subheader-offline-sources-explanation = عݸݳمݵ ڈݸمݵن مَتَنݵئ کݳرݸ کݸنݸ آنلݳئن دستݵݳب نݳ، مثلݳً ہݳرݸرڈ رݵفرݵنسِݣ اسٹݳئلݵئ اُردݸ ترجمہ اشݵ رِݵ ہݸُئی شکݵگݳ چھݳ:
