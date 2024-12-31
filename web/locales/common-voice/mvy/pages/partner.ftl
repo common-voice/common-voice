@@ -9,8 +9,10 @@ partnerships-foundations-header = فاؤنڈیشنہ
 partnerships-foundations-description = بے فاؤنڈیشنؤں مِلیۡ، سِول سوسائٹی مِلیۡ، آں کمیونٹیاں پاٹنرؤں مِلیۡ کام کرِگ تھہ لہ انٹرنیٹ صحت مند زائ سَن٘دُژ، خاص کر سُوریۡ اُکیۡ افریقہ فوکس تُھو۔
 partnerships-governments-header = حُکمتی
 partnerships-academia-header = یونیورسٹیہ، تعلیم مِلیۡ گَن٘ڈژیل آں تحقیق کران٘لہ
+partnerships-academia-description = بے چے گی کرِگ تھو اسی مہ بُٹؤں نہ ہی ہِن سُکھیݜیار تُھو۔ تحقیق مہ مرگلتیا، معلومات جمع کرؤں آں انٹرویواں کریا <emailFragment>رابطہ کری۔</emailFragment>
 partnerships-small-business-header = لیکھہ اُپارہ، ٹیک آں اے آئ شُروعاتہ شامل تھہ
 partnerships-corporates-header = گھیں دَرجاں کارپُوۡریٹہ آں پلیٹ فام کمپنیہ
+partnerships-corporates-description = کہ تُو ڈېٹا سیٹاں بابتی مہ چېرو بِگ بنئیں یاں غرضی تُھو، پلېٹ فارم چئرئیں یاں پروگرامہ مہ خرچہ کیریۡ تُھو یا مرگلتیائں موقی نھالیۡ تُھو کھیں <emailFragment>زَیں ٹک لک کرہ۔</emailFragment>
 partnerships-our-partners = زاں مرگلئ
 # menu item
 partners = مرگلئ
