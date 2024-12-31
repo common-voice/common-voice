@@ -2,10 +2,10 @@
 
 request-language-heading = نئی جِبے بارَد کھوجِیا
 request-language-explanation-1 =
-    ڇکِیا  چہ څھے  جِب درجِ بِلِن یا
+    ڇکِیا  چہ څھے  جِب ادی درجِ بِلِن یا
     <languagesPageLink> کامن وائس جِبو صفحہ</languagesPageLink> 
     اگر نِش تو، آ فارم پُرِیا آں بیْس <strong>څھوْڑ ایک ہسان ای میل ڇیݨویس
-    تومیْ جِب ترتیب دونے طریقہ پشِیون </strong>
+    تومیْ جِب ترتیب دونے طریقہ پشِیونے کِرِیا </strong>
 request-language-explanation-2 =
     بیْس <strong>توموْ کمیونٹی مینیجرَڑ گہ رزُویس
     چہ څھے دلچسبی نیْ </strong>تو سیْس څھوْڑ کھاں گہ دو بو
