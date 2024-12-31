@@ -8,3 +8,5 @@ partnerships-community-description = کمݵݸنِٹݵ کݳمَن وݳئسݵئ ݵ
 partnerships-foundations-header = بُنݵݳدݳ
 partnerships-foundations-description = امݺ فݳݸنڈݵشَنݳ، سِول سݸسݳئٹݵ نݸ کمݵݸنِٹی شرݳکتدݳرݳ یعنݵ گٹݵ کَمِنݺ اݵݣڎ کݸٹ کݸٹ ہُݸئی اِنٹرنݵٹ اݵکہ صحت مَند دِشَکݳ دُرݳلِنݳئی کݳرݸ کݸم اِرَم چھݸم، خݳس اِرِݵ مشرقݵ ݳفرݵقَس تݸجہ مرکݸز اِرِنݺ. اَمݳ <programmaticWork>پروگرمݵئ کَمݵئ </programmaticWork>بݳرہ نݳ مزید دݽݳرݳ.
 partnerships-governments-header = گݸرمݵنٹݳ / گݸرمݵنٹݸݣ
+partnerships-governments-description = امݺ ٹݵکنݳلݸجݵ، جدت نݸ بݳݽݵݣݺ حقݵمݵئ عݳمݵ شعبݳئی کݸٹ ہݸُئنݳئی حِمݳݵَت اِرِنݳئی کݳرݸ پُرجݸش چھݸم. اگر تُمݺ کݵسݵک بڑݳ منصݸبہ یݳ مہم شُرُݸع اِرِنݳئݵ ارݳدہ تھݳگُچھݸت تݳ مِربݳنݵ رِݵ <emailFragment>امݵڎ کݸٹ رݳبِطہ رݳ.</emailFragment>
+partnerships-academia-header = ݵݸنݵݸرسٹِݵݳ، تعلݵمئ مݳہرݳ نݸ رݵسرچرݳ
