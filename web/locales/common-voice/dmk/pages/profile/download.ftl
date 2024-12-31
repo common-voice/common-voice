@@ -15,5 +15,6 @@ download-selected = دِسقَٹݳرݳ چھݳ
 download-start = پرݸفݳئل ڈݵٹݳ ڈݳݸنلݸڈ اݵر
 download-request = رݵکݳڈِݣݳشُݸ بُݵَت
 download-requests = گݵئ وقتݵئ رݵکݳڈِݣ ڈݳݸنلݸڈ اِرِنݳئی بُݵَتݳ.
+download-requests-info = کبݺ تُمݺ اَپَنݵئ رݵکݳڈِݣݵئ بُݵَت ارݵگُچھݸت تݳ تݸ امݺ اݵݣݵڎ اݵک ݵݳ اݵکِسمݸ زݵݳدہ ZIP فݳئلݺ مݳ تھݳم چھݸم. اݽتھݳ تُمݳ گݵئ وقتݵئ درخݳستݳ دݵنݸ گݵݺ چھݺ:
 download-request-button = ڈݳݸنلݸڈ
 download-request-title = { $created }
