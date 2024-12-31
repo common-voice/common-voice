@@ -1,6 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = اِن پرݳگرݵس
+language-section-in-progress-new-description = اݽݵݣ بݳݽݸݣ اݽݳئی وَقتݵئ کمݵݸنِٹݵ ترقݵس<localizationGlossaryLink> منݵنݵ چھݺ. ݸݵبسݳئٹݵئ مقݳمݵ</localizationGlossaryLink> بݳݽَنݳ ترجمہ نݸ </sentenceCollectionGlossaryLink>جملݵݣݺ گَٹِݵ<sentenceCollectionGlossaryLink> لݳنچ اِرِنݳئی کݳرݸ درکݳر چھݺ.
 language-section-launched = شُرݸع ہُݸیݳ
 language-section-launched-description = اݵݣ بݳݽݵݣݺ کݳرݸ وݵب سݳئٹ کݳمݵݳبِس کݸٹ <localizationGlossaryLink>مقݳمݵ</localizationGlossaryLink> دُرݳلݳ چھݳ، نݸ ہݵیَنݳ <sentenceCollectionGlossaryLink>کݳفݵ جملݳݣݳ گَٹِݵ اِرݸ گݵݺ چھݺ</sentenceCollectionGlossaryLink> تݳکہ <speakLink>بݳشِنݳ</speakLink> نݸ <listenLink>پݸرجِنݳئی</listenLink> کݳرݸ ڞݳ شرݳکت دݳرݵ ازݳزت دݵئ شکݸن.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
