@@ -8,7 +8,7 @@ request-language-explanation-1 =
     تومیْ جِب ترتیب دونے طریقہ پشِیونے کِرِیا </strong>
 request-language-explanation-2 =
     بیْس <strong>توموْ کمیونٹی مینیجرَڑ گہ رزُویس
-    چہ څھے دلچسبی نیْ </strong>تو سیْس څھوْڑ ضورڑتے بسکوچیْ امداد یا معلومات دو۔
+    چہ څھے دلچسبی نیْ </strong>توْ سیْس څھوْڑ ضورڑتے بسکوچیْ امداد یا معلومات دو۔
 request-language-form-email =
     .label = څھے ای میل پتہ
 request-language-form-info =
