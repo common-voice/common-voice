@@ -83,9 +83,15 @@ username-email-not-demographic = تݺ ݵݸزرنݵم نݸ اِݵ مݵل شݳئع
 ## Landing
 
 welcome-staff = خݸش آمدݵد{ $company } سٹݳف!
+help-contribute = تُمݺ اݵک متنݸع، ݳݸپَن سݸرس ڈݵٹݳ سݵٹ دُرݳلِنݺ بلݸ مَدَد اِرِݵ شکݵگُچھݸت، اݵکہ کݳمَن وݳئسݵئ پرݸفݳئلَکݳ دُرݳلݵ نݸ اَپنݵئ چھتݵئ تعݳݸن اِرِݵ.
+login-company = لݳگ اِن / سݳئن اَپ { $company }اِݵ مݵلَس کݸٹ
+profile-not-required = حِصَہ بݳنݳشُݸ پرݸفݳئل ہُݸئنݳ اوݳجݵ نݳ، البتہ مَدَد گݳر ہݸگݳ. منݵنݵ اِسِل کِجݺ.
+read-more-about = امݳ وَرَقَس / پݵجَس مزݵد مُنݳ
 
 ## NAV ITEMS
 
+answer-questions = جݸݳب سݸݳلݳ <small>(ڞَگݳ آݣݺ)</small>
+review-transcriptions = ٹرݳنسکرِپشنز دݸبݳرہ دݵکھِنݳ / جݳئزہ لݵنݳ <small>(ڞَگݳ آݣݺ)</small>
 
 ## MENU ITEMS TOOLTIPS
 
