@@ -1,68 +1,68 @@
-import * as fs from 'fs';
-import { S3, SSM } from 'aws-sdk';
-import { SESClientConfig } from '@aws-sdk/client-ses';
-import { config } from 'dotenv';
+import * as fs from 'fs'
+import { SESClientConfig } from '@aws-sdk/client-ses'
+import { config } from 'dotenv'
 
 if (process.env.DOTENV_CONFIG_PATH) {
-  const result = config({ path: process.env.DOTENV_CONFIG_PATH });
+  const result = config({ path: process.env.DOTENV_CONFIG_PATH })
   if (result.error) {
-    console.log(result.error);
-    console.log('Failed loading dotenv file, using defaults');
+    console.log(result.error)
+    console.log('Failed loading dotenv file, using defaults')
   }
 }
 
+const ENVIRONMENTS = ['prod', 'stage', 'sandbox', 'local'] as const
+export type Environment = typeof ENVIRONMENTS[number]
+
 export type CommonVoiceConfig = {
-  VERSION: string;
-  PROD: boolean;
-  SERVER_PORT: number;
-  DB_ROOT_USER: string;
-  DB_ROOT_PASS: string;
-  MYSQLUSER: string;
-  MYSQLPASS: string;
-  MYSQLDBNAME: string;
-  MYSQLHOST: string;
-  MYSQLREPLICAHOST?: string;
-  MYSQLPORT: number;
-  MYSQLREPLICAPORT?: number;
-  CLIP_BUCKET_NAME: string;
-  DATASET_BUCKET_NAME: string;
-  AWS_REGION: string;
-  ENVIRONMENT: string;
-  RELEASE_VERSION?: string;
-  SECRET: string;
-  AWS_SES_CONFIG: SESClientConfig;
-  S3_CONFIG: S3.Types.ClientConfiguration;
-  S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
-  CINCHY_CONFIG: S3.Types.ClientConfiguration;
-  CINCHY_ENABLED: boolean;
-  SSM_ENABLED: boolean;
-  SSM_CONFIG: SSM.Types.ClientConfiguration;
-  ADMIN_EMAILS: string;
-  AUTH0: {
-    DOMAIN: string;
-    CLIENT_ID: string;
-    CLIENT_SECRET: string;
-  };
-  BASKET_API_KEY?: string;
-  IMPORT_SENTENCES: boolean;
-  REDIS_URL: string;
-  LAST_DATASET: string;
-  SENTRY_DSN_SERVER: string;
-  MAINTENANCE_MODE: boolean;
-  DEBUG: boolean;
-  FLAG_BUFFER_STREAM_ENABLED: boolean;
-  EMAIL_USERNAME_FROM: string;
-  EMAIL_USERNAME_TO: string;
-};
+  VERSION: string
+  PROD: boolean
+  SERVER_PORT: number
+  DB_ROOT_USER: string
+  DB_ROOT_PASS: string
+  MYSQLUSER: string
+  MYSQLPASS: string
+  MYSQLDBNAME: string
+  MYSQLHOST: string
+  MYSQLREPLICAHOST?: string
+  MYSQLPORT: number
+  MYSQLREPLICAPORT?: number
+  CLIP_BUCKET_NAME: string
+  DATASET_BUCKET_NAME: string
+  BULK_SUBMISSION_BUCKET_NAME: string
+  AWS_REGION: string
+  ENVIRONMENT: Environment
+  RELEASE_VERSION?: string
+  SECRET: string
+  JWT_KEY: string
+  AWS_SES_CONFIG: SESClientConfig
+  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string
+  GCP_CREDENTIALS: object
+  ADMIN_EMAILS: string
+  FXA: {
+    DOMAIN: string
+    CLIENT_ID: string
+    CLIENT_SECRET: string
+  }
+  BASKET_API_KEY?: string
+  IMPORT_SENTENCES: boolean
+  REDIS_URL: string
+  LAST_DATASET: string
+  SENTRY_DSN_SERVER: string
+  MAINTENANCE_MODE: boolean
+  DEBUG: boolean
+  FLAG_BUFFER_STREAM_ENABLED: boolean
+  EMAIL_USERNAME_FROM: string
+  EMAIL_USERNAME_TO: string
+}
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const castDefault = (value: string): any => value;
-const castBoolean = (value: string): boolean => value === 'true';
-const castInt = (value: string): number => parseInt(value);
-const castJson = (value: string): object => JSON.parse(value);
+const castDefault = (value: string): any => value
+const castBoolean = (value: string): boolean => value === 'true'
+const castInt = (value: string): number => parseInt(value)
+const castJson = (value: string): object => JSON.parse(value)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
-  process.env[key] ? cast(process.env[key]) : defaultValue;
+  process.env[key] ? cast(process.env[key]) : defaultValue
 
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
@@ -83,24 +83,25 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_DATASET_BUCKET_NAME',
     'common-voice-datasets'
   ),
+  BULK_SUBMISSION_BUCKET_NAME: configEntry(
+    'CV_BULK_SUBMISSION_BUCKET_NAME',
+    'common-voice-bulk-submissions'
+  ),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'prod'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
+  JWT_KEY: configEntry('CV_JWT_KEY', 'super-secure-key'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   AWS_REGION: configEntry('CV_AWS_REGION', 'us-west-2'),
   AWS_SES_CONFIG: configEntry('CV_AWS_SES_CONFIG', {}, castJson),
-  S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
-  S3_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
-    'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
-    null
+  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
+    'CV_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT',
+    'http://localhost:8080'
   ),
-  CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
-  CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
-  SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
-  SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
-  AUTH0: {
-    DOMAIN: configEntry('CV_AUTH0_DOMAIN', ''),
-    CLIENT_ID: configEntry('CV_AUTH0_CLIENT_ID', ''),
-    CLIENT_SECRET: configEntry('CV_AUTH0_CLIENT_SECRET', ''),
+  GCP_CREDENTIALS: configEntry('CV_GCP_CREDENTIALS', {}, castJson),
+  FXA: {
+    DOMAIN: configEntry('CV_FXA_DOMAIN', ''),
+    CLIENT_ID: configEntry('CV_FXA_CLIENT_ID', ''),
+    CLIENT_SECRET: configEntry('CV_FXA_CLIENT_SECRET', ''),
   },
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
@@ -116,76 +117,35 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
-};
-
-let injectedConfig: CommonVoiceConfig;
-let loadedConfig: CommonVoiceConfig;
-
-const ssm = new SSM(BASE_CONFIG.SSM_CONFIG);
-
-async function getSecret(key: string) {
-  const path = `/voice/${BASE_CONFIG.ENVIRONMENT}/${key}`;
-  const params = {
-    Name: path,
-    WithDecryption: true,
-  };
-  const secret = await ssm.getParameter(params).promise();
-
-  return secret.Parameter.Value;
 }
 
-let loadedSecrets: Partial<CommonVoiceConfig>;
-
-export async function getSecrets(): Promise<Partial<CommonVoiceConfig>> {
-  if (loadedSecrets) {
-    console.log('Use pre-loaded secrets');
-    return loadedSecrets;
-  }
-
-  loadedSecrets = {};
-
-  if (BASE_CONFIG.SSM_ENABLED) {
-    console.log('Fetch SSM secrets.');
-    loadedSecrets = {
-      MYSQLPASS: await getSecret('mysql-user-pw'),
-      DB_ROOT_PASS: await getSecret('mysql-root-pw'),
-      MYSQLHOST: await getSecret('mysql-host'),
-      SECRET: await getSecret('app-secret'),
-      BASKET_API_KEY: await getSecret('basket-api-key'),
-      AUTH0: {
-        DOMAIN: await getSecret('auth0-domain'),
-        CLIENT_ID: await getSecret('auth0-client-id'),
-        CLIENT_SECRET: await getSecret('auth0-client-secret'),
-      },
-    };
-  }
-  return loadedSecrets;
-}
+let injectedConfig: CommonVoiceConfig
+let loadedConfig: CommonVoiceConfig
 
 export function injectConfig(config: Partial<CommonVoiceConfig>) {
-  injectedConfig = { ...BASE_CONFIG, ...config };
+  injectedConfig = { ...BASE_CONFIG, ...config }
 }
 
 export function getConfig(): CommonVoiceConfig {
   if (injectedConfig) {
-    return injectedConfig;
+    return injectedConfig
   }
 
   if (loadedConfig) {
-    return loadedConfig;
+    return loadedConfig
   }
 
-  let fileConfig = null;
+  let fileConfig = null
 
   try {
-    const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
-    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
+    const config_path = process.env.SERVER_CONFIG_PATH || './config.json'
+    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'))
   } catch (err) {
     console.error(
       `Could not load config.json, using defaults (error message: ${err.message})`
-    );
+    )
   }
-  loadedConfig = { ...BASE_CONFIG, ...loadedSecrets, ...fileConfig };
+  loadedConfig = { ...BASE_CONFIG, ...fileConfig }
 
-  return loadedConfig;
+  return loadedConfig
 }

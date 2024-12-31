@@ -7,14 +7,14 @@ import { AddSentenceVoteCommand } from '../../../application/sentences/use-case/
 import { createPresentableError } from '../../../application/helper/error-helper'
 
 export default async (req: Request, res: Response) => {
-  if (!req.client_id) {
+  if (!req.session.user.client_id) {
     return res
       .status(StatusCodes.UNAUTHORIZED)
       .json({ message: 'Missing client_id' })
   }
 
   const command: AddSentenceVoteCommand = {
-    clientId: req.client_id,
+    clientId: req.session.user.client_id,
     sentenceId: req.body.sentence_id,
     vote: req.body.vote,
   }

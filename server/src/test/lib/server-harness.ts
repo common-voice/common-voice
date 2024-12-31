@@ -19,7 +19,7 @@ export default class ServerHarness {
       '_' +
       Math.random().toString(36).substring(7);
     injectConfig(config);
-    this.server = new RealServer({ bundleCrossLocaleMessages: false });
+    this.server = new RealServer({ bundleCrossLocaleMessages: false, setupQueues: false });
   }
 
   get mysql(): Mysql {

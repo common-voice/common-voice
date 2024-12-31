@@ -5,6 +5,7 @@ import ca from './languages/ca'
 import ckb from './languages/ckb'
 import en from './languages/en'
 import eo from './languages/eo'
+import he from './languages/he'
 import ig from './languages/ig'
 import it from './languages/it'
 import kab from './languages/kab'
@@ -18,6 +19,8 @@ import tok from './languages/tok'
 import ur from './languages/ur'
 import uz from './languages/uz'
 import yue from './languages/yue'
+import sq from './languages/sq'
+import yaq from './languages/yaq'
 
 import * as E from 'fp-ts/Either'
 import { flow, pipe } from 'fp-ts/function'
@@ -25,6 +28,7 @@ import { flow, pipe } from 'fp-ts/function'
 import { Validators } from '..'
 import {
   isValidatorLocale,
+  ValidatedSentence,
   ValidatorLocale,
   ValidatorRule,
   ValidatorRuleError,
@@ -37,6 +41,7 @@ const VALIDATORS: Validators = {
   ckb,
   en,
   eo,
+  he,
   ig,
   it,
   kab,
@@ -50,6 +55,8 @@ const VALIDATORS: Validators = {
   ur,
   uz,
   yue,
+  sq,
+  yaq,
   default_locale,
 }
 
@@ -86,10 +93,16 @@ const normalizeForLocale = (locale: string) => (sentence: string) =>
 
 const validateSentenceForLocale = flow(getValidatorFor, runValidatorOnSentence)
 
-export const validateSentence = (locale: string) => (sentence: string) => {
-  return pipe(
-    sentence,
-    normalizeForLocale(locale),
-    validateSentenceForLocale(locale)
-  )
-}
+export type ValidateSentence = (
+  locale: string
+) => (sentence: string) => E.Either<ValidatorRuleError, ValidatedSentence>
+
+export const validateSentence: ValidateSentence =
+  (locale: string) =>
+  (sentence: string): E.Either<ValidatorRuleError, ValidatedSentence> => {
+    return pipe(
+      sentence,
+      normalizeForLocale(locale),
+      validateSentenceForLocale(locale)
+    )
+  }

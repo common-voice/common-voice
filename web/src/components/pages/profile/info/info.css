@@ -30,6 +30,10 @@
                 }
             }
         }
+
+        .link {
+            color: var(--blue);
+        }
     }
 
     .signup-section {

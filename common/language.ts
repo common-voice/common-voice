@@ -25,9 +25,14 @@ export type Language = {
 // single variant object
 export type Variant = {
   id: number;
+  locale: string;
   name: string;
-  token: string;
+  tag: string;
 };
+
+export type UserVariant = Variant & {
+  is_preferred_option: boolean;
+}
 
 /*
   an object storing all
@@ -35,6 +40,6 @@ export type Variant = {
 */
 export type UserLanguage = {
   locale: string;
-  variant?: Variant;
+  variant?: UserVariant;
   accents?: Accent[];
 };

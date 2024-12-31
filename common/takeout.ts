@@ -16,3 +16,8 @@ export type TakeoutRequest = {
   clip_count: number | null;
   clip_total_size: number | null;
 };
+
+export type TakeoutResponse = {
+  parts: string[]
+  metadata: string
+}

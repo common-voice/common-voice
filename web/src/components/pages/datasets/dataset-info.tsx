@@ -6,6 +6,7 @@ import { Spinner } from '../../ui/ui';
 import DatasetIntro from './dataset-intro';
 import DatasetCorpusDownload from './dataset-corpus-download';
 import DatasetSegmentDownload from './dataset-segment-download';
+import { DonateBanner } from '../../donate-banner';
 import { useAPI } from '../../../hooks/store-hooks';
 import StateTree from '../../../stores/tree';
 
@@ -67,6 +68,10 @@ const DatasetInfo: React.FC<PropsFromState> = ({
       ) : (
         <DatasetDescription releaseData={currentDataset} />
       )}
+
+      <div className="donate-banner-wrapper">
+        <DonateBanner />
+      </div>
 
       <DatasetSegmentDownload
         isSubscribedToMailingList={isSubscribedToMailingList}

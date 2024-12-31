@@ -1,46 +1,47 @@
-import * as React from 'react';
-import * as Modal from 'react-modal';
-import { Suspense } from 'react';
-import { connect, Provider as ReduxProvider } from 'react-redux';
+import * as React from 'react'
+import * as Modal from 'react-modal'
+import { Suspense } from 'react'
+import { connect, Provider as ReduxProvider } from 'react-redux'
 import {
   Redirect,
   Route,
   RouteComponentProps,
   Switch,
   withRouter,
-} from 'react-router';
-import { Router } from 'react-router-dom';
-import * as Sentry from '@sentry/react';
-import { BrowserTracing } from '@sentry/tracing';
-import { createBrowserHistory } from 'history';
+} from 'react-router'
+import { Router, useHistory } from 'react-router-dom'
+import * as Sentry from '@sentry/react'
+import { BrowserTracing } from '@sentry/tracing'
+import { createBrowserHistory } from 'history'
 
-import { UserClient } from 'common';
-import store from '../stores/root';
-import URLS from '../urls';
-import { isMobileSafari, isProduction, shouldEmitErrors } from '../utility';
-import API from '../services/api';
-import { Locale } from '../stores/locale';
-import * as Languages from '../stores/languages';
-import { Notifications } from '../stores/notifications';
-import StateTree from '../stores/tree';
-import { Uploads } from '../stores/uploads';
-import { User } from '../stores/user';
-import Layout from './layout/layout';
-import NotificationPill from './notification-pill/notification-pill';
-import { Spinner } from './ui/ui';
-import { localeConnector, LocalePropsFromState } from './locale-helpers';
-import { Flags } from '../stores/flags';
+import { UserClient } from 'common'
+import store from '../stores/root'
+import URLS from '../urls'
+import { isMobileSafari, isProduction, shouldEmitErrors } from '../utility'
+import API from '../services/api'
+import { Locale } from '../stores/locale'
+import * as Languages from '../stores/languages'
+import { Notifications } from '../stores/notifications'
+import StateTree from '../stores/tree'
+import { Uploads } from '../stores/uploads'
+import { User } from '../stores/user'
+import Layout from './layout/layout'
+import NotificationPill from './notification-pill/notification-pill'
+import { Spinner } from './ui/ui'
+import { localeConnector, LocalePropsFromState } from './locale-helpers'
+import { Flags } from '../stores/flags'
 
-import LanguagesProvider from './languages-provider';
-import ErrorBoundary from './error-boundary/error-boundary';
-import LocalizedErrorBoundary from './error-boundary/localized-error-boundary';
+import LanguagesProvider from './languages-provider'
+import ErrorBoundary from './error-boundary/error-boundary'
+import LocalizedErrorBoundary from './error-boundary/localized-error-boundary'
+import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants'
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
-);
-const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+)
+const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'))
 const WritePage = React.lazy(
-  () => import('./pages/contribution/sentence-collector/write/write')
+  () => import('./pages/contribution/sentence-collector/write/write-container')
 )
 const ReviewPage = React.lazy(
   () => import('./pages/contribution/sentence-collector/review/review')
@@ -95,7 +96,6 @@ let LocalizedPage: any = class extends React.Component<
   state: LocalizedPagesState = {
     uploadPercentage: null,
   }
-
   isUploading = false
 
   async componentDidMount() {
@@ -104,6 +104,10 @@ let LocalizedPage: any = class extends React.Component<
 
     if (isMobileSafari()) {
       document.body.classList.add('mobile-safari')
+    }
+
+    if (!localStorage.getItem(AB_TESTING_SPLIT_KEY)) {
+      this.setABSplit()
     }
 
     Modal.setAppElement('#root')
@@ -168,12 +172,46 @@ let LocalizedPage: any = class extends React.Component<
     }
   }
 
+  shouldRedirectToRoot({
+    isContributable,
+    route,
+  }: {
+    isContributable: boolean
+    route: string
+  }) {
+    if (isContributable && (route === URLS.SPEAK || route === URLS.LISTEN)) {
+      return false
+    } else if (route === URLS.WRITE || route === URLS.REVIEW) {
+      return false
+    }
+
+    return true
+  }
+
+  setABSplit() {
+    const randomValue = Math.random()
+
+    if (randomValue < 0.5) {
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, SPLIT_A)
+    } else {
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, SPLIT_B)
+    }
+  }
+
   render() {
     const { locale, notifications, toLocaleRoute, location, languages } =
       this.props
     const { uploadPercentage } = this.state
-
     const isContributable = languages.contributableLocales.includes(locale)
+    const isSpontSpeechRedirect = location.pathname.includes(
+      URLS.SPONTANEOUS_SPEECH_REDIRECT
+    )
+
+    if (isSpontSpeechRedirect) {
+      // There's most probably a better way and place to do that
+      window.location.href = URLS.SPONTANEOUS_SPEECH
+      return
+    }
 
     return (
       <>
@@ -222,12 +260,12 @@ let LocalizedPage: any = class extends React.Component<
               exact
               path={toLocaleRoute(route)}
               render={props =>
-                isContributable ? (
+                this.shouldRedirectToRoot({ isContributable, route }) ? (
+                  <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                ) : (
                   <Layout shouldHideFooter>
                     <Component {...props} />
                   </Layout>
-                ) : (
-                  <Redirect to={toLocaleRoute(URLS.ROOT)} />
                 )
               }
             />
@@ -239,7 +277,7 @@ let LocalizedPage: any = class extends React.Component<
   }
 }
 
-LocalizedPage.displayName = 'LocalizedPage';
+LocalizedPage.displayName = 'LocalizedPage'
 
 LocalizedPage = withRouter(
   localeConnector(
@@ -261,10 +299,10 @@ LocalizedPage = withRouter(
       }
     )(LocalizedPage)
   )
-);
+)
 
 const App = () => {
-  const history = createBrowserHistory();
+  const history = createBrowserHistory()
 
   return (
     <Suspense fallback={<Spinner />}>
@@ -280,7 +318,7 @@ const App = () => {
         </ReduxProvider>
       </ErrorBoundary>
     </Suspense>
-  );
-};
+  )
+}
 
-export default App;
+export default App

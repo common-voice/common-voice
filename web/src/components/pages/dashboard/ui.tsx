@@ -8,7 +8,7 @@ export function Fraction({
   percentage,
   className,
 }: {
-  numerator: React.ReactNode;
+  numerator: string | number;
   denominator?: React.ReactNode;
   percentage?: boolean;
   className?: string;
@@ -16,7 +16,7 @@ export function Fraction({
   return (
     <div
       className={`fraction${className ? ` ${className}` : ''}${
-        numerator <= 99 ? ' md-right' : ''
+        typeof numerator === 'number' && numerator <= 99 ? ' md-right' : ''
       }`}>
       <div className="numerator">{numerator}</div>
       <div className="denominator">

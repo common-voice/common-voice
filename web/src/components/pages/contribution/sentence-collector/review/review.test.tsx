@@ -20,7 +20,20 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
   },
   useAction: () => useActionMock,
   useAccount: () => {
-    return {}
+    return {
+      languages: [
+        {
+          locale: 'mock-locale-1',
+          variant: {
+            id: 1,
+            name: 'mock-variant-name',
+            token: 'mock-variant-token',
+            is_preferred_option: false,
+          },
+        },
+        { locale: 'mock-locale-2' },
+      ],
+    }
   },
   useSentences: () => ({
     'mock-locale-1': {},
@@ -47,7 +60,7 @@ beforeAll(() => {
     hostname: 'dummy.com',
     href: 'http://dummyurl.com',
     origin: 'http://dummyurl.com',
-    pathname: null,
+    pathname: '/mock/path',
     search: null,
     assign: null,
     reload: null,
@@ -81,9 +94,12 @@ describe('Review page', () => {
       }))
 
     renderWithProviders(<Review />)
+    const activeReviewCard = screen.getByTestId('active-review-card')
     const reviewCards = screen.getAllByTestId('review-card')
 
-    expect(reviewCards.length).toEqual(mockPendingSentences.length)
+    expect(activeReviewCard).toBeTruthy()
+    // because the other card is the active one
+    expect(reviewCards.length).toEqual(mockPendingSentences.length - 1)
     spy.mockRestore()
   })
 

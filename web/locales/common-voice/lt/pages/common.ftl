@@ -1,0 +1,167 @@
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+ab = Abchazų
+ace = Ačehų
+ady = Adygų
+af = Afrikanų
+am = Amharų
+an = Aragonezų
+ar = Arabų
+arn = Mapudungunų
+as = Asamų
+ast = Astūrų
+az = Azerbaidžaniečių
+ba = Baškirų
+be = Baltarusių
+bg = Bulgarų
+bn = Bengalų
+br = Bretonų
+bxr = Buriatų
+ca = Katalonų
+cak = Kakčikelių
+cnh = Hakų činų
+cs = Čekų
+cv = Čiuvašų
+cy = Valų
+da = Danų
+de = Vokiečių
+dsb = Žemutinių sorbų
+dv = Maldyvų
+el = Graikų
+en = Anglų
+eo = Esperanto
+es = Ispanų
+et = Estų
+eu = Baskų
+fa = Persų
+ff = Fulbių
+fi = Suomių
+fo = Farerų
+fr = Prancūzų
+fy-NL = Fryzų
+ga-IE = Airių
+gl = Galisų
+ha = Hausų
+he = Hebrajų
+hi = Hindi
+hr = Kroatų
+hsb = Auštutinių sorbų
+hu = Vengrų
+hy-AM = Armėnų
+hyw = Armėnų (Vakarų)
+ia = Interlingua
+id = Indoneziečių
+is = Islandų
+it = Italų
+izh = Ižorų
+ja = Japonų
+ka = Gruzinų
+kaa = Karakalpakų
+kab = Kabilų
+kbd = Kabardinų
+kk = Kazachų
+ko = Korėjiečių
+kpv = Komių-zyrų
+kw = Hakų činų
+ky = Kirgizų
+lg = Luganda
+lij = Ligūrų
+lt = Lietuvių
+lv = Latvių
+mdf = Mokšų
+mg = Malagasių
+mhr = Pievų marių
+mk = Makedonų
+ml = Malajų
+mn = Mongolų
+mrj = Aukštumų marių
+mt = Maltiečių
+my = Birmiečių
+myv = Erzių
+nb-NO = Norvegų (bukmolas)
+ne-NP = Nepalų
+nl = Olandų
+nn-NO = Norvegų (naujoji)
+oc = Oksitanų
+or = Orijų
+pa-IN = Pandžabų
+pl = Lenkų
+pt = Portugalų
+rm-sursilv = Retoromanų (sursilvanų)
+rm-vallader = Retoromanų (valaderių)
+ro = Rumunų
+ru = Rusų
+rw = Kinjaruanda
+sah = Jakutų
+sc = Sardų
+scn = Siciliečių
+si = Sinhalų
+sk = Slovakų
+sl = Slovėnų
+sq = Albanų
+sr = Serbų
+sv-SE = Švedų
+sw = Svahilių
+syr = Sirų
+ta = Tamilų
+te = Telugų
+tg = Tadžikų
+th = Tajų
+tl = Tagalogų
+tr = Turkų
+tt = Totorių
+uby = Ubychų
+udm = Udmurtų
+uk = Ukrainiečių
+ur = Urdu
+uz = Uzbekų
+vec = Venecijiečių
+vi = Vietnamiečių
+vot = Vodų
+zh-CN = Kinų (Kinija)
+zh-HK = Kinų (Honkongas)
+zh-TW = Kinų (Taivanas)
+
+# [/]
+
+
+## Layout
+
+speak = Kalbėk
+speak-now = Kalbėk dabar
+datasets = Duomenų rinkiniai
+languages = Kalbos
+about = Apie
+profile = Profilis
+help = Pagalba
+contact = Susisiek
+privacy = Privatumas
+terms = Sąlygos
+cookies = Slapukai
+faq = DUK
+content-license-text = Turinys pateikiamas pagal <licenseLink>„Creative Commons“ licenciją</licenseLink>
+share-title = Padėk mums rasti savanorių, kurie pasidalintų savo balsu!
+share-text = Padėk apmokyti kompiuterius kaip kalba tikri žmonės – pasidalink savo balsu adresu { $link }
+link-copied = Saitas nukopijuotas
+back-top = Grįžti į pradžią
+logout = Atsijungti
+stayintouch = Mes „Mozilloje“ buriame balso technologijų bendruomenę. Norėtume su Tavimi dalintis naujienomis ir duomenų šaltiniais bei sužinoti, kaip Tau seksis naudotis mūsų duomenimis.
+privacy-info = Pažadame tvarkyti Tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
+return-to-cv = Grįžti į „Common Voice“
+email-input =
+    .label = El. paštas
+submit-form-action = Pateikti
+loading = Įkeliama…
+email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
+email-opt-in-info-title = Prenumeruoti „Common Voice“ naujienlaiškį
+email-opt-in-info-sub-with-challenge = Gauti iššūkių ir tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
+email-opt-in-privacy-v2 = Pasirinkęs (-usi) gauti el. laiškus, Tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje</privacyLink>.
+indicates-required = * Nurodo privalomą lauką
+not-available-abbreviation = Nepasiekiama
+
+## Donate banner
+

@@ -12,6 +12,7 @@ import {
   UserLanguage,
   SentenceSubmission,
   SentenceVote,
+  TakeoutResponse,
 } from 'common'
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
@@ -24,6 +25,7 @@ interface FetchOptions {
     [headerName: string]: string
   }
   body?: any // eslint-disable-line @typescript-eslint/no-explicit-any
+  signal?: AbortSignal
 }
 
 interface Vote extends Event {
@@ -44,10 +46,12 @@ const getChallenge = (user: User.State): string => {
 export default class API {
   private readonly locale: Locale.State
   private readonly user: User.State
+  private readonly abortController: AbortController
 
   constructor(locale: Locale.State, user: User.State) {
     this.locale = locale
     this.user = user
+    this.abortController = new AbortController()
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -84,17 +88,29 @@ export default class API {
           : JSON.stringify(body)
         : undefined,
     })
+
     if (response.status == 401) {
       localStorage.removeItem(USER_KEY)
       location.reload()
       return
     }
+
+    if (response.status === 429) {
+      const error = new Error(response.statusText)
+      Object.assign(error, {
+        message: 'Too Many Requests',
+        retryAfter: response.headers.get('retry-after'),
+      })
+      throw error
+    }
+
     if (response.status >= 400) {
       if (response.statusText.includes('save_clip_error')) {
         throw new Error(response.statusText)
       }
       throw new Error(await response.text())
     }
+
     return isJSON ? response.json() : response.text()
   }
 
@@ -160,7 +176,9 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/locales/${locale}/messages.ftl`, { isJSON: false })
+    return this.fetch(`${API_PATH}/languages/${locale}/translations`, {
+      isJSON: false,
+    })
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
@@ -315,7 +333,7 @@ export default class API {
     })
   }
 
-  fetchTakeoutLinks(id: number) {
+  fetchTakeoutLinks(id: number): Promise<TakeoutResponse> {
     return this.fetch(
       [API_PATH, 'user_client', 'takeout', id, 'links'].join('/'),
       {
@@ -528,12 +546,26 @@ export default class API {
   }
 
   createSentence({
-    sentence,
-    source,
-    localeId,
-    localeName,
-  }: SentenceSubmission) {
-    const data = { sentence, source, localeId, localeName }
+    sentenceSubmission: { sentence, source, localeName, domains, variant },
+    isSmallBatch,
+  }: {
+    sentenceSubmission: SentenceSubmission
+    isSmallBatch?: boolean
+  }) {
+    const data = {
+      domains,
+      ...(isSmallBatch ? { sentences: sentence } : { sentence }),
+      source,
+      localeName,
+      ...(variant && { variant }),
+    }
+
+    if (isSmallBatch) {
+      return this.fetch(`${API_PATH}/sentences/batch`, {
+        method: 'POST',
+        body: data,
+      })
+    }
 
     return this.fetch(`${API_PATH}/sentences`, {
       method: 'POST',
@@ -552,5 +584,31 @@ export default class API {
       method: 'POST',
       body: data,
     })
+  }
+
+  async bulkSubmissionRequest({
+    file,
+    locale,
+    fileName,
+  }: {
+    file: File
+    locale: string
+    fileName: string
+  }) {
+    const { signal } = this.abortController
+    const content = await file.arrayBuffer()
+
+    return fetch(`${API_PATH}/${locale}/bulk_submissions`, {
+      method: 'POST',
+      body: content,
+      headers: {
+        filename: fileName,
+      },
+      signal,
+    })
+  }
+
+  abortBulkSubmissionRequest() {
+    this.abortController.abort()
   }
 }

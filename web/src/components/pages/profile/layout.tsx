@@ -23,7 +23,7 @@ import InfoPage from './info/info';
 import Settings from './settings/settings';
 
 import './layout.css';
-import DownloadProfile, { getProfileInfo } from './download/download';
+import DownloadProfile from './download/download';
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 

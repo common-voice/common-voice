@@ -12,6 +12,7 @@ import HowGrowLanguage from './playbook-content/how-grow-language';
 import HowValidate from './playbook-content/how-validate';
 import HowAccessDataset from './playbook-content/how-access-dataset';
 import HowProjectGovernance from './playbook-content/how-project-governance';
+import HowFunded from './playbook-content/how-funded';
 
 import './playbook.css';
 
@@ -49,6 +50,10 @@ const tabs: TabEntryType[] = [
   {
     title: PLAYBOOK.HOW_VALIDATE,
     contentComponent: HowValidate,
+  },
+  {
+    title: PLAYBOOK.HOW_FUNDED,
+    contentComponent: HowFunded,
   },
   {
     title: PLAYBOOK.HOW_ACCESS_DATASET,

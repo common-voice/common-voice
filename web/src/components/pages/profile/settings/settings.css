@@ -79,6 +79,15 @@
         padding-top: 32px;
         display: flex;
         flex-direction: column;
+
+        .email-change-info {
+            font-size: var(--font-size-xs);
+            margin-block-start: 8px;
+
+            a {
+                color: var(--anchor-text-blue);
+            }
+        }
     }
 
     & .edit-button {

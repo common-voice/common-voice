@@ -14,7 +14,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -33,7 +33,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -52,7 +52,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -71,7 +71,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -90,7 +90,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -109,7 +109,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -128,7 +128,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -147,7 +147,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -166,7 +166,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -185,7 +185,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -204,7 +204,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -223,7 +223,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -242,7 +242,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -261,7 +261,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -280,7 +280,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -299,7 +299,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -318,7 +318,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -337,7 +337,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -356,7 +356,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -375,7 +375,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -394,7 +394,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -413,7 +413,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -432,7 +432,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -451,7 +451,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -470,7 +470,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -489,7 +489,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -508,7 +508,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -527,7 +527,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -546,7 +546,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -565,7 +565,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -584,7 +584,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -603,7 +603,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -622,7 +622,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -641,7 +641,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -660,7 +660,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -679,7 +679,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -698,7 +698,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -717,7 +717,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -736,7 +736,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -755,7 +755,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -774,7 +774,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -793,7 +793,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -812,7 +812,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -831,7 +831,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -850,7 +850,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -869,7 +869,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -888,7 +888,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -907,7 +907,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -926,7 +926,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -945,7 +945,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -964,7 +964,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -983,7 +983,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1002,7 +1002,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1021,7 +1021,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1040,7 +1040,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1059,7 +1059,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1078,7 +1078,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1097,7 +1097,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1116,7 +1116,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1135,7 +1135,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1154,7 +1154,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1173,7 +1173,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1192,7 +1192,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1211,7 +1211,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1230,7 +1230,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1249,7 +1249,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1268,7 +1268,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1287,7 +1287,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1306,7 +1306,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1325,7 +1325,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1344,7 +1344,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1363,7 +1363,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1382,7 +1382,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1401,7 +1401,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1420,7 +1420,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1439,7 +1439,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1458,7 +1458,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1477,7 +1477,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1496,7 +1496,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1515,7 +1515,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1534,7 +1534,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1553,7 +1553,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1572,7 +1572,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1591,7 +1591,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1610,7 +1610,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1629,7 +1629,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1648,7 +1648,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1667,7 +1667,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1686,7 +1686,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1705,7 +1705,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1724,7 +1724,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1743,7 +1743,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1762,7 +1762,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1781,7 +1781,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1800,7 +1800,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1819,7 +1819,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1838,7 +1838,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1857,7 +1857,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1876,7 +1876,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1895,7 +1895,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1914,7 +1914,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1933,7 +1933,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1952,7 +1952,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1971,7 +1971,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -1990,7 +1990,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -2009,7 +2009,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -2028,7 +2028,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },
@@ -2047,7 +2047,7 @@ const STATS = [
     name: 'Common Voice Corpus 13.0',
     release_dir: 'cv-corpus-13.0-2023-03-09',
     download_path:
-      'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-13.0-2023-03-09/{locale}.tar.gz',
+      'cv-corpus-13.0-2023-03-09/cv-corpus-13.0-2023-03-09-{locale}.tar.gz',
     total_clips_duration: 97709611853,
     valid_clips_duration: 63681475000,
   },

@@ -5,8 +5,14 @@
 basepath = "."
 
 [env]
-    l = "{l10n_base}/web/locales/{locale}/"
+    c = "{l10n_base}/web/locales/common-voice/{locale}/"
+    s = "{l10n_base}/web/locales/spontaneous-speech/{locale}/"
 
 [[paths]]
-    reference = "web/locales/en/**"
-    l10n = "{l}**"
+    reference = "web/locales/common-voice/en/**"
+    l10n = "{c}**"
+
+[[paths]]
+    reference = "web/locales/spontaneous-speech/en/**"
+    l10n = "{s}**"
+

@@ -2,14 +2,16 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { shallowEqual } from 'react-redux';
+import classNames from 'classnames';
+
 import { trackHome } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
 import { ContributableLocaleLock } from '../../locale-helpers';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
-import RegisterSection from '../../register-section/register-section';
 import { LinkButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import Hero from './hero';
+import { DonateBanner } from '../../donate-banner';
 import { ClipsStats, VoiceStats } from './stats';
 import URLS from '../../../urls';
 
@@ -74,7 +76,6 @@ export default function HomePage() {
           )
         }
       />
-
       <div className="text">
         <div className="inner">
           <div className="title">
@@ -121,13 +122,14 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
-      <div className="stats">
+      <div
+        className={classNames('stats', { 'logged-in': user.account })}
+        id="stats">
         <ClipsStats.Root />
         <VoiceStats />
       </div>
 
-      {user.account ? (
+      {user.account && (
         <section className="contribute-section">
           <div className="mars-container">
             <img src="/img/mars.svg" alt="Mars" />
@@ -163,23 +165,11 @@ export default function HomePage() {
             />
           </div>
         </section>
-      ) : (
-        <RegisterSection marsSrc="/img/mars.svg">
-          <h1>
-            <Localized id="help-make-dataset" />
-          </h1>
-          <h2>
-            <Localized id="profile-not-required" />
-          </h2>
-          <Localized id="sign-up-account">
-            <LinkButton
-              rounded
-              href="/login"
-              onClick={() => trackHome('click-benefits-register', locale)}
-            />
-          </Localized>
-        </RegisterSection>
       )}
+
+      <section className="donate-banner-section">
+        <DonateBanner />
+      </section>
     </Page>
   );
 }

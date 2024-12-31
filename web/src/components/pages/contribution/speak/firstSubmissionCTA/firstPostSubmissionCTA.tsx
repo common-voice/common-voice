@@ -1,30 +1,25 @@
 import * as React from 'react';
-import { Localized } from '@fluent/react';
-import { UserLanguage } from 'common';
+import { Localized, useLocalization } from '@fluent/react';
 import cx from 'classnames';
+
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
-import { User } from '../../../../../stores/user';
-import {
-  useAction,
-  useAPI,
-  useLocalStorageState,
-} from '../../../../../hooks/store-hooks';
+import { useAPI } from '../../../../../hooks/store-hooks';
 import { Notifications } from '../../../../../stores/notifications';
-import {
-  AccentsAll,
-  VariantsAll,
-} from '../../../profile/info/languages/languages';
+
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
 import { QuestionMarkIcon } from '../../../../ui/icons';
-import { Button } from '../../../../ui/ui';
+import { Button, LabeledSelect, Options } from '../../../../ui/ui';
+
+import { GENDERS } from '../../../../../stores/demographics';
+import { useFirstPostSubmissionCTA } from './hooks/useFirstPostSubmissionCTA';
 
 import './firstPostSubmissionCTA.css';
 
 export const USER_LANGUAGES = 'userLanguages';
 
-type FirstPostSubmissionCtaProps = {
+export type FirstPostSubmissionCtaProps = {
   locale: string;
   onReset: () => void;
   addNotification: typeof Notifications.actions.addPill;
@@ -39,24 +34,30 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   successUploadMessage,
   errorUploadMessage,
 }) => {
-  const saveAnonymousAccount = useAction(
-    User.actions.saveAnonymousAccountLanguages
-  );
-  const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
-
-  const [userLanguages, setUserLanguages] = useLocalStorageState<
-    UserLanguage[]
-  >([{ locale, accents: [] }], USER_LANGUAGES);
-
-  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
-  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
-
-  const isVariantInputVisible = Boolean(variantsAll[locale]);
-
-  const isAddInformationButtonDisabled =
-    userLanguages[0].accents.length === 0 && !userLanguages[0].variant;
+  const {
+    areLanguagesLoading,
+    setAreLanguagesLoading,
+    accentsAll,
+    setAccentsAll,
+    variantsAll,
+    setVariantsAll,
+    setUserLanguages,
+    handleAddInformationClick,
+    handleSelectChange,
+    gender,
+    userLanguages,
+    isAddInformationButtonDisabled,
+    isVariantInputVisible,
+  } = useFirstPostSubmissionCTA({
+    locale,
+    onReset,
+    addNotification,
+    successUploadMessage,
+    errorUploadMessage,
+  });
 
   const api = useAPI();
+  const { l10n } = useLocalization();
 
   React.useEffect(() => {
     if (areLanguagesLoading) {
@@ -68,21 +69,6 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       });
     }
   }, []);
-
-  const handleAddInformationClick = async () => {
-    const data = {
-      languages: userLanguages,
-    };
-
-    try {
-      await saveAnonymousAccount(data);
-      addNotification(successUploadMessage, 'success');
-    } catch {
-      addNotification(errorUploadMessage, 'error');
-    }
-
-    onReset();
-  };
 
   return (
     <div className="first-cta-container" data-testid="first-submission-cta">
@@ -122,6 +108,20 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   setUserLanguages={setUserLanguages}
                 />
               </div>
+
+              <Localized
+                id="first-cta-gender-select-help-text"
+                attrs={{ label: true }}>
+                <LabeledSelect
+                  value={gender}
+                  onChange={handleSelectChange}
+                  name="gender">
+                  <option selected value="">
+                    {l10n.getString('first-cta-gender-select-default-option')}
+                  </option>
+                  <Options>{GENDERS}</Options>
+                </LabeledSelect>
+              </Localized>
             </div>
           ))}
         </div>

@@ -1,0 +1,43 @@
+## Datasets Page
+
+language = Тил
+# File size in gigabytes
+size = Өлчөм
+validated-hr-total = Саат текшерилди
+overall-hr-total = Бардыгы саат
+cv-license = Лицензия
+audio-format = Аудиоформат
+number-of-voices = Үндөрдүн саны
+validated-hours = саат текшерилди
+recorded-hours = саат жаздырылды
+whats-inside = Common Voice берилиштерине эмнелер кирет?
+subscribe = Жазылуу
+get-started-speech = Сөз таануу менен иштеп баштоо
+other-datasets = Башка үн топтомдору
+feedback-q = Пикир барбы?
+data-other-librispeech-description = LibriSpeech - LibriVox долбоорунун англисче окулган аудио китептеринен алынган корпус. Болжолдуу көлөмү 1000 саат, сапаты 16Khz .
+data-other-ted-name = TED-LIUM корпусу
+data-other-ted-description = TED-LIUM корпусу - TED сайтындагы ачык жеткиликтүү аудио сүйлөшүүлөрдүн жана алардын транскрипцияларынан түзүлгөн корпус.
+data-other-voxforge-description = VoxForge - бекер жана ачык булактуу сөз таануу машинелеринин пайдалануусу үчүн чечмеленген сөздөрдү чогултуу максатында түзүлгөн.
+data-other-tatoeba-description = Tatoeba - тил үйрөнүү максатында колдонулган сүйлөмдөрдүн, котормолордун жана айтылган аудиолордун кору. Бул жүктөп алуу англис тил коомдоштугу жаздырган айтымдарды камтыйт.
+go-discourse = Discourse'ка өтүү
+go-languages-page = Тилдер барагына өтүү
+ready-to-validate = Сүйлөмдөрдү текшерүүгө жардам берүүгө даярсызбы?
+more = Дагы
+close = Жабуу
+download = Жүктөп алуу
+data-download-button = Common Voice берилиштерин жүктөп алуу
+data-download-yes = Ооба
+data-download-deny = Жок
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Сиз <size>{ $size } GB</size> жүктөп баштагыңыз келеби, уланталыбы?
+data-subtitle = Биз каалаган киши үн менен башкарылган колдонмолорду машыктыра алган, ачык жана жалпыга жеткиликтүү үн корун куруп жатабыз.
+data-explanatory-text = Жалпыга ачык жеткиликтүү үн берилиштер кору инновацияларга жана машинени үйрөтүүнүн негизинде сөз таануу технологиялар арасындагы калыс коммерциялык атаандаштыкты өнүктүрүүгө түрткү болот деп ишенебиз. Бул глобалдык демилге жана каалаган катышуучулар үчүн эшик ачык. Максатыбыз - сөз таануу технологиясы дүйнө үндөрүнүн ар түрдүүлүгүн камтып жана чагылдырып беришине шарт түзүү.
+data-get-started = <speechBlogLink>Сөз таанууну баштоо</speechBlogLink>
+data-other-title = Башка үн базалары...
+data-other-goto = { $name } өтүү
+data-other-download = Берилиш жүктөп алуу
+data-bundle-button = Берилиштер топтомосун жүктөп алгыла
+data-bundle-description = Common Voice жана жогорудагы айтылган бардык үн корлору.
+license = Лицензиясы: <licenseLink>{ $license }</licenseLink>
+license-mixed = Аралашкан

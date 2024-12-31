@@ -1,0 +1,45 @@
+## ProfileForm
+
+profile-form-username =
+    .label = İstifadəçi adı
+profile-form-language =
+    .label = Dil
+profile-form-accent =
+    .label = Ləhcə
+profile-form-age =
+    .label = Yaş
+leaderboard-visibility =
+    .label = Öndərlər Siyahısı Görünüşü
+hidden = Gizli
+visible = Görünən
+native-language =
+    .label = Ana Dili
+profile-form-submit-save = Saxla
+profile-form-submit-saved = Saxlandı
+# Gender
+other = Digər
+why-profile-title = Niyə profil?
+why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
+dashboard = İdarə paneli
+build-profile = Profil yarat
+avatar = Avatar
+goals = Hədəflər
+settings = Tənzimləmələr
+edit-profile = Profili Düzəlt
+profile-create-success = Profil uğurla yaradıldı!
+profile-close = Qapat
+profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və səs məlumatlarımızı daha dəqiq hala gətirə bilərsiz.
+thanks-for-account = Hesabınızı təsdiqlədiyiniz üçün təşəkkürlər, indi də profilinizi düzəldək.
+why-demographic = Bu nəyə lazımdır?
+accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</privacyLink>nə əsasən işləməyinizə razıyam
+login-identity = Giriş İdentikliyi
+login-signup = Daxil ol / Qeydiyyatdan keç
+edit = Redaktə et
+email-subscriptions = E-poçt Abunəlikləri
+download-profile = Məlumatlarımı endir
+contribution-experience = Kömək Təcrübəsi
+skip-submission-feedback = Əks-əlaqə göndərməyi keç
+skip-submission-description = Kömək vaxtı "Göndər" düyməsinə kliklədikdən sonra əks-əlaqə göndərmə keçiləcək. Kömək birbaşa bir sonrakı 5 qeydiyyat və ya təsdiqləmə ilə davam edəcək.
+skip-submission-note = Qeyd: Siz yenə də kömək növünü dəyişmək üçün Danış və ya Qulaq as seçməli olacaqsız.
+off = Sönülü
+on = Açıq

@@ -61,24 +61,6 @@ async function getLocaleIds(db) {
   }
 }
 
-async function updateTotals(db, values) {
-  try {
-    return await db(
-      `
-      UPDATE datasets
-      SET total_clips_duration = ?,
-          valid_clips_duration = ?,
-          release_type = ?,
-          download_path = ?
-      WHERE release_dir = ?
-    `,
-      [...values]
-    );
-  } catch (error) {
-    console.log(error);
-  }
-}
-
 async function insertLocaleStats(db, values) {
   try {
     return await db(
@@ -129,7 +111,6 @@ async function loadStatisticFiles(db) {
       download_path,
       release_dir,
     ];
-    await updateTotals(db, totalReleaseStats);
 
     //save individual languages stats to db per dataset
     const { locales } = statistics;

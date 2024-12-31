@@ -55,12 +55,14 @@
 
             @media (--md-up) {
                 height: 28px;
+                pointer-events: none;
             }
         }
     }
 
     &.play svg {
         height: 22px;
+        pointer-events: none;
 
         & path {
             fill: var(--valid-green);

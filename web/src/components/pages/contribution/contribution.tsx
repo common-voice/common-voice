@@ -5,7 +5,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Tooltip } from 'react-tippy'
+import { Tooltip } from 'react-tippy';
 import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -26,6 +26,7 @@ import {
   ArrowLeft,
   QuestionIcon,
 } from '../../ui/icons';
+import { Tag } from './tag';
 import { Button, StyledLink, LabeledCheckbox, LinkButton } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
@@ -351,11 +352,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    if (isSubmitted && type === 'listen') {
+    const noUserAccount = !user.account;
+
+    if (isSubmitted && type === 'listen' && noUserAccount) {
       return <Success onReset={onReset} type={type} />;
     }
 
-    const noUserAccount = !user.account;
     const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA;
     const shouldHideCTA = !shouldShowFirstCTA && !shouldShowSecondCTA;
 
@@ -384,7 +386,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <div className="cards-and-instruction">
               {instruction({
                 vars: { actionType: getString('action-click') },
-                children: <div className="instruction hidden-sm-down" />,
+                children: (
+                  <div
+                    className="instruction hidden-sm-down"
+                    data-testid="instruction"
+                  />
+                ),
               }) || <div className="instruction hidden-sm-down" />}
 
               <div className="cards">
@@ -412,8 +419,17 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                           }%)`,
                         ].join(' '),
                         opacity: i < activeSentenceIndex ? 0 : 1,
-                      }}>
-                      <div style={{ margin: 'auto', width: '100%' }}>
+                      }}
+                      data-testid={`card-${i + 1}`}>
+                      <div
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          display: 'flex',
+                          flexDirection: 'column',
+                          alignItems: 'center',
+                          justifyContent: 'space-evenly',
+                        }}>
                         {sentence?.text}
                         {sentence?.taxonomy ? (
                           <div className="sentence-taxonomy">
@@ -431,6 +447,9 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                             </StyledLink>
                           </div>
                         ) : null}
+                        {sentence?.variant && (
+                          <Tag text={getString(sentence.variant.tag)} />
+                        )}
                       </div>
                     </div>
                   );
@@ -545,7 +564,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 'fs-ignore-rage-clicks',
               ].join(' ')}
               disabled={!this.isLoaded}
-              onClick={onSkip}>
+              onClick={onSkip}
+              data-testid="skip-button">
               <SkipIcon />
               <Localized id="skip">
                 <span />
@@ -582,6 +602,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                     ].join(' ')}
                     disabled={!this.isDone}
                     type="submit"
+                    data-testid="submit-button"
                   />
                 </Localized>
               </form>

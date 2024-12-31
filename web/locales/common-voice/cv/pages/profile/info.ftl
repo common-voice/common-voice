@@ -1,0 +1,43 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Ят
+profile-form-accent =
+    .label = Акцент
+profile-form-age =
+    .label = Миҫе ҫулта
+leaderboard-visibility =
+    .label = Лидерсен хушшинче кӑтартни
+hidden = Пытармалла
+visible = Кӑтартмалла
+native-language =
+    .label = Тӑван чӗлхе
+profile-form-submit-save = Çырса хур
+profile-form-submit-saved = Ҫырса хунӑ
+# Gender
+other = Урӑх
+why-profile-title = Мӗн тума кирлӗ профиль?
+why-profile-text = Хӑвӑнпа кӑштах паллаштарни парнеленӗ сассун уссине пысӑклатӗ, калаҫӑва уякан машинсен ӗҫ-пуҫ тӗрӗссине ӳсӗмлетӗ.
+dashboard = Кашта (панель)
+build-profile = Профиле ту
+avatar = Аватар
+goals = Тӗллевсем
+settings = Ӗнерлевсем
+edit-profile = Профиле тӳрлет
+profile-create-success = Анӑслӑ, профиль тӑвӑннӑ!
+profile-close = Хуп
+profile-explanation = Профильте хӑвӑрӑн аталанӑвӑра йӗрлӗр тата пирӗн сассӑмӑра лайӑхрах тума пулӑшӑр.
+thanks-for-account = Аккаунта ҫиреплетнӗшӗн тав, халь вара санӑн профиле хывар.
+why-demographic = Мӗн тума кирлӗ ку?
+accept-privacy = Ҫак пӗлӗмпе <privacyLink>харпӑрлӑх политикине</privacyLink> тӑрӑх усӑ курнипе килӗшетӗп.
+login-identity = Кӗмелли идентификатор
+login-signup = Сайта кӗр / Регистрацилен
+edit = Тӳрлет
+email-subscriptions = Эл. пуштӑ ҫырӑнни
+download-profile = Ман пӗлӗме тиесе антар.
+contribution-experience = «Common Voice»-па ӗҫлени мӗнлерех-ши?
+skip-submission-feedback = Ӗҫне хакланине сиктер
+skip-submission-description = Ӗҫнӗ чухне хаклани пулмасть. «Яр» ҫине пуссан тӳрех тепӗр 5 пуплерӗш тиенет.
+skip-submission-note = Асӑрха: "Кала" е "Итле" режима суйламалла.
+off = Сӳнтернӗ
+on = Ҫутнӑ

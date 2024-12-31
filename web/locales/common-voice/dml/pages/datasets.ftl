@@ -1,0 +1,92 @@
+## Datasets Page
+
+datasets-heading = ڈیٹا سیٹ نم
+datasets-headline = ائی ایک اوپن سورس لے  باݜہ نم تہ کاڻ نم تہ ڈیٹا سیٹ ژوپائیمہ ۔ مس کُری ایس تقریری اپلیکشن تہ تربیت کی استعمل کُرین بئین
+datasets-positioning = ائی یہ گٹینُمہ تے عوامی طور میلوبال کاڻ تہ ڈیٹا سیٹ مشین لرننگ ݜا مبی تقریری ٹیکنالونیہ جدت آں صحت من تجارتی مقابلہ کی فروغ پریمہ۔ کامن وائس ساں لے باݜہ ویلہ ڈیٹا سیٹ اول تئیں سپُن تہ اول عوامی طورہ دستیاب کاڻ تہ ڈیٹا سیٹ درو۔ لیکن یہ کیول یہ نی ورے ایس درو۔  یہ پھٹ ورے اوپن سورس کاڻ تہ ڈیٹا سیٹ تہ حوالہ تہ مرکز تہ طورہ دڇھا۔ آں کیر عام کاڻ ترقی کُرے بہ، یہ امونہ ریلیز اپ ڈیٹ تہ پرئی ایس ایک مرکز ژوپو۔
+language = باݜہ
+download-dataset-header = ڈیٹا سیٹ ڈاون لوڈ کُرے
+download-delta-explainer = اما اچھک تبدیلی کوتُھومہ،آخری ریلیز تہ بعد  ڈٰیٹا سیگمنٹہ نواں کلپ نم درو۔<deltaLink> یہ کرم تہ بارہ ورے ایس مترا</deltaLink>
+download-dataset-tag = مینہ خوخہ تہ باڜہ تہ ڈیٹا سیٹ منتخب کُرا آں سے ورژن منتخب کُرا کیرا بی ڈاون لوڈ کُرن گٹینبہ
+# File size in gigabytes
+size = سائز
+validated-hr-total = سپُن تصدیق بئیسن ایج آر
+overall-hr-total = مجموعی طورہ سپُن ایچ آر
+cv-license = لائسنس
+audio-format = کاڻ تہ فارمیٹ
+dataset-splits = عمر آں جنس بژن
+number-of-voices = کاڻ نم تہ تعداد
+splits = تقِسم
+email-to-download = ای میل اینٹر کُرا ڈاون لوڈ کُرئیں کی
+why-email = <b>کو ایک ای میل </b>مستقبلہ ائی میاں ملی ڈیڈا سیٹہ ردوبدل کُرنہ رابطہ کُریمہ، رابطہ کُرئیں کی ایک ای میل پریا
+why-donate-datasets-page = موزیلا کامن وائس دنیا تہ سپُن تہ بلو کراوڈ سورسڈ اوپن تقریر تہ ڈیٹا سیٹ درو۔ آں یہ مکمل طورہ عطیہ چلنا۔    ڈیٹا سیٹ تہ میزبانی پلیٹ فام تہ بہتری باݜہ ایک ملین خرچہ آڅنا 100باݜہ تہ کمیونٹی اما ڜا انحصار کنُن۔ اگر میاکی جامع ڈیٹا تہ قدر درو بہ کولو کُرا<b>مُدئیں عطیہ کُرا</b>
+confirm-size = بی ڈاون لوڈ شروع کُرئیں کی تیار تُھوبہ ساں <b>{ $size }</b>
+size-gigabyte = جی بی GB
+size-megabyte = ایم بی MB
+confirm-no-identify = <b>تو متفق</b> کامن وائس ڈیٹا سیٹہ مُشکُل بال نی زانن تہ کوشیش نی کُرنہ متفق تُھوپی
+confirm-join-mailing-list = تو کامن وائس تہ میل تہ لسٹہ شامل بئین گٹینپی
+download-language = ڈاون لوڈ{ $language }
+validated-hours = تصدیق کُریسن گھنٹہ نم
+recorded-hours = ریکاڈ بئیسن گھنٹہ نم
+whats-inside = کامن وائس تہ ڈیٹا سیٹ منورہ کیہ درو
+dataset-description-hours = ڈیٹا سیٹہ ہر اندراج ایک منفرد MP3 آں متعلقہ متن تہ فائلہ مشتمل تِھنا۔ تہ لے<b>{ $total }</b>ڈیٹا سیٹہ ریکارڈ بئیسن گھنٹہ نامہ ڈیمو گرافک ڈٰیٹا عمر، سیکس آں لہجہ ایس شامل تِِھنا۔ سے تقریر زانال انجن نم ساں سئی کُرنی کی ترتیب پرینہ مدد کُنا۔  ڈیٹا سیٹ فی الحال مشتمل درو<b>{ $total }</b></b>توثیق بئیسن گینٹہ نم<b>{ $languages }</b>باڜہ نامہ، مگر ائی ہمیشہ ورے کاڻ آں  باݜہ نم شامل کُنُمہ۔ امونہ نظر ڇھارا<languagesLink>باڜہ نم تہ پھٹہ </languagesLink> باݜہ کی درخواست کُرن یا بہ تعاون کُرئیں کی
+want-dataset-update = کیر ائی کامن وائس تہ ڈیٹاسیٹ تہ نواں ورژن جاری کُرال بُمہ بہ تا ائی اپ ڈیٹ گٹینُمہ۔ امونہ خبر تہ خط سبسکرائب کُرا
+subscribe = سبسکرائب
+get-started-speech = تقریر زانی شروع کُرے
+other-datasets = ورے کاڻ تہ ڈیٹا سیٹ نم
+feedback-q = کیہ رائے درو
+# This indicates that there is no data to display
+no-information = معلومات نی درو
+resource-nemo-info = <githubLink>NVIDIA NeMO</githubLink> درو ایک<docsLink>کولو سورس ٹول کٹ</docsLink>تحقیق کُرالہ کی جدید ترین مُشکُلہ مشتمل AIتیار کُنومہ
+resource-deepspeech-info = موزیلا ساں کولو زریہ کاڻ زانال انجن ڈیپ تقریر، تقریر زانال ایپلی کیشن ژوپئیں کُرین بئیبہ۔ مترا امونہ<githubLink>Github جائزہ</githubLink>آں شامل با<discourseLink> ڈیپ تقریر ڈسکورس</discourseLink> متریئں کی تہ کنو کی شروع کُریبہ
+resource-coqui-info = <coquiLink>Coqui</coquiLink> اوپن تقریر ٹیکنالونی تہ پرئی وقف درو۔ مسونہ منصوبہ ابُت ازدہ کُرال SST آں TTS تہ سرچ انجن نم درو
+community-playbook = کمیونٹی ساں پلے بُک(لگن تہ کِتب)
+resource-playbook-info = <playbookLink> مدد گار رہنمائی ویچا</playbookLink> کامن وائس تہ پورہ سفرہ، لوکل ئزیشن تہ ڈیٹا سہٹ تہ استعمل تلی، امونہ کمیونٹی ملی کنو کُری کنٹکٹ کُری بہ۔
+data-other-librispeech-description = لبری تقریر تقریبا 1000 گھنٹہ تہ 16Khz مترال انگریزی  تقریرساں ایک مجموعہ درو یہ LibriVox پروجیکٹ تہ مترال آڈیو بکس تہ گین ینا۔
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM کارپس آڈیو ٹاک آں TED ویب سائٹہ موجود تسونہ نقل تہ ژوپائیسن درو
+data-other-voxforge-description = VoxForge مئی آں اوپن رریعہ تقریر زانال انجن نم ملی استعمل کُرئیں نقل کُریسن تقریر جمع کُرئیں ژوائیسن درو
+data-other-tatoeba-description = Tatoeba جملہ نم تہ ایک بلو ڈیٹا بیس درو،ترجمہ آں باڜہ ڇھڇئینہ استعمل بال باݜہ تہ آڈیو۔ یہ ڈوان لوڈ ۔ یہ ڈاون لوڈہ کمیونٹی   کیرا باݜہ ریکاڈ  کُتھین سے تھینا۔
+your-feedback = میاں ملی کیہ خیال دورئی کامن وائس تہ ڈیٹا سیٹ ابُت کُرئیں کی۔ ام کی ڈسکورسہ کُھنڈا
+go-discourse = ڈسکورس کی یت
+missing-language = بی تانو باݜہ ڈیٹاسٹہ نی بنہ بئی،  باݜہ تہ درخواست تہ پرئی امونہ باݜہ تہ پیچہ کی یا
+go-languages-page = باݜہ تہ پھٹہ کی یت
+ready-to-validate = جملہ نم تہ توثیق کُرئیں کی تیار تُھوپی
+more = ورے
+close = پِٹن
+download = ڈاون لوڈ
+dataset-version = ورژن
+sha256-checksum-copied = SHA256 Checksum کاپی با
+sha256-checksum-copied-error = SHA256 Checksum کاپی نہ با
+clipboard-not-supported = کلپ بورڈ تعاون ویلہ نی درو
+no-information-available = معولومات نی درو
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تاں ڈیٹا سیٹ ڈاون لوڈ بیاں
+dataset-donate-modal-heading = توکی پتہ دروئی
+donate-modal-explanation-1 = ائی ڈیٹا سیٹ ساں میزبانی کُری 100تہ زیت  باݜہ نم تہ کمیونٹی تہ پرئی کیرا ساں ساں انحصار اما ݜا درو۔ پلیٹ فام بہتر کُرنہ ہر کالہ ایک میلن ڈالر خرچہ آڅِنا
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگر بی کولو آں جامع ڈیٹا ساں قدر کُنہ بہ تا مودئی عطیہ کُرا</bold>
+data-download-singleword-title = ایک لفظ ٹارگٹ سگمنٹ ڈاون لوڈ کُرا
+data-download-singleword-callout-v2 = یہ ایک استعملہ کیسہ  چلال  طبقہ دروسے کھنڈیسن ہندسہ ساں زانن آں/ نی تہ پتہ لگئیں ڈیٹا تِھنا
+data-download-button = عام کاڻ تہ ڈیٹا ڈوان لوڈ کُرا
+data-download-yes = آں
+data-download-deny = نی
+data-download-license = لائسنس<licenseLink>CC-0</licenseLink>
+data-download-modal = بی ڈاون لوڈ <size>{ $size }GB</size> شروع کُرال تھوبہ , شروع کُرا
+data-subtitle = ائی کاڻ ساں ایک ہر کولو آں عوامی طور میل بال ڈیٹا سیٹ ژوپائیمہ تس ہر کُرئی تقریر تہ قابل ایپلی کیشن ساں ترتیب پریاں کی استعمل کُرین بَو
+data-explanatory-text = ائی یہ یقین کُنُمہ تے بلو آں عوامی طورہ میلوبال ڈیٹا سیٹ مشین لرننگہ مشتمل تقریری ٹیکنالوجی جدت آں صحت مند مقابلہ تجارتی مقابلہ پیاد کُریمہ۔ یہ ایک عالمی کوشیش درو آں سپُنہ کی شرکت تہ  دعوت پرینُمہ۔ امونہ مقصد تقریری ٹیکنالوجی ورے ایس جامع کُرن درو۔ یہ تمام دنیا تہ کاڻ تہ تنو تہ عکاسی کُرو
+data-get-started = <speechBlogLink>تقریر زانی شروع کُرا</speechBlogLink>
+data-other-title = ورے کاڻ تہ ڈیٹا سیٹ نم
+data-other-goto = ترا کی یا{ $name }
+data-other-download = ڈیٹا ڈوان لوڈ  کُرے
+data-bundle-button = ڈیٹا سیٹ تہ بنڈل ڈوان لوڈ کُرے
+data-bundle-description = عام کاڻ تہ ڈیٹا  آں پوچو زکر کُریسن تمام  ورے تمام ڈیٹا سیٹ
+release-version = ورژن
+dataset-date = تاریخ
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = گٹ وٹ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = امونہ کاڻ تہ ڈیٹا سیٹ نم ڈاون لوڈ کُرا
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = عام کاڻ تہ ڈیٹا کی ویبیاں کی اختیارات ڈاون لوڈ کُرا

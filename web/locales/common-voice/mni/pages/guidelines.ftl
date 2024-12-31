@@ -1,0 +1,1 @@
+sentence-collection = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯕ

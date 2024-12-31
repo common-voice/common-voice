@@ -1,0 +1,150 @@
+action-click = کۡلک ؛ ٹک
+action-tap = څھداوَہ
+contribute = لُبُسِک
+review = گِری بالِک
+skip = اِٹِکِک
+shortcuts = کھٹن کېراوَہ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> حصہ
+       *[other] <bold>{ $count }</bold>حصہ
+    }
+goal-help-recording = توئیں کامن وائیسہ<goalPercentage></goalPercentage>اسَنہ ہر باگانہ{ $goalValue }ریکاڈِنگاں فیدِکہ مدد کېرُو!
+goal-help-validation = توئیں کامن وئیسہ </goalPercentage><goalPercentage>اسَنہ ہر باگانہ { $goalValue } توثیقی ہدفاں فېدِکہ مدد کېرُو!
+contribute-more =
+    { $count ->
+        [one] واری بی{ $count } کېرِکاں تیار تھِنوا؟
+       *[other] { "" }
+    }
+speak-empty-state = امہ مِنزی اسہ باتِیَنی ریکارڈ کېرِکہ ݭڅی جُملہ نِمَتی تنیت۔۔۔
+no-sentences-for-variants = اِشِلہ بی بِمان زی مېنی باتِیَنی مختلف شکل جملا پېنہ بېرانتے تھِتہ! مے تانُو باتِیہ واری جُملہ بالِکہ ݭڅی تانُو ترتیبہ بدل کېری بمانېؤ!
+speak-empty-state-cta = جُملانہ تعاؤن کېریو
+speak-loading-error = اماں مېنہ ژوَنہ کی بی جُملہ نہ لېوان گہ۔ یېربانی کېری دُو بُوڑہ کوشش کېریو۔
+record-button-label = تانُو کھنٹہ ریگاڈ کېرِو
+share-title-new = <bold>امہ مِنزی ہسپَلہ ݭَو</bold>واری کھنٹ لوٹَؤ
+keep-track-profile = پروفائیلہ مِنزی تانُو پُر دِکہ رتئ اِڅِن تھوئیؤ
+login-to-get-started = شروع کېرِکہ ݭڅی لاگ اِن کېرِؤ یا سائن اپ کېرِؤ
+target-segment-first-card = مے امَنہ اوَنہ ٹِکی کېرِسنت حصا مِنزی ہسپَلہ ݭمانېؤ
+target-segment-generic-card = مے یک ٹِکی کېرِسنت حصا مِنزی ہسپلہ ݭمانېؤ
+target-segment-first-banner = { $locale }کامن وائسَنہ اوَلَنہ ٹارگٹ سیگمېنٹہ ݫُپَئیکہ ہسپَلہ ݭَؤ
+target-segment-add-voice = تانُو کھنٹہ لُبُوسَؤ
+target-segment-learn-more = واری ہِلِؤ
+change-preferences = ترجیحاتہ بدل کېرِؤ
+login-signup = لاگ اِن/ سائن اپ کېرِؤ
+vote-yes = اے
+vote-no = نئ
+datasets = ڈیٹا سیٹس
+languages = باتی نام
+about = ݭڅی
+partner = شریک
+submit-form-action = سِپاراوَہ
+
+## Reporting
+
+report = رپوٹ
+report-title = رپوٹ ݪِؤ
+report-ask = اتے جُملا مِنزی کریَک مسائل مېنہ پُراں آئیت؟
+report-offensive-language = جارحانہ باتی
+report-offensive-language-detail = جُملانہ منزے بےعزت کېرَنی یا جارحانہ باتی تھنی۔
+report-grammar-or-spelling = گرامر/ ہجانی غلطی
+report-grammar-or-spelling-detail = جُملا گرامر یا املا نی غلطی تھنی۔
+report-different-language = مختلف باتی
+report-different-language-detail = ووئی اسہ باتِیہ پېنہ بېل تھنی زی آں ݪِمېمے۔
+report-difficult-pronounce = تلفظ کېراوَہ گران
+report-difficult-pronounce-detail = اتے اِشِلی الفاظ یا جُملہ تھمېت زِی تسُو ژواوَہ یا تلفظ کېراوَہ گران تھِمان۔
+report-offensive-speech = جارحانہ تقریر
+report-offensive-speech-detail = کلِپہ بےعزت کېرنی یا جارحانہ باتی تھنی۔
+report-other-comment =
+    .placeholder = تبصرہ
+success = برَئی
+continue = جاری دَرا
+report-success = رپوٹ کامیابِی ئے منظور کېران گئ
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = رکاٹ/ وُٹا
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = کِلپہ دوبارہ ریکاٹ کېرہ
+shortcut-discard-ongoing-recording = اِی ایس سی
+shortcut-discard-ongoing-recording-label = جاری ریکاٹہ رد کېرہ
+shortcut-submit = پتہ گِرَئیک
+shortcut-submit-label = کِلپسہ جمع کېرَوا
+request-language-text = کامن وائیسہ تونی باتی نوری مِزان تان نہ دِمان؟
+request-language-button = یَہ باتِیاں درخاست کېرَہ
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
+shortcut-play-toggle-label = چلا/ وُٹا
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = اېن
+
+## Validation criteria
+
+contribution-criteria-nav = معیار
+contribution-criteria-link = پَلے بِکَنہ اصولہ پیانِؤ
+contribution-criteria-page-title = شراکتَنہ معیار
+contribution-criteria-page-description = پروزِؤ زی کھنٹَنی کلپسہ ݭُنڈِمېنے کی کوڅَنہ تھنہ اؤ تانُو کھنٹَنی رکاڈِنگہ بی لؤ بئ ݫُپَئیکہ مدد کېرِؤ!
+contribution-for-example = مثلاً
+contribution-misreadings-title = غلط زانِک
+contribution-misreadings-description = ݭُنڈِمېنے لؤ احتیاط کېری بالِؤ زِی کی ریکاڈ کېران دِتنہ بہ سے بېخی سے می تھنا زی کی لِکان دِتنہ۔ کېنے زی یفَلہ غلطی بِبوت بہ ژو پتہ گِرَؤ۔<br />لؤ عام غلطِیہ شامل تھنَئیت:
+contribution-misreadings-description-extended-list-1 = رکاڈِنگَنہ اوَلہ<strong>'A'</strong>'or'<strong>'the</strong> غائب تھنہ۔
+contribution-misreadings-description-extended-list-2 = لفظنہ آخرہ <strong>'s'</strong> غائب تھنہ۔
+contribution-misreadings-description-extended-list-3 = بڈَئ ژواوَہ زی حقیقتہ تېمے نہ تھنَئیت،لکہ ”امہ تھنَئیک” نہ ٹھانہ ”امہ تھنَئیک” یا تسَنہ برخلاف۔
+contribution-misreadings-description-extended-list-4 = ریکارڈِنگہ لؤ تادِئے څھِنی تسَنی آخری لفظَنہ پتہ ٹُنٹا یاد کېراوَہ۔
+contribution-misreadings-description-extended-list-5 = یَہ لفظہ ژَئیکَنی کتہ کُوشُش کېرِک۔
+contribution-misreadings-example-1-title = ٹِریاسِکَنہ دېوَہ پېدہ ڈائیناسور نام۔
+contribution-misreadings-example-2-title = ٹریاسِکَنہ دېوَہ پېدہ ڈائیناسور۔
+contribution-misreadings-example-2-explanation = [’ڈائیناسور‘ بِیَنہ تھنہ]
+contribution-misreadings-example-3-title = ٹریاسِیَنہ دېوَہ پېدہ ڈائیناسور۔
+contribution-misreadings-example-3-explanation = [آخری لفظَنہ نِمَتِکہ پېنہ پُدَمہ رکاڈِنگ څھِنان گئ]
+contribution-misreadings-example-4-title = ٹریاسِکَنہ دېوَہ پېدہ ڈائیناسور۔ اے
+contribution-misreadings-example-4-explanation = [ضروری عبارتہ پېنہ زیات لِکان دِتِنی]
+contribution-misreadings-example-5-title = امہ کافی گوئیکاں بېرانت دِمېک۔
+contribution-misreadings-example-6-title = امہ کافی گوئیکاں بېران دِمېک۔
+contribution-misreadings-example-6-explanation = [”امہ تھنَئیک” تھیَنہ تھنہ]
+contribution-misreadings-example-7-title = امہ کافی گوئیکاں بېرانت دِمېک۔
+contribution-misreadings-example-7-explanation = [اصل متَنہ کرېک'a' نہ تھنَئیت]
+contribution-misreadings-example-8-title = اِنڄ ہرَمہ ݭُورہ پُر نېسُوَہ۔
+contribution-misreadings-example-8-explanation = [بېل بخہ مواد]
+contribution-varying-pronunciations-title = بېل بېل تلفظ
+contribution-varying-pronunciations-description = اېن بُنیادے کرېک کِلپہ رد کېرِکہ پېنہ پُدَمہ احتیاط کېرِؤ زی قاری ئے کرېک لفظَنی غلط تلفظ کېرِتُوس، زورہ غلط ٹھانہ تھوئی تُوس، یا ظاہراً سوالیہ نشانہ  ووڑیتُوس۔ سپُورہ دُنیا مختلف قسمَنہ تلفظ استعمالہ تھنَئیک، تسُونہ منزَنہ کِیہ تہ مے تانُو مقامی برادَرِیہ نہ ݭُنڈِی تِوَہ۔ مېرَبانی کېرِی تسُو خلَکہ ݭڅی صفَتَنی یَہ مارجن ݫُپَؤ زی مے مِنزی مختلف باتی کېری بَمېت۔
+contribution-varying-pronunciations-description-extended = واری بکے زی مے اِشِلہ زانِمانېؤ بہ زی قارِیاں شاید اسہ پېنہ پُدَمہ کول بی ووئی لفظ نہ فیدی تِنی، اؤ سے صرف تلَفُظہ رتئ غلط قیاس کېرِمان، جو مېرَبانی کېری رد کېرِؤ۔ کېنے زی مېنی یقین نہ تھنی بہ جو، اِسکېپ بٹن استعمال کېرِؤ۔
+contribution-varying-pronunciations-example-1-title = تانُو ݭَؤٹا تېنے فوجی ٹوپی آنڅی دارُوس۔
+contribution-varying-pronunciations-example-1-explanation = ['بېرٹ' بئ تھنہ جو اوَلَنی حرف(یو کے)یا دویم (یو ایسَ) نہ رتئ دباوَہ مِنزی]
+contribution-varying-pronunciations-example-2-title = تسَنہ ہست رت بِسن بُوَہ۔
+contribution-varying-pronunciations-example-2-explanation = [انگریزِیہ 'رت بِسنتہ'ہمیشہ یَہ حرفے تلفظ ژوان دِمان، دُو نئ]
+contribution-background-noise-title = پتانی شور
+contribution-background-noise-description = امہ ݭېنݭ کېرِمېک زی مشین لرننگ الگورتھم مختلف قسمَنہ پتانی شورہ قابُو کېرِکَنہ قابل بِیَؤ، اؤ تول مِزان زی نسبتاً وتھېلی کھنٹہ بی قبُول کېران دِمان خو شرط ووئی تھنی زی سے مے فُورہ عبارتہ ݭُنڈِکہ پېنہ بند مہ کېرِیَؤ۔ سکوننہ پس منظرَنہ ہارہ سئ تھنہ؛ ہارہ مے ہر لفظہ ݭُنڈِکہ پېنہ بند کېرِکہ ݭڅی لَؤ تېز تھنی۔
+contribution-background-noise-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ یا تېنے درز گئ بہ تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
+contribution-background-noise-example-1-fixed-title = <strong>[ٹھِشُوں]</strong></strong>[څھاسِک]<strong>ٹرایاسِکَنہ دېوَہ سمَلہ ڈائینوسار۔
+contribution-background-noise-example-2-fixed-title = دېو ڈائینو<strong>[څھاسِک]</strong>ٹرائیسِک۔
+contribution-background-noise-example-2-explanation = [عبارتَنہ کی حصہ ݭُنڈان نہ دِمان]
+contribution-background-noise-example-3-fixed-title = <strong>[کرېکل]</strong>دېوَہ سمَلہ ڈائیناسور<strong>[کرېکل]<strong>ریاسِک۔
+contribution-background-voices-title = پتانی کھنٹ
+contribution-background-voices-description = یَہ سُکوننی پس منظرَنہ شورماشور سئ تھنہ، خو امہ اِشِلی زیاتی کھنٹ نامہ ݭُنڈانے نہ ژِمان زی تسُونہ وجئ مشین الگورتھم اِشِلی الفاظہ پیانِی بیَؤ زی لِکِسن عبارَتہ نہ تھنَئیت۔ اگر زی مے عبارَتَہ بایہ غیر بیل بیل الفاظ ݭُنڈی بَمانېؤ بہ جو کِلِپہ رد کېرَنہ تھِمان۔ عام طورے اِشِلہ بِمان زی کېنے ٹی وی ووڑان دِبُوئی بہ یا کېنے نېڑَئی باتی نام بِمان بوئیت بہ۔
+contribution-background-voices-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ، یا تېنے درز گئ بہ، تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
+contribution-background-voices-example-1-title = ٹریاسِکَنہ دېوَہ پېدَہ ڈائیناسور۔<strong>[یک کھنٹے ژَؤ]</strong>
+contribution-background-voices-example-1-explanation = مے ژِمانېوا؟<strong>[وارِیہ ووڑَئی کوڅان دِمان]</strong>
+contribution-volume-title = حجم
+contribution-volume-description = ژَئیݪانہ منزے حجمہ قدرتی تبدیلی ژِمېت۔ صرف تېن حالے رد کېرِؤ زِی کول حجم اتہ زیات بُوَہ بہ زی ریکاڈِنگ څھِزِکَنی یا(عام طورے) اگر ووئی اتہ اِپِلہ بُوَہ بہ زی مے لِکِسنت عبارَتَنہ حوالا بایہ غیر کِبی زی کېران دِمان بُوَہ بہ تسہ ݭُنڈی نہ بَمانېؤ۔
+contribution-reader-effects-title = ژَئیݪانہ اثر
+contribution-reader-effects-description = زیات رکاڈِنگ تسُو خلَکَنی بِمان زی تانُو قدرتی کھنٹے باتی کېرِمېت۔ مے کول کول غیر معیاری رکاڈہ قبُول کېری بَمانېؤ کریکېن چیغ ݪِتون بہ، کھمٹَئ تران باتی کېرون بہ، یا اخکارہ باتی تھنی زی ڈرامائی کھنٹے فیدان دِمان۔ مېرَبانی کېری ݪِسن ہارانی رکاڈِنگہ اؤ کمپیؤ ٹرَنی ݫُپَئیسنت کھنٹہ استعمال کېرِݪا رد کېرِؤ۔
+contribution-just-unsure-title = صرف بے باوَری؟
+contribution-just-unsure-description = کېنے زی مے اِشِلی شئ لېوو بہ زی تسُونہ قابُو کېراوَہ تېن راہنما رِکے ݪی نہ کېرِمېت، جو مېرَبانی کېرِؤ تانُو لفِلہ فیصلانہ مطابق ووٹ ݪِؤ۔ اگر زی مے واقعی فیصلہ کېری نہ بَمانېؤ بہ تولی سکیپ بٹن استعمال کېرِؤ اؤ پُرَنی رکاڈِنگاں دِؤ۔
+see-more = <chevron></chevron>واری بی بالِؤ
+see-less = <chevron></chevron> اِپِلہ بالِؤ

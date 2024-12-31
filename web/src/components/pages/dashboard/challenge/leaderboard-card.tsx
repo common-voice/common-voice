@@ -26,11 +26,10 @@ export default function LeaderboardCard({
   showVisibleIcon,
   showOverlay,
   service,
-  team,
 }: {
   title: string;
   showVisibleIcon?: boolean;
-  showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
+  showOverlay?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   service: 'top-teams' | 'team-progress' | 'top-contributors';
   team?: boolean;
 }) {

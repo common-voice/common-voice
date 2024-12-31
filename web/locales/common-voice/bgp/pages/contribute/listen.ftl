@@ -1,0 +1,12 @@
+listen = گو شا کن
+listen-subtitle = صوتی ء تصدیق کھنغ وسطہ ماہ مدد کنئیں۔
+listen-instruction = { $actionType }<playIcon></playIcon> آیا ان جملہ صحیح گُفت؟
+listen-again-instruction = باز خُوب کار! <playIcon></playIcon> شُما تیار بئی، تو دوبارہ گوش کن
+listen-3rd-time-instruction = دو بیتغاں, آںءِ جاری کنت <playIcon></playIcon>
+listen-last-time-instruction = <playIcon><playIcon>آخری یکء
+listen-empty-state = آیںٔ گڑا کلپس ختم بیّت گن، صفحہ ریفریش کنگ، یا پَضعں دوبارہ کوشش کنگ."
+listen-empty-state-variants = بیثغ بی شئے زبانءِ جتائیں دروشمانی گالبند جتا اَنت۔ اگں شما آرام دہ  اِنت گُڈا شما وتی زبانءِ گالبند گندغ واستہ ترتیب بدل کُت کن اِنت
+listen-loading-error = ماء شُما گوشکن واسطہ کوئی آڈیو کلپس حاصل نہ کنگ.  مہربانی کن  پَسین دوبارہ کوشش کنگ.
+listen-abort-title = کلپس نی تایید کنغا بند کنگ؟
+listen-abort-cancel = تایید کنغا جاری کنگ انت
+listen-abort-confirm = تایید کنغا بند کنوں

@@ -6,10 +6,12 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
+import { format } from 'date-fns';
 import { BaseLanguage, LanguageStatistics } from 'common';
 
 import { useAPI } from '../../../hooks/store-hooks';
 import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
+import useIsMaxWindowWidth from '../../../hooks/use-is-max-window-width';
 import URLS from '../../../urls';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { LinkButton, StyledLink, TextButton } from '../../ui/ui';
@@ -21,8 +23,11 @@ import LanguagesPageWaves from './languages-waves';
 import LanguageCard from './language-card/language-card';
 import LoadingLanguageCard from './language-card/loading-language-card';
 import GetInvolvedModal from './get-involved-modal';
+import { DonateBanner } from '../../donate-banner';
 
 import './languages.css';
+
+const MAX_WIDTH = 1250;
 
 export interface ModalOptions {
   locale: string;
@@ -104,6 +109,8 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     query: '',
     modalOptions: null,
   } as State);
+
+  const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH);
 
   const {
     isLoading,
@@ -299,6 +306,9 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       : filteredInProgress.slice(0, 3);
   const nativeNames = useNativeLocaleNames();
 
+  // since all languages have the same lastFetched value we can use any language's lastFetched value
+  const lastUpdatedTimeStamp = launched[0]?.lastFetched;
+
   return (
     <React.Fragment>
       {modalOptions && (
@@ -308,10 +318,27 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
           onRequestClose={() => hideModal()}
         />
       )}
-      <Page className="languages-page" isCentered>
+      <Page className="languages-page" isCentered={isMaxWidth}>
         <LanguagesPageWaves />
         <div className="top">
-          <PageHeading>Languages</PageHeading>
+          <div>
+            <PageHeading>
+              <Localized id="languages" />
+            </PageHeading>
+            {launched.length > 0 && (
+              <p className="last-updated-timestamp">
+                <Localized
+                  id="language-section-last-updated"
+                  vars={{
+                    lastUpdatedTimeStamp: format(
+                      new Date(lastUpdatedTimeStamp),
+                      'do LLL. yyy h:mmaaa'
+                    ),
+                  }}
+                />
+              </p>
+            )}
+          </div>
           <div className="text">
             <div className="inner">
               <p>
@@ -423,6 +450,12 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
             )}
           </section>
         </div>
+        <section className="donate-banner-section">
+          <DonateBanner
+            donateCTALocalizedId="languages-donate-banner-cta"
+            donateCTAExplanationLocalizedId="languages-donate-banner-cta-explanation"
+          />
+        </section>
       </Page>
     </React.Fragment>
   );

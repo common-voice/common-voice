@@ -8,6 +8,22 @@
     & .cards-and-instruction {
         height: 100%;
 
+        & .instruction {
+            margin: 2vh auto;
+
+            span {
+                display: flex;
+
+                svg {
+                    margin-inline: 8px;
+
+                    path {
+                        fill: var(--light-purple);
+                    }
+                }
+            }
+        }
+
         & .cards-and-guidelines {
             display: flex;
 
@@ -59,8 +75,13 @@
                 word-wrap: break-word;
 
                 opacity: 1;
-                transition: transform var(--transition-duration-slow) var(--easing),
+                transition: transform var(--transition-duration-slow)
+                        var(--easing),
                     opacity var(--transition-duration-slow) var(--easing);
+
+                @media (--lg-up) {
+                    min-height: 320px;
+                }
 
                 &.inactive {
                     pointer-events: none;
@@ -145,12 +166,21 @@
                 color: var(--black);
                 cursor: pointer;
 
+                [dir='rtl'] & {
+                    margin-left: 20px;
+                    margin-right: unset;
+                }
+
                 @media (--sm-down) {
                     width: 100px;
                 }
 
                 svg {
                     margin-right: 12px;
+
+                    [dir='rtl'] & {
+                        margin-left: 12px;
+                    }
                 }
 
                 & {
@@ -183,10 +213,10 @@
 
             & .skip-button {
                 box-shadow: 0px 4px 10px rgba(74, 74, 74, 0.3);
-                min-width: 150px;
+                min-width: fit-content;
 
                 @media (--sm-down) {
-                    min-width: 100px;
+                    min-width: 120px;
                 }
 
                 & svg {
@@ -194,6 +224,12 @@
                         transform: rotateY(180deg);
                     }
                 }
+            }
+
+            & .skip-text {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
         }
 

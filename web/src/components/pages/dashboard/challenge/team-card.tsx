@@ -29,7 +29,7 @@ export default function TeamboardCard({
 }: {
   title: string;
   showVisibleIcon?: boolean;
-  showOverlay?: (event: React.MouseEvent<HTMLInputElement>) => void;
+  showOverlay?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   week?: number;
   challengeComplete?: boolean;
 }) {

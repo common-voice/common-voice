@@ -8,8 +8,10 @@ import Modal from '../../../modal/modal';
 import { PenIcon } from '../../../ui/icons';
 import steps, { ViewGoal } from './custom-goal-steps';
 
-import './custom-goal.css';
 import { useRouter } from '../../../../hooks/use-router';
+import { Radio } from '../../../ui/ui';
+
+import './custom-goal.css';
 
 const STATE_KEYS: ReadonlyArray<keyof CustomGoalParams> = [
   null, // first step has no state
@@ -24,24 +26,6 @@ const STEPS = {
   SUBMIT: 4,
   COMPLETED: 5,
 };
-
-const Radio = ({
-  children,
-  onChecked,
-  ...props
-}: {
-  children: React.ReactNode;
-  onChecked?: () => any;
-} & React.HTMLProps<HTMLInputElement>) => (
-  <label className="box">
-    <input
-      type="radio"
-      onChange={event => event.target.checked && onChecked && onChecked()}
-      {...props}
-    />
-    <div className="content">{children}</div>
-  </label>
-);
 
 function StepButtons({
   setStepIndex,
@@ -116,7 +100,12 @@ function CompletedFields({
           ([, value]: any) => value == state[stateKey]
         );
         return (
-          <Radio key={stateKey} checked disabled>
+          <Radio
+            key={stateKey}
+            checked
+            disabled
+            labelClass="box"
+            contentClass="content">
             <Localized
               {...(stateKey == 'amount'
                 ? { id: 'n-clips-pluralized', vars: { count: value } }
@@ -175,7 +164,9 @@ function CurrentFields({
                   {}
                 ),
               })
-            }>
+            }
+            labelClass="box"
+            contentClass="content">
             {currentStateKey == 'amount' ? (
               <>
                 <Localized id="n-clips-pluralized" vars={{ count: value }}>

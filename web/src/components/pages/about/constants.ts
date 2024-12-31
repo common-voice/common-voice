@@ -16,4 +16,5 @@ export const PLAYBOOK = {
   HOW_VALIDATE: 'how-validate',
   HOW_ACCESS_DATASET: 'how-access-dataset',
   HOW_PROJECT_GOVERNANCE: 'how-project-governance',
+  HOW_FUNDED: 'how-funded',
 };

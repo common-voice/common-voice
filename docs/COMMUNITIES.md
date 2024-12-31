@@ -26,6 +26,9 @@ Many language communities are self organising and have their contact channels on
 * Catalan (`ca`):
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
   * [Element](https://matrix.to/#/#cvcatala:matrix.org)
+* Circassian Languages/Variants (`ady`, `kbd`):
+  * [Telegram-Turkey (IM & Support) / in Turkish](https://t.me/+YcRffJU44SIyNDlk)
+  * [Telegram-International (IM & Support) / in EN-ru-ady-kbd](https://t.me/+QwNyi5XnyZM4ZWRk)
 * Czech (`cs`):
   * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 * Dhivehi (`dv`):

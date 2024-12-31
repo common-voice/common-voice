@@ -1,0 +1,40 @@
+.tag-container {
+    background: var(--desert-storm);
+    cursor: pointer;
+    padding-block: 12px;
+    padding-inline: 16px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    & p.tag-text {
+        font-size: var(--font-size-sm);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    img.dropdown-arrow {
+        width: 9px;
+        height: 5px;
+        align-self: center;
+    }
+}
+
+.tippy-popper {
+    .tippy-tooltip {
+        border-radius: 0;
+    }
+
+    .tooltip-content {
+        padding: 5px;
+
+        button {
+            font-size: 14px;
+            font-family: var(--base-font-family);
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

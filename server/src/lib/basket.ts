@@ -2,7 +2,6 @@ import * as sendRequest from 'request-promise-native';
 import { getConfig } from '../config-helper';
 import { getMySQLInstance } from './model/db/mysql';
 import { computeGoals } from './model/goals';
-import { AWS } from './aws';
 
 type UserEmailStats = {
   client_id: string;
@@ -21,7 +20,6 @@ type UserEmailStats = {
 
 const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
-const sqs = AWS.getSqs();
 
 export const BASKET_API_URL =
   ENVIRONMENT == 'prod' || ENVIRONMENT == 'stage'
@@ -43,26 +41,12 @@ function toISO(date: string) {
 /*
  * Wrapper function to sync user activity to email provider
  * - Basket = MoCo internal
- * - SQS = used by MoFo agency Cinchy to talk to Acoustic
  */
 async function syncToEmailProvider(data: any) {
-  if (getConfig().CINCHY_ENABLED) {
-    const cinchyParams = {
-      MessageBody: JSON.stringify(data),
-      QueueUrl: getConfig().CINCHY_CONFIG.endpoint.toString(),
-    };
-
-    sqs.sendMessage(cinchyParams, (err, data) => {
-      if (err) {
-        console.log('Cinchy SQS error:', err);
-      }
-    });
-  } else {
-    sendRequest({
-      ...basketConfig,
-      form: data,
-    }).catch(err => console.error(err.message));
-  }
+  sendRequest({
+    ...basketConfig,
+    form: data,
+  }).catch(err => console.error(err.message));
 }
 
 /*

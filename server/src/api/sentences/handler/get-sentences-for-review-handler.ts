@@ -1,15 +1,25 @@
 import { Request, Response } from 'express'
+import { pipe } from 'fp-ts/lib/function'
+import * as Id from 'fp-ts/Identity'
 import { StatusCodes } from 'http-status-codes'
-import { GetPendingSentenceQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler'
+import { GetSentencesForReviewQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler'
 import { GetSentencesForReviewQuery } from '../../../application/sentences/use-case/query-handler/query/get-sentences-for-review-query'
+import { fetchUserClientVariants } from '../../../application/repository/user-client-variants-repository'
+import { findSentencesForReviewInDb } from '../../../application/repository/sentences-repository'
 
 export default async (req: Request, res: Response) => {
   const query: GetSentencesForReviewQuery = {
     localeId: +req.query.localeId,
-    clientId: req.client_id || '',
+    clientId: req.session.user.client_id || '',
   }
 
-  const result = await GetPendingSentenceQueryHandler(query)()
+  const getSentencesForReview = pipe(
+    GetSentencesForReviewQueryHandler,
+    Id.ap(fetchUserClientVariants),
+    Id.ap(findSentencesForReviewInDb)
+  )
 
-  res.status(StatusCodes.OK).json({ pendingSentences: result })
+  const result = await getSentencesForReview(query)()
+
+  return res.status(StatusCodes.OK).json({ pendingSentences: result })
 }

@@ -348,6 +348,10 @@ button.card-action:focus.focus-visible path {
     justify-content: space-around;
     align-items: center;
 
+    [dir='rtl'] & {
+        flex-direction: row-reverse;
+    }
+
     color: var(--white);
     background: #9b9b9b;
 

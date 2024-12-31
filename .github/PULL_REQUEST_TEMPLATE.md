@@ -26,7 +26,7 @@
 
 ### Acknowledging contributors
 
-<!-- Please list who collaborated with you to make this contribution. Or Community dicussion that helped make this idea possible -->
+<!-- Please list who collaborated with you to make this contribution. Or Community discussion that helped make this idea possible -->
 
 *
 *

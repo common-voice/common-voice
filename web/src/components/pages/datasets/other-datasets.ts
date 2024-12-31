@@ -29,7 +29,7 @@ export default [
     size: 10.4,
     url: 'http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/',
     download:
-      'https://s3.us-east-2.amazonaws.com/common-voice-data-download/voxforge_corpus_v1.0.0.tar.gz',
+      'voxforge_corpus_v1.0.0.tar.gz',
     license: {
       name: 'GNU-GPL',
       url: 'https://www.gnu.org/licenses/gpl-3.0.en.html',

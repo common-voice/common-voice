@@ -1,86 +1,116 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
+import * as React from 'react'
+import {
+  Localized,
+  WithLocalizationProps,
+  withLocalization,
+} from '@fluent/react'
+import classNames from 'classnames'
+import { Tooltip } from 'react-tooltip'
 
-import { LocaleLink } from '../../locale-helpers';
-import { EditIcon, ListenIcon, MicIcon, ReviewIcon } from '../../ui/icons'
-import URLS from '../../../urls'
+import { LocaleLink } from '../../locale-helpers'
+import { ContributeMenuItem } from './contribute-menu'
 
 type ContributeMenuContentProps = {
   className?: string
   pathname?: string
-  isUserLoggedIn: boolean
+  contributeMenuItems: ContributeMenuItem[]
+  isUserLoggedIn?: boolean
 }
 
-export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
-  className,
-  pathname = '',
+const Content = ({
+  contributeMenuItems,
   isUserLoggedIn,
-}) => {
-  const speakActive = pathname.includes(URLS.SPEAK)
-  const listenActive = pathname.includes(URLS.LISTEN)
-  const writeActive = pathname.includes(URLS.WRITE)
-  const reviewActive = pathname.includes(URLS.REVIEW)
+  getString,
+}: {
+  contributeMenuItems: ContributeMenuItem[]
+  isUserLoggedIn: boolean
+} & WithLocalizationProps) => (
+  <div className="content-container">
+    <ul>
+      {contributeMenuItems.map(item => {
+        const shouldShowItem =
+          (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
 
+        if (!shouldShowItem) return null
+
+        const {
+          internalHref,
+          externalHref,
+          localizedId,
+          icon: Icon,
+          menuItemTooltip,
+          menuItemAriaLabel,
+        } = item
+        const isComingSoon = !(internalHref || externalHref)
+
+        const renderContent = () => {
+          if (internalHref) {
+            return (
+              <LocaleLink to={internalHref} className="contribute-link">
+                <Localized id={localizedId} />
+              </LocaleLink>
+            )
+          }
+
+          if (externalHref) {
+            return (
+              <Localized id={localizedId}>
+                <a
+                  href={externalHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contribute-link"
+                />
+              </Localized>
+            )
+          }
+
+          return (
+            <Localized id={localizedId} elems={{ small: <span /> }}>
+              <p className="coming-soon-text" />
+            </Localized>
+          )
+        }
+
+        return (
+          <>
+            <li
+              key={localizedId}
+              aria-label={getString(menuItemAriaLabel)}
+              id={menuItemTooltip}>
+              <div
+                className={classNames('content', {
+                  'coming-soon': isComingSoon,
+                })}>
+                <Icon />
+                {renderContent()}
+              </div>
+            </li>
+            <Tooltip
+              anchorSelect={`#${menuItemTooltip}`}
+              place="bottom"
+              style={{ width: 'auto', maxWidth: '550px' }}>
+              {getString(menuItemTooltip)}
+            </Tooltip>
+          </>
+        )
+      })}
+    </ul>
+  </div>
+)
+
+const ContributeMenuContent: React.FC<
+  ContributeMenuContentProps & WithLocalizationProps
+> = ({ className, contributeMenuItems, isUserLoggedIn, getString }) => {
   return (
     <div className={className}>
-      <div>
-        <Localized id="contribute-voice-collection-nav-header">
-          <p className="nav-header-item" />
-        </Localized>
-        <ul>
-          <li
-            className={classNames({
-              'selected-option': speakActive,
-            })}>
-            <MicIcon />
-            <LocaleLink to={URLS.SPEAK} className="contribute-link">
-              <Localized id="speak" />
-            </LocaleLink>
-            {speakActive && <span className="border" />}
-          </li>
-          <li
-            className={classNames({
-              'selected-option': listenActive,
-            })}>
-            <ListenIcon />
-            <LocaleLink to={URLS.LISTEN} className="contribute-link">
-              <Localized id="listen" />
-            </LocaleLink>
-            {listenActive && <span className="border" />}
-          </li>
-        </ul>
-      </div>
-      <div className="vertical-line" />
-      <div>
-        <Localized id="contribute-sentence-collection-nav-header">
-          <p className="nav-header-item" />
-        </Localized>
-        <ul>
-          <li
-            className={classNames('write', {
-              'selected-option': writeActive,
-            })}>
-            <EditIcon />
-            <LocaleLink to={URLS.WRITE} className="contribute-link">
-              <Localized id="write" />
-            </LocaleLink>
-            {writeActive && <span className="border" />}
-          </li>
-          {isUserLoggedIn && (
-            <li
-              className={classNames('review', {
-                'selected-option': reviewActive,
-              })}>
-              <ReviewIcon />
-              <LocaleLink to={URLS.REVIEW} className="contribute-link">
-                <Localized id="review" />
-              </LocaleLink>
-              {reviewActive && <span className="border" />}
-            </li>
-          )}
-        </ul>
-      </div>
+      <Content
+        contributeMenuItems={contributeMenuItems}
+        isUserLoggedIn={isUserLoggedIn}
+        getString={getString}
+      />
     </div>
   )
 }
+
+export default withLocalization(ContributeMenuContent)

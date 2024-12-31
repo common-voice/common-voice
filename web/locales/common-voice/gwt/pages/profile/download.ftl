@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تانُو ڈېٹا ڈاون لوڈ کېرِکَنی ضرورت تھنی؟
+download-info = اماں ژَؤ مے کی ڈاون لوڈ کېرِک کوڅِمانېؤ؟
+download-profile-title = پروفائل
+download-profile-info = ای مېل، صارف نام اؤ آبادیاتی معلوماتَہ رتئ مشتمل تھنہ، نوری دستیاب تھنہ
+download-profile-size = یَکَتہ بائٹس
+download-recordings-title = رِکاڈنگز
+download-recordings-info = mp3نام اؤ معلقہ کلاؤ شامل تھنَئیت، تیارِیہ یفَلہ وخت لگِمان
+download-recordings-size = عام طورے مېگابائٹس
+download-recordings-unavailable = مے تانُو رِکاڈنگَنی عرضیہ ݪی نہ بَمانېؤ اِشِلاں زی یَک واری عرضی پُدَمانی جاری تھنی۔
+download-recently-requested = مے رتئ{ $days } دېس تانُو رِکاڈِنگہ ݭڅی ٹېک اَوٹَنی عرضی ݪی بَمانېؤ۔
+download-size = سائز
+download-selected = انتخاب بِسنت
+download-start = پروفائل ڈېٹا ڈاون لوڈ کېرِؤ
+download-request = رِکاڈِنگہ ݭڅی عرضی کېرِؤ
+download-requests = تېر بِسَنتَنی رِکاڈِنگزَہ ڈاون لوڈ کېرِکَنی عرضی نام
+download-requests-info = کول زی مے تانو رِکاڈِنگَنی عرضِیہ ݪِتوؤ بہ جو امہ تسُو یَک یا یکِیہ پېنہ زیات زِپ فائلے فار ترتیب ݪِمېک۔ مېنی تېر بِسنتَنی عرضی نام اېمے تھنَئیت۔
+download-request-button = ڈاون لوڈ کېرِؤ
+download-request-title = { $created }
+download-request-description = { $clipCount }صوتی کِلپس، کُل آرکائیو سائز{ $size }۔ میعاد نِمَتِمان{ $expires }۔
+download-request-archive-single = یَک زِپ فائلہ رتئ شامل تھنی
+download-request-archive-multiple = زِپ فائلہ رتئ شامل{ $archiveCount } بېنٹِؤ
+download-request-assembling-description = مېنَہ فائل نام ٹوپلان دِمېت۔ مېرَبانی کېری پتا دُبُوڑہ چېک کېرِؤ۔
+download-request-refresh-button = ریفرېش کېرِؤ
+download-request-modal-title = لِنکسہ ڈاون لوڈ کېرِؤ
+download-request-modal-description = مېنہ زِپ فائل نامہ ڈاون لوڈ کېرِکاں لِنکس اېمے تھنَئیت۔
+download-request-link-text = { $total } پېنہ{ $offset }# زِپ
+download-request-metadata-link = کَلاوَنی عبارت
+download-request-link-single = مے براہ راست یو آر اېلہ تانُو خوخ ڈاون لوڈ منېجرہ کاپی اؤ پېسٹ بی کېری بَمانېؤ۔ تسُونی میعاد 12 فایاں نِمَتِبہ، خو مے کرېک بی وختہ نونگہ ݫُپَئیکہ ݭڅی اِتے موخان پتہ گِرن ژی بَمانېؤ۔

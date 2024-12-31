@@ -2,7 +2,6 @@ module.exports = {
   moduleNameMapper: {
     '^common$': '<rootDir>/../common/index.ts',
   },
-  moduleDirectories: ['node_modules', '<rootDir>/../node_modules'],
   testEnvironment: 'node',
   testPathIgnorePatterns: ['<rootDir>/js'],
   preset: 'ts-jest',

@@ -1,6 +1,7 @@
-const PROFILE = '/profile';
-const DASHBOARD = '/dashboard';
-const DEMO = '/demo';
+const PROFILE = '/profile'
+const DASHBOARD = '/dashboard'
+const DEMO = '/demo'
+const SPONTANEOUS_SPEECH = '/spontaneous-speech/beta'
 
 export default Object.freeze({
   ROOT: '',
@@ -38,6 +39,9 @@ export default Object.freeze({
   GUIDELINES: '/guidelines',
   SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
 
+  SPONTANEOUS_SPEECH,
+  SPONTANEOUS_SPEECH_REDIRECT: '/spontaneous-speech-redirect',
+
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',
   LANGUAGE_REQUEST_SUCCESS: '/language/request/success',
@@ -57,7 +61,5 @@ export default Object.freeze({
   STAGING_ROOT: 'https://commonvoice.allizom.org',
   GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
-  S3_BUCKET:
-    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com',
   S3_CDN: 'https://cdn.commonvoice.mozilla.org',
 })

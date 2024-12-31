@@ -1,10 +1,10 @@
-export type TaxonomyToken = 'singlewordBenchmark' | 'covid19Spotter';
+export type TaxonomyToken = 'singlewordBenchmark' | 'covid19Spotter'
 
 export type TaxonomyType = {
-  name: string;
-  source: string;
-  locales: string[];
-};
+  name: string
+  source: string
+  locales: string[]
+}
 
 export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
   singlewordBenchmark: {
@@ -30,4 +30,38 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
     source: 'du-covid-keywords',
     locales: ['rw'],
   },
-};
+}
+
+export const sentenceDomainDescription = [
+  'General',
+  'Agriculture and Food',
+  'Automotive and Transport',
+  'Finance',
+  'Service and Retail',
+  'Healthcare',
+  'History, Law and Governmant',
+  'Media and Entertainment',
+  'Nature and Environment',
+  'News and Current Affairs',
+  'Technology and Robotics',
+  'Language Fundamentals (e.g. Digits, Letters, Money)',
+] as const
+
+export type SentenceDomainDescription = typeof sentenceDomainDescription[number]
+
+export const sentenceDomains = [
+  'agriculture_food',
+  'automotive_transport',
+  'finance',
+  'general',
+  'healthcare',
+  'history_law_government',
+  'language_fundamentals',
+  'media_entertainment',
+  'nature_environment',
+  'news_current_affairs',
+  'service_retail',
+  'technology_robotics',
+] as const
+
+export type SentenceDomain = typeof sentenceDomains[number]

@@ -13,7 +13,6 @@
 /* We need to use !important because the react modal library we use sets inline-styles */
 .ReactModal__Content {
     position: static !important;
-    margin-top: 2em;
     pointer-events: none;
     border: none !important;
 
@@ -27,12 +26,21 @@
         border-radius: 0 !important;
     }
 
+    @media (--md-up) {
+        margin-top: 2em;
+    }
+
     & .close {
         position: absolute;
         right: 20px;
         top: 20px;
         border: none;
         opacity: 0.4;
+
+        [dir='rtl'] & {
+            left: 20px;
+            right: unset;
+        }
     }
 
     & .inner {
@@ -42,6 +50,7 @@
         padding: 2rem;
         width: 100%;
         max-width: 40rem;
+        min-height: 99vh;
         text-align: center;
         background: var(--white);
         pointer-events: all;

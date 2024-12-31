@@ -130,7 +130,7 @@ export const ReportModal = withLocalization(({
 });
 
 export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
-  <Button outline rounded className="open-report-button" {...props}>
+  <Button outline rounded className="open-report-button" data-testid="report-button" {...props}>
     <svg width="24" height="24" viewBox="0 0 24 24">
       <defs>
         <path

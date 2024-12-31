@@ -16,6 +16,7 @@ interface InputLanguageVariantProps {
   variantsAll: VariantsAll;
   userLanguages: UserLanguage[];
   setUserLanguages: (userLanguages: UserLanguage[]) => void;
+  setIsPreferredOption?: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const InputLanguageVariant = ({
@@ -24,6 +25,7 @@ const InputLanguageVariant = ({
   userLanguages,
   setUserLanguages,
   getString: getLocalizedString,
+  setIsPreferredOption,
 }: InputLanguageVariantProps & WithLocalizationProps) => {
   const nativeNames = useNativeLocaleNames();
   const variants = variantsAll[locale];
@@ -76,6 +78,9 @@ const InputLanguageVariant = ({
     } as UserLanguage;
 
     setUserLanguages(newLanguages);
+    if (setIsPreferredOption) {
+      setIsPreferredOption(false);
+    }
   };
 
   if (!variants) {

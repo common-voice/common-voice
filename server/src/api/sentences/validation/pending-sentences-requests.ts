@@ -1,8 +1,9 @@
 import { AllowedSchema } from 'express-json-validator-middleware'
+import { sentenceDomains } from 'common'
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
-  required: ['sentence', 'source', 'localeId', 'localeName'],
+  required: ['sentence', 'source', 'localeName', 'domains'],
   properties: {
     sentence: {
       type: 'string',
@@ -10,11 +11,47 @@ export const AddSentenceRequest: AllowedSchema = {
     source: {
       type: 'string',
     },
-    localeId: {
-      type: 'integer',
-      minimum: 1,
+    localeName: {
+      type: 'string',
+    },
+    domains: {
+      type: 'array',
+      maxItems: 3,
+      items: {
+        type: 'string',
+        enum: [...sentenceDomains],
+      },
+      uniqueItems: true,
+    },
+    variant: {
+      type: 'string',
+    },
+  },
+}
+
+export const AddSmallSentenceBatchRequest: AllowedSchema = {
+  type: 'object',
+  required: ['sentences', 'source', 'localeName', 'domains'],
+  properties: {
+    sentences: {
+      type: 'string',
+    },
+    source: {
+      type: 'string',
     },
     localeName: {
+      type: 'string',
+    },
+    domains: {
+      type: 'array',
+      maxItems: 3,
+      items: {
+        type: 'string',
+        enum: [...sentenceDomains],
+      },
+      uniqueItems: true,
+    },
+    variant: {
       type: 'string',
     },
   },

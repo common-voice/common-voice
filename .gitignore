@@ -19,6 +19,10 @@ docker-compose.override.yml
 yarn-error.log
 index.ts.bak
 scripts/releases
+web/cypress.env.json
+.cache
+.yarn
+.config
 
 # Nubis
 nubis/librarian-puppet.tar.gz

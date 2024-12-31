@@ -13,6 +13,7 @@ export interface ModalProps {
   buttons?: ButtonConfig;
   children?: React.ReactNode;
   innerClassName?: string;
+  testId?: string;
   onRequestClose?: (event?: React.MouseEvent | React.KeyboardEvent) => any;
 }
 
@@ -24,6 +25,7 @@ export default function Modal({
   buttons,
   children,
   innerClassName = '',
+  testId,
   ...props
 }: ModalProps) {
   return (
@@ -37,7 +39,8 @@ export default function Modal({
           padding: 0,
           background: 'transparent',
         },
-      }}>
+      }}
+      testId={testId}>
       <div className={'inner ' + innerClassName}>
         {props.onRequestClose && (
           <button

@@ -1,0 +1,46 @@
+## ProfileForm
+
+profile-form-username =
+    .label = ЦIэ
+profile-form-native-language =
+    .label = Анэдэлъхубзэ
+profile-form-additional-language =
+    .label = Бзэ дэкӏуашэ
+profile-form-language =
+    .label = Бзэ
+profile-form-variant-default-value = Лӏэужьыгъуэ зыри къыхэхакъым
+profile-form-accent =
+    .label = Акцент
+profile-form-age =
+    .label = Ныбжь
+profile-form-gender-2 =
+    .label = хъу-бзы
+leaderboard-visibility =
+    .label = Ищхьэм сыщыгъэлагъуэ
+hidden = Гъэпщкӏуа
+visible = Нахуэ
+native-language =
+    .label = Анэдэлъхубзэ
+male_masculine = Хъу
+female_feminine = Бзы
+do_not_wish_to_say = Жысӏэну сыхуейкъым
+# Gender
+other = НэгъуэщӀ
+avatar = Авэтар
+goals = Мурадхэр
+profile-create-success = Профил ухуащӏ
+profile-close = Хуэщӏ
+why-demographic = Сыт ар зыщӀыхьар?
+why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
+accept-privacy-title = Privacy Policy
+login-identity = Login Identity
+edit = Хъуэж
+email-subscriptions = Email Subscriptions
+download-profile = Си дата къитхыкI
+contribution-experience = Contribution Experience
+skip-submission-feedback = Skip Submission Feedback
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
+off = { "" }
+on = { "" }

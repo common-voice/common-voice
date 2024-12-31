@@ -1,0 +1,92 @@
+## Datasets Page
+
+datasets-heading = ڈیٹا سیٹونہ
+datasets-headline = مٞہ چاٞنت اٞ عام ذریعہ، باٞر جیباٞں وائس ڈیٹاسیٹ اوں ہر آٞک استمال کٞربائی  اوں ہواز داٞگ واٞلاٞ اپلیکیشن ایں تربیت کٞرگ۔
+datasets-positioning = مُوں یقین تھواُوں عام دستیاب ہوازیں ڈیٹاسیت مشیناٞں اِزدہ کٞروگاٞں بُنیاد دہ جولاگیں ٹیکنالوجی مئ نیمار تے تجارتی مقاٞبلاٞ کٞہ ترقی دئ۔ کامن وائس باٞر جِبونیں ڈیٹا سیٹ مڄگٞشی  موجود سوئے ماتھی گھین وائس ڈیٹاسیٹ تھی تانتی قسمیں، پرہ اٞئی آٞک نات۔ اِیں پیج کٞ حوالاٞں بھاٞگاٞں جوڑ دہ بیݭ دی کولا ذریعہ ایں کیر وائس ڈیٹا سیٹونیں تے کھیکی کامن وائس مسلسل گھاٞن ہوانت، اٞ لار مو نیم اپڈیٹ گڑوگیں کیر۔
+language = جِب
+download-dataset-header = ڈیٹاسیٹ ڈاؤنلوڈ کٞر
+download-delta-explainer = مٞہ اٞتوشی بدلی گھِییت۔
+download-dataset-tag = تانی مرضی ایں جِبیں ڈیٹاسیٹ جُوݭ تے تانی خوشیاں ورݫن ڈاؤنلوڈ کٞر۔
+# File size in gigabytes
+size = سیز
+validated-hr-total = قبولاٞل ایچ آر سواٞ
+overall-hr-total = مجموعی ایچ آر سواٞ
+cv-license = لیسنس
+audio-format = آڈیو فارمیٹ
+dataset-splits = تقسیم / فرق (اُمر تے جنس)
+number-of-voices = ہوازوناٞں تاداد
+splits = تقسیم
+email-to-download = ڈاؤنلوڈ کٞروگیں کیر ای میل داخیل کٞر
+why-email = <b> ای میل کا؟ </b> ماکٞہ یاٞندر مئ ڈیٹاسیٹ مئ بدلیاٞں باٞراٞ مئ تھئ سٞہ رابطیں ضروراٞت ہوئ، ای میل دہ ماکٞہ رابطاں مقام میلا ہوئ۔
+why-donate-datasets-page = موزِلا کامن وائیس دُنایاں گھاٞن متنوع پوت ہوازیں ڈیٹاسیٹ تھی۔ تے ماکٞہ طاقاٞت سواٞ عطیاٞت دہ میلا ہوینت۔ 100 ما باٞر لسانی کمیونٹی کاٞں موں کاٞر رہ انحصار کٞرنت تہ تسوں کیر ڈیٹاسیٹ ہاسٹ کٞروگ تے پلیٹ فارم مہیا کٞروگ رہ اٞ کالاں تقریباً دش لٞک ڈآٞلرائ ݭجینت۔  <b> آج عطیہ دہ </b>
+confirm-size = تو اٞ <b> { $size }</b> ڈاؤنلوڈ کٞرگ کٞہ تیار تھو
+size-gigabyte = جی بی
+size-megabyte = ایم بی
+confirm-no-identify = تو کامن وائیساٞں ڈیٹاسیٹ مئ جولاٞگ واٞلاٞں شناخت متعین نہ کٞروگ رہ <b> متفق </b> تھو۔
+confirm-join-mailing-list = تو کامن وائیسیں خط لاڑاگیں لیس مئ شامل ہوگ دِیانت
+download-language = ڈاؤنلوڈ کٞر{ $language }
+validated-hours = قابل قبول ہوگاٞل گھینٹاٞ
+recorded-hours = ریکارڈ کٞراٞل گھینٹاٞ
+whats-inside = کامن وائیساٞں ڈیٹاسیٹاٞں میٞہ کنا تھو؟
+dataset-description-hours = ڈیٹاسیٹ مئ ہاٞر اٞ اینٹری خاص اٞ ایم پی تھری تے تاٞس سٞہ متعلق متنیں فائیل رہ مشتمل تھی۔ ڈیٹا سیٹ مئ ریکارڈ کٞراٞل گھینٹاٞ مئ <b> { $total } </b> ڈیموگرافِک میٹاڈیٹا پا شامل تھو مثلاََ اُمر، جنس تے لہجہ ، اوم ہواز پویانوگ والہ انجنیں تصحیح مئ مداٞد کٞرباٞں۔ ڈیٹا سیٹ ایں وخ رہ <b> { $languages } </b> جِبونہ مئ <b> { $valid } </b> قابل قبول ہوگاٞل گینٹاٞ رہ مشتمل تھو، پرہ مٞہ ہمیشہ دی ہواٞز تے جبونہ شامل کٞرنت۔ اٞ جِبیں کیر عرض کٞروگیں کیر یا حِصہ داری شورو کٞروگیں کیر موں<languagesLink> جِبوناٞں پاٞݪ</languagesLink>  رہ اٞ نظاٞر تل۔
+want-dataset-update = کون مٞہ کامن وائیساں ڈیٹاسیٹاں ناٞم ورݫن جاری کِیر تے شِید ہوگ دِیانتاٞ؟ موں رِسالہ سبسکرائب کٞر۔
+subscribe = سبسکرائیب کٞر
+get-started-speech = ہواز پویانوگ تھی شورو کٞر
+other-datasets = دی ہوازاں ڈیٹا سیٹ
+feedback-q = فیڈ بیک گھِننتاٞ؟
+# This indicates that there is no data to display
+no-information = کی پھتہ نہ
+resource-nemo-info = <githubLink>NVIDIA NeMo </githubLink>™ شاندار جولاگاٞں اے آئ ماڈل چاگیں کیر محقیقینیں کیر اٞ <docsLink> اوپن سورس ٹول کِٹ </docsLink>۔
+resource-deepspeech-info = موزِلاں اوپن سورس ہوازاں پویانوگاں انجناں ڈُگور جولاگ ہواز پویانوگیں ایپلی کیشنز چاٞگ مئ استِمال ہوبیں۔ مُوں <githubLink> گِٹ ہب اوور ویو </githubLink> پر یا ، شورو کھیکی کٞراٞں مالوم کٞروگیں کیر <discourseLink> ڈُگور جولاگا </discourseLink> مئ شامل ہو۔
+resource-coqui-info = <coquiLink> کاکی </coquiLink> پوت ہوازیں ٹیکنالوجی کٞہ وقف تھو۔ تسوں منصوباٞ مئ ڈُگور اِزدہ کٞروگ رہ مبنی ایس ٹی ٹی تے ٹی ٹی ایس شامل تھو۔
+community-playbook = کمیونٹی پلے بُک
+resource-playbook-info = کامن وائیساٞں تمام سفر رہ، مقامیت تھی ڈیٹاسیٹ استمال کٞروگائ، تے موں کمیونٹی سٞہ کھیکی رابطہ ہوئ، اوم رہ <playbookLink> مددگار رہنمائ حاصیل کٞر </playbookLink>
+data-other-librispeech-description = لِبری سپیڄ اٞ تقریباً 1000 گینٹاں 16 کیلوہرٹز انگریزی جولاگ پر منی اٞ کارپس تھو تاٞس لبری واکس منصوباٞں ریڈ آڈیبُک تھی گھِنت۔
+data-other-ted-name = ٹی ای ڈی ۔ ایل آئ یو ایم کارپس
+data-other-ted-description = ٹی ای ڈی۔ ایل ای یو ایم کارپس آڈیو ٹالک تے تساٞں چُنڑاٞل نسخاٞ  کاٞں ٹی ای ڈی ویبسائٹ رہ موجود تھو تہ توم تھی چات۔
+data-other-voxforge-description = واکسفورج چاجینش اوں جمع کٞرگ نقل کٞراٞل جولاگ استمالیں کیر ہیکاٞ تے اوپن سورس سپیچ ریکگنیشن انجنز۔
+data-other-tatoeba-description = ٹٹوبا جملاں، ترجماں تے مٞنوگاں آڈیو آں استمال ایں کیر جِباں اِزدہ کٞروگیں کیر گھان ڈیٹا بیس۔ اِیں ڈاؤنلوڈ مئ مٞنوگیں انگریزی خلٞکیں ریکارڈ کٞریل شامل تھی۔
+your-feedback = تھکٞہ کٞہ خیالات تھو آٞ اوں کھیکی مٞہ کامن وائس ڈیٹا سیٹ بہتر کٞرباٞں؟ یا اوں اوں جانی بیت رہ
+go-discourse = باث کٞہ چو
+missing-language = تانی جِب ڈیٹا سیٹ مئی نہ پشانتاٞ؟ جیباں درخاس کٞروگیں کیر مُوں جِیباٞں پاٞݪ کہ چو۔
+go-languages-page = جبوناٞں پاٞݪ کٞہ چو
+ready-to-validate = جُملاٞ قابل قبول کٞروگ مئ مداٞد داٞ کٞہ تیار تھواٞ؟
+more = دی
+close = بند کٞر
+download = ڈاؤنلوڈ کٞر
+dataset-version = ورجن
+sha256-checksum-copied = ایس ایچ اے256چیکسم کاپیڈ
+sha256-checksum-copied-error = ایس ایچ اے نقل کٞروگ مئ ناکام ہُو256 چیکسم
+clipboard-not-supported = کلِپ بورڈ نہ یوپنت
+no-information-available = کی مالومات موجود نات
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = اُمر
+donate-modal-message = چھاں ڈیٹاسیٹ ڈاؤنلوڈ ہونت
+dataset-donate-modal-heading = تھٞکہ مالوماٞ؟
+donate-modal-explanation-1 = ڈیٹاسیٹ ساتوگیں کیر تے 100ما زیات جیبیں کیر بھاگ داگیں کیر تقریباً کالیں داٞش لٞک ڈالر خرچہ ہواں، ایں خرچہ مہ کٞرنت۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>کٞہ تئ جانو کولا ، مئیاں ڈیٹآ- آج لاٞڑاٞ</bold>
+data-download-singleword-title = اٞ لفظ ٹارگٹ سگمینٹ ڈاؤنلوڈ کٞر
+data-download-singleword-callout-v2 = اٞئی اٞ استمال کیس  دہ چلوگ والہ طبقہ تھو تٞن مئ منیل ہندساں پویانوگ تے آں / نہ  آں پتہ ݭاگیں کیر ڈیٹا آشاں۔
+data-download-button = کامن وائیساں ڈیٹا ڈاؤنلوڈ کٞر
+data-download-yes = اوں
+data-download-deny = نہ
+data-download-license = لیسنس: <licenseLink> CC-0 </licenseLink>
+data-download-modal = تو مُٹو <size>{ $size }  جی بی </size> ڈاؤنلوڈ شورو کٞرنت، جاری ساتنتاٞ؟
+data-subtitle = مٞہ چاٞنت اٞ عام ذریعہ، باٞر جیباٞں وائس ڈیٹا سیٹ اوں ہر آٞک استمال کٞربائی  اوں ہواز داٞگ واٞلاٞ اپلیکیشن ایں تربیت کٞرگ۔
+data-explanatory-text = موں یقین تھو اوں گھاٞن تے عوامی جوڑ دہ موجود وائس ڈیٹا سیٹونہ مڄ ہوینت مشین لرننگ آٞں بنیاٞد رہ سپیچ ٹیکنالوجی ماٞکٞہ ݫدت تے صحت من تجارتی مقابلہ۔ اٞئی اٞ عالمی کوشش تھی تے مٞپ ہاٞر آٞک کٞہ شرکتیں دعواٞت دیاٞنت۔ موں مقصد دناٞیاٞں ہواٞزونیں قسموناں پشاگ، اٞن دہ سپیچ ٹیکنالوجی دی پا جامع ہوگ۔
+data-get-started = <speechBlogLink>سپیچ ریککنیشن تھی شورو کٞر</speechBlogLink>
+data-other-title = دی وائیس ڈیٹاسیٹ…
+data-other-goto = { $name } کٞہ چو
+data-other-download = ڈیٹا ڈاؤنلوڈ کٞر
+data-bundle-button = ڈیٹا سیٹاں بنڈل ڈآؤنلوڈ کٞر
+data-bundle-description = کامن وائیس دی تمام ہواٞزیں ڈیٹا سیٹ رتہ گڑاں۔
+release-version = ورجن
+dataset-date = تاٞریخ
+license = لیسنس: <licenseLink> { $license } </licenseLink>
+license-mixed = مِلاگاٞل
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = موں ہوازیں ڈیٹاسیٹ ڈآؤنلوڈ کٞر
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائساں ڈیٹا گاٞشی تلوگاں اختیارات ڈاؤنلوڈ کٞر

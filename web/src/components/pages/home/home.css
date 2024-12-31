@@ -149,7 +149,10 @@
         }
         @media (--lg-up) {
             /* Compensate for translateY */
-            margin-bottom: -70px;
+            &.logged-in {
+                margin-bottom: -70px;
+            }
+
             flex-direction: row;
 
             & > :first-child {
@@ -268,5 +271,9 @@
     & .register-section {
         margin-top: 50px;
         padding: 0 20px;
+    }
+
+    & .donate-banner-section {
+        margin-inline: 30px;
     }
 }
