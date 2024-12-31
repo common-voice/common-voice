@@ -26,3 +26,5 @@ download-request-refresh-button = دوبݳرہ تݳزہ رݳ / رݵفرݵش
 download-request-modal-title = لِنکݳ ڈݳݸنلݸڈ اِرݳ
 download-request-modal-description = تُمݳ ZIP فݳئلݳ ڈݳݸنلݸڈ اِرِنݳشُݸ اݽتھݳ لنکݳ چھݺ.
 download-request-link-text = Zip # { $offset } of{ $total }
+download-request-metadata-link = جملݺ گِرمِنݳݵݳ
+download-request-link-single = تُمݺ برݳہ رݳست لنکݳ اَپَنݵئ پَسَنݵئ ڈݳݸنلݸڈ منݵجرݵمݳ کݳپݵ نݸ پݵسٹ تݳ رݵ شکݵگُچھݸت. اݽݵݣ لنکݳ 12 کھنٹَنݳ فَݽ ہݸݣݺ، لݵکن تُمݺ کِسݵک تݳ وقتِکِنݳ اݽݵئ وَرَقَس وݳپَس اَئی نمݺ لنکݳ تݵݳر اِرݵ شَکݵگُچھݸت.
