@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = استعمال کندہ
+    .label = استعمال کُنِندہ
 profile-form-native-language =
     .label = مادری جِب
 profile-form-additional-language =
@@ -23,7 +23,7 @@ profile-form-gender-2 =
 leaderboard-visibility =
     .label = لیڈربوڈے پشنی
 hidden = چَپ
-visible = لیل (څرگن)
+visible = څرگن
 native-language =
     .label = مادری جِب
 profile-form-add-accent = حسب ضورڑت نو لہجہ ٹل تِھیا ” { $inputValue }“
@@ -38,18 +38,18 @@ do_not_wish_to_say = رزون نہ کھوْشنَس
 # Gender
 other = مُتہ
 why-profile-title = ایْک پروفائل کیْہ؟
-why-profile-text = تومیْ بارَد شِناکَک معلومات دون دہ، څھوْس کھاں آڈیوڈیٹا کامن وائس جیْ جمع تھیینَت اسہ اسپیچے کِرِیا لو فائدناک بَو۔
+why-profile-text = تومیْ بارَد شِناکَک معلومات دِیا، څھوْس کھاں آڈیوڈیٹا کامن وائس جیْ جمع تھیَینَت اسہ اسپیچے کِرِیا لو فائدناک بَو۔
 dashboard = ڈِش بورڈ
 build-profile = پروفائل سنِیا
 avatar = اواتار
 goals = مقصد
 settings = ترتیبات
-edit-profile = ایڈٹ پروفائل
-profile-create-success = بَرَئی گیْ پروفائل سنجِلیْ
+edit-profile = پروفائل ایڈٹ تِھیا
+profile-create-success = کامیابی گیْ پروفائل سنجِلیْ
 profile-close = بند تِھیا
-profile-explanation = پروفائل سے ساتیْ تومیْ پیش رفعتِجیْ نظر چھورِیا آں اسے صوتی ڈیٹا بسکو سُونڇھو سنون دہ اسے امداد تِھیا۔
+profile-explanation = پروفائل سے ساتیْ تومیْ پیش رفتِجیْ نظر چھورِیا آں اسے صوتی ڈیٹا بسکو سُونڇھوْ سنون دہ اسے امداد تِھیا۔
 thanks-for-account = توموْ اکاؤنٹ اےْ تصدیق تھونے شکریہ۔ چیئے اِیا څھے پروفائل سنوݨَس
-why-demographic = آ گیْ کیْہ فرق بِینیْ؟
+why-demographic = آ گیْ کیْہ فرق بِینوْ؟
 why-demographic-explanation-2 = گمنام صارف ڈیٹا کاتھ چہ عمر، جنس، گہ لہجہ اسپیچ ریکگنیشن انجنو صحیح شان گیْ تربیت دونے کِرِیا استعمال بی آڈیوڈیٹا سم تھون دہ مدد تِھینوْ۔ څھے صارف نُوم گہ ای میل کرہ گہ څھے جمُ تھییلوْ ڈیٹا سے ساتیْ منسلک نہ تِھجانوْ۔ څھوْس آ سے انتخاب تھوبانَت چہ څھے صارف نُوم څرگن یا چَپ تھونُن۔
 accept-privacy = کاتھ چہ څھوْس موزیلا دہ بِیان تھینَت چہ موْ آ معلومات سمٹون دہ څھوْسے ساتیْ نُس <privacyLink> پرائیویسی پالیسی</privacyLink>
 accept-privacy-title = پرائیویسی پالیسی
