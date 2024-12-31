@@ -92,9 +92,15 @@ read-more-about = امݳ وَرَقَس / پݵجَس مزݵد مُنݳ
 
 answer-questions = جݸݳب سݸݳلݳ <small>(ڞَگݳ آݣݺ)</small>
 review-transcriptions = ٹرݳنسکرِپشنز دݸبݳرہ دݵکھِنݳ / جݳئزہ لݵنݳ <small>(ڞَگݳ آݣݺ)</small>
+add-questions = سݸݳلݸݣ خَرِشݳرݳ <small>(ڞَگݳ آݣݺ)</small>
+transcribe-audio = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
+press-and-stories = مݵڈِݵݳ نݸ کہݳنݵݣ
+community-and-languages = کمݵݸنٹݵ نݸ بݳݽݸݣ
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = کݸٹ کمِنݳکُݽ / شرݳکت دݳرݵ، مݵڈِݵݳ نݸ کہݳنݵݣ، کمݵݸنِٹݵ نݸ بݳݽݸݣ
+partnerships-menu-item-tooltip = امݵڎ کݸٹ شرݳکت اِرݳ
 
 ## MENU ITEM ARIA LABELS
 
