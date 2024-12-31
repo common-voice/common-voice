@@ -24,6 +24,17 @@ contribute = بݳگُݸ بݳنا
 
 ## Navbar
 
+respond-to-prompt = سݸݳلݵئ جݸݳب دݸ
+transcribe-audio = پݸرجِنݳ چھتݵئ گِرمِنݳئی ترجمہ اݵر
+check-transcriptions = چݵک ٹرݳنسکرِپشنز
 
 ## Not Found Page
 
+not-found-page-header = نݵ لݵݸم
+not-found-page-content = وَرَق کونݸشُݸ تُݸ دݵکھݺ چھݳئتݳ نݵ لݵئ شکَم چھݸم
+# Privacy and Terms checkbox
+accept-privacy-and-terms = اُݸ کݳمَن وݳئسݵئ<termsLink> شَرطݸݣ</termsLink> نݸ <privacyLink>پرݳئݸݵسݵ نݸٹِسَس</privacyLink> رݳضݵ چھݵس
+# Locales
+bsy = صبݳح بِسݳݵݳ
+cdo = فُݸزہݳݸ
+cpx = ہݵݣ ہُݸݳ
