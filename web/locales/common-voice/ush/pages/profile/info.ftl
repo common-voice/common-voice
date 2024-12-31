@@ -1,5 +1,48 @@
 ## ProfileForm
 
+profile-form-username =
+    .label = یوزر نوم
+profile-form-native-language =
+    .label = مالی جیِب
+profile-form-additional-language =
+    .label = سیوا جیِب
+profile-form-language =
+    .label = جیِب
+profile-form-variant =
+    .label = تو کامیک لہجہ { $language } رائیلا
+profile-form-variant-default-value = لہجہ سلیکٹ نی بیلنی
+profile-form-accent =
+    .label = لہجہ
+profile-form-custom-accent-help-text =
+    .label = تو تمو لہجے کدا وضاحت تھئیلا
+profile-form-custom-accent-placeholder-2 = تمو لہجے ڈیسکرائب کارا ٹائپنگ شروع تھا
+profile-form-age =
+    .label = عمر
+profile-form-gender-2 =
+    .label = رونگ یا جنس
+leaderboard-visibility =
+    .label = لیڈر بورڈ نمائش
+hidden = لیلالو
+visible = نمائش
+native-language =
+    .label = مالی جیِب
+profile-form-add-accent = نئی کسٹم لہجہ جمع تھا
+profile-form-submit-save = محفوظ تھا
+profile-form-submit-saved = محفوظ بیلو
+male_masculine = منوڙو/ مذکر
+female_feminine = مؤنث/ جپئی
+intersex = بدک
+transgender = دوہرا جنس
+non-binary = نان بائنری
+do_not_wish_to_say = کونتی نی بئلا
+# Gender
+other = ہورے
+why-profile-title = پروفائل کے؟
+why-profile-text =
+    تو تمو بارا در جے معلومات تھونو، تو کامیک آڈیو ڈیتا کامن وائس در جمع تھئیلا، سا وینا ئی کارا لالو سیئی ہنو۔
+    شناختی انجن انا مواد تمو درستگی کارا استعمال تھئیلا۔
+dashboard = ڈیشبورڈ
+build-profile = پروفائل سپارونو
 avatar = اوچر
 goals = مقصد
 settings = ترتیبات
