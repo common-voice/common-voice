@@ -11,6 +11,7 @@ contribution-picker-label = ڈݵٹݳسݵٹݳشُݸ حِصہ بݳنݳشُݸ { $la
 # Label for button on contribution switcher
 change = بَدَل
 coming-soon = بݸت بݳݽݸݣ ڞَگݳ آݣݺ
+media-recorder-api-not-supported = مݵڈݵݳ رݵکݳرڈرAPI تُمݳ برݳݸزرَنݳ معݳݸن نݳ.
 # Toast message that is displayed when an item is skipped
 skipped = فت اِرِݵ
 audioplayer-header = پݸرجݳ
