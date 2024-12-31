@@ -31,6 +31,31 @@ toggle-play-tooltip = پلݺ مݸڈ کھُلݳ یݳ بَن اِرِنݳشُݸ چ
 speak-paragraph = چھَتݵئ کِلِپ رݵکݳٹ اِرِنݳ امݳ کھُلݳ ڈݵٹݳ سݵٹَس دُرݳلِنݳئی اݵک اہم حِصَݳک چھݳ؛ ترݣݵݣ بندَن ہݵتݳ منݵݣݺ چھݺ تݳ اݽݵئ بٹݵڎ تݳ مزہ دݳر حِصَہ ہݸگݳ چھݳ.
 speak-goal-text = کِلِپݳ رݵکݳٹ ہُݸݵݺ
 listen-paragraph = چِپِݵ دݵنݳئی طݸرَس دݵنݸت کِلِپݵݣݺ تصدݵق اِرِنݳ کݳمَن وݳئس مِشَنݵئ کݳرݸ اتݵیݵک اݵ اہم چھݳ. اݵݣ پݸرجݳ نݸ امݵچُݸ معݵݳرݵ اوپَن سݸرس چھَتݵئ ڈݵٹݳ تخلݵق اِرِنَنݳ مدَد اِرݳ.
+listen-goal-text = کِلِپݵݣݺ تصدݵق ہُݸݵݳ
+hours-recorded = گھنٹݳݣݳ رݵکݳٹ ہݸُݵݺ
+hours-validated = گھنٹݳݣݳ تصدݵق ہُݸݵݺ
+voices-online = چھَتݳ مݸتݸ آن لݳئن چھݺ
+todays-progress = اݸچݵئ ہگݵخِݵݽکُݽ
+help-reach-goal = لݵنَنݳ ݳمݳ مدد ݳرݳ{ $goal }
+read-terms-q = تُݸ امݳ شرطݸݣ مُنݵ چھݳئݺ؟
+ready-to-record = اَپَنݵئ چھݸت چِپݵ دݵنَشُݸ تݵݳر چھݸتݺ؟
+all-locales = بُٹݺ
+today = اݸچݺ
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] wk{ $count }
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }
+       *[other] mo
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }
+       *[other] y
+    }
 
 ## Account Benefits
 
