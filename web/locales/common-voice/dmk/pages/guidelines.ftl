@@ -85,3 +85,7 @@ adding-sentences-subheader-special-characters = خُصُݸصݵ عِلݳمݳت ن
 adding-sentences-subheader-special-characters-explanation-1 = حرفݸݣ ہݳئی بݳݽَنݳ ٹھݵک ہݸئنݺ اݸݳجݵ کݸنݵ نݳ چغݳ ہݸگݳ چھَتݳ. مثلݳً، “ж” روسݵ حرݸف تہجݵ اݵک حرفݵک چھݳ لݵکن اݽݵئ کبݵتݳ اݣگرݵزݵ نݳ استِمݳل نݵ ہݸگݳ چھݳ، ہݵئ چݸق ہݵئ کبݺ تݳ اݣگرݵزݵ مَتَننݳ نݵ آنݳ اݸݳجݵ
 adding-sentences-subheader-special-characters-explanation-2 = بݳݽݵݣݺ اَپنݵئ تݸثݵقئ قݸݳئد ہݸُݵی شکݵݣݺ چھݺ کݸنݺ مݳ ہݳئݵ دِشݵئ تقݳضݳݣݳ کݸٹ ہݸن کبݺ ہݵئݳ مقݳمݵ نݸعݵت اختݵݳر اِرِݵگݵ چھݵ. اگر کݸنݵتݳ بݳݽݵکݵ کݳرݸ مخصݸص تݸثݵقݵئ فݳئل مݸجݸد نݳ تݳ ڎَکݸ ہݸݣݺ اݵݣݺ ݣݺ کݳرݸ اݣگرݵزݵ قݸݳئد سَرکݺ ہݸݣݺ.
 adding-sentences-subheader-offensive-content = اݸفݵنسِݵݸ کنٹݵنٹ / جݳرِحݳنہ مݸݳد
+adding-sentences-subheader-offensive-content-explanation = اگر جملݳݣݳ تݸہݵن آمݵز ݵݳ پرݵشݳن اِرݳنݺ چھݵتݳ، مثلݳً، ݽَق گَڈݵ مݸݳدݵئ وجَس یݳ کݸنݸ اݸر خلݳف ݸرزݵکݵ وجَس کݸنݺ <communityGuidelines>امݳ کمݵݸنٹݵ کݸٹ ہݸئنݳئی اُصݸلݵݣݺ</communityGuidelines> خلݳفورزݵ ہݸ، تݳ تُمݵچݸ اݽݵݣ جملݳݣݳ مُستَرَد اِرِنݺ ݳݸݳجݵ. تمݺ اݽݵئ مسلݳئی کݳرݸ <emailFragment>commonvoice@mozilla.com</emailFragment>  امݵڎ کݸٹ رݳبطہ رِݵ شکݵگُچھݸت.
+reviewing-sentences-explanation-1 = اَگَر جملݺ اڎݵ ہݵئ کرݳئٹݵرݵݳس اُگُلݵݣݺ چھݺ تݳ، "Yess" بَٹَن ذُق اِرݳ.
+reviewing-sentences-explanation-2 = اَگَر جملݺ اڎݵ ہݵئ کرݳئٹݵرݵݳس نݵ اُگُلݵݣݺ چھݺ تݳ، "No" بَٹَن ذُق اِرݳ.
+reviewing-sentences-explanation-3 = اگر جملݳئی بݳرہ نݳ تمݵچݸ دَک نݳ تݳ، تمݺ اݽݵئ فَت اِری ہگݸ ہݵیَس جݳئی شکݵگُچھݸت.
