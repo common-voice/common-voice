@@ -8,6 +8,9 @@ select-your-age = تُمݳ عمر سَلگِنݳ
 gender-select-label = تُمݳ جنس کݵسݵک چھݳ؟
 select-your-gender = تُمݳ جِنس سَلگِنݳ
 country-of-residence-label = ملک/ بݵشِنئ خِطہ
+country-of-residence-placeholder =
+    .placeholder = تُمݳ ملکݵئ/ بݵشِنݵ دِشݵئ گرمِنݳ
+why-are-you-asking = تُݸ کِجݺ مُنݳ چھݳئی؟
 
 ## Gender dropdown
 
