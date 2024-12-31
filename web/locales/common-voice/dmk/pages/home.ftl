@@ -101,6 +101,11 @@ community-and-languages = کمݵݸنٹݵ نݸ بݳݽݸݣ
 
 about-menu-tooltip = کݸٹ کمِنݳکُݽ / شرݳکت دݳرݵ، مݵڈِݵݳ نݸ کہݳنݵݣ، کمݵݸنِٹݵ نݸ بݳݽݸݣ
 partnerships-menu-item-tooltip = امݵڎ کݸٹ شرݳکت اِرݳ
+press-and-stories-menu-item-tooltip = امݳ بلݳگَس آ ݵݳ ݳمݳ بݳرہ نݳ گِرمِنݳ
+community-and-languages-menu-item-tooltip = بݳݽݸݣ درݵݳفت اِرݳ نݸ کمݵݸنِٹݵز نݸ کݳمَن وݳئس
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = آپشنز مݵنݸئ بݳرہ نݳ
+partnerships-menu-item-aria-label = شرݳکت دݳرݵݣݺ بݳرہ نݳ چھِچݳ ݳمَن وݳئسَس کݸٹ
+press-and-stories-menu-item-aria-label = کݳمَن وݳئسݵئ متعلِق پرݵس رݵلݵز نݸ کہݳنݵڎ دِݽقلتُݸݳ.
