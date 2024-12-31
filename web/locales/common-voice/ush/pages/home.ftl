@@ -56,19 +56,48 @@ email-subscription-title-new = کامن وائس نیوز لیٹر، مقصد ی
 
 benefits = فائدہ
 rich-data = تمو جمع تھیالی ڈیٹا سیوا تھونو کارا جے نامولوما ڈیموگرافکس ڈیٹا جمع تھونو ممکن سپارا۔ آسو انا ڈیموگرافک ڈیٹا جمع تھونو کئی مُݜو ختم تھونا۔
-improve-audio = { "" }
+improve-audio = پروفائل معلومات تربیتی وینا ئی کارا استعمال تھیالے ڈیٹا غورا سپاری۔
+keep-track = لالے جیِبو در تمو پیشرفت جا نظر رݜا اؤ
+compare-progress = ݜکیتا تھئی پروگریس دنیائی ہورو کنٹربیوٹر ست کدا موازنہ بینی۔
+view-goals = زاتی اؤ پروجیکٹ مقابلہ در تمو پروگریس ݜکیتا
+join-newsletter = د پروجیکٹ اپڈیٹ اؤ نؤ معلوماتی کارا اختیاری تھونو آسئی ای میل لیسٹ در شامل با۔
 
 ## What's public
 
+whats-public = خلق جے ہنی؟
+email-not-public = آسو تھئی ای میل خلقو تی نی پشارونا
+recordings-and-locale-public = تھئی کامیک جیب در ریکارڈنگ تھینی سا آسو خلقو تا پشارونا
+username-optin-public = تو تمو یوزر نوم نامعلوم یا عوامی تھو بئینو
+demographic-deidentified-clarity-2 = اپشنلی ڈیموگرافک مواد سبمیٹ بیلنو[لکہ عمر، جنس، جیب، اؤ لہجہ]۔ تھئی پروفائل کھارے ہُم نی پبلک بینو، اؤ نی ڈیٹاسیٹ در تھئی اکاونٹ لنک دیا بینو۔ انفرادی آڈیو کلپس صحیح تجزیہ ئی مقصدی  کارا ڈیمو گرافک ڈیٹا ست شریک بینو۔ مثال طور در ایک محقق ایک خاص ڈیموگرافک سیگمنٹ کارا ٹارگٹ بیچینا۔
+username-email-not-demographic = تھئی یوزر نوم اؤ ای میل پبلیش بیالی مواد ست نی شریک بینی۔
 
 ## Landing
 
+welcome-staff = ثیر ست آلو{ $company } عملہ
+help-contribute = تو کامن وائس پروفائل سپارونو اؤ تمو آواز شریک تھونو کارا متنوع اوپن سورس ڈیٹاسیٹ سپارونو در مدد تھو بھاتا۔
+login-company = لاگ ان/ سائن اپ { $company } ای میل ست
+profile-not-required = ڈیٹا شامل تھونو کارا پروفائل سپارونو ضروری نیش، انا صرف مددگار ہنو، کھارے کے ݜکاتا۔
+read-more-about = آسئی پیج بارا در ہورے ݜکا
 
 ## NAV ITEMS
 
+answer-questions = سوال جواب<small> دستی آٹونو</small>
+review-transcriptions = ٹرنسکرائبشن دوبارا ݜکا<small>دستی آٹونو</small>
+add-questions = سوال جمع تھا<small> دستی آٹونو</small>
+transcribe-audio = آڈیو نقل تھا<small>[دستی آٹونو] </small>
+press-and-stories = پریس اؤ قصہ ئی
+community-and-languages = کمیونٹی اؤ جیبے
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = پارٹنرشب، پریس، اؤ قصہ ئی، کمیونٹی اؤ جیِبے
+partnerships-menu-item-tooltip = آسو ست سأت بو
+press-and-stories-menu-item-tooltip = آسو بلاک چکر تھا یا آسو بارا در لیِکا
+community-and-languages-menu-item-tooltip = جیِبے، کمیونٹی اؤ کامن وائس معلوم تھا
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اپشن مینو بارا در
+partnerships-menu-item-aria-label = کامن وائس ست پارتنرشب بارا در اِزدا تھا
+press-and-stories-menu-item-aria-label = کامن وائس ست ملحقہ پریس ریلیس اؤ قصؤ تے آبرا
+community-and-languages-menu-item-aria-label = کامن وائس ست کامیک جیِبے سپورٹ تھینا سی ݜکا
