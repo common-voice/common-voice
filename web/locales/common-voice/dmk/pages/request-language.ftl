@@ -20,3 +20,6 @@ request-language-google-recaptcha-required = reCAPTCHA اݸݳجݵ چھݳ اگر 
 request-language-google-recaptcha-error = reCAPTCHA کوٹ کݵسݵک غلط ہݸݵݳ چھݳ. مِربݳنݵ رݵ دݸبݳرہ کھݸشِش اِرݳ.
 # Success page
 request-language-success-heading = جُݸ / شکرݵہ ! تُمݺ نمݵ بݳݽݵئ انکݸݳئرݵ بجݳلݸ چھݸت
+request-language-success-list-1 =
+    تمݺ ڞَگݳ اݵ اݵکہ اِݵ مݵلݳکہ لݳگُت کݸنِنَݳ 
+    تمݵچُݸ کݳمَن وݳئسَنݳ اپَنݵئ بݳݽ کݸٹ اِرِنݳئی اقدݳمݳتݵݣݺ وضݳحَت اِرݸ جݳگݵ.
