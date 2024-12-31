@@ -37,6 +37,7 @@ bo = ພາສາຕິເບດ
 br = ພາສາເບຣຕອນ
 bri = Mokpwe
 bs = ພາສາບອສເນຍ
+bum = ບູລູ
 bxr = Buryat
 byv = Medumba
 ca = ພາສາ​ກາ​ຕາ​ລັນ
