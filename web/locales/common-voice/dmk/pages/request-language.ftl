@@ -14,3 +14,9 @@ request-language-form-info =
     .label = بݳݽݵئ بݳرہ نݳ معلݸمݳت
 request-language-form-info-explanation = بݳݽݵئ بݳرہ نݳ کتݵیَک بݸت معلݸمݳت کݸٹ اِری شکݵچھݳئتݳ اݵر. اݽݵئ کوٹ ہُݸئی شکݵگݳ:
 request-language-form-info-explanation-list-1 = تُمݳ بݳݽݵئ نݳمݳ
+request-language-form-info-explanation-list-2 = <isoCodeLink> ISO کݸڈݳ </isoCodeLink> اگر لݵل چھݺ تݳ
+request-language-form-info-explanation-list-3 = وݵبسݳئٹݵچُݸ لنکݳ کݸنݺ بݳݽ ݵنݳ بݳنݺ بلݸ امݵچُݸ مدد اِری شکݸن
+request-language-google-recaptcha-required = reCAPTCHA اݸݳجݵ چھݳ اگر تُمݺ ہگݵ جݳݽ ہݸئنݳئی رَئی رݵگُچھݸت تݳ
+request-language-google-recaptcha-error = reCAPTCHA کوٹ کݵسݵک غلط ہݸݵݳ چھݳ. مِربݳنݵ رݵ دݸبݳرہ کھݸشِش اِرݳ.
+# Success page
+request-language-success-heading = جُݸ / شکرݵہ ! تُمݺ نمݵ بݳݽݵئ انکݸݳئرݵ بجݳلݸ چھݸت
