@@ -10,3 +10,5 @@ partnerships-foundations-description = امݺ فݳݸنڈݵشَنݳ، سِول س
 partnerships-governments-header = گݸرمݵنٹݳ / گݸرمݵنٹݸݣ
 partnerships-governments-description = امݺ ٹݵکنݳلݸجݵ، جدت نݸ بݳݽݵݣݺ حقݵمݵئ عݳمݵ شعبݳئی کݸٹ ہݸُئنݳئی حِمݳݵَت اِرِنݳئی کݳرݸ پُرجݸش چھݸم. اگر تُمݺ کݵسݵک بڑݳ منصݸبہ یݳ مہم شُرُݸع اِرِنݳئݵ ارݳدہ تھݳگُچھݸت تݳ مِربݳنݵ رِݵ <emailFragment>امݵڎ کݸٹ رݳبِطہ رݳ.</emailFragment>
 partnerships-academia-header = ݵݸنݵݸرسٹِݵݳ، تعلݵمئ مݳہرݳ نݸ رݵسرچرݳ
+partnerships-academia-description = کھُلݳ ہگݵجݳنݳکُݽ امݳ کمݵئ بنݵݳدݵ حِصَہ چھݳ. تحقݵقئ تعݳݸن، ڈݵٹݳ گَٹِݵ رِنݳ ݵݳ <emailFragment>انٹرݸݵݸ ݣݺ کݳرݸ امݵڎ کݸٹ رݳبطہ رݳ.</emailFragment>
+partnerships-small-business-header = چُنݺ کݳرݸبݳرݳ، کݸٹ ٹݵکنݳلݸجݵ نݸ AI سٹݳرٹ اَپس
