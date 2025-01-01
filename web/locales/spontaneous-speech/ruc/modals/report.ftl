@@ -1,6 +1,6 @@
 ## Report Modal
 
-report-modal-title = waayo Ebikumbaniibwe
+report-modal-title = waayo alipoota
 report-modal-subtitle = Nsonga ki zosangire omu bukwenda buni
 offensive_speech = Ebyabuseegu
 offensive_speech-detail = Obukwenda bukutyobola oba bukuzuma
@@ -17,3 +17,4 @@ report-error = wabairewo ensobi nga nkusindika alipoota
 continue = weyongereyo
 # Header for report modal after successful reporting
 success = Buwanguzi
+report-success-message = Alipoota bajaakairye kusai
