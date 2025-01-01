@@ -33,3 +33,14 @@ check-transcriptions = kebera ebiwandiki
 
 not-found-page-header = tekisangibwe
 not-found-page-content = byokuswagana tebikusoboka kufunika
+# Privacy and Terms checkbox
+accept-privacy-and-terms = nkwikiriziganya namaloboozi gaamwe
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Luzungu
+fr = Lufalansa
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay

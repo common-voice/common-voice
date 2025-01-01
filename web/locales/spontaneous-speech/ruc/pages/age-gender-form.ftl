@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = webale okubanga olina kyowairyeeyo oku spontaneous speech
+age-gender-form-title = webale okubanga olina kyowairyeeyo oku lubazo lwa mangumangu
 age-gender-form-subtile = We okutukobera ebikukwataku, okwiza okuyambaku abatandiki okwomboka otekinologiya owaboona
 continue-speaking-button = Yaba omu maiso n'okubaza
 age-select-label = Olina emyaka imekai?
