@@ -15,6 +15,12 @@ media-recorder-api-not-supported = Akakwata amaloboozi aka API tikakulosebwa ku 
 # Toast message that is displayed when an item is skipped
 skipped = Yagulukire
 audioplayer-header = wuliirya
+guidelines = Ndagiliro
+# For the button to report an item
+report-button = Alipota
+# For the button to skip an item
+skip-button = Guluka
+submit-button = Waayo
 
 ## Navbar
 
