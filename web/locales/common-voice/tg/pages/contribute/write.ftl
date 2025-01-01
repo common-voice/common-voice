@@ -44,10 +44,19 @@ nature_environment = Табиат ва муҳити зист
 news_current_affairs = Ахбор ва воқеаҳои ҷорӣ
 # Sentence Domain dropdown option
 technology_robotics = Технология ва робототехника
+sentence-variant-select-label = Навъи ҷумла
+sentence-variant-select-placeholder = Интихоб кардани навъи ҷумла (ихтиёрӣ)
+sentence-variant-select-multiple-variants = Забони умумӣ / навъҳои гуногун
 
 ## BULK SUBMISSION 
 
+try-upload-again-md = Кӯшиш кунед, ки аз нав бор намоед
 select-file = Интихоби файл
+select-file-mobile = Файлро барои боргирӣ интихоб намоед
+accepted-files = Намудҳои файлҳои қабулшаванда: танҳо .tsv
+minimum-sentences = Шумораи ҳадди ақали ҷумлаҳо дар файл: 1000
+maximum-file-size = Андозаи ҳадди аксари файл: 25 MB
+what-needs-to-be-in-file = Дар файли ман чӣ бояд бошад?
 file-invalid-type = Файли номувофиқ
 file-too-large = Файл хеле калон аст
 file-too-small = Файл хеле хурд аст
