@@ -9,7 +9,7 @@ interface-language = Endimi ezikwesanisirya
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = okuwayo amawuuro agakwata okululimi
 # Label for button on contribution switcher
-change = kyuusa
+change = kyusa
 coming-soon = endimi ezindi zingi zikwiza
 media-recorder-api-not-supported = Akakwata amaloboozi aka API tikakulosebwa ku kibanja kyamu
 # Toast message that is displayed when an item is skipped
@@ -49,4 +49,9 @@ mel = Akati wa Melanau
 mmc = Michoacan Mazahua
 ms-MY = Bahasa Malay
 msi = Sabah Malay
-pez = Ebuwuluka Isanu wa Penan
+pez = Ebuwuluka Isanu bwa Penan
+pne = Gabugwa Isana bwa Penan
+sdo = Serian Bidayuh
+snv = Saban
+tr = Mutuluki
+xkl = Munakenya

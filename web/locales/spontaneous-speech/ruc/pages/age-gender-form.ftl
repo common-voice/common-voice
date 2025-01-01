@@ -1,6 +1,7 @@
 # Age and Gender form
 age-gender-form-title = webale okubanga olina kyowairyeeyo oku lubazo lwa mangumangu
 age-gender-form-subtile = We okutukobera ebikukwataku, okwiza okuyambaku abatandiki okwomboka otekinologiya owaboona
+add-information-button = Yongeera amawuuro
 continue-speaking-button = Yaba omu maiso n'okubaza
 age-select-label = Olina emyaka imekai?
 select-your-age = Londaku emyaka jaamu
@@ -17,4 +18,7 @@ thank-you-for-your-information = Webale olwa mawuro gaamu
 
 male_masculine = Musaiza/Musigazi
 female_feminine = Mukali/Mwaala
+intersex = Ekikula kyamuntu
+transgender = Ekikula kyamuntu ekitakwisanisirya'ngana
 non-binary = Ebintu ebitakwisanisiirya
+do_not_wish_to_say = Takwegomba kubaza
