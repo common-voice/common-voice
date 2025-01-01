@@ -7,3 +7,14 @@ check-editbox-header = Kebeera
 no-transcriptions-message = Ndowo kuindula kuluuwo  okwakukebeera olulimi luni ati. Irya buyaka ekibanja kini oba gezesyaku eirai.
 vote-transcript-success = Okuindula kulondeerwe kusai
 vote-transcript-error = Wabaireewo ensobi nga okulonda ebindulibwe kukwaba omumaiso.
+transcript-edited-success = Okuindula kusunsulibwe kusai
+transcript-edited-error = Wabaireewo ensobi nga ekiwandiko kikusunsulibwa
+error-fetching-transcriptions = Wabaire ekizibu nga bakuswagana ebyaindulibwe. Gezesyaku erai.
+transcript-skipped-success = Ekiwandiko kigulikibwe kusai
+transcript-skipped-error = Wabaireewo ensobi nga ekyandiko kigulukibwa.
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = Kituffu
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Kiwaire
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Sunsula
