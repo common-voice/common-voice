@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = yega engeri ya kuwandika
 learn-how-to-use-transcribe-explanation = wandika ebyo byenyini omuntu byeyabazire nga omulimu nebigambo nka "um" oba 'err'
 learn-how-to-use-transcribe-guidance = myiga ani oyege ekolesyamu ekibanja kini
 learn-how-to-use-check-transcript = yega okukebera ekiwandiko
+learn-how-to-use-check-transcript-explanation = Ekiwandiko kiyina okubamu buli kigambo ekyabazibwe omuntu amwei nebyo byeremu
+learn-how-to-use-check-transcript-guidance = myiga ani oyege ekolesyamu ekibanja kini
