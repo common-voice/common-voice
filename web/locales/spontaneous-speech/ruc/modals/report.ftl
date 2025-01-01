@@ -1,7 +1,9 @@
 ## Report Modal
 
-offensive_speech = Obuseegu
-offensive_speech-detail = Obukwenda bukuwemula
+report-modal-title = waayo Ebikumbaniibwe
+report-modal-subtitle = Nsonga ki zosangire omu bukwenda buni
+offensive_speech = Ebyabuseegu
+offensive_speech-detail = Obukwenda bukutyobola oba bukuzuma
 different_language = Olulimiolwanjawulo
 different_language-detail = Obukwenda buli omu Lulimu lwanjawuli okwolo lwenasubiranga
 personally_identifiable_information = Amawuro agakusobola okufunibwa
