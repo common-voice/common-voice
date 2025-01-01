@@ -21,9 +21,15 @@ report-button = Alipota
 # For the button to skip an item
 skip-button = Guluka
 submit-button = Waayo
+contribute = waayo
 
 ## Navbar
 
+respond-to-prompt = Iramu mubwangu
+transcribe-audio = Indula edobozi omubuwandike
+check-transcriptions = kebera ebiwandiki
 
 ## Not Found Page
 
+not-found-page-header = tekisangibwe
+not-found-page-content = byokuswagana tebikusoboka kufunika
