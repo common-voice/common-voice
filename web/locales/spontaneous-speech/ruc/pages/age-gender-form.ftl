@@ -17,3 +17,4 @@ thank-you-for-your-information = Webale olwa mawuro gaamu
 
 male_masculine = Musaiza/Musigazi
 female_feminine = Mukali/Mwaala
+non-binary = Ebintu ebitakwisanisiirya
