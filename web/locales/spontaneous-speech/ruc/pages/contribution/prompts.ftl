@@ -21,3 +21,9 @@ submit-all-button = waayo byona
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Yega engeri yakukolesyamu ekibanja kini
+learn-how-to-use-prompts-explanation = Iramu ebyo byokura. kaka nti olulimi lwokukolesya lukuwa ekitiibwa ate nga telukuwemula
+learn-how-to-use-prompts-guidance = myiga ani oyege ekolesyamu ekibanja kini
+learn-how-to-use-transcribe = yega engeri ya kuwandika
+learn-how-to-use-transcribe-explanation = wandika ebyo byenyini omuntu byeyabazire nga omulimu nebigambo nka "um" oba 'err'
+learn-how-to-use-transcribe-guidance = myiga ani oyege ekolesyamu ekibanja kini
+learn-how-to-use-check-transcript = yega okukebera ekiwandiko
