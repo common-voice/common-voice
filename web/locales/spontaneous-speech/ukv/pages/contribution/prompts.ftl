@@ -26,3 +26,4 @@ learn-how-to-use-prompts-guidance = Tandi ni ko do ködö tokitaju na pele ada
 learn-how-to-use-transcribe = Diniki ko do ködö gayerju kulyaesi lo jajama kulo yi wuröt ada
 learn-how-to-use-transcribe-explanation = Wuröki kak ŋo' 'bgwak na jam ŋutu' 'yalakinda kulaesi gwoso'um'. kode 'errr'.
 learn-how-to-use-transcribe-guidance = Tandi ni ko ködö tokitaju na pele' ada
+learn-how-to-use-check-transcript = Dinikini ko do ködö meda kilo wuröt
