@@ -1011,6 +1011,22 @@ export default class DB {
     )[0][0];
   }
 
+  async getLanguageSentenceCounts(localeId: number): Promise<{locale_id: number, count: number}> {
+    const [[row]] = await this.mysql.query(
+      `
+        SELECT COUNT(*) as total_sentence_count
+        FROM sentences
+        WHERE is_used = TRUE
+        AND locale_id = ?
+      `,[localeId]
+    );
+
+    return {
+      locale_id: localeId,
+      count: row.total_sentence_count
+    }
+  }
+
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
       `
@@ -1054,9 +1070,11 @@ export default class DB {
 
   async getAllLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT *
+      `
+        SELECT *
         FROM locales l
-    `
+        WHERE name <> 'unknown'
+      `
     );
     return rows;
   }
