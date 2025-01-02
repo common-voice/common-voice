@@ -20,3 +20,11 @@ submit-all-button = بُوٹے اُولا
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = انا پیج چلؤنو چل ازدا تھئی
+learn-how-to-use-prompts-explanation = تمو طبیعت مطابق دُو جملؤ در دستی دستی جواب دے۔  یقینی سپارے چی تھئی جیب قابل احترام اؤ غیر جانب دار ہنی۔
+learn-how-to-use-prompts-guidance = کلک <guidanceLink> اینی</guidanceLink> انا پیج استعمال تھونو کارا
+learn-how-to-use-transcribe = اِزدا تھا تو نقل کدا تھئیلا
+learn-how-to-use-transcribe-explanation = منوڙے جے رزی سا لیِکا، بشمول پلیس ہولڈر یا الفاظ ،اُم؛ یا ، ایررر؛
+learn-how-to-use-transcribe-guidance = کلک<guidanceLink> اینی</guidanceLink> پیج استعمال تھونو چل اِزدا تھی
+learn-how-to-use-check-transcript = ٹرانسکربشن کدا چیک بینو، ازدا تھا
+learn-how-to-use-check-transcript-explanation = ایک ٹرانسکرائبشن تی ہر ایک لفظ کیپچر تھونو پکار ہنو یا ایک منوڙے غیر لغوی گفتگو آوازبشمول تکرار۔
+learn-how-to-use-check-transcript-guidance = کلک<guidanceLink> اینی</guidanceLink> ازدا تھونو کارا کدا پیج استعمال بیلنو
