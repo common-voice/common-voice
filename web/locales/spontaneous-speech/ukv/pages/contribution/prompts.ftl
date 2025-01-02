@@ -27,3 +27,4 @@ learn-how-to-use-transcribe = Diniki ko do ködö gayerju kulyaesi lo jajama kul
 learn-how-to-use-transcribe-explanation = Wuröki kak ŋo' 'bgwak na jam ŋutu' 'yalakinda kulaesi gwoso'um'. kode 'errr'.
 learn-how-to-use-transcribe-guidance = Tandi ni ko ködö tokitaju na pele' ada
 learn-how-to-use-check-transcript = Dinikini ko do ködö meda kilo wuröt
+learn-how-to-use-check-transcript-explanation = Gayerju na ti moku kulyeesi' kulo liŋ kode'
