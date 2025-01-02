@@ -2,5 +2,5 @@
 
 delete-q = Vo' cancillari macari i to riggistrazzioni, o i vo' tèniri nnî dati Common Voice?
 keep = Teni
-remove = Cancella
-profile-form-delete = Cancella prufilu
+remove = Scancella
+profile-form-delete = Scancella prufilu
