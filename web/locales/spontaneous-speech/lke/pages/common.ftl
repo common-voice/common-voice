@@ -1,7 +1,7 @@
 ## General
 
 # Toast message that is displayed when an error occurs
-error = ensoobi
+error = Ensoobi
 action-click = Nyiga
 action-tap = Konaku
 # Label for language switcher
@@ -35,3 +35,23 @@ not-found-page-header = Tinfunire
 not-found-page-content = olupapula olwokunomia telufunikire
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Injikirilia amalobozi agabulijo
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Luzungu
+fr = Lufaransa
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay
+meh = Southwestern Tlaxiaco Mixtec
+mel = Central Melanau
+mmc = Michoacán Mazahua
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pez = Eastern Penan
+pne = Western Penan
+sdo = Serian Bidayuh
+snv = Sa'ban
+tr = Turkish
+xkl = Kenyah
