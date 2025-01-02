@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-title = Баррасии ҷумлаҳо
 sc-review-loading = Ҷумлаҳо бор шуда истодаанд…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -13,10 +14,23 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Анҷом додани баррасӣ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ягон ҷумла баррасӣ нашуд.
+        [one] 1 ҷумла баррасӣ шуд. Сипос!
+       *[other] { $sentences } ҷумла баррасӣ шуд. Сипос!
+    }
 sc-review-link = Бознигарӣ
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Меъёрҳои бознигарӣ
 sc-criteria-title = Меъёрҳои бознигарӣ
+sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ дуруст бошад.
 report-sc-different-language = Забони дигар
+# menu item
+review-sentences = Баррасии ҷумлаҳо

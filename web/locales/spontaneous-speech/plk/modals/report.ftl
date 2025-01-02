@@ -1,6 +1,6 @@
 ## Report Modal
 
-report-modal-title = رپورٹ جمع تِھیا۔
+report-modal-title = رپورٹ جمع تِھیا
 report-modal-subtitle = آ مواد سے ساتیْ څھوْڑ کھاں مسائل پیخ بینَن؟
 offensive_speech = جارحانہ مواد
 offensive_speech-detail = مواد دہ توہین آمیز یا جارحانہ جِبِن۔
@@ -12,9 +12,9 @@ report-other-comment =
     .placeholder = کومنٹ
 # Label for textarea in report modal
 other = مُتہ
-report-error = رپورٹ جمع تھیون دہ ایْک خرابی پیخ آلیْ۔
+report-error = رپورٹ جمع تھیون دہ ایْک غلطی بِلِن۔
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = جاری پھتِیا۔
 # Header for report modal after successful reporting
-success = بَرَئی
-report-success-message = رپورٹ بَرَئی گیْ منظور تِھجِلیْ۔
+success = کامیابی
+report-success-message = رپورٹ کامیابی گیْ منظور تِھجِلِن۔

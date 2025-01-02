@@ -8,3 +8,13 @@ partnerships-community-description = کمݵݸنِٹݵ کݳمَن وݳئسݵئ ݵ
 partnerships-foundations-header = بُنݵݳدݳ
 partnerships-foundations-description = امݺ فݳݸنڈݵشَنݳ، سِول سݸسݳئٹݵ نݸ کمݵݸنِٹی شرݳکتدݳرݳ یعنݵ گٹݵ کَمِنݺ اݵݣڎ کݸٹ کݸٹ ہُݸئی اِنٹرنݵٹ اݵکہ صحت مَند دِشَکݳ دُرݳلِنݳئی کݳرݸ کݸم اِرَم چھݸم، خݳس اِرِݵ مشرقݵ ݳفرݵقَس تݸجہ مرکݸز اِرِنݺ. اَمݳ <programmaticWork>پروگرمݵئ کَمݵئ </programmaticWork>بݳرہ نݳ مزید دݽݳرݳ.
 partnerships-governments-header = گݸرمݵنٹݳ / گݸرمݵنٹݸݣ
+partnerships-governments-description = امݺ ٹݵکنݳلݸجݵ، جدت نݸ بݳݽݵݣݺ حقݵمݵئ عݳمݵ شعبݳئی کݸٹ ہݸُئنݳئی حِمݳݵَت اِرِنݳئی کݳرݸ پُرجݸش چھݸم. اگر تُمݺ کݵسݵک بڑݳ منصݸبہ یݳ مہم شُرُݸع اِرِنݳئݵ ارݳدہ تھݳگُچھݸت تݳ مِربݳنݵ رِݵ <emailFragment>امݵڎ کݸٹ رݳبِطہ رݳ.</emailFragment>
+partnerships-academia-header = ݵݸنݵݸرسٹِݵݳ، تعلݵمئ مݳہرݳ نݸ رݵسرچرݳ
+partnerships-academia-description = کھُلݳ ہگݵجݳنݳکُݽ امݳ کمݵئ بنݵݳدݵ حِصَہ چھݳ. تحقݵقئ تعݳݸن، ڈݵٹݳ گَٹِݵ رِنݳ ݵݳ <emailFragment>انٹرݸݵݸ ݣݺ کݳرݸ امݵڎ کݸٹ رݳبطہ رݳ.</emailFragment>
+partnerships-small-business-header = چُنݺ کݳرݸبݳرݳ، کݸٹ ٹݵکنݳلݸجݵ نݸ AI سٹݳرٹ اَپس
+partnerships-small-business-description = امݺ ڞݳ ڈݵٹݳ استمݳل اِرݵݣݺ اݵݣݵڎ مݸ اݵݣݺ ضرݸلَتݵݣݺ نݸ سݵݳق ݸ سبݳقݵئ بݳرَہ نݳ پݸرجِنݳئی انتظݳر اِرَم چھݸم. ڈݵٹݳ گَٹݵ رِنݳئی پلݵٹ فݳمَس تعݳݸنَس مݸ جݳئی ڈݵٹݳئی صحَتݵئ بݳرہ نݳ غُٹُمکُݽ دݵنَݳشُݸ خݳ، <emailFragment>امݺ تمݵڎ مݸ پݸرجِنݳئی رئی رَم چھݸم.</emailFragment>
+partnerships-corporates-header = بڑݺ پݵمݳنئی کݳرپݸرݵٹݳ نݸ پلݵٹفݳم کمپنݵݣ
+partnerships-corporates-description = اگر تمݺ ڈݵٹݳ سݵٹݵئ بݳرہ نݳ مزݵد چَغݳ رِنئی رَئی رݵگُچھݸت تݳ، منصݸبہ بند پلݵٹفݳمݵݣݺ شِشِلَکُݽَنݳ کݸٹ سرمݳݵہ کݳرݵ رِنݳئی رَئی رݵݣݺ چھݵتݳ ݵݳ تعݳݸنݵئ مݸقݵݣݺ <emailFragment>ݼݸقَنݳ چھݵتݳ، تݸ مِربݳنݵ رِݵ اَمݵچُݸ اݵکݳ لݵنݳکݳ گِرمِنݳ.</emailFragment>
+partnerships-our-partners = امݳ کݸٹݸ کمݸنݺ
+# menu item
+partners = کݸٹݸ کمݸنݺ
