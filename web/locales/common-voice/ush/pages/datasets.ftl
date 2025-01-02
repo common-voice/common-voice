@@ -30,6 +30,7 @@ dataset-version = ورژن
 dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
+donate-modal-message = تھئی ڈیٹا سیٹ ڈاونلوڈ بینو
 dataset-donate-modal-heading = تُو تی معلوم بیلو۔۔
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>کہ تو عاام ڈیٹا شامل بونو بیچھاتا، آج دا

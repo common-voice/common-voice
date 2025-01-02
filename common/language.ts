@@ -16,6 +16,7 @@ export type Language = {
   id: number;
   name: string;
   sentenceCount: SentenceCount;
+  target_sentence_count?: number;
   is_contributable?: boolean;
   is_translated?: boolean;
   native_name: string;

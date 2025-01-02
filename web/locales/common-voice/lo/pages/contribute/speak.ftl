@@ -57,3 +57,11 @@ already-have-an-account = ມີບັນຊີຢູ່ແລ້ວບໍ? <log
 create-profile-button = ສ້າງໂປຣໄຟລ໌
 # IMAGE TAGS
 img-alt-success-checkmark = ເຄື່ອງໝາຍຄວາມສຳເລັດ
+# menu item
+read-sentences = ອ່ານປະໂຫຍກ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

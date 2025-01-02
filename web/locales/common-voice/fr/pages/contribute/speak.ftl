@@ -66,6 +66,8 @@ read-sentences = Lire des phrases
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Lire des phrases, répondre aux questions
+read-sentences-menu-item-tooltip = Enregistrez-vous en train de lire des phrases dans votre langue
+answer-questions-menu-item-tooltip = Enregistrez-vous en train de répondre aux questions et aux invites dans votre langue
 
 ## MENU ITEM ARIA LABELS
 

@@ -17,9 +17,11 @@ easy-difficulty = Осон
 average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
+set-a-goal = Ҳадаф гузоштан
 confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
 return-to-edit-goal = Барои таҳрир кардани ҳадафи худ ҳар вақт ба ин ҷо баргардед.
+share-goal = Ҳадафи маро мубодила кунед
 
 ## Goals
 
