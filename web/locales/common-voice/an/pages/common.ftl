@@ -292,6 +292,6 @@ donate-banner-cta = <mark>Nos fa falta</mark><br/><mark>la tuya aduya</mark>
 donate-banner-cta-explanation = Cuesta cuasi un millón de dólars cada anyo albergar las bases de datos y millorar la plataforma pa las mas de 100 comunidaz lingüisticas que confían en o que femos. <strong>Si valoran los datos ubiertos y inclusivos, fe hue una donación!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Fas servir CV</mark><br/><mark>pa las tuyas investigacions?</mark>
-languages-donate-banner-cta-explanation = Common Voice ye financiau per donacions y aduyas! NOs fa goyo colaborar con academicos, la sociedat civil y investigadors industrials. Common Voice ye grauito, pero nos aduya muito si puez contribuyir a los costes d'a plataforma y d'alochamiento.
+languages-donate-banner-cta-explanation = Common Voice ye financiau per donacions y aduyas! Nos fa goyo colaborar con academicos, la sociedat civil y investigadors industrials. Common Voice ye gratis, pero nos aduya muito si puez contribuyir a los costes d'a plataforma y d'alochamiento.
 localization-select =
     .label = Tira una luenga u localización
