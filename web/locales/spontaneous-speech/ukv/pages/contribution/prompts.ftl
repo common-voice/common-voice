@@ -25,3 +25,7 @@ learn-how-to-use-prompts-explanation = Tuŋ ruggi' ŋariet nagon bgenge na 'bero
 learn-how-to-use-prompts-guidance = Tandi ni ko do ködö tokitaju na pele ada
 learn-how-to-use-transcribe = Diniki ko do ködö gayerju kulyaesi lo jajama kulo yi wuröt ada
 learn-how-to-use-transcribe-explanation = Wuröki kak ŋo' 'bgwak na jam ŋutu' 'yalakinda kulaesi gwoso'um'. kode 'errr'.
+learn-how-to-use-transcribe-guidance = Tandi ni ko ködö tokitaju na pele' ada
+learn-how-to-use-check-transcript = Jujumbi' ko do ködö titim kilo wuröt ada
+learn-how-to-use-check-transcript-explanation = Ti gayerju na moku kulyeesi' kulo liŋ kode' woŋon na gborolo jamesi' logoŋ a jama ko ŋutu' lo, morakinda ŋo' lo nyönyökö.
+learn-how-to-use-check-transcript-guidance = Tandi ni ko do ködö tokitaju na pele ada

@@ -17,7 +17,7 @@ thank-you-for-your-information = Tinate' lelut ko tokoresi' kunök kune
 ## Gender dropdown
 
 male_masculine = Luwalet kode' gbiyari luwalet
-female_feminine = { "" }
+female_feminine = gutu narakwan
 intersex = ŋutu' geleŋ gboŋko gbiyarijin murek
 transgender = gbiyari logoŋ nyöbulö titima ko lu a luwalet kode' a nanakwan
 non-binary = 'Ba murek murek

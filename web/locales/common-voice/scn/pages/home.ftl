@@ -49,7 +49,7 @@ email-subscription-title-new = Scrìviti ê littri di nfurmazzioni di Common Voi
 ## Account Benefits
 
 benefits = Binifici
-rich-data = Fai cchiù ricchi pussìbbili i dati chi manni dànnuni quarchi nfurmazzioni dimugràfica anònima. Sti nfurmazzioni sarannu cancillati prima di pubblicari i dati.
+rich-data = Fai cchiù ricchi pussìbbili i dati chi manni dànnuni quarchi nfurmazzioni dimugràfica anònima. Sti nfurmazzioni sarannu scancillati prima di pubblicari i dati.
 improve-audio = I nfurmazzioni dû prufilu fannu crìsciri a qualità dî dati usati e a pricisioni dû ricanuscimentu vucali.
 keep-track = Teni trazza dî to prugressi e statìstichi nnê lingui unni cullàbburi.
 compare-progress = Vidi comu è u to prugressu 'n cunfruntu all'autri cullabburatura 'n tuttu u munnu.
