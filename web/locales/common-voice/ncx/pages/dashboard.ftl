@@ -116,6 +116,27 @@ activity-needed-calculation-plural =
 how-many-per-day = ¡Kuali! ¿Kanachi ik se tonal?
 how-many-a-week = ¡Kuali! ¿Kanachi chijchikome?
 which-goal-type = ¿Tikneki Titlajtos, Titlakakis noso nochi?
+receiving-emails-info =
+    Axkan otikijto uelis mitstlajkuililiskej itech mocorreo tlen mitspoloa tikajxitis, 
+    tlen yotikajxiti uan tlen yikin omochi itech Common Voice
+not-receiving-emails-info =
+    Axkan otikijto <bold>AMO</bold> uelis mitstlajkuililiskej itech mocorreo tlen mitspoloa tikajxitis,
+    tlen yotikajxiti uan tlen yikin omochi itech Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] tlajtoli
+       *[other] tlajtolmej
+    }
+help-share-goal = Techpaleui matikinmajsikan oksekimej non techpaleuiskej, xiktematilti tlen yotikchi
+confirm-goal = Xiktlali tlen tikajxitisneki
+goal-interval-weekly = Chijchikome
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Xiktematilti { $count } tlen Axkan Tikajxitis itech { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Xiktematilti { $count } tlen Chijchikome Tikajxitis itech { $type }
+share-goal-type-speak = Titlajtojtok
+share-goal-type-listen = Titlakaktok
+share-goal-type-both = Titlajtojtok uan titlakaktok
 
 ## Goals
 
