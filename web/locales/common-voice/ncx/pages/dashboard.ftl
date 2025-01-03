@@ -137,6 +137,29 @@ share-n-weekly-contribution-goal = Xiktematilti { $count } tlen Chijchikome Tika
 share-goal-type-speak = Titlajtojtok
 share-goal-type-listen = Titlakaktok
 share-goal-type-both = Titlajtojtok uan titlakaktok
+# LINK will be replaced with the current URL
+goal-share-text = Yonikijto nitlapaleuis ika notlajtol itech #CommonVoice -- nouan xitlapaleui teposmej makimatikan kenijki melauak titlajtoaj { $link }
+weekly-goal-created = Yotiktlali tlen chijchikome tikajxitisneki
+daily-goal-created = Yotiktlali tlen mojmostla tikajxitisneki
+track-progress = Xikita kanachi yotikchi, kenijki uan kemanian nikan.
+return-to-edit-goal = Nikan ximokopa tla tikpatlasneki tlen tikajxitisneki.
+share-goal = Xiktematilti tlen nikchiuasneki
 
 ## Goals
 
+streaks = Kanachi nikchijtok
+days =
+    { $count ->
+        [one] tonali
+       *[other] tonalmej
+    }
+recordings =
+    { $count ->
+        [one] tlajtoli
+       *[other] tlajtolmej
+    }
+validations =
+    { $count ->
+        [one] otikmotili
+       *[other] otikinmotili
+    }
