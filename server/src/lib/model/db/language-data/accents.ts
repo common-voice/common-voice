@@ -180,4 +180,119 @@ export const ACCENTS: Accent[] = [
     accent_name: 'Джылэхъстэней (Gilahsteney)',
     accent_token: 'terek',
   },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：其他',
+    accent_token: 'other_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：基隆市',
+    accent_token: 'keelung_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：臺北市',
+    accent_token: 'taipei_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：新北市',
+    accent_token: 'new_taipei_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：桃園市',
+    accent_token: 'taoyuan_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：新竹縣',
+    accent_token: 'hsinchu_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：新竹市',
+    accent_token: 'hsinchu_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：苗栗縣',
+    accent_token: 'miaoli_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：臺中市',
+    accent_token: 'taichung_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：彰化縣',
+    accent_token: 'changhua_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：南投縣',
+    accent_token: 'nantou_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：雲林縣',
+    accent_token: 'yunlin_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：嘉義縣',
+    accent_token: 'chiayi_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：嘉義市',
+    accent_token: 'chiayi_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：臺南市',
+    accent_token: 'tainan_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：高雄市',
+    accent_token: 'kaohsiung_city',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：屏東縣',
+    accent_token: 'pingtung_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：宜蘭縣',
+    accent_token: 'yilan_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：花蓮縣',
+    accent_token: 'hualien_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：臺東縣',
+    accent_token: 'taitung_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：澎湖縣',
+    accent_token: 'penghu_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：金門縣',
+    accent_token: 'kinmen_county',
+  },
+  {
+    locale_name: 'nan-tw',
+    accent_name: '出生地：連江縣',
+    accent_token: 'lienchiang_county',
+  },
 ]
