@@ -102,6 +102,7 @@ contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
 contribution-misreadings-title = Хониши нодуруст
 contribution-misreadings-description-extended-list-5 = Истифодаи якчанд кӯшиш барои хондани калима.
+contribution-misreadings-example-2-explanation = [Бояд «динозаврҳо» бошад]
 contribution-misreadings-example-3-explanation = [Сабт пеш аз анҷоми калимаи охирин қатъ карда мешавад]
 contribution-misreadings-example-6-explanation = [Бояд «Мо ҳастем» бошад]
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
