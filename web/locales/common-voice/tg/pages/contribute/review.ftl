@@ -32,5 +32,7 @@ sc-criteria-modal = ⓘ Меъёрҳои бознигарӣ
 sc-criteria-title = Меъёрҳои бознигарӣ
 sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ дуруст бошад.
 report-sc-different-language = Забони дигар
+sentences-fetch-error = Ҳангоми гирифтани ҷумлаҳо хато ба миён омад
+review-error = Ҳангоми баррасии ин ҷумла хато ба миён омад
 # menu item
 review-sentences = Баррасии ҷумлаҳо

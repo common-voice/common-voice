@@ -35,6 +35,7 @@ add-information-button = Илова кардани маълумот
 continue-speaking-button = Не, ташаккур, суханро идома диҳед
 thanks-for-voice-toast = Ташаккур барои маълумоти овозии шумо
 first-cta-gender-select-default-option = Имконеро интихоб намоед
+already-have-an-account = Аллакай ҳисобе доред? <login>Ворид шавед</login>
 create-profile-button = Эҷод кардани профил
 # menu item
 read-sentences = Хондани ҷумлаҳо
