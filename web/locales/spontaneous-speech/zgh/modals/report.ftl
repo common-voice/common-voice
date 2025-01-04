@@ -1,7 +1,9 @@
 ## Report Modal
 
 report-modal-title = ⴰⵣⵏ ⵜⴰⵎⵓⵍⵉ
+report-modal-subtitle = ⵎⴰⵏ ⵉⵎⵓⴽⵔⵉⵙⵏ ⴰⴷ ⵜⵓⴼⵉⴷ ⴰⴽⴷ ⵜⵓⵎⴰⵢⵜ ⴰ?
 offensive_speech = ⴳⴰⵔ ⵜⵓⵎⴰⵢⵜ
+offensive_speech-detail = ⵜⵓⵎⴰⵢⵜ ⴳⵉⵙ ⴰⵡⴰⵍ ⵎⴽⴽⵙ-ⴰⵣⵔⴰⴽ ⵏⵉⵖ ⵜⵉⵔⴳⴳⴰⵎ.
 different_language = ⵜⵓⵜⵍⴰⵢⵜ ⵉⵎⵣⴰⵔⴰⵢⵏ
 # Label for textarea in report modal
 other = ⵡⴰⵢⵢⴰⴹ
