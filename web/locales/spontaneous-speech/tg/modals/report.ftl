@@ -1,5 +1,6 @@
 ## Report Modal
 
+report-modal-title = Гузориш додан
 different_language = Забони дигар
 report-other-comment =
     .placeholder = Шарҳ

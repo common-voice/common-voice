@@ -7,7 +7,10 @@ stats = Омор
 awards = Мукофот
 you = Шумо
 everyone = Ҳар як кас
+top-contributors = Саҳмгузорони беҳтарин
 recorded-clips = Овозҳои сабтшуда
+total-approved = Ҳамагӣ тасдиқ карда шудааст
+overall-accuracy = Аниқии умумӣ
 
 ## Custom Goals
 
@@ -18,6 +21,11 @@ average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
 set-a-goal = Ҳадаф гузоштан
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] сабт
+       *[other] сабт
+    }
 confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
 return-to-edit-goal = Барои таҳрир кардани ҳадафи худ ҳар вақт ба ин ҷо баргардед.
