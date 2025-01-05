@@ -54,6 +54,8 @@ Many language communities are self organising and have their contact channels on
   * [Discourse](https://discourse.mozilla.org/c/voice/sw/603)
 * Korean (`ko`):
   * [Telegram](https://t.me/cv_korean)
+* Persian (`fa`):
+  * [Telegram](https://t.me/Common_Voice)
 * Traditional Chinese (Mandarin) (`zh-TW`) & Taiwanese (`nan-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
   * [Telegram](https://t.me/moztwcv)
