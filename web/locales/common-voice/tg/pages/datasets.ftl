@@ -12,6 +12,7 @@ size-megabyte = МБ
 download-language = Боргирӣ кардани { $language }
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
+whats-inside = Маҷмуи маълумоти «Common Voice» чиро дар бар мегирад?
 subscribe = Обуна шудан
 # This indicates that there is no data to display
 no-information = Маълумот нест

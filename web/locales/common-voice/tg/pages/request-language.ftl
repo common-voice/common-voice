@@ -5,3 +5,4 @@ request-language-form-email =
 request-language-form-info =
     .label = Маълумот дар бораи забон
 request-language-form-info-explanation-list-1 = Номҳои забони шумо
+request-language-form-info-explanation-list-2 = <isoCodeLink>Рамзҳои «ISO»</isoCodeLink>, агар маълум бошад

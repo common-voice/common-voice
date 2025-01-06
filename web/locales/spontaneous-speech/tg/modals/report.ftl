@@ -1,6 +1,7 @@
 ## Report Modal
 
 report-modal-title = Гузориш додан
+offensive_speech = Мазмуни таҳқиромез
 different_language = Забони дигар
 report-other-comment =
     .placeholder = Шарҳ

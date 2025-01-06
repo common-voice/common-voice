@@ -38,6 +38,11 @@ share-goal = Ҳадафи маро мубодила кунед
 
 ## Goals
 
+days =
+    { $count ->
+        [one] рӯз
+       *[other] рӯз
+    }
 recordings =
     { $count ->
         [one] сабт
