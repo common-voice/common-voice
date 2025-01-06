@@ -47,6 +47,7 @@ about-playbook-how-add-language = Чӣ тавр ман забонро илова
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Дастури моро дар бораи тарзи истифодаи «Pontoon» тамошо кунед.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Маълумоти бештар дар бораи ҷамъоварии ҷумлаҳо</sentenceCollectorFragment>.
 
 ## How does localization work
 
