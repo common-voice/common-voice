@@ -19,12 +19,14 @@ subscribe = Обуна шудан
 other-datasets = Маҷмуи маълумоти овозии дигар
 # This indicates that there is no data to display
 no-information = Маълумот нест
+data-other-ted-name = Маҷмуи «TED-LIUM»
 go-discourse = Гузариш ба «Discourse»
 go-languages-page = Гузариш ба саҳифаи забонҳо
 more = Бештар
 close = Пӯшидан
 download = Боргирӣ кардан
 dataset-version = Силсила
+clipboard-not-supported = Ҳофизаи муваққатӣ дастгирӣ намешавад
 no-information-available = Ягон маълумот дастрас нест
 dataset-metadata-sex = Ҷинс
 # dataset metadata - age of contributor

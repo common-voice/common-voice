@@ -25,6 +25,7 @@ required-field = Лутфан, ин майдонро пур кунед.
 single-sentence-submission = Пешниҳоди як ҷумла
 single-sentence = Як ҷумла
 sentence-domain-combobox-label = Манбаи ҷумлаҳо
+sentence-domain-select-placeholder = То се манбаъ интихоб кунед (ихтиёрӣ)
 # Sentence Domain dropdown option
 agriculture_food = Кишоварзӣ ва озуқаворӣ
 # Sentence Domain dropdown option
