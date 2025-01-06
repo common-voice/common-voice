@@ -59,6 +59,7 @@ about-playbook-how-localize-content-5 = Барои кумак видеои ша�
 ## How to add sentences
 
 about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро илова намоям?
+about-playbook-how-add-sentences-content-1 = Шумо метавонед ҷумлаҳоро дар <writePageLink>саҳифаи «Навиштан»</writePageLink> илова кунед ё метавонед ҷумлаҳоро дар <reviewPageLink>саҳифаи «Бознигарӣ»</reviewPageLink> баррасӣ намоед.
 
 ## How to record quality
 
@@ -75,6 +76,8 @@ about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 ## How to validate
 
+about-playbook-how-validate = Чӣ тавр муайян кунам, ки метавонам сабти овозиро тасдиқ кунам ё рад намоям?
+about-playbook-how-validate-content-1 = Агар шумо тавонед <strong>онҳоро шунавед</strong> ва <strong>фаҳмед</strong>, одатан, <strong>беҳтар аст, ки онҳоро тасдиқ намоед</strong>.
 
 ## How to access dataset
 
