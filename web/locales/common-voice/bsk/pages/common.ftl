@@ -288,6 +288,8 @@ not-available-abbreviation = bes ke be
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = maa mirin ce duunas mimar awaaji bila
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = gute duruwaṭe taqriiban yoolulo hik million dollare nićiyen amulo dataset host meybila daa tha cum baske baaṣiṅe sise mimate baroosa ećaan. Une ke gokeer value ićhićaan ke maymo baaṣ e data meer emasin
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = maymo research mesase gane maymo CV khole doocin
 languages-donate-banner-cta-explanation = donation ke grants ate gute common voice e duro gucharćila. mii academic, civil society daa industry researchers kaa numaa duro ećabaa. Common voice istimaalar free bila leykin platform and hosting qeymit gane grant proposals but madagar bican.

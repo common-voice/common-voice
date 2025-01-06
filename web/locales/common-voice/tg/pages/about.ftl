@@ -47,6 +47,7 @@ about-playbook-how-add-language = Чӣ тавр ман забонро илова
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Дастури моро дар бораи тарзи истифодаи «Pontoon» тамошо кунед.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Маълумоти бештар дар бораи ҷамъоварии ҷумлаҳо</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -58,6 +59,7 @@ about-playbook-how-localize-content-5 = Барои кумак видеои ша�
 ## How to add sentences
 
 about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро илова намоям?
+about-playbook-how-add-sentences-content-1 = Шумо метавонед ҷумлаҳоро дар <writePageLink>саҳифаи «Навиштан»</writePageLink> илова кунед ё метавонед ҷумлаҳоро дар <reviewPageLink>саҳифаи «Бознигарӣ»</reviewPageLink> баррасӣ намоед.
 
 ## How to record quality
 
@@ -74,9 +76,12 @@ about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 ## How to validate
 
+about-playbook-how-validate = Чӣ тавр муайян кунам, ки метавонам сабти овозиро тасдиқ кунам ё рад намоям?
+about-playbook-how-validate-content-1 = Агар шумо тавонед <strong>онҳоро шунавед</strong> ва <strong>фаҳмед</strong>, одатан, <strong>беҳтар аст, ки онҳоро тасдиқ намоед</strong>.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Чӣ тавр метавонам ба маҷмуи маълумот дастрасӣ пайдо кунам ва аз он истифода барам?
 about-playbook-how-access-dataset-content-1 = Шумо метавонед ба саҳифаи <datasetsPage>маҷмуи маълумотҳо</datasetsPage> ворид шавед, версия ва забон(ҳо)и дилхоҳатонро интихоб кунед ва онро боргирӣ намоед! Файлҳо дорои <metadataLink>мета-маълумоти алоқаманд</metadataLink> мебошанд, ба монанди маълумоти демографӣ ва маълумоти санҷиши эътибор. Барои боргирӣ кардани маҷмуи маълумот шумо бояд нишонии почтаи электрониро таъмин намоед.
 
 ## How are decisions made
@@ -87,6 +92,7 @@ about-playbook-how-project-governance-content-3 = Махфият, амният �
 about-playbook-how-project-governance-content-4 = Иштироки ҷомеа ва қабули қарорҳо.
 about-playbook-how-project-governance-content-5 = Арзиш ва эътироф.
 about-playbook-how-project-governance-content-6 = Масъулияти тарафайн.
+about-playbook-how-project-governance-content-7 = <governanceLink>Маълумоти бештар дар бораи сохтори идоракунии мо</governanceLink>
 
 ## How is Common Voice funded
 
