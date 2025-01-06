@@ -2,6 +2,8 @@
 
 # Toast message that is displayed when an error occurs
 error = Хато
+action-click = Зер кардан
+action-tap = Зарба задан
 # Label for language switcher
 interface-language = Забони интерфейс:
 # Label for button on contribution switcher

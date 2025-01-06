@@ -14,6 +14,7 @@ new-sentence-rule-2 = Камтар аз 15 калима дар як ҷумла
 new-sentence-rule-3 = Грамматикаи дурустро истифода баред
 new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои китобати дурустро истифода баред
 new-sentence-rule-5 = Бе рақамҳо ва аломатҳои махсус
+login-instruction-multiple-sentences = Барои илова кардани зиёда аз як ҷумла, лутфан, <loginLink>ворид шавед</loginLink> ё <loginLink>ҳисобро ба қайд гиред</loginLink>
 how-to-cite = Чӣ тавр ман иқтибос меорам?
 guidelines = Дастурҳо
 contact-us = Тамос бо мо
