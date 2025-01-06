@@ -23,6 +23,7 @@ contact-common-voice = Бо дастаи «Common Voice» дар тамос ша
 public-domain = Сарвати ҷамъиятӣ
 adding-sentences = Илова кардани ҷумлаҳо
 reviewing-sentences = Баррасии ҷумлаҳо
+sentence-domain = Манбаи ҷумлаҳо
 citing-sentences-subheader-websites = Сомонаҳо
 citation =
     .label = Иқтибос

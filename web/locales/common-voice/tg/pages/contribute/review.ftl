@@ -2,6 +2,7 @@
 
 sc-review-title = Баррасии ҷумлаҳо
 sc-review-loading = Ҷумлаҳо бор шуда истодаанд…
+sc-review-select-language = Лутфан, барои баррасӣ кардани ҷумлаҳо забонеро интихоб намоед.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Манбаъ: { $sentenceSource }
