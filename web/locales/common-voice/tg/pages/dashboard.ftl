@@ -9,8 +9,10 @@ you = Шумо
 everyone = Ҳар як кас
 top-contributors = Саҳмгузорони беҳтарин
 recorded-clips = Овозҳои сабтшуда
+validated-clips = Сабтҳои тасдиқшуда
 total-approved = Ҳамагӣ тасдиқ карда шудааст
 overall-accuracy = Аниқии умумӣ
+set-visibility = Танзими намоёнии ман
 
 ## Custom Goals
 
@@ -21,6 +23,9 @@ average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
 set-a-goal = Ҳадаф гузоштан
+cant-decide = Қарор карда наметавонед?
+how-many-per-day = Олиҷаноб! Дар як рӯз чанд сабт?
+how-many-a-week = Олиҷаноб! Дар як ҳафта чанд сабт?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] сабт

@@ -21,9 +21,11 @@ more = Бештар
 close = Пӯшидан
 download = Боргирӣ кардан
 dataset-version = Силсила
+no-information-available = Ягон маълумот дастрас нест
 dataset-metadata-sex = Ҷинс
 # dataset metadata - age of contributor
 dataset-metadata-age = Синну сол
+donate-modal-message = Маҷмуи маълумоти шумо боргирӣ шуда истодааст!
 dataset-donate-modal-heading = Шумо медонед, ки…
 data-download-button = Маълумоти «Common Voice»-ро боргирӣ кунед
 data-download-yes = Ҳа
@@ -31,6 +33,7 @@ data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
 data-download-modal = Шумо боргирии <size>{ $size } ГБ</size>-ро оғоз карданӣ ҳастед, идома медиҳед?
 data-subtitle = Мо маҷмуаи маълумоти овозҳои кушода ва дастрасро эҷод карда истодаем, ки ҳар як кас метавонад онро барои омӯзиши барномаҳо бо фаъолияти нyтқ истифода барад.
+data-other-title = Маҷмуи маълумоти овозии дигар…
 data-other-goto = Ба { $name } гузаред
 data-other-download = Маълумотро боргирӣ кунед
 data-bundle-button = Бастаи маълумотро боргирӣ кунед
@@ -38,3 +41,5 @@ release-version = Силсила
 dataset-date = Сана
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 license-mixed = Омехта
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Маҷмуи маълумоти овозии моро боргирӣ кунед
