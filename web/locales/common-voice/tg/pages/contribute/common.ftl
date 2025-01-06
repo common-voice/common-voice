@@ -108,6 +108,7 @@ contribution-misreadings-example-2-explanation = [Бояд «динозаврҳ�
 contribution-misreadings-example-3-title = Динозаврҳои азими давраи Триассӣ-.
 contribution-misreadings-example-3-explanation = [Сабт пеш аз анҷоми калимаи охирин қатъ карда мешавад]
 contribution-misreadings-example-4-title = Динозаврҳои азими давраи Триассӣ. Бале.
+contribution-misreadings-example-4-explanation = [Аз матни зарурӣ бештар сабт шудааст]
 contribution-misreadings-example-5-title = Мо барои гирифтани қаҳва берун меравем.
 contribution-misreadings-example-6-title = Мо барои гирифтани қаҳва берун меравем.
 contribution-misreadings-example-6-explanation = [Бояд «Мо ҳастем» бошад]
