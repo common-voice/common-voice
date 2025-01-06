@@ -43,3 +43,5 @@ license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 license-mixed = Омехта
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Маҷмуи маълумоти овозии моро боргирӣ кунед
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Имконоти боргирӣ барои пайдо кардани дастрасӣ ба маълумоти «Common Voice»
