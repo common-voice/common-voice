@@ -1,0 +1,92 @@
+## Datasets Page
+
+datasets-heading = d̃at̃aset̃s (datasets)
+datasets-headline = Sakes̃h yi opan sors gon, har qismẽ owozvẽ  d̃at̃aset̃ kumdẽb ki spich aplikashanvẽ tẽrtib rẽdhor istimol carẽn
+datasets-positioning = Sakri ũmidh ki dẽ owomẽ dhat ghafch owozvẽ d̃at̃aset̃ sẽk mashin dishneb k̃henakẽ t̃eknoloji s̃heg̃hd woz sihatmand korẽborẽ mẽqobila tẽr pẽrũt yund.kommon Voysẽ qismqismẽ d̃ataset̃i tẽrmisẽkẽn owomẽ s̃hik̃h cẽ kũk̃htẽn lop owozẽ d̃at̃a set̃ mawjud. hayem wẽraqi digar open zẽryavẽri bẽheysiyati hawola tey, Kommon Voyses̃h musalsal, spo toza ishatvẽ zẽrya
+language = zik
+download-dataset-header = D̃at̃a setẽ D̃ownlowd̃
+download-delta-explainer = Sakẽ z̃aq badalẽv k̃hetk, D̃elt̃a  sirf haya tẽbqaẽ clipvẽ cẽ pardin durze kumdvẽv ki s̃heg̃ht pẽjẽhon k̃htk <deltaLink>hayem yarkẽ barar caq woz joy</deltaLink>
+download-dataset-tag = Zẽrũratẽ zikẽ yewẽr  k̃hẽ haya varzhanẽ durz kumdes̃h ki tu d̃awlowdẽ zoq car
+# File size in gigabytes
+size = Qolib
+validated-hr-total = Kũl tasdiq k̃het Hr
+overall-hr-total = Kul tasdiq k̃hetk Hr
+cv-license = laysenz
+audio-format = Od̃iuy Format̃
+dataset-splits = Taqsim (Umẽr jins)
+number-of-voices = Owozve tedod
+splits = Taqsimisht
+email-to-download = D̃ownlowd̃ẽ dẽstan k̃hũ mail kat̃
+why-email = <b>email chizẽr?</b> Datasetẽ tabdilẽ/ badalẽ destan sakrẽb rabitar emailẽ zẽrũrat wost, emailẽs̃h sakẽr rabitaẽ nis̃hunig̃h rand
+why-donate-datasets-page = Mozilla Kommon Voysi yi dẽnyo cẽ kũk̃htẽn lup mutanauw ijtimoẽ k̃hẽnakẽ het̃ D̃at̃aset̃ kumdẽs̃h ki sẽk ẽtya c̃het. Yemẽs̃h harsol taqriban yi "million" dollarẽ d̃at̃aset̃ woz 100+ zikvẽ jẽmoatẽs̃h tẽrpẽrũts̃h wuzumd koyishtẽs̃h ki sẽk spo yark qẽtyan. Tus̃h ki agar opẽn qadẽr caqrẽ car<b>wudhg ẽtya rnad!</b>
+confirm-size = Ti d̃awlowd̃ẽ shẽrũ k̃hakri tẽyor <b>{ $size }
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>tut rozi</b>sẽk kommon voyse k̃hẽnakẽkũzgve shẽnokhtẽ me s̃hkur
+confirm-join-mailing-list = Tus̃h dẽ Kommon Voysẽ emailẽ fẽrist shomil wocnẽ zoq
+download-language = D̃ownlowd̃
+validated-hours = soatvẽ towsiq
+recorded-hours = Rikord̃ẽ wakhtisht/ soatisht
+whats-inside = Dẽ Kommon Voysẽ d̃at̃aset̃ẽ desti chiz?
+dataset-description-hours = Dẽ d̃at̃asetẽs̃h har darjẽn yi alag MP3 woz yon k̃hũn matanẽ foyil wost. Dẽ d̃at̃aset rikord̃ k̃hetk ghafch soatẽ  <b>{ $total }</b>d̃mogrefik met̃a d̃at̃ayi bẽ shomil, yaniki, ũmẽr, jins, lehja kumdẽs̃h ki k̃henakẽ rikord̃ẽ drustẽgig̃hir mashinẽr medad wost. hanivi d̃at̃aset̃ sẽk<b>{ $valid }</b>mushtamil, zikẽ towsiqẽ soatẽs̃h <b>{ $languages }</b>,magam sakes̃h hamish ziyoda owozẽt zikẽ shomilẽn. spo zikẽ wẽraqẽ <languagesLink> yi loy tayin, zikẽ bobatẽn yoy shomil k̃hakẽr
+want-dataset-update = sakẽs̃h ki kommon voysẽ s̃heg̃hd d̃at̃asẽtẽ jori carẽn to yorẽs̃h apd̃et̃ dẽrkor wost, sasht spo khẽbarẽ khatẽ sabsẽkrayb carit
+subscribe = Sabsẽkrayb
+get-started-speech = K̃hẽnakẽ rikord̃ingẽ mes̃h shẽru
+other-datasets = digar owozẽ d̃at̃aset̃isht
+feedback-q = Chiz mashwẽryi teya?
+# This indicates that there is no data to display
+no-information = malũmoti nast
+resource-nemo-info = <githubLink>NVIDIA MeMo</githubLink>™ teyi yi<docsLink>het̃ zẽrya t̃ulkit̃</docsLink>jẽdidtẽrin qẽsa k̃hakẽ AI mod̃el tẽyor k̃hakẽkũzg mohqiqvẽ destan
+resource-deepspeech-info = Mozillaẽ ozodh khizmatẽ owoz dishnẽ engen 'Deep Speech'ẽs̃h qẽsa dishnẽr istimolẽ bas wezin. Spo <githubLink>joy, dẽrwozaẽ tayin<githubLink></githubLink>woz shomil woc<discourseLink>dẽ D̃eepspeech D̃iscourse</discourseLink>yem dishnẽr ki cẽr sokht shẽrun.
+resource-coqui-info = <coquiLink>Corqui</coquiLink>ozodh qẽsa dẽsta makhsus t̃eknoloji. hadem mansubavi medest yek̃hk wocner STT woz TTs enjenisht
+community-playbook = Jamoatẽ Playbook
+resource-playbook-info = Sẽk pẽtun Kommon V|odesẽfar <playbookLink>medadgor hidoyatẽ hosil</playbookLink>Ce lokẽlizashanẽn d̃at̃asetẽistimolẽ batk, hayaran dẽ po jamoaten cẽr sokht qẽti wocẽn
+data-other-librispeech-description = LibriSpeechi ẽndozan1000 soatẽ 16Khz English k̃hẽnake kumdev ki ce 'read audiobookẽn cẽ LibriVox project.
+data-other-ted-name = TED_LIUM Corpus
+data-other-ted-description = TED-LIUM korpas  audio qẽsav k̃hetũ woz yavẽ tẽrjumayi sek  TED website tey.
+data-other-voxforge-description = VoxForjẽv aska k̃hetu ki tẽrjũma qẽs̃vẽ naqle spo istimolẽr, muft woz opẽn sors k̃henakẽ recording dishne injen
+data-other-tatoeba-description = T̃et̃obayi jumlavẽ yi lup d̃at̃abes, terjuma, woz k̃hẽnetk aud̃iovẽn zik yek̃hk wocnẽ dẽstan. hadem d̃ownlowdi zik k̃hẽnakẽkũzgvẽ rikord̃isht.
+your-feedback = tus̃h disha ki Kommunit̃ Voys d̃at̃asetẽb cẽr sokht baf gon ? sakẽr sek D̃iscours k̃han
+go-discourse = Sẽk d̃iscous rec̃h
+missing-language = Cerg tus̃h tus̃h k̃hu zike akasiye (reflection) sek D̃at̃aset̃ wina? kumd zikẽ arzẽr sek spo zikve wẽraq rec̃h
+go-languages-page = Sẽk zikvẽ wẽraq rec̃h
+ready-to-validate = jũmlavẽ towsiqrẽt tiyora?
+more = z̃aq woz
+close = g̃hurt/ band
+download = D̃ownlowd̃
+dataset-version = vẽrzhan
+sha256-checksum-copied = SHA256 Checksum naqẽl!
+sha256-checksum-copied-error = Cheksum SHA256 naqlẽr nokom
+clipboard-not-supported = Klipbords̃h yat ne cart
+no-information-available = Chiz malumoti nast
+dataset-metadata-sex = jins
+# dataset metadata - age of contributor
+dataset-metadata-age = Ũmr
+donate-modal-message = Ti d̃at̃aset̃s̃h d̃onlowd̃ wost!
+dataset-donate-modal-heading = Cẽr tawẽ dishta…
+donate-modal-explanation-1 = D̃at̃aset̃ẽ mizbonig̃hrẽs̃h har sol million d̃ollarisht rec̃hẽn wozẽs̃h 100+ zikvẽ tẽr pẽrũt yundakẽr Jay/ plet̃form rand. yave dorumẽdor sek po yark
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>agar sashtẽs̃h ki het̃ shomil d̃ata qdrit- haniv atya randit!</bold>
+data-download-singleword-title = Wir harf T̃arget̃ Segment̃ẽ d̃ownlod̃it
+data-download-singleword-callout-v2 = yemi yi istimol kasẽ (use case) vit sagment̃ dẽmes̃h k̃hẽnakẽ hindisavẽ shenokhtẽn, yan / ney malũm wost
+data-download-button = Kommon Voyse d̃at̃a d̃ownlowd̃
+data-download-yes = yan
+data-download-deny = ney
+data-download-license = laysenz<licenseLink>CC-0</licenseLink>
+data-download-modal = tut yi d̃ownlowd̃ẽr tiyor <size>{ $size }GB</size>jori?
+data-subtitle = sakẽs̃h owozẽn yi het̃ woz yũrtẽr dastyob d̃at̃a sẽt gon, askas̃h koy bẽ ki cẽ k̃hẽnakẽ fayilẽ aplikashanẽ (aplicayion) tẽrbiyat rẽdho bas wezin.
+data-explanatory-text = sakri yaqin ki awomẽr dastyob lup d̃at̃aset̃ kumdi ki sẽk mashin dishẽn tey, yab dẽ k̃henakẽ t̃eknoloji jidat wũzimd woz sihatmand sẽwdogarig̃hẽ mẽqobila/ t̃akbozib tẽr pẽrũt wũzũmd. yemi pẽtũn dẽnyo kushish woz skẽs̃h kũkhtẽr dawat randen ki shomil wocẽn. spo maqsadi k̃henakẽ t̃eknolojiyẽ kũk̃htẽr k̃hak, akosi cart ki cẽ petũn dẽnyonẽv owosisht
+data-get-started = <speechBlogLink>k̃hẽnak rikord̃ing shẽru car</speechBlogLink>
+data-other-title = digar owozẽ d̃at̃sẽt…
+data-other-goto = rech pẽ{ $name }
+data-other-download = D̃at̃aẽ D̃ownlod̃
+data-bundle-button = D̃at̃aset̃ẽ khẽfchaẽ d̃ownlowd̃
+data-bundle-description = Kommon Voysẽ d̃at̃a woz sẽk sar dan qẽti digar  owosẽ d̃at̃aset̃vẽ.
+release-version = vẽrzhan
+dataset-date = D̃at̃a
+license = Laysenz:<licenseLink>{ $license }</licenseLink>
+license-mixed = Qẽti/ jẽrgit
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Spo owozẽ d̃at̃asẽtẽ d̃ownlowd̃
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Dẽ kommon vos g̃hẽtakẽr ikhtiyor/ zoqvẽ d̃ownlowd̃

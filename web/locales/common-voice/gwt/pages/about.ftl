@@ -75,24 +75,66 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ لوکلائزېشن کِروے ݪم کېرِمان؟
 about-playbook-how-localize-content-1 = کامن وائس سائٹَنہ ترجمہ<strong>پونٹون</strong>رتئ بِمان۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink> یَک اکاونٹ ݫُپا</pontoonAccountLink> کېنے زی مے مِنزی نہ تھنہ بہ گِری، تانُو باتِیَنہ انتخاب کېرِؤ<strong>(ٹیم)</strong> اؤ گِری پراجکٹَنہ انتخاب کېرِؤ،<pontoonCvLink>کامن وائس</pontoonCvLink>۔ ترجمہ کېرِکہ ݭڅی فائل نام تھِتہ ۔ یَکِیہ رتئ کِلک کېرِؤ، گِری اېمے انگریزِیہ الفاظ اؤ تسُونہ ترجمہ کېرِکہ ݭڅی یک باکس لېڑَمان۔
+about-playbook-how-localize-content-3 = ترجمہ انگرېزِیہ تھنہ، خو مے واری باتِیہ<strong>تجاوئز</strong> بالی بمانېؤ۔ <strong>پروفائل</strong>آئیکنَہ رتئ کِلک کېرِؤ، گِری <strong>ترتیبات</strong> لِنکہ رتئ کِلک کېرِؤ اؤ کرېک بی باتِیہ زی مے ژمانېوے تسہ لُبُسَؤ۔ پاتوئے داچِنی کھُٹیاکہ ترجمانی یَہ فرست تھِبہ تساں <strong>لوکلز</strong> ژمېت۔ ترجمہ یَک باگَئے پت سائٹہ لېڑان دِنېت۔
+about-playbook-how-localize-content-4 = سائٹ 75 فیصد فورہ بِک مِز فېدِکے پت لانچ بِکہ ݭڅی تیار تھنی۔
+about-playbook-how-localize-content-5 = مددَہ ݭڅی امَنی وېڈیؤ وضاحت کېرِݪی تھنی بالِؤ۔
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = آں کلاوَہ کِرَوے لُبُسامہ؟
+about-playbook-how-add-sentences-content-1 = مے<writePageLink>صفحہ لِکِؤ</writePageLink> یا رتئ کلاوَہ لُبُسَئ بمانېؤ<reviewPageLink>  جائزہ صفحہ</reviewPageLink>رتئ کلاوَنہ جائزہ گوئی بمانېؤ۔
+about-playbook-how-add-sentences-content-2 = کامن وائسہ لُبُسِکہ ݭڅی کلاوَنہ جائزہ گوواوَہ اؤ دُو زَنَنہ قبُول کېراوَہ پکار تھنہ۔ مے تانُو باتِیہ ݭڅی راہنما اصول ݫُپَمانېؤ<languageGuidelinesLink>اِتے</languageGuidelinesLink>۔ کلاؤ <licenseLink> عوامی ڈومېن</licenseLink> تران اؤ 15 الفاظہ پېنہ پولہ بِیَنہ تھنَئیت۔ مے ٹکسٹَنہ مالکہ پېنہ <waiverLink> امَنہ آزادِیَنہ عملَہ استعمال کېرِمېن CC0 ݫُپَئیکہ ݭڅی ژَئی بَمانېؤ</waiverLink>۔ اؤ اماںcommonvoice@mozilla.com رتئ ݪِݭَئ بَمانېؤ۔
+about-playbook-how-add-sentences-content-3 = مے وِکی پېڈیا نہ کھٹَنی کلاوَنہ فائدہ گوئیکہ ݭڅی <scraperLink>Sentence extractor</scraperLink> استعمال کېرِی بَمانېؤ۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = آں بئ کھنٹَنی کِلپہ کِرَوے ریکاڈ کېرېمہ؟
+about-playbook-how-record-content-1 = تانُو عام کھنٹے باتی کېرِؤ! مېنی باتِیَنہ طرېقہ اِتے بئ زانان دِمان۔ امہ مېنہ لہجا تېن رَوَنہ می کوڅِمېک زی تھنَئے، اؤ امہ مېنہ معمول، انداز اؤ لہجا کوڅِمېک۔
+about-playbook-how-record-content-2 = لَؤ زیات پتہ بَکَنی شورہ پېنہ فُک ساتِؤ۔ اسہ ݭُنڈاوَہ میاں ہانسان بِیَنہ تھنہ۔
+about-playbook-how-record-content-3 = کلاوَہ غورے ژَؤ۔ مہ ووڑِؤ، بدل کېرِؤ یا الفاظ مہ لُبُسَؤ۔
+about-playbook-how-record-content-4 = اسہ باتِیہ یقینی ݫُپَؤ زی مے باتی شروع کېرِکہ پېنہ پُدَمہ پلېٹ فارم ریکاڈ کېرِمانېؤ، اؤ ووئی زی ووئی صرف مېنہ خلاص بِکے پت وُٹ بِمان،
+about-playbook-how-record-content-5 = <accuracyLink> سئ کېرِکَنہ معیارہ واری بی بالِؤ۔ </accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = امہ کامن وائسہ رتی بئ رَوے باتِیہ کِرَوے ژَوَئی بَمېک؟
+about-playbook-how-grow-language-content-1 = کامن وائسہ خلَکَنی رنگارنگِیہ ݭڅی موقع نام پیدا کېراوا یقینی ݫُپَنہ تھنہ زی ڈیٹا سیٹ زیات نہ زیات خلَکَنی خِسمت کېرِمان۔ امَئ وسائل اؤ ٹېمپلېٹس ݫُپئیتُوَہ تسُو مے استعمال کېری بَمانېؤ!
+about-playbook-how-grow-language-content-2 = واقعات
+about-playbook-how-grow-language-content-3 = مے خلَکَنی مددہ ݭڅی ایونٹس چلَئ بَمانېؤ۔ ووئی مېنی گُمانے لؤ ہانسان تھنہ۔ مے اسہ آن لائن وېڈیو کانفرنسنگ ٹولَہ مِنزی یا تانُو روے کېری بَمانېؤ کېنے زی ووئی خُندی تھنہ بہ۔<eventTemplate> واقعاتہ چلَئیکہ ݭڅی امَنی ٹېمپلیٹس اؤ وسائلہ چیک کېرِؤ</eventTemplate>۔
+about-playbook-how-grow-language-content-4 = سوشل مېڈیا
+about-playbook-how-grow-language-content-5 = مے پېغام فېدَئیکہ ݭڅی سوشل مېڈیا پلېٹ فارم استعمال کېری بَمانېؤ۔ اِشِلی پوسٹسَنہ اشتراک کېرِؤ زی اسہ باتِیَنی وضاحت کېرِیَؤ زی ووئی کیاں اہم تھنہ، اؤ باتِیَنہ حقوق، کھنٹ AI، یا ٹېکہ تعصبہ پېرُودہ مسائلَنہ بارا باتی کېرِݪہ واری خلَکہ مِنزی رابطہ کېرِؤ۔ <campaignLink>سماجی مہم چلَئکَنہ بارا واری مشورہ بالِؤ، شامل تېمے مواد زی مے دُبُڑہ استعمال کېری بَمانېؤ</campaignLink>۔
+about-playbook-how-grow-language-content-6 = شراکت داری اؤ نیٹ ورک
+about-playbook-how-grow-language-content-7 = واری تسُو کوڅِؤ زی کی پروا کېرِمېت۔ اېمے یونیورسٹی نام، باتِیَنہ اِسکول، وکالَتَنی گروپ یا ڈیٹا سائنس برادری نام بِمېت۔ مِزان فېدِؤ اؤ اخکارہ روے وضاحت کېرِؤ زی تېمے کِرَوے مدد کېری بمېت اؤ کېناں۔ <outreachTemplates>امَنی ٹېمپلٹ آوٹ رینج ای میلز</outreachTemplates>بالِؤ۔
+about-playbook-how-grow-language-content-8 = <strong>تخلیقی ݫُپِؤ!</strong>مېنی باتِیَنی برادری منفرد تھِبہ، اؤ اسہ شروع کېرِکَنہ یَکَتہ طرېقہ تھنَئیت۔
 
 ## How to validate
 
+about-playbook-how-validate = آں کِرَوے پیانی بمېم زی صوتی کِلپہ منظور کېرَنہ تھنہ خو نئ؟
+about-playbook-how-validate-content-1 = کېنے زی مے <strong> اسُو ݭُنڈی بَمانېؤ بہ </strong> اؤ<strong>پرُوزی بَمانېؤ بہ</strong>،جو عام طورے<strong> منظوری ݪِیاوَہ بئ تھنہ</strong>۔
+about-playbook-how-validate-content-2 = <strong>اِشِلہ کِلپسہ رد مہ کېرِؤ زی کېنے باتی کېرِݪانہ لہجہ مېنہ تانُوَہ پېنہ بېل تھِبہ</strong>۔ ووئی باتِیہ پیانِکہ ݭڅی ضروری تھنہ زی ہر یَکِیہ ݭڅی بئ ݪم کېرِبہ۔
+about-playbook-how-validate-content-3 = کېنے زی میاں زانان دِمان بہ زی تلفظ اسہ <strong>پروزِک ناممکن </strong> ݫپَنہ تھنہ، یا تېنے <strong>لؤ زیات پتَبَکَنی شور</strong>تھنی، یا <strong> واری خلک بی باتی کېرِمېت</strong>، جو میاں کی کِلپہ رد کېراوَہ پکار تھنہ۔</accuracyLink> امَنہ سئ کېرِکَنہ معیارَہ واری معلومات بالِؤ</accuracyLink>۔
+about-playbook-how-validate-content-4 = کېنے زی کرېک کِلپہ دو زن رد کېرِمېت بہ جو تسہ ڈیٹا سیٹَنہ مختلف پاتاپی سیٹہ جاری کېران دِمان۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = آں ڈیٹا سیٹاں کی روے فیدِمہ اؤ استعمال کېرېمہ؟
+about-playbook-how-access-dataset-content-1 = مے<datasetsPage> ڈیٹا سیٹ صفحا</datasetsPage>نہ  رتاں دی بَمېس، تانُو اختیارَنہ ورژن اؤ باتی نامہ منتخب کېری بَمېس، اؤ تسہ ڈاون لوڈ کېری بمېس! فائلے فار <metadataLink>ٹکَڅِسنت میٹا ڈیٹا</metadataLink> بِمان، شِلی زی آبادیاتی معلومات اؤ تصدیقَنہ ڈیٹا۔ ڈیٹا سیٹہ ڈاون لوڈ کېرِکہ ݭڅی مېنہ یَک ای مېل پتہ ݪِیَنہ بِبہ۔
+about-playbook-how-access-dataset-content-2 = کېنے زی مے اے ایس آر ماڈلز ݫُپَئیکہ ݭڅی ٹول کوچِمانېوے جو مے برادرِیَنہ واری خلَکہ پېنہ<discourseLink>ڈسکورسہ رتئ </discourseLink>رابطہ کېری بَمانېؤ۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبانہ فیصلہ کِرَوے کېران دِمېت؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائسَنہ فُورہ دُنیا نہ ایکٹِوِسٹس، ماہر لِسانیات، ڈیٹا سائنس دان، ماہرین تعلیم اؤ سافٹ وئیر انجینېراننی قسماقسم برادرِیَنہ ممکن ݫُپَنہ تھنہ۔ ووئی پراجکٹ موزیلا فاؤنڈېشَننی  انتظامَنہ پاتوئے تھنہ۔
+about-playbook-how-project-governance-content-2 = امَنی بابائییَنی بُنیاد اسُو تھُن نامہ رتئ تھنَئیت:
+about-playbook-how-project-governance-content-3 = راز داری، حفاظت اؤ شفافیت،
+about-playbook-how-project-governance-content-4 = برادرِیَنی شرکت اؤ فیصلہ ݫُپاوَہ۔
+about-playbook-how-project-governance-content-5 = قدر اؤ پیاناوَہ۔
+about-playbook-how-project-governance-content-6 = تانُو منزَنہ احتساب۔
+about-playbook-how-project-governance-content-7 = <governanceLink>اِتے نہ بارا واری بی ژَؤ زی امہ کِرَوے حکومت کېرِمېک</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائسَہ نی مالی مدد کِرَوے کېران دِمان؟
+about-playbook-how-funded-content-1 = کامن وائس موزِیلا فاونڈېشَنَنہ یَک پراجکٹ تھنہ، زیUS 501c3 تھنہ۔ اسہ پراجکٹہ فلیالن فُورہ طورے <philantropicGrantLink>مخیر حضراتَنی گرانٹ</philantropicGrantLink>، اؤ سپُورہ دُنیا نہ خلَکَنی عطیاتَنہ ذریعہ ئے مالی مدد کېران دِمان۔
+about-playbook-how-funded-content-2 = ڈیٹاسیٹسَنہ مسلسل بارِمہ څیار اؤ رِلیز کېراوَہ، پلېٹ فارَمہ لؤ بئ ݫُپَئکَنی اؤ <africaMradiLink> کمیونٹی پروگرام نام </africaMradiLink> چلَمېنے لؤ زیات دولت لگِمان۔
+about-playbook-how-funded-content-3 = کېنے زی مے یا مېنی تنظیم اِتے پراجیکٹہ دُبُڑہ حصہ تلَئیکاں ݭېنݭ کېرِمان بہ جو مے یک<donateLink> عطیہ</donateLink> ݪی بَمانېؤ یا<emailFragment>commonvoice@mozilla.com</emailFragment> رتئ امَنی پارٹنر شپ ٹیمہ مِنزی رابطہ کېری بَمانېؤ۔

@@ -12,13 +12,13 @@ awards = انعامات
 you = تُوْ
 everyone = ہر ایْک
 contribution-activity = شراکتے سرگرمی
-top-contributors = ݜِݜے تعاون کار۔
+top-contributors = بڑوْ تعاون کار۔
 recorded-clips = کلپس ریکارڈ تِھیا۔
 validated-clips = تصدیق تِھیل کلپی۔
 total-approved = تمام منظور بِلہ
 overall-accuracy = مجموعی شان گیْ سُوݩڇِھیار۔
 set-visibility = می ویزی بیلیٹی سیٹ تِھیا۔
-visibility-explainer = آ ترتیب سہ څھے لیڈربورڈے پشنی کنٹرول تِھینیْ۔چھ بون دہ څھے پیشرفعت ذاتی بُو۔ آ طسے آ مطلبِن چہ څھے فوٹو، صارف ے نُوم گہ ترقی لیڈربورڈ جیْ څرگن نہ بُو۔ آ نوٹ تِھیا چہ لیڈربورڈ ریفریش دہ { $minutes }تبدیلی پُرون مجی منٹ ݜچنَن۔
+visibility-explainer = آ ترتیب سہ څھے لیڈربورڈے پشنی کنٹرول تِھینیْ۔ چہ بون دہ څھے پیشرفعت ذاتی بُو۔ آ سے آ مطلبِن چہ څھے فوٹو، صارف ے نُوم گہ ترقی لیڈربورڈ جیْ څرگن نہ بُو۔ آ نوٹ تِھیا چہ لیڈربورڈ ریفریش دہ { $minutes }تبدیلی بون مجی منٹ ݜچنَن۔
 visibility-overlay-note = نوٹ: کرہ ویزی بیلیٹی سیٹ تِھجِلیْ توْ آ سیٹنگ پروفائل دہ بدل بوبانیْ<profileLink>۔ پروفائل صفحہ</profileLink>
 show-ranking = می درجہ بندی پشِیا۔
 
@@ -38,8 +38,8 @@ pro-difficulty = پرو
 lose-goal-progress-warning = تومیْ مقصد دہ ترمیم تھون دہ، څھوْ تومیْ موجودہ پیش رفعت جیْ محروم بوبانَت۔
 want-to-continue = څھوْس جاری پھتینَت یا؟
 finish-editing = مُڇھو ایڈیٹنگ بڑِیا؟
-lose-changes-warning = چیئے پھتونے مقصدن چہ څھوْ تومیْ تبدیلیوجیْ محروم بُویت۔
-build-custom-goal = تومیْ الہا گیْ مقصد سنِیا
+lose-changes-warning = چیئے پھتونے مقصد آ نیْ چہ څھوْ تومیْ تبدیلیوجیْ محروم بُویت۔
+build-custom-goal = تومیْ الہا گیْ مقصد موقرَڑ تِھیا
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] امداد تِھیا { $hours } گھنٹو مجی { $language } ذاتی مقصد  سے ساتی
@@ -52,10 +52,74 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد موقرَڑ تِھیا
 cant-decide = فیصلہ نہ تھوبامَس؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+    }
 how-many-per-day = لئی مِݜٹیْ ǃ ہر چھک کچا کلپی؟
 how-many-a-week = لئی مِݜٹیْ ǃ ہر ہفتہ دہ کچا کلپی؟
 which-goal-type = څھوْ موْݜ کال تھینَت،  ݜِݨون کھوشنَت یا بیدہوݩڑ؟
 receiving-emails-info = څھوْ فی الحال ای میل وصول تھونڑ تِیارنَت۔ کاتھ چہ گول ریمائنڈر، می کامن وائس اےْ بارَد پروگرام اپ ڈیٹس گہ نیوز لیٹرز۔
+not-receiving-emails-info =
+    څھوْ چیئے توْ <bold> نیں </bold> ای میل وصول تھون  کاتھ چہ گول ریمانڈرز،  می
+    پراگریس اپ ڈیٹس گہ کامن وائس اےْ بارَد خبری خطی
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } کلپس

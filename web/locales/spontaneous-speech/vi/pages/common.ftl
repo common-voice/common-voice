@@ -29,3 +29,6 @@ contribute = Đóng góp
 ## Not Found Page
 
 not-found-page-header = Không tìm thấy
+en = Tiếng Anh
+fr = Tiếng Pháp
+tr = Tiếng Thổ Nhĩ Kỳ

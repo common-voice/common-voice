@@ -36,13 +36,13 @@ datasets = ڈیٹا سیٹ
 languages = ژِبہ
 about = بابتی مہ
 partner = مرگلئ
-submit-form-action = جمع
+submit-form-action = جمع کرہ
 
 ## Reporting
 
 report = خبر
 report-title = خبر جمع کرہ
-report-ask = اَس بلی / جُملہ مہ تے گی گِرانی لیل ہُوندی؟
+report-ask = اَس بلی / جُملہ مہ تگے گی گِرانی لیل ہُوندیۡ/ہوئین٘ت؟
 report-offensive-language = قبیح/اڅھکی ژیب
 report-offensive-language-detail = اَس جُملہ مہ اچھی یا اڅھکی ژیب استعمال ہُو تھی
 report-grammar-or-spelling = گِرامرَیں / ہیزی وَیں غلطی
@@ -76,7 +76,7 @@ shortcut-discard-ongoing-recording = ڈیوہ
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ الُو دے/لاء دے۔
 shortcut-submit = پاتُو گُھرہ
 shortcut-submit-label = کٹرو جمع کرہ
-request-language-text = ہَویں ہاری تُوں عام آوازاں پروگرامہ مہ تَیں ژیب نی پَیچھی یی؟
+request-language-text = ہُویں ہاریۡ تُوں کامن وائس پروگرامہ مہ تَیں ژیب نی پَیچھی یی؟
 request-language-button = ژِباں کریا درخواست کرہ
 
 ## Listen Shortcuts
@@ -106,10 +106,10 @@ contribution-misreadings-description-extended-list-2 = لفظاں آخرہ مہ 
 contribution-misreadings-description-extended-list-3 = پڑَیں مہ ݜے زئ کھٹَیں رائ تھو چے سېوں کھٹَیں رؤں نی تھو یا ڙگی رؤں نی ہوند کھیں تلہ ڙِگی رائے تُھو
 contribution-misreadings-description-extended-list-4 = رِکاڈِن٘گ چو ژن٘ڑُوں بند کرے آخری لفظاں مُو دھراچھی
 contribution-misreadings-description-extended-list-5 = ایک لفظ پڑَیں مہ بیکتُک ہیشی بیں تھی
-contribution-misreadings-example-1-title = ڇَگن٘ڑیاں زُماناں افتی ڈائنوسارہ
+contribution-misreadings-example-1-title = سو دېس نہ پاتُو مہ پان٘د پُھو کرے تِلم تُھو۔
 contribution-misreadings-example-2-title = ڇَگن٘ڑیاں زُماناں افت ڈائنوسار
 contribution-misreadings-example-2-explanation = [ایں ہو تھو ‘ڈائنوسارہ’]
-contribution-misreadings-example-3-title = ڇَگن٘ڑیاں زُماناں افتی ڈائنوسارہ
+contribution-misreadings-example-3-title = سو دېس نہ پاتُو مہ پان٘د پُھو ک--
 contribution-misreadings-example-3-explanation = [لفظ مُچَیں نہ مُوٹِھن رکاڈن٘گ کٹ ہُو تُھو]
 contribution-misreadings-example-4-title = ڇگن٘ڑیاں زُماناں افتی ڈائنوسارہ۔ آں
 contribution-misreadings-example-4-explanation = لُکھژیلیۡ لِکیلیۡ نہ تیرئ ٹیپ ہُو تُھو۔
@@ -122,7 +122,7 @@ contribution-misreadings-example-8-title = مانٚڇھی ہل لک لن٘گھی
 contribution-misreadings-example-8-explanation = اوان مِلال مواد
 contribution-varying-pronunciations-title = رنٚگا رنٚگ ادائیگی
 contribution-varying-pronunciations-description = خبردار! اوان پڑی چھی، یا اَوان زئ لا زُور آڇھی یا سوالیہ نشان پھت کرہ چھی کرے ایک کٹرُو ݜَیں بلیُوں لا کگَیں(رد کرَیں) نہ مُوٹھن سُوچ کری۔ گِنہ چےۡ دُنئ مہ مُختلف قسم خلکہ قسما قِسمَیں لہجیُوں مہ ہر رَن٘گَیں ادائگی کراں تھو، سیوں مہ بیکتُک څیز ݜے ہو تُھو چےۡ سَیں څاں کَچھ اور مُت خلکؤں نہ تُو نی ݜُون٘یل ہو تُھو۔ کاں خلکہ څؤں نہ ہِلاک کرٹ ژیب دیں تھو کھیں سِوَیں ہُم ہِلاک اہمیت دی۔
-contribution-varying-pronunciations-description-extended = مُوئیت کھنٚگ، اگر څاں خیال مہ پڑئیں والا کہ سامُوئیٹھ وار تس لفظ پڑانت ہاں تس لفظئیں ادائیگی مہ اک غلط اندازہ رنٚگانت کھئیں تے مھیربانی کرے نی قبلائے۔ غیر یقینی صورتحال مہ پھت کرہ والا بٹن ݜیا دِی۔
+contribution-varying-pronunciations-description-extended = ہاں کہ څَیں لیل ہُوئ تُھو چے ایک پڑان٘لہ اوک ݜس لفظ نی پُنیائ تُھو آں اٹکلہ لا اسیں ادائیگی کرَیں کوشِش کیریۡ تُھو کھیں تے نئ بٹنہ لا چکس کرے کگائے۔ آں کہ تے سم پتہ نی تھی کھیں تے پھت کرہ۔
 contribution-varying-pronunciations-example-1-title = تاں ݜݜہ تل سئیں کُھوئی ݜالس۔
 contribution-varying-pronunciations-example-1-explanation = برطانیاں انگریز بیریٹ لفظ ادا کرہانٚس سامُوٹھ حصہ تل ہاں امریکاں انگریزہ ساوات حصہ تل زُور دِی ادا کرانتے۔
 contribution-varying-pronunciations-example-2-title = تسئیں ہا اُڇھزیل آن٘س

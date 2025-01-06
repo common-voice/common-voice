@@ -3,8 +3,8 @@
 your-languages = I to lingui
 toward-next-goal = Ammeri u pròssimu ubbittivu
 goal-reached = Ubbittivu agghicatu
-clips-you-recorded = Riggistrazziuna fatti
-clips-you-validated = Riggistrazziuna chi validasti
+clips-you-recorded = Riggistrazzioni fatti
+clips-you-validated = Riggistrazzioni chi validasti
 todays-recorded-progress = Prugressu di oji di Common Voice ncapu i riggistrazzioni mannati
 todays-validated-progress = Prugressu di oji di Common Voice ncapu i riggistrazzioni validati
 stats = Statìstichi
@@ -13,10 +13,10 @@ you = Tu
 everyone = Tutti
 contribution-activity = Cuntribbuti
 top-contributors = Cullabburatura cchiù attivi
-recorded-clips = Riggistrazziuna fatti
-validated-clips = Riggistrazziuna validati
+recorded-clips = Riggistrazzioni fatti
+validated-clips = Riggistrazzioni validati
 total-approved = Tutali appruvati
-overall-accuracy = Pricisiuni glubbali
+overall-accuracy = Pricisioni glubbali
 set-visibility = Mposta a me visibbilità
 show-ranking = Ammustra a me pusizzioni
 
@@ -143,8 +143,8 @@ activity-needed-calculation-plural =
                     }
             }
     }
-how-many-per-day = Granni! Quanti riggistrazziuna ô jornu?
-how-many-a-week = Granni! Quanti riggistrazziuna â simana?
+how-many-per-day = Granni! Quanti riggistrazzioni ô jornu?
+how-many-a-week = Granni! Quanti riggistrazzioni â simana?
 which-goal-type = Vo' parrari, ascutari o tutti du'?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -177,11 +177,11 @@ days =
     }
 recordings =
     { $count ->
-        [one] Riggistrazziuni
-       *[other] Riggistrazziuna
+        [one] Riggistrazzioni
+       *[other] Riggistrazzioni
     }
 validations =
     { $count ->
-        [one] Validazziuni
-       *[other] Validazziuna
+        [one] Validazzioni
+       *[other] Validazzioni
     }

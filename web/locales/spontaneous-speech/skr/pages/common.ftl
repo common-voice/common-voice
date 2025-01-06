@@ -22,9 +22,22 @@ contribute = حصہ پاؤ
 
 ## Not Found Page
 
+not-found-page-header = کائنی لبھیا
+# Locales
+bsy = سباہ بسایا
+cdo = فوزو
+cpx = ہینگ ہوا
 en = انگریزی
 fr = فرانسیسی
+hch = وکساریکا
+kzi = کلابٹ
+mbf = بابا مالے
 meh = جنوب مغربی لیکسی آکو میکسٹیک
+mel = سنٹرل میلاناو
+mmc = مچاوکن مزاہاو
+ms-MY = بہاسہ مالے
+msi = سباہ مالے
+pez = مشرقی پینان
 pne = مغربی پینن
 tr = ترکی
 xkl = کینیاہ

@@ -9,6 +9,7 @@ record-error-too-long = Сабт хеле дароз буд.
 record-error-too-quiet = Сабт хеле ором буд.
 record-cancel = Бекор кардани сабти такрорӣ
 record-instruction = { $actionType }<recordIcon></recordIcon>, сипас, ҷумларо бо овози баланд хонед
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ҳангоми анҷом
 record-three-more-instruction = Сетои дигар монд!
 record-again-instruction = Офарин!<recordIcon></recordIcon> Овози навбатии худро сабт кунед
 record-again-instruction2 = Ҳалолат бод, боз сабт кунед <recordIcon></recordIcon>
@@ -18,6 +19,7 @@ share-clip = Сабти худро мубодила кунед
 share-common-voice = «Common Voice»-ро мубодила кунед
 clips-uploaded = Сабтҳо бор карда шуданд
 record-abort-submit = Пешниҳод кардани сабтҳо
+record-abort-continue = Сабтро ба анҷом расонед
 record-abort-delete = Баромадан ва нест кардани сабтҳо
 review-aborted = Боркунӣ қатъ карда шуд. Мехоҳед, ки сабтҳои худро нест кунед?
 review-submit-title = Бознигарӣ ва пешниҳод
@@ -28,14 +30,19 @@ review-keep-recordings = Нигоҳ доштани сабтҳо
 review-delete-recordings = Нест кардани сабтҳои ман
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
+why-donate = Чаро шумо мепурсед?
 add-information-button = Илова кардани маълумот
+continue-speaking-button = Не, ташаккур, суханро идома диҳед
+thanks-for-voice-toast = Ташаккур барои маълумоти овозии шумо
 first-cta-gender-select-default-option = Имконеро интихоб намоед
+already-have-an-account = Аллакай ҳисобе доред? <login>Ворид шавед</login>
 create-profile-button = Эҷод кардани профил
 # menu item
 read-sentences = Хондани ҷумлаҳо
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Хондани ҷумлаҳо, ҷавоб додан ба саволҳо
 
 ## MENU ITEM ARIA LABELS
 
