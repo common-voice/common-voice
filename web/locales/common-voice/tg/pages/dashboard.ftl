@@ -3,6 +3,8 @@
 your-languages = Забонҳои шумо
 toward-next-goal = Ба суйи мақсади оянда
 goal-reached = Ба мақсад расидед
+clips-you-recorded = Овозҳое, ки шумо сабт кардед
+clips-you-validated = Овозҳое, ки шумо тасдиқ кардед
 stats = Омор
 awards = Мукофот
 you = Шумо

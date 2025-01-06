@@ -2,11 +2,13 @@
 
 datasets-heading = Маҷмуаи маълумот
 language = Забон
+download-dataset-header = Боргирӣ кардани маҷмуи маълумот
 # File size in gigabytes
 size = Андоза
 cv-license = Иҷозатнома
 audio-format = Формати аудио
 number-of-voices = Шумораи овозҳо
+email-to-download = Барои боргирӣ, нишонии почтаи электрониро ворид намоед
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = Боргирӣ кардани { $language }
@@ -14,6 +16,7 @@ validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 whats-inside = Маҷмуи маълумоти «Common Voice» чиро дар бар мегирад?
 subscribe = Обуна шудан
+other-datasets = Маҷмуи маълумоти овозии дигар
 # This indicates that there is no data to display
 no-information = Маълумот нест
 go-discourse = Гузариш ба «Discourse»

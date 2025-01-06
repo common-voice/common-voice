@@ -14,6 +14,7 @@ new-sentence-rule-2 = Камтар аз 15 калима дар як ҷумла
 new-sentence-rule-3 = Грамматикаи дурустро истифода баред
 new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои китобати дурустро истифода баред
 new-sentence-rule-5 = Бе рақамҳо ва аломатҳои махсус
+new-sentence-rule-6 = Бе ҳарфҳои хориҷӣ
 login-instruction-multiple-sentences = Барои илова кардани зиёда аз як ҷумла, лутфан, <loginLink>ворид шавед</loginLink> ё <loginLink>ҳисобро ба қайд гиред</loginLink>
 how-to-cite = Чӣ тавр ман иқтибос меорам?
 guidelines = Дастурҳо
@@ -23,6 +24,7 @@ add-sentence-error = Хатои илова кардани ҷумла
 required-field = Лутфан, ин майдонро пур кунед.
 single-sentence-submission = Пешниҳоди як ҷумла
 single-sentence = Як ҷумла
+sentence-domain-combobox-label = Манбаи ҷумлаҳо
 # Sentence Domain dropdown option
 agriculture_food = Кишоварзӣ ва озуқаворӣ
 # Sentence Domain dropdown option
@@ -53,6 +55,7 @@ sentence-variant-select-multiple-variants = Забони умумӣ / навъҳ
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Барои боргирӣ кардани файл, онро дар ин ҷой гузоред
 try-upload-again-md = Кӯшиш кунед, ки аз нав бор намоед
 select-file = Интихоби файл
 select-file-mobile = Файлро барои боргирӣ интихоб намоед
@@ -62,6 +65,7 @@ maximum-file-size = Андозаи ҳадди аксари файл: 25 MB
 what-needs-to-be-in-file = Дар файли ман чӣ бояд бошад?
 upload-progress-text = Боркунӣ дар ҳоли иҷро...
 bulk-upload-success-toast = Шумораи зиёди ҷумлаҳо бор карда шуданд
+bulk-upload-failed-toast = Боргирӣ иҷро нашуд, лутфан, аз нав кӯшиш кунед.
 file-invalid-type = Файли номувофиқ
 file-too-large = Файл хеле калон аст
 file-too-small = Файл хеле хурд аст
@@ -87,6 +91,7 @@ small-batch-sentences-rule-1 = Дастурҳоро аз қисми «Кадом
 small-batch-sentences-rule-2 = Илова кардани як ҷумла ба ҳар як сатр
 small-batch-sentences-rule-3 = Бо як маротиба пахш кардани тугмаи «Enter» ё «Return» ҷумлаҳоро ба як сатр ҷудо намоед
 small-batch-sentences-rule-4 = Илова кардан то 1000 ҷумла
+small-batch-sentences-rule-5 = Ҳамаи ҷумлаҳо бояд дорои манбаи яксон бошанд
 small-batch-sentences-rule-6 = Ҳамаи ҷумлаҳо бояд дорои иқтибоси яксон бошанд
 # menu item
 add-sentences = Илова кардани ҷумлаҳо
