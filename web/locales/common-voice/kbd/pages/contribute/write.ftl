@@ -41,8 +41,6 @@ sentence-domain-select-placeholder = Нэхъыбэ дыдэу домаинищ 
 # Sentence Domain dropdown option
 agriculture_food = Мэкъумэшымрэ шхыныгъуэмрэ
 # Sentence Domain dropdown option
-automotive_transport = { "" }
-# Sentence Domain dropdown option
 finance = Финанс
 # Sentence Domain dropdown option
 service_retail = ӏуэхутхьэбзэ

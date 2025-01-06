@@ -3,7 +3,6 @@ import Model from './model'
 import { Clip, TakeoutRequest } from 'common'
 import { PassThrough } from 'stream'
 import { ClientClip } from './takeout'
-import * as Sentry from '@sentry/node'
 import { pipe } from 'fp-ts/lib/function'
 import {
   Metadata,
@@ -18,7 +17,6 @@ import {
 } from '../infrastructure/storage/storage'
 import { task as T, taskEither as TE } from 'fp-ts'
 import * as archiver from 'archiver'
-import { zip } from 'fp-ts/lib/ReadonlyArray'
 
 /**
  * Bucket
@@ -103,11 +101,6 @@ export default class Bucket {
     )
     const clipPromises: Clip[] = []
 
-    Sentry.captureMessage(
-      `Got ${clips.length} eligible clips for ${locale} locale`,
-      Sentry.Severity.Info
-    )
-
     // Use for instead of .map so that it can break once enough clips are assembled
     for (let i = 0; i < clips.length; i++) {
       const { id, path, sentence, original_sentence_id, taxonomy } = clips[i]
@@ -141,10 +134,6 @@ export default class Bucket {
         await this.model.db.markInvalid(id.toString())
       }
     }
-    Sentry.captureMessage(
-      `Having a total of ${clipPromises.length} clips for ${locale} locale`,
-      Sentry.Severity.Info
-    )
     return Promise.all(clipPromises)
   }
 
@@ -168,7 +157,7 @@ export default class Bucket {
     const bucket = getConfig().CLIP_BUCKET_NAME
     const passThrough = new PassThrough()
     const archive = archiver('zip', { zlib: { level: 6 } })
-    
+
     archive.pipe(passThrough)
 
     for (const path of paths) {

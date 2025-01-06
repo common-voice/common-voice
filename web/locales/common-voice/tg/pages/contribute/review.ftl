@@ -2,6 +2,7 @@
 
 sc-review-title = Баррасии ҷумлаҳо
 sc-review-loading = Ҷумлаҳо бор шуда истодаанд…
+sc-review-select-language = Лутфан, барои баррасӣ кардани ҷумлаҳо забонеро интихоб намоед.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Манбаъ: { $sentenceSource }
@@ -24,13 +25,18 @@ sc-review-form-reviewed-message =
         [one] 1 ҷумла баррасӣ шуд. Сипос!
        *[other] { $sentences } ҷумла баррасӣ шуд. Сипос!
     }
+sc-review-form-review-failure = Баррасӣ нигоҳ дошта нашуд. Лутфан, баъдтар аз нав кӯшиш кунед.
 sc-review-link = Бознигарӣ
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Меъёрҳои бознигарӣ
 sc-criteria-title = Меъёрҳои бознигарӣ
+sc-criteria-make-sure = Боварӣ ҳосил кунед, ки ҷумла ба меъёрҳои зерин мувофиқат мекунад:
+sc-criteria-item-1 = Ҷумла бояд дуруст навишта шавад.
 sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ дуруст бошад.
 report-sc-different-language = Забони дигар
+sentences-fetch-error = Ҳангоми гирифтани ҷумлаҳо хато ба миён омад
+review-error = Ҳангоми баррасии ин ҷумла хато ба миён омад
 # menu item
 review-sentences = Баррасии ҷумлаҳо

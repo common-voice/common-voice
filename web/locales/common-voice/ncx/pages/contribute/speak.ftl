@@ -60,3 +60,17 @@ already-have-an-account = ¿Yotimomachoti? <login>Xikalaki</login>
 create-profile-button = Ximomachoti
 # IMAGE TAGS
 img-alt-success-checkmark = ¡Yomokak!
+# menu item
+read-sentences = Xikintlajtolti seki tlajtoli
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Xikintlajtolti seki tlajtoli, xikinnankili tlajtlanilmej
+read-sentences-menu-item-tooltip = Xiksiko motlajtol ijkuak tikintlajtoltis seki tlajtoli ika motlajtolkopa
+answer-questions-menu-item-tooltip = Xiksiko motlajtol ijkuak tikinnankilis seki tlajtlanilistli ika motlajtolkopa
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Tlen uelis tiktlajtoltis
+read-sentences-menu-item-aria-label = Xikintlajtolti seki tlajtoli tlen oksekimej okijkuilojkej ika tlatlamantli tlajtolkopa
+answer-questions-menu-item-aria-label = Xiktitlani se tlajtlanilistli tlen oksekimej kitlajtoltiskej uan kinankiliskej
