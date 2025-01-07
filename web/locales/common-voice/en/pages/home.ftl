@@ -150,10 +150,10 @@ download-contribution-certificate = Download your contribution certificate
 download-contribution-certificate-content = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible with you!
 # label for button
 download-contribution-certificate-action = Get your certificate
-contribute-github = Contribute on Github
+contribute-github = Contribute on GitHub
 contribute-github-content = This project would not be possible without people like you. 🎉 There are many ways to get involved with Common Voice - you don't have to know how to code to contribute!
 # label for button
-contribute-github-action = Contribute on Github
+contribute-github-action = Contribute on GitHub
 
 ## Featured section
 featured-section-title = Featured in...

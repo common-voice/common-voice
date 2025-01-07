@@ -23,12 +23,16 @@ export const sections: Section[] = [
     content: 'join-discord-community-content',
     image: require('./assets/discord.jpg'),
     action: () => (
-      <Button rounded className="action">
+      <LinkButton
+        rounded
+        className="action"
+        href="https://discord.gg/4TjgEdq25Y"
+        blank>
         <img src={DiscordIcon} alt="discord icon" />
         <Localized id="join-discord-community-action">
           <span />
         </Localized>
-      </Button>
+      </LinkButton>
     ),
   },
   {

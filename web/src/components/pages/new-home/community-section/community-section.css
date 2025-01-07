@@ -74,13 +74,16 @@
                     color: var(--black);
                     opacity: 0.4;
 
-                    @media (--sm-down) {
-                        font-size: 18px;
+                    @media (--md-down) {
                         text-align: left;
 
                         [dir='rtl'] & {
                             text-align: right;
                         }
+                    }
+
+                    @media (--sm-down) {
+                        font-size: 18px;
                     }
 
                     &.active {
@@ -165,7 +168,7 @@
                         height: auto;
                         object-fit: cover;
 
-                        @media (--xl-up) {
+                        @media (--md-up) {
                             display: none;
                         }
 
@@ -187,11 +190,12 @@
 
             img {
                 width: 100%;
+                max-width: 400px;
                 height: auto;
                 object-fit: cover;
             }
 
-            @media (--lg-down) {
+            @media (--sm-down) {
                 display: none;
             }
         }
