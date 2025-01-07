@@ -1,13 +1,16 @@
 .hero-section {
     display: flex;
     justify-content: center;
+    background: url('./assets/home-bg-waves.png');
+    background-size: 100% 100%;
 
     .hero-container {
         display: flex;
         justify-content: space-between;
+
+        max-width: var(--desktop-width);
+        margin-inline: auto;
         width: 100%;
-        background: url('./assets/home-bg-waves.png');
-        background-size: 100% 100%;
 
         @media (--xl-up) {
             height: 65vh;
@@ -30,8 +33,6 @@
 
         .hero-text-wrapper {
             display: flex;
-            justify-content: end;
-            flex: 0.7;
 
             @media (--md-and-lg-only) {
                 flex: 1;
@@ -44,18 +45,20 @@
             .hero-text-container {
                 display: flex;
                 flex-direction: column;
-                margin: 130px 0px 0px 60px;
+                margin: 130px 0px 0px 0px;
 
                 @media (--xl-up) {
-                    width: 550px;
+                    width: 560px;
+                    padding-inline-start: 16px;
                 }
 
                 @media (--lg-only) {
                     margin-block-start: 80px;
+                    margin-inline-start: 60px;
                 }
 
                 @media (--md-only) {
-                    margin: 50px 0 0 24px;
+                    margin: 50px 0 0 60px;
                 }
 
                 @media (--sm-down) {
@@ -137,6 +140,12 @@
             flex-direction: column;
             justify-content: center;
 
+            @media (--xl-up) {
+                position: absolute;
+                top: 2.8%;
+                right: 0%;
+            }
+
             @media (--md-and-lg-only) {
                 padding-block-start: 32px;
             }
@@ -156,6 +165,7 @@
                 background-size: cover;
                 border-top-left-radius: 60%;
                 border-bottom-left-radius: 60%;
+                background-position: center;
                 width: 48vw;
                 height: 60vh;
 
@@ -164,6 +174,7 @@
                     min-width: 575px;
                     max-width: 620px;
                     max-height: 600px;
+                    z-index: 2;
                 }
 
                 @media (--lg-only) {
@@ -177,7 +188,7 @@
                     width: 51vw;
                     height: 35vh;
                     min-width: 450px;
-                    min-height: 465px;
+                    min-height: 430px;
                 }
 
                 @media (--sm-down) {
@@ -188,7 +199,7 @@
 
                 @media (--xs-down) {
                     border-top-left-radius: 55%;
-                    border-bottom-left-radius: 45%;
+                    border-bottom-left-radius: 50%;
                     width: 100vw;
                     height: 41vh;
                     display: flex;
@@ -222,13 +233,14 @@
                     }
 
                     @media (--md-only) {
-                        height: 18%;
-                        max-height: 475px;
+                        height: 15%;
+                        max-height: 440px;
                     }
 
                     @media (--sm-down) {
                         flex-direction: column-reverse;
                         top: 35%;
+                        z-index: 2;
                     }
 
                     @media (--xs-down) {
@@ -243,10 +255,16 @@
                         justify-content: center;
                         align-items: center;
 
-                        @media (--md-up) {
+                        @media (--lg-up) {
                             position: absolute;
                             left: 40px;
-                            top: 40px;
+                            top: 32px;
+                        }
+
+                        @media (--md-only) {
+                            position: absolute;
+                            left: 40px;
+                            top: 16px;
                         }
 
                         @media (--md-and-lg-only) {
@@ -358,22 +376,25 @@
 
                 @media (--xl-up) {
                     width: 50%;
-                    top: 9%;
-                    left: 50%;
+                    top: 60%;
+                    right: 80%;
                 }
 
                 @media (--md-and-lg-only) {
-                    left: 47%;
+                    left: 40%;
                 }
 
                 @media (--sm-down) {
                     top: 50%;
+                    right: 20%;
+                    z-index: 1;
                 }
             }
 
             img.sound-waves {
                 height: 200px;
                 width: 30vw;
+                z-index: 1;
 
                 @media (--md-and-lg-only) {
                     width: 40vw;

@@ -115,7 +115,7 @@ community-and-languages-menu-item-aria-label = Explore the community and languag
 ## Hero section
 hero-title = Technology that speaks your language
 # Text wrapped in <bold></bold> will be shown in bold font
-hero-subtitle-1 = <bold>Why should AI only cover 1% of global languages?</bold>
+hero-subtitle-1 = <bold>Why should AI only work for a few of the world’s languages?</bold>
 hero-subtitle-2 = Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.
 # icon is an arrow that points downwards
 get-started = Get started <icon><icon>

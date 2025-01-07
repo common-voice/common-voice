@@ -142,9 +142,13 @@ header {
     height: var(--header-height);
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
-    padding: 20px;
+    padding: var(--page-margin);
     background: var(--white);
     z-index: var(--header-z-index);
+
+    @media (--md-down) {
+        overflow-x: hidden;
+    }
 
     & .Logo {
         @media (--md-up) {
