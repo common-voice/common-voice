@@ -4,8 +4,11 @@ welcome-to-spontaneous-speech = Хуш омадед ба «Spontanous Speech»
 how-spontaneous-speech-works = Чӣ тавр «Spontaneous Speech» кор мекунад
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Дархост</mark>
+prompt-bubble-subtitle = Мо ба шумо маслиҳат ё саволро нишон медиҳем
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Ҷавоб додан</mark>
+respond-bubble-subtitle = Шумо ҷавоб медиҳед ё ба он ба қадри имкон ба таври табиӣ ҷавоб медиҳед
+transcribe-bubble-subtitle = Шумо он чизеро, ки дар сабтҳои аудиоӣ мешунавед, менависед
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тафтиш кардан</mark>
 # text wrapped in <mark></mark> will have a blue background
