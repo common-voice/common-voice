@@ -10,6 +10,7 @@
         background-size: cover;
         display: flex;
         align-items: center;
+        min-height: 650px;
 
         @media (--md-up) {
             height: 56vh;

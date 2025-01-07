@@ -162,7 +162,7 @@ download-press-pack = Download our press pack <icon></icon>
 
 ## Developers section
 developers-section-title = Publicly accessible open speech datasets in 130+ languages
-developers-section-subtitle = Datasets for ASR, SST, TTS, and other NLP contexts - created through community participation.
+developers-section-subtitle = Datasets for ASR, STT, TTS, and other NLP contexts - created through community participation.
 # icon is an arrow that points to the right
 explore-datasets = Explore datasets <icon></icon>
 
