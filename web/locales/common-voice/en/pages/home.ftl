@@ -167,7 +167,7 @@ developers-section-subtitle = Datasets for ASR, STT, TTS, and other NLP contexts
 explore-datasets = Explore datasets <icon></icon>
 
 ## Get involved section
-get-involved-section-title = Get involved
+get-involved-section-title = Support open, community-led datasets
 read-sentences-link = Read sentences
 validate-readings-link = Validate readings
 contribute-link = Contribute to text corpus
