@@ -57,7 +57,7 @@ sentence-variant-select-multiple-variants = Забони умумӣ / навъҳ
 ## BULK SUBMISSION 
 
 sc-bulk-upload-instruction-drop = Барои боргирӣ кардани файл, онро дар ин ҷой гузоред
-try-upload-again-md = Кӯшиш кунед, ки аз нав бор намоед
+try-upload-again-md = Кӯшиш кунед, ки аз нав боргирӣ намоед
 select-file = Интихоби файл
 select-file-mobile = Файлро барои боргирӣ интихоб намоед
 accepted-files = Намудҳои файлҳои қабулшаванда: танҳо .tsv

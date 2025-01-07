@@ -13,6 +13,7 @@ data-bubble-title = <mark>Маълумот</mark>
 data-bubble-subtitle = Мо маҷмуи маълумотро ба таври муназзам нашр мекунем
 contact-us = Тамос бо мо
 contact-us-email = Нишонии почтаи электронӣ: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Оё шумо аллакай дар гурӯҳи бета-озмоиши лоиҳаи «Spontaneous Speech» аз ҷониби «Common Voice» ҳастед?
 signup-input-placeholder = Почтаи электронии худро ворид намоед
 signup-button-value = Фиристодани пайванд ба нишонии почтаи электронии ман
 footer-text-privacy = <privacyLink>Махфият</privacyLink>
