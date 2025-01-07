@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = شوا باز تیزی آ گوں روغے ۔�
 sc-redirect-page-title = ماہ چھیے مزیں تبدیلیاں کھنغوں
 sc-redirect-page-subtitle-1 = سزا جمع کھنوغیں بنیادی کامن وائس پلیٹ فارم چھکا روغیں ۔نئ شوا کامن وائس چھکا یکھے جملہ یا یکھے آ گزارشات آں نئ جائزہ گرے سگے
 sc-redirect-page-subtitle-2 = مارا جست کن<matrixLink>میٹرکس </matrixLink>, <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink>.
+# menu item
+review-sentences = جملہ جائزہ گرے

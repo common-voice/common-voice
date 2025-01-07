@@ -60,3 +60,17 @@ already-have-an-account = شہ پیشا اکاؤنٹ ئے؟  <login>لاگ ان<
 create-profile-button = یک پروفائلے جوڑ کن
 # IMAGE TAGS
 img-alt-success-checkmark = کامیابی ئے نشان
+# menu item
+read-sentences = جملہ ئا پڑھ
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملہ ئا پڑھ، جستانی جواب ئا دئے
+read-sentences-menu-item-tooltip = وتی زبان ءَ جملہ وانگ ءَ وت ءَ ریکارڈ کن .
+answer-questions-menu-item-tooltip = وتی زبان ءَ جُست ءُ پُرسانی پسو دیگ ءَ وت ءَ ریکارڈ کن اِت
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = گپ ءِ آپشن مینو
+read-sentences-menu-item-aria-label = راج ءِ نیمگ ءَ جتا جتائیں زباناں دیم داتگیں جملہاں بوان اِت
+answer-questions-menu-item-aria-label = کمیونٹی ءِ وانگ ءُ پسو دیگ ءِ ھاترا نوکیں جُستے دیم ءَ بیار اِت
