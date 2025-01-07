@@ -27,6 +27,18 @@ contribute = ھمراہ داری کنیں
 
 respond-to-prompt = پرامپٹ ئے جواب ئا دئے
 transcribe-audio = آڈیو ٹرانسکرپٹ کن
+check-transcriptions = ٹرانسکرپشن چیک کن
 
 ## Not Found Page
 
+not-found-page-header = دست نہ کپتگ
+not-found-page-content = ھما تاک کہ شما شوھازگ ءَ اِت دست نہ کپتگ
+# Privacy and Terms checkbox
+accept-privacy-and-terms = من کامن وائس ءِ <termsLink>شرط</termsLink> ءُ </privacyLink>رازداری ءِداری </privacyLink>
+# Locales
+bsy = صباح بیسایا .
+cdo = فوژو
+cpx = ہینگ ہوا
+en = انگریزی
+fr = فرانسیسی
+hch = وکساریکا
