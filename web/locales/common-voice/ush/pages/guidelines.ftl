@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = امدادی ہدایات
+guidelines-header-subtitle = تو لݜیِلو دیالے جملئی، اؤ آڈیو کلپس کامن وائس در کدا تصدیق بینا
 voice-collection = آواز جمع
 sentence-collection = جملئی جمع تھا
 varying-pronunciations = بدل بدل تلفظ
@@ -8,6 +9,14 @@ offensive-content = غلط مواد
 background-noise = پتوتے شور
 background-voices = پتوتے شور
 volume = والئیم
+reader-effects = پڑھاؤ تھونُو والا آثرات
+just-unsure = کہ تو تے یقین نیِش؟
+example = مثال
+varying-pronunciations-explanation-1 = آسو مختلف لہجو تی ہرکلے رونا! ایک کلپ مسترد تھونو کئی مݜو احتیاط تھا تھئی خیال در رزونو والا ایک لفظ غلط آدا تھینو، یا غلط دیشا دباؤ تھینی، یا چکو بو دھریلنی، بوٹی دنیا در تلفظ لالی الفاظ استعمال بینو، ہورے ادئی الفاظے ہنی تو تمو کمیونٹی جیب در نی ݜونی۔ مہربانی تھا سا ضلقو قدر تھا ایسی چھو کئی مختلف جیب رئینا۔
+varying-pronunciations-explanation-2 = ہورے طرفتی، تھئی خیال در رزونو والا تی انا لفظ انیس کئی ݜُݜو میلاؤ نی بیلنو، برائے مہربانی مسترد تھا۔ کہ تو تی یقین نیِش تو سکیپ بٹن چوٹ دے۔
+varying-pronunciations-example = پون صفا نیِش۔
+varying-pronunciations-tip-1 = [کینیڈا انگریزی در روٹ تا رووٹ رئینو]
+varying-pronunciations-tip-2 = [برٹش انگریزی روٹ سپارینا]
 misreadings-example-4 = بورا تیز مݜوتے گاؤ
 still-have-questions = باتھے سوالات ہنی؟
 contact-common-voice = کان وائس ست رابطی تھے
