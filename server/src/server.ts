@@ -5,7 +5,6 @@ import * as express from 'express'
 import * as compression from 'compression'
 import { NextFunction, Request, Response } from 'express'
 import * as Sentry from '@sentry/node'
-import { nodeProfilingIntegration } from '@sentry/profiling-node'
 import { StatusCodes } from 'http-status-codes'
 import 'source-map-support/register'
 import { importLocales } from './lib/model/db/import-locales'
@@ -28,7 +27,7 @@ import { setupAuthRouter } from './auth-router'
 const MAINTENANCE_VERSION_KEY = 'maintenance-version'
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web')
 const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance')
-const { RELEASE_VERSION, ENVIRONMENT, SENTRY_DSN_SERVER, PROD } = getConfig()
+const { RELEASE_VERSION, ENVIRONMENT, PROD } = getConfig()
 const CSP_HEADER_VALUE = getCSPHeaderValue()
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60
 
@@ -64,16 +63,6 @@ export default class Server {
 
     this.isLeader = null
     this.app = express()
-
-    Sentry.init({
-      // no SENTRY_DSN_SERVER is set in development
-      dsn: SENTRY_DSN_SERVER,
-      integrations: [nodeProfilingIntegration()],
-      tracesSampleRate: 0.1,
-      profilesSampleRate: 0.1,
-      environment: PROD ? 'prod' : 'stage',
-      release: RELEASE_VERSION,
-    })
   }
 
   setupApp = async () => {
