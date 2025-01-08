@@ -2,6 +2,7 @@
 
 about-title = Чаро «Common Voice»?
 how-does-it-work-title-v2 = Чӣ тавр «Common Voice» кор мекунад?
+how-does-it-work-text = Мо маҷмуи маълумоти овозии кушодаасосро тавассути ҷамъоварии овозҳои мардум эҷод мекунем. Овози худро пешкаш кунед, дақиқияти сабтҳои дигаронро санҷед ва ин маҷмуи маълумотро барои ҳамаи мо беҳтар созед.
 
 ## How does it work section
 
@@ -12,6 +13,7 @@ about-sentence-collection-title = Маҷмуаи ҷумлаҳо
 about-sentence-collection-subtitle = Ҷумлаҳо ҷамъ оварда мешаванд, то одамон онҳоро бо овози баланд хонанд.
 about-new-lang-title = Оғози забони нав
 about-new-lang-subtitle = Мо сомонаи «Common Voice»-ро бо ин забон оғоз мекунем.
+about-voice-contrib-title = Дар бораи саҳми овозҳо
 about-voice-contrib-subtitle = Мардум омада, бо овози худ саҳми худро мегузоранд.
 about-voice-validation-title = Тасдиқи овоз
 about-voice-validation-subtitle = Одамони дигар ин сабтҳои овозиро тасдиқ мекунанд.
@@ -20,9 +22,14 @@ about-dataset-release-subtitle = Мо маҷмуи маълумотро ҳар 3
 about-subscribe-text = Мехоҳед бо «Common Voice» дар тамос бошед?
 about-speak = Ҳарф занед
 about-speak-text = Саҳмгузорон бо хондани ҷумла аз маҷмуи ҷумлаҳои ҳадяшуда, овозро сабт мекунанд.
+about-listen-queue = Навбати гӯшкунӣ
+about-listen-queue-text = Сабтҳои овозӣ ба навбати пешниҳод ворид мешаванд, ки онҳоро барои гӯшкунӣ омода мекунад.
 about-listen = Гӯш кунед
+about-listen-text = Корбарон дақиқии сабтҳои пешкашшударо тасдиқ мекунанд, бо таваҷҷуҳ ба он, ки оё гӯянда ҷумларо дуруст хондааст ё не.
 about-is-it-valid = Оё сабт дуруст аст?
+about-is-it-valid-text = Сабти овозӣ ҳангоми гирифтани овози «Ҳа» аз корбар ҳамчун «дуруст» қайд карда мешавад.
 about-yes-votes = ≥ 2 овози «Ҳа»
+about-yes-votes-text = Барои ворид кардани сабти овозӣ ба маҷмуи маълумоти «Common Voice», сабт бояд аз ҷониби ду корбари алоҳида тасдиқ карда шавад.
 about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмуаи маълумоти «Common Voice»
 about-dataset-new-text = Маҷмуаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.

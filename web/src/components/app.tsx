@@ -11,7 +11,6 @@ import {
 } from 'react-router'
 import { Router, useHistory } from 'react-router-dom'
 import * as Sentry from '@sentry/react'
-import { BrowserTracing } from '@sentry/tracing'
 import { createBrowserHistory } from 'history'
 
 import { UserClient } from 'common'
@@ -55,7 +54,7 @@ const SENTRY_DSN_WEB =
 
 Sentry.init({
   dsn: shouldEmitErrors() ? SENTRY_DSN_WEB : null,
-  integrations: [new BrowserTracing()],
+  integrations: [Sentry.browserTracingIntegration()],
   environment: isProduction() ? 'prod' : 'stage',
   release: process.env.GIT_COMMIT_SHA || null,
 })

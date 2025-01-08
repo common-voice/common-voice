@@ -1,7 +1,10 @@
 ## Report Modal
 
 report-modal-title = Гузориш додан
+offensive_speech = Муҳтавои таҳқиромез
+offensive_speech-detail = Муҳтаво дорои забони беадаб ё таҳқиромез мебошад.
 different_language = Забони дигар
+personally_identifiable_information = Иттилооти шахсии қобили шиносоӣ
 report-other-comment =
     .placeholder = Шарҳ
 # Label for textarea in report modal

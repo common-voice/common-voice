@@ -2,6 +2,7 @@
 
 download-profile-title = Профил
 download-recordings-title = Сабтҳо
+download-recordings-size = Одатан мегабайтҳо
 download-size = Андоза
 download-selected = Интихоб шуд
 download-start = Маълумоти профилро боргирӣ кунед

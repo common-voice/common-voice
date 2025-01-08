@@ -2,6 +2,8 @@
 
 # Toast message that is displayed when an error occurs
 error = Хато
+action-click = Зер кардан
+action-tap = Зарба задан
 # Label for language switcher
 interface-language = Забони интерфейс:
 # Label for button on contribution switcher
@@ -21,6 +23,7 @@ respond-to-prompt = Ба дархост ҷавоб додан
 ## Not Found Page
 
 not-found-page-header = Ёфт нашуд
+not-found-page-content = Сафҳае, ки шумо меҷӯед, пайдо нашуд
 en = Англисӣ
 fr = Фаронсавӣ
 tr = Туркӣ
