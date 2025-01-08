@@ -6,10 +6,17 @@ how-does-it-work-title-v2 = Common Voice koso cholta?
 ## How does it work section
 
 about-language-req-subtitle = Konni tori bhaxa zopak sanglya
+about-localization-title = Website Localization
 about-localization-subtitle = Website'ache likhit tya bhaxen anuvaad kela.
 about-sentence-collection-title = Vakio'cho Domain
+about-sentence-collection-subtitle = Lokaank motyaan vachpaa khaatir vaakha ekthai kortaat.
 about-new-lang-title = Novi Bhaxa Bhair Sorlai
+about-new-lang-subtitle = Aami he bhaashentlyaan Common Voice site'in suru kortaat.
 about-voice-contrib-title = Avaaz Dhaan Korop
+about-voice-contrib-subtitle = Lok yeta ani aplo aavaz dhaan kortat.
+about-dataset-release-title = Dataset'achi Ujvaadaavni
+about-dataset-release-subtitle = Ami dor 3 moin'ayani dataset ujvaadaytat.
+about-subscribe-text = Common Voice'aa bori somporkant ravpak zai?
 about-speak = Uloi
 about-listen-queue = Aik
 about-listen = Aik
@@ -18,6 +25,7 @@ about-is-it-valid = Hi clip sarki asa?
 about-yes-votes = ≥ 2 hoi vichla
 about-yes-votes-text = Common Voice dataset'an korpak, ek aavaz clip don vaglai munsani pormanit korpak zai.
 about-no-votes = ≥ 2 na vichla
+about-dataset-new = Common Voice'acho Dataset
 about-get-involved = Vanto ge
 
 ## Community Playbook Content
