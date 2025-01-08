@@ -6,6 +6,7 @@ import { NextFunction, Request, Response, Router } from 'express'
 import * as sendRequest from 'request-promise-native'
 import { StatusCodes } from 'http-status-codes'
 import PromiseRouter from 'express-promise-router'
+import * as Sentry from '@sentry/node'
 const Transcoder = require('stream-transcoder')
 
 import { Sentence, UserClient as UserClientType } from 'common'
@@ -298,7 +299,9 @@ export default class API {
     const project = isProject(req.query?.project)
       ? req.query.project
       : 'common-voice'
-    const availableLanguages = getFolderNames(path.join(LOCALES_PATH, project))()
+    const availableLanguages = getFolderNames(
+      path.join(LOCALES_PATH, project)
+    )()
     res.json({
       project,
       availableLanguages,
@@ -327,7 +330,13 @@ export default class API {
   }
 
   getLanguageStats = async (request: Request, response: Response) => {
-    response.json(await this.model.getLanguageStats())
+    const result = await Sentry.startSpan(
+      { name: 'get language stats' },
+      async () => {
+        return await this.model.getLanguageStats()
+      }
+    )
+    response.json(result)
   }
 
   getUserClients = async (
