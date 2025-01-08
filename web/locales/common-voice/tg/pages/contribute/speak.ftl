@@ -18,6 +18,7 @@ record-last-instruction = <recordIcon></recordIcon> Як бори дигар!
 review-tooltip = Сабтҳоро дар ин ҷой аз назар гузаронед ва аз нав сабт кунед
 share-clip = Сабти худро мубодила кунед
 share-common-voice = «Common Voice»-ро мубодила кунед
+review-instruction = Агар лозим бошад, сабтҳоро аз нав баррасӣ кунед ва сабт намоед
 clips-uploaded = Сабтҳо бор карда шуданд
 record-abort-submit = Пешниҳод кардани сабтҳо
 record-abort-continue = Сабтро ба анҷом расонед

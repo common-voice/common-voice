@@ -21,6 +21,7 @@ other-datasets = Маҷмуи маълумоти овозии дигар
 no-information = Маълумот нест
 data-other-ted-name = Маҷмуи «TED-LIUM»
 go-discourse = Гузариш ба «Discourse»
+missing-language = Забони худро дар маҷмуи маълумот намебинед? Барои дархост кардани забон ба саҳифаи забонҳои мо ворид шавед.
 go-languages-page = Гузариш ба саҳифаи забонҳо
 more = Бештар
 close = Пӯшидан

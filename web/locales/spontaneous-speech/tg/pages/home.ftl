@@ -15,6 +15,7 @@ check-bubble-title = <mark>Тафтиш кардан</mark>
 data-bubble-title = <mark>Маълумот</mark>
 data-bubble-subtitle = Мо маҷмуи маълумотро ба таври муназзам нашр мекунем
 contact-us = Тамос бо мо
+contact-us-title = Мехоҳед дар ин лоиҳа иштирок кунед ё шарики мо шавед?
 contact-us-email = Нишонии почтаи электронӣ: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Оё шумо аллакай дар гурӯҳи бета-озмоиши лоиҳаи «Spontaneous Speech» аз ҷониби «Common Voice» ҳастед?
 signup-input-placeholder = Почтаи электронии худро ворид намоед

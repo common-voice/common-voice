@@ -21,7 +21,7 @@ speak-empty-state-cta = Пешниҳод кардани ҷумлаҳо
 speak-loading-error =
     Мо барои сабти овози шумо ягон ҷумлае сара карда натавонистем.
     Лутфан, баъдтар аз нав кӯшиш кунед.
-record-button-label = Овози худро сабт намоед
+record-button-label = Овози худро сабт кунед
 share-title-new = Дар пайдо кардани овозҳои бештар <bold>ба мо кумак кунед</bold>
 keep-track-profile = Пешравии худро ба воситаи профил пайгирӣ намоед
 login-to-get-started = Барои оғози кор ворид шавед ё сабти ном кунед
@@ -101,6 +101,7 @@ contribution-criteria-link = Фаҳмидани меъёрҳои саҳми ов
 contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
 contribution-misreadings-title = Хониши нодуруст
+contribution-misreadings-description-extended-list-2 = Дар охири калима рамзи <strong>«s»</strong> (барои забони англисӣ) вуҷуд надорад.
 contribution-misreadings-description-extended-list-5 = Истифодаи якчанд кӯшиш барои хондани калима.
 contribution-misreadings-example-1-title = Динозаврҳои азими давраи Триассӣ.
 contribution-misreadings-example-2-title = Динозаври азими давраи Триассӣ.
@@ -116,8 +117,10 @@ contribution-misreadings-example-7-title = Мо барои гирифтани қ
 contribution-misreadings-example-7-explanation = [Дар матни аслӣ ҳарфи «a» вуҷуд надорад]
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
+contribution-varying-pronunciations-example-1-title = Ӯ дар сараш берет дошт.
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
 contribution-background-noise-title = Садои атроф
+contribution-background-noise-example-1-fixed-title = <strong>[Атса задан]</strong> Динозаврҳои азими <strong>[сулфа]</strong> давраи Триассӣ.
 contribution-background-noise-example-2-fixed-title = Динозаври азими <strong>[сулфа]</strong> давраи Триассӣ.
 contribution-background-noise-example-2-explanation = [Қисми матн шунида намешавад]
 contribution-background-voices-title = Овозҳои атроф

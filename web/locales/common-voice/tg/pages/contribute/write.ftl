@@ -56,17 +56,19 @@ sentence-variant-select-multiple-variants = Забони умумӣ / навъҳ
 
 ## BULK SUBMISSION 
 
-sc-bulk-upload-instruction-drop = Барои боргирӣ кардани файл, онро дар ин ҷой гузоред
-try-upload-again-md = Кӯшиш кунед, ки аз нав боргирӣ намоед
+sc-bulk-upload-instruction-drop = Барои бор кардани файл, онро дар ин ҷой гузоред
+try-upload-again-md = Кӯшиш кунед, ки аз нав бор намоед
 select-file = Интихоби файл
-select-file-mobile = Файлро барои боргирӣ интихоб намоед
+select-file-mobile = Файлро барои боркунӣ интихоб намоед
 accepted-files = Намудҳои файлҳои қабулшаванда: танҳо .tsv
 minimum-sentences = Шумораи ҳадди ақали ҷумлаҳо дар файл: 1000
 maximum-file-size = Андозаи ҳадди аксари файл: 25 MB
 what-needs-to-be-in-file = Дар файли ман чӣ бояд бошад?
 upload-progress-text = Боркунӣ дар ҳоли иҷро...
+sc-bulk-submit-confirm = Ман тасдиқ мекунам, ки ин ҷумлаҳо <wikipediaLink>сарвати ҷамъиятӣ</wikipediaLink> мебошанд ва ман барои бор кардани онҳо иҷозат дорам.
 bulk-upload-success-toast = Шумораи зиёди ҷумлаҳо бор карда шуданд
-bulk-upload-failed-toast = Боргирӣ иҷро нашуд, лутфан, аз нав кӯшиш кунед.
+bulk-upload-failed-toast = Боркунӣ иҷро нашуд, лутфан, аз нав кӯшиш кунед.
+bulk-submission-success-header = Ташаккур барои иштирок дар пешниҳоди оммавӣ!
 file-invalid-type = Файли номувофиқ
 file-too-large = Файл хеле калон аст
 file-too-small = Файл хеле хурд аст

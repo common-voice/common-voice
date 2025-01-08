@@ -23,6 +23,7 @@ respond-to-prompt = Ба дархост ҷавоб додан
 ## Not Found Page
 
 not-found-page-header = Ёфт нашуд
+not-found-page-content = Сафҳае, ки шумо меҷӯед, пайдо нашуд
 en = Англисӣ
 fr = Фаронсавӣ
 tr = Туркӣ

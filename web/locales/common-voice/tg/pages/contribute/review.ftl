@@ -35,6 +35,7 @@ sc-criteria-title = Меъёрҳои бознигарӣ
 sc-criteria-make-sure = Боварӣ ҳосил кунед, ки ҷумла ба меъёрҳои зерин мувофиқат мекунад:
 sc-criteria-item-1 = Ҷумла бояд дуруст навишта шавад.
 sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ дуруст бошад.
+sc-review-rules-title = Оё ҷумла ба меъёрҳои дастур мувофиқат мекунад?
 report-sc-different-language = Забони дигар
 sentences-fetch-error = Ҳангоми гирифтани ҷумлаҳо хато ба миён омад
 review-error = Ҳангоми баррасии ин ҷумла хато ба миён омад
