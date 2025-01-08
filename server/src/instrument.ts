@@ -9,8 +9,8 @@ Sentry.init({
   dsn: SENTRY_DSN_SERVER,
   debug: PROD ? false : true,
   integrations: [nodeProfilingIntegration()],
-  tracesSampleRate: 0.1,
-  profilesSampleRate: 0.1,
+  tracesSampleRate: 1.0,
+  profilesSampleRate: 1.0,
   environment: PROD ? 'prod' : 'stage',
   release: RELEASE_VERSION,
 })
