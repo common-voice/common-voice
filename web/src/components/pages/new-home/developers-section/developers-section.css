@@ -26,7 +26,11 @@
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 40px;
-                padding: 40px 30px;
+                padding: 40px 0px;
+            }
+
+            @media (--sm-only) {
+                padding-inline: 30px;
             }
 
             @media (--xs-down) {

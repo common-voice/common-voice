@@ -15,12 +15,12 @@ export const PartnerSection = () => {
             <h2 className="title" />
           </Localized>
           <Localized
-            id="partner-section-subtitle-tech-companies"
+            id="partner-section-subtitle-civil-society"
             elems={{ bold: <b /> }}>
             <p />
           </Localized>
           <Localized
-            id="partner-section-subtitle-civil-society"
+            id="partner-section-subtitle-tech-companies"
             elems={{ bold: <b /> }}>
             <p />
           </Localized>

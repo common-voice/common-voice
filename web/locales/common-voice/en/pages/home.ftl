@@ -180,7 +180,7 @@ press-and-stories-link = Press and stories
 ## Partner section
 partner-section-title = Partner with us
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Tech companies</bold> - invest in dataset creation for your products and the AI ecosystem
+partner-section-subtitle-tech-companies = <bold>Tech companies</bold> - invest in open dataset creation for a thriving multilingual AI ecosystem
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Civil society and researchers</bold> - create, host and share impactful datasets for free
 # Text wrapped in <bold></bold> will be shown in bold font

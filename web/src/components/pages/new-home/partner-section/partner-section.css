@@ -2,41 +2,44 @@
     .partner-section-container {
         background: linear-gradient(
                 90deg,
-                #f6f1d6 24%,
-                rgba(255, 239, 143, 0) 100%
+                rgba(246, 241, 214, 0.95) 32%,
+                rgba(255, 239, 143, 0) 98%
             ),
-            url('./assets/background.webp');
+            url('./assets/partner-with-us-bg.jpg');
 
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         display: flex;
-        align-items: center;
 
         @media (--sm-down) {
             height: 80vh;
             background: linear-gradient(
                     180deg,
-                    #ffef8f 44.5%,
+                    #f6f1d6 53.5%,
                     rgba(255, 239, 143, 0) 100%
                 ),
-                url('./assets/background-sm.jpg');
+                url('./assets/partner-with-us-bg-sm.jpg');
             background-repeat: no-repeat;
             background-size: contain;
             background-position-y: 100%;
         }
 
+        @media (--xs-down) {
+            height: 100vh;
+        }
+
         @media (--md-up) {
             height: 50vh;
+            min-height: 550px;
         }
 
         .content {
-            height: inherit;
             padding: 4rem 2rem;
 
             @media (--xl-up) {
-                left: 15%;
-                position: relative;
+                width: var(--desktop-width);
+                margin-inline: auto;
             }
 
             @media (--md-and-lg-only) {
@@ -52,7 +55,7 @@
                 font-weight: 500;
                 margin-block-end: 32px;
 
-                @media (--sm-down) {
+                @media (--xs-down) {
                     font-size: 24px;
                 }
             }
