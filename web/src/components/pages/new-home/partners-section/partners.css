@@ -1,6 +1,6 @@
 .partners-section {
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 6rem 1rem;
     background-color: var(--white);
 
     .partners-section-container {
@@ -22,23 +22,27 @@
             position: relative;
             padding: 1rem 0;
 
-            @media (--lg-down) {
-                gap: 4vw;
-            }
-
             @media (--sm-down) {
-                gap: 35vw;
+                gap: 12vw;
             }
 
-            @media (--lg-up) {
+            @media (width > 1600px) {
                 justify-content: center;
             }
 
             .logo {
-                flex-shrink: 0;
-                min-width: fit-content;
-                padding: 0;
-                white-space: nowrap;
+                width: 170px;
+
+                &.collectivat,
+                &.mak {
+                    width: 100px;
+                }
+
+                &.ff {
+                    @media (--xs-down) {
+                        width: 200px;
+                    }
+                }
             }
         }
     }
