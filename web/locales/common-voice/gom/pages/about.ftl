@@ -29,6 +29,12 @@ about-yes-votes-text = Common Voice dataset'an korpak, ek aavaz clip don vaglai 
 about-no-votes = ≥ 2 na vichla
 about-dataset-new = Common Voice'acho Dataset
 about-get-involved = Vanto ge
+about-stay-in-touch = Somporkant koso ravop?
+about-stay-in-touch-button = Sign up
+about-stay-in-touch-text-1 = Tumi Common Voice'cher mohim, kaaryaavli aani sh-dijhaayn vaishishtyaanni koshe vaanto ghevnk shktaat ten jaanun ghevpaa khaatir aamkyaa melinga listaant <emailFragment>saayn ap kraat</emailFragment>.
+about-nav-why-common-voice = Kityak ?
+about-nav-how-it-works = Koso ?
+about-nav-partners = Sangati
 
 ## Community Playbook Content
 ## What is a language
