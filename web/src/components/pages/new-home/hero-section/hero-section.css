@@ -189,6 +189,7 @@
                     height: 35vh;
                     min-width: 450px;
                     min-height: 430px;
+                    max-height: 430px;
                 }
 
                 @media (--sm-down) {

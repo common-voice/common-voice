@@ -40,7 +40,6 @@ const Footer = React.memo(() => {
       <div id="moz-links">
         <div className="divider-bottom" />
         <div className="links">
-          <div className="divider-vertical" />
           <div>
             <ContactLink>
               <Localized id="contact-us">
@@ -70,7 +69,11 @@ const Footer = React.memo(() => {
             <LocalizedLocaleLink id="about" to={URLS.ABOUT} />
             <GitHubLink>GitHub</GitHubLink>
             <Localized id="faq">
-              <Link to={toLocaleRoute(URLS.FAQ)} />
+              <Link
+                to={`${toLocaleRoute(
+                  URLS.ABOUT
+                )}?tab=what-is-language#playbook`}
+              />
             </Localized>
             <Localized id="documentation">
               <Link to={toLocaleRoute(URLS.FAQ)} />

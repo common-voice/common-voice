@@ -7,8 +7,8 @@
 
     & .title,
     & .goal-title {
-        margin-bottom: 10px;
-        color: var(--warm-grey);
+        margin-bottom: 20px;
+        color: var(--grey);
     }
 
     & .title {
@@ -40,7 +40,8 @@
         width: 100%;
         padding: 15px;
         font-size: var(--font-size);
-        background: hsla(0deg, 0%, 100%, 0.1);
+        background: var(--white);
+        border-radius: 0;
 
         &:focus {
             outline: none !important;
