@@ -16,3 +16,5 @@ partnerships-small-business-description = ما مدام چہ ڈیٹا صارفی
 partnerships-corporates-header = مزنیں کچے ءَ کارپوریٹ ءُ پلیٹ فارم کمپنی
 partnerships-corporates-description = اگاں شما ڈیٹاسیٹ ءِ بابت ءَ گیشتر گپ جنگ لوٹ اِت، منصوبہ بندیں پلیٹ فارم ءِ توسیپ ءِ تہا شریک سرمایہ کاری کنگ لوٹ اِت یا تعاون ءِ موہانی شوہاز ءَ اِت، <emailFragment>مارا یک لیکہے ءِ سرا نبشتہ بہ کن اِت۔</emailFragment>
 partnerships-our-partners = مئے شریک
+# menu item
+partners = شریک

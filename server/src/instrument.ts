@@ -8,8 +8,6 @@ Sentry.init({
   // no SENTRY_DSN_SERVER is set in development
   dsn: SENTRY_DSN_SERVER,
   integrations: [nodeProfilingIntegration()],
-  tracesSampleRate: 0.1,
-  profilesSampleRate: 0.1,
   environment: PROD ? 'prod' : 'stage',
   release: RELEASE_VERSION,
 })

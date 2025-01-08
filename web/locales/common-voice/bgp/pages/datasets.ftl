@@ -94,3 +94,7 @@ release-version = تہر
 dataset-date = تاریخ
 license = لائسنس:<licenseLink>{ $license }</licenseLink>
 license-mixed = مخلوط
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مئے توار ءِ ڈیٹاسیٹ ڈاؤن لوڈ کن اِت
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = مشترکہ آواز ءِ ڈیٹا ءَ رسگ ءِ واستہ ڈاؤن لوڈ ءِ آپشن

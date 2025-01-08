@@ -87,3 +87,26 @@ help-contribute = تو یک کامن وائس پروفائل ءِ جوڑ کنگ 
 login-company = لاگ ان / سائن اپ گوں{ $company } ای میل ءَ
 profile-not-required = پروفائل ءِ دارگ ءِ شریک بوھگ ءِ ھاترا ھچ وڑیں لوٹ نیست اگاں کہ اے کمکار اِنت، دیم ءَ بچار اِت کہ پرچا۔
 read-more-about = مئے بابت ءَ پیج ءَ گیشتر وانگ بہ بیت
+
+## NAV ITEMS
+
+answer-questions = سوالات جوابات<small>(زوت پیداکیں) </small>
+review-transcriptions = نقل ءِ چار ءُ تپاس<small> (زوت آھگ ءَ اِنت)</small>
+add-questions = جستاں ھوار کن اِت <small>(زوت آھگ ءَ اِنت)</small>
+transcribe-audio = آڈیو ءِ نبشتہ کنگ <small>(زوت آھگ ءَ اِنت)</small>
+press-and-stories = پریس ءُ کسہ
+community-and-languages = چاگرد ءُ زبان .
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = شریکداری، رسانکدر ءُ کسہ، چاگرد ءُ زبان
+partnerships-menu-item-tooltip = مئے گوما شریک بہ بئے
+press-and-stories-menu-item-tooltip = مئے بلاگ ءَ سر بہ بئے یا مئے باروا نبشتہ بہ کن
+community-and-languages-menu-item-tooltip = زبان ءُ چاگرد ءُ مشترکہ توار ءَ پٹ ءُ پول کن اِت
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = آپشنز مینو باروا
+partnerships-menu-item-aria-label = مشترکہ آواز ئے گوما شریکداری باروا سرپد بہ بئے
+press-and-stories-menu-item-aria-label = کامن وائس ءِ گوں سیادی داروکیں پریس ریلیز ءُ کسہاں سر بہ بئے
+community-and-languages-menu-item-aria-label = کمیونٹی ءُ زبانانی پٹ ءُ پول ءَ بکن اِت کہ کامن وائس ءِ کمک ءَ کنگ بنت

@@ -3,6 +3,7 @@ speak-now = Акнун ҳарф занед
 speak-subtitle = Овози худро пешкаш кунед
 record-cta = Оғоз кардани сабт
 record-platform-not-supported = Мутаассифона, платформаи шумо ҳоло дастгирӣ намешавад.
+record-must-allow-microphone = Шумо бояд дастрасии микрофонро иҷозат диҳед.
 record-no-mic-found = Микрофон ёфт нашуд.
 record-error-too-short = Сабт хеле кӯтоҳ буд.
 record-error-too-long = Сабт хеле дароз буд.
