@@ -29,5 +29,6 @@ citing-sentences-subheader-offline-sources = Манбаъҳои офлайн
 citation =
     .label = Иқтибос
 adding-sentences-subheader-length = Дарозӣ
+adding-sentences-subheader-length-explanation = Ҷумла бояд камтар аз 15 калима иборат бошад.
 adding-sentences-subheader-numbers = Рақамҳо
 adding-sentences-subheader-offensive-content = Муҳтавои таҳқиромез
