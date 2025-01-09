@@ -13,6 +13,7 @@ language-search-input =
 language-speakers = Баландгӯякҳо
 sentences = Ҷумлаҳо
 language-validation-hours = Соат
+language-validation-progress = Раванди баррасии дурустӣ
 contribute = Иштирок доштан
 get-involved-button = Ҳамроҳ шудан
 get-involved-title = Ба забони { $lang } саҳм гузоред
