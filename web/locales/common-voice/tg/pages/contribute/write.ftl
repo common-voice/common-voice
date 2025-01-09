@@ -9,6 +9,7 @@ small-batch-sentence-input-placeholder = Ҷумлаҳои худро аз ман
 citation-input-placeholder = Манбаи ҷумлаи худро ворид кунед (ҳатмӣ)
 citation =
     .label = Иқтибос
+sc-write-submit-confirm = Ман тасдиқ мекунам, ки ин ҷумла <wikipediaLink>аз манбаи дастраси умум</wikipediaLink> мебошад ва ман барои бор кардани он иҷозат дорам.
 sc-review-write-title = Кадом ҷумлаҳоро илова карда метавонам?
 sc-review-small-batch-title = Тарзи илова кардани якчанд ҷумла
 new-sentence-rule-2 = Камтар аз 15 калима дар як ҷумла
@@ -123,4 +124,6 @@ transcribe-audio-menu-item-tooltip = Табдил додани сабтҳои а
 
 ## MENU ITEM ARIA LABELS
 
+add-sentences-menu-item-aria-label = Ҷумлаҳои наверо илова кунед, то ки онҳо аз ҷониби ҷомеаи мо хонда шаванд
+review-sentences-menu-item-aria-label = Ҷумлаҳои ҷориеро, ки аз ҷониби ҷомеаи мо пешниҳод карда шудаанд, баррасӣ кунед
 transcribe-audio-menu-item-aria-label = Табдил додани сабтҳои аудиоӣ ба матн
