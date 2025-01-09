@@ -10,6 +10,7 @@ error-recording = ریکارڈنگ در ایک غلطی پیش ہنی
 error-fetching-prompts = پرامپٹس ھاصل تھونو وقت درجے سا غلطی بئیا
 error-uploading-response = تھئی رسپانس اپلوڈ تھؤنو در ایک غلطی بیلسی
 prompt-submitted-success = رسپانس کامیابی ست سبمیٹ بیلو
+prompt-response-deleted-success = جواب تھا ڈیلیٹ تھونو کامیاب ہنو
 # For the button to delete a response to a prompt
 delete = ڈیلیٹ
 # For the disabled button on a prompt that indicates a prompt is already submitted

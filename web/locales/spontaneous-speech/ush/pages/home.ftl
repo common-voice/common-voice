@@ -21,6 +21,7 @@ transcribe-bubble-title = <mark> ٹرانسکرائیب </mark>
 check-bubble-title = <mark> چیک </mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark> ڈیٹا </mark>
+data-bubble-subtitle = آسئی ہر وقت در ڈیٹاسیٹ جاری تھینو
 contact-us = آسو ست رابطہ تھے
 contact-us-title = تو انا پروجیکٹ در شامل بونو جے دلچسپی لرئیلا یا اسو ست شریک بئیلا؟
 contact-us-email = ای میل <emailFragment>commonvoice@mozilla.com</emailFragment>
