@@ -61,7 +61,11 @@ sentence-variant-select-multiple-variants = Забони умумӣ / навъҳ
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ҷумлаҳоро аз манбаи дастраси умум <icon></icon> бор кунед
+sc-bulk-upload-instruction = Файли худро ба ин ҷой кашед ё <uploadButton>барои бор кардани он дар ин ҷой зер кунед</uploadButton>
 sc-bulk-upload-instruction-drop = Барои бор кардани файл, онро дар ин ҷой гузоред
+bulk-upload-additional-information = Агар маълумоти иловагӣ дошта бошед, ки шумо мехоҳед дар бораи ин файл пешниҳод кунед, лутфан, бо мо тавассути нишонии почтаи электронии <emailFragment>commonvoice@mozilla.com</emailFragment> дар тамос шавед.
+template-file-additional-information = Агар маълумоти иловагие, ки ба ин намуна дохил нашудааст, дошта бошед, ки шумо мехоҳед дар бораи ин файл пешниҳод кунед, лутфан, бо мо тавассути нишонии почтаи электронии <emailFragment>commonvoice@mozilla.com</emailFragment> дар тамос шавед.
+try-upload-again = Файли худро ба ин ҷой кашида, аз нав кӯшиш кунед
 try-upload-again-md = Кӯшиш кунед, ки аз нав бор намоед
 select-file = Интихоби файл
 select-file-mobile = Файлро барои боркунӣ интихоб намоед
