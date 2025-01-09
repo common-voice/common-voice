@@ -5,9 +5,13 @@ language = Забон
 download-dataset-header = Боргирӣ кардани маҷмуи маълумот
 # File size in gigabytes
 size = Андоза
+validated-hr-total = Соатҳои тасдиқшуда (Ҳамагӣ)
+overall-hr-total = Вақти умумӣ (Соатҳо)
 cv-license = Иҷозатнома
 audio-format = Формати аудио
+dataset-splits = Тақсимот (синну сол ва ҷинс)
 number-of-voices = Шумораи овозҳо
+splits = Тақсимот
 email-to-download = Барои боргирӣ, нишонии почтаи электрониро ворид намоед
 size-gigabyte = ГБ
 size-megabyte = МБ
@@ -20,6 +24,7 @@ other-datasets = Маҷмуи маълумоти овозии дигар
 feedback-q = Мехоҳед, ки назари худро изҳор кунед?
 # This indicates that there is no data to display
 no-information = Маълумот нест
+community-playbook = Китоби омӯзишӣ барои ҷомеа
 data-other-ted-name = Маҷмуи «TED-LIUM»
 go-discourse = Гузариш ба «Discourse»
 missing-language = Забони худро дар маҷмуи маълумот намебинед? Барои дархост кардани забон ба саҳифаи забонҳои мо ворид шавед.

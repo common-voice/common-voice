@@ -5,10 +5,13 @@ toward-next-goal = Ба суйи мақсади оянда
 goal-reached = Ба мақсад расидед
 clips-you-recorded = Овозҳое, ки шумо сабт кардед
 clips-you-validated = Овозҳое, ки шумо тасдиқ кардед
+todays-recorded-progress = Пешравии имрӯзаи «Common Voice» дар овозҳои сабтшуда
+todays-validated-progress = Пешравии имрӯзаи «Common Voice» дар овозҳои тасдиқшуда
 stats = Омор
 awards = Мукофот
 you = Шумо
 everyone = Ҳар як кас
+contribution-activity = Фаъолияти саҳмгузорӣ
 top-contributors = Саҳмгузорони беҳтарин
 recorded-clips = Овозҳои сабтшуда
 validated-clips = Сабтҳои тасдиқшуда
@@ -34,6 +37,7 @@ set-a-goal = Ҳадаф гузоштан
 cant-decide = Қарор карда наметавонед?
 how-many-per-day = Олиҷаноб! Дар як рӯз чанд сабт?
 how-many-a-week = Олиҷаноб! Дар як ҳафта чанд сабт?
+which-goal-type = Оё шумо мехоҳед, ки гап занед, гӯш кунед ё ҳарду амалро иҷро намоед?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] сабт

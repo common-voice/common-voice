@@ -126,4 +126,5 @@ transcribe-audio-menu-item-tooltip = Табдил додани сабтҳои а
 
 add-sentences-menu-item-aria-label = Ҷумлаҳои наверо илова кунед, то ки онҳо аз ҷониби ҷомеаи мо хонда шаванд
 review-sentences-menu-item-aria-label = Ҷумлаҳои ҷориеро, ки аз ҷониби ҷомеаи мо пешниҳод карда шудаанд, баррасӣ кунед
+add-questions-menu-item-aria-label = Саволҳои наверо пешниҳод кунед, то ки дар ҷомеаи мо онҳоро хонда, ҷавобҳоро нависанд
 transcribe-audio-menu-item-aria-label = Табдил додани сабтҳои аудиоӣ ба матн
