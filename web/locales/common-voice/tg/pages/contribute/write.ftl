@@ -6,6 +6,7 @@ sentence =
     .label = Ҷумла
 sentence-input-placeholder = Ҷумлаи худро аз манбаи дастраси умум дар ин ҷой ворид намоед
 small-batch-sentence-input-placeholder = Ҷумлаҳои худро аз манбаи дастраси умум дар ин ҷой ворид намоед
+citation-input-placeholder = Манбаи ҷумлаи худро ворид кунед (ҳатмӣ)
 citation =
     .label = Иқтибос
 sc-review-write-title = Кадом ҷумлаҳоро илова карда метавонам?

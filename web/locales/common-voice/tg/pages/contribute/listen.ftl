@@ -10,6 +10,7 @@ validate-readings = Тасдиқи дурустии хониш
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Хонишҳоро тасдиқ кунед, Овонависиро баррасӣ намоед
 
 ## MENU ITEM ARIA LABELS
 
