@@ -3,6 +3,7 @@
 sc-review-title = Баррасии ҷумлаҳо
 sc-review-loading = Ҷумлаҳо бор шуда истодаанд…
 sc-review-select-language = Лутфан, барои баррасӣ кардани ҷумлаҳо забонеро интихоб намоед.
+sc-review-no-sentences = Ягон ҷумлаи дигар барои баррасӣ нест. <addLink>Акнун ҷумлаҳои навро ҳар чи бештар илова кунед!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Манбаъ: { $sentenceSource }
@@ -35,6 +36,7 @@ sc-criteria-title = Меъёрҳои бознигарӣ
 sc-criteria-make-sure = Боварӣ ҳосил кунед, ки ҷумла ба меъёрҳои зерин мувофиқат мекунад:
 sc-criteria-item-1 = Ҷумла бояд дуруст навишта шавад.
 sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ дуруст бошад.
+sc-criteria-item-4 = Агар ҷумла ба меъёрҳо мувофиқ бошад, тугмаи &quot;Тасдиқ кардан&quot;-ро аз тарафи рост зер кунед.
 sc-review-rules-title = Оё ҷумла ба меъёрҳои дастур мувофиқат мекунад?
 report-sc-different-language = Забони дигар
 sentences-fetch-error = Ҳангоми гирифтани ҷумлаҳо хато ба миён омад

@@ -23,6 +23,7 @@ show-ranking = Рейтинги маро нишон диҳед
 ## Custom Goals
 
 get-started-goals = Гузоштани ҳадафҳо
+create-custom-goal = Эҷод кардани ҳадафи шахсӣ
 goal-type = Шумо ба кадом мақсад ноил шудан мехоҳед?
 both-speak-and-listen = Ҳарду
 both-speak-and-listen-long = Ҳарду (гап задан ва гӯш кардан)

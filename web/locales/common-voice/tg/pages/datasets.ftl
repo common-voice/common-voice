@@ -20,6 +20,7 @@ validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 whats-inside = Маҷмуи маълумоти «Common Voice» чиро дар бар мегирад?
 subscribe = Обуна шудан
+get-started-speech = Маълумот дар бораи оғози кор ё тарзи истифодаи овошиносии «Common Voice» дар барномаҳои худ
 other-datasets = Маҷмуи маълумоти овозии дигар
 feedback-q = Мехоҳед, ки назари худро изҳор кунед?
 # This indicates that there is no data to display
