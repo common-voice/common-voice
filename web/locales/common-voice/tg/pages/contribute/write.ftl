@@ -24,6 +24,8 @@ add-sentence-success = 1 ҷумла ҷамъ карда шуд
 add-sentence-error = Хатои илова кардани ҷумла
 required-field = Лутфан, ин майдонро пур кунед.
 single-sentence-submission = Пешниҳоди як ҷумла
+small-batch-sentence-submission = Пешниҳод кардани ҷумлаҳо дар баста бо ҳаҷми хурд
+bulk-sentence-submission = Пешниҳод кардани ҷумлаҳо дар баста бо ҳаҷми калон
 single-sentence = Як ҷумла
 small-batch-sentence = Баста бо ҳаҷми хурд
 bulk-sentence = Баста бо ҳаҷми калон
@@ -112,9 +114,11 @@ add-sentences = Илова кардани ҷумлаҳо
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Илова ва баррасӣ кардани ҷумлаҳо, Илова кардани саволҳо, Табдил додани аудио ба матн
 add-sentences-menu-item-tooltip = Ҷумлаҳоро бо забони худ илова кунед
 review-sentences-menu-item-tooltip = Ҷумлаҳоро бо забони худ баррасӣ кунед
 add-questions-menu-item-tooltip = Саволҳоро ба забони худ илова кунед
+transcribe-audio-menu-item-tooltip = Табдил додани сабтҳои аудиоӣ ба матн дар забони худ
 
 ## MENU ITEM ARIA LABELS
 

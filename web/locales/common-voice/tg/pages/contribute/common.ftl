@@ -123,6 +123,7 @@ contribution-background-noise-title = Садои атроф
 contribution-background-noise-example-1-fixed-title = <strong>[Атса задан]</strong> Динозаврҳои азими <strong>[сулфа]</strong> давраи Триассӣ.
 contribution-background-noise-example-2-fixed-title = Динозаври азими <strong>[сулфа]</strong> давраи Триассӣ.
 contribution-background-noise-example-2-explanation = [Қисми матн шунида намешавад]
+contribution-background-noise-example-3-fixed-title = <strong>[Қарсос]</strong> Динозаврҳои азими <strong>[қарсос]</strong> давраи Триассӣ.
 contribution-background-voices-title = Овозҳои атроф
 contribution-background-voices-example-1-title = Динозаврҳои азими давраи Триассӣ. <strong>[бо як овоз хонда шуд]</strong>
 contribution-volume-title = Баландии садо
