@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = Навиштан
-write-instruction = Илова кардани <icon></icon> ҷумлаи дастраси умум
+write-instruction = Илова кардани <icon></icon> ҷумла аз манбаи дастраси умум
 sentence =
     .label = Ҷумла
 sentence-input-placeholder = Ҷумлаи худро аз манбаи дастраси умум дар ин ҷой ворид намоед
@@ -15,6 +15,7 @@ new-sentence-rule-3 = Грамматикаи дурустро истифода �
 new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои китобати дурустро истифода баред
 new-sentence-rule-5 = Бе рақамҳо ва аломатҳои махсус
 new-sentence-rule-6 = Бе ҳарфҳои хориҷӣ
+new-sentence-rule-7 = Иқтибоси мувофиқро дохил кунед
 login-instruction-multiple-sentences = Барои илова кардани зиёда аз як ҷумла, лутфан, <loginLink>ворид шавед</loginLink> ё <loginLink>ҳисобро ба қайд гиред</loginLink>
 how-to-cite = Чӣ тавр ман иқтибос меорам?
 guidelines = Дастурҳо
@@ -24,6 +25,8 @@ add-sentence-error = Хатои илова кардани ҷумла
 required-field = Лутфан, ин майдонро пур кунед.
 single-sentence-submission = Пешниҳоди як ҷумла
 single-sentence = Як ҷумла
+small-batch-sentence = Баста бо ҳаҷми хурд
+bulk-sentence = Баста бо ҳаҷми калон
 sentence-domain-combobox-label = Манбаи ҷумлаҳо
 sentence-domain-select-placeholder = То се манбаъ интихоб кунед (ихтиёрӣ)
 # Sentence Domain dropdown option
@@ -56,6 +59,8 @@ sentence-variant-select-multiple-variants = Забони умумӣ / навъҳ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ҷумлаҳоро аз манбаи дастраси умум <icon></icon> бор кунед
 sc-bulk-upload-instruction-drop = Барои бор кардани файл, онро дар ин ҷой гузоред
 try-upload-again-md = Кӯшиш кунед, ки аз нав бор намоед
 select-file = Интихоби файл
@@ -65,7 +70,7 @@ minimum-sentences = Шумораи ҳадди ақали ҷумлаҳо дар �
 maximum-file-size = Андозаи ҳадди аксари файл: 25 MB
 what-needs-to-be-in-file = Дар файли ман чӣ бояд бошад?
 upload-progress-text = Боркунӣ дар ҳоли иҷро...
-sc-bulk-submit-confirm = Ман тасдиқ мекунам, ки ин ҷумлаҳо <wikipediaLink>сарвати ҷамъиятӣ</wikipediaLink> мебошанд ва ман барои бор кардани онҳо иҷозат дорам.
+sc-bulk-submit-confirm = Ман тасдиқ мекунам, ки ин ҷумлаҳо <wikipediaLink>аз манбаи дастраси умум</wikipediaLink> мебошанд ва ман барои бор кардани онҳо иҷозат дорам.
 bulk-upload-success-toast = Шумораи зиёди ҷумлаҳо бор карда шуданд
 bulk-upload-failed-toast = Боркунӣ иҷро нашуд, лутфан, аз нав кӯшиш кунед.
 bulk-submission-success-header = Ташаккур барои иштирок дар пешниҳоди оммавӣ!
@@ -76,6 +81,8 @@ too-many-files = Шумораи файлҳои аз ҳад зиёд аст
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Илова кардани якчанд ҷумла аз манбаи дастраси умум
 multiple-sentences-error = Шумо наметавонед, ки дар ҳудуди як пешниҳод якчанд ҷумларо илова кунед
 exceeds-small-batch-limit-error = Пешниҳод кардани зиёда аз 1000 ҷумла ғайриимкон аст
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
