@@ -25,6 +25,7 @@ adding-sentences = Илова кардани ҷумлаҳо
 reviewing-sentences = Баррасии ҷумлаҳо
 sentence-domain = Манбаи ҷумлаҳо
 citing-sentences-subheader-websites = Сомонаҳо
+citing-sentences-subheader-offline-sources = Манбаъҳои офлайн
 citation =
     .label = Иқтибос
 adding-sentences-subheader-length = Дарозӣ

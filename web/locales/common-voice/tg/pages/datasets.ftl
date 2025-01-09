@@ -17,6 +17,7 @@ recorded-hours = Соатҳои сабтшуда
 whats-inside = Маҷмуи маълумоти «Common Voice» чиро дар бар мегирад?
 subscribe = Обуна шудан
 other-datasets = Маҷмуи маълумоти овозии дигар
+feedback-q = Мехоҳед, ки назари худро изҳор кунед?
 # This indicates that there is no data to display
 no-information = Маълумот нест
 data-other-ted-name = Маҷмуи «TED-LIUM»
