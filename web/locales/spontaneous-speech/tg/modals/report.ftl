@@ -10,6 +10,7 @@ report-other-comment =
     .placeholder = Шарҳ
 # Label for textarea in report modal
 other = Дигар
+report-error = Ҳангоми интиқолдиҳии гузориш хато ба миён омад
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Идома додан
 # Header for report modal after successful reporting

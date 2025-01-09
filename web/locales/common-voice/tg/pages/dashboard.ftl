@@ -56,6 +56,7 @@ share-goal = Ҳадафи маро мубодила кунед
 
 ## Goals
 
+streaks = Тараққиёт
 days =
     { $count ->
         [one] рӯз
