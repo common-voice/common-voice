@@ -24,5 +24,6 @@ citing-sentences-subheader-offline-sources = Offline Sources
 citation =
     .label = 'Citation'
 self-citation = Aple Citation
+adding-sentences-subheader-length = Lambe
 adding-sentences-subheader-speakable = Uloipa sarke
 adding-sentences-subheader-numbers = Nombor (Numbers)
