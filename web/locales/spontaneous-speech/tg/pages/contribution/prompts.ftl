@@ -18,3 +18,4 @@ submit-all-button = Ҳамаро пешниҳод кунед
 
 learn-how-to-use-prompts = Маълумот дар бораи тарзи истифодаи ин саҳифа
 learn-how-to-use-transcribe = Маълумот дар бораи овонависӣ
+learn-how-to-use-check-transcript = Маълумот дар бораи тарзи тафтиши овонависӣ
