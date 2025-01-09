@@ -1,6 +1,7 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Хуш омадед ба «Spontanous Speech»
+why-spontaneous-speech = Чаро мо ин тимсоли «Spontane Speech»-ро сохтем
 how-spontaneous-speech-works = Чӣ тавр «Spontaneous Speech» кор мекунад
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Дархост</mark>

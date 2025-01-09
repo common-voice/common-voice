@@ -86,6 +86,7 @@ about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 about-playbook-how-validate = Чӣ тавр муайян кунам, ки метавонам сабти овозиро тасдиқ кунам ё рад намоям?
 about-playbook-how-validate-content-1 = Агар шумо тавонед <strong>онҳоро шунавед</strong> ва <strong>фаҳмед</strong>, одатан, <strong>беҳтар аст, ки онҳоро тасдиқ намоед</strong>.
+about-playbook-how-validate-content-4 = Агар сабтро 2 нафар рад кунанд, он дар зермаҷмуи дигари маҷмуи маълумот нашр мешавад.
 
 ## How to access dataset
 

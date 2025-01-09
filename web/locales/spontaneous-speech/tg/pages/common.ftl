@@ -17,6 +17,7 @@ report-button = Гузориш додан
 # For the button to skip an item
 skip-button = Нодида гузарондан
 submit-button = Пешниҳод кардан
+contribute = Саҳм гузоштан
 
 ## Navbar
 
