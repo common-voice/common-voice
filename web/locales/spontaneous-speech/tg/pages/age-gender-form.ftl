@@ -3,6 +3,7 @@ age-gender-form-title = Ташаккур ба шумо барои саҳмгуз
 add-information-button = Илова кардани маълумот
 age-select-label = Шумо чандсолаед?
 select-your-age = Синну соли худро интихоб кунед
+gender-select-label = Ҷинс ё ҷинсияти шумо чист?
 select-your-gender = Ҷинсияти худро интихоб кунед
 country-of-residence-label = Кишвар/Минтақаи истиқомат
 country-of-residence-placeholder =

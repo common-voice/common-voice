@@ -28,6 +28,8 @@ native-language =
 profile-form-add-accent = Илова кардани лаҳҷаи фармоишии нави «{ $inputValue }»
 profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
+male_masculine = Мард/Мардона
+female_feminine = Зан/Занона
 # Gender
 other = Дигар
 why-profile-title = Чаро профил?
@@ -43,6 +45,7 @@ profile-explanation = Пешрафти худро бо профил пайгир
 thanks-for-account = Ташаккур барои тасдиқи ҳисоби шумо, акнун биёед профили шуморо созем.
 why-demographic = Чаро ин муҳим аст?
 accept-privacy-title = Сиёсати махфият
+accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> лоиҳаи «Common Voice» розӣ ҳастам
 login-identity = Шиносоии воридшавӣ
 login = Ворид шудан
 edit = Таҳрир кардан

@@ -22,11 +22,17 @@ contribute = Саҳм гузоштан
 ## Navbar
 
 respond-to-prompt = Ба дархост ҷавоб додан
+transcribe-audio = Табдил додани аудио ба матн
+check-transcriptions = Тафтиш кардани овонависӣ
 
 ## Not Found Page
 
 not-found-page-header = Ёфт нашуд
 not-found-page-content = Сафҳае, ки шумо меҷӯед, пайдо нашуд
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> лоиҳаи «Common Voice» розӣ ҳастам
+# Locales
+bsy = Сабах Бисайя
 en = Англисӣ
 fr = Фаронсавӣ
 tr = Туркӣ
