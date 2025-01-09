@@ -1,6 +1,7 @@
 # Age and Gender form
 age-gender-form-title = Ташаккур ба шумо барои саҳмгузорӣ дар «Spontaneous Speech»!
 add-information-button = Илова кардани маълумот
+continue-speaking-button = Идома додани сухан
 age-select-label = Шумо чандсолаед?
 select-your-age = Синну соли худро интихоб кунед
 gender-select-label = Ҷинс ё ҷинсияти шумо чист?

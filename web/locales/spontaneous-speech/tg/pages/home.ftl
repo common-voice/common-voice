@@ -14,6 +14,7 @@ transcribe-bubble-title = <mark>Табдил додан</mark>
 transcribe-bubble-subtitle = Шумо он чизеро, ки дар сабтҳои аудиоӣ мешунавед, менависед
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тафтиш кардан</mark>
+check-bubble-subtitle = Шумо мувофиқати овонависӣ ё матни сабтро нисбат ба аудио тафтиш мекунед
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Маълумот</mark>
 data-bubble-subtitle = Мо маҷмуи маълумотро ба таври муназзам нашр мекунем
