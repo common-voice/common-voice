@@ -8,3 +8,5 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Номҳои забони шумо
 request-language-form-info-explanation-list-2 = <isoCodeLink>Рамзҳои «ISO»</isoCodeLink>, агар маълум бошад
 request-language-form-info-explanation-list-3 = Истинодҳо ба сомонаҳое, ки метавонанд ба мо дар фаҳмидани забон кумак расонанд
+# Success page
+request-language-success-heading = Ташаккур! Шумо дархости забони навро фиристодед

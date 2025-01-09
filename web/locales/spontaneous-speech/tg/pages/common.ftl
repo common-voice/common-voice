@@ -8,6 +8,8 @@ action-tap = Зарба задан
 interface-language = Забони интерфейс:
 # Label for button on contribution switcher
 change = Тағйир додан
+coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
+media-recorder-api-not-supported = «MediaRecorder API» дар браузери шумо дастгирӣ намешавад.
 audioplayer-header = Гӯш кардан
 guidelines = Роҳнамо
 # For the button to report an item
