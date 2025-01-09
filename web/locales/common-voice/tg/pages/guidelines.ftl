@@ -26,6 +26,7 @@ adding-sentences = Илова кардани ҷумлаҳо
 reviewing-sentences = Баррасии ҷумлаҳо
 sentence-domain = Манбаи ҷумлаҳо
 citing-sentences-subheader-websites = Сомонаҳо
+citing-sentences-subheader-websites-explanation = Шумо метавонед сомонаи моро дохил кунед, масалан: «Common Voice» - https://commonvoice.mozilla.org/
 citing-sentences-subheader-offline-sources = Манбаъҳои офлайн
 citation =
     .label = Иқтибос
