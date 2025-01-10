@@ -2,6 +2,7 @@
 
 record-player-header = Ҷавоби худро сабт намоед
 mic-access-error = Шумо бояд дастрасии микрофонро иҷозат диҳед.
+error-skipping = Ҳангоми нодида гузаронидани ин дархост хато ба миён омад
 error-recording = Ҳангоми сабт хато ба миён омад
 error-fetching-prompts = Ҳангоми гирифтани дархостҳо чизе нодуруст ба миён омад. Лутфан, баъдтар аз нав кӯшиш кунед.
 error-uploading-response = Ҳангоми боркунии ҷавоби шумо хато ба миён омад
@@ -18,4 +19,6 @@ submit-all-button = Ҳамаро пешниҳод кунед
 
 learn-how-to-use-prompts = Маълумот дар бораи тарзи истифодаи ин саҳифа
 learn-how-to-use-transcribe = Маълумот дар бораи овонависӣ
+learn-how-to-use-transcribe-guidance = Барои гирифтани маълумот дар бораи тарзи истифодаи ин саҳифа, <guidanceLink>дар ин ҷой</guidanceLink> зер кунед
 learn-how-to-use-check-transcript = Маълумот дар бораи тарзи тафтиши овонависӣ
+learn-how-to-use-check-transcript-guidance = Барои гирифтани маълумот дар бораи тарзи истифодаи ин саҳифа, <guidanceLink>дар ин ҷой</guidanceLink> зер кунед
