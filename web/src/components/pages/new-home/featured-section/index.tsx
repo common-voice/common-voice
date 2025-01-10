@@ -1,9 +1,6 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { Button } from '../../../ui/ui'
-import { CloudIcon } from '../../../ui/icons'
-
 import './featured-section.css'
 
 export const FeaturedSection = () => {
@@ -19,6 +16,8 @@ export const FeaturedSection = () => {
             src={require('./assets/venture-beat.svg')}
             alt=""
             className="logo"
+            width={220}
+            height={30}
           />
           <img
             src={require('./assets/MIT-technology-review.svg')}
@@ -36,9 +35,6 @@ export const FeaturedSection = () => {
             className="logo"
           />
         </div>
-        <Localized id="download-press-pack" elems={{ icon: <CloudIcon /> }}>
-          <Button rounded />
-        </Localized>
       </div>
     </section>
   )

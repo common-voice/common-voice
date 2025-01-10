@@ -12,8 +12,7 @@
         background-position: center center;
         display: flex;
 
-        @media (--sm-down) {
-            height: 80vh;
+        @media (--xs-down) {
             background: linear-gradient(
                     180deg,
                     #f6f1d6 53.5%,
@@ -23,10 +22,8 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position-y: 100%;
-        }
-
-        @media (--xs-down) {
-            height: 100vh;
+            min-height: 700px;
+            max-height: 830px;
         }
 
         @media (--md-up) {

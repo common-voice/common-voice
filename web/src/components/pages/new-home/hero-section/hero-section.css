@@ -21,9 +21,8 @@
             padding-block-end: 50px;
         }
 
-        @media (--sm-down) {
-            flex-direction: column;
-            gap: 24px;
+        @media (--sm-only) {
+            padding-block-end: 20px;
         }
 
         @media (--sm-down) {
@@ -31,10 +30,19 @@
             background-size: 100% 100%;
         }
 
+        @media (--xs-down) {
+            flex-direction: column;
+            gap: 24px;
+        }
+
         .hero-text-wrapper {
             display: flex;
 
             @media (--md-and-lg-only) {
+                flex: 1;
+            }
+
+            @media (--sm-only) {
                 flex: 1;
             }
 
@@ -95,6 +103,10 @@
                 p {
                     font-size: 20px;
 
+                    &:first-of-type {
+                        margin-block-end: 10px;
+                    }
+
                     &:nth-of-type(2) {
                         text-wrap: balance;
                     }
@@ -118,7 +130,11 @@
                     border: none;
                     font-size: var(--font-size);
 
-                    @media (--sm-down) {
+                    @media (--sm-only) {
+                        margin-block-start: 20px;
+                    }
+
+                    @media (--xs-down) {
                         align-self: center;
                         margin-inline-end: 24px;
                     }
@@ -192,7 +208,14 @@
                     max-height: 430px;
                 }
 
-                @media (--sm-down) {
+                @media (--sm-only) {
+                    height: 40vh;
+                    width: 44vw;
+                    min-height: 340px;
+                    max-height: 340px;
+                }
+
+                @media (--xs-down) {
                     width: 100vw;
                     height: 50vh;
                     margin-block: 36px;
@@ -202,7 +225,7 @@
                     border-top-left-radius: 55%;
                     border-bottom-left-radius: 50%;
                     width: 100vw;
-                    height: 41vh;
+                    height: 50vh;
                     display: flex;
                     align-items: center;
                     min-height: 360px;
@@ -238,7 +261,13 @@
                         max-height: 440px;
                     }
 
-                    @media (--sm-down) {
+                    @media (--sm-only) {
+                        height: 80%;
+                        max-height: 340px;
+                        min-height: 340px;
+                    }
+
+                    @media (--xs-down) {
                         flex-direction: column-reverse;
                         top: 35%;
                         z-index: 2;
@@ -291,6 +320,11 @@
                                 width: 64px;
                             }
 
+                            @media (--sm-only) {
+                                height: 54px;
+                                width: 54px;
+                            }
+
                             svg {
                                 width: 25px;
                                 height: 25px;
@@ -319,7 +353,7 @@
                                 left: 0;
                             }
 
-                            @media (--sm-down) {
+                            @media (--xs-down) {
                                 display: none;
                             }
                         }
@@ -344,6 +378,11 @@
                         align-self: center;
                         z-index: var(--top-z-index);
 
+                        @media (--sm-only) {
+                            height: 100px;
+                            width: 100px;
+                        }
+
                         @media (--xl-up) {
                             position: absolute;
                             bottom: 8px;
@@ -365,6 +404,11 @@
                         svg {
                             width: 45px;
                             height: 45px;
+
+                            @media (--sm-only) {
+                                width: 40px;
+                                height: 40px;
+                            }
                         }
                     }
                 }
@@ -385,7 +429,7 @@
                     left: 40%;
                 }
 
-                @media (--sm-down) {
+                @media (--xs-down) {
                     top: 50%;
                     right: 20%;
                     z-index: 1;

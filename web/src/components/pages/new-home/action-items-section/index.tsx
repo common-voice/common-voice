@@ -17,7 +17,7 @@ export const ActionItemsSection: React.FC<Props> = ({
   isLocaleContributable,
 }) => {
   return (
-    <section className="action-items-section">
+    <section className="action-items-section" id="action-items">
       <div className="action-items-section-container">
         <Localized id="action-items-section-title">
           <h1 className="title" />

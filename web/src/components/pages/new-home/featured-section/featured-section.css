@@ -22,6 +22,10 @@
             position: relative;
             padding: 1rem 0;
 
+            @media (--xs-down) {
+                gap: 2rem;
+            }
+
             @media (width > 1600px) {
                 justify-content: center;
             }
@@ -31,34 +35,6 @@
                 min-width: fit-content;
                 padding: 0;
                 white-space: nowrap;
-            }
-        }
-
-        .button {
-            margin-block-start: 4rem;
-            padding: 0.75rem 1.5rem;
-            font-size: var(--font-size);
-            background: var(--light-purple);
-            color: var(--white);
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            height: 57px;
-            width: auto;
-
-            svg {
-                margin-inline-start: 12px;
-
-                path {
-                    fill: var(--white);
-                }
-            }
-
-            &:hover {
-                color: var(--white);
-                background-color: var(--light-purple);
             }
         }
     }

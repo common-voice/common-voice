@@ -23,7 +23,7 @@ export const GetInvolvedSection: React.FC<Props> = ({
   const [_, toLocaleRoute] = useLocale()
 
   return (
-    <section className="get-involved-section" id="get-involved">
+    <section className="get-involved-section">
       <Localized id="get-involved-section-title">
         <h2 />
       </Localized>

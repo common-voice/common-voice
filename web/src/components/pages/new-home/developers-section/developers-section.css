@@ -29,18 +29,23 @@
                 padding: 40px 0px;
             }
 
-            @media (--sm-only) {
+            @media (--sm-down) {
                 padding-inline: 30px;
             }
 
             @media (--xs-down) {
                 align-items: center;
+                width: 100%;
             }
 
             .text-container {
                 display: flex;
                 flex-direction: column;
                 gap: 32px;
+
+                @media (--xs-down) {
+                    max-width: 300px;
+                }
 
                 h1 {
                     color: var(--white);
@@ -57,7 +62,10 @@
 
                     @media (--md-down) {
                         font-size: 24px;
-                        width: 260px;
+                    }
+
+                    @media (--xs-down) {
+                        width: auto;
                     }
                 }
 
@@ -69,7 +77,10 @@
 
                     @media (--md-down) {
                         font-size: 18px;
-                        width: 260px;
+                    }
+
+                    @media (--xs-down) {
+                        width: auto;
                     }
                 }
 

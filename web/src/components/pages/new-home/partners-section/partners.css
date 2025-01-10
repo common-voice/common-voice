@@ -4,6 +4,7 @@
     background-color: var(--white);
 
     .partners-section-container {
+        overflow-x: auto;
         .partners-title {
             font-size: 40px;
             margin-block-end: 30px;
@@ -16,19 +17,12 @@
         .partners-logos {
             display: flex;
             align-items: center;
-            gap: 6vw;
-            overflow: auto;
+            width: var(--desktop-width);
+            margin: 0 auto;
             white-space: nowrap;
             position: relative;
             padding: 1rem 0;
-
-            @media (--sm-down) {
-                gap: 12vw;
-            }
-
-            @media (width > 1600px) {
-                justify-content: center;
-            }
+            justify-content: space-between;
 
             .logo {
                 width: 170px;

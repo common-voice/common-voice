@@ -3,6 +3,7 @@
 footer {
     flex-shrink: 0;
     background-color: var(--black);
+    overflow-x: hidden;
 }
 
 #help-links {
@@ -64,8 +65,7 @@ footer {
     @media (--xl-up) {
         margin: 0 auto;
         padding: 0.4rem 20px;
-        max-width: 85rem;
-        width: 100%;
+        max-width: var(--desktop-width);
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
@@ -159,8 +159,7 @@ footer {
 #logo-license-text {
     align-content: center;
     margin: 0 auto;
-    width: 100%;
-    max-width: 85rem;
+    max-width: var(--desktop-width);
     padding-inline-start: 20px;
 
     & .logo-container {
