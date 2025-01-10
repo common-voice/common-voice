@@ -49,6 +49,7 @@ about-playbook-what-is-language = Common Voice'ar Bhaxa mhunlar kite?
 
 about-playbook-how-add-language = Bhaxa koshi zodop?
 about-playbook-how-add-language-translating-heading = Site'ik anuvaad korta
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon koso vaapor kopacho haacher aamcho maargadarshak paiyat.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Vakio zoma zata
 
 ## How does localization work
