@@ -34,11 +34,18 @@ average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
 want-to-continue = Шумо мехоҳед, ки идома диҳед?
+build-custom-goal = Сохтани ҳадафи шахсӣ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Бо ҳадафи шахсӣ барои расидан ба { $hours } соат дар { $language } кумак кунед
+       *[other] Бо ҳадафи шахсӣ барои расидан ба { $hours } соат дар { $language } кумак кунед
+    }
 set-a-goal = Ҳадаф гузоштан
 cant-decide = Қарор карда наметавонед?
 how-many-per-day = Олиҷаноб! Дар як рӯз чанд сабт?
 how-many-a-week = Олиҷаноб! Дар як ҳафта чанд сабт?
 which-goal-type = Оё шумо мехоҳед, ки гап занед, гӯш кунед ё ҳарду амалро иҷро намоед?
+receiving-emails-info = Шумо дар айни замон муқаррар кардаед, ки паёмҳои электрониро ба монанди ёдовариҳо оид ба ҳадафҳо, навигариҳо оид ба пешрафтҳои ман ва паёмҳои иттилоотӣ оид ба «Common Voice» қабул намоед.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] сабт
