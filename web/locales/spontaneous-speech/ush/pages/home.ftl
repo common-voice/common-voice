@@ -8,6 +8,8 @@ why-spontaneous-speech = اسو تی انا بے ساخت اسپیچ پروٹو�
 why-card-1-text = فائدہمند <mark> ارگنک اسپیچ کانیکسٹ</mark> اؤ کیس یوس کارا[ای جی۔ مثال در سمنو ست کوروم تھئیلا سا وینا تھئیلا اؤ لیک بئیلا نی ]
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = جیبے ھقیقت کارا بہترین سپورٹ مثلاً جیبے ترجمہ اؤ<mark> کوڈ سوئچنگ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = سا جیبو کارا بہتر سپورٹ ہنو شینو در شنوٹی یا <mark> ٹیکسٹ مواد استعمال تھونو کارا نیِش۔ [مثال طور سماجی، مختلف قسمے تاریخی طور در غیر تحریری جیبے وغیرہ]
 how-spontaneous-speech-works = بے جوڑ تقریر کدی کوروم تھین
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark> ہوم پیج</mark>
@@ -17,8 +19,10 @@ respond-bubble-title = <mark> جواب</mark>
 respond-bubble-subtitle = تو ما تھی جواب دے تو کدا کوروم تھین
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark> ٹرانسکرائیب </mark>
+transcribe-bubble-subtitle = تھئی آڈیو کلپ در سا ݜونے سا کھارے لیِکے
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark> چیک </mark>
+check-bubble-subtitle = تو چیک تھے چی ٹرانسکریپشن آڈیو ست برابر ہنو
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark> ڈیٹا </mark>
 data-bubble-subtitle = آسئی ہر وقت در ڈیٹاسیٹ جاری تھینو
