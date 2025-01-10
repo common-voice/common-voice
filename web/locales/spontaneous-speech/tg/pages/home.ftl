@@ -1,7 +1,11 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Хуш омадед ба «Spontanous Speech»
+# <br></br> represents a newline break
+wall-of-text = «Common Voice» платформаи дуюмро оғоз мекунад, ки ба ҷамъоварии нутқи органикӣ, худсарона, суханронии рамзнашуда равона карда шудааст. Ин ба бисёр ҷамоатҳо барои маълумотро зудтар ҷамъоварӣ кардан кумак мекунад, инчунин, барои мутахассисони коркарди маълумот ва таҳиягарон муфид хоҳад буд.
 why-spontaneous-speech = Чаро мо ин тимсоли «Spontane Speech»-ро сохтем
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Дастгирии такмилёфтаи воқеияти забон, ба монанди гузаштан ба забони дигар ва <mark>иваз кардани рамзҳо</mark>
 how-spontaneous-speech-works = Чӣ тавр «Spontaneous Speech» кор мекунад
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Дархост</mark>
