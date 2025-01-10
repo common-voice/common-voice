@@ -14,3 +14,4 @@ listen-contribute-menu-tooltip = Хонишҳоро тасдиқ кунед, О�
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Менюи имконоти «Гӯш кардан»

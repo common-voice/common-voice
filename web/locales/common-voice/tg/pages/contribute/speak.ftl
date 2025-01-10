@@ -52,6 +52,8 @@ read-sentences = Хондани ҷумлаҳо
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Хондани ҷумлаҳо, ҷавоб додан ба саволҳо
+read-sentences-menu-item-tooltip = Ҷумлаҳоро дар забони худ талаффуз карда, овози худро сабт намоед
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Менюи имконоти «Гап задан»
