@@ -12,6 +12,7 @@ citation =
 sc-write-submit-confirm = Ман тасдиқ мекунам, ки ин ҷумла <wikipediaLink>аз манбаи дастраси умум</wikipediaLink> мебошад ва ман барои бор кардани он иҷозат дорам.
 sc-review-write-title = Кадом ҷумлаҳоро илова карда метавонам?
 sc-review-small-batch-title = Тарзи илова кардани якчанд ҷумла
+new-sentence-rule-1 = <noCopyright>Бе маҳдудиятҳои ҳуқуқи муаллиф</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Камтар аз 15 калима дар як ҷумла
 new-sentence-rule-3 = Грамматикаи дурустро истифода баред
 new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои китобати дурустро истифода баред

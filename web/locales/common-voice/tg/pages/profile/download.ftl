@@ -2,6 +2,7 @@
 
 download-q = Мехоҳед маълумоти худро боргирӣ кунед?
 download-profile-title = Профил
+download-profile-size = Чанд байт
 download-recordings-title = Сабтҳо
 download-recordings-size = Одатан мегабайтҳо
 download-size = Андоза
