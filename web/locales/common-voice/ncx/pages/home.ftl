@@ -79,3 +79,21 @@ help-contribute = Techpaleuis matitesepanpaleuikan tla timomachotis itech Common
 login-company = Xikalaki / Ximomachoti ika { $company } correo
 profile-not-required = Amo moneki timomachotis tla titechpaleuis, san okachi kuali. Xikita tleka.
 read-more-about = Xikmati okachi kanin Tiktematiltiaj
+
+## NAV ITEMS
+
+answer-questions = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
+review-transcriptions = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
+add-questions = Xikinmijkuilo seki Tlajtlanilmej <small>(Yikin yetos)</small>
+transcribe-audio = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
+press-and-stories = Tlen yikin omochi
+community-and-languages = Akinmej Tlajtoaj
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Akinmej Techpaleuiaj, Tlajtoaj uan tlen Yikin omochi
+partnerships-menu-item-tooltip = Okachi techpaleui
+press-and-stories-menu-item-tooltip = Xikita tlen tikijkuiloaj noso xitlajkuilo totech
+
+## MENU ITEM ARIA LABELS
+
