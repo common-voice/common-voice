@@ -94,6 +94,11 @@ community-and-languages = Akinmej Tlajtoaj
 about-menu-tooltip = Akinmej Techpaleuiaj, Tlajtoaj uan tlen Yikin omochi
 partnerships-menu-item-tooltip = Okachi techpaleui
 press-and-stories-menu-item-tooltip = Xikita tlen tikijkuiloaj noso xitlajkuilo totech
+community-and-languages-menu-item-tooltip = Xikinmajsi okseki tlajtolkopaj uan xikita ken tinochtin titlajtoaj
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Tlen uelis tikpejpenas
+partnerships-menu-item-aria-label = Xikmati ken uelis okachi tikpaleuis Tinochtin Titlajtoaj
+press-and-stories-menu-item-aria-label = Xikita tlen oksekimej kijtoaj itech Tinochtin Titlajtoaj
+community-and-languages-menu-item-aria-label = Xikinmita tlajtolkopaj uan okseki tlen uelis tikajsis itech Tinochtin Titlajtoaj
