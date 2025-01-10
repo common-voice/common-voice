@@ -28,6 +28,7 @@ about-yes-votes = ≥ 2 hoi vichla
 about-yes-votes-text = Common Voice dataset'an korpak, ek aavaz clip don vaglai munsani pormanit korpak zai.
 about-no-votes = ≥ 2 na vichla
 about-dataset-new = Common Voice'acho Dataset
+about-clip-graveyard = Clip Graveyard
 about-get-involved = Vanto ge
 about-stay-in-touch = Somporkant koso ravop?
 about-stay-in-touch-button = Sign up
