@@ -46,6 +46,7 @@ adding-sentences-subheader-length-explanation = Ҷумла бояд камтар
 adding-sentences-subheader-spelling-punctuation = Имло ва аломатҳои китобат
 adding-sentences-subheader-spelling-punctuation-explanation = Ҷумла бояд дуруст навишта шавад.
 adding-sentences-subheader-numbers = Рақамҳо
+adding-sentences-subheader-abbreviations = Шаклҳои мухтасар ва ихтисораҳо
 adding-sentences-subheader-punctuation = Аломатҳои китобат
 adding-sentences-subheader-special-characters = Аломатҳои махсус ва ҳарфҳои хориҷӣ
 adding-sentences-subheader-offensive-content = Муҳтавои таҳқиромез
