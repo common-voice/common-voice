@@ -11,6 +11,7 @@ transcript-edited-success = Матни сабт бомуваффақият та�
 transcript-edited-error = Ҳангоми таҳрири матни сабт хато ба миён омад
 error-fetching-transcriptions = Ҳангоми гирифтани матни сабт чизе нодуруст ба миён омад. Лутфан, баъдтар аз нав кӯшиш кунед.
 transcript-skipped-success = Матни сабт бо муваффақият нодида гузаронида шуд
+transcript-skipped-error = Ҳангоми нодида гузаронидани матни сабт хато ба миён омад
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Дуруст
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

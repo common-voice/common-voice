@@ -15,6 +15,7 @@ profile-form-accent =
     .label = Лаҳҷа
 profile-form-custom-accent-help-text =
     .label = Лаҳҷаи худро чӣ гуна тавсиф мекардед?
+profile-form-custom-accent-placeholder-2 = Барои тавсифи лаҳҷаи худ чизе нависед
 profile-form-age =
     .label = Синну сол
 profile-form-gender-2 =

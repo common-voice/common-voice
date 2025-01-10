@@ -83,6 +83,7 @@ community-and-languages = Ҷомеа ва забонҳо
 about-menu-tooltip = Шарикӣ, Матбуот ва Ҳикояҳо, Ҷомеа ва забонҳо
 partnerships-menu-item-tooltip = Ҳамкорӣ бо мо
 press-and-stories-menu-item-tooltip = Ба блоги мо ворид шавед ё дар бораи мо нависед
+community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва овози умумиро кашф кунед
 
 ## MENU ITEM ARIA LABELS
 
