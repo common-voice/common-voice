@@ -6,4 +6,5 @@ connect-gravatar = Бо «Gravatar» пайваст шавед
 gravatar_not_found = Барои нишонии почтаи электронии шумо ягон акси «gravatar» ёфт нашуд
 file_too_large = Файли интихобшуда хеле калон аст
 avatar-uploaded = Аватар бор карда шуд
+max-file-size = { $kb } KB дар ҳадди аксар
 remove-avatar = Тоза кардани аватар
