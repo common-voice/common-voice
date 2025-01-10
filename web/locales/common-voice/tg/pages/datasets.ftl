@@ -36,6 +36,7 @@ close = Пӯшидан
 download = Боргирӣ кардан
 dataset-version = Силсила
 sha256-checksum-copied = Ҷамъи назоратии «SHA256» нусха бардошта шуд!
+sha256-checksum-copied-error = Ҷамъи назоратии «SHA256» нусха бардошта нашуд
 clipboard-not-supported = Ҳофизаи муваққатӣ дастгирӣ намешавад
 no-information-available = Ягон маълумот дастрас нест
 dataset-metadata-sex = Ҷинс

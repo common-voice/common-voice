@@ -53,6 +53,7 @@ read-sentences = Хондани ҷумлаҳо
 
 speak-contribute-menu-tooltip = Хондани ҷумлаҳо, ҷавоб додан ба саволҳо
 read-sentences-menu-item-tooltip = Ҷумлаҳоро дар забони худ талаффуз карда, овози худро сабт намоед
+answer-questions-menu-item-tooltip = Ба саволҳо ва пешниҳодҳо бо забони худ ҷавоб дода, овози худро сабт намоед
 
 ## MENU ITEM ARIA LABELS
 
