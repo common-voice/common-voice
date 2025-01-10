@@ -86,4 +86,5 @@ press-and-stories-menu-item-tooltip = Ба блоги мо ворид шавед
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред

@@ -11,6 +11,7 @@ language-total-progress = Ҳамагӣ
 language-search-input =
     .placeholder = Ҷустуҷӯ
 language-speakers = Баландгӯякҳо
+localized = Тарҷумашуда
 sentences = Ҷумлаҳо
 language-validation-hours = Соат
 language-validation-progress = Раванди баррасии дурустӣ

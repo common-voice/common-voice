@@ -32,6 +32,8 @@ review-keep-recordings = Нигоҳ доштани сабтҳо
 review-delete-recordings = Нест кардани сабтҳои ман
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Ташаккур барои туҳфа кардани сабтҳои овозии худ!
 why-donate = Чаро шумо мепурсед?
 add-information-button = Илова кардани маълумот
 continue-speaking-button = Не, ташаккур, суханро идома диҳед
