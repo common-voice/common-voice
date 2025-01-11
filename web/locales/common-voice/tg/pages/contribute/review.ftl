@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Шумо ягон забонро интихоб накардаед. Лутфан, барои интихоби забонҳо ба <profileLink>Профил</profileLink> гузаред.
 sc-review-title = Баррасии ҷумлаҳо
 sc-review-loading = Ҷумлаҳо бор шуда истодаанд…
 sc-review-select-language = Лутфан, барои баррасӣ кардани ҷумлаҳо забонеро интихоб намоед.

@@ -6,6 +6,8 @@ action-click = Зер кардан
 action-tap = Зарба задан
 # Label for language switcher
 interface-language = Забони интерфейс:
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълумот барои { $language }
 # Label for button on contribution switcher
 change = Тағйир додан
 coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
