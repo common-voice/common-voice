@@ -13,6 +13,7 @@ just-unsure = Мутмаин нестед?
 example = Мисол
 varying-pronunciations-example = Масир норавшан буд.
 varying-pronunciations-tip-1 = [Дар Англисии Канадавӣ метавонад «route» мисли «rowt» садо диҳад]
+misreadings-explanation-2 = Хатоҳои хеле маъмул нуқтаҳои асосии зеринро дар бар мегиранд:
 misreadings-explanation-7 = Истифодаи якчанд кӯшиш барои хондани калима.
 misreadings-example-1 = Мо барои гирифтани қаҳва берун меравем.
 misreadings-example-2 = Мо барои гирифтани қаҳва берун меравем.
