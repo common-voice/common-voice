@@ -6,6 +6,8 @@ wall-of-text = «Common Voice» платформаи дуюмро оғоз ме�
 why-spontaneous-speech = Чаро мо ин тимсоли «Spontane Speech»-ро сохтем
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Дастгирии такмилёфтаи воқеияти забон, ба монанди гузаштан ба забони дигар ва <mark>иваз кардани рамзҳо</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Дастгирии такмилёфтаи забонҳое, ки дар онҳо маҷмуи матнӣ кам ё <mark>тамоман вуҷуд надорад</mark>(масалан, ҷомеашиносон, вариантҳо, забонҳои таърихан навиштанашуда ва ғ.)
 how-spontaneous-speech-works = Чӣ тавр «Spontaneous Speech» кор мекунад
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Дархост</mark>

@@ -15,6 +15,7 @@ splits = Тақсимот
 email-to-download = Барои боргирӣ, нишонии почтаи электрониро ворид намоед
 size-gigabyte = ГБ
 size-megabyte = МБ
+confirm-join-mailing-list = Шумо мехоҳед, ки ба рӯйхати мактубҳои «Common Voice» обуна шавед
 download-language = Боргирӣ кардани { $language }
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда

@@ -51,6 +51,7 @@ n-clips-pluralized =
         [one] сабт
        *[other] сабт
     }
+help-share-goal = Ба мо дар пайдо намудани овозҳои бештар кумак кунед, ҳадафи худро мубодила намоед
 confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
 share-goal-type-speak = Гап задан
