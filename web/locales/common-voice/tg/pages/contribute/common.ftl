@@ -126,6 +126,7 @@ contribution-background-noise-example-2-explanation = [Қисми матн шу�
 contribution-background-noise-example-3-fixed-title = <strong>[Қарсос]</strong> Динозаврҳои азими <strong>[қарсос]</strong> давраи Триассӣ.
 contribution-background-voices-title = Овозҳои атроф
 contribution-background-voices-example-1-title = Динозаврҳои азими давраи Триассӣ. <strong>[бо як овоз хонда шуд]</strong>
+contribution-background-voices-example-1-explanation = Шумо меоед? <strong>[дигаре даъват кардааст]</strong>
 contribution-volume-title = Баландии садо
 contribution-reader-effects-title = Таъсирҳои хонанда
 contribution-just-unsure-title = Мутмаин нестед?
