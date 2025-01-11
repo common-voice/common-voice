@@ -30,6 +30,7 @@ review-rerecord = Аз нав сабт кардан
 review-cancel = Бекор кардани пешниҳод
 review-keep-recordings = Нигоҳ доштани сабтҳо
 review-delete-recordings = Нест кардани сабтҳои ман
+review-terms = Бо истифода аз лоиҳаи «Common Voice», шумо бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> мо розӣ мешавед
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
 # FIRST POST SUBMISSION CTA
