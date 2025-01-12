@@ -21,3 +21,4 @@ female_feminine = მდედრობით
 intersex = ინტერსექს
 transgender = ტრანსგენდერ
 non-binary = არაორობითი
+do_not_wish_to_say = მა̄მ მა̈ქუ̂ნი
