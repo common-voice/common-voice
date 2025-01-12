@@ -19,6 +19,7 @@ new-sentence-rule-4 = Қоидаҳои имло ва аломатҳои кито
 new-sentence-rule-5 = Бе рақамҳо ва аломатҳои махсус
 new-sentence-rule-6 = Бе ҳарфҳои хориҷӣ
 new-sentence-rule-7 = Иқтибоси мувофиқро дохил кунед
+new-sentence-rule-8 = Комилан табиӣ ва гуфтугӯӣ (бояд хондани ҷумла осон бошад)
 login-instruction-multiple-sentences = Барои илова кардани зиёда аз як ҷумла, лутфан, <loginLink>ворид шавед</loginLink> ё <loginLink>ҳисобро ба қайд гиред</loginLink>
 how-to-cite = Чӣ тавр ман иқтибос меорам?
 guidelines = Дастурҳо

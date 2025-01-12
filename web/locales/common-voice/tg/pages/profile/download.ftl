@@ -9,6 +9,7 @@ download-size = Андоза
 download-selected = Интихоб шуд
 download-start = Маълумоти профилро боргирӣ кунед
 download-request = Сабтҳоро дархост кунед
+download-requests = Дархостҳои боргирии сабтҳои гузашта
 download-request-button = Боргирӣ кардан
 download-request-title = { $created }
 download-request-refresh-button = Навсозӣ кардан
