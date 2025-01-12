@@ -101,6 +101,7 @@ contribution-criteria-link = Фаҳмидани меъёрҳои саҳми ов
 contribution-criteria-page-title = Меъёрҳои саҳми овоз
 contribution-for-example = масалан
 contribution-misreadings-title = Хониши нодуруст
+contribution-misreadings-description-extended-list-1 = Набудани ҳарфи <strong>«A»</strong> ё <strong>«The»</strong> дар оғози сабти аудиоӣ.
 contribution-misreadings-description-extended-list-2 = Дар охири калима рамзи <strong>«s»</strong> (барои забони англисӣ) вуҷуд надорад.
 contribution-misreadings-description-extended-list-5 = Истифодаи якчанд кӯшиш барои хондани калима.
 contribution-misreadings-example-1-title = Динозаврҳои азими давраи Триассӣ.
