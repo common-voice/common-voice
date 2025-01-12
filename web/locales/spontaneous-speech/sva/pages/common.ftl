@@ -32,3 +32,18 @@ check-transcriptions = ჩუ̂ათმოწმა̈ნ ტრანსკრ�
 ## Not Found Page
 
 not-found-page-header = მა̄მ ა̈ნთხა̄̈ნ
+not-found-page-content = ეჯ გვერდ, სი ერ ხეთხე̄ლი, მა̄მ ა̈ნთხა̄̈ნ.
+# Privacy and Terms checkbox
+accept-privacy-and-terms = თანახმა ხუ̂ი Common Voice's-შ
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = ინგლისურ
+fr = ფრანგულ
+hch = ვიქსარიკა
+kzi = კელაბიტ
+mbf = ბაბა მალაიზია
+meh = სამხრეთ-დასავლეთ Tlaxiaco Mixtec
+mel = ცენტრალური Melanau
+mmc = მიჩოაკან მაზახუა
