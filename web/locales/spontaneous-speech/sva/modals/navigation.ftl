@@ -9,3 +9,4 @@ transcribe = ჟოხოსყ ტრანსკიფცია
 loading = იტვირთა̈ვი
 login-signup = სგალი̄ზი/რეგისტრაცია
 login = სგა ლი̄ზი
+logout = ქა ლიჴედ
