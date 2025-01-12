@@ -10,7 +10,18 @@ interface-language = ინტერფეისი ნინ
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ
 # Label for button on contribution switcher
 change = ჟი ლისპე
-coming-soon = { "" }
+coming-soon = დო̄სგ ქა იწუ̂ე̄ნიხ იშგენ ნჷნა̈რი
+media-recorder-api-not-supported = The MediaRecorder API მა̄მ ლი მხარდაჭერილ ისგუ̂ა ბრაუზერისგა.
+# Toast message that is displayed when an item is skipped
+skipped = ქა ლჷცუ̂ირ
+audioplayer-header = ლა̈მჰუნა̈რ
+guidelines = რეკომენდაცია̄̈ლ
+# For the button to report an item
+report-button = ანგარიშ
+# For the button to skip an item
+skip-button = ქა ლიცვრე
+submit-button = ქა ლიზზი
+contribute = ლიმურჯუ̂ი
 
 ## Navbar
 

@@ -1,6 +1,7 @@
 ## Transcribe Audio page
 
 editbox-header = Табдил додан
+editbox-placeholder = Он чизеро, ки ин шахс дар ин ҷоӣ мегӯяд, нависед
 create-transcript-success = Матни сабт бо муваффақият пешниҳод карда шуд
 create-transcript-error = Ҳангоми эҷодкунии ин матни сабт хато ба миён омад
 error-playing-audio = Ҳангоми пахши файли аудиоӣ хато ба миён омад.
