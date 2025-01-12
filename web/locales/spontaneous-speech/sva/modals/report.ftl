@@ -17,3 +17,4 @@ report-error = ანგარიში ლაზზიჟი ათხვიდ
 continue = აჯად ათი̄რ
 # Header for report modal after successful reporting
 success = სგუ̂ებდ ლი̄ზი
+report-success-message = ანგარიშ წარმატებით ა̈ჩა̈დ
