@@ -10,6 +10,7 @@ select-your-gender = ჟ'ა̄̈ხითშ ისგუ სქეს
 country-of-residence-label = ისგუ ლა̈ზგა ქვეყანა/რეგიონ
 country-of-residence-placeholder =
     .placeholder = სგ'ა̄თი̄რ ისგუ ლა̈ზგა ქვეყანა/რეგიონ
+why-are-you-asking = იმღა მეჭუ̂დიე̄ლ?
 
 ## Gender dropdown
 
