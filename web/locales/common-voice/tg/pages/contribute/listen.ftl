@@ -17,4 +17,5 @@ review-transcriptions-menu-item-tooltip = Овонависиҳои аз ҷони
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Менюи имконоти «Гӯш кардан»
+validate-readings-menu-item-aria-label = Cанҷиши хонишҳои пешниҳода аз ҷониби аъзои ҷомеа
 review-transcriptions-menu-item-aria-label = Овонависӣ ҷумлаҳои сабтшударо барои дурустӣ баррасӣ кунед
