@@ -160,7 +160,7 @@ footer {
     align-content: center;
     margin: 0 auto;
     max-width: var(--desktop-width);
-    padding-inline-start: 20px;
+    padding-inline: 20px;
 
     & .logo-container {
         display: flex;
