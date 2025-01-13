@@ -59,3 +59,4 @@ off = Ғайрифаъол
 on = Фаъол
 help-accent = Оид ба лаҳҷа кумак лозим аст?
 help-variants = Оид ба гунаҳо кумак лозим аст?
+variant-contribution-options-header = Имконоти лаҳҷавӣ барои саҳмгузорӣ
