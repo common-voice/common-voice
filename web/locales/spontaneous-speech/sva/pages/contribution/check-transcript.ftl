@@ -5,3 +5,5 @@ transcription-page-instruction = { $actionType }<playIcon> ჟ'ა̈ჰუნა
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ჩვათმოწმა̈ნ
 no-transcriptions-message = ათხე̄ დუ̂რევჟი მა̄მ ა̈რი ალ ნინი ლამწუ̂მა̈ნ ტრანსკრიფცია̄̈ლ. ჩვათმა̈ხ გვერდ ედე ახეკუ̂ჰ ხოშა გუ̂ია̄ნდ.
+vote-transcript-success = ტრანსკრიპტ წარმატებულ ლა̈სუ̂
+vote-transcript-error = ტრანსკრიპტიშდ ჰერი ლაჰუ̂ედჟი ათხუ̂იდდა შეცდომა
