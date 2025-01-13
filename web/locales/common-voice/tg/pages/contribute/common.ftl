@@ -120,6 +120,7 @@ contribution-misreadings-example-8-explanation = [Муҳтавои номуво�
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-1-title = Ӯ дар сараш берет дошт.
 contribution-varying-pronunciations-example-2-title = Дасти ӯ баланд шуд.
+contribution-varying-pronunciations-example-2-explanation = [«Rised» дар забони англисӣ ҳамеша ҳамчун як ҳиҷо талаффуз мешавад, на ду]
 contribution-background-noise-title = Садои атроф
 contribution-background-noise-example-1-fixed-title = <strong>[Атса задан]</strong> Динозаврҳои азими <strong>[сулфа]</strong> давраи Триассӣ.
 contribution-background-noise-example-2-fixed-title = Динозаври азими <strong>[сулфа]</strong> давраи Триассӣ.

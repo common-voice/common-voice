@@ -1,6 +1,6 @@
 ## Datasets Page
 
-datasets-heading = Маҷмуаи маълумот
+datasets-heading = Маҷмуи маълумот
 language = Забон
 download-dataset-header = Боргирӣ кардани маҷмуи маълумот
 # File size in gigabytes
@@ -51,7 +51,7 @@ data-download-yes = Ҳа
 data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
 data-download-modal = Шумо боргирии <size>{ $size } ГБ</size>-ро оғоз карданӣ ҳастед, идома медиҳед?
-data-subtitle = Мо маҷмуаи маълумоти овозҳои кушода ва дастрасро эҷод карда истодаем, ки ҳар як кас метавонад онро барои омӯзиши барномаҳо бо фаъолияти нyтқ истифода барад.
+data-subtitle = Мо маҷмуи маълумоти овозии кушода ва дастрасро эҷод карда истодаем, ки ҳар як кас метавонад онро барои омӯзиши барномаҳо бо технологияи нyтқи фаъолшуда истифода барад.
 data-get-started = <speechBlogLink>Маълумот дар бораи оғози кор ё тарзи истифодаи овошиносии «Common Voice» дар барномаҳои худ</speechBlogLink>
 data-other-title = Маҷмуи маълумоти овозии дигар…
 data-other-goto = Ба { $name } гузаред
