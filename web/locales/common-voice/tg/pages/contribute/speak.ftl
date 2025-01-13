@@ -61,3 +61,4 @@ answer-questions-menu-item-tooltip = Ба саволҳо ва дархостҳо
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Менюи имконоти «Гап задан»
+answer-questions-menu-item-aria-label = Саволи наверо пешниҳод кунед, то ки дар ҷомеаи мо онро хонда, ҷавобҳоро нависанд
