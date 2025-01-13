@@ -32,7 +32,7 @@ transcribe-audio = Mac-screeu Sheean
 
 not-found-page-content = Cha row yn duillag t'ou shirrey ry-gheddyn
 # Privacy and Terms checkbox
-accept-privacy-and-terms = Ta mee cordail rish <termsLink>Termeeyn</termsLink> as <privacyLink>Fogrey Preevaidjys</privacyLink> Chommon Voice
+accept-privacy-and-terms = Ta mee cordail rish <termsLink>Conaantyn</termsLink> as <privacyLink>Fogrey Preevaidjys</privacyLink> Chommon Voice
 en = Baarle
 fr = Frangish
 tr = Turkish
