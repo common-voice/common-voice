@@ -4,12 +4,11 @@
     background-color: var(--white);
 
     .partners-section-container {
-        overflow-x: auto;
         .partners-title {
             font-size: 40px;
             margin-block-end: 30px;
 
-            @media (--sm-down) {
+            @media (--xs-down) {
                 font-size: var(--font-size-lg);
             }
         }
@@ -17,12 +16,20 @@
         .partners-logos {
             display: flex;
             align-items: center;
-            width: var(--desktop-width);
+            overflow-x: auto;
             margin: 0 auto;
             white-space: nowrap;
             position: relative;
             padding: 1rem 0;
             justify-content: space-between;
+
+            @media (width >= 1250px) {
+                width: var(--desktop-width);
+            }
+
+            @media (--lg-down) {
+                gap: 8vw;
+            }
 
             .logo {
                 width: 170px;

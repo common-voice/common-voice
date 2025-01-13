@@ -26,7 +26,7 @@
                 gap: 2rem;
             }
 
-            @media (width > 1600px) {
+            @media (width > 1430px) {
                 justify-content: center;
             }
 
