@@ -111,7 +111,7 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = Дастурҳоро аз қисми «Кадом ҷумлаҳоро илова карда метавонам?» риоя намоед
 small-batch-sentences-rule-2 = Илова кардани як ҷумла ба ҳар як сатр
 small-batch-sentences-rule-3 = Бо як маротиба пахш кардани тугмаи «Enter» ё «Return» ҷумлаҳоро ба як сатр ҷудо намоед
-small-batch-sentences-rule-4 = Илова кардан то 1000 ҷумла
+small-batch-sentences-rule-4 = То 1000 ҷумла илова карда мешавад
 small-batch-sentences-rule-5 = Ҳамаи ҷумлаҳо бояд дорои манбаи яксон бошанд
 small-batch-sentences-rule-6 = Ҳамаи ҷумлаҳо бояд дорои иқтибоси яксон бошанд
 # menu item
