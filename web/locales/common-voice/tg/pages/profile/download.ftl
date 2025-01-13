@@ -12,6 +12,7 @@ download-request = Сабтҳоро дархост кунед
 download-requests = Дархостҳои боргирии сабтҳои гузашта
 download-request-button = Боргирӣ кардан
 download-request-title = { $created }
+download-request-description = { $clipCount } сабти овозӣ, андозаи умумии бойгонӣ: { $size }. Муҳлати нигоҳдорӣ дар { $expires } ба анҷом мерасад.
 download-request-refresh-button = Навсозӣ кардан
 download-request-modal-title = Пайвандҳоро боргирӣ кунед
 download-request-link-text = Zip №{ $offset } аз { $total }

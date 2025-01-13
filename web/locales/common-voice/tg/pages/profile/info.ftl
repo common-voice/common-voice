@@ -31,6 +31,7 @@ profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
 male_masculine = Мард/Мардона
 female_feminine = Зан/Занона
+non-binary = Ғайридуӣ
 do_not_wish_to_say = Гуфтан намехоҳам
 # Gender
 other = Дигар
