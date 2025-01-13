@@ -104,7 +104,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Reillyn
-contribution-criteria-link = Toig reillyn chur stiagh
+contribution-criteria-link = Toig ny reillyn chur stiagh
 contribution-criteria-page-title = Reillyn Cur Stiagh
 contribution-criteria-page-description = Toig ny t'ou geaishtagh son tra t'ou geaishtagh rish meeryn coraa as jean dty recortyssyn choraa ny share neesht!
 contribution-for-example = myr sampleyr
