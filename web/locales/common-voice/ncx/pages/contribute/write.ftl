@@ -143,3 +143,12 @@ small-batch-sentences-rule-3 = Tla tikijkuilos itlanpa non okse, xikpacho "Enter
 small-batch-sentences-rule-4 = Xikintlalili kanaj 1000 tlajkuilolmej
 small-batch-sentences-rule-5 = Nochtin moneki sansekan pouiskej
 small-batch-sentences-rule-6 = Nochtin moneki sansekan otikinkixti
+# menu item
+add-sentences = Xikinmijkuilo seki tlajtoli
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Xitlajkuilo, xikmotili, xikijkuilo se tlajtlanilistli noso xikkaki uan xitlajkuilo
+
+## MENU ITEM ARIA LABELS
+
