@@ -21,3 +21,4 @@ submit-all-button = ქ'ა̄თზიზ მა̈გ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ჟ'ა̈ხითუ̂რ, იმჟი ხეკუ̂ეს  ა̈ხჴჷმრა ალ გვერდ
+learn-how-to-use-prompts-explanation = უბრალოდ ლოხპასუ̈ხუ̂ ეშხუ-იორი წინადადებოშ. დარწმუნდი, ერე ისგუ ნინ მა̄მ ლი შეურაცხმყოფელ.
