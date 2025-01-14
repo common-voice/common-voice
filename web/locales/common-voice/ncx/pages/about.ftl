@@ -4,9 +4,12 @@ about-title = ¿Tleka Tinochtin Titlajtoaj?
 about-header-description-v2 =
     <p>Tinochtin Titlajtoaj se tlajtolnechikoli non nochtin uelis kitekitiltiskej non kichijtijtiaj miakej akinmej san ijki tlapaleuiaj itech nochi tlaltikpak. Akinmej kinekiskej kinchijchiuaskej teposmej tlen tlajtoaj, uelis ika mopaleuiskej.</p>
     <p>Axkan, kanaj nochi tlajtolnechikoli tlen onka inmiaxka seki tekinechikolmej, uan ijkon amo uelis okachi titlayekapanpanoskej. Noijki, amo kiteititiaj ken tlajtoaj akinmej amo tlajtoaj nauatl, maseualmej, kokoxkej, siuamej uan LGBTQIA+. Nin kijtosneki tlen kichiuaj ninmej tekinechikolmej amo tlapaleuiaj ika miakej tlajtolkopaj uan maski kema tlapaleuis, amo nochtin kinpaleuia. Tiknekij tikpatlaskej non ika tikinyoleuaskej nochtin matlapaleuikan ikan intlajtol.</p>
+how-does-it-work-title-v2 = ¿Kenijki tekipanoa Tinochtin Titlajtoaj?
+how-does-it-work-text = Timopaleuijtokej tikinnechikoskej tlajtolmej tlen nochtin uelis ika mopaleuiskej. Xiktliokoli motlajtol, xikmotili tlen oksekimej yokitsikokej, techpaleui matitesepanpaleuikan.
 
 ## How does it work section
 
+about-language-req-subtitle = Ika kijtlajtlania matiktlalikan okse tlajtolkopa.
 
 ## Community Playbook Content
 ## What is a language

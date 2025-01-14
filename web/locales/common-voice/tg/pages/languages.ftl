@@ -1,5 +1,9 @@
 ## Languages Overview
 
+language-section-in-progress = Дар ҳоли иҷро мебошад
+language-section-launched = Ба кор андохта шуд
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Санаи навсозии охирин: { $lastUpdatedTimeStamp }
 languages-show-more = Дидани бештар
 languages-show-less = Дидани камтар
 language-meter-in-progress = Раванд
@@ -7,8 +11,10 @@ language-total-progress = Ҳамагӣ
 language-search-input =
     .placeholder = Ҷустуҷӯ
 language-speakers = Баландгӯякҳо
+localized = Тарҷумашуда
 sentences = Ҷумлаҳо
 language-validation-hours = Соат
+language-validation-progress = Раванди баррасии дурустӣ
 contribute = Иштирок доштан
 get-involved-button = Ҳамроҳ шудан
 get-involved-title = Ба забони { $lang } саҳм гузоред

@@ -28,6 +28,7 @@ about-yes-votes = ≥ 2 hoi vichla
 about-yes-votes-text = Common Voice dataset'an korpak, ek aavaz clip don vaglai munsani pormanit korpak zai.
 about-no-votes = ≥ 2 na vichla
 about-dataset-new = Common Voice'acho Dataset
+about-clip-graveyard = Clip Graveyard
 about-get-involved = Vanto ge
 about-stay-in-touch = Somporkant koso ravop?
 about-stay-in-touch-button = Sign up
@@ -35,22 +36,32 @@ about-stay-in-touch-text-1 = Tumi Common Voice'cher mohim, kaaryaavli aani sh-di
 about-nav-why-common-voice = Kityak ?
 about-nav-how-it-works = Koso ?
 about-nav-partners = Sangati
+about-nav-get-involved = Vanto ge
+about-nav-how-it-works-2 = Common Voice koso cholta?
+about-nav-playbook = Zano zanv ghe koso baag ghovpak zata to
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice'ar Bhaxa mhunlar kite?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Bhaxa koshi zodop?
+about-playbook-how-add-language-translating-heading = Site'ik anuvaad korta
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon koso vaapor kopacho haacher aamcho maargadarshak paiyat.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Vakio zoma zata
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Vakio kose haven zoma korop?
 
 ## How to record quality
 
+about-playbook-how-record-quality = High quality aavaaz'ache clip koshe zodop?
 
 ## How to grow language
 
