@@ -24,3 +24,6 @@ learn-how-to-use-prompts = ჟ'ა̈ხითუ̂რ, იმჟი ხეკუ
 learn-how-to-use-prompts-explanation = უბრალოდ ლოხპასუ̈ხუ̂ ეშხუ-იორი წინადადებოშ. დარწმუნდი, ერე ისგუ ნინ მა̄მ ლი შეურაცხმყოფელ.
 learn-how-to-use-prompts-guidance = ჟესოთლ <guidanceLink> ამჩუ </guidanceLink>, ერე ჟ'ა̄̈ხმეჴრა იმჟი ხეკუ̂ეს ე ა̈ხჴჷმრა ალ გვერდ.
 learn-how-to-use-transcribe = ჟ'ა̈ხითუ̂რ ტრანსკრიფცია
+learn-how-to-use-transcribe-explanation = სგ'ა̄თი̄რ ლჷკა̈ცდ ეჯა, მა̈ჲ რა̄̈ქუ̂ მა̄რემ, ეჯკა̈ლი ამბუ̂ა̈რე ლჷჩჷდდ, ხედუ̂ა̄̈ჲ ლიხ "ჰმ", ჰედ "ეჰ...".
+learn-how-to-use-transcribe-guidance = ჟესოთლ <guidanceLink> ამჩუ </guidanceLink>, ერე ჟ'ა̄̈ხმეჴრა იმჟი ხეკუ̂ეს ე ა̈ხჴჷმრა ალ გვერდ.
+learn-how-to-use-check-transcript = ჟ'ა̈ხითუ̂რ, იმჟი ხეკუ̂ეს ათმოწმა̄ნა ტრანსკრიფცია
