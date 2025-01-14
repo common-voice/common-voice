@@ -7,8 +7,7 @@ import { isContributable, useLocale } from '../locale-helpers'
 import DocumentPage from '../pages/document-page'
 import { Spinner } from '../ui/ui'
 import { LoginFailure, LoginSuccess } from '../pages/login'
-const HomePage = React.lazy(() => import('../pages/home/home'))
-const NewHomePage = React.lazy(() => import('../pages/new-home'))
+const HomePage = React.lazy(() => import('../pages/home'))
 const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'))
 const LanguagesPage = React.lazy(() => import('../pages/languages/languages'))
 const LanguagesRequestPage = React.lazy(() => {
@@ -42,11 +41,6 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.ROOT)}
           component={HomePage}
-        />
-        <SentryRoute
-          exact
-          path={toLocaleRoute(URLS.NEW_ROOT)}
-          component={NewHomePage}
         />
         <SentryRoute
           exact
