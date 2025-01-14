@@ -8,6 +8,9 @@ no-prompts-message = რჩევა̄̈ლ ალ ნინიშდ ჩიქ�
 error-skipping = ალ მოთხოვნა̄̈ ქა ლა̈ცუ̂რაჟი ათხუ̂ი̄დ შეცდომა
 error-recording = სგალა̈ირჟი ათხუ̂ი̄დ შეცდომა
 error-fetching-prompts = მითითება̄ლე  ლაკა̈დჟი ათხუ̂ი̄დ შეცდომა. ხოშილ გუ̂იანდ აჯაღ ახეკუ̂ჰ.
+error-uploading-response = შეცდომა ათხუ̂იდ ისგუ პასუ̂ხუ̂ი ლა̈ტუ̂ირთა̈უ̂ჟი
+prompt-submitted-success = პასუ̂იხუ̂ წარმატებულდ ა̈დზჷზა̄̈ნ
+prompt-response-deleted-success = პასუ̂იხუ̂ წარმატებულდ ა̈ხღა̈რ ჟი
 
 ## Explainer text (Respond to Prompt)
 
