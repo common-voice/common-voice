@@ -149,6 +149,11 @@ add-sentences = Xikinmijkuilo seki tlajtoli
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = Xitlajkuilo, xikmotili, xikijkuilo se tlajtlanilistli noso xikkaki uan xitlajkuilo
+add-sentences-menu-item-tooltip = Xitlajkuilo ika motlajtolkopa
+review-sentences-menu-item-tooltip = Xikmotili tlen ijkuilijtok ika motlajtolkopa
+add-questions-menu-item-tooltip = Xikinmijkuilo tlajtlanilmej ika motlajtolkopa
+transcribe-audio-menu-item-tooltip = Xikkaki uan xikijkuilo ika motlajtolkopa
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Tlen uelis tikijkuilos
