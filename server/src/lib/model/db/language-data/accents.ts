@@ -6,6 +6,36 @@ export type Accent = {
 
 export const ACCENTS: Accent[] = [
   {
+    locale_name: 'xmf',
+    accent_name: 'ზუგიდური, ზუგიდური',
+    accent_token: 'zugid',
+  },
+  {
+    locale_name: 'xmf',
+    accent_name: 'ზუგიდური, ჯვარული',
+    accent_token: 'jvar',
+  },
+  {
+    locale_name: 'xmf',
+    accent_name: 'სენაკურ-მარტვილური, სენაკური',
+    accent_token: 'senak',
+  },
+  {
+    locale_name: 'xmf',
+    accent_name: 'სენაკურ-მარტვილური, მარტვილური',
+    accent_token: 'martv',
+  },
+  {
+    locale_name: 'xmf',
+    accent_name: 'სენაკურ-მარტვილური, ბანძა-მარტვილური',
+    accent_token: 'bandza',
+  },
+  {
+    locale_name: 'xmf',
+    accent_name: 'სენაკურ-მარტვილური, ჩხოროწყული',
+    accent_token: 'chkhor',
+  },
+  {
     locale_name: 'sva',
     accent_name: 'ლჷჟა̄ბუ, უშგულ',
     accent_token: 'ushgul',

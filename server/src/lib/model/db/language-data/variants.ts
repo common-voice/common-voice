@@ -401,4 +401,19 @@ export const VARIANTS: Variant[] = [
     variant_name: 'ლჷლტეხუ',
     variant_token: 'sva-lentekh',
   },
+  {
+    locale_name: 'xmf',
+    variant_name: 'ზუგიდური',
+    variant_token: 'xmf-zugdid',
+  },
+  {
+    locale_name: 'xmf',
+    variant_name: 'სამურზაყანოული',
+    variant_token: 'xmf-samurz',
+  },
+  {
+    locale_name: 'xmf',
+    variant_name: ' სენაკურ-მარტვილური',
+    variant_token: 'xmf-senmar',
+  },
 ]
