@@ -26,6 +26,16 @@ about-subscribe-text = ¿Tikneki tikmajtos tlen mochijtok itech Tinochtin Titlaj
 about-speak = Xitlajto
 about-speak-text = Akinmej techpaleuiaj kitlajtoltiaj tlen oksekimej yokijkuilokej.
 about-listen-queue = Tlen tikkakis
+about-listen-queue-text = Tlajtolmej tlen yokitsikokej monextiaj uan san tikinkakis.
+about-listen = Xikkaki
+about-listen-text = Sekimej kimotiliaj kox kuali okitenkixtikej uan kox okichikej san ken moneki.
+about-is-it-valid = ¿Yikuali tlajtoli?
+about-is-it-valid-text = Se tlajtoli mokaua ken "yikuali" ijkuak se kipachoa kanin kijtoa "Kema".
+about-yes-votes = ≥ 2 Kema yokipachokej
+about-yes-votes-text = Pouis itech Tinochtin Titlajtoaj Tlajtolnechikoli san tla ome yokijtokej yikuali.
+about-no-votes = ≥ 2 Amo yokipachokej
+about-no-votes-text = Tla se kijtos mach kuali omokak oksepa monekis kitsikoskej. Tla ome kijtoaj mach kuali tlajtoli, kititlaniskej kanin Miktlajtoli.
+about-dataset-new = Tinochtin Titlajtoaj Tlajtolnechikoli
 
 ## Community Playbook Content
 ## What is a language
