@@ -157,3 +157,7 @@ transcribe-audio-menu-item-tooltip = Xikkaki uan xikijkuilo ika motlajtolkopa
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Tlen uelis tikijkuilos
+add-sentences-menu-item-aria-label = Xikijkuilo tlen oksekimej kitlajtoltiskej
+review-sentences-menu-item-aria-label = Xikmotili tlen oksekimej yokijkuilokej
+add-questions-menu-item-aria-label = Xikintitlani tlajtlanilmej tlen oksekimej kintlajtoltiskej uan kinnankiliskej
+transcribe-audio-menu-item-aria-label = Xikkaki uan xikijkuilo
