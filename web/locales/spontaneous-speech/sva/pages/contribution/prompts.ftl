@@ -11,6 +11,12 @@ error-fetching-prompts = მითითება̄ლე  ლაკა̈დჟ�
 error-uploading-response = შეცდომა ათხუ̂იდ ისგუ პასუ̂ხუ̂ი ლა̈ტუ̂ირთა̈უ̂ჟი
 prompt-submitted-success = პასუ̂იხუ̂ წარმატებულდ ა̈დზჷზა̄̈ნ
 prompt-response-deleted-success = პასუ̂იხუ̂ წარმატებულდ ა̈ხღა̈რ ჟი
+# For the button to delete a response to a prompt
+delete = ჟი ლიღრე
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = ქალჷზიზ
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = ქ'ა̄თზიზ მა̈გ
 
 ## Explainer text (Respond to Prompt)
 
