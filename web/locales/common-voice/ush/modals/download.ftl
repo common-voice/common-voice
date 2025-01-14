@@ -6,4 +6,4 @@ download-form-email =
     .label = لیبل
     .value = ویلیو
 download-back = واپس کامن وائس تے بو
-download-no = نیا شکریہ
+download-no = نیأ! شکریہ
