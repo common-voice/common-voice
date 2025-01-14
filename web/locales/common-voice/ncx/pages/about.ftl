@@ -10,6 +10,9 @@ how-does-it-work-text = Timopaleuijtokej tikinnechikoskej tlajtolmej tlen nochti
 ## How does it work section
 
 about-language-req-subtitle = Ika kijtlajtlania matiktlalikan okse tlajtolkopa.
+about-localization-title = Kitlajtolkopaj nin sitio
+about-localization-subtitle = Nin sitio yokitlajtolkopkej ika nin tlajtolkopa.
+about-sentence-collection-title = Tlajkuilolnechikoli
 
 ## Community Playbook Content
 ## What is a language
