@@ -1,4 +1,4 @@
-speak = ولہستہ
+speak = ولہ
 speak-now = اوسترک ولہ
 speak-subtitle = توستہ کوٹہ خیرات پعہ
 record-cta = وکݜاستہ' ستہ شروع کشی

@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Язу
+write-instruction = Иҗтимагый милектәге <icon></icon> җөмлә өстәгез
 sentence =
     .label = Җөмлә
 sentence-input-placeholder = Иҗтимагый милектәге җөмләгезне монда языгыз
@@ -77,6 +78,8 @@ too-many-files = Артык күп файл
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Берничә иҗтимагый милектәге җөмлә өстәгез
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 # menu item
 add-sentences = Җөмләләр өстәү
