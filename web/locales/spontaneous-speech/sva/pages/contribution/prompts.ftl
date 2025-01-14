@@ -22,3 +22,5 @@ submit-all-button = ქ'ა̄თზიზ მა̈გ
 
 learn-how-to-use-prompts = ჟ'ა̈ხითუ̂რ, იმჟი ხეკუ̂ეს  ა̈ხჴჷმრა ალ გვერდ
 learn-how-to-use-prompts-explanation = უბრალოდ ლოხპასუ̈ხუ̂ ეშხუ-იორი წინადადებოშ. დარწმუნდი, ერე ისგუ ნინ მა̄მ ლი შეურაცხმყოფელ.
+learn-how-to-use-prompts-guidance = ჟესოთლ <guidanceLink> ამჩუ </guidanceLink>, ერე ჟ'ა̄̈ხმეჴრა იმჟი ხეკუ̂ეს ე ა̈ხჴჷმრა ალ გვერდ.
+learn-how-to-use-transcribe = ჟ'ა̈ხითუ̂რ ტრანსკრიფცია
