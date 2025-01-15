@@ -146,12 +146,6 @@ zh-TW = kiina (Taiwan)
 
 ## Layout
 
-speak = Puhu
-speak-now = Puhu nyt
-datasets = Aineistot
-languages = Kielet
-about = Tietoja
-partner = Ryhdy yhteistyöhön
 profile = Profiili
 help = Ohje
 contact = Yhteystiedot
@@ -171,7 +165,6 @@ privacy-info = Lupaamme käsitellä tietojasi huolella. Lue lisää <privacyLink
 return-to-cv = Palaa Common Voiceen
 email-input =
     .label = Sähköposti
-submit-form-action = Lähetä
 loading = Ladataan…
 email-opt-in-info = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
 email-opt-in-info-title = Liity Common Voicen postituslistalle
@@ -182,7 +175,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Tarvitsemme</mark><br/><mark>apuasi!</mark>
 localization-select =
     .label = Valitse kieli/lokalisointi

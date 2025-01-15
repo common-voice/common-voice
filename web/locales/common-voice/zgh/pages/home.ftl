@@ -27,13 +27,9 @@ show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 help-us-title = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵣⵣⵔⵢ ⵜⵉⵡⵉⵏⴰⵙ!
 help-us-explain = ⴰⴷⵔ ⵅⴼ ⵖⵔ, ⵙⵍⵍ, ⵜⵉⵏⵉⴷ ⴰⵏⵖ: ⵉⵙ ⵙⵓⵙⵔⵏ ⵜⴰⵡⵉⵏⵙⵜ ⴷⴷⴰⵡ ⴷⴰ ⵙ ⵓⵏⵖⴰⴷ?
 no-clips-to-validate = ⵉⵔⵡⴰⵙ ⵉⵙ ⵓⵔ ⵜⵍⵍⵉ ⵓⵍⴰ ⴽⵔⴰ ⵏ ⵜⵓⵙⵙⵉⴼⵜ ⵎⵉ ⵜⴻⵜⵜⵙⵍⵍⴰⴷ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⴰ. ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵙⴽⵜⵔ ⴰⴷⵔⴰⵙ ⵙ ⵓⵙⵓⵙⵔ ⵏ ⵢⴰⵏ ⵎⵏⵏⴰⵡⵜ ⴷⵖⵉ.
-vote-yes = ⵢⴰⵀ
-vote-no = ⵓⵀⵓ
 toggle-play-tooltip = ⴰⴷⵔ ⵅⴼ { shortcut-play-toggle } ⵉ ⵓⵙⴽⴰⵔ ⵏ ⵜⵖⵔⵉ ⴷ ⵓⵙⴱⴷⴷ ⵏⵏⵙ
-speak-subtitle = ⴼⴽⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
 speak-paragraph = ⵉⴳⴰ ⵓⵙⵓⵙⵔ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵉⴳⵕⴹⴰⵏⵉⵏ ⵢⴰⵜ ⵜⴳⴹⴰⵎⵜ ⵜⴰⵏⴰⴷⴰⴼⵜ ⵏ ⵓⵥⴽⴽⵓ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⵏⵏⵖ ⵉⵏⵏⵓⵕⵥⵎⵏ; ⵉⵍⵍⴰ ⵎⴰ ⵔⴰⴷ ⵢⵉⵏⵉ ⵜⴳⴰ ⵓⵍⴰ ⵜⴰⴳⴹⴰⵎⵜ ⵏ ⵓⴼⵊⵊⴻⵊ.
 speak-goal-text = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
-listen-subtitle = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵣⵣⵔⵢ ⵉⴳⵕⴹⴰⵏ
 listen-paragraph = ⴰⵡⴷ ⴰⵣⵣⵔⴰⵢ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ ⵜⵜⵓⴼⴽⴰⵏⵉⵏ ⵉⵅⴰⵜⵔ ⵉ ⵜⵙⵎⵉⴳⵍⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⵙⵍⵍ ⵜⴰⵡⵙⴷ ⴰⵏⵖ ⴰⴷ ⵏⵙⵏⴼⵍⵓⵍ ⵉⵙⴼⴽⴰ ⵉⴳⵕⴹⴰⵏⵏ ⵏ ⵓⵙⴰⴳⵎ ⵓⵕⵥⵉⵎ ⵙ ⵓⵖⵓⴷⵓ.
 listen-goal-text = ⵜⵓⵙⵙⵉⴼⵉⵏ ⵣⵔⵢⵏⵉⵏ
 hours-recorded = ⵜⵉⵙⵔⴰⴳⵉⵏ ⵜⵜⵓⵙⵓⵙⵔⵏⵉⵏ
@@ -94,3 +90,36 @@ help-contribute = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵡⵙⵎ ⴳ ⵓⵥⴽⴽⵓ ⵏ
 login-company = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ ⵙ ⵉⵎⴰⵢⵍ ⵏ { $company }
 profile-not-required = ⵓⵔ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵖⵓⵔⵓⵏ ⵢⵉⵍⵉ ⵉⴼⵔⵙ ⵃⵎⴰ ⴰⴷ ⵜⴰⵔⴳⵎ, ⵎⴰⵛⴰ ⵍⴰ ⵉⵜⵜⴰⵡⵙ, ⵥⵕⴰⵜ ⵎⴰⵅⴼ ⴷⴷⴰⵡ ⴷⴰ.
 read-more-about = ⵖⵔ ⵓⴳⴳⴰⵔ ⴳ ⵜⴰⵙⵏⴰ ⵏ ⵅⴼ ⵏⵏⵖ
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

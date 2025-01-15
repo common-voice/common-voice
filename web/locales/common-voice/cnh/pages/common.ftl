@@ -128,11 +128,6 @@ zh-TW = Tuluk holh (Taiwan)
 
 ## Layout
 
-speak = Chim
-speak-now = Chim Ve.
-datasets = Pumhmi Data
-languages = Holhphun
-about = About
 profile = Nangmah Kong
 help = Bawmhnak
 contact = Pehtlaihnak
@@ -151,7 +146,6 @@ privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privac
 return-to-cv = Common Voice ah kir
 email-input =
     .label = Email
-submit-form-action = Kua
 loading = Thunlio...
 email-opt-in-info = Common Voice nih tinhmi theihternak, le tuah ciami thawngthanhnak ti bantuk ka email ah kuat ka duh ve.
 email-opt-in-info-title = Common Voice cakuatnak min cazin ah i tel ve

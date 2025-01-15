@@ -191,11 +191,6 @@ zu = Xizulu
 
 ## Layout
 
-speak = Vulavula
-speak-now = Vulavula sweswi
-datasets = Tidataseti
-languages = Tindzimi
-about = Mayelana
 profile = Phurofayili
 help = Pfuna
 contact = Khumbana
@@ -214,7 +209,6 @@ privacy-info = Hi tshembisa ku khoma rungula ra wena hi vukheta. Hlaya swo tala 
 return-to-cv = Vuyela eka Common Voice
 email-input =
     .label = Imeyili
-submit-form-action = Rhumela
 loading = Ku layicha...
 email-opt-in-info = Ndzi tsakela ku amukela ti-imeyili to fana na switsundzuxo swa tipakani, swintshuxo swa mina swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice.
 email-opt-in-info-title = Joyina nxaxamelo wa poso wa Common Voice

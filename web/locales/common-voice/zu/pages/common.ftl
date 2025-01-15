@@ -183,11 +183,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Khuluma
-speak-now = Khuluma manje
-datasets = Amadathasethi
-languages = Izilimi
-about = Mayelana
 profile = Iphrofayela
 help = Usizo
 contact = Xhumana
@@ -206,7 +201,6 @@ privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda ka
 return-to-cv = Buyela kwiCommon Voice
 email-input =
     .label = I-imeyli
-submit-form-action = Ukuhambisa
 loading = Iyaloda...
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-title = Joyina uhlu lwamakheli e-Common Voice

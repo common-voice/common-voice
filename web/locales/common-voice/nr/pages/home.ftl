@@ -20,13 +20,9 @@ help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na 
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
-vote-yes = Iye
-vote-no = Awa
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
-speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 speak-goal-text = Iinqetjhana ezirekhodiweko
-listen-subtitle = Sisiza siqinisekise amaphimbo
 listen-paragraph = Ukuhlolisisa okurekhodiweko kuqakatheke ngendllela efanako emsebenzini we-Common Voice. Lalela begodu usisize ukwenza ibulungelo elinokwaziswa okugasetjenziswa ngendlela etjhaphulukileko.
 listen-goal-text = Iinqetjhana eziqinisekisiweko
 hours-recorded = Ama-awara wokurekhoda
@@ -102,3 +98,36 @@ help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Com
 login-company = Thungela / Tlolisa nge-imeyili ye { $company }
 profile-not-required = Kuhle ukuba nephrofayili bona unikele nanyana kunjalo, qala ngenzasi ukuthi kubayini.
 read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

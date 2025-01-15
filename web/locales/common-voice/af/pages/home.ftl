@@ -14,13 +14,9 @@ show-wall-of-text = Lees Meer
 help-us-title = Help ons om sinne te bevestig!
 help-us-explain = Druk speel, luister en vertel ons: het hulle die onderstaande sin akkuraat gesê?
 no-clips-to-validate = Dit lyk asof daar geen snitte is om te luister in hierdie taal nie. Help ons om lys aan te vul deur nou 'n paar op te neem.
-vote-yes = Ja
-vote-no = Nee
 toggle-play-tooltip = Druk { shortcut-play-toggle } om die speelmodus te wissel
-speak-subtitle = Skenk jou stem
 speak-paragraph = Die opneem van stemsnitte is 'n integrale deel van die uitbou van ons ope datastel; sommige sou sê dat dit ook die prettige deel is.
 speak-goal-text = Snitte opgeneem
-listen-subtitle = Help ons om stemme te bevestig
 listen-paragraph = Die bevestiging van die geldigheid van snitte is ewe belangrik vir die Common Voice-projek. Luister 'n bietjie en help ons om kwaliteit oopbronstemdata te skep.
 listen-goal-text = Snitte bevestig
 hours-recorded = Ure Opgeneem
@@ -76,3 +72,36 @@ help-contribute = Jy kan help om 'n diverse, oopbrondatastel te bou deur 'n Comm
 login-company = Meld aan / teken in met { $company } e-posadres
 profile-not-required = Dit is nie nodig om 'n profiel te hê om by te dra nie, hoewel dit nuttig is, sien hier onder waarom.
 read-more-about = Lees meer op ons Meer oor-bladsy
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

@@ -34,3 +34,9 @@ review-keep-recordings = ਰਿਕਾਰਡਿੰਗ ਨੂੰ ਰੱਖੋ
 review-delete-recordings = ਮੇਰੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਨੂੰ ਰੱਖੋ
 terms-agree = ਮੈਂ ਸਹਿਮਤ ਹਾਂ
 terms-disagree = ਮੈਂ ਸਹਿਮਤ ਨਹੀਂ ਹਾਂ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

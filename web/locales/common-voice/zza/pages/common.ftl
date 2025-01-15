@@ -215,12 +215,6 @@ zza = Kurdkî (Zazakî)
 
 ## Layout
 
-speak = Qisey ke
-speak-now = Nika qisey ke
-datasets = Komdayeyî
-languages = Ziwanî
-about = Derheq de
-partner = Hempar
 profile = Profîl
 help = Hetkarî
 contact = Têkilî
@@ -240,7 +234,6 @@ privacy-info = Ma soz danîme ke melumatê to bi baldarî bigurenîme. Seba zêd
 return-to-cv = Agêre Common Voice
 email-input =
     .label = E-maîl
-submit-form-action = Birusne
 loading = Bar beno...
 email-opt-in-info = Derheqê Common Voice de ez wazena e-maîlan, sey vîrardişê hedefan, rewşa averşîyayîşî yan zî xebernameyan, bigîrî.
 email-opt-in-info-title = Beşdarê lîsteya e-maîlanê Common Voice bibe
@@ -251,7 +244,7 @@ not-available-abbreviation = çin o
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Ma rê</mark><br/><mark>ardimê to lazim o!</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Ti CV seba</mark><br/><mark>cigêrayîşê xo gurenenî/a?</mark>

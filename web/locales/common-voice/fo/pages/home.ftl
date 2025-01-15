@@ -9,12 +9,8 @@ show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
 help-us-explain = Trýst á spæl, lurta, og fortel okkum um setningurin var tosaður rætt.
 no-clips-to-validate = Tað sær ikki út til at vera nakrar upptøkur at lurta eftir fyri hetta málið. Hjálp okkum at fylla bíðirøðina við at taka nakrar upp nú.
-vote-yes = Ja
-vote-no = Nei
-speak-subtitle = Gev tína rødd
 speak-paragraph = At taka ljóðupptøkur upp er ein grundleggjandi partur av at menna okkara opna dátasett; og summi vilja vera við at tað er tann stuttligi parturin.
 speak-goal-text = Klipp upptikin
-listen-subtitle = Hjálp okkum at góðkenna røddir
 listen-paragraph = At góðkenna innsendar ljóðupptøkur er líka týdningarmikið fyri Common Voice. Lurta og hjálp okkum at skapa dygdargott open source dáta.
 listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
@@ -48,4 +44,37 @@ x-years-short =
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

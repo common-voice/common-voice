@@ -2,10 +2,6 @@
 
 show-wall-of-text = Leer plu
 help-us-title = Assiste nos validar frases!
-vote-yes = Yes
-vote-no = No
-speak-subtitle = Donar vor voce
-listen-subtitle = Assiste nos validar voces
 hours-recorded = Hores registrat
 hours-validated = Hores validat
 todays-progress = Progresse de hodie
@@ -38,4 +34,37 @@ benefits = Avantages
 whats-public = Quo es public?
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

@@ -97,3 +97,27 @@ transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
 
 about-menu-aria-label = د اختیارونو مینو په اړه
 partnerships-menu-item-aria-label = د ګډ غږ سره د شراکت په اړه زده کړه
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

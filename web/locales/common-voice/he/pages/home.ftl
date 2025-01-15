@@ -97,3 +97,27 @@ about-menu-aria-label = תפריט אפשרויות של דף על אודות
 partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

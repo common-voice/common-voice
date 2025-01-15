@@ -97,3 +97,27 @@ about-menu-aria-label = Menù de opçioin d’informaçioin
 partnerships-menu-item-aria-label = Saccine de ciù in scê collaboraçioin con Common Voice
 press-and-stories-menu-item-aria-label = Ammia i communicati stampa e articoli in sce Common Voice
 community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue supportæ da Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

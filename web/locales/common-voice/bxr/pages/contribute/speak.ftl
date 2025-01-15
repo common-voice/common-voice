@@ -29,3 +29,9 @@ review-delete-recordings = Бэшэлгэнүүдээ усадхая
 review-terms = Ниитын дуу хоолой ашаглаһанаараа <termsLink>Нүхэсэл</termsLink> болон <privacyLink>Хубиин эрхэ тухай тэмдэглэл</privacyLink> зүбшөөрһэн болонот.
 terms-agree = Зүбшөөрнэб
 terms-disagree = Зүбшөөрнэгүйб
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

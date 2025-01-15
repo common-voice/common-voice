@@ -60,3 +60,9 @@ already-have-an-account = ¿Ziix oo cötpah an cöicaazquim zo ntyaa? <iniciar s
 create-profile-button = Perfil zo nsaai aha
 # IMAGE TAGS
 img-alt-success-checkmark = Tiipe iyat cöiifp hac haa ihaaco
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

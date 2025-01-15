@@ -3,11 +3,7 @@
 home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
 help-us-title = ܥܕܪ ܩܬܢ ܒܫܪܪܬܐ ܕܡܡܠ݇ܠ̈ܐ!
-vote-yes = ܗܐ
-vote-no = ܠܐ
-speak-subtitle = ܫܘܬܦ ܩܠܘܟܘܢ
 speak-goal-text = ܡܐܡܪ̈ܐ ܡܟܬܒܝ
-listen-subtitle = ܥܕܪ ܩܬܢ ܒܫܪܘܪܐ ܕܩܠ̈ܐ
 listen-goal-text = ܡܐܡܪ̈ܐ ܫܪܝܪ̈ܐ
 hours-recorded = ܫܥ̈ܐ ܡܟܬܒܝ
 hours-validated = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
@@ -60,4 +56,37 @@ whats-public = ܡܘܕܝ ܝܠܗ ܓܠܝܐ؟
 email-not-public = ܐܚܢܢ ܠܐ ܦܪܣܚ ܠܗ ܐܝܡܝܠ ܕܝܘܟܘܢ ܓܠܝܐܝܬ.
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

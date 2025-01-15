@@ -215,12 +215,6 @@ zza = ဇာဇာ
 
 ## Layout
 
-speak = ပြောပါ
-speak-now = ယခု ပြောပါ
-datasets = ဒေတာအစုများ
-languages = ဘာသာစကားများ
-about = အကြောင်း
-partner = ပူးပေါင်းဆောင်ရွက်သူ
 profile = ကိုယ်ရေးအကျဉ်း
 help = အကူအညီ
 contact = ဆက်သွယ်ရန်
@@ -240,7 +234,6 @@ privacy-info = သင့်အချက်အလက်များကို ဂ�
 return-to-cv = Common Voice သို့ပြန်သွားပါ
 email-input =
     .label = အီးမေးလ်
-submit-form-action = တင်သွင်းရန်
 loading = ဆောင်ရွက်နေသည်…
 email-opt-in-info = ရည်မှန်းချက်ဆိုင်ရာ အသိပေးချက်များ၊ တိုးတက်မှုအခြေအနေများနှင့် Common Voice နှင့် ပတ်သက်သည့် သတင်းလွှာများ စသည့် အီးမေးလ်များ ရယူလိုပါသည်။
 email-opt-in-info-title = Common Voice mailing list တွင် ပါဝင်ပါ

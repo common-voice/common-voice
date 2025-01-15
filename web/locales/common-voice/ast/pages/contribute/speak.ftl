@@ -36,3 +36,9 @@ review-delete-recordings = Desaniciar les mios grabaciones
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Refugo
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

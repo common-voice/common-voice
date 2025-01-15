@@ -191,11 +191,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Sọ̀rọ̀
-speak-now = Sọ̀rọ̀ nísìnyí
-datasets = Àkójọpọ̀ dátà
-languages = Èdè
-about = Nípa
 profile = Púrófáìlì
 help = Ìràǹwọ́
 contact = Ìkànsí
@@ -214,7 +209,6 @@ privacy-info = A ṣe ìlérí láti ṣe ì†ọ́jú àwọn àlàye
 return-to-cv = Padà sí Common Voice
 email-input =
     .label = Ímeèlì
-submit-form-action = Fi jíṣẹ́
 loading = Ó ń gbaradì…
 email-opt-in-info = Mo fẹ́ láti máa gba ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti lẹ́tà asọ̀ròyìn nípa Common Voice
 email-opt-in-info-title = Darapọ̀ mọ́ àtẹ̀jíṣẹ́ e ímeèli Common Voice

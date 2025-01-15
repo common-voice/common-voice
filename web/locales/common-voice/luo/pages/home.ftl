@@ -12,13 +12,9 @@ show-wall-of-text = Som mangeny
 help-us-title = Konywa loso wechegi
 help-us-explain = Di tugo, chik iti kaeto inyiswa: Be wach moket piny kanyo osom maber?
 no-clips-to-validate = Nenoreni ni onge sani weche momaki mangato nyalo chikone ite. Yie ikonywa pongo laini kod mako duondi sani.
-vote-yes = Ayie
-vote-no = ooyo
 toggle-play-tooltip = Di { shortcut-play-toggle } mondo ilok  idhi kuma inyalo tugo
-speak-subtitle = Chiu duondi
 speak-paragraph = Mako duod ji mawuoyo en achiel kuom gik mawatiyogo mondo wager dechwa moyangore; jomoko nyalo wacho ni bende enie mokelo mor timo.￼Type
 speak-goal-text = Duol machuok momaki
-listen-subtitle = Konywa nono duonde makare
 listen-paragraph = Nono duonde momaki bende ber ahinya kaluwore kod gombo mar Common Voice. Yie ikaw thuolo ichik iti kendo ikonywa loso kwan duonde maler ma oganda nyalo tiyogo.
 listen-goal-text = Duonde momak machuk mosenon
 hours-recorded = Seche mondiki
@@ -73,3 +69,36 @@ username-email-not-demographic = Nyingi mitiyogo donjie chenroni kod barupi mar 
 
 welcome-staff = Ruako jotij { $company }
 read-more-about = Som weche mamoko e migapwa
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

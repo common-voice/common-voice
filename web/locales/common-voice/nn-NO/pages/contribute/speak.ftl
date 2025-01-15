@@ -46,3 +46,9 @@ first-cta-gender-select-default-option = Vel eit alternativ
 second-cta-header-text = Takk for at du bidrog med stemma di!
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

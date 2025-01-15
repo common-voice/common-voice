@@ -12,3 +12,9 @@ listen-loading-error =
 listen-abort-title = Аклипқәа рыгәаҭара алгама?
 listen-abort-cancel = Агәаҭара иацҵатәуп
 listen-abort-confirm = Агәаҭара анагӡара
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

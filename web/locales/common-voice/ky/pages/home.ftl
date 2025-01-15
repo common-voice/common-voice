@@ -11,13 +11,9 @@ show-wall-of-text = Кенен маалымат
 help-us-title = Сүйлөмдөрдү текшерүүгө жардам бергиле!
 help-us-explain = Ойнотууну баскыла, угуп көрүп бизге билдиргиле: төмөнкү сүйлөм так айтылдыбы?
 no-clips-to-validate = Бул тилде укканга бир дагы үзүндү жок көрүнөт. Бир нерсе жаздырып, кезекти толтурганга жардам бериңиз.
-vote-yes = Ооба
-vote-no = Жок
 toggle-play-tooltip = { shortcut-play-toggle } басып, ойнотуу абалына которгула
-speak-subtitle = Үн кошуңуз
 speak-paragraph = Үн үзүндүлөрүн жаздыруу - берилиштердин ачык корун түзүүнүн ажырагыс бөлүгү; айрымдар муну кызыктуу бөлүгү деши мүмкүн.
 speak-goal-text = Үзүндү жазылды
-listen-subtitle = Жаздырууларды текшергенге жардам бериңиз
 listen-paragraph = Жаздырууларды текшерүү дагы Common Voice миссиясы үчүн маанилүү.  Жаздырууларды угуп, булагы ачык сапаттуу үн берилиштерин жаратууга жардам бериңиз.
 listen-goal-text = Үзүндүлөр текшерилди
 hours-recorded = Саат жазылды
@@ -68,3 +64,36 @@ username-email-not-demographic = Атыңыз жана эмейлиңиз жар
 ## Landing
 
 profile-not-required = Салым кошуу үчүн профайл түзүү талап кылынбайт, бирок пайдалуу болмок
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

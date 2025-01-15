@@ -148,11 +148,6 @@ zh-TW = Li Taiwan
 
 ## Layout
 
-speak = Ŵa'ö
-speak-now = Ŵa'ö iada'a
-datasets = Ngafu data
-languages = Li
-about = Sanandrösa
 profile = Profil
 help = Fanolo
 contact = Kontak
@@ -171,7 +166,6 @@ privacy-info = Mafabu'u wa sindruhu marorogö informasi moroi khöu. Baso nönö
 return-to-cv = Angawuli ba Common Voice
 email-input =
     .label = Email
-submit-form-action = Fa'ohe'ö
 loading = Edöna muhalö...
 email-opt-in-info = Omasido wanema ba email wamasugi ba dödö halöŵö, fa'atedou halöŵö awö zura duria sanandrösa ba Common Voice.
 email-opt-in-info-title = Fao ba gangolita zanema email (mailing list) Common Voice.

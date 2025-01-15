@@ -2,11 +2,7 @@
 
 show-wall-of-text = बेसी पढ़ू
 help-us-title = पंक्ति केँ जाचएँ में हमर मदति करू!
-vote-yes = हँ
-vote-no = नहि
-speak-subtitle = अपन बोली बाँटू
 speak-goal-text = क्लिप रेकॉर्ड भ' गेल
-listen-subtitle = आबाज केँ जाचएँ में हमर मदति करू!
 all-locales = सभटा
 today = आइ
 x-weeks-short = { $count } सप्ताह
@@ -25,4 +21,37 @@ benefits = लाभ
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

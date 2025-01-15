@@ -11,3 +11,9 @@ listen-loading-error =
 listen-abort-title = ສຳເລັດການກວດສອບຄລິບບໍ?
 listen-abort-cancel = ສືບຕໍ່ການກວດສອບ
 listen-abort-confirm = ສໍາເລັດການກວດສອບ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

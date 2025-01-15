@@ -95,3 +95,27 @@ about-menu-aria-label = باٞراٞ مئ اختیاراتیں لیس
 partnerships-menu-item-aria-label = کامن وائیس سٞہ شراکِتاٞں باٞراٞ مئ اِزدہ کٞر
 press-and-stories-menu-item-aria-label = کان وائیساٞں باٞراٞ مئ قصاٞ تے چاپ داٞگاٞل کٞہ پھٞݭ
 community-and-languages-menu-item-aria-label = کامن وائس مئ یوپاگیل جِبونہ تے کمیونٹی پاٞلٹ
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

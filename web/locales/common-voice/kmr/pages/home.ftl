@@ -30,13 +30,9 @@ show-wall-of-text = Zêdetir Bixwîne
 help-us-title = Ji bo piştrastkirina hevokan, alîkariya me bike!
 help-us-explain = Li bişkoka lêdanê bitikîne û lê guhdarî bike: Gelo hevoka li jêr rast hatiye xwendin?
 no-clips-to-validate = Wisa xuya ye ji bo vî zimanî ti klîbek tune ye ku lê guhdarî bikî. Niha axaftinan qeyd bike ku lîste bê dagirtin.
-vote-yes = Erê
-vote-no = Na
 toggle-play-tooltip = Ji bo girtina/vekirina moda lêdanê li { shortcut-play-toggle }’ê bitikîne
-speak-subtitle = Dengê xwe bibexşîne
 speak-paragraph = Tomarkirina klîbên dengan, beşeke girîng e ji bo avakirina komdaneya me ya vekirî. Li gorî hinekan beşa herî xweş jî ev e.
 speak-goal-text = Dengên tomarkirî
-listen-subtitle = Ji bo piştrastkirina dengan, alî me bike
 listen-paragraph = Ji bo Common Voiceê pejirandina klîbên dengan jî bi heman şêweyê girîng e. Bi rêya guhdarîkirina klîbên dengan bi me re bibe alîkar ku em daneyên dengî yên çavkanî vekirî û bi kalîte ava bikin.
 listen-goal-text = Dengên piştrastkirî
 hours-recorded = Saetên tomarkirî
@@ -94,3 +90,36 @@ help-contribute = Ji bo avakirina komdaneyeke çavkanî vekirî, tu dikarî bi r
 login-company = Bi emaîla { $company } re têkeve / tomar bibe
 profile-not-required = Ji bo beşdarbûnê hewce nake tu profîlekê çêbikî lê çêkirina hesêb ew ê baştir be.
 read-more-about = Li ser rûpela me ya "Derbar"ê zêdetir bixwîne
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

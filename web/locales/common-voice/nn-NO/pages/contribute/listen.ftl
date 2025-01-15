@@ -8,3 +8,9 @@ listen-loading-error =
     Vi klarte ikkje å finne lydklipp du kunne høyre på.
     Prøv på nytt seinare.
 listen-abort-confirm = Fullfør valideringa
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

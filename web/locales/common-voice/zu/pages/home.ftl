@@ -20,13 +20,9 @@ show-wall-of-text = Funda kabanzi
 help-us-title = Sisize siqinisekise imisho!
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
-vote-yes = Yebo
-vote-no = Cha
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
-speak-subtitle = Nikela ngezwi lakho
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 speak-goal-text = Iziqeshana eziqoshiwe
-listen-subtitle = Sisize siqinisekise amazwi
 listen-paragraph = Ukuqinisekisa ukuba iziqeshana ezinikelwe kubalulekile kumsebenzi weCommon Voice. Lalela bese uyasisiza ukuthi senze umthombo weziqeshana zamazwi ubesezingeni eliphezulu.
 listen-goal-text = Iziqeshana ziqinisekisiwe
 hours-recorded = Amahora Aqoshiwe
@@ -84,3 +80,36 @@ help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovule
 login-company = Ngena / Bhalisa nge-imeyili ye-{ $company }
 profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kusiza, bona ukuthi kungani ngezansi.
 read-more-about = Funda okwengeziwe ekhasini lethu le Mayelana
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

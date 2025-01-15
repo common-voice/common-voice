@@ -20,13 +20,9 @@ show-wall-of-text = Vhalani zwo Engedzeaho
 help-us-title = Ri thuseni u khwaṱhisedza mitaladzi!
 help-us-explain = Puṱedzani tsha u puḽeya, thetshelesa & ri vhudzeni: Naa vho amba zwi re kha mutaladzi u re afho fhasi?
 no-clips-to-validate = Zwi vhonala u nga a hu na zwo rekhodiwaho zwine na nga zwi thetshelesa nga holwu luambo. Ri thuseni u egedza mutevhe wa zwo rekhodiwaho nga u rekhoda zwiṅwe zwino.
-vote-yes = Ee
-vote-no = Hai
 toggle-play-tooltip = Puṱedzani { shortcut-play-toggle } bathene ya u puḽeya
-speak-subtitle = Nikelani nga ipfi ḽaṋu
 speak-paragraph = U rekhoda maipfi ndi tshipiḓa tsha u ita datasete yashu; vhaṅwe vha nga ri na tshenetshi ndi tshipiḓa tshi takadzaho.
 speak-goal-text = Zwo Rekhodiwaho
-listen-subtitle = Ri thuseni u khwaṱhisedza maipfi
 listen-paragraph = U khwaṱhisedza uri zwo rekhodiwaho ndi zwone ndi tshipikwa tsha ndeme vhukuma tsha Common Voice. Thetshelesani nahone ni ri thuse uri ri ite maipfi a vhuimo ha nṱha ane a ḓo kona u shumiswa nga nnyi na nnyi.
 listen-goal-text = Zwo Khwaṱhisedzwaho
 hours-recorded = Dziawara dzo Rekhodiwaho
@@ -84,3 +80,36 @@ help-contribute = Ni nga thusa kha u ita dataset khulwane ya nnyi na nnyi nga u 
 login-company = Log In / Sign Up na { $company } email
 profile-not-required = A zwi ṱoḓei uri ni vhe na profaiḽi uri ni shele mulenzhe, fhedzi zwi a thusa, ṱhogomelani uri ndi ngani a fho fhasi.
 read-more-about = Vhalani zwinzhi kha siaṱari la Ngaha
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

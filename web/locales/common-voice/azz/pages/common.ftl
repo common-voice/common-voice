@@ -10,7 +10,6 @@
 
 ## Layout
 
-languages = Tajtolmej
 
 ## Donate banner
 

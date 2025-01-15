@@ -2,8 +2,6 @@
 
 show-wall-of-text = Толығырақ
 help-us-explain = Жазып алыўды қосың, тыңлаң ҳәм бизге айтып бериң: төмендеги гәп дурыс оқылған ба?
-vote-yes = Аўа
-vote-no = Яқ
 speak-goal-text = Клип жазылды
 listen-goal-text = Клип тексерилди
 hours-recorded = Жазылған саат
@@ -45,3 +43,36 @@ username-email-not-demographic = Сизиң пайдаланыўшы атыңы�
 
 login-company = { $company } почтасы жәрдеминде кириң / дизимнен өтиң
 profile-not-required = Қатнасыў ушын профил талап етилмейди, бирақ бул пайдалы, неге екенин төменде көриң.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

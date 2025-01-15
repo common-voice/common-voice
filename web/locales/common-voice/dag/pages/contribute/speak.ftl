@@ -60,3 +60,9 @@ already-have-an-account = A pun m-mali akawunti? <login>Kpɛma</login>
 create-profile-button = Nammi purofaali
 # IMAGE TAGS
 img-alt-success-checkmark = Nasara dibo dalinli
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

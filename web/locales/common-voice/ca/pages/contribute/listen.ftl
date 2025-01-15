@@ -10,3 +10,9 @@ listen-loading-error =
 listen-abort-title = Voleu deixar de validar talls?
 listen-abort-cancel = Continua validant
 listen-abort-confirm = Acaba de validar
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

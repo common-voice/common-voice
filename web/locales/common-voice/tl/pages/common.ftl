@@ -183,11 +183,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Magsalita
-speak-now = Magsalita ngayon na
-datasets = Datasets
-languages = Mga Wika
-about = Tungkol Sa
 profile = Profile
 help = Tulong
 contact = Contact
@@ -206,7 +201,6 @@ privacy-info = Nangangako kaming hawakan ang iyong impormasyon nang may pag-iing
 return-to-cv = Bumalik sa Common Voice
 email-input =
     .label = Email
-submit-form-action = Ipadala
 loading = Loading…
 email-opt-in-info = Gusto kong makatanggap ng email katulad ng mga paalala sa layunin, aking kaganapang pag-unlad, at mga newsletter tungkol sa Common Voice.
 email-opt-in-info-title = Sumali sa mailing list ng Common Voice

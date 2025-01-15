@@ -214,12 +214,6 @@ zza = Sasa
 
 ## Layout
 
-speak = Mulavuleke
-speak-now = Mulavule naanano va
-datasets = Nikhuuru na mihupi
-languages = Mattava
-about = Ohima masu
-partner = Mulipa owuka
 profile = ePerefile
 help = Mukhaliheryo
 contact = Wuulume
@@ -237,7 +231,6 @@ donate = Ohiyera
 return-to-cv = Muhokolowele o Common Voice
 email-input =
     .label = Emeeyili
-submit-form-action = Orumihela
 loading = Ettukhulakani...
 email-opt-in-info = Kiphavela wakhelela emeeyiili, iye ntooko  soorepela sa miphiimo, solaleeryiwa vasya muhina mwa manamuno awuunuwelo ni nlaaka na milaleeryo s amihuupi variyari va  Common Voice.
 email-opt-in-info-title = Mwirele mpantta mulixitani wa onyakulihana wa Common Voice

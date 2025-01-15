@@ -179,12 +179,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Ch'owen
-speak-now = Kach'o wakami
-datasets = Kiyakb'al tzij
-languages = Taq ch'ab'äl
-about = Tawetamaj qawäch
-partner = Katok qachib'il
 profile = Ruwäch b'i'aj
 help = Tob'äl
 contact = Rub'i' achib'il
@@ -203,7 +197,6 @@ privacy-info = Niqaya' qatzij chawe chi niqachajij ri awetamab'al. Tasik'ij ch'a
 return-to-cv = Titzolin pa Common Voice
 email-input =
     .label = Taqoya'l
-submit-form-action = Titaq
 loading = Nisamajib'ëx...
 email-opt-in-info = Ninwajo' yenk'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
 email-opt-in-info-title = Tatunu' awi' pa ri rucholajem rutaqoya'l Common Voice

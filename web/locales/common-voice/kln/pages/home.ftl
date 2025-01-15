@@ -8,11 +8,7 @@ show-wall-of-text = soman alak
 help-us-title = toretech kenay kole ba iman sentensishek!
 help-us-explain = chill kochesan,gastee ak imwawech:tos kingololyo kosikchi eng sentensi noto?
 no-clips-to-validate = nguni mamiten klipishek chegigasee eng kuti nitok.Toretech kenyiit lainda agerekoden chengering nguno!
-vote-yes = kayan
-vote-no = achaa
-speak-subtitle = toretishe sautingung
 speak-goal-text = clipinik chegigirekoden
-listen-subtitle = toretech isaisan sautinik
 listen-goal-text = klipinik chegigesaisan
 hours-recorded = saishek chegigirekodeni
 hours-validated = saishek chegigesaisan
@@ -64,3 +60,36 @@ welcome-staff = karibuu { $company } bikk cheyoe boishet!
 login-company = logen in anan isirgei eng  { $company }emailit
 profile-not-required = mamagat itinye profilingung asiyumse angot ndo much koba toretet,keer amune eng yuu ngweny
 read-more-about = soman chechang agoba achek eng pagit nenyo
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

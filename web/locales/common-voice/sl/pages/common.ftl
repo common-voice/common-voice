@@ -158,11 +158,6 @@ zh-TW = kitajščina (Tajvan)
 
 ## Layout
 
-speak = Govori
-speak-now = Začnite govoriti
-datasets = Nabori podatkov
-languages = Jeziki
-about = O nas
 profile = Profil
 help = Pomoč
 contact = Kontakt
@@ -181,7 +176,6 @@ privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite ve
 return-to-cv = Nazaj na Common Voice
 email-input =
     .label = E-pošta
-submit-form-action = Pošlji
 loading = Nalaganje …
 email-opt-in-info = Želim prejemati e-poštna sporočila, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
 email-opt-in-info-title = Pridružite se e-poštnemu seznamu Common Voice

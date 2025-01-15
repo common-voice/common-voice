@@ -215,12 +215,6 @@ zza = Dhozaza
 
 ## Layout
 
-speak = Wuo
-speak-now = Wuo sani
-datasets = Weche mochoki
-languages = Dhok
-about = Kuom
-partner = Wat
 profile = Picha
 help = Kony
 contact = Tudruok
@@ -240,7 +234,6 @@ privacy-info = Wasingo ni wabiro rito weche moa kuomi kod ritruok.  Som mathoth 
 return-to-cv = Dogi e Common Voice
 email-input =
     .label = Barup mbui
-submit-form-action = Or
 loading = Donjo
 email-opt-in-info = An gi gombo mar yudo barupe mag mbui kuom dongruok mara, parona kod weche matuch e oboke mar Common Voice
 email-opt-in-info-title = Donji e kanyakla mayudo barupe mawuok Common Voice

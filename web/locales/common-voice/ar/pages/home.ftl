@@ -13,13 +13,9 @@ show-wall-of-text = اطّلع على المزيد
 help-us-title = ساعِدنا على تدقيق الجُمل!
 help-us-explain = اضغط زر التشغيل واستمع إلى التسجيل وأخبرنا: هل كان نطق الجملة بالأسفل صحيحًا؟
 no-clips-to-validate = يبدو أنه ليس ثمة أي مقاطع في هذه اللغة. ساعِدنا بتسجيل بعض المقاطع الآن.
-vote-yes = نعم
-vote-no = لا
 toggle-play-tooltip = انقر { shortcut-play-toggle } للتشغيل أو الإيقاف
-speak-subtitle = ساهِم بصوتك
 speak-paragraph = يُعتبر تسجيل المقاطع الصوتية جزءًا لا يتجزّأ من صناعة مجموعة بيانات مفتوحة نقدر على استخدامها. قد يقول البعض أنها المرحلة الممتعة في خضمّ كل هذا.
 speak-goal-text = المقاطع المسجّلة
-listen-subtitle = ساعِدنا في التحقق من الأصوات
 listen-paragraph = يُعتبر التحقق من المقاطع المسجّلة أمرًا مهمًا يوازي إرسالها بالنسبة إلى مهمّة مشروع «الصوت للعموم». جرّب العملية وساعِدنا بإنشاء بيانات صوتية مفتوحة المصدر وعالية الجودة.
 listen-goal-text = المقاطع المدقّقة
 hours-recorded = الساعات المسجّلة
@@ -89,3 +85,36 @@ help-contribute = يمكنك تقديم يد العون لبناء مجموعة 
 login-company = لِج أو سجّل حسابًا ببريد { $company }
 profile-not-required = امتلاكك لملف شخصي ليس مطلوبا لتشارك معنا، إلا أن وجوده مفيد
 read-more-about = اطّلع على المزيد من صفحة ”من نحن“
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

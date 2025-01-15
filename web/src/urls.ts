@@ -5,7 +5,6 @@ const SPONTANEOUS_SPEECH = '/spontaneous-speech/beta'
 
 export default Object.freeze({
   ROOT: '',
-  NEW_ROOT: '/new-root',
 
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',

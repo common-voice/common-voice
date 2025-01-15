@@ -109,3 +109,27 @@ about-menu-aria-label = اختِیاراتو مینو بارَد ڇکِیا
 partnerships-menu-item-aria-label = کامن وائس سے ساتیْ شراکتے بارَد معلوم تِھیا
 press-and-stories-menu-item-aria-label = کامن وائس اےْ بارَد پریس ریلیز گہ قصَو بُجَیش اُڇِھیار حاصل تِھیا
 community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریعہ گیْ تعاون یافتہ کمیونٹی گہ جِبو بارَد معلوم تِھیا
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

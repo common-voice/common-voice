@@ -8,3 +8,9 @@ listen-loading-error = Ndedipatire vlipu vingi kudima kusikiria. Dalomba kutime 
 listen-abort-title = Kwameria kuhakikisha vlipu?
 listen-abort-cancel = Endelia kuhakikisha
 listen-abort-confirm = Meria kuhakikisha
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

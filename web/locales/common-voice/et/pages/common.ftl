@@ -112,11 +112,6 @@ zh-TW = hiina (Hiina Vabariik)
 
 ## Layout
 
-speak = Räägi
-speak-now = Räägi nüüd
-datasets = Andmestikud
-languages = Keeled
-about = Teave
 profile = Profiil
 help = Abi
 contact = Kontakt
@@ -135,7 +130,6 @@ privacy-info = Me lubame, et töötleme sinu andmeid hoolikalt. Loe rohkem meie 
 return-to-cv = Tagasi Common Voice'i
 email-input =
     .label = E-posti aadress
-submit-form-action = Saada
 loading = Laadimine…
 email-opt-in-info = Soovin saada e-kirju eesmärkide meeldetuletuste ja edenemise uuendustega ning uudiskirju Common Voice'i kohta.
 indicates-required = * tähistab kohustuslikku välja

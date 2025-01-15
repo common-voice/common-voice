@@ -12,13 +12,9 @@ show-wall-of-text = Lenn muioc’h
 help-us-title = Skoazellit ac’hanomp da gadarnaat frazennoù!
 help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
 no-clips-to-validate = War a seblant n’eus klip ebet da selaou evit ar yezh-mañ. Sikourit ac’hanomp da leuniañ ar steudad c’hortoz en ur enrollañ un nebeud bremañ.
-vote-yes = Ya
-vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
-speak-subtitle = Roit ho mouezh
 speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon spletad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
 speak-goal-text = Klipoù enrollet
-listen-subtitle = Skoazellit ac’hanomp da wiriañ mouezhioù
 listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac’hanomp da grouiñ roadennoù mouezh digor a galite.
 listen-goal-text = Klipoù gwiriet
 hours-recorded = Eurvezhioù enrollet
@@ -85,3 +81,36 @@ help-contribute = Gallout a rit sikour da grouiñ ur spletad roadennoù liesseur
 login-company = Kevreit / Emezelit gant ho chomlec’h { $company }
 profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 read-more-about = Lenn muioc’h war ar bajenn A-zivout
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

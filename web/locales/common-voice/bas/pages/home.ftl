@@ -11,13 +11,9 @@ show-wall-of-text = Kônde añ
 help-us-title = Hôla bés i nneebe le ngim ntôñ u bibuk u héli.
 help-us-explain = Nwot play, emble ni kal bés : ba u ntôñ u bibuk u yé ha isi, u ñéña loñge?
 no-clips-to-validate = I nnene u yik we makiñ ma nsot inyu liemble munu unu hôp. Soho hôla bés le dikônde nôbe ndék i makiñ munu.
-vote-yes = Nn!
-vote-no = To
 toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
-speak-subtitle = Pôôs kiñ yoñ.
 speak-paragraph = Lisañge makiñ liyé hipa hyada ikédé dipa dipe di ñgwélél inyu ligwo mayaa ma minje, mabak kunde le to nje a nla bônôl: bebek uyé le u hoñol kikii ñgandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
 speak-goal-text = Minsañgge mi dikékét di makiñ
-listen-subtitle = Hôla bés i nneebe le kiñ i héli.
 listen-paragraph = Lineebele kiñ i héli liyé nseñ ñgandak inyu nson u digwéé i sal i Common Voice. Yoñ ndék ñgéda i emble, ka iyé le, hala a laa hôla bés i ôô mayaa ma minje mii makiñ, ma ma gwéé mahoñ.
 listen-goal-text = Minneebege mi dikékét di makiñ
 hours-recorded = Nsoñgi u mañgeñ u minsañgge mi makiñ
@@ -75,3 +71,36 @@ help-contribute = Inyu yoñ ñgaba ikédé nduña i njañgi nya-ndi-nya i ma
 login-company = Jôp / Tila jôl ni mél i { $company }
 profile-not-required = Likañ li tabé le mut a bana liyimbne ñwaa a nsañge kiñ yé, to ibale hala a yé nseñ, béñge hana i si inyu nigil inyu ki.
 read-more-about = Kônde añ mam mape i Bés-bo-nje wés lipep
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

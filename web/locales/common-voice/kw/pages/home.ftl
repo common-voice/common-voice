@@ -20,13 +20,9 @@ show-wall-of-text = Redya moy
 help-us-title = Gweresowgh dhyn ow kwirya lavarow!
 help-us-explain = Gweskowgh seni, goslowowgh ha leverowgh dhyn: a veu an lavar a-woles leverys yn ewn?
 no-clips-to-validate = Yth hevel nag eus klyppys dhe woslowes orta y'n yeth ma. Gweresowgh dhyn ow lenwel an lost dre rekordya nebes lemmyn.
-vote-yes = Beu
-vote-no = Na veu
 toggle-play-tooltip = Gweskowgh war { shortcut-play-toggle } rag dalleth po hedhi an modh seni
-speak-subtitle = Kevri agas lev
 speak-paragraph = Rekordya temmigow lev yw rann gresel a dhrehevel agan sett data ygor, yma nebes ow leverel y vos an rann dhidhanus ynwedh.
 speak-goal-text = Temmigow rekordys
-listen-subtitle = Gweres dhyn ow tilysa levow
 listen-paragraph = Dilysa klyppys argevres yw posek yn kehaval dhe'n ragdres Common Voice. Goslow ha'gan gweres ow kwruthyl kedhlow lev fenten ygor a gwalita ughel.
 listen-goal-text = Klyppys dilysys
 hours-recorded = Ourys Rekordys
@@ -93,3 +89,36 @@ username-email-not-demographic = Ny vydh dha hanow-usyer po ebost kelmys gans an
 
 welcome-staff = Dynnargh mayni { $company }!
 login-company = Omgelmi / Omrolya gans ebost { $company }
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

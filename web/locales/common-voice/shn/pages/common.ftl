@@ -129,12 +129,6 @@ ne-NP = ၼေပႃလီႇ
 
 ## Layout
 
-speak = လၢတ်ႈ
-speak-now = လၢတ်ႈလႆႈယဝ်ႉ
-datasets = ၸုမ်ႇၶေႃႈမုၼ်း
-languages = ၽႃႇသႃႇ
-about = ၵပ်းၵၢႆႇ
-partner = ၽူႈႁူမ်ႈၽၢၵ်ႈ
 profile = ပရူဝ်ႇၾၢႆႇ
 help = ၸွႆႈထႅမ်
 contact = ၵပ်းသိုပ်ႇ
@@ -153,7 +147,6 @@ privacy-info = ႁဝ်းၶႃႈပၼ်ၶေႃႈမၼ်ႈၵႅၼ�
 return-to-cv = ပွၵ်ႈၶိုၼ်းတီႈ Common Voice
 email-input =
     .label = ဢီးမေးလ်
-submit-form-action = သူင်ႇ
 loading = တိုၵ်ႉၸၼ်…
 email-opt-in-info = ၶႃႈၶႂ်ႈလႆႈႁပ်ႉဢီးမေးလ် မိူၼ်ၼင်ႇ လိုမ်ႉပၼ်လွင်ႈယိူင်းမၢႆ၊ လွင်ႈၶိုပ်ႈၼႃႈၸဝ်ႈၵဝ်ႇ လႄႈၽိုၼ်ၶၢဝ်ႇလွင်ႈ Common Voice
 email-opt-in-info-title = ၶဝ်ႈႁူမ်ႈပဵၼ်ၽူႈႁပ်ႉၽိုၼ်လိၵ်ႈ Common Voice

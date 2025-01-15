@@ -2,10 +2,7 @@
 
 show-wall-of-text = Дэлгэрүүлэн уншаха
 help-us-title = Үгүүлбэри баталалсажа үгыт!
-vote-yes = Тии
-vote-no = Үгы
 toggle-play-tooltip = Тоглуулхын түлөө { shortcut-play-toggle } тобшо дарана гүт
-speak-subtitle = Дуу хоолойгоо хандиблаха
 hours-recorded = Бэшэлгын саг
 hours-validated = Баталгажуулһан саг
 voices-online = Һүлжээндэ гарганхай дуу хоолой
@@ -44,4 +41,37 @@ username-optin-public = Хэрэглэгшын нэрэеэ олониитын �
 username-email-not-demographic = Танай хэрэглэгшын нэрэ сахим хаяг хоёр ниитэлэгдэһэн үгэгдэлтэйтнай холбоогүй байха.
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

@@ -57,3 +57,9 @@ already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de vistiplau
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

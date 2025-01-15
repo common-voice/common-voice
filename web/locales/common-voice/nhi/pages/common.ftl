@@ -205,12 +205,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Xitlahto
-speak-now = Xitlahto axan
-datasets = Amatl tlanauatil
-languages = Tlahtolmeh
-about = Ica Common Voice
-partner = Yolchicauca
 profile = Nexica
 help = Xinechpaleui
 contact = nonotza
@@ -225,7 +219,6 @@ privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. Cachi xitlal
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
-submit-form-action = Xictitlani
 loading = Yehyecohtoc...
 email-opt-in-info = Onicniquisquia niquinsilis correos electrónicos queme ilnamiquilistl ipan tlanimilil, tepanoltilistl ica noiscaltilis uan se tlahtol tenonotza ica Common Voice
 email-opt-in-info-title = Ximonilo ica tlahcuilol correo de Common Voice.

@@ -26,13 +26,9 @@ show-wall-of-text = Li piplis
 help-us-title = Ede nou valide fraz yo!
 help-us-explain = Peze jwe, koute epi di nou: èske yo te byen pale fraz ki anba a?
 no-clips-to-validate = Sanble pa gen okenn son pou koute nan lang sa a. Ede nou ranpli ke a lèw anrejistre kèk kounye a.
-vote-yes = Wi
-vote-no = Non
 toggle-play-tooltip = Peze { shortcut-play-toggle } pou chanje mòd jwe
-speak-subtitle = Bay vwa ou.
 speak-paragraph = Anrejistreman son vwa se yon pati entegral nan bati done ouvè nou an; gen moun ki ta di se pati ki amizan tou.
 speak-goal-text = Son ki anrejistre yo
-listen-subtitle = Ede nou valide vwa yo
 listen-paragraph = Validasyon klip moun bay yo egalman enpòtan pou misyon Common Voice la. Pran yonn koute epi ede nou kreye bon jan kalite done vwa sous louvri.
 listen-goal-text = Son ki valide ye
 hours-recorded = Konbyen lè ki anrejistre
@@ -90,3 +86,36 @@ help-contribute = Ou ka ede konstwi yon seri done divès, sous louvri lè'w krey
 login-company = Konekte / Enskri ak imel { $company }
 profile-not-required = Ou pa oblije gen yon kont pou kontribye, poutan li tap itil.
 read-more-about = Li plis sou paj About nou an
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

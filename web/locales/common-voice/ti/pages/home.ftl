@@ -24,13 +24,9 @@ show-wall-of-text = ንዝያዳ ኣንብብ
 help-us-title = ምሉእ ሓሳባት ናባና ንኸነረጋግጽ ሓግዙና!
 help-us-explain = ፕለይ ጸቂትካ ስሚዕካ ንገረና: ነቲ ኣብ ታሕቲ ዘሎ ምሉእ ሓሳባት ብልክዕ ድዮም ዚዛረብዎ ነይሮም ?
 no-clips-to-validate = በዚ ቛንቋ እዚ ኽትሰምዖ ዜኽእለካ ክሊፕ ዘየለ እዩ ዚመስል። ሕጂ ንገሊኡ ብምምዝጋብ ነቲ መስርዕ ንኽንመልኦ ሓግዘና።
-vote-yes = እወ
-vote-no = ኣይፋል
 toggle-play-tooltip = ጽቅጥ { shortcut-play-toggle } ናብ ፕለይ ጽወታ
-speak-subtitle = ድምጺኻ/ኺ ኣወፊ
 speak-paragraph = ክሊፕታት ድምጺ ምቕዳሕ ዘይንጸል ክፍሊ ናይቲ ኽፉት ሓበሬታና ምህናጽ ኢዩ፣ ገሊኣቶም እዚ እውን ባህ ዘብል ኢዩ ይብሉ ።
 speak-goal-text = እተቐድሐ ክሊፕታት
-listen-subtitle = ድምጺ ኸነረጋግጽ ሓግዘና
 listen-paragraph = እተወፈየ ክሊፕታት ምርግጋጽ እውን ንተልእኾ ሓባራዊ ድምጺ ብማዕረ ኣገዳስነት ኣለዎ። ጽን ኢልካ ስምዓዮ ብሉጽ ምንጪ ድምጺ ንኽንሰርሕ ድማ ሓግዘና።
 listen-goal-text = ዝተራጋገጸ ክሊፓት
 hours-recorded = ዝተቐድሑ ሰዓታት
@@ -88,3 +84,36 @@ help-contribute = ኮመን ቮይስ ድሕረ ባይታ ኣክውንት ብም
 login-company = ተመዝገብ / እተው ብ{ $company } ኢ- መይል
 profile-not-required = ድሕረ ባይታ (profile) ሓጋዚ እኳ እንተ ዀነ ንኣበርክቶ ኺገብር ግን ግደታ ኣይኮነንን፣ ስለምንታይ ኣብ ታሕቲ ኸም ዘሎ ርአ ።
 read-more-about = ንዝያዳ ኣብ ብዛዕባና ገጽ ኣንብብ
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

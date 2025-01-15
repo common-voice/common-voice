@@ -38,10 +38,7 @@ export const HeroSection: React.FC<Props> = ({ isLocaleContributable }) => {
               <p />
             </Localized>
             <Localized id="get-started" elems={{ icon: <ArrowRight /> }}>
-              <LinkButton
-                rounded
-                to={`${URLS.NEW_ROOT}?page=home#action-items`}
-              />
+              <LinkButton rounded to={`${URLS.ROOT}?page=home#action-items`} />
             </Localized>
           </div>
         </div>

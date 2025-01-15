@@ -26,13 +26,9 @@ show-wall-of-text = Bala Haholwanyane
 help-us-title = Re thuse ho netefatsa dipolelo!
 help-us-explain = Tobetsa bapala, mamela mme o re bolelle: na ba buile polelo e ka tlase ka nepo?
 no-clips-to-validate = Ho bonahala eka ha ho na di-clip tsa ho mamela ka puo ena. Re thuse ho tlatsa letoto ka ho rekota tse ding hona jwale.
-vote-yes = Ee
-vote-no = Tjhe
 toggle-play-tooltip = Tobetsa { shortcut-play-toggle } ho fetola mokgwa wa ho bapala
-speak-subtitle = Nehelana ka lentswe la hao
 speak-paragraph = Ho rekota di-ciip tsa lentswe ke karolo ya bohlokwa ya ho aha pokello ya data e bulehileng; ba bang ba ka re ke karolo e monate le yona.
 speak-goal-text = Di-clip di rekotilwe
-listen-subtitle = Re thuse ho netefatsa mantswe
 listen-paragraph = Ho netefatsa dikotwana tse fanweng ho bohlokwa ka ho lekana ho sepheo sa Common Voice. Mamela mme o re thuse ho etsa data ya mantswe e buletsweng bohle e nang le boleng.
 listen-goal-text = Di-clip di netefaditswe
 hours-recorded = Dihora tse Rekotilweng
@@ -90,3 +86,36 @@ help-contribute = O ka thusa ho aha pokello ya data e fapaneng, ya mohlodio bule
 login-company = Kena / Ingodise ka { $company } imeile
 profile-not-required = Ho ba le profaele ha ho hlokahale ho kenya letsoho leha ho le molemo, bona hore na hobaneng mona ka tlase.
 read-more-about = Bala haholwanyane ho leqephe la About la rona
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

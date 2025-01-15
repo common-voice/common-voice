@@ -15,13 +15,9 @@ show-wall-of-text = ליינט מער
 help-us-title = העלפט אונז באשטעטיגן זאצן!
 help-us-explain = דריקט שפיל, הער צו & און זאג אונז: האט עס אקוראט געזאגט דעם דאזיגן זאץ?
 no-clips-to-validate = ס'קוקט אויס אז ס'איז נישטא קיין קליפס צו אויסערן אויף דעם שפרייך. העלפט אונז אנפולן די רייע דורך רעקארדירן אביסל יעצט.
-vote-yes = יא
-vote-no = ניין
 toggle-play-tooltip = דריקט { shortcut-play-toggle } צו טוישן שפילן מאדע
-speak-subtitle = ביישטייערט אייער שטימע
 speak-paragraph = רעקארדירן שטימע קליפס איז א וויכטיגע טייל פון בויען אונזער אפענע דאטע סעט; מאנכע זאגן אז דאס איז די אויך די אינטערעסאנטע טייל.
 speak-goal-text = קליפס רעקארדירט
-listen-subtitle = העלפט אונז באשטעטיגן שטימעס
 listen-paragraph = באשטעטיגן ביישטייערטע קליפס איז פונקט אזוי וויכטיג צו די קאמאן וואויס מיסיע. הערט אויס און העלפט אונז צושטעלן קוואליטעט אפען סאורס שטימע דאטא.
 listen-goal-text = קליפס באשטעטיגט
 hours-recorded = שטונדן רעקארדירט
@@ -71,4 +67,37 @@ username-optin-public = איר קענט וועלן צו מאכן אייער בא
 username-email-not-demographic = אייער באנוצער נאמען און אימעיל וועט נישט זיין פארבינדן מיט די ארויגעגעבענעם דאטא.
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

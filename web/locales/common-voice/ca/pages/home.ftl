@@ -12,13 +12,9 @@ show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
 help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
 no-clips-to-validate = Sembla que no hi ha cap tall de veu per revisar en aquesta llengua. Ajudeu-nos a emplenar la cua enregistrant-ne alguns ara.
-vote-yes = Sí
-vote-no = No
 toggle-play-tooltip = Premeu { shortcut-play-toggle } per iniciar i aturar la reproducció
-speak-subtitle = Doneu la veu
 speak-paragraph = L'enregistrament de talls de veu és una part essencial per crear el nostre conjunt de dades obertes. També és la part més divertida.
 speak-goal-text = talls enregistrats
-listen-subtitle = Ajudeu-nos a validar veus
 listen-paragraph = La validació dels talls de veu també és important per a la missió del Common Voice. Escolteu els talls i ajudeu-nos a crear dades de veu de qualitat amb llicència lliure.
 listen-goal-text = talls validats
 hours-recorded = Hores enregistrades
@@ -76,3 +72,36 @@ help-contribute = Ajudeu a construir un conjunt de dades lliure i divers creant 
 login-company = Inici de sessió / Registre amb l'adreça electrònica de { $company }
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 read-more-about = Vegeu més informació a la pàgina «Qui som»
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

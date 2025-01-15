@@ -203,12 +203,6 @@ zza = Заза
 
 ## Layout
 
-speak = Бижидилге
-speak-now = Бижидип эгелээр
-datasets = Бердингеннер чыындызы
-languages = Дылдар
-about = Бистиң дугайывыста
-partner = Партнёр
 profile = Профиль
 help = Дуза
 contact = Харылзажыры
@@ -228,7 +222,6 @@ privacy-info = Силерниң берген медээлериңерге хум
 return-to-cv = Common Voice-че дедир эглир
 email-input =
     .label = Электроннуг почта
-submit-form-action = Бараалгадыр
 loading = Чүдүртүнүп турар...
 email-opt-in-info = Сорулгазын сагындырган, мээң бурунгаар шимчээшкиним сагындырган дугайында база Common Voice дугайында медээлерни электроннуг почтамче алыксап тур мен.
 email-opt-in-info-title = Common Voice-туң чагаа тарадыр ниити даңзызынга катчыр

@@ -12,13 +12,9 @@ show-wall-of-text = Goşmaça oka
 help-us-title = Sözlemleri barlamaga bize kömek ediň!
 help-us-explain = Aýtdyr-a basyň, diňläň we bize aýdyň: olar aşakdaky sözlemi dogry aýtdylarmy?
 no-clips-to-validate = Bu dilde diňlemek üçin ses ýazgylary ýok ýaly. Häzir käbirlerini ýazga alyp, nobaty doldurmaga kömek ediň.
-vote-yes = Hawa
-vote-no = Ýok
 toggle-play-tooltip = Aýtdyrmak tertibini çalyşmak üçin { shortcut-play-toggle } basyň
-speak-subtitle = Sesiňizi peşgeş beriň
 speak-paragraph = Ses kliplerini ýazga almak açyk maglumat bazamyzy gurmagyň aýrylmaz bölegidir; käbirleri üçin işiň gyzykly tarapy hem şu.
 speak-goal-text = Ýazga alnan klipler
-listen-subtitle = Sesleri barlamaga bize kömek ediň
 listen-paragraph = Bagyş edilen klipleri barlamak Common Voice missiýasy üçin deň derejede möhümdir. Diňläp görüň we ýokary hilli açyk sesli maglumatlary döretmäge kömek ediň.
 listen-goal-text = Barlanan klipler
 hours-recorded = Ýazga alnan sagatlar
@@ -76,3 +72,36 @@ help-contribute = Common Voice profilini döredip we sesiňizi goşant goşup, k
 login-company = Gir / { $company } e-poçtasy bilen ýazyl
 profile-not-required = Goşant goşmak üçin profiliň bolmagy hökmany däl, ýöne ol peýdaly, sebäbini aşakda görüň.
 read-more-about = Hakynda sahypamyzda goşmaça okaň
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

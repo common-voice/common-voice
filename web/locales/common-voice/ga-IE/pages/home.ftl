@@ -71,3 +71,36 @@ username-email-not-demographic = Ní bheidh d'ainm úsáideora ná do sheoladh r
 welcome-staff = Fáilte romhaibh, a lucht { $company }!
 profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

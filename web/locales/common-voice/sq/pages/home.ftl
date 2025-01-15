@@ -97,3 +97,27 @@ about-menu-aria-label = Menu mundësish “Mbi”
 partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice
 press-and-stories-menu-item-aria-label = Shihni njoftime shtypi dhe shembuj të lidhur me Common Voice
 community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuhët e mbuluara nga Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

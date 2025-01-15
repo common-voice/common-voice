@@ -60,3 +60,9 @@ already-have-an-account = መለያ አለዎት? <login>ግባ</login>
 create-profile-button = መገለጫ ይፍጠሩ
 # IMAGE TAGS
 img-alt-success-checkmark = የስኬት ምልክት
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

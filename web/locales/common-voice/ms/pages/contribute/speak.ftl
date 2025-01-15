@@ -29,3 +29,9 @@ terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Terima kasih kerana menderma klip suara anda!
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

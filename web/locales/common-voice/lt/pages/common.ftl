@@ -131,11 +131,6 @@ zh-TW = Kinų (Taivanas)
 
 ## Layout
 
-speak = Kalbėk
-speak-now = Kalbėk dabar
-datasets = Duomenų rinkiniai
-languages = Kalbos
-about = Apie
 profile = Profilis
 help = Pagalba
 contact = Susisiek
@@ -154,7 +149,6 @@ privacy-info = Pažadame tvarkyti Tavo informaciją atsargiai. Daugiau informaci
 return-to-cv = Grįžti į „Common Voice“
 email-input =
     .label = El. paštas
-submit-form-action = Pateikti
 loading = Įkeliama…
 email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
 email-opt-in-info-title = Prenumeruoti „Common Voice“ naujienlaiškį

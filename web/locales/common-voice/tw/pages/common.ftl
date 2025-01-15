@@ -183,11 +183,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Kasa
-speak-now = Kasa seesei
-datasets = Datasets
-languages = Nkasa
-about = Fa ho
 profile = Profile
 help = Mmoa
 contact = Contact
@@ -206,7 +201,6 @@ privacy-info = Yehyɛ wo bɔ sɛ yebehwɛ wo ho so yie. Akenkan yɛn <privacyLin
 return-to-cv = san kɔ Common Voice
 email-input =
     .label = Email
-submit-form-action = Wie
 loading = Ye pa wo kyew, twɛn
 email-opt-in-info = Me pɛ sɛ me gye emails goal reminders ho, me nkɔsoɔ, na amanneɛ Common Voice ho.
 email-opt-in-info-title = Ka wo ne Common Voice mailing list bom

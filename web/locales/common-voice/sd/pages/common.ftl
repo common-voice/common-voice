@@ -206,12 +206,6 @@ zza = زازا
 
 ## Layout
 
-speak = ڳالهايو
-speak-now = هاڻي ڳالهايو
-datasets = ڊيٽا سيٽ
-languages = ٻوليون
-about = بابت
-partner = ڀائيوار
 profile = پروفائل
 help = مدد ڪريو
 contact = رابطو
@@ -231,7 +225,6 @@ privacy-info = اسان توهان جي معلومات کي احتياط سان 
 return-to-cv = عام آواز ڏانھن واپس وڃو
 email-input =
     .label = اي ميل
-submit-form-action = جمع ڪرايو
 loading = لوڊ ٿي رهيو آهي…
 email-opt-in-info = آئون حاصل ڪرڻ چاهيان ٿو اي ميلون جهڙوڪ مقصد ياد ڏياريندڙ، منهنجي پيش رفت تازه ڪاريون ۽ خبر ناما عام آواز بابت.
 email-opt-in-info-title = عام وائس ميلنگ فهرست ۾ شامل ٿيو

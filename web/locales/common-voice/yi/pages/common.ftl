@@ -205,12 +205,6 @@ zza = זאזא
 
 ## Layout
 
-speak = רעדט
-speak-now = רעדט יעצט
-datasets = דאטא סעטס
-languages = שפרייכן
-about = איבער אונז
-partner = צאמפארן
 profile = פראפייל
 help = הילף
 contact = קאנטאקט
@@ -230,7 +224,6 @@ privacy-info = מיר פארשפרעכן צו האנדלען אייער אינפ
 return-to-cv = גיי צוריק צו קאמאן וואויס
 email-input =
     .label = אימעיל
-submit-form-action = גיב אריין
 loading = לאדנט זיך...
 email-opt-in-info = איך וויל באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס.
 email-opt-in-info-title = שליסט אייך אן אין די קאמאן וואויס מעיל ליסטע
@@ -241,5 +234,5 @@ not-available-abbreviation = נישט גילטיג
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>מיר דארפן</mark><br/><mark>אייער הילף!</mark>

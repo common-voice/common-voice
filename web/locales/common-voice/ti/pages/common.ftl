@@ -206,12 +206,6 @@ zza = ዛዛ
 
 ## Layout
 
-speak = ተዛረብ
-speak-now = ሕጂ ተዛረብ
-datasets = ሓበሬታታት
-languages = ቃንቃታት
-about = ብዛዕባ
-partner = መሻርኽቲ
 profile = ቅርጺ
 help = ሓገዝ
 contact = መራኽቦ
@@ -231,7 +225,6 @@ privacy-info = ሓበሬታኻ ብጥንቃቐ ኸም እንሕዞ ንመባጻ�
 return-to-cv = ናብ ኮመን ቮይስ ተመለስ
 email-input =
     .label = ኢ-መይል
-submit-form-action = ኣቅርብ
 loading = ይጽዓን...
 email-opt-in-info = ከም ናይ ሸቶ መዘኻኸሪታት ብዛዕባ ዕቤት ዝገብሮ ምትዕርራያት ከምኡውን ብዛዕባ ኮመን ቮይስ ዚገልጽ ጋዜጣታት ዝኣመሰለ ኢ-መይል ክቕበል እደሊ እየ።
 email-opt-in-info-title = ምስ ዝርዝር ኮመን ቮይስ  ተጸምበር

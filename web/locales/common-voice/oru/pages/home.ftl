@@ -95,3 +95,27 @@ about-menu-aria-label = ته وُرغېوي ا مېنیو
 partnerships-menu-item-aria-label = ته بائی والي مشترک آواز باره يې زدکړه کَۀ
 press-and-stories-menu-item-aria-label = پرېس ریلیز کی چیو او کهانئے مشترک آواز بارۀ نر
 community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونېټیز او ا زبنی که ا مشترک آوازه وبو سپورټ کوی
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+
