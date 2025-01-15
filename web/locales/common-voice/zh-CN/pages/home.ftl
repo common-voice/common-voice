@@ -122,6 +122,10 @@ ask-mozilla-share-content = 举办过活动，或者将要举办活动？请与�
 # label for button
 ask-mozilla-share-action = 分享活动
 download-contribution-certificate = 下载您的贡献证书
+download-contribution-certificate-content = 下载证书，用在您举办的活动上。如果您为 Common Voice 作出了贡献，就颁给自己吧！Common Voice 的成功离不开您的贡献。
+# label for button
+download-contribution-certificate-action = 领取您的证书
+contribute-github = 在 GitHub 上贡献
 
 ## Featured section
 
