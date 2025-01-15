@@ -109,6 +109,7 @@ community-and-languages-menu-item-aria-label = Xikinmita tlajtolkopaj uan okseki
 
 ## Hero section
 
+hero-title = Teposmej non tlajtoskej ken te
 
 ## Action items section
 
