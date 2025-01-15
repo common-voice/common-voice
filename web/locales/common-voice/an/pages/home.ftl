@@ -121,10 +121,19 @@ coming-soon = Disponible luego
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Explorar conchuntos de datos <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Emparar conchuntos de datos ubiertos, lideraus per la comunidat.
+read-sentences-link = Leyer frases
+validate-readings-link = Validar rechistros
+contribute-link = Contribuyir a lo corpus de texto
+answer-questions-link = Responder preguntas
+transcribe-answers-link = Transcribir respuestas
 review-transcriptions-link = Comprebar las transcripcions
+contribute-text-link = Aportar textos
 press-and-stories-link = Prensa y articlos
 
 ## Partner section
