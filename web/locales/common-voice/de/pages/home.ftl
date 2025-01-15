@@ -179,3 +179,11 @@ press-and-stories-link = Presse und Geschichten
 partner-section-title = Werden Sie Partner
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Technologieunternehmen</bold> – investieren Sie in die Erstellung offener Datensätze für ein pulsierendes, mehrsprachiges KI-Ökosystem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Zivilgesellschaft und Forscher</bold> – erstellen, hosten und teilen Sie kostenlos wirkungsvolle Datensätze
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Wohltätigkeit</bold> – Sponsoren Sie die Erstellung von Datensätzen zur Förderung lokaler Innovation und Entwicklung
+# icon is an arrow that points to the right
+get-in-touch-button = Kontakt aufnehmen <icon></icon>
+# Partners section
+our-partners-include = Zu unseren Partnern gehören...
