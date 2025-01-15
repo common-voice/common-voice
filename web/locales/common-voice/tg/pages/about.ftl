@@ -9,7 +9,7 @@ how-does-it-work-text = Мо маҷмуи маълумоти овозии куш
 about-language-req-subtitle = Касе дархост мекунад, ки забони нав илова карда шавад.
 about-localization-title = Маҳаллисозии сомона
 about-localization-subtitle = Матни сомона ба он забон тарҷума карда мешавад.
-about-sentence-collection-title = Маҷмуаи ҷумлаҳо
+about-sentence-collection-title = Ҷамъоварии ҷумлаҳо
 about-sentence-collection-subtitle = Ҷумлаҳо ҷамъ оварда мешаванд, то одамон онҳоро бо овози баланд хонанд.
 about-new-lang-title = Оғози забони нав
 about-new-lang-subtitle = Мо сомонаи «Common Voice»-ро бо ин забон оғоз мекунем.
@@ -46,7 +46,7 @@ about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
 about-nav-how-it-works-2 = Чӣ тавр «Common Voice» кор мекунад?
-about-nav-playbook = Тарзи иштирок намуданро омӯзед
+about-nav-playbook = Маълумот дар бораи тарзи иштирокдорӣ
 
 ## Community Playbook Content
 ## What is a language
@@ -114,3 +114,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Маълумо
 ## How is Common Voice funded
 
 about-playbook-how-funded = «Common Voice» чӣ гуна маблағгузорӣ мешавад?
+about-playbook-how-funded-content-1 = «Common Voice» - лоиҳаи «Mozilla Foundation» мебошад, ки ҳамчун ташкилоти ғайритиҷоратии 501(c)(3) дар ИМА фаъолият мекунад. Айни ҳол, лоиҳа пурра тавассути <philantropicGrantLink>грантҳои ёрии башардӯстона</philantropicGrantLink> ва хайрияҳои шахсони аз саросари ҷаҳон маблағгузорӣ мегардад.

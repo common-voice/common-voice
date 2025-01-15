@@ -27,12 +27,11 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: ChatBubbleIcon,
-        localizedId: 'answer-questions',
+        localizedId: 'answer-questions-coming-soon',
         menuItemTooltip: 'answer-questions-menu-item-tooltip',
         menuItemAriaLabel: 'answer-questions-menu-item-aria-label',
       },
     ],
-    renderContributableLocaleLock: true,
     menuTooltip: 'speak-contribute-menu-tooltip',
     menuAriaLabel: 'speak-contribute-menu-aria-label',
   },
@@ -47,13 +46,12 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: CheckCircle,
-        localizedId: 'review-transcriptions',
+        localizedId: 'review-transcriptions-coming-soon',
         requiresAuth: true,
         menuItemTooltip: 'review-transcriptions-menu-item-tooltip',
         menuItemAriaLabel: 'review-transcriptions-menu-item-aria-label',
       },
     ],
-    renderContributableLocaleLock: true,
     menuTooltip: 'listen-contribute-menu-tooltip',
     menuAriaLabel: 'listen-contribute-menu-aria-label',
   },
@@ -83,7 +81,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: TranscribeIcon,
-        localizedId: 'transcribe-audio',
+        localizedId: 'transcribe-audio-coming-soon',
         menuItemTooltip: 'transcribe-audio-menu-item-tooltip',
         menuItemAriaLabel: 'transcribe-audio-menu-item-aria-label',
       },
@@ -107,8 +105,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       {
         icon: ShareLinkIcon,
         localizedId: 'press-and-stories',
-        externalHref:
-          'https://foundation.mozilla.org/blog/topic/common-voice/',
+        externalHref: 'https://foundation.mozilla.org/blog/topic/common-voice/',
         menuItemTooltip: 'press-and-stories-menu-item-tooltip',
         menuItemAriaLabel: 'press-and-stories-menu-item-aria-label',
       },

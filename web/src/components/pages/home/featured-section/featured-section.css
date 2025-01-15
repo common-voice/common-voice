@@ -1,0 +1,41 @@
+.featured-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: var(--white);
+
+    .featured-section-container {
+        .featured-title {
+            font-size: 40px;
+            margin-block-end: 30px;
+
+            @media (--sm-down) {
+                font-size: var(--font-size-lg);
+            }
+        }
+
+        .featured-logos {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            overflow: auto;
+            white-space: nowrap;
+            position: relative;
+            padding: 1rem 0;
+
+            @media (--xs-down) {
+                gap: 2rem;
+            }
+
+            @media (width > 1430px) {
+                justify-content: center;
+            }
+
+            .logo {
+                flex-shrink: 0;
+                min-width: fit-content;
+                padding: 0;
+                white-space: nowrap;
+            }
+        }
+    }
+}

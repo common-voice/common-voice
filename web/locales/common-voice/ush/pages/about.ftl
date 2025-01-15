@@ -111,7 +111,7 @@ about-playbook-how-grow-language-content-8 = <strong> تخلیقی بو۔ </stro
 
 about-playbook-how-validate = ما کدا معلوم تھئن اے وائس کونے منظور بینُو؟
 about-playbook-how-validate-content-1 = کہ تُو لی کلپو تُو ݜُون لا اؤ لݜ لا لیو نے منظور بینا۔ <strong></strong><strong></strong><strong>
-about-playbook-how-validate-content-2 = <strong> سک کلپ رد نی تھی ایرازونو والا تھئی جیِب کئی مختلف بئی</strong>انا ہر جلی کارا آواز سواؤنو ضروری ہنو۔
+about-playbook-how-validate-content-2 = <strong> سسا کلپ رد نی تھی ایرازونو والا تھئی جیِب کئی مختلف بئی</strong>انا ہر جلی کارا آواز سواؤنو ضروری ہنو۔
 about-playbook-how-validate-content-3 = کہ تو لݜ لا انا تلفظ رزوندر مشکل ہنو<strong> سی نو کلپ در پتو تے شور ہنو کنیا</strong>                      سہ دی ہور خلق موڙے تھینا</strong> سنی تو کلپ ریجیکٹ تو بئیلا۔<accuracyLink> اسئی درست موڙو معلومات ڇک بئیلا</accuracyLink>۔
 about-playbook-how-validate-content-4 = کہ ایک کلپ دو جنو جا ریجیکٹ تھینی، ایک مختلف ڈیتا سیٹ شو بینلو۔
 
