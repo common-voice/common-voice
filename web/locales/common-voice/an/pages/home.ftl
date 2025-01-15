@@ -112,9 +112,11 @@ hero-title = La tecnolochía que charra la tuya luenga
 spontaneous-card-header = Parla espontania
 language-text-card-header = Texto linguistico
 coming-soon = Disponible luego
+add-text = Anyadir texto
 
 ## Community section
 
+community-section-title = Creau per comunidaz globals pa las comunidaz globals —130 idiomas, y creixendo!
 
 ## Featured section
 
