@@ -102,6 +102,7 @@ community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社�
 
 ## Hero section
 
+hero-title = 让技术也懂您的语言
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>AI 对语言的支持，不应落下任何一门。</bold>
 hero-subtitle-2 = 语言可以讲述故事、构筑社区、反映文化。携起手来，打造我们所期盼看到的数据集。
