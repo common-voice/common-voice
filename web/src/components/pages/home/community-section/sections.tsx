@@ -1,7 +1,7 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { Button, LinkButton } from '../../../ui/ui'
+import { LinkButton } from '../../../ui/ui'
 
 import DiscordIcon from './assets/discord.svg'
 import AwardIcon from './assets/award.svg'
@@ -70,12 +70,17 @@ export const sections: Section[] = [
     content: 'download-contribution-certificate-content',
     image: require('./assets/certificate.jpg'),
     action: () => (
-      <Button rounded className="action">
+      <LinkButton
+        rounded
+        className="action"
+        href={require('./assets/certificate-of-contribution-to-open-source-multilingual-technology.png')}
+        target="_blank"
+        download>
         <img src={AwardIcon} alt="award icon" />
         <Localized id="download-contribution-certificate-action">
           <span />
         </Localized>
-      </Button>
+      </LinkButton>
     ),
   },
   {
