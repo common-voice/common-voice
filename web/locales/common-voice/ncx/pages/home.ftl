@@ -121,6 +121,10 @@ get-started = Xipeua <icon><icon>
 action-items-section-title = Common Voice (Tinochtin Titlajtoaj) amikaj iaxka, nochtin kichiuaj uan nochtin uelis kitekitiltiskej
 action-items-section-subtitle = San akin uelis kimaluis, kiyolitis uan kiyankuilis itlajtolkopa ika kitematiltis, uan kinechikos tlen kijkuilos uan kijtos.
 scripted-card-header = Xiktlajtolti
+scripted-card-content = Xiktlajtolti tlen ijkuilijtok ika motlajtolkopa uan xipoui itech se tlajtolnechikoli kanin melauak tinochtin titlajtoaj.
+spontaneous-card-header = Xitlajto
+spontaneous-card-content = Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.
+language-text-card-header = Xitlajkuilo
 
 ## Community section
 
