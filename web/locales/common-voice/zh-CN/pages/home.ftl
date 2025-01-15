@@ -109,6 +109,9 @@ get-started = 开始贡献 <icon><icon>
 
 ## Community section
 
+join-discord-community = 加入 Discord 社区
+# label for button
+join-discord-community-action = 通过 Discord 加入我们
 
 ## Featured section
 
