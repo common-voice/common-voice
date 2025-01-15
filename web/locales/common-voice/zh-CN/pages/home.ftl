@@ -81,6 +81,7 @@ transcribe-audio-coming-soon = 转录音频<small>（即将推出）</small>
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章
 community-and-languages = 社区和语言
+coming-soon = 即将推出
 
 ## MENU ITEMS TOOLTIPS
 
@@ -106,9 +107,13 @@ get-started = 开始贡献 <icon><icon>
 
 ## Action items section
 
+language-text-card-header = 语言文本
+coming-soon = 即将推出
+add-text = 添加文本
 
 ## Community section
 
+community-section-title = 由全球社区予力，为全球社区服务。现已支持 130 门语言，且仍在不断扩增！
 join-discord-community = 加入 Discord 社区
 # label for button
 join-discord-community-action = 通过 Discord 加入我们
@@ -157,3 +162,11 @@ press-and-stories-link = 新闻和文章
 ## Partner section
 
 partner-section-title = 与我们合作
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>科技公司</bold> - 投资打造开放的数据集，构建繁荣的多语言 AI 生态系统
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>慈善团体</bold> - 赞助打造数据集，推动本地创新及发展
+# icon is an arrow that points to the right
+get-in-touch-button = 联系我们 <icon></icon>
+# Partners section
+our-partners-include = 我们的合作伙伴
