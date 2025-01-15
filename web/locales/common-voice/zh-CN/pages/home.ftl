@@ -73,8 +73,11 @@ read-more-about = 阅读我们的“关于”页面了解更多
 ## NAV ITEMS
 
 answer-questions = 回答问题<small>（即将推出）</small>
+answer-questions-coming-soon = 回答问题<small>（即将推出）</small>
 review-transcriptions = 审核转录文本<small>（即将推出）</small>
+review-transcriptions-coming-soon = 审核转录文本<small>（即将推出）</small>
 add-questions = 添加问题<small>（即将推出）</small>
+transcribe-audio-coming-soon = 转录音频<small>（即将推出）</small>
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章
 community-and-languages = 社区和语言
@@ -98,6 +101,8 @@ community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社�
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = 开始贡献 <icon><icon>
 
 ## Action items section
 

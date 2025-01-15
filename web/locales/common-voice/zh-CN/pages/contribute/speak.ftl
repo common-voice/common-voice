@@ -62,6 +62,8 @@ create-profile-button = 创建用户资料
 img-alt-success-checkmark = 标记成功
 # menu item
 read-sentences = 朗读语句
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = 朗读句子<small>（即将推出）</small>
 
 ## MENU ITEM TOOLTIPS
 
