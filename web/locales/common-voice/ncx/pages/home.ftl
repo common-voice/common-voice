@@ -110,9 +110,17 @@ community-and-languages-menu-item-aria-label = Xikinmita tlajtolkopaj uan okseki
 ## Hero section
 
 hero-title = Teposmej non tlajtoskej ken te
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>¿Tleka IA san yetos ika pinotlajtolkopa?</bold>
+hero-subtitle-2 = Totlajtolkopa kixpantia toaltepe, tlen toyelis, tonemilis. Matiknechikokan tlen tiknekij tikitaskej ik nouian.
+# icon is an arrow that points downwards
+get-started = Xipeua <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice (Tinochtin Titlajtoaj) amikaj iaxka, nochtin kichiuaj uan nochtin uelis kitekitiltiskej
+action-items-section-subtitle = San akin uelis kimaluis, kiyolitis uan kiyankuilis itlajtolkopa ika kitematiltis, uan kinechikos tlen kijkuilos uan kijtos.
+scripted-card-header = Xiktlajtolti
 
 ## Community section
 
