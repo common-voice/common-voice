@@ -76,11 +76,15 @@ read-more-about = Descubre mas en a nuestra pachina Sobre Common Voice
 ## NAV ITEMS
 
 answer-questions = Reponder preguntas <small>(disponible luego)</small>
+answer-questions-coming-soon = Reponder preguntas <small>(disponible luego)</small>
 review-transcriptions = Revisar las transcripcions  <small>(disponible luego)</small>
+review-transcriptions-coming-soon = Revisar las transcripcions  <small>(disponible luego)</small>
 add-questions = Anyadir preguntas <small>(disponible luego)</small>
+transcribe-audio-coming-soon = Transcribir audio <small>(disponible luego)</small>
 transcribe-audio = Transcribir audio <small>(disponible luego)</small>
 press-and-stories = Prensa y articlos
 community-and-languages = Comunidat y idiomas
+coming-soon = Disponible luego
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,9 +105,13 @@ community-and-languages-menu-item-aria-label = Descubre la comunidat y los idiom
 
 ## Hero section
 
+hero-title = La tecnolochía que charra la tuya luenga
 
 ## Action items section
 
+spontaneous-card-header = Parla espontania
+language-text-card-header = Texto linguistico
+coming-soon = Disponible luego
 
 ## Community section
 
@@ -116,6 +124,9 @@ community-and-languages-menu-item-aria-label = Descubre la comunidat y los idiom
 
 ## Get involved section
 
+review-transcriptions-link = Comprebar las transcripcions
+press-and-stories-link = Prensa y articlos
 
 ## Partner section
 
+partner-section-title = Colabora con nusatros
