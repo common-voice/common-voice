@@ -89,6 +89,7 @@ add-questions = Xikinmijkuilo seki Tlajtlanilmej <small>(Yikin yetos)</small>
 transcribe-audio = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 press-and-stories = Tlen yikin omochi
 community-and-languages = Akinmej Tlajtoaj
+coming-soon = Yikin yetos
 
 ## MENU ITEMS TOOLTIPS
 
@@ -125,6 +126,9 @@ scripted-card-content = Xiktlajtolti tlen ijkuilijtok ika motlajtolkopa uan xipo
 spontaneous-card-header = Xitlajto
 spontaneous-card-content = Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.
 language-text-card-header = Xitlajkuilo
+language-text-card-content = Xikijkuilo tlen oksekimej kitlajtoltiskej, kinankiliskej, ika mopaleuiskej uan okseki tlamantli.
+coming-soon = Yikin yetos
+add-text = Xitlajkuilo
 
 ## Community section
 
