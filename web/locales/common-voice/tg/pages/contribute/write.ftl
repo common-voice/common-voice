@@ -22,6 +22,7 @@ new-sentence-rule-7 = Иқтибоси мувофиқро дохил кунед
 new-sentence-rule-8 = Комилан табиӣ ва гуфтугӯӣ (бояд хондани ҷумла осон бошад)
 login-instruction-multiple-sentences = Барои илова кардани зиёда аз як ҷумла, лутфан, <loginLink>ворид шавед</loginLink> ё <loginLink>ҳисобро ба қайд гиред</loginLink>
 how-to-cite = Чӣ тавр ман иқтибос меорам?
+how-to-cite-explanation-bold = Бо истиноди «URL» ё номи пурраи кор иқтибос намоед.
 guidelines = Дастурҳо
 contact-us = Тамос бо мо
 add-sentence-success = 1 ҷумла ҷамъ карда шуд

@@ -46,7 +46,7 @@ about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
 about-nav-how-it-works-2 = Чӣ тавр «Common Voice» кор мекунад?
-about-nav-playbook = Тарзи иштирок намуданро омӯзед
+about-nav-playbook = Маълумот дар бораи тарзи иштирокдорӣ
 
 ## Community Playbook Content
 ## What is a language
