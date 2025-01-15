@@ -5,7 +5,7 @@ language-section-in-progress-new-description =
     آ جِبہ آ وخ دہ کمیونٹی ڈویلپمِنٹو ماتحتِن
     <localizationGlossaryLink> ویب سائٹ لوکلائزیشن </localizationGlossaryLink> آں
     <sentenceCollectionGlossaryLink> جُملو مجموعہ </sentenceCollectionGlossaryLink> لانچ تھونَڑ پکارُن
-language-section-launched = لانچ بِلیْ/بِلوْ
+language-section-launched = لانچ بِلیْ
 language-section-launched-description = آ لانچ تِھیلیْ جِبو ویب سائٹ کامیابی گیْ چلِیجانیْ <localizationGlossaryLink>مقامی </localizationGlossaryLink> آں لئی نیْ <sentenceCollectionGlossaryLink> ٹول بِلہ جُلمائے </sentenceCollectionGlossaryLink> جاری تھونے اجازہ دونے کِرِیا <speakLink> سپیک </speakLink> آں <listenLink> کوْݨ دِیا </listenLink> شراکتہ
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آخری اپ ڈیٹس { $lastUpdatedTimeStamp }
