@@ -102,6 +102,8 @@ community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社�
 
 ## Hero section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>AI 对语言的支持，不应落下任何一门。</bold>
 # icon is an arrow that points downwards
 get-started = 开始贡献 <icon><icon>
 
@@ -143,6 +145,7 @@ download-press-pack = 下载新闻资料包 <icon></icon>
 
 ## Developers section
 
+developers-section-title = 可公开访问的开放式语音数据集，涵盖 130 余种语言
 developers-section-subtitle = 由社区打造，适用于 ASR、STT、TTS 等 NLP 用途的数据集。
 # icon is an arrow that points to the right
 explore-datasets = 探索数据集 <icon></icon>
@@ -164,6 +167,8 @@ press-and-stories-link = 新闻和文章
 partner-section-title = 与我们合作
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>科技公司</bold> - 投资打造开放的数据集，构建繁荣的多语言 AI 生态系统
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>公民社会与研究人员</bold> - 免费打造、托管、分享影响非凡的数据集
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>慈善团体</bold> - 赞助打造数据集，推动本地创新及发展
 # icon is an arrow that points to the right
