@@ -3,6 +3,7 @@ guidelines-header = Dirittivi di cullabburazzioni
 voice-collection = Ricota dî vuci
 sentence-collection = Ricota di frasi
 varying-pronunciations = Prununzi variàbbili
+example = Scempru
 misreadings-tip-3 = [U cuntinutu nun currispunni]
 background-noise-example-1 = I dinusauri giaganti dû Triàssicu.
 background-noise-example-2 = [Stranutu] I dinusauri giaganti dû [tussi] Triàssicu.
