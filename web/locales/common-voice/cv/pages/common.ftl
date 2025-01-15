@@ -90,10 +90,6 @@ zh-TW = Китайла (Тайвань)
 
 ## Layout
 
-speak = Кала
-speak-now = Ҫырӑва пуҫла
-datasets = Пӗлем пуххисем
-languages = Чӗлхесем
 profile = Профиль
 help = Пулӑшу
 contact = Ҫыхӑну
@@ -112,7 +108,6 @@ privacy-info = Эпир сирӗн информаципе асӑрхануллӑ
 return-to-cv = Каялла Common Voice патне
 email-input =
     .label = Эл. пуштӑ
-submit-form-action = Яр
 loading = Тиенет...
 indicates-required = * Тивӗҫлӗ анана пӗлтерет
 

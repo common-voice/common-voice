@@ -11,13 +11,9 @@ show-wall-of-text = Rel Chap
 help-us-title = Biatlang an chimmi a hman le hman lo chek kan bawm!
 help-us-explain = Play hmet, ngai, cun kan chim: A tanglei biatlang hi hman tein an rel maw?
 no-clips-to-validate = Ngaih dingmi hi zeihmanh kan ngei rih lo. Ngaih dingmi chiah na duh cun na aw rak tun.
-vote-yes = A si
-vote-no = A si lo
 toggle-play-tooltip = Lentecalh nakah  { shortcut-play-toggle } hmet.
-speak-subtitle = Na aw rak tun
 speak-paragraph = Aw i tun hi a biapi taktak mi kan rian a si; mi cheukhat nih cun a nuam zong a nuam tiah an ruah.
 speak-goal-text = Khumh cangmi Aw
-listen-subtitle = Aw rak kan chek pi
 listen-paragraph = Tuncia mi aw chek hi Common Voice caah a biapi tuk ve mi rian a si. An aw ngai hna law a ṭha le ṭha lo chek rak kan bawm ve.
 listen-goal-text = Chek cangmi Aw
 hours-recorded = Suimilam khumh cangmi
@@ -74,3 +70,36 @@ help-contribute = Aw phuntling le miphun caah a sunglawi mi dataset ser dingah p
 login-company = { $company } email in Lutnak / Account sernak tuah
 profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
 read-more-about = 'About' ah tam deuh in rel
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

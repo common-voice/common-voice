@@ -188,12 +188,6 @@ zza = ززا
 
 ## Layout
 
-speak = بولیں
-speak-now = ابھی بولیں
-datasets = ڈیٹا سیٹس
-languages = زبانیں
-about = کے بارے میں
-partner = ساتھی
 profile = پروفائل
 help = مدد
 contact = رابطہ
@@ -212,7 +206,6 @@ privacy-info = ہم وعدہ کرتے ہیں کہ آپ کی معلومات کی 
 return-to-cv = Common Voice پر واپس جائیں
 email-input =
     .label = ای میل
-submit-form-action = ‏‏جمع کریں
 loading = لوڈ ہو رہا ہے…
 email-opt-in-info = میں عام آواز کے متعلق رسالے، تازہ ترین خبریں، اہم اطلاعات اور دیگر معالومات کے بارے میں ای-میل کے ذریعے باخبر رہنا چاہتا ہوں
 email-opt-in-info-title = عام آواز کی ڈاک فہرست میں شامل ہوں

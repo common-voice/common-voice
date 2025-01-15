@@ -20,13 +20,9 @@ show-wall-of-text = Leghe àteru
 help-us-title = Agiuda·nos a validare frases!
 help-us-explain = Incarca Reprodue, ascurta e nara·nos si s’àudio currispondet a sa frase in bàsciu:
 no-clips-to-validate = Paret chi no ci siant registratziones de ascurtare in custa limba. Agiuda·nos a crèschere custu elencu registrende calicuna cosa.
-vote-yes = Emmo
-vote-no = Nono
 toggle-play-tooltip = Incarca { shortcut-play-toggle } pro aviare e frimare sa reprodutzione
-speak-subtitle = Dona sa boghe tua
 speak-paragraph = Registrare boghes est una parte integrale de su protzessu de costrutzione de su nostru pachete de datos abertu; e est fintzas sa parte ispassiosa.
 speak-goal-text = Registratziones
-listen-subtitle = Agiuda·nos a validare boghes
 listen-paragraph = .
 listen-goal-text = Registratziones validadas
 hours-recorded = Oras registradas
@@ -84,3 +80,36 @@ help-contribute = Podes agiudare a istantargiare unu pachete de datos diversific
 login-company = Intra / Registra·ti cun s'indiritzu de posta eletrònica de { $company }
 profile-not-required = Su de tènnere unu profilu no est netzessàriu pro contribuire ma est ùtile. Càstia pro ite inoghe in suta.
 read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de"
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

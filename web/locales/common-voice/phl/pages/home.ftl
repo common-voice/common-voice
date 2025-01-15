@@ -99,3 +99,27 @@ about-menu-aria-label = مینوئی بارئی رائے
 partnerships-menu-item-aria-label = کامن وائس سنگی شراکتی بارئی جھونوئی۔
 press-and-stories-menu-item-aria-label = کامن وائسی بارئی پریس ریلیز اور قصیم  تھے رسائی حاصل تھوئی۔
 community-and-languages-menu-item-aria-label = کامن وائسی ذریعہ کی تعاون یافتہ کمیونٹی اور زبینی دریافت تھوئی۔
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

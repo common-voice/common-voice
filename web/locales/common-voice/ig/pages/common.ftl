@@ -165,11 +165,6 @@ zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
 
 ## Layout
 
-speak = Kwùó ókwú
-speak-now = Kwùó ókwú ụ̀gbú à
-datasets = ńgwá-ńnyòchá (Datasets) dí íchè íchè
-languages = Ásụ̀sụ́
-about = Màkà/gbàsárá
 profile = Ǹjììmárá-ónyé (Profile)
 help = Ènyèmáká
 contact = Ákàrà ḿkpọ́tụ́rụ́
@@ -188,7 +183,6 @@ privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkw�
 return-to-cv = Lághàchí ázụ́ n'òtù Common Voice
 email-input =
     .label = íméèlụ̀ (email)
-submit-form-action = Nyéfèé
 loading = Ḿbànyé/Ńdọ́nyé
 email-opt-in-info = Ọ́ gà-àmásị́ m mà ḿ ná-ènwétá ózí gá ná-échètárá m m̀bùmnúchè íhé á nà-èmé, kà m sì àgá n'íhú nàkwàzị̀ ákwụ́kwọ́ ózí gbàsárá ńdí òtù Common Voice.
 email-opt-in-info-title = Sònyé n'ákwụ́kwọ́ ńzípù ózí ńdị́ òtù Common Voice

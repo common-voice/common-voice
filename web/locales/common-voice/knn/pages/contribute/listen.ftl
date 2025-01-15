@@ -10,3 +10,9 @@ listen-loading-error = तुका आयकोपाक आमका आनी
 listen-abort-title = Clip तोपासून जाले?
 listen-abort-cancel = फुडें वच
 listen-abort-confirm = पुरो जाले
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

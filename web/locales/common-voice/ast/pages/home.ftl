@@ -26,13 +26,9 @@ show-wall-of-text = Lleer más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende a la fras d'embaxo?
 no-clips-to-validate = Paez que nesta llingua nun hai nengún clip pa sentir. Ayúdanos a enllenar la cola grabando daqué agora.
-vote-yes = Sí
-vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
-speak-subtitle = Empresta la to voz
 speak-paragraph = La grabación de clips de voz ye una parte esencial pa la fechura del nuesu conxuntu de datos abiertu. Tamién ye lo más divertío.
 speak-goal-text = Clips grabaos
-listen-subtitle = Ayúdanos a validar voces
 listen-paragraph = Validar los clips ye tamién importante pa la misión de Common Voice. Sienti y ayúdanos a crear datos de voz llibres y calidables.
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
@@ -90,3 +86,36 @@ help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu cre
 login-company = Aniciar sesión / Rexistrase col corréu de { $company }
 profile-not-required = Nun se rique tener un perfil pa collaborar, magar qu'ayuda.
 read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

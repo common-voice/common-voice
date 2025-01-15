@@ -12,3 +12,9 @@ listen-loading-error =
 listen-abort-title = Završiti provjeru isječaka?
 listen-abort-cancel = Nastavi provjeravati
 listen-abort-confirm = Završi provjeru
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

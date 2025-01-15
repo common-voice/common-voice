@@ -20,13 +20,9 @@ show-wall-of-text = مزید پڑھیں
 help-us-title = جملوں کی توثیق کرنے میں ہماری مدد کریں
 help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں کہ: کیا انہوں نے درج ذیل بلکل درست ادا کیا ؟
 no-clips-to-validate = لگتا ہے اس زبان میں سننے کے لیئے تراشے نہیں ہیں۔ کچھ تراشے ابھی ریکارڈنگ کر کے  قطار کو بھرنے میں ہماری مدد کریں۔
-vote-yes = ہاں
-vote-no = نہیں
 toggle-play-tooltip = پلے موڈ کو ٹوگل کرنے کے لئے { shortcut-play-toggle } دبائیں
-speak-subtitle = اپنی آواز کا عطیہ کریں
 speak-paragraph = وائس کلپ ریکارڈ کروانا ہمارے اوپن ڈیٹا سیٹ کی تعمیر کا ایک لازمی حصہ ہے؛ کچھ کہیں گے کہ یہ  پرلطف حصہ بھی ہے۔
 speak-goal-text = رکارڈ شدہ تراشے
-listen-subtitle = آواروں کی توثیق کرنے میں ہماری مدد کریں
 listen-paragraph = عطیہ کردہ کلپس کی تصدیق کرنا کامن وائس مشن کے لئے برابر اہمیت کا حامل ہے۔ سنیں اور معیاری اوپن سورس وائس ڈیٹا بنانے میں ہماری مدد کریں۔
 listen-goal-text = کلپس کی توثیق
 hours-recorded = اوقات ریکارڈ
@@ -84,3 +80,36 @@ help-contribute = کامن وائس پر پروفائل بنا کر اپنی آ�
 login-company = لاگ ان / { $company } ای میل کے ساتھ سائن اپ کریں۔
 profile-not-required = شراکتیں شامل کرنے کے لیے پروفائل ضروری نہیں گو مددگار ہے ، وجہ کے لیے نیچے دیکھیں۔
 read-more-about = مزید جاننے کے لیے تعارفی صفحہ دیکھیں۔
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

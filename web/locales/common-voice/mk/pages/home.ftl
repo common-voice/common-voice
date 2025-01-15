@@ -15,13 +15,9 @@ show-wall-of-text = Прочитај повеќе
 help-us-title = Помогнете ни да валидираме реченици!
 help-us-explain = Слушнете и кажете ни: дали подолната реченица беше прочитана точно?
 no-clips-to-validate = Нема снимки кои можете да ги слушате за овој јазик. Помогнете да има со тоа што ќе снимите некои сега.
-vote-yes = Да
-vote-no = Не
 toggle-play-tooltip = Притиснете { shortcut-play-toggle } за преслушување
-speak-subtitle = Донирај го својот глас
 speak-paragraph = Снимање на снимки е интегрален дел на градење на нашата отворена база; некои би рекле дека тоа е забавниот дел, исто така.
 speak-goal-text = Снимени снимки
-listen-subtitle = Помогнете да валидираме гласови
 listen-paragraph = Валидирање на донирани снимки е еднакво важно за Common Voice. Слушајте и помогнете да создадеме квалитетна отворена база на податоци.
 listen-goal-text = Валидирани снимки
 hours-recorded = Снимени часови
@@ -79,3 +75,36 @@ help-contribute = Може да помогнете во градењето на 
 login-company = Најавете се / Регистрирајте се со е-пошта на { $company }
 profile-not-required = Не е задолжително да се има профил за да придонесете, но е корисно. Видете зошто подолу.
 read-more-about = Прочитајте повеќе на нашата страница За
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

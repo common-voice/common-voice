@@ -206,12 +206,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Runoj
-speak-now = Runoj tagad
-datasets = Datu kūpys
-languages = Volūdys
-about = Par
-partner = Partnereiba
 profile = Profils
 help = Paleidzeiba
 contact = Kontakti
@@ -231,7 +225,6 @@ privacy-info = Mes sūlejam reikuotīs ar jiusu informaceju uzmaneigi. Skaitit v
 return-to-cv = Atsagrīzt pi Common Voice
 email-input =
     .label = E-posts
-submit-form-action = Nūsyuteit
 loading = Īluodej…
 email-opt-in-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativūs biletenus par itū projektu.
 email-opt-in-info-title = Pīsavīnuot Common Voice viestim e-postā

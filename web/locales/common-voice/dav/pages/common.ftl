@@ -215,12 +215,6 @@ zza = KIzaza
 
 ## Layout
 
-speak = Deda
-speak-now = Deda idakoni
-datasets = Mafungu gha data
-languages = Viteto
-about = Ni Kindoki
-partner = W'adana Nesi
 profile = Fwana
 help = W'utesia
 contact = Andu kovikilwa
@@ -240,7 +234,6 @@ privacy-info = Dakuhakikishira dilindiagha malagho ghako nicha. Shoma zaidi ande
 return-to-cv = W'uya kwa Common Voice
 email-input =
     .label = Imeili
-submit-form-action = Ghenja
 loading = Yaw'iacha...
 email-opt-in-info = Nakunde nipateghe imeili renikumbusira malengo ghapo, maendeleo ghapo na habari ra Common Voice.
 email-opt-in-info-title = Ngia kukaie umu wa aw'a w'idumilwagha barua ngelo kwa ngelo ni Common Voice.

@@ -215,12 +215,6 @@ zza = 扎扎語
 
 ## Layout
 
-speak = 說話
-speak-now = 現在說話
-datasets = 資料集
-languages = 語言
-about = 關於我們
-partner = 成為夥伴
 profile = 帳號資料
 help = 說明
 contact = 聯絡我們
@@ -240,7 +234,6 @@ privacy-info = 我們保證會小心處理您的資訊。可於我們的<privacy
 return-to-cv = 回到 Common Voice
 email-input =
     .label = 電子郵件地址
-submit-form-action = 送出
 loading = 載入中…
 email-opt-in-info = 我希望收到諸如目標提醒、我的進度更新與 Common Voice 的相關電子報。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
@@ -251,7 +244,7 @@ not-available-abbreviation = 不適用
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>

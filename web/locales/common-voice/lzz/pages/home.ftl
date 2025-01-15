@@ -12,13 +12,9 @@ show-wall-of-text = Çkva İǩitxi
 help-us-title = Cumlepe getzuranu şeni memişvelit.
 help-us-explain = Osteri/ Obiri tuşis gyobazgit. İucit-işǩinit-isiminit do cumle tzori/ ese iǩitxui mitzvit.
 no-clips-to-validate = Ham nenas oşǩinoni aina ǩlibi var giğuran steri idziren. Hatzi (hus) bazi ǩlibepe doloç̌arit do jilemona opşus meişvelit.
-vote-yes = Ho
-vote-no = Var
 toggle-play-tooltip = Osteru modi gontzǩapu şeni { shortcut-play-toggle } hak gyobazgit/ cobazgit
-speak-subtitle = Nena-tkvani mixarsuvit
 speak-paragraph = Nenaşi ǩlibepe doloç̌aru goncameri data sistemi getzopxuşi enni vorsi gza oren. Ham artsope (bazepe) şeni oxoktinoni oren.
 speak-goal-text = Doloç̌areri ǩlibepe
-listen-subtitle = Xomape otzuranus memişvelit.
 listen-paragraph = Xarsuveri ǩlibepeşi otzorinu (tzori na oren oxotzonu) Common Voiceşi misyoni şeni eşit̆i derece becit̆i oren. Ar işǩinit (iucit) do ǩalitoni goncameri nenaşi data getzopxu şeni meişvelit.
 listen-goal-text = Doloç̌areri saatepe
 hours-recorded = Doloç̌areri saatepe
@@ -74,3 +70,36 @@ username-email-not-demographic = Xmaroceşi Coxo do e-posta-tkvani gamişku data
 welcome-staff = { $company } personelişe ǩaite moxtit!
 login-company = { $company } e-posta adresite Amaxtit / Doliç̌arit
 read-more-about = Çkunişeni butkaşe dido-muşi iǩitxit
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

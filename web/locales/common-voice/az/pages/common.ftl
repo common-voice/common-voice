@@ -90,10 +90,6 @@ zh-TW = Çincə (Tayvan)
 
 ## Layout
 
-speak = Danış
-speak-now = İndi danış
-datasets = Məlumat dəsti
-languages = Dillər
 profile = Profil
 help = Kömək
 contact = Əlaqə
@@ -112,7 +108,6 @@ privacy-info = Məlumatlarınızı diqqətlə idarə edəcəyimizə söz veririk
 return-to-cv = Common Voice-ə qayıt
 email-input =
     .label = E-poçt
-submit-form-action = Göndər
 loading = Yüklənir…
 indicates-required = * Tələb edilən bölmələri göstərir
 

@@ -185,12 +185,6 @@ zza = 扎扎文
 
 ## Layout
 
-speak = 講
-speak-now = 而家開始講話
-datasets = 數據集
-languages = 所有語言
-about = 關於我哋
-partner = 合作夥伴
 profile = 個人檔案
 help = 說明
 contact = 聯絡我們
@@ -209,7 +203,6 @@ privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多�
 return-to-cv = 翻去 Common Voice
 email-input =
     .label = 電郵
-submit-form-action = 提交
 loading = 載入緊…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組

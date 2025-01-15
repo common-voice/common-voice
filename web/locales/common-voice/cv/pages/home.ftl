@@ -14,13 +14,9 @@ show-wall-of-text = Туллин
 help-us-title = Пуплерӗшсене /предложенисене/ тӗрӗслеме пулӑш-ха!
 help-us-explain = Пусса калаттар, аялти пуплерӗше /предложенине/ тӗрӗс каланӑ-и?
 no-clips-to-validate = Ҫав чӗлхелле итлемелли ҫуккӑ. Итлемеллине тултарма пулӑш-ха, халех ҫӗннисене ҫырса илсе.
-vote-yes = Ҫапла
-vote-no = Ҫук
 toggle-play-tooltip = Янӑраттару режимне ылмаштарас тесен { shortcut-play-toggle } пусӑр
-speak-subtitle = Сассуна парнеле
 speak-paragraph = Сасса ҫырса илесси уҫӑ сас пуххин уйрӑлми пайӗ. Хӑшпӗрисемшӗн, вӑл чун киленӗҫӗ ҫав.
 speak-goal-text = Ҫырса илнӗ сыпӑк
-listen-subtitle = Сассене тӗрӗслеме пулӑш-ха
 listen-paragraph = «Common Voice»-шӑн сас тӗрӗслесси ҫырса илессипе пӗр тан пӗлтерӗшлӗ. Итлесе тӗрӗсле те уҫӑ ҫӑлкуҫлӑ сас пӗлӗм пахалӑхне ӳсӗмлет.
 listen-goal-text = Тӗрӗсленӗ сыпӑк
 hours-recorded = Ҫырса илнӗ сехет
@@ -64,3 +60,36 @@ username-email-not-demographic = Ятупа эл. пушту уҫӑмлатнӑ 
 ## Landing
 
 profile-not-required = Хутшӑнмашкӑн аккаунт кирлӗ мар, анчах унпа ҫӑмӑлтарах
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

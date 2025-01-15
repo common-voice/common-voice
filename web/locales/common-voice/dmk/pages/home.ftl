@@ -110,3 +110,27 @@ about-menu-aria-label = آپشنز مݵنݸئ بݳرہ نݳ
 partnerships-menu-item-aria-label = شرݳکت دݳرݵݣݺ بݳرہ نݳ چھِچݳ ݳمَن وݳئسَس کݸٹ
 press-and-stories-menu-item-aria-label = کݳمَن وݳئسݵئ متعلِق پرݵس رݵلݵز نݸ کہݳنݵڎ دِݽقلتُݸݳ.
 community-and-languages-menu-item-aria-label = کݳمَن وݳئسن معݳونت اِرِن بݳݽݸݣ نݸ کمݵݸٹݵ درݵݳفت اِرݳ
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

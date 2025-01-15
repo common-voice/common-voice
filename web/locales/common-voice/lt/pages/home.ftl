@@ -11,13 +11,9 @@ show-wall-of-text = Skaityti daugiau
 help-us-title = Padėk mums patvirtinti frazes!
 help-us-explain = Spustelėk atkūrimo mygtuką, išklausyk įrašą ir atsakyk: ar įrašo autorius tiksliai perskaitė žemiau pateiktą frazę?
 no-clips-to-validate = Panašu, jog šia kalba neturime patikrai parengtų garso įrašų. Padėk mums papildyti jų eilę – įrašyk keletą frazių dabar.
-vote-yes = Taip
-vote-no = Ne
 toggle-play-tooltip = Spustelėk { shortcut-play-toggle } įrašui atkurti
-speak-subtitle = Pasidalink savo balsu
 speak-paragraph = Balso įrašymas – pamatinė mūsų atvirųjų duomenų kūrimo dalis; kai kurie pasakytų, kad ji ir yra įdomioji.
 speak-goal-text = Padaryta įrašų
-listen-subtitle = Padėk mums patvirtinti balso įrašus
 listen-paragraph = Pateiktų garso įrašų patikra yra ne mažiau svarbi „Common Voice“ misijos dalis. Išklausyk ir patikrink keletą įrašų – taip padėsi užtikrinti kaupiamų atvirųjų balso duomenų kokybę.
 listen-goal-text = Patvirtinta įrašų
 hours-recorded = Įrašyta valandų
@@ -62,3 +58,36 @@ help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį
 login-company = Prisijunk arba užsiregistruok su savo „{ $company }“ el. paštu
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

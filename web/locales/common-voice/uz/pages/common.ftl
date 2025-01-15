@@ -168,11 +168,6 @@ zh-TW = Xitoy (Tayvan)
 
 ## Layout
 
-speak = Oʻqish
-speak-now = O‘qishni boshlash
-datasets = Maʼlumotlar toʻplami
-languages = Tillar
-about = Biz haqimizda
 profile = Profile
 help = Yordam
 contact = Bogʻlanish
@@ -191,7 +186,6 @@ privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik s
 return-to-cv = Common Voice loyihasiga qaytish
 email-input =
     .label = Email
-submit-form-action = Yuborish
 loading = Yuklanmoqda...
 email-opt-in-info = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
 email-opt-in-info-title = Common Voice tarqatmalariga obuna boʻlish

@@ -14,13 +14,9 @@ show-wall-of-text = ပိုမိုဖတ်ရှုရန်
 help-us-title = ဝါကျများကို မှန်မမှန်စစ်ဆေးကာ ကျွန်တော်တို့ကို ကူညီပါ။
 help-us-explain = ဖွင့်ရန် ကိုနှိပ် နားထောင်ပြီး ကျွန်တော်တို့ကို ပြန်ပြောပေးနော်.. အောက်ကဝါကျကို သူတို့ ဖတ်ပြထားတာ တိကျရဲ့လားဆိုတာ။
 no-clips-to-validate = ကြည့်ရတာတော့ ဒီ ဘာသာစကားအတွက် နားထောင်စရာ အသံဖိုင်များမရှိတော့ဘူးနေမယ်။ အခုပဲ တစ်ချို့ကို အသံသွင်းပြီး ဖိုင်စာရင်းဖြည့်ကာ ကျွန်တော်တို့ကို ကူညီပေးပါဦး။
-vote-yes = ဟုတ်ကဲ့
-vote-no = မဟုတ်ပါ
 toggle-play-tooltip = ဖွင့်/ရပ် ပြုလုပ်ရန် { shortcut-play-toggle } ကို နှိပ်ပါ။
-speak-subtitle = သင့်အသံကို လှူဒါန်းပါ
 speak-paragraph = ကျွန်တော်တို့၏ ပွင့်လင်း အချက်အလက်အစု တည်ဆောက်ရာမှာ အသံကလစ်များ သွင်းယူခြင်းက အရေးပါသောအစိတ်အပိုင်းတစ်ခုဖြစ်ပါတယ်။ တနည်းပြောရရင် ပျော်စရာ အပိုင်းတစ်ခုပေါ့။
 speak-goal-text = အသံမှတ်တမ်း သွင်းပြီးပါပြီ
-listen-subtitle = အသံများ အတည်ပြုကာ ကျွန်တော်တို့ကို ကူညီပါ
 listen-paragraph = လှူဒါန်းထားသော အသံကလစ်များ ကို အတည်ပြုခြင်းသည် Common Voice မစ်ရှင် အတွက် အရေးကြီးသည်။ အသေအခြာ အချိန်ယူ နားထောင် ပြီး အရည်အသွေးကောင်းသည့် ပွင့်လင်း အရင်းအမြစ် အသံ ဒေတာများ ကိုဖန်တီးရန် ကူညီပါ။
 listen-goal-text = အသံမှတ်တမ်း အတည်ပြုပြီး
 hours-recorded = နာရီများစွာ အသံသွင်းပြီး
@@ -71,3 +67,36 @@ username-email-not-demographic = သင့် အသုံးပြုသူအ�
 ## Landing
 
 welcome-staff = ကြိုဆိုပါတယ် { $company } မှ ဝန်ထမ်း!
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

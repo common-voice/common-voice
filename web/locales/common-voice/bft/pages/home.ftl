@@ -95,3 +95,27 @@ about-menu-aria-label = فسل غدمی لوکھسینگ
 partnerships-menu-item-aria-label = کامن واٸس نا یمبو ڈراقسے لس بے لوکھسینگ ینگسہ شوٹ چوک
 press-and-stories-menu-item-aria-label = کامن واٸسی لوکھسینگ خبر اتار کن نا کہانیونگ تھوپ چوک
 community-and-languages-menu-item-aria-label = کامن واٸسی کنگ ہرتین بین یودپی کمیونٹی نا سکت کن ژول
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

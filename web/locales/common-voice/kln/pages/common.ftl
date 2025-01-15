@@ -215,12 +215,6 @@ zza = kutit ab Zaza
 
 ## Layout
 
-speak = ngalal
-speak-now = ngalal nguno
-datasets = dataseti
-languages = kutit
-about = agobo
-partner = mito tuai
 profile = kegereet
 help = toreto
 contact = nambetab simet
@@ -240,7 +234,6 @@ privacy-info = amuon ole  kiripe tugukuk , soman chechang eng walut nenyone
 return-to-cv = wegun gei common  voice.
 email-input =
     .label = emailit
-submit-form-action = yokten
 loading = tesetai....
 email-opt-in-info = amechei anyoru emailishiek , cheibwotwo tesestai chebo common voice
 email-opt-in-info-title = chut common si inyou emailishiek

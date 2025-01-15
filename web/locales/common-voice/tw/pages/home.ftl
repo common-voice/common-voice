@@ -12,13 +12,9 @@ show-wall-of-text = Kenkan
 help-us-title = Boa yen ma nkasamu ho kwan
 help-us-explain = Mia play, tie, na ka kyerɛ yen; Na wɔn kasa yie?
 no-clips-to-validate = ɛyɛ ye sɛ clips a wotumi tie language yi mu nni ha. Boa yen na record bi seesei
-vote-yes = Aane
-vote-no = Daabi
 toggle-play-tooltip = Mia { shortcut-play-toggle } sɛdeɛ bɛ yɛ a nsesa play mode
-speak-subtitle = Ama wo nne
 speak-paragraph = Recording voice clips ye ho hia. Eno mmoa yen sɛ sie yen open dataset. Obi beka sɛ eye anigyeɛ nso
 speak-goal-text = Clips recorded
-listen-subtitle = Boa yen ma nne ho kwan
 listen-paragraph = Ama donated clips ho kwan ye ho hia sɛ Common Voice mission no. Tie na boa yen bɔ open source voice data paa
 listen-goal-text = Clips validated
 hours-recorded = Hours Recorded
@@ -70,4 +66,37 @@ demographic-deidentified-clarity-2 = Optionally submitted demographic data (e.g.
 username-email-not-demographic = Your username and email will not be associated with the published data.
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

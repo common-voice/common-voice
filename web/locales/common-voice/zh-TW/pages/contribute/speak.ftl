@@ -60,3 +60,9 @@ already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
 create-profile-button = 註冊帳號
 # IMAGE TAGS
 img-alt-success-checkmark = 成功勾勾
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

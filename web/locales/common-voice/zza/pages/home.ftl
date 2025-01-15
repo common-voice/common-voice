@@ -12,13 +12,9 @@ show-wall-of-text = Zêdeyêr Biwane
 help-us-title = Hetkarîya ma bike ke cumleyan tesdîq bikerîme!
 help-us-explain = Bicine, goşdar bike û ma ra vaje: tirêm cumleya cêrêne raşt wanîya?
 no-clips-to-validate = Winî aseno ke seba nê ziwanî qet qeyd çin o ke bigoşdarê. De ti dest bide ma û vengê xo qeyd bike ke na kêmasî wedarîyo.
-vote-yes = Heya
-vote-no = Ney
 toggle-play-tooltip = Seba cinitişî/vindarnayîşî { shortcut-play-toggle } ser o bitikne
-speak-subtitle = Vengê xo bibexişne
 speak-paragraph = Seba ke ma komdayeyê xo yê akerdeyî awan bikerîme, yew parçeyo muhîm qeydkerdişê klîbanê vengî o - xora keyfê karî tîya de yo.
 speak-goal-text = Vengê qeydkerdeyî
-listen-subtitle = Hetkarîya ma bike ke vengan tesdîq bikerîme
 listen-paragraph = Bi eynî hawa, seba wezîfeyê Common Voice tesdîqkerdişê qeydanê vengî kî muhîm o. Reyê goş bide ser û hetê ma bike ke dayeyanê vengî yê kalîteyinanê çimeakerdeyan virazîme.
 listen-goal-text = Qeydê tesdîqkerdeyî
 hours-recorded = Saetê qeydkerdeyî
@@ -72,3 +68,36 @@ welcome-staff = Şima xeyrî ameyî ekîpa { $company }!
 login-company = Bi e-maîlê { $company } dekewe/qeyd bibe
 profile-not-required = Seba beşdarbîyayîşî hewce nîyo ke ti profîlêk virazê, labelê tayê feydeyê ci est ê, cêr ra biewnî.
 read-more-about = Rîpelê ma yê "Derheq de" ser o hîna zaf biwane
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

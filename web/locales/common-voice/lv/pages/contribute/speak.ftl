@@ -57,3 +57,9 @@ already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
 create-profile-button = Izveidot profilu
 # IMAGE TAGS
 img-alt-success-checkmark = veiksmes atzīme
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

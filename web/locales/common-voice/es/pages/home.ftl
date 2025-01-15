@@ -12,13 +12,9 @@ show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
 no-clips-to-validate = Parece que no hay grabaciones para escuchar en este idioma. Ayúdanos a llenar la lista grabando alguna ahora.
-vote-yes = Sí
-vote-no = No
 toggle-play-tooltip = Presiona { shortcut-play-toggle } para activar el modo de reproducción
-speak-subtitle = Dona tu voz
 speak-paragraph = Grabar fragmentos de voz es una parte integral para construir nuestra base de datos abierta; algunos dirían también que es la parte divertida.
 speak-goal-text = Fragmentos grabados
-listen-subtitle = Ayúdanos a validar voces
 listen-paragraph = Validar fragmentos donados es igualmente importante para la misión de Common Voice. Escucha y ayúdanos a crear datos de voz abiertos y de calidad.
 listen-goal-text = Fragmentos validados
 hours-recorded = Horas grabadas
@@ -76,3 +72,36 @@ help-contribute = Puedes ayudar a crear una amplia base de datos de código abie
 login-company = Inicia sesión / Regístrate con el correo de { $company }
 profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
 read-more-about = Descubre más en nuestra página Sobre Common Voice
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

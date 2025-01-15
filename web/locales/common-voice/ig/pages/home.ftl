@@ -21,13 +21,9 @@ show-wall-of-text = Gụ̀kwùó
 help-us-title = Nyèré ányị́ áká mèé kà ọ̀tụ́tụ́ áhị́rị́ókwú ńdị́ ạ̀ kwụ́dósíé íké.
 help-us-explain = Pịa "kpọọ", gèé yá ńtị̀ ǹkè ómá kà Í wèé gwá ányí mà à kpọ̀pụ̀tàkwàrà áhị́rị́ókwú ńdị́ à ọ̀fụ́má.
 no-clips-to-validate = Ọ́ dị̀ kà à gà-ásị́ nà é nwéghị́ íhé ígèńtì á gà-àkpọ́ n'ásụ̀sụ́ à.  Íjí méjúó óghéré à Nyèré ányị́ áká tùnyé òkè ólú gị́.
-vote-yes = Ee
-vote-no = Mba
 toggle-play-tooltip = Pị̀á { shortcut-play-toggle } kà Ị́ gbánwèé ọ́nọ̀dụ̀ égwú
-speak-subtitle = Tùnyé òkè ólú gị́
 speak-paragraph = Ǹtùnyé òkè ólú bụ̀ íhẹ̀ káchásị́ ḿkpà nà ḿwúlíté ọ́wà nchékwá ńgwá ńnyọ́chá (dataset) kè-ìzùgbè.  Ụ̀fọ́dụ́ nà-éwèkwá yá dị́ká ǹké káchásị́ ụ̀tọ́.
 speak-goal-text = Ihé ígèńtì nke e nwetagọrọ
-listen-subtitle = Nyèré ányị́ áká lèléé mà ụ̀dà-ólú ńdị́à hà dị̀ kà há kwèsị̀rị̀ ị́dị̄
 listen-paragraph = Ilèléé mà ụ̀dà-ólú ńdị́à hà dị̀ kà há kwèsị̀rị̀ gà-ényéré òtù Common Voice áká n'íhé há nà-èmé. Gee ntị mà nyèré ányị́ áká képụ̀tá ọ́wá ńchékwá ụ́yọ̀kọ̀ ụ̀dà-ólú kwụ́ chị̀m.
 listen-goal-text = Ihé ígèńtì nke a kwadogoro
 hours-recorded = Élékéré à kpọ̀nyègòrò
@@ -85,3 +81,36 @@ help-contribute = Ị́ nwèrè íké ínyé áká wúó ọ́wà ụ́yọ̀kọ
 login-company = Jìrí íméèlụ̀ (email){ $company } bànyé/Débànyé áhà
 profile-not-required = Énwéghị́ èjìrìmárá (profaịlụ) ápụ́tàghị̀ nà Ị́ gághị̀ àtụ́nyé òkè, mànà ọ́ nà-ènyé áká. Lèé íhé kpátárá ǹké à n'òkpúrù.
 read-more-about = Gụ̀kwúó n'íhú íbé íhé gbàsárá ányị́
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

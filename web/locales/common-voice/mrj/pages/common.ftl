@@ -183,11 +183,6 @@ zu = Зулу
 
 ## Layout
 
-speak = Попаш
-speak-now = Кӹзӹт попы
-datasets = Датасетвлӓ
-languages = Йӹлмӹвлӓ
-about = Мӓ гишӓннӓ
 profile = Профиль
 help = Палшык
 contact = Контакт
@@ -206,7 +201,6 @@ privacy-info = Мä тäлäндä тä гишäндä информацим ше
 return-to-cv = Common Voice докы пöртӹлäш
 email-input =
     .label = Электрон почта
-submit-form-action = Колташ
 loading = Грузымаш…
 email-opt-in-info = Мӹнь цельвлä гишäнем увертäрӹмäшвлäм, мӹньӹн прогресс гишäнем уэмдӹмäшвлäм дä информаци бюллетеньвлäм электрон сирмäшвлä гач Common Voice гишäн нӓлӹн шалгынем.
 email-opt-in-info-title = Common Voice сирмäшӹм колтымы спискӹш ушныда

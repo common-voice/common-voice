@@ -14,13 +14,9 @@ show-wall-of-text = Lasīt vairāk
 help-us-title = Palīdziet pārbaudīt teikumus!
 help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet, vai zemāk norādītais teikums ir izrunāts precīzi.
 no-clips-to-validate = Izskatās, ka šajā valodā nav audio ierakstu. Palīdziet mums, ierakstot dažus tagad.
-vote-yes = Jā
-vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
-speak-subtitle = Ieraksti savu balsi
 speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
-listen-subtitle = Palīdziet pārbaudīt balsis
 listen-paragraph = Ierakstīto ierakstu pārbaudīšana ir ļoti svarīga. Klausieties ierakstus un palīdziet iemācīt iekārtām saprast mūsu valodu.
 listen-goal-text = Apstiprinātie ieraksti
 hours-recorded = Ierakstītās stundas
@@ -81,3 +77,36 @@ help-contribute = Jūs varat palīdzēt veidot daudzveidīgu atvērtā pirmkoda 
 login-company = Piesakieties / pierakstieties ar { $company } e-pastu
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

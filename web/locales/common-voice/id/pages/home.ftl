@@ -13,13 +13,9 @@ show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
 no-clips-to-validate = Nampaknya tidak ada klip untuk didengar dalam bahasa ini. Bantu kami mengisinya dengan merekam beberapa sekarang.
-vote-yes = Ya
-vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode putar
-speak-subtitle = Sumbangkan suara Anda
 speak-paragraph = Merekam klip suara merupakan bagian yang tak terpisahkan dalam membangun himpunan data terbuka kami; sebagian orang juga berkata bahwa inilah bagian menyenangkannya.
 speak-goal-text = Klip direkam
-listen-subtitle = Bantu kami memvalidasi suara
 listen-paragraph = Memvalidasi klip donasi sama pentingnya bagi misi Common Voice. Dengarkan klip dan bantu kami mewujudkan data suara sumber terbuka yang bermutu.
 listen-goal-text = Klip divalidasi
 hours-recorded = Jam Terekam
@@ -74,3 +70,36 @@ help-contribute = Anda dapat bantu membantu set data sumber-terbuka nan beragama
 login-company = Masuk/Daftar dengan surel { $company }
 profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 read-more-about = Baca lebih lanjut pada laman Tentang Kami
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

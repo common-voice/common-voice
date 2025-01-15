@@ -16,13 +16,9 @@ show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
 no-clips-to-validate = Videti je, da trenutno ni posnetkov, ki bi jih lahko poslušali v tem jeziku. Pomagajte nam napraviti posnetke, ki bodo zapolnili seznam.
-vote-yes = Da
-vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
-speak-subtitle = Prispevajte svoj glas
 speak-paragraph = Snemanje glasovnih posnetkov je sestavni del gradnje našega odprtega nabora podatkov, nekateri bi celo rekli, najbolj zabaven del.
 speak-goal-text = posnetih posnetkov
-listen-subtitle = Pomagajte nam potrditi glasove
 listen-paragraph = Potrjevanje prejetih posnetkov je enako pomembno za uspeh misije Common Voice. Poslušajte in nam pomagajte ustvariti kakovostne odprtokodne glasovne podatke.
 listen-goal-text = potrjenih posnetkov
 hours-recorded = Posnetih ur
@@ -86,3 +82,36 @@ help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov,
 login-company = Prijava / Registracija z e-poštnim naslovom { $company }
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

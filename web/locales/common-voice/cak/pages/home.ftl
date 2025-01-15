@@ -12,13 +12,9 @@ show-wall-of-text = Tisik'ïx Ch'aqa' Chik
 help-us-title = ¡Kojato' richin yenik'öx taq b'ab'!
 help-us-explain = Tipitz'a' titzij, tawak'a& tatzijoj chi qe: ¿La pa rub'eyal xkisik'ij ri b'ab'?
 no-clips-to-validate = Xa ke xa majun yakoj richin nak'axäx pa re ch'ab'äl re'. Kojato' chi niqanojisaj ri cholb'äl rik'in nayäk jun wakami.
-vote-yes = Ja'
-vote-no = Manäq
 toggle-play-tooltip = Tapitz'a' { shortcut-play-toggle } richin pa rub'eyal natzïj
-speak-subtitle = Tasipaj ri ach'ab'äl
 speak-paragraph = Ruyakik peraj taq ch'ab'äl jun runun peraj richin niqatz'ük ri molaj jaqäl qatzij; juley chik chuqa' nikib'ij chi ja peraj re' ri yalan tik'asäs.
 speak-goal-text = Peraj eyakon
-listen-subtitle = Kojato' chi kijikib'axik ch'ab'äl
 listen-paragraph = Yejikib'äx sipan taq peraj chuqa' yalan k'o kejqalem pa ri ruk'u'x rusamaj ri Common voice. Tawak'axaj chuqa' kojato' richin yeqatz'ük taq kitzij jaqäl chuqa' ütz taq ch'ab'äl.
 listen-goal-text = Jikib'an taq peraj
 hours-recorded = Ramaj eyakon
@@ -75,3 +71,36 @@ help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaq�
 login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
 profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
 read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

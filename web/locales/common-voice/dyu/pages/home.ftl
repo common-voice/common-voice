@@ -29,13 +29,9 @@ help-us-explain =
     I ka play digi, .
     lamɛnni & a fɔ an ye: yala u ye kumasen in fɔ ka ɲɛ wa?
 no-clips-to-validate = A bɛ iko klip si tɛ yen ka Lamɛ nin kan in na. An dɛmɛ ka layini fa ni dɔw sɛbɛnni ye sisan.
-vote-yes = Awɔ
-vote-no = Ayi
 toggle-play-tooltip = { shortcut-play-toggle } digi. ka toggle tulonkɛcogo la
-speak-subtitle = Aw ye aw ka kan di
 speak-paragraph = Kumakan-klipw sɛbɛnni ye an ka kunnafonidilan dafalen jɔli yɔrɔ koloma ye; dɔw bɛna a fɔ ko ɲɛnajɛyɔrɔ fana don.
 speak-goal-text = Klip minnu sɛbɛnna
-listen-subtitle = An dɛmɛ ka kumakanw tiɲɛ
 listen-paragraph = Klip minnu dira, olu tiɲɛni nafa ka bon o cogo kelen na Common Voice cidenyabaara la. Aw ye lamɛnni kɛ ani k’an dɛmɛ ka kan data dafalenw dilan minnu ka ɲi.
 listen-goal-text = Klipw minnu bɛ tiɲɛ
 hours-recorded = Lɛrɛ minnu sɛbɛnna
@@ -90,3 +86,36 @@ help-contribute = Aw bɛ se ka dɛmɛ don ka kunnafonidilan suguya caman jɔ, mi
 login-company = Don / I tɔgɔ sɛbɛn ni { $company } email ye
 profile-not-required = Ka kɛ ni profil ye, o man kan ka kɛ walasa ka dɛmɛ don hali ni o bɛ dɛmɛ don, a’ ye mun na a lajɛ jukɔrɔ.
 read-more-about = Aw ye kunnafoni wɛrɛw kalan an ka Kow ɲɛ kan
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

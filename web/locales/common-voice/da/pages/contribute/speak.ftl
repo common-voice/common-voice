@@ -43,3 +43,9 @@ add-information-button = Tilføj information
 first-cta-gender-select-default-option = Vælg en mulighed
 already-have-an-account = Har du allerede en konto? <login>Log ind</login>
 create-profile-button = Opret en profil
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

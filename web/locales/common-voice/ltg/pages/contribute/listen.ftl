@@ -7,3 +7,9 @@ listen-empty-state = Var byut, ka vysi īroksti jau ir apstruoduoti - atsvaidzyn
 listen-loading-error =
     Mes navariejom dabuot nivīna īroksta, kū jums klauseitīs.
     Lyudzu, raugit vēļreiz nadaudz vāluok.
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

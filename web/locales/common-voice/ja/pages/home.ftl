@@ -12,13 +12,9 @@ show-wall-of-text = 続きを読む
 help-us-title = 音声の検証を手伝ってください！
 help-us-explain = 再生ボタンを押すと音声が流れます。流れた音声が次の文章と一致しているか教えてください。
 no-clips-to-validate = この言語で再生する音声が無いようです。まず、あなたの音声を録音させてください。
-vote-yes = OK
-vote-no = NG
 toggle-play-tooltip = { shortcut-play-toggle } を押すと再生が始まります。
-speak-subtitle = 声を寄贈する
 speak-paragraph = 音声の録音は、オープンなデータセットの作成に不可欠な工程です。いちばん楽しいところとも言えます。
 speak-goal-text = 録音された音声
-listen-subtitle = 声の検証を手伝う
 listen-paragraph = 寄贈された音声の検証も Common Voice プロジェクトにとっては同じくらい重要です。あなたの耳で、オープンソースの音声データの改善を手伝ってください。
 listen-goal-text = 検証された音声
 hours-recorded = 総録音時間
@@ -73,3 +69,36 @@ help-contribute = Common Voice プロファイルを作成し、音声を提供�
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 read-more-about = 詳しくは Common Voice の概要ページをご覧ください
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

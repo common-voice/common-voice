@@ -25,13 +25,9 @@ show-wall-of-text = Saznaj više
 help-us-title = Pomogni nam potvrditi rečenice!
 help-us-explain = Pokreni snimku, slušaj i reci nam: jesu li točno izgovorili dolje zadanu rečenicu?
 no-clips-to-validate = Čini se da za ovaj jezik nema nijednog isječka za slušanje. Pomogni nam napuniti red, snimanjem nekih isječaka.
-vote-yes = Da
-vote-no = Ne
 toggle-play-tooltip = Pritisni { shortcut-play-toggle } za prelazak u modus reprodukcije
-speak-subtitle = Doniraj svoj glas
 speak-paragraph = Snimanje govornih isječaka sastavni je dio izgradnje našeg otvorenog skupa podataka; neki bi rekli da je to i zabavni dio.
 speak-goal-text = Snimljeno isječaka
-listen-subtitle = Pomogni nam potvrditi glasove
 listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušaj i pomogni stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeni isječci
 hours-recorded = Snimljeni sati
@@ -92,3 +88,36 @@ help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaran
 login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

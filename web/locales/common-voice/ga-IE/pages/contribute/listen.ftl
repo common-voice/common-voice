@@ -11,3 +11,9 @@ listen-loading-error =
     Féach arís é ar ball.
 listen-abort-cancel = Lean ar aghaidh ag deimhniú
 listen-abort-confirm = Críochnaigh an bailíochtú
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

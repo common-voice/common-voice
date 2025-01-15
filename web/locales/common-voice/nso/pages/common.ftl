@@ -183,11 +183,6 @@ zu = SeZulu
 
 ## Layout
 
-speak = Bolela
-speak-now = Bjale Bolela
-datasets = Di-dathasete
-languages = Maleme
-about = Mabapi le
 profile = Setshwanso
 help = Thuša
 contact = Kgokagana
@@ -206,7 +201,6 @@ privacy-info = Re tshepiša go swara tshedimošo ya gago ka šedi. Bala ka mo go
 return-to-cv = Boela go Common Voice
 email-input =
     .label = E-meile
-submit-form-action = Tsenya
 loading = Loading...
 email-opt-in-info = Ke tla rata go hwetša di e-meile tša go swana le dikgopotšo tša  dipakane, sebontšhatšwelopele le magwalo a ditaba  tša Common Voice.
 email-opt-in-info-title = Ngwadiša go lenaneo la baamogedi ba e-meile ba Common Voice

@@ -60,3 +60,9 @@ already-have-an-account =  amenie-nie itieafịm? <login>dʌk</login>
 create-profile-button =  siak idiọọñọafịm
 # IMAGE TAGS
 img-alt-success-checkmark =  se mme idiọọñọ awọttọ ke se enam afọn
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -110,3 +110,27 @@ about-menu-aria-label = آپشنز مینو باروا
 partnerships-menu-item-aria-label = مشترکہ آواز ئے گوما شریکداری باروا سرپد بہ بئے
 press-and-stories-menu-item-aria-label = کامن وائس ءِ گوں سیادی داروکیں پریس ریلیز ءُ کسہاں سر بہ بئے
 community-and-languages-menu-item-aria-label = کمیونٹی ءُ زبانانی پٹ ءُ پول ءَ بکن اِت کہ کامن وائس ءِ کمک ءَ کنگ بنت
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

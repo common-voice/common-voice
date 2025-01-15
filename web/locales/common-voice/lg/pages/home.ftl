@@ -11,13 +11,9 @@ show-wall-of-text = Soma Ebisingawo
 help-us-title = Tuyambe okusunsula sentensi!
 help-us-explain = Nyiga play, wuliriza era otubuulire: sentensi zino wamanga baazoogedde bulungi?
 no-clips-to-validate = Kirabika tewali clip zaakuwuliriza mu lulimi luno. Tuyambe okujjuzaawo ng'olikoodingayo ezimu kati.
-vote-yes = Ye
-vote-no = Nedda
 toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzannya
-speak-subtitle = Tuwe eddoboozi lyo
 speak-paragraph = Okulikoodinga bu clip bw'amaloboozi nsonga nkulu mu kuzimba dataset yaffe eya buli omu; abamu bandigambye nti era kinyuvu.
 speak-goal-text = Clips ezirikodingiddwa
-listen-subtitle = Tuyambe okusunsula amaloboozi.
 listen-paragraph = Okusunsula bu clip obutuweereddwa kyamugaso nnyo mu kutuukiriza mission ya Common voice. Wuliriza era otuyambe okutondawo data w'amaloboozi owabuli omu ali ku mutindo.
 listen-goal-text = Clips ezisunsuddwa.
 hours-recorded = Essaawa Ezirikodingiddwa
@@ -74,3 +70,36 @@ help-contribute = Osobola okuyamba okuzimba dataset erina amaloboozi ag'enjawulo
 login-company = Log in/ sign up ne { $company } email
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
 read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

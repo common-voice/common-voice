@@ -206,12 +206,6 @@ zza = Zaza
 
 ## Layout
 
-speak = pale
-speak-now = Pale kounye a
-datasets = Ansanm done
-languages = Lang yo
-about = Konsènan
-partner = Patnè
 profile = Pwofil
 help = èd
 contact = Kontak
@@ -231,7 +225,6 @@ privacy-info = Nou pwomèt pou nou jere enfòmasyon ou yo avèk swen. Li plis na
 return-to-cv = Retounen nan Common Voice
 email-input =
     .label = Imèl
-submit-form-action = Soumèt
 loading = Chajman…
 email-opt-in-info = Mwen ta renmen resevwa Imèl tankou rapèl objektif, dènye pwogrè mwen ak bilten sou Common Voice.
 email-opt-in-info-title = Antre nan lis postal Common Voice lan

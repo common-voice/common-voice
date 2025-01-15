@@ -176,11 +176,6 @@ zh-TW = mandarin (Taiwan)
 
 ## Layout
 
-speak = Parlatz
-speak-now = Parlatz ara
-datasets = Conjunts de donades
-languages = Lengües
-about = Qui èm
 profile = Perfil
 help = Ajudatz
 contact = Contactatz
@@ -199,7 +194,6 @@ privacy-info = Mos comprometem a gestionar era vòsta informacion damb suenh. En
 return-to-cv = Torna tà Common Voice
 email-input =
     .label = Adreça electronica
-submit-form-action = Envia
 loading = Cargament…
 email-opt-in-info = M'agradarie recéber corrèus electronics entà rebrembar objectius, actualizacions deth mèn progrès e bulletins de notícies sus Common Voice.
 email-opt-in-info-title = Junhetz-vos ara lista de corrèu de Common Voice

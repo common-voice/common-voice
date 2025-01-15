@@ -36,3 +36,9 @@ review-delete-recordings = Susa okwami okuqoshiwe
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

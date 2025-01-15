@@ -214,12 +214,6 @@ zza = toki Sasa
 
 ## Layout
 
-speak = o toki uta
-speak-now = o toki uta
-datasets = kulupu kalama
-languages = toki
-about = sona
-partner = kulupu poka
 profile = lipu jan
 help = o pona e mi
 contact = o toki tawa lawa
@@ -239,7 +233,6 @@ privacy-info = awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon l
 return-to-cv = o tawa ilo Common Voice
 email-input =
     .label = nimi pi poki lipu sina
-submit-form-action = o pana
 loading = o awen...
 email-opt-in-info = mi wile kama jo e lipu ni: sona pi wile pali mi en sona pi pali mi en ijo sin pi ilo Common Voice.
 email-opt-in-info-title = kulupu CommonVoice li ken pana e lipu tawa mi
@@ -250,7 +243,7 @@ not-available-abbreviation = ala
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>mi wile</mark><br/><mark>e mani sina!</mark>
 localization-select =
     .label = o kepeken toki

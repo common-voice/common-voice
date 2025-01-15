@@ -183,11 +183,6 @@ zu = Se-Zulu
 
 ## Layout
 
-speak = Bua
-speak-now = Bua jaanong
-datasets = Direkoto tsa tshedimosetso
-languages = Dipuo
-about = Ka ga
 profile = Porofaele
 help = Thuso
 contact = Ikgolaganye
@@ -206,7 +201,6 @@ privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. B
 return-to-cv = Boela go Common Voice
 email-input =
     .label = Imeile
-submit-form-action = Romela
 loading = E a Tsenya...
 email-opt-in-info = Nka rata go amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice.
 email-opt-in-info-title = Nna karolo ya lenaane la thomelo ya melaetsa la Common Voice

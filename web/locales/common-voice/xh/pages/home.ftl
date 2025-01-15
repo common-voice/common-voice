@@ -17,13 +17,9 @@ show-wall-of-text = Funda Ngakumbi
 help-us-title = Sincede siqinisekise izivakalisi!
 help-us-explain = Cinezela dlala, mamela kwaye usixelele: ngaba basithetha ngokuchanekileyo esi sivakalisi singezantsi?
 no-clips-to-validate = Kubonakala ngathi akukho zikliphu zokumamela kolu lwimi. Sincede sigcwalise umgca ngokurekhoda ezinye ngoku.
-vote-yes = Ewe
-vote-no = Hayi
 toggle-play-tooltip = Cinezela u { shortcut-play-toggle } ukutshintsha indlela yokudlala
-speak-subtitle = Nikela ngelizwi lakho
 speak-paragraph = Ukurekhoda iikliphu zelizwi yinxalenye yolwakhiwo lwedatha yethu evulekileyo; abanye bangathi yeyona nto imnandi.
 speak-goal-text = Iikliphu zirekhodiwe
-listen-subtitle = Sincede siqinisekise amazwi
 listen-paragraph = Ukuqinisekisa iikliphu ezinikezelweyo kubalulekile ngokulinganayo kwimishini yeCommon Voice. Phulaphula kwaye usincede senze idatha yelizwi esemgangathweni
 listen-goal-text = Iikliphu ziqinisekisiwe
 hours-recorded = Iiyure ezirekhodiweyo
@@ -81,3 +77,36 @@ help-contribute = Unokunceda ukwakha iseti yedatha eyahlukeneyo, evulekileyo ngo
 login-company = Ngena / Bhalisa nge-imeyile ye { $company }
 profile-not-required = Ukuba neprofayile akufuneki ukuba ube nogalelo nangona kuluncedo, bona ukuba kutheni ngezantsi
 read-more-about = Funda ngakumbi kwiphepha lethu Malunga nathi
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

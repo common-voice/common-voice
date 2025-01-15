@@ -38,3 +38,9 @@ terms-agree = ڕازیم
 terms-disagree = ڕازی نیم
 why-donate = بۆچی دەپرسیت؟
 create-profile-button = پرۆفایلێک دروست بکە
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

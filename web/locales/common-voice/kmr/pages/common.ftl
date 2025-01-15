@@ -201,12 +201,6 @@ zza = Kurdî (Zazakî)
 
 ## Layout
 
-speak = Biaxive
-speak-now = Aniha biaxive
-datasets = Komdane
-languages = Ziman
-about = Derbar
-partner = Hevkar
 profile = Profîl
 help = Alîkarî
 contact = Têkilî
@@ -225,7 +219,6 @@ privacy-info = Em soz didin ku em ê agahiyên te bi baldarî li cem xwe bihêli
 return-to-cv = Vegere Common Voiceê
 email-input =
     .label = Emaîl
-submit-form-action = Bişîne
 loading = Tê barkirin…
 email-opt-in-info = Ez dixwazim emaîlên wekî bibîrxistinên hedefê, nûvekirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirim.
 email-opt-in-info-title = Beşdarî lîsteya emaîlan a Comon Voiceê bibe

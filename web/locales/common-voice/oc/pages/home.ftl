@@ -12,13 +12,9 @@ show-wall-of-text = Mès informacion
 help-us-title = Ajudatz-mos a validar frases!
 help-us-explain = Premetz eth boton de reproduccion, escotatz e didetz-mos s'er àudio correspon exactaments ara frasa de jos:
 no-clips-to-validate = Semble que non i a cap de talh de votz entà revisar en aguesta lengua. Ajudatz-mos a ramplir era coa en tot enregistrar-ne bèri uns ara.
-vote-yes = Òc
-vote-no = Non
 toggle-play-tooltip = Premetz { shortcut-play-toggle } entà iniciar e arturar era reproduccion
-speak-subtitle = Datz era votz
 speak-paragraph = Er enregistrament de talhs de votz ei ua part essenciau entà crear eth nòste conjunt de donades dubèrtes. Tanben ei era part mès divertida.
 speak-goal-text = Talhs enregistradi
-listen-subtitle = Ajudatz-mos a validar votzes
 listen-paragraph = Era validacion des talhs de votz tanben ei importanta entara mission de Common Voice. Escotatz es talhs e ajudatz-mos a crear donades de votz de qualitat damb licéncia liura.
 listen-goal-text = Talhs validadi
 hours-recorded = Ores enregistrades
@@ -76,3 +72,36 @@ help-contribute = Ajudatz a bastir un conjunt de donades liures e diuèrses en t
 login-company = Inici de session / Registre damb era adreça electronica de { $company }
 profile-not-required = Non ei de besonh crear un perfil entà collaborar, mès ei util.
 read-more-about = Vedetz mès informacion ena pagina «Qui èm»
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

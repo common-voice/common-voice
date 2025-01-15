@@ -209,12 +209,6 @@ zza = ザザキ語
 
 ## Layout
 
-speak = 話す
-speak-now = 話してください
-datasets = データセット
-languages = 言語
-about = Common Voice について
-partner = パートナー
 profile = プロファイル
 help = ヘルプ
 contact = お問い合わせ
@@ -234,7 +228,6 @@ privacy-info = 私たちは個人情報の取扱に細心の注意を払って�
 return-to-cv = Common Voiceに戻る
 email-input =
     .label = メールアドレス
-submit-form-action = 送信
 loading = 読み込み中…
 email-opt-in-info = Common Voice に関する目標リマインダ、進捗状況の更新、ニュースレターなどのメールを受け取ります。
 email-opt-in-info-title = Common Voice メーリングリストに参加

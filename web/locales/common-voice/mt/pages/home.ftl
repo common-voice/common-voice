@@ -11,13 +11,9 @@ show-wall-of-text = Aqra Iktar
 help-us-title = Għinna niċċekkjaw is-sentenzi!
 help-us-explain = Agħfas play, isma' u mbagħad għidilna: is-sentenza t'hawn taħt inqrat sew minn min qed jitkellem?
 no-clips-to-validate = Mid-dehra għad mhemmx klips li tista' tisma' b'din il-lingwa. Tina daqqa t'id biex inżidu ftit fil-kju: irrekordja ftit inti, issa stess.
-vote-yes = Iva
-vote-no = Le
 toggle-play-tooltip = Agħfas { shortcut-play-toggle } biex tiħol fil-play mode
-speak-subtitle = Agħtina l-vuċi tiegħek
 speak-paragraph = Recordings tal-vuċi huma parti integrali mill-proċess li bih qed nibnu l-ġabra miftuħa ta' data; skont ħafna nies, hija wkoll l-iktar parti li fiha gost.
 speak-goal-text = Klips li ġew irrekordjati
-listen-subtitle = Għinna niċċekkjaw il-vuċijiet
 listen-paragraph = Li niċċekkjaw ir-recordings li ingħatawlna hija wkoll importanti għall-għanijiet ta' Common Voice. Isma' ftit u tina daqqa t'id biex noħolqu data aċċessibbli ta' kwalità għolja.
 listen-goal-text = Recordings li ġew iċċekkjati
 hours-recorded = Sigħat Irrekordjati
@@ -77,3 +73,36 @@ help-contribute = Tista' tgħinna nibnu ġabra ta' data ddiversifikata u open so
 login-company = Idħol / Abbona bl-imejl tal-{ $company }
 profile-not-required = Mhux bilfors irid ikollok profil biex tikkontribwixxi, għalkemm dan jaf iservi ta' għajnuna, ara għaliex hawn taħt.
 read-more-about = Aqra iktar fuq il-paġna Dwarna
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

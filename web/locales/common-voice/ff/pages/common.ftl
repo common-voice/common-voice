@@ -185,11 +185,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Haal
-speak-now = Haal jooni
-datasets = Leeme Keɓe
-languages = Ɗemɗe
-about = Baɗte
 profile = Heftinirde
 help = Ballal
 contact = Jokkondiral
@@ -208,7 +203,6 @@ privacy-info = Amin ngaadani maa huutoraade humpito maa e nuunɗal. Ɓeydu humpi
 return-to-cv = Rutto to Common Voice
 email-input =
     .label = Iimeel
-submit-form-action = Naatnu
 loading = Nana loowa…
 email-opt-in-info = Miɗo hatojini e heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
 email-opt-in-info-title = Tawtu doggol cargol Common Voice ngol

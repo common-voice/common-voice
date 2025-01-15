@@ -206,12 +206,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Aashajawaa
-speak-now = Paashajaa müinma yaa
-datasets = Anaajaalaa kachikimaajatü
-languages = Anüikiirua
-about = Süchikuu Common Voice
-partner = Partner
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
 contact = E’raajalaa
@@ -231,7 +225,6 @@ privacy-info = Jalieerü waa'in tü püchikimaajatüka. Paashaje'eraa soo'omüin
 return-to-cv = Ouyantaa sünainmüin Common Voice
 email-input =
     .label = Imeeirü
-submit-form-action = Ajütaa
 loading = Pa'atapajaa…
 email-opt-in-info = Tacheküin aluwataanüin imeeirü tamüin eere aashajaanüin saa'ujee kasain aainjüneeka, eere ee'iyatünüin shiyaawase takua otta müsia aapie sümaa sukuwa'ipamaajatü Common Voice.
 email-opt-in-info-title = Ashajiraa sünain tü süpülajanaka imeeirü sümüinka Common Voice

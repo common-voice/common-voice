@@ -109,3 +109,27 @@ about-menu-aria-label = Dewislen dewisiadau ynghylch
 partnerships-menu-item-aria-label = Dysgwch am bartneriaethau gyda Common Voice
 press-and-stories-menu-item-aria-label = Cael mynediad at datganiadau i'r wasg a straeon yn ymwneud â Common Voice
 community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd sy'n cael eu cefnogi gan Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

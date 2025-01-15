@@ -12,13 +12,9 @@ show-wall-of-text = Дауамын уҡырға
 help-us-title = Һөйләмдәрҙең дөрөҫлөгөн тикшерергә ярҙам итегеҙ
 help-us-explain = Яҙманы ебәрегеҙ, тыңлап сығығыҙ ҙа әйтегеҙ: бирелгән фраза тауыш менән яҡшы әйтелгәнме?
 no-clips-to-validate = Был телдә тыңлау өсөн бер ниндәй ҙә аудиояҙма юҡ. Ҡайһы берҙәрен хәҙер үк яҙҙырып, исемлекте тулыландырырға ярҙам итегеҙ.
-vote-yes = Эйе
-vote-no = Юҡ
 toggle-play-tooltip = Туҡтатыу/дауам итеү өсөн { shortcut-play-toggle } төймәһенә баҫығыҙ
-speak-subtitle = Тауышыңды иғәнә ит
 speak-paragraph = Асыҡ мәғлүмәттәр йыйынтығын булдырыуҙағы эштең төп өлөшө — тауыш яҙҙырыу; күптәр өсөн был эштең иң ҡыҙығылыр
 speak-goal-text = Яҙҙырылған тауыштар
-listen-subtitle = Тауыштарҙы тикшерергә ярҙам итегеҙ беҙгә
 listen-paragraph = Common Voice миссияһы өсөн өҫтәлгән яҙмаларҙы тикшереү бик мөһим. Яҙмаларҙы тыңлағыҙ һәм беҙгә сифатлы асыҡ тауыш базаһы булдырырға ярҙам итегеҙ
 listen-goal-text = Тауыш тикшерелде
 hours-recorded = Яҙҙырылған сәғәттәр
@@ -76,3 +72,36 @@ help-contribute = Common Voice профилен булдырып һәм тауы
 login-company = { $company } почтаһы аша Инеү / Теркәлеү
 profile-not-required = Үҙ өлөшөңдө индереү өсөн профилдең булыу мотлаҡ түгел, ә шулай ҙа файҙалы, Ни өсөн - аҫта ҡара.
 read-more-about = «Беҙҙең турала» тигән биттә компания тураһында күберәк белерһегеҙ
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

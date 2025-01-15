@@ -36,3 +36,9 @@ review-delete-recordings = احذف تسجيلاتي
 review-terms = باستخدامك «الصوت للعموم» أنت توافق على <termsLink>الشروط</termsLink> و<privacyLink>تنويه الخصوصية</privacyLink>
 terms-agree = أوافق
 terms-disagree = لا أوافق
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

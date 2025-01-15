@@ -12,3 +12,9 @@ listen-loading-error =
 listen-abort-title = کلپاں دی تصدیق دا خاتمہ کروں؟
 listen-abort-cancel = تصدیق کرݨ جاری رکھو
 listen-abort-confirm = تصدیق کرݨ ختم کرو
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

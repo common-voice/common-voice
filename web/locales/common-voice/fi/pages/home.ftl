@@ -12,13 +12,9 @@ show-wall-of-text = Lue lisää
 help-us-title = Auta lauseiden tarkastamisessa.
 help-us-explain = Paina toistonappia, kuuntele ja kerro: vastaako puhuttu täsmällisesti alla olevaa virkettä?
 no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytettä. Auta meitä täyttämään jonoa äänittämällä muutamia.
-vote-yes = Kyllä
-vote-no = Ei
 toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
-speak-subtitle = Lahjoita äänesi
 speak-paragraph = Ääninäytteiden tallentaminen on olennainen osa avoimen tietoaineistomme keräämistä; joidenkin mukaan se on myös hauskin osa.
 speak-goal-text = Näytettä tallennettu
-listen-subtitle = Auta meitä tarkastamaan ääninäytteitä
 listen-paragraph = Lahjoitettujen näytteiden tarkastaminen on yhtä tärkeää Common Voice -projektille. Kuuntele ja auta meitä luomaan laadukasta avointa ääniaineistoa.
 listen-goal-text = Näytettä tarkastettu
 hours-recorded = Tunteja tallennettu
@@ -76,3 +72,36 @@ help-contribute = Voit auttaa luomaan monipuolisen ja avoimen aineiston luomalla
 login-company = Kirjaudu sisään / Luo tunnukset yrityksen { $company } sähköpostilla
 profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
 read-more-about = Lue lisää Lisätietoja-sivulta
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

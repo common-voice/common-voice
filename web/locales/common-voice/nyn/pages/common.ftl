@@ -26,7 +26,6 @@ privacy-info = Haza otagaruka kuzayo okwe!
 return-to-cv = Nibakweta oha?
 email-input =
     .label = Oije nyenkyakare ontayayire, tikwe?
-submit-form-action = Omukasheshe ondetere obuhunga bw'okugoya.
 loading = Nitwija kuzayo kuzina buziima.
 email-opt-in-info = Hariyo ebikoopo bishatu byokunyweramu.
 email-opt-in-info-title = Musibiregye Bantumwe!

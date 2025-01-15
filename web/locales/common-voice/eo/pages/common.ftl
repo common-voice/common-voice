@@ -171,11 +171,6 @@ zh-TW = Ĉina (Tajvano)
 
 ## Layout
 
-speak = Paroli
-speak-now = Paroli nun
-datasets = Datumaroj
-languages = Lingvoj
-about = Pri ni
 profile = Profilo
 help = Helpo
 contact = Kontakto
@@ -194,7 +189,6 @@ privacy-info = Ni promesas zorge pritrakti viajn informojn. Pli da informo trove
 return-to-cv = Reiri al Common Voice
 email-input =
     .label = Retpoŝto
-submit-form-action = Sendi
 loading = Ŝargado…
 email-opt-in-info = Mi ŝatus ricevi retpoŝtajn mesaĝojn, ekzemple memorigojn pri celoj, raportojn pri mia progreso kaj bultenojn pri Common Voice.
 email-opt-in-info-title = Aliĝi al la dissendolisto de Common Voice

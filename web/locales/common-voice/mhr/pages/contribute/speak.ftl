@@ -36,3 +36,9 @@ review-delete-recordings = Мыйын возымым кораҥдаш
 review-terms = Common Voice-ым кучылтын, тый мемнан <termsLink>Келшык</termsLink> да <privacyLink>Шолыплык нерген шижтарымаш</privacyLink> дене келшет.
 terms-agree = Мый келшем
 terms-disagree = Мый ом келше
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

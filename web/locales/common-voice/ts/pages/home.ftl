@@ -23,13 +23,9 @@ show-wall-of-text = Hlaya Swin’wana
 help-us-title = Hi pfuni ku tiyisisa swivulwa!
 help-us-explain = Cinekela eka tlanga, yingisela & hi byele: xana va vulavule kahle xivulwa lexi nga laha hansi?
 no-clips-to-validate = Ku vonaka onge a ku na swilo leswi u nga swi yingisela eka ririmi leri. Hi pfune leswaku hi siva mpfhuka hi ku rekhoda yin’wana sweswi.
-vote-yes = Ina
-vote-no = E-e
 toggle-play-tooltip = Cinekela { shortcut-play-toggle } ku cinca movha wo tlanga
-speak-subtitle = Nyikela hi rito ra wena
 speak-paragraph = Ku rhekhoda rito i xiphemu xa nkoka xa ku aka rungula ra hina leri pfulekeke; van’wana va nga vula leswaku na yona i xiphemu xo tsakisa.
 speak-goal-text = Swiphemu leswi rhekhodiweke
-listen-subtitle = Hi pfune ku tiyisisa ma ritu
 listen-paragraph = Ku tiyisisa swiphemu leswi nyikeriweke i swa nkoka hi ndlela leyi fanaka eka vurhumiwa bya Common Voice. Yingisela u hi pfuna ku tumbuluxa datha ya rito ya xihlovo lexi pfulekeke xa ku xixima.
 listen-goal-text = Swiphemu swi tiyisisiwile
 hours-recorded = Tiawara Leti Rekhodiweke
@@ -87,3 +83,36 @@ help-contribute = U nga pfuneta ku aka rungula ro hambana, ra xihlovo lexi pfule
 login-company = Nghena / Tsarisa hi { $company } imeyili
 profile-not-required = Kuva na phurofayili a swi laveriwi ku hoxa xandla kambe swa pfuna, vona kuri hikokwalaho ka yini laha hansi.
 read-more-about = Hlaya swo tala eka tluka ra hina ra Malunghana
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

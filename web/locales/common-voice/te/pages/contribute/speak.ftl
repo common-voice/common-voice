@@ -48,3 +48,9 @@ already-have-an-account = ఖాతా కలిగి ఉన్నారా? <l
 create-profile-button = ప్రొఫైలు సృష్టింపు
 # IMAGE TAGS
 img-alt-success-checkmark = విజయం చెక్ మార్క్
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

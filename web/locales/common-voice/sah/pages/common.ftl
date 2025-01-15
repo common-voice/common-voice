@@ -206,12 +206,6 @@ zza = Заза тыла
 
 ## Layout
 
-speak = Саҥар
-speak-now = Билигин саҥар
-datasets = Дааннайдар хомуурдара
-languages = Тыллар
-about = Биһиги туспутунан
-partner = Партнер
 profile = Профиль
 help = Көмө
 contact = Сибээс
@@ -231,7 +225,6 @@ privacy-info = Информацияҕын сэрэнэн туттуохпут д
 return-to-cv = Common Voice-ка төнүн
 email-input =
     .label = Электроннай почта
-submit-form-action = Ыыт
 loading = Хачайдааһын...
 email-opt-in-info = Санатыылары, саҥардыллыы туһунан биллэриилэри уонна сонуннары электроннай суругунан тутуохпун баҕарабын.
 email-opt-in-info-title = Common Voice сурутуутугар кыттыс

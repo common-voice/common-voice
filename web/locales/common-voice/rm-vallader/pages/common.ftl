@@ -128,11 +128,6 @@ zh-TW = Chinais (Taiwan)
 
 ## Layout
 
-speak = Discuorra
-speak-now = Discuorra uossa
-datasets = Collecziuns da datas
-languages = Linguas
-about = Chi eschna
 profile = Profil
 help = Sustegn
 contact = Contact
@@ -151,7 +146,6 @@ privacy-info = Nus t'impromettain da trattar tias infuormaziuns cun chüra. Dapl
 return-to-cv = Tuorna a Common Voice
 email-input =
     .label = e-mail
-submit-form-action = Trametta
 loading = Chargia...
 email-opt-in-info = Eu less surgnir e-mails, chi'm tiran adimmaint meis böts, cun actualisaziuns da meis progress e las novitats da Common Voice.
 email-opt-in-info-title = Annunzcha't per la glista dad e-mails da Common Voice.

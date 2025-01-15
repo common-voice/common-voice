@@ -6,13 +6,9 @@ home-cta = Muvahe nsu nanyu!
 show-wall-of-text = Musuwela tho
 help-us-title = Munikhaliherye okupaleela moolumo!
 help-us-explain = Mutthittye peleyi, nwiriyane ni munileele: ale ahuuluma yoolempwa vathi woolempwa saana?
-vote-yes = Ayo
-vote-no = Nnaari
 toggle-play-tooltip = Mutthittye { shortcut-play-toggle } wii ovaxe mukhalelo wa okoowiha
-speak-subtitle = Mwiire ovaaha nsu nanyu
 speak-paragraph = Olepiha wa kilipi ya masu mpantta wa efayita wa oteka wa opwexerera mitthaka woohuleya; akina yariwa ihima wii mpantta wootthekuleya navetho.
 speak-goal-text = Ikilipi okaravariwa
-listen-subtitle = Munikhalihe okupaleela nsu
 listen-goal-text = Ikilipi weemererana
 hours-recorded = Iwoora a karavariwa
 hours-validated = Iwoora woomalela.
@@ -68,3 +64,36 @@ help-contribute = Nyuwo pooti okhaliherya oteka nikhuru na itaatu nookhalana eko
 login-company = Mukele/ mwiilepihe ni emayili ya { $company }
 profile-not-required = Khivankhanyereryaniwa okhala mukhalelo wiira  okhaliherye, nnaamwi vakhaale vamuraarelo
 read-more-about = Osuwele vanceene mwaha wa Common Voice
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

@@ -57,3 +57,9 @@ already-have-an-account = Već imaš račun? <login>Prijavi se</login>
 create-profile-button = Stvori profil
 # IMAGE TAGS
 img-alt-success-checkmark = kvačica uspjeha
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

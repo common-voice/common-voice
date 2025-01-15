@@ -81,3 +81,27 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## MENU ITEM ARIA LABELS
 
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+
