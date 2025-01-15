@@ -114,3 +114,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Маълумо
 ## How is Common Voice funded
 
 about-playbook-how-funded = «Common Voice» чӣ гуна маблағгузорӣ мешавад?
+about-playbook-how-funded-content-1 = «Common Voice» - лоиҳаи «Mozilla Foundation» мебошад, ки ҳамчун ташкилоти ғайритиҷоратии 501(c)(3) дар ИМА фаъолият мекунад. Айни ҳол, лоиҳа пурра тавассути <philantropicGrantLink>грантҳои ёрии башардӯстона</philantropicGrantLink> ва хайрияҳои шахсони аз саросари ҷаҳон маблағгузорӣ мегардад.
