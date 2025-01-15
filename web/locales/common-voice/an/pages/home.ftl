@@ -133,22 +133,31 @@ join-discord-community = Une-te a la comunidat de Discord
 join-discord-community-action = Une-te a nusatros en Discord
 join-discord-community-content = Participa en as discusions d'a comunidat lingüistica, fe preguntas y aprende mas sobre los proximos eventos y charradas.
 find-us-on-matrix = Troba-nos en Matrix
+find-us-on-matrix-content = Matrix ye un protocolo ubierto y lichero de comunicacions descentralizadas en tiempo real, y la plataforma de discusión ubierta preferida de Mozilla.
 # label for button
 find-us-on-matrix-action = Troba-nos en Matrix
+ask-mozilla-share = Demanda a Mozilla que comparta los tuyos eventos
+ask-mozilla-share-content = Tiens un evento pasau u proximo? Comparti-lo con nusatros y l'anunciaremos a la nuestra comunidat, u escribe un blog sobre él.
 # label for button
 ask-mozilla-share-action = Comparte lo tuyo evento
 download-contribution-certificate = Descarga lo tuyo certificau de contribución
+download-contribution-certificate-content = Descarga un certificau pa los tuyos eventos u pa tu, si has participau en Common Voice —esto no sería posibel sin tu!
 # label for button
 download-contribution-certificate-action = Obtiene lo tuyo certificau
 contribute-github = Colabora en GitHub
+contribute-github-content = Este prochecto no sería posible sin chent como tu. 🎉 I hai muitas manera d'embrecar-se con Common Voice - no te cal saber cómo programar pa poder contribuyir!
 # label for button
 contribute-github-action = Colabora en GitHub
 
 ## Featured section
 
+featured-section-title = Apareixe en...
+# icon is an arrow that points downwards
+download-press-pack = Descarga lo nuestro pack de prensa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Conchuntos de datos de voz ubiertos accesibles publicament en mas de 130 idiomas
 # icon is an arrow that points to the right
 explore-datasets = Explorar conchuntos de datos <icon></icon>
 
@@ -167,3 +176,13 @@ press-and-stories-link = Prensa y articlos
 ## Partner section
 
 partner-section-title = Colabora con nusatros
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Companyías tecnolochicas</bold> - invierte en a creación de conchuntos de datos ubierto pa aconseguir un vibrant ecosistema d'AI multilingüe
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sociedat civil y investigadors</bold> - crea, alberga y comparte de gratis conchuntos de datos d'impacto.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropía</bold> - esponsoriza la creación de conchuntos de datos pa alimentar la innovación local y lo desenrollo
+# icon is an arrow that points to the right
+get-in-touch-button = Contacta <icon></icon>
+# Partners section
+our-partners-include = Los nuestros colaboradors son...
