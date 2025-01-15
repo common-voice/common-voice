@@ -78,11 +78,15 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 ## NAV ITEMS
 
 answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
+answer-questions-coming-soon = კითხვებზე პასუხი <small>(მალე)</small>
 review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
+review-transcriptions-coming-soon = ტრანსკრიფციის შემოწმება <small>(მალე)</small>
 add-questions = კითხვების დამატება <small>(მალე)</small>
+transcribe-audio-coming-soon = აუდიოს ტრანსკრიფცია <small>(მალე)</small>
 transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
+coming-soon = მალე
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,9 +107,19 @@ community-and-languages-menu-item-aria-label = გამოიკვლიეთ
 
 ## Hero section
 
+hero-title = ტექნოლოგია, რომელიც თქვენს ენაზე საუბრობს
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>რატომ უნდა იმუშაოს ხელოვნურმა ინტელექტმა მხოლოდ რამდენიმე მსოფლიოს ენაზე?</bold>
+hero-subtitle-2 = ჩვენი ენა არის ჩვენი ისტორია, ჩვენი თემი, ჩვენი კულტურა. მოდით, შევქმნათ მონაცემთა კრებულები, რომელთა არსებობაც გვსურს.
+# icon is an arrow that points downwards
+get-started = დაიწყეთ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice არის უფასო, ღია წყაროს მქონე პლატფორმა თემის მიერ მონაცემების შექმნისთვის
+action-items-section-subtitle = ნებისმიერს შეუძლია საკუთარი ენის შენარჩუნება, გამოცოცხლება და განვითარება, ტექსტებისა და მეტყველების მონაცემთა კრებულების გაზიარებით, შექმნითა და შემოწმებით.
+spontaneous-card-header = სპონტანური მეტყველება
+coming-soon = მალე
 
 ## Community section
 
