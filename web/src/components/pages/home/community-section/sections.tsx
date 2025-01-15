@@ -75,7 +75,7 @@ export const sections: Section[] = [
         className="action"
         href={require('./assets/certificate-of-contribution-to-open-source-multilingual-technology.png')}
         target="_blank"
-        download>
+        download="certificate-of-contribution-to-open-source-multilingual-technology">
         <img src={AwardIcon} alt="award icon" />
         <Localized id="download-contribution-certificate-action">
           <span />
