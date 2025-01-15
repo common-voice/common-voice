@@ -88,7 +88,7 @@ module.exports = (_env, argv) => {
       include: 'initial',
       as(entry) {
         if (/\.css$/.test(entry)) return 'style';
-        if (/\.(png|svg|jpg|gif)$/.test(entry)) return 'image';
+        if (/\.(png|svg|jpg|gif|webp)$/.test(entry)) return 'image';
         return 'script';
       },
     }),
@@ -165,7 +165,7 @@ module.exports = (_env, argv) => {
           }),
         },
         {
-          test: /\.(png|svg|jpg|gif|ttf)$/,
+          test: /\.(png|svg|jpg|gif|ttf|webp)$/,
           loader: 'file-loader',
           options: {
             esModule: false, // TODO: Switch to ES modules syntax.

@@ -12,6 +12,8 @@ contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълу�
 change = Тағйир додан
 coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
 media-recorder-api-not-supported = «MediaRecorder API» дар браузери шумо дастгирӣ намешавад.
+# Toast message that is displayed when an item is skipped
+skipped = Гузаронидашуда
 audioplayer-header = Гӯш кардан
 guidelines = Роҳнамо
 # For the button to report an item

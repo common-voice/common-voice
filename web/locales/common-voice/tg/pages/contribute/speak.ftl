@@ -61,4 +61,5 @@ answer-questions-menu-item-tooltip = Ба саволҳо ва дархостҳо
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Менюи имконоти «Гап задан»
+read-sentences-menu-item-aria-label = Ҷумлаҳоеро, ки аз тарафи ҷомеа дар забонҳои гуногун пешниҳод карда мешаванд, хонед
 answer-questions-menu-item-aria-label = Саволи наверо пешниҳод кунед, то ки дар ҷомеаи мо онро хонда, ҷавобҳоро нависанд

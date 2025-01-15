@@ -1,0 +1,7 @@
+speak = rmngaw
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

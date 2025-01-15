@@ -1,0 +1,50 @@
+.partners-section {
+    text-align: center;
+    padding: 6rem 1rem;
+    background-color: var(--white);
+
+    .partners-section-container {
+        .partners-title {
+            font-size: 40px;
+            margin-block-end: 30px;
+
+            @media (--xs-down) {
+                font-size: var(--font-size-lg);
+            }
+        }
+
+        .partners-logos {
+            display: flex;
+            align-items: center;
+            overflow-x: auto;
+            margin: 0 auto;
+            white-space: nowrap;
+            position: relative;
+            padding: 1rem 0;
+            justify-content: space-between;
+
+            @media (width >= 1250px) {
+                width: var(--desktop-width);
+            }
+
+            @media (--lg-down) {
+                gap: 8vw;
+            }
+
+            .logo {
+                width: 170px;
+
+                &.collectivat,
+                &.mak {
+                    width: 100px;
+                }
+
+                &.ff {
+                    @media (--xs-down) {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}

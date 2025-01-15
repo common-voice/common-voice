@@ -40,6 +40,11 @@ help-reach-hours-pluralized =
         [one] Бо ҳадафи шахсӣ барои расидан ба { $hours } соат дар { $language } кумак кунед
        *[other] Бо ҳадафи шахсӣ барои расидан ба { $hours } соат дар { $language } кумак кунед
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Бо ҳадафи шахсӣ барои расидан ба { $hours } соат дар забони худ ба «Common Voice» кумак расонед
+       *[other] Бо ҳадафи шахсӣ барои расидан ба { $hours } соат дар забони худ ба «Common Voice» кумак расонед
+    }
 set-a-goal = Ҳадаф гузоштан
 cant-decide = Қарор карда наметавонед?
 how-many-per-day = Олиҷаноб! Дар як рӯз чанд сабт?
