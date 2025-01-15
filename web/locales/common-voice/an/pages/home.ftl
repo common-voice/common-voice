@@ -158,6 +158,7 @@ download-press-pack = Descarga lo nuestro pack de prensa <icon></icon>
 ## Developers section
 
 developers-section-title = Conchuntos de datos de voz ubiertos accesibles publicament en mas de 130 idiomas
+developers-section-subtitle = Conchuntos de datos pa Reconoiximiento Automatico d'a Parla, Sintesi de Voz y atros contextos de procesamiento d'o luengache natural - creaus per la participación d'a comunidat.
 # icon is an arrow that points to the right
 explore-datasets = Explorar conchuntos de datos <icon></icon>
 
