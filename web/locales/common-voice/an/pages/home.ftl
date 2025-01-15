@@ -106,17 +106,43 @@ community-and-languages-menu-item-aria-label = Descubre la comunidat y los idiom
 ## Hero section
 
 hero-title = La tecnolochía que charra la tuya luenga
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Per qué la AI nomás treballa en unas pocas d'as luengas d'o mundo?</bold>
+hero-subtitle-2 = La nuestra luenga ye la nuestra historia, la nuestra comunidat, la nuestra cultura. Au a crear las bases de datos que queremos veyer en o mundo.
+# icon is an arrow that points downwards
+get-started = Encomienza <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ye una plataforma libre y de codigo fuent ubierto pa la creación de datos lideraus per la comunidat.
+action-items-section-subtitle = Cualsequiera puede preservar, revitalizar y elevar la suya luenga compartindo, creando y cudiando conchuntos de datos de texto y de voz.
+scripted-card-header = Parla leyida
+scripted-card-content = Leye frases en voz alta en a tuya luenga y colabora con a base de datos de voz con participación mas diversa d'o mundo.
 spontaneous-card-header = Parla espontania
+spontaneous-card-content = Responde a las preguntas pa crear bases de datos pa contextos mas organicos y coloquials. Ye perfecta la luengas orals.
 language-text-card-header = Texto linguistico
+language-text-card-content = Crear u compartir preguntas d'o dominio publico, frases y texto pa traducción, modelos de luengache chicoz, y muito mas.
 coming-soon = Disponible luego
 add-text = Anyadir texto
 
 ## Community section
 
 community-section-title = Creau per comunidaz globals pa las comunidaz globals —130 idiomas, y creixendo!
+join-discord-community = Une-te a la comunidat de Discord
+# label for button
+join-discord-community-action = Une-te a nusatros en Discord
+join-discord-community-content = Participa en as discusions d'a comunidat lingüistica, fe preguntas y aprende mas sobre los proximos eventos y charradas.
+find-us-on-matrix = Troba-nos en Matrix
+# label for button
+find-us-on-matrix-action = Troba-nos en Matrix
+# label for button
+ask-mozilla-share-action = Comparte lo tuyo evento
+download-contribution-certificate = Descarga lo tuyo certificau de contribución
+# label for button
+download-contribution-certificate-action = Obtiene lo tuyo certificau
+contribute-github = Colabora en GitHub
+# label for button
+contribute-github-action = Colabora en GitHub
 
 ## Featured section
 
