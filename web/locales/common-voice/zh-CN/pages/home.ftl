@@ -126,15 +126,34 @@ download-contribution-certificate-content = 下载证书，用在您举办的活
 # label for button
 download-contribution-certificate-action = 领取您的证书
 contribute-github = 在 GitHub 上贡献
+contribute-github-content = 此项目的成功，源自你我💪。参与 Common Voice 的方式多种多样，不懂编写代码也能参与贡献！
+# label for button
+contribute-github-action = 在 GitHub 上贡献
 
 ## Featured section
 
+featured-section-title = 媒体报道
+# icon is an arrow that points downwards
+download-press-pack = 下载新闻资料包 <icon></icon>
 
 ## Developers section
 
+developers-section-subtitle = 由社区打造，适用于 ASR、STT、TTS 等 NLP 用途的数据集。
+# icon is an arrow that points to the right
+explore-datasets = 探索数据集 <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = 支持社区主导的开放数据集
+read-sentences-link = 朗读语句
+validate-readings-link = 验证朗读内容
+contribute-link = 贡献文字语料库
+answer-questions-link = 回答问题
+transcribe-answers-link = 转录回答内容
+review-transcriptions-link = 审核转录文本
+contribute-text-link = 贡献文本
+press-and-stories-link = 新闻和文章
 
 ## Partner section
 
+partner-section-title = 与我们合作
