@@ -78,8 +78,11 @@ read-more-about = Pour en savoir plus lisez notre page À propos
 ## NAV ITEMS
 
 answer-questions = Répondez aux questions <small>(prochainement)</small>
+answer-questions-coming-soon = Répondre à des questions <small>(prochainement)</small>
 review-transcriptions = Vérifiez les transcriptions <small>(prochainement)</small>
+review-transcriptions-coming-soon = Vérifier les transcriptions <small>(prochainement)</small>
 add-questions = Ajoutez des questions <small>(prochainement)</small>
+transcribe-audio-coming-soon = Transcriptions audio <small>(prochainement)</small>
 transcribe-audio = Transcriptions audio <small>(prochainement)</small>
 press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
@@ -103,9 +106,16 @@ community-and-languages-menu-item-aria-label = Découvrez les communautés et le
 
 ## Hero section
 
+hero-title = Une technologie qui parle votre langue
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Pourquoi l’IA devrait-elle fonctionner uniquement avec quelques langues dans le monde ?</bold>
+hero-subtitle-2 = Notre langue représente notre histoire, notre communauté, notre culture. Créons les jeux de données dont nous rêvons.
+# icon is an arrow that points downwards
+get-started = Pour commencer <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice est une plateforme libre et open source pour la création de données par la communauté.
 
 ## Community section
 
