@@ -38,10 +38,6 @@ zh-CN = Chinese (China)
 
 ## Layout
 
-speak = Parlar
-speak-now = Parla nu
-languages = Lingues
-about = Pri
 profile = Profil
 help = Auxilie
 terms = Termines
@@ -51,7 +47,6 @@ logout = Cluder li session
 return-to-cv = Retornar a Common Voice
 email-input =
     .label = E-post
-submit-form-action = Inviar
 loading = Cargante…
 indicates-required = Campes marcat con asterisco (*) es besonat.
 

@@ -11,13 +11,9 @@ show-wall-of-text = Soma ibindi birenzeho
 help-us-title = Dufashe kwemeza interuro!
 help-us-explain = Kanda vuza, umva & utubwire: interuro zikurikira bazisomye neza?
 no-clips-to-validate = Bisa nkaho nta majwi yo kumva muri uru rurimi. Dufashe kuzuza ahabugenewe wifate amajwi ubu.
-vote-yes = Yego
-vote-no = Oya
 toggle-play-tooltip = Kanda...winjire mu buryo buvuza
-speak-subtitle = Tanga ijwi ryawe
 speak-paragraph = Gufata amajwi ni igice cyo gukora ikusanyirizo ryacu rikoreshwa na buri wese, bamwe bakaba basanga ari n'igice kinezeza.
 speak-goal-text = Amajwi yafashwe
-listen-subtitle = Dufashe kwemeza amajwi
 listen-paragraph = Kwemeza amajwi yatanzwe ni ingirakamaro ku rwego rumwe n'inshingano z'Ijwi Rusange (Common Voice). Umva neza maze udufashe gukora ivomo ry'imbonwa rinoze rikoreshwa na buri wese.
 listen-goal-text = Amajwi yemejwe
 hours-recorded = Amasaha yafashwe
@@ -69,3 +65,36 @@ username-email-not-demographic = Izina ndanga ryawe na imeri ntibizajya hamwe n'
 ## Landing
 
 profile-not-required = Kugira ibigwi bikomeye si byo ngombwa nubwo byafasha.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

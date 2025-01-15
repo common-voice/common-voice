@@ -10,3 +10,9 @@ listen-loading-error =
 listen-abort-title = Ferdig med å validere klippene?
 listen-abort-cancel = Fortsett å validere
 listen-abort-confirm = Fullfør valideringen
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

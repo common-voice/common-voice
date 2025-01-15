@@ -23,13 +23,9 @@ show-wall-of-text = Fundza Kabanti
 help-us-title = Sisite sicinisekise imisho
 help-us-explain = Chafata dlala, lalela & usitjele: Bawukhulume ngalokufanele yini umusho longentasi?
 no-clips-to-validate = Kubukeka ngatsi kute lokutfwebuliwe lokungalalelwa ngalolulwimi. Sisite sigcwalise lilayini ngekutsi sitfwebule nyalo.
-vote-yes = Yebo
-vote-no = Cha
 toggle-play-tooltip = Chafata { shortcut-play-toggle } utokhona kudlala
-speak-subtitle = Nikela livi lakho
 speak-paragraph = Kutfwebula inkhulumo kumcoka kakhulu kule Dataset yetfu, lomunye angatsi bunandzi bakhona.
 speak-goal-text = Ticephu letiftwebuliwe
-listen-subtitle = Sisite sicinisekise emavi
 listen-paragraph = Kucinisekisa ticeshana letinikelwe kumcokwa kumishini ya Common Voice. Tsatsa ulalele kute usisite sakhe umtfombo welwati lotawusita sive.
 listen-goal-text = Ticephu leticinisikesiwe
 hours-recorded = Emahora latfwetjuliwe
@@ -87,3 +83,36 @@ help-contribute = Ungasita kwakha i-database lehlukile ngekwakha likhasi lelicha
 login-company = Ngena / Bhalisa nge email ye { $company }
 profile-not-required = Kuba nelikhasi lelichaza kabanti ngawe akudzingeki, kepha kulusito, buka kutsi kungani langentasi
 read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

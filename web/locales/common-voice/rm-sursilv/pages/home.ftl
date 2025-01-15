@@ -11,13 +11,9 @@ show-wall-of-text = Ulteriuras informaziuns
 help-us-title = Gida nus a validar las construcziuns!
 help-us-explain = Smacca Far ir, teidla e di a nus: vegn la suandonta construcziun pronunziada endretg?
 no-clips-to-validate = Ei para dad haver negins clips da tedlar en quei lungatg. Sche ti registreschas ussa enzacons, gidas ti nus ad emplenir la retscha.
-vote-yes = gie
-vote-no = na
 toggle-play-tooltip = Smacca { shortcut-play-toggle } per entscheiver a preleger ni per calar
-speak-subtitle = Contribuescha cun tia vusch
 speak-paragraph = Registrar clips da vuschs ei ina part integrala per crear nossa unitad da datas aviarta; biars schessen ch'ei seigi era la part divertenta.
 speak-goal-text = Clips gia registrai
-listen-subtitle = Gida nus a validar las vuschs
 listen-paragraph = Validar clips gia contribui ei gest aschi impurtont per la missiun da Common Voice. Teidla bein e gida nus a crear datas da vuschs ch'ein open source e da qualitad.
 listen-goal-text = Clips gia validai
 hours-recorded = Uras gia registradas
@@ -74,3 +70,36 @@ help-contribute = Ti sas gidar a crear in'unitad da datas open source varionta c
 login-company = s'annunziar / s'inscriver cun l'adressa dad e-mail da { $company }
 profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, igl ei denton d'avantatg. Daco vesas ti sutvart.
 read-more-about = Legia dapli sin nossa pagina d'informaziuns davart Common Voice.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

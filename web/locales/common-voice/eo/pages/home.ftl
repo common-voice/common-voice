@@ -12,13 +12,9 @@ show-wall-of-text = Pli da informo
 help-us-title = Helpu nin validigi frazojn!
 help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
 no-clips-to-validate = Ŝajne estas neniu aŭskultebla voĉregistro en tiu ĉi lingvo. Helpu nin aldoni kelkajn nun, per registro de via voĉo.
-vote-yes = Jes
-vote-no = Ne
 toggle-play-tooltip = Premu { shortcut-play-toggle } por ludi/haltigi
-speak-subtitle = Donacu vian voĉon
 speak-paragraph = Fari voĉregistrojn estas kerna parto de la konstruo de nia malfermita datumaro; kelkaj dirus ke ĝi ankaŭ estas la amuza parto.
 speak-goal-text = Nombro de voĉregistroj
-listen-subtitle = Helpu nin validigi voĉojn
 listen-paragraph = Validigi voĉregistrojn estas same grava por la misio de Common Voice. Aŭskultu do, kaj helpu nin krei altkvalitan malfermitkodan voĉan datumaron.
 listen-goal-text = Validigitaj voĉregistrojn
 hours-recorded = Horoj registritaj
@@ -76,3 +72,36 @@ help-contribute = Vi povas helpi konstrui diversan, malfermitkodan datumaron per
 login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 read-more-about = Pli da informo en la paĝo: Pri Common Voice
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

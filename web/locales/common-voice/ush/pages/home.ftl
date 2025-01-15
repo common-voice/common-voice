@@ -101,3 +101,27 @@ about-menu-aria-label = اپشن مینو بارا در
 partnerships-menu-item-aria-label = کامن وائس ست پارتنرشب بارا در اِزدا تھا
 press-and-stories-menu-item-aria-label = کامن وائس ست ملحقہ پریس ریلیس اؤ قصؤ تے آبرا
 community-and-languages-menu-item-aria-label = کامن وائس ست کامیک جیِبے سپورٹ تھینا سی ݜکا
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

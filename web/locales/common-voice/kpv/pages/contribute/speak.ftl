@@ -23,3 +23,9 @@ review-keep-recordings = Кольны гижӧдъяссӧ
 review-delete-recordings = Чышкыны гижӧдъясӧс
 terms-agree = Сӧглас.
 terms-disagree = Абу сӧглас.
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

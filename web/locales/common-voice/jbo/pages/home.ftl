@@ -1,9 +1,6 @@
 ## Home Page
 
 show-wall-of-text = za'o tcidu
-vote-yes = go'i
-vote-no = na go'i
-speak-subtitle = xau voksa ko
 all-locales = ro
 today = cabdei
 
@@ -14,4 +11,37 @@ today = cabdei
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

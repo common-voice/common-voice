@@ -6,3 +6,9 @@ listen-last-time-instruction = <playIcon></playIcon>Последен!
 listen-empty-state = Ни снемаа клипови за валидација на овој јазик...
 listen-abort-cancel = Продолжете со валидирање
 listen-abort-confirm = Завршете со валидирање
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

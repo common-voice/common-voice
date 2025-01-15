@@ -42,3 +42,9 @@ continue-speaking-button = Nann avat, kenderc'hel da gomz
 create-profile-button = Krouiñ ur profil
 # IMAGE TAGS
 img-alt-success-checkmark = merk kochañ berzh
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

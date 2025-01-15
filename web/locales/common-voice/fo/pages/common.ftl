@@ -70,10 +70,6 @@ zh-TW = Kinesiskt (Taivan)
 
 ## Layout
 
-speak = Tosa
-speak-now = Tosa nú
-datasets = Dátasett
-languages = Mál
 profile = Profilur
 help = Hjálp
 contact = Samband
@@ -90,7 +86,6 @@ logout = Útrita
 return-to-cv = Aftur til Common Voice
 email-input =
     .label = Teldupostur
-submit-form-action = Send inn
 loading = Hugsar...
 indicates-required = * merkir teigurin er kravdur
 

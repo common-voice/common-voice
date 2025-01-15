@@ -11,13 +11,9 @@ show-wall-of-text = Көбірек оқыныз
 help-us-title = Дауысты растауға көмектесіңіз!
 help-us-explain = Ойнау батырмасын басқан соң, тыңдап, бізге айтыңыз: олар төмендегі сөйлемді дәл айтқан ба?
 no-clips-to-validate = Бұл тілде тыңдау үшін клиптер жоқ сияқты. Дауысты жазу арқылы кезекті толтыруға көмектесіңіз.
-vote-yes = Иә
-vote-no = Жоқ
 toggle-play-tooltip = Ойнату режимін ауыстыру үшін { shortcut-play-toggle } түймесін басыңыз
-speak-subtitle = Дауысыңызды сыйға тартыңыз
 speak-paragraph = Дауыстық клиптерді жаздыру біздің ашық деректер жиынтығын болдырудың ажырамас бөлігі; Кейбіреулер бұл көңілді бөлік деп те айтады.
 speak-goal-text = Жазылған клиптер
-listen-subtitle = Дауыстарды растауға көмектесу
 listen-paragraph = Қамтылған клиптерді тексеру Common Voice миссиясы үшін солай-ақ маңызды. Тыңдаңыз және сапалы ашық бастапқы дыбыс деректерін жасауға көмектесеңіз.
 listen-goal-text = Тексірілген клиптер
 hours-recorded = Жазылған сағаттар
@@ -73,3 +69,36 @@ help-contribute = Сіз Common Voice профилін құру және өз д
 login-company = { $company } электрондық поштасымен кіріңіз / тіркеліңіз
 profile-not-required = Профайл болуы қажетті емес, бірақ пайдалы болуы мүмкін
 read-more-about = Толығырақ туралы Біздің парағымыздан оқыңыз
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

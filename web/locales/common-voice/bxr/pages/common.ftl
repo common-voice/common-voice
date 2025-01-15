@@ -111,11 +111,6 @@ zh-TW = Хятад (Тайван)
 
 ## Layout
 
-speak = Хэлэгты
-speak-now = Мүнөө хэлэгты
-datasets = Үгэгдэл
-languages = Хэлэнүүд
-about = Тухай
 profile = Хэрэглэгшын данса
 help = Туһаламжа
 contact = Холбоо бариха
@@ -130,7 +125,6 @@ privacy-info = Танай хубиин мэдээсэл болгоомжотой
 return-to-cv = Ниитын Дуу хоолой руу бусаха
 email-input =
     .label = Сахим шуудан
-submit-form-action = Эльгээхэ
 loading = Ашаалагдажа байна...
 email-opt-in-info = Зорилго һануулһан, ажалай ябаса харуулһан, Common Voice-ын һонинуудые мэдээсэһэн сахим шуудан абахаа һананаб.
 indicates-required = *Заабол бүглэхэ ёһотой мэдээсэл

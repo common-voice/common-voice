@@ -215,12 +215,6 @@ zza = zaza
 
 ## Layout
 
-speak = Parla
-speak-now = Parleu ara
-datasets = Conjunts de dades
-languages = Llengües
-about = Qui som
-partner = Associats
 profile = Perfil
 help = Ajuda
 contact = Contacte
@@ -240,7 +234,6 @@ privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a
 return-to-cv = Torna al Common Voice
 email-input =
     .label = Adreça electrònica
-submit-form-action = Envia
 loading = S'està carregant…
 email-opt-in-info = M'agradaria rebre correus electrònics com ara recordatoris d’objectius, actualitzacions del meu progrés i butlletins de notícies sobre el Common Voice.
 email-opt-in-info-title = Uniu-vos a la llista de correu del Common Voice

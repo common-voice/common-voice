@@ -12,13 +12,9 @@ show-wall-of-text = Bala ka mo go Oketšegilego
 help-us-title = Re thuše re kgonthiše mafoko!
 help-us-explain = Tobetša raloka, theeletša o re butše: a fa ba boletše lefoko le leng ka tlase ga botse.
 no-clips-to-validate = Go bonagala nkare ga gona ditsopolwana tše o ka di theeletšago ka polelo e. Re thuše go tlatša lenaneotetelo ka go rekhota gona bjale.
-vote-yes = Ee
-vote-no = Aowa
 toggle-play-tooltip = Tobetša { shortcut-play-toggle } go raloka mokgwa wa tšhielanyo
-speak-subtitle = Neela lentšu la gago
 speak-paragraph = Go gatiša dipego tša lentšu ke karolo e bohlokwa ya go aga dathasete ya rena e bulegilego; ba bangwe ba ka re ke karolo ya go thabiša le yona.
 speak-goal-text = Ditsopolwa di begilwe
-listen-subtitle = Re thuše re kgonthiše mantšu
 listen-paragraph = Go netefatša dikarolwana tše neelwego ke mokgwa o bohlokwa kudu mo go Common Voice. Theeletša gomme o re thuše go hlangwa datha ya mothopo o bulegilego wa lentšu.
 listen-goal-text = Ditsopolwa di kgonthišitšwe
 hours-recorded = Diiri di Begilwego
@@ -76,3 +72,36 @@ help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo 
 login-company = Tsena/Hloma akhaonte ya mošomiši ka { $company } e-meile
 profile-not-required = Ga go hlokagale gore o be le profaele le ge e thuša, bona lebaka leo ka lona ka fase.
 read-more-about = Bala ka mo go oketšegilego letlakaleng la wepesaete ka rena.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

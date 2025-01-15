@@ -202,12 +202,6 @@ zza = Zazakan
 
 ## Layout
 
-speak = Kuma
-speak-now = Kuma sisan
-datasets = Daɲɛgafew
-languages = Kanw
-about = Ka ɲɛsin
-partner = Jɛɲɔgɔn
 profile = Porofili
 help = Dɛmɛ
 contact = aw ka kuma an fɛ
@@ -226,7 +220,6 @@ privacy-info = An bɛ layidu ta I ye k'An b'I kumakan latanga.Nin kalan walasa  
 return-to-cv = Segin ka ta Common Voice Kan
 email-input =
     .label = Imɛyi
-submit-form-action = Ka lase
 loading = A bɛ na
 email-opt-in-info = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Hakilijigin N ka laɲiniw na, N ka baraw taabolo la ani Common Voice Kunnafɔni kuraw la
 email-opt-in-info-title = Don Common Voice imɛyi listi kɔnɔ

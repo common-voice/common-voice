@@ -60,3 +60,9 @@ already-have-an-account = Eus akont dhywgh seulabrys? <login>Omgelmewgh</login>
 create-profile-button = Gwrewgh profil
 # IMAGE TAGS
 img-alt-success-checkmark = tyck sewena
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

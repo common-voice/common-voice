@@ -178,12 +178,6 @@ zh-TW = Bahasa Cina (Taiwan)
 
 ## Layout
 
-speak = Bercakap
-speak-now = Cakap sekarang
-datasets = Set data
-languages = Bahasa
-about = Tentang Kami
-partner = Rakan kongsi
 profile = Profil
 help = Bantuan
 contact = Hubungi
@@ -203,7 +197,6 @@ privacy-info = Kami berjanji untuk mengendalikan maklumat anda dengan cermat. Ke
 return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
-submit-form-action = Hantar
 loading = Memuatkan…
 email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas kini kemajuan saya dan buletin mengenai Common Voice.
 email-opt-in-info-title = Sertai senarai mel Common Voice

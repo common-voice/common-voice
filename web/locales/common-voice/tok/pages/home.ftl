@@ -25,13 +25,9 @@ show-wall-of-text = o suli e toki
 help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
 no-clips-to-validate = toki ni la kalama ante ala li li wile e kute. sina wile la, o pona e ni o pana e kalama sin sina.
-vote-yes = pona
-vote-no = ike
 toggle-play-tooltip = o luka e nena { shortcut-play-toggle } la, o kute. luka sin la, o kute ala.
-speak-subtitle = o pana e toki uta sina
 speak-paragraph = pali pi kalama uta li suli mute tawa pali ni. ni li musi kin tawa jan mute.
 speak-goal-text = kalama
-listen-subtitle = o pona e toki uta
 listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama tawa pali ni. o kute o pona e kulupu pi kalama toki.
 listen-goal-text = kalama pona
 hours-recorded = tenpo suli kalama
@@ -86,3 +82,36 @@ help-contribute = sina jo e sijelo ilo pi ilo Common Voice, sina ken pona e ni: 
 login-company = o kama kepeken poki lipu sina tan kulupu { $company }.
 profile-not-required = sina jo e lipu jan la ni li pona mute. taso, sina jo ala la ni li pona.
 read-more-about = o lukin lon lipu sona mi
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

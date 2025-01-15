@@ -171,11 +171,6 @@ zh-TW = Bahsa Cina (Taiwan)
 
 ## Layout
 
-speak = Marit
-speak-now = Marit jinoe
-datasets = Seunapat Data
-languages = Bahsa
-about = Bhaih
 profile = Profil
 help = Beunantu
 contact = Kontak
@@ -192,7 +187,6 @@ privacy-info = Kamoe meujanji meupeulaku haba nibak droeneuh ngön göt. Neubeue
 return-to-cv = Gisa u Common Voice
 email-input =
     .label = Surat-e
-submit-form-action = Peuét
 loading = Pumeuhah...
 email-opt-in-info = Lon galak beujitamöng surat-e lagee peuingat tujuan, seuneubaro progress lon ngon seunurat keu bhaih Su Common.
 indicates-required = * Suwah geupasoe

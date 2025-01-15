@@ -208,12 +208,6 @@ zza = Заза
 
 ## Layout
 
-speak = Дзур
-speak-now = Дзур ныртæккæ
-datasets = Датасеттæ
-languages = Æвзæгтæ
-about = Мах тыххæй
-partner = Партнёрад
 profile = Профиль
 help = Æххуыс
 contact = Контакттæ
@@ -233,7 +227,6 @@ privacy-info = Мах дзырд дæттæм, дæ информациимæ aр
 return-to-cv = Common Voice-мæ раздæх
 email-input =
     .label = Эл. пост
-submit-form-action = Арвит
 loading = Æвгæны...
 email-opt-in-info = Мæн фæндид исын эл. фыстæджытæ, зæгъæм зæрдыл æрыфтауын нысæнттæ, сног кæнын мæ размæцыд æмæ ног хабӕрттӕ Common Voice-ы тыххæй.
 email-opt-in-info-title = Дæхи бафтау Common Voice-ы пъисмоты номхыгъдмæ

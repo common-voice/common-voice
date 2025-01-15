@@ -10,3 +10,9 @@ listen-loading-error = Tɨ yin dɨ djɛɛ dɨ lə tɨ wog. Biitɨ maa tsamɛn.
 listen-abort-title = Ləgsɨ dɨ yerɛn dɨ kɨsal
 listen-abort-cancel = Biitɨ dɨ nyam kɨsal
 listen-abort-confirm = Ləgsɨ dɨnyam kɨsal
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -183,11 +183,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Ambani
-speak-now = Ambani zwino
-datasets = Dzidataset
-languages = Nyambo
-about = Nga ha
 profile = Profaiḽi
 help = Thuso
 contact = Zwidodombedzwa
@@ -206,7 +201,6 @@ privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila y
 return-to-cv = Humelani kha Common Voice
 email-input =
     .label = Email
-submit-form-action = Rumela
 loading = Zwi khou Ḽouda…
 email-opt-in-info = Ndi nga takalela u wana email dzi nga ho dzine dza nkhumbudza nga ha zwipikwa zwanga, mvelaphanḓa yanga na maswa maswa nga ha Common Voice.
 email-opt-in-info-title = Ivhani tshipiḓa tsha vhane vha wana email dza Common Voice

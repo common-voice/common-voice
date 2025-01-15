@@ -215,12 +215,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Runā
-speak-now = Runā tagad
-datasets = Datu kopas
-languages = Valodas
-about = Par
-partner = Partnerība
 profile = Profils
 help = Palīdzība
 contact = Kontakti
@@ -240,7 +234,6 @@ privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet v
 return-to-cv = Atgriezties pie Common Voice
 email-input =
     .label = E-pasts
-submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
@@ -251,7 +244,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Mums ir nepieciešama</mark><br/><mark>jūsu palīdzība!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz mums, izmaksā gandrīz miljonu dolāru gadā. <strong>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</strong>

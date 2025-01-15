@@ -183,11 +183,6 @@ zu = IsiZulu
 
 ## Layout
 
-speak = Khuluma
-speak-now = Khuluma nje
-datasets = Ukuhlelwa kwemininingwana
-languages = Amalimi
-about = Malungana
 profile = Iphrofayili
 help = Isizo
 contact = Thintana
@@ -208,7 +203,6 @@ privacy-info = Sithembisa ukugcina imininingwana yakho iyifihlo. Funda okwengezi
 return-to-cv = Buyela kuCommon Voice
 email-input =
     .label = I-imeyili
-submit-form-action = Thumela
 loading = Iyalowuda...
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
 email-opt-in-info-title = Ngenela ihlelo le-Common Voice

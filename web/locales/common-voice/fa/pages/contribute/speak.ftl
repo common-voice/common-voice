@@ -60,3 +60,9 @@ already-have-an-account = قبلا حساب کاربری دارید؟ <login>و�
 create-profile-button = ایجاد نمایه
 # IMAGE TAGS
 img-alt-success-checkmark = علامت موفقیت
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

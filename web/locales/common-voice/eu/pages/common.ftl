@@ -206,12 +206,6 @@ zza = Zazera
 
 ## Layout
 
-speak = Hitz egin
-speak-now = Hitz egin orain
-datasets = Datu-sortak
-languages = Hizkuntzak
-about = Guri buruz
-partner = Babeslea
 profile = Profila
 help = Laguntza
 contact = Kontaktua
@@ -231,7 +225,6 @@ privacy-info = Zure informazioa kontuz tratatuko dugula agintzen dizugu. Irakurr
 return-to-cv = Itzuli Common Voicera
 email-input =
     .label = Helbide elektronikoa
-submit-form-action = Bidali
 loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
 email-opt-in-info-title = Batu Common Voice posta-zerrendara

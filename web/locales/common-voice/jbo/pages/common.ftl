@@ -60,11 +60,6 @@ zh-CN = jugbau
 
 ## Layout
 
-speak = bacru
-speak-now = ko ca bacru
-datasets = datni cletu
-languages = bangu
-about = srana
 profile = datni be mi
 help = sidju
 contact = xelbe'i
@@ -78,7 +73,6 @@ privacy-info = mi'a ca'e nupre lonu kurji lo datni be do .i ko .e'u tcidu la'e <
 return-to-cv = xruti fi tu'a la'o gy Common Voice gy
 email-input =
     .label = samymrijudri
-submit-form-action = friti
 loading = samymo'i…
 email-opt-in-info = .au te samymri tu'a lonu tergu'a rejgau .e lo nuzba be loni mulno do'e mi kei .e lo xatra be fo tu'a la'o gy Common Voice gy
 email-opt-in-info-title = jongau fi lo te samymri liste pe la'o gy Common Voice gy

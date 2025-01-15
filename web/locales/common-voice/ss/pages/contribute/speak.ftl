@@ -36,3 +36,9 @@ review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 review-terms = Ngekusebentisa Common Voice, uyavumelana <termsLink>nemigomo yetfu</termsLink> ne<privacyLink>mibandzela</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

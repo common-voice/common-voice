@@ -27,12 +27,8 @@ show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a validar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿pronunciaron con precisión la siguiente oración?
 no-clips-to-validate = Parece que no hay clips para escuchar en este idioma. Ayúdanos a llenar la cola grabando algunos ahora.
-vote-yes = Quena
-vote-no = axcana
-speak-subtitle = Dona tu voz
 speak-paragraph = La grabación de clips de voz es una parte integral de la construcción de nuestro conjunto de datos abiertos; algunos dirían que también es la parte divertida.
 speak-goal-text = Clips grabados
-listen-subtitle = ¡Ayúdanos a validar oraciones!
 listen-paragraph = La validación de los clips donados es igualmente importante para la misión de Common Voice. Escuche y ayúdenos a crear datos de voz de código abierto de calidad.
 listen-goal-text = Clips validados
 hours-recorded = Horas Registradas
@@ -72,3 +68,36 @@ username-email-not-demographic = Su nombre de usuario y correo electrónico no s
 
 help-contribute = Puede ayudar a crear un conjunto de datos diverso y de código abierto creando un perfil de Common Voice y contribuyendo con su voz.
 read-more-about = Lea más en nuestra página Acerca de
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

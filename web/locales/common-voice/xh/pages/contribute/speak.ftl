@@ -36,3 +36,9 @@ review-delete-recordings = Cima irekhodingi zam
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
 terms-agree = Ndiyavuma
 terms-disagree = Andivumelani
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

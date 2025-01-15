@@ -36,3 +36,9 @@ review-delete-recordings = Бичлэг устгах
 review-terms = Common Voice -г хэрэглэхийн тулд та манай <termsLink>үйлчилгээний нөхцөл</termsLink> болон <privacyLink>Нууцлалын заалт</privacyLink>-ыг зөвшөөрсөн байх ёстой.
 terms-agree = Зөвшөөрч байна
 terms-disagree = Үл зөвшөөрч байна
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

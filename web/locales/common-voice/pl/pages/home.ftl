@@ -12,13 +12,9 @@ show-wall-of-text = Więcej
 help-us-title = Pomóż nam zweryfikować nagrania!
 help-us-explain = Odsłuchaj i potwierdź, czy zdanie jest poprawnie wymówione.
 no-clips-to-validate = Wygląda na to, że dla tego języka nie ma żadnych nagrań do odsłuchania. Pomóż nam wypełnić kolejkę nagrywając się teraz.
-vote-yes = Tak
-vote-no = Nie
 toggle-play-tooltip = Naciśnij { shortcut-play-toggle }, aby zmienić tryb odtwarzania
-speak-subtitle = Nagraj swój głos
 speak-paragraph = Nagrywanie jest integralną częścią budowania naszego otwartego zbioru danych. Niektórzy twierdzą, że to ta fajna część.
 speak-goal-text = Nagrane
-listen-subtitle = Pomóż nam sprawdzić nagrania
 listen-paragraph = Sprawdzanie nagrań jest równie ważne dla misji projektu Common Voice. Posłuchaj i pomóż nam utworzyć dane głosowe open source wysokiej jakości.
 listen-goal-text = Sprawdzone nagrania
 hours-recorded = Nagrane godziny
@@ -79,3 +75,36 @@ help-contribute = Możesz pomóc zbudować różnorodny zbiór danych open sourc
 login-company = Zaloguj/zarejestruj się za pomocą adresu e-mail firmy { $company }
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 read-more-about = Przeczytaj więcej na stronie informacji o nas
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

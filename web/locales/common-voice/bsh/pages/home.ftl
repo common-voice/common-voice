@@ -95,3 +95,27 @@ about-menu-aria-label = مرضی ستہ مینو بارا تہ
 partnerships-menu-item-aria-label = عام کوٹہ مع پلئی وار زعݩہ
 press-and-stories-menu-item-aria-label = عام کوٹہ بگنہ پرس رلیز دے پرݩجیک تہ پعا۔
 community-and-languages-menu-item-aria-label = عام کوٹہ مع منچاݩ (کمیونٹی) دے ورے بنڅا
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

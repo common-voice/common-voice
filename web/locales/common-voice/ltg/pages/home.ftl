@@ -12,13 +12,9 @@ show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
 no-clips-to-validate = Izaver, ka itamā volūdā nav audio īrokstu. Paleidzit mums, īrokstūt kaidus tagad.
-vote-yes = Nui
-vote-no = Nā
 toggle-play-tooltip = Damīdzit { shortcut-play-toggle }, lai puorslāgtu atskaņuošonys režimu
-speak-subtitle = Pazīduot sovu bolsu
 speak-paragraph = Lai myusu volūda īkuortu laikmatā napagaistu, mums juoīroksta sovi bolsi; kaids saceitu, ka tys ir ari jautri.
 speak-goal-text = Īroksti īraksteiti
-listen-subtitle = Paleidzit puorbaudeit bolsus
 listen-paragraph = Īrokstu puorbaudeišona ir cīši svareiga. Klausotēs īrokstus i paleidzit īvuiceit īkuortom saprast myusu volūdu.
 listen-goal-text = Apstyprynuoti īroksti
 hours-recorded = Īraksteituos stuņdis
@@ -79,3 +75,36 @@ help-contribute = Jius varit paleidzēt taiseit daudzveideigu valejuo pyrmkoda d
 login-company = Pīsasokit / pīsarokstit ar { $company } e-postu
 profile-not-required = Lai dūtu īguļdejumu, profilu taiseit navajag, bet tys var byut dereigi, ka jius tū sataiseisit.
 read-more-about = Skaitit vaira myusu lopā Par mums
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

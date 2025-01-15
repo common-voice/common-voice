@@ -14,13 +14,9 @@ show-wall-of-text = 了解更多
 help-us-title = 幫我哋手驗證句子啦！
 help-us-explain = 撳播放、聽完、再回覆：呢句話讀得啱唔啱？
 no-clips-to-validate = 睇來而家冇錄音可聽。不如幫我哋錄返啲？
-vote-yes = 係
-vote-no = 唔係
 toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
-speak-subtitle = 捐出你把聲
 speak-paragraph = 錄音係我哋建立開放數據集不可或缺嘅一部份，亦都係好多人覺得最好玩嘅嗰部份！
 speak-goal-text = 段新錄音
-listen-subtitle = 幫我哋手驗證錄音啦
 listen-paragraph = 驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。聽下其他人貢獻嘅錄音，就可以幫我哋建立高質素嘅開放源碼語音數據集。
 listen-goal-text = 段錄音已驗證
 hours-recorded = 已錄製時數
@@ -75,3 +71,36 @@ help-contribute = 你可以透過創立一個 Common Voice 帳户並貢獻錄音
 login-company = 登入 / 注冊  { $company } 電郵
 profile-not-required = 唔成立個人檔案都可以貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

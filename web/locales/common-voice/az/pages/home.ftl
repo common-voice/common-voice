@@ -13,13 +13,9 @@ show-wall-of-text = Ətraflı Oxu
 help-us-title = Cümlələri təsdiqləməyə kömək et!
 help-us-explain = Oxut, dinlə və xəbər ver: aşağıdakı cümləni düz səsləndirdilər?
 no-clips-to-validate = Görünür bu dildə dinləyəsi kliplər yoxdur. Siyahını doldurmağa kömək etmək üçün indi səsləndirməyə başla.
-vote-yes = Bəli
-vote-no = Xeyr
 toggle-play-tooltip = Oxutma modunu keçirtmək üçün { shortcut-play-toggle } basın
-speak-subtitle = Səsinizi iadə edin
 speak-paragraph = Səs klipləri açıq məlumat bazasını qurmağımızın ən əsas hissəsidir; bəziləri üçün bu həm də ən əyləncəli hissədir.
 speak-goal-text = Qeyd edilmiş kliplər
-listen-subtitle = Səsləri təsdiqləməyimizə kömək edin
 listen-paragraph = İanə edilmiş klipləri təsdiqləmək Common Voice missiyası üçün eyni səviyyədə əhəmiyyətlidir. Qulaq asın və keyfiyyətli açıq səs məlumatları yaratmağımıza kömək edin.
 listen-goal-text = Təsdiqlənmiş kliplər
 hours-recorded = Qeyd etmə saatları
@@ -54,4 +50,37 @@ x-years-short =
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

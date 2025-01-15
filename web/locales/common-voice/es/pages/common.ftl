@@ -187,12 +187,6 @@ zza = zaza
 
 ## Layout
 
-speak = Hablar
-speak-now = Habla ahora
-datasets = Archivos de datos
-languages = Idiomas
-about = Sobre Common Voice
-partner = Sé nuestro socio
 profile = Perfil
 help = Ayuda
 contact = Contacto
@@ -212,7 +206,6 @@ privacy-info = Prometemos manejar tu información con cuidado. Lee más en nuest
 return-to-cv = Regresar a Common Voice
 email-input =
     .label = Correo
-submit-form-action = Enviar
 loading = Cargando…
 email-opt-in-info = Me gustaría recibir correos electrónicos como recordatorios de objetivos, actualizaciones de mi progreso y boletines de noticias sobre Common Voice.
 email-opt-in-info-title = Unirse a la lista de correo de Common Voice

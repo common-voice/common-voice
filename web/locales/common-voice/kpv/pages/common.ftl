@@ -157,11 +157,6 @@ zh-TW = Китай (Тайвань) кыв
 
 ## Layout
 
-speak = Шу
-speak-now = Шу ӧні
-datasets = Юӧр чукӧр
-languages = Кывъяс
-about = Йылысь
 profile = Ас листбок
 help = Отсӧг
 contact = Йитӧд
@@ -180,7 +175,6 @@ privacy-info = Ми сетам кыв, мый кутам видлавны тія
 return-to-cv = Бӧр Common Voice дорӧ
 email-input =
     .label = Электрон пӧшта
-submit-form-action = Ыстыны
 loading = Восьтыны...
 email-opt-in-info = Ме кӧсъя, медым меным ыстісны уджмогъяс йылысь, менам удж серти прогресс йылысь электрон письмӧяс да Common Voice йылысь юӧра бюллетеньяс.
 email-opt-in-info-title = Пырӧдчӧй Common Voice ыстӧмъяс лыддьӧгӧ

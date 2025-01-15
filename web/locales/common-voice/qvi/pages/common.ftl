@@ -199,7 +199,6 @@ privacy-info = Ñukanchik kikimpa riksichita allitami allchipashun. Ashtawan yac
 return-to-cv = Common Voiceman tikray
 email-input =
     .label = Antanikik Chaski
-submit-form-action = Kachay
 loading = Paskakun…
 email-opt-in-info = Ñuka munayman ruray paktachikunata chaskinkapak, ñuka chayra rurashkakunatapash shinallata mushuk willachikunatapash.
 email-opt-in-info-title = Ñukanchik antanikik chaskiman tantanakuy.

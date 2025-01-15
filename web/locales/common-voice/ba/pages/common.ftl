@@ -199,12 +199,6 @@ zza = Заза
 
 ## Layout
 
-speak = Һөйләү
-speak-now = Һөйләй (яҙҙыра) башлау
-datasets = Йыйынтыҡ
-languages = Телдәр
-about = Беҙҙең турала
-partner = Тиңдәш
 profile = Сәхифә
 help = Ярҙам
 contact = Бәйләнеш
@@ -223,7 +217,6 @@ privacy-info = Һеҙҙең мәғлүмәттәр менән һаҡсыл эш 
 return-to-cv = Common Voice-ға кире ҡайтырға
 email-input =
     .label = Эл. почта
-submit-form-action = Ебәреү
 loading = Тейәү
 email-opt-in-info = Common Voice-тың  алға китештәре һәм яңылыҡтары тураһында хәбәрҙәр, маҡсаттары тураһында  иҫкә төшөрөүҙәр кеүек хаттар алырға теләйем
 email-opt-in-info-title = Common Voice-тың дөйөм исемлегенә ҡушылығыҙ

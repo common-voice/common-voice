@@ -12,13 +12,9 @@ show-wall-of-text = Ловномс седе тов
 help-us-title = Лездак тенек ванномс вадря валрисьметь!
 help-us-explain = Лепштика «кунсоловтомс» повненть, кунсолок ды ёвтак миненек: ало рисьмесь видестэ ёвтазь?
 no-clips-to-validate = Маряви, арасть те кельсэнть кодаткак кунсоломань туртов сёрмадовкст. Лездак тенек теемс одт, тейть зярояк эсь пельде.
-vote-yes = Истя
-vote-no = Аволь
 toggle-play-tooltip = Лепштик { shortcut-play-toggle }-нть кунсолома модонь аравтомга
-speak-subtitle = Максык  вайгелеть сёрмадомс
 speak-paragraph = Вайгельсэ валрисьмень ёвтамось панжадо данноень пурнамонь а явовикс пелькс; лиятнень туртов те, теке марто, мельстуиця тев.
 speak-goal-text = Сёрмадозь клиптнеде
-listen-subtitle = Лездак тенек ванномс вайгельтнень
 listen-paragraph = Эрьва сыця сёрмадовкстнэнь ванномась пек эрявикс тев Common Voice-нь туртов. Кунсолодо сёрмадовкстнэнь ды лездадо тееемс вадря панжадо даннойть.
 listen-goal-text = Ваннозь клипть
 hours-recorded = Сёрмадозь частнэде
@@ -75,3 +71,36 @@ welcome-staff = Совадо { $company } ломанть!
 login-company = Совамс / Шкамс совамо тарка { $company } ёндолсёрма адрессэ
 profile-not-required = Лездамсто профилэсь а эряви, ялатеке сон лезэв
 read-more-about = Ловнок седе тов «Минденек» лопасонок
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

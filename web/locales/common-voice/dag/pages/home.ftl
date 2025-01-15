@@ -1,8 +1,5 @@
 ## Home Page
 
-vote-yes = iin
-vote-no = aayi
-speak-subtitle = Tohimi a kukɔli
 
 ## Account Benefits
 
@@ -11,4 +8,37 @@ speak-subtitle = Tohimi a kukɔli
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

@@ -17,10 +17,6 @@ zu = Ki zulu
 
 ## Layout
 
-speak = Loba
-speak-now = Loba sikoyo
-languages = Minoko
-about = Etali
 help = Lisalisi
 terms = Mibeko
 share-title = Salisá biso toluka basusu mpo na kopesa mongongo na bango!
@@ -33,7 +29,6 @@ privacy-info = To laki na ko salela angele na mayebi oyo etali yo. Tanga mingi l
 return-to-cv = Zonga na Common Voice
 email-input =
     .label = Imele
-submit-form-action = Tinda
 loading = Ezali kobongisama
 email-opt-in-info = Nalingi kozwa baimele lokola makundoli ya mikano, ba mises à jour ya progrès na ngai mpe ba bulletins ya sango oyo etali Common Voice.
 email-opt-in-info-title = Kota na buku ya baimele ya Common Voice

@@ -12,13 +12,9 @@ show-wall-of-text = Ɣeṛ ugar
 help-us-title = Fket-aɣ afus n tallelt akken ad nesseɣbel tifyar!
 help-us-explain = Tekki ɣef tqeffilt "urar", ḥess, tineḍ-aɣ-d ma yella tettwanṭaq-d akken iwata tefyirt-a ukessar!
 no-clips-to-validate = Yettban d akken ulac yakan ikalasen ara tesleḍ deg tutlayt-agi. Muddaɣ-d afus ad nernu kra tura.
-vote-yes = Ih
-vote-no = Uhu
 toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
-speak-subtitle = Mudd-d taɣect-ik
 speak-paragraph = Asekles n tukkisin n taɣect yekcem di lebni n tagrumma n yisefka yeldin; llan wid ara d-yinin yelha i zhu.
 speak-goal-text = Tukkisin ittwaskelsen
-listen-subtitle = Fket-aɣ afus n tallelt akken ad nsentem tuɣac
 listen-paragraph = Asentem n tukkisin yesɛa azal meqqren i tuɣdaṭ n Common Voice. Sell akken aɣ-d-tefkeḍ tallalt ad nesnulfu isefka n taɣect n aɣbalu yeldin s tɣara.
 listen-goal-text = Tukkisin yettwasnetmen
 hours-recorded = Isragen yettwaskelsen
@@ -76,3 +72,36 @@ help-contribute = Tzemreḍ ad aɣ-d-fkkeḍ tallelt ad nebnu tagruma n teɣbalu
 login-company = Kcem / Jerred s imayl { $company }
 profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
 read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

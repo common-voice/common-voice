@@ -11,13 +11,9 @@ show-wall-of-text = Ci gaba da Karantawa
 help-us-title = Taimaka mana mu inganta jumla!
 help-us-explain = Danna fara, sai ka saurara sannan ka bayyana mana: Yadda suka faɗi wannan jimla ta ƙasa dai dai ne?
 no-clips-to-validate = Da alamar ba'a saka sautikan da za'a saurara a wannan yaren ba. Taimaka mana wajen naɗar naka sautin yanzu.
-vote-yes = E
-vote-no = A'a
 toggle-play-tooltip = Danna { shortcut-play-toggle } don Cigaba ko ka tsayar da sauraro
-speak-subtitle = Ba da gudumuwar muryarka
 speak-paragraph = naɗar sautikan murya yana cikin ayyukan gina dataset na kyauta; wasu ma cewa suke shine abu mafi daɗi a cikin aikin.
 speak-goal-text = Sautukan da aka naɗa
-listen-subtitle = Taimaka mana mu tantance muryoyi
 listen-paragraph = Tabbatar da kyautatuwar sautikan da aka bada gudummawarsu na cikin muhimman ayyukan Common Voice. Saurari sautikan domin ka taimaka mana wajen samar da bayanai na muryoyi mai inganci.
 listen-goal-text = Sautukan da aka tantance
 hours-recorded = Awannin da aka ɗauka
@@ -75,3 +71,36 @@ help-contribute = Kuna iya taimakawa ƙirƙirar ɗakunan bayanai daban-daban, ma
 login-company = Shiga ciki/Yi rajista da { $company } imel
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
 read-more-about = Kara karantawa game da Mu a shafinmu
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

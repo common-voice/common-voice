@@ -36,3 +36,9 @@ review-delete-recordings = Goge naɗe-naɗe na
 review-terms = Ta anfani da Common Voice, ka amince da <termsLink>Sharruɗan mu</termsLink> da <privacyLink>Bayanan sirri</privacyLink>
 terms-agree = Na yarda
 terms-disagree = Ban yarda ba
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

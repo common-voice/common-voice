@@ -117,11 +117,6 @@ zh-TW = Китайский (Тайвань)
 
 ## Layout
 
-speak = Pajatõ
-speak-now = Pajatõ nütt
-datasets = Salvod
-languages = Čeeled
-about = Meiss
 profile = Profili
 help = Api
 contact = Kontakti
@@ -140,7 +135,6 @@ privacy-info = Мы обещаем, что будем обрабатывать �
 return-to-cv = Takaz Common Voice tüvve
 email-input =
     .label = Epošti
-submit-form-action = Saatõ
 loading = Lastamin…
 email-opt-in-info = Я хочу получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
 email-opt-in-info-title = Сделайте голосовую запись частью аватара вашего профиля. Другие смогут прослушать её.

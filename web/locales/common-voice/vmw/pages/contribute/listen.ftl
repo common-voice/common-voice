@@ -5,3 +5,9 @@ listen-last-time-instruction = <playIcon></playIcon> Okiserya!
 listen-abort-title = Okhomoni wa waakhulela ikiliipi?
 listen-abort-cancel = Mutthikele okhupali
 listen-abort-confirm = Okhomoni wa waakhulela
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

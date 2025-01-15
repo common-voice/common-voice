@@ -10,3 +10,9 @@ listen-loading-error = Tɔ sàa eŋyà yɔ rhö ɔwóɔ. Mú rɛanolone ikuil
 listen-abort-title = Rwɛssiɛ lúninɛ ɛnyà yɔ rhö ?
 listen-abort-cancel = Kakanɛ ɔbuessí uluminɛ
 listen-abort-confirm = Rwɛssi uluminɛ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

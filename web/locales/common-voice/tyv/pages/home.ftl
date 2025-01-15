@@ -11,13 +11,9 @@ show-wall-of-text = Тодаргай
 help-us-title = Бижиттинген чүүлдерни хынажып бээрин диледивис!
 help-us-explain = Бижикти кыпсыпкаш, дыңнааш, адаанда киирттинген фраза эки-багай бижиттингенин биске чугаалаңар?
 no-clips-to-validate = Бо дылга дыңнаар кандыг-даа бижиткен чүүлдер чок хевирлиг-дир. Каштан бижиткеш, биске чаа бижиктер тургузарынга дузалажыңар.
-vote-yes = Ийе
-vote-no = Чок
 toggle-play-tooltip = Дыңнаар режимин солуурда, бээр { shortcut-play-toggle } базыптыңар
-speak-subtitle = Үнүңер өргүңер
 speak-paragraph = Адаан домактарның үннүг бижидилгези бистиң ажык база тургузар ажылывыстың чугула кезии болуп турар; чамдык улус ону солун ажыл-дыр деп база санап болур.
 speak-goal-text = Бижиттинген клиптер
-listen-subtitle = Бижиктерни хынажып бээрин диледивис
 listen-paragraph = Неметтинген бижиктерни хынаары Common Voice-туң миссиязынга дыка чугула. Бижиктерни дыңнааш, биске шынарлыг үн базазын тургузарынга дузаңар кадыңар.
 listen-goal-text = Хынаттынган бижиктер
 hours-recorded = Бижиттинген шактар
@@ -62,3 +58,36 @@ whats-public = Кандыг медээлер шупту улуска ажык?
 ## Landing
 
 profile-not-required = Киржирде, профиль ажыктыг-даа болза, ооң херектии албан эвес
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

@@ -153,12 +153,6 @@ zu = Zulù
 
 ## Layout
 
-speak = Parlà
-speak-now = Parlà avà
-datasets = Banche di dati
-languages = Lingue
-about = Apprupositu
-partner = Diventà partenariu
 profile = Prufilu
 help = Aiutu
 contact = Cuntattu
@@ -177,7 +171,6 @@ privacy-info = Vi prumittimu di trattà e vostre infurmazioni cun primura. Da sa
 return-to-cv = Vultà à Common Voice
 email-input =
     .label = Email
-submit-form-action = Invià
 loading = Caricamentu…
 email-opt-in-info = Mi piaceria à riceve email cum’è ramintenze di scopi, raporti di u me prugressu, e nutizie appuntu à Common Voice.
 email-opt-in-info-title = Raghjunghje à a lista di distribuzione di Common Voice

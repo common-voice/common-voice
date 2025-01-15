@@ -33,3 +33,9 @@ review-delete-recordings = Scaanseƚa ƚe me registrasion
 review-terms = Utiƚixando Common Voice, te aseti ƚe nostre <termsLink>condisioni</termsLink> e l’<privacyLink>informativa so ƚa privacy</privacyLink>
 terms-agree = Aseto
 terms-disagree = No aseto
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

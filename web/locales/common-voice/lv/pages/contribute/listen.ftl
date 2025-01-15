@@ -11,3 +11,9 @@ listen-loading-error =
 listen-abort-title = Vai pabeigt klipu apstiprināšanu?
 listen-abort-cancel = Turpināt apstiprināšanu
 listen-abort-confirm = Beigt apstiprināšanu
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

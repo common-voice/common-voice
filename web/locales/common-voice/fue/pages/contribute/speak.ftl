@@ -57,3 +57,9 @@ already-have-an-account = a woodi contu na ? <login>Connexion</login>
 create-profile-button = titugo no huune wa'i
 # IMAGE TAGS
 img-alt-success-checkmark = coche de réussite
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

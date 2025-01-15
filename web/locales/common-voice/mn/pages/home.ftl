@@ -11,13 +11,9 @@ show-wall-of-text = Цааш унших
 help-us-title = Та өгүүлбэр бататгаж тусална уу.
 help-us-explain = Та Play товч дээр дараад, сонсоод дараах өгүүлбэр зөв хэлэгдсэн эсэхийг бидэнд хэлнэ үү.
 no-clips-to-validate = Бататгах шаардлагатай бичлэг алга. Тиймээс та өөрөө ярьж хянах жагсаалтыг дүүргэж туслана уу.
-vote-yes = Тийм
-vote-no = Үгүй
 toggle-play-tooltip = Play/Stop хийхийн тулд { shortcut-play-toggle } дээр дарна уу
-speak-subtitle = Та дуу хоолойгоо хандивлана уу
 speak-paragraph = Дууны бичлэг хийх нь манай нээлттэй өгөгдлийн цогцын салшгүй хэсэг. Магад зарим хүнд тун зугаатай байх.
 speak-goal-text = Бичигдсэн дуу бичлэг
-listen-subtitle = Та бидэнд дуу бичлэгийг бататгаж тусална уу
 listen-paragraph = Хандивласан дуу бичлэгийг бататгах нь Common Voice дуу бичлэг хийхтэй ижил чухал. Та сонсоод, чанартай нээлттэй дуу бичлэгийн өгөгдөл бэлдэхэд тусална уу.
 listen-goal-text = Бататгасан дуу бичлэг
 hours-recorded = Бичигдсэн хугацаа
@@ -74,3 +70,36 @@ help-contribute = Та Common Voice дээр профайл үүсгэх, дуу
 login-company = { $company } имэйлээр нэвтрэх / бүртгүүлэх
 profile-not-required = Хувийн эрхтэй байх шаардлагагүй ч хэрэг болж мэднэ
 read-more-about = Дэлгэрэнгүй мэдээллийг манай About хуудаснаас авна уу
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

@@ -102,3 +102,27 @@ about-menu-aria-label = Tlen uelis tikpejpenas
 partnerships-menu-item-aria-label = Xikmati ken uelis okachi tikpaleuis Tinochtin Titlajtoaj
 press-and-stories-menu-item-aria-label = Xikita tlen oksekimej kijtoaj itech Tinochtin Titlajtoaj
 community-and-languages-menu-item-aria-label = Xikinmita tlajtolkopaj uan okseki tlen uelis tikajsis itech Tinochtin Titlajtoaj
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

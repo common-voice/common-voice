@@ -203,12 +203,6 @@ zza = Заза
 
 ## Layout
 
-speak = Агучыць
-speak-now = Гаварыце зараз
-datasets = Наборы дадзеных
-languages = Мовы
-about = Пра нас
-partner = Партнёр
 profile = Профіль
 help = Даведка
 contact = Сувязь
@@ -228,7 +222,6 @@ privacy-info = Мы абяцаем абыходзіцца з вашай інфа
 return-to-cv = Вярнуцца да Common Voice
 email-input =
     .label = Емэйл
-submit-form-action = Падаць
 loading = Загрузка...
 email-opt-in-info = Я хачу атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра мае дасягненні і навіны пра Common Voice.
 email-opt-in-info-title = Далучыцца да спіса рассылкі Common Voice

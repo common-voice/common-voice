@@ -12,13 +12,9 @@ show-wall-of-text = Læs mere
 help-us-title = Hjælp os med at kontrollere sætninger!
 help-us-explain = Tryk på afspil, lyt og fortæl os, om den indtalte sætning var korrekt.
 no-clips-to-validate = Det ser ud til, at der ikke er nogen optagelse at lytte til på dette sprog. Hjælp os med at fylde køen ved at optage nogle nu.
-vote-yes = Ja
-vote-no = Nej
 toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
-speak-subtitle = Donér din stemme
 speak-paragraph = Optagelse er en vigtig del af opbygningen af vores åbne datasæt. Mange vil sige at det også er den sjoveste del.
 speak-goal-text = Stemme optaget
-listen-subtitle = Hjælp os med at validere stemmer
 listen-paragraph = Validering af donerede stemmeoptagelser er mindst lige så vigtigt for Common Voice-missionen. Lyt til en stemmeoptagelse og hjælp os med at skabe kvalitets open source stemme-data.
 listen-goal-text = Optagelse valideret
 hours-recorded = Timer optaget
@@ -76,3 +72,36 @@ help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæ
 login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 read-more-about = Læs mere på vores Om-side
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

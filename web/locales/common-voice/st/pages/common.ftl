@@ -183,11 +183,6 @@ zu = Zulu
 
 ## Layout
 
-speak = Bua
-speak-now = Bua hona jwale
-datasets = Dipokello tsa data
-languages = Dipuo
-about = Ka
 profile = Profaele
 help = Thusa
 contact = Tshwara
@@ -206,7 +201,6 @@ privacy-info = Re tshepisa ho sebetsana le ditaba tsa hao ka hloko. Bala haholwa
 return-to-cv = Kgutlela ho Common Voice
 email-input =
     .label = Imeile
-submit-form-action = Romella
 loading = E ya kenya...
 email-opt-in-info = Ke kopa ho fumana di-imeile tse kang dikgopotso tsa sepheo, ditlaleho tsa tswelopele ya ka le dikoranta tse mabapi le Common Voice.
 email-opt-in-info-title = Kena lethathamong la mangolo la Common Voice

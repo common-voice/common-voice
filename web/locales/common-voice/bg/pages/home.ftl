@@ -12,13 +12,9 @@ show-wall-of-text = Прочетете повече
 help-us-title = Помогнете с проверката на изреченията!
 help-us-explain = Натиснете старт, прослушайте и ни кажете: правилно ли е прочетено изречението долу?
 no-clips-to-validate = Изглежда, че няма записи за този език. Помогнете ни да допълним опашката, като направите такъв запис.
-vote-yes = Да
-vote-no = Не
 toggle-play-tooltip = Натиснете { shortcut-play-toggle }, за да превключите в режим на възпроизвеждане
-speak-subtitle = Дари своя глас
 speak-paragraph = Правенето на аудио записи е неразделна част от изграждането на нашия отворен набор от данни; някои биха казали, че това е и забавната част.
 speak-goal-text = Направени записи
-listen-subtitle = Помогнете ни с проверката на гласовете
 listen-paragraph = Проверяването на дарените аудио записи е също важно за мисията на Common Voice. Вслушайте се и ни помогнете да създадем качествени гласови данни с отворен код.
 listen-goal-text = Проверени записи
 hours-recorded = Записани часове
@@ -76,3 +72,36 @@ help-contribute = Можете да помогнете за изграждане
 login-company = Влезте / регистрирайте се с имейл от { $company }
 profile-not-required = За да допринасяте не е задължително да имате профил, но е полезно
 read-more-about = Прочетете повече на страницата Относно
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

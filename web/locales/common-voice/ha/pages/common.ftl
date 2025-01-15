@@ -148,11 +148,6 @@ zh-TW = Yaren chananci (Taiwan)
 
 ## Layout
 
-speak = Yi Magana
-speak-now = Yi magana yanzu
-datasets = Tuƙullumar Bayanai
-languages = Yaruka
-about = Gameda mu
 profile = Bayananka
 help = Taimako
 contact = Tuntuɓi
@@ -171,7 +166,6 @@ privacy-info = Mun yi alkawari za mu kula da bayananku cikin kulawa. Karanta cik
 return-to-cv = Koma zuwa ga Muryar Gama-Gari
 email-input =
     .label = imel
-submit-form-action = Mika
 loading = Yana buɗewa...
 email-opt-in-info = Ina son karɓar saƙonnin imel kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice.
 email-opt-in-info-title = Shiga jerin sawun aika saƙon Muryar gama gari

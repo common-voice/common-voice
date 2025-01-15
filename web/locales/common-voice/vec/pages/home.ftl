@@ -11,13 +11,9 @@ show-wall-of-text = Altre informasioni
 help-us-title = Jùtane a convaƚidare ƚe fraxi!
 help-us-explain = Struca Scomisìa, scolta e dine se l’audio corisponde a la fraxe cua soto.
 no-clips-to-validate = Senbra no ghe sìa registrasion en sta ƚengua. Contribuisi registrando un poco.
-vote-yes = Sì
-vote-no = No
 toggle-play-tooltip = Strucare { shortcut-play-toggle } par pasare a ƚa modaƚità de riprodusion
-speak-subtitle = Regaƚane ƚa to vose
 speak-paragraph = Ƚa registrasion vocaƚe de ƚe fraxi ƚa xe na parte fondamentaƚe ne ƚa costrusion de el nòstro dataset publico (secondo cualcheduni anca ƚa pì divertente).
 speak-goal-text = Registrasioni
-listen-subtitle = Jùtane a convaƚidare ƚe registrasion!
 listen-paragraph = Convaƚidare ƚe registrasion efetuà da altri la xe ƚo steso inportante par ƚa mision de Common Voice. Scoltaƚe e jutane a creare on dataset publico e de cualità.
 listen-goal-text = Registrasion convalidà
 hours-recorded = Ore registrà
@@ -73,3 +69,36 @@ help-contribute = Crea on profilo Common Voice e dona la to vose par jutarne a c
 login-company = Asedi / Registrate co ƚ’email de { $company }
 profile-not-required = Registrare on profilo no xe obligatorio par coƚaborare, ma incorajà
 read-more-about = Scopri de pì so ƚa pàgina Informasion
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

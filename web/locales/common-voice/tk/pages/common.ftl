@@ -165,11 +165,6 @@ zh-TW = Hytaýça (Taýwan)
 
 ## Layout
 
-speak = Geple
-speak-now = Häzir geple
-datasets = Maglumat toplumlary
-languages = Diller
-about = Hakynda
 profile = Profil
 help = Kömek
 contact = Aragatnaşyk
@@ -188,7 +183,6 @@ privacy-info = Biz siziň maglumatyňyzy aýratyn üns bilen işlejekdigimize s�
 return-to-cv = Common Voice-a dolan
 email-input =
     .label = E-poçta
-submit-form-action = Iber
 loading = Ýüklenýär…
 email-opt-in-info = Men öňde goýlan maksat ýatlatmalary, öňegidişliklerim barada täzelenmeleri we Common Voice barada habarnamalary almak isleýärin.
 email-opt-in-info-title = Common Voice poçta sanawyna goşul

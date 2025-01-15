@@ -46,3 +46,9 @@ thanks-for-voice-toast-error = Xoma çkinapa-tkvani incğonet̆uşa xeta iyu
 create-profile-button = Profili getzopxi
 # IMAGE TAGS
 img-alt-success-checkmark = ot̆işu onayişi ğara
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

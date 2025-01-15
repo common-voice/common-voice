@@ -137,11 +137,6 @@ zh-TW = Lucayina (Tayiwan)
 
 ## Layout
 
-speak = Yogera
-speak-now = Yogera kati
-datasets = Datasets
-languages = Ennimi
-about = Manya
 profile = Pulofayiro
 help = Yamba
 contact = Tubuulire
@@ -160,7 +155,6 @@ privacy-info = Tukusuubiza okukwata ebikukwatako n'obwegenderenza. Ssoma ebising
 return-to-cv = Ddayo ku Common Voice
 email-input =
     .label = Email
-submit-form-action = Sindika
 loading = Bijja…
 email-opt-in-info = Nandiyagadde okufuna obubaka ng'obujjukiza, bye ntuseeko ate n'ebikwata ku Common Voice.
 email-opt-in-info-title = Weeyunge kw'abo be tusindikira email ku bifa ku Common Voice

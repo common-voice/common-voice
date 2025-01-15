@@ -12,13 +12,9 @@ show-wall-of-text = Kà síi
 help-us-title = Bá wa wò ó bóyá àwọn ọ̀rọ̀ wọ̀nyí tànnà
 help-us-explain = Tẹ sọ̀rọ̀, gbọ́ àti sọ fún wa: ṣé wọ́n ka ìsọ ìsàlẹ̀ náà dáradára?
 no-clips-to-validate = Ó jọ bí i wí pé kò sí fọ́nrán tí ènìyàn yóò tẹ́tísí nỉ èdè yí. Bá wa ṣe àkálẹ̀ díẹ̀
-vote-yes = Bẹ́ẹ̀ ni
-vote-no = Bẹ́ẹ̀ kọ́
 toggle-play-tooltip = Tẹ { shortcut-play-toggle } láti rí ohun tí ò ó tẹ̀
-speak-subtitle = Fi ohùn rẹ kalẹ̀
 speak-paragraph = Àkálẹ̀ fọ́nrán ohùn jẹ́ ohun pàtàkì nínú akitiyan ìkójọpọ̀ ìgbàsílẹ̀ ohùn; àwọn kan yóò ní òhun ló dùn-ún ṣe jù.
 speak-goal-text = A ṣe àkálẹ̀ àwọn fọ́nrán ohùn
-listen-subtitle = Bá wa wò ó bóyá àwọn ohùn wọ̀nyí tànnà
 listen-paragraph = Síṣàyẹ̀wò fọ́nrán tí a gbà sílẹ̀ náà ṣe pàtàkì sí ìfojúsùn Common Voice. Gbọ́ ki o sì ṣe ìrànwọ́ fún wa láti ṣẹ̀dá ohùn tó péye tó sì wà ní àrọ́wọ́tó gbogbo ènìyàn.
 listen-goal-text = Fọ́nrán di yíyẹ̀wò
 hours-recorded = Wákàtí àkálẹ̀ ohùn
@@ -76,3 +72,36 @@ help-contribute = O lè ṣe ìrànwọ́ láti kọ́ àkọ́jọpọ̀ d
 login-company = Ìforúkọsílẹ̀ láti wọlé / Ìforúkọsílẹ̀ pẹ̀lú ímeèli { $company }
 profile-not-required = Nínú púrófáìlì ò pọn dandan láti fi kún àmọ́ yóò ṣe ìrànwọ́, wo ìdí nísàlẹ̀.
 read-more-about = Kà síi lojú-ìwé wa nípa wa
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

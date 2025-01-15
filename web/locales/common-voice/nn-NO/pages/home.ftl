@@ -12,13 +12,9 @@ show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
 no-clips-to-validate = Det verkar ikkje som om det finst lydklipp å høyre på for dette språket. Hjelp oss med å fylle inn køen ved å spele inn nokre no.
-vote-yes = Ja
-vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
-speak-subtitle = Doner stemma di
 speak-paragraph = Innspeling av stemmeklipp er ein integrert del av å byggje opp det opne datasettet vårt; og enkelte vil seie at det er den artigaste delen òg.
 speak-goal-text = Innspelte lydklipp
-listen-subtitle = Hjelp oss med å validere stemmene
 listen-paragraph = Å validere lydklipp som er bidratt er like viktig for måloppnåinga til Common Voice. Lytt, og hjelp oss med å skape opne taledata med kvalitet.
 listen-goal-text = Validerte lydklipp
 hours-recorded = Innspelte timar
@@ -76,3 +72,36 @@ help-contribute = Du kan hjelpe til med å byggje eit mangfaldig, ope datasett v
 login-company = Logg inn/Registrer deg med { $company } e-post
 profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 read-more-about = Les meir på Om oss-sida vår
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

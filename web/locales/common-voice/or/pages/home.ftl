@@ -15,13 +15,9 @@ show-wall-of-text = ଅଧିକ ପଢ଼ନ୍ତୁ
 help-us-title = ଆମକୁ ବାକ୍ୟଗୁଡ଼ିକ ପରଖିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ!
 help-us-explain = ପ୍ଲେ ଦବାନ୍ତୁ, ଶୁଣନ୍ତୁ ଏବଂ ଆମକୁ କୁହନ୍ତୁ; କଣ ସେମାନେ ସଠିକ ଭାବରେ ନିମ୍ନ ବାକ୍ୟଟି ପଢ଼ିଲେ?
 no-clips-to-validate = ବୋଧେ ଏହି ଭାଷାରେ ଶୁଣିବାକୁ କିଛି କ୍ଲିପ ନାହିଁ । ଆପଣ କିଛି ରେକର୍ଡ଼ିଂ କରି ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ ।
-vote-yes = ହଁ
-vote-no = ନାଁ
 toggle-play-tooltip = ଖେଳିବା ମୋଡ଼କୁ ଚାଲୁ/ବନ୍ଦ କରିବାକୁ { shortcut-play-toggle } ଚିପନ୍ତୁ
-speak-subtitle = ଆପଣଙ୍କ ଭାଷା ଦିଅନ୍ତୁ
 speak-paragraph = କଣ୍ଠସ୍ୱର କ୍ଲିପ ରେକର୍ଡିଂ ଆମ ଖୋଲା ଡାଟାସେଟ ତିଆରିର ଏକ ମୂଳ ଅଂଶ । ଏହା ମଜାଦାର କାମ ବୋଲି ବି କେହି କେହି କହିବେ ।
 speak-goal-text = କ୍ଲିପଗୁଡ଼ିକ ରେକର୍ଡ କରିଦିଅନ୍ତୁ
-listen-subtitle = ସ୍ୱରଗୁଡ଼ିକୁ ପରଖିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ
 listen-paragraph = ଅପଲୋଡ଼ ହୋଇଥିବା କ୍ଲିପଗୁଡ଼ିକୁ ପରଖିବା Common Voice ପାଇଁ ମଧ୍ୟ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ । କିଛି କ୍ଲିପ ଶୁଣି ଏକ ଭଲ ମାନର ଓପନ ସୋର୍ସ ଡାଟାସେଟ ତିଆରି କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ ।
 listen-goal-text = କ୍ଲିପଗୁଡ଼ିକ ପରଖାଗଲା
 hours-recorded = ଘଣ୍ଟାର ଗଛିତ ହୋଇଗଲା
@@ -79,3 +75,36 @@ help-contribute = ଆପଣ ଏକ Common Voice ଖାତା ଖୋଲି ଏକ
 login-company = { $company } ଇମେଲଦ୍ୱାରା ଖାତା ଖୋଲନ୍ତୁ/ଲଗ ଇନ କରନ୍ତୁ
 profile-not-required = ଯୋଗଦାନ କରିବାକୁ ଏକ ପ୍ରୋଫାଇଲ ତିଆରି କରିବା ବାଧ୍ୟତାମୂଳକ ନୁହେଁ, କିନ୍ତୁ ଏହା କିପରି ଲାଭଦାୟକ ତଳେ ଦେଖନ୍ତୁ ।
 read-more-about = ଆମ ସମ୍ପର୍କିତ ପୃଷ୍ଠାରେ ଅଧିକ ପଢନ୍ତୁ
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

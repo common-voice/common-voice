@@ -33,3 +33,9 @@ review-keep-recordings = Сирӹмӹм перегӹ
 review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 terms-agree = Келшем
 terms-disagree = Ам келшӹ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

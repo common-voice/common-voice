@@ -101,3 +101,27 @@ about-menu-aria-label = Wo meniju Nastajenja
 partnerships-menu-item-aria-label = Zhońće wjace wo partnerstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějće přistup k wozjewjenjam nowinarstwa a stawizničkam wo Common Voice
 community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a rěče, kotrež so přez Common Voice podpěruja
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

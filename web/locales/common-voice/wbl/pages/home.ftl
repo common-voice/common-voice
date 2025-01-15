@@ -95,3 +95,27 @@ about-menu-aria-label = Ikhtiyori menuẽ barar
 partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ barar/bobatẽn dish
 press-and-stories-menu-item-aria-label = Kommon Voysẽ barar press reliz woz zhindagvẽ barar/ bobat ghat/ resoyi hosil car
 community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ medad k̃hetk
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

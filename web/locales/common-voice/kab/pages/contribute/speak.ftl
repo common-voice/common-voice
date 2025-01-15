@@ -50,3 +50,9 @@ second-cta-header-text = Tanemmirt ɣef umuddu n taɣect-ik!
 create-profile-button = Rnu amaɣnu
 # IMAGE TAGS
 img-alt-success-checkmark = aṛcam n rrbaḥ
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

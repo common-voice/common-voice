@@ -11,13 +11,9 @@ show-wall-of-text = ximomachti cachi
 help-us-title = Xitechpalehui matiquitacah tlahtol
 help-us-explain = Xicpacho mo pehua, xicaqui uan techiluis: ¿Okihtohke cuali tlahtol tlen achto?
 no-clips-to-validate = Nismati amo catqui tlahtolahcoctoc para seccaquis ica nin maseualtlahtol. Xitechpaleui tictemitisqueh lista tlahtolahcoctosqueh sansique axan.
-vote-yes = quema
-vote-no = amo
 toggle-play-tooltip = Xicpacho { shortcut-play-toggle } para secxotlaltis  mo peua
-speak-subtitle = Xitetlaocoli motlahtol
 speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tlapuhtoc; sansiqueh quihtusque nuyuhqui nicancah ahuiltil
 speak-goal-text = tlahcuilol tlahtolahcuctoc
-listen-subtitle = Xitechpaleui maticsilicah tlahtulmeh
 listen-paragraph = Sequinsilis tlahtolmeh tetlaocolil noyiuhqui simi moniqui para in tiquitl de Common Voice. Xicaqui uan xitechpaleui ma ticchiuacan tla nonotztlahtol tlapohtok uan tlen cachi cuahcual.
 voices-online = Nauatlahtoane tlen axan cateh en línea
 todays-progress = nimilis de axan
@@ -71,3 +67,36 @@ help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tl
 login-company = pehualtin sesion/ ximu ihcuilo ican correo de { $company }
 profile-not-required = amo mu niqui ticpixtos se nexica para ti tiquitis, mas yeh huilis tech cualtias
 read-more-about = xicahsi cachi ican tu página ican Common Voice
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

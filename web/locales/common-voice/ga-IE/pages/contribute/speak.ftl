@@ -37,3 +37,9 @@ terms-agree = Aontaím
 terms-disagree = Ní aontaím
 why-donate = Cén fáth a bhfuil tú ag fiafraí?
 add-information-button = Cuir eolas leis
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

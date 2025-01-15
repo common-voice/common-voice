@@ -13,7 +13,6 @@ wall-of-text-more-desktop =
     Be limö ba wanolo ya'aga wamazökhi database li si teboka (open-source) si tola la'oguna'ö niha sato
     ena'ö tola lafazökhi aplikasi inovatif ba ngawalö wakake ba yaŵa ba gu'ö. Baso sambua wehede wanolo mesin mangila hewisa niha sato to'ölönia fahuhuo. Faigi göi kontribusi niha bö'ö
     ba wondrou'ö kualitas. Aoha lö?
-vote-yes = Ya
 
 ## Account Benefits
 
@@ -22,4 +21,37 @@ vote-yes = Ya
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

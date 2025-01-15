@@ -52,3 +52,9 @@ already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</logi
 create-profile-button = o pali e sijelo
 # IMAGE TAGS
 img-alt-success-checkmark = sitelen pona
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
