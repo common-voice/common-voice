@@ -1,7 +1,7 @@
 # GUIDELINES PAGE
 guidelines-header = Дастур оид ба саҳмгузорӣ
 voice-collection = Маҷмуи овозҳо
-sentence-collection = Маҷмуаи ҷумлаҳо
+sentence-collection = Ҷамъоварии ҷумлаҳо
 varying-pronunciations = Талаффузҳои гуногун
 misreadings = Хониши нодуруст
 offensive-content = Муҳтавои таҳқиромез
