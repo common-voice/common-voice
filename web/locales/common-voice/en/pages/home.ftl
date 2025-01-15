@@ -87,12 +87,16 @@ profile-not-required = Having a profile is not required to contribute though it 
 read-more-about = Read more on our About page
 
 ## NAV ITEMS
-answer-questions = Answer Questions <small>(Coming soon)</small>
-review-transcriptions = Review Transcriptions <small>(Coming soon)</small>
+answer-questions = Answer Questions
+answer-questions-coming-soon = Answer Questions <small>(Coming soon)</small>
+review-transcriptions = Review Transcriptions
+review-transcriptions-coming-soon = Review Transcriptions <small>(Coming soon)</small>
 add-questions = Add Questions <small>(Coming soon)</small>
-transcribe-audio = Transcribe Audio <small>(Coming soon)</small>
+transcribe-audio-coming-soon = Transcribe Audio <small>(Coming soon)</small>
+transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
+coming-soon = Coming soon
 
 ## MENU ITEMS TOOLTIPS
 about-menu-tooltip = Partnerships, Press and Stories, Community and Languages
@@ -105,3 +109,84 @@ about-menu-aria-label = About options menu
 partnerships-menu-item-aria-label = Learn about partnerships with Common Voice
 press-and-stories-menu-item-aria-label = Access press releases and stories related to Common Voice
 community-and-languages-menu-item-aria-label = Explore the community and languages supported by Common Voice
+
+## NEW HOME PAGE KEYS
+
+## Hero section
+hero-title = Technology that speaks your language
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Why should AI only work for a few of the world’s languages?</bold>
+hero-subtitle-2 = Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.
+# icon is an arrow that points downwards
+get-started = Get started <icon><icon>
+
+## Action items section
+action-items-section-title = Common Voice is a free, open source platform for community-led data creation
+action-items-section-subtitle = Anyone can preserve, revitalise and elevate their language by sharing, creating and curating text and speech datasets.
+scripted-card-header = Scripted Speech
+scripted-card-content = Read sentences aloud in your language and contribute to the most diverse public participation speech dataset in the world.
+spontaneous-card-header = Spontaneous Speech
+spontaneous-card-content = Respond to prompts to create datasets for organic, colloquial contexts. Perfect for oral-first languages.
+language-text-card-header = Language Text
+language-text-card-content = Create or share public domain prompts, sentences, and text for translation, small language models, and more.
+coming-soon = Coming Soon
+add-text = Add Text
+
+## Community section
+community-section-title = Powered by global communities, for global communities — 130 languages and growing!
+join-discord-community = Join Discord Community
+# label for button
+join-discord-community-action = Join us on Discord
+join-discord-community-content = Participate in language community discussions, ask questions, and learn about upcoming events and talks.
+find-us-on-matrix = Find us on Matrix
+find-us-on-matrix-content = Matrix is an open, lightweight protocol for decentralized, real-time communication, and Mozilla's preferred open discussion platform.
+# label for button
+find-us-on-matrix-action = Find us on Matrix
+ask-mozilla-share = Ask Mozilla to share your events
+ask-mozilla-share-content = Have a previous or upcoming event? Share it with us and we will announce it to our community or write a blog about it!
+# label for button
+ask-mozilla-share-action = Share your event
+download-contribution-certificate = Download your contribution certificate
+download-contribution-certificate-content = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible with you!
+# label for button
+download-contribution-certificate-action = Get your certificate
+contribute-github = Contribute on GitHub
+contribute-github-content = This project would not be possible without people like you. 🎉 There are many ways to get involved with Common Voice - you don't have to know how to code to contribute!
+# label for button
+contribute-github-action = Contribute on GitHub
+
+## Featured section
+featured-section-title = Featured in...
+# icon is an arrow that points downwards
+download-press-pack = Download our press pack <icon></icon>
+
+## Developers section
+developers-section-title = Publicly accessible open speech datasets in 130+ languages
+developers-section-subtitle = Datasets for ASR, STT, TTS, and other NLP contexts - created through community participation.
+# icon is an arrow that points to the right
+explore-datasets = Explore datasets <icon></icon>
+
+## Get involved section
+get-involved-section-title = Support open, community-led datasets
+read-sentences-link = Read sentences
+validate-readings-link = Validate readings
+contribute-link = Contribute to text corpus
+answer-questions-link = Answer questions
+transcribe-answers-link = Transcribe answers
+review-transcriptions-link = Review transcriptions
+contribute-text-link = Contribute text
+press-and-stories-link = Press and stories
+
+## Partner section
+partner-section-title = Partner with us
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tech companies</bold> - invest in open dataset creation for a thriving multilingual AI ecosystem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Civil society and researchers</bold> - create, host and share impactful datasets for free
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Philanthropy</bold> - sponsor dataset creation to fuel local innovation and development
+# icon is an arrow that points to the right
+get-in-touch-button = Get in touch <icon></icon>
+
+# Partners section
+our-partners-include = Our partners include...
