@@ -75,24 +75,43 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## NAV ITEMS
 
+press-and-stories = Stampa e nutizzi
+community-and-languages = Cumunità e lingui
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Cullàbbura cu nuiautri
+press-and-stories-menu-item-tooltip = Vìsita u nostru blog o scrivi ncapu a nuiautri
+community-and-languages-menu-item-tooltip = Scopri lingui, cumunità e Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Minù dî scartati di nfurmazzioni
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Ticnuluggìa chi parra a to lingua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Picchì a NA avissi a funziunari sulu pi quarchi lingua dû munnu?</bold>
+hero-subtitle-2 = A nostra lingua è a nostra storia, a nostra cumunità, a nostra curtura. Criamu nzèmmula i nzemi di dati chi vulemu vìdiri nnô munnu.
+# icon is an arrow that points downwards
+get-started = Accumincia <icon><icon>
 
 ## Action items section
 
+add-text = Junci testu
 
 ## Community section
 
+join-discord-community = Jùnciti â cumunità nne Discord
+# label for button
+join-discord-community-action = Jùnciti a nuiautri nne Discord
+find-us-on-matrix = Attròvani nne Matrix
+# label for button
+find-us-on-matrix-action = Attròvani nne Matrix
 
 ## Featured section
 
