@@ -14,13 +14,9 @@ show-wall-of-text = Дәвамын уку
 help-us-title = Җөмләләрнең сыйфатын тикшерергә ярдәм итегез!
 help-us-explain = «Плей» төймәсенә басып тыңлагыз һәм әйтегез: түбәндәге җөмлә дөрес укылганмы?
 no-clips-to-validate = Бу телдә тыңлар өчен әлегә бернинди дә клиплар юк. Бераз яздырып безгә бу исемлекне тулыландырырга ярдәм итегез.
-vote-yes = Әйе
-vote-no = Юк
 toggle-play-tooltip = Туктату/дәвам итү өчен { shortcut-play-toggle } төймәсенә басыгыз
-speak-subtitle = Тавышыгызны иганә итегез
 speak-paragraph = Тавыш клипларын яздыру — безнең ачык мәгълүмат базасын төзүдә эшләнәсе төп эш; күп кеше өчен иң кызык эштер дә.
 speak-goal-text = Клип яздырылды
-listen-subtitle = Аудиоязмаларны тикшерергә ярдәм итегез
 listen-paragraph = Иганә ителгән клипларны тикшерү Common Voice миссиясе өчен бертигез дәрәҗәдә әһәмиятле. Аларны тыңлагыз һәм безгә ачык чыганаклы тавыш базасын төзергә ярдәм итегез.
 listen-goal-text = Клип тикшерелде
 hours-recorded = Яздырылган сәгатьләр
@@ -78,3 +74,36 @@ help-contribute = Common Voice профилен булдырып һәм тавы
 login-company = { $company } электрон почтасы белән керү / теркәлү
 profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
 read-more-about = Күбрәк мәгълүмат «Хакында» сәхифәсендә
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

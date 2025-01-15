@@ -11,13 +11,9 @@ show-wall-of-text = Citește mai multe
 help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
 no-clips-to-validate = Se pare că nu există secvențe vocale în această limbă. Ajută-ne să umplem acest gol și înregistrează câteva acum.
-vote-yes = Da
-vote-no = Nu
 toggle-play-tooltip = Apasă { shortcut-play-toggle } pentru a comuta modul de redare
-speak-subtitle = Donează-ți vocea
 speak-paragraph = Înregistrează secvențe vocale ca parte integrantă a construcției setului nostru de date deschise; unii ar spune chiar că e partea distractivă.
 speak-goal-text = Secvențe vocale înregistrate
-listen-subtitle = Ajută-ne să validăm vocile
 listen-paragraph = Validarea secvențelor vocale donate este la fel de importantă pentru misiunea Common Voice. Ascultă și ajută-ne să creăm date vocale de calitate și cu sursă deschisă.
 listen-goal-text = Secvențe vocale validate
 hours-recorded = Ore înregistrate
@@ -77,3 +73,36 @@ help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă de
 login-company = Autentifică-te / Înscrie-te cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 read-more-about = Află mai multe pe pagina Despre
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

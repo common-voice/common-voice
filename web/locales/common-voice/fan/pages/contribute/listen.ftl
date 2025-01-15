@@ -10,3 +10,9 @@ listen-loading-error = maneya a mveane bive'ela
 listen-abort-title = kele a mveane osu
 listen-abort-cancel = maneya a mveane bive'ela
 listen-abort-confirm = maneya a mveane bive'ela
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

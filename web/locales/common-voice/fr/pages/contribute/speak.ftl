@@ -62,9 +62,17 @@ create-profile-button = Créer un profil
 img-alt-success-checkmark = coche de réussite
 # menu item
 read-sentences = Lire des phrases
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Lire des phrases <small>(prochainement)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Lire des phrases, répondre aux questions
+read-sentences-menu-item-tooltip = Enregistrez-vous en train de lire des phrases dans votre langue
+answer-questions-menu-item-tooltip = Enregistrez-vous en train de répondre aux questions et aux invites dans votre langue
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Options du menu « Parler »
+read-sentences-menu-item-aria-label = Lire des phrases soumises par la communauté dans différentes langues
+answer-questions-menu-item-aria-label = Proposer une nouvelle question pour que la communauté la lise et y réponde

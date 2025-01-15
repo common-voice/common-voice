@@ -12,13 +12,9 @@ show-wall-of-text = زیاتر بخوێنە
 help-us-title = دەنگە تۆمارکراوەکان بنرخێنە!
 help-us-explain = دوگمەی پەخش لێ بدە، گوێ بسپێرە و پێمان بڵێ ئایا لەو دەنگە ڕستەی خواروو بە شێوازی درووست وتراوە؟
 no-clips-to-validate = وادیارە هیچ گرتەیەک نییە بۆ ئەم زمانە. یارمەتیمان بدە ڕیزەکە پڕ بکەین، بە چێکردنی چەند ڕستەیەک.
-vote-yes = بەڵێ
-vote-no = نەخێر
 toggle-play-tooltip = دوگمەی { shortcut-play-toggle } لێ بدە بۆ گۆرانی دۆخی پەخش.
-speak-subtitle = دەنگت ببەخشە
 speak-paragraph = چێکردنی کلیپی دەنگی بەشێکی گرینگە بۆ درووستکردنی کۆمەڵە زانیارییەکی کراوە، چەند کەسێک پێیان وایە ئەوە بەشە خۆشەکەیەتی!
 speak-goal-text = دەنگی تۆمارکراو
-listen-subtitle = دەنگە تۆمارکراوەکان بنرخێنە
 listen-paragraph = سەلماندنی کلیپە بەخشراوەکانیش بە هەمان ئەندازە گرینگە. گوێ بدە بە کلیپەکان تا یارمەتیمان بدەیت زانیاریی دەنگی بە کوالیتی کۆ بکەینەوە.
 listen-goal-text = کلیپی سەلمێنراو
 hours-recorded = سەعاتی تۆمارکراو
@@ -76,3 +72,36 @@ help-contribute = تۆ دەتوانی یارمەتی بدەی بۆ سازکرد�
 login-company = خۆت تۆمار کە یان ڵاگین بکە بە پۆستی ئەلیکترۆنیی { $company }
 profile-not-required = پێویست نییە پڕۆفایلت ببێت بەڵام ئەگە پڕۆفایل ساز کەی زیاتر یارمەتیمان دەدات.
 read-more-about = لە بەرگەی دەربارەی ئێمە زیاتر بخوێنەوە
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

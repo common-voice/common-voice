@@ -12,3 +12,9 @@ listen-loading-error =
 listen-abort-title = به اعتبارسنجی صداها پایان می‌دهید؟
 listen-abort-cancel = ادامهٔ اعبارسنجی
 listen-abort-confirm = پایان اعتبارسنجی
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

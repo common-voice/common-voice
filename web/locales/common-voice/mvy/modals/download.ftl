@@ -6,4 +6,4 @@ download-form-email =
     .label = تاں ای میل لِکہ
     .value = شُکھرتی! بِتُس بلی بناتھہ
 download-back = پاتُو کامن وائساں ڈیٹاسِٹے بہ
-download-no = نئ ہُو تُھو شُکھریہ
+download-no = نَیں، ہُو تُھو، شُکھریہ

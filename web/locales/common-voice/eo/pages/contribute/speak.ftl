@@ -36,3 +36,9 @@ review-delete-recordings = Forigi miajn registrojn
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

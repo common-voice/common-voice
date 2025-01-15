@@ -1,3 +1,6 @@
+// ./instrument has to be imported fist to enable performance monitoring
+import './instrument'
+
 import Server from './server'
 import { getConfig } from './config-helper'
 

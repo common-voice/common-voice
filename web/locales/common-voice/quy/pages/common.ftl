@@ -191,11 +191,6 @@ zu = Zulu simi
 
 ## Layout
 
-speak = Rimay
-speak-now = Kunan rimay
-datasets = Willaykuna huñusqakuna
-languages = Huk Simikuna
-about = Ñoqaykumanta
 profile = Runapa kaynin
 help = Yanapay
 contact = Tupaqmasi
@@ -214,7 +209,6 @@ privacy-info = Willakuyniykikunata allinta qhawarinaykupaq prometeyku. Astawan �
 return-to-cv = Common Voice nisqaman kutiy
 email-input =
     .label = Correo electrónico
-submit-form-action = Apachiy
 loading = Cargando...
 email-opt-in-info = Munaymanmi chaskiyta correo electrónicos imayna meta yuyarichiykuna, ñawpaqman purisqay musuqyachiykuna chaymanta willakuy qillqakuna Common Voice kaqmanta.
 email-opt-in-info-title = Common Voice isqa qillqana listaman hukllaway

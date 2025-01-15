@@ -7,7 +7,7 @@ shortcuts = کھٹن کېراوَہ
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> حصہ
-       *[other] { "" }
+       *[other] <bold>{ $count }</bold>حصہ
     }
 goal-help-recording = توئیں کامن وائیسہ<goalPercentage></goalPercentage>اسَنہ ہر باگانہ{ $goalValue }ریکاڈِنگاں فیدِکہ مدد کېرُو!
 goal-help-validation = توئیں کامن وئیسہ </goalPercentage><goalPercentage>اسَنہ ہر باگانہ { $goalValue } توثیقی ہدفاں فېدِکہ مدد کېرُو!
@@ -131,3 +131,20 @@ contribution-varying-pronunciations-example-2-explanation = [انگریزِیہ 
 contribution-background-noise-title = پتانی شور
 contribution-background-noise-description = امہ ݭېنݭ کېرِمېک زی مشین لرننگ الگورتھم مختلف قسمَنہ پتانی شورہ قابُو کېرِکَنہ قابل بِیَؤ، اؤ تول مِزان زی نسبتاً وتھېلی کھنٹہ بی قبُول کېران دِمان خو شرط ووئی تھنی زی سے مے فُورہ عبارتہ ݭُنڈِکہ پېنہ بند مہ کېرِیَؤ۔ سکوننہ پس منظرَنہ ہارہ سئ تھنہ؛ ہارہ مے ہر لفظہ ݭُنڈِکہ پېنہ بند کېرِکہ ݭڅی لَؤ تېز تھنی۔
 contribution-background-noise-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ یا تېنے درز گئ بہ تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
+contribution-background-noise-example-1-fixed-title = <strong>[ٹھِشُوں]</strong></strong>[څھاسِک]<strong>ٹرایاسِکَنہ دېوَہ سمَلہ ڈائینوسار۔
+contribution-background-noise-example-2-fixed-title = دېو ڈائینو<strong>[څھاسِک]</strong>ٹرائیسِک۔
+contribution-background-noise-example-2-explanation = [عبارتَنہ کی حصہ ݭُنڈان نہ دِمان]
+contribution-background-noise-example-3-fixed-title = <strong>[کرېکل]</strong>دېوَہ سمَلہ ڈائیناسور<strong>[کرېکل]<strong>ریاسِک۔
+contribution-background-voices-title = پتانی کھنٹ
+contribution-background-voices-description = یَہ سُکوننی پس منظرَنہ شورماشور سئ تھنہ، خو امہ اِشِلی زیاتی کھنٹ نامہ ݭُنڈانے نہ ژِمان زی تسُونہ وجئ مشین الگورتھم اِشِلی الفاظہ پیانِی بیَؤ زی لِکِسن عبارَتہ نہ تھنَئیت۔ اگر زی مے عبارَتَہ بایہ غیر بیل بیل الفاظ ݭُنڈی بَمانېؤ بہ جو کِلِپہ رد کېرَنہ تھِمان۔ عام طورے اِشِلہ بِمان زی کېنے ٹی وی ووڑان دِبُوئی بہ یا کېنے نېڑَئی باتی نام بِمان بوئیت بہ۔
+contribution-background-voices-description-extended = کېنے زی ریکاڈِنگ څھِزُوئی بہ، یا تېنے درز گئ بہ، تول مِزان رد کېرِؤ کول مِزان زی سپُوری عبارَتہ ݭُنڈان نہ دِیان گہ بہ۔
+contribution-background-voices-example-1-title = ٹریاسِکَنہ دېوَہ پېدَہ ڈائیناسور۔<strong>[یک کھنٹے ژَؤ]</strong>
+contribution-background-voices-example-1-explanation = مے ژِمانېوا؟<strong>[وارِیہ ووڑَئی کوڅان دِمان]</strong>
+contribution-volume-title = حجم
+contribution-volume-description = ژَئیݪانہ منزے حجمہ قدرتی تبدیلی ژِمېت۔ صرف تېن حالے رد کېرِؤ زِی کول حجم اتہ زیات بُوَہ بہ زی ریکاڈِنگ څھِزِکَنی یا(عام طورے) اگر ووئی اتہ اِپِلہ بُوَہ بہ زی مے لِکِسنت عبارَتَنہ حوالا بایہ غیر کِبی زی کېران دِمان بُوَہ بہ تسہ ݭُنڈی نہ بَمانېؤ۔
+contribution-reader-effects-title = ژَئیݪانہ اثر
+contribution-reader-effects-description = زیات رکاڈِنگ تسُو خلَکَنی بِمان زی تانُو قدرتی کھنٹے باتی کېرِمېت۔ مے کول کول غیر معیاری رکاڈہ قبُول کېری بَمانېؤ کریکېن چیغ ݪِتون بہ، کھمٹَئ تران باتی کېرون بہ، یا اخکارہ باتی تھنی زی ڈرامائی کھنٹے فیدان دِمان۔ مېرَبانی کېری ݪِسن ہارانی رکاڈِنگہ اؤ کمپیؤ ٹرَنی ݫُپَئیسنت کھنٹہ استعمال کېرِݪا رد کېرِؤ۔
+contribution-just-unsure-title = صرف بے باوَری؟
+contribution-just-unsure-description = کېنے زی مے اِشِلی شئ لېوو بہ زی تسُونہ قابُو کېراوَہ تېن راہنما رِکے ݪی نہ کېرِمېت، جو مېرَبانی کېرِؤ تانُو لفِلہ فیصلانہ مطابق ووٹ ݪِؤ۔ اگر زی مے واقعی فیصلہ کېری نہ بَمانېؤ بہ تولی سکیپ بٹن استعمال کېرِؤ اؤ پُرَنی رکاڈِنگاں دِؤ۔
+see-more = <chevron></chevron>واری بی بالِؤ
+see-less = <chevron></chevron> اِپِلہ بالِؤ

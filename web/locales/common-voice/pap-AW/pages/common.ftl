@@ -13,7 +13,6 @@
 help = Ayudo
 contact = Contacto
 privacy = Privacidad
-submit-form-action = Manda
 
 ## Donate banner
 

@@ -199,12 +199,6 @@ zza = Zazo
 
 ## Layout
 
-speak = Kamatis
-speak-now = Kamatise nama
-datasets = Conjunto de datos
-languages = Idiomas
-about = Ipan Common Voice
-partner = Solcios
 profile = Perfil
 help = Tlapaleuistli
 contact = Contacto
@@ -223,7 +217,6 @@ privacy-info = Tlatitejmaka tipiaze cuidado ipan mo informacion.Shi tlachia ipan
 return-to-cv = Ti mokuapase Common Voice
 email-input =
     .label = email
-submit-form-action = Titlanise
 loading = Cargando...
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.

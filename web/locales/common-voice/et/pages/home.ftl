@@ -11,13 +11,9 @@ show-wall-of-text = Loe lisaks
 help-us-title = Aita meil lauseid kontrollida
 help-us-explain = Vajuta "Esita", kuula ja ütle meile: kas see salvestis vastab allolevale lausele?
 no-clips-to-validate = Paistab, et selle keele salvestisi praegu kuulamiseks pole. Suur abi oleks sellest, kui sa praegu mõned salvestaksid.
-vote-yes = Jah
-vote-no = Ei
 toggle-play-tooltip = Esitusviisi vahetamiseks vajuta { shortcut-play-toggle }
-speak-subtitle = Anneta oma hääl
 speak-paragraph = Helisalvestiste salvestamine on oluline osa meie avaliku andmestiku loomisest; võiks isegi öelda, et  see on kõige toredam osa.
 speak-goal-text = Salvestatud salvestist
-listen-subtitle = Aita meil hääli kontrollida
 listen-paragraph = Juba loodud helisalvestiste ülekontrollimine on sama oluline kui uute salvestiste loomine. Kuula ja aita meil luua kvaliteetne avatud lähtekoodiga häälandmestik.
 listen-goal-text = Kontrollitud salvestist
 hours-recorded = Salvestatud tunde
@@ -69,3 +65,36 @@ username-email-not-demographic = Sinu kasutajanime ja e-posti aadressi ei seosta
 ## Landing
 
 profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

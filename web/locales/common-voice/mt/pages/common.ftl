@@ -128,11 +128,6 @@ zh-TW = Ċiniż (Tajwan)
 
 ## Layout
 
-speak = Tkellem
-speak-now = Tkellem issa
-datasets = Ġabriet ta' data
-languages = Lingwi
-about = Dwar
 profile = Profil
 help = Għajnuna
 contact = Kuntatt
@@ -151,7 +146,6 @@ privacy-info = Inwiegħduk li l-informazzjoni dwarek se nużawha b'mod responsab
 return-to-cv = Lura għal Common Voice.
 email-input =
     .label = Email
-submit-form-action = Ibgħat
 loading = Dalwaqt...
 email-opt-in-info = Nixtieq nirċievi emails, per eżempju biex ifakkruni fl-għanijiet tiegħi, nirċievi aġġornamenti dwar progress u ittri-aħbar dwar Common Voice.
 email-opt-in-info-title = Issieħeb mal-mailing list ta' Common Voice.

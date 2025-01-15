@@ -1,0 +1,92 @@
+## Datasets Page
+
+datasets-heading = مالومات با گڈیٹا سیٹ ھر انٹری می انوج جولال  اشیں۔دینگ دینگ می می عمر،جنس،،لہجہ برہ می باڑ جولال اشیں۔سو جولال س  کے مال انجن م می باڑمدد تھینفلحال اسے ڈیٹاسیٹ می چھن اوں جیب این۔۔۔۔۔۔ بہ دی دی پا ٹل ثھان۔۔۔۔۔تو اسے پیج ۔۔۔۔۔۔۔ نال
+datasets-headline = بہ ا کولاو پان ٹران،تبا پر ا ڈآس جیب  آݭیں،تبا تس ہر کو استعمال تیبان تہز
+datasets-positioning = اسیخیال این اوں رسی ڄھلا گھن ڈیٹا سیٹ مشینی جولال ٹکناوجی می ران   جولال اٹة۔ کامن وایس پا اتوذاتباڑ جیب ام ا باگاین پر اپاین ءسہ نہ اتونت دی پا  این
+language = جِب
+download-dataset-header = معلومات ڈاون لوڈ تہ
+download-delta-explainer = اس اتیش چینجز اٹیل۔۔۔۔۔ڈیلٹا سگمنٹس۔۔۔۔۔۔۔۔۔۔۔۔تس می سوا وم دا نومکلپس آشون۔۔۔۔اوں کار بارا می دی پا ابان بو تا
+download-dataset-tag = تا خوش جیب ڈیٹا بیس جوشا۔تے کاںورژن ڈاونلوڈ تھاونس تے خوشہ
+# File size in gigabytes
+size = سایز
+validated-hr-total = باڑ باگیل۔
+overall-hr-total = سمٹال
+cv-license = لایسنس
+audio-format = اڈیو فارمیٹ
+dataset-splits = اوراک تال ۔۔۔۔۔۔عمر رلتے سکس رل
+number-of-voices = تراٹ آم تعداد
+splits = اوراک تال۔۔۔۔۔ڈھاتال
+email-to-download = ڈآونلوڈ کیرایمیل لنگہ
+why-email = ای میل گانٹھ۔۔۔۔بہ ڈیٹابیس می بدلی بال شیت تے، اوں بہ تساہ لائ۔۔
+why-donate-datasets-page = موزیلا کامن وایس سوادنئ م سوا ام دا باڑ خلق ام ڈیٹاسیٹ۔۔۔۔تے بہ چندا دہ چلان ۔۔کال می ا ملیین ڈالر ڈیٹا سیٹچلالرلتے 100دا باڑجب ام ران تال کیر خرچ یون۔۔۔سو اسی طمہ اینتہ
+confirm-size = ا ڈآونلوڈ شورو تھا ل کیربہ تیار این
+size-gigabyte = جی بی
+size-megabyte = ام بی
+confirm-no-identify = تو  ان قبولون اں  کامن وایس ڈیٹاسیٹ  می منندر اے°پویانیل کوشش نہ تہ
+confirm-join-mailing-list = کامن وایس میلنگ لسٹ می شامل بون آ
+download-language = ڈاون لوڈ۔۔۔۔۔۔
+validated-hours = گیٹا باڑ تھایل۔
+recorded-hours = ریکاڈنگ ای گینٹا۔
+whats-inside = عام صوتی ڈیٹا سیٹ شی لینگال
+dataset-description-hours = ڈیٹایٹ اے° ہر انٹری می انوج ام  پی 3تے ٹکسٹ فاییل آشین۔ڈیٹا سیٹ اے°رکارڈمی  ڈیموگرافک میٹا ڈیٹا آشین لخہ عمر،سکس،لہجہ  ۔۔۔۔۔سو اوازونی پویانیل مشینانام تہ  تربیت دال می مدد دہ تہ
+want-dataset-update = بہ کرا  کامن وایس  ڈیٹا سیٹ نم ورژن ریلیز تھان تہ،تو اپان نوم تاؤس تے۔اسی خبرونی اپان دی نقل تہ
+subscribe = سبسکرایب
+get-started-speech = تقریر جانیل جانی شرو تھ۔
+other-datasets = دی صوتی ڈیٹا سیٹ۔
+feedback-q = رائے این۔
+# This indicates that there is no data to display
+no-information = گیب معلوم نان۔
+resource-nemo-info = ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔آر ریسرچرز کیر حولال ام تے جیب ام کیر باراگال ا  ٹول کٹ آں
+resource-deepspeech-info = بِسپیچ پویانیلہ اپلیکشن  ترال می موزیلاز اوپن سورستاٹ پویانیلہانجن ڈیپ سپیچ استمال تیبان۔۔شورو تھال جانیل کیر اسی ۔۔۔۔۔۔۔۔۔۔۔۔۔ڈیپ سپیچ یا ڈسکورس پر چا
+resource-coqui-info = ۔۔۔۔۔کوکوی۔۔۔۔۔۔۔۔۔سپیچ ٹکنالوجی کیر داگال این۔تنی پراجکٹام می  س  ٹ ٹ تے ٹ  ٹ  س انجن آشیں
+community-playbook = درام پلے بک
+resource-playbook-info = ۔۔۔۔۔۔۔۔۔۔بیلڑا۔۔۔۔۔۔۔فایدہ تیلیل پان۔۔۔۔۔۔۔۔کامن وایس سہ۔لوکلایزیشن دا گشی ڈیٹاسیٹ استعمال ایں،دی بی ان اوں کتہ تانی° خلق ام  سہ اک بے°ی
+data-other-librispeech-description = ۔۔۔۔۔۔۔۔بیلڑا۔۔۔۔۔۔۔فایدہ تیلیل پان۔۔۔۔۔۔۔۔کامن وایس سہ۔لوکلایزیشن دا گشی ڈیٹاسیٹ استعمال ایں،دی بی ان اوں کتہ تانی° خلق ام  سہ اک بے°ی
+data-other-ted-name = کراپس
+data-other-ted-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
+data-other-voxforge-description = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
+data-other-tatoeba-description = شاعری تھ یا۔
+your-feedback = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
+go-discourse = شاعری تھ یا۔
+missing-language = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔تسےترجمہ موجود این
+go-languages-page = جب اؘ پات تھ چا۔
+ready-to-validate = سزا باڑ تھال می مدد تھا۔
+more = دی۔
+close = بان۔
+download = ڈاون لوڈ۔
+dataset-version = ورجن۔
+sha256-checksum-copied = اس ایچ اے
+sha256-checksum-copied-error = شاعری تھ یا۔
+clipboard-not-supported = کلپ بوڈر سپوٹ نہ بل
+no-information-available = گیب معلومات نان۔
+dataset-metadata-sex = میش۔
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تی ڈیٹا سیٹ ڈاون لوڈ بھون۔
+dataset-donate-modal-heading = تو گیوا جانون۔
+donate-modal-explanation-1 = ڈاؤن لوڈ ا لفظی نخہ والو طبقہ
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = کامن وایس ڈیٹا ڈاؤن لوڈ تھ
+data-download-singleword-title = ڈاؤن لوڈ ا لفظی نخہ والو طبقہ ۔
+data-download-singleword-callout-v2 = بہ آواز ا اک کولاوا تہ عوامی طور شلا ڈیٹا سیٹ تران
+data-download-button = کامن وایس ڈیٹا ڈاؤن لوڈ تھ۔
+data-download-yes = آم
+data-download-deny = نا
+data-download-license = بوج
+data-download-modal = بہ gb proceed شرو تھال والہ این۔
+data-subtitle = بہ آواز ا اک کولاوا تہ عوامی طور شلا ڈیٹا سیٹ تران۔
+data-explanatory-text = مالومات با گڈیٹا سیٹ ھر انٹری می انوج جولال  اشیں۔دینگ دینگ می می عمر،جنس،،لہجہ باڑمدد تھینفلحال اسے  برہ می باڑ جولال اشیں۔سو جولال س  کے مال انجن م میڈیٹاسیٹ می چھن اوں جیب این۔۔۔۔۔۔ بہ دی دی پا ٹل ثھان۔۔۔۔۔تو اسے پیج ۔۔۔۔۔۔۔ نال
+data-get-started = تقریر جینی شرو تھا۔
+data-other-title = دی وئس ڈیٹاسئٹ
+data-other-goto = بون۔
+data-other-download = ڈیٹا ڈاؤن لوڈ تھ۔
+data-bundle-button = ڈاون لوڈ ڈیٹا سئٹ بنیز
+data-bundle-description = عام صوتی ڈیٹا دا علاوہ دی سوا صوتی ڈیٹا سیٹ رل
+release-version = ورجن۔ورجن
+dataset-date = دوس
+license = بوج
+license-mixed = گاڈ واڈ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسی صوتی ڈیٹا سیٹ ڈاؤن لوڈ تھ۔
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = عام صوتی ڈیٹا تھ پݭیل کیر ڈاؤن لوڈ اؘ اختیار

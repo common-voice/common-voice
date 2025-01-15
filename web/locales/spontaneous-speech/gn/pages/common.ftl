@@ -11,6 +11,7 @@ contribution-picker-label = Oipytyvõva { $language } mba’ekuaarã atýpe
 # Label for button on contribution switcher
 change = Moambue
 coming-soon = Nda’areiete oĩvéta ñe’ẽnguéra
+media-recorder-api-not-supported = API MediaRecorder rehegua ndojokupytýi ne kundahára ndive.
 # Toast message that is displayed when an item is skipped
 skipped = Ñomimby
 audioplayer-header = Ehendu
@@ -45,6 +46,7 @@ kzi = Kelabit
 mbf = Baba Malay
 meh = Mixteco Tlaxiaco pegua
 mel = Melanau mbytépe
+mmc = Michoacán Mazahua
 ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan Oriental

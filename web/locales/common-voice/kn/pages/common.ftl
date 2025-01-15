@@ -191,11 +191,6 @@ zu = ಝುಲು
 
 ## Layout
 
-speak = ಮಾತನಾಡು
-speak-now = ಈಗ ಮಾತನಾಡು
-datasets = ಡೇಟಾಸೆಟ್‌ಗಳು
-languages = ಭಾಷೆಗಳು
-about = ಬಗ್ಗೆ
 profile = ಪ್ರೊಫೈಲ್
 help = ಸಹಾಯ
 contact = ಸಂಪರ್ಕಿಸು
@@ -214,7 +209,6 @@ privacy-info = ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಎಚ್ಚರ
 return-to-cv = ಕಾಮನ್‍ ವಾಯ್ಸ್ ಗೆ ಹಿಂತಿರುಗಿ
 email-input =
     .label = ಇಮೇಲ್
-submit-form-action = ಸಲ್ಲಿಸು
 loading = ಲೋಡ್‌ ಆಗುತ್ತಿದೆ…
 email-opt-in-info = ನಾನು ಗುರಿ ಜ್ಞಾಪನೆಗಳು, ನನ್ನ ಪ್ರಗತಿ ನವೀಕರಣಗಳು ಮತ್ತು ಕಾಮನ್ ವಾಯ್ಸ್ ಕುರಿತು ಸುದ್ದಿಪತ್ರಗಳಂತಹ ಇಮೇಲ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಬಯಸುತ್ತೇನೆ.
 email-opt-in-info-title = ಕಾಮನ್‍ ವಾಯ್ಸ್ ಮೇಲಿಂಗ್ ಪಟ್ಟಿಗೆ ಸೇರಿ

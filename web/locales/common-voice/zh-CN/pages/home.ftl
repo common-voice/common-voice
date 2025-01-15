@@ -92,3 +92,27 @@ about-menu-aria-label = “关于”选项菜单
 partnerships-menu-item-aria-label = 了解与 Common Voice 的合作
 press-and-stories-menu-item-aria-label = 获取关于 Common Voice 的新闻稿和文章
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社区和语言
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

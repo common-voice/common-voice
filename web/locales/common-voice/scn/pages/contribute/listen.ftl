@@ -4,7 +4,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> liggeru bonu a frasi?
 listen-again-instruction = Bonu!<playIcon></playIcon> Ascùtani n'autra quannu sì prontu
 listen-3rd-time-instruction = Ni facisti dui, cuntinua accussì!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
-listen-empty-state = Finemu i riggistrazziuna di validari nni sta lingua...
+listen-empty-state = Finemu i riggistrazzioni di validari - attualizza a pàggina, o torna a prova cchiù tardu.
 listen-empty-state-variants = Capaci chi finisti i riggistrazzioni dispunìbbili pâ to varianti di lingua! Si voi, po' canciari i to mpustazzioni pi vìdiri autri frasi nnâ to lingua.
 listen-loading-error =
     Nun pòttimu attruvari nuḍḍa riggistrazzioni di fàriti 'scutari.
@@ -23,3 +23,6 @@ review-transcriptions-menu-item-tooltip = Rividi i trascrizzioni mannati di l'ut
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Minù dî scartati di scutari
+validate-readings-menu-item-aria-label = Virìfica i liggiuti mannati dî mèmmiri dâ cumunità
+review-transcriptions-menu-item-aria-label = Virìfica a currittizza dî trascrizzioni dî frasi riggistrati

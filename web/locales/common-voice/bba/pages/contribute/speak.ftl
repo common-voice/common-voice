@@ -60,3 +60,9 @@ already-have-an-account = I yĩireru swĩiyo
 create-profile-button = Yè ya sɔ̃ssimɔ mɛ̀ ya wɛ̃ra
 # IMAGE TAGS
 img-alt-success-checkmark = Kaso ga wɛ̃ra
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

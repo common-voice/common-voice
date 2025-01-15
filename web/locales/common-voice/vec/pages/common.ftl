@@ -128,11 +128,6 @@ zh-TW = Cinexe (Taiwan)
 
 ## Layout
 
-speak = Parla
-speak-now = Parla deso
-datasets = Dataset
-languages = Ƚengue
-about = Informasion
 profile = Profiƚo
 help = Ajudo
 contact = Contati
@@ -151,7 +146,6 @@ privacy-info = Ƚe to informasioni personaƚi le xe a el seguro co noialtri. Par
 return-to-cv = Torna a Common Voice
 email-input =
     .label = Email
-submit-form-action = Manda
 loading = Cargamento…
 email-opt-in-info = Me piaxerìa risevere email de promemoria de i obietivi, axornamenti so i me progresi e newsletter che riguarda Common Voice.
 email-opt-in-info-title = Nòtate a ƚa mailing list de Common Voice

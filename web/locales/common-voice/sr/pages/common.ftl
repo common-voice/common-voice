@@ -203,12 +203,6 @@ zza = Заза
 
 ## Layout
 
-speak = Изговори
-speak-now = Говорите сада
-datasets = Скупови података
-languages = Језици
-about = О нама
-partner = Постаните партнер
 profile = Профил
 help = Помоћ
 contact = Контакт
@@ -227,7 +221,6 @@ privacy-info = Обећавамо вам да ћемо пажљиво барат
 return-to-cv = Назад на Common Voice
 email-input =
     .label = Е-адреса
-submit-form-action = Пошаљи
 loading = Учитавам…
 email-opt-in-info = Желео бих да примим е-поруке које садрже подсетнике о циљевима, ажурирања напретка и билтене о пројекту Common Voice.
 email-opt-in-info-title = Придружите се Common Voice групи за пошту

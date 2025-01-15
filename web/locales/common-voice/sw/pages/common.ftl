@@ -171,11 +171,6 @@ zh-TW = Kichina (Taiwan)
 
 ## Layout
 
-speak = Ongea
-speak-now = Ongea sasa
-datasets = Daftari
-languages = Lugha
-about = Kuhusu
 profile = Wasifu
 help = Usaidizi
 contact = Wasiliana
@@ -194,7 +189,6 @@ privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma maelezo 
 return-to-cv = Rudi kwa Common Voice
 email-input =
     .label = Barua pepe
-submit-form-action = wasilisha
 loading = inpakia…
 email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 

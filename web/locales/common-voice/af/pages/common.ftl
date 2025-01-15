@@ -201,12 +201,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Praat
-speak-now = Praat nou
-datasets = Datastelle
-languages = Tale
-about = Oor
-partner = Vennoot
 profile = Profiel
 help = Hulp
 contact = Kontak
@@ -225,7 +219,6 @@ privacy-info = Ons belowe om jou inligting met sorg te hanteer. Lees meer in ons
 return-to-cv = Keer terug na Common Voice
 email-input =
     .label = E-posadres
-submit-form-action = Dien In
 loading = Laai tans…
 email-opt-in-info = Ek sal graag e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice wil ontvang.
 email-opt-in-info-title = Sluit aan by Common Voice se e-poslys

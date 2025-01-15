@@ -1,0 +1,83 @@
+## ProfileForm
+
+profile-form-username =
+    .label = یوزر نوم
+profile-form-native-language =
+    .label = مالی جیِب
+profile-form-additional-language =
+    .label = سیوا جیِب
+profile-form-language =
+    .label = جیِب
+profile-form-variant =
+    .label = تو کامیک لہجہ { $language } رائیلا
+profile-form-variant-default-value = لہجہ سلیکٹ نی بیلنی
+profile-form-accent =
+    .label = لہجہ
+profile-form-custom-accent-help-text =
+    .label = تو تمو لہجے کدا وضاحت تھئیلا
+profile-form-custom-accent-placeholder-2 = تمو لہجے ڈیسکرائب کارا ٹائپنگ شروع تھا
+profile-form-age =
+    .label = عمر
+profile-form-gender-2 =
+    .label = رونگ یا جنس
+leaderboard-visibility =
+    .label = لیڈر بورڈ نمائش
+hidden = لیلالو
+visible = نمائش
+native-language =
+    .label = مالی جیِب
+profile-form-add-accent = نئی کسٹم لہجہ جمع تھا
+profile-form-submit-save = محفوظ تھا
+profile-form-submit-saved = محفوظ بیلو
+male_masculine = منوڙو/ مذکر
+female_feminine = مؤنث/ جپئی
+intersex = بدک
+transgender = دوہرا جنس
+non-binary = نان بائنری
+do_not_wish_to_say = کونتی نی بئلا
+# Gender
+other = ہورے
+why-profile-title = پروفائل کے؟
+why-profile-text =
+    تو تمو بارا در جے معلومات تھونو، تو کامیک آڈیو ڈیتا کامن وائس در جمع تھئیلا، سا وینا ئی کارا لالو سیئی ہنو۔
+    شناختی انجن انا مواد تمو درستگی کارا استعمال تھئیلا۔
+dashboard = ڈیشبورڈ
+build-profile = پروفائل سپارونو
+avatar = اوچر
+goals = مقصد
+settings = ترتیبات
+edit-profile = پروفائل ایڈیٹ تھا
+profile-create-success = پروفائل کامیابی ست سپارا گؤ
+profile-close = بند تھا
+profile-explanation = ایک پروفائل کارا تمو پیشرفت در نظر رݜی اؤ آسئی آوز مواد ہورے بہتر تھی
+thanks-for-account = اکاونٹ کنفارمنگ کارا تھئی مہربانی تھا، تھیم تمو پروفائل سپاری۔
+why-demographic = انا جے مسئلہ ہنی
+why-demographic-explanation-2 = گمنام صارفینی ڈیتا مثلاً عمر، جنس، اؤ لہجہ اسپیج شناختی انجن درستگی کارا آڈیو مواد بہتری کارا استعمال تھو بئیلا۔ تمو یوزر نوم اؤ ای میل تمو جمع تھیالی کوروم ست ڈاگہ نی بینو، تو سا تی اختیار ہنو تو تمو ای میل اؤ یوزر نوم لیلالو رݜیلا یا خلقو تی پشاریلا۔
+accept-privacy = ما چھئی موزیلا پرائیویسی پالیسی سمبال تھونو در <privacyLink> سیئی ہنو</privacyLink>
+accept-privacy-title = پراویسی پالیسی
+accept-privacy-and-terms = کامن وائس پورا تھون در آسئی شرائط منیلا <termsLink> آسے پرائیویسی نوٹس اینی ݜکے۔ </privacyLink>
+login-identity = لاگ ان شناخت
+login = لاگ ان
+edit = ایڈیٹ
+email-subscriptions = ایڈیٹ سبمیشن
+download-profile = می ڈیٹا ڈاونلوڈ تھی
+contribution-experience = تجربہ جمع تھا
+skip-submission-feedback = سبمیشن تاثرات پھتے
+skip-submission-description =
+    کنٹربیوشن سبمیشن ئی دوران در تاثرات دھریلنا، سبمیٹ ئی پتوتے کلک تھا۔
+    کنٹربیوشن براہ راست مݜوتے پوش ریکارڈنگ اؤ توثیقی جملؤ ست جاری بونو۔
+skip-submission-note = نوٹ: کنٹربیوش قسم بدل تھونو کارا تو تے رزونو یا ݜنونو انتخاب تھونو ضروری ہنو۔
+off = بندھ
+on = کھولاؤ
+help-accent = لہجے کارا سا مدد ضرورت ہنو؟
+help-accent-explanation = تمو جیِب در الفاظ آدا تھی، تھئی دھرونو دیش انتخاب بینی، تو ہورے کامیک کامیک جیبے اؤ لالو عوامل رزبئیلا،  تو انی ست منسلک ہر ایک مواد شیئر تھو بئیلا۔
+help-variants = لہجہ ؤ تے سا ضرورت ہنی؟
+help-variants-explanation = لہجہ ئی ایک جیِبے خاص قسم بینا۔ مثال طور در ایک کمیونٹی یا علاقہ در دھرالو خلقو ست شیئر تھو بئیلا۔ کلہ کلہ لی لہجے رائینا۔
+help-sex-or-gender-changes = رونگ یا جنس بدل تھونو کارا ضرورت ہنی؟
+help-sex-or-gender-changes-explanation = آسو خلقو تی ہورے اپشن ہُم دونا لی آسو تے تمو جنس اؤ رونگی بارا جے رزا تھا۔ برائے مہربانی تمو بارا در وضاحت تھا سا تو تے آسان پشن بینو۔ <learnMoreLink> قسم اؤ جنس بارا در آسئی نقطہ نظر ہور ازدا تھی۔ </learnMoreLink>
+variant-contribution-options-header = مختلف شراکتی اختیارات
+variant-contribution-help = جے جیِبے اؤ لہجہ ئی یا فیملیز آکھور کہ لالو مختلف بینا، کہ تو تی ایک لہجہ کئی مشغول بونو مشکل پیخ بینو تو تمو ترجیحات این تی بدل تھو بئیلا۔
+variant-contribution-option-1 = آسئی جیِبے لہجہ در بوٹے جملئی اؤ کلپس ما تی پشارے
+variant-contribution-option-2 = صرف می لہجہ در ما تی جملئی اؤ لہجے پشارے
+variant-contribution-warning-title = چینجا پورے تھئی جیب در بوٹے جملئی اؤ کلپس ٹیگ نی بیلنا!
+variant-contribution-warning-subtitle = کہ تو تے اشتراک در مشکل ہنو، تو ہر وخ تمو جیبے مواد ڇک بئیلا۔

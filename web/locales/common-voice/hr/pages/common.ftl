@@ -214,12 +214,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Govori
-speak-now = Počni govoriti
-datasets = Skupovi podataka
-languages = Jezici
-about = Informacije
-partner = Partner
 profile = Profil
 help = Pomoć
 contact = Kontakt
@@ -239,7 +233,6 @@ privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Sazna
 return-to-cv = Natrag na Common Voice
 email-input =
     .label = E-mail
-submit-form-action = Pošalji
 loading = Učitavanje…
 email-opt-in-info = Želim primati e-mailove poput podsjetnika o ciljevima, novostima o napretku i bilten Common Voicea.
 email-opt-in-info-title = Pridruži se Common Voice mailing listi
@@ -250,7 +243,7 @@ not-available-abbreviation = --
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Trebamo</mark><br/><mark>tvoju pomoć!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke - doniraj danas!</strong>

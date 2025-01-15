@@ -12,13 +12,9 @@ show-wall-of-text = Leghje di più
 help-us-title = Aiutateci à cunvalidà e frase !
 help-us-explain = Appughjeti lettura, asculteti, è diteci : hè stata prununciata cum'ella ci vole a frasa inghjò ?
 no-clips-to-validate = Pare ch'ùn ci sò micca arrighjistramenti da ascultà in sta lingua. Aiutateci à riempie a fila arrighjistrendu qualchì unu avà.
-vote-yes = Iè
-vote-no = Innò
 toggle-play-tooltip = Appughjeti { shortcut-play-toggle } pà lancià o piantà a lettura
-speak-subtitle = Deti a vostra voce
 speak-paragraph = L'arrighjistramentu di voce hè una parte fundamintale di a custruzzione di a nostra basa di dati ; sicondu à certi, ghjè ancu a parte più divirtente.
 speak-goal-text = Campiunarii arrighjistrati
-listen-subtitle = Aiutateci à cunvalidà arrighjistramenti
 listen-paragraph = Validà l'arrighjistramenti dunati hè altrettantu impurtante pè a missione Common Voice. Ascultate è aiutateci à creà una basa di dati vucale di qualità.
 listen-goal-text = Campiunarii cunvalidati
 hours-recorded = Ore Arrighjistrate
@@ -76,3 +72,36 @@ help-contribute = Pudeti aiutà à custruisce una banca vucala, diversificata è
 login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 profile-not-required = Ùn c'hè bisognu di contu pà cuntribuisce ancu s'ellu hè ghjuvevule, vede perchè quì sottu.
 read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

@@ -2,7 +2,7 @@
 
 The Mozilla Project welcomes contributions from everyone who shares our goals and wants to contribute in a healthy and constructive manner within our community. As such, we have adopted this code of conduct and require all those who participate to agree and adhere to these Community Participation Guidelines in order to help us create a safe and positive community experience for all. Please read the community participation guidelines on [https://www.mozilla.org/about/governance/policies/participation/](https://www.mozilla.org/about/governance/policies/participation/)
 
-## Why was the list created ?
+## Why was the list created?
 
 Many language communities are self organising and have their contact channels on diverse systems. It would be cool to keep a list of them so that when someone wants to get in contact they know where to go. Here are a couple to start with:
 
@@ -39,6 +39,8 @@ Many language communities are self organising and have their contact channels on
   * [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
   * [GitHub](https://github.com/parolrekonado)
   * [Website](https://parolrekonado.github.io/)
+* Farsi/Persian (`fa`):
+  *  [Telegram](https://t.me/Common_Voice)
 * French (`fr`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
 * German (`de`):
@@ -54,6 +56,8 @@ Many language communities are self organising and have their contact channels on
   * [Discourse](https://discourse.mozilla.org/c/voice/sw/603)
 * Korean (`ko`):
   * [Telegram](https://t.me/cv_korean)
+* Persian (`fa`):
+  * [Telegram](https://t.me/Common_Voice)
 * Traditional Chinese (Mandarin) (`zh-TW`) & Taiwanese (`nan-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
   * [Telegram](https://t.me/moztwcv)

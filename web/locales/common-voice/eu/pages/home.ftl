@@ -12,13 +12,9 @@ show-wall-of-text = Irakurri gehiago
 help-us-title = Lagun gaitzazu esaldiak balioztatzen!
 help-us-explain = Sakatu Erreproduzitu botoia, entzun eta esaguzu: ondoko esaldiak zehaztasunez ahoskatu dituzte?
 no-clips-to-validate = Badirudi ez dagoela grabazio gehiagorik entzuteko hizkuntza honetan. Lagun gaitzazu ilara betetzen grabazio batzuk orain eginez.
-vote-yes = Bai
-vote-no = Ez
 toggle-play-tooltip = Sakatu { shortcut-play-toggle } erreproduzitze modura aldatzeko
-speak-subtitle = Grabatu zure ahotsa
 speak-paragraph = Ahots grabazioak egitea proiektu honetako datu bilketaren funtsa da; batzuek diote dibertigarria ere badela.
 speak-goal-text = Egindako grabazioak
-listen-subtitle = Lagundu ahotsak balioztatzen
 listen-paragraph = Grabazioak balioztatzea, ahotsa uztea bezain garrantzitsua da Common Voicen helbururako. Mesedez, hartu denbora entzuteko eta lagun gaitzazu kalitatezko ahots-datu libreak sortzen.
 listen-goal-text = Balioztatutako grabazioak
 hours-recorded = Grabatutako orduak
@@ -76,3 +72,36 @@ help-contribute = Kode irekiko datu-multzo desberdin bat osatzen lagun dezakezu,
 login-company = Hasi saioa / Eman izena { $company }-ko helbide elektronikoarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko web-orrian
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

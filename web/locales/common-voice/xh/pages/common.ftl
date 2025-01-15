@@ -183,11 +183,6 @@ zu = IsiZulu
 
 ## Layout
 
-speak = Thetha
-speak-now = Thetha ngoku
-datasets = Iiseti zeDatha
-languages = Iilwimi
-about = Malunga
 profile = Iprofayili
 help = Uncedo
 contact = Umqhagamshelwa
@@ -206,7 +201,6 @@ privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kw
 return-to-cv = Buyela kuCommon Voice
 email-input =
     .label = i-Imeyile
-submit-form-action = Ngenisa
 loading = Iyalayisha...
 email-opt-in-info = Ndingathanda ukufumana ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga neCommon Voice.
 email-opt-in-info-title = Joyina uluhlu lwe-imeyile lweCommon Voice

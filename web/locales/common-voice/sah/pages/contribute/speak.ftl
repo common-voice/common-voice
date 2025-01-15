@@ -36,3 +36,9 @@ review-delete-recordings = Соттор суруттарыыларбын
 review-terms = Өскөтө Common Voice туһанар буоллаххына, биһиги <termsLink>Усулуобуйабытын</termsLink> уонна <privacyLink>Кистиир сиэрбитин</privacyLink> кытта сөбүлэһэҕин
 terms-agree = Сөбүлэһэбин
 terms-disagree = Сөбүлэспэппин
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

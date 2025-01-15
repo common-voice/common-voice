@@ -150,11 +150,6 @@ zh-TW = Bahasa Tionghoa (Taiwan)
 
 ## Layout
 
-speak = Bicara
-speak-now = Bicara sekarang
-datasets = Himpunan Data
-languages = Bahasa
-about = Tentang Kami
 profile = Profil
 help = Bantuan
 contact = Kontak
@@ -173,7 +168,6 @@ privacy-info = Kami menjanjikan penanganan informasi Anda dengan hati-hati. Pela
 return-to-cv = Kembali ke Common Voice
 email-input =
     .label = Surel
-submit-form-action = Kirim
 loading = Memuat…
 email-opt-in-info = Saya bersedia menerima surel seperti pengingat sasaran, pembaruan progres, dan nawala tentang Common Voice.
 email-opt-in-info-title = Bergabunglah dengan milis Common Voice

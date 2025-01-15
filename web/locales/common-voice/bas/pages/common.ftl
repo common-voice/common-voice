@@ -140,11 +140,6 @@ zh-TW = Tjaina i Taiwan
 
 ## Layout
 
-speak = Pot
-speak-now = Nano podok
-datasets = Liyaa li minje
-languages = Mahop
-about = Bés bo nje?
 profile = Mayimbne
 help = Mahôla
 contact = Likoodene
@@ -163,7 +158,6 @@ privacy-info = Di mbôn we le, di gatédés libim u nla saňge. U yé le u kôn
 return-to-cv = Témb i Common Voice
 email-input =
     .label = Mél
-submit-form-action = Sule
 loading = Yônôs u nyônôs...
 email-opt-in-info = Me yé le me bana ngôñ i kôhna bimél bi mbigda me makak ma nson, mahol ma nson ni manwin ikolbaha ni Common Voice.
 email-opt-in-info-title = Jôp i yuyut i manwin i Common Voice

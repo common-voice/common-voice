@@ -1,6 +1,8 @@
 ## Home page
 
 # text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Башлам</mark>
+# text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тикшерү</mark>

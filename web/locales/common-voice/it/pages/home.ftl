@@ -93,3 +93,27 @@ about-menu-aria-label = Menu opzioni informazioni
 partnerships-menu-item-aria-label = Scopri le collaborazioni con Common Voice
 press-and-stories-menu-item-aria-label = Accedi a comunicati stampa e articoli relativi a Common Voice
 community-and-languages-menu-item-aria-label = Esplora la comunità e le lingue supportate da Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

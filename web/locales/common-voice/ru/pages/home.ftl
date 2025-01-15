@@ -98,3 +98,27 @@ about-menu-aria-label = Меню настроек «О нас»
 partnerships-menu-item-aria-label = Узнайте о партнёрстве с Common Voice
 press-and-stories-menu-item-aria-label = Получите доступ к пресс-релизам и статьям, связанным с Common Voice
 community-and-languages-menu-item-aria-label = Узнайте о сообществе и языках, поддерживаемых Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

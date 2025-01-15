@@ -148,11 +148,6 @@ zh-TW = Chinu (Taiwán)
 
 ## Layout
 
-speak = Falar
-speak-now = Fala agora
-datasets = Conxuntos de datos
-languages = Llingües
-about = Tocante a
 profile = Perfil
 help = Ayuda
 contact = Contautu
@@ -170,7 +165,6 @@ privacy-info = Prometémoste que vamos remanar la to información con curiáu. L
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Corréu
-submit-form-action = Unviar
 loading = Cargando...
 email-opt-in-info = Quiero recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 email-opt-in-info-title = Xunise a la llista de corréu de Common Voice

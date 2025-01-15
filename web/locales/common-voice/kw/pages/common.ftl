@@ -195,12 +195,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Kewsel
-speak-now = Kowsowgh lemmyn
-datasets = Settys data
-languages = Yethow
-about = A-dro dhyn
-partner = Kespar
 profile = Profil
 help = Gweres
 contact = Kestava
@@ -219,7 +213,6 @@ privacy-info = Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y
 return-to-cv = Dehweles dhe Common Voice
 email-input =
     .label = Ebost
-submit-form-action = Danvon
 loading = Ow karga...
 email-opt-in-info = Da via genev receva ebostow kepar ha kovheansow amkan, nowedhyansow ow avonsyans ha lytherow nowodhow a Common Voice.
 email-opt-in-info-title = Junya an rol-bost Common Voice

@@ -26,13 +26,9 @@ show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde konnguɗi!
 help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
 no-clips-to-validate = Ena wayi no alaa lefon keɗeteeɗe e ngal ɗemngal. Wallu min hebbinde doggol ngol so nanngitaade heen seeɗa.
-vote-yes = Eey
-vote-no = Alaa
 toggle-play-tooltip = Ñoƴƴu{ shortcut-play-toggle } ngam tolƴaade mbayka taro
-speak-subtitle = Rokkir daande maa
 speak-paragraph = Nanngitaade lefon sawto jeyaa tigi ko e mahde leemre keɓe amen udditiiɗe; won wiy-ɓe nih ko ɗoon ɓuri jirwude.
 speak-goal-text = Lefon nanngitakon
-listen-subtitle = Wallu min moƴƴinde daaɗe
 listen-paragraph = Jaalɗinde lefon ɗe woɗɓe ndokkii ena teeŋti sanne e golle Common Voice. Heɗo heen ngam wallude min sosde keɓe sawto udditiiɗe lobbe.
 listen-goal-text = Lefon jaalɗinakon
 hours-recorded = Waktuuji Nanngitaaɗi
@@ -90,3 +86,36 @@ help-contribute = Aɗa waawi mahde leemre keɓe limtoɗinnde, udditiinde so sosd
 login-company = Seŋo/ winndito e { $company } iimeel
 profile-not-required = Jogogol heftinirde wonaa ko waɗɗii ngam wallitde hay so haɗum nafa, yiy ko saabii ɗum les ɗoo.
 read-more-about = Jokku taro to hello amen Ɓaɗte
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

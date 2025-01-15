@@ -264,6 +264,7 @@ privacy = Sekretess
 terms = Villkor
 cookies = Kakor
 faq = FAQ
+documentation = Dokumentation
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }

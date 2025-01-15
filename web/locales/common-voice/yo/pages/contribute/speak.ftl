@@ -36,3 +36,9 @@ review-delete-recordings = Pa àwọn ìgbàálẹ̀ ohùn mi rẹ́
 review-terms = Nípa lílo Common Voice, o faramọ́ <termsLink> ọ̀nà ìgbàṣe</termsLink> àti <privacyLink> Ìlàna Ajẹmáṣìírí</privacyLink>
 terms-agree = Mo gbà
 terms-disagree = Mo ò gbà
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

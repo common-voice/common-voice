@@ -60,3 +60,12 @@ already-have-an-account = Account asa? <login>Log-In</login>
 create-profile-button = Ek profile kor
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark
+# menu item
+read-sentences = Vakya vach (read)
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Vakya vach, parsnak zabab di
+
+## MENU ITEM ARIA LABELS
+

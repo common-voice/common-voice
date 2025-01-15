@@ -1,4 +1,6 @@
 add-information-button = Мәгълүмат өстәү
+select-your-age = Яшегезне сайлагыз
+why-are-you-asking = Ни өчен сорыйсыз?
 thank-you-for-your-information = Мәгълүматыгыз өчен рәхмәт
 
 ## Gender dropdown

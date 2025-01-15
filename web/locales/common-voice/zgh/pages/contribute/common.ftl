@@ -30,11 +30,15 @@ target-segment-generic-card = ⵍⴰ ⵜⴻⵜⵜⴰⵔⴳⴷ ⴳ ⵢⴰⵜ ⵜ�
 target-segment-first-banner = ⴰⵡⵙ ⴳ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵟⵟⵓⵜ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵙ { $locale }
 target-segment-add-voice = ⵔⵏⵡⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
 target-segment-learn-more = ⵙⵙⵏ ⵓⴳⴳⴰⵔ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵉⴳⵕⴹⴰⵏ
-contribute-sentence-collection-nav-header = ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ
+change-preferences = ⵙⵏⴼⵍ ⵉⵙⵎⵢⵉⴼⵏ
+login-signup = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ
+vote-yes = ⵢⴰⵀ
+vote-no = ⵓⵀⵓ
+datasets = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ
+languages = ⵜⵓⵜⵍⴰⵢⵉⵏ
+about = ⵅⴼ
+partner = ⴰⵎⵛⵛⵔⴽ
+submit-form-action = ⴰⵣⵏ
 
 ## Reporting
 

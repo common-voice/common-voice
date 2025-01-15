@@ -215,12 +215,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Tala
-speak-now = Talaðu núna
-datasets = Gagnasöfn
-languages = Tungumál
-about = Um okkur
-partner = Samstarfsaðili
 profile = Notkunarsnið
 help = Hjálp
 contact = Hafa samband
@@ -240,7 +234,6 @@ privacy-info = Við lofum að fara varlega með upplýsingarnar þínar. Lestu m
 return-to-cv = Til baka í Samróm
 email-input =
     .label = Tölvupóstur
-submit-form-action = Senda inn
 loading = Hleður...
 email-opt-in-info = Ég vil gjarnan fá tölvupóst um markmiðsáminningar, framvindu mína og fréttabréf Samróms.
 email-opt-in-info-title = Skráðu þig á póstlista Samróms

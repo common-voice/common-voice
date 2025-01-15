@@ -12,13 +12,9 @@ show-wall-of-text = Soma mengineyo
 help-us-title = Tusaidie kuhalalisha sentensi!
 help-us-explain = Bonyeza kitufe cha kucheza, sikiliza na tuambie kama walizungumza kwa usahihi sentensi iliyo chini?
 no-clips-to-validate = Yaonekana kuwa hakuna vipande vya sauti vya kusikiliza katika lugha hii. Tusaidie kuchangia kwa kurekodi baadhi ya vipande hivyo sasa.
-vote-yes = Ndio
-vote-no = La
 toggle-play-tooltip = Bonyeza { shortcut-play-toggle } kugeuza namna ya kucheza
-speak-subtitle = Toa sauti yako
 speak-paragraph = Kurekodi vipande vya sauti ni sehemu muhimu ya kujenga daftari letu lililo wazi kwa umma; wengine wangesema ni mchakato wa kufurahisha pia.
 speak-goal-text = Vipande vilivyo rekodiwa
-listen-subtitle = Tusaidie kuthibitisha sauti
 listen-paragraph = Kuhalalisha vipande vya sauti vilivyochangiwa ni muhimu kwa dhamira ya Common Voice. Sikiliza na utusaidie kuunda data ya sauti ya chanzo wazi bora.
 listen-goal-text = vipande vilivyodhibitishwa
 hours-recorded = masaa yaliyorekodiwa
@@ -76,3 +72,36 @@ help-contribute = Unaweza kusaidia kujenga daftari anuwai la chanzo wazi kwa kuu
 login-company = Ingia / Jisajili na barua pepe ya { $company }
 profile-not-required = Kuwa na wasifu hauhitajiki kuchangia ingawa inasaidia, tazama kwa nini hapa chini.
 read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

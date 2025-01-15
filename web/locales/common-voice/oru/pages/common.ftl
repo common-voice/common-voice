@@ -289,7 +289,7 @@ not-available-abbreviation = ن/ا
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> ماخ کی يې ترتیوس ته امداد ضرورت هۀ <br/> </mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = ته ډېټا سېټ ته ساتؤ او ته پۀ پلېټ فارم ته ترقي پاره يې ماخ کی ته څان اندازاً ته دس لکهـ ډالر ضرورت هۀ، که څه ګۀ تیوس لاسته سُو 100 لاسته ته ݫات زبني ته غوېڅن خلق ګیرډ کوک بُو که پۀ زر انحصار کَوِن، څه بو که ماخ کيېن <strong> تُو ګیرډ يې ته پا ډېټا قدِر بَۀ، نو امداده وې کوئ ګیرډ </strong>
+donate-banner-cta-explanation = ته ډېټا سېټ ته ساتؤ او ته پۀ پلېټ فارم ته ترقي پاره يې ماخ کی ته څان اندازاً ته دس لکهـ ډالر ضرورت هۀ، کيې که سُو 100 لاسته ته ݫات زبني ته غوېڅن خلق ګیرډ کوک بُو که پۀ زر انحصار کَوِن، فئ ګیرډ يې ترماخ تعلق هۀ۔ ماخ بُو که څه کيېن <strong> او که تُو ګیرډ يې ته پا ډېټا قدِر بَۀ، نو مهرباني نيې سُو بَۀ که ماخ ګیرډ يې امداد ضرور کوئ۔ </strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = ته CV </mark> <br/> <mark> ترتُو ا ریسرچ </mark>
 languages-donate-banner-cta-explanation = مشترک آواز بُو په چندي او په پېشکشي چلا۔  ترماخ يې بُو تعلیمیافته خلق، عام خلق، صنعت کارنی، ریسرچرنی او کسبدري ګیرډ تعلق بَۀ۔ ته مشترک آواز ا اِستعمال يې په لیۀ هۀ، خه پلېټ فارم کی يې ته چنده ا ڒیوک او ته پۀ ته ساتؤ پناره ضرورت هۀ

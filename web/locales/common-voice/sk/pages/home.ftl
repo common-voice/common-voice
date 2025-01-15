@@ -109,3 +109,27 @@ about-menu-aria-label = Možnosti ponuky O nás
 partnerships-menu-item-aria-label = Získajte informácie o partnerstvách so službou Common Voice
 press-and-stories-menu-item-aria-label = Získajte prístup k tlačovým správam a príbehom týkajúcim sa Common Voice
 community-and-languages-menu-item-aria-label = Preskúmajte komunitu a jazyky podporované Common Voice
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

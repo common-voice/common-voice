@@ -14,13 +14,9 @@ show-wall-of-text = 더 알아보기
 help-us-title = 문장을 확인하는 것을 도와주세요!
 help-us-explain = 재생 버튼을 누르고, 듣고, 말해주기: 아래의 문장을 정확히 읽었나요?
 no-clips-to-validate = 이 언어로 된 클립이 하나도 없는 것 같네요. 지금 녹음해서 대기 열을 채우도록 도와 주세요.
-vote-yes = 네
-vote-no = 아니요
 toggle-play-tooltip = { shortcut-play-toggle } 버튼을 눌러 재생 모드 전환
-speak-subtitle = 목소리를 기부해주세요
 speak-paragraph = 음성 클립을 녹음하는 것은 개방형 데이터 세트를 구축하는 데 있어 필수적인 부분이며, 일부는 이것이 재미있는 부분이라고 말할 수도 있습니다.
 speak-goal-text = 클립 기록완료
-listen-subtitle = 음성 유효성 확인을 도와주세요.
 listen-paragraph = 기부된 클립의 유효성을 확인하는 것도 Common Voice 사명에 똑같이 중요합니다. 귀를 기울여 고품질 오픈 소스 음성 데이터를 생성할 수 있도록 도와주세요.
 listen-goal-text = 클립 검증완료
 hours-recorded = 시간 기록완료
@@ -75,3 +71,36 @@ help-contribute = Common Voice 프로필을 만들고 본인의 목소리로 참
 login-company = { $company } 이메일로 로그인/가입
 profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

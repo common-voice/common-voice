@@ -2,7 +2,7 @@
 
 sc-review-title = Vàlida i frasi
 sc-review-loading = Staju carricannu i frasi…
-sc-review-select-language = Pi favuri scegghi na lingua pi validari i frasi.
+sc-review-select-language = Pi favuri scarta na lingua pi validari i frasi.
 sc-review-no-sentences = Nuḍḍa frasi di validari. <addLink>Agghiunci autri frasi ora!</addLink>
 sc-review-form-prompt =
     .message = I frasi chi validasti nun foru mannati, sì sicuru?

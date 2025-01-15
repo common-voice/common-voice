@@ -12,13 +12,9 @@ show-wall-of-text = Batafsil
 help-us-title = Jumlalarni saralashga yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar toʻgʻri talaffuz qilinganligi haqida bizga xabar bering.
 no-clips-to-validate = Bu tilda eshitish uchun hech qanday yozuv yoʻqqa oʻxshaydi. Ovozingizni yozib, bizga yordam qiling.
-vote-yes = Ha
-vote-no = Yoʻq
 toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
-speak-subtitle = Ovozingizni hadya qiling
 speak-paragraph = Ovoz yozib olish ochiq maʼlumotlar toʻplamini yaratishning ajralmas qismidir. Baʼzilar buni qiziqarli qismi deb aytishadi.
 speak-goal-text = Yozilgan kliplar
-listen-subtitle = Ovozlarni saralashga yordam bering
 listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozilgan soatlar
@@ -76,3 +72,36 @@ help-contribute = Umumiy ovozli profil yaratish va ovozingizga hissa qo'shish or
 login-company = { $company } elektron pochtasi bilan tizimga kirish / tizimga kirish
 profile-not-required = Profilga ega bo'lish foydali bo'lsa ham, uni qo'shish shart emas, nima uchun quyida ko'rib chiqing.
 read-more-about = Batafsil ma'lumotni bizning sahifamizda o'qing
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

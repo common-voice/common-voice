@@ -33,3 +33,9 @@ review-delete-recordings = Gusiba amajwi nafashe
 review-terms = Mu gukoresha porogaramu y'Ijwi Rusange, wemeye amabwiriza yacu n'ibirebana n'amakuru bwite adashyirwa ahagaragara.
 terms-agree = Ndabyemeye
 terms-disagree = Ntabwo mbyemeye
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

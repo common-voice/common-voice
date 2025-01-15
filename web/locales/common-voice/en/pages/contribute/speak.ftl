@@ -64,6 +64,8 @@ create-profile-button = Create a profile
 img-alt-success-checkmark = success checkmark
 # menu item
 read-sentences = Read Sentences
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Read Sentences <small>(Coming soon)</small>
 
 ## MENU ITEM TOOLTIPS
 speak-contribute-menu-tooltip = Read Sentences, Answer Questions

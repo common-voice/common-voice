@@ -16,13 +16,9 @@ show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
 help-us-explain = Veldu afspilun, hlustaðu og svaraðu: hversu nákvæmlega var setningin hér að neðan töluð?
 no-clips-to-validate = Svo virðist sem engar hljóðskrár séu til staðar á þessu tungumáli. Hjálpaðu okkur að stytta biðröðina með því að taka upp dæmi núna.
-vote-yes = Já
-vote-no = Nei
 toggle-play-tooltip = Veldu { shortcut-play-toggle } til þess að víxla afspilunarham af eða á
-speak-subtitle = Gefðu raddsýnishorn
 speak-paragraph = Hljóðritun raddgagna er órofa hluti af þróun gagnasafnsins okkar; sumir myndu líka segja að það væri skemmtilegi hlutinn.
 speak-goal-text = Raddupptökur
-listen-subtitle = Hjálpaðu okkur að staðfesta raddir
 listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt fyrir Samróm og upptökurnar sjálfar. Hlustið og hjálpið til við að þróa hágæða opinn raddbúnað.
 listen-goal-text = Staðfestar raddupptökur
 hours-recorded = Klukkustundir hljóðritaðar
@@ -80,3 +76,36 @@ help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins 
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
 profile-not-required = Notkunarsniðs er ekki krafist til að taka þátt þótt það sé gagnlegt, sjáðu hvers vegna hér fyrir neðan.
 read-more-about = Lestu meira á síðunni okkar um verkefnið
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

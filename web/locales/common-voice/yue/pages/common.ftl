@@ -171,12 +171,6 @@ zu = 祖魯語
 
 ## Layout
 
-speak = 錄音
-speak-now = 請開聲講
-datasets = 數據集
-languages = 所有語言
-about = 介紹
-partner = 合作
 profile = 個人檔案
 help = 幫助
 contact = 聯絡
@@ -195,7 +189,6 @@ privacy-info = 我哋保證會謹慎噉處理閣下嘅數據。敬請閲讀<priv
 return-to-cv = 返回 Common Voice
 email-input =
     .label = 電郵地址
-submit-form-action = 遞交
 loading = 加載緊⋯⋯
 email-opt-in-info = 我想收到有關目標提醒、個人進度同 Common Voice 新聞嘅電郵。
 email-opt-in-info-title = 接收 Common Voice 電郵通知
@@ -206,7 +199,7 @@ not-available-abbreviation = 唔適用
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我哋需要</mark><br/><mark>你嘅幫手！</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 我哋每年用嚟託管呢 100+ 門語言嘅數據集同維護開發個平台要使差唔多一百萬美金。<strong>如果你都重視數據開放同包容嘅話——噉就捐款畀我哋啦！</strong>

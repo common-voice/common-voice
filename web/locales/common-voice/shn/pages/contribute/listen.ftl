@@ -12,3 +12,9 @@ listen-loading-error =
 listen-abort-title = ယဝ်ႉတူဝ်ႈၵၢၼ်ၵူတ်ႇထတ်းၶလိပ်ႉ?
 listen-abort-cancel = သိုပ်ႇၵူတ်ႇထတ်း
 listen-abort-confirm = ယဝ်ႉတူဝ်ႈၵၢၼ်ၵူတ်ႇထတ်း
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

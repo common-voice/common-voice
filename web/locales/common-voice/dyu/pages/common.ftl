@@ -195,12 +195,6 @@ zza = Zulukan na
 
 ## Layout
 
-speak = Ka kuma
-speak-now = Kuma sisan
-datasets = Donanw (daɲɛgafew) kuluw
-languages = Kanw
-about = Kan
-partner = Jɛɲɔgɔn
 profile = Porofili
 help = Dɛmɛ
 contact = Ka wele
@@ -219,7 +213,6 @@ privacy-info = An bɛ layidu ta ko an bɛna i ka kunnafoniw ɲɛnabɔ ni hakilis
 return-to-cv = Segin ka taga Common Voice kan
 email-input =
     .label = Email (Email) ci
-submit-form-action = Ka kolo
 loading = Loading (dadon) bɛ kɛ
 email-opt-in-info = N b’a fɛ ka batakiw sɔrɔ i n’a fɔ laɲiniw hakilijiginw, n ka ɲɛtaa kunnafoniw ani kunnafonidisɛbɛnw Common Voice kan.
 email-opt-in-info-title = Aw ka fara Common Voice ka bataki cilenw lisi kan

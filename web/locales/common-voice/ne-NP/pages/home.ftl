@@ -12,13 +12,9 @@ show-wall-of-text = अझ पढ्नुहोस्
 help-us-title = हामीलाई वाक्य प्रमाणित गर्न सहयोग गर्नुहोस् !
 help-us-explain = प्ले थिच्नुहोस् , सुन्नुहोस् र हामीलाई बताउनुहोस्: के तिनीहरुले तलको वाक्य ठीकसँग बोले ?
 no-clips-to-validate = यो भाषामा सुन्नका कुनै पनि क्लिपहरु छैन । अहिले केही रेकर्ड गरेर पङ्क्ति भर्न सहयोग गर्नुहोस् ।
-vote-yes = हुन्छ
-vote-no = हुँदैन
 toggle-play-tooltip = प्ले मोड टगल गर्न { shortcut-play-toggle } थिच्नुहोस्
-speak-subtitle = आफ्नो आवाज दान गर्नुहोस्
 speak-paragraph = आवाज क्लिपहरू रेकर्ड गर्नु हाम्रो खुल्ला डेटासेट निर्माणको अभिन्न भाग हो; कोहि यसलाई मज्जाको भाग भन्नेछन्।
 speak-goal-text = रेकर्ड गरिएका क्लिपहरू
-listen-subtitle = हामीलाई आवाजहरू प्रमाणित गर्न मद्दत गर्नुहोस्
 listen-paragraph = दान गरिएका क्लिपहरू मान्य आम आवाज लक्ष्यको लागि समान रूपमा महत्त्वपूर्ण छ। सुन्नुहोस् र हामीलाई खुल्ला स्रोत आवाज आवाज डेटा सिर्जना गर्न मद्दत गर्नुहोस्।
 listen-goal-text = प्रमाणित क्लिपहरू
 hours-recorded = घण्टा रेकर्ड गरियो
@@ -76,3 +72,36 @@ help-contribute = तपाईं एक विविध, खुला स्र
 login-company = { $company }ईमेलको साथ लग इन / साइन अप गर्नुहोस्
 profile-not-required = प्रोफाईल हुनु आवश्यक नभएतापनि यो उपयोगी छ
 read-more-about = हाम्रो बारेमा पृष्ठ मा अधिक पढ्नुहोस्
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

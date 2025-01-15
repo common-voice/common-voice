@@ -12,13 +12,9 @@ show-wall-of-text = Magbasa nang Higit Pa
 help-us-title = Tulungan kaming magpatibay ng mga pangungusap!
 help-us-explain = Pindutin ang play, makinig at sabihin sa amin: kanila bang nabigkas ng tama ang pangungusap sa ibaba?
 no-clips-to-validate = Mukhang wala nang iba pang clips na pwedeng pakinggan sa wikang ito. Tulungan kaming punan ang pila sa pamamagitan ng pagrecord ng ilan ngayon.
-vote-yes = Oo
-vote-no = Hindi
 toggle-play-tooltip = Pindutin ang { shortcut-play-toggle } para sa toggle play mode
-speak-subtitle = I-donate ang iyong boses
 speak-paragraph = Ang pagrecord ng clips ng boses ay isang mahalagang parte sa pagbuo ng aming open dataset; may mga ilang nagsasabing masaya rin ang parteng ito.
 speak-goal-text = Mga clip na naitala
-listen-subtitle = Tulungan kaming magpatibay ng mga tinig
 listen-paragraph = Ang pag-vavalidate ng mga donated clips ay patas ang pagka-importante sa misyon ng Common Voice. Makinig at tulungan mo kaming gumawa ng kalidad na open source voice data.
 listen-goal-text = Mga clip na napagtibay na
 hours-recorded = Mga Naitalang Oras
@@ -69,3 +65,36 @@ username-email-not-demographic = Ang iyong username at email ay hindi maiuugnay 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
 login-company = Log In / Sign Up with { $company } email
 read-more-about = Magbasa pa sa aming About page
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

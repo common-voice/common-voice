@@ -57,3 +57,9 @@ already-have-an-account = Har du allerede en konto? <login>Logg på</login>
 create-profile-button = Opprett en profil
 # IMAGE TAGS
 img-alt-success-checkmark = hake for godkjenning
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

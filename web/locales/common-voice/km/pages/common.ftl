@@ -43,7 +43,6 @@ privacy-info = យើង​សន្យា​ថា​ត្រូវ​​ថ�
 return-to-cv = ត្រឡប់​ទៅ Common Voice
 email-input =
     .label = អ៊ីមែល
-submit-form-action = ដាក់បញ្ជូន
 loading = កំពុងផ្ទុក...
 email-opt-in-info = ខ្ញុំ​ចង់​ទទួល​អ៊ីមែល​ដូចជា​ការរលឹក​អំពីគោលដៅ បច្ចុប្បន្នភាព​ដំណើរការ​របស់ខ្ញុំ និង​ព្រឹត្តិបត្រ​អំពី Common Voice។
 email-opt-in-info-title = ចូលរួម​បញ្ជីសំបុត្ររួម Common Voice

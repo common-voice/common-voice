@@ -131,11 +131,6 @@ zh-TW = Chineză (Taiwan)
 
 ## Layout
 
-speak = Vorbește
-speak-now = Vorbește acum
-datasets = Seturi de date
-languages = Limbi
-about = Despre noi
 profile = Profil
 help = Ajutor
 contact = Contact
@@ -154,7 +149,6 @@ privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pent
 return-to-cv = Întoarce-te la Common Voice
 email-input =
     .label = E-mail
-submit-form-action = Trimite
 loading = Se încarcă…
 email-opt-in-info = Doresc să primesc mesaje pe e-mail, cum ar fi mementouri de obiective, actualizări ale progresului propriu și buletine informative despre Common Voice.
 email-opt-in-info-title = Înscrie-te pe lista de corespondență Common Voice

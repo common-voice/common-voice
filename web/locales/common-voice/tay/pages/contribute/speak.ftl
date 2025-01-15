@@ -1,0 +1,7 @@
+speak = kmal
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

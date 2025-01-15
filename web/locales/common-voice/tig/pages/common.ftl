@@ -164,10 +164,6 @@ zh-TW = ሲኒ (ታይዋን)
 
 ## Layout
 
-speak = ታሃገው
-speak-now = ኣዜ ታሃገው
-datasets = መጅሙዓት በያናት
-languages = ሉቃት
 profile = ናይ ኖስ መለፍ
 help = ስድየት
 contact = ተዋሱል
@@ -186,7 +182,6 @@ privacy-info = ማዕሉማትኩም እብ ጥንቃቐ ከም ጽብጣ ንው
 return-to-cv = ዲብ ክርን ሕበር ኣቅብሉተ
 email-input =
     .label = ኢሜል
-submit-form-action = ኣቅርብ
 loading = ሊሸሕን ህላ
 email-opt-in-info = ኢሜላተ እግለ ለምጽአኒ ሓዘ ከምስል ናይ ሃደፍ ላለአዝክር, ው ከምስልሁማ  ናይ ተጣውርየ, ው ኣኽባር ናይ ክርን ሕበር.
 email-opt-in-info-title = ዲብ ቃኢመት ኢሜል ናይ ክርን ሕበር ተሓበሮ

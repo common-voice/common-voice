@@ -28,7 +28,7 @@ how-to-cite-explanation = اگر کی تہ تان لفظ اوشونی صرف<ita
 guidelines = رہنمائی
 contact-us = اسپہ سوم رابطہ کو
 add-sentence-success = 1جملہ بڑاڅینو ہوئے
-add-sentence-error = نقص پیدا جملہ
+add-sentence-error = نقص پیدا کوراک جملہ
 required-field = مہربانی کوری ہیا ژاغو ٹیپاوے
 single-sentence-submission = ای جملہ جمع کو
 small-batch-sentence-submission = پوکھ امبوخ جملان جمع کو
@@ -138,7 +138,7 @@ small-batch-response-message =
        *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> رد بیرو جملان ڈاون لوڈ کوریکو بچین۔
     }
 small-batch-sentences-rule-1 = “ کیہ جملہ شامل کوریکو بوم؟ ” رے رہنمائی سورا عمل کو
-small-batch-sentences-rule-2 = ای لائنہ ای جملہ شامل کو
+small-batch-sentences-rule-2 = ای لائنہ ای جملہ نیوشے
 small-batch-sentences-rule-3 = "Enter"شینی جملان ای لائنار علحیدہ کو یا ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
 small-batch-sentences-rule-5 = سف جملان دائرہ(موضوع) ایک بائے

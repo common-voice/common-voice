@@ -1,0 +1,2 @@
+# menu item
+partners = dawin

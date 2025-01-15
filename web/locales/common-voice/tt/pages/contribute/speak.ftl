@@ -1,4 +1,4 @@
-speak = Сөйләгез
+speak = Сөйләү
 speak-now = Хәзер сөйләгез
 speak-subtitle = Тавышыгызны иганә итегез
 record-cta = Яздыра башлау

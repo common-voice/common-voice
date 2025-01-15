@@ -5,3 +5,9 @@ listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc’hit da vont
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 listen-empty-state = N'hon eus tamm enrolladenn ebet ken da wiriañ er yezh-se...
 listen-abort-cancel = Kenderc'hel da gadarnaat
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -211,12 +211,6 @@ zza = Zazaeg
 
 ## Layout
 
-speak = Komz
-speak-now = Komz bremañ
-datasets = Spletadoù roadennoù
-languages = Yezhoù
-about = A-zivout
-partner = Dont da vezañ keveler
 profile = Profil
 help = Skoazell
 contact = Darempred
@@ -236,7 +230,6 @@ privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pello
 return-to-cv = Distreiñ da gCommon Voice
 email-input =
     .label = Postel
-submit-form-action = Kas
 loading = O kargañ...
 email-opt-in-info = Fallout a ra din degemer posteloù evit diskouez din ar palioù, ma araokadennoù ha lizher kelaouiñ Common Voice.
 email-opt-in-info-title = Emezelañ e roll skignañ Common Voice

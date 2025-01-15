@@ -12,13 +12,9 @@ show-wall-of-text = Astawan Qhaway
 help-us-title = ¡Yanapawayku rimaykunata validanaykupaq!
 help-us-explain = Pukllay ñit’iy, uyariy hinaspa willawayku: ¿urapi kaq rimayta allintachu rimarqanku?
 no-clips-to-validate = Rikchakun mana ima clipkuna kay simipi uyarinapaq kanchu. Yanapawayku fila hunt’anaykupaq kunan wakinta grabaspa.
-vote-yes = Arí
-vote-no = Manam
 toggle-play-tooltip = { shortcut-play-toggle } ñit'iy pukllay ñanta tikranaykipaq
-speak-subtitle = Kunkaykita quy
 speak-paragraph = Kunka clips grabacionqa huk integral parten kichasqa willakuyniyku ruwaypi; wakinqa ninkumanmi kusikuy partepas kasqanmanta.
 speak-goal-text = Clips grabados
-listen-subtitle = Yanapawayku kunkakunata validanaykupaq
 listen-paragraph = Qusqa clipkuna validacionqa kaqlla ancha chaniyuqmi "Common Voice" misionpaq. Huk uyariyta hap'iy chaymanta yanapawayku allin kichasqa kunka willayta ruwanapaq.
 listen-goal-text = Clips nisqakuna validasqa
 hours-recorded = Horas Grabadas
@@ -76,3 +72,36 @@ help-contribute = Yanapakuyta atikunki huk imaymana, kichasqa willay huñu ruway
 login-company = Iniciar sesión / Registrarse con email de { $company }
 profile-not-required = Mana perfilniyuq yanapakuyta atinki, yanapakuq kaptinpas, uraypi qhaway imarayku.
 read-more-about = Astawan ñawinchay Ñoqaykumanta nisqa paginapi
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

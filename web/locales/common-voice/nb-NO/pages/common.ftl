@@ -215,12 +215,6 @@ zza = Zazaisk
 
 ## Layout
 
-speak = Snakk
-speak-now = Snakk nå
-datasets = Datasett
-languages = Språk
-about = Om
-partner = Partner
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -240,7 +234,6 @@ privacy-info = Vi lover å håndtere informasjonen din på en trygg måte. Les m
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
-submit-form-action = Send inn
 loading = Laster…
 email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
 email-opt-in-info-title = Abonner på Common Voice-e-postlisten
@@ -251,7 +244,7 @@ not-available-abbreviation = ikke tilgjengelig
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Vi trenger</mark><br/><mark>din hjelp!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør. <strong>Hvis du verdsetter åpne, inkluderende data – doner i dag!</strong>

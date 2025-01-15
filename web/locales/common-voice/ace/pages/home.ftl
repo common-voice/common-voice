@@ -4,11 +4,7 @@ home-title = Su Common nakeuh Inisiatif Mozilla jibantu peurunoe meusen kiban ca
 home-cta = Peugah haba, tuléh hinoe!
 show-wall-of-text = Beuet Le Lom
 help-us-title = Neutulông kamoe peusahèh kalimat!
-vote-yes = Nyo
-vote-no = H'an
-speak-subtitle = Jôk su droeneuh
 speak-goal-text = Klip teureukam
-listen-subtitle = Bantu kamoe peusahèh su
 today = Uroë Nyoë
 
 ## Account Benefits
@@ -18,4 +14,37 @@ today = Uroë Nyoë
 
 
 ## Landing
+
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
 

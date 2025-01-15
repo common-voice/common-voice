@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تُوں ایک گتہ زیب خوش نیرہ څھے۔مھیربانی کرے تاں </profileLink>پروفائلے<profileLink> بزی اک زیب اوک  خوش کرہ
+sc-review-lang-not-selected = تُوں ایک گتہ ژیب خوش نیرہ چھی۔تاں </profileLink>پروفائلے<profileLink> بئ گیل ژِبہ خوش کرہ۔
 sc-review-title = جُملی گتہ نہانٚلہ
 sc-review-loading = جُملی لوڈ ہُوئینتی۔۔۔۔۔
 sc-review-select-language = جُملی گتہ (دوبارہ) نھالَئیں کراں اک زیب اوک خوش کرہ
@@ -10,10 +10,10 @@ sc-review-form-prompt =
 sc-review-form-usage = جُملہ قبُول کریاں کراں  دڇُھوئی کِھن٘گی تل ڙر کرہ آں کگَئیں کراں کھبُوئ کِھن٘گی تل ڙر کرہ۔<strong>گتہ نہالیل کام جمع کرؤں اُوݜہ نئ ہُوئے </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = مُون٘ڈ:{ $sentenceSource }۔
-sc-review-form-button-reject = کگا.
+sc-review-form-source = مُون٘ڈ:{ $sentenceSource }
+sc-review-form-button-reject = کگا
 sc-review-form-button-skip = پھت کرہ/ٹھن٘گ کرہ.
-sc-review-form-button-approve = قبلا.
+sc-review-form-button-approve = قبلا
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ق.
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
@@ -48,7 +48,7 @@ sc-criteria-item-6 = کہ تیگے گتہ نہالَئیں جُملی بارزی
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = نہال تہ<icon></icon> ݜُو زِباں حساب ہِن صحیح جُملہ تھی اَئ؟
 sc-review-rules-title = نہالہ تہ اُو جُملہ دیل ہدایاتوںمطابق تھی ائی؟
-sc-review-empty-state = ݜُو وخ ݜس زِبہ مہ گتہ نہالَئیں کراں جُملی نی تھی۔
+sc-review-empty-state = ݜُو وخ ݜس زِبہۡ /ژِبہۡ مہ دُوہیڑی نھالَیں یاں کریا جُملی نی تھی۔
 report-sc-different-language = مُئیت زِیب
 report-sc-different-language-detail = مہ چہ گی نہالانٚت، اُو تس نہ مُئیت زب مہ لکزل تھی۔
 sentences-fetch-error = جُملی څؤں مُوئیٹھوں اَئیں مہ غلطی اوک ہُونٚتھی۔

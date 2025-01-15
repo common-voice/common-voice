@@ -12,13 +12,9 @@ show-wall-of-text = Endelia Kushoma
 help-us-title = Ditesienyi kuzighana ngera sentensi reko karakara.
 help-us-explain = Fwada aha icheze, sikiria nao kudighorie: iho sentensi iko aho nakosi le, w'aidedie nicha?
 no-clips-to-validate = Yabonyeria vibelele vesikiria vasia kwa ichi kiteto. Ditesie kuchuria madedo ghamu kwa kurekodi idakoni.
-vote-yes = Hee
-vote-no = Hata
 toggle-play-tooltip = Fwada { shortcut-play-toggle } kughalusa mtindo ghocheza
-speak-subtitle = Changa lwaka lwako
 speak-paragraph = Kurekodi vibelele va chwaka ni suti eri kuagha mafungu gha data; w'amu w'aghorie ijo nijo jimu jisingie kwa ichi chaghu.
 speak-goal-text = Vibelele virekodilo
-listen-subtitle = Ditesienyi kusikiria madedo ngera gheko karakara.
 listen-paragraph = Kusikiria sena ngera madedo gheko nicha ni ilagho ja mana kwa w'udumiki ghwa Common Voice. Sikiria nao kukabonya huw'o kwaditesia kuboisa andu mwari kwa data ya chwaka.
 listen-goal-text = Vibelele viw'onekie veko nicha
 hours-recorded = Masaa Ghirekodilo
@@ -76,3 +72,36 @@ help-contribute = Kwadima kutesia kuagha mafungu gha data ghiko mwari sena risef
 login-company = Ngia/Fungua Akaunti na imeili ya { $company }
 profile-not-required = Kukaia na profaili si suti kungi eri kuchanga ela koko na w'utesia, zighana kwaki aha naisi.
 read-more-about = Churia kushoma peji ya Aighu yedu
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

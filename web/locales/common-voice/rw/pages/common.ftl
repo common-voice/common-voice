@@ -101,10 +101,6 @@ zh-TW = Igishinwa (cyo muri Tayiwani)
 
 ## Layout
 
-speak = Vuga
-speak-now = Vuga ubungubu
-datasets = Ikusanyirizo ry'imbonwa
-languages = Indimi
 profile = Isura ndanga
 help = Fasha
 contact = Aho umuntu abarizwa
@@ -123,7 +119,6 @@ privacy-info = Tubijeje kwifashisha amakuru muduha tubyitayeho. Soma ibindi bire
 return-to-cv = Subira ku Ijwi Rusange (Common Voice).
 email-input =
     .label = Imeri
-submit-form-action = Ohereza
 loading = Birakinjira...
 indicates-required = *Yemeje ingeri ikenewe
 

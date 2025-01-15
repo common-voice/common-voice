@@ -215,12 +215,6 @@ zza = Zazanuri
 
 ## Layout
 
-speak = İsinapi
-speak-now = Hatzi - hus - huy isinapi
-datasets = Datamarç̌a
-languages = Nenape
-about = Hemuşeni
-partner = Partneri
 profile = Profili
 help = Memişvelit
 contact = ǩont̆aǩt̆i
@@ -240,7 +234,6 @@ privacy-info = Çkinapepe tkvani mç
 return-to-cv = Common Voiceşa Goikti
 email-input =
     .label = Emaili
-submit-form-action = Mendancğoni
 loading = Eyulun
 email-opt-in-info = Common Voiceşi noğire goşinupe, ixenu dulyapeşi meoğanupe do anbaişi bultenepe steri e-postape eç̌opumu minon.
 email-opt-in-info-title = Common Voiceşi maili list̆es eǩomant̆alit.

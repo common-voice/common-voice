@@ -49,7 +49,7 @@ report-offensive-language-detail = guke jumaln meeyalas baaṣulo bican
 report-grammar-or-spelling = grammar yaa spelline ṭʰis pisin
 report-grammar-or-spelling-detail = jumlanulo grammar yaa spelline ṭʰis pisin bican.
 report-different-language = muxtalif baaṣan
-report-different-language-detail = jaa ġaraas ite cum kʰot tʰum baaṣanulo girminaan
+report-different-language-detail = jaa etas ite baaṣ cum kʰot tʰum baaṣanulo girminaan
 report-difficult-pronounce = seyar ḍoom bila
 report-difficult-pronounce-detail = khutulo lafzin ke bariṅ ġatayar ḍom bican
 report-offensive-speech = mes ćakali meetas bariṅ
@@ -63,7 +63,7 @@ report-success = report kaamiyaabiate pass manimi
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = chindi
+shortcut-skip = s
 
 ## Speak Shortcuts
 
@@ -71,7 +71,7 @@ shortcut-skip = chindi
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = record etin/cat etin
-shortcut-rerecord-toggle = hik cum chindi
+shortcut-rerecord-toggle = han cum cʰundo
 shortcut-rerecord-toggle-label = dubara record etum clip
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = manum ite record eeri

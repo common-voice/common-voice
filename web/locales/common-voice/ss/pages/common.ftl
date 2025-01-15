@@ -191,11 +191,6 @@ zu = Si-Zulu
 
 ## Layout
 
-speak = Khuluma
-speak-now = Khuluma nyalo
-datasets = Datasets
-languages = Tilwimi
-about = Mayelana
 profile = Likhasi lelichaza kabanti ngawe
 help = Lusito
 contact = Chumana
@@ -216,7 +211,6 @@ privacy-info = Siyetsembisa kutsi imininingwane yakho sitoyiphatsa ngebunono. Fu
 return-to-cv = Buyela ku Common Voice
 email-input =
     .label = I-imeyili
-submit-form-action = Hambisa
 loading = Loading…
 email-opt-in-info = Ngingatsandza kutfola liposi lembane lekufaka ekhatsi kukhumbutwa ngemagoli ami, inchubo yami kanye nemaphephandzaba nga Common Voice.
 email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.

@@ -36,3 +36,9 @@ review-delete-recordings = Yozuvlarni o‘chirish
 review-terms = Common Voice loyihasidan foydalanish bilan siz bizning <termsLink>Shartlar</termsLink>imiz va <privacyLink>Maxfiylik siyosati</privacyLink>mizga rozilik bildirgan hisoblanasiz.
 terms-agree = Roziman
 terms-disagree = Noroziman
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

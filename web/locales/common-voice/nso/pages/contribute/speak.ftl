@@ -36,3 +36,9 @@ review-delete-recordings = Phumola dikgatišo tšaka
 review-terms = Ka go šomiša Common Voice, o dumela go <termsLink>Mareo</termsLink> le <privacyLink>Tsebišo ya Sephiri</privacyLink> tša rena.
 terms-agree = Kea dumela
 terms-disagree = Ga ke dumele
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

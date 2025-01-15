@@ -95,10 +95,6 @@ zh-TW = Кытайча (Тайвань)
 
 ## Layout
 
-speak = Сүйлөө
-speak-now = Азыр сүйлө
-datasets = Берилиштер топтому
-languages = Тилдер
 profile = Профайл
 help = Жардам
 contact = Байланыш
@@ -117,7 +113,6 @@ privacy-info = Сиздин маалыматты этият колдонобуз
 return-to-cv = Common Voice'ко кайтуу
 email-input =
     .label = Эмейл
-submit-form-action = Кошуу
 loading = Жүктөлүүдө...
 
 ## Donate banner

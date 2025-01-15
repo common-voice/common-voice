@@ -12,13 +12,9 @@ show-wall-of-text = Кæс фылдæр.
 help-us-title = Аххуыс нын кæн сбæрæг кæнын хъуыдыйæдты растфыст.
 help-us-explain = Ныххæц «Айзæлын кæн», байхъус æмæ зæгъ, раст дзуры ацы хъуыдыйад?
 no-clips-to-validate = Ӕвæццæгæн ам нæй ницавæр клиптæ, кæцытæм байхъусдзыстут ацы æвзагыл. Фæкæсут нæм рад байдзаг кæнынæй, уымӕн ӕмӕ системӕ куры ног ныффыстытӕ, хъӕуы дӕ хъӕлӕсӕй цалдӕр хъуыдыйады зӕгъын микрофонмӕ.
-vote-yes = О
-vote-no = Нæ
 toggle-play-tooltip = Æрхæц { shortcut-play-toggle } , цæмæй  режим раивай
-speak-subtitle = Дæ хъæлæс бахай кæн
 speak-paragraph = Хъæлæсон æрмæджыты ныффыст — æнæбайсгæ хай сфæлдисынæн нæ гом рардты базæ; чидӕртӕ загътаиккой, ивхæрсæн хай ма кæй у.
 speak-goal-text = Ныффыст клиптæ
-listen-subtitle = Аххуыс нын кæ сфидар кæнын хъæлæстæ.
 listen-paragraph = Клиптӕ бӕрӕг кӕнын у ахсджиаг мисси Common Voice-æн. Байхъус æмæ нын баххуыс кæн сфæлдисын хӕрзхъӕд хъæлæсон рардты базӕ гом райдайæн кодимæ.
 listen-goal-text = Бӕлвырдгонд клиптӕ
 hours-recorded = Фыст сахæттæ
@@ -76,3 +72,36 @@ help-contribute = Гом рардты ӕмбырды алыхуызон сфӕл
 login-company = Бахиз кӕнӕ { $company } посты ууылты регистраци скӕн
 profile-not-required = Архайынæн профиль ӕнӕмӕнг хъæугæ нӕу, ӕниу пайда у, дæлæ ранымайæм цæмæй.
 read-more-about = Фылдӕр базон нӕ фарсыл  «Мах тыххӕй»
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

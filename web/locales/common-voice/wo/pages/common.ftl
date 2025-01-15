@@ -206,12 +206,6 @@ zza = Sasa
 
 ## Layout
 
-speak = Waxal
-speak-now = Man ngaa wax
-datasets = Jumutukaay yi (Jeu de Données)
-languages = Kàllaama yi
-about = Ci mbir mi
-partner = Àndadoo
 profile = Melokaan (Profil)
 help = Ndimbal
 contact = Jokkalante
@@ -231,7 +225,6 @@ privacy-info = Fas na nu yéené téyé bu baax bataaxal (informations) yi ngée
 return-to-cv = Dellu ci Common Voice
 email-input =
     .label = Email
-submit-form-action = Yónnée
 loading = Taaxirlu...
 email-opt-in-info = Daama bëggóon a jot ay emails yu mel ni ay fàttali ci lima war a def, ay yëglee ci sama yokkute ak yeneen xeet i bataaxal ci Common Voice.
 email-opt-in-info-title = Bokk ci ñii Common Voice di yónnée ay emails

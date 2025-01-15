@@ -27,13 +27,9 @@ show-wall-of-text = Bala mo go Oketsegileng
 help-us-title = Re thuse go tlhomamisa mela!
 help-us-explain = Tobetsa tshameka, reetsa & re bolelele: a ba buile mola o o fa tlase ka tsela e e nepagetseng?
 no-clips-to-validate = Go lebega go se na dikgatiso dipe tse di tlhokang go reediwa mo puong eno. Re thuse go di oketsa ka go rekota dingwe gone jaanong.
-vote-yes = Ee
-vote-no = Nyaa
 toggle-play-tooltip = Tobetsa { shortcut-play-toggle } go nna o tshameka
-speak-subtitle = Abelana ka lentswe la gago
 speak-paragraph = Go gatisa mantswe ke karolo e e botlhokwa thata e e thusang go aga rekoto ya tshedimosetso; ba bangwe ba ka re gape ke karolo e e itumedisang.
 speak-goal-text = Dikgatiso di dirilwe
-listen-subtitle = Re thuse go tlhomamisa mantswe
 listen-paragraph = Go tlhomamisa dikgatiso tse di abilweng le gone go botlhokwa mo maikaelelong a Common Voice. Reetsa mme o re thuse go dira tshedimosetso e e nang le boleng ya mantswe.
 listen-goal-text = Dikgatiso di tlhomamisitswe
 hours-recorded = Diura tse di Gatisitsweng
@@ -91,3 +87,36 @@ help-contribute = O ka thusa rekoto eno ya tshedimosetso e kgolo e bile e le ya 
 login-company = Tsena / Ikwadise ka imeile ya { $company }
 profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go a thusa. Bona gore ka ntlha yang fa tlase.
 read-more-about = Bala mo go oketsegileng mo tsebeng ya Ka Ga
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

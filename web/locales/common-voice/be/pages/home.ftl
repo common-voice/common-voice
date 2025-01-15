@@ -12,13 +12,9 @@ show-wall-of-text = Падрабязней
 help-us-title = Дапамажыце нам праверыць сказы!
 help-us-explain = Уключыце запіс, паслухайце і скажыце нам: ці дакладна прамоўлены сказ ніжэй?
 no-clips-to-validate = Здаецца, няма ніводнага запісу для праслухоўвання на гэтай мове. Дапамажыце нам запоўніць чаргу, зрабіўшы некалькі сваіх запісаў.
-vote-yes = Так
-vote-no = Не
 toggle-play-tooltip = Націсніце { shortcut-play-toggle } для пераключэння рэжыму прайгравання
-speak-subtitle = Ахвяруйце свой голас
 speak-paragraph = Запіс галасавых кліпаў ёсць неад'емнай часткай у стварэнні нашага адкрытага набору дадзеных; хтосьці скажа, што гэта яшчэ і цікавы занятак.
 speak-goal-text = Кліпаў запісана
-listen-subtitle = Дапамажыце нам праверыць запісы
 listen-paragraph = Праверка ахвяраваных кліпаў — таксама вельмі важная для місіі Common Voice. Паслухайце запісы, каб дапамагчы нам стварыць якасную базу галасавых дадзеных.
 listen-goal-text = Кліпаў праверана
 hours-recorded = Гадзін запісана
@@ -79,3 +75,36 @@ help-contribute = Вы можаце дапамагчы пабудаваць ра
 login-company = Зарэгістравацца / ўвайсці з эл. поштай { $company }
 profile-not-required = Каб удзельнічаць, не абавязкова мець профіль, хаця гэта можа быць карысна (падрабязнасці ніжэй).
 read-more-about = Падрабязней на старонцы «Пра нас»
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

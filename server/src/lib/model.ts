@@ -11,7 +11,10 @@ import * as T from 'fp-ts/Task'
 import * as Id from 'fp-ts/Identity'
 import { isVariantPreferredOption } from '../core/variants/user-client-variant'
 import { getUserClientVariantClipsQueryHandler } from '../application/clips/use-case/query-handler/get-user-client-variant-clips-query-handler'
-import { fetchClipsThatUserInteractedWithFromDB, fetchVariantClipsFromDB } from '../application/repository/clips-repository'
+import {
+  fetchClipsThatUserInteractedWithFromDB,
+  fetchVariantClipsFromDB,
+} from '../application/repository/clips-repository'
 
 // TODO: Retrieve average clip data from database (datasets/locale_datasets tables)
 const AVG_CLIP_SECONDS = 4.694
@@ -169,7 +172,7 @@ export default class Model {
         getUserClientVariantClipsQueryHandler,
         Id.ap(fetchUserClientVariants),
         Id.ap(fetchVariantClipsFromDB),
-        Id.ap(fetchClipsThatUserInteractedWithFromDB),
+        Id.ap(fetchClipsThatUserInteractedWithFromDB)
       )
       const getUserVariantClips = pipe(
         { clientId: client_id, localeId, count },
@@ -233,14 +236,6 @@ export default class Model {
     await this.db.saveClip(clipData)
   }
 
-  getLanguages = lazyCache(
-    'get-all-languages-with-sentence-count',
-    async (): Promise<Language[]> => {
-      return await this.db.getLanguages()
-    },
-    1
-  )
-
   getAllLanguages = lazyCache(
     'get-all-languages-with-metadata',
     async (): Promise<any[]> => {
@@ -283,7 +278,7 @@ export default class Model {
   getLanguageStats = lazyCache(
     'get-all-language-stats',
     async (): Promise<any> => {
-      const languages = await this.db.getLanguages()
+      const languages = await this.db.getAllLanguages()
       const allLanguageIds = languages.map(language => language.id)
 
       const statsReducer = (langStats: GenericStatistic[]) => {
@@ -292,6 +287,13 @@ export default class Model {
           return obj
         }, {})
       }
+
+      const languageSentenceCounts = await Promise.all(
+        allLanguageIds.map(async id => {
+          return await this.db.getLanguageSentenceCounts(id)
+        })
+      )
+      const languageSentenceCountsMap = statsReducer(languageSentenceCounts)
 
       const [
         localizedPercentages,
@@ -311,6 +313,8 @@ export default class Model {
           .then(data => statsReducer(data)),
       ])
 
+      const lastFetched = new Date().toISOString()
+
       // map over every lang in db
       const languageStats = languages.map(lang => {
         const totalSecDur =
@@ -325,9 +329,18 @@ export default class Model {
           recordedHours: secondsToHours(totalSecDur),
           validatedHours: secondsToHours(validSecDur),
           speakersCount: speakerCounts[lang.id] || 0,
+          sentencesCount: {
+            targetSentenceCount: lang.target_sentence_count,
+            currentCount: languageSentenceCountsMap[lang.id],
+          },
           locale: lang.name,
+          lastFetched
         }
         delete currentLangStat.name
+        delete currentLangStat.is_translated
+        delete currentLangStat.text_direction
+        delete currentLangStat.native_name
+        delete currentLangStat.target_sentence_count
         return currentLangStat
       })
 

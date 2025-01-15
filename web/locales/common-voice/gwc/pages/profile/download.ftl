@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تٞھکٞہ تانی مواد ڈاونلوڈ کٞروگیں ضرولاٞت تھی آٞ؟
+download-info = ماں کٞہ  مٞن تو کٞناں ڈاونلوڈ کٞروگ خوشانت؛
+download-profile-title = تانی تفصیل
+download-profile-info = شامل تھو ایمیل، نام تے بھاگاں مالومات فوری موجود تھو
+download-profile-size = کٞتیک باٞئٹس
+download-recordings-title = ریکارڈِنگز
+download-recordings-info = شامل تھو mp3s تے تساٞں متعلق جملاٞ، کیدےشی تیار کٞروگ مئ اٞتوشی ٹیم گینٞگ۔
+download-recordings-size = عموماً میگا بائٹس
+download-recordings-unavailable = تٞھہ تانی ریکارڈنگز آں درخاست نہ کٞرباٞں کون مِڄ گٞشی درخاست جاری ہو تہ۔
+download-recently-requested = تٞھہ تانی ریکارڈنگز گٞڑوگیں کیر ناٞم درخاست ہاٞر دوس داٞواٞں۔
+download-size = سیز
+download-selected = خوشا گاٞل
+download-start = تانی تفصیلاں مواد ڈاونلوڈ کٞر
+download-request = ریکارڈنگز ایں کیر درخاست کٞر
+download-requests = میڄیگ ریکارڈنگز ایں ڈاونلوڈ کٞروگیں کیر درخاست کٞر
+download-requests-info = کون تئ ریکارڈنگز آں درخاست کیر، مٞہ توم  آٞک یا باٞر زِپ فائل مئ اٞبھاگ کٞراٞں۔ یہماک چھاٞں میڄوگ درخاٞست تھو؛
+download-request-button = ڈاؤنلوڈ کٞر
+download-request-title = { $created }چاجینت
+download-request-description = { $clipCount }وائس کلپونہ، ساٞبٞت ارچیو سیز{ $size }۔{ $expires }
+download-request-archive-single = اٞ زِپ فائل مئ آشاں
+download-request-archive-multiple = تقسیم ہوت{ $archiveCount }زِپ فائلونہ شامل تھی
+download-request-assembling-description = چھیں فائلونہ اٞبھاگ کٞرجِینت۔ ماٞربینی کاٞ  پت پتہ دوارہ چیک کٞر۔
+download-request-refresh-button = دوارہ تازہ کٞر
+download-request-modal-title = لنکونہ ڈاونلوڈ کٞر
+download-request-modal-description = ہیماک تٞتھی لنکونہ تھی تانی زِپ فائلونہ ڈاونلوڈ کٞروگیں۔
+download-request-link-text = زِپ تاداد{ $offset }مئ{ $total }
+download-request-metadata-link = جملاں خط
+download-request-link-single = تٞھہ URLs ڈاریک کاپی تے پیسٹ کٞرباٞں تانی خوش ڈاونلوڈ منیجر کٞہ۔ اوم 12 گھینٹاٞ مئ ایکسپاٞئر ہواٞں، پرہ تو واپس اِیں مُک کٞہ یاٞ کناٞ ٹیمہ ناٞم چاباٞں۔

@@ -11,13 +11,9 @@ show-wall-of-text = Daplü infuormaziuns
 help-us-title = Güda'ns a validar las frasas!
 help-us-explain = Schmacha play, taidla e di'ns: Vain la frasa pronunzchada güst?
 no-clips-to-validate = Sco chi para nu daja in quista lingua ingüns clips per tadlar. Güda'ns a cumplettar quista fila cun registrar uossa tia vusch.
-vote-yes = Schi
-vote-no = Na
 toggle-play-tooltip = Schmacha { shortcut-play-toggle } per laschar preleger o fermar.
-speak-subtitle = Duna tia vusch
 speak-paragraph = Registrar clips da vuschs es üna part essenziala per s-chaffir nossa collecziun da datas averta; i dischan dafatta la part la plü divertenta.
 speak-goal-text = Registraziuns (clips)
-listen-subtitle = Güda'ns a validar vuschs
 listen-paragraph = Validar ils clips contribuits es güst uschè important per la mischiun da Common Voice. Taidla bain e güda'ns a s-chaffir datas da vusch open source da qualità.
 listen-goal-text = Clips validats
 hours-recorded = Uras da registraziun
@@ -74,3 +70,36 @@ help-contribute = Tü poust güdar a construir üna collecziun da datas multifar
 login-company = Annunzcha't / Registrescha't cun l'adressa dad e-mail da { $company }
 profile-not-required = I nu fa dabsögn dad avair ün profil per contribuir, eir schi füss ütil. Suotvart vezzast perche.
 read-more-about = Legia daplü sün nossa pagina d'infuormaziun da Common Voice.
+
+## NAV ITEMS
+
+
+## MENU ITEMS TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+
+## NEW HOME PAGE KEYS
+
+
+## Hero section
+
+
+## Action items section
+
+
+## Community section
+
+
+## Featured section
+
+
+## Developers section
+
+
+## Get involved section
+
+
+## Partner section
+

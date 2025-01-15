@@ -153,3 +153,21 @@ small-batch-sentences-rule-3 = یھک دفہ Enter یا Return دبنغاگوں 
 small-batch-sentences-rule-4 = 1000  جملے جمع کنی انت
 small-batch-sentences-rule-5 = کلیں گالورے نیں یاڈومین بی۔
 small-batch-sentences-rule-6 = کلیں گالورے نیں یا حوالہ بی۔
+# menu item
+add-sentences = جملہ آں ھوار کن
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = جملہانی گیش کنگ ءُ چار ءُ تپاس کنگ، جُستاں گیش کنگ، آڈیو ءِ نبشتہ کنگ
+add-sentences-menu-item-tooltip = وتی زبان ءَ جملہ گیش کن .
+review-sentences-menu-item-tooltip = وثی زبان ئا جملہانی سرا چمشانک دے
+add-questions-menu-item-tooltip = وتی زبان ءَ جُست گیش کن اِت
+transcribe-audio-menu-item-tooltip = آڈیو ریکارڈنگز ءَ وتی زبان ءَ نبشتہ کن اِت
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = آپشنز مینو نبشتہ کن
+add-sentences-menu-item-aria-label = کمیونٹی ءِ وانگ ءِ ھاترا نوکیں جملہ ھوار کن اِت
+review-sentences-menu-item-aria-label = کمیونٹی ئے نیمغا پیش کثغیں استیں جملہانی سرا چار ءُ تپاسی کن
+add-questions-menu-item-aria-label = کمیونٹی ءِ وانگ ءُ جواب دیگ ءِ ھاترا نوکیں جُست دیم ءَ بیار اِت
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگاں نبشتانک ءِ تہا نبشتہ کن

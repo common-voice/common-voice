@@ -196,12 +196,6 @@ zza = ᱡᱟᱡᱟ
 
 ## Layout
 
-speak = ᱨᱚᱲ ᱢᱮ
-speak-now = ᱱᱤᱛᱚᱜ ᱨᱚᱲ ᱢᱮ
-datasets = ᱰᱟᱴᱟ ᱥᱮᱴ ᱠᱚ
-languages = ᱯᱟᱹᱨᱥᱤ ᱠᱚ
-about = ᱵᱟᱵᱚᱛ
-partner = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤ
 profile = ᱢᱮᱫᱦᱟᱸ
 help = ᱜᱚᱲᱚ
 contact = ᱥᱚᱢᱯᱚᱨᱠ
@@ -220,7 +214,6 @@ privacy-info = ᱟᱞᱮ ᱠᱟᱛᱷᱟ ᱞᱮ ᱮᱢᱟᱢ ᱠᱟᱱᱟ ᱟᱢ
 return-to-cv = Common Voice ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱢᱮ
 email-input =
     .label = ᱤᱢᱮᱞ
-submit-form-action = ᱡᱚᱢᱟᱭ ᱢᱮ
 loading = ᱞᱟᱫᱮᱜ ᱠᱟᱱᱟ …
 email-opt-in-info = ᱤᱧ ᱡᱚᱥ ᱩᱭᱦᱟ.ᱨ ᱫᱚᱦᱚ ᱵᱚᱵᱚᱛ ᱤᱢᱮᱞ ᱧᱟᱢ ᱥᱟ.ᱱᱟᱹᱧᱟ, Common Voice ᱵᱟᱵᱚᱛ ᱟᱨ ᱠᱷᱚᱵᱚᱨᱠᱟᱜᱚᱡᱸ ᱦᱟᱹᱞᱤᱭᱟᱜ ᱞᱟᱦᱟ ᱛᱮᱫ ᱾
 email-opt-in-info-title = Common Voice ᱢᱮᱞᱤᱝ ᱥᱩᱪᱤ ᱥᱟᱶ ᱡᱩᱲᱟᱣᱚᱜ ᱢᱮ

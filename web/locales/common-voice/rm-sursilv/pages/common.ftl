@@ -125,11 +125,6 @@ zh-TW = chines (Taivan)
 
 ## Layout
 
-speak = discuorer
-speak-now = discuora ussa
-datasets = Unitads da datas
-languages = Lungatgs
-about = Informaziuns davart nus
 profile = Profil
 help = Agid
 contact = Contact
@@ -148,7 +143,6 @@ privacy-info = Nus empermettein da tractar tias informaziuns cun quitau. Legia d
 return-to-cv = returnar a Common Voice
 email-input =
     .label = e-mail
-submit-form-action = tarmetter
 loading = cargar ...
 email-opt-in-info = Jeu less retscheiver e-mails, per exempel regurdientschas da finamiras, mes rapports da progress e newsletters da Common Voice.
 email-opt-in-info-title = S'annunzia per la gliesta dad e-mails da Common Voice
