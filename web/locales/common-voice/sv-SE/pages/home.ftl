@@ -79,11 +79,15 @@ read-more-about = Läs mer på vår om sida
 ## NAV ITEMS
 
 answer-questions = Svara på frågor <small>(Kommer snart)</small>
+answer-questions-coming-soon = Svara på frågor <small>(Kommer snart)</small>
 review-transcriptions = Granska transkriptioner <small>(Kommer snart)</small>
+review-transcriptions-coming-soon = Granska transkriptioner <small>(Kommer snart)</small>
 add-questions = Lägg till frågor <small>(Kommer snart)</small>
+transcribe-audio-coming-soon = Transkribera ljud <small>(Kommer snart)</small>
 transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
+coming-soon = Kommer snart
 
 ## MENU ITEMS TOOLTIPS
 
@@ -104,21 +108,85 @@ community-and-languages-menu-item-aria-label = Utforska communityn och språk so
 
 ## Hero section
 
+hero-title = Teknik som talar ditt språk
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Varför ska AI bara fungera för några få av världens språk?</bold>
+hero-subtitle-2 = Vårt språk är vår berättelse, vår gemenskap, vår kultur. Låt oss skapa de datamängder som vi vill se i världen.
+# icon is an arrow that points downwards
+get-started = Kom igång <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice är en gratis, öppen källkodsplattform för community-ledd dataskapande
+action-items-section-subtitle = Vem som helst kan bevara, vitalisera och höja sitt språk genom att dela, skapa och förvalta text- och taldatamängder.
+scripted-card-header = Skrivet tal
+scripted-card-content = Läs meningar högt på ditt språk och bidra till den mest mångsidiga datamängden för offentligt deltagande i världen.
+spontaneous-card-header = Spontant tal
+spontaneous-card-content = Svara på frågor för att skapa datamängder för organiska vardagliga sammanhang. Passar perfekt för dina första språk.
+language-text-card-header = Språktext
+language-text-card-content = Skapa eller dela allmän egendom uppmaningar, meningar och text för översättning, små språkmodeller och mycket mer.
+coming-soon = Kommer snart
+add-text = Lägg till text
 
 ## Community section
 
+community-section-title = Drivs av globala gemenskaper, för globala gemenskaper — 130 språk och växer!
+join-discord-community = Gå med i Discord-communityt
+# label for button
+join-discord-community-action = Gå med oss på Discord
+join-discord-community-content = Delta i diskussioner i språkgemenskapen, ställ frågor och lär dig om kommande evenemang och föredrag.
+find-us-on-matrix = Hitta oss på Matrix
+find-us-on-matrix-content = Matrix är ett öppet, lätt protokoll för decentraliserad realtidskommunikation och Mozillas föredragna öppna diskussionsplattform.
+# label for button
+find-us-on-matrix-action = Hitta oss på Matrix
+ask-mozilla-share = Be Mozilla att dela dina händelser
+ask-mozilla-share-content = Har du ett tidigare eller kommande evenemang? Dela den med oss och vi kommer att tillkännage det för vår community eller skriv en blogg om det!
+# label for button
+ask-mozilla-share-action = Dela ditt evenemang
+download-contribution-certificate = Ladda ner ditt bidragsbevis
+download-contribution-certificate-content = Ladda ner ett certifikat för dina evenemang eller dig själv om du har bidragit till Common Voice — detta skulle inte vara möjligt med dig!
+# label for button
+download-contribution-certificate-action = Hämta ditt certifikat
+contribute-github = Bidra på GitHub
+contribute-github-content = Det här projektet skulle inte vara möjligt utan människor som du. 🎉 Det finns många sätt att engagera dig i Common Voice - du behöver inte kunna hur man kodar för att bidra!
+# label for button
+contribute-github-action = Bidra på GitHub
 
 ## Featured section
 
+featured-section-title = Utvald i...
+# icon is an arrow that points downwards
+download-press-pack = Ladda ner vårt presspaket <icon></icon>
 
 ## Developers section
 
+developers-section-title = Allmänt tillgängliga öppna datamängder för tal på över 130 språk
+developers-section-subtitle = Datamängder för ASR, STT, TTS och andra NLP-kontexter - skapad genom communitydeltagande.
+# icon is an arrow that points to the right
+explore-datasets = Utforska datamängder <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Stöd öppna, communityledda datamängder
+read-sentences-link = Läsa meningar
+validate-readings-link = Validera avläsningar
+contribute-link = Bidra till textkorpus
+answer-questions-link = Besvara frågor
+transcribe-answers-link = Transkribera svar
+review-transcriptions-link = Granska transkriptioner
+contribute-text-link = Bidra med text
+press-and-stories-link = Press och berättelser
 
 ## Partner section
 
+partner-section-title = Samarbeta med oss
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tekniska företag</bold> - investera i att skapa öppen datamängd för ett blomstrande flerspråkigt AI-ekosystem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Civilsamhället och forskare</bold> - skapa, värd för och dela slagkraftiga datamängder gratis
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> - sponsra skapandet av datamängder för att främja lokal innovation och utveckling
+# icon is an arrow that points to the right
+get-in-touch-button = Kontakta oss <icon></icon>
+# Partners section
+our-partners-include = Bland våra samarbetspartners finns...

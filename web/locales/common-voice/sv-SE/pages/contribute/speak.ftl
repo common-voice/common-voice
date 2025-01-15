@@ -62,6 +62,8 @@ create-profile-button = Skapa en profil
 img-alt-success-checkmark = lyckad kryssmarkering
 # menu item
 read-sentences = Läs meningar
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Läs meningar <small>(Kommer snart)</small>
 
 ## MENU ITEM TOOLTIPS
 

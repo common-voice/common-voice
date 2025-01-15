@@ -14,6 +14,8 @@ listen-abort-cancel = Fortsätt validera
 listen-abort-confirm = Slutför valideringen
 # Menu item
 validate-readings = Validera avläsning
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Validera mätningar <small>(Kommer snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
