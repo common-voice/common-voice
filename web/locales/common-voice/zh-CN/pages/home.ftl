@@ -104,11 +104,17 @@ community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社�
 
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>AI 对语言的支持，不应落下任何一门。</bold>
+hero-subtitle-2 = 语言可以讲述故事、构筑社区、反映文化。携起手来，打造我们所期盼看到的数据集。
 # icon is an arrow that points downwards
 get-started = 开始贡献 <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice 是自由的开源平台，供社区主导产生数据
+action-items-section-subtitle = 人人皆可分享、创造、整理文本和语音数据集，以此来保护、复兴、发扬自己的语言。
+scripted-card-header = 朗读文本
+spontaneous-card-header = 即兴发言
+spontaneous-card-content = 回答引导语，打造自然的口语语境数据集。非常适合以口语为主的语言。
 language-text-card-header = 语言文本
 coming-soon = 即将推出
 add-text = 添加文本
