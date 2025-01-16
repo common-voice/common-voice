@@ -118,8 +118,11 @@ get-started = დაიწყეთ <icon><icon>
 
 action-items-section-title = Common Voice არის უფასო, ღია წყაროს მქონე პლატფორმა თემის მიერ მონაცემების შექმნისთვის
 action-items-section-subtitle = ნებისმიერს შეუძლია საკუთარი ენის შენარჩუნება, გამოცოცხლება და განვითარება, ტექსტებისა და მეტყველების მონაცემთა კრებულების გაზიარებით, შექმნითა და შემოწმებით.
+scripted-card-header = ნაწერის გახმოვანება
 spontaneous-card-header = სპონტანური მეტყველება
+language-text-card-header = ტექსტი ენისთვის
 coming-soon = მალე
+add-text = დაამატეთ ტექსტი
 
 ## Community section
 
@@ -135,3 +138,7 @@ coming-soon = მალე
 
 ## Partner section
 
+# icon is an arrow that points to the right
+get-in-touch-button = შეგვეხმიანეთ <icon></icon>
+# Partners section
+our-partners-include = აგრეთვე ჩვენი მოკავშირეები არიან...
