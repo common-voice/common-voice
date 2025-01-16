@@ -84,6 +84,7 @@ add-questions = Přidat otázky <small>(Již brzy)</small>
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
+coming-soon = Již brzy
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,6 +108,8 @@ community-and-languages-menu-item-aria-label = Prozkoumejte komunitu a jazyky po
 
 ## Action items section
 
+coming-soon = Již brzy
+add-text = Přidat text
 
 ## Community section
 
