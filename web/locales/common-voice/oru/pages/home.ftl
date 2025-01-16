@@ -139,6 +139,10 @@ ask-mozilla-share-content = نیووه زېلی دی یِن؟ که بېن دی �
 # label for button
 ask-mozilla-share-action = ا واقعات شریک کَۀ
 download-contribution-certificate = ته حصه ته ڒیوک او ته وریوک ا سرټیفیکېټ ډاؤن لوډ کَۀ
+download-contribution-certificate-content = ته ځان یا ته ځان ته واقعات پاره ا سرټیفیکېټ ډاؤن لوډ کَۀ، که مشترک آواز کی تيې څه حصه نیکیزک بَۀ ــ سا ترتُو بغېر ممکِن نک بیوک!
+# label for button
+download-contribution-certificate-action = ا خوئ سرټیفیکېټ وُر
+contribute-github = GitHub نر ال ا خوئ حصه نیکِز
 
 ## Featured section
 
