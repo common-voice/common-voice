@@ -157,9 +157,12 @@ contribute-github-action = Xitlapaleui itech GitHub
 ## Featured section
 
 featured-section-title = Kitematltiaj itech...
+# icon is an arrow that points downwards
+download-press-pack = Xiktlajtlani tlen ika titlatematiltis <icon></icon>
 
 ## Developers section
 
+developers-section-title = Tlajtolnechikoli tlen nochtin uelis kitekitiltiskej ika 130+ tlajtolkopaj
 
 ## Get involved section
 
