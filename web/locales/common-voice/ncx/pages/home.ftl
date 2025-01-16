@@ -145,6 +145,11 @@ ask-mozilla-share = Xikilui Moxilla makitematilti tlen tikchiuas
 ask-mozilla-share-content = ¿Itlaj otikchi noso tikchiuas ika motlajtolkopa? ¡Techilui uan tikinmatiltiskej oksekimej tlen uan ken tikchiua!
 # label for button
 ask-mozilla-share-action = Xiktematilti tlen tikchiua
+download-contribution-certificate = Xiktlajtlani se amatl kanin kijtos otechpaleui
+download-contribution-certificate-content = Xiktlajtlani se amatl kanin kijtos otechpaleui nikan kanin Tinochtin Titlajtoaj — ¡Nin tekitl mochiua panpa te titechpaleuia!
+# label for button
+download-contribution-certificate-action = Xiktlajtlani se amatl
+contribute-github = Xitlapaleui itech GitHub
 
 ## Featured section
 
