@@ -118,6 +118,8 @@ action-items-section-subtitle = کوک بُو ګۀ ته زبان ا سبق او 
 scripted-card-header = لیکک خُلکت یا تقریر
 scripted-card-content = ا جملي خوئ زبان نر په زوټه غؤس او ته دنیا ټول لاسته ݫات مختلف ژغی زر مشتمل ته پبلک سپیچ ډېټاسېټ کی وه شېندن
 spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُلکت
+spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
+language-text-card-header = ته زبان ا سبق
 
 ## Community section
 
