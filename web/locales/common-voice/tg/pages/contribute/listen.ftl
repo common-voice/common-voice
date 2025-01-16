@@ -14,6 +14,7 @@ validate-readings-coming-soon = Хонишҳоро тасдиқ кунед <smal
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Хонишҳоро тасдиқ кунед, Овонависиро баррасӣ намоед
+validate-readings-menu-item-tooltip = Хонишҳоеро, ки аз ҷониби корбарон бо забони шумо сабт шудаанд, тасдиқ кунед
 review-transcriptions-menu-item-tooltip = Овонависиҳои аз ҷониби корбар пешниҳодшударо бо забони худ баррасӣ кунед
 
 ## MENU ITEM ARIA LABELS
