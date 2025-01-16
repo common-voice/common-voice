@@ -114,6 +114,7 @@ community-and-languages-menu-item-aria-label = Fedezze fel a közösséget és a
 
 ## Hero section
 
+hero-title = Technológia, amely beszéli az Ön nyelvét
 
 ## Action items section
 
