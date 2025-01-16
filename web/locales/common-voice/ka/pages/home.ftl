@@ -123,11 +123,21 @@ scripted-card-content = ამოიკითხეთ წინადადე�
 spontaneous-card-header = სპონტანური მეტყველება
 spontaneous-card-content = გაეცით პასუხი მოთხოვნებს, რომ მონაცემთა კრებული შეივსოს მეტად ბუნებრივი, სასაუბრო ენისთვის სახასიათო ჩანაწერებით. განსაკუთრებით გამოსადეგია დამწერლობის არმქონე ენებისთვის.
 language-text-card-header = ტექსტი ენისთვის
+language-text-card-content = თავადვე შეადგინეთ ან გააზიარეთ საყოველთაო საკუთრებაში არსებული წინადადებები, შეკითხვები, სათარგმნი ტექსტები, მცირე ენებისთვის განკუთვნილი ნიმუშები და სხვ.
 coming-soon = მალე
 add-text = დაამატეთ ტექსტი
 
 ## Community section
 
+community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — 130 ენა და ჯერ კიდევ მზარდია!
+join-discord-community = შემოუერთდით Discord-ერთობას
+# label for button
+join-discord-community-action = დაგვეწვიეთ Discord-ზე
+join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა და შეხვედრებს.
+find-us-on-matrix = გვიპოვეთ Matrix-ზე
+find-us-on-matrix-content = Matrix ღია, სწრაფმოქმედი ოქმის მქონე საშუალებაა ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
+# label for button
+find-us-on-matrix-action = გვიპოვეთ Matrix-ზე
 
 ## Featured section
 
