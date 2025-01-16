@@ -115,9 +115,15 @@ get-started = باشلايلى<icon><icon>
 
 action-items-section-title = Common Voice جامائەت يېتەكچىلىكىدىكى سانلىق مەلۇمات قۇرىدىغان ھەقسىز، ئوچۇق كودلۇق سۇپا.
 action-items-section-subtitle = ھەر كىم تېكىست ۋە نۇتۇق ھەمبەھىرلەش، قۇرۇش ۋە تۈزىتىش ئارقىلىق تىلىنى ساقلاپ قالالايدۇ، جانلاندۇرالايدۇ ۋە راۋاجلاندۇرالايدۇ.
+scripted-card-header = قوليازما نۇتقى
+add-text = تېكىست قوش
 
 ## Community section
 
+community-section-title = دۇنياۋى جامائەت ئىشلىگەن، دۇنياۋى جامائەت ئۈچۈن مۇلازىمەت قىلىدۇ — 130 تىلنى قوللايدۇ ھەمدە كېڭىيىۋاتىدۇ!
+join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
+# label for button
+join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
 
 ## Featured section
 
@@ -127,6 +133,13 @@ action-items-section-subtitle = ھەر كىم تېكىست ۋە نۇتۇق ھە�
 
 ## Get involved section
 
+read-sentences-link = جۈملە ئوقۇ
+validate-readings-link = ئوقۇشنى دەلىللە
+answer-questions-link = سوئالغا جاۋاب
+transcribe-answers-link = جاۋابنى خەتكە پۈت
+review-transcriptions-link = خەت پۈتۈك تەكشۈر
+contribute-text-link = تېكىستكە تۆھپە قوشىدۇ
+press-and-stories-link = خەۋەر ۋە ماقالە
 
 ## Partner section
 
