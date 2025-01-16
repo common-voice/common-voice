@@ -113,6 +113,7 @@ get-started = شُوري کېن
 
 ## Action items section
 
+action-items-section-title = مشترک آواز يې په لیۀ، ته جَوَت ذریعي پلېټفارم هۀ ته فا ډېټا پاره، که ا ݭيې کمیونېټي يې خوئ جوړَوی
 
 ## Community section
 
