@@ -107,7 +107,7 @@ community-and-languages-menu-item-aria-label = გამოიკვლიეთ
 
 ## Hero section
 
-hero-title = ტექნოლოგია, რომელიც თქვენს ენაზე საუბრობს
+hero-title = თქვენი ენით მოსაუბრე ტექნოლოგია
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>რატომ უნდა მუშაობდეს ხელოვნური ინტელექტი მხოლოდ რამდენიმე ენაზე მსოფლიოში?</bold>
 hero-subtitle-2 = ჩვენი ენა არის ჩვენი ისტორია, ჩვენი თემი, ჩვენი კულტურა. მოდით, შევქმნათ მონაცემთა კრებულები, რომელთა არსებობაც გვსურს.
@@ -125,7 +125,7 @@ spontaneous-card-content = გაეცით პასუხი მოთხო
 language-text-card-header = ტექსტი ენისთვის
 language-text-card-content = თავადვე შეადგინეთ ან გააზიარეთ საყოველთაო საკუთრებაში არსებული წინადადებები, შეკითხვები, სათარგმნი ტექსტები, მცირე ენებისთვის განკუთვნილი ნიმუშები და სხვ.
 coming-soon = მალე
-add-text = დაამატეთ ტექსტი
+add-text = ტექსტის დამატება
 
 ## Community section
 
@@ -173,6 +173,7 @@ contribute-link = შეავსეთ ტექსტური მასალ
 answer-questions-link = უპასუხეთ კითხვებს
 transcribe-answers-link = პასუხები აქციეთ ნაწერად
 review-transcriptions-link = შეამოწმეთ ნაწერად ქცეული
+contribute-text-link = შეიყვანეთ ტექსტი
 press-and-stories-link = პრესა და ამბები
 
 ## Partner section
