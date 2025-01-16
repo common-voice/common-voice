@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = ا ا ډیو نقل کَۀ <small>څوار بُو
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے
 community-and-languages = کمیونېټی او زبنی
+coming-soon = سېره ر بُو څوا
 
 ## MENU ITEMS TOOLTIPS
 
@@ -120,9 +121,13 @@ scripted-card-content = ا جملي خوئ زبان نر په زوټه غؤس ا
 spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُلکت
 spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
 language-text-card-header = ته زبان ا سبق
+language-text-card-content = ته پبلک ډزمېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
+coming-soon = سېره ر بُو څوا
+add-text = سبق ال يې ګډ کوئ
 
 ## Community section
 
+community-section-title = طاقتور ݭیوک ته دنیا ته کمیونېټي په وجه ــ زبنی او په مُختګ
 
 ## Featured section
 

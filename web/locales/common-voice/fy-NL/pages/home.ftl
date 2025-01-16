@@ -139,15 +139,30 @@ join-discord-community-action = Doch mei ús mei op Discord
 find-us-on-matrix = Fyn ús op Matrix
 # label for button
 find-us-on-matrix-action = Fyn ús op Matrix
+# label for button
+ask-mozilla-share-action = Jo evenemint diele
+# label for button
+contribute-github-action = Meiwurkje op GitHub
 
 ## Featured section
 
+featured-section-title = Oanrekommandearre yn…
+# icon is an arrow that points downwards
+download-press-pack = Download ús parsepakket <icon></icon>
 
 ## Developers section
 
 
 ## Get involved section
 
+read-sentences-link = Sinnen foarlêze
+validate-readings-link = Foarlêzen sinnen falidearje
+contribute-link = Bydrage oan tekstkorpus
+answer-questions-link = Fragen beäntwurdzje
+transcribe-answers-link = Antwurden transkribearje
+review-transcriptions-link = Transkripsjes beoardiele
+contribute-text-link = Tekst bydrage
+press-and-stories-link = Parse en ferhalen
 
 ## Partner section
 
