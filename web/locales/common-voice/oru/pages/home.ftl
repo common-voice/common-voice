@@ -155,6 +155,10 @@ download-press-pack = ترماخ ا پرېس پېک ډاؤن لوډ کوئ
 
 ## Developers section
 
+developers-section-title = عام خلق لیکی جَوَت میوک ډېټاسېټ 130لاسته زُت زبنی نر
+developers-section-subtitle = ډېټاسېټ ته ASR, STT, TTS, او بئے ته NLP په حواله ـــ ته کمیونېټی ته مشترک کوششی په ذریعة
+# icon is an arrow that points to the right
+explore-datasets = ډېټاسېټس دی معلوم کَۀ
 
 ## Get involved section
 
