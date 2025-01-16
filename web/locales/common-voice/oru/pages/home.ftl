@@ -128,6 +128,11 @@ add-text = سبق ال يې ګډ کوئ
 ## Community section
 
 community-section-title = طاقتور ݭیوک ته دنیا ته کمیونېټي په وجه ــ زبنی او په مُختګ
+join-discord-community = دنیا لاسته کټ کمیونېټیز ګیرډ ګډ سئ
+# label for button
+join-discord-community-action = ماخ ګډ مېلاؤ سئ ډِسکورډ کی
+join-discord-community-content = شامل سئ ته زبان ته کمیونېټی بحث مباحثي نر، سولَّی دی کوئ، او راتلونکئ واقعي، او خبُرئ دی ا ځان خبر ساتئ
+find-us-on-matrix = ماخ مېټرکس نر دُشئ
 
 ## Featured section
 
