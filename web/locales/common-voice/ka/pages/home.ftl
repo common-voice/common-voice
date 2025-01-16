@@ -129,7 +129,7 @@ add-text = ტექსტის დამატება
 
 ## Community section
 
-community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — 130 ენა და ჯერ კიდევ მზარდია!
+community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — 130 ენა და ჯერ კიდევ მზარდი!
 join-discord-community = შემოუერთდით Discord-ერთობას
 # label for button
 join-discord-community-action = დაგვეწვიეთ Discord-ზე
