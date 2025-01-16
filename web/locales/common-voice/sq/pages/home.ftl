@@ -128,6 +128,7 @@ add-text = Shtoni Tekst
 
 ## Community section
 
+community-section-title = Bazuar në bashkësitë globale, për bashkësi globale — 130 gjuhë dhe që shtohen!
 join-discord-community = Bëhuni Pjesë e Bashkësisë në Discord
 # label for button
 join-discord-community-action = Ejani te ne në Discord
@@ -151,14 +152,20 @@ contribute-github-action = Kontribuoni në GitHub
 
 ## Featured section
 
+featured-section-title = Paraqitur në…
+# icon is an arrow that points downwards
+download-press-pack = Shkarkoni paketën tonë për shtypin <icon></icon>
 
 ## Developers section
 
+developers-section-title = Grupe të dhënash të foluri, të hapët, të përdorshëm publikisht, në mbi 130+ gjuhë
+developers-section-subtitle = Grupe të dhënash për ASR, STT, TTS dhe kontekste të tjerë NLP - krijuar përmes pjesëmarrjes së bashkësisë.
 # icon is an arrow that points to the right
 explore-datasets = Eksploroni grupe të dhënash <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Përkrahni grupe të dhënash të hapët, të ngritur nga bashkësia
 read-sentences-link = Lexoni togfjalësha
 validate-readings-link = Vleftësoni lexime
 contribute-link = Kontribuoni te korpusi tekst
