@@ -123,6 +123,7 @@ scripted-card-content = Lexoni me zë togfjalëshat në gjuhën tuaj dhe kontrib
 spontaneous-card-header = E folur Spontane
 spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
 language-text-card-header = Tekst Gjuhe
+language-text-card-content = Krijoni ose ndani me të tjerë pyetje, togfjalësh dhe tekst në përkatësi publike dhe tekst për përkthim, modele të vegjël gjuhësorë, etj.
 coming-soon = Së Shpejti
 add-text = Shtoni Tekst
 
@@ -170,12 +171,20 @@ read-sentences-link = Lexoni togfjalësha
 validate-readings-link = Vleftësoni lexime
 contribute-link = Kontribuoni te korpusi tekst
 answer-questions-link = Përgjigjuni pyetjeve
+transcribe-answers-link = Transkriptoni përgjigje
+review-transcriptions-link = Shqyrtoni transkriptime
 contribute-text-link = Kontribuoni tekst
 press-and-stories-link = Për shtypin dhe shembuj
 
 ## Partner section
 
 partner-section-title = Partneritet me ne
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Shoqëri teknologjish</bold> - investoni në krijim grupesh të dhënash të hapura për një ekosistem të lulëzuar shumëgjuhësh IA
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Shoqëria civile dhe studiues kërkimorë</bold> - krijoni, strehoni  dhe ndani me të tjerë lirisht grupe të dhënash që kanë ndikim të fuqishëm
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropë</bold> - sponsorizoni krijim grupesh të dhënash, për të ushqyer risi dhe zhvillim vendor
 # icon is an arrow that points to the right
 get-in-touch-button = Lidhuni <icon></icon>
 # Partners section
