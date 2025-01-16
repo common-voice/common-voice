@@ -78,11 +78,15 @@ read-more-about = Lexoni më tepër te faqja jonë Mbi
 ## NAV ITEMS
 
 answer-questions = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
+answer-questions-coming-soon = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
 review-transcriptions = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
+review-transcriptions-coming-soon = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
 add-questions = Shtoni Pyetje <small>(Së shpejti)</small>
+transcribe-audio-coming-soon = Transkriptoni Audio <small>(Së shpejti)</small>
 transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë
+coming-soon = Së Shpejti
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,21 +107,43 @@ community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuh�
 
 ## Hero section
 
+hero-title = Teknologji që flet gjuhën tuaj
+# icon is an arrow that points downwards
+get-started = Fillojani <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Tekst Gjuhe
+coming-soon = Së Shpejti
+add-text = Shtoni Tekst
 
 ## Community section
 
+find-us-on-matrix = Gjenani në Matrix
+# label for button
+find-us-on-matrix-action = Gjenani në Matrix
 
 ## Featured section
 
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Eksploroni grupe të dhënash <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Lexoni togfjalësha
+validate-readings-link = Vleftësoni lexime
+contribute-link = Kontribuoni te korpusi tekst
+answer-questions-link = Përgjigjuni pyetjeve
+contribute-text-link = Kontribuoni tekst
+press-and-stories-link = Për shtypin dhe shembuj
 
 ## Partner section
 
+partner-section-title = Partneritet me ne
+# icon is an arrow that points to the right
+get-in-touch-button = Lidhuni <icon></icon>
+# Partners section
+our-partners-include = Në partnerët tanë përfshihen…

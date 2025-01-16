@@ -14,6 +14,8 @@ listen-abort-cancel = Vazhdoni me vlerësimin
 listen-abort-confirm = Përfundoni vlerësimin
 # Menu item
 validate-readings = Vleftësoni Lexime
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Vleftësoni Lexime <small>(Së shpejti)</small>
 
 ## MENU ITEM TOOLTIPS
 
