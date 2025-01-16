@@ -114,6 +114,7 @@ get-started = باشلايلى<icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice جامائەت يېتەكچىلىكىدىكى سانلىق مەلۇمات قۇرىدىغان ھەقسىز، ئوچۇق كودلۇق سۇپا.
+action-items-section-subtitle = ھەر كىم تېكىست ۋە نۇتۇق ھەمبەھىرلەش، قۇرۇش ۋە تۈزىتىش ئارقىلىق تىلىنى ساقلاپ قالالايدۇ، جانلاندۇرالايدۇ ۋە راۋاجلاندۇرالايدۇ.
 
 ## Community section
 
