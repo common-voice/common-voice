@@ -138,6 +138,10 @@ find-us-on-matrix = გვიპოვეთ Matrix-ზე
 find-us-on-matrix-content = Matrix ღია, სწრაფმოქმედი ოქმის მქონე საშუალებაა ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
 # label for button
 find-us-on-matrix-action = გვიპოვეთ Matrix-ზე
+ask-mozilla-share = დაიხმარეთ Mozilla შეკრებებში
+ask-mozilla-share-content = გქონდათ ან გეგმავთ რამე ღონისძიებას? გაგვიზიარეთ და ჩვენ გავაცნობთ საზოგადოებას ან გამოვაქვეყნებთ სვეტს!
+# label for button
+ask-mozilla-share-action = გააზიარეთ შეკრება
 
 ## Featured section
 
