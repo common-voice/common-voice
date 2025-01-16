@@ -171,6 +171,12 @@ answer-questions-link = Vragen beantwoorden
 transcribe-answers-link = Antwoorden transcriberen
 review-transcriptions-link = Transcripties beoordelen
 contribute-text-link = Tekst bijdragen
+press-and-stories-link = Pers en verhalen
 
 ## Partner section
 
+partner-section-title = Partner worden
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Techbedrijven</bold> – investeer in het maken van open gegevenssets voor een bloeiend meertalig AI-ecosysteem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Maatschappelijk middenveld en onderzoekers</bold> - maak, host en deel gratis betekenisvolle datasets
