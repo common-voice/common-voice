@@ -62,6 +62,8 @@ create-profile-button = تەرجىمىھال قۇر
 img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
 # menu item
 read-sentences = جۈملە ئوقۇ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جۈملە ئوقۇ<small>(پات يېقىندا قوشۇلىدۇ)</small>
 
 ## MENU ITEM TOOLTIPS
 

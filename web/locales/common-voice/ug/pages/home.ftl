@@ -76,8 +76,11 @@ read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتى�
 ## NAV ITEMS
 
 answer-questions = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
+answer-questions-coming-soon = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
 review-transcriptions = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
+review-transcriptions-coming-soon = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
 add-questions = سوئال قوش<small>(پات يېقىندا قوشۇلىدۇ)</small>
+transcribe-audio-coming-soon = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
@@ -101,9 +104,16 @@ community-and-languages-menu-item-aria-label = Common Voice قوللىغان ت�
 
 ## Hero section
 
+hero-title = تىلىڭىزنى سۆزلەيدىغان تېخنىكا
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> نېمىشقا سۈنئىي ئەقىل دۇنيادىكى بىر قانچە تىل ئۈچۈنلا ئىشلەيدۇ؟</bold>
+hero-subtitle-2 = تىلىمىز بىزنىڭ ھېكايىمىز، جامائىتىمىز، مەدەنىيىتىمىزدۇر. بىز دۇنيادا كۆرمەكچى بولغان ساندان توپلىمىنى قۇرايلى.
+# icon is an arrow that points downwards
+get-started = باشلايلى<icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice جامائەت يېتەكچىلىكىدىكى سانلىق مەلۇمات قۇرىدىغان ھەقسىز، ئوچۇق كودلۇق سۇپا.
 
 ## Community section
 
