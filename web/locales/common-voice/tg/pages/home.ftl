@@ -72,11 +72,15 @@ read-more-about = Дар саҳифаи «Дар бораи мо» бештар 
 ## NAV ITEMS
 
 answer-questions = Ба саволҳо ҷавоб диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
+answer-questions-coming-soon = Ба саволҳо ҷавоб диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 review-transcriptions = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
+review-transcriptions-coming-soon = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 add-questions = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
+transcribe-audio-coming-soon = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 press-and-stories = Матбуот ва ҳикояҳо
 community-and-languages = Ҷомеа ва забонҳо
+coming-soon = Ба наздикӣ дастрас мешавад
 
 ## MENU ITEMS TOOLTIPS
 
@@ -95,9 +99,17 @@ partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Comm
 
 ## Hero section
 
+hero-title = Технологияе, ки бо забони шумо ҳарф мезанад
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Чаро зеҳни сунъӣ (AI) бояд танҳо барои якчанд забон дар саросари ҷаҳон кор кунад?</bold>
+# icon is an arrow that points downwards
+get-started = Оғози кор <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Матни забон
+coming-soon = Ба наздикӣ дастрас мешавад
+add-text = Илова кардани матн
 
 ## Community section
 
