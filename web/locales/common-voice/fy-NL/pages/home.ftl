@@ -125,22 +125,32 @@ get-started = Begjinne <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice is in fergees, iepenboarneplatfoarm foar troch de mienskip liede gegevenskreaasje
+action-items-section-subtitle = Elkenien kin syn of har taal behâlde, nij libben ynblaze en ferbetterje troch it dielen, oanmeitsjen en meitsjen fan tekst- en spraakgegevenssets.
 scripted-card-header = Scriptspraak
+scripted-card-content = Lês sinnen yn jo taal lûdop en draach by oan de meast ferskate spraakgegevensset foar publyksdielname yn de wrâld.
 spontaneous-card-header = Spontane spraak
+spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar organyske, ynformele konteksten. Perfekt foar orale talen.
 language-text-card-header = Taaltekst
+language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
 coming-soon = Ynkoarten beskikber
 add-text = Tekst tafoegje
 
 ## Community section
 
+community-section-title = Mooglik makke troch wrâldwide mienskippen, foar wrâldwide mienskippen – 130 talen en groeiende!
 join-discord-community = Doch mei mei de Discord-mienskip
 # label for button
 join-discord-community-action = Doch mei ús mei op Discord
+join-discord-community-content = Doch mei oan taalmienskipsdiskusjes, stel fragen en lês oer oankommende eveneminten en petearen.
 find-us-on-matrix = Fyn ús op Matrix
+find-us-on-matrix-content = Matrix is in iepen, ljochtgewicht protokol foar desintralisearre, realtime kommunikaasje en it iepen diskusjeplatfoarm fan Mozilla.
 # label for button
 find-us-on-matrix-action = Fyn ús op Matrix
+ask-mozilla-share = Freegje Mozilla om jo eveneminten te dielen
+ask-mozilla-share-content = Hawwe jo in foarige of oankommend evenemint? Diel it mei ús en wy sille it oankundigje oan ús mienskip of der in blog oer skriuwe!
 # label for button
 ask-mozilla-share-action = Jo evenemint diele
+download-contribution-certificate = Jo bydragesertifikaat downloade
 # label for button
 contribute-github-action = Meiwurkje op GitHub
 

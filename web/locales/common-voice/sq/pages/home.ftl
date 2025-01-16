@@ -108,17 +108,30 @@ community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuh�
 ## Hero section
 
 hero-title = Teknologji që flet gjuhën tuaj
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Pse duhet të punojë vetëm për ca nga gjuhët e botës IA-ja?</bold>
+hero-subtitle-2 = Gjuha jonë është historia jonë, bashkësia jonë, kultura jonë. Le të krijojmë grupet e të dhënave që duam të shohim në botë.
 # icon is an arrow that points downwards
 get-started = Fillojani <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice është një platformë falas, me burim të hapët, për krijim të dhënash nga bashkësia
+action-items-section-subtitle = Cilido mund të ruajë, rivitalizojë dhe ngrejë më lart gjuhën e vet, duke ndarë me të tjerët, duke krijuar dhe duke u kujdesur për grupe të dhënash tekstesh dhe të folure.
+scripted-card-header = E folur e Shkruar
+scripted-card-content = Lexoni me zë togfjalëshat në gjuhën tuaj dhe kontribuoni  në grupin e të dhënave të të folurit me pjesëmarrjen më të larmishme të publikut në botë.
+spontaneous-card-header = E folur Spontane
+spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
 language-text-card-header = Tekst Gjuhe
 coming-soon = Së Shpejti
 add-text = Shtoni Tekst
 
 ## Community section
 
+join-discord-community = Bëhuni Pjesë e Bashkësisë në Discord
+# label for button
+join-discord-community-action = Ejani te ne në Discord
+join-discord-community-content = Merrni pjesë në diskutime bashkësie gjuhe, bëni pyetje dhe mësoni rreth veprimtarish dhe bisedash të ardhme.
 find-us-on-matrix = Gjenani në Matrix
 # label for button
 find-us-on-matrix-action = Gjenani në Matrix
