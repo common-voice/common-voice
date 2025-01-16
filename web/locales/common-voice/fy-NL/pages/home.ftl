@@ -86,11 +86,15 @@ read-more-about = Mear ynfo op ús side Oer
 ## NAV ITEMS
 
 answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
+answer-questions-coming-soon = Fragen beäntwurdzje <small>(ynkoarten)</small>
 review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
+review-transcriptions-coming-soon = Transkripsjes beoardiele <small>(ynkoarten)</small>
 add-questions = Fragen tafoegje <small>(ynkoarten)</small>
+transcribe-audio-coming-soon = Audio transkribearje <small>(ynkoarten)</small>
 transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
+coming-soon = Ynkoarten beskikber
 
 ## MENU ITEMS TOOLTIPS
 
@@ -111,12 +115,30 @@ community-and-languages-menu-item-aria-label = De troch Common Voice stipe miens
 
 ## Hero section
 
+hero-title = Technology dy’t jo taal sprekt
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Wêrom soe AI allinnich foar in pear fan de wrâldtalen wurkje?</bold>
+hero-subtitle-2 = Us taal is ús ferhaal, ús mienskip, ús kultuer. Litte wy de gegevenssets meitsje dy’t wy yn de wrâld sjen wolle.
+# icon is an arrow that points downwards
+get-started = Begjinne <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice is in fergees, iepenboarneplatfoarm foar troch de mienskip liede gegevenskreaasje
+scripted-card-header = Scriptspraak
+spontaneous-card-header = Spontane spraak
+language-text-card-header = Taaltekst
+coming-soon = Ynkoarten beskikber
+add-text = Tekst tafoegje
 
 ## Community section
 
+join-discord-community = Doch mei mei de Discord-mienskip
+# label for button
+join-discord-community-action = Doch mei ús mei op Discord
+find-us-on-matrix = Fyn ús op Matrix
+# label for button
+find-us-on-matrix-action = Fyn ús op Matrix
 
 ## Featured section
 
