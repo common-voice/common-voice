@@ -131,6 +131,7 @@ ln = ພາສາລິງກາລາ
 lo = ພາສາລາວ
 lt = ພາສາລີທົວເນຍ
 ltg = Latgalian
+luo = Dholuo
 lv = ພາສາລັດເວຍ
 lzz = Laz
 mai = ພາ​ສາ​ໄມ​ທິ​ລິ
