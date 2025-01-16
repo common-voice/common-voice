@@ -135,9 +135,16 @@ contribute-github-action = Дар «GitHub» саҳм гузоред
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Ҷумлаҳоро хонед
+validate-readings-link = Хонишҳоро тасдиқ кунед
+contribute-link = Ба маҷмуи матнӣ саҳм гузоред
+answer-questions-link = Ба саволҳо ҷавоб диҳед
+transcribe-answers-link = Ҷавобҳоро ба матн табдил диҳед
 
 ## Partner section
 
