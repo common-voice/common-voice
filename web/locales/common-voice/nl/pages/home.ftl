@@ -76,8 +76,11 @@ read-more-about = Meer info op onze pagina Over
 ## NAV ITEMS
 
 answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
+answer-questions-coming-soon = Vragen beantwoorden <small>(binnenkort)</small>
 review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
+review-transcriptions-coming-soon = Transcripties beoordelen <small>(binnenkort)</small>
 add-questions = Vragen toevoegen <small>(binnenkort)</small>
+transcribe-audio-coming-soon = Audio transcriberen <small>(binnenkort)</small>
 transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
@@ -101,9 +104,16 @@ community-and-languages-menu-item-aria-label = De door Common Voice ondersteunde
 
 ## Hero section
 
+hero-title = Technologie die uw taal spreekt
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Waarom zou AI maar voor een paar talen in de wereld moeten werken?</bold>
+hero-subtitle-2 = Onze taal is ons verhaal, onze gemeenschap, onze cultuur. Laten we de gegevenssets maken die we in de wereld willen zien.
+# icon is an arrow that points downwards
+get-started = Beginnen <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice is een gratis, opensourceplatform voor door de gemeenschap geleide gegevenscreatie
 
 ## Community section
 
