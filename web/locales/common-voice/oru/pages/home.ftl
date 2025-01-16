@@ -134,6 +134,8 @@ join-discord-community-action = ماخ ګډ مېلاؤ سئ ډِسکورډ کی
 join-discord-community-content = شامل سئ ته زبان ته کمیونېټی بحث مباحثي نر، سولَّی دی کوئ، او راتلونکئ واقعي، او خبُرئ دی ا ځان خبر ساتئ
 find-us-on-matrix = ماخ مېټرکس نر دُشئ
 find-us-on-matrix-content = مېټرېکس يې سۀ جَوَت، او الُک پروټوکول هۀ ته ډی سنټرلزائزډ، ريئل ټائم کمیونېټی پاره، او ته موزیلا خؤش پلېټفارم ته عام او جَوَت بحث مباحثي پاره
+# label for button
+find-us-on-matrix-action = ماخ مېټرکس نر دُشئ
 ask-mozilla-share = موزیلا کی غؤسئ که ترتیوس ا پروګرمی او ا تقریبات شریک کوی
 ask-mozilla-share-content = نیووه زېلی دی یِن؟ که بېن دی ماخ ګیرډه وه شریک کَۀ، ماخه وې سو اعلان کيېن خوئ کمیونېټی نر، یا يې ته پۀ پاره بلاګ جوړ کَۀ
 # label for button
@@ -162,6 +164,15 @@ explore-datasets = ډېټاسېټس دی معلوم کَۀ
 
 ## Get involved section
 
+get-involved-section-title = ته کمیونېټی په ذریعه روان جَوَت ډېټاسېټس دی معلوم کېون
+read-sentences-link = جملي دی غؤس
+validate-readings-link = ته غوېک جملي توثیق يې کَۀ
+contribute-link = ټېکسټ کارپس نر يې حصه وُر
+answer-questions-link = ته سولَّلی ځَوَبی دی کَۀ
+transcribe-answers-link = ا ځَوَبَّبي نقل کَۀ
+review-transcriptions-link = خوئ زبان کی ا نقل ݭیوک لیک زر يې دیم نظر نیکِز
+contribute-text-link = سبق ال يې ګډ کَۀ
+press-and-stories-link = پرېس او کهانئے
 
 ## Partner section
 
