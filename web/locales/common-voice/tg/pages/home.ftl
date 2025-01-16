@@ -113,6 +113,22 @@ add-text = Илова кардани матн
 
 ## Community section
 
+community-section-title = Бо дастгирии ҷомеаҳои умумиҷаҳонӣ ва барои ҷомеаҳои умумиҷаҳонӣ фаъолият мекунад — 130 забон ва зиёд шуда истодааст!
+join-discord-community = Ба ҷамъияти мо дар «Discord» ҳамроҳ шавед
+# label for button
+join-discord-community-action = Ба мо дар «Discord» ҳамроҳ шавед
+find-us-on-matrix = Моро дар «Matrix» пайдо кунед
+# label for button
+find-us-on-matrix-action = Моро дар «Matrix» пайдо кунед
+ask-mozilla-share = Аз «Mozilla» хоҳиш кунед, ки дар бораи чорабиниҳои шумо маълумот паҳн кунад
+# label for button
+ask-mozilla-share-action = Дар бораи чорабинии худ маълумот паҳн кунед
+download-contribution-certificate = Шаҳодатномаро дар бораи саҳмгузории овози худ боргирӣ намоед
+# label for button
+download-contribution-certificate-action = Шаҳодатномаи худро ба даст оред
+contribute-github = Дар «GitHub» саҳм гузоред
+# label for button
+contribute-github-action = Дар «GitHub» саҳм гузоред
 
 ## Featured section
 
