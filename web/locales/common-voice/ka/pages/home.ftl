@@ -154,12 +154,21 @@ contribute-github-action = ჩაერთეთ GitHub-ზე
 ## Featured section
 
 featured-section-title = გვიხსენიებს ხოლმე...
+# icon is an arrow that points downwards
+download-press-pack = ჩამოტვირთეთ ჩვენი პრესკრებული <icon></icon>
 
 ## Developers section
 
+developers-section-title = საჯაროდ ხელმისაწვდომი მეტყველების მონაცემთა ღია კრებული 130-ზე მეტ ენაზე
+developers-section-subtitle = მონაცემთა კრებული ASR, STT, TTS და სხვა NLP-საშუალებებისთვის - შექმნილი სახალხო ერთობის მონაწილეობით.
+# icon is an arrow that points to the right
+explore-datasets = იხილეთ კრებულები <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = მხარი დაუჭირეთ ღია, სახალხო ერთობის წინამძღოლობით შექმნილ კრებულებს
+read-sentences-link = წაიკითხეთ წინადადებები
+validate-readings-link = გადაამოწმეთ წაკითხული
 
 ## Partner section
 
