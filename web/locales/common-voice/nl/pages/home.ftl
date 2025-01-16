@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = Audio transcriberen <small>(binnenkort)</small>
 transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
+coming-soon = Binnenkort beschikbaar
 
 ## MENU ITEMS TOOLTIPS
 
@@ -114,18 +115,62 @@ get-started = Beginnen <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice is een gratis, opensourceplatform voor door de gemeenschap geleide gegevenscreatie
+action-items-section-subtitle = Iedereen kan zijn of haar taal behouden, nieuw leven inblazen en verbeteren door tekst- en spraakgegevenssets te delen, maken en beheren.
+scripted-card-header = Scriptspraak
+scripted-card-content = Lees zinnen in uw taal hardop en draag bij aan de meest diverse spraakgegevensset door publieksparticipatie ter wereld.
+spontaneous-card-header = Spontane spraak
+spontaneous-card-content = Beantwoord vragen om gegevenssets te maken voor organische, informele contexten. Perfect voor orale talen.
+language-text-card-header = Taaltekst
+language-text-card-content = Maak of deel vragen, zinnen en tekst in het publieke domein voor vertaling, kleine taalmodellen en meer.
+coming-soon = Binnenkort beschikbaar
+add-text = Tekst toevoegen
 
 ## Community section
 
+community-section-title = Mogelijk gemaakt door wereldwijde gemeenschappen, voor wereldwijde gemeenschappen – 130 talen en groeiende!
+join-discord-community = Doe mee met de Discord-gemeenschap
+# label for button
+join-discord-community-action = Doe met ons mee op Discord
+join-discord-community-content = Neem deel aan discussies in de taalgemeenschap, stel vragen en lees over aankomende evenementen en lezingen.
+find-us-on-matrix = Vind ons op Matrix
+find-us-on-matrix-content = Matrix is een open, lichtgewicht protocol voor gedecentraliseerde, realtime communicatie en het open voorkeursdiscussieplatform van Mozilla.
+# label for button
+find-us-on-matrix-action = Vind ons op Matrix
+ask-mozilla-share = Vraag Mozilla om uw evenementen te delen
+ask-mozilla-share-content = Hebt u een eerdere of aankomende gebeurtenis? Deel het met ons en we zullen deze aan onze gemeenschap aankondigen of er een blog over schrijven!
+# label for button
+ask-mozilla-share-action = Uw evenement delen
+download-contribution-certificate = Uw bijdragecertificaat downloaden
+# label for button
+download-contribution-certificate-action = Uw certificaat ophalen
+contribute-github = Bijdragen op GitHub
+contribute-github-content = Dit project zou niet mogelijk zijn zonder mensen zoals u. 🎉 Er zijn veel manieren om aan Common Voice deel te  nemen – u hoeft niet te weten hoe u code moet schrijven om bij te dragen!
+# label for button
+contribute-github-action = Bijdragen op GitHub
 
 ## Featured section
 
+featured-section-title = Aanbevolen in…
+# icon is an arrow that points downwards
+download-press-pack = Download ons perspakket <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publiek toegankelijke open spraakgegevenssets in meer dan 130 talen
+developers-section-subtitle = Gegevenssets voor ASR, STT, TTS en andere NLP-contexten – gemaakt via deelname van de gemeenschap.
+# icon is an arrow that points to the right
+explore-datasets = Gegevenssets verkennen <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Ondersteun open, door de gemeenschap geleide gegevenssets
+read-sentences-link = Zinnen voorlezen
+validate-readings-link = Voorgelezen zinnen valideren
+contribute-link = Bijdragen aan tekstcorpus
+answer-questions-link = Vragen beantwoorden
+transcribe-answers-link = Antwoorden transcriberen
+review-transcriptions-link = Transcripties beoordelen
+contribute-text-link = Tekst bijdragen
 
 ## Partner section
 
