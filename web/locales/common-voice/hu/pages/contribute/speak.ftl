@@ -62,6 +62,8 @@ create-profile-button = Profil létrehozása
 img-alt-success-checkmark = sikert jelző pipa
 # menu item
 read-sentences = Mondatok felolvasása
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Mondatok olvasása <small>(hamarosan)</small>
 
 ## MENU ITEM TOOLTIPS
 

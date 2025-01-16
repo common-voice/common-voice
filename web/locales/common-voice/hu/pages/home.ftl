@@ -85,10 +85,13 @@ read-more-about = További információk a Névjegy oldalon
 
 ## NAV ITEMS
 
-answer-questions = Válaszoljon kérdésekre <small>(Hamarosan)</small>
-review-transcriptions = Ellenőrizzen leiratozásokat <small>(Hamarosan)</small>
-add-questions = Kérdések hozzáadása <small>(Hamarosan)</small>
-transcribe-audio = Hangok leiratozása <small>(Hamarosan)</small>
+answer-questions = Kérdések megválaszolása
+answer-questions-coming-soon = Kérdések megválaszolása <small>(hamarosan)</small>
+review-transcriptions = Leiratok ellenőrzése
+review-transcriptions-coming-soon = Leiratok ellenőrzése <small>(hamarosan)</small>
+add-questions = Kérdések hozzáadása <small>(hamarosan)</small>
+transcribe-audio-coming-soon = Hangok leiratozása <small>(hamarosan)</small>
+transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
 community-and-languages = Közösség és nyelvek
 

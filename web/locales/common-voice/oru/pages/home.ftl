@@ -114,6 +114,8 @@ get-started = شُوري کېن
 ## Action items section
 
 action-items-section-title = مشترک آواز يې په لیۀ، ته جَوَت ذریعي پلېټفارم هۀ ته فا ډېټا پاره، که ا ݭيې کمیونېټي يې خوئ جوړَوی
+action-items-section-subtitle = کوک بُو ګۀ ته زبان ا سبق او ا ډېټاسېټ ته مشترک کؤ، جوړؤ، او سِرکؤ په ذریعۀ ا خوئ زبان ساتيېک، پنځيېک، او په پېچُمئ لیکېک اېنچی
+scripted-card-header = لیکک خُلکت یا تقریر
 
 ## Community section
 
