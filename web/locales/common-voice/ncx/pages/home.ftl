@@ -85,7 +85,9 @@ read-more-about = Xikmati okachi kanin Tiktematiltiaj
 answer-questions = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
 answer-questions-coming-soon = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
 review-transcriptions = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
+review-transcriptions-coming-soon = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
 add-questions = Xikinmijkuilo seki Tlajtlanilmej <small>(Yikin yetos)</small>
+transcribe-audio-coming-soon = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 transcribe-audio = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 press-and-stories = Tlen yikin omochi
 community-and-languages = Akinmej Tlajtoaj
@@ -181,3 +183,14 @@ press-and-stories-link = Tlen yikin omochi
 
 ## Partner section
 
+partner-section-title = Okachi techpaleui
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Akinmej kinchiuaj teposmej</bold> - xitlapeluiakan matikololokan tlajtoli ika miakej tlatlamantli tlajtolkopaj uan ijkon okachi kuali tekipanos IA
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Altepenechikolmej uan akinmej tlatemoaj</bold> - san ijki xikchiuakan, xikololokan uan xiktematiltikan tlen uelis techpaleuis
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Akinmej tepaleuiaj ika tomin</bold> - techpaleuikan ika se kech matikchiuakan tlen uelis kipaleuis namoaltepe
+# icon is an arrow that points to the right
+get-in-touch-button = Xikmato tlen tikchiuaj <icon></icon>
+# Partners section
+our-partners-include = Sekimej akinmej okachi techpaleuiaj...
