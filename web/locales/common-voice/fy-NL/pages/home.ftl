@@ -152,6 +152,9 @@ ask-mozilla-share-content = Hawwe jo in foarige of oankommend evenemint? Diel it
 ask-mozilla-share-action = Jo evenemint diele
 download-contribution-certificate = Jo bydragesertifikaat downloade
 # label for button
+download-contribution-certificate-action = Jo sertifikaat ophelje
+contribute-github = Meiwurkje op GitHub
+# label for button
 contribute-github-action = Meiwurkje op GitHub
 
 ## Featured section

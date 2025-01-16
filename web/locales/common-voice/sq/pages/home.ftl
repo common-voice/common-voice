@@ -133,8 +133,21 @@ join-discord-community = Bëhuni Pjesë e Bashkësisë në Discord
 join-discord-community-action = Ejani te ne në Discord
 join-discord-community-content = Merrni pjesë në diskutime bashkësie gjuhe, bëni pyetje dhe mësoni rreth veprimtarish dhe bisedash të ardhme.
 find-us-on-matrix = Gjenani në Matrix
+find-us-on-matrix-content = Matrix-i është një protokoll i hapët, i peshës së lehtë për komunikime të atypëratyshme të decentralizuara dhe platforma e parapëlqyer e Mozilla-s për diskutime të hapëta.
 # label for button
 find-us-on-matrix-action = Gjenani në Matrix
+ask-mozilla-share = Kërkojin Mozilla-s të ndajë me të tjerët veprimtaritë tuaja
+ask-mozilla-share-content = Keni një veprimtari të mëparshme, apo të ardhshme? Na e tregoni dhe do ta njoftojmë në bashkësinë tonë, ose do të shkruajmë për të në blog!
+# label for button
+ask-mozilla-share-action = Ndajeni veprimtarinë tuaj me të tjerët
+download-contribution-certificate = Shkarkoni dëshminë e kontributit tuaj
+download-contribution-certificate-content = Shkarkoni një dëshmi për veprimtaritë tuaja, ose veten tuaj, nëse keni dhënë kontribut te Common Voice — kjo s’do të kish qenë e mundur pa ju!
+# label for button
+download-contribution-certificate-action = Merrni dëshminë tuaj
+contribute-github = Kontribuoni në GitHub
+contribute-github-content = Ky projekt s’do të kishte qenë i mundur pa njerëz si ju. 🎉 Ka mjaft rrugë për t’u përfshirë në Common Voice - që të jepni ndihmesë, s’ka nevojë të dini programim!
+# label for button
+contribute-github-action = Kontribuoni në GitHub
 
 ## Featured section
 
