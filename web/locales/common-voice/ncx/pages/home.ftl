@@ -121,11 +121,11 @@ get-started = Xipeua <icon><icon>
 
 action-items-section-title = Common Voice (Tinochtin Titlajtoaj) amikaj iaxka, nochtin kichiuaj uan nochtin uelis kitekitiltiskej
 action-items-section-subtitle = San akin uelis kimaluis, kiyolitis uan kiyankuilis itlajtolkopa ika kitematiltis, uan kinechikos tlen kijkuilos uan kijtos.
-scripted-card-header = Xiktlajtolti
+scripted-card-header = Xiktlajtolti tlen ijkuilijtok
 scripted-card-content = Xiktlajtolti tlen ijkuilijtok ika motlajtolkopa uan xipoui itech se tlajtolnechikoli kanin melauak tinochtin titlajtoaj.
-spontaneous-card-header = Xitlajto
+spontaneous-card-header = Kualtsin xitlajto
 spontaneous-card-content = Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.
-language-text-card-header = Xitlajkuilo
+language-text-card-header = Seki xitlajkuilo
 language-text-card-content = Xikijkuilo tlen oksekimej kitlajtoltiskej, kinankiliskej, ika mopaleuiskej uan okseki tlamantli.
 coming-soon = Yikin yetos
 add-text = Xitlajkuilo
@@ -150,9 +150,13 @@ download-contribution-certificate-content = Xiktlajtlani se amatl kanin kijtos o
 # label for button
 download-contribution-certificate-action = Xiktlajtlani se amatl
 contribute-github = Xitlapaleui itech GitHub
+contribute-github-content = Nochi nin amo yetoskia tla miakej ken tejuatsin amo techpaleuiskiaj. 🎉 Tlatlamantli uelis titlapaleuis itech Tinochtin Titlajtoaj (Common Voice) - ¡Amo monekis tikchiuas itlaj oui!
+# label for button
+contribute-github-action = Xitlapaleui itech GitHub
 
 ## Featured section
 
+featured-section-title = Kitematltiaj itech...
 
 ## Developers section
 
