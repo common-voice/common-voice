@@ -169,9 +169,19 @@ explore-datasets = იხილეთ კრებულები <icon></icon>
 get-involved-section-title = მხარი დაუჭირეთ ღია, სახალხო ერთობის წინამძღოლობით შექმნილ კრებულებს
 read-sentences-link = წაიკითხეთ წინადადებები
 validate-readings-link = გადაამოწმეთ წაკითხული
+contribute-link = შეავსეთ ტექსტური მასალები
+answer-questions-link = უპასუხეთ კითხვებს
+press-and-stories-link = პრესა და ამბები
 
 ## Partner section
 
+partner-section-title = გვეთანამშრომლეთ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ტექკომპანიები</bold> - მონაცემთა ღია კრებულების შექმნაში დაბანდებებით მრავალენოვანი AI-გარემოს ასაყვავებლად
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>სამოქალაქო საზოგადოებები და მკვლევრები</bold> - შთამბეჭდავი კრებულების შექმნით, განთავსებითა და გაზიარებით უსასყიდლოდ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ქველმოქმედნი</bold> - მონაცემთა კრებულების დაფინანსებით ადგილობრივ მხარეში სიახლეების დანერგვისა და განვითარებისთვის
 # icon is an arrow that points to the right
 get-in-touch-button = შეგვეხმიანეთ <icon></icon>
 # Partners section
