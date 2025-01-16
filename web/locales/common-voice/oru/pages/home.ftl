@@ -143,9 +143,15 @@ download-contribution-certificate-content = ته ځان یا ته ځان ته و
 # label for button
 download-contribution-certificate-action = ا خوئ سرټیفیکېټ وُر
 contribute-github = GitHub نر ال ا خوئ حصه نیکِز
+contribute-github-content = او پراجېکټ ترتُو غُندک ته خلق بغېر ممکِن نک بیوک۔ مشترک آواز ګیرډ ته بُخت کؤ زُت طریقي یِن ـــ تُو کی يې ته حصه ته وریوڅن پاره ته څه کوډ ته معلومؤ هېڅ ضرورت نک پېش کَوَک سَۀ۔
+# label for button
+contribute-github-action = GitHub نر ال ا خوئ حصه نیکِز
 
 ## Featured section
 
+featured-section-title = جَوَته ݭیوک وینر
+# icon is an arrow that points downwards
+download-press-pack = ترماخ ا پرېس پېک ډاؤن لوډ کوئ
 
 ## Developers section
 
