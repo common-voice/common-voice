@@ -105,6 +105,11 @@ community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونې
 ## Hero section
 
 hero-title = ا ټېکنالوجی، ا څېن بُو که ترتُو ا زبان غؤݭی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = ا مصنُوعی ذهانت کيې صرف ته دنیا ته څُون زبنی پناره کر کوون؟
+hero-subtitle-2 = ترماخ ا زبان يې ترماخ کهانئے هۀ، ترماخ کِلځېري هۀ، ترماخ يې کلتُور هۀ۔ څوئ که ډېټاسېټس دی جوړ کيېن که ماخه وه دنیا نر ځُونيېن
+# icon is an arrow that points downwards
+get-started = شُوري کېن
 
 ## Action items section
 
