@@ -163,9 +163,21 @@ download-press-pack = Xiktlajtlani tlen ika titlatematiltis <icon></icon>
 ## Developers section
 
 developers-section-title = Tlajtolnechikoli tlen nochtin uelis kitekitiltiskej ika 130+ tlajtolkopaj
+developers-section-subtitle = Tlajtolnechikoli tlen non ika uelis kichiuaskej ASR, STT, TTS, uan okseki tlen poui itech NLP.
+# icon is an arrow that points to the right
+explore-datasets = Xitlatemo itech tlajtolnechikoli <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Xikpaleui tlajtonechikoli non miakej kinechikoaj
+read-sentences-link = Xikintlajtolti seki tlajtoli
+validate-readings-link = Xikmotili tlajtoltilistli
+contribute-link = Techpaleui ika motlajkuilol
+answer-questions-link = Xikinnankili seki tlajtlanilmej
+transcribe-answers-link = Xikijkuilo tlen okinankilikej
+review-transcriptions-link = Xikmotili tlen okitenkakikej
+contribute-text-link = Seki xikijkuilo
+press-and-stories-link = Tlen yikin omochi
 
 ## Partner section
 
