@@ -135,6 +135,10 @@ join-discord-community-content = شامل سئ ته زبان ته کمیونېټ
 find-us-on-matrix = ماخ مېټرکس نر دُشئ
 find-us-on-matrix-content = مېټرېکس يې سۀ جَوَت، او الُک پروټوکول هۀ ته ډی سنټرلزائزډ، ريئل ټائم کمیونېټی پاره، او ته موزیلا خؤش پلېټفارم ته عام او جَوَت بحث مباحثي پاره
 ask-mozilla-share = موزیلا کی غؤسئ که ترتیوس ا پروګرمی او ا تقریبات شریک کوی
+ask-mozilla-share-content = نیووه زېلی دی یِن؟ که بېن دی ماخ ګیرډه وه شریک کَۀ، ماخه وې سو اعلان کيېن خوئ کمیونېټی نر، یا يې ته پۀ پاره بلاګ جوړ کَۀ
+# label for button
+ask-mozilla-share-action = ا واقعات شریک کَۀ
+download-contribution-certificate = ته حصه ته ڒیوک او ته وریوک ا سرټیفیکېټ ډاؤن لوډ کَۀ
 
 ## Featured section
 
