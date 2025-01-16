@@ -76,8 +76,11 @@ read-more-about = أؤسه بيې ګۀ ترماخ پا بېژ پېج لاسته
 ## NAV ITEMS
 
 answer-questions = سؤلی ځوبًی <small> څوار بُو سېره </small>
+answer-questions-coming-soon = سؤلی ځوبًی <small> څوار بُو سېره </small>
 review-transcriptions = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
+review-transcriptions-coming-soon = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
+transcribe-audio-coming-soon = ا ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے
 community-and-languages = کمیونېټی او زبنی
@@ -101,6 +104,7 @@ community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونې
 
 ## Hero section
 
+hero-title = ا ټېکنالوجی، ا څېن بُو که ترتُو ا زبان غؤݭی
 
 ## Action items section
 
