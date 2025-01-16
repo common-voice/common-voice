@@ -154,6 +154,7 @@ download-contribution-certificate = Jo bydragesertifikaat downloade
 # label for button
 download-contribution-certificate-action = Jo sertifikaat ophelje
 contribute-github = Meiwurkje op GitHub
+contribute-github-content = Dit projekt soe net mooglik wêze sûnder minsken lykas jo. 🎉 Der binne in protte manieren om belutsen te  wurden by Common Voice – jo hoege net te witten hoe koade te skriuwen om by te dragen!
 # label for button
 contribute-github-action = Meiwurkje op GitHub
 
@@ -165,9 +166,14 @@ download-press-pack = Download ús parsepakket <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publyk tagonklike iepen spraakgegevenssets yn mear as 130 talen
+developers-section-subtitle = Gegevenssets foar ASR, STT, TTS en oare NLP-konteksten – makke fia dielnimming fan de mienskip.
+# icon is an arrow that points to the right
+explore-datasets = Gegevenssets ferkenne <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Stypje iepen, troch de mienskip liede gegevenssets
 read-sentences-link = Sinnen foarlêze
 validate-readings-link = Foarlêzen sinnen falidearje
 contribute-link = Bydrage oan tekstkorpus
@@ -179,3 +185,14 @@ press-and-stories-link = Parse en ferhalen
 
 ## Partner section
 
+partner-section-title = Partner wurde
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Techbedriuwen</bold> – ynvestearje yn it meitsjen fan iepen gegevenssets foar in bloeiend meartalich AI-ekosysteem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Boargerlike maatskippij en ûndersikers</bold> – meitsje, host en diel fergees betsjuttingsfolle gegevenssets
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropy</bold> – sponsorje it oanmeitsjen fan gegevenssets om lokale ynnovaasje en ûntwikkeling te stimulearjen
+# icon is an arrow that points to the right
+get-in-touch-button = Nim kontakt op <icon></icon>
+# Partners section
+our-partners-include = Us partners omfetsje…

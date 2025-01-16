@@ -179,7 +179,7 @@ partner-section-title = Partner worden
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Techbedrijven</bold> – investeer in het maken van open gegevenssets voor een bloeiend meertalig AI-ecosysteem
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-civil-society = <bold>Maatschappelijk middenveld en onderzoekers</bold> - maak, host en deel gratis betekenisvolle datasets
+partner-section-subtitle-civil-society = <bold>Maatschappelijk middenveld en onderzoekers</bold> – maak, host en deel gratis betekenisvolle gegevenssets
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropie</bold> - sponsor creatie van gegevenssets om lokale innovatie en ontwikkeling te stimuleren
 # icon is an arrow that points to the right
