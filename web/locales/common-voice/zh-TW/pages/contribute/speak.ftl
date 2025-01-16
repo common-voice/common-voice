@@ -60,9 +60,12 @@ already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
 create-profile-button = 註冊帳號
 # IMAGE TAGS
 img-alt-success-checkmark = 成功勾勾
+# menu item
+read-sentences = 讀句子
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = 讀句子，回答問題
 
 ## MENU ITEM ARIA LABELS
 
