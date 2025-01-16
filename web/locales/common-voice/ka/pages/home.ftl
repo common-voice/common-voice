@@ -80,9 +80,9 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
 answer-questions-coming-soon = კითხვებზე პასუხი <small>(მალე)</small>
 review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-review-transcriptions-coming-soon = ტრანსკრიფციის შემოწმება <small>(მალე)</small>
+review-transcriptions-coming-soon = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
 add-questions = კითხვების დამატება <small>(მალე)</small>
-transcribe-audio-coming-soon = აუდიოს ტრანსკრიფცია <small>(მალე)</small>
+transcribe-audio-coming-soon = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
 transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
@@ -109,7 +109,7 @@ community-and-languages-menu-item-aria-label = გამოიკვლიეთ
 
 hero-title = ტექნოლოგია, რომელიც თქვენს ენაზე საუბრობს
 # Text wrapped in <bold></bold> will be shown in bold font
-hero-subtitle-1 = <bold>რატომ უნდა იმუშაოს ხელოვნურმა ინტელექტმა მხოლოდ რამდენიმე მსოფლიოს ენაზე?</bold>
+hero-subtitle-1 = <bold>რატომ უნდა მუშაობდეს ხელოვნური ინტელექტი მხოლოდ რამდენიმე ენაზე მსოფლიოში?</bold>
 hero-subtitle-2 = ჩვენი ენა არის ჩვენი ისტორია, ჩვენი თემი, ჩვენი კულტურა. მოდით, შევქმნათ მონაცემთა კრებულები, რომელთა არსებობაც გვსურს.
 # icon is an arrow that points downwards
 get-started = დაიწყეთ <icon><icon>
@@ -120,7 +120,7 @@ action-items-section-title = Common Voice არის უფასო, ღი�
 action-items-section-subtitle = ნებისმიერს შეუძლია საკუთარი ენის შენარჩუნება, გამოცოცხლება და განვითარება, ტექსტებისა და მეტყველების მონაცემთა კრებულების გაზიარებით, შექმნითა და შემოწმებით.
 scripted-card-header = ნაწერის გახმოვანება
 scripted-card-content = ამოიკითხეთ წინადადებები ხმამაღლა თქვენს ენაზე და წვლილი შეიტანეთ მსოფლიოში ყველაზე მრავალფეროვანი სახალხო ჩართულობით შექმნილ მონაცემთა კრებულში.
-spontaneous-card-header = სპონტანური მეტყველება
+spontaneous-card-header = ზეპირი მეტყველება
 spontaneous-card-content = გაეცით პასუხი მოთხოვნებს, რომ მონაცემთა კრებული შეივსოს მეტად ბუნებრივი, სასაუბრო ენისთვის სახასიათო ჩანაწერებით. განსაკუთრებით გამოსადეგია დამწერლობის არმქონე ენებისთვის.
 language-text-card-header = ტექსტი ენისთვის
 language-text-card-content = თავადვე შეადგინეთ ან გააზიარეთ საყოველთაო საკუთრებაში არსებული წინადადებები, შეკითხვები, სათარგმნი ტექსტები, მცირე ენებისთვის განკუთვნილი ნიმუშები და სხვ.
@@ -171,6 +171,8 @@ read-sentences-link = წაიკითხეთ წინადადებე
 validate-readings-link = გადაამოწმეთ წაკითხული
 contribute-link = შეავსეთ ტექსტური მასალები
 answer-questions-link = უპასუხეთ კითხვებს
+transcribe-answers-link = პასუხები აქციეთ ნაწერად
+review-transcriptions-link = შეამოწმეთ ნაწერად ქცეული
 press-and-stories-link = პრესა და ამბები
 
 ## Partner section
