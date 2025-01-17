@@ -149,6 +149,7 @@ download-contribution-certificate-content = اگر تھی کامن وائس وے
 # label for button
 download-contribution-certificate-action = تیݨی سرٹفیکیٹ گِھن
 contribute-github = حِٹ ہب وے تعاون تھہ
+contribute-github-content = انوۡ منصوبہ تُسام اتیݨہ خلکیم دی  بغیر ممکن نہ۔ 🎉 کامن وائس وے شامل بھئنی بیڈہ طریقے ہنہ - تُسی دپارہ انو جھانئنی ضروری نہ کی  تعاون تھئنی دپارہ کوڈ کنا بھےۡ استعمال بھانو تھنیۡ۔!
 # label for button
 contribute-github-action = حِٹ ہب وے تعاون تھہ
 
@@ -170,6 +171,7 @@ explore-datasets = ڈیٹا سیٹس دریافت تھوئی۔ <icon></icon>
 get-involved-section-title = آزاد، کمیونٹی  زیرقیادت ڈیٹاسیٹسی حمایت تھوئی
 read-sentences-link = جملے منوئی،
 validate-readings-link = منئنی توثیق تھہ۔
+contribute-link = ٹیکسٹ کارپس وے تعاون تھوئی۔
 answer-questions-link = سُویلیمی جواب دوئی
 transcribe-answers-link = جویبیمی نقل نویسی تھوئی۔
 review-transcriptions-link = عبارت دھرائی تھہ
@@ -179,3 +181,13 @@ press-and-stories-link = پریس او شلوکہ
 ## Partner section
 
 partner-section-title = اسام سنگی شراکت دار
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیا</bold> - فروغ پزیر کثیر لسانی AI ماحولیاتی نظام دپارہ اوپن ڈیٹاسیٹ  تخلیق وے سرمایہ کاری تھوئی۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی او محققین</bold> - مفت کی مؤثر ڈیٹاسیٹ سموئی، میزبانی تھوئی او  شراکت دار بھوئی۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستی</bold> - مقامی جدت او ترقی  فروغ دئنی دپارہ ڈیٹاسیٹی تخلیقی دپارہ  اسپانسر تھوئی۔
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ کی ہونسوئی <icon></icon>
+# Partners section
+our-partners-include = اسی شراکت داران   شامل ہِنہ..
