@@ -145,12 +145,25 @@ ask-mozilla-share-content = مُݜٹوکو یا یھاندہ واقعات ہنئ
 # label for button
 ask-mozilla-share-action = تیݨی واقعہ اسام سنگی شئیر تھہ
 download-contribution-certificate = تیݨی شراکت دیری سرٹفیکیٹ ڈاون لوڈ تھہ
+download-contribution-certificate-content = اگر تھی کامن وائس وے تعاون تھیلو ہنو ہینتہ تیݨی واقعہ دپارہ آک سرٹیفکیٹ ڈاؤن لوڈ تھہ — انو تھی دپارہ ممکن نہ ہونسہ!
+# label for button
+download-contribution-certificate-action = تیݨی سرٹفیکیٹ گِھن
+contribute-github = حِٹ ہب وے تعاون تھہ
+# label for button
+contribute-github-action = حِٹ ہب وے تعاون تھہ
 
 ## Featured section
 
+featured-section-title = نمایاں...
+# icon is an arrow that points downwards
+download-press-pack = اسی پریس پیک ڈاؤن لوڈ تھوئی <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ زُبینیمی  عوامی سطح کی  قابل رسائی اوپن اسپیچ ڈیٹا سیٹس
+developers-section-subtitle = ASR، STT، TTS، او دوئی NLP سیاق و سباق دپارہ ڈیٹا سیٹس - کمیونٹی  شرکتی دپارہ سمولو ہنو
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹس دریافت تھوئی۔ <icon></icon>
 
 ## Get involved section
 

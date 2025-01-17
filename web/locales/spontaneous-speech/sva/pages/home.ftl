@@ -35,3 +35,4 @@ signup-input-placeholder = სგ'ა̄თხა̈ჲ ისგუ ელფო�
 signup-button-value = ქ'ა̄̈მზიზ ბმულ მიშგუ̂ა ელფოსტაჟი
 footer-text-privacy = <privacyLink>კონფიდენციალურობ</privacyLink>
 footer-text-terms = <termsLink>პირობა̈ლ</termsLink>
+footer-text-cookies = <cookiesLink> ფაილა̈რ<cookiesLink>
