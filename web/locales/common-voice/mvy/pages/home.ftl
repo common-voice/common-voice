@@ -105,9 +105,13 @@ community-and-languages-menu-item-aria-label = کامن وائس چےۡ گھِن
 ## Hero section
 
 hero-title = ݜے ٹېکنالوجی چے سو تیں ژیب دے
+hero-subtitle-2 = بِڅَیں ژیب بِڅاں تاریخ، بِڅَیں معاشرہ آں بِڅَیں رِوایت تھی۔ ای لہ ݜے لک ڈېٹا سیٹ سَن٘دِگ چے تس بِس دُنَیں مہ پشئین٘یۡیاں غرضی تھو۔
+# icon is an arrow that points downwards
+get-started = شروع کرہ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائس خلکہ وَیں ذریعہ لا مواد سَن٘دئن٘یۡیاں ݜے پلېٹ فارم تُھو چے اُو مُفُت تُھو آں ہر کسیں ہتے اېن٘یۡیاں قابل تُھو
 
 ## Community section
 

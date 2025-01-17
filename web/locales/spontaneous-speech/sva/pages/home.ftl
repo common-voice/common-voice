@@ -30,3 +30,4 @@ contact-us = დაგვიკავშირდით
 contact-us-title = ჯა̈ინტერესმა ალ პროექტისგა მონაწილეობა ჲედ პარტნიორობ ნიშგუ̂ეჲცახა̈ნ?
 contact-us-email = ელექტრონულ ფოსტა:<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = სი უკვე ჩუ ხა̈რიმა ნიშგუ̂ეჲ ბეტატესტირება̄̈ ჯგუფისგა Common Voice’-ეშ სპონტანურ გა̈რგლა̈ პროექტიშდ?
+signup-terms = "მიშგუ̂ა ელექტრონულ ფოსტათე ბმული ლიზზი" -ამეჟი ჟი ლა̈თლოშ სი თანხმობს ხოგცხა̈დი ნიშგუ̂ეჲ<termsLink> მომსახურება̄̈ პირობა̈ლს</termsLink> ი <privacyLink> კონფიდენციალურობა̄̈ პოლიტიკას</privacyLink> ი ეჯას, ერე Mozilla-ს ჩუ ხა̈მჲედა

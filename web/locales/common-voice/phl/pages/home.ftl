@@ -118,6 +118,12 @@ get-started = شروع تھہ <icon><icon>
 ## Action items section
 
 action-items-section-title = کمیونٹی ڈیٹا سمئنی دپارہ کامن وائس آک فری آزاد پلیٹ فارم
+action-items-section-subtitle = ہر آک تیݨی زُبانی عبارت سما یا ریکاڑ تھے تیݨی ہاواز ڈیٹا سیٹ  دویم سنگی شئیر تھے تیݨی زُبان محفوظ تھائی بھائینوۡ۔
+scripted-card-header = تقریری عبارت
+scripted-card-content = تیݨی زُبان کی جملے زور تھے منوئی او دُنیئی بُٹھیم دی گاڈو پاویزی عوامی پلیٹ فارم وے حصہ گِھنوئی۔
+spontaneous-card-header = بے ساختہ تقریر
+spontaneous-card-content = تیݨی زُبانی دپارہ ڈیٹا سیٹ سمئنی دپارہ بیڈو ترو جواب دوئی۔ زُبان کھونڈئنی دپارہ اینو بیڈو زبردست
+language-text-card-header = زُبینی عبارت
 
 ## Community section
 
