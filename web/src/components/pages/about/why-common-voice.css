@@ -45,7 +45,7 @@
         }
 
         @media (--md-down) {
-            padding-right: 1.25rem;
+            padding: 0 1rem;
         }
 
         & h2 {
