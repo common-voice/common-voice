@@ -17,3 +17,11 @@ prompt-bubble-subtitle = ნა̈ჲ ჯაწუ̂ე̄ნედ მოთხ�
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>პასუ̂იხუ̂</mark>
 respond-bubble-subtitle = სი ხა̈ტხე პასუ̂იხუ̂ს ჰედ ხა̈ტხე პასუ̂იხუ̂ს ეჯზუმ ბუნებრივდ, მაზუმუ̂ა̄̈ჲ ლა̈თია̄ლს ლი
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ტრანსკრიფცია</mark>
+transcribe-bubble-subtitle = სი სგ'ა̄თი̄რ ეჯა, მა̈ჲ ჯესმი აუდიოკლიპა̈რისგა
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>ჩუ̂ათმოწმა̈ნ</mark>
+check-bubble-subtitle = სი ხამოწმანე, ემთხვევა ჰა მო̄მა ტრანსკრიფცია აუდიოს
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>მონაცემა̈რ</mark>
