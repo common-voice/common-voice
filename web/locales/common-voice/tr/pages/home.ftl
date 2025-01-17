@@ -84,6 +84,7 @@ add-questions = Soru ekle <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
+coming-soon = Çok yakında
 
 ## MENU ITEMS TOOLTIPS
 
@@ -104,21 +105,56 @@ community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve dest
 
 ## Hero section
 
+hero-title = Dilinizi konuşan teknoloji
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Yapay zekâ neden yalnızca birkaç dille çalışsın?</bold>
 
 ## Action items section
 
+action-items-section-title = Common Voice, topluluk öncülüğünde veri oluşturmaya yönelik ücretsiz, açık kaynaklı bir platformdur
+action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşarak, oluşturarak ve düzenleyerek dilini koruyabilir, canlandırabilir ve geliştirebilir.
+coming-soon = Çok yakında
 
 ## Community section
 
+join-discord-community = Discord topluluğumuza katılın
+# label for button
+join-discord-community-action = Discord’da bize katılın
+find-us-on-matrix = Matrix’te bize katılın
+# label for button
+find-us-on-matrix-action = Matrix’te bize katılın
+# label for button
+ask-mozilla-share-action = Etkinliğinizi paylaşın
+# label for button
+download-contribution-certificate-action = Sertifikanızı alın
+contribute-github = GitHub’da katkıda bulunun
+# label for button
+contribute-github-action = GitHub’da katkıda bulunun
 
 ## Featured section
 
+featured-section-title = Bizden bahsedenler...
+# icon is an arrow that points downwards
+download-press-pack = Basın paketimizi indirin <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130’dan fazla dilde kamuya açık konuşma veri kümeleri
+# icon is an arrow that points to the right
+explore-datasets = Veri kümelerini keşfedin <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Cümleleri okuyun
+validate-readings-link = Okumaları doğrulayın
+contribute-link = Metin korpusuna katkıda bulunun
+answer-questions-link = Soruları cevaplayın
+press-and-stories-link = Basın ve haberler
 
 ## Partner section
 
+partner-section-title = Bizimle işbirliği yapın
+# icon is an arrow that points to the right
+get-in-touch-button = Bize ulaşın <icon></icon>
+# Partners section
+our-partners-include = İş ortaklarımızdan bazıları...

@@ -16,3 +16,4 @@ prompt-bubble-title = <mark>მოთხოვნა</mark>
 prompt-bubble-subtitle = ნა̈ჲ ჯაწუ̂ე̄ნედ მოთხოვნას ჰედ შეკითხვას
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>პასუ̂იხუ̂</mark>
+respond-bubble-subtitle = სი ხა̈ტხე პასუ̂იხუ̂ს ჰედ ხა̈ტხე პასუ̂იხუ̂ს ეჯზუმ ბუნებრივდ, მაზუმუ̂ა̄̈ჲ ლა̈თია̄ლს ლი
