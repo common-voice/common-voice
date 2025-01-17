@@ -109,9 +109,15 @@ community-and-languages-menu-item-aria-label = کامن وائسی ذریعہ ک
 ## Hero section
 
 hero-title = ایسےۡ ٹیکنالوجی کی سےۡ تھی زُبان کھونڈینی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>AI دنئنی صرف آک کتیۡ زُبینیمی دپارہ کرام کے تھینیۡ؟</bold>
+hero-subtitle-2 = اسی زُبان اسی شُلوک، اسی بھراویلیۡ۔ اسی نݜون، اسی ثقافت۔ یھوئی تہ تیݨی زُبینی دپارہ ایتیݨو ڈیٹا سیٹ سمایہ کی بے تمامی دُنیئی تھے پشوایہ
+# icon is an arrow that points downwards
+get-started = شروع تھہ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = کمیونٹی ڈیٹا سمئنی دپارہ کامن وائس آک فری آزاد پلیٹ فارم
 
 ## Community section
 

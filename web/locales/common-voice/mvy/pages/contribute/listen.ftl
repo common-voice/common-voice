@@ -12,6 +12,8 @@ listen-abort-cancel = تصدیق کرئیں/کرَیں یاں عمل جاری ر
 listen-abort-confirm = تصدیق کرئیں/کرَیں یاں عمل بئیرا/باریۡرا
 # Menu item
 validate-readings = پڑؤں صحیح تُھو کرے تصدیق کرہ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = پڑېل منظُور کرہ <small>(ہن٘گس اېن٘یاں تُھو)</small>
 
 ## MENU ITEM TOOLTIPS
 
