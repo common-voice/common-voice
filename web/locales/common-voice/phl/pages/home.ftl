@@ -167,6 +167,15 @@ explore-datasets = ڈیٹا سیٹس دریافت تھوئی۔ <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = آزاد، کمیونٹی  زیرقیادت ڈیٹاسیٹسی حمایت تھوئی
+read-sentences-link = جملے منوئی،
+validate-readings-link = منئنی توثیق تھہ۔
+answer-questions-link = سُویلیمی جواب دوئی
+transcribe-answers-link = جویبیمی نقل نویسی تھوئی۔
+review-transcriptions-link = عبارت دھرائی تھہ
+contribute-text-link = عبارتی وے تعاون تھہ۔
+press-and-stories-link = پریس او شلوکہ
 
 ## Partner section
 
+partner-section-title = اسام سنگی شراکت دار
