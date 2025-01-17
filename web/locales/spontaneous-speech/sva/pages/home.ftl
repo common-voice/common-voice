@@ -13,3 +13,6 @@ why-card-3-text = მაჩე̄ნე ლამურჯუ̂ი ეჯკა̈
 how-spontaneous-speech-works = იმჟი ხაშდბა სპონტანურ გა̈რგლა
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>მოთხოვნა</mark>
+prompt-bubble-subtitle = ნა̈ჲ ჯაწუ̂ე̄ნედ მოთხოვნას ჰედ შეკითხვას
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>პასუ̂იხუ̂</mark>
