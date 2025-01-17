@@ -76,8 +76,11 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 ## NAV ITEMS
 
 answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
+answer-questions-coming-soon = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
 review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
+review-transcriptions-coming-soon = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
+transcribe-audio-coming-soon = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
@@ -101,12 +104,17 @@ community-and-languages-menu-item-aria-label = Εξερευνήστε την κ�
 
 ## Hero section
 
+hero-title = Τεχνολογία που μιλά τη γλώσσα σας
 
 ## Action items section
 
+language-text-card-header = Κείμενο γλώσσας
+add-text = Προσθήκη κειμένου
 
 ## Community section
 
+# label for button
+contribute-github-action = Συνεισφορά στο GitHub
 
 ## Featured section
 
