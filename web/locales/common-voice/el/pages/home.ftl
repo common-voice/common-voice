@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = Μεταγραφή ήχου <small>(Προσεχ�
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
+coming-soon = Προσεχώς
 
 ## MENU ITEMS TOOLTIPS
 
@@ -111,10 +112,14 @@ get-started = Έναρξη <icon><icon>
 ## Action items section
 
 language-text-card-header = Κείμενο γλώσσας
+coming-soon = Προσεχώς
 add-text = Προσθήκη κειμένου
 
 ## Community section
 
+find-us-on-matrix = Βρείτε μας στο Matrix
+# label for button
+find-us-on-matrix-action = Βρείτε μας στο Matrix
 contribute-github = Συνεισφορά στο GitHub
 # label for button
 contribute-github-action = Συνεισφορά στο GitHub
