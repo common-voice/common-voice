@@ -264,6 +264,7 @@ privacy = رازداری
 terms = شرط
 cookies = کوکیز
 faq = عام سولات
+documentation = دستاویزت
 content-license-text = مواد کریئٹیو کامن لائسنسی <licenseLink> ذریعہ کی دستاب ہنہ</licenseLink>
 share-title = تیݨی ہاواز دویم تھے وقف تھئنی دپارہ اسی مدد تھوئی۔
 share-text = مشنی وے اصل خلکہ کنا بھے کھونڈانہ تھنی اسی مدد تھوئی ، تیݨی ہاواز وقف تھوئی
