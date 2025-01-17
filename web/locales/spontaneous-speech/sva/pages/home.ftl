@@ -25,3 +25,7 @@ check-bubble-title = <mark>ჩუ̂ათმოწმა̈ნ</mark>
 check-bubble-subtitle = სი ხამოწმანე, ემთხვევა ჰა მო̄მა ტრანსკრიფცია აუდიოს
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>მონაცემა̈რ</mark>
+data-bubble-subtitle = ნა̈ჲ პერიოდულდ ხუ̂ა̈ქუ̂ეყნა̈უ̂იდ მონაცემრეშ ბაზას
+contact-us = დაგვიკავშირდით
+contact-us-title = ჯა̈ინტერესმა ალ პროექტისგა მონაწილეობა ჲედ პარტნიორობ ნიშგუ̂ეჲცახა̈ნ?
+contact-us-email = ელექტრონულ ფოსტა:<emailFragment>commonvoice@mozilla.com</emailFragment>
