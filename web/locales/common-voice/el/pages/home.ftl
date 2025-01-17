@@ -111,6 +111,7 @@ get-started = Έναρξη <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Το Common Voice είναι μια δωρεάν πλατφόρμα ανοικτού κώδικα για τη δημιουργία δεδομένων από την κοινότητα
 scripted-card-header = Ομιλία με σενάριο
 spontaneous-card-header = Αυθόρμητη ομιλία
 language-text-card-header = Κείμενο γλώσσας
@@ -157,5 +158,9 @@ press-and-stories-link = Τύπος και άρθρα
 ## Partner section
 
 partner-section-title = Συνεργαστείτε μαζί μας
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Εταιρείες τεχνολογίας</bold> - επενδύστε στη δημιουργία ανοικτών συνόλων δεδομένων για ένα ακμάζον, πολύγλωσσο οικοσύστημα τεχνητής νοημοσύνης
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Φιλανθρωπία</bold> - γίνετε χορηγός της δημιουργίας του συνόλου δεδομένων για να τροφοδοτήσετε την τοπική καινοτομία και ανάπτυξη
 # icon is an arrow that points to the right
 get-in-touch-button = Επικοινωνία <icon></icon>
