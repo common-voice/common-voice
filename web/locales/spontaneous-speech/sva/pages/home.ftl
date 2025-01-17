@@ -11,3 +11,5 @@ why-card-2-text = მაჩე̄ნე ლამურჯუ̂ი ეჯკა̈
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = მაჩე̄ნე ლამურჯუ̂ი ეჯკა̈ლი ნჷნრე̄შდ, ხედუ̂ა̄̈ჲ ნჷნა̈რს ხუღუ̂ახ მა̄დხუ̂ა̄̈ჲ ჰედ<mark>მა̄მ ხუღუ̂ახ ტექსტურ კორპუს </mark> ჟილაჴმა̈რდ (მაგალითად, სოციოლექტ, ვარიანტა̈ლ, ისტორიულდ უდამწერლობო ნჷნა̈რ)
 how-spontaneous-speech-works = იმჟი ხაშდბა სპონტანურ გა̈რგლა
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>მოთხოვნა</mark>
