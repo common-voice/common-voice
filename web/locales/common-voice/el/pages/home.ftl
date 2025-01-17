@@ -105,6 +105,8 @@ community-and-languages-menu-item-aria-label = Εξερευνήστε την κ�
 ## Hero section
 
 hero-title = Τεχνολογία που μιλά τη γλώσσα σας
+# icon is an arrow that points downwards
+get-started = Έναρξη <icon><icon>
 
 ## Action items section
 
@@ -113,17 +115,32 @@ add-text = Προσθήκη κειμένου
 
 ## Community section
 
+contribute-github = Συνεισφορά στο GitHub
 # label for button
 contribute-github-action = Συνεισφορά στο GitHub
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Λήψη πακέτου τύπου <icon></icon>
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Εξερεύνηση συνόλων δεδομένων <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Ανάγνωση προτάσεων
+validate-readings-link = Επικύρωση αναγνώσεων
+answer-questions-link = Απάντηση ερωτήσεων
+transcribe-answers-link = Μεταγραφή απαντήσεων
+review-transcriptions-link = Έλεγχος μεταγραφών
+contribute-text-link = Συνεισφορά κειμένου
+press-and-stories-link = Τύπος και άρθρα
 
 ## Partner section
 
+partner-section-title = Συνεργαστείτε μαζί μας
+# icon is an arrow that points to the right
+get-in-touch-button = Επικοινωνία <icon></icon>
