@@ -111,15 +111,25 @@ get-started = Έναρξη <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Ομιλία με σενάριο
+spontaneous-card-header = Αυθόρμητη ομιλία
 language-text-card-header = Κείμενο γλώσσας
 coming-soon = Προσεχώς
 add-text = Προσθήκη κειμένου
 
 ## Community section
 
+join-discord-community = Συμμετοχή στην κοινότητα στο Discord
+# label for button
+join-discord-community-action = Βρείτε μας στο Discord
 find-us-on-matrix = Βρείτε μας στο Matrix
 # label for button
 find-us-on-matrix-action = Βρείτε μας στο Matrix
+# label for button
+ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
+download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
+# label for button
+download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας
 contribute-github = Συνεισφορά στο GitHub
 # label for button
 contribute-github-action = Συνεισφορά στο GitHub
