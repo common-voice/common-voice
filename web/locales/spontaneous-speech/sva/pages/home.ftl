@@ -6,3 +6,5 @@ wall-of-text = Common Voice იბნე მე̄რმე პლატფორ
 why-spontaneous-speech = იმღ' ა̄̈ნსყა̄̈ნ ალ სპონტანურ გარგლა̄̈ პროტოტიპ
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = ლასჷრგებ ლი<mark>ბუნებრივ/ორგანულ  ლაგჷრგა̈ლ კონტექსტრეშდ</mark> ი ლაჴმა̈რდ განსაკუთრებულ შემთხვევა̄̈ლჟი (მაგალითად, შომუ̂ა̄̈ჲ ჯაკუ, ერე ლიგჷრგა̈ლი̄  ლითერდ ლა̈ჲმჷ̄შას ეჯ ხა̈ლხცხა̈ნ, ერვა̈ჲ გა̈რგლიხ სცენარშუ̂ მა̄დე, გა̈რგლიხ ზეპირდ)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = მაჩე̄ნე ლამურჯუ̂ი ეჯკა̈ლი ენობრივ რეალობა̄̈შდ, იმუ̂ა̈ჲჟი ლი ტრანსლინგუ̂იზმ ი <mark> კოდი გადართვა </mark>
