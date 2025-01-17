@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = بنژیل اواز لِکہ <small>(ہن٘گس �
 transcribe-audio = بنژیل اواز لِکہ<small>(ہن٘گس ایں یاں تھو)</small>
 press-and-stories = اخبار تے خبری
 community-and-languages = خلکہ تے ژِبہۡ
+coming-soon = ہن٘گس اېن٘یۡیاں تُھو
 
 ## MENU ITEMS TOOLTIPS
 
@@ -112,9 +113,17 @@ get-started = شروع کرہ <icon><icon>
 ## Action items section
 
 action-items-section-title = کامن وائس خلکہ وَیں ذریعہ لا مواد سَن٘دئن٘یۡیاں ݜے پلېٹ فارم تُھو چے اُو مُفُت تُھو آں ہر کسیں ہتے اېن٘یۡیاں قابل تُھو
+language-text-card-header = ژِبَیں لِکیلیۡ
+coming-soon = ہن٘گس اېن٘یۡیاں تُھو
+add-text = لِکیلیۡ ٹل کرہ
 
 ## Community section
 
+find-us-on-matrix = زؤں مېٹرِکس لا ڇہ/ڇالہ
+# label for button
+find-us-on-matrix-action = زؤں مېٹرِکس لا ڇہ/ڇالہ
+# label for button
+download-contribution-certificate-action = تاں سرٹیفیکېٹ ہرہ
 
 ## Featured section
 
@@ -127,3 +136,8 @@ action-items-section-title = کامن وائس خلکہ وَیں ذریعہ لا
 
 ## Partner section
 
+partner-section-title = زؤں ملیۡ مرگلیۡتیا کرہ
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ مہ دھرہ <icon></icon>
+# Partners section
+our-partners-include = زاں مرگلئ اُن٘دگی ݜَیں تھو۔۔۔

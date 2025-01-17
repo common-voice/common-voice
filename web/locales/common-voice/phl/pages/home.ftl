@@ -88,6 +88,7 @@ transcribe-audio-coming-soon = ٹرانسکائیب ہاواز  <small>(لپ ی�
 transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 press-and-stories = پریس او شلوکہ
 community-and-languages = کمیونٹی او زبینی
+coming-soon = لپ یِھین
 
 ## MENU ITEMS TOOLTIPS
 
@@ -124,9 +125,17 @@ scripted-card-content = تیݨی زُبان کی جملے زور تھے منوئ
 spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = تیݨی زُبانی دپارہ ڈیٹا سیٹ سمئنی دپارہ بیڈو ترو جواب دوئی۔ زُبان کھونڈئنی دپارہ اینو بیڈو زبردست
 language-text-card-header = زُبینی عبارت
+language-text-card-content = عوامی دپارہ آک ڈومین سما یا شئیر تھےۡ عبارت یا جملے ترجمہ تیݨی زپانی دپارہ آک ماڈل سموئی
+coming-soon = لپ یِھین
+add-text = ٹیکسٹ شامل تھہ
 
 ## Community section
 
+community-section-title = عالمی کمیونٹیز طاقت 130— زُبینی شامل ہنم
+join-discord-community = ڈسکارڈ کمیونٹی وے شامل بھہ۔
+# label for button
+join-discord-community-action = ڈسکارڈی وے اسام سنگی شامل بھہ
+join-discord-community-content = لسانی کمیونٹی مباحثہ وے حصہ گِھن، سویلی کھوجہ، او یھاتہ واندہ واقعاتی بارئی بیڈو گہ ازدہ تھہ۔
 
 ## Featured section
 
