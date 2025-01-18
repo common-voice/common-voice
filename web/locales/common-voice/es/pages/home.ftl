@@ -94,6 +94,8 @@ community-and-languages-menu-item-tooltip = Descubrir las lenguas y las comunida
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Empezar <icon></icon>
 
 ## Action items section
 
