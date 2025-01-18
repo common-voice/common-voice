@@ -80,6 +80,7 @@ review-transcriptions = Revisar transcripciones
 transcribe-audio = Transcribir audio
 press-and-stories = Prensa e historias
 community-and-languages = Comunidades e idiomas
+coming-soon = ¡Muy pronto!
 
 ## MENU ITEMS TOOLTIPS
 
@@ -99,8 +100,12 @@ get-started = Empezar <icon></icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice es una plataforma gratuita y de software libre dirigida a las comunidades para la creación de conjuntos de datos de habla y texto
 scripted-card-header = Habla leída
 spontaneous-card-header = Habla espontánea
+language-text-card-header = Texto en idioma
+coming-soon = ¡Muy pronto!
+add-text = Añadir texto
 
 ## Community section
 
