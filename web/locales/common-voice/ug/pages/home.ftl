@@ -118,6 +118,7 @@ action-items-section-subtitle = ھەر كىم تېكىست ۋە نۇتۇق ھە�
 scripted-card-header = قوليازما نۇتقى
 scripted-card-content = تىلىڭىزنى جۈملىلەرنى يۇقىرى ئاۋازدا ئوقۇپ دۇنيادىكى ئەڭ كۆپ خىللاشقان ئاممىۋى ھەمكارلىقتىكى نۇتۇق سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇڭ.
 spontaneous-card-header = تەبىئىي نۇتۇق
+language-text-card-header = تىل تېكىستى
 add-text = تېكىست قوش
 
 ## Community section
