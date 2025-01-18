@@ -76,11 +76,15 @@ read-more-about = Lege plus in nostre pagina: A proposito
 ## NAV ITEMS
 
 answer-questions = Responder a questiones <small>(Tosto veniente)</small>
+answer-questions-coming-soon = Responder a questiones <small>(Tosto veniente)</small>
 review-transcriptions = Verifica le transcriptiones <small>(Tosto veniente)</small>
+review-transcriptions-coming-soon = Verifica le transcriptiones <small>(Tosto veniente)</small>
 add-questions = Adder Questiones <small>(Tosto veniente)</small>
+transcribe-audio-coming-soon = Transcriber audio <small>(Tosto veniente)</small>
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas
+coming-soon = Veniente tosto
 
 ## MENU ITEMS TOOLTIPS
 
@@ -104,18 +108,36 @@ community-and-languages-menu-item-aria-label = Explora le communitate e le lingu
 
 ## Action items section
 
+coming-soon = Veniente tosto
+add-text = Adder texto
 
 ## Community section
 
+# label for button
+ask-mozilla-share-action = Compartir tu evento
+# label for button
+download-contribution-certificate-action = Obtene tu certificato
+contribute-github = Collabora sur GitHub
+# label for button
+contribute-github-action = Collabora sur GitHub
 
 ## Featured section
 
+featured-section-title = Consiliate in...
 
 ## Developers section
 
 
 ## Get involved section
 
+read-sentences-link = Leger phrases
+validate-readings-link = Validar lecturas
+contribute-link = Contribue al corpus de texto
+answer-questions-link = Responder a questiones
+transcribe-answers-link = Transcriber requestas
+review-transcriptions-link = Revider transcriptiones
+contribute-text-link = Contribuer texto
+press-and-stories-link = Pressa e articulos
 
 ## Partner section
 
