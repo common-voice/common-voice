@@ -30,3 +30,6 @@ citing-sentences = წყუშ მეწურაფა.
 adding-sentences = წინადადებეფიშ გეძინა.
 reviewing-sentences = წინადადებეფიშ გინოჯინა
 sentence-domain = წინადადებაშ ინტერნეტ-ოწურაფუ
+public-domain-explanation-1 = მნიშვნელოვან რე არძა წინადადება რდას <publicDomain> ოირქიანე საკუთრება </publicDomain> (<cc0>cc0</cc0> მუშენდა Common Voice-იშ მონაცემეფიშ ბაზა გჷშაშკუმალირი რე CC0 ლიცენზიათ. დადასტურებულო ქოიჩქჷნა, ნამდა თე წინადადებეფიშ გუმორინაფაშ უფლება გიღუნანი, ხვალე თი შემთხვევას ქიგუძინით წინადადებეფი დო ირიათო ქიმუთითით წყუ.
+adding-sentences-subheader-spelling-punctuation-explanation = წინადადებეფი წორას ოკო რდას ჭარილი.
+adding-sentences-subheader-speakable = { "" }
