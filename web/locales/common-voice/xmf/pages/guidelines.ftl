@@ -11,3 +11,4 @@ background-voices = ოჭიშიშ უკახალენი ხონა�
 volume = ხონარიშ სიმაღალე
 reader-effects = მაკითხირეში ეფექტეფი
 just-unsure = ეჭვი გოპარუნანო?
+example = მაგალითი
