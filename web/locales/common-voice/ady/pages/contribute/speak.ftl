@@ -62,6 +62,8 @@ create-profile-button = Профил шӏы
 img-alt-success-checkmark = Гъэхъагъэ итамыгъ!
 # menu item
 read-sentences = Гущыӏэухыгъэхэм къядж
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Гущыӏэухыгъэхэм къядж <small>(Джырэблагъэ къэкӏощт)</small>
 
 ## MENU ITEM TOOLTIPS
 

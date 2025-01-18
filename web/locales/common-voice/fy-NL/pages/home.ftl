@@ -86,11 +86,15 @@ read-more-about = Mear ynfo op ús side Oer
 ## NAV ITEMS
 
 answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
+answer-questions-coming-soon = Fragen beäntwurdzje <small>(ynkoarten)</small>
 review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
+review-transcriptions-coming-soon = Transkripsjes beoardiele <small>(ynkoarten)</small>
 add-questions = Fragen tafoegje <small>(ynkoarten)</small>
+transcribe-audio-coming-soon = Audio transkribearje <small>(ynkoarten)</small>
 transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
+coming-soon = Ynkoarten beskikber
 
 ## MENU ITEMS TOOLTIPS
 
@@ -111,21 +115,84 @@ community-and-languages-menu-item-aria-label = De troch Common Voice stipe miens
 
 ## Hero section
 
+hero-title = Technology dy’t jo taal sprekt
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Wêrom soe AI allinnich foar in pear fan de wrâldtalen wurkje?</bold>
+hero-subtitle-2 = Us taal is ús ferhaal, ús mienskip, ús kultuer. Litte wy de gegevenssets meitsje dy’t wy yn de wrâld sjen wolle.
+# icon is an arrow that points downwards
+get-started = Begjinne <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice is in fergees, iepenboarneplatfoarm foar troch de mienskip liede gegevenskreaasje
+action-items-section-subtitle = Elkenien kin syn of har taal behâlde, nij libben ynblaze en ferbetterje troch it dielen, oanmeitsjen en meitsjen fan tekst- en spraakgegevenssets.
+scripted-card-header = Scriptspraak
+scripted-card-content = Lês sinnen yn jo taal lûdop en draach by oan de meast ferskate spraakgegevensset foar publyksdielname yn de wrâld.
+spontaneous-card-header = Spontane spraak
+spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar organyske, ynformele konteksten. Perfekt foar orale talen.
+language-text-card-header = Taaltekst
+language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
+coming-soon = Ynkoarten beskikber
+add-text = Tekst tafoegje
 
 ## Community section
 
+community-section-title = Mooglik makke troch wrâldwide mienskippen, foar wrâldwide mienskippen – 130 talen en groeiende!
+join-discord-community = Doch mei mei de Discord-mienskip
+# label for button
+join-discord-community-action = Doch mei ús mei op Discord
+join-discord-community-content = Doch mei oan taalmienskipsdiskusjes, stel fragen en lês oer oankommende eveneminten en petearen.
+find-us-on-matrix = Fyn ús op Matrix
+find-us-on-matrix-content = Matrix is in iepen, ljochtgewicht protokol foar desintralisearre, realtime kommunikaasje en it iepen diskusjeplatfoarm fan Mozilla.
+# label for button
+find-us-on-matrix-action = Fyn ús op Matrix
+ask-mozilla-share = Freegje Mozilla om jo eveneminten te dielen
+ask-mozilla-share-content = Hawwe jo in foarige of oankommend evenemint? Diel it mei ús en wy sille it oankundigje oan ús mienskip of der in blog oer skriuwe!
+# label for button
+ask-mozilla-share-action = Jo evenemint diele
+download-contribution-certificate = Jo bydragesertifikaat downloade
+# label for button
+download-contribution-certificate-action = Jo sertifikaat ophelje
+contribute-github = Meiwurkje op GitHub
+contribute-github-content = Dit projekt soe net mooglik wêze sûnder minsken lykas jo. 🎉 Der binne in protte manieren om belutsen te  wurden by Common Voice – jo hoege net te witten hoe koade te skriuwen om by te dragen!
+# label for button
+contribute-github-action = Meiwurkje op GitHub
 
 ## Featured section
 
+featured-section-title = Oanrekommandearre yn…
+# icon is an arrow that points downwards
+download-press-pack = Download ús parsepakket <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publyk tagonklike iepen spraakgegevenssets yn mear as 130 talen
+developers-section-subtitle = Gegevenssets foar ASR, STT, TTS en oare NLP-konteksten – makke fia dielnimming fan de mienskip.
+# icon is an arrow that points to the right
+explore-datasets = Gegevenssets ferkenne <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Stypje iepen, troch de mienskip liede gegevenssets
+read-sentences-link = Sinnen foarlêze
+validate-readings-link = Foarlêzen sinnen falidearje
+contribute-link = Bydrage oan tekstkorpus
+answer-questions-link = Fragen beäntwurdzje
+transcribe-answers-link = Antwurden transkribearje
+review-transcriptions-link = Transkripsjes beoardiele
+contribute-text-link = Tekst bydrage
+press-and-stories-link = Parse en ferhalen
 
 ## Partner section
 
+partner-section-title = Partner wurde
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Techbedriuwen</bold> – ynvestearje yn it meitsjen fan iepen gegevenssets foar in bloeiend meartalich AI-ekosysteem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Boargerlike maatskippij en ûndersikers</bold> – meitsje, host en diel fergees betsjuttingsfolle gegevenssets
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropy</bold> – sponsorje it oanmeitsjen fan gegevenssets om lokale ynnovaasje en ûntwikkeling te stimulearjen
+# icon is an arrow that points to the right
+get-in-touch-button = Nim kontakt op <icon></icon>
+# Partners section
+our-partners-include = Us partners omfetsje…

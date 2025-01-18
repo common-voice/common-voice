@@ -62,6 +62,8 @@ create-profile-button = In profyl oanmeitsje
 img-alt-success-checkmark = suksesfinkje
 # menu item
 read-sentences = Sinnen foarlêze
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Sinnen lêze <small>(ynkoarten)</small>
 
 ## MENU ITEM TOOLTIPS
 

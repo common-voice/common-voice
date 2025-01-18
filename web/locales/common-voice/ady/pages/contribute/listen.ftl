@@ -14,6 +14,8 @@ listen-abort-cancel = Уплъэкӏуныр лъыгъэкӏуат
 listen-abort-confirm = Уплъэкӏуныр къэух
 # Menu item
 validate-readings = Еджакӏэхэр къэгъэшъыпкъэн
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Еджакӏэхэр къэгъэшъыпкъэ <small>(Джырэблагъэ къэкӏощт)</small>
 
 ## MENU ITEM TOOLTIPS
 

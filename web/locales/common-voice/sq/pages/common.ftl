@@ -196,6 +196,7 @@ privacy = Privatësi
 terms = Kushte
 cookies = Cookies
 faq = PBR
+documentation = Dokumentim
 content-license-text = Lëndë e përdorshme sipas një <licenseLink>licence Creative Commons</licenseLink>
 share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
 share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendtë, dhuroni zërin tuaj te { $link }

@@ -62,6 +62,8 @@ create-profile-button = پروفائل يې جوړ کَۀ
 img-alt-success-checkmark = ا کامیابي چېک مارک کَۀ
 # menu item
 read-sentences = ا جملي غؤس
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملي غوېک
 
 ## MENU ITEM TOOLTIPS
 

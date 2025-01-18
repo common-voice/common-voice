@@ -264,6 +264,7 @@ privacy = Приватность
 terms = Условия
 cookies = Куки
 faq = ЧЗВ
+documentation = Документация
 content-license-text = Содержимое доступно под <licenseLink>лицензией Creative Commons</licenseLink>
 share-title = Помогите нам, найдя других желающих записать свой голос!
 share-text = Помогите машинам научиться понимать реальных людей, пожертвуйте свой голос на { $link }

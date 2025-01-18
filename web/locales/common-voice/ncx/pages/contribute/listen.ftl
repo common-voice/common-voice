@@ -12,6 +12,8 @@ listen-abort-cancel = Okseki xikinkaki
 listen-abort-confirm = Xitlami titlakakis
 # Menu item
 validate-readings = Xikmotili tlajtoltilistli
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Xikmotili tlajtoltilistli <small>(Yikin yetos)</small>
 
 ## MENU ITEM TOOLTIPS
 

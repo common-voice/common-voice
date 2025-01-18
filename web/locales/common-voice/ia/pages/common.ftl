@@ -264,6 +264,7 @@ privacy = Confidentialitate
 terms = Terminos
 cookies = Cookies
 faq = Folio a questiones
+documentation = Documentation
 content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
 share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar a machinas como personas real parla! Dona tu voce sur { $link }

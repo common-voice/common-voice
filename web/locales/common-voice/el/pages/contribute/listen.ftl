@@ -14,6 +14,8 @@ listen-abort-cancel = Συνέχεια επικύρωσης
 listen-abort-confirm = Τέλος επικύρωσης
 # Menu item
 validate-readings = Επικύρωση αναγνώσεων
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Επικύρωση αναγνώσεων <small>(Προσεχώς)</small>
 
 ## MENU ITEM TOOLTIPS
 

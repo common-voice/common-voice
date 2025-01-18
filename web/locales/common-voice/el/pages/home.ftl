@@ -76,11 +76,15 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 ## NAV ITEMS
 
 answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
+answer-questions-coming-soon = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
 review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
+review-transcriptions-coming-soon = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
+transcribe-audio-coming-soon = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
+coming-soon = Προσεχώς
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,62 @@ community-and-languages-menu-item-aria-label = Εξερευνήστε την κ�
 
 ## Hero section
 
+hero-title = Τεχνολογία που μιλά τη γλώσσα σας
+# icon is an arrow that points downwards
+get-started = Έναρξη <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Το Common Voice είναι μια δωρεάν πλατφόρμα ανοικτού κώδικα για τη δημιουργία δεδομένων από την κοινότητα
+scripted-card-header = Ομιλία με σενάριο
+spontaneous-card-header = Αυθόρμητη ομιλία
+language-text-card-header = Κείμενο γλώσσας
+coming-soon = Προσεχώς
+add-text = Προσθήκη κειμένου
 
 ## Community section
 
+join-discord-community = Συμμετοχή στην κοινότητα στο Discord
+# label for button
+join-discord-community-action = Βρείτε μας στο Discord
+find-us-on-matrix = Βρείτε μας στο Matrix
+# label for button
+find-us-on-matrix-action = Βρείτε μας στο Matrix
+# label for button
+ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
+download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
+# label for button
+download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας
+contribute-github = Συνεισφορά στο GitHub
+# label for button
+contribute-github-action = Συνεισφορά στο GitHub
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Λήψη πακέτου τύπου <icon></icon>
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Εξερεύνηση συνόλων δεδομένων <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Ανάγνωση προτάσεων
+validate-readings-link = Επικύρωση αναγνώσεων
+answer-questions-link = Απάντηση ερωτήσεων
+transcribe-answers-link = Μεταγραφή απαντήσεων
+review-transcriptions-link = Έλεγχος μεταγραφών
+contribute-text-link = Συνεισφορά κειμένου
+press-and-stories-link = Τύπος και άρθρα
 
 ## Partner section
 
+partner-section-title = Συνεργαστείτε μαζί μας
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Εταιρείες τεχνολογίας</bold> - επενδύστε στη δημιουργία ανοικτών συνόλων δεδομένων για ένα ακμάζον, πολύγλωσσο οικοσύστημα τεχνητής νοημοσύνης
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Φιλανθρωπία</bold> - γίνετε χορηγός της δημιουργίας του συνόλου δεδομένων για να τροφοδοτήσετε την τοπική καινοτομία και ανάπτυξη
+# icon is an arrow that points to the right
+get-in-touch-button = Επικοινωνία <icon></icon>

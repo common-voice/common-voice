@@ -83,11 +83,15 @@ read-more-about = Xikmati okachi kanin Tiktematiltiaj
 ## NAV ITEMS
 
 answer-questions = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
+answer-questions-coming-soon = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
 review-transcriptions = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
+review-transcriptions-coming-soon = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
 add-questions = Xikinmijkuilo seki Tlajtlanilmej <small>(Yikin yetos)</small>
+transcribe-audio-coming-soon = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 transcribe-audio = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 press-and-stories = Tlen yikin omochi
 community-and-languages = Akinmej Tlajtoaj
+coming-soon = Yikin yetos
 
 ## MENU ITEMS TOOLTIPS
 
@@ -108,21 +112,85 @@ community-and-languages-menu-item-aria-label = Xikinmita tlajtolkopaj uan okseki
 
 ## Hero section
 
+hero-title = Teposmej non tlajtoskej ken te
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>¿Tleka IA san yetos ika pinotlajtolkopa?</bold>
+hero-subtitle-2 = Totlajtolkopa kixpantia toaltepe, tlen toyelis, tonemilis. Matiknechikokan tlen tiknekij tikitaskej ik nouian.
+# icon is an arrow that points downwards
+get-started = Xipeua <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice (Tinochtin Titlajtoaj) amikaj iaxka, nochtin kichiuaj uan nochtin uelis kitekitiltiskej
+action-items-section-subtitle = San akin uelis kimaluis, kiyolitis uan kiyankuilis itlajtolkopa ika kitematiltis, uan kinechikos tlen kijkuilos uan kijtos.
+scripted-card-header = Xiktlajtolti tlen ijkuilijtok
+scripted-card-content = Xiktlajtolti tlen ijkuilijtok ika motlajtolkopa uan xipoui itech se tlajtolnechikoli kanin melauak tinochtin titlajtoaj.
+spontaneous-card-header = Kualtsin xitlajto
+spontaneous-card-content = Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.
+language-text-card-header = Seki xitlajkuilo
+language-text-card-content = Xikijkuilo tlen oksekimej kitlajtoltiskej, kinankiliskej, ika mopaleuiskej uan okseki tlamantli.
+coming-soon = Yikin yetos
+add-text = Xitlajkuilo
 
 ## Community section
 
+community-section-title = Nochtin kichiuaj, nochtin kitekitiltiaj — 130 tlajtolkopaj uan okachi yetoskej!
+join-discord-community = Touan xipoui itech Discord
+# label for button
+join-discord-community-action = Xipoui Discord
+join-discord-community-content = Ximotlapoui inuan oksekimej, xitlanankili, uan xikmati tlen tlamochiuas noso tlen itech tlajtoskej.
+find-us-on-matrix = Techonajsi itech Matrix
+find-us-on-matrix-content = Matrix itech uelis nochtin kalakiskej uan motlapouiskej san tlen ora. Nikan Mozilla okachi tiktekitiltiaj non tlamantli.
+# label for button
+find-us-on-matrix-action = Techonajsi itech Matrix
+ask-mozilla-share = Xikilui Moxilla makitematilti tlen tikchiuas
+ask-mozilla-share-content = ¿Itlaj otikchi noso tikchiuas ika motlajtolkopa? ¡Techilui uan tikinmatiltiskej oksekimej tlen uan ken tikchiua!
+# label for button
+ask-mozilla-share-action = Xiktematilti tlen tikchiua
+download-contribution-certificate = Xiktlajtlani se amatl kanin kijtos otechpaleui
+download-contribution-certificate-content = Xiktlajtlani se amatl kanin kijtos otechpaleui nikan kanin Tinochtin Titlajtoaj — ¡Nin tekitl mochiua panpa te titechpaleuia!
+# label for button
+download-contribution-certificate-action = Xiktlajtlani se amatl
+contribute-github = Xitlapaleui itech GitHub
+contribute-github-content = Nochi nin amo yetoskia tla miakej ken tejuatsin amo techpaleuiskiaj. 🎉 Tlatlamantli uelis titlapaleuis itech Tinochtin Titlajtoaj (Common Voice) - ¡Amo monekis tikchiuas itlaj oui!
+# label for button
+contribute-github-action = Xitlapaleui itech GitHub
 
 ## Featured section
 
+featured-section-title = Kitematltiaj itech...
+# icon is an arrow that points downwards
+download-press-pack = Xiktlajtlani tlen ika titlatematiltis <icon></icon>
 
 ## Developers section
 
+developers-section-title = Tlajtolnechikoli tlen nochtin uelis kitekitiltiskej ika 130+ tlajtolkopaj
+developers-section-subtitle = Tlajtolnechikoli tlen non ika uelis kichiuaskej ASR, STT, TTS, uan okseki tlen poui itech NLP.
+# icon is an arrow that points to the right
+explore-datasets = Xitlatemo itech tlajtolnechikoli <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Xikpaleui tlajtonechikoli non miakej kinechikoaj
+read-sentences-link = Xikintlajtolti seki tlajtoli
+validate-readings-link = Xikmotili tlajtoltilistli
+contribute-link = Techpaleui ika motlajkuilol
+answer-questions-link = Xikinnankili seki tlajtlanilmej
+transcribe-answers-link = Xikijkuilo tlen okinankilikej
+review-transcriptions-link = Xikmotili tlen okitenkakikej
+contribute-text-link = Seki xikijkuilo
+press-and-stories-link = Tlen yikin omochi
 
 ## Partner section
 
+partner-section-title = Okachi techpaleui
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Akinmej kinchiuaj teposmej</bold> - xitlapeluiakan matikololokan tlajtoli ika miakej tlatlamantli tlajtolkopaj uan ijkon okachi kuali tekipanos IA
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Altepenechikolmej uan akinmej tlatemoaj</bold> - san ijki xikchiuakan, xikololokan uan xiktematiltikan tlen uelis techpaleuis
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Akinmej tepaleuiaj ika tomin</bold> - techpaleuikan ika se kech matikchiuakan tlen uelis kipaleuis namoaltepe
+# icon is an arrow that points to the right
+get-in-touch-button = Xikmato tlen tikchiuaj <icon></icon>
+# Partners section
+our-partners-include = Sekimej akinmej okachi techpaleuiaj...

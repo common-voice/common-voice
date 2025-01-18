@@ -264,6 +264,7 @@ privacy = Απόρρητο
 terms = Όροι
 cookies = Cookie
 faq = Συχνές ερωτήσεις
+documentation = Τεκμηρίωση
 content-license-text = Το περιεχόμενο διατίθεται υπό την <licenseLink>άδεια Creative Commons</licenseLink>
 share-title = Βοηθήστε μας να βρούμε κι άλλα άτομα που θα δωρίσουν τη φωνή τους!
 share-text = Βοηθήστε τις μηχανές να κατανοήσουν πώς μιλάνε οι πραγματικοί άνθρωποι, δωρίζοντας τη φωνή σας στο { $link }

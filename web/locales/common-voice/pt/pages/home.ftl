@@ -81,6 +81,7 @@ add-questions = Adicionar perguntas <small>(em breve)</small>
 transcribe-audio = Transcrever áudio <small>(em breve)</small>
 press-and-stories = Imprensa e histórias
 community-and-languages = Comunidade e idiomas
+coming-soon = Em breve
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,15 +102,30 @@ community-and-languages-menu-item-aria-label = Descubra a comunidade e os idioma
 
 ## Hero section
 
+hero-title = Tecnologia que fala seu idioma
 
 ## Action items section
 
+scripted-card-header = Fala com roteiro
+scripted-card-content = Leia frases em voz alta no seu idioma e contribua para o conjunto de dados de voz de participação pública mais diversificado do mundo.
+spontaneous-card-header = Fala espontânea
+coming-soon = Em breve
+add-text = Adicionar texto
 
 ## Community section
 
+# label for button
+ask-mozilla-share-action = Compartilhe seu evento
+download-contribution-certificate = Baixe seu certificado de contribuição
+# label for button
+download-contribution-certificate-action = Obtenha seu certificado
+contribute-github = Contribua no GitHub
+# label for button
+contribute-github-action = Contribua no GitHub
 
 ## Featured section
 
+featured-section-title = Em destaque em...
 
 ## Developers section
 

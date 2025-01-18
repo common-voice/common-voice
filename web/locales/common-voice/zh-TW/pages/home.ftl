@@ -72,9 +72,16 @@ read-more-about = 到我們的「關於」頁面了解更多資訊
 
 ## NAV ITEMS
 
+answer-questions = 回答問題 <small>(近期推出)</small>
+review-transcriptions = 審核轉錄 <small>即將推出</small>
+add-questions = 新增問題 <small>(近期推出)</small>
+transcribe-audio = 轉錄語音 <small>(近期推出)</small>
+press-and-stories = 媒體與故事
+community-and-languages = 社群與語言
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = 合作夥伴、媒體與故事、社群與語言
 
 ## MENU ITEM ARIA LABELS
 
