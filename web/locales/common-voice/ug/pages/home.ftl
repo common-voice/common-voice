@@ -154,13 +154,13 @@ explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> با
 ## Get involved section
 
 get-involved-section-title = جامائەت باشلامچىلىقىدىكى ئوچۇق سانلىق مەلۇمات توپلىمىنى قوللاڭ
-read-sentences-link = جۈملە ئوقۇ
+read-sentences-link = جۈملە ئوقۇڭ
 validate-readings-link = ئوقۇشنى دەلىللە
 contribute-link = تېكىست توپلىمىغا تۆھبە قوشۇڭ
 answer-questions-link = سوئالغا جاۋاب
-transcribe-answers-link = جاۋابنى خەتكە پۈت
-review-transcriptions-link = خەت پۈتۈك تەكشۈر
-contribute-text-link = تېكىستكە تۆھپە قوشىدۇ
+transcribe-answers-link = جاۋابنى خەتكە پۈتۈڭ
+review-transcriptions-link = خەت پۈتۈك قايتا تەكشۈرۈڭ
+contribute-text-link = تېكىستكە تۆھپە قوشۇڭ
 press-and-stories-link = خەۋەر ۋە ماقالە
 
 ## Partner section
