@@ -119,3 +119,12 @@ small-batch-sentences-rule-3 = 按一下「Enter」或「Return」鍵來將句�
 small-batch-sentences-rule-4 = 最多可新增 1,000 句
 small-batch-sentences-rule-5 = 所有句子必須屬於相同領域
 small-batch-sentences-rule-6 = 所有句子必須來自相同的出處
+# menu item
+add-sentences = 新增句子
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = 新增與審核句子、新增問題、轉錄錄音
+
+## MENU ITEM ARIA LABELS
+

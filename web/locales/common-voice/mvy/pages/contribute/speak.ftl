@@ -62,6 +62,8 @@ create-profile-button = پروفائیل سندہ
 img-alt-success-checkmark = کامیابی نہالئیں نخ
 # menu item
 read-sentences = جُملی پڑہ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جُملی پڑہ <small>(ہن٘گس اېن٘یاں تُھو)</small>
 
 ## MENU ITEM TOOLTIPS
 

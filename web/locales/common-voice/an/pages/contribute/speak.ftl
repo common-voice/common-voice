@@ -62,6 +62,8 @@ create-profile-button = Crea un perfil
 img-alt-success-checkmark = marca d'exito
 # menu item
 read-sentences = Leyer frases
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Leyer frases <small>(disponible luego)</small>
 
 ## MENU ITEM TOOLTIPS
 

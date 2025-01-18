@@ -264,6 +264,7 @@ privacy = 隐私权
 terms = 使用条款
 cookies = Cookie
 faq = 常见问题
+documentation = 文档
 content-license-text = 内容遵循<licenseLink>知识共享许可协议</licenseLink>进行授权
 share-title = 帮我们找人一起捐出一段声音！
 share-text = 请到 { $link } 贡献一段您的声音，帮助我们教会机器人们是如何说话的。

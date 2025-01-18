@@ -264,6 +264,7 @@ privacy = اَپُوۡیں
 terms = خاص لفظہ
 cookies = کُوکیز
 faq = چے کرېل تپُوسہ
+documentation = لِکے چھؤں
 content-license-text = مواد <licenseLink>کرئیٹیو کامَنز لائسنس</licenseLink> چور موجود تُھو
 share-title = زَیں مدد کری لہ مُت خلکہ تاں اواز دیں
 share-text = ݜُو زئ تاں اواز دی { $link } لہ مشیۡنؤں پتہ اے چےۡ اصل خلکہ گِشے بلیۡ بناں تھہ

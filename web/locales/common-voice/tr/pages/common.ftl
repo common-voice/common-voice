@@ -264,6 +264,7 @@ privacy = Gizlilik
 terms = Koşullar
 cookies = Çerezler
 faq = SSS
+documentation = Belgelendirme
 content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licenseLink> ile sunulmaktadır
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın

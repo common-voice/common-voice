@@ -62,6 +62,8 @@ create-profile-button = Ein Profil erstellen
 img-alt-success-checkmark = Symbol: Häkchen/Erfolg
 # menu item
 read-sentences = Sätze vorlesen
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Sätze vorlesen <small>(kommt in Kürze)</small>
 
 ## MENU ITEM TOOLTIPS
 

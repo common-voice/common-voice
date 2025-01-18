@@ -14,6 +14,8 @@ listen-abort-cancel = Überprüfung fortsetzen
 listen-abort-confirm = Überprüfung abschließen
 # Menu item
 validate-readings = Sprachbeiträge überprüfen
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Sprachbeiträge überprüfen (kommt in Kürze)
 
 ## MENU ITEM TOOLTIPS
 

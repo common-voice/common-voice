@@ -34,6 +34,7 @@ average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
 want-to-continue = Шумо мехоҳед, ки идома диҳед?
+finish-editing = Аввалан, шумо тасҳеҳро ба анҷом мерасонед?
 build-custom-goal = Сохтани ҳадафи шахсӣ
 help-reach-hours-pluralized =
     { NUMBER($hours) ->

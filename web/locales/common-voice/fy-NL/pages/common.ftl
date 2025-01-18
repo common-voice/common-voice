@@ -264,6 +264,7 @@ privacy = Privacy
 terms = Betingsten
 cookies = Cookies
 faq = FAQ
+documentation = Dokumintaasje
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
 share-title = Help ús oaren te finen dy’t harren stim donearje wolle!
 share-text = Help mei masinen te learen hoe’t echte minsken prate, donearje jo stim op { $link }

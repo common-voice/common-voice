@@ -62,6 +62,8 @@ create-profile-button = آک پروفائل سمہ
 img-alt-success-checkmark = کامیبی نِݜون
 # menu item
 read-sentences = جملے منوئی،
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملے منئنی <small>(لپ یھِین)</small>
 
 ## MENU ITEM TOOLTIPS
 

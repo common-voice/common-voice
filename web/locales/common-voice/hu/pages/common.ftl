@@ -230,6 +230,7 @@ privacy = Adatvédelem
 terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
+documentation = Dokumentáció
 content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
 share-title = Segítsen megtalálni azokat, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi emberek. Adja a hangját: { $link }

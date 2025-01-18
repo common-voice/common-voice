@@ -264,6 +264,7 @@ privacy = Privacidat
 terms = Termens
 cookies = Cookies
 faq = Preguntas frecuents
+documentation = Documentación
 content-license-text = Conteniu disponible baixo una <licenseLink>licencia Creative Commons</licenseLink>
 share-title = Aduya-nos a trobar mas personas que donen la suya voz!
 share-text = Aduya-nos a amostrar a las maquinas cómo charra la chent real, dona la tuya voz en { $link }

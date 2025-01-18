@@ -72,11 +72,15 @@ read-more-about = Дар саҳифаи «Дар бораи мо» бештар 
 ## NAV ITEMS
 
 answer-questions = Ба саволҳо ҷавоб диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
+answer-questions-coming-soon = Ба саволҳо ҷавоб диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 review-transcriptions = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
+review-transcriptions-coming-soon = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 add-questions = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
+transcribe-audio-coming-soon = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 press-and-stories = Матбуот ва ҳикояҳо
 community-and-languages = Ҷомеа ва забонҳо
+coming-soon = Ба наздикӣ дастрас мешавад
 
 ## MENU ITEMS TOOLTIPS
 
@@ -95,21 +99,52 @@ partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Comm
 
 ## Hero section
 
+hero-title = Технологияе, ки бо забони шумо ҳарф мезанад
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Чаро зеҳни сунъӣ (AI) бояд танҳо барои якчанд забон дар саросари ҷаҳон кор кунад?</bold>
+# icon is an arrow that points downwards
+get-started = Оғози кор <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Матни забон
+coming-soon = Ба наздикӣ дастрас мешавад
+add-text = Илова кардани матн
 
 ## Community section
 
+community-section-title = Бо дастгирии ҷомеаҳои умумиҷаҳонӣ ва барои ҷомеаҳои умумиҷаҳонӣ фаъолият мекунад — 130 забон ва зиёд шуда истодааст!
+join-discord-community = Ба ҷамъияти мо дар «Discord» ҳамроҳ шавед
+# label for button
+join-discord-community-action = Ба мо дар «Discord» ҳамроҳ шавед
+find-us-on-matrix = Моро дар «Matrix» пайдо кунед
+# label for button
+find-us-on-matrix-action = Моро дар «Matrix» пайдо кунед
+ask-mozilla-share = Аз «Mozilla» хоҳиш кунед, ки дар бораи чорабиниҳои шумо маълумот паҳн кунад
+# label for button
+ask-mozilla-share-action = Дар бораи чорабинии худ маълумот паҳн кунед
+download-contribution-certificate = Шаҳодатномаро дар бораи саҳмгузории овози худ боргирӣ намоед
+# label for button
+download-contribution-certificate-action = Шаҳодатномаи худро ба даст оред
+contribute-github = Дар «GitHub» саҳм гузоред
+# label for button
+contribute-github-action = Дар «GitHub» саҳм гузоред
 
 ## Featured section
 
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Ҷумлаҳоро хонед
+validate-readings-link = Хонишҳоро тасдиқ кунед
+contribute-link = Ба маҷмуи матнӣ саҳм гузоред
+answer-questions-link = Ба саволҳо ҷавоб диҳед
+transcribe-answers-link = Ҷавобҳоро ба матн табдил диҳед
 
 ## Partner section
 

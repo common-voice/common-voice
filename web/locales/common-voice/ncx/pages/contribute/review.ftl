@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Nesi sapanoa totoka otikchi. Ximochia uan kua
 sc-redirect-page-title = Tikinpatilijtokej miak tlamantli.
 sc-redirect-page-subtitle-1 = Tlajkuilolnechikoli axkan kajki itech Common Voice. Axkan uelis<writeURL>tikijkuilos</writeURL>se tlamantli noso<reviewURL>tikmotilis</reviewURL> sejse tlajkuiloli non yokintlalilikej itech Common Voice.
 sc-redirect-page-subtitle-2 = Seki techtlajtlani itech <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> noso <emailLink>email</emailLink>.
+# menu item
+review-sentences = Xikmotili tlajtoli

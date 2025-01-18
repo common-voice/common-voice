@@ -264,6 +264,7 @@ privacy = Priwatnosć
 terms = Wuměnjenja
 cookies = Placki
 faq = HSP
+documentation = Dokumentacija
 content-license-text = Wobsah je k dispoziciji pod <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
 share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós na { $link }

@@ -264,6 +264,7 @@ privacy = حریم خصوصی
 terms = شرایط
 cookies = کوکی‌ها
 faq = پرسش‌های متداول
+documentation = مستندات
 content-license-text = محتوا تحت یک <licenseLink>مجوز Creative Commons</ licenseLink> در دسترس است
 share-title = به ما در پیدا کردن افراد دیگری که مایل به اهدای صدای خود هستند کمک کنید!
 share-text = به ماشین‌ها نحوهٔ صحبت کردن افراد واقعی را آموزش دهید، صدای خود را از طریق { $link } اهدا کنید

@@ -264,6 +264,7 @@ privacy = Datenschutz
 terms = Nutzungsbedingungen
 cookies = Cookies
 faq = FAQ
+documentation = Dokumentation
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
 share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
 share-text = Zeigt Geräten, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!

@@ -62,6 +62,8 @@ create-profile-button = Создать профиль
 img-alt-success-checkmark = флажок успешного завершения
 # menu item
 read-sentences = Прочитать предложения
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Прочитать предложения <small>(Скоро)</small>
 
 ## MENU ITEM TOOLTIPS
 

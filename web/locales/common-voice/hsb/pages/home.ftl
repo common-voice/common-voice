@@ -122,6 +122,8 @@ community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a r�
 
 ## Get involved section
 
+press-and-stories-link = Nowiny a stawiznički
 
 ## Partner section
 
+partner-section-title = Stańće so z našim partnerom

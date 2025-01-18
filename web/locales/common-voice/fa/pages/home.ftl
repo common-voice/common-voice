@@ -79,6 +79,7 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 ## NAV ITEMS
 
 community-and-languages = اجتماع و زبان‌ها
+coming-soon = به زودی
 
 ## MENU ITEMS TOOLTIPS
 
@@ -94,6 +95,7 @@ community-and-languages = اجتماع و زبان‌ها
 
 ## Action items section
 
+coming-soon = به زودی
 
 ## Community section
 

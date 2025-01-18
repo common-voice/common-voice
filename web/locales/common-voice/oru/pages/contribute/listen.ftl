@@ -12,6 +12,8 @@ listen-abort-cancel = ا صحیح کؤ جاري سېتن
 listen-abort-confirm = ا صحیح کؤ پُورۀ ݭیوک
 # Menu item
 validate-readings = ته غوېک يې بيې تصدیق کَۀ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = کارګر کېک
 
 ## MENU ITEM TOOLTIPS
 

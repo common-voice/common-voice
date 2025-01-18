@@ -124,7 +124,7 @@ scripted-card-content = Läs meningar högt på ditt språk och bidra till den m
 spontaneous-card-header = Spontant tal
 spontaneous-card-content = Svara på frågor för att skapa datamängder för organiska vardagliga sammanhang. Passar perfekt för dina första språk.
 language-text-card-header = Språktext
-language-text-card-content = Skapa eller dela allmän egendom uppmaningar, meningar och text för översättning, små språkmodeller och mycket mer.
+language-text-card-content = Skapa eller dela offentliga domänuppdrag, meningar och text för översättning, små språkmodeller och mer.
 coming-soon = Kommer snart
 add-text = Lägg till text
 
@@ -148,7 +148,7 @@ download-contribution-certificate-content = Ladda ner ett certifikat för dina e
 # label for button
 download-contribution-certificate-action = Hämta ditt certifikat
 contribute-github = Bidra på GitHub
-contribute-github-content = Det här projektet skulle inte vara möjligt utan människor som du. 🎉 Det finns många sätt att engagera dig i Common Voice - du behöver inte kunna hur man kodar för att bidra!
+contribute-github-content = Det här projektet skulle inte vara möjligt utan människor som du. 🎉 Det finns många sätt att engagera sig i Common Voice - du behöver inte kunna hur man kodar för att bidra!
 # label for button
 contribute-github-action = Bidra på GitHub
 
@@ -181,9 +181,9 @@ press-and-stories-link = Press och berättelser
 
 partner-section-title = Samarbeta med oss
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Tekniska företag</bold> - investera i att skapa öppen datamängd för ett blomstrande flerspråkigt AI-ekosystem
+partner-section-subtitle-tech-companies = <bold>Teknikföretag</bold> - investera i att skapa öppen datamängd för ett blomstrande flerspråkigt AI-ekosystem
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-civil-society = <bold>Civilsamhället och forskare</bold> - skapa, värd för och dela slagkraftiga datamängder gratis
+partner-section-subtitle-civil-society = <bold>Civilsamhället och forskare</bold> - skapa, var värd för och dela slagkraftiga datamängder gratis
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropi</bold> - sponsra skapandet av datamängder för att främja lokal innovation och utveckling
 # icon is an arrow that points to the right

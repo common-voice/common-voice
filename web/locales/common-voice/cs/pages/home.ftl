@@ -84,6 +84,7 @@ add-questions = Přidat otázky <small>(Již brzy)</small>
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
+coming-soon = Již brzy
 
 ## MENU ITEMS TOOLTIPS
 
@@ -104,12 +105,21 @@ community-and-languages-menu-item-aria-label = Prozkoumejte komunitu a jazyky po
 
 ## Hero section
 
+hero-title = Technologie, která mluví vaším jazykem
 
 ## Action items section
 
+coming-soon = Již brzy
+add-text = Přidat text
 
 ## Community section
 
+join-discord-community = Připojte se ke komunitě Discord
+# label for button
+join-discord-community-action = Přidejte si nás na Discordu
+# label for button
+find-us-on-matrix-action = Najdete nás na Matrixu
+ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
 
 ## Featured section
 

@@ -14,6 +14,8 @@ listen-abort-cancel = შემოწმების გაგრძელებ
 listen-abort-confirm = შემოწმების შეწყვეტა
 # Menu item
 validate-readings = წაკითხულის გადამოწმება
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = წაკითხულის გადამოწმება <small> (მალე)</small>
 
 ## MENU ITEM TOOLTIPS
 
