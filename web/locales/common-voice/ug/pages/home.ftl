@@ -146,3 +146,4 @@ press-and-stories-link = خەۋەر ۋە ماقالە
 
 ## Partner section
 
+partner-section-title = بىز بىلەن ھەمكارلىشىڭ
