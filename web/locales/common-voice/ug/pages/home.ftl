@@ -131,12 +131,20 @@ find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
 # label for button
 find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
+# label for button
+contribute-github-action = GitHub دا تۆھپە قوشۇڭ
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = خەۋەر بولىقىمىزنى <icon> </icon> چۈشۈرۈڭ
 
 ## Developers section
 
+developers-section-title = +130 تىلدىكى ئاشكارا زىيارەت قىلغىلى بولىدىغان ئوچۇق تىل سانلىق مەلۇمات توپلىمى
+developers-section-subtitle = جامائەتنىڭ ھەمكارلىقىدا ۋۇجۇدقا كەلگەن، ASR، STT، TTS ۋە باشقا NLP غا ئىشلىتىشكە ماس كېلىدىغان سانلىق مەلۇمات توپلىمى.
+# icon is an arrow that points to the right
+explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> بايقاش
 
 ## Get involved section
 
