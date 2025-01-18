@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = ئۈننى تېكىستكە خاتىرىلە<smal
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
+coming-soon = پات يېقىندا قوشۇلىدۇ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -119,6 +120,7 @@ scripted-card-header = قوليازما نۇتقى
 scripted-card-content = تىلىڭىزنى جۈملىلەرنى يۇقىرى ئاۋازدا ئوقۇپ دۇنيادىكى ئەڭ كۆپ خىللاشقان ئاممىۋى ھەمكارلىقتىكى نۇتۇق سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇڭ.
 spontaneous-card-header = تەبىئىي نۇتۇق
 language-text-card-header = تىل تېكىستى
+coming-soon = پات يېقىندا قوشۇلىدۇ
 add-text = تېكىست قوش
 
 ## Community section
@@ -131,6 +133,9 @@ find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
 # label for button
 find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
+# label for button
+download-contribution-certificate-action = گۇۋاھنامىڭىزغا ئېرىشىڭ
+contribute-github = GitHub دا تۆھپە قوشۇڭ
 # label for button
 contribute-github-action = GitHub دا تۆھپە قوشۇڭ
 
@@ -148,8 +153,10 @@ explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> با
 
 ## Get involved section
 
+get-involved-section-title = جامائەت باشلامچىلىقىدىكى ئوچۇق سانلىق مەلۇمات توپلىمىنى قوللاڭ
 read-sentences-link = جۈملە ئوقۇ
 validate-readings-link = ئوقۇشنى دەلىللە
+contribute-link = تېكىست توپلىمىغا تۆھبە قوشۇڭ
 answer-questions-link = سوئالغا جاۋاب
 transcribe-answers-link = جاۋابنى خەتكە پۈت
 review-transcriptions-link = خەت پۈتۈك تەكشۈر
