@@ -48,7 +48,7 @@ sc-criteria-item-6 = اگر جائزہ ہرونے کِرِیا څھے جُملا
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیک <icon></icon> تِھیا آ لسانی اعتبار گیْ صحیح جُملانو یا؟
 sc-review-rules-title = جُملہ تام ہدایاتو معیارَڑ اُڇھانوْ یا؟
-sc-review-empty-state = فی الحال آ جِب دہ جائزہ ہرونے کِرِیا کھاں گہ جُملہ نِش۔
+sc-review-empty-state = فی الحال آ جِب دہ جائزہ ہرونے کِرِیا کھاں گہ قِسمے جُملہ موجود نِش۔
 report-sc-different-language = مختلف جِب
 report-sc-different-language-detail = آ اسہ جِبِجیْ مختلفِن کھاں سے موْس جائزہ ہرمس۔
 sentences-fetch-error = جُملو اوروڑ دہ ایْک خرابی آلِن۔
