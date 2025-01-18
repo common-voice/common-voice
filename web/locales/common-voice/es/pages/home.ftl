@@ -114,6 +114,15 @@ find-us-on-matrix-action = Encontrarnos en Matrix
 
 ## Get involved section
 
+read-sentences-link = Leer oraciones
+validate-readings-link = Validar grabaciones
+answer-questions-link = Contestar a preguntas
+transcribe-answers-link = Transcribir respuestas
+review-transcriptions-link = Revisar transcripciones
+contribute-text-link = Contribuir con texto
+press-and-stories-link = Prensa e historias
 
 ## Partner section
 
+# Partners section
+our-partners-include = Nuestros socios incluyen...
