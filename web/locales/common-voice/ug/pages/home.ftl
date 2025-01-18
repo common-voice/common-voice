@@ -127,6 +127,10 @@ community-section-title = دۇنياۋى جامائەت ئىشلىگەن، دۇ�
 join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
 # label for button
 join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
+find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
+# label for button
+find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
+ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
 
 ## Featured section
 
@@ -147,3 +151,7 @@ press-and-stories-link = خەۋەر ۋە ماقالە
 ## Partner section
 
 partner-section-title = بىز بىلەن ھەمكارلىشىڭ
+# icon is an arrow that points to the right
+get-in-touch-button = <icon> </icon> بىلەن ئالاقىلىشىڭ
+# Partners section
+our-partners-include = شېرىكلىرىمىز…
