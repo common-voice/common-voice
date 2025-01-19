@@ -55,6 +55,7 @@ sentence-domain = 문장 도메인
 public-domain-explanation-1 = Common Voice 데이터 세트는 cc0 라이선스 하에 공개되므로 모든 텍스트 문장은 반드시 <publicDomain>공개 도메인</publicDomain>(<cc0>cc0</cc0>)이어야 합니다. 확실한 경우에만 문장을 업로드하고 항상 관련 인용문을 포함하세요.
 public-domain-explanation-2 = 유용한 음성 인식 엔진을 구축하기 위한 가장 좋은 문장은 구어체이고 현대적인 어투로 된 것입니다. 문장을 생성하는 데 도움이 되는 몇 가지 아이디어는 다음과 같습니다.
 public-domain-explanation-3 = 글쓰기 마라톤 등을 통해 혼자서 또는 친구, 언어 커뮤니티와 함께 현대적인 구어체 문장을 만들어 보세요.
+public-domain-explanation-4 = 작가나 극작가, 시나리오 작가에게 연락하여 그들의 작품 중 일부를 공공 영역에 기여할 의향이 있는지 물어보십시오.
 public-domain-explanation-5 = 저작권이 더 이상 적용되지 않는 텍스트를 찾으세요(예: 1920년 이전에 출판된 대부분의 책).
 citing-sentences-subheader-websites = 웹사이트
 citing-sentences-subheader-websites-explanation = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
