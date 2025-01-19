@@ -122,10 +122,13 @@ action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşa
 scripted-card-header = Yazıları Seslendirme
 spontaneous-card-header = Doğaçlama Konuşma
 language-text-card-header = Dilinizde Metinler
+language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
 coming-soon = Çok yakında
+add-text = Metin ekleyin
 
 ## Community section
 
+community-section-title = Dünyanın tüm topluluklarını destekliyoruz: 130 dile ulaştık ve bu sayı giderek artıyor!
 join-discord-community = Discord topluluğumuza katılın
 # label for button
 join-discord-community-action = Discord’da bize katılın
@@ -149,6 +152,7 @@ download-press-pack = Basın paketimizi indirin <icon></icon>
 ## Developers section
 
 developers-section-title = 130’dan fazla dilde kamuya açık konuşma veri kümeleri
+developers-section-subtitle = Topluluk katılımıyla oluşturulan ASR, STT, TTS ve diğer NLP bağlamlarına ait veri kümeleri.
 # icon is an arrow that points to the right
 explore-datasets = Veri kümelerini keşfedin <icon></icon>
 
@@ -158,6 +162,9 @@ read-sentences-link = Cümleleri okuyun
 validate-readings-link = Okumaları doğrulayın
 contribute-link = Metin korpusuna katkıda bulunun
 answer-questions-link = Soruları cevaplayın
+transcribe-answers-link = Yanıtları metne çevir
+review-transcriptions-link = Çeviri metinlerini incele
+contribute-text-link = Metin bağışlayın
 press-and-stories-link = Basın ve haberler
 
 ## Partner section
