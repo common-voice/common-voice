@@ -133,6 +133,7 @@ contribute-github-action = Дар «GitHub» саҳм гузоред
 
 ## Featured section
 
+featured-section-title = Дар бораи мо менависанд...
 
 ## Developers section
 
@@ -146,6 +147,9 @@ validate-readings-link = Хонишҳоро тасдиқ кунед
 contribute-link = Ба маҷмуи матнӣ саҳм гузоред
 answer-questions-link = Ба саволҳо ҷавоб диҳед
 transcribe-answers-link = Ҷавобҳоро ба матн табдил диҳед
+review-transcriptions-link = Овонависиро баррасӣ кунед
+contribute-text-link = Матнҳоро пешниҳод намоед
+press-and-stories-link = Матбуот ва ҳикояҳо
 
 ## Partner section
 
