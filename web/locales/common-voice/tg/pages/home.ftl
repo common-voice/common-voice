@@ -107,6 +107,7 @@ get-started = Оғози кор <icon><icon>
 
 ## Action items section
 
+spontaneous-card-header = Лоиҳаи «Spontaneous Speech»
 language-text-card-header = Матни забон
 coming-soon = Ба наздикӣ дастрас мешавад
 add-text = Илова кардани матн
