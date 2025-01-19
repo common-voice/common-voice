@@ -102,6 +102,7 @@ partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Comm
 hero-title = Технологияе, ки бо забони шумо ҳарф мезанад
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Чаро зеҳни сунъӣ (AI) бояд танҳо барои якчанд забон дар саросари ҷаҳон кор кунад?</bold>
+hero-subtitle-2 = Забони мо — ин таърихи мо, ҷомеаи мо ва фарҳанги мо аст. Биёед, маҷмуъҳои маълумотиеро эҷод кунем, ки мо мехоҳем дар ҷаҳони маҳбуби мо бинем.
 # icon is an arrow that points downwards
 get-started = Оғози кор <icon><icon>
 
