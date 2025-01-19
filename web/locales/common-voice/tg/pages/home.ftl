@@ -107,6 +107,7 @@ get-started = Оғози кор <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Нутқи намоишнома
 spontaneous-card-header = Лоиҳаи «Spontaneous Speech»
 language-text-card-header = Матни забон
 coming-soon = Ба наздикӣ дастрас мешавад
@@ -142,6 +143,7 @@ explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Маҷмуъҳои маълумоти кушодро дар зери роҳбарии ҷомеаи умумиҷаҳонӣ дастгирӣ намоед
 read-sentences-link = Ҷумлаҳоро хонед
 validate-readings-link = Хонишҳоро тасдиқ кунед
 contribute-link = Ба маҷмуи матнӣ саҳм гузоред
@@ -153,3 +155,6 @@ press-and-stories-link = Матбуот ва ҳикояҳо
 
 ## Partner section
 
+partner-section-title = Шарики мо шавед
+# icon is an arrow that points to the right
+get-in-touch-button = Дар тамос шавед <icon></icon>
