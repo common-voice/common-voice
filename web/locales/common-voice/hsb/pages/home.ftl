@@ -129,17 +129,36 @@ join-discord-community-action = Přidružće so nam na Discord
 find-us-on-matrix = Namakajće nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
+# label for button
+download-contribution-certificate-action = Wobstarajće sej swój certifikat
+contribute-github = Na Github přinošować
+# label for button
+contribute-github-action = Na Github přinošować
 
 ## Featured section
 
+featured-section-title = Předstajeny w…
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Sady čitać
+validate-readings-link = Čitanja přepruwować
+contribute-link = K tekstowemu korpusej přinošować
+answer-questions-link = Na prašenja wotmołwić
+transcribe-answers-link = Wotmołwy transkribować
+review-transcriptions-link = Transkripcije přepruwować
+contribute-text-link = Tekst přinošować
 press-and-stories-link = Nowiny a stawiznički
 
 ## Partner section
 
 partner-section-title = Stańće so z našim partnerom
+# icon is an arrow that points to the right
+get-in-touch-button = Skontaktować <icon></icon>
+# Partners section
+our-partners-include = K našim partneram słušeja…
