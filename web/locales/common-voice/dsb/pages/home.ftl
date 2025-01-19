@@ -142,9 +142,24 @@ featured-section-title = Pśedstajony w…
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Sady cytaś
+validate-readings-link = Cytanja pśeglědowaś
+contribute-link = K tekstowemu korpusoju pśinosowaś
+answer-questions-link = Pšašanja wótegroniś
+transcribe-answers-link = Wótegrona transkriběrowaś
+review-transcriptions-link = Transkripcije pśeglědowaś
+contribute-text-link = Tekst pśinosowaś
+press-and-stories-link = Casnikaŕstwo a tšojenja
 
 ## Partner section
 
+partner-section-title = Buźćo naš partnaŕ
+# icon is an arrow that points to the right
+get-in-touch-button = Skontaktěrowaś <icon></icon>
+# Partners section
+our-partners-include = K našym partnarjam słušaju…

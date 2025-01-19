@@ -82,11 +82,15 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 ## NAV ITEMS
 
 answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
+answer-questions-coming-soon = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
 review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
+review-transcriptions-coming-soon = Transkripcije přepruwować <small>(příndźe bórze</small>)
 add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
+transcribe-audio-coming-soon = Awdio transkribować <small>(přińdźe bórze)</small>
 transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
+coming-soon = Bórze k dispoziciji
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,12 +111,24 @@ community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a r�
 
 ## Hero section
 
+hero-title = Technologija, kotraž wašu rěč rěči
+# icon is an arrow that points downwards
+get-started = Prěnje kroki <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Rěčny tekst
+coming-soon = Bórze k dispoziciji
+add-text = Tekst přidać
 
 ## Community section
 
+join-discord-community = Přidružće so zhromadźenstwu Discord
+# label for button
+join-discord-community-action = Přidružće so nam na Discord
+find-us-on-matrix = Namakajće nas na Matrix
+# label for button
+find-us-on-matrix-action = Namakajće nas na Matrix
 
 ## Featured section
 
