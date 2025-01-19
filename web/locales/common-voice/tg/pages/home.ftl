@@ -158,3 +158,5 @@ press-and-stories-link = Матбуот ва ҳикояҳо
 partner-section-title = Шарики мо шавед
 # icon is an arrow that points to the right
 get-in-touch-button = Дар тамос шавед <icon></icon>
+# Partners section
+our-partners-include = Мо дар ҳамкорӣ бо шарикони...
