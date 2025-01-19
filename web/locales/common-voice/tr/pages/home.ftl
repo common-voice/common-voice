@@ -79,8 +79,11 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 ## NAV ITEMS
 
 answer-questions = Soru yanıtla <small>(Çok yakında)</small>
+answer-questions-coming-soon = Soru yanıtla <small>(Çok yakında)</small>
 review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
+review-transcriptions-coming-soon = Çeviri metinleri incele <small>(Çok yakında)</small>
 add-questions = Soru ekle <small>(Çok yakında)</small>
+transcribe-audio-coming-soon = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
@@ -108,11 +111,17 @@ community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve dest
 hero-title = Dilinizi konuşan teknoloji
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Yapay zekâ neden yalnızca birkaç dille çalışsın?</bold>
+hero-subtitle-2 = Dilimiz bizim hikâyemiz, topluluğumuz, kültürümüzdür. Gelin, dünyada görmek istediğimiz veri kümelerini birlikte yaratalım.
+# icon is an arrow that points downwards
+get-started = Başlayalım <icon><icon>
 
 ## Action items section
 
 action-items-section-title = Common Voice, topluluk öncülüğünde veri oluşturmaya yönelik ücretsiz, açık kaynaklı bir platformdur
 action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşarak, oluşturarak ve düzenleyerek dilini koruyabilir, canlandırabilir ve geliştirebilir.
+scripted-card-header = Yazıları Seslendirme
+spontaneous-card-header = Doğaçlama Konuşma
+language-text-card-header = Dilinizde Metinler
 coming-soon = Çok yakında
 
 ## Community section

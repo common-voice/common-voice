@@ -62,6 +62,8 @@ create-profile-button = Profil oluştur
 img-alt-success-checkmark = başarı onay işareti
 # menu item
 read-sentences = Cümleleri oku
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Cümleleri oku <small>(Çok yakında)</small>
 
 ## MENU ITEM TOOLTIPS
 

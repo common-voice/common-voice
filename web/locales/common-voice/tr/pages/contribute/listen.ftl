@@ -14,6 +14,8 @@ listen-abort-cancel = Doğrulamaya devam et
 listen-abort-confirm = Doğrulamayı bitir
 # Menu item
 validate-readings = Okumaları doğrula
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Okumaları doğrula <small>(Çok yakında)</small>
 
 ## MENU ITEM TOOLTIPS
 
