@@ -82,11 +82,15 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 ## NAV ITEMS
 
 answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
+answer-questions-coming-soon = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
 review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
+review-transcriptions-coming-soon = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
+transcribe-audio-coming-soon = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
+coming-soon = Skóro k dispoziciji
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,15 +111,34 @@ community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rě
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Rěcny tekst
+coming-soon = Skóro k dispoziciji
+add-text = Tekst pśidaś
 
 ## Community section
 
+join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
+# label for button
+join-discord-community-action = Pśizamkniśo se nam na Discord
+find-us-on-matrix = Namakajśo nas na Matrix
+# label for button
+find-us-on-matrix-action = Namakajśo nas na Matrix
+# label for button
+ask-mozilla-share-action = Źělśo swójo zarědowanje
+# label for button
+download-contribution-certificate-action = Wobstarajśo se swój certifikat
+contribute-github = Na Github pśinosowaś
+# label for button
+contribute-github-action = Na Github pśinosowaś
 
 ## Featured section
 
+featured-section-title = Pśedstajony w…
 
 ## Developers section
 
