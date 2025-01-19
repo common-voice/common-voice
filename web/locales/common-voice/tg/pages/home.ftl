@@ -108,6 +108,8 @@ get-started = Оғози кор <icon><icon>
 
 ## Action items section
 
+action-items-section-title = «Common Voice» - лоиҳаи озод аст, ки дар платформаи манбаи кушод асос меёбад ва барои эҷоди маълумот дар зери роҳбарии ҷомеаи умумиҷаҳонӣ дастгирӣ мешавад
+action-items-section-subtitle = Ҳар як кас метавонад тавассути мубодила, эҷод ва назорат кардани маҷмуъҳои маълумоти матнӣ ва овозӣ забони модарии худро ҳифз кунад, эҳё намояд ва баланд бардорад.
 scripted-card-header = Нутқи намоишнома
 spontaneous-card-header = Лоиҳаи «Spontaneous Speech»
 language-text-card-header = Матни забон
