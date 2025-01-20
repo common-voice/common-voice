@@ -123,9 +123,11 @@ spontaneous-card-content = تھَنی باشوڈیٹا سیٹ سَنیونو ج�
 language-text-card-header = باشو کَچَٹ/ لِکھِیتی
 language-text-card-content = عام جَکوڑے ترجمئی کاری ڈومین پرومٹ ، موجی، گہ کَچَٹیانی/لِکھیانی سَنے، باشو چُنے ماڈلی، گہ مُتے لائی۔۔
 coming-soon = لوکو اِیُوں ہِیں/ہُوں
+add-text = کَچٹ تھِتی /لِکھِیتی یو تھے
 
 ## Community section
 
+community-section-title = دُنیاتو کمیونیٹِئیے سے یَجارینائیے، دُنیاتو کمیونیٹِیو کاری  — 130 باشی گہ بَسکیئے گہ!
 
 ## Featured section
 

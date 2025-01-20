@@ -64,6 +64,7 @@ dataset-donate-modal-heading = تُو شِدیۡ آنۡسی چے ۔۔۔
 donate-modal-explanation-1 = 100 نہ بُوۡئ ژِبہۡ واں خلکہ چے سَیں زاں کریل کماں تمہ لا ہوں تھو اِ اِواں کریا ڈیٹاسیٹ سن٘دَیں، چلَیں تے سم کرَیں لا کالَیں دش لاکھ ڈالرؤں ہاری٘ خرچہ ای تُھو۔
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <strong>کہ تُس قدر کراں تھو  بُٹواںتے ہرقسم ڈیٹاں۔ کھیں آژ زؤں لا صدقہ کری!</strong>
+data-download-singleword-title = کیالو لفظاں نخوۡ کرېل حصہ منی والہ / ڈاؤن لوڈ کرہ
 data-download-button = کامن وائسَیں‌ معلومات منی والہ
 data-download-yes = آں
 data-download-deny = نَیں
