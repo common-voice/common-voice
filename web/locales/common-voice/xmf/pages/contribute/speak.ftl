@@ -44,29 +44,31 @@ first-cta-header-text = მარდის მუგოშინანთ თქ
 first-cta-subtitle-text = ხომ ვაგოკონა, თქვან ჩიებაშ თავისებურებეფი გამზიარათჷნი?
 why-donate = მუშენ მოკითხჷქ?
 why-donate-explanation-1 = თე ინფორმაციაშ გეძინა ვარე სავალდებულო. ქუგოკონადა, თქვანი ნება რე. ინოჭარილეფიშ ნაკათაში გჷშაშკუმალაშ დროს ჩქი პირად მუნაჩემეფს ირფელს უთხინუანთ, თიშენ ნამდა თქვან სახელი დო ელფოსტა ვარდას დაკავშირებული თაქ მითითებულ ასაკის დო სქესისჷნი.
-why-donate-explanation-2 = ხონარიშ ეშმაჩინებელქ არძაშო ჯგირო ქიმუშუასჷნი, მონაცემეფი, ნამუთ ოხვარ მაქიმინალეფს ტექნოლოგიურ საშუალებეფიშ ოქიმინუს, ოხუდას ოკო კათაშ შხვადოშხვანერობას. მაგალთო, ცალკეიან კილოშა მორაგადე კათაშ ინნაჭარეფი ვამაღვენუნადა, თე კილოშა მორაგადე კათაშო ვემუშენს. <learnMore> ქოძირით უმოსი, მუჭომი მნიშვნელოვან რე თაქ გეძინელ მონაცემეფინი.
-add-information-button = მონაცემეფიშ მიკოდვალა.
-continue-speaking-button = ვარ, მარდი, გაგძელით ჩიება.
-create-profile-text = გოკონანო თქვან მონაცემეფიშ შენახება? <createProfile> გაკეთით პროფილი </createProfile>
-thanks-for-voice-toast = მარდის მუგოშინანთ თქვანი ხონარიშ გურშენ ინფორმაცია მუჩითჷნ.
-thanks-for-voice-toast-error = ინფორმაციაშ ჯღონაშ დროს შეცდომაქ იჸუ.
-first-cta-gender-select-default-option = გეჲშაგორით ართ-ართი.
+why-donate-explanation-2 = ხონარიშ ეშმაჩინებელქ არძაშო ჯგირო ქიმუშუასჷნი, მონაჩემეფი, ნამუთ ოხვარ მაქიმინალეფს ტექნოლოგიურ საშუალებეფიშ ოქიმინუს, ოხუდას ოკო კათაშ შხვადოშხვანერობას. მაგალთო, ცალკეიან კილოშა მორაგადე კათაშ ინნაჭარეფი ვამაღვენუნადა, თე კილოშა მორაგადე კათაშო ვემუშენს. <learnMore> ქოძირით უმოსი, თაქ გეძინელი მონაჩემეფი მუჭომი შანულამი რე.
+add-information-button = ინფორმაციაშ მიკოდვალა
+continue-speaking-button = ვარ, მარდი, გაგძელით ჩიება
+create-profile-text = გოკონანო თქვან მონაჩემეფიშ შენახება? <createProfile> გაკეთით პროფილი </createProfile>
+thanks-for-voice-toast = მარდის მუგოშინანთ თქვანი ხონარიშ გურშენ ინფორმაცია მუჩითჷნ
+thanks-for-voice-toast-error = ინფორმაციაშ ჯღონაშ დროს ჩილათაქ იჸუ
+first-cta-gender-select-default-option = გეჲშაგორით ართ-ართი
 first-cta-gender-select-help-text =
     .label = მუჭო დახასიათენთ თქვან სქესის ვარდა გენდერს?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = მარდის მუგოშინანთ თქვანი ხონარით შემენწითჷნი.
+second-cta-header-text = მარდის მუგოშინანთ თქვანი ხონარით შემენწითჷნი!
 second-cta-subtitle-text = თე პროფილით თოლი ქუჸუნეთ თქვანი წიმე ულას დო ქაკათით ხონარეფიშ ინმაჭარალეფიშ ბუნას.
 already-have-an-account = ანწი გიღუნანო ანგარიში? <login> მიშულა </login>
-create-profile-button = პროფილიშ კეთება.
+create-profile-button = პროფილიშ ქიმინუა
 # IMAGE TAGS
-img-alt-success-checkmark = წუმოძინელო ნაქიმინაშ აღნიშვნა.
+img-alt-success-checkmark = წუმოძინელო ნაქიმინაშ აღნიშვნა
 # menu item
 read-sentences = წეკითხით წინადადებეფი
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = წეკითხით ზიტყვასქვილეფი <small>(მალას</small>)
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = წეკითხით წინადადებეფი, ქუპასუხით კითხვეფს.
-read-sentences-menu-item-tooltip = წეკითხით წინადადებეფი დო ქინაჭარით თქვან ნინაშა.
+read-sentences-menu-item-tooltip = წეკითხით ზიტყვასქვილეფი დო ქინაჭარით თქვან ნინაშა
 answer-questions-menu-item-tooltip = ქინაჭარით მუჭო პასუხენთ კითხვეფს თქვან ნინაშანი.
 
 ## MENU ITEM ARIA LABELS
