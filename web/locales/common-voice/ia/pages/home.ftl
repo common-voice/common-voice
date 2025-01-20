@@ -116,12 +116,21 @@ get-started = Que nos va <icon><icon>
 
 action-items-section-title = Common Voice es un platteforma gratuite, open-source  pro creation de datos ducite per communitate
 action-items-section-subtitle = Quicunque poter preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
+scripted-card-header = Parla con texto scribite
+scripted-card-content = Lege phrases in alte voce in tu lingua e contribue al plus diverse collection de datos vocal de participation public in le mundo.
+spontaneous-card-header = Discurso spontanee
+spontaneous-card-content = Responde al suggestiones pro crear collectiones de datos pro contextos organic e colloquial. Perfecte pro linguas primo oral.
 language-text-card-header = Texto linguistic
+language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
 coming-soon = Veniente tosto
 add-text = Adder texto
 
 ## Community section
 
+community-section-title = Supportate per communitates mundial, pro communitates mundial — 130 linguas e ultra!
+join-discord-community = Junge te al communitate de Discord
+# label for button
+join-discord-community-action = Junge te a nos sur Discord
 join-discord-community-content = Participa in le discussiones del communitate linguistic, face demandas e apprende plus re le proxime eventos e discursos.
 find-us-on-matrix = Trova nos in Matrix
 # label for button
