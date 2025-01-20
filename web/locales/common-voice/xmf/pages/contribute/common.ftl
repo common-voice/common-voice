@@ -47,18 +47,18 @@ report-ask = მუ კილი უღუ თე ზიტყვასქვი
 report-offensive-language = ოლანძღარი ზიტყვა.
 report-offensive-language-detail = თე ზიტყვასქვილი უმანგე ვარდა ოლანძღარი რე.
 report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
-report-grammar-or-spelling-detail = წინადადებას გრამატიკული ვარდა თინჭარუაში კილი უღუ.
-report-different-language = შხვანერი ნინა.
+report-grammar-or-spelling-detail = ზიტყვასქვილს გრამატიკული ვარდა თინჭარუაში კილი უღუ.
+report-different-language = შხვანერი ნინა
 report-different-language-detail = ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ რე ჭარილი.
 report-difficult-pronounce = ძნელი ორაგადე რე.
 report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ.
 report-offensive-speech = უწმაწურ ჩიება.
 report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე.
 report-other-comment =
-    .placeholder = კომენტარი.
-success = გომორძგუა.
-continue = გაგძელება.
-report-success = მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ.
+    .placeholder = კომენტარი
+success = გომორძგუა
+continue = გაგძელება
+report-success = მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ
 
 ## Speak & Listen Shortcuts
 
@@ -70,13 +70,13 @@ shortcut-skip = g
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = i
-shortcut-record-toggle-label = ინოჭარუა / გაჩერება.
+shortcut-record-toggle-label = ინოჭარუა / გაჩემება
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = ახაშო ინოჭარუა.
+shortcut-rerecord-toggle-label = ახაშო ინოჭარუა
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ გაურქვება.
-shortcut-submit = დორთა.
-shortcut-submit-label = ინოჭარილეფიში ჯღონა.
+shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ გაურქვება
+shortcut-submit = დორთა
+shortcut-submit-label = ინოჭარილეფიში ჯღონა
 request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
 request-language-button = მითხით ნინაში გეძინა.
 
@@ -95,13 +95,13 @@ shortcut-vote-no = v
 
 ## Validation criteria
 
-contribution-criteria-nav = კრიტერიუმეფი.
-contribution-criteria-link = წილიშ მიშაღალაშ კრიტერიუმეფ ქიგეგით.
+contribution-criteria-nav = კრიტერიუმეფი
+contribution-criteria-link = წილიშ მიშაღალაშ კრიტერიუმეფ ქიგეგით
 contribution-criteria-page-title = წილიშ მიშაღალაშ კრიტერიუმეფი
-contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა.
+contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა!
 contribution-for-example = მაგალთო
 contribution-misreadings-title = უწორო კითხირი
-contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინნაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
+contribution-misreadings-description = მუჟამს ურჩქილექჷნი, გურჩამილო ქიგნაჯინი ინნაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. <br /> შხირი აშაჩილათეფი რე:
 contribution-misreadings-description-extended-list-1 = ორკუ <strong> "მი"-</strong> </strong> "გი" </strong> ვარდა შხვა წინსართი წოლოხე
 contribution-misreadings-description-extended-list-2 = ორკუ <strong> "ს" </strong> ზიტყვაში ბოლოს.
 contribution-misreadings-description-extended-list-3 = დაკუნტარებული რე ზიტყვა, მაგალთო, იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.
