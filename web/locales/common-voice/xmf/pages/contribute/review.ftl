@@ -51,8 +51,8 @@ sc-review-rules-title = აყმაყოფილენს თუ ვარ �
 sc-review-empty-state = გინაჯინალ ზიტყვასქვილეფქ გეშელიუ თე ნინაშო.
 report-sc-different-language = შხვანერი ნინა
 report-sc-different-language-detail = ჩქიმ ოჩიებე ნინაშე განსხვავებულ ნინათ რე ჭარილი.
-sentences-fetch-error = ჩილათა რე წინადადებეფიშ მეღებას.
-review-error = წინადადებეფიშ მოწმებაში დროს ჩილათა რე.
+sentences-fetch-error = ჩილათა რე ზიტყვასქვილეფიშ მეღებას
+review-error = ჩილათა რე ზიტყვასქვილეფიშ გინოჯინაშ ბორჯის
 review-error-rate-limit-exceeded = ჩქარენთ. რთხინთ, დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რე.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = მნიშვნელოვან ცვლილებეფ რე.
