@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = شونگے ٹرانسکرائیب تھے <small> 
 transcribe-audio = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 press-and-stories = پریس گہ چگائیے/شِلوکے
 community-and-languages = کویوچ گہ باشے
+coming-soon = لوکو اِیُوں ہِیں/ہُوں
 
 ## MENU ITEMS TOOLTIPS
 
@@ -121,6 +122,7 @@ spontaneous-card-header = اَشانگیو شونگو
 spontaneous-card-content = تھَنی باشوڈیٹا سیٹ سَنیونو جواب دے۔ رَزینیک باشوکاری لاؤ سَم ہُوں
 language-text-card-header = باشو کَچَٹ/ لِکھِیتی
 language-text-card-content = عام جَکوڑے ترجمئی کاری ڈومین پرومٹ ، موجی، گہ کَچَٹیانی/لِکھیانی سَنے، باشو چُنے ماڈلی، گہ مُتے لائی۔۔
+coming-soon = لوکو اِیُوں ہِیں/ہُوں
 
 ## Community section
 
