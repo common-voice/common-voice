@@ -75,9 +75,9 @@ read-more-about = Descubre mas en a nuestra pachina Sobre Common Voice
 
 ## NAV ITEMS
 
-answer-questions = Reponder preguntas <small>(disponible luego)</small>
+answer-questions = Reponder preguntas
 answer-questions-coming-soon = Reponder preguntas <small>(disponible luego)</small>
-review-transcriptions = Revisar las transcripcions  <small>(disponible luego)</small>
+review-transcriptions = Revisar las transcripcions
 review-transcriptions-coming-soon = Revisar las transcripcions  <small>(disponible luego)</small>
 add-questions = Anyadir preguntas <small>(disponible luego)</small>
 transcribe-audio-coming-soon = Transcribir audio <small>(disponible luego)</small>
