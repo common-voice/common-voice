@@ -105,9 +105,12 @@ community-and-languages-menu-item-aria-label = Explora le communitate e le lingu
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Que nos va <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Texto linguistic
 coming-soon = Veniente tosto
 add-text = Adder texto
 
