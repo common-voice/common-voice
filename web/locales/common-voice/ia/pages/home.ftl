@@ -116,6 +116,7 @@ add-text = Adder texto
 
 ## Community section
 
+find-us-on-matrix = Trova nos in Matrix
 # label for button
 ask-mozilla-share-action = Compartir tu evento
 # label for button
