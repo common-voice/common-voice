@@ -1,5 +1,5 @@
 action-click = Klyckyewgh
-action-tap = Tappyowgh
+action-tap = Tappyewgh
 contribute = Kevri
 review = Dasweles
 skip = Hepkor
