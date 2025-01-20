@@ -118,6 +118,8 @@ add-text = Adder texto
 
 find-us-on-matrix = Trova nos in Matrix
 # label for button
+find-us-on-matrix-action = Trova nos in Matrix
+# label for button
 ask-mozilla-share-action = Compartir tu evento
 # label for button
 download-contribution-certificate-action = Obtene tu certificato
@@ -145,3 +147,4 @@ press-and-stories-link = Pressa e articulos
 
 ## Partner section
 
+partner-section-title = Collaborar con nos
