@@ -69,10 +69,10 @@ read-sentences-coming-soon = წეკითხით ზიტყვასქ�
 
 speak-contribute-menu-tooltip = წეკითხით წინადადებეფი, ქუპასუხით კითხვეფს.
 read-sentences-menu-item-tooltip = წეკითხით ზიტყვასქვილეფი დო ქინაჭარით თქვან ნინაშა
-answer-questions-menu-item-tooltip = ქინაჭარით მუჭო პასუხენთ კითხვეფს თქვან ნინაშანი.
+answer-questions-menu-item-tooltip = ქინაჭარით მუჭო არძენთ გამას ოკითხირეფს დო მოთხუალეფს თქვან ნინაშა
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = ჩიებაშ პარამეტრეფიშ მენიუ.
-read-sentences-menu-item-aria-label = საზოგადოებაშ წუმორინელ წინადადებეფი წეკითხით შხვადოშხვა ნინაშა.
-answer-questions-menu-item-aria-label = ქაჯღონით ახალ შეკითხვეფი საზოგადოებაშო, წეკითხან დო ქუპასუხანინი.
+speak-contribute-menu-aria-label = ჩიებაშ პარამეტრეფიშ მენიუ
+read-sentences-menu-item-aria-label = წეკითხით სამიაროშ წუმორინელ ზიტყვასქვილეფი შხვადოშხვა ნინაშა
+answer-questions-menu-item-aria-label = ქაჯღონით ახალ ოკითხირეფი სამიაროშო, წეკითხან დო გამა ქიმეჩანინი
