@@ -88,19 +88,19 @@ sc-bulk-submit-confirm = ვადასურენქ, ნამდა თე 
 bulk-upload-success-toast = ზიტყვასქვილეფს არძოქ ართო ქიგიაძინ
 bulk-upload-failed-toast = ვეგიაძინ, ქორთხინთ, კინ ქოცადათ.
 bulk-submission-success-header = მარდი, ზიტყვასქვილეფიშ არძო ართო მოჯღონუაშენი!
-bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice-ის წინადადებეფიშ ოშაყარუშ დღიურ მიზანიშ მიღწევას!
-upload-more-btn-text = გოკონანო მეტი წინადადებეფიშ ეტვირთუა?
-file-invalid-type = უწორო ფაილი.
-file-too-large = ფაილი გვალო დიდ რე.
-file-too-small = ფაილი გვალო ჭიჭე რე.
-too-many-files = ბრელ ფაილეფ რე.
+bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice-ის ზიტყვასქვილეფიშ ოშაყარუშ დღაშ ღანკიში მეჭირინაფას!
+upload-more-btn-text = გოკონანო მეტი ზიტყვასქვილეფიშ გეძინა?
+file-invalid-type = უწორო ფაილი
+file-too-large = ფაილი გვალო დიდ რე
+file-too-small = ფაილი გვალო ჭიჭე რე
+too-many-files = ბრელ ფაილეფ რე
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = ქიგუძინით ართ-ჟირ </icon><icon> წინადადება საყოველთაო საკუთრებაშე.
-multiple-sentences-error = ვეგგაძინინენა წინადადება თიო-თიოთ მიშაღალაშ დრო.
-exceeds-small-batch-limit-error = ვემიხერხინე 1000-შე უმოსი წინადადებაშ ჯღონა.
+small-batch-instruction = ქიგუძინით ართ-ჟირ </icon><icon> ზიტყვასქვილი ოირქიანე საკუთრებაშე
+multiple-sentences-error = ვეგგაძინინენა ზიტყვასქვილი თიო-თიოთ მიშაღალაშ ბორჯის
+exceeds-small-batch-limit-error = ვემიხერხინე 1000-შე უმოსი ზიტყვასქვილიშ ჯღონა
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
@@ -116,26 +116,26 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ 1 წუთი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
-       *[other] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+        [one] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ 1 წუთი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!
+       *[other] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ 1 წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
-       *[other] თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.
+        [one] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ 1 წამი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი,მოთვინებაშენი!
+       *[other] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences }1 წინადადება რე მეღებულჷ.
-       *[other] { $uploadedSentences } წინადადება რე მეღებულჷ { $totalSentences }-შე.
+        [one] { $uploadedSentences }1 ზიტყვასქვილი რე მეღებულჷ.
+       *[other] { $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ { $totalSentences }-შე.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences }1 წინადადება რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გაგმოტვირთე ვარებულ წინადადებეფინი.
-       *[other] { $uploadedSentences } წინადადება რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გაგმოტვირთე ვარებულ წინადადებეფინი { $totalSentences } -შე.
+        [one] { $uploadedSentences }1 ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი.
+       *[other] { $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი { $totalSentences } -შე.
     }
 small-batch-sentences-rule-1 = ქიმიაჸუნი მითითებეფს "წინადადება მუჭომი ოკო რდას?"
 small-batch-sentences-rule-2 = ქიგუძინი თითო წინადადება თითო ხაზის.
