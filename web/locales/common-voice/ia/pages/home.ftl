@@ -144,12 +144,15 @@ download-contribution-certificate-content = Discarga un certificato pro tu event
 # label for button
 download-contribution-certificate-action = Obtene tu certificato
 contribute-github = Collabora sur GitHub
+contribute-github-content = Iste projecto non serea possibile sin personas como te. 🎉 Il ha multe manieras pro contribuer con Common Voice - tu non debe saper programmar pro contribuer!
 # label for button
 contribute-github-action = Collabora sur GitHub
 
 ## Featured section
 
 featured-section-title = Consiliate in...
+# icon is an arrow that points downwards
+download-press-pack = Discarga nostre pacchetto pressa <icon></icon>
 
 ## Developers section
 
