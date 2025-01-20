@@ -78,7 +78,9 @@ read-more-about = نیی بارینگ نیی صفحیکھہ ینگسہ زیر
 answer-questions = سوال کنی جواب لزوق، شوخمو اونگین یود
 answer-questions-coming-soon = سوال کنی جواب لزوق، شوخمو اونگین یود
 review-transcriptions = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
+review-transcriptions-coming-soon = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
 add-questions = سوال کن ہرژوق (شوخمو اونگین یود)
+transcribe-audio-coming-soon = سکت کن ربیس (شوخمو اونگین یود)
 transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
 press-and-stories = تم خلونگ کن نا زدرونگ کن
 community-and-languages = کمیونٹی نا سکت کن
@@ -102,9 +104,16 @@ community-and-languages-menu-item-aria-label = کامن واٸسی کنگ ہرت
 
 ## Hero section
 
+hero-title = یری سکت پو زیربی ٹیکنالوجی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = اے آٸی لا میولی سکت بقچی ژا لا لس چا بیا رگوسپن؟ اے آٸی لا میولی اے سکت کن ژالہ لس بیا رگوسپینہ؟
+hero-subtitle-2 = نتی سکت پو نتی ہرتخ ان، نتی ڈرونگ یول ان، نتی کلچر ان۔ اونگ ندانگ گراقسے میولینگ تھونگمہ تھدپی ڈیٹا سیٹ کن فچوید۔
+# icon is an arrow that points downwards
+get-started = یا ریوقس جوو یا
 
 ## Action items section
 
+action-items-section-title = کامن واٸس گرونگ یولی گراقسے فچوسپی ڈیٹا سیٹی مفت پلیٹ فارم چی چک ان۔
 
 ## Community section
 
