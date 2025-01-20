@@ -1,17 +1,17 @@
 ## REVIEW
 
 sc-review-lang-not-selected = ნინა დიო ვეგშაიგორუნანო. გინილით თქვან <profileLink> პროფილშა </profileLink> ნინაშ მიოთითებელო.
-sc-review-title = წინადადებეფიშ შემოწმება.
-sc-review-loading = წინადადებეფ ეიტვირთუ.
-sc-review-select-language = ქორთხინთ, გეჲშაგორით ნინა წინადადებეფიში შიომოწმებელო.
-sc-review-no-sentences = შიომოწმებელი წინადადებეფი ვარე. <addLink> სი ქიგუძინი ასე! </addLink>
+sc-review-title = ზიტყვასქვილეფიშ გინოჯინა
+sc-review-loading = ზიტყვასქვილეფი ქითმიაძინუ...
+sc-review-select-language = ქორთხინთ, გეჲშაგორით ნინა ზიტყვასქვილეფიშ გინაჯინალო.
+sc-review-no-sentences = ვარე გინაჯინალი ზიტყვასქილეფი. <addLink> სი ქიგუძინი ასე! </addLink>
 sc-review-form-prompt =
-    .message = გინომოწმებულ წინადადებეფი ვაჯღონელე, დარწუმებული ქორეთო?
-sc-review-form-usage = გინუკინით მარძგვანჷშე წინადადებეფი ქიმიღათჷნი. გინუკინით კვარჩხანჷშე ვარია ქოთქუათჷნი. ეუკინი ჟი, გიშატებელო. <strong> ვაგგოჭყორდანი გინომოწმებულეფიშ წუმორინაფაქ.
+    .message = გინოჯინელი ზიტყვასქვილეფი ვაჯღონელე, ქორეთო დარწუმებული?
+sc-review-form-usage = გინუკინით მარძგვანჷშე ზიტყვასქვილეფი ქიმიღათჷნი. გინუკინით კვარჩხანჷშე ვარია ქოთქუათჷნი. ეუკინი ჟი, გიშატებელო. <strong> ვაგგოჭყორდანი გინოჯინელეფიშ წუმორინაფაქ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = წყარო: { $sentenceSource }
-sc-review-form-button-reject = ვარება.
+sc-review-form-source = წყუ: { $sentenceSource }
+sc-review-form-button-reject = ვარება
 sc-review-form-button-skip = გიშატება
 sc-review-form-button-approve = მეღება
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
