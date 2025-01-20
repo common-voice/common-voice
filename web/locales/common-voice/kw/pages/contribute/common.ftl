@@ -1,4 +1,4 @@
-action-click = Klyckyowgh
+action-click = Klyckyewgh
 action-tap = Tappyowgh
 contribute = Kevri
 review = Dasweles
@@ -38,11 +38,6 @@ target-segment-first-banner = Gweresewgh ow kwruthyl kynsa tregh kosten Common V
 target-segment-add-voice = Keworra Dha Lev
 target-segment-learn-more = Dyski Moy
 change-preferences = Chanj dewisow
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kuntel Lev
-contribute-sentence-collection-nav-header = Kuntel Lavarow
 login-signup = Omgelmi / Omrolya
 vote-yes = Da
 vote-no = Na
