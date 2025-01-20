@@ -1,6 +1,7 @@
 ## Report Modal
 
 report-modal-title = Гузориш додан
+report-modal-subtitle = Шумо бо ин муҳтаво чӣ мушкилӣ доред?
 offensive_speech = Муҳтавои таҳқиромез
 offensive_speech-detail = Муҳтаво дорои забони беадаб ё таҳқиромез мебошад.
 different_language = Забони дигар
