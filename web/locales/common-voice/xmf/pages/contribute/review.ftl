@@ -55,8 +55,8 @@ sentences-fetch-error = ჩილათა რე ზიტყვასქვი
 review-error = ჩილათა რე ზიტყვასქვილეფიშ გინოჯინაშ ბორჯის
 review-error-rate-limit-exceeded = ჩქარენთ. ქორთხინთ, ართ წუთი დუთმათ ზიტყვასქვილეფიშ გინოჯინასჷნი, ჯგირო დერწმუნით ნამდა თე ზიტყვა წორი რე.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = მნიშვნელოვან ცვლილებეფ რე.
-sc-redirect-page-subtitle-1 = წინადადებეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა <writeURL> დოჭარათ </writeURL> წინადადება ვარდა <reviewURL> შეამოწმათ </reviewURL> ზოხო გეძინელი წინადადებეფი Common Voice-ის
+sc-redirect-page-title = ბრელ მუთუნს დოფთირანთ
+sc-redirect-page-subtitle-1 = ზიტყვასქვილეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა <writeURL> დოჭარათ </writeURL> ზიტყვასქვილი ვარდა <reviewURL> ქიგნაჯინათ </reviewURL> ზოხო გეძინელ ზიტყვასქვილეფს Common Voice-ის
 sc-redirect-page-subtitle-2 = კითხვეფიშ დასმებელო ქიგმირინეთ <matrixLink> Matrix <discourseLink> </matrixLink> Discourse </discourseLink> ვარდა <emailLink> ელფოსტა </emailLink>.
 # menu item
 review-sentences = წინადადებეფიშ შემოწმება.
