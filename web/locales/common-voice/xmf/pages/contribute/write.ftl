@@ -137,27 +137,27 @@ small-batch-response-message =
         [one] { $uploadedSentences }1 ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი.
        *[other] { $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი { $totalSentences } -შე.
     }
-small-batch-sentences-rule-1 = ქიმიაჸუნი მითითებეფს "წინადადება მუჭომი ოკო რდას?"
-small-batch-sentences-rule-2 = ქიგუძინი თითო წინადადება თითო ხაზის.
-small-batch-sentences-rule-3 = გაგშართით წინადადებეფი ახალ ხაზის "Enter" ვარდა "Return" ღილაკიშა ართი გენჭირათ.
-small-batch-sentences-rule-4 = ქიგუძინით არძაშ უმოსი 1,000 წინადადება.
-small-batch-sentences-rule-5 = არძა წინადადება ართი დარგიშე ოკო ორდას.
-small-batch-sentences-rule-6 = არძა წინადადება ართი წყაროშე ოკო რდას.
+small-batch-sentences-rule-1 = ქიმიაჸუნი შარაშმაწურაფალს "ზიტყვასქვილი მუჭომი ოკო რდას?"
+small-batch-sentences-rule-2 = ქიგუძინი თითო ზიტყვასქვილი თითო ხაზის
+small-batch-sentences-rule-3 = გაგშართით ზიტყვასქვილეფი ახალ ხაზის "Enter" ვარდა "Return" ღილაკიშა ართი გენჭირათ
+small-batch-sentences-rule-4 = ქიგუძინით არძაშ უმოსი 1,000 ზიტყვასქვილი
+small-batch-sentences-rule-5 = არძა ზიტყვასქვილი ართი დარგიშე ოკო ორდას
+small-batch-sentences-rule-6 = არძა ზიტყვასქვილი ართი წყუშე ოკო რდას
 # menu item
-add-sentences = წინადადებეფიშ გეძინა.
+add-sentences = ზიტყვასქვილეფიშ გეძინა
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = წინადადებეფიშ გეძინა დო შემოწმება, კითხვეფიშ გეძინა, ხონარიშ ინოჭარუათ მოჩამა.
-add-sentences-menu-item-tooltip = ქიგუძინით წინადადებეფი თქვან ნინაშა.
-review-sentences-menu-item-tooltip = შეამოწმით წინადადებეფი თქვან ნინაშა.
-add-questions-menu-item-tooltip = ქიგუძინით კითხვეფი თქვან ნინაშა.
-transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა.
+write-contribute-menu-tooltip = ზიტყვასქვილეფიშ გეძინა დო გინოჯინა, ოკითხირეფიშ გეძინა, ინოჭარილ ხონარეფიშ მოჩამა
+add-sentences-menu-item-tooltip = ქიგუძინით ზიტყვასქვილეფი თქვან ნინაშა
+review-sentences-menu-item-tooltip = ქიგნაჯინით ზიტყვასქვილეფს თქვან ნინაშა
+add-questions-menu-item-tooltip = ქიგუძინით ოკითხირეფი თქვან ნინაშა
+transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = პარამეტრეფიშ მენიუშ ჭარუა.
-add-sentences-menu-item-aria-label = ქიგუძინით წინადადებეფი საზოგადოებაქ წეკითხასჷნი.
-review-sentences-menu-item-aria-label = საზოგადოებაშ მოჩამილი წინადადებეფიშ შემოწმება.
-add-questions-menu-item-aria-label = კითხვეფიშ გეძინა, საზოგადოებაშ მაკათურეფქ წეკითხან დო პასუხი ქიმეჩანინი.
+write-contribute-menu-aria-label = დოჭარით პარამეტრეფიშ მენიუშ
+add-sentences-menu-item-aria-label = ქიგუძინით ზიტყვასქვილეფი მაკათურეფქ წეკითხანინი
+review-sentences-menu-item-aria-label = მაკათურეფიშ წუმორინაფილი ზიტყვასქვილეფიშ გინოჯინა
+add-questions-menu-item-aria-label = ოკითხირეფიშ გეძინა, ბუნაშ მაკათურეფქ წეკითხან დო გამა ქიმეჩანინი
 transcribe-audio-menu-item-aria-label = ინოჭარილ ხონარეფიშ ნაჭარათ გინოჩამა.
