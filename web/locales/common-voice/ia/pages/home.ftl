@@ -105,17 +105,24 @@ community-and-languages-menu-item-aria-label = Explora le communitate e le lingu
 
 ## Hero section
 
+hero-title = Technologia que parla tu lingua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Perque IA debe functionar solo pro alcun del linguas del mundo?</bold>
+hero-subtitle-2 = Nostre lingua es nostre historia, nostre communitate, nostre cultura. Que nos crea le collectiones de datos que nos vole vider in le mundo.
 # icon is an arrow that points downwards
 get-started = Que nos va <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice es un platteforma gratuite, open-source  pro creation de datos ducite per communitate
+action-items-section-subtitle = Quicunque poter preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
 language-text-card-header = Texto linguistic
 coming-soon = Veniente tosto
 add-text = Adder texto
 
 ## Community section
 
+join-discord-community-content = Participa in le discussiones del communitate linguistic, face demandas e apprende plus re le proxime eventos e discursos.
 find-us-on-matrix = Trova nos in Matrix
 # label for button
 find-us-on-matrix-action = Trova nos in Matrix
