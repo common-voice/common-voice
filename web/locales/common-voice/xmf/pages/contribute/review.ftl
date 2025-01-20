@@ -20,29 +20,29 @@ sc-review-form-button-approve-shortcut = q
 sc-review-form-button-reject-shortcut = v
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = g
-sc-review-form-keyboard-usage-custom = შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო{ sc-review-form-button-reject-shortcut } ოვარებელო დო { sc-review-form-button-skip-shortcut } გიშატებელო.
+sc-review-form-keyboard-usage-custom = შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო, { sc-review-form-button-reject-shortcut } ოვარებელო, { sc-review-form-button-skip-shortcut } გიშატებელო
 sc-review-form-button-submit =
-    .submitText = შემოწმებაში გათება.
+    .submitText = გინოჯინაშ თება
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] წინადადება ვარე შემოწმებული.
-        [one] 1 წინადადება რე შემოწმებული. მარდი.
-       *[other] { $sentences } წინადადება რე შემოწმებული. მარდი.
+        [0] ზიტყვასქვილეფიშ გინოჯინა.
+        [one] 1ზიტყვასქვილე გინოჯინელ რე. მარდი!
+       *[other] { $sentences } ზიტყვასქვილი გინოჯინელ რე. მარდი!
     }
-sc-review-form-review-failure = შემოწმებული ვეშინახჷ. ქორთხინთ ქოცადათ გვიანონი.
-sc-review-link = შემოწმება.
+sc-review-form-review-failure = გინოჯინელი ვეშინახჷ, ქორთხინთ ქოცადათ კინოხ.
+sc-review-link = გინოჯინა
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = შემოწმებაში კრიტერიუმეფი
-sc-criteria-title = შემოწმებაში კრიტერიუმეფი
-sc-criteria-make-sure = დერწმუნით, ნამდა წინადადებეფი აყმაყოფილენს მოჩამილ კრიტერიუმეფს:
-sc-criteria-item-1 = წინადადებეფი წორას ოკო რდას ჭარილი.
-sc-criteria-item-2 = წინადადებეფი გრამატიკულო წორი ოკო რდას.
-sc-criteria-item-3 = წინადადებეფი ორაგადე ოკო რდას.
-sc-criteria-item-4 = წინადადება ქაყმაყოფილენს პირობენსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.
+sc-criteria-modal = ⓘ გინოჯინაშ კრიტერიუმეფი
+sc-criteria-title = გინოჯინაშ კრიტერიუმეფი
+sc-criteria-make-sure = დერწმუნით, ნამდა ზიტყვასქვილეფი აყმაყოფილენს მოჩამილ კრიტერიუმეფს:
+sc-criteria-item-1 = ზიტყვასქვილეფი წორას ოკო რდას ჭარილი.
+sc-criteria-item-2 = ზიტყვასქვილეფი გრამატიკულო წორი ოკო რდას.
+sc-criteria-item-3 = ზიტყვასქვილეფი ორაგადე ოკო რდას.
+sc-criteria-item-4 = ზიტყვასქვილი ქაყმაყოფილენს პირობენსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.
 sc-criteria-item-5-2 = ვაყმაყოფილენს ჟიდონი პირობენსდა, ქიგუკაკეთ "ვარება" კვარჩხანშე. გინოჭყვადუა ქოიჭირადა, შეილებუნა გაქშეტუათ დო გინილათ შხვაშა.
 sc-criteria-item-6 = ომოწმებელ წინადადებეფქ დელიუდა, გორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი.
 # <icon></icon> will be replace with an icon that represents review

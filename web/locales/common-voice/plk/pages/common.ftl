@@ -264,6 +264,7 @@ privacy = رازداری
 terms = شرائط
 cookies = کوکیز
 faq = موْݜ کھوجون
+documentation = دستاویزی
 content-license-text = ایْک کھری ہشی مواد<licenseLink> تخلیق العام لائسنس</licenseLink>
 share-title = مُت جگوڑ سیݨے آواز دون گہ اورڑونے کِرِیا اسے امداد تِھیا ǃ
 share-text = مشِینوڑ آ سِڇھرِیون دہ امداد تِھیا چہ اصل جک سہ کاتھ موْݜ کال تھینَن، تومیْ آواز عطیہ تِھیا۔{ $link }

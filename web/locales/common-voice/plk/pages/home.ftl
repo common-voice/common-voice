@@ -90,8 +90,11 @@ read-more-about = اسے بارَد صفحہ جیْ شِناک گہ پڑِیا
 ## NAV ITEMS
 
 answer-questions = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
+answer-questions-coming-soon = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
 review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
+review-transcriptions-coming-soon = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+transcribe-audio-coming-soon = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
@@ -115,6 +118,12 @@ community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریع
 
 ## Hero section
 
+hero-title = ٹیکنالوجیْ کھاں سہ څھے دِینیْ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = AI سہ دُنیے صرف چند جِبو کِرِیا کیْہ کوْم تِھی؟
+hero-subtitle-2 = اسے جِب اسے قصہ، اسے قاموالی، اسے ثقافتِن۔ اِیا اسہ ڈیٹاسیٹ سݨون کھاں سہ بیْس دُنیے دہ ڇکون لُکھوݨَس۔
+# icon is an arrow that points downwards
+get-started = شیروع تِھیا <icon><icon>
 
 ## Action items section
 

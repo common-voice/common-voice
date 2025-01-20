@@ -76,6 +76,7 @@ read-more-about = نیی بارینگ نیی صفحیکھہ ینگسہ زیر
 ## NAV ITEMS
 
 answer-questions = سوال کنی جواب لزوق، شوخمو اونگین یود
+answer-questions-coming-soon = سوال کنی جواب لزوق، شوخمو اونگین یود
 review-transcriptions = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
 add-questions = سوال کن ہرژوق (شوخمو اونگین یود)
 transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
