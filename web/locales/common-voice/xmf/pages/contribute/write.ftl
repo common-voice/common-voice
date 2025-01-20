@@ -23,54 +23,54 @@ new-sentence-rule-7 = ქიმუწურეთ მანგი წყუ
 new-sentence-rule-8 = იდეალურო ორთაშური დო ოჩიებე ნინა (ზიტყვასქვილეფი ანდვილას გეშეკითხანინი)
 login-instruction-multiple-sentences = <loginLink> მიშელით </loginLink> ვარდა <loginLink>  გაკეთით </loginLink> ანგარიშ ართ-ჟირ ზიტყვასქვილიშ გიოძინალო
 how-to-cite = მუჭო მეუწურუათ წყუ?
-how-to-cite-explanation-bold = წყაროთ გუმოდირთუ საკუთრებაშ უფლებაშე თავისუფალ მასალაშ ბმული ვარდა ნაჭარაშ სახელწოდება რსულათ.
-how-to-cite-explanation = თქვა შეადგინითდა, დუბაღ მეჭარუა <italicizedText> "საკუთარ ნამუშერი" </italicizedText>. წყაროშ გეძინა თიშენ რე აუცილებელი, მასალაშ გორუა შემლებუდანინი. შევამოწმათ, ნანდულო საყოველთაო საკუთრებას რე თუ ვარ დო საავტორო ნებათ ხომ ვეკრძალებუ თეშ გუმორინაფა. წყაროშ მითითებაშ გურშენი უმოსი ქიგეგი ჩქინი <guidelinesLink> შარაშმაწურაფალიშ ხასლაშე </guidelinesLink>
+how-to-cite-explanation-bold = წყუთ გუმოდირთუ საკუთრებაშ ნებაშე დუდშული მასალაშ ბმული ვარდა ნაჭარაშ სახელწოდება რსულათ.
+how-to-cite-explanation = თქვან საკუთარ ზიტყვა ქორე-და, დუბაღ მეჭარუა <italicizedText> "საკუთარ ნამუშერი" </italicizedText>. წყუშ გეძინა თიშენ რე აუცილებელი, მასალაშ გორუა შემლებუდანინი. ქიგნუოჯინათ, ნანდულო ოირქიანე საკუთრებას რე თუ ვარ დო საავტორო ნებათ ხომ ვეკრძალებუ თეშ გუმორინაფა. წყუშ მეწურაფაშ გურშენი უმოსი ქიგეგი ჩქინი <guidelinesLink> შარაშმაწურაფალიშ ხასლაშე </guidelinesLink>.
 guidelines = შარაშმაწურაფალი
 contact-us = ქიდმეკავშირით
-add-sentence-success = 1წინადადება რე კორობილი
-add-sentence-error = ჩილათა რე წინადადებეფიშ გეძინაშ დროს.
-required-field = რთხინთ, შეავსათ თე არდგილი.
-single-sentence-submission = წინადადებეფიშ თითო-თითოთ მიშაღალა.
-small-batch-sentence-submission = ართ-ჟირ წინადადებაშ მიშაღალა.
-bulk-sentence-submission = წინადადებეფიშ ართო მიშაღალა.
-single-sentence = ცალკეიან წინადადება.
+add-sentence-success = 1ზიტყვასქვილი რე კორობილი
+add-sentence-error = ჩილათა რე ზიტყვასქვილეფიშ გეძინაშ ბორჯის
+required-field = ქორთხინთ, შეავსათ თე არდგილი.
+single-sentence-submission = ზიტყვასქვილეფიშ თითო-თითოთ მიშაღალა
+small-batch-sentence-submission = ართ-ჟირზიტყვასქვილიშ მიშაღალა
+bulk-sentence-submission = ზიტყვასქვილეფიშ ართო მიშაღალა
+single-sentence = ცალკეიან ზიტყვასქვილი
 small-batch-sentence = ჭიჭე ოდენობა
 bulk-sentence = დემი
-sentence-domain-combobox-label = წინადადებაშ ინტერნეტ-მისამართი
-sentence-domain-select-placeholder = ქიმუთითით სუმ დომენი (სავალდებულო ვარე)
+sentence-domain-combobox-label = ზიტყვასქვილიშ ინტერნეტოწურაფუ
+sentence-domain-select-placeholder = ქიმუწურეთ სუმ დომენი (სავალდებულო ვარე)
 # Sentence Domain dropdown option
 agriculture_food = სოფელიშ მეურნეობა დო ოჭკომალი
 # Sentence Domain dropdown option
-automotive_transport = მანქანეფი დო ტრანსპორტი.
+automotive_transport = მანქანეფი დო ტრანსპორტი
 # Sentence Domain dropdown option
-finance = ფინანსეფი.
+finance = ფინანსეფი
 # Sentence Domain dropdown option
-service_retail = მომსახურება დო საცალო ვაჭრუა.
+service_retail = მომსახურება დო საცალო ვაჭრუა
 # Sentence Domain dropdown option
-general = ზოგადი.
+general = ზოგადი
 # Sentence Domain dropdown option
-healthcare = ჯანდაცვა.
+healthcare = ჯანდაცვა
 # Sentence Domain dropdown option
-history_law_government = ისტორია, სამართალ დო მმართველობა.
+history_law_government = ისტორია, სამართალ დო მმართველობა
 # Sentence Domain dropdown option
 language_fundamentals = ნინაშ ჯინჯეფი (მაგალთო, ციფრეფი, ასოეფი, ფარა)
 # Sentence Domain dropdown option
-media_entertainment = მედია დო ართუაფა.
+media_entertainment = მედია დო ართუაფა
 # Sentence Domain dropdown option
-nature_environment = ბუნება დო აკანი.
+nature_environment = ორთა დო აკანი
 # Sentence Domain dropdown option
-news_current_affairs = სიახალე დო მიმდინარე მოვლენეფი.
+news_current_affairs = სიახალე დო მიმდინარე მოვლენეფი
 # Sentence Domain dropdown option
-technology_robotics = ტექნოლოგია დო რობოტიკა.
-sentence-variant-select-label = წინადადებაშ კუნთხუობა.
+technology_robotics = ტექნოლოგია დო რობოტიკა
+sentence-variant-select-label = ზიტყვასქვილიშ კუნთხუობა
 sentence-variant-select-placeholder = გეჲშაგორით ნინაშ ნერობა (სავალდებულო ვარე)
 sentence-variant-select-multiple-variants = თარი ნინა / შხვადოშხვა ნერობა
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = გეტვირთით <icon></icon> წინადადებეფი საყოველთაო საკუთრებაშე.
-sc-bulk-upload-instruction = გეგნიღით თქვან ფაილი ვარდა <uploadButton> ქიგუკაკეთ ეიოტვირთალო </uploadButton>
+sc-bulk-upload-header = ქიგუძინით <icon></icon> ზიტყვასქვილეფი ოირქიანე საკუთრებაშე
+sc-bulk-upload-instruction = გეგნიღით თქვან ფაილი ვარდა <uploadButton> ქიგუკაკეთ გიოძინალო </uploadButton>
 sc-bulk-upload-instruction-drop = გეგნიღით ეიოტვირთალო
 bulk-upload-additional-information = ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, რთხინთ, ქუმობჭარით. commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, რთხინთ, ქუმობჭარით commonvoice@mozilla.com</emailFragment>
