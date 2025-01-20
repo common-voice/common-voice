@@ -37,6 +37,7 @@ feedback-q = اسیں بارہ مہ گی بانیۡ تُھوئ؟
 # This indicates that there is no data to display
 no-information = معلومات نی تھی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink> ایک <docsLink>اوپن سورس ٹول کِٹ</docsLink> تُھو چے سو امَیں سن٘دیل دِماغاں ،بُٹؤں نہ اُڇھېل مشقُلا کرَیں والا ماڈلہ سن٘دَیں مدد کیری تُھو۔
+resource-deepspeech-info = موزیلاں اوپن سورس اواز پُنیان٘لہ انجنَئیں گُٹُمبیۡ بلی اواز پُنیئین٘یۡیاں اېپلی کېشنہ سن٘دَیں مہ استعمال ہوں ہاں تھہ۔ زاں<githubLink> گِٹ ہب</githubLink> پڑہ یا گُٹُمبیۡ بلی واں ڈِسکورس</discourseLink> مہ زَیں مِلہ لہ تُو سیڇھ چے کام گِشے شُروع کراتھہ۔
 resource-coqui-info = <coquiLink>Coqui</coquiLink>ایک اوپن سپیچ ٹیکنالوجی تھی۔ اِواں پراجیکٹ مہ STT تے TTS انجن٘ڑہ واں گُٹُم استعمال سِڇھیاں تھؤ۔
 community-playbook = خلکاں باشَیں یاں کتاب
 resource-playbook-info = ژیب تَیں رؤں، ڈیٹا سیٹاں استعمال آں زاں خلکؤں ملی رابطہ کرَیں ہاریساری ”کامن وائسَیں“ سفری مہ زَیں <playbookLink> مدد ہرہ</playbookLink>
