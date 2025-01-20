@@ -136,8 +136,11 @@ find-us-on-matrix = Trova nos in Matrix
 find-us-on-matrix-content = Matrix es un protocollo aperte e legier pro communicationes decentralisate in tempore real, e le platteforma preferite de Mozilla pro discussiones aperte.
 # label for button
 find-us-on-matrix-action = Trova nos in Matrix
+ask-mozilla-share-content = Ha tu un evento previe o imminente? Comparti lo con nos e nos lo annunciara a nostre communitate o scribera un blog re illo!
 # label for button
 ask-mozilla-share-action = Compartir tu evento
+download-contribution-certificate = Discarga tu certificato de contribution
+download-contribution-certificate-content = Discarga un certificato pro tu eventos o te mesme si tu ha contribuite a Common Voice — isto non serea possibile sin te!
 # label for button
 download-contribution-certificate-action = Obtene tu certificato
 contribute-github = Collabora sur GitHub
