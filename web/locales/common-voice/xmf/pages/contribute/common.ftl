@@ -9,16 +9,16 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ინნაჭარა
        *[other] <bold>{ $count }</bold> ინნაჭარა
     }
-goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღარ მიზანიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
-goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღაში ღანკიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღაში ღანკიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
 contribute-more =
     { $count ->
         [one] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
        *[other] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
     }
-speak-empty-state = თე ნინაშო ინაჭარალი წინადადებეფქ გეშელიუ.
-no-sentences-for-variants = ნინაში გიშაგორილი სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იჸუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშენი.
-speak-empty-state-cta = შემენწით წინადადებეფით
+speak-empty-state = თე ნინაშო ინაჭარალი ზიტყვასქვილეფქ გეშელიუ.
+no-sentences-for-variants = ნინაში გიშაგორილი ნერობაშო შილებე ზიტყვასქვილეფქ ეშალიებურქ იჸუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი ზიტყვასქვილეფი ხოლო ქოძირათ თე ნინაშენი.
+speak-empty-state-cta = შემენწით ზიტყვასქვილეფით
 speak-loading-error = ვეგორ თქვანო ეშაკითხირალ წინადადებეფქ. ქორთხინთ, ქოცადათ გვიანონი.
 record-button-label = ქინაჭარით თქვან ხონარი.
 share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
