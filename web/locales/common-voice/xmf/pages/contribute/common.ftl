@@ -16,37 +16,37 @@ contribute-more =
         [one] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
        *[other] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
     }
-speak-empty-state = თე ნინაშო ინაჭარალი ზიტყვასქვილეფქ გეშელიუ.
+speak-empty-state = თე ნინაშო ინაჭარალი ზიტყვასქვილეფქ გეშელიუ...
 no-sentences-for-variants = ნინაში გიშაგორილი ნერობაშო შილებე ზიტყვასქვილეფქ ეშალიებურქ იჸუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი ზიტყვასქვილეფი ხოლო ქოძირათ თე ნინაშენი.
 speak-empty-state-cta = შემენწით ზიტყვასქვილეფით
-speak-loading-error = ვეგორ თქვანო ეშაკითხირალ წინადადებეფქ. ქორთხინთ, ქოცადათ გვიანონი.
-record-button-label = ქინაჭარით თქვან ხონარი.
-share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას.
+speak-loading-error = ვეგორ თქვანო ოკითხირალ ზიტყვასქვილეფქ. ქორთხინთ, ქოცადათ კინოხ.
+record-button-label = ქინაჭარით თქვან ხონარი
+share-title-new = <bold> ქიდმეხვარით </bold> ხონარეფიში გორუას
 keep-track-profile = თე პროფილით თოლი ქუჸუნეთ თქვანი წიმი ულას
-login-to-get-started = მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.
-target-segment-first-card = თქვა წილი მიშაიღუნა ჩქინი მაართანი მიზანიერ სეგმენტიშა.
-target-segment-generic-card = თქვა წილი მიშაიღუნა მიზანიერ სეგმენტიშა.
+login-to-get-started = მიშელით ვარდა აკოქიმინით ანგარიში დაჭყაფალო
+target-segment-first-card = თქვა წილი მიშაიღუნა ჩქინი მაართანი მიზანიერ სეგმენტიშა
+target-segment-generic-card = თქვა წილი მიშაიღუნა მიზანიერ სეგმენტიშა
 target-segment-first-banner = ქიდმეხვარით გუაკეთათ Common Voice-იშ მაართანი მიზანიერ ნაშაყარა { $locale } ნინაშო
-target-segment-add-voice = ქიგუძინით თქვანი ხონარი.
+target-segment-add-voice = ქიგუძინით თქვანი ხონარი
 target-segment-learn-more = ქიჩქუდას მეტი
-change-preferences = პარამეტრეფიშ თირუა.
-login-signup = მიშულა / ქიმინუა
+change-preferences = პარამეტრეფიშ თირუა
+login-signup = მიშულა / აკოქიმინუა
 vote-yes = ქო
 vote-no = ვარ
-datasets = მონაცემეფიშ ნაკათა.
+datasets = მონაცემეფიშ ნაკათა
 languages = ნინეფი
 about = ჩქინ გურშენი
-partner = მალათირე.
+partner = მალათირე
 submit-form-action = ჯღონა
 
 ## Reporting
 
 report = მოხსენება
 report-title = მოხსენებაშ ჯღონა.
-report-ask = მუ კილი უღუ თე წინადადებეფს?
+report-ask = მუ კილი უღუ თე ზიტყვასქვილეფს?
 report-offensive-language = ოლანძღარი ზიტყვა.
-report-offensive-language-detail = თე წინადადება უმანგე ვარდა ოლანძღარი რე.
-report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა.
+report-offensive-language-detail = თე ზიტყვასქვილი უმანგე ვარდა ოლანძღარი რე.
+report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
 report-grammar-or-spelling-detail = წინადადებას გრამატიკული ვარდა თინჭარუაში კილი უღუ.
 report-different-language = შხვანერი ნინა.
 report-different-language-detail = ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ რე ჭარილი.
