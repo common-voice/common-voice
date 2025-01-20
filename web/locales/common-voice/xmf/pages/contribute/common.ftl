@@ -1,7 +1,7 @@
-action-click = გეკაკაფა
+action-click = ქიგუკაკე
 action-tap = ქიგუნჭირით
 contribute = წილიშ მიშაღალა
-review = შემოწმება
+review = გინოჯინა
 skip = გიშატება
 shortcuts = მალასმაჭანაფალი
 clips-with-count-pluralized =
