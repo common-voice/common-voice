@@ -76,8 +76,11 @@ read-more-about = اسو اسنو پٹو موتی پڑے
 ## NAV ITEMS
 
 answer-questions = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
+answer-questions-coming-soon = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
 review-transcriptions = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
+review-transcriptions-coming-soon = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
 add-questions = کھوجینیک آنے یو/مشک تھے <small> لوکو انو ہُوں </small>
+transcribe-audio-coming-soon = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 transcribe-audio = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 press-and-stories = پریس گہ چگائیے/شِلوکے
 community-and-languages = کویوچ گہ باشے
@@ -101,6 +104,12 @@ community-and-languages-menu-item-aria-label = کامن وائیسے سے سان
 
 ## Hero section
 
+hero-title = تھئیی باش تھیک ٹیکنالوجی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> اے آئی سے دُنیاتو چیک باشوڑے ژا کروم کِیئے تھئیی؟</bold>
+hero-subtitle-2 = اَسئیی باش اَسئیی شِلوک، اَسئیی کمیونٹی، اَسئیی ثقافت۔ آ تو اَدَو  ڈیٹا سیٹیک  سَنون کوئی بیسے پُوری دنیاتینی چَکیونو خوش تھونیس۔
+# icon is an arrow that points downwards
+get-started = کرومینی شچا/ شروع تھِیا <icon><icon>
 
 ## Action items section
 

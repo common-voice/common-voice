@@ -112,7 +112,7 @@ get-started = 开始贡献 <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice 是自由的开源平台，供社区主导产生数据
-action-items-section-subtitle = 人人皆可分享、创造、整理文本和语音数据集，以此来保护、复兴、发扬自己的语言。
+action-items-section-subtitle = 人人皆可分享、创造、整理文本和语音数据集，以此来保护、振兴、发扬自己的语言。
 scripted-card-header = 朗读文本
 scripted-card-content = 用您的语言朗读语句，为由公众参与、数据多样性在全球首屈一指的语音数据集做出贡献。
 spontaneous-card-header = 即兴发言
