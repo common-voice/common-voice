@@ -1,10 +1,10 @@
 speak = ინოჭარუა
-speak-now = იჩით.
-speak-subtitle = შემენწით თქვან ხონარით.
-record-cta = ინოჭარუაშ დოჭყაფა.
+speak-now = იჩით
+speak-subtitle = შემენწით თქვან ხონარით
+record-cta = ინოჭარუაშ დოჭყაფა
 record-platform-not-supported = სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.
-record-platform-not-supported-desktop = დესკტოპშა შეილებუნა გეგმიტვირთათჷნი უახალაში:
-record-platform-not-supported-ios-non-safari = iOS-შოთ, ქორთხინთ, გაგძელათ Safari-ით ინოჭარუა.
+record-platform-not-supported-desktop = დესკტოპშა შეილებუნა გეგნოჭარათ უახალაში...
+record-platform-not-supported-ios-non-safari = iOS-შოთ, ქორთხინთ, გაგძელათ Safari-ით ინოჭარუა...
 record-must-allow-microphone = მიკროფონიშ გუმორინაფაშ ნება ქიმეჩით.
 record-no-mic-found = მიკროფონქ ვეგორ.
 record-error-too-short = ინნაჭარა გვალო კუნტა რდჷ.

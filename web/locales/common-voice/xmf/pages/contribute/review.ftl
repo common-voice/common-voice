@@ -57,6 +57,6 @@ review-error-rate-limit-exceeded = ჩქარენთ. ქორთხინ�
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ბრელ მუთუნს დოფთირანთ
 sc-redirect-page-subtitle-1 = ზიტყვასქვილეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა <writeURL> დოჭარათ </writeURL> ზიტყვასქვილი ვარდა <reviewURL> ქიგნაჯინათ </reviewURL> ზოხო გეძინელ ზიტყვასქვილეფს Common Voice-ის
-sc-redirect-page-subtitle-2 = კითხვეფიშ დასმებელო ქიგმირინეთ <matrixLink> Matrix <discourseLink> </matrixLink> Discourse </discourseLink> ვარდა <emailLink> ელფოსტა </emailLink>.
+sc-redirect-page-subtitle-2 = ქუმოპჭარით ოკითხურეფი <matrixLink> Matrix <discourseLink> </matrixLink> Discourse </discourseLink> ვარდა <emailLink> ელფოსტა </emailLink>.
 # menu item
-review-sentences = წინადადებეფიშ შემოწმება.
+review-sentences = ზიტყვასქვილეფიშ გინოჯინა
