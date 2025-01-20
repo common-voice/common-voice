@@ -53,7 +53,7 @@ report-sc-different-language = შხვანერი ნინა
 report-sc-different-language-detail = ჩქიმ ოჩიებე ნინაშე განსხვავებულ ნინათ რე ჭარილი.
 sentences-fetch-error = ჩილათა რე ზიტყვასქვილეფიშ მეღებას
 review-error = ჩილათა რე ზიტყვასქვილეფიშ გინოჯინაშ ბორჯის
-review-error-rate-limit-exceeded = ჩქარენთ. რთხინთ, დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რე.
+review-error-rate-limit-exceeded = ჩქარენთ. ქორთხინთ, ართ წუთი დუთმათ ზიტყვასქვილეფიშ გინოჯინასჷნი, ჯგირო დერწმუნით ნამდა თე ზიტყვა წორი რე.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = მნიშვნელოვან ცვლილებეფ რე.
 sc-redirect-page-subtitle-1 = წინადადებეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა <writeURL> დოჭარათ </writeURL> წინადადება ვარდა <reviewURL> შეამოწმათ </reviewURL> ზოხო გეძინელი წინადადებეფი Common Voice-ის
