@@ -160,12 +160,19 @@ download-contribution-certificate-content = اَگَر تُمݺ کݳمَن وݳ�
 # label for button
 download-contribution-certificate-action = اَپَنݵئ سَرٹفݵکݵٹ لݸ
 contribute-github = گِٹ حَبَس حِصَہ بݳ
+contribute-github-content = اَݽݵئ پرݸجݵکٹ تُمݺ اجݳک بندݵڎ مݸ بغݵر مُنکِن نݵ ہݸگݳ کݳ ۔ 🎉 کݳمَن وݳئسَنݳ کݸٹ ہݸئنَئی بُݸتݵک طرݵقݳݣݳ چھݺ . تُمݵچُݸ کݸڈݵݣ آنݳ ضرݸلݵ نݳ تݳکہ تُمݺ حِصَہ لݵئ شَکَہ!
+# label for button
+contribute-github-action = گِٹ حَبَس حِصَہ بݳ
 
 ## Featured section
 
+featured-section-title = ہݵَنݳ سَرکݺ...
+# icon is an arrow that points downwards
+download-press-pack = اَمݳ پرݵس پݵک ڈݳݸنلݸڈ اِرݳ<icon></icon>
 
 ## Developers section
 
+developers-section-title = +130 مݸ اَڎِݵ بݳݽݺ مݳ عوݳمݵ طݸرَس ہَتَنݳ چھݺ کُھلݳ تقرݵرݵݣݺ ڈݵٹݳ سݵٹݳ
 
 ## Get involved section
 
