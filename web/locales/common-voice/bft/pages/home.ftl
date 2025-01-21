@@ -169,6 +169,15 @@ read-sentences-link = تم ژھیر کن زیر
 validate-readings-link = زیرفونگ چھدکھہ بیوس
 contribute-link = ربیا یودپا یودپی کارپس لا روخ بیوس
 answer-questions-link = تم لزوق بیوس
+transcribe-answers-link = تم لزوق کن ٹرانسکراٸب بیوس
+review-transcriptions-link = ٹرانسکرپشن کن لا ہلتوس
+contribute-text-link = ربیس پی تم ژھیر کن شیزدے بیوس
+press-and-stories-link = پریس کن نا کہانیونگ
 
 ## Partner section
 
+partner-section-title = نیانا یمبو ڈراقسے لس بیا شوقس
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = ٹیک کمپنیونگ، تھوتھیکھ میدپی اے آٸی نا زومسے یودپی سکت کن لا چوقلا تھوبا یودپی ڈیٹا سیٹ کنی سرمایہ کاری بیوس۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = یولی ژھرمہ ژھونژیونگ نا ژال ژال بیکھن کن، چھون لا تھوبا یودپی ڈیٹا سیٹ کن فچوس، ترانگچوک دیکھنہ چوقلا تھونچوک۔
