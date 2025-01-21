@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = audio transcribe etin
 transcribe-audio = audio transcribe etin (choor diya)
 press-and-stories = minaśiṅ ke press
 community-and-languages = kuyooć daa baaṣiṅ
+coming-soon = Chor diya.
 
 ## MENU ITEMS TOOLTIPS
 
@@ -118,9 +119,16 @@ action-items-section-subtitle = Menane ke iymo baaṣ e datasets daa text emaśu
 scripted-card-header = Girminum bariṅ.
 scripted-card-content = Maymo baaśulo jumlan tʰanum maćʰarulo ġatanin daa dunyaate uyoon cum uyum bariṅe datasetulo emasin.
 spontaneous-card-header = Hik dam ćaġa bar
+spontaneous-card-content = Ćaġa bar damaagusasinar nusenin midigaarum bariṇulo  datase desmanin. Girminas, ġatanas apim baaṣine gane dumanum bila.
+language-text-card-header = Baṣe ćaġa bar
+language-text-card-content = Uyoone barenas diśanulo ćaġa bar doogusasiṅ, jumlan daa, tarjumar text, daa jutiṅ baaśe models desmanin daa emasin.
+coming-soon = Chor diya.
+add-text = Text jama etin.
 
 ## Community section
 
+community-section-title = Tok dunyaatulo baaś etaśu cum uyoone gane--tʰa ke altar toorimi baaśin daa baske meyme bican
+join-discord-community = Discord Community lo kaa maneyin.
 
 ## Featured section
 
