@@ -181,3 +181,9 @@ partner-section-title = نیانا یمبو ڈراقسے لس بیا شوقس
 partner-section-subtitle-tech-companies = ٹیک کمپنیونگ، تھوتھیکھ میدپی اے آٸی نا زومسے یودپی سکت کن لا چوقلا تھوبا یودپی ڈیٹا سیٹ کنی سرمایہ کاری بیوس۔
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = یولی ژھرمہ ژھونژیونگ نا ژال ژال بیکھن کن، چھون لا تھوبا یودپی ڈیٹا سیٹ کن فچوس، ترانگچوک دیکھنہ چوقلا تھونچوک۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = انسان کن لا خش تروت، یولی رانگ بیونگ نا فرونمو گو فری ڈیٹا سیٹ فچوا لا چھد تھنگ چی شیزدے بیوس
+# icon is an arrow that points to the right
+get-in-touch-button = ندانگ نا تھوگین دوک
+# Partners section
+our-partners-include = نٸی لس بیکھکن کن یمبو یود ۔۔۔۔
