@@ -99,6 +99,7 @@ transcribe-audio-coming-soon = آڈیو ءِ نبشتہ کنگ <small>(زوت آ
 transcribe-audio = آڈیو ءِ نبشتہ کنگ <small>(زوت آھگ ءَ اِنت)</small>
 press-and-stories = پریس ءُ کسہ
 community-and-languages = چاگرد ءُ زبان .
+coming-soon = زوت پیداکیں
 
 ## MENU ITEMS TOOLTIPS
 
@@ -131,9 +132,26 @@ get-started = شروع کن <icon><icon>
 action-items-section-title = کامن وائس کمیونٹی ءِ سروکی ءَ ڈیٹا جوڑ کنگ ءِ ھاترا یک آزاتیں، اوپن سورس پلیٹ فارمے
 action-items-section-subtitle = ہر کس وتی زبان ءَ نبشتانک ءُ گپ ءِ ڈیٹاسیٹانی شیئر کنگ، جوڑ کنگ ءُ کیوریٹ کنگ ءَ چہ وتی زبان ءَ رکّینگ، زندگ کنگ ءُ بُرز کنگ ءَ انت۔
 scripted-card-header = سکرپٹ ءِ سرا نبشتہ کتگیں گپ
+scripted-card-content = وتی زبان ءَ جملہاں گوں توار ءَ بوان اِت ءُ دنیا ءِ تہ ءَ چہ درستاں گیشتر لس بھر زوری ءِ گپ ءِ ڈیٹاسیٹ ءَ شریک بہ بئے۔
+spontaneous-card-header = بے وسی ئے گپ
+spontaneous-card-content = نامیاتی، بولی ءِ تناظر ءِ ھاتر ءَ ڈیٹاسیٹ جوڑ کنگ ءِ ھاتر ءَ اشارہ ءِ جواب ءَ بہ دئے اِت۔ زبانی اولی زبانانی واستہ جوان انت۔
+language-text-card-header = زبان ئے نبشتانک
+language-text-card-content = ترجمہ، کسانیں زبان ءِ ماڈل ءُ دگہ بازیں چیزانی واستہ پبلک ڈومین ءِ اشارہ، جملہ ءُ نبشتانک جوڑ کن یا شیئر کن۔
+coming-soon = زوت پیداکیں
+add-text = نبشتانک ءَ ھوار کن
 
 ## Community section
 
+community-section-title = گلوبل کمیونٹیز ءِ نیمگ ءَ چہ طاقتور کنگ بوتگ، پہ گلوبل کمیونٹیز ءَ — 130 زبان ءُ دیمروئی کنگ ءَ اِنت!
+join-discord-community = ڈسکارڈ کمیونٹی ئا ہوار بی
+# label for button
+join-discord-community-action = ڈسکارڈ سرا مارا ہوار بئے
+join-discord-community-content = زبان ءِ چاگرد ءِ گپ ءُ تران ءَ بہر زور اِت، جُست بہ کن اِت ءُ آیوکیں مراگش ءُ گپ ءُ ترانانی بابت ءَ سرپد بہ بئے۔
+find-us-on-matrix = مارا میٹرکس سرا پول
+find-us-on-matrix-content = میٹرکس وکندریقرت، ریئل ٹائم کمیونیکیشن، ءُ موزیلا ءِ پسندیدہ پچیں بحث ءِ پلیٹ فارم ءِ ھاتر ءَ یک پچیں، ہلکا وزن ءِ پروٹوکول اِنت۔
+# label for button
+find-us-on-matrix-action = مارا میٹرکس سرا پول
+ask-mozilla-share = موزیلا ئا گوئش کہ وثی مراگشاں بہر بہ کنت
 
 ## Featured section
 
