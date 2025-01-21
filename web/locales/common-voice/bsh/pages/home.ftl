@@ -113,18 +113,26 @@ get-started = شروع کشݩع<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائس اہ گجاں سورہ پعوان سورس پلیٹ فارم اسہ چہ ایکی اوگعماں ستہ ݜئ دروار مع ڈیٹا دزہ ستہ کہ ایپیستہ اسہ
+action-items-section-subtitle = کچی دی یاستہ وری ساتہ ستہ کہ دی شوں وا سورہ پچوع اوں بلہ ای ۔متن دے سورہ تقریر ستہ ڈیٹا سیٹس گاݜ کہ دزہ تے ترتیب پعتے
 scripted-card-header = سترے ستہ وری
+scripted-card-content = یا ور تہ جملہ چاویتے ولݩع سورہ دنیا تہ څݣ تݩع قسماقسم  اوگعماں سنہ تہ تقریری ڈیٹا سیٹ تہ بٹہ اوݣݩع
 spontaneous-card-header = اڈگں ولستہ
+spontaneous-card-content = اشارہ ستہ جواب پعتے ڈیٹاسیٹ ایپاݩع چہ ستہ قدرتی سورہ عام وری ولہ ستہ سیاق دے سباق مع پسنہ لہ بولا اینہ وری دیوکں بلیوک لستہ اسہ
 language-text-card-header = وری ستورئ
+language-text-card-content = عوام ڈومیں (سنہ تے) تہ اشارہ ۡجملہ ۡسورہ متن دزݩع یا گاݜ کشݩع ترجمہ لوکہ وری ستہ نمونہ سورہ ورں کہ دی ۔
 coming-soon = نݜٹو ازیا
 add-text = ستورئ اتیوݩشی
 
 ## Community section
 
+community-section-title = عالمی اوگعماں ذریعہ تہ عالمی اوگعمادیوکں کاٹوا —130وریں تݩع اچادی سکال بوتت
 join-discord-community = ڑیسکارٹ کمیونٹی تہ شامل با
 # label for button
 join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با
+join-discord-community-content = وری ستہاوگعماں مع بحث تہ بٹہ اݣع سوالات کشݩع اڅلہ پروگرام دے وری اوجوگاستہ بارہ تہ زعݩع۔
 find-us-on-matrix = ایمومٹریکس تہ وݩع
+find-us-on-matrix-content = میٹرکس او لوکہ پروٹوکول اسہ چہ ستہ غیر مرکزی رئل ٹائم اپار بوستہ کہ ایپے سہ سورہ موزیلا ݜاتیک کعستہ پعوان وری اوجوگاستہ فارم اسہ ۔
 # label for button
 find-us-on-matrix-action = ایمومٹریکس تہ وݩع
 ask-mozilla-share = موزیلا تہ تیو پروگرام شیئر کوستہ کہ درخواست کشی
@@ -162,3 +170,5 @@ press-and-stories-link = پریس دے پرں جیک
 partner-section-title = ایمو مع پلئ بو
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ کشی<icon></icon>
+# Partners section
+our-partners-include = ایموستہ پلئ شامل ائ
