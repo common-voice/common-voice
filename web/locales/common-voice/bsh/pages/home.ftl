@@ -127,7 +127,9 @@ join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با
 find-us-on-matrix = ایمومٹریکس تہ وݩع
 # label for button
 find-us-on-matrix-action = ایمومٹریکس تہ وݩع
-ask-mozilla-share = موزیلا تہ تیو پروگرام شئر کوستہ کہ درخواست کشی
+ask-mozilla-share = موزیلا تہ تیو پروگرام شیئر کوستہ کہ درخواست کشی
+# label for button
+ask-mozilla-share-action = توستہ پروگرام شیئر کشی
 download-contribution-certificate = توستہ تعاون ستہ سند ڈاونلوڈ کشی
 # label for button
 download-contribution-certificate-action = توستہ سند حاصل کشی
@@ -153,8 +155,10 @@ answer-questions-link = سوال جواب
 transcribe-answers-link = سترای جواب
 review-transcriptions-link = تصدیق بی عبارت
 contribute-text-link = ستورئ سنا
+press-and-stories-link = پریس دے پرں جیک
 
 ## Partner section
 
+partner-section-title = ایمو مع پلئ بو
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ کشی<icon></icon>
