@@ -108,6 +108,7 @@ community-and-languages-menu-item-aria-label = عام کوٹہ مع منچاݩ (
 hero-title = ٹیکنالوجی چی ستہ توستہ وری ولہ تہ
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>اےای صرف اچی دنیا ستہ وری تہ می کہ کودیوم کولے</bold>
+hero-subtitle-2 = ایموستہ وری ایموستہ پرں جیک ایموستہ اوگعمہ ایمو ستہ چار اسہ اڅݩع اوجیستہ ڈیٹا سیٹ ایپومو چی بجائ چہ ایمو دنیا تہ ایݩش کوستہ وگہ تمیش۔
 # icon is an arrow that points downwards
 get-started = شروع کشݩع<icon><icon>
 
