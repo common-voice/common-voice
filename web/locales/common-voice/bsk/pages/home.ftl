@@ -151,9 +151,13 @@ contribute-github-action = GitHuB ulo emasin.
 
 ## Featured section
 
+featured-section-title = Iik duusum
+# icon is an arrow that points downwards
+download-press-pack = Mii press pack download etin
 
 ## Developers section
 
+developers-section-title = Tʰa altar toorumo baaśinulo uyoonar deṣqaltas dataset
 
 ## Get involved section
 
