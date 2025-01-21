@@ -114,6 +114,8 @@ get-started = یا ریوقس جوو یا
 ## Action items section
 
 action-items-section-title = کامن واٸس گرونگ یولی گراقسے فچوسپی ڈیٹا سیٹی مفت پلیٹ فارم چی چک ان۔
+action-items-section-subtitle = سولا سہ سکتی تم ژھیر کن فچوین چی، ٹیکسٹ کن زگونگین چی، سکتی ڈیٹا سیٹ فچوین چی کھوتی سکت پو لا ہلتا ہرژونگ نا فرالوکھ بیا نگینید، سکت پو لا اوور لزوقپہ نگینید۔
+scripted-card-header = ربیسے یودپی تم ژھیر کن
 
 ## Community section
 
