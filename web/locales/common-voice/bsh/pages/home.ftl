@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ
 transcribe-audio = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
 press-and-stories = وسپلہ دے پرݩجیکہ
 community-and-languages = کمیونٹی (اوگعمہ) دے ورے
+coming-soon = نݜٹو ازیا
 
 ## MENU ITEMS TOOLTIPS
 
@@ -112,9 +113,17 @@ get-started = شروع کشݩع<icon><icon>
 
 ## Action items section
 
+scripted-card-header = سترے ستہ وری
+spontaneous-card-header = اڈگں ولستہ
+language-text-card-header = وری ستورئ
+coming-soon = نݜٹو ازیا
+add-text = ستورئ اتیوݩشی
 
 ## Community section
 
+join-discord-community = ڑیسکارٹ کمیونٹی تہ شامل با
+# label for button
+join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با
 
 ## Featured section
 
