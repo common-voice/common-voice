@@ -137,9 +137,23 @@ find-us-on-matrix-content = میٹرکس ایک کھُلا، لوکو پروٹو
 # label for button
 find-us-on-matrix-action = میٹرکسینی اسو اُڑارے
 ask-mozilla-share = موزیلیڑے واقعائے چین تھے۔
+ask-mozilla-share-content = مُچھوڑے کوئی موقعاک اَسِیلو دا یا کوئی موقعاک اونو ہُوں دا؟ ہُوں تو اَسوڑے چین تو بیسے کمیونیٹیڑے رزون یا بلاگ لِکھون۔
+# label for button
+ask-mozilla-share-action = تومو کوئی واقعاک چین
+download-contribution-certificate = تھنی آنے یو بِیلوکو سرٹفکیٹ ڈاؤن لوڈ تھے۔
+download-contribution-certificate-content = تھنے واقعاتو یا تھنی اَکی سرٹفکیٹ چین تُو کامن وائیسینی شریک بِیلَوں تو۔ — تُو ساتی اَدئیی نے بئیی
+# label for button
+download-contribution-certificate-action = تھنی سرٹفکیٹ گِین۔
+contribute-github = گِٹ ہبانی یو بو
+contribute-github-content = اَنُو پروجیکٹ تُو پَش جَکو نیو بغیر نے بِیوں۔ کام وائیسی نی یو بونو لائیے پونے ہائیں۔ کوڈ کَدا تھے تھیونی ہِیں اونو ضروری نُش۔
+# label for button
+contribute-github-action = گِٹ ہبانی یو بو
 
 ## Featured section
 
+featured-section-title = اَنیسے نی فیچر۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اَسئیی پرس پیک ڈاؤن لوڈ تھے۔
 
 ## Developers section
 
