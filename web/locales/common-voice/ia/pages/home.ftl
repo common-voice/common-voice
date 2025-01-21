@@ -180,6 +180,8 @@ partner-section-title = Collaborar con nos
 partner-section-subtitle-tech-companies = <bold>Companias technologic</bold> - investi in creation de collection de datos aperte pro un ecosystema IA prospere e multilingue
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Le societate civil e le recercatores</bold> - crea, hospita e comparti gratuitemente collectiones de datos de grande impacto
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Philanthropia</bold> - patrocina le creation de collection de datos pro alimentar le innovation e le disveloppamento local
 # icon is an arrow that points to the right
 get-in-touch-button = Contacta <icon></icon>
 # Partners section
