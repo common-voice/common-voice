@@ -173,9 +173,13 @@ download-press-pack = اَمݳ پرݵس پݵک ڈݳݸنلݸڈ اِرݳ<icon></ic
 ## Developers section
 
 developers-section-title = +130 مݸ اَڎِݵ بݳݽݺ مݳ عوݳمݵ طݸرَس ہَتَنݳ چھݺ کُھلݳ تقرݵرݵݣݺ ڈݵٹݳ سݵٹݳ
+developers-section-subtitle = سِیݳق و سبݳقݵئ NLP نݸ اݸرݳ TTS, SST, ASR کݳرݸ کمݵݸنِٹی کݸٹ اِرِنݳئی زرݵعَس تیݳر ݳرݸ گیݳ ڈݵٹݳ سݵٹݳ.
+# icon is an arrow that points to the right
+explore-datasets = ڈݵٹݳ سݵٹݳ دریݳفت اِرݳ<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کھُلݳ، کمݵݸنٹݵ قیݳدَت اِرݵݣݺ ڈݵٹݳ سݵٹݵݣݺ حِمݳیَت اِرݳ.
 
 ## Partner section
 
