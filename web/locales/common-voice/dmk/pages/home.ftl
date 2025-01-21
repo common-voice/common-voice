@@ -132,7 +132,7 @@ action-items-section-title = کݳمَن وݳئس اݵک چِپی، اݸپَن س
 action-items-section-subtitle = کݸنݸن تݳ اَپَنݵئ بݳݽ محفݸظ، بحݳل نݸ اُتھُلی رِی شکݵگݳ چھݳ،  مَتَن نݸ تقرݵرݵئ شݵئر، تخلݵق نݸ ترتݵب اِرِݵ.
 scripted-card-header = گِرمِنݸنݵ تقرݵر
 scripted-card-content = جملݳݣݳ اَپَنݵئ بݳݽَنݳ اُتھُلݳ چھَتَسکݸٹ مُنݳ نݸ دنݵݳتݵئ بݸٹݵڎ تݳ متنݸع عݸݳمݵ گَٹِکُݽݵئ تقرݵرݵ ڈݵٹݳ سݵٹَنݳ حِصَہ بݳ.
-spontaneous-card-header = اِڎِی مݸ اِڎی تقریر / چَ
+spontaneous-card-header = اِڎِی مݸ اِڎی تقریر / چَغݳ رِنݳ
 
 ## Community section
 
