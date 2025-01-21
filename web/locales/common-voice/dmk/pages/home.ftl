@@ -116,6 +116,7 @@ community-and-languages-menu-item-aria-label = کݳمَن وݳئسن معݳون�
 
 ## Hero section
 
+hero-title = ٹݵکنݳلݸجی کݸنی یݳ تُمݳ بݳݽ اِرݸ
 
 ## Action items section
 
