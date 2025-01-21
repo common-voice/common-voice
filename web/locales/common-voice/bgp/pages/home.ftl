@@ -152,6 +152,13 @@ find-us-on-matrix-content = میٹرکس وکندریقرت، ریئل ٹائم 
 # label for button
 find-us-on-matrix-action = مارا میٹرکس سرا پول
 ask-mozilla-share = موزیلا ئا گوئش کہ وثی مراگشاں بہر بہ کنت
+ask-mozilla-share-content = چہ پیسریگیں یا آیوکیں مراگشے ھست؟ مئے گوما شیئر کن اِت ءُ ما وتی چاگرد ءَ جار جنیں یا ایشی ءِ بابت ءَ بلاگ نبشتہ کنیں!
+# label for button
+ask-mozilla-share-action = وتی مراگش ءَ شیئر بکن اِت
+download-contribution-certificate = وتی شرپ ءِ سرٹیفکیٹ ءَ ڈاؤن لوڈ کن اِت
+download-contribution-certificate-content = اگاں شما کامن وائس ءَ شریک بوتگ اِت گڑا وتی مراگشانی یا وت ءَ سرٹیفکیٹ ءِ ڈاؤن لوڈ کن اِت — اے گوں شما ممکن نہ بیت!
+# label for button
+download-contribution-certificate-action = وتی سرٹیفکیٹ ءَ بہ زور
 
 ## Featured section
 

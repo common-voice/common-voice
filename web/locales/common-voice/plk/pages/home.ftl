@@ -130,6 +130,8 @@ get-started = شیروع تِھیا <icon><icon>
 action-items-section-title = کامن وائس کمیونٹی قیادت دہ ڈیٹا تخلیق تھونے کِرِیا ایک مفت، اوپن سورس پلیٹ فارمُن۔
 action-items-section-subtitle = کوئے گہ منُوڙوْس ٹیکسٹ گہ ڈیٹاسیٹ بگَے، سنَے، آں کیوریٹنگ تھے تومیْ جِب محفوظ، جودیْ گہ اُتَھلیْ تھوبانوْ۔
 scripted-card-header = اسکرپٹڈ تقریر
+scripted-card-content = تومیْ جِب دہ جُملائے ہاݜ آواز دہ پڑیا آں دُنیے دہ بُٹُج متنوع عوامی شراکتی تقریری ڈیٹاسیٹ دہ تعاون تِھیا۔
+spontaneous-card-header = بے ساختہ تقریر
 
 ## Community section
 
