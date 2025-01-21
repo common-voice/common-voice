@@ -194,3 +194,11 @@ press-and-stories-link = پرݵس نݸ شِلݸ وݸݣ
 partner-section-title = امݵڎ کݸٹ شرݳکت اِرݳ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٹݵک کمپݸنِݣ</bold>۔اݵک ترقݵ رݳ بُݸتݵک بݳݽݵݣݺ مݳحݸلیݳتݵ نظݳمݵئ کݳرݸ کھُلݳ ڈݵٹݳ سݵٹ تخلݵق اِرِنَنݳ سرمݳیہ کݳرݵ رݳ.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سݸل سݸسݳئٹݵ نݸ رݵسرچَرݳ</bold> ۔ چِپِی نݳ مݸثِر ڈݵٹݳ سݵٹݳ تخلݵق اِرݳ، مݵزبݳنݵ اِرݳ نݸ شݵئر اِرݳ.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>فَلَݳحی کَݸم</bold> ۔ مقݳمݵ جِدَّت نݸ ترقݵ شُݸ فرݸغ دݵنݳئی کݳرݸ ڈݵٹݳ سݵٹݵئ تخلݵقݵئ سرپرستݵ اِرݳ.
+# icon is an arrow that points to the right
+get-in-touch-button = رݳبِطَہ نݳ بݵشݳ</icon></icon>
+# Partners section
+our-partners-include = امݳ کݸٹݸ کمݸنݺ مݳ کݸٹ چھݺ...
