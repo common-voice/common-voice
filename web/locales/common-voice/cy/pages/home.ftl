@@ -98,6 +98,7 @@ transcribe-audio-coming-soon = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
+coming-soon = Yn Dod yn Cyn Hir
 
 ## MENU ITEMS TOOLTIPS
 
@@ -127,9 +128,25 @@ get-started = Cychwyn arni <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Mae Common Voice yn blatfform cod agored am ddim ar gyfer creu data sy'n cael ei arwain gan y gymuned
+action-items-section-subtitle = Gall unrhyw un gadw, adfywio a dyrchafu eu hiaith trwy rannu, creu a churadu setiau data testun a lleferydd.
+scripted-card-header = Lleferydd wedi'i Ysgrifennu
+scripted-card-content = Darllenwch frawddegau yn uchel yn eich iaith a chyfrannwch at y set ddata lleferydd cyfranogiad cyhoeddus fwyaf amrywiol yn y byd.
+spontaneous-card-header = Llefaru Digymell
+spontaneous-card-content = Ymateb i bromptiau i greu setiau data ar gyfer cyd-destunau llafar, organig. Perffaith ar gyfer ieithoedd llafar yn gyntaf.
+language-text-card-header = Testun Iaith
+language-text-card-content = Creu neu rannu promptiau parth cyhoeddus, brawddegau, a thestunau i'w cyfieithu, modelau iaith bychan, a mwy.
+coming-soon = Yn Dod yn Cyn Hir
+add-text = Ychwanegu Testun
 
 ## Community section
 
+community-section-title = Wedi'i bweru gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 130 o ieithoedd ac yn tyfu!
+join-discord-community = Ymunwch â'r Gymuned Discord
+# label for button
+join-discord-community-action = Ymunwch â ni ar Discord
+join-discord-community-content = Cyfrannwch at drafodaethau cymunedau ieithyddol, gofynnwch gwestiynau, a dysgwch am ddigwyddiadau a sgyrsiau sydd i ddod.
+find-us-on-matrix = Dewch o hyd i ni ar Matrix
 
 ## Featured section
 
