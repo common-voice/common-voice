@@ -124,15 +124,31 @@ add-text = ستورئ اتیوݩشی
 join-discord-community = ڑیسکارٹ کمیونٹی تہ شامل با
 # label for button
 join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با
+find-us-on-matrix = ایمومٹریکس تہ وݩع
+# label for button
+find-us-on-matrix-action = ایمومٹریکس تہ وݩع
+download-contribution-certificate = توستہ تعاون ستہ سند ڈاونلوڈ کشی
+# label for button
+download-contribution-certificate-action = توستہ سند حاصل کشی
+contribute-github = گیٹ ہپ تہ سنہ
+# label for button
+contribute-github-action = گیٹ ہپ تہ سنہ
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = ایمو ستہ پریس پیک ڈاونلوڈ کشݩع<icon></icon>
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹاسیٹ بنڅا<icon></icon>
 
 ## Get involved section
 
+read-sentences-link = جملہ ولہ
+validate-readings-link = تصدیق بی عبارت
+answer-questions-link = سوال جواب
 
 ## Partner section
 
