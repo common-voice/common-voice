@@ -116,6 +116,8 @@ get-started = Duro ce duun.
 action-items-section-title = Common voice tʰi bila, kuyooće yaarqis etum data uyoonar han platform bila.
 action-items-section-subtitle = Menane ke iymo baaṣ e datasets daa text emaśumo, desmayme despasas daa jiindo etas eemay bay.
 scripted-card-header = Girminum bariṅ.
+scripted-card-content = Maymo baaśulo jumlan tʰanum maćʰarulo ġatanin daa dunyaate uyoon cum uyum bariṅe datasetulo emasin.
+spontaneous-card-header = Hik dam ćaġa bar
 
 ## Community section
 
