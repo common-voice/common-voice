@@ -131,6 +131,8 @@ community-section-title = میولی گرونگ میونگی فری، میولی
 join-discord-community = گرونگ میونگ، ڈرالپونگ نا یمبو دوکپہ شوقس
 # label for button
 join-discord-community-action = سکتی کھورتینگ پینگ ندانگ نا یمبو شوقس
+join-discord-community-content = سکتی کھورتنگ پینگ کڑا کوڑو تنگمہ شوقس، سوال تریس، دیکھنہ اونگمہ یودپی ریل فود کنی بارینگ سنانگا گوچوک
+find-us-on-matrix = میٹرکسی کھہ نیا ژول
 
 ## Featured section
 
