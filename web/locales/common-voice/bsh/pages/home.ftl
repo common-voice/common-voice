@@ -80,6 +80,7 @@ answer-questions-coming-soon = سوال جواب<small>(نوݜٹہ اڅہتی)</
 review-transcriptions = ٹرانکرپشن جائزہ کشی<small>(نوݜٹہ اڅہتہ)</small>
 review-transcriptions-coming-soon = ٹرانکرپشن جائزہ کشی<small>(نوݜٹہ اڅہتہ)</small>
 add-questions = سوال سنا<small>(نوݜٹہ اڅہتی)</small>
+transcribe-audio-coming-soon = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
 transcribe-audio = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
 press-and-stories = وسپلہ دے پرݩجیکہ
 community-and-languages = کمیونٹی (اوگعمہ) دے ورے
@@ -103,6 +104,7 @@ community-and-languages-menu-item-aria-label = عام کوٹہ مع منچاݩ (
 
 ## Hero section
 
+hero-title = ٹیکنالوجی چی ستہ توستہ وری ولہ تہ
 
 ## Action items section
 
