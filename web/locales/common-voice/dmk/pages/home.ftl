@@ -146,6 +146,12 @@ community-section-title = دُنݳتݵئ کمݵݸنِٹیݣݺ زرݵعَس شَ�
 join-discord-community = ڈِسکݳرڈ کمیݸنِٹݵ نݳ کݸٹ ہُوݳ
 # label for button
 join-discord-community-action = ڈسکݳرڈَس امݵڎ کݸٹ کݸٹ ہُوݳ
+join-discord-community-content = بݳݽݵئ کمݵونِٹݵ مُبݳحِثݺ مݳ حِصَہ لݸ، سوݳلݸݣ مُنݳ، نݸ ہگݵ آݣݺ پُرگرݳمݵݣݺ نݸ لݵکچݵرݵݣݺ بݳرݳ نݳ دَݽݳرݳ.
+find-us-on-matrix = مݵٹریکسَس امݺ گݸشݳ
+find-us-on-matrix-content = مݵٹریکس اݵک کھُلݳ، ہَلکݳ پھُلکݳ پرݸٹݸکݸلݵک چھݳ کݸنݸ غݵر مرکزݵت یݳفتہ، سݸچ وقتݵئ چغݳئݺ کݳرݸ استمݳل ہݸگݳ چھݳ، نݸ مݸزݵلݳئی یَن دݵنہ کھُلݳ بحث اِرِنݳئی پلݵٹ فݳم چھݳ.
+# label for button
+find-us-on-matrix-action = مݵٹریکسَس امݺ گݸشݳ
+ask-mozilla-share = تُمݳ پُرگرݳمݳ / کھݵنݸݣ شݵئر اِرِنݳشُݸ مݸزݵلَس مݸ مُنݳ
 
 ## Featured section
 

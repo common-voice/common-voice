@@ -50,6 +50,7 @@ report-sc-different-language = Забони дигар
 report-sc-different-language-detail = Он дар забоне навишта шудааст, ки аз забони баррасӣ кардаи ман фарқ мекунад.
 sentences-fetch-error = Ҳангоми гирифтани ҷумлаҳо хато ба миён омад
 review-error = Ҳангоми баррасии ин ҷумла хато ба миён омад
+review-error-rate-limit-exceeded = Шумо хеле зуд ҳаракат мекунед. Лутфан, вақти худро барои баррасии бодиққати ҷумлаи нав ҷудо кунед ва боварӣ ҳосил намоед, ки он дуруст аст.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Мо баъзе дигаргуниҳои калонро омода карда истодаем
 sc-redirect-page-subtitle-2 = Ба мо тавассути <matrixLink>«Matrix»</matrixLink>, <discourseLink>«Discourse»</discourseLink> ё <emailLink>почтаи электронӣ</emailLink> саволҳоро ирсол намоед.

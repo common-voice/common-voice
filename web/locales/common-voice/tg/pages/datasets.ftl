@@ -29,6 +29,7 @@ feedback-q = Мехоҳед, ки назари худро изҳор кунед?
 no-information = Маълумот нест
 community-playbook = Китоби омӯзишӣ барои ҷомеа
 data-other-ted-name = Маҷмуи «TED-LIUM»
+your-feedback = Шумо фикру андешаҳо доред, ки чӣ гуна мо метавонем маҷмуи маълумоти «Common Voice»-ро беҳтар созем? Ба мо дар «Discourse» хабар диҳед
 go-discourse = Гузариш ба «Discourse»
 missing-language = Забони худро дар маҷмуи маълумот намебинед? Барои дархост кардани забон ба саҳифаи забонҳои мо ворид шавед.
 go-languages-page = Гузариш ба саҳифаи забонҳо
