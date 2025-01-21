@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = سکت کن ربیس (شوخمو اونگین ی�
 transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
 press-and-stories = تم خلونگ کن نا زدرونگ کن
 community-and-languages = کمیونٹی نا سکت کن
+coming-soon = شوخمو اونگین یود
 
 ## MENU ITEMS TOOLTIPS
 
@@ -118,9 +119,16 @@ action-items-section-subtitle = سولا سہ سکتی تم ژھیر کن فچو
 scripted-card-header = ربیسے یودپی تم ژھیر کن
 scripted-card-content = یتی سکت پینگنو تم ژھیر کن لینے زیر، دیکھنہ میولینگ چوغی روخ بین یودپی سکتی ڈیٹا سیٹ پولا روخ بیوس
 spontaneous-card-header = چوق کھیکھہ کھڑاقفی تم ژھیر کن
+spontaneous-card-content = آرگینک سکتی لوکھسینگنگو ڈیٹا سیٹ فچوے سوال کن لا تم لزوق بیوس۔ فہ سکت کنی فری مہ لیگی بیورمو گوا یودپن
+language-text-card-header = سکت پووی ٹیکسٹ پو
+language-text-card-content = چوقلا تھوبا یودپی تم ہرتخ کن، تم ژھیر کن، تم لزوق بے ٹیکسٹ کن، ژھونژے سکت کنی ماڈل کن فچوس یا چوقلا تھونچوک،
+coming-soon = شوخمو اونگین یود
+add-text = ٹیکسٹ چی ہرژوق
 
 ## Community section
 
+community-section-title = میولی گرونگ میونگی فری، میولی میونگی سی لق تھود منفہ یودپی، سکت کن لا بیور لوغین یود
+join-discord-community = گرونگ میونگ نا یمبو گوا شوقس، میدنارے فنگسے بیونگسے شوقس
 
 ## Featured section
 
