@@ -152,6 +152,10 @@ find-us-on-matrix-content = مݵٹریکس اݵک کھُلݳ، ہَلکݳ پھُ
 # label for button
 find-us-on-matrix-action = مݵٹریکسَس امݺ گݸشݳ
 ask-mozilla-share = تُمݳ پُرگرݳمݳ / کھݵنݸݣ شݵئر اِرِنݳشُݸ مݸزݵلَس مݸ مُنݳ
+ask-mozilla-share-content = کݵچݸق تمݳ پَچݸ یݳ ہَگݵ آنݳ ایݸنٹݵک چھݳ؟ ہݵئ امݵڎ کݸٹ شݵئر اِرݳ نݸ ہݵئ اَمݺ اَمݳ کمݵݸنِٹݵ نݳ ڈَمشَر اِرَم یݳ ہݵَس بلݳگ گِرمِنݳم!
+# label for button
+ask-mozilla-share-action = اپَنݵئ اݵݸنٹ شݵئر اِرݳ
+download-contribution-certificate = تُمݳ کنٹرݵبیݸشَن سرٹِفِکݵٹ ڈݳݸنلݸڈ اِرݳ
 
 ## Featured section
 

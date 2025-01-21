@@ -47,6 +47,7 @@ dataset-metadata-sex = Ҷинс
 dataset-metadata-age = Синну сол
 donate-modal-message = Маҷмуи маълумоти шумо боргирӣ шуда истодааст!
 dataset-donate-modal-heading = Шумо медонед, ки…
+donate-modal-explanation-1 = Ҳар сол хароҷоти мо барои нигоҳ доштани маҷмуъҳои маълумот дар серверҳо ва беҳтар кардани платформа барои ҷомеаҳои зиёда аз 100 забон, ки ба кори мо эътимод доранд, тақрибан як миллион доллари ИМА-ро ташкил медиҳад?
 data-download-singleword-title = Қисмати мақсаднокро бо «як калима» боргирӣ кунед
 data-download-button = Маълумоти «Common Voice»-ро боргирӣ кунед
 data-download-yes = Ҳа
