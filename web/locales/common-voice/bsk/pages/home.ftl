@@ -104,9 +104,18 @@ community-and-languages-menu-item-aria-label = common voice e uriin ce duunum ba
 
 ## Hero section
 
+hero-title = Maa baaṣulo ćaġa etas technology.
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = AI e bes dunyaate kaman baaśinulo duro etiṣ?
+hero-subtitle-2 = Mii baaṣ mii minas, mii kuyooć, mii culture bila. Ye ẓuin dataset an desmayan amit duyatulo ġeyciṣ.
+# icon is an arrow that points downwards
+get-started = Duro ce duun.
 
 ## Action items section
 
+action-items-section-title = Common voice tʰi bila, kuyooće yaarqis etum data uyoonar han platform bila.
+action-items-section-subtitle = Menane ke iymo baaṣ e datasets daa text emaśumo, desmayme despasas daa jiindo etas eemay bay.
+scripted-card-header = Girminum bariṅ.
 
 ## Community section
 
