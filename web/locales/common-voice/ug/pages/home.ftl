@@ -134,6 +134,9 @@ find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
 find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
 # label for button
+ask-mozilla-share-action = پائالىيىتىڭىزنى ھەمبەھىرلەڭ
+download-contribution-certificate = تۆھپە گۇۋاھنامىڭىزنى چۈشۈرۈڭ
+# label for button
 download-contribution-certificate-action = گۇۋاھنامىڭىزغا ئېرىشىڭ
 contribute-github = GitHub دا تۆھپە قوشۇڭ
 # label for button
