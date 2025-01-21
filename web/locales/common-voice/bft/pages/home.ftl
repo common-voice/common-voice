@@ -141,9 +141,17 @@ ask-mozilla-share-content = گوپا سونگفہ یودپی یا جوکلا ا�
 # label for button
 ask-mozilla-share-action = یری ریل پو تھونچوک
 download-contribution-certificate = یری روخ بیسی سند پو ڈوان لوڈ بیوس
+download-contribution-certificate-content = یانگی کامن واٸس لا روخ بیسیدنارے یانگلا یا یری ریل پولا سند چی چک ڈاون لوڈ بیوس، دیو یانگ میدپہ فرونمو گوچیس میدپا
+# label for button
+download-contribution-certificate-action = یری سند پو لین
+contribute-github = گیڈ ہبیکھہ روخ بیوس
+contribute-github-content = دی پراجیکٹ پو یانگ ژوخ میونگی روخ میدپا گو چیس مید۔ کامن واٸس نا یمبو لس بیالا لم اشن یود، یانگلا روخ بیالا ژال ژال بیا رگوسپہ مید
+# label for button
+contribute-github-action = گیڈ ہبیکھہ روخ بیوس
 
 ## Featured section
 
+featured-section-title = دیووینگنو بیونگ بیونگ
 
 ## Developers section
 
