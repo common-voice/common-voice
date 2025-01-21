@@ -172,6 +172,18 @@ answer-questions-link = Duġarusin
 transcribe-answers-link = Juwaapiṅ girminin
 review-transcriptions-link = Girminuminar hik ke barenin
 contribute-text-link = Text emasin
+press-and-stories-link = Minśiṅ ke press.
 
 ## Partner section
 
+partner-section-title = mii kaatum guman
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = Multilingual AI ecosystem e gane tech companies e dataset creation ulo invest ećaan.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = Civil society daa researcher datasets desmanin daa host etin
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = Falayi diarane ke dataset desmans daa yaarqis etase gane miriin ce duunin
+# icon is an arrow that points to the right
+get-in-touch-button = Mekaa rabitaulo hurtin
+# Partners section
+our-partners-include = Mii katumiśo
