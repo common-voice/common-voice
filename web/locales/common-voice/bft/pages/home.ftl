@@ -152,12 +152,23 @@ contribute-github-action = گیڈ ہبیکھہ روخ بیوس
 ## Featured section
 
 featured-section-title = دیووینگنو بیونگ بیونگ
+# icon is an arrow that points downwards
+download-press-pack = نٸی پریس پیک پو ڈاون لوڈ بیوس
 
 ## Developers section
 
+developers-section-title = خسوم بگیا نا خسومچو پا تھلے چوقلا تھوبا یودپی سکتی ڈیٹا سیٹ کن
+developers-section-subtitle = میونگی روخ بیسے فچوسپن، اے ایس آر، ایس ایس ٹی، ٹی ٹی ایس نا این ایل پی لوکھسینگنو لا ڈیٹا سیٹ کن
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹ کن ژول
 
 ## Get involved section
 
+get-involved-section-title = چوقلا تھوبا یودپی میونگی فچوا پودپا یودپی ڈیٹا سیٹ کن لا روخ بیوس
+read-sentences-link = تم ژھیر کن زیر
+validate-readings-link = زیرفونگ چھدکھہ بیوس
+contribute-link = ربیا یودپا یودپی کارپس لا روخ بیوس
+answer-questions-link = تم لزوق بیوس
 
 ## Partner section
 
