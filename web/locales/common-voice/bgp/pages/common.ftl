@@ -264,6 +264,7 @@ privacy = راز
 terms = شرت
 cookies = کوکیز
 faq = اف اے کیو
+documentation = دستاویزات
 content-license-text = مواد ءِ چیر دستی ءَ دستیاب اِنت<licenseLink>کریئٹیو کامنز لائسنس <licenseLink>
 share-title = دگراں وتی توار ءِ عطیہ کنگ ءِ ھاترا مارا کمک کن اِت!
 share-text = مشیناں وانینگ ءَ کمک بہ کن اِت کہ راستیں مردم چوں گپ جن اَنت، وتی توار ءَ { $link } ءَ عطیہ بہ کن اِت

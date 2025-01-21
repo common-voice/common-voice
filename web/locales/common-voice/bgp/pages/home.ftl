@@ -185,6 +185,20 @@ validate-readings-link = وانگ ئے توثیق کن
 contribute-link = ٹیکسٹ کورپس ئا شریک بئے
 answer-questions-link = جستانی جواب ئا دئے
 transcribe-answers-link = جواباں نبشتہ کن
+review-transcriptions-link = ٹرانسکرپشنانی جائزہ
+contribute-text-link = نبشتانک ءَ شریک بہ کن اِت
+press-and-stories-link = پریس ءُ کسہ .
 
 ## Partner section
 
+partner-section-title = مئے گوما شریک بہ بئے
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - یک دیمروئی کنوکیں باز زبانی اے آئی ءِ ماحولیاتی نظام ءِ ھاتر ءَ اوپن ڈیٹاسیٹ ءِ جوڑ کنگ ءَ سرمایہ کاری بہ کن اِت
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی ءُ پٹ ءُ پولکار</bold> - مفت ءَ تاثیر مندیں ڈیٹاسیٹ جوڑ کن اِت، میزبانی کن اِت ءُ شیئر کن اِت
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>خیرات</bold> - اسپانسر ڈیٹاسیٹ ءِ جوڑ کنگ ءَ پہ دمگی نوآبادیاتی ءُ دیمروئی ءَ را گیش کنگ ءَ
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ ئا کن<icon></icon>
+# Partners section
+our-partners-include = مئے شریکاں ھوار انت...
