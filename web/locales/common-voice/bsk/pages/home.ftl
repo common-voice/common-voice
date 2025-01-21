@@ -158,9 +158,20 @@ download-press-pack = Mii press pack download etin
 ## Developers section
 
 developers-section-title = Tʰa altar toorumo baaśinulo uyoonar deṣqaltas dataset
+developers-section-subtitle = ASR, STT, TTS daa NLP context gane Kuyooće emasuminate desmanum datasets
+# icon is an arrow that points to the right
+explore-datasets = Dataset diyusin.
 
 ## Get involved section
 
+get-involved-section-title = Kuyooće yaarqis etas dataset e urin ce duunin
+read-sentences-link = Jumlan ġatanin.
+validate-readings-link = Ġatanumin tasdiiq etin.
+contribute-link = Text corpus ulo emasin.
+answer-questions-link = Duġarusin
+transcribe-answers-link = Juwaapiṅ girminin
+review-transcriptions-link = Girminuminar hik ke barenin
+contribute-text-link = Text emasin
 
 ## Partner section
 
