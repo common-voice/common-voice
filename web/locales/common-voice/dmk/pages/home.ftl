@@ -192,3 +192,5 @@ press-and-stories-link = پرݵس نݸ شِلݸ وݸݣ
 ## Partner section
 
 partner-section-title = امݵڎ کݸٹ شرݳکت اِرݳ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹݵک کمپݸنِݣ</bold>۔اݵک ترقݵ رݳ بُݸتݵک بݳݽݵݣݺ مݳحݸلیݳتݵ نظݳمݵئ کݳرݸ کھُلݳ ڈݵٹݳ سݵٹ تخلݵق اِرِنَنݳ سرمݳیہ کݳرݵ رݳ.
