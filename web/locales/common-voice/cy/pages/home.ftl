@@ -90,8 +90,11 @@ read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
 ## NAV ITEMS
 
 answer-questions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
+answer-questions-coming-soon = Ateb Cwestiynau <small>(Yn dod cyn hir)</small>
 review-transcriptions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
+review-transcriptions-coming-soon = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
 add-questions = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
+transcribe-audio-coming-soon = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
@@ -115,6 +118,12 @@ community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd
 
 ## Hero section
 
+hero-title = Technoleg sy'n siarad eich iaith
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Pam ddylai AI weithio i rai o ieithoedd y byd yn unig?</bold>
+hero-subtitle-2 = Ein hiaith yw ein stori, ein cymuned, ein diwylliant. Gadewch i ni greu'r setiau data rydym am eu gweld yn y byd.
+# icon is an arrow that points downwards
+get-started = Cychwyn arni <icon><icon>
 
 ## Action items section
 
