@@ -159,15 +159,32 @@ download-contribution-certificate = وتی شرپ ءِ سرٹیفکیٹ ءَ ڈ�
 download-contribution-certificate-content = اگاں شما کامن وائس ءَ شریک بوتگ اِت گڑا وتی مراگشانی یا وت ءَ سرٹیفکیٹ ءِ ڈاؤن لوڈ کن اِت — اے گوں شما ممکن نہ بیت!
 # label for button
 download-contribution-certificate-action = وتی سرٹیفکیٹ ءَ بہ زور
+contribute-github = گٹ ہب سرا شریک بہ بئے
+contribute-github-content = اے پروجیکٹ اگاں تئی وڑیں مردم مہ بوتیں گڑا ممکن نہ بوتگ ات۔ 🎉 کامن وائس ءِ گوں ھوار بوھگ ءِ بازیں راہ ھست اَنت - ترا شریک بوھگ ءِ ھاترا کوڈنگ ءِ زانگ ءِ ھژدری نہ اِنت!
+# label for button
+contribute-github-action = گٹ ہب سرا شریک بہ بئے
 
 ## Featured section
 
+featured-section-title = ماں پیش دارگ بیثغیں
+# icon is an arrow that points downwards
+download-press-pack = مئے پریس پیک ءَ ڈاؤن لوڈ کن اِت <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ زبانانی تہا سرکاری دسترس ءِ پچیں گپ ءِ ڈیٹاسیٹ
+developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس، ءُ دگہ این ایل پی ءِ تناظر ءِ ھاتر ءَ ڈیٹاسیٹ - کمیونٹی ءِ بھر زوری ءِ وسیلہ ءَ جوڑ کنگ بوتگ۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹاسیٹانی پٹ ءُ پول ءَ بکن اِت <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوپن، کمیونٹی ءِ سروکی ءَ ڈیٹاسیٹ ءِ حمایت ءَ بکن اِت
+read-sentences-link = جملہ ئا پڑھ
+validate-readings-link = وانگ ئے توثیق کن
+contribute-link = ٹیکسٹ کورپس ئا شریک بئے
+answer-questions-link = جستانی جواب ئا دئے
+transcribe-answers-link = جواباں نبشتہ کن
 
 ## Partner section
 
