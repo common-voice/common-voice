@@ -149,6 +149,11 @@ explore-datasets = ڈیٹاسیٹ بنڅا<icon></icon>
 read-sentences-link = جملہ ولہ
 validate-readings-link = تصدیق بی عبارت
 answer-questions-link = سوال جواب
+transcribe-answers-link = سترای جواب
+review-transcriptions-link = تصدیق بی عبارت
+contribute-text-link = ستورئ سنا
 
 ## Partner section
 
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ کشی<icon></icon>
