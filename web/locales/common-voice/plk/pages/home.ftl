@@ -143,6 +143,10 @@ add-text = عبارت ٹل تِھیا
 
 community-section-title = عالمی برادرِیؤ ذریعہ تقویت یافتہ، عالمی برادرِیؤ کِرِیا — 130 جِبہ آں اسݨوجیْ گہ بسکِیؤ ǃ
 join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
+# label for button
+join-discord-community-action = Discord جیْ اسو سے ٹل بِیا
+join-discord-community-content = زبانی کمیونٹی مباحثو مجیْ حصہ ہرہ، سوالات تِھیا، آں آیونے واقعات گہ موْݜ کالِجیْ اکو پرجارہ۔
+find-us-on-matrix = اسو میٹرکس جیْ اورڑِیا
 
 ## Featured section
 
