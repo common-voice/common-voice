@@ -71,15 +71,15 @@ welcome-staff = شوقس { $company } لس میونگ
 help-contribute = یناگلا یری سکتپو شیزدے بینچی، کامن وایسی پروفایل چی فوچوسے تھوتھیکھ میدتپی چوقلا تھوبی ڈیتا سیٹ فچوفری روخ بیا نینید
 login-company = جھوکھس/ جوکھ لم { $company } ای میل پو
 profile-not-required = روخ بیالا پروفایل دوکپو چنگ ژاہ ژاہ میدپن اما روخ زدے گیگ، چا زیربو تھورو ہلتوس
-read-more-about = نیی بارینگ نیی صفحیکھہ ینگسہ زیر
+read-more-about = نٸی صفحیکھہ ینگسہ زیرین شوقس
 
 ## NAV ITEMS
 
-answer-questions = سوال کنی جواب لزوق، شوخمو اونگین یود
-answer-questions-coming-soon = سوال کنی جواب لزوق، شوخمو اونگین یود
-review-transcriptions = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
+answer-questions = سوال کنی جواب لزوق
+answer-questions-coming-soon = سوال کن لا تم لزوق بیوس
+review-transcriptions = ٹرانسکرپشن کن لا ہلتوس،
 review-transcriptions-coming-soon = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
-add-questions = سوال کن ہرژوق (شوخمو اونگین یود)
+add-questions = سوال کن ہرژوق، سوال کن شیزدے بیوس
 transcribe-audio-coming-soon = سکت کن ربیس (شوخمو اونگین یود)
 transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
 press-and-stories = تم خلونگ کن نا زدرونگ کن
@@ -128,7 +128,9 @@ add-text = ٹیکسٹ چی ہرژوق
 ## Community section
 
 community-section-title = میولی گرونگ میونگی فری، میولی میونگی سی لق تھود منفہ یودپی، سکت کن لا بیور لوغین یود
-join-discord-community = گرونگ میونگ نا یمبو گوا شوقس، میدنارے فنگسے بیونگسے شوقس
+join-discord-community = گرونگ میونگ، ڈرالپونگ نا یمبو دوکپہ شوقس
+# label for button
+join-discord-community-action = سکتی کھورتینگ پینگ ندانگ نا یمبو شوقس
 
 ## Featured section
 
