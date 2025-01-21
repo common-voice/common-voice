@@ -156,6 +156,10 @@ ask-mozilla-share-content = کݵچݸق تمݳ پَچݸ یݳ ہَگݵ آنݳ ای
 # label for button
 ask-mozilla-share-action = اپَنݵئ اݵݸنٹ شݵئر اِرݳ
 download-contribution-certificate = تُمݳ کنٹرݵبیݸشَن سرٹِفِکݵٹ ڈݳݸنلݸڈ اِرݳ
+download-contribution-certificate-content = اَگَر تُمݺ کݳمَن وݳئس — نݳ حِصَہ بݳیݸچھݸت تݳ تُمݺ اَپَنݵئ اِݸݵنٹݳ یݳ اَپَنݵئ کݳرݸ سَرٹِفکݵٹ ڈݳݸنلݸڈ اِرِی شکݵگُچھݸت اَݽݵئ تمݵڎ مݸ بغݵر مُنکِن نݵ ہݸگݳ کݳ!
+# label for button
+download-contribution-certificate-action = اَپَنݵئ سَرٹفݵکݵٹ لݸ
+contribute-github = گِٹ حَبَس حِصَہ بݳ
 
 ## Featured section
 
