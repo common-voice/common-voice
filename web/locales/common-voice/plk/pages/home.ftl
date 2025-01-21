@@ -98,6 +98,7 @@ transcribe-audio-coming-soon = آڈِیو نَل تِھیا <small> (جِنیْ 
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
+coming-soon = جِنیْ اِینوْ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -133,9 +134,15 @@ scripted-card-header = اسکرپٹڈ تقریر
 scripted-card-content = تومیْ جِب دہ جُملائے ہاݜ آواز دہ پڑیا آں دُنیے دہ بُٹُج متنوع عوامی شراکتی تقریری ڈیٹاسیٹ دہ تعاون تِھیا۔
 spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = نامیاتی، موْݜ کَلَے سیاق گی سباق اےْ کِرِیا ڈیٹاسیٹس سنونے اشارو جُواب دِیا۔ موْݜ کال گیْ آں مُڇِھنیْ جِبوڑ مِݜٹیْ۔
+language-text-card-header = جِبے متن
+language-text-card-content = عوامی ڈومین پرامپٹس، جُملائے گہ ترجمائے کِرِیا متن آں لیکھیْ جِبو ماڈلز، وغیرہ سنِیا یا سیْݨے اشتراک تِھیا۔
+coming-soon = جِنیْ اِینوْ
+add-text = عبارت ٹل تِھیا
 
 ## Community section
 
+community-section-title = عالمی برادرِیؤ ذریعہ تقویت یافتہ، عالمی برادرِیؤ کِرِیا — 130 جِبہ آں اسݨوجیْ گہ بسکِیؤ ǃ
+join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
 
 ## Featured section
 
