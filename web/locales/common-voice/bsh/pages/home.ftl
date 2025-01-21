@@ -127,6 +127,7 @@ join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با
 find-us-on-matrix = ایمومٹریکس تہ وݩع
 # label for button
 find-us-on-matrix-action = ایمومٹریکس تہ وݩع
+ask-mozilla-share = موزیلا تہ تیو پروگرام شئر کوستہ کہ درخواست کشی
 download-contribution-certificate = توستہ تعاون ستہ سند ڈاونلوڈ کشی
 # label for button
 download-contribution-certificate-action = توستہ سند حاصل کشی
