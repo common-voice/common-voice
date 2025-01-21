@@ -1,8 +1,11 @@
 listen = Гӯш кунед
 listen-subtitle = Ба мо дар санҷидани эътибори овозҳо кумак кунед
 listen-instruction = { $actionType }<playIcon></playIcon> оё ҷумла дақиқ гуфта шудааст?
+listen-again-instruction = Аъло кор кардед! <playIcon></playIcon> Агар омода бошед, боз гӯш кунед
+listen-3rd-time-instruction = 2 сабт тасдиқ карда шуд, идома диҳед! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Охирон!
 listen-empty-state = Шояд сабтҳо тамом шуда бошад - саҳифаро нав кунед ё дертар аз нав кӯшиш намоед.
+listen-empty-state-variants = Эҳтимол аст, ки забони шумо сабтҳои дигар надорад! Агар хоҳед, шумо метавонед барои дидани дигар ҷумлаҳои марбут ба забони шумо, танзимоти худро иваз намоед.
 listen-abort-title = Тасдиқи сабтҳоро ба анҷом мерасонед?
 listen-abort-cancel = Идома додани тасдиқ
 listen-abort-confirm = Анҷом додани тасдиқ

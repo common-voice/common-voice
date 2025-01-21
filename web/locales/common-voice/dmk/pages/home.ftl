@@ -99,6 +99,7 @@ transcribe-audio-coming-soon = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <s
 transcribe-audio = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
 press-and-stories = مݵڈِݵݳ نݸ کہݳنݵݣ
 community-and-languages = کمݵݸنٹݵ نݸ بݳݽݸݣ
+coming-soon = ڞَگݳ آگݳ چھݳ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -135,6 +136,9 @@ scripted-card-content = جملݳݣݳ اَپَنݵئ بݳݽَنݳ اُتھُلݳ 
 spontaneous-card-header = اِڎِی مݸ اِڎی تقریر / چَغݳ رِنݳ
 spontaneous-card-content = اشݵݣݳ محَرّکݳتݵڎ ردِعَمَل دݸ کݸنݺ اِمِکݵ، عݸامݵئ اندݳزَݵئ سݵݳق و سبݳقݵئ کݳرݸ ڈݵٹݳ سݵٹݳ تݵݳر اِرݸن. اݽݵئ زبݳنݵ طݸرَس یَرکَمݳسݵئ بݳݽݵݣݺ کݳرݸ بُݸت شَہ چھݳ.
 language-text-card-header = بݳݽݵئ گِرمِنݳیݳ
+language-text-card-content = ترجمݳݣݳ، چُنݺ بݳݽݵݣݺ مݳڈݵلݳ، نݸ اݸرݳ مقصَتݵݣݺ کݳرݸ عوݳمݵ ڈݸمݵن نَنݳ ترغیبݳتݳ، جملݺ نݸ مَتَن تخلݵق اِرݳ یݳ شݵئر اِرݳ.
+coming-soon = ڞَگݳ آگݳ چھݳ
+add-text = گِرمِنݳیݳ خَرِشݳرݳ
 
 ## Community section
 
