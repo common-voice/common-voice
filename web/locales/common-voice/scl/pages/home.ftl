@@ -157,9 +157,23 @@ download-press-pack = اَسئیی پرس پیک ڈاؤن لوڈ تھے۔
 
 ## Developers section
 
+developers-section-title = عام جَکوڑے شونگو ڈیٹاسیٹ (130) ایک شل گہ بی گہ دَیو نیو گہ لائیے باشو نی
+developers-section-subtitle = اے-ایس-آر،ایس ایس ٹی،  ٹی ٹی ایس، گہ مُوے این ایل پییو پروگرامو کاری۔ کمیونٹی سے یو بو سَنیا
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹ اوڈور تھے چَکے <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کمیونیتی سے یَجاریک ڈیٹاسیٹی ساتی دے۔
+read-sentences-link = موجی رَس
+validate-readings-link = رَجیک موجو تصدیق تھے
+contribute-link = لِکھِیتی کارپسو ساتی دے
+answer-questions-link = کھُوجیکو جواب دے
+transcribe-answers-link = جوابے کَچَٹ تھے۔
+review-transcriptions-link = کَچَٹ تھیئک پھَرا چَکے۔
+contribute-text-link = کَچَٹ تھے چین
+press-and-stories-link = پریس گہ شِلوگے
 
 ## Partner section
 
+partner-section-title = اسو نلا سجیئار با
