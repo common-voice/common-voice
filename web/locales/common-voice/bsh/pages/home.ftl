@@ -164,8 +164,10 @@ explore-datasets = ڈیٹاسیٹ بنڅا<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوپن کمیونٹی پکہ عو ڈیٹاسیٹس ستہ حمایت کشݩع
 read-sentences-link = جملہ ولہ
 validate-readings-link = تصدیق بی عبارت
+contribute-link = وپسئ متن تہ حصہ اگݩع
 answer-questions-link = سوال جواب
 transcribe-answers-link = سترای جواب
 review-transcriptions-link = تصدیق بی عبارت

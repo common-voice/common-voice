@@ -157,6 +157,7 @@ download-press-pack = Discarga nostre pacchetto pressa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Collectiones de datos vocal publicamente accessibile in plus que 130 linguas
 # icon is an arrow that points to the right
 explore-datasets = Explorar collectiones de datos <icon></icon>
 
