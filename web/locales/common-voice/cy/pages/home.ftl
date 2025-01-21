@@ -190,3 +190,14 @@ press-and-stories-link = Y wasg a straeon
 
 ## Partner section
 
+partner-section-title = Partnerwch gyda ni
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Cwmnïau technoleg</bold> - buddsoddwch mewn creu setiau data agored ar gyfer ecosystemau AI amlieithog llewyrchus
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = Cymdeithas sifil ac ymchwilwyr</bold> - crëwch, cynhaliwch a rhannwch setiau data effeithiol am ddim
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Dyngarwch</bold> - noddwch greu set ddata i hybu arloesedd a datblygiad lleol
+# icon is an arrow that points to the right
+get-in-touch-button = Cysylltwch <icon></icon>
+# Partners section
+our-partners-include = Mae ein partneriaid yn cynnwys...

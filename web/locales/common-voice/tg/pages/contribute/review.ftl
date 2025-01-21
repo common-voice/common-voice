@@ -42,6 +42,8 @@ sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ 
 sc-criteria-item-3 = Ҷумла бояд қобили талаффуз бошад.
 sc-criteria-item-4 = Агар ҷумла ба меъёрҳо мувофиқ бошад, тугмаи &quot;Тасдиқ кардан&quot;-ро аз тарафи рост зер кунед.
 sc-criteria-item-6 = Агар шумо барои баррасӣ ҷумлаҳои дигар надошта бошед, лутфан, ба мо дар ҷамъоварии ҷумлаҳои ҳар чӣ бештар кумак кунед!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Тафтиш кунед <icon></icon>, ки оё ин ҷумла мувофиқи меъёрҳои забонӣ дуруст аст?
 sc-review-rules-title = Оё ҷумла ба меъёрҳои дастур мувофиқат мекунад?
 sc-review-empty-state = Айни ҳол дар ин забон ягон ҷумлаи дигар барои баррасӣ нест.
 report-sc-different-language = Забони дигар
