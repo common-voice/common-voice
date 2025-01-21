@@ -169,6 +169,8 @@ press-and-stories-link = خەۋەر ۋە ماقالە
 ## Partner section
 
 partner-section-title = بىز بىلەن ھەمكارلىشىڭ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>تېخنىكا شىركەتلىرى</bold> - ئوچۇق سانلىق مەلۇمات توپلىمىغا مەبلەغ سېلىپ كۆپ تىللىق گۈللەنگەن سۈنئىي ئەقىل ئىكولوگىيەلىك سىستېمىسى بەرپا قىلماقچى
 # icon is an arrow that points to the right
 get-in-touch-button = <icon> </icon> بىلەن ئالاقىلىشىڭ
 # Partners section
