@@ -177,3 +177,13 @@ press-and-stories-link = پریس گہ شِلوگے
 ## Partner section
 
 partner-section-title = اسو نلا سجیئار با
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنئیے</bold>  لائیے باشو اے آئی اِیکوسسٹم اوپن ڈیٹا سیٹی نی کھین دے، کروم تھے۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول سوسائیٹیئے گہ ریسرچری </bold> سَنے، سَم سَم ڈیٹا سیٹ آنے فری نی چین
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> مَنُوجوڑے خوش تھیک، </bold> لوکل نا یئے نایئے چیزی گہ بَڑیارئی کاریو ساتی دے
+# icon is an arrow that points to the right
+get-in-touch-button = رابطے نی بئیی <icon></icon>
+# Partners section
+our-partners-include = اسے سَجِییارونی یو بِیلاں۔۔۔

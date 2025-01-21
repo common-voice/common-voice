@@ -264,6 +264,7 @@ privacy = لِیشیار
 terms = شرط
 cookies = کوکیز
 faq = ایف اے کیو
+documentation = کاغذاتی
 content-license-text = موجی آنے ہتے اینا <licenseLink> کریئیٹیو کامن لائیسنس
 share-title = تومے شونگے دینیک مُتے گہ اُڑاریونو اسئی ساتی دے
 share-text = منوجے سے موجی کدا دینا مشینیوڑے سیچاریونو اسئیے ساتی دے۔ تھنو شونگو آنےدے { $link }
