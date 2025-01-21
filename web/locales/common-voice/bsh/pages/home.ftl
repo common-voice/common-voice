@@ -145,16 +145,19 @@ download-contribution-certificate-content = اگر تو کامن وائس تہ �
 # label for button
 download-contribution-certificate-action = توستہ سند حاصل کشی
 contribute-github = گیٹ ہپ تہ سنہ
+contribute-github-content = اینہ پراجیکٹ شایار منچاں نئ ویچلہ نہ اسی 🎉 کامن وائس تہ بٹہ اوݣستہ کہ بلیوک پوت ای تو کوڈنگ زعݩستہ ضروری نہ اسہ ستاویک چہ تیو بٹہ اوݣہ بہ لاش ۔
 # label for button
 contribute-github-action = گیٹ ہپ تہ سنہ
 
 ## Featured section
 
+featured-section-title = تہ پعوان اسہ
 # icon is an arrow that points downwards
 download-press-pack = ایمو ستہ پریس پیک ڈاونلوڈ کشݩع<icon></icon>
 
 ## Developers section
 
+developers-section-title = اوگعماں تہ بدوی اہ لہ پعوان ڈیٹا سیٹس 130تݩع دی سکال وریں تہ
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹاسیٹ بنڅا<icon></icon>
 
