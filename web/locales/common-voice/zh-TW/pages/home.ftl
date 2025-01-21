@@ -73,39 +73,112 @@ read-more-about = 到我們的「關於」頁面了解更多資訊
 ## NAV ITEMS
 
 answer-questions = 回答問題 <small>(近期推出)</small>
+answer-questions-coming-soon = 回答問題 <small>即將推出</small>
 review-transcriptions = 審核轉錄 <small>即將推出</small>
+review-transcriptions-coming-soon = 審核轉錄 <small>即將推出</small>
 add-questions = 新增問題 <small>(近期推出)</small>
+transcribe-audio-coming-soon = 轉錄錄音 <small>即將推出</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
 community-and-languages = 社群與語言
+coming-soon = 即將推出
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = 合作夥伴、媒體與故事、社群與語言
+partnerships-menu-item-tooltip = 成為夥伴
+press-and-stories-menu-item-tooltip = 前往我們的部落格或撰寫我們的故事
+community-and-languages-menu-item-tooltip = 探索語言、社群以及 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = 關於選項選單
+partnerships-menu-item-aria-label = 了解如何與 Common Voice 成為合作夥伴
+press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿與故事
+community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = 讓技術說你的語言
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>為什麼目前的 AI 只能說少數語言？</bold>
+hero-subtitle-2 = 語言構成我們的故事、我們的社群、及我們的文化。讓我們一起建立一個能展現世界的資料集。
 
 ## Action items section
 
+action-items-section-title = Common Voice 是自由且開源的平台，並由社群主導搜集建立資料
+action-items-section-subtitle = 人人都可以透過分享、建立、整理文本與語音資料集，來保存、振興及發揚自己的語言。
+scripted-card-header = 朗讀文本
+scripted-card-content = 唸出你的語言的句子，貢獻到世界上最為多元、且由公眾參與的語音資料集。
+spontaneous-card-header = 回答問題式錄音
+spontaneous-card-content = 回答預設的問題，以建立自然口語的文本數據。適合口傳為主的語言。
+language-text-card-header = 語言文本
+language-text-card-content = 為翻譯、小型語言模型等應用，建立或分享公眾領域授權的問題、句子、及文本。
+coming-soon = 即將推出
+add-text = 添加文本
 
 ## Community section
 
+community-section-title = 由全球社群協力，為全球社群服務。已超過 130 種語言！
+join-discord-community = 加入 Discord 社群
+# label for button
+join-discord-community-action = 在 Discord 上加入我們
+join-discord-community-content = 參與語言社群的討論、詢問問題，並了解即將舉辦的活動與會談。
+find-us-on-matrix = 在 Matrix 上尋找我們
+find-us-on-matrix-content = Matrix 是一套開放、輕量級的分散式即時通訊通訊協定，也是 Mozilla 推薦的開放討論平台。
+# label for button
+find-us-on-matrix-action = 在 Matrix 上尋找我們
+ask-mozilla-share = 通知 Mozilla 分享你的活動
+ask-mozilla-share-content = 舉辦了什麼活動，或者有計劃中的活動嗎？請告訴我們，我們會通知社群，或者寫篇部落格來與分享給大家！
+# label for button
+ask-mozilla-share-action = 分享你的活動
+download-contribution-certificate = 下載你的參與證明
+download-contribution-certificate-content = 為活動或你自己下載一份參與證書—這一切都少不了你呀！
+# label for button
+download-contribution-certificate-action = 取得你的證書
+contribute-github = 在 GitHub 上貢獻
+contribute-github-content = 這個專案少不了像你這樣的人。 🎉 有許多方式可以參與 Common Voice，就算不會寫程式也能貢獻！
+# label for button
+contribute-github-action = 在 GitHub 上貢獻
 
 ## Featured section
 
+featured-section-title = 媒體報導
+# icon is an arrow that points downwards
+download-press-pack = 下載我們的宣傳資料 <icon></icon>
 
 ## Developers section
 
+developers-section-title = 包含 130 種以上語言，開放公眾使用的語音資料集
+developers-section-subtitle = 透過社群參與建立的資料集，提供語音合成、語音辨識，及其他自然語言處理專案使用。
+# icon is an arrow that points to the right
+explore-datasets = 瀏覽資料集 <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = 支持開放、社群主導的資料集
+read-sentences-link = 閱讀語句
+validate-readings-link = 驗證錄音
+contribute-link = 貢獻文本資料
+answer-questions-link = 回答問題
+transcribe-answers-link = 轉錄回答
+review-transcriptions-link = 審核轉錄文本
+contribute-text-link = 貢獻文本
+press-and-stories-link = 新聞與文章
 
 ## Partner section
 
+partner-section-title = 與我們合作
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>技術公司</bold>— 投資開放資料集，繁榮多語言 AI 生態系
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>公民社群與研究者</bold> —免費建立、託管、及分享具非凡影響的資料集
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>捐款機構</bold> —贊助資料集建立，點燃在地創新與發展
+# icon is an arrow that points to the right
+get-in-touch-button = 聯絡我們 <icon></icon>
+# Partners section
+our-partners-include = 我們的夥伴包含…
