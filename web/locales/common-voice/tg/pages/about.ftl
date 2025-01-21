@@ -43,6 +43,9 @@ about-clip-graveyard-text =
     
     Мо ба одамон ва ташкилотҳои зерин барои кумакашон дар ин лоиҳа ташаккур мегӯем:
 about-get-involved = Ҳамроҳ шудан
+about-get-involved-text-2 =
+    Мехоҳед барои беҳтар кардани лоиҳаи «Common Voice» кумак кунед?
+    Аҷоиб! Бо мо тавассути почтаи электронӣ ё форумҳои <discourseLink>«Discourse»</discourseLink> дар тамос шавед, гузоришҳоро оид ба масъалаҳои сомона дар <githubLink>«GitHub»</githubLink> пешниҳод кунед ё ба суҳбатҳои ҷамъиятии мо дар <matrixLink>«Matrix»</matrixLink> ҳамроҳ шавед.
 about-stay-in-touch = Чӣ тавр ман дар алоқа бимонам?
 about-stay-in-touch-button = Бақайдгирӣ
 about-nav-why-common-voice = Чаро?
