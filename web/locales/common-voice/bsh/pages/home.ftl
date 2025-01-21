@@ -158,6 +158,7 @@ download-press-pack = ایمو ستہ پریس پیک ڈاونلوڈ کشݩع<ic
 ## Developers section
 
 developers-section-title = اوگعماں تہ بدوی اہ لہ پعوان ڈیٹا سیٹس 130تݩع دی سکال وریں تہ
+developers-section-subtitle = ڈیٹاسیٹس دیوکں اے اس ار, اس اس ٹی، ٹی  ٹی اس،سورہ ورں ان ایل پی  سیاق دے سباق -چہ امکی اوگعماں سنی تے دزیستہ ای ۔
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹاسیٹ بنڅا<icon></icon>
 
@@ -174,6 +175,12 @@ press-and-stories-link = پریس دے پرں جیک
 ## Partner section
 
 partner-section-title = ایمو مع پلئ بو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیکنالجی ستہ کمپنی</bold> او اوکام سکال وریں ستہ Alماحولیاتی نظام دیوکں پعوان ڈیٹاسیٹ دزستہ تہ سرمایہ کاری کشݩع۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی سورہ تحقیق کولہ</bold> سکال اثروا ڈیٹاسیٹس دزݩع۔ہوسٹ کشݩع سورہ مفت گاݜ کشݩع۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>فلاحی تنظیم </bold>مقامی اختراع دے ترقی عام کوستہ کں ڈیٹا سیٹ دزیستہ ستہ ݜئ در بوݩع۔
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ کشی<icon></icon>
 # Partners section

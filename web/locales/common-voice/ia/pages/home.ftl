@@ -136,6 +136,7 @@ find-us-on-matrix = Trova nos in Matrix
 find-us-on-matrix-content = Matrix es un protocollo aperte e legier pro communicationes decentralisate in tempore real, e le platteforma preferite de Mozilla pro discussiones aperte.
 # label for button
 find-us-on-matrix-action = Trova nos in Matrix
+ask-mozilla-share = Demanda a Mozilla que illo comparti tu eventos
 ask-mozilla-share-content = Ha tu un evento previe o imminente? Comparti lo con nos e nos lo annunciara a nostre communitate o scribera un blog re illo!
 # label for button
 ask-mozilla-share-action = Compartir tu evento
@@ -156,6 +157,8 @@ download-press-pack = Discarga nostre pacchetto pressa <icon></icon>
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Explorar collectiones de datos <icon></icon>
 
 ## Get involved section
 
@@ -171,3 +174,7 @@ press-and-stories-link = Pressa e articulos
 ## Partner section
 
 partner-section-title = Collaborar con nos
+# icon is an arrow that points to the right
+get-in-touch-button = Contacta <icon></icon>
+# Partners section
+our-partners-include = Nostre partners comprende…
