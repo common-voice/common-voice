@@ -130,7 +130,7 @@ get-started = Cychwyn arni <icon><icon>
 
 action-items-section-title = Mae Common Voice yn blatfform cod agored am ddim ar gyfer creu data sy'n cael ei arwain gan y gymuned
 action-items-section-subtitle = Gall unrhyw un gadw, adfywio a dyrchafu eu hiaith trwy rannu, creu a churadu setiau data testun a lleferydd.
-scripted-card-header = Lleferydd wedi'i Ysgrifennu
+scripted-card-header = Lleferydd wedi'i Sgriptio
 scripted-card-content = Darllenwch frawddegau yn uchel yn eich iaith a chyfrannwch at y set ddata lleferydd cyfranogiad cyhoeddus fwyaf amrywiol yn y byd.
 spontaneous-card-header = Llefaru Digymell
 spontaneous-card-content = Ymateb i bromptiau i greu setiau data ar gyfer cyd-destunau llafar, organig. Perffaith ar gyfer ieithoedd llafar yn gyntaf.
@@ -147,15 +147,46 @@ join-discord-community = Ymunwch â'r Gymuned Discord
 join-discord-community-action = Ymunwch â ni ar Discord
 join-discord-community-content = Cyfrannwch at drafodaethau cymunedau ieithyddol, gofynnwch gwestiynau, a dysgwch am ddigwyddiadau a sgyrsiau sydd i ddod.
 find-us-on-matrix = Dewch o hyd i ni ar Matrix
+find-us-on-matrix-content = Mae Matrix yn brotocol agored, ysgafn ar gyfer cyfathrebu datganoledig, byw, a llwyfan trafod agored dewisol Mozilla.
+# label for button
+find-us-on-matrix-action = Dewch o hyd i ni ar Matrix
+ask-mozilla-share = Gofynnwch i Mozilla rannu eich digwyddiadau
+ask-mozilla-share-content = Oes gennych chi ddigwyddiad blaenorol neu yn y dyfodol agos? Rhannwch ef gyda ni a byddwn yn ei gyhoeddi i'n cymuned neu'n ysgrifennu blog amdano!
+# label for button
+ask-mozilla-share-action = Rhannwch eich digwyddiad
+download-contribution-certificate = Llwythwch i lawr eich tystysgrif cyfraniadau
+download-contribution-certificate-content = Llwythwch i lawr dystysgrif ar gyfer eich digwyddiadau neu eich hun os ydych wedi cyfrannu at Common Voice — fyddai hyn ddim yn bosibl hebddoch chi!
+# label for button
+download-contribution-certificate-action = Cael eich tystysgrif
+contribute-github = Cyfrannu ar GitHub
+contribute-github-content = Fyddai'r project hwn ddim yn bosibl heb bobl fel chi. 🎉 Mae yna lawer o ffyrdd i gymryd rhan gyda Common Voice - does dim rhaid i chi wybod sut i godio i gyfrannu!
+# label for button
+contribute-github-action = Cyfrannu ar GitHub
 
 ## Featured section
 
+featured-section-title = Wedi'i gynnwys yn...
+# icon is an arrow that points downwards
+download-press-pack = Llwythwch i lawr ein pecyn i'r wasg <icon></icon>
 
 ## Developers section
 
+developers-section-title = Setiau data lleferydd agored sy'n hygyrch i'r cyhoedd mewn 130+ o ieithoedd
+developers-section-subtitle = Setiau data ar gyfer ASR, STT, TTS, a chyd-destunau NLP eraill - wedi'u creu trwy gyfranogiad cymunedol.
+# icon is an arrow that points to the right
+explore-datasets = Archwiliwch setiau data <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Cefnogwch setiau data agored, dan arweiniad y gymuned
+read-sentences-link = Darllen brawddegau
+validate-readings-link = Dilysu darlleniadau
+contribute-link = Cyfranwch at gorpws testun
+answer-questions-link = Atebwch gwestiynau
+transcribe-answers-link = Trawsgrifio atebion
+review-transcriptions-link = Adolygu trawsgrifiadau
+contribute-text-link = Cyfrannwch destun
+press-and-stories-link = Y wasg a straeon
 
 ## Partner section
 
