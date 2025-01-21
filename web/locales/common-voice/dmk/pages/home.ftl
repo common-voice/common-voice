@@ -180,6 +180,15 @@ explore-datasets = ڈݵٹݳ سݵٹݳ دریݳفت اِرݳ<icon></icon>
 ## Get involved section
 
 get-involved-section-title = کھُلݳ، کمݵݸنٹݵ قیݳدَت اِرݵݣݺ ڈݵٹݳ سݵٹݵݣݺ حِمݳیَت اِرݳ.
+read-sentences-link = جُملݳݣݳ مُنݳ
+validate-readings-link = مُنِنݺ ایݣݵݣݺ تصدݵق اِرݳ
+contribute-link = ٹݵکسٹ کݸرپَسَنݳ حِصَہ بݳ
+answer-questions-link = سݸݳلݵݣݺ جُوݳپ دݸ
+transcribe-answers-link = جݸݳپݵݣݺ نَقَل اِرݳ
+review-transcriptions-link = نقلݸݣ دݸبݳرہ دݵکھݳ
+contribute-text-link = ٹݵکسٹݵئ حِصَہ بݳ
+press-and-stories-link = پرݵس نݸ شِلݸ وݸݣ
 
 ## Partner section
 
+partner-section-title = امݵڎ کݸٹ شرݳکت اِرݳ
