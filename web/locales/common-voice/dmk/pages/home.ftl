@@ -128,6 +128,9 @@ get-started = شُرݸع رݳ<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کݳمَن وݳئس اݵک چِپی، اݸپَن سݸرس پلݵٹ فݳمݵک چھݳ کݸنݸ  کمیݸنِٹی قیادَتَنݳ کݳرݸڈݵٹݳ تخلیقݵئ کݳرݸ دُرݳلݸ گݵا چھݳ.
+action-items-section-subtitle = کݸنݸن تݳ اَپَنݵئ بݳݽ محفݸظ، بحݳل نݸ اُتھُلی رِی شکݵگݳ چھݳ،  مَتَن نݸ تقرݵرݵئ شݵئر، تخلݵق نݸ ترتݵب اِرِݵ.
+scripted-card-header = گِرمِنݸنݵ تقرݵر
 
 ## Community section
 
