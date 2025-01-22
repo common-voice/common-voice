@@ -108,7 +108,7 @@ hero-title = ٹیکنالوجی کیں چھیں جِب دِئینت۔
 hero-subtitle-1 = <bold>اے، آئی کا دُنائیں کٞتیک جِب مئی کار کٞرئی؟</bold>
 hero-subtitle-2 = مُوں جِب مُون سجیرہ، مُوں گھاٞل، مُوں رواج۔ یاں اُوں تتھی ڈیٹا سیٹ چائی اُوں کیں مٞہ دُنائے مئی پشوگ دیاٞنت۔
 # icon is an arrow that points downwards
-get-started = شورو کٞر
+get-started = شورو کٞر<icon><icon>
 
 ## Action items section
 
@@ -179,3 +179,9 @@ partner-section-title = ماسٞہ شراکاٞت کٞر
 partner-section-subtitle-tech-companies = <bold> ٹیک کٞپنیاٞن </bold> ـ اٞ ترقی پزیرکثیرالسانی اے آئ آں ماحولیاتی نطاماں کولاؤ ڈیٹاسیٹ تیاری مئ سرمایہ کاری کٞراٞ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>سِول سوسائیٹی تے محقیقین </bold> مُفت مئ موثرڈیٹاسیٹونہ تیار کٞراٞ، میزبانی کٞراٞ تے تاٞس شریک کٞرا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستی </bold>مقامی جِدت تے ترقی چٹراگیں کیر سپانسر کٞراٞ
+# icon is an arrow that points to the right
+get-in-touch-button = راٞبطاٞ مئ ہو<icon></icon>
+# Partners section
+our-partners-include = مُوں شراکتداٞراٞن مئ شامل تھو۔۔۔۔

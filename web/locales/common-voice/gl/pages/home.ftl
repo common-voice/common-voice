@@ -101,6 +101,9 @@ community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas
 
 ## Hero section
 
+hero-title = Tecnoloxía que fala o seu idioma
+# icon is an arrow that points downwards
+get-started = Comezar
 
 ## Action items section
 
