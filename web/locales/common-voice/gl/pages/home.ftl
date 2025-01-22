@@ -154,9 +154,22 @@ download-press-pack = Descarga o noso paquete de prensa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Conxuntos de datos abertos de voz en máis de 130 linguas
+developers-section-subtitle = Conxuntos de datos para ASR, STT, TTS e outros contextos de PLN, creados grazas á participación da comunidade.
+# icon is an arrow that points to the right
+explore-datasets = Explore os conxuntos de datos <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Apoie a creación comunitaria de conxuntos de datos abertos
+read-sentences-link = Ler frases
+validate-readings-link = Validar lecturas
+contribute-link = Contribuír ao corpus textual
+answer-questions-link = Responder preguntas
+transcribe-answers-link = Transcribir respostas
+review-transcriptions-link = Revisar transcricións
+contribute-text-link = Achegar texto
+press-and-stories-link = Comunicación e novas
 
 ## Partner section
 
