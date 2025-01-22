@@ -133,10 +133,24 @@ find-us-on-matrix = Estamos en Matrix
 find-us-on-matrix-content = Matrix é un protocolo aberto e lixeiro para comunicacións descentralizadas en tempo real e a plataforma de debate aberto preferida por Mozilla.
 # label for button
 find-us-on-matrix-action = Atoparnos en Matrix
-ask-mozilla-share = Pídalle a Mozilla que comparta os seus eventos
+ask-mozilla-share = Comparta os seus eventos con Mozilla
+ask-mozilla-share-content = Ten un evento próximo ou xa celebrado? Compártao connosco e anunciámolo á nosa comunidade ou escribiremos sobre el no noso  blog.
+# label for button
+ask-mozilla-share-action = Compartir o seu evento
+download-contribution-certificate = Descargue o seu certificado de contribución
+download-contribution-certificate-content = Se contribuíu a Common Voice, descargue un certificado para recoñecer a súa participación. Sen ela, nada disto sería posible!
+# label for button
+download-contribution-certificate-action = Obter o seu certificado
+contribute-github = Contribúa en GitHub
+contribute-github-content = Este proxecto non sería posible sen xente coma vostede. 🎉 Hai moitas maneiras de participar en Common Voice, e non fai falta saber programar para axudar!
+# label for button
+contribute-github-action = Contribuír en GitHub
 
 ## Featured section
 
+featured-section-title = Destacado en...
+# icon is an arrow that points downwards
+download-press-pack = Descarga o noso paquete de prensa <icon></icon>
 
 ## Developers section
 
