@@ -70,14 +70,15 @@ username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomil 
 welcome-staff = { $company }sẽt̃afẽr khũshomẽdid!
 help-contribute = dãt̃aset̃ k̃hakẽ dẽstanẽsh tu Kommon voysẽ profayl go k̃kẽ k̃hũ owozẽ ẽtayas̃h shomil k̃hakẽ bas wez
 login-company = emaile dẽ { $company }Log in/ saynap(sign up).
-profile-not-required = Shomil k̃hakri profaylẽ zẽrũrat nast albat mẽdadgor, rẽ dest tayin ki chizẽr.
-read-more-about = Spo pejẽ z̃aq woz ziyoda joy
+profile-not-required = Albat mẽdadgorẽ shomil k̃hakri profaylẽ zẽrũrat nast , rẽ dest tayin ki chizẽr.
+read-more-about = Spo pejẽ barar z̃aq woz ziyoda joy
 
 ## NAV ITEMS
 
-answer-questions = Jowob sowolishtẽb <small>(jald wezin)</small>
-review-transcriptions = Naqlevẽ didig̃h <small>(jaldẽs̃h wezin)</small>
-add-questions = sowolvẽ shomil<small>jaldẽs̃h wezin</small>
+answer-questions = Jowob sowolisht <small>(jald wezin)</small>
+answer-questions-coming-soon = Jẽwob Sowol<small>(jaldẽb wezin)</small>
+review-transcriptions = Naqlẽvẽ didig̃h <small>(jaldẽs̃h wezin)</small>
+add-questions = sowolvẽ shomil<small>jaldẽs̃h wezin</small>.
 transcribe-audio = od̃iyoẽ naqẽl<small>jaldẽb wezit</small>
 press-and-stories = pakhch woz zhindagisht
 community-and-languages = Jẽmoat woz zikisht
