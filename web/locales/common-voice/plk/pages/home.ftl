@@ -151,6 +151,10 @@ find-us-on-matrix-content = میٹرکس ایْک پھگُتھوْ گہ لہُو
 # label for button
 find-us-on-matrix-action = اسو میٹرکس جیْ اورڑِیا
 ask-mozilla-share = موزیلاڑ تومہ واقعاتو اشتراکے رزہ۔
+ask-mozilla-share-content = جوْ لگِتھوْ یا اِیک واقعہ؟ آئے اسو سے شیئر تِھیا آں بیْس آسہ سے اعلان تومیْ کمیونٹی دہ تُھوِیس یا اسہ سے بارَد بلاگ لِکُویس ǃ
+# label for button
+ask-mozilla-share-action = تومیْ واقعہ شیئر تِھیا
+download-contribution-certificate = تومیْ شرکتے سرٹیفکیٹ ڈاؤن لوڈ تِھیا
 
 ## Featured section
 
