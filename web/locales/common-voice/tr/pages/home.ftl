@@ -132,14 +132,19 @@ community-section-title = Dünyanın tüm topluluklarını destekliyoruz: 130 di
 join-discord-community = Discord topluluğumuza katılın
 # label for button
 join-discord-community-action = Discord’da bize katılın
+join-discord-community-content = Dil topluluğu tartışmalarına katılın, soru sorun, yaklaşan etkinlikler ve toplantılar hakkında bilgi edinin.
 find-us-on-matrix = Matrix’te bize katılın
 # label for button
 find-us-on-matrix-action = Matrix’te bize katılın
+ask-mozilla-share = Mozilla’dan etkinliklerinizi paylaşmasını isteyin
+ask-mozilla-share-content = Geçmiş ya da yaklaşan bir etkinliğiniz mi var? Bizimle paylaşın, topluluğumuza duyuralım ya da hakkında bir blog gönderisi yazalım!
 # label for button
 ask-mozilla-share-action = Etkinliğinizi paylaşın
+download-contribution-certificate = Katkı sertifikanızı indirin
 # label for button
 download-contribution-certificate-action = Sertifikanızı alın
 contribute-github = GitHub’da katkıda bulunun
+contribute-github-content = Sizin gibi insanlar olmadan bu proje mümkün olmazdı. 🎉 Common Voice'a katkıda bulunmanın birçok yolu var. Katkıda bulunmak için kodlama bilmenize de gerek yok!
 # label for button
 contribute-github-action = GitHub’da katkıda bulunun
 
@@ -163,13 +168,17 @@ validate-readings-link = Okumaları doğrulayın
 contribute-link = Metin korpusuna katkıda bulunun
 answer-questions-link = Soruları cevaplayın
 transcribe-answers-link = Yanıtları metne çevir
-review-transcriptions-link = Çeviri metinlerini incele
+review-transcriptions-link = Çeviri metinleri incele
 contribute-text-link = Metin bağışlayın
 press-and-stories-link = Basın ve haberler
 
 ## Partner section
 
 partner-section-title = Bizimle işbirliği yapın
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Teknoloji şirketleri</bold>: Hızla gelişen çok dilli bir yapay zekâ ekosistemi için açık veri kümeleri oluşturmaya yatırım yapın
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sivil toplum ve araştırmacılar</bold>: Etkileyici veri kümelerini ücretsiz olarak oluşturun, barındırın ve paylaşın
 # icon is an arrow that points to the right
 get-in-touch-button = Bize ulaşın <icon></icon>
 # Partners section
