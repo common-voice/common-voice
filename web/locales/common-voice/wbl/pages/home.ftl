@@ -137,6 +137,11 @@ find-us-on-matrix-content = Wẽrkhũvnẽri Mat̃riksi (matrix) yi het̃, ranj
 # label for button
 find-us-on-matrix-action = Sẽk Mat̃riks sakẽ (Matrix) got
 ask-mozilla-share = Muzilaẽr k̃han ti waqiaẽ pẽjẽhon gok̃ht.
+ask-mozilla-share-content = Rek̃hkũng yoy wẽzaynẽ waqia dũrz, dẽs̃ken yo shomil car, sakẽb yo k̃hũ jẽmoatẽr ilonẽn yoyeb yo barar yi blog nivishẽn
+# label for button
+ask-mozilla-share-action = K̃hũ waqia shomil
+download-contribution-certificate = K̃hũ hisa dorig̃hẽ sartifiketẽ d̃onlowd̃ car.
+download-contribution-certificate-content = Common Voysẽri ki waqia yoy tawẽ chiz k̃htk k̃hũ sarfiket̃ d̃ownlowd̃—yemẽb tor mumkin ne wost!
 
 ## Featured section
 
