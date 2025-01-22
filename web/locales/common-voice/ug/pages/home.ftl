@@ -137,6 +137,7 @@ find-us-on-matrix-content = Matrix ئوچۇق كودلۇق، يېنىك، تار
 # label for button
 find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
+ask-mozilla-share-content = ئالدىنقى ياكى پات يېقىندا ئۆتكۈزۈلىدىغان پائالىيەت بارمۇ؟ بىزگە ھەمبەھىرلەڭ، ئۇنى جامائىتىمىزگە ئۇقتۇرىمىز ياكى شۇ توغرۇلۇق بىلوگ يازىمىز!
 # label for button
 ask-mozilla-share-action = پائالىيىتىڭىزنى ھەمبەھىرلەڭ
 download-contribution-certificate = تۆھپە گۇۋاھنامىڭىزنى چۈشۈرۈڭ
