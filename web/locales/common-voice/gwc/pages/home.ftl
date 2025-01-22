@@ -116,6 +116,8 @@ action-items-section-subtitle = ہاٞرہ مانوڄ تانی جِب محفوظ
 scripted-card-header = چُنڑاٞل جولاگ
 scripted-card-content = جملاٞ تانی جِب مئی شیتی مناٞ تے دُنایاں سوئے ما زیات خور ہوگاٞل ہوازیں ڈیٹاسیٹ سہ مداٞد کراٞ۔
 spontaneous-card-header = اجانہ جولاگ
+spontaneous-card-content = نامیاتی جِباں سیاق و سباق تے بول چالیں آں ڈیٹا سیٹس چاگیں کیر اشارہ داگاں زُواب دہ۔ اولیں زبانی جِبیں کیر باٞر موزوں تھو۔
+language-text-card-header = جِباں مواد
 
 ## Community section
 
