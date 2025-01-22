@@ -1,3 +1,4 @@
+add-information-button = ინფორმაციაშ გეძინა
 continue-speaking-button = გაგძელით ჩიება
 age-select-label = მუ ხანიშ რეთ?
 gender-select-label = თქვანი სქესი?
@@ -10,3 +11,8 @@ thank-you-for-your-information = მარდი ინფორმაცია�
 
 ## Gender dropdown
 
+male_masculine = კოჩი
+female_feminine = ოსური
+intersex = ჟირსქესიანი
+transgender = სქესთირელი
+do_not_wish_to_say = სქესიშ უთქუალუო
