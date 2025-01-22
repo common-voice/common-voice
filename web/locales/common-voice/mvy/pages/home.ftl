@@ -137,9 +137,20 @@ contribute-github-action = گِٹ ہبہ لا حصہ ہرہ
 
 ## Developers section
 
+developers-section-subtitle = اے ایس آر (امَیں اواز معلوم کرؤں)، ایس ٹی ٹی (بلیُوں نہ لکیلیۡ سن٘دؤں)، ٹی ٹی ایس (لِکیلیۡ نہ بال سن٘دؤں)، اور آں مُت قدرتی بلی واں محلاں (این ایل پی) کریا ڈیٹا سیٹہ - چے سَیں خلکہ وَیں مدتی ہِن سن٘دژېل ہوں۔
+# icon is an arrow that points to the right
+explore-datasets = ڈېٹا سیٹہ کن٘گالہ <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = جُملی پڑہ
+validate-readings-link = پڑیلیۡ جُملی سُون٘ݜیۡرا/ منظُور کرہ
+contribute-link = لکیلیۡ مہ اضافہ کرئیں یاں کریا حصہ ہرہ
+answer-questions-link = سوالہ واں جواب دے
+transcribe-answers-link = جواب مہ بنژیلیۡ بال لِکہ
+review-transcriptions-link = بنژیلیۡ بلی دُوبارہ نھالہ
+contribute-text-link = لِکیلیۡ ٹل کرہ
+press-and-stories-link = اخبار تے خبری
 
 ## Partner section
 
