@@ -23,34 +23,34 @@ voices-online = Nivẽv owozisht sẽk tẽnov (onlayn)
 todays-progress = Wudhgẽ peshraft.
 help-reach-goal = Sakẽr da { $goal } g̃hẽtakẽr mẽdad.
 read-terms-q = Cerg tawẽ spo shartẽv joyetka?
-ready-to-record = K̃hũ owazẽ atya rẽdhorẽt joya?
-all-locales = Pẽtũn/ kũk̃ht
-today = wudhg
+ready-to-record = K̃hũ owazẽ atya rẽdhorẽt tẽyoraa?
+all-locales = Pẽtũn/ kũk̃ht.
+today = wudhg.
 x-weeks-short =
     { $count ->
-        [one] hafta
+        [one] hafta.
        *[other] { $count }wk
     }
 x-months-short =
     { $count ->
-        [one] { $count }mo
+        [one] { $count }mo.
        *[other] { $count }mo
     }
 x-years-short =
     { $count ->
-        [one] { $count }y
+        [one] { $count }y.
        *[other] { $count }y
     }
-help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr, sakẽr mẽdad woc
-sign-up-account = Yi akowntẽr (account) saynap (sasing up) car
-email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (signup) car
-email-subscription-title-new = Kommon voysẽ k̃hẽbarẽ k̃hatẽ (newsletter) saynap car, maqsadẽ sẽk yod wezmukẽ kuzg woz tẽrẽqiyẽ apd̃et̃isht
+help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr, sakẽr mẽdad woc.
+sign-up-account = Yi akownt̃ẽr (account) saynap (sasing up) car
+email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (sign up) car
+email-subscription-title-new = Kommon voysẽ khẽbarẽ khatẽ (newsletter) saynap car, maqsadẽ sẽk yod wẽzmukẽ kuzg woz tẽrẽqiyẽ apd̃et̃isht
 
 ## Account Benefits
 
-benefits = Foydayisht
-rich-data = K̃hũ shomil k̃hetk d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nes̃het obodiyoti d̃at̃a kat̃ k̃hẽ. pe jẽhon k̃hakẽn tẽrmisẽsh sak tẽmon obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn
-improve-audio = profaylẽ molũmotẽs̃h k̃hẽnak dishnẽ drustẽgiyẽ tẽrbiyatẽr istimol wocnẽ od̃yowẽ baf gok̃ht
+benefits = Foydayisht.
+rich-data = K̃hũ shomil k̃hetk d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nẽs̃het obodiyoti d̃at̃a kat̃ k̃hẽ. pẽ jẽhon k̃hakẽn tẽrmisẽsh sak tẽmon obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn.
+improve-audio = profaylẽ molũmotẽs̃h k̃hẽnak dishnẽ drustẽgiyẽ tẽrbiyatẽr istimol wocnẽr od̃yowẽ baf gok̃ht
 keep-track = dẽ digar zẽbinẽv k̃hũ k̃het yarkẽ pudh rec̃h
 compare-progress = Tayin dẽ pẽtũn dẽnyos̃h ti yark dẽ digar shomil k̃hakẽkũzgvẽn cersokht sẽdhũyd.
 view-goals = K̃hũ yarkẽ k̃hũn woz projekt̃ẽ mẽqsadẽ mẽtobiq tayin
