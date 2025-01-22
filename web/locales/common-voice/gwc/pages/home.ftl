@@ -82,6 +82,7 @@ transcribe-audio-coming-soon = آڈیو چُنڑیل کٞہ گِراٞ <small> (
 transcribe-audio = آڈیو چُنڑیل کٞہ گِراٞ <small> (آڈیو شردہ اخکارہ ہوئ) </small>
 press-and-stories = چاپ تے قصاٞ
 community-and-languages = کمیونٹی تے جِب
+coming-soon = شاٞردہ ینت
 
 ## MENU ITEMS TOOLTIPS
 
@@ -118,9 +119,13 @@ scripted-card-content = جملاٞ تانی جِب مئی شیتی مناٞ تے
 spontaneous-card-header = اجانہ جولاگ
 spontaneous-card-content = نامیاتی جِباں سیاق و سباق تے بول چالیں آں ڈیٹا سیٹس چاگیں کیر اشارہ داگاں زُواب دہ۔ اولیں زبانی جِبیں کیر باٞر موزوں تھو۔
 language-text-card-header = جِباں مواد
+language-text-card-content = شاردہ اٞ عوامی ڈومین، جملاٞ، تے ترجماٞں ایں کیر متن، لیک جِباں ماڈل اوئے چا یا آٞس سہ اشتراک کٞراٞ۔
+coming-soon = شاٞردہ ینت
+add-text = مواد شامل کٞر
 
 ## Community section
 
+community-section-title = عالمی برادریانیں ایں پِیڄ تھی تقویت یافتہ، تے عالمی برادریانیں —130 جِب تے ترقی ایں کیر!
 
 ## Featured section
 
