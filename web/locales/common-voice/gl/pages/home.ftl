@@ -81,6 +81,7 @@ add-questions = Engadir preguntas <small>(Proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
+coming-soon = Proximamente
 
 ## MENU ITEMS TOOLTIPS
 
@@ -112,6 +113,13 @@ get-started = Comezar
 
 action-items-section-title = Common Voice é unha plataforma gratuíta e de software libre deseñada para a creación comunitaria de conxuntos de datos de fala e texto.
 action-items-section-subtitle = Calquera persoa pode preservar, revitalizar e promover a súa lingua compartindo, creando e organizando conxuntos de datos de texto e voz.
+scripted-card-header = Fala guiada
+scripted-card-content = Lea frases en voz alta no seu idioma e contribúa ao conxunto de datos de voz de creación comunitaria máis diverso do mundo.
+spontaneous-card-header = Fala espontánea
+spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
+language-text-card-header = Texto na súa lingua
+language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
+coming-soon = Proximamente
 
 ## Community section
 
