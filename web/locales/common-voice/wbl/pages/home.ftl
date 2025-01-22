@@ -1,8 +1,8 @@
 ## Home Page
 
-home-title = Kommon Voysi Muzilla'e oghz ki moshinẽ joũvnẽr medad wost ki khalgẽs̃h cer sokht k̃had.
-default-tagline = Mozilla'e Kommon Voysi yi oghoz ki mashinvẽ joyũvner medad wost ki khalgẽs̃h aslẽn cẽrsokht kand
-home-cta = K̃han, adrem shomil car/ shẽrikat dori car!
+home-title = Kommon Voysi Muzillaẽ oghz ki moshinẽ joyũvnẽr mẽdad wost ki khalgẽs̃h cer sokht k̃had.
+default-tagline = Mozillaẽ Kommon Voysi yi oghoz ki mashinvẽ joyũvner mẽdad wost ki khalgẽs̃h aslẽn cersokht kand
+home-cta = K̃han, drem shomil car/ shẽrikat dori car!
 wall-of-text-start = Owozi qũdrati, owozi khalgẽn. hayawi sẽbab ki sakẽsh istimolẽ loyiq owoz nik̃hindẽn. spo moshinvẽr T̃eknoloji. Magam owoz peydo k̃hakẽ nẽzom, behad c̃hak owozẽ d̃etayi dẽrkor
 wall-of-text-more-mobile = Kampũnivẽ gha lup d̃et̃a cẽ istimol k̃hetk yawi dẽ ghafch khalg ne g̃hetetk. Sakrẽs̃h sẽdhũyd ki bes̃h besh k̃hũ k̃htk/ bidat/ inovashan "inovation".  askan sake projkt̃ Kommon Voys k̃htk, yi project ki  kũk̃htẽr owozẽ dishẽn
 wall-of-text-more-desktop = Nives̃h tu sakẽr yi open voys d̃atãsẽt̃ k̃hakẽr k̃hakẽr k̃hũ owozẽ atya rẽdhoẽ bas wez ki s̃heg̃hd appvẽt ẽsbob woz tenz̃et(web). ye  jũmla joy ki mashin disht khalgẽsh aslẽn cẽrsokht k̃had, digarvẽ yark z̃hẽmũrnẽr. sherik wocẽn miyorẽ baf k̃hakẽr. yemi atumẽr sidam
