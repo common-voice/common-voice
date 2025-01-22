@@ -179,3 +179,5 @@ press-and-stories-link = pakhch woz zhindagisht
 partner-section-title = Dẽ sakẽn shẽrikat dorig̃h
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>kompũnivẽ murs</bold> - sẽk d̃at̃aset̃ kharch ziyoda zikvẽ tẽrpẽrũt yundakẽ dẽstan AI takhliqi moliyoti ijodẽ destan
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>mẽrdũmet s̃hkurnekũzgvẽr k̃htk </bold>gok̃h, mizbonig̃h wos pẽ jẽhon go pũrasar d̃ataset̃ mũft
