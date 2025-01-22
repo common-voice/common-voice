@@ -141,23 +141,30 @@ ask-mozilla-share-content = تی گائ مُوٹُھک یا اېت پُرگِر�
 # label for button
 ask-mozilla-share-action = تاں پُرگِرام شئیر کرہ
 download-contribution-certificate = تاں حصہ ہرَیں یاں سرٹیفیکېٹ ہرہ
+download-contribution-certificate-content = کہ تُوں کامن وائس مہ حصہ ہری چھی کھیں امَیں یا تاں پُرگِرامہ واں کریا سرٹِفِکېٹ منی والہ — ݜَیں بُٹ تی نہ بغېر ہویں یاں نی آن٘س!
 # label for button
 download-contribution-certificate-action = تاں سرٹیفیکېٹ ہرہ
 contribute-github = گِٹ ہبہ لا حصہ ہرہ
+contribute-github-content = ݜُو پراجېکٹ څاں ڙر خلکؤں نہ بغېر ممکن نی آن٘س ۔🎉 کامن وائسہ ملیۡ ٹل ہویں بېکتُک طریۡقی تھی ۔ ݜسیں کریا تے کوڈِن٘گ سِڇھؤں گی فرض نی تُھو!
 # label for button
 contribute-github-action = گِٹ ہبہ لا حصہ ہرہ
 
 ## Featured section
 
+featured-section-title = نُمایاں کرژی تُھو۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = زاں پرېس پېک <icon></icon> منی والہ
 
 ## Developers section
 
+developers-section-title = 130 نہ بُوئ ژِبوں مہ بُٹ خلکؤں ہتے اے اوپن سپیچ ڈېٹاسیٹ۔
 developers-section-subtitle = اے ایس آر (امَیں اواز معلوم کرؤں)، ایس ٹی ٹی (بلیُوں نہ لکیلیۡ سن٘دؤں)، ٹی ٹی ایس (لِکیلیۡ نہ بال سن٘دؤں)، اور آں مُت قدرتی بلی واں محلاں (این ایل پی) کریا ڈیٹا سیٹہ - چے سَیں خلکہ وَیں مدتی ہِن سن٘دژېل ہوں۔
 # icon is an arrow that points to the right
 explore-datasets = ڈېٹا سیٹہ کن٘گالہ <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوپن، کمیُونٹی یاں سن٘دېل ڈېٹا سیٹہ واں ڈاؤ دھائ
 read-sentences-link = جُملی پڑہ
 validate-readings-link = پڑیلیۡ جُملی سُون٘ݜیۡرا/ منظُور کرہ
 contribute-link = لکیلیۡ مہ اضافہ کرئیں یاں کریا حصہ ہرہ
