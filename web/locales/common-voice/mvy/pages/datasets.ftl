@@ -66,6 +66,7 @@ donate-modal-explanation-1 = 100 نہ بُوۡئ ژِبہۡ واں خلکہ چے
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <strong>کہ تُس قدر کراں تھو  بُٹواںتے ہرقسم ڈیٹاں۔ کھیں آژ زؤں لا صدقہ کری!</strong>
 data-download-singleword-title = کیالو لفظاں نخوۡ کرېل حصہ منی والہ / ڈاؤن لوڈ کرہ
+data-download-singleword-callout-v2 = ݜُو اېک استعمالاں کریا حصہ اوک تُھو چے اُو بنیلیۡ ہندسی پُنیؤں تے آں/نَیں ایں پتہۡ ایَئیں یاں کریا مواد فراہم کیریۡ تُھو۔
 data-download-button = کامن وائسَیں‌ معلومات منی والہ
 data-download-yes = آں
 data-download-deny = نَیں

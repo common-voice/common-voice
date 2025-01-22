@@ -129,6 +129,9 @@ community-section-title = عالمی برادریانیں ایں پِیڄ تھی
 join-discord-community = ڈِسکورڈ گروپ مئی شامل ہو
 # label for button
 join-discord-community-action = مُوں ڈسکورڈ مئی شامل کٞر
+join-discord-community-content = لسانی کمیونٹی آٞں باٞث مئ حصہ گِھن، سوالونہ کٞر، تے آئیندہ ہوگ والہ واقیاٞت تے جولاٞگاٞں باٞراٞ مئ اِزدہ کٞر۔
+find-us-on-matrix = میٹرکس مئ ما سٞہ میلا ہو
+find-us-on-matrix-content = میٹرِکس اٞ کولاؤ تے تواٞں سطاٞ دہ تیزترین جولاگ پھݭاگاں اٞ پروٹوکول تھو، تے موزِلا آں باث کروگاں کولا ترجیحی پلیٹ فارم تھو۔
 
 ## Featured section
 
