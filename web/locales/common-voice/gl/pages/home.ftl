@@ -110,6 +110,8 @@ get-started = Comezar
 
 ## Action items section
 
+action-items-section-title = Common Voice é unha plataforma gratuíta e de software libre deseñada para a creación comunitaria de conxuntos de datos de fala e texto.
+action-items-section-subtitle = Calquera persoa pode preservar, revitalizar e promover a súa lingua compartindo, creando e organizando conxuntos de datos de texto e voz.
 
 ## Community section
 
