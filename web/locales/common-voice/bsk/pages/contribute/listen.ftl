@@ -12,10 +12,12 @@ listen-abort-cancel = tasdiiq ećar duun
 listen-abort-confirm = tasdiiq etas phaṣ etin
 # Menu item
 validate-readings = ġatanase tasqii etin
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Ġatanumiṅe tasdiiq etin
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = ġatanas tasdiiq etin daa transcrptions ar hik ke barenin
+listen-contribute-menu-tooltip = Ġatanas tasdiiq etin daa transcrptions ar hik ke barenin
 validate-readings-menu-item-tooltip = guymo baaṣulo user recorded reading tasdiiq etin
 review-transcriptions-menu-item-tooltip = guymo baaṣulo usere kaa etum tranṣptions ar hik ke baren.
 

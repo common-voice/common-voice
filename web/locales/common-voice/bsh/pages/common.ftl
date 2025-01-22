@@ -264,6 +264,7 @@ privacy = ٹکاستہ
 terms = شرائط
 cookies = کوکیز
 faq = فاق
+documentation = تحریری ثبوت
 content-license-text = مواد موجود ائ اتیوع<licenseLink>کریٹیو کامنز لائسنس</licenseLink>
 share-title = ایمو مع کمک کشی کیوت کوستہ کہ ورں چی امکی یوستہ کوٹ عطیہ کولہ کولہ!
 share-text = مشینہ زعاݩستہ کہ کمک کشݩع چہ اصلی مچی کائیکہ ولہ تت یاستہ کوٹ انی عطیہ  کشݩع{ $link }

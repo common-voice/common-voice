@@ -76,11 +76,15 @@ read-more-about = اسو اسنو پٹو موتی پڑے
 ## NAV ITEMS
 
 answer-questions = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
+answer-questions-coming-soon = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
 review-transcriptions = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
+review-transcriptions-coming-soon = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
 add-questions = کھوجینیک آنے یو/مشک تھے <small> لوکو انو ہُوں </small>
+transcribe-audio-coming-soon = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 transcribe-audio = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 press-and-stories = پریس گہ چگائیے/شِلوکے
 community-and-languages = کویوچ گہ باشے
+coming-soon = لوکو اِیُوں ہِیں/ہُوں
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = کامن وائیسے سے سان
 
 ## Hero section
 
+hero-title = تھئیی باش تھیک ٹیکنالوجی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> اے آئی سے دُنیاتو چیک باشوڑے ژا کروم کِیئے تھئیی؟</bold>
+hero-subtitle-2 = اَسئیی باش اَسئیی شِلوک، اَسئیی کمیونٹی، اَسئیی ثقافت۔ آ تو اَدَو  ڈیٹا سیٹیک  سَنون کوئی بیسے پُوری دنیاتینی چَکیونو خوش تھونیس۔
+# icon is an arrow that points downwards
+get-started = کرومینی شچا/ شروع تھِیا <icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائیس اَدو ایک مُفت  پلیٹ فارمیک ہُوں، نُو کمیونٹی سے سَنِیک ڈیٹا گی یازئی ذریاک ہُوں۔
+action-items-section-subtitle = کوئی گہ ایکسے موجی چِینی، موجی کَچَٹ تھے، یا شونگو ڈیٹا سیٹ سَنے تومی باش سَمُوٹِیون بِیوں، جِینیارِیون بِیوں، تومی باش سَم تھے مُوچھوڑے گہ ہَریون بِیوں۔
+scripted-card-header = کَچَٹ تھے ہِینک باش
+scripted-card-content = تومی باشی نی کُوری گی موجی رَس، دُنیاتینی لیگی لا اَجونے جَکو شونگو ڈیٹا سیٹی نی یو بو
+spontaneous-card-header = اَشانگیو شونگو
+spontaneous-card-content = تھَنی باشوڈیٹا سیٹ سَنیونو جواب دے۔ رَزینیک باشوکاری لاؤ سَم ہُوں
+language-text-card-header = باشو کَچَٹ/ لِکھِیتی
+language-text-card-content = عام جَکوڑے ترجمئی کاری ڈومین پرومٹ ، موجی، گہ کَچَٹیانی/لِکھیانی سَنے، باشو چُنے ماڈلی، گہ مُتے لائی۔۔
+coming-soon = لوکو اِیُوں ہِیں/ہُوں
+add-text = کَچٹ تھِتی /لِکھِیتی یو تھے
 
 ## Community section
 
+community-section-title = دُنیاتو کمیونیٹِئیے سے یَجارینائیے، دُنیاتو کمیونیٹِیو کاری  — 130 باشی گہ بَسکیئے گہ!
+join-discord-community = ڈِسکاڑڈ کَمیونِیٹی نی یو بو
+# label for button
+join-discord-community-action = ڈِسکارڈینی اسو ساتی یو بو
+join-discord-community-content = باشو موش کل تھین کمیونٹی نی یو بو، جیک کھُوجے، آنوپیرتے بونے ہانک موجی گہ کِیسائے سِیچ۔
+find-us-on-matrix = میٹرکسینی اسو اُڑارے
+find-us-on-matrix-content = میٹرکس ایک کھُلا، لوکو پروٹوکولیک ہوں موش کَل تھیونو کاری۔ موزیلو موش کَل تھیونو پلیٹ فارم ہُوں
+# label for button
+find-us-on-matrix-action = میٹرکسینی اسو اُڑارے
+ask-mozilla-share = موزیلیڑے واقعائے چین تھے۔
+ask-mozilla-share-content = مُچھوڑے کوئی موقعاک اَسِیلو دا یا کوئی موقعاک اونو ہُوں دا؟ ہُوں تو اَسوڑے چین تو بیسے کمیونیٹیڑے رزون یا بلاگ لِکھون۔
+# label for button
+ask-mozilla-share-action = تومو کوئی واقعاک چین
+download-contribution-certificate = تھنی آنے یو بِیلوکو سرٹفکیٹ ڈاؤن لوڈ تھے۔
+download-contribution-certificate-content = تھنے واقعاتو یا تھنی اَکی سرٹفکیٹ چین تُو کامن وائیسینی شریک بِیلَوں تو۔ — تُو ساتی اَدئیی نے بئیی
+# label for button
+download-contribution-certificate-action = تھنی سرٹفکیٹ گِین۔
+contribute-github = گِٹ ہبانی یو بو
+contribute-github-content = اَنُو پروجیکٹ تُو پَش جَکو نیو بغیر نے بِیوں۔ کام وائیسی نی یو بونو لائیے پونے ہائیں۔ کوڈ کَدا تھے تھیونی ہِیں اونو ضروری نُش۔
+# label for button
+contribute-github-action = گِٹ ہبانی یو بو
 
 ## Featured section
 
+featured-section-title = اَنیسے نی فیچر۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اَسئیی پرس پیک ڈاؤن لوڈ تھے۔
 
 ## Developers section
 
+developers-section-title = عام جَکوڑے شونگو ڈیٹاسیٹ (130) ایک شل گہ بی گہ دَیو نیو گہ لائیے باشو نی
+developers-section-subtitle = اے-ایس-آر،ایس ایس ٹی،  ٹی ٹی ایس، گہ مُوے این ایل پییو پروگرامو کاری۔ کمیونٹی سے یو بو سَنیا
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹ اوڈور تھے چَکے <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کمیونیتی سے یَجاریک ڈیٹاسیٹی ساتی دے۔
+read-sentences-link = موجی رَس
+validate-readings-link = رَجیک موجو تصدیق تھے
+contribute-link = لِکھِیتی کارپسو ساتی دے
+answer-questions-link = کھُوجیکو جواب دے
+transcribe-answers-link = جوابے کَچَٹ تھے۔
+review-transcriptions-link = کَچَٹ تھیئک پھَرا چَکے۔
+contribute-text-link = کَچَٹ تھے چین
+press-and-stories-link = پریس گہ شِلوگے
 
 ## Partner section
 
+partner-section-title = اسو نلا سجیئار با
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنئیے</bold>  لائیے باشو اے آئی اِیکوسسٹم اوپن ڈیٹا سیٹی نی کھین دے، کروم تھے۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول سوسائیٹیئے گہ ریسرچری </bold> سَنے، سَم سَم ڈیٹا سیٹ آنے فری نی چین
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> مَنُوجوڑے خوش تھیک، </bold> لوکل نا یئے نایئے چیزی گہ بَڑیارئی کاریو ساتی دے
+# icon is an arrow that points to the right
+get-in-touch-button = رابطے نی بئیی <icon></icon>
+# Partners section
+our-partners-include = اسے سَجِییارونی یو بِیلاں۔۔۔

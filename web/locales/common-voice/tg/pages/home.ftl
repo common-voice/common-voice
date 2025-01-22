@@ -93,6 +93,7 @@ community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва 
 
 about-menu-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред
+community-and-languages-menu-item-aria-label = Дар бораи ҷамъияти мо ва забонҳое, ки аз ҷониби «Common Voice» дастгирӣ мешаванд, маълумоти пурра пайдо кунед
 
 ## NEW HOME PAGE KEYS
 
@@ -102,11 +103,16 @@ partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Comm
 hero-title = Технологияе, ки бо забони шумо ҳарф мезанад
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Чаро зеҳни сунъӣ (AI) бояд танҳо барои якчанд забон дар саросари ҷаҳон кор кунад?</bold>
+hero-subtitle-2 = Забони мо — ин таърихи мо, ҷомеаи мо ва фарҳанги мо аст. Биёед, маҷмуъҳои маълумотиеро эҷод кунем, ки мо мехоҳем дар ҷаҳони маҳбуби мо бинем.
 # icon is an arrow that points downwards
 get-started = Оғози кор <icon><icon>
 
 ## Action items section
 
+action-items-section-title = «Common Voice» - лоиҳаи озод аст, ки дар платформаи манбаи кушод асос меёбад ва барои эҷоди маълумот дар зери роҳбарии ҷомеаи умумиҷаҳонӣ дастгирӣ мешавад
+action-items-section-subtitle = Ҳар як кас метавонад тавассути мубодила, эҷод ва назорат кардани маҷмуъҳои маълумоти матнӣ ва овозӣ забони модарии худро ҳифз кунад, эҳё намояд ва баланд бардорад.
+scripted-card-header = Нутқи намоишнома
+spontaneous-card-header = Лоиҳаи «Spontaneous Speech»
 language-text-card-header = Матни забон
 coming-soon = Ба наздикӣ дастрас мешавад
 add-text = Илова кардани матн
@@ -132,6 +138,7 @@ contribute-github-action = Дар «GitHub» саҳм гузоред
 
 ## Featured section
 
+featured-section-title = Дар бораи мо менависанд...
 
 ## Developers section
 
@@ -140,11 +147,20 @@ explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Маҷмуъҳои маълумоти кушодро дар зери роҳбарии ҷомеаи умумиҷаҳонӣ дастгирӣ намоед
 read-sentences-link = Ҷумлаҳоро хонед
 validate-readings-link = Хонишҳоро тасдиқ кунед
 contribute-link = Ба маҷмуи матнӣ саҳм гузоред
 answer-questions-link = Ба саволҳо ҷавоб диҳед
 transcribe-answers-link = Ҷавобҳоро ба матн табдил диҳед
+review-transcriptions-link = Овонависиро баррасӣ кунед
+contribute-text-link = Матнҳоро пешниҳод намоед
+press-and-stories-link = Матбуот ва ҳикояҳо
 
 ## Partner section
 
+partner-section-title = Шарики мо шавед
+# icon is an arrow that points to the right
+get-in-touch-button = Дар тамос шавед <icon></icon>
+# Partners section
+our-partners-include = Мо дар ҳамкорӣ бо шарикони...

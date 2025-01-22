@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = خیلی سریع به پیش می‌روید
 sc-redirect-page-title = ما در حال ایجاد برخی تغییرات بزرگ هستیم
 sc-redirect-page-subtitle-1 = بخش گردآوری جملات در حال انتقال به هستهٔ سکوی آوای مشترک است. اکنون می‌توانید داخل آوای مشترک، جمله‌ای را <writeURL>نوشته</writeURL> یا مورد <reviewURL>بازبینی</reviewURL> قرار دهید.
 sc-redirect-page-subtitle-2 = روی <matrixLink>ماتریس</matrixLink>، <discourseLink>دیسکورس</discourseLink> یا از طریق <emailLink>رایانامه</emailLink> از ما سوال بپرسید.
+# menu item
+review-sentences = بازبینی جملات

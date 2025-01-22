@@ -62,6 +62,8 @@ create-profile-button = ایْک پروفائل سنِیا۔
 img-alt-success-checkmark = کامیابی نکھوْ
 # menu item
 read-sentences = جُملائے پڑِیا۔
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جُملہ پڑِیا <small> جِنیْ اِینوْ </small>
 
 ## MENU ITEM TOOLTIPS
 

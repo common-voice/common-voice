@@ -31,6 +31,8 @@ profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
 male_masculine = Мард/Мардона
 female_feminine = Зан/Занона
+intersex = Байниҷинсӣ
+transgender = Ғайриҷинсӣ
 non-binary = Ғайридуӣ
 do_not_wish_to_say = Гуфтан намехоҳам
 # Gender
@@ -59,4 +61,6 @@ off = Ғайрифаъол
 on = Фаъол
 help-accent = Оид ба лаҳҷа кумак лозим аст?
 help-variants = Оид ба гунаҳо кумак лозим аст?
+help-sex-or-gender-changes = Оё ба шумо барои иваз кардани танзимоти ҷинсият ё ҷинс дар профили худ кумак лозим аст?
 variant-contribution-options-header = Имконоти лаҳҷавӣ барои саҳмгузорӣ
+variant-contribution-option-2 = Танҳо ҷумлаҳо ва сабтҳоро аз забон ё лаҳҷаи ман намоиш диҳед

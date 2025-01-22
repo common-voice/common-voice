@@ -115,9 +115,15 @@ community-and-languages-menu-item-aria-label = Fedezze fel a közösséget és a
 ## Hero section
 
 hero-title = Technológia, amely beszéli az Ön nyelvét
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Miért működjön a mesterséges mesterséges intelligencia csak a világ néhány nyelvén?</bold>
+hero-subtitle-2 = A nyelvünk a történetünk, a közösségünk, a kultúránk. Hozzuk létre azokat az adatkészleteket, amelyeket szeretnénk látni a világban.
+# icon is an arrow that points downwards
+get-started = Kezdő lépések <icon><icon>
 
 ## Action items section
 
+action-items-section-title = A Common Voice egy szabad, nyílt forráskódú platform a közösség által vezetett adatelőállításhoz
 
 ## Community section
 

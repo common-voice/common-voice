@@ -264,6 +264,7 @@ privacy = Privacy
 terms = Zima
 cookies = cookies
 faq = Jonik
+documentation = Dastawizat/ documentation
 content-license-text = newishila Shian
 share-title = Madat kara warek asta tan awaz den
 share-text = Machine una ch'ic'aikas bati, mon dekas bati, tan awaz homa det

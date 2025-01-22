@@ -30,11 +30,14 @@ target-segment-first-banner = ຊ່ວຍສ້າງກຸ່ມເປົ້�
 target-segment-add-voice = ເພີ່ມສຽງຂອງເຈົ້າ
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
 change-preferences = ປ່ຽນການຕັ້ງຄ່າ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ການເກັບກໍາສຽງ
-contribute-sentence-collection-nav-header = ການລວບລວມປະໂຫຍກ
+login-signup = ເຂົ້າສູ່ລະບົບ / ລົງທະບຽນ
+vote-yes = ແມ່ນ
+vote-no = ບໍ່
+datasets = ຊຸດຂໍ້ມູນ
+languages = ພາສາ
+about = ກ່ຽວກັບ
+partner = ຄູ່ຮ່ວມງານ
+submit-form-action = ສົ່ງ
 
 ## Reporting
 

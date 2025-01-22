@@ -1,7 +1,7 @@
 action-click = Теӏункӏ
 action-tap = Теӏаб
 contribute = Ӏахьэ хэлъхьан
-review = Еплъыжъын
+review = Еплъыжьын
 skip = Блэкӏ
 shortcuts = Гъогу кӏэкӏхэр
 clips-with-count-pluralized =

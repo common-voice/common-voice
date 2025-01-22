@@ -14,6 +14,8 @@ listen-abort-cancel = Parhau i ddilysu
 listen-abort-confirm = Gorffen dilysu
 # Menu item
 validate-readings = Dilysu Darlleniadau
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Dilysu Darlleniadau <small>(Yn dod cyn hir)</small>
 
 ## MENU ITEM TOOLTIPS
 

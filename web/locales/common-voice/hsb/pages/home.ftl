@@ -82,11 +82,15 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 ## NAV ITEMS
 
 answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
+answer-questions-coming-soon = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
 review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
+review-transcriptions-coming-soon = Transkripcije přepruwować <small>(příndźe bórze</small>)
 add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
+transcribe-audio-coming-soon = Awdio transkribować <small>(přińdźe bórze)</small>
 transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
+coming-soon = Bórze k dispoziciji
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,23 +111,54 @@ community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a r�
 
 ## Hero section
 
+hero-title = Technologija, kotraž wašu rěč rěči
+# icon is an arrow that points downwards
+get-started = Prěnje kroki <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Rěčny tekst
+coming-soon = Bórze k dispoziciji
+add-text = Tekst přidać
 
 ## Community section
 
+join-discord-community = Přidružće so zhromadźenstwu Discord
+# label for button
+join-discord-community-action = Přidružće so nam na Discord
+find-us-on-matrix = Namakajće nas na Matrix
+# label for button
+find-us-on-matrix-action = Namakajće nas na Matrix
+# label for button
+download-contribution-certificate-action = Wobstarajće sej swój certifikat
+contribute-github = Na Github přinošować
+# label for button
+contribute-github-action = Na Github přinošować
 
 ## Featured section
 
+featured-section-title = Předstajeny w…
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Sady čitać
+validate-readings-link = Čitanja přepruwować
+contribute-link = K tekstowemu korpusej přinošować
+answer-questions-link = Na prašenja wotmołwić
+transcribe-answers-link = Wotmołwy transkribować
+review-transcriptions-link = Transkripcije přepruwować
+contribute-text-link = Tekst přinošować
 press-and-stories-link = Nowiny a stawiznički
 
 ## Partner section
 
 partner-section-title = Stańće so z našim partnerom
+# icon is an arrow that points to the right
+get-in-touch-button = Skontaktować <icon></icon>
+# Partners section
+our-partners-include = K našim partneram słušeja…

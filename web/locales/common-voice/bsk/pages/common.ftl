@@ -264,6 +264,7 @@ privacy = mii haranum
 terms = terms
 cookies = cookies
 faq = aksar duġarusum sawaalin
+documentation = Gati etas.
 content-license-text = mawaad khole mayaćuman [licenselink] amitar creative common license seybaan
 share-title = meeka kaa numan ućhar emasaśo sis duuysin
 share-text = meeka kaa numa machine oykinin ke sise belate ćaġa ećaan daa maymo maćhar meer emasin

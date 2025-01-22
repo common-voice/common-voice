@@ -264,6 +264,7 @@ privacy = Preifatrwydd
 terms = Amodau
 cookies = Cwcis
 faq = Cwestiynau Cyffredin
+documentation = Dogfennaeth
 content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
 share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }

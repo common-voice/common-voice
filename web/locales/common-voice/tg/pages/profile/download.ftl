@@ -1,6 +1,7 @@
 ## Profile Download
 
 download-q = Мехоҳед маълумоти худро боргирӣ кунед?
+download-info = Ба мо гӯед, ки кадом файлро мехоҳед боргирӣ кунед:
 download-profile-title = Профил
 download-profile-size = Чанд байт
 download-recordings-title = Сабтҳо

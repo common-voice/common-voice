@@ -62,6 +62,8 @@ create-profile-button = Crear un profilo
 img-alt-success-checkmark = marca de successo
 # menu item
 read-sentences = Leger phrases
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Leger Phrases <small>(Tosto veniente)</small>
 
 ## MENU ITEM TOOLTIPS
 

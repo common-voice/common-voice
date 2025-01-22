@@ -12,6 +12,8 @@ listen-abort-cancel = تصدیق تھیوں بیئی
 listen-abort-confirm = تصدیق پھش تھے
 # Menu item
 validate-readings = ریکارڈنگو تصدیق تھے۔
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ریکارڈِنگے ویلِیڈیٹ تھے <small> لوکو اِیوں ہِیں  </small>
 
 ## MENU ITEM TOOLTIPS
 
