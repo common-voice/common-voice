@@ -36,34 +36,34 @@ about-no-votes-text = کون اٞ صارف اٞ اٞ ہوازیں کلپ رد ک
 about-dataset-new = کامن وائس ڈیٹا سیٹ
 about-dataset-new-text = کامن وائیس ڈیٹاسیٹ مئ لکونہ ہوازیں کلپونیں سیمپل آشیں۔ اوم سافٹویئرچاٞگ واٞلاٞ کہ ہواز پویانوگاٞں آٞلاٞ تیار کٞروگ مئ مداٞد دییں۔
 about-clip-graveyard = کلپیں قبریٹ
-about-clip-graveyard-text = کلپیں قبٞریٹ مئ تٞتھی وائس کلپونہ شامل تھی اوں توم کامن وائس ڈیٹا سیٹ مئ نہ ییت تہ، کلپیں قبریٹ ڈاونلودیں کیر موجود تھی۔
-about-get-involved = شامل ہُو
-about-get-involved-text-2 = کامن وائس ران ہگ دیانتاٞ؟باٞر رین ؛ ایمیل دہ ماں سٞہ ہو یا<discourseLink>ڈسکورس</discourseLink>فورمز،سائٹ آٞں مسئلاٞ جمع کٞر<githubLink>گِٹ ہب</githubLink>یا جائن کٞر<matrixLink>میٹریکس</matrixLink> کمیونٹی چیٹ۔
-about-stay-in-touch = یہ کھیکی ݭجاٞل درٞم؟
-about-stay-in-touch-button = سائن اپ
-about-stay-in-touch-text-1 = <emailFragment>سائن اپ</emailFragment>موں میل ایں لسٹ اوں اِزدہ کٞرگ اوں تٞھہ کھیکی مھم ماٞکٞہ حصہ گھینباٞں، ایونٹس مئ تے کو ڈیذائن ایں چصوصیاٞت مئ کامن وائس رہ۔
-about-stay-in-touch-text-2 = تٞھہ دی سٞہ میلا ہوباٞں موزیلا لیگویج کمیونٹی مئ <discourseLink>ڈسکورس</discourseLink> جائن کٞروگ دہ خاص موضوع راٞکٞہ جولاگیں کیر یا <matrixLink>میٹریکس</matrixLink> فوراً نصیتیں کیر۔
+about-clip-graveyard-text = کلپیں قبٞریٹ مئ تٞتھی وائس کلپونہ شامل تھی اوں توم کامن وائس ڈیٹا سیٹ مئ نہ ییت تہ، کلپیں قبریٹ ڈاونلودیں کیر موجود تھی۔  مٞہ پراجیکٹ سٞہ مدِدیں کیر تواٞں خلکاں تے تنظیموناں شکریہ ادا کٞرٞنت:
+about-get-involved = شامِل ہو
+about-get-involved-text-2 = کامن وائس ران ہوگ مئ مداٞد دیانتاٞ؟ باٞر رین ؛ ایمیل دہ ما سٞہ رابطہ کٞر یا<discourseLink>ڈسکورس</discourseLink>فورمز، سائٹ آٞں مسئلاٞ جمع کٞر<githubLink>GitHub</githubLink>یا ر<matrixLink>میٹریکس</matrixLink> کمیونٹی چیٹ مئ شامل ہو۔
+about-stay-in-touch = یہ راٞبطاٞ مئ کھیکی درٞم؟
+about-stay-in-touch-button = سائن اپ کٞر
+about-stay-in-touch-text-1 = مہم مئ حصہ گِھنوگاں چھاٞل اِزدہ کٞروگیں کیر، کامن وائیس آٞں واقعات تے مشترک ڈیزائن آں خصوصیاٞت مئ حصہ گھِنوگیں کیر موں ای میلیں لِسٹ مئ <emailFragment> سائن اپ کٞر </emailFragment>
+about-stay-in-touch-text-2 = تو موضوعات رہ جولاگ کٞروگیں کیر<discourseLink> بحث </discourseLink>مئ شامل ہوگ دہ  موزِلاٞ ایں جِبیں کمیونٹیز مئ دی سٞہ میلا ہوباں، یا دستی مشوریں کیر <matrixLink> قالب </matrixLink>۔
 about-nav-why-common-voice = کا؟
 about-nav-how-it-works = کھیکی؟
-about-nav-partners = سیتاٞن
-about-nav-get-involved = شامل ہُو
-about-nav-how-it-works-2 = کھیکی کامن وائس کار کٞرنت؟
-about-nav-playbook = اِزدہ کٞر کھیکی حصہ گھیناٞ
+about-nav-partners = شریکِ کار
+about-nav-get-involved = شامِل ہو
+about-nav-how-it-works-2 = کامن وائس کھیکی  کار کٞراں؟
+about-nav-playbook = حِصہ گِھنوگاں چھاٞل اِزدہ کٞر
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = کامن وائس راٞکٞہ اٞ جِب کناں؟
-about-playbook-what-is-language-content-1 = جِباٞں باٞراٞمئ سوچ کٞروگاٞں باٞر طریقاٞ تھو۔ ہواز پویانوگاٞں ماڈلز اِیں مقصدیں کیر، کامن وائس باہمی پوہوگ راٞکٞہ غور کٞرنت، یا اِیں جِباٞں زیات مٞنوگ واٞلاٞ آٞگدی آٞں جولاٞگٞہ پو ہوانتاٞ کون اومٞہ کوشش کیر تہ؟
-about-playbook-what-is-language-content-2 = مٞہ دیانت اوں سپیچ ماڈلز زیات مٞنوگ واٞلاٞ ران کٞہ جاٞندہ۔ ایں خھلہ ہوگیں کیر اٞ وائس ڈیٹا سیٹ باٞر خلٞکیں نمائدگی کٞرگ۔
-about-playbook-what-is-language-content-3 = دیک جِیبوناٞں گرامر، الفاٞظ تے تلفظ مئ باٞر فرق آشاں۔ ایں وجاٞ دہ، مٞہ<ctaLink>متعارف کیت ویرئنٹس</ctaLink>2022 ماٞکٞہ۔اٞن خٞلک کٞہ اِیں پن پشیت اوں توم تانت جِبوناں فرق جاٞنگ گھاٞن ڈیٹاسیٹ ماٞکٞہ۔
+about-playbook-what-is-language = کامن وائس راٞکٞہ اٞ جِب کٞنا؟
+about-playbook-what-is-language-content-1 = جِباٞں باٞراٞمئ سوچ کٞروگاٞں باٞر طریقاٞ تھو۔ جولاگ پویانوگاں ماڈلزیں مقصدیں کیر کامن وائیس باہمی سمجھداری رہ مرکوز کٞروگیں تجویز دیانت، یا کہ چری اِیں جِباٞں منوگ واٞلاٞ کوشیش کِیر تے توم آٞک دیاٞں جولاٞگہ پوہ ہواٞنتاٞ؟
+about-playbook-what-is-language-content-2 = مٞہ اِیں دِیاٞنتھوں جولاگاں ماڈل مختلف جولاٞگ واٞلاٞں جولاٞگ رہ بہترین عبور حاصِیل کٞرئ تہ۔ اسیں کیر پکاٞروں اٞ وائیس ڈیٹاسیٹ باٞرشئ خلکیں نمائیندگی کٞردہ۔
+about-playbook-what-is-language-content-3 = دیک جِیبوناٞں گرامر، الفاٞظ تے تلفظ مئ باٞر فرق آشاں۔ ایں وجاٞ دہ، مٞہ<ctaLink>جِبوناٞں بدآٞل لہجاٞ 2022 مئ متعارف کٞرنت </ctaLink> ۔ اٞن دہ خلک کٞہ گھین ڈیٹاسیٹ مئ تانی جبونہ پویانوگ مئ مداٞد میلاؤ ہوئ۔
 
 ## How do I add a language
 
 about-playbook-how-add-language = کھیکی یہ اٞ جِب میلام؟
-about-playbook-how-add-language-content-1 = اٞواٞلہ  بیݭ اوں چھیں جِب<languageLink> مڄگٞشی تھی آٞ</languageLink> کٞہ نات، تو <languageRequestLink>ماں تٞپوس کٞرباں تانی جِب میلاگیں کیر</languageRequestLink>۔ دو مرحلاٞ تھو۔ اٞتھگیں سائٹاں ترجمہ کٞروگ تے جملاٞ جمی کٞروگ
+about-playbook-how-add-language-content-1 = اٞواٞلہ  بیݭ اوں چھیں جِب<languageLink> مِݭ گٞشی تھی کو نہ۔ </languageLink> کٞہ نات، تو <languageRequestLink> تانی جِب میلاگیں کیر درخاس کٞرباں</languageRequestLink>۔  دو مرحلاٞ تھو۔ اٞتھیں سائٹاں ترجمہ کٞروگ تے جملاٞ سمٞٹوگ
 about-playbook-how-add-language-translating-heading = سائٹاں ترجمہ کٞروگ
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>موں گائڈ بِیر اوں کھیکی پینٹون استمال کٞراٞں۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>موں گائڈ بِیر اوں کھیکی پونٹون استمال کٞراٞں۔</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = مٞہ مزیلاٞ آلہ استمال کٞراٞں<pontoonLink>پینٹون</pontoonLink>ترجمیں کیر۔پینٹون ماٞکہ باٞر جِبونہ تھی، پرہ کٞہ چھیں جِب نہ ہی تو <pontoonRequestLink>تانی جِب میلاگیں کیر درخاست کٞرباں</pontoonRequestLink>۔دیگیر، کامن وائس پراجیکٹ مئ جِب گیاگیں کیر<githubRepoLink>نیم جِباں درخاست دہ گِٹ ہب رہ</githubRepoLink>۔<localizationFragment>سائٹ آں ترجماٞ رہ دی بیݭ</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جملاٞ جمع کٞروگ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>مون گائڈ بِیر اوں کھیکی جملاٞ جمع کٞروگ والا استمال کٞرنت</sentenceCollectorVideo>۔
