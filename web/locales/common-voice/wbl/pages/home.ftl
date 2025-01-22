@@ -67,9 +67,9 @@ username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomil 
 
 ## Landing
 
-welcome-staff = { $company }sẽt̃afẽr khũshomẽdid
-help-contribute = dãt̃aset̃ k̃hakẽ dẽstanẽsh tu Kommon voysẽ profyl go k̃kẽ k̃hũ owozẽ atayash shomil k̃hakẽ bas wez
-login-company = emaile dẽ { $company }Log in/ saynap(sign up)
+welcome-staff = { $company }sẽt̃afẽr khũshomẽdid!
+help-contribute = dãt̃aset̃ k̃hakẽ dẽstanẽsh tu Kommon voysẽ profayl go k̃kẽ k̃hũ owozẽ ẽtayas̃h shomil k̃hakẽ bas wez
+login-company = emaile dẽ { $company }Log in/ saynap(sign up).
 profile-not-required = Shomil k̃hakri profaylẽ zẽrũrat nast albat mẽdadgor, rẽ dest tayin ki chizẽr.
 read-more-about = Spo pejẽ z̃aq woz ziyoda joy
 
