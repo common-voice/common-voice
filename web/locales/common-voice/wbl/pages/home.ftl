@@ -142,6 +142,12 @@ ask-mozilla-share-content = Rek̃hkũng yoy wẽzaynẽ waqia dũrz, dẽs̃ke
 ask-mozilla-share-action = K̃hũ waqia shomil
 download-contribution-certificate = K̃hũ hisa dorig̃hẽ sartifiketẽ d̃onlowd̃ car.
 download-contribution-certificate-content = Common Voysẽri ki waqia yoy tawẽ chiz k̃htk k̃hũ sarfiket̃ d̃ownlowd̃—yemẽb tor mumkin ne wost!
+# label for button
+download-contribution-certificate-action = K̃hũ sarfiketẽ dũrz
+contribute-github = Sẽk Git̃Hub shomil car.
+contribute-github-content = Ti rang khalgẽn bẽshkhayi yem yak mumkin nast. dẽ kommon Voysẽn shomil wocnẽri ghafch vẽdekisht, dor dishnẽ zẽrũrat nast ki tu dish ki cẽrsokhtẽs̃h shomil kod̃ (code) carẽn
+# label for button
+contribute-github-action = Sẽk Git̃Hub shomil car.
 
 ## Featured section
 
