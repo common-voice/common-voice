@@ -113,6 +113,9 @@ get-started = Oghoz car<icon><icon>
 
 ## Action items section
 
+action-items-section-title = Kommon Voysi yi tes̃h, ozodh mẽdadẽ jay jẽmoatẽ d̃at̃a jamar.
+action-items-section-subtitle = kuyẽs̃h bẽ peydo car, pẽjehon gok̃ht woz dẽrust cart k̃hũ zikẽ, pẽrdhavj, zinda, didig̃hd k̃hakẽr
+scripted-card-header = nivishetk k̃hẽnetk/ ricord̃
 
 ## Community section
 
