@@ -115,17 +115,23 @@ get-started = Shurukh karik
 action-items-section-title = Sawin Awaz free/ michmi, idara comete ani mochan hatya, data sawzaikas bati
 action-items-section-subtitle = Saw thi th'en, tan zuban pha'zin, newishin ze mon dikas dataset
 scripted-card-header = Newishil'a ma'ik
+spontaneous-card-header = Tez mon dek
 language-text-card-header = Zuban newishil'a
 coming-soon = Gha'ns' ew dai
 add-text = Newishil'a jama kari
 
 ## Community section
 
+join-discord-community = Discord comete una join kari
+# label for button
+join-discord-community-action = Discord una homa som join kari
 find-us-on-matrix = Matrix una homa sapres
 # label for button
 find-us-on-matrix-action = Matrix una homa sapres
+ask-mozilla-share = Mozilla as kai mas, se tai te krom phaziu
 # label for button
 ask-mozilla-share-action = Tai krom anzai
+download-contribution-certificate = Tan phazi'l'a sawtiket download kari
 # label for button
 download-contribution-certificate-action = Tan sawtiket gri
 contribute-github = GitHub una phazi
@@ -134,6 +140,7 @@ contribute-github-action = Phazi GitHub una
 
 ## Featured section
 
+featured-section-title = Newishi shiau shandai...
 # icon is an arrow that points downwards
 download-press-pack = Homa mon deta download kari
 
@@ -156,3 +163,7 @@ press-and-stories-link = Newishil'a ze oc'oh'ink
 ## Partner section
 
 partner-section-title = Malgeri/ partner ha homa som
+# icon is an arrow that points to the right
+get-in-touch-button = Homa som rabita kari
+# Partners section
+our-partners-include = Homa partner shemi...
