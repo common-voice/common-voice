@@ -116,6 +116,9 @@ get-started = Oghoz car<icon><icon>
 action-items-section-title = Kommon Voysi yi tes̃h, ozodh mẽdadẽ jay jẽmoatẽ d̃at̃a jamar.
 action-items-section-subtitle = kuyẽs̃h bẽ peydo car, pẽjehon gok̃ht woz dẽrust cart k̃hũ zikẽ, pẽrdhavj, zinda, didig̃hd k̃hakẽr
 scripted-card-header = nivishetk k̃hẽnetk/ ricord̃
+scripted-card-content = Sẽk z̃hũ zik jũmlavẽ sarowoz joy woz jori lecẽr shamuliyatẽ dẽ gũni nogũn khẽnakẽ kũzgvẽn
+spontaneous-card-header = yidamẽr k̃hẽnak
+spontaneous-card-content = Ishoravẽr jẽwob rand asli d̃at̃asẽt k̃hakẽr, gapẽ metobiq, ne nifishet awalgũni zik.
 
 ## Community section
 

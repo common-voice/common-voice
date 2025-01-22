@@ -3,7 +3,7 @@
 language-section-in-progress = مُخکی څېک نر
 language-section-in-progress-new-description = ائ زبنی ایزیره ته کمیونېټی دِس نر اِن ته ترقي پاره<localizationGlossaryLink> وېب سائټ لوکلائزېشن</localizationGlossaryLink> او<sentenceCollectionGlossaryLink> ته جملي جمع کؤ</sentenceCollectionGlossaryLink> وه وې ضروري هۀ
 language-section-launched = شُوري
-language-section-launched-description = ته پئ شُوري زبنی ا وېب سائټ په کامیابي سره شُوري ݭیوک<localizationGlossaryLink> مقامي </localizationGlossaryLink> او کافي <sentenceCollectionGlossaryLink> جملي دی جمع سُکِن</sentenceCollectionGlossaryLink> که روان <speakLink> غوېک</speakLink> او <listenLink> امر</listenLink> پېش کوًي
+language-section-launched-description = ته پئ شُوري زبنی ا وېب سائټ په کامیابي سره شُوري او مقامی ݭیوک<localizationGlossaryLink> </localizationGlossaryLink> او کافي <sentenceCollectionGlossaryLink> جملي دی جمع سُکِن</sentenceCollectionGlossaryLink> که ته غوېڅن او ته امرؤ مېدان نرل ا خوئ حصه نیکیزئ، یعنی جملي دی غؤسئ او امرئ۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آخري ن اپ ډېت دوک: { $lastUpdatedTimeStamp }
 languages-show-more = بيې دی جیره کَۀ
