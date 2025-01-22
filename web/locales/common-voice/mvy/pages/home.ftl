@@ -179,6 +179,10 @@ press-and-stories-link = اخبار تے خبری
 partner-section-title = زؤں ملیۡ مرگلیۡتیا کرہ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = اېک ترقی بذیر چے ژِبہۡ وَیں مصنوعی ذہانتاں نظاماں کریا اوپن ڈېٹاسیٹ سن٘دَیں مہ </bold>ٹېک کمپنی یہ</bold> سرمایہ کاری کراں تھی
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>عام معاشراں خلک آں بِلاڑان٘لہ</bold> مفتہ مہ ڈېٹا سیٹہ سن٘دی ، گھېن٘رولی کری آں مُوٹھو بھک کری۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>فلاحی تنظیمہ</bold> ۔ سُکھیݜیار آں ترقی یاں کریا ڈېٹا سیٹَیں سن٘دَیں یاں عملَیں گھېن٘ر ولی کرہ
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ مہ دھرہ <icon></icon>
 # Partners section

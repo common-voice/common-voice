@@ -155,6 +155,10 @@ download-press-pack = موں صحافتی پیک ڈاؤن لوڈ کٞر <icon></
 
 ## Developers section
 
+developers-section-title = 130 ما باٞر جِبونہ مئ عام طور دہ قابل رسائ جولاگاں ڈیٹاسیٹ
+developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس تے دی این ایل پی آں سیاق و سباق۔ کمیونٹی ایں شراکت دہ تیار کٞراٞل۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹونہ پاٞلٹ <icon></icon>
 
 ## Get involved section
 
