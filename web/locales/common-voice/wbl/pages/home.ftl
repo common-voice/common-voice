@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = od̃ioẽ naqẽl<small>jaldẽb wezin</small>
 transcribe-audio = od̃iyoẽ naql<small>jaldẽb wezit</small>
 press-and-stories = pakhch woz zhindagisht.
 community-and-languages = Jẽmoat woz zikisht.
+coming-soon = Jaldẽb wizit
 
 ## MENU ITEMS TOOLTIPS
 
@@ -119,6 +120,10 @@ scripted-card-header = nivishetk k̃hẽnetk/ ricord̃
 scripted-card-content = Sẽk z̃hũ zik jũmlavẽ sarowoz joy woz jori lecẽr shamuliyatẽ dẽ gũni nogũn khẽnakẽ kũzgvẽn
 spontaneous-card-header = yidamẽr k̃hẽnak
 spontaneous-card-content = Ishoravẽr jẽwob rand asli d̃at̃asẽt k̃hakẽr, gapẽ metobiq, ne nifishet awalgũni zik.
+language-text-card-header = Zikẽ matan
+language-text-card-content = Yi zẽmunẽr domenẽ pẽjẽhon go,Jumlavẽ, matanẽ, trẽjũmavẽ, z̃aqlay zikẽ sokht woz bes̃h.
+coming-soon = Jaldẽb wizit
+add-text = Matanẽ shomil
 
 ## Community section
 
