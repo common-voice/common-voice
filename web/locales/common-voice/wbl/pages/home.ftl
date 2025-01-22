@@ -97,13 +97,19 @@ community-and-languages-menu-item-tooltip = Zikvẽ, jẽmoatvẽ woz Kommon voy
 about-menu-aria-label = Ikhtiyori menuẽ barar.
 partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ k̃hẽ shẽrikat dori barar/bobatẽn dish
 press-and-stories-menu-item-aria-label = Kommon Voysẽ barar press reliz woz zhindagvẽ barar resoyi hosil car
-community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ medad k̃hetk
+community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ mẽdad k̃hetk
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = T̃eknonojis̃h ti zikẽ bobatẽn k̃hand
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>AI'ri chir denyo chand zikẽr yark k̃hak dẽrkor?
+hero-subtitle-2 = Spo ziki spo zhindag, spo jẽmoat, spo khewkhẽrad, wezit d̃at̃aset̃ gon, d̃at̃aset̃ kumdẽs̃h ki sak zoqẽn ki dẽ dẽnyo winẽn.
+# icon is an arrow that points downwards
+get-started = Oghoz car<icon><icon>
 
 ## Action items section
 
