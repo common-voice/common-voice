@@ -14,3 +14,7 @@ transcript-skipped-success = ٹرانسکرپٹ کامیابی ءَ گوں یل�
 transcript-skipped-error = ٹرانسکرپٹ ءِ یلہ دیگ ءِ وھد ءَ ردی یے بوتگ
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = راست
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = بوت
+# For the button on the Check Transcriptions page to edit a transcription
+edit = ترمیم کنی انت

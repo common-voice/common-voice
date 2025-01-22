@@ -181,3 +181,9 @@ partner-section-title = Dẽ sakẽn shẽrikat dorig̃h
 partner-section-subtitle-tech-companies = <bold>kompũnivẽ murs</bold> - sẽk d̃at̃aset̃ kharch ziyoda zikvẽ tẽrpẽrũt yundakẽ dẽstan AI takhliqi moliyoti ijodẽ destan
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>mẽrdũmet s̃hkurnekũzgvẽr k̃htk </bold>gok̃h, mizbonig̃h wos pẽ jẽhon go pũrasar d̃ataset̃ mũft
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>nomũs </bold>Meqomi khalgvẽ k̃hatẽt, dẽrufted tẽrẽqir d̃at̃sẽt̃er pazuv.
+# icon is an arrow that points to the right
+get-in-touch-button = Rabitar hal <icon></icon>
+# Partners section
+our-partners-include = Spo hisadorishtẽv...
