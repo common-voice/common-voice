@@ -1,4 +1,5 @@
 listen = ຟັງ
+listen-subtitle = ຊ່ວຍພວກເຮົາກວດສອບສຽງ
 listen-instruction = { $actionType } <playIcon></playIcon> ພວກເຂົາເວົ້າປະໂຫຍກໄດ້ຢ່າງຖືກຕ້ອງບໍ?
 listen-again-instruction = ເຮັດໄດ້ດີຫຼາຍ!<playIcon></playIcon> ຟັງອີກຄັ້ງເມື່ອທ່ານພ້ອມ
 listen-3rd-time-instruction = 2 ລົງ, ຮັກສາມັນຂຶ້ນ!<playIcon></playIcon>
@@ -11,6 +12,8 @@ listen-loading-error =
 listen-abort-title = ສຳເລັດການກວດສອບຄລິບບໍ?
 listen-abort-cancel = ສືບຕໍ່ການກວດສອບ
 listen-abort-confirm = ສໍາເລັດການກວດສອບ
+# Menu item
+validate-readings = ກວດສອບການອ່ານ
 
 ## MENU ITEM TOOLTIPS
 

@@ -141,6 +141,7 @@ ask-mozilla-share-content = ئالدىنقى ياكى پات يېقىندا ئۆ
 # label for button
 ask-mozilla-share-action = پائالىيىتىڭىزنى ھەمبەھىرلەڭ
 download-contribution-certificate = تۆھپە گۇۋاھنامىڭىزنى چۈشۈرۈڭ
+download-contribution-certificate-content = ئەگەر سىز Common Voice قا تۆھپە قوشقان بولسىڭىز پائالىيىتىڭىز ياكى ئۆزىڭىزنىڭ گۇۋاھنامىسىنى چۈشۈرۈڭ — سىز بولمىغان بولسىڭىز بۇ ئىشلار ۋۇجۇدقا چىقمىغان بولاتتى!
 # label for button
 download-contribution-certificate-action = گۇۋاھنامىڭىزغا ئېرىشىڭ
 contribute-github = GitHub دا تۆھپە قوشۇڭ
