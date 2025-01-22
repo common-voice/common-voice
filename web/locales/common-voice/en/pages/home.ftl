@@ -147,7 +147,7 @@ ask-mozilla-share-content = Have a previous or upcoming event? Share it with us 
 # label for button
 ask-mozilla-share-action = Share your event
 download-contribution-certificate = Download your contribution certificate
-download-contribution-certificate-content = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible with you!
+download-contribution-certificate-content = Download a certificate for your events or yourself if you have contributed to Common Voice — this would not be possible without you!
 # label for button
 download-contribution-certificate-action = Get your certificate
 contribute-github = Contribute on GitHub

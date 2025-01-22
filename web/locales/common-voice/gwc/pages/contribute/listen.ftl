@@ -12,6 +12,8 @@ listen-abort-cancel = صحی کٞروگ جاری ساٞت
 listen-abort-confirm = صحی کٞروگ لاٞساٞ
 # Menu item
 validate-readings = پٞروگ صحی کٞر
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = پٞروگ صحی کٞر <small>(شاٞردہ ینت)</small>
 
 ## MENU ITEM TOOLTIPS
 

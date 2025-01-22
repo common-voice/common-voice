@@ -78,6 +78,7 @@ read-more-about = موں باٞراٞں پاٞݪ دی پا پراٞ۔
 answer-questions = سواٞلاٞں جواٞب دہ<small> (سواٞلونہ شردہ اخکارہ ہوئ) </small>
 review-transcriptions = چُنڑیلاں جائیزہ گِھن <small> (چُنڑیل شردہ اخکارہ ہوئ) </small>
 add-questions = سواٞل مِلاٞ <small> (سواٞل شردہ اخکارہ ہوئ) </small>
+transcribe-audio-coming-soon = آڈیو چُنڑیل کٞہ گِراٞ <small> (آڈیو شردہ اخکارہ ہوئ) </small>
 transcribe-audio = آڈیو چُنڑیل کٞہ گِراٞ <small> (آڈیو شردہ اخکارہ ہوئ) </small>
 press-and-stories = چاپ تے قصاٞ
 community-and-languages = کمیونٹی تے جِب
@@ -101,9 +102,20 @@ community-and-languages-menu-item-aria-label = کامن وائس مئ یوپاگ
 
 ## Hero section
 
+hero-title = ٹیکنالوجی کیں چھیں جِب دِئینت۔
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے، آئی کا دُنائیں کٞتیک جِب مئی کار کٞرئی؟</bold>
+hero-subtitle-2 = مُوں جِب مُون سجیرہ، مُوں گھاٞل، مُوں رواج۔ یاں اُوں تتھی ڈیٹا سیٹ چائی اُوں کیں مٞہ دُنائے مئی پشوگ دیاٞنت۔
+# icon is an arrow that points downwards
+get-started = شورو کٞر
 
 ## Action items section
 
+action-items-section-title = کامن وائیس مفت تے اوپن سورس پلیٹ فارم تھو، عام خلقیں کیر اُوں تام تانی مواد جمہ کٞرنت۔
+action-items-section-subtitle = ہاٞرہ مانوڄ تانی جِب محفوظ، دوبارہ جان کٞروگ تے مِڄ کہ ناٞگیں کیر مواد شریک کٞرئی، مواد چائی تے موادیں نگرانی تے ہوازاں ڈیٹاسیٹ جمع کٞرئی۔
+scripted-card-header = چُنڑاٞل جولاگ
+scripted-card-content = جملاٞ تانی جِب مئی شیتی مناٞ تے دُنایاں سوئے ما زیات خور ہوگاٞل ہوازیں ڈیٹاسیٹ سہ مداٞد کراٞ۔
+spontaneous-card-header = اجانہ جولاگ
 
 ## Community section
 
