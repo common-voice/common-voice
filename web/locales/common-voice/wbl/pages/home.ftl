@@ -51,19 +51,19 @@ email-subscription-title-new = Kommon voysẽ khẽbarẽ khatẽ (newsletter) s
 benefits = Foydayisht.
 rich-data = K̃hũ shomil k̃hetk d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nẽs̃het obodiyoti d̃at̃a kat̃ k̃hẽ. pẽ jẽhon k̃hakẽn tẽrmisẽsh sak tẽmon obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn.
 improve-audio = profaylẽ molũmotẽs̃h k̃hẽnak dishnẽ drustẽgiyẽ tẽrbiyatẽr istimol wocnẽr od̃yowẽ baf gok̃ht
-keep-track = dẽ digar zẽbinẽv k̃hũ k̃het yarkẽ pudh rec̃h
-compare-progress = Tayin dẽ pẽtũn dẽnyos̃h ti yark dẽ digar shomil k̃hakẽkũzgvẽn cersokht sẽdhũyd.
-view-goals = K̃hũ yarkẽ k̃hũn woz projekt̃ẽ mẽqsadẽ mẽtobiq tayin
-join-newsletter = Apd̃et̃ẽt woz s̃heg̃hd molumot hosil khakẽr/ dũrznẽ destan K̃hũ zoqẽr de spo email list shomil woc.
+keep-track = dẽ digar zẽbinẽv k̃hũ k̃het yarkẽ tayinẽr pẽs pudh rec̃h
+compare-progress = Tayin dẽ pẽtũn dẽnyos̃h ti yark dẽ digar shomil k̃hakẽkũzgvẽn cer sokht sẽdhũyd.
+view-goals = K̃hũ yarkẽ k̃hũn woz projekt̃ẽ mẽqsadẽ mẽtobiq tayin.
+join-newsletter = Apd̃et̃ẽt woz s̃heg̃hd molumot hosil khakẽr/ dũrznẽ destan K̃hũ zoqẽr dẽ spo email list shomil woc.
 
 ## What's public
 
-whats-public = Pẽ jẽhoni chiz?/ chizi kũk̃htẽr?
-email-not-public = Sak ti emailẽ pẽ jehon ne gon/ kũk̃htẽr ne dhisũvẽn
-recordings-and-locale-public = Rikord̃ingẽ tedod woz kumd zirkẽs̃h shomilẽb pe jẽhon gon.
-username-optin-public = tus̃h sirf k̃hũ nungẽ pẽ jẽhon go yoyes̃h yo tẽrdest lecrẽn
-demographic-deidentified-clarity-2 = K̃hũ zoqẽr jama k̃het obodyoti d̃at̃aẽb tag pẽ jehon ne gon yaniki (umr, jins, zik wos lehja), wozẽb dẽ d̃at̃asẽt yo ert ti akownt̃ ne kat̃ẽn. baf tayinẽ destanẽb ti zoti owd̃iu klipvẽ bad tayinẽr dẽ obodiyoti d̃at̃aẽn qẽti carẽn. misoliki, yi muhaqiqẽs̃h yimakhsũs tabqaẽ tẽrbiyatẽ dẽstan training mod̃ulẽ nis̃hon gok̃ht.
-username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomil pẽ jẽhon ne gon
+whats-public = Pẽ jẽhoni chiz? / chizi kũk̃htẽr?
+email-not-public = Sak ti email pẽ jehon ne gon.
+recordings-and-locale-public = Rikord̃ingẽ tedod woz kumd zirkẽs̃h shomilẽb pẽ jẽhon gon.
+username-optin-public = tus̃h sirf k̃hũ nungẽ pẽ jẽhon go yoyes̃h yo tẽrdest lecrẽn.
+demographic-deidentified-clarity-2 = K̃hũ zoqẽri jama k̃hetk obodyoti d̃at̃aẽb tag pẽ jehon ne gon yaniki (umr, jins, zik wos lehja), wozẽb dẽ d̃at̃asẽt yo er ti akownt̃ ne kat̃ẽn. baf tayinẽ dẽstanẽb ti zoti owd̃iyu klipvẽ tayinẽr dẽ obodiyoti d̃at̃aẽn qẽti carẽn. misoliki, yi muhaqiqẽs̃h yimakhsũs tabqaẽ tẽrbiyatẽ dẽstan training mod̃ulẽ nis̃hon gok̃ht.
+username-email-not-demographic = Ti nungẽt ti emailẽb dẽ d̃at̃an shomil pẽ jẽhon ne gon.
 
 ## Landing
 
