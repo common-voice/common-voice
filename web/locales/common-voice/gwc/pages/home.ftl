@@ -175,3 +175,7 @@ press-and-stories-link = اخبارات تے قصاٞ
 ## Partner section
 
 partner-section-title = ماسٞہ شراکاٞت کٞر
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کٞپنیاٞن </bold> ـ اٞ ترقی پزیرکثیرالسانی اے آئ آں ماحولیاتی نطاماں کولاؤ ڈیٹاسیٹ تیاری مئ سرمایہ کاری کٞراٞ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سِول سوسائیٹی تے محقیقین </bold> مُفت مئ موثرڈیٹاسیٹونہ تیار کٞراٞ، میزبانی کٞراٞ تے تاٞس شریک کٞرا۔
