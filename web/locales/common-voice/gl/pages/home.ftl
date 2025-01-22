@@ -120,9 +120,14 @@ spontaneous-card-content = Responde a estímulos para crear conxuntos de datos e
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
 coming-soon = Proximamente
+add-text = Achegar texto
 
 ## Community section
 
+community-section-title = Impulsado por comunidades globais, para comunidades globais — xa en 130 linguas e cada vez máis!
+join-discord-community = Únase á nosa comunidade en Discord!
+# label for button
+join-discord-community-action = Unirse a Discord
 
 ## Featured section
 
