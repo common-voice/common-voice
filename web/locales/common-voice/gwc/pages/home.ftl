@@ -143,9 +143,15 @@ download-contribution-certificate-content = لخہ تئ کامن وائیس مئ
 # label for button
 download-contribution-certificate-action = تانی ساڑیپیکاٞٹ حآصیل کٞر
 contribute-github = گِٹ ہب رہ حصہ تل
+contribute-github-content = اِیں منصوبہ تھوں چھلاٞں خلکہ بغیر ممکن نہ ہوئ۔ 🎉 کامن وائس سٞہ ان مئ شامل ہوگاٞں باٞر طریقاٞ تھوـ تھاکہ حصہ گِھنوگیں کیر کوڈ چاگ اِزدہ کٞروگیں حجاٞت نات۔
+# label for button
+contribute-github-action = گِٹ ہب رہ حصہ تل
 
 ## Featured section
 
+featured-section-title = اومی خاصِیت مئ دی ما جُدا ہوگ ۔۔۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = موں صحافتی پیک ڈاؤن لوڈ کٞر <icon></icon>
 
 ## Developers section
 
