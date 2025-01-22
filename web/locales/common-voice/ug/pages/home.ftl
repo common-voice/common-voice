@@ -119,6 +119,7 @@ action-items-section-subtitle = ھەر كىم تېكىست ۋە نۇتۇق ھە�
 scripted-card-header = قوليازما نۇتقى
 scripted-card-content = تىلىڭىزنى جۈملىلەرنى يۇقىرى ئاۋازدا ئوقۇپ دۇنيادىكى ئەڭ كۆپ خىللاشقان ئاممىۋى ھەمكارلىقتىكى نۇتۇق سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇڭ.
 spontaneous-card-header = تەبىئىي نۇتۇق
+spontaneous-card-content = ئالدىن تەييارلانغان سوئاللارغا جاۋاب بېرىپ، تەبىئىي ئېغىزاكى تېكىست سانلىق مەلۇماتىنى قۇرىدۇ. ئېغىز تىلىنى ئاساس قىلىدىغان تىلغا ماس كېلىدۇ.
 language-text-card-header = تىل تېكىستى
 language-text-card-content = تەرجىمە، كىچىك تىل مودېلى قاتارلىق تۈرلەرگە ئاممىۋى دائىرىدىكى سۆز بېشى، جۈملە ۋە تېكىست قۇرۇپ ياكى ھەمبەھىرلەيدۇ.
 coming-soon = پات يېقىندا قوشۇلىدۇ
@@ -174,6 +175,10 @@ press-and-stories-link = خەۋەر ۋە ماقالە
 partner-section-title = بىز بىلەن ھەمكارلىشىڭ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>تېخنىكا شىركەتلىرى</bold> - ئوچۇق سانلىق مەلۇمات توپلىمىغا مەبلەغ سېلىپ كۆپ تىللىق گۈللەنگەن سۈنئىي ئەقىل ئىكولوگىيەلىك سىستېمىسى بەرپا قىلماقچى
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>پۇقرالار جەمئىيىتى ۋە تەتقىقاتچىلار</bold> - تەسىرى مۆلچەرلىگۈسىز سانلىق مەلۇمات توپلىمىنى قۇرۇپ، مۇلازىمەت قىلىپ ۋە ھەمبەھىرلەيدۇ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ساخاۋەتچىلەر</bold> - يەرلىك يېڭىلىق يارىتىش ۋە تەرەققىياتنى ئىلگىرى سۈرۈپ سانلىق مەلۇمات توپلىمى قۇرۇشنى قوللايدۇ
 # icon is an arrow that points to the right
 get-in-touch-button = <icon> </icon> بىلەن ئالاقىلىشىڭ
 # Partners section
