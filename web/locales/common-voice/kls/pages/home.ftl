@@ -115,26 +115,35 @@ get-started = Shurukh karik
 action-items-section-title = Sawin Awaz free/ michmi, idara comete ani mochan hatya, data sawzaikas bati
 action-items-section-subtitle = Saw thi th'en, tan zuban pha'zin, newishin ze mon dikas dataset
 scripted-card-header = Newishil'a ma'ik
+scripted-card-content = T'ol kai mon de, tan zuban as bari una, phazi sawin som saw dunia una dataset as thara
 spontaneous-card-header = Tez mon dek
+spontaneous-card-content = Jawab de prus't kai, dataset prus't karikas bati, zuban mahikas ze jonikas bati
 language-text-card-header = Zuban newishil'a
+language-text-card-content = Sawzai ya o phazi, domain prompts, newishil'a, newishil'a tarjuma, chutyak zuban ze warek
 coming-soon = Gha'ns' ew dai
 add-text = Newishil'a jama kari
 
 ## Community section
 
+community-section-title = Sawzai shiau saw dunia as bati, dunia ani mochan bati, zuban bo hikas bati
 join-discord-community = Discord comete una join kari
 # label for button
 join-discord-community-action = Discord una homa som join kari
+join-discord-community-content = Hisa gri saw zuban an pe, zuban jonikas bati, sawal phuchi, jonis kia hin dai ya o mondr pe pron haw
 find-us-on-matrix = Matrix una homa sapres
+find-us-on-matrix-content = Matrix kholaw sawin hatya, esa protocol sawin hatya sawzai shiau, ruaw mon dikas bati, rabita as bati, mozilla una eta saw thi mon dek baha
 # label for button
 find-us-on-matrix-action = Matrix una homa sapres
 ask-mozilla-share = Mozilla as kai mas, se tai te krom phaziu
+ask-mozilla-share-content = Shumber aw ya o no'a pe kia shian haw/ hin  dai haw, homa som phaz'a. abi tasa bariuna newishik
 # label for button
 ask-mozilla-share-action = Tai krom anzai
 download-contribution-certificate = Tan phazi'l'a sawtiket download kari
+download-contribution-certificate-content = Download kari kia sawtiket pe shian how, ya o tai mi bariuna common voice/ sawin awaz una pe phazi as haw, tai beghair o ne hawaw dya
 # label for button
 download-contribution-certificate-action = Tan sawtiket gri
 contribute-github = GitHub una phazi
+contribute-github-content = Shama krom/ project, tai madat as beghair abi karik je abahimi dya. common voice una phazikas bati tai kia jonikas kia ajat ne!
 # label for button
 contribute-github-action = Phazi GitHub una
 
@@ -146,11 +155,14 @@ download-press-pack = Homa mon deta download kari
 
 ## Developers section
 
+developers-section-title = Saw thi jagek bahan, mon dek, dataset una 130+ zubanan
+developers-section-subtitle = Dataset as bati ASR, STT, TTS, ya o warek NLP Newishil'a- sawzai shiau comete ani mochan thara.
 # icon is an arrow that points to the right
 explore-datasets = Dataset Jagai
 
 ## Get involved section
 
+get-involved-section-title = Madat kari kholaw, comete ani datasets una
 read-sentences-link = Mas te newishila
 validate-readings-link = Mail'a sahi kari
 contribute-link = Corpus ani newishil'a phazi
@@ -163,6 +175,12 @@ press-and-stories-link = Newishil'a ze oc'oh'ink
 ## Partner section
 
 partner-section-title = Malgeri/ partner ha homa som
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = Tech company - kharcha kan dai dataset una so ziad zuban una AI ecosystem una
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>saw society ani moch ze khojaw </bold> - sawzen dai, mich mi phazi den dai
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> khodaihi krom karaw</bold> - madat kaein dai, dataset una. sawin tharaki as bati
 # icon is an arrow that points to the right
 get-in-touch-button = Homa som rabita kari
 # Partners section
