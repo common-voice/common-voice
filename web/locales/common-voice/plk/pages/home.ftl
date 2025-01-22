@@ -155,12 +155,23 @@ ask-mozilla-share-content = جوْ لگِتھوْ یا اِیک واقعہ؟ آ�
 # label for button
 ask-mozilla-share-action = تومیْ واقعہ شیئر تِھیا
 download-contribution-certificate = تومیْ شرکتے سرٹیفکیٹ ڈاؤن لوڈ تِھیا
+download-contribution-certificate-content = اگر څھا کامن وائس دہ تعاون تھیتَن توْ تے تومیْ شرکتے بارَد  ایْک سرٹیفکیٹ ڈاؤن لوڈ تِھیا — آ بیْل څھوْجیْ ممکن نانیْ ǃ
+# label for button
+download-contribution-certificate-action = توموْ سرٹیفکیٹ حاصل تِھیا
+contribute-github = GitHubجیْ تعاون تِھیا
+contribute-github-content = آ منصوبہ بیل څھوْ ہا جگوجیْ ممکن نانوْ۔ کامن وائس سے شریک بونے لا طریقائین۔  څھوْڑ آ ضورڑت نانیْ چہ تعاون تھونے کِرِیا کوڈ کاتھ تھوݨ ǃ
+# label for button
+contribute-github-action = GitHubجیْ تعاون تِھیا
 
 ## Featured section
 
+featured-section-title = فیچرد دہ
+# icon is an arrow that points downwards
+download-press-pack = اسے پریس پیک ڈاؤن لوڈ تِھیا <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ جِبوْ مجیْ عوامی شان گیْ قابل رسائی اوپن سورس ڈیٹا سیٹس
 
 ## Get involved section
 
