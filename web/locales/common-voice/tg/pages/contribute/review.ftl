@@ -42,12 +42,15 @@ sc-criteria-item-2 = Ҷумла бояд аз ҷиҳати грамматикӣ 
 sc-criteria-item-3 = Ҷумла бояд қобили талаффуз бошад.
 sc-criteria-item-4 = Агар ҷумла ба меъёрҳо мувофиқ бошад, тугмаи &quot;Тасдиқ кардан&quot;-ро аз тарафи рост зер кунед.
 sc-criteria-item-6 = Агар шумо барои баррасӣ ҷумлаҳои дигар надошта бошед, лутфан, ба мо дар ҷамъоварии ҷумлаҳои ҳар чӣ бештар кумак кунед!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Тафтиш кунед <icon></icon>, ки оё ин ҷумла мувофиқи меъёрҳои забонӣ дуруст аст?
 sc-review-rules-title = Оё ҷумла ба меъёрҳои дастур мувофиқат мекунад?
 sc-review-empty-state = Айни ҳол дар ин забон ягон ҷумлаи дигар барои баррасӣ нест.
 report-sc-different-language = Забони дигар
 report-sc-different-language-detail = Он дар забоне навишта шудааст, ки аз забони баррасӣ кардаи ман фарқ мекунад.
 sentences-fetch-error = Ҳангоми гирифтани ҷумлаҳо хато ба миён омад
 review-error = Ҳангоми баррасии ин ҷумла хато ба миён омад
+review-error-rate-limit-exceeded = Шумо хеле зуд ҳаракат мекунед. Лутфан, вақти худро барои баррасии бодиққати ҷумлаи нав ҷудо кунед ва боварӣ ҳосил намоед, ки он дуруст аст.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Мо баъзе дигаргуниҳои калонро омода карда истодаем
 sc-redirect-page-subtitle-2 = Ба мо тавассути <matrixLink>«Matrix»</matrixLink>, <discourseLink>«Discourse»</discourseLink> ё <emailLink>почтаи электронӣ</emailLink> саволҳоро ирсол намоед.

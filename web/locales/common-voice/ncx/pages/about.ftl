@@ -36,6 +36,8 @@ about-yes-votes-text = Pouis itech Tinochtin Titlajtoaj Tlajtolnechikoli san tla
 about-no-votes = ≥ 2 Amo yokipachokej
 about-no-votes-text = Tla se kijtos mach kuali omokak oksepa monekis kitsikoskej. Tla ome kijtoaj mach kuali tlajtoli, kititlaniskej kanin Miktlajtoli.
 about-dataset-new = Tinochtin Titlajtoaj Tlajtolnechikoli
+about-dataset-new-text = Tinochtin Titlajtoaj Tlajtolnechikoli kipixtok tlen sapanoa miakej yokitsikokej uan non kinpaleuis akinmej kinchijchiuaj teposmej non tenkakij.
+about-clip-graveyard = Miktlajtoli
 
 ## Community Playbook Content
 ## What is a language

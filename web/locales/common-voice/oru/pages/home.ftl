@@ -121,7 +121,7 @@ scripted-card-content = ا جملي خوئ زبان نر په زوټه غؤس ا
 spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُلکت
 spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
 language-text-card-header = ته زبان ا سبق
-language-text-card-content = ته پبلک ډزمېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
+language-text-card-content = ته پبلک ډومېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
 coming-soon = سېره ر بُو څوا
 add-text = سبق ال يې ګډ کوئ
 
@@ -168,7 +168,7 @@ get-involved-section-title = ته کمیونېټی په ذریعه روان جَ
 read-sentences-link = جملي دی غؤس
 validate-readings-link = ته غوېک جملي توثیق يې کَۀ
 contribute-link = ټېکسټ کارپس نر يې حصه وُر
-answer-questions-link = ته سولَّلی ځَوَبی دی کَۀ
+answer-questions-link = ته سولَّی ځَوَبی دی کَۀ
 transcribe-answers-link = ا ځَوَبَّبي نقل کَۀ
 review-transcriptions-link = خوئ زبان کی ا نقل ݭیوک لیک زر يې دیم نظر نیکِز
 contribute-text-link = سبق ال يې ګډ کَۀ

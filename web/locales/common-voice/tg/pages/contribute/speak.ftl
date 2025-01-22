@@ -28,6 +28,7 @@ record-abort-continue = Сабтро ба анҷом расонед
 record-abort-delete = Баромадан ва нест кардани сабтҳо
 review-aborted = Боркунӣ қатъ карда шуд. Мехоҳед, ки сабтҳои худро нест кунед?
 review-submit-title = Бознигарӣ ва пешниҳод
+review-submit-msg = Ташаккур барои сабти овози шумо!<lineBreak></lineBreak>Акнун, сабтҳои худро дар зер баррасӣ карда, пешниҳод намоед.
 review-recording = Бознигарӣ
 review-rerecord = Аз нав сабт кардан
 review-cancel = Бекор кардани пешниҳод

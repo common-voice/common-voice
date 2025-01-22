@@ -1,5 +1,5 @@
-action-click = Klyckyowgh
-action-tap = Tappyowgh
+action-click = Klyckyewgh
+action-tap = Tappyewgh
 contribute = Kevri
 review = Dasweles
 skip = Hepkor
@@ -38,11 +38,6 @@ target-segment-first-banner = Gweresewgh ow kwruthyl kynsa tregh kosten Common V
 target-segment-add-voice = Keworra Dha Lev
 target-segment-learn-more = Dyski Moy
 change-preferences = Chanj dewisow
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kuntel Lev
-contribute-sentence-collection-nav-header = Kuntel Lavarow
 login-signup = Omgelmi / Omrolya
 vote-yes = Da
 vote-no = Na
@@ -109,9 +104,9 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Breusverkow
-contribution-criteria-link = Konvedhewgh breusverkow kevro
+contribution-criteria-link = Konvedhes breusverkow kevro
 contribution-criteria-page-title = Breusverkow Kevro
-contribution-criteria-page-description = Konvedhewgh pyth yw res dhywgh hwilas pan esowgh ow koslowes orth klyppys lev ha gweres ow kul ryccha ynwedh agas rekordyansow lev!
+contribution-criteria-page-description = Konvedhes pyth yw res dhywgh hwilas pan esowgh ow koslowes orth klyppys lev ha gweres ow kul ryccha ynwedh agas rekordyansow lev!
 contribution-for-example = rag ensampel
 contribution-misreadings-title = Kammlennansow
 contribution-misreadings-description = Pan esowgh ow koslowes, checkyewgh gans rach bras bos an pyth re beu rekordyes poran an pyth re beu skrifys; naghewgh e mar po kammwriansow yw munys hogen. <br />Y’ga mysk kammwriansow pur gemmyn:

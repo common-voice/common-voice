@@ -90,11 +90,15 @@ read-more-about = اسے بارَد صفحہ جیْ شِناک گہ پڑِیا
 ## NAV ITEMS
 
 answer-questions = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
+answer-questions-coming-soon = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
 review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
+review-transcriptions-coming-soon = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+transcribe-audio-coming-soon = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
+coming-soon = جِنیْ اِینوْ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -115,12 +119,38 @@ community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریع
 
 ## Hero section
 
+hero-title = ٹیکنالوجیْ کھاں سہ څھے دِینیْ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = AI سہ دُنیے صرف چند جِبو کِرِیا کیْہ کوْم تِھی؟
+hero-subtitle-2 = اسے جِب اسے قصہ، اسے قاموالی، اسے ثقافتِن۔ اِیا اسہ ڈیٹاسیٹ سݨون کھاں سہ بیْس دُنیے دہ ڇکون لُکھوݨَس۔
+# icon is an arrow that points downwards
+get-started = شیروع تِھیا <icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائس کمیونٹی قیادت دہ ڈیٹا تخلیق تھونے کِرِیا ایک مفت، اوپن سورس پلیٹ فارمُن۔
+action-items-section-subtitle = کوئے گہ منُوڙوْس ٹیکسٹ گہ ڈیٹاسیٹ بگَے، سنَے، آں کیوریٹنگ تھے تومیْ جِب محفوظ، جودیْ گہ اُتَھلیْ تھوبانوْ۔
+scripted-card-header = اسکرپٹڈ تقریر
+scripted-card-content = تومیْ جِب دہ جُملائے ہاݜ آواز دہ پڑیا آں دُنیے دہ بُٹُج متنوع عوامی شراکتی تقریری ڈیٹاسیٹ دہ تعاون تِھیا۔
+spontaneous-card-header = بے ساختہ تقریر
+spontaneous-card-content = نامیاتی، موْݜ کَلَے سیاق گی سباق اےْ کِرِیا ڈیٹاسیٹس سنونے اشارو جُواب دِیا۔ موْݜ کال گیْ آں مُڇِھنیْ جِبوڑ مِݜٹیْ۔
+language-text-card-header = جِبے متن
+language-text-card-content = عوامی ڈومین پرامپٹس، جُملائے گہ ترجمائے کِرِیا متن آں لیکھیْ جِبو ماڈلز، وغیرہ سنِیا یا سیْݨے اشتراک تِھیا۔
+coming-soon = جِنیْ اِینوْ
+add-text = عبارت ٹل تِھیا
 
 ## Community section
 
+community-section-title = عالمی برادرِیؤ ذریعہ تقویت یافتہ، عالمی برادرِیؤ کِرِیا — 130 جِبہ آں اسݨوجیْ گہ بسکِیؤ ǃ
+join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
+# label for button
+join-discord-community-action = Discord جیْ اسو سے ٹل بِیا
+join-discord-community-content = زبانی کمیونٹی مباحثو مجیْ حصہ ہرہ، سوالات تِھیا، آں آیونے واقعات گہ موْݜ کالِجیْ اکو پرجارہ۔
+find-us-on-matrix = اسو میٹرکس جیْ اورڑِیا
+find-us-on-matrix-content = میٹرکس ایْک پھگُتھوْ گہ لہُوکوْ غیرمرکزی، ڑیئل ٹائم مواصلاتی پروٹوکول آں موزیلا اےْ طرفِجیْ اوزگار ڈسکشن پلیٹ فارمُن۔
+# label for button
+find-us-on-matrix-action = اسو میٹرکس جیْ اورڑِیا
+ask-mozilla-share = موزیلاڑ تومہ واقعاتو اشتراکے رزہ۔
 
 ## Featured section
 

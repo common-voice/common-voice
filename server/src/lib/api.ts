@@ -298,7 +298,9 @@ export default class API {
     const project = isProject(req.query?.project)
       ? req.query.project
       : 'common-voice'
-    const availableLanguages = getFolderNames(path.join(LOCALES_PATH, project))()
+    const availableLanguages = getFolderNames(
+      path.join(LOCALES_PATH, project)
+    )()
     res.json({
       project,
       availableLanguages,
@@ -733,18 +735,8 @@ export default class API {
     )
   }
 
-  getVariants = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params,
-    }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await this.model.db.getVariants(client_id, params?.locale || null)
-    )
+  getVariants = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.db.getVariants(params?.locale || null))
   }
 
   sendLanguageRequest = async (

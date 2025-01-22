@@ -62,6 +62,8 @@ create-profile-button = پروفائل ایپو
 img-alt-success-checkmark = لسہ نݜان
 # menu item
 read-sentences = جملہ ولہ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملاں ولہ<small>>(نوݜٹہ اڅہتی)</small>
 
 ## MENU ITEM TOOLTIPS
 

@@ -44,6 +44,8 @@ sc-criteria-item-3 = 문장은 말할 수 있어야 합니다.
 sc-criteria-item-4 = 문장이 기준을 충족하면 &quot;승인&quot; 버튼을 클릭합니다.
 sc-criteria-item-5-2 = 문장이 위의 기준에 맞지 않으면 좌측의 &quot;거부&quot;버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
 sc-criteria-item-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon>가 언어적으로 올바른 문장인지 확인하세요.
 sc-review-rules-title = 해당 문장이 가이드라인을 충족하나요?
 sc-review-empty-state = 해당 언어에 검토할 문장이 없습니다.
 report-sc-different-language = 다른 언어

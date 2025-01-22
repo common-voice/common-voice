@@ -2,6 +2,7 @@
 
 demo-get-started = Биёед оғоз намоем
 demo-welcome = Хуш омадед ба «Common Voice»
+demo-welcome-subheader = Мехоҳед, ки маълумоти бештар ба даст оред ва ба лоиҳа саҳм гузоред?
 
 ## Demo Datasets
 

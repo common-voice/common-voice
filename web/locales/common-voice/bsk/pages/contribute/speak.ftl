@@ -62,6 +62,8 @@ create-profile-button = profile an desmanin
 img-alt-success-checkmark = checkmark kamiyaap manimi
 # menu item
 read-sentences = jumlan ġatanin
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Jumlaṅ ,gatan.
 
 ## MENU ITEM TOOLTIPS
 

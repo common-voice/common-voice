@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = ئۈننى تېكىستكە خاتىرىلە<smal
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
+coming-soon = پات يېقىندا قوشۇلىدۇ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -116,6 +117,12 @@ get-started = باشلايلى<icon><icon>
 action-items-section-title = Common Voice جامائەت يېتەكچىلىكىدىكى سانلىق مەلۇمات قۇرىدىغان ھەقسىز، ئوچۇق كودلۇق سۇپا.
 action-items-section-subtitle = ھەر كىم تېكىست ۋە نۇتۇق ھەمبەھىرلەش، قۇرۇش ۋە تۈزىتىش ئارقىلىق تىلىنى ساقلاپ قالالايدۇ، جانلاندۇرالايدۇ ۋە راۋاجلاندۇرالايدۇ.
 scripted-card-header = قوليازما نۇتقى
+scripted-card-content = تىلىڭىزنى جۈملىلەرنى يۇقىرى ئاۋازدا ئوقۇپ دۇنيادىكى ئەڭ كۆپ خىللاشقان ئاممىۋى ھەمكارلىقتىكى نۇتۇق سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇڭ.
+spontaneous-card-header = تەبىئىي نۇتۇق
+spontaneous-card-content = ئالدىن تەييارلانغان سوئاللارغا جاۋاب بېرىپ، تەبىئىي ئېغىزاكى تېكىست سانلىق مەلۇماتىنى قۇرىدۇ. ئېغىز تىلىنى ئاساس قىلىدىغان تىلغا ماس كېلىدۇ.
+language-text-card-header = تىل تېكىستى
+language-text-card-content = تەرجىمە، كىچىك تىل مودېلى قاتارلىق تۈرلەرگە ئاممىۋى دائىرىدىكى سۆز بېشى، جۈملە ۋە تېكىست قۇرۇپ ياكى ھەمبەھىرلەيدۇ.
+coming-soon = پات يېقىندا قوشۇلىدۇ
 add-text = تېكىست قوش
 
 ## Community section
@@ -124,22 +131,59 @@ community-section-title = دۇنياۋى جامائەت ئىشلىگەن، دۇ�
 join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
 # label for button
 join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
+join-discord-community-content = تىل جامائىتى سۆھبىتىگە قاتنىشىپ، سوئال سوراڭ، كەلگۈسىدىكى پائالىيەت ۋە سۆھبەتلەر ھەققىدىكى ئۇچۇرلارنى ئىگىلەڭ.
+find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
+find-us-on-matrix-content = Matrix ئوچۇق كودلۇق، يېنىك، تارقاقلاشتۇرۇلغان، شۇئان ئالاقە كېلىشىمى بولۇپ، Mozilla تەۋسىيە قىلىدىغان ئوچۇق سۆھبەت سۇپىسى.
+# label for button
+find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
+ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
+ask-mozilla-share-content = ئالدىنقى ياكى پات يېقىندا ئۆتكۈزۈلىدىغان پائالىيەت بارمۇ؟ بىزگە ھەمبەھىرلەڭ، ئۇنى جامائىتىمىزگە ئۇقتۇرىمىز ياكى شۇ توغرۇلۇق بىلوگ يازىمىز!
+# label for button
+ask-mozilla-share-action = پائالىيىتىڭىزنى ھەمبەھىرلەڭ
+download-contribution-certificate = تۆھپە گۇۋاھنامىڭىزنى چۈشۈرۈڭ
+download-contribution-certificate-content = ئەگەر سىز Common Voice قا تۆھپە قوشقان بولسىڭىز پائالىيىتىڭىز ياكى ئۆزىڭىزنىڭ گۇۋاھنامىسىنى چۈشۈرۈڭ — سىز بولمىغان بولسىڭىز بۇ ئىشلار ۋۇجۇدقا چىقمىغان بولاتتى!
+# label for button
+download-contribution-certificate-action = گۇۋاھنامىڭىزغا ئېرىشىڭ
+contribute-github = GitHub دا تۆھپە قوشۇڭ
+contribute-github-content = بۇ قۇرۇلۇش سىزدەك كىشىلەرسىز ئىمكانسىز ئىدى. 🎉Common Voice قا قاتنىشىش ئۇسۇلى كۆپ خىل، كود يېزىشنى بىلمىسىڭىزمۇ تۆھپە قوشالايسىز!
+# label for button
+contribute-github-action = GitHub دا تۆھپە قوشۇڭ
 
 ## Featured section
 
+featured-section-title = تاراتقۇلاردا…
+# icon is an arrow that points downwards
+download-press-pack = خەۋەر بولىقىمىزنى <icon> </icon> چۈشۈرۈڭ
 
 ## Developers section
 
+developers-section-title = +130 تىلدىكى ئاشكارا زىيارەت قىلغىلى بولىدىغان ئوچۇق تىل سانلىق مەلۇمات توپلىمى
+developers-section-subtitle = جامائەتنىڭ ھەمكارلىقىدا ۋۇجۇدقا كەلگەن، ASR، STT، TTS ۋە باشقا NLP غا ئىشلىتىشكە ماس كېلىدىغان سانلىق مەلۇمات توپلىمى.
+# icon is an arrow that points to the right
+explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> بايقاش
 
 ## Get involved section
 
-read-sentences-link = جۈملە ئوقۇ
+get-involved-section-title = جامائەت باشلامچىلىقىدىكى ئوچۇق سانلىق مەلۇمات توپلىمىنى قوللاڭ
+read-sentences-link = جۈملە ئوقۇڭ
 validate-readings-link = ئوقۇشنى دەلىللە
+contribute-link = تېكىست توپلىمىغا تۆھبە قوشۇڭ
 answer-questions-link = سوئالغا جاۋاب
-transcribe-answers-link = جاۋابنى خەتكە پۈت
-review-transcriptions-link = خەت پۈتۈك تەكشۈر
-contribute-text-link = تېكىستكە تۆھپە قوشىدۇ
+transcribe-answers-link = جاۋابنى خەتكە پۈتۈڭ
+review-transcriptions-link = خەت پۈتۈك قايتا تەكشۈرۈڭ
+contribute-text-link = تېكىستكە تۆھپە قوشۇڭ
 press-and-stories-link = خەۋەر ۋە ماقالە
 
 ## Partner section
 
+partner-section-title = بىز بىلەن ھەمكارلىشىڭ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>تېخنىكا شىركەتلىرى</bold> - ئوچۇق سانلىق مەلۇمات توپلىمىغا مەبلەغ سېلىپ كۆپ تىللىق گۈللەنگەن سۈنئىي ئەقىل ئىكولوگىيەلىك سىستېمىسى بەرپا قىلماقچى
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>پۇقرالار جەمئىيىتى ۋە تەتقىقاتچىلار</bold> - تەسىرى مۆلچەرلىگۈسىز سانلىق مەلۇمات توپلىمىنى قۇرۇپ، مۇلازىمەت قىلىپ ۋە ھەمبەھىرلەيدۇ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ساخاۋەتچىلەر</bold> - يەرلىك يېڭىلىق يارىتىش ۋە تەرەققىياتنى ئىلگىرى سۈرۈپ سانلىق مەلۇمات توپلىمى قۇرۇشنى قوللايدۇ
+# icon is an arrow that points to the right
+get-in-touch-button = <icon> </icon> بىلەن ئالاقىلىشىڭ
+# Partners section
+our-partners-include = شېرىكلىرىمىز…

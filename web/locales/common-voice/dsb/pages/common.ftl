@@ -264,6 +264,7 @@ privacy = Priwatnosć
 terms = Wuměnjenja
 cookies = Cookieje
 faq = CSP
+documentation = Dokumentacija
 content-license-text = Wopśimjeśe jo k dispoziciji pód <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
 share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos na { $link }
