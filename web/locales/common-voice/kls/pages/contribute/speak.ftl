@@ -62,6 +62,8 @@ create-profile-button = Profile sawzai
 img-alt-success-checkmark = Kamiyab Nishan
 # menu item
 read-sentences = Mas te newishila
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Newishil'a mahi'k
 
 ## MENU ITEM TOOLTIPS
 

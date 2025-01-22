@@ -74,11 +74,15 @@ read-more-about = warek asta mas, Homa bari una page una
 ## NAV ITEMS
 
 answer-questions = Sawal ze Jawab ( ghans' en dai)
+answer-questions-coming-soon = Sawal ze Jawab ( ghans' en dai)
 review-transcriptions = Sawal jama kari ( ghans' en dai)
+review-transcriptions-coming-soon = Sawal jama kari ( ghans' en dai)
 add-questions = Sawal jama kari ( ghans' en dai)
+transcribe-audio-coming-soon = Sawal ze Jawab ( ghans' en dai)
 transcribe-audio = Sawal ze Jawab ( ghans' en dai)
 press-and-stories = Press (khabar) ze Oc'oh'ink
 community-and-languages = Comety ze Zuban
+coming-soon = Gha'ns' ew dai
 
 ## MENU ITEMS TOOLTIPS
 
@@ -99,21 +103,56 @@ community-and-languages-menu-item-aria-label = Jagai comety an ze zuban an bariu
 
 ## Hero section
 
+hero-title = Technology kia ki tai zuban joniu
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = AI dunia as tichak zuban joniu
+hero-subtitle-2 = Homa Zuban homa oc'oh'in'k, homa comete, homa dastu. Ew dataset sawzek kia ki abi aya dunia una pashik
+# icon is an arrow that points downwards
+get-started = Shurukh karik
 
 ## Action items section
 
+action-items-section-title = Sawin Awaz free/ michmi, idara comete ani mochan hatya, data sawzaikas bati
+action-items-section-subtitle = Saw thi th'en, tan zuban pha'zin, newishin ze mon dikas dataset
+scripted-card-header = Newishil'a ma'ik
+language-text-card-header = Zuban newishil'a
+coming-soon = Gha'ns' ew dai
+add-text = Newishil'a jama kari
 
 ## Community section
 
+find-us-on-matrix = Matrix una homa sapres
+# label for button
+find-us-on-matrix-action = Matrix una homa sapres
+# label for button
+ask-mozilla-share-action = Tai krom anzai
+# label for button
+download-contribution-certificate-action = Tan sawtiket gri
+contribute-github = GitHub una phazi
+# label for button
+contribute-github-action = Phazi GitHub una
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Homa mon deta download kari
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Dataset Jagai
 
 ## Get involved section
 
+read-sentences-link = Mas te newishila
+validate-readings-link = Mail'a sahi kari
+contribute-link = Corpus ani newishil'a phazi
+answer-questions-link = Sawal an jawab
+transcribe-answers-link = Newishil'a Jawab
+review-transcriptions-link = Newishil'a geri jagai
+contribute-text-link = Newishil'a phazi
+press-and-stories-link = Newishil'a ze oc'oh'ink
 
 ## Partner section
 
+partner-section-title = Malgeri/ partner ha homa som
