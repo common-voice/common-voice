@@ -162,6 +162,16 @@ explore-datasets = ڈیٹا سیٹونہ پاٞلٹ <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کولاؤ، کمیونٹیاں چاٞگاٞل ڈیٹاسیٹونہ مئ تعاون کٞر
+read-sentences-link = جُملاٞ پٞر
+validate-readings-link = پٞروگ ایں تصدیق کٞر
+contribute-link = متناں مجموعاٞ مئ حصہ تل
+answer-questions-link = سوالوناٞں جواٞب دہ
+transcribe-answers-link = جواٞب چُنڑ
+review-transcriptions-link = چُنڑیلاں جائیزہ گِھن
+contribute-text-link = متن یعنی چُنڑیل مئ حصہ تل
+press-and-stories-link = اخبارات تے قصاٞ
 
 ## Partner section
 
+partner-section-title = ماسٞہ شراکاٞت کٞر
