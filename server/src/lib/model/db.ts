@@ -1232,7 +1232,7 @@ export default class DB {
     )[0][0].count
   }
 
-  async getVariants(client_id: string, locale?: string) {
+  async getVariants(locale?: string) {
     const [variants] = await this.mysql.query(
       `
       SELECT name as lang, variant_token AS tag, v.id AS variant_id, variant_name FROM variants v
