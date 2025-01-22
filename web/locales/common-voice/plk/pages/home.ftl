@@ -190,5 +190,14 @@ press-and-stories-link = پریس گہ قصائے
 
 ## Partner section
 
+partner-section-title = اسو سے شراکت تِھیا
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئے
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئے </bold> - فروغ پزیر کثیر لسانی AI موحولیاتی نظامے کِرِیا اوپن ڈیٹا سیٹو تخلیق دہ سرمایہ کاری تِھیا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی گہ محققِین </bold>  مفت دہ مؤثر ڈیٹا سیٹ سنِیا، مدڇِھیار تِھیا آں اسݨیْے اشتراک تِھیا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستی </bold> - مقامی اختراع گہ ترقی فروغ دونے کِرِیا ڈیٹا سیٹے تخلیق سپانسر تِھیا۔
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ تِھیا <icon></icon>
+# Partners section
+our-partners-include = اسے شراکت دارو مجی شامِلَن ۔۔۔۔
