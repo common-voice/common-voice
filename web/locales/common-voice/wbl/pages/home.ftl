@@ -132,6 +132,7 @@ join-discord-community = Dẽ D̃iscord̃ shomil woc
 # label for button
 join-discord-community-action = Sẽ D̃iskard dẽ sakẽn shomil woc.
 join-discord-community-content = Dẽ zikvẽ jẽmoatẽ qẽsa shomil woc, sowol car, woz wezaynẽ muqaẽt qẽsav shomil woc
+find-us-on-matrix = Sẽk Mat̃riks sakẽ (Matrix) got
 
 ## Featured section
 
