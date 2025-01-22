@@ -172,9 +172,23 @@ download-press-pack = اسے پریس پیک ڈاؤن لوڈ تِھیا <icon></
 ## Developers section
 
 developers-section-title = 130+ جِبوْ مجیْ عوامی شان گیْ قابل رسائی اوپن سورس ڈیٹا سیٹس
+developers-section-subtitle = ASR، STT، TTS، آں مُتہ NLP سیاق گہ سباق اےْ کِرِیا ڈیٹا سیٹس - کمیونٹی  شرکت گیْ سنجِلان۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹس اورڑِیا <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوزگار شان گیْ کمیونٹی قیادت دہ ڈیٹا سیٹو حمایت تِھیا۔
+read-sentences-link = جُملائے پڑِیا
+validate-readings-link = جُملائے پڑیونے توثیق تِھیا۔
+contribute-link = ٹیکسٹ کارپس دہ تعاون تِھیا۔
+answer-questions-link = سُوالو جُواب دِیا
+transcribe-answers-link = جُوبیْ نقل تِھیا
+review-transcriptions-link = نقلو جائزہ ہرہ
+contribute-text-link = متَن دہ تعاون تِھیا
+press-and-stories-link = پریس گہ قصائے
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئے
