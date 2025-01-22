@@ -13,13 +13,13 @@ record-error-too-quiet = ٹیپ کٞراٞل باٞر خاموش آش۔
 record-cancel = دوارہ ٹیپ کٞراٞل ختم کٞر۔
 record-instruction = { $actionType }<recordIcon></recordIcon> دیگیر تیز ہواٞز دہ جملہ پٞر
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>کون کیر تہ
-record-three-more-instruction = ݪا بٞچوگٞہ۔
+record-three-more-instruction = ݪا دٞرُوت
 record-again-instruction = باٞر ران؛ </recordIcon><recordIcon>تانی دی کلپ ٹیپ کٞر۔
 record-again-instruction2 = آٞس جاری ساٞت، دیگیراں ٹیپ کٞر۔</recordIcon><recordIcon>
 record-last-instruction = <recordIcon></recordIcon>نیپٞتوگ
 review-tooltip = جائزہ گِھن تے دیگیراں ٹیپ کٞر کھیکی تو گا تہ
 share-clip = تانی کلپ شریک کٞر۔
-share-common-voice = اٞچھلاٞں ہواز شریک کٞراٞ۔
+share-common-voice = کامن وائیس شریک کٞر۔
 review-instruction = کٞچری ضرولاٞت ہی  کلپ جائزہ گِھیناٞ تے دوارہ ٹیپ کٞراٞ۔
 record-submit-tooltip = { $actionType }جمع کٞراٞ کون تیار ہی تہ۔
 clips-uploaded = کلپونہ اوکالی۔
@@ -62,6 +62,8 @@ create-profile-button = اٞ پروفائیل چاٞ
 img-alt-success-checkmark = چیک آں نشان صحیح کٞر
 # menu item
 read-sentences = جملاٞ پٞر
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملاٞ پٞر <small>(شاٞردہ ینت)</small>
 
 ## MENU ITEM TOOLTIPS
 
