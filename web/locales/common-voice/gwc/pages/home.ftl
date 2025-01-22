@@ -111,6 +111,11 @@ get-started = شورو کٞر
 
 ## Action items section
 
+action-items-section-title = کامن وائیس مفت تے اوپن سورس پلیٹ فارم تھو، عام خلقیں کیر اُوں تام تانی مواد جمہ کٞرنت۔
+action-items-section-subtitle = ہاٞرہ مانوڄ تانی جِب محفوظ، دوبارہ جان کٞروگ تے مِڄ کہ ناٞگیں کیر مواد شریک کٞرئی، مواد چائی تے موادیں نگرانی تے ہوازاں ڈیٹاسیٹ جمع کٞرئی۔
+scripted-card-header = چُنڑاٞل جولاگ
+scripted-card-content = جملاٞ تانی جِب مئی شیتی مناٞ تے دُنایاں سوئے ما زیات خور ہوگاٞل ہوازیں ڈیٹاسیٹ سہ مداٞد کراٞ۔
+spontaneous-card-header = اجانہ جولاگ
 
 ## Community section
 
