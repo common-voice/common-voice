@@ -176,3 +176,4 @@ press-and-stories-link = پرېس او کهانئے
 
 ## Partner section
 
+partner-section-title = ماخ ګډ بائی والي

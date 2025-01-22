@@ -113,6 +113,7 @@ get-started = شروع کرہ <icon><icon>
 ## Action items section
 
 action-items-section-title = کامن وائس خلکہ وَیں ذریعہ لا مواد سَن٘دئن٘یۡیاں ݜے پلېٹ فارم تُھو چے اُو مُفُت تُھو آں ہر کسیں ہتے اېن٘یۡیاں قابل تُھو
+scripted-card-header = لِکېل تقریر
 language-text-card-header = ژِبَیں لِکیلیۡ
 coming-soon = ہن٘گس اېن٘یۡیاں تُھو
 add-text = لِکیلیۡ ٹل کرہ
@@ -155,6 +156,8 @@ press-and-stories-link = اخبار تے خبری
 ## Partner section
 
 partner-section-title = زؤں ملیۡ مرگلیۡتیا کرہ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = اېک ترقی بذیر چے ژِبہۡ وَیں مصنوعی ذہانتاں نظاماں کریا اوپن ڈېٹاسیٹ سن٘دَیں مہ </bold>ٹېک کمپنی یہ</bold> سرمایہ کاری کراں تھی
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ مہ دھرہ <icon></icon>
 # Partners section
