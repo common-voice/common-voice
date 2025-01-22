@@ -26,3 +26,4 @@ respond-to-prompt = ქუპასუხით მოთხუალას
 ## Not Found Page
 
 not-found-page-header = ვეგორჷ
+not-found-page-content = ხასილა, ნამუსუთ გორჷნთჷნი, ვეძირჷ.

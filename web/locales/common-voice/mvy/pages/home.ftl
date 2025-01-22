@@ -122,8 +122,15 @@ add-text = لِکیلیۡ ٹل کرہ
 find-us-on-matrix = زؤں مېٹرِکس لا ڇہ/ڇالہ
 # label for button
 find-us-on-matrix-action = زؤں مېٹرِکس لا ڇہ/ڇالہ
+ask-mozilla-share = موزېلا دِش بنہ لہ تاں پُرگِرامہ شئیر کېر
+# label for button
+ask-mozilla-share-action = تاں پُرگِرام شئیر کرہ
+download-contribution-certificate = تاں حصہ ہرَیں یاں سرٹیفیکېٹ ہرہ
 # label for button
 download-contribution-certificate-action = تاں سرٹیفیکېٹ ہرہ
+contribute-github = گِٹ ہبہ لا حصہ ہرہ
+# label for button
+contribute-github-action = گِٹ ہبہ لا حصہ ہرہ
 
 ## Featured section
 

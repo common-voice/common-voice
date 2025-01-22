@@ -132,6 +132,17 @@ join-discord-community-action = مُوں ڈسکورڈ مئی شامل کٞر
 join-discord-community-content = لسانی کمیونٹی آٞں باٞث مئ حصہ گِھن، سوالونہ کٞر، تے آئیندہ ہوگ والہ واقیاٞت تے جولاٞگاٞں باٞراٞ مئ اِزدہ کٞر۔
 find-us-on-matrix = میٹرکس مئ ما سٞہ میلا ہو
 find-us-on-matrix-content = میٹرِکس اٞ کولاؤ تے تواٞں سطاٞ دہ تیزترین جولاگ پھݭاگاں اٞ پروٹوکول تھو، تے موزِلا آں باث کروگاں کولا ترجیحی پلیٹ فارم تھو۔
+# label for button
+find-us-on-matrix-action = میٹرکس مئ ما سٞہ میلا ہو
+ask-mozilla-share = موذلاٞ ما تانی واقیاٞت شریک کٞروگ دیاٞ
+ask-mozilla-share-content = لنگاٞل یا آئیندہ ایں کیر کٞہ واقیاٞت تھو آٞ؟ ما سٞہ شریک کٞر تے مٞہ تانی کمیونٹی کٞہ اساں ایلان کٞری یا اساٞں باٞراٞ مئ اٞ بلاگ چُنڑی۔
+# label for button
+ask-mozilla-share-action = تانی واقیہ شریک کٞر
+download-contribution-certificate = تانی حصہ تلوگاں ساڑیپیکاٞٹ ڈاؤن لوڈ کٞر
+download-contribution-certificate-content = لخہ تئ کامن وائیس مئ حصہ تلوت تہ تانی کیر یا تانی واقیاٞتیں کیر ساڑیپیکاٞٹ ڈاؤن لوڈ کٞر— ائ بغیر تھیئہ ممکن نہ ہوبئ۔
+# label for button
+download-contribution-certificate-action = تانی ساڑیپیکاٞٹ حآصیل کٞر
+contribute-github = گِٹ ہب رہ حصہ تل
 
 ## Featured section
 
