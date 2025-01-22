@@ -120,6 +120,7 @@ scripted-card-header = قوليازما نۇتقى
 scripted-card-content = تىلىڭىزنى جۈملىلەرنى يۇقىرى ئاۋازدا ئوقۇپ دۇنيادىكى ئەڭ كۆپ خىللاشقان ئاممىۋى ھەمكارلىقتىكى نۇتۇق سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇڭ.
 spontaneous-card-header = تەبىئىي نۇتۇق
 language-text-card-header = تىل تېكىستى
+language-text-card-content = تەرجىمە، كىچىك تىل مودېلى قاتارلىق تۈرلەرگە ئاممىۋى دائىرىدىكى سۆز بېشى، جۈملە ۋە تېكىست قۇرۇپ ياكى ھەمبەھىرلەيدۇ.
 coming-soon = پات يېقىندا قوشۇلىدۇ
 add-text = تېكىست قوش
 
@@ -129,6 +130,7 @@ community-section-title = دۇنياۋى جامائەت ئىشلىگەن، دۇ�
 join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
 # label for button
 join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
+join-discord-community-content = تىل جامائىتى سۆھبىتىگە قاتنىشىپ، سوئال سوراڭ، كەلگۈسىدىكى پائالىيەت ۋە سۆھبەتلەر ھەققىدىكى ئۇچۇرلارنى ئىگىلەڭ.
 find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
 # label for button
 find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
@@ -144,6 +146,7 @@ contribute-github-action = GitHub دا تۆھپە قوشۇڭ
 
 ## Featured section
 
+featured-section-title = تاراتقۇلاردا…
 # icon is an arrow that points downwards
 download-press-pack = خەۋەر بولىقىمىزنى <icon> </icon> چۈشۈرۈڭ
 
