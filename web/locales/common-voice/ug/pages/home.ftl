@@ -145,6 +145,7 @@ download-contribution-certificate-content = ئەگەر سىز Common Voice قا 
 # label for button
 download-contribution-certificate-action = گۇۋاھنامىڭىزغا ئېرىشىڭ
 contribute-github = GitHub دا تۆھپە قوشۇڭ
+contribute-github-content = بۇ قۇرۇلۇش سىزدەك كىشىلەرسىز ئىمكانسىز ئىدى. 🎉Common Voice قا قاتنىشىش ئۇسۇلى كۆپ خىل، كود يېزىشنى بىلمىسىڭىزمۇ تۆھپە قوشالايسىز!
 # label for button
 contribute-github-action = GitHub دا تۆھپە قوشۇڭ
 
