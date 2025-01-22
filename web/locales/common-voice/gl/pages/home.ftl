@@ -76,8 +76,11 @@ read-more-about = Máis información na pestana "Sobre nós"
 ## NAV ITEMS
 
 answer-questions = Responder preguntas <small>(Proximamente)</small>
+answer-questions-coming-soon = Responder preguntas <small>(proximamente)</small>
 review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
+review-transcriptions-coming-soon = Revisar transcricións <small>(proximamente)</small>
 add-questions = Engadir preguntas <small>(Proximamente)</small>
+transcribe-audio-coming-soon = Transcribir gravacións <small>(proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
@@ -124,7 +127,7 @@ add-text = Achegar texto
 
 ## Community section
 
-community-section-title = Impulsado por comunidades globais, para comunidades globais — xa en 130 linguas e cada vez máis!
+community-section-title = Impulsado por comunidades globais, para comunidades globais — xa en 130 linguas e cada día máis!
 join-discord-community = Únase á nosa comunidade en Discord!
 # label for button
 join-discord-community-action = Unirse a Discord
@@ -173,3 +176,14 @@ press-and-stories-link = Comunicación e novas
 
 ## Partner section
 
+partner-section-title = Colabore connosco
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Empresas tecnolóxicas</bold>: investindo na creación de conxuntos de datos abertos para un próspero ecosistema de IA multilingüe.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sociedade civil e investigadores</bold>: creando, aloxando e compartindo conxuntos de datos de impacto, de forma gratuíta.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Mecenas</bold>: patrocinando a creación de conxuntos de datos para impulsar a innovación e o desenvolvemento local.
+# icon is an arrow that points to the right
+get-in-touch-button = Póñase en contacto <icon></icon>
+# Partners section
+our-partners-include = Algúns dos nosos socios:
