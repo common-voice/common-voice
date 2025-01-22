@@ -177,3 +177,7 @@ press-and-stories-link = پرېس او کهانئے
 ## Partner section
 
 partner-section-title = ماخ ګډ بائی والي
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = ټېکنیکل کمپنئےــ سرمایه يې لکوئ ته جَوَت ډېټاسېټ تخلیق نر، ته سۀ ترقي کوُونکئ او ته ګنړ زبنی مصنوعي ذهانت ایکو سسټم پاره
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = سېول سوسائټي او ریسرچرــ سۀ متاثرکُن ډېټاسېټ يې جوړ کوئ، مېزباني وې کوئ، او شریک وه کوئ

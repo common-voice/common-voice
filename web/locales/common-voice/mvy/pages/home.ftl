@@ -106,6 +106,8 @@ community-and-languages-menu-item-aria-label = کامن وائس چےۡ گھِن
 ## Hero section
 
 hero-title = ݜے ٹېکنالوجی چے سو تیں ژیب دے
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے آئ دُنئیں صرف دھان٘کہ ژِبوں مہ قدر ہو تھی یی!  آخر گِنہۡ؟</bold>
 hero-subtitle-2 = بِڅَیں ژیب بِڅاں تاریخ، بِڅَیں معاشرہ آں بِڅَیں رِوایت تھی۔ ای لہ ݜے لک ڈېٹا سیٹ سَن٘دِگ چے تس بِس دُنَیں مہ پشئین٘یۡیاں غرضی تھو۔
 # icon is an arrow that points downwards
 get-started = شروع کرہ <icon><icon>
@@ -113,7 +115,10 @@ get-started = شروع کرہ <icon><icon>
 ## Action items section
 
 action-items-section-title = کامن وائس خلکہ وَیں ذریعہ لا مواد سَن٘دئن٘یۡیاں ݜے پلېٹ فارم تُھو چے اُو مُفُت تُھو آں ہر کسیں ہتے اېن٘یۡیاں قابل تُھو
+action-items-section-subtitle = لِکیلیۡ آں بنیلیۡ بلی واں ڈېٹا سیٹہ سن٘دَیں، سُون٘ݜئرَیں آں مُوٹُھو ڇہېں ہِن ہر کؤں تَیں ژیب ژن٘دیۡرَیں، محفوظ کرَیں آں بُوئ اُڇھَیں تُھو۔
 scripted-card-header = لِکېل تقریر
+scripted-card-content = تَیں ژِبہۡ مہ تا لا ݜَیں جُملی پڑہ آں دُنیں یاں خلکہ وَیں مدتی ہِن سن٘دژېل رن٘گا رن٘گ بلی واں ڈېٹا سیٹہ مہ تاں حصہ گلہ۔
+spontaneous-card-header = فی البدیہہ تقریر
 language-text-card-header = ژِبَیں لِکیلیۡ
 coming-soon = ہن٘گس اېن٘یۡیاں تُھو
 add-text = لِکیلیۡ ٹل کرہ
