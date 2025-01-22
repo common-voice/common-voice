@@ -164,6 +164,18 @@ explore-datasets = D̃at̃set̃ẽ got<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Hetẽr mẽdad, jẽmoatẽ k̃hetk d̃at̃aset̃isht.
+read-sentences-link = Jũmlavẽ joy
+validate-readings-link = Joynẽvẽ towsiq
+contribute-link = Matanẽ growr hisadorig̃h
+answer-questions-link = Sowolvẽ jẽwobẽ rand
+transcribe-answers-link = Jẽwobvẽ naqẽl
+review-transcriptions-link = Naqlẽvẽ didig̃h (review)
+contribute-text-link = matan shomil
+press-and-stories-link = pakhch woz zhindagisht
 
 ## Partner section
 
+partner-section-title = Dẽ sakẽn shẽrikat dorig̃h
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>kompũnivẽ murs</bold> - sẽk d̃at̃aset̃ kharch ziyoda zikvẽ tẽrpẽrũt yundakẽ dẽstan AI takhliqi moliyoti ijodẽ destan
