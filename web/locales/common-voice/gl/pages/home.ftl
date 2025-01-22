@@ -102,6 +102,9 @@ community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas
 ## Hero section
 
 hero-title = Tecnoloxía que fala o seu idioma
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Ten sentido que a IA só funcione nunhas poucas linguas?</bold>
+hero-subtitle-2 = A nosa lingua é a nosa historia, a nosa comunidade, a nosa cultura. Creemos os conxuntos de datos que queremos ver no mundo.
 # icon is an arrow that points downwards
 get-started = Comezar
 
