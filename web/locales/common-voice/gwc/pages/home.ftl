@@ -126,6 +126,9 @@ add-text = مواد شامل کٞر
 ## Community section
 
 community-section-title = عالمی برادریانیں ایں پِیڄ تھی تقویت یافتہ، تے عالمی برادریانیں —130 جِب تے ترقی ایں کیر!
+join-discord-community = ڈِسکورڈ گروپ مئی شامل ہو
+# label for button
+join-discord-community-action = مُوں ڈسکورڈ مئی شامل کٞر
 
 ## Featured section
 
