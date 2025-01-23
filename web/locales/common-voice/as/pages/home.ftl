@@ -130,15 +130,28 @@ add-text = পাঠ যোগ কৰক
 
 ## Community section
 
+community-section-title = বিশ্বব্যাপী সমাজৰ দ্বাৰা চালিত, বিশ্বব্যাপী সমাজৰ বাবে — 130টা ভাষা আৰু বাঢ়িয়েই আছে!
+join-discord-community = Discord সমাজত যোগদান কৰক
+# label for button
+join-discord-community-action = Discord-ত আমাৰ সৈতে যোগদান কৰক
+join-discord-community-content = ভাষিক সমাজৰ আলোচনাত অংশগ্ৰহণ কৰক, প্ৰশ্ন কৰক আৰু আগন্তুক অনুষ্ঠান আৰু কথোপকথনৰ বিষয়ে জানি লওক।
+find-us-on-matrix = আমাক Matrix-ত পাওক
+find-us-on-matrix-content = Matrix হৈছে বিকেন্দ্ৰিত, বাস্তৱ-সময়ৰ যোগাযোগৰ বাবে এক মুক্ত, লঘু প্ৰ’টকল আৰু Mozilla-ৰ পছন্দৰ মুক্ত আলোচনাৰ মঞ্চ।
+# label for button
+find-us-on-matrix-action = আমাক Matrix-ত পাওক
 
 ## Featured section
 
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = ডেটাছেটবোৰ অন্বেষণ কৰক <icon></icon>
 
 ## Get involved section
 
+press-and-stories-link = সংবাদ আৰু গল্প
 
 ## Partner section
 
+partner-section-title = আমাৰ অংশীদাৰ হওক
