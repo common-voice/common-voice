@@ -1,5 +1,6 @@
 speak = Parla
 speak-now = Parleu ara
+speak-subtitle = Doneu la veu
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
@@ -59,9 +60,19 @@ already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
 create-profile-button = Crea un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de vistiplau
+# menu item
+read-sentences = Llegiu frases
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Llegiu frases <small>(properament)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Llegiu frases, responeu preguntes
+read-sentences-menu-item-tooltip = Enregistreu-vos llegint frases en la vostra llengua
+answer-questions-menu-item-tooltip = Enregistreu-vos responent preguntes i frases en la vostra llengua
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Menú d'opcions de Parla
+read-sentences-menu-item-aria-label = Llegiu frases enviades per la comunitat en diferents llengües
+answer-questions-menu-item-aria-label = Envieu una pregunta nova perquè la comunitat la llegeixi i respongui

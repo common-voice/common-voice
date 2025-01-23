@@ -24,3 +24,5 @@ review-transcriptions-menu-item-tooltip = Reviseu les transcripcions enviades pe
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Menú d'opcions d'Escolta
+validate-readings-menu-item-aria-label = Valideu els enregistraments enviats pels membres de la comunitat
+review-transcriptions-menu-item-aria-label = Reviseu les transcripcions de les frases enregistrades
