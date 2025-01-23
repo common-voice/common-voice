@@ -247,11 +247,9 @@ export async function authMiddleware(
     )
 
     request.session.user = { ...request.session.user, client_id }
-    next()
-    return
   }
 
-  return response.sendStatus(401)
+  next()
 }
 
 function createJwtPayload(

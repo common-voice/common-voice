@@ -62,6 +62,8 @@ create-profile-button = প্ৰ’ফাইলৰ সৃষ্টি কৰক
 img-alt-success-checkmark = চেকমাৰ্ক সফল
 # menu item
 read-sentences = বাক্য পঢ়ক
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = বাক্য পঢ়ক <small>(শীঘ্ৰেই আহি আছে)</small>
 
 ## MENU ITEM TOOLTIPS
 
