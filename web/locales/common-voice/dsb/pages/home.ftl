@@ -151,6 +151,7 @@ download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title = Zjawnje pśistupne wótwórjone powědańske datowe sajźby we wěcej ako 130 rěcach
 # icon is an arrow that points to the right
 explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 

@@ -151,6 +151,7 @@ download-press-pack = Sćehńće naše nowinske podłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title = Zjawnje přistupne wotewrjene rěčenske datowe sadźby we wjace hač 130 rěčach
 # icon is an arrow that points to the right
 explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 
