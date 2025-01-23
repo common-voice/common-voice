@@ -64,9 +64,9 @@ about-playbook-how-add-language = کھیکی یہ اٞ جِب میلام؟
 about-playbook-how-add-language-content-1 = اٞواٞلہ  بیݭ اوں چھیں جِب<languageLink> مِݭ گٞشی تھی کو نہ۔ </languageLink> کٞہ نات، تو <languageRequestLink> تانی جِب میلاگیں کیر درخاس کٞرباں</languageRequestLink>۔  دو مرحلاٞ تھو۔ اٞتھیں سائٹاں ترجمہ کٞروگ تے جملاٞ سمٞٹوگ
 about-playbook-how-add-language-translating-heading = سائٹاں ترجمہ کٞروگ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>موں گائڈ بِیر اوں کھیکی پونٹون استمال کٞراٞں۔</translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = مٞہ مزیلاٞ آلہ استمال کٞراٞں<pontoonLink>پینٹون</pontoonLink>ترجمیں کیر۔پینٹون ماٞکہ باٞر جِبونہ تھی، پرہ کٞہ چھیں جِب نہ ہی تو <pontoonRequestLink>تانی جِب میلاگیں کیر درخاست کٞرباں</pontoonRequestLink>۔دیگیر، کامن وائس پراجیکٹ مئ جِب گیاگیں کیر<githubRepoLink>نیم جِباں درخاست دہ گِٹ ہب رہ</githubRepoLink>۔<localizationFragment>سائٹ آں ترجماٞ رہ دی بیݭ</localizationFragment>۔
+about-playbook-how-add-language-translating-content-2 = مٞہ ترجمیں کیر مزیلاٞں آلہ استمال کٞراٞں تاٞس کٞہ <pontoonLink>پونٹون</pontoonLink>مناٞں۔ پونٹون ماٞکہ باٞر جِبونہ تھی، پرہ کٞہ چھیں جِب نہ ہی تو <pontoonRequestLink>تانی جِب میلاگیں کیر درخاست کٞرباں</pontoonRequestLink>۔دیگیر، کامن وائس پراجیکٹ مئ جِب گیاگیں کیر<githubRepoLink>نیم جِباں درخاست دہ گِٹ ہب رہ</githubRepoLink>۔ <localizationFragment>سائٹ آں ترجماٞ رہ دی بیݭ</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جملاٞ جمع کٞروگ
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>مون گائڈ بِیر اوں کھیکی جملاٞ جمع کٞروگ والا استمال کٞرنت</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> جملاٞ جمع کٞروگ والا استمال کٞروگیں کیر مُوں گائیڈ بیر</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd>اوچھوٹ جملاٞ پا میلاباں</sentenceCollectorLinkAdd>، یا تو <bulkImportDocsLink> زیات داٞباںگِٹ ہب استمال کٞروگ دہ</bulkImportDocsLink>۔ یاٞد ساٞت اوں جملاٞ کٞہ ضرولی  تھو اوں <licenseLink>سی سی0یا(پبلک ڈومین)</licenseLink>، یا تو اٞپینہ  اپانکٞہ چُنڑباں۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملاٞ جمع کٞروگ راٞکہ دی بیݭ</sentenceCollectorFragment>۔
 

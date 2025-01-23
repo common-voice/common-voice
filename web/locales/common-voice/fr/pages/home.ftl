@@ -86,6 +86,7 @@ transcribe-audio-coming-soon = Transcriptions audio <small>(prochainement)</smal
 transcribe-audio = Transcriptions audio <small>(prochainement)</small>
 press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
+coming-soon = Prochainement
 
 ## MENU ITEMS TOOLTIPS
 
@@ -116,12 +117,31 @@ get-started = Pour commencer <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice est une plateforme libre et open source pour la création de données par la communauté.
+coming-soon = Prochainement
 
 ## Community section
 
+# label for button
+join-discord-community-action = Rejoignez-nous sur Discord
+join-discord-community-content = { "" }
+find-us-on-matrix = Retrouvez-nous sur Matrix
+find-us-on-matrix-content = Matrix est un protocole ouvert et léger pour une communication décentralisée en temps réel, et la plateforme de discussion ouverte préférée de Mozilla.
+# label for button
+find-us-on-matrix-action = Retrouvez-nous sur Matrix
+ask-mozilla-share = Demandez à Mozilla de partager vos évènements
+# label for button
+ask-mozilla-share-action = Partager votre évènement
+download-contribution-certificate = Téléchargez votre certificat de contribution
+# label for button
+download-contribution-certificate-action = Obtenir votre certificat
+contribute-github = Contribuez sur GitHub
+# label for button
+contribute-github-action = Contribuer sur GitHub
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Téléchargez notre dossier de presse <icon></icon>
 
 ## Developers section
 
