@@ -111,7 +111,7 @@ about-playbook-how-grow-language-content-8 = <strong> تخلیقی ہو! </stron
 
 about-playbook-how-validate = ہوازاں اٞ کلِپ منظور کٞرم کو نہ آٞس کھیکی جاٞنم؟
 about-playbook-how-validate-content-1 = لخہ تو <strong> توم بُجبنش تہ </strong> تے تاٞس جانبنش تہ، <strong> اسوں منظور کٞروگ ران </strong>۔
-about-playbook-how-validate-content-2 = <strong> اٞ جولاگ والاں لہجہ چھاٞں ما بداٞل آش تہ تتھیں کلِپ مسترد مو کٞر۔ </strong>
+about-playbook-how-validate-content-2 = <strong> اٞ جولاگ والاں لہجہ چھاٞں ما بداٞل آش تہ تتھیں کلِپ مسترد مو کٞر۔ </strong> ہواز پویانوگیں کیر ائ اہم اُوں سوئیں کیر کار کٞرئ تہ۔
 about-playbook-how-validate-content-3 = لخہ چھاں خیاٞل سٞہ تلفظ / ادائیگی اِچھلہ تھی اوں آٞساں <strong> جانوگ ممکن نات تہ </strong> ، یا ان مئ <strong> پس منظری ہؤو باٞر زیات تھی </strong> ، ان مئ <strong> دی خلک پا جولاٞنت </strong>، تھکو اساں مسترد کٞروگ پکاٞر۔ <accuracyLink> دی مالوماتیں کیر موں صِحت / صحی توپ آٞں اُصول بیر</accuracyLink> ۔
 about-playbook-how-validate-content-4 = لخہ اٞ کلِپ دوئ ماٞنوڄہ مسترد کِیر تے ائ ڈیٹاسیٹاٞں دی اٞ ماتحت سیٹ مئ چھوریل ہوئ۔
 
@@ -119,17 +119,17 @@ about-playbook-how-validate-content-4 = لخہ اٞ کلِپ دوئ ماٞنوڄ
 
 about-playbook-how-access-dataset = یہ ڈیٹا سیٹ کٞہ کھیکی پھݭم تے آٞس کھیکی استمال کٞرم؟
 about-playbook-how-access-dataset-content-1 = تو <datasetsPage> ڈیٹاسیٹاٞں پاٞݪ</datasetsPage> تھی باتا، کیں خوشآنش تتھیں جِباٞں ورجن جُوݭی ڈاؤنلوڈ کٞر! فائیلز مئ <metadataLink> متعلقہ میٹاڈیٹا </metadataLink> مثلاً ڈیموگرافِک مالومات تے ڈیٹا قابل قبول کٞراگ تھو۔ ڈیٹاسیٹ ڈاؤنلوڈ کٞروگیں کیر چھاٞں ہاٞسہ ای میل ایڈریس داٞجنت۔
-about-playbook-how-access-dataset-content-2 = لخہ اے ایس آراں ماڈل چاگیں کیر آلہ باتانش تہ تو کمیونٹیاں دی خلک سٞہ پا جولاگ دہ <discourseLink> رابطہ کٞرباں </discourseLink>۔
+about-playbook-how-access-dataset-content-2 = لخہ اے ایس آراں ماڈل چاگیں کیر آلہ باتانش تہ تو کمیونٹیاں دی خلک سٞہ <discourseLink> ڈِسکورس </discourseLink> دہ رابطہ کٞرباں۔
 
 ## How are decisions made
 
 about-playbook-how-project-governance = منصوباٞں فیصلاٞ کھیکی کٞرجنت؟
 about-playbook-how-project-governance-content-1 = موزلاٞ آں کامن وائیس تمام دُنایاٞں جِباٞں ماہرین، ڈیٹا سینس واٞلاٞ، مکتباٞ تے سافٹ وئیر انجنیراٞنیں کمیونٹی آٞں وجاٞ دہ ممکن تھو۔ اساں انتظامات موزِلاٞ فاؤنڈیشن سمبال کرینت۔
 about-playbook-how-project-governance-content-2 = اومی تھُن رہ موں املداری آں بنیاد تھو:
-about-playbook-how-project-governance-content-3 = پردہ داری، تحفظ تے شفافیت
-about-playbook-how-project-governance-content-4 = کمیونٹی ایں شِرکت تے فیصلہ ساری
+about-playbook-how-project-governance-content-3 = رازدیری، تحفظ تے شفافیت
+about-playbook-how-project-governance-content-4 = کمیونٹی ایں شِرکت تے فیصلہ سازی
 about-playbook-how-project-governance-content-5 = قدر تے قبولوگ
-about-playbook-how-project-governance-content-6 = آٞک دی مئ محاسبہ
+about-playbook-how-project-governance-content-6 = باہمی محاسبہ
 about-playbook-how-project-governance-content-7 = <governanceLink> موں املدیری آٞں باٞراٞ مئ دی پٞر </governanceLink>
 
 ## How is Common Voice funded
