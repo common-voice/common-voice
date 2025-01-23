@@ -123,6 +123,7 @@ scripted-card-header = লিখিত ভাষণ
 scripted-card-content = আপোনাৰ ভাষাত বাক্য ফুটাই পঢ়ি বিশ্বৰ আটাইতকৈ বৈচিত্ৰময় ৰাইজৰ অংশগ্ৰহণ-যুক্ত ভাষণৰ ডেটাছেটত অৱদান দিয়ক।
 spontaneous-card-header = স্বতঃস্ফূৰ্ত ভাষণ
 spontaneous-card-content = জৈৱিক, কথিত প্ৰসংগৰ বাবে ডেটাছেট তৈয়াৰ কৰিবলৈ প্ৰম্‌প্টৰ প্ৰতি সঁহাৰি জনাওক। মৌখিক-প্ৰধান ভাষাৰ বাবে একেবাৰে উপযুক্ত।
+language-text-card-header = ভাষিক পাঠ
 language-text-card-content = অনুবাদ, সৰু ভাষা-আৰ্হি আৰু অন্যান্যৰ বাবে ৰাজহুৱা ড’মেইনৰ প্ৰম্‌প্ট, বাক্য আৰু পাঠ তৈয়াৰ বা ভাগ-বতৰা কৰক।
 coming-soon = শীঘ্ৰেই আহি আছে
 add-text = পাঠ যোগ কৰক
@@ -154,9 +155,13 @@ contribute-github-action = GitHub-ত অৱদান দিয়ক
 ## Featured section
 
 featured-section-title = এইবোৰত বিশেষকৈ প্ৰদর্শিত...
+# icon is an arrow that points downwards
+download-press-pack = আমাৰ প্ৰেছ পেক ডাউনল’ড কৰক <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130টাৰো অধিক ভাষাত ৰাজহুৱাভাৱে সুগম্য মুক্ত ভাষণৰ ডেটাছেট
+developers-section-subtitle = ASR, STT, TTS আৰু অন্যান্য NLP প্ৰসংগৰ বাবে ডেটাছেট - সামাজিক অংশগ্ৰহণৰ দ্বাৰা সৃষ্ট।
 # icon is an arrow that points to the right
 explore-datasets = ডেটাছেটবোৰ অন্বেষণ কৰক <icon></icon>
 
