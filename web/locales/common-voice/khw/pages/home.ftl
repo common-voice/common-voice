@@ -113,9 +113,12 @@ hero-title = ٹیکنالوجی کی ہسے تہ وارو کویان
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold> اے آئی دنیو ای کما وران تین کو کوروم کوریلیک؟</bold>
 hero-subtitle-2 = اسپہ وار اسپہ کمیونیٹی، اسپہ کلچر۔ گیور ڈیٹاسیٹ ساوزیسی کہ یتوغو اسپہ دنیا بیک  مݰکیسیان
+# icon is an arrow that points downwards
+get-started = شروغ کو<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کمان وائس کمیونیٹیو ساوزیرو مفت وا سفو پچین ای ژاغا
 
 ## Community section
 
