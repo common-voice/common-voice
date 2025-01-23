@@ -74,6 +74,10 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## NAV ITEMS
 
+answer-questions = 回答問題
+review-transcriptions = 審核轉寫
+transcribe-audio = 轉寫語音
+coming-soon = 即將上線
 
 ## MENU ITEMS TOOLTIPS
 
@@ -86,12 +90,24 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## Hero section
 
+hero-title = 講你隻語言嘅技術
 
 ## Action items section
 
+language-text-card-header = 語言文本
+coming-soon = 即將上線
 
 ## Community section
 
+join-discord-community = 加入 Discord 社羣
+# label for button
+join-discord-community-action = 入嚟 Discord 傾
+find-us-on-matrix = 喺 Matrix 度揾我哋
+# label for button
+find-us-on-matrix-action = 喺 Matrix 度揾我哋
+# label for button
+download-contribution-certificate-action = 取得你嘅證書
+contribute-github = 喺 GitHub 度貢獻
 
 ## Featured section
 
