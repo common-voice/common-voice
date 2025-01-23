@@ -145,3 +145,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Llegiu més so
 ## How is Common Voice funded
 
 about-playbook-how-funded = Com es finança el Common Voice?
+about-playbook-how-funded-content-2 = Allotjar i publicar contínuament els conjunts de dades, millorar la plataforma i executar <africaMradiLink>programes comunitaris</africaMradiLink> costa un munt de diners.
