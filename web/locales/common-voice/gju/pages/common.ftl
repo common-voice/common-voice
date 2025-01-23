@@ -264,6 +264,7 @@ privacy = نجی(ذاتی)
 terms = شرط
 cookies = کوکیز
 faq = کائے سوال
+documentation = کاغذات
 content-license-text = <licenseLink> </licenseLink> کرٹیو کامن لائسنس کے تحت مواد  لبھے گو
 share-title = دوجا لوکاں کی واز ہمنا دین ما مہاری مدد کرو
 share-text = مشین نا سکھان ما مدد کرو جے لوک کس طرحیا اصلی طور اپر  بولیں۔ اپنی واز ات چلاو{ $link }

@@ -82,6 +82,7 @@ read-more-about = مہارے متعلقہ صفحہ اپر ہور پڑھو
 ## NAV ITEMS
 
 answer-questions = سوالاں کا جواب دیو<small>( بہلاں آوے گو) </small>
+answer-questions-coming-soon = سوالاں کا جواب دیو<small>( بہلاں آوے گو) </small>
 review-transcriptions = تجزیہ کو بھی جائزو لیو<small> (بہلاں آوے گو</small>)
 add-questions = سوالاں کو اضافو کرو<small>(بہلاں آوے گو</small>)
 transcribe-audio = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو</small>)
