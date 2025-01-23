@@ -108,9 +108,16 @@ hero-title = ٹیکنالوجی کامک یأ چھی جیِب بنہ یی
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold> اے ائی کئی دُونیئی سی دھأک جیِبا سی کیا کام کویی؟ </bold>
 hero-subtitle-2 = مُھن جیِب مُھن قصہ چھی، مُھن گام تُھو، مُھن کلتور تُھو۔ یا مھو تے ڈیٹا سیٹ سوئی کامک یأ مھو دُونیئی می نیِمادیدا۔
+# icon is an arrow that points downwards
+get-started = لیگیا ہوا
 
 ## Action items section
 
+action-items-section-title = کامن وائس مفت، ہر ریک سی کیا کمیونیٹی سی دیِشا کوئیل ڈیٹا سیٹ چھی۔
+action-items-section-subtitle = ہر کآم لیِگیل او بنیل ڈیٹا سیٹ سیوادے تُنو جیِب سموگوبھادُو، ایس کے نیم جیدُون دے بھادُو آں ایس بھا کو بھادُو۔
+scripted-card-header = مُوش ما سیوادے بأت کؤ
+scripted-card-content = دُونئی سی مے گھین آں ہر ایک سی کیا دیٹا سیٹ  سی ایس کے تُنو جیِب می اُوچات آواز تے جملہ بین دے مدد کو۔
+spontaneous-card-header = مُوا بأت
 
 ## Community section
 
