@@ -14,6 +14,8 @@ listen-abort-cancel = Seguir validando
 listen-abort-confirm = Finalizar a validación
 # Menu item
 validate-readings = Validar lecturas
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Validar lecturas <small>(proximamente)</small>
 
 ## MENU ITEM TOOLTIPS
 

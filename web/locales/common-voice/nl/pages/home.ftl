@@ -141,6 +141,7 @@ ask-mozilla-share-content = Hebt u een eerdere of aankomende gebeurtenis? Deel h
 # label for button
 ask-mozilla-share-action = Uw evenement delen
 download-contribution-certificate = Uw bijdragecertificaat downloaden
+download-contribution-certificate-content = Download een certificaat voor uw evenementen of uzelf als u aan Common Voice hebt bijgedragen – dit is niet mogelijk zonder u!
 # label for button
 download-contribution-certificate-action = Uw certificaat ophalen
 contribute-github = Bijdragen op GitHub

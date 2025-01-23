@@ -230,6 +230,7 @@ privacy = Privacidade
 terms = Termos
 cookies = Cookies
 faq = PMF
+documentation = Documentación
 content-license-text = Contido dispoñíble baixo <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Axúdenos a atopar outras persoas para doaren a súa voz!
 share-text = Axude a ensinarlles ás máquinas como falamos, doe a súa voz en { $link }
