@@ -2,6 +2,7 @@
 
 sc-review-title = 審核句子
 sc-review-loading = 加載緊句子……
+sc-review-select-language = 請揀一個審核句子嘅語言。
 sc-review-form-button-reject = 否決
 sc-review-form-button-skip = 跳過
 sc-review-form-button-approve = 通過

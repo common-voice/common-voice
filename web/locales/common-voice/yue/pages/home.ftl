@@ -91,9 +91,15 @@ coming-soon = 即將上線
 ## Hero section
 
 hero-title = 講你隻語言嘅技術
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>邊個話 AI 淨係識講嗰幾隻話嘅？</bold>
+hero-subtitle-2 = 我哋嘅語言就係我哋嘅故事、族羣同文化。一齊嚟創造我哋想全世界都見到嘅數據集啦。
+# icon is an arrow that points downwards
+get-started = 開始 <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice 係一個免費開源嘅，由社羣驅動創造數據集嘅平台。
 language-text-card-header = 語言文本
 coming-soon = 即將上線
 
