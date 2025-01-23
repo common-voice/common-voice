@@ -17,7 +17,7 @@ contribute-more =
        *[other] A punt per a fer-ne { $count } més?
     }
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
-no-sentences-for-variants = Pot ser que no quedin frases en la vostra variant de llengua! Si us hi trobeu còmode, podeu canviar la configuració per veure altres frases en la vostra llengua.
+no-sentences-for-variants = Pot ser que no quedin frases en la vostra variant de llengua. Si us hi trobeu còmode, podeu canviar la configuració per veure altres frases en la vostra llengua.
 speak-empty-state-cta = Aporteu frases
 speak-loading-error =
     No hem pogut carregar les oracions.
