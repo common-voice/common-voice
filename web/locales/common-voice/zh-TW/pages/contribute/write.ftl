@@ -125,6 +125,15 @@ add-sentences = 新增句子
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = 新增與審核句子、新增問題、轉錄錄音
+add-sentences-menu-item-tooltip = 新增你語言的句子
+review-sentences-menu-item-tooltip = 審核你語言的句子
+add-questions-menu-item-tooltip = 新增你的語言的問題
+transcribe-audio-menu-item-tooltip = 使用你的語言轉錄錄音
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = 撰寫選項選單
+add-sentences-menu-item-aria-label = 加入新句子讓社群成員閱讀
+review-sentences-menu-item-aria-label = 審核社群送出的現有句子
+add-questions-menu-item-aria-label = 送出新問題讓社群閱讀或回覆
+transcribe-audio-menu-item-aria-label = 將錄音轉錄成文字
