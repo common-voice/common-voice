@@ -6,3 +6,7 @@ respond = Respon
 check = Comprova
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = Transcriu
+loading = S'està carregant…
+login-signup = Inici de sessió / Registre
+login = Inicia la sessió
+logout = Finalitza la sessió
