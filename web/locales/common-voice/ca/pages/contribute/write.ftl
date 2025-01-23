@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = Escriu
-write-instruction = Afegeix <icon></icon> una frase de domini públic
+write-instruction = <icon></icon> Afegiu una frase de domini públic
 write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
 sentence =
     .label = Frase
@@ -64,6 +64,7 @@ news_current_affairs = Notícies i actualitat
 technology_robotics = Tecnologia i robòtica
 sentence-variant-select-label = Variant de la frase
 sentence-variant-select-placeholder = Trieu una variant (opcional)
+sentence-variant-select-multiple-variants = Llenguatge general / diverses variants
 
 ## BULK SUBMISSION 
 
@@ -96,6 +97,22 @@ too-many-files = Hi ha massa fitxers
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Afegiu diverses frases de domini públic
+multiple-sentences-error = No podeu afegir diverses frases en enviaments de frase única
+exceeds-small-batch-limit-error = No es poden enviar més de 1000 frases
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] S'ha superat el límit. Torneu-ho a provar d'aquí a 1 minut
+       *[other] S'ha superat el límit. Torneu-ho a provar d'aquí a { $retryLimit } minuts
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Heu assolit el límit d'enviaments per aquesta pàgina. Espereu 1 minut abans d'enviar una altra frase. Gràcies per la vostra paciència!
+       *[other] Heu assolit el límit d'enviaments per aquesta pàgina. Espereu { $retryLimit } minuts abans d'enviar una altra frase. Gràcies per la vostra paciència!
+    }
 
 ## MENU ITEM TOOLTIPS
 
