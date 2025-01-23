@@ -83,12 +83,12 @@ about-playbook-how-localize-content-5 = مدیدیں کیر موں وضاحتی 
 
 about-playbook-how-add-sentences = یہ کھیکی جملاٞ میلام؟
 about-playbook-how-add-sentences-content-1 = تو جملاٞ میلاباں<writePageLink>چُنڑوگیں پیج </writePageLink> رہ یا جملاں جائزہ گھینباں<reviewPageLink>جائزیں پیج رہ</reviewPageLink>
-about-playbook-how-add-sentences-content-2 = جملاٞ کامن وائس مئ شامل دوئے ماٞنوڄ ݭا جائزہ گھینوگ تے منظور کٞروگ لازمی۔ تو تانی جِبیں کیر ہدایاٞت چاگ<languageGuidelinesLink>ہیماک</languageGuidelinesLink>۔جملاٞ لازمی ہوگ<licenseLink>مپلک ڈومین مئ</licenseLink>تے 15 الفاٞظ ماتھی کھٹاٞ ہوگ۔ تو خط آٞں مالک ماتھی تٞپوس کٞرباں اوں آٞس چاگ<waiverLink>سیسی0 موں ویور اٞماٞل استمال کاٞ</waiverLink>، تے ماں کٞہ لاٞڑاٞcommonvoice@mozilla.com دہ۔
-about-playbook-how-add-sentences-content-3 = تو استمال کٞرباٞن<scraperLink>جملہ گٞڑوگ والہ</scraperLink>ویکیپیڈیا تھی کھٹاٞن جملاٞ دوکٞرگ۔
+about-playbook-how-add-sentences-content-2 = جملاٞ کامن وائس مئ شامل کٞروگیں کیر دوئے ماٞنوڄ ݭا جائزہ گھینوگ تے منظور کٞروگ لازمی۔ تو تانی جِبیں کیر ہدایاٞت چاۓ <languageGuidelinesLink>ہیماک</languageGuidelinesLink>۔ جملاٞ لازمی <licenseLink>مپلک ڈومین </licenseLink> مئی ہوئی تے 15 الفاٞظ ماتھی کھٹاٞن ہوگ۔ تو خط آٞں مالک ماتھی تٞپوس کٞرباں آٞس <waiverLink> CC0 چآگیں کیر موں ویور اٞماٞل استمال کاٞ</waiverLink>، تے ما کٞہ لاٞڑاٞcommonvoice@mozilla.com دہ۔
+about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیاٞ تھی کھٹاٞن جُملاٞ گڑوگیں کیر <scraperLink> جُملاٞ گڑوگ والہ (سافٹ ویئر) </scraperLink> استِمال کٞرباں۔
 
 ## How to record quality
 
-about-playbook-how-record-quality = کھیکی یہ اٞ رین قسیماں واس کلپ ریکارڈ کٞرم؟
+about-playbook-how-record-quality = یہ کھیکی ران معیاراں ہوازاں کلپ ریکارڈ کٞرم؟
 about-playbook-how-record-content-1 = تانی نارمل ہواز مئ مٞن؛ کھیکی تو جولانت  اٞئی قبول تھو، مٞہ چھاں لہجہ کھیکی تھو اینچھلہ ہوگ دیاٞنت تے مٞہ چھاں عام ہواز، سٹائل تے لہجہ دیاٞنت۔
 about-playbook-how-record-content-2 = باٞر زیات پس منظراٞں شور ماں بچ ہو۔ اٞئی تھئ اٞسانہ بُجوگیں کیر پکاٞر۔
 about-playbook-how-record-content-3 = جملہ باٞر احتیاط سٞہ پٞر، مُو چھور، بدٞلاٞ یا میلاٞ الفاٞظ۔
