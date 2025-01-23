@@ -12,6 +12,8 @@ listen-abort-cancel = 繼續驗證
 listen-abort-confirm = 完成驗證
 # Menu item
 validate-readings = 驗證錄音
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = 驗證錄音<small>（即將推出）</small>
 
 ## MENU ITEM TOOLTIPS
 

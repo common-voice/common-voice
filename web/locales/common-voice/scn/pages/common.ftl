@@ -264,6 +264,7 @@ privacy = Privatizza
 terms = Cunnizzioni d'usu
 cookies = Cookie
 faq = FAQ
+documentation = Ducumenti
 content-license-text = Cuntinutu dispunìbbili cu na <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Ajùtani ad attruvari cu' ni po dari a so vuci!
 share-text = Ajuta a nzignàrici ê màchini comu pàrranu i genti nnâ vita vera, dùnani â to vuci nne { $link }
