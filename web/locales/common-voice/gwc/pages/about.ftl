@@ -67,14 +67,14 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>مو
 about-playbook-how-add-language-translating-content-2 = مٞہ ترجمیں کیر مزیلاٞں آلہ استمال کٞراٞں تاٞس کٞہ <pontoonLink>پونٹون</pontoonLink>مناٞں۔ پونٹون ماٞکہ باٞر جِبونہ تھی، پرہ کٞہ چھیں جِب نہ ہی تو <pontoonRequestLink>تانی جِب میلاگیں کیر درخاست کٞرباں</pontoonRequestLink>۔دیگیر، کامن وائس پراجیکٹ مئ جِب گیاگیں کیر<githubRepoLink>نیم جِباں درخاست دہ گِٹ ہب رہ</githubRepoLink>۔ <localizationFragment>سائٹ آں ترجماٞ رہ دی بیݭ</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جملاٞ جمع کٞروگ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> جملاٞ جمع کٞروگ والا استمال کٞروگیں کیر مُوں گائیڈ بیر</sentenceCollectorVideo>۔
-about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd>اوچھوٹ جملاٞ پا میلاباں</sentenceCollectorLinkAdd>، یا تو <bulkImportDocsLink> زیات داٞباںگِٹ ہب استمال کٞروگ دہ</bulkImportDocsLink>۔ یاٞد ساٞت اوں جملاٞ کٞہ ضرولی  تھو اوں <licenseLink>سی سی0یا(پبلک ڈومین)</licenseLink>، یا تو اٞپینہ  اپانکٞہ چُنڑباں۔
+about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd>اوچھوٹ جملاٞ پا میلاباں</sentenceCollectorLinkAdd>، یا تو <bulkImportDocsLink> گِٹ ہب استِمال کآٞ گھاٞن تاٞداٞ مئ جُملاٞ ایمپورٹ کٞرباں </bulkImportDocsLink>۔ یاٞد ساٞت اوں اومی جُملاٞ  <licenseLink>سی سی0 یا (پبلک ڈومین) ہودہ </licenseLink>، یا تو اٞپینہ  اپان ما چُنڑباں۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملاٞ جمع کٞروگ راٞکہ دی بیݭ</sentenceCollectorFragment>۔
 
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کھیکی کار کٞرنت؟
-about-playbook-how-localize-content-1 = کامن وائس سائٹ آں ترجمہ یاں<strong>پینٹون راٞکٞہ</strong>۔
-about-playbook-how-localize-content-2 = <pontoonAccountLink>اٞ اکاونٹ چاٞ</pontoonAccountLink>کٞہ چھاٞں نات تہ۔دیگیر تانی جِب جُوݭ<strong> ٹیم</strong> تے دیگیر پراجیکٹ جُوݭ،<pontoonCvLink>کامن وائس</pontoonCvLink>۔ اٞتھماک ترجمیں کیر فائلونہ ہوگ۔ آٞک وا دہ، دیگیر اٞئی انگریزی آٞں الفاظ پٞشیں تے اٞ خانہ اوں اٞسوں ترجمہ کٞر۔
+about-playbook-how-localize-content-1 = کامن وائس سائٹ آں ترجمہ یاں<strong>پونٹون راٞکٞہ</strong>۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اٞ اکاونٹ چاٞ</pontoonAccountLink>کٞہ چھاٞں نات تہ۔دیگیر تانی جِبیں <strong> ٹیم</strong>جُوݭ تے دیگیر پراجیکٹ <pontoonCvLink>کامن وائس</pontoonCvLink>جُوݭ۔ اٞتھماک ترجمیں کیر فائلونہ ہوگ۔ آٞک وا دہ، دیگیر اٞئی انگریزی آٞں الفاظ پٞشیں تے اٞسوں ترجمہ کٞروگیں کیر اٞ خانہ ۔
 about-playbook-how-localize-content-3 = ترجمہ انگریزی تھی آشاں،پرہ تو پشگ<strong>مشوراٞ</strong>دی جِبونہ مئ۔ بٹن وا<strong> تفصیل</strong> ناٞخ وا دہ، دیگیر<strong>سیٹنگز</strong>لنک تے کیں جِب تو منوانش تاٞس میلاٞ۔ ٹوپہ لاݭیم پیڄاٞ کُوٹہ ترجمیں اٞ لسٹ ہوگ تاٞسکٞہ مناٞ<strong>لوکلز</strong>۔ ترجماٞ صائٹ راٞکٞہ اٞ دوسٞہ پت اخکارہ ہواٞں۔
 about-playbook-how-localize-content-4 = سائٹ چلاگیں کیر تیارظ ہویں کون اٞئی 75 فیصد مکمل ہی تہ۔
 about-playbook-how-localize-content-5 = مدیدیں کیر موں وضاحتی ویڈیو بِیر
