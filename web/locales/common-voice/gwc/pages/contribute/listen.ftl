@@ -25,4 +25,4 @@ review-transcriptions-menu-item-tooltip = تانی جِب مئ صارِفیں ج
 
 listen-contribute-menu-aria-label = بُجوگاں اختیاراتیں لِسٹ
 validate-readings-menu-item-aria-label = کمیونٹیاں ممبراٞنیں دِیش تھی جمہ کٞراٞل پروگ ایں تصدیق کٞر
-review-transcriptions-menu-item-aria-label = ریکارڈ کٞراٞل جُملاٞ صحی کٞروگیں کیر جائیزہ گھِن
+review-transcriptions-menu-item-aria-label = ریکارڈ کٞراٞل جُملاٞ  آٞں چُنڑوگ صحی کٞروگیں کیر جائیزہ گھِن
