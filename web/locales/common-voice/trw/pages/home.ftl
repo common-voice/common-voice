@@ -167,6 +167,23 @@ explore-datasets = مے ڈیٹا سیٹ لوٹا <icon>
 get-involved-section-title = ہر ایک سی کیا پدا کمیوںیٹی سی ڈھأرا ڈیٹا سیٹ سی مدد کوا
 read-sentences-link = جملا بنا/پڑھاؤ کوا
 validate-readings-link = بنیل جملا سی توثیق کوا/بُوا کہ ٹیک تھی کو نأ
+contribute-link = لیِگیل مواد می مدد کوا
+answer-questions-link = سوالا سی جواد دا
+transcribe-answers-link = سوال آڈیو ما لیِگا
+review-transcriptions-link = آڈیو ما لیِگیل سی جائزہ گھیِنا
+contribute-text-link = لیِکھ دا/تھلا
+press-and-stories-link = پریس آں ایزید مُھون قصہ
 
 ## Partner section
 
+partner-section-title = مھو سیت شراکت کوا
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنی </bold> تیریقی کوئیل اے ائی سی ماحول می ڈیٹا سیٹ سی سوؤ می مُھن مدد کوا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سیول سوسائیٹی آں محقیق </bold> چیر مزیدا آ آثری ڈیٹا سیٹ مفت می سوا، ایس ملأݜ کوا آں مُوٹھایے شریک کوا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> سخی توبی </bold> ڈیتا سیٹ سی سوؤ می مدد کوا
+# icon is an arrow that points to the right
+get-in-touch-button = مھو سیت رابطہ ہوا </icon>
+# Partners section
+our-partners-include = مُھو سأدا می تھی۔۔۔۔
