@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = آڈیو لیِگُو <small> شیرتے ینیِ
 transcribe-audio = آڈیو لیِگا <small> شیرتے ینیِن
 press-and-stories = پریس او سٹوری
 community-and-languages = کمیونیٹی او جیِب
+coming-soon = شیرتے ینیِن
 
 ## MENU ITEMS TOOLTIPS
 
@@ -118,9 +119,24 @@ action-items-section-subtitle = ہر کآم لیِگیل او بنیل ڈیٹا 
 scripted-card-header = مُوش ما سیوادے بأت کؤ
 scripted-card-content = دُونئی سی مے گھین آں ہر ایک سی کیا دیٹا سیٹ  سی ایس کے تُنو جیِب می اُوچات آواز تے جملہ بین دے مدد کو۔
 spontaneous-card-header = مُوا بأت
+spontaneous-card-content = اُوچات کوئیل سوالا سی جواب تُنُو جیِب سی بنُو سی کیا دا۔ صرف بنیل جیِبا سی کیا چیر شیو تُھو۔
+language-text-card-header = جیِب سی لیِکھ
+language-text-card-content = تُنُو جیِب می سوالا سی جواب دیدے جملہ سوا۔ ترجمہ سی کیا لیؤ جیِبا سی ماڈل سی کیا لیِکھ سوا۔ ہامُوڑ چیر کآں کوابیَدُو
+coming-soon = شیرتے ینیِن
+add-text = لیِکھ جم کو
 
 ## Community section
 
+community-section-title = دُونئی سی خلگے کیِدُو، دُونیئی سی خلگا سی کیا 130 جیِبے جم ہوُئی آں دأل ہوا یدی!
+join-discord-community = دیسکارڈ کمیونیٹی می آمن میِلا
+# label for button
+join-discord-community-action = مھو سیت دیسکاڑد می میِل
+join-discord-community-content = جیِبا سی خلگا سیت بأت کؤ سی، سوالا سی توَس سی آں پأشا یل بأدا سی آں واقعات سی کیا شریک ہُوا۔
+find-us-on-matrix = مھو میٹرکس زید پا
+find-us-on-matrix-content = میٹرکس موزیلا سی اے پدا کوئیل، بأت مأدا سی کیا بُوڑ خلگا سی کیا پلیٹ فارم تھو۔
+# label for button
+find-us-on-matrix-action = مھو میٹرکس زید پا
+ask-mozilla-share = موزیلا ما تُنو واقعات شریک کؤ سی کیا توَس کوا
 
 ## Featured section
 
