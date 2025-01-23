@@ -75,14 +75,14 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ لوکلائزیشن کھیکی کار کٞرنت؟
 about-playbook-how-localize-content-1 = کامن وائس سائٹ آں ترجمہ یاں<strong>پونٹون راٞکٞہ</strong>۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink>اٞ اکاونٹ چاٞ</pontoonAccountLink>کٞہ چھاٞں نات تہ۔دیگیر تانی جِبیں <strong> ٹیم</strong>جُوݭ تے دیگیر پراجیکٹ <pontoonCvLink>کامن وائس</pontoonCvLink>جُوݭ۔ اٞتھماک ترجمیں کیر فائلونہ ہوگ۔ آٞک وا دہ، دیگیر اٞئی انگریزی آٞں الفاظ پٞشیں تے اٞسوں ترجمہ کٞروگیں کیر اٞ خانہ ۔
-about-playbook-how-localize-content-3 = ترجمہ انگریزی تھی آشاں،پرہ تو پشگ<strong>مشوراٞ</strong>دی جِبونہ مئ۔ بٹن وا<strong> تفصیل</strong> ناٞخ وا دہ، دیگیر<strong>سیٹنگز</strong>لنک تے کیں جِب تو منوانش تاٞس میلاٞ۔ ٹوپہ لاݭیم پیڄاٞ کُوٹہ ترجمیں اٞ لسٹ ہوگ تاٞسکٞہ مناٞ<strong>لوکلز</strong>۔ ترجماٞ صائٹ راٞکٞہ اٞ دوسٞہ پت اخکارہ ہواٞں۔
-about-playbook-how-localize-content-4 = سائٹ چلاگیں کیر تیارظ ہویں کون اٞئی 75 فیصد مکمل ہی تہ۔
+about-playbook-how-localize-content-3 = ترجمہ انگریزی تھی آشاں، پرہ تودی جِبونہ مئ <strong>تجاویز</strong> پشئ۔ <strong> پروفائیل</strong> آٞں نٞخ رہ کلِک کٞر، دیگیر<strong>سیٹنگز</strong> ایں لنک کلِک کٞر تے کیں جِب تو منوانش تاٞس میلاٞ۔ ٹوپہ لاݭیم پیڄاٞ کُوٹہ ترجمیں اٞ لسٹ ہوگ تاٞسکٞہ مناٞ<strong>لوکلز</strong>۔ ترجماٞ صائٹ راٞکٞہ اٞ دوسٞہ پت اخکارہ ہواٞں۔
+about-playbook-how-localize-content-4 = سائٹ چلاگیں کیر تیار ہویں کون اٞئی 75 فیصد مکمل ہی تہ۔
 about-playbook-how-localize-content-5 = مدیدیں کیر موں وضاحتی ویڈیو بِیر
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = یہ کھیکی جملاٞ میلام؟
-about-playbook-how-add-sentences-content-1 = تو جملاٞ میلاباں<writePageLink>چُنڑوگیں پیج</writePageLink>یا جملاں جائزہ گھینباں<reviewPageLink>جائزیں پیج رہ</reviewPageLink>
+about-playbook-how-add-sentences-content-1 = تو جملاٞ میلاباں<writePageLink>چُنڑوگیں پیج </writePageLink> رہ یا جملاں جائزہ گھینباں<reviewPageLink>جائزیں پیج رہ</reviewPageLink>
 about-playbook-how-add-sentences-content-2 = جملاٞ کامن وائس مئ شامل دوئے ماٞنوڄ ݭا جائزہ گھینوگ تے منظور کٞروگ لازمی۔ تو تانی جِبیں کیر ہدایاٞت چاگ<languageGuidelinesLink>ہیماک</languageGuidelinesLink>۔جملاٞ لازمی ہوگ<licenseLink>مپلک ڈومین مئ</licenseLink>تے 15 الفاٞظ ماتھی کھٹاٞ ہوگ۔ تو خط آٞں مالک ماتھی تٞپوس کٞرباں اوں آٞس چاگ<waiverLink>سیسی0 موں ویور اٞماٞل استمال کاٞ</waiverLink>، تے ماں کٞہ لاٞڑاٞcommonvoice@mozilla.com دہ۔
 about-playbook-how-add-sentences-content-3 = تو استمال کٞرباٞن<scraperLink>جملہ گٞڑوگ والہ</scraperLink>ویکیپیڈیا تھی کھٹاٞن جملاٞ دوکٞرگ۔
 
