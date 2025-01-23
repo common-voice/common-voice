@@ -151,15 +151,53 @@ find-us-on-matrix-content = میٹرکس ایْک پھگُتھوْ گہ لہُو
 # label for button
 find-us-on-matrix-action = اسو میٹرکس جیْ اورڑِیا
 ask-mozilla-share = موزیلاڑ تومہ واقعاتو اشتراکے رزہ۔
+ask-mozilla-share-content = جوْ لگِتھوْ یا اِیک واقعہ؟ آئے اسو سے شیئر تِھیا آں بیْس آسہ سے اعلان تومیْ کمیونٹی دہ تُھوِیس یا اسہ سے بارَد بلاگ لِکُویس ǃ
+# label for button
+ask-mozilla-share-action = تومیْ واقعہ شیئر تِھیا
+download-contribution-certificate = تومیْ شرکتے سرٹیفکیٹ ڈاؤن لوڈ تِھیا
+download-contribution-certificate-content = اگر څھا کامن وائس دہ تعاون تھیتَن توْ تے تومیْ شرکتے بارَد  ایْک سرٹیفکیٹ ڈاؤن لوڈ تِھیا — آ بیْل څھوْجیْ ممکن نانیْ ǃ
+# label for button
+download-contribution-certificate-action = توموْ سرٹیفکیٹ حاصل تِھیا
+contribute-github = GitHubجیْ تعاون تِھیا
+contribute-github-content = آ منصوبہ بیل څھوْ ہا جگوجیْ ممکن نانوْ۔ کامن وائس سے شریک بونے لا طریقائین۔  څھوْڑ آ ضورڑت نانیْ چہ تعاون تھونے کِرِیا کوڈ کاتھ تھوݨ ǃ
+# label for button
+contribute-github-action = GitHubجیْ تعاون تِھیا
 
 ## Featured section
 
+featured-section-title = فیچرد دہ
+# icon is an arrow that points downwards
+download-press-pack = اسے پریس پیک ڈاؤن لوڈ تِھیا <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ جِبوْ مجیْ عوامی شان گیْ قابل رسائی اوپن سورس ڈیٹا سیٹس
+developers-section-subtitle = ASR، STT، TTS، آں مُتہ NLP سیاق گہ سباق اےْ کِرِیا ڈیٹا سیٹس - کمیونٹی  شرکت گیْ سنجِلان۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹس اورڑِیا <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوزگار شان گیْ کمیونٹی قیادت دہ ڈیٹا سیٹو حمایت تِھیا۔
+read-sentences-link = جُملائے پڑِیا
+validate-readings-link = جُملائے پڑیونے توثیق تِھیا۔
+contribute-link = ٹیکسٹ کارپس دہ تعاون تِھیا۔
+answer-questions-link = سُوالو جُواب دِیا
+transcribe-answers-link = جُوبیْ نقل تِھیا
+review-transcriptions-link = نقلو جائزہ ہرہ
+contribute-text-link = متَن دہ تعاون تِھیا
+press-and-stories-link = پریس گہ قصائے
 
 ## Partner section
 
+partner-section-title = اسو سے شراکت تِھیا
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئے </bold> - فروغ پزیر کثیر لسانی AI موحولیاتی نظامے کِرِیا اوپن ڈیٹا سیٹو تخلیق دہ سرمایہ کاری تِھیا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی گہ محققِین </bold>  مفت دہ مؤثر ڈیٹا سیٹ سنِیا، مدڇِھیار تِھیا آں اسݨیْے اشتراک تِھیا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستی </bold> - مقامی اختراع گہ ترقی فروغ دونے کِرِیا ڈیٹا سیٹے تخلیق سپانسر تِھیا۔
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ تِھیا <icon></icon>
+# Partners section
+our-partners-include = اسے شراکت دارو مجی شامِلَن ۔۔۔۔

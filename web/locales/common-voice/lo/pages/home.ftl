@@ -100,6 +100,8 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 ## Action items section
 

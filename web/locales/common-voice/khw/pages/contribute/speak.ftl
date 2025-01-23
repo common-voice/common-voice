@@ -62,6 +62,8 @@ create-profile-button = ای پروفائل ساوزاوے
 img-alt-success-checkmark = کامیابیو نݰان
 # menu item
 read-sentences = جملان راوے
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملان راوے<small> ݰاؤ گویان</small>
 
 ## MENU ITEM TOOLTIPS
 

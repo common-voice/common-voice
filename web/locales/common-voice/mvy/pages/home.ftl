@@ -106,6 +106,8 @@ community-and-languages-menu-item-aria-label = کامن وائس چےۡ گھِن
 ## Hero section
 
 hero-title = ݜے ٹېکنالوجی چے سو تیں ژیب دے
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے آئ دُنئیں صرف دھان٘کہ ژِبوں مہ قدر ہو تھی یی!  آخر گِنہۡ؟</bold>
 hero-subtitle-2 = بِڅَیں ژیب بِڅاں تاریخ، بِڅَیں معاشرہ آں بِڅَیں رِوایت تھی۔ ای لہ ݜے لک ڈېٹا سیٹ سَن٘دِگ چے تس بِس دُنَیں مہ پشئین٘یۡیاں غرضی تھو۔
 # icon is an arrow that points downwards
 get-started = شروع کرہ <icon><icon>
@@ -113,30 +115,74 @@ get-started = شروع کرہ <icon><icon>
 ## Action items section
 
 action-items-section-title = کامن وائس خلکہ وَیں ذریعہ لا مواد سَن٘دئن٘یۡیاں ݜے پلېٹ فارم تُھو چے اُو مُفُت تُھو آں ہر کسیں ہتے اېن٘یۡیاں قابل تُھو
+action-items-section-subtitle = لِکیلیۡ آں بنیلیۡ بلی واں ڈېٹا سیٹہ سن٘دَیں، سُون٘ݜئرَیں آں مُوٹُھو ڇہېں ہِن ہر کؤں تَیں ژیب ژن٘دیۡرَیں، محفوظ کرَیں آں بُوئ اُڇھَیں تُھو۔
+scripted-card-header = لِکېل تقریر
+scripted-card-content = تَیں ژِبہۡ مہ تا لا ݜَیں جُملی پڑہ آں دُنیں یاں خلکہ وَیں مدتی ہِن سن٘دژېل رن٘گا رن٘گ بلی واں ڈېٹا سیٹہ مہ تاں حصہ گلہ۔
+spontaneous-card-header = فی البدیہہ تقریر
+spontaneous-card-content = اشاری واں جواب دگلے قدرتی آں عام بلی واں محلاں کریا ڈېٹا سیٹ سن٘دی۔ ݜُو پراجېکٹ سَیں ژِبہۡ واںکریا تُھو کؤں چے لِکیں نہ چئ بنُژیۡ تھی۔
 language-text-card-header = ژِبَیں لِکیلیۡ
+language-text-card-content = عوامی ڈومېن مہ استعمالاں کریا اشاری، جُملی آں لِکیلیۡ سن٘دی یا شئیر کری لہ سَیں ترجمہ/ژیب گُھرؤں ، لیکھیۡ ژِبہۡ واں ماڈل سن٘دؤں آں مُتیۡ مقصدی واں کریا استعمال کرُژاں۔
 coming-soon = ہن٘گس اېن٘یۡیاں تُھو
 add-text = لِکیلیۡ ٹل کرہ
 
 ## Community section
 
+community-section-title = تام دُنیں یاں خلکہ وَیں کِھن٘گی نہ تام دُنَیں خلکہ واں کریا — 130 ژِبہۡ آں مِٹُھویں چئ ہوں بېں تھی!
+join-discord-community = ڈسکارڈ کمیُونٹی مہ ٹل ہو
+# label for button
+join-discord-community-action = ڈسکارڈ لا زَیں مِلہ
+join-discord-community-content = ژِبَیں کمیُونٹی واں بہزؤں مہ حصہ ہرہ، سوالہ کرہ آں اېت پُرگِرامہ تے بال الاوَیں بابتی مہ اما پورژا۔
 find-us-on-matrix = زؤں مېٹرِکس لا ڇہ/ڇالہ
+find-us-on-matrix-content = مېٹرکس اېک کُھلاؤ آں اچھہۡ لک پروٹوکول تُھو چے اُو غېر مرکزی، موجُودہ وختہ مہ رابطاں کریا سن٘دژی تُھو آں موزېلاں خوش کرېل بہزاں پلېٹ فارم تُھو۔
 # label for button
 find-us-on-matrix-action = زؤں مېٹرِکس لا ڇہ/ڇالہ
+ask-mozilla-share = موزېلا دِش بنہ لہ تاں پُرگِرامہ شئیر کېر
+ask-mozilla-share-content = تی گائ مُوٹُھک یا اېت پُرگِرام تُھو یی؟ زَیں اسیں بابتی مہ بنہ، بہ تَیں کمیُونٹی مہ اسیں اعلان کراتھو یا اسی لا اېک بلاگ لِکا تھو!
+# label for button
+ask-mozilla-share-action = تاں پُرگِرام شئیر کرہ
+download-contribution-certificate = تاں حصہ ہرَیں یاں سرٹیفیکېٹ ہرہ
+download-contribution-certificate-content = کہ تُوں کامن وائس مہ حصہ ہری چھی کھیں امَیں یا تاں پُرگِرامہ واں کریا سرٹِفِکېٹ منی والہ — ݜَیں بُٹ تی نہ بغېر ہویں یاں نی آن٘س!
 # label for button
 download-contribution-certificate-action = تاں سرٹیفیکېٹ ہرہ
+contribute-github = گِٹ ہبہ لا حصہ ہرہ
+contribute-github-content = ݜُو پراجېکٹ څاں ڙر خلکؤں نہ بغېر ممکن نی آن٘س ۔🎉 کامن وائسہ ملیۡ ٹل ہویں بېکتُک طریۡقی تھی ۔ ݜسیں کریا تے کوڈِن٘گ سِڇھؤں گی فرض نی تُھو!
+# label for button
+contribute-github-action = گِٹ ہبہ لا حصہ ہرہ
 
 ## Featured section
 
+featured-section-title = نُمایاں کرژی تُھو۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = زاں پرېس پېک <icon></icon> منی والہ
 
 ## Developers section
 
+developers-section-title = 130 نہ بُوئ ژِبوں مہ بُٹ خلکؤں ہتے اے اوپن سپیچ ڈېٹاسیٹ۔
+developers-section-subtitle = اے ایس آر (امَیں اواز معلوم کرؤں)، ایس ٹی ٹی (بلیُوں نہ لکیلیۡ سن٘دؤں)، ٹی ٹی ایس (لِکیلیۡ نہ بال سن٘دؤں)، اور آں مُت قدرتی بلی واں محلاں (این ایل پی) کریا ڈیٹا سیٹہ - چے سَیں خلکہ وَیں مدتی ہِن سن٘دژېل ہوں۔
+# icon is an arrow that points to the right
+explore-datasets = ڈېٹا سیٹہ کن٘گالہ <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوپن، کمیُونٹی یاں سن٘دېل ڈېٹا سیٹہ واں ڈاؤ دھائ
+read-sentences-link = جُملی پڑہ
+validate-readings-link = پڑیلیۡ جُملی سُون٘ݜیۡرا/ منظُور کرہ
+contribute-link = لکیلیۡ مہ اضافہ کرئیں یاں کریا حصہ ہرہ
+answer-questions-link = سوالہ واں جواب دے
+transcribe-answers-link = جواب مہ بنژیلیۡ بال لِکہ
+review-transcriptions-link = بنژیلیۡ بلی دُوبارہ نھالہ
+contribute-text-link = لِکیلیۡ ٹل کرہ
+press-and-stories-link = اخبار تے خبری
 
 ## Partner section
 
 partner-section-title = زؤں ملیۡ مرگلیۡتیا کرہ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = اېک ترقی بذیر چے ژِبہۡ وَیں مصنوعی ذہانتاں نظاماں کریا اوپن ڈېٹاسیٹ سن٘دَیں مہ </bold>ٹېک کمپنی یہ</bold> سرمایہ کاری کراں تھی
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>عام معاشراں خلک آں بِلاڑان٘لہ</bold> مفتہ مہ ڈېٹا سیٹہ سن٘دی ، گھېن٘رولی کری آں مُوٹھو بھک کری۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>فلاحی تنظیمہ</bold> ۔ سُکھیݜیار آں ترقی یاں کریا ڈېٹا سیٹَیں سن٘دَیں یاں عملَیں گھېن٘ر ولی کرہ
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ مہ دھرہ <icon></icon>
 # Partners section

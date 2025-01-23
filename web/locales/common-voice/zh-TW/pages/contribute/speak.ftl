@@ -62,10 +62,17 @@ create-profile-button = 註冊帳號
 img-alt-success-checkmark = 成功勾勾
 # menu item
 read-sentences = 讀句子
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = 閱讀句子 <small>即將推出</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = 讀句子，回答問題
+read-sentences-menu-item-tooltip = 使用你的語言錄下句子
+answer-questions-menu-item-tooltip = 使用你的語言錄下提示問題的回答
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = 錄音選項選單
+read-sentences-menu-item-aria-label = 閱讀社群提交的各語言句子
+answer-questions-menu-item-aria-label = 提出新的問題予社群去閱讀與回應
