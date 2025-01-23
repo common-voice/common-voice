@@ -136,6 +136,11 @@ get-started = شروع کر<icon><icon>
 
 ## Get involved section
 
+read-sentences-link = ڳالھ وارینک ٻُجھ
+validate-readings-link = ریڈنگز تی وجہ ݙے
+review-transcriptions-link = نقلیاں وَتا لال
+press-and-stories-link = پریس ٻِیا کہاݨییں
 
 ## Partner section
 
+partner-section-title = اساں ساں شریک تھی
