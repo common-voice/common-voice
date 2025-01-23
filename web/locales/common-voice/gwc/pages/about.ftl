@@ -135,6 +135,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> موں امل
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائیس کٞہ فنڈ کھیکی داٞجیں؟
-about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن ایں بٞ پراجیکٹ، ا یو ایس 501سی3۔اِیں پراجیکٹ حلٞن سواٞ فنڈ دیانت<philantropicGrantLink> فیلنتھروپِک گرانٹس</philantropicGrantLink>، تے خاٞر تمام دوناٞئے تھی خلٞک دیاٞنت۔
-about-playbook-how-funded-content-2 = اٞن رہ باٞر خرچہ یاں اوں مسلسل ڈیٹا سیٹونہ گٞڑگ تے چاگ،اِیں پلیٹفارم کٞہ ترقی داٞ تے چلا<africaMradiLink> کمیونٹی پروگرامز</africaMradiLink>۔
-about-playbook-how-funded-content-3 = کٞہ تو یا چھاں تنظیم خوشاٞنش اوں پروجیکٹ سٞہ  واپس شرکت کٞرنت۔ تو دگ اٞ<donateLink> چندہ</donateLink> یا موں پارٹنرشپیں ٹیم کٞہ پٞھݭ<emailFragment>commonvoice@mozilla.com</emailFragment>۔
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن ایں یو ایس 501سی3 منی اٞ پراجیکٹ ۔اِیں پراجیکٹ کٞہ حلٞن سواٞ فنڈ دیانت<philantropicGrantLink> فیلنتھروپِک گرانٹس</philantropicGrantLink>، تے خاٞر تمام دوناٞئے تھی خلٞک دیاٞنت۔
+about-playbook-how-funded-content-2 = مسلسل ڈیٹا سیٹونہ چاگ تے اسوں میزبانی کٞروگ رہ، تے اِیں پلیٹفارم مئ بہتری گھیاٞگ  تے <africaMradiLink> کمیونٹی پروگرامز</africaMradiLink>چلاٞگ رہ باٞر خرچہ یاں۔
+about-playbook-how-funded-content-3 = کٞہ تو یا چھاں تنظیم  پروجیکٹ سٞہ مداٞد کٞروگ خوشانت تہ تو<donateLink> چندہ</donateLink> دہ  یا موں پارٹنرشپیں ٹیم سٞہ رابطہ کٞر <emailFragment>commonvoice@mozilla.com</emailFragment>۔
