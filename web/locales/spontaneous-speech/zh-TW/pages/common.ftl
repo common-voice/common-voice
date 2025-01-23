@@ -1,5 +1,16 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = 錯誤
+action-click = 點擊
+action-tap = 點選
+# Label for language switcher
+interface-language = 介面語言
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+contribution-picker-label = 貢獻到 { $language } 的資料集
+# Label for button on contribution switcher
+change = 修改
+coming-soon = 更多語言即將到來！
 media-recorder-api-not-supported = 你的瀏覽器不支援 MediaRecorder API。
 # Toast message that is displayed when an item is skipped
 skipped = 略過

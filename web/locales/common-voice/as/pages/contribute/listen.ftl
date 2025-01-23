@@ -14,6 +14,8 @@ listen-abort-cancel = বৈধকৰ‌ণ অব্যাহত ৰাখক
 listen-abort-confirm = বৈধকৰ‌ণ শেষ কৰক
 # Menu item
 validate-readings = পঢ়নৰ বৈধতা নিশ্চিত কৰক
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = পঢ়নৰ বৈধতা নিশ্চিত কৰক <small>(শীঘ্ৰেই আহি আছে)</small>
 
 ## MENU ITEM TOOLTIPS
 
