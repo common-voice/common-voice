@@ -76,8 +76,11 @@ read-more-about = مُھن مے پاݜ سے دئی بُوا
 ## NAV ITEMS
 
 answer-questions = سوالا سی جواب دا <small> شیرتے یدُو
+answer-questions-coming-soon = سوالا سی جواب دیؤ <small> شیرتے ینیِن
 review-transcriptions = آڈیو سی لیِکھ سی جائزہ گھیںا <small> شیرتے ینیِن
+review-transcriptions-coming-soon = آڈیو سی لیِکھ سی جائزہ گھیںُو <small> شیرتے ینیِن
 add-questions = سوال جمع کوا <small>شیرتے ینیِن
+transcribe-audio-coming-soon = آڈیو لیِگُو <small> شیرتے ینیِن
 transcribe-audio = آڈیو لیِگا <small> شیرتے ینیِن
 press-and-stories = پریس او سٹوری
 community-and-languages = کمیونیٹی او جیِب
@@ -101,6 +104,10 @@ community-and-languages-menu-item-aria-label = کامن وائس کامے جیِ
 
 ## Hero section
 
+hero-title = ٹیکنالوجی کامک یأ چھی جیِب بنہ یی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> اے ائی کئی دُونیئی سی دھأک جیِبا سی کیا کام کویی؟ </bold>
+hero-subtitle-2 = مُھن جیِب مُھن قصہ چھی، مُھن گام تُھو، مُھن کلتور تُھو۔ یا مھو تے ڈیٹا سیٹ سوئی کامک یأ مھو دُونیئی می نیِمادیدا۔
 
 ## Action items section
 

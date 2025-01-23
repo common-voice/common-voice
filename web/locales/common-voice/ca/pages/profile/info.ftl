@@ -76,3 +76,4 @@ variant-contribution-help = Algunes variants i dialectes dins d'una llengua o fa
 variant-contribution-option-1 = Mostra'm frases i talls de totes les variants de la meva llengua
 variant-contribution-option-2 = Mostra'm només frases i talls de la meva variant
 variant-contribution-warning-title = ⓘ No totes les frases i talls tenen etiquetes de variant!
+variant-contribution-warning-subtitle = Si teniu problemes per col·laborar, podeu tornar a veure tot el contingut de la vostra llengua en qualsevol moment.

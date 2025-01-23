@@ -152,8 +152,12 @@ write-contribute-menu-tooltip = Afegiu i reviseu frases, afegiu preguntes, trans
 add-sentences-menu-item-tooltip = Afegiu frases en la vostra llengua
 review-sentences-menu-item-tooltip = Reviseu frases en la vostra llengua
 add-questions-menu-item-tooltip = Afegiu preguntes en la vostra llengua
-transcribe-audio-menu-item-tooltip = Transcriviu els enregistraments d'àudio en la vostra llengua
+transcribe-audio-menu-item-tooltip = Transcriviu enregistraments d'àudio en la vostra llengua
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Menú d'opcions d'Escriu
+add-sentences-menu-item-aria-label = Afegiu frases noves perquè la comunitat les llegeixi
+review-sentences-menu-item-aria-label = Reviseu frases existents enviades per la comunitat
+add-questions-menu-item-aria-label = Envieu preguntes noves perquè la comunitat les llegeixi i respongui
+transcribe-audio-menu-item-aria-label = Transcriviu enregistraments d'àudio a text
