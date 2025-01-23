@@ -112,6 +112,8 @@ community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rě
 ## Hero section
 
 hero-title = Technologija, kótaraž wašu rěc powěda
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Cogodla měła KI jano za mało rěcow swěta funkcioněrowaś?</bold>
 # icon is an arrow that points downwards
 get-started = Prědne kšace <icon><icon>
 
@@ -143,6 +145,8 @@ contribute-github-action = Na Github pśinosowaś
 ## Featured section
 
 featured-section-title = Pśedstajony w…
+# icon is an arrow that points downwards
+download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 
 ## Developers section
 
