@@ -2,7 +2,7 @@
 
 # Toast message that is displayed when an error occurs
 error = Error
-action-click = Feu clic
+action-click = Feu clic a
 action-tap = Toqueu
 # Label for language switcher
 interface-language = Llengua de la interfície:
@@ -27,3 +27,6 @@ not-found-page-header = No s'ha trobat
 not-found-page-content = No s'ha trobat la pàgina que cerqueu
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink> del Common Voice.
+en = anglès
+fr = francès
+tr = turc
