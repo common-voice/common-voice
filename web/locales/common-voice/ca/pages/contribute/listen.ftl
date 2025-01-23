@@ -15,7 +15,7 @@ listen-abort-confirm = Acaba de validar
 # Menu item
 validate-readings = Valideu enregistraments
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Valideu enregistraments <small>(properament)</small>
+validate-readings-coming-soon = Valideu enregistraments <small>(pròximament)</small>
 
 ## MENU ITEM TOOLTIPS
 

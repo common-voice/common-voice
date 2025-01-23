@@ -63,7 +63,7 @@ img-alt-success-checkmark = marca de vistiplau
 # menu item
 read-sentences = Llegiu frases
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = Llegiu frases <small>(properament)</small>
+read-sentences-coming-soon = Llegiu frases <small>(pròximament)</small>
 
 ## MENU ITEM TOOLTIPS
 
