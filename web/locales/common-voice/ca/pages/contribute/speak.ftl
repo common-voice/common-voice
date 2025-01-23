@@ -1,3 +1,5 @@
+speak = Parla
+speak-now = Parleu ara
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
