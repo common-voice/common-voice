@@ -89,6 +89,7 @@ transcribe-audio-coming-soon = آوازو نویشیکا غیراوے<small> (ش
 transcribe-audio = ہوازو نیویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا وار
+coming-soon = شاؤ گویان
 
 ## MENU ITEMS TOOLTIPS
 
@@ -123,6 +124,10 @@ action-items-section-subtitle = کا دی  نیویشیرو وا لوان ڈیٹ
 scripted-card-header = نیویشیرو لو
 scripted-card-content = تان وارو جملان توڑ راوے وا دنیو  مختلف قسمہ عام رویان حصہ گنیرو لوان ڈیٹا سیٹا حصہ دراوے
 spontaneous-card-header = جاری لو
+language-text-card-header = وارو نیویشیرو
+language-text-card-content = عام رویان دائرو اشارہ،  جملہ یا ترجمہ کوریکو پچین نیویشیرو، چیق وارو ماڈل یا خور کیاغ ساوزاوے یا بوژے
+coming-soon = شاؤ گویان
+add-text = نیویشیرو شامل کو
 
 ## Community section
 
