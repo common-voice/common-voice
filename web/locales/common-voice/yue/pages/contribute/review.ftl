@@ -19,3 +19,5 @@ sc-review-link = 審核
 ## REVIEW CRITERIA
 
 sc-review-rules-title = 句話符唔符合規範？
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 我哋做緊啲大改動

@@ -106,14 +106,18 @@ about-playbook-how-grow-language-content-6 = 合作關係同合作網絡
 ## How to validate
 
 about-playbook-how-validate = 點樣決定通唔通過一段錄音呢？
+about-playbook-how-validate-content-4 = 如果有兩個人都否決段錄音，佢哋就會發佈到另一個子集。
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = 點樣攞到數據集嚟用？
+about-playbook-how-access-dataset-content-1 = 你可以去到<datasetsPage>數據集嘅頁面</datasetsPage>，揀想要嘅版本同語言，再將佢下載落嚟。啲檔案會有<metadataLink>有關嘅中繼資料</metadataLink>，就好似人口統計資料同認證資料噉。你一定要畀個電郵地址我哋先可以下載到個數據集。
+about-playbook-how-access-dataset-content-2 = 如果你揾緊搭建 ASR 模型嘅工具，你可以喺<discourseLink>Discourse</discourseLink>上嘅社羣揾人幫手。
 
 ## How are decisions made
 
 about-playbook-how-project-governance = 項目決定係點做嘅？
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice 多得一班由嚟自世界各地嘅社運家、語言學家、數據科學家、學者同軟件工程師組成嘅多元社區先至可以成功。項目本身就由 Mozilla Foundation 組織。
 about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
 about-playbook-how-project-governance-content-4 = 社群參與同決策。
@@ -123,3 +127,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>了解更多�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice 係由邊個贊助㗎？
+about-playbook-how-funded-content-1 = Common Voice 係一個屬於美國 501(c)(3)組織 Mozilla Foundation 嘅項目。項目目前為止完全係由<philantropicGrantLink>慈善撥款</philantropicGrantLink> 同嚟自世界各地嘅捐款贊助。
+about-playbook-how-funded-content-2 = 持續托管同發佈數據集、改良平台同運行<africaMradiLink>社區節目</africaMradiLink>都需要好多錢。
+about-playbook-how-funded-content-3 = 如果你或者你嘅所屬機構有興趣貢獻返嗰項目，可以考慮<donateLink>捐款</donateLink>或者喺<emailFragment>commonvoice@mozilla.com</emailFragment>聯絡我哋嘅團隊做合作夥伙。
