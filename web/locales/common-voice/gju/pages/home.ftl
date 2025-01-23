@@ -84,7 +84,9 @@ read-more-about = مہارے متعلقہ صفحہ اپر ہور پڑھو
 answer-questions = سوالاں کا جواب دیو<small>( بہلاں آوے گو) </small>
 answer-questions-coming-soon = سوالاں کا جواب دیو<small>( بہلاں آوے گو) </small>
 review-transcriptions = تجزیہ کو بھی جائزو لیو<small> (بہلاں آوے گو</small>)
+review-transcriptions-coming-soon = تجزیہ کو بھی جائزو لیو<small> (بہلاں آوے گو)</small>
 add-questions = سوالاں کو اضافو کرو<small>(بہلاں آوے گو</small>)
+transcribe-audio-coming-soon = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو)</small>
 transcribe-audio = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو</small>)
 press-and-stories = دباو تے کہانی
 community-and-languages = برادری تے زبان
@@ -108,6 +110,12 @@ community-and-languages-menu-item-aria-label = زبان تے برادری جن �
 
 ## Hero section
 
+hero-title = ٹیکنالوجی جیہڑی تھہاری زبان بولے
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے آئی نا کیوں دنیا کی کجھ زباناں وسطے کم کرنو چاہیے؟</bold>
+hero-subtitle-2 = مہاری زبان مہاری کہانی، مہارو کنبو،مہارو رہن سہن ہے آو ایک ڈٰیٹا سیٹ بناواں جس نا ہم دنیا ما دیکھنو چاہواں
+# icon is an arrow that points downwards
+get-started = چلو شروع کرون<icon><icon>
 
 ## Action items section
 
