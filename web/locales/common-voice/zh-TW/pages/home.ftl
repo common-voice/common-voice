@@ -106,6 +106,8 @@ hero-title = 讓技術說你的語言
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>為什麼目前的 AI 只能說少數語言？</bold>
 hero-subtitle-2 = 語言構成我們的故事、我們的社群、及我們的文化。讓我們一起建立一個能展現世界的資料集。
+# icon is an arrow that points downwards
+get-started = 開始 <icon><icon>
 
 ## Action items section
 

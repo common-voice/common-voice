@@ -17,6 +17,12 @@ validate-readings-coming-soon = 驗證錄音<small>（即將推出）</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = 驗證錄音，驗證抄錄
+validate-readings-menu-item-tooltip = 驗證你的語言的使用者錄音
+review-transcriptions-menu-item-tooltip = 驗證你語言中的使用者提交抄錄內容
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = 聆聽選項選單
+validate-readings-menu-item-aria-label = 驗證社群提交的錄音
+review-transcriptions-menu-item-aria-label = 驗證錄音的抄錄內容以確認正確度
