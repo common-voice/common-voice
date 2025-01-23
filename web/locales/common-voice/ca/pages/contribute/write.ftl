@@ -139,9 +139,21 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Seguiu les directrius de «Quines frases puc afegir-hi?»
 small-batch-sentences-rule-2 = Afegiu una frase per línia
+small-batch-sentences-rule-3 = Separeu les frases en una línia prement «Intro» o «Retorn» una vegada
+small-batch-sentences-rule-4 = Afegiu fins a 1.000 frases
+small-batch-sentences-rule-5 = Totes les frases han de tenir el mateix domini
+small-batch-sentences-rule-6 = Totes les frases han de tenir la mateixa citació
+# menu item
+add-sentences = Afegeix frases
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Afegiu i reviseu frases, afegiu preguntes, transcriviu àudio
+add-sentences-menu-item-tooltip = Afegiu frases en la vostra llengua
+review-sentences-menu-item-tooltip = Reviseu frases en la vostra llengua
+add-questions-menu-item-tooltip = Afegiu preguntes en la vostra llengua
+transcribe-audio-menu-item-tooltip = Transcriviu els enregistraments d'àudio en la vostra llengua
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Menú d'opcions d'Escriu
