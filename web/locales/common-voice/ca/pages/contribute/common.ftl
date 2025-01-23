@@ -38,6 +38,7 @@ vote-no = No
 datasets = Conjunts de dades
 languages = Llengües
 about = Quant a
+partner = Feu-vos soci
 submit-form-action = Envia
 
 ## Reporting

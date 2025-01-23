@@ -223,6 +223,7 @@ privacy = Privadesa
 terms = Condicions d'ús
 cookies = Galetes
 faq = PMF
+documentation = Documentació
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
 share-title = Ajudeu-nos a trobar més persones que donin la veu!
 share-text = Ensenyeu a les màquines com parlem la gent de debò. Col·laboreu amb la vostra veu a { $link }

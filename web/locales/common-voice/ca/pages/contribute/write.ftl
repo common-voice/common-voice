@@ -107,12 +107,38 @@ rate-limit-toast-message-minutes =
         [one] S'ha superat el límit. Torneu-ho a provar d'aquí a 1 minut
        *[other] S'ha superat el límit. Torneu-ho a provar d'aquí a { $retryLimit } minuts
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] S'ha superat el límit. Torneu-ho a provar d'aquí a 1 segon
+       *[other] S'ha superat el límit. Torneu-ho a provar d'aquí a { $retryLimit } segons
+    }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] Heu assolit el límit d'enviaments per aquesta pàgina. Espereu 1 minut abans d'enviar una altra frase. Gràcies per la vostra paciència!
        *[other] Heu assolit el límit d'enviaments per aquesta pàgina. Espereu { $retryLimit } minuts abans d'enviar una altra frase. Gràcies per la vostra paciència!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Heu assolit el límit d'enviaments per aquesta pàgina. Espereu 1 segon abans d'enviar una altra frase. Gràcies per la vostra paciència!
+       *[other] Heu assolit el límit d'enviaments per aquesta pàgina. Espereu { $retryLimit } segons abans d'enviar una altra frase. Gràcies per la vostra paciència!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] S'ha recollit { $uploadedSentences } d'1 frase
+       *[other] S'han recollit { $uploadedSentences } de { $totalSentences } frases
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] S'ha recollit { $uploadedSentences } d'1 frase. Feu clic <downloadLink>aquí</downloadLink> per baixar les frases rebutjades.
+       *[other] S'han recollit { $uploadedSentences } de { $totalSentences } frases.  Feu clic <downloadLink>aquí</downloadLink> per baixar les frases rebutjades.
+    }
+small-batch-sentences-rule-1 = Seguiu les directrius de «Quines frases puc afegir-hi?»
+small-batch-sentences-rule-2 = Afegiu una frase per línia
 
 ## MENU ITEM TOOLTIPS
 

@@ -14,6 +14,8 @@ listen-abort-cancel = Continua validant
 listen-abort-confirm = Acaba de validar
 # Menu item
 validate-readings = Valideu enregistraments
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Valideu enregistraments <small>(properament)</small>
 
 ## MENU ITEM TOOLTIPS
 
