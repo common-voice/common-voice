@@ -60,6 +60,8 @@ create-profile-button = Profil załožyś
 img-alt-success-checkmark = Symbol wuspěcha
 # menu item
 read-sentences = Sady cytaś
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Sady cytaś <small>(pśiźo skóro)</small>
 
 ## MENU ITEM TOOLTIPS
 

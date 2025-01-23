@@ -128,6 +128,7 @@ join-discord-community-action = Pśizamkniśo se nam na Discord
 find-us-on-matrix = Namakajśo nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajśo nas na Matrix
+ask-mozilla-share = Pšosćo Mozilla, aby waše zarědowanja źělił
 # label for button
 ask-mozilla-share-action = Źělśo swójo zarědowanje
 # label for button
