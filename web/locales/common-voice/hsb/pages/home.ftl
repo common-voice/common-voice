@@ -136,6 +136,7 @@ find-us-on-matrix-action = Namakajće nas na Matrix
 ask-mozilla-share = Prosće Mozilla, zo byšće waše zarjadowanja dźělił
 # label for button
 ask-mozilla-share-action = Dźělće swoje zarjadowanje
+download-contribution-certificate = Sćehńće swój certifikat sobuskutkowanja
 # label for button
 download-contribution-certificate-action = Wobstarajće sej swój certifikat
 contribute-github = Na Github přinošować
