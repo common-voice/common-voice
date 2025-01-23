@@ -117,6 +117,7 @@ get-started = Prěnje kroki <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Napisane rěčenje
 spontaneous-card-header = Spontane rěčenje
 language-text-card-header = Rěčny tekst
 coming-soon = Bórze k dispoziciji
@@ -130,6 +131,7 @@ join-discord-community-action = Přidružće so nam na Discord
 find-us-on-matrix = Namakajće nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
+ask-mozilla-share = Prosće Mozilla, zo byšće waše zarjadowanja dźělił
 # label for button
 ask-mozilla-share-action = Dźělće swoje zarjadowanje
 # label for button

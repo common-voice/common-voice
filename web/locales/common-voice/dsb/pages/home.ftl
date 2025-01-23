@@ -117,6 +117,7 @@ get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Napisane powědanje
 spontaneous-card-header = Spontane powědanje
 language-text-card-header = Rěcny tekst
 coming-soon = Skóro k dispoziciji
