@@ -114,6 +114,7 @@ community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a r�
 hero-title = Technologija, kotraž wašu rěč rěči
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Čehodla měła KI jenož za mało rěčow swěta fungować?</bold>
+hero-subtitle-2 = Naša rěč je naše stawizny, naše zhromadźenstwo, naša kultura. Wutwormy datowe sadźby, kotrež chcemy w swěće widźeć.
 # icon is an arrow that points downwards
 get-started = Prěnje kroki <icon><icon>
 
