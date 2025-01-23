@@ -110,6 +110,8 @@ community-and-languages-menu-item-aria-label = کامن وائس کیا کمیو
 ## Hero section
 
 hero-title = ٹیکنالوجی کی ہسے تہ وارو کویان
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> اے آئی دنیو ای کما وران تین کو کوروم کوریلیک؟</bold>
 
 ## Action items section
 
