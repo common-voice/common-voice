@@ -111,11 +111,13 @@ community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rě
 
 ## Hero section
 
+hero-title = Technologija, kótaraž wašu rěc powěda
 # icon is an arrow that points downwards
 get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+spontaneous-card-header = Spontane powědanje
 language-text-card-header = Rěcny tekst
 coming-soon = Skóro k dispoziciji
 add-text = Tekst pśidaś
