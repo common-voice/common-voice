@@ -1,3 +1,5 @@
+speak-now = ເວົ້າຕອນນີ້
+speak-subtitle = ບໍລິຈາກສຽງຂອງທ່ານ
 record-cta = ເລີ່ມການບັນທຶກ
 record-platform-not-supported = ພວກເຮົາຂໍອະໄພ, ແພລດຟອມຂອງທ່ານບໍ່ຮອງຮັບໃນຂະນະນີ້.
 record-platform-not-supported-desktop = ໃນອຸປະກອນເດັສທັອບທ່ານສາມາດປະກອບສ່ວນໂດຍການດາວໂຫຼດ…

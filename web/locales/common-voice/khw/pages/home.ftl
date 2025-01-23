@@ -81,11 +81,15 @@ read-more-about = اسپہ متعلقہ صفحہ بی خور دی راوے
 ## NAV ITEMS
 
 answer-questions = سوالان جواب دیت<small> (شاو گویان)</small>
+answer-questions-coming-soon = سوالان جواب دیت<small> (شاؤ گویان)</small>
 review-transcriptions = نیویشیروان سہی کو <small> (شاو گویان)</small>
+review-transcriptions-coming-soon = نویشیروان وا لوڑے <small> (شاؤ گویان)</small>
 add-questions = سوال شامل کو <small> (شاو گویان)</small>
+transcribe-audio-coming-soon = آوازو نویشیکا غیراوے<small> (شاو گویان)</small>
 transcribe-audio = ہوازو نیویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا وار
+coming-soon = شاؤ گویان
 
 ## MENU ITEMS TOOLTIPS
 
@@ -106,12 +110,34 @@ community-and-languages-menu-item-aria-label = کامن وائس کیا کمیو
 
 ## Hero section
 
+hero-title = ٹیکنالوجی کی ہسے تہ وارو کویان
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> اے آئی دنیو ای کما وران پچین کو کوروم کوریلیک؟</bold>
+hero-subtitle-2 = اسپہ وار اسپہ کمیونیٹی، اسپہ کلچر۔ گیور ڈیٹاسیٹ ساوزیسی کہ یتوغو اسپہ دنیا بیک  مݰکیسیان
+# icon is an arrow that points downwards
+get-started = شروغ کو<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کمان وائس کمیونیٹیو ساوزیرو مفت وا سفو پچین ای ژاغا
+action-items-section-subtitle = کا دی  نیویشیرو وا لوان ڈیٹا سیٹو بوژی، ساوزے وا محفوظ کور تان وارو  حفاظت، زندہ وا ژانگ کوریکو بوئے۔
+scripted-card-header = نیویشیرو لو
+scripted-card-content = تان وارو جملان توڑ راوے وا دنیو  مختلف قسمہ عام رویان حصہ گنیرو لوان ڈیٹا سیٹا حصہ دراوے
+spontaneous-card-header = جاری لو
+spontaneous-card-content = قدرتی، بولچال دیٹا سیٹ ساوزیکو پچین اشاران جواب دیت۔ اولو زبانی وارو پچین بلک صحیح
+language-text-card-header = وارو نیویشیرو
+language-text-card-content = عام رویان دائرو اشارہ،  جملہ یا ترجمہ کوریکو پچین نیویشیرو، چیق وارو ماڈل یا خور کیاغ ساوزاوے یا بوژے
+coming-soon = شاؤ گویان
+add-text = نیویشیرو شامل کو
 
 ## Community section
 
+community-section-title = دنیو کمیونیٹیان ، دنیوکمیونیٹیان پیچین  طاقت دیرو — 130وار وا زیاد بونیان
+join-discord-community = پیڅیروا کمیونیٹیا شامل بوس
+# label for button
+join-discord-community-action = اسپہ سون پیڅیروا شامل بوس
+join-discord-community-content = واران رویان مشقولگیا شامل بوس، سوال کو وا گیاگ تقریبان وا تقریران بارا معلومات گنے
+find-us-on-matrix = میٹرکسا اسپا مݰکے
 
 ## Featured section
 
