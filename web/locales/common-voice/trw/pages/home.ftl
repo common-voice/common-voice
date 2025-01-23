@@ -137,15 +137,36 @@ find-us-on-matrix-content = میٹرکس موزیلا سی اے پدا کوئی�
 # label for button
 find-us-on-matrix-action = مھو میٹرکس زید پا
 ask-mozilla-share = موزیلا ما تُنو واقعات شریک کؤ سی کیا توَس کوا
+ask-mozilla-share-content = کو تھو یے کی مُوش ما سرگرمی کی یی تیس مھو سیت مھید موزیلا زید شریک کوا یا تیسی بارا می بلاگ لیِگا۔
+# label for button
+ask-mozilla-share-action = تُنو سرگرمی شریک کوا
+download-contribution-certificate = تُنُو کانٹریبوشن سرٹیفیکیٹ مھیدا والا
+download-contribution-certificate-content = تُنو کیا یا تُنو کی سرگرمی سی کیا کامن وائس ز تھویے کامک کی یی دا تیسی مھیدا سرٹیفیکیٹ والا۔ تھویے ما بغیر ہے ممکن نُو تُھو!
+# label for button
+download-contribution-certificate-action = تُنو سرٹیفیکیٹ گھیِنا
+contribute-github = گٹ ہب کے تھلا
+contribute-github-content = می منصوبا چھی خلگے ما بغیر سرا ممکن نہ ہونیِندے۔ شاباش! کامن وائس سیت کم سی کؤ سی چیر پن تھی۔ تھیے ضروری نُو تُھو کے کھأکأ ایسی اصول دے کام کونیِن!
+# label for button
+contribute-github-action = گٹ ہب کے تھلا
 
 ## Featured section
 
+featured-section-title = پشا گا۔۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = مُھون پریس پیک آمن گے مھیدا والا<icon>
 
 ## Developers section
 
+developers-section-title = ہر ایک سی کیا آویل 130 جیِبا می ڈیٹا سیٹ
+developers-section-subtitle = ڈیٹا سیٹ ASR, STT, آں دأل NLP پروگراما سی کیا کامک یأمینے خلگے شیرک ہدے سیوادچھیدا۔
+# icon is an arrow that points to the right
+explore-datasets = مے ڈیٹا سیٹ لوٹا <icon>
 
 ## Get involved section
 
+get-involved-section-title = ہر ایک سی کیا پدا کمیوںیٹی سی ڈھأرا ڈیٹا سیٹ سی مدد کوا
+read-sentences-link = جملا بنا/پڑھاؤ کوا
+validate-readings-link = بنیل جملا سی توثیق کوا/بُوا کہ ٹیک تھی کو نأ
 
 ## Partner section
 
