@@ -169,6 +169,16 @@ explore-datasets = ڈیٹا سیٹان پتہ کو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = وریغ، کمیونیٹیو لوٹھورووییا ساوز باک ڈیٹا سیٹو مدد کو
+read-sentences-link = جملان روے
+validate-readings-link = ریکو تصدیق کو
+contribute-link = نیویشیکان بڑڅیکا حصہ گنے
+answer-questions-link = سوالان جواب دیت
+transcribe-answers-link = جوابان نیویشیکا غیراوے
+review-transcriptions-link = نیویشیروان وا لوڑے
+contribute-text-link = نیویشیکا حصہ گنے
+press-and-stories-link = خبر وا مضمون
 
 ## Partner section
 
+partner-section-title = اسپہ سون حصہ دار بوس
