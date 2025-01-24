@@ -150,6 +150,7 @@ download-contribution-certificate-content = تان تقریبان یا تو کی
 # label for button
 download-contribution-certificate-action = تان سرٹیفیکیٹو گنے
 contribute-github = گیٹ ہبا حصہ دراوے
+contribute-github-content = ہیا پروجکٹ پیسہ غونہ رویان سار بغیر ممکن نو۔ کمان وائسا حصہ دریکو بو طریقہ شینی -  حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
 
 ## Featured section
 
