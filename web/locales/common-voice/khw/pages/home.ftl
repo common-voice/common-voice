@@ -151,12 +151,21 @@ download-contribution-certificate-content = تان تقریبان یا تو کی
 download-contribution-certificate-action = تان سرٹیفیکیٹو گنے
 contribute-github = گیٹ ہبا حصہ دراوے
 contribute-github-content = ہیا پروجکٹ پیسہ غونہ رویان سار بغیر ممکن نو۔ کمان وائسا حصہ دریکو بو طریقہ شینی -  حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
+# label for button
+contribute-github-action = گیٹ ہبا بی حصہ دراوے
 
 ## Featured section
 
+featured-section-title = ہیر واضح۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اسپہ مطبوعاتان پیکیجو ڈونلوڈ کو</icon><icon>
 
 ## Developers section
 
+developers-section-title = سفو پچین میسر وریغ 130+ زبانان ڈیٹاسیٹ
+developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس وا خور این ایل پی حالاتو ڈیٹاسیٹ - کمیونیٹی مدد سورا ساوزے اسوس
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹان پتہ کو<icon></icon>
 
 ## Get involved section
 
