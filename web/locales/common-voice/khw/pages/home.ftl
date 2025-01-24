@@ -146,6 +146,10 @@ ask-mozilla-share-content = بوغدو یا گیاگ  کیہ تقرب شینیا
 # label for button
 ask-mozilla-share-action = تان تقریبان بارا اسپہ تین لو دیت
 download-contribution-certificate = حصہ دریکو تان سرٹیفیکیٹو ڈاونلوڈ کو
+download-contribution-certificate-content = تان تقریبان یا تو کی کمان وائسا حصہ درے اسوس تان سرٹیفیکیٹو ڈاونلوڈ کو — ہیہ تہ سار غیر ممکن نو
+# label for button
+download-contribution-certificate-action = تان سرٹیفیکیٹو گنے
+contribute-github = گیٹ ہبا حصہ دراوے
 
 ## Featured section
 
