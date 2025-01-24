@@ -105,6 +105,7 @@ get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 ## Action items section
 
+scripted-card-header = ການເວົ້າແບບສະຄຣິບ
 
 ## Community section
 
