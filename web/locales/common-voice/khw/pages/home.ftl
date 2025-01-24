@@ -172,7 +172,7 @@ explore-datasets = ڈیٹا سیٹان پتہ کو<icon></icon>
 get-involved-section-title = وریغ، کمیونیٹیو لوٹھورووییا ساوز باک ڈیٹا سیٹو مدد کو
 read-sentences-link = جملان روے
 validate-readings-link = ریکو تصدیق کو
-contribute-link = نیویشیکان بڑڅیکا حصہ گنے
+contribute-link = نیویشیروان بڑڅیکا حصہ گنے
 answer-questions-link = سوالان جواب دیت
 transcribe-answers-link = جوابان نیویشیکا غیراوے
 review-transcriptions-link = نیویشیروان وا لوڑے
@@ -185,10 +185,10 @@ partner-section-title = اسپہ سون حصہ دار بوس
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٹیکنالوجیو کمپنیان</bold>  بو زبانان بارا آے آئی ماحولو عام کوریکو پچین وریغ ڈیٹا سیٹا پیسہ لگیک
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-civil-society = <bold> غیر سرکاری تنظیم وا محقیق</bold>۔ متاثر کون ڈیٹا سیٹو ساویزیانی، میزبانی وا رویان سوم بوژانی۔
+partner-section-subtitle-civil-society = <bold> غیر سرکاری تنظیم وا محقیق</bold>۔ متاثر کون ڈیٹا سیٹو ساویزیانی، میزبانی کورانی وا رویان سوم بوژانی۔
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold> خدمت خلق</bold> مقامی تخلیق وا ترقی بیکو پچین پیسو مدد دیانی
 # icon is an arrow that points to the right
 get-in-touch-button = رابطہ حال بوس<icon></icon>
 # Partners section
-our-partners-include = اسپہ شرکت داران موژی۔۔۔
+our-partners-include = ---اسپہ شرکت داران موژی اسونی
