@@ -182,3 +182,5 @@ press-and-stories-link = خبر وا مضمون
 ## Partner section
 
 partner-section-title = اسپہ سون حصہ دار بوس
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیکنالوجیو کمپنیان</bold>  بو زبانان بارا آے آئی ماحولو عام کوریکو پچین وریغ ڈیٹا سیٹا پیسہ لگیک
