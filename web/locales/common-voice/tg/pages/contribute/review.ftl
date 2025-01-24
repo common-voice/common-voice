@@ -19,6 +19,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Шумо инчунин метавонед аз миёнабурҳои клавиатура истифода баред: { sc-review-form-button-approve-shortcut } барои «Тасдиқ кардан/Ҳа», { sc-review-form-button-reject-shortcut } барои «Рад кардан/Не», { sc-review-form-button-skip-shortcut } барои «Нодида гузарондан»
 sc-review-form-button-submit =
     .submitText = Анҷом додани баррасӣ
 # Variables:
