@@ -122,6 +122,8 @@ hero-subtitle-1 = اسے ملگر اون۔
 
 ## Get involved section
 
+read-sentences-link = جولال من۔
+validate-readings-link = ریکاڑنگ والیڈٹنگ تھ
 contribute-link = مشین اے° جوݨا گال مداد دہ۔
 answer-questions-link = سوال جواب
 transcribe-answers-link = جوابونی دی جب تھ گیرو۔
