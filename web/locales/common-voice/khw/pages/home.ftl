@@ -150,20 +150,20 @@ download-contribution-certificate-content = تان تقریبان یا تو کی
 # label for button
 download-contribution-certificate-action = تان سرٹیفیکیٹو گنے
 contribute-github = گیٹ ہبا حصہ دراوے
-contribute-github-content = ہیا پروجکٹ پیسہ غونہ رویان سار بغیر ممکن نو۔ کمان وائسا حصہ دریکو بو طریقہ شینی -  حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
+contribute-github-content = ہیا پروجکٹ پیسہ غون رویان سار بغیر ممکن نو۔ کمان وائسا حصہ دریکو بو طریقہ شینی- حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
 # label for button
 contribute-github-action = گیٹ ہبا بی حصہ دراوے
 
 ## Featured section
 
-featured-section-title = ہیر واضح۔۔۔
+featured-section-title = ہیرا واضح۔۔۔
 # icon is an arrow that points downwards
-download-press-pack = اسپہ مطبوعاتان پیکیجو ڈونلوڈ کو</icon><icon>
+download-press-pack = اسپہ نیویشیروان پیکیجو ڈونلوڈ کو</icon><icon>
 
 ## Developers section
 
-developers-section-title = سفو پچین میسر وریغ 130+ زبانان ڈیٹاسیٹ
-developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس وا خور این ایل پی حالاتو ڈیٹاسیٹ - کمیونیٹی مدد سورا ساوزے اسوس
+developers-section-title = سفو پچین میسر وریغ 130 سار زیاد زبانان ڈیٹاسیٹ
+developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس وا خور این ایل پی ماحولو ڈیٹاسیٹ- کمیونیٹیو مدد سورا ساوزے اسوس
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹان پتہ کو<icon></icon>
 
@@ -184,3 +184,11 @@ press-and-stories-link = خبر وا مضمون
 partner-section-title = اسپہ سون حصہ دار بوس
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٹیکنالوجیو کمپنیان</bold>  بو زبانان بارا آے آئی ماحولو عام کوریکو پچین وریغ ڈیٹا سیٹا پیسہ لگیک
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> غیر سرکاری تنظیم وا محقیق</bold>۔ متاثر کون ڈیٹا سیٹو ساویزیانی، میزبانی وا رویان سوم بوژانی۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> خدمت خلق</bold> مقامی تخلیق وا ترقی بیکو پچین پیسو مدد دیانی
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ حال بوس<icon></icon>
+# Partners section
+our-partners-include = اسپہ شرکت داران موژی۔۔۔
