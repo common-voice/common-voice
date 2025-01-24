@@ -6,8 +6,8 @@ skip = چھوروگ
 shortcuts = کٞھٹِین پن
 clips-with-count-pluralized =
     { $count ->
-        [one] اٞک
-       *[other] دی
+        [one] کلِپ
+       *[other] کلِپونہ
     }
 goal-help-recording = تئی عام ہاواز پھݭاگ سہ مداٞد کیر <goalPercentage></goalPercentage> مُوں دوساں  { $goalValue } ریکارڈ کٞروگاں مقصد مئی۔
 goal-help-validation = تئی عام ہاواز پھݭاگ سہ مداٞد کیر <goalPercentage></goalPercentage> مُوں دوساں { $goalValue } دروستیاٞں مقصد مئی۔
