@@ -120,6 +120,12 @@ get-started = چلو شروع کرون<icon><icon>
 ## Action items section
 
 action-items-section-title = کنبہ کے متعلق ساری معلومات کو ڈیٹا بنان وسطے کامن وائس ایک مفت تے کھلا ذریعہ کو  مقام ہے۔
+action-items-section-subtitle = کسی بھی عبارت اور تے گل  کا ڈیٹا سیٹ کو اشتراک ، بنا کے تے ترتیب دے کے اپنی زبان نا محفوظ ، زندہ تے اچو رتبو دے  سکے۔
+scripted-card-header = لکھی وی گل
+scripted-card-content = اپنی زبان ما جملا اوچی واز ما پڑھو تے دنیا ما سب تے زیادہ کنی کنی قسماں کا  عوامی شرکت آلی گل کا ڈیٹا سیٹ ما حصو لیو۔
+spontaneous-card-header = نساپے گل(ان جہکیاں گل)
+spontaneous-card-content = قدرتی ، بول چال کا سیاق و سباق وسطے ڈیٹا سیٹ بنان کےااشارہ کو جواب دیو۔ جیہڑی زبان بولی جایے اس وسطے بہترین ہے.
+language-text-card-header = زبان کی عبارت
 
 ## Community section
 
