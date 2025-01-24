@@ -163,9 +163,25 @@ download-press-pack = مہارا پریس پیک نا ڈاون لوڈ کرو<ico
 
 ## Developers section
 
+developers-section-title = 130 تے زیادہ زباناں ما عوامی طور اپر قابل رسائی کھلی گفتگو کو ڈیٹا سیٹ
+developers-section-subtitle = اے ایس آر ، ایس ٹی ٹی ، ٹی ٹی ایس ، تے دوجا  این ایل پی سیاق و سباق وسطے ڈیٹا سیٹ - کمیونٹی کی شرکت کے ذریعہ بنایو گیو ہے
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹ نا ڈھونڈو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کمیونٹی وسطے بنایا وا عام طور اپر دستیاب ڈیٹا سیٹ  کی مدد کرو
+read-sentences-link = جملا پڑھو
+validate-readings-link = پرھی وی چیز کی تصدیق کرو
+contribute-link = عبارت کورپس ما حصو لیو
+answer-questions-link = سوالاں کا جواب دیو
+transcribe-answers-link = جواباں کو تجزیو کرو
+review-transcriptions-link = تجریہ کو دوبارہ جائزو لیو
+contribute-text-link = عبارت کے ذریعے حصو لیو
+press-and-stories-link = خبر تے کہانی
 
 ## Partner section
 
+partner-section-title = مہارا حصہ دار بنو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیکنالوجی کی کمپنی</bold>  ایک اگے بدھتی وی کثیر لسانی مصنوعی ذہانت ماحولیاتی نظام وسطے اوپن ڈیٹا سیٹ بنان ما سرمایہ کاری کرو
