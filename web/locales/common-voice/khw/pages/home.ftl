@@ -138,6 +138,10 @@ join-discord-community = پیڅیروا کمیونیٹیا شامل بوس
 join-discord-community-action = اسپہ سون پیڅیروا شامل بوس
 join-discord-community-content = واران رویان مشقولگیا شامل بوس، سوال کو وا گیاگ تقریبان وا تقریران بارا معلومات گنے
 find-us-on-matrix = میٹرکسا اسپا مݰکے
+find-us-on-matrix-content = میٹرکس وریغ، غیر مرکزی لوڅ اصول، برقت خبر تریکو وا موزیلو وریغ مشقول گیو ترجیہی ژاغہ
+# label for button
+find-us-on-matrix-action = میٹرکسا اسپہ مݰکے
+ask-mozilla-share = موزیلو تین تان واقعاتان لودیت۔
 
 ## Featured section
 
