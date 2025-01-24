@@ -76,6 +76,7 @@ read-more-about = ساسے پیج دی پا باڑ
 ## NAV ITEMS
 
 answer-questions = سوالونی ام جواب دہ
+answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
 add-questions = سوالونی میلہ
 transcribe-audio = اڈیو نقل تہ

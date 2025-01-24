@@ -12,6 +12,8 @@ listen-abort-cancel = توثیق روان تھا
 listen-abort-confirm = توثیق ختم تھا
 # Menu item
 validate-readings = منیل توثیق تھا
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ریکاڑنگ شور<small>پݭون۔</small>
 
 ## MENU ITEM TOOLTIPS
 
