@@ -78,9 +78,11 @@ read-more-about = ساسے پیج دی پا باڑ
 answer-questions = سوالونی ام جواب دہ
 answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
-add-questions = سوالونی میلہ
-transcribe-audio = اڈیو نقل تہ
-press-and-stories = چھاپتھال تے قیصا
+review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
+add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
+transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
+transcribe-audio = بوجل نقل تیپہ پݭہ۔
+press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب
 
 ## MENU ITEMS TOOLTIPS
@@ -102,6 +104,7 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 
 ## Hero section
 
+hero-title = کاں ٹکنالوجی تسے جب دون تہ
 
 ## Action items section
 
