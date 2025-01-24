@@ -105,6 +105,8 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 ## Hero section
 
 hero-title = کاں ٹکنالوجی تسے جب دون تہ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = اسے ملگر اون۔
 
 ## Action items section
 
@@ -120,6 +122,15 @@ hero-title = کاں ٹکنالوجی تسے جب دون تہ
 
 ## Get involved section
 
+contribute-link = مشین اے° جوݨا گال مداد دہ۔
+answer-questions-link = سوال جواب
+transcribe-answers-link = جوابونی دی جب تھ گیرو۔
+review-transcriptions-link = دیراں نالیل
+contribute-text-link = سبق می مداد دہ
+press-and-stories-link = سیپ دہ۔
 
 ## Partner section
 
+partner-section-title = اسان سہ ٹلگر
+# Partners section
+our-partners-include = اسے مرگر اون۔
