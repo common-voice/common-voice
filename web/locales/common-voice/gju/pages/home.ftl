@@ -185,3 +185,11 @@ press-and-stories-link = خبر تے کہانی
 partner-section-title = مہارا حصہ دار بنو
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold> ٹیکنالوجی کی کمپنی</bold>  ایک اگے بدھتی وی کثیر لسانی مصنوعی ذہانت ماحولیاتی نظام وسطے اوپن ڈیٹا سیٹ بنان ما سرمایہ کاری کرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> عام کنبہ تے تحقیق کرن آلا</bold>- مفت ما ایک ثر کرن آلو ڈیٹا سیٹ بناو، میزبان بنو  تے شریک ہوو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> انسانی ہمدردی</bold>- مقامی ترقی تے نوئیں چیز بنان کا کم نا تیز کرن وسطے ڈیٹا سیٹ بنان ما مدد کرو
+# icon is an arrow that points to the right
+get-in-touch-button = مہارے نال جڑیا رہوو<icon></icon>
+# Partners section
+our-partners-include = مہارے شراکت دار یہ ہیں۔۔۔
