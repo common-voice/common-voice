@@ -119,6 +119,7 @@ get-started = چلو شروع کرون<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کنبہ کے متعلق ساری معلومات کو ڈیٹا بنان وسطے کامن وائس ایک مفت تے کھلا ذریعہ کو  مقام ہے۔
 
 ## Community section
 
