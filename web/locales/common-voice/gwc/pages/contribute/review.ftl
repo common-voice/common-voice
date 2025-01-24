@@ -2,7 +2,7 @@
 
 sc-review-lang-not-selected = تئ کیں نی جِب نہ جوݭِت۔ ماٞر بینی کاٞجِب جوݭوگیں کیر تانی <profileLink>پروفائل </profileLink>کٞہ چو
 sc-review-title = جُملاٞ آں جائیزہ گھِن
-sc-review-loading = جُملاٞ اُکالینت
+sc-review-loading = جُملاٞ اُکالینت…
 sc-review-select-language = جمُلاٞ آں جائیزہ گھِنوگیں کیر ماٞربینی کاٞ اٞ جِب جُوݭ
 sc-review-no-sentences = جائزہ گھِنوگیں کیر جُملاٞ نات <addLink> مُٹو دی جُملاٞ جمہ کٞر</addLink>
 sc-review-form-prompt =
@@ -36,7 +36,7 @@ sc-review-link = جائیزہ گِھینوگ
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = جائیزاں طریقہ
+sc-criteria-modal = ⓘ جائیزاں طریقہ
 sc-criteria-title = جائیزاں طریقہ
 sc-criteria-make-sure = اِیں یقین کراٞ اُوں جملہ داگاٞل طریقہ کار رہ پورہ ینت؛
 sc-criteria-item-1 = جملہ صحی چُنڑجینت۔
