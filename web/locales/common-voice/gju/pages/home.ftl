@@ -146,9 +146,20 @@ ask-mozilla-share = اپبا واقعات لوکاں نا دسن وسطے موز
 ask-mozilla-share-content = تھہارے کول پہلاں گزریا وا یا آن آلا قصہ ہیں؟ تم انہاں ہمنا دسو تے ہم اس نا اپنا کنبہ ما دساں گا یا فر اس کا بارہ ما ایک مضمون لکھاں گا۔
 # label for button
 ask-mozilla-share-action = اپنا واقعہ ہمنا دسو
+download-contribution-certificate = اپنا حصہ لین کا سرٹیفیکیٹ نا ڈاون لوڈ کرو
+download-contribution-certificate-content = تم نے کدے کامن وائس ما حصو لیو ہے تے فر اپنا یا اپنا واقعات کا سرٹیفیکیٹ ڈاون لوڈ کرو— تھہارے بغیر یوہ ناممکن ہے۔
+# label for button
+download-contribution-certificate-action = اپنو سرٹیفیکیٹ لیو
+contribute-github = گِٹ ہب اپر حصو لیو
+contribute-github-content = یوہ منصوبو تھہارے جیا لوکاں کی مدد کے بغیر ممکن نیہہ ہوسے۔ کامن وائس ما شامل ہون وسطے ہور مچ طریقہ ہیں۔ تمنا یاہ گل پچھن کی ضرورت نیہہ  جے  حصو لین وسطے اس کو کوڈ کے ہے
+# label for button
+contribute-github-action = گِٹ ہب اپر حصو لیو
 
 ## Featured section
 
+featured-section-title = اس ما دسیو ہے۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = مہارا پریس پیک نا ڈاون لوڈ کرو<icon></icon>
 
 ## Developers section
 
