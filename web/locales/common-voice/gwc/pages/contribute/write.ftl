@@ -99,7 +99,7 @@ too-many-files = فائیلونہ باٞر زیات تھی
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon> </icon> عوامی ڈومیناٞں باٞر جُملاٞ مِلاٞ
-multiple-sentences-error = تو اٞ پیش کٞروگ ایں کیر باٞر جُملاٞ نہ مِلاباں
+multiple-sentences-error = تو اٞ دھیراٞں پیشکش مئ باٞر جُملاٞ نہ مِلاباں
 exceeds-small-batch-limit-error = 1000 جُملاٞ ما سیوا پیش نہ کٞرباں
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
@@ -139,7 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = "یہ کاٞں جُملاٞ مِلابانت" تھی ہِداٞیاٞت رہ اٞماٞل کٞرآٞ؟
 small-batch-sentences-rule-2 = اٞ ریک مئ اٞ جُملہ مِلاٞ
-small-batch-sentences-rule-3 = "داخیل کٞر" یا "نوٹ" وا اٞ دھیرداٞگ دہ اٞ ریک مئ جُملاٞ ہوراٞٹ
+small-batch-sentences-rule-3 = "داخیل کٞر" یا "نوٹ" وا اٞ دھیرداٞگ دہ ریک مئ جُملاٞ ہوراٞٹ
 small-batch-sentences-rule-4 = 1000 آئ جُملاٞ مِلاٞ
 small-batch-sentences-rule-5 = تمام جُملاں ڈومین آٞک ہو دہ
 small-batch-sentences-rule-6 = تمام جُملاں حوالہ آٞک ہو دہ
