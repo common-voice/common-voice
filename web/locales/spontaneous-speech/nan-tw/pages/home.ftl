@@ -2,15 +2,15 @@
 
 welcome-to-spontaneous-speech = 歡迎使用提示性錄音
 # <br></br> represents a newline break
-wall-of-text = Common Voice 將推出第二個平台，聚焦於收集自然、自發性、未有腳本的語音內容。如此一來可幫助許多社群更快地收集到資料，對於資料科學家與開發者來說也相當有用。
-why-spontaneous-speech = 我們為什麼要製作提示性錄音實驗
+wall-of-text = Common Voice 將推出第二个平台，聚焦佇收集自然、自發性、猶未有跤本的語音內容。如此會當幫贊真濟社群閣較緊收集到資料，對於資料科學家佮開發者來講嘛真利便。
+why-spontaneous-speech = 咱為何欲製作提示性錄音實驗
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = 有益於<mark>自然的說話情境</mark>及實際場景（例如：讓語音技術能識別口語及無講稿的發言）
+why-card-1-text = 會當幫贊<mark>自然的講話情境</mark>佮實際場景（例如：予語音技術會當識別口語佮無講稿的發言）
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = 更好地支援跨語言和<mark>語言代碼轉換</mark>等實際情況
+why-card-2-text = 會當閣較好支援迒語言佮<mark>語言代碼轉換</mark>等實際情形
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = 更好地支援較少或<mark>無文本語料</mark>的語言（例如：社會方言、語言變體、過去無書面文字的語言等）
-how-spontaneous-speech-works = 提示性錄音如何運作
+why-card-3-text = 會當閣較好支援較少抑是<mark>無文本語料</mark>的語言（例如：社會方言、語言變體、過去無書面文字的語言等等）
+how-spontaneous-speech-works = 提示性錄音按怎運作
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>提示</mark>
 prompt-bubble-subtitle = 我們將向你顯示一個問題或提示
