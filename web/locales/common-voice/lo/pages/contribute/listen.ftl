@@ -14,9 +14,13 @@ listen-abort-cancel = ສືບຕໍ່ການກວດສອບ
 listen-abort-confirm = ສໍາເລັດການກວດສອບ
 # Menu item
 validate-readings = ກວດສອບການອ່ານ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ກວດສອບການອ່ານ <small>(ໄວໆນີ້)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ກວດສອບການອ່ານ, ທົບທວນຄືນການຖອດຂໍ້ຄວາມ
+validate-readings-menu-item-tooltip = ກວດສອບການອ່ານທີ່ບັນທຶກໄວ້ໂດຍຜູ້ໃຊ້ໃນພາສາຂອງທ່ານ
 
 ## MENU ITEM ARIA LABELS
 
