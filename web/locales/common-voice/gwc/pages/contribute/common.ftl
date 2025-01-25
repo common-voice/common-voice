@@ -13,8 +13,8 @@ goal-help-recording = تئی عام ہاواز پھݭاگ سہ مداٞد کیر
 goal-help-validation = تئی عام ہاواز پھݭاگ سہ مداٞد کیر <goalPercentage></goalPercentage> مُوں دوساں { $goalValue } دروستیاٞں مقصد مئی۔
 contribute-more =
     { $count ->
-        [one] اٞک
-       *[other] دی
+        [one] دی کٞروگ کٞہ { $count } تیار تھو آٞ؟
+       *[other] دی کٞروگ کٞہ { $count } تیار تھو آٞ؟
     }
 speak-empty-state = مٞہ اِیں جِب مئی دی ریکارڈنگیں کیر جملاٞ نہ لٞد۔۔۔
 no-sentences-for-variants = تُھوں جِباٞں جدا لہجاٞ مئی جملاٞ لاٞست۔ لخہ تُو دیانت تے، تُو تانی سیٹنگ بدلا تانی جِب مئی دی جملاٞ بِیݭ۔
@@ -29,12 +29,12 @@ target-segment-generic-card = تُو اٞ ہدف والہ حصاٞ مئی مدا
 target-segment-first-banner = کامن وائیساں اولاں ہدفاٞں حصاٞ مئی مداٞد کٞر { $locale }
 target-segment-add-voice = تانی ہاواز شامل کٞر
 target-segment-learn-more = دی مالوم کٞر
-change-preferences = تانی خوشاگاٞل بدلاٞ
+change-preferences = تانی ترجیحات بدلاٞ
 login-signup = داخل ہو  / اپان داخل کٞر
 vote-yes = اُوں
 vote-no = نہ
 datasets = مواداں سیٹ
-languages = جِب
+languages = جِبونہ
 about = باٞراٞ مئی
 partner = سیت
 submit-form-action = جمع کٞر
@@ -48,7 +48,7 @@ report-offensive-language = لیݪ جِب
 report-offensive-language-detail = جملاٞ مئی باٞ اِزاٞت یا لیݪ جِب شامل تھی۔
 report-grammar-or-spelling = گرامر / ہجیں غلطی
 report-grammar-or-spelling-detail = جملاٞ مئی گرامر یا ہجیں غلطی تھی۔
-report-different-language = دی جِب
+report-different-language = بدِیل جِب
 report-different-language-detail = ائی اِیں جِب مئی چُنڑیت کیں یہ دِئینت۔
 report-difficult-pronounce = منوگ بکھاٞر تُھو۔
 report-difficult-pronounce-detail = اٞن مئی اینچھلاٞں الفاٞظ یا جملاٞ شامل ہُواٞنت اُوں تسوں ادا کٞروگ یا پروگ بکھاٞر تُھو۔
