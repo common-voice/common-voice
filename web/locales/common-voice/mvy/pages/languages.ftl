@@ -5,7 +5,7 @@ language-section-in-progress-new-description = ݜَیں ژِبہ ݜُو وخ خ�
 language-section-launched = کُھلاؤ ہُو تھی
 language-section-launched-description = ݜَیں شُروع ہُولیۡ ژِبہ واں کریا کامیابی ہِن <localizationGlossaryLink> ژیب گُھرؤں </localizationGlossaryLink> ہُو تُھو، آں اسی مہ پُوریۡ <sentenceCollectionGlossaryLink> جُملی جمع ہُو تھی </sentenceCollectionGlossaryLink> ݜسیں کریا چے <speakLink> بنَیں </speakLink> تے <listenLink> ݜُون٘وَیں </listenLink> مہ حصہ گلُژ۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
-language-section-last-updated = آخری ہیش اپڈیٹ ہُوتُھو: { $lastUpdatedTimeStamp }
+language-section-last-updated = { $lastUpdatedTimeStamp } لا آخری ہیش اپڈیٹ ہُوتُھو
 languages-show-more = مُت نھالہ
 languages-show-less = ایگُٹ نھالہ
 language-meter-in-progress = پراگریس
