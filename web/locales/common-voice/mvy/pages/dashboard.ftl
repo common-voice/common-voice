@@ -12,7 +12,7 @@ awards = انعامہ
 you = تُوۡ
 everyone = ہرکاں/ہر اوک
 contribution-activity = مدد کرَیں یاں/کرئیں کمہۡ
-top-contributors = څو/چئ زیات کرِلیۡ مدد
+top-contributors = بوڈاں مدد کران٘لہ
 recorded-clips = ٹېپ کرېل کٹرو
 validated-clips = منظُور کرېل کٹرو
 total-approved = بُٹ منظور ہونٚل
@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] کامن وائس پروگرامئیں مدد کرہ { $hours } گھین٘ٹوں مہ  اک زب مہ ذاتی مقصدہ ہار ڇیلئیں۔
-       *[other] کامن وائس پروگرامئیں مدد کرہ { $hours } گھین٘ٹوں مہ  اک زب مہ ذاتی مقصدہ ہار ڇیلئیں۔
+        [one] کامن وائسَیں مدد کرہ لہ ذاتی مقصدے ڇېلَیں مِشارو اُو اېک ژِبہۡ کہ مہ { $hours } گېن٘ٹیُوں ڇېل
+       *[other] کامن وائسَیں مدد کرہ لہ ذاتی مقصدے ڇېلَیں مِشارو اُو اېک ژِبہۡ کہ مہ { $hours } گېن٘ٹیُوں ڇېل
     }
 set-a-goal = ایک مقصد اوک مقرر کرہ
 cant-decide = فیصلہ نیرہانٚت؟
@@ -83,7 +83,7 @@ share-goal = مئیں مقصد نا نخ مُتوں کراں دے۔
 
 ## Goals
 
-streaks = کھِریۡ۔
+streaks = کِھیریۡ
 days =
     { $count ->
         [one] دیس۔
