@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = چُنڑ
-write-instruction = میلاٞ </icon><icon> اٞ جملہ خلٞکاں خوشیں۔
+write-instruction = پبلک ڈومیناں اٞ جُملہ</icon><icon> مِلاٞ
 write-page-subtitle = ہیماک کاٞں جملاٞ دیت توم عام موجود ہوگ -0 لیساٞنس ہوگاٞل مالوماٞت سٞہ۔
 sentence =
     .label = جملہ

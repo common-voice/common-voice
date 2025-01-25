@@ -57,6 +57,6 @@ review-error-rate-limit-exceeded = تُو باٞر تیز بچنت۔ ماربی�
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = مٞہ کٞتیک گھین تبدیلی کٞرنت۔
 sc-redirect-page-subtitle-1 = جملاں جمع کٞروگ والہ کامن وائیس آں اصل بھاگ بچنت۔ تُو مُٹو کامن وائیس مئی جمع کٞروگیں کیر اٞ جملہ <writeURL>چُنڑ یا اٞ <reviewURL>جملاں جائیزہ </reviewURL>گھین۔
-sc-redirect-page-subtitle-2 = <matrixLink>میٹریکس</matrixLink>, <discourseLink>جولاگ</discourseLink> یا <emailLink>ایمیل </emailLink>دہ سوال کٞر۔
+sc-redirect-page-subtitle-2 = ما ماتھی <matrixLink>میٹریکس</matrixLink>, <discourseLink> سکورس </discourseLink> یا <emailLink>ایمیل </emailLink>دہ سوال کٞر۔
 # menu item
 review-sentences = جُملاٞ آں جائیزہ گھِن
