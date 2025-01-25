@@ -156,7 +156,7 @@ transcribe-audio-menu-item-tooltip = تانی جِب مئ آڈیو ریکارڈ�
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = چُنڑوگاں اختیاراتیں لیس
+write-contribute-menu-aria-label = چُنڑوگاں اختیاراتیں لیسٹ
 add-sentences-menu-item-aria-label = کمیونٹی آٞں پروگیں کیر ناٞم جُملاٞ مِلاٞ
 review-sentences-menu-item-aria-label = کمیونٹی آٞں پیش کٞراٞل موجودہ جُملاٞ آں جائیزہ گھِن
 add-questions-menu-item-aria-label = کمیونٹی آں پروگیں کیر تے تسوں باٞم تھی جوابیں کیر ناٞم سواٞلونہ پیش کٞر
