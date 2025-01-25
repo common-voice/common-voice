@@ -45,7 +45,7 @@ automotive_transport = گاڑی تے نقل و حمل
 # Sentence Domain dropdown option
 finance = مالیات
 # Sentence Domain dropdown option
-service_retail = خِزماٞت تے پرچون
+service_retail = خِزماٞت تے پرچون ݪیاروگ
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
@@ -53,7 +53,7 @@ healthcare = صِحتاں خیال
 # Sentence Domain dropdown option
 history_law_government = تاٞریخ، قانون تے حُکومت
 # Sentence Domain dropdown option
-language_fundamentals = جِباٞں بُنیاٞدی (مثلاً ہندساٞ، حروف، روپئ)
+language_fundamentals = جِباٞں بُنیاٞدی اجزاٞ (مثلاً ہندساٞ، حروف، روپئ)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا تے تفریچ
 # Sentence Domain dropdown option
@@ -69,15 +69,15 @@ sentence-variant-select-multiple-variants = عام جِب / باٞر بداٞل 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = بار کٞر<icon> </icon> عوامی ڈومیناٞں جُملاٞ
-sc-bulk-upload-instruction = تانی فائل گشی لکالین ہِماک گھیٞہ یا<uploadButton> بار کٞروگیں کیر کلِک کٞر </uploadButton>
-sc-bulk-upload-instruction-drop = بار کٞروگیں کیر فائیل ہماٞ رہ تل
+sc-bulk-upload-header = اپ لوڈ<icon> </icon> عوامی ڈومیناٞں جُملاٞ
+sc-bulk-upload-instruction = تانی فائل گشی لکالین ہِماک گھیٞہ یا<uploadButton> اپ لوڈ کٞروگیں کیر کلِک کٞر </uploadButton>
+sc-bulk-upload-instruction-drop = اپ لوڈ کٞروگیں کیر فائیل ہماٞ رہ تل
 bulk-upload-additional-information = لخہ اِیں فائیلاٞں باٞراٞ مئ تُو دی کٞہ مالومات پھݭانش تہ ماٞربینی کاٞ رابطہ کٞر <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = لخہ اِیں فائیلاٞں باٞراٞ مئ اضافی مالومات تھو تے سٞہ ئ ٹیمپلیٹ مئ شامل ناتھو تہ تے ماٞربینی کاٞ رابطہ کٞر<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = تانی فائیل لکالین گھیاٞگ رہ دِگیراں کوشیش کٞر
-try-upload-again-md = دوبارہ بار کٞروگیں کوشیش کٞر
+try-upload-again-md = دوبارہ اپ لوڈ کٞروگیں کوشیش کٞر
 select-file = فائیل جُوݭ
-select-file-mobile = بار کٞروگیں کیر فائیل جُوݭ
+select-file-mobile = اپ لوڈ  کٞروگیں کیر فائیل جُوݭ
 accepted-files = منظور فائیلیں قِسم : صِرف tsv.
 minimum-sentences = فائیل مئ کٞم از کٞم جُملاٞ : 1000
 maximum-file-size = فائیلیں زیات نہ زیات سیز: 25 MB
