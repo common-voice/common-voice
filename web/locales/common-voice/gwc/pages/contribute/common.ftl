@@ -49,16 +49,16 @@ report-offensive-language-detail = جملاٞ مئی باٞ اِزاٞت یا ل
 report-grammar-or-spelling = گرامر / ہجیں غلطی
 report-grammar-or-spelling-detail = جملاٞ مئی گرامر یا ہجیں غلطی تھی۔
 report-different-language = بدِیل جِب
-report-different-language-detail = ائی اِیں جِب مئی چُنڑیت کیں یہ دِئینت۔
+report-different-language-detail = یہ کیں جِبہ دیانت تہ ائی تاٞس ما بدِیل جِب مئ چُنڑیل تھی۔
 report-difficult-pronounce = منوگ بکھاٞر تُھو۔
-report-difficult-pronounce-detail = اٞن مئی اینچھلاٞں الفاٞظ یا جملاٞ شامل ہُواٞنت اُوں تسوں ادا کٞروگ یا پروگ بکھاٞر تُھو۔
+report-difficult-pronounce-detail = اٞن مئی اینچھلاٞں الفاٞظ یا فِقراٞ شامل ہُواٞنت اُوں تسوں ادا کٞروگ یا پروگ بکھاٞر تُھو۔
 report-offensive-speech = لاݪ جولاگ
 report-offensive-speech-detail = اِیں کلیپ مئی باٞ اِزات یا لیݪ جِب استعمال ہِیت۔
 report-other-comment =
     .placeholder = تبصرہ
 success = کامیابی
 continue = جاری ساٞت
-report-success = رپوٹ کامیابی سہ منظور ہُو
+report-success = رپوٹ کامیابی سہ پھݭ۔
 
 ## Speak & Listen Shortcuts
 
@@ -77,7 +77,7 @@ shortcut-discard-ongoing-recording = بٞچ کٞر
 shortcut-discard-ongoing-recording-label = اِیں ریکارڈنگ دُو کٞر
 shortcut-submit = پتکہ یہ
 shortcut-submit-label = کلیپ جمع کٞر
-request-language-text = تانی جِب کامن وائیس مئی نہ لیڄاٞ؟
+request-language-text = تانی جِب کامن وائیس مئی نہ پشنتاٞ؟
 request-language-button = اٞ جیبیں کیر درخاس کٞر
 
 ## Listen Shortcuts
@@ -85,7 +85,7 @@ request-language-button = اٞ جیبیں کیر درخاس کٞر
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
-shortcut-play-toggle-label = ݭا / بن کٞر
+shortcut-play-toggle-label = بزاٞ / بن کٞر
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ی ے
@@ -100,9 +100,9 @@ contribution-criteria-link = شراکیتاں معیار جانوگ
 contribution-criteria-page-title = شراکیتاں معیار
 contribution-criteria-page-description = ہاوازیں ریکارڈنگ بوجوگاٞں وخہ جاناٞ اُوں کٞنا بِیݭجنت تے تانی ریکارڈنگ ران کٞروگیں کیر مداٞد کٞروگ!
 contribution-for-example = مثالاٞں طور دہ
-contribution-misreadings-title = کھوچو پروگ
+contribution-misreadings-title = کھوچہ پروگ
 contribution-misreadings-description = کون بُجوݭات، بیݭاٞ اُوں کٞناں ریکارڈ ہُوت تتھی ای چُنڑجینت؛ آٞس مئی کٞہ اِیچھیٹ غلطی پا تھی تام قبول مُو کٞر۔ باٞر عام غلطیاٞنیں اِیں تھی؛
-contribution-misreadings-description-extended-list-1 = ڄھار ہوگیل <strong> اٞ </strong><strong> یا </strong> ریکارڈنگاٞں اواٞل مئی
+contribution-misreadings-description-extended-list-1 = ریکارڈِنگاٞں شورو مئ  <strong> "اٞ" </strong> یا <strong> "دی" </strong> چھوروگ۔
 contribution-misreadings-description-extended-list-2 = ڄھار ہوگیل اٞ <strong> س </strong> الفاظاٞں آخر مئی
 contribution-misreadings-description-extended-list-3 = چُنڑوگ مئی اختصار ہیماٞ موجود نانت، لخہ "We're" آٞں بھاٞ "We are"، یا دی چھلہ۔
 contribution-misreadings-description-extended-list-4 = ریکارڈنگ شردہ کاٹ کٞروگ دہ نیپتوگ لفظاں دُوت نات۔
