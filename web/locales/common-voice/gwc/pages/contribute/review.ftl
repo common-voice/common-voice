@@ -46,7 +46,7 @@ sc-criteria-item-4 = لخہ جملہ طریقہ کاٞر رہ پورہ تھو ت
 sc-criteria-item-5-2 = لخہ جملہ رتہ داگاٞل طریقہ کاٞر رہ پورہ نانت تے، کھوری باٞمہ &quot; نامنظور کٞروگاں &quot; بٹن کلِک کٞر۔ لخہ تُو جملاٞں باراٞ مئی غیر یقینی تھو تے، تُو تھوکوآٞس چھیری دی کٞہ پا بچباں چو۔
 sc-criteria-item-6 = لخہ تھکے جائیزیں کیر جملاٞ لاٞست تے، تھوکو ما سہ ماربینی کاٞ دی جملاٞ جمع کٞر۔
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = پتہ ݭا <icon></icon>امی جملاٞ جیباں علیماٞں لحاٞظ دہ صحی تُھو آٞ؟
+sc-review-instruction = پتہ ݭا <icon></icon> اِیں جُملہ جیباں علیماٞں لحاٞظ دہ صحی تُھو آٞ؟
 sc-review-rules-title = جملاٞ طریقہ کاٞر رہ پُورہ تھو آٞ؟
 sc-review-empty-state = مُوٹو اِیں جِب مئے جائیزیں کیر دی جملاٞ نانت۔
 report-sc-different-language = دی جِب
