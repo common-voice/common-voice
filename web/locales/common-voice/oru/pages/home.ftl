@@ -186,4 +186,4 @@ partner-section-subtitle-philantropy = خېراتي ــ ته ډېټاسېټ ا 
 # icon is an arrow that points to the right
 get-in-touch-button = رابطه يې ساتئ
 # Partners section
-our-partners-include = ترماخ پارټرنی نر شامل اِن
+our-partners-include = ترماخ پارټنرنی نر شامل اِن
