@@ -18,17 +18,17 @@ validated-clips = صحی کٞراٞل کلِپونہ
 total-approved = سواٞ منظور کٞراٞل
 overall-accuracy = مجموعی صِحت
 set-visibility = ماں پشوگیں اہلیت سیٹ کٞر
-visibility-explainer = اِیں سیٹینگ چھاں لیڈربورڈ پشباگ کنٹرول کٞراں۔ کون خفیہ ہُو تے چھاں کاریں ترقی بِلِگیل آشیں۔ اسیں مطلاٞب اِینوں چھاں فُٹو، صارفاں نام تے کاریں ترقی لیڈر بورڈ رہ اخکارہ نہ ہوئ۔ یاٞد ساٞت اُوں لیڈر بورڈ تازہ ہوگ بدلی اخکارہ کٞروگ مئ { $minutes }~ مِلٹ ݭیں۔
+visibility-explainer = اِیں سیٹینگ چھاں لیڈربورڈ پشباگ کنٹرول کٞراں۔ کون خفیہ ہُو تے چھاں کاریں ترقی بِلِگیل آشیں۔ اسیں مطلاٞب اِینوں چھاں فُٹو، صارفاں نام تے کاریں ترقی لیڈر بورڈ رہ اخکارہ نہ ہوئ۔ یاٞد ساٞت اُوں لیڈر بورڈ تازہ ہوگ دہ بدلی اخکارہ کٞروگ مئ { $minutes }~ مِلٹ ݭیں۔
 visibility-overlay-note = کون "اخکارہ" رہ سیٹ ہِی تے اِیں سیٹینگ </profileLink> پروفائیلاٞں پاٞݪ<profileLink> تھی بداٞل ہویں۔
 show-ranking = ماں درجہ پشاٞ
 
 ## Custom Goals
 
-get-started-goals = ہدف تھی شورو کٞر
-create-custom-goal = اٞ مقراٞر ہدف چاٞ
+get-started-goals = ہدف شورو کٞر
+create-custom-goal = تانی مرضی آں اٞ ہدف چاٞ
 goal-type = کٞہ قِسماں ہدف تو مقراٞر کٞروگ دِیانت؟
 both-speak-and-listen = دواٞمو
-both-speak-and-listen-long = دواٞمو (جولا تے بُج)
+both-speak-and-listen-long = دواٞمو (جولاگ تے بُجوگ)
 daily-goal = ہٞردوسوناں ہدف
 weekly-goal = ہفتہ وار ہدف
 easy-difficulty = سُگار
