@@ -69,10 +69,10 @@ read-sentences-coming-soon = جملاٞ پٞر <small>(شاٞردہ ینت)</sma
 
 speak-contribute-menu-tooltip = جملاٞ پٞر ، سواٞلوناں جواب دہ
 read-sentences-menu-item-tooltip = تانی جِب مئ اپینہ جملاٞ پٞر تے توم ٹیپ کٞر
-answer-questions-menu-item-tooltip = تانی جِبا سوالوناں تے جولاگاں جواب ٹیپ کٞر
+answer-questions-menu-item-tooltip = تانی جِب مئ سوالوناں تے اِشاٞراٞں جواٞب داٞ ریکارڈِنگ کٞر۔
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = اختیارات آں مینو مٞن
+speak-contribute-menu-aria-label = منوگاں اختیاراتیں لِسٹ
 read-sentences-menu-item-aria-label = خلٞک آں مختلف جیبونہ مئ جمع کٞراٞل جملاٞ پٞر۔
-answer-questions-menu-item-aria-label = خلٞک ایں کیر اٞ ناٞم سوال جمغ کٞر اوٞ تاٞس پٞرگ تے جواب دگ
+answer-questions-menu-item-aria-label = خلٞک ایں کیر اٞ ناٞم سوال جمغ کٞر اوٞ توم تاٞس پری جواب دئ تہ

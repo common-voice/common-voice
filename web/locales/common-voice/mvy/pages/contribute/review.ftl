@@ -1,9 +1,9 @@
 ## REVIEW
 
 sc-review-lang-not-selected = تُوں ایک گتہ ژیب خوش نیرہ چھی۔تاں </profileLink>پروفائلے<profileLink> بئ گیل ژِبہ خوش کرہ۔
-sc-review-title = جُملی گتہ نہانٚلہ
+sc-review-title = لِکیلیۡ جُملی گتہ نھالہ
 sc-review-loading = جُملی لوڈ ہُوئینتی۔۔۔۔۔
-sc-review-select-language = جُملی گتہ (دوبارہ) نھالَئیں کراں اک زیب اوک خوش کرہ
+sc-review-select-language = جُملی گتہ (دوبارہ) نھالَیں یاں کریا اک ژیب اوک خوش کرہ
 sc-review-no-sentences = گتہ (دوبارہ) نہالَئیں  کراں جُملی نی تھی<addLink>ہُوئیں مُتی جُملی ٹل کرہ </addLink>
 sc-review-form-prompt =
     .message = تئیں پک یقین تُھو اَئی چہ گتہ )(دوبارہ) نہالیل جُملی جمع نی ہُونٚتھی؟
