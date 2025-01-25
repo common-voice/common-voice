@@ -82,14 +82,14 @@ accepted-files = منظور فائیلیں قِسم : صِرف tsv.
 minimum-sentences = فائیل مئ کٞم از کٞم جُملاٞ : 1000
 maximum-file-size = فائیلیں زیات نہ زیات سیز: 25 MB
 what-needs-to-be-in-file = میں فائیل مئ کنا پکاٞر تھی؟
-what-needs-to-be-in-file-explanation = ماربینی کاٞ مُوں <templateFileLink>نمونا ایں فیل بِیݭاٞ</templateFileLink>۔ تُھون جملاٞ آں حاق ہیکاٞ تُھو (0CC یا اجازہ اصل کار کٞن جمع کیت) تے آٞس مئی واضح ہو، گرامر آں حساٞب سہ پروگ مئی صحی تے آسان۔ جمع کٞراَٞ جملاٞ اندازاٞ دہ 10-15سیکنڈ پروگ مئی گھینئی تے لٞمر مُو داٞ، اسم معرفہ تے خاص ٹیکیل۔
-upload-progress-text = بار ہوگ جاری تھی
-sc-bulk-submit-confirm = یہ تصدیق کٞرنتھوں اومی جُملاٞ <wikipediaLink> عوامی ڈومین </wikipediaLink> تھو تو تے مکٞہ اسوں بار کٞروگیں اجازاٞت تھی۔
-bulk-upload-success-toast = باٞر جُملاٞ بار ہُو
-bulk-upload-failed-toast = بارہوگ کامیاب نہ ہُو، ماٞربینی کاٞ دوبارہ کوشیش کٞر
+what-needs-to-be-in-file-explanation = ماربینی کاٞ مُوں <templateFileLink>نمونیں فائیل بِیݭاٞ</templateFileLink>۔ تُھون جملاٞ نقلاٞں حق ما آذآد تُھو (0CC یا اصل کار کٞن جمع کیت تاٞس ما اِجازاٞت گِھیناٞل تھو تہ) تے  واضح ہودہ ، گرامر آں حساٞب دہ تے پروگ مئی صحی تے آسان ہودہ۔  جمع کٞراٞل جملاٞ اندازاٞ دہ 10-15سیکنڈ پروگ مئی گھینئی تے لٞمر مُو داٞ، اسم معرفہ تے خاص ٹیکیل۔
+upload-progress-text = اپ لوڈ ہوگ جاری تھی
+sc-bulk-submit-confirm = یہ تصدیق کٞرنتھوں اومی جُملاٞ <wikipediaLink> عوامی ڈومین </wikipediaLink> تھو تے مکٞہ اسوں بار کٞروگیں اجازاٞت تھی۔
+bulk-upload-success-toast = باٞر جُملاٞ اپ لوڈ ہُو
+bulk-upload-failed-toast = اپ لوڈ ہوگ کامیاب نہ ہُو، ماٞربینی کاٞ دوبارہ کوشیش کٞر
 bulk-submission-success-header = تانی باٞر زیات تعداٞد مئ پیش کٞروگ مئ حصہ تلوگیں کیر چھاں شکریہ
 bulk-submission-success-subheader = تو کامن وائیس سٞہ مُوں روزاناں جُملاٞں ہدف مئ مداٞد کٞرنت!
-upload-more-btn-text = دی جُملاٞ بار کٞرنتاٞ
+upload-more-btn-text = دی جُملاٞ اپ لوڈ کٞرنتاٞ
 file-invalid-type = ناقابل قبول فائیل
 file-too-large = فائیل باٞر گھِین تھی
 file-too-small = فائیل باٞر لیک تھی
@@ -98,7 +98,7 @@ too-many-files = فائیلونہ باٞر زیات تھی
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon> </icon> عوامی ڈومیناٞں جُملاٞ مِلاٞ
+small-batch-instruction = <icon> </icon> عوامی ڈومیناٞں باٞر جُملاٞ مِلاٞ
 multiple-sentences-error = تو اٞ پیش کٞروگ ایں کیر باٞر جُملاٞ نہ مِلاباں
 exceeds-small-batch-limit-error = 1000 جُملاٞ ما سیوا پیش نہ کٞرباں
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload

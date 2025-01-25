@@ -1,6 +1,6 @@
 ## Profile Download
 
-download-q = تَیں معلومات منی والَیں یاں غرضی تُھو یی؟
+download-q = تُو تَیں معلومات منی والَیں یاں غرضی تُھو یی؟
 download-info = زَیں بنہ نا تُو گی منی والَیں خوش تُھو:
 download-profile-title = پروفائل
 download-profile-info = اسی مہ بجلی خط، چلان٘لاں نؤں آں وطنَیں پَت، ہُویان٘کی موجودگی ٹَل تھی
