@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
 write = چُنڑ
-write-instruction = پبلک ڈومیناں اٞ جُملہ</icon><icon> مِلاٞ
-write-page-subtitle = ہیماک کاٞں جملاٞ دیت توم عام موجود ہوگ -0 لیساٞنس ہوگاٞل مالوماٞت سٞہ۔
+write-instruction = عوامی ڈومیناں اٞ جُملہ</icon><icon> مِلاٞ
+write-page-subtitle = ہیماک کاٞں جملاٞ دیت توم عام موجود ہوگ -0 لیساٞنس ہوگاٞل مالوماٞت سٞہ۔ ہِیماک تھٞہ کاٞں جملاٞ دیت توم کاپی رائیٹس ما آذاد-0 cc لیسنس والہ ڈیٹاسیٹ مئ مِلاجئ۔
 sentence =
     .label = جملہ
-sentence-input-placeholder = تانی خلٞکیں خوش جملہ ہیماک دہ۔
-small-batch-sentence-input-placeholder = تانی خلٞکیں خوش جملہ ہیماک دہ۔
+sentence-input-placeholder = تانی عوامی ڈومین یعنی کاپی رائٹس ما آذاد جملہ ہِیماک داخیل کٞر
+small-batch-sentence-input-placeholder = تانی عوامی ڈومین یعنی کاپی رائٹس ما آذاد جملاٞ ہِیماک داخیل کٞر
 citation-input-placeholder = تانی جملاں حوالہ دہ (پکاٞر)
 citation =
     .label = حوالہ
