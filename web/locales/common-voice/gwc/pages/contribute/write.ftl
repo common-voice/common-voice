@@ -10,7 +10,7 @@ small-batch-sentence-input-placeholder = تانی عوامی ڈومین یعنی
 citation-input-placeholder = تانی جملاں حوالہ دہ (پکاٞر)
 citation =
     .label = حوالہ
-sc-write-submit-confirm = یہ تصدیق کٞرنتھوں اِیں جُملہ <wikipediaLink> عوامی ڈومین </wikipediaLink> تے مکٞہ اساں بار کٞروگیں اجازاٞت تھی
+sc-write-submit-confirm = یہ تصدیق کٞرنتھوں اِیں جُملہ <wikipediaLink> عوامی ڈومین </wikipediaLink> والہ  تے مکٞہ اساں اپ لوڈ کٞروگیں اجازاٞت تھی۔
 sc-review-write-title = کاٞں جُملاٞ یہ مِلاباں؟
 sc-review-small-batch-title = باٞر جُملاٞ کھیکی مِلاٞں
 new-sentence-rule-1 = <noCopyright> نقلاں حٞقیں </noCopyright> پابندی نات<cc0>-0 </cc0>cc
@@ -20,30 +20,30 @@ new-sentence-rule-4 = صحی ہیزی تے روموز استِمال کٞر
 new-sentence-rule-5 = لمر تے خصوصی ایلامِت استمال نہ کٞر
 new-sentence-rule-6 = باٞرائیں حروف نہ
 new-sentence-rule-7 = موزوں حوالہ شامِل کٞر
-new-sentence-rule-8 = بہترین اِیں نُوں قدرتی تے گُفتگو (جُملہ پروگ مئ ہسانی پکاٞر)
+new-sentence-rule-8 = بہترین اِیں نُوں قدرتی تے گُفتگو والہ (جُملہ پروگ مئ ہسانی پکاٞر)
 login-instruction-multiple-sentences = <loginLink> داخل ہو</loginLink> یا <loginLink> سائن اٞپ کٞر</loginLink> باٞر جُملاٞ مِلاگیں کیر
-how-to-cite = یہ حوالہ کھیکی دِیانت؟
+how-to-cite = یہ حوالہ کھیکی دٞم؟
 how-to-cite-explanation-bold = حوالہ یو آر ایل لنک دہٞ دہ یا ئ کاراں پورہ نام دہ۔
-how-to-cite-explanation = ائ لخہ چھاٞں تانی الفاظ تھو تے صرف<italicizedText> "ذاتی حوالہ" </italicizedText> من۔ ماکٞہ اِیں مالومات پکاٞر تھی اُوں تئ اِیں مواد کھنہ لد، اِیں نیں کیروں مٞہ آٞس چیک کٞری اُوں آیا ائ عوامی ڈومین مئ تھی کو نہ اسیں نقلاں حقیں پابندی نہ ݭجینت تہ۔ حوالہ داٞگ رہ دی مالوماتیں کیر مُوں <guidelinesLink> ہدایاتاں پاݪ </guidelinesLink> بیݭ۔
+how-to-cite-explanation = ائ لخہ چھاٞں تانی الفاظ تھو تے صرف<italicizedText> "ذاتی حوالہ" </italicizedText> من۔ ماکٞہ اِیں مالومات پکاٞر تھی اُوں تئ اِیں مواد کھنہ لد، اِیں نیں کیروں مٞہ آٞس چیک کٞری اُوں آیا اساں نقلاں حقیں پابندی ݭجوگیں کیر آٞس عوامی ڈومین مئ باتائی تہ۔ حوالہ داٞگ رہ دی مالوماتیں کیر مُوں <guidelinesLink> ہدایاتاں پاݪ </guidelinesLink> بیݭ۔
 guidelines = ہِدایات
 contact-us = ما سٞہ رابطہ کٞر
 add-sentence-success = 1جُملہ سمٹو
 add-sentence-error = جُملہ مِلاٞگ مئ غلطی
-required-field = ماٞربینی کاٞ اِیں میدان ڈاک کٞر
+required-field = ماٞربینی کاٞ اِیں بھاگ ڈاک کٞر
 single-sentence-submission = اٞ جُملہ پیش کٞروگ
 small-batch-sentence-submission = لوک اٞ جُملہ پیش کٞروگ
 bulk-sentence-submission = گھاٞن اٞ جُملہ پیش کٞروگ
 single-sentence = اٞک
 small-batch-sentence = لوک ڈٞل
 bulk-sentence = گھاٞن ڈٞل
-sentence-domain-combobox-label = جُملاٞں ڈومین
+sentence-domain-combobox-label = جُملاں ڈومین
 sentence-domain-select-placeholder = ݪی ڈومین آئ خوشا (اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زِمیدیری تے خوراک
 # Sentence Domain dropdown option
 automotive_transport = گاڑی تے نقل و حمل
 # Sentence Domain dropdown option
-finance = روپئ
+finance = مالیات
 # Sentence Domain dropdown option
 service_retail = خِزماٞت تے پرچون
 # Sentence Domain dropdown option
