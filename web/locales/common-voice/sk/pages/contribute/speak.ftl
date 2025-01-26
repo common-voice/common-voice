@@ -62,6 +62,8 @@ create-profile-button = Vytvoriť profil
 img-alt-success-checkmark = symbol začiarknutia
 # menu item
 read-sentences = Čítanie viet
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Čítajte vety <small>(už čoskoro)</small>
 
 ## MENU ITEM TOOLTIPS
 

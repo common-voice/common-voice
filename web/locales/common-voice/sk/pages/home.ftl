@@ -90,8 +90,11 @@ read-more-about = Prečítajte si viac na stránke O nás
 ## NAV ITEMS
 
 answer-questions = Odpovedajte na otázky <small>(už čoskoro)</small>
+answer-questions-coming-soon = Odpovedajte na otázky <small>(už čoskoro)</small>
 review-transcriptions = Kontrolujte prepisy <small>(už čoskoro)</small>
+review-transcriptions-coming-soon = Kontrolujte prepisy <small>(už čoskoro)</small>
 add-questions = Pridajte otázky <small>(už čoskoro)</small>
+transcribe-audio-coming-soon = Prepisujte zvuk <small>(už čoskoro)</small>
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
 community-and-languages = Komunita a jazyky
@@ -119,19 +122,34 @@ community-and-languages-menu-item-aria-label = Preskúmajte komunitu a jazyky po
 hero-title = Technológia, ktorá hovorí vaším jazykom
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Prečo by umelá inteligencia mala fungovať len pre niekoľko svetových jazykov?</bold>
-hero-subtitle-2 = Náš jazyk je náš príbeh, naša komunita, naša kultúra. Vytvorme množiny údajov, ktoré chceme vidieť vo svete.
+hero-subtitle-2 = Náš jazyk je náš príbeh, naša komunita, naša kultúra. Vytvorme kolekcie údajov, ktoré chceme vidieť vo svete.
 # icon is an arrow that points downwards
 get-started = Poďme na to <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice je bezplatná platforma s otvoreným zdrojom na vytváranie údajov vedených komunitou
+action-items-section-subtitle = Každý si môže zachovať, oživiť a pozdvihnúť svoj jazyk zdieľaním, vytváraním a správou kolekcií údajov s textami a nahrávkami reči.
+scripted-card-header = Skriptovaná reč
+scripted-card-content = Čítajte nahlas vety vo svojom jazyku a prispievajte k najrozmanitejšej verejnej kolekcii údajov reči na svete.
+spontaneous-card-header = Spontánna reč
+spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pre organické, hovorové kontexty. Ideálne pre hovorové jazyky.
+language-text-card-header = Text jazyka
+language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
 coming-soon = Už čoskoro
+add-text = Pridajte text
 
 ## Community section
 
+community-section-title = Poháňaný globálnymi komunitami pre globálne komunity – už 130 jazykov a ďalšie pribúdajú!
 join-discord-community = Pripojte sa ku komunite Discord
 # label for button
 join-discord-community-action = Pridajte sa k nám na Discorde
+join-discord-community-content = Zúčastňujte sa diskusií jazykovej komunity, pýtajte sa a dozviete sa o nadchádzajúcich udalostiach a rozhovoroch.
+find-us-on-matrix = Nájdete nás na Matrixe
+find-us-on-matrix-content = Matrix je otvorený, odľahčený protokol pre decentralizovanú komunikáciu v reálnom čase a preferovaná otvorená diskusná platforma Mozilly.
+# label for button
+find-us-on-matrix-action = Nájdete nás na Matrixe
 
 ## Featured section
 
