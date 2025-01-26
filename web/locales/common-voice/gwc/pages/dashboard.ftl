@@ -127,16 +127,16 @@ help-share-goal = دی ہواٞز باٞتاٞگ مئ مُوں مداٞد کٞر
 confirm-goal = ہٞدف یقینی کٞر
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = تانی { $count } کلِپاں دوس دوساں ہدف { $type } کیر شریک کٞر
+share-n-daily-contribution-goal = تانی { $count } کلِپاں دوس دوساں ہدف { $type } ایں کیر شریک کٞر
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = تانی { $count } کلِپاں ہفتہ وار ہدف { $type } کیر شریک کٞر
 share-goal-type-speak = جولاگ
 share-goal-type-listen = بُجوگ
 share-goal-type-both = جولاگ تے بُجوگ
 # LINK will be replaced with the current URL
-goal-share-text = مئی سجہ اپان سہ #کامن وائیس مئی عطیہ ایں کیر اٞ ذاتی ہدف چائے تے مشین کہ چھاٞل پشائے اُوں اصل خلق کھیکی جولاٞں{ $link }
+goal-share-text = مئی سجہ #کامن وائیس مئی عطیہ ایں کیر اٞ ذاتی ہدف چائے تے مشین کہ چھاٞل پشائے اُوں اصل خلق کھیکی جولاٞں{ $link }
 weekly-goal-created = چھاں ہفتہ وار ہدف چاجِنت
-daily-goal-created = چھاں دوساں ہدف چاجِنت
+daily-goal-created = چھاں دوساں ہدف چاجِِنت
 track-progress = کاریں ترقی ہیماٞ تے تانی حِساٞباٞں پاٞݪ رہ مالوم کٞر
 return-to-edit-goal = تانی ہدف مئ بدلی گھیاٞگیں کیر ہِیماک نوٹ
 share-goal = ماں ہدف شریک کٞر
