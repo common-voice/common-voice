@@ -95,6 +95,7 @@ add-questions = Pridajte otázky <small>(už čoskoro)</small>
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
 community-and-languages = Komunita a jazyky
+coming-soon = Už čoskoro
 
 ## MENU ITEMS TOOLTIPS
 
@@ -115,12 +116,22 @@ community-and-languages-menu-item-aria-label = Preskúmajte komunitu a jazyky po
 
 ## Hero section
 
+hero-title = Technológia, ktorá hovorí vaším jazykom
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Prečo by umelá inteligencia mala fungovať len pre niekoľko svetových jazykov?</bold>
+hero-subtitle-2 = Náš jazyk je náš príbeh, naša komunita, naša kultúra. Vytvorme množiny údajov, ktoré chceme vidieť vo svete.
+# icon is an arrow that points downwards
+get-started = Poďme na to <icon><icon>
 
 ## Action items section
 
+coming-soon = Už čoskoro
 
 ## Community section
 
+join-discord-community = Pripojte sa ku komunite Discord
+# label for button
+join-discord-community-action = Pridajte sa k nám na Discorde
 
 ## Featured section
 
