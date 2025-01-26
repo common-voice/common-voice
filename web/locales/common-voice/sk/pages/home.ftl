@@ -150,15 +150,54 @@ find-us-on-matrix = Nájdete nás na Matrixe
 find-us-on-matrix-content = Matrix je otvorený, odľahčený protokol pre decentralizovanú komunikáciu v reálnom čase a preferovaná otvorená diskusná platforma Mozilly.
 # label for button
 find-us-on-matrix-action = Nájdete nás na Matrixe
+ask-mozilla-share = Požiadajte Mozillu, aby zdieľala vaše udalosti
+ask-mozilla-share-content = Máte predchádzajúcu alebo nadchádzajúcu udalosť? Zdieľajte to s nami a my to oznámime našej komunite alebo o tom napíšeme blog!
+# label for button
+ask-mozilla-share-action = Zdieľajte svoju udalosť
+download-contribution-certificate = Stiahnite si potvrdenie o príspevku
+download-contribution-certificate-content = Stiahnite si certifikát pre svoje udalosti alebo pre seba, ak ste prispeli do Common Voice — bez vás by to nebolo možné!
+# label for button
+download-contribution-certificate-action = Získajte svoj certifikát
+contribute-github = Prispievajte na GitHube
+contribute-github-content = Tento projekt by nebol možný bez ľudí ako ste vy. 🎉 Existuje mnoho spôsobov, ako sa zapojiť do Common Voice – nemusíte vedieť kódovať, aby ste mohli prispievať!
+# label for button
+contribute-github-action = Prispievajte na GitHube
 
 ## Featured section
 
+featured-section-title = Písali o nás...
+# icon is an arrow that points downwards
+download-press-pack = Stiahnite si náš tlačový balík <icon></icon>
 
 ## Developers section
 
+developers-section-title = Verejne prístupné otvorené kolekcie údajov o reči vo viac ako 130 jazykoch
+developers-section-subtitle = Súbory údajov pre ASR, STT, TTS a ďalšie kontexty NLP – vytvorené zúčastnenou komunitou.
+# icon is an arrow that points to the right
+explore-datasets = Preskúmajte kolekcie údajov <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podporujte otvorené, komunitou vedené kolekcie údajov
+read-sentences-link = Čítajte vety
+validate-readings-link = Overujte čítanie textu
+contribute-link = Prispejte do textového korpusu
+answer-questions-link = Odpovedajte na otázky
+transcribe-answers-link = Prepisujte odpovede
+review-transcriptions-link = Kontrolujte prepisy
+contribute-text-link = Prispejte textom
+press-and-stories-link = Tlač a príbehy
 
 ## Partner section
 
+partner-section-title = Staňte sa našimi partnermi
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technické spoločnosti</bold> – investujte do vytvárania otvorených súborov údajov pre prosperujúci viacjazyčný ekosystém umelej inteligencie
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Občianska spoločnosť a výskumníci</bold> – bezplatne vytvárajte, hostite a zdieľajte pôsobivé súbory údajov
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponzorujte vytváranie množiny údajov na podporu miestnych inovácií a rozvoja
+# icon is an arrow that points to the right
+get-in-touch-button = Kontaktujte nás <icon></icon>
+# Partners section
+our-partners-include = Medzi našich partnerov patria...
