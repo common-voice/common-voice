@@ -1,2 +1,4 @@
 # Label for button to cancel navigation
 cancel-button = റദ്ദാക്കുക
+# Label for button to continue navigation
+continue-button = തുടരുക
