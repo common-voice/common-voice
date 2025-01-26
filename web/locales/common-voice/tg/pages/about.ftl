@@ -63,6 +63,10 @@ about-playbook-what-is-language = Забон дар «Common Voice» чист?
 ## How do I add a language
 
 about-playbook-how-add-language = Чӣ тавр ман забонро илова намоям?
+about-playbook-how-add-language-content-1 =
+    Пеш аз ҳама озмоед, ки забони шумо <languageLink>аллакай вуҷуд дорад</languageLink>.
+    Агар ин тавр набошад, шумо метавонед <languageRequestLink>дархост кунед, ки забони шуморо илова намоянд</languageRequestLink>.
+    Ду марҳила вуҷуд дорад: «Маҳаллисозӣ/Тарҷумаи сомона» ва «Ҷамъоварии ҷумлаҳо»
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Дастури моро дар бораи тарзи истифодаи «Pontoon» тамошо кунед.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
