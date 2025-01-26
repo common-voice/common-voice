@@ -42,8 +42,8 @@ lose-changes-warning = مُٹو چھوروگیں مطلاٞب اِینوں تو 
 build-custom-goal = تانی مرضی آں ہدف تیار کٞر
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] پھݭوگ مئی مداٞد { $hours }گھنٹہ { $language }ذاتی ہدف سہ
-       *[other] پھݭوگ مئی مداٞد { $hours }گھنٹاٞ { $language }ذاتی ہدف سہ
+        [one] { $hours }گینٹہ { $language }  کٞہ پھ۔ݭوگ مئ ذاتی ہدف سہ مداٞد کٞر
+       *[other] { $hours }گینٹاٞ { $language } کٞہ پھݭُوگ مئ ذاتی ہدف سہ مداٞد کٞر
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
