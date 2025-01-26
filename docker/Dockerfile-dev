@@ -14,8 +14,7 @@ RUN apt-get update && \
 # Setup work directory
 WORKDIR /app
 
-# Create directory for storing logs
-RUN mkdir /app/logs
+COPY package.json yarn.lock ./
 
 # Install yarn dependencies
 RUN yarn
@@ -24,6 +23,9 @@ RUN yarn
 RUN yarn build
 
 RUN cp -r /app/web/img /app/web/dist/
+
+# Create directory for storing logs
+RUN mkdir /app/logs
 
 # Default command to start the server
 CMD yarn start 2>&1 | tee /app/logs/voice-server.log
