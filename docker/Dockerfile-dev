@@ -12,10 +12,10 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y yarn ffmpeg vim
 
 # Setup work directory
-WORKDIR /code
+WORKDIR /app
 
 # Create directory for storing logs
-RUN mkdir /code/logs
+RUN mkdir /app/logs
 
 # Install yarn dependencies
 RUN yarn
@@ -23,7 +23,7 @@ RUN yarn
 # Run build
 RUN yarn build
 
-RUN cp -r /code/web/img /code/web/dist/
+RUN cp -r /app/web/img /app/web/dist/
 
 # Default command to start the server
-CMD yarn start 2>&1 | tee /code/logs/voice-server.log
+CMD yarn start 2>&1 | tee /app/logs/voice-server.log
