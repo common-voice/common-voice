@@ -42,7 +42,7 @@ RUN yarn
 # Run build
 RUN yarn build
 
-RUN cp -r /code/web/img/* /code/web/dist/img/
+RUN cp -r /code/web/img /code/web/dist/
 
 # Default command to start the server
 CMD yarn start 2>&1 | tee /code/logs/voice-server.log
