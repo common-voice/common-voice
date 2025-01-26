@@ -14,6 +14,7 @@ dataset-splits = Тақсимот (синну сол ва ҷинс)
 number-of-voices = Шумораи овозҳо
 splits = Тақсимот
 email-to-download = Барои боргирӣ, нишонии почтаи электрониро ворид намоед
+confirm-size = Шумо барои оғоз кардани боргирии файл бо ҳаҷми <b>{ $size }</b> омода ҳастед
 size-gigabyte = ГБ
 size-megabyte = МБ
 confirm-join-mailing-list = Шумо мехоҳед, ки ба рӯйхати мактубҳои «Common Voice» обуна шавед
