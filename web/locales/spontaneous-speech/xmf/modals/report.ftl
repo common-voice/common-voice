@@ -3,7 +3,7 @@
 report-modal-title = მოხსენებაშ ჯღონა
 report-modal-subtitle = მუ კილი უღუ თე ზიტყვასქვილეფს?
 offensive_speech = ოლანძღარი შინაარსი
-offensive_speech-detail = თე ზიტყვასქვილი უმანგე ვარდა ოლანძღარი რე.
+offensive_speech-detail = თე ზიტყვასქვილი უმანგუ ვარდა ოლანძღარ შინაარსიშ რე.
 different_language = შხვანერი ნინა
 report-other-comment =
     .placeholder = კომენტარი
