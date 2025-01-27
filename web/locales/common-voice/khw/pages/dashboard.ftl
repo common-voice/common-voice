@@ -34,6 +34,7 @@ weekly-goal = ہفتو حدف
 easy-difficulty = اسان
 average-difficulty = اوسط
 difficult-difficulty = گران
+pro-difficulty = حامی
 lose-goal-progress-warning = تان حدفو بدل کی ارو، تہ کوروم تونج دی بوئے۔
 want-to-continue = تو جاری سوتیک مݰکیسانا؟
 finish-editing = اویل ایڈیٹنگو  ختم کو
