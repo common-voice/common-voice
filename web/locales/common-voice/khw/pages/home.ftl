@@ -101,8 +101,8 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
-partnerships-menu-item-aria-label = کمان وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
-press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان ژاغا بوغے
+partnerships-menu-item-aria-label = کامن وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
+press-and-stories-menu-item-aria-label = کامن وائسو بارا خبران وا مضمونان ژاغا بوغے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران  سوم کی مدد کویان تیتان پتہ کو
 
 ## NEW HOME PAGE KEYS
@@ -119,7 +119,7 @@ get-started = شروغ کو<icon><icon>
 
 ## Action items section
 
-action-items-section-title = کمان وائس کمیونیٹیو ساوزیرو مفت وا سفو پچین ای ژاغا
+action-items-section-title = کامن وائس کمیونیٹیو ساوزیرو مفت وا سفو پچین ای ژاغا
 action-items-section-subtitle = کا دی  نیویشیرو وا لوان ڈیٹا سیٹو بوژی، ساوزے وا محفوظ کور تان وارو  حفاظت، زندہ وا ژانگ کوریکو بوئے۔
 scripted-card-header = نیویشیرو لو
 scripted-card-content = تان وارو جملان توڑ راوے وا دنیو  مختلف قسمہ عام رویان حصہ گنیرو لوان ڈیٹا سیٹا حصہ دراوے
@@ -146,11 +146,11 @@ ask-mozilla-share-content = بوغدو یا گیاگ  کیہ تقرب شینیا
 # label for button
 ask-mozilla-share-action = تان تقریبان بارا اسپہ تین لو دیت
 download-contribution-certificate = حصہ دریکو تان سرٹیفیکیٹو ڈاونلوڈ کو
-download-contribution-certificate-content = تان تقریبان یا تو کی کمان وائسا حصہ درے اسوس تان سرٹیفیکیٹو ڈاونلوڈ کو — ہیہ تہ سار غیر ممکن نو
+download-contribution-certificate-content = تان تقریبان یا تو کی کامن وائسا حصہ درے اسوس تان سرٹیفیکیٹو ڈاونلوڈ کو — ہیہ تہ سار غیر ممکن نو
 # label for button
 download-contribution-certificate-action = تان سرٹیفیکیٹو گنے
 contribute-github = گیٹ ہبا حصہ دراوے
-contribute-github-content = ہیا پروجکٹ پیسہ غون رویان سار بغیر ممکن نو۔ کمان وائسا حصہ دریکو بو طریقہ شینی- حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
+contribute-github-content = ہیا پروجکٹ پیسہ غون رویان سار بغیر ممکن نو۔ کامن وائسا حصہ دریکو بو طریقہ شینی- حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
 # label for button
 contribute-github-action = گیٹ ہبا بی حصہ دراوے
 
