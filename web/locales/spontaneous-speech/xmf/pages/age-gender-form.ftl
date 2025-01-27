@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = მარდის მუგოშინანთ სპონტანურ ჩიებაშა წილიშ მიშაღალაშ გურშენი!
 add-information-button = ინფორმაციაშ გეძინა
 continue-speaking-button = გაგძელით ჩიება
 age-select-label = მუ ხანიშ რეთ?
