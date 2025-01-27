@@ -19,6 +19,8 @@ COPY package.json yarn.lock ./
 # Install yarn dependencies
 RUN yarn
 
+COPY . .
+
 # Run build
 RUN yarn build
 
