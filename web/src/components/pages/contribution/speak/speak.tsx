@@ -42,6 +42,7 @@ import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
 import { castTrueString } from '../../../../utility'
 
 import './speak.css'
+import { trackGtag } from '../../../../services/tracker-ga4'
 
 const MIN_RECORDING_MS = 1000
 const MIN_RECORDING_MS_BENCHMARK = 500
@@ -256,6 +257,7 @@ class SpeakPage extends React.Component<Props, State> {
       }
     })
 
+    trackGtag('record-clip', { locale: this.props.locale })
     trackRecording('record', this.props.locale)
   }
 
