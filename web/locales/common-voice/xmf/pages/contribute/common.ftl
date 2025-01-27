@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> ინნაჭარა
     }
 goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღაში ღანკიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
-goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღაში ღანკიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღაში ღანკიში { $goalValue } გინოჯინაში <goalPercentage></goalPercentage> შისრულუ!
 contribute-more =
     { $count ->
         [one] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
