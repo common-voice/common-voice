@@ -33,6 +33,22 @@ not-found-page-header = ვეგორჷ
 not-found-page-content = ხასილა, ნამუსუთ გორჷნთჷნი, ვეძირჷ.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ვოთანხმუქ Common Voice-იშ <termsLink> პირობეფს </termsLink> დო <privacyLink> პირადი მუნაჩემეფიშ თხილუაშ განაცხადის </privacyLink>
+# Locales
+bsy = საბაჰ-ბისაია
+cdo = ფუჯოუ
+cpx = ჰენგ-ჰუა
+en = ინგლისური
+fr = ფრანგული
+hch = ვიქსარიკა
+kzi = კელაბიტი
+mbf = ბაბა-მალაური
+meh = თეონურ-დალური ტლახიაკის მისტეკური
+mmc = მიჩოაკან-მაზაჰუა
+ms-MY = ბაჰასა-მალაური
+msi = საბაჰ-მალაური
+pez = ელახონურ პენანი
 pne = გელახონიშ პენანი
+sdo = სერიანული ბიდაუ
+snv = საბანი
 tr = თურქული
 xkl = კენიური
