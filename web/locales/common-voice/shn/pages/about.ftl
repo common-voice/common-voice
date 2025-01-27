@@ -116,6 +116,7 @@ about-playbook-how-record-content-5 = <accuracyLink>သိုပ်ႇတူၺ�
 
 ## How to grow language
 
+about-playbook-how-grow-language = ႁဝ်းတေႁဵတ်းႁိုဝ်ႁဵတ်းႁႂ်ႈၽႃႇသႃႇၼိူဝ် Common Voice ၶိုၼ်ႈယႂ်ႇလႄႈမီးၼမ်ႉတွၼ်းလီ?
 about-playbook-how-grow-language-content-2 = ပၢင်ပွႆး
 about-playbook-how-grow-language-content-4 = သိုဝ်ႇၼႅင်ႈသၢၼ်
 about-playbook-how-grow-language-content-6 = ၵၢၼ်ႁူမ်ႈၽၢၵ်ႈလႄႈၼႅင်ႈသၢၼ်
