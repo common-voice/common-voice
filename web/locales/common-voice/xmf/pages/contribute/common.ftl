@@ -78,7 +78,7 @@ shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ
 shortcut-submit = დორთა
 shortcut-submit-label = ინოჭარილეფიში ჯღონა
 request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
-request-language-button = მითხით ნინაში გეძინა.
+request-language-button = მითხით ნინაში გეძინა
 
 ## Listen Shortcuts
 
@@ -96,7 +96,7 @@ shortcut-vote-no = v
 ## Validation criteria
 
 contribution-criteria-nav = კრიტერიუმეფი
-contribution-criteria-link = წილიშ მიშაღალაშ კრიტერიუმეფ ქიგეგით
+contribution-criteria-link = ქიგეგით წილიშ მიშაღალაშ კრიტერიუმეფ
 contribution-criteria-page-title = წილიშ მიშაღალაშ კრიტერიუმეფი
 contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა!
 contribution-for-example = მაგალთო
