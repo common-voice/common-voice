@@ -21,6 +21,7 @@ about-dataset-release-subtitle = Ami dor 3 moin'ayani dataset ujvaadaytat.
 about-subscribe-text = Common Voice'aa bori somporkant ravpak zai?
 about-speak = Uloi
 about-listen-queue = Aik
+about-listen-queue-text = Voice clip submission queue'an gatlai je aikpak toir asa.
 about-listen = Aik
 about-listen-text = Users eka-mekache audio clips`ache sarkeponn topassun poitat ki je boroinn dille vakio asa, toshech vachla kai na.
 about-is-it-valid = Hi clip sarki asa?
@@ -54,6 +55,8 @@ about-playbook-how-add-language-collecting-sentences-heading = Vakio zoma zata
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Hi site launch karpak toir zatili jenna techer 75% kaam zatele.
+about-playbook-how-localize-content-5 = Tumka modot karpach amcho explaination video poiyat
 
 ## How to add sentences
 
