@@ -121,6 +121,7 @@ action-items-section-title = Common Voice, topluluk öncülüğünde veri oluşt
 action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşarak, oluşturarak ve düzenleyerek dilini koruyabilir, canlandırabilir ve geliştirebilir.
 scripted-card-header = Yazıları Seslendirme
 spontaneous-card-header = Doğaçlama Konuşma
+spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere istemlere yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
 coming-soon = Çok yakında
@@ -134,6 +135,7 @@ join-discord-community = Discord topluluğumuza katılın
 join-discord-community-action = Discord’da bize katılın
 join-discord-community-content = Dil topluluğu tartışmalarına katılın, soru sorun, yaklaşan etkinlikler ve toplantılar hakkında bilgi edinin.
 find-us-on-matrix = Matrix’te bize katılın
+find-us-on-matrix-content = Matrix, merkeziyetsiz ve gerçek zamanlı iletişim için açık ve hafif bir protokoldür ve Mozilla’nın tercih ettiği açık tartışma platformudur.
 # label for button
 find-us-on-matrix-action = Matrix’te bize katılın
 ask-mozilla-share = Mozilla’dan etkinliklerinizi paylaşmasını isteyin
