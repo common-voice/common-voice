@@ -24,9 +24,15 @@ contribute = წილიშ მიშაღალა
 ## Navbar
 
 respond-to-prompt = ქუპასუხით მოთხუალას
+transcribe-audio = აუდიოშ ნაჭარათ მოჩამა
 check-transcriptions = ნაჭარაშ გინოჯინა
 
 ## Not Found Page
 
 not-found-page-header = ვეგორჷ
 not-found-page-content = ხასილა, ნამუსუთ გორჷნთჷნი, ვეძირჷ.
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ვოთანხმუქ Common Voice-იშ <termsLink> პირობეფს </termsLink> დო <privacyLink> პირადი მუნაჩემეფიშ თხილუაშ განაცხადის </privacyLink>
+pne = გელახონიშ პენანი
+tr = თურქული
+xkl = კენიური
