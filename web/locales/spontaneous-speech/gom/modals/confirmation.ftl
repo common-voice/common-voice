@@ -3,3 +3,4 @@ confirmation-modal-title = Savdhan
 cancel-button = Porot yo
 # Label for button to continue navigation
 continue-button = Fudde Chol
+navigation-away-modal-subtitle = Tuje kaam save zavnk na hai page'ir. Tuven hi page sodli zalar, tuje kaam voitele save zainastana. Tu kobul as hi page sodpak?
