@@ -33,7 +33,7 @@ change-preferences = პარამეტრეფიშ თირუა
 login-signup = მიშულა / აკოქიმინუა
 vote-yes = ქო
 vote-no = ვარ
-datasets = მონაცემეფიშ ნაკათა
+datasets = მუნაჩემეფიშ ნაკათა
 languages = ნინეფი
 about = ჩქინ გურშენი
 partner = მალათირე
@@ -42,10 +42,10 @@ submit-form-action = ჯღონა
 ## Reporting
 
 report = მოხსენება
-report-title = მოხსენებაშ ჯღონა.
+report-title = მოხსენებაშ ჯღონა
 report-ask = მუ კილი უღუ თე ზიტყვასქვილეფს?
-report-offensive-language = ოლანძღარი ზიტყვა.
-report-offensive-language-detail = თე ზიტყვასქვილი უმანგე ვარდა ოლანძღარი რე.
+report-offensive-language = ოლანძღარი ზიტყვა
+report-offensive-language-detail = თე ზიტყვასქვილი უმანგუ ვარდა ოლანძღარი რე.
 report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
 report-grammar-or-spelling-detail = ზიტყვასქვილს გრამატიკული ვარდა თინჭარუაში კილი უღუ.
 report-different-language = შხვანერი ნინა
