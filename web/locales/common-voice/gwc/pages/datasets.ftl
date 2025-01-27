@@ -64,10 +64,10 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = اُمر
 donate-modal-message = چھاں ڈیٹاسیٹ ڈاؤنلوڈ ہونت
 dataset-donate-modal-heading = تھٞکہپھتہ ݭت آٞ …
-donate-modal-explanation-1 = ڈیٹاسیٹ ساتوگیں کیر تے 100ما زیات جیبیں کیر بھاگ داگیں کیر تقریباً کالیں داٞش لٞک ڈالر خرچہ ہواں، ایں خرچہ مہ کٞرنت۔
+donate-modal-explanation-1 = کاٞں خلک موں کاٞر رہ انحصار کٞرنت تہ تسوں کیر ڈیٹا سیٹونہ کٞہ بھاگ داٞگ تے 100 ما باٞر جِباٞں خلکیں کیر پلیٹ فارم بہتر کٞروگ رہ اٞ کالیں تقریباً داٞش لک ڈالر ݭجٞنت۔
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>کٞہ تئ جانو کولا ، مئیاں ڈیٹآ- آج لاٞڑاٞ</bold>
-data-download-singleword-title = اٞ لفظ ٹارگٹ سگمینٹ ڈاؤنلوڈ کٞر
+donate-modal-explanation-2 = <bold> لخہ تھکٞہ اوپن تے شمولیتی ڈیٹا ایں قدر تھی تہ آج ماکٞہ تانی باٞم تھی عطیہ لاٞڑاٞ</bold>
+data-download-singleword-title = اٞ لفظاں ہدفاں ٹوٹہ ڈاؤنلوڈ کٞر
 data-download-singleword-callout-v2 = اٞئی اٞ استمال کیس  دہ چلوگ والہ طبقہ تھو تٞن مئ منیل ہندساں پویانوگ تے آں / نہ  آں پتہ ݭاگیں کیر ڈیٹا آشاں۔
 data-download-button = کامن وائیساں ڈیٹا ڈاؤنلوڈ کٞر
 data-download-yes = اوں
