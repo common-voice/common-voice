@@ -73,7 +73,7 @@ sc-bulk-upload-header = ქიგუძინით <icon></icon> ზიტყ�
 sc-bulk-upload-instruction = გეგნიღით თქვან ფაილი ვარდა <uploadButton> ქიგუკაკეთ გიოძინალო </uploadButton>
 sc-bulk-upload-instruction-drop = გეგნიღი ფაილი თაქ გიოძინალო
 bulk-upload-additional-information = ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, ქორთხინთ, ქუმობჭარით commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, რთხინთ, ქუმობჭარით commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, ქორთხინთ, ქუმობჭარით commonvoice@mozilla.com</emailFragment>
 try-upload-again = ხოლო ქოცადით ფაილიშ თაქ გინოღალა
 try-upload-again-md = ხოლო ქოცადით გეძინა
 select-file = გეჲშაგორით ფაილი
@@ -81,14 +81,14 @@ select-file-mobile = ფაილიშ გუშაგორუა გიოძ
 accepted-files = ფაილიშ მეღებულ ნერობა რე: ხვალე .tsv
 minimum-sentences = ზიტყვასქვილი არძაშ უჭიჭაში ოკო რდას:1000
 maximum-file-size = ფაილიშ ნტირულობა არძაშ უმოსი: 25 მბაიტი
-what-needs-to-be-in-file = მუს ოკო რდას ჩქიმ ფაილს?
+what-needs-to-be-in-file = მუ ოკო რდას ჩქიმ ფაილს?
 what-needs-to-be-in-file-explanation = ქორთხინთ ქიგნაჯინათ <templateFileLink> ფაილიშ დადარს </templateFileLink>. თქვან ზიტყვასქვილეფი ოირქიანე საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილ ზიტყვასქვილეფიშ კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარ სახელეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.
 upload-progress-text = მეურს გეძინა...
 sc-bulk-submit-confirm = ვადასურენქ, ნამდა თე ზიტყვასქვილი <wikipediaLink> ოირქიანე საკუთრებას </wikipediaLink> დო მიღუ თიში გეძინაშ ნება.
 bulk-upload-success-toast = ზიტყვასქვილეფს არძოქ ართო ქიგიაძინ
-bulk-upload-failed-toast = ვეგიაძინ, ქორთხინთ, კინ ქოცადათ.
-bulk-submission-success-header = მარდი, ზიტყვასქვილეფიშ არძო ართო მოჯღონუაშენი!
-bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice-ის ზიტყვასქვილეფიშ ოშაყარუშ დღაშ ღანკიში მეჭირინაფას!
+bulk-upload-failed-toast = ვეგიაძინ, ქორთხინთ, კინ ქოცადათჷნი.
+bulk-submission-success-header = მარდი, ზიტყვასქვილეფიშ ართო მოჯღონუაშენი!
+bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice-ის ზიტყვასქვილეფიშ შაყარუაში დღაშ ღანკიში მეჭირინაფას!
 upload-more-btn-text = გოკონანო მეტი ზიტყვასქვილეფიშ გეძინა?
 file-invalid-type = უწორო ფაილი
 file-too-large = ფაილი გვალო დიდ რე
@@ -99,7 +99,7 @@ too-many-files = ბრელ ფაილეფ რე
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = ქიგუძინით ართ-ჟირ </icon><icon> ზიტყვასქვილი ოირქიანე საკუთრებაშე
-multiple-sentences-error = ვეგგაძინინენა ზიტყვასქვილი თიო-თიოთ მიშაღალაშ ბორჯის
+multiple-sentences-error = ვეგგაძინინენა ართ-ჟირ ზიტყვასქვილი თიო-თიოთ მიშაღალაშ დროს
 exceeds-small-batch-limit-error = ვემიხერხინე 1000-შე უმოსი ზიტყვასქვილიშ ჯღონა
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
@@ -137,8 +137,8 @@ small-batch-response-message =
         [one] { $uploadedSentences }1 ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი.
        *[other] { $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი { $totalSentences } -შე.
     }
-small-batch-sentences-rule-1 = ქიმიაჸუნი შარაშმაწურაფალს "ზიტყვასქვილი მუჭომი ოკო რდას?"
-small-batch-sentences-rule-2 = ქიგუძინი თითო ზიტყვასქვილი თითო ხაზის
+small-batch-sentences-rule-1 = ქიმიაჸუნით შარაშმაწურაფალს "ზიტყვასქვილი მუჭომი ოკო რდას?"
+small-batch-sentences-rule-2 = ქიგუძინით თითო ზიტყვასქვილი თითო ხაზის
 small-batch-sentences-rule-3 = გაგშართით ზიტყვასქვილეფი ახალ ხაზის "Enter" ვარდა "Return" ღილაკიშა ართი გენჭირათ
 small-batch-sentences-rule-4 = ქიგუძინით არძაშ უმოსი 1,000 ზიტყვასქვილი
 small-batch-sentences-rule-5 = არძა ზიტყვასქვილი ართი დარგიშე ოკო ორდას
@@ -148,7 +148,7 @@ add-sentences = ზიტყვასქვილეფიშ გეძინა
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = ზიტყვასქვილეფიშ გეძინა დო გინოჯინა, ოკითხირეფიშ გეძინა, ინოჭარილ ხონარეფიშ მოჩამა
+write-contribute-menu-tooltip = ზიტყვასქვილეფიშ გეძინა დო გინოჯინა, ოკითხირეფიშ გეძინა, ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა
 add-sentences-menu-item-tooltip = ქიგუძინით ზიტყვასქვილეფი თქვან ნინაშა
 review-sentences-menu-item-tooltip = ქიგნაჯინით ზიტყვასქვილეფს თქვან ნინაშა
 add-questions-menu-item-tooltip = ქიგუძინით ოკითხირეფი თქვან ნინაშა
