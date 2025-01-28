@@ -128,6 +128,7 @@ add-text = عبارَتہ لُبُسَؤ
 ## Community section
 
 community-section-title = عالمی برادَرِیَنہ ذریعَہ ئے قَوی بِسنت، عالمی برادَرِیہ ݭڅی 130 باتی نام اؤ زیات بِمېن دِݪی!
+join-discord-community = ڈِسکارڈ برادَرِیہ لُبُسِؤ
 # label for button
 join-discord-community-action = ڈِسکارڈہ امہ مِنزی لُبُسِؤ
 join-discord-community-content = کمیؤنِٹِیَنی ہانسی لادَہ حصہ گوؤ، کھد گوؤ، اؤ ژِݪہ واقعات اؤ باتِیَنہ بارا پرُوزِؤ۔
@@ -180,3 +181,9 @@ partner-section-title = امہ مِنزی شراکت کېرِؤ
 partner-section-subtitle-tech-companies = <bold>ٹیک کمپنی نام</bold>۔ ترقی لېئݪی لؤ باتی نامَنی AL ماحولیاتی نظامہ ݭڅی اوپن ڈېٹا سېٹَنہ ݫُپَئیکہ سرمایہ کاری کېرِؤ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold> سول سوسائیٹی اؤ محقین </bold>۔تخلیق کېرِؤ،بئ رَوے ڈېٹا سېٹَنی مېزبانی اؤ اشتراک مفتہ کېرِؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> انسان دوستی </bold>۔ سپانسر ڈېٹا سېٹ مقامی جدّت اؤ ترقِیہ زیات کېرِکہ ݭڅی ݫُپاوَہ
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ کېرِؤ<icon></icon>
+# Partners section
+our-partners-include = امَنہ شراکت دارانہ مِنزی لُبُسِسَنت تھنَئیت ۔۔۔
