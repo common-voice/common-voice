@@ -108,9 +108,13 @@ hero-title = سے ٹېکنالوجی زی مېنی باتِیہ ݪِمانے
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>اے اېلَہ فقط دُنیانی یَکَتہ باتِیَہ ݭڅی کېنا ݪم کېرَنہ تھنہ؟</bold>
 hero-subtitle-2 = امَنی باتی امَنی ہېڄان، امَنی برادری، امَنی ثقافت۔ ژِؤ تہ تسہ ڈېٹا سېٹہ ݫُپَئیکَہ زی امَہ دُنیا تَئیکہ ݭڅی ݭېنݭ کېرِمېکے۔
+# icon is an arrow that points downwards
+get-started = شروع کېرِؤ<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائیس کمیونِٹِیَنی قیادَتہ ݫُپَئیکہ ݭڅی یَک مُفتہ، اوپن سورس پلیٹ فارم تھنہ۔
+action-items-section-subtitle = کریَک بی ٹېکسٹ اؤ سپیچ ڈېٹا سېٹسَہ شیئر، تخلیق اؤ کیورېٹ کېری تانُو باتِیہ محفوظ کېری زِیَنت اؤ رت کېری بَمان۔
 
 ## Community section
 
