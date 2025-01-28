@@ -143,12 +143,20 @@ download-contribution-certificate = تانُو شراکَتَنی سرٹیفیک
 download-contribution-certificate-content = کېنے زی مے کامن وائس اَپہ تعاؤن کېرِتوؤ بہ تانُو واقَیا یا تانُو ݭڅی یَک سرٹیفیکېٹ کېرِؤ! ووئی مے بایہ غیر ممکن نہ بِبہ!
 # label for button
 download-contribution-certificate-action = تانُو سرٹیفیکېٹہ گوؤ
+contribute-github = گِتھ ابَہ ہستپلہ ݭَؤ
+contribute-github-content = ووئی منصوبہ مے پېرودہ خلَکہ بایہ غیر ممکن نہ بِبہ۔ کامن وائسہ مِنزی لُبُسِکَنہ لؤ طرېقہ تھنَئیت۔ میاں کی اسہ پروزِکَنی کی ضرورت نہ تھنی زی ہسپَلہ ݭَئیکہ ݭڅی کوڈ کِرَوے ݫُپان دِیَؤ!
+# label for button
+contribute-github-action = گِتھ اپَہ ہسپَلہ ݭَؤ
 
 ## Featured section
 
+featured-section-title = آں اخکارہ۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = امَنہ پریس پېک<icon></icon> ڈاون لوڈ کېرِؤ
 
 ## Developers section
 
+developers-section-title = 130+ باتی نامہ عوامی طورے فېدِکَنہ لائق اوپن سپیچ ڈېٹا سېٹس
 
 ## Get involved section
 
