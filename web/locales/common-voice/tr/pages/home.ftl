@@ -144,6 +144,7 @@ ask-mozilla-share-content = Geçmiş ya da yaklaşan bir etkinliğiniz mi var? B
 # label for button
 ask-mozilla-share-action = Etkinliğinizi paylaşın
 download-contribution-certificate = Katkı sertifikanızı indirin
+download-contribution-certificate-content = Common Voice’a katkıda bulunduysanız kendi başınıza veya etkinliklerinizde kullanabileceğiniz sertifikayı indirin: Siz olmadan başaramazdık!
 # label for button
 download-contribution-certificate-action = Sertifikanızı alın
 contribute-github = GitHub’da katkıda bulunun
@@ -166,6 +167,7 @@ explore-datasets = Veri kümelerini keşfedin <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Topluluk önderliğinde geliştirilen açık kaynaklı veri kümelerini destekleyin
 read-sentences-link = Cümleleri okuyun
 validate-readings-link = Okumaları doğrulayın
 contribute-link = Metin derlemine katkıda bulunun
