@@ -6,6 +6,7 @@ demo-welcome-subheader = Мехоҳед, ки маълумоти бештар б
 
 ## Demo Datasets
 
+demo-language-select-card-header = «Common Voice» - бузургтарин маҷмуи маълумоти овозии оммавӣ ва бисёрзабонӣ дар ҷаҳон аст.
 card-button-next = Навбатӣ
 card-button-back = Бозгашт
 demo-language-select-label = Дидани забонҳо

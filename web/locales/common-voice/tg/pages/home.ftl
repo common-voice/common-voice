@@ -140,6 +140,8 @@ contribute-github-action = Дар «GitHub» саҳм гузоред
 ## Featured section
 
 featured-section-title = Дар бораи мо менависанд...
+# icon is an arrow that points downwards
+download-press-pack = Бастаи матбуоти моро боргирӣ намоед <icon></icon>
 
 ## Developers section
 
