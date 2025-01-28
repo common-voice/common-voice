@@ -160,4 +160,4 @@ write-contribute-menu-aria-label = დოჭარით პარამეტ�
 add-sentences-menu-item-aria-label = ქიგუძინით ზიტყვასქვილეფი მაკათურეფქ წეკითხანინი
 review-sentences-menu-item-aria-label = მაკათურეფიშ წუმორინაფილი ზიტყვასქვილეფიშ გინოჯინა
 add-questions-menu-item-aria-label = ოკითხირეფიშ გეძინა, ბუნაშ მაკათურეფქ წეკითხან დო გამა ქიმეჩანინი
-transcribe-audio-menu-item-aria-label = ინოჭარილ ხონარეფიშ ნაჭარათ გინოჩამა
+transcribe-audio-menu-item-aria-label = ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა
