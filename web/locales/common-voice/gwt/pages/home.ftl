@@ -130,6 +130,8 @@ add-text = عبارَتہ لُبُسَؤ
 community-section-title = عالمی برادَرِیَنہ ذریعَہ ئے قَوی بِسنت، عالمی برادَرِیہ ݭڅی 130 باتی نام اؤ زیات بِمېن دِݪی!
 # label for button
 join-discord-community-action = ڈِسکارڈہ امہ مِنزی لُبُسِؤ
+join-discord-community-content = کمیؤنِٹِیَنی ہانسی لادَہ حصہ گوؤ، کھد گوؤ، اؤ ژِݪہ واقعات اؤ باتِیَنہ بارا پرُوزِؤ۔
+find-us-on-matrix = امہ قالُِپہ کوڅِؤ
 
 ## Featured section
 
