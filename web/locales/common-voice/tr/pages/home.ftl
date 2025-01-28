@@ -172,8 +172,8 @@ read-sentences-link = Cümleleri okuyun
 validate-readings-link = Okumaları doğrulayın
 contribute-link = Metin derlemine katkıda bulunun
 answer-questions-link = Soruları cevaplayın
-transcribe-answers-link = Yanıtları metne çevir
-review-transcriptions-link = Çeviri metinleri incele
+transcribe-answers-link = Yanıtları metne çevirin
+review-transcriptions-link = Çeviri metinleri inceleyin
 contribute-text-link = Metin bağışlayın
 press-and-stories-link = Basın ve haberler
 
