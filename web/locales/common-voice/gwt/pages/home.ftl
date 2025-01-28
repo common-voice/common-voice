@@ -137,6 +137,12 @@ find-us-on-matrix-content = مېٹرکس اؤ ڈی سینٹیلائزڈ ریئل
 find-us-on-matrix-action = امہ قالُِپہ کوڅِؤ
 ask-mozilla-share = تانُو واقعاتہ لُبُسَئیکہ ݭڅی موزیلاں ژَؤ
 ask-mozilla-share-content = کی پتاپی یا ژِݪہ واقَیا تھنا؟ تسہ امہ مِنزی شِئر کېرِؤ اؤ امہ تسَنی اعلانہ تانُو برادَرِیہ کېرِکہ یا تسَنہ بارا بلاک لِکِکہ!
+# label for button
+ask-mozilla-share-action = تانُو واقَیا شئر کېرِؤ
+download-contribution-certificate = تانُو شراکَتَنی سرٹیفیکېٹہ ڈاون لوڈ کېرِؤ
+download-contribution-certificate-content = کېنے زی مے کامن وائس اَپہ تعاؤن کېرِتوؤ بہ تانُو واقَیا یا تانُو ݭڅی یَک سرٹیفیکېٹ کېرِؤ! ووئی مے بایہ غیر ممکن نہ بِبہ!
+# label for button
+download-contribution-certificate-action = تانُو سرٹیفیکېٹہ گوؤ
 
 ## Featured section
 
