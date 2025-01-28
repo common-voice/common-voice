@@ -157,9 +157,24 @@ download-press-pack = امَنہ پریس پېک<icon></icon> ڈاون لوڈ ک
 ## Developers section
 
 developers-section-title = 130+ باتی نامہ عوامی طورے فېدِکَنہ لائق اوپن سپیچ ڈېٹا سېٹس
+developers-section-subtitle = ٹی ٹی ایس، ایس ٹی ٹی، آے ایس آر اؤ واری این ایل پی سیاق و سباقہ ݭڅی ڈېٹا سېٹس۔ برادَرِیَنی شراکَتَنہ ذریعَہ ئے ݫُپان دِتَنَئیت۔
+# icon is an arrow that points to the right
+explore-datasets = <icon></icon> ڈېٹاسیٹسہ معلوم کېرِؤ
 
 ## Get involved section
 
+get-involved-section-title = ووڑاتہ برادَرِیَنی قیادَتہ ڈېٹاسېٹسَنی حمایت کېرِؤ
+read-sentences-link = کلاؤ نامہ ژَؤ
+validate-readings-link = ژَئیکَنی تصدیق کېرِؤ
+contribute-link = ٹېکسٹ کارپَسہ ہسپَلہ ݭَؤ
+answer-questions-link = کھُدَنی جوابہ ݪِؤ
+transcribe-answers-link = جواب نامہ نقل کېرِؤ
+review-transcriptions-link = نقل نامَنہ جائزہ گوؤ
+contribute-text-link = عبارَتہ ہسپَلہ ݭَؤ
+press-and-stories-link = پېس اؤ ہېڄان نام
 
 ## Partner section
 
+partner-section-title = امہ مِنزی شراکت کېرِؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیک کمپنی نام</bold>۔ ترقی لېئݪی لؤ باتی نامَنی AL ماحولیاتی نظامہ ݭڅی اوپن ڈېٹا سېٹَنہ ݫُپَئیکہ سرمایہ کاری کېرِؤ
