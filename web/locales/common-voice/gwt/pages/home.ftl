@@ -178,3 +178,5 @@ press-and-stories-link = پېس اؤ ہېڄان نام
 partner-section-title = امہ مِنزی شراکت کېرِؤ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٹیک کمپنی نام</bold>۔ ترقی لېئݪی لؤ باتی نامَنی AL ماحولیاتی نظامہ ݭڅی اوپن ڈېٹا سېٹَنہ ݫُپَئیکہ سرمایہ کاری کېرِؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول سوسائیٹی اؤ محقین </bold>۔تخلیق کېرِؤ،بئ رَوے ڈېٹا سېٹَنی مېزبانی اؤ اشتراک مفتہ کېرِؤ
