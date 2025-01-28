@@ -88,6 +88,7 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 
 ## NAV ITEMS
 
+answer-questions = ຕອບຄໍາຖາມ
 
 ## MENU ITEMS TOOLTIPS
 
