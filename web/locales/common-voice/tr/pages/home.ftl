@@ -120,6 +120,7 @@ get-started = Başlayalım <icon><icon>
 action-items-section-title = Common Voice, topluluk öncülüğünde veri oluşturmaya yönelik ücretsiz, açık kaynaklı bir platformdur
 action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşarak, oluşturarak ve düzenleyerek dilini koruyabilir, canlandırabilir ve geliştirebilir.
 scripted-card-header = Yazıları Seslendirme
+scripted-card-content = Cümleleri kendi dilinizde okuyun ve kitlesel katılımla oluşturulan, dünyanın en kapsayıcı dil veri kümesine katkıda bulunun.
 spontaneous-card-header = Doğaçlama Konuşma
 spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere istemlere yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
@@ -167,7 +168,7 @@ explore-datasets = Veri kümelerini keşfedin <icon></icon>
 
 read-sentences-link = Cümleleri okuyun
 validate-readings-link = Okumaları doğrulayın
-contribute-link = Metin korpusuna katkıda bulunun
+contribute-link = Metin derlemine katkıda bulunun
 answer-questions-link = Soruları cevaplayın
 transcribe-answers-link = Yanıtları metne çevir
 review-transcriptions-link = Çeviri metinleri incele
@@ -181,6 +182,8 @@ partner-section-title = Bizimle işbirliği yapın
 partner-section-subtitle-tech-companies = <bold>Teknoloji şirketleri</bold>: Hızla gelişen çok dilli bir yapay zekâ ekosistemi için açık veri kümeleri oluşturmaya yatırım yapın
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Sivil toplum ve araştırmacılar</bold>: Etkileyici veri kümelerini ücretsiz olarak oluşturun, barındırın ve paylaşın
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Yardımseverlik</bold> - Yerel buluşları ve gelişmeyi desteklemek için veri kümeleri oluşturmaya sponsor olun
 # icon is an arrow that points to the right
 get-in-touch-button = Bize ulaşın <icon></icon>
 # Partners section
