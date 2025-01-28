@@ -19,7 +19,7 @@ import StateTree from '../../../../stores/tree'
 import { Uploads } from '../../../../stores/uploads'
 import { User } from '../../../../stores/user'
 import API from '../../../../services/api'
-import { trackRecording, getTrackClass } from '../../../../services/tracker'
+import { getTrackClass } from '../../../../services/tracker'
 import URLS from '../../../../urls'
 import { localeConnector, LocalePropsFromState } from '../../../locale-helpers'
 import Modal, { ModalButtons } from '../../../modal/modal'
@@ -40,9 +40,9 @@ import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
 import { castTrueString } from '../../../../utility'
+import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
-import { trackGtag } from '../../../../services/tracker-ga4'
 
 const MIN_RECORDING_MS = 1000
 const MIN_RECORDING_MS_BENCHMARK = 500
@@ -210,13 +210,13 @@ class SpeakPage extends React.Component<Props, State> {
       reRecordIndex = 4
     } else if (event.key === 'Esc' || event.key === 'Escape') {
       if (this.isRecording) {
-        trackRecording('discard-ongoing', this.props.locale)
+        trackGtag('discard-ongoing', { locale: this.props.locale })
         await this.discardRecording()
       }
     }
 
     if (reRecordIndex !== null) {
-      trackRecording('rerecord', this.props.locale)
+      trackGtag('rerecord-clip', { locale: this.props.locale })
       await this.discardRecording()
       this.setState({
         rerecordIndex: reRecordIndex,
@@ -258,7 +258,6 @@ class SpeakPage extends React.Component<Props, State> {
     })
 
     trackGtag('record-clip', { locale: this.props.locale })
-    trackRecording('record', this.props.locale)
   }
 
   private getRecordingError = (): RecordingError => {
@@ -289,7 +288,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   private rerecord = async (i: number) => {
-    trackRecording('rerecord', this.props.locale)
+    trackGtag('rerecord-clip', { locale: this.props.locale })
     await this.discardRecording()
 
     this.setState({
@@ -479,7 +478,7 @@ class SpeakPage extends React.Component<Props, State> {
         }
       }),
       async () => {
-        trackRecording('submit', locale)
+        trackGtag('submit-clips', { locale })
         refreshUser()
         addNotification(
           <>
