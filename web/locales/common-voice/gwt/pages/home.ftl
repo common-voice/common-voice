@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ
 transcribe-audio = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 press-and-stories = پرېس اؤ ہیڄان نام
 community-and-languages = برادری اؤ باتی نام
+coming-soon = دَدُپی ژِمان
 
 ## MENU ITEMS TOOLTIPS
 
@@ -115,6 +116,13 @@ get-started = شروع کېرِؤ<icon><icon>
 
 action-items-section-title = کامن وائیس کمیونِٹِیَنی قیادَتہ ݫُپَئیکہ ݭڅی یَک مُفتہ، اوپن سورس پلیٹ فارم تھنہ۔
 action-items-section-subtitle = کریَک بی ٹېکسٹ اؤ سپیچ ڈېٹا سېٹسَہ شیئر، تخلیق اؤ کیورېٹ کېری تانُو باتِیہ محفوظ کېری زِیَنت اؤ رت کېری بَمان۔
+scripted-card-header = لِکِسنت تقریر
+scripted-card-content = تانُو گاݭٹے کَلاؤ نامہ زورے ژَؤ اؤ دُنیا سافہ پېنہ لؤ قِسُمَنی عوامی شرکَتہ تقریر ڈېٹا سېٹہ ہستپلہ ݭَؤ۔
+spontaneous-card-header = تانُو واکے باتی
+spontaneous-card-content = نامیاتی باتِیَنہ پُرپتا ݭڅی ڈېٹا سېٹس ݫُپَئیکَنی ہنشارت نامَنی جوابہ ݪِؤ۔ ہانسی یادے۔ پُدَمانی باتِی نامہ ݭڅی لؤ بئ۔
+language-text-card-header = باتِیَنی عبارت
+language-text-card-content = عوامی دائرہ وختے سرہ ، کَلاؤ اؤ ترجما ݭڅی عبارت، پولی باتیَہ ݭڅی ماڈلز، وغیرہ ݫُپَؤ یا تسُو مِنزی لُبُسِؤ۔
+coming-soon = دَدُپی ژِمان
 
 ## Community section
 
