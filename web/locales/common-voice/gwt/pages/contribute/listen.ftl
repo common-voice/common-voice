@@ -7,7 +7,7 @@ listen-last-time-instruction = <playIcon></playIcon>یک آخېری!
 listen-empty-state = امہ مِنزی کِلپس نمَتی تنئیت۔ موخہ نونگ کېرِؤ، یا پتا گری کُوشُش کېرِؤ۔
 listen-empty-state-variants = ممکن تھنہ زی مېنی باتیَنہ شکل کلپسہ پېنہ بېرانتے تھِبہ! کېنے زی مے آرامے تھنَؤ بہ، جو مے تانُو گاݭٹے واری جُملہ بالِکہ ݭڅی تانُو ترتیب نامہ بدل کېری بَمانېؤ۔
 listen-loading-error = امَئ مے ݭُنڈِکہ ݭَڅی کی آڈیو کلپس حاصل کېری نہ بَوُوَہ۔ مېرَبانی کېری پتا گِری کُوشُش کېرِؤ۔
-listen-abort-title = کلپسَنی توثیقہ ختم کېرِؤ؟
+listen-abort-title = کلپسَنی توثیقہ ختم کېرِؤ
 listen-abort-cancel = تصدیق کېراوا جاری درَؤ
 listen-abort-confirm = جوازہ ختم کېرِؤ
 # Menu item
