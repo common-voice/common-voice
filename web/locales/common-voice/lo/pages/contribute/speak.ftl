@@ -1,3 +1,4 @@
+speak = ເວົ້າ
 speak-now = ເວົ້າຕອນນີ້
 speak-subtitle = ບໍລິຈາກສຽງຂອງທ່ານ
 record-cta = ເລີ່ມການບັນທຶກ

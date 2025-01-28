@@ -21,6 +21,7 @@ validate-readings-coming-soon = ກວດສອບການອ່ານ <small>(
 
 listen-contribute-menu-tooltip = ກວດສອບການອ່ານ, ທົບທວນຄືນການຖອດຂໍ້ຄວາມ
 validate-readings-menu-item-tooltip = ກວດສອບການອ່ານທີ່ບັນທຶກໄວ້ໂດຍຜູ້ໃຊ້ໃນພາສາຂອງທ່ານ
+review-transcriptions-menu-item-tooltip = ກວດເບິ່ງການຖອດຂໍ້ຄວາມທີ່ສົ່ງໂດຍຜູ້ໃຊ້ເປັນພາສາຂອງທ່ານ
 
 ## MENU ITEM ARIA LABELS
 
