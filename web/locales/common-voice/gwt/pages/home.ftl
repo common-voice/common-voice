@@ -16,9 +16,9 @@ toggle-play-tooltip = پلے موڈ لوکل کېرِکہ ݭڅی{ shortcut-play-
 speak-paragraph = وائس کِلپسَنی رِکاڈِنگ امَنہ اوپن ڈېٹا سیٹَنی ݫُپِکَنہ یَہ لازمی حصہ تھنہ؛ کرہ ژاتہ زی ووئی بی مزا نہ حصہ تھنہ۔
 speak-goal-text = کِلپس رکاڈ کېران گئیت
 listen-paragraph = عطیہ کېرِسنت کِلپسَنی تصدیق کېرِک کامن وائس ماشینہ ݭڅی اتہ می اہم تھنہ۔ ݭُنڈِؤ اؤ معیاری اوپن سورس وائس ڈېٹا ݫُپَئیکہ امہ مِنزی ہسپلہ ݭَؤ۔
-listen-goal-text = کِلپسَنی توثیق کېران گئ
+listen-goal-text = کِلپسَنی تصدیق کېران گئ
 hours-recorded = فایَہ رِکاڈ کېران گَئیت
-hours-validated = فایا نی توثیق
+hours-validated = فایا نی تصدیق
 voices-online = کھنٹ نوری آن لائن
 todays-progress = نُنُوکہ پُر دِک
 help-reach-goal = { $goal }مِزان فېدِکہ امہ مِنزی ہسپَلہ ݭَؤ
@@ -104,6 +104,10 @@ community-and-languages-menu-item-aria-label = کامن وئسَنہ ذریعہ 
 
 ## Hero section
 
+hero-title = سے ٹېکنالوجی زی مېنی باتِیہ ݪِمانے
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے اېلَہ فقط دُنیانی یَکَتہ باتِیَہ ݭڅی کېنا ݪم کېرَنہ تھنہ؟</bold>
+hero-subtitle-2 = امَنی باتی امَنی ہېڄان، امَنی برادری، امَنی ثقافت۔ ژِؤ تہ تسہ ڈېٹا سېٹہ ݫُپَئیکَہ زی امَہ دُنیا تَئیکہ ݭڅی ݭېنݭ کېرِمېکے۔
 
 ## Action items section
 
