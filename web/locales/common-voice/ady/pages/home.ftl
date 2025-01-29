@@ -1,5 +1,7 @@
 ## Home Page
 
+show-wall-of-text = Нахьыбэ къедж
+listen-goal-text = Къэгъэшъыпкъагъэ тетхагъэхэр
 
 ## Account Benefits
 

@@ -75,11 +75,15 @@ read-more-about = 到咱的「關於」頁面了解閣較濟資訊
 ## NAV ITEMS
 
 answer-questions = 回答問題 <small>(近期推出)</small>
+answer-questions-coming-soon = 回答問題 <small>(咧欲推出)</small>
 review-transcriptions = 審核轉錄 <small>即將推出</small>
+review-transcriptions-coming-soon = 審核轉錄 <small>這欲推出</small>
 add-questions = 新增問題 <small>(近期推出)</small>
+transcribe-audio-coming-soon = 轉錄語音 <small>(咧欲推出)</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
 community-and-languages = 社群與語言
+coming-soon = 咧欲推出
 
 ## MENU ITEMS TOOLTIPS
 
@@ -100,21 +104,87 @@ community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社�
 
 ## Hero section
 
+hero-title = 予技術驅動會當講出你的語言
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>為何欲予 AI 干焦捌世界一寡語言爾爾？</bold>
+hero-subtitle-2 = 咱的語言有咱的故事，咱的社群，咱的文化。予咱創造咱會予全世界看著的資料集。
+# icon is an arrow that points downwards
+get-started = 咧欲開始矣 <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice 是自由、開源予社群的平台 - 會予資料生成
+action-items-section-subtitle = 任何人會當透過分享、生成佮展現文字佮講話資料集，來保存、活化、佮提昇𪜶的語言。
+scripted-card-header = 有記錄的講話內容
+scripted-card-content = 用你的語言大聲講出字句，來貢獻通世界上多元的公共參與的講話內容資料集。
+spontaneous-card-header = 家己的講話內容
+spontaneous-card-content = 回答有情境的問題來創作有機、平時講話慣常的資料集。適合予口說為主的語言。
+language-text-card-header = 語言文字
+language-text-card-content = 創作抑是分享公有領域的情境問答、字句、佮文字會當來翻譯、細語言模型、閣較濟應用。
+coming-soon = 咧欲推出
+add-text = 加添文字
 
 ## Community section
 
+community-section-title = 由全球社群騙動，為著全球社群 - 130 个語言佮𪜶的成長！
+join-discord-community = 加入 Discord 社群
+# label for button
+join-discord-community-action = 佇 Discord 加入咱的討論區
+join-discord-community-content = 加入語言社群討論、問問題，佮知影未來的活動佮演講。
+find-us-on-matrix = 咱的 Matrix
+find-us-on-matrix-content = Matrix 是開放、輕量予去中心化、即時的通訊協定，嘛是 Mozilla 較佮意的開放討論平台。
+# label for button
+find-us-on-matrix-action = 咱的 Matrix
+ask-mozilla-share = 問 Mozilla 來分享你的活動
+ask-mozilla-share-content = 進前抑是欲辦活動無？佮咱分享，咱會當公告予社群的朋友知影，嘛會當寫部落格文章推捒！
+# label for button
+ask-mozilla-share-action = 分享你的活動
+download-contribution-certificate = 下載你的貢獻認證
+download-contribution-certificate-content = 若是你有 Common Voice 的貢獻，你會當下載你的活動的認證—若是無你的貢獻這是無法度的！
+# label for button
+download-contribution-certificate-action = 取得認證
+contribute-github = 佇 GitHub 貢獻
+contribute-github-content =
+    這个專案若是無你這款的人是無法度做出來的。🎉
+    有真濟方式會當貢獻 Common Voice - 你毋捌程式碼嘛會當來貢獻！
+# label for button
+contribute-github-action = 佇 GitHub 貢獻
 
 ## Featured section
 
+featured-section-title = 佇遮紹介……
+# icon is an arrow that points downwards
+download-press-pack = 下載咱的媒體包裹<icon></icon>
 
 ## Developers section
 
+developers-section-title = 公開予逐家用的，有 130+ 語言的開放講話內容資料集
+developers-section-subtitle = 會當用佇咧 ASR、STT、TTS，佮其他 NLP 技術 - 用社群參與的方式來產生。
+# icon is an arrow that points to the right
+explore-datasets = 瀏覽資料集<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = 支持開放、社群驅動的資料集
+read-sentences-link = 看句
+validate-readings-link = 驗證閱讀
+contribute-link = 貢獻文字資料
+answer-questions-link = 回答問題
+transcribe-answers-link = 錄製回答
+review-transcriptions-link = 檢閱錄音
+contribute-text-link = 貢獻文字
+press-and-stories-link = 報導佮故事
 
 ## Partner section
 
+partner-section-title = 成做共伴
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>科技公司</bold> - 為著繁榮的濟語言 AI 生態系，投資開放資料集的生產
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>公民社會佮研究者</bold> - 自由創作、託管佮分享有影響力的資料集
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>慈善家</bold> - 贊助生產資料集的產生，來幫贊在地創新佮發展
+# icon is an arrow that points to the right
+get-in-touch-button = 連絡咱<icon></icon>
+# Partners section
+our-partners-include = 咱的夥伴有……

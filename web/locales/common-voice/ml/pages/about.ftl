@@ -25,6 +25,7 @@ about-get-involved = പങ്കെടുക്കുക
 about-get-involved-text-2 =
     കോമൺ വോയ്സ് മെച്ചപ്പെടുത്താൻ സഹായിക്കണമെന്നുണ്ടോ?
     കൊള്ളാം!  എങ്കിൽ ഇമെയിലിൽ, <discourseLink>ഡിസ്കോർസിൽ</discourseLink>  അല്ലെങ്കിൽ <slackLink>സ്ലാക്കിൽ</slackLink> ഞങ്ങളുമായി ബന്ധപ്പെടാം.<githubLink>ഗിറ്റ്ഹബ് </githubLink> വഴി ഫീഡ്ബാക്ക് സമർപ്പിക്കുകയും ആവാം.
+about-stay-in-touch-button = അംഗത്വമെടുക്കുക
 about-nav-why-common-voice = എന്തുകൊണ്ട്?
 about-nav-how-it-works = എങ്ങനെ ?
 about-nav-partners = പങ്കാളികള്‍
@@ -36,6 +37,7 @@ about-nav-get-involved = പങ്കെടുക്കുക
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-heading = വാക്ക്യങ്ങളെ പിരിക്കുന്നതു്
 
 ## How does localization work
 

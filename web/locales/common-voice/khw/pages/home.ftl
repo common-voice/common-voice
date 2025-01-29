@@ -101,8 +101,8 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = اختیاراتو لیسٹو بارا
-partnerships-menu-item-aria-label = کمان وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
-press-and-stories-menu-item-aria-label = کمان وائسو بارا خبران وا مضمونان ژاغا بوغے
+partnerships-menu-item-aria-label = کامن وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
+press-and-stories-menu-item-aria-label = کامن وائسو بارا خبران وا مضمونان ژاغا بوغے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران  سوم کی مدد کویان تیتان پتہ کو
 
 ## NEW HOME PAGE KEYS
@@ -119,7 +119,7 @@ get-started = شروغ کو<icon><icon>
 
 ## Action items section
 
-action-items-section-title = کمان وائس کمیونیٹیو ساوزیرو مفت وا سفو پچین ای ژاغا
+action-items-section-title = کامن وائس کمیونیٹیو ساوزیرو مفت وا سفو پچین ای ژاغا
 action-items-section-subtitle = کا دی  نیویشیرو وا لوان ڈیٹا سیٹو بوژی، ساوزے وا محفوظ کور تان وارو  حفاظت، زندہ وا ژانگ کوریکو بوئے۔
 scripted-card-header = نیویشیرو لو
 scripted-card-content = تان وارو جملان توڑ راوے وا دنیو  مختلف قسمہ عام رویان حصہ گنیرو لوان ڈیٹا سیٹا حصہ دراوے
@@ -138,15 +138,57 @@ join-discord-community = پیڅیروا کمیونیٹیا شامل بوس
 join-discord-community-action = اسپہ سون پیڅیروا شامل بوس
 join-discord-community-content = واران رویان مشقولگیا شامل بوس، سوال کو وا گیاگ تقریبان وا تقریران بارا معلومات گنے
 find-us-on-matrix = میٹرکسا اسپا مݰکے
+find-us-on-matrix-content = میٹرکس وریغ، تیز خبر تریکو، غیر مرکزی لوڅ اصول،  وا موزیلو وریغ مشقولگیو خوش ژاغہ
+# label for button
+find-us-on-matrix-action = میٹرکسا بی  اسپہ مݰکے
+ask-mozilla-share = موزیلو تین تان واقعاتان لودیت۔
+ask-mozilla-share-content = بوغدو یا گیاگ  کیہ تقرب شینیا؟ ہیتان بارا اسپہ تین لودیت۔ اسپہ ہیتان تان کمیونیٹیا اعلان کوسی یا ہیتان بارا مضمون نیویشیسی
+# label for button
+ask-mozilla-share-action = تان تقریبان بارا اسپہ تین لو دیت
+download-contribution-certificate = حصہ دریکو تان سرٹیفیکیٹو ڈاونلوڈ کو
+download-contribution-certificate-content = تان تقریبان یا تو کی کامن وائسا حصہ درے اسوس تان سرٹیفیکیٹو ڈاونلوڈ کو — ہیہ تہ سار غیر ممکن نو
+# label for button
+download-contribution-certificate-action = تان سرٹیفیکیٹو گنے
+contribute-github = گیٹ ہبا حصہ دراوے
+contribute-github-content = ہیا پروجکٹ پیسہ غون رویان سار بغیر ممکن نو۔ کامن وائسا حصہ دریکو بو طریقہ شینی- حصہ دریکو بچین کوڈ لگیک ݯھیݯھیک ضروری نو۔
+# label for button
+contribute-github-action = گیٹ ہبا بی حصہ دراوے
 
 ## Featured section
 
+featured-section-title = ہیرا واضح۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اسپہ نیویشیروان پیکیجو ڈونلوڈ کو</icon><icon>
 
 ## Developers section
 
+developers-section-title = سفو پچین میسر وریغ 130 سار زیاد زبانان ڈیٹاسیٹ
+developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس وا خور این ایل پی ماحولو ڈیٹاسیٹ- کمیونیٹیو مدد سورا ساوزے اسوس
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹان پتہ کو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = وریغ، کمیونیٹیو لوٹھورووییا ساوز باک ڈیٹا سیٹو مدد کو
+read-sentences-link = جملان روے
+validate-readings-link = ریکو تصدیق کو
+contribute-link = نیویشیروان بڑڅیکا حصہ گنے
+answer-questions-link = سوالان جواب دیت
+transcribe-answers-link = جوابان نیویشیکا غیراوے
+review-transcriptions-link = نیویشیروان وا لوڑے
+contribute-text-link = نیویشیکا حصہ گنے
+press-and-stories-link = خبر وا مضمون
 
 ## Partner section
 
+partner-section-title = اسپہ سون حصہ دار بوس
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیکنالوجیو کمپنیان</bold>  بو زبانان بارا آے آئی ماحولو عام کوریکو پچین وریغ ڈیٹا سیٹا پیسہ لگیک
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> غیر سرکاری تنظیم وا محقیق</bold>۔ متاثر کون ڈیٹا سیٹو ساویزیانی، میزبانی کورانی وا رویان سوم بوژانی۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> خدمت خلق</bold> مقامی تخلیق وا ترقی بیکو پچین پیسو مدد دیانی
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ حال بوس<icon></icon>
+# Partners section
+our-partners-include = ---اسپہ شرکت داران موژی اسونی

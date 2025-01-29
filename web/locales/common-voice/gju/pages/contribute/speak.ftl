@@ -62,6 +62,8 @@ create-profile-button = ایک معلومات کی پروفائل بناؤ
 img-alt-success-checkmark = کامیابی کو نشان
 # menu item
 read-sentences = فقراں نا پڑھوں
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملا پڑھو<small>(جھب آوے گو)</small>
 
 ## MENU ITEM TOOLTIPS
 

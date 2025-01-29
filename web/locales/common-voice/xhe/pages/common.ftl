@@ -264,6 +264,7 @@ privacy = رازداری
 terms = شرطیاں
 cookies = کوکیز
 faq = عمومی سوالات
+documentation = دستاویزیں
 content-license-text = مواد <licenseLink>تخلیقی عام لائسنس</licenseLink> تے ذریعے مِل سڳدا ہے
 share-title = اسانک ٻئینک آپݨی اَواز ݙیݨ تی بھن٘ؤڑ تی وِچ مدد کر!
 share-text = مشینیک سِکّھݨ تے وِچ مدد کر جا سچّا تُمن کُکر ڳاھلین٘دِن، { $link } ھیچ آپݨی اَواز ݙے

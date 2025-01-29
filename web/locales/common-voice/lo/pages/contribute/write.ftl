@@ -90,6 +90,8 @@ too-many-files = ໄຟລ໌ຫຼາຍເກີນໄປ
 
 ## SMALL BATCH SUBMISSION
 
+# menu item
+add-sentences = ເພີ່ມປະໂຫຍກ
 
 ## MENU ITEM TOOLTIPS
 

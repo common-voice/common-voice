@@ -76,10 +76,13 @@ read-more-about = ساسے پیج دی پا باڑ
 ## NAV ITEMS
 
 answer-questions = سوالونی ام جواب دہ
+answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
-add-questions = سوالونی میلہ
-transcribe-audio = اڈیو نقل تہ
-press-and-stories = چھاپتھال تے قیصا
+review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
+add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
+transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
+transcribe-audio = بوجل نقل تیپہ پݭہ۔
+press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب
 
 ## MENU ITEMS TOOLTIPS
@@ -101,6 +104,9 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 
 ## Hero section
 
+hero-title = کاں ٹکنالوجی تسے جب دون تہ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = اسے ملگر اون۔
 
 ## Action items section
 
@@ -116,6 +122,17 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 
 ## Get involved section
 
+read-sentences-link = جولال من۔
+validate-readings-link = ریکاڑنگ والیڈٹنگ تھ
+contribute-link = مشین اے° جوݨا گال مداد دہ۔
+answer-questions-link = سوال جواب
+transcribe-answers-link = جوابونی دی جب تھ گیرو۔
+review-transcriptions-link = دیراں نالیل
+contribute-text-link = سبق می مداد دہ
+press-and-stories-link = سیپ دہ۔
 
 ## Partner section
 
+partner-section-title = اسان سہ ٹلگر
+# Partners section
+our-partners-include = اسے مرگر اون۔

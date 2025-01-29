@@ -63,6 +63,10 @@ about-playbook-what-is-language = Забон дар «Common Voice» чист?
 ## How do I add a language
 
 about-playbook-how-add-language = Чӣ тавр ман забонро илова намоям?
+about-playbook-how-add-language-content-1 =
+    Пеш аз ҳама озмоед, ки забони шумо <languageLink>аллакай вуҷуд дорад</languageLink>.
+    Агар ин тавр набошад, шумо метавонед <languageRequestLink>дархост кунед, ки забони шуморо илова намоянд</languageRequestLink>.
+    Ду марҳила вуҷуд дорад: «Маҳаллисозӣ/Тарҷумаи сомона» ва «Ҷамъоварии ҷумлаҳо»
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Дастури моро дар бораи тарзи истифодаи «Pontoon» тамошо кунед.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
@@ -124,3 +128,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Маълумо
 
 about-playbook-how-funded = «Common Voice» чӣ гуна маблағгузорӣ мешавад?
 about-playbook-how-funded-content-1 = «Common Voice» - лоиҳаи «Mozilla Foundation» мебошад, ки ҳамчун ташкилоти ғайритиҷоратии 501(c)(3) дар ИМА фаъолият мекунад. Айни ҳол, лоиҳа пурра тавассути <philantropicGrantLink>грантҳои ёрии башардӯстона</philantropicGrantLink> ва хайрияҳои шахсони аз саросари ҷаҳон маблағгузорӣ мегардад.
+about-playbook-how-funded-content-3 = Агар шумо ё ташкилоти шумо хоҳиши гузоштани саҳм дар лоиҳа дошта бошед, шумо метавонед <donateLink> хайрия намоед</donateLink> ё бо дастаи кор бо шарикони мо дар <emailFragment>«commonvoice@mozilla.com»</emailFragment> тамос шавед.

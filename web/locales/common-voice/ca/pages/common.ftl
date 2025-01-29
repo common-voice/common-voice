@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Àfar
 ab = abkhaz
 ace = atjeh
 ady = adigué
@@ -222,6 +223,7 @@ privacy = Privadesa
 terms = Condicions d'ús
 cookies = Galetes
 faq = PMF
+documentation = Documentació
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
 share-title = Ajudeu-nos a trobar més persones que donin la veu!
 share-text = Ensenyeu a les màquines com parlem la gent de debò. Col·laboreu amb la vostra veu a { $link }
@@ -244,5 +246,12 @@ not-available-abbreviation = N/D
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Necessitem</mark><br/><mark>que ens ajudeu!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem costa gairebé un milió de dòlars l'any. <strong>Si valoreu les dades obertes i inclusives, feu un donatiu avui mateix!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Feu servir CV per</mark><br/><mark>a la recerca?</mark>
+languages-donate-banner-cta-explanation = El Common Voice es finança amb donatius i subvencions! Ens encanta col·laborar amb investigadors acadèmics, de la societat civil i de la indústria. El Common Voice és d'ús gratuït, però ens serà molt útil si podeu ajudar amb els costos de la plataforma i de l'allotjament mitjançant propostes de subvencions.
 localization-select =
     .label = Trieu una llengua/localització

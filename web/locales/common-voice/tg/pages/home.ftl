@@ -93,6 +93,7 @@ community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва 
 
 about-menu-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред
+press-and-stories-menu-item-aria-label = Ба матбуоти расмӣ ва мақолаҳои марбут ба лоиҳаи «Common Voice» дастрасӣ пайдо намоед
 community-and-languages-menu-item-aria-label = Дар бораи ҷамъияти мо ва забонҳое, ки аз ҷониби «Common Voice» дастгирӣ мешаванд, маълумоти пурра пайдо кунед
 
 ## NEW HOME PAGE KEYS
@@ -139,6 +140,8 @@ contribute-github-action = Дар «GitHub» саҳм гузоред
 ## Featured section
 
 featured-section-title = Дар бораи мо менависанд...
+# icon is an arrow that points downwards
+download-press-pack = Бастаи матбуоти моро боргирӣ намоед <icon></icon>
 
 ## Developers section
 

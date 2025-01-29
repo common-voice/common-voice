@@ -1,3 +1,4 @@
+speak = ເວົ້າ
 speak-now = ເວົ້າຕອນນີ້
 speak-subtitle = ບໍລິຈາກສຽງຂອງທ່ານ
 record-cta = ເລີ່ມການບັນທຶກ
@@ -67,3 +68,4 @@ read-sentences = ອ່ານປະໂຫຍກ
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ເມນູຕົວເລືອກການເວົ້າ

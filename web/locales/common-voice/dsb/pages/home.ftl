@@ -111,11 +111,17 @@ community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rě
 
 ## Hero section
 
+hero-title = Technologija, kótaraž wašu rěc powěda
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Cogodla měła KI jano za mało rěcow swěta funkcioněrowaś?</bold>
+hero-subtitle-2 = Naša rěc jo naše stawizny, našo zgromaźeństwo, naša kultura. Napórajmy datowe sajźby, kótarež comy w swěśe wiźeś.
 # icon is an arrow that points downwards
 get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Napisane powědanje
+spontaneous-card-header = Spontane powědanje
 language-text-card-header = Rěcny tekst
 coming-soon = Skóro k dispoziciji
 add-text = Tekst pśidaś
@@ -128,8 +134,10 @@ join-discord-community-action = Pśizamkniśo se nam na Discord
 find-us-on-matrix = Namakajśo nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajśo nas na Matrix
+ask-mozilla-share = Pšosćo Mozilla, aby waše zarědowanja źělił
 # label for button
 ask-mozilla-share-action = Źělśo swójo zarědowanje
+download-contribution-certificate = Ześěgniśo swój certifikat sobustatkowanja
 # label for button
 download-contribution-certificate-action = Wobstarajśo se swój certifikat
 contribute-github = Na Github pśinosowaś
@@ -139,9 +147,12 @@ contribute-github-action = Na Github pśinosowaś
 ## Featured section
 
 featured-section-title = Pśedstajony w…
+# icon is an arrow that points downwards
+download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title = Zjawnje pśistupne wótwórjone powědańske datowe sajźby we wěcej ako 130 rěcach
 # icon is an arrow that points to the right
 explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 

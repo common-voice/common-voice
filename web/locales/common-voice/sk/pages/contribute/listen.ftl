@@ -14,6 +14,8 @@ listen-abort-cancel = Pokračovať v overovaní
 listen-abort-confirm = Skončiť s overovaním
 # Menu item
 validate-readings = Overovanie čítania
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Overujte čítaný text <small>(už čoskoro)</small>
 
 ## MENU ITEM TOOLTIPS
 

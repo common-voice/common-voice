@@ -88,9 +88,12 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 
 ## NAV ITEMS
 
+answer-questions = ຕອບຄໍາຖາມ
+press-and-stories = ກົດ ແລະ ເລື່ອງ
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = ເປັນຄູ່ຮ່ວມງານກັບພວກເຮົາ
 
 ## MENU ITEM ARIA LABELS
 
@@ -105,6 +108,7 @@ get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 ## Action items section
 
+scripted-card-header = ການເວົ້າແບບສະຄຣິບ
 
 ## Community section
 
@@ -117,6 +121,7 @@ get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 ## Get involved section
 
+press-and-stories-link = ກົດ ແລະ ເລື່ອງ
 
 ## Partner section
 
