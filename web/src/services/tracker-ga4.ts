@@ -16,6 +16,9 @@ type GA4Events =
   | 'rejected-files-download'
   | 'bulk-submission-upload'
   | 'bulk-submission-file-drop'
+  | 'vote-yes-sentence'
+  | 'vote-no-sentence'
+  | 'skip-sentence-review'
 
 export const trackGtag = (
   eventName: GA4Events,
