@@ -91,7 +91,8 @@ export const SentenceWrite: React.FC<Props> = ({
             rounded
             outline
             blank
-            href={`mailto:${COMMON_VOICE_EMAIL}`}>
+            href={`mailto:${COMMON_VOICE_EMAIL}`}
+            data-testid="contact-us-link">
             <SendIcon />
             <Localized id="contact-us">
               <span />

@@ -12,6 +12,10 @@ type GA4Events =
   | 'skip-clip'
   | 'skip-sentence'
   | 'how-to-cite-toggle'
+  | 'what-needs-to-be-in-file-toggle'
+  | 'rejected-files-download'
+  | 'bulk-submission-upload'
+  | 'bulk-submission-file-drop'
 
 export const trackGtag = (
   eventName: GA4Events,
