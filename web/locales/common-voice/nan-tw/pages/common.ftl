@@ -264,6 +264,7 @@ privacy = 隱私權
 terms = 使用條款
 cookies = Cookie
 faq = 捷看的問題
+documentation = 說明文件
 content-license-text = 內容照 <licenseLink>Creative Commons 條款</licenseLink> 來授權予大眾使用
 share-title = 共阮鬥揣人來錄音！
 share-text = 請到 { $link } 來提供你的聲音，來幫贊阮教機器，予機器了解咱人是按怎講話的。

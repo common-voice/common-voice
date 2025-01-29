@@ -17,6 +17,7 @@ contribute-more =
        *[other] A punt per a fer-ne { $count } més?
     }
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
+no-sentences-for-variants = Pot ser que no quedin frases en la vostra variant de llengua. Si us hi trobeu còmode, podeu canviar la configuració per veure altres frases en la vostra llengua.
 speak-empty-state-cta = Aporteu frases
 speak-loading-error =
     No hem pogut carregar les oracions.
@@ -31,11 +32,14 @@ target-segment-first-banner = Ajudeu a assolir el primer segment objectiu del Co
 target-segment-add-voice = Afegiu la vostra veu
 target-segment-learn-more = Més informació
 change-preferences = Canvia les preferències
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Recollida de veus
-contribute-sentence-collection-nav-header = Recollida de frases
+login-signup = Inici de sessió / Registre
+vote-yes = Sí
+vote-no = No
+datasets = Conjunts de dades
+languages = Llengües
+about = Quant a
+partner = Feu-vos soci
+submit-form-action = Envia
 
 ## Reporting
 

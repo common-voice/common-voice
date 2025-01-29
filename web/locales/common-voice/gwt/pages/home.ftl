@@ -16,9 +16,9 @@ toggle-play-tooltip = پلے موڈ لوکل کېرِکہ ݭڅی{ shortcut-play-
 speak-paragraph = وائس کِلپسَنی رِکاڈِنگ امَنہ اوپن ڈېٹا سیٹَنی ݫُپِکَنہ یَہ لازمی حصہ تھنہ؛ کرہ ژاتہ زی ووئی بی مزا نہ حصہ تھنہ۔
 speak-goal-text = کِلپس رکاڈ کېران گئیت
 listen-paragraph = عطیہ کېرِسنت کِلپسَنی تصدیق کېرِک کامن وائس ماشینہ ݭڅی اتہ می اہم تھنہ۔ ݭُنڈِؤ اؤ معیاری اوپن سورس وائس ڈېٹا ݫُپَئیکہ امہ مِنزی ہسپلہ ݭَؤ۔
-listen-goal-text = کِلپسَنی توثیق کېران گئ
+listen-goal-text = کِلپسَنی تصدیق کېران گئ
 hours-recorded = فایَہ رِکاڈ کېران گَئیت
-hours-validated = فایا نی توثیق
+hours-validated = فایا نی تصدیق
 voices-online = کھنٹ نوری آن لائن
 todays-progress = نُنُوکہ پُر دِک
 help-reach-goal = { $goal }مِزان فېدِکہ امہ مِنزی ہسپَلہ ݭَؤ
@@ -76,11 +76,15 @@ read-more-about = امنہ بارا موخہ رتئ واری بی ژَؤ
 ## NAV ITEMS
 
 answer-questions = کھُد نامَنی جواب ݪِؤ<small>(ددُوپی ژِمان)</small>
+answer-questions-coming-soon = سوال نامَنی جواب ݪِؤ<small>(ددُوپی ژِمان</small>)
 review-transcriptions = ٹرانسکِپشَنَنہ جائزہ گوؤ<small>(ݭُورہ ژِمان)</small>
+review-transcriptions-coming-soon = نقل کېرِکَنہ جائزہ گؤ<small>(ددُوپی ژِمان)</small>
 add-questions = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)</small>
+transcribe-audio-coming-soon = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 transcribe-audio = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 press-and-stories = پرېس اؤ ہیڄان نام
 community-and-languages = برادری اؤ باتی نام
+coming-soon = دَدُپی ژِمان
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = کامن وئسَنہ ذریعہ 
 
 ## Hero section
 
+hero-title = سے ٹېکنالوجی زی مېنی باتِیہ ݪِمانے
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے اېلَہ فقط دُنیانی یَکَتہ باتِیَہ ݭڅی کېنا ݪم کېرَنہ تھنہ؟</bold>
+hero-subtitle-2 = امَنی باتی امَنی ہېڄان، امَنی برادری، امَنی ثقافت۔ ژِؤ تہ تسہ ڈېٹا سېٹہ ݫُپَئیکَہ زی امَہ دُنیا تَئیکہ ݭڅی ݭېنݭ کېرِمېکے۔
+# icon is an arrow that points downwards
+get-started = شروع کېرِؤ<icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائیس کمیونِٹِیَنی قیادَتہ ݫُپَئیکہ ݭڅی یَک مُفتہ، اوپن سورس پلیٹ فارم تھنہ۔
+action-items-section-subtitle = کریَک بی ٹېکسٹ اؤ سپیچ ڈېٹا سېٹسَہ شیئر، تخلیق اؤ کیورېٹ کېری تانُو باتِیہ محفوظ کېری زِیَنت اؤ رت کېری بَمان۔
+scripted-card-header = لِکِسنت تقریر
+scripted-card-content = تانُو گاݭٹے کَلاؤ نامہ زورے ژَؤ اؤ دُنیا سافہ پېنہ لؤ قِسُمَنی عوامی شرکَتہ تقریر ڈېٹا سېٹہ ہستپلہ ݭَؤ۔
+spontaneous-card-header = تانُو واکے باتی
+spontaneous-card-content = نامیاتی باتِیَنہ پُرپتا ݭڅی ڈېٹا سېٹس ݫُپَئیکَنی ہنشارت نامَنی جوابہ ݪِؤ۔ ہانسی یادے۔ پُدَمانی باتِی نامہ ݭڅی لؤ بئ۔
+language-text-card-header = باتِیَنی عبارت
+language-text-card-content = عوامی دائرہ وختے سرہ ، کَلاؤ اؤ ترجما ݭڅی عبارت، پولی باتیَہ ݭڅی ماڈلز، وغیرہ ݫُپَؤ یا تسُو مِنزی لُبُسِؤ۔
+coming-soon = دَدُپی ژِمان
+add-text = عبارَتہ لُبُسَؤ
 
 ## Community section
 
+community-section-title = عالمی برادَرِیَنہ ذریعَہ ئے قَوی بِسنت، عالمی برادَرِیہ ݭڅی 130 باتی نام اؤ زیات بِمېن دِݪی!
+join-discord-community = ڈِسکارڈ برادَرِیہ لُبُسِؤ
+# label for button
+join-discord-community-action = ڈِسکارڈہ امہ مِنزی لُبُسِؤ
+join-discord-community-content = کمیؤنِٹِیَنی ہانسی لادَہ حصہ گوؤ، کھد گوؤ، اؤ ژِݪہ واقعات اؤ باتِیَنہ بارا پرُوزِؤ۔
+find-us-on-matrix = امہ قالُِپہ کوڅِؤ
+find-us-on-matrix-content = مېٹرکس اؤ ڈی سینٹیلائزڈ ریئل ٹائم کمیونِکېشن اؤ موزیلانہ ترجیحی اوپن دِسکشن پلېٹفارَمہ ݭڅی یَک ووڑاتہ، لؤ اوبہ پروٹوکول تھنہ۔
+# label for button
+find-us-on-matrix-action = امہ قالُِپہ کوڅِؤ
+ask-mozilla-share = تانُو واقعاتہ لُبُسَئیکہ ݭڅی موزیلاں ژَؤ
+ask-mozilla-share-content = کی پتاپی یا ژِݪہ واقَیا تھنا؟ تسہ امہ مِنزی شِئر کېرِؤ اؤ امہ تسَنی اعلانہ تانُو برادَرِیہ کېرِکہ یا تسَنہ بارا بلاک لِکِکہ!
+# label for button
+ask-mozilla-share-action = تانُو واقَیا شئر کېرِؤ
+download-contribution-certificate = تانُو شراکَتَنی سرٹیفیکېٹہ ڈاون لوڈ کېرِؤ
+download-contribution-certificate-content = کېنے زی مے کامن وائس اَپہ تعاؤن کېرِتوؤ بہ تانُو واقَیا یا تانُو ݭڅی یَک سرٹیفیکېٹ کېرِؤ! ووئی مے بایہ غیر ممکن نہ بِبہ!
+# label for button
+download-contribution-certificate-action = تانُو سرٹیفیکېٹہ گوؤ
+contribute-github = گِتھ ابَہ ہستپلہ ݭَؤ
+contribute-github-content = ووئی منصوبہ مے پېرودہ خلَکہ بایہ غیر ممکن نہ بِبہ۔ کامن وائسہ مِنزی لُبُسِکَنہ لؤ طرېقہ تھنَئیت۔ میاں کی اسہ پروزِکَنی کی ضرورت نہ تھنی زی ہسپَلہ ݭَئیکہ ݭڅی کوڈ کِرَوے ݫُپان دِیَؤ!
+# label for button
+contribute-github-action = گِتھ اپَہ ہسپَلہ ݭَؤ
 
 ## Featured section
 
+featured-section-title = آں اخکارہ۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = امَنہ پریس پېک<icon></icon> ڈاون لوڈ کېرِؤ
 
 ## Developers section
 
+developers-section-title = 130+ باتی نامہ عوامی طورے فېدِکَنہ لائق اوپن سپیچ ڈېٹا سېٹس
+developers-section-subtitle = ٹی ٹی ایس، ایس ٹی ٹی، آے ایس آر اؤ واری این ایل پی سیاق و سباقہ ݭڅی ڈېٹا سېٹس۔ برادَرِیَنی شراکَتَنہ ذریعَہ ئے ݫُپان دِتَنَئیت۔
+# icon is an arrow that points to the right
+explore-datasets = <icon></icon> ڈېٹاسیٹسہ معلوم کېرِؤ
 
 ## Get involved section
 
+get-involved-section-title = ووڑاتہ برادَرِیَنی قیادَتہ ڈېٹاسېٹسَنی حمایت کېرِؤ
+read-sentences-link = کلاؤ نامہ ژَؤ
+validate-readings-link = ژَئیکَنی تصدیق کېرِؤ
+contribute-link = ٹېکسٹ کارپَسہ ہسپَلہ ݭَؤ
+answer-questions-link = کھُدَنی جوابہ ݪِؤ
+transcribe-answers-link = جواب نامہ نقل کېرِؤ
+review-transcriptions-link = نقل نامَنہ جائزہ گوؤ
+contribute-text-link = عبارَتہ ہسپَلہ ݭَؤ
+press-and-stories-link = پېس اؤ ہېڄان نام
 
 ## Partner section
 
+partner-section-title = امہ مِنزی شراکت کېرِؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیک کمپنی نام</bold>۔ ترقی لېئݪی لؤ باتی نامَنی AL ماحولیاتی نظامہ ݭڅی اوپن ڈېٹا سېٹَنہ ݫُپَئیکہ سرمایہ کاری کېرِؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول سوسائیٹی اؤ محقین </bold>۔تخلیق کېرِؤ،بئ رَوے ڈېٹا سېٹَنی مېزبانی اؤ اشتراک مفتہ کېرِؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> انسان دوستی </bold>۔ سپانسر ڈېٹا سېٹ مقامی جدّت اؤ ترقِیہ زیات کېرِکہ ݭڅی ݫُپاوَہ
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ کېرِؤ<icon></icon>
+# Partners section
+our-partners-include = امَنہ شراکت دارانہ مِنزی لُبُسِسَنت تھنَئیت ۔۔۔

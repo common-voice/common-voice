@@ -78,3 +78,20 @@ export function getFolderNames(dirPath: string): IO.IO<string[]> {
     return folders
   }
 }
+
+/**
+ * Determines if the provided file path corresponds to a file.
+ *
+ * @param filePath - The string representing the path of the file to check.
+ * @returns An IO computation that, when executed, returns `true` if the path is a file, otherwise `false`.
+ */
+export function isFile(filePath: string): IO.IO<boolean> {
+  return () => {
+    try {
+      const stats = fs.statSync(filePath)
+      return stats.isFile()
+    } catch (err) {
+      return false
+    }
+  }
+}

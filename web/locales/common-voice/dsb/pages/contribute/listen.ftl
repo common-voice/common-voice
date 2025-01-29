@@ -14,6 +14,8 @@ listen-abort-cancel = Z pśeglědowanim pókšacowaś
 listen-abort-confirm = Pśeglědowanje dokóńcyś
 # Menu item
 validate-readings = Cytanja pśeglědowaś
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Cytanja pśeglědowaś <small>(pśiźo skóro)</small>
 
 ## MENU ITEM TOOLTIPS
 

@@ -264,6 +264,7 @@ privacy = راز ساتِک
 terms = شربن
 cookies = کوکیز
 faq = لؤ کھُدَئیسن سوال
+documentation = دستاویزی
 content-license-text = مواد  <licenseLink>Creative Commons license</licenseLink>لائسنس پاتوئے لېوان دِمان
 share-title = واریاں تسُونی کھنٹ کھائیکہ ݭڅی کوڅِکہ امَہ مِنزی ہستپلہ ݭَؤ!
 share-text = ماشین نامہ اسہ ہِلَئیکہ مدد کېرِؤ زی حقیقی خلک کِرَوے باتی کېرِمېت، تانُو کھنٹہ { $link } آں عطیہ کېرہ

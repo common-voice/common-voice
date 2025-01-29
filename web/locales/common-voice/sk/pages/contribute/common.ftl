@@ -32,12 +32,7 @@ target-segment-first-banner = Pomôžte vytvoriť prvý cieľový segment Common
 target-segment-add-voice = Pridajte svoj hlas
 target-segment-learn-more = Ďalšie informácie
 change-preferences = Zmeniť nastavenie
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Zbierka hlasov
-contribute-sentence-collection-nav-header = Zber viet
-login-signup = Prihlásiť sa/Zaregistrovať sa
+login-signup = Prihlásenie/Registrácia
 vote-yes = Áno
 vote-no = Nie
 datasets = Kolekcie údajov

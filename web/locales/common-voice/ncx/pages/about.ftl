@@ -38,6 +38,10 @@ about-no-votes-text = Tla se kijtos mach kuali omokak oksepa monekis kitsikoskej
 about-dataset-new = Tinochtin Titlajtoaj Tlajtolnechikoli
 about-dataset-new-text = Tinochtin Titlajtoaj Tlajtolnechikoli kipixtok tlen sapanoa miakej yokitsikokej uan non kinpaleuis akinmej kinchijchiuaj teposmej non tenkakij.
 about-clip-graveyard = Miktlajtoli
+about-clip-graveyard-text =
+    Miktlajtoli kijtosneki nochi tlajtoli tlen amo pouij itech Tinochtin Titlajtoaj Tlajtolnechikoli. Ijkon ken Tlajtolnechikoli, uelis tiktemouilis.
+    
+    Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. Itech pouij:
 
 ## Community Playbook Content
 ## What is a language

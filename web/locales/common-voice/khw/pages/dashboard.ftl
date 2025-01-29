@@ -34,7 +34,7 @@ weekly-goal = ہفتو حدف
 easy-difficulty = اسان
 average-difficulty = اوسط
 difficult-difficulty = گران
-pro-difficulty = حمایتی
+pro-difficulty = حامی
 lose-goal-progress-warning = تان حدفو بدل کی ارو، تہ کوروم تونج دی بوئے۔
 want-to-continue = تو جاری سوتیک مݰکیسانا؟
 finish-editing = اویل ایڈیٹنگو  ختم کو
@@ -134,7 +134,7 @@ share-goal-type-speak = لو دیک
 share-goal-type-listen = کار کوریک
 share-goal-type-both = لو دیک وا کارکوریک
 # LINK will be replaced with the current URL
-goal-share-text = اوا کمان وائس تین ہواز مہربانی کوریکو بچین حدف لکھیتام۔ اصل روئے کیچہ کوری لو دونیان رے مشنیو  ݯھیݯھیکو بچین مہ سوم جوست بوس وا مدد کو{ $link }
+goal-share-text = اوا کامن وائس تین ہواز مہربانی کوریکو بچین حدف لکھیتام۔ اصل روئے کیچہ کوری لو دونیان رے مشنیو  ݯھیݯھیکو بچین مہ سوم جوست بوس وا مدد کو{ $link }
 weekly-goal-created = تہ ہفتہ وار حدف ساوز ہوئے
 daily-goal-created = تہ انوسو حدف ساوز ہوئے
 track-progress = تان کروم کندوری ہوئے رے ہیا پتہ کو وا تان حساب کتابو صفحہ

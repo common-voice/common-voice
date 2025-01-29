@@ -2,7 +2,7 @@
 
 about-title = Prečo Common Voice?
 about-header-description-v2 =
-    <p>Common Voice je verejne dostupná množina údajov o hlase, ktorý využíva hlasy dobrovoľných prispievateľov z celého sveta. Ľudia, ktorí chcú vytvárať hlasové aplikácie, môžu použiť kolekciu údajov na trénovanie modelov strojového učenia.</p>
+    <p>Common Voice je verejne dostupná kolekcia údajov o hlase, ktorý využíva hlasy dobrovoľných prispievateľov z celého sveta. Ľudia, ktorí chcú vytvárať hlasové aplikácie, môžu použiť kolekciu údajov na trénovanie modelov strojového učenia.</p>
     <p>V súčasnosti väčšinu hlasových dátových súborov vlastnia spoločnosti, čo brzdí inovácie. Nedostatočne zastúpené sú aj hlasové dátové súbory: neanglicky hovoriaci ľudia, ľudia s inou farbou pleti, zdravotne postihnutí ľudia, ženy a LGBTQIA+ ľudia. To znamená, že technológia s podporou hlasu vôbec nefunguje pre mnohé jazyky a tam, kde funguje, nemusí fungovať rovnako dobre pre každého. Chceme to zmeniť mobilizáciou ľudí všade, aby zdieľali svoj hlas.</p>
 how-does-it-work-title-v2 = Ako funguje Common Voice?
 how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkej otvorenej kolekcie údajov. Darujte svoj hlas, overte presnosť nahrávok iných ľudí a pomôžte tak vylepšiť kolekciu údajov.

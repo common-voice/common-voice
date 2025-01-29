@@ -62,6 +62,8 @@ create-profile-button = 註冊帳號
 img-alt-success-checkmark = 成功勾勾
 # menu item
 read-sentences = 讀句子
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = 看句 <small>(咧欲推出)</small>
 
 ## MENU ITEM TOOLTIPS
 

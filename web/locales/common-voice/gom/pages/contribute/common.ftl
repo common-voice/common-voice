@@ -30,11 +30,6 @@ target-segment-first-banner = Moddot kor Common Voice-achea poilo "target segmen
 target-segment-add-voice = Tuje Avaaz Di
 target-segment-learn-more = Anik Shik
 change-preferences = Settings boddol
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Avaaz Ektha'vop
-contribute-sentence-collection-nav-header = Vakio Ektha'vop
 login-signup = Log In / Sign Up
 vote-yes = Hoi
 vote-no = Na
@@ -89,11 +84,11 @@ request-language-button = Bhass Hadpak Magg
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = a
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Aik / Sopoi
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = h
+shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -127,9 +122,9 @@ contribution-misreadings-example-7-explanation = ["to" boroile na]
 contribution-misreadings-example-8-title = Aiz chod pavs podlo.
 contribution-misreadings-example-8-explanation = [Asa toshem boroile na]
 contribution-varying-pronunciations-title = Different Pronunciation
-contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
-contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
-contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-description = Chotaryen clip rejct korat he dorun ki vachpi munshan chukiche utcharon kele tai utrache, vo that chod stress kela chukicha zagair, vo teni porshnacho mark chukoila zalair. Borpur utcharon asa hai sonsarant, todi tuven aikonk na astole tuja bovtoni. Magta ki tumi teka valor ditele, je tuche'kin vagle uloitat te.
+contribution-varying-pronunciations-description-extended = Dusre vaiten, zori tor tumka dista ki vochpi munshan te kennach utor poink na poili, pun toh osoch guess korta koshe utcharon korpache te, zalar teka tumi reject korat. Zori tor tumi sure na zalar, tumi skip button vapor korat.
+contribution-varying-pronunciations-example-1-title = Techa toklear tene ek beret boroile.
 contribution-varying-pronunciations-example-1-explanation = [Additional content to be added/translated]
 contribution-varying-pronunciations-example-2-title = [Additional content to be added/translated]
 contribution-varying-pronunciations-example-2-explanation = [Additional content to be added/translated]
@@ -147,7 +142,7 @@ contribution-background-voices-example-1-title = Mhojie gaddient petrol ghal. <s
 contribution-background-voices-example-1-explanation = Tu yeta? <strong>[anik konn uloita]</strong>
 contribution-volume-title = Volume
 contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
-contribution-reader-effects-title = Reader Effects
+contribution-reader-effects-title = Vachpache Effects
 contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
 contribution-just-unsure-title = Tuka khobor na?
 contribution-just-unsure-description = Zor tuka ek vakya mello zo heo "guidelines"-an spoxtt korunk na, zalyar tumi nirnnoi gheyat "voting" kite divpache te. Tuka nirnnoi ghevpak korench zaina zalyar, 'sodd' button click kor ani dusrem recording-acher voch.

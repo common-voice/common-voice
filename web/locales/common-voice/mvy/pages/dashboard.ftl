@@ -3,18 +3,18 @@
 your-languages = تِیں ژِبہۡ/زِبہ
 toward-next-goal = مُت نخَیں کِھن٘گی تل/لا۔
 goal-reached = نخ ڇیلی تُھو۔
-clips-you-recorded = تِیں ریکارڈ کریل کٹرو
-clips-you-validated = تیں منظور کریل کٹرو
-todays-recorded-progress = کٹرو رِکارڈ کرئیں آزُک/آژُک کریل کام۔
-todays-validated-progress = کٹرو منظُور کرئیں آزک/آژُک کریل کام
+clips-you-recorded = کٹرو تُوں ٹېپ کرہ چھی
+clips-you-validated = کٹرو تُوں منظُور کرہ چھی
+todays-recorded-progress = آژاک دېساں کٹرو ٹېپ کرَین٘ئیاں کام
+todays-validated-progress = آژآک دېساں کٹرو منظُور کرَئین٘یۡیاں کام
 stats = حساب کِتاب۔
 awards = انعامہ
 you = تُوۡ
 everyone = ہرکاں/ہر اوک
 contribution-activity = مدد کرَیں یاں/کرئیں کمہۡ
-top-contributors = څو/چئ زیات کرِلیۡ مدد
-recorded-clips = رِکاڈ کریل کٹرو
-validated-clips = منظور کریل کٹرو
+top-contributors = بوڈاں مدد کران٘لہ
+recorded-clips = ٹېپ کرېل کٹرو
+validated-clips = منظُور کرېل کٹرو
 total-approved = بُٹ منظور ہونٚل
 overall-accuracy = مجموعی صحت/ٹھِک والئ
 set-visibility = اماں پشوں ٹھیک کروں
@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] کامن وائس پروگرامئیں مدد کرہ { $hours } گھین٘ٹوں مہ  اک زب مہ ذاتی مقصدہ ہار ڇیلئیں۔
-       *[other] کامن وائس پروگرامئیں مدد کرہ { $hours } گھین٘ٹوں مہ  اک زب مہ ذاتی مقصدہ ہار ڇیلئیں۔
+        [one] کامن وائسَیں مدد کرہ لہ ذاتی مقصدے ڇېلَیں مِشارو اُو اېک ژِبہۡ کہ مہ { $hours } گېن٘ٹیُوں ڇېل
+       *[other] کامن وائسَیں مدد کرہ لہ ذاتی مقصدے ڇېلَیں مِشارو اُو اېک ژِبہۡ کہ مہ { $hours } گېن٘ٹیُوں ڇېل
     }
 set-a-goal = ایک مقصد اوک مقرر کرہ
 cant-decide = فیصلہ نیرہانٚت؟
@@ -83,7 +83,7 @@ share-goal = مئیں مقصد نا نخ مُتوں کراں دے۔
 
 ## Goals
 
-streaks = کھِریۡ۔
+streaks = کِھیریۡ
 days =
     { $count ->
         [one] دیس۔

@@ -100,6 +100,18 @@ too-many-files = Шумораи файлҳои аз ҳад зиёд аст
 small-batch-instruction = <icon></icon> Илова кардани якчанд ҷумла аз манбаи дастраси умум
 multiple-sentences-error = Шумо наметавонед, ки дар ҳудуди як пешниҳод якчанд ҷумларо илова кунед
 exceeds-small-batch-limit-error = Пешниҳод кардани зиёда аз 1000 ҷумла ғайриимкон аст
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз 1 дақиқа кӯшиш кунед
+       *[other] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз { $retryLimit } дақиқа кӯшиш кунед
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз 1 сония кӯшиш кунед
+       *[other] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз { $retryLimit } сония кӯшиш кунед
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->

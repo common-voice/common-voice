@@ -40,6 +40,7 @@ reviewing-sentences = Sady přepruwować
 sentence-domain = Tema sady
 public-domain-explanation-2 = Najlěpše sady za wužitny program rěčenskeho spóznaća su wobchadnorěčne, moderne rěčne wužiwanje. Někotre ideje, kotrež wam pomhaja, sady generować, su;
 public-domain-explanation-3 = Wutworće moderne, wobchadnorěčne sady sam abo ze swojimi přećelemi abo z rěčnym zhromadźenstwom – na přikład přez „write-a-thon“
+public-domain-explanation-5 = Pytajće za tekstom, za kotryž awtorske prawo hižo njepłaći – na přikład najwjace knihow, kotrež su so před 1920 wudali
 citing-sentences-explanation-1 = Je wažnje, citaty přidać, zo bychmy móhli přepruwować, zo sady su za zjawnosć k dispoziciji a žane awtorskoprawniske wobmjezowanje njepłaći.
 citing-sentences-subheader-websites = Websydła
 citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“

@@ -115,7 +115,7 @@ get-started = شُوري کېن
 ## Action items section
 
 action-items-section-title = مشترک آواز يې په لیۀ، ته جَوَت ذریعي پلېټفارم هۀ ته فا ډېټا پاره، که ا ݭيې کمیونېټي يې خوئ جوړَوی
-action-items-section-subtitle = کوک بُو ګۀ ته زبان ا سبق او ا ډېټاسېټ ته مشترک کؤ، جوړؤ، او سِرکؤ په ذریعۀ ا خوئ زبان ساتيېک، پنځيېک، او په پېچُمئ لیکېک اېنچی
+action-items-section-subtitle = کوک بُو ګۀ ته زبان ا سبق او ا ډېټاسېټ ته مشترک کؤ، جوړؤ، او سِرکؤ په ذریعۀ ا خوئ زبان ساتيېک، پنځېک، او په پېچُمئ لیکېک اېنچی
 scripted-card-header = لیکک خُلکت یا تقریر
 scripted-card-content = ا جملي خوئ زبان نر په زوټه غؤس او ته دنیا ټول لاسته ݫات مختلف ژغی زر مشتمل ته پبلک سپیچ ډېټاسېټ کی وه شېندن
 spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُلکت
@@ -127,7 +127,7 @@ add-text = سبق ال يې ګډ کوئ
 
 ## Community section
 
-community-section-title = طاقتور ݭیوک ته دنیا ته کمیونېټي په وجه ــ زبنی او په مُختګ
+community-section-title = طاقتور سُکِن ته دنیا ته کمیونېټيز پاره ــ ته رئ ا زبنی او ته پئ ا په مُختګ
 join-discord-community = دنیا لاسته کټ کمیونېټیز ګیرډ ګډ سئ
 # label for button
 join-discord-community-action = ماخ ګډ مېلاؤ سئ ډِسکورډ کی
@@ -186,4 +186,4 @@ partner-section-subtitle-philantropy = خېراتي ــ ته ډېټاسېټ ا 
 # icon is an arrow that points to the right
 get-in-touch-button = رابطه يې ساتئ
 # Partners section
-our-partners-include = ترماخ پارټرنی نر شامل اِن
+our-partners-include = ترماخ پارټنرنی نر شامل اِن

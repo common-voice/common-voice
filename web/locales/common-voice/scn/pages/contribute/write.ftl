@@ -110,11 +110,20 @@ add-small-batch-success =
 small-batch-sentences-rule-1 = Sicuta i lini guida dâ sizzioni “Chi frasi pozzu jùnciri?”
 small-batch-sentences-rule-2 = Junci na frasi p'ogni linia
 small-batch-sentences-rule-4 = Junci nzinu a 1.000 frasi
+small-batch-sentences-rule-5 = Tutti i frasi ànn'a 'viri u stissu duminiu
+small-batch-sentences-rule-6 = Tutti i frasi ànn'a 'viri a stissa citazzioni
 # menu item
 add-sentences = Junci frasi
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = Junci frasi nnâ to lingua
+add-questions-menu-item-tooltip = Junci dumanni nnâ to lingua
+transcribe-audio-menu-item-tooltip = Trascrivi riggistazzioni audiu nnâ to lingua
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Minù scartati di scrittura
+add-sentences-menu-item-aria-label = Junci novi frasi di fàricci lèggiri â cumunità
+add-questions-menu-item-aria-label = Manna novi dumanni pi pirmèttiri â cumunità di liggìrili e arrispùnniri
+transcribe-audio-menu-item-aria-label = Trascrivi i riggistrazzioni audiu

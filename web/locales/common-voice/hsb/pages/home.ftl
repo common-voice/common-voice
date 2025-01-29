@@ -112,11 +112,15 @@ community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a r�
 ## Hero section
 
 hero-title = Technologija, kotraž wašu rěč rěči
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Čehodla měła KI jenož za mało rěčow swěta fungować?</bold>
+hero-subtitle-2 = Naša rěč je naše stawizny, naše zhromadźenstwo, naša kultura. Wutwormy datowe sadźby, kotrež chcemy w swěće widźeć.
 # icon is an arrow that points downwards
 get-started = Prěnje kroki <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Napisane rěčenje
 spontaneous-card-header = Spontane rěčenje
 language-text-card-header = Rěčny tekst
 coming-soon = Bórze k dispoziciji
@@ -130,8 +134,10 @@ join-discord-community-action = Přidružće so nam na Discord
 find-us-on-matrix = Namakajće nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
+ask-mozilla-share = Prosće Mozilla, zo byšće waše zarjadowanja dźělił
 # label for button
 ask-mozilla-share-action = Dźělće swoje zarjadowanje
+download-contribution-certificate = Sćehńće swój certifikat sobuskutkowanja
 # label for button
 download-contribution-certificate-action = Wobstarajće sej swój certifikat
 contribute-github = Na Github přinošować
@@ -141,9 +147,12 @@ contribute-github-action = Na Github přinošować
 ## Featured section
 
 featured-section-title = Předstajeny w…
+# icon is an arrow that points downwards
+download-press-pack = Sćehńće naše nowinske podłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title = Zjawnje přistupne wotewrjene rěčenske datowe sadźby we wjace hač 130 rěčach
 # icon is an arrow that points to the right
 explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 

@@ -35,6 +35,7 @@ difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
 want-to-continue = Шумо мехоҳед, ки идома диҳед?
 finish-editing = Аввалан, шумо тасҳеҳро ба анҷом мерасонед?
+lose-changes-warning = Агар ҳозир равед, ин маънои онро дорад, ки шумо тағйироти худро аз даст медиҳед
 build-custom-goal = Сохтани ҳадафи шахсӣ
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
@@ -60,6 +61,8 @@ n-clips-pluralized =
 help-share-goal = Ба мо дар пайдо намудани овозҳои бештар кумак кунед, ҳадафи худро мубодила намоед
 confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Ҳадафи ҳафтаинаи { $count } сабти худро барои { $type } мубодила намоед
 share-goal-type-speak = Гап задан
 share-goal-type-listen = Гӯш кардан
 share-goal-type-both = Гап задан ва гӯш кардан

@@ -72,3 +72,5 @@ release-version = Virsiuni
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ammiscata
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Scàrrica i dati vucali
