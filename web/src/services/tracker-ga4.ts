@@ -6,6 +6,12 @@ type GA4Events =
   | 'listen-clip'
   | 'vote-yes'
   | 'vote-no'
+  | 'write-sentence-submit'
+  | 'report-sentence'
+  | 'report-clip'
+  | 'skip-clip'
+  | 'skip-sentence'
+  | 'how-to-cite-toggle'
 
 export const trackGtag = (
   eventName: GA4Events,

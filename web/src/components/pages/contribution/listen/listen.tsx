@@ -257,6 +257,8 @@ class ListenPage extends React.Component<Props, State> {
     api.skipClip(clips[this.getClipIndex()].id)
     removeClip(clips[this.getClipIndex()].id)
 
+    trackGtag('skip-clip', { locale: this.props.locale })
+
     let replacementSet = [...clips]
 
     // If there's more in the cache, replace current clip with the next one from cache

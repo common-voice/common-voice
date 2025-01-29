@@ -369,6 +369,7 @@ class SpeakPage extends React.Component<Props, State> {
     const id = this.state.clips[current]?.sentence?.id
     api.skipSentence(id)
     removeSentences([id])
+    trackGtag('skip-sentence', { locale: this.props.locale })
     this.setState(({ clips }) => {
       const newClips = [...clips]
       newClips[current] = { recording: null, sentence: null }

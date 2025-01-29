@@ -152,6 +152,7 @@ const Review: React.FC<Props> = ({ getString }) => {
         <ReportModal
           onRequestClose={() => setShowReportModal(false)}
           onSubmitted={handleSkip}
+          locale={currentLocale}
           {...reportModalProps}
         />
       )}

@@ -19,6 +19,7 @@ import {
   SentenceWriteActionType,
   SentenceWriteState,
 } from '../types'
+import { trackGtag } from '../../../../../../../services/tracker-ga4'
 
 const initialState: SentenceWriteState = {
   sentence: '',
@@ -211,6 +212,12 @@ export const useSentenceWrite = (mode: WriteMode) => {
         ...(response.invalid_sentences && {
           payload: { smallBatchResponse },
         }),
+      })
+
+      trackGtag('write-sentence-submit', {
+        sentenceWriteMode: mode,
+        locale: currentLocale,
+        numberOfSentenceDomains: state.sentenceDomains.length,
       })
     } catch (error) {
       if (error.message === TOO_MANY_REQUESTS) {
