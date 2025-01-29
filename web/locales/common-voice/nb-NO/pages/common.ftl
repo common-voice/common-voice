@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abkhasisk
+abb = Bankon
 ace = Acehnesisk
 ady = Adygeisk
 af = Afrikaans
