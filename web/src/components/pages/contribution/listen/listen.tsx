@@ -465,6 +465,7 @@ class ListenPage extends React.Component<Props, State> {
               ],
               kind: 'clip',
               id: activeClip ? activeClip.id : null,
+              locale,
             }}
             sentences={clips.map(clip => clip.sentence)}
             shortcuts={[
