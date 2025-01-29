@@ -68,3 +68,4 @@ read-sentences = ອ່ານປະໂຫຍກ
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ເມນູຕົວເລືອກການເວົ້າ
