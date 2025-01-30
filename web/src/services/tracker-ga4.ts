@@ -19,6 +19,7 @@ type GA4Events =
   | 'vote-yes-sentence'
   | 'vote-no-sentence'
   | 'skip-sentence-review'
+  | 'show-shortcuts-btn-click'
 
 export const trackGtag = (
   eventName: GA4Events,
