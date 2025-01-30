@@ -48,6 +48,7 @@ about-get-involved-text-2 =
     Аҷоиб! Бо мо тавассути почтаи электронӣ ё форумҳои <discourseLink>«Discourse»</discourseLink> дар тамос шавед, гузоришҳоро оид ба масъалаҳои сомона дар <githubLink>«GitHub»</githubLink> пешниҳод кунед ё ба суҳбатҳои ҷамъиятии мо дар <matrixLink>«Matrix»</matrixLink> ҳамроҳ шавед.
 about-stay-in-touch = Чӣ тавр ман дар алоқа бимонам?
 about-stay-in-touch-button = Бақайдгирӣ
+about-stay-in-touch-text-1 = Барои гирифтани маълумот дар бораи тарзи иштироки шумо дар маъракаҳо, чорабиниҳо ва вазифаҳои таҳиясозии муштарак дар «Common Voice» ба рӯйхати паёмнависии мо <emailFragment>обуна шавед</emailFragment>.
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
