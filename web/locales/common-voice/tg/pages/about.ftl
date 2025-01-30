@@ -49,6 +49,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Чӣ тавр ман дар алоқа бимонам?
 about-stay-in-touch-button = Бақайдгирӣ
 about-stay-in-touch-text-1 = Барои гирифтани маълумот дар бораи тарзи иштироки шумо дар маъракаҳо, чорабиниҳо ва вазифаҳои таҳиясозии муштарак дар «Common Voice» ба рӯйхати паёмнависии мо <emailFragment>обуна шавед</emailFragment>.
+about-stay-in-touch-text-2 = Шумо метавонед дар ҷомеаҳои забоншиносии «Mozilla» бо одамон ва мутахассисони дигар шинос шавед, агар ба <discourseLink>«Discourse»</discourseLink> барои суҳбатҳои мавзуӣ ё ба <matrixLink>«Matrix»</matrixLink> барои гирифтани маслиҳатҳои фаврӣ ҳамроҳ шавед.
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
