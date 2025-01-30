@@ -16,3 +16,5 @@ partnerships-small-business-description = Vi er alltid ute etter å høre fra da
 partnerships-corporates-header = Storskala bedrifter og plattformselskaper
 partnerships-corporates-description = Hvis du ønsker å snakke mer om datasettet, vil medfinansiere planlagte utvidelser av plattformen eller se på samarbeidsmuligheter, <emailFragment>send oss en forespørsel.</emailFragment>
 partnerships-our-partners = Våre partnere
+# menu item
+partners = Partnere
