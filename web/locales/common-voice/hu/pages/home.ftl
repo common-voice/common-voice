@@ -142,6 +142,21 @@ join-discord-community = Csatlakozzon a Discord közösséghez
 # label for button
 join-discord-community-action = Csatlakozz hozzánk Discordon
 join-discord-community-content = Vegyen részt nyelvi közösségi beszélgetésekben, kérdezzen, és értesüljön a közelgő eseményekről és előadásokról.
+find-us-on-matrix = Keressen meg minket a Matrixon
+# label for button
+find-us-on-matrix-action = Keressen meg minket a Matrixon
+ask-mozilla-share = Kérje meg a Mozillát, hogy ossza meg az eseményeit
+ask-mozilla-share-content = Van egy korábbi vagy egy közelgő eseménye? Ossza meg velünk, és bejelentjük a közösségünk számára, vagy írunk róla a blogon!
+# label for button
+ask-mozilla-share-action = Esemény megosztása
+download-contribution-certificate = Közreműködési igazolás letöltése
+download-contribution-certificate-content = Töltsön le egy tanúsítványt az eseményeiről, vagy a saját közreműködéséről a Common Voice-ban – ez Ön nélkül nem lenne lehetséges!
+# label for button
+download-contribution-certificate-action = Tanúsítvány letöltése
+contribute-github = Közreműködés a GitHubon
+contribute-github-content = Ez a projekt nem jöhetne létre az Önhöz hasonló emberek nélkül. 🎉 Sok módja van annak, hogy bekapcsolódjon a Common Voice-ba – nem szükséges kódolási tudás a közreműködéshez!
+# label for button
+contribute-github-action = Közreműködés a GitHubon
 
 ## Featured section
 

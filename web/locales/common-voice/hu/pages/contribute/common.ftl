@@ -28,12 +28,7 @@ target-segment-first-banner = Segítsen a Common Voice első { $locale } célsze
 target-segment-add-voice = Adja a hangját
 target-segment-learn-more = További tudnivalók
 change-preferences = Beállítások módosítása
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Hanggyűjtemény
-contribute-sentence-collection-nav-header = Mondatok gyűjtése
-login-signup = Bejelentkezés vagy regisztráció
+login-signup = Bejelentkezés/regisztráció
 vote-yes = Igen
 vote-no = Nem
 datasets = Adatkészletek
