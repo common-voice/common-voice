@@ -19,6 +19,7 @@ import {
 } from '../../../ui/ui'
 import DonateButton from '../../../donate-button/donate-button'
 import { DonateModal } from '../donate-modal/donate-modal'
+import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './dataset-download-email-prompt.css'
 
@@ -114,6 +115,11 @@ const DatasetDownloadEmailPrompt = ({
         console.error(error)
       }
     }
+
+    trackGtag('download-dataset', {
+      locale: selectedLocale,
+      datasetReleaseId: releaseId,
+    })
   }
 
   const showEmailForm = () => {
