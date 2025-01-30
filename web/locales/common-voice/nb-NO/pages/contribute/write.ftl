@@ -41,6 +41,8 @@ sentence-domain-select-placeholder = Velg opptil tre domener
 # Sentence Domain dropdown option
 agriculture_food = Landbruk og matprodukter
 # Sentence Domain dropdown option
+automotive_transport = Kjøretøy og transport
+# Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
 service_retail = Service og detaljhandel
@@ -96,7 +98,7 @@ too-many-files = For mange filer
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> Legg til offentlige domene setninger
+small-batch-instruction = <icon></icon> Legg til offentlige domenesetninger
 multiple-sentences-error = Du kan ikke legge til flere setninger for en enkelt innsending
 exceeds-small-batch-limit-error = Kan ikke sende inn mer enn 1000 setninger
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
