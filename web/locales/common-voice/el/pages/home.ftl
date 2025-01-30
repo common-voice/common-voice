@@ -106,12 +106,16 @@ community-and-languages-menu-item-aria-label = Εξερευνήστε την κ�
 ## Hero section
 
 hero-title = Τεχνολογία που μιλά τη γλώσσα σας
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Γιατί η τεχνητή νοημοσύνη να μπορει να λειτουργεί μόνο για μερικές από τις γλώσσες του κόσμου;</bold>
+hero-subtitle-2 = Η γλώσσα μας είναι η ιστορία μας, η κοινότητά μας, ο πολιτισμός μας. Ας δημιουργήσουμε τα σύνολα δεδομένων που θέλουμε να δούμε στον κόσμο.
 # icon is an arrow that points downwards
 get-started = Έναρξη <icon><icon>
 
 ## Action items section
 
 action-items-section-title = Το Common Voice είναι μια δωρεάν πλατφόρμα ανοικτού κώδικα για τη δημιουργία δεδομένων από την κοινότητα
+action-items-section-subtitle = Ο καθένας μπορεί να διατηρήσει, να αναζωογονήσει και να εξυψώσει τη γλώσσα του με την κοινοποίηση, τη δημιουργία και την επιμέλεια συνόλων δεδομένων που προέρχονται από κείμενα και ομιλίες.
 scripted-card-header = Ομιλία με σενάριο
 spontaneous-card-header = Αυθόρμητη ομιλία
 language-text-card-header = Κείμενο γλώσσας
