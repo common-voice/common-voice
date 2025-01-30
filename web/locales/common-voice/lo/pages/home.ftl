@@ -90,6 +90,7 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 
 answer-questions = ຕອບຄໍາຖາມ
 press-and-stories = ກົດ ແລະ ເລື່ອງ
+community-and-languages = ຊຸມຊົນ ແລະ ພາສາ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -125,3 +126,5 @@ press-and-stories-link = ກົດ ແລະ ເລື່ອງ
 
 ## Partner section
 
+# icon is an arrow that points to the right
+get-in-touch-button = ຕິດຕໍ່ <icon></icon>
