@@ -136,6 +136,7 @@ ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί �
 # label for button
 ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
 download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
+download-contribution-certificate-content = Κάντε λήψη ενός πιστοποιητικού για τις εκδηλώσεις σας ή τον εαυτό σας αν έχετε συνεισφέρει στο Common Voice. Τίποτα θα ήταν δυνατό χωρίς εσάς!
 # label for button
 download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας
 contribute-github = Συνεισφορά στο GitHub
@@ -149,6 +150,8 @@ download-press-pack = Λήψη πακέτου τύπου <icon></icon>
 
 ## Developers section
 
+developers-section-title = Δημοσίως προσβάσιμα και ανοικτά σύνολα δεδομένων ομιλίας σε 130+ γλώσσες
+developers-section-subtitle = Σύνολα δεδομένων, φτιαγμένα με τη συμμετοχή της κοινότητας, για ASR, STT, TTS και άλλες περιπτώσεις χρήσης NLP.
 # icon is an arrow that points to the right
 explore-datasets = Εξερεύνηση συνόλων δεδομένων <icon></icon>
 
