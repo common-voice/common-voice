@@ -126,6 +126,7 @@ join-discord-community-action = Βρείτε μας στο Discord
 find-us-on-matrix = Βρείτε μας στο Matrix
 # label for button
 find-us-on-matrix-action = Βρείτε μας στο Matrix
+ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί τις εκδηλώσεις σας
 # label for button
 ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
 download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
@@ -164,3 +165,5 @@ partner-section-subtitle-tech-companies = <bold>Εταιρείες τεχνολ�
 partner-section-subtitle-philantropy = <bold>Φιλανθρωπία</bold> - γίνετε χορηγός της δημιουργίας του συνόλου δεδομένων για να τροφοδοτήσετε την τοπική καινοτομία και ανάπτυξη
 # icon is an arrow that points to the right
 get-in-touch-button = Επικοινωνία <icon></icon>
+# Partners section
+our-partners-include = Οι συνεργάτες μας περιλαμβάνουν...
