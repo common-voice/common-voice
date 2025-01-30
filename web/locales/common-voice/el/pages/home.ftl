@@ -127,7 +127,9 @@ add-text = Προσθήκη κειμένου
 join-discord-community = Συμμετοχή στην κοινότητα στο Discord
 # label for button
 join-discord-community-action = Βρείτε μας στο Discord
+join-discord-community-content = Λάβετε μέρος σε συζητήσεις της γλωσσικής κοινότητας, κάντε ερωτήσεις και μάθετε για επερχόμενες εκδηλώσεις και συνομιλίες.
 find-us-on-matrix = Βρείτε μας στο Matrix
+find-us-on-matrix-content = Το Matrix είναι ένα ανοικτό, «ελαφρύ» πρωτόκολλο για αποκεντρωμένη επικοινωνία σε πραγματικό χρόνο και αποτελεί την προτιμώμενη πλατφόρμα ανοικτών συζητήσεων της Mozilla.
 # label for button
 find-us-on-matrix-action = Βρείτε μας στο Matrix
 ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί τις εκδηλώσεις σας
