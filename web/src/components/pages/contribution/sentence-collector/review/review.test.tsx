@@ -48,6 +48,10 @@ jest.mock('../../../../locale-helpers', () => ({
   LocaleLink: () => <div>Mock locale Link</div>,
 }))
 
+jest.mock('../../../../../services/tracker-ga4', () => ({
+  trackGtag: jest.fn(),
+}))
+
 beforeAll(() => {
   delete global.window.location
   global.window = Object.create(window)
@@ -147,8 +151,8 @@ describe('Review page', () => {
 
     renderWithProviders(<Review />)
 
-    const yesButton = screen.getByTestId('no-button')
-    fireEvent.click(yesButton)
+    const noButton = screen.getByTestId('no-button')
+    fireEvent.click(noButton)
 
     await waitFor(async () => {
       expect(useActionMock).toHaveBeenCalledWith({
