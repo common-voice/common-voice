@@ -35,12 +35,11 @@ small-batch-sentence-submission = innsending av flere setninger
 bulk-sentence-submission = Masseinnsending av setninger
 single-sentence = Enkelt setning
 small-batch-sentence = Lite parti
+bulk-sentence = Masseinnsending
 sentence-domain-combobox-label = Setningsdomene
 sentence-domain-select-placeholder = Velg opptil tre domener
 # Sentence Domain dropdown option
 agriculture_food = Landbruk og matprodukter
-# Sentence Domain dropdown option
-automotive_transport = Kjøretøy og transport
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
@@ -105,6 +104,36 @@ rate-limit-toast-message-minutes =
     { $retryLimit ->
         [one] Grense for forespørsler overskredet. Prøv igjen om 1 minutt
        *[other] Grense for forespørsler overskredet. Prøv igjen om { $retryLimit } minutter
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Grense for forespørsler overskredet. Prøv igjen om 1 sekund
+       *[other] Grense for forespørsler overskredet. Prøv igjen om { $retryLimit } sekunder
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Du har nådd innsendingsgrensen for denne siden. Vent i 1 minutt før du sender inn en ny setning. Takk for tålmodigheten!
+       *[other] Du har nådd innsendingsgrensen for denne siden. Vent i { $retryLimit } minutter før du sender inn en ny setning. Takk for tålmodigheten!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Du har nådd innsendingsgrensen for denne siden. Vent i 1 sekund før du sender inn en ny setning. Takk for tålmodigheten!
+       *[other] Du har nådd innsendingsgrensen for denne siden. Vent i { $retryLimit } sekunder før du sender inn en ny setning. Takk for tålmodigheten!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } av 1 setning samlet inn
+       *[other] { $uploadedSentences } av { $totalSentences } setninger samlet inn
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } av 1 setning samlet. Klikk <downloadLink>her</downloadLink> for å laste ned avviste setninger.
+       *[other] { $uploadedSentences } av { $totalSentences } setninger samlet. Klikk <downloadLink>her</downloadLink> for å laste ned avviste setninger.
     }
 small-batch-sentences-rule-1 = Følg retningslinjene fra «Hvilke setninger kan jeg legge til?»
 small-batch-sentences-rule-2 = Legg til én setning per linje

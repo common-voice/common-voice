@@ -94,3 +94,7 @@ release-version = Versjon
 dataset-date = Dato
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Last ned våre stemmedatasett
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Nedlastingsalternativer for tilgang til Common Voice-data

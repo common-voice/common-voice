@@ -17,6 +17,7 @@ arn = Mapudungun
 as = Assamesisk
 ast = Asturisk
 az = Aserbajdsjansk
+azz = Høylandet Puebla Nahuatl
 ba = Basjkirsk
 bal = Balochi
 bas = Basaa
