@@ -106,9 +106,12 @@ community-and-languages-menu-item-aria-label = Prozkoumejte komunitu a jazyky po
 ## Hero section
 
 hero-title = Technologie, která mluví vaším jazykem
+# icon is an arrow that points downwards
+get-started = Začněte <icon><icon>
 
 ## Action items section
 
+spontaneous-card-header = Spontánní řeč
 coming-soon = Již brzy
 add-text = Přidat text
 
@@ -117,9 +120,13 @@ add-text = Přidat text
 join-discord-community = Připojte se ke komunitě Discord
 # label for button
 join-discord-community-action = Přidejte si nás na Discordu
+find-us-on-matrix = Najdete nás na Matrixu
 # label for button
 find-us-on-matrix-action = Najdete nás na Matrixu
 ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
+# label for button
+download-contribution-certificate-action = Získejte svůj certifikát
+contribute-github = Přispívejte na GitHubu
 
 ## Featured section
 
@@ -129,6 +136,9 @@ ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
 
 ## Get involved section
 
+read-sentences-link = Čtení vět
+answer-questions-link = Odpovídání na otázky
 
 ## Partner section
 
+partner-section-title = Staňte se našimi partnery
