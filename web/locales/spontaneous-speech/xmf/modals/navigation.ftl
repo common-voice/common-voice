@@ -6,7 +6,7 @@ respond = გუმოხონარება
 check = გინოჯინა
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = ნაჭარათ მოჩამა
-loading = გინმიჭარუ
+loading = გინმიჭარუ…
 login-signup = მიშულა / აკოქიმინუა
 login = მიშულა
 logout = გუშულა
