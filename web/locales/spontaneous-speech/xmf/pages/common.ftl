@@ -1,5 +1,7 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = ჩილათა
 action-click = ქიგუკაკეთ
 action-tap = ქიგუნჭირით
 # Label for language switcher
