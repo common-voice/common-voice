@@ -49,11 +49,20 @@ about-get-involved-text-2 =
     techilui kox itlaj mochiua itech <githubLink>GitHub</githubLink>, noso
     touan ximotlapoui itech <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = ¿Kenijki nikmatos tlen tlamochitok?
-about-stay-in-touch-button = Touan xipoui
+about-stay-in-touch-button = Ximomachoti
+about-stay-in-touch-text-1 = <emailFragment>Touan ximomachoti</emailFragment> ika mocorreo uan ijkon tikmatis ken uelis techpaleuis ika okseki tlamantli tlen mochiuaj itech Tinochtin Titlajtoaj.
+about-stay-in-touch-text-2 = Uelis timotlapouis inuan oksekimej tlen pouij Mozilla itech <discourseLink>Discourse</discourseLink> kanin motlapouiaj itech seki tlamantli, noso <matrixLink>Matrix</matrixLink> kanin uelis mitspaleuiskej.
+about-nav-why-common-voice = ¿Tleka?
+about-nav-how-it-works = ¿Kenijki?
+about-nav-partners = Tlapaleuiaj
+about-nav-get-involved = Xitlapaleui
+about-nav-how-it-works-2 = ¿Kenijki tekipanoa Tinochtin Titlajtoaj?
+about-nav-playbook = Xikmati ken titlapaleuis
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ¿Tlenon se tlajtolkopa itech Tinochtin Titlajtoaj?
 
 ## How do I add a language
 
