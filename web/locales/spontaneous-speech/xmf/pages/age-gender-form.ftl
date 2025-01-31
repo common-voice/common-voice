@@ -1,5 +1,6 @@
 # Age and Gender form
 age-gender-form-title = მარდის მუგოშინანთ სპონტანურ ჩიებაშა წილიშ მიშაღალაშენი!
+age-gender-form-subtile = თქვან ჩიებაში თავისებურებეფიშ გურშენი ქემეჩიებუთ-და, ქიდეხვარებუთ დეველოპერეფს ინკლუზიური ტექნოლოგია აკოქიმინანინი
 add-information-button = ინფორმაციაშ გეძინა
 continue-speaking-button = გაგძელით ჩიება
 age-select-label = მუ ხანიშ რეთ?
@@ -8,7 +9,7 @@ gender-select-label = თქვანი სქესი ვარდა გე�
 select-your-gender = გეირჩით თქვანი სქესი ვარდა გენდერი
 country-of-residence-label = ოცხოვრებელი ქიანა/რეგიონი
 country-of-residence-placeholder =
-    .placeholder = გემშიონი სქანი ოცხორებელი ქიანა/რეგიონი
+    .placeholder = გემშიჸონით თქვანი ოცხორებელი ქიანა/რეგიონი
 why-are-you-asking = მუშენ მოკითხუთ?
 thank-you-for-your-information = მარდი ინფორმაციაშენი
 
