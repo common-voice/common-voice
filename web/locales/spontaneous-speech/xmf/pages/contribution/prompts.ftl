@@ -22,3 +22,7 @@ submit-all-button = არძაში ჯღონა
 learn-how-to-use-prompts = ქოძირით, მუჭო ოკო გიმირინუათ თე ხასჷლანი
 learn-how-to-use-prompts-explanation = ქუგამით მოთხუალას მუთ შილებენ ორთაშურო, აკაჟირი ზიტყვასქვილით. ეცადით, თქვანი ნარაგადი რდას თავაზიანი დო უწყინარინი.
 learn-how-to-use-prompts-guidance = ქიგუკაკეთ<guidanceLink> ათაქ <guidanceLink> ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი
+learn-how-to-use-transcribe-explanation = ქეცადით, აიწორო დოჭარათ, მუსუთ ხონარიშ ინნაჭარას გეგენთჷნი, არდგილიშ ინმაფშაფალი გოზინდილი ბგერეფ ხოლო, მაგალთო, "ჰმ", "ეეჰ".
+learn-how-to-use-transcribe-guidance = ქიგუკაკეთ<guidanceLink> ათაქ <guidanceLink> ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი
+learn-how-to-use-check-transcript = ქოძირით, მუჭო ოკო გინაჯინათ ნაჭარასჷნი
+learn-how-to-use-check-transcript-guidance = ქიგუკაკეთ<guidanceLink> ათაქ <guidanceLink> ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი
