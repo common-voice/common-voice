@@ -48,10 +48,6 @@ jest.mock('../../../../locale-helpers', () => ({
   LocaleLink: () => <div>Mock locale Link</div>,
 }))
 
-jest.mock('../../../../../services/tracker-ga4', () => ({
-  trackGtag: jest.fn(),
-}))
-
 beforeAll(() => {
   delete global.window.location
   global.window = Object.create(window)
