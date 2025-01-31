@@ -42,6 +42,14 @@ about-clip-graveyard-text =
     Miktlajtoli kijtosneki nochi tlajtoli tlen amo pouij itech Tinochtin Titlajtoaj Tlajtolnechikoli. Ijkon ken Tlajtolnechikoli, uelis tiktemouilis.
     
     Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. Itech pouij:
+about-get-involved = Xitlapaleui
+about-get-involved-text-2 =
+    ¿Tikneki tikpaleuis Tinochtin Titlajtoaj okachi kuali mayeto?
+    ¡Kuali! Techijkuilili ika correo noso ika <discourseLink>Discourse</discourseLink>,
+    techilui kox itlaj mochiua itech <githubLink>GitHub</githubLink>, noso
+    touan ximotlapoui itech <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = ¿Kenijki nikmatos tlen tlamochitok?
+about-stay-in-touch-button = Touan xipoui
 
 ## Community Playbook Content
 ## What is a language
