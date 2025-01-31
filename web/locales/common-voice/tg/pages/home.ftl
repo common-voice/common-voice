@@ -140,9 +140,12 @@ contribute-github-action = Дар «GitHub» саҳм гузоред
 ## Featured section
 
 featured-section-title = Дар бораи мо менависанд...
+# icon is an arrow that points downwards
+download-press-pack = Бастаи матбуоти моро боргирӣ намоед <icon></icon>
 
 ## Developers section
 
+developers-section-title = Маҷмуъҳои маълумоти овозӣ дар зиёда аз 130 забон дар манбаи ҷамъиятии дастрас
 # icon is an arrow that points to the right
 explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 

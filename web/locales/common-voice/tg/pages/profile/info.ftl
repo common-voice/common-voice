@@ -64,3 +64,4 @@ help-variants = Оид ба гунаҳо кумак лозим аст?
 help-sex-or-gender-changes = Оё ба шумо барои иваз кардани танзимоти ҷинсият ё ҷинс дар профили худ кумак лозим аст?
 variant-contribution-options-header = Имконоти лаҳҷавӣ барои саҳмгузорӣ
 variant-contribution-option-2 = Танҳо ҷумлаҳо ва сабтҳоро аз забон ё лаҳҷаи ман намоиш диҳед
+variant-contribution-warning-title = ⓘ Ҳанӯз на ҳама ҷумлаҳо ва сабтҳо барчаспҳои лаҳҷавӣ доранд!

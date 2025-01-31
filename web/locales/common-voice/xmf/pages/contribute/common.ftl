@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> ინნაჭარა
     }
 goal-help-recording = თქვანი მოხვარათ Common Voice -იშ  დღაში ღანკიში { $goalValue } ინნაჭარში <goalPercentage></goalPercentage> შისრულუ!
-goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღაში ღანკიში { $goalValue } შემოწმებაში <goalPercentage></goalPercentage> შისრულუ!
+goal-help-validation = თქვანი მოხვარათ Common Voice-იშ დღაში ღანკიში { $goalValue } გინოჯინაში <goalPercentage></goalPercentage> შისრულუ!
 contribute-more =
     { $count ->
         [one] ქორეთო ხაზირჷ ხოლო შეარსულათჷნი { $count }
@@ -33,7 +33,7 @@ change-preferences = პარამეტრეფიშ თირუა
 login-signup = მიშულა / აკოქიმინუა
 vote-yes = ქო
 vote-no = ვარ
-datasets = მონაცემეფიშ ნაკათა
+datasets = მუნაჩემეფიშ ნაკათა
 languages = ნინეფი
 about = ჩქინ გურშენი
 partner = მალათირე
@@ -42,18 +42,18 @@ submit-form-action = ჯღონა
 ## Reporting
 
 report = მოხსენება
-report-title = მოხსენებაშ ჯღონა.
+report-title = მოხსენებაშ ჯღონა
 report-ask = მუ კილი უღუ თე ზიტყვასქვილეფს?
-report-offensive-language = ოლანძღარი ზიტყვა.
-report-offensive-language-detail = თე ზიტყვასქვილი უმანგე ვარდა ოლანძღარი რე.
-report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილათა
+report-offensive-language = ოლანძღარი ზიტყვა
+report-offensive-language-detail = თე ზიტყვასქვილი უმანგუ ვარდა ოლანძღარი რე.
+report-grammar-or-spelling = გრამატიკული / თინჭარუაშ ჩილითა
 report-grammar-or-spelling-detail = ზიტყვასქვილს გრამატიკული ვარდა თინჭარუაში კილი უღუ.
 report-different-language = შხვანერი ნინა
 report-different-language-detail = ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ რე ჭარილი.
-report-difficult-pronounce = ძნელი ორაგადე რე.
+report-difficult-pronounce = ძნელი ორაგადე რე
 report-difficult-pronounce-detail = კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ.
-report-offensive-speech = უწმაწურ ჩიება.
-report-offensive-speech-detail = ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე.
+report-offensive-speech = ნინამოწიკვილ ჩიება
+report-offensive-speech-detail = ინნაჭარას უმანგუ დო ნინამოწიკვილ ზიტყვეფი რე.
 report-other-comment =
     .placeholder = კომენტარი
 success = გომორძგუა
@@ -78,7 +78,7 @@ shortcut-discard-ongoing-recording-label = მალ ინოჭარუაშ
 shortcut-submit = დორთა
 shortcut-submit-label = ინოჭარილეფიში ჯღონა
 request-language-text = ვაძირითო თქვანი ნინა Common Voice-ის?
-request-language-button = მითხით ნინაში გეძინა.
+request-language-button = მითხით ნინაში გეძინა
 
 ## Listen Shortcuts
 
@@ -96,7 +96,7 @@ shortcut-vote-no = v
 ## Validation criteria
 
 contribution-criteria-nav = კრიტერიუმეფი
-contribution-criteria-link = წილიშ მიშაღალაშ კრიტერიუმეფ ქიგეგით
+contribution-criteria-link = ქიგეგით წილიშ მიშაღალაშ კრიტერიუმეფ
 contribution-criteria-page-title = წილიშ მიშაღალაშ კრიტერიუმეფი
 contribution-criteria-page-description = ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა!
 contribution-for-example = მაგალთო
@@ -120,31 +120,31 @@ contribution-misreadings-example-6-explanation = [ოკო რდას "ჩქ
 contribution-misreadings-example-7-title = ყავაშ ოშუმუშა გალე გუმმურთ.
 contribution-misreadings-example-7-explanation = [ორკუ "გი-" წინსართი]
 contribution-misreadings-example-8-title = მუთ გიძირუნი, ვაძირუნქ.
-contribution-misreadings-example-8-explanation = ვამთხვიუ შინაარსის.
+contribution-misreadings-example-8-explanation = [ვამთხვიუ შინაარსის]
 contribution-varying-pronunciations-title = შხვადოშხვანერი თქუალა
-contribution-varying-pronunciations-description = მივესალმებუთ ჩიებაში შხვადოშხვა კილოეფს! თხილას ორდათ ინნაჭარაშ ვარებაშახ, მუჟამს საქვარ ოხუ ზიტყვაშ უწორო თქუალას, მახვილიშ შხვა არდგილს გეშკვაფას ვარდა ოკითხეშ ლიშანიშ გილაჸუბეჩუას. მუშენდა ართ ნინას ბრელ შხვადოშხვანერი თქუალა რე, ნამუშ უმენტაშობა შილებე მორჩქილაფირი ვაგაფუდანინი. ქორთხინთ, გეთვალისწინათ თინეფ ხოლო, მით შხვადოშხვანერო იჩიებუნი.
-contribution-varying-pronunciations-description-extended = მაჟია, ფირქენთ, ნამდა მაკითხირალქ პრიველო ძირუ თე ზიტყვა დო ვარაგადუ წორასდა, რთხინთ, ვარიას ქიგუნჭირით. ვარეთ დარწმუნებულდა, გიშატებაშ ღილაკი ქიგმირინეთ.
+contribution-varying-pronunciations-description = თხილას ორდათ ინნაჭარაშ ვარებაშახ, მუჟამს საქვარ ოხუ ზიტყვაშ უწორო თქუალას, მახვილიშ შხვა არდგილს გეშკვაფას ვარდა ოკითხეშ ლიშანიშ გილაჸუბეჩუას. მუშენდა ართ ნინას ბრელ შხვადოშხვანერი თქუალა რე, ნამუშ უმენტაშობა შილებე მორჩქილაფირი ვაგაფუდანინი. ქორთხინთ, გეთვალისწინათ თინეფ ხოლო, მით შხვადოშხვანერო იჩიებუნანი.
+contribution-varying-pronunciations-description-extended = მაჟია, ფირქენთ, ნამდა მაკითხირექ პრიველო ძირუ თე ზიტყვა დო ვარაგადუ წორას-და, ქორთხინთ, ვარიას ქიგუნჭირით. ვარეთ დარწმუნებულ-და, გიშატებაშ ღილაკი ქიგმირინეთ.
 contribution-varying-pronunciations-example-1-title = დუს ქუდი გიორთუდუ.
 contribution-varying-pronunciations-example-1-explanation = [ზიტყვასქვილიშ ბოლო ხმოვანქ კანკალე დიალექტის შილებე დეგინძორასჷნი]
 contribution-varying-pronunciations-example-2-title = ხე გეჭოფუ.
 contribution-varying-pronunciations-example-2-explanation = [ოკითხეშ ნაწილაკის (ქო ვარდა ვარ) ირო მახვილ გიაშკუმალუ]
 contribution-background-noise-title = ოჭიშიშ უკახლე ხონარობა
-contribution-background-noise-description = მოკონა, მანქანურ გურაფაშ ალგორითმეფს  შხვადოშხვა ხონარობაშ ფონს  შეულებუდას მუშობანი. მიბღენთ მაღალ ხონარეფს ხოლო, ხეს ვაუშალენს ნაკითხირ ტექსტიშ გაგონებასდა. ხონარდაბალ მუსიკას ხოლო ვაუჭირს მუთუნი;  ხონარმაღალი მუსიკაშ გამო ზიტყვეფს ვარჩენთჷდა, ქიგუნჭირით ვარიას.
-contribution-background-noise-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირი.
+contribution-background-noise-description = მოკონა, მანქანურ გურაფაშ ალგორითმეფს  შხვადოშხვა ხონარობაშ ფონს  შეულებუდას მუშობანი. მიბღენთ მაღალ ხონარეფს ხოლო, ხეს ვაუშალენს ნაკითხირა ტექსტიშ გაგონებას-და. ხონარდაბალ მუსიკას ხოლო ვაუჭირს მუთუნი;  ხონარმაღალი მუსიკაშ გამო ზიტყვეფს ვარჩენთჷ-და, ქიგუნჭირით ვარიას.
+contribution-background-noise-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილენი, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.
 contribution-background-noise-example-1-fixed-title = <strong> [ჩიონუა] </strong> ახალ დუდმახვენჯ ხოლო ანწი <strong> [ხვალუა] </strong> გჷშაგორილ რე.
 contribution-background-noise-example-2-fixed-title = ახალი დუდ <strong> [ხვალუა] </strong> გჷშაგორილ რე.
 contribution-background-noise-example-2-explanation = [ნაჭარაში ნოჭყვედი ვერჩქილე]
 contribution-background-noise-example-3-fixed-title = <strong>[შიშინ]</strong> დუდმახვენჯი ხოლო ანწი <strong>[ჩხიორი]</strong> რჩეულ რე.
 contribution-background-voices-title = ოჭიშიშ უკახალენი ხონარობა
-contribution-background-voices-description = კათაშ ბუძოლიაშ ხონარი შორშე, მიოღებელ რე, მარა შხვა ხონარეფი გეძინელი, ვარ. მუშენდა მანქანურ ალგორითმიქ ვეჩინას თიცალ ზიტყვეფი, ნამუთ ნაჭარას ვარენი. ტექსტის ვარენ ფერი ზიტყვეფი ქირჩქილე ხონარიშ ინნაჭარასდა, ვარიას ქიგუნჭირით. უმენტაშო, თენა ოხუ თიცალ შემთხვევეფს, მუჟამს ტელევიზორი რე ჩართული ვარდა ხოლოს შხვა მითინ იჩიებუ.
-contribution-background-voices-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.
+contribution-background-voices-description = კათაშ ბუძოლიაშ ხონარი შორშე, მიოღებელ რე, მარა შხვა ხონარეფი გეძინელი, ვარ. მუშენდა მანქანურ ალგორითმიქ ვეჩინას თიცალ ზიტყვეფი, ნამუთ ნაჭარას ვარენი. ტექსტის ვარენ ფერი ზიტყვეფი ქირჩქილე ხონარიშ ინნაჭარას-და, ვარიას ქიგუნჭირით. უმენტაშო, თენა ოხუ თიცალ შემთხვევეფს, მუჟამს ტელევიზორი რე ჩართული ვარდა ხოლოს შხვა მითინ იჩიებუნი.
+contribution-background-voices-description-extended = მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილენი, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.
 contribution-background-voices-example-1-title = ახალ დუდმახვენჯი გჷშაგორილი რე. <strong>[კითხულენს ართ ხონარი]</strong>
 contribution-background-voices-example-1-explanation = მოურქო? <strong>[უძახუ მაჟირა]</strong>
 contribution-volume-title = ხონარიშ სიმაღალე
-contribution-volume-description = ბუნებრივ რე განსხვავება მაკითხირალეფიშ ხონარიშ დონეეფს შკას. ვარიას ქიგუნჭირით, მუჟამს ხონარ თიცალ მაღალ რე, ინნაჭარა მითმეჭყორდუ. ვარდა თიცალ დაბალ რე, ნაჭარაშა თოლიშ მეუნაფაშ უმუშო არზიშ გჷშაღალა გიჭირა.
+contribution-volume-description = ბუნებრივ რე განსხვავება მაკითხირეფიშ ხონარიშ დონეეფს შკას. ვარიას ქიგუნჭირით, მუჟამს ხონარ თიცალ მაღალ რე, ინნაჭარა მითმეჭყორდუ. ვარდა თიცალ დაბალ რე, ნაჭარაშა თოლიშ მეუნაფაშ უმუშო არზიშ გჷშაღალა გიჭირა.
 contribution-reader-effects-title = მაკითხირეშ ეფექტეფი
 contribution-reader-effects-description = ინნაჭარეფიშ უმენტაშობას რე კათაში ბუნებრივ ხონარით ჩიება. თქვა შეილებუნა მიღათ არასტანდარტულ ინნაჭარეფი ხოლო, მაგალთო, ღვარაფი, ფუცქინუა, მსახიობურო ნარაგადი, მარა ნაბირას, კომპიუტერით სინთეზირებულ ხონარეფს ვარია ქუწით.
 contribution-just-unsure-title = იშენით ეჭვი გოპარუნანო?
-contribution-just-unsure-description = თაქ მითითებეფს ვარე განხილულინ ფერ საკითხიქ ქეშერხვადესდა, ქორთხინთ, თქვა შეაფასათ სვინდისიერონი. გაიჭირდეს გინოჭყვადუაშ მიღებაქდა, გაგშეტეთ დო შხვა ინნაჭარაშა გინილით.
-see-more = <chevron></chevron>ქოძირი უმოსი.
-see-less = <chevron></chevron> ქოძირი ჭიჭე.
+contribution-just-unsure-description = თაქ მითითებეფს ვარე განხილულინ ფერ საკითხიქ ქეშერხვადეს-და, ქორთხინთ, თქვა შეაფასათ სვინდისიერონი. გაიჭირდეს გინოჭყვადუაშ მიღებაქ-და, გაგშეტეთ დო შხვა ინნაჭარაშა გინილით.
+see-more = <chevron></chevron>ქოძირი უმოსი
+see-less = <chevron></chevron> ქოძირი ჭიჭე

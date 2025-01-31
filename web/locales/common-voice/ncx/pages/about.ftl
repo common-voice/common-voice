@@ -42,10 +42,28 @@ about-clip-graveyard-text =
     Miktlajtoli kijtosneki nochi tlajtoli tlen amo pouij itech Tinochtin Titlajtoaj Tlajtolnechikoli. Ijkon ken Tlajtolnechikoli, uelis tiktemouilis.
     
     Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. Itech pouij:
+about-get-involved = Xitlapaleui
+about-get-involved-text-2 =
+    ¿Tikneki tikpaleuis Tinochtin Titlajtoaj okachi kuali mayeto?
+    ¡Kuali! Techijkuilili ika correo noso ika <discourseLink>Discourse</discourseLink>,
+    techilui kox itlaj mochiua itech <githubLink>GitHub</githubLink>, noso
+    touan ximotlapoui itech <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = ¿Kenijki nikmatos tlen tlamochitok?
+about-stay-in-touch-button = Ximomachoti
+about-stay-in-touch-text-1 = <emailFragment>Touan ximomachoti</emailFragment> ika mocorreo uan ijkon tikmatis ken uelis techpaleuis ika okseki tlamantli tlen mochiuaj itech Tinochtin Titlajtoaj.
+about-stay-in-touch-text-2 = Uelis timotlapouis inuan oksekimej tlen pouij Mozilla itech <discourseLink>Discourse</discourseLink> kanin motlapouiaj itech seki tlamantli, noso <matrixLink>Matrix</matrixLink> kanin uelis mitspaleuiskej.
+about-nav-why-common-voice = ¿Tleka?
+about-nav-how-it-works = ¿Kenijki?
+about-nav-partners = Tlapaleuiaj
+about-nav-get-involved = Xitlapaleui
+about-nav-how-it-works-2 = ¿Kenijki tekipanoa Tinochtin Titlajtoaj?
+about-nav-playbook = Xikmati ken titlapaleuis
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ¿Tlenon se tlajtolkopa itech Tinochtin Titlajtoaj?
+about-playbook-what-is-language-content-1 = Maski sekimej kiluiaj 'tlajtoli', tejuan tikiluiaj 'tlajtolkopa'. Non poui itech ken titlajtoaj. Panpa itech Tinochtin Titlajtoaj, tlen tiknekij, yej tikmatiskej kox tla akinmej ijkon tlajtoaj uelis motenkakij maski tlatlamantli inmialtepe.
 
 ## How do I add a language
 

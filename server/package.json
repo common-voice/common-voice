@@ -5,7 +5,7 @@
   "dependencies": {
     "@aws-sdk/client-ses": "3.637.0",
     "@google-cloud/storage": "^6.9.5",
-    "@sentry/node": "8.47.0",
+    "@sentry/node": "8.49.0",
     "@sentry/profiling-node": "8.47.0",
     "archiver": "^5.3.1",
     "body-parser": "1.20.3",

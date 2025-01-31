@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å se gjennom 
 sc-redirect-page-title = Vi gjør noen store endringer
 sc-redirect-page-subtitle-1 = Sentence Collector flytter til kjerneplattformen Common Voice. Du kan nå <writeURL>skrive</writeURL> en setning eller <reviewURL>se gjennom</reviewURL> enkeltsetningsinnsendinger på Common Voice.
 sc-redirect-page-subtitle-2 = Still oss spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
+# menu item
+review-sentences = Gjennomgå setninger

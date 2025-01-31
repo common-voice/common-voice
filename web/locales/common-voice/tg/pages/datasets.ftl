@@ -61,6 +61,7 @@ data-other-title = Маҷмуи маълумоти овозии дигар…
 data-other-goto = Ба { $name } гузаред
 data-other-download = Маълумотро боргирӣ кунед
 data-bundle-button = Бастаи маълумотро боргирӣ кунед
+data-bundle-description = Маълумоти иловагии «Common Voice» ва ҳамаи дигар маҷмуи маълумоти овозии дар боло зикршуда.
 release-version = Силсила
 dataset-date = Сана
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
