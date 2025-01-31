@@ -63,6 +63,7 @@ about-nav-playbook = Xikmati ken titlapaleuis
 ## What is a language
 
 about-playbook-what-is-language = ¿Tlenon se tlajtolkopa itech Tinochtin Titlajtoaj?
+about-playbook-what-is-language-content-1 = Maski sekimej kiluiaj 'tlajtoli', tejuan tikiluiaj 'tlajtolkopa'. Non poui itech ken titlajtoaj. Panpa itech Tinochtin Titlajtoaj, tlen tiknekij, yej tikmatiskej kox tla akinmej ijkon tlajtoaj uelis motenkakij maski tlatlamantli inmialtepe.
 
 ## How do I add a language
 
