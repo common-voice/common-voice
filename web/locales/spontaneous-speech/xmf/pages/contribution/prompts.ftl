@@ -20,3 +20,5 @@ submit-all-button = არძაში ჯღონა
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ქოძირით, მუჭო ოკო გიმირინუათ თე ხასჷლანი
+learn-how-to-use-prompts-explanation = ქუგამით მოთხუალას მუთ შილებენ ორთაშურო, აკაჟირი ზიტყვასქვილით. ეცადით, თქვანი ნარაგადი რდას თავაზიანი დო უწყინარინი.
+learn-how-to-use-prompts-guidance = ქიგუკაკეთ<guidanceLink> ათაქ <guidanceLink> ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი
