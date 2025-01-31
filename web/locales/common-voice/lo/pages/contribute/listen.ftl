@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = ກວດເບິ່ງການຖ�
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ເມນູຕົວເລືອກການຟັງ

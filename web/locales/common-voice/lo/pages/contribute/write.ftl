@@ -31,6 +31,8 @@ required-field = ກະລຸນາປ້ອນຂໍ້ມູນໃສ່ໃນ
 single-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກດຽວ
 bulk-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກຈໍານວນຫລາຍ
 single-sentence = ປະໂຫຍກດຽວ
+small-batch-sentence = ຊຸດນ້ອຍ
+bulk-sentence = ຊຸດໃຫຍ່
 sentence-domain-combobox-label = ໂດເມນປະໂຫຍກ
 sentence-domain-select-placeholder = ເລືອກສູງສຸດສາມໂດເມນ (ເລືອກໄດ້)
 # Sentence Domain dropdown option
@@ -92,6 +94,7 @@ too-many-files = ໄຟລ໌ຫຼາຍເກີນໄປ
 
 ## SMALL BATCH SUBMISSION
 
+exceeds-small-batch-limit-error = ບໍ່ສາມາດສົ່ງຫຼາຍກວ່າ 1000 ປະໂຫຍກ
 # menu item
 add-sentences = ເພີ່ມປະໂຫຍກ
 
