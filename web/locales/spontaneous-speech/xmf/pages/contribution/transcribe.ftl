@@ -4,3 +4,6 @@
 audio-page-instruction = { $actionType }<playIcon></playIcon> დო დოჭარით მუსუთ ირჩქილეთჷნი
 editbox-header = ნაჭარათ მოჩამა
 editbox-placeholder = კოჩიშ ნარაგადი, მუსუთ ირჩქილეთჷნი, დოჭარით
+create-transcript-success = ნაჭარათ მოჩამილქ წუმოძინელო ქიჯღონინჷ
+create-transcript-error = ჩილათაქ იჸუ ნაჭარათ გინორთინაფაშ დროს
+error-playing-audio = ჩილათაქ იჸუ ხონარიშ მორჩქილაფაშ დროს.
