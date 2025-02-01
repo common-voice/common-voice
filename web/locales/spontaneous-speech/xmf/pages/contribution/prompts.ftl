@@ -27,4 +27,5 @@ learn-how-to-use-transcribe = ქოძირით, მუჭო ოკო გ�
 learn-how-to-use-transcribe-explanation = ქეცადით, აიწორო დოჭარათ, მუსუთ ხონარიშ ინნაჭარას გეგენთჷნი, არდგილიშ ინმაფშაფალი გოზინდილი ბგერეფ ხოლო, მაგალთო, "ჰმ", "ეეჰ".
 learn-how-to-use-transcribe-guidance = ქიგუკაკეთ<guidanceLink> ათაქ <guidanceLink> ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი
 learn-how-to-use-check-transcript = ქოძირით, მუჭო ოკო გინაჯინათ ნაჭარასჷნი
+learn-how-to-use-check-transcript-explanation = ნაჭარას რსულას ოკო რდას მოჩამილი არძა ზიტყვა ვარდა ჩიებაში დროს გუმორინაფილი არალექსიკური ბგერეფი, ნამუსუთ მაჩიებელი თქუანსჷნი, გამეორებეფიში მოხ.
 learn-how-to-use-check-transcript-guidance = ქიგუკაკეთ<guidanceLink> ათაქ <guidanceLink> ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი
