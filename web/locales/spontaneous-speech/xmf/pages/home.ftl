@@ -1,6 +1,7 @@
 ## Home page
 
 welcome-to-spontaneous-speech = ჯგირი ორდას თქვან მოზოჯუა სპონტანურ ჩიებაშა
+why-spontaneous-speech = მუშენ ვაშენით თე სპონტანურ ჩიებაშ პროტოტიპი
 how-spontaneous-speech-works = მუჭო მუშენს სპონტანურ ჩიება
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>მოთხუალა</mark>
