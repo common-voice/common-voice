@@ -20,6 +20,7 @@ data-bubble-title = <mark>მუნაჩემეფი</mark>
 data-bubble-subtitle = ჩქი პერიოდულო გუმუაქიანენთ მუნაჩემეფიშ ბაზას
 contact-us = ქიდმეკავშირით
 contact-us-email = ელფოსტა:<emailFragment> commonvoice@mozilla.com </emailFragment>
+signup-form-title = თქვა ანწი რეთო Beta-გინოჯინაში ჩქინ ბუნას Common Voice’s-იშ სპონტანურ ჩიებაში პროექტიშოთ?
 signup-input-placeholder = გემშიჸონით თქვან ელფოსტა
 signup-button-value = ქუმომიჯღონი ლინკი ჩქიმ მეილიშა
 footer-text-privacy = <privacyLink>პირადულობა</privacyLink>
