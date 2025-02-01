@@ -8,6 +8,12 @@ prompt-bubble-title = <mark>მოთხუალა</mark>
 prompt-bubble-subtitle = ჩქი გოძირანთ მოთხუალას ვარდა ოკითხუეფს
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>გამა</mark>
+respond-bubble-subtitle = ქეცადით, ქუგამათ მუთ შილებენ ორთაშურო
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ნაჭარათ გინორთინაფა</mark>
+transcribe-bubble-subtitle = დოჭარით, მუსუთ ხონარუან ინნაჭარას გეგონენთჷნი
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>გინოჯინა</mark>
 check-bubble-subtitle = ქიგნაჯინით, ნაჭარათ გინორთელი ხონარუან ინნაჭარაში მანგური ქორე თუ ვარჷნი
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>მუნაჩემეფი</mark>
