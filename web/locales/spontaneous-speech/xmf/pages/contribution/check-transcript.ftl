@@ -8,7 +8,11 @@ no-transcriptions-message = თე ნინაშო ნაჭარათ მ�
 vote-transcript-error = ნაჭარათ მოჩამილიში შეფასებაშ დროს ჩილათაქ იჸუ
 transcript-edited-success = ნაჭარათ მოჩამილქ წუმოძინელო გეწორინუ
 transcript-edited-error = ჩილათაქ იჸუ ნაჭარათ მოჩამილიშ გაწორებაშ დროს
+transcript-skipped-success = ნაჭარათ მოჩამილქ გიშატებულქ იჸუ წუმოძინელო
+transcript-skipped-error = ჩილათაქ იჸუ ნაჭარათ მოჩამილიშ გიშატებაშ დროს
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = წორი რე
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
 done = ხაზირჷ რე
+# For the button on the Check Transcriptions page to edit a transcription
+edit = გაწორება
