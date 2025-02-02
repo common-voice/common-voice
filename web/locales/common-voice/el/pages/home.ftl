@@ -133,6 +133,7 @@ find-us-on-matrix-content = Το Matrix είναι ένα ανοικτό, «ελ
 # label for button
 find-us-on-matrix-action = Βρείτε μας στο Matrix
 ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί τις εκδηλώσεις σας
+ask-mozilla-share-content = Έχετε κάποια προηγούμενη ή επερχόμενη εκδήλωση; Μοιραστείτε το μαζί μας και θα το ανακοινώσουμε στην κοινότητά μας ή θα γράψουμε μια ανάρτηση blog για αυτην!
 # label for button
 ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
 download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
@@ -140,6 +141,7 @@ download-contribution-certificate-content = Κάντε λήψη ενός πισ�
 # label for button
 download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας
 contribute-github = Συνεισφορά στο GitHub
+contribute-github-content = Αυτό το έργο δεν θα ήταν δυνατό χωρίς άτομα σαν εσάς. 🎉 Υπάρχουν πολλοί τρόποι για να συνεισφέρετε στο Common Voice - δεν χρειάζεται να γνωρίζετε προγραμματισμό για να συνεισφέρετε!
 # label for button
 contribute-github-action = Συνεισφορά στο GitHub
 
