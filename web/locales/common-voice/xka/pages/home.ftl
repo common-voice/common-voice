@@ -71,7 +71,7 @@ welcome-staff = ملگر۔۔۔۔۔۔  بڑ بڑ۔ یا
 help-contribute = کامن وایس ا پ ثانی جولال لاڑیل دہ تے پروفاییل ترا تواوپن سورس ڈیٹا سیٹ ترال مے  با ڑ مدد تی ون
 login-company = ۔۔۔۔۔۔ای میل دہ ساین ان بہ
 profile-not-required = پروفایل ترال مدد دون پر۔ لازمی نہ۔۔۔۔۔تو لو گانٹھہ تے چیپر نال
-read-more-about = ساسے پیج دی پا باڑ
+read-more-about = اسے پیج دی پا باڑ
 
 ## NAV ITEMS
 
@@ -107,6 +107,7 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 hero-title = کاں ٹکنالوجی تسے جب دون تہ
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = اسے ملگر اون۔
+hero-subtitle-2 = اسے جیب اسے قیصااسے دراوال تے اسےایتیل بیشیل این۔یا اوں زات ڈیٹاسیٹ ترای کا ں بہ دنیی مے°پھشیل داون تہ
 
 ## Action items section
 
