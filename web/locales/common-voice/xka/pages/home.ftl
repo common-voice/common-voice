@@ -113,6 +113,7 @@ get-started = شرو
 
 ## Action items section
 
+action-items-section-title = کامن وایس اک ازاد،کھولاوڈیٹا کرییشن پلیٹ فارم این۔
 
 ## Community section
 
