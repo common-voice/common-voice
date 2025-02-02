@@ -88,9 +88,13 @@ read-more-about = Докладніше на сторінці Про нас
 
 ## NAV ITEMS
 
+press-and-stories = Преса та історії
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Партнерство з нами
+press-and-stories-menu-item-tooltip = Відвідайте наш блог або напишіть про нас
+community-and-languages-menu-item-tooltip = Відкрийте для себе мови, спільноти та спільний голос
 
 ## MENU ITEM ARIA LABELS
 

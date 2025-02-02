@@ -62,8 +62,6 @@ create-profile-button = Створити профіль
 img-alt-success-checkmark = позначка успішності
 # menu item
 read-sentences = Прочитати речення
-# text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = Прочитати речення <small>(Незабаром)</small>
 
 ## MENU ITEM TOOLTIPS
 
