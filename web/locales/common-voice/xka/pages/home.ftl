@@ -114,6 +114,9 @@ get-started = شرو
 ## Action items section
 
 action-items-section-title = کامن وایس اک ازاد،کھولاوڈیٹا کرییشن پلیٹ فارم این۔
+action-items-section-subtitle = کو۔۔تی ۔۔تانی جِب اے°منیل اے° تے چوݨیلہ ڈیٹاسیٹ تران،میݭٹ تہ لاڑان، تن تانی جب رش بان،تےایج تیبان
+scripted-card-header = میݭٹ دا چوݨاگیال جولال۔
+scripted-card-content = تانی جیب اےجولال دریکے منا۔تے دنیا اے سوام دا ران ڈیٹا سیٹ می تانی ڈا تلا
 
 ## Community section
 
