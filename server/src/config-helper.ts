@@ -8,6 +8,12 @@ if (process.env.DOTENV_CONFIG_PATH) {
     console.log(result.error)
     console.log('Failed loading dotenv file, using defaults')
   }
+}else{
+  const result = config();
+  if (result.error) {
+    console.log(result.error)
+    console.log('Failed loading dotenv file, using defaults')
+  }
 }
 
 export type CommonVoiceConfig = {
