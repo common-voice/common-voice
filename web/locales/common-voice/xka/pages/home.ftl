@@ -108,6 +108,8 @@ hero-title = کاں ٹکنالوجی تسے جب دون تہ
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = اسے ملگر اون۔
 hero-subtitle-2 = اسے جیب اسے قیصااسے دراوال تے اسےایتیل بیشیل این۔یا اوں زات ڈیٹاسیٹ ترای کا ں بہ دنیی مے°پھشیل داون تہ
+# icon is an arrow that points downwards
+get-started = شرو
 
 ## Action items section
 
