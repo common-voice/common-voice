@@ -84,6 +84,7 @@ transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</
 transcribe-audio = بوجل نقل تیپہ پݭہ۔
 press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب
+coming-soon = یندر
 
 ## MENU ITEMS TOOLTIPS
 
@@ -117,6 +118,9 @@ action-items-section-title = کامن وایس اک ازاد،کھولاوڈیٹ
 action-items-section-subtitle = کو۔۔تی ۔۔تانی جِب اے°منیل اے° تے چوݨیلہ ڈیٹاسیٹ تران،میݭٹ تہ لاڑان، تن تانی جب رش بان،تےایج تیبان
 scripted-card-header = میݭٹ دا چوݨاگیال جولال۔
 scripted-card-content = تانی جیب اےجولال دریکے منا۔تے دنیا اے سوام دا ران ڈیٹا سیٹ می تانی ڈا تلا
+spontaneous-card-header = جولال
+language-text-card-header = جیب اے چوݨاگیل
+coming-soon = یندر
 
 ## Community section
 
