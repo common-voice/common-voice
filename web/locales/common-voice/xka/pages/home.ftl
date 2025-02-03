@@ -121,6 +121,7 @@ scripted-card-content = تانی جیب اےجولال دریکے منا۔تے �
 spontaneous-card-header = جولال
 language-text-card-header = جیب اے چوݨاگیل
 coming-soon = یندر
+add-text = ٹیکسٹ میلہ۔
 
 ## Community section
 
