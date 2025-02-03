@@ -134,6 +134,7 @@ find-us-on-matrix = مٹرکس رل اساں پش۔
 find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر ازاد ا پلیٹ فارم
 # label for button
 find-us-on-matrix-action = مٹرکس رل اساں پش۔
+ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
 
 ## Featured section
 
