@@ -74,8 +74,11 @@ read-more-about = Scopri di più sulla pagina Informazioni
 ## NAV ITEMS
 
 answer-questions = Rispondi alle domande <small>(disponibile a breve)</small>
+answer-questions-coming-soon = Rispondi alle domande <small>(disponibile a breve)</small>
 review-transcriptions = Convalida trascrizioni <small>(disponibile a breve)</small>
+review-transcriptions-coming-soon = Convalida trascrizioni <small>(disponibile a breve)</small>
 add-questions = Aggiungi domande <small>(disponibile a breve)</small>
+transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile a breve)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile a breve)</small>
 press-and-stories = Stampa e storie
 community-and-languages = Comunità e lingue
@@ -99,6 +102,9 @@ community-and-languages-menu-item-aria-label = Esplora la comunità e le lingue 
 
 ## Hero section
 
+hero-title = Una tecnologia che parla la tua lingua
+# icon is an arrow that points downwards
+get-started = Inizia <icon><icon>
 
 ## Action items section
 
