@@ -95,9 +95,18 @@ read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de
 
 ## Hero section
 
+hero-title = Tecnologia chi faeddat sa limba tua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Pro ite s’IA diat dèpere funtzionare isceti pro unas cantas limbas de su mundu?</bold>
+hero-subtitle-2 = Sa limba est s’istòria nostra, sa comunidade nostra, sa cultura nostra. Creemus in paris is pachetes de datos chi bolimus bìdere in su mundu.
+# icon is an arrow that points downwards
+get-started = Cumintza<icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice est una prataforma lìbera e de còdighe abertu pro sa creatzione de datos dae sa comunidade
+action-items-section-subtitle = Chie si siat podet cunservare, rivitalizare e megiorare sa situatzione de sa limba sua cumpartzende, creende e organizende pachetes de datos de testu e de boghe.
+scripted-card-header = Testu iscritu
 
 ## Community section
 
