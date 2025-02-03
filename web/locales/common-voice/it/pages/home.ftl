@@ -104,12 +104,22 @@ community-and-languages-menu-item-aria-label = Esplora la comunità e le lingue 
 ## Hero section
 
 hero-title = Una tecnologia che parla la tua lingua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Perché l’intelligenza artificiale dovrebbe essere limitata a poche lingue nel mondo?</bold>
+hero-subtitle-2 = La nostra lingua è la nostra storia, la nostra comunità, la nostra cultura. Creiamo insieme dataset che rispecchiano la nostra visione del mondo.
 # icon is an arrow that points downwards
 get-started = Inizia <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice è una piattaforma gratuita e open source dedicata alla creazione di dati sotto la guida della comunità
+action-items-section-subtitle = Chiunque può preservare, rivitalizzare e valorizzare la propria lingua condividendo, creando e gestendo dataset di testo e voce.
+scripted-card-header = Discorso con trascrizione
+scripted-card-content = Leggi le frasi ad alta voce nella tua lingua e contribuisci al dataset di riconoscimento vocale a partecipazione pubblica più variegato al mondo.
+spontaneous-card-header = Discorso spontaneo
+spontaneous-card-content = Rispondi alle domande per creare dataset relativi a contesti naturali e colloquiali. Perfetto per le lingue prevalentemente orali.
 language-text-card-header = Testo in lingua
+language-text-card-content = Crea o condividi domande, frasi e testi di pubblico dominio per traduzioni, modelli linguistici di piccole dimensioni e altro ancora.
 coming-soon = Disponibile a breve
 add-text = Aggiungi testo
 
@@ -117,13 +127,19 @@ add-text = Aggiungi testo
 
 community-section-title = Realizzato da comunità globali, per le comunità globali — 130 lingue, in continua crescita!
 join-discord-community = Unisciti alla comunità su Discord
+# label for button
+join-discord-community-action = Partecipa su Discord
 join-discord-community-content = Partecipa alle discussioni della comunità linguistica, fai domande e scopri i prossimi eventi e conferenze.
 find-us-on-matrix = Vieni a trovarci su Matrix
+find-us-on-matrix-content = Matrix è un protocollo aperto e leggero per comunicazioni decentralizzate in tempo reale, nonché la piattaforma di discussione aperta preferita da Mozilla.
 # label for button
 find-us-on-matrix-action = Vieni a trovarci su Matrix
 ask-mozilla-share = Chiedi a Mozilla di condividere i tuoi eventi
+ask-mozilla-share-content = Hai organizzato un evento in passato o ne hai uno in programma? Condividilo con noi e lo annunceremo alla nostra comunità, o scriveremo un articolo a riguardo sul blog.
 # label for button
 ask-mozilla-share-action = Condividi il tuo evento
+download-contribution-certificate = Scarica il tuo certificato come collaboratore
+download-contribution-certificate-content = Scarica un certificato per i tuoi eventi o per te stesso se hai contribuito a Common Voice. Tutto questo non sarebbe possibile senza il tuo aiuto!
 # label for button
 download-contribution-certificate-action = Ottieni il tuo certificato
 contribute-github = Collabora su GitHub
@@ -139,6 +155,7 @@ download-press-pack = Scarica il nostro pacchetto stampa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Dataset aperto di dati vocali pubblicamente accessibili in oltre 130 lingue
 developers-section-subtitle = Dataset per ASR, STT, TTS e altri contesti NLP, creati grazie alla partecipazione della comunità.
 # icon is an arrow that points to the right
 explore-datasets = Esplora i dataset <icon></icon>
@@ -150,10 +167,21 @@ read-sentences-link = Leggi frasi
 validate-readings-link = Convalida letture
 contribute-link = Contribuisci al corpus testuale
 answer-questions-link = Rispondi alle domande
+transcribe-answers-link = Trascrivi risposte
+review-transcriptions-link = Verifica trascrizioni
+contribute-text-link = Proponi testi
 press-and-stories-link = Sezione stampa e notizie
 
 ## Partner section
 
 partner-section-title = Diventa nostro partner
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Aziende tecnologiche</bold>: investi nella creazione di dataset aperti per un fiorente ecosistema di intelligenza artificiale multilingua
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Società civile e ricercatori</bold>: crea, mantieni e condividi dataset di grande impatto disponibili liberamente
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold>: finanzia la creazione di dataset per alimentare innovazione e sviluppo locali
 # icon is an arrow that points to the right
 get-in-touch-button = Contattaci <icon></icon>
+# Partners section
+our-partners-include = Alcuni dei nostri partner…
