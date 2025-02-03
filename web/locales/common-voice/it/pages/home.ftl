@@ -82,6 +82,7 @@ transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile a breve)</sma
 transcribe-audio = Trascrivi audio <small>(disponibile a breve)</small>
 press-and-stories = Stampa e storie
 community-and-languages = Comunità e lingue
+coming-soon = Disponibile a breve
 
 ## MENU ITEMS TOOLTIPS
 
@@ -108,18 +109,48 @@ get-started = Inizia <icon><icon>
 
 ## Action items section
 
+coming-soon = Disponibile a breve
+add-text = Aggiungi testo
 
 ## Community section
 
+community-section-title = Realizzato da comunità globali, per le comunità globali — 130 lingue, in continua crescita!
+join-discord-community = Unisciti alla comunità su Discord
+join-discord-community-content = Partecipa alle discussioni della comunità linguistica, fai domande e scopri i prossimi eventi e conferenze.
+find-us-on-matrix = Vieni a trovarci su Matrix
+# label for button
+find-us-on-matrix-action = Vieni a trovarci su Matrix
+ask-mozilla-share = Chiedi a Mozilla di condividere i tuoi eventi
+# label for button
+ask-mozilla-share-action = Condividi il tuo evento
+# label for button
+download-contribution-certificate-action = Ottieni il tuo certificato
+contribute-github = Collabora su GitHub
+contribute-github-content = Questo progetto non sarebbe possibile senza persone come te. 🎉 Ci sono molti modi per collaborare con Common Voice: non è necessario saper programmare per contribuire!
+# label for button
+contribute-github-action = Collabora su GitHub
 
 ## Featured section
 
+featured-section-title = Ne hanno parlato
+# icon is an arrow that points downwards
+download-press-pack = Scarica il nostro pacchetto stampa <icon></icon>
 
 ## Developers section
 
+developers-section-subtitle = Dataset per ASR, STT, TTS e altri contesti NLP, creati grazie alla partecipazione della comunità.
+# icon is an arrow that points to the right
+explore-datasets = Esplora i dataset <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Sostieni i dataset aperti gestiti dalla comunità
+read-sentences-link = Leggi frasi
+validate-readings-link = Convalida letture
+contribute-link = Contribuisci al corpus testuale
+answer-questions-link = Rispondi alle domande
+press-and-stories-link = Sezione stampa e notizie
 
 ## Partner section
 
+partner-section-title = Diventa nostro partner
