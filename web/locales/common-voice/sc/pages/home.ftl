@@ -141,7 +141,7 @@ ask-mozilla-share = Pregunta a Mozilla chi cumpartzat is eventos tuos
 # label for button
 ask-mozilla-share-action = Cumpartzi un’eventu
 download-contribution-certificate = Iscàrriga·ti su tzertificadu de contributu tuo
-download-contribution-certificate-content = Iscàrriga·ti unu tzertificadu pro is eventos tuos o pro tene, si as partetzipadu a Common Voice: totu custu non diat èssere possìbile sena de tene!
+download-contribution-certificate-content = Iscàrriga unu tzertificadu pro is eventos tuos o pro tue etotu, si as partetzipadu a Common Voice: totu custu non diat èssere possìbile sena de tue!
 # label for button
 download-contribution-certificate-action = Otene su tzertificadu
 contribute-github = Contribui a Github
