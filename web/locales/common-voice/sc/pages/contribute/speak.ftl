@@ -41,6 +41,7 @@ terms-agree = So de acordu
 terms-disagree = Non so de acordu
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Gràtzias de àere donadu is registratziones de boghe tuas!
+first-cta-subtitle-text = Contende·nos de tene, agiudas a s’iscuadra de isvilupu a fraigare tecnologia prus inclusiva
 why-donate = Pro ite mi ddu ses preguntende?
 add-information-button = Agiunghe informatziones
 continue-speaking-button = No gràtzias, sighi a chistionare

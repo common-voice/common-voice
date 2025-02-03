@@ -22,7 +22,11 @@ ba = Baschiru
 bal = Balotzi
 bas = Basaa
 bax = Bamun
+bba = Bariba
+bbj = Ghomalà
+bci = Baulé
 be = Bielorussu
+beb = Bebele
 bg = Bùlgaru
 bm = Bambara
 bn = Bengalesu
@@ -234,7 +238,10 @@ not-available-abbreviation = No est a disponimentu
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Tenimus bisòngiu</mark><br/><mark>de s’agiudu tuo!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Costat giai unu millione de dòllaros onni annu a allogare su pachete de datos e megiorare sa prataforma pro is prus de 100 comunidades linguìsticas chi donant aficu a su chi faghimus. <strong>Si crees in is datos abertos e inclusivos, dona oe!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Ses impreende CV</mark><br/><mark>pro sa chirca tua?</mark>
+languages-donate-banner-cta-explanation = Common Voice est finantziadu dae donatziones e contributos! Nos praghet traballare cun s’'acadèmia, sa sotziedade tzivile e sa chirca industriale. Common Voice est de badas, però contribuire a sa prataforma e a is costos de allogamentu cun contributos est profetosu a beru.
 localization-select =
     .label = Sèbera una limba/localizatzione
