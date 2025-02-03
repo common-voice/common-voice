@@ -129,6 +129,11 @@ community-section-title = عالمی سطح دا رسے سپورٹ،عالمی �
 join-discord-community = ڈسکورڈدراوال سہ ٹل بہ۔
 # label for button
 join-discord-community-action = ڈسکورذ رل اساں سہ ٹل بہ۔
+join-discord-community-content = جیب جولال ام می ٹل بہ۔یندر۔جولال  جان تے تپوس تہ
+find-us-on-matrix = مٹرکس رل اساں پش۔
+find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر ازاد ا پلیٹ فارم
+# label for button
+find-us-on-matrix-action = مٹرکس رل اساں پش۔
 
 ## Featured section
 
