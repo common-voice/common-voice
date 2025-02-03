@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abcasu
+abb = Bankon
 ace = Achinesu
 ady = Adyghe
 af = Afrikaans
@@ -15,8 +17,11 @@ arn = Mapundungun
 as = Assamesu
 ast = Asturianu
 az = Azeri
+azz = Nahuatl de is montes de Puebla
 ba = Baschiru
+bal = Balotzi
 bas = Basaa
+bax = Bamun
 be = Bielorussu
 bg = Bùlgaru
 bm = Bambara

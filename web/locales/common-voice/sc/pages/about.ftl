@@ -47,6 +47,8 @@ about-get-involved-text-2 =
      sa tzarrada de sa comunidade in <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comente fatzo a abarrare in cuntatu?
 about-stay-in-touch-button = Registra·ti
+about-stay-in-touch-text-1 = <emailFragment>Registra·ti</emailFragment> in sa lista de posta nostra pro iscobèrrere comente fàghere parte de campagnas e eventos e collaborare pro s’isvulupu de funtziones cun Common Voice.
+about-stay-in-touch-text-2 = Podes addobiare a àtera gente in is comunidades linguìsticas de Mozilla aderende a <discourseLink>Discourse</discourseLink> pro tzarradas temàticas, o <matrixLink>Matrix</matrixLink> pro otènnere unu cussìgiu a lestru.
 about-nav-why-common-voice = Pro ite?
 about-nav-how-it-works = Comente?
 about-nav-partners = Sòtzios
@@ -58,28 +60,52 @@ about-nav-playbook = Impara a nde fàghere parte
 ## What is a language
 
 about-playbook-what-is-language = Ite est una limba in Common Voice?
+about-playbook-what-is-language-content-1 = Nch'at medas maneras pro cunsiderare una limba. Pro is iscopos de is modellos de reconnoschimentu de boghe, Common Voice sugerit de si cuntzentrare in sa ‘cumprensibilidade mùtua’, o in ‘is chie faeddant custa limba, su prus, si cumprendent a pare, si proant a ddu fàghere?’
+about-playbook-what-is-language-content-2 = Bolimus chi is modellos de boghe siant capatzos de cumprèndere una variedade ampra de persones faeddadoras. Pro chi custu sutzedat, unu pachete de datos depet rapresentare a meda gente diversa.
+about-playbook-what-is-language-content-3 = Calicuna limba tenet variatziones ampras in sa grammàtica, su vocabolàriu e sa pronùntzia. Pro custu, <ctaLink>introduimus ‘Variedades’</ctaLink> in su 2022. Custu donat a is comunidades una manera de ischerare is limbas suas in unu pachete de datos prus genèricu.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Comente fatzo a agiùnghere una limba?
+about-playbook-how-add-language-content-1 =
+    Pro primu, controlla chi sa limba tua <languageLink>esistat giai</languageLink>.
+    Si no est aici, depes <languageRequestLink>dimandare de agiùnghere sa limba tua</languageRequestLink>.
+    Nch'at duas fases. Tradùere su situ e regòllere fràsias
 about-playbook-how-add-language-translating-heading = Tradutzione de su situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càstia sa ghia nostra in pitzus de s'impreu de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Impreamus un'aina de Mozilla narada <pontoonLink>Pontoon</pontoonLink> pro is tradutziones. Pontoon tenet medas limbas,
+    ma si non tenet sa tua podes <pontoonRequestLink>dimandare de agiùnghere sa limba tua</pontoonRequestLink>.
+    A pustis, pro chi sa limba siat a disponimentu in su progetu de Common Voice,
+    <githubRepoLink>rechede sa limba noa in GitHub</githubRepoLink>. <localizationFragment>Àteras informatziones a subra de sa tradutzione de su situ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Regorta de fràsias
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Càstia sa ghia de impreu de su regollidore de fràsias</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Podes <sentenceCollectorLinkAdd>agiùnghere unu nùmeru piticu de fràsias</sentenceCollectorLinkAdd>,
+    o podes fàghere <bulkImportDocsLink>importatziones massivas impreende Github</bulkImportDocsLink>.
+    Regorda chi is fràsias tenent bisòngiu de èssere <licenseLink>CC0 (o de domìniu pùblicu)</licenseLink>, o ddas podes iscrìere tue etotu.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Àteras informatziones in pitzus de sa collida de fràsias</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Comente funtzionat sa localizatzione de su situ web?
 about-playbook-how-localize-content-1 = Su situ de Common Voice est tradùidu cun <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea unu contu</pontoonAccountLink> si non nde tenes unu. A pustis, sèbera sa limba tua <strong>(‘Iscuadra’)</strong> e pustis sèbera su progetu, <pontoonCvLink>Common Voice</pontoonCvLink>. Nch'at a èssere archìvios de tradùere. Incarca·nde unu, a pustis s'ant a ammustrare faeddos in inglesu e unu cuadru pro ddos tradùere.
+about-playbook-how-localize-content-3 = Sa tradutzione est dae s’inglesu, ma podes bìdere <strong>Proponimentos</strong> in àteras limbas. Incarca s’icona de su <strong>Profilu</strong>, a pustis su ligòngiu <strong>Cunfiguratzione</strong> e agiunghe is limbas chi chistionas. In s’àngulu in fundu a manu dereta nch’at a èssere una lista de tradutziones narada <strong>Locales</strong>. Is tradutziones ant a aparèssere in su situ sa die a pustis.
 about-playbook-how-localize-content-4 = Su situ podet èssere publicadu cando sa tradutzione lompet a su 75%.
 about-playbook-how-localize-content-5 = Càstia su vìdeu cun ispiegatziones pro ti agiudare
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comente fatzo a agiùnghere fràsias?
+about-playbook-how-add-sentences-content-1 = Podes agiùnghere fràsias in sa <writePageLink>Pàgina de iscritura</writePageLink> o fàghere sa revisione de is fràsias in sa <reviewPageLink>Pàgina de revisione</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Is fràsias depent èssere revisionadas e atzetadas dae duas persones, pro èssere incluidas in Common Voice. Crea is lìnias ghia pro sa limba tua <languageGuidelinesLink>inoghe</languageGuidelinesLink>. Is fràsias depent èssere de <licenseLink>domìniu pùblicu</licenseLink> e prus curtzas de 15 faeddos. Podes dimandare a chie est mere de unu testu de ddu torrare <waiverLink>CC0 impreende su protzessu de renùntzia nostru</waiverLink>, e imbiende·ddu a nois a commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Podes impreare s’<scraperLink>Estratore de fràsias</scraperLink> pro recuperare fràsias curtzas dae Wikipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Comente potzo otènnere una registratzione de calidade arta?
+about-playbook-how-record-content-1 = Chistiona a sa moda tua! Cale si siat sa manera tua de chistionare, est benebènnida: bolimus chi imprees s’atzentu, su volùmene, s’istile e s’intonatzione chi acostumas a tènnere.
 about-playbook-how-record-content-2 = Èvita tropu abbolotu in s’isfundu: diat dèpere èssere fàtzile a ti intèndere.
 about-playbook-how-record-content-3 = Leghe is fràsias cun atentzione: non perdas, càmbies o agiungas faeddos.
 about-playbook-how-record-content-4 = Assegura·ti chi sa prataforma est registrende in antis de cumintzare a faeddare, e chi si firmat una borta apas acabbadu.
@@ -92,7 +118,10 @@ about-playbook-how-grow-language-content-1 = Sa creatzione de oportunidades pro 
 about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-3 = Podes organizare eventos pro incoragiare a sa gente a partetzipare. Est prus fàtzile de cantu paret. Ddu podes fàghere in lìnia cun unu sistema de vìdeu-cunferèntzias o in presèntzia si est seguru. <eventTemplate>Càstia is modellos e is resursas nostras pro organizare eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Retes sotziales
+about-playbook-how-grow-language-content-5 = Podes impreare is prataformas de is redes sotziales pro ispaniare su messàgiu. Cumpartzi publicatziones chi acrarent pro ite est de importu, e intra in cuntatu cun àtera gente pro chistionare de chistiones che a deretos linguìsticos, IA de boghe, o pregiudìtzios in sa tecnologia. Àteros cussìgios in subra de <campaignLink>incarrerare una campagna sotziale, incluende cuntenutos chi podes torrare a impreare</campaignLink>.
 about-playbook-how-grow-language-content-6 = Alleàntzias e retes
+about-playbook-how-grow-language-content-7 = Agata a àtera gente chi nde tenet coidadu. Podent èssere universidades, iscolas de limba, grupos de defensa o comunidades de sièntzias de datos. Pone·ti in cuntatu e acrara·ddis comente podent agiudare e pro ite. <outreachTemplates>Càstia is modellos nostros de messàgios de posta pro tamburinare</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Iscàpia sa fantasia!</strong> Sa comunidade linguìstica tua at a èssere ùnica, e custas sunt isceti pagas maneras pro incarrerare.
 
 ## How to validate
 
@@ -112,6 +141,7 @@ about-playbook-how-access-dataset-content-2 = Si ses chirchende ainas pro creare
 
 about-playbook-how-project-governance = Comente si pigant is detzisiones de su progetu?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice est possìbile gràtzias a una comunidade diversa de ativistas, linguistas, iscientziados de datos e ingegneris de programmas de totu su mundu. Su progetu est gestidu dae sa Fundatzione Mozilla.
+about-playbook-how-project-governance-content-2 = Sa manera nostra de gestire su progetu si basat subra de custos pilotos:
 about-playbook-how-project-governance-content-3 = Riservadesa, seguresa e trasparèntzia.
 about-playbook-how-project-governance-content-4 = Partetzipatzione de sa comunidade in su protzessu de detzisiones.
 about-playbook-how-project-governance-content-5 = Valore e reconnoschimentu.
@@ -121,3 +151,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Àteras inform
 ## How is Common Voice funded
 
 about-playbook-how-funded = Comente est finantziadu Common Voice?
+about-playbook-how-funded-content-1 = Common Voice est unu progetu de Mozilla Foundation, un’organizatzione US 501c3. Su progetu a oe est de su totu finantziadu dae <philantropicGrantLink>contributos de benaulèntzia</philantropicGrantLink>, e donatziones de gente dae totu su mundu.
+about-playbook-how-funded-content-2 = Costat una surra de dinare a allogare e publicare pachetes de datos, megiorare sa prataforma e gestire is <africaMradiLink>programmas comunitàrios</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si s’organizatzione tua diat bòlere torrare a contribuire a su progetu, podes faghere una <donateLink>donatzione</donateLink> o cuntatare s’iscuadra nostra de parternariadu a <emailFragment>commonvoice@mozilla.com</emailFragment>.
