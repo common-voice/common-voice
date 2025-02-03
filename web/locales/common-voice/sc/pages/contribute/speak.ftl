@@ -59,6 +59,8 @@ create-profile-button = Crea unu profilu
 img-alt-success-checkmark = sinnu de sutzessu
 # menu item
 read-sentences = Leghe fràsias
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Leghe fràsias  <small>(luego)</small>
 
 ## MENU ITEM TOOLTIPS
 

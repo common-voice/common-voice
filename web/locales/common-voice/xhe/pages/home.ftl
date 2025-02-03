@@ -99,6 +99,7 @@ transcribe-audio-coming-soon = آڈیو تی نقل کر <small>(جلدی چِی
 transcribe-audio = آڈیو تی نقل کر <small>(جلدی چِیسن)</small>
 press-and-stories = پریس ٻِیا کہاݨییں
 community-and-languages = برادری ٻِیا ٻولیاں
+coming-soon = جلدی چِیسے
 
 ## MENU ITEMS TOOLTIPS
 
@@ -135,23 +136,61 @@ scripted-card-content = آپݨی ٻولی تے وِچ ڳالھ وار زور س�
 spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = پرومپٹسیک جواب ݙے نامیاتی، عام حال وال والے سیاق و سباق جوڑݨ واسطے۔
 language-text-card-header = ٻولی تا متن
+language-text-card-content = عوامی ڈومین پرومپٹیک جوڑیا وِلاح، ڳالھ وار، ٻِیا لِکھ ترجمہ واسطے، نِکڑے ٻولیں تے نمونے، ٻِیا مزید۔
+coming-soon = جلدی چِیسے
+add-text = متن وِڄ
 
 ## Community section
 
+community-section-title = عالمی برادریں واسطے —130ٻولیاں ٻِیا ہوآں تے وڈھݨ واسطے عالمی برادریں تی طاقت گڈھے!
+join-discord-community = اختلاف والی برادری تے وِچ حِصّہ گُھل
+# label for button
+join-discord-community-action = اساں ساں اختلاف تی مِل
+join-discord-community-content = ٻولی والی برادری تے بحث تے وِچ حِصّہ گُھل، سوال پُچھ ٻِیا اچݨ والے تہوار ٻِیا ڳالھ واریں ساں سِکھ۔
+find-us-on-matrix = اسانک میٹرکس تی بھنؤ
+find-us-on-matrix-content = میٹرکس سچے وخت تے گھٹ اقتدار تے ڳالھ وار والے اَوزاریں واسطے ہِک کُھلا ٻِیا ہلکے وزن تا ذریعہ ہے، ٻِیا موزیلاک کُھلے ڳالھ وار تے پلیٹ فارمیک ترجیح ݙین٘دا ہِے۔
+# label for button
+find-us-on-matrix-action = اسانک میٹرکس تی بھنؤ
+ask-mozilla-share = آپݨے تہوار وِلھاݨ واسطے موزیلا وا پُچھ
+ask-mozilla-share-content = پِچّھوں والے یا انچݨ والے تہوار ہتھین؟ اَساں ساں وِلھا ٻِیال اسے اعلان کسوں اسانجی برادریک یا ٻِیال ہے تے اُتوں لِکھسوں!
+# label for button
+ask-mozilla-share-action = آپٹے تہوار وِلھا
+download-contribution-certificate = حِصّہ گُھلّݨ والی آپݨی سند بھر
+download-contribution-certificate-content = تہواریں یا آپݨے واسطے سند بھر اگر تَو کامن وائس تے وِچ حِصّہ گُھلا ہے — ہے تَو وا اَباج نَے تھی سڳدا!
+# label for button
+download-contribution-certificate-action = آپݨی سند گِھن
+contribute-github = گِٹ ہب تی حِصّہ گُھل
+contribute-github-content = اوّاں تُمن تے بغیر ہے منصوبہ نا تھیسے۔  🎉 کامن وائس ساں رلّݨ واسطے گھݨے تڑ ہتھین تؤک حِصّہ گھلݨ تے کوڈ تی ضرورت نا تھے!
+# label for button
+contribute-github-action = گِٹ ہب تی حِصّہ گُھل
 
 ## Featured section
 
+featured-section-title = ہیک چنڳا کر جوڑ۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اسانجا پریس پیک بھر <icon></icon>
 
 ## Developers section
 
+developers-section-title = عوامی سَوکھا کُھلا ڳالھ وار والا ڈیٹا سیٹ 130+ وا زیادہ ٻولیں تے وِچ
+developers-section-subtitle = ڈیٹا سیٹس اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس ٻِیا ٻئے این ایل پی سیاق و سباق واسطے برادری تی وِچ حِصّہ گُھلّݨ ساں پیدا تھیا ہِے۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹس ایکسپلور کر <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = ڈیٹا سیٹس واسطے کمیونٹی ایک کُھلا سپورٹ کر
 read-sentences-link = ڳالھ وارینک ٻُجھ
 validate-readings-link = ریڈنگز تی وجہ ݙے
+contribute-link = متن کارپس تی حِصّہ گُھلّݨ
+answer-questions-link = سوال جواب
+transcribe-answers-link = جوابینک نقل کر
 review-transcriptions-link = نقلیاں وَتا لال
+contribute-text-link = متن حصہ گُھل
 press-and-stories-link = پریس ٻِیا کہاݨییں
 
 ## Partner section
 
 partner-section-title = اساں ساں شریک تھی
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - کُھلے ڈیٹا سیٹ پیدا کر ہِک چنڳے گھݨے ٻولیں والا اے آئی ماحولیاتی نظام واسطے

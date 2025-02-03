@@ -14,6 +14,8 @@ listen-abort-cancel = Sighi cun sa validatzione
 listen-abort-confirm = Agabba sa validatzione
 # Menu item
 validate-readings = Vàlida is leturas
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Vàlida leturas <small>(luego)</small>
 
 ## MENU ITEM TOOLTIPS
 

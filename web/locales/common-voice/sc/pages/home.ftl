@@ -83,12 +83,19 @@ read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de
 
 ## NAV ITEMS
 
+answer-questions-coming-soon = Risponde preguntas <small>(luego)</small>
+review-transcriptions-coming-soon = Revisiona trascritziones <small>(luego)</small>
+add-questions = Agiunghe preguntas <small>(luego)</small>
+transcribe-audio-coming-soon = Trascrie àudio <small>(luego)</small>
+coming-soon = Luego
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Collaboratziones, istampa e istòrias, comunidades e limbas
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Leghe àteru in pitzus de is sòtzios de Common Voice
 
 ## NEW HOME PAGE KEYS
 
@@ -112,10 +119,12 @@ spontaneous-card-header = Testu ispontàneu
 spontaneous-card-content = Risponde a inditos pro creare pachetes de datos pro cuntestos orgànicos e collochiales. Perfetu pro limbas cun una traditzione orale forte.
 language-text-card-header = Testos in sa limba
 language-text-card-content = Crea o cumpartzi preguntas de domìniu pùblicu, fràsias e testu pro sa tradutzione, modellos piticos de limba e àteru.
+coming-soon = Luego
 add-text = Agiunghe testos
 
 ## Community section
 
+community-section-title = Creadu dae comunidades globales e pro comunidades globales: 130 limbas, e creschende!
 
 ## Featured section
 
@@ -128,3 +137,5 @@ add-text = Agiunghe testos
 
 ## Partner section
 
+# Partners section
+our-partners-include = Is sòtzios nostros sunt...

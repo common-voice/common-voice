@@ -8,6 +8,7 @@ action-tap = Toca
 interface-language = Limba de s’interfache:
 # Label for button on contribution switcher
 change = Modifica
+coming-soon = Àteras limbas luego
 audioplayer-header = Ascurta
 guidelines = Ghias
 # For the button to report an item
