@@ -87,6 +87,8 @@ answer-questions-coming-soon = Risponde preguntas <small>(luego)</small>
 review-transcriptions-coming-soon = Revisiona trascritziones <small>(luego)</small>
 add-questions = Agiunghe preguntas <small>(luego)</small>
 transcribe-audio-coming-soon = Trascrie àudio <small>(luego)</small>
+press-and-stories = Istampa e istòrias
+community-and-languages = Comunidade e limbas
 coming-soon = Luego
 
 ## MENU ITEMS TOOLTIPS
@@ -96,6 +98,8 @@ about-menu-tooltip = Collaboratziones, istampa e istòrias, comunidades e limbas
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Leghe àteru in pitzus de is sòtzios de Common Voice
+press-and-stories-menu-item-aria-label = Atzede a is comunicados de istampa e a istòrias acapiadas a Common Voice
+community-and-languages-menu-item-aria-label = Esplora sa comunidade e is limbas cumpatìbiles cun Common Voice
 
 ## NEW HOME PAGE KEYS
 
@@ -125,6 +129,25 @@ add-text = Agiunghe testos
 ## Community section
 
 community-section-title = Creadu dae comunidades globales e pro comunidades globales: 130 limbas, e creschende!
+join-discord-community = Intra a sa comunidade Discord
+# label for button
+join-discord-community-action = Agata·nos in Discord
+join-discord-community-content = Piga parte a is discussiones de comunidades linguìsticas, faghe preguntas e impara in pitzus de eventos e cunferèntzias de su benidore.
+find-us-on-matrix = Agata·nos in Matrix
+find-us-on-matrix-content = Matrix est unu protocollu abertu e lèbiu pro sa comunicatzione detzentralizada in tempus reale. Est puru sa prataforma de cuntierra preferida dae Mozilla.
+# label for button
+find-us-on-matrix-action = Agata·nos in Matrix
+ask-mozilla-share = Pregunta a Mozilla chi cumpartzat is eventos tuos
+# label for button
+ask-mozilla-share-action = Cumpartzi un’eventu
+download-contribution-certificate = Iscàrriga·ti su tzertificadu de contributu tuo
+download-contribution-certificate-content = Iscàrriga·ti unu tzertificadu pro is eventos tuos o pro tene, si as partetzipadu a Common Voice: totu custu non diat èssere possìbile sena de tene!
+# label for button
+download-contribution-certificate-action = Otene su tzertificadu
+contribute-github = Contribui a Github
+contribute-github-content = Custu progetu non diat èssere possìbile sena gente comente a tue! 🎉 Nch’at meda maneras de pigare parte a Common Voice: non serbit chi tèngias connoschèntzias de còdighe pro partetzipare!
+# label for button
+contribute-github-action = Contribui a Github
 
 ## Featured section
 
@@ -134,6 +157,7 @@ community-section-title = Creadu dae comunidades globales e pro comunidades glob
 
 ## Get involved section
 
+press-and-stories-link = Istampa e istòrias
 
 ## Partner section
 

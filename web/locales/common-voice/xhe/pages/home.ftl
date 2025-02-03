@@ -194,3 +194,9 @@ press-and-stories-link = پریس ٻِیا کہاݨییں
 partner-section-title = اساں ساں شریک تھی
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - کُھلے ڈیٹا سیٹ پیدا کر ہِک چنڳے گھݨے ٻولیں والا اے آئی ماحولیاتی نظام واسطے
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>شہری برادری ٻِیال بھنؤڑ والے</bold> - پیدا کر، خدمت کر ٻِیا چنڳے ڈیٹا سیٹس یقین واسطے وِلاح۔
+# icon is an arrow that points to the right
+get-in-touch-button = رابطے ساں رہ <icon></icon>
+# Partners section
+our-partners-include = اساں ساں سنڳتیاں وِچ رلِّن۔۔۔
