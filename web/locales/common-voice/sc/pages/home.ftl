@@ -107,6 +107,12 @@ get-started = Cumintza<icon><icon>
 action-items-section-title = Common Voice est una prataforma lìbera e de còdighe abertu pro sa creatzione de datos dae sa comunidade
 action-items-section-subtitle = Chie si siat podet cunservare, rivitalizare e megiorare sa situatzione de sa limba sua cumpartzende, creende e organizende pachetes de datos de testu e de boghe.
 scripted-card-header = Testu iscritu
+scripted-card-content = Leghe fràsias a boghe arta in sa limba tua e contribui a su pachete de datos de boghe cun partetzipatzione pùblica prus diversu de su mundu.
+spontaneous-card-header = Testu ispontàneu
+spontaneous-card-content = Risponde a inditos pro creare pachetes de datos pro cuntestos orgànicos e collochiales. Perfetu pro limbas cun una traditzione orale forte.
+language-text-card-header = Testos in sa limba
+language-text-card-content = Crea o cumpartzi preguntas de domìniu pùblicu, fràsias e testu pro sa tradutzione, modellos piticos de limba e àteru.
+add-text = Agiunghe testos
 
 ## Community section
 

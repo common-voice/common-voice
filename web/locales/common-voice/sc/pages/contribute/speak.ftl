@@ -64,6 +64,7 @@ read-sentences = Leghe fràsias
 
 speak-contribute-menu-tooltip = Leghe fràsias, risponde preguntas
 read-sentences-menu-item-tooltip = Registra·ti leghende fràsias in sa limba tua
+answer-questions-menu-item-tooltip = Registra·ti rispondende a preguntas e inditos in sa limba tua
 
 ## MENU ITEM ARIA LABELS
 

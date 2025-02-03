@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = Gràtzias de contribuire a Testu ispontàneu!
 add-information-button = Agiunghe informatziones
 thank-you-for-your-information = Gràtzias de s’informatzione tua
 
