@@ -114,9 +114,6 @@ const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   mk: 5.028,
 }
 
-const getAverageSecondsPerClip = (locale: string) =>
-  AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS
-
 // TODO: Update startup script to save % and retreive from database
 function fetchLocalizedPercentagesByLocale(): Promise<any> {
   return request({
@@ -275,11 +272,28 @@ export default class Model {
     DAY
   )
 
+  getAverageSecondsPerClip = lazyCache(
+    'get-average-seconds-per-clip',
+    async (locale_id: number): Promise<number> => {
+      const { avg_seconds_per_clip } = await this.db.getAverageSecondsPerClip(
+        locale_id
+      )
+      return avg_seconds_per_clip || AVG_CLIP_SECONDS
+    },
+    DAY / 2
+  )
+
   getLanguageStats = lazyCache(
     'get-all-language-stats',
     async (): Promise<any> => {
       const languages = await this.db.getAllLanguages()
       const allLanguageIds = languages.map(language => language.id)
+      const allAverageDurations = await Promise.all(
+        languages.map(async lang => {
+          const avg_seconds = await this.getAverageSecondsPerClip(lang.id)
+          return { ...lang, avg_seconds }
+        })
+      )
 
       const statsReducer = (langStats: GenericStatistic[]) => {
         return langStats.reduce((obj: any, stat: GenericStatistic) => {
@@ -318,9 +332,11 @@ export default class Model {
       // map over every lang in db
       const languageStats = languages.map(lang => {
         const totalSecDur =
-          getAverageSecondsPerClip(lang.name) * (allClipsCount[lang.id] || 0)
+          allAverageDurations.find(d => d.name === lang.name).avg_seconds *
+          (allClipsCount[lang.id] || 0)
         const validSecDur =
-          getAverageSecondsPerClip(lang.name) * (validClipsCounts[lang.id] || 0)
+          allAverageDurations.find(d => d.name === lang.name).avg_seconds *
+          (validClipsCounts[lang.id] || 0)
 
         // default to zero if stats not in db
         const currentLangStat = {
@@ -334,7 +350,7 @@ export default class Model {
             currentCount: languageSentenceCountsMap[lang.id],
           },
           locale: lang.name,
-          lastFetched
+          lastFetched,
         }
         delete currentLangStat.name
         delete currentLangStat.is_translated
@@ -351,12 +367,20 @@ export default class Model {
 
   getClipsStats = lazyCache(
     'overall-clips-stats',
-    async (locale: string) =>
-      (await this.db.getClipsStats(locale)).map(stat => ({
+    async (locale: string) => {
+      const clipStats = await this.db.getClipsStats(locale)
+      const allLanguages = await this.getAllLanguages()
+      const localeId = allLanguages.find(l => l.name === locale).id
+      return clipStats.map(async stat => ({
         ...stat,
-        total: Math.round(stat.total * getAverageSecondsPerClip(locale)),
-        valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
-      })),
+        total: Math.round(
+          stat.total * (await this.getAverageSecondsPerClip(localeId))
+        ),
+        valid: Math.round(
+          stat.valid * (await this.getAverageSecondsPerClip(localeId))
+        ),
+      }))
+    },
     DAY / 2
   )
 
