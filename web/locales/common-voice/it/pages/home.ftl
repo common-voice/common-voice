@@ -109,6 +109,7 @@ get-started = Inizia <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Testo in lingua
 coming-soon = Disponibile a breve
 add-text = Aggiungi testo
 
@@ -154,3 +155,5 @@ press-and-stories-link = Sezione stampa e notizie
 ## Partner section
 
 partner-section-title = Diventa nostro partner
+# icon is an arrow that points to the right
+get-in-touch-button = Contattaci <icon></icon>
