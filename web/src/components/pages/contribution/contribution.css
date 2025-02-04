@@ -288,7 +288,7 @@
 
             @media (--md-up) {
                 max-height: 430px;
-                height: 31vh;
+                /* height: 31vh; */
             }
 
             @media (--md-only) {

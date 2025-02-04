@@ -677,6 +677,22 @@ export const PlayOutlineGreenIcon = uniqueIcon(id => (
 
 export const PlayIcon = Icon(require('./icons/play.svg'), 'play')
 
+export const PauseIcon = () => (
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+	 width="800px" height="800px" viewBox="0 0 332.145 332.146">
+<g>
+	<g>
+		<path d="M121.114,0H25.558c-8.017,0-14.517,6.5-14.517,14.515v303.114c0,8.017,6.5,14.517,14.517,14.517h95.556
+			c8.017,0,14.517-6.5,14.517-14.517V14.515C135.631,6.499,129.131,0,121.114,0z M106.6,303.113H40.072V29.031H106.6V303.113z"/>
+		<path d="M306.586,0h-95.541c-8.018,0-14.518,6.5-14.518,14.515v303.114c0,8.017,6.5,14.517,14.518,14.517h95.541
+			c8.016,0,14.518-6.5,14.518-14.517V14.515C321.102,6.499,314.602,0,306.586,0z M292.073,303.113h-66.514V29.031h66.514V303.113z"
+			/>
+	</g>
+</g>
+</svg>
+
+)
+
 export const RedoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>

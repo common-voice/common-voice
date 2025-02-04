@@ -24,7 +24,7 @@ import URLS from '../../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import TermsModal from '../../../terms-modal';
-import { CheckIcon, MicIcon, StopIcon, ReturnKeyIcon } from '../../../ui/icons';
+import { CheckIcon, MicIcon, StopIcon, ReturnKeyIcon, PauseIcon } from '../../../ui/icons';
 import { Button, TextButton, Spinner } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
@@ -721,7 +721,7 @@ class SpeakPage extends React.Component<Props, State> {
                     }
                     elems={{
                       recordIcon: <MicIcon />,
-                      stopIcon: <StopIcon />,
+                      stopIcon: <PauseIcon />,
                     }}
                     {...props}
                   />
