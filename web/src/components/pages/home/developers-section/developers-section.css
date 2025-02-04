@@ -5,7 +5,7 @@
                 rgba(0, 0, 0, 0.4) 0%,
                 rgba(0, 0, 0, 0.9) 100%
             ),
-            url('./assets/background.jpg');
+            url('./assets/background.webp');
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;

@@ -21,7 +21,7 @@ export const sections: Section[] = [
   {
     title: 'join-discord-community',
     content: 'join-discord-community-content',
-    image: require('./assets/discord.jpg'),
+    image: require('./assets/discord.webp'),
     action: () => (
       <LinkButton
         rounded
