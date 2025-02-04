@@ -1005,6 +1005,24 @@ export default class DB {
     )[0][0]
   }
 
+  async getAverageSecondsPerClip(
+    localeId: number
+  ): Promise<{ avg_seconds_per_clip: number }> {
+    const [[row]] = await this.mysql.query(
+      `
+        SELECT AVG(duration)/1000 as avg_seconds_per_clip
+        FROM clips
+        WHERE duration > 0
+        AND locale_id = ?
+      `,
+      [localeId]
+    )
+
+    return {
+      avg_seconds_per_clip: Number(row.avg_seconds_per_clip),
+    }
+  }
+
   async getLanguageSentenceCounts(
     localeId: number
   ): Promise<{ locale_id: number; count: number }> {
