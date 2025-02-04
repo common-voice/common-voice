@@ -27,6 +27,10 @@ jest.mock('../../../../hooks/store-hooks', () => ({
   useAction: () => jest.fn(),
 }))
 
+jest.mock('../../../../services/tracker-ga4', () => ({
+  trackGtag: jest.fn(),
+}))
+
 const bundleUrlTemplate =
   'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz'
 const locale = 'en'

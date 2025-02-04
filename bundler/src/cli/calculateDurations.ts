@@ -4,7 +4,10 @@ import * as TE from 'fp-ts/TaskEither'
 import * as T from 'fp-ts/Task'
 import { query } from '../infrastructure/database'
 import { Readable } from 'node:stream'
-import { streamDownloadFileFromBucket } from '../infrastructure/storage'
+import {
+  getMetadataFromFile,
+  streamDownloadFileFromBucket,
+} from '../infrastructure/storage'
 import { getClipsBucketName } from '../config/config'
 const mp3Duration = require('mp3-duration')
 
@@ -51,7 +54,9 @@ const calculateDurations = async (options: any) => {
     TE.getOrElse(() => T.of(0)),
   )()
   const damagedClips: string[] = []
-  console.log(`There are a total of ${total} of clips without duration. Processing ${MAX} clip(s)`)
+  console.log(
+    `There are a total of ${total} of clips without duration. Processing ${MAX} clip(s)`,
+  )
 
   let progress = 0
   let batch = await nextClips(BATCH_SIZE)
@@ -63,12 +68,22 @@ const calculateDurations = async (options: any) => {
         console.log(`Processing ${audio.path}`)
         let durationMs = 0
         try {
-          const stream = streamDownloadFileFromBucket(getClipsBucketName())(
-            audio.path,
-          )
-          const buffer = await gatherBuffer(stream)
-          durationMs = (await mp3Duration(buffer)) * 1000
-          await updateClipDuration(audio.id, durationMs)()
+          const fileSize = await pipe(
+            getMetadataFromFile(getClipsBucketName())(audio.path),
+            TE.map(metadata => Number(metadata.size)),
+            TE.getOrElse(() => T.of(0)),
+          )()
+
+          if (fileSize <= 256) {
+            damagedClips.push(audio.path)
+          } else {
+            const stream = streamDownloadFileFromBucket(getClipsBucketName())(
+              audio.path,
+            )
+            const buffer = await gatherBuffer(stream)
+            durationMs = (await mp3Duration(buffer)) * 1000
+            await updateClipDuration(audio.id, durationMs)()
+          }
         } catch (err) {
           damagedClips.push(audio.path)
           console.log(err)

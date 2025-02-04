@@ -8,7 +8,7 @@ import { useAction, useSentences } from './store-hooks'
 import { Sentences } from '../stores/sentences'
 import { useLocale } from '../components/locale-helpers'
 import { Notifications } from '../stores/notifications'
-import { trackBulkSubmission } from '../services/tracker'
+import { trackGtag } from '../services/tracker-ga4'
 import { AlertIcon } from '../components/ui/icons'
 
 export type FileInfo = {
@@ -49,6 +49,10 @@ const useBulkSubmissionUpload = () => {
     const [file] = acceptedFiles
 
     setFileRejections(fileRejections)
+
+    if (fileRejections.length === 0) {
+      trackGtag('bulk-submission-file-drop', { locale })
+    }
 
     if (file) {
       setUploadedFile(file)
@@ -114,7 +118,7 @@ const useBulkSubmissionUpload = () => {
             'success'
           )
         )
-        trackBulkSubmission('submit', locale)
+        trackGtag('bulk-submission-upload', { locale })
       } else if (response.status === 429) {
         const retryLimit = Number(response.headers.get('retry-after'))
         handleRateLimitError(retryLimit)

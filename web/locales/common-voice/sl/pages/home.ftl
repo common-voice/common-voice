@@ -85,6 +85,8 @@ read-more-about = Preberite več na naši strani O nas
 
 ## NAV ITEMS
 
+press-and-stories = Novice in zgodbe
+community-and-languages = Skupnost in jeziki
 
 ## MENU ITEMS TOOLTIPS
 
@@ -112,6 +114,9 @@ read-more-about = Preberite več na naši strani O nas
 
 ## Get involved section
 
+press-and-stories-link = Novice in zgodbe
 
 ## Partner section
 
+# Partners section
+our-partners-include = Med našimi partnerji so ...

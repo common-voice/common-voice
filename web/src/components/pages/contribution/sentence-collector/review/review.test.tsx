@@ -147,8 +147,8 @@ describe('Review page', () => {
 
     renderWithProviders(<Review />)
 
-    const yesButton = screen.getByTestId('no-button')
-    fireEvent.click(yesButton)
+    const noButton = screen.getByTestId('no-button')
+    fireEvent.click(noButton)
 
     await waitFor(async () => {
       expect(useActionMock).toHaveBeenCalledWith({
