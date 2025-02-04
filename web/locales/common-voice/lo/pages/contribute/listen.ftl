@@ -26,3 +26,4 @@ review-transcriptions-menu-item-tooltip = ກວດເບິ່ງການຖ�
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = ເມນູຕົວເລືອກການຟັງ
+validate-readings-menu-item-aria-label = ກວດສອບການອ່ານທີ່ສົ່ງໂດຍສະມາຊິກຊຸມຊົນ

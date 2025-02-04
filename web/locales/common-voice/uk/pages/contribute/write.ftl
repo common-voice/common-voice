@@ -169,3 +169,4 @@ transcribe-audio-menu-item-tooltip = Транскрибуйте аудіозап
 write-contribute-menu-aria-label = Меню налаштувань написання
 add-sentences-menu-item-aria-label = Додавайте нові речення для прочитання спільноті
 review-sentences-menu-item-aria-label = Перевіряйте наявні речення, надані спільнотою
+transcribe-audio-menu-item-aria-label = Транскрибувати аудіозаписи в текст

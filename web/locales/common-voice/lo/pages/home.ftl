@@ -98,6 +98,7 @@ partnerships-menu-item-tooltip = ເປັນຄູ່ຮ່ວມງານກ�
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = ກ່ຽວກັບເມນູທາງເລືອກ
 
 ## NEW HOME PAGE KEYS
 

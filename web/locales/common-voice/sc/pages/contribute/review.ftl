@@ -56,6 +56,9 @@ review-error = Faddina durante sa revisione de custa fràsia
 review-error-rate-limit-exceeded = Ses andende tropu a lestru. Piga·ti unu momentu pro revisionare sa fràsia pro t’assegurare chi siat curreta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Semus preparende modìficas mannas
+sc-redirect-page-subtitle-1 =
+    Su regollidore de frases est movende a sa prataforma printzipale de Common Voice.
+    Immoe podes <writeURL>iscrìere</writeURL> una frase o <reviewURL>revisionare</reviewURL> imbios de una frase isceti in Common Voice.
 sc-redirect-page-subtitle-2 = Nos podes fàghere preguntas in <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> e pro mèdiu de <emailLink>posta eletrònica</emailLink>.
 # menu item
 review-sentences = Revisiona fràsias

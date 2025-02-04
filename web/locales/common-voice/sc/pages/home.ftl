@@ -83,24 +83,71 @@ read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de
 
 ## NAV ITEMS
 
+answer-questions-coming-soon = Risponde preguntas <small>(luego)</small>
+review-transcriptions-coming-soon = Revisiona trascritziones <small>(luego)</small>
+add-questions = Agiunghe preguntas <small>(luego)</small>
+transcribe-audio-coming-soon = Trascrie àudio <small>(luego)</small>
+press-and-stories = Istampa e istòrias
+community-and-languages = Comunidade e limbas
+coming-soon = Luego
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Collaboratziones, istampa e istòrias, comunidades e limbas
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Leghe àteru in pitzus de is sòtzios de Common Voice
+press-and-stories-menu-item-aria-label = Atzede a is comunicados de istampa e a istòrias acapiadas a Common Voice
+community-and-languages-menu-item-aria-label = Esplora sa comunidade e is limbas cumpatìbiles cun Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tecnologia chi faeddat sa limba tua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Pro ite s’IA diat dèpere funtzionare isceti pro unas cantas limbas de su mundu?</bold>
+hero-subtitle-2 = Sa limba est s’istòria nostra, sa comunidade nostra, sa cultura nostra. Creemus in paris is pachetes de datos chi bolimus bìdere in su mundu.
+# icon is an arrow that points downwards
+get-started = Cumintza<icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice est una prataforma lìbera e de còdighe abertu pro sa creatzione de datos dae sa comunidade
+action-items-section-subtitle = Chie si siat podet cunservare, rivitalizare e megiorare sa situatzione de sa limba sua cumpartzende, creende e organizende pachetes de datos de testu e de boghe.
+scripted-card-header = Testu iscritu
+scripted-card-content = Leghe fràsias a boghe arta in sa limba tua e contribui a su pachete de datos de boghe cun partetzipatzione pùblica prus diversu de su mundu.
+spontaneous-card-header = Testu ispontàneu
+spontaneous-card-content = Risponde a inditos pro creare pachetes de datos pro cuntestos orgànicos e collochiales. Perfetu pro limbas cun una traditzione orale forte.
+language-text-card-header = Testos in sa limba
+language-text-card-content = Crea o cumpartzi preguntas de domìniu pùblicu, fràsias e testu pro sa tradutzione, modellos piticos de limba e àteru.
+coming-soon = Luego
+add-text = Agiunghe testos
 
 ## Community section
 
+community-section-title = Creadu dae comunidades globales e pro comunidades globales: 130 limbas, e creschende!
+join-discord-community = Intra a sa comunidade Discord
+# label for button
+join-discord-community-action = Agata·nos in Discord
+join-discord-community-content = Piga parte a is discussiones de comunidades linguìsticas, faghe preguntas e impara in pitzus de eventos e cunferèntzias de su benidore.
+find-us-on-matrix = Agata·nos in Matrix
+find-us-on-matrix-content = Matrix est unu protocollu abertu e lèbiu pro sa comunicatzione detzentralizada in tempus reale. Est puru sa prataforma de cuntierra preferida dae Mozilla.
+# label for button
+find-us-on-matrix-action = Agata·nos in Matrix
+ask-mozilla-share = Pregunta a Mozilla chi cumpartzat is eventos tuos
+# label for button
+ask-mozilla-share-action = Cumpartzi un’eventu
+download-contribution-certificate = Iscàrriga·ti su tzertificadu de contributu tuo
+download-contribution-certificate-content = Iscàrriga unu tzertificadu pro is eventos tuos o pro tue etotu, si as partetzipadu a Common Voice: totu custu non diat èssere possìbile sena de tue!
+# label for button
+download-contribution-certificate-action = Otene su tzertificadu
+contribute-github = Contribui a Github
+contribute-github-content = Custu progetu non diat èssere possìbile sena gente comente a tue! 🎉 Nch’at meda maneras de pigare parte a Common Voice: non serbit chi tèngias connoschèntzias de còdighe pro partetzipare!
+# label for button
+contribute-github-action = Contribui a Github
 
 ## Featured section
 
@@ -110,6 +157,9 @@ read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de
 
 ## Get involved section
 
+press-and-stories-link = Istampa e istòrias
 
 ## Partner section
 
+# Partners section
+our-partners-include = Is sòtzios nostros sunt...

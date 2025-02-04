@@ -81,6 +81,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 about-playbook-how-localize-content-1 = Тарҷумаи сомонаи «Common Voice» дар «<strong>Pontoon</strong>» сурат мегирад.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Ҳисоберо эҷод кунед</pontoonAccountLink>, агар надошта бошед. Пас аз ин, забони худро дар бахши «Дастаҳо» <strong>(«Teams»)</strong> интихоб карда, ба лоиҳаи <pontoonCvLink>«Common Voice»</pontoonCvLink> гузаред. Дар он ҷой шумо файлҳоро барои тарҷума пайдо мекунед. Вақте ки шумо ба яке аз файлҳо зер мекунед, калимаҳо бо забони англисӣ ва дар зери онҳо қуттии махсус барои вори кардани тарҷумаи тоҷикӣ нишон дода мешавад.
 about-playbook-how-localize-content-4 = Сомона барои оғози кор омода мешавад, вақте ки ҳаҷми тарҷумаи он ба 75 дарсад мерасад.
 about-playbook-how-localize-content-5 = Барои кумак видеои шарҳдиҳандаи моро бинед
 
