@@ -45,18 +45,19 @@ const nextClips = async (count: number) =>
   )()
 
 const calculateDurations = async (options: any) => {
+  const MAX = options.total || 1000
   const total = await pipe(
     findTotalClipsCountWithoutDuration,
     TE.getOrElse(() => T.of(0)),
   )()
   const damagedClips: string[] = []
-  console.log(`Processing ${total} clip(s)`)
+  console.log(`There are a total of ${total} of clips without duration. Processing ${MAX} clip(s)`)
 
   let progress = 0
   let batch = await nextClips(BATCH_SIZE)
 
   while (batch.length > 0) {
-    if (total === progress || options.total === progress) break
+    if (progress >= total || progress >= options.total) break
     await Promise.all(
       batch.map(async audio => {
         console.log(`Processing ${audio.path}`)
@@ -80,7 +81,7 @@ const calculateDurations = async (options: any) => {
       }),
     )
     progress += batch.length
-    console.log(`Progress: ${progress}/${total}`)
+    console.log(`Progress: ${progress}/${MAX}`)
     batch = await nextClips(BATCH_SIZE)
 
     await sleep(1000)
