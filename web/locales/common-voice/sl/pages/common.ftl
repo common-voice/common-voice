@@ -162,6 +162,7 @@ vot = votščina
 wep = vestfalščina
 wes = kamerunski pidžin
 wo = volofščina
+xh = kojsanščina
 yi = jidiš
 yo = jorubščina
 yue = kantonščina
