@@ -23,6 +23,7 @@ web/cypress.env.json
 .cache
 .yarn
 .config
+.env
 
 # Nubis
 nubis/librarian-puppet.tar.gz
