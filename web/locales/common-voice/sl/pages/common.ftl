@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = afarščina
 ab = abhaščina
 ace = ačinščina
 ady = adigejščina
@@ -51,9 +52,11 @@ fy-NL = frizijščina
 ga-IE = irščina
 gl = galicijščina
 gn = gvaranijščina
+gu-IN = gudžaratščina
 ha = havščina
 he = hebrejščina
 hi = hindujščina
+hil = hiligajnonščina
 hr = hrvaščina
 hsb = gornja lužiška srbščina
 ht = haitščina
@@ -68,6 +71,7 @@ is = islandščina
 it = italijanščina
 izh = ingrijščina
 ja = japonščina
+jv = javanščina
 ka = gruzinščina
 kaa = karakalpaščina
 kab = kabilščina
@@ -75,6 +79,8 @@ kbd = kabardščina
 ki = kikujščina
 kk = kazaščina
 km = kmerščina
+kmr = kurdščina kurmandži
+kn = kanareščina
 knn = konkanščina (devangarska pisava)
 ko = korejščina
 kpv = komijščina
@@ -83,7 +89,10 @@ ky = kirgiščina
 lb = luksemburščina
 lg = lugandščina
 lij = ligurščina
+ln = lingalščina
+lo = laoščina
 lt = litovščina
+ltg = latgalijščina
 lv = latvijščina
 mai = maithilščina
 mdf = mokša
@@ -105,7 +114,9 @@ nl = nizozemščina
 nn-NO = norveščina (nynorsk)
 oc = okcitanščina
 or = odijščina
+os = osetinščina
 pa-IN = pandžabščina
+pap-AW = papiamento (Aruba)
 pl = poljščina
 ps = paštunščina
 pt = portugalščina
@@ -117,6 +128,7 @@ rw = ruandščina
 sah = jakutščina
 sc = sardinščina
 scn = sicilijanščina
+sdh = južna kurdščina
 si = singalščina
 sk = slovaščina
 sl = slovenščina
@@ -137,6 +149,7 @@ tr = turščina
 tt = tatarščina
 tw = tvijščina
 ty = tahitščina
+tyv = tuvanščina
 uby = ubiščina
 udm = udmurtščina
 ug = ujgurščina
@@ -146,12 +159,16 @@ uz = uzbeščina
 vec = beneščina
 vi = vietnamščina
 vot = votščina
+wep = vestfalščina
+wes = kamerunski pidžin
+wo = volofščina
 yi = jidiš
 yo = jorubščina
 yue = kantonščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
+zu = zulujščina
 
 # [/]
 
@@ -165,12 +182,14 @@ privacy = Zasebnost
 terms = Pogoji
 cookies = Piškotki
 faq = Pogosta vprašanja
+documentation = Dokumentacija
 content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
 share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 link-copied = Povezava kopirana
 back-top = Nazaj na vrh
 logout = Odjava
+donate = Donirajte
 stayintouch = Pri Mozilli gradimo skupnost okrog glasovne tehnologije. Z vami bi radi ostali v stiku za obveščanje o novostih, novih virih podatkov in izvedeli več o tem, kako podatke uporabljate.
 privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
 return-to-cv = Nazaj na Common Voice
@@ -186,3 +205,5 @@ not-available-abbreviation = Ni na voljo
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Potrebujemo</mark><br/><mark>vašo pomoč!</mark>
