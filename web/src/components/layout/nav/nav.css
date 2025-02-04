@@ -3,7 +3,7 @@
 .header-wrapper {
     position: sticky;
     top: 0;
-    z-index: var(--override-z-index);
+    z-index: var(--header-z-index);
     background-color: var(--white);
     box-shadow: var(--cv-box-shadow);
 
