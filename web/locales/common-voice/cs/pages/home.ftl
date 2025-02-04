@@ -106,9 +106,16 @@ community-and-languages-menu-item-aria-label = Prozkoumejte komunitu a jazyky po
 ## Hero section
 
 hero-title = Technologie, která mluví vaším jazykem
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Proč by měla umělá inteligence fungovat jen v několika málo světových jazycích?</bold>
+hero-subtitle-2 = Náš jazyk je náš příběh, naše komunita, naše kultura. Pojďme si vytvořit datasety, které chceme vidět na světě.
+# icon is an arrow that points downwards
+get-started = Začněte <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice je bezplatná platforma s otevřeným zdrojovým kódem pro komunitní tvorbu dat
+spontaneous-card-header = Spontánní řeč
 coming-soon = Již brzy
 add-text = Přidat text
 
@@ -117,9 +124,13 @@ add-text = Přidat text
 join-discord-community = Připojte se ke komunitě Discord
 # label for button
 join-discord-community-action = Přidejte si nás na Discordu
+find-us-on-matrix = Najdete nás na Matrixu
 # label for button
 find-us-on-matrix-action = Najdete nás na Matrixu
 ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
+# label for button
+download-contribution-certificate-action = Získejte svůj certifikát
+contribute-github = Přispívejte na GitHubu
 
 ## Featured section
 
@@ -129,6 +140,9 @@ ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
 
 ## Get involved section
 
+read-sentences-link = Čtení vět
+answer-questions-link = Odpovídání na otázky
 
 ## Partner section
 
+partner-section-title = Staňte se našimi partnery

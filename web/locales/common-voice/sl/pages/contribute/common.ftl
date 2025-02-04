@@ -30,9 +30,13 @@ target-segment-generic-card = Prispevate v ciljni segment
 target-segment-first-banner = Pomagajte ustvariti prvi ciljni segment Common Voice v jeziku { $locale }
 target-segment-add-voice = Dodajte svoj glas
 target-segment-learn-more = Več o tem
-
-## Contribution Nav Items
-
+change-preferences = Spremeni nastavitve
+login-signup = Prijava / Registracija
+vote-yes = Da
+vote-no = Ne
+datasets = Nabori podatkov
+languages = Jeziki
+about = O nas
 
 ## Reporting
 

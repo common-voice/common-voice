@@ -29,7 +29,7 @@ const config: Config = {
         port: Number(process.env.DB_PORT) || 3306,
         database: process.env.DB_DATABASE || 'voiceweb',
         user: process.env.DB_USER || 'voicecommons',
-        password: process.env.DB_PASSWORD || 'voicecommns',
+        password: process.env.DB_PASSWORD || 'voicecommons',
     },
     clipsBucketName: process.env.CLIPS_BUCKET_NAME || 'common-voice-clips' ,
     datasetBundlerBucketName: process.env.DATASETS_BUNDLER_BUCKET_NAME || 'common-voice-bundler',

@@ -19,7 +19,7 @@ import StateTree from '../../../../stores/tree'
 import { Uploads } from '../../../../stores/uploads'
 import { User } from '../../../../stores/user'
 import API from '../../../../services/api'
-import { trackRecording, getTrackClass } from '../../../../services/tracker'
+import { getTrackClass } from '../../../../services/tracker'
 import URLS from '../../../../urls'
 import { localeConnector, LocalePropsFromState } from '../../../locale-helpers'
 import Modal, { ModalButtons } from '../../../modal/modal'
@@ -40,6 +40,7 @@ import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
 import { castTrueString } from '../../../../utility'
+import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
 
@@ -209,13 +210,13 @@ class SpeakPage extends React.Component<Props, State> {
       reRecordIndex = 4
     } else if (event.key === 'Esc' || event.key === 'Escape') {
       if (this.isRecording) {
-        trackRecording('discard-ongoing', this.props.locale)
+        trackGtag('discard-ongoing', { locale: this.props.locale })
         await this.discardRecording()
       }
     }
 
     if (reRecordIndex !== null) {
-      trackRecording('rerecord', this.props.locale)
+      trackGtag('rerecord-clip', { locale: this.props.locale })
       await this.discardRecording()
       this.setState({
         rerecordIndex: reRecordIndex,
@@ -256,7 +257,7 @@ class SpeakPage extends React.Component<Props, State> {
       }
     })
 
-    trackRecording('record', this.props.locale)
+    trackGtag('record-clip', { locale: this.props.locale })
   }
 
   private getRecordingError = (): RecordingError => {
@@ -287,7 +288,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   private rerecord = async (i: number) => {
-    trackRecording('rerecord', this.props.locale)
+    trackGtag('rerecord-clip', { locale: this.props.locale })
     await this.discardRecording()
 
     this.setState({
@@ -368,6 +369,7 @@ class SpeakPage extends React.Component<Props, State> {
     const id = this.state.clips[current]?.sentence?.id
     api.skipSentence(id)
     removeSentences([id])
+    trackGtag('skip-sentence', { locale: this.props.locale })
     this.setState(({ clips }) => {
       const newClips = [...clips]
       newClips[current] = { recording: null, sentence: null }
@@ -477,7 +479,7 @@ class SpeakPage extends React.Component<Props, State> {
         }
       }),
       async () => {
-        trackRecording('submit', locale)
+        trackGtag('submit-clips', { locale })
         refreshUser()
         addNotification(
           <>
@@ -785,6 +787,7 @@ class SpeakPage extends React.Component<Props, State> {
                 recordingIndex == -1 || !clips[recordingIndex].sentence
                   ? null
                   : clips[recordingIndex].sentence.id,
+              locale,
             }}
             sentences={clips.map(({ sentence }) => sentence)}
             shortcuts={[

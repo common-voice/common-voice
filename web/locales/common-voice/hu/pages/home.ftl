@@ -94,6 +94,7 @@ transcribe-audio-coming-soon = Hangok leiratozása <small>(hamarosan)</small>
 transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
 community-and-languages = Közösség és nyelvek
+coming-soon = Hamarosan
 
 ## MENU ITEMS TOOLTIPS
 
@@ -124,9 +125,38 @@ get-started = Kezdő lépések <icon><icon>
 ## Action items section
 
 action-items-section-title = A Common Voice egy szabad, nyílt forráskódú platform a közösség által vezetett adatelőállításhoz
+action-items-section-subtitle = Bárki megőrizheti, újjáélesztheti és kiemelheti nyelvét a szöveg- és beszédadatkészletek megosztásával, létrehozásával és kiválogatásával.
+scripted-card-header = Előre megírt beszéd
+scripted-card-content = Olvasson fel hangosan mondatokat az Ön nyelvén, és működjön közre a világ legsokszínűbb nyilvános részvételű beszédadatkészletéhez.
+spontaneous-card-header = Spontán beszéd
+spontaneous-card-content = Válaszoljon kérdésekre, hogy természetes, köznyelvi adatkészleteket készítsen. Tökéletes az elsősorban beszédhez használt nyelvekhez.
+language-text-card-header = Nyelvi szöveg
+language-text-card-content = Hozzon létre vagy osszon meg közkincsű kérdéseket és mondatokat, valamint fordításhoz, kis nyelvi modellekhez és egyebekhez használható szövegeket.
+coming-soon = Hamarosan
+add-text = Szöveg hozzáadása
 
 ## Community section
 
+community-section-title = Globális közösségekkel, a globális közösségekért – 130 nyelv és egyre csak bővül!
+join-discord-community = Csatlakozzon a Discord közösséghez
+# label for button
+join-discord-community-action = Csatlakozz hozzánk Discordon
+join-discord-community-content = Vegyen részt nyelvi közösségi beszélgetésekben, kérdezzen, és értesüljön a közelgő eseményekről és előadásokról.
+find-us-on-matrix = Keressen meg minket a Matrixon
+# label for button
+find-us-on-matrix-action = Keressen meg minket a Matrixon
+ask-mozilla-share = Kérje meg a Mozillát, hogy ossza meg az eseményeit
+ask-mozilla-share-content = Van egy korábbi vagy egy közelgő eseménye? Ossza meg velünk, és bejelentjük a közösségünk számára, vagy írunk róla a blogon!
+# label for button
+ask-mozilla-share-action = Esemény megosztása
+download-contribution-certificate = Közreműködési igazolás letöltése
+download-contribution-certificate-content = Töltsön le egy tanúsítványt az eseményeiről, vagy a saját közreműködéséről a Common Voice-ban – ez Ön nélkül nem lenne lehetséges!
+# label for button
+download-contribution-certificate-action = Tanúsítvány letöltése
+contribute-github = Közreműködés a GitHubon
+contribute-github-content = Ez a projekt nem jöhetne létre az Önhöz hasonló emberek nélkül. 🎉 Sok módja van annak, hogy bekapcsolódjon a Common Voice-ba – nem szükséges kódolási tudás a közreműködéshez!
+# label for button
+contribute-github-action = Közreműködés a GitHubon
 
 ## Featured section
 

@@ -264,6 +264,7 @@ privacy = Privacy
 terms = Condizioni
 cookies = Cookie
 faq = FAQ
+documentation = Documentazione
 content-license-text = Contenuto disponibile sotto <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Aiutaci a trovare altri donatori di voce!
 share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vita reale, dona la tua voce su { $link }

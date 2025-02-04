@@ -5,6 +5,7 @@ import { useAPI } from '../../../../hooks/store-hooks';
 import Modal, { ModalProps } from '../../../modal/modal';
 import { ArrowLeft } from '../../../ui/icons';
 import { Button, Checkbox } from '../../../ui/ui';
+import { trackGtag } from '../../../../services/tracker-ga4';
 
 import './report.css';
 
@@ -13,6 +14,7 @@ export interface ReportModalProps extends ModalProps, WithLocalizationProps {
   id: string;
   reasons: string[];
   onSubmitted: () => any;
+  locale: string
 }
 
 const CheckboxRow = ({ children, title, ...props }: any) => (
@@ -32,6 +34,7 @@ export const ReportModal = withLocalization(({
   id,
   reasons,
   onSubmitted,
+  locale,
   ...props
 }: ReportModalProps) => {
   const { getString } = props;
@@ -118,6 +121,7 @@ export const ReportModal = withLocalization(({
               .concat(otherText || []),
           });
           setSubmitStatus('submitted');
+          trackGtag(`report-${kind}`, { locale })
           onSubmitted();
         }}>
         <Localized id="report">

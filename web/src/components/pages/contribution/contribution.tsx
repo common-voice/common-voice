@@ -238,6 +238,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       shouldShowSecondCTA,
       user,
       demoMode,
+      locale
     } = this.props;
     const { showReportModal, showShareModal, showShortcutsModal } = this.state;
 
@@ -272,6 +273,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           <ReportModal
             onRequestClose={() => this.setState({ showReportModal: false })}
             onSubmitted={onSkip}
+            locale={locale}
             {...reportModalProps}
           />
         )}

@@ -1,5 +1,7 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = ჩილათა
 action-click = ქიგუკაკეთ
 action-tap = ქიგუნჭირით
 # Label for language switcher
@@ -23,8 +25,8 @@ contribute = წილიშ მიშაღალა
 
 ## Navbar
 
-respond-to-prompt = ქუპასუხით მოთხუალას
-transcribe-audio = აუდიოშ ნაჭარათ მოჩამა
+respond-to-prompt = ქუგამით მოთხუალას
+transcribe-audio = აუდიოში ნაჭარათ მოჩამა
 check-transcriptions = ნაჭარაშ გინოჯინა
 
 ## Not Found Page
@@ -43,6 +45,7 @@ hch = ვიქსარიკა
 kzi = კელაბიტი
 mbf = ბაბა-მალაური
 meh = თეონურ-დალური ტლახიაკის მისტეკური
+mel = ცენტრალური მელანაუ
 mmc = მიჩოაკან-მაზაჰუა
 ms-MY = ბაჰასა-მალაური
 msi = საბაჰ-მალაური

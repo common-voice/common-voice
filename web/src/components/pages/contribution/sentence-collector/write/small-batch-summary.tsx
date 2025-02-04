@@ -29,7 +29,13 @@ export const SmallBatchSummary = ({ smallBatchResponse }: Props) => {
         totalSentences: totalCount,
       }}
       elems={{
-        downloadLink: <a href={href} download="rejected-sentences.tsv" />,
+        downloadLink: (
+          <a
+            href={href}
+            download="rejected-sentences.tsv"
+            data-testid="rejected-sentences-link"
+          />
+        ),
       }}>
       <p />
     </Localized>

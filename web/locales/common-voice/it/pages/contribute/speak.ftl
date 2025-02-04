@@ -62,6 +62,8 @@ create-profile-button = Crea un profilo
 img-alt-success-checkmark = spunta di successo
 # menu item
 read-sentences = Leggi frasi
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Leggi frasi <small>(disponibile a breve)</small>
 
 ## MENU ITEM TOOLTIPS
 
