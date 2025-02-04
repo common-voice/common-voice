@@ -1,3 +1,6 @@
+speak = Snakk
+speak-now = Snakk nå
+speak-subtitle = Bidra med din stemme
 record-cta = Start opptak
 record-platform-not-supported = Vi beklager, plattformen din støttes ikke for øyeblikket.
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
@@ -57,9 +60,19 @@ already-have-an-account = Har du allerede en konto? <login>Logg på</login>
 create-profile-button = Opprett en profil
 # IMAGE TAGS
 img-alt-success-checkmark = hake for godkjenning
+# menu item
+read-sentences = Les setninger
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Les setninger <small>(kommer snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Les setninger, svar på spørsmål
+read-sentences-menu-item-tooltip = Ta opp deg selv som leser setninger på språket ditt
+answer-questions-menu-item-tooltip = Ta opp deg selv når du svarer på spørsmål og forespørsler på ditt språk
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Les alternativmeny
+read-sentences-menu-item-aria-label = Les setninger sendt inn av fellesskapet på forskjellige språk
+answer-questions-menu-item-aria-label = Send inn et nytt spørsmål som fellesskapet kan lese og svare på

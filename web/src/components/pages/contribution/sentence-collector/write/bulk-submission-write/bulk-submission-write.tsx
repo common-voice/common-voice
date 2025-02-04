@@ -15,8 +15,7 @@ import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
 import { useAccount } from '../../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../../stores/sentences'
-import { useLocale } from '../../../../../locale-helpers'
-import { trackBulkSubmission } from '../../../../../../services/tracker'
+import { trackGtag } from '../../../../../../services/tracker-ga4'
 
 import './bulk-submission-write.css'
 
@@ -24,7 +23,6 @@ const MAX_FILE_SIZE = 1024 * 1024 * 25
 
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
-  const [locale] = useLocale()
   const account = useAccount()
 
   React.useEffect(() => {
@@ -56,11 +54,9 @@ const BulkSubmissionWrite = () => {
   })
 
   const handleToggle = (evt: React.SyntheticEvent<HTMLDetailsElement>) => {
-    if (evt.currentTarget.open) {
-      trackBulkSubmission('expandable-information-click-open', locale)
-    } else {
-      trackBulkSubmission('expandable-information-click-close', locale)
-    }
+    trackGtag('what-needs-to-be-in-file-toggle', {
+      isOpen: evt.currentTarget.open,
+    })
   }
 
   return (

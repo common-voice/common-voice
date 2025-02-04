@@ -145,6 +145,7 @@ download-press-pack = Бастаи матбуоти моро боргирӣ на
 
 ## Developers section
 
+developers-section-title = Маҷмуъҳои маълумоти овозӣ дар зиёда аз 130 забон дар манбаи ҷамъиятии дастрас
 # icon is an arrow that points to the right
 explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 

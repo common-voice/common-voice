@@ -79,33 +79,115 @@ read-more-about = Les mer på vår "Om" side
 
 ## NAV ITEMS
 
+answer-questions = Besvar spørsmålene
+answer-questions-coming-soon = Besvar spørsmål <small>(kommer snart)</small>
+review-transcriptions = Gjennomgå transkripsjoner
+review-transcriptions-coming-soon = Gjennomgå transkripsjoner <small>(kommer snart)</small>
+add-questions = Legg til spørsmål <small>(kommer snart)</small>
+transcribe-audio-coming-soon = Transkriber lyd <small>(kommer snart)</small>
+transcribe-audio = Transkribere lyd
+press-and-stories = Presse
+community-and-languages = Fellesskap og språk
+coming-soon = Kommer snart…
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerskap, presse, fellesskap og språk
+partnerships-menu-item-tooltip = Bli partner med oss
+press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
+community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Om alternativmeny
+partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
+press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
+community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Teknologi som snakker ditt språk
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Hvorfor skal kunstig intelligens bare fungere for noen få av verdens språk?</bold>
+hero-subtitle-2 = Vårt språk er vår historie, vårt fellesskap, vår kultur. La oss lage de datasettene vi ønsker.
+# icon is an arrow that points downwards
+get-started = Kom i gang <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice er en gratis, åpen kildekode-plattform for fellesskapsledet datagenerering
+action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbedre tekst- og taledatasett.
+scripted-card-header = Opplest tekst
+scripted-card-content = Les setninger høyt på språket ditt og bidra til det mest mangfoldige taledatasettet i verden.
+spontaneous-card-header = Spontan tale
+spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske, dagligdagse kontekster. Perfekt for muntlig førstespråk.
+language-text-card-header = Tekstspråk
+language-text-card-content = Opprett eller del forespørsler, setninger og tekst i det offentlige domene for oversettelse, små språkmodeller og mer.
+coming-soon = Kommer snart…
+add-text = Legg til tekst
 
 ## Community section
 
+community-section-title = Drevet av globale samfunn, for globale samfunn - mer enn 130 språk!
+join-discord-community = Bli med i Discord-fellesskapet
+# label for button
+join-discord-community-action = Bli med oss på Discord
+join-discord-community-content = Delta i språkdiskusjoner, still spørsmål og lær om kommende arrangementer og foredrag.
+find-us-on-matrix = Finn oss på Matrix
+find-us-on-matrix-content = Matrix er en åpen, lett protokoll for desentralisert sanntidskommunikasjon og Mozillas foretrukne åpne diskusjonsplattform.
+# label for button
+find-us-on-matrix-action = Finn oss på Matrix
+ask-mozilla-share = Be Mozilla om å dele hendelsene dine
+ask-mozilla-share-content = Har du et tidligere eller kommende arrangement? Del det med oss, så kunngjør vi det til fellesskapet vårt eller skriver en blogg om det!
+# label for button
+ask-mozilla-share-action = Del arrangementet ditt
+download-contribution-certificate = Last ned bidragsbeviset ditt
+download-contribution-certificate-content = Last ned et sertifikat for arrangementene dine eller ditt eget hvis du har bidratt til Common Voice — dette ville ikke vært mulig uten deg!
+# label for button
+download-contribution-certificate-action = Få sertifikatet ditt
+contribute-github = Bidra på GitHub
+contribute-github-content = Dette prosjektet ville ikke vært mulig uten folk som deg. 🎉 Det er mange måter å engasjere seg med Common Voice - du trenger ikke å kunne kode for å bidra!
+# label for button
+contribute-github-action = Bidra på GitHub
 
 ## Featured section
 
+featured-section-title = Utvalgt i...
+# icon is an arrow that points downwards
+download-press-pack = Last ned vår pressepakke <icon></icon>
 
 ## Developers section
 
+developers-section-title = Offentlig tilgjengelige åpne taledatasett på 130+ språk
+developers-section-subtitle = Datasett for automatisk talegjenkjenning (ASR), tale-til-tekst (STT), tekst-til-tale (TTS) og andre innen naturlig språkbehandling (NLP) – opprettet gjennom samfunnsdeltakelse.
+# icon is an arrow that points to the right
+explore-datasets = Utforsk datasett <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Støtt åpne, fellesskapsledede datasett
+read-sentences-link = Les setninger
+validate-readings-link = Validere innlesninger
+contribute-link = Bidra til tekstkorpus
+answer-questions-link = Besvar spørsmål
+transcribe-answers-link = Transkribere svar
+review-transcriptions-link = Gjennomgå transkripsjoner
+contribute-text-link = Bidra med tekst
+press-and-stories-link = Presse
 
 ## Partner section
 
+partner-section-title = Bli partner med oss
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Teknologiske selskaper</bold> - invester i opprettelse av åpne datasett for et blomstrende flerspråklig AI-økosystem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sivilsamfunn og forskere</bold> – lag og del effektive gratis datasett
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> – støtt  opprettelse av datasett for å stimulere lokal innovasjon og utvikling
+# icon is an arrow that points to the right
+get-in-touch-button = Ta kontakt <icon></icon>
+# Partners section
+our-partners-include = Våre samarbeidspartnere inkluderer...

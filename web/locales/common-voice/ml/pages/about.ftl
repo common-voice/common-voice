@@ -37,6 +37,7 @@ about-nav-get-involved = പങ്കെടുക്കുക
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = താൾ വിവൎത്തനം
 about-playbook-how-add-language-collecting-sentences-heading = വാക്ക്യങ്ങളെ പിരിക്കുന്നതു്
 
 ## How does localization work
@@ -44,12 +45,15 @@ about-playbook-how-add-language-collecting-sentences-heading = വാക്ക�
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = വാക്യങ്ങൾ എങ്ങനെയാണു് ചേൎക്കുന്നതു്?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = പരിപാടികൾ
+about-playbook-how-grow-language-content-4 = സാമൂഹികമാധ്യമം
 
 ## How to validate
 

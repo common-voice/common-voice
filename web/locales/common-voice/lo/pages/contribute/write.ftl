@@ -5,6 +5,8 @@ write-instruction = ເພີ່ມ <icon></icon> ປະໂຫຍກໂດເມ
 write-page-subtitle = ປະໂຫຍກທີ່ປະກອບສ່ວນຢູ່ທີ່ນີ້ຈະຖືກເພີ່ມໃສ່ຊຸດຂໍ້ມູນທີ່ມີໃບອະນຸຍາດ cc-0 ທີ່ມີໃຫ້ສາທາລະນະ.
 sentence =
     .label = ປະໂຫຍກ
+sentence-input-placeholder = ໃສ່ປະໂຫຍກສາທາລະນະຂອງທ່ານທີ່ນີ້
+small-batch-sentence-input-placeholder = ໃສ່ປະໂຫຍກສາທາລະນະຂອງທ່ານທີ່ນີ້
 citation-input-placeholder = ອ້າງ​ອີງ​ເຖິງ​ແຫຼ່ງ​ຂອງ​ປະ​ໂຫຍກ​ຂອງ​ທ່ານ (ຕ້ອງ​ການ​)
 citation =
     .label = ການອ້າງອີງ
@@ -29,6 +31,8 @@ required-field = ກະລຸນາປ້ອນຂໍ້ມູນໃສ່ໃນ
 single-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກດຽວ
 bulk-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກຈໍານວນຫລາຍ
 single-sentence = ປະໂຫຍກດຽວ
+small-batch-sentence = ຊຸດນ້ອຍ
+bulk-sentence = ຊຸດໃຫຍ່
 sentence-domain-combobox-label = ໂດເມນປະໂຫຍກ
 sentence-domain-select-placeholder = ເລືອກສູງສຸດສາມໂດເມນ (ເລືອກໄດ້)
 # Sentence Domain dropdown option
@@ -90,11 +94,14 @@ too-many-files = ໄຟລ໌ຫຼາຍເກີນໄປ
 
 ## SMALL BATCH SUBMISSION
 
+exceeds-small-batch-limit-error = ບໍ່ສາມາດສົ່ງຫຼາຍກວ່າ 1000 ປະໂຫຍກ
 # menu item
 add-sentences = ເພີ່ມປະໂຫຍກ
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = ເພີ່ມປະໂຫຍກໃນພາສາຂອງທ່ານ
+review-sentences-menu-item-tooltip = ທົບທວນປະໂຫຍກໃນພາສາຂອງທ່ານ
 
 ## MENU ITEM ARIA LABELS
 

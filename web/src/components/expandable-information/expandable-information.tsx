@@ -1,19 +1,19 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
-import { ChevronDown } from '../ui/icons';
+import { ChevronDown } from '../ui/icons'
 
-import './expandable-information.css';
+import './expandable-information.css'
 
 interface Props {
-  summaryLocalizedId: string;
-  children: React.ReactNode;
-  icon?: JSX.Element;
-  hideBorder?: boolean;
-  justifyCenter?: boolean;
-  onToggle?: (evt: React.SyntheticEvent<HTMLDetailsElement>) => void;
-  dataTestId?: string;
+  summaryLocalizedId: string
+  children: React.ReactNode
+  icon?: JSX.Element
+  hideBorder?: boolean
+  justifyCenter?: boolean
+  onToggle?: (evt: React.SyntheticEvent<HTMLDetailsElement>) => void
+  dataTestId?: string
 }
 
 const ExpandableInformation = ({
@@ -45,7 +45,7 @@ const ExpandableInformation = ({
       </summary>
       <div className="expandable-information__text">{children}</div>
     </details>
-  );
-};
+  )
+}
 
-export default ExpandableInformation;
+export default ExpandableInformation

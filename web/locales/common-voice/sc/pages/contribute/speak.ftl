@@ -41,6 +41,7 @@ terms-agree = So de acordu
 terms-disagree = Non so de acordu
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Gràtzias de àere donadu is registratziones de boghe tuas!
+first-cta-subtitle-text = Contende·nos de tene, agiudas a s’iscuadra de isvilupu a fraigare tecnologia prus inclusiva
 why-donate = Pro ite mi ddu ses preguntende?
 add-information-button = Agiunghe informatziones
 continue-speaking-button = No gràtzias, sighi a chistionare
@@ -58,11 +59,14 @@ create-profile-button = Crea unu profilu
 img-alt-success-checkmark = sinnu de sutzessu
 # menu item
 read-sentences = Leghe fràsias
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Leghe fràsias  <small>(luego)</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Leghe fràsias, risponde preguntas
 read-sentences-menu-item-tooltip = Registra·ti leghende fràsias in sa limba tua
+answer-questions-menu-item-tooltip = Registra·ti rispondende a preguntas e inditos in sa limba tua
 
 ## MENU ITEM ARIA LABELS
 

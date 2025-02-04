@@ -14,6 +14,8 @@ listen-abort-cancel = Continua la convalida
 listen-abort-confirm = Termina la convalida
 # Menu item
 validate-readings = Convalida letture
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Convalida letture <small>(disponibile a breve)</small>
 
 ## MENU ITEM TOOLTIPS
 

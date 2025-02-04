@@ -17,6 +17,7 @@ contribute-more =
        *[other] Klar til å gjøre { $count } til?
     }
 speak-empty-state = Vi har gått tom for setninger å spille inn på dette språket…
+no-sentences-for-variants = Språkvarianten din kan være tom for setninger! Hvis du er ønsker kan du endre innstillingene dine for å se andre setninger på språket ditt.
 speak-empty-state-cta = Bidra med setninger
 speak-loading-error =
     Vi klarte ikke å laste noen setninger du kan lese.
@@ -30,11 +31,15 @@ target-segment-generic-card = Du bidrar til et målsegment
 target-segment-first-banner = Hjelp med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemmen din
 target-segment-learn-more = Les mer
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Tale-klipp innsamling
-contribute-sentence-collection-nav-header = Setningsinnsamling
+change-preferences = Endre innstillinger
+login-signup = Logg inn / registrer deg
+vote-yes = Ja
+vote-no = Nei
+datasets = Datasett
+languages = Språk
+about = Om
+partner = Partner
+submit-form-action = Send
 
 ## Reporting
 
