@@ -29,7 +29,7 @@ export const DevelopersSection = () => {
             </LinkButton>
           </div>
           <div className="image-container">
-            <img src={Table} alt="" width={570} />
+            <img src={Table} alt="" width={570} loading="lazy" />
           </div>
         </div>
       </div>
