@@ -27,7 +27,7 @@ import ReviewShortcutsModal from './review-shortcuts-modal'
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import useReview from './use-review'
 import { useLocale } from '../../../../locale-helpers'
-import { trackSingleReview } from '../../../../../services/tracker'
+import { trackGtag } from '../../../../../services/tracker-ga4'
 
 import URLS from '../../../../../urls'
 
@@ -66,11 +66,11 @@ const Review: React.FC<Props> = ({ getString }) => {
 
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)
+    trackGtag('show-shortcuts-btn-click')
   }
 
   const handleReportButtonClick = () => {
     setShowReportModal(true)
-    trackSingleReview('report-button-click', currentLocale)
   }
 
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
@@ -152,6 +152,7 @@ const Review: React.FC<Props> = ({ getString }) => {
         <ReportModal
           onRequestClose={() => setShowReportModal(false)}
           onSubmitted={handleSkip}
+          locale={currentLocale}
           {...reportModalProps}
         />
       )}
@@ -227,7 +228,8 @@ const Review: React.FC<Props> = ({ getString }) => {
               rounded
               outline
               className="hidden-md-down shortcuts-button"
-              onClick={handleToggleShortcutsModal}>
+              onClick={handleToggleShortcutsModal}
+              data-testid="shortcuts-button">
               <KeyboardIcon />
             </Button>
           </Tooltip>

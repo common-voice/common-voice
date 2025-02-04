@@ -61,6 +61,7 @@ export const SinglewriteRules = ({
                     href="https://en.wikipedia.org/wiki/Public_domain"
                     target="_blank"
                     rel="noreferrer"
+                    data-testid="public-domain-link"
                   />
                 ),
                 cc0: (
@@ -68,6 +69,7 @@ export const SinglewriteRules = ({
                     href="https://creativecommons.org/share-your-work/public-domain/cc0/"
                     target="_blank"
                     rel="noreferrer"
+                    data-testid="cc0-link"
                   />
                 ),
               }}>
