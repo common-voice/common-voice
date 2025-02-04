@@ -32,9 +32,9 @@ const updateClipDurationQuery = `
 const updateClipDuration = (id: number, duration: number) =>
   pipe(query(updateClipDurationQuery, [duration, id]))
 
-const calculateDurations = async (args: any, options: any) => {
-  const clips = await pipe(
-    findClipsWithoutDuration(BATCH_SIZE),
+const nextClips = async (count: number) =>
+  pipe(
+    findClipsWithoutDuration(count),
     TE.match(
       err => {
         console.log(err)
@@ -44,6 +44,7 @@ const calculateDurations = async (args: any, options: any) => {
     ),
   )()
 
+const calculateDurations = async (options: any) => {
   const total = await pipe(
     findTotalClipsCountWithoutDuration,
     TE.getOrElse(() => T.of(0)),
@@ -51,12 +52,11 @@ const calculateDurations = async (args: any, options: any) => {
   const damagedClips: string[] = []
   console.log(`Processing ${total} clip(s)`)
 
-  let start = 0
-  let end = BATCH_SIZE
   let progress = 0
-  let batch = clips.slice(start, end)
+  let batch = await nextClips(BATCH_SIZE)
 
   while (batch.length > 0) {
+    if (total === progress || options.total === progress) break
     await Promise.all(
       batch.map(async audio => {
         console.log(`Processing ${audio.path}`)
@@ -81,9 +81,7 @@ const calculateDurations = async (args: any, options: any) => {
     )
     progress += batch.length
     console.log(`Progress: ${progress}/${total}`)
-    start += BATCH_SIZE
-    end += BATCH_SIZE
-    batch = clips.slice(start, end)
+    batch = await nextClips(BATCH_SIZE)
 
     await sleep(1000)
   }
@@ -107,6 +105,10 @@ const sleep = (ms: number) => {
 
 program
   .name('calculateDurations.js')
+  .option(
+    '-t, --total <number>',
+    'the total number of clips that should be processed',
+  )
   .description('calculate duration for clips')
   .action(calculateDurations)
 
