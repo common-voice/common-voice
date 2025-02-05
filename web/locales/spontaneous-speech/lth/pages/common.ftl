@@ -32,7 +32,7 @@ check-transcriptions = Nën gin n'ëcöö
 ## Not Found Page
 
 not-found-page-header = Ba onwongere
-not-found-page-content = Poth karatac na in ïyënyö ba onwongere
+not-found-page-content = Pot karatac na in ïyënyö ba onwongere
 # Privacy and Terms checkbox
 accept-privacy-and-terms = An aye dwön n'ënaa ïë, cïk ëka müng, ngëc
 # Locales

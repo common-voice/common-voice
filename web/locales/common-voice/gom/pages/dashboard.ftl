@@ -6,6 +6,8 @@ show-ranking = Mhoje ranking dhakoi
 
 both-speak-and-listen = Donui
 both-speak-and-listen-long = Donui (Uloi ani Aikui)
+daily-goal = Dis'acho Uddeshya
+weekly-goal = Suman'acho Uddeshya
 easy-difficulty = Sope
 average-difficulty = Modle
 difficult-difficulty = Aagod

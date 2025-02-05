@@ -62,9 +62,12 @@ create-profile-button = ສ້າງໂປຣໄຟລ໌
 img-alt-success-checkmark = ເຄື່ອງໝາຍຄວາມສຳເລັດ
 # menu item
 read-sentences = ອ່ານປະໂຫຍກ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ອ່ານປະໂຫຍກ <small>(ໄວໆນີ້)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = ອ່ານ​ປະ​ໂຫຍກ​, ຕອບ​ຄໍາ​ຖາມ​
 
 ## MENU ITEM ARIA LABELS
 

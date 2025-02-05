@@ -102,6 +102,7 @@ add-sentences = ເພີ່ມປະໂຫຍກ
 
 add-sentences-menu-item-tooltip = ເພີ່ມປະໂຫຍກໃນພາສາຂອງທ່ານ
 review-sentences-menu-item-tooltip = ທົບທວນປະໂຫຍກໃນພາສາຂອງທ່ານ
+add-questions-menu-item-tooltip = ເພີ່ມຄຳຖາມໃນພາສາຂອງທ່ານ
 
 ## MENU ITEM ARIA LABELS
 
