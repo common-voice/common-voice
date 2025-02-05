@@ -211,7 +211,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           onClick={handleAddInformationClick}
           data-testid="add-information-button"
           disabled={isAddInformationButtonDisabled}>
-          اضافة المعلومات
+          إضافة المعلومات
         </Button>
         {/* </Localized> */}
         <Localized id="continue-speaking-button">
