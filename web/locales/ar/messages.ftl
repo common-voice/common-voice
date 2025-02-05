@@ -466,9 +466,9 @@ profile-form-variant =
     .label = أي لهجة من { $language } تتحدث؟
 profile-form-variant-default-value = لم تحدد أي لهجة
 profile-form-custom-accent-help-text =
-  .label = كيف يمكن أن تصف لكنتك؟
-profile-form-custom-accent-placeholder-2 = اكتب هنا لوصف لكنتك
-profile-form-add-accent = إضافة لكنة خاصة "{ $inputValue }"
+  .label = كيف يمكن أن تصف لهجتك؟
+profile-form-custom-accent-placeholder-2 = اكتب هنا لوصف لهجتك
+profile-form-add-accent = إضافة لهجة خاصة "{ $inputValue }"
 
 
 
@@ -842,13 +842,13 @@ record-cancel = ألغِ إعادة التسجيل
 record-instruction = { $actionType }<recordIcon></recordIcon> ثم اقرأ الجملة بصوتٍ عالٍ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ما إن تنتهي
 record-three-more-instruction = ثلاثة جمل فتنتهي!
-record-again-instruction = ممتاز!<recordIcon></recordIcon> سجّل المقطع التالي
+record-again-instruction = ممتاز! سجّل المقطع التالي <recordIcon></recordIcon>
 record-again-instruction2 = تابِع، سجّل ثانيةً <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> آخر جملة!
-review-tooltip = راجِع وأعِد تسجيل المقاطع وأنت تساهم
+review-tooltip = راجِع المقطع أو أعِد تسجيله
 share-clip = شارِك المقطع
 share-common-voice = شارِك «الجدارية الصوتية»
-review-instruction = راجِع وأعِد تسجيل المقاطع إن لزم الأمر
+review-instruction = راجِع أو أعِد التسجيل
 record-submit-tooltip = { $actionType } ”أرسِل“ ما إن تنتهي
 clips-uploaded = رُفعت المقاطع
 record-abort-title = ألن تُنهي التسجيل أولًا؟
@@ -880,13 +880,13 @@ contribute-sentence-collection-nav-header = جمع الجمل
 ## Reporting
 
 report = أبلغ
-report-title =  أرسل تقريراً
-report-ask = ما المشاكل التي تراها في هذه الجملة؟
+report-title =  أرسل تقريرًا
+report-ask = ما المشكلات التي تجدها في الجملة؟
 report-offensive-language = كلام مسيء
 report-offensive-language-detail = تحتوي الجملة على لغة مهينة أو مسيئة.
 report-grammar-or-spelling = خطأ نحوي/إملائي
 report-grammar-or-spelling-detail = تحتوي الجملة على خطأ نحوي أو إملائي.
-report-different-language = لغه مختلفة
+report-different-language = لغة مختلفة
 report-different-language-detail = الجملة مكتوبة بلغة مختلفة عن اللغة التي أتحدث بها.
 report-difficult-pronounce = نطقها صعب
 report-difficult-pronounce-detail = تحتوي الجملة على كلمات أو عبارات يصعب قراءتها أو نطقها.
@@ -1232,7 +1232,7 @@ help-reach-goal = { $goal }
 
 ## Profile Download
 continue-speaking-button=تابع التحدث
-create-profile-button=انشاء ملف شخصي
+create-profile-button=إنشاء ملف شخصي
 download-q = هل تحتاج إلى تنزيل بياناتك؟
 download-info = أخبرنا بما تريد تنزيله:
 download-profile-title = الملف الشخصي
@@ -1261,9 +1261,9 @@ download-request-modal-description = فيما يلي الروابط لتنزيل
 download-request-link-text = الجزء # { $offset } من { $total }
 download-request-metadata-link = البيانات الوصفية
 download-request-link-single = يمكنك أيضًا نسخ عناوين URL المباشرة ولصقها في مدير التنزيل المفضل لديك. ستنتهي صلاحيتها في غضون 12 ساعة ، ولكن يمكنك العودة إلى هذه الصفحة لإنشاء صفحات جديدة في أي وقت.
-why-donate-explanation-1= تقديم هذه المعلومات اختياري - يجب عليك إضافتها فقط إذا كنت تشعر بالراحة. عندما نقوم بإصدار مجموعة البيانات، نقوم بإخفاء الهوية باستخدام أسماء مستعارة لجميع المعلومات الشخصية، ونتأكد من أن المعلومات مثل اسمك وبريدك الإلكتروني ليست مرتبطة بالمعلومات الديموغرافية مثل العمر أو الجنس.
-second-cta-header-text=شكرًا لمساهمتك بصوتك!
+why-donate-explanation-1= تفاصيل المستخدم اختيارية، أضِفها فقط إن أردتَ. عندما نُصدر مجموعة البيانات سنُخفي هويتك وسنتأكد من أن معلومات اسمك وبريدك الإلكتروني ليست مرتبطة بالمعلومات الديموغرافية مثل العمر أو الجنس.
+second-cta-header-text=شكرًا لإسهامك بصوتك!
 already-have-an-account=هل لديك حساب بالفعل؟ <login>تسجيل الدخول</login>
-second-cta-subtitle-text = مع ملف شخصي، يمكنك متابعة نشاطك والتواصل مع مجتمع من المساهمين في بيانات الصوت.
+second-cta-subtitle-text = مع ملف شخصيّ، يمكنك متابعة نشاطك والتواصل مع مجتمع من المُسهِمين في بيانات الصوت!
 
 

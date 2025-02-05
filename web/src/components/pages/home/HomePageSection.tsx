@@ -19,9 +19,9 @@ export default function HomePageSection() {
             الجداريــة الصوتيـة
           </h1>
           <p className="text-[16px] md:text-[20px] text-right">
-            مشروع يمكن الجميع من المساهمة الصوتية في{' '}
+          مبادرة تهدف إلى تعليم الآلة الكيفيةَ{' '}
             <div className="hidden md:block mt-1" />
-            المعالجة الآلية للغة العربية
+            التي ينطق بها المتحدثون باللغة العربية
           </p>
           <div className="self-center">
             <img
@@ -49,13 +49,10 @@ export default function HomePageSection() {
             padding: '30px',
           }}>
           <h1 className="text-[30px] lg:text-[50px] text-center font-bold">
-            ساهم بصوتك
+          أسهِمْ بصوتك
           </h1>
           <p className="text-right py-4 text-[14px] md:text-[16px]w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
-            اقرأ وعبر بمناسبة اليوم العالمي للغة العربية سجل صوتك واستمع إليه،
-            جرب صوتك بالفصحى، دربه على النطق بلغة سليمة، عبر وشارك معنا بما يخدم
-            العربية
-          </p>
+          اقرأ، سجّل صوتك واستمع إليه، جرّب صوتك بالفصحى، درّبه على النطق بلغة سليمة</p>
 
           <div className="flex justify-center md:justify-start items-center pt-16 md:pr-8 gap-8 flex-wrap">
             <div className="flex flex-col justify-center text-[12px] w-[110px]">
@@ -95,14 +92,11 @@ export default function HomePageSection() {
             color: 'white',
           }}>
           <h1 className="text-[30px] lg:text-[50px]  text-center font-bold">
-            {' '}
-            الجدارية الصوتية
+            {' '}استمع وقيّم
           </h1>
           <p className="text-right py-4 text-[14px] md:text-[16px] w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
-            شنف سمعك بمشاركات الآخرين يُعتبر التحقق من المقاطع المسجّلة أمرًا
-            مهمًا يوازي إرسالها بالنسبة إلى مهمّة مشروع «الصوت للعموم» جرّب
-            العملية وساعِدنا بإنشاء بيانات صوتية مفتوحة المصدر وعالية الجودة
-          </p>
+          شنّف سمعَك بمشاركات الآخرين وقيّمها، ساعِدنا على تطوير بيانات صوتية دقيقة وعالية الجودة
+</p>
 
           <div className="flex justify-center md:justify-start items-center pt-16 md:pr-8 gap-8 flex-wrap">
             <div className="flex flex-col justify-center text-[12px] w-[110px]">
