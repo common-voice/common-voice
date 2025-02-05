@@ -185,6 +185,8 @@ module.exports = (_env, argv) => {
       moduleIds: 'deterministic',
       runtimeChunk: 'single',
       splitChunks: {
+        chunks: 'all',
+        maxSize: 250000,
         cacheGroups: {
           vendor: {
             test: /[\\/]node_modules[\\/]/,
