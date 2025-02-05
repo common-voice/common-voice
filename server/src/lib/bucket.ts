@@ -19,6 +19,7 @@ import { task as T, taskEither as TE } from 'fp-ts'
 import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
 import * as archiver from 'archiver'
 import { zip } from 'fp-ts/lib/ReadonlyArray'
+import { cons } from 'fp-ts/lib/ReadonlyNonEmptyArray'
 
 /**
  * Bucket
@@ -50,10 +51,24 @@ export default class Bucket {
       TE.getOrElse(() => T.of(`Cannot get signed url for ${key}`))
     )()
 
-
     return url
   }
-
+  public async OCIgetPublicUrl(
+    key: string,
+    bucketType?: string
+  ): Promise<string> {
+    const {
+      DATASET_BUCKET_NAME,
+      CLIP_BUCKET_NAME,
+      OCI_REGION,
+      OCI_NAMESPACE,
+      OCI_BUCKET_NAME,
+    } = getConfig()
+    // const bucket =
+    //   bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME
+    const uploadedPath = `https://objectstorage.${OCI_REGION}.oraclecloud.com/n/${OCI_NAMESPACE}/b/${OCI_BUCKET_NAME}/o/${key}`
+    return uploadedPath
+  }
   /**
    * Construct the public URL for a resource that needs no token
    */
@@ -90,51 +105,40 @@ export default class Bucket {
 
   /**
    * Grab metadata to play clip on the front end.
-   */
+  //  */
+
   async getRandomClips(
     client_id: string,
     locale: string,
     count: number
   ): Promise<Clip[]> {
-    // Get more clip IDs than are required in case some are broken links or clips
+    // Get more clip IDs than needed to account for potential broken clips
     const clips = await this.model.findEligibleClips(
       client_id,
       locale,
       Math.ceil(count * 1.5)
     )
+
     const clipPromises: Clip[] = []
 
-    Sentry.captureMessage(
-      `Got ${clips.length} eligible clips for ${locale} locale`,
-      Sentry.Severity.Info
-    )
+    // Sentry.captureMessage(
+    //   `Got ${clips.length} eligible clips for ${locale} locale`,
+    //   Sentry.Severity.Info
+    // )
 
-    // Use for instead of .map so that it can break once enough clips are assembled
+    // Iterate through the clips and process them
     for (let i = 0; i < clips.length; i++) {
       const { id, path, sentence, original_sentence_id, taxonomy } = clips[i]
 
       try {
-        const metadata = await pipe(
-          getMetadataFromFile(getConfig().CLIP_BUCKET_NAME)(path),
-          TE.getOrElse(() => T.of({ size: 0 }))
-        )()
-
-        // if the clip is smaller than 256 bytes it is most likely blank and should be skipped
-        if (metadata.size >= 256) {
-          clipPromises.push({
-            id: id.toString(),
-            glob: path.replace('.mp3', ''),
-            sentence: { id: original_sentence_id, text: sentence, taxonomy },
-            audioSrc: await this.getPublicUrl(path),
-          })
-        } else {
-          console.log(`clip_id ${id} at ${path} is smaller than 256 bytes`)
-          await this.model.db.markInvalid(id.toString())
-        }
-
-        // this will break either when 10 clips have been retrieved or when 15 have been tried
-        // as long as at least 1 clip is returned, the next time the cache refills it will try
-        // for another 15
+        const url = await this.OCIgetPublicUrl(path)
+        clipPromises.push({
+          id: id.toString(),
+          glob: path.replace('.mp3', ''),
+          sentence: { id: original_sentence_id, text: sentence, taxonomy },
+          audioSrc: url,
+        })
+        // Stop once the required number of clips is collected
         if (clipPromises.length == count) break
       } catch (e) {
         console.log(e.message)
@@ -146,9 +150,11 @@ export default class Bucket {
       `Having a total of ${clipPromises.length} clips for ${locale} locale`,
       Sentry.Severity.Info
     )
+
     return Promise.all(clipPromises)
   }
 
+  //----------------------------
   takeoutKey(takeout: TakeoutRequest, chunkIndex: number): string {
     return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`
   }

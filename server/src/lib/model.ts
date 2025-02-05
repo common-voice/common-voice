@@ -1,12 +1,12 @@
-import * as request from 'request-promise-native';
-import { GenericStatistic, Language, Sentence } from 'common';
-import DB from './model/db';
-import { DBClip } from './model/db/tables/clip-table';
-import lazyCache from './lazy-cache';
-import { secondsToHours } from './utils/secondsToHours';
+import * as request from 'request-promise-native'
+import { GenericStatistic, Language, Sentence } from 'common'
+import DB from './model/db'
+import { DBClip } from './model/db/tables/clip-table'
+import lazyCache from './lazy-cache'
+import { secondsToHours } from './utils/secondsToHours'
 
 // TODO: Retrieve average clip data from database (datasets/locale_datasets tables)
-const AVG_CLIP_SECONDS = 4.694;
+const AVG_CLIP_SECONDS = 4.694
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   en: 5.146,
   eu: 5.19,
@@ -101,10 +101,10 @@ const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   vot: 2.408,
   az: 5.597,
   mk: 5.028,
-};
+}
 
 const getAverageSecondsPerClip = (locale: string) =>
-  AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;
+  AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS
 
 // TODO: Update startup script to save % and retreive from database
 function fetchLocalizedPercentagesByLocale(): Promise<any> {
@@ -119,22 +119,22 @@ function fetchLocalizedPercentagesByLocale(): Promise<any> {
       (obj: { [locale: string]: number }, l: any) => {
         obj[l.locale.code] = Math.round(
           (100 * l.approvedStrings) / l.totalStrings
-        );
-        return obj;
+        )
+        return obj
       },
       {}
     )
-  );
+  )
 }
 
-const MINUTE = 1000 * 60;
-const DAY = MINUTE * 60 * 24;
+const MINUTE = 1000 * 60
+const DAY = MINUTE * 60 * 24
 
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
-  db = new DB();
+  db = new DB()
 
   /**
    * Fetch a random clip but make sure it's not the user's.
@@ -148,7 +148,7 @@ export default class Model {
       client_id,
       locale,
       Math.min(count, 50)
-    );
+    )
   }
 
   async findEligibleSentences(
@@ -160,100 +160,100 @@ export default class Model {
       client_id,
       locale,
       Math.min(count, 50)
-    );
+    )
   }
 
   /**
    * Ensure the database is properly set up.
    */
   async ensureDatabaseSetup(): Promise<void> {
-    await this.db.ensureSetup();
+    await this.db.ensureSetup()
   }
 
   /**
    * Upgrade to the latest version of the db.
    */
   async performMaintenance(): Promise<void> {
-    await this.db.ensureLatest();
+    await this.db.ensureLatest()
   }
 
   /**
    * Perform any cleanup work to the model before shutting down.
    */
   cleanUp(): void {
-    this.db.endConnection();
+    this.db.endConnection()
   }
 
   async saveClip(clipData: {
-    client_id: string;
-    localeId: number;
-    original_sentence_id: string;
-    path: string;
-    sentence: string;
-    duration: number;
+    client_id: string
+    localeId: number
+    original_sentence_id: string
+    path: string
+    sentence: string
+    duration: number
   }) {
-    await this.db.saveClip(clipData);
+    await this.db.saveClip(clipData)
   }
 
   getLanguages = lazyCache(
     'get-all-languages-with-sentence-count',
     async (): Promise<Language[]> => {
-      return await this.db.getLanguages();
+      return await this.db.getLanguages()
     },
     1
-  );
+  )
 
   getAllLanguages = lazyCache(
     'get-all-languages-with-metadata',
     async (): Promise<any[]> => {
-      const languages = await this.db.getAllLanguages();
-      return languages.filter(x => x.name === 'ar');
+      const languages = await this.db.getAllLanguages()
+      return languages.filter(x => x.name === 'ar')
     },
     DAY
-  );
+  )
 
   getAllDatasets = lazyCache(
     `get-all-datasets-with-release-types`,
     async (releaseType: string): Promise<any[]> => {
-      return await this.db.getAllDatasets(releaseType);
+      return await this.db.getAllDatasets(releaseType)
     },
     DAY
-  );
+  )
 
   getLanguageDatasetStats = lazyCache(
     'get-language-datasets',
     async (languageCode: string) => {
-      return await this.db.getLanguageDatasetStats(languageCode);
+      return await this.db.getLanguageDatasetStats(languageCode)
     },
     DAY
-  );
+  )
 
   getAllLanguagesWithDatasets = lazyCache(
     'get-all-languages-datasets',
     async (): Promise<any[]> => {
-      return await this.db.getAllLanguagesWithDatasets();
+      return await this.db.getAllLanguagesWithDatasets()
     },
     DAY
-  );
+  )
 
   getLocalizedPercentages = lazyCache(
     'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     DAY
-  );
+  )
 
   getLanguageStats = lazyCache(
     'get-all-language-stats',
     async (): Promise<any> => {
-      const languages = await this.db.getLanguages();
-      const allLanguageIds = languages.map(language => language.id);
+      const languages = await this.db.getLanguages()
+      const allLanguageIds = languages.map(language => language.id)
 
       const statsReducer = (langStats: GenericStatistic[]) => {
         return langStats.reduce((obj: any, stat: GenericStatistic) => {
-          obj[stat.locale_id] = stat.count;
-          return obj;
-        }, {});
-      };
+          obj[stat.locale_id] = stat.count
+          return obj
+        }, {})
+      }
 
       const [
         localizedPercentages,
@@ -271,15 +271,14 @@ export default class Model {
         this.db
           .getAllClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
-      ]);
+      ])
 
       // map over every lang in db
       const languageStats = languages.map(lang => {
         const totalSecDur =
-          getAverageSecondsPerClip(lang.name) * (allClipsCount[lang.id] || 0);
+          getAverageSecondsPerClip(lang.name) * (allClipsCount[lang.id] || 0)
         const validSecDur =
-          getAverageSecondsPerClip(lang.name) *
-          (validClipsCounts[lang.id] || 0);
+          getAverageSecondsPerClip(lang.name) * (validClipsCounts[lang.id] || 0)
 
         // default to zero if stats not in db
         const currentLangStat = {
@@ -289,15 +288,15 @@ export default class Model {
           validatedHours: secondsToHours(validSecDur),
           speakersCount: speakerCounts[lang.id] || 0,
           locale: lang.name,
-        };
-        delete currentLangStat.name;
-        return currentLangStat;
-      });
+        }
+        delete currentLangStat.name
+        return currentLangStat
+      })
 
-      return languageStats;
+      return languageStats
     },
     DAY / 2
-  );
+  )
 
   getClipsStats = lazyCache(
     'overall-clips-stats',
@@ -308,17 +307,17 @@ export default class Model {
         valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
       })),
     DAY / 2
-  );
+  )
 
   getVoicesStats = lazyCache(
     'voice-stats',
     (locale: string) => this.db.getVoicesStats(locale),
     20 * MINUTE
-  );
+  )
 
   getContributionStats = lazyCache(
     'contribution-stats',
     (locale?: string) => this.db.getContributionStats(locale),
     20 * MINUTE
-  );
+  )
 }

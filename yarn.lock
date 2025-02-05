@@ -2841,6 +2841,11 @@
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
+"@types/ali-oss@^6.16.11":
+  version "6.16.11"
+  resolved "https://registry.npmjs.org/@types/ali-oss/-/ali-oss-6.16.11.tgz"
+  integrity sha512-/AyemPZy93ZXGzEokMsoPFgjH37snpzH4X/fwans/n63HLaCleriCG3PyrkHCPkgHEc9vj9Uo6paqsBN3vJ3OA==
+
 "@types/archiver@5.3.4":
   version "5.3.4"
   resolved "https://registry.npmjs.org/@types/archiver/-/archiver-5.3.4.tgz"
@@ -3079,6 +3084,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/isomorphic-fetch@0.0.35":
+  version "0.0.35"
+  resolved "https://registry.npmjs.org/@types/isomorphic-fetch/-/isomorphic-fetch-0.0.35.tgz"
+  integrity sha512-DaZNUvLDCAnCTjgwxgiL1eQdxIKEpNLOlTNtAgnZc50bG2copGhRrFN9/PxPBuJe+tZVLCbQ7ls0xveXVRPkvw==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.4"
   resolved "https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz"
@@ -3136,6 +3146,18 @@
   version "0.0.29"
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
+"@types/jsonwebtoken@9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.0.tgz"
+  integrity sha512-mM4TkDpA9oixqg1Fv2vVpOFyIVLJjm5x4k0V+K/rEsizfjD7Tk7LKk3GTtbB7KCfP0FEHQtsZqFxYA0+sijNVg==
+  dependencies:
+    "@types/node" "*"
+
+"@types/jssha@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@types/jssha/-/jssha-2.0.0.tgz"
+  integrity sha512-oBnY3csYnXfqZXDRBJwP1nDDJCW/+VMJ88UHT4DCy0deSXpJIQvMCwYlnmdW4M+u7PiSfQc44LmiFcUbJ8hLEw==
 
 "@types/lodash.memoize@4.1.9":
   version "4.1.9"
@@ -3230,6 +3252,13 @@
   version "2.4.1"
   resolved "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
+
+"@types/opossum@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/@types/opossum/-/opossum-4.1.1.tgz"
+  integrity sha512-9TMnd8AWRVtnZMqBbbzceQoJdafErgUViogFaQ3eetsbeLtiFFZ695mepNaLtlfJi4uRP3GmHfe3CJ2DZKaxYA==
+  dependencies:
+    "@types/node" "*"
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -3435,6 +3464,13 @@
   version "2.3.6"
   resolved "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.6.tgz"
   integrity sha512-m04Om5Gz6kbjUwAQ7XJJQ30OdEFsSmAVsvn4NYwcTRyMVpKKa1aPuESw1n2CxS5fYkOQv3nHgDKeNa8e76fUkw==
+
+"@types/sshpk@1.10.3":
+  version "1.10.3"
+  resolved "https://registry.npmjs.org/@types/sshpk/-/sshpk-1.10.3.tgz"
+  integrity sha512-cru1waDhHZnZuB18E6Dgf2UXf8U93mdOEDcKYe5jTri+fpucidSs7DLmGICpLxN+95aYkwtgeyny9fBFzQVdmA==
+  dependencies:
+    "@types/node" "*"
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
@@ -4174,6 +4210,11 @@ autoprefixer@^10.4.20, autoprefixer@^10.4.4:
     picocolors "^1.0.1"
     postcss-value-parser "^4.2.0"
 
+await-semaphore@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/await-semaphore/-/await-semaphore-0.1.3.tgz"
+  integrity sha512-d1W2aNSYcz/sxYO4pMGX9vq65qOTu0P800epMud+6cYYX0QcT7zyqcxec3VWzpgvdXo57UWmVbZpLMjX2m1I7Q==
+
 aws-sdk@^2.449.0:
   version "2.1058.0"
   resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1058.0.tgz"
@@ -4454,14 +4495,14 @@ browser-process-hrtime@^1.0.0:
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
 browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.5, browserslist@^4.17.5, browserslist@^4.20.2, browserslist@^4.21.3, browserslist@^4.21.4, browserslist@^4.21.5, browserslist@^4.23.3:
-  version "4.24.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.24.0.tgz#a1325fe4bc80b64fda169629fc01b3d6cecd38d4"
-  integrity sha512-Rmb62sR1Zpjql25eSanFGEhAxcFwfA1K0GuQcLoaJBAcENegrQut3hYdhXFF1obQfiDyqIW/cLM5HSJ/9k884A==
+  version "4.24.4"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.24.4.tgz#c6b2865a3f08bcb860a0e827389003b9fe686e4b"
+  integrity sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==
   dependencies:
-    caniuse-lite "^1.0.30001663"
-    electron-to-chromium "^1.5.28"
-    node-releases "^2.0.18"
-    update-browserslist-db "^1.1.0"
+    caniuse-lite "^1.0.30001688"
+    electron-to-chromium "^1.5.73"
+    node-releases "^2.0.19"
+    update-browserslist-db "^1.1.1"
 
 bs-logger@0.x:
   version "0.2.6"
@@ -4610,10 +4651,10 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001646:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001660.tgz"
   integrity sha512-GacvNTTuATm26qC74pt+ad1fW15mlQ/zuTzzY1ZoIzECTP8HURDfF43kNxPgf7H1jmelCBQTTbBNxdSXOA7Bqg==
 
-caniuse-lite@^1.0.30001663:
-  version "1.0.30001664"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001664.tgz#d588d75c9682d3301956b05a3749652a80677df4"
-  integrity sha512-AmE7k4dXiNKQipgn7a2xg558IRqPN3jMQY/rOsbxDhrd0tyChwbITBfiwtnqz8bi2M5mIWbxAYBvk7W7QBUS2g==
+caniuse-lite@^1.0.30001688:
+  version "1.0.30001695"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001695.tgz#39dfedd8f94851132795fdf9b79d29659ad9c4d4"
+  integrity sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -4778,6 +4819,15 @@ cliui@^7.0.2:
   dependencies:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
+    wrap-ansi "^7.0.0"
+
+cliui@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz"
+  integrity sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
 clone-deep@^4.0.1:
@@ -5083,7 +5133,7 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
 
 cpu-features@0.0.2:
   version "0.0.2"
-  resolved "https://registry.npmjs.org/cpu-features/-/cpu-features-0.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/cpu-features/-/cpu-features-0.0.2.tgz#9f636156f1155fd04bdbaa028bb3c2fbef3cea7a"
   integrity sha512-/2yieBqvMcRj8McNzkycjW2v3OIUOibBfd2dLEJ0nWts8NobAxwiyw9phVNS6oDL8x8tz9F7uNVFEVpJncQpeA==
   dependencies:
     nan "^2.14.1"
@@ -5520,14 +5570,14 @@ debug@2.6.9, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3:
-  version "4.3.3"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz"
-  integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
+debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
+  version "4.4.0"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.4.0.tgz"
+  integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
   dependencies:
-    ms "2.1.2"
+    ms "^2.1.3"
 
-debug@4.3.4, debug@^4.3.4:
+debug@4.3.4:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -5819,10 +5869,10 @@ ee-first@1.1.1:
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.5.28:
-  version "1.5.29"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.29.tgz#aa592a3caa95d07cc26a66563accf99fa573a1ee"
-  integrity sha512-PF8n2AlIhCKXQ+gTpiJi0VhcHDb69kYX4MtCiivctc2QD3XuNZ/XIOlbGzt7WAjjEev0TtaH6Cu3arZExm5DOw==
+electron-to-chromium@^1.5.73:
+  version "1.5.88"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.88.tgz#cdb6e2dda85e6521e8d7d3035ba391c8848e073a"
+  integrity sha512-K3C2qf1o+bGzbilTDCTBhTQcMS9KW60yTAaTeeXsfvQuTDDwlokLam/AdqlqcSy9u4UainDgsHV23ksXAOgamw==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -5972,9 +6022,14 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-escalade@^3.1.1, escalade@^3.1.2:
+es6-promise@4.2.6:
+  version "4.2.6"
+  resolved "https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.6.tgz"
+  integrity sha512-aRVgGdnmW2OiySVPUC9e6m+plolMAJKjZnQlCwNSuK5yQ0JN61DZSO1X1Ufd1foqWRAlig0rhduTCHe7sVtK5Q==
+
+escalade@^3.1.1, escalade@^3.2.0:
   version "3.2.0"
-  resolved "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
   integrity sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
 
 escape-html@~1.0.3:
@@ -6885,7 +6940,7 @@ glob-parent@^5.1.2, glob-parent@~5.1.2:
 
 glob-parent@^6.0.1, glob-parent@^6.0.2:
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-6.0.2.tgz#6d237d99083950c79290f24c7642a3de9a28f9e3"
+  resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz"
   integrity sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==
   dependencies:
     is-glob "^4.0.3"
@@ -7251,6 +7306,15 @@ http-proxy-agent@^5.0.0:
     "@tootallnate/once" "2"
     agent-base "6"
     debug "4"
+
+http-signature@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/http-signature/-/http-signature-1.3.1.tgz"
+  integrity sha512-Y29YKEc8MQsjch/VzkUVJ+2MXd9WcR42fK5u36CZf4G8bXw2DXMTWuESiB0R6m59JAWxlPPw5/Fri/t/AyyueA==
+  dependencies:
+    assert-plus "^1.0.0"
+    jsprim "^1.2.2"
+    sshpk "^1.14.1"
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -7735,6 +7799,14 @@ isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+isomorphic-fetch@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz"
+  integrity sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==
+  dependencies:
+    node-fetch "^2.6.1"
+    whatwg-fetch "^3.4.1"
 
 isstream@0.1.x, isstream@~0.1.2:
   version "0.1.2"
@@ -8429,6 +8501,16 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonwebtoken@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.0.tgz"
+  integrity sha512-tuGfYXxkQGDPnLJ7SibiQgVgeDgfbPq2k2ICcbgqW8WxWLBAxKQM/ZCu/IT8SOSwmaYl4dpTFCW5xZv7YbbWUw==
+  dependencies:
+    jws "^3.2.2"
+    lodash "^4.17.21"
+    ms "^2.1.1"
+    semver "^7.3.8"
+
 jsprim@^1.2.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/jsprim/-/jsprim-1.4.2.tgz"
@@ -8449,6 +8531,11 @@ jsprim@^2.0.2:
     json-schema "0.4.0"
     verror "1.10.0"
 
+jssha@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/jssha/-/jssha-2.4.1.tgz"
+  integrity sha512-77DN1YurYgh+7FPCTJ2CQ6hVDHgIWiHxm4Y5/mAdnpETKYagX22pVWMz4xfKF5fcpNfMaztgVj+/B1bt2k23Eg==
+
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.2.1:
   version "3.2.1"
   resolved "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.1.tgz"
@@ -8457,6 +8544,15 @@ jsprim@^2.0.2:
     array-includes "^3.1.3"
     object.assign "^4.1.2"
 
+jwa@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/jwa/-/jwa-1.4.1.tgz"
+  integrity sha512-qiLX/xhEEFKUAJ6FiBMbes3w9ATzyk5W7Hvzpa/SLYdxNtng+gcurvrI7TbACjIXlsJyr05/S1oUhZrc63evQA==
+  dependencies:
+    buffer-equal-constant-time "1.0.1"
+    ecdsa-sig-formatter "1.0.11"
+    safe-buffer "^5.0.1"
+
 jwa@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/jwa/-/jwa-2.0.0.tgz"
@@ -8464,6 +8560,14 @@ jwa@^2.0.0:
   dependencies:
     buffer-equal-constant-time "1.0.1"
     ecdsa-sig-formatter "1.0.11"
+    safe-buffer "^5.0.1"
+
+jws@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.npmjs.org/jws/-/jws-3.2.2.tgz"
+  integrity sha512-YHlZCB6lMTllWDtSPHz/ZXTsi8S00usEV6v1tjq8tOUZzw7DpSDWVXjXDre6ed1w/pd495ODpHZYSdkRTsa0HA==
+  dependencies:
+    jwa "^1.4.1"
     safe-buffer "^5.0.1"
 
 jws@^4.0.0:
@@ -9112,7 +9216,7 @@ ms@2.1.2:
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-ms@2.1.3, ms@^2.1.1:
+ms@2.1.3, ms@^2.1.1, ms@^2.1.3:
   version "2.1.3"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
@@ -9196,9 +9300,9 @@ named-placeholders@^1.1.2, named-placeholders@^1.1.3:
     lru-cache "^7.14.1"
 
 nan@^2.14.1, nan@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.npmjs.org/nan/-/nan-2.15.0.tgz"
-  integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.22.0.tgz#31bc433fc33213c97bad36404bb68063de604de3"
+  integrity sha512-nbajikzWTMwsW+eSsNm3QwlOs7het9gGJU5dDZzRTQGk03vyBOauxgI4VakDzE0PtsGTmXPsXTbbjVhRwR5mpw==
 
 nanoid@^3.3.6:
   version "3.3.6"
@@ -9269,10 +9373,10 @@ node-int64@^0.4.0:
   resolved "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz"
   integrity sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs=
 
-node-releases@^2.0.18:
-  version "2.0.18"
-  resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.18.tgz"
-  integrity sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==
+node-releases@^2.0.19:
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.19.tgz#9e445a52950951ec4d177d843af370b411caf314"
+  integrity sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==
 
 nodemailer@6.7.3:
   version "6.7.3"
@@ -9432,6 +9536,1356 @@ obliterator@^2.0.0, obliterator@^2.0.1:
   resolved "https://registry.npmjs.org/obliterator/-/obliterator-2.0.4.tgz"
   integrity sha512-lgHwxlxV1qIg1Eap7LgIeoBWIMFibOjbrYPIPJZcI1mmGAI2m3lNYpK12Y+GBdPQ0U1hRwSord7GIaawz962qQ==
 
+oci-accessgovernancecp@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-accessgovernancecp/-/oci-accessgovernancecp-2.100.3.tgz"
+  integrity sha512-8Wy08ba4AE23ZzPQxdcojMZWe70cD7WGCaABXekExr/GUhvZ28h29JMpqwK0aSZKcWswEOqnRuPNTGtNGGt5AA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-adm@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-adm/-/oci-adm-2.100.3.tgz"
+  integrity sha512-JvOmialTTbxA6btjgamqn6oEWRaZi7FL62U1cb9qLZy0buCOIyJS7lNnAQEQEUwQi6E6ouJ3lY7bZ6y1EzhvLA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-aianomalydetection@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-aianomalydetection/-/oci-aianomalydetection-2.100.3.tgz"
+  integrity sha512-2BDSHZyBL2E4/N1b3KFjXNJqNETsJAo8rDuJD3t3oDaU1w86RqER7O0RX9rEe9VUTwt047U/V7Y1VvynvW3j3A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-aidocument@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-aidocument/-/oci-aidocument-2.100.3.tgz"
+  integrity sha512-WfeBgUz0WAfMBWnAimdiaKtY5AobRmk/cujngOOdkvhLB26CrEq/sapfhiDZnOJKu8DUbZiA9MCOArE9RJIvVA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-ailanguage@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-ailanguage/-/oci-ailanguage-2.100.3.tgz"
+  integrity sha512-Ej5l5DV4e+Tr1GELoktZzIByuJACg3RGwVAaj+lgBTonf1rRWEj2z9K7ldXsLONhC1Rmc+N79gdRnWQLeNXKpg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-aispeech@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-aispeech/-/oci-aispeech-2.100.3.tgz"
+  integrity sha512-rLOJ2NEmuXz6SHRlHoDALugAqvKp2YRiuXPCzATJ9lczuLBB04jsZjtyyVobk3Jg2zNlTLsdUfOSFgzZngp8ng==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-aivision@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-aivision/-/oci-aivision-2.100.3.tgz"
+  integrity sha512-fE77r8AxAVUtRoqIdvBTZTefKhn7rFk7ASBkiG5Qhbk6VEVLRwegy3NmYkUfzkNq/DIwWn9pP9uugnK9zEwFHw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-analytics@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-analytics/-/oci-analytics-2.100.3.tgz"
+  integrity sha512-BuVCeK24q/68hOQuQTVqVjndp4fmOuHOUHymDS7I+yyOQcYvmYCJ8mX3YhKZa437cZoCU7FpBgizWw9DtM1v2g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-announcementsservice@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-announcementsservice/-/oci-announcementsservice-2.100.3.tgz"
+  integrity sha512-xJ4sM4Q7aJ3VDGAnXxkk6TlJJn7DmesSLk3cAK8v+5kYkpFU21tT3T+u7WeNiP5VlJm3kavrymf9MxwzzquH+A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-apigateway@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-apigateway/-/oci-apigateway-2.100.3.tgz"
+  integrity sha512-5PjUcO5YcosmgzXuVRtPM4DlqqhmYsREV2BClFxv+n3uDnYVeAuyC5m2ZwrKXQ0728u56v7RRy4KTfrmvHkDXw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-apmconfig@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-apmconfig/-/oci-apmconfig-2.100.3.tgz"
+  integrity sha512-aK9GkQzdXfaHtcBd8OxTsGrDh9j7P6qj8F8HIoCQ/onecB6+nkQ96Eay/AI9MAvesjURO2KniCoM89FfA+XYAQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-apmcontrolplane@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-apmcontrolplane/-/oci-apmcontrolplane-2.100.3.tgz"
+  integrity sha512-M3Ve2NnS32wOvOEM/tKt2Hqt45BzgFOyQSxFfmG92UKODBTsfOMNY2+QdZwM9wM0Mq7l5m3g4KfsaBSIg/JOlw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-apmsynthetics@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-apmsynthetics/-/oci-apmsynthetics-2.100.3.tgz"
+  integrity sha512-frhlK0MbS7XVbdDB7wUGlZrbPs6XW42sfEGuO+cMEYWe1IYUv1GX2kyn/LZ1yGj8+szvcTnMDATMutTB0bTUTA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-apmtraces@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-apmtraces/-/oci-apmtraces-2.100.3.tgz"
+  integrity sha512-jK3Ou5XKv4GHRR7tSOD7x8Jap4kf8YGDawvRhw+6xsQAG5EhNYNNY00RVijLYgmboSIvdsRAIm2IzsShv3D0Cw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-appmgmtcontrol@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-appmgmtcontrol/-/oci-appmgmtcontrol-2.100.3.tgz"
+  integrity sha512-UTMa2l+Lw9FxxdaXqWVOHp5YwqiuXa+4uEWbfsnW3WoSnptof/6wuKUlJE5yKR0s0JgzO2vYDdFjNxZf/4KAnA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-artifacts@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-artifacts/-/oci-artifacts-2.100.3.tgz"
+  integrity sha512-6h593rL1rFIh41R50rUpzo+qW+/QsLNNKjb8Jyc8OUlZSMWhdPaens2AOu1BFcL3asjeaoFwa2u70LdV43lxqA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-audit@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-audit/-/oci-audit-2.100.3.tgz"
+  integrity sha512-CBYnYYLckz3jj7pN5ZGYgFk6Lx4m4JNHCuGBS2zfILkGReJrAZOAaoFBVie1jwFnTMH7DF8uHDHr1N2jhPMYBw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-autoscaling@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-autoscaling/-/oci-autoscaling-2.100.3.tgz"
+  integrity sha512-0nR4MB3xPgWl8pGvobGvHjp88bZQwFrckH1Du8ET26w2fE/cGLC/QB3MJxaC5A/zi2TwzLM3vnjuoHkngnxSVA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-bastion@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-bastion/-/oci-bastion-2.100.3.tgz"
+  integrity sha512-/q82lCJ0M7FKuPns9Sz2+MEO9kdlu5ELBRF/XHV+apJdPdK4gM6AKvAGgQdDq2G4KImuMl7JXCPn+9Q5ROzQwA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-bds@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-bds/-/oci-bds-2.100.3.tgz"
+  integrity sha512-lddkRTw2a8ly1Hg6/dWJb/tEtl0Ttp9+eZTSOGdRZRMPuLGQdJwW38aatrVZOIrsE7S7k4j6Aqu/tTdi6N+LBQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-blockchain@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-blockchain/-/oci-blockchain-2.100.3.tgz"
+  integrity sha512-MZsv2D4huSOwDULzEZJlSvAF+sI2s9WlHHABjN3+p8fINyZDP1rrO/4c1S4kiTFO0isgs3tJanXNTkrN9G+iLA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-budget@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-budget/-/oci-budget-2.100.3.tgz"
+  integrity sha512-1vKfyjvzx/QpI0cPqG+GwnxQK/ZfTp6qRzQ/AYpHpBIpuJY+BKnfI+XTIuNJuik3rYCEnLV4rUTXrA+JamLR7Q==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-capacitymanagement@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-capacitymanagement/-/oci-capacitymanagement-2.100.3.tgz"
+  integrity sha512-OrXQFah+dXm2Sg6BAqpc0hu4BTG2Q4RU/kl5wufEvJTbnbdWn41tRMsr6/0J84hCg0EasvXXuokLNza7oJQTmQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-certificates@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-certificates/-/oci-certificates-2.100.3.tgz"
+  integrity sha512-kV2toHCSyKoyvhBXdMvs6yvFQnkceD1XnwG2qDZvVUqHKQmCKB+fa6Dv8nTl3VaVAAjJZkg7wXITPoSOaNW4Qg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-certificatesmanagement@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-certificatesmanagement/-/oci-certificatesmanagement-2.100.3.tgz"
+  integrity sha512-tOP5PLfbxJnfnEdHbKmTtQMz1xIXjJdAt+vj+m5V+/pY3ujyYNDmgKr/tHfL2qWNe/dBmRpSpuIBJlyCoFbjbA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-cims@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-cims/-/oci-cims-2.100.3.tgz"
+  integrity sha512-S1j6PmfETI/CXGJ4GDy0jYW1d+iL/1qo8JRnPZKIgxTlmzkxG2W+y10i1dUkWPdGPHYnG5PsyblF3vAnbuwBOA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-cloudbridge@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-cloudbridge/-/oci-cloudbridge-2.100.3.tgz"
+  integrity sha512-Ty8rgwVT+OUPCcT6Bt4o5d8MeYWn5p4P3c/D2g06P/MJrRYaOhe53zSfAix3mXqbTjC5TEl/0NeqyjnN21sg8g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-cloudguard@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-cloudguard/-/oci-cloudguard-2.100.3.tgz"
+  integrity sha512-FAvrITR4l3hS4AHR7BJu5V6CBlxWrxi7gmB0ezsAZFYK44j04CDh3LCrtX48RVx2Vxo2pIc5F/3IzIwJ0EoYrw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-cloudmigrations@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-cloudmigrations/-/oci-cloudmigrations-2.100.3.tgz"
+  integrity sha512-GAUh0qA6lnCylmTIwMC40Lj9YTNTowq6AQg8MwOJYaemyGp18sRHaDxfM6tVxmvA3Bnrf7d23KAtX5FzDZaHBQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-clusterplacementgroups@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-clusterplacementgroups/-/oci-clusterplacementgroups-2.100.3.tgz"
+  integrity sha512-gU6Me0lV6bSUslGYOiCYQByN3BgB37Z/RE1b8fHDqJ9rSA/75OVuGFBUDYcL6zv8mIa+HIA5Yz37osnpAJP6QQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-common@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-common/-/oci-common-2.100.3.tgz"
+  integrity sha512-Z5kRtAB93qLuO9wAWE/RD7aliI03aDTGot+LUSiQ/1d+rlQQyhU/uokSojgglzQQzM8wLjIn2n9i/pTyOqA30w==
+  dependencies:
+    "@types/isomorphic-fetch" "0.0.35"
+    "@types/jsonwebtoken" "9.0.0"
+    "@types/jssha" "2.0.0"
+    "@types/opossum" "4.1.1"
+    "@types/sshpk" "1.10.3"
+    es6-promise "4.2.6"
+    http-signature "1.3.1"
+    isomorphic-fetch "3.0.0"
+    jsonwebtoken "9.0.0"
+    jssha "2.4.1"
+    opossum "5.0.1"
+    sshpk "1.16.1"
+    uuid "3.3.3"
+
+oci-computecloudatcustomer@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-computecloudatcustomer/-/oci-computecloudatcustomer-2.100.3.tgz"
+  integrity sha512-11k9EmFTAN+RiQ6tmM+0xGhkFeiUTF8J8ybpCsQ+6a7V0qv0mbR7tnAGyD3/yE+SDwsS1jdSveS75CYjWQ+x3A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-computeinstanceagent@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-computeinstanceagent/-/oci-computeinstanceagent-2.100.3.tgz"
+  integrity sha512-3ilqPS9HnDl8VmojJeJ6xIAmdOqO3YbGPxtJSr3cAWLXBR7DG1Bb0plPrgXOFsdGRXvtGGLUSGHzx00CybrNbg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-containerengine@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-containerengine/-/oci-containerengine-2.100.3.tgz"
+  integrity sha512-OSWkC+9tmNV9ru88pwmkRt2Vpi3FvdIPYrMLYaIPFgM/kUvCB6zFdEG+0BkEapUhb9utwMuLq+kyGLIalHvN5Q==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-containerinstances@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-containerinstances/-/oci-containerinstances-2.100.3.tgz"
+  integrity sha512-8CtxawqVOR04fooW82EuI06sSL0AEqfl3RZsNirxAdcIlMsVLQ5/Yyn/A7qzC8GghvqXWA59cgYp/dFHUN3Ehg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-core@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-core/-/oci-core-2.100.3.tgz"
+  integrity sha512-eb1LivmAjViR7AANZcM2JGTpzjBHgL5MPSxEoZclvbx6jAM78hQlxejtZsEWyYeIIoN4WWOUetsIi+rrLx/cBg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-dashboardservice@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-dashboardservice/-/oci-dashboardservice-2.100.3.tgz"
+  integrity sha512-PDEL95X5vHhqSGKH8Wqgw4L6XBBxELnmCm8Txxoyx9kgw/IaYYHfPakfBrZ9VX3TpRXyzMyp0/2zMYkGMiLBCQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-database@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-database/-/oci-database-2.100.3.tgz"
+  integrity sha512-nibvAVo+aQB9DjLZFeLiyfUUo9mYTSlHTOQcJARveK1FhYFbWQz3EKKNX+WZ7ikDRcG0TuSPdHmvxYimG14Q0A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-databasemanagement@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-databasemanagement/-/oci-databasemanagement-2.100.3.tgz"
+  integrity sha512-znZAVvGUTV1DEUIMTPRF9eZROiMysCjTwRJJhavx4WQqAxkrJ80Ju8K1E2eFRn7ddFk45+U0UEt/ysSz9aFXXg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-databasemigration@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-databasemigration/-/oci-databasemigration-2.100.3.tgz"
+  integrity sha512-F8/S9Imoa+dqRzJSRwMWHjlubPn79i/AzwmeDmiGNOVTkROh9jAH52C9KpHYSQ1RmAz6u0o5vMk4ZUoMbfXoNg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-databasetools@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-databasetools/-/oci-databasetools-2.100.3.tgz"
+  integrity sha512-kYfuedFIil+Z+EnQte3WAPmRtS7KmpQkYmh342OHaujuYhIXxfW5PYp6Rwm2GKyy1jqlxwJVY8K8DmZBeA9JRg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-datacatalog@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-datacatalog/-/oci-datacatalog-2.100.3.tgz"
+  integrity sha512-KYdPacLHcZbAqNgqi8qw4fvMc5FW7Db6+KXVk6kTctavJwBIdJtQuMqSFzeCCA9CEoNlyaFrT9Iw1SSfnOGTiQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-dataflow@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-dataflow/-/oci-dataflow-2.100.3.tgz"
+  integrity sha512-bydkj9Xp/rNnXPXmxd4QcJEIAwk30tJ7kxVtWqCiy7cW9DfSgBHGRnjjutBTPm5kdJsypZEAyaEJZfJhuJ0b3g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-dataintegration@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-dataintegration/-/oci-dataintegration-2.100.3.tgz"
+  integrity sha512-Au7h3qwRFOP98vv2NofBgjcMVX6MDskMnMXWMZsnK16oxMGoWcE4/dQS5dlQ0PCqtWNO2xhWKerVHHhhINKjfQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-datalabelingservice@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-datalabelingservice/-/oci-datalabelingservice-2.100.3.tgz"
+  integrity sha512-P/cAFjsFocl5qWz2JFXfFndbhyicw6+AzG2USDJJ7SrHPJK16DqjCineTsUYWk+h2gsJuKypDHx2rF9UTCJHqA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-datalabelingservicedataplane@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-datalabelingservicedataplane/-/oci-datalabelingservicedataplane-2.100.3.tgz"
+  integrity sha512-JDB5qXKqI2d0bwz6LBOAhy/j6m/uQWrdi2SXr1ZX55kM/pH+AzgMNK+4fXh1GgEWaYB2QHexvyjlAfjUs0j8/g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-datasafe@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-datasafe/-/oci-datasafe-2.100.3.tgz"
+  integrity sha512-d27UPdz65Kd/7EEaznLbFg7lB5g7Kb2Fy9B0k0VZHewjzkxzRjsA0wnpiO+0PjWsyg94giqcVVvch3bWtk5qrw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-datascience@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-datascience/-/oci-datascience-2.100.3.tgz"
+  integrity sha512-gtJxTSUFP27YMddsxhSAROej0iIYd316oW88jQMXs35CbUkxKNj5EKmB7ITeH9kzunTCz/uGHv39xRMH9RxJ0Q==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-delegateaccesscontrol@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-delegateaccesscontrol/-/oci-delegateaccesscontrol-2.100.3.tgz"
+  integrity sha512-0wV9+swT150hMGQBHA+AhoOtYZFFTSWpkU9HJZ8eWqlcD1KPRRJcg/3TWFUNiTyD+fjN0yiLpPIT5R7UZx4PYA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-demandsignal@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-demandsignal/-/oci-demandsignal-2.100.3.tgz"
+  integrity sha512-DEvcyYCin40BeToc25aywb8kJpUIg5WPaUFMy6seSD10t3LFs3CEOtXk03eJoYmaaNdS9Ld8Do1F/OZ4phzaQg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-desktops@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-desktops/-/oci-desktops-2.100.3.tgz"
+  integrity sha512-ScZdnP38Iie3rNVWUIfEBd2YVbC8GGYx0grkPMckEI6FhXKZWuWE+ZLJ0kI3WgBpdN/pYUTcCpo9FVep8hlFlQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-devops@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-devops/-/oci-devops-2.100.3.tgz"
+  integrity sha512-5pV+LqFAV1T9UqJk8S6yGBDRhX11M1FPGQ2BzCaNNecsiIKMr4NRBxnP2X3w6G7J+kda8vDYcMliQzjPHQx3Jg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-disasterrecovery@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-disasterrecovery/-/oci-disasterrecovery-2.100.3.tgz"
+  integrity sha512-SvVi+Fiso77SQpLNNDr4ORx1vHNQDzrZCiY1vcFDIo2lX124oce+Pdy+qPNnn4Qu49HM0tmKMArrRlG+Llbmhg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-dns@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-dns/-/oci-dns-2.100.3.tgz"
+  integrity sha512-AYrVSnbESV5CT4EKIu0j/TvWBlfEiPOGLOltNIgQU7gc+RP1uXu+J6XlzvAeigNBM1ABOIFI24IpedUmV02WOw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-dts@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-dts/-/oci-dts-2.100.3.tgz"
+  integrity sha512-OGcebllBAWWBh9JDoBcJf9AXcZPbLwzejc/nnChBKF7ZL9HjQsiTaU4SJtRkiFbwm6mXNuppQN+nLp7+IVbcjA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-email@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-email/-/oci-email-2.100.3.tgz"
+  integrity sha512-seIJdsBCU3oALqGIAdv4kJyHoQ+dWP88g/OfH9Jy/1sl6ylKO2Vp3qQs9X52JxZ2hv+JnpoEhvPr90tfVpzxbQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-emaildataplane@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-emaildataplane/-/oci-emaildataplane-2.100.3.tgz"
+  integrity sha512-YlBcin+r62qG4wr7h50g37gieoDzhOiPjFihlckiupqjxCJuDECWDrOoNcs8JXUD1TNWV2Cwi08ZPeqj37eJ5Q==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-emwarehouse@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-emwarehouse/-/oci-emwarehouse-2.100.3.tgz"
+  integrity sha512-HUfZkV3CMr3F4NcZCcGlM5ODllDVZefqs0UnieVL4V1TB7eKtySj8muzLHa7rlp6Ur1FLx2WWyDKYB6N0BykhQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-events@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-events/-/oci-events-2.100.3.tgz"
+  integrity sha512-hH3srhTjpxyObR1l4jZjRntq0bjRSJjAiAODCPBqR2JbLuf8XcsooWmtuihBfzF2hem6epDCst84kefke7civQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-filestorage@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-filestorage/-/oci-filestorage-2.100.3.tgz"
+  integrity sha512-Tc/Lrb2pUX8AJb+ti3fcgz/kvF7inGAFlWDAJ6GAhGsWHTeHCj94gau8mAQBbSAhuxAd0qaEe7n3MFwJGVS65g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-fleetappsmanagement@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-fleetappsmanagement/-/oci-fleetappsmanagement-2.100.3.tgz"
+  integrity sha512-RbuAmfGQUotEdtvM/ChP1j8pa4cv8v1/jsUshUhFGsB3aieGH2l2kZIq5S2E7MkRG3v1456kdDzDTH7GG5CNHw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-fleetsoftwareupdate@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-fleetsoftwareupdate/-/oci-fleetsoftwareupdate-2.100.3.tgz"
+  integrity sha512-uYQdAoYFFCd/Lm0qziZAFzfCN8T3TCqDI4MggFTRcjyPT643pU1/9+4p32lPAvg8XSFizRKmXECpQP+OYpwB6g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-functions@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-functions/-/oci-functions-2.100.3.tgz"
+  integrity sha512-6TJZFfFyWAV2vRZI1Qxkz6O9rBs76Kur2QZNKCdzpqQJmPweRllEL7FfXUNpOzQzAUQqjrkfGelJQVnWCBg3FA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-fusionapps@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-fusionapps/-/oci-fusionapps-2.100.3.tgz"
+  integrity sha512-XB77e5D65FPDcyZUDODxua4CncO+d9+8EBt3viSIpKwZ37wRBeRiqZ8hVFw7UjkSZr01RQqgGIXoeG1+i96lwg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-generativeai@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-generativeai/-/oci-generativeai-2.100.3.tgz"
+  integrity sha512-xHnnS6CrXwcYXwOaBLYTcOclDr5vNEpm02tdwO5+1IH2xnQHjojrUpYMDP/ajgVveHcbBrpj1hiVzXgZu6RIeA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-generativeaiagent@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-generativeaiagent/-/oci-generativeaiagent-2.100.3.tgz"
+  integrity sha512-ovmgXGsMx7rp8rI2OhkebIog3K5rf/qZajAeWj5dATSvmxPN7/W4Fg0PiaoCEmsB/TqRum3nCIoaiBFHwGy57A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-generativeaiagentruntime@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-generativeaiagentruntime/-/oci-generativeaiagentruntime-2.100.3.tgz"
+  integrity sha512-Xz4RKzfI02XrKVme6N5AhAmPQulXG8H/3J8DXe2nBtIpGwuJnzSPCZIwjbbGqtukjc2uABlGNDu2MnIsDPWG5A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-generativeaiinference@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-generativeaiinference/-/oci-generativeaiinference-2.100.3.tgz"
+  integrity sha512-XFE8O3E88iH+SS6is36ipN3yYqo0CbzFsfjo8NkF5IAiHkrqitsksMndG3E0uLm8AllcTpK8GXruhMA2HwCYhw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-genericartifactscontent@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-genericartifactscontent/-/oci-genericartifactscontent-2.100.3.tgz"
+  integrity sha512-C+5+pMr0ZAw4amfFLL+JFu70ZN9nOQbnKMI2qOOFiwaN/wIEIyXzHZQMS4o7YU4ujV/okyvMYGKgbmM7bQDgKw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-globallydistributeddatabase@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-globallydistributeddatabase/-/oci-globallydistributeddatabase-2.100.3.tgz"
+  integrity sha512-9SO4uidLneVsDUVZDaMrJS+8IOPDYyB6Q7cSgetilAqwCpJ08xqMSXUTk5HX3st0UYJQeTGWcJ4OZAgtGMfqyg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-goldengate@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-goldengate/-/oci-goldengate-2.100.3.tgz"
+  integrity sha512-KTC+mcb7GGOKu5E5Xq72kbEt1jB+CLxpWgBPWbqNwbCkyGwkXYWxp8fn875stHKLuQOmlL5c6r9jQ6KIE7Lm3g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-governancerulescontrolplane@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-governancerulescontrolplane/-/oci-governancerulescontrolplane-2.100.3.tgz"
+  integrity sha512-CpOyJI5L0C1Vfq46YLP5mHnTEVFYRHXaAoFCxfjTXJxq5amzWGVT/xrQFC9Gb7nDwhO4a5NY31BDUsvCSJaT/A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-healthchecks@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-healthchecks/-/oci-healthchecks-2.100.3.tgz"
+  integrity sha512-jko/pTVQlvLTbqlPOYOi/dcggCg923kxE1wPERCD8sz9KA8YxngR8elZsugeUXQTBck+m8la/it9YreCcdhCfA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-identity@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-identity/-/oci-identity-2.100.3.tgz"
+  integrity sha512-jv8CgfjFfOZYbcZywlJ2VGf+rrKzmh7+IOQdTKYAzWXnzSro1AbuxDLARAwFyGbH4Wj7W/ktWr/SMSpqRgai1w==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-identitydataplane@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-identitydataplane/-/oci-identitydataplane-2.100.3.tgz"
+  integrity sha512-f+5h2+pRYcXbOWDrXnGi4Af8PGLBp05APUgVBbYuD30hS2QMK8W16t0RnUkyenWRCgx840F0TEO8IvcTa1043g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-identitydomains@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-identitydomains/-/oci-identitydomains-2.100.3.tgz"
+  integrity sha512-SrEDJM6ArIXmMH+X2nlasqViygtpOEhR91TQASEPoRwRLh88pPB+lvTukRLkqK+vla0LVo3wdb6JyYeGBoXHZg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-integration@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-integration/-/oci-integration-2.100.3.tgz"
+  integrity sha512-is1MtHOmcMVzciqmosbQlBISFZ4dWNE+lIRWKAgzV46L7CEktcyoy0SoypOA8vTigpk/B7Bg+t+FDRtYwxK6yg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-jms@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-jms/-/oci-jms-2.100.3.tgz"
+  integrity sha512-rNRa9jTeTHwJMOMIfgS33KZyElRGc75eQI9DamCnl9W4scMEGNuqDRihEPm4MxU9F3MTmXvnsKOAWfO4pHdFAA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-jmsjavadownloads@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-jmsjavadownloads/-/oci-jmsjavadownloads-2.100.3.tgz"
+  integrity sha512-MXbSLlXgrUGO4khwuQRK1/lrz1OGgTKm17V/hRBjtrXWWItQ27mWe4H7RGrIp0QWTz/GDoHoysgP7DDDbgQyhQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-keymanagement@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-keymanagement/-/oci-keymanagement-2.100.3.tgz"
+  integrity sha512-zHiad67Nxz6NG901ksCIiZtke4Lln9uUOewjoqhcfuir/Ugr97WxKOi8dGf2Lp4vyZARsOXu8kB1hjLfZv/oqw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-licensemanager@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-licensemanager/-/oci-licensemanager-2.100.3.tgz"
+  integrity sha512-GrN+5ssRzr77Usc1QgaEN4Ht4JXQ/VKpAU8T8eTctABiyWQwT+4CY+qObDy7wHpBMU5KiaCcjPy1nLqdJ4mOtw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-limits@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-limits/-/oci-limits-2.100.3.tgz"
+  integrity sha512-WUdnJmwx4fZTCCaxNoWVUBBRdeQ5K+BamkMqRfT3vk/UXVbgoMQLOdPuXaVOkcgisyMDP2nZvtCyO1eTBCiBTw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-loadbalancer@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-loadbalancer/-/oci-loadbalancer-2.100.3.tgz"
+  integrity sha512-aIYkjombVEotVFpjvxq2EzbiwmCiyutC+2ye8dKMeciQQVQmqEJUUhE9mWi9WSgviuBpvTm1GNMiiAvo8c4tEw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-lockbox@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-lockbox/-/oci-lockbox-2.100.3.tgz"
+  integrity sha512-eW6Afx+Q0QqcbZxMeomzd4a3FGuydP+3BfIssXRDKrpNkH4+ecTDZwW+5Khes2QNxS0ZlSFJFJxrnsdANI3mXQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-loganalytics@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-loganalytics/-/oci-loganalytics-2.100.3.tgz"
+  integrity sha512-skb3fhjijoiawSJmHiomwUzjaB5sjEQ2dbzzyHZWflWQrISS9JRiX1LojzMCoSY8LhpjXZDm1dV2RiRznTc13w==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-logging@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-logging/-/oci-logging-2.100.3.tgz"
+  integrity sha512-bCzM/qUJKKedA3ANPnYp72i+htEIcbuhoXgDdwCjeIBS73p4/9ckz6KEdeSR5GY7MfQ8Ko0u4cYxxbeNmv413A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-loggingingestion@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-loggingingestion/-/oci-loggingingestion-2.100.3.tgz"
+  integrity sha512-ce2wi+3fg5aJ5Ha6VcCltVbaKPi9LQRDz2tpp1lQFfPYEypb2LaOf+skr7eqx2RVsib8ztq8O81Rr3kDPpIspw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-loggingsearch@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-loggingsearch/-/oci-loggingsearch-2.100.3.tgz"
+  integrity sha512-1z7FxZFJV2atWCuaJXNvrkAk6ZBSrR0hmKE8QBWG8PqYKr498qe4dp5fyM+RHkIXT6S0nisSacdif0YQv6avnQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-managementagent@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-managementagent/-/oci-managementagent-2.100.3.tgz"
+  integrity sha512-x7nEx0BPtZh1i6i57EgEwurxHLXNznI1JR8b9wxHi2ANz16MeJJENh2aDYa+oy6ykIDcQQlKXt2XNqJJ6CDoDA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-managementdashboard@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-managementdashboard/-/oci-managementdashboard-2.100.3.tgz"
+  integrity sha512-993ouwVUiep2/Yf2A04t4z0E9EYPj+f7g/zJy6NtMaeeBbW1h/KBNRR4YBxbS7hc7+HstFsKQKuEnRBkWWM7gQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-marketplace@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-marketplace/-/oci-marketplace-2.100.3.tgz"
+  integrity sha512-fiwivkEy0fQ7vE+Wy7LoySBMsC83uD1IKiulRbzPXv5VrBtV7bUcSD84MzueWP5l5FgTwniAqGubKbtkm7tr0A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-marketplaceprivateoffer@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-marketplaceprivateoffer/-/oci-marketplaceprivateoffer-2.100.3.tgz"
+  integrity sha512-wb7UGamBJ8Sn7qH1aZvxGfZoof+esURQ+fo9G22q/Y0EYm/zCLrzsUCMoru6/aTB0uQAP5E9pc5q4Ii5ihldrA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-marketplacepublisher@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-marketplacepublisher/-/oci-marketplacepublisher-2.100.3.tgz"
+  integrity sha512-0JwLadNs+E0i28dDA5vbf6Q+KfbxOVZeHBRbVGtWiM8jh0s1xlEI2q1MFK8bVUin1iu4eFX8n54ZDxcg4nogjQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-mediaservices@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-mediaservices/-/oci-mediaservices-2.100.3.tgz"
+  integrity sha512-a1pP1tf/mpvystH78DuuyoAbW9afFyyvETxIF0j0Ro17p4xy/AhM0EYdf3cEtkMJphd2Y3fOMmm1t9XeuIkhsg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-monitoring@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-monitoring/-/oci-monitoring-2.100.3.tgz"
+  integrity sha512-OiQ7Vt2aQypeOh3xaXrLLLbRMGjVBHbyitS6WE0PwchrB6W6xvo7zSS4lm4lUEPFhr010Q38KVRCnFXVVN4f4A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-mysql@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-mysql/-/oci-mysql-2.100.3.tgz"
+  integrity sha512-iH/+w//2iCKmHBDB9K+ecRplKpuhlTBbkHHNOFDKjUA99sNGePVuD4IeiL+YxDUNaIeSYJ/rX40Z65PCbyjG2A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-networkfirewall@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-networkfirewall/-/oci-networkfirewall-2.100.3.tgz"
+  integrity sha512-3GMOdFx5DyhWj+tFk7yMTPzvhvXDzF37SKg1WtNc73Owxwd+AcRbxpFcPdC2yGK3bnms809P5FO7J9JBSTWihQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-networkloadbalancer@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-networkloadbalancer/-/oci-networkloadbalancer-2.100.3.tgz"
+  integrity sha512-oNuM7sEdIhH4H1KwFCbwC84iUmVH/NezUEwFS/VUs3ABsNa8yu8cYXUyqZCq6zSY28ChuqtnEnQPqOn7S+UNwQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-nosql@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-nosql/-/oci-nosql-2.100.3.tgz"
+  integrity sha512-RrKNVHUfXEBvwi0PsD8ZeY/9RFZkxjMOmFuronsjN+fF/WNAd/0K1R7nt8SXApapcdX6+s67/sFPe5sGX8l+tg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-objectstorage@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-objectstorage/-/oci-objectstorage-2.100.3.tgz"
+  integrity sha512-xacams3dvA7VM6Cb1nbylKDVQf0lPK4HmbWmzEjtXXKGxhoyU1eM1HRbkMPDEt7rnDQSYCSRtsUcisE9UW3/OQ==
+  dependencies:
+    await-semaphore "^0.1.3"
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-oce@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-oce/-/oci-oce-2.100.3.tgz"
+  integrity sha512-aoDXUzgpyZ9qY5chiW1YpUmC28OrinExlIZ26TKKJDLcnYwYexdS5Bw7IzJ8D2r723KcmuW55O+rVpPY1+NleA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-ocicontrolcenter@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-ocicontrolcenter/-/oci-ocicontrolcenter-2.100.3.tgz"
+  integrity sha512-4vdaUgkkxLOpxSPl/la29kXmxnRWM9GYpBXb18BLQPk1rf36Jz7BNFmWbBimHy1Wyjo1ThK6z05TJ39n5M9NLQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-ocvp@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-ocvp/-/oci-ocvp-2.100.3.tgz"
+  integrity sha512-OUR9RIoZJDsWZhuld2eQDOjXiptisRHxKt1mvoNg/FE9DH/NwVNjSxYRTr2UNO6lLytrJZccule3Ef/PQPxD7A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-oda@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-oda/-/oci-oda-2.100.3.tgz"
+  integrity sha512-u1hGDyIv2hgtftPnvw6+jicHxlUw7i0QPUeD5KQDO1E5b7VpBxcaScgRdFnJZ8wxsbwwws+th2zxIYNoF3WJsg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-onesubscription@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-onesubscription/-/oci-onesubscription-2.100.3.tgz"
+  integrity sha512-f4Ewz1fbcOPGKiRdDxU4fORYEHt9hMUqASSkRS2vBzmsUFC+dQXp26pXUVtppKJw+DtB8psqYPX6AID81fbxOA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-ons@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-ons/-/oci-ons-2.100.3.tgz"
+  integrity sha512-sg9yh1MnHZxdgbh+zJWlY8PoZeaiOthTJfUQIKyYVow/NkO44UAIblAD6YX87/Xk6LOwt/baPRK4qc+8R2/Npw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-opa@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-opa/-/oci-opa-2.100.3.tgz"
+  integrity sha512-IgG6ow/JMD2yBMr1DQtRBypzmpazi0jAxm7pm6+vfDZuTTcCElZtP2ujNvUIVy6imMK0M5K0pGO/yWV/MKp10w==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-opensearch@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-opensearch/-/oci-opensearch-2.100.3.tgz"
+  integrity sha512-rvs4RDVtX8xaEYyzgO3KVZrEI6nXi9L70MDSmHBB4Ujk+xM+mlzBASNGpS2MzrPVgruCRJI+CfMugkono52bQA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-operatoraccesscontrol@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-operatoraccesscontrol/-/oci-operatoraccesscontrol-2.100.3.tgz"
+  integrity sha512-GIEUX/mwKUSRY8xVV1qIhegdUskwFgWpj+NXerfDL8lTKSocNJZcGahfj/4OsxFuvmhBgDfNVIewuEeRVGKSvw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-opsi@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-opsi/-/oci-opsi-2.100.3.tgz"
+  integrity sha512-hOwNXOzZ9aJareH4qFjJg++ZqOEJTuLqWD1SJxCkWkTg5acP++yyVuGCgBWqdEDPlRLPYy9mv9miKrfDW0eqxQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-optimizer@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-optimizer/-/oci-optimizer-2.100.3.tgz"
+  integrity sha512-cGKLhmkI8BjGd61P3X5pxE9exkWR/glr6JUiiTxixVORI6OhemFhQf7mhfTvylk+JksK3rAIO8Pcxlf20dyqnA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-osmanagement@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-osmanagement/-/oci-osmanagement-2.100.3.tgz"
+  integrity sha512-rbT70Q2sBokBrMQT1X53qj3sxRSmKEOtDMjTI5gyK1jEkBQ8cVzZmJAyPYlEElXvl+M7NAKvZqlbEjLiaZhs1w==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-osmanagementhub@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-osmanagementhub/-/oci-osmanagementhub-2.100.3.tgz"
+  integrity sha512-2sPYvaC8iAPmRn6fefaWbe2vsK5NXRAR6Ae7JcFLhHKJ1NcW3ii4BzQLjRKRgLaoSXpw3WDxXBkpILvHmuBlYQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-ospgateway@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-ospgateway/-/oci-ospgateway-2.100.3.tgz"
+  integrity sha512-tkx5Yw2/XB5O5CRQOBTBfHOSSO2KgQzp+funZXmiap1rn1fn5VcxViB8/sLJcmwLWF7ajS1aU47vHgcjFPu6yA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-osubbillingschedule@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-osubbillingschedule/-/oci-osubbillingschedule-2.100.3.tgz"
+  integrity sha512-K6K73KWQXOMaDsOQTJIKL5jjgPHbcV8/eWQ3ozOfVT8enZr4cOz4SWoZHVoUV3OKviAIe1WDxnYpqbZi7znh6A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-osuborganizationsubscription@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-osuborganizationsubscription/-/oci-osuborganizationsubscription-2.100.3.tgz"
+  integrity sha512-Xb4XkqJZuTKqtZj9GBCXq9/G4ERpTOVMblx4Zfn3MJkYBkgqPxu2M2aDWRhVLpDPjAPGgoMaPY535dwNXelbWA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-osubsubscription@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-osubsubscription/-/oci-osubsubscription-2.100.3.tgz"
+  integrity sha512-vZ3XlBIZXVckMTR47uhsqeZ81vS1qu9P7IZzP7zBKbU6HfxrluhIV3yfTZzNJkcYzP9jtK/ixToMo9v9L4OIeA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-osubusage@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-osubusage/-/oci-osubusage-2.100.3.tgz"
+  integrity sha512-mTRuHb7MpSYujqjCe14HLDl8j915jF0TAtT2SZl+GUme7MCF3BPwtnVxUsNIn0G+m/GicLg4R5raBhH03Vh8BA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-psql@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-psql/-/oci-psql-2.100.3.tgz"
+  integrity sha512-lqBRKo0CO4AuglIURK+kvzJRC3m5EvOt0BKgTP6WnuxNPSGv3F/NG6m1qodYyVhdlDYrmQudsiTa9qXXpywSjQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-queue@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-queue/-/oci-queue-2.100.3.tgz"
+  integrity sha512-dboDxD2VA8XMQLGAJ22SmgvimzsHEtQiS4Pqn2PYTlU+5nvlVrmhez+gCRNiMSWRBEe06BOH9atAmInORQmcTQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-recovery@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-recovery/-/oci-recovery-2.100.3.tgz"
+  integrity sha512-8z8+C56G/8OuwmFwVhpwf7RXTsoYw9OfdH487lTLzlZmegrlfUlHmYlod0Tj9rPFujQln/KbHEH2RQGcnp3tAA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-redis@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-redis/-/oci-redis-2.100.3.tgz"
+  integrity sha512-qjLil1INw2TPkyDOqCtZM+aR0HrI23WXAVgxYxdHwEds9aF7itu6E/K4W53gFLKb+mja45xX35zSwbaezct1YQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-resourcemanager@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-resourcemanager/-/oci-resourcemanager-2.100.3.tgz"
+  integrity sha512-4g6xOiMX4I9uYkZonj8+6DNIZvBLOVppjfR1dcBzvqgfj1rrdURnWj55rB5m044WC61EXqFCgaODMKF9BQrIZw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-resourcescheduler@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-resourcescheduler/-/oci-resourcescheduler-2.100.3.tgz"
+  integrity sha512-f1/O8hXbhsIaSf6VpJFs4J6mcXJaNjfEsCGd8pp/gOWt2AsLjbNEXkD5uTo6FUBP1unsyAYlGmmIM5ainYLP0g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-resourcesearch@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-resourcesearch/-/oci-resourcesearch-2.100.3.tgz"
+  integrity sha512-3xY+TQbT5wW/k4PavYbD5II3YvKb+LSodSQo19Y0evZThsIqxns5EERKsyxWyah2RwI1vsze2fZbl/AQcZGNYg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-rover@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-rover/-/oci-rover-2.100.3.tgz"
+  integrity sha512-8dPOF2F4V8+MOTvgjj+jFaXk8wNyNUsitTqrwvdQONz/oreK5XNwUfjAU/J3wXzVtGTTh0JXIE/ZGvQtlyZHsw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-sch@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-sch/-/oci-sch-2.100.3.tgz"
+  integrity sha512-B0dDWXP5lSiuC2AnITRfxs0DPc/ax+8iLULZyx9eFdfhCqa2M5D5auvevkgJKIpr1KDin+nK1S99uO7PmFVRAw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-sdk@^2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-sdk/-/oci-sdk-2.100.3.tgz"
+  integrity sha512-g8GjEgMJRrGaE1tDNTHs549RE11bLi4NeZ6dVPkiE+/ncKgIwHxidZoQKjOBx2gYLJS6AEQkNliWrugAJCfETg==
+  dependencies:
+    oci-accessgovernancecp "2.100.3"
+    oci-adm "2.100.3"
+    oci-aianomalydetection "2.100.3"
+    oci-aidocument "2.100.3"
+    oci-ailanguage "2.100.3"
+    oci-aispeech "2.100.3"
+    oci-aivision "2.100.3"
+    oci-analytics "2.100.3"
+    oci-announcementsservice "2.100.3"
+    oci-apigateway "2.100.3"
+    oci-apmconfig "2.100.3"
+    oci-apmcontrolplane "2.100.3"
+    oci-apmsynthetics "2.100.3"
+    oci-apmtraces "2.100.3"
+    oci-appmgmtcontrol "2.100.3"
+    oci-artifacts "2.100.3"
+    oci-audit "2.100.3"
+    oci-autoscaling "2.100.3"
+    oci-bastion "2.100.3"
+    oci-bds "2.100.3"
+    oci-blockchain "2.100.3"
+    oci-budget "2.100.3"
+    oci-capacitymanagement "2.100.3"
+    oci-certificates "2.100.3"
+    oci-certificatesmanagement "2.100.3"
+    oci-cims "2.100.3"
+    oci-cloudbridge "2.100.3"
+    oci-cloudguard "2.100.3"
+    oci-cloudmigrations "2.100.3"
+    oci-clusterplacementgroups "2.100.3"
+    oci-common "2.100.3"
+    oci-computecloudatcustomer "2.100.3"
+    oci-computeinstanceagent "2.100.3"
+    oci-containerengine "2.100.3"
+    oci-containerinstances "2.100.3"
+    oci-core "2.100.3"
+    oci-dashboardservice "2.100.3"
+    oci-database "2.100.3"
+    oci-databasemanagement "2.100.3"
+    oci-databasemigration "2.100.3"
+    oci-databasetools "2.100.3"
+    oci-datacatalog "2.100.3"
+    oci-dataflow "2.100.3"
+    oci-dataintegration "2.100.3"
+    oci-datalabelingservice "2.100.3"
+    oci-datalabelingservicedataplane "2.100.3"
+    oci-datasafe "2.100.3"
+    oci-datascience "2.100.3"
+    oci-delegateaccesscontrol "2.100.3"
+    oci-demandsignal "2.100.3"
+    oci-desktops "2.100.3"
+    oci-devops "2.100.3"
+    oci-disasterrecovery "2.100.3"
+    oci-dns "2.100.3"
+    oci-dts "2.100.3"
+    oci-email "2.100.3"
+    oci-emaildataplane "2.100.3"
+    oci-emwarehouse "2.100.3"
+    oci-events "2.100.3"
+    oci-filestorage "2.100.3"
+    oci-fleetappsmanagement "2.100.3"
+    oci-fleetsoftwareupdate "2.100.3"
+    oci-functions "2.100.3"
+    oci-fusionapps "2.100.3"
+    oci-generativeai "2.100.3"
+    oci-generativeaiagent "2.100.3"
+    oci-generativeaiagentruntime "2.100.3"
+    oci-generativeaiinference "2.100.3"
+    oci-genericartifactscontent "2.100.3"
+    oci-globallydistributeddatabase "2.100.3"
+    oci-goldengate "2.100.3"
+    oci-governancerulescontrolplane "2.100.3"
+    oci-healthchecks "2.100.3"
+    oci-identity "2.100.3"
+    oci-identitydataplane "2.100.3"
+    oci-identitydomains "2.100.3"
+    oci-integration "2.100.3"
+    oci-jms "2.100.3"
+    oci-jmsjavadownloads "2.100.3"
+    oci-keymanagement "2.100.3"
+    oci-licensemanager "2.100.3"
+    oci-limits "2.100.3"
+    oci-loadbalancer "2.100.3"
+    oci-lockbox "2.100.3"
+    oci-loganalytics "2.100.3"
+    oci-logging "2.100.3"
+    oci-loggingingestion "2.100.3"
+    oci-loggingsearch "2.100.3"
+    oci-managementagent "2.100.3"
+    oci-managementdashboard "2.100.3"
+    oci-marketplace "2.100.3"
+    oci-marketplaceprivateoffer "2.100.3"
+    oci-marketplacepublisher "2.100.3"
+    oci-mediaservices "2.100.3"
+    oci-monitoring "2.100.3"
+    oci-mysql "2.100.3"
+    oci-networkfirewall "2.100.3"
+    oci-networkloadbalancer "2.100.3"
+    oci-nosql "2.100.3"
+    oci-objectstorage "2.100.3"
+    oci-oce "2.100.3"
+    oci-ocicontrolcenter "2.100.3"
+    oci-ocvp "2.100.3"
+    oci-oda "2.100.3"
+    oci-onesubscription "2.100.3"
+    oci-ons "2.100.3"
+    oci-opa "2.100.3"
+    oci-opensearch "2.100.3"
+    oci-operatoraccesscontrol "2.100.3"
+    oci-opsi "2.100.3"
+    oci-optimizer "2.100.3"
+    oci-osmanagement "2.100.3"
+    oci-osmanagementhub "2.100.3"
+    oci-ospgateway "2.100.3"
+    oci-osubbillingschedule "2.100.3"
+    oci-osuborganizationsubscription "2.100.3"
+    oci-osubsubscription "2.100.3"
+    oci-osubusage "2.100.3"
+    oci-psql "2.100.3"
+    oci-queue "2.100.3"
+    oci-recovery "2.100.3"
+    oci-redis "2.100.3"
+    oci-resourcemanager "2.100.3"
+    oci-resourcescheduler "2.100.3"
+    oci-resourcesearch "2.100.3"
+    oci-rover "2.100.3"
+    oci-sch "2.100.3"
+    oci-secrets "2.100.3"
+    oci-securityattribute "2.100.3"
+    oci-servicecatalog "2.100.3"
+    oci-servicemanagerproxy "2.100.3"
+    oci-servicemesh "2.100.3"
+    oci-stackmonitoring "2.100.3"
+    oci-streaming "2.100.3"
+    oci-tenantmanagercontrolplane "2.100.3"
+    oci-threatintelligence "2.100.3"
+    oci-usage "2.100.3"
+    oci-usageapi "2.100.3"
+    oci-vault "2.100.3"
+    oci-vbsinst "2.100.3"
+    oci-visualbuilder "2.100.3"
+    oci-vnmonitoring "2.100.3"
+    oci-vulnerabilityscanning "2.100.3"
+    oci-waa "2.100.3"
+    oci-waas "2.100.3"
+    oci-waf "2.100.3"
+    oci-workrequests "2.100.3"
+    oci-zpr "2.100.3"
+
+oci-secrets@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-secrets/-/oci-secrets-2.100.3.tgz"
+  integrity sha512-EwutteL356SgQA+OSJOBD0WwRn8xmT+ZmyXRVz2uRxNXX0ZwvPWJuARbv3SscbrXwrOGYv9asdAuVPsnRLfc9g==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-securityattribute@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-securityattribute/-/oci-securityattribute-2.100.3.tgz"
+  integrity sha512-QYNRQWB4Mj/R7/3WluLod3Bir+1VTWr4Ns+9kltYq3NI6oyOi76zBbRnrLCMOMwzIVwiIt3N41PuouIpCPB8MA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-servicecatalog@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-servicecatalog/-/oci-servicecatalog-2.100.3.tgz"
+  integrity sha512-2ulu6XOZ8TBJ2vFpeaS8Du2pPvU2qVo1fwffDFRKWI/GnLhhOfshic8fVwqcxMYjGgiQxQT4l1aNlaN9Y/KjmQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-servicemanagerproxy@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-servicemanagerproxy/-/oci-servicemanagerproxy-2.100.3.tgz"
+  integrity sha512-DnIIq1epSyGmkmVh9zr6T8eUvLwfyBnvQW0ULSgVOqKWz5lFqNrANsQTxownfRwoKumjezf6wG+wWsF7OG+7UA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-servicemesh@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-servicemesh/-/oci-servicemesh-2.100.3.tgz"
+  integrity sha512-gpTR/ZKikjSAh2QZ1Wy/YmRWCeiXzpurXnONZxPJ929Nh6mBi5K3SXB3OhVy3K+h2ieIiS3iFmeWWZFH3zQpfQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-stackmonitoring@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-stackmonitoring/-/oci-stackmonitoring-2.100.3.tgz"
+  integrity sha512-2SuSHfLXUNZ6PJNzUt/fs6uhqu1dPc1uQrLUL8CUOWL4md+8oNl50IhZa3KhFSEV+4yRNlFyWgxjoELrZzpjBg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-streaming@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-streaming/-/oci-streaming-2.100.3.tgz"
+  integrity sha512-ao40aGDz8U1bjlY0p4cAktDKEYyFKzOGdybEjGHAt00C+3zeDwM4AYakyTNhp8yBd9nknDmjWQH7nTt0EDfhGw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-tenantmanagercontrolplane@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-tenantmanagercontrolplane/-/oci-tenantmanagercontrolplane-2.100.3.tgz"
+  integrity sha512-zHe8BmF5Kl5F3SRWyCvm5ADfO0FQQ50G3fa+DmaG7sbQK3NPQanL+Wf0WWrcrSIRTXwtOsO6qLSDmpRriZgADQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-threatintelligence@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-threatintelligence/-/oci-threatintelligence-2.100.3.tgz"
+  integrity sha512-JtxNKuXiPTOno7fRtD3jQndf6cdheKo522sPhay5VGQDBn0kykNtxGrhVOojknhXrjaH8Exgw/+ke6F/6UgaFQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-usage@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-usage/-/oci-usage-2.100.3.tgz"
+  integrity sha512-YxygdMRaXyzahdom3OpTkK3kTKWTgbgmx/L6fDkZn6g7mVdnXKtxscW5tmjzkLZdnZcoZoOVMOMRXMmRY1ghGw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-usageapi@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-usageapi/-/oci-usageapi-2.100.3.tgz"
+  integrity sha512-/YTRhnC2nuGXtqdN5i0XZ7JZinkQ8oeDzjBQ34rrtB4ltDB9GDLUQ8AoyUahdOxDNkQjboJz4GyJi76UCelZYw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-vault@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-vault/-/oci-vault-2.100.3.tgz"
+  integrity sha512-HNiaVbViXcX2qnBykwN/R2OjqgrgoIDMB/fzV0I3r7B0LOXNSZZ59UBHxgmYksaszGfZRTThfOH0qpd3AMzQEg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-vbsinst@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-vbsinst/-/oci-vbsinst-2.100.3.tgz"
+  integrity sha512-KVqkTpRsm02h3qhXuG6mTnhi/pnHyc4RCXsFURnhsg4zzw+f1omMNygNz0phDKsvbOd+71UGASxGvQcCHah9bQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-visualbuilder@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-visualbuilder/-/oci-visualbuilder-2.100.3.tgz"
+  integrity sha512-iyDWkcHQL2IAsaJO+/9Bgs7pxcq4XBgMMCcInGCtOjJc9xTU7OVOafxacyqaW+ZFQ2ZvbhXsNRbtk+rGauaD4A==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-vnmonitoring@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-vnmonitoring/-/oci-vnmonitoring-2.100.3.tgz"
+  integrity sha512-9jE5wJqOM3d0w/NUzakpPeff2VY0sj8Ydjx+/n5CQuxMPRTpkKCPl1LaLtnZNnjKDcqe2s9XLUZssWCTPKr4Hw==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-vulnerabilityscanning@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-vulnerabilityscanning/-/oci-vulnerabilityscanning-2.100.3.tgz"
+  integrity sha512-U1E6t/QpMA5Cad1q6/3OX9i3i2xk8ohN7UplVQo5zpJ46ASISBJQbB8vXFj89rqcqOCYhxup+t2FPrkPukBpoQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-waa@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-waa/-/oci-waa-2.100.3.tgz"
+  integrity sha512-lzm+gfJloyK+VF2AC8EAlbpNbirmsZrr9XxbFRrtSmNno9yc9+IUxpkcZdi8AlboD8K4adcNmyre1GlPFIGFrA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-waas@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-waas/-/oci-waas-2.100.3.tgz"
+  integrity sha512-eNtcJsBRJNZohhUVJti8ihmRD9zy0NGy766T//i/1TwxG8QaNRFtPxkupicMsyTs4aPoNtxn4Q0ip4tcTINfSA==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-waf@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-waf/-/oci-waf-2.100.3.tgz"
+  integrity sha512-B0mjZHbhVjtom3x2g11UgOHNr8/AILW3JtrR3H59GS88NjUSRgyOqEVI/BV2vhOcCtwIFUP0WD6pdrFsygo3xg==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-workrequests@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-workrequests/-/oci-workrequests-2.100.3.tgz"
+  integrity sha512-zQKAFJhMKDmE6S3krgrxi4eMcWLTh5F7IUFUHJ2eumirsUHvGMNu3YTzMlWpYYaSM8atG/kwBb3hUo4x4FaCnQ==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
+oci-zpr@2.100.3:
+  version "2.100.3"
+  resolved "https://registry.npmjs.org/oci-zpr/-/oci-zpr-2.100.3.tgz"
+  integrity sha512-X0y7bOV32NgbPehsLQbtvuJmh/t8jwN4cixxVAA6ScO1Q7pEMKU5K95FX9vVX2avBIqf5Pq7mWz3lLKGLtP9Og==
+  dependencies:
+    oci-common "2.100.3"
+    oci-workrequests "2.100.3"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz"
@@ -9462,6 +10916,11 @@ opener@^1.5.2:
   version "1.5.2"
   resolved "https://registry.npmjs.org/opener/-/opener-1.5.2.tgz"
   integrity sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
+
+opossum@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/opossum/-/opossum-5.0.1.tgz"
+  integrity sha512-iUDUQmFl3RanaBVLMDTZ6WtXj/Hk84pwJ5JWoJaQd1lXGifdApHhszI3biZvdBDdpTERCmB6x+7+uNvzhzVZIg==
 
 optionator@^0.8.1:
   version "0.8.3"
@@ -9780,6 +11239,11 @@ picocolors@^1, picocolors@^1.0.0, picocolors@^1.0.1:
   version "1.1.0"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.0.tgz"
   integrity sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==
+
+picocolors@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
+  integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
   version "2.3.1"
@@ -11265,14 +12729,7 @@ resolve.exports@^1.1.0:
   resolved "https://registry.npmjs.org/resolve.exports/-/resolve.exports-1.1.0.tgz"
   integrity sha512-J1l+Zxxp4XK3LUDZ9m60LRJF/mAe4z6a4xyabPHk7pvK5t35dACV32iIjJDFeWZFfZlO29w6SZ67knR0tHzJtQ==
 
-resolve@^1.1.6:
-  version "1.15.1"
-  resolved "https://registry.npmjs.org/resolve/-/resolve-1.15.1.tgz"
-  integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==
-  dependencies:
-    path-parse "^1.0.6"
-
-resolve@^1.1.7, resolve@^1.10.0, resolve@^1.14.2, resolve@^1.20.0, resolve@^1.22.0, resolve@^1.22.2, resolve@^1.3.2, resolve@^1.9.0:
+resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.14.2, resolve@^1.20.0, resolve@^1.22.0, resolve@^1.22.2, resolve@^1.3.2, resolve@^1.9.0:
   version "1.22.8"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.22.8.tgz"
   integrity sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==
@@ -11746,6 +13203,21 @@ ssh2@1.4.0:
     cpu-features "0.0.2"
     nan "^2.15.0"
 
+sshpk@1.16.1:
+  version "1.16.1"
+  resolved "https://registry.npmjs.org/sshpk/-/sshpk-1.16.1.tgz"
+  integrity sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==
+  dependencies:
+    asn1 "~0.2.3"
+    assert-plus "^1.0.0"
+    bcrypt-pbkdf "^1.0.0"
+    dashdash "^1.12.0"
+    ecc-jsbn "~0.1.1"
+    getpass "^0.1.1"
+    jsbn "~0.1.0"
+    safer-buffer "^2.0.2"
+    tweetnacl "~0.14.0"
+
 sshpk@^1.14.1:
   version "1.18.0"
   resolved "https://registry.npmjs.org/sshpk/-/sshpk-1.18.0.tgz"
@@ -11860,7 +13332,7 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -11877,6 +13349,15 @@ string-width@^3.0.0, string-width@^3.1.0:
     emoji-regex "^7.0.1"
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
+
+string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
 
 string-width@^5.0.1, string-width@^5.1.2:
   version "5.1.2"
@@ -11941,7 +13422,7 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
   resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -11954,6 +13435,13 @@ strip-ansi@^5.0.0, strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
   dependencies:
     ansi-regex "^4.1.0"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
 
 strip-ansi@^7.0.1:
   version "7.1.0"
@@ -12729,13 +14217,13 @@ untildify@^4.0.0:
   resolved "https://registry.npmjs.org/untildify/-/untildify-4.0.0.tgz"
   integrity sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==
 
-update-browserslist-db@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.0.tgz"
-  integrity sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==
+update-browserslist-db@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.1.2.tgz#97e9c96ab0ae7bcac08e9ae5151d26e6bc6b5580"
+  integrity sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==
   dependencies:
-    escalade "^3.1.2"
-    picocolors "^1.0.1"
+    escalade "^3.2.0"
+    picocolors "^1.1.1"
 
 uri-js@^4.2.2:
   version "4.4.1"
@@ -12795,6 +14283,11 @@ uuid@3.3.2:
   version "3.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+uuid@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/uuid/-/uuid-3.3.3.tgz"
+  integrity sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
 
 uuid@^3.3.2:
   version "3.4.0"
@@ -13035,6 +14528,11 @@ whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
+whatwg-fetch@^3.4.1:
+  version "3.6.20"
+  resolved "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.20.tgz"
+  integrity sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==
+
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz"
@@ -13114,7 +14612,7 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -13136,6 +14634,15 @@ wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
@@ -13262,6 +14769,11 @@ yargs-parser@^21.0.0:
   resolved "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.0.1.tgz"
   integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
 
+yargs-parser@^21.1.1:
+  version "21.1.1"
+  resolved "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz"
+  integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
+
 yargs@^13.3.0:
   version "13.3.2"
   resolved "https://registry.npmjs.org/yargs/-/yargs-13.3.2.tgz"
@@ -13309,17 +14821,17 @@ yargs@^16.2.0:
     yargs-parser "^20.2.2"
 
 yargs@^17.2.1:
-  version "17.4.0"
-  resolved "https://registry.npmjs.org/yargs/-/yargs-17.4.0.tgz"
-  integrity sha512-WJudfrk81yWFSOkZYpAZx4Nt7V4xp7S/uJkX0CnxovMCt1wCE8LNftPpNuF9X/u9gN5nsD7ycYtRcDf2pL3UiA==
+  version "17.7.2"
+  resolved "https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz"
+  integrity sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==
   dependencies:
-    cliui "^7.0.2"
+    cliui "^8.0.1"
     escalade "^3.1.1"
     get-caller-file "^2.0.5"
     require-directory "^2.1.1"
     string-width "^4.2.3"
     y18n "^5.0.5"
-    yargs-parser "^21.0.0"
+    yargs-parser "^21.1.1"
 
 yargs@^17.3.0:
   version "17.3.1"

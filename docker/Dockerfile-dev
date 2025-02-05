@@ -14,16 +14,26 @@ RUN apt-get update && \
 # Setup work directory
 WORKDIR /app
 
+# Copy root package.json and yarn.lock
 COPY package.json yarn.lock ./
 
-# Install yarn dependencies
+# Install root yarn dependencies
 RUN yarn
 
+# Copy the rest of the application
 COPY . .
+# Copy .env-local-docker
+COPY .env-local-docker ./
+# Install dependencies for each subproject
+RUN cd common && yarn && cd .. && \
+    cd server && yarn && cd .. && \
+    cd web && yarn && cd .. && \
+    cd maintenance && yarn && cd ..
 
 # Run build
 RUN yarn build
 
+# Copy web images to the dist folder
 RUN cp -r /app/web/img /app/web/dist/
 
 # Create directory for storing logs

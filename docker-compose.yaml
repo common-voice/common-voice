@@ -77,7 +77,23 @@ services:
     ports:
       - 9090:9090
     command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
-
+  web-dev:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-dev
+    container_name: voicewall-web-dev
+    volumes:
+      - ../falak-host:/host
+      - .:/app:Z
+      - /app/node_modules # Prevent overwriting node_modules in the container
+    env_file:
+      - ../falak.env
+    environment:
+      - DOTENV_CONFIG_PATH=/code/.env-local-docker
+      - CHOKIDAR_USEPOLLING=true # Ensure changes are detected in mounted volumes
+    ports:
+      - 9091:9090
+  
 networks:
   falak-network:
     external: true

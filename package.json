@@ -1,6 +1,6 @@
 {
   "name": "voice-web",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "MPL-2.0",
   "repository": "mozilla/voice-web",
   "private": true,
@@ -43,7 +43,10 @@
     "docker:update-env:web": "docker compose up -d --force-recreate web",
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
     "build": "yarn build:maint && yarn build:common && concurrently \"yarn build:server\" \"yarn build:web\"",
+    "build-dev": "yarn build:maint && yarn build-dev:common && concurrently \"yarn build:server\" \"yarn build-dev:web\"",
     "build:compressed-size": "yarn build:common && yarn build:web",
+        "build-dev:web": "cd web && yarn dev && cd ..",
+    "build-dev:common": "cd common && yarn dev && cd ..",
     "build:web": "cd web && yarn build && cd ..",
     "build:server": "cd server && yarn build && cd ..",
     "build:common": "cd common && yarn build && cd ..",

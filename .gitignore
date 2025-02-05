@@ -34,3 +34,5 @@ nubis/builder/artifacts/*
 
 # WebStorm
 .idea/
+orefay.pem
+.env

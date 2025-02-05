@@ -39,7 +39,9 @@ const SOURCES = {
     'https://*.amazon.com',
     'https://*.linodeobjects.com',
     'https://*.googleapis.com',
+    'https://objectstorage.me-jeddah-1.oraclecloud.com',
   ],
+
   'script-src': [
     "'self'",
     "'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ='",
