@@ -10,9 +10,12 @@ listen-loading-error = Amka anik audio clip mevona tuka aikpak. Magir kenna poro
 listen-abort-title = Clip-achi topasni korun zali?
 listen-abort-cancel = Topasni chalu dovor
 listen-abort-confirm = Puro zale
+# Menu item
+validate-readings = Vachop Topas
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Vachop Topas, Transcription Niyal Kor
 
 ## MENU ITEM ARIA LABELS
 

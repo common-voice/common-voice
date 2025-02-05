@@ -52,6 +52,7 @@ export const CommunitySection: React.FC = () => {
                       src={sections[activeSection].image}
                       alt=""
                       className="section-image"
+                      loading="lazy"
                     />
                   </div>
                 )}
@@ -63,6 +64,7 @@ export const CommunitySection: React.FC = () => {
               <img
                 src={sections[activeSection].image}
                 alt="Community Section"
+                loading="lazy"
               />
             )}
           </div>

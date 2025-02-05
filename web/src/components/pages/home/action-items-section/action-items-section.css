@@ -93,17 +93,17 @@
                 height: 155px;
 
                 &.scripted {
-                    background-image: url('./assets/scripted-speech.jpg');
+                    background-image: url('./assets/scripted-speech.webp');
                     background-size: 100% 100%;
                 }
 
                 &.spontaneous {
-                    background-image: url('./assets/spontaneous-speech.jpg');
+                    background-image: url('./assets/spontaneous-speech.webp');
                     background-size: 100% 100%;
                 }
 
                 &.language-text {
-                    background-image: url('./assets/language-text.jpg');
+                    background-image: url('./assets/language-text.webp');
                     background-size: 100% 100%;
                 }
             }

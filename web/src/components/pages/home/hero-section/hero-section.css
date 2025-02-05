@@ -1,7 +1,7 @@
 .hero-section {
     display: flex;
     justify-content: center;
-    background: url('./assets/home-bg-waves.png');
+    background: url('./assets/home-bg-waves.webp');
     background-size: 100% 100%;
 
     .hero-container {
