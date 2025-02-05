@@ -264,6 +264,7 @@ privacy = Ekant
 terms = Nhem
 cookies = Cookies
 faq = Porot Porot Vichar'lele Prosn
+documentation = Documentation
 content-license-text = Content dille asa eke <licenseLink>Creative Commons license'a</licenseLink> vorvim
 share-title = Amche moddat korat anikui lokkank hadun tanche avaaz dhan korunk!
 share-text = Moddot kor machine'ak shikovpak ki koshe bashen os'li monnis uloita, aple avaaz dhan korat { $link }
