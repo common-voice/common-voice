@@ -387,15 +387,6 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <div className="cta-placeholder" />
           ) : (
             <div className="cards-and-instruction">
-              {instruction({
-                vars: { actionType: getString('action-click') },
-                children: (
-                  <div
-                    className="instruction hidden-sm-down"
-                    data-testid="instruction"
-                  />
-                ),
-              }) || <div className="instruction hidden-sm-down" />}
 
               <div className="cards">
                 {sentences.map((sentence, i) => {
@@ -477,6 +468,16 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                   );
                 })}
               </div>
+
+              {instruction({
+                vars: { actionType: getString('action-click') },
+                children: (
+                  <div
+                    className="instruction hidden-sm-down"
+                    data-testid="instruction"
+                  />
+                ),
+              }) || <div className="instruction hidden-sm-down" />}
             </div>
           )}
 

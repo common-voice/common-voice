@@ -36,7 +36,7 @@ export default Object.freeze({
   ABOUT: '/about',
   CRITERIA: '/criteria',
   PARTNER: '/partner',
-  GUIDELINES: '/guidelines',
+  GUIDELINES: '/voicewall/guidelines',
   SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
 
   LANGUAGES: '/languages',

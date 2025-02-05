@@ -8,6 +8,7 @@ import { useRef, useState } from 'react';
 import { trackRecording } from '../../../../services/tracker';
 import { useLocale } from '../../../locale-helpers';
 import {
+  PauseIcon,
   StopIcon,
 } from '../../../ui/icons';
 import { ContributionPillProps } from '../contribution';
@@ -100,7 +101,7 @@ function RecordingPill({
               onMouseEnter={() => setShowSentenceTooltip(true)}
               onMouseLeave={() => setShowSentenceTooltip(false)}>
               <span className="padder">
-                {isPlaying ? <StopIcon /> : <img src="/voicewall/img/play-rounded.svg" alt="play-icon" />}
+                {isPlaying ? <PauseIcon /> : <img src="/voicewall/img/play-rounded.svg" alt="play-icon" />}
               </span>
             </button>
           </Tooltip>
