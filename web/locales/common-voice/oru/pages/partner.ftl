@@ -15,6 +15,6 @@ partnerships-small-business-header = زری بِزنس، پشمول ته ټېک 
 partnerships-small-business-description = ماخ بو همېشه انتظار کيېن که ته ډېټا کنیومر لاسته ته رئ ته ضروریات پته کيېن۔ ډېټا کولېکشن پلېټ فارم لاسته ره وُر ډېټا هېلتهـ توݭکيې۔ ماخ بُو زېن که تُو لاسته<emailFragment> امريېن </emailFragment>
 partnerships-corporates-header = په غوټو شریکي بو پلېټ فارم کمپنئے
 partnerships-corporates-description = که تُو زېيي که ته ډېټا سېټ زر بيې ګه ژغ او آ بو زېيي که په شریکه سرمایه داري يې کيېن پلانډ پلېټ فارم اېکسپېنشن نر ېا خوئ منځ امدادي موقعي نر، ماخ کی يې ݭيے لیکه لیکئ په پا پته<emailFragment>
-partnerships-our-partners = تر ا بائی ولی
+partnerships-our-partners = ترماخ ا بائی ولی
 # menu item
 partners = بائولي
