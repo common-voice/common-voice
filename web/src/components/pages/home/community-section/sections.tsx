@@ -38,7 +38,7 @@ export const sections: Section[] = [
   {
     title: 'find-us-on-matrix',
     content: 'find-us-on-matrix-content',
-    image: require('./assets/matrix.jpg'),
+    image: require('./assets/matrix.webp'),
     action: () => (
       <LinkButton
         rounded
@@ -55,7 +55,7 @@ export const sections: Section[] = [
   {
     title: 'ask-mozilla-share',
     content: 'ask-mozilla-share-content',
-    image: require('./assets/mozilla-share.jpg'),
+    image: require('./assets/mozilla-share.webp'),
     action: () => (
       <ContactLink className="action">
         <ShareLinkIcon />
@@ -68,12 +68,12 @@ export const sections: Section[] = [
   {
     title: 'download-contribution-certificate',
     content: 'download-contribution-certificate-content',
-    image: require('./assets/certificate.jpg'),
+    image: require('./assets/certificate.webp'),
     action: () => (
       <LinkButton
         rounded
         className="action"
-        href={require('./assets/certificate-of-contribution-to-open-source-multilingual-technology.png')}
+        href={require('./assets/certificate-of-contribution-to-open-source-multilingual-technology.webp')}
         target="_blank"
         download="certificate-of-contribution-to-open-source-multilingual-technology">
         <img src={AwardIcon} alt="award icon" />
@@ -86,7 +86,7 @@ export const sections: Section[] = [
   {
     title: 'contribute-github',
     content: 'contribute-github-content',
-    image: require('./assets/contribute.jpg'),
+    image: require('./assets/contribute.webp'),
     action: () => (
       <LinkButton
         rounded
