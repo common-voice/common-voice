@@ -18,7 +18,7 @@ validated-clips = Clips validaos
 total-approved = Total d'aprobaos
 overall-accuracy = Precisión xeneral
 set-visibility = Afitar la mio visibilidá
-visibility-explainer = Esti axuste controla la to visibilidá na clasificación. Al tar invisible, va anubrise lo que progreses. Eso significa que'l to avatar, nome d'usuariu y progresu nun van apaecer nesta tabla. Decátate que la clasificación refréscase cada ~{ $minutes } minutos p'amosar los cambeos.
+visibility-explainer = Esta opción controla la to visibilidá na clasificación. Al tar invisible, va escondese lo que progreses. Eso significa que'l to avatar, nome d'usuariu y progresu nun van apaecer nesta tabla. Decátate que la clasificación anuévase cada ~{ $minutes } minutos p'amosar los cambeos.
 visibility-overlay-note = Nota: Al aftiar «Visible», esti axuste pue modificase dende la <profileLink>páxina del perfil</profileLink>
 show-ranking = Amosar la mio clasificación
 
