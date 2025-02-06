@@ -4,6 +4,8 @@ language-section-in-progress = En cursu
 language-section-in-progress-new-description = La comunidá de cauna de les llingües qu'hai equí ta <localizationGlossaryLink>traduciendo la páxina web</localizationGlossaryLink> y <sentenceCollectionGlossaryLink>recoyendo frases</sentenceCollectionGlossaryLink>. Les barres de progresu indiquen cómo van.
 language-section-launched = En producción
 language-section-launched-description = Les llingües d'equí <localizationGlossaryLink>traduxeron</localizationGlossaryLink> la paxina web y tienen abondes <sentenceCollectionGlossaryLink>frases recoyíes</sentenceCollectionGlossaryLink> pa permitir les collaboraciones en <speakLink>Falar</speakLink> y <listenLink>Sentir</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Últimu anovamientu: { $lastUpdatedTimeStamp }
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-meter-in-progress = Progresu
