@@ -730,7 +730,7 @@ export default class DB {
         SELECT clips.*
         FROM clips
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_valid =1 AND clips.locale_id = ? AND client_id <> ?
+        WHERE is_approved =1 AND clips.locale_id = ? AND client_id <> ?
         AND NOT EXISTS(
           SELECT clip_id
           FROM votes
@@ -776,7 +776,7 @@ export default class DB {
     FROM (
       SELECT * FROM clips
       WHERE locale_id = ?
-      AND is_valid = 1
+      AND is_approved = 1
       AND clips.client_id <> ?
       AND NOT EXISTS (
         SELECT clip_id
