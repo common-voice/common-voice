@@ -1,5 +1,6 @@
 ## WRITE PAGE
 
+write = Sestavi
 sentence =
     .label = Stavek
 
