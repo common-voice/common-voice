@@ -90,6 +90,7 @@ describe('Email', () => {
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
+          platform: 'common-voice',
           languageInfo:
             "I'd love for JavaScript to be supported on CommonVoice",
           languageLocale: 'en-US',
@@ -103,6 +104,8 @@ describe('Email', () => {
           html: `
       <h2>Email</h2>
       <p><a href="mailto:test@example.com">test@example.com</a></p>
+      <h2>Platform</h2>
+      <p>common-voice</p>
       <h2>Language Information</h2>
       <p>I'd love for JavaScript to be supported on CommonVoice</p><h2>Language Locale</h2>
         <p>en-US</p>
@@ -116,6 +119,7 @@ describe('Email', () => {
       it('handles missing language locale', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
+          platform: 'common-voice',
           languageInfo:
             "No languages for me, just want to say you're doing a great job!",
         });
@@ -127,6 +131,8 @@ describe('Email', () => {
           html: `
       <h2>Email</h2>
       <p><a href="mailto:test@example.com">test@example.com</a></p>
+      <h2>Platform</h2>
+      <p>common-voice</p>
       <h2>Language Information</h2>
       <p>No languages for me, just want to say you're doing a great job!</p>
       `.trim(),
@@ -168,6 +174,7 @@ describe('Email', () => {
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
+          platform: 'common-voice',
           languageInfo:
             "I'd love for JavaScript to be supported on CommonVoice",
           languageLocale: 'en-US',
