@@ -1,5 +1,5 @@
 confirmation-modal-title = Hes̃h gok̃hit
 # Label for button to cancel navigation
-cancel-button = Cebas pishav
+cancel-button = Cẽbas pẽshaw
 # Label for button to continue navigation
-continue-button = jori lecer
+continue-button = jori lecẽr
