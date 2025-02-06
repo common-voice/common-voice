@@ -29,6 +29,7 @@ add-sentence-success = 1 ປະໂຫຍກທີ່ເກັບກໍາ
 add-sentence-error = ເກີດຄວາມຜິດພາດໃນການເພີ່ມປະໂຫຍກ
 required-field = ກະລຸນາປ້ອນຂໍ້ມູນໃສ່ໃນຊ່ອງນີ້.
 single-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກດຽວ
+small-batch-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກ batch ຂະຫນາດນ້ອຍ
 bulk-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກຈໍານວນຫລາຍ
 single-sentence = ປະໂຫຍກດຽວ
 small-batch-sentence = ຊຸດນ້ອຍ
