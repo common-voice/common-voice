@@ -128,7 +128,7 @@ bulk-sentences = جمل جماعية
 
 
 
-accept-privacy-and-terms = أوافق على <termsLink>شروط</termsLink> و<privacyLink>إشعار الخصوصية</privacyLink> الخاص بـ  الجدارية الصوتية
+accept-privacy-and-terms = أوافق على <privacyLink>سياسة الاستخدام</privacyLink> الخاص بـ  الجدارية الصوتية
 just-unsure-explanation = إذا صادفت شيئًا لا تغطيه هذه الإرشادات، فيرجى التصويت وفقًا لأفضل تقدير لديك. إذا لم تتمكن حقًا من اتخاذ القرار، فاستخدم زر التخطي وانتقل إلى التسجيل التالي.
 
 

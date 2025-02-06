@@ -92,7 +92,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   // MYSQLHOST: configEntry('CV_MYSQLHOST', 'localhost'),
   // MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLHOST: configEntry('CV_MYSQLHOST', ''),
-  MYSQLPORT: configEntry('CV_MYSQLPORT', 3307, castInt),
+  MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLREPLICAHOST: configEntry('CV_MYSQLREPLICAHOST', ''),
   MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
   // CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', 'common-voice-clips'),
