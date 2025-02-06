@@ -16,8 +16,7 @@ export default function FalakFooter() {
           <div className="mt-4">
             <div className="text-center text-xs lg:pr-2 text-white font-bold">
               جميع الحقوق محفوظة لمجمع الملك سلمان العالمي للغة العربية © 2024.
-              <a href="javascript:;" className="text-white underline">سياسة الاستخدام</a> .
-              <a href="javascript:;" className="text-white underline">الأسئلة الشائعة</a>
+              <a href="https://falak.ksaa.gov.sa/privacy" target='_blank' className="text-white underline">سياسة الاستخدام</a> 
             </div>
             
             <div className="flex flex-col items-center justify-center mt-3">

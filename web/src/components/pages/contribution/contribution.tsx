@@ -554,16 +554,17 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
         <div className="buttons">
           <div>
-            <LinkButton
+            {/* <LinkButton
               rounded
               className="guidelines-button bg-white text-black"
               blank
-              to={URLS.GUIDELINES}>
+              to={'https://falak.ksaa.gov.sa/voicewall/ar/guidelines'}>
               <QuestionIcon />
               <Localized id="guidelines">
                 <span />
               </Localized>
-            </LinkButton>
+            </LinkButton> */}
+            
             <div className="extra-buttons">
               <Tooltip title="Shortcuts" arrow>
                 <Button
@@ -593,7 +594,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                         id="accept-privacy-and-terms"
                         elems={{
                           termsLink: <LocaleLink to={URLS.TERMS} blank />,
-                          privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                          privacyLink: <LocaleLink to={'https://falak.ksaa.gov.sa/privacy'} blank />,
                         }}>
                         <span />
                       </Localized>

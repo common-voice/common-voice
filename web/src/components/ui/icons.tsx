@@ -679,7 +679,7 @@ export const PlayIcon = Icon(require('./icons/play.svg'), 'play')
 
 export const PauseIcon = () => (
 <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-	 width="800px" height="800px" viewBox="0 0 332.145 332.146">
+	 width="23px" height="23px" viewBox="0 0 332.145 332.146">
 <g>
 	<g>
 		<path d="M121.114,0H25.558c-8.017,0-14.517,6.5-14.517,14.515v303.114c0,8.017,6.5,14.517,14.517,14.517h95.556

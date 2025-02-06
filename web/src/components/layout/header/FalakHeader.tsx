@@ -59,7 +59,7 @@ export default function FalakHeader() {
             </li>
           </ul>
           {/* {!isLoggedIn ? ( */}
-          <div className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0">
+          <div className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0" style={{ display: 'none' }}>
             <a
               href="https://falak.ksaa.gov.sa/auth/login"
               className={`flex items-center space-x-2 ${classes['login-button']}`}>
