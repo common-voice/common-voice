@@ -1,4 +1,4 @@
-FROM node:18-bookworm
+FROM public.ecr.aws/docker/library/node:18-bookworm
 
 ARG COMMIT="local-build"
 ARG TAG=""
