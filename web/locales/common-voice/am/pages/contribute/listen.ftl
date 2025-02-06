@@ -14,9 +14,17 @@ listen-abort-cancel = ማረጋገጡን ይቀጥሉ
 listen-abort-confirm = ማረጋገጥን ጨርስ
 # Menu item
 validate-readings = ንባቦችን ያረጋግጡ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ንባቦችን አረጋግጥ <ትንሽ>(በቅርብ ቀን)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ንባቦችን ያረጋግጡ፣ ፅሁፎችን ይገምግሙ
+validate-readings-menu-item-tooltip = በቋንቋዎ ተጠቃሚ የተቀዳ ንባቦችን አረጋግጥ
+review-transcriptions-menu-item-tooltip = በቋንቋዎ ውስጥ በተጠቃሚ የገቡትን ፅሁፎች ይገምግሙ
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = የማዳመጥ አማራጮች ምናሌ
+validate-readings-menu-item-aria-label = በማህበረሰቡ አባላት የቀረቡ ንባቦችን ያረጋግጡ
+review-transcriptions-menu-item-aria-label = ለትክክለኛነት የተመዘገቡትን ዓረፍተ ነገሮች ፅሁፎች ይገምግሙ

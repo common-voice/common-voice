@@ -5,6 +5,7 @@ write-instruction = የወል ጎራ ዓረፍተ ነገር <icon></icon> ያክ
 write-page-subtitle = እዚህ የተበረከቱ ዓረፍተ-ነገሮች በይፋ ወደሚገኝ cc-0 ፈቃድ ያለው የውሂብ ስብስብ ይታከላሉ።
 sentence =
     .label = ዓረፍተ-ነገር
+sentence-input-placeholder = የእርስዎን የሕዝብ ጎራ ዓረፍተ-ነገር እዚህ ያስገቡ
 small-batch-sentence-input-placeholder = የእርስዎን የሕዝብ ጎራ ዓረፍተ-ነገር እዚህ ያስገቡ
 citation-input-placeholder = የዓረፍ-ነገርዎን ምንጭ ያጣቅሱ (የሚያስፈልግ)
 citation =
