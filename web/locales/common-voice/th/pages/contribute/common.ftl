@@ -104,6 +104,7 @@ contribution-misreadings-title = การอ่านผิด
 contribution-misreadings-description = ขณะฟัง ให้ตรวจสอบอย่างระมัดระวังว่าเสียงที่บันทึกตรงกับข้อความที่ปรากฏทุกประการ หากมีข้อผิดพลาดแม้แต่เล็กน้อยให้ปฏิเสธทันที <br />ข้อผิดพลาดที่มักพบบ่อยได้แก่:
 contribution-misreadings-description-extended-list-1 = ขาดคำว่า <strong>'A'</strong> หรือ <strong>'The'</strong> ที่ช่วงต้นของเสียงที่บันทึก
 contribution-misreadings-description-extended-list-2 = ขาด <strong>'s'</strong> ที่ช่วงท้ายของคำ
+contribution-misreadings-description-extended-list-3 = การอ่านคำหดซึ่งไม่ตรงตามรูปของคำที่ปรากฏจริง เช่น การอ่านว่า "We're" แทนที่จะเป็น "We are" หรือตรงกันข้าม
 contribution-misreadings-description-extended-list-4 = อัดคำสุดท้ายขาด เพราะกดหยุดอัดเร็วเกินไป
 contribution-misreadings-description-extended-list-5 = พยายามอ่านคำหนึ่งหลายครั้ง
 contribution-misreadings-example-2-explanation = [น่าจะเป็น 'ไดโนเสาร์']
