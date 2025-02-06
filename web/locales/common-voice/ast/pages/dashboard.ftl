@@ -52,11 +52,104 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Afitar una meta
 cant-decide = ¿Nun te decides?
+activity-needed-calculation-plural =
+    { NUMBER($people) ->
+        [one]
+            { NUMBER($clipsPerDay) ->
+                [one]
+                    { NUMBER($totalHours) ->
+                        [one]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persona graba { $clipsPerDay } clip per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persona graba { $clipsPerDay } clip per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } meses namás
+                            }
+                       *[other]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persona graba { $clipsPerDay } clip per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persona graba { $clipsPerDay } clip per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } meses namás
+                            }
+                    }
+               *[other]
+                    { NUMBER($totalHours) ->
+                        [one]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persona graba { $clipsPerDay } clips per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persona graba { $clipsPerDay } clips per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } meses namás
+                            }
+                       *[other]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persona graba { $clipsPerDay } clips per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persona graba { $clipsPerDay } clips per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } meses namás
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($clipsPerDay) ->
+                [one]
+                    { NUMBER($totalHours) ->
+                        [one]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persones graben { $clipsPerDay } clip per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persones graben { $clipsPerDay } clip per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } meses namás
+                            }
+                       *[other]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persones graben { $clipsPerDay } clip per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persones graben { $clipsPerDay } clip per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } meses namás
+                            }
+                    }
+               *[other]
+                    { NUMBER($totalHours) ->
+                        [one]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persones graben { $clipsPerDay } clips per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persones graben { $clipsPerDay } clips per día.    
+                                    Pue algamase { $totalHours } hora en { $periodMonths } meses namás
+                            }
+                       *[other]
+                            { NUMBER($periodMonths) ->
+                                [one]
+                                    Si { $people } persones graben { $clipsPerDay } clips per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } mes namás
+                               *[other]
+                                    Si { $people } persones graben { $clipsPerDay } clips per día.    
+                                    puen algamase { $totalHours } hores en { $periodMonths } meses namás
+                            }
+                    }
+            }
+    }
 how-many-per-day = ¡Mui bien! ¿Cuántos clips per día?
 how-many-a-week = ¡Mui bien! ¿Cuántos clips per selmana?
 which-goal-type = ¿Quies Falar, Sentir o dambos?
-receiving-emails-info = Anguaño <bold>TAS</bold> recibiendo correos tocante a Common Voice
-not-receiving-emails-info = Anguaño <bold>NUN</bold> tas recibiendo correos tocante a Common Voice
+receiving-emails-info = <bold>TAS</bold> recibiendo mensaxes tocante a Common Voice
+not-receiving-emails-info = <bold>NUN</bold> tas recibiendo mensaxes tocante a Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clip

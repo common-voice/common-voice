@@ -18,9 +18,9 @@ demo-account = Cuenta
 ## Demo Account
 
 demo-account-card-header = Nun se rique tener una cuenta pa collaborar, mas ayuda.
-demo-account-card-body = Na derecha esponemos les ventayes y esclariamos la información qu'espublizamos. Usa los enllaces d'embaxo pa entamar con una cuenta de Common Voice nel to preséu.
+demo-account-card-body = Na derecha esponemos les ventayes y esclariamos la información que publicamos. Usa los enllaces d'abaxo pa comenzar con una cuenta de Common Voice nel to preséu.
 demo-account-enter-email =
-    .label = Introduz un correu pa unviar un enllaz de rexistru
+    .label = Introduz una direición de corréu electrónicu pa unviar un enllaz de rexistru
 demo-account-sign-up = Unviar l'enllaz de rexistru
 
 ## Demo Contribute
