@@ -44,12 +44,12 @@ first-cta-header-text = K̃hũ owozẽ kẽlip k̃hakẽr s̃hobos̃h
 first-cta-subtitle-text = k̃hũ bararẽs̃h sakẽr k̃han k̃hẽ k̃hakẽkũzgvẽr t̃eknoloji d̃vẽlop k̃hakrẽb mẽdad woc
 why-donate = Tus̃h chir pẽrs?
 why-donate-explanation-1 = Hayem malũmotẽn ce dhetk yemi ikhtiyori, tus̃h ki dem osoy tu yẽmẽ shomil car, woz yem yẽqin car ki molumot yaniki ti nungẽt emaili dẽ ti obodiaoti molũmotẽn yani ũmrẽt jinsẽn pẽywast nast.
-why-donate-explanation-2 = Tẽknolojiyi kũk̃htẽr baf yarkẽ dẽstan, haya d̃at̃a kumdẽs̃h ki k̃hakẽkũzgvẽr t̃eknoloji k̃hakẽr medad dẽstan ghafch qismẽ khalgvẽ barar fikrẽn.  yaniki, agar ki sak kumd khos tẽlafuzẽ k̃hẽnakẽ kũzgvẽ shomil ne carẽn, andib teknoloji haya makhsus k̃halgvẽr yark ne k̃hakẽ bas wizit<learnMore>caq ziyoda dish ki met̃ad̃at̃a-yi chir zẽrũri. </learnMore>
+why-donate-explanation-2 = Tẽknolojiyi kũk̃htẽr baf yarkẽ dẽstan, haya d̃at̃a kumdẽs̃h ki k̃hakẽkũzgvẽr t̃eknoloji k̃hakẽr mẽdadẽ dẽstan ghafch qismẽ khalgvẽ barar fikrẽn.  yaniki, agar ki sak kumd khos tẽlafuzẽ k̃hẽnakẽ kũzgvẽ shomil ne carẽn, andib teknoloji haya makhsus k̃halgvẽr yark ne k̃hakẽ bas wizit<learnMore>caq ziyoda dish ki met̃ad̃at̃a-yi chir zẽrũri. </learnMore>
 add-information-button = malũmot shomil car
 continue-speaking-button = ney s̃hobos̃h, k̃hẽnakẽ jori lecẽr
 create-profile-text = k̃hũ molũmot pẽrdhavjẽs̃h zoqa?<createProfile>yi profayl go</createProfile>
 thanks-for-voice-toast = ti owozẽ malũmotẽr tor s̃hobos̃h
-thanks-for-voice-toast-error = ti wowozẽ malũmot jama k̃hatẽr yi noqs vitẽ
+thanks-for-voice-toast-error = ti wowozẽ malũmot jama k̃hakẽr yi noqs vitẽ
 first-cta-gender-select-default-option = yi option dũrz
 first-cta-gender-select-help-text =
     .label = Tub k̃hũ jinsẽ cẽr sokht bẽyon car
@@ -59,14 +59,16 @@ second-cta-subtitle-text = dẽ profaylẽnes̃h tu sẽk k̃hũ yark sqo hẽl
 already-have-an-account = tẽr misẽkẽni yi akownt̃ tey <login> cherm/ log-in</login>
 create-profile-button = yi profayl go
 # IMAGE TAGS
-img-alt-success-checkmark = komyobiyẽ nis̃hun
+img-alt-success-checkmark = komyobig̃hẽ nis̃hun
 # menu item
 read-sentences = jũmlavẽ joy
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Jũmlavẽ joy<small>jaldẽb wizit</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Jũmlavẽ joy, sowolvẽ jẽwob rand
-read-sentences-menu-item-tooltip = dẽ k̃hũ zik k̃hũ jũmla joynẽ rikord car
+read-sentences-menu-item-tooltip = dẽ k̃hũ zik k̃hũ jũmla joynẽ rikord̃ car
 answer-questions-menu-item-tooltip = k̃hũ zikẽr sowolvẽt ishor̃avẽ jẽwobẽ rand woz k̃hatẽ ricord̃ car
 
 ## MENU ITEM ARIA LABELS
