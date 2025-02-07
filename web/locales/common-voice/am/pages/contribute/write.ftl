@@ -99,14 +99,65 @@ too-many-files = በጣም ብዙ ፋይሎች
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> በርካታ የህዝብ ጎራ ዓረፍተ ነገሮችን ያክሉ
+multiple-sentences-error = ለአንድ ማስገባት ብዙ ዓረፍተ ነገሮችን ማከል አይችሉም
 exceeds-small-batch-limit-error = ከ1000 በላይ ዓረፍተ ነገሮችን ማስገባት አይቻልም
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] የዋጋ ገደብ አልፏል። በ1 ደቂቃ ውስጥ እንደገና ይሞክሩ
+       *[other] የዋጋ ገደብ አልፏል። በ{ $retryLimit } ደቂቃዎች ውስጥ እንደገና ይሞክሩ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] የዋጋ ገደብ አልፏል። በ 1 ሰከንድ ውስጥ እንደገና ይሞክሩ
+       *[other] የዋጋ ገደብ አልፏል። በ{ $retryLimit } ሰከንዶች ውስጥ እንደገና ይሞክሩ
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] ለዚህ ገጽ የማስረከቢያ ገደብ ላይ ደርሰዋል። ሌላ ዓረፍተ ነገር ከማስገባትዎ በፊት እባክዎ ለ 1 ደቂቃ ይጠብቁ። ለትዕግስትዎ እናመሰግናለን!
+       *[other] ለዚህ ገጽ የማስረከቢያ ገደብ ላይ ደርሰዋል። ሌላ ዓረፍተ ነገር ከማስገባትዎ በፊት እባክዎ ለ{ $retryLimit } ደቂቃዎች ይጠብቁ። ለትዕግስትዎ እናመሰግናለን!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] ለዚህ ገጽ የማስረከቢያ ገደብ ላይ ደርሰዋል። ሌላ ዓረፍተ ነገር ከማስገባትዎ በፊት እባክዎ ለ1 ሰከንድ ይጠብቁ። ለትዕግስትዎ እናመሰግናለን!
+       *[other] ለዚህ ገጽ የማስረከቢያ ገደብ ላይ ደርሰዋል። ሌላ ዓረፍተ ነገር ከማስገባትዎ በፊት እባክዎ ለ{ $retryLimit } ሰከንዶች ይጠብቁ። ለትዕግስትዎ እናመሰግናለን!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ከ1 ዓረፍተ ነገር ተሰብስቧል
+       *[other] { $uploadedSentences }ከ { $TotalSentences } ዓረፍተ ነገሮች ተሰብስቧል
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ከ1 ዓረፍተ ነገር ተሰብስበዋል። ውድቅ የሆኑ ዓረፍተ ነገሮችን ለማውረድ <downloadLink>እዚህ</downloadLink>ላይ ጠቅ ያድርጉ።
+       *[other] { $uploadedSentences } ከ{ $TotalSentences } ዓረፍተ ነገሮች ተሰብስበዋል። ውድቅ የሆኑ ዓረፍተ ነገሮችን ለማውረድ <downloadLink>እዚህ</downloadLink>ላይ ጠቅ ያድርጉ።
+    }
+small-batch-sentences-rule-1 = ከ"የትኞቹ ዓረፍተ ነገሮች መጨመር እችላለሁ?" የሚለውን መመሪያ ተከተል።
 small-batch-sentences-rule-2 = በአንድ መስመር አንድ ዓረፍተ ነገር ያክሉ
+small-batch-sentences-rule-3 = አንድ ጊዜ "Enter" ወይም "Return" የሚለውን በመጫን ዓረፍተ ነገሮችን ወደ አንድ መስመር ይለያዩዋቸው
 small-batch-sentences-rule-4 = እስከ 1,000 ዓረፍተ ነገሮች ይጨምሩ
 small-batch-sentences-rule-5 = ሁሉም ዓረፍተ ነገር አንድ አይነት ጎራ ሊኖረው ይገባል
 small-batch-sentences-rule-6 = ሁሉም ሁሉም ዓረፍተ ነገሮች አንድ አይነት ማጣቀሻ ሊኖራቸው ይገባል
+# menu item
+add-sentences = ዓረፍተ ነገሮችን ያክሉ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = ዓረፍተ ነገሮችን ያክሉ እና ይገምግሙ፣ ጥያቄዎችን ያክሉ፣ ድምፁን ወደ ፅሁፍ ይገልብጡ
+add-sentences-menu-item-tooltip = በቋንቋዎ ውስጥ ዓረፍተ ነገሮችን ያክሉ
+review-sentences-menu-item-tooltip = በቋንቋዎ ውስጥ ያሉ ዓረፍተ ነገሮችን ይገምግሙ
+add-questions-menu-item-tooltip = በቋንቋዎ ጥያቄዎችን ያክሉ
+transcribe-audio-menu-item-tooltip = የድምጽ ቅጂዎችን በቋንቋዎ ወደ ፅሁፍ ገልብጥ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = የአማራጮች ምናሌን ይፃፉ
+add-sentences-menu-item-aria-label = ማህበረሰቡ እንዲያነብባቸው አዲስ ዓረፍተ ነገሮችን ያክሉ
+review-sentences-menu-item-aria-label = በማህበረሰቡ የቀረቡ አረፍተ ነገሮችን ይገምግሙ
+add-questions-menu-item-aria-label = ህብረተሰቡ እንዲያነብ እና እንዲመልስላቸው አዳዲስ ጥያቄዎችን ያስገቡ
+transcribe-audio-menu-item-aria-label = የድምጽ ቅጂዎችን ወደ ጽሑፍ ይገልብጡ

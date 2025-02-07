@@ -88,22 +88,50 @@ read-more-about = ስለ ገፃችን የበለጠ ያንብቡ
 ## NAV ITEMS
 
 answer-questions = ጥያቄዎችን ይመልሱ <small>(በቅርብ ጊዜ)</small>
+answer-questions-coming-soon = ጥያቄዎችን ይመልሱ <small>(በቅርብ ቀን)</small>
+review-transcriptions = ፅሁፎችን ይገምግሙ
+review-transcriptions-coming-soon = ፅሁፎችን ይገምግሙ <small>(በቅርቡ ቀን)</small>
 add-questions = ጥያቄዎችን ያክሉ <small>(በቅርብ ጊዜ)</small>
+transcribe-audio-coming-soon = ድምፅ ወደ ፅሁፍ ይገልብጡ < small>(በቅርቡ የሚመጣ)</small>
+transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
+press-and-stories = ህትመት እና ታሪኮች
+community-and-languages = ማህበረሰብ እና ቋንቋዎች
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ሽርክና፣ ህትመት እና ታሪኮች፣ ማህበረሰብ እና ቋንቋዎች
+partnerships-menu-item-tooltip = ከእኛ ጋር አጋር ይሁኑ
+press-and-stories-menu-item-tooltip = ብሎጎቻችንን ይጎብኙ ወይም ስለእኛ ይጻፉ
+community-and-languages-menu-item-tooltip = ቋንቋዎችን እና ማህበረሰቦችን እና የጋራ ድምጽን ያግኙ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = ስለ አማራጮች ምናሌ
+partnerships-menu-item-aria-label = ከጋራ ድምጽ ጋር ስላላቸው ሽርክና ይወቁ
+press-and-stories-menu-item-aria-label = ከጋራ ድምጽ ጋር የሚዛመዱ የጋዜጣዊ መግለጫዎችን እና ታሪኮችን ያግኙ
+community-and-languages-menu-item-aria-label = በጋራ ድምጽ የሚደገፉ ማህበረሰቡን እና ቋንቋዎችን ያስሱ
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ቋንቋዎን የሚናገር ቴክኖሎጂ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <strong>ለምን ሰው ሰራሽ አስተውሎት ለጥቂት የአለም ቋንቋዎች ብቻ ይሰራል?</strong>
+hero-subtitle-2 = ቋንቋችን÷ ታሪካችን፣ ማህበረሰባችን፣ ባህላችን ነው። በአለም ላይ ማየት የምንፈልጋቸውን የውሂብ ስብስቦችን እንፍጠር።
+# icon is an arrow that points downwards
+get-started = <icon><icon> ይጀምሩ
 
 ## Action items section
 
+action-items-section-title = የጋራ ድምጽ በማህበረሰብ የሚመራ የመረጃ ፈጠራ ነፃ፣ ክፍት ምንጭ መድረክ ነው።
+action-items-section-subtitle = ማንኛውም ሰው የፅሁፍ እና የንግግር ውሂብ ስብስቦችን በማጋራት፣ በመፍጠር እና በማዘጋጀት ቋንቋቸውን ማቆየት፣ ማነቃቃት እና ከፍ ማድረግ ይችላል።
+scripted-card-header = ወደ ፅሁፍ የተገለበጠ ንግግር
+scripted-card-content = ዓረፍተ ነገሮችን በቋንቋዎ ጮክ ብለህ ያንብቡ እና በዓለም ላይ ላለው በጣም የተለያየ የህዝብ ተሳትፎ የንግግር ውሂብ አስተዋፅዖ ያድርጉ።
+spontaneous-card-header = የነፃነት ንግግር
+spontaneous-card-content = የውሂብ ስብስቦችን ለመፍጠር ተፈጥሮአዊ እና የንግግር አውዶች ምላሽ ይስጡ። ፍጹም የሆነ ለአፍ-ማፍቻ ቋንቋዎች።
+language-text-card-header = የቋንቋ ጽሑፍ
 
 ## Community section
 
