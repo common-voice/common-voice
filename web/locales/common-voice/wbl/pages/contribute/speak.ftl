@@ -73,6 +73,6 @@ answer-questions-menu-item-tooltip = k̃hũ zikẽr sowolvẽt ishor̃avẽ je�
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = muqavẽ menuvẽ k̃han
-read-sentences-menu-item-aria-label = cẽ jẽmoatvẽ gẽnanjama k̃hetk mukhtalif zikẽr jũmlavẽ joy
+speak-contribute-menu-aria-label = Ikhtiyorvẽ menuvẽ k̃han
+read-sentences-menu-item-aria-label = cẽ jẽmoatvẽ gẽnan jama k̃hetk mukhtalif zikẽr jũmlavẽ joy
 answer-questions-menu-item-aria-label = cẽ jẽmoatẽn yi s̃heg̃hd sowol car ki yasht joyn woz jẽwob randẽn
