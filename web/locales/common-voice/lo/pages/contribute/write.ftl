@@ -12,6 +12,7 @@ citation =
     .label = ການອ້າງອີງ
 sc-write-submit-confirm = ຂ້ອຍຢືນຢັນວ່າປະໂຫຍກນີ້ແມ່ນ <wikipediaLink>ໂດເມນສາທາລະນະ</wikipediaLink> ແລະ ຂ້ອຍໄດ້ຮັບການອະນຸຍາດໃຫ້ອັບໂຫລດມັນ.
 sc-review-write-title = ຂ້ອຍສາມາດເພີ່ມປະໂຫຍກໃດແດ່?
+sc-review-small-batch-title = ວິທີການເພີ່ມຫຼາຍປະໂຫຍກ
 new-sentence-rule-1 = <noCopyright>ບໍ່ມີລິຂະສິດ</noCopyright> ຂໍ້ຈຳກັດ (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = ໜ້ອຍກວ່າ 15 ຄຳ
 new-sentence-rule-3 = ໃຊ້ໄວຍະກອນທີ່ຖືກຕ້ອງ
@@ -96,6 +97,7 @@ too-many-files = ໄຟລ໌ຫຼາຍເກີນໄປ
 ## SMALL BATCH SUBMISSION
 
 exceeds-small-batch-limit-error = ບໍ່ສາມາດສົ່ງຫຼາຍກວ່າ 1000 ປະໂຫຍກ
+small-batch-sentences-rule-4 = ເພີ່ມເຖິງ 1,000 ປະໂຫຍກ
 # menu item
 add-sentences = ເພີ່ມປະໂຫຍກ
 

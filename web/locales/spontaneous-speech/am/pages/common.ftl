@@ -25,6 +25,33 @@ contribute = ያበርክቱ
 
 ## Navbar
 
+respond-to-prompt = ለፈጣን ምላሽ ይስጡ
+transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
+check-transcriptions = ፅሁፎችን ያረጋግጡ
 
 ## Not Found Page
 
+not-found-page-header = አልተገኘም።
+not-found-page-content = የሚፈልጉት ገጽ ሊገኝ አልቻለም
+# Privacy and Terms checkbox
+accept-privacy-and-terms = በ ጋራ ድምፅ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> እስማማለሁ
+# Locales
+bsy = ሳባ ቢሳይ
+cdo = ፉዙ
+cpx = ሄንግ ሁዋ
+en = እንግሊዝኛ
+fr = ፈረንሳይኛ
+hch = ዊክሳሪካ
+kzi = ኬላቢት
+mbf = ባባ ማላይ
+meh = ደቡብ ምዕራባዊ ተላሲያኮ ሚክስቴክ
+mel = ማዕከላዊ ሜላኑ
+mmc = ሚቾቻን ማዛሁዋ
+ms-MY = ባሃሳ ማላይ
+msi = ሳባ ማላይ
+pez = ምስራቃዊ ፔናን
+pne = ምዕራባዊ ፔናን
+sdo = ሴሪያን ቢዳዩህ
+snv = ሳባን
+tr = ቱርክኛ
+xkl = ኬንያ

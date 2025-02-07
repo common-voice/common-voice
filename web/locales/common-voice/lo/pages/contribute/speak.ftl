@@ -69,6 +69,7 @@ read-sentences-coming-soon = ອ່ານປະໂຫຍກ <small>(ໄວໆນ
 
 speak-contribute-menu-tooltip = ອ່ານ​ປະ​ໂຫຍກ​, ຕອບ​ຄໍາ​ຖາມ​
 read-sentences-menu-item-tooltip = ບັນທຶກຕົວທ່ານເອງອ່ານປະໂຫຍກໃນພາສາຂອງທ່ານ
+answer-questions-menu-item-tooltip = ບັນທຶກຕົວທ່ານເອງຕອບຄໍາຖາມ ແລະ ການເຕືອນໃນພາສາຂອງທ່ານ
 
 ## MENU ITEM ARIA LABELS
 
