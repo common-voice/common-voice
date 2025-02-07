@@ -37,13 +37,13 @@ review-cancel = Jama k̃hakẽ rad car
 review-keep-recordings = ricord̃ingvẽ lecẽr
 review-delete-recordings = Z̃hũ rikord̃ing but
 review-terms = Kommon Voysẽs̃h istimol k̃hẽ dẽ spo qẽsanẽs̃h jũr woc<termsLink>shart</termsLink>woz<privacyLink>rozdoriyẽ not̃is</privacyLink>
-terms-agree = wush yan k̃hanẽm
+terms-agree = wus̃h itifoqẽm
 terms-disagree = Wush itifoq ne carẽm
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = K̃hũ owozẽ kẽlip k̃hakẽr s̃hobos̃h
-first-cta-subtitle-text = k̃hũ bararẽs̃h sakẽr k̃han k̃hẽ k̃hakẽkuzgvẽr t̃eknoloji d̃vẽlop k̃hakrẽb mẽdad woc
+first-cta-subtitle-text = k̃hũ bararẽs̃h sakẽr k̃han k̃hẽ k̃hakẽkũzgvẽr t̃eknoloji d̃vẽlop k̃hakrẽb mẽdad woc
 why-donate = Tus̃h chir pẽrs?
-why-donate-explanation-1 = Hayem malũmotẽn ce dhetk yemi ikhtiyori, tus̃h ki dem osoy tu yẽmẽ shomil car, woz yem yẽqin car ki molumot yaniki ti nunget emaili dẽ ti obodiaoti molũmotẽn yani ũmrẽt jinsẽn pẽywast nast.
+why-donate-explanation-1 = Hayem malũmotẽn ce dhetk yemi ikhtiyori, tus̃h ki dem osoy tu yẽmẽ shomil car, woz yem yẽqin car ki molumot yaniki ti nungẽt emaili dẽ ti obodiaoti molũmotẽn yani ũmrẽt jinsẽn pẽywast nast.
 why-donate-explanation-2 = Tẽknolojiyi kũk̃htẽr baf yarkẽ dẽstan, haya d̃at̃a kumdẽs̃h ki k̃hakẽkũzgvẽr t̃eknoloji k̃hakẽr medad dẽstan ghafch qismẽ khalgvẽ barar fikrẽn.  yaniki, agar ki sak kumd khos tẽlafuzẽ k̃hẽnakẽ kũzgvẽ shomil ne carẽn, andib teknoloji haya makhsus k̃halgvẽr yark ne k̃hakẽ bas wizit<learnMore>caq ziyoda dish ki met̃ad̃at̃a-yi chir zẽrũri. </learnMore>
 add-information-button = malũmot shomil car
 continue-speaking-button = ney s̃hobos̃h, k̃hẽnakẽ jori lecẽr
