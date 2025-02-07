@@ -12,3 +12,9 @@ report-other-comment =
     .placeholder = አስተያየት
 # Label for textarea in report modal
 other = ሌላ
+report-error = ዘገባውን በማስረከብ ላይ ስህተት ተከስቷል።
+# Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
+continue = ቀጥል
+# Header for report modal after successful reporting
+success = ስኬት
+report-success-message = ዘገባው በተሳካ ሁኔታ ተላልፏል
