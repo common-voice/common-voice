@@ -70,6 +70,7 @@ share-goal-type-listen = Гӯш кардан
 share-goal-type-both = Гап задан ва гӯш кардан
 weekly-goal-created = Ҳадафи ҳафтаинаи шумо сохта шуд
 daily-goal-created = Ҳадафи ҳаррӯзаи шумо сохта шуд
+track-progress = Пешрафтро дар ин ҷой ва дар саҳифаи омори худ пайгирӣ намоед.
 return-to-edit-goal = Барои таҳрир кардани ҳадафи худ ҳар вақт ба ин ҷо баргардед.
 share-goal = Ҳадафи маро мубодила кунед
 
