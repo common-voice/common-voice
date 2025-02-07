@@ -147,3 +147,5 @@ language-text-card-header = የቋንቋ ጽሑፍ
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>ሲቪል ማህበረሰብ እና ተመራማሪዎች</bold> - ተፅዕኖ ያለው የውሂብ ስብስቦችን ይፍጠሩ፣ ያስተናግዱ እና ያጋሩ
