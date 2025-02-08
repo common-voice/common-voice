@@ -49,7 +49,7 @@ email-subscription-title-new = Kommon voysẽ khẽbarẽ khatẽ (newsletter) s
 ## Account Benefits
 
 benefits = Foydayisht.
-rich-data = K̃hũ shomil k̃hetk d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nẽs̃het obodiyoti d̃at̃a kat̃ k̃hẽ. pẽ jẽhon k̃hakẽn tẽrmisẽsh sak tẽmon obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn.
+rich-data = K̃hũ shomil k̃hetk d̃at̃aẽ tumẽr c̃hak go cũmẽr ki bas wez, caq nẽs̃het obodiyoti d̃at̃a kat̃ k̃hẽ. pẽ jẽhon k̃hakẽn tẽrmisẽsh sak tẽmom obodiyoti d̃at̃ẽ shẽnokhtẽ khatmẽn.
 improve-audio = profaylẽ molũmotẽs̃h k̃hẽnak dishnẽ drustẽgiyẽ tẽrbiyatẽr istimol wocnẽr od̃yowẽ baf gok̃ht
 keep-track = dẽ digar zẽbinẽv k̃hũ k̃het yarkẽ tayinẽr pẽs pudh rec̃h
 compare-progress = Tayin dẽ pẽtũn dẽnyos̃h ti yark dẽ digar shomil k̃hakẽkũzgvẽn cer sokht sẽdhũyd.
