@@ -70,6 +70,12 @@ about-playbook-what-is-language-content-3 = Seki tlajtolkopaj sapanoa mopatlaj k
 ## How do I add a language
 
 about-playbook-how-add-language = ¿Ken niktlalis okse tlajtolkopa?
+about-playbook-how-add-language-content-1 =
+    Achto, xikita kox motlajtolkopa <languageLink>yikajki</languageLink>.
+    Tla amo, uelis <languageRequestLink>tiktlajtlanis makitlalikan motlajtolkopa</languageRequestLink>.
+    Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan
+about-playbook-how-add-language-translating-heading = Kitlajtolkopaj sitio
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Xikita kenijki titekipanos ika Pontoon.</translateVideoLink>
 
 ## How does localization work
 
