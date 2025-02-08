@@ -3,8 +3,8 @@
 home-title = Kommon Voysi Muzillaẽ oghz ki moshinẽ joyũvnẽr mẽdad wost ki khalgẽs̃h cersokht k̃hand.
 default-tagline = Mozillaẽ Kommon Voysi yi oghoz ki mashinvẽ joyũvner mẽdad wost ki khalgẽs̃h aslẽn cersokht kand
 home-cta = K̃han, drem shomil car/ shẽrikat dori car!
-wall-of-text-start = Owozi qũdrati, owozi khalgẽn. hayawi sẽbab ki sakẽsh istimolẽ loyiq owoz nik̃hindẽn. spo moshinvẽr T̃eknoloji. Magam owoz peydo k̃hakẽ nẽzom, bihad c̃hak owozẽ d̃etayi dẽrkor
-wall-of-text-more-mobile = Kampũnivẽ gha lup d̃et̃a cẽ istimol k̃hetk yawi dẽ ghafch khalg ne g̃hẽtetk. Sakrẽs̃h sẽdhũyd ki bes̃h besh k̃hũ k̃hetk/ bidat/ inovashan "inovation".  askan sakẽ projkt̃ Kommon Voys k̃hẽtk, yi project ki  kũk̃htẽr owozẽ dishẽn
+wall-of-text-start = Owozi qũdrati, owozi khalgẽn. hayawi sẽbab ki sakẽsh istimolẽ loyiq owoz nik̃hindẽn. spo moshinvẽr T̃eknoloji. Magam owoz peydo k̃hakẽ nẽzom, bihad c̃hak owozẽ d̃at̃ayi dẽrkor
+wall-of-text-more-mobile = Kampũnivẽ gha lup d̃et̃a cẽ istimol k̃hetk yawi dẽ ghafch khalg ne g̃hẽtetk. Sakrẽs̃h sẽdhũyd ki bes̃h bes̃h k̃hũ k̃hetk/ bidat/ inoveshan "inovation".  askan sakẽ projkt̃ Kommon Voys k̃hẽtk, ki  kũk̃htẽr owozẽ dishẽn
 wall-of-text-more-desktop = Nives̃h tu sakẽr yi open voys d̃atãsẽt̃ k̃hakẽr k̃hũ owozẽ atya rẽdhoẽ bas wez ki s̃heg̃hd appvẽt ẽsbob woz tenz̃et(web). ye  jũmla joy ki mashin disht khalgẽsh aslẽn cẽrsokht k̃hand, digarvẽ yark z̃hẽmũrnẽr. sherik wocẽn miyorẽ baf k̃hakẽr. yemi atumẽr sidam
 wall-of-text-first = Owozi qũdrati, owozi k̃halẽn. haskan sak khush ki sakes̃h istimolẽ loyiq owozẽ t̃eknoloji gon, mashinẽ dẽstan. magam yi owozẽ sist̃em k̃hakẽr, k̃hakẽkũzgvẽri bihad ghafch d̃atã dẽrkor.
 wall-of-text-second = Lup kampunishites̃h ki kumd d̃ataẽ istimolẽn ghafch khalgẽs̃h da ne g̃hat. sakrẽs̃h sẽdhũy bidat/ k̃hũ k̃hetkẽs̃h tẽrdest gon. askan sakẽ Kommon Voys shẽru kert, yi projekt̃ kumd ki oqozẽ shẽnokht cart woz dẽ kuk̃ht da ghat
