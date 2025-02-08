@@ -5,7 +5,7 @@
                 rgba(246, 241, 214, 0.95) 32%,
                 rgba(255, 239, 143, 0) 98%
             ),
-            url('./assets/partner-with-us-bg.jpg');
+            url('./assets/partner-with-us-bg.webp');
 
         background-repeat: no-repeat;
         background-size: cover;

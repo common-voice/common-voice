@@ -16,3 +16,5 @@ partnerships-small-business-description = ሁልጊዜ ከመረጃ ሸማቾች
 partnerships-corporates-header = ትላልቅ ኩባንያዎች እና የመሳሪያ ስርዓት ኩባንያዎች
 partnerships-corporates-description = ስለ ውሂብ ስብስብ የበለጠ ለመናገር ከፈለጉ፣ በታቀዱ የመሳሪያ ስርዓት ማስፋፊያዎች ላይ መዋዕለ ንዋይ ማፍሰስ ወይም የትብብር እድሎችን መፈለግ ከፈለጉ <emailFragment>አንድ መስመር ይላኩልን።</emailFragment>
 partnerships-our-partners = አጋሮቻችን
+# menu item
+partners = አጋሮች

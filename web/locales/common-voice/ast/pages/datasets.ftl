@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Conxuntos de datos
 datasets-headline = Tamos creando un conxuntu de datos de voz abiertu y plurillingüe que tol mundu pue usar pa entrenar a les aplicaciones de voz.
 datasets-positioning =
     Creyemos qu'un conxuntu de datos públicu, grande y disponible va dar puxu a la innovación y a una competencia sana al rodiu de la teunoloxía de la reconocencia de voz basada nel deprendizaxe automáticu.

@@ -60,9 +60,19 @@ already-have-an-account = መለያ አለዎት? <login>ግባ</login>
 create-profile-button = መገለጫ ይፍጠሩ
 # IMAGE TAGS
 img-alt-success-checkmark = የስኬት ምልክት
+# menu item
+read-sentences = ዓረፍተ ነገሮችን ያንብቡ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ዓረፍተ ነገሮችን ያንብበ <small>(በቅርብ ቀን)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = ዓረፍተ ነገሮችን ያንብቡ፣ ለጥያቄዎች መልስ ይስጡ
+read-sentences-menu-item-tooltip = በቋንቋዎ ውስጥ ዓረፍተ ነገሮችን በማንበብ እራስዎን ይቅዱ
+answer-questions-menu-item-tooltip = በቋንቋዎ ለጥያቄዎች እና ተፈንጣቂዎች ምላሽ ሲሰጡ እራስዎን ይቅዱ
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = የአማራጮች ምናሌን ተናገር
+read-sentences-menu-item-aria-label = በተለያዩ ቋንቋዎች በማህበረሰቡ የቀረቡ ዓረፍተ ነገሮችን ያንብቡ
+answer-questions-menu-item-aria-label = ማህበረሰቡ አንብቦ ምላሽ እንዲሰጥበት አዲስ ጥያቄ ያስገቡ

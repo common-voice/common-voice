@@ -264,6 +264,7 @@ privacy = Rozmandiyisht
 terms = Istilohisht
 cookies = Kukiyisht
 faq = (Ziyot Persetk Sawolisht: ZPS)
+documentation = Dastawez k̃hak
 content-license-text = Mawodi dẽ dhast dẽ <licenseLink>takhliqi umumi ijozatnomah</licenseLink>
 share-title = K̃hũ owog̃h rẽdho’r dẽstan, digar khalgev s̃hukurner spo madad carit!
 share-text = Mashin-e yek̃hk k̃hak madad randit ki ce sokhtes̃h yi asl khalg qisa cart,   k̃hũ owog̃h e randit skẽ { $link }
