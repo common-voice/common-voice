@@ -5,6 +5,9 @@ request-language-form-email =
     .label = Нишонии почтаи электронии шумо
 request-language-form-info =
     .label = Маълумот дар бораи забон
+request-language-form-info-explanation =
+    Дар бораи забон ҳарчи бештар маълумот илова намоед. Ин
+    метавонад дар бар гирад:
 request-language-form-info-explanation-list-1 = Номҳои забони шумо
 request-language-form-info-explanation-list-2 = <isoCodeLink>Рамзҳои «ISO»</isoCodeLink>, агар маълум бошад
 request-language-form-info-explanation-list-3 = Истинодҳо ба сомонаҳое, ки метавонанд ба мо дар фаҳмидани забон кумак расонанд

@@ -65,10 +65,17 @@ about-nav-playbook = Xikmati ken titlapaleuis
 about-playbook-what-is-language = ¿Tlenon se tlajtolkopa itech Tinochtin Titlajtoaj?
 about-playbook-what-is-language-content-1 = Maski sekimej kiluiaj 'tlajtoli', tejuan tikiluiaj 'tlajtolkopa'. Non poui itech ken titlajtoaj. Panpa itech Tinochtin Titlajtoaj, tlen tiknekij, yej tikmatiskej kox tla akinmej ijkon tlajtoaj uelis motenkakij maski tlatlamantli inmialtepe.
 about-playbook-what-is-language-content-2 = Tiknekij teposmej okachi kuali matekipanokan. Yika, tiknekij nochtin matlajtokan uan makintenkakikan. Nochtin nikan mamoixpantikij.
-about-playbook-what-is-language-content-3 = Seki tlajtolkopaj sapanoa mopatlaj ken kitenkixtiaj uan ken kijkuiloaj. Yika, <ctaLinkotikintlalikej> otiktlalikej ‘Altepetlajtoli’</ctaLink> itech 2022. Nin kichiuas nochtin mamonextikan itech se ueyi tlajtolnechikoli.
+about-playbook-what-is-language-content-3 = Seki tlajtolkopaj sapanoa mopatlaj ken kitenkixtiaj uan ken kijkuiloaj. Yika, <ctaLinkotikintlalikej> otiktlalikej ‘Tlajtolkopatsin’</ctaLink> itech 2022. Nin kichiuas nochtin mamonextikan itech se ueyi tlajtolnechikoli.
 
 ## How do I add a language
 
+about-playbook-how-add-language = ¿Ken niktlalis okse tlajtolkopa?
+about-playbook-how-add-language-content-1 =
+    Achto, xikita kox motlajtolkopa <languageLink>yikajki</languageLink>.
+    Tla amo, uelis <languageRequestLink>tiktlajtlanis makitlalikan motlajtolkopa</languageRequestLink>.
+    Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan
+about-playbook-how-add-language-translating-heading = Kitlajtolkopaj sitio
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Xikita kenijki titekipanos ika Pontoon.</translateVideoLink>
 
 ## How does localization work
 

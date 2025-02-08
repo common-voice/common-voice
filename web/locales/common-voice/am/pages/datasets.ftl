@@ -23,6 +23,7 @@ number-of-voices = የድምፅ ብዛት
 splits = ክፋዮች
 email-to-download = ለማውረድ ኢሜል ያስገቡ
 why-email = <b> ኢሜል ለምን? </b> በውሂብ ስብስቡ ላይ ስለሚደረጉ ለውጦች ወደፊት እርስዎን ማነጋገር ሊያስፈልገን ይችላል ፣ ኢሜል የመገናኛ ነጥብ ይሰጠናል።
+why-donate-datasets-page = የሞዚላ የጋራ ድምጽ በዓለም ላይ በበጎ ፈቃደኞች ልገሳ የተመሰረተ ክፍት የንግግር ውሂብ ስብስብ ነው - እንዲሁም ሙሉ በሙሉ የምንሰራው በበጎ ፍቃድ ነው። የውሂብ ስብስቦችን ለማስተናገድ እና እኛ በምንሰራው ነገር ለሚተማመኑ ከ100+ የቋንቋ ማህበረሰቦች መድረክን ለማሻሻል በዓመት አንድ ሚሊዮን ዶላር ያህል ያስወጣል። ክፍት፣ አካታች ውሂብ ዋጋ ከሰጡ - <b>ዛሬ ይለግሱ!</b>
 confirm-size = የ <b> { $size } </b> ን ማውረድ ለመጀመር ተዘጋጅቷል
 size-gigabyte = ጊባ
 size-megabyte = ሜባ
@@ -71,6 +72,7 @@ dataset-metadata-sex = ፆታ
 dataset-metadata-age = ዕድሜ
 donate-modal-message = የውሂብ ስብስብዎ እየወረደ ነው!
 dataset-donate-modal-heading = ያውቁ ኖሯል…
+donate-modal-explanation-1 = የውሂብ ስብስቦችን ለማስተናገድ እና እኛ በምንሰራው ነገር ለሚተማመኑ ከ100+ ይፕቋንቋ ማህበረሰቦች መድረክን ለማሻሻል በዓመት አንድ ሚሊዮን ዶላር ያህል ያስወጣል?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>ለክፍት፣ አካታች ዳታ ዋጋ ከሰጡ - ዛሬውኑ ይለግሱ!</bold>
 data-download-singleword-title = የነጠላ ቃል ዒላማ ክፍልን ያውርዱ
@@ -92,3 +94,7 @@ release-version = ስሪት
 dataset-date = ቀን
 license = ፈቃድ ፦ <licenseLink> { $license } </licenseLink>
 license-mixed = የተቀላቀለ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = የእኛን የድምፅ ውሂብ ስብስቦች ያውርዱ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = የጋራ ድምጽ ውሂብን ለማግኘት የማውረድ አማራጮች

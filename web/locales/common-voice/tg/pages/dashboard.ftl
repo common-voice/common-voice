@@ -62,12 +62,15 @@ help-share-goal = Ба мо дар пайдо намудани овозҳои б
 confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
 # $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Ҳадафи ҳаррӯзаи { $count } сабти худро барои { $type } мубодила намоед
+# $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Ҳадафи ҳафтаинаи { $count } сабти худро барои { $type } мубодила намоед
 share-goal-type-speak = Гап задан
 share-goal-type-listen = Гӯш кардан
 share-goal-type-both = Гап задан ва гӯш кардан
 weekly-goal-created = Ҳадафи ҳафтаинаи шумо сохта шуд
 daily-goal-created = Ҳадафи ҳаррӯзаи шумо сохта шуд
+track-progress = Пешрафтро дар ин ҷой ва дар саҳифаи омори худ пайгирӣ намоед.
 return-to-edit-goal = Барои таҳрир кардани ҳадафи худ ҳар вақт ба ин ҷо баргардед.
 share-goal = Ҳадафи маро мубодила кунед
 
