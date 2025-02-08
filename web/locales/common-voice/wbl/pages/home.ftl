@@ -1,6 +1,6 @@
 ## Home Page
 
-home-title = Kommon Voysi Muzillaẽ oghz ki moshinẽ joyũvnẽr mẽdad wost ki khalgẽs̃h cer sokht k̃had.
+home-title = Kommon Voysi Muzillaẽ oghz ki moshinẽ joyũvnẽr mẽdad wost ki khalgẽs̃h cersokht k̃hand.
 default-tagline = Mozillaẽ Kommon Voysi yi oghoz ki mashinvẽ joyũvner mẽdad wost ki khalgẽs̃h aslẽn cersokht kand
 home-cta = K̃han, drem shomil car/ shẽrikat dori car!
 wall-of-text-start = Owozi qũdrati, owozi khalgẽn. hayawi sẽbab ki sakẽsh istimolẽ loyiq owoz nik̃hindẽn. spo moshinvẽr T̃eknoloji. Magam owoz peydo k̃hakẽ nẽzom, bihad c̃hak owozẽ d̃etayi dẽrkor
