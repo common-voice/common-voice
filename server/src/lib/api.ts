@@ -252,28 +252,66 @@ export default class API {
     response.json(userClients)
   }
 
-  /**
-   * Allow for anonymous accounts to save metadata related to contributions.
-   * Supports accent and variant data.
-   *
-   * @param {Request} request
-   * @param {Response} response
-   * @memberof API
-   */
+  // /**
+  //  * Allow for anonymous accounts to save metadata related to contributions.
+  //  * Supports accent and variant data.
+  //  *
+  //  * @param {Request} request
+  //  * @param {Response} response
+  //  * @memberof API
+  //  */
+  // saveAnonymousAccountLanguages = async (
+  //   request: Request,
+  //   response: Response
+  // ) => {
+  //   const {
+  //     client_id,
+  //     body: { languages, age, gender, country },
+  //   } = request
+  //   if (!client_id) {
+  //     throw new ClientParameterError()
+  //   }
+  //   response.json(
+  //     await UserClient.saveAnonymousAccountLanguages(
+  //       client_id,
+  //       languages
+  //     )
+  //   )
+  // }
+
   saveAnonymousAccountLanguages = async (
     request: Request,
     response: Response
   ) => {
     const {
       client_id,
-      body: { languages },
+      body: { languages, age, gender, country },
     } = request
+
     if (!client_id) {
       throw new ClientParameterError()
     }
-    response.json(
-      await UserClient.saveAnonymousAccountLanguages(client_id, languages)
+
+    // First, save languages
+    const result = await UserClient.saveAnonymousAccountLanguages(
+      client_id,
+      languages
     )
+
+    // Then, update gender, country, and age if provided
+    if (gender) {
+      await UserClient.updateUserGender(client_id, gender)
+    }
+
+    if (country) {
+      await UserClient.updateUserCountry(client_id, country)
+    }
+
+    if (age) {
+      await UserClient.updateUserAge(client_id, age)
+    }
+
+    response.json(result)
   }
 
   saveAccount = async (request: Request, response: Response) => {
