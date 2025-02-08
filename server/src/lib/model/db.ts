@@ -685,25 +685,25 @@ export default class DB {
 
     //filter out users own clips
     const validUserClips: DBClip[] = cachedClips.filter(
-      (row: DBClip) => row.client_id != client_id
+      (row: DBClip) => row.client_id != client_id && row.is_approved === 1
     )
 
     // potentially cache-able
     // get users previously interacted clip ids
     const [submittedUserClipIds] = await this.mysql.query(
       `
+    SELECT clip_id
+      FROM votes
+      WHERE client_id = ?
+      UNION ALL
       SELECT clip_id
-        FROM votes
-        WHERE client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM reported_clips reported
-        WHERE client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM skipped_clips skipped
-        WHERE client_id = ?
-      `,
+      FROM reported_clips reported
+      WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE client_id = ?
+    `,
       [client_id, client_id, client_id]
     )
 
@@ -725,32 +725,32 @@ export default class DB {
 
     const [clips] = await this.mysql.query(
       `
-      SELECT *
-      FROM (
-        SELECT clips.*
-        FROM clips
-        LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_approved =1 AND clips.locale_id = ? AND client_id <> ?
-        AND NOT EXISTS(
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-        AND sentences.clips_count <= 15
-        ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
-        ORDER BY sentences.clips_count ASC, clips.created_at ASC
-        LIMIT ?
-      ) t
-      ORDER BY RAND()
-      LIMIT ?`,
+    SELECT *
+    FROM (
+      SELECT clips.*
+      FROM clips
+      LEFT JOIN sentences on clips.original_sentence_id = sentences.id
+      WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ? AND clips.is_approved = 1
+      AND NOT EXISTS(
+        SELECT clip_id
+        FROM votes
+        WHERE votes.clip_id = clips.id AND client_id = ?
+        UNION ALL
+        SELECT clip_id
+        FROM reported_clips reported
+        WHERE reported.clip_id = clips.id AND client_id = ?
+        UNION ALL
+        SELECT clip_id
+        FROM skipped_clips skipped
+        WHERE skipped.clip_id = clips.id AND client_id = ?
+      )
+      AND sentences.clips_count <= 15
+      ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+      ORDER BY sentences.clips_count ASC, clips.created_at ASC
+      LIMIT ?
+    ) t
+    ORDER BY RAND()
+    LIMIT ?`,
       [
         locale_id,
         client_id,
@@ -776,8 +776,9 @@ export default class DB {
     FROM (
       SELECT * FROM clips
       WHERE locale_id = ?
-      AND is_approved = 1
+      AND is_valid IS NULL
       AND clips.client_id <> ?
+      AND clips.is_approved = 1
       AND NOT EXISTS (
         SELECT clip_id
         FROM votes
@@ -809,7 +810,6 @@ export default class DB {
     console.log('meshmesh without texonomy', clips)
     return clips as DBClip[]
   }
-
   //----------------------------
   async findClipsWithFewVotes(
     client_id: string,
