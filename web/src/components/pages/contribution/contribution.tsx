@@ -593,8 +593,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       <Localized
                         id="accept-privacy-and-terms"
                         elems={{
-                          termsLink: <LocaleLink to={URLS.TERMS} blank />,
-                          privacyLink: <LocaleLink to={'https://falak.ksaa.gov.sa/privacy'} blank />,
+                          privacyLink: <a href="https://falak.ksaa.gov.sa/privacy" target='_blank' className="text-white underline">سياسة الاستخدام</a>,
                         }}>
                         <span />
                       </Localized>
