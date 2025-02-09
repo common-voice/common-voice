@@ -163,8 +163,8 @@ function Success({
         //   </div>
         // )
       ) : (
-        <div className="info-card">
-          <Localized id="profile-explanation">
+        <div className="info-card"  style={{ display: 'none' }}>
+          {/* <Localized id="profile-explanation">
             <p />
           </Localized>
           <Localized id="login-signup">
@@ -173,7 +173,7 @@ function Success({
               href="/login"
               className={getTrackClass('fs', `nudge-profile-on-succcess`)}
             />
-          </Localized>
+          </Localized> */}
         </div>
       )}
 
