@@ -5,12 +5,14 @@ write-instruction = Pievienojiet <icon></icon> publiskā īpašuma teikumu
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
 sentence =
     .label = Teikums
-sentence-input-value = Ievadiet šeit savu publiski pieejamo teikumu, kas nav aizsargāts ar autortiesībām
+sentence-input-placeholder = Ievadiet šeit savu publiski pieejamo teikumu, kas nav aizsargāts ar autortiesībām
+small-batch-sentence-input-placeholder = Ievadiet šeit savus publiski pieejamos teikumus, kas nav aizsargāti ar autortiesībām
 citation-input-placeholder = Norādiet sava teikuma avotu (obligāti)
 citation =
     .label = Atsauce
 sc-write-submit-confirm = Es apliecinu, ka šis teikums ir <wikipediaLink>publiskā īpašuma</wikipediaLink> un man ir atļauja to ielādēt.
 sc-review-write-title = Kādus teikumus es varu pievienot?
+sc-review-small-batch-title = Kā pievienot vairākus teikumus
 new-sentence-rule-1 = <noCopyright>Nav autortiesību</noCopyright> ierobežojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Mazāk par 15 vārdiem
 new-sentence-rule-3 = Ir gramatiski pareizi
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Bez cipariem, saīsinājumiem vai speciālajām rakstu zī
 new-sentence-rule-6 = Bez svešu valodu vārdiem vai burtiem
 new-sentence-rule-7 = Norādiet teikuma avotu
 new-sentence-rule-8 = Dabiski sarunvalodas teikumi (tiem jābūt viegli ierunājamiem)
+login-instruction-multiple-sentences = <loginLink>Pieslēdzieties</loginLink> vai <loginLink>reģistrējieties</loginLink>, lai pievienotu vairākus teikumus
 how-to-cite = Kā norādīt avotu?
 how-to-cite-explanation-bold = Norādiet mājaslapas adresi vai pilnu darba nosaukumu.
 how-to-cite-explanation = Ja šis ir jūsu izdomāts teikums, vienkārši norādiet <italicizedText>“Pašatsauce”</italicizedText>. Mums ir jāzina teikumu avoti, lai varētu pārbaudīt, vai tas ir publiski pieejams un uz to neattiecas nekādi autortiesību ierobežojumi. Papildu informāciju par atsaucēm skatiet mūsu <guidelinesLink>vadlīniju lapā</guidelinesLink>.
@@ -28,9 +31,9 @@ add-sentence-success = Savākts 1 teikums
 add-sentence-error = Kļūda pievienojot teikumu
 required-field = Lūdzu aizpildiet šo lauku.
 single-sentence-submission = Viena teikuma pievienošana
+small-batch-sentence-submission = Vairāku teikumu pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
-bulk-sentences = Vairāki teikumi
 sentence-domain-combobox-label = Teikuma joma
 sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
 # Sentence Domain dropdown option
@@ -89,3 +92,12 @@ file-invalid-type = Nederīga datne
 file-too-large = Datne ir pārāk liela
 file-too-small = Datne ir pārāk maza
 too-many-files = Pārāk daudz datņu
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
