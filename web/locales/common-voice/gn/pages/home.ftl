@@ -124,6 +124,7 @@ add-text = Embojuapy moñe’ẽrã
 
 ## Get involved section
 
+read-sentences-link = Emoñe’ẽ ñe’ẽjuaju
 
 ## Partner section
 
