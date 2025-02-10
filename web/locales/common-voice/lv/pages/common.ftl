@@ -4,10 +4,14 @@
 
 ## Languages
 
+aa = Afaru
+aat = Arvanitika
 ab = Abhāzu
+abb = Bankon
 ace = Ačeņja
 ady = Adighe
 af = Afrikāņu
+aln = Gheg Albanian
 am = Amhāru
 an = Aragonese
 ar = Arābu
@@ -15,12 +19,26 @@ arn = Mapudungun
 as = Asāmiešu
 ast = Astūriešu
 az = Azerbaidžāņu
+azz = Highland Puebla Nahuatl
 ba = Baškīru
+bal = Baloči
 bas = Basaa
+bax = Bamunu
+bba = Baatonum
+bbj = Ghomala
+bbl = Tush
+bci = Baoule
 be = Baltkrievu
+beb = Bamvele
+bew = Betawi
+bfd = Bafut
+bft = Balti
 bg = Bulgāru
+bgp = Austrumbaloči
+bkm = Kom
 bm = Bambara
 bn = Bengāļu
+bnm = Batanga
 bo = Tibetiešu
 br = Bretoņu
 bs = Bosniešu
