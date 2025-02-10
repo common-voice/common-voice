@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Sestavi
+write = Piši
 sentence =
     .label = Stavek
 

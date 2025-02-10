@@ -115,6 +115,7 @@ language-text-card-header = ຂໍ້ຄວາມພາສາ
 
 ## Community section
 
+find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
 
 ## Featured section
 
