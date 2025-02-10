@@ -1,3 +1,6 @@
+speak = Runājiet
+speak-now = Runājiet
+speak-subtitle = Ierakstiet savu balsi
 record-cta = Sākt ierakstu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
 record-platform-not-supported-desktop = Datoros varat lejupielādēt jaunāko:
