@@ -1,6 +1,10 @@
 ## WRITE PAGE
 
 write = Skriv
+sentence =
+    .label = Setning
+citation =
+    .label = Tilvising
 login-instruction-multiple-sentences = <loginLink>Logg in</loginLink> eller <loginLink>registrer dig</loginLink> for å leggje til fleire setningar
 how-to-cite = Korleis siterer eg?
 guidelines = Retningslinjer
@@ -26,4 +30,10 @@ file-too-small = Fila er for lita
 too-many-files = For mange filer
 
 ## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 
