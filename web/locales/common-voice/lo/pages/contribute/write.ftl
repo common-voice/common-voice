@@ -96,6 +96,7 @@ too-many-files = ໄຟລ໌ຫຼາຍເກີນໄປ
 
 ## SMALL BATCH SUBMISSION
 
+multiple-sentences-error = ທ່ານບໍ່ສາມາດເພີ່ມຫຼາຍປະໂຫຍກສໍາລັບການຍື່ນສະເຫນີດຽວ
 exceeds-small-batch-limit-error = ບໍ່ສາມາດສົ່ງຫຼາຍກວ່າ 1000 ປະໂຫຍກ
 small-batch-sentences-rule-4 = ເພີ່ມເຖິງ 1,000 ປະໂຫຍກ
 # menu item
