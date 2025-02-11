@@ -5,11 +5,13 @@
 ## Languages
 
 aa = ພາສາອາຟາຣ
+aat = ອາວະນິທິກາ
 ab = ພາສາອັບ​ກາດ​ຊ
 abb = Bankon
 ace = ພາສາອາເຊນ
 ady = ອາດີເກ
 af = ພາສາແອຟຣິຄານສ
+aln = Gheg Albanian
 am = ພາ​ສາ​ອຳ​ຮາ​ຣິກ
 an = ພາ​ສາ​ອາ​ຣາ​ໂກນ
 ar = ພາສາອາຣັບ
@@ -24,10 +26,13 @@ bas = ພາສາບາຊາ
 bax = Bamun
 bba = Baatonum
 bbj = Ghomala
+bbl = Tush
 bci = Baoule
 be = ພາ​ສາເບ​ລາ​ຣຸດ​
 beb = Bamvele
+bew = Betawi
 bfd = Bafut
+bft = Balti
 bg = ພາ​ສາ​ບຸນ​ກາ​ຣີ
 bkm = Kom
 bm = ພາສາບຳບາລາ
@@ -233,6 +238,7 @@ ug = ພາສາອຸຍເກີກ
 uk = ພາສາຢູເຄຣນ
 ur = ພາສາອູຣດູ
 uz = ພາສາອຸສເບກິສຖານ
+var = Huarijio
 ve = Tshevenda
 vec = ພາ​ສາ​ເວ​ເນ​ຕຽນ
 vi = ພາສາຫວຽດນາມ
