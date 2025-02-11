@@ -34,6 +34,8 @@ single-sentence-submission = Viena teikuma pievienošana
 small-batch-sentence-submission = Vairāku teikumu pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
+small-batch-sentence = Maza partija
+bulk-sentence = Lielapjoma partija
 sentence-domain-combobox-label = Teikuma joma
 sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
 # Sentence Domain dropdown option
@@ -95,6 +97,17 @@ too-many-files = Pārāk daudz datņu
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Pievienojiet vairākus brīvi pieejamus teikumus, kas nav aizsargāti ar autortiesībām
+multiple-sentences-error = Vienā reizē nevar pievienot vairākus teikumus
+exceeds-small-batch-limit-error = Nevar iesniegt vairāk par 1000 teikumiem
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [zero] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc 1  minūtes
+        [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
+       *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
+    }
 
 ## MENU ITEM TOOLTIPS
 
