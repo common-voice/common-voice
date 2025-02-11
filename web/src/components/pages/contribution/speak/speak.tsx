@@ -43,9 +43,9 @@ import { castTrueString } from '../../../../utility';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 1000;
+const MIN_RECORDING_MS = 3000;
 const MIN_RECORDING_MS_BENCHMARK = 500;
-const MAX_RECORDING_MS = 15000;
+const MAX_RECORDING_MS = 20000;
 const MIN_VOLUME = 8; // Range: [0, 255].
 
 enum RecordingError {
