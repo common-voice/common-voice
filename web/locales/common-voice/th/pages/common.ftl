@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = อาฟา
 ab = แอบคาซ
 ace = อะเจห์
 ady = อะดึยเก
