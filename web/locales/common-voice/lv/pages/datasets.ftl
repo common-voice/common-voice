@@ -94,3 +94,5 @@ release-version = Versija
 dataset-date = Datums
 license = Licence: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Lejupielādējiet mūsu balss datu kopas

@@ -129,9 +129,41 @@ rate-limit-message-seconds =
         [one] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet { $retryLimit } sekundes. Paldies par pacietību!
        *[other] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet { $retryLimit } sekundes. Paldies par pacietību!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [zero] Savākts { $uploadedSentences } no 1 teikuma
+        [one] Savākti { $uploadedSentences } no { $totalSentences } teikumiem
+       *[other] Savākti { $uploadedSentences } no { $totalSentences } teikumiem
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [zero] Savākti { $uploadedSentences } no 1 teikuma. Noklikšķiniet <downloadLink>šeit</downloadLink>, lai lejupielādētu noraidītos teikumus.
+        [one] Savākti { $uploadedSentences } no { $totalSentences } teikumiem. Noklikšķiniet <downloadLink>šeit</downloadLink>, lai lejupielādētu noraidītos teikumus.
+       *[other] Savākti { $uploadedSentences } no { $totalSentences } teikumiem. Noklikšķiniet <downloadLink>šeit</downloadLink>, lai lejupielādētu noraidītos teikumus.
+    }
+small-batch-sentences-rule-1 = Sekojiet norādījumus sadaļā “Kādus teikumus varu pievienot?”
+small-batch-sentences-rule-2 = Katrā rindā pievienojiet vienu teikumu
+small-batch-sentences-rule-3 = Atdaliet teikumus, kas sarakstīti vienā rindā, vienreiz nospiežot “Enter”.
+small-batch-sentences-rule-4 = Pievienojiet līdz 1000 teikumiem
+small-batch-sentences-rule-5 = Visiem teikumiem ir jābūt no vienas jomas
+small-batch-sentences-rule-6 = Visiem teikumiem jābūt vienādam avotam
+# menu item
+add-sentences = Pievienot teikumus
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Pievienojiet un pārskatiet teikumus, pievienojiet jautājumus, pārrakstiet audio
+add-sentences-menu-item-tooltip = Pievienojiet teikumus savā valodā
+review-sentences-menu-item-tooltip = Pārskatiet teikumus savā valodā
+add-questions-menu-item-tooltip = Pievienojiet jautājumus savā valodā
+transcribe-audio-menu-item-tooltip = Pārrakstiet audio ierakstus savā valodā
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Rakstīšanas iespēju izvēlne
+add-sentences-menu-item-aria-label = Pievienojiet jaunus teikumus lasīšanai
+review-sentences-menu-item-aria-label = Pārskatiet citu dalībnieku iesniegtos teikumus
+add-questions-menu-item-aria-label = Iesniedziet jaunus jautājumus ielasīšanai un atbildēšanai
+transcribe-audio-menu-item-aria-label = Pārrakstiet audio ierakstus tekstā
