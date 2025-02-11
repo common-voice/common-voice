@@ -19,11 +19,9 @@ target-segment-first-card = Maarani hedefişi segmentis numxacamt.
 target-segment-generic-card = Hedef segmentis numxacamt.
 target-segment-add-voice = Nena-tkvani keǩunt̆alit
 target-segment-learn-more = Daha fazla gaçkinas
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Xomaşi ǩoleǩsioni
-contribute-sentence-collection-nav-header = Cumleşi ǩoleǩsiyoni
+vote-yes = Ho
+vote-no = Var
+datasets = Datamarç̌a
 
 ## Reporting
 
