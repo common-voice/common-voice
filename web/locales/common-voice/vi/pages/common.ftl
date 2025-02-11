@@ -5,6 +5,7 @@
 ## Languages
 
 aa = Afar
+aat = Arvanitika
 ab = Abkhaz
 abb = Bankon
 ace = Aceh

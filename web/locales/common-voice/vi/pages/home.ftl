@@ -72,17 +72,21 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 
 ## NAV ITEMS
 
+answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 answer-questions-coming-soon = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Hợp tác với chúng tôi
 press-and-stories-menu-item-tooltip = Ghé thăm blog hoặc viết về chúng tôi
 community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng đồng và dự án Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menu Giới thiệu
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
 
 ## NEW HOME PAGE KEYS
@@ -90,6 +94,9 @@ press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài vi�
 
 ## Hero section
 
+hero-title = Công nghệ nói ngôn ngữ của bạn
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Tại sao AI chỉ làm việc cho một vài ngôn ngữ của thế giới?</bold>
 # icon is an arrow that points downwards
 get-started = Bắt đầu <icon><icon>
 
@@ -138,8 +145,19 @@ explore-datasets = Khám phá các tập dữ liệu <icon></icon>
 
 get-involved-section-title = Hỗ trợ các bộ dữ liệu mở do cộng đồng lãnh đạo
 read-sentences-link = Đọc câu
+answer-questions-link = Trả lời câu hỏi
 contribute-text-link = Đóng góp văn bản
 
 ## Partner section
 
 partner-section-title = Hợp tác với chúng tôi
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Công ty công nghệ</bold> - đầu tư vào việc tạo bộ dữ liệu mở cho một hệ sinh thái AI đa ngôn ngữ thịnh vượng
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Xã hội dân sự và các nhà nghiên cứu</bold> - tạo, lưu trữ và chia sẻ các bộ dữ liệu có tác động miễn phí
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Từ thiện</bold> - nhà tài trợ tạo bộ dữ liệu để thúc đẩy sự đổi mới và phát triển cục bộ
+# icon is an arrow that points to the right
+get-in-touch-button = Liên hệ <icon></icon>
+# Partners section
+our-partners-include = Đối tác của chúng tôi bao gồm...
