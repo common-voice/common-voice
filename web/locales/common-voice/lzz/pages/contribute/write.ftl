@@ -3,7 +3,7 @@
 write = ç̌ari
 sentence =
     .label = Cumle
-sentence-input-value = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
+sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
 citation =
     .label = Eşaç̌opu
 new-sentence-rule-1 = <noCopyright>Telifişi xarǩi va ren</noCopyright>ozdapa (<cc0>cc-0</cc0>)
@@ -22,4 +22,15 @@ add-sentence-error = Cumle eǩidvet̆uşani xeta gamaxtu
 required-field = Ham svani opşit.
 
 ## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
+
+# menu item
+add-sentences = Cumle eǩudvi
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 

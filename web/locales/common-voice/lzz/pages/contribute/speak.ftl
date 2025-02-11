@@ -1,3 +1,6 @@
+speak = İsinapi
+speak-now = Hatzi - hus - huy isinapi
+speak-subtitle = Nena-tkvani mixarsuvit
 record-cta = Doloç̌arus kogyoç̌ǩi
 record-platform-not-supported = Mixarsuvit, pilatformi çkunik hatzi var numxacams.
 record-platform-not-supported-desktop = Masajin cihazepes geğmalute megaşvelenan...
