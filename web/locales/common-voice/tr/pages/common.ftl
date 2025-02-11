@@ -5,11 +5,13 @@
 ## Languages
 
 aa = Afarca
+aat = Arvanitçe
 ab = Abhazca
 abb = Bankon
 ace = Açece
 ady = Adıgece (Batı Çerkesçesi)
 af = Afrikaans
+aln = Gegce
 am = Amharca
 an = Aragonca
 ar = Arapça
@@ -206,6 +208,7 @@ sr = Sırpça
 ss = Siswati
 st = Güney Sotho
 sv-SE = İsveççe
+sva = Svanca
 sw = Svahili
 syr = Süryanice
 ta = Tamilce
@@ -242,6 +245,7 @@ wep = Vestfalya dili
 wes = Kamerun Pidgin
 wo = Volofça
 xh = Xhosa
+xmf = Megrelce
 yi = Yidiş
 yo = Yoruba
 yue = Kantonca
