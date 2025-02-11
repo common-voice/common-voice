@@ -74,6 +74,7 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 
 answer-questions-coming-soon = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+coming-soon = Sắp ra mắt
 
 ## MENU ITEMS TOOLTIPS
 
@@ -95,18 +96,50 @@ get-started = Bắt đầu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
+coming-soon = Sắp ra mắt
+add-text = Thêm văn bản
 
 ## Community section
 
+community-section-title = Được cung cấp bởi các cộng đồng toàn cầu, cho các cộng đồng toàn cầu — 130 ngôn ngữ và vẫn tiếp tục tăng lên!
+join-discord-community = Tham gia cộng đồng Discord
+# label for button
+join-discord-community-action = Tham gia cùng chúng tôi trên Discord
+join-discord-community-content = Tham gia vào các cuộc thảo luận về cộng đồng ngôn ngữ, đặt câu hỏi, tìm hiểu về các sự kiện và cuộc nói chuyện sắp tới.
+find-us-on-matrix = Tìm chúng tôi trên Matrix
+find-us-on-matrix-content = Matrix là một giao thức mở, nhẹ để phân cấp, giao tiếp thời gian thực và nền tảng thảo luận mở ưa thích của Mozilla.
+# label for button
+find-us-on-matrix-action = Tìm chúng tôi trên Matrix
+ask-mozilla-share = Yêu cầu Mozilla chia sẻ sự kiện của bạn
+ask-mozilla-share-content = Có sự kiện trước đó hoặc sắp tới? Chia sẻ nó với chúng tôi và chúng tôi sẽ thông báo nó cho cộng đồng hoặc viết một blog về nó!
+# label for button
+ask-mozilla-share-action = Chia sẻ sự kiện của bạn
+download-contribution-certificate = Tải xuống chứng chỉ đóng góp của bạn
+download-contribution-certificate-content = Tải xuống chứng chỉ cho các sự kiện của bạn hoặc chính bạn nếu bạn đã đóng góp Common Voice — điều này sẽ không thể xảy ra nếu không có bạn!
+# label for button
+download-contribution-certificate-action = Nhận chứng chỉ của bạn
+contribute-github = Đóng góp trên GitHub
+contribute-github-content = Dự án này sẽ không thể thực hiện được nếu không có những người như bạn. 🎉 Có nhiều cách để tham gia với Common Voice - bạn không cần phải biết cách lập trình để đóng góp!
+# label for button
+contribute-github-action = Đóng góp trên GitHub
 
 ## Featured section
 
+featured-section-title = Được truyền thông bởi...
 
 ## Developers section
 
+developers-section-title = Bộ dữ liệu phát biểu khai mạc (open speech) có thể truy cập công khai với hơn 130 ngôn ngữ
+developers-section-subtitle = Bộ dữ liệu cho ASR, STT, TTS, và bối cảnh NLP khác - được tạo ra thông qua đóng góp của cộng đồng.
+# icon is an arrow that points to the right
+explore-datasets = Khám phá các tập dữ liệu <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Hỗ trợ các bộ dữ liệu mở do cộng đồng lãnh đạo
+read-sentences-link = Đọc câu
+contribute-text-link = Đóng góp văn bản
 
 ## Partner section
 
+partner-section-title = Hợp tác với chúng tôi
