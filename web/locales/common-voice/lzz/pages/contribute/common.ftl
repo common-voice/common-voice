@@ -19,9 +19,14 @@ target-segment-first-card = Maarani hedefişi segmentis numxacamt.
 target-segment-generic-card = Hedef segmentis numxacamt.
 target-segment-add-voice = Nena-tkvani keǩunt̆alit
 target-segment-learn-more = Daha fazla gaçkinas
+login-signup = Amaxti / Doliç'ari
 vote-yes = Ho
 vote-no = Var
 datasets = Datamarç̌a
+languages = Nenape
+about = Hemuşeni
+partner = Partneri
+submit-form-action = Mendancğoni
 
 ## Reporting
 
