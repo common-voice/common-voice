@@ -231,9 +231,12 @@ sr = เซอร์เบีย
 ss = สวาติ
 st = โซโทใต้
 sv-SE = สวีเดน
+sva = สวาน
 sw = สวาฮิลี
 syr = ซีเรีย
+szy = ซากีซายา
 ta = ทมิฬ
+tay = อตายัล
 te = เตลูกู
 teg = เตเก
 tg = ทาจิก
@@ -245,6 +248,7 @@ tl = ตากาล็อก
 tn = เซซวานา
 tok = โทคิโพนา
 tr = ตุรกี
+trv = ซีดิก
 ts = ซิตซองกา
 tt = ตาตาร์
 tui = ตูปูรี
@@ -263,9 +267,11 @@ vec = เวนิส
 vi = เวียดนาม
 vmw = เอมาคูวา
 vot = โวต
+wbl = วาคี
 wep = เว็สท์ฟาเลิน
 wo = โวลอฟ
 xh = โซซา
+xmf = มิงเกรเลีย
 yi = ยิดดิช
 yo = โยรูบา
 yue = กวางตุ้ง
@@ -273,6 +279,7 @@ zgh = ทามาไซท์
 zh-CN = จีน (จีน)
 zh-HK = จีน (ฮ่องกง)
 zh-TW = จีน (ไต้หวัน)
+zoc = ซูเกแบบโกไปนาลา
 zu = ซูลู
 zza = ซาซา
 
@@ -288,12 +295,14 @@ privacy = ความเป็นส่วนตัว
 terms = ข้อกำหนด
 cookies = คุกกี้
 faq = คำถามที่พบบ่อย
+documentation = เอกสารประกอบ
 content-license-text = เนื้อหาอยู่ภายใต้<licenseLink>สัญญาอนุญาต Creative Commons</licenseLink>
 share-title = ช่วยเราค้นหาผู้อื่นที่จะบริจาคเสียงของเขา
 share-text = ช่วยสอนเครื่องจักรกลว่าคนจริงๆ ออกเสียงอย่างไร ช่วยบริจาคเสียงที่ { $link }
 link-copied = คัดลอกลิงก์แล้ว
 back-top = กลับขึ้นด้านบน
 logout = ออกจากระบบ
+donate = บริจาค
 stayintouch = Mozilla กำลังสร้างชุมชนเกี่ยวกับเทคโนโลยีด้านเสียง เราต้องการติดตามข้อมูลอัปเดตแหล่งข้อมูลใหม่และเพื่อทราบข้อมูลเพิ่มเติมว่าคุณใช้ข้อมูลนี้อย่างไร
 privacy-info = เราสัญญาว่าจะจัดการกับข้อมูลของคุณอย่างระมัดระวัง อ่านเพิ่มเติมใน <privacyLink>ประกาศเกี่ยวกับความเป็นส่วนตัว</privacyLink> ของเรา
 return-to-cv = กลับไปยัง Common Voice
@@ -309,5 +318,12 @@ not-available-abbreviation = ไม่ระบุ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>เราต้องการ</mark><br/><mark>ความช่วยเหลือจากคุณ!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = เราต้องเสียค่าใช้จ่ายเกือบล้านเหรียญสหรัฐต่อปีในการโฮสต์ชุดข้อมูลและปรับปรุงแพลตฟอร์มสำหรับชุมชนที่มีภาษาต่างๆ มากกว่า 100 แห่งที่พึ่งพาสิ่งที่เราทำ <strong>ถ้าคุณเห็นคุณค่าของข้อมูลที่เปิดกว้างและครอบคลุม ก็โปรดบริจาควันนี้เลย!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ต้องการใช้ Common Voice</mark><br/><mark>เพื่องานวิจัยของคุณใช่ไหม?</mark>
+languages-donate-banner-cta-explanation = Common Voice ได้รับการสนับสนุนจากเงินบริจาคและทุนสนับสนุน! เรายินดีร่วมมือกับนักวิชาการ ภาคประชาสังคม และนักวิจัยในอุตสาหกรรม Common Voice นั้นใช้งานได้ฟรี แต่การมีส่วนร่วมสนับสนุนด้านแพลตฟอร์มและค่าใช้จ่ายในการโฮสต์ผ่านข้อเสนอขอทุนนั้นมีประโยชน์อย่างมาก
 localization-select =
     .label = เลือกภาษา/การแปลภาษา
