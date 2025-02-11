@@ -108,6 +108,27 @@ rate-limit-toast-message-minutes =
         [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
        *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [zero] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc 1  sekundes
+        [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } sekundēm
+       *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } sekundēm
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [zero] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet 1 minūti. Paldies par pacietību!
+        [one] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet { $retryLimit } minūtes. Paldies par pacietību!
+       *[other] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet { $retryLimit } minūtes. Paldies par pacietību!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [zero] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet 1 sekundi. Paldies par pacietību!
+        [one] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet { $retryLimit } sekundes. Paldies par pacietību!
+       *[other] Ir sasniegts šīs lapas iesniegšanas ierobežojumu. Pirms nākamā teikuma iesniegšanas, lūdzu, uzgaidiet { $retryLimit } sekundes. Paldies par pacietību!
+    }
 
 ## MENU ITEM TOOLTIPS
 
