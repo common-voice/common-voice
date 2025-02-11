@@ -96,3 +96,5 @@ license = Licence: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Lejupielādējiet mūsu balss datu kopas
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Lejupielādes iespējas, lai piekļūtu Common Voice datiem
