@@ -33,6 +33,7 @@ easy-difficulty = Осон
 average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
+lose-goal-progress-warning = Бо таҳрири ҳадафи худ, шумо метавонед пешрафти мавҷудаи худро аз даст диҳед.
 want-to-continue = Шумо мехоҳед, ки идома диҳед?
 finish-editing = Аввалан, шумо тасҳеҳро ба анҷом мерасонед?
 lose-changes-warning = Агар ҳозир равед, ин маънои онро дорад, ки шумо тағйироти худро аз даст медиҳед
