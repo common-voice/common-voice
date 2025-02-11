@@ -72,6 +72,7 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 
 ## NAV ITEMS
 
+answer-questions-coming-soon = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
 
 ## MENU ITEMS TOOLTIPS
@@ -88,9 +89,12 @@ press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài vi�
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Bắt đầu <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
 
 ## Community section
 
