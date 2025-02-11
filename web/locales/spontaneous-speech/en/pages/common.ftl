@@ -22,6 +22,7 @@ report-button = Report
 skip-button = Skip
 submit-button = Submit
 contribute = Contribute
+request-language = Request Language
 
 ## Navbar
 
