@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-form-keyboard-usage-custom = Maa keyboard e shortcuts istimaal etas maamay baan. Awa senasar, Beeya senasar daa Phat etasar
+sc-review-form-keyboard-usage-custom = Maa keyboard e shortcuts: { sc-review-form-button-approve-shortcut }{ sc-review-form-button-reject-shortcut }{ sc-review-form-button-reject-shortcut } istimaal etas maamay baan. Awa senasar: { sc-review-form-button-reject-shortcut }, Beeya senasar: { sc-review-form-button-skip-shortcut } daa Phat etasar
 sc-review-form-button-submit =
     .submitText = hik ḍame daa  barenas phaṣ manimi
 # Variables:
