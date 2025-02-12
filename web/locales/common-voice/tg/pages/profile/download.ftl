@@ -6,6 +6,7 @@ download-profile-title = Профил
 download-profile-size = Чанд байт
 download-recordings-title = Сабтҳо
 download-recordings-size = Одатан мегабайтҳо
+download-recordings-unavailable = Шумо наметавонед сабтҳои худро дархост намоед, дар ҳоле ки дархости дигар аллакай иҷро шуда истодааст.
 download-recently-requested = Шумо метавонед ҳар { $days } рӯз гирифтани нави сабтҳои худро дархост намоед.
 download-size = Андоза
 download-selected = Интихоб шуд

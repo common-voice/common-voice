@@ -15,4 +15,7 @@ request-language-google-recaptcha-required = Агар шумо хоҳед, ки 
 request-language-google-recaptcha-error = Дар қадами «reCAPTCHA» чизе нодуруст ба миён омад. Лутфан, баъдтар аз нав кӯшиш кунед.
 # Success page
 request-language-success-heading = Ташаккур! Шумо дархости забони навро фиристодед
+request-language-success-list-1 =
+    Шумо бояд паёми электрониеро бо тавсифи кутоҳ оид ба қадамҳо
+    барои илова кардани забони худ ба «Common Voice» ба зудӣ қабул намоед
 request-language-error = Шояд мо ин дархостро нагирифтаем. Лутфан, ба мо мустақиман тавассути почтаи электронӣ фиристед <emailLink>{ $email }</emailLink> ва мо бо шумо дар тамос мешавем!
