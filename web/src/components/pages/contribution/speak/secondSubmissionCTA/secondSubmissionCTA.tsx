@@ -58,7 +58,7 @@ export const SecondPostSubmissionCTA: React.FC<
           </div>
         </div>
 
-        <div className="subtitle-text-container">
+        <div className="subtitle-text-container hidden">
           <Localized id="second-cta-subtitle-text">
             <h2 className="subtitle-text" />
           </Localized>
@@ -68,7 +68,7 @@ export const SecondPostSubmissionCTA: React.FC<
           <Localized id="create-profile-button">
             <LinkButton
               rounded
-              className="create-profile-button"
+              className="create-profile-button hidden"
               data-testid="create-profile-button"
               href="/login"
             />
@@ -86,7 +86,7 @@ export const SecondPostSubmissionCTA: React.FC<
           elems={{
             login: <a href="/login" />,
           }}>
-          <p className="login-text" />
+          <p className="login-text hidden" />
         </Localized>
       </div>
     </div>
