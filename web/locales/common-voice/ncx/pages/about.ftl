@@ -76,6 +76,11 @@ about-playbook-how-add-language-content-1 =
     Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan
 about-playbook-how-add-language-translating-heading = Kitlajtolkopaj sitio
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Xikita kenijki titekipanos ika Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Titlajtolkopaj ik se tlamantli tlen poui Mozilla itoka <pontoonLink>Pontoon</pontoonLink>. Pontoon yikipia miakej tlatlamantli tlajtolkopaj. Maskin ijkon, tla amo tikajsi tlen moaxka <pontoonRequestLink>xiktlajtlani itech</pontoonRequestLink>.
+    Satepan, xiktlajtlani mapoui itech Common,
+    <githubRepoLink>xiktlajtlani yankuik tlajtolkopa itech GitHub</githubRepoLink>. <localizationFragment>Xikita okachi itech tlajtolkopalistli</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Tlajkuilolnechikoli
 
 ## How does localization work
 
