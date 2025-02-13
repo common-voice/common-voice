@@ -39,12 +39,29 @@ terms-disagree = Ne savan ket a-du
 why-donate = Perak e c'houlennit eta?
 add-information-button = Ouzhpennañ titouroù
 continue-speaking-button = Nann avat, kenderc'hel da gomz
+thanks-for-voice-toast = Trugarez da vezañ pourvezet deomp titouroù diwar-benn ho mouezh
+thanks-for-voice-toast-error = C'hoarvezet ez eus ur fazi en ur gas an titouroù diwar-benn ho mouezh
+first-cta-gender-select-default-option = Diuzit un dibarzh bennak
+first-cta-gender-select-help-text =
+    .label = Penaos eo gwell ganeoc'h deskrivañ ho seks pe jener ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Trugarez da vezañ roet ho mouezh deomp !
+second-cta-subtitle-text = A-drugarez d'ur profil e c'hallit mirout memor ar pezh hoc'h eus graet ha mont e darempred gant ur gumuniezhiad tud o deus roet o mouezh ivez.
+already-have-an-account = Ur gont zo ganeoc'h c'hoazh ? <login>Kevreañ</login>
 create-profile-button = Krouiñ ur profil
 # IMAGE TAGS
-img-alt-success-checkmark = merk kochañ berzh
+img-alt-success-checkmark = merk berzhadennoù
+# menu item
+read-sentences = Lenn frazennoù
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Lenn frazennoù, respont da c'houlennoù
+read-sentences-menu-item-tooltip = En em enrollit o lenn frazennoù en ho yezh
+answer-questions-menu-item-tooltip = En em enrollit o respont da c'houlennoù en ho yezh
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Lañser dibarzhioù komz
+read-sentences-menu-item-aria-label = Lenn frazennoù kaset gant ar gumuniezh e yezhoù all
+answer-questions-menu-item-aria-label = Goulenn un dra bennak digant ar gumuniezh

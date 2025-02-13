@@ -99,6 +99,7 @@ about-playbook-how-record-content-2 = Mirit diouzh ul live trouz re greñv tro-d
 
 ## How to grow language
 
+about-playbook-how-grow-language = Penaos e c'hallan diorren plas ur yezh bennak en un doare efedus war Common voice ?
 about-playbook-how-grow-language-content-2 = Darvoudoù
 about-playbook-how-grow-language-content-4 = Media sokial
 about-playbook-how-grow-language-content-6 = Kevelerien ha kenrouedad
