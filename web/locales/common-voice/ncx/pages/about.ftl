@@ -93,9 +93,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = ¿Kenijki titlajtolkopaj?
 about-playbook-how-localize-content-1 = Tiktlajtolkopaj Common Voice itech <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Ximomachoti</pontoonAccountLink> tla ayamo tipoui. Satepan, xikpejpena motlajtolkopa <strong>(‘Team’)</strong> uan xikpejpena proyect, <pontoonCvLink>Common Voice</pontoonCvLink>. Onpa yetos tlen tiktlajtolkopas. Xikpacho se, ika ualmonextis seki tlajtoli ika inglés uan kanin tikijkuilos ika motlajtolkopa.
+about-playbook-how-localize-content-3 = Maski nochi kisas ika inglés, noijki uelis tikitas tlen <strong>Uelis yetos</strong> ika okseki tlajtolkopaj. Xikpacho kanin<strong>Perfil</strong>, satepan <strong>Settings</strong> uan xikintlalili nochtin tlajtolkpaj non ika titlajtoa. Tlakxitlan, ik moyekma, tikinmajsis okseki tlajtolkopalistli itech <strong>Locales</strong>. Tlen tiktlajtolkopas monextis itech sitio mostlatika.
+about-playbook-how-localize-content-4 = Ualmonextis sitio ijkuak yiyetos 75% yotiktlajtolkopki.
+about-playbook-how-localize-content-5 = Xikita video kanin timitsyekiluiskej
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ¿Ken nitlajkuilos?
 
 ## How to record quality
 
