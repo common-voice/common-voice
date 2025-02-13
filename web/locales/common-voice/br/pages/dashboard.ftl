@@ -60,31 +60,66 @@ set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } eur
-        [two] { $totalHours } eur
-        [few] { $totalHours } eur
-        [many] { $totalHours } a eurioù
-       *[other] { $totalHours } eur
-    } a zo posupl e { NUMBER($periodMonths) ->
-        [one] { $periodMonths } miz
-        [two] { $periodMonths } viz
-        [few] { $periodMonths } miz
-        [many] { $periodMonths } a vizoù
-       *[other] { $periodMonths } miz
-    } ma vez { NUMBER($people) ->
-        [one] { $people } den
-        [two] { $people } zen
-        [few] { $people } den
-        [many] { $people } a dud
-       *[other] { $people } den
-    } oc’h enrollañ { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } c’hlip
-        [two] { $clipsPerDay } glip
-        [few] { $clipsPerDay } c’hlip
-        [many] { $clipsPerDay } a glipoù
-       *[other] { $clipsPerDay } klip
-    } bemdez.
-how-many-per-day = Dispar! Pegement a glipoù bemdez?
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+    }
+how-many-per-day = Dispar ! Pet klip an deiz ?
 how-many-a-week = Dispar ! Pet klip ar sizhun ?
 which-goal-type = Komz pe selaou a fell deoc'h ober, an daou ?
 receiving-emails-info = Dibabet ho peus degemer posteloù evit degas da soñj ho palioù deoc'h, evit diskouez hoc’h araokadennoù ha kaout keloù a-berzh Common Voice
