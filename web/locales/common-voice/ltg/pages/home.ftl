@@ -78,6 +78,8 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 
 ## NAV ITEMS
 
+answer-questions = Atbiļdēt iz vaicuojumim
+coming-soon = Dreiži
 
 ## MENU ITEMS TOOLTIPS
 
@@ -93,6 +95,9 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 
 ## Action items section
 
+spontaneous-card-header = Spontana runa
+coming-soon = Dreiži
+add-text = Dalikt tekstu
 
 ## Community section
 
