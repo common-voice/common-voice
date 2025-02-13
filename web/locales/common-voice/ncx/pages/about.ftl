@@ -82,6 +82,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>xiktlajtlani yankuik tlajtolkopa itech GitHub</githubRepoLink>. <localizationFragment>Xikita okachi itech tlajtolkopalistli</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Tlajkuilolnechikoli
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Nin video mitsititis ken tikchiuas Tlajkuilolnechikoli</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Uelis <sentenceCollectorLinkAdd>tikinmijkuilos san seki</sentenceCollectorLinkAdd>,
+    noso <bulkImportDocsLink>sapanoa miakej ika Github</bulkImportDocsLink>.
+    Xikilnamiki moneki yetos <licenseLink>CC0 (tlen nochtin uelis kitekitiltiskej)</licenseLink>, noso tlen moneuian otikijkuilo.
 
 ## How does localization work
 
