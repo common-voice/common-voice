@@ -92,6 +92,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = ¿Kenijki titlajtolkopaj?
 about-playbook-how-localize-content-1 = Tiktlajtolkopaj Common Voice itech <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Ximomachoti</pontoonAccountLink> tla ayamo tipoui. Satepan, xikpejpena motlajtolkopa <strong>(‘Team’)</strong> uan xikpejpena proyect, <pontoonCvLink>Common Voice</pontoonCvLink>. Onpa yetos tlen tiktlajtolkopas. Xikpacho se, ika ualmonextis seki tlajtoli ika inglés uan kanin tikijkuilos ika motlajtolkopa.
 
 ## How to add sentences
 
