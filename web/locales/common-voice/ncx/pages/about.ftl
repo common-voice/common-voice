@@ -100,6 +100,7 @@ about-playbook-how-localize-content-5 = Xikita video kanin timitsyekiluiskej
 ## How to add sentences
 
 about-playbook-how-add-sentences = ¿Ken nitlajkuilos?
+about-playbook-how-add-sentences-content-1 = Uelis seki tikijkuilos itech <writePageLink>Xitlajkuilo</writePageLink> noso tikmotilis tlen ijkuilijtok itech <reviewPageLink>Xikmotili</reviewPageLink>.
 
 ## How to record quality
 
