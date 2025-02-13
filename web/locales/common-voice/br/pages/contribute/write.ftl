@@ -29,13 +29,53 @@ small-batch-sentence-submission = Kas frazennoù dre lodennoù bihan
 bulk-sentence-submission = Kas frazennoù a-vras
 single-sentence = Unan hepken
 small-batch-sentence = strobad bihan
+bulk-sentence = strobad bras
+sentence-domain-combobox-label = Domani ar frazenn
+sentence-domain-select-placeholder = Gallout a rit dibab betek tri domani (diret)
+# Sentence Domain dropdown option
+agriculture_food = Labour-douar ha boued
+# Sentence Domain dropdown option
+automotive_transport = Kirri ha treuzdougen
+# Sentence Domain dropdown option
+finance = Arc'hant
+# Sentence Domain dropdown option
+service_retail = Servijoù ha gwerzhioù dre ar munud
+# Sentence Domain dropdown option
+general = Hollek
+# Sentence Domain dropdown option
+healthcare = Yec'hed
+# Sentence Domain dropdown option
+history_law_government = Istor, gwir ha gouarnamant
+# Sentence Domain dropdown option
+language_fundamentals = Diazezoù ar yezhoù (da sk. niveroù, lizherennoù, moneiz)
+# Sentence Domain dropdown option
+media_entertainment = Media ha dudi
+# Sentence Domain dropdown option
+nature_environment = Natur hag endro
+# Sentence Domain dropdown option
+news_current_affairs = Keleier ha darvoudoù a-vremañ
+# Sentence Domain dropdown option
+technology_robotics = Teknologiezh ha robotegezh
+sentence-variant-select-label = Adstumm frazennoù
+sentence-variant-select-placeholder = Dibabit un adstumm (diret)
+sentence-variant-select-multiple-variants = Yezh hollek / meur a adstumm
 
 ## BULK SUBMISSION 
 
-try-upload-again-md = Klaskit pellgas adarre
-select-file = Diuzañ ar restr
-select-file-mobile = Diuzit ar restr da bellgas
-accepted-files = Doare restr degemeret: .tsv hepken
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kargañ <icon></icon> frazennoù en domani foran
+sc-bulk-upload-instruction = Riklit ho restr betek amañ pe <uploadButton>klikit evit kargañ anezhi</uploadButton>
+sc-bulk-upload-instruction-drop = Lakait ar restr amañ evit kargañ anezhi
+bulk-upload-additional-information = Mar fell deoc'h pourchas muioc'h a ditouroù diwar-benn ar restr-mañ e c'halli tmont e darempred gant <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Mar fell deoc'h pourchas titouroù ouzhpenn diwar-benn ar restr-mañ eget ar pezh zo merket er skouer e c'hallit mont e darempred gant <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Klaskit en-dro da lakaat ho restr da riklañ betek amañ
+try-upload-again-md = Klaskit kargañ en-dro
+select-file = Diuzañ ur restr
+select-file-mobile = Diuzit ar restr da vezañ karget
+accepted-files = Doareoù restroù degemeret : .tsv hepken
+minimum-sentences = Niver bihanañ a frazennoù er restr : 1000
+maximum-file-size = Ment vrasañ ar restr : 25 Mo
+what-needs-to-be-in-file = Petra a rank bezañ kavet em restr ?
 upload-progress-text = O pellgas...
 upload-more-btn-text = Pellgas muioc'h a frazennoù?
 file-invalid-type = Restr direizh

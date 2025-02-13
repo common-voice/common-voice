@@ -86,7 +86,7 @@ activity-needed-calculation-plural =
     } bemdez.
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
 how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
-which-goal-type = Fellout a ra deoc’h komz, selaou pe ober an daou?
+which-goal-type = Komz pe selaou a fell deoc'h ober, an daou ?
 receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc’h araokadennoù ha kaout keloù diwar-benn Common Voice
 not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc’h araokadennoù ha kaout keloù diwar-benn Common Voice
 n-clips-pluralized =
@@ -104,20 +104,20 @@ goal-interval-weekly = Sizhuniek
 share-n-daily-contribution-goal = Rannit ho pal a { $count } a glipoù bemdez evit { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Rannit ho pal a { $count } a glipoù bep sizhun evit { $type }
-share-goal-type-speak = komz
-share-goal-type-listen = selaou
-share-goal-type-both = komz ha selaou
+share-goal-type-speak = O komz
+share-goal-type-listen = O selaou
+share-goal-type-both = O komz ha selaou
 # LINK will be replaced with the current URL
-goal-share-text = Emaon o paouez krouiñ ur pal personel evit reiñ ma mouezh da #CommonVoice -- deuit ganin da gelenn d’ar mekanikoù penaos e vez komzet gant an dud gwirion { $link }
-weekly-goal-created = Krouet eo bet ho pal sizhuniek
-daily-goal-created = Krouet eo bet ho pal pemdeziek
-track-progress = Heuilhit hoc’h araokadennoù amañ ha war bajenn ho stadegoù.
-return-to-edit-goal = Distroit amañ da embann ho pal pa fell deoc’h.
+goal-share-text = Emaon o paouez krouiñ ur pal personel evit reiñ e vouezh da #CommonVoice -- deuit ganin da skoazellañ ar mekanikoù da zeskiñ penaos e komz an dud e gwirionez { $link }
+weekly-goal-created = Termenet eo bet ho pal sizhuniek
+daily-goal-created = Termenet eo bet ho pal pemdeziek
+track-progress = Heuilhit hoc’h araokadennoù amañ ha war ho pajenn stadegoù.
+return-to-edit-goal = Distroit amañ da cheñch ho pal pa fell deoc’h.
 share-goal = Rannañ ma fal
 
 ## Goals
 
-streaks = Rekord
+streaks = Rekordoù
 days =
     { $count ->
         [one] Deiz
@@ -131,14 +131,14 @@ recordings =
         [one] Enrolladenn
         [two] Enrolladenn
         [few] Enrolladenn
-        [many] a enrolladennoù
+        [many] Enrolladenn
        *[other] Enrolladenn
     }
 validations =
     { $count ->
-        [one] Gadarnadenn
-        [two] Gadarnadenn
-        [few] Kadarnadenn
-        [many] a gadarnadennoù
-       *[other] Kadarnadenn
+        [one] Aprouadenn
+        [two] Aprouadenn
+        [few] Aprouadenn
+        [many] Aprouadenn
+       *[other] Aprouadenn
     }
