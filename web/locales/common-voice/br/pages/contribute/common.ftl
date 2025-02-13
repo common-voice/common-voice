@@ -1,8 +1,8 @@
 action-click = Klikañ
 action-tap = Pouezit
-contribute = Kemer-perzh
+contribute = Kemer perzh
 review = Gwiriañ
-skip = Mont hebioù
+skip = Mont hebiou
 shortcuts = Berradennoù
 clips-with-count-pluralized =
     { $count ->
@@ -12,20 +12,26 @@ clips-with-count-pluralized =
         [many] <bold>{ $count }</bold> a glipoù
        *[other] <bold>{ $count }</bold> klip
     }
-goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn enrollet bemdez!
-goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn gwiriet bemdez!
-contribute-more = Prest d’ober { $count } ouzhpenn?
-speak-empty-state = N'hon eus tamm frazenn ebet ken da enrollañ er yezh-se...
+goal-help-recording = Skoazellet ho peus Common Voice da dizhout <goalPercentage></goalPercentage> e bal a { $goalValue } frazenn enrollet bemdez !
+goal-help-validation = Skoazellet ho peus Common Voice da dizhout <goalPercentage></goalPercentage> e bal a { $goalValue } frazenn gwiriet bemdez !
+contribute-more = Prest d’ober { $count } muioc'h ?
+speak-empty-state = N'eus frazenn ebet ken da enrollañ er yezh-mañ...
+no-sentences-for-variants = N'eus ket frazennoù pelloc'h en ho rannyezh ! Ma n'em santit en o aez gant stummoù yezh all e c'hallit cheñch hoc'h arventennoù evit gwelet frazennoù all en ho yezh
 speak-empty-state-cta = Kinnig frazennoù
+speak-loading-error =
+    N'eus bet kavet frazenn ebet da enrollañ.
+    Klaskit en-dro diwezhatoc'h marteze.
 record-button-label = Enrollit ho mouezh
-share-title-new = <bold>Sikourit ac’hanomp</bold> da gavout muioc’h a vouezhioù
+share-title-new = <bold>Skoazellit ac’hanomp</bold> da zastum mouezhioù all
 keep-track-profile = Heuilhit hoc’h araokadennoù gant ur profil
-login-to-get-started = Kennaskit pe lakait hoc’h anv evit kregiñ ganti
-target-segment-first-card = Kendeurel a rit d’hor dazrann vukenn gentañ
-target-segment-generic-card = Kendeurel a rit d’un dazrann vukenn
-target-segment-first-banner = Skoazellit da grouiñ dazrann gentañ Common Voice e { $locale }
+login-to-get-started = Kevreit pe lakait hoc’h anv evit kregiñ ganti
+target-segment-first-card = O kemer perzh emaoc'h el lodenn gentañ bet lakaet da bal ganeomp
+target-segment-generic-card = O kemer perzh emaoc'h en ur rann lakaet da bal
+target-segment-first-banner = Hor skoazellit da grouiñ rann gentañ Common Voice da lakaat da bal e { $locale }
 target-segment-add-voice = Ouzhpennit ho mouezh
 target-segment-learn-more = Gouzout hiroc’h
+change-preferences = Kemmañ ho penndibaboù
+vote-yes = Ya
 vote-no = Ket
 datasets = Strobadoù roadennoù
 languages = Yezhoù
@@ -139,5 +145,6 @@ contribution-volume-description = Normal eo e vefe liveoù son disheñvel etre a
 contribution-reader-effects-title = Tonioù hag efedoù son
 contribution-reader-effects-description = Ar pep brasañ eus an enrolladennoù a ya d'o ober tud o komz gant o mouezh naturel. Gallout a rit degemer an enrolladennoù divoas evel mouezhioù huchet, chuchumuchuet pe enrolladennoù eztaolet e doare ur pezh-c'hoari. Distaolit mar plij an traoù kanet pe mouezhioù sintetek un urzhiataer.
 contribution-just-unsure-title = Etre daou soñj ?
+contribution-just-unsure-description = M'en em gavit gant un dra bennak all n'eus ket bet soñjet ennañ er strobad alioù-mañ, grit diouzh ar gwellañ evel ma santot an traoù. Ma n'oc'h ket evit ober ho soñj e gwirionez, pouezit war ar bouton mont hebiou evit gallout plediñ gant un enrolladenn all.
 see-more = <chevron></chevron>Gwelet muioc’h
 see-less = <chevron></chevron>Gwelet nebeutoc’h

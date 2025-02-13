@@ -1,6 +1,7 @@
 listen = Selaou
-listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat eo bet ar frazenn ganto?
-listen-again-instruction = Labour vat! <playIcon></playIcon> Adselaou pa viot prest
+listen-subtitle = Skoazellit ac’hanomp da wiriañ mouezhioù
+listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat eo bet ar frazenn ganto ?
+listen-again-instruction = Labour vat ! <playIcon></playIcon> Adselaou pa viot prest
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon>, dalc’hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ !
 listen-empty-state = Ne chom enrolladenn ebet ken da wiriañ - freskaat ar bajenn pe distreiñ diwezhatoc'h.

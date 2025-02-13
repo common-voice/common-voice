@@ -43,8 +43,9 @@ sc-criteria-modal = ⓘ Dezverkoù gwiriañ
 sc-criteria-title = Dezverkoù gwiriañ
 sc-criteria-make-sure = Bezit sur e klot ar frazenn gant an dezverkoù da-heul:
 sc-criteria-item-1 = Rankout a ra ar frazenn bezañ skrivet en un doare reizh.
-sc-criteria-item-2 = Ar frazenn a rank bezañ reizh a-fet yezhadur.
-sc-criteria-item-3 = Ar frazenn a rank bezañ aes da zistagañ.
+sc-criteria-item-2 = Rankout a ra ar frazenn bezañ reizh he yezhadur.
+sc-criteria-item-3 = Rankout a ra ar frazenn bezañ distagadus.
+sc-criteria-item-4 = Ma touj ar frzenn d'an dezverkoù, klikit war ar bouton &quot;Aprouiñ&quot; a-zehoù.
 sc-criteria-item-5-2 = Ma ne zouj ket ar frazenn ouzh an dezverkoù a-us, klikit war ar bouton &quot;Disteurel&quot; a-gleiz. Ma n'oc'h ket asur eus ar frazenn, lezit evel-se ha kit da blediñ gant ur frazenn all.
 sc-criteria-item-6 = Ma ne chom ket frazennoù da wiriañ ken, skoazellit ac'hanomp da zastum frazennoù all !
 # <icon></icon> will be replace with an icon that represents review

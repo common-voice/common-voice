@@ -1,29 +1,29 @@
 ## Home Page
 
-home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
-default-tagline = Mozilla Common Voice a zo un intrudu evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
-home-cta = Komzit, kemerit perzh amañ!
-wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c’hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
-wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c’hompagnunezhioù bras ganto ne c’hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d’an holl.
-wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh en open-source hag a c’hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
-wall-of-text-first = Naturel eo ar vouezh, denel eo ivez. Abalamour da-se eo ez eus pres warnomp krouiñ un deknologiezh mouezh evit hor mekanikoù. Met evit krouiñ reizhiadoù mouezh o devez ezhomm an diorroerien da gaout kalz a roadennoù mouezh.
-wall-of-text-second = Ar pep brasañ eus ar roadennoù hegerz gant ar c’hompagnunezhioù na vezont ket hegerz evit darn vuiañ an dud. Setu aze evit petra hon eus loc’het Common Voice, ur raktres hag a sikour ac’hanomp da lakaat an anaoudadur mouezh digor hag hegerz d’an holl.
+home-title = Common Voice zo anezhañ un intrudu a-berzh Mozilla evit skoazellañ ar mekanikoù da gompren penaos e komz an dud wir.
+default-tagline = Mozilla Common Voice zo anezhañ un intrudu evit skoazellañ ar mekanikoù da gompren penaos e komz an dud wir.
+home-cta = Roit ho mouezh, kemerit perzh amañ !
+wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c’hall bezañ implijet gant hor mekanikoù. Ar pezh zo, evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh.
+wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra an embregerezhioù bras ganto ne c’hallont ket bezañ implijet gant al lodenn vrasañ eus an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres zo e bal ober ma c'hallo an holl tennañ splet eus anaoudegezh ar vouezh.
+wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz roadennoù mouezh frank a wirioù hag a c’hall bezañ implijet gant pep hini evit sevel arloadoù ijinek evit ardivinkoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit skoazellañ ar mekanikoù da zeskiñ komz evel ma ra an dud wir. Gwiriit labour ar berzhidi all evit gwellaat kalite ar roadennoù. Ken aes ha tra !
+wall-of-text-first = Naturel eo ar vouezh, denel eo ivez. Setu perak omp laouen gant ar soñj krouiñ un deknologiezh vouezh a c'hall bezañ implijet gant hor mekanikoù. Koulskoude, evit krouiñ reizhiadoù mouezh o deus ezhomm an diorroerien da gaout korpusoù mouezh bras-tre.
+wall-of-text-second = Ar pep brasañ eus ar roadennoù implijet gant an embregerezhioù bras ne c'hallont ket bezañ implijet gant an darn vuiañ eus an dud. an dra-se a voug ar grouüsted, a soñj deomp ha setu perak hon eus staget gant Common Voice, anezhañ ur raktres zo e bal lakaat anaoudegezh ar vouezh da vezañ frank ha hegerz evit an holl
 show-wall-of-text = Lenn muioc’h
-help-us-title = Skoazellit ac’hanomp da gadarnaat frazennoù!
-help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
-no-clips-to-validate = War a seblant n’eus klip ebet da selaou evit ar yezh-mañ. Sikourit ac’hanomp da leuniañ ar steudad c’hortoz en ur enrollañ un nebeud bremañ.
-toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
-speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon spletad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
+help-us-title = Hor skoazellit da wiriañ frazennoù !
+help-us-explain = Pouezit war lenn, selaouit & lavarit deomp : ha distripet-mat eo ar frazenn dindan ?
+no-clips-to-validate = Evit doare n’eus klip ebet da selaou evit ar yezh-mañ. Roit an dorn evit enrollañ un nebeud re nevez.
+toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit selaou pe paouez da selaou
+speak-paragraph = Enrollañ mouezhioù a ya d'ober ul lodenn bouezus eus al labour da sevel hor strobad roadennoù digor ; lod a lavarfe eo al lodenn dudiusañ ivez.
 speak-goal-text = Klipoù enrollet
-listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac’hanomp da grouiñ roadennoù mouezh digor a galite.
-listen-goal-text = Klipoù gwiriet
+listen-paragraph = Aprouiñ enrolladennoù fiziet ennomp zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac’hanomp da grouiñ roadennoù mouezh digor a-zoare.
+listen-goal-text = Klipoù aprouet
 hours-recorded = Eurvezhioù enrollet
-hours-validated = Eurvezhioù gwiriet
+hours-validated = Eurvezhioù aprouet
 voices-online = Mouezhioù enlinenn bremañ
-todays-progress = Araokadur an deiz
-help-reach-goal = Sikourit ac’hanomp mont betek { $goal }
-read-terms-q = Ha lennet hoc’h eus hon Termenoù?
-ready-to-record = Prest oc’h da reiñ ho mouezh?
+todays-progress = Araokadurioù an deiz
+help-reach-goal = Hor skoazellit da vont betek { $goal }
+read-terms-q = Ha lennet hoc’h eus hon Termenoù implijout ?
+ready-to-record = Prest da reiñ ho mouezh ?
 all-locales = Pep tra
 today = Hiziv
 x-weeks-short =
@@ -47,19 +47,19 @@ x-years-short =
         [one] bloaz
         [two] vloaz
         [few] bloaz
-        [many] a vloazioù
+        [many] a vloavezhioù
        *[other] bloaz
     }
-help-make-dataset = Skoazellit ac’hanomp da sevel ur spletad roadennoù foran, digor hag a galite uhel
-sign-up-account = Krouit ur gont
-email-subscription-title = marilhit evit keleier dre bostel
-email-subscription-title-new = Lakait hoc’h anv evit postel kelaouiñ Common Voice, palioù hag araokadennoù.
+help-make-dataset = Hor skoazellit da sevel ur strobad roadennoù foran, digor, hag uhel e galite.
+sign-up-account = Krouiñ ur gont
+email-subscription-title = Lakait hoc'h anv evit resev keleier dre bostel
+email-subscription-title-new = Koumanantit evit resev lizheroù-kelaouiñ Common Voice, ar palioù, hag hizivadurioù war an araokadennoù.
 
 ## Account Benefits
 
 benefits = Spletoù
-rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
-improve-audio = Titouroù ar profil a wella ar roadennoù son implijet evit spister anaoudegezh ar vouezh.
+rich-data = Roit ar muiañ a ditouroù posupl diwar-benn ar roadennoù gasit deomp en ur bourveziñ ivez un nebeud roadennoù demografek dianv. Neptuekaat a reomp kement roadenn demografek zo a-raok o embann.
+improve-audio = Titouroù ar profil a sikour da wellaat ar roadennoù son implijet evit spister anaoudegezh ar vouezh.
 keep-track = Mirit ur roud eus hoc’h araokadennoù evit an holl yezhoù hoc'h eus kemeret perzh en o raktresoù.
 compare-progress = Keñveriit hoc’h araokadennoù gant re perzhidi all e pep lec’h er bed.
 view-goals = Sellit ouzh hoc’h araokadennoù a-geñver gant ho palioù personel ha re ar raktres.
@@ -141,15 +141,58 @@ join-discord-community = Kemer perzh e kumuniezh Discord
 # label for button
 join-discord-community-action = Kit e darempred ganeomp war Discord
 join-discord-community-content = Kemer perzh e kaozeadennoù ar gumuniezh yezhel, sevel goulennoù ha bezañ kelaouet eus ar prezegennoù ha darvoudoù.
+find-us-on-matrix = Adkavout ac'hanomp war Matrix
+find-us-on-matrix-content = Matrix zo anezhañ ur protokol skañv ha digor evit kaozeadennoù war-eeun digreizennet. Bez' eo ivez savenn flapañ karetañ Mozilla.
+# label for button
+find-us-on-matrix-action = Adkavout ac'hanomp war Matrix
+ask-mozilla-share = Goulennit digant Mozilla rannañ ho tarvoudoù
+ask-mozilla-share-content = Ur darvoud hoc'h eus bet pe a vo aozet ganeoc'h ? Rannit anezhañ ganeomp ha kemennet e vo ganeomp d'hor c'humuniezh, pe skrivit ur pennad blog diwar e benn !
+# label for button
+ask-mozilla-share-action = Rannit ho tarvoud
+download-contribution-certificate = Pellgargañ ho testeni kemer perzh
+download-contribution-certificate-content = Pellgargit un testeni evit ho tarvoudoù pe evidoc'h m'hoc'h eus kemeret perzh e Common Voice — netra na vefe bet posupl hepdoc'h !
+# label for button
+download-contribution-certificate-action = Tapout e desteni
+contribute-github = Kemer perzh war GitHub
+contribute-github-content = Ne vefe ket posupl kas ar raktres-mañ da benn hep tud eveldoc'h. 🎉 Meur a zoare zo da gemer perzh e Common Voice - N'eo ket ret bezañ barrek war ar c'hodiñ evit kemer perzh !
+# label for button
+contribute-github-action = Kemer perzh war GitHub
 
 ## Featured section
 
+featured-section-title = Meneget e...
+# icon is an arrow that points downwards
+download-press-pack = Pellgargañ hor strobad pennadoù kazetennoù <icon></icon>
 
 ## Developers section
 
+developers-section-title = Strobadoù roadennoù mouezh digor d'an holl en ouzhpenn 130+ yezh
+developers-section-subtitle = Strobadoù roadennoù evit anaoudegezh emgefre ar vouezh, sintezenn ar gomz ha doareoù all da blediñ gant ar yezhoù naturel - savet a-drugarez da berzh dud a-youl-vat
+# icon is an arrow that points to the right
+explore-datasets = Furchal e strobadoù roadennoù <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Harpañ strobadoù roadennoù frank diazezet gant ar gumuniezh
+read-sentences-link = Lenn frazennoù
+validate-readings-link = Aprouiñ lennadennoù
+contribute-link = Magañ ar c'horpus testennoù
+answer-questions-link = Respont da c'houlennoù
+transcribe-answers-link = Treuzskrivañ respontoù
+review-transcriptions-link = Adwelet treuzskrivadurioù
+contribute-text-link = Degas testennoù
+press-and-stories-link = Kazetennoù hag istorioù
 
 ## Partner section
 
+partner-section-title = Kenlabourat ganeomp
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Embregerezhioù teknologel</bold> - postañ arc'hant e savidigezh strobadoù roadennoù evit krouiñ un ekoreizhiad naouegezh artifisiel birvidik
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Kevredigezh sivil hag enklaskerien</bold> - krouiñ, herberc'hiañ ha rannañ digoust strobadoù roadennoù talvoudus.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantopiezh</bold> - harpañ krouién strobadoù roadennoù evit magañ an intrudu lec'hel hag an diorren
+# icon is an arrow that points to the right
+get-in-touch-button = Mont e darempred <icon></icon>
+# Partners section
+our-partners-include = E-touez hor c'hevelerien emañ...

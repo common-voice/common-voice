@@ -4,29 +4,29 @@ your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
 goal-reached = Pal tizhet
 clips-you-recorded = Klipoù enrollet ganeoc’h
-clips-you-validated = Klipoù gwiriekaet ganeoc’h
-todays-recorded-progress = Araokadenn Common Voice an devezh war an niver a glipoù enrollet
-todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù gwiriekaet
+clips-you-validated = Klipoù aprouet ganeoc’h
+todays-recorded-progress = Araokadennoù Common Voice hiziv a-fet niver a glipoù enrollet
+todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù aprouet
 stats = Stadegoù
 awards = Trec’hioù
 you = C’hwi
 everyone = An holl
-contribution-activity = Oberiantiz kendeurel
-top-contributors = Perzhidi pennañ
+contribution-activity = Oberiantiz
+top-contributors = Perzhidi bennañ
 recorded-clips = Klipoù enrollet
-validated-clips = Klipoù gwiriekaet
-total-approved = Hollad asantet
-overall-accuracy = Spister hollek
-set-visibility = Dibab ma gwelusted
-visibility-explainer = Reoliañ a ra an arventenn-mañ ho kwelusted en araokadennoù foran. M’eo kuzhet ne vo ket diskouezet hoc’h araokadennoù, ar pezh a dalv ne vo ket diskouezet ho skeudenn, hoc’h anv pe hoc’h araokadennoù war an daolenn araokadennoù. An daolenn araokadennoù en deus ezhomm ~{ $minutes } mun evit hizivaat ar c’hemmoù.
-visibility-overlay-note = Evezhiadenn: mard eo lakaet da "Gwelus" e c’hallit kemmañ an arventenn-mañ en ho <profileLink>profil</profileLink>.
+validated-clips = Klipoù aprouet
+total-approved = Hollad aprouet
+overall-accuracy = Fiziusted hollek
+set-visibility = Termeniñ ma live gwelusted
+visibility-explainer = Reoliañ a ra an arventenn-mañ gwelusted hoc'h obererezh er renkadur. Ma vez kuzhet ne vo ket diskouezet hoc’h araokadennoù , Kement-se a dalvez ne vo ket diskouezet ho skeudenn, hoc’h anv pe hoc’h araokadennoù war taolenn an araokadennoù. Notit mat he deus ezhomm taolenn an araokadennoù ~{ $minutes } munut evit hizivaat ar c’hemmoù.
+visibility-overlay-note = Notenn : pa vez lakaet war "Gwelus" e c’hallit kemmañ an arventenn-mañ en ho <profileLink>profil</profileLink>.
 show-ranking = Diskouez ma renkadur
 
 ## Custom Goals
 
-get-started-goals = Kregiñ gant ar palioù
+get-started-goals = Kregiñ da lakaat palioù
 create-custom-goal = Krouiñ ur pal personelaet
-goal-type = Peseurt pal a fell deoc’h sevel?
+goal-type = Peseurt doare palioù a fell deoc’h termeniñ ?
 both-speak-and-listen = An daou
 both-speak-and-listen-long = An daou (komz ha selaou)
 daily-goal = Pal pemdeziek
@@ -35,27 +35,27 @@ easy-difficulty = Aes
 average-difficulty = Etre
 difficult-difficulty = Diaes
 pro-difficulty = Ampart
-lose-goal-progress-warning = En ur embann ho pal e c’hallit koll hoc’h araokadennoù.
-want-to-continue = Fellout a ra deoc’h kenderc’hel ganti?
-finish-editing = Echuiñ gant an embann a-raok?
-lose-changes-warning = En ur guitaat bremañ e kollot ho kemmoù
-build-custom-goal = Sevel ur pal personelaet
+lose-goal-progress-warning = Ma kemmit ho pal e c’hallit koll an araokadennoù renablet betek-henn.
+want-to-continue = Kenderc’hel memes tra ?
+finish-editing = Echuiñ gant ar c'hemmoù da gentañ ?
+lose-changes-warning = Ma kuitait bremañ e kollot ho kemmoù
+build-custom-goal = Termeniñ ur pal personelaet
 help-reach-hours-pluralized =
-    Skoazellit da dizhout{ NUMBER($hours) ->
-        [one] { $hours } eur
-        [two] { $hours } eur
-        [few] { $hours } eur
-        [many] { $hours } a eurvezhioù
-       *[other] { $hours } eur
-    }e { $language } gant ur pal personelaet
+    { NUMBER($hours) ->
+        [one] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
+        [two] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
+        [few] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
+        [many] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
+       *[other] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
+    }
 help-reach-hours-general-pluralized =
-    Skoazellit Common Voice da dizhout{ NUMBER($hours) ->
-        [one] { $hours } eur
-        [two] { $hours } eur
-        [few] { $hours } eur
-        [many] { $hours } eur
-       *[other] { $hours } a eurvezhioù
-    }en ur yezh gant ur pal personelaet
+    { NUMBER($hours) ->
+        [one] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
+        [two] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
+        [few] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
+        [many] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
+       *[other] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
+    }
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 activity-needed-calculation-plural =
@@ -85,25 +85,25 @@ activity-needed-calculation-plural =
        *[other] { $clipsPerDay } klip
     } bemdez.
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
-how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
+how-many-a-week = Dispar ! Pet klip ar sizhun ?
 which-goal-type = Komz pe selaou a fell deoc'h ober, an daou ?
-receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc’h araokadennoù ha kaout keloù diwar-benn Common Voice
-not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc’h araokadennoù ha kaout keloù diwar-benn Common Voice
+receiving-emails-info = Dibabet ho peus degemer posteloù evit degas da soñj ho palioù deoc'h, evit diskouez hoc’h araokadennoù ha kaout keloù a-berzh Common Voice
+not-receiving-emails-info = Dibabet ho peus <bold>CHOM HEP</bold> degemer posteloù evit degas ho palioù da soñj deoc'h, evit diskouez hoc’h araokadennoù pe kaout keloù a-berzh Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } standilhon
-        [two] { $count } standilhon
-        [few] { $count } standilhon
-        [many] { $count } a standilhonoù
-       *[other] { $count } standilhon
+        [one] { $count } c'hlip
+        [two] { $count } glip
+        [few] { $count } c'hlip
+        [many] { $count } klip
+       *[other] { $count } klip
     }
-help-share-goal = Skoazellit ac’hanomp da gaout muioc’h a vouezhioù, rannit ho pal
+help-share-goal = Skoazellit ac’hanomp da rastellat mouezhioù all, rannit ho pal
 confirm-goal = Kadarnaat ar pal
 goal-interval-weekly = Sizhuniek
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Rannit ho pal a { $count } a glipoù bemdez evit { $type }
+share-n-daily-contribution-goal = Rannit ho pal a { $count }  klip bemdez evit { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Rannit ho pal a { $count } a glipoù bep sizhun evit { $type }
+share-n-weekly-contribution-goal = Rannit ho pal a { $count } klip bep sizhun evit { $type }
 share-goal-type-speak = O komz
 share-goal-type-listen = O selaou
 share-goal-type-both = O komz ha selaou
