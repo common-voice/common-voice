@@ -74,6 +74,7 @@ about-playbook-how-add-language-content-1 =
     Ду марҳила вуҷуд дорад: «Маҳаллисозӣ/Тарҷумаи сомона» ва «Ҷамъоварии ҷумлаҳо»
 about-playbook-how-add-language-translating-heading = Тарҷумаи сомона
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Дастури моро дар бораи тарзи истифодаи «Pontoon» тамошо кунед.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Мо барои тарҷумаҳо аз абзори «Mozilla» бо номи <pontoonLink>«Pontoon»</pontoonLink> истифода мебарем. «Pontoon» забонҳои зиёд дорад, аммо агар забони шумо дар он набошад, шумо метавонед <pontoonRequestLink>дархостро барои илова кардани забони худ</pontoonRequestLink> ирсол кунед. Баъдан, барои дастрас намудани забон дар лоиҳаи «Common Voice», <githubRepoLink>дархостро барои илова кардани забони нав дар «GitHub» ирсол намоед</githubRepoLink>. <localizationFragment>Маълумоти бештар дар бораи тарҷумаи сомона</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Дастури омӯзишии моро дар бораи истифодаи «Ҷамъкунандаи ҷумлаҳо» тамошо кунед</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Маълумоти бештар дар бораи ҷамъоварии ҷумлаҳо</sentenceCollectorFragment>.
