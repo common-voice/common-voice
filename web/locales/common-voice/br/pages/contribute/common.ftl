@@ -31,6 +31,7 @@ target-segment-first-banner = Hor skoazellit da grouiñ rann gentañ Common Voic
 target-segment-add-voice = Ouzhpennit ho mouezh
 target-segment-learn-more = Gouzout hiroc’h
 change-preferences = Kemmañ ho penndibaboù
+login-signup = Kevreañ / Lakaat e anv
 vote-yes = Ya
 vote-no = Ket
 datasets = Strobadoù roadennoù

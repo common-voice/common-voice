@@ -62,6 +62,8 @@ create-profile-button = Krouiñ ur profil
 img-alt-success-checkmark = merk berzhadennoù
 # menu item
 read-sentences = Lenn frazennoù
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Lenn frazennoù <small>(A-raok pell)</small>
 
 ## MENU ITEM TOOLTIPS
 
