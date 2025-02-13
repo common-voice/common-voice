@@ -2,7 +2,10 @@ import * as nodemailer from 'nodemailer'
 import * as AWS from '@aws-sdk/client-ses'
 
 import { getConfig } from '../config-helper'
-import { BulkSubmissionContactInformation, BulkSubmissionEmailData } from '../core/bulk-submissions/types/bulk-submission'
+import {
+  BulkSubmissionContactInformation,
+  BulkSubmissionEmailData,
+} from '../core/bulk-submissions/types/bulk-submission'
 
 /**
  * See docs/email.md for more info
@@ -137,12 +140,15 @@ class Email {
 
   private createHTML(
     email: string,
+    platform: string,
     languageInfo: string,
     languageLocale?: string
   ) {
     let html = `
       <h2>Email</h2>
       <p><a href="mailto:${email}">${email}</a></p>
+      <h2>Platform</h2>
+      <p>${platform}</p>
       <h2>Language Information</h2>
       <p>${languageInfo}</p>
     `.trim()
@@ -163,7 +169,7 @@ class Email {
     languageLocale: string,
     contact: BulkSubmissionContactInformation
   ) {
-    const timestamp = (new Date()).toUTCString()
+    const timestamp = new Date().toUTCString()
     const html = `
       <h2>New Bulk Submission</h2>
       <p>Download link: <a href="${filepath}">${filename}</a></p>
@@ -194,15 +200,17 @@ class Email {
 
   async sendLanguageRequestEmail({
     email,
+    platform,
     languageInfo,
     languageLocale,
   }: {
     email: string
+    platform: string
     languageInfo: string
     languageLocale?: string
   }) {
     const subject = this.createSubject(email, languageLocale)
-    const html = this.createHTML(email, languageInfo, languageLocale)
+    const html = this.createHTML(email, platform, languageInfo, languageLocale)
     return this.send({ subject, html })
   }
 }

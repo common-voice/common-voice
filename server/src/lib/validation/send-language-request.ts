@@ -1,8 +1,8 @@
-import { AllowedSchema } from 'express-json-validator-middleware';
+import { AllowedSchema } from 'express-json-validator-middleware'
 
 export const sendLanguageRequestSchema: AllowedSchema = {
   type: 'object',
-  required: ['email', 'languageInfo'],
+  required: ['email', 'languageInfo', 'platform'],
   properties: {
     email: {
       type: 'string',
@@ -14,5 +14,9 @@ export const sendLanguageRequestSchema: AllowedSchema = {
     languageLocale: {
       type: 'string',
     },
+    platform: {
+      type: 'string',
+      enum: ['common-voice', 'spontaneous-speech'],
+    },
   },
-};
+}
