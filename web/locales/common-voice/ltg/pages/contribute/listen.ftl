@@ -10,6 +10,7 @@ listen-loading-error =
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Apstyprynoj īrunuotū, puorsaver transkripcejis
 
 ## MENU ITEM ARIA LABELS
 

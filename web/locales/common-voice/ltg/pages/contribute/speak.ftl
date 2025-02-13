@@ -1,3 +1,6 @@
+speak = Runojit
+speak-now = Runojit tagad
+speak-subtitle = Īrokstit sovu bolsu
 record-cta = Suocit īraksteišonu
 record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
 record-platform-not-supported-desktop = Datorūs varit zamynluodēt jaunuokū:

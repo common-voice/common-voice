@@ -46,6 +46,8 @@ sc-criteria-item-3 = Teikumam juobyut izrunojamam.
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
 sc-criteria-item-5-2 = Ka teikums naatbylst pyrma nūsauktajim kriterejim, klykstynojit iz pūgys "Nūraideit". Ka naasat puorlīcynuots par teikumu, varit tū ari izlaist i puorīt iz nuokušū.
 sc-criteria-item-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Puorbaudi <icon></icon> voi itys teikums ir pareizs?
 sc-review-rules-title = Voi teikums atbylst vodlinejom?
 sc-review-empty-state = Itūšaļt itamā volūdā nav teikumu, kū puorbaudeit.
 report-sc-different-language = Napareiza volūda
@@ -57,3 +59,5 @@ review-error-rate-limit-exceeded = Jius struodojit par daudz uotri. Lyudzu, iz �
 sc-redirect-page-title = Mes veicam puors lelys izmainis
 sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voice platformu. Tagad varit <writeURL>dalikt</writeURL> i<reviewURL>puorbaudeit</reviewURL> teikumus Common Voice sistemā.
 sc-redirect-page-subtitle-2 = Aizdūdit mums vaicuojumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> voi rokstūt <emailLink>e-postu</emailLink>.
+# menu item
+review-sentences = Teikumu puorbaude

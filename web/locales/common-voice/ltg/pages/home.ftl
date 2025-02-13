@@ -101,6 +101,9 @@ add-text = Dalikt tekstu
 
 ## Community section
 
+find-us-on-matrix = Meklej myus Matrix
+# label for button
+find-us-on-matrix-action = Meklej myus Matrix
 
 ## Featured section
 
@@ -110,6 +113,8 @@ add-text = Dalikt tekstu
 
 ## Get involved section
 
+read-sentences-link = Skaiti teikumus
+answer-questions-link = Atbiļdi iz vaicuojumim
 
 ## Partner section
 
