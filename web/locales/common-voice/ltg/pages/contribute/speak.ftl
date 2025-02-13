@@ -50,6 +50,8 @@ continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
 create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
 thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
+first-cta-gender-select-help-text =
+    .label = Kai jius raksturuotu sovu dzymumu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paļdis, pa pazīduojot sova bolsa īrokstus!
 second-cta-subtitle-text = Lītojūt profilu, varēsit sekuot leidza sovai aktivitatei i sasazynuot ar bolsa datu vuocieju kūpīnu.
@@ -57,6 +59,8 @@ already-have-an-account = Jums jau ir konts? <login>Pīsaslēdzit</login>
 create-profile-button = Sataiseit profilu
 # IMAGE TAGS
 img-alt-success-checkmark = veiksmis atzeime
+# menu item
+read-sentences = Skaiteit teikumus
 
 ## MENU ITEM TOOLTIPS
 

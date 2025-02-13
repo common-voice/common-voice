@@ -32,10 +32,10 @@ about-listen-text = Gant an implijerien e vez kadarnaet pegen fizius eo ar c’h
 about-is-it-valid = Ha reizh eo ar c’hlip ?
 about-is-it-valid-text = Merket eo ar c’hlipoù mouezh evel "reizh" ur wech kadarnaet gant un implijer bennak (vot a-du).
 about-yes-votes = ≥ 2 vouezh "Ya"
-about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c’hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
+about-yes-votes-text = Evit bezañ kemeret e kont er strobad roadennoù e rank ur c’hlip mouezh bezañ bet aprouet gant daou implijer disheñvel.
 about-no-votes = ≥ 2 vouezh "Ket"
-about-no-votes-text = Pa ’z eo argaset ur c’hlip mouezh e zistro er roll gortoz. Mard eo nac’het un eil wech eo kaset d’ar vered klipoù.
-about-dataset-new = Spletad roadennoù Common Voice
+about-no-votes-text = Pa vez argaset ur c’hlip mouezh e tistro d'al lostennad c'hortoz. Mard eo nac’het un eil gwech e vez kaset da vered ar c'hlipoù.
+about-dataset-new = Strobad roadennoù Common Voice
 about-dataset-new-text = Strobad roadennoù Common Voice zo ennañ kantadoù a viliadoù a skouerioù mouezh a skoazell an diorroerien da sevel ostilhoù da anaout ar mouezhioù.
 about-clip-graveyard = Bered ar c’hlipoù
 about-clip-graveyard-text = Bered ar c’hlipoù a ya d'hec'h ober ar c’hlipoù mouezh n’int ket bet aprouet e strobad roadennoù Common Voice. Gallout a ra bered ar c’hlipoù bezañ pellgarget, kement hag ar strobad roadennoù.
@@ -66,7 +66,16 @@ about-playbook-what-is-language-content-3 = Yezhoù zo a gemm kalz o stummoù a-
 ## How do I add a language
 
 about-playbook-how-add-language = Penaos e c'hallan ouzhpennañ ur yezh ?
+about-playbook-how-add-language-content-1 =
+    Da gentañ, sellet ha <languageLink>n'emañ ket ho yezh c'hoazh</languageLink>.
+    Ma n'emañ ket, e c'hallit <languageRequestLink>goulenn ma vo ouzhpennet ma yezh</languageRequestLink>.
+    Div bazenn zo. Treiñ al lec'hienn ha dastum frazennoù
 about-playbook-how-add-language-translating-heading = Treiñ al lec'hienn
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sellet ouzh ar sturlevr da c'houzout penaos ober gant Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Un ostilh Mozilla anvet <pontoonLink>Pontoon</pontoonLink> a implijomp evit treiñ. Kalz yezhoù zo e Pontoon                                                met met ma n'emañ ket hoc'h hini e c'hallit <pontoonRequestLink>goulenn ma vo ouzhpenn ho yezh</pontoonRequestLink>.
+    Goude, evit ma vo kavet ar yezh war raktres Common Voice,
+    <githubRepoLink>goulennit ar yezh nevez war GitHub</githubRepoLink>. <localizationFragment>Gouzout hiroc'h war an doare da dreiñ al lec'hienn</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Dastum frazennoù
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sellit ouzh ar sturlevr da c'houzout penaos implijout an dastumer frazennoù</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -96,21 +105,35 @@ about-playbook-how-add-sentences-content-3 = Gallout a rit ober gant an <scraper
 about-playbook-how-record-quality = Penaos enrollañ ur vouezh uhel he c'halite ?
 about-playbook-how-record-content-1 = Komzit gant ho mouezh normal ! Deuet mat eo amañ an doare ma komzit-c'hwi - Ho taol-mouezh evel m'emañ eo a fell deomp, gant an uhelder boas, ar stil hag an ton evel ma teu ganeoc'h.
 about-playbook-how-record-content-2 = Mirit diouzh ul live trouz re greñv tro-dro deoc'h - aes e tlefe bezañ kompren ac'hanoc'h.
+about-playbook-how-record-content-3 = Lennit ar frazenn aketus - arabat c'hwitañ war ger ebet, kemmañ pe ouzhpennañ gerioù.
+about-playbook-how-record-content-4 = Gwiriit emañ mat ar savenn oc'h enrollañ a-raok kregiñ da gomz ha ne chom a-sav nemet goude bezañ echuet ganeoc'h.
+about-playbook-how-record-content-5 = <accuracyLink>Gouzout hiroc'h diwar-benn an dezverkoù fizusted.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Penaos e c'hallan diorren plas ur yezh bennak en un doare efedus war Common voice ?
+about-playbook-how-grow-language-content-1 = Reiñ an tu da dud liesseurt kemer perzh e Common voice a sura ma talvezo an dastumad roadennoù d'ar muiañ a dud posupl. Krouet hon eus loazioù ha roadennoù a c'hall bezañ implijet ganeoc'h.
 about-playbook-how-grow-language-content-2 = Darvoudoù
+about-playbook-how-grow-language-content-3 = Gallout a rit aozañ darvoudoù evit broudañ an dud da gemer perzh. Aesoc'h eo eget ma soñj deoc'h. Gallout a rit en ober enlinenn gant un ostilh pellemgav pe dirak tud da vat mard eo posupl. <eventTemplate>Taolit ur sell ouzh hol loazioù ha patromoù evit aozañ darvoudoù</eventTemplate>
 about-playbook-how-grow-language-content-4 = Media sokial
-about-playbook-how-grow-language-content-6 = Kevelerien ha kenrouedad
+about-playbook-how-grow-language-content-5 = Gallout a rit implijout ar rouedadoù sokial evit bezañ klevet gwelloc'h. Embann traoù evit displegañ perak eo pouezus d'an dud kemer perzh ha mont e darempred gant tud all dedennet gant, da skouer, ar gwirioù yezhel, an naouegezh artifisiel pe ar c'hraksoñjoù e-keñver an deknologiezh. Sellit ouzh kuzulioù ouzhpenn war <campaignLink>aozañ ur c'houlzad war ar rouedadoù, o lakaat e-barzh elfennoù a c'hallit adimplijout war-lerc'h</campaignLink>.
+about-playbook-how-grow-language-content-6 = Kevelerien ha rouedadoù
+about-playbook-how-grow-language-content-7 = Kavit tud all zo prederiet evedoc'h ivez. Gallout a ra bezañ skolioù-meur, skolioù yezh, strolladoù stourm evit ar yezh pe kumuniezhioù skiantel diwar-benn ar roadennoù. Kit e darempred ganto ha displegit dezho penaos e c'hallont sikour ac'hanoc'h ha perak. <outreachTemplates>Taolit ur sell war hor patromoù  posteloù kizidikaat</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Un tamm ijin !</strong> Dibar e vo ho kumuniezh yezh deoc'h hag an dra-se n'eo nemet un nebeud alioù evit kregiñ ganti.
 
 ## How to validate
 
-about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriekaet ur c'hlip mouezhiek?
+about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriet ur c'hlip enrollet ?
+about-playbook-how-validate-content-1 = Ma c'hallit <strong>klevet anezho</strong> ha <strong>kompren anezho</strong>, dre-vras eo <strong>gwelloc'h aprouiñ</strong>.
+about-playbook-how-validate-content-2 = <strong>Arabat disteurel ur c'hlip ma komz unan bennak gant ‘un taol-mouezh’ disheñvel diouzh hoc'h hini</strong> - pouezus eo evit ma'z afe gwelloc'h en-dro anaoudegezh ar vouezh evit pep hini.
+about-playbook-how-validate-content-3 = Ma soñj deoc'h eo <strong>digromprenus an distagadur</strong>, pe ma'z eus <strong>kalz a drouz en a-dreñv</strong>, pe c'hoazh ma'z eus <strong>tud all o komz ivez</strong>, a-benn neuze eo ret disteurel an enrolladenn. <accuracyLink>Gouzout hiroc'h diwar-benn hon dezverkoù fiziusted</accuracyLink>.
+about-playbook-how-validate-content-4 = Ma vez distaolet un enrolladenn gant 2 zen e vo embannet en un istrollad eus an dastumad roadennoù.
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = Penaos e c’hellan haeziñ hag implijout ar spletad roadennoù?
+about-playbook-how-access-dataset = Penaos e c’hellan kavout hag implijout ar strobad roadennoù ?
+about-playbook-how-access-dataset-content-1 = Gallout a rit mont war <datasetsPage>pajenn ar strobad roadennoù</datasetsPage>, dibab ar stumm hag ar yezh(où) a fell deoc'h ha pellgargañ pep tra ! Gant ar restroù e teu <metadataLink>metaroadennoù liammet</metadataLink>, evel titouroù demografek hag ar roadennoù aprouiñ. A-benn gallout pellgargañ ar strobad roadennoù eo rekis merkañ ur chomlec'h postel.
+about-playbook-how-access-dataset-content-2 = Ma klaskit ostilhoù evit krouiñ patromoù ASR e c'hallit eskemm gant tud all er gumuniezh <discourseLink>war Discourse</discourseLink>.
 
 ## How are decisions made
 

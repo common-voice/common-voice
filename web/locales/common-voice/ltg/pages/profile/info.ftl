@@ -29,6 +29,7 @@ native-language =
 profile-form-add-accent = Dalikt jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglobuot
 profile-form-submit-saved = Saglobuots
+do_not_wish_to_say = Nagrybu atkluot
 # Gender
 other = Cyts
 why-profile-title = Deļkuo taiseit profilu?
@@ -50,7 +51,6 @@ accept-privacy-title = Privatuma politika
 accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>koņfideņcialuma paziņuojumam</privacyLink>
 login-identity = Dasaceišonys ideņtitate
 login = Dasaslēgt
-login-signup = Dasaslēgt / Registrētīs
 edit = Lobuot
 email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Zamynluodēt munus datus
