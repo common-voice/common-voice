@@ -23,7 +23,14 @@ required-field = Ham svani opşit.
 # Sentence Domain dropdown option
 finance = Finansi
 # Sentence Domain dropdown option
+service_retail = Hizmeti do perakende
+# Sentence Domain dropdown option
 general = İrixolo
+# Sentence Domain dropdown option
+history_law_government = Tarixi, Hukuki do Maktaloba
+# Sentence Domain dropdown option
+language_fundamentals = Nenapeşi Temeli (evuli: koretsxape, boncape, geçareli)
+sentence-variant-select-label = Cumleşi lehçepe
 
 ## BULK SUBMISSION 
 

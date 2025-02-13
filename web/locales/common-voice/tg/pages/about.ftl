@@ -77,6 +77,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Да
 about-playbook-how-add-language-translating-content-2 = Мо барои тарҷумаҳо аз абзори «Mozilla» бо номи <pontoonLink>«Pontoon»</pontoonLink> истифода мебарем. «Pontoon» забонҳои зиёд дорад, аммо агар забони шумо дар он набошад, шумо метавонед <pontoonRequestLink>дархостро барои илова кардани забони худ</pontoonRequestLink> ирсол кунед. Баъдан, барои дастрас намудани забон дар лоиҳаи «Common Voice», <githubRepoLink>дархостро барои илова кардани забони нав дар «GitHub» ирсол намоед</githubRepoLink>. <localizationFragment>Маълумоти бештар дар бораи тарҷумаи сомона</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкунии ҷумлаҳо
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Дастури омӯзишии моро дар бораи истифодаи «Ҷамъкунандаи ҷумлаҳо» тамошо кунед</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Шумо метавонед <sentenceCollectorLinkAdd>ҷумлаҳоро дар баста бо ҳаҷми хурд илова кунед</sentenceCollectorLinkAdd> ё <bulkImportDocsLink>бо истифода аз «GitHub» бо ҳаҷми калон ворид намоед</bulkImportDocsLink>. Дар хотир доред, ки ҷумлаҳо бояд <licenseLink>дорои иҷозатномаи «CC0» (ё манбаи дастраси умум)</licenseLink> бошанд, ё шумо метавонед онҳоро аз они худ нависед.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Маълумоти бештар дар бораи ҷамъоварии ҷумлаҳо</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -84,6 +85,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 about-playbook-how-localize-content-1 = Тарҷумаи сомонаи «Common Voice» дар «<strong>Pontoon</strong>» сурат мегирад.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Ҳисоберо эҷод кунед</pontoonAccountLink>, агар надошта бошед. Пас аз ин, забони худро дар бахши «Дастаҳо» <strong>(«Teams»)</strong> интихоб карда, ба лоиҳаи <pontoonCvLink>«Common Voice»</pontoonCvLink> гузаред. Дар он ҷой шумо файлҳоро барои тарҷума пайдо мекунед. Вақте ки шумо ба яке аз файлҳо зер мекунед, калимаҳо бо забони англисӣ ва дар зери онҳо қуттии махсус барои вори кардани тарҷумаи тоҷикӣ нишон дода мешавад.
+about-playbook-how-localize-content-3 = Тарҷума аз забони англисӣ анҷом дода мешавад, аммо шумо метавонед <strong>«Пешниҳодҳо/Suggestions»</strong>-ро бо забонҳои дигар аз назар гузаронед. Нишонаи <strong>«Профил/Profile»</strong>-ро зер кунед, сипас ба пайванди <strong>«Танзимот/Settings»</strong> гузаред ва забонҳоеро, ки шумо медонед, илова намоед. Дар гӯшаи поёнии рост рӯйхати тарҷумаҳо бо номи <strong>«Маҳаллӣ/Locales»</strong> пайдо мешавад. Тарҷумаҳо пас аз як рӯз дар сомонаи лоиҳаи мо намоён мегарданд.
 about-playbook-how-localize-content-4 = Сомона барои оғози кор омода мешавад, вақте ки ҳаҷми тарҷумаи он ба 75 дарсад мерасад.
 about-playbook-how-localize-content-5 = Барои кумак видеои шарҳдиҳандаи моро бинед
 
