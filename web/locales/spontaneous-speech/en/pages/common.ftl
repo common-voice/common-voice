@@ -22,12 +22,14 @@ report-button = Report
 skip-button = Skip
 submit-button = Submit
 contribute = Contribute
+request-new-language = Request New Language
 
 ## Navbar
 
 respond-to-prompt = Respond To Prompt
 transcribe-audio = Transcribe Audio
 check-transcriptions = Check Transcriptions
+question = Question
 
 ## Not Found Page
 
