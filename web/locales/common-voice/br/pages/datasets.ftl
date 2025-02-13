@@ -67,21 +67,30 @@ clipboard-not-supported = N’eo ket skoret ar golver
 dataset-metadata-sex = Reizh
 # dataset metadata - age of contributor
 dataset-metadata-age = Oad
-data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
+dataset-donate-modal-heading = Ha gouzout a rit...
+donate-modal-explanation-1 = Koustañ a ra e-tro ur milion a zollaroù ar bloaz herberc'hiañ ar strobadoù roadennoù ha gwellaat ar savenn evit ouzhpenn 100 kumuniezh yezh a gont war ar pezh a reomp.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Mard eo pouezus ar roadennoù digor ha frank a wirioù evidoc'h - Grit un donezon hiziv !</bold>
+data-download-singleword-title = Pellgargañ troc'had pal ur ger hepken
+data-download-singleword-callout-v2 = Hemañ zo anezhañ un troc'had diazezet war degouezhioù implij enno roadennoù  evit anaout ar son evit ar sifroù hag evit detektiñ ya/ket.
 data-download-button = Pellgargañ roadennoù Common Voice
 data-download-yes = Ya
 data-download-deny = Ket
 data-download-license = Aotre-implijout: <licenseLink>CC-0</licenseLink>
-data-download-modal = Emaoc’h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti?
-data-subtitle = Emaomp o krouiñ ur spletad roadennoù mouezh digor hag hegerz a c’hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
-data-explanatory-text = Soñjal a ra deomp e c’hall pikoloù spletadoù roadennoù foran degas krouüsted ha diazezañ ur gevezerezh yac’h evit teknologiezh ar mekanikoù emzeskiñ war ar vouezh. Ur striv bedel eo ha pediñ a reomp pep hini da gemer-perzh ennañ. Lakaat teknologiezh ar vouezh da gemer pep hini e kont eo hor pal. Evit se e fell deomp kaout un alberz eus liesseurted mouezhioù ar bed.
-data-get-started = <speechBlogLink>Kregiñ da anaout ar vouezh</speechBlogLink>
-data-other-title = Spletadoù roadennoù gant mouezhioù all...
+data-download-modal = Emaoc’h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, Kenderc'hel memes tra ?
+data-subtitle = Emaomp o krouiñ ur strobad roadennoù mouezh digor hag hegerz a c’hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
+data-explanatory-text = Lakaat e kerz an holl strobadoù roadennoù bras a c'hall, hervezomp, broudañ an nevezenti ha degas ur c'hevezerezh kenwerzhel yac’h evit an teknologiezhioù mouezh diazezet war an deskiñ emgefreek. Ur striv hollek eo ha broudañ a reomp pep hini da gemer perzh. Reiñ dorn a-benn ma vo enframmusoc'h teknologiezhioù ar vouezh o reiñ un alberz eus liesseurted mouezhioù ar bed eo hor pal.
+data-get-started = <speechBlogLink>Kregiñ gant an anaout mouezhioù</speechBlogLink>
+data-other-title = Strobadoù roadennoù mouezh all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
-data-bundle-button = Pellgargañ ur spletad roadennoù
-data-bundle-description = Spletad roadennoù Common Voice mui an holl spletadoù roadennoù mouezh all a-us.
-release-version = Handelv
+data-bundle-button = Pellgargañ ur strobad roadennoù
+data-bundle-description = Roadennoù Common Voice mui an holl strobadoù roadennoù mouezh all a-us.
+release-version = Stumm
 dataset-date = Deiziad
-license = Lañvaz: <licenseLink>{ $license }</licenseLink>
+license = Aotre-implijout : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Pellgargañ hor strobadoù roadennoù mouezh
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Dibarzhioù pellgargañ evit tapout roadennoù Common voice

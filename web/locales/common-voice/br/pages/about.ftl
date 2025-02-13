@@ -32,10 +32,10 @@ about-listen-text = Gant an implijerien e vez kadarnaet pegen fizius eo ar c’h
 about-is-it-valid = Ha reizh eo ar c’hlip ?
 about-is-it-valid-text = Merket eo ar c’hlipoù mouezh evel "reizh" ur wech kadarnaet gant un implijer bennak (vot a-du).
 about-yes-votes = ≥ 2 vouezh "Ya"
-about-yes-votes-text = Evit bezañ kemeret e kont er strobad roadennoù e rank ur c’hlip mouezh bezañ bet aprouet gant daou implijer disheñvel.
+about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c’hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
 about-no-votes = ≥ 2 vouezh "Ket"
-about-no-votes-text = Pa vez argaset ur c’hlip mouezh e tistro d'al lostennad c'hortoz. Mard eo nac’het un eil gwech e vez kaset da vered ar c'hlipoù.
-about-dataset-new = Strobad roadennoù Common Voice
+about-no-votes-text = Pa ’z eo argaset ur c’hlip mouezh e zistro er roll gortoz. Mard eo nac’het un eil wech eo kaset d’ar vered klipoù.
+about-dataset-new = Spletad roadennoù Common Voice
 about-dataset-new-text = Strobad roadennoù Common Voice zo ennañ kantadoù a viliadoù a skouerioù mouezh a skoazell an diorroerien da sevel ostilhoù da anaout ar mouezhioù.
 about-clip-graveyard = Bered ar c’hlipoù
 about-clip-graveyard-text = Bered ar c’hlipoù a ya d'hec'h ober ar c’hlipoù mouezh n’int ket bet aprouet e strobad roadennoù Common Voice. Gallout a ra bered ar c’hlipoù bezañ pellgarget, kement hag ar strobad roadennoù.
@@ -137,6 +137,18 @@ about-playbook-how-access-dataset-content-2 = Ma klaskit ostilhoù evit krouiñ 
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Penaos e vez kemeret an divizoù evit ar raktres ?
+about-playbook-how-project-governance-content-1 = A-drugarez d'ur gumuniezhiad liesseurt a stourmerien yezh, yezhoniourien, skiantourien roadennoù, skolveuridi ha stlennijinourien o tont eus ar bed a-bezh e c'hall Mozilla Common voice mont en-dro. Gant Diazezadur Mozilla eo meret ar raktres.
+about-playbook-how-project-governance-content-2 = Diazezet eo hor mererezh war an elfennoù-mañ :
+about-playbook-how-project-governance-content-3 = Prevezded, surentez, treuzwelusted.
+about-playbook-how-project-governance-content-4 = Perzh ar gumuniezh ha kemer divizoù.
+about-playbook-how-project-governance-content-5 = Talvoudegezh hag anaoudegezh.
+about-playbook-how-project-governance-content-6 = Kenatebegezh.
+about-playbook-how-project-governance-content-7 = <governanceLink>Gouzout hiroc'h war hor mererezh</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Penaos eo arc'hantaouet Common voice ?
+about-playbook-how-funded-content-1 = Ur raktres eus Diazezadur Mozilla eo Common Voice, un aozadur 501c3 e SUA. Penn-da-benn eo arc'hantaouet ar raktres gant <philantropicGrantLink>skoaziadoù filantropek</philantropicGrantLink>, ha donezonoù a-berzh tud er bed a-bezh.
+about-playbook-how-funded-content-2 = Ker e koust herberc'hiañ hag embann ingal ar strobad roadennoù, gwellaat ar savenn ha lañsañ <africaMradiLink>programmoù kumuniezhel</africaMradiLink>.
+about-playbook-how-funded-content-3 = Mar fell deoc'h pe d'hoc'h aozadur kemer perzh er raktres e c'hallit ober un <donateLink>donezon</donateLink> pe mont e darempred gant hor skipailh keveliñ war <emailFragment>commonvoice@mozilla.com</emailFragment>.

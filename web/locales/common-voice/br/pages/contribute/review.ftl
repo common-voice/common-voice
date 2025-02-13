@@ -42,7 +42,23 @@ sc-review-link = Gwiriañ
 sc-criteria-modal = ⓘ Dezverkoù gwiriañ
 sc-criteria-title = Dezverkoù gwiriañ
 sc-criteria-make-sure = Bezit sur e klot ar frazenn gant an dezverkoù da-heul:
-sc-criteria-item-1 = Ar frazenn a rank bezañ distaget en un doare reizh.
+sc-criteria-item-1 = Rankout a ra ar frazenn bezañ skrivet en un doare reizh.
 sc-criteria-item-2 = Ar frazenn a rank bezañ reizh a-fet yezhadur.
 sc-criteria-item-3 = Ar frazenn a rank bezañ aes da zistagañ.
-report-sc-different-language = Yezh disheñvel
+sc-criteria-item-5-2 = Ma ne zouj ket ar frazenn ouzh an dezverkoù a-us, klikit war ar bouton &quot;Disteurel&quot; a-gleiz. Ma n'oc'h ket asur eus ar frazenn, lezit evel-se ha kit da blediñ gant ur frazenn all.
+sc-criteria-item-6 = Ma ne chom ket frazennoù da wiriañ ken, skoazellit ac'hanomp da zastum frazennoù all !
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Gwiriit <icon></icon> ha savet eo ar frazenn-mañ en un doare reizh ?
+sc-review-rules-title = Ha doujañ a ra ar frazenn ouzh an erbedadennoù ?
+sc-review-empty-state = N'eus frazenn ebet da wiriañ evit ar yezh-mañ evit ar mare.
+report-sc-different-language = Yezh all
+report-sc-different-language-detail = Skrivet eo en ur yezh all diouzh an hini a wirian.
+sentences-fetch-error = C'hoarvezet ez eus ur fazi en ur adtapout ar frazennoù
+review-error = C'hoarvezet ez eus ur fazi en ur wiriañ ar frazenn
+review-error-rate-limit-exceeded = Re vuan ez it ganti. Tapit ur pennadig amzer evit gwiriañ mat eo reizh ar frazenn.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Emaomp o tegas kemmoù bras
+sc-redirect-page-subtitle-1 = Dilec'hiet e vo an dastumer frazennoù war savenn greiz Common Voice. Gallout a rit bremañ <writeURL>skrivañ</writeURL> ur frazenn pe <reviewURL>gwiriañ</reviewURL> frazennoù unan-hag-unan war Common Voice.
+sc-redirect-page-subtitle-2 = Savit goulennoù ouzhimp e <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> pe dre <emailLink>bostel</emailLink>.
+# menu item
+review-sentences = Gwiriañ Frazennoù

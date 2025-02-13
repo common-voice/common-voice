@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
-guidelines-header = Sturiadurioù ar c'hemer-perzh
+guidelines-header = Sturiadurioù ar c'hemer perzh
+guidelines-header-subtitle = Kompren penaos kemer perzh hag aprouiñ frazennoù hag enrolladennoù son e strobad roadennoù Common voice
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumad frazennoù
 misreadings = Fazioù lenn
@@ -61,7 +62,16 @@ citing-sentences-subheader-websites-explanation = Gallout a rit lec'hiennoù web
 citing-sentences-subheader-academic-reference = Davennoù akademek
 citing-sentences-subheader-academic-reference-explanation = Gallout a rit implijout ur stil daveiñ akademek, da skouer stil Harvard "Mozilla (2021) Common Voice. A c'haller tapout e https://commonvoice.mozilla.org/ (sellet outañ d'ar 15 a viz Gwengolo 2021)"
 citing-sentences-subheader-offline-sources = Mammennoù ezlinenn
-adding-sentences-subheader-length = Hirded
-adding-sentences-subheader-speakable = Aes da zistagañ
+citing-sentences-subheader-offline-sources-explanation = Evit an testennoù en domani foran ne vezont ket kavet enlinenn e c'hallit implijout ur stil daveiñ akademek evel, da skouer, ar stil Harvard "Jess (2021) Ma barzhonegoù en domani foran"
+citation =
+    .label = Emveneg
+self-citation-explanation = Setu aze penaos e c'hallit en em venegiñ hoc'h-unan m'eo bet skrivet an danvez ganeoc'h.
+adding-sentences-subheader-length = Hirder
+adding-sentences-subheader-length-explanation = Nebeutoc'h eget 15 ger a rank bezañ er frazennoù.
+adding-sentences-subheader-spelling-punctuation = Reizhskrivadur ha poentadur
+adding-sentences-subheader-spelling-punctuation-explanation = Skrivet-reizh e rank bezañ ar frazennoù.
+adding-sentences-subheader-speakable = Distagadus
+adding-sentences-subheader-speakable-explanation = Ar frazennoù gwellañ zo frazennoù pemdez naturel — dleout a rafent bezañ aes da lenn. Ha pa vefe pouezus kaout distagadurioù ha gerioù disheñvel, klask a reomp ivez ma vo an enrollañ frazennoù ken dudius ha desachus ha ma c'hall bezañ evit kumuniezh ar yezherien a-youl-vat.
 adding-sentences-subheader-numbers = Niverennoù
+adding-sentences-subheader-numbers-explanation = Evit gwir ne zlefe ket bezañ sifroù en destenn orin rak gallout a reont degas kudennoù pa vez lennet a vouezh uhel. Ar mod ma vez lennet un niver a c'hall cheñch hervez ar gendestenn hag e c'hallfe degas strafuilh er strobad roadennoù. Da skouer e c'hall an niver “1950” bezañ lennet evel "mil nav-c'hant hanter-kant" pe evel "naontek kant hanter-kant".
 adding-sentences-subheader-punctuation = Poentadur

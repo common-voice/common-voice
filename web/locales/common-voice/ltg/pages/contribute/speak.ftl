@@ -61,6 +61,8 @@ create-profile-button = Sataiseit profilu
 img-alt-success-checkmark = veiksmis atzeime
 # menu item
 read-sentences = Skaiteit teikumus
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Skaiteit teikumus <small>(dreizumā)</small>
 
 ## MENU ITEM TOOLTIPS
 

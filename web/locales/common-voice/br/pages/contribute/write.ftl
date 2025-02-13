@@ -7,6 +7,12 @@ sentence =
     .label = Frazenn
 sentence-input-placeholder = Skrivit amañ ho frazenn frank a wirioù
 small-batch-sentence-input-placeholder = Skrivit amañ ho frazennoù frank a wirioù
+citation-input-placeholder = Merkit mammenn ho frazenn (rekis)
+citation =
+    .label = Arroud
+sc-write-submit-confirm = Kadarnaat a ran emañ ar frazenn-mañ en <wikipediaLink>domani foran</wikipediaLink> hag ez on aotreet da gargañ anezhi amañ.
+sc-review-write-title = Peseurt doare frazennoù a c'hallan ouzhpennañ ?
+sc-review-small-batch-title = Penaos ouzhpennañ meur a frazenn
 new-sentence-rule-1 = <noCopyright>Tamm strishadenn ebet a-fet gwirioù-aozer</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Nebeutoc’h eget 15 ger dre frazenn
 new-sentence-rule-3 = Reizh e rank ar yezhadur bezañ
@@ -76,18 +82,88 @@ accepted-files = Doareoù restroù degemeret : .tsv hepken
 minimum-sentences = Niver bihanañ a frazennoù er restr : 1000
 maximum-file-size = Ment vrasañ ar restr : 25 Mo
 what-needs-to-be-in-file = Petra a rank bezañ kavet em restr ?
-upload-progress-text = O pellgas...
-upload-more-btn-text = Pellgas muioc'h a frazennoù?
+what-needs-to-be-in-file-explanation = Sellit ouzh hor <templateFileLink>restr skouer</templateFileLink>. Ret eo d'ho frazennoù bezañ hep gwirioù-aozer (CC0 pe labour orin aotreet gant an aozer.ez), sklaer, reizh a-fet yezhadur hag aes da lenn. Ar frazennoù kaset a zle gallout bezañ lennet e-korf 10-15 eilenn ha ne zlefe bezañ na sifroù nag anvioù divoutin, nag arouezennoù dibar enno.
+upload-progress-text = O kargañ...
+sc-bulk-submit-confirm = Kadarnaat a ra emañ ar frazennoù-mañ en <wikipediaLink>domani foran</wikipediaLink> hag ez on aotreet da gargañ anezho.
+bulk-upload-success-toast = Karget eo bet ar strobad frazennoù ervat
+bulk-upload-failed-toast = N'eo ket bet karget mat, klaskit en-dro.
+bulk-submission-success-header = Trugarez da vezañ kemeret perzh en ur gargañ ur strobad frazennoù !
+bulk-submission-success-subheader = Skoazellañ a rit Common voice da dizhout e bal pemdeziek a-fet niver a frazennoù !
+upload-more-btn-text = Kargañ frazennoù all ?
 file-invalid-type = Restr direizh
 file-too-large = Re vras eo ar restr
 file-too-small = Re vihan eo ar restr
-too-many-files = Re a restroù a zo
+too-many-files = Re a restroù zo
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Ouzhpennañ frazennoù zo en domani foran
+multiple-sentences-error = Ne c'hallit ket ouzhpennañ meur a frazenn en ur gasadenn hepken
+exceeds-small-batch-limit-error = Ne c'haller ket kargañ ouzhpenn 1000 frazenn
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Bevenn tizhet. Klaskit en-dro a-benn 1 vunutenn
+        [two] Bevenn tizhet. Klaskit en-dro a-benn 2 vunutenn
+        [few] Bevenn tizhet. Klaskit en-dro a-benn 3 munutenn
+        [many] Bevenn tizhet. Klaskit en-dro a-benn { $retryLimit }  munutenn
+       *[other] Bevenn tizhet. Klaskit en-dro a-benn { $retryLimit }  munutenn
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Bevenn tizhet. Klaskit en-dro a-benn 1 eilenn
+        [two] Bevenn tizhet. Klaskit en-dro a-benn 2 eilenn
+        [few] Bevenn tizhet. Klaskit en-dro a-benn 3 eilenn
+        [many] Bevenn tizhet. Klaskit en-dro a-benn { $retryLimit } eilenn
+       *[other] Bevenn tizhet. Klaskit en-dro a-benn { $retryLimit } eilenn
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit 1 vunutenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+        [two] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit 2 vunutenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+        [few] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit 3 munutenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+        [many] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit { $retryLimit } munutenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+       *[other] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit { $retryLimit } munutenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit 1 eilenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+        [two] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit 1 eilenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+        [few] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit 1 eilenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+        [many] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit { $retryLimit } eilenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+       *[other] Tizhet hoc'h eus ar vevenn gas evit ar bajenn-mañ. Gortozit { $retryLimit } eilenn a-raok kas ur frazenn all. Trugarez evit ho pasianted !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } frazenn dastumet diwar 1
+       *[other] { $uploadedSentences } frazenn dastumet diwar { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } frazenn dastumet diwar 1. Klikit <downloadLink>amañ</downloadLink> evit pellgargañ ar frazennoù distaolet.
+        [two] { $uploadedSentences } frazenn dastumet diwar 2. Klikit <downloadLink>amañ</downloadLink> evit pellgargañ ar frazennoù distaolet.
+        [few] { $uploadedSentences } frazenn dastumet diwar 3. Klikit <downloadLink>amañ</downloadLink> evit pellgargañ ar frazennoù distaolet.
+        [many] { $uploadedSentences } frazenn dastumet diwar { $totalSentences }. Klikit <downloadLink>amañ</downloadLink> evit pellgargañ ar frazennoù distaolet.
+       *[other] { $uploadedSentences } frazenn dastumet diwar { $totalSentences }. Klikit <downloadLink>amañ</downloadLink> evit pellgargañ ar frazennoù distaolet.
+    }
+small-batch-sentences-rule-1 = Grit diouzh erbedadennoù ar rann "Peseurt doare frazennoù a c'hallan ouzhpennañ ?"
+small-batch-sentences-rule-2 = Ouzhpennañ ur frazenn dre linenn
+small-batch-sentences-rule-3 = Rannit ar frazennoù dre linenn en ur bouezañ ur wech war "Kas" pe "Distreiñ"
+small-batch-sentences-rule-4 = Ouzhpennit betek 1000 frazenn
+small-batch-sentences-rule-5 = Rankout a ra an holl frazennoù bezañ en hevelep domani
+small-batch-sentences-rule-6 = Rankout a ra an holl frazennoù kaout an hevelep arroud
+# menu item
+add-sentences = Ouzhpennañ Frazennoù
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Ouzhpennañ ha gwiriañ frazennoù, sevel goulennoù, treuzskrivañ enrolladennoù
 
 ## MENU ITEM ARIA LABELS
 
