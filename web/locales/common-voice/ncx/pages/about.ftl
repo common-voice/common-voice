@@ -86,9 +86,12 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Uelis <sentenceCollectorLinkAdd>tikinmijkuilos san seki</sentenceCollectorLinkAdd>,
     noso <bulkImportDocsLink>sapanoa miakej ika Github</bulkImportDocsLink>.
     Xikilnamiki moneki yetos <licenseLink>CC0 (tlen nochtin uelis kitekitiltiskej)</licenseLink>, noso tlen moneuian otikijkuilo.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Xikita okachi itech Tlajkuilolnechikoli</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = ¿Kenijki titlajtolkopaj?
+about-playbook-how-localize-content-1 = Tiktlajtolkopaj Common Voice itech <strong>Pontoon</strong>.
 
 ## How to add sentences
 
