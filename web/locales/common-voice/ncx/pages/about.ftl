@@ -81,6 +81,7 @@ about-playbook-how-add-language-translating-content-2 =
     Satepan, xiktlajtlani mapoui itech Common,
     <githubRepoLink>xiktlajtlani yankuik tlajtolkopa itech GitHub</githubRepoLink>. <localizationFragment>Xikita okachi itech tlajtolkopalistli</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Tlajkuilolnechikoli
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Nin video mitsititis ken tikchiuas Tlajkuilolnechikoli</sentenceCollectorVideo>.
 
 ## How does localization work
 
