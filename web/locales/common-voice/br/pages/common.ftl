@@ -5,10 +5,13 @@
 ## Languages
 
 aa = Afareg
+aat = Arvanitika
 ab = Abkhazeg
+abb = Bankon
 ace = Achineg
 ady = Adygeieg
 af = Afrikaneg
+aln = Ghegeg Albania
 am = Amhareg
 an = Aragoneg
 ar = Arabeg
