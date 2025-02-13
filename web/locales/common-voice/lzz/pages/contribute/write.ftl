@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = ç̌ari
+write-instruction = Monduli ar cumle kekumtsxvit <icon></icon>
 sentence =
     .label = Cumle
 sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
@@ -26,6 +27,8 @@ finance = Finansi
 service_retail = Hizmeti do perakende
 # Sentence Domain dropdown option
 general = İrixolo
+# Sentence Domain dropdown option
+healthcare = Şurkaoba
 # Sentence Domain dropdown option
 history_law_government = Tarixi, Hukuki do Maktaloba
 # Sentence Domain dropdown option
