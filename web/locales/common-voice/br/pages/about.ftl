@@ -1,24 +1,28 @@
 ## ABOUT US
 
-about-title = Perak Common Voice?
-how-does-it-work-title-v2 = Penaos ez a en-dro Common Voice?
-how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc’h evit an holl.
+about-title = Perak Common Voice ?
+about-header-description-v2 =
+    <p>Ur strobad roadennoù mouezh a c'hall bezañ implijet gant an holl eo Common Voice.  Kaset eo da benn a-drugarez da vouezhioù tud a-youl-vat er bed a-bezh. An dud a fell dezho sevel arloadoù diazezet war ar vouezh a c'hall implijout hon diaz roadennoù evit gourdoniñ patromoù kelenn mekanikoù.</p>
+    <p>Evit ar mare eo perc'hennet ar pep brasañ eus an dastumadoù mouezh gant embregerezhioù, ar pezh a voug an neveziñ. Isdileuriet eo ivez ar c'humuniezhioù-mañ er strobadoù roadennoù : tud a gomz yezhoù all estreget saozneg, tud teñvaloc'h o c'hroc'hen, tud nammet, merc'hed ha tud LGBTQIA+. Kement-se a dalvez ne'z a ket en-dro an teknologiezhioù yezh tamm ebet en ur bern yezhoù pe, pa'z eont en-dro, n'eo ket kenkoulz kalite an disoc'hoù evit an holl. Mennet omp da lakaat cheñch an dra-se dre vroudañ an dud e kement lec'h zo da rannañ o mouezh.</p>
+how-does-it-work-title-v2 = Penaos ez a Common Voice en-dro ?
+how-does-it-work-text = Sevel a reomp ur strobad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriit pegen fizius eo enrolladennoù an dud all ha gwellait evel-se talvoudegezh hollek ar strobad roadennoù evit mad an holl.
 
 ## How does it work section
 
 about-language-req-subtitle = Unan bennak a c'houlenn e vefe ouzhpennet ur yezh.
 about-localization-title = Treiñ al lec'hienn
-about-localization-subtitle = Testenn al lec'hienn a zo troet er yezh-mañ.
+about-localization-subtitle = Troet eo testenn al lec'hienn er yezh-mañ.
 about-sentence-collection-title = Dastumadeg frazennoù
 about-sentence-collection-subtitle = Frazennoù a vez dastumet evit ma vefent lennet a vouezh uhel.
 about-new-lang-title = Loc'hañ gant ur yezh nevez
 about-new-lang-subtitle = Loc'hañ a reomp lec'hienn Common Coice evit ar yezh-mañ.
 about-voice-contrib-title = Kendaoladurioù mouezh
-about-voice-contrib-subtitle = Tud a zeu da gendeurel gant o mouezh.
-about-voice-validation-title = Gwiriekaat ar vouezh
-about-voice-validation-subtitle = Tud all o deus gwiriekaet ar c'hlipoù aodio-mañ.
-about-dataset-release-title = Ermeziadenn ar spletad roadennoù
-about-subscribe-text = Fellout a ra deoc'h chom e darempred gant Common Voice?
+about-voice-contrib-subtitle = Tud a zeu da reiñ o mouezh.
+about-voice-validation-title = Gwiriañ ar mouezhioù
+about-voice-validation-subtitle = Tud all o deus aprouet ar c'hlipoù son-mañ.
+about-dataset-release-title = Embannadenn ar strobad roadennoù
+about-dataset-release-subtitle = Embann a reomp hor strobad roadennoù bep 3 miz.
+about-subscribe-text = Fellout a ra deoc'h chom e darempred gant Common Voice ?
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz

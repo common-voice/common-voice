@@ -5,5 +5,5 @@ download-helpus = Skoazellit ac’hanomp da sevel ur gumuniezh tro-dro da deknol
 download-form-email =
     .label = Lakait ho postel
     .value = Trugarez vras deoc'h, chom a raimp e darempred ganeoc'h.
-download-back = Distreiñ da hollad roadennoù Common Voice
+download-back = Distreiñ d'ar strobadoù roadennoù zo e Common Voice
 download-no = Nann avat
