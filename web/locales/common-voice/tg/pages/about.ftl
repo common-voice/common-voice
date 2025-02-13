@@ -108,6 +108,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Дар бораи меъёр
 ## How to grow language
 
 about-playbook-how-grow-language = Мо чӣ гуна метавонем забонеро дар «Common Voice» самаранок рушд диҳем?
+about-playbook-how-grow-language-content-1 = Фароҳам овардани имкониятҳо барои иштироки одамони гуногун дар раванди саҳмгузорӣ ба лоиҳаи «Common Voice» кафолат медиҳад, то маҷмуи маълумот тавонад ба қадри имкон ба шумораи зиёди одамон хизмат кунад. Мо захираҳо ва қолибҳоро таҳия кардем, ки шумо метавонед аз онҳо истифода баред!
 about-playbook-how-grow-language-content-2 = Рӯйдодҳо
 about-playbook-how-grow-language-content-4 = Шабакаҳои иҷтимоӣ
 about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
