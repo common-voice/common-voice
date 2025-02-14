@@ -104,6 +104,7 @@ contribution-misreadings-title = Хониши нодуруст
 contribution-misreadings-description = Ҳангоми гӯш кардан, бодиққат тафтиш намоед, ки сабт комилан бо матн мувофиқат мекунад; ҳатто агар хатогиҳои ночиз вуҷуд дошта бошанд, онро рад намоед.  <br/> Хатогиҳои хеле маъмул иборатанд аз:
 contribution-misreadings-description-extended-list-1 = Набудани ҳарфи <strong>«A»</strong> ё <strong>«The»</strong> дар оғози сабти аудиоӣ.
 contribution-misreadings-description-extended-list-2 = Дар охири калима рамзи <strong>«s»</strong> (барои забони англисӣ) вуҷуд надорад.
+contribution-misreadings-description-extended-list-4 = Набудани охири калимаи охирин бинобар қатъшавии бармаҳали сабт.
 contribution-misreadings-description-extended-list-5 = Истифодаи якчанд кӯшиш барои хондани калима.
 contribution-misreadings-example-1-title = Динозаврҳои азими давраи Триассӣ.
 contribution-misreadings-example-2-title = Динозаври азими давраи Триассӣ.
