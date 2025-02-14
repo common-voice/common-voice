@@ -10,6 +10,11 @@ partnerships-foundations-description = Labourat a reomp gant diazezadurioù, ar 
 partnerships-governments-header = Gouarnamantoù
 partnerships-governments-description = Plijet-bras omp o harpañ strivoù ar gennad publik en deknologiezh, en neveziñ kement ha war tachenn ar gwirioù yezhel. M'emaoc'h e soñj kas war-raok ur pezh raktres pe ur c'houlzad brudañ, <emailFragment>deuit e darempred ganeomp.</emailFragment>
 partnerships-academia-header = Skolioù-meur, skolveuridi hag enklaskerien
+partnerships-academia-description = Emañ an neveziñ frank e kreizig-kreiz hon oberezh.  Evit ur c'henlabour enklask, dastum roadennoù pe atersadennoù, <emailFragment>deuit e darempred ganeomp.</emailFragment>
+partnerships-small-business-header = Embregerezhioù bihan, en o zouez startupoù e domani an deknologiezh hag an naouegezh artifisiel (NA).
+partnerships-small-business-description = Emaomp atav o klask deskiñ hiroc'h war ezhommoù an dud a implij hor roadennoù ha perak ; evit ar pezh a sell ouzh ar c'henlabour gant ar savenn dastum roadennoù pe diwar-benn ar pourchas titouroù war yec'hed ar roadennoù. Karout a rafemp <emailFragment>kaout keloù diganeoc'h.</emailFragment>
+partnerships-corporates-header = Embregerezhioù bras ha savennoù
+partnerships-corporates-description = Mar fell deoc'h gouzout hiroc'h war ar strobad roadennoù, mar fell deoc'h postañ arc'hant a-gevret gant tud all war astennoù steuñvekaet ar savenn pe c'hoazh mar fell deoc'h klask digarez da genlabourat, <emailFragment>skrivit deomp.</emailFragment>
 partnerships-our-partners = Hor c'hevelerien
 # menu item
 partners = Kevelerien
