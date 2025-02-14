@@ -15,6 +15,7 @@ download-selected = Интихоб шуд
 download-start = Маълумоти профилро боргирӣ кунед
 download-request = Сабтҳоро дархост кунед
 download-requests = Дархостҳои боргирии сабтҳои гузашта
+download-requests-info = Вақте ки шумо сабтҳои худро дархост мекунед, мо онҳоро ба як ё якчанд файлҳои «ZIP» ҷамъ меорем. Инҳоянд дархостҳои қаблии шумо:
 download-request-button = Боргирӣ кардан
 download-request-title = { $created }
 download-request-description = { $clipCount } сабти овозӣ, андозаи умумии бойгонӣ: { $size }. Муҳлати нигоҳдорӣ дар { $expires } ба анҷом мерасад.
