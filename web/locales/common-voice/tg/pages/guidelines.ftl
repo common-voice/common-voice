@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Дастур оид ба саҳмгузорӣ
+guidelines-header-subtitle = Маълумот гиред, ки шумо чӣ тавр метавонед ба маҷмуи маълумоти «Common Voice» саҳм гузоред ва, ҷумлаҳо ва сабтҳои овозиро тасдиқ кунед.
 voice-collection = Маҷмуи овозҳо
 sentence-collection = Ҷамъоварии ҷумлаҳо
 varying-pronunciations = Талаффузҳои гуногун
@@ -36,6 +37,8 @@ citing-sentences = Овардани иқтибосҳо ба ҷумлаҳо
 adding-sentences = Илова кардани ҷумлаҳо
 reviewing-sentences = Баррасии ҷумлаҳо
 sentence-domain = Манбаи ҷумлаҳо
+public-domain-explanation-3 = Ҷумлаҳои муосир ва гуфтугӯиро худатон ё бо дӯстон, ё бо ҷомеаи забонии худ эҷод кунед – масалан, тавассути мусобиқаи «нависандагӣ».
+public-domain-explanation-5 = Матнҳоро ҷустуҷӯ кунед, ки дигар ба онҳо ҳуқуқи муаллиф тааллуқ надорад – масалан, аксари китобҳое, ки то соли 1920 нашр шудаанд
 citing-sentences-subheader-websites = Сомонаҳо
 citing-sentences-subheader-websites-explanation = Шумо метавонед сомонаи моро дохил кунед, масалан: «Common Voice» - https://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = Маълумотномаи илмӣ
