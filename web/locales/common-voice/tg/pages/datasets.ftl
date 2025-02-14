@@ -24,6 +24,7 @@ download-language = Боргирӣ кардани { $language }
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 whats-inside = Маҷмуи маълумоти «Common Voice» чиро дар бар мегирад?
+want-dataset-update = Мехоҳед, ки дар бораи нашри версияи нави маҷмуи маълумоти «Common Voice» дар ҷараён бошед? Ба хабарномаи мо обуна шавед.
 subscribe = Обуна шудан
 get-started-speech = Маълумот дар бораи оғози кор ё тарзи истифодаи овошиносии «Common Voice» дар барномаҳои худ
 other-datasets = Маҷмуи маълумоти овозии дигар
