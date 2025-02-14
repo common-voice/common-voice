@@ -3,8 +3,10 @@
 download-q = Мехоҳед маълумоти худро боргирӣ кунед?
 download-info = Ба мо гӯед, ки кадом файлро мехоҳед боргирӣ кунед:
 download-profile-title = Профил
+download-profile-info = Суроғаи почтаи электронӣ, номи корбар ва маълумоти демографиро дар бар мегирад, ки фавран дастрасанд.
 download-profile-size = Чанд байт
 download-recordings-title = Сабтҳо
+download-recordings-info = Файлҳои «mp3» ва ҷумлаҳои ба он марбутро дар бар мегирад, барои омода кардани онҳо каме вақт лозим аст.
 download-recordings-size = Одатан мегабайтҳо
 download-recordings-unavailable = Шумо наметавонед сабтҳои худро дархост намоед, дар ҳоле ки дархости дигар аллакай иҷро шуда истодааст.
 download-recently-requested = Шумо метавонед ҳар { $days } рӯз гирифтани нави сабтҳои худро дархост намоед.
