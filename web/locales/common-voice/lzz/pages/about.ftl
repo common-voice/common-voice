@@ -1,7 +1,9 @@
 ## ABOUT US
 
 about-title = Muşeni Common Voice?
+about-header-description-v2 = Comman Voice, mtel kianuri guronepeşi meşvelute na irden, iri şeni monduli xomaşi datamarçha ren. Xomaşi aplikasyonepe getzopxu na unon şurepek makinaşi doguru modeli oslophu şeni ham datamarçha oxmaraman.
 how-does-it-work-title-v2 = Common Voice muç̌o itsadeburs/ içalişams?
+how-does-it-work-text = Monduli ar xomaşi datamarçha okhoviğamt. Xoma tkvani domixarsuvit, majurapeşi xoma doloçharape nişi doisanit, mteli şeni datamarçha dokhaimit.
 
 ## How does it work section
 
