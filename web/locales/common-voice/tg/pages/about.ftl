@@ -119,6 +119,7 @@ about-playbook-how-grow-language-content-8 = <strong>Эҷодкор бошед!<
 
 about-playbook-how-validate = Чӣ тавр муайян кунам, ки метавонам сабти овозиро тасдиқ кунам ё рад намоям?
 about-playbook-how-validate-content-1 = Агар шумо тавонед <strong>онҳоро шунавед</strong> ва <strong>фаҳмед</strong>, одатан, <strong>беҳтар аст, ки онҳоро тасдиқ намоед</strong>.
+about-playbook-how-validate-content-2 = <strong>Сабтҳоеро танҳо барои он рад накунед, ки гӯянда лаҳҷае дорад, ки аз лаҳҷаи шумо фарқ мекунад</strong> – дар беҳтарсозии технологияи овошиносӣ барои ҳамаи мо ҳар гуна лаҳҷаҳо муҳим мебошанд.
 about-playbook-how-validate-content-4 = Агар сабтро 2 нафар рад кунанд, он дар зермаҷмуи дигари маҷмуи маълумот нашр мешавад.
 
 ## How to access dataset
