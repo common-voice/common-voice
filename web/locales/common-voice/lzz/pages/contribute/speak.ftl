@@ -1,3 +1,6 @@
+speak = İsinapi
+speak-now = Hatzi - hus - huy isinapi
+speak-subtitle = Nena-tkvani mixarsuvit
 record-cta = Doloç̌arus kogyoç̌ǩi
 record-platform-not-supported = Mixarsuvit, pilatformi çkunik hatzi var numxacams.
 record-platform-not-supported-desktop = Masajin cihazepes geğmalute megaşvelenan...
@@ -46,6 +49,8 @@ thanks-for-voice-toast-error = Xoma çkinapa-tkvani incğonet̆uşa xeta iyu
 create-profile-button = Profili getzopxi
 # IMAGE TAGS
 img-alt-success-checkmark = ot̆işu onayişi ğara
+# menu item
+read-sentences = Cumle golionit
 
 ## MENU ITEM TOOLTIPS
 

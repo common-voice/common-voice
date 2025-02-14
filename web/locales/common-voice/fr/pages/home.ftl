@@ -118,9 +118,11 @@ get-started = Pour commencer <icon><icon>
 
 action-items-section-title = Common Voice est une plateforme libre et open source pour la création de données par la communauté.
 coming-soon = Prochainement
+add-text = Ajouter du texte
 
 ## Community section
 
+join-discord-community = Rejoindre la communauté Discord
 # label for button
 join-discord-community-action = Rejoignez-nous sur Discord
 join-discord-community-content = { "" }
@@ -148,6 +150,15 @@ download-press-pack = Téléchargez notre dossier de presse <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Lire des phrases
+validate-readings-link = Valider des lectures
+contribute-link = Contribuer au corpus de textes
+answer-questions-link = Répondre à des questions
+transcribe-answers-link = Transcrire des réponses
+review-transcriptions-link = Vérifier des transcriptions
 
 ## Partner section
 
+partner-section-title = Devenez partenaire
+# Partners section
+our-partners-include = Parmi nos partenaires…

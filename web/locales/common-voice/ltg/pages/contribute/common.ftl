@@ -19,6 +19,7 @@ contribute-more =
        *[other] Voi asat gotovi vēļ { $count }?
     }
 speak-empty-state = Mums ir beigušīs teikumi, kū īraksteit itamā volūdā...
+no-sentences-for-variants = Var byut, ka izavālātajā volūdā vaira nav teikumu! Ka zinit vēļ kaidys volūdys, varit maineit īstatejumus, lai radzātu cytus teikumus.
 speak-empty-state-cta = Dalicit teikumus
 speak-loading-error =
     Mes navariejom dabuot nivīna teikuma, lai jius varātu īrunuot.
@@ -32,11 +33,15 @@ target-segment-generic-card = Jius dūdit īguļdejumu mierka segmentā
 target-segment-first-banner = Paleidzit sataiseit Common Voice pyrmū mierka segmentu { $locale } volūdā
 target-segment-add-voice = Davīnojit sovu bolsu
 target-segment-learn-more = Dazynuot vaira
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Bolsu kolekceja
-contribute-sentence-collection-nav-header = Teikumu apkūpuotuojs
+change-preferences = Maineit īstatejumus
+login-signup = Dasaslēgt / Registrētīs
+vote-yes = Nui
+vote-no = Nā
+datasets = Datu kūpys
+languages = Volūdys
+about = Par
+partner = Partnereiba
+submit-form-action = Nūsyuteit
 
 ## Reporting
 

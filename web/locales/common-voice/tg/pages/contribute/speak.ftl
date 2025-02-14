@@ -3,6 +3,7 @@ speak-now = Акнун ҳарф занед
 speak-subtitle = Овози худро пешкаш кунед
 record-cta = Оғоз кардани сабт
 record-platform-not-supported = Мутаассифона, платформаи шумо ҳоло дастгирӣ намешавад.
+record-platform-not-supported-desktop = Дар дастгоҳҳои мизи корӣ шумо метавонед тавассути боргирӣ саҳм гузоред…
 record-platform-not-supported-ios-non-safari = Барои фаъол кардани сабт дар дастгоҳи «iOS», лутфан, аз браузери «Safari» истифода баред…
 record-must-allow-microphone = Шумо бояд дастрасии микрофонро иҷозат диҳед.
 record-no-mic-found = Микрофон ёфт нашуд.
@@ -52,6 +53,7 @@ first-cta-gender-select-help-text =
     .label = Шумо ҷинс ё ҷинсияти худро чӣ гуна тавсиф мекунед?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Ташаккур ба шумо, ки саҳми худро бо овоз гузоштед!
+second-cta-subtitle-text = Ба воситаи профил, шумо метавонед фаъолияти худро пайгирӣ кунед ва бо ҷомеаи саҳмгузорони маълумоти овозӣ пайваст шавед.
 already-have-an-account = Аллакай ҳисобе доред? <login>Ворид шавед</login>
 create-profile-button = Эҷод кардани профил
 # menu item

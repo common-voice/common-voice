@@ -4,7 +4,6 @@ write = Roksti
 write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums
-sentence-input-value = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
 citation =
     .label = Atsauce
 sc-review-write-title = Kaidus teikumus es varu dalikt?
@@ -25,13 +24,31 @@ add-sentence-success = Savuokts 1 teikums
 add-sentence-error = Klaida davīnojūt teikumu
 required-field = Lyudzu, aizpiļdit itū lauku.
 single-sentence = Vīns teikums
-bulk-sentences = Vairuoki teikumi
+# Sentence Domain dropdown option
+general = Vyspuoreigi
+# Sentence Domain dropdown option
+healthcare = Veseleibys apryupe
+# Sentence Domain dropdown option
+history_law_government = Viesture, tīseibys i vaļdeiba
+# Sentence Domain dropdown option
+language_fundamentals = Volūdys pamati (par pīmāru, cypari, burti, nauda)
+# Sentence Domain dropdown option
+media_entertainment = Plošsazinis leidzekli i izklaide
+# Sentence Domain dropdown option
+nature_environment = Doba i vide
+# Sentence Domain dropdown option
+news_current_affairs = Zinis i aktualitatis
+# Sentence Domain dropdown option
+technology_robotics = Tehnologejis i robotika
+sentence-variant-select-label = Teikuma variants
 
 ## BULK SUBMISSION 
 
+try-upload-again-md = Raugit augšynluodēt vēļreiz
 select-file = Izalosi failu
 select-file-mobile = Izavielej failu, kuru augšynluodēt
 accepted-files = Atļautū failu tipi: tikai .tsv
+minimum-sentences = Minimalais teikumu skaits failā: 1000
 maximum-file-size = Maksimalais faila izmārs: 25 MB
 what-needs-to-be-in-file = Kam juobyut munā failā?
 upload-progress-text = Nūteik augšynluode...
@@ -41,3 +58,13 @@ file-invalid-type = Nadereigs fails
 file-too-large = Fails ir par lelu
 file-too-small = Fails ir par mozu
 too-many-files = Par daudzi failu
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
+transcribe-audio-menu-item-aria-label = Puorrokstit audio īrokstus

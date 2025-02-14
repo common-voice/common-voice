@@ -16,6 +16,7 @@ demo-account = Ҳисоб
 
 ## Demo Account
 
+demo-account-card-header = Барои саҳмгузорӣ доштани ҳисоб лозим нест, аммо муфид аст.
 demo-account-enter-email =
     .label = Барои фиристодани пайванди бақайдгирӣ, нишонии почтаи электрониро ворид намоед
 demo-account-sign-up = Фиристодани пайванди бақайдгирӣ
