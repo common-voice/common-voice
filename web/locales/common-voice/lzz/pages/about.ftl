@@ -34,6 +34,7 @@ about-yes-votes-text = Ar xoma ǩlibi Common Voice datamarç̌as dolocharu şeni
 about-no-votes = ≥ 2 Var rei
 about-no-votes-text = Maxmare ar ǩlibis "var" rei meçaşi, xoma Xoma ǩudelişa guikten. Jur fara "var" rei niçu na xomaşi ǩlibi Vasaglaxtişa ulun.
 about-dataset-new = Common Voice Datamarç̌a
+about-dataset-new-text = Comman Voice Datamarçhaşi doloxe matzopxepeşi xoma na içinems oxmaraşepe getzopxus na axmaranen oşişilyate xomaşi evuli ren.
 about-clip-graveyard = ǩilibişi Doxvume
 about-clip-graveyard-text = Vasaglaxtis, Common Voice datamarç̌as na varen xomaşi ǩlibepe ren. Muç̌o datamarç̌a steri, Vasaglaxti-ti giğen.
 about-get-involved = Eǩomant̆alit
@@ -99,3 +100,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na mok
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Comman Voice muçhe finanse ixenen?
