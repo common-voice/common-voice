@@ -80,6 +80,9 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## NAV ITEMS
 
+answer-questions = Atbildēt uz jautājumiem
+answer-questions-coming-soon = Atbildiet uz jautājumiem <small>(drīzumā)</small>
+review-transcriptions = Pārskatiet transkripcijas
 
 ## MENU ITEMS TOOLTIPS
 

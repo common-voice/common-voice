@@ -1,3 +1,6 @@
+speak = Runājiet
+speak-now = Runājiet
+speak-subtitle = Ierakstiet savu balsi
 record-cta = Sākt ierakstu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
 record-platform-not-supported-desktop = Datoros varat lejupielādēt jaunāko:
@@ -57,9 +60,19 @@ already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
 create-profile-button = Izveidot profilu
 # IMAGE TAGS
 img-alt-success-checkmark = veiksmes atzīme
+# menu item
+read-sentences = Lasīt teikumus
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Lasiet teikumus <small>(drīzumā)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Lasiet teikumus, atbildiet uz jautājumiem
+read-sentences-menu-item-tooltip = Ierakstiet, kā lasāt teikumus savā valodā
+answer-questions-menu-item-tooltip = Ierakstiet, kā atbildat uz jautājumiem un vaicājumiem savā valodā
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Runāšanas iespēju izvēlne
+read-sentences-menu-item-aria-label = Lasiet kopienas iesniegtos teikumus dažādās valodās
+answer-questions-menu-item-aria-label = Iesniedziet jaunu jautājumu ielasīšanai un atbildēšanai

@@ -1,3 +1,4 @@
+confirmation-modal-title = Atención!
 # Label for button to cancel navigation
 cancel-button = Cancelar
 # Label for button to continue navigation

@@ -121,6 +121,19 @@ find-us-on-matrix-action = Attròvani nne Matrix
 
 ## Get involved section
 
+read-sentences-link = Leggi i frasi
+validate-readings-link = Cummàlita i riggistrazzioni
+contribute-link = Cuntribbuisci ô corpus dî testi
+answer-questions-link = Rispunni ê dumanni
+transcribe-answers-link = Trascrivi i risposti
+review-transcriptions-link = Virìfica i trascrizzioni
+contribute-text-link = Cuntribbuisci chî testi
+press-and-stories-link = Stampa e nutizzi
 
 ## Partner section
 
+partner-section-title = Cullàbbura cu nuiautri
+# icon is an arrow that points to the right
+get-in-touch-button = Cuntàttani <icon></icon>
+# Partners section
+our-partners-include = Quarchi nostru assuciatu...

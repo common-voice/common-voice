@@ -12,9 +12,14 @@ listen-loading-error =
 listen-abort-title = Hoàn tất xác thực clip?
 listen-abort-cancel = Tiếp tục xác thực
 listen-abort-confirm = Hoàn tất xác thực
+# Menu item
+validate-readings = Xác thực bài đọc
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Xác thực bài đọc <small>(sắp ra mắt)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Xác thực bài đọc, xem lại bản ghi
 validate-readings-menu-item-tooltip = Xác thực các bài đọc do người dùng ghi lại bằng ngôn ngữ của bạn
 review-transcriptions-menu-item-tooltip = Xem lại các bản ghi do người dùng gửi bằng ngôn ngữ của bạn
 

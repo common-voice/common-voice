@@ -91,6 +91,7 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 answer-questions = ຕອບຄໍາຖາມ
 press-and-stories = ກົດ ແລະ ເລື່ອງ
 community-and-languages = ຊຸມຊົນ ແລະ ພາສາ
+coming-soon = ໄວໆນີ້
 
 ## MENU ITEMS TOOLTIPS
 
@@ -112,10 +113,13 @@ get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 scripted-card-header = ການເວົ້າແບບສະຄຣິບ
 language-text-card-header = ຂໍ້ຄວາມພາສາ
+coming-soon = ໄວໆນີ້
 
 ## Community section
 
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
+# label for button
+find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
 
 ## Featured section
 

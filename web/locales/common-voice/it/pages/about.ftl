@@ -2,8 +2,8 @@
 
 about-title = Perché Common Voice?
 about-header-description-v2 =
-    <p>Common Voice è un dataset pubblicamente disponibile, costituito dalle voci di collaboratori volontari di tutto il mondo. Coloro che vogliono realizzare applicazioni vocali possono utilizzare il dataset per addestrare i modelli di machine learning.</p>
-    <p>Attualmente, la maggior parte dei dataset è di proprietà aziendale e ciò soffoca l’innovazione. Inoltre, i dataset vocali vedono la presenza sproporzionata di contenuti letti da maschi bianchi di lingua inglese. Di conseguenza, la tecnologia vocale può non funzionare affatto per molte lingue e, laddove funziona, potrebbe non funzionare allo stesso modo per tutti. Vogliamo cambiare questa situazione spingendo le persone a condividere la propria voce.</p>
+    <p>Common Voice è un dataset pubblicamente disponibile basato sulle voci di collaboratori volontari di tutto il mondo. Coloro che vogliono realizzare applicazioni vocali possono utilizzare il dataset per addestrare i modelli di machine learning.</p>
+    <p>Attualmente, la maggior parte dei dataset è di proprietà di aziende e ciò soffoca l’innovazione. Inoltre, i dataset vocali non rappresentano adeguatamente numerose categorie: persone che non parlano l’inglese, minoranze etniche, persone disabili, donne e membri della comunità LGBTQIA+. Questo significa che la tecnologia vocale non funziona affatto per molte lingue e, quando funziona, potrebbe non essere efficace allo stesso modo per tutti. Vogliamo cambiare questa situazione spingendo tutti a condividere la propria voce.</p>
 how-does-it-work-title-v2 = Come funziona Common Voice?
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 
@@ -32,7 +32,7 @@ about-listen-text = Gli utenti convalidano l’accuratezza delle registrazioni d
 about-is-it-valid = La registrazione è valida?
 about-is-it-valid-text = Una registrazione vocale è contrassegnata come “valida” quando un utente la valuta con un Sì.
 about-yes-votes = ≥ 2 voti Sì
-about-yes-votes-text = Per essere inclusa nel dataset di Common Voice, una registrazione vocale deve essere validata da due utenti diversi.
+about-yes-votes-text = Per essere inclusa nel dataset di Common Voice, una registrazione vocale deve essere convalidata da due utenti diversi.
 about-no-votes = ≥ 2 voti No
 about-no-votes-text = Una registrazione rifiutata da un utente viene rimessa nella Coda. Se rifiutata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
 about-dataset-new = Dataset di Common Voice
