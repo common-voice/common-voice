@@ -15,7 +15,7 @@ listen-abort-confirm = Echuiñ gant an aprouiñ
 # Menu item
 validate-readings = Aprouiñ lennadennoù
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Aprouiñ lennadennoù <small>(A-raok pell)</small>
+validate-readings-coming-soon = Aprouiñ lennadennoù <small>(a-raok pell)</small>
 
 ## MENU ITEM TOOLTIPS
 

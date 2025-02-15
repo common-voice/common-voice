@@ -366,6 +366,6 @@ donate-banner-cta = <mark>Ezhomm hon eus</mark><br/><mark>ac'hanoc'h !</mark>
 donate-banner-cta-explanation = Tost ur milion a zollaroù ar bloaz e koust herberc'hiañ ar strobad roadennoù ha gwellaat ar savenn evit ouzhpenn 100+ kumuniezh yezhel a gont war ar pezh emaomp oc'h ober. <strong>M'eo pouezus evidoc'h ar roadennoù frank ha digor - grit un donezon bremañ !</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Implijout CV evit</mark><br/><mark>hoc'h enklask ?</mark>
-languages-donate-banner-cta-explanation = Arc'hantaouet eo Common Voice a-drugarez da roadoù ha yalc'hadoù ! Plijout a ra deomp ken-ha-ken kenlabourat gant skolveuridi, ar gevredigezh siivil hag industriezh an imbourc'h. Frank da implijout eo Common Voice. Talvoudus-bras ha sikourus-meurbet eo kinnig deomp yalc'hadoù evit hor skoazellañ gant koustoù an herberc'hiañ ha kemer perzh er savenn.
+languages-donate-banner-cta-explanation = Arc'hantaouet eo Common Voice a-drugarez da roadoù ha yalc'hadoù ! Plijout a ra deomp ken-ha-ken kenlabourat gant skolveuridi, ar gevredigezh sivil hag industriezh an imbourc'h. Frank da implijout eo Common Voice. Talvoudus-bras ha sikourus-meurbet eo kinnig deomp yalc'hadoù evit hor skoazellañ gant koustoù an herberc'hiañ ha kemer perzh er savenn.
 localization-select =
     .label = Dibabit ur yezh/lec'heladur
