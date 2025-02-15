@@ -346,7 +346,7 @@ back-top = Distreiñ da laez
 logout = Digevreañ
 donate = Reiñ un donezon
 stayintouch = Ni, e Mozilla, zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Karout a rafemp bezañ kelaouet ingal eus an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout hiroc’h diwar-benn ar mod ma implijit ar roadennoù-mañ.
-privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pelloc’h diwar-benn se en hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
+privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pelloc’h diwar-benn se en hon <privacyLink>Evezhiadennoù prevezded</privacyLink>.
 return-to-cv = Distreiñ da gCommon Voice
 email-input =
     .label = Postel
@@ -354,7 +354,7 @@ loading = O kargañ...
 email-opt-in-info = Me a garfe a-walc'h degemer posteloù evit degas da soñj din ar palioù, ma araokadennoù ha resev lizher-kelaouiñ Common Voice.
 email-opt-in-info-title = Emezelañ e roll-skignañ Common Voice
 email-opt-in-info-sub-with-challenge = Resevit posteloù diwar-benn daeoù, kounadurioù palioù, araokadennoù, hag al lizher-kelaouiñ diwar-benn Common Voice.
-email-opt-in-privacy-v2 = En ur asantiñ degemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fet buhez prevez</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = En ur asantiñ degemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget er <privacyLink>Politikerezh prevezded</privacyLink> Mozilla.
 indicates-required = * Rekis eo leuniañ ar maeziennoù merket gant ur steredennig (*).
 not-available-abbreviation = Dihegerz
 
