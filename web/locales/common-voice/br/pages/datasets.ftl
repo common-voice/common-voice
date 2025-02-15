@@ -34,7 +34,7 @@ validated-hours = Eurvezhioù aprouet
 recorded-hours = Eurvezhioù enrollet
 whats-inside = Petra zo e-barzh strobad roadennoù Common Voice ?
 dataset-description-hours =
-    Pep moned er strobad roadennoù a ya d'e ober ur restr MP3 hag ar restr testenn a glot ganti. Ul lodenn vras eus an <b>{ $total }</b> eurvezh enrollet er strobad roadennoù zo enno metaroadennoù demografek a c’hall sikour de lemel spister al luskerioù anaout ar vouezh, evel an oad, ar jener  hag ar pouez-mouezh.
+    Pep moned er strobad roadennoù a ya d'e ober ur restr MP3 hag ar restr testenn a glot ganti. Ul lodenn vras eus an <b>{ $total }</b> eurvezh enrollet er strobad roadennoù zo enno metaroadennoù demografek a c’hall sikour da lemel spister al luskerioù anaout ar vouezh, evel an oad, ar jener  hag ar pouez-mouezh.
     
     <b>{ $valid }</b> eurvezh gwiriet e <b>{ $languages }</b> yezh zo er strobad roadennoù evit ar mare met ouzhpennañ a reomp mouezhioù ha yezhoù nevez ingal. Taolit ur sell ouzh hor <languagesLink>pajenn Yezhoù</languagesLink> evit goulenn kaout ur yezh ouzhpenn pe kregiñ da gemer perzh.
 want-dataset-update = Fellout a ra deoc’h kaout keloù pa vez embannet ur stumm nevez eus strobad roadennoù Common Voice ? Lakait hoc'h anv el lizher-kelaouiñ.

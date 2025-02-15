@@ -124,13 +124,13 @@ get-started = Kregiñ ganti <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice zo anezhi ur savenn frank ha digor he mammenn evit degemer roadennoù krouet gant ar gumuniezh
-action-items-section-subtitle = Pep hini a c'hall gwareziñ e yezh, reiñ startijenn dezhi ha lakaat he statud da greskiñ en ur rannañ pe sevvel strobadoù roadennoù testenn pe mouezh
-scripted-card-header = Komz lennet
+action-items-section-subtitle = Pep hini a c'hall gwareziñ e yezh, reiñ startijenn dezhi ha lakaat he statud da greskiñ en ur rannañ pe sevel strobadoù roadennoù testenn pe mouezh
+scripted-card-header = Lenn skridoù
 scripted-card-content = Lennit frazennoù a vouezh uhel en ho yezh ha kemerit perzh evel-se e savidigezh ar strobad roadennoù foran liesseurtañ er bed.
-spontaneous-card-header = Komzoù naturel
-spontaneous-card-content = Respont d'ar goulennoù evit krouiñ strobadoù roadennoù gant kendestennoù implij pemdeziek pe laosk. Eus a rc'hentaén evit ar yezhoù hep hengoun lennegel.
-language-text-card-header = Testenn en da yezh
-language-text-card-content = Krouiñ pe rannañ kemennadennoù, frazennoù ha testennoù en domani foran, prest da vezañ troet, evit svel patromoù evit yezhoù bihan pe muioc'h
+spontaneous-card-header = Komz naturel
+spontaneous-card-content = Respont d'ar goulennoù evit krouiñ strobadoù roadennoù gant kendestennoù implij pemdeziek pe laosk. Eus ar c'hentañ evit ar yezhoù hep hengoun lennegel.
+language-text-card-header = Testennoù en ho yezh
+language-text-card-content = Krouiñ pe rannañ kemennadennoù, frazennoù ha testennoù en domani foran, prest da vezañ troet, evit sevel patromoù evit yezhoù bihan pe muioc'h
 coming-soon = Dizale
 add-text = Ouzhpennañ un destenn
 
