@@ -376,10 +376,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
     return (
       <>
+      {!shouldShowCTA && (
                 <ProgressSteps
         currentStep={activeIndex} 
-        steps={sentences.map((_,index) => ` فقرة ${1+index} `)}
+        steps={sentences.map((_,index) => ` تسجيل ${1+index} `)}
       />
+      )}
         <div className="cards-and-pills">
           <div />
 
@@ -537,10 +539,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           children: <div className="instruction hidden-md-up" />,
         }) || <div className="instruction hidden-md-up" />}
 
+{!shouldShowCTA && (
         <div className="primary-buttons">
           <canvas ref={this.canvasRef} />
           {primaryButtons}
         </div>
+      )}
 
         {/* {!hasErrors && !isSubmitted && (
           <LocaleLink
@@ -551,6 +555,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <Localized id="contribution-criteria-link" />
           </LocaleLink>
         )} */}
+
+{!shouldShowCTA && (
 
         <div className="buttons">
           <div>
@@ -619,6 +625,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             )}
           </div>
         </div>
+      )}
       </>
     );
   }
