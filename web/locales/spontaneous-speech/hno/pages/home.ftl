@@ -17,5 +17,8 @@ prompt-bubble-subtitle = تساں اسیں ہک پرامپٹ یا سوال دس�
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جواب</mark>
 respond-bubble-subtitle = تُسدا جواب جتنا ہو سکا قدرتی ہووا
+transcribe-bubble-subtitle = جڑّا تساں آڈیو کلپس بچ سنڑیا اوہی لکھو
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>چیک کرو</mark>
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = اپنڑی ای میل لکھو
