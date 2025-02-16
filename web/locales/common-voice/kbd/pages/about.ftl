@@ -6,9 +6,9 @@ how-does-it-work-title-v2 = Common Voice-р дауэ лажьэрэ?
 ## How does it work section
 
 about-sentence-collection-title = Псалъэуха зэхуэхьэсар
-about-speak = Къэпсалъэ
+about-speak = Псалъэ
 about-listen-queue = Едэӏуэныгъэм и чэзу
-about-listen = КъэдаӀуэ
+about-listen = ЕдаӀуэ
 about-yes-votes = ≥ 2 ӏэ ӏэт нэхъыбэ
 about-no-votes = ≥ 2 зыри ӏэ ӏэт щыӏэкъым
 about-get-involved = Хэхьэ
