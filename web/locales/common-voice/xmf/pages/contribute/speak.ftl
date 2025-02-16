@@ -75,4 +75,4 @@ answer-questions-menu-item-tooltip = ქინაჭარით მუჭო �
 
 speak-contribute-menu-aria-label = ჩიებაშ პარამეტრეფიშ მენიუ
 read-sentences-menu-item-aria-label = წეკითხით სამიაროშ წუმორინელ ზიტყვასქვილეფი შხვადოშხვა ნინაშა
-answer-questions-menu-item-aria-label = ქაჯღონით ახალ ოკითხირეფი სამიაროშო, წეკითხან დო გამა ქიმეჩანინი
+answer-questions-menu-item-aria-label = ქაჯღონით ახალ ოკითხირეფი სამიაროშა, წეკითხან დო გამა ქიმეჩანინი
