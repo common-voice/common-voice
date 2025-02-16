@@ -27,5 +27,6 @@ check-bubble-subtitle = تسیں چیک کرو کہ ٹرانسکرپشن آڈ�
 data-bubble-title = <mark>مواد/معلومات</mark>
 data-bubble-subtitle = اسیں وقفے وقفے ڈیٹاسیٹ جاری کردے اں
 contact-us = اساں نال رابطہ کرو
+contact-us-title = اس منصوبے بچ شامل ہونڑا بچ دلچسپی ہے یا اساں نال شریک ہونڑا دی؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = اپنڑی ای میل لکھو
