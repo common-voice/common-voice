@@ -1,5 +1,5 @@
 speak = ინოჭარუა
-speak-now = იჩით
+speak-now = იჩიით
 speak-subtitle = შემენწით თქვან ხონარით
 record-cta = ინოჭარუაშ დოჭყაფა
 record-platform-not-supported = სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.
@@ -61,13 +61,13 @@ create-profile-button = პროფილიშ ქიმინუა
 # IMAGE TAGS
 img-alt-success-checkmark = წუმოძინელო ნაქიმინაშ აღნიშვნა
 # menu item
-read-sentences = წეკითხით წინადადებეფი
+read-sentences = წეკითხით ზიტყვასქვილეფი
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = წეკითხით ზიტყვასქვილეფი <small>(მალას</small>)
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = წეკითხით წინადადებეფი, ქუპასუხით კითხვეფს.
+speak-contribute-menu-tooltip = წეკითხით ზიტყვასქვილეფი, ქუგამით ოკითხირეფს
 read-sentences-menu-item-tooltip = წეკითხით ზიტყვასქვილეფი დო ქინაჭარით თქვან ნინაშა
 answer-questions-menu-item-tooltip = ქინაჭარით მუჭო არძენთ გამას ოკითხირეფს დო მოთხუალეფს თქვან ნინაშა
 
