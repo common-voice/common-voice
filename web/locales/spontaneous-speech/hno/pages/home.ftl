@@ -7,6 +7,6 @@ why-spontaneous-speech = اسیں اس بےساختہ تقریر دا پروٹو
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = <mark>آسطے فائدے مند اے، اصلی تقریر دا حوالہ</mark> تے استعمال دے کیس (مثال دے طور تے، جدوں تسیں چہندے او کہ سپیچ ریکگنیشن بغیر لکھے دے ہور عام طور تے گل کرنا آلےاں لوگاں نال کم کرا )
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = زبان دی حقیقت آسطے بہتر مدد کرے جس طرح دو زبانی یا<mark> زبان کی تبدیلی </mark>
+why-card-2-text = زبان دی حقیقت آسطے بہتر مدد کرے جس طرح دو زبانی یا<mark> زبان دی تبدیلی </mark>
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = اپنڑی ای میل لکھو
