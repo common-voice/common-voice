@@ -16,5 +16,6 @@ prompt-bubble-title = <mark>پرامپٹ </mark>
 prompt-bubble-subtitle = تساں اسیں ہک پرامپٹ یا سوال دسسّاں
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جواب</mark>
+respond-bubble-subtitle = تُسدا جواب جتنا ہو سکا قدرتی ہووا
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = اپنڑی ای میل لکھو
