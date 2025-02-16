@@ -148,6 +148,7 @@ download-press-pack = Бастаи матбуоти моро боргирӣ на
 ## Developers section
 
 developers-section-title = Маҷмуъҳои маълумоти овозӣ дар зиёда аз 130 забон дар манбаи ҷамъиятии дастрас
+developers-section-subtitle = Маҷмуи маълумот барои «ASR», «STT», «TTS» ва мазмунҳои дигари «NLP», ки тавассути иштироки ҷомеа сохта шудаанд.
 # icon is an arrow that points to the right
 explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 
@@ -166,6 +167,8 @@ press-and-stories-link = Матбуот ва ҳикояҳо
 ## Partner section
 
 partner-section-title = Шарики мо шавед
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Ширкатҳои технологӣ</bold> - ба эҷоди маҷмуи маълумоти кушод барои экосистемаи пешрафтаи бисёрзабонии зеҳни сунъӣ (AI) сармоягузорӣ намоед
 # icon is an arrow that points to the right
 get-in-touch-button = Дар тамос шавед <icon></icon>
 # Partners section
