@@ -30,4 +30,6 @@ contact-us = اساں نال رابطہ کرو
 contact-us-title = اس منصوبے بچ شامل ہونڑا بچ دلچسپی ہے یا اساں نال شریک ہونڑا دی؟
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = تسیں پہلاں ای اسدے بیٹا چیک کرنا آلا گروپ جِڑا کامن وائس دا بےساختہ تقریر دا منصوبے اے بچ ہو؟
+signup-terms = “مڑی ای میل تے ہک لنک بھیجو” تے کلک کرنا نال، تُسیں اسدیاں<termsLink>سروس دیاں شرطاں</termsLink>ہور<privacyLink>رازداری دی پالیسی</privacyLink> نال متفق او تے اے کہ موزیلا تساں کو ای میل بھیج سکا جس بچ اے معلومات ہووا کہ کسطرح تسیں بیٹا چیک کرنا آلے کامن وائس’دے بے ساختہ تقریر دے پروجیکٹ بچ شامل ہوو۔
 signup-input-placeholder = اپنڑی ای میل لکھو
+signup-button-value = مڑی ای میل تے ہک لنک بھیجو
