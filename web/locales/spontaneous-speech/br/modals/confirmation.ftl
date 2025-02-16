@@ -3,3 +3,4 @@ confirmation-modal-title = Diwallit !
 cancel-button = Nullañ
 # Label for button to continue navigation
 continue-button = Kenderc'hel
+navigation-away-modal-subtitle = N'eo ket bet enrollet ar c'hemmoù degaset war ar bajenn-mañ. Ma kuitait bremañ ne vint ket enrollet. Ha sur oc'h e fell deoc'h kuitaat ar bajenn ?
