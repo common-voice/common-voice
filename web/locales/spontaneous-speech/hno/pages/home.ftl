@@ -8,5 +8,13 @@ why-spontaneous-speech = اسیں اس بےساختہ تقریر دا پروٹو
 why-card-1-text = <mark>آسطے فائدے مند اے، اصلی تقریر دا حوالہ</mark> تے استعمال دے کیس (مثال دے طور تے، جدوں تسیں چہندے او کہ سپیچ ریکگنیشن بغیر لکھے دے ہور عام طور تے گل کرنا آلےاں لوگاں نال کم کرا )
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = زبان دی حقیقت آسطے بہتر مدد کرے جس طرح دو زبانی یا<mark> زبان دی تبدیلی </mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = زباناں آسطے بہتر مدد کرے جڑیاں تھوڑا یا <mark>ٹیکسٹ کارپس </mark>استعمال آسطے نہ ہوّا (مثال دے طور تے سماجی لہجے، ورائٹیاں، تاریخی طور تے بغیر لکھی دیاں زباناں)
+how-spontaneous-speech-works = بے ساختہ تقریر کس طرح کم کردی اے
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>پرامپٹ </mark>
+prompt-bubble-subtitle = تساں اسیں ہک پرامپٹ یا سوال دسسّاں
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جواب</mark>
 contact-us-email = ای میل: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = اپنڑی ای میل لکھو
