@@ -137,14 +137,19 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     <legend className="text-black text-md px-2">تفاصيل المستخدم</legend>
     <div className="input-group flex flex-col mt-4">
       <label htmlFor="age" className="text-gray-500 text-md">العمر:</label>
-      <input
-        type="number"
+      <select
         id="age"
         name="age"
-        placeholder="أدخل عمرك"
         className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
         onChange={(e) => setAge(e.target.value)}
-      />
+      >
+        <option value="">اختر عمرك</option>
+        <option value="5-10 سنوات">5-10 سنوات</option>
+        <option value="10-15 سنة">10-15 سنة</option>
+        <option value="15-20 سنة">15-20 سنة</option>
+        <option value="20-40 سنة">20-40 سنة</option>
+        <option value="40-60 سنة">40-60 سنة</option>
+      </select>
     </div>
     <div className="input-group flex flex-col mt-4">
       <label htmlFor="gender" className="text-gray-500 text-md">الجنس:</label>
@@ -211,7 +216,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           onClick={handleAddInformationClick}
           data-testid="add-information-button"
           disabled={isAddInformationButtonDisabled}>
-          إضافة المعلومات
+          إرسال المعلومات
         </Button>
         {/* </Localized> */}
         <Localized id="continue-speaking-button">

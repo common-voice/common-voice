@@ -393,7 +393,7 @@
         margin-block: 20px;
 
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
 
         button img {
             margin-inline-end: 10px;
@@ -748,7 +748,7 @@
     .contribution-speak-form {
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: start;
 
         @media (--md-down) {
             align-items: center;

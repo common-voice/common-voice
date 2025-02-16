@@ -90,7 +90,7 @@
     .expandable-information__text {
         p {
             margin-bottom: 15px;
-            text-align: left;
+            text-align: right;
             color: #000;
 
             a {

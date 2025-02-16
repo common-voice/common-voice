@@ -559,18 +559,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 {!shouldShowCTA && (
 
         <div className="buttons">
+          {!shouldHideCTA && (
           <div>
-            {/* <LinkButton
-              rounded
-              className="guidelines-button bg-white text-black"
-              blank
-              to={'https://falak.ksaa.gov.sa/voicewall/ar/guidelines'}>
-              <QuestionIcon />
-              <Localized id="guidelines">
-                <span />
-              </Localized>
-            </LinkButton> */}
-            
             <div className="extra-buttons">
               <Tooltip title="Shortcuts" arrow>
                 <Button
@@ -586,8 +576,9 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               </Tooltip>
             </div>
           </div>
+          )}
+
           <div>
-          
             {onSubmit && shouldHideCTA && (
               <form
                 onSubmit={onSubmit}
