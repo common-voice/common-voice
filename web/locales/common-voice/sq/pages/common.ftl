@@ -4,11 +4,11 @@
 
 ## Languages
 
-aa = { "" }
 ab = Abkazisht
 ace = Acehnezisht
 ady = Adëgabzisht
 af = Afrikaans
+aln = Gegnisht
 am = Abisinisht
 an = Aragonisht
 ar = Arabisht
@@ -58,6 +58,7 @@ ga-IE = Irlandisht
 gl = Galiciane
 gn = Guaraneze
 gom = Goan Konkani
+gsw = Alsatisht
 gu-IN = Gujaratase
 ha = Hausa
 he = Hebraisht
