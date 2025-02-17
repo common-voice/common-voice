@@ -17,3 +17,4 @@ report-error = C'hoarvezet ez eus ur fazi en ur gas an danevell.
 continue = Kenderc'hel
 # Header for report modal after successful reporting
 success = Kaset ervat
+report-success-message = Kaset eo bet an danevell ervat
