@@ -66,6 +66,8 @@ read-sentences-coming-soon = Skaiteit teikumus <small>(dreizumā)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Skaitit teikumus, atbiļdit iz vaicuojumim
+read-sentences-menu-item-tooltip = Īrokstit, kai skaitit teikumus sovā volūdā
 
 ## MENU ITEM ARIA LABELS
 
