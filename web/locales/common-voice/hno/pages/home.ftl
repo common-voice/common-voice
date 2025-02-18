@@ -116,6 +116,8 @@ get-started = چلو شروع کرّاں<icon><icon>
 ## Action items section
 
 action-items-section-title = کمیونٹی/قوم دی قیادت وچ ڈیٹا بنڑانڑ آسطے، کامن وائس ہک مفت، اوپن سورس پلیٹ فارم اے۔
+action-items-section-subtitle = کوئی بھی عبارت ہور آواز دے ڈیٹاسیت کو اشتراک، بنڑا کے ہور ترتیب دے کے اپنڑی زبان کو محفوظ، دوبارہ زندہ تے اُچّا رتبہ دے ہکدا اے۔
+scripted-card-header = لکھی دی گل/تقریر
 
 ## Community section
 
