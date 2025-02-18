@@ -135,6 +135,7 @@ join-discord-community = ڈسکارڈ کمیونٹی نال جُڑّو
 join-discord-community-action = ڈسکارڈ تے اساں نال جّڑّو
 join-discord-community-content = زبان دی برادری بچ گل بات بچ حصہ گِنّو، سوال پُچھو، تے آنڑ آلے پروگراما تے گل بات بارے معلومات حاصل کرو۔
 find-us-on-matrix = میٹرکس تے اساں کو ڈھونڈو
+find-us-on-matrix-content = میٹرکس ہک کھلا تے ہلکا جا ڈیسنڑلائزڈ، رئیل ٹائم گفتگو دا طریقہ کار اے، ہور موزیلا دا پسندیدہ کل کے گل بات کرنا دا پلیٹ فارم اے۔
 
 ## Featured section
 
