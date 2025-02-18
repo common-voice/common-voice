@@ -78,9 +78,12 @@ read-more-about = اسدے تعارفی صفحے دے بارے مزید پڑھو
 ## NAV ITEMS
 
 answer-questions = سوالاں دے جواب دیو<small>(جلدی آرہے ہن)</small>
+answer-questions-coming-soon = سوالاں دے جواب دیو<small>(جلدی آرہے ہن)</small>
 review-transcriptions = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آرہے ہن)</small>
-add-questions = سوال شام کرو<small>(جلدی آرہے ہن)</small>
-transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آرہے ہن)</small>
+review-transcriptions-coming-soon = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آ ری اے)</small>
+add-questions = سوال شامل کرو<small>(جلدی آرہے ہن)</small>
+transcribe-audio-coming-soon = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
+transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
 press-and-stories = پریس ہور کہانڑیاں
 community-and-languages = کمیونٹی ہور زباناں
 
@@ -103,6 +106,9 @@ community-and-languages-menu-item-aria-label = کامن وائس دی مدد ا�
 
 ## Hero section
 
+hero-title = ٹیکنالوجی جڑّی تسدی زبان بولا
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اے آئی کیّاں صرف دنیا دی کجھ زباناں آسطے کم کرّا؟</bold>
 
 ## Action items section
 
