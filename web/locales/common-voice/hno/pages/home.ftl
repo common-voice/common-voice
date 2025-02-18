@@ -159,9 +159,15 @@ download-press-pack = اسدے پریس پیک کو ڈاؤنلوڈ کر<icon></i
 
 ## Developers section
 
+developers-section-title = 130 تو زیادہ زباناں بچ عوامی طور تے دستیاب اوپن سپیچ ڈیٹا سیٹ
+developers-section-subtitle = اے ایس آر ، ایس ٹی ٹی ، ٹی ٹی ایس ، تے دوئے  این ایل پی سیاق و سباق آسطے ڈیٹا سیٹ - کمیونٹی دی شرکت دے ذریعہ بنڑایا گیا۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹاسیٹس بارے جانڑو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = عام طور تے دستیاب، کمیونٹی آلے ڈیٹس سیٹ دا ساتھ دیو
+read-sentences-link = جملے پڑھو
 
 ## Partner section
 
