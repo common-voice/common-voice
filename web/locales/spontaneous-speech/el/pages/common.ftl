@@ -22,6 +22,7 @@ report-button = Αναφορά
 skip-button = Παράλειψη
 submit-button = Υποβολή
 contribute = Συνεισφορά
+request-new-language = Αίτημα για νέα γλώσσα
 
 ## Navbar
 
