@@ -51,6 +51,51 @@
     .labeled-checkbox {
         margin: 2em 0;
     }
+
+    .toggles-container {
+        padding: 16px;
+        font-family: sans-serif;
+        border: 1px solid var(--warm-grey);
+        margin-block-end: 20px;
+
+        div.hr {
+            margin: 12px 0;
+        }
+    }
+
+    .expandable-information {
+        margin-inline-start: 24px;
+        border-inline-start: 2px solid var(--anchor-text-blue);
+
+        .expandable-information__summary {
+            color: var(--anchor-text-blue);
+
+            path {
+                fill: var(--anchor-text-blue);
+            }
+        }
+
+        .expandable-information__text {
+            p {
+                margin-block-end: 24px;
+                margin-inline-start: 16px;
+                max-width: 310px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .request-language-btn.button {
+        background: var(--anchor-text-blue);
+        text-transform: uppercase;
+        border: none;
+        font-size: var(--font-size);
+
+        &:hover {
+            background-color: var(--anchor-text-blue);
+            color: var(--white);
+        }
+    }
 }
 
 .languages-request-page__content__form--changed {
