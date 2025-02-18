@@ -22,6 +22,7 @@ report-button = Zdźělić
 skip-button = Přeskočić
 submit-button = Wotpósłać
 contribute = Sobu dźěłać
+request-new-language = Nowu rěč požadać
 
 ## Navbar
 

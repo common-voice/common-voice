@@ -22,6 +22,7 @@ report-button = K wěsći daś
 skip-button = Pśeskócyś
 submit-button = Wótpósłaś
 contribute = Pśinosowaś
+request-new-language = Nowu rěc pominaś
 
 ## Navbar
 
