@@ -12,6 +12,8 @@ listen-abort-cancel = تصدیق کرنا جاری رکھو
 listen-abort-confirm = تصدیق کرنا ختم کرو
 # Menu item
 validate-readings = پڑھن دی تصدیق کرو
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = پڑھنا دی تصدیق کرو<small>(جلدی آرہے ہن)</small>
 
 ## MENU ITEM TOOLTIPS
 

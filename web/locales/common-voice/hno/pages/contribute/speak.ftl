@@ -62,6 +62,8 @@ create-profile-button = پروفائل بنڑاؤ
 img-alt-success-checkmark = کامیابی دا نشانڑ
 # menu item
 read-sentences = جملے پڑھو
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملے پڑھو<small>(جلدی آرہے ہن)</small>
 
 ## MENU ITEM TOOLTIPS
 
