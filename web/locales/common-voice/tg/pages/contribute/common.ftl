@@ -118,6 +118,7 @@ contribution-misreadings-example-6-title = Мо барои гирифтани қ
 contribution-misreadings-example-6-explanation = [Бояд «Мо ҳастем» бошад]
 contribution-misreadings-example-7-title = Мо барои гирифтани қаҳва берун меравем.
 contribution-misreadings-example-7-explanation = [Дар матни аслӣ ҳарфи «a» вуҷуд надорад]
+contribution-misreadings-example-8-title = Занбур бо суръат гузашт.
 contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
 contribution-varying-pronunciations-title = Талаффузҳои гуногун
 contribution-varying-pronunciations-example-1-title = Ӯ дар сараш берет дошт.

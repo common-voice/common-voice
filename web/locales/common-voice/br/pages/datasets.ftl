@@ -23,7 +23,7 @@ number-of-voices = Niver a vouezhioù
 splits = Dasparzhioù
 email-to-download = Merkit ur chomlec’h postel evit gallout pellgargañ
 why-email = <b>Perak ur chomlec’h postel ?</b> Gallout a rafemp kaout ezhomm da vont e darempred ganeoc'h a-zivout kemmoù er strobad roadennoù, Evit-se hon eus ezhomm eus ho chomlec’h postel.
-why-donate-datasets-page = Mozilla Common Voice zo anezhañ ar strobad roadennoù mouezh digor liesseurtañ er bed ; arc'hantaouet eo diwar donezonoù hepken. Tost ur milion a zollaroù ar bloaz e koust deomp herberc'hiañ ar strobadoù roadennoù ha gwellaat ar savenn evit ouzhpenn 100 kumuniezh yezhel a gont war ar pezh emaomp oc'h ober. M'eo pouezus ar roadennoù frank evidoc'h - <b>grit ur prof bremañ !</b>
+why-donate-datasets-page = Mozilla Common Voice zo anezhañ ar strobad roadennoù mouezh digor liesseurtañ er bed ; arc'hantaouet eo diwar donezonoù hepken. Tost ur milion a zollaroù ar bloaz e koust deomp herberc'hiañ ar strobadoù roadennoù ha gwellaat ar savenn evit ouzhpenn 100 kumuniezh yezhel a gont war ar pezh emaomp oc'h ober. M'eo pouezus ar roadennoù frank evidoc'h - <b>grit un donezon bremañ !</b>
 confirm-size = Emaoc’h o vont da bellgargañ <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -34,7 +34,7 @@ validated-hours = Eurvezhioù aprouet
 recorded-hours = Eurvezhioù enrollet
 whats-inside = Petra zo e-barzh strobad roadennoù Common Voice ?
 dataset-description-hours =
-    Pep moned er strobad roadennoù a ya d'e ober ur restr MP3 hag ar restr testenn a glot ganti. Ul lodenn vras eus an <b>{ $total }</b> eurvezh enrollet er strobad roadennoù zo enno metaroadennoù demografek a c’hall sikour de lemel spister al luskerioù anaout ar vouezh, evel an oad, ar jener  hag ar pouez-mouezh.
+    Pep moned er strobad roadennoù a ya d'e ober ur restr MP3 hag ar restr testenn a glot ganti. Ul lodenn vras eus an <b>{ $total }</b> eurvezh enrollet er strobad roadennoù zo enno metaroadennoù demografek a c’hall sikour da lemel spister al luskerioù anaout ar vouezh, evel an oad, ar jener  hag ar pouez-mouezh.
     
     <b>{ $valid }</b> eurvezh gwiriet e <b>{ $languages }</b> yezh zo er strobad roadennoù evit ar mare met ouzhpennañ a reomp mouezhioù ha yezhoù nevez ingal. Taolit ur sell ouzh hor <languagesLink>pajenn Yezhoù</languagesLink> evit goulenn kaout ur yezh ouzhpenn pe kregiñ da gemer perzh.
 want-dataset-update = Fellout a ra deoc’h kaout keloù pa vez embannet ur stumm nevez eus strobad roadennoù Common Voice ? Lakait hoc'h anv el lizher-kelaouiñ.

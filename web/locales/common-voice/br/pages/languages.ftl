@@ -1,7 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = War ober
-language-section-in-progress-new-description = Evit c'hoazh emañ ar yezhoù-mañ war ziorren gant ar gumuniezh. Evit lakaat ar raktres da loc'hañ da vat e ranker da gentañ bezañ <localizationGlossaryLink>troet al lec’hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastumet frazennoù</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Evit c'hoazh emañ ar yezhoù-mañ war ziorren gant ar gumuniezh. Evit lakaat ar raktresoù-se da loc'hañ da vat e ranker da gentañ  <localizationGlossaryLink>treiñ al lec’hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
 language-section-launched = Loc’het
 language-section-launched-description = Setu ar yezhoù eo loc'het o raktres rak <localizationGlossaryLink>boulc'het-mat eo troidigezh</localizationGlossaryLink> al lec’hienn ha dastumet ez eus bet a-walc’h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit ma vefe posupl  <speakLink>Enrollañ</speakLink> ha <listenLink>Selaou</listenLink> testennoù.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated

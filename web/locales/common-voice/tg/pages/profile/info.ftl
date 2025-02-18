@@ -49,6 +49,7 @@ profile-close = Пӯшидан
 profile-explanation = Пешрафти худро бо профил пайгирӣ кунед ва ба маълумоти овозии мо кумак кунед, ки дақиқтар шавад.
 thanks-for-account = Ташаккур барои тасдиқи ҳисоби шумо, акнун биёед профили шуморо созем.
 why-demographic = Чаро ин муҳим аст?
+accept-privacy = Ман хуб ҳастам, ки шумо ин саҳифаро мутобиқи <privacyLink>Сиёсати махфияти «Mozilla»</privacyLink> коркард мекунед.
 accept-privacy-title = Сиёсати махфият
 accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> лоиҳаи «Common Voice» розӣ ҳастам
 login-identity = Шиносоии воридшавӣ

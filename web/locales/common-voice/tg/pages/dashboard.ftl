@@ -18,6 +18,7 @@ validated-clips = Сабтҳои тасдиқшуда
 total-approved = Ҳамагӣ тасдиқ карда шудааст
 overall-accuracy = Аниқии умумӣ
 set-visibility = Танзими намоёнии ман
+visibility-overlay-note = Тавзеҳ: Вақте ки реҷаи «Намоён» таъин мешавад, шумо метавонед ин танзимро дар саҳифаи <profileLink>Профил</profileLink> иваз кунед
 show-ranking = Рейтинги маро нишон диҳед
 
 ## Custom Goals

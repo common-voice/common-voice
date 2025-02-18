@@ -3,17 +3,17 @@
 your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
 goal-reached = Pal tizhet
-clips-you-recorded = Klipoù enrollet ganeoc’h
-clips-you-validated = Klipoù aprouet ganeoc’h
+clips-you-recorded = Klip enrollet ganeoc’h
+clips-you-validated = Klip aprouet ganeoc’h
 todays-recorded-progress = Araokadennoù Common Voice hiziv a-fet niver a glipoù enrollet
-todays-validated-progress = Araokadenn Common Voice an devezh war an niver a glipoù aprouet
+todays-validated-progress = Araokadenn Common Voice hiziv a-fet niver a glipoù aprouet
 stats = Stadegoù
 awards = Trec’hioù
 you = C’hwi
 everyone = An holl
 contribution-activity = Oberiantiz
 top-contributors = Perzhidi bennañ
-recorded-clips = Klipoù enrollet
+recorded-clips = Klip enrollet
 validated-clips = Klipoù aprouet
 total-approved = Hollad aprouet
 overall-accuracy = Fiziusted hollek
@@ -25,7 +25,7 @@ show-ranking = Diskouez ma renkadur
 ## Custom Goals
 
 get-started-goals = Kregiñ da lakaat palioù
-create-custom-goal = Krouiñ ur pal personelaet
+create-custom-goal = Termeniñ ur pal hiniennel
 goal-type = Peseurt doare palioù a fell deoc’h termeniñ ?
 both-speak-and-listen = An daou
 both-speak-and-listen-long = An daou (komz ha selaou)
@@ -39,22 +39,22 @@ lose-goal-progress-warning = Ma kemmit ho pal e c’hallit koll an araokadennoù
 want-to-continue = Kenderc’hel memes tra ?
 finish-editing = Echuiñ gant ar c'hemmoù da gentañ ?
 lose-changes-warning = Ma kuitait bremañ e kollot ho kemmoù
-build-custom-goal = Termeniñ ur pal personelaet
+build-custom-goal = Termeniñ ur pal hiniennel
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
-        [two] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
-        [few] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
-        [many] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
-       *[other] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal personelaet
+        [one] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
+        [two] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
+        [few] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
+        [many] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
+       *[other] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
-        [two] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
-        [few] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
-        [many] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
-       *[other] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal personelaet
+        [one] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
+        [two] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
+        [few] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
+        [many] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
+       *[other] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
     }
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
