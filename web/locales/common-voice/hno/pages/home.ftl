@@ -179,3 +179,7 @@ press-and-stories-link = خبراں ہور کہانڑیاں
 ## Partner section
 
 partner-section-title = اساں نال حصہ داری کرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیکنالوجی آلیاں کمپنیاں</bold>-ہک بڑدے ہوئے کثیرلسانی اے آئی ایکوسسٹم  آسطے اوپن ڈیٹا بنڑانڑ بچ پیسے لاؤ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی ہور تحقیق کرنا آلے</bold>- مفت بچ ہک اثر کرنا آلے ڈیٹا سیٹ بنڑاؤ، سنبھالو ہور شیئر کرو
