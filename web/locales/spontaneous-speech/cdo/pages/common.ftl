@@ -33,6 +33,5 @@ check-transcriptions = 檢查轉錄內容
 
 not-found-page-header = 找不到
 not-found-page-content = 找不到您要尋找的頁面
-
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
