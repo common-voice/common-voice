@@ -24,7 +24,8 @@
 
     /* hide small arrow thats default for summary element */
     list-style: none;
-    &::marker {
+    &::marker,
+    &::-webkit-details-marker {
         display: none;
     }
 

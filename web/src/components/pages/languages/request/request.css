@@ -16,7 +16,7 @@
 }
 
 .languages-request-page-wrapper {
-    padding: 0 var(--page-margin);
+    padding: 0 24px;
     margin: 0 auto;
     max-width: var(--desktop-width);
 
@@ -54,7 +54,7 @@
 
     .toggles-container {
         padding: 16px;
-        font-family: sans-serif;
+        font-family: var(--base-font-family);
         border: 1px solid var(--warm-grey);
         margin-block-end: 20px;
 
@@ -64,8 +64,11 @@
     }
 
     .expandable-information {
-        margin-inline-start: 24px;
         border-inline-start: 2px solid var(--anchor-text-blue);
+
+        @media (--sm-up) {
+            margin-inline-start: 24px;
+        }
 
         .expandable-information__summary {
             color: var(--anchor-text-blue);
@@ -78,7 +81,6 @@
         .expandable-information__text {
             p {
                 margin-block-end: 24px;
-                margin-inline-start: 16px;
                 max-width: 310px;
                 font-weight: 400;
             }

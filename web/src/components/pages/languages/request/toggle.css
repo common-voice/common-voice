@@ -7,6 +7,10 @@
     span {
         font-size: var(--font-size);
         font-family: var(--base-font-family);
+
+        @media (--xs-down) {
+            max-width: 200px;
+        }
     }
 
     .switch {
