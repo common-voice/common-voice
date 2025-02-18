@@ -183,3 +183,9 @@ partner-section-title = اساں نال حصہ داری کرو
 partner-section-subtitle-tech-companies = <bold>ٹیکنالوجی آلیاں کمپنیاں</bold>-ہک بڑدے ہوئے کثیرلسانی اے آئی ایکوسسٹم  آسطے اوپن ڈیٹا بنڑانڑ بچ پیسے لاؤ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>سول سوسائٹی ہور تحقیق کرنا آلے</bold>- مفت بچ ہک اثر کرنا آلے ڈیٹا سیٹ بنڑاؤ، سنبھالو ہور شیئر کرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>فلاحی کم</bold>-مقامی طور تے نئی چیز بنڑانڑ تے ترقی تیز کرنڑ آسطے ڈیٹا سیٹ بڑینڑا آسطے مدد کرو
+# icon is an arrow that points to the right
+get-in-touch-button = رابطے بچ رہیو<icon></icon>
+# Partners section
+our-partners-include = اسدے شراکت داراں بچ شامل ہن۔۔۔
