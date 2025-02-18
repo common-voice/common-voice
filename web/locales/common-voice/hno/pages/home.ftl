@@ -168,6 +168,14 @@ explore-datasets = ڈیٹاسیٹس بارے جانڑو<icon></icon>
 
 get-involved-section-title = عام طور تے دستیاب، کمیونٹی آلے ڈیٹس سیٹ دا ساتھ دیو
 read-sentences-link = جملے پڑھو
+validate-readings-link = پڑھن دی تصدیق کرو
+contribute-link = ٹیکسٹ کارپس بچ حصہ بھاؤ
+answer-questions-link = سوالاں دا جواب دیو
+transcribe-answers-link = جواباں کو ٹرانسکرائب کرو
+review-transcriptions-link = ٹرانسکرپشناں دا جائزہ گھنو
+contribute-text-link = عبارت دے ذریعے حصہ باؤ
+press-and-stories-link = خبراں ہور کہانڑیاں
 
 ## Partner section
 
+partner-section-title = اساں نال حصہ داری کرو
