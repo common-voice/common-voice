@@ -22,6 +22,7 @@ report-button = მოხსენება
 skip-button = გამოტოვება
 submit-button = გაგზავნა
 contribute = წვლილის შეტანა
+request-new-language = მოითხოვეთ ახალი ენა
 
 ## Navbar
 

@@ -196,6 +196,8 @@ partner-section-title = اساں ساں شریک تھی
 partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - کُھلے ڈیٹا سیٹ پیدا کر ہِک چنڳے گھݨے ٻولیں والا اے آئی ماحولیاتی نظام واسطے
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>شہری برادری ٻِیال بھنؤڑ والے</bold> - پیدا کر، خدمت کر ٻِیا چنڳے ڈیٹا سیٹس یقین واسطے وِلاح۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستی</bold> -مقامی جدت ٻِیا ترقیک فروغ ݙیݨ واسطے ڈیٹا سیٹ تی تخلیقیک سپانسر کر
 # icon is an arrow that points to the right
 get-in-touch-button = رابطے ساں رہ <icon></icon>
 # Partners section

@@ -119,6 +119,7 @@ action-items-section-subtitle = Ο καθένας μπορεί να διατηρ
 scripted-card-header = Ομιλία με σενάριο
 scripted-card-content = Διαβάστε δυνατά προτάσεις στη γλώσσα σας και συνεισφέρετε στο πιο ποικιλόμορφο σύνολο δεδομένων ομιλίας παγκοσμίως, που στηρίζεται στη συμμετοχή του κοινού.
 spontaneous-card-header = Αυθόρμητη ομιλία
+spontaneous-card-content = Απαντήστε σε μηνύματα προτροπής για τη δημιουργία συνόλων δεδομένων για πλαίσια οργανικού λόγου στην καθομιλουμένη. Ιδανικό για γλώσσες με κυρίως προφορικό λόγο.
 language-text-card-header = Κείμενο γλώσσας
 language-text-card-content = Δημιουργήστε ή μοιραστείτε μηνύματα δημόσιου τομέα, προτάσεις και κείμενο για μετάφραση, μικρά γλωσσικά μοντέλα και πολλά άλλα.
 coming-soon = Προσεχώς
@@ -126,6 +127,7 @@ add-text = Προσθήκη κειμένου
 
 ## Community section
 
+community-section-title = Με την υποστήριξη παγκόσμιων κοινοτήτων, για παγκόσμιες κοινότητες — 130 γλώσσες που αυξάνονται συνεχώς!
 join-discord-community = Συμμετοχή στην κοινότητα στο Discord
 # label for button
 join-discord-community-action = Βρείτε μας στο Discord
@@ -149,6 +151,7 @@ contribute-github-action = Συνεισφορά στο GitHub
 
 ## Featured section
 
+featured-section-title = Μίλησαν για εμάς...
 # icon is an arrow that points downwards
 download-press-pack = Λήψη πακέτου τύπου <icon></icon>
 
@@ -161,8 +164,10 @@ explore-datasets = Εξερεύνηση συνόλων δεδομένων <icon>
 
 ## Get involved section
 
+get-involved-section-title = Υποστηρίξτε ανοικτά σύνολα δεδομένων από κοινότητες
 read-sentences-link = Ανάγνωση προτάσεων
 validate-readings-link = Επικύρωση αναγνώσεων
+contribute-link = Συνεισφορά στο corpus κειμένου
 answer-questions-link = Απάντηση ερωτήσεων
 transcribe-answers-link = Μεταγραφή απαντήσεων
 review-transcriptions-link = Έλεγχος μεταγραφών

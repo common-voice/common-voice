@@ -1,4 +1,5 @@
 ## General
+
 # Toast message that is displayed when an error occurs
 error = Axa katiniuyiní
 action-click = Clic ke neupɨna
@@ -21,11 +22,15 @@ report-button = Ke tineutaxaneta
 skip-button = Humapai ke neukawetsi
 submit-button = Ke nenɨʼa
 contribute = ke tineuparewi
+
 ## Navbar
+
 respond-to-prompt = Iwaurika ke neutaʼeiya
 transcribe-audio = Niuki makaʼɨkierie ke neutaʼutɨa
 check-transcriptions = Niuki mutiʼutɨariexɨa ke neutiʼixɨari
+
 ## Not Found Page
+
 not-found-page-header = Pɨkaʼukaxeiyarie
 not-found-page-content = Página ke ʼaneme pemɨwaune pɨkaʼukaxeiyarie
 # Privacy and Terms checkbox
@@ -33,17 +38,15 @@ accept-privacy-and-terms = Yanepɨraʼeriwa <termsLink> nehetsié timieme ke mɨ
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou
+cpx = Heng Hua
 en = Inglés
+kzi = Kelabit
 mbf = Baba Malay
-msi = Sabah Malay
+mel = Melanau centro mieme
 ms-MY = Bahasa Malay
+msi = Sabah Malay
 pez = Penan este mieme
 pne = Penan oeste mieme
-kzi = Kelabit
-cpx = Heng Hua
-kai = Kelabit
-mel = Melanau centro mieme
 sdo = Serian Bidayuh
-sdo = Serian Bidayuh
-xkl = Kenyah
 snv = Saʼban
+xkl = Kenyah
