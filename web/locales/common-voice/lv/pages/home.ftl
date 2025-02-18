@@ -89,6 +89,7 @@ transcribe-audio-coming-soon = Pārrakstiet audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
+coming-soon = Drīzumā
 
 ## MENU ITEMS TOOLTIPS
 
@@ -125,9 +126,26 @@ scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot pla
 spontaneous-card-header = Spontāna runa
 spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
 language-text-card-header = Valodas teksti
+language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+coming-soon = Drīzumā
+add-text = Pievienot tekstu
 
 ## Community section
 
+community-section-title = Nodrošina globālas kopienas, globālām kopienām — 130 valodas, kas arvien pieaug!
+join-discord-community = Pievienojieties Discord kopienai
+# label for button
+join-discord-community-action = Pievienojieties mums Discord
+join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
+find-us-on-matrix = Atrodiet mūs Matrix
+find-us-on-matrix-content = Matrix ir atvērts, viegls protokols decentralizētai, reāllaika saziņai, un Mozilla izvēlētā atvērto diskusiju platforma.
+# label for button
+find-us-on-matrix-action = Atrodiet mūs Matrix
+ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
+ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
+# label for button
+ask-mozilla-share-action = Pastāstiet par savu notikumu
+download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
 
 ## Featured section
 

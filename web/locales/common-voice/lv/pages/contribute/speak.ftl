@@ -1,5 +1,5 @@
-speak = Runājiet
-speak-now = Runājiet
+speak = Runā
+speak-now = Runā
 speak-subtitle = Ierakstiet savu balsi
 record-cta = Sākt ierakstu
 record-platform-not-supported = Diemžēl jūsu platforma pašlaik netiek atbalstīta.
