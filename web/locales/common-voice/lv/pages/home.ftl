@@ -122,6 +122,9 @@ action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platfo
 action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
 scripted-card-header = Sagatavota runa
 scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
+spontaneous-card-header = Spontāna runa
+spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+language-text-card-header = Valodas teksti
 
 ## Community section
 
