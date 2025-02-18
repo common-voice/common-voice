@@ -144,9 +144,18 @@ ask-mozilla-share-content = پہلاں دا یا اینڑا آلہ کوئی پ
 ask-mozilla-share-action = آپنڑا پروگرام/واقعہ شیئر کرو
 download-contribution-certificate = اپنڑا حصہ بینڑا آلہ سرٹیفکیٹ ڈاؤنلوڈ کرو
 download-contribution-certificate-content = تُسّاں اگر کامن وائس بچ حصہ بایا دا اے تے فر اپنڑے آسطے یا اپنڑے پروگرام بارے سرٹیفکیٹ ڈاؤنلوڈ کرو — اے تُساں بغیر ممکن نیں!
+# label for button
+download-contribution-certificate-action = اپنڑا سرٹیفکیٹ گِنّو
+contribute-github = گٹ ہب تے حصہ بھاؤ
+contribute-github-content = اے منصوبہ تُسّاں جِیّاں لوکاں دی مدد بغیر ممکن نہ ہوسی۔ 🎉 کامن وائس وچ شامل ہونڑا دے مُچ طریقے ہن- تُسّاں کو اے جانڑنا دی ضرورت نیں کہ حصہ بینڑا آسطے کوڈ کے اے!
+# label for button
+contribute-github-action = گٹ ہب تے حصہ بھاؤ
 
 ## Featured section
 
+featured-section-title = اس بچ واضح اے۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اسدے پریس پیک کو ڈاؤنلوڈ کر<icon></icon>
 
 ## Developers section
 
