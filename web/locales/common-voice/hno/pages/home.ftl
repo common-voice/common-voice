@@ -109,6 +109,9 @@ community-and-languages-menu-item-aria-label = کامن وائس دی مدد ا�
 hero-title = ٹیکنالوجی جڑّی تسدی زبان بولا
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>اے آئی کیّاں صرف دنیا دی کجھ زباناں آسطے کم کرّا؟</bold>
+hero-subtitle-2 = اسدی زبان اسدی کہانڑی، اسدی قوم، اسدا رہن سہن اے۔ آو ہک ڈیٹا سیٹ بنڑاواں جِڑّا اسیں دنیا بچ دکھنڑا چہندے اں۔
+# icon is an arrow that points downwards
+get-started = چلو شروع کرّاں<icon><icon>
 
 ## Action items section
 
