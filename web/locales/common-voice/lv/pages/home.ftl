@@ -121,6 +121,7 @@ get-started = Sāciet darbu <icon><icon>
 action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
 action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
 scripted-card-header = Sagatavota runa
+scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
 
 ## Community section
 
