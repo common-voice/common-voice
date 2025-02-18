@@ -83,22 +83,44 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-coming-soon = Atbildiet uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
+review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
+transcribe-audio-coming-soon = Pārrakstiet audio <small>(drīzumā)</small>
+transcribe-audio = Pārrakstīt audio
+press-and-stories = Prese un stāsti
+community-and-languages = Kopiena un valodas
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
+partnerships-menu-item-tooltip = Sadarbojieties ar mums
+press-and-stories-menu-item-tooltip = Apmeklējiet mūsu emuāru vai rakstiet par mums
+community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Par iespēju izvēlni
+partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
+press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
+community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tehnoloģija, kas runā jūsu valodā
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
+hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
+# icon is an arrow that points downwards
+get-started = Sāciet darbu <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
+action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
+scripted-card-header = Sagatavota runa
 
 ## Community section
 
