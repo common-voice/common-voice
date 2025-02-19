@@ -146,15 +146,37 @@ ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastās
 # label for button
 ask-mozilla-share-action = Pastāstiet par savu notikumu
 download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
+download-contribution-certificate-content = Lejupielādējiet sertifikātu saviem notikumiem vai sev, ja esat piedalījies Common Voice — tas nebūtu iespējams bez jums!
+# label for button
+download-contribution-certificate-action = Saņemiet savu sertifikātu
+contribute-github = Atbalstiet vietnē GitHub
+contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā jūs. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — jums nav jāmāk programmēt, lai sniegtu ieguldījumu!
+# label for button
+contribute-github-action = Atbalstiet vietnē GitHub
 
 ## Featured section
 
+featured-section-title = Pieminēts...
+# icon is an arrow that points downwards
+download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publiski pieejamas atvērtās runas datu kopas vairāk nekā 130+ valodās
+developers-section-subtitle = Datu kopas ASR, STT, TTS un citiem NLP uzdevumiem — izveidotas, ar kopienas spēkiem.
+# icon is an arrow that points to the right
+explore-datasets = Izpētiet datu kopas <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
+read-sentences-link = Lasīt teikumus
+validate-readings-link = Apstipriniet ierunāto
+contribute-link = Papildiniet teksta korpusu
+answer-questions-link = Atbildi uz jautājumiem
+transcribe-answers-link = Pārrakstiet atbildes
+review-transcriptions-link = Pārskatiet pierakstīto
+contribute-text-link = Iesniedziet tekstu
 
 ## Partner section
 
