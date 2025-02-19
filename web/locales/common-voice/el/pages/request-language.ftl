@@ -35,3 +35,9 @@ request-language-error =
     Ενδέχεται να μην έχουμε λάβει αυτό το αίτημα. Στείλτε email απευθείας στο
     <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!
 request-for-scripted-speech-toggle = Αίτημα για Ομιλία με σενάριο
+request-for-spontaneous-speech-toggle = Αίτημα για Αυθόρμητη ομιλία
+need-help-deciding-platform = Χρειάζεστε βοήθεια για να αποφασίσετε ποιο να επιλέξετε;
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = Η <strong>Ομιλία με σενάριο</strong> (το κλασικό Common Voice) είναι εκεί όπου μπορείτε να διαβάσετε προτάσεις στη γλώσσα σας.
+need-help-deciding-platform-explanation-2 = Η <strong>Αυθόρμητη ομιλία</strong> είναι ένα νέο μέρος του Common Voice, όπου μπορείτε να απαντήσετε σε ερωτήσεις με έναν πιο οργανικό και καθημερινό τρόπο.
+need-help-deciding-platform-explanation-3 = Αν δεν βλέπετε τη γλώσσα σας σε κανένα από τα μέρη της πλατφόρμας, επιλέξτε και τα δύο.
