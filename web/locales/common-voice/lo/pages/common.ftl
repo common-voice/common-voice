@@ -222,6 +222,7 @@ pua = Western Highland Purepecha
 pwn = Paiwan
 quc = K'iche'
 qup = Southern Pastaza Quechua
+qux = Quechua Yauyos
 quy = Quechua Chanka
 qva = Quechua Ambo-Pasco
 qvi = Kichwa
