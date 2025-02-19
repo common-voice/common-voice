@@ -22,6 +22,7 @@ report-button = بیان کرو
 skip-button = چھوڑو
 submit-button = جمع کروں
 contribute = حصّو لینو
+request-new-language = نوئی زبان وسطے گزارش کرو
 
 ## Navbar
 
