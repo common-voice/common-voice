@@ -7,6 +7,7 @@
     span {
         font-size: var(--font-size);
         font-family: var(--base-font-family);
+        max-width: 400px;
 
         @media (--xs-down) {
             max-width: 200px;
