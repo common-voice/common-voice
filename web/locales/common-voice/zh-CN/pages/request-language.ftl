@@ -24,3 +24,10 @@ request-language-success-list-2 =
     以及告知您是否已有一个社区已在处理该语言
 request-language-success-list-3 = 若您在几天内未收到我们的消息，请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 request-language-error = 我们可能还未收到该请求。请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
+request-for-scripted-speech-toggle = 请求“朗读文本”模式
+request-for-spontaneous-speech-toggle = 请求“即兴发言”模式
+need-help-deciding-platform = 不确定要选择哪项？
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>朗读文本</strong>：以自己的语言朗读语句（Common Voice 原有模式）。
+need-help-deciding-platform-explanation-2 = <strong>即兴发言</strong>：更自然、口语化地回答问题（Common Voice 新增部分）。
+need-help-deciding-platform-explanation-3 = 若在平台的两部分中都未看到您的语言，请同时选择两项。
