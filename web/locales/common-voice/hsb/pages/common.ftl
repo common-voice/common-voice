@@ -5,11 +5,13 @@
 ## Languages
 
 aa = Afaršćina, Afar
+aat = Arvanitika
 ab = Abchazišćina
 abb = Bankon
 ace = Ačehšćina
 ady = Adygišćina
 af = Afrikanšćina
+aln = Gegiska albanšćina
 am = Amharšćina
 an = Aragonšćina
 ar = Arabšćina
@@ -24,10 +26,13 @@ bas = Basašćina
 bax = Bamun
 bba = Baatonum
 bbj = Ghomala
+bbl = Tušišćina
 bci = Baule
 be = Běłorušćina
 beb = Bamvele
+bew = Betawi
 bfd = Bafut
+bft = Balti
 bg = Bołharšćina
 bkm = Kom
 bm = Bambaršćina, Bambara
