@@ -177,6 +177,18 @@ answer-questions-link = Atbildi uz jautājumiem
 transcribe-answers-link = Pārrakstiet atbildes
 review-transcriptions-link = Pārskatiet pierakstīto
 contribute-text-link = Iesniedziet tekstu
+press-and-stories-link = Prese un stāsti
 
 ## Partner section
 
+partner-section-title = Sadarbojieties ar mums
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldiet atvērtu datu kopu izveidē plaukstošai daudzvalodu AI ekosistēmai
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — veidojiet, publicējiet un dalieties ar noderīgām datu kopām
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
+# icon is an arrow that points to the right
+get-in-touch-button = Sazinieties ar <icon></icon>
+# Partners section
+our-partners-include = Mūsu partneru vidū ir...

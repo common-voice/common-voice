@@ -16,3 +16,5 @@ partnerships-small-business-description = Mēs vienmēr vēlamies dzirdēt no da
 partnerships-corporates-header = Liela mēroga korporācijas un platformu uzņēmumi
 partnerships-corporates-description = Ja vēlaties runāt vairāk par datu kopu, līdzinvestēt plānotos platformas paplašināšanā vai meklēt sadarbības iespējas, <emailFragment>rakstiet mums.</emailFragment>
 partnerships-our-partners = Mūsu partneri
+# menu item
+partners = Partneri
