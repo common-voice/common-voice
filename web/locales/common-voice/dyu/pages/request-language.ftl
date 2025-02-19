@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>kan jɛlenw ɲɛ</languagesPageLink>.
     N’o tɛ, i ka nin sɛbɛn in dafa, an bɛna <strong>i ka bataki ci i ma min bɛ se ka kɛ i bolo
     ka ɲɛfɔli kɛ i ka kan sigicogo kan</strong>.
-request-language-explanation-2 =
-    An bɛna <strong>an ka sigida ɲɛmɔgɔ fana ladɔnniya
-    ko i b’ i mago don</strong>, walasa u ka se ka dɔ di i ma
-    dɛmɛ wɛrɛ walima kunnafoniw minnu bɛ se ka kɛ i mago bɛ minnu na.
 request-language-form-email =
     .label = I ka imeyilɛri ladɛrɛsi
 request-language-form-info =

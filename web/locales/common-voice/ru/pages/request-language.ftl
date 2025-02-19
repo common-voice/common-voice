@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>странице распространенных голосовых языков</languagesPageLink>.
     Если нет, заполните эту форму, и мы <strong>вышлем вам полезное электронное письмо,
     объясняющее, как настроить язык</strong>.
-request-language-explanation-2 =
-    Мы также <strong>сообщим нашим менеджерам сообщества,
-    что вы заинтересованы</strong>, чтобы они могли дать вам любую
-    дополнительную поддержку или информацию, которая может вам понадобиться.
 request-language-form-email =
     .label = Ваш e-mail:
 request-language-form-info =

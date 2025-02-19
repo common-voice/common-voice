@@ -2,7 +2,6 @@
 
 request-language-heading = Opýtajte sa na nový jazyk
 request-language-explanation-1 = Skontrolujte, či je váš jazyk uvedený na <languagesPageLink>stránke Jazyky Common Voice</languagesPageLink>. Ak nie, vyplňte tento formulár a my vám <strong>pošleme praktický e‑mail s vysvetlením, ako si nastaviť jazyk</strong>.
-request-language-explanation-2 = <strong>Dáme tiež vedieť nášmu správcovi komunity, že máte záujem</strong>, aby vám mohol poskytnúť ďalšiu podporu alebo informácie, ktoré by ste mohli potrebovať.
 request-language-form-email =
     .label = Vaša e‑mailová adresa
 request-language-form-info =

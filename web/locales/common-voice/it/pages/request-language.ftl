@@ -4,9 +4,6 @@ request-language-heading = Chiedi informazioni su una nuova lingua
 request-language-explanation-1 =
     Controlla se la tua lingua è disponibile nella <languagesPageLink>pagina Lingue di Common Voice</languagesPageLink>.
     In caso contrario, compila questo modulo e <strong> ti invieremo un’email che spiega come aggiungerla</strong>.
-request-language-explanation-2 =
-    Inoltre <strong>comunicheremo al nostro responsabile della comunità il tuo interesse</strong>, in modo che possa fornirti
-    ulteriore supporto o le informazioni di cui hai bisogno.
 request-language-form-email =
     .label = Il tuo indirizzo email
 request-language-form-info =

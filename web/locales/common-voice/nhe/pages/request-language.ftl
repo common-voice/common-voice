@@ -2,7 +2,6 @@
 
 request-language-heading = Ni neki se yankhik idioma
 request-language-explanation-1 = Shikita tla mo idioma huala ipan lista tlen <languagesPageLink> Lista de idiomas Common Voice </languagesPageLink>.Tlan ashkana huala,shitekihio no formulario huan tohuanti ti <strong>timitstitlanise se email ipan tikuamachulis kenikatsa titlalis mo idioma</strong>.
-request-language-explanation-2 = Ipan <strong> kimatis to community manager then to comunidad ipan ta tineki titepaleuis</strong, ipan huelis mitsmakas apoyo o informacion tlen huelis titekihuis
 request-language-form-email =
     .label = Mo direccion email.
 request-language-form-info =

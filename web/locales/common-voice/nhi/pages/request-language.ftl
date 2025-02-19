@@ -2,7 +2,6 @@
 
 request-language-heading = xitlahtlani icaocse yancuic tlahtol
 request-language-explanation-1 = xiquita tla motlahtol uits tlahcoiliuhtok<languagesPageLink> pagina de tlahtol ixmateh</languagesPageLink> tlamouhcon, xictlami nicancah formulario huan <strong> timitsnaltitlanisqueh se correo tlenmitscualtias, huits quenin ticyectlalis mutlahtol</strong>
-request-language-explanation-2 = nuyuhqui<strong>tiquinnahuatisque toticticahuah  de masehual nichicol tlen mitspactia,</strong>para ohcon huilis mitsmacasque tlensa palehuilis o tlanahuatil tlen huilistiquicuis
 request-language-form-email =
     .label = mocorreo electronico
 request-language-form-info =

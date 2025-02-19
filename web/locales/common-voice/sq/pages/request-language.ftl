@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>faqja e Gjuhëve të Common Voice-it</languagesPageLink>.
     Nëse jo, plotësoni këtë formular dhe do t’ju <strong>dërgojmë një email të dobishëm
     ku shpjegohet se si ta bëni gati gjuhën tuaj</strong>.
-request-language-explanation-2 =
-    Gjithashtu do t’i <strong>bëjmë me dije përgjegjësit tonë
-    të bashkësisë se interesoheni</strong>, që të mund t’ju japin
-    çfarëdo mbështetje apo informacion shtesë që mund t’ju duhet.
 request-language-form-email =
     .label = Adresa juaj email
 request-language-form-info =

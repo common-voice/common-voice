@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink> کامن وائس زباناں دے ورقہ </languagesPageLink> تے۔
     جے کائنی، تاں ایہ فارم پُر کرو تے اساں <strong> تہاکوں ہک آسان ایک بھیڄیسوں۔
     اپݨی زبان کوں ترتیب ݙیوݨ دا طریقہ ݙساوݨ </strong>۔
-request-language-explanation-2 =
-    اساں <strong> اپݨے برادری مینیجر کوں وی ݙسیسوں 
-    جو تہاݙی دلچسپی ہے </strong>، تاں جو او تہاکوں کوئی وی ݙے سڳن
-    ودھکی مدد یا معلومات جیڑھیاں تہاکوں درکار تھی سڳدیاں ہن۔
 request-language-form-email =
     .label = تہاݙا ای میل پتہ
 request-language-form-info =

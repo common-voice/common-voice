@@ -4,9 +4,6 @@ request-language-heading = 새 언어에 관해 문의
 request-language-explanation-1 =
     해당 언어가 <languagesPageLink>Common Voice 언어 목록</languagesPageLink>에 있는지 확인하십시오.
     목록에 없다면 이 양식을 채워 주십시오. 저희가 <strong>해당 언어를 어떻게 시작할지에 대해 유용한 메일을 보내 드릴 것입니다</strong>.
-request-language-explanation-2 =
-    또한 <strong>커뮤니티 관리자에게 귀하의 관심이 전달될 것이며</strong>,
-    추가적인 지원이나 필요할 수 있는 정보를 받게 될 것입니다.
 request-language-form-email =
     .label = 이메일 주소
 request-language-form-info =

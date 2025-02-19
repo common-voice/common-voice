@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common-Voice-Sprachenseite</languagesPageLink> aufgelistet ist.
     Wenn nicht, füllen Sie dieses Formular aus und wir <strong>senden Ihnen eine praktische E-Mail
     mit einer Anleitung zum Einrichten Ihrer Sprache</strong>.
-request-language-explanation-2 =
-    Wir werden auch <strong>unseren Community-Manager informieren,
-    dass Sie interessiert sind</strong>, damit Ihnen zusätzliche Unterstützung oder Informationen gegeben werden kann, die Sie benötigen.
 request-language-form-email =
     .label = Ihre E-Mail-Adresse
 request-language-form-info =
@@ -37,4 +34,3 @@ request-language-success-list-3 =
 request-language-error =
     Möglicherweise haben wir diese Anfrage nicht erhalten. Bitte schreiben Sie uns direkt
     an <emailLink>{ $email }</emailLink> und wir melden uns bei Ihnen!
-

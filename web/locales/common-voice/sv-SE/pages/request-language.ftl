@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Languages</languagesPageLink>.
     Om inte, fyll i det här formuläret så <strong>skickar vi dig ett praktiskt
     e-postmeddelande som förklarar hur du ställer in ditt språk</strong>.
-request-language-explanation-2 =
-    Vi kommer också att <strong>låta vår community manager veta
-    att du är intresserad</strong>, så att de kan ge dig all extra support
-    eller information du kan behöva.
 request-language-form-email =
     .label = Din e-postadress
 request-language-form-info =

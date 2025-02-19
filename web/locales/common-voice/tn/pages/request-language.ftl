@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>tsebe ya Dipuo Tsa Common Voice</languagesPageLink>.
     Fa e seyo, tlatsa foromo eno mme re tla go <strong>romelela imeile
     e e tlhalosang gore o ka tsenya puo ya gago jang</strong>.
-request-language-explanation-2 =
-    Gape re tla <strong>itsise motsamaisi wa lefelo la rona gore o a kgatlhega
-    </strong>, gore a kgone go go naya tshegetso e e oketsegileng kgotsa tshedimosetso e o ka e tlhokang.
 request-language-form-email =
     .label = Aterese ya gago ya imeile
 request-language-form-info =

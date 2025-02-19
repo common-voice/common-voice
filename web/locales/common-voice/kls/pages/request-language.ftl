@@ -2,7 +2,6 @@
 
 request-language-heading = No'na Zuban phuchi
 request-language-explanation-1 = Jagai agar tai zuban pe common voice/ sawin awaz ani page una pe shiau haw. ne pe shiau haw homa kai mas, abi tai kai saw email una anzek.
-request-language-explanation-2 = Abi tan comety ani manager as kai asta mahik, to a te asta tai madad karin Kia kesman asta malumat tai ajat pe ashini haw.
 request-language-form-email =
     .label = Tai email address / pata
 request-language-form-info =

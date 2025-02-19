@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice-talenpagina</languagesPageLink>.
     Zo niet, vul dan dit formulier in en we <strong>sturen u een handig e-mailbericht
     waarin wordt uitgelegd hoe u uw taal kunt laten opzetten</strong>.
-request-language-explanation-2 =
-    We zullen ook <strong>onze gemeenschapsmanager laten weten
-    dat u geïnteresseerd bent</strong>, zodat ze u eventuele
-    extra ondersteuning of informatie die u nodig hebt kunnen geven.
 request-language-form-email =
     .label = Uw e-mailadres
 request-language-form-info =

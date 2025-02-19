@@ -4,10 +4,6 @@ request-language-heading = 请求添加新语言
 request-language-explanation-1 =
     请先检查您的语言是否已经在<languagesPageLink>Common Voice 语言页面</languagesPageLink>中。如果在该页面上没能找到您的语言，请填写这个表格，我们会<strong>向您发送一份简短的电子邮件，
     介绍如何发起新的语言项目</strong>。
-request-language-explanation-2 =
-    与此同时，我们也会<strong>让我们的社区经理
-    知道您对该项目感兴趣</strong>，这样他们就可以
-    向您提供可能需要的额外支持和信息。
 request-language-form-email =
     .label = 您的电子邮件地址
 request-language-form-info =

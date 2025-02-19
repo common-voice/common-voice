@@ -2,7 +2,6 @@
 
 request-language-heading = S̃heg̃hd zik-e bora’r pers
 request-language-explanation-1 = Didig̃h agar ki sav-e ziki dẽ fihrist <languagesPageLink> skẽ umumi Owog̃h’v-e Zik-e Ruy</languagesPageLink> Agar ki nasti, yem form-e pũr carit. Sakep yan saver yi dasti barqinomah stũyen dẽ kumdep ki yem tasharih caren ki ce sokht sasht k̃hũ zik dem jũr kecerit
-request-language-explanation-2 = Sakep k̃hũ <strong> yũrt-e sũkrot k̃hakkũzger (managerer) be k̃hanen ki sashtes̃h dilchaspi lecerit</strong> haya d̃stan ki yow saver bes̃hter madad yoy malũmot be rand kumd ki saver mũmkini ki darkor hũmũyd.
 request-language-form-email =
     .label = Sav-e barqinomah-e nis̃hun
 request-language-form-info =

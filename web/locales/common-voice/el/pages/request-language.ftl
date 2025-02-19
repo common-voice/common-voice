@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>σελίδα γλωσσών του Common Voice</languagesPageLink>.
     Εάν όχι, συμπληρώστε αυτήν τη φόρμα και θα <strong>σας στείλουμε ένα email
     με οδηγίες σχετικά με το πώς να ρυθμίσετε τη γλώσσα σας</strong>.
-request-language-explanation-2 =
-    Θα ενημερώσουμε και <strong>τον διαχειριστή της κοινότητάς μας
-    για το ενδιαφέρον σας</strong>, ώστε να σας παράσχει οποιαδήποτε
-    επιπλέον βοήθεια ή πληροφορίες που πιθανώς χρειάζεστε.
 request-language-form-email =
     .label = Η διεύθυνση email σας
 request-language-form-info =

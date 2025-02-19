@@ -2,10 +2,6 @@
 
 request-language-heading = در مورد یک زبان جدید بپرسید
 request-language-explanation-1 = بررسی کنید که آیا زبان شما در <languagesPageLink>صفحه زبان‌های آوای مشترک</languagesPageLink> فهرست شده است یا خیر. اگر نبود، این فرم را پر کنید و ما <strong>یک رایانامه راهنما برای شما ارسال خواهیم کرد که توضیح می‌دهد چگونه زبان خود را راه‌اندازی کنید</strong>.
-request-language-explanation-2 =
-    ما همچنین <strong>به مدیر انجمن خود اطلاع خواهیم داد
-    که شما علاقه‌مند هستید</strong>، تا بتوانند هرگونه
-    پشتیبانی یا اطلاعات اضافی که ممکن است نیاز داشته باشید را به شما ارائه دهند.
 request-language-form-email =
     .label = نشانی رایانامه شما
 request-language-form-info =

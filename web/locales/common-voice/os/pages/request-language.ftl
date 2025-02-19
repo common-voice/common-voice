@@ -2,7 +2,6 @@
 
 request-language-heading = Бафарс ног æвзаджы тыххæй
 request-language-explanation-1 = Асгар, кæд де 'взаг равдыст цæуы <languagesPageLink>Common Voice æвзæгты фарсыл </languagesPageLink>, уый. Кæд нæ, уæд баххæст кæн ацы формæ, æмæ мах дын арвитдзыстæм, æмбарын кæй кæны куыд сифтонг кæнæн ис де ʼвзаг, ахæм æнцойуат электронон фыстæг.
-request-language-explanation-2 = Мах <strong>бауадздзыстæм дæр не 'мбалады менеджерæн базонын, ды интересы бацæуæг кæй дæ<strong>, цæмæй уыдон дын раттой алы уæлæмхасæн æххуыс кæнæ информаци, дæу цы, гæнæн ис, æмæ хъæуы, ахæм.
 request-language-form-email =
     .label = Дæ электронон посты адрис
 request-language-form-info =

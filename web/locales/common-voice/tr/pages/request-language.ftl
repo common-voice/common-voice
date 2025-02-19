@@ -4,10 +4,6 @@ request-language-heading = Yeni bir dil hakkında soru sorun
 request-language-explanation-1 =
     Dilinizin <languagesPageLink>Common Voice Dilleri sayfasında</languagesPageLink> olmup olmadığını kontrol edin.
     Yoksa bu formu doldurun. Ardından size <strong>dilinizi nasıl kuracağınızı açıklayan pratik bir e-posta göndereceğiz</strong>.
-request-language-explanation-2 =
-    Ayrıca <strong>ilgilendiğinizi topluluk yöneticimize de
-    bildireceğiz</strong>, böylece size ihtiyaç duyabileceğiniz
-    ek destek ya da bilgiyi verebilecekler.
 request-language-form-email =
     .label = E-posta adresiniz
 request-language-form-info =

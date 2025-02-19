@@ -5,10 +5,6 @@ request-language-explanation-1 =
     בדקו אם השפה שלכם רשומה 
     <languagesPageLink>בדף השפות של Common Voice</languagesPageLink>.
     אם לא, מלאו טופס זה ו<strong>נשלח אליכם דוא"ל עם הסבר כיצד להגדיר את השפה שלכם</strong>.
-request-language-explanation-2 =
-    כמו כן, נודיע ל<strong>מנהלי הקהילה שלנו
-    שאתם מעוניינים</strong>, כדי שיוכלו לתת לכם
-    סיוע או מידע כלשהו נוספים שאולי תצטרכו.
 request-language-form-email =
     .label = כתובת הדוא״ל שלך
 request-language-form-info =

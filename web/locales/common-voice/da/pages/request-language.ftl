@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>oversigten over aktive sprog</languagesPageLink>.
     Hvis ikke, udfyld denne formular, så <strong>sender vi dig en praktisk e-mail, der
     forklarer, hvordan du får sat dit sprog op</strong>.
-request-language-explanation-2 =
-    Vi vil også fortælle <strong>vores community managere,
-    at du er interesseret</strong>, så de kan give dig den hjælp,
-     du har brug for.
 request-language-form-email =
     .label = Din mailadresse
 request-language-form-info =

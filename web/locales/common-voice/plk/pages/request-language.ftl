@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink> کامن وائس جِبو صفحہ</languagesPageLink> 
     اگر نِش تو، آ فارم پُرِیا آں بیْس <strong>څھوْڑ ایک ہسان ای میل ڇیݨویس
     تومیْ جِب ترتیب دونے طریقہ پشِیونے کِرِیا </strong>
-request-language-explanation-2 =
-    بیْس <strong>توموْ کمیونٹی مینیجرَڑ گہ رزُویس
-    چہ څھے دلچسبی نیْ </strong>توْ سیْس څھوْڑ ضورڑتے بسکوچیْ امداد یا معلومات دو۔
 request-language-form-email =
     .label = څھے ای میل پتہ
 request-language-form-info =

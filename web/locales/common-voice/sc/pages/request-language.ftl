@@ -5,7 +5,6 @@ request-language-explanation-1 =
     Controlla si sa limba tua est in sa
     <languagesPageLink>pàgina de is limbas de Common Voice</languagesPageLink>.
     Si nono, cumpila custu formulàriu e t’amus a <strong>imbiare unu messàgiu de posta pro crarire comente cunfigurare sa limba tua</strong>.
-request-language-explanation-2 = Amus fintzas a <strong>informare sa gestione de comunidades de s’interessu tuo</strong>, aici ti podent donare àteru agiudu o informatziones de chi dias pòdere tènnere bisòngiu.
 request-language-form-email =
     .label = S'indiritzu tuo
 request-language-form-info =

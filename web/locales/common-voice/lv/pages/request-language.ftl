@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice valodu lapa</languagesPageLink>.
     Ja nē, aizpildiet šo veidlapu, un mēs <strong>nosūtīsim jums ērtu e-pasta ziņojumu
     paskaidrojot, kā pievienot jaunu valodu</strong>.
-request-language-explanation-2 =
-    Mēs arī <strong>informēsim mūsu kopienas vadītāju
-    par jūsu interesi</strong>, lai viņi varētu sniegt jums
-    papildu atbalstu vai informāciju, ja tāda būs nepieciešama.
 request-language-form-email =
     .label = Tava e-pasta adrese
 request-language-form-info =

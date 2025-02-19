@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>pachina de luengas d'o Common Voice</languagesPageLink>.
     Si no, imple este formulario y te ninviaremos un correu electronico
     explicando cómo anyadir la tuya luenga</strong>.
-request-language-explanation-2 =
-    Tamién <strong>informaremos a lo nuestro chestor de comunidaz
-    que i tiens interés</strong>, pa si tos puede dar cualsequier soporte u información adicional.
 request-language-form-email =
     .label = La tuya adreza de correu electronico
 request-language-form-info =

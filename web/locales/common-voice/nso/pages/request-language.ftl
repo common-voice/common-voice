@@ -2,7 +2,6 @@
 
 request-language-heading = Botšiša ka polelo e mphsa
 request-language-explanation-1 = Lebelela gore na polelo ya geno e lokeletšwe letlakaleng la polelo ya<languagesPageLink> letlakaleng la dipolelo tša Common Voice</languagesPageLink>. Ge e ba go se bjalo, tlatša fomo ye gomme re tla <strong>go romela e-meile e hlalosago monkgwa wa go hloma polelo ya ya geno </strong>.
-request-language-explanation-2 = Le rena re tla <strong>tsebiša moetapele wa badudi gore o na le kgahlego </strong>, gore ba go fe thekgo e oketšegilego goba tsebo e o ka e hlokago.
 request-language-form-email =
     .label = E-meile ya gago
 request-language-form-info =

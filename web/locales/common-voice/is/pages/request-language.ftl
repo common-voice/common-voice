@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>tungumálasíðu Samróms</languagesPageLink>.
     Ef ekki, skaltu fylla út þetta eyðublað og við <strong>sendum þér handhægan
     tölvupóst sem útskýrir hvernig eigi að setja upp tungumálið þitt</strong>.
-request-language-explanation-2 =
-    Við munum einnig <strong>láta samfélagsstjóra okkar vita
-    að þú hafir áhuga</strong>, svo þeir geti verið þér innan
-    handar eða gefið þér aðrar upplýsingar sem þú gætir þurft.
 request-language-form-email =
     .label = Tölvupóstfangið þitt
 request-language-form-info =
