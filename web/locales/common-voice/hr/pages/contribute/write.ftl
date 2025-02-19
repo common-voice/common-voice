@@ -115,6 +115,20 @@ rate-limit-toast-message-seconds =
         [few] Prekoračeno je ograničenje. Pokušajte ponovno za { $retryLimit } sekunde
        *[other] Prekoračeno je ograničenje. Pokušajte ponovno za { $retryLimit } sekundi
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Dosegli ste ograničenje slanja za ovu stranicu. Molimo pričekajte { $retryLimit } minutu prije slanja sljedeće rečenice. Hvala vam na strpljenju!
+        [few] Dosegli ste ograničenje slanja za ovu stranicu. Molimo pričekajte { $retryLimit } minute prije slanja sljedeće rečenice. Hvala vam na strpljenju!
+       *[other] Dosegli ste ograničenje slanja za ovu stranicu. Molimo pričekajte { $retryLimit } minuta prije slanja sljedeće rečenice. Hvala vam na strpljenju!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Dosegli ste ograničenje slanja za ovu stranicu. Molimo pričekajte { $retryLimit } sekundu prije slanja sljedeće rečenice. Hvala vam na strpljenju!
+        [few] Dosegli ste ograničenje slanja za ovu stranicu. Molimo pričekajte { $retryLimit } sekunde prije slanja sljedeće rečenice. Hvala vam na strpljenju!
+       *[other] Dosegli ste ograničenje slanja za ovu stranicu. Molimo pričekajte { $retryLimit } sekundi prije slanja sljedeće rečenice. Hvala vam na strpljenju!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
