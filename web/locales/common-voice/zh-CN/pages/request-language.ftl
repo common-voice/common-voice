@@ -2,7 +2,7 @@
 
 request-language-heading = 请求添加新语言
 request-language-explanation-1 =
-    请先检查您的语言是否已经在<languagesPageLink>Common Voice 语言页面</languagesPageLink>中。如果在该页面上没能找到您的语言，请填写这个表格，我们会<strong>向您发送一份简短的电子邮件，
+    请先检查您的语言是否已经在 <languagesPageLink>Common Voice 语言页面</languagesPageLink>中。如果在该页面上没能找到您的语言，请填写这个表格，我们会<strong>向您发送一份简短的电子邮件，
     介绍如何发起新的语言项目</strong>。
 request-language-form-email =
     .label = 您的电子邮件地址
@@ -28,6 +28,6 @@ request-for-scripted-speech-toggle = 请求“朗读文本”模式
 request-for-spontaneous-speech-toggle = 请求“即兴发言”模式
 need-help-deciding-platform = 不确定要选择哪项？
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>朗读文本</strong>：以自己的语言朗读语句（Common Voice 原有模式）。
-need-help-deciding-platform-explanation-2 = <strong>即兴发言</strong>：更自然、口语化地回答问题（Common Voice 新增部分）。
+need-help-deciding-platform-explanation-1 = <strong>朗读文本：</strong>以自己的语言朗读语句（Common Voice 原有模式）。
+need-help-deciding-platform-explanation-2 = <strong>即兴发言：</strong>更自然、口语化地回答问题（Common Voice 新增部分）。
 need-help-deciding-platform-explanation-3 = 若在平台的两部分中都未看到您的语言，请同时选择两项。
