@@ -2,7 +2,7 @@ import { AllowedSchema } from 'express-json-validator-middleware'
 
 export const sendLanguageRequestSchema: AllowedSchema = {
   type: 'object',
-  required: ['email', 'languageInfo', 'platform'],
+  required: ['email', 'languageInfo', 'platforms'],
   properties: {
     email: {
       type: 'string',
@@ -14,9 +14,11 @@ export const sendLanguageRequestSchema: AllowedSchema = {
     languageLocale: {
       type: 'string',
     },
-    platform: {
-      type: 'string',
-      enum: ['common-voice', 'spontaneous-speech'],
+    platforms: {
+      type: 'array',
+      items: {
+        enum: ['scripted-speech', 'spontaneous-speech'],
+      },
     },
   },
 }

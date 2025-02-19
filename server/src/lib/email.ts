@@ -140,15 +140,15 @@ class Email {
 
   private createHTML(
     email: string,
-    platform: string,
+    platforms: string[],
     languageInfo: string,
     languageLocale?: string
   ) {
     let html = `
       <h2>Email</h2>
       <p><a href="mailto:${email}">${email}</a></p>
-      <h2>Platform</h2>
-      <p>${platform}</p>
+      <h2>Platforms</h2>
+      <p>${platforms.join(', ')}</p>
       <h2>Language Information</h2>
       <p>${languageInfo}</p>
     `.trim()
@@ -200,17 +200,17 @@ class Email {
 
   async sendLanguageRequestEmail({
     email,
-    platform,
+    platforms,
     languageInfo,
     languageLocale,
   }: {
     email: string
-    platform: string
+    platforms: string[]
     languageInfo: string
     languageLocale?: string
   }) {
     const subject = this.createSubject(email, languageLocale)
-    const html = this.createHTML(email, platform, languageInfo, languageLocale)
+    const html = this.createHTML(email, platforms, languageInfo, languageLocale)
     return this.send({ subject, html })
   }
 }
