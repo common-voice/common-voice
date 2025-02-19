@@ -880,7 +880,7 @@ contribute-sentence-collection-nav-header = جمع الجمل
 ## Reporting
 
 report = أبلغ
-report-title =أَبْلِغ
+report-title =أرسل تقريرًا
 report-ask = ما المشكلات التي تجدها في الجملة؟
 report-offensive-language = كلام مسيء
 report-offensive-language-detail = تحتوي الجملة على لغة مهينة أو مسيئة.

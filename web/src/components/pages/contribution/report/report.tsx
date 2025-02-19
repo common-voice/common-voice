@@ -64,7 +64,7 @@ export const ReportModal = withLocalization(({
   return (
     <Modal {...props} innerClassName="report-modal">
       {/* <Localized id="report-title"> */}
-        <h1><span className='text-[#219F8A]'>أرسل</span> تقريراً </h1>
+        <h1><span className='text-[#219F8A]'>أَبْلِغ</span></h1>
       {/* </Localized> */}
       <Localized id="report-ask">
         <h2 />
