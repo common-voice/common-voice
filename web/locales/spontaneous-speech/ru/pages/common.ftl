@@ -22,6 +22,7 @@ report-button = Сообщить
 skip-button = Пропустить
 submit-button = Отправить
 contribute = Внести вклад
+request-new-language = Запросить новый язык
 
 ## Navbar
 

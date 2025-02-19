@@ -24,7 +24,8 @@
 
     /* hide small arrow thats default for summary element */
     list-style: none;
-    &::marker {
+    &::marker,
+    &::-webkit-details-marker {
         display: none;
     }
 
@@ -37,7 +38,7 @@
     margin-inline-start: 0.5em;
     transition: transform var(--easing) var(--transition-duration);
 
-    & polygon {
+    & path {
         fill: var(--blue);
     }
 

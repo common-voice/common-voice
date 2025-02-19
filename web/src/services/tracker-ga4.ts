@@ -14,6 +14,7 @@ type GA4Events =
   | 'rerecord-clip'
   | 'report-sentence'
   | 'report-clip'
+  | 'request-language'
   | 'show-shortcuts-btn-click'
   | 'skip-clip'
   | 'skip-sentence'
@@ -30,7 +31,10 @@ type GA4Events =
 
 export const trackGtag = (
   eventName: GA4Events,
-  eventParams?: Record<string, string | number | boolean>
+  eventParams?: Record<
+    string,
+    string | number | boolean | Array<string | number>
+  >
 ) => {
   gtag('event', eventName, eventParams)
 }

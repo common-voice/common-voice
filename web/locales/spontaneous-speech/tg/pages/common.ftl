@@ -22,6 +22,7 @@ report-button = Гузориш додан
 skip-button = Нодида гузарондан
 submit-button = Пешниҳод кардан
 contribute = Саҳм гузоштан
+request-new-language = Дархости забони нав
 
 ## Navbar
 

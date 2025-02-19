@@ -117,12 +117,22 @@ coming-soon = ໄວໆນີ້
 
 ## Community section
 
+# label for button
+join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
 # label for button
 find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
+# label for button
+ask-mozilla-share-action = ແບ່ງປັນກິດຈະກຳຂອງທ່ານ
+# label for button
+download-contribution-certificate-action = ຮັບໃບຢັ້ງຢືນຂອງທ່ານ
+contribute-github = ປະກອບສ່ວນໃນ GitHub
+# label for button
+contribute-github-action = ປະກອບສ່ວນໃນ GitHub
 
 ## Featured section
 
+featured-section-title = ແນະນຳໃນ...
 
 ## Developers section
 

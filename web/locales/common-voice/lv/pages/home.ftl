@@ -83,24 +83,69 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-coming-soon = Atbildiet uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
+review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
+add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
+transcribe-audio-coming-soon = Pārrakstiet audio <small>(drīzumā)</small>
+transcribe-audio = Pārrakstīt audio
+press-and-stories = Prese un stāsti
+community-and-languages = Kopiena un valodas
+coming-soon = Drīzumā
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
+partnerships-menu-item-tooltip = Sadarbojieties ar mums
+press-and-stories-menu-item-tooltip = Apmeklējiet mūsu emuāru vai rakstiet par mums
+community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Par iespēju izvēlni
+partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
+press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
+community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tehnoloģija, kas runā jūsu valodā
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
+hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
+# icon is an arrow that points downwards
+get-started = Sāciet darbu <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
+action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
+scripted-card-header = Sagatavota runa
+scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
+spontaneous-card-header = Spontāna runa
+spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+language-text-card-header = Valodas teksti
+language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+coming-soon = Drīzumā
+add-text = Pievienot tekstu
 
 ## Community section
 
+community-section-title = Nodrošina globālas kopienas, globālām kopienām — 130 valodas, kas arvien pieaug!
+join-discord-community = Pievienojieties Discord kopienai
+# label for button
+join-discord-community-action = Pievienojieties mums Discord
+join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
+find-us-on-matrix = Atrodiet mūs Matrix
+find-us-on-matrix-content = Matrix ir atvērts, viegls protokols decentralizētai, reāllaika saziņai, un Mozilla izvēlētā atvērto diskusiju platforma.
+# label for button
+find-us-on-matrix-action = Atrodiet mūs Matrix
+ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
+ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
+# label for button
+ask-mozilla-share-action = Pastāstiet par savu notikumu
+download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
 
 ## Featured section
 

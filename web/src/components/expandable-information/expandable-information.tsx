@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
-import { ChevronDown } from '../ui/icons'
+import { BoldChevron } from '../ui/icons'
 
 import './expandable-information.css'
 
@@ -41,7 +41,7 @@ const ExpandableInformation = ({
           <span />
         </Localized>
 
-        <ChevronDown className="expandable-information__summary__arrow" />
+        <BoldChevron className="expandable-information__summary__arrow" />
       </summary>
       <div className="expandable-information__text">{children}</div>
     </details>
