@@ -22,6 +22,7 @@ report-button = Reportar
 skip-button = Saltar
 submit-button = Inviar
 contribute = Contribuer
+request-new-language = Require nove lingua.
 
 ## Navbar
 
