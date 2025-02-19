@@ -34,3 +34,4 @@ request-language-success-list-3 =
 request-language-error =
     Ενδέχεται να μην έχουμε λάβει αυτό το αίτημα. Στείλτε email απευθείας στο
     <emailLink>{ $email }</emailLink> και θα επικοινωνήσουμε μαζί σας!
+request-for-scripted-speech-toggle = Αίτημα για Ομιλία με σενάριο
