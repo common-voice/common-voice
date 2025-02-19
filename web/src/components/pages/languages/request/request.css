@@ -16,7 +16,7 @@
 }
 
 .languages-request-page-wrapper {
-    padding: 0 var(--page-margin);
+    padding: 0 24px;
     margin: 0 auto;
     max-width: var(--desktop-width);
 
@@ -50,6 +50,55 @@
     .labeled-form-control,
     .labeled-checkbox {
         margin: 2em 0;
+    }
+
+    .labeled-form-control {
+        input,
+        textarea {
+            border: 1px solid var(--warm-grey);
+        }
+    }
+
+    .toggles-container {
+        padding: 16px;
+        font-family: var(--base-font-family);
+        border: 1px solid var(--warm-grey);
+        margin-block-end: 20px;
+
+        div.hr {
+            margin: 12px 0;
+        }
+    }
+
+    .expandable-information {
+        border-inline-start: 2px solid var(--anchor-text-blue);
+
+        .expandable-information__summary {
+            color: var(--anchor-text-blue);
+
+            path {
+                fill: var(--anchor-text-blue);
+            }
+        }
+
+        .expandable-information__text {
+            p {
+                margin-block-end: 24px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .request-language-btn.button {
+        background: var(--anchor-text-blue);
+        text-transform: uppercase;
+        border: none;
+        font-size: var(--font-size);
+
+        &:hover {
+            background-color: var(--anchor-text-blue);
+            color: var(--white);
+        }
     }
 }
 
