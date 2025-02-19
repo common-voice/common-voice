@@ -81,11 +81,11 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbildēt uz jautājumiem
-answer-questions-coming-soon = Atbildiet uz jautājumiem <small>(drīzumā)</small>
+answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
 review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
-transcribe-audio-coming-soon = Pārrakstiet audio <small>(drīzumā)</small>
+transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
@@ -115,7 +115,7 @@ hero-title = Tehnoloģija, kas runā jūsu valodā
 hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
 hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
 # icon is an arrow that points downwards
-get-started = Sāciet darbu <icon><icon>
+get-started = Sākt darbu <icon><icon>
 
 ## Action items section
 
@@ -135,7 +135,7 @@ add-text = Pievienot tekstu
 community-section-title = Nodrošina globālas kopienas, globālām kopienām — 130 valodas, kas arvien pieaug!
 join-discord-community = Pievienojieties Discord kopienai
 # label for button
-join-discord-community-action = Pievienojieties mums Discord
+join-discord-community-action = Pievienoties Discord
 join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
 find-us-on-matrix = Atrodiet mūs Matrix
 find-us-on-matrix-content = Matrix ir atvērts, viegls protokols decentralizētai, reāllaika saziņai, un Mozilla izvēlētā atvērto diskusiju platforma.
