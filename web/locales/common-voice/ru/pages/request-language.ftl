@@ -34,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Возможно, мы не получили этот запрос. Пожалуйста, напишите нам напрямую
     на <emailLink>{ $email }</emailLink>, и мы свяжемся с вами!
+request-for-scripted-speech-toggle = Запрос на устную речь по сценарию
+request-for-spontaneous-speech-toggle = Запрос на спонтанную речь
+need-help-deciding-platform = Нужна помощь в том, что выбрать?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (традиционно то, что вы знаете как Common Voice) — это место, где вы можете зачитывать предложения вслух на вашем языке.
+need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech</strong> - это новая часть Common Voice, где вы можете отвечать на вопросы более органично и разговорно.
+need-help-deciding-platform-explanation-3 = Если вы не видите ваш язык ни в одной из частей платформы, выберите обе.
