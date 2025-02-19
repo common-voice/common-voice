@@ -35,8 +35,8 @@ request-language-error =
     on <emailLink>{ $email }</emailLink> and we will get back to you!
 request-for-scripted-speech-toggle = Request for Scripted Speech
 request-for-spontaneous-speech-toggle = Request for Spontaneous Speech
-need-help-deciding = Need help deciding which to choose?
+need-help-deciding-platform = Need help deciding which to choose?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-explanation-1 = <strong>Scripted Speech</strong> (traditionally what you know as Common Voice) is where you can read sentences aloud in your language.
-need-help-deciding-explanation-2 = <strong>Spontaneous Speech</strong> is a new part of Common Voice where you can respond to questions in a more organic, colloquial way.
-need-help-deciding-explanation-3 = If you don't see your language in either part of the platform, select both.
+need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (traditionally what you know as Common Voice) is where you can read sentences aloud in your language.
+need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech</strong> is a new part of Common Voice where you can respond to questions in a more organic, colloquial way.
+need-help-deciding-platform-explanation-3 = If you don't see your language in either part of the platform, select both.

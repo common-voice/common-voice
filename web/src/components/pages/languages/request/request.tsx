@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import { Localized, useLocalization } from '@fluent/react'
+import { Localized } from '@fluent/react'
 
 import { useToLocaleRoute } from '../../../locale-helpers'
 import { useAPI } from '../../../../hooks/store-hooks'
@@ -20,6 +20,7 @@ import ErrorPage from '../../error-page/error-page'
 import PageTextContent from '../../../ui/page-text-content'
 import Page from '../../../ui/page'
 import ClientLogger from '../../../../logger'
+import { trackGtag } from '../../../../services/tracker-ga4'
 
 const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' })
 
@@ -31,7 +32,6 @@ const LanguagesRequestFormPage = () => {
   const api = useAPI()
   const toLocaleRoute = useToLocaleRoute()
   const history = useHistory()
-  const { l10n } = useLocalization()
 
   const [isSendingRequest, setIsSendingRequest] = useState(false)
   const [hasGenericError, setHasGenericError] = useState(false)
@@ -47,6 +47,11 @@ const LanguagesRequestFormPage = () => {
 
   const isSubmitButtonDisabled =
     isSendingRequest || noPlatformToggleOptionSelected
+
+  const platforms = [
+    ...(scriptedSpeechToggled ? ['scripted-speech'] : []),
+    ...(spontaneousSpeechToggled ? ['spontaneous-speech'] : []),
+  ]
 
   const handleEmailInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
@@ -92,7 +97,10 @@ const LanguagesRequestFormPage = () => {
         email: emailValue.trim(),
         languageInfo: languageInfoValue.trim(),
         languageLocale: navigator?.language,
+        platforms,
       })
+
+      trackGtag('request-language', { platforms })
 
       // redirect to languages/success path if email sent correctly
       history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS))
@@ -158,30 +166,30 @@ const LanguagesRequestFormPage = () => {
 
             <div className="toggles-container">
               <Toggle
-                label={l10n.getString('request-for-scripted-speech-toggle')}
+                label="request-for-scripted-speech-toggle"
                 checked={scriptedSpeechToggled}
                 onToggle={setScriptedSpeechToggled}
               />
               <div className="hr" />
               <Toggle
-                label={l10n.getString('request-for-spontaneous-speech-toggle')}
+                label="request-for-spontaneous-speech-toggle"
                 checked={spontaneousSpeechToggled}
                 onToggle={setSpontaneousSpeechToggled}
               />
             </div>
 
-            <ExpandableInformation summaryLocalizedId="need-help-deciding">
+            <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
               <Localized
-                id="need-help-deciding-explanation-1"
+                id="need-help-deciding-platform-explanation-1"
                 elems={{ strong: <strong /> }}>
                 <p />
               </Localized>
               <Localized
-                id="need-help-deciding-explanation-2"
+                id="need-help-deciding-platform-explanation-2"
                 elems={{ strong: <strong /> }}>
                 <p />
               </Localized>
-              <Localized id="need-help-deciding-explanation-3">
+              <Localized id="need-help-deciding-platform-explanation-3">
                 <p />
               </Localized>
             </ExpandableInformation>
@@ -240,6 +248,7 @@ const LanguagesRequestFormPage = () => {
                 outline={false}
                 disabled={isSubmitButtonDisabled}
                 className="request-language-btn"
+                data-testid="request-language-btn"
               />
             </Localized>
           </form>
