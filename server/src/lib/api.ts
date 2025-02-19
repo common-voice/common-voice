@@ -744,11 +744,12 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    const { email, languageInfo, languageLocale } = request.body
+    const { email, languageInfo, languageLocale, platforms } = request.body
 
     try {
       const info = await this.email.sendLanguageRequestEmail({
         email,
+        platforms,
         languageInfo,
         languageLocale,
       })
@@ -756,6 +757,7 @@ export default class API {
       const json = {
         id: info?.messageId,
         email,
+        platforms,
         languageInfo,
         languageLocale,
       } as any // eslint-disable-line @typescript-eslint/no-explicit-any
