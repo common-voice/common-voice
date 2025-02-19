@@ -19,9 +19,7 @@ export default function HomePageSection() {
             الجداريــة الصوتيـة
           </h1>
           <p className="text-[16px] md:text-[20px] text-right">
-          مبادرة تهدف إلى تعليم الآلة الكيفيةَ{' '}
-            <div className="hidden md:block mt-1" />
-            التي ينطق بها المتحدثون باللغة العربية
+          أداة لجمع البيانات الصوتية العربية {' '}
           </p>
           <div className="self-center">
             <img
@@ -52,7 +50,7 @@ export default function HomePageSection() {
           أسهِمْ بصوتك
           </h1>
           <p className="text-right py-4 text-[14px] md:text-[16px]w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
-          اقرأ، سجّل صوتك واستمع إليه، جرّب صوتك بالفصحى، درّبه على النطق بلغة سليمة</p>
+          اقرأ، سجّل صوتك واستمع إليه! </p>
 
           <div className="flex justify-center md:justify-start items-center pt-16 md:pr-8 gap-8 flex-wrap">
             <div className="flex flex-col justify-center text-[12px] w-[110px]">

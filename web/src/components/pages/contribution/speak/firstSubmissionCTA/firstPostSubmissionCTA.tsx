@@ -144,11 +144,12 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         onChange={(e) => setAge(e.target.value)}
       >
         <option value="">اختر عمرك</option>
-        <option value="5-10 سنوات">5-10 سنوات</option>
-        <option value="10-15 سنة">10-15 سنة</option>
-        <option value="15-20 سنة">15-20 سنة</option>
-        <option value="20-40 سنة">20-40 سنة</option>
-        <option value="40-60 سنة">40-60 سنة</option>
+        <option value="10-5 سنوات">10-5 سنوات</option>
+        <option value="15-11 سنة">15-11 سنة</option>
+        <option value="20-16 سنة">20-16 سنة</option>
+        <option value="40-21 سنة">40-21 سنة</option>
+        <option value="60-41 سنة">60-41 سنة</option>
+        <option value="أكبر من 60 سنة">أكبر من 60 سنة</option>
       </select>
     </div>
     <div className="input-group flex flex-col mt-4">
