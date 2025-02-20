@@ -20,9 +20,9 @@ record-button-label = Amó rawaróatiame amó nawésari
 share-title-new = <bold> tamó kuí </bold>iyáka nawésari
 keep-track-profile = Netenámu pu'ká progreso perfil netéka
 login-to-get-started = Oínare sesion. Oínepa iyosíči toáka
-target-segment-first-card = Kahtímo tamomá kúika tamó pačá pirípi yoratiáme objetiwóči
-target-segment-generic-card = Yoranimu kúika piré pikuiči pu´ká itapíti
-target-segment-first-banner = Tamó kúi yoráka pu'ká pačá yoraniáme iká itapíti wa'á Common Voice wa'á
+target-segment-first-card = Kahtímo tamomá ku'íka tamó pačá pirípi yoratiáme objetiwóči
+target-segment-generic-card = Yoránimu ku'íka piré pikuiči pu´ká itapíti
+target-segment-first-banner = Tamó ku'í yoráka pu'ká pačá yoraniáme i'ká itapíti wa'á Common Voice wa'á
 target-segment-add-voice = Toamítia amó nawésari
 target-segment-learn-more = Epečé weiká informasión
 change-preferences = Nakuríwaniame ahpó inowaéka
@@ -33,7 +33,7 @@ datasets = Weikána napéraeme tewará
 languages = Weiká nawésari
 about = Wapí wa'á
 partner = Yomatiáme tamó kuyáme
-submit-form-action = itóčeniame
+submit-form-action = ITÓČENIAME
 
 ## Reporting
 
