@@ -120,6 +120,7 @@ get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice jo dermotna platforma wótwórjonego žrědła za wót zgromaźeństwa nawjedowane napóranje datow
 scripted-card-header = Napisane powědanje
 spontaneous-card-header = Spontane powědanje
 language-text-card-header = Rěcny tekst
