@@ -1,7 +1,7 @@
 action-click = Klik yorapá
 action-tap = Uká
 contribute = Yomá pienápi ahpó kuyáme
-review = Nené pu'ká
+review = Ne'né pu'ká
 skip = Umátote ampá
 shortcuts = Risáka umátoniame
 clips-with-count-pluralized =
