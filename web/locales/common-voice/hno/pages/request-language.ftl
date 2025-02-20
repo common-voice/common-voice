@@ -20,3 +20,6 @@ request-language-success-list-3 = اگر تساں کو دو چار دنوں بچ
 request-language-error =
     ہو سکدا اے اساں کو او درخواست نہ ملے۔ مہربانی نال سدھا اساں کو
     <emailLink>{ $email }</emailLink> تے ای میل کرو تے اسیں تساں نال واپس رابطہ کرساں!
+request-for-scripted-speech-toggle = لکھی دی تقریر آسطے درخواست
+request-for-spontaneous-speech-toggle = بے ساختہ تقریر آسطے درخواست
+need-help-deciding-platform = اے فیصلہ کرنا آسطے کہ کے چُڑنا اے، مدد چائی دی اے؟
