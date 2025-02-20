@@ -141,6 +141,8 @@ web      | [BE]     at Function.executeUserEntryPoint [as runMain] (node:interna
 
 and observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`. 
 
+You may also observe the error `error Error: EACCES: permission denied, unlink '/code/node_modules/.yarn-integrity'` when the `web` container is building. 
+
 The root cause of this error is [this line](https://github.com/common-voice/common-voice/blob/bc8d0c501a51c735b907ad6e99368b2a47b3f15e/docker-compose.yaml#L62) in the `docker-compose.yaml`, which is intended to set the `GID` and `UID` to a non-root user. 
 
 `user: '${UID:-10001}:${GID:-10001}'`
