@@ -1,5 +1,13 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Laipni lūdzam spontānajā runā
+# <br></br> represents a newline break
+wall-of-text = Common Voice atver otru platformu, kas vērsta uz dabiskas, spontānas un nesagatavotas runas apkopošanu. Tas palīdzēs vākt papildu datus, runas tehnoloģiju attīstībai un zinātniskiem pētījumiem.
+why-spontaneous-speech = Kāpēc mēs izveidojām šo spontānās runas prototipu
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = Noder <mark>dabiskās runas kontekstos</mark> un lietošanas gadījumos (piemēram, ja vēlaties, lai runas atpazīšana darbotos, kad cilvēki runā bez iepriekšējas sagatavošanās vai sarunvalodā).
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Labākai reālās dzīves runas atpazīšanai, piemēram, ja tiek lietoti <mark>svešvārdi</mark> vai dažādas valodas
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Pārrakstīt</mark>
 transcribe-bubble-subtitle = Pārrakstiet ko dzirdat audio ierakstā
