@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import micBanner from './images/mic-banner.png'
 import classes from './home.module.css'
-import { LinkButton } from '../../ui/ui'
 import URLS from '../../../urls'
 import { LocaleLink } from '../../locale-helpers'
+import { InfoDarkIcon, InfoIcon, MicIcon } from '../../ui/icons'
+import Modal from '../../modal/modal'
+import { useHistory } from 'react-router-dom';
+
 
 export default function HomePageSection() {
+  const history = useHistory();
+
+  const [showInfoContributeModal, setShowInfoContributeModal] = useState(false);
+  const [showInfoRatingModal, setShowInfoRatingModal] = useState(false);
+
   return (
     <div className=" flex flex-col items-center mt-10 pt-10 ">
       {/* mic-banner */}
@@ -46,14 +54,55 @@ export default function HomePageSection() {
             borderRadius: '50px',
             padding: '30px',
           }}>
+            <div className="flex justify-center gap-1">
+
           <h1 className="text-[30px] lg:text-[50px] text-center font-bold">
           أسهِمْ بصوتك
           </h1>
+          <button type='button' className='text-[#219F8A] text-[14px] md:text-[16px]'
+          onClick={() => setShowInfoContributeModal(true)}
+          >
+          <InfoDarkIcon/>
+          </button>
+          {showInfoContributeModal && (
+          <Modal           
+          buttons={{
+            "ابدأ": () => {
+              history.push(URLS.SPEAK)
+            },
+          }}
+          onRequestClose={() => setShowInfoContributeModal(false)}
+          >
+            <div className="text-right">
+
+              <p className="text-center font-bold">
+              ستظهر لك مجموعة من الجمل والأسئلة حول يوم التأسيس السعودي
+              </p>
+
+              <p className='flex gap-1 justify-center mt-5'>
+              انقر
+              <MicIcon />
+              ثم:
+              </p>
+              <p>إذا ظهرت لك جملة اقرأها بصوت عالٍ
+</p>
+<p>إذا ظهر لك سؤال أجِب عنه بلغتك التي تتحدث بها في حياتك اليومية
+</p>
+<ul className="list-disc pr-5 text-right text-[14px] md:text-[16px] leading-7 mt-5">
+      <li>لا تتجاوز قراءة الجملة أو إجابة السؤال 10 ثوانٍ.</li>
+      <li>ستظهر الجمل أو الأسئلة على دفعات، كل دفعة مكونة من خمس جمل أو أسئلة، سيُطلب منك تعبئة بياناتك عند الانتهاء من تسجيل أول خمسة مقاطع لأول مرة فقط.</li>
+      <li>يمكنك تخطي الجملة أو السؤال إلى غيرهما.</li>
+      <li>يمكنك الإبلاغ عن الجملة إذا كانت صعبة النطق، أو تحتوي على إساءة، أو خطأ كتابيّ، أو لغة مختلفة، أو أي مشكلة أخرى.</li>
+    </ul>
+            </div>
+          </Modal>
+        )}
+            </div>
           <p className="text-right py-4 text-[14px] md:text-[16px]w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
           اقرأ، سجّل صوتك واستمع إليه! </p>
 
-          <div className="flex justify-center md:justify-start items-center pt-16 md:pr-8 gap-8 flex-wrap">
-            <div className="flex flex-col justify-center text-[12px] w-[110px]">
+          <div className="flex justify-center md:justify-center items-center pt-16 md:pr-8 gap-8 flex-wrap">
+            <div className="flex flex-col justify-center text-[12px] w-[110px] hidden">
               <p className="text-[#219F8A]">مستوى التقدم اليوم</p>
               <p> +9</p>
               <p>مقاطع مسجلة</p>
@@ -89,15 +138,64 @@ export default function HomePageSection() {
             padding: '30px',
             color: 'white',
           }}>
-          <h1 className="text-[30px] lg:text-[50px]  text-center font-bold">
+            <div className="flex justify-center gap-1">
+                  <h1 className="text-[30px] lg:text-[50px]  text-center font-bold">
             {' '}استمع وقيّم
           </h1>
+                  <button type='button' className='text-[#219F8A] text-[14px] md:text-[16px]'
+          onClick={() => setShowInfoRatingModal(true)}
+          >
+          <InfoIcon />
+          </button>
+          {showInfoRatingModal && (
+          <Modal           
+          buttons={{
+            "ابدأ": () => {
+              history.push(URLS.LISTEN)
+            },
+          }}
+          onRequestClose={() => setShowInfoRatingModal(false)}
+          >
+            <div className="text-right">
+
+              <p className="text-center font-bold text-[20px]">
+              ستظهر لك مشاركات الآخرين لتقيّمها
+              </p>
+
+              <p className='flex gap-1 font-bold  text-[18px] mt-5'>
+              إذا كانت المشاركة قراءة جملة: 
+              </p>
+              <p>
+
+              انقر (نعم) إذا كان المنطوق مطابقًا للمكتوب وكان النطق صحيحًا
+              <br/>
+انقر (لا) إذا لم يكن كذلك
+              </p>
+
+              <p className='flex gap-1 font-bold text-[18px] mt-5'>
+              إذا كانت المشاركة إجابة عن سؤال: 
+              </p>
+<p>
+انقر (نعم) إذا كانت الإجابة واضحة ومتعلقة بالسؤال 
+<br/>
+انقر (لا) إذا لم تكن كذلك
+</p>
+
+<ul className="list-disc mt-5 pr-5 text-right text-[14px] md:text-[16px] leading-7">
+      <li>ستظهر المشاركات على دفعات، تتضمن كل دفعة خمس مشاركات.</li>
+      <li>تشوش الصوت لا يمنع من قبول المقطع الصوتي؛ لأننا نحتاج هذا التنوع الطبيعي في المقاطع.
+أبدأ</li>
+ </ul>
+            </div>
+          </Modal>
+        )}
+                  </div>
           <p className="text-right py-4 text-[14px] md:text-[16px] w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
           شنّف سمعَك بمشاركات الآخرين وقيّمها، ساعِدنا على تطوير بيانات صوتية دقيقة وعالية الجودة
 </p>
 
-          <div className="flex justify-center md:justify-start items-center pt-16 md:pr-8 gap-8 flex-wrap">
-            <div className="flex flex-col justify-center text-[12px] w-[110px]">
+          <div className="flex justify-center md:justify-center items-center pt-16 md:pr-8 gap-8 flex-wrap">
+            <div className="flex flex-col justify-center text-[12px] w-[110px] hidden">
               <p>مستوى التقدم اليوم</p>
               <p> +9</p>
               <p> مقاطع مدقّقة</p>

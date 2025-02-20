@@ -480,7 +480,7 @@ export const GlobeIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const InfoIcon = uniqueIcon(id => (
+export const InfoDarkIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
       <path
@@ -493,6 +493,25 @@ export const InfoIcon = uniqueIcon(id => (
         <use xlinkHref={'#info-a' + id} />
       </mask>
       <g fill="#4A4A4A" mask={'url(#info-b' + id + ')'}>
+        <path d="M-1-1h24v24H-1z" />
+      </g>
+    </g>
+  </svg>
+))
+
+export const InfoIcon = uniqueIcon(id => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id={'info-a' + id}
+        d="M11 0C4.9 0 0 4.9 0 11s4.9 11 11 11 11-4.9 11-11S17.1 0 11 0zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9zm1-9v4c0 .6-.4 1-1 1s-1-.4-1-1v-4c0-.6.4-1 1-1s1 .4 1 1zm-.3-4.7c.2.2.3.4.3.7 0 .3-.1.5-.3.7-.2.2-.4.3-.7.3h-.2c-.1 0-.1 0-.2-.1-.1 0-.1-.1-.2-.1s-.1-.1-.1-.1c-.2-.2-.3-.4-.3-.7 0-.3.1-.5.3-.7l.1-.1c.1 0 .1-.1.2-.1s.1 0 .2-.1c.3 0 .7.1.9.3z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(1 1)">
+      <mask id={'info-b' + id} fill="#fff">
+        <use xlinkHref={'#info-a' + id} />
+      </mask>
+      <g fill="#fff" mask={'url(#info-b' + id + ')'}>
         <path d="M-1-1h24v24H-1z" />
       </g>
     </g>
@@ -562,16 +581,16 @@ export const MicIcon = uniqueIcon(id => (
 <svg width="29" height="28" viewBox="0 0 29 28">
   <defs>
     <path
-      id="mic-path"
+      id={'mic-path'+ id}
       d="M9.333 18.667A4.68 4.68 0 0 0 14 14V4.667A4.68 4.68 0 0 0 9.333 0a4.68 4.68 0 0 0-4.666 4.667V14a4.68 4.68 0 0 0 4.666 4.667zM7 4.667a2.34 2.34 0 0 1 2.333-2.334 2.34 2.34 0 0 1 2.334 2.334V14a2.34 2.34 0 0 1-2.334 2.333A2.34 2.34 0 0 1 7 14V4.667zm11.667 7V14c0 4.783-3.617 8.633-8.167 9.217v2.45H14c.7 0 1.167.466 1.167 1.166S14.7 28 14 28H4.667c-.7 0-1.167-.467-1.167-1.167s.467-1.166 1.167-1.166h3.5v-2.45C3.617 22.633 0 18.667 0 14v-2.333c0-.7.467-1.167 1.167-1.167s1.166.467 1.166 1.167V14c0 3.85 3.15 7 7 7s7-3.15 7-7v-2.333c0-.7.467-1.167 1.167-1.167s1.167.467 1.167 1.167z"
     />
   </defs>
   <g fill="none" fillRule="evenodd" transform="translate(5)">
-    <mask id="mic-mask" fill="#fff">
-      <use xlinkHref="#mic-path" />
+    <mask id={'mic-mask'+ id} fill="#fff">
+      <use xlinkHref={'#mic-path'+ id} />
     </mask>
-    <use xlinkHref="#mic-path" />
-    <g fill="#219f8a" mask="url(#mic-mask)">
+    {/* <use xlinkHref="#mic-path" /> */}
+    <g fill="#219f8a" mask={'url(#mic-mask'+id+')'}>
       <path d="M-5 0h28v28H-5z" />
     </g>
   </g>
