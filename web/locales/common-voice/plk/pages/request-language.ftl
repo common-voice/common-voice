@@ -34,3 +34,5 @@ request-language-success-list-3 =
 request-language-error =
     بوبانیْ چہ اسوْڑ اسہ درخواست نہ اُڇھاتیْ بوْ۔ مہربانی تھے اسوْڑ براہ راست ای میل تِھیا
     آ <emailLink>{ $email }</emailLink> آں بیْہ څھوْ دیْ واپس آئِیس
+request-for-scripted-speech-toggle = اسکرپٹڈ تقریرے درخواست
+request-for-spontaneous-speech-toggle = بے ساختہ تقریرے درخواست
