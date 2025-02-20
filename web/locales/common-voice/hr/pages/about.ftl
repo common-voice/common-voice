@@ -112,7 +112,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Pogledaj više o kriterijima
 about-playbook-how-grow-language = Kako možemo učinkovito razvijati jezik na Common Voiceu?
 about-playbook-how-grow-language-content-1 = Stvaranje mogućnosti za raznolikost ljudi koji mogu doprinijeti Common Voiceu osigurava da skup podataka služi što većem broju ljudi. Izradili smo resurse i predloške koje možeš koristiti!
 about-playbook-how-grow-language-content-2 = Događaji
-about-playbook-how-grow-language-content-4 = Društvene mreže
+about-playbook-how-grow-language-content-4 = Društveni mediji
 about-playbook-how-grow-language-content-6 = Partnerstva i mreže
 
 ## How to validate
