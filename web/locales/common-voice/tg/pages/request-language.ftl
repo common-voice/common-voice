@@ -21,3 +21,4 @@ request-language-success-list-1 =
 request-language-error = Шояд мо ин дархостро нагирифтаем. Лутфан, ба мо мустақиман тавассути почтаи электронӣ фиристед <emailLink>{ $email }</emailLink> ва мо бо шумо дар тамос мешавем!
 request-for-scripted-speech-toggle = Дархост барои «Нутқи намоишнома/Scripted Speech»
 request-for-spontaneous-speech-toggle = Дархост барои «Нутқи бевосита/Spontaneous Speech»
+need-help-deciding-platform = Барои интихоби имкон кумак лозим аст?
