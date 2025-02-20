@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Witajće k spontanemu rěčenju
+# <br></br> represents a newline break
+wall-of-text = Common Voice startuje druhu platformu startuje, z fokusom na hromadźenju organiskeho, spontaneho, njepisaneho rěčenja. To wjele zhromadźenstwam pomha, daty spěšnišo hromadźić a budźe za datowych wědomostnikow a wuwiwarjow wužitne.
 why-spontaneous-speech = Čehodla smy tutón prototyp za spontane rěčenje wuwili
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Lěpša podpěra za rěčne reality kaž přełožowanje a <mark>kodowe změnjenje</mark>
