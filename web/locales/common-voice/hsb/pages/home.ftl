@@ -120,6 +120,7 @@ get-started = Prěnje kroki <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
 scripted-card-header = Napisane rěčenje
 spontaneous-card-header = Spontane rěčenje
 language-text-card-header = Rěčny tekst
@@ -128,6 +129,7 @@ add-text = Tekst přidać
 
 ## Community section
 
+community-section-title = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 130 rěčow a přiběrace!
 join-discord-community = Přidružće so zhromadźenstwu Discord
 # label for button
 join-discord-community-action = Přidružće so nam na Discord
@@ -158,6 +160,7 @@ explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podpěrajće wotewrjene, wot zhromadźenstwa nawjedowane datowe sadźby
 read-sentences-link = Sady čitać
 validate-readings-link = Čitanja přepruwować
 contribute-link = K tekstowemu korpusej přinošować
