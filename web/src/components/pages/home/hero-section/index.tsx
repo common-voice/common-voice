@@ -18,7 +18,7 @@ type Props = {
 }
 
 export const HeroSection: React.FC<Props> = ({ isLocaleContributable }) => {
-  const imageUrl = require('./assets/hero-hd.jpg')
+  const imageUrl = require('./assets/hero-hd.webp')
   const isLoaded = usePreloadImage(imageUrl)
 
   const linkDisabled = !isLocaleContributable

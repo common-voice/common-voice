@@ -1,9 +1,6 @@
 ## Request Language Pages
 
 request-language-heading = teep kutit ne mpya?
-request-language-explanation-2 =
-    kiyae kogeny <strong> konay kandoindetab gaa 
-    ngimache isirgei </strong>, asigogonin toretet anan ko ngalek chetos imach
 request-language-form-email =
     .label = email address nengung
 request-language-form-info =

@@ -12,6 +12,8 @@ listen-abort-cancel = چھدکھہ بیو جاری یوق
 listen-abort-confirm = چھدکھہ بیو جاری یوق
 # Menu item
 validate-readings = زیر چیس کن چھدکھہ بیوس
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = زیرفونگ لا چھدکھہ من، (مہ شوخمو اونگین یود)
 
 ## MENU ITEM TOOLTIPS
 

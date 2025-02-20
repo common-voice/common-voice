@@ -40,6 +40,7 @@ reviewing-sentences = Sady pśeglědaś
 sentence-domain = Tema sady
 public-domain-explanation-2 = Nejlěpše sady za wužytny program powědańskego spóznaśa su wobchadnorěcne, moderne rěcne wužywanje. Někotare ideje, kótarež wam pomagaju, sady generěrowaś, su;
 public-domain-explanation-3 = Napórajśo moderne, wobchadnorěcne sady sam abo ze swójimi pśijaśelami abo z rěcnym zgromaźeństwom – na pśikład pśez „write-a-thon“
+public-domain-explanation-5 = Pytajśo za tekstom, za kótaryž awtorske pšawo wěcej njepłaśi – na pśikład nejwěcej knigłow, kótarež su se wudali pśed 1920
 citing-sentences-explanation-1 = Jo wažnje, citaty pśidaś, aby my mógli pśeglědowaś, až sady su za zjawnosć k dispoziciji a žedno stwóriśelskopšawniske wobgranicowanje njepłaśi.
 citing-sentences-subheader-websites = Websedła
 citing-sentences-subheader-websites-explanation = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“

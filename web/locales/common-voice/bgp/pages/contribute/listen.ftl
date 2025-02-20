@@ -12,6 +12,8 @@ listen-abort-cancel = تایید کنغا جاری کنگ انت
 listen-abort-confirm = تایید کنغا بند کنوں
 # Menu item
 validate-readings = ریڈنگز ئے توثیق کن
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = وانگانی توثیق کن</small> (زوت آھگ ءَ اِنت)</small>
 
 ## MENU ITEM TOOLTIPS
 

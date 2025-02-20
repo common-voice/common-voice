@@ -13,7 +13,9 @@ listen-abort-title = ئۈن ئۈزۈمدە دەلىللەشنى تاماملام
 listen-abort-cancel = دەلىللەشنى داۋاملاشتۇر
 listen-abort-confirm = دەلىللەش تامام
 # Menu item
-validate-readings = ئوقۇشنى دەلىللە
+validate-readings = ئوقۇشنى دەلىللەڭ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ئوقۇغاننى دەلىللە <small>(پات يېقىندا قوشۇلىدۇ)</small>
 
 ## MENU ITEM TOOLTIPS
 

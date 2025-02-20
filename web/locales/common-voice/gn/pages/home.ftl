@@ -111,6 +111,7 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 
 ## Action items section
 
+add-text = Embojuapy moñe’ẽrã
 
 ## Community section
 
@@ -123,6 +124,7 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 
 ## Get involved section
 
+read-sentences-link = Emoñe’ẽ ñe’ẽjuaju
 
 ## Partner section
 

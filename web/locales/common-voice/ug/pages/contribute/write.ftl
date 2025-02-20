@@ -148,7 +148,7 @@ add-sentences = جۈملە قوشۇش
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جۈملە قوشۇش ۋە تەكشۈرۈش، سوئال قوشۇش، ئاۋازنى تېكىستكە خاتىرىلەش
+write-contribute-menu-tooltip = جۈملە قوشۇپ ۋە قايتا تەكشۈرۈپ، سوئال قوشۇپ، ئاۋازنى تېكىستكە خاتىرىلەيدۇ
 add-sentences-menu-item-tooltip = تىلىڭىزدا جۈملە قوشىدۇ
 review-sentences-menu-item-tooltip = تىلىڭىزدىكىك جۈملىنى تەكشۈرىدۇ
 add-questions-menu-item-tooltip = تىلىڭىزدا سوئال قوشىدۇ

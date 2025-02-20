@@ -12,6 +12,8 @@ listen-abort-cancel = تصدیق جاری کو
 listen-abort-confirm = تصدیق لھأد
 # Menu item
 validate-readings = ریڈنگ سی تصدیق کوا
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = بنیل کلپا سی توثیق کؤ <small> شیرتے یینِن۔
 
 ## MENU ITEM TOOLTIPS
 

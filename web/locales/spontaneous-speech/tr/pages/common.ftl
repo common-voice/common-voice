@@ -22,6 +22,7 @@ report-button = Raporla
 skip-button = Atla
 submit-button = Gönder
 contribute = Katkı ver
+request-new-language = Yeni dil iste
 
 ## Navbar
 

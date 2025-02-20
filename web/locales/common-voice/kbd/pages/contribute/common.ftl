@@ -2,7 +2,7 @@ action-click = Теуэ
 action-tap = Текъузэ
 contribute = Хэгъахъуэ
 review = Хэплъэж
-skip = БлэкӀ
+skip = БлэгъэкӀ
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
     { $count ->
@@ -37,7 +37,7 @@ vote-yes = Нтӏэ
 vote-no = Хьэуэ
 datasets = Датэсет
 languages = Бзэхэр
-about = Теухуауэ
+about = Ттеухуауэ
 partner = Лэжьэгъу
 submit-form-action = Егъэхь
 

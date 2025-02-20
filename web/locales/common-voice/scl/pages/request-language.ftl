@@ -2,7 +2,6 @@
 
 request-language-heading = نئی باش کاری کھوجن تھیا
 request-language-explanation-1 = توموی باش کامن وایسو باشیو پٹویا ہی نوش لیل تھیا۔ نوش تو، انو فارم پوریا تو بیسے توٹے ایمیلیک چینون کاسینی تھی باش کنا تھے اریونو ھی رزی بے یے
-request-language-explanation-2 = بیسے اسو کویورچھالوٹے کا لیل تھیایون تو سے اروڈیان تھے، ہو جے سے تو ٹے اوجے لائی معلومات گہ مدد دین۔
 request-language-form-email =
     .label = تھی ای میل
 request-language-form-info =

@@ -15,23 +15,36 @@ export const PartnersSection = () => {
             src={require('./assets/collectivat-small.jpg')}
             alt=""
             className="logo collectivat"
+            loading="lazy"
           />
-          <img src={require('./assets/nvidia-logo.svg')} alt="" />
+          <img
+            src={require('./assets/nvidia-logo.svg')}
+            alt=""
+            loading="lazy"
+          />
           <img
             src={require('./assets/mak-logo-small.jpg')}
             alt=""
             className="logo mak"
+            loading="lazy"
           />
           <img
             src={require('./assets/ff-logo.svg')}
             alt=""
             className="logo ff"
+            loading="lazy"
           />
-          <img src={require('./assets/giz-logo.jpg')} alt="" className="logo" />
+          <img
+            src={require('./assets/giz-logo.jpg')}
+            alt=""
+            className="logo"
+            loading="lazy"
+          />
           <img
             src={require('./assets/Bill_&_Melinda_Gates_Foundation_logo.jpg')}
             alt=""
             className="logo"
+            loading="lazy"
           />
         </div>
       </div>

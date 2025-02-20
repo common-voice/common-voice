@@ -14,6 +14,8 @@ listen-abort-cancel = Продолжить проверку
 listen-abort-confirm = Завершить проверку
 # Menu item
 validate-readings = Проверить произношение
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Проверить записи <small>(Скоро)</small>
 
 ## MENU ITEM TOOLTIPS
 

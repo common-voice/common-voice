@@ -2,10 +2,6 @@
 
 request-language-heading = Buza ngolimi olusha
 request-language-explanation-1 = Hlola ukuthi ulimi lakho libaliwe ku <languagesPageLink> ikhasi lezilimi kuCommon Voice</languagesPageLink>. Uma lungekho ulimi lakho, gcwalisa lelifomu, thina sizo <strong> kuthumela i-emeyili echaza ukuthi ungalufaka kanjani ulimi lwakho</strong>.
-request-language-explanation-2 =
-    Sizokwazisa <strong>nomphathi wethu womphakathi
-    ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
-    ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
 request-language-form-email =
     .label = Ikheli lakho lemeyili
 request-language-form-info =

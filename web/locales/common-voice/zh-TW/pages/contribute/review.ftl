@@ -45,7 +45,7 @@ sc-criteria-item-4 = 若句子符合上述標準，請點擊右方的「通過�
 sc-criteria-item-5-2 = 若句子不符合上述條件，點擊「退回」按鈕。若您不確定句子可不可用，也可以略過，跳到下一句。
 sc-criteria-item-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = 確認 <icon></icon> 是一句符合語法的句子嗎？
+sc-review-instruction = 請確認 <icon></icon> 這是一句符合語法的句子嗎？
 sc-review-rules-title = 句子內容符合準則嗎？
 sc-review-empty-state = 此語言目前沒有需要審核的語句。
 report-sc-different-language = 其他語言
@@ -57,3 +57,5 @@ review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認
 sc-redirect-page-title = 我們有些重大變更
 sc-redirect-page-subtitle-1 = Sentence Collector 已移至 Common Voice 主網站。您現在可以在 Common Voice 上<writeURL>撰寫</writeURL>句子，或<reviewURL>審核</reviewURL>提交至 Common Voice 的單句。
 sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 或 <emailLink>email</emailLink> 詢問問題。
+# menu item
+review-sentences = 審核句子

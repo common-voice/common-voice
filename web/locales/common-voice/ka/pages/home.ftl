@@ -78,11 +78,15 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 ## NAV ITEMS
 
 answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
+answer-questions-coming-soon = კითხვებზე პასუხი <small>(მალე)</small>
 review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
+review-transcriptions-coming-soon = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
 add-questions = კითხვების დამატება <small>(მალე)</small>
+transcribe-audio-coming-soon = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
 transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
+coming-soon = მალე
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,21 +107,85 @@ community-and-languages-menu-item-aria-label = გამოიკვლიეთ
 
 ## Hero section
 
+hero-title = თქვენი ენით მოსაუბრე ტექნოლოგია
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>რატომ უნდა მუშაობდეს ხელოვნური ინტელექტი მხოლოდ რამდენიმე ენაზე მსოფლიოში?</bold>
+hero-subtitle-2 = ჩვენი ენა არის ჩვენი ისტორია, ჩვენი თემი, ჩვენი კულტურა. მოდით, შევქმნათ მონაცემთა კრებულები, რომელთა არსებობაც გვსურს.
+# icon is an arrow that points downwards
+get-started = დაიწყეთ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice არის უფასო, ღია წყაროს მქონე პლატფორმა თემის მიერ მონაცემების შექმნისთვის
+action-items-section-subtitle = ნებისმიერს შეუძლია საკუთარი ენის შენარჩუნება, გამოცოცხლება და განვითარება, ტექსტებისა და მეტყველების მონაცემთა კრებულების გაზიარებით, შექმნითა და შემოწმებით.
+scripted-card-header = ნაწერის გახმოვანება
+scripted-card-content = ამოიკითხეთ წინადადებები ხმამაღლა თქვენს ენაზე და წვლილი შეიტანეთ მსოფლიოში ყველაზე მრავალფეროვანი სახალხო ჩართულობით შექმნილ მონაცემთა კრებულში.
+spontaneous-card-header = ზეპირი მეტყველება
+spontaneous-card-content = გაეცით პასუხი მოთხოვნებს, რომ მონაცემთა კრებული შეივსოს მეტად ბუნებრივი, სასაუბრო ენისთვის სახასიათო ჩანაწერებით. განსაკუთრებით გამოსადეგია დამწერლობის არმქონე ენებისთვის.
+language-text-card-header = ტექსტი ენისთვის
+language-text-card-content = თავადვე შეადგინეთ ან გააზიარეთ საყოველთაო საკუთრებაში არსებული წინადადებები, შეკითხვები, სათარგმნი ტექსტები, მცირე ენებისთვის განკუთვნილი ნიმუშები და სხვ.
+coming-soon = მალე
+add-text = ტექსტის დამატება
 
 ## Community section
 
+community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — 130 ენა და ჯერ კიდევ მზარდი!
+join-discord-community = შემოუერთდით Discord-ერთობას
+# label for button
+join-discord-community-action = გვეწვიეთ Discord-ზე
+join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა და შეხვედრებს.
+find-us-on-matrix = გვიპოვეთ Matrix-ზე
+find-us-on-matrix-content = Matrix ღია, სწრაფმოქმედი ოქმის მქონე საშუალებაა ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
+# label for button
+find-us-on-matrix-action = გვიპოვეთ Matrix-ზე
+ask-mozilla-share = დაიხმარეთ Mozilla შეკრებებში
+ask-mozilla-share-content = გქონდათ ან გეგმავთ რამე ღონისძიებას? გაგვიზიარეთ და ჩვენ გავაცნობთ საზოგადოებას ან გამოვაქვეყნებთ სვეტს!
+# label for button
+ask-mozilla-share-action = გააზიარეთ შეკრება
+download-contribution-certificate = მიიღეთ შემომწირველის მოწმობა
+download-contribution-certificate-content = ჩამოტვირთეთ მოწმობა თქვენი ღონისძიებებისთვის ან თქვენთვის, თუ წვლილი შეგაქვთ Common Voice-ში — თქვენ გარეშე ეს ყველაფერი ვერ მოხერხდებოდა!
+# label for button
+download-contribution-certificate-action = მიიღეთ მოწმობა
+contribute-github = შეიტანეთ წვლილი GitHub-ზე
+contribute-github-content = ეს პროექტი თქვენნაირი ხალხის გარეშე ვერ შედგებოდა. 🎉 მრავალი გზით შეგიძლიათ ჩაერთოთ და განავითაროთ Common Voice – კოდის წერა არ გჭირდებათ წვლილის შესატანად!
+# label for button
+contribute-github-action = ჩაერთეთ GitHub-ზე
 
 ## Featured section
 
+featured-section-title = გვიხსენიებს ხოლმე...
+# icon is an arrow that points downwards
+download-press-pack = ჩამოტვირთეთ ჩვენი პრესკრებული <icon></icon>
 
 ## Developers section
 
+developers-section-title = საჯაროდ ხელმისაწვდომი მეტყველების მონაცემთა ღია კრებული 130-ზე მეტ ენაზე
+developers-section-subtitle = მონაცემთა კრებული ASR, STT, TTS და სხვა NLP-საშუალებებისთვის - შექმნილი სახალხო ერთობის მონაწილეობით.
+# icon is an arrow that points to the right
+explore-datasets = იხილეთ კრებულები <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = მხარი დაუჭირეთ ღია, სახალხო ერთობის წინამძღოლობით შექმნილ კრებულებს
+read-sentences-link = წაიკითხეთ წინადადებები
+validate-readings-link = გადაამოწმეთ წაკითხული
+contribute-link = შეავსეთ ტექსტური მასალები
+answer-questions-link = უპასუხეთ კითხვებს
+transcribe-answers-link = პასუხები აქციეთ ნაწერად
+review-transcriptions-link = შეამოწმეთ ნაწერად ქცეული
+contribute-text-link = შეიყვანეთ ტექსტი
+press-and-stories-link = პრესა და ამბები
 
 ## Partner section
 
+partner-section-title = გვეთანამშრომლეთ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ტექკომპანიები</bold> - მონაცემთა ღია კრებულების შექმნაში დაბანდებებით მრავალენოვანი AI-გარემოს ასაყვავებლად
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>სამოქალაქო საზოგადოებები და მკვლევრები</bold> - შთამბეჭდავი კრებულების შექმნით, განთავსებითა და გაზიარებით უსასყიდლოდ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ქველმოქმედნი</bold> - მონაცემთა კრებულების დაფინანსებით ადგილობრივ მხარეში სიახლეების დანერგვისა და განვითარებისთვის
+# icon is an arrow that points to the right
+get-in-touch-button = შეგვეხმიანეთ <icon></icon>
+# Partners section
+our-partners-include = ჩვენს მოკავშირეებს შორისაა...

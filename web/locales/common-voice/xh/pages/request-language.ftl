@@ -6,7 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>phepha le Common Voice leeLwimi</languagesPageLink>.
     Ukuba akunjalo, gcwalisa le fomu kwaye thina siya <strong>kuthumelela i-imeyile eluncedo
     ukucacisa indlela yokumisela ulwimi lwakho</strong>.
-request-language-explanation-2 = <playbookLink>Fumana isikhokelo esiluncedo</playbookLink> kulo lonke uhambo lweCommon Voice, ukusuka ekuhlaleni ukuya kusetyenziso lwedatha, kunye nendlela yokunxibelelana noluntu lwethu.
 request-language-form-email =
     .label = Idilesi ye-imeyile yakho
 request-language-form-info =

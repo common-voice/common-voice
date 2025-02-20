@@ -4,7 +4,6 @@ request-language-heading = Béèrè fún èdè tuntun
 request-language-explanation-1 =
     Wò ó bí èdè rẹ́ wà lórí àtẹ<languagesPageLink>ojú ìwé ède Common Voice</languagesPageLink>
     Bí bẹ́ẹ̀kọ́, pèsè èsì sí fọ́ọ̀mù yí a ó sì<strong> fi ímeèlì ráńṣẹ́ sí ẹ nípa bí o ṣe lè ṣètò fún èdè rẹ
-request-language-explanation-2 = A óò<strong> jẹ́ kí alábòójútó ẹgbẹ́ wá mọ̀ pé ò ń fẹ́</strong>, kí wọ́n lè fún ẹ ní ìrànwọ́ tàbí ìròyìn tí o lè nílò.
 request-language-form-email =
     .label = Ímeèlì rẹ
 request-language-form-info =

@@ -76,11 +76,15 @@ read-more-about = Meer info op onze pagina Over
 ## NAV ITEMS
 
 answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
+answer-questions-coming-soon = Vragen beantwoorden <small>(binnenkort)</small>
 review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
+review-transcriptions-coming-soon = Transcripties beoordelen <small>(binnenkort)</small>
 add-questions = Vragen toevoegen <small>(binnenkort)</small>
+transcribe-audio-coming-soon = Audio transcriberen <small>(binnenkort)</small>
 transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
+coming-soon = Binnenkort beschikbaar
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = De door Common Voice ondersteunde
 
 ## Hero section
 
+hero-title = Technologie die uw taal spreekt
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Waarom zou AI maar voor een paar talen in de wereld moeten werken?</bold>
+hero-subtitle-2 = Onze taal is ons verhaal, onze gemeenschap, onze cultuur. Laten we de gegevenssets maken die we in de wereld willen zien.
+# icon is an arrow that points downwards
+get-started = Beginnen <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice is een gratis, opensourceplatform voor door de gemeenschap geleide gegevenscreatie
+action-items-section-subtitle = Iedereen kan zijn of haar taal behouden, nieuw leven inblazen en verbeteren door tekst- en spraakgegevenssets te delen, maken en beheren.
+scripted-card-header = Scriptspraak
+scripted-card-content = Lees zinnen in uw taal hardop en draag bij aan de meest diverse spraakgegevensset door publieksparticipatie ter wereld.
+spontaneous-card-header = Spontane spraak
+spontaneous-card-content = Beantwoord vragen om gegevenssets te maken voor organische, informele contexten. Perfect voor orale talen.
+language-text-card-header = Taaltekst
+language-text-card-content = Maak of deel vragen, zinnen en tekst in het publieke domein voor vertaling, kleine taalmodellen en meer.
+coming-soon = Binnenkort beschikbaar
+add-text = Tekst toevoegen
 
 ## Community section
 
+community-section-title = Mogelijk gemaakt door wereldwijde gemeenschappen, voor wereldwijde gemeenschappen – 130 talen en groeiende!
+join-discord-community = Doe mee met de Discord-gemeenschap
+# label for button
+join-discord-community-action = Doe met ons mee op Discord
+join-discord-community-content = Neem deel aan discussies in de taalgemeenschap, stel vragen en lees over aankomende evenementen en lezingen.
+find-us-on-matrix = Vind ons op Matrix
+find-us-on-matrix-content = Matrix is een open, lichtgewicht protocol voor gedecentraliseerde, realtime communicatie en het open voorkeursdiscussieplatform van Mozilla.
+# label for button
+find-us-on-matrix-action = Vind ons op Matrix
+ask-mozilla-share = Vraag Mozilla om uw evenementen te delen
+ask-mozilla-share-content = Hebt u een eerdere of aankomende gebeurtenis? Deel het met ons en we zullen deze aan onze gemeenschap aankondigen of er een blog over schrijven!
+# label for button
+ask-mozilla-share-action = Uw evenement delen
+download-contribution-certificate = Uw bijdragecertificaat downloaden
+download-contribution-certificate-content = Download een certificaat voor uw evenementen of uzelf als u aan Common Voice hebt bijgedragen – dit is niet mogelijk zonder u!
+# label for button
+download-contribution-certificate-action = Uw certificaat ophalen
+contribute-github = Bijdragen op GitHub
+contribute-github-content = Dit project zou niet mogelijk zijn zonder mensen zoals u. 🎉 Er zijn veel manieren om aan Common Voice deel te  nemen – u hoeft niet te weten hoe u code moet schrijven om bij te dragen!
+# label for button
+contribute-github-action = Bijdragen op GitHub
 
 ## Featured section
 
+featured-section-title = Aanbevolen in…
+# icon is an arrow that points downwards
+download-press-pack = Download ons perspakket <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publiek toegankelijke open spraakgegevenssets in meer dan 130 talen
+developers-section-subtitle = Gegevenssets voor ASR, STT, TTS en andere NLP-contexten – gemaakt via deelname van de gemeenschap.
+# icon is an arrow that points to the right
+explore-datasets = Gegevenssets verkennen <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Ondersteun open, door de gemeenschap geleide gegevenssets
+read-sentences-link = Zinnen voorlezen
+validate-readings-link = Voorgelezen zinnen valideren
+contribute-link = Bijdragen aan tekstcorpus
+answer-questions-link = Vragen beantwoorden
+transcribe-answers-link = Antwoorden transcriberen
+review-transcriptions-link = Transcripties beoordelen
+contribute-text-link = Tekst bijdragen
+press-and-stories-link = Pers en verhalen
 
 ## Partner section
 
+partner-section-title = Partner worden
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Techbedrijven</bold> – investeer in het maken van open gegevenssets voor een bloeiend meertalig AI-ecosysteem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Maatschappelijk middenveld en onderzoekers</bold> – maak, host en deel gratis betekenisvolle gegevenssets
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropie</bold> - sponsor creatie van gegevenssets om lokale innovatie en ontwikkeling te stimuleren
+# icon is an arrow that points to the right
+get-in-touch-button = Neem contact op <icon></icon>
+# Partners section
+our-partners-include = Tot onze partners behoren…

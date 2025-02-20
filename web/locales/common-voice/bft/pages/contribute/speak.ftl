@@ -1,5 +1,5 @@
-speak = زیر
-speak-now = تہ زیر
+speak = کسل بیونگ جوو
+speak-now = تہ کسل بیونگ
 speak-subtitle = یری سکت پو شیزدے بیوس
 record-cta = زونمہ ریوقس
 record-platform-not-supported = معاف بیوس، یری پلیٹ فارم پو دوسے تھوین مید
@@ -12,7 +12,7 @@ record-error-too-long = ریکارڈینگ پو لیگی تھونمو یود س�
 record-error-too-quiet = ریکارڈ پو لیگی میکوا چن یودسوگ
 record-cancel = ریکارڈینگ پو سکیور
 record-instruction = دیکھنہ تم سیر پو اننا زیر
-record-stop-instruction = چھمہ نہ
+record-stop-instruction = سکتپو زونمو چھمفہ چک
 record-three-more-instruction = ٹوق خسوم لوس
 record-again-instruction = ژھے رینگمو سونگ یا! اگلا کلپ پو ریکارڈ بیوس
 record-again-instruction2 = یو بین شوقس، ینگ ریکارڈ بیوس
@@ -62,6 +62,8 @@ create-profile-button = پروفاٸل چک فچوس
 img-alt-success-checkmark = کھوم لوکھپو چیک بیوس
 # menu item
 read-sentences = تم سیر کن زیر
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = تم ژھیر کن زیربو (مہ شوخمو اونگین یود)
 
 ## MENU ITEM TOOLTIPS
 

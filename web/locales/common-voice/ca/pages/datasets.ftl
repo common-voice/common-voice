@@ -10,7 +10,7 @@ datasets-positioning =
     Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
 language = Llengua
 download-dataset-header = Baixa el conjunt de dades
-download-delta-explainer = Hem fet alguns canvis. Els segments Delta només contenen els clips més recents des de la versió anterior. <deltaLink>Vegeu més informació sobre aquesta tasca</deltaLink>.
+download-delta-explainer = Hem fet alguns canvis. Els segments Delta només contenen els talls més recents des de la versió anterior. <deltaLink>Vegeu més informació sobre aquesta tasca</deltaLink>.
 download-dataset-tag = Seleccioneu el conjunt de dades de la llengua desitjada i trieu la versió que voleu baixar.
 # File size in gigabytes
 size = Mida
@@ -94,3 +94,7 @@ release-version = Versió
 dataset-date = Data
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Baixeu els nostres conjunts de dades de veu
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Opcions de baixada per accedir a les dades del Common Voice

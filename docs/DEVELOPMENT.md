@@ -40,7 +40,7 @@ Copy the example with:
 > cp .env-local-docker.example .env-local-docker
 ```
 
-This will instruct your application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages.
+This will instruct your application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages. Sentences are imported alphabetically by language code, so Arabic (`ar`) is imported before English (`en`), which is imported before Kiswahili (`sw`). Note that importing sentences for _all_ languages will take over 36 hours. 
 
 ### Setup steps
 

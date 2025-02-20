@@ -5,10 +5,6 @@ request-language-explanation-1 =
     Ellenőrizze, hogy a nyelve szerepel a <languagesPageLink>Common Voice nyelveinek lapján</languagesPageLink>.
     Ha nem, akkor töltse ki ezt az űrlapot, és egy <strong>hasznos levelet fogunk küldeni,
     amely elmagyarázza, hogyan állíthatja be a nyelvet</strong>.
-request-language-explanation-2 =
-    A <strong>közösségi menedzserünket is értesítjük,
-    hogy ez érdekli</strong>, így bármilyen további támogatást
-    vagy információt meg tud adni, amire szüksége lehet.
 request-language-form-email =
     .label = Az Ön e-mail-címe
 request-language-form-info =

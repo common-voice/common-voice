@@ -62,6 +62,8 @@ create-profile-button = یک پروفائلے جوڑ کن
 img-alt-success-checkmark = کامیابی ئے نشان
 # menu item
 read-sentences = جملہ ئا پڑھ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملہاں بوان اِت <(زوت آھگ ءَ اِنت)</small></small>
 
 ## MENU ITEM TOOLTIPS
 

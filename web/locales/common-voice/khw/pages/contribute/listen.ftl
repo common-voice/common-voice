@@ -14,6 +14,8 @@ listen-abort-cancel = تصدیق کوریکو جاری سوتے
 listen-abort-confirm = تصدیق کوریکو نسی نیزے
 # Menu item
 validate-readings = ریکو تصدیق کورے
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ریکان تصدیق کو<small>ݰاؤ گویان</small>
 
 ## MENU ITEM TOOLTIPS
 

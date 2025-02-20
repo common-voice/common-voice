@@ -12,6 +12,8 @@ listen-abort-cancel = Jari thai, sahi kari
 listen-abort-confirm = Dahi Karik khulai
 # Menu item
 validate-readings = Mahik sahi kari
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Mahik sahi karik
 
 ## MENU ITEM TOOLTIPS
 

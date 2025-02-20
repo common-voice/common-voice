@@ -2,7 +2,6 @@
 
 request-language-heading = نویں زبان بارے پُچھو
 request-language-explanation-1 = چیک کرو آیا تسدی زبان درج ہے<languagesPageLink>کامن وائس زباناں دے صفحے</languagesPageLink>تے۔ اگر نیں اے، اے فارم پُر کرو تے اسیں<strong>تساں کو ہک آسان ای میل بھیجساں، آپنڑی زبان کو ترتیب دینڑا دا طریقہ دسّی</strong>۔
-request-language-explanation-2 = اسیں<strong>اپبڑیں کمیونٹی منیجر کو بھی دسّاں کہ تسدی دلچسپی ہے</strong>، تاکہ او تساں کو کوئی مزید مدد یا معلومات جڑّی چائی دے ہوّا او دیون۔
 request-language-form-email =
     .label = تسدا ای میل ایڈرس
 request-language-form-info =
@@ -21,3 +20,10 @@ request-language-success-list-3 = اگر تساں کو دو چار دنوں بچ
 request-language-error =
     ہو سکدا اے اساں کو او درخواست نہ ملے۔ مہربانی نال سدھا اساں کو
     <emailLink>{ $email }</emailLink> تے ای میل کرو تے اسیں تساں نال واپس رابطہ کرساں!
+request-for-scripted-speech-toggle = لکھی دی تقریر آسطے درخواست
+request-for-spontaneous-speech-toggle = بے ساختہ تقریر آسطے درخواست
+need-help-deciding-platform = اے فیصلہ کرنا آسطے کہ کے چُڑنا اے، مدد چائی دی اے؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>لکھی دی تقریر/گل</strong>(جِڑّا روایتی طور تسیں جانڑدے او جِیّاں کامن وائس) او اے، جِتھّا تسیں اپنڑی زبان اچ اُچِّی آواز نال جملے پڑھ ہکدے او۔
+need-help-deciding-platform-explanation-2 = <strong>بے ساختہ تقریر/گل</strong>ہک کامن وائس دا نوّاں حصہ اے جِتھّاں تسیں زیادہ اصلی تے عام طریقے نال سوالاں دے جواب دے ہکدے او۔
+need-help-deciding-platform-explanation-3 = دونڑیاں دا انتخاب کرو جے اگر تساں کو کسی بھی پلیٹ فارم بچ اپنڑی زبان نہ دِکھّا۔

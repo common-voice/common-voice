@@ -62,6 +62,8 @@ create-profile-button = პროფილის შექმნა
 img-alt-success-checkmark = წარმატებით შესრულებულის აღნიშვნა
 # menu item
 read-sentences = წინადადებების წაკითხვა
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = წინადადებების წაკითხვა <small>(მალე)</small>
 
 ## MENU ITEM TOOLTIPS
 

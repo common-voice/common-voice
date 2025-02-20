@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = በጣም በፍጥነት እያስኼዱት 
 sc-redirect-page-title = አንዳንድ ትልልቅ ለውጦችን እያደረግን ነው።
 sc-redirect-page-subtitle-1 = ዓረፍተ ነገር ሰብሳቢው ወደ ዋናው የጋራ ድምጽ መድረክ እየሄደ ነው። አሁን በጋራ ድምጽ ላይ የገባውን አንድ ዓረፍተ ነገር <writeURL>መጻፍ</writeURL> ወይም ነጠላ ዓረፍተ ነገር <reviewURL>መገምገም</reviewURL> ይችላሉ።
 sc-redirect-page-subtitle-2 = ጥያቄዎችን በ<matrixLink>ማትሪክስ</matrixLink>፣ <discourseLink>ዲስኩር</discourseLink> ወይም <emailLink>ኢሜል</emailLink> ላይ ይጠይቁን።
+# menu item
+review-sentences = ዓረፍተ ነገሮችን ይገምግሙ

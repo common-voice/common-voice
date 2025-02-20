@@ -1,7 +1,9 @@
 ## Languages Overview
 
 language-section-in-progress = Дар ҳоли иҷро мебошад
+language-section-in-progress-new-description = Ин забонҳо дар ҳоли рушд аз ҷониби ҷомеа қарор доранд. Барои оғоз кардани ин забонҳо, қадамҳои  <localizationGlossaryLink>Маҳаллисозии сомона</localizationGlossaryLink> ва <sentenceCollectionGlossaryLink>Ҷамъоварии ҷумлаҳо</sentenceCollectionGlossaryLink> бояд ба анҷом расонида шаванд.
 language-section-launched = Ба кор андохта шуд
+language-section-launched-description = Дар забонҳои фаъолшудаи зерин, сомонаи мо бо муваффақият <localizationGlossaryLink>тарҷума карда шудааст</localizationGlossaryLink> ва барои ҷорӣ кардани иқдомҳои <speakLink>«Ҳарф занед!»</speakLink> ва <listenLink>«Гӯш кунед!»</listenLink> маводи кофӣ дар бахши <sentenceCollectionGlossaryLink>ҷамъоварии ҷумлаҳо</sentenceCollectionGlossaryLink> мавҷуд аст.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Санаи навсозии охирин: { $lastUpdatedTimeStamp }
 languages-show-more = Дидани бештар
@@ -10,7 +12,7 @@ language-meter-in-progress = Раванд
 language-total-progress = Ҳамагӣ
 language-search-input =
     .placeholder = Ҷустуҷӯ
-language-speakers = Баландгӯякҳо
+language-speakers = Соҳибзабонон
 localized = Тарҷумашуда
 sentences = Ҷумлаҳо
 language-validation-hours = Соат

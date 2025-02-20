@@ -7,6 +7,6 @@ check = Skontrolovať
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = Prepísať
 loading = Načítava sa…
-login-signup = Prihlásiť sa/Zaregistrovať sa
+login-signup = Prihlásenie/Registrácia
 login = Prihlásiť sa
 logout = Odhlásiť sa

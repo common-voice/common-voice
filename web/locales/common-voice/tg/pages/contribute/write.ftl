@@ -24,6 +24,7 @@ new-sentence-rule-8 = Комилан табиӣ ва гуфтугӯӣ (бояд 
 login-instruction-multiple-sentences = Барои илова кардани зиёда аз як ҷумла, лутфан, <loginLink>ворид шавед</loginLink> ё <loginLink>ҳисобро ба қайд гиред</loginLink>
 how-to-cite = Чӣ тавр ман иқтибос меорам?
 how-to-cite-explanation-bold = Бо истиноди «URL» ё номи пурраи кор иқтибос намоед.
+how-to-cite-explanation = Агар ин калимаҳои шумо бошанд, танҳо <italicizedText>«Иқтибосоварии шахсӣ»</italicizedText>-ро муайян кунед. Мо бояд донем, ки шумо ин муҳтаворо аз куҷо пайдо кардед, то ки мо тавонем сарчашмаи онро тафтиш карда, муайян кунем, ки он дар манбаи дастраси умум қарор дорад ва ягон маҳдудияти ҳуқуқи муаллиф надорад. Барои маълумоти бештар дар бораи иқтибосоварӣ, ба саҳифаи <guidelinesLink>Роҳнамои мо</guidelinesLink> муроҷиат кунед.
 guidelines = Дастурҳо
 contact-us = Тамос бо мо
 add-sentence-success = 1 ҷумла ҷамъ карда шуд
@@ -99,6 +100,18 @@ too-many-files = Шумораи файлҳои аз ҳад зиёд аст
 small-batch-instruction = <icon></icon> Илова кардани якчанд ҷумла аз манбаи дастраси умум
 multiple-sentences-error = Шумо наметавонед, ки дар ҳудуди як пешниҳод якчанд ҷумларо илова кунед
 exceeds-small-batch-limit-error = Пешниҳод кардани зиёда аз 1000 ҷумла ғайриимкон аст
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз 1 дақиқа кӯшиш кунед
+       *[other] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз { $retryLimit } дақиқа кӯшиш кунед
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз 1 сония кӯшиш кунед
+       *[other] Аз меъёри маҳдудияти суръат гузашт. Лутфан, пас аз { $retryLimit } сония кӯшиш кунед
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
@@ -108,8 +121,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } аз 1 ҷумла ҷамъ карда шуд. Барои боргирӣ кардани ҷумлаҳои радшуда <downloadLink>дар ин ҷой</downloadLink>зер кунед.
-       *[other] { $uploadedSentences } аз { $totalSentences } ҷумла ҷамъ карда шуд. Барои боргирӣ кардани ҷумлаҳои радшуда <downloadLink>дар ин ҷой</downloadLink>зер кунед.
+        [one] { $uploadedSentences } аз 1 ҷумла ҷамъ карда шуд. Барои боргирӣ кардани ҷумлаҳои радшуда <downloadLink>дар ин ҷой</downloadLink> зер кунед.
+       *[other] { $uploadedSentences } аз { $totalSentences } ҷумла ҷамъ карда шуд. Барои боргирӣ кардани ҷумлаҳои радшуда <downloadLink>дар ин ҷой</downloadLink> зер кунед.
     }
 small-batch-sentences-rule-1 = Дастурҳоро аз қисми «Кадом ҷумлаҳоро илова карда метавонам?» риоя намоед
 small-batch-sentences-rule-2 = Илова кардани як ҷумла ба ҳар як сатр

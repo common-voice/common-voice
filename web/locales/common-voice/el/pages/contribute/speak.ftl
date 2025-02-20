@@ -62,6 +62,8 @@ create-profile-button = Δημιουργία προφίλ
 img-alt-success-checkmark = σημάδι επιτυχίας
 # menu item
 read-sentences = Ανάγνωση προτάσεων
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Ανάγνωση προτάσεων <small>(Προσεχώς)</small>
 
 ## MENU ITEM TOOLTIPS
 

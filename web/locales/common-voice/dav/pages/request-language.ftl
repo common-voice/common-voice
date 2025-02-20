@@ -2,7 +2,6 @@
 
 request-language-heading = Kotia aighu ya kiteto kizima
 request-language-explanation-1 = Zighana ngera kiteto chao cheko kwa listi <languagesPageLink>Common Voice Languages page</languagesPageLink>. Si huw'o, chura ihifomu eri dikudumie <strong>imeili ekueleshera seji kiteto chako chizolo kuaghwa</strong>.
-request-language-explanation-2 = Sena dibonyagha huw'u, <strong>dighoriagha m'baa odu angu kwakunde</strong>, eri w'ikuneke w'utesia ughoghose kukunde angu ngera jeko jingi kuchakunda.
 request-language-form-email =
     .label = Imeili yako
 request-language-form-info =

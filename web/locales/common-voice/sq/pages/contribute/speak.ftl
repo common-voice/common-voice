@@ -62,6 +62,8 @@ create-profile-button = Krijoni profil
 img-alt-success-checkmark = shenjë suksesi
 # menu item
 read-sentences = Lexoni Togfjalësha
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Lexoni Togfjalësha <small>(Së shpejti)</small>
 
 ## MENU ITEM TOOLTIPS
 

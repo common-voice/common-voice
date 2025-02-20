@@ -79,11 +79,15 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 ## NAV ITEMS
 
 answer-questions = Soru yanıtla <small>(Çok yakında)</small>
+answer-questions-coming-soon = Soru yanıtla <small>(Çok yakında)</small>
 review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
+review-transcriptions-coming-soon = Çeviri metinleri incele <small>(Çok yakında)</small>
 add-questions = Soru ekle <small>(Çok yakında)</small>
+transcribe-audio-coming-soon = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
+coming-soon = Çok yakında
 
 ## MENU ITEMS TOOLTIPS
 
@@ -104,21 +108,85 @@ community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve dest
 
 ## Hero section
 
+hero-title = Dilinizi konuşan teknoloji
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Yapay zekâ neden yalnızca birkaç dille çalışsın?</bold>
+hero-subtitle-2 = Dilimiz bizim hikâyemiz, topluluğumuz, kültürümüzdür. Gelin, dünyada görmek istediğimiz veri kümelerini birlikte yaratalım.
+# icon is an arrow that points downwards
+get-started = Başlayalım <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice, topluluk öncülüğünde veri oluşturmaya yönelik ücretsiz, açık kaynaklı bir platformdur
+action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşarak, oluşturarak ve düzenleyerek dilini koruyabilir, canlandırabilir ve geliştirebilir.
+scripted-card-header = Yazıları Seslendirme
+scripted-card-content = Cümleleri kendi dilinizde okuyun ve kitlesel katılımla oluşturulan, dünyanın en kapsayıcı dil veri kümesine katkıda bulunun.
+spontaneous-card-header = Doğaçlama Konuşma
+spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere istemlere yanıt verin. Konuşma öncelikli diller için ideal.
+language-text-card-header = Dilinizde Metinler
+language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
+coming-soon = Çok yakında
+add-text = Metin ekleyin
 
 ## Community section
 
+community-section-title = Dünyanın tüm topluluklarını destekliyoruz: 130 dile ulaştık ve bu sayı giderek artıyor!
+join-discord-community = Discord topluluğumuza katılın
+# label for button
+join-discord-community-action = Discord’da bize katılın
+join-discord-community-content = Dil topluluğu tartışmalarına katılın, soru sorun, yaklaşan etkinlikler ve toplantılar hakkında bilgi edinin.
+find-us-on-matrix = Matrix’te bize katılın
+find-us-on-matrix-content = Matrix, merkeziyetsiz ve gerçek zamanlı iletişim için açık ve hafif bir protokoldür ve Mozilla’nın tercih ettiği açık tartışma platformudur.
+# label for button
+find-us-on-matrix-action = Matrix’te bize katılın
+ask-mozilla-share = Mozilla’dan etkinliklerinizi paylaşmasını isteyin
+ask-mozilla-share-content = Geçmiş ya da yaklaşan bir etkinliğiniz mi var? Bizimle paylaşın, topluluğumuza duyuralım ya da hakkında bir blog gönderisi yazalım!
+# label for button
+ask-mozilla-share-action = Etkinliğinizi paylaşın
+download-contribution-certificate = Katkı sertifikanızı indirin
+download-contribution-certificate-content = Common Voice’a katkıda bulunduysanız kendi başınıza veya etkinliklerinizde kullanabileceğiniz sertifikayı indirin: Siz olmadan başaramazdık!
+# label for button
+download-contribution-certificate-action = Sertifikanızı alın
+contribute-github = GitHub’da katkıda bulunun
+contribute-github-content = Sizin gibi insanlar olmadan bu proje mümkün olmazdı. 🎉 Common Voice'a katkıda bulunmanın birçok yolu var. Katkıda bulunmak için kodlama bilmenize de gerek yok!
+# label for button
+contribute-github-action = GitHub’da katkıda bulunun
 
 ## Featured section
 
+featured-section-title = Bizden bahsedenler...
+# icon is an arrow that points downwards
+download-press-pack = Basın paketimizi indirin <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130’dan fazla dilde kamuya açık konuşma veri kümeleri
+developers-section-subtitle = Topluluk katılımıyla oluşturulan ASR, STT, TTS ve diğer NLP bağlamlarına ait veri kümeleri.
+# icon is an arrow that points to the right
+explore-datasets = Veri kümelerini keşfedin <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Topluluk önderliğinde geliştirilen açık kaynaklı veri kümelerini destekleyin
+read-sentences-link = Cümleleri okuyun
+validate-readings-link = Okumaları doğrulayın
+contribute-link = Metin derlemine katkıda bulunun
+answer-questions-link = Soruları cevaplayın
+transcribe-answers-link = Yanıtları metne çevirin
+review-transcriptions-link = Çeviri metinleri inceleyin
+contribute-text-link = Metin bağışlayın
+press-and-stories-link = Basın ve haberler
 
 ## Partner section
 
+partner-section-title = Bizimle işbirliği yapın
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Teknoloji şirketleri</bold>: Hızla gelişen çok dilli bir yapay zekâ ekosistemi için açık veri kümeleri oluşturmaya yatırım yapın
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sivil toplum ve araştırmacılar</bold>: Etkileyici veri kümelerini ücretsiz olarak oluşturun, barındırın ve paylaşın
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Yardımseverlik</bold> - Yerel buluşları ve gelişmeyi desteklemek için veri kümeleri oluşturmaya sponsor olun
+# icon is an arrow that points to the right
+get-in-touch-button = Bize ulaşın <icon></icon>
+# Partners section
+our-partners-include = İş ortaklarımızdan bazıları...

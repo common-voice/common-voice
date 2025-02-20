@@ -14,6 +14,8 @@ listen-abort-cancel = توثیق تھون جاری پھتِیا
 listen-abort-confirm = توثیق بڑِیا
 # Menu item
 validate-readings = پڑِیونے توثیق تِھیا
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = پڑِیونے توثیق <small> جنیْ اِینوْ
 
 ## MENU ITEM TOOLTIPS
 

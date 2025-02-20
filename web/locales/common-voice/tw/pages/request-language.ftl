@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Languages page</languagesPageLink>.
     If not, fill out this form and we’ll <strong>send you a handy email
     explaining how to get your language set up</strong>.
-request-language-explanation-2 =
-    We will also <strong>let our community manager know
-    that you’re interested</strong>, so they can give you any
-    extra support or information you might need.
 request-language-form-email =
     .label = Your email address
 request-language-form-info =

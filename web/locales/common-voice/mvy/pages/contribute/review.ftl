@@ -1,9 +1,9 @@
 ## REVIEW
 
 sc-review-lang-not-selected = تُوں ایک گتہ ژیب خوش نیرہ چھی۔تاں </profileLink>پروفائلے<profileLink> بئ گیل ژِبہ خوش کرہ۔
-sc-review-title = جُملی گتہ نہانٚلہ
+sc-review-title = لِکیلیۡ جُملی گتہ نھالہ
 sc-review-loading = جُملی لوڈ ہُوئینتی۔۔۔۔۔
-sc-review-select-language = جُملی گتہ (دوبارہ) نھالَئیں کراں اک زیب اوک خوش کرہ
+sc-review-select-language = جُملی گتہ (دوبارہ) نھالَیں یاں کریا اک ژیب اوک خوش کرہ
 sc-review-no-sentences = گتہ (دوبارہ) نہالَئیں  کراں جُملی نی تھی<addLink>ہُوئیں مُتی جُملی ٹل کرہ </addLink>
 sc-review-form-prompt =
     .message = تئیں پک یقین تُھو اَئی چہ گتہ )(دوبارہ) نہالیل جُملی جمع نی ہُونٚتھی؟
@@ -44,7 +44,7 @@ sc-criteria-item-2 = جُملہ گرامراں لحاظ ہن صحیح ہو۔
 sc-criteria-item-3 = جُملہ پڑئے منیاں قابل ہو۔
 sc-criteria-item-4 = جُملہ شرطؤں تل پُوئیر ہُنلُو تے &quot;قبلوں &quot; بٹن تل ٹک کری۔
 sc-criteria-item-5-2 = کہ جُملہ بُو تل ݜَئیں شرطؤں تل پُوئیر نی تھی کھئیں &quot;کگا &quot; کھبُوئ کِھن٘گئیں بٹنہ تل ٹک کری۔ کہ تُو جُملہ پڑے سُگا پورزی تُھو نئی کھئیں تے اس پھت کرے مُوٹُھو لھنٚگہ۔
-sc-criteria-item-6 = کہ تیگے گتہ نہالَئیں جُملی بارزی تھی کھئیں تے زؤں ملی مُتی جُملی جمع کرَیں مہ مدد کرہ ۔
+sc-criteria-item-6 = کہ تِگے گتہ نھالَئیں جُملی بارژی تھی کھیں تے زؤں ملیۡ مُتیۡ جُملی جمع کرَیں مہ مدد کرہ!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = نہال تہ<icon></icon> ݜُو زِباں حساب ہِن صحیح جُملہ تھی اَئ؟
 sc-review-rules-title = نہالہ تہ اُو جُملہ دیل ہدایاتوںمطابق تھی ائی؟
@@ -56,7 +56,7 @@ review-error = ݜس جُملہ گتہ نہالَئیں مہ غلطی اوک ہُ
 review-error-rate-limit-exceeded = توۡ څئ تیز روان تُھو۔ مھیربانی کرے ہلاکو وخ ہرے جملہ گتہ نہالہ چہ گی غلطی نی دھرے۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بے ہِئیں ہلاکو گھئیں بدلی کرانتے۔
-sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو مُنٚڈاں  کام وائیس پلیٹ فارمے روان تُھو۔ تُو ہِئیں  <writeURL>لِکہانٚت </writeURL>اک جُملہ <reviewURL>گتہ نہالہانٚت </reviewURL> آں اک چلِئیں جُملہ کامن وائیس منٚز جمع کرہانٚت۔
+sc-redirect-page-subtitle-1 = جُملی جمع کران٘لو مُنٚڈاں  کام وائیس پلیٹ فارمے روان تُھو۔ تُو ہِئیں  <writeURL>لِکہانٚت </writeURL>اک جُملہ <reviewURL>گتہ نھالہانٚت </reviewURL> آں اک چلِئیں جُملہ کامن وائیس منٚز جمع کرہانٚت۔
 sc-redirect-page-subtitle-2 = ݜَس تل اک سوال تپُوس کرہ <matrixLink> میٹرکس </matrixLink>، <discourseLink> ڈسکورس یا بحث </discourseLink> یا <emailLink> ایمیل </emailLink>
 # menu item
-review-sentences = جُملی گتہ (دُوبارہ) نہانٚلہ
+review-sentences = جُملی گتہ (دُوبارہ) نھالہ

@@ -26,3 +26,5 @@ review-error = Ham cumle itsadet̆uşani ar xeta gamaxtu.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Didi a mutxape gokturamt.
 sc-redirect-page-subtitle-2 = nan
+# menu item
+review-sentences = Cumlepes tsadi

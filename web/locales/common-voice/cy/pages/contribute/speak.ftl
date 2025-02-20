@@ -62,6 +62,8 @@ create-profile-button = Crëwch broffil
 img-alt-success-checkmark = marc gwirio llwyddiant
 # menu item
 read-sentences = Darllen Brawddegau
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Darllen Brawddegau <small>(Yn dod cyn hir)</small>
 
 ## MENU ITEM TOOLTIPS
 

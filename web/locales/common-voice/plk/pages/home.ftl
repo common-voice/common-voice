@@ -90,11 +90,15 @@ read-more-about = اسے بارَد صفحہ جیْ شِناک گہ پڑِیا
 ## NAV ITEMS
 
 answer-questions = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
+answer-questions-coming-soon = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
 review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
+review-transcriptions-coming-soon = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+transcribe-audio-coming-soon = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
+coming-soon = جِنیْ اِینوْ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -115,21 +119,85 @@ community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریع
 
 ## Hero section
 
+hero-title = ٹیکنالوجیْ کھاں سہ څھے دِینیْ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = AI سہ دُنیے صرف چند جِبو کِرِیا کیْہ کوْم تِھی؟
+hero-subtitle-2 = اسے جِب اسے قصہ، اسے قاموالی، اسے ثقافتِن۔ اِیا اسہ ڈیٹاسیٹ سݨون کھاں سہ بیْس دُنیے دہ ڇکون لُکھوݨَس۔
+# icon is an arrow that points downwards
+get-started = شیروع تِھیا <icon><icon>
 
 ## Action items section
 
+action-items-section-title = کامن وائس کمیونٹی قیادت دہ ڈیٹا تخلیق تھونے کِرِیا ایک مفت، اوپن سورس پلیٹ فارمُن۔
+action-items-section-subtitle = کوئے گہ منُوڙوْس ٹیکسٹ گہ ڈیٹاسیٹ بگَے، سنَے، آں کیوریٹنگ تھے تومیْ جِب محفوظ، جودیْ گہ اُتَھلیْ تھوبانوْ۔
+scripted-card-header = اسکرپٹڈ تقریر
+scripted-card-content = تومیْ جِب دہ جُملائے ہاݜ آواز دہ پڑیا آں دُنیے دہ بُٹُج متنوع عوامی شراکتی تقریری ڈیٹاسیٹ دہ تعاون تِھیا۔
+spontaneous-card-header = بے ساختہ تقریر
+spontaneous-card-content = نامیاتی، موْݜ کَلَے سیاق گی سباق اےْ کِرِیا ڈیٹاسیٹس سنونے اشارو جُواب دِیا۔ موْݜ کال گیْ آں مُڇِھنیْ جِبوڑ مِݜٹیْ۔
+language-text-card-header = جِبے متن
+language-text-card-content = عوامی ڈومین پرامپٹس، جُملائے گہ ترجمائے کِرِیا متن آں لیکھیْ جِبو ماڈلز، وغیرہ سنِیا یا سیْݨے اشتراک تِھیا۔
+coming-soon = جِنیْ اِینوْ
+add-text = عبارت ٹل تِھیا
 
 ## Community section
 
+community-section-title = عالمی برادرِیؤ ذریعہ تقویت یافتہ، عالمی برادرِیؤ کِرِیا — 130 جِبہ آں اسݨوجیْ گہ بسکِیؤ ǃ
+join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
+# label for button
+join-discord-community-action = Discord جیْ اسو سے ٹل بِیا
+join-discord-community-content = زبانی کمیونٹی مباحثو مجیْ حصہ ہرہ، سوالات تِھیا، آں آیونے واقعات گہ موْݜ کالِجیْ اکو پرجارہ۔
+find-us-on-matrix = اسو میٹرکس جیْ اورڑِیا
+find-us-on-matrix-content = میٹرکس ایْک پھگُتھوْ گہ لہُوکوْ غیرمرکزی، ڑیئل ٹائم مواصلاتی پروٹوکول آں موزیلا اےْ طرفِجیْ اوزگار ڈسکشن پلیٹ فارمُن۔
+# label for button
+find-us-on-matrix-action = اسو میٹرکس جیْ اورڑِیا
+ask-mozilla-share = موزیلاڑ تومہ واقعاتو اشتراکے رزہ۔
+ask-mozilla-share-content = جوْ لگِتھوْ یا اِیک واقعہ؟ آئے اسو سے شیئر تِھیا آں بیْس آسہ سے اعلان تومیْ کمیونٹی دہ تُھوِیس یا اسہ سے بارَد بلاگ لِکُویس ǃ
+# label for button
+ask-mozilla-share-action = تومیْ واقعہ شیئر تِھیا
+download-contribution-certificate = تومیْ شرکتے سرٹیفکیٹ ڈاؤن لوڈ تِھیا
+download-contribution-certificate-content = اگر څھا کامن وائس دہ تعاون تھیتَن توْ تے تومیْ شرکتے بارَد  ایْک سرٹیفکیٹ ڈاؤن لوڈ تِھیا — آ بیْل څھوْجیْ ممکن نانیْ ǃ
+# label for button
+download-contribution-certificate-action = توموْ سرٹیفکیٹ حاصل تِھیا
+contribute-github = GitHubجیْ تعاون تِھیا
+contribute-github-content = آ منصوبہ بیل څھوْ ہا جگوجیْ ممکن نانوْ۔ کامن وائس سے شریک بونے لا طریقائین۔  څھوْڑ آ ضورڑت نانیْ چہ تعاون تھونے کِرِیا کوڈ کاتھ تھوݨ ǃ
+# label for button
+contribute-github-action = GitHubجیْ تعاون تِھیا
 
 ## Featured section
 
+featured-section-title = فیچرد دہ
+# icon is an arrow that points downwards
+download-press-pack = اسے پریس پیک ڈاؤن لوڈ تِھیا <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ جِبوْ مجیْ عوامی شان گیْ قابل رسائی اوپن سورس ڈیٹا سیٹس
+developers-section-subtitle = ASR، STT، TTS، آں مُتہ NLP سیاق گہ سباق اےْ کِرِیا ڈیٹا سیٹس - کمیونٹی  شرکت گیْ سنجِلان۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹس اورڑِیا <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوزگار شان گیْ کمیونٹی قیادت دہ ڈیٹا سیٹو حمایت تِھیا۔
+read-sentences-link = جُملائے پڑِیا
+validate-readings-link = جُملائے پڑیونے توثیق تِھیا۔
+contribute-link = ٹیکسٹ کارپس دہ تعاون تِھیا۔
+answer-questions-link = سُوالو جُواب دِیا
+transcribe-answers-link = جُوبیْ نقل تِھیا
+review-transcriptions-link = نقلو جائزہ ہرہ
+contribute-text-link = متَن دہ تعاون تِھیا
+press-and-stories-link = پریس گہ قصائے
 
 ## Partner section
 
+partner-section-title = اسو سے شراکت تِھیا
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئے </bold> - فروغ پزیر کثیر لسانی AI موحولیاتی نظامے کِرِیا اوپن ڈیٹا سیٹو تخلیق دہ سرمایہ کاری تِھیا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی گہ محققِین </bold>  مفت دہ مؤثر ڈیٹا سیٹ سنِیا، مدڇِھیار تِھیا آں اسݨیْے اشتراک تِھیا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستی </bold> - مقامی اختراع گہ ترقی فروغ دونے کِرِیا ڈیٹا سیٹے تخلیق سپانسر تِھیا۔
+# icon is an arrow that points to the right
+get-in-touch-button = رابطہ تِھیا <icon></icon>
+# Partners section
+our-partners-include = اسے شراکت دارو مجی شامِلَن ۔۔۔۔

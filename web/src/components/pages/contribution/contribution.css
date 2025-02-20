@@ -614,14 +614,14 @@
 
         @media (--md-up) {
             padding: 0 25px;
-            font-size: var(--font-size-xl);
+            font-size: var(--font-size-lg);
             font-weight: normal;
-            letter-spacing: 1.3px;
-            line-height: 1.63;
+            letter-spacing: 1.2px;
+            line-height: 1.5;
         }
 
         @media (--lg-up) {
-            padding: 0 100px;
+            padding: 0 50px;
         }
     }
 

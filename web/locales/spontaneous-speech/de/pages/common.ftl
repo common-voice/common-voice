@@ -22,6 +22,7 @@ report-button = Melden
 skip-button = Überspringen
 submit-button = Absenden
 contribute = Mitmachen
+request-new-language = Neue Sprache vorschlagen
 
 ## Navbar
 

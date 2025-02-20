@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Tale-bladsy</languagesPageLink> verskyn.
     Indien nie, vul hierdie vorm in en ons <strong>stuur vir jou 'n handige e-pos om te
     verduidelik hoe om jou taal in te sluit</strong>.
-request-language-explanation-2 =
-    Ons sal ook <strong>ons gemeenskapsbestuurder laat weet
-    dat jy belangstel</strong>, sodat hulle vir jou enige ekstra ondersteuning of inligting wat jy dalk nodig het, kan gee.
 request-language-form-email =
     .label = Jou e-posadres
 request-language-form-info =

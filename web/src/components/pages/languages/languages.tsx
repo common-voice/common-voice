@@ -3,55 +3,55 @@ import {
   ReactLocalization,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useState, useEffect } from 'react';
-import { format } from 'date-fns';
-import { BaseLanguage, LanguageStatistics } from 'common';
+} from '@fluent/react'
+import * as React from 'react'
+import { useState, useEffect } from 'react'
+import { format } from 'date-fns'
+import { BaseLanguage, LanguageStatistics } from 'common'
 
-import { useAPI } from '../../../hooks/store-hooks';
-import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
-import useIsMaxWindowWidth from '../../../hooks/use-is-max-window-width';
-import URLS from '../../../urls';
-import { CloseIcon, SearchIcon } from '../../ui/icons';
-import { LinkButton, StyledLink, TextButton } from '../../ui/ui';
-import Page from '../../ui/page';
-import PageHeading from '../../ui/page-heading';
-import PageTextContent from '../../ui/page-text-content';
+import { useAPI } from '../../../hooks/store-hooks'
+import { useLocale, useNativeLocaleNames } from '../../locale-helpers'
+import useIsMaxWindowWidth from '../../../hooks/use-is-max-window-width'
+import URLS from '../../../urls'
+import { CloseIcon, SearchIcon } from '../../ui/icons'
+import { LinkButton, StyledLink, TextButton } from '../../ui/ui'
+import Page from '../../ui/page'
+import PageHeading from '../../ui/page-heading'
+import PageTextContent from '../../ui/page-text-content'
 
-import LanguagesPageWaves from './languages-waves';
-import LanguageCard from './language-card/language-card';
-import LoadingLanguageCard from './language-card/loading-language-card';
-import GetInvolvedModal from './get-involved-modal';
-import { DonateBanner } from '../../donate-banner';
+import LanguagesPageWaves from './languages-waves'
+import LanguageCard from './language-card/language-card'
+import LoadingLanguageCard from './language-card/loading-language-card'
+import GetInvolvedModal from './get-involved-modal'
+import { DonateBanner } from '../../donate-banner'
 
-import './languages.css';
+import './languages.css'
 
-const MAX_WIDTH = 1250;
+const MAX_WIDTH = 1250
 
 export interface ModalOptions {
-  locale: string;
-  l10n: ReactLocalization;
+  locale: string
+  l10n: ReactLocalization
 }
 interface State {
-  isLoading: boolean;
-  inProgress: LanguageStatistics[];
-  filteredInProgress: LanguageStatistics[];
-  launched: LanguageStatistics[];
-  filteredLaunched: LanguageStatistics[];
-  localeMessages: string[][];
-  showAllInProgress: boolean;
-  showAllLaunched: boolean;
-  query: string;
-  modalOptions?: ModalOptions;
+  isLoading: boolean
+  inProgress: LanguageStatistics[]
+  filteredInProgress: LanguageStatistics[]
+  launched: LanguageStatistics[]
+  filteredLaunched: LanguageStatistics[]
+  localeMessages: string[][]
+  showAllInProgress: boolean
+  showAllLaunched: boolean
+  query: string
+  modalOptions?: ModalOptions
 }
 
 interface LanguageSearchProps {
-  inputRef: { current: HTMLInputElement };
-  query: string;
-  handleQueryChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  handleQueryKeyDown: (event: React.KeyboardEvent<HTMLInputElement>) => void;
-  toggleSearch: () => void;
+  inputRef: { current: HTMLInputElement }
+  query: string
+  handleQueryChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  handleQueryKeyDown: (event: React.KeyboardEvent<HTMLInputElement>) => void
+  toggleSearch: () => void
 }
 
 const LanguageSearch = ({
@@ -90,13 +90,13 @@ const LanguageSearch = ({
         </TextButton>
       )}
     </div>
-  );
-};
+  )
+}
 
 const LanguagesPage = ({ getString }: WithLocalizationProps) => {
-  const [locale] = useLocale();
-  const api = useAPI();
-  const inputRef = React.createRef<HTMLInputElement>();
+  const [locale] = useLocale()
+  const api = useAPI()
+  const inputRef = React.createRef<HTMLInputElement>()
   const [state, setState] = useState({
     isLoading: true,
     inProgress: [],
@@ -108,9 +108,9 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     showAllLaunched: false,
     query: '',
     modalOptions: null,
-  } as State);
+  } as State)
 
-  const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH);
+  const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH)
 
   const {
     isLoading,
@@ -123,22 +123,22 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     showAllLaunched,
     query,
     modalOptions,
-  } = state;
+  } = state
 
   const loadData = async () => {
     const [localeMessages, languageStats] = await Promise.all([
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
-    ]);
+    ])
 
-    const languageStatistics = languageStats ?? [];
+    const languageStatistics = languageStats ?? []
 
-    return { localeMessages, languageStatistics };
-  };
+    return { localeMessages, languageStatistics }
+  }
 
   const sortLocales = () => {
-    const newInProgress = inProgress.slice();
-    const newLaunched = launched.slice();
+    const newInProgress = inProgress.slice()
+    const newLaunched = launched.slice()
 
     function presortLanguages<T extends BaseLanguage>(
       sortFn: (l1: T, l2: T) => number
@@ -146,21 +146,21 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       return (l1, l2) => {
         // Selected locale comes first
         if (l1.locale === locale) {
-          return -1;
+          return -1
         }
         if (l2.locale === locale) {
-          return 1;
+          return 1
         }
 
         // Browser locales are prioritized as well
         if (navigator.languages.includes(l1.locale)) {
-          return -1;
+          return -1
         }
         if (navigator.languages.includes(l2.locale)) {
-          return 1;
+          return 1
         }
-        return sortFn(l1, l2);
-      };
+        return sortFn(l1, l2)
+      }
     }
 
     newInProgress.sort(
@@ -170,12 +170,12 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
           ? 1
           : -1
       )
-    );
+    )
     newLaunched.sort(
       presortLanguages((l1, l2) =>
         l1.validatedHours < l2.validatedHours ? 1 : -1
       )
-    );
+    )
 
     setState(previousState => ({
       ...previousState,
@@ -183,22 +183,22 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       filteredInProgress: newInProgress,
       launched: newLaunched,
       filteredLaunched: newLaunched,
-    }));
-  };
+    }))
+  }
 
   const toggleShowAllInProgress = () => {
     setState(previousState => ({
       ...previousState,
       showAllInProgress: !previousState.showAllInProgress,
-    }));
-  };
+    }))
+  }
 
   const toggleShowAllLaunched = () => {
     setState(previousState => ({
       ...previousState,
       showAllLaunched: !previousState.showAllLaunched,
-    }));
-  };
+    }))
+  }
 
   const toggleSearch = () => {
     setState(previousState => ({
@@ -206,59 +206,59 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       filteredInProgress: previousState.inProgress,
       filteredLaunched: previousState.launched,
       query: '',
-    }));
-  };
+    }))
+  }
 
   const handleQueryChange = (
     event: React.ChangeEvent<HTMLInputElement>,
     nativeNames: any
   ) => {
-    const query = event.target.value;
+    const query = event.target.value
 
     function filterLanguages<T>(languages: T[]): T[] {
       return query
         ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
           languages.filter(({ locale }: any) => {
-            const q = query.toLowerCase().trim();
+            const q = query.toLowerCase().trim()
             return (
               locale.includes(q) ||
               getString(locale).toLowerCase().includes(q) ||
               (nativeNames[locale] || '').toLowerCase().includes(q)
-            );
+            )
           })
-        : languages;
+        : languages
     }
 
-    const filteredInProgress = filterLanguages(inProgress);
-    const filteredLaunched = filterLanguages(launched);
+    const filteredInProgress = filterLanguages(inProgress)
+    const filteredLaunched = filterLanguages(launched)
 
     setState(previousState => ({
       ...previousState,
       filteredInProgress,
       filteredLaunched,
       query,
-    }));
-  };
+    }))
+  }
 
   const handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Escape') {
-      toggleSearch();
+      toggleSearch()
     }
-  };
+  }
 
   const setModalOptions = (options: ModalOptions) => {
     setState(previousState => ({
       ...previousState,
       modalOptions: options,
-    }));
-  };
+    }))
+  }
 
   const hideModal = () => {
     setState(previousState => ({
       ...previousState,
       modalOptions: null,
-    }));
-  };
+    }))
+  }
 
   // on mount
   useEffect(() => {
@@ -273,13 +273,13 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
         launched: languageStatistics.filter(lang => lang.is_contributable),
         filteredLaunched: launched,
         localeMessages,
-      }));
-    });
-  }, []);
+      }))
+    })
+  }, [])
 
   useEffect(() => {
-    sortLocales();
-  }, [locale, isLoading]);
+    sortLocales()
+  }, [locale, isLoading])
 
   const descriptionElems = {
     localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
@@ -288,26 +288,26 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     ),
     speakLink: <StyledLink to={URLS.SPEAK} />,
     listenLink: <StyledLink to={URLS.LISTEN} />,
-  };
+  }
 
   const inProgressCountLabel = query && (
     <span className="count">({filteredInProgress.length})</span>
-  );
+  )
   const launchedCountLabel = query && (
     <span className="count">({filteredLaunched.length})</span>
-  );
+  )
 
   const launchedLanguages =
-    query || showAllLaunched ? filteredLaunched : filteredLaunched.slice(0, 3);
+    query || showAllLaunched ? filteredLaunched : filteredLaunched.slice(0, 3)
 
   const inProgressLanguages =
     query || showAllInProgress
       ? filteredInProgress
-      : filteredInProgress.slice(0, 3);
-  const nativeNames = useNativeLocaleNames();
+      : filteredInProgress.slice(0, 3)
+  const nativeNames = useNativeLocaleNames()
 
   // since all languages have the same lastFetched value we can use any language's lastFetched value
-  const lastUpdatedTimeStamp = launched[0]?.lastFetched;
+  const lastUpdatedTimeStamp = launched[0]?.lastFetched
 
   return (
     <React.Fragment>
@@ -344,7 +344,11 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
               <p>
                 <Localized id="request-language-text" />{' '}
               </p>
-              <LinkButton outline rounded to={URLS.LANGUAGE_REQUEST}>
+              <LinkButton
+                outline
+                rounded
+                to={URLS.LANGUAGE_REQUEST}
+                data-testid="request-language-button">
                 <Localized id="request-language-button"></Localized>
               </LinkButton>
             </div>
@@ -458,7 +462,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
         </section>
       </Page>
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default withLocalization(LanguagesPage);
+export default withLocalization(LanguagesPage)

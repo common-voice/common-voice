@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Paj Lang vwa komen</languagesPageLink>.
     Si se pa sa, ranpli fòm sa a epi n ap <strong>voye yon imèl itil pou ou
     eksplike kijan pou mete lang ou a</strong>.
-request-language-explanation-2 =
-    Nou pral <strong>fè manadjè kominote nou an konnen tou
-    ke w ap enterese</strong>, pou yo ka ba ou nenpòt
-    sipò oswa enfòmasyon siplemantè ou ta ka bezwen.
 request-language-form-email =
     .label = Adrès imel ou
 request-language-form-info =

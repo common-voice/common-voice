@@ -88,21 +88,37 @@ read-more-about = Докладніше на сторінці Про нас
 
 ## NAV ITEMS
 
+press-and-stories = Преса та історії
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Партнерство з нами
+press-and-stories-menu-item-tooltip = Відвідайте наш блог або напишіть про нас
+community-and-languages-menu-item-tooltip = Відкрийте для себе мови, спільноти та спільний голос
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Про меню параметрів
+partnerships-menu-item-aria-label = Дізнайтеся про партнерство з Common Voice
+press-and-stories-menu-item-aria-label = Доступ до пресрелізів та історій, пов’язаних з Common Voice
+community-and-languages-menu-item-aria-label = Дізнайтеся про спільноту та мови, які підтримує Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Технології, що розмовляють вашою мовою
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Чому ШІ повинен працювати лише з кількома мовами світу?</bold>
+hero-subtitle-2 = Наша мова — це наша історія, наша спільнота, наша культура. Створюймо набори даних, які ми хочемо бачити у світі.
+# icon is an arrow that points downwards
+get-started = Розпочати <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice — це безплатна платформа з відкритим кодом для створення даних під керівництвом спільноти
+action-items-section-subtitle = Будь-хто може зберегти, відродити і піднести свою мову, ділячись, створюючи і куруючи набори текстових і мовних даних.
 
 ## Community section
 

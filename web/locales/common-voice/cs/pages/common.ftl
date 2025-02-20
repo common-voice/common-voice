@@ -264,6 +264,7 @@ privacy = Soukromí
 terms = Podmínky
 cookies = Cookies
 faq = FAQ
+documentation = Dokumentace
 content-license-text = Obsah je dostupný pod <licenseLink>licencí Creative Commons</licenseLink>
 share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }

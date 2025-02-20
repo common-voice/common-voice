@@ -73,11 +73,15 @@ read-more-about = 阅读我们的“关于”页面了解更多
 ## NAV ITEMS
 
 answer-questions = 回答问题<small>（即将推出）</small>
+answer-questions-coming-soon = 回答问题<small>（即将推出）</small>
 review-transcriptions = 审核转录文本<small>（即将推出）</small>
+review-transcriptions-coming-soon = 审核转录文本<small>（即将推出）</small>
 add-questions = 添加问题<small>（即将推出）</small>
+transcribe-audio-coming-soon = 转录音频<small>（即将推出）</small>
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章
 community-and-languages = 社区和语言
+coming-soon = 即将推出
 
 ## MENU ITEMS TOOLTIPS
 
@@ -98,21 +102,85 @@ community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社�
 
 ## Hero section
 
+hero-title = 让技术也懂您的语言
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>AI 对语言的支持，不应落下任何一门。</bold>
+hero-subtitle-2 = 语言可以讲述故事、构筑社区、反映文化。携起手来，打造我们所期盼看到的数据集。
+# icon is an arrow that points downwards
+get-started = 开始贡献 <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice 是自由的开源平台，供社区主导产生数据
+action-items-section-subtitle = 人人皆可分享、创造、整理文本和语音数据集，以此来保护、振兴、发扬自己的语言。
+scripted-card-header = 朗读文本
+scripted-card-content = 用您的语言朗读语句，为由公众参与、数据多样性在全球首屈一指的语音数据集做出贡献。
+spontaneous-card-header = 即兴发言
+spontaneous-card-content = 回答引导语，打造自然的口语语境数据集。非常适合以口语为主的语言。
+language-text-card-header = 语言文本
+language-text-card-content = 为翻译、小型语言模型等项目，创建或分享处于公有领域的引导语、语句、文本。
+coming-soon = 即将推出
+add-text = 添加文本
 
 ## Community section
 
+community-section-title = 由全球社区予力，为全球社区服务。现已支持 130 门语言，且仍在不断扩增！
+join-discord-community = 加入 Discord 社区
+# label for button
+join-discord-community-action = 通过 Discord 加入我们
+join-discord-community-content = 参与语言社区讨论、提问、掌握活动与研讨动态。
+find-us-on-matrix = 在 Matrix 上找到我们
+find-us-on-matrix-content = Matrix 是开源且轻量的去中心化实时通信协议，也是 Mozilla 的首选公开讨论平台。
+# label for button
+find-us-on-matrix-action = 在 Matrix 上找到我们
+ask-mozilla-share = 让 Mozilla 分享您举办的活动
+ask-mozilla-share-content = 举办过活动，或者将要举办活动？请与我们分享，而后我们会通告社区，也可以为活动撰写博文！
+# label for button
+ask-mozilla-share-action = 分享活动
+download-contribution-certificate = 下载您的贡献证书
+download-contribution-certificate-content = 下载证书，用在您举办的活动上。如果您为 Common Voice 作出了贡献，就颁给自己吧！Common Voice 的成功离不开您的贡献。
+# label for button
+download-contribution-certificate-action = 领取您的证书
+contribute-github = 在 GitHub 上贡献
+contribute-github-content = 此项目的成功，源自你我💪。参与 Common Voice 的方式多种多样，不懂编写代码也能参与贡献！
+# label for button
+contribute-github-action = 在 GitHub 上贡献
 
 ## Featured section
 
+featured-section-title = 媒体报道
+# icon is an arrow that points downwards
+download-press-pack = 下载新闻资料包 <icon></icon>
 
 ## Developers section
 
+developers-section-title = 可公开访问的开放式语音数据集，涵盖 130 余种语言
+developers-section-subtitle = 由社区打造，适用于 ASR、STT、TTS 等 NLP 用途的数据集。
+# icon is an arrow that points to the right
+explore-datasets = 探索数据集 <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = 支持社区主导的开放数据集
+read-sentences-link = 朗读语句
+validate-readings-link = 验证朗读内容
+contribute-link = 贡献文字语料库
+answer-questions-link = 回答问题
+transcribe-answers-link = 转录回答内容
+review-transcriptions-link = 审核转录文本
+contribute-text-link = 贡献文本
+press-and-stories-link = 新闻和文章
 
 ## Partner section
 
+partner-section-title = 与我们合作
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>科技公司</bold> - 投资打造开放的数据集，构建繁荣的多语言 AI 生态系统
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>公民社会与研究人员</bold> - 免费打造、托管、分享影响非凡的数据集
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>慈善团体</bold> - 赞助打造数据集，推动本地创新及发展
+# icon is an arrow that points to the right
+get-in-touch-button = 联系我们 <icon></icon>
+# Partners section
+our-partners-include = 我们的合作伙伴

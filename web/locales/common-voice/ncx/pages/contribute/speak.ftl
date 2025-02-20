@@ -62,6 +62,8 @@ create-profile-button = Ximomachoti
 img-alt-success-checkmark = ¡Yomokak!
 # menu item
 read-sentences = Xikintlajtolti seki tlajtoli
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Xikintlajtolti seki tlajtoli <small>(Coming soon)</small>
 
 ## MENU ITEM TOOLTIPS
 

@@ -12,15 +12,17 @@ listen-abort-cancel = صحی کٞروگ جاری ساٞت
 listen-abort-confirm = صحی کٞروگ لاٞساٞ
 # Menu item
 validate-readings = پٞروگ صحی کٞر
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = پٞروگ صحی کٞر <small>(شاٞردہ ینت)</small>
 
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = پٞروگ صحی کٞر، چُنڑیلاں جائیزہ گھِن۔
 validate-readings-menu-item-tooltip = صارفاں ریکارڈ کٞراٞل پروگ تانی جِب مئ صحی کٞر
-review-transcriptions-menu-item-tooltip = اختیاراتیں لیس بُج
+review-transcriptions-menu-item-tooltip = تانی جِب مئ صارِفیں جمع کٞریل چُنڑیلاں جائیزہ گِھن
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = کمیونٹی آٞں ممبراٞنیں جمہ کٞریل پروگ صحی کٞر۔
-validate-readings-menu-item-aria-label = گروپ مئی موجود ممبراٞنیں پِیݭ تھی لاڑاگیل چُنڑیل کہ اجازہ داٞگ
-review-transcriptions-menu-item-aria-label = ریکارڈ کٞراٞل جُملاٞ صحی کٞروگیں کیر جائیزہ گھِن
+listen-contribute-menu-aria-label = بُجوگاں اختیاراتیں لِسٹ
+validate-readings-menu-item-aria-label = کمیونٹیاں ممبراٞنیں دِیش تھی جمہ کٞراٞل پروگ ایں تصدیق کٞر
+review-transcriptions-menu-item-aria-label = ریکارڈ کٞراٞل جُملاٞ  آٞں چُنڑوگ صحی کٞروگیں کیر جائیزہ گھِن

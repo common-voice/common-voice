@@ -14,6 +14,8 @@ listen-abort-cancel = تصدیق کرݨ جاری کر
 listen-abort-confirm = تصدیق کرݨ ختم کر
 # Menu item
 validate-readings = ریڈنگز تی وجہ ݙے
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ریڈنگز تی وجہ ݙے <small>(جلدی چِیسن)</small>
 
 ## MENU ITEM TOOLTIPS
 

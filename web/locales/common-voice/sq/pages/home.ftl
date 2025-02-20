@@ -78,11 +78,15 @@ read-more-about = Lexoni më tepër te faqja jonë Mbi
 ## NAV ITEMS
 
 answer-questions = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
+answer-questions-coming-soon = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
 review-transcriptions = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
+review-transcriptions-coming-soon = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
 add-questions = Shtoni Pyetje <small>(Së shpejti)</small>
+transcribe-audio-coming-soon = Transkriptoni Audio <small>(Së shpejti)</small>
 transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë
+coming-soon = Së Shpejti
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,21 +107,85 @@ community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuh�
 
 ## Hero section
 
+hero-title = Teknologji që flet gjuhën tuaj
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Pse duhet të punojë vetëm për ca nga gjuhët e botës IA-ja?</bold>
+hero-subtitle-2 = Gjuha jonë është historia jonë, bashkësia jonë, kultura jonë. Le të krijojmë grupet e të dhënave që duam të shohim në botë.
+# icon is an arrow that points downwards
+get-started = Fillojani <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice është një platformë falas, me burim të hapët, për krijim të dhënash nga bashkësia
+action-items-section-subtitle = Cilido mund të ruajë, rivitalizojë dhe ngrejë më lart gjuhën e vet, duke ndarë me të tjerët, duke krijuar dhe duke u kujdesur për grupe të dhënash tekstesh dhe të folure.
+scripted-card-header = E folur e Shkruar
+scripted-card-content = Lexoni me zë togfjalëshat në gjuhën tuaj dhe kontribuoni  në grupin e të dhënave të të folurit me pjesëmarrjen më të larmishme të publikut në botë.
+spontaneous-card-header = E folur Spontane
+spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
+language-text-card-header = Tekst Gjuhe
+language-text-card-content = Krijoni ose ndani me të tjerë pyetje, togfjalësh dhe tekst në përkatësi publike dhe tekst për përkthim, modele të vegjël gjuhësorë, etj.
+coming-soon = Së Shpejti
+add-text = Shtoni Tekst
 
 ## Community section
 
+community-section-title = Bazuar në bashkësitë globale, për bashkësi globale — 130 gjuhë dhe që shtohen!
+join-discord-community = Bëhuni Pjesë e Bashkësisë në Discord
+# label for button
+join-discord-community-action = Ejani te ne në Discord
+join-discord-community-content = Merrni pjesë në diskutime bashkësie gjuhe, bëni pyetje dhe mësoni rreth veprimtarish dhe bisedash të ardhme.
+find-us-on-matrix = Gjenani në Matrix
+find-us-on-matrix-content = Matrix-i është një protokoll i hapët, i peshës së lehtë për komunikime të atypëratyshme të decentralizuara dhe platforma e parapëlqyer e Mozilla-s për diskutime të hapëta.
+# label for button
+find-us-on-matrix-action = Gjenani në Matrix
+ask-mozilla-share = Kërkojin Mozilla-s të ndajë me të tjerët veprimtaritë tuaja
+ask-mozilla-share-content = Keni një veprimtari të mëparshme, apo të ardhshme? Na e tregoni dhe do ta njoftojmë në bashkësinë tonë, ose do të shkruajmë për të në blog!
+# label for button
+ask-mozilla-share-action = Ndajeni veprimtarinë tuaj me të tjerët
+download-contribution-certificate = Shkarkoni dëshminë e kontributit tuaj
+download-contribution-certificate-content = Shkarkoni një dëshmi për veprimtaritë tuaja, ose veten tuaj, nëse keni dhënë kontribut te Common Voice — kjo s’do të kish qenë e mundur pa ju!
+# label for button
+download-contribution-certificate-action = Merrni dëshminë tuaj
+contribute-github = Kontribuoni në GitHub
+contribute-github-content = Ky projekt s’do të kishte qenë i mundur pa njerëz si ju. 🎉 Ka mjaft rrugë për t’u përfshirë në Common Voice - që të jepni ndihmesë, s’ka nevojë të dini programim!
+# label for button
+contribute-github-action = Kontribuoni në GitHub
 
 ## Featured section
 
+featured-section-title = Paraqitur në…
+# icon is an arrow that points downwards
+download-press-pack = Shkarkoni paketën tonë për shtypin <icon></icon>
 
 ## Developers section
 
+developers-section-title = Grupe të dhënash të foluri, të hapët, të përdorshëm publikisht, në mbi 130+ gjuhë
+developers-section-subtitle = Grupe të dhënash për ASR, STT, TTS dhe kontekste të tjerë NLP - krijuar përmes pjesëmarrjes së bashkësisë.
+# icon is an arrow that points to the right
+explore-datasets = Eksploroni grupe të dhënash <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Përkrahni grupe të dhënash të hapët, të ngritur nga bashkësia
+read-sentences-link = Lexoni togfjalësha
+validate-readings-link = Vleftësoni lexime
+contribute-link = Kontribuoni te korpusi tekst
+answer-questions-link = Përgjigjuni pyetjeve
+transcribe-answers-link = Transkriptoni përgjigje
+review-transcriptions-link = Shqyrtoni transkriptime
+contribute-text-link = Kontribuoni tekst
+press-and-stories-link = Për shtypin dhe shembuj
 
 ## Partner section
 
+partner-section-title = Partneritet me ne
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Shoqëri teknologjish</bold> - investoni në krijim grupesh të dhënash të hapura për një ekosistem të lulëzuar shumëgjuhësh IA
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Shoqëria civile dhe studiues kërkimorë</bold> - krijoni, strehoni  dhe ndani me të tjerë lirisht grupe të dhënash që kanë ndikim të fuqishëm
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropë</bold> - sponsorizoni krijim grupesh të dhënash, për të ushqyer risi dhe zhvillim vendor
+# icon is an arrow that points to the right
+get-in-touch-button = Lidhuni <icon></icon>
+# Partners section
+our-partners-include = Në partnerët tanë përfshihen…

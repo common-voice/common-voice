@@ -327,21 +327,26 @@ export default class Clip {
         response.json(ret)
       })
 
-      const audioOutput = new Transcoder(audioInput)
-        .audioCodec('mp3')
-        .format('mp3')
-        .channels(1)
-        .sampleRate(32000)
-        .stream()
-        .pipe(pass)
+      try {
+        const audioOutput = new Transcoder(audioInput)
+          .audioCodec('mp3')
+          .format('mp3')
+          .channels(1)
+          .sampleRate(32000)
+          .stream()
+          .pipe(pass)
 
-      await pipe(
-        streamUploadToBucket,
-        Id.ap(getConfig().CLIP_BUCKET_NAME),
-        Id.ap(clipFileName),
-        Id.ap(audioOutput),
-        TE.getOrElse((err: Error) => T.of(console.log(err)))
-      )()
+        await pipe(
+          streamUploadToBucket,
+          Id.ap(getConfig().CLIP_BUCKET_NAME),
+          Id.ap(clipFileName),
+          Id.ap(audioOutput),
+          TE.getOrElse((err: Error) => T.of(console.log(err)))
+        )()
+      } catch (err) {
+        console.error('Failed transcoding step with error:', err)
+      }
+
     }
   }
 

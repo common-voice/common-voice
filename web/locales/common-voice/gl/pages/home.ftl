@@ -76,11 +76,15 @@ read-more-about = Máis información na pestana "Sobre nós"
 ## NAV ITEMS
 
 answer-questions = Responder preguntas <small>(Proximamente)</small>
+answer-questions-coming-soon = Responder preguntas <small>(proximamente)</small>
 review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
+review-transcriptions-coming-soon = Revisar transcricións <small>(proximamente)</small>
 add-questions = Engadir preguntas <small>(Proximamente)</small>
+transcribe-audio-coming-soon = Transcribir gravacións <small>(proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
+coming-soon = Proximamente
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas
 
 ## Hero section
 
+hero-title = Tecnoloxía que fala o seu idioma
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Ten sentido que a IA só funcione nunhas poucas linguas?</bold>
+hero-subtitle-2 = A nosa lingua é a nosa historia, a nosa comunidade, a nosa cultura. Creemos os conxuntos de datos que queremos ver no mundo.
+# icon is an arrow that points downwards
+get-started = Comezar
 
 ## Action items section
 
+action-items-section-title = Common Voice é unha plataforma gratuíta e de software libre deseñada para a creación comunitaria de conxuntos de datos de fala e texto.
+action-items-section-subtitle = Calquera persoa pode preservar, revitalizar e promover a súa lingua compartindo, creando e organizando conxuntos de datos de texto e voz.
+scripted-card-header = Fala guiada
+scripted-card-content = Lea frases en voz alta no seu idioma e contribúa ao conxunto de datos de voz de creación comunitaria máis diverso do mundo.
+spontaneous-card-header = Fala espontánea
+spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
+language-text-card-header = Texto na súa lingua
+language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
+coming-soon = Proximamente
+add-text = Achegar texto
 
 ## Community section
 
+community-section-title = Impulsado por comunidades globais, para comunidades globais — xa en 130 linguas e cada día máis!
+join-discord-community = Únase á nosa comunidade en Discord!
+# label for button
+join-discord-community-action = Unirse a Discord
+join-discord-community-content = Participe nos debates da súa comunidade lingüística, faga preguntas e infórmese sobre os próximos eventos e charlas.
+find-us-on-matrix = Estamos en Matrix
+find-us-on-matrix-content = Matrix é un protocolo aberto e lixeiro para comunicacións descentralizadas en tempo real e a plataforma de debate aberto preferida por Mozilla.
+# label for button
+find-us-on-matrix-action = Atoparnos en Matrix
+ask-mozilla-share = Comparta os seus eventos con Mozilla
+ask-mozilla-share-content = Ten un evento próximo ou xa celebrado? Compártao connosco e anunciámolo á nosa comunidade ou escribiremos sobre el no noso  blog.
+# label for button
+ask-mozilla-share-action = Compartir o seu evento
+download-contribution-certificate = Descargue o seu certificado de contribución
+download-contribution-certificate-content = Se contribuíu a Common Voice, descargue un certificado para recoñecer a súa participación. Sen ela, nada disto sería posible!
+# label for button
+download-contribution-certificate-action = Obter o seu certificado
+contribute-github = Contribúa en GitHub
+contribute-github-content = Este proxecto non sería posible sen xente coma vostede. 🎉 Hai moitas maneiras de participar en Common Voice, e non fai falta saber programar para axudar!
+# label for button
+contribute-github-action = Contribuír en GitHub
 
 ## Featured section
 
+featured-section-title = Destacado en...
+# icon is an arrow that points downwards
+download-press-pack = Descarga o noso paquete de prensa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Conxuntos de datos abertos de voz en máis de 130 linguas
+developers-section-subtitle = Conxuntos de datos para ASR, STT, TTS e outros contextos de PLN, creados grazas á participación da comunidade.
+# icon is an arrow that points to the right
+explore-datasets = Explore os conxuntos de datos <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Apoie a creación comunitaria de conxuntos de datos abertos
+read-sentences-link = Ler frases
+validate-readings-link = Validar lecturas
+contribute-link = Contribuír ao corpus textual
+answer-questions-link = Responder preguntas
+transcribe-answers-link = Transcribir respostas
+review-transcriptions-link = Revisar transcricións
+contribute-text-link = Achegar texto
+press-and-stories-link = Comunicación e novas
 
 ## Partner section
 
+partner-section-title = Colabore connosco
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Empresas tecnolóxicas</bold>: investindo na creación de conxuntos de datos abertos para un próspero ecosistema de IA multilingüe.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sociedade civil e investigadores</bold>: creando, aloxando e compartindo conxuntos de datos de impacto, de forma gratuíta.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Mecenas</bold>: patrocinando a creación de conxuntos de datos para impulsar a innovación e o desenvolvemento local.
+# icon is an arrow that points to the right
+get-in-touch-button = Póñase en contacto <icon></icon>
+# Partners section
+our-partners-include = Algúns dos nosos socios:

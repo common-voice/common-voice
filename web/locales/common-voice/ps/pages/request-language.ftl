@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink>.
     که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه بریښنالیک واستوو
     تشریح کول چې څنګه خپله ژبه جوړه کړئ</strong>.
-request-language-explanation-2 =
-    موږ به هم<strong>زموږ د ټولنې مدیر خبر کړو
-    چې تاسو لیوالتیا لرئ</strong>، نو دوی کولی شي تاسو ته هر څه درکړي
-    اضافي ملاتړ یا معلومات چې تاسو ورته اړتیا لرئ.
 request-language-form-email =
     .label = ستاسو بریښنالیک آدرس
 request-language-form-info =

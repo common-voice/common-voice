@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>>Еицырзеиԥшу ацәажәаратә бызшәақәа рыдаҟьа</languagesPageLink>.
     Ҳәарада, абри аформа шәызҭәы, ҳара<strong>хәарҭа злоу е-маил шәзаҳашьҭуеит,
     бызшәа</strong>шшьақәыргылатәу еилзыркаауа.
-request-language-explanation-2 =
-    Ҳара иара убасгьы <strong>ҳуаажәларра анапхгаҩцәа ираҳҳәоит
-    узызҿлымҳау</strong> иарбанзаалак иуҭарц азы
-    иацҵаны ацхыраара ма аинформациа уҭаххар ауеит.
 request-language-form-email =
     .label = Уе-маил:
 request-language-form-info =

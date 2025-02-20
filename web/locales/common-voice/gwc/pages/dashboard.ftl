@@ -5,7 +5,7 @@ toward-next-goal = مِڄی ہدفاں بام کٞہ
 goal-reached = ہدف حاصِیل کِیر
 clips-you-recorded = چھیں ریکارڈ کٞریل کلِپز
 clips-you-validated = چھیں صحی کٞریل کلِپز
-todays-recorded-progress = کامن وائس مئ آجوگ ریکارڈ کٞریل کلِپونہ کاریں ترقی
+todays-recorded-progress = کامن وائس مئ آجوگ ریکارڈ کٞریل کلِپوناں کاریں ترقی
 todays-validated-progress = کامن وائس مئ آجوگ صحی کٞراٞل کلِپونہ آٞں کاریں ترقی
 stats = حِساب
 awards = اِنعام
@@ -18,17 +18,17 @@ validated-clips = صحی کٞراٞل کلِپونہ
 total-approved = سواٞ منظور کٞراٞل
 overall-accuracy = مجموعی صِحت
 set-visibility = ماں پشوگیں اہلیت سیٹ کٞر
-visibility-explainer = اِیں سیٹینگ چھاں لیڈربورڈ پشباگ کنٹرول کٞراں۔ کون خفیہ ہُو تے چھاں کاریں ترقی بِلِگیل آشیں۔ اسیں مطلاٞب اِینوں چھاں فُٹو، صارفاں نام تے کاریں ترقی لیڈر بورڈ رہ اخکارہ نہ ہوئ۔ یاٞد ساٞت اُوں لیڈر بورڈ تازہ ہوگ بدلی اخکارہ کٞروگ مئ { $minutes }~ مِلٹ ݭیں۔
+visibility-explainer = اِیں سیٹینگ چھاں لیڈربورڈ پشباگ کنٹرول کٞراں۔ کون خفیہ ہُو تے چھاں کاریں ترقی بِلِگیل آشیں۔ اسیں مطلاٞب اِینوں چھاں فُٹو، صارفاں نام تے کاریں ترقی لیڈر بورڈ رہ اخکارہ نہ ہوئ۔ یاٞد ساٞت اُوں لیڈر بورڈ تازہ ہوگ دہ بدلی اخکارہ کٞروگ مئ { $minutes }~ مِلٹ ݭیں۔
 visibility-overlay-note = کون "اخکارہ" رہ سیٹ ہِی تے اِیں سیٹینگ </profileLink> پروفائیلاٞں پاٞݪ<profileLink> تھی بداٞل ہویں۔
 show-ranking = ماں درجہ پشاٞ
 
 ## Custom Goals
 
-get-started-goals = ہدف تھی شورو کٞر
-create-custom-goal = اٞ مقراٞر ہدف چاٞ
+get-started-goals = ہدف شورو کٞر
+create-custom-goal = تانی مرضی آں اٞ ہدف چاٞ
 goal-type = کٞہ قِسماں ہدف تو مقراٞر کٞروگ دِیانت؟
 both-speak-and-listen = دواٞمو
-both-speak-and-listen-long = دواٞمو (جولا تے بُج)
+both-speak-and-listen-long = دواٞمو (جولاگ تے بُجوگ)
 daily-goal = ہٞردوسوناں ہدف
 weekly-goal = ہفتہ وار ہدف
 easy-difficulty = سُگار
@@ -42,13 +42,13 @@ lose-changes-warning = مُٹو چھوروگیں مطلاٞب اِینوں تو 
 build-custom-goal = تانی مرضی آں ہدف تیار کٞر
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] پھݭوگ مئی مداٞد { $hours }گھنٹہ { $language }ذاتی ہدف سہ
-       *[other] پھݭوگ مئی مداٞد { $hours }گھنٹاٞ { $language }ذاتی ہدف سہ
+        [one] { $hours }گینٹہ { $language }  کٞہ پھ۔ݭوگ مئ ذاتی ہدف سہ مداٞد کٞر
+       *[other] { $hours }گینٹاٞ { $language } کٞہ پھݭُوگ مئ ذاتی ہدف سہ مداٞد کٞر
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] کامن وائیس سہ پھݭوگ مئی مداٞد { $hours }گھنٹہ اٞ جِب مئی ذاتی ہدف سہ
-       *[other] امن وائیس سہ پھݭوگ مئی مداٞد { $hours }گھنٹاٞ اٞ جِب مئی ذاتی ہدف سہ
+        [one] کامن وائیس کٞہ اٞ جِب مئ { $hours } گینٹہ کہ پھݭوگ مئ ذاتی ہدف سٞہ مداٞد کٞر
+       *[other] کامن وائیس کٞہ اٞ جِب مئ  { $hours }گینٹاٞ کٞہ پھݭوگ مئی ذاتی ہدف دہ مداٞد کٞر
     }
 set-a-goal = ہدف سیٹ کٞر
 cant-decide = فیصلہ نہ کٞربانتاٞ؟
@@ -127,16 +127,16 @@ help-share-goal = دی ہواٞز باٞتاٞگ مئ مُوں مداٞد کٞر
 confirm-goal = ہٞدف یقینی کٞر
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = تانی { $count } کلِپاں دوس دوساں ہدف { $type } کیر شریک کٞر
+share-n-daily-contribution-goal = تانی { $count } کلِپاں دوس دوساں ہدف { $type } ایں کیر شریک کٞر
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = تانی { $count } کلِپاں ہفتہ وار ہدف { $type } کیر شریک کٞر
 share-goal-type-speak = جولاگ
 share-goal-type-listen = بُجوگ
 share-goal-type-both = جولاگ تے بُجوگ
 # LINK will be replaced with the current URL
-goal-share-text = مئی سجہ اپان سہ #کامن وائیس مئی عطیہ ایں کیر اٞ ذاتی ہدف چائے تے مشین کہ چھاٞل پشائے اُوں اصل خلق کھیکی جولاٞں{ $link }
+goal-share-text = مئی سجہ #کامن وائیس مئی عطیہ ایں کیر اٞ ذاتی ہدف چائے تے مشین کہ چھاٞل پشائے اُوں اصل خلق کھیکی جولاٞں{ $link }
 weekly-goal-created = چھاں ہفتہ وار ہدف چاجِنت
-daily-goal-created = چھاں دوساں ہدف چاجِنت
+daily-goal-created = چھاں دوساں ہدف چاجِِنت
 track-progress = کاریں ترقی ہیماٞ تے تانی حِساٞباٞں پاٞݪ رہ مالوم کٞر
 return-to-edit-goal = تانی ہدف مئ بدلی گھیاٞگیں کیر ہِیماک نوٹ
 share-goal = ماں ہدف شریک کٞر
@@ -151,7 +151,7 @@ days =
     }
 recordings =
     { $count ->
-        [one] ر
+        [one] ریکارڈِنگ
        *[other] ریکارڈِنگز
     }
 validations =

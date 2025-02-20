@@ -76,11 +76,15 @@ read-more-about = مُھن مے پاݜ سے دئی بُوا
 ## NAV ITEMS
 
 answer-questions = سوالا سی جواب دا <small> شیرتے یدُو
+answer-questions-coming-soon = سوالا سی جواب دیؤ <small> شیرتے ینیِن
 review-transcriptions = آڈیو سی لیِکھ سی جائزہ گھیںا <small> شیرتے ینیِن
+review-transcriptions-coming-soon = آڈیو سی لیِکھ سی جائزہ گھیںُو <small> شیرتے ینیِن
 add-questions = سوال جمع کوا <small>شیرتے ینیِن
+transcribe-audio-coming-soon = آڈیو لیِگُو <small> شیرتے ینیِن
 transcribe-audio = آڈیو لیِگا <small> شیرتے ینیِن
 press-and-stories = پریس او سٹوری
 community-and-languages = کمیونیٹی او جیِب
+coming-soon = شیرتے ینیِن
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = کامن وائس کامے جیِ
 
 ## Hero section
 
+hero-title = ٹیکنالوجی کامک یأ چھی جیِب بنہ یی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> اے ائی کئی دُونیئی سی دھأک جیِبا سی کیا کام کویی؟ </bold>
+hero-subtitle-2 = مُھن جیِب مُھن قصہ چھی، مُھن گام تُھو، مُھن کلتور تُھو۔ یا مھو تے ڈیٹا سیٹ سوئی کامک یأ مھو دُونیئی می نیِمادیدا۔
+# icon is an arrow that points downwards
+get-started = لیگیا ہوا
 
 ## Action items section
 
+action-items-section-title = کامن وائس مفت، ہر ریک سی کیا کمیونیٹی سی دیِشا کوئیل ڈیٹا سیٹ چھی۔
+action-items-section-subtitle = ہر کآم لیِگیل او بنیل ڈیٹا سیٹ سیوادے تُنو جیِب سموگوبھادُو، ایس کے نیم جیدُون دے بھادُو آں ایس بھا کو بھادُو۔
+scripted-card-header = مُوش ما سیوادے بأت کؤ
+scripted-card-content = دُونئی سی مے گھین آں ہر ایک سی کیا دیٹا سیٹ  سی ایس کے تُنو جیِب می اُوچات آواز تے جملہ بین دے مدد کو۔
+spontaneous-card-header = مُوا بأت
+spontaneous-card-content = اُوچات کوئیل سوالا سی جواب تُنُو جیِب سی بنُو سی کیا دا۔ صرف بنیل جیِبا سی کیا چیر شیو تُھو۔
+language-text-card-header = جیِب سی لیِکھ
+language-text-card-content = تُنُو جیِب می سوالا سی جواب دیدے جملہ سوا۔ ترجمہ سی کیا لیؤ جیِبا سی ماڈل سی کیا لیِکھ سوا۔ ہامُوڑ چیر کآں کوابیَدُو
+coming-soon = شیرتے ینیِن
+add-text = لیِکھ جم کو
 
 ## Community section
 
+community-section-title = دُونئی سی خلگے کیِدُو، دُونیئی سی خلگا سی کیا 130 جیِبے جم ہوُئی آں دأل ہوا یدی!
+join-discord-community = دیسکارڈ کمیونیٹی می آمن میِلا
+# label for button
+join-discord-community-action = مھو سیت دیسکاڑد می میِل
+join-discord-community-content = جیِبا سی خلگا سیت بأت کؤ سی، سوالا سی توَس سی آں پأشا یل بأدا سی آں واقعات سی کیا شریک ہُوا۔
+find-us-on-matrix = مھو میٹرکس زید پا
+find-us-on-matrix-content = میٹرکس موزیلا سی اے پدا کوئیل، بأت مأدا سی کیا بُوڑ خلگا سی کیا پلیٹ فارم تھو۔
+# label for button
+find-us-on-matrix-action = مھو میٹرکس زید پا
+ask-mozilla-share = موزیلا ما تُنو واقعات شریک کؤ سی کیا توَس کوا
+ask-mozilla-share-content = کو تھو یے کی مُوش ما سرگرمی کی یی تیس مھو سیت مھید موزیلا زید شریک کوا یا تیسی بارا می بلاگ لیِگا۔
+# label for button
+ask-mozilla-share-action = تُنو سرگرمی شریک کوا
+download-contribution-certificate = تُنُو کانٹریبوشن سرٹیفیکیٹ مھیدا والا
+download-contribution-certificate-content = تُنو کیا یا تُنو کی سرگرمی سی کیا کامن وائس ز تھویے کامک کی یی دا تیسی مھیدا سرٹیفیکیٹ والا۔ تھویے ما بغیر ہے ممکن نُو تُھو!
+# label for button
+download-contribution-certificate-action = تُنو سرٹیفیکیٹ گھیِنا
+contribute-github = گٹ ہب کے تھلا
+contribute-github-content = می منصوبا چھی خلگے ما بغیر سرا ممکن نہ ہونیِندے۔ شاباش! کامن وائس سیت کم سی کؤ سی چیر پن تھی۔ تھیے ضروری نُو تُھو کے کھأکأ ایسی اصول دے کام کونیِن!
+# label for button
+contribute-github-action = گٹ ہب کے تھلا
 
 ## Featured section
 
+featured-section-title = پشا گا۔۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = مُھون پریس پیک آمن گے مھیدا والا<icon>
 
 ## Developers section
 
+developers-section-title = ہر ایک سی کیا آویل 130 جیِبا می ڈیٹا سیٹ
+developers-section-subtitle = ڈیٹا سیٹ ASR, STT, آں دأل NLP پروگراما سی کیا کامک یأمینے خلگے شیرک ہدے سیوادچھیدا۔
+# icon is an arrow that points to the right
+explore-datasets = مے ڈیٹا سیٹ لوٹا <icon>
 
 ## Get involved section
 
+get-involved-section-title = ہر ایک سی کیا پدا کمیوںیٹی سی ڈھأرا ڈیٹا سیٹ سی مدد کوا
+read-sentences-link = جملا بنا/پڑھاؤ کوا
+validate-readings-link = بنیل جملا سی توثیق کوا/بُوا کہ ٹیک تھی کو نأ
+contribute-link = لیِگیل مواد می مدد کوا
+answer-questions-link = سوالا سی جواد دا
+transcribe-answers-link = سوال آڈیو ما لیِگا
+review-transcriptions-link = آڈیو ما لیِگیل سی جائزہ گھیِنا
+contribute-text-link = لیِکھ دا/تھلا
+press-and-stories-link = پریس آں ایزید مُھون قصہ
 
 ## Partner section
 
+partner-section-title = مھو سیت شراکت کوا
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنی </bold> تیریقی کوئیل اے ائی سی ماحول می ڈیٹا سیٹ سی سوؤ می مُھن مدد کوا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سیول سوسائیٹی آں محقیق </bold> چیر مزیدا آ آثری ڈیٹا سیٹ مفت می سوا، ایس ملأݜ کوا آں مُوٹھایے شریک کوا۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> سخی توبی </bold> ڈیتا سیٹ سی سوؤ می مدد کوا
+# icon is an arrow that points to the right
+get-in-touch-button = مھو سیت رابطہ ہوا </icon>
+# Partners section
+our-partners-include = مُھو سأدا می تھی۔۔۔۔

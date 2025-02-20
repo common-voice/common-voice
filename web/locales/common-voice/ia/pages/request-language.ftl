@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Pagina de linguas de Common Voice</languagesPageLink>.
     Si non, compila iste formulario e nos <strong>te inviara un practic email
     explicante como implementar tu lingua</strong>.
-request-language-explanation-2 =
-    Nos alsi <strong>face saper a nostre gestor de communitate
-    que tu es interessate</strong>, assi que illes pote dar te tote
-    e assistentia o information extra del que tu poterea besoniar.
 request-language-form-email =
     .label = Tu adresse email
 request-language-form-info =

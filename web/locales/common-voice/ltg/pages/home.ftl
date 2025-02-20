@@ -78,24 +78,34 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 
 ## NAV ITEMS
 
+answer-questions = Atbiļdēt iz vaicuojumim
+coming-soon = Dreiži
 
 ## MENU ITEMS TOOLTIPS
 
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tehnologeja, kas runoj jiusu volūdā
 
 ## Action items section
 
+spontaneous-card-header = Spontana runa
+coming-soon = Dreiži
+add-text = Dalikt tekstu
 
 ## Community section
 
+find-us-on-matrix = Meklej myus Matrix
+# label for button
+find-us-on-matrix-action = Meklej myus Matrix
 
 ## Featured section
 
@@ -105,6 +115,10 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 
 ## Get involved section
 
+read-sentences-link = Skaiti teikumus
+answer-questions-link = Atbiļdi iz vaicuojumim
 
 ## Partner section
 
+# icon is an arrow that points to the right
+get-in-touch-button = Sasazynojit ar mums <icon></icon>

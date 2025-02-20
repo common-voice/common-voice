@@ -6,7 +6,6 @@ request-language-explanation-1 =
     ekhasini letilwimi laka Common Voice</languagesPageLink>.
     Uma lungekho, gcwalisa nali lifomu tsine <strong>sitokutfumelela i-email
     sikuchezela kutsi ulifaka njani lulwimi lwakho</strong>.
-request-language-explanation-2 = Sitokwatisa <strong>umphatsi wetfu wemmango kutsi unenshisekelo</strong>, khona batokukika lusito nemininingwane leyanele longayidzinga.
 request-language-form-email =
     .label = Likheli leliposi lakho lembane
 request-language-form-info =

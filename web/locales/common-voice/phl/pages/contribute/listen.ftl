@@ -12,6 +12,8 @@ listen-abort-cancel = تصدیق تھئنی جاری ساتہ
 listen-abort-confirm = تصدیق تھئنی ختم تھہ
 # Menu item
 validate-readings = منئنی توثیق تھہ۔
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = منئنی تصدیق <small>(لپ یھین/لپ پشِیجن)</small>
 
 ## MENU ITEM TOOLTIPS
 

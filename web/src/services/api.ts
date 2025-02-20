@@ -530,10 +530,12 @@ export default class API {
     email,
     languageInfo,
     languageLocale,
+    platforms,
   }: {
     email: string
     languageInfo: string
     languageLocale: string
+    platforms: string[]
   }) {
     return this.fetch(`${API_PATH}/language/request`, {
       method: 'POST',
@@ -541,6 +543,7 @@ export default class API {
         email,
         languageInfo,
         languageLocale,
+        platforms,
       },
     })
   }

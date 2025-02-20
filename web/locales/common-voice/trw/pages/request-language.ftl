@@ -2,7 +2,6 @@
 
 request-language-heading = اے نیم جیِب سی بارا می توَس کو
 request-language-explanation-1 = مھید <languagesPageLink> بُودا چھی جیِب چھی کامنن وائس سی پاݜ زید </languagesPageLink>؟ کو نی چھیو مے فارم پُون آں مھو یے <strong> تھے یے اے تیا ای میل پینیِن تی می میس بن نیِن یرأ تُو جیِب سی سیٹنگ کھأکأ کوبھادُو</strong>۔
-request-language-explanation-2 = مھو یے تُنو پروگرام سی کمیونیٹِی مینیجر ہُم شیےدا نیِن یرأ سے جنے تُو مے کم می حصّہ گھنیدپو آں تھے یے ایس می </strong> مے سپورٹ سی ضرورت چھی۔
 request-language-form-email =
     .label = چھی ای میل ایڈریس
 request-language-form-info =

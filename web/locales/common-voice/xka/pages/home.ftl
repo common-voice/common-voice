@@ -1,7 +1,7 @@
 ## Home Page
 
-home-title = کامن وایس موزیلا۔ام  شورو تھا اوں مشینان ام تہ خاق ام  ڄھلہ جولال بوجاون تہ
-default-tagline = موزیلا کامن وایس ا شرو ایناوں تانی مشینانوم تہ خلق  ام چھلا  جولال پشون تہ
+home-title = کامن وایس موزیلا۔ام  شورو تھال اوں مشینان ام تہ خلق ام  ڄھلہ جولال بُوجاون ۔
+default-tagline = موزیلا کامن وایس ا شرو این اوں تانی مشینانوم تہ پشون کتہ خلق  جولان تہ ۔
 home-cta = جول۔۔۔اما مدد تہ
 wall-of-text-start = اواز  قدرت مکھدا ا۔سان تہ دیجیل۔تسے کیربہ پا تانی مشین ام کیر قابل اتمال اوازونوم م شات۔پر  تراٹ ام اپان تہ اراک  ا سسثم م ا ڈاس  اوازوم  ڈیٹا شجون
 wall-of-text-more-mobile = گھن کمپنیان کا۔ ڈیٹا استمال تا بن  سو بڑ خلق ام تہ نہ پشون ۔اس خیال۔می ان سٹیفل۔تسے کیر اس  کامن ویس نام دہ ا پراجیکٹ شزو تھال۔۔۔۔سو جولال جانیل می امداد تہ تے سوا ام کیر بہ
@@ -71,16 +71,20 @@ welcome-staff = ملگر۔۔۔۔۔۔  بڑ بڑ۔ یا
 help-contribute = کامن وایس ا پ ثانی جولال لاڑیل دہ تے پروفاییل ترا تواوپن سورس ڈیٹا سیٹ ترال مے  با ڑ مدد تی ون
 login-company = ۔۔۔۔۔۔ای میل دہ ساین ان بہ
 profile-not-required = پروفایل ترال مدد دون پر۔ لازمی نہ۔۔۔۔۔تو لو گانٹھہ تے چیپر نال
-read-more-about = ساسے پیج دی پا باڑ
+read-more-about = اسے پیج دی پا باڑ
 
 ## NAV ITEMS
 
 answer-questions = سوالونی ام جواب دہ
+answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
-add-questions = سوالونی میلہ
-transcribe-audio = اڈیو نقل تہ
-press-and-stories = چھاپتھال تے قیصا
+review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
+add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
+transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
+transcribe-audio = بوجل نقل تیپہ پݭہ۔
+press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب
+coming-soon = یندر
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,12 +105,36 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 
 ## Hero section
 
+hero-title = کاں ٹکنالوجی تسے جب دون تہ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = اسے ملگر اون۔
+hero-subtitle-2 = اسے جیب اسے قیصااسے دراوال تے اسےایتیل بیشیل این۔یا اوں زات ڈیٹاسیٹ ترای کا ں بہ دنیی مے°پھشیل داون تہ
+# icon is an arrow that points downwards
+get-started = شرو
 
 ## Action items section
 
+action-items-section-title = کامن وایس اک ازاد،کھولاوڈیٹا کرییشن پلیٹ فارم این۔
+action-items-section-subtitle = کو۔۔تی ۔۔تانی جِب اے°منیل اے° تے چوݨیلہ ڈیٹاسیٹ تران،میݭٹ تہ لاڑان، تن تانی جب رش بان،تےایج تیبان
+scripted-card-header = میݭٹ دا چوݨاگیال جولال۔
+scripted-card-content = تانی جیب اےجولال دریکے منا۔تے دنیا اے سوام دا ران ڈیٹا سیٹ می تانی ڈا تلا
+spontaneous-card-header = جولال
+language-text-card-header = جیب اے چوݨاگیل
+coming-soon = یندر
+add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section
 
+community-section-title = عالمی سطح دا رسے سپورٹ،عالمی دراوال کیر۔دش تے شو بیش  جیب ۔۔۔۔لا دی پا پتّرون
+join-discord-community = ڈسکورڈدراوال سہ ٹل بہ۔
+# label for button
+join-discord-community-action = ڈسکورذ رل اساں سہ ٹل بہ۔
+join-discord-community-content = جیب جولال ام می ٹل بہ۔یندر۔جولال  جان تے تپوس تہ
+find-us-on-matrix = مٹرکس رل اساں پش۔
+find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر ازاد ا پلیٹ فارم
+# label for button
+find-us-on-matrix-action = مٹرکس رل اساں پش۔
+ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
 
 ## Featured section
 
@@ -116,6 +144,17 @@ community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  
 
 ## Get involved section
 
+read-sentences-link = جولال من۔
+validate-readings-link = ریکاڑنگ والیڈٹنگ تھ
+contribute-link = مشین اے° جوݨا گال مداد دہ۔
+answer-questions-link = سوال جواب
+transcribe-answers-link = جوابونی دی جب تھ گیرو۔
+review-transcriptions-link = دیراں نالیل
+contribute-text-link = سبق می مداد دہ
+press-and-stories-link = سیپ دہ۔
 
 ## Partner section
 
+partner-section-title = اسان سہ ٹلگر
+# Partners section
+our-partners-include = اسے مرگر اون۔

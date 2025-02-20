@@ -1005,6 +1005,24 @@ export default class DB {
     )[0][0]
   }
 
+  async getAverageSecondsPerClip(
+    localeId: number
+  ): Promise<{ avg_seconds_per_clip: number }> {
+    const [[row]] = await this.mysql.query(
+      `
+        SELECT AVG(duration)/1000 as avg_seconds_per_clip
+        FROM clips
+        WHERE duration > 0
+        AND locale_id = ?
+      `,
+      [localeId]
+    )
+
+    return {
+      avg_seconds_per_clip: Number(row.avg_seconds_per_clip),
+    }
+  }
+
   async getLanguageSentenceCounts(
     localeId: number
   ): Promise<{ locale_id: number; count: number }> {
@@ -1232,7 +1250,7 @@ export default class DB {
     )[0][0].count
   }
 
-  async getVariants(client_id: string, locale?: string) {
+  async getVariants(locale?: string) {
     const [variants] = await this.mysql.query(
       `
       SELECT name as lang, variant_token AS tag, v.id AS variant_id, variant_name FROM variants v

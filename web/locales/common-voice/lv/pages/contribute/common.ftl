@@ -34,11 +34,14 @@ target-segment-first-banner = Palīdziet izveidot Common Voice pirmo mērķa seg
 target-segment-add-voice = Pievienojiet savu balsi
 target-segment-learn-more = Uzzināt vairāk
 change-preferences = Mainīt iestatījumus
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Balsu kolekcija
-contribute-sentence-collection-nav-header = Teikumu apkopotājs
+login-signup = Pieteikties / Reģistrēties
+vote-yes = Jā
+vote-no = Nē
+datasets = Datu kopas
+languages = Valodas
+about = Par
+partner = Partneri
+submit-form-action = Iesniegt
 
 ## Reporting
 

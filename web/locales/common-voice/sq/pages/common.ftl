@@ -4,11 +4,11 @@
 
 ## Languages
 
-aa = { "" }
 ab = Abkazisht
 ace = Acehnezisht
 ady = Adëgabzisht
 af = Afrikaans
+aln = Gegnisht
 am = Abisinisht
 an = Aragonisht
 ar = Arabisht
@@ -58,6 +58,7 @@ ga-IE = Irlandisht
 gl = Galiciane
 gn = Guaraneze
 gom = Goan Konkani
+gsw = Alsatisht
 gu-IN = Gujaratase
 ha = Hausa
 he = Hebraisht
@@ -196,6 +197,7 @@ privacy = Privatësi
 terms = Kushte
 cookies = Cookies
 faq = PBR
+documentation = Dokumentim
 content-license-text = Lëndë e përdorshme sipas një <licenseLink>licence Creative Commons</licenseLink>
 share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
 share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendtë, dhuroni zërin tuaj te { $link }

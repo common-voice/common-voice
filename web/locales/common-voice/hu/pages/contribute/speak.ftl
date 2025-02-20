@@ -35,7 +35,7 @@ review-recording = Ellenőrzés
 review-rerecord = Újrarögzítés
 review-cancel = Beküldés megszakítása
 review-keep-recordings = Felvételek megtartása
-review-delete-recordings = Felvételeim törlése
+review-delete-recordings = Saját felvételek törlése
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
@@ -62,6 +62,8 @@ create-profile-button = Profil létrehozása
 img-alt-success-checkmark = sikert jelző pipa
 # menu item
 read-sentences = Mondatok felolvasása
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Mondatok olvasása <small>(hamarosan)</small>
 
 ## MENU ITEM TOOLTIPS
 

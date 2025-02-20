@@ -2,7 +2,7 @@
 
 contact-title = رابطہ کو فارم
 contact-form-name =
-    .label = نام
+    .label = ناں
 contact-form-message =
-    .label = پیغام
+    .label = سنیاہ
 contact-required = مطلوبہ

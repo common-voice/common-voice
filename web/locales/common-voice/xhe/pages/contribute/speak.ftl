@@ -62,6 +62,8 @@ create-profile-button = ہِک پروفائل جوڑ
 img-alt-success-checkmark = کامیابی تا نشان
 # menu item
 read-sentences = ڳالھ وارینک ٻُجھ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ڳالھ واریں پڑھ <small>(جلدی چیسن)</small>
 
 ## MENU ITEM TOOLTIPS
 

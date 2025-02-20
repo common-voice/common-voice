@@ -298,7 +298,9 @@ export default class API {
     const project = isProject(req.query?.project)
       ? req.query.project
       : 'common-voice'
-    const availableLanguages = getFolderNames(path.join(LOCALES_PATH, project))()
+    const availableLanguages = getFolderNames(
+      path.join(LOCALES_PATH, project)
+    )()
     res.json({
       project,
       availableLanguages,
@@ -733,18 +735,8 @@ export default class API {
     )
   }
 
-  getVariants = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params,
-    }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await this.model.db.getVariants(client_id, params?.locale || null)
-    )
+  getVariants = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.db.getVariants(params?.locale || null))
   }
 
   sendLanguageRequest = async (
@@ -752,11 +744,12 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    const { email, languageInfo, languageLocale } = request.body
+    const { email, languageInfo, languageLocale, platforms } = request.body
 
     try {
       const info = await this.email.sendLanguageRequestEmail({
         email,
+        platforms,
         languageInfo,
         languageLocale,
       })
@@ -764,6 +757,7 @@ export default class API {
       const json = {
         id: info?.messageId,
         email,
+        platforms,
         languageInfo,
         languageLocale,
       } as any // eslint-disable-line @typescript-eslint/no-explicit-any

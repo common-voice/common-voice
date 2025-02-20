@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice-ის ენების გვერდზე</languagesPageLink>.
     თუ არაა, შეავსეთ კითხვარი და <strong>გამოგიგზავნით წერილს
     ენის დამატების შესახებ მითითებებით</strong>.
-request-language-explanation-2 =
-    ამასთანავე, <strong>ვაცნობებთ ჩვენი ერთობის ხელმძღვანელს,
-    რომ გამოთქვით სურვილი</strong>, შედეგად მიიღებთ დამატებით
-    მხარდაჭერასა და ინფორმაციას, რომელიც შეიძლება გამოგადგეთ.
 request-language-form-email =
     .label = თქვენი ელფოსტის მისამართი
 request-language-form-info =

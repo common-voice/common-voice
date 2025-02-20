@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Languages ​​صفحو </languagesPageLink>.
     جيڪڏهن نه، هي فارم ڀريو ۽ اسين<strong>توهان کي هڪ آسان اي ميل موڪلينداسين
     وضاحت ڪندي توهان جي ٻولي ڪيئن قائم ڪجي</strong>.
-request-language-explanation-2 =
-    اسان پڻ<strong>پنھنجي ڪميونٽي مئنيجر کي خبر ڏيو
-    جنهن ۾ توهان کي دلچسپي آهي</strong>، تنهن ڪري اهي توهان کي ڏئي سگهن ٿا
-    اضافي مدد يا معلومات توهان کي گهربل هجي.
 request-language-form-email =
     .label = توھانجو اي ميل پتو
 request-language-form-info =

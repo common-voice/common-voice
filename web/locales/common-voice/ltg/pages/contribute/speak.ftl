@@ -1,3 +1,6 @@
+speak = Runojit
+speak-now = Runojit tagad
+speak-subtitle = Īrokstit sovu bolsu
 record-cta = Suocit īraksteišonu
 record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
 record-platform-not-supported-desktop = Datorūs varit zamynluodēt jaunuokū:
@@ -47,6 +50,8 @@ continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
 create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
 thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
+first-cta-gender-select-help-text =
+    .label = Kai jius raksturuotu sovu dzymumu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paļdis, pa pazīduojot sova bolsa īrokstus!
 second-cta-subtitle-text = Lītojūt profilu, varēsit sekuot leidza sovai aktivitatei i sasazynuot ar bolsa datu vuocieju kūpīnu.
@@ -54,9 +59,16 @@ already-have-an-account = Jums jau ir konts? <login>Pīsaslēdzit</login>
 create-profile-button = Sataiseit profilu
 # IMAGE TAGS
 img-alt-success-checkmark = veiksmis atzeime
+# menu item
+read-sentences = Skaiteit teikumus
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Skaiteit teikumus <small>(dreizumā)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Skaitit teikumus, atbiļdit iz vaicuojumim
+read-sentences-menu-item-tooltip = Īrokstit, kai skaitit teikumus sovā volūdā
+answer-questions-menu-item-tooltip = Īrokstit, kai atbiļdit iz vaicuojumim sovā volūdā
 
 ## MENU ITEM ARIA LABELS
 

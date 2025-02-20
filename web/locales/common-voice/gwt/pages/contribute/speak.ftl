@@ -62,11 +62,13 @@ create-profile-button = پروفائل ݫُپَؤ
 img-alt-success-checkmark = کامیابِیَنہ نخہ
 # menu item
 read-sentences = جُملہ نامہ ژَؤ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = کلاوَہ ژَؤ<small>(ددُوپی ژِمان</small>)
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = جُملا ژَؤ سوالاتَنی جواب نامہ ݪِؤ
-read-sentences-menu-item-tooltip = تانَئ جُملا ژمېنے تانَئ رِکاڈ کېرِؤ
+speak-contribute-menu-tooltip = کلاوَہ  ژَؤ سوالاتَنی جواب نامہ ݪِؤ
+read-sentences-menu-item-tooltip = تانَئ کلاوَہ  ژمېنے تانَئ رِکاڈ کېرِؤ
 answer-questions-menu-item-tooltip = تانُو ہانسِی ئے سوالات اؤ اشارانہ جواب ݪِمېنے تانُو رِکاڈہ کېرِؤ
 
 ## MENU ITEM ARIA LABELS

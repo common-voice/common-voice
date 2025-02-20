@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common-Voice-Sprachenseite</languagesPageLink> aufgelistet ist.
     Wenn nicht, füllen Sie dieses Formular aus und wir <strong>senden Ihnen eine praktische E-Mail
     mit einer Anleitung zum Einrichten Ihrer Sprache</strong>.
-request-language-explanation-2 =
-    Wir werden auch <strong>unseren Community-Manager informieren,
-    dass Sie interessiert sind</strong>, damit Ihnen zusätzliche Unterstützung oder Informationen gegeben werden kann, die Sie benötigen.
 request-language-form-email =
     .label = Ihre E-Mail-Adresse
 request-language-form-info =
@@ -37,4 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Möglicherweise haben wir diese Anfrage nicht erhalten. Bitte schreiben Sie uns direkt
     an <emailLink>{ $email }</emailLink> und wir melden uns bei Ihnen!
-
+request-for-scripted-speech-toggle = Geschriebene Sprache anfordern
+request-for-spontaneous-speech-toggle = Spontane Sprache anfordern
+need-help-deciding-platform = Benötigen Sie Hilfe bei der Auswahl?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = In <strong>Geschriebener Sprache</strong> (was üblicherweise als Common Voice bekannt ist) können Sätze in Ihrer Sprache laut vorgelesen werden.
+need-help-deciding-platform-explanation-2 = <strong>Spontane Sprache</strong> ist ein neuer Teil von Common Voice, mit dem Sie Fragen natürlicher und umgangssprachlich beantworten können.
+need-help-deciding-platform-explanation-3 = Wenn Ihre Sprache in keinem der Bereiche der Plattform angezeigt wird, wählen Sie beide aus.

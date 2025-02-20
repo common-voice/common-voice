@@ -1,98 +1,118 @@
-import * as React from 'react';
-import { useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { useState } from 'react'
+import { useHistory } from 'react-router-dom'
+import { Localized } from '@fluent/react'
 
-import { useToLocaleRoute } from '../../../locale-helpers';
-import { useAPI } from '../../../../hooks/store-hooks';
-import URLS from '../../../../urls';
+import { useToLocaleRoute } from '../../../locale-helpers'
+import { useAPI } from '../../../../hooks/store-hooks'
+import URLS from '../../../../urls'
 import {
   LabeledCheckbox,
   LabeledInput,
   LabeledTextArea,
   StyledLink,
   Button,
-} from '../../../ui/ui';
-import PageHeading from '../../../ui/page-heading';
-import ErrorPage from '../../error-page/error-page';
-import PageTextContent from '../../../ui/page-text-content';
-import Page from '../../../ui/page';
-import ClientLogger from '../../../../logger';
+} from '../../../ui/ui'
+import Toggle from './toggle'
+import ExpandableInformation from '../../../expandable-information/expandable-information'
+import PageHeading from '../../../ui/page-heading'
+import ErrorPage from '../../error-page/error-page'
+import PageTextContent from '../../../ui/page-text-content'
+import Page from '../../../ui/page'
+import ClientLogger from '../../../../logger'
+import { trackGtag } from '../../../../services/tracker-ga4'
 
-const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' });
+const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' })
 
-const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
+const EMAIL_ADDRESS = 'commonvoice@mozilla.com'
 
-import './request.css';
+import './request.css'
 
 const LanguagesRequestFormPage = () => {
-  const api = useAPI();
-  const toLocaleRoute = useToLocaleRoute();
-  const history = useHistory();
+  const api = useAPI()
+  const toLocaleRoute = useToLocaleRoute()
+  const history = useHistory()
 
-  const [isSendingRequest, setIsSendingRequest] = useState(false);
-  const [hasGenericError, setHasGenericError] = useState(false);
-  const [emailValue, setEmailValue] = useState('');
-  const [languageInfoValue, setLanguageInfoValue] = useState('');
-  const [privacyAgreedChecked, setPrivacyAgreedChecked] = useState(false);
+  const [isSendingRequest, setIsSendingRequest] = useState(false)
+  const [hasGenericError, setHasGenericError] = useState(false)
+  const [emailValue, setEmailValue] = useState('')
+  const [languageInfoValue, setLanguageInfoValue] = useState('')
+  const [privacyAgreedChecked, setPrivacyAgreedChecked] = useState(false)
+  const [scriptedSpeechToggled, setScriptedSpeechToggled] = useState(false)
+  const [spontaneousSpeechToggled, setSpontaneousSpeechToggled] =
+    useState(false)
+
+  const noPlatformToggleOptionSelected =
+    !scriptedSpeechToggled && !spontaneousSpeechToggled
+
+  const isSubmitButtonDisabled =
+    isSendingRequest || noPlatformToggleOptionSelected
+
+  const platforms = [
+    ...(scriptedSpeechToggled ? ['scripted-speech'] : []),
+    ...(spontaneousSpeechToggled ? ['spontaneous-speech'] : []),
+  ]
 
   const handleEmailInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    setEmailValue(event.target.value);
-  };
+    setEmailValue(event.target.value)
+  }
 
   const handleLanguageInfoTextAreaChange = (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    setLanguageInfoValue(event.target.value);
-  };
+    setLanguageInfoValue(event.target.value)
+  }
 
   const handlePrivacyAgreedChange = (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    setPrivacyAgreedChecked(event.target.checked);
-  };
+    setPrivacyAgreedChecked(event.target.checked)
+  }
 
   const isValidSubmissionData = () => {
     return (
       privacyAgreedChecked === true &&
       emailValue.trim().length !== 0 &&
       languageInfoValue.trim().length !== 0
-    );
-  };
+    )
+  }
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+    event.preventDefault()
 
     // don't submit if we're sending a request
     if (isSendingRequest) {
-      return;
+      return
     }
 
     if (!isValidSubmissionData()) {
-      return;
+      return
     }
 
-    setIsSendingRequest(true);
+    setIsSendingRequest(true)
     try {
       await api.sendLanguageRequest({
         email: emailValue.trim(),
         languageInfo: languageInfoValue.trim(),
         languageLocale: navigator?.language,
-      });
+        platforms,
+      })
+
+      trackGtag('request-language', { platforms })
 
       // redirect to languages/success path if email sent correctly
-      history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS));
+      history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS))
     } catch (e) {
-      logger.error(e);
-      setIsSendingRequest(false);
+      logger.error(e)
+      setIsSendingRequest(false)
 
-      setHasGenericError(true);
-      window.scrollTo({ top: 0 });
+      setHasGenericError(true)
+      window.scrollTo({ top: 0 })
     }
-    setIsSendingRequest(false);
-  };
+    setIsSendingRequest(false)
+  }
 
   if (hasGenericError) {
     return (
@@ -106,7 +126,7 @@ const LanguagesRequestFormPage = () => {
           <p />
         </Localized>
       </ErrorPage>
-    );
+    )
   }
 
   return (
@@ -126,12 +146,6 @@ const LanguagesRequestFormPage = () => {
               }}>
               <p />
             </Localized>
-
-            <Localized
-              id="request-language-explanation-2"
-              elems={{ strong: <strong /> }}>
-              <p />
-            </Localized>
           </PageTextContent>
 
           <form
@@ -149,6 +163,36 @@ const LanguagesRequestFormPage = () => {
                 type="email"
               />
             </Localized>
+
+            <div className="toggles-container">
+              <Toggle
+                label="request-for-scripted-speech-toggle"
+                checked={scriptedSpeechToggled}
+                onToggle={setScriptedSpeechToggled}
+              />
+              <div className="hr" />
+              <Toggle
+                label="request-for-spontaneous-speech-toggle"
+                checked={spontaneousSpeechToggled}
+                onToggle={setSpontaneousSpeechToggled}
+              />
+            </div>
+
+            <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
+              <Localized
+                id="need-help-deciding-platform-explanation-1"
+                elems={{ strong: <strong /> }}>
+                <p />
+              </Localized>
+              <Localized
+                id="need-help-deciding-platform-explanation-2"
+                elems={{ strong: <strong /> }}>
+                <p />
+              </Localized>
+              <Localized id="need-help-deciding-platform-explanation-3">
+                <p />
+              </Localized>
+            </ExpandableInformation>
 
             <PageTextContent>
               <p>
@@ -197,7 +241,15 @@ const LanguagesRequestFormPage = () => {
             />
 
             <Localized id="submit-form-action">
-              <Button type="submit" rounded isBig disabled={isSendingRequest} />
+              <Button
+                type="submit"
+                rounded
+                isBig
+                outline={false}
+                disabled={isSubmitButtonDisabled}
+                className="request-language-btn"
+                data-testid="request-language-btn"
+              />
             </Localized>
           </form>
         </div>
@@ -212,7 +264,7 @@ const LanguagesRequestFormPage = () => {
         </div>
       </div>
     </Page>
-  );
-};
+  )
+}
 
-export default LanguagesRequestFormPage;
+export default LanguagesRequestFormPage

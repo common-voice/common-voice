@@ -25,4 +25,5 @@ learn-how-to-use-prompts-guidance = Барои гирифтани маълумо
 learn-how-to-use-transcribe = Маълумот дар бораи овонависӣ
 learn-how-to-use-transcribe-guidance = Барои гирифтани маълумот дар бораи тарзи истифодаи ин саҳифа, <guidanceLink>дар ин ҷой</guidanceLink> зер кунед
 learn-how-to-use-check-transcript = Маълумот дар бораи тарзи тафтиши овонависӣ
+learn-how-to-use-check-transcript-explanation = Овонависӣ бояд ҳар як калима ё садои ғайрилуғавии гуфтугӯиро, ки шахс талаффуз кардааст, аз ҷумла такрорҳо, дақиқ ва пурра сабт кунад.
 learn-how-to-use-check-transcript-guidance = Барои гирифтани маълумот дар бораи тарзи истифодаи ин саҳифа, <guidanceLink>дар ин ҷой</guidanceLink> зер кунед

@@ -62,6 +62,8 @@ create-profile-button = تُنو خاکہ سوا
 img-alt-success-checkmark = کامأبی چیک کو
 # menu item
 read-sentences = جملا پڑھاؤ کوا
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملا بنُو/پڑھاؤ کؤ <small> شیرتے یے نیِن
 
 ## MENU ITEM TOOLTIPS
 

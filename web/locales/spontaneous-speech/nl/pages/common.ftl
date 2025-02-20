@@ -22,6 +22,7 @@ report-button = Rapporteren
 skip-button = Overslaan
 submit-button = Indienen
 contribute = Bijdragen
+request-new-language = Nieuwe taal aanvragen
 
 ## Navbar
 

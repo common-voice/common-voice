@@ -14,6 +14,8 @@ listen-abort-cancel = Ellenőrzés folytatása
 listen-abort-confirm = Ellenőrzés befejezése
 # Menu item
 validate-readings = Felolvasások ellenőrzése
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Felolvasások ellenőrzése <small>(hamarosan)</small>
 
 ## MENU ITEM TOOLTIPS
 

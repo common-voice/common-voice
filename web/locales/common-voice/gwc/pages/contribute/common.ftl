@@ -6,15 +6,15 @@ skip = چھوروگ
 shortcuts = کٞھٹِین پن
 clips-with-count-pluralized =
     { $count ->
-        [one] اٞک
-       *[other] دی
+        [one] کلِپ
+       *[other] کلِپونہ
     }
 goal-help-recording = تئی عام ہاواز پھݭاگ سہ مداٞد کیر <goalPercentage></goalPercentage> مُوں دوساں  { $goalValue } ریکارڈ کٞروگاں مقصد مئی۔
 goal-help-validation = تئی عام ہاواز پھݭاگ سہ مداٞد کیر <goalPercentage></goalPercentage> مُوں دوساں { $goalValue } دروستیاٞں مقصد مئی۔
 contribute-more =
     { $count ->
-        [one] اٞک
-       *[other] دی
+        [one] دی کٞروگ کٞہ { $count } تیار تھو آٞ؟
+       *[other] دی کٞروگ کٞہ { $count } تیار تھو آٞ؟
     }
 speak-empty-state = مٞہ اِیں جِب مئی دی ریکارڈنگیں کیر جملاٞ نہ لٞد۔۔۔
 no-sentences-for-variants = تُھوں جِباٞں جدا لہجاٞ مئی جملاٞ لاٞست۔ لخہ تُو دیانت تے، تُو تانی سیٹنگ بدلا تانی جِب مئی دی جملاٞ بِیݭ۔
@@ -29,12 +29,12 @@ target-segment-generic-card = تُو اٞ ہدف والہ حصاٞ مئی مدا
 target-segment-first-banner = کامن وائیساں اولاں ہدفاٞں حصاٞ مئی مداٞد کٞر { $locale }
 target-segment-add-voice = تانی ہاواز شامل کٞر
 target-segment-learn-more = دی مالوم کٞر
-change-preferences = تانی خوشاگاٞل بدلاٞ
+change-preferences = تانی ترجیحات بدلاٞ
 login-signup = داخل ہو  / اپان داخل کٞر
 vote-yes = اُوں
 vote-no = نہ
 datasets = مواداں سیٹ
-languages = جِب
+languages = جِبونہ
 about = باٞراٞ مئی
 partner = سیت
 submit-form-action = جمع کٞر
@@ -48,17 +48,17 @@ report-offensive-language = لیݪ جِب
 report-offensive-language-detail = جملاٞ مئی باٞ اِزاٞت یا لیݪ جِب شامل تھی۔
 report-grammar-or-spelling = گرامر / ہجیں غلطی
 report-grammar-or-spelling-detail = جملاٞ مئی گرامر یا ہجیں غلطی تھی۔
-report-different-language = دی جِب
-report-different-language-detail = ائی اِیں جِب مئی چُنڑیت کیں یہ دِئینت۔
+report-different-language = بدِیل جِب
+report-different-language-detail = یہ کیں جِبہ دیانت تہ ائی تاٞس ما بدِیل جِب مئ چُنڑیل تھی۔
 report-difficult-pronounce = منوگ بکھاٞر تُھو۔
-report-difficult-pronounce-detail = اٞن مئی اینچھلاٞں الفاٞظ یا جملاٞ شامل ہُواٞنت اُوں تسوں ادا کٞروگ یا پروگ بکھاٞر تُھو۔
+report-difficult-pronounce-detail = اٞن مئی اینچھلاٞں الفاٞظ یا فِقراٞ شامل ہُواٞنت اُوں تسوں ادا کٞروگ یا پروگ بکھاٞر تُھو۔
 report-offensive-speech = لاݪ جولاگ
 report-offensive-speech-detail = اِیں کلیپ مئی باٞ اِزات یا لیݪ جِب استعمال ہِیت۔
 report-other-comment =
     .placeholder = تبصرہ
 success = کامیابی
 continue = جاری ساٞت
-report-success = رپوٹ کامیابی سہ منظور ہُو
+report-success = رپوٹ کامیابی سہ پھݭ۔
 
 ## Speak & Listen Shortcuts
 
@@ -77,7 +77,7 @@ shortcut-discard-ongoing-recording = بٞچ کٞر
 shortcut-discard-ongoing-recording-label = اِیں ریکارڈنگ دُو کٞر
 shortcut-submit = پتکہ یہ
 shortcut-submit-label = کلیپ جمع کٞر
-request-language-text = تانی جِب کامن وائیس مئی نہ لیڄاٞ؟
+request-language-text = تانی جِب کامن وائیس مئی نہ پشنتاٞ؟
 request-language-button = اٞ جیبیں کیر درخاس کٞر
 
 ## Listen Shortcuts
@@ -85,7 +85,7 @@ request-language-button = اٞ جیبیں کیر درخاس کٞر
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
-shortcut-play-toggle-label = ݭا / بن کٞر
+shortcut-play-toggle-label = بزاٞ / بن کٞر
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ی ے
@@ -100,10 +100,10 @@ contribution-criteria-link = شراکیتاں معیار جانوگ
 contribution-criteria-page-title = شراکیتاں معیار
 contribution-criteria-page-description = ہاوازیں ریکارڈنگ بوجوگاٞں وخہ جاناٞ اُوں کٞنا بِیݭجنت تے تانی ریکارڈنگ ران کٞروگیں کیر مداٞد کٞروگ!
 contribution-for-example = مثالاٞں طور دہ
-contribution-misreadings-title = کھوچو پروگ
+contribution-misreadings-title = کھوچہ پروگ
 contribution-misreadings-description = کون بُجوݭات، بیݭاٞ اُوں کٞناں ریکارڈ ہُوت تتھی ای چُنڑجینت؛ آٞس مئی کٞہ اِیچھیٹ غلطی پا تھی تام قبول مُو کٞر۔ باٞر عام غلطیاٞنیں اِیں تھی؛
-contribution-misreadings-description-extended-list-1 = ڄھار ہوگیل <strong> اٞ </strong><strong> یا </strong> ریکارڈنگاٞں اواٞل مئی
-contribution-misreadings-description-extended-list-2 = ڄھار ہوگیل اٞ <strong> س </strong> الفاظاٞں آخر مئی
+contribution-misreadings-description-extended-list-1 = ریکارڈِنگاٞں شورو مئ  <strong> "اٞ" </strong> یا <strong> "دی" </strong> چھوروگ۔
+contribution-misreadings-description-extended-list-2 = اٞ لفظاٞں آٞخیر مئ <strong> س </strong> چھوروگ۔
 contribution-misreadings-description-extended-list-3 = چُنڑوگ مئی اختصار ہیماٞ موجود نانت، لخہ "We're" آٞں بھاٞ "We are"، یا دی چھلہ۔
 contribution-misreadings-description-extended-list-4 = ریکارڈنگ شردہ کاٹ کٞروگ دہ نیپتوگ لفظاں دُوت نات۔
 contribution-misreadings-description-extended-list-5 = لفظ پروگ مئ اٞلات دھیر کوشیش کٞروگ۔
@@ -127,7 +127,7 @@ contribution-varying-pronunciations-description-extended = دی دِیش کٞہ 
 contribution-varying-pronunciations-example-1-title = تٞن تانی تھوس رہ پمیل ٹیپ ݭیئ۔
 contribution-varying-pronunciations-example-1-explanation = [‘بیریٹ’ ٹیپ صحی کٞہ ٹیمہ اولاٞں سلیبل رہ زور یاٞݭات تہ (برطانوی) یا دویاٞم رہ (امریکی)]
 contribution-varying-pronunciations-example-2-title = تسیں تھیر راٞت آݭ۔
-contribution-varying-pronunciations-example-2-explanation = [انگریزی مئی ‘Raised’ اٞ سلیبلاٞں جوڑہ اتمال ہُواں، ائی دُو سلیبل نہ۔]
+contribution-varying-pronunciations-example-2-explanation = [انگریزی مئی ‘Raised’ اٞ سلیبلاٞں جوڑہ ادا ہواں، ائی دُو سلیبل نہ۔]
 contribution-background-noise-title = پس منظریں ہٞؤو۔
 contribution-background-noise-description = مٞہ دِیاٞنت اُوں مشیناں اِزدہ کٞروگاں الگورِتھم اِیں قابیل ہوئ اُوں سٞہ مختلف پس منظریں ہٞؤو مئ فرق کٞربئ تہ، تے نسبتاً تیز ہواز پا قبولباٞں اِیں شرط دہ اُوں سٞہ تھئ سابت متناٞں بُجوگ ما نہ رٹینش تہ۔ اِچھِیٹ پس منطریں ہٞؤ کٞہ مسلہ نہ۔ ہاٞر لفظاٞں بُجوگ ما رٹوگ والہ تیز موسیقی پکاٞر نہ۔
 contribution-background-noise-description-extended = لخہ ریکارڈنگ کٞٹیر کٞٹیر آش، یا شراٞر آش تہ مسترد کٞرکتھائ سٞہ صابت متن نہ بُجباݭاٞت تہ۔
@@ -136,15 +136,15 @@ contribution-background-noise-example-2-fixed-title = گھاٞن ڈائینو<st
 contribution-background-noise-example-2-explanation = [مواداں حصہ نہ بُجوانت]
 contribution-background-noise-example-3-fixed-title = <strong>[کٞڑنگوگ] </strong>گھاٞن ڈائینوسار<strong> [کٞڑنگوگ] </strong>ریاسیکاں۔
 contribution-background-voices-title = پس منظراٞں ہواٞز
-contribution-background-voices-description = پس منظریں سمسو ہؤو ٹِک پرہ مہ نہ دِیاٞنت اُوں زیتی الفاٞظ مشینیں الگورِِتھم ݭا اِچھلاٞں الفاٞظ پُیانائ اُوں توم چُنڑاٞل الفاٞظ مئ نہ آش تہ۔ لخہ تھٞہ واضح طور دہ متناٞں الفاٞظ ما علاوہ دی الفاٞظ بُجوݭاٞت تے مسترد کٞراٞ۔ عام طور دہ ٹی وی آں دھری تے تِیماٞ اِچھلہ ہُواں، یا ئ نیاٞر پھر خلک آٞک دی سٞہ جولاݭاٞت تہ۔
+contribution-background-voices-description = پس منظریں سمسو ہؤو ٹِک پرہ مہ نہ دِیاٞنت اُوں زیتی الفاٞظ مشینیں الگورِِتھم ݭا اِچھلاٞں الفاٞظ پُیانائ اُوں توم چُنڑاٞل الفاٞظ مئ نہ آش تہ۔ لخہ تھٞہ واضح طور دہ متناٞں الفاٞظ ما علاوہ دی الفاٞظ بُجوݭاٞت تے مسترد کٞراٞ۔ عام طور دہ ٹی وی ݭٞجِیل دھری تے تِیماٞ اِچھلہ ہُواں، یا ئ نیاٞر پھر خلک آٞک دی سٞہ جولاݭاٞت تہ۔
 contribution-background-voices-description-extended = لخہ ریکارڈنگ کٞٹِیر کٞٹِیر آش، یا شراٞر آش تہ مسترد کٞر کٞتھائ سٞہ سابت متن نہ بُجباݭاٞت تہ۔
 contribution-background-voices-example-1-title = ٹریاسیکاں گھاٞن ڈائینوسار۔ <strong>[اٞ ہاٞواٞز دہ مٞن]</strong>
 contribution-background-voices-example-1-explanation = تُو ینتاٞ؟ <strong>[دی مانوݭ مننت]</strong>
 contribution-volume-title = ہوازیں سپیڈ
-contribution-volume-description = پٞروگ واٞلیں ہوازیں سپیڈ مئ قدرتی فرق ہوئ۔ صِرف تھکو مستر کٞر اُوں ہوازیں سپیڈ باٞر شِتی ہوگ دہ ریکارڈنگ کٞٹر کٞٹر ہوینش تہ، یا (اکثاٞر) ائ اٞتیک سٞمسو تھُو اُوں توچُنڑیل متناٞں حواٞلاٞ ما بغیر آٞس نہ بُجبانت تہ۔
-contribution-reader-effects-title = پٞروگ واٞلاٞ رہ اثر
+contribution-volume-description = پٞروگ واٞلیں ہوازیں سپیڈ مئ قدرتی فرق ہوئ۔ صِرف تھکو مسترد کٞر اُوں ہوازیں سپیڈ باٞر شِتی ہوگ دہ ریکارڈنگ کٞٹر کٞٹر ہوینش تہ، یا (اکثاٞر) ائ اٞتیک سٞمسو تھُو اُوں توچُنڑیل متناٞں حواٞلاٞ ما بغیر آٞس نہ بُجبانت تہ۔
+contribution-reader-effects-title = پٞروگ والاں اثرات
 contribution-reader-effects-description = اکثاٞر ریکارڈنگ تتھیں خلکیں تھی اُوں توم تانی قدرتی ہواٞزدہ جولاٞنش تہ۔ تو آٞک نِیم غیر معیاری ٹاکاروگ، څُھپ څُھپ کٞروگ یا واضح طور دہ "ڈرامائ" ہواٞز مئ مناٞل قبولباں۔ رو داٞگاٞل تے کمپیوٹر دہ تیار کٞراٞل ہواٞز مسترد کٞر۔
 contribution-just-unsure-title = پھتہ نہ؟
 contribution-just-unsure-description = لخہ اِچھلاں کٞہ شئ مُکہ یائ اُوں سٞہ اومی گائیڈلایٔنز مئ نہ آش تہ تھُکو باٞر صحیح طریقاٞ دہ اُٹ دہ، لخہ تو فیصلہ نہ کٞرباݭات تہ چھوروگاں بٹن اِستِمال کاٞ مِڄی ریکارڈنگ کٞہ چو۔
-see-more = باٞر پشوگ
-see-less = کٞم پشوگ
+see-more = دی پا بیݭ
+see-less = اُچھوٹ بیݭ

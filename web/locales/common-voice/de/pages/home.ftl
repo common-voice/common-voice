@@ -76,11 +76,15 @@ read-more-about = Weitere Informationen über Common Voice
 ## NAV ITEMS
 
 answer-questions = Fragen beantworten <small>(kommt in Kürze)</small>
+answer-questions-coming-soon = Fragen beantworten <small>(kommt in Kürze)</small>
 review-transcriptions = Transkripte überprüfen <small>(kommt in Kürze)</small>
+review-transcriptions-coming-soon = Transkripte überprüfen <small>(kommt in Kürze)</small>
 add-questions = Fragen hinzufügen <small>(kommt in Kürze)</small>
+transcribe-audio-coming-soon = Audio transkribieren <small>(kommt in Kürze)</small>
 transcribe-audio = Audio transkribieren <small>(kommt in Kürze)</small>
 press-and-stories = Presse und Geschichten
 community-and-languages = Gemeinschaft und Sprachen
+coming-soon = Erscheint in Kürze
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = Entdecken Sie die Gemeinschaft un
 
 ## Hero section
 
+hero-title = Technologie, die Ihre Sprache spricht
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Warum sollte KI nur für wenige Sprachen der Welt funktionieren?</bold>
+hero-subtitle-2 = Unsere Sprache ist unsere Geschichte, unsere Gemeinschaft, unsere Kultur. Erstellen wir die Datensätze, die wir in der Welt sehen wollen.
+# icon is an arrow that points downwards
+get-started = Erste Schritte <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ist eine kostenlose Open-Source-Plattform zur von der Gemeinschaft geleiteten Datenerstellung
+action-items-section-subtitle = Jeder kann ihre Sprache erhalten, wiederbeleben und verbessern, indem er Text- und Sprachdatensätze teilt, erstellt und verwaltet.
+scripted-card-header = Geschriebene Sprache
+scripted-card-content = Lesen Sie Sätze in Ihrer Sprache laut vor und tragen Sie zum weltweit vielfältigsten Sprachdatensatz beim, an dem alle mitwirken können.
+spontaneous-card-header = Spontane Sprache
+spontaneous-card-content = Beantworten Sie Aufforderungen, um Datensätze für organische, umgangssprachliche Kontexte zu erstellen. Perfekt für Sprachen mit Erstsprache.
+language-text-card-header = Sprachlicher Text
+language-text-card-content = Erstellen oder teilen Sie gemeinfreie Aufforderungen, Sätze und Text für die Übersetzung, kleine Sprachmodelle und mehr.
+coming-soon = Erscheint in Kürze
+add-text = Text hinzufügen
 
 ## Community section
 
+community-section-title = Unterstützt durch Gemeinschaften auf der ganzen Welt, für Gemeinschaften auf der ganzen Welt – 130 Sprachen, Tendenz steigend!
+join-discord-community = Werden Sie Mitglied der Discord-Gemeinschaft
+# label for button
+join-discord-community-action = Machen Sie auf Discord mit
+join-discord-community-content = Beteiligen Sie sich an Diskussionen der Sprachgemeinschaft, stellen Sie Fragen und erfahren Sie mehr über zukünftige Veranstaltungen und Vorträge.
+find-us-on-matrix = Finden Sie uns auf Matrix
+find-us-on-matrix-content = Matrix ist ein offenes, leichtgewichtiges Protokoll für dezentrale Echtzeit-Kommunikation und Mozillas bevorzugte offene Diskussionsplattform.
+# label for button
+find-us-on-matrix-action = Finden Sie uns auf Matrix
+ask-mozilla-share = Bitten Sie Mozilla, Ihre Ereignisse zu teilen
+ask-mozilla-share-content = Haben Sie eine vorherige oder zukünftige Veranstaltung? Erzählen Sie uns davon und wir kündigen es in unserer Gemeinschaft an oder schreiben einen Blog darüber!
+# label for button
+ask-mozilla-share-action = Teilen Sie Ihre Veranstaltung
+download-contribution-certificate = Laden Sie Ihre Mitwirkungsbestätigung herunter
+download-contribution-certificate-content = Laden Sie ein Zertifikat für Ihre Veranstaltungen oder sich selbst herunter, wenn Sie zu Common Voice beigetragen haben – dies wäre mit Ihnen nicht möglich!
+# label for button
+download-contribution-certificate-action = Holen Sie sich Ihr Zertifikat
+contribute-github = Auf GitHub mitwirken
+contribute-github-content = Dieses Projekt wäre ohne Menschen wie Sie nicht möglich. 🎉 Es gibt viele Möglichkeiten, um bei Common Voice mitzumachen – Sie müssen nicht programmieren können, um mitzumachen!
+# label for button
+contribute-github-action = Auf GitHub mitwirken
 
 ## Featured section
 
+featured-section-title = Vorgestellt in…
+# icon is an arrow that points downwards
+download-press-pack = Laden Sie unsere Presseunterlagen <icon></icon> herunter
 
 ## Developers section
 
+developers-section-title = Öffentlich zugängliche offene Sprachdatensätze in über 130 Sprachen
+developers-section-subtitle = Datensätze für ASR, STT, TTS und andere NLP-Kontexte – erstellt durch Mitwirkung der Gemeinschaft.
+# icon is an arrow that points to the right
+explore-datasets = Datensätze entdecken <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Unterstützen Sie offene, von der Gemeinschaft geleitete Datensätze
+read-sentences-link = Sätze vorlesen
+validate-readings-link = Sprachbeiträge überprüfen
+contribute-link = Zum Textkörper beitragen
+answer-questions-link = Fragen beantworten
+transcribe-answers-link = Antworten transkribieren
+review-transcriptions-link = Transkripte überprüfen
+contribute-text-link = Text beitragen
+press-and-stories-link = Presse und Geschichten
 
 ## Partner section
 
+partner-section-title = Werden Sie Partner
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologieunternehmen</bold> – investieren Sie in die Erstellung offener Datensätze für ein pulsierendes, mehrsprachiges KI-Ökosystem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Zivilgesellschaft und Forscher</bold> – erstellen, hosten und teilen Sie kostenlos wirkungsvolle Datensätze
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Wohltätigkeit</bold> – Sponsoren Sie die Erstellung von Datensätzen zur Förderung lokaler Innovation und Entwicklung
+# icon is an arrow that points to the right
+get-in-touch-button = Kontakt aufnehmen <icon></icon>
+# Partners section
+our-partners-include = Zu unseren Partnern gehören...

@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Dudalen Ieithoedd Common Voice</languagesPageLink>.
     Os nad yw, llenwch y ffurflen hon a byddwn yn <strong>anfon e-bost defnyddiol atoch
     yn esbonio sut i osod eich iaith</strong>.
-request-language-explanation-2 =
-    Byddwn hefyd yn <strong>rhoi gwybod i'n rheolwr cymunedol
-    bod gennych chi ddiddordeb</strong>, fel y gallan nhw roi
-    cymorth neu wybodaeth ychwanegol y gallai fod ei angen arnoch.
 request-language-form-email =
     .label = Eich cyfeiriad e-bost
 request-language-form-info =

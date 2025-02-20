@@ -22,6 +22,7 @@ report-button = Raportojeni
 skip-button = Anashkaloje
 submit-button = Parashtroje
 contribute = Jepni Ndihmesë
+request-new-language = Kërkoni Gjuhë të Re
 
 ## Navbar
 

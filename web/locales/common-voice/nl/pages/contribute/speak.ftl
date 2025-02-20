@@ -62,6 +62,8 @@ create-profile-button = Een profiel aanmaken
 img-alt-success-checkmark = succesvinkje
 # menu item
 read-sentences = Zinnen voorlezen
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Zinnen lezen <small>(binnenkort)</small>
 
 ## MENU ITEM TOOLTIPS
 

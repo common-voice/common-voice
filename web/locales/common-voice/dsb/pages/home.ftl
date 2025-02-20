@@ -82,11 +82,15 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 ## NAV ITEMS
 
 answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
+answer-questions-coming-soon = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
 review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
+review-transcriptions-coming-soon = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
+transcribe-audio-coming-soon = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
+coming-soon = Skóro k dispoziciji
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,21 +111,66 @@ community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rě
 
 ## Hero section
 
+hero-title = Technologija, kótaraž wašu rěc powěda
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Cogodla měła KI jano za mało rěcow swěta funkcioněrowaś?</bold>
+hero-subtitle-2 = Naša rěc jo naše stawizny, našo zgromaźeństwo, naša kultura. Napórajmy datowe sajźby, kótarež comy w swěśe wiźeś.
+# icon is an arrow that points downwards
+get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Napisane powědanje
+spontaneous-card-header = Spontane powědanje
+language-text-card-header = Rěcny tekst
+coming-soon = Skóro k dispoziciji
+add-text = Tekst pśidaś
 
 ## Community section
 
+join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
+# label for button
+join-discord-community-action = Pśizamkniśo se nam na Discord
+find-us-on-matrix = Namakajśo nas na Matrix
+# label for button
+find-us-on-matrix-action = Namakajśo nas na Matrix
+ask-mozilla-share = Pšosćo Mozilla, aby waše zarědowanja źělił
+# label for button
+ask-mozilla-share-action = Źělśo swójo zarědowanje
+download-contribution-certificate = Ześěgniśo swój certifikat sobustatkowanja
+# label for button
+download-contribution-certificate-action = Wobstarajśo se swój certifikat
+contribute-github = Na Github pśinosowaś
+# label for button
+contribute-github-action = Na Github pśinosowaś
 
 ## Featured section
 
+featured-section-title = Pśedstajony w…
+# icon is an arrow that points downwards
+download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title = Zjawnje pśistupne wótwórjone powědańske datowe sajźby we wěcej ako 130 rěcach
+# icon is an arrow that points to the right
+explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = Sady cytaś
+validate-readings-link = Cytanja pśeglědowaś
+contribute-link = K tekstowemu korpusoju pśinosowaś
+answer-questions-link = Na pšašanja wótegroniś
+transcribe-answers-link = Wótegrona transkriběrowaś
+review-transcriptions-link = Transkripcije pśeglědowaś
+contribute-text-link = Tekst pśinosowaś
+press-and-stories-link = Casnikaŕstwo a tšojenja
 
 ## Partner section
 
+partner-section-title = Buźćo naš partnaŕ
+# icon is an arrow that points to the right
+get-in-touch-button = Skontaktěrowaś <icon></icon>
+# Partners section
+our-partners-include = K našym partnarjam słušaju…

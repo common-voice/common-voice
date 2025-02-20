@@ -69,7 +69,7 @@ about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法
 about-playbook-how-add-language = 如何添加语言？
 about-playbook-how-add-language-content-1 = 首先，请检查您的语言是否<languageLink>已经存在</languageLink>。如果没有，您可以<languageRequestLink>请求添加该语言</languageRequestLink>。
 about-playbook-how-add-language-translating-heading = 翻译网站
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南。</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>观看 Pontoon 使用指南</translateVideoLink>。
 about-playbook-how-add-language-translating-content-2 =
     我们使用名为 <pontoonLink>Pontoon</pontoonLink> 的 Mozilla 工具进行翻译。Pontoon 上有多种语言，
     但如果没有您的语言，您可以<pontoonRequestLink>申请添加您的语言</pontoonRequestLink>。

@@ -1,8 +1,8 @@
 ## Home Page
 
-home-title = مشترک آواز يې ته موزیلا اول قدم هۀ که ا مشین پویٛ کوی اصل نر بُو ا خلق ژغېن څا
-default-tagline = موزیلا مشترک آواز يې ته موزیلا اول قدم هۀ که ا مشین په پۀ پویَوِی که اصل نر بُو ا خلق ژغېن څخل
-home-cta = ژغ او پېشه کَۀ دۀ
+home-title = مشترک آواز يې ته موزیلا اول قدم هۀ که ا مشین پویٛ کوی که اصل نر بُو ا خلق ژغېن څا
+default-tagline = موزیلا مشترک آواز يې ته موزیلا اول قدم هۀ که ا مشین په پۀ پویٛ کوی که اصل نر بُو ا خلق ژغېن څخل
+home-cta = ژغ، او ا ژغؤ دۀ پېش کَۀ
 wall-of-text-start = آواز يې قدرتي هۀ، آواز انسان هۀ، جِکه بو ماخ خوش ݭيېن که ماخ ته استعمال قابل ته آواز ټېکنالوجی ترماخ ته مشین پاره تخلیق کيېن۔ خه ته آواز سستم ته جوړؤ پاره يې زُت ݫیات مقدار تر ته آواز ډېټا پکر هۀ۔
 wall-of-text-more-mobile = ا ݫات ډېټا که ائ ستری کمپنيې وه بو استعملوِن، اکثر خلق ګیرډ دې نک هۀ۔ ترماخ خیال يې هۀ که او صورت حال بُو نیوواوي نک ژۀ۔ جِکه يې ماخ براجېکټ ”مشترک آواز” شوري دوک۔ او يې سا پراجېکټ هۀ که ته آواز ته پزنؤ بُو هرکوک کی شاموی
 wall-of-text-more-desktop = پېری بُو تُو ا خوئ آواز پېش اېنچی که ماخ دل يې ته ݭيې میوک کهړکئے په ذریعه ته آواز سا ډېټا بېس جوړ کيېن که کوکه وه ګۀ استعمال اېنچِن، او که سه سا نیوو اېپ دل يې جوړ کيېن ته هر ډیوائس او ته وېب پاره ګۀ۔ ݭيې جمله يې غؤس که ا مشینه وه زدۀ کوی که اصل نر بُو او خلق څخل ژغا۔ ته بيې حصه ورونکئ ا کر جیر کئ۔ که ا حصه ورونکئ بُو څخل ا خوئ معیار سِر کوی۔
@@ -76,11 +76,15 @@ read-more-about = أؤسه بيې ګۀ ترماخ پا بېژ پېج لاسته
 ## NAV ITEMS
 
 answer-questions = سؤلی ځوبًی <small> څوار بُو سېره </small>
+answer-questions-coming-soon = سؤلی ځوبًی <small> څوار بُو سېره </small>
 review-transcriptions = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
+review-transcriptions-coming-soon = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
+transcribe-audio-coming-soon = ا ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے
 community-and-languages = کمیونېټی او زبنی
+coming-soon = سېره ر بُو څوا
 
 ## MENU ITEMS TOOLTIPS
 
@@ -101,21 +105,85 @@ community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونې
 
 ## Hero section
 
+hero-title = ا ټېکنالوجی، ا څېن بُو که ترتُو ا زبان غؤݭی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = ا مصنُوعی ذهانت کيې صرف ته دنیا ته څُون زبنی پناره کر کوون؟
+hero-subtitle-2 = ترماخ ا زبان يې ترماخ کهانئے هۀ، ترماخ کِلځېري هۀ، ترماخ يې کلتُور هۀ۔ څوئ که ډېټاسېټس دی جوړ کيېن که ماخه وه دنیا نر ځُونيېن
+# icon is an arrow that points downwards
+get-started = شُوري کېن
 
 ## Action items section
 
+action-items-section-title = مشترک آواز يې په لیۀ، ته جَوَت ذریعي پلېټفارم هۀ ته فا ډېټا پاره، که ا ݭيې کمیونېټي يې خوئ جوړَوی
+action-items-section-subtitle = کوک بُو ګۀ ته زبان ا سبق او ا ډېټاسېټ ته مشترک کؤ، جوړؤ، او سِرکؤ په ذریعۀ ا خوئ زبان ساتيېک، پنځېک، او په پېچُمئ لیکېک اېنچی
+scripted-card-header = لیکک خُلکت یا تقریر
+scripted-card-content = ا جملي خوئ زبان نر په زوټه غؤس او ته دنیا ټول لاسته ݫات مختلف ژغی زر مشتمل ته پبلک سپیچ ډېټاسېټ کی وه شېندن
+spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُلکت
+spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
+language-text-card-header = ته زبان ا سبق
+language-text-card-content = ته پبلک ډومېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
+coming-soon = سېره ر بُو څوا
+add-text = سبق ال يې ګډ کوئ
 
 ## Community section
 
+community-section-title = طاقتور سُکِن ته دنیا ته کمیونېټيز پاره ــ ته رئ ا زبنی او ته پئ ا په مُختګ
+join-discord-community = دنیا لاسته کټ کمیونېټیز ګیرډ ګډ سئ
+# label for button
+join-discord-community-action = ماخ ګډ مېلاؤ سئ ډِسکورډ کی
+join-discord-community-content = شامل سئ ته زبان ته کمیونېټی بحث مباحثي نر، سولَّی دی کوئ، او راتلونکئ واقعي، او خبُرئ دی ا ځان خبر ساتئ
+find-us-on-matrix = ماخ مېټرکس نر دُشئ
+find-us-on-matrix-content = مېټرېکس يې سۀ جَوَت، او الُک پروټوکول هۀ ته ډی سنټرلزائزډ، ريئل ټائم کمیونېټی پاره، او ته موزیلا خؤش پلېټفارم ته عام او جَوَت بحث مباحثي پاره
+# label for button
+find-us-on-matrix-action = ماخ مېټرکس نر دُشئ
+ask-mozilla-share = موزیلا کی غؤسئ که ترتیوس ا پروګرمی او ا تقریبات شریک کوی
+ask-mozilla-share-content = نیووه زېلی دی یِن؟ که بېن دی ماخ ګیرډه وه شریک کَۀ، ماخه وې سو اعلان کيېن خوئ کمیونېټی نر، یا يې ته پۀ پاره بلاګ جوړ کَۀ
+# label for button
+ask-mozilla-share-action = ا واقعات شریک کَۀ
+download-contribution-certificate = ته حصه ته ڒیوک او ته وریوک ا سرټیفیکېټ ډاؤن لوډ کَۀ
+download-contribution-certificate-content = ته ځان یا ته ځان ته واقعات پاره ا سرټیفیکېټ ډاؤن لوډ کَۀ، که مشترک آواز کی تيې څه حصه نیکیزک بَۀ ــ سا ترتُو بغېر ممکِن نک بیوک!
+# label for button
+download-contribution-certificate-action = ا خوئ سرټیفیکېټ وُر
+contribute-github = GitHub نر ال ا خوئ حصه نیکِز
+contribute-github-content = او پراجېکټ ترتُو غُندک ته خلق بغېر ممکِن نک بیوک۔ مشترک آواز ګیرډ ته بُخت کؤ زُت طریقي یِن ـــ تُو کی يې ته حصه ته وریوڅن پاره ته څه کوډ ته معلومؤ هېڅ ضرورت نک پېش کَوَک سَۀ۔
+# label for button
+contribute-github-action = GitHub نر ال ا خوئ حصه نیکِز
 
 ## Featured section
 
+featured-section-title = جَوَته ݭیوک وینر
+# icon is an arrow that points downwards
+download-press-pack = ترماخ ا پرېس پېک ډاؤن لوډ کوئ
 
 ## Developers section
 
+developers-section-title = عام خلق لیکی جَوَت میوک ډېټاسېټ 130لاسته زُت زبنی نر
+developers-section-subtitle = ډېټاسېټ ته ASR, STT, TTS, او بئے ته NLP په حواله ـــ ته کمیونېټی ته مشترک کوششی په ذریعة
+# icon is an arrow that points to the right
+explore-datasets = ډېټاسېټس دی معلوم کَۀ
 
 ## Get involved section
 
+get-involved-section-title = ته کمیونېټی په ذریعه روان جَوَت ډېټاسېټس دی معلوم کېون
+read-sentences-link = جملي دی غؤس
+validate-readings-link = ته غوېک جملي توثیق يې کَۀ
+contribute-link = ټېکسټ کارپس نر يې حصه وُر
+answer-questions-link = ته سولَّی ځَوَبی دی کَۀ
+transcribe-answers-link = ا ځَوَبَّبي نقل کَۀ
+review-transcriptions-link = خوئ زبان کی ا نقل ݭیوک لیک زر يې دیم نظر نیکِز
+contribute-text-link = سبق ال يې ګډ کَۀ
+press-and-stories-link = پرېس او کهانئے
 
 ## Partner section
 
+partner-section-title = ماخ ګډ بائی والي
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = ټېکنیکل کمپنئےــ سرمایه يې لکوئ ته جَوَت ډېټاسېټ تخلیق نر، ته سۀ ترقي کوُونکئ او ته ګنړ زبنی مصنوعي ذهانت ایکو سسټم پاره
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = سېول سوسائټي او ریسرچرــ سۀ متاثرکُن ډېټاسېټ يې جوړ کوئ، مېزباني وې کوئ، او شریک وه کوئ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = خېراتي ــ ته ډېټاسېټ ا تخلیق سپنسر کوئ که ا مقامي جدیدئت او ا ترقي هر کُده ړنګ سَۀ
+# icon is an arrow that points to the right
+get-in-touch-button = رابطه يې ساتئ
+# Partners section
+our-partners-include = ترماخ پارټنرنی نر شامل اِن

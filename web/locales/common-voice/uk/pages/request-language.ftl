@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Сторінці мов Common Voice</languagesPageLink>.
     Якщо ні, заповніть цю форму, і ми <strong>надішлемо вам електронний лист
     з поясненнями, як налаштувати мову</strong>.
-request-language-explanation-2 =
-    Ми також <strong>повідомимо про це нашого менеджера спільноти
-    про вашу зацікавленість</strong>, щоб вони могли надати вам будь-яку
-    додаткову підтримку або інформацію, яка може знадобитися.
 request-language-form-email =
     .label = Ваша адреса електронної пошти
 request-language-form-info =

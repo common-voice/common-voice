@@ -14,6 +14,8 @@ listen-abort-cancel = Trochgean mei falidearjen
 listen-abort-confirm = Falidearjen foltôgje
 # Menu item
 validate-readings = Foarlêzen sinnen falidearje
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Foarlêzen sinnen falidearje <small>(ynkoarten)</small>
 
 ## MENU ITEM TOOLTIPS
 

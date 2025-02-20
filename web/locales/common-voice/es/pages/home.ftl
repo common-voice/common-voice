@@ -75,9 +75,17 @@ read-more-about = Descubre más en nuestra página Sobre Common Voice
 
 ## NAV ITEMS
 
+answer-questions = Contestar a preguntas
+review-transcriptions = Revisar transcripciones
+transcribe-audio = Transcribir audio
+press-and-stories = Prensa e historias
+community-and-languages = Comunidades e idiomas
+coming-soon = ¡Muy pronto!
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Colaborar con nosotros
+community-and-languages-menu-item-tooltip = Descubrir las lenguas y las comunidades de Common Voice
 
 ## MENU ITEM ARIA LABELS
 
@@ -87,12 +95,23 @@ read-more-about = Descubre más en nuestra página Sobre Common Voice
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Empezar <icon></icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice es una plataforma gratuita y de software libre dirigida a las comunidades para la creación de conjuntos de datos de habla y texto
+scripted-card-header = Habla leída
+spontaneous-card-header = Habla espontánea
+language-text-card-header = Texto en idioma
+coming-soon = ¡Muy pronto!
+add-text = Añadir texto
 
 ## Community section
 
+find-us-on-matrix = Encontrarnos en Matrix
+# label for button
+find-us-on-matrix-action = Encontrarnos en Matrix
 
 ## Featured section
 
@@ -102,6 +121,15 @@ read-more-about = Descubre más en nuestra página Sobre Common Voice
 
 ## Get involved section
 
+read-sentences-link = Leer oraciones
+validate-readings-link = Validar grabaciones
+answer-questions-link = Contestar a preguntas
+transcribe-answers-link = Transcribir respuestas
+review-transcriptions-link = Revisar transcripciones
+contribute-text-link = Contribuir con texto
+press-and-stories-link = Prensa e historias
 
 ## Partner section
 
+# Partners section
+our-partners-include = Nuestros socios incluyen...

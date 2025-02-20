@@ -264,6 +264,7 @@ privacy = গোপনীয়তা
 terms = চৰ্তাৱলী
 cookies = কুকীজ
 faq = স.উ.প্ৰ.
+documentation = তথ্যপত্ৰ
 content-license-text = সমল <licenseLink>Creative Commons লাইচেন্স</licenseLink>ৰ অধীনত উপলব্ধ
 share-title = নিজৰ মাত দান কৰিবপৰা অন্য লোকক বিচৰাত আমাক সহায় কৰক!
 share-text = আচল লোকে কেনেকৈ কথা পাতে সেয়া যন্ত্ৰবোৰক শিকোৱাত সহায় কৰক, আপোনাৰ মাত { $link } –ত দান কৰক

@@ -80,33 +80,115 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## NAV ITEMS
 
+answer-questions = Atbildēt uz jautājumiem
+answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
+review-transcriptions = Pārskatiet transkripcijas
+review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
+add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
+transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
+transcribe-audio = Pārrakstīt audio
+press-and-stories = Prese un stāsti
+community-and-languages = Kopiena un valodas
+coming-soon = Drīzumā
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
+partnerships-menu-item-tooltip = Sadarbojieties ar mums
+press-and-stories-menu-item-tooltip = Apmeklējiet mūsu emuāru vai rakstiet par mums
+community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Par iespēju izvēlni
+partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
+press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
+community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tehnoloģija, kas runā jūsu valodā
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
+hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
+# icon is an arrow that points downwards
+get-started = Sākt darbu <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
+action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
+scripted-card-header = Sagatavota runa
+scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
+spontaneous-card-header = Spontāna runa
+spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+language-text-card-header = Valodas teksti
+language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+coming-soon = Drīzumā
+add-text = Pievienot tekstu
 
 ## Community section
 
+community-section-title = Nodrošina globālas kopienas, globālām kopienām — 130 valodas, kas arvien pieaug!
+join-discord-community = Pievienojieties Discord kopienai
+# label for button
+join-discord-community-action = Pievienoties Discord
+join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
+find-us-on-matrix = Atrodiet mūs Matrix
+find-us-on-matrix-content = Matrix ir atvērts, viegls protokols decentralizētai, reāllaika saziņai, un Mozilla izvēlētā atvērto diskusiju platforma.
+# label for button
+find-us-on-matrix-action = Atrodiet mūs Matrix
+ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
+ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
+# label for button
+ask-mozilla-share-action = Pastāstiet par savu notikumu
+download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
+download-contribution-certificate-content = Lejupielādējiet sertifikātu saviem notikumiem vai sev, ja esat piedalījies Common Voice — tas nebūtu iespējams bez jums!
+# label for button
+download-contribution-certificate-action = Saņemiet savu sertifikātu
+contribute-github = Atbalstiet vietnē GitHub
+contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā jūs. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — jums nav jāmāk programmēt, lai sniegtu ieguldījumu!
+# label for button
+contribute-github-action = Atbalstiet vietnē GitHub
 
 ## Featured section
 
+featured-section-title = Pieminēts...
+# icon is an arrow that points downwards
+download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publiski pieejamas atvērtās runas datu kopas vairāk nekā 130+ valodās
+developers-section-subtitle = Datu kopas ASR, STT, TTS un citiem NLP uzdevumiem — izveidotas, ar kopienas spēkiem.
+# icon is an arrow that points to the right
+explore-datasets = Izpētiet datu kopas <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
+read-sentences-link = Lasīt teikumus
+validate-readings-link = Apstipriniet ierunāto
+contribute-link = Papildiniet teksta korpusu
+answer-questions-link = Atbildi uz jautājumiem
+transcribe-answers-link = Pārrakstiet atbildes
+review-transcriptions-link = Pārskatiet pierakstīto
+contribute-text-link = Iesniedziet tekstu
+press-and-stories-link = Prese un stāsti
 
 ## Partner section
 
+partner-section-title = Sadarbojieties ar mums
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldiet atvērtu datu kopu izveidē plaukstošai daudzvalodu AI ekosistēmai
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — veidojiet, publicējiet un dalieties ar noderīgām datu kopām
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
+# icon is an arrow that points to the right
+get-in-touch-button = Sazinieties ar <icon></icon>
+# Partners section
+our-partners-include = Mūsu partneru vidū ir...

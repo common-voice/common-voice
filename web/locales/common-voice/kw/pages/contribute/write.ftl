@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Skrifewgh
+write = Skrifa
 write-instruction = Keworrewgh <icon></icon> lavar arlotteth poblek
 write-page-subtitle = Lavarow kevres omma a vydh keworrys dhe sel data leshes cc-0 kavadow yn poblek.
 sentence =

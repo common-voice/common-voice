@@ -4,15 +4,15 @@ home-title = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini 
 default-tagline = Mozilla Common Voice è na nizziativa pi ajutari a nzignari ê màchini comu pàrranu i genti riali.
 home-cta = Parra, cuntribbuisci!
 wall-of-text-start = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, abbisugnamu di na granni quantità di dati di vuci diversi.
-wall-of-text-more-mobile = A majuranza dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazziuni. Pi stu mutivu abbiamu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru pi tutti.
+wall-of-text-more-mobile = A majurìa dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazzioni. Pi sta scaciuni abbiammu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru pi tutti.
 wall-of-text-more-desktop = Ora ni po' dunari a to vuci pi ajutàrini a criari un database vucali lìbbiru ca po èssiri usatu di cu' è-è pi criari app nnuvativi pâ riti e pî dispusitivi mòbbili. Liggi na frasi p'ajutàrini a nzignàrici ê màchini comu pàrranu i genti nnâ vita vera. Cuntrolla u travagghiu di l'autri cullabburatura p'ammigghiurari a qualità. È sìmplici!
 wall-of-text-first = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, i diviluppatura ànnu bisognu di na granni quantità di dati di vuci diversi.
-wall-of-text-second = A majuranza dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazziuni. Pi stu mutivu abbiamu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru e accissìbbili pi tutti.
+wall-of-text-second = A majurìa dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazzioni. Pi sta scaciuni abbiammu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru e accissìbbili pi tutti.
 show-wall-of-text = Cchiù nfurmazziuna
 help-us-title = Ajùtani a cuntrullari i frasi!
-help-us-explain = Ammacca u buttuni dâ ripruduzziuni, ascuta e vàluta: a frasi fu prununciata bonu?
+help-us-explain = Ammacca u buttuni dâ ripruduzzioni, ascuta e vàluta: a frasi fu prununziata bonu?
 no-clips-to-validate = Parissi ca nun cci sunnu frasi riggistrati nna sta lingua. Ajùtani riggistrànnunni quarchiduna ora.
-toggle-play-tooltip = Ammacca { shortcut-play-toggle } pi passari â mudalità di ripruduzziuni
+toggle-play-tooltip = Ammacca { shortcut-play-toggle } pi passari â mudalità di ripruduzzioni
 speak-paragraph = Riggistrari i frasi è na parti ntigranti pâ custruzzioni dû nostru pruggettu: certi dicìssiru chi è puru a parti cchiù divirtenti.
 speak-goal-text = Riggistrazziuna
 listen-paragraph = Cuntrullari i riggistrazzioni fatti di autri è macari mpurtanti pâ missioni di Common Voice. Ascùtali e ajùtani a criari dati vucali lìbbiri di qualità.
@@ -75,24 +75,43 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## NAV ITEMS
 
+press-and-stories = Stampa e nutizzi
+community-and-languages = Cumunità e lingui
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Cullàbbura cu nuiautri
+press-and-stories-menu-item-tooltip = Vìsita u nostru blog o scrivi ncapu a nuiautri
+community-and-languages-menu-item-tooltip = Scopri lingui, cumunità e Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Minù dî scartati di nfurmazzioni
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Ticnuluggìa chi parra a to lingua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Picchì a NA avissi a funziunari sulu pi quarchi lingua dû munnu?</bold>
+hero-subtitle-2 = A nostra lingua è a nostra storia, a nostra cumunità, a nostra curtura. Criamu nzèmmula i nzemi di dati chi vulemu vìdiri nnô munnu.
+# icon is an arrow that points downwards
+get-started = Accumincia <icon><icon>
 
 ## Action items section
 
+add-text = Junci testu
 
 ## Community section
 
+join-discord-community = Jùnciti â cumunità nne Discord
+# label for button
+join-discord-community-action = Jùnciti a nuiautri nne Discord
+find-us-on-matrix = Attròvani nne Matrix
+# label for button
+find-us-on-matrix-action = Attròvani nne Matrix
 
 ## Featured section
 
@@ -102,6 +121,19 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## Get involved section
 
+read-sentences-link = Leggi i frasi
+validate-readings-link = Cummàlita i riggistrazzioni
+contribute-link = Cuntribbuisci ô corpus dî testi
+answer-questions-link = Rispunni ê dumanni
+transcribe-answers-link = Trascrivi i risposti
+review-transcriptions-link = Virìfica i trascrizzioni
+contribute-text-link = Cuntribbuisci chî testi
+press-and-stories-link = Stampa e nutizzi
 
 ## Partner section
 
+partner-section-title = Cullàbbura cu nuiautri
+# icon is an arrow that points to the right
+get-in-touch-button = Cuntàttani <icon></icon>
+# Partners section
+our-partners-include = Quarchi nostru assuciatu...

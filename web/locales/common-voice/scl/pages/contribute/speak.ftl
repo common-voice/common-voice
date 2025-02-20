@@ -62,6 +62,8 @@ create-profile-button = پرفالیک سنے
 img-alt-success-checkmark = لیل تھین نیشان کامیاب
 # menu item
 read-sentences = موش رس
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = موجی رَس <small> لوکو اِیوں ہِیں <small>
 
 ## MENU ITEM TOOLTIPS
 

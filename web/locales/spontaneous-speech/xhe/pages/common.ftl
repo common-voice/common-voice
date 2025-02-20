@@ -22,6 +22,7 @@ report-button = رپورٹ کر
 skip-button = چھوڑ ݙے
 submit-button = جمع کر
 contribute = حِصّہ گُھل
+request-new-language = نویں ٻولی دا سؤال کر
 
 ## Navbar
 

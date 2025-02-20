@@ -88,33 +88,68 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 
 ## NAV ITEMS
 
+answer-questions = ຕອບຄໍາຖາມ
+press-and-stories = ກົດ ແລະ ເລື່ອງ
+community-and-languages = ຊຸມຊົນ ແລະ ພາສາ
+coming-soon = ໄວໆນີ້
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = ເປັນຄູ່ຮ່ວມງານກັບພວກເຮົາ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = ກ່ຽວກັບເມນູທາງເລືອກ
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 ## Action items section
 
+scripted-card-header = ການເວົ້າແບບສະຄຣິບ
+language-text-card-header = ຂໍ້ຄວາມພາສາ
+coming-soon = ໄວໆນີ້
 
 ## Community section
 
+# label for button
+join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
+find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
+# label for button
+find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
+ask-mozilla-share = ໃຫ້ Mozilla ແບ່ງປັນເຫດການຂອງເຈົ້າ
+# label for button
+ask-mozilla-share-action = ແບ່ງປັນກິດຈະກຳຂອງທ່ານ
+# label for button
+download-contribution-certificate-action = ຮັບໃບຢັ້ງຢືນຂອງທ່ານ
+contribute-github = ປະກອບສ່ວນໃນ GitHub
+# label for button
+contribute-github-action = ປະກອບສ່ວນໃນ GitHub
 
 ## Featured section
 
+featured-section-title = ແນະນຳໃນ...
 
 ## Developers section
 
 
 ## Get involved section
 
+validate-readings-link = ກວດສອບການອ່ານ
+contribute-link = ປະກອບສ່ວນເຂົ້າໃນ corpus ຂໍ້ຄວາມ
+answer-questions-link = ຕອບຄໍາຖາມ
+transcribe-answers-link = ຖອດຂໍ້ຄວາມຈາກຄຳຕອບ
+review-transcriptions-link = ກວດເບິ່ງການຖອດຂໍ້ຄວາມ
+contribute-text-link = ປະກອບສ່ວນຂໍ້ຄວາມ
+press-and-stories-link = ກົດ ແລະ ເລື່ອງ
 
 ## Partner section
 
+partner-section-title = ເປັນຄູ່ຮ່ວມງານກັບພວກເຮົາ
+# icon is an arrow that points to the right
+get-in-touch-button = ຕິດຕໍ່ <icon></icon>
