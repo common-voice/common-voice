@@ -1,0 +1,21 @@
+## Home page
+
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Pārrakstīt</mark>
+transcribe-bubble-subtitle = Pārrakstiet ko dzirdat audio ierakstā
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Pārbaudīt</mark>
+check-bubble-subtitle = Pārbaudiet vai audio ierakstā dzirdamais ir pierakstīts pareizi
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Dati</mark>
+data-bubble-subtitle = Mēs laiku pa laikam publicējam savāktos datus
+contact-us = Sazināties ar mums
+contact-us-title = Vai vēlaties iesaistīties šajā projektā vai sadarboties ar mums?
+contact-us-email = E-pasts: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Vai jau esat mūsu Common Voice spontānās runas projekta beta testēšanas grupā?
+signup-terms = Noklikšķinot uz “Sūtīt saiti uz manu e-pastu”, jūs piekrītat mūsu <termsLink>pakalpojuma sniegšanas noteikumiem</termsLink> un <privacyLink>privātuma politikai</privacyLink>, kā arī tam, ka Mozilla var jums e-pastā sniegt informāciju par to, kā piedalīties Common Voice spontānās runas projekta Beta testēšanā.
+signup-input-placeholder = Ievadiet savu epastu
+signup-button-value = Sūtīt saiti uz manu e-pastu
+footer-text-privacy = <privacyLink>Konfidencialitāte</privacyLink>
+footer-text-terms = <termsLink>Noteikumi</termsLink>
+footer-text-cookies = <cookiesLink>Sīkfaili<cookiesLink>

@@ -12,3 +12,9 @@ transcript-edited-error = Saglabājot labojumu notikusi kļūda
 error-fetching-transcriptions = Ielādējot transkripcijas, radās problēma. Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
 transcript-skipped-success = Pārbaude veiksmīgi izlaista.
 transcript-skipped-error = Izlaižot pārbaudi notikusi kļūda
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = Ir pareizi
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Gatavs
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Labot
