@@ -744,7 +744,7 @@ export default class DB {
         FROM skipped_clips skipped
         WHERE skipped.clip_id = clips.id AND client_id = ?
       )
-      AND sentences.clips_count <= 15
+      AND sentences.clips_count <= 50
       ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
       ORDER BY sentences.clips_count ASC, clips.created_at ASC
       LIMIT ?
@@ -1054,9 +1054,9 @@ export default class DB {
           SELECT
             id,
             CASE
-              WHEN counts.upvotes >= 2 AND counts.upvotes > counts.downvotes
+              WHEN counts.upvotes >= 200 AND counts.upvotes > counts.downvotes
                 THEN TRUE
-              WHEN counts.downvotes >= 2 AND counts.downvotes > counts.upvotes
+              WHEN counts.downvotes >= 5 AND counts.downvotes > counts.upvotes
                 THEN FALSE
               ELSE NULL
             END as is_valid
