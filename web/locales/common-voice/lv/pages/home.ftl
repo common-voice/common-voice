@@ -83,7 +83,7 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
-review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
+review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
 transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
@@ -171,7 +171,7 @@ explore-datasets = Izpētiet datu kopas <icon></icon>
 
 get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
 read-sentences-link = Lasīt teikumus
-validate-readings-link = Apstipriniet ierunāto
+validate-readings-link = Apstiprināt ierunāto
 contribute-link = Papildiniet teksta korpusu
 answer-questions-link = Atbildi uz jautājumiem
 transcribe-answers-link = Pārrakstiet atbildes
