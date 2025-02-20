@@ -1238,28 +1238,88 @@ export default class DB {
   async getVoicesStats(
     locale?: string
   ): Promise<{ date: string; value: number }[]> {
-    // It's necesary to manually create an array of all of the hours, because otherwise
-    // if a time interval has no contributions, that hour will just get dropped entirely
-    const hours = Array.from({ length: 10 }).map((_, i) => i)
+    // Get current UTC time
+    const now = new Date()
+    now.setMinutes(0, 0, 0) // Round to the nearest hour
+    // Generate the last 10 hours
+    const hours = Array.from({ length: 10 }, (_, i) => {
+      const date = new Date(now)
+      date.setHours(now.getHours() - i)
+      return date.toISOString().slice(0, 19).replace('T', ' ') // Format: "YYYY-MM-DD HH:00:00"
+    }).reverse() // Keep it in ascending order
+    // Ensure last hour is included:
+    // hours.push(new Date().toISOString().slice(0, 19).replace('T', ' '))
+    // Define the expected structure of rows
+    type Row = { date: string; value: number }
 
-    const [rows] = await this.mysql.query(
+    // Execute the query
+    const [rows]: any = await this.mysql.query(
       `
-        SELECT date, COUNT(DISTINCT activity.client_id) AS value
-        FROM (
-          SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
-          FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
-        ) date_alias
-        LEFT JOIN (
-          SELECT created_at, client_id FROM user_client_activities
-          WHERE created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
-          ${locale ? 'AND locale_id = ?' : ''}
-        ) activity ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+        SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
+               COUNT(DISTINCT activity.client_id) AS value
+        FROM user_client_activities AS activity
+        WHERE activity.created_at >= ?
+              ${locale ? 'AND locale_id = ?' : ''}
         GROUP BY date
-    `,
-      [locale ? await getLocaleId(locale) : '']
+      `,
+      [hours[0], locale ? await getLocaleId(locale) : '']
     )
 
-    return rows
+    // Ensure TypeScript knows the type
+    const typedRows = rows as Row[]
+
+    // Convert database results into a map
+    const dataMap = new Map(typedRows.map(row => [row.date, row.value]))
+
+    const result = hours.map(hour => ({
+      date: new Date(hour + ' UTC').toISOString(), // Force UTC interpretation
+      value: dataMap.get(hour) || 0,
+    }))
+    return result
+  }
+  async getVoicesStatsutcplus(
+    locale?: string
+  ): Promise<{ date: string; value: number }[]> {
+    // Get current UTC time and round to the nearest hour
+    const now = new Date()
+    now.setUTCMinutes(0, 0, 0) // Round to the nearest hour
+    now.setUTCHours(now.getUTCHours() + 2) // Adjust to UTC+2
+    // Generate the last 10 hours **including the current hour**
+    const hours = Array.from({ length: 10 }, (_, i) => {
+      const date = new Date(now)
+      date.setUTCHours(now.getUTCHours() - i) // Subtract in UTC
+      return date.toISOString().slice(0, 19).replace('T', ' ') // "YYYY-MM-DD HH:00:00"
+    }).reverse() // Ensure ascending order
+
+    // Define the expected structure of rows
+    type Row = { date: string; value: number }
+
+    // Execute the query
+    const [rows]: any = await this.mysql.query(
+      `
+      SELECT DATE_FORMAT(CONVERT_TZ(activity.created_at, '+00:00', @@session.time_zone), '%Y-%m-%d %H:00:00') AS date, 
+             COUNT(DISTINCT activity.client_id) AS value
+      FROM user_client_activities AS activity
+      WHERE activity.created_at >= ? 
+            ${locale ? 'AND locale_id = ?' : ''}
+      GROUP BY date
+    `,
+      [hours[0], locale ? await getLocaleId(locale) : '']
+    )
+
+    // Ensure TypeScript knows the type
+    const typedRows = rows as Row[]
+
+    // Convert database results into a map
+    const dataMap = new Map(typedRows.map(row => [row.date, row.value]))
+
+    // Ensure all 10 hours are present and in **correct UTC format**
+    const result = hours.map(hour => ({
+      date: new Date(hour + ' UTC').toISOString(), // Convert to UTC correctly
+      value: dataMap.get(hour) || 0, // Use database value or default to 0
+    }))
+
+    return result
   }
 
   async getContributionStats(
