@@ -5,11 +5,13 @@
 ## Languages
 
 aa = Afarština
+aat = Arvanitika
 ab = Abcházština
 abb = Bankon
 ace = Acehština
 ady = Adygejština
 af = Afrikánština
+aln = Gheg albánština
 am = Amharština
 an = Aragonština
 ar = Arabština
@@ -24,10 +26,13 @@ bas = Basarijština
 bax = Bamun
 bba = Baatonum
 bbj = Ghomala
+bbl = Tush
 bci = Baoule
 be = Běloruština
 beb = Bamvele
+bew = Betawi
 bfd = Bafut
+bft = Balti
 bg = Bulharština
 bkm = Komijština
 bm = Bambarština
