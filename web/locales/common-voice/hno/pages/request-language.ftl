@@ -26,3 +26,4 @@ need-help-deciding-platform = اے فیصلہ کرنا آسطے کہ کے چُ
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>لکھی دی تقریر/گل</strong>(جِڑّا روایتی طور تسیں جانڑدے او جِیّاں کامن وائس) او اے، جِتھّا تسیں اپنڑی زبان اچ اُچِّی آواز نال جملے پڑھ ہکدے او۔
 need-help-deciding-platform-explanation-2 = <strong>بے ساختہ تقریر/گل</strong>ہک کامن وائس دا نوّاں حصہ اے جِتھّاں تسیں زیادہ اصلی تے عام طریقے نال سوالاں دے جواب دے ہکدے او۔
+need-help-deciding-platform-explanation-3 = دونڑیاں دا انتخاب کرو جے اگر تساں کو کسی بھی پلیٹ فارم بچ اپنڑی زبان نہ دِکھّا۔
