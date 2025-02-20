@@ -23,3 +23,6 @@ request-language-error =
 request-for-scripted-speech-toggle = لکھی دی تقریر آسطے درخواست
 request-for-spontaneous-speech-toggle = بے ساختہ تقریر آسطے درخواست
 need-help-deciding-platform = اے فیصلہ کرنا آسطے کہ کے چُڑنا اے، مدد چائی دی اے؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>لکھی دی تقریر/گل</strong>(جِڑّا روایتی طور تسیں جانڑدے او جِیّاں کامن وائس) او اے، جِتھّا تسیں اپنڑی زبان اچ اُچِّی آواز نال جملے پڑھ ہکدے او۔
+need-help-deciding-platform-explanation-2 = <strong>بے ساختہ تقریر/گل</strong>ہک کامن وائس دا نوّاں حصہ اے جِتھّاں تسیں زیادہ اصلی تے عام طریقے نال سوالاں دے جواب دے ہکدے او۔
