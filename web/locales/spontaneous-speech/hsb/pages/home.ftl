@@ -30,6 +30,7 @@ contact-us = Kontakt
 contact-us-title = Sće na sobudźěle na tutym projekće zajimowany abo na partnerstwje z nami?
 contact-us-email = E-mejl: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Sće hižo w našej skupinje za testowanje Beta za projekt Spontana rěč Common Voice?
+signup-terms = Hdyž na „Wotkaz na moju e-mejlowu adresu pósłać“ klikaće, zwoliće do našich <termsLink>wužiwanskich wuměnjenjow</termsLink> a <privacyLink>prawidłow priwatnosće</privacyLink> a do toho, zo Mozilla smě mejlki z informacijemi pósłać, kak móžeće so na betatesće projekta za spontane rěčenje Common Voice wobdźělić.
 signup-input-placeholder = Zapodajće swoju e-mejlowu adresu
 signup-button-value = Wotkaz na moju e-mejlowu adresu pósłać
 footer-text-privacy = <privacyLink>Priwatnosć</privacyLink>
