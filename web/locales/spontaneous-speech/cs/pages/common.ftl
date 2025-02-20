@@ -22,6 +22,7 @@ report-button = Hlášení
 skip-button = Přeskočit
 submit-button = Odeslat
 contribute = Přispět
+request-new-language = Požádat o nový jazyk
 
 ## Navbar
 

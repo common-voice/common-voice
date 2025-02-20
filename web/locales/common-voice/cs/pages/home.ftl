@@ -137,6 +137,10 @@ contribute-github = Přispívejte na GitHubu
 
 ## Developers section
 
+developers-section-title = Veřejně přístupné otevřené řečové datasety ve více než 130 jazycích
+developers-section-subtitle = Datasety pro ASR, STT, TTS a další kontexty NLP - vytvořené za účasti komunity.
+# icon is an arrow that points to the right
+explore-datasets = Prozkoumejte datasety <icon></icon>
 
 ## Get involved section
 
