@@ -5,7 +5,6 @@ request-language-explanation-1 =
     Gwiriit mat emañ meneget ho yezh war
     <languagesPageLink>pajenn yezhoù Common Voice</languagesPageLink>.
     Ma n'emañ ket, leugnit ar furmskrid ha <strong>kas a raimp deoc'h ur postel a zisplego deoc'h petra zo d'ober evit ma vefe ouzhpennet ho yezh</strong>.
-request-language-explanation-2 = Kelaouiñ a raimp <strong>hor merour kumuniezh oc'h dedennet</strong> evit ma c'hallfe reiñ deoc'h an titouroù ouzhpenn a c'hallfec'h kaout ezhomm anezho.
 request-language-form-email =
     .label = Ho chomlec'h postel
 request-language-form-info =

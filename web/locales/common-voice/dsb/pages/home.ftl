@@ -120,7 +120,9 @@ get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice jo dermotna platforma wótwórjonego žrědła za wót zgromaźeństwa nawjedowane napóranje datow
 scripted-card-header = Napisane powědanje
+scripted-card-content = Cytajśo sady głosnje w swójej rěcy a pśinosujśo k nejwjelerakšej zjawnej rěcnej datowej sajźbje w swěśe.
 spontaneous-card-header = Spontane powědanje
 language-text-card-header = Rěcny tekst
 coming-soon = Skóro k dispoziciji
@@ -128,9 +130,11 @@ add-text = Tekst pśidaś
 
 ## Community section
 
+community-section-title = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 130 rěcow a pśiběrajuce!
 join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 # label for button
 join-discord-community-action = Pśizamkniśo se nam na Discord
+join-discord-community-content = Wobźělśo se na diskusijach rěcnego zgromaźeństwa, stajśo pšašanja a zgóńśo wó pśichodnych zarědowanjach a rozgronach.
 find-us-on-matrix = Namakajśo nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajśo nas na Matrix
@@ -153,11 +157,13 @@ download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 ## Developers section
 
 developers-section-title = Zjawnje pśistupne wótwórjone powědańske datowe sajźby we wěcej ako 130 rěcach
+developers-section-subtitle = Datowe sajźby za ASR, STT, TTS a druge konteksty NLP – napórane pśez sobuźěło zgromaźeństwa.
 # icon is an arrow that points to the right
 explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Pódpěrajśo wótwórjone, wót zgromaźeństwa nawjedowane datowe sajźby
 read-sentences-link = Sady cytaś
 validate-readings-link = Cytanja pśeglědowaś
 contribute-link = K tekstowemu korpusoju pśinosowaś

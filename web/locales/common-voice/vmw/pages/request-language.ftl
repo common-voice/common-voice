@@ -1,7 +1,6 @@
 ## Request Language Pages
 
 request-language-heading = Mukohe mwaha wa nttaava nsya
-request-language-explanation-2 = Tho <strong> ninamwaahimeerya maxirenti ahu a mmuttettheni wiira nyuwo munniphavela wiira mpantta </strong>, wiira yuukhaliheryekeni wa ele munniphavelaanyu waka mihupi siniphavelaanyu osuwela.
 request-language-form-email =
     .label = Mihupi anyu wa email.
 request-language-form-info =

@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Ñe’ẽkuaaty Ñe’ẽtekuaa rehegua Kuatiarogue</languagesPageLink>.
     Ndaipóriramo, emyanyhẽ ko kuatiañe’ẽ ha <strong>romondóta ndéve peteĩ ñe’ẽmondo oipytyvõva.
     omoesakãvo mba’éichapa remohendava’erã ne ñe’ẽ</strong>-pe.
-request-language-explanation-2 =
-    Avei <strong>romomarandúta ore rekoha ñangarekohárape
-    eikuaaséva rehegua</strong>, ikatukuaa hag̃uáicha
-    nepytyvõve térã ome’ẽ marandu eikotevẽkuaáva.
 request-language-form-email =
     .label = Ne ñanduti veve kundaharape
 request-language-form-info =

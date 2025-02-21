@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Languages</languagesPageLink>.
     Om inte, fyll i det här formuläret så <strong>skickar vi dig ett praktiskt
     e-postmeddelande som förklarar hur du ställer in ditt språk</strong>.
-request-language-explanation-2 =
-    Vi kommer också att <strong>låta vår community manager veta
-    att du är intresserad</strong>, så att de kan ge dig all extra support
-    eller information du kan behöva.
 request-language-form-email =
     .label = Din e-postadress
 request-language-form-info =
@@ -38,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Vi kanske inte har fått den begäran. Vänligen maila oss direkt
     på <emailLink>{ $email }</emailLink> så återkommer vi till dig!
+request-for-scripted-speech-toggle = Begäran om skriptbaserat tal
+request-for-spontaneous-speech-toggle = Begäran om spontant tal
+need-help-deciding-platform = Behöver du hjälp med att bestämma vilken du ska välja?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Skriptbaserat tal</strong> (traditionellt vad du känner som Common Voice) är där du kan läsa meningar högt på ditt språk.
+need-help-deciding-platform-explanation-2 = <strong>Spontant tal</strong> är en ny del av Common Voice där du kan svara på frågor på ett mer organiskt, vardagligt sätt.
+need-help-deciding-platform-explanation-3 = Om du inte ser ditt språk i någon av delarna av plattformen, välj båda.

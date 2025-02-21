@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>ໜ້າພາສາສຽງທົ່ວໄປ</languagesPageLink>.
     ຖ້າບໍ່ແມ່ນ, ຕື່ມຂໍ້ມູນໃສ່ແບບຟອມນີ້ ແລະພວກເຮົາຈະ<strong>ສົ່ງອີເມວຫາທ່ານ
     ອະທິບາຍວິທີຕັ້ງຄ່າພາສາຂອງເຈົ້າ</strong>.
-request-language-explanation-2 =
-    ພວກເຮົາຍັງຈະ<strong>ແຈ້ງໃຫ້ຜູ້ຈັດການຊຸມຊົນຂອງພວກເຮົາຮູ້
-    ທີ່ເຈົ້າສົນໃຈ</strong>, ດັ່ງນັ້ນເຂົາເຈົ້າສາມາດໃຫ້ເຈົ້າໄດ້
-    ການຊ່ວຍເຫຼືອເພີ່ມເຕີມຫຼືຂໍ້ມູນຂ່າວສານທີ່ທ່ານອາດຈະຕ້ອງການ.
 request-language-form-email =
     .label = ທີ່ຢູ່ອີເມວຂອງທ່ານ
 request-language-form-info =

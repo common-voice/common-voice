@@ -6,7 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice Languages</languagesPageLink>.
     Pokud ne, vyplňte tento formulář a my vám <strong>zašleme instruktážní e-mail
     s popisem, jak jazyk nastavit</strong>.
-request-language-explanation-2 = O vašem zájmu budeme <strong>informovat komunitního manažera</strong>, aby vám mohl poskytnout další podporu nebo informace, které byste mohli potřebovat.
 request-language-form-email =
     .label = Vaše e-mailová adresa
 request-language-form-info =

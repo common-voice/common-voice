@@ -192,6 +192,11 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'ady',
+    variant_name: 'Адыгабзэ (Кирил, пстэумэ зэдыряе)',
+    variant_token: 'ady-Cyrl',
+  },
+  {
+    locale_name: 'ady',
     variant_name: 'Адыгабзэ (Кирил, Урысый)',
     variant_token: 'ady-RU',
   },
@@ -214,6 +219,11 @@ export const VARIANTS: Variant[] = [
     locale_name: 'ady',
     variant_name: 'Адыгабзэ (Кирил, Сирие)',
     variant_token: 'ady-Cyrl-SY',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, псоми зэдай)',
+    variant_token: 'kbd-Cyrl',
   },
   {
     locale_name: 'kbd',
@@ -400,6 +410,21 @@ export const VARIANTS: Variant[] = [
     locale_name: 'sva',
     variant_name: 'ლჷლტეხუ',
     variant_token: 'sva-lentekh',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Hà Nội',
+    variant_token: 'vi-hanoi',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Huế',
+    variant_token: 'vi-huett',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Sài Gòn',
+    variant_token: 'vi-saigon',
   },
   {
     locale_name: 'xmf',

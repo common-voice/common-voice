@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Raksti
+write = Rakstīt
 write-instruction = Pievienojiet <icon></icon> publiskā īpašuma teikumu
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
 sentence =

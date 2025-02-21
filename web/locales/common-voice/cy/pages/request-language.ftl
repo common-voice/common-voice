@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Dudalen Ieithoedd Common Voice</languagesPageLink>.
     Os nad yw, llenwch y ffurflen hon a byddwn yn <strong>anfon e-bost defnyddiol atoch
     yn esbonio sut i osod eich iaith</strong>.
-request-language-explanation-2 =
-    Byddwn hefyd yn <strong>rhoi gwybod i'n rheolwr cymunedol
-    bod gennych chi ddiddordeb</strong>, fel y gallan nhw roi
-    cymorth neu wybodaeth ychwanegol y gallai fod ei angen arnoch.
 request-language-form-email =
     .label = Eich cyfeiriad e-bost
 request-language-form-info =
@@ -39,3 +35,10 @@ request-language-success-list-3 =
 request-language-error =
     Efallai na fyddwn wedi derbyn y cais hwnnw. Anfonwch e-bost atom yn uniongyrchol
     ar <emailLink>{ $email }</emailLink> a byddwn yn cysylltu â chi!
+request-for-scripted-speech-toggle = Gofyn am am Leferydd Ysgrifenedig
+request-for-spontaneous-speech-toggle = Gofyn am Leferydd Rhydd
+need-help-deciding-platform = Angen help i benderfynu pa un i'w ddewis?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Lleferydd Ysgrifenedig</strong> (yn draddodiadol yr hyn yr ydych yn ei adnabod fel Common Voice) yw lle gallwch ddarllen brawddegau yn uchel yn eich iaith.
+need-help-deciding-platform-explanation-2 = Mae <strong>Lleferydd Rhydd</strong> yn rhan newydd o Common Voice lle gallwch ymateb i gwestiynau mewn ffordd fwy organig, llafar.
+need-help-deciding-platform-explanation-3 = Os nad ydych yn gweld eich iaith yn y naill ran na'r llall o'r platfform, dewiswch y ddau.

@@ -4,9 +4,6 @@ request-language-heading = Domanda de informaçioin in sce unna neuva lengua
 request-language-explanation-1 =
     Ammia se a teu lengua a l’é disponibile inta <languagesPageLink>pagina Lengue de Common Voice</languagesPageLink>.
     Se no, impi sto mòdolo e <strong>te mandiemo unn’email pe mostrâte comme azzonzila</strong>.
-request-language-explanation-2 =
-    Pe de ciù, <strong>faiemo savei a-o nòstro community manager che t’ê interessou</strong>, de mòddo ch’o
-    pòsse aggiuttâte e dâte de informaçioin de ciù.
 request-language-form-email =
     .label = O teu adresso email
 request-language-form-info =

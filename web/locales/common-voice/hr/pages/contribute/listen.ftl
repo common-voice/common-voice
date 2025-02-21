@@ -12,9 +12,19 @@ listen-loading-error =
 listen-abort-title = Završiti provjeru isječaka?
 listen-abort-cancel = Nastavi provjeravati
 listen-abort-confirm = Završi provjeru
+# Menu item
+validate-readings = Potvrdi izgovore
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Potvrdi izgovore <small>(uskoro stiže)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Potvrdi izgovore i provjeri transkripciju
+validate-readings-menu-item-tooltip = Potvrdi izgovore u korisničkim snimkama na Vašem jeziku
+review-transcriptions-menu-item-tooltip = Provjeri transkripcije koje su poslali korisnici na Vašem jeziku
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Izbornik opcija za slušanje
+validate-readings-menu-item-aria-label = Potvrdi izgovore koje su poslali članovi zajednice
+review-transcriptions-menu-item-aria-label = Provjeri točnost transkripcija snimljenih rečenica

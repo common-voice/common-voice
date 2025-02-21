@@ -5,10 +5,6 @@ request-language-explanation-1 =
     Kiểm tra xem ngôn ngữ của bạn có được liệt kê trên <languagesPageLink>trang ngôn ngữ giọng nói phổ biến</languagesPageLink>.
     Nếu không, hãy điền vào biểu mẫu này và chúng tôi sẽ <strong>gửi cho bạn một email hữu ích
     giải thích cách thiết lập ngôn ngữ của bạn</strong>.
-request-language-explanation-2 =
-    Chúng tôi cũng sẽ <strong>cho người quản lý cộng đồng của chúng tôi biết
-    mà bạn quan tâm</strong>, vì vậy họ có thể cung cấp cho bạn bất kỳ
-    hỗ trợ thêm hoặc thông tin bạn có thể cần.
 request-language-form-email =
     .label = Địa chỉ email của bạn
 request-language-form-info =

@@ -1,7 +1,7 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Jūs neesat atlasījis nevienu valodu. Lūdzu, dodieties uz savu <profileLink>profilu</profileLink>, lai izvēlētos valodas.
-sc-review-title = Teikumu pārbaude
+sc-review-title = Pārbaudīt teikumus
 sc-review-loading = Notiek teikumu ielāde…
 sc-review-select-language = Lūdzu, izvēlieties valodu, lai pārbaudītu teikumus.
 sc-review-no-sentences = Nav teikumu, ko pārbaudīt. <addLink>Pievienojiet teikumus!</addLink>
@@ -60,4 +60,4 @@ sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
 sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> vai rakstot <emailLink>e-pastu</emailLink>.
 # menu item
-review-sentences = Teikumu pārbaude
+review-sentences = Pārbaudīt teikumus

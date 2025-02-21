@@ -6,7 +6,6 @@ request-language-explanation-1 =
      <languagesPageLink>siaṱari ḽa Nyambo dza Common Voice</languagesPageLink>.
      Arali zwi songo ralo, ḓadzani heyi fomo nahone ri ḓo ni <strong>rumela email ine ya ḓo ni thusa
      u ṱalutshedza uri luambo lwaṋu lu nga dzheniswa hani </strong>.
-request-language-explanation-2 = Ri ḓo <strong>vhudza minidzhere wa vhadzulapo vha vhuponi haṋu uri ni na dzangalelo ḽa hezwi</strong>, u itela uri vha ni tikedze kana u ni vhudza mafhungo ane na nga a ṱoḓa.
 request-language-form-email =
     .label = Email address yaṋu
 request-language-form-info =

@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Pagina de linguas de Common Voice</languagesPageLink>.
     Si non, compila iste formulario e nos <strong>te inviara un practic email
     explicante como implementar tu lingua</strong>.
-request-language-explanation-2 =
-    Nos alsi <strong>face saper a nostre gestor de communitate
-    que tu es interessate</strong>, assi que illes pote dar te tote
-    e assistentia o information extra del que tu poterea besoniar.
 request-language-form-email =
     .label = Tu adresse email
 request-language-form-info =
@@ -38,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Nos pote non haber recipite ille requesta. Invia nos un email directe
     sur <emailLink>{ $email }</emailLink> e nos te respondera!
+request-for-scripted-speech-toggle = Requesta de discurso con transcription
+request-for-spontaneous-speech-toggle = Requesta de discurso spontanee
+need-help-deciding-platform = Besonia tu de adjuta decidente que seliger?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Discurso spontanee</strong> es un nove parte de Common Voice ubi tu pote responder a questiones in maniera plus organic e colloquial.
+need-help-deciding-platform-explanation-2 = <strong>Discurso spontanee</strong> es un nove parte de Common Voice ubi tu pote responder a questiones in maniera plus organic e colloquial.
+need-help-deciding-platform-explanation-3 = Si tu non vide tu lingua in alcun de duo partes del platteforma, selige ambe.

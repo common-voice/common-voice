@@ -4,7 +4,6 @@ request-language-heading = o wile sona lon toki sin
 request-language-explanation-1 =
     sina sona ala e lon pi toki sina la, o lukin e <languagesPageLink>lipu toki</languagesPageLink>.
     toki sina li lon ala la, o pana e sona lon lipu ni. mi <strong>pana e lipu tawa sina</strong>. <strong>lipu li pana e sona pi pali toki</strong>.
-request-language-explanation-2 = jan lawa pi ilo Common Voice li <strong>kama sona e wile sina</strong> la, ona li ken pana e pona e sona.
 request-language-form-email =
     .label = nimi pi poki lipu sina
 request-language-form-info =

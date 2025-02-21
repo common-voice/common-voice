@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink> کامن وائس جِبو صفحہ</languagesPageLink> 
     اگر نِش تو، آ فارم پُرِیا آں بیْس <strong>څھوْڑ ایک ہسان ای میل ڇیݨویس
     تومیْ جِب ترتیب دونے طریقہ پشِیونے کِرِیا </strong>
-request-language-explanation-2 =
-    بیْس <strong>توموْ کمیونٹی مینیجرَڑ گہ رزُویس
-    چہ څھے دلچسبی نیْ </strong>توْ سیْس څھوْڑ ضورڑتے بسکوچیْ امداد یا معلومات دو۔
 request-language-form-email =
     .label = څھے ای میل پتہ
 request-language-form-info =
@@ -37,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     بوبانیْ چہ اسوْڑ اسہ درخواست نہ اُڇھاتیْ بوْ۔ مہربانی تھے اسوْڑ براہ راست ای میل تِھیا
     آ <emailLink>{ $email }</emailLink> آں بیْہ څھوْ دیْ واپس آئِیس
+request-for-scripted-speech-toggle = اسکرپٹڈ تقریرے درخواست
+request-for-spontaneous-speech-toggle = بے ساختہ تقریرے درخواست
+need-help-deciding-platform = آ فیصلہ تھون دہ امدادے ضورڑتِن چہ کھاں انتخاب تھونُن؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong> اسکرپٹڈ اسپیچ </strong> روایتی شان گیْ کاتھ چہ څھوْس کام وائس اےْ نُومِج سِیݩنَت) اسہ زائی نیْ کُدی څھوْس تومیْ جِب دہ  اُچت آواز دہ جُملائے پڑیبانَت۔
+need-help-deciding-platform-explanation-2 = <strong> بے ساختہ تقریر </strong> کامن وائس اےْ ایْک نو حصہ نوْ کُدی څھوْس سوالو جُواب بسکہ نامیاتی موْݜ کالے انداز دوبانَت۔
+need-help-deciding-platform-explanation-3 = اگر څھوْڑ پلیٹ فارمے کھاں گہ حصہ دہ تومیْ جِب لیل نہ بینیْ توْ تے بیئے منتخب تِھیا۔

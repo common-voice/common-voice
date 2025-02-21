@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice valodu lapa</languagesPageLink>.
     Ja nē, aizpildiet šo veidlapu, un mēs <strong>nosūtīsim jums ērtu e-pasta ziņojumu
     paskaidrojot, kā pievienot jaunu valodu</strong>.
-request-language-explanation-2 =
-    Mēs arī <strong>informēsim mūsu kopienas vadītāju
-    par jūsu interesi</strong>, lai viņi varētu sniegt jums
-    papildu atbalstu vai informāciju, ja tāda būs nepieciešama.
 request-language-form-email =
     .label = Tava e-pasta adrese
 request-language-form-info =
@@ -38,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Iespējams, mēs neesam saņēmuši šo pieprasījumu. Lūdzu, rakstiet mums tieši
     uz e-pastu <emailLink>{ $email }</emailLink>, un mēs ar jums sazināsimies!
+request-for-scripted-speech-toggle = Sagatavotās runas pieprasījums
+request-for-spontaneous-speech-toggle = Spontānās runas pieprasījums
+need-help-deciding-platform = Nepieciešama palīdzība, lai izlemtu, kuru izvēlēties?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Sagatavotā runa</strong> (tas ko mēs tradicionāli saprotam ar Common Voice) ir vieta, kur varat ielasīt teikumus savā valodā.
+need-help-deciding-platform-explanation-2 = <strong>Spontānā runa</strong> ir jauna Common Voice daļa, kurā varat atbildēt uz jautājumiem dabiskākā veidā, sarunvalodā.
+need-help-deciding-platform-explanation-3 = Ja nevienā platformas daļā neredzat savu valodu, atlasiet abus.
