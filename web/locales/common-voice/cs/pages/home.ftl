@@ -115,6 +115,7 @@ get-started = Začněte <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice je bezplatná platforma s otevřeným zdrojovým kódem pro komunitní tvorbu dat
+scripted-card-header = Skritpovaná řeč
 spontaneous-card-header = Spontánní řeč
 language-text-card-header = Text jazyka
 coming-soon = Již brzy
@@ -162,3 +163,5 @@ press-and-stories-link = Tisk a příběhy
 ## Partner section
 
 partner-section-title = Staňte se našimi partnery
+# Partners section
+our-partners-include = Mezi naše partnery patří...
