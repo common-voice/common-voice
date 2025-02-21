@@ -48,13 +48,13 @@ report-different-language = Piréči nawésari
 report-different-language-detail = Yoténiame kahtí pirépi nawesaríči sewiná čeká kinó naiwáčitia
 report-difficult-pronounce = Tekite naiwánia
 report-difficult-pronounce-detail = Itóna nawésari reyeróaniame tekitíamepu o naiwánia.
-report-offensive-speech = I 'no'waeme ta'mó nekamupatiame
-report-offensive-speech-detail = Grabasionía itónapu piripi naeračeka nawesaniame o ačikoričeniame.
+report-offensive-speech = Inowáeme tamó nekamúpatiame
+report-offensive-speech-detail = Rawaróatiame itónapu pirípi naeračeká nawésaniame o ačikóričeniame.
 report-other-comment =
-    .placeholder = Nayawatiamé
+    .placeholder = Nayawátiame
 success = Kawétiame
-continue = simiteniame
-report-success = Kawetiame itočeretúpu nawesatiameá
+continue = simiténiame
+report-success = Kawétiame itóčeretupu nawésatiamea
 
 ## Speak & Listen Shortcuts
 
@@ -66,7 +66,7 @@ shortcut-skip = h
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
-shortcut-record-toggle-label = Ra'waroatiame / Ču'čapaniame
+shortcut-record-toggle-label = Rawaróatiame / Čučapániame
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Raroariame enčí wemera kite'peruma
 shortcut-discard-ongoing-recording = ESC
