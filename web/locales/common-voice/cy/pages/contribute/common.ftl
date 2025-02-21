@@ -21,7 +21,7 @@ no-sentences-for-variants = Efallai nad oes rhagor o glipiau ar gyfer eich amryw
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
     Does dim rhagor o frawddegau i chi eu llefaru.
-    Ceisiwch eto, rhywbryd eto.
+    Ceisiwch eto, rhywbryd arall.
 record-button-label = Recordiwch eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
@@ -32,11 +32,6 @@ target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice 
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
 change-preferences = Newid dewisiadau
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Casglu Lleisiau
-contribute-sentence-collection-nav-header = Casglu Brawddegau
 login-signup = Mewngofnodi / Cofrestru
 vote-yes = Iawn
 vote-no = Na
