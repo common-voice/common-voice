@@ -39,12 +39,13 @@ module.exports = (_env, argv) => {
    */
   const cssLoaders = (options = {}) => {
     return [
-      IS_DEVELOPMENT ? 'style-loader' : MiniCssExtractPlugin.loader,
+      //IS_DEVELOPMENT ? 'style-loader' : MiniCssExtractPlugin.loader,
+      MiniCssExtractPlugin.loader,
       {
         loader: 'css-loader',
         options: {
           esModule: false, // TODO: Switch to ES modules syntax.
-          sourceMap: IS_DEVELOPMENT,
+          sourceMap: false,// IS_DEVELOPMENT,
           importLoaders: 1,
           ...options,
         },
