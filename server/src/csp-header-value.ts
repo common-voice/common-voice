@@ -57,7 +57,7 @@ const SOURCES = {
     "'sha256-b+mf6EIMFYxuAIdk6/2IF09zTUsJrlW6qZaw4opG6QU='",
     'https://*.google-analytics.com',
     'https://pontoon.mozilla.org',
-    'https://falakbeta.ksaa.gov.sa',
+    'https://falak.ksaa.gov.sa',
     'https://falak.ksaa.gov.sa',
     'https://*.sentry.io',
     'https://tagmanager.google.com',
