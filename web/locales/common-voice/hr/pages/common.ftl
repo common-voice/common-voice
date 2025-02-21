@@ -24,6 +24,7 @@ bn = Bengalski
 bo = Tibetski
 br = Bretonski
 bs = Bosanski
+bsk = Burušaski
 bxr = Buryat
 byv = Medumba
 ca = Katalonski
