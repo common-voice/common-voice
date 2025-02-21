@@ -8,7 +8,7 @@ const SOURCES = {
     'https://fonts.googleapis.com',
     'https://tagmanager.google.com',
     // we allow unsafe-inline for fundraise up styles - https://fundraiseup.com/support/content-security-policy/
-    "'unsafe-inline'",
+    // "'unsafe-inline'",
   ],
   'img-src': [
     "'self'",
@@ -27,10 +27,10 @@ const SOURCES = {
     'data:',
     'https://ssl.gstatic.com',
     'https://www.gstatic.com',
-    '*.fundraiseup.com',
+    // '*.fundraiseup.com',
     'ucarecdn.com',
-    '*.paypalobjects.com',
-    '*.paypal.com',
+    // '*.paypalobjects.com',
+    // '*.paypal.com',
   ],
   'media-src': [
     'data:',
@@ -62,20 +62,20 @@ const SOURCES = {
     'https://*.sentry.io',
     'https://tagmanager.google.com',
     '*.googletagmanager.com',
-    '*.fundraiseup.com',
-    '*.stripe.com',
-    'm.stripe.network',
-    '*.paypal.com',
-    '*.paypalobjects.com',
-    'pay.google.com ',
-    '*.src.mastercard.com',
+    // '*.fundraiseup.com',
+    // '*.stripe.com',
+    // 'm.stripe.network',
+    // '*.paypal.com',
+    // '*.paypalobjects.com',
+    // 'pay.google.com ',
+    // '*.src.mastercard.com',
   ],
   'font-src': [
     "'self'",
     'https://fonts.gstatic.com',
-    '*.fundraiseup.com',
-    '*.stripe.com',
-    'https://static.fundraiseup.com/fonts/',
+    // '*.fundraiseup.com',
+    // '*.stripe.com',
+    // 'https://static.fundraiseup.com/fonts/',
   ],
   'connect-src': [
     "'self'",
@@ -93,22 +93,22 @@ const SOURCES = {
     'https://edge.fullstory.com',
     'https://fonts.gstatic.com',
     'data:',
-    'fndrsp.net',
-    'fndrsp-checkout.net',
-    '*.fundraiseup.com',
-    '*.stripe.com',
-    '*.paypal.com',
-    '*.paypalobjects.com',
-    'https://www.google.com/pay',
-    'https://google.com/pay',
-    'pay.google.com',
+    // 'fndrsp.net',
+    // 'fndrsp-checkout.net',
+    // '*.fundraiseup.com',
+    // '*.stripe.com',
+    // '*.paypal.com',
+    // '*.paypalobjects.com',
+    // 'https://www.google.com/pay',
+    // 'https://google.com/pay',
+    // 'pay.google.com',
   ],
-  'frame-src': [
-    '*.fundraiseup.com',
-    '*.stripe.com',
-    '*.paypal.com',
-    'pay.google.com',
-  ],
+  // 'frame-src': [
+    // '*.fundraiseup.com',
+    // '*.stripe.com',
+    // '*.paypal.com',
+    // 'pay.google.com',
+  // ],
 }
 
 function getCSPHeaderValue() {
@@ -123,8 +123,8 @@ function getCSPHeaderValue() {
   if (true || !PROD) {
     // if (!PROD) {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
-    SOURCES['style-src'].push("'unsafe-inline'")
-    SOURCES['script-src'].push("'unsafe-eval'")
+    // SOURCES['style-src'].push("'unsafe-inline'")
+    // SOURCES['script-src'].push("'unsafe-eval'")
 
     // add localhost to allowed sources in development
     SOURCES['connect-src'].push(localhostURLs)
