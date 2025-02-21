@@ -116,6 +116,7 @@ get-started = Začněte <icon><icon>
 
 action-items-section-title = Common Voice je bezplatná platforma s otevřeným zdrojovým kódem pro komunitní tvorbu dat
 spontaneous-card-header = Spontánní řeč
+language-text-card-header = Text jazyka
 coming-soon = Již brzy
 add-text = Přidat text
 
@@ -129,11 +130,17 @@ find-us-on-matrix = Najdete nás na Matrixu
 find-us-on-matrix-action = Najdete nás na Matrixu
 ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
 # label for button
+ask-mozilla-share-action = Sdílejte svou událost
+download-contribution-certificate = Stáhněte si potvrzení o příspěvku
+# label for button
 download-contribution-certificate-action = Získejte svůj certifikát
 contribute-github = Přispívejte na GitHubu
+# label for button
+contribute-github-action = Přispívejte na GitHubu
 
 ## Featured section
 
+featured-section-title = Psali o nás...
 
 ## Developers section
 
@@ -145,7 +152,12 @@ explore-datasets = Prozkoumejte datasety <icon></icon>
 ## Get involved section
 
 read-sentences-link = Čtení vět
+validate-readings-link = Ověřujte čtení textu
 answer-questions-link = Odpovídání na otázky
+transcribe-answers-link = Přepisujte odpovědi
+review-transcriptions-link = Kontrolujte přepisy
+contribute-text-link = Přispívejte textem
+press-and-stories-link = Tisk a příběhy
 
 ## Partner section
 
