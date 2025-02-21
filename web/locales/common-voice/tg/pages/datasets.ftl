@@ -31,6 +31,7 @@ other-datasets = Маҷмуи маълумоти овозии дигар
 feedback-q = Мехоҳед, ки назари худро изҳор кунед?
 # This indicates that there is no data to display
 no-information = Маълумот нест
+resource-coqui-info = <coquiLink>«Coqui»</coquiLink> ба технологияи нутқи озод бахшида шудааст. Лоиҳаҳои онҳо дорои муҳаррикҳои омӯзиши амиқ дар асоси «STT» ва «TTS» мебошанд.
 community-playbook = Китоби омӯзишӣ барои ҷомеа
 data-other-ted-name = Маҷмуи «TED-LIUM»
 your-feedback = Шумо фикру андешаҳо доред, ки чӣ гуна мо метавонем маҷмуи маълумоти «Common Voice»-ро беҳтар созем? Ба мо дар «Discourse» хабар диҳед
