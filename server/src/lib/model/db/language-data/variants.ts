@@ -402,6 +402,21 @@ export const VARIANTS: Variant[] = [
     variant_token: 'sva-lentekh',
   },
   {
+    locale_name: 'vi',
+    variant_name: 'Hà Nội',
+    variant_token: 'vi-hanoi',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Huế',
+    variant_token: 'vi-huett',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Sài Gòn',
+    variant_token: 'vi-saigon',
+  },
+  {
     locale_name: 'xmf',
     variant_name: 'ზუგიდური',
     variant_token: 'xmf-zugdid',
