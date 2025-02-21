@@ -7,3 +7,4 @@ select-your-age = ເລືອກອາຍຸຂອງທ່ານ
 
 ## Gender dropdown
 
+female_feminine = ເພດຍິງ/ເພດຍິງ

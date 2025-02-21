@@ -114,9 +114,11 @@ get-started = ເລີ່ມຕົ້ນ <icon><icon>
 scripted-card-header = ການເວົ້າແບບສະຄຣິບ
 language-text-card-header = ຂໍ້ຄວາມພາສາ
 coming-soon = ໄວໆນີ້
+add-text = ເພີ່ມຂໍ້ຄວາມ
 
 ## Community section
 
+join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 # label for button
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
@@ -125,6 +127,7 @@ find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
 ask-mozilla-share = ໃຫ້ Mozilla ແບ່ງປັນເຫດການຂອງເຈົ້າ
 # label for button
 ask-mozilla-share-action = ແບ່ງປັນກິດຈະກຳຂອງທ່ານ
+download-contribution-certificate = ດາວໂຫລດໃບຢັ້ງຢືນການປະກອບສ່ວນຂອງທ່ານ
 # label for button
 download-contribution-certificate-action = ຮັບໃບຢັ້ງຢືນຂອງທ່ານ
 contribute-github = ປະກອບສ່ວນໃນ GitHub
