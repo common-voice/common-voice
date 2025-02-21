@@ -28,3 +28,4 @@ learn-how-to-use-transcribe-explanation = Scrivi esattamente quello che a perso�
 learn-how-to-use-transcribe-guidance = Sciacca <guidanceLink>chì</guidanceLink> per descrovî comme addeuviâ sta pagina
 learn-how-to-use-check-transcript = Descreuvi comme verificâ unna trascriçion
 learn-how-to-use-check-transcript-explanation = Unna trascriçion a l’à da cattuâ tutte e poule ò soin no lescicali emissi da-a persoña, compreiso e repetiçioin.
+learn-how-to-use-check-transcript-guidance = Sciacca <guidanceLink>chì</guidanceLink> pe descrovî comme addeuviâ sta pagina
