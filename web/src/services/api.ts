@@ -73,7 +73,6 @@ export default class API {
     )
 
     const { user } = this
-    console.log(path, user, location.origin)
     if (path.startsWith(location.origin) && !user.account && user.userId) {
       finalHeaders['Authorization'] =
         'Basic ' + btoa(user.userId + ':' + user.authToken)
