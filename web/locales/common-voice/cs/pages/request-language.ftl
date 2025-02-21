@@ -32,3 +32,4 @@ request-language-success-list-3 =
 request-language-error =
     Je možné, že jsme tuto žádost neobdrželi. Napište nám prosím přímo
     na <emailLink>{ $email }</emailLink> a my se vám ozveme zpět!
+need-help-deciding-platform-explanation-3 = Pokud svůj jazyk nevidíte ani v jedné části platformy, vyberte oba.

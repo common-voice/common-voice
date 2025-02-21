@@ -142,6 +142,8 @@ contribute-github-action = Přispívejte na GitHubu
 ## Featured section
 
 featured-section-title = Psali o nás...
+# icon is an arrow that points downwards
+download-press-pack = Stáhněte si náš novinářský balíček <icon></icon>
 
 ## Developers section
 
@@ -154,6 +156,7 @@ explore-datasets = Prozkoumejte datasety <icon></icon>
 
 read-sentences-link = Čtení vět
 validate-readings-link = Ověřujte čtení textu
+contribute-link = Přispějte do textového korpusu
 answer-questions-link = Odpovídání na otázky
 transcribe-answers-link = Přepisujte odpovědi
 review-transcriptions-link = Kontrolujte přepisy
@@ -163,5 +166,7 @@ press-and-stories-link = Tisk a příběhy
 ## Partner section
 
 partner-section-title = Staňte se našimi partnery
+# icon is an arrow that points to the right
+get-in-touch-button = Kontaktujte nás <icon></icon>
 # Partners section
 our-partners-include = Mezi naše partnery patří...
