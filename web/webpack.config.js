@@ -111,7 +111,8 @@ module.exports = (_env, argv) => {
       hashDigestLength: HASH_LENGTH,
     },
     stats: 'errors-only',
-    devtool: IS_DEVELOPMENT ? 'eval-cheap-source-map' : undefined,
+    mode: 'production',
+    devtool: false, //IS_DEVELOPMENT ? 'eval-cheap-source-map' : undefined,
     resolve: {
       /**
        * See https://webpack.js.org/configuration/resolve/#resolve-extensions
