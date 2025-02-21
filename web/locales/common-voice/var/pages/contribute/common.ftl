@@ -81,7 +81,7 @@ request-language-button = ithamáne pirípi nawésari
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
-shortcut-play-toggle-label = Yoraniame /Ču'čapaniame
+shortcut-play-toggle-label = Yoraniáme /Čučapániame
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -92,10 +92,10 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Yoraniáme
-contribution-criteria-link = Penipániame weká wahači yorá pu'ká nawésaniame
-contribution-criteria-page-title = yo'raniame puú na'wesaniame
-contribution-criteria-page-description = pe'nipaniame epečé ka'we ki'iyaka ke'puka onamuka pu'ká rawarotiame i ka'we ma'chitamamu ačina yoraka yoramia  pu'ká a'mo ra'waroa
-contribution-for-example = Ačinatiame.
+contribution-criteria-link = Penipániame weká waháči yorá pu'ká nawésaniame
+contribution-criteria-page-title = yorániame puú nawésaniame
+contribution-criteria-page-description = Penipániame epečé kawé kiyaka kepuka onamuka pu'ká rawarotiame i kawe mačitamamu ačina yoraka yoramia  pu'ká amo rawaroa.
+contribution-for-example = Ačinátiame.
 contribution-misreadings-title = Kikaweruma čaniwame.
 contribution-misreadings-description = wa'a ina'muka, rewisaroa ka'weinateka pu'ká yora'tiame wa'a rawarotiame puú wa'ačitiame wa'a yotetiame; katenaki wa'a ra'waroatiame ikepó pu'ká ra'waroatiame kiwarači čiameenisó, na'nasipami we'katiame we'ka yo'matiempo tetewiniapu:
 contribution-misreadings-description-extended-list-1 = Toina pirepi <strong>"el" </strong>o <strong>"la" </strong>wa'a o'ičaka pu'ká ra'waroatiame
