@@ -6,7 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Pheji ra Tindzimi ta Common Voice</languagesPageLink>.
     Loko swi nga ri tano, tata fomo leyi hi ta ku <strong>rhumela imeyili leyi pfunaka
     ku hlamusela ndlela yo endla leswaku ririmi ra wena ri vekeriwa</strong>.
-request-language-explanation-2 = Hi ta tlhela  <strong>hi tivisa mufambisi wa muganga wa ka hina leswaku wa swi tsakela</strong>, kutani va swi kota ku nyika nseketelo lowu engetelekeke kumbe vuxokoxoko lebyi u nga ha byi lavaka.
 request-language-form-email =
     .label = Adirese ya wena ya imeyili
 request-language-form-info =

@@ -6,9 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink> کامن وائسو واران صفحہ </languagesPageLink> 
     اگر کی نیکی ہیا فارمو ٹیپھاوے اسپہ <strong> تہ تین ای اسان ای میل انځیسی
     کی تان وارو کچہ کوری ترتیب دوس۔
-request-language-explanation-2 =
-    اسپہ تہ <strong>کمیونٹیو منیجرو تین لو دوسی
-    کی تہ دلچسپی شیر </strong>تاکہ ہسے تہ تین خور دی ہݰ  مدد یا معلومات دوئے کہ شاید تہ ضرورت بوئے.
 request-language-form-email =
     .label = تہ ای میل ایڈریس
 request-language-form-info =

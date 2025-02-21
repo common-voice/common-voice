@@ -4,7 +4,6 @@ request-language-heading = نَیں ژِباں بارہ مہ تپُوس کرہ
 request-language-explanation-1 =
     نھال لہ تیں ژیب <languagesPageLink> کامن وائساں ژِبواں پَن٘ڑوۡ </languagesPageLink> لا ای تھی گی نَیں۔
     کہ نَیں کھیں تے ݜس فارم پورہ آں بے تے <strong>بجلی چط ڇِہے تھہ، تسی مہ ݜُو ہو تُھو چے تَیں ژیب تُو گِشے برابر کرا تُھو</strong>
-request-language-explanation-2 = بے تاں <strong>کمینونٹی یاں دُولیاک کران٘لہ یعنی منیجر خبر کرا تھہ چے تُو دلچسپی راڇھیۡ تُھو</strong>، لہ تیرئ گی مَدَتِیں ضرورت ہُون٘دُوں سو تے ڇیلیا تُھو۔
 request-language-form-email =
     .label = تیں بِجلی خَطِیں پَت
 request-language-form-info =

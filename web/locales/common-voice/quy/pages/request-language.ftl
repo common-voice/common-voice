@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Página de idiomas de Common Voice</languagesPageLink>.
     Si no está, complete este formulario y <strong>le enviaremos un correo electrónico muy útil
     explicando cómo configurar su idioma</strong>.
-request-language-explanation-2 =
-    También <strong>informaremos a nuestro administrador de la comunidad
-    que te interesa</strong>, para que puedan darte cualquier
-    apoyo adicional o información que pueda necesitar.
 request-language-form-email =
     .label = Tu correo electrónico
 request-language-form-info =

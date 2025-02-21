@@ -4,7 +4,6 @@ request-language-heading = Botsa ka puo e ntjha
 request-language-explanation-1 =
     Sheba na puo ya hao e thathahamisitswe ho <languagesPageLink>leqephe la Dipuo la Common Voice</languagesPageLink>. 
     Haeba ho se jwalo, tlatsa foromo ena mme re tla <strong> o romella imeile e molemo e hlalosang hore na o ka theha puo ya hao jwang</strong>.
-request-language-explanation-2 = Hape re tla <strong>tsebisa mookamedi wa setjhaba sa rona hore o na le thahasello</strong>, kahoo ba ka o fa tshehetso e feng kapa feng e eketsehileng kapa dintlha tseo o ka di hlokang.
 request-language-form-email =
     .label = Aterese ya hao ya imeile
 request-language-form-info =

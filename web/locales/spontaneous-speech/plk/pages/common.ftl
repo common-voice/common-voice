@@ -22,6 +22,7 @@ report-button = رپورٹ
 skip-button = پھتِیا
 submit-button = ڇیݨ
 contribute = تعاون تِھیا
+request-new-language = نئی جِبے درخواست
 
 ## Navbar
 

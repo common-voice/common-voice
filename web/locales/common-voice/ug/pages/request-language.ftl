@@ -6,7 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink> Common Voice تىللار بېتى </languagesPageLink>.
     ئەگەر ئۇنداق بولمىسا، بۇ جەدۋەلنى تولدۇرۇڭ، بىز <strong>سىزگە قۇلايلىق ئېلخەت ئەۋەتىمىز
     خەتتە تىلىڭىزنى قانداق تەڭشەش چۈشەندۈرۈلگەن </ strong>.
-request-language-explanation-2 = بىز <strong>مەھەللە باشقۇرغۇچىمىزغا سىزنىڭمۇ قىزىقىدىغانلىقىڭىزنى بىلدۈرىمىز</strong>، بۇنداق بولغاندا سىز ئېھتىياجلىق بولغان خالىغان قوشۇمچە قوللاش ۋە ئۇچۇرلارنى سىزگە بېرەلىشى مۇمكىن.
 request-language-form-email =
     .label = ئېلخەت ئادرېسىڭىز
 request-language-form-info =

@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>کامن واءس زبانانی تاک/<languagesPageLink>۔
     اگاں نہ، اے فارم ءَ پُر کن اِت ءُ ما <strong>ترا یک دستی ای میل یے دیم دئیں
     وتی زبان ءِ جوڑ کنگ ءِ رھبند ءِ درشان کنگ</strong>۔
-request-language-explanation-2 =
-    ما وثی کمیونٹی منیجر ئا را ڈسیں
-    کہ تئو دلچسپی ئے</strong>، پمیشا آں تئو ہرچی دات کننت
-    اضافی کمک یا زانتکاری کہ ترا لوٹ ایت۔
 request-language-form-email =
     .label = تئی ای میل ایڈریس
 request-language-form-info =

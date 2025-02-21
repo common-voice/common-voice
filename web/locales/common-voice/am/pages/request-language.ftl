@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>የጋራ ልሳን የቋንቋዎች ገጽ</languagesPageLink> ያረጋግጡ።
     ካልሆነ፣ ይህን ቅጽ ይሙሉ እና እኛ<strong>ቋንቋዎን እንዴት ማዋቀር እንደሚችሉ የሚያብራራ ኢሜይል እንልክልዎታለን
     </strong>።
-request-language-explanation-2 =
-    እኛ ደግሞ <strong>ፍላጎት እንዳለዎ የማህበረሰብ አስተዳዳሪያችን እንዲያውቅ እናደርጋለን
-    </strong>ስለዚህ የሚፈልጉትን ማንኛውንም
-    ተጨማሪ ድጋፍ ወይም መረጃ ይሰጥዎታል።
 request-language-form-email =
     .label = የኢሜል አድራሻዎ
 request-language-form-info =

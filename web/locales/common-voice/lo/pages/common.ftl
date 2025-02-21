@@ -280,6 +280,7 @@ tl = ພາ​ສາ​ຕາ​ກາ​ລັອກ
 tn = Setswana
 tob = Toba Qom
 tok = Toki Pona
+top = Papantla Totonac
 tr = ພາສາຕຸຣະກີ
 trv = Seediq
 trw = Torwali

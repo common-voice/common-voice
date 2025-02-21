@@ -2,7 +2,6 @@
 
 request-language-heading = اٞ نیم جِباٞں باراٞ مئی تپوس کٞر
 request-language-explanation-1 = اِیں بیر اُوں چھیں جِب <languagesPageLink>کامن وائیس آں جِباں پاݪ </languagesPageLink> رہ موجود تھی آ۔ لخہ نانت تے ایں فارم ڈاٞک کراٞ مہ تھاکہ اٞ <strong>ایمیل لاڑائے، تے تٞاس مئی تھاکہ پشائے اوں تھوں جِب مہ آس مئی کھیکی گھیاواں</strong>۔
-request-language-explanation-2 = مہ تانی <strong>کمیونٹی مینیجر کہ پا پنی اُوں تُو آس مئی دلچسپی گھیننت</strong>، اینیں کیر اوں تھکہ دی مالومات یا مددیں ضرولاٞت ہی تام تھکہ دئی۔
 request-language-form-email =
     .label = چھیں ایمیلاں پتہ
 request-language-form-info =

@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯂꯣꯟ ꯂꯃꯥꯏ</languagesPageLink>.
     ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯠꯇꯦ, ꯐꯣꯔꯝ ꯑꯁꯤ ꯃꯦꯟꯁꯤꯜꯂꯨ ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯏꯅꯥ <strong>ꯅꯉꯣꯟꯗꯥ ꯍꯦꯟꯗꯤ ꯏꯃꯦꯜ ꯑꯃꯥ ꯊꯥꯔꯛꯀꯅꯤ ꯫
     ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯀꯔꯝꯅꯥ ꯁꯦꯝꯒꯠꯀꯗꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯁꯟꯗꯣꯛꯅꯥ ꯇꯥꯛꯄꯥ</strong> ꯫
-request-language-explanation-2 =
-    ꯑꯩꯈꯣꯏꯅꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯀꯝꯝꯌꯨꯅꯤꯇꯤ ꯃꯦꯅꯦꯖꯔꯗꯁꯨ <strong> ꯈꯪꯍꯅꯒꯅꯤ ꯫
-    ꯅꯍꯥꯛꯅꯥ ꯏꯟꯇꯔꯦꯁ꯭ꯠ ꯂꯩꯔꯦ ꯍꯥꯏꯕꯥ</strong>, ꯃꯔꯝ ꯑꯗꯨꯅꯥ ꯃꯈꯣꯏꯅꯥ ꯅꯍꯥꯛꯄꯨ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯑꯃꯠꯇꯥ ꯄꯤꯕꯥ ꯉꯝꯒꯅꯤ ꯫
-    ꯑꯍꯦꯟꯕꯥ ꯉꯥꯛꯂꯧ ꯅꯠꯇ꯭ꯔꯒꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯊꯧ ꯇꯥꯕꯥ ꯋꯥꯔꯣꯜ ꯫
 request-language-form-email =
     .label = ꯅꯪꯒꯤ ꯏꯃꯦꯜ ꯑꯦꯗ꯭ꯔꯦꯁ
 request-language-form-info =

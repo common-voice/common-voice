@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>страницата с общи гласови езици</languagesPageLink>.
     Ако не, попълнете този формуляр и ние ще <strong>ви изпратим  имейл
     с обяснение как да настроите вашия език</strong>.
-request-language-explanation-2 =
-    Също така ще<strong>уведомим нашия мениджър на общността
-    за вашия интерес</strong>, така че те  да могат да ви дадат
-    допълнителна информация, от която може да се нуждаете.
 request-language-form-email =
     .label = Адрес на електронна поща
 request-language-form-info =

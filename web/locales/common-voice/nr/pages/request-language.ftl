@@ -4,7 +4,6 @@ request-language-heading = Buza ngelimi elitjha
 request-language-explanation-1 =
     Hlola bona ilimi lakho likhona na ekhasini<languagesPageLink> le-Common Voice Languages</languagesPageLink>.
     Nalingekho, zalisa iforomo begodu sizokuthumelela<strong> i-imeyili ehlathulula kuhle bona ungenza njani ukuthi ilimi lakho lifakwe</strong>.
-request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
 request-language-form-email =
     .label = Isiphande sakho se-email
 request-language-form-info =

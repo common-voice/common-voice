@@ -4,7 +4,6 @@ request-language-heading = Demana d'ahíger ua lengua
 request-language-explanation-1 =
     Verificatz s'era vòsta lengua apareish listada ena <languagesPageLink>pagina de lengües deth Common Voice</languagesPageLink>. 
     Se non, aumplitz aguest formulari e vos <strong>enviaram un corrèu electronic en tot explicar com ahíger era vòsta lengua</strong>.
-request-language-explanation-2 = Tanben <strong>informaram ath nòste gestor de comunitats que i auetz interès</strong>, entà que vos pogue dar eth supòrt addicionau que sigue o informacion qu’auetz de besonh.
 request-language-form-email =
     .label = Era vòsta adreça electronica
 request-language-form-info =

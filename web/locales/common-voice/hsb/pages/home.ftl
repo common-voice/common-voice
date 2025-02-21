@@ -120,7 +120,9 @@ get-started = Prěnje kroki <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
 scripted-card-header = Napisane rěčenje
+scripted-card-content = Čitajće sady wótře w swojej rěči a přinošujće k najwšelakorišej zjawnej rěčnej datowej sadźbje w swěće.
 spontaneous-card-header = Spontane rěčenje
 language-text-card-header = Rěčny tekst
 coming-soon = Bórze k dispoziciji
@@ -128,9 +130,11 @@ add-text = Tekst přidać
 
 ## Community section
 
+community-section-title = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 130 rěčow a přiběrace!
 join-discord-community = Přidružće so zhromadźenstwu Discord
 # label for button
 join-discord-community-action = Přidružće so nam na Discord
+join-discord-community-content = Wobdźělće so na diskusijach rěčneho zhromadźenstwa, stajće prašenja a zhońće wo přichodnych zarjadowanjach a rozmołwach.
 find-us-on-matrix = Namakajće nas na Matrix
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
@@ -153,11 +157,13 @@ download-press-pack = Sćehńće naše nowinske podłožki <icon></icon>
 ## Developers section
 
 developers-section-title = Zjawnje přistupne wotewrjene rěčenske datowe sadźby we wjace hač 130 rěčach
+developers-section-subtitle = Datowe sadźby za ASR, STT, TTS a druhe konteksty NLP – wutworjene přez sobudźěło zhromadźenstwa.
 # icon is an arrow that points to the right
 explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podpěrajće wotewrjene, wot zhromadźenstwa nawjedowane datowe sadźby
 read-sentences-link = Sady čitać
 validate-readings-link = Čitanja přepruwować
 contribute-link = K tekstowemu korpusej přinošować

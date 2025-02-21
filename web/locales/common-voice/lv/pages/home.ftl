@@ -81,11 +81,11 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbildēt uz jautājumiem
-answer-questions-coming-soon = Atbildiet uz jautājumiem <small>(drīzumā)</small>
+answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
-review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
+review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
-transcribe-audio-coming-soon = Pārrakstiet audio <small>(drīzumā)</small>
+transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
@@ -115,7 +115,7 @@ hero-title = Tehnoloģija, kas runā jūsu valodā
 hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
 hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
 # icon is an arrow that points downwards
-get-started = Sāciet darbu <icon><icon>
+get-started = Sākt darbu <icon><icon>
 
 ## Action items section
 
@@ -135,7 +135,7 @@ add-text = Pievienot tekstu
 community-section-title = Nodrošina globālas kopienas, globālām kopienām — 130 valodas, kas arvien pieaug!
 join-discord-community = Pievienojieties Discord kopienai
 # label for button
-join-discord-community-action = Pievienojieties mums Discord
+join-discord-community-action = Pievienoties Discord
 join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
 find-us-on-matrix = Atrodiet mūs Matrix
 find-us-on-matrix-content = Matrix ir atvērts, viegls protokols decentralizētai, reāllaika saziņai, un Mozilla izvēlētā atvērto diskusiju platforma.
@@ -146,15 +146,49 @@ ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastās
 # label for button
 ask-mozilla-share-action = Pastāstiet par savu notikumu
 download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
+download-contribution-certificate-content = Lejupielādējiet sertifikātu saviem notikumiem vai sev, ja esat piedalījies Common Voice — tas nebūtu iespējams bez jums!
+# label for button
+download-contribution-certificate-action = Saņemiet savu sertifikātu
+contribute-github = Atbalstiet vietnē GitHub
+contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā jūs. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — jums nav jāmāk programmēt, lai sniegtu ieguldījumu!
+# label for button
+contribute-github-action = Atbalstiet vietnē GitHub
 
 ## Featured section
 
+featured-section-title = Pieminēts...
+# icon is an arrow that points downwards
+download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
+developers-section-title = Publiski pieejamas atvērtās runas datu kopas vairāk nekā 130+ valodās
+developers-section-subtitle = Datu kopas ASR, STT, TTS un citiem NLP uzdevumiem — izveidotas, ar kopienas spēkiem.
+# icon is an arrow that points to the right
+explore-datasets = Izpētiet datu kopas <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
+read-sentences-link = Lasīt teikumus
+validate-readings-link = Apstiprināt ierunāto
+contribute-link = Papildiniet teksta korpusu
+answer-questions-link = Atbildi uz jautājumiem
+transcribe-answers-link = Pārrakstiet atbildes
+review-transcriptions-link = Pārskatiet pierakstīto
+contribute-text-link = Iesniedziet tekstu
+press-and-stories-link = Prese un stāsti
 
 ## Partner section
 
+partner-section-title = Sadarbojieties ar mums
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldiet atvērtu datu kopu izveidē plaukstošai daudzvalodu AI ekosistēmai
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — veidojiet, publicējiet un dalieties ar noderīgām datu kopām
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
+# icon is an arrow that points to the right
+get-in-touch-button = Sazinieties ar <icon></icon>
+# Partners section
+our-partners-include = Mūsu partneru vidū ir...

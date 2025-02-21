@@ -1,5 +1,5 @@
 record-cta = റെക്കോര്‍ഡിംഗ് ആരംഭിയ്ക്കുക
-record-platform-not-supported = ക്ഷമിക്കണം, നിങ്ങളുടെ പ്ലാറ്റ്ഫോം നിലവിൽ പിന്തുണയ്ക്കുന്നില്ല.
+record-platform-not-supported = പൊറുക്കണം, താങ്ങളുടെ മഞ്ചം നിലവിൽ പിന്തുണയ്ക്കുന്നില്ല.
 record-platform-not-supported-desktop = നിങ്ങൾക്ക് ഡെസ്ക്ടോപ്പ് കമ്പ്യൂട്ടറുകളില്‍നിന്നും ഏറ്റവും പുതിയത് ഡൌൺലോഡ് ചെയ്യാൻ  സാധിയ്ക്കും
 record-platform-not-supported-ios-non-safari = IOSൽ റെക്കോർഡിംഗ് പ്രാപ്തമാക്കുന്നതിന് സഫാരിയുമായി തുടരുക…
 record-must-allow-microphone = നിങ്ങൾ നിര്‍ബന്ധമായും  മൈക്രോഫോണിനുള്ള അനുനമതി നല്‍കണം.

@@ -2,7 +2,6 @@
 
 request-language-heading = Demander une nouvelle langue
 request-language-explanation-1 = Vérifiez si votre langue est répertoriée sur la <languagesPageLink>page des langues de Common Voice</languagesPageLink>. Si ce n’est pas le cas, remplissez ce formulaire et nous <strong>vous enverrons un e-mail expliquant comment configurer votre langue</strong>.
-request-language-explanation-2 = Nous allons également <strong>informer notre community manager que vous êtes intéressé·e</strong>, afin qu’il ou elle puisse vous aider ou vous fournir des informations supplémentaires dont vous pourriez avoir besoin.
 request-language-form-email =
     .label = Votre adresse e-mail
 request-language-form-info =

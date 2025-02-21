@@ -6,10 +6,6 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice-taleside</languagesPageLink>.
     Sa net, folje dan dit formulier yn en wy <strong>stjoere jo in handich e-mailberjocht
     wêryn útlein wurdt hoe’t jo jo taal opsette litte kinne</strong>.
-request-language-explanation-2 =
-    Wy sille ek <strong>ús mienskipsbehearder witte litte
-    dat jo ynteressearre binne</strong>, sadat se jo eventuele
-    ekstra stipe of ynformaasje dy’t jo nedich hawwe jaan kinne.
 request-language-form-email =
     .label = Jo e-mailadres
 request-language-form-info =

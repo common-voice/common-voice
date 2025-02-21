@@ -2,7 +2,6 @@
 
 request-language-heading = کسی ایک نوئیں زبان کے بارہ ما پچھو
 request-language-explanation-1 = <languagesPageLink> کامن وائس زباناں کا صفحہ </languagesPageLink> اپر فہرست ما دیکھوں جے تھہاری زبان لکھی ہے۔ جے کدے نیہہ لکھی تے تم فارم نا بھرو تے <strong> ہم تمنا ایک آسان ای میل چلاواں گا جس ما دسیو جائے گو جے تم اپنی زبان کی ترتیب کس طرحیا بنا سکو۔</strong>
-request-language-explanation-2 = ہم اپنا <strong> کمیونٹی ناظم نا دساں گا جے تم </strong> دلچسپی لیو لگا۔ بھی ویہ تمنا اضافی مدد یا معلومات دیں گا جس کی تمنا ضرورت ہووے گی۔
 request-language-form-email =
     .label = تھہاری ای میل کو پتو
 request-language-form-info =

@@ -2,7 +2,6 @@
 
 request-language-heading = 請求加入新語言
 request-language-explanation-1 = 請先確認你的語言是否已列於 <languagesPageLink>Common Voice 語言頁面</languagesPageLink>。若沒有列在其中，則請填寫此表單，我們將寄送一份<strong>如何開始新語言</strong>的簡短郵件給你。
-request-language-explanation-2 = 我們也會讓我們的社群經理 <strong>知道你對新語言有興趣</strong>，以提供任何你需要的支援與幫助。
 request-language-form-email =
     .label = 你的電子郵件地址
 request-language-form-info =

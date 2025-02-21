@@ -19,3 +19,6 @@ request-language-success-list-1 =
     Шумо бояд паёми электрониеро бо тавсифи кутоҳ оид ба қадамҳо
     барои илова кардани забони худ ба «Common Voice» ба зудӣ қабул намоед
 request-language-error = Шояд мо ин дархостро нагирифтаем. Лутфан, ба мо мустақиман тавассути почтаи электронӣ фиристед <emailLink>{ $email }</emailLink> ва мо бо шумо дар тамос мешавем!
+request-for-scripted-speech-toggle = Дархост барои «Нутқи намоишнома/Scripted Speech»
+request-for-spontaneous-speech-toggle = Дархост барои «Нутқи бевосита/Spontaneous Speech»
+need-help-deciding-platform = Барои интихоби имкон кумак лозим аст?
