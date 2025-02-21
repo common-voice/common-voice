@@ -16,6 +16,7 @@ report-button = رپورٹ کرو
 skip-button = چھوڑو
 submit-button = جمع کرواؤ
 contribute = حصہ پاؤ
+request-new-language = نویں زبان دی ارداس کرو
 
 ## Navbar
 
