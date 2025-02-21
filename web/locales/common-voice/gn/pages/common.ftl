@@ -5,11 +5,13 @@
 ## Languages
 
 aa = Mombyry
+aat = Arvanítika
 ab = Abkhaz
 abb = Bankon
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+aln = Albanés gheg
 am = Amharic
 an = Aragonese
 ar = Arabic
@@ -24,15 +26,19 @@ bas = Basaa
 bax = Bamun
 bba = Baatonum
 bbj = Ghomala
+bbl = Tush
 bci = Baoule
 be = Belarusian
 beb = Bamvele
+bew = Betawi
 bfd = Bafut
+bft = Balti
 bg = Bulgaria ñe’ẽ
 bkm = Kom
 bm = Bambara
 bn = Bengali ñe’ẽ
 bnm = Batanga
+bnn = Bunun
 bo = Tibetano
 br = Breton ñe’ẽ
 bri = Mokpwe

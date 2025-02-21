@@ -365,7 +365,7 @@ donate-banner-cta = <mark>Rydym angen</mark><br/><mark>eich cymorth!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud. <strong>Os ydych chi'n gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</strong>
 # Text wrapped in <mark></mark> will have a white background.
-languages-donate-banner-cta = <mark>Yn defnyddio CV ar gyfer</mark><br/><mark>eich ymchwil?</mark>
+languages-donate-banner-cta = <mark>Yn defnyddio Common Voice ar gyfer</mark><br/><mark>eich ymchwil?</mark>
 languages-donate-banner-cta-explanation = Mae Common Voice yn cael ei ariannu gan roddion a grantiau! Rydym wrth ein bodd yn cydweithio ag academyddion, y gymdeithas sifil ac ymchwilwyr diwydiant. Mae Common Voice yn rhad ac am ddim i'w ddefnyddio, ond mae cyfrannu at gostau llwyfan a lletya trwy gynigion grant yn beth defnyddiol iawn.
 localization-select =
     .label = Dewiswch iaith
