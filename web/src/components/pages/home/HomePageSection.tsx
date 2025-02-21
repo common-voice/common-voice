@@ -99,7 +99,7 @@ export default function HomePageSection() {
         )}
             </div>
           <p className="text-right py-4 text-[14px] md:text-[16px]w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
-          اقرأ، سجّل صوتك واستمع إليه! </p>
+          تحدث، سجّل صوتك واستمع إليه! </p>
 
           <div className="flex justify-center md:justify-center items-center pt-16 md:pr-8 gap-8 flex-wrap">
             <div className="flex flex-col justify-center text-[12px] w-[110px] hidden">
