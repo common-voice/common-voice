@@ -68,13 +68,13 @@ shortcut-skip = h
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Rawaróatiame / Čučapániame
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Raroariame enčí wemera kite'peruma
+shortcut-rerecord-toggle-label = Raroariáme enčí weméra kitéperuma
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = U'yeniame pu'ká ra'waroatiame wa'a ma'siteniači
-shortcut-submit = E'naniame
-shortcut-submit-label = i'točetiame ra'waroatiame
-request-language-text = ¿i'weka pe'hi kitewanimu a'mo nawesariwa wa'a Common Voice?
-request-language-button = ithamáne piripi nawésari
+shortcut-discard-ongoing-recording-label = U'yeniame pu'ká rawaroóatiame wa'á masiténiači
+shortcut-submit = E'naniáme
+shortcut-submit-label = Itočetiame rawaroátiame
+request-language-text = ¿Iweta pehí kitéwanimu amó nawésariwa wa'a Common Voice?
+request-language-button = ithamáne pirípi nawésari
 
 ## Listen Shortcuts
 
@@ -91,8 +91,8 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = Yo'raniame
-contribution-criteria-link = Pe'nipaniame we'ka wahači yo'ra pu'ká na'wesaniame
+contribution-criteria-nav = Yoraniáme
+contribution-criteria-link = Penipániame weká wahači yorá pu'ká nawésaniame
 contribution-criteria-page-title = yo'raniame puú na'wesaniame
 contribution-criteria-page-description = pe'nipaniame epečé ka'we ki'iyaka ke'puka onamuka pu'ká rawarotiame i ka'we ma'chitamamu ačina yoraka yoramia  pu'ká a'mo ra'waroa
 contribution-for-example = Ačinatiame.
