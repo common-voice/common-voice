@@ -7,6 +7,7 @@ offensive_speech-detail = Wopśimjeśe ma njezdwórliwu a njepśistojnu rěc.
 different_language = Druga rěc
 different_language-detail = Wopśimjeśe drugu rěc wopśimujo ako som wócakał.
 personally_identifiable_information = Informacije, kótarež wósoby identificěruju
+personally_identifiable_information-detail = Toś to wopśimjeśe wósobinske daty wopśimujo, kótarež se na identitu wósoby póśěguju, na pśikład jeje mě, e-mailowa adresa, stojnišćo, identifikaciski numer abo telefonowy numer.
 report-other-comment =
     .placeholder = Komentar
 # Label for textarea in report modal
