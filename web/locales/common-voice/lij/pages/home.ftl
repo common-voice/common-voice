@@ -86,6 +86,7 @@ transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile fito)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
+coming-soon = Disponibile fito
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,12 +108,31 @@ community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue 
 ## Hero section
 
 hero-title = Tecnologia ch’a parla a teu lengua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Perché l’intelligensa artifiçiale a dovieiva ëse limitâ à pöche lengue into mondo?</bold>
+hero-subtitle-2 = A nòstra lengua a l’é a nòstra stöia, a nòstra communitæ, a nòstra coltua. Creemmo insemme di dataset che respegian a nòstra vixon do mondo.
+# icon is an arrow that points downwards
+get-started = Comensa <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice a l’é unna ciattaforma de badda e open source dedicâ a-a creaçion de dæto sotta a guidda da communitæ
+action-items-section-subtitle = Tutti peuan allugâ, revitalizzâ e elevâ a seu lengua con scompartî, creâ e cuâ di dataset de testo e voxe.
+scripted-card-header = Descorso scrito
+scripted-card-content = Lezi de frase à erta voxe inta teu lengua e contribuisci a-o dataset de conoscimento vocale à parteçipaçion pubrica o ciù variegou a-o mondo.
+spontaneous-card-header = Descorso spontaneo
+spontaneous-card-content = Replica à de domande pe creâ di dataset relativi à di contesti naturali e colloquiali. Perfetto pe-e lengue prevalentemente orale.
+language-text-card-header = Testo in lengua
+language-text-card-content = Crea ò scompartisci de domande, frase e testi de pubrico dominio pe traduçioin, modelli de lengua de dimenscion picciña e atro ancon.
+coming-soon = Disponibile fito
+add-text = Azzonzi do testo
 
 ## Community section
 
+community-section-title = Realizzou da de communitæ globale, pe-e communitæ globale: 130 lengue, delongo in aumento!
+join-discord-community = Intra inta communitæ in sce Discord
+# label for button
+join-discord-community-action = Piggia parte in sce Discord
 
 ## Featured section
 
