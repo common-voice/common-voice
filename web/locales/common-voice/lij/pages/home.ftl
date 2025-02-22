@@ -133,15 +133,41 @@ community-section-title = Realizzou da de communitæ globale, pe-e communitæ gl
 join-discord-community = Intra inta communitæ in sce Discord
 # label for button
 join-discord-community-action = Piggia parte in sce Discord
+join-discord-community-content = Parteçipa a-e discuscioin da communitæ linguistica, fanni de domande e descreuvi i pròscimi eventi e presentaçioin.
+find-us-on-matrix = Vëgni à trovâne in sce Matrix
+find-us-on-matrix-content = Matrix o l’é un protocòllo averto e legio pe-a communicaçion deçentralizzâ in tempo reale, e a ciattaforma ch’à l’é ciù caa à Mozilla.
+# label for button
+find-us-on-matrix-action = Vëgni à trovâne in sce Matrix
+ask-mozilla-share = Domanda à Mozilla de scompartî i teu eventi
+ask-mozilla-share-content = T’æ organizzou un evento in passou ò ti n’æ un in programma? Scompartiscilo con niatri e l’annonçiemo a-a nòstra communitæ, ò scriviemo un articolo in sciô blog.
+# label for button
+ask-mozilla-share-action = Scompartisci o teu evento
+download-contribution-certificate = Descarrega o teu çertificou de conlaboraçion
+download-contribution-certificate-content = Descarrega un çertificou pe-i teu eventi ò pe ti mæximo se t’æ parteçipou à Common Voice. Tutto questo o no saieiva poscibile senza o teu aggiutto!
+# label for button
+download-contribution-certificate-action = Ottëgni o teu çertificou
+contribute-github = Conlabora in sce GitHub
+contribute-github-content = Sto progetto o no saieiva poscibile sensa de persoñe comme ti. 🎉 Gh’é tante mainee de conlaborâ con Common Voice: no gh’é beseugno de ëse bon à programmâ pe aggiuttâ!
+# label for button
+contribute-github-action = Conlabora in sce GitHub
 
 ## Featured section
 
+featured-section-title = Ne an parlou…
+# icon is an arrow that points downwards
+download-press-pack = Descarrega o nòstro pacchetto stampa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Dataset averto de dæti vocali pubricamente accescibili in ciù de 130 lengue
+developers-section-subtitle = Dataset pe ASR, STT, TTS e atri contesti de NLP, stæti creæ graçie a-a parteçipaçion da communitæ.
+# icon is an arrow that points to the right
+explore-datasets = Esplöra i dataset <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Sostëgni i dataset averti manezzæ da-a communitæ
+read-sentences-link = Lezi de frase
 
 ## Partner section
 
