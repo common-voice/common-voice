@@ -6,6 +6,12 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> ฟัง
 check-editbox-header = ตรวจสอบ
 no-transcriptions-message = ขณะนี้ยังไม่มีการถอดเสียงให้ตรวจสอบสำหรับภาษานี้ โปรดเรียกหน้านี้ใหม่หรือลองอีกครั้งในภายหลัง
 vote-transcript-success = ลงคะแนนการถอดเสียงสำเร็จแล้ว
+vote-transcript-error = เกิดข้อผิดพลาดขณะลงคะแนนการถอดเสียง
+transcript-edited-success = แก้ไขการถอดเสียงสำเร็จแล้ว
+transcript-edited-error = เกิดข้อผิดพลาดขณะแก้ไขการถอดเสียง
+error-fetching-transcriptions = มีบางอย่างผิดปกติขณะดึงข้อมูลการถอดเสียง โปรดลองอีกครั้ง
+transcript-skipped-success = ข้ามการถอดเสียงสำเร็จแล้ว
+transcript-skipped-error = เกิดข้อผิดพลาดขณะข้ามการถอดเสียง
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = ถูกต้อง
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
