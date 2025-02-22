@@ -36,11 +36,6 @@ target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
 change-preferences = Nastajenja změnić
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Zběrka hłosow
-contribute-sentence-collection-nav-header = Zběrka sadow
 login-signup = Přizjewić/Registrować
 vote-yes = Haj
 vote-no = Ně
@@ -133,6 +128,7 @@ contribution-misreadings-example-7-explanation = [‘a’ w originalnym teksće 
 contribution-misreadings-example-8-title = Čmjeła nimo lećeše.
 contribution-misreadings-example-8-explanation = [Wobsah njewotpowěduje]
 contribution-varying-pronunciations-title = Rozdźělne wurjekowanja
+contribution-varying-pronunciations-description = Budźće kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo po wšěm zdaću prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wěstu swobodu, kotřiž hinak hač wy rěča.
 contribution-background-noise-title = Pozadkowe šumy
 contribution-background-noise-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Hoberske dinosawriery <strong>[cough]</strong> triasa.
