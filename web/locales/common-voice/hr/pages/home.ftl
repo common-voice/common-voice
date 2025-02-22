@@ -1,7 +1,7 @@
 ## Home Page
 
-home-title = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
-default-tagline = Common Voice je Mozillina inicijativa koja pomaže strojevima govoriti ljudskim jezikom.
+home-title = Common Voice je Mozillina inicijativa za podučavanje strojeva da govore ljudskim jezikom.
+default-tagline = Mozilla Common Voice je inicijativa za podučavanje strojeva da govore ljudskim jezikom.
 home-cta = Govori, doprinesi ovdje!
 wall-of-text-start =
     Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
@@ -11,8 +11,8 @@ wall-of-text-more-mobile =
     guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
     prepoznavanje govora.
 wall-of-text-more-desktop =
-    Donirati svoj glas i pomogni izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
-    za izradu inovativnih programa za uređaje i za web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
+    Doniraj svoj glas i pomogni izgraditi bazu podataka govora otvorenog koda, koju svatko može koristiti
+    za izradu inovativnih programa za uređaje i za web. Pročitaj rečenicu i pomogni strojevima da uče govoriti ljudskim jezikom.
     Provjeri rad drugih donatora kako bi se poboljšala kvaliteta. Stvarno je tako jednostavno!
 wall-of-text-first =
     Glas je prirodan, glas je ljudski. Stoga želimo stvoriti upotrebljive govorne tehnologije
