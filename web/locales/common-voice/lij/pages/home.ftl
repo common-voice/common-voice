@@ -78,8 +78,11 @@ read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
 ## NAV ITEMS
 
 answer-questions = Replica a-e domande <small>(disponibile fito)</small>
+answer-questions-coming-soon = Replica a-e domande <small>(disponibile fito)</small>
 review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
+review-transcriptions-coming-soon = Verifica e trascriçioin <small>(disponibile fito)</small>
 add-questions = Azzonzi de domande <small>(disponibile fito)</small>
+transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile fito)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
@@ -103,6 +106,7 @@ community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue 
 
 ## Hero section
 
+hero-title = Tecnologia ch’a parla a teu lengua
 
 ## Action items section
 

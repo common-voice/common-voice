@@ -11,6 +11,14 @@ country-of-residence-label = Paise/region de rescidensa
 country-of-residence-placeholder =
     .placeholder = Metti o teu paise/region de rescidensa
 why-are-you-asking = Perché t’ô domandemmo?
+why-are-you-asking-explanation = Ste informaçioin en facoltative: azzonzile solo se ti veu. Quande pubrichemmo o dataset, pseudoanonimizzemmo tutte e informaçioin personale e s’asseguemmo che e informaçioin comme o teu nomme e adresso email no seggian ligæ a-e informaçioin demongrafiche comme etæ ò sesso. Coscì che a tecnologia a fonçioñe megio pe tutti, i dæti addeuviæ da-i sviluppatoî pe creâla an da reflette unna diverscitæ de persoñe. Descreuvi perché i metadæti en importanti.
+thank-you-for-your-information = Graçie pe-e teu informaçioin
 
 ## Gender dropdown
 
+male_masculine = Òmmo/Mascolin
+female_feminine = Dònna/Feminin
+intersex = Intersessuale
+transgender = Transgenere
+non-binary = Non-binäio
+do_not_wish_to_say = No m’é cao dîlo
