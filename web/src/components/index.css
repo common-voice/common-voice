@@ -544,6 +544,7 @@ button.bg-second-theme,
     display: inline;
 }
 
+
 @media (max-width: 767px) {
     .hero-card {
         height: initial !important;
@@ -568,6 +569,13 @@ button.bg-second-theme,
         width: 90% !important;
     }
     .contribution .steps {
-        /* display: none; */
+        display: none;
     }
+}
+.hero-banner {
+    width: 100%;
+    padding: 0 7rem;
+}
+.hero-banner .bg-banner {
+    background-image: url('./img/mic-banner.png')
 }
