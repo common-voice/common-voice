@@ -84,12 +84,75 @@ maximum-file-size = Dimenscion mascima do file: 25 MB
 what-needs-to-be-in-file = Cöse ghe va into mæ file?
 what-needs-to-be-in-file-explanation = Contròlla o nòstro <templateFileLink>file modello</templateFileLink>. E teu frase no an da ëse soggette à copyright (CC0 ò unn’euvia originale con autorizzaçion de l’autô) e ëse ciæe, grammaticalmente corrette e de bon leze. A lettua de frase mandæ a l’à da piggiâ 10-15 segondi pöcassæ e no devan comprende di numeri, nommi pròppi e caratteri particolæ.
 upload-progress-text = Carregamento in corso…
+sc-bulk-submit-confirm = Confermo che ste frase en de <wikipediaLink>pubrico dominio</wikipediaLink> e che son autorizzou à carregâle.
+bulk-upload-success-toast = Frase carregæ in blòcco
+bulk-upload-failed-toast = Carregamento no arriescio, preuva torna.
+bulk-submission-success-header = Graçie pe avei scompartio e teu frase!
+bulk-submission-success-subheader = T’æ aggiuttou Common Voice à razzonze l’obiettivo do giorno pe-e frase!
+upload-more-btn-text = Ti veu carregâ de atre frase?
+file-invalid-type = File no valido
+file-too-large = File tròppo grande
+file-too-small = File tròppo piccin
+too-many-files = Tròppi file
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Azzonzi ciù frase de pubrico dominio
+multiple-sentences-error = No se peu azzonze ciù frase inte un scingolo invio
+exceeds-small-batch-limit-error = No se peu mandâ ciù de 1000 frase
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limite de frequensa passou. Preuva torna de chì à 1 menuto
+       *[other] Limite de frequensa passou. Preuva torna de chì à { $retryLimit } menuti
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limite de frequensa passou. Preuva torna de chì à 1 segondo
+       *[other] Limite de frequensa passou. Preuva torna de chì à { $retryLimit } segondi
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] T’æ razzonto o limite d’invii pe sta pagina. Pe piaxei, aspeta 1 menuto avanti de mandâ unn’atra frase. Graçie pe-a paçiensa!
+       *[other] T’æ razzonto o limite d’invii pe sta pagina. Pe piaxei, aspeta { $retryLimit } menuti avanti de mandâ unn’atra frase. Graçie pe-a paçiensa!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] T’æ razzonto o limite d’invii pe sta pagina. Pe piaxei, aspeta 1 segondo avanti de mandâ unn’atra frase. Graçie pe-a paçiensa!
+       *[other] T’æ razzonto o limite d’invii pe sta pagina. Pe piaxei, aspeta { $retryLimit } segondi avanti de mandâ unn’atra frase. Graçie pe-a paçiensa!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } in sce 1 frase arrecuggeita
+       *[other] { $uploadedSentences } in sce { $totalSentences } frase arrecuggeite
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 frase arrecuggeita. Sciacca <downloadLink>chì</downloadLink> pe descarregâ e frase refuæ.
+       *[other] { $uploadedSentences } de { $totalSentences } frase arrecuggeite. Sciacca <downloadLink>chì</downloadLink> pe descarregâ e frase refuæ.
+    }
+small-batch-sentences-rule-1 = Vanni apreuvo a-e linie guidda da seçion “Che frase pòsso azzonze?”
+small-batch-sentences-rule-2 = Azzonzi unna frase pe linia
+small-batch-sentences-rule-3 = Spartisci e frase in sciâ mæxima linia con sciaccâ unna vòtta o pommello “Invio”
+small-batch-sentences-rule-4 = Azzonzi fin à 1,000 frase
+small-batch-sentences-rule-5 = Tutte e frase an da appartegnî a-o mæximo dominio
+small-batch-sentences-rule-6 = Tutte e frase an da avei a mæxima çittaçion
+# menu item
+add-sentences = Azzonzi frase
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Azzonzi e verifica frase, azzonzi domande, trascrivi audio
+add-sentences-menu-item-tooltip = Azzonzi frase inta teu lengua
+review-sentences-menu-item-tooltip = Verifica frase inta teu lengua
+add-questions-menu-item-tooltip = Azzonzi domande inta teu lengua
+transcribe-audio-menu-item-tooltip = Trascrivi de registraçioin audio inta teu lengua
 
 ## MENU ITEM ARIA LABELS
 
