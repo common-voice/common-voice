@@ -62,6 +62,8 @@ create-profile-button = Crea un profî
 img-alt-success-checkmark = sponta de successo
 # menu item
 read-sentences = Lezi de frase
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Lezi de frase <small>(disponibile fito)</small>
 
 ## MENU ITEM TOOLTIPS
 

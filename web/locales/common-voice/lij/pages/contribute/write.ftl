@@ -156,3 +156,8 @@ transcribe-audio-menu-item-tooltip = Trascrivi de registraçioin audio inta teu 
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Menù opçioin de scrittua
+add-sentences-menu-item-aria-label = Azzonzi de neuve frase che peuan ëse lezzue da-a communitæ
+review-sentences-menu-item-aria-label = Verifica e frase existente stæte mandæ da-a communitæ
+add-questions-menu-item-aria-label = Manda de neuve domande pe permette a-a communitæ de lezile e replicâ
+transcribe-audio-menu-item-aria-label = Trascrivi e registraçioin audio
