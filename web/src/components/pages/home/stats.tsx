@@ -23,6 +23,7 @@ import Plot, {
 } from '../../plot/plot';
 
 import './stats.css';
+import { toArabicNumbers } from '../../shared/helpers';
 
 const PLOT_STROKE_WIDTH = 2;
 
@@ -41,7 +42,7 @@ function StatsCard({
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
   return (
-    <div className={`home-card ${scrollable ? 'scrollable' : ''}`}>
+    <div className={`home-card`}>
       <div className="head">
         {header}
         <LanguageSelect
@@ -53,7 +54,9 @@ function StatsCard({
           }}
         />
       </div>
+      <div className={`home-card-content ${scrollable ? 'scrollable' : ''}`}>
       {children}
+      </div>
     </div>
   );
 }
@@ -357,6 +360,11 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
 
     updateData = async (locale?: string) => {
       this.setState({ data: await this.props.api.fetchClipVoices(locale) });
+
+      // if window is mobile, data should be 5 items
+      if (window.innerWidth < 768) {
+        this.setState({ data: this.state.data.slice(0, 5) });
+      }
     };
 
     render() {
@@ -373,7 +381,7 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
               </Localized>
               <div className="online-voices text-[#00758A]">
                 {data.length > 0
-                  ? data[data.length - 1].value.toLocaleString()
+                  ? toArabicNumbers(data[data.length - 1].value.toLocaleString())
                   : '?'}
               </div>
             </div>

@@ -7,6 +7,7 @@ export const LINE_OFFSET = TEXT_OFFSET + 5;
 export const PLOT_PADDING = 13;
 
 import './plot.css';
+import { toArabicNumbers } from '../shared/helpers';
 
 export type PlotProps = {
   children: (state: { max: number; width: number }) => React.ReactNode;
@@ -96,9 +97,9 @@ export default class Plot extends React.Component<
                 y={y}
                 dominantBaseline="middle"
                 textAnchor="end">
-                {formatNumber(
+                { toArabicNumbers(formatNumber(
                   Math.round(((tickCount - 1 - i) * max) / (tickCount - 1))
-                )}
+                ))}
               </text>
               <line
                 x1={LINE_OFFSET}
@@ -119,7 +120,7 @@ export default class Plot extends React.Component<
               i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
             }
             y={Y_OFFSET + TOTAL_LINE_MARGIN}>
-            {renderXTickLabel(datum, i)}
+            {toArabicNumbers(renderXTickLabel(datum, i))}
           </text>
         ))}
         {children({ width, max })}
@@ -133,6 +134,17 @@ const BAR_WIDTH_LG = 15;
 const BAR_WIDTH_XS = 7;
 const TICK_COUNT = 4;
 const BAR_HEIGHT = TOTAL_LINE_MARGIN * ((TICK_COUNT - 1) / TICK_COUNT);
+
+// if window width is mobile, BAR_COUNT should be 5 only
+const BAR_COUNT_MOBILE = 5;
+
+function getBarX(i: number) {
+  const barCount = window.innerWidth < 768 ? BAR_COUNT_MOBILE : BAR_COUNT;
+  return (
+    LINE_OFFSET +
+    i * ((window.innerWidth - PLOT_PADDING - TEXT_OFFSET) / barCount)
+  );
+}
 
 function formatNumber(n: number) {
   return n > 1000 ? Math.round(n / 1000) + 'k' : n.toString();
@@ -154,23 +166,20 @@ export const BarPlot = ({
           minute: '2-digit',
         })
         .replace(':00 ', '')
+        .replace('AM', ' ص')
+        .replace('PM', ' م')
         .replace(/\./g, '');
 
-      return timeString;
+      return toArabicNumbers(timeString);
     }}
     tickCount={TICK_COUNT}
     tickMultipliers={[5, 10, 100, 1000]}>
     {({ max, width }) => {
       const barWidth = width < 400 ? BAR_WIDTH_XS : BAR_WIDTH_LG;
-      const getBarX = (i: number) =>
-        LINE_OFFSET +
-        PLOT_PADDING -
-        barWidth / 2 +
-        (i * (width - PLOT_PADDING - TEXT_OFFSET)) / BAR_COUNT;
 
       return (
         <>
-          {Array.from({ length: BAR_COUNT }).map((_, i) => (
+          {Array.from({ length: BAR_COUNT_MOBILE }).map((_, i) => (
             <rect
               key={i}
               className="bg"
