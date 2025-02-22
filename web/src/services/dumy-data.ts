@@ -61,7 +61,7 @@ export const dumyVoices = [
   },
   {
     date: '2025-02-22T07:00:00.000Z',
-    value: 0,
+    value: 5,
   },
   {
     date: '2025-02-22T08:00:00.000Z',

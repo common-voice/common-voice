@@ -362,9 +362,9 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
       this.setState({ data: await this.props.api.fetchClipVoices(locale) });
 
       // if window is mobile, data should be 5 items
-      if (window.innerWidth < 768) {
-        this.setState({ data: this.state.data.slice(0, 5) });
-      }
+      // if (window.innerWidth < 768) {
+      //   this.setState({ data: this.state.data.slice(0, 5) });
+      // }
     };
 
     render() {

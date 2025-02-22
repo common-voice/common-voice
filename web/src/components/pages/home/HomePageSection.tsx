@@ -17,11 +17,9 @@ export default function HomePageSection() {
   return (
     <div className=" flex flex-col items-center mt-10 pt-10 ">
       {/* mic-banner */}
+      <div className='py-2 hero-banner'>
       <div
-        className="rounded-[24px]  bg-no-repeat bg-center w-[100%] max-w-[1460px] bg-cover md:bg-contain min-h-[300px] h-full flex justify-start items-center "
-        style={{
-          backgroundImage: `url('img/mic-banner.png')`,
-        }}>
+        className="rounded-[24px] bg-banner bg-no-repeat bg-center w-[100%] max-w-[1460px] bg-cover md:bg-contain min-h-[300px] h-full flex justify-start items-center ">
         <div className="flex flex-col justify-between gap-5 items-start p-8 m-10 text-white text-right">
           <h1 className=" text-[30px] md:text-[30px] lg:text-[50px] text-center font-bold">
             الجداريــة الصوتيـة
@@ -42,6 +40,8 @@ export default function HomePageSection() {
           </div>
         </div>
       </div>
+      </div>
+
 
       <div className="flex justify-center gap-8 mx-auto py-10 flex-wrap ">
         {/* ساهم بصوتك */}
