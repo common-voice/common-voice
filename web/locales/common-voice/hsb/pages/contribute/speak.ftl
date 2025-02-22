@@ -43,6 +43,7 @@ terms-disagree = Njejsym přezjedny
 first-cta-header-text = Wulki dźak, zo sće waše rěčenske klipy darił!
 first-cta-subtitle-text = Hdyž informacije wo sebje zdźěleće, budźeće wuwiwarjam pomhać, bóle inkluziwnu technologiju wuwiwać
 why-donate = Čehodla so prašeće?
+why-donate-explanation-1 = Tute informacije trjebaće jenož na přeće podać – wy měł je jenož přidać, jeli so derje čujeće. Hdyž datowu sadźbu wozjewjamy, pseudonymizujemy wšě wosobinske informacije a zawěsćamy, zo informacije kaž waše mjeno a e-mejlowa adresa njejsu z demografiskimi informacijemi kaž staroba abo splah zwjazane.
 add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
 create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>

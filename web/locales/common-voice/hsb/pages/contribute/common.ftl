@@ -147,5 +147,6 @@ contribution-volume-description = Su přirodne chabłanja w sylnosći hłosa mje
 contribution-reader-effects-title = Efekty čitarja
 contribution-reader-effects-description = Najwjace nahraćow su wot ludźi, kotřiž ze swojim přirodnym hłosom rěča. Móžeće składnostne njestandardne nahraće akceptować, kotrež so woła, šepta abo so po zdaću z „dramatiskim“ hłosom poskića. Prošu wotpokazajće spěwane nahraća a tajke, kotrež z kompjuterom generěrowany hłós wužiwaja.
 contribution-just-unsure-title = Jenož njewěsty?
+contribution-just-unsure-description = Jeli na něšto storčiće, zo tutym směrnicam njewotpowěduje, hłosujće prošu po swojim najlěpšim posudku. Jeli woprawdźe njemóžeće so rozsudźić, wužiwajće tłóčatko Přeskočić a pokročujće z přichodnym nahraćom.
 see-more = <chevron></chevron>Wjace pokazać
 see-less = <chevron></chevron>Mjenje pokazać
