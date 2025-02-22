@@ -143,6 +143,7 @@ contribution-background-voices-description-extended = Jeli natočenje přetorhnj
 contribution-background-voices-example-1-title = Hoberske dinosawriery triasa. <strong>[čita so wot jednoho hłosa]</strong>
 contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[hłós druheho]</strong>
 contribution-volume-title = Sylnosć zwuka
+contribution-volume-description = Su přirodne chabłanja w sylnosći hłosa mjez čitarjemi. Wotpokazajće jenož, jeli sylnosć hłosa je tak wysoka, zo so nahraće myli, abo (časćišo), jeli je tak niska, zo bjez napisaneho teksta njesłyšiće, štož so praji.
 contribution-reader-effects-title = Efekty čitarja
 contribution-just-unsure-title = Jenož njewěsty?
 see-more = <chevron></chevron>Wjace pokazać
