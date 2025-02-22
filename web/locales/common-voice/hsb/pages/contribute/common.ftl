@@ -145,6 +145,7 @@ contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[h�
 contribution-volume-title = Sylnosć zwuka
 contribution-volume-description = Su přirodne chabłanja w sylnosći hłosa mjez čitarjemi. Wotpokazajće jenož, jeli sylnosć hłosa je tak wysoka, zo so nahraće myli, abo (časćišo), jeli je tak niska, zo bjez napisaneho teksta njesłyšiće, štož so praji.
 contribution-reader-effects-title = Efekty čitarja
+contribution-reader-effects-description = Najwjace nahraćow su wot ludźi, kotřiž ze swojim přirodnym hłosom rěča. Móžeće składnostne njestandardne nahraće akceptować, kotrež so woła, šepta abo so po zdaću z „dramatiskim“ hłosom poskića. Prošu wotpokazajće spěwane nahraća a tajke, kotrež z kompjuterom generěrowany hłós wužiwaja.
 contribution-just-unsure-title = Jenož njewěsty?
 see-more = <chevron></chevron>Wjace pokazać
 see-less = <chevron></chevron>Mjenje pokazać
