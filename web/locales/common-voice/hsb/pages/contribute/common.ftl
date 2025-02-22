@@ -138,6 +138,7 @@ contribution-background-noise-example-2-fixed-title = Hoberski dino <strong>[cou
 contribution-background-noise-example-2-explanation = [Dźěl teksta słyšeć njeje]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> hoberske dinosawriery <strong>[crackle]</strong> -riasa.
 contribution-background-voices-title = Pozadkowe hłosy
+contribution-background-voices-description = Ćiche pozadkowe šumy su w porjadku, ale nochcemy přidatne hłosy, kotrež zawinuja, za mašinelny algoritmus słowa identifikuje, kotrež w napisanym teksće njejsu. Jeli móžeće druhe słowa słyšeć, kotrež w teksće njejsu, měł wy klip wotpokazać. Zwjetša to so tam stawa, hdźež telewizor je zapinjeny abo w bliskosći je rozmołwa.
 contribution-background-voices-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
 contribution-background-voices-example-1-title = Hoberske dinosawriery triasa. <strong>[čita so wot jednoho hłosa]</strong>
 contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[hłós druheho]</strong>
