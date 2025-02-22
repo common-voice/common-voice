@@ -234,7 +234,7 @@ export default function Charts() {
       {/* الأصوات النشطة على الشبكة الآن */}
       <div className="flex flex-col items-start">
         <h1 className="text-right text-[#00758A] text-[24px] mb-4">
-          الأصوات النشطة على الشبكة الآن
+          الأصوات النشطة الآن
         </h1>
         <div
           style={{

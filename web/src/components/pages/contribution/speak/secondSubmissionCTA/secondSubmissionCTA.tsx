@@ -43,14 +43,6 @@ export const SecondPostSubmissionCTA: React.FC<
       </div>
       <div className="second-cta-container">
         <div className="header-container">
-          <div className="happy-mars-container" data-testid="happy-mars">
-            <img
-              src={require('../../../../../../img/happy-mars@2x.png')}
-              alt="Happy Mars"
-              width={175}
-              height={175}
-            />
-          </div>
           <div className="header-text-container">
             <Localized id="second-cta-header-text">
               <h1 className="header-text" />

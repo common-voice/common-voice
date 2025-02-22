@@ -115,6 +115,8 @@ footer {
     color: var(--blue);
 }
 
+
+
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 48px;
@@ -159,6 +161,10 @@ footer {
     .cv-logo-footer {
         display: block;
         position: fixed;
+    }
+
+    .h-\[986px\] {
+        height: 986px;
     }
 }
 

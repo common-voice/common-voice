@@ -543,3 +543,31 @@ button.bg-second-theme,
 .layout-footer .social-links li a:hover img:last-child {
     display: inline;
 }
+
+@media (max-width: 767px) {
+    .hero-card {
+        height: initial !important;
+    }
+    .infograph-img {
+        display: none;
+    }
+
+    .contribution .pills .inner {
+        flex-direction: column !important;
+    }
+    .pill {
+        width: inherit !important;
+        margin-bottom: 5px;
+    }
+    .px-10 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .first-cta-container {
+        left: 5% !important;
+        width: 90% !important;
+    }
+    .contribution .steps {
+        /* display: none; */
+    }
+}

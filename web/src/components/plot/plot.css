@@ -21,11 +21,21 @@
 .scrollable {
     @media (--md-down) {
         overflow-x: scroll;
+        width: 100% !important;
     }
 
     .plot {
         @media (--md-down) {
             width: 150%;
+            direction: ltr;
+        }
+    }
+}
+
+.home-card-content {
+    .plot {
+        @media (--md-down) {
+            direction: ltr;
         }
     }
 }

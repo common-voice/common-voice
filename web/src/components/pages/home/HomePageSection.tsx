@@ -46,7 +46,7 @@ export default function HomePageSection() {
       <div className="flex justify-center gap-8 mx-auto py-10 flex-wrap ">
         {/* ساهم بصوتك */}
         <div
-          className={`max-w-[572px] w-[372px] md:w-[472px] lg:w-[572px] h-[986px] ${classes.card}`}
+          className={`hero-card max-w-[572px] w-[372px] md:w-[472px] lg:w-[572px] h-[986px] ${classes.card}`}
           style={{
             background:
               'transparent linear-gradient(180deg, #EFF3F6 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box',
@@ -124,13 +124,13 @@ export default function HomePageSection() {
           <img
             src="/voicewall/img/phone-speak.svg"
             alt="phone-speak"
-            className="w-[100%] mt-[100px]"
+            className="w-[100%] mt-[100px] infograph-img"
           />
         </div>
 
         {/*  الجدارية الصوتية */}
         <div
-          className={`max-w-[572px] w-[372px] md:w-[472px] lg:w-[572px] h-[986px] ${classes.card}`}
+          className={`hero-card max-w-[572px] w-[372px] md:w-[472px] lg:w-[572px] h-[986px] ${classes.card}`}
           style={{
             background: '#219F8A 0% 0% no-repeat padding-box',
             border: '1px solid #B1B1B157',
@@ -150,7 +150,7 @@ export default function HomePageSection() {
           {showInfoRatingModal && (
           <Modal           
           buttons={{
-            "ابدأ": () => {
+            "أبدأ": () => {
               history.push(URLS.LISTEN)
             },
           }}
@@ -159,32 +159,34 @@ export default function HomePageSection() {
             <div className="text-right">
 
               <p className="text-center font-bold text-[20px]">
-              ستظهر لك مشاركات الآخرين لتقيّمها
+              ستظهر لك مشاركات الآخرين لتقيّمها 
               </p>
 
               <p className='flex gap-1 font-bold  text-[18px] mt-5'>
-              إذا كانت المشاركة قراءة جملة: 
+              إذا كانت المشاركة قراءة جملة:  
               </p>
               <p>
 
-              انقر (نعم) إذا كان المنطوق مطابقًا للمكتوب وكان النطق صحيحًا
+              انقر (نعم) إذا كان المنطوق مطابقًا للمكتوب وكان النطق صحيحًا 
               <br/>
-انقر (لا) إذا لم يكن كذلك
+              انقر (لا) إذا لم يكن كذلك 
               </p>
 
               <p className='flex gap-1 font-bold text-[18px] mt-5'>
-              إذا كانت المشاركة إجابة عن سؤال: 
+              إذا كانت المشاركة إجابة عن سؤال:  
               </p>
 <p>
-انقر (نعم) إذا كانت الإجابة واضحة ومتعلقة بالسؤال 
+انقر (نعم) إذا كانت الإجابة واضحة ومتعلقة بالسؤال  
 <br/>
-انقر (لا) إذا لم تكن كذلك
+انقر (لا) إذا لم تكن كذلك 
 </p>
 
 <ul className="list-disc mt-5 pr-5 text-right text-[14px] md:text-[16px] leading-7">
       <li>ستظهر المشاركات على دفعات، تتضمن كل دفعة خمس مشاركات.</li>
-      <li>تشوش الصوت لا يمنع من قبول المقطع الصوتي؛ لأننا نحتاج هذا التنوع الطبيعي في المقاطع.
-أبدأ</li>
+      <li>تشوش الصوت لا يمنع من قبول المقطع الصوتي؛ لأننا نحتاج هذا التنوع الطبيعي في المقاطع. 
+</li>
+<li>يمكنك تخطي المشاركة إلى مشاركة أخرى. </li>
+<li>يمكنك الإبلاغ عن المشاركة إذا كانت تحتوي على إساءة، أو خطأ كتابيّ، أو أي مشكلة أخرى.  </li>
  </ul>
             </div>
           </Modal>
@@ -217,7 +219,7 @@ export default function HomePageSection() {
           <img
             src="/voicewall/img/phone-listen.svg"
             alt="phone-speak"
-            className="w-[100%] mt-[115px]"
+            className="w-[100%] mt-[115px] infograph-img"
           />
         </div>
       </div>

@@ -101,7 +101,7 @@
     }
 
     & .add-information-button {
-        background: var(--blue);
+        background: var(--ksaa-1);
         border-radius: 20px;
         color: white;
         padding: 15px 30px;
