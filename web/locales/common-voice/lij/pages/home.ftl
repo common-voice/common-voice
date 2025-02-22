@@ -168,6 +168,24 @@ explore-datasets = Esplöra i dataset <icon></icon>
 
 get-involved-section-title = Sostëgni i dataset averti manezzæ da-a communitæ
 read-sentences-link = Lezi de frase
+validate-readings-link = Convalida de lettue
+contribute-link = Contribuisci a-o corpus de testo
+answer-questions-link = Replica à de domande
+transcribe-answers-link = Trascrivi de repliche
+review-transcriptions-link = Verifica de trascriçioin
+contribute-text-link = Propoñi di testi
+press-and-stories-link = Stampa e notiçie
 
 ## Partner section
 
+partner-section-title = Vegnî un nòstro partner
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Dite tecnològiche</bold>: investi inta creaçion de dataset averti pe un ecoscistema flòrido d’intelligensa artifiçiale moltilengua
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Soçietæ çivile e reçercatoî</bold>: crea, mantëgni e scompartisci di dataset de grande impatto disponibili de badda
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold>: finançia a creaçion de dataset pe alimentâ l’innovaçion e o sviluppo locale
+# icon is an arrow that points to the right
+get-in-touch-button = Contattine <icon></icon>
+# Partners section
+our-partners-include = Tra i nòstri partner…
