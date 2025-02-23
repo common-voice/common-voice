@@ -121,10 +121,12 @@ get-started = Prěnje kroki <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
+action-items-section-subtitle = Kóždy móže swoju rěč wobchować, zaso wožiwić a polěpšić, hdyž tekst a rěčenske datowe sadźby dźěli, wutworja a rjaduje.
 scripted-card-header = Napisane rěčenje
 scripted-card-content = Čitajće sady wótře w swojej rěči a přinošujće k najwšelakorišej zjawnej rěčnej datowej sadźbje w swěće.
 spontaneous-card-header = Spontane rěčenje
 language-text-card-header = Rěčny tekst
+language-text-card-content = Wutworće abo dźělće zjawne namołwy, sady a tekst za přełoženje, małe rěčne modele a wjace.
 coming-soon = Bórze k dispoziciji
 add-text = Tekst přidać
 
