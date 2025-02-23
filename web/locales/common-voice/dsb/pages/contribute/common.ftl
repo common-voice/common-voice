@@ -36,11 +36,6 @@ target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w {
 target-segment-add-voice = Pśidajśo swój głos
 target-segment-learn-more = Dalšne informacije
 change-preferences = Nastajenja změniś
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Zběrka głosow
-contribute-sentence-collection-nav-header = Zběrka sadow
 login-signup = Pśizjawiś/Registrěrowaś
 vote-yes = Jo
 vote-no = Ně
@@ -133,6 +128,8 @@ contribution-misreadings-example-7-explanation = [‘a’ njejo w originalnem te
 contribution-misreadings-example-8-title = Tśmjel jo mimo leśeł.
 contribution-misreadings-example-8-explanation = [Wopśimjeśe njewótpowědujo]
 contribution-varying-pronunciations-title = Rozdźělne wugronjenja
+contribution-varying-pronunciations-description = Buźćo wobglědniwy, nježli až klip z wobtwarźenim wótpokazujośo, až cytaŕ jo wopak wugronił słowo, jo stajił pśizuk na wopacne městno abo pó zdaśu ignorěrował pšašak. Wjele wugronjenjow se pó cełem swěśe wužywa, snaź njejsćo słyšał někotare z nich w swójom lokalnem zgromaźeństwje. Pšosym pśizwólśo tym wěstu lichotnosć, kótarež hynac ako wy powědaju.
+contribution-varying-pronunciations-description-extended = Jolic pak měniśo, až cytaŕ nejskerjej jo namakał słowo pśez pśipad a jadnorje wopak wugódał wugronjenje, wótpokažćo pšosym. Jolic se wěsty njejsćo, wužywajśo tłocašk Pśeskócyś.
 contribution-background-noise-title = Slězynowe šumy
 contribution-background-noise-description-extended = Jolic nagraśe pśetergnjo abo knykoco, wótpokažćo jo, snaźkuli cełkowny tekst jo hyšći słyšaś.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Wjelicke dinosawrijarje <strong>[cough]</strong> triasa.
