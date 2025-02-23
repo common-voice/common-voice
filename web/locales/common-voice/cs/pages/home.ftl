@@ -148,6 +148,7 @@ download-contribution-certificate-content = Stáhněte si certifikát pro své a
 # label for button
 download-contribution-certificate-action = Získejte svůj certifikát
 contribute-github = Přispívejte na GitHubu
+contribute-github-content = Tento projekt by nebyl možný bez lidí, jako jste vy. 🎉 Do projektu Common Voice se můžete zapojit mnoha způsoby - nemusíte umět programovat, abyste mohli přispět!
 # label for button
 contribute-github-action = Přispívejte na GitHubu
 
@@ -166,6 +167,7 @@ explore-datasets = Prozkoumejte datasety <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podpora otevřených, komunitně vedených datových souborů
 read-sentences-link = Čtení vět
 validate-readings-link = Ověřujte čtení textu
 contribute-link = Přispějte do textového korpusu
@@ -178,6 +180,12 @@ press-and-stories-link = Tisk a příběhy
 ## Partner section
 
 partner-section-title = Staňte se našimi partnery
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologické společnosti</bold> - investujte do tvorby otevřených datových sad pro prosperující vícejazyčný ekosystém umělé inteligence.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Občanská společnost a výzkumní pracovníci</bold> - vytvářejte, hostujte a sdílejte zdarma datové sady s dopadem na životní prostředí
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropie</bold> - sponzorování tvorby datových sad pro podporu místních inovací a rozvoje
 # icon is an arrow that points to the right
 get-in-touch-button = Kontaktujte nás <icon></icon>
 # Partners section
