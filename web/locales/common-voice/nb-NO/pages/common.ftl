@@ -4,12 +4,14 @@
 
 ## Languages
 
-aa = Afar
+aa = Langt unna
+aat = Arvanitika
 ab = Abkhasisk
 abb = Bankon
 ace = Acehnesisk
 ady = Adygeisk
 af = Afrikaans
+aln = Gheg albansk
 am = Amharisk
 an = Aragonesisk
 ar = Arabisk

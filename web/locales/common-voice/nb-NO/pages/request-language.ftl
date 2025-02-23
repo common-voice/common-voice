@@ -10,9 +10,7 @@ request-language-form-email =
     .label = Din e-postadresse
 request-language-form-info =
     .label = Informasjon om språket
-request-language-form-info-explanation =
-    Legg til så mye informasjon du kan om språket. Dette
-    kan inkludere:
+request-language-form-info-explanation = Legg til så mye informasjon du kan om språket. Dette kan inkludere:
 request-language-form-info-explanation-list-1 = Navn på språket ditt
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kjent
 request-language-form-info-explanation-list-3 = Lenker til nettsider som kan hjelpe oss å forstå språket
