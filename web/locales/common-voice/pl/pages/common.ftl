@@ -5,11 +5,13 @@
 ## Languages
 
 aa = afar
+aat = arwanicki
 ab = abchaski
 abb = bankon
 ace = aceh
 ady = adygejski
 af = afrykanerski
+aln = gegijski albański
 am = amharski
 an = aragoński
 ar = arabski
@@ -24,10 +26,13 @@ bas = basaa
 bax = bamun
 bba = bariba
 bbj = ghomala
+bbl = tuszyński
 bci = baoulé
 be = białoruski
 beb = bebele
+bew = betawi
 bfd = bafut
+bft = balti
 bg = bułgarski
 bkm = kom
 bm = bambara
