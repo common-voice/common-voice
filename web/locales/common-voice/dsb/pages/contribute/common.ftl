@@ -131,6 +131,7 @@ contribution-varying-pronunciations-title = Rozdźělne wugronjenja
 contribution-varying-pronunciations-description = Buźćo wobglědniwy, nježli až klip z wobtwarźenim wótpokazujośo, až cytaŕ jo wopak wugronił słowo, jo stajił pśizuk na wopacne městno abo pó zdaśu ignorěrował pšašak. Wjele wugronjenjow se pó cełem swěśe wužywa, snaź njejsćo słyšał někotare z nich w swójom lokalnem zgromaźeństwje. Pšosym pśizwólśo tym wěstu lichotnosć, kótarež hynac ako wy powědaju.
 contribution-varying-pronunciations-description-extended = Jolic pak měniśo, až cytaŕ nejskerjej jo namakał słowo pśez pśipad a jadnorje wopak wugódał wugronjenje, wótpokažćo pšosym. Jolic se wěsty njejsćo, wužywajśo tłocašk Pśeskócyś.
 contribution-background-noise-title = Slězynowe šumy
+contribution-background-noise-description = Comy, až algoritmuse mašinelnego wuknjenja mógu z wjelerakimi slězynowymi šumami wobchadaś a samo relatiwnje głosne šumy se akceptěruju, pód wuměnjenim, až tomu njezajźuju, až se ceły tekst słyšy.
 contribution-background-noise-description-extended = Jolic nagraśe pśetergnjo abo knykoco, wótpokažćo jo, snaźkuli cełkowny tekst jo hyšći słyšaś.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Wjelicke dinosawrijarje <strong>[cough]</strong> triasa.
 contribution-background-noise-example-2-fixed-title = Wjelicki dino <strong>[cough]</strong> triasa.
