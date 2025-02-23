@@ -43,6 +43,7 @@ terms-disagree = Njejsom wobjadny
 first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
 first-cta-subtitle-text = Gaž informacije wó sebje k wěsći dawaśo, buźośo wuwijarjam pomagaś, wěcej inkluziwnu technologiju wuwijaś
 why-donate = Cogodla se pšašaśo?
+why-donate-explanation-1 = Toś te informacije trjebaśo jano na žycenje pódaś – wy měł je jano pśidaś, jolic se derje cujośo. Gaž datowu sajźbu wózjawjamy, pseudonymizěrujomy wšykne wósobinske informacije a zawěsćujomy, až informacije ako wašo mě a e-mailowa adresa njejsu z demografiskimi informacijami ako starstwo abo rod zwězane.
 add-information-button = Informacije pśidaś
 continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
 create-profile-text = Cośo swóje informacije składowaś? <createProfile>Załožćo profil</createProfile>
