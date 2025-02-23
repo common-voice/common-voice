@@ -183,6 +183,8 @@ partner-section-title = Stańće so z našim partnerom
 partner-section-subtitle-tech-companies = <bold>Technologijowe předewzaća</bold> – inwestujće do wutworjenja wotewrjenych datowych sadźbow za florěrowacy wjacerěčny ekosystem KI
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Ciwilna towaršnosć a slědźerjo</bold> – wutworće, hospodujće a dźělće skutkowne datowe sadźby zadarmo
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> – sponserujće wutworjenje datowych sadźbow, zo byšće lokalnu inowaciju a wuwiće spěchował
 # icon is an arrow that points to the right
 get-in-touch-button = Skontaktować <icon></icon>
 # Partners section
