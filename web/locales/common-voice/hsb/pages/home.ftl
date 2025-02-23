@@ -179,6 +179,10 @@ press-and-stories-link = Nowiny a stawiznički
 ## Partner section
 
 partner-section-title = Stańće so z našim partnerom
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologijowe předewzaća</bold> – inwestujće do wutworjenja wotewrjenych datowych sadźbow za florěrowacy wjacerěčny ekosystem KI
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Ciwilna towaršnosć a slědźerjo</bold> – wutworće, hospodujće a dźělće skutkowne datowe sadźby zadarmo
 # icon is an arrow that points to the right
 get-in-touch-button = Skontaktować <icon></icon>
 # Partners section
