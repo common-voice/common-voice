@@ -121,10 +121,13 @@ get-started = Prědne kšace <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice jo dermotna platforma wótwórjonego žrědła za wót zgromaźeństwa nawjedowane napóranje datow
+action-items-section-subtitle = Kuždy móžo swóju rěc wobchowaś, zasej wóžywiś a pólěpšyś, gaž tekst a powědańske datowe sajźby źěli, napórajo a zastoj.
 scripted-card-header = Napisane powědanje
 scripted-card-content = Cytajśo sady głosnje w swójej rěcy a pśinosujśo k nejwjelerakšej zjawnej rěcnej datowej sajźbje w swěśe.
 spontaneous-card-header = Spontane powědanje
+spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za organiske, wobchadnorěcne konteksty napórał. To jo perfektne za pśewažnje wustne rěcy.
 language-text-card-header = Rěcny tekst
+language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
 coming-soon = Skóro k dispoziciji
 add-text = Tekst pśidaś
 
