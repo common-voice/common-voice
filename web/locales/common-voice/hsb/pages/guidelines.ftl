@@ -64,6 +64,7 @@ adding-sentences-subheader-abbreviations = Skrótšenki a akronymy
 adding-sentences-subheader-punctuation = Interpunkcija
 adding-sentences-subheader-special-characters = Wosebite znamješka a cuze pismiki
 adding-sentences-subheader-special-characters-explanation-1 = Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
+adding-sentences-subheader-special-characters-explanation-2 = Rěče móža swójske přepruwowanske prawidła z přidatnymi žadanjemi měć, hdyž so přełožuja. Jeli njeje wěsta kontrolna dataja, so prawidła jendźelšćiny za sobuskutkowarjow pokazuja.
 adding-sentences-subheader-offensive-content = Njepřistojny wobsah
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.

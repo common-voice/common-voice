@@ -64,6 +64,7 @@ adding-sentences-subheader-abbreviations = Skrotconki a akronymy
 adding-sentences-subheader-punctuation = Interpunkcija
 adding-sentences-subheader-special-characters = Wósebne znamuška a cuze pismiki
 adding-sentences-subheader-special-characters-explanation-1 = Pismiki muse w rěcy płaśiwe byś, w kótarejž se powědaju. “ж” na přikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
+adding-sentences-subheader-special-characters-explanation-2 = Rěcy mógu swójske pśekontrolěrowańske pšawidła z pśidatnymi pominanjami měś, gaž se pśełožuju. Jolic njedajo wěstu kontrolnu dataju, se pšawidła engelšćiny za sobustatkujuce pokazuju.
 adding-sentences-subheader-offensive-content = Njepśistojne wopśimjeśe
 reviewing-sentences-explanation-1 = Jolic sada kriterijam górjejce wótpowědujo, klikniśo na tłocašk „Jo“.
 reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Ně“.
