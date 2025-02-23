@@ -179,6 +179,12 @@ press-and-stories-link = Casnikaŕstwo a tšojenja
 ## Partner section
 
 partner-section-title = Buźćo naš partnaŕ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologijowe pśedewześa</bold> – inwestěrujśo do napóranja wótwórjonych datowych sajźbow za florěrujucy wěcejrěcny ekosystem KI
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Ciwilna towarišnosć a slěźerje</bold> – napórajśo, góspodujśo a źělśo statkowne datowe sajźby zadermo
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> – sponserujśo napóranje datowych sajźbow, aby lokalnu inowaciju a wuwiśe spěchował
 # icon is an arrow that points to the right
 get-in-touch-button = Skontaktěrowaś <icon></icon>
 # Partners section
