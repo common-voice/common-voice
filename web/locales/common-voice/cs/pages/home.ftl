@@ -79,8 +79,11 @@ read-more-about = Přečtěte si více na stránce O nás
 ## NAV ITEMS
 
 answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
+answer-questions-coming-soon = Odpovídejte na otázky <small>(Již brzy)</small>
 review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
+review-transcriptions-coming-soon = Kontrolujte přepisy <small>(již brzy)</small>
 add-questions = Přidat otázky <small>(Již brzy)</small>
+transcribe-audio-coming-soon = Přepisujte zvuk <small>(již brzy)</small>
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
@@ -115,24 +118,33 @@ get-started = Začněte <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice je bezplatná platforma s otevřeným zdrojovým kódem pro komunitní tvorbu dat
+action-items-section-subtitle = Každý může zachovat, oživit a povznést svůj jazyk sdílením, vytvářením a kurátorstvím textových a řečových datových souborů.
 scripted-card-header = Skritpovaná řeč
+scripted-card-content = Čtěte věty nahlas ve svém jazyce a přispějte do nejrozmanitějšího souboru dat o řeči veřejnosti na světě.
 spontaneous-card-header = Spontánní řeč
+spontaneous-card-content = Reagujte na výzvy k vytvoření datových sad pro organické, hovorové kontexty. Ideální pro první ústní jazyky.
 language-text-card-header = Text jazyka
+language-text-card-content = Vytvářejte nebo sdílejte veřejné výzvy, věty a texty pro překlad, malé jazykové modely a další.
 coming-soon = Již brzy
 add-text = Přidat text
 
 ## Community section
 
+community-section-title = Poháněno globálními komunitami, pro globální komunity — 130 jazyků a stále roste!
 join-discord-community = Připojte se ke komunitě Discord
 # label for button
 join-discord-community-action = Přidejte si nás na Discordu
+join-discord-community-content = Zapojte se do diskusí jazykové komunity, pokládejte dotazy a dozvíte se o nadcházejících akcích a přednáškách.
 find-us-on-matrix = Najdete nás na Matrixu
+find-us-on-matrix-content = Matrix je otevřený, odlehčený protokol pro decentralizovanou komunikaci v reálném čase a preferovaná otevřená diskusní platforma Mozilly.
 # label for button
 find-us-on-matrix-action = Najdete nás na Matrixu
 ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
+ask-mozilla-share-content = Máte předchozí nebo nadcházející událost? Podělte se s námi o ni a my ji oznámíme naší komunitě nebo o ní napíšeme blog!
 # label for button
 ask-mozilla-share-action = Sdílejte svou událost
 download-contribution-certificate = Stáhněte si potvrzení o příspěvku
+download-contribution-certificate-content = Stáhněte si certifikát pro své akce nebo pro sebe, pokud jste přispěli do Common Voice — bez vás by to nebylo možné!
 # label for button
 download-contribution-certificate-action = Získejte svůj certifikát
 contribute-github = Přispívejte na GitHubu
