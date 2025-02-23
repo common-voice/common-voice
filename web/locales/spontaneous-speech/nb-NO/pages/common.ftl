@@ -22,6 +22,7 @@ report-button = Rapporter
 skip-button = Hopp over
 submit-button = Send
 contribute = Bidra
+request-new-language = Be om nytt språk
 
 ## Navbar
 
