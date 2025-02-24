@@ -49,3 +49,4 @@ adding-sentences-subheader-abbreviations = Kratice i akronimi
 adding-sentences-subheader-punctuation = Interpunkcija
 adding-sentences-subheader-special-characters = Posebni znakovi i strana slova
 adding-sentences-subheader-offensive-content = Uvredljiv sadržaj
+reviewing-sentences-explanation-4 = Ako ti ponestane rečenica za pregled, pomogni nam sakupiti još rečenica!
