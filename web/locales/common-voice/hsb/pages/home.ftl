@@ -143,12 +143,15 @@ find-us-on-matrix-content = Matrix je wotewrjeny, lochki protokol za decentraliz
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
 ask-mozilla-share = Prosće Mozilla, zo byšće waše zarjadowanja dźělił
+ask-mozilla-share-content = Maće zańdźene abo přichodne zarjadowanje? Dźělće jo z nami a my budźemy jo našemu zhromadźenstwu připowědźić abo blog wo tym pisać.
 # label for button
 ask-mozilla-share-action = Dźělće swoje zarjadowanje
 download-contribution-certificate = Sćehńće swój certifikat sobuskutkowanja
+download-contribution-certificate-content = Sćehńće certifikat za swoje zarjadowanja abo sebje, jeli sće ke Common Voice přinošował – to njeby bjez was móžne było!
 # label for button
 download-contribution-certificate-action = Wobstarajće sej swój certifikat
 contribute-github = Na Github přinošować
+contribute-github-content = Tutón projekt njeby bjez ludźi kaž wy móžny był. 🎉 Je wjele móžnosćow, kak móžeće w Common Voice sobu činić – njetrjebaće programować móc, zo byšće sobu činił!
 # label for button
 contribute-github-action = Na Github přinošować
 
