@@ -573,8 +573,9 @@ button.bg-second-theme,
     }
 }
 .hero-banner {
-    width: 100%;
-    padding: 0 7rem;
+    width: 100% !important;
+    max-width: 1199px !important;
+    /* padding: 0 7rem; */
 }
 .hero-banner .bg-banner {
     background-image: url('./img/mic-banner.png')
