@@ -139,6 +139,7 @@ join-discord-community = Přidružće so zhromadźenstwu Discord
 join-discord-community-action = Přidružće so nam na Discord
 join-discord-community-content = Wobdźělće so na diskusijach rěčneho zhromadźenstwa, stajće prašenja a zhońće wo přichodnych zarjadowanjach a rozmołwach.
 find-us-on-matrix = Namakajće nas na Matrix
+find-us-on-matrix-content = Matrix je wotewrjeny, lochki protokol za decentralizowanu komunikaciju we woprawdźitym času a wot Mozilla preferowana wotewrjena diskusijna platforma.
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
 ask-mozilla-share = Prosće Mozilla, zo byšće waše zarjadowanja dźělił
