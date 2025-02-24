@@ -1,7 +1,7 @@
 action-click = Klikšķini
 action-tap = Pieskaries
 contribute = Veic ieguldījumu
-review = Pārbaudi
+review = Pārbaudīt
 skip = Izlaist
 shortcuts = Īsceļi
 clips-with-count-pluralized =

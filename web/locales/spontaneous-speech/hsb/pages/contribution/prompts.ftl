@@ -27,4 +27,5 @@ learn-how-to-use-transcribe = Zhońće, kak móžeće transkribować
 learn-how-to-use-transcribe-explanation = Napisajće eksaktnje, štož wosoba je rjekła, inkluziwnje časćicy kaž ‚em‘ abo ‚eh‘.
 learn-how-to-use-transcribe-guidance = Klikńće <guidanceLink>tu</guidanceLink>, zo byšće zhonił, kak móžeće tutu stronu wužiwać
 learn-how-to-use-check-transcript = Zhońće, kak móžeće transkripciju přepruwować
+learn-how-to-use-check-transcript-explanation = Transkripcija měła kóžde słowo abo njeleksikaliski rozmołwny zynk zapřijeć, kotrež je wosoba rjekła, inkluziwnje wospjetowanja.
 learn-how-to-use-check-transcript-guidance = Klikńće <guidanceLink>tu</guidanceLink>, zo byšće zhonił, kak móžeće tutu stronu wužiwać
