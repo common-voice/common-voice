@@ -21,3 +21,5 @@ request-language-error = ماخ که کان او درخواست نک وصول د
 request-for-scripted-speech-toggle = درخواست ته لیکِلئ تقریر پاره
 request-for-spontaneous-speech-toggle = درخواست ته بغېر تیاري تقریر پاره
 need-help-deciding-platform = ا څېن سۀ خؤش کېم ته پا فیصلۀ پاره يې مدد پکر هۀ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = لیکِلئ تقریر يې ا فۀ هۀ که تُو وه خوئ زبان نر په زوټه یِشتک هېنچی (یعنی که تُو ل بُو روایتأ عام آواز غؤس)
