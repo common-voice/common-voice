@@ -30,6 +30,7 @@ misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-example-1 = Hoberske dinosawriery triasa.
 background-noise-tip-1 = [přez pozadkowy šum přetorhnjeny]
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
+background-voices-explanation = Ćichi pozadkowy šum je w porjadku, ale jeli móžeće słyšeć, zo druha wosoba druhe słowa rěči, měł so klip wotpokazać. Zwjetša to so tam stawa, hdźež telewizor je zapinjeny abo hdźež je rozmołwa w bliskosći.
 background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
 background-voices-tip-1 = Přińdźeš? [hłós druheho]
 volume-explanation = Su přirodne chabłanja w sylnosći hłosa mjez čitarjemi. Wotpokazajće jenož, jeli sylnosć hłosa je tak wysoka, zo so nahraće myli, abo (časćišo), jeli je tak niska, zo bjez napisaneho teksta njesłyšiće, štož so praji.
