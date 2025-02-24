@@ -74,7 +74,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: FilePlus,
-        localizedId: 'add-questions',
+        localizedId: 'add-questions-coming-soon',
         requiresAuth: true,
         menuItemTooltip: 'add-questions-menu-item-tooltip',
         menuItemAriaLabel: 'add-questions-menu-item-aria-label',
