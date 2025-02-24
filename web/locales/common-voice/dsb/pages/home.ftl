@@ -139,15 +139,19 @@ join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 join-discord-community-action = Pśizamkniśo se nam na Discord
 join-discord-community-content = Wobźělśo se na diskusijach rěcnego zgromaźeństwa, stajśo pšašanja a zgóńśo wó pśichodnych zarědowanjach a rozgronach.
 find-us-on-matrix = Namakajśo nas na Matrix
+find-us-on-matrix-content = Matrix jo wótwórjony, lažki protokol za decentralizěrowanu komunikaciju w napšawdnem casu a wót Mozilla preferěrowana wótwórjona diskusijna platforma.
 # label for button
 find-us-on-matrix-action = Namakajśo nas na Matrix
 ask-mozilla-share = Pšosćo Mozilla, aby waše zarědowanja źělił
+ask-mozilla-share-content = Maśo zajźone abo pśichodne zarědowanje? Źělśo jo z nami a my buźomy jo našomu zgromaźeństwoju pśipowěźiś abo blog wó tom pisaś.
 # label for button
 ask-mozilla-share-action = Źělśo swójo zarědowanje
 download-contribution-certificate = Ześěgniśo swój certifikat sobustatkowanja
+download-contribution-certificate-content = Ześěgniśo certifikat za swóje zarědowanja abo sebje, jolic sćo pśinosował ku Common Voice – to njeby bźez was móžne było!
 # label for button
 download-contribution-certificate-action = Wobstarajśo se swój certifikat
 contribute-github = Na Github pśinosowaś
+contribute-github-content = Toś ten projekt njeby bźez luźi ako wy móžny był. 🎉 Dajo wjele móžnosćow, kak móžośo w Common Voice sobu cyniś – njetrjebaśo programěrowaś móc, aby sobu cynił!
 # label for button
 contribute-github-action = Na Github pśinosowaś
 
