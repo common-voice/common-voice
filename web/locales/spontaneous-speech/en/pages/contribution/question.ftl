@@ -4,6 +4,18 @@ question-page-instruction = Add a Question <icon></icon> in { $currentLocale } f
 add-question-textarea-placeholder = e.g., “What do you wish you could use technology for?”
 add-questions-terms-checkbox = I confirm that this question is public domain and I have permission to upload it.
 question-database-language = Database: { $databaseLanguage }
+add-question-success-toast-message = 
+    {$uploadedQuestions} {$totalQuestions -> 
+        [one] of 1 question collected
+        *[other] of {$totalQuestions} questions collected
+    }
+add-question-error-message = Upload failed, please retry.
+add-question-too-many-questions-error = Exceeded 500 questions. Reduce number of questions and retry.
+partial-questions-upload-message = 
+    {$uploadedQuestions} {$totalQuestions -> 
+        [one] of 1 question collected
+        *[other] of {$totalQuestions} questions collected
+    }. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
 
 # Guidelines
 add-question-guidelines-title = What questions can I add?
