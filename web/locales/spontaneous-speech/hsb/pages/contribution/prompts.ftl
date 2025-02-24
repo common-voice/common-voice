@@ -21,6 +21,7 @@ submit-all-button = Wšě wotpósłać
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Zhońće, kak móžeće tutu stronu wužiwać
+learn-how-to-use-prompts-explanation = Wotmołwće prosće na namołwu tak přirodnje kaž móžeće z někotrymi sadami. Zawěsćće, zo waša rěč je respektna a přistojna.
 learn-how-to-use-prompts-guidance = Klikńće <guidanceLink>tu</guidanceLink>, zo byšće zhonił, kak móžeće tutu stronu wužiwać
 learn-how-to-use-transcribe = Zhońće, kak móžeće transkribować
 learn-how-to-use-transcribe-explanation = Napisajće eksaktnje, štož wosoba je rjekła, inkluziwnje časćicy kaž ‚em‘ abo ‚eh‘.
