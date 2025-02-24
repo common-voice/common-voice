@@ -25,7 +25,7 @@ export default function HomePageSection() {
             الجداريــة الصوتيـة
           </h1>
           <p className="text-[16px] md:text-[20px] text-right">
-          أداة لجمع البيانات الصوتية العربية {' '}
+          أداة لإثراء البيانات الصوتية العربية {' '}
           </p>
           <div className="self-center">
             <img
