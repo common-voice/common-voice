@@ -23,3 +23,5 @@ request-for-spontaneous-speech-toggle = درخواست ته بغېر تیاري 
 need-help-deciding-platform = ا څېن سۀ خؤش کېم ته پا فیصلۀ پاره يې مدد پکر هۀ؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = لیکِلئ تقریر يې ا فۀ هۀ که تُو وه خوئ زبان نر په زوټه یِشتک هېنچی (یعنی که تُو ل بُو روایتأ عام آواز غؤس)
+need-help-deciding-platform-explanation-2 = بغېر تیاري تقریر يې ته عام آواز افا حصۀ هۀ ګُده ليې بو که تُو ته سوال ځواب قدرتي او په عام روان ټِکئ نر ڒیوک اېنچی
+need-help-deciding-platform-explanation-3 = که ګُده تُو ا خوئ زبان ته پلېټفارم دُوګډ حِصۀ نر نک وؤ، ا دُوګډ سېلېکټ کَۀ
