@@ -26,3 +26,6 @@ learn-how-to-use-prompts-guidance = Klikañ <guidanceLink>amañ</guidanceLink> e
 learn-how-to-use-transcribe = Sellit un tamm penaos treuzskrivañ
 learn-how-to-use-transcribe-explanation = Merkit rik ar pezh zo bet lavaret gant an den, zoken ar gerioù leuniañ doare "hmm" pe "aha"
 learn-how-to-use-transcribe-guidance = Klikañ <guidanceLink>amañ</guidanceLink> evit gouzout penaos ober gant ar bajenn-mañ
+learn-how-to-use-check-transcript = Sellit un tamm penaos gwiriañ un treuzskrivadur
+learn-how-to-use-check-transcript-explanation = Rekis eo d'an treuzskrivadur merkañ kement ger pe son enrollet er gaoz ha pa ne vefe ket ur gwir ger, hag ivez ar gerioù adlavaret meur a wech.
+learn-how-to-use-check-transcript-guidance = Klikañ <guidanceLink>amañ</guidanceLink> evit gouzout penaos ober gant ar bajenn-mañ
