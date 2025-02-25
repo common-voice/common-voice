@@ -1,6 +1,6 @@
 ## Question Page
 
-question-page-instruction = Add a Question <icon></icon> in { $currentLocale } for people to answer
+question-page-instruction = Add a question <icon></icon> in { $currentLocale } for people to answer
 add-question-textarea-placeholder = e.g., “What do you wish you could use technology for?”
 add-questions-terms-checkbox = I confirm that this question is public domain and I have permission to upload it.
 question-database-language = Database: { $databaseLanguage }
