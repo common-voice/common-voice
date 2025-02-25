@@ -72,6 +72,7 @@ const SOURCES = {
   ],
   'font-src': [
     "'self'",
+    'https://falak.ksaa.gov.sa',
     'https://fonts.gstatic.com',
     // '*.fundraiseup.com',
     // '*.stripe.com',
@@ -104,10 +105,10 @@ const SOURCES = {
     // 'pay.google.com',
   ],
   // 'frame-src': [
-    // '*.fundraiseup.com',
-    // '*.stripe.com',
-    // '*.paypal.com',
-    // 'pay.google.com',
+  // '*.fundraiseup.com',
+  // '*.stripe.com',
+  // '*.paypal.com',
+  // 'pay.google.com',
   // ],
 }
 
@@ -125,7 +126,6 @@ function getCSPHeaderValue() {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
     // SOURCES['style-src'].push("'unsafe-inline'")
     // SOURCES['script-src'].push("'unsafe-eval'")
-
     // add localhost to allowed sources in development
     // SOURCES['connect-src'].push(localhostURLs)
     // SOURCES['media-src'].push(localhostURLs)
