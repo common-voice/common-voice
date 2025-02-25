@@ -92,3 +92,5 @@ release-version = Verzija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinirana
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Preuzmi naše skupove glasovnih podataka
