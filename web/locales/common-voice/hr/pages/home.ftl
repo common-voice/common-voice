@@ -115,9 +115,15 @@ read-more-about = Pročitaj više na našoj stranici Informacije
 
 ## Developers section
 
+developers-section-title = Javno dostupni skupovi podataka govora bez autorskih prava na više od 130 jezika
+# icon is an arrow that points to the right
+explore-datasets = Istraži skupove podataka <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podrži skupove podataka bez autorskih prava koje vodi zajednica
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnološke tvrtke</bold> – ulažu u stvaranje skupa podataka bez autorskih prava za uspješan višejezični ekosustav umjetne inteligencije
