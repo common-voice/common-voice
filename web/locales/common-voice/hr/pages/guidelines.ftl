@@ -12,6 +12,7 @@ volume = Glasnoća
 reader-effects = Efekti čitača
 just-unsure = Nisi siguran/na?
 example = Primjer
+varying-pronunciations-explanation-1 = Različiti naglasci su dobrodošli! Oprez pri odbijanju isječaka za koje misliš da je čitatelj krivo izgovorio riječ, da je stavio naglasak na krivo mjesto ili da je zanemario interpunkciju. Postoji mnogo izgovora koji se koriste diljem svijeta koje možda ne poznaš. Uzmi u obzir da mnogi ljudi govore drugačije od tebe.
 misreadings-explanation-2 = Vrlo uobičajene pogreške uključuju:
 misreadings-explanation-3 = Na početku snimke nedostaje neodređeni ili određeni član imenice.
 misreadings-explanation-4 = Nedostaje nastavak za genitiv na kraju riječi.
