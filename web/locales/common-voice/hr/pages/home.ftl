@@ -126,4 +126,6 @@ get-involved-section-title = Podrži skupove podataka bez autorskih prava koje v
 ## Partner section
 
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Tehnološke tvrtke</bold> – ulažu u stvaranje skupa podataka bez autorskih prava za uspješan višejezični ekosustav umjetne inteligencije
+partner-section-subtitle-tech-companies = <bold>Tehnološke tvrtke</bold> – ulažite u stvaranje skupa podataka bez autorskih prava za uspješan višejezični ekosustav umjetne inteligencije
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Civilno društvo i istraživači</bold> – stvarajte, ponudite i dijlite značajne skupove podataka besplatno
