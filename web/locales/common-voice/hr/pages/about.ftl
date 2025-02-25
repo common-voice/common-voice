@@ -123,6 +123,7 @@ about-playbook-how-grow-language-content-7 = Pronađi druge institucije/osobe ko
 about-playbook-how-validate = Kako mogu znati da li odobriti glasovni isječak?
 about-playbook-how-validate-content-1 = Ako ih možeš <strong>čuti</strong> i <strong>razumjeti</strong>, <strong>odobri</strong> ih.
 about-playbook-how-validate-content-2 = <strong>Nemoj odbiti isječke u kojima govornik „ima naglasak” koji se razlikuje od tvojeg</strong> – ovo je važno kako bi prepoznavanje glasa bolje funkcioniralo za sve.
+about-playbook-how-validate-content-3 = Ako misliš da izgovor <strong>onemogućuje razumijevanje</strong> ili da je <strong>previše buke u  pozadinski</strong> ili da <strong>drugi ljudi također govore</strong>, predlažemo da odbiješ isječak. <accuracyLink>Pogledaj informacije u našim kriterijima točnosti</accuracyLink>.
 about-playbook-how-validate-content-4 = Ako isječak odbiju 2 osobe, on se objavljuje u jednom drugom podskupu skupa podataka.
 
 ## How to access dataset
