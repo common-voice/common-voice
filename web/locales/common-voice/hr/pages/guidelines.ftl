@@ -47,6 +47,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = Rečenica mora bit
 adding-sentences-subheader-speakable = Izgovorljivo
 adding-sentences-subheader-numbers = Brojevi
 adding-sentences-subheader-abbreviations = Kratice i akronimi
+adding-sentences-subheader-abbreviations-explanation = Izbjegavaj korištenje kratica i akronima poput „SAD” ili „HAZU” u izvornom tekstu jer se mogu čitati na način koji se ne poklapa s njihovim pravopisom. Osim toga može postojati više točnih očitavanja za jedno te istu kraticu.
 adding-sentences-subheader-punctuation = Interpunkcija
 adding-sentences-subheader-special-characters = Posebni znakovi i strana slova
 adding-sentences-subheader-offensive-content = Uvredljiv sadržaj
