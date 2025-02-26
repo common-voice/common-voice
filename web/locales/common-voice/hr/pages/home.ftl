@@ -132,6 +132,7 @@ get-started = Započni <icon><icon>
 
 action-items-section-title = Common Voice je besplatna platforma otvorenog koda za stvaranje podataka vođena od zajednice
 action-items-section-subtitle = Svatko može sačuvati, revitalizirati i unaprijediti svoj jezik dijeljenjem, stvaranjem i vođenjem tekstualnih i govornih skupova podataka.
+scripted-card-header = Pisani govor
 scripted-card-content = Čitaj rečenice naglas na svom jeziku i doprinesi najraznolikom govornom skupu podataka u svijetu.
 spontaneous-card-header = Spontani govor
 spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
@@ -181,12 +182,23 @@ explore-datasets = Istraži skupove podataka <icon></icon>
 
 get-involved-section-title = Podrži skupove podataka bez autorskih prava koje vodi zajednica
 validate-readings-link = Potvrdi čitanja
+contribute-link = Doprinesi tekstualnom korpusu
+answer-questions-link = Odgovori na pitanja
+transcribe-answers-link = Transkribiraj odgovore
+review-transcriptions-link = Pregledaj transkripcije
+contribute-text-link = Doprinesi tekst
+press-and-stories-link = Objave i priče
 
 ## Partner section
 
+partner-section-title = Postani partner
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Tehnološke tvrtke</bold> – ulažite u stvaranje skupa podataka bez autorskih prava za uspješan višejezični ekosustav umjetne inteligencije
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Civilno društvo i istraživači</bold> – stvarajte, ponudite i dijlite značajne skupove podataka besplatno
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropija</bold> – sponzoriraj stvaranje skupa podataka za poticanje lokalnih inovacija i razvoja
+# icon is an arrow that points to the right
+get-in-touch-button = Kontaktiraj nas <icon></icon>
+# Partners section
+our-partners-include = Naši partneri …
