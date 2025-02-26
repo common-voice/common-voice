@@ -278,6 +278,7 @@ tig = Тигре
 tk = Туркменыбзэ
 tl = Тагалог
 tn = Сэцванэ
+tob = Тоба-Кум
 tok = Токи пона
 top = Папантла тотонак
 tr = Тыркубзэ
@@ -355,6 +356,9 @@ loading = Къохьэ…
 email-opt-in-info = Сэ си гугъэщ си мурад зэриӀэхэмкӀэ хъыбар егъэщӀэну, си гугъэщ Common Voice къызэрыщыӀамкӀи хъыбарыр къысхуэхъуэну.
 email-opt-in-info-title = Common Voice э-пощтым листым хыхьэ.
 email-opt-in-info-sub-with-challenge = Э-пощт къегъэх, гугъухь, Iуэху гукъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуауэ.
+email-opt-in-privacy-v2 = Фэ фызэрыхьэну фыарэзы хъуауэ, Mozilla фи тӀасхъэм ягъэпсэуалъэну ди <privacyLink>тӀасхъэхъумэ политикэ </privacyLink> Mozilla хуэфащэу.
 
 ## Donate banner
 
+localization-select =
+    .label = Къыхэвгъуэтыт бзэр/щӀыпӀэр
