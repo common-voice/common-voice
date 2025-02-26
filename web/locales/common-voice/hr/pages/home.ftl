@@ -101,6 +101,7 @@ transcribe-audio-coming-soon = Transkribiraj audio snimke <small>(uskoro stiže)
 transcribe-audio = Transkribiraj audio snimke
 press-and-stories = Objave i priče
 community-and-languages = Zajednica i jezici
+coming-soon = Uskoro stiže
 
 ## MENU ITEMS TOOLTIPS
 
@@ -134,9 +135,17 @@ action-items-section-subtitle = Svatko može sačuvati, revitalizirati i unaprij
 scripted-card-content = Čitaj rečenice naglas na svom jeziku i doprinesi najraznolikom govornom skupu podataka u svijetu.
 spontaneous-card-header = Spontani govor
 spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
+language-text-card-header = Jezični tekst
+language-text-card-content = Stvori ili dijeli upite, rečenice i tekst za prijevod, male jezične modele u javnom vlasništvu i još mnogo toga.
+coming-soon = Uskoro stiže
+add-text = Dodaj tekst
 
 ## Community section
 
+community-section-title = Od globalne zajednice, za globalne zajednice – 130 jezika i stalno raste!
+join-discord-community = Pridruži se Discord zajednici
+# label for button
+join-discord-community-action = Pridruži nam se na Discordu
 join-discord-community-content = Sudjeluj u raspravama jezične zajednice, postavljaj pitanja i saznaj više o nadolazećim događajima i predavanjima.
 
 ## Featured section

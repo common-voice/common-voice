@@ -57,4 +57,5 @@ adding-sentences-subheader-punctuation = Interpunkcija
 adding-sentences-subheader-special-characters = Posebni znakovi i strana slova
 adding-sentences-subheader-special-characters-explanation-2 = Jezici mogu imati vlastita pravila za provjeru valjanosti s dodatnim zahtjevima prilikom lokalizacije. Ako ne postoji posebna datoteka za provjeru valjanosti za jezik, doprinositeljima će se prikazati pravila za engleski.
 adding-sentences-subheader-offensive-content = Uvredljiv sadržaj
+reviewing-sentences-explanation-3 = Ako rečenicu ne razumiješ, možeš je preskočiti i prijeći na sljedeću.
 reviewing-sentences-explanation-4 = Ako ti ponestane rečenica za pregled, pomogni nam sakupiti još rečenica!
