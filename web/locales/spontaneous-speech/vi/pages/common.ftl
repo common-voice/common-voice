@@ -4,8 +4,6 @@
 error = Lỗi
 action-click = Nhấp vào
 action-tap = Chạm
-# Label for language switcher
-interface-language = Ngôn ngữ hiển thị:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Đóng góp vào tập dữ liệu cho { $language }
 # Label for button on contribution switcher

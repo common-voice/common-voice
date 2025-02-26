@@ -4,8 +4,6 @@
 error = خاتالىق
 action-click = چېكىڭ
 action-tap = نوقۇڭ
-# Label for language switcher
-interface-language = ئارايۈز تىلى:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = { $language } سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇش
 # Label for button on contribution switcher

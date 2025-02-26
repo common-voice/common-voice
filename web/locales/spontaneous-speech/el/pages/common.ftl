@@ -4,8 +4,6 @@
 error = Σφάλμα
 action-click = Κάντε κλικ
 action-tap = Πατήστε
-# Label for language switcher
-interface-language = Γλώσσα περιβάλλοντος:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
 # Label for button on contribution switcher

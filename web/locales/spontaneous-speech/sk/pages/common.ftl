@@ -4,8 +4,6 @@
 error = Chyba
 action-click = Kliknite
 action-tap = Ťuknite
-# Label for language switcher
-interface-language = Jazyk rozhrania:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Prispievanie do kolekcie údajov pre jazyk { $language }
 # Label for button on contribution switcher

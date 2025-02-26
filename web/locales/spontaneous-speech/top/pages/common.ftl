@@ -4,8 +4,6 @@
 error = Nitlan tlawalh
 action-click = Pitakglh
 action-tap = Spalhkan
-# Label for language switcher
-interface-language = Xtachiwin xlakan web:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Mintamakgtayat xa tamakxtumit tatsokgni { $language }
 # Label for button on contribution switcher

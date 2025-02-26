@@ -4,8 +4,6 @@
 error = ہرکپلس چی
 action-click = نگیس/کلک
 action-tap = ٹیپ
-# Label for language switcher
-interface-language = تھونگمی سکت پو
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = ڈیٹا سیٹ پو روخ بین
 # Label for button on contribution switcher

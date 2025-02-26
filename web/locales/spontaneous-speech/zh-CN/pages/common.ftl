@@ -4,8 +4,6 @@
 error = 错误
 action-click = 点击
 action-tap = 点按
-# Label for language switcher
-interface-language = 界面语言：
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = 为 { $language } 数据集做贡献
 # Label for button on contribution switcher

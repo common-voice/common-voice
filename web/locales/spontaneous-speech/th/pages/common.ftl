@@ -4,8 +4,6 @@
 error = ผิดพลาด
 action-click = คลิก
 action-tap = แตะ
-# Label for language switcher
-interface-language = ภาษาอินเทอร์เฟซ:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = กำลังมีส่วนร่วมกับชุดข้อมูลสำหรับภาษา { $language }
 # Label for button on contribution switcher

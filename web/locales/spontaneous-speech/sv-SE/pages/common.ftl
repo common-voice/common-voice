@@ -4,8 +4,6 @@
 error = Fel
 action-click = Klicka
 action-tap = Tryck
-# Label for language switcher
-interface-language = Gränssnittsspråk:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Bidrar till datamängd för { $language }
 # Label for button on contribution switcher

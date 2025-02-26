@@ -4,8 +4,6 @@
 error = Errô
 action-click = Sciacca
 action-tap = Sciacca
-# Label for language switcher
-interface-language = Lengua de l’interfaccia
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Conlaboraçion a-o dataset pe { $language }
 # Label for button on contribution switcher

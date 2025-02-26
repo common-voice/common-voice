@@ -4,8 +4,6 @@
 error = Boirey
 action-click = Crig
 action-tap = Crank
-# Label for language switcher
-interface-language = Çhengey y Chlaare:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Cur stiagh ayns y vundeil 'ysseree son { $language }
 # Label for button on contribution switcher

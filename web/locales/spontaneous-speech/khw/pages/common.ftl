@@ -4,8 +4,6 @@
 error = نقص
 action-click = کلک کو
 action-tap = ٹیپ
-# Label for language switcher
-interface-language = ایغو سوم لو دیکو وار:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = ڈیٹا سیٹو سوم { $language } بچین مدد کوریک
 # Label for button on contribution switcher
