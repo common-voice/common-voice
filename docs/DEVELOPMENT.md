@@ -120,28 +120,14 @@ You may have to run these commands as root/superuser.
 
 #### Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory 
 
-While running `docker-compose up`, on Ubuntu, Fedora or other Linux-based systems, you may observe the following error message: 
+After running `docker-compose up`, on Ubuntu, Fedora or other Linux-based systems, you may observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`. 
 
-```
-web      | [BE] $ cd .. && node --trace-warnings server/js/main.js
-web      | [BE] Could not load config.json, using defaults (error message: ENOENT: no such file or directory, open './config.json')
-web      | [BE] unhandled promise rejection TypeError: Cannot read properties of null (reading 'includes')
-web      | [BE]     at resolveWellKnownUri (/code/node_modules/openid-client/lib/issuer.js:179:23)
-web      | [BE]     at Function.discover (/code/node_modules/openid-client/lib/issuer.js:142:26)
-web      | [BE]     at setupAuthRouter (/code/server/src/auth-router.ts:36:34)
-web      | [BE]     at Server.setupApp (/code/server/src/server.ts:125:36)
-web      | [BE]     at runServer (/code/server/src/main.ts:27:18)
-web      | [BE]     at Object.<anonymous> (/code/server/src/main.ts:34:1)
-web      | [BE]     at Module._compile (node:internal/modules/cjs/loader:1364:14)
-web      | [BE]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
-web      | [BE]     at Module.load (node:internal/modules/cjs/loader:1203:32)
-web      | [BE]     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
-web      | [BE]     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
-```
+You may also observe the errors:  
 
-and observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`. 
+* `error Error: EACCES: permission denied, unlink '/code/node_modules/.yarn-integrity'` 
+* `EACCES permission denied mkdir /code/node_modules`
 
-You may also observe the error `error Error: EACCES: permission denied, unlink '/code/node_modules/.yarn-integrity'` when the `web` container is building. 
+when the `web` container is building. 
 
 The root cause of this error is [this line](https://github.com/common-voice/common-voice/blob/bc8d0c501a51c735b907ad6e99368b2a47b3f15e/docker-compose.yaml#L62) in the `docker-compose.yaml`, which is intended to set the `GID` and `UID` to a non-root user. 
 
@@ -153,13 +139,12 @@ However, this causes the `docker` user's `UID:GID` and the localhost user's `UID
 
 The workaround is to first identify the `UID` and `GID` of the current user, then edit the line in `docker-compose.yaml` to have that `UID` and `GID`:
 
-```
-$ id -u
+```sh
+> id -u
 1000
 
-$ id -g
+> id -g
 1000
-
 ```
 
 (in `docker-compose.yaml`)
