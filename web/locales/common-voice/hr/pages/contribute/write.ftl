@@ -2,7 +2,7 @@
 
 write = Piši
 write-instruction = Dodaj <icon></icon> rečenicu koja nije zaštićena autorskim pravom
-write-page-subtitle = Ovdje dostavljene rečenice će se dodati javno dostupnom skupu podataka pod licencom cc-0.
+write-page-subtitle = Ovdje doprinesene rečenice će se dodati javno dostupnom skupu podataka pod licencom cc-0.
 sentence =
     .label = Rečenica
 sentence-input-placeholder = Ovdje upiši rečenicu koja nije zaštićena autorskim pravom
