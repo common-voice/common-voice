@@ -47,6 +47,7 @@ no-information = Nema informacija
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>alat otvorenog koda</docsLink> za istraživače koji razvijaju najsuvremenije UI modele za konverzacije.
 resource-deepspeech-info = Mozillin mehanizam otvorenom koda za prepoznavanje glasa Deep Speech može se koristiti za izradu aplikacija za prepoznavanje govora. Pročitaj naš <githubLink>Github pregled</githubLink> ili se pridruži <discourseLink>DeepSpeech diskursu</discourseLink> upoznavanje korištenja mehanizma.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> je posvećen tehnologiji otvorenog govora. Njihovi projekti uključuju STT i TTS urešaje temeljene na dubokom učenju.
+community-playbook = Priručnik zajednice
 resource-playbook-info = <playbookLink>Pronađi korisne smjernice</playbookLink> za sve Common Voice teme, od lokalizacije do korištenja skupa podataka, kao i kako se povezati s našom zajednicom.
 data-other-librispeech-description = LibriSpeech je korpus od oko 1.000 sati engleskog govora pri 16 Khz, izveden iz audio knjiga LibriVox projekta.
 data-other-ted-name = TED-LIUM korpus

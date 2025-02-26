@@ -2,6 +2,7 @@
 partnerships-header = Partnerstva
 partnerships-become-a-partner = Postani Common Voice partner
 partnerships-community-header = Zajednica, kreativci i civilno društvo
+partnerships-community-description = Zajednica je srce Common Voicea – osobe dolaze iz cijelog svijeta, jezični su aktivisti, znanstvenici i umjetnici. Saznaj više o tome kako se pridružiti zajednici na našim stranicama <about>Informacije</about> i <community>Priručnik zajednice</community>. <emailFragment>Kontaktiraj nas</emailFragment> ako želiš dublje organizacijsko partnerstvo,
 partnerships-foundations-header = Zaklade
 partnerships-governments-header = Vlade
 partnerships-academia-header = Sveučilišta, akademičari i istraživači
