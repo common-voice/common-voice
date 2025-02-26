@@ -87,16 +87,22 @@ welcome-staff = Dobrodošli { $company } suradnici!
 help-contribute = Možeš pomoći izgraditi skup podataka otvorenog koda stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
 login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
-read-more-about = Pročitaj više na našoj stranici Informacije
+read-more-about = Pročitaj više na našoj stranici „Informacije”
 
 ## NAV ITEMS
 
+answer-questions = Odgovori na pitanja
+answer-questions-coming-soon = Odgovori na pitanja <small>(uskoro stiže)</small>
+review-transcriptions = Pregledaj transkripcije
+review-transcriptions-coming-soon = Pregledaj transkripcije <small>(uskoro stiže)</small>
+add-questions = Dodaj pitanja
 
 ## MENU ITEMS TOOLTIPS
 
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
 
 ## NEW HOME PAGE KEYS
 
@@ -113,6 +119,7 @@ spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za et
 
 ## Community section
 
+join-discord-community-content = Sudjeluj u raspravama jezične zajednice, postavljaj pitanja i saznaj više o nadolazećim događajima i predavanjima.
 
 ## Featured section
 
