@@ -1,7 +1,19 @@
 ## Question Page
 
+add-questions-terms-checkbox = * মই নিশ্চিত কৰিছোঁ যে এই প্ৰশ্নটো <publicDomainLink>ৰাজহুৱা ড’মেইন</publicDomainLink>ৰ আৰু মোৰ লগত এইটো আপল’ড কৰিবলৈ অনুমতি আছে।
 question-database-language = ডেটাবে’ছ: { $databaseLanguage }
+add-question-success-toast-message =
+    { $totalQuestions ->
+        [one] 1টাৰ { $uploadedQuestions }টা প্ৰশ্ন সংগ্ৰহ কৰা হ’ল
+       *[other] { $totalQuestions }টাৰ { $uploadedQuestions }টা প্ৰশ্ন সংগ্ৰহ কৰা হ’ল
+    }
 add-question-error-message = আপল’ড বিফল হ’ল, অনুগ্ৰহ কৰি আকৌ চেষ্টা কৰক।
+add-question-too-many-questions-error = 500টা প্ৰশ্নৰ সীমা চেৰাই গৈছে। প্ৰশ্নৰ সংখ্যা কমাই পুনৰ চেষ্টা কৰক।
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] 1টাৰ { $uploadedQuestions }টা প্ৰশ্ন সংগ্ৰহ কৰা হ’ল। প্ৰশ্ন কেনেকৈ যোগ কৰিব পাৰি সেইবিষয়ে অধিক জানিবলৈ আমাৰ <guidelinesLink>নিৰ্দেশনা</guidelinesLink>ৰ পৃষ্ঠাবোৰ চাওক
+       *[other] { $totalQuestions }টাৰ { $uploadedQuestions }টা প্ৰশ্ন সংগ্ৰহ কৰা হ’ল। প্ৰশ্ন কেনেকৈ যোগ কৰিব পাৰি সেইবিষয়ে অধিক জানিবলৈ আমাৰ <guidelinesLink>নিৰ্দেশনা</guidelinesLink>ৰ পৃষ্ঠাবোৰ চাওক
+    }
 # Guidelines
 add-question-guidelines-title = মই কোনবোৰ প্ৰশ্ন যোগ কৰিব পাৰোঁ?
 do-section-title = কৰিব
