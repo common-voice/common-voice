@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = Piši
-write-instruction = Dodaj <icon></icon> rečenicu koja nije zaštićena autorskim pravom
+write-instruction = Dodaj <icon></icon> rečenicu u javnom vlasništvu
 write-page-subtitle = Ovdje dostavljene rečenice će se dodati javno dostupnom skupu podataka pod licencom cc-0.
 sentence =
     .label = Rečenica
