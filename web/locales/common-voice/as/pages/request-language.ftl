@@ -15,7 +15,7 @@ request-language-form-info-explanation =
     পাৰে:
 request-language-form-info-explanation-list-1 = আপোনাৰ ভাষাৰ নামবোৰ
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ক’ডবোৰ</isoCodeLink> যদি জানে
-request-language-form-info-explanation-list-3 = ভাষাটো বুজাত সহায় কৰিব পৰা ৱেবছাইটবোৰৰ লিংক
+request-language-form-info-explanation-list-3 = ভাষাটো বুজাত সহায় কৰিবপৰা ৱেবছাইটবোৰৰ লিংক
 request-language-google-recaptcha-required = আপুনি আগবাঢ়িব বিচাৰিলে reCAPTCHA-ৰ প্ৰয়োজন
 request-language-google-recaptcha-error = reCAPTCHA-ৰ কিবা সমস্যা হৈছে। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
 # Success page
