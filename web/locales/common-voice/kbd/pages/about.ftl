@@ -56,11 +56,22 @@ about-nav-playbook = Узнать, как принять участие
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Что такое язык на Common Voice?
+about-playbook-what-is-language-content-1 = Есть много способов думать о языке. Для целей моделей распознавания речи Common Voice предлагает сосредоточиться на «взаимной разборчивости» или «могут ли носители этого языка понять друг друга, если попытаются?»
+about-playbook-what-is-language-content-2 = Мы хотим, чтобы речевые модели лучше понимали широкий круг говорящих. Для этого набор голосовых данных должен представлять множество разных людей.
+about-playbook-what-is-language-content-3 = Некоторые языки имеют огромные различия в грамматике, словарном запасе и произношении. По этой причине в 2022 году мы <ctaLink>представляем «Варианты»</ctaLink>. Это дает сообществам возможность различать свои языки в большом наборе данных.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Дауэ бзэр хэслъхьэфыну?
+about-playbook-how-add-language-content-1 = Сначала убедитесь, <languageLink>не добавлен ли уже</languageLink> ваш язык. Если его ещё нет, вам надо <strong>перевести сайт и собрать предложения</strong>.
 about-playbook-how-add-language-translating-heading = Сайтыр зэдзэкӏ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Посмотрите наш обучающий ролик о том, как использовать Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Для переводов мы используем инструмент Mozilla под названием <pontoonLink>Pontoon</pontoonLink>. У Pontoon много языков,
+    но если вашего нет, вы можете <pontoonRequestLink>запросить добавление языка</pontoonRequestLink>.
+    Затем, чтобы сделать язык доступным в проекте Common Voice,
+    <githubRepoLink>запросите новый язык на GitHub</githubRepoLink>. <localizationFragment>Подробнее о переводе сайтов</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Псалъэухахэр зэщӏекъуэ
 
 ## How does localization work
