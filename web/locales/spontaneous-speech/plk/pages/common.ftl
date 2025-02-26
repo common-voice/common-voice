@@ -4,6 +4,8 @@
 error = غلطی
 action-click = کِلِک تِھیا۔
 action-tap = ٹیپ تِھیا۔
+# Label for language switcher
+platform-language = پلیٹ فارم جِب
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = ڈیٹاسیٹ دہ تعاون تھونے کِرِیا { $language }
 # Label for button on contribution switcher
@@ -27,6 +29,7 @@ request-new-language = نئی جِبے درخواست
 respond-to-prompt = پرامپٹے جُواب دِیا
 transcribe-audio = آڈیو نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
+question = سوال
 
 ## Not Found Page
 

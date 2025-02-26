@@ -120,6 +120,7 @@ spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za et
 ## Developers section
 
 developers-section-title = Javno dostupni skupovi podataka govora bez autorskih prava na više od 130 jezika
+developers-section-subtitle = Skupovi podataka konteksta za automatsko prepoznavanje govora, govor u tekst, tekst u govor i druge obrade prirodnog jezika – stvoreni od zajednice.
 # icon is an arrow that points to the right
 explore-datasets = Istraži skupove podataka <icon></icon>
 
