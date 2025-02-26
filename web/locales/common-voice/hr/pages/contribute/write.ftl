@@ -98,22 +98,22 @@ too-many-files = Previše datoteka
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> Dodajte više rečenica iz javnog vlasništva
-multiple-sentences-error = Ne možete dodati više rečenica u jednom slanju
+small-batch-instruction = <icon></icon> Dodaj više rečenica iz javnog vlasništva
+multiple-sentences-error = Ne možeš dodati više rečenica u jednom slanju
 exceeds-small-batch-limit-error = Nije moguće poslati više od 1000 rečenica
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Prekoračeno je ograničenje. Pokušajte ponovno za jednu minutu
-        [few] Prekoračeno je ograničenje. Pokušajte ponovno za { $retryLimit } minute
-       *[other] Prekoračeno je ograničenje. Pokušajte ponovno za { $retryLimit } minuta
+        [one] Prekoračeno je ograničenje. Pokušaj ponovo za jednu minutu
+        [few] Prekoračeno je ograničenje. Pokušaj ponovo za { $retryLimit } minute
+       *[other] Prekoračeno je ograničenje. Pokušaj ponovo za { $retryLimit } minuta
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Prekoračeno je ograničenje. Pokušajte ponovno za jednu sekundu
-        [few] Prekoračeno je ograničenje. Pokušajte ponovno za { $retryLimit } sekunde
-       *[other] Prekoračeno je ograničenje. Pokušajte ponovno za { $retryLimit } sekundi
+        [one] Prekoračeno je ograničenje. Pokušaj ponovo za jednu sekundu
+        [few] Prekoračeno je ograničenje. Pokušaj ponovo za { $retryLimit } sekunde
+       *[other] Prekoračeno je ograničenje. Pokušaj ponovo za { $retryLimit } sekundi
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =

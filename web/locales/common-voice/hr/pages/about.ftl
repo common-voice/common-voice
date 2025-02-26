@@ -95,7 +95,7 @@ about-playbook-how-localize-content-5 = Za pomoć pogledaj naš video s objašnj
 
 about-playbook-how-add-sentences = Kako mogu dodati rečenice?
 about-playbook-how-add-sentences-content-1 = Rečenice možeš dodati na <writePageLink>stranici za pisanje</writePageLink> ili pregledaj rečenice na <reviewPageLink>stranici za pregled</reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = Rečenice moraju pregledati i prihvatiti dvije osobe da bi se uključile u Common Voice. Izradi smjernice za tvoj jezik <languageGuidelinesLink>ovdje</languageGuidelinesLink>. Rečenice moraju biti u <licenseLink>javnom vlasništvu</licenseLink> i kraće od 15 riječi. Možeš zamoliti vlasnika teksta da licenzira rečenicu pod <waiverLink>CC0 licencom koristeći naš postupak odricanja</waiverLink> i da nam to pošalje na commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-2 = Rečenice moraju pregledati i prihvatiti dvije osobe da bi se uključile u Common Voice. Izradi smjernice za tvoj jezik <languageGuidelinesLink>ovdje</languageGuidelinesLink>. Rečenice moraju biti u <licenseLink>javnom vlasništvu</licenseLink> i kraće od 15 riječi. Možeš zamoliti vlasnika teksta da licenzira rečenicu pod <waiverLink>CC0 licencom koristeći naš postupak odricanja od autorskih prava</waiverLink> i da nam to pošalje na commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Možeš koristiti alat <scraperLink>Izdvajač rečenica</scraperLink> za korištenje kratkih rečenica s Wikipedije.
 
 ## How to record quality
