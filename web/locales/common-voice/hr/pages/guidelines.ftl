@@ -27,6 +27,7 @@ misreadings-example-4 = Proletio je bumbar.
 misreadings-tip-1 = [Trebalo bi biti „Je li”]
 misreadings-tip-2 = [Bez slova „i” u izvornom tekstu]
 misreadings-tip-3 = [Nepoklapajući sadržaj]
+just-unsure-explanation = Ako naiđeš na nešto što ove smjernice ne pokrivaju, glasaj prema vlastitoj procjeni. Ako se stvarno ne možeš odlučiti, koristi gumb za preskakanje i prijeđi na sljedeću snimku.
 still-have-questions = Još uvijek imaš pitanja?
 contact-common-voice = Obrati se Common Voice timu
 public-domain = Javno vlasništvo
