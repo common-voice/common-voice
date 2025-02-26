@@ -34,6 +34,7 @@ citing-sentences = Citiranje rečenica
 adding-sentences = Dodavanje rečenica
 reviewing-sentences = Pregledavanje rečenica
 sentence-domain = Domena rečenica
+public-domain-explanation-1 = Vrlo je važno da su sve tekstualne rečenice u <publicDomain>javnom vlasništvu</publicDomain> (<cc0>cc0</cc0>) jer je Common Voice skup podataka objavljen pod licencom cc0. Učitaj rečenicu samo ako si siguran/na i uvijek uključi relevantan citat.
 citing-sentences-subheader-websites = Web stranice
 citing-sentences-subheader-websites-explanation = Možeš uključiti web stranicu, npr. „Common Voice – https://commonvoice.mozilla.org/”
 citing-sentences-subheader-academic-reference = Akademska referenca
