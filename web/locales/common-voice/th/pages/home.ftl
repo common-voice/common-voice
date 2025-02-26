@@ -92,6 +92,7 @@ answer-questions-coming-soon = ตอบคำถาม <small>(เร็วๆ 
 review-transcriptions = ตรวจทานการถอดเสียง
 review-transcriptions-coming-soon = ตรวจทานการถอดเสียง <small>(เร็วๆ นี้)</small>
 add-questions = เพิ่มคำถาม <small>(เร็วๆ นี้)</small>
+add-questions-coming-soon = เพิ่มคำถาม <small>(เร็วๆ นี้)</small>
 transcribe-audio-coming-soon = ถอดเสียง <small>(เร็วๆ นี้)</small>
 transcribe-audio = ถอดเสียง
 press-and-stories = ข่าวแจกและเรื่องราว
