@@ -15,7 +15,7 @@ about-new-lang-title = Objava novog jezika
 about-new-lang-subtitle = Objavljujemo Common Voice web stranicu na ovom jeziku.
 about-voice-contrib-title = Doprinošenje glasa
 about-voice-contrib-subtitle = Ljudi dolaze i doprinose svojim glasom.
-about-voice-validation-title = Validacija glasova
+about-voice-validation-title = Potvrđivanje glasova
 about-voice-validation-subtitle = Drugi ljudi potvrđuju te govorne isječke.
 about-dataset-release-title = Izdanje skupa podataka
 about-dataset-release-subtitle = Skup podataka objavljujemo svaka 3 mjeseca.
@@ -129,7 +129,7 @@ about-playbook-how-validate-content-4 = Ako isječak odbiju 2 osobe, on se objav
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kako mogu pristupiti i koristiti skup podataka?
-about-playbook-how-access-dataset-content-1 = Idi na <datasetsPage>stranicu skupova podataka</datasetsPage>, odaberi verziju i jezik(e) koje želiš i preuzmi ga! Datoteke sadrže <metadataLink>pridružene metapodatke</metadataLink>, kao što su demografski podaci i podaci o potvrdi valjanosti. Za preuzimanje skupa podataka moraš upisati jednu e-mail adresu.
+about-playbook-how-access-dataset-content-1 = Idi na <datasetsPage>stranicu skupova podataka</datasetsPage>, odaberi verziju i jezik(e) koje želiš i preuzmi ga! Datoteke sadrže <metadataLink>pridružene metapodatke</metadataLink>, kao što su demografski podaci i podaci o potvrđivanju. Za preuzimanje skupa podataka moraš upisati jednu e-mail adresu.
 about-playbook-how-access-dataset-content-2 = Ako tražiš alate za izradu ASR modela, možeš se povezati s drugim ljudima u zajednici na platformi <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made

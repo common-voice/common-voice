@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Smjernice za doprinošenje
-guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i audio isječke u skup podataka Common Voice
+guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i audio isječke u Common Voice skup podataka
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
 varying-pronunciations = Različiti izgovori
@@ -54,5 +54,6 @@ adding-sentences-subheader-abbreviations = Kratice i akronimi
 adding-sentences-subheader-abbreviations-explanation = Izbjegavaj korištenje kratica i akronima poput „SAD” ili „HAZU” u izvornom tekstu jer se mogu čitati na način koji se ne poklapa s njihovim pravopisom. Osim toga može postojati više točnih očitavanja za jedno te istu kraticu.
 adding-sentences-subheader-punctuation = Interpunkcija
 adding-sentences-subheader-special-characters = Posebni znakovi i strana slova
+adding-sentences-subheader-special-characters-explanation-2 = Jezici mogu imati vlastita pravila za provjeru valjanosti s dodatnim zahtjevima prilikom lokalizacije. Ako ne postoji posebna datoteka za provjeru valjanosti za jezik, doprinositeljima će se prikazati pravila za engleski.
 adding-sentences-subheader-offensive-content = Uvredljiv sadržaj
 reviewing-sentences-explanation-4 = Ako ti ponestane rečenica za pregled, pomogni nam sakupiti još rečenica!

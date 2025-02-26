@@ -28,7 +28,7 @@ no-clips-to-validate = Čini se da za ovaj jezik nema nijednog isječka za sluš
 toggle-play-tooltip = Pritisni { shortcut-play-toggle } za prelazak u modus reprodukcije
 speak-paragraph = Snimanje govornih isječaka sastavni je dio izgradnje našeg otvorenog skupa podataka; neki bi rekli da je to i zabavni dio.
 speak-goal-text = Snimljeno isječaka
-listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušaj i pomogni stvoriti kvalitetne govorne podatke otvorenog koda.
+listen-paragraph = Potvrđivanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušaj i pomogni stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeni isječci
 hours-recorded = Snimljeni sati
 hours-validated = Potvrđeni sati
@@ -127,6 +127,7 @@ explore-datasets = Istraži skupove podataka <icon></icon>
 ## Get involved section
 
 get-involved-section-title = Podrži skupove podataka bez autorskih prava koje vodi zajednica
+validate-readings-link = Potvrdi čitanja
 
 ## Partner section
 
