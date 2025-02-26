@@ -29,10 +29,10 @@ request-language-success-list-3 =
 request-language-error =
     เราอาจจะยังไม่ได้รับคำขอนั้น โปรดส่งอีเมลหาเราโดยตรงที่
     <emailLink>{ $email }</emailLink> แล้วเราจะติดต่อกลับหาคุณ!
-request-for-scripted-speech-toggle = คำขอสำหรับเสียงพูดอ่านบท
-request-for-spontaneous-speech-toggle = คำขอสำหรับเสียงพูดโต้ตอบ
+request-for-scripted-speech-toggle = คำขอสำหรับเสียงพูดตามบท
+request-for-spontaneous-speech-toggle = คำขอสำหรับเสียงพูดธรรมชาติ
 need-help-deciding-platform = ต้องการความช่วยเหลือใช่ไหมว่าควรตัดสินใจเลือกอันไหน?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>เสียงพูดอ่านบท</strong> (ซึ่งคุณรู้จักในชื่อ Common Voice อยู่แล้ว) คือส่วนที่คุณสามารถอ่านออกเสียงประโยคต่างๆ ในภาษาของคุณได้
-need-help-deciding-platform-explanation-2 = <strong>เสียงพูดโต้ตอบ</strong> เป็นส่วนใหม่ของ Common Voice ที่ให้คุณสามารถตอบกลับคำถามในแบบที่เป็นธรรมชาติและเป็นกันเองยิ่งขึ้นได้
+need-help-deciding-platform-explanation-1 = <strong>เสียงพูดตามบท</strong> (ซึ่งคุณรู้จักในชื่อ Common Voice อยู่แล้ว) คือส่วนที่คุณสามารถอ่านออกเสียงประโยคต่างๆ ในภาษาของคุณได้
+need-help-deciding-platform-explanation-2 = <strong>เสียงพูดธรรมชาติ</strong> เป็นส่วนใหม่ของ Common Voice ที่ให้คุณสามารถตอบกลับคำถามในแบบที่เป็นธรรมชาติและเป็นกันเองยิ่งขึ้นได้
 need-help-deciding-platform-explanation-3 = ถ้าคุณไม่เห็นภาษาของคุณไม่ว่าส่วนใดส่วนหนึ่งของแพลตฟอร์ม ให้เลือกทั้งคู่
