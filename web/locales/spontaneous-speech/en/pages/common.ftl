@@ -29,6 +29,7 @@ request-new-language = Request New Language
 respond-to-prompt = Respond To Prompt
 transcribe-audio = Transcribe Audio
 check-transcriptions = Check Transcriptions
+question = Question
 
 ## Not Found Page
 
