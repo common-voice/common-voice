@@ -78,13 +78,13 @@ whats-public = Što je javno?
 email-not-public = Tvoju e-mail adresu nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezika kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
-demographic-deidentified-clarity-2 = Opcionalno podneseni demografski podatci (npr. dob, rod, jezik i naglasak) nikada neće biti javni na tvojem profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedini audio-isječci bit će povezani s demografskim podatcima radi točnije analize - npr. istraživač možda želi ciljani neki model uvježbavanja na određeni demografski segment.
+demographic-deidentified-clarity-2 = Opcionalno podneseni demografski podaci (npr. dob, rod, jezik i naglasak) nikada neće biti javni na tvojem profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedini audio-isječci bit će povezani s demografskim podacima radi točnije analize – npr. istraživač možda želi usmjeriti model vježbanja na određen demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i e-mail adresa neće biti povezani s objavljenim podacima.
 
 ## Landing
 
 welcome-staff = Dobrodošli { $company } suradnici!
-help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
+help-contribute = Možeš pomoći izgraditi skup podataka otvorenog koda stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
 login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
@@ -103,9 +103,11 @@ read-more-about = Pročitaj više na našoj stranici Informacije
 
 ## Hero section
 
+hero-subtitle-2 = Naš jezik je naša priča, naša zajednica, naša kultura. Stvorimo skupove podataka koje želimo vidjeti u svijetu.
 
 ## Action items section
 
+action-items-section-subtitle = Svatko može sačuvati, revitalizirati i unaprijediti svoj jezik dijeljenjem, stvaranjem i vođenjem tekstualnih i govornih skupova podataka.
 
 ## Community section
 
