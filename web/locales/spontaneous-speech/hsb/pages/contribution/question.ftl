@@ -28,4 +28,5 @@ do-section-guideline-2 = Wubjerće lochke prašenja, kotrež dadźa so lochko za
 do-section-guideline-3 = Zawěsćće, zo da so z jenož mało sadami na nje wotmołwić
 do-not-section-title = nječińće
 do-not-section-guideline-1 = Wosobinske informacije požadać (kaž mjena abo financne informacije)
+do-not-section-guideline-2 = Předzajate abo njepřistojne nahlady zwuraznić abo požadać
 do-not-section-guideline-3 = Sensibelne prašenja stajić
