@@ -49,6 +49,7 @@ adding-sentences-subheader-spelling-punctuation = Pravopis i interpunkcija
 adding-sentences-subheader-spelling-punctuation-explanation = Rečenica mora biti točno napisana.
 adding-sentences-subheader-speakable = Izgovorljivo
 adding-sentences-subheader-numbers = Brojevi
+adding-sentences-subheader-numbers-explanation = U idealnom slučaju u izvornom tekstu ne bi trebalo biti znamenki jer mogu prouzročiti probleme kada se čitaju naglas. Način na koji se broj čita ovisi o kontekstu i može unijeti zabunu u skup podataka. Na primjer, broj „2409” mogao bi se točno pročitati i kao „dvadeset četiri nula devet” i kao „dvije tisuće četiristo devet”.
 adding-sentences-subheader-abbreviations = Kratice i akronimi
 adding-sentences-subheader-abbreviations-explanation = Izbjegavaj korištenje kratica i akronima poput „SAD” ili „HAZU” u izvornom tekstu jer se mogu čitati na način koji se ne poklapa s njihovim pravopisom. Osim toga može postojati više točnih očitavanja za jedno te istu kraticu.
 adding-sentences-subheader-punctuation = Interpunkcija
