@@ -108,6 +108,8 @@ hero-subtitle-2 = Naš jezik je naša priča, naša zajednica, naša kultura. St
 ## Action items section
 
 action-items-section-subtitle = Svatko može sačuvati, revitalizirati i unaprijediti svoj jezik dijeljenjem, stvaranjem i vođenjem tekstualnih i govornih skupova podataka.
+scripted-card-content = Čitaj rečenice naglas na svom jeziku i doprinesi najraznolikom govornom skupu podataka u svijetu.
+spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
 
 ## Community section
 

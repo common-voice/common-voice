@@ -28,3 +28,5 @@ do-section-guideline-2 = Wubjeŕśo lažke pšašanja, kótarež daju se lažko 
 do-section-guideline-3 = Zawěsććo, až dajo se z jano mało sadami na nje wótegroniś
 do-not-section-title = njecyńśo
 do-not-section-guideline-1 = Wósobinske informacije pominaś (ako mjenja abo financne informacije)
+do-not-section-guideline-2 = Pśedsudkowne abo njepśistojne měnjenja zwurazniś abo pominaś
+do-not-section-guideline-3 = Sensibelne pšašanja stajiś
