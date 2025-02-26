@@ -1,7 +1,7 @@
 ## Home Page
 
-home-title = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
-default-tagline = Common Voice je Mozillina inicijativa koja pomaže strojevima govoriti ljudskim jezikom.
+home-title = Common Voice je Mozillina inicijativa za podučavanje strojeva da govore ljudskim jezikom.
+default-tagline = Mozilla Common Voice je inicijativa za podučavanje strojeva da govore ljudskim jezikom.
 home-cta = Govori, doprinesi ovdje!
 wall-of-text-start =
     Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
@@ -11,8 +11,8 @@ wall-of-text-more-mobile =
     guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
     prepoznavanje govora.
 wall-of-text-more-desktop =
-    Donirati svoj glas i pomogni izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
-    za izradu inovativnih programa za uređaje i za web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
+    Doniraj svoj glas i pomogni izgraditi bazu podataka govora otvorenog koda, koju svatko može koristiti
+    za izradu inovativnih programa za uređaje i za web. Pročitaj rečenicu i pomogni strojevima da uče govoriti ljudskim jezikom.
     Provjeri rad drugih donatora kako bi se poboljšala kvaliteta. Stvarno je tako jednostavno!
 wall-of-text-first =
     Glas je prirodan, glas je ljudski. Stoga želimo stvoriti upotrebljive govorne tehnologije
@@ -115,9 +115,19 @@ read-more-about = Pročitaj više na našoj stranici Informacije
 
 ## Developers section
 
+developers-section-title = Javno dostupni skupovi podataka govora bez autorskih prava na više od 130 jezika
+# icon is an arrow that points to the right
+explore-datasets = Istraži skupove podataka <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podrži skupove podataka bez autorskih prava koje vodi zajednica
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnološke tvrtke</bold> – ulažite u stvaranje skupa podataka bez autorskih prava za uspješan višejezični ekosustav umjetne inteligencije
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Civilno društvo i istraživači</bold> – stvarajte, ponudite i dijlite značajne skupove podataka besplatno
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> – sponzoriraj stvaranje skupa podataka za poticanje lokalnih inovacija i razvoja

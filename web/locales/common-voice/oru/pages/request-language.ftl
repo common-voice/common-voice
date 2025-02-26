@@ -18,3 +18,10 @@ request-language-success-list-1 = تُو کی يې سو سېره ای مېل ز�
 request-language-success-list-2 = ترماخ ته کمیونېټی ا مېنېجر يې سو تیوس ګیرډ رابطه کوی ته اضافی سپورټ پناره او آ دل سُو ګۀ شام کوی که کوک يې بو خه اول لاسته پۀ زبان تر کر خه کوی
 request-language-success-list-3 = که ماخ دل يې دیو ریوز نر ځواب نک ڒیوک، تو يې سو رابطه کېوی <emailLink> </emailLink> او ماخ دې سو بيې رابط کيېن ګیرډ { $email }
 request-language-error = ماخ که کان او درخواست نک وصول دوک بَۀ۔ بيې وه ماخ کی ډائرېکټ ڒیڅَوئ پ پا پته <emailLink>{ $email }
+request-for-scripted-speech-toggle = درخواست ته لیکِلئ تقریر پاره
+request-for-spontaneous-speech-toggle = درخواست ته بغېر تیاري تقریر پاره
+need-help-deciding-platform = ا څېن سۀ خؤش کېم ته پا فیصلۀ پاره يې مدد پکر هۀ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = لیکِلئ تقریر يې ا فۀ هۀ که تُو وه خوئ زبان نر په زوټه یِشتک هېنچی (یعنی که تُو ل بُو روایتأ عام آواز غؤس)
+need-help-deciding-platform-explanation-2 = بغېر تیاري تقریر يې ته عام آواز افا حصۀ هۀ ګُده ليې بو که تُو ته سوال ځواب قدرتي او په عام روان ټِکئ نر ڒیوک اېنچی
+need-help-deciding-platform-explanation-3 = که ګُده تُو ا خوئ زبان ته پلېټفارم دُوګډ حِصۀ نر نک وؤ، ا دُوګډ سېلېکټ کَۀ

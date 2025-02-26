@@ -23,6 +23,7 @@ number-of-voices = Numero de voxe
 splits = Divixoin
 email-to-download = Metti o teu adresso de pòsta elettrònica pe descarregâ
 why-email = <b>Percöse domandemmo l’adresso de pòsta elettrònica?</b> Porriëscimo avei beseugno de contattâte pe de notiçie in sce neuve verscioin do dataset.
+why-donate-datasets-page = Mozilla Common Voice o l’é o dataset open speech realizzou pe mezo do crowdsourcing co-a ciù grande diverscitæ a-o mondo, do tutto sostegnuo da donaçioin. Ospitâ i dataset e amegioâ a ciattaforma pe e ciù de 100 communitæ che contan in sce quello che femmo o costa squæxi un mion de dòllai à l’anno. Se ti apprexi a poscibilitæ d’accede à di dæti averti e incluxivi, <b>fanni unna donaçion ancheu</b>.
 confirm-size = T’ê pronto à inandiâ un descarregamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -71,6 +72,9 @@ dataset-metadata-sex = Sesso
 dataset-metadata-age = Etæ
 donate-modal-message = O teu dataset o l’é apreuvo à ëse descarregou.
 dataset-donate-modal-heading = Ti ô saivi che…
+donate-modal-explanation-1 = Ospitâ i dataset e amegioâ a ciattaforma pe e ciù de 100 communitæ lingusitiche che contan in sce quello che femmo o costa squæxi un mion de dòllai à l’anno?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se t’apprexi a poscibilitæ d’accede à di dæti averti e incluxivi, fanni unna donaçion ancheu!</bold>
 data-download-singleword-title = Descarrega o segmento particolâ co-e poule scingole
 data-download-singleword-callout-v2 = Sto segmento o l’é basou in sce un caxo d’utilizzaçion particolâ e o l’à di dæti pe amegioâ o reconoscimento vocale de giffre e o reconoscimento de scì/na.
 data-download-button = Descarrega i dæti de Common Voice

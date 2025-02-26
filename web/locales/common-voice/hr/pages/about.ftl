@@ -10,7 +10,7 @@ about-language-req-subtitle = Netko traži dodavanje jezika.
 about-localization-title = Lokalizacija web stranice
 about-localization-subtitle = Tekst web stranice se prevodi na taj jezik.
 about-sentence-collection-title = Zbirka rečenica
-about-sentence-collection-subtitle = Rečenice se skupljaju kako bi ih ljudi čitali naglas.
+about-sentence-collection-subtitle = Rečenice se sakupljaju kako bi ih ljudi čitali naglas.
 about-new-lang-title = Objava novog jezika
 about-new-lang-subtitle = Objavljujemo Common Voice web stranicu na ovom jeziku.
 about-voice-contrib-title = Doprinošenje glasa
@@ -67,7 +67,7 @@ about-playbook-how-add-language = Kako mogu dodati jezik?
 about-playbook-how-add-language-content-1 =
     Najprije provjeri je li tvoj jezik <languageLink>već postoji</languageLink>.
     Ako nije, možeš <languageRequestLink>zatražiti dodavanje tvog jezika</languageRequestLink>.
-    Postoje dvije faze. Prevođenje stranice i sakupljanje rečenica
+    Postoje dvije faze. Prevođenje web-stranice i sakupljanje rečenica
 about-playbook-how-add-language-translating-heading = Prevođenje stranice
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pogledaj naš vodič o tome kako koristiti Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -88,7 +88,7 @@ about-playbook-how-localize = Kako funkcionira lokalizacija stranica?
 about-playbook-how-localize-content-1 = Common Voice stranica se prevodi na platformi <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Otvori račun</pontoonAccountLink> ako ga nemaš. Odaberi svoj jezik <strong>(„tim”)</strong> i zatim odaberi projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Bit će datoteka za prijevod. Pritiskom na jednu datoteku prikazuju se riječi na engleskom i polje za prijevod.
 about-playbook-how-localize-content-3 = Prevodi se s engleskog jezika, ali možeš vidjeti <strong>prijedloge</strong> na drugim jezicima. Klikni ikonu <strong>Profil</strong>, zatim poveznicu <strong>Postavke</strong> i dodaj sve jezike koje govoriš. U donjem desnom kutu ćeš vidjeti popis prijevoda koji se zove <strong>Locales</strong>. Prijevodi se prikazuju na stranici nakon jednog dana.
-about-playbook-how-localize-content-4 = Stranica je spremna za objavljivanje kada je 75 % prevedena.
+about-playbook-how-localize-content-4 = Web-stranica je spremna za objavljivanje kada je 75 % prevedena.
 about-playbook-how-localize-content-5 = Za pomoć pogledaj naš video s objašnjenjima
 
 ## How to add sentences
@@ -112,12 +112,18 @@ about-playbook-how-record-content-5 = <accuracyLink>Pogledaj više o kriterijima
 about-playbook-how-grow-language = Kako možemo učinkovito razvijati jezik na Common Voiceu?
 about-playbook-how-grow-language-content-1 = Stvaranje mogućnosti za raznolikost ljudi koji mogu doprinijeti Common Voiceu osigurava da skup podataka služi što većem broju ljudi. Izradili smo resurse i predloške koje možeš koristiti!
 about-playbook-how-grow-language-content-2 = Događaji
+about-playbook-how-grow-language-content-3 = Pokreni događaje kako bi pomogao/la ljudima da doprinesu. Lakše je nego što misliš. To možeš učiniti online pomoću alata za videokonferencije ili osobno ako je sigurno. <eventTemplate>Pogledaj naše predloške i resurse za pokretanje događaja</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Društveni mediji
 about-playbook-how-grow-language-content-5 = Za širenje poruke možeš koristiti platforme društvenih medija. Dijeli objave koje objašnjavaju njenu važnost i stupi u kontakt s drugim ljudima koji razgovaraju o problemima kao što su jezična prava, glasovna umjetna inteligencija ili pristranost u tehnologiji. Pogledaj savjete o <campaignLink>vođenju društvene kampanje, uključujući sadržaj koji možeš ponovo koristiti</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerstva i mreže
+about-playbook-how-grow-language-content-7 = Pronađi druge institucije/osobe kojima je ovo važno. To mogu biti sveučilišta, jezične škole, interesne grupe ili zajednice znanosti o podacima. Kontaktiraj ih i objasni kako oni mogu pomoći i zašto. <outreachTemplates>Pogledaj naše e-mail predloške za kontaktiranje</outreachTemplates>.
 
 ## How to validate
 
+about-playbook-how-validate = Kako mogu znati da li odobriti glasovni isječak?
+about-playbook-how-validate-content-1 = Ako ih možeš <strong>čuti</strong> i <strong>razumjeti</strong>, <strong>odobri</strong> ih.
+about-playbook-how-validate-content-2 = <strong>Nemoj odbiti isječke u kojima govornik „ima naglasak” koji se razlikuje od tvojeg</strong> – ovo je važno kako bi prepoznavanje glasa bolje funkcioniralo za sve.
+about-playbook-how-validate-content-3 = Ako misliš da izgovor <strong>onemogućuje razumijevanje</strong> ili da je <strong>previše buke u  pozadinski</strong> ili da <strong>drugi ljudi također govore</strong>, predlažemo da odbiješ isječak. <accuracyLink>Pogledaj informacije u našim kriterijima točnosti</accuracyLink>.
 about-playbook-how-validate-content-4 = Ako isječak odbiju 2 osobe, on se objavljuje u jednom drugom podskupu skupa podataka.
 
 ## How to access dataset

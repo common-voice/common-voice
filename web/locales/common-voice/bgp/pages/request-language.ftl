@@ -33,3 +33,10 @@ request-language-success-list-3 =
 request-language-error =
     بوت کنت کہ مارا آ لوٹ نہ رستگ۔ مارا براہ راست ای میل بکن
     <emailLink>{ $email }</emailLink> ءِ سرا ءُ ما ترا پدا ھال کنیں!
+request-for-scripted-speech-toggle = اسکرپٹڈ ءِ ھاتر ءَ لوٹ
+request-for-spontaneous-speech-toggle = اسپونین اسپیچ ءِ لوٹ
+need-help-deciding-platform = اے فیصلہ کنگ ءَ کمک کنگ لوٹیت کہ کجام گچین ءَ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>سکرپٹڈ اسپیچ</strong> (روایت ءِ رد ءَ تو کامن وائس ءِ بستار ءَ زان ئے) ھما جاہ اِنت کہ تو وتی زبان ءِ تہ ءَ جملہ ءِ توار ءَ وان ئے
+need-help-deciding-platform-explanation-2 = <strong>بخش ءِ اسپیچچ ءِ اسپیچ> کامن وائس ءِ نوکیں بہر اِنت کہ اودا شما گیشتر نامیاتی، باہمی راہ ءَ جُست ءُ پُرس ءِ پسو ءَ دات کن اِت۔
+need-help-deciding-platform-explanation-3 = اگاں تو وتی زبان ءَ پلیٹ فارم ءِ بہر ءَ نہ گند ئے گڑا دوئیں گچین کن ئے۔

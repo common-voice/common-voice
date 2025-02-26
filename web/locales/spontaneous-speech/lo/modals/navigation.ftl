@@ -6,3 +6,7 @@ respond = ຕອບສະໜອງ
 check = ກວດ
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = ການຖອດຂໍ້ຄວາມ
+loading = ກຳລັງໂຫລດ…
+login-signup = ເຂົ້າສູ່ລະບົບ / ລົງທະບຽນ
+login = ເຂົ້າສູ່ລະບົບ
+logout = ອອກຈາກລະບົບ
