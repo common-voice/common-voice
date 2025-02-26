@@ -96,25 +96,43 @@ answer-questions-coming-soon = Odgovori na pitanja <small>(uskoro stiže)</small
 review-transcriptions = Pregledaj transkripcije
 review-transcriptions-coming-soon = Pregledaj transkripcije <small>(uskoro stiže)</small>
 add-questions = Dodaj pitanja
+add-questions-coming-soon = Dodaj pitanja <small>(uskoro stiže)</small>
+transcribe-audio-coming-soon = Transkribiraj audio snimke <small>(uskoro stiže)</small>
+transcribe-audio = Transkribiraj audio snimke
+press-and-stories = Objave i priče
+community-and-languages = Zajednica i jezici
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerstva, objave i priče, zajednica i jezici
+partnerships-menu-item-tooltip = Postani partner
+press-and-stories-menu-item-tooltip = Posjeti naš blog ili piši o nama
+community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajednički glas
 
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
+press-and-stories-menu-item-aria-label = Pristupi objavama i pričama o Common Voiceu
+community-and-languages-menu-item-aria-label = Istraži zajednicu i jezike koje podržava Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tehnologija koja govori tvojim jezikom
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Zašto bi umjetna inteligencija trebala funkcionirati samo za nekoliko svjetskih jezika?</bold>
 hero-subtitle-2 = Naš jezik je naša priča, naša zajednica, naša kultura. Stvorimo skupove podataka koje želimo vidjeti u svijetu.
+# icon is an arrow that points downwards
+get-started = Započni <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice je besplatna platforma otvorenog koda za stvaranje podataka vođena od zajednice
 action-items-section-subtitle = Svatko može sačuvati, revitalizirati i unaprijediti svoj jezik dijeljenjem, stvaranjem i vođenjem tekstualnih i govornih skupova podataka.
 scripted-card-content = Čitaj rečenice naglas na svom jeziku i doprinesi najraznolikom govornom skupu podataka u svijetu.
+spontaneous-card-header = Spontani govor
 spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
 
 ## Community section
