@@ -132,16 +132,16 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } od jedne prikupljene rečenice
-        [few] { $uploadedSentences } od { $totalSentences } prikupljene rečenice
-       *[other] { $uploadedSentences } od { $totalSentences } prikupljenih rečenica
+        [one] { $uploadedSentences } od jedne rečenice sakupljena
+        [few] { $uploadedSentences } od { $totalSentences } rečenice sakupljene
+       *[other] { $uploadedSentences } od { $totalSentences } rečenica sakupljeno
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } od jedne prikupljene rečenice. <downloadLink>Ovdje</downloadLink> kliknite za preuzimanje odbijenih rečenica.
-        [few] { $uploadedSentences } od { $totalSentences } prikupljene rečenice. <downloadLink>Ovdje</downloadLink> kliknite za preuzimanje odbijenih rečenica.
-       *[other] { $uploadedSentences } od { $totalSentences } prikupljenih rečenica. <downloadLink>Ovdje</downloadLink> kliknite za preuzimanje odbijenih rečenica.
+        [one] { $uploadedSentences } od jedne rečenice sakupljena. Klikni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
+        [few] { $uploadedSentences } od { $totalSentences } rečenice sakupljene. Klikni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
+       *[other] { $uploadedSentences } od { $totalSentences } rečenica sakupljeno. Klikni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
     }
 small-batch-sentences-rule-1 = Slijedite smjernice iz odjeljka "Koje rečenice mogu dodati?"
 small-batch-sentences-rule-2 = Dodajte jednu rečenicu po retku

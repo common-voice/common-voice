@@ -4,8 +4,6 @@
 error = ত্ৰুটি
 action-click = ক্লিক কৰক
 action-tap = স্পৰ্শ কৰক
-# Label for language switcher
-interface-language = ইণ্টাৰফে’চৰ ভাষা:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = { $language } ভাষাৰ ডেটাছেটলৈ অৱদান আগবঢ়াই আছে
 # Label for button on contribution switcher

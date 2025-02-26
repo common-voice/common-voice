@@ -26,7 +26,7 @@ check-bubble-subtitle = Pārbaudiet vai audio ierakstā dzirdamais ir pierakstī
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Dati</mark>
 data-bubble-subtitle = Mēs laiku pa laikam publicējam savāktos datus
-contact-us = Sazināties ar mums
+contact-us = Sazināties
 contact-us-title = Vai vēlaties iesaistīties šajā projektā vai sadarboties ar mums?
 contact-us-email = E-pasts: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Vai jau esat mūsu Common Voice spontānās runas projekta beta testēšanas grupā?

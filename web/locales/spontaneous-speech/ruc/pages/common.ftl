@@ -4,8 +4,6 @@
 error = Nsobi
 action-click = Nnyiga
 action-tap = kwataku
-# Label for language switcher
-interface-language = Endimi ezikwesanisirya
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = okuwayo amawuuro agakwata okululimi
 # Label for button on contribution switcher

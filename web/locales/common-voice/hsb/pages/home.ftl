@@ -121,10 +121,13 @@ get-started = Prěnje kroki <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
+action-items-section-subtitle = Kóždy móže swoju rěč wobchować, zaso wožiwić a polěpšić, hdyž tekst a rěčenske datowe sadźby dźěli, wutworja a rjaduje.
 scripted-card-header = Napisane rěčenje
 scripted-card-content = Čitajće sady wótře w swojej rěči a přinošujće k najwšelakorišej zjawnej rěčnej datowej sadźbje w swěće.
 spontaneous-card-header = Spontane rěčenje
+spontaneous-card-content = Wotmołwće na namołwy, zo byšće datowe sadźby za organiske, wobchadnorěčne konteksty wutworił. To je perfektne za předewšěm ertne rěče.
 language-text-card-header = Rěčny tekst
+language-text-card-content = Wutworće abo dźělće zjawne namołwy, sady a tekst za přełoženje, małe rěčne modele a wjace.
 coming-soon = Bórze k dispoziciji
 add-text = Tekst přidać
 
@@ -136,15 +139,19 @@ join-discord-community = Přidružće so zhromadźenstwu Discord
 join-discord-community-action = Přidružće so nam na Discord
 join-discord-community-content = Wobdźělće so na diskusijach rěčneho zhromadźenstwa, stajće prašenja a zhońće wo přichodnych zarjadowanjach a rozmołwach.
 find-us-on-matrix = Namakajće nas na Matrix
+find-us-on-matrix-content = Matrix je wotewrjeny, lochki protokol za decentralizowanu komunikaciju we woprawdźitym času a wot Mozilla preferowana wotewrjena diskusijna platforma.
 # label for button
 find-us-on-matrix-action = Namakajće nas na Matrix
 ask-mozilla-share = Prosće Mozilla, zo byšće waše zarjadowanja dźělił
+ask-mozilla-share-content = Maće zańdźene abo přichodne zarjadowanje? Dźělće jo z nami a my budźemy jo našemu zhromadźenstwu připowědźić abo blog wo tym pisać.
 # label for button
 ask-mozilla-share-action = Dźělće swoje zarjadowanje
 download-contribution-certificate = Sćehńće swój certifikat sobuskutkowanja
+download-contribution-certificate-content = Sćehńće certifikat za swoje zarjadowanja abo sebje, jeli sće ke Common Voice přinošował – to njeby bjez was móžne było!
 # label for button
 download-contribution-certificate-action = Wobstarajće sej swój certifikat
 contribute-github = Na Github přinošować
+contribute-github-content = Tutón projekt njeby bjez ludźi kaž wy móžny był. 🎉 Je wjele móžnosćow, kak móžeće w Common Voice sobu činić – njetrjebaće programować móc, zo byšće sobu činił!
 # label for button
 contribute-github-action = Na Github přinošować
 
@@ -176,6 +183,12 @@ press-and-stories-link = Nowiny a stawiznički
 ## Partner section
 
 partner-section-title = Stańće so z našim partnerom
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologijowe předewzaća</bold> – inwestujće do wutworjenja wotewrjenych datowych sadźbow za florěrowacy wjacerěčny ekosystem KI
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Ciwilna towaršnosć a slědźerjo</bold> – wutworće, hospodujće a dźělće skutkowne datowe sadźby zadarmo
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> – sponserujće wutworjenje datowych sadźbow, zo byšće lokalnu inowaciju a wuwiće spěchował
 # icon is an arrow that points to the right
 get-in-touch-button = Skontaktować <icon></icon>
 # Partners section

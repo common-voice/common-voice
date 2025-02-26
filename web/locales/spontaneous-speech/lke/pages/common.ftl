@@ -4,8 +4,6 @@
 error = Ensoobi
 action-click = Nyiga
 action-tap = Konaku
-# Label for language switcher
-interface-language = olutumu olulikungulu
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Okutolera ku database ya
 # Label for button on contribution switcher

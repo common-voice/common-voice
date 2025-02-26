@@ -19,7 +19,7 @@ request-language-google-recaptcha-required = reCAPTCHA je trěbny, jeli chceće 
 request-language-google-recaptcha-error = Něšto je so z reCAPTCHA nimokuliło. Prošu spytajće hišće raz.
 # Success page
 request-language-success-heading = Wulki dźak! Sće próstwu wo nowu rěč pósłał
-request-language-success-list-1 = Wy dyrbjał mejlku wot managera našeho zhromadźenstwa, kotryž kročele wujasnja, kak móžeće Common Voice swoju rěč přidać.
+request-language-success-list-1 = Wy dyrbjał mejlku wot managera našeho zhromadźenstwa dóstać, kotraž kročele wujasnja, kak móžeće Common Voice swoju rěč přidać.
 request-language-success-list-2 =
     Naš manager zhromadźenstwa budźe so z wami do zwiska stajeć, zo by
     wosebitu podpěru poskićił a wam zdźělił, hač je

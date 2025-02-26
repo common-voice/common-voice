@@ -4,10 +4,14 @@
 
 ## Languages
 
+aa = Afarski
+aat = Arvanitski
 ab = Abhaški
+abb = Bankon
 ace = Acehski
 ady = Adigejski
 af = Afrikanski
+aln = Gegijski albanski
 am = Amharski
 an = Aragonski
 ar = Arapski

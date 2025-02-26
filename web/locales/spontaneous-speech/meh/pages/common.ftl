@@ -4,8 +4,6 @@
 error = Ntìvɨ́
 action-click = Klik
 action-tap = Kuàxin
-# Label for language switcher
-interface-language = Tù'un nuu ya'á
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Tyinei nú nuu kava va'a tutu jiè'è { $language }
 # Label for button on contribution switcher

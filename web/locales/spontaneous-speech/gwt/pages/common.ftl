@@ -4,8 +4,6 @@
 error = خرابی
 action-click = ٹک
 action-tap = څھدَؤ
-# Label for language switcher
-interface-language = انٹر فیسَنی باتی
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = { $language } نہ ڈېٹا سیٹہ تعاون کېرِک
 # Label for button on contribution switcher

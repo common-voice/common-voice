@@ -4,8 +4,6 @@
 error = Faddina
 action-click = Incarca
 action-tap = Toca
-# Label for language switcher
-interface-language = Limba de s’interfache:
 # Label for button on contribution switcher
 change = Modifica
 coming-soon = Àteras limbas luego

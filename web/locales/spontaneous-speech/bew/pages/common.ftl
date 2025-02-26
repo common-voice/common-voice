@@ -4,8 +4,6 @@
 error = Kesaléan/kesalaan
 action-click = Milih/pencet
 action-tap = Tab baru
-# Label for language switcher
-interface-language = Bahasé tampilan
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Ngikut kontribusi buat dataset dari  { $language }
 # Label for button on contribution switcher

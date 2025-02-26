@@ -110,7 +110,7 @@ community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīt
 
 ## Hero section
 
-hero-title = Tehnoloģija, kas runā jūsu valodā
+hero-title = Tehnoloģija, kas runā mūsu valodā
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
 hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
@@ -189,6 +189,6 @@ partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētni
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
 # icon is an arrow that points to the right
-get-in-touch-button = Sazinieties ar <icon></icon>
+get-in-touch-button = Sazināties <icon></icon>
 # Partners section
 our-partners-include = Mūsu partneru vidū ir...

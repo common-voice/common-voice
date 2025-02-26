@@ -4,8 +4,6 @@
 error = Khata
 action-click = Nakas
 action-tap = Lemes
-# Label for language switcher
-interface-language = Rutan al beinu
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Awunun fi koum ta malumaat ta
 # Label for button on contribution switcher

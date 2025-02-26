@@ -4,8 +4,6 @@
 error = Kļūda
 action-click = Klikšķiniet
 action-tap = Pieskarieties
-# Label for language switcher
-interface-language = Saskarnes valoda:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Ieguldījums { $language } datu kopā
 # Label for button on contribution switcher
