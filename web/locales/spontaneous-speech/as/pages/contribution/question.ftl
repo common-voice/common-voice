@@ -1,6 +1,7 @@
 ## Question Page
 
 question-page-instruction = মানুহে উত্তৰ দিব পৰাকৈ { $currentLocale } ভাষাত এটা প্ৰশ্ন <icon></icon> যোগ কৰক
+add-question-textarea-placeholder = যেনে— “আপুনি কি কামত প্ৰযুক্তি ব্যৱহাৰ কৰিব পৰাটো বিচাৰে?”
 add-questions-terms-checkbox = * মই নিশ্চিত কৰিছোঁ যে এই প্ৰশ্নটো <publicDomainLink>ৰাজহুৱা ড’মেইন</publicDomainLink>ৰ আৰু মোৰ লগত এইটো আপল’ড কৰিবলৈ অনুমতি আছে।
 question-database-language = ডেটাবে’ছ: { $databaseLanguage }
 add-question-success-toast-message =
