@@ -94,6 +94,7 @@ answer-questions-coming-soon = سُوالے جُواب دِیا <small> (جِن�
 review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 review-transcriptions-coming-soon = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+add-questions-coming-soon = سوال ٹل تِھیا <small> (کمنگ سُون) </small>
 transcribe-audio-coming-soon = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے

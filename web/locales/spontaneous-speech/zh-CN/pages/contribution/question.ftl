@@ -16,5 +16,5 @@ do-section-guideline-2 = 选择简单的问题，确保来自各种文化和背�
 do-section-guideline-3 = 确保只用几句话就能完成回答。
 do-not-section-title = 请不要
 do-not-section-guideline-1 = 索取个人身份信息（例如姓名和财务信息）
-do-not-section-guideline-2 = 表达或引导偏见及冒犯性观点
+do-not-section-guideline-2 = 发表或引导发表偏见及冒犯性观点
 do-not-section-guideline-3 = 询问敏感信息
