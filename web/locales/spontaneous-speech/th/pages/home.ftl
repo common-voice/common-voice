@@ -16,3 +16,23 @@ prompt-bubble-title = <mark>ข้อความคำสั่ง</mark>
 prompt-bubble-subtitle = เราจะแสดงข้อความคำสั่งหรือคำถามให้คุณดู
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>ตอบกลับ</mark>
+respond-bubble-subtitle = ให้คุณตอบกลับข้อความหรือคำถามนั้นอย่างเป็นธรรมชาติที่สุดเท่าที่ทำได้
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ถอดเสียง</mark>
+transcribe-bubble-subtitle = ให้คุณเขียนลงไปว่าคุณได้ยินอะไรบ้างในคลิปเสียง
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>ตรวจสอบ</mark>
+check-bubble-subtitle = ให้คุณตรวจสอบว่าการถอดเสียงตรงกับเสียงที่พูดจริงหรือไม่
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ข้อมูล</mark>
+data-bubble-subtitle = เราจะเผยแพร่ชุดข้อมูลเป็นระยะๆ
+contact-us = ติดต่อเรา
+contact-us-title = สนใจที่จะมีส่วนร่วมในโครงการนี้ หรือร่วมเป็นพันธมิตรกับเราใช่ไหม?
+contact-us-email = อีเมล: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = คุณอยู่ในกลุ่มทดสอบช่วงเบต้าสำหรับโครงการเสียงพูดธรรมชาติของ Common Voice แล้วหรือยัง?
+signup-terms = เมื่อคลิก “ส่งลิงก์ไปยังอีเมลของฉัน” ถือว่าคุณยอมรับ<termsLink>เงื่อนไขการให้บริการ</termsLink>และ<privacyLink>นโยบายความเป็นส่วนตัว</privacyLink>ของเรา และ Mozilla อาจส่งอีเมลถึงคุณโดยมีข้อมูลเกี่ยวกับวิธีการเข้าร่วมการทดสอบช่วงเบต้าสำหรับโครงการเสียงพูดธรรมชาติของ Common Voice
+signup-input-placeholder = ป้อนอีเมลของคุณ
+signup-button-value = ส่งลิงก์ไปยังอีเมลของฉัน
+footer-text-privacy = <privacyLink>ความเป็นส่วนตัว</privacyLink>
+footer-text-terms = <termsLink>เงื่อนไข</termsLink>
+footer-text-cookies = <cookiesLink>คุกกี้<cookiesLink>
