@@ -160,6 +160,7 @@ download-contribution-certificate-content = Preuzmi potvrdu za svoje događaje i
 # label for button
 download-contribution-certificate-action = Nabavi tvoju potvrdu
 contribute-github = Doprinesi na GitHub-u
+contribute-github-content = Ovaj projekt ne bi bio moguć bez ljudi poput tebe. 🎉 Postoji mnogo načina da se pridružiš Common Voiceu – za doprinošenje ne moraš znati kodirati!
 # label for button
 contribute-github-action = Doprinesi na GitHub-u
 

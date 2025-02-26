@@ -83,6 +83,7 @@ answer-questions-coming-soon = Ответить на вопросы <small>(Ск
 review-transcriptions = Проверяйте транскрипции <small>(Скоро)</small>
 review-transcriptions-coming-soon = Проверить транскрипции <small>(Скоро)</small>
 add-questions = Добавьте вопросы <small>(Скоро)</small>
+add-questions-coming-soon = Добавьте вопросы <small>(Скоро)</small>
 transcribe-audio-coming-soon = Транскрибировать аудио <small>(Скоро)</small>
 transcribe-audio = Транскрибируйте аудио <small>(Скоро)</small>
 press-and-stories = Пресса и истории
