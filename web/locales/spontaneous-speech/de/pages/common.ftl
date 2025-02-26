@@ -4,6 +4,8 @@
 error = Fehler
 action-click = Klicken
 action-tap = Antippen
+# Label for language switcher
+platform-language = Sprache der Plattform:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Mitarbeit am Datensatz für { $language }
 # Label for button on contribution switcher
@@ -27,6 +29,7 @@ request-new-language = Neue Sprache vorschlagen
 respond-to-prompt = Auf Frage antworten
 transcribe-audio = Audio transkribieren
 check-transcriptions = Transkripte überprüfen
+question = Frage
 
 ## Not Found Page
 
