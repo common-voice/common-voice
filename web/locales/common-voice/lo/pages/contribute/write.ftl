@@ -109,6 +109,9 @@ rate-limit-toast-message-seconds = ເກີນຂີດຄ່າທີ່ຈຳ
 rate-limit-message-minutes = ທ່ານໄດ້ຮອດຂີດຄ່າທີຈຳກັດການສົ່ງຂໍ້ມູນສຳລັບໜ້ານີ້ແລ້ວ. ກະລຸນາລໍຖ້າ { $retryLimit } ນາທີກ່ອນທີ່ຈະສົ່ງປະໂຫຍກອື່ນ. ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ຄວາມ​ອົດ​ທົນ​ຂອງ​ທ່ານ​!
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds = ທ່ານໄດ້ຮອດຂີດຄ່າທີ່ຈຳກັດການສົ່ງຂໍ້ມູນສຳລັບໜ້ານີ້ແລ້ວ. ກະລຸນາລໍຖ້າ { $retryLimit } ວິນາທີກ່ອນທີ່ຈະສົ່ງປະໂຫຍກອື່ນ. ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ຄວາມ​ອົດ​ທົນ​ຂອງ​ທ່ານ​!
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success = ລວບລວມປະໂຫຍກ { $uploadedSentences } ຂອງ { $totalSentences } ແລ້ວ
+small-batch-sentences-rule-1 = ປະຕິບັດຕາມຄໍາແນະນໍາຈາກ "ຂ້ອຍສາມາດເພີ່ມປະໂຫຍກໃດໄດ້ແດ່?"
 small-batch-sentences-rule-4 = ເພີ່ມເຖິງ 1,000 ປະໂຫຍກ
 # menu item
 add-sentences = ເພີ່ມປະໂຫຍກ

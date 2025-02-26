@@ -34,3 +34,4 @@ request-language-success-list-3 =
 request-language-error =
     ພວກເຮົາອາດຈະບໍ່ໄດ້ຮັບການຮ້ອງຂໍນັ້ນ. ກະລຸນາສົ່ງອີເມວຫາພວກເຮົາໂດຍກົງ
     ໃນ <emailLink>{ $email }</emailLink> ແລະພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານ!
+request-for-scripted-speech-toggle = ຮ້ອງ​ຂໍ​ສໍາ​ລັບ​ການ​ປາກ​ເວົ້າ Scripted​

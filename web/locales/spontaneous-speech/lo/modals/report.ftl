@@ -1,5 +1,6 @@
 ## Report Modal
 
+report-modal-title = ສົ່ງບົດລາຍງານ
 report-other-comment =
     .placeholder = ຄວາມຄິດເຫັນ
 # Label for textarea in report modal
