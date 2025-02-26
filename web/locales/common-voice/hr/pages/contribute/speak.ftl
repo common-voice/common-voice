@@ -63,15 +63,16 @@ img-alt-success-checkmark = kvačica uspjeha
 # menu item
 read-sentences = Čitaj rečenice
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = Pročitajte rečenice <small>(uskoro stiže)</small>
+read-sentences-coming-soon = Čitaj rečenice <small>(uskoro stiže)</small>
 
 ## MENU ITEM TOOLTIPS
 
-read-sentences-menu-item-tooltip = Snimite se kako čitate rečenice na svom jeziku
-answer-questions-menu-item-tooltip = Snimite se kako odgovarate na pitanja i upite na svom jeziku
+speak-contribute-menu-tooltip = Čitaj rečenice, odgovori na pitanja
+read-sentences-menu-item-tooltip = Snimi se kako čitaš rečenice na svom jeziku
+answer-questions-menu-item-tooltip = Snimi se kako odgovaraš na pitanja i upite na svom jeziku
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Izbornik opcija za govor
-read-sentences-menu-item-aria-label = Pročitajte rečenice koje je poslala zajednica na različitim jezicima
-answer-questions-menu-item-aria-label = Pošaljite novo pitanje koje će zajednica pročitati i na koje će odgovoriti
+read-sentences-menu-item-aria-label = Čitaj rečenice koje je poslala zajednica na raznim jezicima
+answer-questions-menu-item-aria-label = Pošalji novo pitanje koje će zajednica pročitati i na koje će odgovoriti
