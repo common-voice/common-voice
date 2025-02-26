@@ -266,7 +266,9 @@ sv-SE = Шведыбзэ
 sva = Сваныбзэ
 sw = Свахили
 syr = Сирийыбзэ
+szy = Сакизая
 ta = Тамилыбзэ
+tay = Атаял
 te = Телугу
 teg = Теке
 tg = Таджикыбзэ
@@ -344,10 +346,15 @@ link-copied = Link Copied
 back-top = Ищхьэм дэкӏуей
 logout = Икӏын
 donate = Тыгъэ щӀын
+stayintouch = Дэ Mozilla-мкӀэ бзэщӀэхэмкӀэ зэпыщӀэныгъэ щыдощӀэ. Lэ къытхуейр фэрикъуа цӀыкӀу псори фӀыуэ зэрыщыӀэну, абы хуэдэу щыщӀагъэм щӀигъуафӀэ къытщӀэхъуну.
 privacy-info = Псалъэ удот, уи информациер фIыкIэ зетхьэну. Нэхъыбэу <privacyLink>"Щэху Тхыгъэм"</privacyLink> фыщеджэфынущ.
 return-to-cv = Common Voice-м къэгъэзэж
 email-input =
     .label = э-пощт
+loading = Къохьэ…
+email-opt-in-info = Сэ си гугъэщ си мурад зэриӀэхэмкӀэ хъыбар егъэщӀэну, си гугъэщ Common Voice къызэрыщыӀамкӀи хъыбарыр къысхуэхъуэну.
+email-opt-in-info-title = Common Voice э-пощтым листым хыхьэ.
+email-opt-in-info-sub-with-challenge = Э-пощт къегъэх, гугъухь, Iуэху гукъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуауэ.
 
 ## Donate banner
 
