@@ -4,8 +4,6 @@
 error = ჩილათა
 action-click = ქიგუკაკეთ
 action-tap = ქიგუნჭირით
-# Label for language switcher
-interface-language = ინტერფეისიშ ნინა:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = წილიშ მიშაღალა მუნაჩემეფიშ ბაზაშა { $language } - შოთ
 # Label for button on contribution switcher

@@ -4,8 +4,6 @@
 error = Erro
 action-click = Prema
 action-tap = Toque
-# Label for language switcher
-interface-language = Idioma da interface:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Está contribuíndo ao conxunto de datos do { $language }
 # Label for button on contribution switcher

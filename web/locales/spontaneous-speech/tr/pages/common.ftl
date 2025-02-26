@@ -4,8 +4,6 @@
 error = Hata
 action-click = tıklayın
 action-tap = tıklayın
-# Label for language switcher
-interface-language = Arayüz dili:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = { $language } dilinin veri kümesine katkı yapılıyor
 # Label for button on contribution switcher

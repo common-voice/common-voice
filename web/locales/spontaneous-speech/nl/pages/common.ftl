@@ -4,8 +4,6 @@
 error = Fout
 action-click = Klikken
 action-tap = Tikken
-# Label for language switcher
-interface-language = Interfacetaal:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Bijdragen aan gegevensset voor { $language }
 # Label for button on contribution switcher

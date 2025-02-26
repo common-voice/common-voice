@@ -4,8 +4,6 @@
 error = Errore
 action-click = Fai clic
 action-tap = Tocca
-# Label for language switcher
-interface-language = Lingua dell’interfaccia
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Collaborazione al dataset per { $language }
 # Label for button on contribution switcher

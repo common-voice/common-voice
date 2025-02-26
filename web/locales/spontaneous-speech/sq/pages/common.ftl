@@ -4,8 +4,6 @@
 error = Gabim
 action-click = Klikoni
 action-tap = Prekeni
-# Label for language switcher
-interface-language = Gjuhë ndërfaqeje:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Dhënie kontributi te grup të dhënash për { $language }
 # Label for button on contribution switcher

@@ -4,8 +4,6 @@
 error = Fazi
 action-click = Klikañ
 action-tap = Pouezañ
-# Label for language switcher
-interface-language = Yezh an etrefas :
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = O kemer perzh er strobad roadennoù evit { $language }
 # Label for button on contribution switcher

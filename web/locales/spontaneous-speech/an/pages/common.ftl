@@ -4,8 +4,6 @@
 error = Error
 action-click = Fer clic
 action-tap = Toca
-# Label for language switcher
-interface-language = Idioma d'inferfaz:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Contribuyendo a la base de datos de l'idioma { $language }
 # Label for button on contribution switcher

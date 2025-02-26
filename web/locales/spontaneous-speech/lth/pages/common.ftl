@@ -4,8 +4,6 @@
 error = Gin n'öbal
 action-click = Dïï
 action-tap = Dwöng
-# Label for language switcher
-interface-language = Lëb na rïbö jö
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Mïö thama ï dataset
 # Label for button on contribution switcher

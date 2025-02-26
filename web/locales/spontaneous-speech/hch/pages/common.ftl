@@ -4,8 +4,6 @@
 error = Axa katiniuyiní
 action-click = Clic ke neupɨna
 action-tap = Ke neyeyeʼí
-# Label for language switcher
-interface-language = Ke mɨʼane niukiyari mayemieni:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Mɨtikaʼɨniriketsie teteuʼutɨwatɨ { $language }
 # Label for button on contribution switcher

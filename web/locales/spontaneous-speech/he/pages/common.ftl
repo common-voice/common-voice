@@ -4,8 +4,6 @@
 error = שגיאה
 action-click = לחיצה
 action-tap = לחיצה
-# Label for language switcher
-interface-language = שפת ממשק:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = תרומה למערך הנתונים עבור { $language }
 # Label for button on contribution switcher

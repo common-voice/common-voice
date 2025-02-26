@@ -4,8 +4,6 @@
 error = Y'à gá kjàkjo
 action-click = Síb'i
 action-tap = Síb'i ngék'o rá só'o rí 'ópjü
-# Label for language switcher
-interface-language = Jñatjo
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Nuts'k'é gí pë́pji yó jângo jñatjo { $language }
 # Label for button on contribution switcher

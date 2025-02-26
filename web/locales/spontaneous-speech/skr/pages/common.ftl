@@ -4,8 +4,6 @@
 error = نقص
 action-click = کلک
 action-tap = انگل لاؤ
-# Label for language switcher
-interface-language = انٹرفیس زبان:
 # Label for button on contribution switcher
 change = وٹاؤ
 audioplayer-header = سݨو

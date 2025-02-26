@@ -4,8 +4,6 @@
 error = غلطی
 action-click = ٹسار
 action-tap = تراپ
-# Label for language switcher
-interface-language = مکھامکھ جیب
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = ڈیٹاسیٹ سی امداد
 # Label for button on contribution switcher

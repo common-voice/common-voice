@@ -2,7 +2,7 @@
 
 question-page-instruction = Add a question <icon></icon> in { $currentLocale } for people to answer
 add-question-textarea-placeholder = e.g., “What do you wish you could use technology for?”
-add-questions-terms-checkbox = I confirm that this question is public domain and I have permission to upload it.
+add-questions-terms-checkbox = * I confirm that this question is <publicDomainLink>public domain</publicDomainLink> and I have permission to upload it.
 question-database-language = Database: { $databaseLanguage }
 add-question-success-toast-message = 
     {$uploadedQuestions} {$totalQuestions -> 
