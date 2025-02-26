@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = Piši
-write-instruction = Dodaj <icon></icon> rečenicu u javnom vlasništvu
+write-instruction = Dodaj <icon></icon> rečenicu koja nije zaštićena autorskim pravom
 write-page-subtitle = Ovdje dostavljene rečenice će se dodati javno dostupnom skupu podataka pod licencom cc-0.
 sentence =
     .label = Rečenica
@@ -10,7 +10,7 @@ small-batch-sentence-input-placeholder = Ovdje upiši rečenice koje nisu zašti
 citation-input-placeholder = Navedi izvor tvoje rečenice (obavezno)
 citation =
     .label = Citat
-sc-write-submit-confirm = Potvrđujem da je ova rečenica u <wikipediaLink>Javnom vlasništvu</wikipediaLink> i da je smijem prenijeti.
+sc-write-submit-confirm = Potvrđujem da je ova rečenica u <wikipediaLink>javnom vlasništvu</wikipediaLink> i da je smijem prenijeti.
 sc-review-write-title = Koje rečenice mogu dodati?
 sc-review-small-batch-title = Kako dodati više rečenica
 new-sentence-rule-1 = <noCopyright>Bez autorskih prava</noCopyright> (<cc0>cc-0</cc0>)
