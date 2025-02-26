@@ -44,7 +44,7 @@ first-cta-header-text = Hvala ti za tvoje govorne isječke!
 first-cta-subtitle-text = Ako nam kažeš nešto o sebi, pomoći ćeš programerima da izgrade inkluzivniju tehnologiju
 why-donate = Zašto pitate?
 why-donate-explanation-1 = Nije obavezno dati ove podatke - dajte ih samo ako se slažete s time. Kada objavimo skup podataka, pseudo-anonimiziramo sve osobne podatke i pobrinemo se da podaci poput Vašeg imena ili adrese e-pošte nisu povezani s demografskim podacima poput dobi ili spola.
-why-donate-explanation-2 = Da bi tehnologija bila svima od koristi, podaci pomažu razvijateljima napraviti tehnologiju koja treba biti odraz različitosti među ljudima. Na primjer, ako ne uključimo govornike s određenim naglaskom, tada tehnologija neće dobro raditi za ljude s tim naglaskom. <learnMore>Saznajte više zašto su meta-podaci važni.</learnMore>
+why-donate-explanation-2 = Da bi tehnologija bila svima od koristi, podaci pomažu razvijateljima napraviti tehnologiju koja treba biti odraz različitosti među ljudima. Na primjer, ako ne uključimo govornike s određenim naglaskom, tada tehnologija neće dobro raditi za ljude s tim naglaskom. <learnMore>Saznaj više zašto su metapodaci važni.</learnMore>
 add-information-button = Dodaj informacije
 continue-speaking-button = Ne hvala, nastavi govoriti
 create-profile-text = Želiš spremiti svoje podatke? <createProfile>Stvori profil</createProfile>
@@ -61,13 +61,12 @@ create-profile-button = Stvori profil
 # IMAGE TAGS
 img-alt-success-checkmark = kvačica uspjeha
 # menu item
-read-sentences = Pročitajte rečenice
+read-sentences = Čitaj rečenice
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = Pročitajte rečenice <small>(uskoro stiže)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Pročitajte rečenice i odgovorite na pitanja
 read-sentences-menu-item-tooltip = Snimite se kako čitate rečenice na svom jeziku
 answer-questions-menu-item-tooltip = Snimite se kako odgovarate na pitanja i upite na svom jeziku
 

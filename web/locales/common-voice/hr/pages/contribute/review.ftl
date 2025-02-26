@@ -6,7 +6,7 @@ sc-review-loading = Učitavanje rečenica …
 sc-review-select-language = Odaberi jezik za pregled rečenica.
 sc-review-no-sentences = Nema rečenica za pregled. <addLink>Dodaj još rečenica sada!</addLink>
 sc-review-form-prompt =
-    .message = Pregledane rečenice nisu poslane. Jeste li sigurni?
+    .message = Pregledane rečenice nisu poslane. Jesi li siguran/na?
 sc-review-form-usage = Prijeđi prstom udesno za potvrđivanje rečenice. Prijeđite prstom ulijevo za odbijanje. Prijeđi prstom prema gore za preskakanje. <strong>Nemoj zaboraviti poslati tvoju recenziju!</strong
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -54,10 +54,10 @@ report-sc-different-language = Drugi jezik
 report-sc-different-language-detail = Napisana je drugačijim jezikom od onog koji pregledavam.
 sentences-fetch-error = Greška prilikom dohvaćanja rečenica
 review-error = Greška prilikom pregleda ove rečenice
-review-error-rate-limit-exceeded = Brzate. Pregledajte rečenice i uvjerite se u njihovu točnost.
+review-error-rate-limit-exceeded = Brzaš. Pregledaj rečenice i uvjeri se u njihovu točnost.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Uvodimo neke važne promjene
 sc-redirect-page-subtitle-1 = Sakupljač rečenica prelazi na temeljnu platformu Common Voice. Sada možeš <writeURL>napisati</writeURL> rečenicu ili <reviewURL>pregledati</reviewURL> podneske jedne rečenice na Common Voiceu.
 sc-redirect-page-subtitle-2 = Pitaj nas na platformi <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ili putem <emailLink>e-pošte</emailLink>.
 # menu item
-review-sentences = Pregledajte rečenice
+review-sentences = Pregledaj rečenice
