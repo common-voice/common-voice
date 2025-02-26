@@ -13,9 +13,18 @@ add-question-success-toast-message =
     }
 add-question-error-message = Nahraće njeje so poradźiło, spytajće prošu hišće raz.
 add-question-too-many-questions-error = 500 prašenjow je so překročiło. Redukujće ličbu prašenjow a spytajće hišće raz.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } z { $totalQuestions } prašenja zhromadźene. Čitajće naše <guidelinesLink>směrnicy</guidelinesLink>, zo byšće wjace wo tym zhonił, kak móžeće prašenja přidać
+        [two] { $uploadedQuestions } z { $totalQuestions } prašenjow zhromadźenej. Čitajće naše <guidelinesLink>směrnicy</guidelinesLink>, zo byšće wjace wo tym zhonił, kak móžeće prašenja přidać
+        [few] { $uploadedQuestions } z { $totalQuestions } prašenjow zhromadźene. Čitajće naše <guidelinesLink>směrnicy</guidelinesLink>, zo byšće wjace wo tym zhonił, kak móžeće prašenja přidać
+       *[other] { $uploadedQuestions } z { $totalQuestions } prašenjow zhromadźenych. Čitajće naše <guidelinesLink>směrnicy</guidelinesLink>, zo byšće wjace wo tym zhonił, kak móžeće prašenja přidać
+    }
 # Guidelines
 add-question-guidelines-title = Kotre prašenja móžu přidać?
 do-section-title = čińće
 do-section-guideline-1 = Korektny prawopis a korektnu gramatiku wužiwać
+do-section-guideline-2 = Wubjerće lochke prašenja, kotrež dadźa so lochko za kóždeho rozumić, njedźiwajo na kulturu abo kontekst
+do-section-guideline-3 = Zawěsćće, zo da so z jenož mało sadami na nje wotmołwić
 do-not-section-title = nječińće
 do-not-section-guideline-3 = Sensibelne prašenja stajić

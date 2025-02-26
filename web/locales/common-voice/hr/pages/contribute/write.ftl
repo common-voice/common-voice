@@ -139,31 +139,31 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } od jedne rečenice sakupljena. Klikni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
-        [few] { $uploadedSentences } od { $totalSentences } rečenice sakupljene. Klikni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
-       *[other] { $uploadedSentences } od { $totalSentences } rečenica sakupljeno. Klikni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
+        [one] { $uploadedSentences } od jedne rečenice sakupljena. Klinkni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
+        [few] { $uploadedSentences } od { $totalSentences } rečenice sakupljene. Klinkni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
+       *[other] { $uploadedSentences } od { $totalSentences } rečenica sakupljeno. Klinkni <downloadLink>ovdje</downloadLink> za preuzimanje odbijenih rečenica.
     }
 small-batch-sentences-rule-1 = Slijedite smjernice iz odjeljka "Koje rečenice mogu dodati?"
-small-batch-sentences-rule-2 = Dodajte jednu rečenicu po retku
+small-batch-sentences-rule-2 = Dodaj jednu rečenicu po retku
 small-batch-sentences-rule-3 = Razdvojite rečenice u jedan redak tako da jednom pritisnete "Enter" ili "Return"
 small-batch-sentences-rule-4 = Dodajte do 1.000 rečenica
 small-batch-sentences-rule-5 = Sve rečenice moraju biti u istoj domeni
 small-batch-sentences-rule-6 = Sve rečenice moraju imati isti citat
 # menu item
-add-sentences = Dodajte rečenice
+add-sentences = Dodaj rečenice
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = Dodajte i provjerite rečenice, dodajte pitanja, transkribirajte zvučni zapis
-add-sentences-menu-item-tooltip = Dodajte rečenice na svojem jeziku
-review-sentences-menu-item-tooltip = Provjerite rečenice na svojem jeziku
-add-questions-menu-item-tooltip = Dodajte pitanja na svom jeziku
-transcribe-audio-menu-item-tooltip = Transkribirajte zvučne snimke na svojem jeziku
+write-contribute-menu-tooltip = Dodaj i provjeri rečenice, dodaj pitanja, transkribiraj zvučni zapis
+add-sentences-menu-item-tooltip = Dodaj rečenice na svojem jeziku
+review-sentences-menu-item-tooltip = Provjeri rečenice na svojem jeziku
+add-questions-menu-item-tooltip = Dodaj pitanja na svom jeziku
+transcribe-audio-menu-item-tooltip = Transkribiraj zvučne snimke na svojem jeziku
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Izbornik opcija za pisanje
-add-sentences-menu-item-aria-label = Dodajte nove rečenice koje će pročitati zajednica
-review-sentences-menu-item-aria-label = Provjerite postojeće rečenice koje je poslala zajednica
-add-questions-menu-item-aria-label = Pošaljite nova pitanja koja će pročitati i na koja će odgovoriti zajednica
-transcribe-audio-menu-item-aria-label = Transkribirajte zvučne snimke u tekst
+add-sentences-menu-item-aria-label = Dodaj nove rečenice koje će pročitati zajednica
+review-sentences-menu-item-aria-label = Provjeri postojeće rečenice koje je poslala zajednica
+add-questions-menu-item-aria-label = Pošalji nova pitanja koja će pročitati i na koja će odgovoriti zajednica
+transcribe-audio-menu-item-aria-label = Transkribiraj zvučne snimke u tekst

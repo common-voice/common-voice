@@ -13,9 +13,9 @@ listen-abort-title = Završiti provjeru isječaka?
 listen-abort-cancel = Nastavi provjeravati
 listen-abort-confirm = Završi provjeru
 # Menu item
-validate-readings = Potvrdi izgovore
+validate-readings = Potvrdi čitanja
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Potvrdi izgovore <small>(uskoro stiže)</small>
+validate-readings-coming-soon = Potvrdi čitanja <small>(uskoro stiže)</small>
 
 ## MENU ITEM TOOLTIPS
 
