@@ -4,6 +4,8 @@
 error = Chyba
 action-click = Kliknite
 action-tap = Ťuknite
+# Label for language switcher
+platform-language = Jazyk platformy:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Prispievanie do kolekcie údajov pre jazyk { $language }
 # Label for button on contribution switcher
@@ -27,6 +29,7 @@ request-new-language = Požiadať o nový jazyk
 respond-to-prompt = Odpovedať na výzvu
 transcribe-audio = Prepis zvuku
 check-transcriptions = Skontrolujte prepisy
+question = Otázka
 
 ## Not Found Page
 
