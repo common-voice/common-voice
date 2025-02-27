@@ -25,8 +25,18 @@ export const GetSentencesForReviewQueryHandler =
             findSentencesForReview({
               ...query,
               userClientVariant: userClientVariant,
+              reviewSentencesWithoutVariant: false,
             })
           ),
+          TO.chain(sentences => {
+            return sentences.length > 0
+              ? TO.of(sentences)
+              : findSentencesForReview({
+                ...query,
+                userClientVariant: O.none,
+                reviewSentencesWithoutVariant: true,
+              })
+          }),
           TO.map((sentences): UnvalidatedSentenceDto[] => {
             return sentences.map(sentence => {
               const variantTag = pipe(

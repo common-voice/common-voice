@@ -37,11 +37,8 @@ export type FindSentencesForReviewParams = {
   localeId: number
   clientId: string
   userClientVariant: O.Option<UserClientVariant>
+  reviewSentencesWithoutVariant: boolean
 }
-
-export type FindSentencesForReview = (
-  params: FindSentencesForReviewParams
-) => TO.TaskOption<UnvalidatedSentence[]>
 
 const insertSentenceTransaction = async (
   db: Mysql,
@@ -284,12 +281,17 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     variantTag: O.fromNullable(row.variant_token),
   }))
 
+export type FindSentencesForReview = (
+  params: FindSentencesForReviewParams
+) => TO.TaskOption<UnvalidatedSentence[]>
+
 const findSentencesForReview =
   (db: Mysql) =>
   (params: {
     localeId: number
     clientId: string
     userClientVariant: O.Option<UserClientVariant>
+    reviewSentencesWithoutVariant: boolean
   }): TO.TaskOption<UnvalidatedSentence[]> => {
     const userVariant: UserClientVariant | null = pipe(
       params.userClientVariant,
@@ -298,6 +300,11 @@ const findSentencesForReview =
         variant => variant
       )
     )
+    const variantCondition = params.reviewSentencesWithoutVariant
+      ? 'AND variants.id IS NULL'
+      : userVariant?.isPreferredOption
+      ? `AND variants.id = ${userVariant.variant.id}`
+      : ''
 
     return pipe(
       TO.tryCatch(() =>
@@ -318,11 +325,7 @@ const findSentencesForReview =
           WHERE
             sentences.is_validated = FALSE
             AND sentences.locale_id = ?
-            ${
-              userVariant?.isPreferredOption
-                ? `AND variants.id = ${userVariant.variant.id}`
-                : ''
-            }
+            ${ variantCondition }
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
             )
