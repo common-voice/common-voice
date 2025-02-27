@@ -11,3 +11,5 @@ add-question-success-toast-message =
     }
 add-question-error-message = Ngarkimi dështoi, ju lutemi, riprovoni.
 add-question-too-many-questions-error = Është tejkaluar numri prej 500 pyetjesh. Zvogëloni numrin e pyetjeve dhe riprovoni.
+# Guidelines
+add-question-guidelines-title = Ç’pyetje mund të shtoj?
