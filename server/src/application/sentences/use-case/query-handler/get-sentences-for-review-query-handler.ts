@@ -28,7 +28,11 @@ export const GetSentencesForReviewQueryHandler =
               reviewSentencesWithoutVariant: false,
             })
           ),
+          TO.chainFirst(sentences =>
+            TO.of(console.log('standard sentences', sentences.length))
+          ),
           TO.chain(sentences => {
+            console.log('Retrieving sentences without variant')
             return sentences.length > 0
               ? TO.of(sentences)
               : findSentencesForReview({
@@ -37,6 +41,9 @@ export const GetSentencesForReviewQueryHandler =
                 reviewSentencesWithoutVariant: true,
               })
           }),
+          TO.chainFirst(sentences =>
+            TO.of(console.log('sentences without variant', sentences.length))
+          ),
           TO.map((sentences): UnvalidatedSentenceDto[] => {
             return sentences.map(sentence => {
               const variantTag = pipe(
