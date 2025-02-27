@@ -181,6 +181,7 @@ contribute-link = Hozzájárulás a korpuszhoz
 answer-questions-link = Kérdések megválaszolása
 transcribe-answers-link = Válaszok leiratozása
 review-transcriptions-link = Leiratok ellenőrzése
+contribute-text-link = Közreműködés szöveggel
 press-and-stories-link = Sajtó és történetek
 
 ## Partner section
