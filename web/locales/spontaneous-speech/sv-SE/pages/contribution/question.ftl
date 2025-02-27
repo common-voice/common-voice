@@ -18,11 +18,11 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Vilka frågor kan jag lägga till?
-do-section-title = gör
+do-section-title = att göra
 do-section-guideline-1 = Använd korrekt stavning och grammatik
 do-section-guideline-2 = Välj enkla frågor som är lätta för alla att förstå, oavsett kultur eller sammanhang
 do-section-guideline-3 = Se till att de kan besvaras på bara ett par meningar
-do-not-section-title = inte
+do-not-section-title = att inte göra
 do-not-section-guideline-1 = Be om personligt identifierande information (som namn eller ekonomisk information)
 do-not-section-guideline-2 = Ge uttryck för eller uppmana till fördomsfulla eller kränkande känslor
 do-not-section-guideline-3 = Ställ känsliga frågor
