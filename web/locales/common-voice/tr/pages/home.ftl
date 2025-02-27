@@ -83,6 +83,7 @@ answer-questions-coming-soon = Soru yanıtla <small>(Çok yakında)</small>
 review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
 review-transcriptions-coming-soon = Çeviri metinleri incele <small>(Çok yakında)</small>
 add-questions = Soru ekle <small>(Çok yakında)</small>
+add-questions-coming-soon = Soru ekle <small>(Çok yakında)</small>
 transcribe-audio-coming-soon = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
