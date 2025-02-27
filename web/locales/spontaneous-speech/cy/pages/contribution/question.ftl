@@ -26,7 +26,7 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Pa gwestiynau y gallaf eu hychwanegu?
-do-section-title = gwneud
+do-section-title = gwnewch
 do-section-guideline-1 = Defnyddiwch sillafu a gramadeg cywir
 do-section-guideline-2 = Dewiswch gwestiynau syml sy'n hawdd i unrhyw un eu deall, waeth beth fo'u diwylliant neu eu cyd-destun
 do-section-guideline-3 = Gwnewch yn siŵr bod modd eu hateb mewn cwpl o frawddegau
