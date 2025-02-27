@@ -10,3 +10,4 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions } nga { $totalQuestions } pyetje të mbledhura
     }
 add-question-error-message = Ngarkimi dështoi, ju lutemi, riprovoni.
+add-question-too-many-questions-error = Është tejkaluar numri prej 500 pyetjesh. Zvogëloni numrin e pyetjeve dhe riprovoni.
