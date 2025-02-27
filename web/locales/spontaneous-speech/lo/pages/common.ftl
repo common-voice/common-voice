@@ -1,6 +1,9 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = ຂໍ້ຜິດພາດ
 action-click = ຄິກ
+action-tap = ແຕະ
 
 ## Navbar
 

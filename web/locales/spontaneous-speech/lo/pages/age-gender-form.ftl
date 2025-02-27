@@ -4,7 +4,11 @@ add-information-button = ເພີ່ມຂໍ້ມູນ
 continue-speaking-button = ສືບຕໍ່ເວົ້າ
 age-select-label = ທ່ານອາຍຸຈັກປີ?
 select-your-age = ເລືອກອາຍຸຂອງທ່ານ
+gender-select-label = ທ່ານມີເພດ ຫຼື ເພດກຳເນີດແມ່ນຫຍັງ?
+select-your-gender = ເລືອກເພດ ຫຼື ເພດສະພາບຂອງທ່ານ
 
 ## Gender dropdown
 
 female_feminine = ເພດຍິງ/ເພດຍິງ
+transgender = ຄົນທີ່ມີເພດທີ່ປ່ຽນແປງ
+non-binary = ບໍ່ກຳນົດເພດ
