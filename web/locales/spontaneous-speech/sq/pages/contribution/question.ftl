@@ -18,6 +18,11 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Ç’pyetje mund të shtoj?
+do-section-title = Po
 do-section-guideline-1 = Përdorni shkrim dhe gramatikë të saktë
 do-section-guideline-2 = Zgjidhni pyetje të thjeshta, që janë të kollajta për t’u kuptuar nga cilido, pavarësisht kulturës apo kontekstit
 do-section-guideline-3 = Sigurohuni se mund t’u përgjigjen me vetëm një a dy togfjalësha
+do-not-section-title = Jo
+do-not-section-guideline-1 = Kërkoni informacion që lejon identifikim personal (fjala vjen, emra, ose hollësi financiare)
+do-not-section-guideline-2 = Të shprehni apo të kërkoni ndjenja të paragjykuara apo fyese
+do-not-section-guideline-3 = Të bëni pyetje me zarar
