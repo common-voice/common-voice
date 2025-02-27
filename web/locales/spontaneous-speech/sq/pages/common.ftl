@@ -4,6 +4,8 @@
 error = Gabim
 action-click = Klikoni
 action-tap = Prekeni
+# Label for language switcher
+platform-language = Gjuhë platforme:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Dhënie kontributi te grup të dhënash për { $language }
 # Label for button on contribution switcher
@@ -27,6 +29,7 @@ request-new-language = Kërkoni Gjuhë të Re
 respond-to-prompt = Përgjigjuni një Hapi
 transcribe-audio = Transkriptoni Audio
 check-transcriptions = Kontrolloni Transkriptime
+question = Pyetje
 
 ## Not Found Page
 
