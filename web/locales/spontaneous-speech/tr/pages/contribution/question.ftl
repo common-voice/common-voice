@@ -1,5 +1,6 @@
 ## Question Page
 
+question-page-instruction = Kullanıcıların yanıtlaması için { $currentLocale } bir <icon></icon> soru ekleyin
 add-question-textarea-placeholder = örneğin, “Teknolojiyi hangi amaçla kullanmak isterdiniz?”
 add-questions-terms-checkbox = * Bu sorunun <publicDomainLink>kamu malı</publicDomainLink> olduğunu ve bunu yükleme iznim olduğunu onaylıyorum.
 question-database-language = Veritabanı: { $databaseLanguage }
