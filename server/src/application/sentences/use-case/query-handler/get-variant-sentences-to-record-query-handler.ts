@@ -1,5 +1,6 @@
 import { pipe } from 'fp-ts/lib/function'
 import * as TE from 'fp-ts/TaskEither'
+import * as A from 'fp-ts/Array'
 import {
   FetchSentenceIdsThatUserInteractedWith,
   FindVariantSentences,
@@ -17,9 +18,23 @@ export const getVariantSentencesToRecordQueryHandler =
   ): TE.TaskEither<ApplicationError, Sentence[]> =>
     pipe(
       TE.Do,
-      TE.apS('variantSentences', findVariantSentences(query.variant)),
+      TE.apS(
+        'variantSentences',
+        pipe(
+          findVariantSentences(query.variant),
+          TE.chain(variantSentences =>
+            A.isEmpty(variantSentences)
+              ? findVariantSentences(query.variant, false)
+              : TE.right(variantSentences)
+          )
+        )
+      ),
       TE.apS('sentenceIds', fetchInteractedSentenceIds(query.clientId)),
-      TE.map(({ variantSentences, sentenceIds }) =>
-        pipe(variantSentences, filterUserInteractedSentences(sentenceIds))
-      )
+      TE.map(({ variantSentences, sentenceIds }) => {
+          console.log(variantSentences)
+        return pipe(
+          variantSentences,
+          filterUserInteractedSentences(sentenceIds)
+        )
+      })
     )

@@ -402,29 +402,39 @@ export const fetchSentenceIdsThatUserInteractedWith: FetchSentenceIdsThatUserInt
     )
 
 export type FindVariantSentences = (
-  variant: Variant
+  variant: Variant,
+  sentencesWithoutVariant?: boolean
 ) => TE.TaskEither<ApplicationError, Sentence[]>
 export const findVariantSentences: FindVariantSentences = (
-  variant: Variant
-): TE.TaskEither<ApplicationError, Sentence[]> =>
-  pipe(
-    [
+  variant: Variant,
+  sentencesWithVariant = true
+): TE.TaskEither<ApplicationError, Sentence[]> => {
+console.log(sentencesWithVariant)
+  const params = sentencesWithVariant
+    ? [
       variant.locale,
       variant.id,
       VARIANT_SENTENCE_LIMIT,
       VARIANT_SENTENCE_LIMIT,
-    ],
+    ]
+    : [variant.locale, VARIANT_SENTENCE_LIMIT, VARIANT_SENTENCE_LIMIT]
+  return pipe(
+    params,
     queryDb(`
         SELECT *
         FROM (
-          SELECT s.id, text
+          SELECT s.id, text, variant_id
           FROM sentences s
-          JOIN sentence_metadata sm ON s.id = sm.sentence_id
+          LEFT JOIN sentence_metadata sm ON s.id = sm.sentence_id
           WHERE
             is_used
             AND locale_id = (SELECT id FROM locales WHERE name = ?)
             AND clips_count <= 15
-            AND sm.variant_id = ?
+            AND ${
+              sentencesWithVariant
+                ? 'sm.variant_id = ?'
+                : 'sm.variant_id IS NULL'
+            }
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
@@ -437,13 +447,18 @@ export const findVariantSentences: FindVariantSentences = (
         err
       )
     ),
-    TE.map(([results]: Array<Sentence[]>) =>
+    TE.map(([results]: Array<(Sentence & { variant_id: number })[]>) =>
       pipe(
         results,
-        A.map(s => ({ ...s, variant: variant }))
+        A.map(s => ({
+          id: s.id,
+          text: s.text,
+          variant: Number(s.variant_id) == variant.id ? variant : undefined,
+        }))
       )
     )
   )
+}
 export const saveSentenceInDb: SaveSentence = saveSentence(db)
 export const insertBulkSentencesIntoDb: InsertBulkSentences =
   insertBulkSentences(db)
