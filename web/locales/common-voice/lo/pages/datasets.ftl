@@ -94,3 +94,5 @@ release-version = ລູ້ນ​
 dataset-date = ວັນທີ
 license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ປະສົມກັນ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ດາວໂຫລດຊຸດຂໍ້ມູນສຽງຂອງພວກເຮົາ

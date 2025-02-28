@@ -1,6 +1,9 @@
 ## Report Modal
 
 report-modal-title = ສົ່ງບົດລາຍງານ
+different_language = ພາສາທີ່ແຕກຕ່າງກັນ
+different_language-detail = ເນື້ອຫາປະກອບມີພາສາທີ່ແຕກຕ່າງຈາກທີ່ຂ້ອຍຄາດຫວັງ.
+personally_identifiable_information = ຂໍ້ມູນທີ່ສາມາດລະບຸຕົວຕົນໄດ້
 report-other-comment =
     .placeholder = ຄວາມຄິດເຫັນ
 # Label for textarea in report modal

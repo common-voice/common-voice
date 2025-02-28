@@ -124,6 +124,7 @@ add-sentences = ເພີ່ມປະໂຫຍກ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = ເພີ່ມ ແລະ ກວດຄືນປະໂຫຍກ, ເພີ່ມຄໍາຖາມ, ຖອດຂໍ້ຄວາມສຽງ
 add-sentences-menu-item-tooltip = ເພີ່ມປະໂຫຍກໃນພາສາຂອງທ່ານ
 review-sentences-menu-item-tooltip = ທົບທວນປະໂຫຍກໃນພາສາຂອງທ່ານ
 add-questions-menu-item-tooltip = ເພີ່ມຄຳຖາມໃນພາສາຂອງທ່ານ
