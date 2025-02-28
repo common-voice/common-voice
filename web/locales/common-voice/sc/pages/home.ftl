@@ -151,6 +151,7 @@ contribute-github-action = Contribui a Github
 
 ## Featured section
 
+featured-section-title = Nd’ant faeddadu
 
 ## Developers section
 
