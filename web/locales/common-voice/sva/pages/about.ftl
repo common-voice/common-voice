@@ -7,6 +7,7 @@ about-get-involved = ჩაერთე სიი
 about-get-involved-text-2 = ჯაკუმა ლიმურჯუ̂ი, ერე Common Voice ხოში̄ლჷდ ა̈დსიკთენს? ჰა̈დურ ეზა̈რ! კავშირ ლახა̈ჲ ნიშგუ̂ეჲცახა̈ნ ელფოსტოშ ჰედ <discourseLink>Discourse</discourseLink> ფორუმა̈რჟი, ჰედ ქა̄ხზიზ შეტყობინება̄̈ლ საიტცახა̈ნ პრობლემა̄ლე ბედჟი <githubLink>GitHub</githubLink>, ჰედ შეუერთდი <matrixLink>Matrix</matrixLink> საზოგადოება̄̈ ჩათს.
 about-stay-in-touch = იმჟი ხვარდედ კავშირჟი?
 about-stay-in-touch-button = ჩუ̂ა̈თრეგისტრირაუ̂ა̈ნ
+about-stay-in-touch-text-1 = <emailFragment>ჩუ̂ა̈თრეგისტრირაუ̂ა̈ნ<emailFragment> ნიშგუ̂ეჲ საფოსტო სიაისგა, ერე ჩუ̂ა̈ცხირა იმჟი ჯა̈მჲედა მონაწილეობა̈ ლიკედ კამპანია̄̈ლისგა, ღონისძიბა̄̈ლისგა ი ერთობლივ ფუნქცია̄ლე პროექტირებაისგა Common Voice-ჟი.
 
 ## Community Playbook Content
 ## What is a language
