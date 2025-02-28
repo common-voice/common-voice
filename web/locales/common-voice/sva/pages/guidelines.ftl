@@ -1,3 +1,5 @@
+# GUIDELINES PAGE
+guidelines-header = წვლილი სახელმძღვანელო მითითება̄̈ლ
 varying-pronunciations = განსხვავებულ გამოთქმა დიალექტარისგა
 misreadings = უსწოროდ ლჷჭუ̂და̄ნე
 offensive-content = შეურაცხმყოფელ შინაარს
