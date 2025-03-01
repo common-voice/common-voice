@@ -38,7 +38,9 @@ about-get-involved-text-2 =
     trimite problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe
     chat-ul comunității <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Cum pot păstra legătura?
-about-stay-in-touch-button = Înscrie-te
+about-stay-in-touch-button = Abonează-te
+about-stay-in-touch-text-1 = <emailFragment>Abonează-te</emailFragment> la lista noastră de corespondență pentru a afla cum poți participa la campanii și evenimente, precum și cum poți sugera noi funcționalități pentru Common Voice.
+about-stay-in-touch-text-2 = Poți întâlni alți entuziaști din comunitățile lingvistice Mozilla prin <discourseLink>Discourse</discourseLink> pentru discuții pe teme actuale, sau prin <matrixLink>Matrix</matrixLink> pentru sfaturi rapide.
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
