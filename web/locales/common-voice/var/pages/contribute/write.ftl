@@ -99,19 +99,19 @@ too-many-files = Weiká toátiame arčiwóči
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Nahpé weká orasióne tamó rominio ičíyo
-multiple-sentences-error = Kiánine itočpékopa weiká orasióne umatóteremu iwatíami. Enčí yoámitia pirépi minútoči.
+multiple-sentences-error = Kiánine itočpékopa weiká orasióne umatóteremu iwatiámi. Enčí yoámitia pirépi minútoči.
 exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 orasiónes
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami.  Enči yoámitia  piripi munútoči
-       *[other] Kianiné itočekopá weiká orasión umatóteremu iwatíami.  Enči yoámitia  { $retryLimit } minútoči
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatiámi.  Enči yoámitia  piripi munútoči
+       *[other] Kianiné itočekopá weiká orasión umatóteremu iwatiámi.  Enči yoámitia  { $retryLimit } minútoči
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia pirípi segundóči.
-       *[other] kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia { $retryLimit } segundóči.
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatiámi, enčí yoámitia pirípi segundóči.
+       *[other] kianiné itočékopa weiká orasióne umatóteremu iwatiámi, enčí yoámitia { $retryLimit } segundóči.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
