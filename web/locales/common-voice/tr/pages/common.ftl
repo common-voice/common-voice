@@ -321,6 +321,7 @@ zgh = Tamazight
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
+zoc = Copainalá Zoque
 zu = Zuluca
 zza = Zazaca
 
