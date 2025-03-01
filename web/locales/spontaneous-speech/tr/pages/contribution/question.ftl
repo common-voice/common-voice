@@ -18,3 +18,11 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Hangi soruları ekleyebilirim?
+do-section-title = Bunları yapın
+do-section-guideline-1 = Yazım ve dilbilgisi kurallarına uyun
+do-section-guideline-2 = Kültür veya bağlamdan bağımsız olarak herkesin anlayacağı basit sorular seçin
+do-section-guideline-3 = Sadece birkaç cümleyle cevaplanabileceklerinden emin olun
+do-not-section-title = Bunları yapmayın
+do-not-section-guideline-1 = Kişisel bilgileri (örn. isim veya finansal bilgiler) istemeyin
+do-not-section-guideline-2 = Önyargılı veya saldırgan duyguları ifade etmeyin ve ifade edilmesini istemeyin
+do-not-section-guideline-3 = Hassas sorular sormayın

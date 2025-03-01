@@ -36,6 +36,7 @@ about-no-votes-text = შომუ̂ა̄̈ჲ მომხმარებელ
 about-dataset-new = ჰერლე მონაცემრე სა̈ერთო ხორეუ̂
 about-dataset-new-text = Common Voice მონაცემრე ხორეუ̂ისგა ა̈რი აშირ ათა̈სობშუ̂ ჰერლე ნიმუშა̈რ, ხედუ̂ა̄̈ჲ ხომურჯუ̂იხ დამმუშავებლა̈რს ჰერლე ლათა̈რ ხელსაწყოა̄რე ლასყე̄ნას.
 about-clip-graveyard = კლიპრე ლასფლა̈უ̂
+about-clip-graveyard-text = კლიპრე ლასფლა̈უ̂ისგა ა̈რიხ ხმოვან კლიპა̈რ, ხედუ̂ა̄̈ჲ დეშ ათხუ̂იდხ Common Voice ხორეუ̂ისგა. იმუ̂ა̄̈ჲჟი მონაცემრე ხორეუ̂ხან, კლიპრე ლასფლა̈უ̂ხა̈ნი ჩუ ხაყა ჩამოტვირთვას.
 about-get-involved = ჩაერთე სიი
 about-get-involved-text-2 = ჯაკუმა ლიმურჯუ̂ი, ერე Common Voice ხოში̄ლჷდ ა̈დსიკთენს? ჰა̈დურ ეზა̈რ! კავშირ ლახა̈ჲ ნიშგუ̂ეჲცახა̈ნ ელფოსტოშ ჰედ <discourseLink>Discourse</discourseLink> ფორუმა̈რჟი, ჰედ ქა̄ხზიზ შეტყობინება̄̈ლ საიტცახა̈ნ პრობლემა̄ლე ბედჟი <githubLink>GitHub</githubLink>, ჰედ შეუერთდი <matrixLink>Matrix</matrixLink> საზოგადოება̄̈ ჩათს.
 about-stay-in-touch = იმჟი ხვარდედ კავშირჟი?
@@ -58,6 +59,7 @@ about-playbook-what-is-language-content-2 = ნა̈ჲ ნაკუჩ, ერ�
 
 ## How do I add a language
 
+about-playbook-how-add-language = იმჟი ოსქჷმა ნინ?
 
 ## How does localization work
 
