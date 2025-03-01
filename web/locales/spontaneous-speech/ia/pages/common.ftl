@@ -4,6 +4,8 @@
 error = Error
 action-click = Cliccar
 action-tap = Toccar
+# Label for language switcher
+platform-language = Lingua del platteforma
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Contribuer al collection de datos pro { $language }
 # Label for button on contribution switcher
@@ -27,6 +29,7 @@ request-new-language = Require nove lingua.
 respond-to-prompt = Responder al Sollicitation
 transcribe-audio = Transcriber Audio
 check-transcriptions = Verificar transcriptiones
+question = Question
 
 ## Not Found Page
 
