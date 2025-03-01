@@ -33,6 +33,7 @@ about-yes-votes = ≥ 2 "ა̄დუ" ჰერ
 about-yes-votes-text = Common Voice მონაცემრე ხორეუ̂ისგა ლეხუ̂იჲად კლიპ ჟილუმწუ̂მე ხეკუ̂ეს ხა̄̈დს იარუ̂ მე̄რმე-მე̄რმე მომხმარებელს.
 about-no-votes = ≥ 2 ჰერ მა̄მ ა̈რი
 about-no-votes-text = შომუ̂ა̄̈ჲ მომხმარებელ უარყოფითს, "დე̄სა"-ს ხაჰუ̂დი კლიპს, ალ კლიპ ტეხნი რიგთე. მე̄რმამდი ლახ უარყოფითს იკედ, ეჩქა ალ კლიპ ტეხნი კლიპრე ლასფლა̈უ̂თე.
+about-dataset-new = ჰერლე მონაცემრე სა̈ერთო ხორეუ̂
 about-get-involved = ჩაერთე სიი
 about-get-involved-text-2 = ჯაკუმა ლიმურჯუ̂ი, ერე Common Voice ხოში̄ლჷდ ა̈დსიკთენს? ჰა̈დურ ეზა̈რ! კავშირ ლახა̈ჲ ნიშგუ̂ეჲცახა̈ნ ელფოსტოშ ჰედ <discourseLink>Discourse</discourseLink> ფორუმა̈რჟი, ჰედ ქა̄ხზიზ შეტყობინება̄̈ლ საიტცახა̈ნ პრობლემა̄ლე ბედჟი <githubLink>GitHub</githubLink>, ჰედ შეუერთდი <matrixLink>Matrix</matrixLink> საზოგადოება̄̈ ჩათს.
 about-stay-in-touch = იმჟი ხვარდედ კავშირჟი?
