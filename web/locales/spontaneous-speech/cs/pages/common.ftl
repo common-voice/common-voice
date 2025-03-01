@@ -4,6 +4,8 @@
 error = Chyba
 action-click = Klepnout
 action-tap = Klepněte
+# Label for language switcher
+platform-language = Jazyk platformy:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = Přispívání do datové sady pro jazyk { $language }
 # Label for button on contribution switcher
