@@ -38,7 +38,7 @@ review-keep-recordings = Wa'á katewuéka kauká amó netéria
 review-delete-recordings = Nasonáka uká no'ó netéria
 review-terms = Čiréka unéwame Common Voice, uká  itapéri tamó netéria, natí papámira naósame noriwí
 terms-agree = Kawé hu no'ó ičiyó
-terms-disagree = Kaíne kawé intáni
+terms-disagree = Ka'íne kawé intáni
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Čeriwéma uká amó nawésari nehária
 first-cta-subtitle-text = ¿Penirému toháčaka uká nawésari amó nawésari?
