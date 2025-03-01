@@ -27,13 +27,18 @@ about-no-votes-text = Când un utilizator respinge o secvență vocală, aceasta
 about-dataset-new = Setul de date Common Voice
 about-dataset-new-text = Setul de date Common Voice conține sute de mii de mostre de voce care ajută dezvoltatorii să construiască instrumente de recunoaștere vocală.
 about-clip-graveyard = Cimitirul secvențelor vocale
-about-clip-graveyard-text = Cimitirul de secvențe vocale constă din secvențe care nu au ajuns în setul de date Common Voice. Ca setul de date Common Voice, și Cimitirul de secvențe vocale este disponibil pentru descărcare.
+about-clip-graveyard-text =
+    Cimitirul secvențelor vocale cuprinde secvențe care nu au ajuns în setul de date Common Voice. Asemeni setului de date Common Voice, și Cimitirul secvențelor vocale poate fi descărcat.
+    
+    Dorim să le mulțumim următoarelor persoane și organizații pentru ajutorul acordat proiectului:
 about-get-involved = Implică-te
 about-get-involved-text-2 =
-    Vrei să ajuți la îmbunătățirea Common Voice?
+    Vrei să faci proiectul Common Voice să aibă și mai mult succes?
     Grozav! Ia legătura prin e-mail sau prin forumurile <discourseLink>Discourse</discourseLink>,
-    raportează problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe
-    chatul comunității <matrixLink>Matrix</matrixLink>.
+    trimite problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe
+    chat-ul comunității <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Cum pot păstra legătura?
+about-stay-in-touch-button = Înscrie-te
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
