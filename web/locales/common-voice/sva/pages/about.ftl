@@ -63,6 +63,7 @@ about-playbook-how-add-language = იმჟი ოსქჷმა ნინ?
 about-playbook-how-add-language-content-1 = მა̄̈ნკუ̂ი ჩუ̂ათმოწმა̈ნ ისგუ ნინ<languageLink>ჩუ̂ა̈რი ჰა მა̄მა</languageLink>. ლახ მა̄მა, ჩუ ჯა̈მჲედა<languageRequestLink>ლა̈ხჭუ̂ედდე ისგუ ნინი ლიქმე̄მი ბედჟი</languageRequestLink>. ლი ჲო̄რი ეტაპ. საიტი თარგმნა ი წინადადება̄ლე ლინზო̄რე
 about-playbook-how-add-language-translating-heading = საიტი თარგმნა
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს, იმჟი ა̈ხჴჷმრა Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = თარგმანიშდ ნა̈ჲ ხუ̂იჴმა̈რიდ ხელსაწყოს, ხედუ̂ა̄̈ჲს ხაჟხა <pontoonLink> პონტონ</pontoonLink>. პონტონს ხუ̂ა̄̈ჲ ნჷნა̈რ ხუღუ̂ა, მარე ისგუ ნინ ჰე მა̄მ ხეჩდა, სი ჩუ ჯამჲედა</pontoonRequestLink>ხა̈ჰრი ისგუ ნინი ლიქმე</pontoonRequestLink>. ეჩუნღო, ნინ ერ ხელმისაწვდომ ლესსუ̂ Common Voice პროექტისგა,<githubRepoLink>ხიჰრ მახე ნინ</githubRepoLink>-ჟი.<localizationFragment>ხოშილ ა̈ხმეჴერ საიტი ტარგმანი ბედჟი</localizationFragment>.
 
 ## How does localization work
 
