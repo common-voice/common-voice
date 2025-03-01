@@ -93,3 +93,8 @@ recordings =
         [one] ჩანაწერ
        *[other] ჩანაწერ
     }
+validations =
+    { $count ->
+        [one] დარ ალ'არ
+       *[other] დარ ალ'არ
+    }
