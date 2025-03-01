@@ -1,17 +1,28 @@
 ## ABOUT US
 
-about-title = De ce Common Voice?
+about-title = Care este scopul proiectului Common Voice?
 about-header-description-v2 =
     <p>Common Voice reprezintă un set disponibil public de date vocale create de voluntari din toată lumea. Oricine dorește să construiască aplicații vocale poate folosi setul de date pentru a-și antrena modele de învățare automată.</p>
     <p>Majoritatea seturilor de date vocale sunt controlate la ora actuală de către companii private, ceea ce împiedică sau îngreunează procesul de inovație. Mai mult, seturile de date vocale nu îi reprezintă îndeajuns de mult pe cei care nu vorbesc o limbă nativ, pe cei din comunitățile de culoare, sau cu diverse dizabilități. Nici femeile sau persoanele aparținând grupului LGBTQIA+ nu sunt reprezentate suficient. Din aceste cauze, tehnologia activată prin voce nu funcționează deloc pentru multe limbi, iar atunci când funcționează, este foarte posibil să nu o facă la fel de bine pentru toți utilizatorii. Scopul proiectului Common Voice este de a schimba această situație prin convingerea persoanelor de pretutindeni să se înregistreze citind mai multe propoziții.</p>
+how-does-it-work-title-v2 = Cum funcționează proiectul Common Voice?
 how-does-it-work-text = Creăm un set de date cu sursă deschisă prin participare colectivă. Donează-ți vocea, validează acuratețea înregistrărilor altora, fă setul de date mai bun pentru toți.
 
 ## How does it work section
 
+about-language-req-subtitle = Se solicită adăugarea unei limbi.
+about-localization-title = Traducerea website-ului
+about-localization-subtitle = Textul website-ului este tradus în limba respectivă.
 about-sentence-collection-title = Adunarea propoziților scrise
 about-sentence-collection-subtitle = Se adună propoziții scrise pe care voluntarii se vor înregistra citindu-le cu voce tare.
+about-new-lang-title = Lansarea unei noi limbi
+about-new-lang-subtitle = Se publică site-ul Common Voice în această limbă.
 about-voice-contrib-title = Donarea înregistrărilor audio
 about-voice-contrib-subtitle = Voluntarii ne vizitează website-ul și se înregistrează audio citind diverse propoziții.
+about-voice-validation-title = Validarea înregistrărilor audio
+about-voice-validation-subtitle = Alți voluntari validează înregistrările audio anterioare.
+about-dataset-release-title = Publicarea setului de date
+about-dataset-release-subtitle = Publicăm setul de date o dată la trei luni.
+about-subscribe-text = Vrei să ții legătura cu proiectul Common Voice?
 about-speak = Înregistrează-te
 about-speak-text = Colaboratorii înregistrează secvențe vocale citind dintr-un set de propoziții donate.
 about-listen-queue = Lista secvențelor de ascultat
@@ -45,10 +56,13 @@ about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
 about-nav-get-involved = Implică-te
+about-nav-how-it-works-2 = Cum funcționează proiectul Common Voice?
+about-nav-playbook = Află cum te poți implica
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ce reprezintă o limbă în proiectul Common Voice?
 
 ## How do I add a language
 
