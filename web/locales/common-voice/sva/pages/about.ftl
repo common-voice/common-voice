@@ -1,5 +1,6 @@
 ## ABOUT US
 
+about-title = იმღა Common Voice?
 
 ## How does it work section
 
