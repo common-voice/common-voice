@@ -144,6 +144,7 @@ join-discord-community = Csatlakozzon a Discord közösséghez
 join-discord-community-action = Csatlakozz hozzánk Discordon
 join-discord-community-content = Vegyen részt nyelvi közösségi beszélgetésekben, kérdezzen, és értesüljön a közelgő eseményekről és előadásokról.
 find-us-on-matrix = Keressen meg minket a Matrixon
+find-us-on-matrix-content = A Matrix egy nyílt, könnyűsúlyú protokoll a decentralizált, valós idejű kommunikációhoz, és a Mozilla által kedvelt nyílt vitafórum.
 # label for button
 find-us-on-matrix-action = Keressen meg minket a Matrixon
 ask-mozilla-share = Kérje meg a Mozillát, hogy ossza meg az eseményeit
