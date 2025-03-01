@@ -23,6 +23,7 @@ about-dataset-release-subtitle = ნა̈ჲ ხუ̂ა̈ქუ̂ეყნა̈
 about-subscribe-text = ჯაკუმა Common Voice-ცახან კონტაქტჟი ლისედ?
 about-speak = გა̈რგლა
 about-speak-text = ავტორა̈ლ სგა̄̈ჲრიხ ხმოვან კლიპა̈რს შემოწირულ წინადება̄ლე ხორეუ̂ხა̈ნქა ლაჭუ̂და̄ნოშ.
+about-listen-queue = ლიჰუ̂ნა̈რი̄ რიგ
 about-get-involved = ჩაერთე სიი
 about-get-involved-text-2 = ჯაკუმა ლიმურჯუ̂ი, ერე Common Voice ხოში̄ლჷდ ა̈დსიკთენს? ჰა̈დურ ეზა̈რ! კავშირ ლახა̈ჲ ნიშგუ̂ეჲცახა̈ნ ელფოსტოშ ჰედ <discourseLink>Discourse</discourseLink> ფორუმა̈რჟი, ჰედ ქა̄ხზიზ შეტყობინება̄̈ლ საიტცახა̈ნ პრობლემა̄ლე ბედჟი <githubLink>GitHub</githubLink>, ჰედ შეუერთდი <matrixLink>Matrix</matrixLink> საზოგადოება̄̈ ჩათს.
 about-stay-in-touch = იმჟი ხვარდედ კავშირჟი?
