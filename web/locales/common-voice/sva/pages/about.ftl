@@ -62,6 +62,7 @@ about-playbook-what-is-language-content-2 = ნა̈ჲ ნაკუჩ, ერ�
 about-playbook-how-add-language = იმჟი ოსქჷმა ნინ?
 about-playbook-how-add-language-content-1 = მა̄̈ნკუ̂ი ჩუ̂ათმოწმა̈ნ ისგუ ნინ<languageLink>ჩუ̂ა̈რი ჰა მა̄მა</languageLink>. ლახ მა̄მა, ჩუ ჯა̈მჲედა<languageRequestLink>ლა̈ხჭუ̂ედდე ისგუ ნინი ლიქმე̄მი ბედჟი</languageRequestLink>. ლი ჲო̄რი ეტაპ. საიტი თარგმნა ი წინადადება̄ლე ლინზო̄რე
 about-playbook-how-add-language-translating-heading = საიტი თარგმნა
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს, იმჟი ა̈ხჴჷმრა Pontoon.</translateVideoLink>
 
 ## How does localization work
 
