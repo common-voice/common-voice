@@ -38,7 +38,7 @@ sc-review-form-reviewed-message =
             ¡Čeriwéma!
     }
 sc-review-form-review-failure = Kíkátewere amó yoária. Enčí yoamítia ehépa
-sc-review-link = Neneniáme
+sc-review-link = Ne'neniáme
 
 ## REVIEW CRITERIA
 
