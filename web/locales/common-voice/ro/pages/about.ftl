@@ -1,12 +1,19 @@
 ## ABOUT US
 
 about-title = De ce Common Voice?
+about-header-description-v2 =
+    <p>Common Voice reprezintă un set disponibil public de date vocale create de voluntari din toată lumea. Oricine dorește să construiască aplicații vocale poate folosi setul de date pentru a-și antrena modele de învățare automată.</p>
+    <p>Majoritatea seturilor de date vocale sunt controlate la ora actuală de către companii private, ceea ce împiedică sau îngreunează procesul de inovație. Mai mult, seturile de date vocale nu îi reprezintă îndeajuns de mult pe cei care nu vorbesc o limbă nativ, pe cei din comunitățile de culoare, sau cu diverse dizabilități. Nici femeile sau persoanele aparținând grupului LGBTQIA+ nu sunt reprezentate suficient. Din aceste cauze, tehnologia activată prin voce nu funcționează deloc pentru multe limbi, iar atunci când funcționează, este foarte posibil să nu o facă la fel de bine pentru toți utilizatorii. Scopul proiectului Common Voice este de a schimba această situație prin convingerea persoanelor de pretutindeni să se înregistreze citind mai multe propoziții.</p>
 how-does-it-work-text = Creăm un set de date cu sursă deschisă prin participare colectivă. Donează-ți vocea, validează acuratețea înregistrărilor altora, fă setul de date mai bun pentru toți.
 
 ## How does it work section
 
+about-sentence-collection-title = Adunarea propoziților scrise
+about-sentence-collection-subtitle = Se adună propoziții scrise pe care voluntarii se vor înregistra citindu-le cu voce tare.
+about-voice-contrib-title = Donarea înregistrărilor audio
+about-voice-contrib-subtitle = Voluntarii ne vizitează website-ul și se înregistrează audio citind diverse propoziții.
 about-speak = Vorbește
-about-speak-text = Colaboratorii își înregistrează secvențele vocale citind dintr-o bancă de propoziții donate.
+about-speak-text = Colaboratorii își înregistrează secvențele vocale citind dintr-un set de propoziții donate.
 about-listen-queue = Coadă de ascultare
 about-listen-queue-text = Secvențele vocale sunt introduse într-o coadă de transmitere care le pregătește pentru ascultare.
 about-listen = Ascultă
