@@ -62,6 +62,7 @@ adding-sentences-subheader-length-explanation = Sada dyrbjała mjenje hač 15 s�
 adding-sentences-subheader-spelling-punctuation = Prawopis a interpunkcija
 adding-sentences-subheader-spelling-punctuation-explanation = Sada dyrbi prawje napisana być.
 adding-sentences-subheader-speakable = Wurjekujomny
+adding-sentences-subheader-speakable-explanation = Najlěpše sady su přirodne a bjesadne – měli za kóždeho lochko čitajomne być. Mjeztym zo fonetiske rozdźěle a rozdźělne słowa w sadach su wažne, pospytujemy natočenje sadow za naše zhromadźenstwo dobrowólnikow tak spodobnje a zabawnje kaž móžno wuhotować.
 adding-sentences-subheader-numbers = Ličby
 adding-sentences-subheader-abbreviations = Skrótšenki a akronymy
 adding-sentences-subheader-abbreviations-explanation = Skrótšenki a akronymy kaž „USA“ abo „ICE“ měli so w žórłowym teksće wobeńć, dokelž so snano na wašnje čitaja, kotrež jich prawopisej njewotpowěduje. Nimo toho su snano wjacore korektne čitanja za jednotliwu skrótšenku.
