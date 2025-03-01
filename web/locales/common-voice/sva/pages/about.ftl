@@ -60,6 +60,7 @@ about-playbook-what-is-language-content-2 = ნა̈ჲ ნაკუჩ, ერ�
 ## How do I add a language
 
 about-playbook-how-add-language = იმჟი ოსქჷმა ნინ?
+about-playbook-how-add-language-content-1 = მა̄̈ნკუ̂ი ჩუ̂ათმოწმა̈ნ ისგუ ნინ<languageLink>ჩუ̂ა̈რი ჰა მა̄მა</languageLink>.
 
 ## How does localization work
 
