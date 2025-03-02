@@ -81,6 +81,7 @@ about-playbook-how-localize-content-5 = ლოხსგი ნიშგუ̂ე�
 ## How to add sentences
 
 about-playbook-how-add-sentences = იმჟი ლა̈ქმე̄დდ წინადადება̈ლს?
+about-playbook-how-add-sentences-content-1 = სი ჯა̈მჲედა ესქჷმა წინადადება̈ლ<writePageLink>სგალა̈ჲრ გვერდჟი</writePageLink>ჰედ ქა̄დთერუ̂ა̄ლა წინადადება̈ლ<reviewPageLink>განხილვა̈ გვერდჟი</reviewPageLink>.
 
 ## How to record quality
 
