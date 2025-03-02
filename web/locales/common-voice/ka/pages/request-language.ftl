@@ -34,4 +34,9 @@ request-language-success-list-3 =
 request-language-error =
     შესაძლოა, არ მიგვიღია მოთხოვნა. გთხოვთ, მოგვწეროთ პირდაპირ
     მისამართზე <emailLink>{ $email }</emailLink> და მოგაქცევთ ყურადღებას!
+request-for-scripted-speech-toggle = ნაწერის გახმოვანების მოთხოვნა
+request-for-spontaneous-speech-toggle = ზეპირი მეტყველების მოთხოვნა
 need-help-deciding-platform = გსურთ გაერკვეთ, რომელი უნდა აირჩიოთ?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>ნაწერის გახმოვანება</strong> (ჩვეულებრივ, რითაც ცნობილია Common Voice) გულისხმობს წინადადებების ხმამაღლა წაკითხვას თქვენს ენაზე.
+need-help-deciding-platform-explanation-3 = თუ თქვენს ენას პლატფორმის ვერცერთ ნაწილში ვერ იპოვით, მიუთითეთ ორივე.

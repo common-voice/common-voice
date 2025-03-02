@@ -4,6 +4,8 @@
 error = შეცდომა
 action-click = დაწკაპეთ
 action-tap = შეეხეთ
+# Label for language switcher
+platform-language = პლატფორმის ენა:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 contribution-picker-label = წვლილის შესატანი ენა { $language }
 # Label for button on contribution switcher
