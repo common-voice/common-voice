@@ -76,7 +76,7 @@ export default function HomePageSection() {
             <div className="text-right">
 
               <p className="text-center font-bold">
-              ستظهر لك مجموعة من الجمل والأسئلة حول يوم التأسيس السعودي
+              ستظهر لك مجموعة من الجمل والأسئلة 
               </p>
 
               <p className='flex gap-1 justify-center mt-5'>
