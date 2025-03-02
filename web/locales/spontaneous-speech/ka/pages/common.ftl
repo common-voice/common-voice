@@ -29,6 +29,7 @@ request-new-language = მოითხოვეთ ახალი ენა
 respond-to-prompt = პასუხი მოთხოვნაზე
 transcribe-audio = ნაწერის სახით გადმოცემა
 check-transcriptions = ნაწერად ქცეულის შემოწმება
+question = შეკითხვა
 
 ## Not Found Page
 
