@@ -53,7 +53,7 @@ report-offensive-speech-detail = Rawaróatiame itónapu pirípi naeračeká naw
 report-other-comment =
     .placeholder = Nayawátiame
 success = Kawétiame
-continue = simiténiame
+continue = Simiténiame
 report-success = Kawétiame itóčeretupu nawésatiamea
 
 ## Speak & Listen Shortcuts
@@ -94,10 +94,10 @@ shortcut-vote-no = n
 contribution-criteria-nav = Yoraniáme
 contribution-criteria-link = Penipániame weká waháči yorá pu'ká nawésaniame
 contribution-criteria-page-title = yorániame puú nawésaniame
-contribution-criteria-page-description = Penipániame epečé kawé kiyáka kepúka inamuka pu'ká rawarótiame i kawé mačítamamu ačiná yoráka yoramía  pu'ká amo rawaroa.
+contribution-criteria-page-description = Penipániame epečé kawé kiyáka kepúka inamúka pu'ká rawarótiame i kawé mačítamamu ačiná yoráka yoramía  pu'ká amó rawaroa.
 contribution-for-example = Ačinátiame.
 contribution-misreadings-title = Kikáweruma čaniwáme.
-contribution-misreadings-description = wa'a ina'muka, rewisaroa ka'weinateka pu'ká yora'tiame wa'a rawarotiame puú wa'ačitiame wa'a yotetiame; katenaki wa'a ra'waroatiame ikepó pu'ká ra'waroatiame kiwarači čiameenisó, na'nasipami we'katiame we'ka yo'matiempo tetewiniapu:
+contribution-misreadings-description = wa'a inamúka, rewisaróa kawé inateka pu'ká yoratiame wa'a rawarótiame puú waačitiame wa'a yotétiame; katénaki wa'a rawaróatiame ihkepó pu'ká rawaróatiame kiwaáači čiameenisó, na'nasipami wekatiame we'ká yoma tiembo tetéwiniapu:
 contribution-misreadings-description-extended-list-1 = Toina pirepi <strong>"el" </strong>o <strong>"la" </strong>wa'a o'ičaka pu'ká ra'waroatiame
 contribution-misreadings-description-extended-list-2 = Toina pirepi <strong>s</strong> wa'a ru'timoči pu'ká na'wesariči
 contribution-misreadings-description-extended-list-3 = reyeraaka na'peka pu'ká  piči'wáči kái intuame natiká tiame pa'puka yo'rameti pu'ka i'čiyo o tenawinániame
