@@ -73,6 +73,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = იმჟი ხაშდბა სატი ლოკალიზაცია?
 about-playbook-how-localize-content-1 = Common Voice საიტი ლითჷრგმა̈ნი იჩუ̂მინი<strong>Pontoon</strong>-ჟი.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> ჟ'ა̈ხისყ ანგარიშ</pontoonAccountLink>ჰემა მა̄მა ჟუღუ̂ა. ეჩუნღო  ჟ'ა̈ხითშ ისგუ ნინ<strong> ("გუნდ") ი ჟ'ა̈ხითშ პროექტ,<pontoonCvLink> Common Voice</pontoonCvLink>. ჩუირდიხ ლეთჷრგმა̈ნი ფაილა̈რ. ჟ'ო̄სოთლ აშხუ̂, ეჩუნღო ეჯა აწუ̂ე̄ნე სიტყვა̄̈ლს ინგლისურდ ი ყუთს ეჯჲარე ლათჷრგმა̈ნიდ.
 
 ## How to add sentences
 
