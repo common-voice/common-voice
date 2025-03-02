@@ -67,6 +67,7 @@ about-playbook-how-add-language-translating-content-2 = თარგმანი
 about-playbook-how-add-language-collecting-sentences-heading = წინადადება̄ლე ლინზო̄რე
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს წინადადება̄ლე მუნზო̄რემი ლიჴმა̈რი̄ ბეჟი</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = სი ჩუჯა̈მჲედა<sentenceCollectorLinkAdd>მა̄დხუ̂ა̄̈ჲ წინადადებაა̄̈ლ</sentenceCollectorLinkAdd>, მო̄დეჲ წინადადება̄ლე სუ̂რილ პაკეტ Github-შუ̂</bulkImportDocsLink>. ჩუ̂ა̈თმა̈შყუ̂დინ: წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ<licenseLink>CC0 (ჰედ საჯაროდ ხელმისაწვდომ)</licenseLink>,  მო̄დეჲ სგ'ა̄თიჲრ ისგუ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ხოში̄ლ ა̈ხმეჴერ წინადადება̄ლე ლინზო̄რემი ბედჟი</sentenceCollectorFragment>.
 
 ## How does localization work
 
