@@ -66,6 +66,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ლ�
 about-playbook-how-add-language-translating-content-2 = თარგმანიშდ ნა̈ჲ ხუ̂იჴმა̈რიდ ხელსაწყოს, ხედუ̂ა̄̈ჲს ხაჟხა <pontoonLink> პონტონ</pontoonLink>. პონტონს ხუ̂ა̄̈ჲ ნჷნა̈რ ხუღუ̂ა, მარე ისგუ ნინ ჰე მა̄მ ხეჩდა, სი ჩუ ჯამჲედა</pontoonRequestLink>ხა̈ჰრი ისგუ ნინი ლიქმე</pontoonRequestLink>. ეჩუნღო, ნინ ერ ხელმისაწვდომ ლესსუ̂ Common Voice პროექტისგა,<githubRepoLink>ხიჰრ მახე ნინ</githubRepoLink>-ჟი.<localizationFragment>ხოშილ ა̈ხმეჴერ საიტი თარგმანი ბედჟი</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = წინადადება̄ლე ლინზო̄რე
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს წინადადება̄ლე მუნზო̄რემი ლიჴმა̈რი̄ ბეჟი</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = სი ჩუჯა̈მჲედა<sentenceCollectorLinkAdd>მა̄დხუ̂ა̄̈ჲ წინადადებაა̄̈ლ</sentenceCollectorLinkAdd>, მო̄დეჲ წინადადება̄ლე სუ̂რილ პაკეტ Github-შუ̂</bulkImportDocsLink>. ჩუ̂ა̈თმა̈შყუ̂დინ: წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ<licenseLink>CC0 (ჰედ საჯაროდ ხელმისაწვდომ)</licenseLink>,  მო̄დეჲ სგ'ა̄თიჲრ ისგუ.
 
 ## How does localization work
 
