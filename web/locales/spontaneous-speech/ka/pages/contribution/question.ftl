@@ -1,0 +1,9 @@
+## Question Page
+
+question-database-language = მონაცემთა კრებული: { $databaseLanguage }
+add-question-error-message = ატვირთვა ვერ მოხერხდა, გთხოვთ კვლავ სცადოთ.
+add-question-too-many-questions-error = აღემატება 500 კითხვას. შეამცირეთ კითხვების რაოდენობა და კვლავ სცადეთ.
+# Guidelines
+add-question-guidelines-title = რა კითხვები შეიძლება დავამატო?
+do-section-title = უნდა იყოს
+do-section-guideline-1 = გამართული მართლწერით და გრამატიკულად

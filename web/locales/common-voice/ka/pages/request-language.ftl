@@ -36,7 +36,8 @@ request-language-error =
     მისამართზე <emailLink>{ $email }</emailLink> და მოგაქცევთ ყურადღებას!
 request-for-scripted-speech-toggle = ნაწერის გახმოვანების მოთხოვნა
 request-for-spontaneous-speech-toggle = ზეპირი მეტყველების მოთხოვნა
-need-help-deciding-platform = გსურთ გაერკვეთ, რომელი უნდა აირჩიოთ?
+need-help-deciding-platform = გსურთ გაერკვეთ, რომელი უნდა მიუთითოთ?
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>ნაწერის გახმოვანება</strong> (ჩვეულებრივ, რითაც ცნობილია Common Voice) გულისხმობს წინადადებების ხმამაღლა წაკითხვას თქვენს ენაზე.
+need-help-deciding-platform-explanation-2 = <strong>ზეპირი მეტყველება</strong> ახალი შესაძლებლობაა, რომელსაც Common Voice გთავაზობთ და შეგეძლებათ კითხვებს უპასუხოთ მეტად ბუნებრივი, სალაპარაკო ენით.
 need-help-deciding-platform-explanation-3 = თუ თქვენს ენას პლატფორმის ვერცერთ ნაწილში ვერ იპოვით, მიუთითეთ ორივე.
