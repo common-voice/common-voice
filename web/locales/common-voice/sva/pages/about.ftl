@@ -98,6 +98,8 @@ about-playbook-how-record-content-5 = <accuracyLink>ლჷნწუდად კ
 ## How to grow language
 
 about-playbook-how-grow-language = იმჟი ჯა̈ჲმედა ნინი ეფექტურ განვითარება Common Voice-ჟი?
+about-playbook-how-grow-language-content-1 = მო̄შ-მო̄შ ხა̈ლხიშდ Common Voice-თე̄ჲსგა წუ̂ლილი ლიი საშუალება̄̈ ლიჰუ̂დი ეჩიი გარანტია ლი-ე მონაცემარე ხორეუ̂ს ა̈ნსჷრგები მა̈ჲ ლა̈თჲა̄ლს ლი ხოფში̄რა მა̄რე. ნა̈ჲ ჟ'ოხსყედ რესურსა̈ლ ი შაბლონა̈რ, იმშა ლისჷრგებლი სი ჯა̈ჲმედა!
+about-playbook-how-grow-language-content-2 = მოვლენა̄̈ლ
 
 ## How to validate
 
