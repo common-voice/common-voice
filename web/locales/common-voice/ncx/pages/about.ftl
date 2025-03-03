@@ -101,7 +101,7 @@ about-playbook-how-localize-content-5 = Xikita video kanin timitsyekiluiskej
 
 about-playbook-how-add-sentences = ¿Ken nitlajkuilos?
 about-playbook-how-add-sentences-content-1 = Uelis seki tikijkuilos itech <writePageLink>Xitlajkuilo</writePageLink> noso tikmotilis tlen ijkuilijtok itech <reviewPageLink>Xikmotili</reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = Tlen kijkuiloskej moneki ome makimotilikan uan ijkon yipouis itech Common Voice. Uelis tikijkuilos seki tlamantli  <languageGuidelinesLink>nikan</languageGuidelinesLink>. Tlen tikijkuilos moneki pouis itech <licenseLink>tlen nochtin uelis kitekitiltiskej</licenseLink> uan san kipias kanaj 15 tlajtoli. Uelis tikiluis akin okijkuilo ma kichiua ken <waiverLink>CC0 ika nin</waiverLink>, uan matechtitlanili itech commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-2 = Tlen kijkuiloskej moneki ome makimotilikan uan ijkon yipouis itech Tinochtin Titlajtoaj. Uelis tikijkuilos seki tlamantli  <languageGuidelinesLink>nikan</languageGuidelinesLink>. Tlen tikijkuilos moneki pouis itech <licenseLink>tlen nochtin uelis kitekitiltiskej</licenseLink> uan san kipias kanaj 15 tlajtoli. Uelis tikiluis akin okijkuilo ma kichiua ken <waiverLink>CC0 ika nin</waiverLink>, uan matechtitlanili itech commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Uelis tiktekitiltis <scraperLink>Tlajkuilolkixtiloni</scraperLink> tla tikneki tiktekitiltis tlajkuiloli non poui Wikipedia.
 
 ## How to record quality
@@ -115,6 +115,8 @@ about-playbook-how-record-content-5 = <accuracyLink>Okachi xikita tlen moneki ti
 
 ## How to grow language
 
+about-playbook-how-grow-language = ¿Ken uelis tikyekpankixtiskej se tlajtolkopa itech Tinochtin Titlajtoa?
+about-playbook-how-grow-language-content-1 = Tikinkauilia nochtin matlapaleuikan itech Tinochtin Titlajtoaj uan ijkon mayetokan san keski kinekiskej. ¡Te moneuian uelis tiktekitiltis tlen yotikchikej!
 
 ## How to validate
 
