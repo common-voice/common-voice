@@ -97,6 +97,7 @@ about-playbook-how-record-content-5 = <accuracyLink>ლჷნწუდად კ
 
 ## How to grow language
 
+about-playbook-how-grow-language = იმჟი ჯა̈ჲმედა ნინი ეფექტურ განვითარება Common Voice-ჟი?
 
 ## How to validate
 
