@@ -5,6 +5,9 @@ demo-welcome = ਕਾਮਨ ਵੌਇਸ ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂ
 
 ## Demo Datasets
 
+card-button-next = ਅੱਗੇ
+card-button-back = ਪਿੱਛੇ
+demo-language-select-label = ਭਾਸ਼ਾਵਾਂ ਬਰਾਊਜ਼ ਕਰੋ
 demo-account = ਖਾਤਾ
 
 ## Demo Account
