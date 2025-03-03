@@ -72,6 +72,7 @@ adding-sentences-subheader-numbers = Licby
 adding-sentences-subheader-abbreviations = Skrotconki a akronymy
 adding-sentences-subheader-abbreviations-explanation = Skrotconkow a akronymow ako „USA“ abo „ICE“ měli se w žrědłowem teksće wobijaju, dokelaž se snaź na wašnju cytaju, kótaraž jich pšawopisoju njewótpowědujo. Mimo togo su snaź někotare korektne cytanja za jadnotliwu skrotconku.
 adding-sentences-subheader-punctuation = Interpunkcija
+adding-sentences-subheader-punctuation-explanation = Specialne symbole a interpunkciske znamuška měli se jano zapśimjeś, gaž absolutnje trjebne. Apostrof na pśikład jo w engelskich słowach ako „don't“ a „we're“ wopśimjony a měł se do žrědłowego teksta pśewześ, ale njejo k wěrjenju, až trjebaśo specialny symbol ako „@“ abo „#“.
 adding-sentences-subheader-special-characters = Wósebne znamuška a cuze pismiki
 adding-sentences-subheader-special-characters-explanation-1 = Pismiki muse w rěcy płaśiwe byś, w kótarejž se powědaju. “ж” na přikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
 adding-sentences-subheader-special-characters-explanation-2 = Rěcy mógu swójske pśekontrolěrowańske pšawidła z pśidatnymi pominanjami měś, gaž se pśełožuju. Jolic njedajo wěstu kontrolnu dataju, se pšawidła engelšćiny za sobustatkujuce pokazuju.

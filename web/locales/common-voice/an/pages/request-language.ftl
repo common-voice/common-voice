@@ -30,3 +30,6 @@ request-language-success-list-3 =
     contacta vía <emailLink>{ $email }</emailLink>
     y nos meteremos en contacto con tu
 request-language-error = Talment no haigamos recibiu esta solicitut. Ninvia-nos un correu electronico directament a <emailLink>{ $email }</emailLink> y te responderemos!
+request-for-scripted-speech-toggle = Demandar pa Parla Leyida
+request-for-spontaneous-speech-toggle = Demandar pa Parla Espontania
+need-help-deciding-platform = No sabes cuál triar?
