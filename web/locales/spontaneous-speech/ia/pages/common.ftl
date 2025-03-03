@@ -9,6 +9,7 @@ platform-language = Lingua del platteforma
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contribuer al collection de datos pro { $language }
+contribution-picker-tooltip-text = Cambia le insimul de datos linguistic cuje tu contribue.
 # Label for button on contribution switcher
 change = Cambiar
 coming-soon = Altere linguas tosto veniente
