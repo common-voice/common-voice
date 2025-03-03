@@ -3,6 +3,7 @@ guidelines-header = Contribution Guidelines
 guidelines-header-subtitle = Understand how to contribute and validate on the Common Voice dataset
 voice-collection = Voice Collection
 sentence-collection = Sentence Collection
+question-collection = Question Collection
 varying-pronunciations = Varying Pronunciations
 misreadings = Misreadings
 offensive-content = Offensive Content

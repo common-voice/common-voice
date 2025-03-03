@@ -79,15 +79,29 @@
 
                 & .tab-link {
                     color: inherit;
-                }
-            }
 
-            & li.first-tab {
-                margin-inline-end: 30px;
+                    &.question-collection {
+                        &::after {
+                            content: 'Beta';
+                            margin-inline-start: 4px;
+                            font-weight: 700;
+                            background: linear-gradient(
+                                90deg,
+                                var(--gradient-pink) 79.48%,
+                                #b1b5e5 100%
+                            );
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
             }
 
             & .tab {
                 color: var(--dark-grey);
+                margin-inline-end: 30px;
             }
 
             & .selected-tab {
