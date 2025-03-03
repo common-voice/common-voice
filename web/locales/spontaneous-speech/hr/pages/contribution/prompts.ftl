@@ -15,3 +15,4 @@ submit-all-button = Pošalji sve
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Saznaj kako koristiti ovu stranicu
+learn-how-to-use-transcribe = Nauči transkribirati
