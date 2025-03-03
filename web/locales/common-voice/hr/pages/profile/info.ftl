@@ -66,3 +66,5 @@ skip-submission-note = Napomena: Morat ćeš odabrati opciju „Govori” ili �
 off = Isklj.
 on = Uklj.
 help-accent = Trebaš pomoć s naglaskom?
+help-accent-explanation = Tvoj naglasak je način na koji izgovaraš riječi. Može ovisiti o mjestu gdje si živio/živjela, o drugim jezicima kojima govoriš i o mnogim drugim faktorima. Ovdje može dijeliti informacije za koje smatraš da su relevantne.
+help-variants = Trebaš pomoć s varijantama?
