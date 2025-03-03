@@ -1,3 +1,6 @@
+speak = ਬੋਲੋ
+speak-now = ਹੁਣ ਬੋਲੋ
+speak-subtitle = ਆਪਣੀ ਆਵਾਜ਼ ਦਾਨ ਕਰੋ
 record-cta = ਰਿਕਾਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ
 record-platform-not-supported = ਸਾਨੂੰ ਅਫ਼ਸੋਸ ਹੈ, ਪਰ ਤੁਹਾਡਾ ਪਲੇਟਫਾਰਮ ਹਾਲੇ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।
 record-platform-not-supported-desktop = ਡੈਸਕਟਾਪ ਕੰਪਿਊਟਰਾਂ ਉੱਤੇ ਤੁਸੀਂ ਨਵਾਂ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ:
@@ -34,6 +37,15 @@ review-keep-recordings = ਰਿਕਾਰਡਿੰਗ ਨੂੰ ਰੱਖੋ
 review-delete-recordings = ਮੇਰੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਨੂੰ ਰੱਖੋ
 terms-agree = ਮੈਂ ਸਹਿਮਤ ਹਾਂ
 terms-disagree = ਮੈਂ ਸਹਿਮਤ ਨਹੀਂ ਹਾਂ
+add-information-button = ਜਾਣਕਾਰੀ ਨੂੰ ਜੋੜੋ
+continue-speaking-button = ਨਹੀਂ, ਧੰਨਵਾਦ, ਬੋਲਣਾ ਜਾਰੀ ਰੱਖੋ
+thanks-for-voice-toast = ਤੁਹਾਡੀ ਆਵਾਜ਼ ਜਾਣਕਾਰੀ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ
+first-cta-gender-select-default-option = ਚੋਣ ਕਰੋ
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ਤੁਹਾਡੀ ਆਵਾਜ਼ ਦੇ ਯੋਗਦਾਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ!
+create-profile-button = ਪਰੋਫਾਈਲ ਬਣਾਓ
+# menu item
+read-sentences = ਵਾਕਾਂ ਨੂੰ ਪੜ੍ਹੋ
 
 ## MENU ITEM TOOLTIPS
 

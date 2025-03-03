@@ -9,6 +9,7 @@ platform-language = Jazyk platformy:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Prispievanie do kolekcie údajov pre jazyk { $language }
+contribution-picker-tooltip-text = Zmení kolekciu jazykových údajov, do ktorých prispievate
 # Label for button on contribution switcher
 change = Zmeniť
 coming-soon = Ďalšie jazyky už čoskoro

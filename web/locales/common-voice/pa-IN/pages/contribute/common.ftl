@@ -1,19 +1,35 @@
 action-click = ਦਬਾਓ
 action-tap = ਛੂਹੋ
 contribute = ਯੋਗਦਾਨ
+review = ਪੜਤਾਲ
 skip = ਛੱਡੋ
 shortcuts = ਸ਼ਾਰਟਕੱਟ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ਕਲਿੱਪ
+       *[other] <bold>{ $count }</bold> ਕਲਿੱਪ
+    }
+contribute-more =
+    { $count ->
+       *[other] { $count } ਹੋਰ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?
+    }
 speak-empty-state = ਇਸ ਭਾਸ਼ਾ ਵਿਚ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਅਸੀਂ ਵਾਕਾਂ ਦੀ ਸਮਾਪਤੀ ਖਤਮ ਕਰ ਦਿੱਤੀ ਹੈ...
 speak-empty-state-cta = ਵਾਕਾਂ ਦਾ ਯੋਗਦਾਨ ਦਿਓ
 record-button-label = ਆਪਣੀ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਕਰੋ
 share-title-new = ਹੋਰ ਆਵਾਜ਼ਾਂ ਲੱਭਣ ਲਈ <bold>ਸਾਡੀ ਮਦਦ ਕਰੋ</bold>
 keep-track-profile = ਇੱਕ ਪ੍ਰੋਫਾਈਲ ਨਾਲ ਆਪਣੀ ਤਰੱਕੀ ਦਾ ਰਿਕਾਰਡ ਰੱਖੋ
 login-to-get-started = ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ ਜਾਂ ਸਾਈਨ ਅੱਪ ਕਰੋ
-target-segment-add-voice = ਆਪਣੀ ਆਵਾਜ਼ ਸ਼ਾਮਲ ਕਰੋ
+target-segment-add-voice = ਆਪਣੀ ਆਵਾਜ਼ ਨੂੰ ਜੋੜੋ
 target-segment-learn-more = ਹੋਰ ਜਾਣੋ
-
-## Contribution Nav Items
-
+change-preferences = ਪਸੰਦਾਂ ਨੂੰ ਬਦਲੋ
+login-signup = ਲਾਗ ਇਨ / ਸਾਈਨ ਅੱਪ
+vote-yes = ਹਾਂ
+vote-no = ਨਹੀਂ
+datasets = ਡਾਟਾ-ਸੈੱਟ
+languages = ਭਾਸ਼ਾ
+about = ਇਸ ਬਾਰੇ
+partner = ਹਿੱਸੇਦਾਰ
+submit-form-action = ਭੇਜੋ
 
 ## Reporting
 
@@ -75,3 +91,12 @@ contribution-criteria-link = ਯੋਗਦਾਨ ਸ਼ਰਤ ਨੂੰ ਸਮਝੋ
 contribution-criteria-page-title = ਯੋਗਦਾਨ ਦੀ ਸ਼ਰਤ
 contribution-for-example = ਮਿਸਾਲ ਵਜੋਂ
 contribution-misreadings-title = ਗਲਤ-ਪੜ੍ਹਿਆ
+contribution-misreadings-example-8-explanation = [ਸਮੱਗਰੀ ਮਿਲਦੀ ਨਹੀਂ ਹੈ]
+contribution-varying-pronunciations-title = ਬਦਲਣਾ ਉਚਾਰਨ
+contribution-background-noise-title = ਪਿੱਛੇ ਰੌਲਾ
+contribution-background-voices-title = ਪਿੱਛੇ ਆਵਾਜ਼ਾਂ
+contribution-volume-title = ਵਾਲੀਅਮ
+contribution-reader-effects-title = ਪਾਠਕ ਪ੍ਰਭਾਵ
+contribution-just-unsure-title = ਬੱਸ ਭਰੋਸਾ ਨਹੀਂ?
+see-more = <chevron></chevron>ਹੋਰ ਵੇਖੋ
+see-less = <chevron></chevron>ਘੱਟ ਵੇਖੋ

@@ -9,6 +9,7 @@ platform-language = Rěč platformy:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = K datowej sadźbje za rěč { $language } přinošować
+contribution-picker-tooltip-text = Změni rěčnu datowu sadźbu do teje, ke kotrejž přinošujeće
 # Label for button on contribution switcher
 change = Změnić
 coming-soon = Dalše rěče bórze přińdu

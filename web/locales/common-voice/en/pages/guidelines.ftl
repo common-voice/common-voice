@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Contribution Guidelines
-guidelines-header-subtitle = Understand how to contribute and validate sentences and audio clips to the Common Voice dataset
+guidelines-header-subtitle = Understand how to contribute and validate on the Common Voice dataset
 voice-collection = Voice Collection
 sentence-collection = Sentence Collection
 varying-pronunciations = Varying Pronunciations
