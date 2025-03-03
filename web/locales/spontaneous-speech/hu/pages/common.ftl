@@ -4,7 +4,10 @@
 error = Hiba
 action-click = Kattintson
 action-tap = Koppintson
+# Label for language switcher
+platform-language = Platform nyelve:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Közreműködés a(z) { $language } adatkészletben
 # Label for button on contribution switcher
 change = Módosítás
@@ -20,12 +23,14 @@ report-button = Jelentés
 skip-button = Kihagyás
 submit-button = Elküldés
 contribute = Közreműködés
+request-new-language = Új nyelv kérése
 
 ## Navbar
 
 respond-to-prompt = Válasz a kérdésre
 transcribe-audio = Hang leiratozása
 check-transcriptions = Leiratok ellenőrzése
+question = Kérdés
 
 ## Not Found Page
 

@@ -5,6 +5,7 @@ error = Ntìvɨ́
 action-click = Klik
 action-tap = Kuàxin
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Tyinei nú nuu kava va'a tutu jiè'è { $language }
 # Label for button on contribution switcher
 change = Sama

@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = ขอบคุณสำหรับการมีส่วนร่วมกับเสียงพูดโต้ตอบ!
+age-gender-form-title = ขอบคุณสำหรับการมีส่วนร่วมกับเสียงพูดธรรมชาติ!
 age-gender-form-subtile = โดยการบอกเราเกี่ยวกับตัวคุณ คุณสามารถช่วยนักพัฒนาสร้างเทคโนโลยีที่ครอบคลุมมากขึ้นได้
 add-information-button = เพิ่มข้อมูล
 continue-speaking-button = พูดต่อไป

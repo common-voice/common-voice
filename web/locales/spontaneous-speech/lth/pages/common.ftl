@@ -5,6 +5,7 @@ error = Gin n'öbal
 action-click = Dïï
 action-tap = Dwöng
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Mïö thama ï dataset
 # Label for button on contribution switcher
 change = Alökalöka

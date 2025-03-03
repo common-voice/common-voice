@@ -122,7 +122,7 @@ recordings =
     }
 validations =
     { $count ->
-        [one] potvrda
-        [few] potvrde
-       *[other] potvrda
+        [one] Potvrda
+        [few] Potvrde
+       *[other] Potvrda
     }

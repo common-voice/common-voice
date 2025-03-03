@@ -4,8 +4,12 @@
 error = Zmylk
 action-click = Kliknyć
 action-tap = Podótknyć so
+# Label for language switcher
+platform-language = Rěč platformy:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = K datowej sadźbje za rěč { $language } přinošować
+contribution-picker-tooltip-text = Změni rěčnu datowu sadźbu do teje, ke kotrejž přinošujeće
 # Label for button on contribution switcher
 change = Změnić
 coming-soon = Dalše rěče bórze přińdu
@@ -27,6 +31,7 @@ request-new-language = Nowu rěč požadać
 respond-to-prompt = Na namołwu wotmołwić
 transcribe-audio = Awdijo transkribować
 check-transcriptions = Transkripcije přepruwować
+question = Prašenje
 
 ## Not Found Page
 

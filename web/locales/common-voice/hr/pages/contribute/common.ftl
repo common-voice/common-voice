@@ -11,7 +11,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> isječaka
     }
 goal-help-recording = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za snimanje od { $goalValue }!
-goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
+goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za potvrđivanje od { $goalValue }!
 contribute-more =
     { $count ->
         [one] Želiš li obaviti još { $count }?

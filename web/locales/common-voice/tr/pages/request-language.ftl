@@ -25,3 +25,10 @@ request-language-success-list-2 =
     çalışan bir topluluk varsa size bildirecek
 request-language-success-list-3 = Birkaç gün içinde bizden haber alamazsanız size dönüş yapmamız için <emailLink>{ $email }</emailLink> adresinden bize ulaşabilirsiniz.
 request-language-error = Bu talebi almamış olabiliriz. Size dönebilmemiz için lütfen <emailLink>{ $email }</emailLink> üzerinden bize e-posta gönderin.
+request-for-scripted-speech-toggle = Metin Okuma talebi
+request-for-spontaneous-speech-toggle = Doğaçlama Konuşma talebi
+need-help-deciding-platform = Hangisini seçeceğinize karar veremediniz mi?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Metin Okuma</strong> (şimdiye kadar Common Voice olarak bildiğiniz), dilinizdeki cümleleri sesli okuyabileceğiniz yerdir.
+need-help-deciding-platform-explanation-2 = <strong>Doğaçlama Konuşma</strong>, Common Voice’un yeni bölümüdür. Burada soruları daha doğal ve günlük dilde yanıtlayabilirsiniz.
+need-help-deciding-platform-explanation-3 = Platformun iki kısmında da dilinizi göremiyorsanız ikisini birden seçin.

@@ -80,6 +80,7 @@ answer-questions-coming-soon = Responder preguntas <small>(proximamente)</small>
 review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
 review-transcriptions-coming-soon = Revisar transcricións <small>(proximamente)</small>
 add-questions = Engadir preguntas <small>(Proximamente)</small>
+add-questions-coming-soon = Engadir preguntas <small>(Proximamente)</small>
 transcribe-audio-coming-soon = Transcribir gravacións <small>(proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
 press-and-stories = Comunicación, novas

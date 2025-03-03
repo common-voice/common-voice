@@ -5,6 +5,7 @@ error = خاتالىق
 action-click = چېكىڭ
 action-tap = نوقۇڭ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇش
 # Label for button on contribution switcher
 change = ئۆزگەرت

@@ -28,6 +28,7 @@ about-get-involved-text-2 =
     ¡Excelente! Ponte en contacto por correo electrónico o desde el foro en <discourseLink>Discourse</discourseLink>,
     envía problemas con el sitio a través de <githubLink>GitHub</githubLink>, o únete al 
     chat de la comunidad en <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-text-2 = Puedes conocer a otros en las comunidades de idiomas de Mozilla uniéndote a <discourseLink>Discourse</discourseLink> para conversaciones temáticas, o a <matrixLink>Matrix</matrixLink> para recibir consejos rápidos.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Patrocinadores

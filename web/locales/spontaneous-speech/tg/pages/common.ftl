@@ -5,6 +5,7 @@ error = Хато
 action-click = Зер кардан
 action-tap = Зарба задан
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълумот барои { $language }
 # Label for button on contribution switcher
 change = Тағйир додан

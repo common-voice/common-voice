@@ -86,6 +86,7 @@ answer-questions-coming-soon = Na pšašanja wótegroniś <small>(pśiźo skóro
 review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 review-transcriptions-coming-soon = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
+add-questions-coming-soon = Pšašanja pśidaś <small>(pśiźo skóro)</small>
 transcribe-audio-coming-soon = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja

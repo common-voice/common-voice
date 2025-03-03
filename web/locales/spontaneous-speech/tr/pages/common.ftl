@@ -4,7 +4,10 @@
 error = Hata
 action-click = tıklayın
 action-tap = tıklayın
+# Label for language switcher
+platform-language = Platform dili:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } dilinin veri kümesine katkı yapılıyor
 # Label for button on contribution switcher
 change = Değiştir
@@ -27,6 +30,7 @@ request-new-language = Yeni dil iste
 respond-to-prompt = İstemi/Soruyu Yanıtla
 transcribe-audio = Konuşmayı Metne Çevir
 check-transcriptions = Metne Çevrilmişleri Denetle
+question = Soru
 
 ## Not Found Page
 

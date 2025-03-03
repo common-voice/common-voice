@@ -4,8 +4,12 @@
 error = نقص
 action-click = کلک کو
 action-tap = ٹیپ
+# Label for language switcher
+platform-language = وارو ژاغا:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹو سوم { $language } بچین مدد کوریک
+contribution-picker-tooltip-text = ہتے وارو تین الوس کی کورا کی تو حصہ دریک مݰکیسان
 # Label for button on contribution switcher
 change = بدل کو
 coming-soon = خور واران دی شاؤ انگوسیان
@@ -20,12 +24,14 @@ report-button = رپورٹ کو
 skip-button = پیڅیک
 submit-button = جمع کو
 contribute = حصہ دراوو
+request-new-language = نوغ وارو درخواست کو
 
 ## Navbar
 
 respond-to-prompt = اشاران جوابو دیت
 transcribe-audio = ہوازو نیویشیکا غیراوے
 check-transcriptions = نیویشیروان لوڑے
+question = سوال
 
 ## Not Found Page
 

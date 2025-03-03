@@ -33,3 +33,10 @@ request-language-success-list-3 =
 request-language-error =
     Lehet, hogy nem kaptuk meg ezt a kérést. Írjon nekünk közvetlenül
     a <emailLink>{ $email }</emailLink> címre, és felvesszük Önnel a kapcsolatot.
+request-for-scripted-speech-toggle = Előre megírt beszéd kérése
+request-for-spontaneous-speech-toggle = Spontán beszéd kérése
+need-help-deciding-platform = Segítségre van szüksége, hogy melyiket válassza?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Előre megírt beszéd</strong> (ahogy hagyományosan megismerhette a Common Voice-ot), ahol mondatokat olvashat fel a saját nyelvén.
+need-help-deciding-platform-explanation-2 = A <strong>spontán beszéd</strong> a Common Voice új része, ahol természetesebben, köznapibb módon válaszolhat kérdésekre.
+need-help-deciding-platform-explanation-3 = Ha a platform egyik részén sem látja az Ön nyelvét, akkor válassza mindkettőt.
