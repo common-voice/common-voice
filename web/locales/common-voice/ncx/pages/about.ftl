@@ -117,6 +117,9 @@ about-playbook-how-record-content-5 = <accuracyLink>Okachi xikita tlen moneki ti
 
 about-playbook-how-grow-language = ¿Ken uelis tikyekpankixtiskej se tlajtolkopa itech Tinochtin Titlajtoa?
 about-playbook-how-grow-language-content-1 = Tikinkauilia nochtin matlapaleuikan itech Tinochtin Titlajtoaj uan ijkon mayetokan san keski kinekiskej. ¡Te moneuian uelis tiktekitiltis tlen yotikchikej!
+about-playbook-how-grow-language-content-2 = Nechikolmej
+about-playbook-how-grow-language-content-3 = Uelis tikchiuas se nechikoli kanin oksekimej tlapaleuiskej. Amo oui. Uelis tikchiuas ika videoconferencia noso kanaj tla uelis. <eventTemplate>Xikita nikan seki tlamantli tlen mitspaleuis xikchiua se nechikoli</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Redes sociales
 
 ## How to validate
 
