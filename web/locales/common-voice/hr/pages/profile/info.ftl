@@ -73,3 +73,7 @@ help-sex-or-gender-changes = Trebaš pomoć s promjenama spola ili spolnog ident
 help-sex-or-gender-changes-explanation = Nudimo više opcija kako bismo ljudima dali veći izbor u onome što nam govore o svom spolu ili spolnom identitetu. Opiši se na način koji ti se čini najprirodnijim. <learnMoreLink>Saznaj više o našem pristupu spolu i spolnom identitetu.</learnMoreLink>
 variant-contribution-options-header = Opcije za doprinos varijanti
 variant-contribution-help = Neke se varijante i dijalekti unutar jezika ili jezične obitelji razlikuju. Ako imaš problem s određenom varijantom, ovdje možeš promijeniti svoje postavke.
+variant-contribution-option-1 = Prikaži mi rečenice i isječke iz svih varijanti u mojem jeziku
+variant-contribution-option-2 = Prikaži mi samo rečenice i isječke moje varijante
+variant-contribution-warning-title = ⓘ Sve rečenice i isječci još nemaju oznake „Varijanta”!
+variant-contribution-warning-subtitle = Ako imaš problema s doprinošenjem, u bilo kojem trenutku se možeš vratiti na prikaz svih sadržaja za tvoj jezik.
