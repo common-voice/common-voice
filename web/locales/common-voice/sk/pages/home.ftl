@@ -197,7 +197,7 @@ partner-section-subtitle-tech-companies = <bold>Technické spoločnosti</bold> �
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Občianska spoločnosť a výskumníci</bold> – bezplatne vytvárajte, hostite a zdieľajte pôsobivé súbory údajov
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponzorujte vytváranie množiny údajov na podporu miestnych inovácií a rozvoja
+partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponzorujte vytváranie kolekcií údajov na podporu miestnych inovácií a rozvoja
 # icon is an arrow that points to the right
 get-in-touch-button = Kontaktujte nás <icon></icon>
 # Partners section
