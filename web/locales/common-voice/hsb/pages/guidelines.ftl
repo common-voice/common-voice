@@ -12,6 +12,7 @@ volume = Sylnosć zwuka
 reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
+varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Budźće jara kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, dokelž mysliće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo interpunkciju prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wulkomyslnu swobodu, kotřiž hinak hač wy rěča.
 varying-pronunciations-explanation-2 = Jeli wšak měniće, zo čitar je słowo přez připad namakał a wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 varying-pronunciations-example = Ruta běše njejasna.
 misreadings-explanation-2 = Jara časte zmylki su:

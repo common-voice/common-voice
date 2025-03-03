@@ -12,6 +12,7 @@ volume = Głosnosć
 reader-effects = Efekty cytarja
 just-unsure = Jano njewěsty?
 example = Pśikład
+varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Buźćo wjelgin wobglědniwy, nježli až klip z wobtwarźenim wótpokazujośo, dokulaž mysliśo, až cytaŕ jo wopak wugronił słowo, jo stajił pśizuk na wopacne městno abo ignorěrował interpunkciju. Wjele wugronjenjow se pó cełem swěśe wužywa, snaź njejsćo słyšał někotare z nich w swójom lokalnem zgromaźeństwje. Pšosym pśizwólśo tym wjelikomyslnu lichotnosć, kótarež hynac ako wy powědaju.
 varying-pronunciations-explanation-2 = Jolic pak měniśo, až cytaŕ jo namakał słowo pśez pśipad a wopak wugódał wugronjenje, wótpokažćo pšosym. Jolic se wěsty njejsćo, wužywajśo tłocašk Pśeskócyś.
 varying-pronunciations-example = Ruta jo była njejasna.
 misreadings-explanation-2 = Wjelgin ceste zmólki su:
