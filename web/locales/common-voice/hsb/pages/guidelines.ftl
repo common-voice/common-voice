@@ -72,6 +72,7 @@ adding-sentences-subheader-numbers = Ličby
 adding-sentences-subheader-abbreviations = Skrótšenki a akronymy
 adding-sentences-subheader-abbreviations-explanation = Skrótšenki a akronymy kaž „USA“ abo „ICE“ měli so w žórłowym teksće wobeńć, dokelž so snano na wašnje čitaja, kotrež jich prawopisej njewotpowěduje. Nimo toho su snano wjacore korektne čitanja za jednotliwu skrótšenku.
 adding-sentences-subheader-punctuation = Interpunkcija
+adding-sentences-subheader-punctuation-explanation = Specialne symbole a interpunkciske znamješka měli so jenož zapřijeć, hdyž absolutnje trěbne. Apostrof na přikład je w jendźelskich słowach kaž „don't“ a „we're“ wobsahowany a měł so do žórłoweho teksta přewzać, ale njeje prawdźepodobnje, zo trjebaće specialny symbol kaž „@“ abo „#“.
 adding-sentences-subheader-special-characters = Wosebite znamješka a cuze pismiki
 adding-sentences-subheader-special-characters-explanation-1 = Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
 adding-sentences-subheader-special-characters-explanation-2 = Rěče móža swójske přepruwowanske prawidła z přidatnymi žadanjemi měć, hdyž so přełožuja. Jeli njeje wěsta kontrolna dataja, so prawidła jendźelšćiny za sobuskutkowarjow pokazuja.
