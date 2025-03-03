@@ -92,6 +92,8 @@ about-playbook-how-record-quality = იმჟი ალიჲრად ხარ
 about-playbook-how-record-content-1 = ლა̈ხგჷრგა̈ლ ნორმალურ ჰერშუ̂! მთავარ ლი ისგუ ლიგჷრგა̈ლი̄ სა̈ხ − ნა̈ჲ ნაწჷხ ისგუ ბუნებრივ აქცენტ, ჰერი ჩვეულებრივ ნაკლა̈თხი, სტილ ი ინტონაცია.
 about-playbook-how-record-content-2 = ლა̈ხჷნთხილა̄ლ სურუ სა̈ხმა̈ხს გირკიდ − ისგუ ლიჰუ̂ნა̈რი ხეკუ̂ესე ჰა̈დუ̂ილ ლესსუ̂.
 about-playbook-how-record-content-3 = გუ̂ილჷჰოდდ ა̈თჭოდა̄̈ნ წინადადება̈ლ − ნო̄მა ლახცურა, ნო̄ ახცა̄დუ̄ნა ი ნო̄ჲ ესქჷმა სიტყუ̂ა̄̈ლ.
+about-playbook-how-record-content-4 = გარგლა̄̈ ლიბნა̄ლ დარწმუნდი, ერე პლატფორმა იჲრი ი იჩრა̈უ̂ი ეჩქა გარ, შომუ̂ა̄̈ჲ სი ქ'ა̄თზჷგრი.
+about-playbook-how-record-content-5 = <accuracyLink>ლჷნწუდად კრიტერიუმლე სიზუსტე̄მი ბედჟი.</accuracyLink>
 
 ## How to grow language
 
