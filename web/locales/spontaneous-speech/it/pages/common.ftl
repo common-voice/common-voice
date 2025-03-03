@@ -29,6 +29,7 @@ request-new-language = Richiedi nuova lingua
 ## Navbar
 
 respond-to-prompt = Rispondi alla domanda
+transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
 question = Domanda
 
