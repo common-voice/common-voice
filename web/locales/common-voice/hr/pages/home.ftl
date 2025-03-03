@@ -182,6 +182,7 @@ explore-datasets = Istraži skupove podataka <icon></icon>
 ## Get involved section
 
 get-involved-section-title = Podrži skupove podataka bez autorskih prava koje vodi zajednica
+read-sentences-link = Čitaj rečenice
 validate-readings-link = Potvrdi čitanja
 contribute-link = Doprinesi tekstualnom korpusu
 answer-questions-link = Odgovori na pitanja

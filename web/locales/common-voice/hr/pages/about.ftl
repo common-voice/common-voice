@@ -117,6 +117,7 @@ about-playbook-how-grow-language-content-4 = Društveni mediji
 about-playbook-how-grow-language-content-5 = Za širenje poruke možeš koristiti platforme društvenih medija. Dijeli objave koje objašnjavaju njenu važnost i stupi u kontakt s drugim ljudima koji razgovaraju o problemima kao što su jezična prava, glasovna umjetna inteligencija ili pristranost u tehnologiji. Pogledaj savjete o <campaignLink>vođenju društvene kampanje, uključujući sadržaj koji možeš ponovo koristiti</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerstva i mreže
 about-playbook-how-grow-language-content-7 = Pronađi druge institucije/osobe kojima je ovo važno. To mogu biti sveučilišta, jezične škole, interesne grupe ili zajednice znanosti o podacima. Kontaktiraj ih i objasni kako oni mogu pomoći i zašto. <outreachTemplates>Pogledaj naše e-mail predloške za kontaktiranje</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Budi kreativan/na!</strong> Tvoja će jezična zajednica biti jedinstvena, a ovo je samo nekoliko načina za započinjanje.
 
 ## How to validate
 
