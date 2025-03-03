@@ -54,11 +54,17 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   const [age, setAge] = React.useState('')
   const [gender, setGender] = React.useState('')
   const [country, setCountry] = React.useState('')
+  const [emailAddress, setEmailAddress] = React.useState('')
 
   const isVariantInputVisible = Boolean(variantsAll[locale])
 
+  // is email address valid
+  const isValidEmailAddress = (emailAddress: string) => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(emailAddress).toLowerCase());
+  }
   const isAddInformationButtonDisabled =
-    userLanguages[0].accents.length === 0 && !userLanguages[0].variant
+    userLanguages[0].accents.length === 0 && !userLanguages[0].variant || !isValidEmailAddress(emailAddress)
 
   const api = useAPI();
 
@@ -79,6 +85,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       age,
       gender,
       country,
+      emailAddress
     };
 
     try {
@@ -135,6 +142,22 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   {/* Fieldset for age, gender, and country */}
   <fieldset className="border border-gray-300 p-4 rounded-lg">
     <legend className="text-black text-md px-2">تفاصيل المستخدم</legend>
+    <div className="input-group flex flex-col mt-4">
+      <label htmlFor="email" className="text-gray-500 text-md">البريد الشبكي*:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
+        placeholder="البريد الشبكي"
+        onChange={(e) => setEmailAddress(e.target.value)}
+      />
+      {/* Email Should be mendatory */}
+      {!isValidEmailAddress(emailAddress) && emailAddress.length > 0 &&
+        <span className="text-red-500 text-sm">البريد الشبكي غير صالح</span>
+      }
+
+    </div>
     <div className="input-group flex flex-col mt-4">
       <label htmlFor="age" className="text-gray-500 text-md">العمر:</label>
       <select
