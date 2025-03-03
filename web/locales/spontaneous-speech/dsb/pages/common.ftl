@@ -29,6 +29,7 @@ request-new-language = Nowu rěc pominaś
 ## Navbar
 
 respond-to-prompt = Na naspominanje wótegroniś
+transcribe = Transkriběrowaś
 check-transcriptions = Transkripcije pśeglědowaś
 question = Pšašanje
 

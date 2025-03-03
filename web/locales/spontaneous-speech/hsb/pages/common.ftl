@@ -29,6 +29,7 @@ request-new-language = Nowu rěč požadać
 ## Navbar
 
 respond-to-prompt = Na namołwu wotmołwić
+transcribe = Transkribować
 check-transcriptions = Transkripcije přepruwować
 question = Prašenje
 
