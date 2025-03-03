@@ -7,6 +7,7 @@ action-tap = Tapiwch
 # Label for language switcher
 platform-language = Iaith y platfform:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Yn cyfrannu at set ddata ar gyfer { $language }
 # Label for button on contribution switcher
 change = Newid

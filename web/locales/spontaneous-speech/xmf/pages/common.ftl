@@ -5,6 +5,7 @@ error = ჩილათა
 action-click = ქიგუკაკეთ
 action-tap = ქიგუნჭირით
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = წილიშ მიშაღალა მუნაჩემეფიშ ბაზაშა { $language } - შოთ
 # Label for button on contribution switcher
 change = დოთირუა

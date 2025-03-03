@@ -5,6 +5,7 @@ error = غلطی
 action-click = کلک
 action-tap = انگلی لاؤ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹ بچ { $language } آسطے حصہ با رے آں
 # Label for button on contribution switcher
 change = بدلاؤ

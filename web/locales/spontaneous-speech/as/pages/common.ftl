@@ -7,6 +7,7 @@ action-tap = স্পৰ্শ কৰক
 # Label for language switcher
 platform-language = প্লেটফৰ্মৰ ভাষা:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } ভাষাৰ ডেটাছেটলৈ অৱদান আগবঢ়াই আছে
 # Label for button on contribution switcher
 change = সলনি কৰক

@@ -5,6 +5,7 @@ error = 錯誤
 action-click = 點擊
 action-tap = 輕觸
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 變更 { $language }
 # Label for button on contribution switcher
 change = 更多語言即將推出

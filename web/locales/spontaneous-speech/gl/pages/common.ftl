@@ -7,6 +7,7 @@ action-tap = Toque
 # Label for language switcher
 platform-language = Idioma da páxina:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Está contribuíndo ao conxunto de datos do { $language }
 # Label for button on contribution switcher
 change = Cambiar

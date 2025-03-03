@@ -7,6 +7,7 @@ action-tap = Πατήστε
 # Label for language switcher
 platform-language = Γλώσσα πλατφόρμας:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
 # Label for button on contribution switcher
 change = Αλλαγή

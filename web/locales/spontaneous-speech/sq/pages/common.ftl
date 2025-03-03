@@ -7,6 +7,7 @@ action-tap = Prekeni
 # Label for language switcher
 platform-language = Gjuhë platforme:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Dhënie kontributi te grup të dhënash për { $language }
 # Label for button on contribution switcher
 change = Ndryshoje

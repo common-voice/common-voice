@@ -7,6 +7,7 @@ action-tap = 点按
 # Label for language switcher
 platform-language = 平台语言：
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 为 { $language } 数据集做贡献
 # Label for button on contribution switcher
 change = 更改

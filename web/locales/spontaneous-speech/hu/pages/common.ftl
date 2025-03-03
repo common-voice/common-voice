@@ -7,6 +7,7 @@ action-tap = Koppintson
 # Label for language switcher
 platform-language = Platform nyelve:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Közreműködés a(z) { $language } adatkészletben
 # Label for button on contribution switcher
 change = Módosítás

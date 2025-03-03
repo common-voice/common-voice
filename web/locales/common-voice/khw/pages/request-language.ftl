@@ -27,3 +27,5 @@ request-language-success-list-2 =
     کوروم کوراو بیرائے توغو دی تہ تین لوو دوئے
 request-language-success-list-3 = تہ تین ای کما بسا اسپہ ویلٹیار کیا جواب کی نو ہائے۔ اسپہ تین نیویشے <emailLink>{ $email }</emailLink> وا اسپہ تہ تین  جواب دوسی۔
 request-language-error = تہ ہتے دردخواست اسپہ سوم نو توریرو بوئے۔ مہربانی کوری اسپہ تین ای میل کو<emailLink>{ $email }</emailLink>وا اسپہ تہ تین جواب دوسی۔
+request-for-scripted-speech-toggle = نیویشیرو لوو پچین درخواست کو
+request-for-spontaneous-speech-toggle = جاری لوو پچین درخواست کو
