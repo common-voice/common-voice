@@ -11,3 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = اپلوڈ نو ہوئے، مہربانی کوری وا کوشش کو
 add-question-too-many-questions-error = 500 سوالار ذیاد ہونی۔ سولان کمے وا کوشش کو
+# Guidelines
+add-question-guidelines-title = کیا سوال اوا شامل کوریکو بوم
+do-section-title = کورے
+do-section-guideline-1 = صحیح املہ وا گرائمر استعمال کو
+do-section-guideline-2 = سادہ سواالان گنے کہ ہیت سفو ہوݰ کوریکو بݰ بانی۔ تان ثقافتو یا ژاغو بیک ضروری نو۔
+do-section-guideline-3 = ہیا ضروری کی ہیتان جواب ای کما جملا دین بائے
+do-not-section-title = نو
+do-not-section-guideline-3 = حساس سوال کو
