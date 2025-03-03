@@ -76,6 +76,7 @@ read-more-about = Află mai multe pe pagina Despre
 
 ## NAV ITEMS
 
+review-transcriptions = Examinează transcrierile
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,6 +104,7 @@ read-more-about = Află mai multe pe pagina Despre
 
 ## Get involved section
 
+review-transcriptions-link = Examinează transcrieri
 
 ## Partner section
 
