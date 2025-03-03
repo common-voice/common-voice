@@ -25,7 +25,6 @@ contribute = De
 ## Navbar
 
 respond-to-prompt = Jawab sahi kai dekas bati
-transcribe-audio = Audio newishi
 check-transcriptions = Newishila Jagai/ check kari
 
 ## Not Found Page

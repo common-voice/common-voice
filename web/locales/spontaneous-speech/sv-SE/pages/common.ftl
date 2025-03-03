@@ -29,7 +29,6 @@ request-new-language = Begär nytt språk
 ## Navbar
 
 respond-to-prompt = Svara på prompt
-transcribe-audio = Transkribera ljud
 check-transcriptions = Kontrollera transkriptioner
 question = Fråga
 

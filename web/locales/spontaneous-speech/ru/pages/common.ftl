@@ -28,7 +28,6 @@ request-new-language = Запросить новый язык
 ## Navbar
 
 respond-to-prompt = Ответить на запрос
-transcribe-audio = Транскрибировать аудио
 check-transcriptions = Проверить транскрипции
 question = Вопрос
 

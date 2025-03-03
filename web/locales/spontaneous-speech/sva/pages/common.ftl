@@ -25,7 +25,6 @@ contribute = ლიმურჯუ̂ი
 ## Navbar
 
 respond-to-prompt = ლოხპასუ̂იხუ̂ იმუ̂ა̄̈ჲ იჰრიხ
-transcribe-audio = ახა̈სყ აუდიოშ ტრასკრიფცია
 check-transcriptions = ჩუ̂ათმოწმა̈ნ ტრანსკრიფცია̄̈ლ
 
 ## Not Found Page

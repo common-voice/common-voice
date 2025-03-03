@@ -26,7 +26,6 @@ request-new-language = نوّی زبان دی درخواست کرو
 ## Navbar
 
 respond-to-prompt = پرامپٹ دا جواب دو
-transcribe-audio = آواز کو ٹرانسکرائب کرو
 check-transcriptions = ٹرانسکرپشناں چیک کرو
 
 ## Not Found Page

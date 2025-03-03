@@ -25,7 +25,6 @@ contribute = წილიშ მიშაღალა
 ## Navbar
 
 respond-to-prompt = ქუგამით მოთხუალას
-transcribe-audio = აუდიოში ნაჭარათ მოჩამა
 check-transcriptions = ნაჭარაშ გინოჯინა
 
 ## Not Found Page

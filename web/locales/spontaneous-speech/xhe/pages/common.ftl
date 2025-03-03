@@ -26,7 +26,6 @@ request-new-language = نویں ٻولی دا سؤال کر
 ## Navbar
 
 respond-to-prompt = پرامپٹیک جواب ݙے
-transcribe-audio = آڈیو نقل کر
 check-transcriptions = نقلیاں لال
 
 ## Not Found Page

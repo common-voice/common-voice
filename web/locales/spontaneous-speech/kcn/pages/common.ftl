@@ -25,7 +25,6 @@ contribute = Awunu
 ## Navbar
 
 respond-to-prompt = Juwab matlaba
-transcribe-audio = Kutu kalam fi sauti
 check-transcriptions = Hakikisha kalamaa al maktub
 
 ## Not Found Page

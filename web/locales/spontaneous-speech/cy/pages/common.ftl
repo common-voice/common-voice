@@ -29,7 +29,6 @@ request-new-language = Gofyn am Iaith Newydd
 ## Navbar
 
 respond-to-prompt = Ymateb i Bromptiau
-transcribe-audio = Trawsgrifio Sain
 check-transcriptions = Gwirio Trawsgrifiadau
 question = Cwestiwn
 

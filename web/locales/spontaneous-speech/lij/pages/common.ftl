@@ -26,7 +26,6 @@ request-new-language = Domanda unna neuva lengua
 ## Navbar
 
 respond-to-prompt = Replica a-a domanda
-transcribe-audio = Trascrivi l’audio
 check-transcriptions = Verifica e trascriçioin
 
 ## Not Found Page

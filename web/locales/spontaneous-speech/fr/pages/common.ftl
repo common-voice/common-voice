@@ -25,7 +25,6 @@ contribute = Contribuer
 ## Navbar
 
 respond-to-prompt = Répondre à la question
-transcribe-audio = Transcrire l'audio
 check-transcriptions = Vérifier les transcriptions
 
 ## Not Found Page

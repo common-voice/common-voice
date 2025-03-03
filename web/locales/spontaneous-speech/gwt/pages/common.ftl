@@ -25,7 +25,6 @@ contribute = لُبُسِک
 ## Navbar
 
 respond-to-prompt = آدیوَہ نقل کېرِؤ
-transcribe-audio = آڈیو نامہ نقل کېرِؤ
 check-transcriptions = نقل نامہ چېک کېرِؤ
 
 ## Not Found Page

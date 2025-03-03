@@ -25,7 +25,6 @@ contribute = Otolere
 ## Navbar
 
 respond-to-prompt = Oyiremu ku puromput
-transcribe-audio = Owulilisie amadowozi
 check-transcriptions = Obone mu Madobozi
 
 ## Not Found Page

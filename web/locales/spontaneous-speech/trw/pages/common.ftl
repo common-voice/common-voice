@@ -25,7 +25,6 @@ contribute = تُنُو ڈأھارا دا
 ## Navbar
 
 respond-to-prompt = ہیِریِک سی جواب دا
-transcribe-audio = آڈیو لیِگا
 check-transcriptions = آڈیو سی لیِگیل چیک کوا
 
 ## Not Found Page

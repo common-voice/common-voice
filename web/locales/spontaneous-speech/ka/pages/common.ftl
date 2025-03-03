@@ -28,7 +28,6 @@ request-new-language = მოითხოვეთ ახალი ენა
 ## Navbar
 
 respond-to-prompt = პასუხი მოთხოვნაზე
-transcribe-audio = ნაწერის სახით გადმოცემა
 check-transcriptions = ნაწერად ქცეულის შემოწმება
 question = შეკითხვა
 

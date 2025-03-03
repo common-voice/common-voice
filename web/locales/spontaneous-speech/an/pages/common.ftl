@@ -25,7 +25,6 @@ contribute = Colaborar
 ## Navbar
 
 respond-to-prompt = Responder a la pregunta
-transcribe-audio = Transcribir audio
 check-transcriptions = Comprebar transcripcions
 
 ## Not Found Page

@@ -25,7 +25,6 @@ contribute = دیم
 ## Navbar
 
 respond-to-prompt = سوال جواب دے
-transcribe-audio = آڈیو ٹرانسکرائب تھے
 check-transcriptions = ٹرانسکریپشن چیک تھے
 
 ## Not Found Page

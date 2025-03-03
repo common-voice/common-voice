@@ -25,7 +25,6 @@ contribute = תרומה
 ## Navbar
 
 respond-to-prompt = השב להנחיה
-transcribe-audio = תמלול שמע
 check-transcriptions = בדיקת תמלול
 
 ## Not Found Page

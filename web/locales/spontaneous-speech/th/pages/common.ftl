@@ -28,7 +28,6 @@ request-new-language = ขอภาษาใหม่
 ## Navbar
 
 respond-to-prompt = ตอบกลับข้อความคำสั่ง
-transcribe-audio = ถอดเสียง
 check-transcriptions = ตรวจทานการถอดเสียง
 question = คำถาม
 

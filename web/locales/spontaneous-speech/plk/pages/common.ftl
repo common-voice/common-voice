@@ -28,7 +28,6 @@ request-new-language = نئی جِبے درخواست
 ## Navbar
 
 respond-to-prompt = پرامپٹے جُواب دِیا
-transcribe-audio = آڈیو نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
 question = سوال
 

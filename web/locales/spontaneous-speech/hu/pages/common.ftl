@@ -28,7 +28,6 @@ request-new-language = Új nyelv kérése
 ## Navbar
 
 respond-to-prompt = Válasz a kérdésre
-transcribe-audio = Hang leiratozása
 check-transcriptions = Leiratok ellenőrzése
 question = Kérdés
 

@@ -25,7 +25,6 @@ contribute = بݳگُݸ بݳنا
 ## Navbar
 
 respond-to-prompt = سݸݳلݵئ جݸݳب دݸ
-transcribe-audio = پݸرجِنݳ چھتݵئ گِرمِنݳئی ترجمہ اݵر
 check-transcriptions = چݵک ٹرݳنسکرِپشنز
 
 ## Not Found Page

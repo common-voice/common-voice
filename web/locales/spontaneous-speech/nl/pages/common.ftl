@@ -26,7 +26,6 @@ request-new-language = Nieuwe taal aanvragen
 ## Navbar
 
 respond-to-prompt = Prompt beantwoorden
-transcribe-audio = Audio transcriberen
 check-transcriptions = Transcripties controleren
 
 ## Not Found Page

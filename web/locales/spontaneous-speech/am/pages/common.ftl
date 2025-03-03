@@ -25,7 +25,6 @@ contribute = ያበርክቱ
 ## Navbar
 
 respond-to-prompt = ለፈጣን ምላሽ ይስጡ
-transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
 check-transcriptions = ፅሁፎችን ያረጋግጡ
 
 ## Not Found Page

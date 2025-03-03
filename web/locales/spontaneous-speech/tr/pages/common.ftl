@@ -28,7 +28,6 @@ request-new-language = Yeni dil iste
 ## Navbar
 
 respond-to-prompt = İstemi/Soruyu Yanıtla
-transcribe-audio = Konuşmayı Metne Çevir
 check-transcriptions = Metne Çevrilmişleri Denetle
 question = Soru
 

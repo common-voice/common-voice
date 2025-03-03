@@ -25,7 +25,6 @@ contribute = Rand/kat̃
 ## Navbar
 
 respond-to-prompt = Yi zẽmun jawob
-transcribe-audio = Owog̃h nivish
 check-transcriptions = Nivishetk didig̃hit
 
 ## Not Found Page
