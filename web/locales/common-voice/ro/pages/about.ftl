@@ -69,6 +69,7 @@ about-playbook-what-is-language-content-3 = Unele limbi prezintă variații cons
 
 ## How do I add a language
 
+about-playbook-how-add-language = Cum adaug o limbă?
 
 ## How does localization work
 
