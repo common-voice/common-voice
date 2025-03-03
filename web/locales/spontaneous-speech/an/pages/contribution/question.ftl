@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = La carga ha fallau, torna a intentar-lo.
 add-question-too-many-questions-error = S'ha pasau de 500 preguntas. Reduce lo numero de preguntas y torna a intentar-lo.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } d'1 pregunta replegada. Leye las nuestras  View our <guidelinesLink>indicacions</guidelinesLink> pa saber mas sobre cómo anyadir preguntas.
+       *[other] { $uploadedQuestions } de { $totalQuestions } preguntas replegadas. Leye las nuestras  View our <guidelinesLink>indicacions</guidelinesLink> pa saber mas sobre cómo anyadir preguntas.
+    }
 # Guidelines
 add-question-guidelines-title = Qué preguntas puedo anyadir?
 do-section-title = sí:
