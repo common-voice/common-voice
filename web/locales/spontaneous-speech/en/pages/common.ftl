@@ -29,9 +29,9 @@ request-new-language = Request New Language
 
 ## Navbar
 
-respond-to-prompt = Respond To Prompt
-transcribe-audio = Transcribe Audio
-check-transcriptions = Check Transcriptions
+respond-to-prompt = Answer
+transcribe = Transcribe
+check-transcriptions = Review
 question = Question
 
 ## Not Found Page
