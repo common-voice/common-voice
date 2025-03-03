@@ -32,3 +32,6 @@ request-language-success-list-3 =
 request-language-error =
     Možda nismo primili taj zahtjev. Pošalji nam e-mail izravno
     na <emailLink>{ $email }</emailLink> i mi ćemo ti se javiti!
+request-for-scripted-speech-toggle = Zahtjev za pisani govor
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Pisani govor</strong> (tradicionalno ono što poznaš kao Common Voice) je mjesto gdje možeš naglas čitati rečenice na svom jeziku.

@@ -5,6 +5,7 @@ error = Flater
 action-click = Klikke
 action-tap = Tikke
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bydrage oan gegevensset foar { $language }
 # Label for button on contribution switcher
 change = Wizigje

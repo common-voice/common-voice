@@ -4,7 +4,10 @@
 error = ผิดพลาด
 action-click = คลิก
 action-tap = แตะ
+# Label for language switcher
+platform-language = ภาษาแพลตฟอร์ม:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = กำลังมีส่วนร่วมกับชุดข้อมูลสำหรับภาษา { $language }
 # Label for button on contribution switcher
 change = เปลี่ยน
@@ -27,6 +30,7 @@ request-new-language = ขอภาษาใหม่
 respond-to-prompt = ตอบกลับข้อความคำสั่ง
 transcribe-audio = ถอดเสียง
 check-transcriptions = ตรวจทานการถอดเสียง
+question = คำถาม
 
 ## Not Found Page
 

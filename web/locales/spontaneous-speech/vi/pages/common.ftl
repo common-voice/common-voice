@@ -5,6 +5,7 @@ error = Lỗi
 action-click = Nhấp vào
 action-tap = Chạm
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Đóng góp vào tập dữ liệu cho { $language }
 # Label for button on contribution switcher
 change = Thay đổi

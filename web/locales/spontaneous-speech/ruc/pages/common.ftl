@@ -5,6 +5,7 @@ error = Nsobi
 action-click = Nnyiga
 action-tap = kwataku
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = okuwayo amawuuro agakwata okululimi
 # Label for button on contribution switcher
 change = kyusa

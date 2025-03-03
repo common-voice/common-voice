@@ -4,7 +4,10 @@
 error = Ошибка
 action-click = Нажать
 action-tap = Нажать
+# Label for language switcher
+platform-language = Язык платформы:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Участие в наборе данных для { $language }
 # Label for button on contribution switcher
 change = Изменить
@@ -27,6 +30,7 @@ request-new-language = Запросить новый язык
 respond-to-prompt = Ответить на запрос
 transcribe-audio = Транскрибировать аудио
 check-transcriptions = Проверить транскрипции
+question = Вопрос
 
 ## Not Found Page
 

@@ -5,6 +5,7 @@ error = Ensoobi
 action-click = Nyiga
 action-tap = Konaku
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Okutolera ku database ya
 # Label for button on contribution switcher
 change = Kyuusaia

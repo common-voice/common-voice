@@ -5,6 +5,7 @@ error = Feil
 action-click = Klikk
 action-tap = Trykk
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bidrar til datasett for { $language }
 # Label for button on contribution switcher
 change = Endre

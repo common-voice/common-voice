@@ -46,7 +46,7 @@ sc-criteria-item-4 = Cümle kriterleri karşılıyorsa sağdaki &quot;Onayla&quo
 sc-criteria-item-5-2 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &quot;Reddet&quot; düğmesine tıklayın. Emin olmadığınız cümleleri atlayarak bir sonrakine geçebilirsiniz.
 sc-criteria-item-6 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Dilbigisi açısından doğru olup olmadığını <icon></icon> kontrol edin
+sc-review-instruction = <icon></icon> Bu cümle dilbilgisi açısından doğru mu?
 sc-review-rules-title = Cümle yönergelere uygun mu?
 sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
 report-sc-different-language = Farklı dil

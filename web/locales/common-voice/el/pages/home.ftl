@@ -80,6 +80,7 @@ answer-questions-coming-soon = Απάντηση ερωτήσεων <small>(Πρ�
 review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 review-transcriptions-coming-soon = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
+add-questions-coming-soon = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
 transcribe-audio-coming-soon = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα

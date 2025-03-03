@@ -81,7 +81,7 @@ n-clips-pluralized =
        *[other] ശബ്ദശകലങ്ങൾ
     }
 help-share-goal = കൂടുതൽ ശബ്ദങ്ങൾ കണ്ടെത്താൻ ഞങ്ങളെ സഹായിക്കുക, നിങ്ങളുടെ ലക്ഷ്യം പങ്കിടുക
-confirm-goal = ലക്ഷ്യം സ്ഥിരീകരിക്കുക
+confirm-goal = ലക്ഷ്യം തീൎച്ചപ്പെടുത്തുക
 goal-interval-weekly = പ്രതിവാര
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type }-ലെ നിങ്ങളുടെ { $count } ശബ്ദശകല പ്രതിദിനലക്ഷ്യം പങ്കിടുക

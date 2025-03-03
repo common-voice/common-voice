@@ -5,6 +5,7 @@ error = Fazi
 action-click = Klikañ
 action-tap = Pouezañ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = O kemer perzh er strobad roadennoù evit { $language }
 # Label for button on contribution switcher
 change = Kemmañ

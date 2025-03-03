@@ -111,17 +111,28 @@ rate-limit-message-minutes = ທ່ານໄດ້ຮອດຂີດຄ່າທ
 rate-limit-message-seconds = ທ່ານໄດ້ຮອດຂີດຄ່າທີ່ຈຳກັດການສົ່ງຂໍ້ມູນສຳລັບໜ້ານີ້ແລ້ວ. ກະລຸນາລໍຖ້າ { $retryLimit } ວິນາທີກ່ອນທີ່ຈະສົ່ງປະໂຫຍກອື່ນ. ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ສໍາ​ລັບ​ຄວາມ​ອົດ​ທົນ​ຂອງ​ທ່ານ​!
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success = ລວບລວມປະໂຫຍກ { $uploadedSentences } ຂອງ { $totalSentences } ແລ້ວ
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = ລວບລວມປະໂຫຍກ { $uploadedSentences } ຂອງ { $totalSentences } ແລ້ວ. ຄລິກ <downloadLink>ທີ່ນີ້</downloadLink> ເພື່ອດາວໂຫລດປະໂຫຍກທີ່ຖືກປະຕິເສດ.
 small-batch-sentences-rule-1 = ປະຕິບັດຕາມຄໍາແນະນໍາຈາກ "ຂ້ອຍສາມາດເພີ່ມປະໂຫຍກໃດໄດ້ແດ່?"
+small-batch-sentences-rule-2 = ເພີ່ມຫນຶ່ງປະໂຫຍກຕໍ່ແຖວ
+small-batch-sentences-rule-3 = ແຍກປະໂຫຍກອອກເປັນແຖວຫນຶ່ງໂດຍການກົດ "Enter" ຫຼື "Return" ຫນຶ່ງຄັ້ງ
 small-batch-sentences-rule-4 = ເພີ່ມເຖິງ 1,000 ປະໂຫຍກ
+small-batch-sentences-rule-5 = ທຸກໆປະໂຫຍກຕ້ອງມີໂດເມນດຽວກັນ
+small-batch-sentences-rule-6 = ທຸກປະໂຫຍກຕ້ອງມີການອ້າງອີງອັນດຽວກັນ
 # menu item
 add-sentences = ເພີ່ມປະໂຫຍກ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = ເພີ່ມ ແລະ ກວດຄືນປະໂຫຍກ, ເພີ່ມຄໍາຖາມ, ຖອດຂໍ້ຄວາມສຽງ
 add-sentences-menu-item-tooltip = ເພີ່ມປະໂຫຍກໃນພາສາຂອງທ່ານ
 review-sentences-menu-item-tooltip = ທົບທວນປະໂຫຍກໃນພາສາຂອງທ່ານ
 add-questions-menu-item-tooltip = ເພີ່ມຄຳຖາມໃນພາສາຂອງທ່ານ
+transcribe-audio-menu-item-tooltip = ຖອດຂໍ້ຄວາມສຽງບັນທຶກເປັນພາສາຂອງທ່ານ
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = ຂຽນເມນູຕົວເລືອກ
+add-sentences-menu-item-aria-label = ເພີ່ມປະໂຫຍກໃຫມ່ສໍາລັບຊຸມຊົນທີ່ຈະອ່ານ
+review-sentences-menu-item-aria-label = ກວດຄືນປະໂຫຍກທີ່ມີຢູ່ແລ້ວທີ່ສົ່ງໂດຍຊຸມຊົນ
+add-questions-menu-item-aria-label = ສົ່ງຄໍາຖາມໃຫມ່ເພື່ອໃຫ້ຊຸມຊົນອ່ານ ແລະ ຕອບສະຫນອງ
