@@ -4,7 +4,10 @@
 error = 错误
 action-click = 点击
 action-tap = 点按
+# Label for language switcher
+platform-language = 平台语言：
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 为 { $language } 数据集做贡献
 # Label for button on contribution switcher
 change = 更改
@@ -27,6 +30,7 @@ request-new-language = 请求新语言
 respond-to-prompt = 回答引导语
 transcribe-audio = 转录音频
 check-transcriptions = 检查转录文本
+question = 问题
 
 ## Not Found Page
 

@@ -12,6 +12,8 @@ listen-abort-cancel = დეყყჲარენ  მაყ ცო ბალ'�
 listen-abort-confirm = დეყყჲარენ მაყ ბალ'არ
 # Menu item
 validate-readings = ჰ̦ალო̆ ხატტრეჼ დასტურ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ჰ̦ალ̆ ხატტარ დაყყდარ <small> (ქასტეჼ)</small>
 
 ## MENU ITEM TOOLTIPS
 

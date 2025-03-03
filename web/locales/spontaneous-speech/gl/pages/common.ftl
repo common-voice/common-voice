@@ -4,7 +4,10 @@
 error = Erro
 action-click = Prema
 action-tap = Toque
+# Label for language switcher
+platform-language = Idioma da páxina:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Está contribuíndo ao conxunto de datos do { $language }
 # Label for button on contribution switcher
 change = Cambiar
@@ -20,12 +23,14 @@ report-button = Informar
 skip-button = Saltar
 submit-button = Enviar
 contribute = Colabore
+request-new-language = Solicitar un novo idioma
 
 ## Navbar
 
 respond-to-prompt = Responda a pregunta
 transcribe-audio = Transcriba gravacións
 check-transcriptions = Revise transcricións
+question = Pregunta
 
 ## Not Found Page
 

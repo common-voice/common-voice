@@ -94,6 +94,7 @@ answer-questions-coming-soon = Odpovedajte na otázky <small>(už čoskoro)</sma
 review-transcriptions = Kontrolujte prepisy <small>(už čoskoro)</small>
 review-transcriptions-coming-soon = Kontrolujte prepisy <small>(už čoskoro)</small>
 add-questions = Pridajte otázky <small>(už čoskoro)</small>
+add-questions-coming-soon = Pridajte otázky <small>(už čoskoro)</small>
 transcribe-audio-coming-soon = Prepisujte zvuk <small>(už čoskoro)</small>
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy

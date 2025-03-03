@@ -5,6 +5,7 @@ error = Khata
 action-click = Nakas
 action-tap = Lemes
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Awunun fi koum ta malumaat ta
 # Label for button on contribution switcher
 change = Geeru

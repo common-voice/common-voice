@@ -264,6 +264,7 @@ privacy = Riservadesa
 terms = Cunditziones
 cookies = Testimòngios
 faq = PF
+documentation = Documentatzione
 content-license-text = Cuntenutu a disponimentu a suta de sa <licenseLink>lissèntzia Creative Commons</licenseLink>
 share-title = Agiuda·nos a agatare gente chi potzat donare sa boghe sua!
 share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: dona sa boghe tua a { $link }

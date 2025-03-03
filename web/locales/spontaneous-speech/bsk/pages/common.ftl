@@ -5,6 +5,7 @@ error = ṭʰis
 action-click = click etas
 action-tap = tap etin
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = dataset ar emasas
 # Label for button on contribution switcher
 change = badal etas

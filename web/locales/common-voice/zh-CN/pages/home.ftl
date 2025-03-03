@@ -77,6 +77,7 @@ answer-questions-coming-soon = 回答问题<small>（即将推出）</small>
 review-transcriptions = 审核转录文本<small>（即将推出）</small>
 review-transcriptions-coming-soon = 审核转录文本<small>（即将推出）</small>
 add-questions = 添加问题<small>（即将推出）</small>
+add-questions-coming-soon = 添加问题<small>（即将推出）</small>
 transcribe-audio-coming-soon = 转录音频<small>（即将推出）</small>
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章

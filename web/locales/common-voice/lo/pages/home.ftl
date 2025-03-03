@@ -89,6 +89,7 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 ## NAV ITEMS
 
 answer-questions = ຕອບຄໍາຖາມ
+add-questions = ເພີ່ມຄຳຖາມ
 transcribe-audio-coming-soon = ຖອດຂໍ້ຄວາມສຽງ <small>(ໄວໆນີ້)</small>
 transcribe-audio = ຖອດຂໍ້ຄວາມສຽງ
 press-and-stories = ກົດ ແລະ ເລື່ອງ
@@ -143,6 +144,8 @@ contribute-github-action = ປະກອບສ່ວນໃນ GitHub
 ## Featured section
 
 featured-section-title = ແນະນຳໃນ...
+# icon is an arrow that points downwards
+download-press-pack = ດາວໂຫລດຊຸດຂ່າວຂອງພວກເຮົາ <icon></icon>
 
 ## Developers section
 
@@ -162,3 +165,5 @@ press-and-stories-link = ກົດ ແລະ ເລື່ອງ
 partner-section-title = ເປັນຄູ່ຮ່ວມງານກັບພວກເຮົາ
 # icon is an arrow that points to the right
 get-in-touch-button = ຕິດຕໍ່ <icon></icon>
+# Partners section
+our-partners-include = ຄູ່ຮ່ວມງານຂອງພວກເຮົາປະກອບມີ ...

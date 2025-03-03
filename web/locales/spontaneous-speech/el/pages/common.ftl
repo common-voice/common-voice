@@ -4,7 +4,10 @@
 error = Σφάλμα
 action-click = Κάντε κλικ
 action-tap = Πατήστε
+# Label for language switcher
+platform-language = Γλώσσα πλατφόρμας:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
 # Label for button on contribution switcher
 change = Αλλαγή
@@ -27,6 +30,7 @@ request-new-language = Αίτημα για νέα γλώσσα
 respond-to-prompt = Απάντηση σε προτροπή
 transcribe-audio = Μεταγραφή ήχου
 check-transcriptions = Έλεγχος μεταγραφών
+question = Ερώτηση
 
 ## Not Found Page
 
