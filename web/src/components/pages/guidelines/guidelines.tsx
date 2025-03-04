@@ -8,6 +8,7 @@ import Page from '../../ui/page'
 import PageHeading from '../../ui/page-heading'
 import VoiceSidebarContent from './sidebar-content/voice-sidebar-content'
 import SentenceSidebarContent from './sidebar-content/sentence-sidebar-content'
+import { QuestionSidebarContent } from './sidebar-content/question-sidebar-content'
 import RoundButton from '../../ui/round-button'
 import { DiscourseIconCode, MailIcon } from '../../ui/icons'
 import VisuallyHidden from '../../visually-hidden/visually-hidden'
@@ -152,6 +153,27 @@ const Guidelines = () => {
             </nav>
             <div className="sections">
               <SentenceSidebarContent />
+            </div>
+          </TabPanel>
+          <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
+            <nav>
+              <ul>
+                <li>
+                  <div className="line" />
+                  <Link
+                    to={{
+                      pathname: location.pathname,
+                      hash: '#adding-questions',
+                      search: `?tab=question`,
+                    }}
+                    className="selected-option">
+                    <Localized id="adding-questions" />
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+            <div className="sections">
+              <QuestionSidebarContent />
             </div>
           </TabPanel>
         </Tabs>

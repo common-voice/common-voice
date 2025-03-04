@@ -1,5 +1,19 @@
 import * as React from 'react'
-import { VOICE_NAV_IDS } from './constants'
+import {
+  SENTENCE_NAV_IDS,
+  VOICE_NAV_IDS,
+  COLLECTING_QUESTIONS,
+} from './constants'
+
+const getDefaultTabOption = ({ tab }: { tab: string }) => {
+  if (tab === 'voice') {
+    return VOICE_NAV_IDS.PRONUNCIATIONS
+  } else if (tab === 'sentence') {
+    return SENTENCE_NAV_IDS.PUBLIC_DOMAIN
+  }
+
+  return COLLECTING_QUESTIONS
+}
 
 const useScrollToGuidelinesSection = () => {
   const { hash } = window.location
@@ -7,15 +21,19 @@ const useScrollToGuidelinesSection = () => {
 
   const [, tab] = location.search.split('tab=')
 
-  const defaultVoiceOption = VOICE_NAV_IDS.PRONUNCIATIONS
+  const defaultTabOption = getDefaultTabOption({ tab })
 
   const [selectedTabIndex, setSelectedTabIndex] = React.useState(0)
   const [selectedTabOption, setSelectedTabOption] =
-    React.useState(defaultVoiceOption)
+    React.useState(defaultTabOption)
 
   React.useEffect(() => {
     if (tab && tab === 'sentence') {
       setSelectedTabIndex(1)
+    }
+
+    if (tab && tab === 'question') {
+      setSelectedTabIndex(2)
     }
 
     if (hash) {

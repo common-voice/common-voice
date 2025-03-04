@@ -236,6 +236,12 @@
                     }
                 }
 
+                & .guidelines-content-subtitle {
+                    font-family: var(--base-font-family);
+                    font-size: 20px;
+                    margin-block-end: 12px;
+                }
+
                 & .guidelines-content-heading {
                     font-family: var(--base-font-family);
                     font-size: var(--font-size-lg);
