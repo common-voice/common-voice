@@ -80,6 +80,7 @@ answer-questions-coming-soon = سواٞلاٞں جواٞب دہ<small> (سواٞ
 review-transcriptions = چُنڑیلاں جائیزہ گِھن <small> (چُنڑیل شردہ اخکارہ ہوئ) </small>
 review-transcriptions-coming-soon = چُنڑیلاں جائیزہ گِھن <small> (چُنڑیل شردہ اخکارہ ہوئ) </small>
 add-questions = سواٞل مِلاٞ <small> (سواٞل شردہ اخکارہ ہوئ) </small>
+add-questions-coming-soon = سواٞل مِلاٞ <small> (سواٞل شردہ اخکارہ ہوئ) </small>
 transcribe-audio-coming-soon = آڈیو چُنڑیل کٞہ گِراٞ <small> (آڈیو شردہ اخکارہ ہوئ) </small>
 transcribe-audio = آڈیو چُنڑیل کٞہ گِراٞ <small> (آڈیو شردہ اخکارہ ہوئ) </small>
 press-and-stories = چاپ تے قصاٞ

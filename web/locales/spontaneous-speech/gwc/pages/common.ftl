@@ -4,9 +4,13 @@
 error = غلطی
 action-click = کلیک کٞر
 action-tap = دبار دہ
+# Label for language switcher
+platform-language = پلیٹ فارمیں جِب
+platform-language-tooltip-text = ویب سائیٹاں صرف مواد بداٞل ہوانت
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹ مئ شراکاٞت  کٞرنت جِبیں کیر{ $language }
+contribution-picker-tooltip-text = کاٞں جِباں مواداں سیٹ مئی تُو حصہ تلنت تاٞس بدلانت
 # Label for button on contribution switcher
 change = بداٞل کٞر
 coming-soon = دی جِیبونہ شاٞردہ یینت
@@ -21,6 +25,7 @@ report-button = رپوٹ
 skip-button = چھوروگ
 submit-button = جمع کٞر
 contribute = حصّہ گِھنوگ
+request-new-language = نِیم جِبیں کیر درخاس دہ
 
 ## Navbar
 
