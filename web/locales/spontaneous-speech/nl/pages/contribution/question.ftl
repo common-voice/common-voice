@@ -18,3 +18,5 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Welke vragen kan ik toevoegen?
+do-section-title = doen
+do-section-guideline-1 = Gebruik correcte spelling en grammatica
