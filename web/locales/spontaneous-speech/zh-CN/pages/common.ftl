@@ -28,6 +28,7 @@ request-new-language = 请求新语言
 ## Navbar
 
 respond-to-prompt = 回答引导语
+transcribe = 转录
 check-transcriptions = 检查转录文本
 question = 问题
 
