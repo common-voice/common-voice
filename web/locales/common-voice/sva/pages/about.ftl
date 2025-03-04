@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = <accuracyLink>ლჷნწუდად კ
 about-playbook-how-grow-language = იმჟი ჯა̈ჲმედა ნინი ეფექტურ განვითარება Common Voice-ჟი?
 about-playbook-how-grow-language-content-1 = მო̄შ-მო̄შ ხა̈ლხიშდ Common Voice-თე̄ჲსგა წუ̂ლილი ლიი საშუალება̄̈ ლიჰუ̂დი ეჩიი გარანტია ლი-ე მონაცემარე ხორეუ̂ს ა̈ნსჷრგები მა̈ჲ ლა̈თჲა̄ლს ლი ხოფში̄რა მა̄რე. ნა̈ჲ ჟ'ოხსყედ რესურსა̈ლ ი შაბლონა̈რ, იმშა ლისჷრგებლი სი ჯა̈ჲმედა!
 about-playbook-how-grow-language-content-2 = მოვლენა̄̈ლ
+about-playbook-how-grow-language-content-3 = სი ჩუ ჯა̈მჲედა ღონისძიებალე ლისყე̄ნე ი ხა̈ლხი ლიმურჯუ̂ი, ერე სგ'ა̄დიახ მინე წვლილ. ალა, ს'ერ ანღელი, ეჩან ხოშა იოლ ლი. ამი̄ ლისყი ჯემა̈რგ ონლაინ ვიდეოკონფერენცია̄̈ ხელსაწოშ, ჰედ პირადად, უსაფრთხო ლახ ლი.<eventTemplate> ხეწდ ნიშგუ̂ეჲ შაბლონა̈რს ი რესურსა̈რს ღონისძიება̄̈ ლა̈ფშუ̂დად</eventTemplate>.
+about-playbook-how-grow-language-content-4 = სოციალურ მედია
 
 ## How to validate
 
