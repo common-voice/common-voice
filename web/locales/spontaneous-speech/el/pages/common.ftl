@@ -9,6 +9,7 @@ platform-language = Γλώσσα πλατφόρμας:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
+contribution-picker-tooltip-text = Αλλάζει το σύνολο των δεδομένων γλώσσας στο οποίο συνεισφέρετε
 # Label for button on contribution switcher
 change = Αλλαγή
 coming-soon = Σύντομα σε περισσότερες γλώσσες
@@ -28,6 +29,7 @@ request-new-language = Αίτημα για νέα γλώσσα
 ## Navbar
 
 respond-to-prompt = Απάντηση σε προτροπή
+transcribe = Μεταγραφή
 check-transcriptions = Έλεγχος μεταγραφών
 question = Ερώτηση
 
