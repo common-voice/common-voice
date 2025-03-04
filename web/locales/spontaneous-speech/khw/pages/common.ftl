@@ -29,7 +29,6 @@ request-new-language = نوغ وارو درخواست کو
 ## Navbar
 
 respond-to-prompt = اشاران جوابو دیت
-transcribe-audio = ہوازو نیویشیکا غیراوے
 check-transcriptions = نیویشیروان لوڑے
 question = سوال
 

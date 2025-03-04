@@ -26,7 +26,6 @@ request-new-language = Be om nytt språk
 ## Navbar
 
 respond-to-prompt = Svar på spørsmål
-transcribe-audio = Transkribere lyd
 check-transcriptions = Sjekk transkripsjoner
 
 ## Not Found Page

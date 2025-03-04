@@ -1,6 +1,7 @@
 action-click = Dă clic pe
 action-tap = Atinge
 contribute = Contribuie
+review = Examinează
 skip = Sari peste
 shortcuts = Comenzi rapide
 clips-with-count-pluralized =
@@ -27,9 +28,6 @@ target-segment-first-card = Contribui la primul nostru segment-țintă
 target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
 target-segment-add-voice = Adaugă-ți vocea
 target-segment-learn-more = Află mai multe
-
-## Contribution Nav Items
-
 
 ## Reporting
 

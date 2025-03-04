@@ -72,7 +72,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
-about-playbook-how-localize = იმჟი ხაშდბა სატი ლოკალიზაცია?
+about-playbook-how-localize = იმჟი ხაშდბა საიტი ლოკალიზაცია?
 about-playbook-how-localize-content-1 = Common Voice საიტი ლითჷრგმა̈ნი იჩუ̂მინი<strong>Pontoon</strong>-ჟი.
 about-playbook-how-localize-content-2 = <pontoonAccountLink> ჟ'ა̈ხისყ ანგარიშ</pontoonAccountLink>ჰემა მა̄მა ჟუღუ̂ა. ეჩუნღო  ჟ'ა̈ხითშ ისგუ ნინ<strong> ("გუნდ") ი ჟ'ა̈ხითშ პროექტ,<pontoonCvLink> Common Voice</pontoonCvLink>. ჩუირდიხ ლეთჷრგმა̈ნი ფაილა̈რ. ჟ'ო̄სოთლ აშხუ̂, ეჩუნღო ეჯა აწუ̂ე̄ნე სიტყვა̄̈ლს ინგლისურდ ი ყუთს ეჯჲარე ლათჷრგმა̈ნიდ.
 about-playbook-how-localize-content-3 = თარგმან ინგლისურხა̈ნქა ლი, მარე სი ჩუ ჯამჲედა<strong>შემოთავაზება̄̈ლს</strong>იშგენ ნჷნა̈რჟი. ჟესოთლ<strong>პროფილი</strong>ნიშნჷლჟი, ეჩუნღო <strong>პარამეტრალე</strong>ბმულჟი ი ჟესაქმ ნინ, ხედუ̂ა̄̈ჲჟი სი გა̈რგლი. ჩუ̂იბე ლერსგუ̂ენ კუთხუ̂ისგა ი̄რი თარმანლე სია ჟახოშ<strong>Locales</strong>. თარგმან ქა იწუ̂ე̄ნი საიტჟი აშხუ̂ ლადა̈ღუნღო.
@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = <accuracyLink>ლჷნწუდად კ
 about-playbook-how-grow-language = იმჟი ჯა̈ჲმედა ნინი ეფექტურ განვითარება Common Voice-ჟი?
 about-playbook-how-grow-language-content-1 = მო̄შ-მო̄შ ხა̈ლხიშდ Common Voice-თე̄ჲსგა წუ̂ლილი ლიი საშუალება̄̈ ლიჰუ̂დი ეჩიი გარანტია ლი-ე მონაცემარე ხორეუ̂ს ა̈ნსჷრგები მა̈ჲ ლა̈თჲა̄ლს ლი ხოფში̄რა მა̄რე. ნა̈ჲ ჟ'ოხსყედ რესურსა̈ლ ი შაბლონა̈რ, იმშა ლისჷრგებლი სი ჯა̈ჲმედა!
 about-playbook-how-grow-language-content-2 = მოვლენა̄̈ლ
+about-playbook-how-grow-language-content-3 = სი ჩუ ჯა̈მჲედა ღონისძიებალე ლისყე̄ნე ი ხა̈ლხი ლიმურჯუ̂ი, ერე სგ'ა̄დიახ მინე წვლილ. ალა, ს'ერ ანღელი, ეჩან ხოშა იოლ ლი. ამი̄ ლისყი ჯემა̈რგ ონლაინ ვიდეოკონფერენცია̄̈ ხელსაწოშ, ჰედ პირადად, უსაფრთხო ლახ ლი.<eventTemplate> ხეწდ ნიშგუ̂ეჲ შაბლონა̈რს ი რესურსა̈რს ღონისძიება̄̈ ლა̈ფშუ̂დად</eventTemplate>.
+about-playbook-how-grow-language-content-4 = სოციალურ მედია
 
 ## How to validate
 

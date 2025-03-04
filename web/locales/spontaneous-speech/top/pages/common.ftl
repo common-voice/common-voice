@@ -25,7 +25,6 @@ contribute = Tamakgtayan
 ## Navbar
 
 respond-to-prompt = Kgalhtinankan takgalhskinit
-transcribe-audio = Tsokgkan tuku kgaxmatkan
 check-transcriptions = Putsanankan nak xa talakatsokgni
 
 ## Not Found Page

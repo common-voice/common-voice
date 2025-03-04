@@ -25,7 +25,6 @@ contribute = تاں حصہ گلہ۔
 ## Navbar
 
 respond-to-prompt = مدتیاں جواب
-transcribe-audio = بنیل لِکیلاں اواز
 check-transcriptions = بنیل لِکیل بدلا
 
 ## Not Found Page

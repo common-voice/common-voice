@@ -25,7 +25,6 @@ contribute = Mïï thama
 ## Navbar
 
 respond-to-prompt = Mïï agam ï kom köp
-transcribe-audio = Cöö köp n'ewinyo
 check-transcriptions = Nën gin n'ëcöö
 
 ## Not Found Page

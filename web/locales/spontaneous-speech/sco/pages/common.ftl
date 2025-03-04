@@ -25,7 +25,6 @@ contribute = Contribute
 ## Navbar
 
 respond-to-prompt = Respond To Prompt
-transcribe-audio = Transcribe Audio
 check-transcriptions = Check Transcriptions
 
 ## Not Found Page

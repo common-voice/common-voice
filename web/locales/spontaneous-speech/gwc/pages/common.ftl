@@ -25,7 +25,6 @@ contribute = حصّہ گِھنوگ
 ## Navbar
 
 respond-to-prompt = اِشاراں جواب دہ
-transcribe-audio = آڈیو نقل کٞر
 check-transcriptions = نقل کٞراٞل چیک کٞر
 
 ## Not Found Page

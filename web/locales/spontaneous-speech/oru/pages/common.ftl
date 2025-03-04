@@ -25,7 +25,6 @@ contribute = شند
 ## Navbar
 
 respond-to-prompt = پرمپټ کی ځواب
-transcribe-audio = ا اډیو تقل کَۀ
 check-transcriptions = ا نقل چېک کَۀ
 
 ## Not Found Page

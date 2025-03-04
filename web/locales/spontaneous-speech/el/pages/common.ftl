@@ -28,7 +28,6 @@ request-new-language = Αίτημα για νέα γλώσσα
 ## Navbar
 
 respond-to-prompt = Απάντηση σε προτροπή
-transcribe-audio = Μεταγραφή ήχου
 check-transcriptions = Έλεγχος μεταγραφών
 question = Ερώτηση
 

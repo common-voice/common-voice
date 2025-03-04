@@ -25,7 +25,6 @@ contribute = Ñepytyvõ
 ## Navbar
 
 respond-to-prompt = Embohovái ñe’ẽmondo
-transcribe-audio = Emoñe’ẽjehai mba’epu
 check-transcriptions = Ehechajey ñe’ẽjehai
 
 ## Not Found Page

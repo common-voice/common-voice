@@ -26,9 +26,15 @@ target-segment-generic-card = നിങ്ങൾ ഒരു ലക്ഷ്യഖ
 target-segment-first-banner = { $locale } എന്നതിൽ കോമൺ വോയ്‌സിന്റെ ആദ്യ ടാർഗെറ്റ് സെഗ്‌മെന്റ് സൃഷ്ടിക്കാൻ സഹായിക്കുക
 target-segment-add-voice = നിങ്ങളുടെ ശബ്ദം ചേർക്കുക
 target-segment-learn-more = കൂടുതലറിയുക
-
-## Contribution Nav Items
-
+change-preferences = മുൻഗണനകൾ മാറ്റുക…
+login-signup = പ്രവേശിക്കുക / അംഗത്തമെടുക്കുക
+vote-yes = അതെ
+vote-no = അല്ല
+datasets = വിവരസഞ്ചയങ്ങള്‍
+languages = ഭാഷകള്‍
+about = ഇതിനെക്കുറിച്ച്
+partner = കൂട്ടുപങ്കാളി
+submit-form-action = സമൎപ്പിക്കുക
 
 ## Reporting
 

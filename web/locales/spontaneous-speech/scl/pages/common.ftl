@@ -25,7 +25,6 @@ contribute = سات دے
 ## Navbar
 
 respond-to-prompt = پرومپٹیڑے جواب دے
-transcribe-audio = شونگو لِکھے/ شونگو کچٹ تھے
 check-transcriptions = کچٹ تھئیک/لِکھیئک چَکے
 
 ## Not Found Page
