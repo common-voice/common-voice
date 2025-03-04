@@ -28,6 +28,7 @@ request-new-language = Nieuwe taal aanvragen
 ## Navbar
 
 respond-to-prompt = Prompt beantwoorden
+transcribe = Transcriberen
 check-transcriptions = Transcripties controleren
 question = Vraag
 
