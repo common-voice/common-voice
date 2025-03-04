@@ -136,3 +136,4 @@ write-contribute-menu-aria-label = ຂຽນເມນູຕົວເລືອກ
 add-sentences-menu-item-aria-label = ເພີ່ມປະໂຫຍກໃຫມ່ສໍາລັບຊຸມຊົນທີ່ຈະອ່ານ
 review-sentences-menu-item-aria-label = ກວດຄືນປະໂຫຍກທີ່ມີຢູ່ແລ້ວທີ່ສົ່ງໂດຍຊຸມຊົນ
 add-questions-menu-item-aria-label = ສົ່ງຄໍາຖາມໃຫມ່ເພື່ອໃຫ້ຊຸມຊົນອ່ານ ແລະ ຕອບສະຫນອງ
+transcribe-audio-menu-item-aria-label = ຖອດຂໍ້ຄວາມສຽງບັນທຶກເປັນຂໍ້ຄວາມ
