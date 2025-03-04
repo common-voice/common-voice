@@ -25,7 +25,6 @@ contribute = 貢獻
 ## Navbar
 
 respond-to-prompt = 回應提示
-transcribe-audio = 轉錄音訊
 check-transcriptions = 檢查轉錄內容
 
 ## Not Found Page

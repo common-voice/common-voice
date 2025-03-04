@@ -25,7 +25,6 @@ contribute = Pö̀xti
 ## Navbar
 
 respond-to-prompt = Chǘtjü nutö̌nü
-transcribe-audio = Rií 'òpjü k'o xíts'iji
 check-transcriptions = Né'me k'o í yòpjü
 
 ## Not Found Page

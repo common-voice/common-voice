@@ -28,7 +28,6 @@ request-new-language = Požádat o nový jazyk
 ## Navbar
 
 respond-to-prompt = Odpovědět na výzvu
-transcribe-audio = Přepis zvuku
 check-transcriptions = Zkontrolovat přepisy
 question = Otázka
 

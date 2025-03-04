@@ -25,7 +25,6 @@ contribute = Cur stiagh
 ## Navbar
 
 respond-to-prompt = Freggyr Feysht
-transcribe-audio = Mac-screeu Sheean
 check-transcriptions = Jean Mac-screeuanyn Shickyr
 
 ## Not Found Page

@@ -25,7 +25,6 @@ contribute = ke tineuparewi
 ## Navbar
 
 respond-to-prompt = Iwaurika ke neutaʼeiya
-transcribe-audio = Niuki makaʼɨkierie ke neutaʼutɨa
 check-transcriptions = Niuki mutiʼutɨariexɨa ke neutiʼixɨari
 
 ## Not Found Page

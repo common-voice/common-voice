@@ -25,7 +25,6 @@ contribute = waayo
 ## Navbar
 
 respond-to-prompt = Iramu mubwangu
-transcribe-audio = Indula edobozi omubuwandike
 check-transcriptions = kebera ebiwandiki
 
 ## Not Found Page

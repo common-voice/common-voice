@@ -26,7 +26,6 @@ request-new-language = نوکیں زبان ءِ نیمگ ءَ روگ
 ## Navbar
 
 respond-to-prompt = پرامپٹ ئے جواب ئا دئے
-transcribe-audio = آڈیو ٹرانسکرپٹ کن
 check-transcriptions = ٹرانسکرپشن چیک کن
 
 ## Not Found Page

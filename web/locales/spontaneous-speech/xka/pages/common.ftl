@@ -25,7 +25,6 @@ contribute = امداد
 ## Navbar
 
 respond-to-prompt = تیدی کیر جواب
-transcribe-audio = اڈیو ٹرانسکراییب
 check-transcriptions = ترجمہ نال
 
 ## Not Found Page

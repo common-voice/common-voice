@@ -25,7 +25,6 @@ contribute = Tyinei
 ## Navbar
 
 respond-to-prompt = Natyiso nuu jika tù'un
-transcribe-audio = Natee a teso'o nu
 check-transcriptions = Naka’vi a natee nu
 
 ## Not Found Page

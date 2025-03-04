@@ -30,3 +30,10 @@ request-language-success-list-3 =
     contacta vía <emailLink>{ $email }</emailLink>
     y nos meteremos en contacto con tu
 request-language-error = Talment no haigamos recibiu esta solicitut. Ninvia-nos un correu electronico directament a <emailLink>{ $email }</emailLink> y te responderemos!
+request-for-scripted-speech-toggle = Demandar pa Parla Leyida
+request-for-spontaneous-speech-toggle = Demandar pa Parla Espontania
+need-help-deciding-platform = No sabes cuál triar?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Parla Leyida</strong> (lo que tradicionalment conoixes como Common Voice) ye an que leyes frases en alto en o tuyo idioma.
+need-help-deciding-platform-explanation-2 = <strong>Parla Espontania</strong> ye una nueva parte de Common Vice an que puez responder a preguntas d'una manera mas natural y coloquial.
+need-help-deciding-platform-explanation-3 = Si no veyes lo tuyo idioma per garra cabo d'a plataforma, tría las dos.

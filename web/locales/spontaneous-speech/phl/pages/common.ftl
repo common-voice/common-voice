@@ -25,7 +25,6 @@ contribute = حصہ گھنئنی
 ## Navbar
 
 respond-to-prompt = پرامپٹی جواب دہ۔
-transcribe-audio = آڈیو  نقل تھہ۔
 check-transcriptions = عبارت چیک تھہ
 
 ## Not Found Page

@@ -25,7 +25,6 @@ contribute = سنہ ستہ
 ## Navbar
 
 respond-to-prompt = پرامٹ جواب پعستہ
-transcribe-audio = ٹرانسکرائب آڈیو
 check-transcriptions = ٹرانسکریپشن ایشکوع
 
 ## Not Found Page

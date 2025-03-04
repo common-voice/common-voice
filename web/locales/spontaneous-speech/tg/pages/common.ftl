@@ -26,7 +26,6 @@ request-new-language = Дархости забони нав
 ## Navbar
 
 respond-to-prompt = Ба дархост ҷавоб додан
-transcribe-audio = Табдил додани аудио ба матн
 check-transcriptions = Тафтиш кардани овонависӣ
 
 ## Not Found Page
