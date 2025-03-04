@@ -69,12 +69,19 @@ about-playbook-what-is-language-content-3 = Unele limbi prezintă variații cons
 
 ## How do I add a language
 
+about-playbook-how-add-language = Cum adaug o limbă?
+about-playbook-how-add-language-collecting-sentences-heading = Adunarea de propoziții scrise
 
 ## How does localization work
 
+about-playbook-how-localize = Cum funcționează localizarea site-ului?
+about-playbook-how-localize-content-1 = Traducerea site-ului Common Voice are loc pe <strong>Pontoon</strong>.
+about-playbook-how-localize-content-5 = Vizionează videoclipul nostru explicativ pentru îndrumare
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Cum adaug propoziții?
+about-playbook-how-add-sentences-content-1 = Poți adăuga propoziții pe <writePageLink>pagina de scriere</writePageLink> sau poți examina propoziții pe <reviewPageLink>pagina de examinare</reviewPageLink>.
 
 ## How to record quality
 

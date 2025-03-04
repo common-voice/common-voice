@@ -96,3 +96,5 @@ license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ປະສົມກັນ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ດາວໂຫລດຊຸດຂໍ້ມູນສຽງຂອງພວກເຮົາ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ຕົວເລືອກການດາວໂຫຼດເພື່ອເຂົ້າເຖິງຂໍ້ມູນ Common Voice

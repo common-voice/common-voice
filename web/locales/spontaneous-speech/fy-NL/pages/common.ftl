@@ -25,7 +25,6 @@ contribute = Bydrage
 ## Navbar
 
 respond-to-prompt = Prompt beäntwurdzje
-transcribe-audio = Audio transkribearje
 check-transcriptions = Transkripsjes kontrolearje
 
 ## Not Found Page

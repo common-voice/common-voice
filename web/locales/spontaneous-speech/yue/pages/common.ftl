@@ -24,7 +24,6 @@ contribute = 貢獻
 
 ## Navbar
 
-transcribe-audio = 轉寫語音
 check-transcriptions = 檢查轉寫
 
 ## Not Found Page

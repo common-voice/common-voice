@@ -25,7 +25,6 @@ contribute = emasin
 ## Navbar
 
 respond-to-prompt = duro etin masum ite juwaap mićʰiin
-transcribe-audio = audio transcribe etin
 check-transcriptions = transcriptions ar baren
 
 ## Not Found Page

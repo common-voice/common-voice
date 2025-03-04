@@ -26,7 +26,6 @@ request-new-language = Lūgt jaunu valodu
 ## Navbar
 
 respond-to-prompt = Atbildēt uz uzvedni
-transcribe-audio = Pārrakstīt audio
 check-transcriptions = Pārskatīt transkripcijas
 
 ## Not Found Page

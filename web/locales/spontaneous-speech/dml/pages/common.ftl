@@ -25,7 +25,6 @@ contribute = تعاون کُرن
 ## Navbar
 
 respond-to-prompt = پرامٹ ساں جوب پرے
-transcribe-audio = آڈیو نقل کُرے
 check-transcriptions = نقل نم چیک با
 
 ## Not Found Page

@@ -25,7 +25,6 @@ contribute = Kontribusi
 ## Navbar
 
 respond-to-prompt = Tanggepin pertanyaan
-transcribe-audio = Transkripsi suaré
 check-transcriptions = Periksé transkripsi
 
 ## Not Found Page

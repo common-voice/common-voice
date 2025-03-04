@@ -80,6 +80,7 @@ answer-questions-coming-soon = Reponder preguntas <small>(disponible luego)</sma
 review-transcriptions = Revisar las transcripcions
 review-transcriptions-coming-soon = Revisar las transcripcions  <small>(disponible luego)</small>
 add-questions = Anyadir preguntas <small>(disponible luego)</small>
+add-questions-coming-soon = Anyadir preguntas <small>(disponible luego)</small>
 transcribe-audio-coming-soon = Transcribir audio <small>(disponible luego)</small>
 transcribe-audio = Transcribir audio
 press-and-stories = Prensa y articlos

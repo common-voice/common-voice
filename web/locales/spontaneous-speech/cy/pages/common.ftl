@@ -9,6 +9,7 @@ platform-language = Iaith y platfform:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Yn cyfrannu at set ddata ar gyfer { $language }
+contribution-picker-tooltip-text = Newidiadau i'r set ddata iaith rydych yn cyfrannu ato
 # Label for button on contribution switcher
 change = Newid
 coming-soon = Mae rhagor o ieithoedd ar eu ffordd!
@@ -28,7 +29,6 @@ request-new-language = Gofyn am Iaith Newydd
 ## Navbar
 
 respond-to-prompt = Ymateb i Bromptiau
-transcribe-audio = Trawsgrifio Sain
 check-transcriptions = Gwirio Trawsgrifiadau
 question = Cwestiwn
 

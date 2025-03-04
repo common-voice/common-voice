@@ -25,7 +25,6 @@ contribute = تۆھپە قوشاي
 ## Navbar
 
 respond-to-prompt = ئىنكاس قايتۇرۇش
-transcribe-audio = ئۈننى خەتكە پۈت
 check-transcriptions = خەت پۈتۈكنى تەكشۈرۈڭ
 
 ## Not Found Page

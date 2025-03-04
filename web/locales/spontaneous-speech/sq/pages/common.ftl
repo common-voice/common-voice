@@ -28,7 +28,6 @@ request-new-language = Kërkoni Gjuhë të Re
 ## Navbar
 
 respond-to-prompt = Përgjigjuni një Hapi
-transcribe-audio = Transkriptoni Audio
 check-transcriptions = Kontrolloni Transkriptime
 question = Pyetje
 

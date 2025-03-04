@@ -4,6 +4,8 @@
 error = Fout
 action-click = Klikken
 action-tap = Tikken
+# Label for language switcher
+platform-language = Platformtaal:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bijdragen aan gegevensset voor { $language }
@@ -26,8 +28,8 @@ request-new-language = Nieuwe taal aanvragen
 ## Navbar
 
 respond-to-prompt = Prompt beantwoorden
-transcribe-audio = Audio transcriberen
 check-transcriptions = Transcripties controleren
+question = Vraag
 
 ## Not Found Page
 

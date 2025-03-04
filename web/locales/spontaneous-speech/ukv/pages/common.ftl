@@ -25,7 +25,6 @@ contribute = gwegwelu
 ## Navbar
 
 respond-to-prompt = tiki ruket
-transcribe-audio = gawere kulyet i wuröt
 check-transcriptions = tanye gaweresi
 
 ## Not Found Page

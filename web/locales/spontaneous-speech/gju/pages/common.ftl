@@ -26,7 +26,6 @@ request-new-language = نوئی زبان وسطے گزارش کرو
 ## Navbar
 
 respond-to-prompt = جھب جھب جواب دیوں
-transcribe-audio = صوتی تجزیو
 check-transcriptions = تجزیہ کو جائزو لیو
 
 ## Not Found Page

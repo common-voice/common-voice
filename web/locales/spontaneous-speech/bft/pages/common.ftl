@@ -25,7 +25,6 @@ contribute = روخ بیس
 ## Navbar
 
 respond-to-prompt = شوخمویکھہ تم لزوق بیوس
-transcribe-audio = سکت کن ربیس
 check-transcriptions = ٹرانسکرپشن کن لا ہلتوس
 
 ## Not Found Page

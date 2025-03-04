@@ -26,7 +26,6 @@ request-new-language = Goulenn ur yezh nevez
 ## Navbar
 
 respond-to-prompt = Respont d'ar goulenn
-transcribe-audio = Treuzskrivañ enrolladennoù
 check-transcriptions = Gwiriañ treuzskrivadurioù
 
 ## Not Found Page
