@@ -6,6 +6,7 @@ action-click = Kliknuś
 action-tap = Pótusnuś
 # Label for language switcher
 platform-language = Rěc platformy:
+platform-language-tooltip-text = Změnijo jano tekst websedła.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = K datowej sajźbje za rěc { $language } pśinosowaś
