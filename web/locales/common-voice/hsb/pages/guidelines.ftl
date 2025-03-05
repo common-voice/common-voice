@@ -69,6 +69,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = Sada dyrbi prawje 
 adding-sentences-subheader-speakable = Wurjekujomny
 adding-sentences-subheader-speakable-explanation = Najlěpše sady su přirodne a bjesadne – měli za kóždeho lochko čitajomne być. Mjeztym zo fonetiske rozdźěle a rozdźělne słowa w sadach su wažne, pospytujemy natočenje sadow za naše zhromadźenstwo dobrowólnikow tak spodobnje a zabawnje kaž móžno wuhotować.
 adding-sentences-subheader-numbers = Ličby
+adding-sentences-subheader-numbers-explanation = Žórłowy tekst njeměł w idealnym padźe žane cyfry wobsahować, dokelž móža problemy zawinować, hdyž so wótře čitaja. Wašnje, na kotrež so ličba čita, wot konteksta wotwisuje a móhło k zamylenju w datowym sadźbje wjesć. Ličba „2409“ na přikład da so korektnje jako „štyriadwaceći nul dźewjeć“ kaž tež jako „dwaj tysacaj štyrista dźewjeć“ čitać.
 adding-sentences-subheader-abbreviations = Skrótšenki a akronymy
 adding-sentences-subheader-abbreviations-explanation = Skrótšenki a akronymy kaž „USA“ abo „ICE“ měli so w žórłowym teksće wobeńć, dokelž so snano na wašnje čitaja, kotrež jich prawopisej njewotpowěduje. Nimo toho su snano wjacore korektne čitanja za jednotliwu skrótšenku.
 adding-sentences-subheader-punctuation = Interpunkcija
