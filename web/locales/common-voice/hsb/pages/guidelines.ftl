@@ -15,6 +15,7 @@ example = Přikład
 varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Budźće jara kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, dokelž mysliće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo interpunkciju prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wulkomyslnu swobodu, kotřiž hinak hač wy rěča.
 varying-pronunciations-explanation-2 = Jeli wšak měniće, zo čitar je słowo přez připad namakał a wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 varying-pronunciations-example = Ruta běše njejasna.
+misreadings-explanation-1 = Je wažnje, zo so wšě słowa na stronje prawje čitaja. Přepruwujće při słuchanju jara starosćiwje, zo natočene je tež napisane; wotpokazajće, jeli su přidate, skontrahowane abo wuwostajene słowa.
 misreadings-explanation-2 = Jara časte zmylki su:
 misreadings-explanation-3 = Faluje krótke słowo kaž ‚w‘ abo ‚do‘ na spočatku nahraća.
 misreadings-explanation-4 = Faluje ‚a‘ na kóncu słowa (na př. pisał město pisała).

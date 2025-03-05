@@ -20,3 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = کٞہ کٞہ سواٞلونہ یہ جمع کٞرباں؟
 do-section-title = کٞر
 do-section-guideline-1 = صحی ہیزی تے گرامر استِمال کٞر
+do-section-guideline-2 = اِچھلاٞں سادہ سواٞلونہ جُوݭ اوں ہاٞر آٞک ثقافِت ما تے سیاق او سباٞق ما بغیر پا تاٞتٞہ پوہ ہوئی تہ
+do-section-guideline-3 = اِیں کٞہ فِکر کٞر اوں تسوں جواب صِرف دوئ جمُلاٞ مئ داٞبئ تہ۔
+do-not-section-title = نہ کٞر
+do-not-section-guideline-1 = ذاتی شناخت تے مالومات ( لکہ نام یا مالی مالومات) دِیاگ
