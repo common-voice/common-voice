@@ -24,3 +24,5 @@ do-section-guideline-2 = Kies ienfâldige fragen dy’t foar elkenien maklik te 
 do-section-guideline-3 = Soargje derfoar dat se yn mar in pear sinnen beäntwurde wurde kinne
 do-not-section-title = net dwaan
 do-not-section-guideline-1 = Freegje om persoanlik identifisearjende ynformaasje (lykas nammen of finansjele ynformaasje)
+do-not-section-guideline-2 = Foaroardielen of beledigjende gefoelens uterje of dernei freegje
+do-not-section-guideline-3 = Gefoelige fragen stelle
