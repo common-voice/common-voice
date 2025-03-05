@@ -78,6 +78,7 @@ adding-sentences-subheader-special-characters = Wosebite znamješka a cuze pismi
 adding-sentences-subheader-special-characters-explanation-1 = Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
 adding-sentences-subheader-special-characters-explanation-2 = Rěče móža swójske přepruwowanske prawidła z přidatnymi žadanjemi měć, hdyž so přełožuja. Jeli njeje wěsta kontrolna dataja, so prawidła jendźelšćiny za sobuskutkowarjow pokazuja.
 adding-sentences-subheader-offensive-content = Njepřistojny wobsah
+adding-sentences-subheader-offensive-content-explanation = Jeli sada je njepřistojna abo mjerzaca – na přikład eksplicitneho wobsaha dla abo druheho přeńdźenja našich <communityGuidelines>směrnicow za wobdźělenje w zhromadźenstwje</communityGuidelines> dla – dyrbjał wy sadu wotpokazać. Móžeće tež nas přez <emailFragment>commonvoice@mozilla.com</emailFragment> skontaktować, zo by so problem eskalěrował.
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-3 = Jeli při sadźe wěsty njejsće, móžeće ju přeskočić a z přichodnej pokročować.
