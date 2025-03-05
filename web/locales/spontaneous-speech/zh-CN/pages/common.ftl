@@ -9,6 +9,7 @@ platform-language = 平台语言：
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 为 { $language } 数据集做贡献
+contribution-picker-tooltip-text = 将语言数据集更改为您正在贡献的数据集
 # Label for button on contribution switcher
 change = 更改
 coming-soon = 更多语言即将推出！
@@ -28,6 +29,7 @@ request-new-language = 请求新语言
 ## Navbar
 
 respond-to-prompt = 回答引导语
+transcribe = 转录
 check-transcriptions = 检查转录文本
 question = 问题
 

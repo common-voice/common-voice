@@ -28,8 +28,12 @@ Many language communities are self organising and have their contact channels on
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
   * [Element](https://matrix.to/#/#cvcatala:matrix.org)
 * Circassian Languages/Variants (`ady`, `kbd`):
-  * [Telegram-Turkey (IM & Support) / in Turkish](https://t.me/+YcRffJU44SIyNDlk)
-  * [Telegram-International (IM & Support) / in EN-ru-ady-kbd](https://t.me/+QwNyi5XnyZM4ZWRk)
+  * [Telegram-Turkey (IM & Support) / in Turkish](https://bit.ly/cv_circassian_telegram_turkey)
+  * [Telegram-International (IM & Support) / in EN-ru-ady-kbd](https://bit.ly/cv_circassian_telegram_global)
+  * [Youtube (Video Guides)](https://www.youtube.com/@CommonVoice.Circassian)
+  * [Facebook Page](https://www.facebook.com/commonvoice.circassian)
+  * [X/Twitter](https://x.com/CV_Circassian)
+  * [Landing Page](https://bit.ly/cv_circassian_start_here)
 * Czech (`cs`):
   * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 * Dhivehi (`dv`):
@@ -41,7 +45,7 @@ Many language communities are self organising and have their contact channels on
   * [GitHub](https://github.com/parolrekonado)
   * [Website](https://parolrekonado.github.io/)
 * Farsi/Persian (`fa`):
-  *  [Telegram](https://t.me/Common_Voice)
+  * [Telegram](https://t.me/Common_Voice)
 * French (`fr`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
 * German (`de`):
@@ -72,7 +76,7 @@ Many language communities are self organising and have their contact channels on
   * [Facebook (Community & Support & Guides)](https://bit.ly/3C6oOgQ)
   * [Telegram (IM / Support)](https://bit.ly/3basUbX)
   * [Youtube (Video Guides)](https://bit.ly/3FYsJi1)
-  * [Twitter](https://bit.ly/3jmq08a)
+  * [X/Twitter](https://bit.ly/3jmq08a)
   * [Instagram](https://bit.ly/3G0RUAB)
   * [LinkedIn Page](https://bit.ly/3GeX6Rp)
 * Uzbek (`uz`):

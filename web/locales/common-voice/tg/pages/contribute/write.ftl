@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Навиштан
+write = Нависед
 write-instruction = Илова кардани <icon></icon> ҷумла аз манбаи дастраси умум
 write-page-subtitle = Ҷумлаҳои дар ин ҷой овардашуда ба маҷмуи маълумот мувофиқи иҷозатномаи оммавии «cc-0» илова карда мешаванд.
 sentence =
@@ -66,7 +66,7 @@ sentence-variant-select-label = Навъи ҷумла
 sentence-variant-select-placeholder = Интихоб кардани навъи ҷумла (ихтиёрӣ)
 sentence-variant-select-multiple-variants = Забони умумӣ / навъҳои гуногун
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ҷумлаҳоро аз манбаи дастраси умум <icon></icon> бор кунед
