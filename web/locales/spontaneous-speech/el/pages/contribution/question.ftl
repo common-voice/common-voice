@@ -8,6 +8,11 @@ add-question-error-message = Η μεταφόρτωση απέτυχε, δοκι�
 add-question-too-many-questions-error = Υπέρβαση των 500 ερωτήσεων. Μειώστε τον αριθμό των ερωτήσεων και δοκιμάστε ξανά.
 # Guidelines
 add-question-guidelines-title = Τι ερωτήσεις μπορώ να προσθέσω;
+do-section-title = Τι να κάνετε:
 do-section-guideline-1 = Σωστή ορθογραφία και γραμματική
 do-section-guideline-2 = Επιλέξτε απλές ερωτήσεις που είναι εύκολες στην κατανόηση από οποιονδήποτε, ανεξαρτήτως πολιτισμού ή περιεχομένου
 do-section-guideline-3 = Βεβαιωθείτε ότι μπορούν να απαντηθούν σε μερικές μόνο προτάσεις
+do-not-section-title = Τι να μην κάνετε:
+do-not-section-guideline-1 = Απαίτηση προσωπικών δεδομένων (όπως ονόματα ή οικονομικά στοιχεία)
+do-not-section-guideline-2 = Έκφραση ή πρόκληση προκαταλήψεων ή προσβλητικών γνωμών
+do-not-section-guideline-3 = Ευαίσθητες ερωτήσεις
