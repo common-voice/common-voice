@@ -11,7 +11,7 @@ request-language-form-email =
 request-language-form-info =
     .label = ინფორმაცია ენის შესახებ
 request-language-form-info-explanation =
-    მიუთითეთ მეტად დაწვრილებითი აღწერა სასურველი ენისთვის. ეს
+    დაურთეთ მეტად დაწვრილებითი აღწერა სასურველი ენისთვის. ეს
     შეიძლება მოიცავდეს:
 request-language-form-info-explanation-list-1 = თქვენი ენის დასახელებებს
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-კოდებს</isoCodeLink>, თუ იცით
