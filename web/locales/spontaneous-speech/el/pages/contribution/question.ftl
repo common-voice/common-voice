@@ -4,8 +4,18 @@ question-page-instruction = Προσθέστε ερώτηση <icon></icon> στ
 add-question-textarea-placeholder = π.χ., «Πώς θα θέλατε να χρησιμοποιήσετε την τεχνολογία;»
 add-questions-terms-checkbox = * Επιβεβαιώνω ότι αυτή η ερώτηση ανήκει στο <publicDomainLink>δημόσιο τομέα</publicDomainLink> και έχω την άδεια να τη μεταφορτώσω.
 question-database-language = Βάση δεδομένων: { $databaseLanguage }
+add-question-success-toast-message =
+    { $totalQuestions ->
+        [one] Έγινε συλλογή { $uploadedQuestions } εκ της 1 ερώτησης
+       *[other] Έγινε συλλογή { $uploadedQuestions } εκ των { $totalQuestions } ερωτήσεων
+    }
 add-question-error-message = Η μεταφόρτωση απέτυχε, δοκιμάστε ξανά.
 add-question-too-many-questions-error = Υπέρβαση των 500 ερωτήσεων. Μειώστε τον αριθμό των ερωτήσεων και δοκιμάστε ξανά.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] Έγινε συλλογή { $uploadedQuestions } εκ της 1 ερώτησης. Διαβάστε τις <guidelinesLink>οδηγίες</guidelinesLink> μας για να μάθετε περισσότερα σχετικά με τον τρόπο προσθήκης ερωτήσεων.
+       *[other] Έγινε συλλογή { $uploadedQuestions } εκ των { $totalQuestions } ερωτήσεων. Διαβάστε τις <guidelinesLink>οδηγίες</guidelinesLink> μας για να μάθετε περισσότερα σχετικά με τον τρόπο προσθήκης ερωτήσεων.
+    }
 # Guidelines
 add-question-guidelines-title = Τι ερωτήσεις μπορώ να προσθέσω;
 do-section-title = Τι να κάνετε:
