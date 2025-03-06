@@ -10,9 +10,11 @@ const getDefaultTabOption = ({ tab }: { tab: string }) => {
     return VOICE_NAV_IDS.PRONUNCIATIONS
   } else if (tab === 'sentence') {
     return SENTENCE_NAV_IDS.PUBLIC_DOMAIN
+  } else if (tab === 'question') {
+    return COLLECTING_QUESTIONS
   }
 
-  return COLLECTING_QUESTIONS
+  return VOICE_NAV_IDS.PRONUNCIATIONS
 }
 
 const useScrollToGuidelinesSection = () => {
@@ -27,7 +29,13 @@ const useScrollToGuidelinesSection = () => {
   const [selectedTabOption, setSelectedTabOption] =
     React.useState(defaultTabOption)
 
+  console.log({ tab })
+
   React.useEffect(() => {
+    if (!tab) {
+      setSelectedTabIndex(0)
+    }
+
     if (tab && tab === 'sentence') {
       setSelectedTabIndex(1)
     }
