@@ -29,8 +29,6 @@ const useScrollToGuidelinesSection = () => {
   const [selectedTabOption, setSelectedTabOption] =
     React.useState(defaultTabOption)
 
-  console.log({ tab })
-
   React.useEffect(() => {
     if (!tab) {
       setSelectedTabIndex(0)
