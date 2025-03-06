@@ -112,12 +112,14 @@ community-and-languages-menu-item-tooltip = ຄົ້ນພົບພາສາ �
 about-menu-aria-label = ກ່ຽວກັບເມນູທາງເລືອກ
 partnerships-menu-item-aria-label = ສຶກສາກ່ຽວກັບການຮ່ວມມືກັບ Common Voice
 press-and-stories-menu-item-aria-label = ເຂົ້າ​ເຖິງ​ຂ່າວ​ສານ​ ແລະ​ ເລື່ອງ​ທີ່​ກ່ຽວ​ຂ້ອງ​ກັບ Common Voice​
+community-and-languages-menu-item-aria-label = ສຳຫຼວດຊຸມຊົນ ແລະ ພາສາທີ່ຮອງຮັບໂດຍ Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ເຕັກໂນໂລຊີທີ່ເວົ້າພາສາຂອງທ່ານ
 # icon is an arrow that points downwards
 get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
