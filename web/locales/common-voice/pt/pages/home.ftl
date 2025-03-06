@@ -137,3 +137,7 @@ featured-section-title = Em destaque em...
 ## Partner section
 
 partner-section-title = Seja nosso parceiro
+# icon is an arrow that points to the right
+get-in-touch-button = Entre em contato <icon></icon>
+# Partners section
+our-partners-include = Alguns de nossos parceiros…
