@@ -9,6 +9,11 @@ add-question-success-toast-message =
        *[other] { $uploadedSentences } аз { $totalSentences } ҷумла ҷамъ карда шуд
     }
 add-question-error-message = Боркунӣ иҷро нашуд, лутфан, аз нав кӯшиш кунед.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } аз 1 савол ҷамъоварӣ шудааст. Саҳифаҳои <guidelinesLink>Роҳнамо</guidelinesLink>-и моро бубинед, то дар бораи чӣ гуна илова кардани саволҳо маълумоти бештар гиред
+       *[other] { $uploadedQuestions } аз { $totalQuestions } савол ҷамъоварӣ шудааст. Саҳифаҳои <guidelinesLink>Роҳнамо</guidelinesLink>-и моро бубинед, то дар бораи чӣ гуна илова кардани саволҳо маълумоти бештар гиред
+    }
 # Guidelines
 add-question-guidelines-title = Кадом саволҳоро илова карда метавонам?
 do-section-guideline-1 = Қоидаҳои имло ва грамматикаи дурустро истифода баред
