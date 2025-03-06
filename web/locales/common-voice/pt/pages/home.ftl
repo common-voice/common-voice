@@ -109,11 +109,12 @@ hero-title = Tecnologia que fala seu idioma
 scripted-card-header = Fala com roteiro
 scripted-card-content = Leia frases em voz alta no seu idioma e contribua para o conjunto de dados de voz de participação pública mais diversificado do mundo.
 spontaneous-card-header = Fala espontânea
-coming-soon = Em breve
 add-text = Adicionar texto
 
 ## Community section
 
+# label for button
+join-discord-community-action = Participe no Discord
 # label for button
 ask-mozilla-share-action = Compartilhe seu evento
 download-contribution-certificate = Baixe seu certificado de contribuição
@@ -135,3 +136,4 @@ featured-section-title = Em destaque em...
 
 ## Partner section
 
+partner-section-title = Seja nosso parceiro
