@@ -110,6 +110,7 @@ about-playbook-how-grow-language-content-8 = <strong>ლოხეგნ შე�
 ## How to validate
 
 about-playbook-how-validate = იმჟი ონჴუ̂ე გუდ, დავადასტურო ჰა მა̄მა ხმოვან კლიპ?
+about-playbook-how-validate-content-1 = სი ლახ<strong>ჟიი ჯი ხიჰუ̂ნა̈რი</strong> ი <strong>ჟიი ჟი ხიმჴერი</strong>, ეჩქას, იმჟი წეს ლი,<strong> ჩუ ხეკუ̂ეს ათმიტკცავა</strong>.
 
 ## How to access dataset
 
