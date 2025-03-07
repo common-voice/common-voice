@@ -26,6 +26,9 @@ loading = იტვირთა̈ვი...
 email-opt-in-info = მაკუ, ერე ხუ̂იკა̈დდე ელ. ფოსტაშუ̂ მიზნარე შეხსენებას, განახლებას მიშგუ̂ა პროგრესი ბედჟი ი Common Voice საინფორმაციო ბიულეტენს.
 email-opt-in-info-title = სგა ლა̈ხტყუ̄ბა̄̈ნ Common Voice სიას
 email-opt-in-info-sub-with-challenge = ხიკადდა̈ს ელ. წერილშუ̂ ამოცანალე ი მიზნარე შეხსენებას, პროგრესი განახლებას ი საინფორმაციო ბიულეტენს Common Voice ბედჟი.
+email-opt-in-privacy-v2 = ელექტრონულ წერილარე ლიკედი ბედჟი თანხმობაუ̂შუ̂ სი ხადასტურე, ერე თანახმა ხი, დაამუშაოს Mozilla-დ ალ ინფორმაცია, იმჟი ხა̈ჲრა Mozilla-იშ <privacyLink>კონფიდენციალურობა̄̈ პოლიტიკაისაგა</privacyLink>.
+indicates-required = უ̂არსკვლაუ̂შ (*) ლჷნშანე ველრე შევსება აუცილებელ ლი.
+not-available-abbreviation = N/A
 
 ## Donate banner
 
