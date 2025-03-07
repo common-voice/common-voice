@@ -32,3 +32,5 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>ნაწჷხ</mark><br/><mark>ისგუ ლიმურჯუ̂ი!</mark>
