@@ -34,3 +34,7 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ნაწჷხ</mark><br/><mark>ისგუ ლიმურჯუ̂ი!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = მონაცემრე ხორეუ̂ი მასპინძლობს ი პლატფორმა̄̈ ლისკე̄თეს100+ ენობრივ საზოგადოება̄̈შდ, ესუ̂ა̄̈ჲს იმედ ხა̄რხ ეჩი̄შ-ე, იმუ̂ა̄̈ჲ ნა̈ჲ ხუ̂ასყე̄ნედ, ზაუ̂ისგა ხია̄̈რ მილიონ დოლართეჟი ხაკუ. <strong> ჰემა სი ხალგუ̂ენი ღია, ინკლუზიურ მონაცემა̈რს, ახა̈სყ შემოწირულობა შიშდ ლა̈დი!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> ხიჴმა̈რიმა CV-ის</mark><br/><mark>ისგუ̂ა კვლევა̈შდ?
