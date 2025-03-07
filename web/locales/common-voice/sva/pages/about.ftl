@@ -123,6 +123,7 @@ about-playbook-how-access-dataset-content-2 = ჰემა ხეთხე̄ლ�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = იმჟი იკი̄დიხ პროექტი გადაწყვეტილება̄̈ლ?
 
 ## How is Common Voice funded
 
