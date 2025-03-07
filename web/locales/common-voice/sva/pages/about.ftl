@@ -112,8 +112,8 @@ about-playbook-how-grow-language-content-8 = <strong>ლოხეგნ შე�
 about-playbook-how-validate = იმჟი ონჴუ̂ე გუდ, დავადასტურო ჰა მა̄მა ხმოვან კლიპ?
 about-playbook-how-validate-content-1 = სი ლახ<strong>ჟიი ჯი ხიჰუ̂ნა̈რი</strong> ი <strong>ჟიი ჟი ხიმჴერი</strong>, ეჩქას, იმჟი წეს ლი,<strong> ჩუ ხეკუ̂ეს ათმიტკცავა</strong>.
 about-playbook-how-validate-content-2 = <strong>ნომ'ა̄თწჷნუ̂ა კლიპ ეჯ მიზეზშუ̂, ერე ისგუკა̈ლი აქცენტშუ̂ მა̄მ ლი</strong> - ალა მნიშვნელოვან ლი ეჩეშდ-ე ჰერი ჟილითერ ჩია̈შდ ამშიე̄დს.
-about-playbook-how-validate-content-3 = ჰემა ჯაბჟა, ერევ<strong> ბა̈დშუ̂ მა̄მ ხარ ლა̈ცხრი ნა̄̈ქუ̂ს</strong>, ჰედ ისმი<strong>სურუ ფონურ ჰერა̈ლ</strong>, ჰედ ისმი<strong>იშგენ ხა̈ლხი გა̈რგლა</strong>, ეჩქა ხეკუ̂ეს უარყოფით ლახო̄მა კლიპს.<accuracyLink>ა̈ხწუ̂ე̄ნ დამატებით ინფორმაცია კრიტერიუმალე ბედჟი</accuracyLink>.
-about-playbook-how-validate-content-4 = კილი ლახ უარყოფილ ლი 2 მა̄რახა̈ნქა, ეჯ კლიპ ესღრი ხორე̄უ̂ი იშგენ ქვეჯგუფთე.
+about-playbook-how-validate-content-3 = ჰემა ჯაბჟა, ერე<strong> ბა̈დშუ̂ მა̄მ ხარ ლა̈ცხრი ნა̄̈ქუ̂ს</strong>, ჰედ ისმი<strong>სურუ ფონურ ჰერა̈ლ</strong>, ჰედ ისმი<strong>იშგენ ხა̈ლხი გა̈რგლა</strong>, ეჩქა ხეკუ̂ეს უარყოფით ლახო̄მა კლიპს.<accuracyLink>ა̈ხწუ̂ე̄ნ დამატებით ინფორმაცია კრიტერიუმალე ბედჟი</accuracyLink>.
+about-playbook-how-validate-content-4 = კლიპი ლახ უარყოფილ ლი 2 მა̄რახა̈ნქა, ეჯ კლიპ ესღრი ხორე̄უ̂ი იშგენ ქვეჯგუფთე.
 
 ## How to access dataset
 
