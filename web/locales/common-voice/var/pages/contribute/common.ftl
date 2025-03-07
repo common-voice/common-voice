@@ -141,6 +141,6 @@ contribution-volume-description = Intúnae napépateniame kihtá inowáeme. Kat�
 contribution-reader-effects-title = Wekaká yoratiáme pu'ká yotékame
 contribution-reader-effects-description = Yomá ačítio tiempóči rawaróatiame uhúpu enté naiwáme ahpó nawésari nayawá. Kawé nakitáema rawaroriáma wa'á tapitíka čiačí sináka móenatičeka o reyeróaka kawé naiwaka "u'mátoteka". Kinakí pu'ká rawaróatiame itétatiame i'wá yoratiame nawésariči toniame kinakiwame  sisióki netetiáme
 contribution-just-unsure-title = ¿kikawé naneriáme enisámu ?
-contribution-just-unsure-description = I'si te'isa na'tepasa'a itapíti i'hi ne'tetiame ka'í kuipame yo'ra pirečimuna amó kawé i'tačitia yotetiame. Isi pičíwa kintuso'o,  u'saroa pu'ka rawaróatiame,  i ka'či isika kawé intamane.
+contribution-just-unsure-description = I'si te'isa na'tepasa'a itapíti ihí ne'tetiame ka'í kuipame yo'ra pirečimuna amó kawé i'tačitia yotetiame. Isi pičíwa kintuso'o,  u'saroa pu'ka rawaróatiame,  i ka'či isika kawé intamane.
 see-more = </chevron></chevron>Ne'néniame weiká
 see-less = <chevron></chevron>Ne'néniame paikápi
