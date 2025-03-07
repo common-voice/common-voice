@@ -35,3 +35,5 @@ request-language-error =
     ພວກເຮົາອາດຈະບໍ່ໄດ້ຮັບການຮ້ອງຂໍນັ້ນ. ກະລຸນາສົ່ງອີເມວຫາພວກເຮົາໂດຍກົງ
     ໃນ <emailLink>{ $email }</emailLink> ແລະພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານ!
 request-for-scripted-speech-toggle = ຮ້ອງ​ຂໍ​ສໍາ​ລັບ​ການ​ປາກ​ເວົ້າ Scripted​
+request-for-spontaneous-speech-toggle = ການ​ຮ້ອງ​ຂໍ​ສໍາ​ລັບ​ການ​ປາກ​ເວົ້າ spontaneous​
+need-help-deciding-platform = ຕ້ອງ​ການ​ຄວາມ​ຊ່ວຍ​ເຫຼືອ​ໃນ​ການ​ຕັດ​ສິນ​ໃຈ​ທີ່​ຈະ​ເລືອກ​ເອົາ​?

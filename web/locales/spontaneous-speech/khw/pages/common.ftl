@@ -6,6 +6,7 @@ action-click = کلک کو
 action-tap = ٹیپ
 # Label for language switcher
 platform-language = وارو ژاغا:
+platform-language-tooltip-text = ویب سائٹو صرف عبارتو بدل کو
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹو سوم { $language } بچین مدد کوریک
@@ -29,6 +30,7 @@ request-new-language = نوغ وارو درخواست کو
 ## Navbar
 
 respond-to-prompt = اشاران جوابو دیت
+transcribe = نیویشیکا انگے
 check-transcriptions = نیویشیروان لوڑے
 question = سوال
 
