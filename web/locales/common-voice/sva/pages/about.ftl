@@ -128,6 +128,10 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice ხელ
 about-playbook-how-project-governance-content-2 = ნიშგუ̂ეჲ მმართველობა̈ საფუძველ ლი პრინციპა̈ლ:
 about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება, გამჭვირვალობა.
 about-playbook-how-project-governance-content-4 = საზოგადოება̄̈ მონაწილეობა ი გადაწყვეტილება̄̈ ლიკედ.
+about-playbook-how-project-governance-content-5 = ღირებულება ი აღიარება.
+about-playbook-how-project-governance-content-6 = ორმხრივ ანგარიშვალდებულება.
+about-playbook-how-project-governance-content-7 = <governanceLink>ა̈ცხირ ხოშა ლუნწუდად, იმჟი ვმართავთ ნა̈ჲ</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = იმჟი ფინანსდება Common Voice?
