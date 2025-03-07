@@ -138,8 +138,13 @@ find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر از�
 find-us-on-matrix-action = مٹرکس رل اساں پش۔
 ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
 # label for button
+ask-mozilla-share-action = تانی پروگرام شیئر تھہ
+download-contribution-certificate = تانی کنٹربیوشن سرٹیفیکیٹ ڈاؤن لوڈ تھہ
+download-contribution-certificate-content = تی کامن وایس کیر گوا تھال تے تسے کیر اپان تہ ا سرٹیفیکیٹ  ڈاؤن لوڈ  تہ۔۔تو نہ بیس تہ رو کرا بی نہ بونس
+# label for button
 download-contribution-certificate-action = ثانی سند گین۔
 contribute-github = جی ائ ٹی ہب می مدد دا
+contribute-github-content = تی پاروت خلق ام دا بغیراوں پراجکٹ نہ چل بوں۔کامن وایس سہ کلیپ باڑ پان این۔تو ران سہ جانوں کتہ آسا ں لوں تہ
 # label for button
 contribute-github-action = جی ائ ٹی ہب می مدد دا
 
