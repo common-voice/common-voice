@@ -158,6 +158,7 @@ download-press-pack = اسی پریس پیک ڈاؤنلوڈ تھا۔۔۔۔۔۔۔
 ## Developers section
 
 developers-section-title = عوام رس تہ اپان پشہ گانٹہہ زات ا ڈیٹا سیٹ۔۔۔۔۔۔۔۔جیب ام می
+developers-section-subtitle = کول مدد سہ۔ ڈیٹا سیٹ تریجین اے اس ار۔۔۔۔اس ٹی ٹی۔۔۔۔ٹی ٹی اس تےان ۔ال پی
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سٹ سم تہ نالا
 
