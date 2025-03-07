@@ -28,15 +28,17 @@ export const GetSentencesForReviewQueryHandler =
           reviewSentencesWithoutVariant: false,
         })
       ),
-      TO.chain(sentences => {
-        return sentences.length > 0
-          ? TO.of(sentences)
-          : findSentencesForReview({
-              ...query,
-              userClientVariant: O.none,
-              reviewSentencesWithoutVariant: true,
-            })
-      }),
+      // Remove sentences without a variant tag for now
+      // until we know how to present it properly to the user 
+      // TO.chain(sentences => {
+      //   return sentences.length > 0
+      //     ? TO.of(sentences)
+      //     : findSentencesForReview({
+      //         ...query,
+      //         userClientVariant: O.none,
+      //         reviewSentencesWithoutVariant: true,
+      //       })
+      // }),
       TO.map((sentences): UnvalidatedSentenceDto[] => {
         return sentences.map(sentence => {
           const variantTag = pipe(

@@ -19,17 +19,19 @@ export const getVariantSentencesToRecordQueryHandler =
     pipe(
       TE.Do,
       TE.apS('variantSentences', findVariantSentences(query.variant)),
-      TE.apS('nonVariantSentences', findVariantSentences(query.variant, false)),
+      // TE.apS('nonVariantSentences', findVariantSentences(query.variant, false)),
       TE.apS('sentenceIds', fetchInteractedSentenceIds(query.clientId)),
-      TE.map(({ variantSentences, nonVariantSentences, sentenceIds }) => {
+      TE.map(({ variantSentences, sentenceIds }) => {
         const variantSentencesResult = pipe(
           variantSentences,
           filterUserInteractedSentences(sentenceIds)
         )
-        const nonVariantSentencesResult = pipe(
-          nonVariantSentences,
-          filterUserInteractedSentences(sentenceIds)
-        )
-        return [...variantSentencesResult, ...nonVariantSentencesResult]
+        // Ignore non variant sentences for until we figured out how to best present
+        // the result to the user
+        // const nonVariantSentencesResult = pipe(
+        //   nonVariantSentences,
+        //   filterUserInteractedSentences(sentenceIds)
+        // )
+        return variantSentencesResult
       })
     )
