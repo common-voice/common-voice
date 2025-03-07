@@ -21,3 +21,7 @@ request-language-error = می شک این اؘ درحاس نہ پݭ ۔مربنی
 request-for-scripted-speech-toggle = چونڑاکیال تقریر کیردرخاس دہ
 request-for-spontaneous-speech-toggle = الو ٹینیسی تقریر کیر ریکوسٹ دہ
 need-help-deciding-platform = ان فیصلہ می مدد شجون اوںکا شے خوشام۔تہ
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = چونڑاگیال تقررکامن وایس اتون اوں کما تو  تانی جیب می درک اے  جولی بون تہ
+need-help-deciding-platform-explanation-2 = سپونٹینییس سپیچکامن وایس اے نم حصہ۔۔تبا تو سلخ تہ سوالونیام جواب دیبون
+need-help-deciding-platform-explanation-3 = تو تانی جیب اوں پلیٹ فارم می کیا بی نہ پشون۔دوا تی جوش تے خوشہ
