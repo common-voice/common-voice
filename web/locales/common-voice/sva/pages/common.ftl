@@ -23,6 +23,9 @@ return-to-cv = ქა̄დ ლახეტხ Common Voice-ს
 email-input =
     .label = ელექტრონულ ფოსტა
 loading = იტვირთა̈ვი...
+email-opt-in-info = მაკუ, ერე ხუ̂იკა̈დდე ელ. ფოსტაშუ̂ მიზნარე შეხსენებას, განახლებას მიშგუ̂ა პროგრესი ბედჟი ი Common Voice საინფორმაციო ბიულეტენს.
+email-opt-in-info-title = სგა ლა̈ხტყუ̄ბა̄̈ნ Common Voice სიას
+email-opt-in-info-sub-with-challenge = ხიკადდა̈ს ელ. წერილშუ̂ ამოცანალე ი მიზნარე შეხსენებას, პროგრესი განახლებას ი საინფორმაციო ბიულეტენს Common Voice ბედჟი.
 
 ## Donate banner
 
