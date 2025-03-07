@@ -153,6 +153,7 @@ explore-datasets = ڈیٹا سٹ سم تہ نالا
 
 ## Get involved section
 
+get-involved-section-title = کاں ڈیٹا سیٹ عوامی این تے تس سہ ٹل با
 read-sentences-link = جولال من۔
 validate-readings-link = ریکاڑنگ والیڈٹنگ تھ
 contribute-link = مشین اے° جوݨا گال مداد دہ۔
@@ -165,5 +166,7 @@ press-and-stories-link = سیپ دہ۔
 ## Partner section
 
 partner-section-title = اسان سہ ٹلگر
+# icon is an arrow that points to the right
+get-in-touch-button = اساں لہ
 # Partners section
 our-partners-include = اسے مرگر اون۔
