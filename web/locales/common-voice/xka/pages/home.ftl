@@ -137,6 +137,7 @@ find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر از�
 # label for button
 find-us-on-matrix-action = مٹرکس رل اساں پش۔
 ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
+ask-mozilla-share-content = زیر یا یندر  ا ایونٹ اساں دی لاڑہ۔بہ تانی کمیونٹی سہ شیئر تھیئ یا تسے بارا می ا بلاگ چونڑے
 # label for button
 ask-mozilla-share-action = تانی پروگرام شیئر تھہ
 download-contribution-certificate = تانی کنٹربیوشن سرٹیفیکیٹ ڈاؤن لوڈ تھہ
@@ -175,6 +176,10 @@ press-and-stories-link = سیپ دہ۔
 ## Partner section
 
 partner-section-title = اسان سہ ٹلگر
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = خلق ۔تے محققینخدا نامی ڈیٹا سٹ ثران تے چلان پا
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = فلنتروپی ڈیٹا سیٹ ترال سپورٹ تان لوکل سطح دہ جب ام کار تیز بہ تہپترہ تہ
 # icon is an arrow that points to the right
 get-in-touch-button = اساں لہ
 # Partners section
