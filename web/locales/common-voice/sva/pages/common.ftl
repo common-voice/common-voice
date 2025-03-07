@@ -12,6 +12,7 @@
 
 documentation = დოკუმენტაცია
 content-license-text = კონტენტ ხელმისაწვდომ ლი<licenseLink>Creative Commons ლიცენზიოშ</licenseLink>
+share-title = სგ'ა̄̈ხტყუბა̄̈ნ ნიშგუ̂ეჲ საზოგადოებას
 
 ## Donate banner
 
