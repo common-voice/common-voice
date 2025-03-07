@@ -6,6 +6,7 @@ action-click = 点击
 action-tap = 点按
 # Label for language switcher
 platform-language = 平台语言：
+platform-language-tooltip-text = 仅更改网站文本。
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 为 { $language } 数据集做贡献
