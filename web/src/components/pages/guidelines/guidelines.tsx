@@ -196,6 +196,13 @@ const Guidelines = () => {
                 elems={{
                   discourseLink: <DiscourseLink />,
                   matrixLink: <MatrixLink />,
+                  discordLink: (
+                    <a
+                      href="https://discord.gg/4TjgEdq25Y"
+                      target="_blank"
+                      rel="noreferrer"
+                    />
+                  ),
                 }}>
                 <span />
               </Localized>

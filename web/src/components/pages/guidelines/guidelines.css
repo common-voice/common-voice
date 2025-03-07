@@ -614,7 +614,8 @@
                 align-items: center;
                 gap: 1rem;
                 font-size: 1.25rem;
-                font-family: var(--strong-font-family);
+                font-family: var(--base-font-family);
+                font-weight: 400;
                 margin-bottom: 28px;
 
                 @media (--sm-down) {
