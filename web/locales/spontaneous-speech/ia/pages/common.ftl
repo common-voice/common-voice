@@ -6,6 +6,7 @@ action-click = Cliccar
 action-tap = Toccar
 # Label for language switcher
 platform-language = Lingua del platteforma
+platform-language-tooltip-text = Modifica solo LE texto del sito web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contribuer al collection de datos pro { $language }

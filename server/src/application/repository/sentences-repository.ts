@@ -37,11 +37,8 @@ export type FindSentencesForReviewParams = {
   localeId: number
   clientId: string
   userClientVariant: O.Option<UserClientVariant>
+  reviewSentencesWithoutVariant: boolean
 }
-
-export type FindSentencesForReview = (
-  params: FindSentencesForReviewParams
-) => TO.TaskOption<UnvalidatedSentence[]>
 
 const insertSentenceTransaction = async (
   db: Mysql,
@@ -284,12 +281,17 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     variantTag: O.fromNullable(row.variant_token),
   }))
 
+export type FindSentencesForReview = (
+  params: FindSentencesForReviewParams
+) => TO.TaskOption<UnvalidatedSentence[]>
+
 const findSentencesForReview =
   (db: Mysql) =>
   (params: {
     localeId: number
     clientId: string
     userClientVariant: O.Option<UserClientVariant>
+    reviewSentencesWithoutVariant: boolean
   }): TO.TaskOption<UnvalidatedSentence[]> => {
     const userVariant: UserClientVariant | null = pipe(
       params.userClientVariant,
@@ -298,6 +300,11 @@ const findSentencesForReview =
         variant => variant
       )
     )
+    const variantCondition = params.reviewSentencesWithoutVariant
+      ? 'AND variants.id IS NULL'
+      : userVariant?.isPreferredOption
+      ? `AND variants.id = ${userVariant.variant.id}`
+      : ''
 
     return pipe(
       TO.tryCatch(() =>
@@ -318,11 +325,7 @@ const findSentencesForReview =
           WHERE
             sentences.is_validated = FALSE
             AND sentences.locale_id = ?
-            ${
-              userVariant?.isPreferredOption
-                ? `AND variants.id = ${userVariant.variant.id}`
-                : ''
-            }
+            ${variantCondition}
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
             )
@@ -399,29 +402,38 @@ export const fetchSentenceIdsThatUserInteractedWith: FetchSentenceIdsThatUserInt
     )
 
 export type FindVariantSentences = (
-  variant: Variant
+  variant: Variant,
+  sentencesWithVariant?: boolean
 ) => TE.TaskEither<ApplicationError, Sentence[]>
 export const findVariantSentences: FindVariantSentences = (
-  variant: Variant
-): TE.TaskEither<ApplicationError, Sentence[]> =>
-  pipe(
-    [
-      variant.locale,
-      variant.id,
-      VARIANT_SENTENCE_LIMIT,
-      VARIANT_SENTENCE_LIMIT,
-    ],
+  variant: Variant,
+  sentencesWithVariant = true
+): TE.TaskEither<ApplicationError, Sentence[]> => {
+  const params = sentencesWithVariant
+    ? [
+        variant.locale,
+        variant.id,
+        VARIANT_SENTENCE_LIMIT,
+        VARIANT_SENTENCE_LIMIT,
+      ]
+    : [variant.locale, VARIANT_SENTENCE_LIMIT, VARIANT_SENTENCE_LIMIT]
+  return pipe(
+    params,
     queryDb(`
         SELECT *
         FROM (
-          SELECT s.id, text
+          SELECT s.id, text, variant_id
           FROM sentences s
-          JOIN sentence_metadata sm ON s.id = sm.sentence_id
+          LEFT JOIN sentence_metadata sm ON s.id = sm.sentence_id
           WHERE
             is_used
             AND locale_id = (SELECT id FROM locales WHERE name = ?)
             AND clips_count <= 15
-            AND sm.variant_id = ?
+            AND ${
+              sentencesWithVariant
+                ? 'sm.variant_id = ?'
+                : 'sm.variant_id IS NULL'
+            }
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
@@ -434,13 +446,18 @@ export const findVariantSentences: FindVariantSentences = (
         err
       )
     ),
-    TE.map(([results]: Array<Sentence[]>) =>
+    TE.map(([results]: Array<(Sentence & { variant_id: number })[]>) =>
       pipe(
         results,
-        A.map(s => ({ ...s, variant: variant }))
+        A.map(s => ({
+          id: s.id,
+          text: s.text,
+          variant: Number(s.variant_id) == variant.id ? variant : undefined,
+        }))
       )
     )
   )
+}
 export const saveSentenceInDb: SaveSentence = saveSentence(db)
 export const insertBulkSentencesIntoDb: InsertBulkSentences =
   insertBulkSentences(db)

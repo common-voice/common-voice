@@ -325,4 +325,39 @@ export const ACCENTS: Accent[] = [
     accent_name: '出生地：連江縣',
     accent_token: 'lienchiang_county',
   },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Atina (Pazar)',
+    accent_token: 'atinuri',
+  },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Artaşeni (Ardeşen)',
+    accent_token: 'artaşenuri',
+  },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Vitzi (Fındıklı)',
+    accent_token: 'vitzuri',
+  },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Arkabi (Arhavi)',
+    accent_token: 'arkaburi',
+  },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Xope (Hopa)',
+    accent_token: 'xopuri',
+  },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Çxala (İçkale/Borçka)',
+    accent_token: 'çxaluri',
+  },
+  {
+    locale_name: 'lzz',
+    accent_name: 'Beğlevani (Güreşen)',
+    accent_token: 'beğlevanuri',
+  },
 ]

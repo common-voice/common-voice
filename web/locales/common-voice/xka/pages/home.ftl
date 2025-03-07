@@ -120,7 +120,6 @@ scripted-card-header = میݭٹ دا چوݨاگیال جولال۔
 scripted-card-content = تانی جیب اےجولال دریکے منا۔تے دنیا اے سوام دا ران ڈیٹا سیٹ می تانی ڈا تلا
 spontaneous-card-header = جولال
 language-text-card-header = جیب اے چوݨاگیل
-coming-soon = یندر
 add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section
@@ -135,12 +134,22 @@ find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر از�
 # label for button
 find-us-on-matrix-action = مٹرکس رل اساں پش۔
 ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
+# label for button
+download-contribution-certificate-action = ثانی سند گین۔
+contribute-github = جی ائ ٹی ہب می مدد دا
+# label for button
+contribute-github-action = جی ائ ٹی ہب می مدد دا
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = اسی پریس پیک ڈاؤنلوڈ تھا۔۔۔۔۔۔۔
 
 ## Developers section
 
+developers-section-title = { "" }
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سٹ سم تہ نالا
 
 ## Get involved section
 
