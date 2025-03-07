@@ -145,12 +145,13 @@ contribute-github-action = جی ائ ٹی ہب می مدد دا
 
 ## Featured section
 
+featured-section-title = خصوصیات ان
 # icon is an arrow that points downwards
 download-press-pack = اسی پریس پیک ڈاؤنلوڈ تھا۔۔۔۔۔۔۔
 
 ## Developers section
 
-developers-section-title = { "" }
+developers-section-title = عوام رس تہ اپان پشہ گانٹہہ زات ا ڈیٹا سیٹ۔۔۔۔۔۔۔۔جیب ام می
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سٹ سم تہ نالا
 
