@@ -80,6 +80,7 @@ answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
 review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
 add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
+add-questions-coming-soon = دی پہ سوالونی <small> تیپہ پݭہ</small>
 transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
 transcribe-audio = بوجل نقل تیپہ پݭہ۔
 press-and-stories = سیپ دے
@@ -119,7 +120,9 @@ action-items-section-subtitle = کو۔۔تی ۔۔تانی جِب اے°منیل 
 scripted-card-header = میݭٹ دا چوݨاگیال جولال۔
 scripted-card-content = تانی جیب اےجولال دریکے منا۔تے دنیا اے سوام دا ران ڈیٹا سیٹ می تانی ڈا تلا
 spontaneous-card-header = جولال
+spontaneous-card-content = ران،تے بربادی روان جولال  تے سلوخ ڈیٹا سیٹ ترال کیرپرامپٹ تہ رسپانس دہ
 language-text-card-header = جیب اے چوݨاگیل
+language-text-card-content = لک جیب ام۔تے ترجمہ ام کیر عوامی ڈومین نکلا شیئر تھا
 add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section
