@@ -120,6 +120,9 @@ community-and-languages-menu-item-aria-label = ສຳຫຼວດຊຸມຊົ
 ## Hero section
 
 hero-title = ເຕັກໂນໂລຊີທີ່ເວົ້າພາສາຂອງທ່ານ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ເປັນຫຍັງ AI ຄວນໃຊ້ໄດ້ກັບບາງພາສາຂອງໂລກເທົ່ານັ້ນ?</bold>
+hero-subtitle-2 = ພາສາຂອງພວກເຮົາແມ່ນເລື່ອງຂອງພວກເຮົາ, ຊຸມຊົນຂອງພວກເຮົາ, ວັດທະນະທໍາຂອງພວກເຮົາ. ໃຫ້ສ້າງຊຸດຂໍ້ມູນທີ່ພວກເຮົາຕ້ອງການເບິ່ງໃນໂລກ.
 # icon is an arrow that points downwards
 get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
