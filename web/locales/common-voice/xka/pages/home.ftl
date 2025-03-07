@@ -177,6 +177,8 @@ press-and-stories-link = سیپ دہ۔
 
 partner-section-title = اسان سہ ٹلگر
 # Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = ٹکنالوجی کمپن۔یانازاد ڈیٹا سٹ ترال می مدد دانتے خرچ تھان۔اوں آرٹیفشل انٹلی جنس کیرباڑ جب ام ا ماحول ترجمہ تہ
+# Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = خلق ۔تے محققینخدا نامی ڈیٹا سٹ ثران تے چلان پا
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = فلنتروپی ڈیٹا سیٹ ترال سپورٹ تان لوکل سطح دہ جب ام کار تیز بہ تہپترہ تہ
