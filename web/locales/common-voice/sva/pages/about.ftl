@@ -125,6 +125,9 @@ about-playbook-how-access-dataset-content-2 = ჰემა ხეთხე̄ლ�
 
 about-playbook-how-project-governance = იმჟი იკი̄დიხ პროექტი გადაწყვეტილება̄̈ლ?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice ხელმისაწვდომ ლი აქტივისტრეშდ, ლინგვისტრეშდ, მონაცემარე მეცნიერლეშდ, მონაცემარე სპეციალისტრეშდ ი ინჟინერ-პროგრამისტრეშდ თელ მსოფლიოისგა. პროექტი ხელმძღვანელ ლი  Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = ნიშგუ̂ეჲ მმართველობა̈ საფუძველ ლი პრინციპა̈ლ:
+about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება, გამჭვირვალობა.
+about-playbook-how-project-governance-content-4 = საზოგადოება̄̈ მონაწილეობა ი გადაწყვეტილება̄̈ ლიკედ.
 
 ## How is Common Voice funded
 
