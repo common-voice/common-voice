@@ -80,6 +80,7 @@ answer-questions-coming-soon = سؤلی ځوبًی <small> څوار بُو سې�
 review-transcriptions = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 review-transcriptions-coming-soon = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
+add-questions-coming-soon = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
 transcribe-audio-coming-soon = ا ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے

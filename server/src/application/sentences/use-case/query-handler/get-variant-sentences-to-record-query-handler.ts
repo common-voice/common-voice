@@ -1,5 +1,6 @@
 import { pipe } from 'fp-ts/lib/function'
 import * as TE from 'fp-ts/TaskEither'
+import * as A from 'fp-ts/Array'
 import {
   FetchSentenceIdsThatUserInteractedWith,
   FindVariantSentences,
@@ -18,8 +19,19 @@ export const getVariantSentencesToRecordQueryHandler =
     pipe(
       TE.Do,
       TE.apS('variantSentences', findVariantSentences(query.variant)),
+      // TE.apS('nonVariantSentences', findVariantSentences(query.variant, false)),
       TE.apS('sentenceIds', fetchInteractedSentenceIds(query.clientId)),
-      TE.map(({ variantSentences, sentenceIds }) =>
-        pipe(variantSentences, filterUserInteractedSentences(sentenceIds))
-      )
+      TE.map(({ variantSentences, sentenceIds }) => {
+        const variantSentencesResult = pipe(
+          variantSentences,
+          filterUserInteractedSentences(sentenceIds)
+        )
+        // Ignore non variant sentences for until we figured out how to best present
+        // the result to the user
+        // const nonVariantSentencesResult = pipe(
+        //   nonVariantSentences,
+        //   filterUserInteractedSentences(sentenceIds)
+        // )
+        return variantSentencesResult
+      })
     )

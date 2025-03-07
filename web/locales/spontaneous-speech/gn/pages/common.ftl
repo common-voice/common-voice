@@ -4,6 +4,8 @@
 error = Javy
 action-click = Eikutu
 action-tap = Kanílla
+# Label for language switcher
+platform-language = Pyendavusu ñe’ẽ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Oipytyvõva { $language } mba’ekuaarã atýpe
@@ -21,11 +23,14 @@ report-button = Momarandu
 skip-button = Jepo
 submit-button = Mondo
 contribute = Ñepytyvõ
+request-new-language = Ejerure peteĩ ñe’ẽpyahu
 
 ## Navbar
 
 respond-to-prompt = Embohovái ñe’ẽmondo
+transcribe = Ñe’ẽjehai
 check-transcriptions = Ehechajey ñe’ẽjehai
+question = Porandu
 
 ## Not Found Page
 

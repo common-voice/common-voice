@@ -4,6 +4,8 @@
 error = غلطی
 action-click = کلک
 action-tap = ووسپلہ
+# Label for language switcher
+platform-language = پلیٹ فارم وری
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹ سیٹ { $language } شریک بوستہ

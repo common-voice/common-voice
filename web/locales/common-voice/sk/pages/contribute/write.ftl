@@ -66,7 +66,7 @@ sentence-variant-select-label = Variant vety
 sentence-variant-select-placeholder = Vyberte variant (voliteľné)
 sentence-variant-select-multiple-variants = Všeobecný jazyk / viaceré varianty
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nahrajte <icon></icon> vety dostupné pod verejnou licenciou
@@ -156,7 +156,7 @@ small-batch-sentences-rule-4 = Môžete pridať až 1 000 viet
 small-batch-sentences-rule-5 = Všetky vety musia mať rovnakú licenciu
 small-batch-sentences-rule-6 = Všetky vety musia mať rovnakú citáciu
 # menu item
-add-sentences = Pridanie viet
+add-sentences = Pridajte nové vety
 
 ## MENU ITEM TOOLTIPS
 

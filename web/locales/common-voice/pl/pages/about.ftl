@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = Dlaczego Common Voice?
+how-does-it-work-title-v2 = Jak działa projekt Common Voice?
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
 
 ## How does it work section

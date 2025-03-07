@@ -108,6 +108,8 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Emoñepyrũ <icon><icon>
 
 ## Action items section
 

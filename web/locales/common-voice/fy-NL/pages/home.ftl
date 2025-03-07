@@ -90,6 +90,7 @@ answer-questions-coming-soon = Fragen beäntwurdzje <small>(ynkoarten)</small>
 review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
 review-transcriptions-coming-soon = Transkripsjes beoardiele <small>(ynkoarten)</small>
 add-questions = Fragen tafoegje <small>(ynkoarten)</small>
+add-questions-coming-soon = Fragen tafoegje <small>(ynkoarten)</small>
 transcribe-audio-coming-soon = Audio transkribearje <small>(ynkoarten)</small>
 transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
 press-and-stories = Parse en ferhalen
@@ -132,7 +133,6 @@ spontaneous-card-header = Spontane spraak
 spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar organyske, ynformele konteksten. Perfekt foar orale talen.
 language-text-card-header = Taaltekst
 language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
-coming-soon = Ynkoarten beskikber
 add-text = Tekst tafoegje
 
 ## Community section
