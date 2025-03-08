@@ -133,6 +133,11 @@ ask-mozilla-share = Ejerure Mozilla-pe omoherakuãvo ne rembiapo
 # label for button
 ask-mozilla-share-action = Emoherakuã ne rembiapo
 download-contribution-certificate = Emboguejy nde kuatia ñepytyvõ rechaukaha
+# label for button
+download-contribution-certificate-action = Erekóke mboajepyre
+contribute-github = Eipytyvõ GitHub-pe
+# label for button
+contribute-github-action = Eipytyvõ GitHub-pe
 
 ## Featured section
 
