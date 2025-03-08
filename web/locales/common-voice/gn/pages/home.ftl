@@ -153,6 +153,15 @@ explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 get-involved-section-title = Eipytyvõ mba’ekuaarã aty ijurujáva ha omoakãva tekohagua
 read-sentences-link = Emoñe’ẽ ñe’ẽjuaju
 validate-readings-link = Emboaje ñemoñe’ẽ
+contribute-link = Eipytyvõ moñe’ẽrã atyguasúpe
+answer-questions-link = Embohovái porandu
+transcribe-answers-link = Ehai ñembohavái
+review-transcriptions-link = Ehechajey jehaikue
+contribute-text-link = Eipytyvõ moñe’ẽrã reheve
+press-and-stories-link = Prensa ha ñemombe’u
 
 ## Partner section
 
+partner-section-title = Eike orendive
+# icon is an arrow that points to the right
+get-in-touch-button = Eñe’ẽ orendive <icon></icon>
