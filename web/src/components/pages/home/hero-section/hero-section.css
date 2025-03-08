@@ -164,6 +164,11 @@
                 position: absolute;
                 top: 2.8%;
                 right: 0%;
+
+                [dir='rtl'] & {
+                    left: 0%;
+                    transform: rotateY(180deg);
+                }
             }
 
             @media (--md-and-lg-only) {
@@ -432,7 +437,14 @@
                 @media (--xl-up) {
                     width: 50%;
                     top: 60%;
-                    right: 80%;
+
+                    [dir='ltr'] & {
+                        right: 80%;
+                    }
+
+                    [dir='rtl'] & {
+                        flex-direction: row-reverse;
+                    }
                 }
 
                 @media (--md-and-lg-only) {
