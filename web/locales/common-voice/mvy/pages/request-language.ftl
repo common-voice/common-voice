@@ -29,3 +29,4 @@ need-help-deciding-platform = گھِن٘ل اوک خوش کرم ، مدد کرہ
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>لِکیلیۡ بلی</strong> (روایتی طور لا اَس تُس کامن وائس لا پُنیاں تھہ) ݜے زائ تھی چےۡ گولہ تُو تَیں ژِبہۡ مہ لِکیلیۡ بلی تا لا پڑہَیں تُھو۔
 need-help-deciding-platform-explanation-2 = <strong> فی البدیہہ (ڈارِک) بلی</strong> کامن وائساں نؤں حصہ تُھو چےۡ اسی مہ تُس سوال واں جواب تَیں ہردېسہ ژِبہۡ مہ دے ہاں تھو۔
+need-help-deciding-platform-explanation-3 = کہ تُو تَیں ژیب پلېٹ فارماں بھژدو حصیُوں مہ نی ڇی تُھو کھیں بھژدُو خوش کرہ۔
