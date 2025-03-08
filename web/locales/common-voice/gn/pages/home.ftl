@@ -141,13 +141,18 @@ contribute-github-action = Eipytyvõ GitHub-pe
 
 ## Featured section
 
+featured-section-title = Momba’epyre amo...
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Eipytyvõ mba’ekuaarã aty ijurujáva ha omoakãva tekohagua
 read-sentences-link = Emoñe’ẽ ñe’ẽjuaju
+validate-readings-link = Emboaje ñemoñe’ẽ
 
 ## Partner section
 
