@@ -92,6 +92,7 @@ transcribe-audio-coming-soon = Emoñe’ẽjehai mba’epu <small>Tenondeve</sma
 transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
+coming-soon = Ag̃aitéma
 
 ## MENU ITEMS TOOLTIPS
 
@@ -119,6 +120,8 @@ get-started = Emoñepyrũ <icon><icon>
 ## Action items section
 
 scripted-card-header = Ñe’ẽsyry hapéva
+spontaneous-card-header = Ñe’ẽsyry hape’ỹva
+language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
 add-text = Embojuapy moñe’ẽrã
 
 ## Community section
