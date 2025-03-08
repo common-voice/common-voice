@@ -129,6 +129,10 @@ join-discord-community-action = Ejuaju orerehe Discord-pe
 find-us-on-matrix = Orejuhúta Matrix-pe
 # label for button
 find-us-on-matrix-action = Orejuhúta Matrix-pe
+ask-mozilla-share = Ejerure Mozilla-pe omoherakuãvo ne rembiapo
+# label for button
+ask-mozilla-share-action = Emoherakuã ne rembiapo
+download-contribution-certificate = Emboguejy nde kuatia ñepytyvõ rechaukaha
 
 ## Featured section
 
