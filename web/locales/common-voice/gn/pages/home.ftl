@@ -165,3 +165,5 @@ press-and-stories-link = Prensa ha ñemombe’u
 partner-section-title = Eike orendive
 # icon is an arrow that points to the right
 get-in-touch-button = Eñe’ẽ orendive <icon></icon>
+# Partners section
+our-partners-include = Ore pytyvõhára omoinge...
