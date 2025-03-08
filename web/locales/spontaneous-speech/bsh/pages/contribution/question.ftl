@@ -13,3 +13,5 @@ add-question-error-message = پلوتعستہ اوتینہ، مہربانی کہ
 # Guidelines
 add-question-guidelines-title = کائ سوال اوں اتیوں شیلوم؟
 do-section-title = کشی
+do-section-guideline-1 = سہی اوقاف دے گرائمر استعمال کشی
+do-section-guideline-2 = اوجیستہ سوال ستہ انتخاب کشݩع چی امکی ورں کہ دی اسان بولہ اگرچہ امکی ور ثقافت یا ور  پس منظر ستہ بوتہت با
