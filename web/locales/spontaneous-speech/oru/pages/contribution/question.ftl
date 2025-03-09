@@ -24,3 +24,5 @@ do-section-guideline-2 = همېشۀ يې اسان سوال کېون که ا سړ
 do-section-guideline-3 = آ تتیک کېون که ا سوال ݭئے دیو جمله نر ځواب سَۀ
 do-not-section-title = مک کېون
 do-not-section-guideline-1 = ا معلومات خوئ پزن او ذاتي وه عرض کېون که ته څۀ بارۀ نر اِن سکه نمی یا څۀ مالي معلومات
+do-not-section-guideline-2 = ا تعصب یا دشمني لاسته ډک جذبات پزن او شامه وه کَۀ
+do-not-section-guideline-3 = حساس سؤلی دی کېون
