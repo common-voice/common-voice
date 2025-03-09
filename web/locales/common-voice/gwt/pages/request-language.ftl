@@ -24,3 +24,4 @@ need-help-deciding-platform = اسہ فیصلا کېرِکہ ݭڅی مددَنی
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>لِکِسنت تقریر</strong>(دستُوری رَوے زی تسہ مے کامن وائسَنہ نامے پیانِمانېؤ) سے ٹھان زی تېنے مے تانُو گاݭٹے ڈل کھنٹے ژَئی بمانېؤ۔
 need-help-deciding-platform-explanation-2 = <strong>تانُو واکنی تقریر</strong> کامن وائسَنہ یَہ نُنگہ حصہ تھنہ زی تېنے مے سوالاتَنی جواب لؤ نامیاتی باتِیَنہ روے ݪی بمانېؤ۔
+need-help-deciding-platform-explanation-3 = کېنے زی مے پېیٹ فارَمَنہ کرېک بی حصا تانُو باتِیہ نہ تمانېؤ بہ، ژو دُمِّیہ خوخَؤ۔
