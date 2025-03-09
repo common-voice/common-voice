@@ -16,3 +16,13 @@ partial-questions-upload-message =
         [one] یَک سوالَنہ منزَنہ{ $uploadedQuestions } جمع کېران گئیت۔ اِتے بارا پرُوزِکہ ݭڅی امَنی 1 <guidelinesLink> فنت لېڑَنی خط </guidelinesLink> موخ نامہ بالِؤ سوالاتہ لُبُسَؤ
        *[other] { $uploadedQuestions } پېنہ{ $totalQuestions } سوالات جمع کېران گَئیت۔ اِتېنہ بارا واری کی پرُوزِکہ ݭڅی امَنی </guidelinesLink> فنت لېڑَنی خطوط </guidelinesLink> موخ نامہ بالِؤ سوالات لُبُسَؤ
     }
+# Guidelines
+add-question-guidelines-title = کریَک سوالاتہ آں لُبُسَئی بمېم؟
+do-section-title = کېرِؤ
+do-section-guideline-1 = سئی ہیجہ اؤ گرامَرہ استعمال کېرِؤ
+do-section-guideline-2 = اِشلی ہانسان سوالاتَنی انتخاب کېرِؤ زی ثقافت یا سیاق اؤ سباقہ بایہ غیر کرېکہ ݭڅی بی پرُوزاوَہ ہانسان تھِتېؤ
+do-section-guideline-3 = یقینی ݫُپَؤ زی تسُونی جواب فقط یَہ دُو کلاوَہ ݪِیان دِیَو
+do-not-section-title = مہ کېرېس
+do-not-section-guideline-1 = تانُو بَکَنہ پیانوَئیݪی معلومات کوڅِؤ(لکہ نام یا مالی معلومات)
+do-not-section-guideline-2 = تعصبَنی یا جارحانہ جذباتَنہ اظہارہ کېرِؤ یا تسُونی درخاس کېرِؤ
+do-not-section-guideline-3 = حساس سوالات کھُدَؤ
