@@ -20,3 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = ا څېن نمونۀ سوال ال يې بُو از ګډ اېنچِم؟
 do-section-title = کېون
 do-section-guideline-1 = صحیح املا او صحیح ګرامر يې استعمالېون
+do-section-guideline-2 = همېشۀ يې اسان سوال کېون که ا سړئ یه وه سېره ویزر پويېک سَۀ، بغېر ته کلتُور او ته حواله په لحاظ
+do-section-guideline-3 = آ تتیک کېون که ا سوال ݭئے دیو جمله نر ځواب سَۀ
+do-not-section-title = مک کېون
+do-not-section-guideline-1 = ا معلومات خوئ پزن او ذاتي وه عرض کېون که ته څۀ بارۀ نر اِن سکه نمی یا څۀ مالي معلومات
