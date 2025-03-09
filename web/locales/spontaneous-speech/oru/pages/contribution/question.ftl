@@ -10,3 +10,13 @@ add-question-success-toast-message =
        *[other] سؤلی دی جمع سُکِن
     }
 add-question-error-message = اپ لوډ ناکامیاب ، بيې وه کوشِش کَۀ
+add-question-too-many-questions-error = 500 لاسته ا سؤلی ݫات سُکِن۔ ته سؤلی ا تعداد کېم کېوَن او بيې وه کوشِش کېون
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] سۀ سوال يې جمع ݭیوک۔ ترماخ ته هدایات ا صفحی جیره کَۀ ته پۀ پاره که سؤلی ل دی بُو څا ګډوَک سېن
+       *[other] سؤلی دی جمع سُکِن۔ ترماخ ته هدایات ا صفحی جیره کَۀ ته پۀ پاره که سؤلی ل دی بُو څا ګډوَک سېن
+    }
+# Guidelines
+add-question-guidelines-title = ا څېن نمونۀ سوال ال يې بُو از ګډ اېنچِم؟
+do-section-title = کېون
+do-section-guideline-1 = صحیح املا او صحیح ګرامر يې استعمالېون
