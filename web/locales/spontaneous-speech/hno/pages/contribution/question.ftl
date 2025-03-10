@@ -20,3 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = کس طرح دے سوال میں بھا ہکداں؟
 do-section-title = کرو
 do-section-guideline-1 = درست ہجے تے گرامر استعمال کرو
+do-section-guideline-2 = سادے سوال چنڑّو جہڑے ہر ہکّا کو سمجنڑے اچ آسان ہوّن، کلچر ہور حوالے دا خیال نہ کرو۔
+do-section-guideline-3 = اس گلا کو یقینی بنڑاؤ کہ ان دا جواب تھوڑے جے جملیاں وچ ہوّا
+do-not-section-title = نہ کر
+do-not-section-guideline-1 = ذاتی شناخنتی معلومات منگنڑا (جیّاں ناں ہور روپیاں بارے معلومات)
