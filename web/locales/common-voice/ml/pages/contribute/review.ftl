@@ -15,3 +15,4 @@ sc-review-form-button-skip-shortcut = സ
 
 ## REVIEW CRITERIA
 
+report-sc-different-language = വേറെയൊരു ഭാഷ
