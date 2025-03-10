@@ -25,3 +25,4 @@ do-section-guideline-3 = اس گل کو خیال رکھیو جے ان سوالا
 do-not-section-title = نہ کرو
 do-not-section-guideline-1 = ذاتی طور اپر شناخت کرن آلی معلومات پچھو (جس طرحیا، ناں یا مالی معلومات)
 do-not-section-guideline-2 = متعصبانہ یا جارحانہ جذبات کو اظہار کرو یا ان کی درخواست کرو۔
+do-not-section-guideline-3 = حساس سوال پچھو

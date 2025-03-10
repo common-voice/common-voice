@@ -20,7 +20,7 @@ request-language-success-list-3 = جے کدے تمنا کجھ دیہاڑاں م�
 request-language-error = ہمنا شاید یاہ درخواست نیہہ لبھی۔ تم براہ راست ہمنا <emailLink> { $email } </emailLink> اپر ای میل کرو بھی ہم تھہارے نال رابطو کراں گا۔
 request-for-scripted-speech-toggle = سکرپٹڈ  گل وسطے گزارش
 request-for-spontaneous-speech-toggle = ان جہکیاں گل وسطے گزارش
-need-help-deciding-platform = تمنا مدد کی ضرورت ہے جے تم کہڑی چیز نا چنو
+need-help-deciding-platform = تمنا مدد کی ضرورت ہے جے تم کہڑی چیز نا چنو؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong> سکرپٹڈ گل</strong>(روایتی طور اپر جس نا تم Common Voice کا ناں تے سیانو) واہ جا ہے جت تم اپنی زبان ما جملا  اچی واز ما پڑھ سکو۔
 need-help-deciding-platform-explanation-2 = <strong> ان جہکیاں گل</strong> کامن وائس نووں حصو ہے جت تم سوالاں کا جواب قدرتی تے عام بول چال کا طریقہ نال دے سکو
