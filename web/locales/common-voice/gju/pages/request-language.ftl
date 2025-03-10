@@ -18,3 +18,4 @@ request-language-success-list-1 = تمنا ایک نکی جئی ای میل لب
 request-language-success-list-2 = مہاری برادری کو ناظم تھہارے نال رابطو کر کے مزید مدد کی درخواست کرے گو تے تمنا دسے گو جے کمیونٹی پہلاں تے تھہاری زبان اپر کم کرے۔
 request-language-success-list-3 = جے کدے تمنا کجھ دیہاڑاں ما کائے خبر نہ لبھے بھی  تم <emailLink> { $email } </emailLink> اپر مہارے نال رابطو کرو تے ہم بھی تھہارے نال رابطو کراں گا۔
 request-language-error = ہمنا شاید یاہ درخواست نیہہ لبھی۔ تم براہ راست ہمنا <emailLink> { $email } </emailLink> اپر ای میل کرو بھی ہم تھہارے نال رابطو کراں گا۔
+request-for-scripted-speech-toggle = سکرپٹڈ  گل وسطے گزارش
