@@ -8,6 +8,7 @@ different_language = Different language
 different_language-detail = The content contains a language different than I was expecting.
 personally_identifiable_information = Personally Identifiable Information
 personally_identifiable_information-detail = This content contains personally identifiable information related to an individual's identity, such as their name, email address, location, identification number, or phone number.
+personally_identifiable_information-answer-detail = This content is asking for personally identifiable information related to an individual's identity, such as their name, email address, location, identification number, or phone number.
 report-other-comment =
         .placeholder = Comment
 # Label for textarea in report modal
