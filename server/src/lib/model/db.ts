@@ -844,6 +844,21 @@ export default class DB {
     return rows
   }
 
+  async getInvalidClipCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?) AND is_valid IS FALSE
+        GROUP BY locale_id
+      `,
+      [localeIds]
+    )
+    return rows
+  }
+
   async getClipsStats(
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
