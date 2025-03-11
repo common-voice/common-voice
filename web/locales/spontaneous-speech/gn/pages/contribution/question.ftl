@@ -1,6 +1,12 @@
 ## Question Page
 
+add-question-textarea-placeholder = Techapyrã, "¿Ma’ẽrãpa eiporúta tembiporupyahu?"
 question-database-language = Mba’ekuaarã rupa: { $databaseLanguage }
+add-question-success-toast-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } 1 porandu mbyatypyre
+       *[other] { $uploadedQuestions } { $totalQuestions } rehegua porandu mbyatypyre
+    }
 add-question-error-message = Ñemyanyhẽ ndoikói, eha’ãjey ag̃ave.
 # Guidelines
 add-question-guidelines-title = ¿Mba’e porandu ambojuajukuaa?
