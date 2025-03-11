@@ -1,5 +1,8 @@
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ഉറവിടം: { $sentenceSource }
 sc-review-form-button-reject = തള്ളി കളയുക
 sc-review-form-button-skip = ഒഴിവാക്കുക
 sc-review-form-button-approve = തീൎച്ചപ്പെടുത്തുക
@@ -12,3 +15,4 @@ sc-review-form-button-skip-shortcut = സ
 
 ## REVIEW CRITERIA
 
+report-sc-different-language = വേറെയൊരു ഭാഷ
