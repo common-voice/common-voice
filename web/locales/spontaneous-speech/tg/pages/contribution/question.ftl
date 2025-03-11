@@ -17,3 +17,4 @@ partial-questions-upload-message =
 # Guidelines
 add-question-guidelines-title = Кадом саволҳоро илова карда метавонам?
 do-section-guideline-1 = Қоидаҳои имло ва грамматикаи дурустро истифода баред
+do-not-section-title = Иҷро накардан

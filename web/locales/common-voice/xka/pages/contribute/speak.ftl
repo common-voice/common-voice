@@ -62,6 +62,8 @@ create-profile-button = پروفائل ترو۔
 img-alt-success-checkmark = کامیابی اؘ نخ۔
 # menu item
 read-sentences = جولال من۔
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملا من۔۔۔۔۔یال رل این
 
 ## MENU ITEM TOOLTIPS
 
