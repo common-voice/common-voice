@@ -13,4 +13,5 @@ add-question-guidelines-title = ¿Mba’e porandu ambojuajukuaa?
 do-section-title = de
 do-section-guideline-1 = Eiporu haikuaa ha ñe’ẽtekuaa ha’etéva
 do-not-section-title = Nahániri
+do-not-section-guideline-2 = Ere térã ejerure temiandu ivai térã iñañáva.
 do-not-section-guideline-3 = Eporandu eñandúva
