@@ -27,6 +27,8 @@ contribute = ມີສ່ວນຮ່ວມ
 ## Navbar
 
 respond-to-prompt = ຄໍາຕອບ
+transcribe = ການຖອດຂໍ້ຄວາມ
+check-transcriptions = ການກວດຄືນ
 
 ## Not Found Page
 
