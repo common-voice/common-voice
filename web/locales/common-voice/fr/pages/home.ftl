@@ -139,6 +139,7 @@ download-contribution-certificate-content = Téléchargez un certificat pour vos
 # label for button
 download-contribution-certificate-action = Obtenir votre certificat
 contribute-github = Contribuez sur GitHub
+contribute-github-content = Ce projet n’existerait pas sans des personnes comme vous. Il existe de nombreuses façons de s’impliquer dans Common Voice - vous n’avez pas besoin de savoir coder pour contribuer !
 # label for button
 contribute-github-action = Contribuer sur GitHub
 
