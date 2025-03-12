@@ -9,10 +9,9 @@ different_language-detail = The content contains a language different than I was
 personally_identifiable_information = Information personnelle permettant de m'identifier.
 personally_identifiable_information-detail = Ce clip contient des informations personnelles d'un tiers, telles que nom, son adresse mail, son lieu de vie, un numéro personnel ou un numéro de téléphone.
 report-other-comment =
-        .placeholder = Commenter
+    .placeholder = Commenter
 # Label for textarea in report modal
 other = Autre
-
 report-error = Une erreur s'est produite lors de la soumission du rapport.
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Continuer
