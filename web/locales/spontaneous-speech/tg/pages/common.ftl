@@ -10,6 +10,7 @@ platform-language-tooltip-text = Танҳо матни сомонаро тағй
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълумот барои { $language }
+contribution-picker-tooltip-text = Тағйир додани маҷмуи маълумоти забонӣ, ки шумо ба он саҳм мегузоред
 # Label for button on contribution switcher
 change = Тағйир додан
 coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
