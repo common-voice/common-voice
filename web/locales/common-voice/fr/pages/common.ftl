@@ -5,11 +5,13 @@
 ## Languages
 
 aa = Afar
+aat = Arvanitique
 ab = Abkhaze
 abb = Bankon
 ace = Aceh
 ady = Adyguéen
 af = Afrikaans
+aln = Guègue
 am = Amharique
 an = Aragonais
 ar = Arabe
