@@ -58,7 +58,7 @@ x-years-short =
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú kolekciu údajov
 sign-up-account = Vytvorte si účet
 email-subscription-title = prihláste sa k odberu noviniek
-email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a informácií o pokroku.
+email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, pripomenutí na ciele a informácií o pokroku.
 
 ## Account Benefits
 
@@ -137,7 +137,6 @@ spontaneous-card-header = Spontánna reč
 spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pre organické, hovorové kontexty. Ideálne pre hovorové jazyky.
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
-coming-soon = Už čoskoro
 add-text = Pridajte text
 
 ## Community section

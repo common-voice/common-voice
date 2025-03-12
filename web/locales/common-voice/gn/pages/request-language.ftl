@@ -34,3 +34,6 @@ request-language-success-list-3 =
 request-language-error =
     Ikatu nog̃uahẽikuri pe nemba’ejerure. Emboukuaa ñanduti veve oréve
     <emailLink>{ $email }</emailLink>-pe ha uperire roñe’ẽta nendive.
+request-for-scripted-speech-toggle = Ojejerure ñe’ẽsyry hapéva
+request-for-spontaneous-speech-toggle = Ojejerure ñe’ẽsyry hape’ỹva
+need-help-deciding-platform = ¿Eikotevẽ pytyvõ eiporavokuaa hag̃ua?

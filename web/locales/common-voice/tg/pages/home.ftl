@@ -78,6 +78,7 @@ answer-questions-coming-soon = Ба саволҳо ҷавоб диҳед <small>
 review-transcriptions = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 review-transcriptions-coming-soon = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 add-questions = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
+add-questions-coming-soon = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio-coming-soon = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 press-and-stories = Матбуот ва ҳикояҳо
@@ -115,9 +116,9 @@ get-started = Оғози кор <icon><icon>
 action-items-section-title = «Common Voice» - лоиҳаи озод аст, ки дар платформаи манбаи кушод асос меёбад ва барои эҷоди маълумот дар зери роҳбарии ҷомеаи умумиҷаҳонӣ дастгирӣ мешавад
 action-items-section-subtitle = Ҳар як кас метавонад тавассути мубодила, эҷод ва назорат кардани маҷмуъҳои маълумоти матнӣ ва овозӣ забони модарии худро ҳифз кунад, эҳё намояд ва баланд бардорад.
 scripted-card-header = Нутқи намоишнома
+scripted-card-content = Ҷумлаҳоро бо забони худ бо овози баланд хонед ва ба маҷмуи гуногуни суханронии иштироки ҷамъиятӣ дар ҷаҳон саҳм гузоред.
 spontaneous-card-header = Лоиҳаи «Spontaneous Speech»
 language-text-card-header = Матни забон
-coming-soon = Ба наздикӣ дастрас мешавад
 add-text = Илова кардани матн
 
 ## Community section

@@ -6,9 +6,11 @@ action-click = ক্লিক কৰক
 action-tap = স্পৰ্শ কৰক
 # Label for language switcher
 platform-language = প্লেটফৰ্মৰ ভাষা:
+platform-language-tooltip-text = কেৱল ৱেবছাইটৰ পাঠ সলনি কৰে।
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } ভাষাৰ ডেটাছেটলৈ অৱদান আগবঢ়াই আছে
+contribution-picker-tooltip-text = আপুনি অৱদান দি থকা ভাষাৰ ডেটাছেট সলনি কৰে
 # Label for button on contribution switcher
 change = সলনি কৰক
 coming-soon = অতি সোনকালে অধিক ভাষা আহি আছে
@@ -28,6 +30,7 @@ request-new-language = নতুন ভাষাৰ অনুৰোধ কৰক
 ## Navbar
 
 respond-to-prompt = প্ৰম্‌প্টৰ প্ৰতি সঁহাৰি দিয়ক
+transcribe = লিপিবদ্ধ কৰক
 check-transcriptions = শ্ৰুতলিপি পৰীক্ষা কৰক
 question = প্ৰশ্ন
 

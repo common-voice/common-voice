@@ -82,6 +82,7 @@ answer-questions-coming-soon = سوالاں دے جواب دیو<small>(جلدی
 review-transcriptions = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آرہے ہن)</small>
 review-transcriptions-coming-soon = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آ ری اے)</small>
 add-questions = سوال شامل کرو<small>(جلدی آرہے ہن)</small>
+add-questions-coming-soon = سوال شامل کرو<small>(جلدی آرہے ہن)</small>
 transcribe-audio-coming-soon = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
 transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
 press-and-stories = پریس ہور کہانڑیاں
@@ -124,7 +125,6 @@ spontaneous-card-header = خود بخود گل/تقریر
 spontaneous-card-content = اصلی تے عام بات چیت آلے سیاق و سباق آسطے ڈیٹاسیٹ بنڑانڑ آسطے پرامپٹ دا جواب دیو۔ پہلے بولنا آلیاں زباناں آسطے بہترین اے۔
 language-text-card-header = زبان دی عبارت
 language-text-card-content = ترجمے، نکی زبان دے نمونے تے مزید آسطے عوامی ڈومین پرامپٹس، جملے تے عبارت بنڑاؤ ہور اگا چلاؤ۔
-coming-soon = جلدی آ رے آ
 add-text = عبارت/جملے بھاؤ
 
 ## Community section
