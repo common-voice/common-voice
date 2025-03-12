@@ -8,6 +8,7 @@ different_language = Annat språk
 different_language-detail = Innehållet innehåller ett annat språk än jag förväntade mig.
 personally_identifiable_information = Personlig identifierbar Information
 personally_identifiable_information-detail = Det här innehållet innehåller personlig identifierbar information relaterad till en individs identitet, såsom namn, e-postadress, plats, identifikationsnummer eller telefonnummer.
+personally_identifiable_information-answer-detail = Detta innehåll efterfrågar personlig identifierbar information relaterad till en individs identitet, till exempel namn, e-postadress, plats, identifikationsnummer eller telefonnummer.
 report-other-comment =
     .placeholder = Kommentar
 # Label for textarea in report modal
