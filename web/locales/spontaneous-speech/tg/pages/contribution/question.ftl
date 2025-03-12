@@ -17,5 +17,9 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Кадом саволҳоро илова карда метавонам?
+do-section-title = Иҷро кардан
 do-section-guideline-1 = Қоидаҳои имло ва грамматикаи дурустро истифода баред
+do-section-guideline-2 = Саволҳои оддиеро интихоб кунед, ки барои ҳама, новобаста аз фарҳанг ё қарина, фаҳмо бошанд
+do-section-guideline-3 = Боварӣ ҳосил кунед, ки посух додан ба онҳо танҳо бо чанд ҷумла имконпазир аст
 do-not-section-title = Иҷро накардан
+do-not-section-guideline-1 = Дархост кардани маълумот барои муайян кардани шахсият (ба монанди номҳо ё маълумоти молиявӣ)
