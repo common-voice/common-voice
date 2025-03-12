@@ -23,4 +23,6 @@ do-section-guideline-1 = صحیح املا تے گرامر استعمال کرہ
 do-section-guideline-2 = ݜے سوالہ خوش کری چےۡ ثقافت تے سیاق و سباق نھالَیں نہ بغېر ہر کسے پو ہوں ہسان ہو
 do-section-guideline-3 = ݜس بال پکیۡرائ چےۡ اِواں جواب دُویں جُملیُوں مہ پُور ہو
 do-not-section-title = نېره
+do-not-section-guideline-1 = ذاتی پُنیاکیں معلومات بنہ (لکھہ نؤں یا مالی معلومات)
+do-not-section-guideline-2 = متعصبانہ یا جارحانہ جذبات کا اظہار کرنا یا انہیں طلب کرنا۔
 do-not-section-guideline-3 = حساس سوالہ واں تپُوس کرہ
