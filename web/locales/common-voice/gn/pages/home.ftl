@@ -145,6 +145,8 @@ contribute-github-action = Eipytyvõ GitHub-pe
 ## Featured section
 
 featured-section-title = Momba’epyre amo...
+# icon is an arrow that points downwards
+download-press-pack = Emboguejy ore dossier de prensa <icon></icon>
 
 ## Developers section
 
