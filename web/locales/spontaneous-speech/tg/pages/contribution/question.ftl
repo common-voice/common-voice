@@ -1,6 +1,7 @@
 ## Question Page
 
 question-page-instruction = Саволҳоро  <icon></icon> ба { $currentLocale } илова кунед, то одамон ҷавоб диҳанд
+add-question-textarea-placeholder = масалан, «Шумо технологияро барои чӣ истифода кардан мехоҳед?»
 add-questions-terms-checkbox = * Ман тасдиқ мекунам, ки ин савол аз <wikipediaLink>манбаи дастраси умум</wikipediaLink> мебошад ва ман барои бор кардани он иҷозат дорам.
 question-database-language = Махзани маълумот: { $databaseLanguage }
 add-question-success-toast-message =
@@ -16,4 +17,11 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Кадом саволҳоро илова карда метавонам?
+do-section-title = Иҷро кардан
 do-section-guideline-1 = Қоидаҳои имло ва грамматикаи дурустро истифода баред
+do-section-guideline-2 = Саволҳои оддиеро интихоб кунед, ки барои ҳама, новобаста аз фарҳанг ё қарина, фаҳмо бошанд
+do-section-guideline-3 = Боварӣ ҳосил кунед, ки посух додан ба онҳо танҳо бо чанд ҷумла имконпазир аст
+do-not-section-title = Иҷро накардан
+do-not-section-guideline-1 = Дархост кардани маълумот барои муайян кардани шахсият (ба монанди номҳо ё маълумоти молиявӣ)
+do-not-section-guideline-2 = Баён кардан ё барангехтани андешаҳои ғаразнок ё таҳқиромез
+do-not-section-guideline-3 = Додани саволҳои ҳассос

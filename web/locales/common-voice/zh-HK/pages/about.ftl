@@ -44,6 +44,7 @@ about-get-involved-text-2 =
     <matrixLink>Matrix</matrixLink>群組聊天室。
 about-stay-in-touch = 點樣可以保持聯絡？
 about-stay-in-touch-button = 註冊
+about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我哋嘅電郵群組，瞭解可以參加邊啲活動、同我哋一齊參與 Common Voice 嘅功能設計。
 about-stay-in-touch-text-2 = 加入 <discourseLink>Discourse</discourseLink> 嚟認識 Mozilla 嘅語言社群並一齊討論，或者加入 <matrixLink>Matrix</matrixLink> 嚟獲得快啲嘅建議。
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
@@ -55,6 +56,7 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice 入面嘅「語言」係乜嘢？
 about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
 about-playbook-what-is-language-content-3 = 有啲語言嘅文法、詞彙同發音差異可以好大。因此，我哋喺 2022 年<ctaLink>引入咗「語言變體」</ctaLink>。令各個社群能夠喺更完善嘅數據集中準確識別語言。
 
@@ -69,10 +71,12 @@ about-playbook-how-add-language-translating-heading = 翻譯網站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇一睇 Pontoon 嘅使用教學指南。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> 睇睇我哋嘅 Sentence Collector 使用教學短片</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>瞭解收集語句嘅更多資訊</sentenceCollectorFragment>。
 
 ## How does localization work
 
 about-playbook-how-localize = 網站本地化點樣做㗎？
+about-playbook-how-localize-content-1 = Common Voice 網站嘅翻譯喺 <strong>Pontoon</strong> 平台上面進行。
 
 ## How to add sentences
 
