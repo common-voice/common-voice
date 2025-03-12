@@ -308,6 +308,7 @@ xh = Xhosa
 xhe = Khetrani
 xka = Kalkoti
 xmf = Mingrélien
+yaq = Yaqui
 yi = Yiddish
 yo = Yoruba
 yue = Cantonais
@@ -315,6 +316,7 @@ zgh = Amazighe
 zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
+zoc = Zoque du Chiapas
 zu = Zoulou
 zza = { "" }
 
