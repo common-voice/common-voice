@@ -80,6 +80,7 @@ answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
 review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
 add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
+add-questions-coming-soon = دی پہ سوالونی <small> تیپہ پݭہ</small>
 transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
 transcribe-audio = بوجل نقل تیپہ پݭہ۔
 press-and-stories = سیپ دے
@@ -119,8 +120,9 @@ action-items-section-subtitle = کو۔۔تی ۔۔تانی جِب اے°منیل 
 scripted-card-header = میݭٹ دا چوݨاگیال جولال۔
 scripted-card-content = تانی جیب اےجولال دریکے منا۔تے دنیا اے سوام دا ران ڈیٹا سیٹ می تانی ڈا تلا
 spontaneous-card-header = جولال
+spontaneous-card-content = ران،تے بربادی روان جولال  تے سلوخ ڈیٹا سیٹ ترال کیرپرامپٹ تہ رسپانس دہ
 language-text-card-header = جیب اے چوݨاگیل
-coming-soon = یندر
+language-text-card-content = لک جیب ام۔تے ترجمہ ام کیر عوامی ڈومین نکلا شیئر تھا
 add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section
@@ -135,15 +137,34 @@ find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر از�
 # label for button
 find-us-on-matrix-action = مٹرکس رل اساں پش۔
 ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
+ask-mozilla-share-content = زیر یا یندر  ا ایونٹ اساں دی لاڑہ۔بہ تانی کمیونٹی سہ شیئر تھیئ یا تسے بارا می ا بلاگ چونڑے
+# label for button
+ask-mozilla-share-action = تانی پروگرام شیئر تھہ
+download-contribution-certificate = تانی کنٹربیوشن سرٹیفیکیٹ ڈاؤن لوڈ تھہ
+download-contribution-certificate-content = تی کامن وایس کیر گوا تھال تے تسے کیر اپان تہ ا سرٹیفیکیٹ  ڈاؤن لوڈ  تہ۔۔تو نہ بیس تہ رو کرا بی نہ بونس
+# label for button
+download-contribution-certificate-action = ثانی سند گین۔
+contribute-github = جی ائ ٹی ہب می مدد دا
+contribute-github-content = تی پاروت خلق ام دا بغیراوں پراجکٹ نہ چل بوں۔کامن وایس سہ کلیپ باڑ پان این۔تو ران سہ جانوں کتہ آسا ں لوں تہ
+# label for button
+contribute-github-action = جی ائ ٹی ہب می مدد دا
 
 ## Featured section
 
+featured-section-title = خصوصیات ان
+# icon is an arrow that points downwards
+download-press-pack = اسی پریس پیک ڈاؤنلوڈ تھا۔۔۔۔۔۔۔
 
 ## Developers section
 
+developers-section-title = عوام رس تہ اپان پشہ گانٹہہ زات ا ڈیٹا سیٹ۔۔۔۔۔۔۔۔جیب ام می
+developers-section-subtitle = کول مدد سہ۔ ڈیٹا سیٹ تریجین اے اس ار۔۔۔۔اس ٹی ٹی۔۔۔۔ٹی ٹی اس تےان ۔ال پی
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سٹ سم تہ نالا
 
 ## Get involved section
 
+get-involved-section-title = کاں ڈیٹا سیٹ عوامی این تے تس سہ ٹل با
 read-sentences-link = جولال من۔
 validate-readings-link = ریکاڑنگ والیڈٹنگ تھ
 contribute-link = مشین اے° جوݨا گال مداد دہ۔
@@ -156,5 +177,13 @@ press-and-stories-link = سیپ دہ۔
 ## Partner section
 
 partner-section-title = اسان سہ ٹلگر
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = ٹکنالوجی کمپن۔یانازاد ڈیٹا سٹ ترال می مدد دانتے خرچ تھان۔اوں آرٹیفشل انٹلی جنس کیرباڑ جب ام ا ماحول ترجمہ تہ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = خلق ۔تے محققینخدا نامی ڈیٹا سٹ ثران تے چلان پا
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = فلنتروپی ڈیٹا سیٹ ترال سپورٹ تان لوکل سطح دہ جب ام کار تیز بہ تہپترہ تہ
+# icon is an arrow that points to the right
+get-in-touch-button = اساں لہ
 # Partners section
 our-partners-include = اسے مرگر اون۔

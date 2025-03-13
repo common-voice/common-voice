@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Iyéta pehí kitu'ímu ihtaná nawésari naíwamia. Kawé simiká ne'néme <profileLink>wa'á perfiréči</profileLink>  paké tu'taí pirípi o weká nawésari naíwamia.
+sc-review-lang-not-selected = Iyéta pehí kitu'ímu ihtaná nawésari naiwámia. Kawé simiká ne'néme <profileLink>wa'á perfiréči</profileLink>  paké tu'taí pirípi o weká nawésari naiwámia.
 sc-review-title = Rewisaróamia pu'ká orasióni
 sc-review-loading = Umátoteniame orasióni pu'ká programáči
 sc-review-select-language = Usá pirípi nawésari ne'némičó orasióne

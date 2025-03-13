@@ -1,6 +1,7 @@
 action-click = ക്ലിക്ക് ചെയ്യുക
 action-tap = അമർത്തൂ
 contribute = സംഭാവന ചെയ്യുക
+review = അവലോകനം
 skip = ഒഴിവാക്കുക
 shortcuts = കുറുക്കുവഴികൾ
 clips-with-count-pluralized =

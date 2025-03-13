@@ -80,6 +80,9 @@ about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
+about-playbook-how-localize = 網站本地化點樣做㗎？
+about-playbook-how-localize-content-1 = Common Voice 網站嘅翻譯喺 <strong>Pontoon</strong> 上面進行。
+about-playbook-how-localize-content-2 = 如果你未有帳號，唔該先<pontoonAccountLink>註冊帳號</pontoonAccountLink>。跟住揀要加入嘅語言<strong>（「團隊」）</strong>，再揀 <pontoonCvLink>Common Voice</pontoonCvLink> 專案。專案入邊就會有要翻譯嘅檔案。隨便揀一個檔案，跟住就會顯示英文原文同輸入譯文的翻譯框。
 about-playbook-how-localize-content-4 = 內容翻譯咗75%之後，網站就可以準備發佈。
 about-playbook-how-localize-content-5 = 睇睇我哋嘅影片解說
 

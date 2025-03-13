@@ -8,6 +8,7 @@ different_language = 其他语言
 different_language-detail = 此内容包含非我选择的语言。
 personally_identifiable_information = 个人身份信息
 personally_identifiable_information-detail = 此内容包含可识别个人身份的信息，例如姓名、邮箱地址、位置、身份证号码、电话号码。
+personally_identifiable_information-answer-detail = 此内容在索取可识别个人身份的信息，例如姓名、邮箱地址、位置、身份证号码、电话号码。
 report-other-comment =
     .placeholder = 备注
 # Label for textarea in report modal

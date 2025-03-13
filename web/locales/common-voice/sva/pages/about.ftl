@@ -13,7 +13,7 @@ about-localization-subtitle = ვებსაიტი ტექსტ ითჷ
 about-sentence-collection-title = წინადადება̄ლე ხორეუ̂
 about-sentence-collection-subtitle = წინადადება̄̈ლ ინზუ̂ე̄რიხ ეჩნა̄̈რ, ერე ხა̈ლხს კჷ̄ლთხიდ ლიჭუ̂და̄̈ნი ჩუ ხემჲე̄დენს.
 about-new-lang-title = მახე ნინი ლიფშუ̂დე
-about-new-lang-subtitle = ნა̈ჲ ფიშუ̂გედ Common Voice საიტს ალ ნინჟი.
+about-new-lang-subtitle = ნა̈ჲ ფიშუ̂დედ Common Voice საიტს ალ ნინჟი.
 about-voice-contrib-title = ხმოვან წვლილ
 about-voice-contrib-subtitle = ხა̈ლხ ანღრი ი ტუ̄ლიხ მინე აზრს.
 about-voice-validation-title = ჰერი ლიდასტურა̄̈ვი
@@ -24,7 +24,7 @@ about-subscribe-text = ჯაკუმა Common Voice-ცახან კონ
 about-speak = გა̈რგლა
 about-speak-text = ავტორა̈ლ სგა̄̈ჲრიხ ხმოვან კლიპა̈რს შემოწირულ წინადება̄ლე ხორეუ̂ხა̈ნქა ლაჭუ̂და̄ნოშ.
 about-listen-queue = ლიჰუ̂ნა̈რი̄ რიგ
-about-listen-queue-text = ხმოვან კლიპა̈რ ესღრიხ სგა ლიზზი̄ რგთე̄სგა, ხედუ̂ა̄̈ჲ ამა̄რე ალ კლიპა̈რს ლეჰუ̂ნა̈რიდ.
+about-listen-queue-text = ხმოვან კლიპა̈რ ესღრიხ სგა ლიზზი̄ რიგთე̄სგა, ხედუ̂ა̄̈ჲ ამა̄რე ალ კლიპა̈რს ლეჰუ̂ნა̈რიდ.
 about-listen = ლა̈მჰუნა̈რ
 about-listen-text = მუჭვდა̄̈ნიდ სწორდ ა̈დჭო̄და̄ნე ჰა მო̄მა, ეჯნოშ მომხმარებელ ამოწმა̈ნი შემოწირულ კლიპრე სიზუსტეს.
 about-is-it-valid = ამშჲემა კლიპ?
@@ -66,7 +66,7 @@ about-playbook-how-add-language-translating-heading = საიტი თარ�
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს, იმჟი ა̈ხჴჷმრა Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = თარგმანიშდ ნა̈ჲ ხუ̂იჴმა̈რიდ ხელსაწყოს, ხედუ̂ა̄̈ჲს ხაჟხა <pontoonLink> პონტონ</pontoonLink>. პონტონს ხუ̂ა̄̈ჲ ნჷნა̈რ ხუღუ̂ა, მარე ისგუ ნინ ჰე მა̄მ ხეჩდა, სი ჩუ ჯამჲედა</pontoonRequestLink>ხა̈ჰრი ისგუ ნინი ლიქმე</pontoonRequestLink>. ეჩუნღო, ნინ ერ ხელმისაწვდომ ლესსუ̂ Common Voice პროექტისგა,<githubRepoLink>ხიჰრ მახე ნინ</githubRepoLink>-ჟი.<localizationFragment>ხოშილ ა̈ხმეჴერ საიტი თარგმანი ბედჟი</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = წინადადება̄ლე ლინზო̄რე
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს წინადადება̄ლე მუნზო̄რემი ლიჴმა̈რი̄ ბეჟი</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს წინადადება̄ლე მუნზო̄რემი ლიჴმა̈რი̄ ბედჟი</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = სი ჩუჯა̈მჲედა<sentenceCollectorLinkAdd>მა̄დხუ̂ა̄̈ჲ წინადადებაა̄̈ლ</sentenceCollectorLinkAdd>, მო̄დეჲ წინადადება̄ლე სუ̂რილ პაკეტ Github-შუ̂</bulkImportDocsLink>. ჩუ̂ა̈თმა̈შყუ̂დინ: წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ<licenseLink>CC0 (ჰედ საჯაროდ ხელმისაწვდომ)</licenseLink>,  მო̄დეჲ სგ'ა̄თიჲრ ისგუ.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ხოში̄ლ ა̈ხმეჴერ წინადადება̄ლე ლინზო̄რემი ბედჟი</sentenceCollectorFragment>.
 
@@ -105,16 +105,36 @@ about-playbook-how-grow-language-content-4 = სოციალურ მედ�
 about-playbook-how-grow-language-content-5 = სი ჩუ ჯა̈მჲედა სოციალურ მედია̄̈ ლიმჷრგე შეტობინა̄̈ლე ლაზზიდ. გააზიარე პოსტა̈რ, იმუ̂ა̈ჲ ახსნილ ლი, იმღა ლი ალა მნიშვნელოვან. დაუკავშირდი მერმა̄̈ლს, ერუ̂ა̈ჲ იმბუ̂ა̄̈ლხ ნინი უფლება̄̈ლჟი, ხელოვნურ ინტელექტი ბედჟი. რჩევა̈ლ ა̈ხწუ̂ენ<campaignLink>, იმჟი ხეკუ̂ეს აფუშდა სოციალურ კამპანია, კონტენტი ლჷჩჷდდ, იმშა ლიჴმა̈რი განმეორებითი ჩუ ჯა̈მჲედა</campaignLink>.
 about-playbook-how-grow-language-content-6 = პარტნიორობ ი ქსელა̈რ
 about-playbook-how-grow-language-content-7 = ა̈ხითხ მერმა̄̈ლ, ესუ̂ა̄̈ჲ სერდე ხა̄̈რ. ამკა̈ლი შეიძლება ლესუ̂ხ: უნივერსიტეტა̈ლ, ნინი კლასა̈რ, მხარდამჭერ ჯგუფა̈რ ჰედ მონაცემარე მეცნიერება̄̈ საზოგადოება̄̈ლ. დაუკავშირდი ი ხოჩა̄მდ ათცხირუ̂ინ, იმჟი ხა̈მჲედახ ლიმურჯუ̂ი ი იმღა. <outreachTemplates>ჩუ̂ათთერა̈უ̂  ინფორმაცია̄̈ გასავრცელებელ ნიშგუ̂ეჲ  შაბლონა̈რ</outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong>ლოხეგნ შემოქმედებითდ!</strong>ისგუ ენობრივ საზოგადოება უნჯკალურ ი̄რა ი ალა ჩიქე ლა̈ბნა გარ ლი.
+about-playbook-how-grow-language-content-8 = <strong>ლოხეგნ შემოქმედებითდ!</strong>ისგუ ენობრივ საზოგადოება უნიკალურ ი̄რა ი ალა ჩიქე ლა̈ბნა გარ ლი.
 
 ## How to validate
 
+about-playbook-how-validate = იმჟი ონჴუ̂ე გუდ, დავადასტურო ჰა მა̄მა ხმოვან კლიპ?
+about-playbook-how-validate-content-1 = სი ლახ<strong>ჟიი ჯი ხიჰუ̂ნა̈რი</strong> ი <strong>ჟიი ჟი ხიმჴერი</strong>, ეჩქას, იმჟი წეს ლი,<strong> ჩუ ხეკუ̂ეს ათმიტკცავა</strong>.
+about-playbook-how-validate-content-2 = <strong>ნომ'ა̄თწჷნუ̂ა კლიპ ეჯ მიზეზშუ̂, ერე ისგუკა̈ლი აქცენტშუ̂ მა̄მ ლი</strong> - ალა მნიშვნელოვან ლი ეჩეშდ-ე ჰერი ჟილითერ ჩია̈შდ ამშიე̄დს.
+about-playbook-how-validate-content-3 = ჰემა ჯაბჟა, ერე<strong> ბა̈დშუ̂ მა̄მ ხარ ლა̈ცხრი ნა̄̈ქუ̂ს</strong>, ჰედ ისმი<strong>სურუ ფონურ ჰერა̈ლ</strong>, ჰედ ისმი<strong>იშგენ ხა̈ლხი გა̈რგლა</strong>, ეჩქა ხეკუ̂ეს უარყოფით ლახო̄მა კლიპს.<accuracyLink>ა̈ხწუ̂ე̄ნ დამატებით ინფორმაცია კრიტერიუმალე ბედჟი</accuracyLink>.
+about-playbook-how-validate-content-4 = კლიპი ლახ უარყოფილ ლი 2 მა̄რახა̈ნქა, ეჯ კლიპ ესღრი ხორე̄უ̂ი იშგენ ქვეჯგუფთე.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = იმჟი ალჩედდ მონაცემრე ხორე̄უ̂თე̄ჲსგა ი იმჟი ა̈ლსჷრგებად?
+about-playbook-how-access-dataset-content-1 = ჩუ ჯა̈მჲედა ქ'ა̄ჩე<datasetsPage>მონაცემრე ხორეუ̂ი გვერდთე</datasetsPage>, ა̈ხთიშა ისგოუ̂ ლეკედ ვერსია ი ნინ ი ქ'ა̄ხიჲრა! ფაილა̈რს ხუღუ̂ახ<metadataLink>დაკავშირებულ მეტამონაცემა̈რ</metadataLink>: დემოგრაფიულ ინფორმაცია ი ვალიდაცია̈ მონაცემა̈რ. მონაცემარე ჩულა̈ტვირთა̈ვდ სგათი̄ჲრ ისგუ ელფოსტა.
+about-playbook-how-access-dataset-content-2 = ჰემა ხეთხე̄ლი ინსტრუმენტა̈ლს ASR მოდელრე ლასყე̄ნად, სი ჩუ ჯა̈მჲედა, დაკავშირება საზოგადოებაისგა მერმა̄̈ლცახა̈ნ<discourseLink> ჰედ დისკოვერჟი</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = იმჟი იკი̄დიხ პროექტი გადაწყვეტილება̄̈ლ?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ხელმისაწვდომ ლი აქტივისტრეშდ, ლინგვისტრეშდ, მონაცემარე მეცნიერლეშდ, მონაცემარე სპეციალისტრეშდ ი ინჟინერ-პროგრამისტრეშდ თელ მსოფლიოისგა. პროექტი ხელმძღვანელ ლი  Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = ნიშგუ̂ეჲ მმართველობა̈ საფუძველ ლი პრინციპა̈ლ:
+about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება, გამჭვირვალობა.
+about-playbook-how-project-governance-content-4 = საზოგადოება̄̈ მონაწილეობა ი გადაწყვეტილება̄̈ ლიკედ.
+about-playbook-how-project-governance-content-5 = ღირებულება ი აღიარება.
+about-playbook-how-project-governance-content-6 = ორმხრივ ანგარიშვალდებულება.
+about-playbook-how-project-governance-content-7 = <governanceLink>ა̈ცხირ ხოშა ლუნწუდად, იმჟი ვმართავთ ნა̈ჲ</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = იმჟი ფინანსდება Common Voice?
+about-playbook-how-funded-content-1 = 109.Common Voice ლი Mozilla Foundation-ი პროექტ, აშშ 501c3. ათხე̄ დუ̂რეუ̂ჟი პროექტ მთლია̈ნდ ფინანსდება <philantropicGrantLink>ფილანტროპულ გრანტა̈რშუ̂ </philantropicGrantLink>ი შემოწირულობა̈ლშუ̂ მთელ სოფლიოისგა.
+about-playbook-how-funded-content-2 = ხუ̂ა̄̈ჲ თეთრ ხაჯეშ მონაცემრეშ ხორეუ̂ი მუდმივ მასპინძლობ ი ლიფშუ̂დე, პლატფორმა̄̈ ლისკეთე <africaMradiLink>საზოგადოებრივ პროგრამალე <africaMradiLink> ქალიფშუ̂დე.
+about-playbook-how-funded-content-3 = სი ჰედ ისგუ ორგანიზაციას ჰემა ჯაკუხ წვლილი ლიჲ პროექტთეჲსგა, ჩუ ჯა̈მჲედა <donateLink>დონაცია</donateLink> ჰედ დაუკავშირდი ნიშგუ̂ეჲ ი ნიშგუ̂ეჲ პარტნიორალე გუნდს მისამართჟი <emailFragment>commonvoice@mozilla.com</emailFragment>.

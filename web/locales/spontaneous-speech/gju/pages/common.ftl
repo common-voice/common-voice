@@ -4,9 +4,13 @@
 error = خرابی
 action-click = دباو
 action-tap = دبو
+# Label for language switcher
+platform-language = پلیٹ فارم زبان
+platform-language-tooltip-text = صرف ویب سائٹ کی زبان کا بدلاو
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } کا ڈیٹا سیٹ ما حصو لینو
+contribution-picker-tooltip-text = زبان کا ڈیٹا سیٹ نا اس زبان ما بدلاو جس ما تم حصو لیو
 # Label for button on contribution switcher
 change = بدلاو
 coming-soon = ہور زبان بھی مچ جھب آن آلی ہیں
@@ -26,7 +30,9 @@ request-new-language = نوئی زبان وسطے گزارش کرو
 ## Navbar
 
 respond-to-prompt = جھب جھب جواب دیوں
+transcribe = اسکو تجزیو کرو
 check-transcriptions = تجزیہ کو جائزو لیو
+question = سوال
 
 ## Not Found Page
 

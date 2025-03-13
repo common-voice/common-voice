@@ -7,10 +7,14 @@ select-your-age = ເລືອກອາຍຸຂອງທ່ານ
 gender-select-label = ທ່ານມີເພດ ຫຼື ເພດກຳເນີດແມ່ນຫຍັງ?
 select-your-gender = ເລືອກເພດ ຫຼື ເພດສະພາບຂອງທ່ານ
 country-of-residence-label = ປະເທດ/ພາກພື້ນທີ່ຢູ່ອາໄສ
+country-of-residence-placeholder =
+    .placeholder = ໃສ່ປະເທດ/ພາກພື້ນທີ່ຢູ່ອາໃສຂອງທ່ານ
 why-are-you-asking = ເຈົ້າຖາມເຮັດຫຍັງ?
+thank-you-for-your-information = ຂອບໃຈສໍາລັບຂໍ້ມູນຂອງທ່ານ
 
 ## Gender dropdown
 
+male_masculine = ເພດຊາຍ
 female_feminine = ເພດຍິງ/ເພດຍິງ
 intersex = ເພດສໍາພັນ
 transgender = ຄົນທີ່ມີເພດທີ່ປ່ຽນແປງ

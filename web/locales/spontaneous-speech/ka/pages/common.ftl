@@ -6,9 +6,11 @@ action-click = დაწკაპეთ
 action-tap = შეეხეთ
 # Label for language switcher
 platform-language = პლატფორმის ენა:
+platform-language-tooltip-text = ცვლის მხოლოდ ვებსაიტის ტექსტს.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = წვლილის შესატანი ენა { $language }
+contribution-picker-tooltip-text = ცვლის მონაცემთა კრებულის ენას, რომელშიც წვლილი შეგაქვთ
 # Label for button on contribution switcher
 change = შეცვლა
 coming-soon = სხვა ენები მალე დაემატება!
@@ -28,6 +30,7 @@ request-new-language = მოითხოვეთ ახალი ენა
 ## Navbar
 
 respond-to-prompt = პასუხი მოთხოვნაზე
+transcribe = ნაწერად გადმოცემა
 check-transcriptions = ნაწერად ქცეულის შემოწმება
 question = შეკითხვა
 

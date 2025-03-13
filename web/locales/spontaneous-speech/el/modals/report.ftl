@@ -8,6 +8,7 @@ different_language = Διαφορετική γλώσσα
 different_language-detail = Το περιεχόμενο περιέχει διαφορετική γλώσσα από αυτή που περίμενα.
 personally_identifiable_information = Προσωπικές πληροφορίες ταυτοποίησης
 personally_identifiable_information-detail = Αυτό το περιεχόμενο περιέχει προσωπικές πληροφορίες που σχετίζονται με την ταυτότητα ενός ατόμου, όπως το όνομα, τη διεύθυνση email, την τοποθεσία, έναν αναγνωριστικό αριθμό ή τον αριθμό τηλεφώνου του.
+personally_identifiable_information-answer-detail = Αυτό το περιεχόμενο ζητά προσωπικές πληροφορίες που σχετίζονται με την ταυτότητα ενός ατόμου, όπως όνομα, διεύθυνση email, τοποθεσία, αναγνωριστικούς αριθμούς ή αριθμό τηλεφώνου.
 report-other-comment =
     .placeholder = Σχόλιο
 # Label for textarea in report modal

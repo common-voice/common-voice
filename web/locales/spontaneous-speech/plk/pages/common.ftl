@@ -6,6 +6,7 @@ action-click = کِلِک تِھیا۔
 action-tap = ٹیپ تِھیا۔
 # Label for language switcher
 platform-language = پلیٹ فارم جِب
+platform-language-tooltip-text = صرف ویب سائٹے متن بدل تِھینوْ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹاسیٹ دہ تعاون تھونے کِرِیا { $language }

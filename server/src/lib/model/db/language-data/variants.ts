@@ -441,4 +441,19 @@ export const VARIANTS: Variant[] = [
     variant_name: ' სენაკურ-მარტვილური',
     variant_token: 'xmf-senmar',
   },
+  {
+    locale_name: 'lzz',
+    variant_name: 'Atinuri, Artaşenuri',
+    variant_token: 'lzz-atinuri',
+  },
+  {
+    locale_name: 'lzz',
+    variant_name: 'Vitzuri, Arkaburi',
+    variant_token: 'lzz-arkaburi',
+  },
+  {
+    locale_name: 'lzz',
+    variant_name: 'Xopuri',
+    variant_token: 'lzz-xopuri',
+  },
 ]

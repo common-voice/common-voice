@@ -4,6 +4,8 @@ language-section-in-progress = V nastajanju
 language-section-in-progress-new-description = Ti jeziki so trenutno v fazi razvoja naše skupnosti. Napredek jezika odraža napredek pri <localizationGlossaryLink>prevajanju spletne strani</localizationGlossaryLink> in <sentenceCollectionGlossaryLink>količino zbranih stavkov</sentenceCollectionGlossaryLink>.
 language-section-launched = V teku
 language-section-launched-description = Spletna stran je bila uspešno <localizationGlossaryLink>prevedena</localizationGlossaryLink> v te jezike in ima dovolj <sentenceCollectionGlossaryLink>zbranih stavkov</sentenceCollectionGlossaryLink>, da omogoča nadaljevanje <speakLink>govornih</speakLink> in <listenLink>slušnih</listenLink> prispevkov.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Nazadnje posodobljeno: { $lastUpdatedTimeStamp }
 languages-show-more = Več
 languages-show-less = Manj
 language-meter-in-progress = Napredek
@@ -13,6 +15,7 @@ language-search-input =
 language-speakers = Govorcev
 localized = Lokalizirano
 sentences = Stavki
+language-validation-hours = Ur
 contribute = Prispevaj
 get-involved-button = Pridružite se
 get-involved-title = Pomagajte izboljšati jezik { $lang }
