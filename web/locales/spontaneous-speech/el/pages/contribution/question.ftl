@@ -3,6 +3,7 @@
 question-page-instruction = Προσθέστε ερώτηση <icon></icon> στα { $currentLocale } ώστε να μπορούν να απαντήσουν οι χρήστες
 add-question-textarea-placeholder = π.χ., «Πώς θα θέλατε να χρησιμοποιήσετε την τεχνολογία;»
 add-questions-terms-checkbox = * Επιβεβαιώνω ότι αυτή η ερώτηση ανήκει στο <publicDomainLink>δημόσιο τομέα</publicDomainLink> και έχω την άδεια να τη μεταφορτώσω.
+question-dataset-language = Σύνολο δεδομένων: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] Έγινε συλλογή { $uploadedQuestions } εκ της 1 ερώτησης
