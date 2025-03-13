@@ -3,6 +3,7 @@
 question-page-instruction = Lägg till en fråga <icon></icon> i { $currentLocale } som andra kan svara på
 add-question-textarea-placeholder = t.ex. "Vad önskar du att du kunde använda tekniken till?"
 add-questions-terms-checkbox = * Jag bekräftar att denna fråga är <publicDomainLink>allmän egendom</publicDomainLink> och att jag har tillåtelse att ladda upp den.
+question-dataset-language = Datamängd: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } av 1 fråga insamlad
