@@ -18,6 +18,7 @@ type ContributeMenuContentProps = {
   contributeMenuItems: ContributeMenuItem[]
   isUserLoggedIn?: boolean
   isLocaleContributable: boolean
+  toggleMenu?: () => void
 }
 
 const Content = ({
@@ -25,10 +26,12 @@ const Content = ({
   isUserLoggedIn,
   isLocaleContributable,
   getString,
+  toggleMenu,
 }: {
   contributeMenuItems: ContributeMenuItem[]
   isUserLoggedIn: boolean
   isLocaleContributable: boolean
+  toggleMenu?: () => void
 } & WithLocalizationProps) => {
   const { l10n } = useLocalization()
 
@@ -69,7 +72,10 @@ const Content = ({
 
             if (isLocaleContributable && isSpeakOrListenUrl) {
               return (
-                <LocaleLink to={internalHref} className="contribute-link">
+                <LocaleLink
+                  to={internalHref}
+                  className="contribute-link"
+                  onClick={toggleMenu}>
                   <Icon />
                   <Localized id={localizedId} />
                 </LocaleLink>
@@ -78,7 +84,10 @@ const Content = ({
 
             if (internalHref && !isSpeakOrListenUrl) {
               return (
-                <LocaleLink to={internalHref} className="contribute-link">
+                <LocaleLink
+                  to={internalHref}
+                  className="contribute-link"
+                  onClick={toggleMenu}>
                   <Icon />
                   <Localized id={localizedId} />
                 </LocaleLink>
@@ -91,7 +100,8 @@ const Content = ({
                   href={externalHref}
                   target="_blank"
                   rel="noreferrer"
-                  className="contribute-link">
+                  className="contribute-link"
+                  onClick={toggleMenu}>
                   <Icon />
                   {l10n.getString(localizedId)}
                 </a>
@@ -130,7 +140,8 @@ const Content = ({
                     width: 'auto',
                     maxWidth: '350px',
                     position: 'absolute',
-                  }}>
+                  }}
+                  openEvents={{ mouseover: true }}>
                   {getString(menuItemTooltip)}
                 </Tooltip>
               </div>
@@ -150,6 +161,7 @@ const ContributeMenuContent: React.FC<
   isUserLoggedIn,
   getString,
   isLocaleContributable,
+  toggleMenu,
 }) => {
   return (
     <div className={className}>
@@ -158,6 +170,7 @@ const ContributeMenuContent: React.FC<
         isUserLoggedIn={isUserLoggedIn}
         getString={getString}
         isLocaleContributable={isLocaleContributable}
+        toggleMenu={toggleMenu}
       />
     </div>
   )

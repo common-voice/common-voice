@@ -17,11 +17,20 @@ type NavProps = {
   shouldExpandNavItems?: boolean
   isContributionPageActive?: boolean
   children?: React.ReactNode
+  toggleMenu?: () => void
 }
 
 export type NavItem = 'speak' | 'listen' | 'write' | 'about' | 'download'
 
-export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
+export const LocalizedNavLink = ({
+  id,
+  to,
+  onClick,
+}: {
+  id: string
+  to: string
+  onClick?: () => void
+}) => {
   const [locale] = useLocale()
   return (
     <Localized id={id}>
@@ -29,7 +38,10 @@ export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
         className={getTrackClass('fs', id)}
         to={to}
         exact
-        onClick={() => trackNav(id, locale)}
+        onClick={() => {
+          onClick && onClick()
+          trackNav(id, locale)
+        }}
         id={id}
       />
     </Localized>
@@ -40,6 +52,7 @@ const Nav: React.FC<NavProps> = ({
   children,
   shouldExpandNavItems,
   isContributionPageActive,
+  toggleMenu,
   ...props
 }) => {
   const [activeNavItem, setActiveNavItem] = React.useState<NavItem | null>(null)
@@ -68,6 +81,7 @@ const Nav: React.FC<NavProps> = ({
         menuLabel={menuItem}
         menuTooltip={menuItems[menuItem].menuTooltip}
         menuAriaLabel={menuItems[menuItem].menuAriaLabel}
+        toggleMenu={toggleMenu}
       />
     )
 
