@@ -8,6 +8,7 @@ different_language = مختلف جِب
 different_language-detail = مواد دہ می توقع جیْ مختلف جِبِن۔
 personally_identifiable_information = ذاتی شان گیْ قابل شناخ معلومات۔
 personally_identifiable_information-detail = آ مواد کوئے منُوڙے شناخے بارَد ذاتی شان گیْ قابل شناخ معلوماتوج مشتملُن، کاتھ چہ سہ سے نُوم، ای میل پتہ، موقام، شناخے نمبر، یا فون نمبر۔
+personally_identifiable_information-answer-detail = آ مواد کوئے منُوڙے بارَد ذاتی شان گیْ شناخت بی معلومات لُکِھینوْ، کاتھ چہ سہ سے نُوم، ای میل پتہ، مقام، شناختی نمبر یا فون نمبر۔
 report-other-comment =
     .placeholder = کومنٹ
 # Label for textarea in report modal

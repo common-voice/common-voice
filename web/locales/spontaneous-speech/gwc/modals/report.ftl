@@ -8,6 +8,7 @@ different_language = بدِل جِب
 different_language-detail = اِیں مواٞد مئ تتھیں جِب ییتھوں سٞہ ماٞں توقع ما بدِل تھی۔
 personally_identifiable_information = ذاتی طور دہ پویانوگاں قابیل مواد
 personally_identifiable_information-detail = اِیں مواٞد مئ ذاتی طوراٞ مانوڄاں پویاٞنوگ سٞہ متعلق پویانوگاں مالومات تھو، مثلاَ، تسوں ناٞم، ای میل ایڈریس، مقام، پویانوگاں لمبر یا ٹیلیفوناں لمبر۔
+personally_identifiable_information-answer-detail = اِیں مواٞد ذاتی طور دہ مانوڄاں پویاٞنوگ سٞہ متعلق پویانوگاں مالومات تھو، مثلاَ، تسوں ناٞم، ای میل ایڈریس، مقام، پویانوگاں لمبر یا ٹیلیفوناں لمبر۔
 report-other-comment =
     .placeholder = تبصرہ
 # Label for textarea in report modal

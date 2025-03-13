@@ -26,6 +26,7 @@ bas = Basaa
 bax = Bamoun
 bba = Bariba
 bbj = Ghomalaʼ
+bbl = Bats
 bci = Baoulé
 be = Biélorusse
 beb = Bebele

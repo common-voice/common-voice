@@ -18,4 +18,4 @@ report-error = Pśi pósłanju rozpšawy jo zmólka nastała.
 continue = Dalej
 # Header for report modal after successful reporting
 success = Wuspěch
-report-success-message = Rozpšawa jo se wuspěšnje wótpósłała
+report-success-message = Zdźělenje jo se wuspěšnje wótpósłało

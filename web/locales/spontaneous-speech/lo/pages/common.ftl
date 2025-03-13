@@ -35,6 +35,9 @@ question = ຄຳຖາມ
 ## Not Found Page
 
 not-found-page-header = ບໍ່ພົບ
+# Locales
+bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
 en = ພາສາອັງກິດ
+fr = ພາ​ສາ​ຝ​ຣັ່ງ

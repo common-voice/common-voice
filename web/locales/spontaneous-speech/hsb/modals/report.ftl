@@ -18,4 +18,4 @@ report-error = Zmylk je při wotpósłanju rozprawy nastał
 continue = Dale
 # Header for report modal after successful reporting
 success = Wuspěch
-report-success-message = Rozprawa je so wuspěšnje wotpósłała
+report-success-message = Zdźělenka je so wuspěšnje wotpósłała
