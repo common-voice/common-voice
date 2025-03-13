@@ -133,11 +133,14 @@ action-items-section-subtitle = ທຸກ​ຄົນ​ສາ​ມາດ​ປ
 scripted-card-header = ການເວົ້າແບບສະຄຣິບ
 scripted-card-content = ອ່ານປະໂຫຍກໃຫ້ດັງໆໃນພາສາຂອງທ່ານ ແລະ ປະກອບສ່ວນເຂົ້າໃນຊຸດຂໍ້ມູນຄຳເວົ້າການມີສ່ວນຮ່ວມຂອງປະຊາຊົນທີ່ຫຼາກຫຼາຍທີ່ສຸດໃນໂລກ.
 spontaneous-card-header = ການເວົ້າໂດຍທໍາມະຊາດ
+spontaneous-card-content = ຕອບ​ສະ​ຫນອງ​ຕໍ່​ການ​ກະ​ຕຸ້ນ​ໃຫ້​ສ້າງ​ຊຸດ​ຂໍ້​ມູນ​ສໍາ​ລັບ​ການ​ສະ​ພາບ​ແວດ​ລ້ອມ​, ນິ​ຍົມ​. ທີ່ສົມບູນແບບສໍາລັບພາສາປາກເວົ້າທໍາອິດ.
 language-text-card-header = ຂໍ້ຄວາມພາສາ
+language-text-card-content = ສ້າງ ຫຼື ແບ່ງປັນການເຕືອນໂດເມນສາທາລະນະ, ປະໂຫຍກ, ແລ ະຂໍ້ຄວາມສໍາລັບການແປພາສາ, ຮູບແບບພາສາຂະຫນາດນ້ອຍ, ແລະ ອື່ນໆ.
 add-text = ເພີ່ມຂໍ້ຄວາມ
 
 ## Community section
 
+community-section-title = ຂັບເຄື່ອນໂດຍຊຸມຊົນທົ່ວໂລກ, ສໍາລັບຊຸມຊົນທົ່ວໂລກ — 130 ພາສາ ແລະ ການຂະຫຍາຍຕົວ!
 join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 # label for button
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord

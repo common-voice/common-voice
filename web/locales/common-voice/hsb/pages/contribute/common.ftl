@@ -47,7 +47,7 @@ submit-form-action = Wotpósłać
 
 ## Reporting
 
-report = Rozprawa
+report = Zdźělić
 report-title = Rozprawu wotpósłać
 report-ask = Na kotre problemy z tutej sadu storkaće?
 report-offensive-language = Pohóršliwa rěč
@@ -64,7 +64,7 @@ report-other-comment =
     .placeholder = Komentar
 success = Wuspěch
 continue = Dale
-report-success = Rozprawa je so wuspěšnje wotpósłała
+report-success = Zdźělenka je so wuspěšnje wotpósłała
 
 ## Speak & Listen Shortcuts
 
