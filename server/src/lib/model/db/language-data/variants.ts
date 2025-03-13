@@ -37,6 +37,11 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'sw',
+    variant_name: 'Katanga (DRC)',
+    variant_token: 'sw-katanga',
+  },
+  {
+    locale_name: 'sw',
     variant_name: 'Kiswahili Sanifu (EA)',
     variant_token: 'sw-sanifu',
   },
