@@ -3,6 +3,7 @@
 question-page-instruction = Fügen Sie eine Frage <icon></icon> in { $currentLocale } hinzu, auf die andere Menschen antworten können
 add-question-textarea-placeholder = z.&thinsp;B.: „Wofür würden Sie Technologie gerne verwenden?“
 add-questions-terms-checkbox = * Ich bestätige, dass diese Frage <publicDomainLink>gemeinfrei</publicDomainLink> ist und ich die Erlaubnis habe, sie hochzuladen.
+question-dataset-language = Datensatz: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } von 1 Frage gesammelt
