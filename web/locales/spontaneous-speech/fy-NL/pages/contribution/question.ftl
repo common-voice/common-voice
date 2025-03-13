@@ -3,7 +3,6 @@
 question-page-instruction = Foegje in fraach ta <icon></icon> yn it { $currentLocale } sadat minsken dizze beäntwurdzje kinne
 add-question-textarea-placeholder = byg., ‘Wêr soene jo technology foar brûke wolle?’
 add-questions-terms-checkbox = Ik befêstigje dat dizze fraach ta it publike domein heart en ik haw tastimming om dizze op te laden.
-question-database-language = Database: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedquestions } fan 1 fraach sammele

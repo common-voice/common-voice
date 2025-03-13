@@ -3,7 +3,6 @@
 question-page-instruction = Ychwanegwch gwestiwn <icon></icon> yn { $currentLocale } i bobl ei ateb
 add-question-textarea-placeholder = e.e., “Ar gyfer beth hoffech chi ddefnyddio technoleg?”
 add-questions-terms-checkbox = * Rwy'n cadarnhau fod y cwestiwn hwn yn un <publicDomainLink>parth cyhoeddus</publicDomainLink> ac mae gennyf ganiatâd i'w lwytho i fyny.
-question-database-language = Cronfa ddata: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [zero] { $uploadedQuestions } o { $totalQuestions } cwestiynau a gasglwyd

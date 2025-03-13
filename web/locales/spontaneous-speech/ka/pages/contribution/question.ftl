@@ -3,7 +3,6 @@
 question-page-instruction = დაამატეთ კითხვა <icon></icon> { $currentLocale } ენისთვის, რომ ხალხმა უპასუხოს.
 add-question-textarea-placeholder = მაგ., „რისთვის ისურვებდით ტექნოლოგიების გამოყენებას?“
 add-questions-terms-checkbox = ვადასტურებ, რომ ეს შეკითხვა <publicDomainLink>საყოველთაო საკუთრებაშია</publicDomainLink> და მაქვს მისი ატვირთვის ნებართვა.
-question-database-language = მონაცემთა კრებული: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions }შეკითხვა მიღებულია 1-იდან

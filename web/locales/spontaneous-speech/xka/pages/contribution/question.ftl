@@ -3,7 +3,6 @@
 question-page-instruction = خلق مہ جواب دال کیر </icon> مہ اک سوال ٹل تھون۔{ $currentLocale }
 add-question-textarea-placeholder = لحہ تس “ گاں کیر ٹیکنالوجی استعمال تھال داون۔”
 add-questions-terms-checkbox = مہ قبولون اَ<publicDomainLink>اوں جولال کول کیر این۔</publicDomainLink>مٹھ اوں جولال اوکالیل اَ اجازت این۔
-question-database-language = ڈاٹا بیس۔ڈیٹا سٹ جب{ $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions }سوال سمٹل۔

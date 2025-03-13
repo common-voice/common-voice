@@ -3,7 +3,6 @@
 question-page-instruction = Саволҳоро  <icon></icon> ба { $currentLocale } илова кунед, то одамон ҷавоб диҳанд
 add-question-textarea-placeholder = масалан, «Шумо технологияро барои чӣ истифода кардан мехоҳед?»
 add-questions-terms-checkbox = * Ман тасдиқ мекунам, ки ин савол аз <wikipediaLink>манбаи дастраси умум</wikipediaLink> мебошад ва ман барои бор кардани он иҷозат дорам.
-question-database-language = Махзани маълумот: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedSentences } аз { $totalSentences } ҷумла ҷамъ карда шуд
