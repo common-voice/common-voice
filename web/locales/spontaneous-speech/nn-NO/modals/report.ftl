@@ -11,3 +11,4 @@ other = Anna
 continue = Hald fram
 # Header for report modal after successful reporting
 success = Vellykka
+report-success-message = Rapporten er fullført
