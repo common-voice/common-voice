@@ -47,7 +47,7 @@ submit-form-action = Wótpósłaś
 
 ## Reporting
 
-report = Rozpšawa
+report = K wěsći daś
 report-title = Rozpšawu wótpósłaś
 report-ask = Na kótare problemy z toś teju sadu starcyjośo?
 report-offensive-language = Njepśistojna rěc
@@ -64,7 +64,7 @@ report-other-comment =
     .placeholder = Komentar
 success = Wuspěch
 continue = Dalej
-report-success = Rozpšawa jo se wuspěšnje wótpósłała
+report-success = Zdźělenje jo se wuspěšnje wótpósłało
 
 ## Speak & Listen Shortcuts
 
