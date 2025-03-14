@@ -144,6 +144,7 @@ community-section-title = ຂັບເຄື່ອນໂດຍຊຸມຊົນ
 join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 # label for button
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
+join-discord-community-content = ເຂົ້າຮ່ວມການສົນທະນາຊຸມຊົນພາສາ, ຖາມຄໍາຖາມ, ແລະ ຮຽນຮູ້ກ່ຽວກັບເຫດການ ແລະ ການສົນທະນາທີ່ຈະມາເຖິງ.
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
 # label for button
 find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
