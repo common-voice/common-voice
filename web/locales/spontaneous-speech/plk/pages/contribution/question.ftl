@@ -3,6 +3,7 @@
 question-page-instruction = سوال ٹل تِھیا <icon> { $currentLocale } جگو جُوابے کِرِیا
 add-question-textarea-placeholder = مثالے شان گیْ چہ ”څھوْ جوکے کِرِیا ٹیکنالوجیْ استعمال تھون کھوْشنَت؟“
 add-questions-terms-checkbox = موْس تصدیق تھمَس چہ آ سُوال <publicDomainLink> پبلک ڈومینے نوْ </publicDomainLink> آں موْڑ  آ سے اپلوڈ تھونے اجازہ نوْ۔
+question-dataset-language = ڈیٹاسیٹ { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } اےْ  سوالات جمع تھجِلہ
