@@ -1,41 +1,41 @@
-import * as React from 'react';
-import { useSelect } from 'downshift';
-import classNames from 'classnames';
+import * as React from 'react'
+import { useSelect } from 'downshift'
+import classNames from 'classnames'
 
 import {
   LocalizedGetAttribute,
   useAvailableLocales,
   useNativeNameAvailableLocales,
-} from '../locale-helpers';
-import VisuallyHidden from '../visually-hidden/visually-hidden';
-import { AbortContributionModalStatus } from '../../stores/abort-contribution-modal';
-import { useAbortContributionModal } from '../../hooks/store-hooks';
+} from '../locale-helpers'
+import VisuallyHidden from '../visually-hidden/visually-hidden'
+import { AbortContributionModalStatus } from '../../stores/abort-contribution-modal'
+import { useAbortContributionModal } from '../../hooks/store-hooks'
 
-import './localization-select.css';
+import './localization-select.css'
 
 interface Props {
-  locale?: string;
-  onLocaleChange?: (props: string) => void;
+  locale?: string
+  onLocaleChange?: (props: string) => void
 }
 
 function getLocaleWithName(locale: string) {
-  const availableLocalesWithNames = useNativeNameAvailableLocales();
-  return availableLocalesWithNames.find(({ code }) => code === locale);
+  const availableLocalesWithNames = useNativeNameAvailableLocales()
+  return availableLocalesWithNames.find(({ code }) => code === locale)
 }
 
 const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
-  const availableLocales = useAvailableLocales();
-  const availableLocalesWithNames = useNativeNameAvailableLocales();
-  const { abortStatus } = useAbortContributionModal();
-  const localWithName = getLocaleWithName(locale);
+  const availableLocales = useAvailableLocales()
+  const availableLocalesWithNames = useNativeNameAvailableLocales()
+  const { abortStatus } = useAbortContributionModal()
+  const localWithName = getLocaleWithName(locale)
   const initialSelectedItem = localWithName
     ? localWithName.code
-    : availableLocales[0];
-  const items = availableLocalesWithNames.map(locale => locale.code);
+    : availableLocales[0]
+  const items = availableLocalesWithNames.map(locale => locale.code)
 
   function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
     if (selectedItem && selectedItem !== locale) {
-      onLocaleChange(selectedItem);
+      onLocaleChange(selectedItem)
     }
   }
 
@@ -47,19 +47,19 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
     highlightedIndex,
     getItemProps,
     selectItem,
-  } = useSelect({ items, initialSelectedItem, onSelectedItemChange });
+  } = useSelect({ items, initialSelectedItem, onSelectedItemChange })
 
   React.useEffect(() => {
     // if the user does not choose to switch in the abort modal
     // set the locale as the selected item
     if (abortStatus === AbortContributionModalStatus.REJECTED) {
-      selectItem(locale);
+      selectItem(locale)
     }
-  }, [abortStatus]);
+  }, [abortStatus])
 
   // don't show select if we dont have multiple locales
   if (items.length <= 1) {
-    return null;
+    return null
   }
 
   return (
@@ -78,22 +78,30 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
           <div className="list-wrapper">
             <ul {...getMenuProps()}>
               {items.map((item, index) => (
-                <li
+                <div
                   key={item}
-                  className={classNames({
-                    selected: item === locale,
-                    highlighted: index == highlightedIndex,
-                  })}
-                  {...getItemProps({ item })}>
-                  {getLocaleWithName(item).name}
-                </li>
+                  className={classNames('list-item-wrapper', {
+                    highlighted: index === highlightedIndex,
+                  })}>
+                  <li {...getItemProps({ item })}>
+                    {getLocaleWithName(item).name}
+                  </li>
+                  {item === locale && (
+                    <img
+                      src={require('../../components/ui/icons/checkmark-green.svg')}
+                      alt=""
+                      width={24}
+                      height={24}
+                    />
+                  )}
+                </div>
               ))}
             </ul>
           </div>
         </div>
       )}
     </LocalizedGetAttribute>
-  );
-};
+  )
+}
 
-export default LocalizationSelectComplex;
+export default LocalizationSelectComplex
