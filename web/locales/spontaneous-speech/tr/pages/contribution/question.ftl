@@ -3,6 +3,7 @@
 question-page-instruction = Kullanıcıların yanıtlaması için { $currentLocale } bir <icon></icon> soru ekleyin
 add-question-textarea-placeholder = örneğin, “Teknolojiyi hangi amaçla kullanmak isterdiniz?”
 add-questions-terms-checkbox = * Bu sorunun <publicDomainLink>kamu malı</publicDomainLink> olduğunu ve bunu yükleme iznim olduğunu onaylıyorum.
+question-dataset-language = Veri kümesi: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $totalQuestions } sorudan 1 tanesi yüklendi
