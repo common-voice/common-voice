@@ -12,6 +12,8 @@ listen-abort-cancel = Emboajeve ehóvo
 listen-abort-confirm = Emboajepámake
 # Menu item
 validate-readings = Ñeñongatu mboaje
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Emboaje moñe’ẽrã <small>(Tenondeve)</small>
 
 ## MENU ITEM TOOLTIPS
 
