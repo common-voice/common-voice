@@ -4,6 +4,12 @@ welcome-to-spontaneous-speech = Degemer mat war Komzoù dieub
 # <br></br> represents a newline break
 wall-of-text = Emañ Common voice o lañsañ un eil savenn gouestlet d'an dastum komzoù bev dieub n'int ket bet treuzskrivet. Skoazellañ a ray kumuniezhioù niverus da zastum fonnusoc'h roadennoù ha talvoudus e vo evit an enklaskerien roadennoù hag an diorroerien.
 why-spontaneous-speech = Perak hon eus savet ur prototip Komzoù dieub
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = Talvoudus evit <mark>degouezhioù komz organek</mark> hag implijoù zo (da sk. pa fell deoc'h ez afe anaoudegezh ar vouezh en-dro gant bommoù komz pemdeziek en ur gaoz digor)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Un harp gwelloc'h evit ar gwirvoud yezhel evel an treuzyezhañ hag ar <mark>c'hodeilpennañ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Un harp gwelloc'h evut ar yezhoù gant nebeut a skridoù pe <mark>tamm skrid ebet</mark> da vezañ implijet (evel adstummoù sokiolektoù, yezhoù diskrid a-viskoazh, h.a.)
 how-spontaneous-speech-works = Penaos ez a Komzoù dieub en-dro
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Goulenn</mark>
@@ -16,8 +22,10 @@ transcribe-bubble-title = <mark>Treuzskrivañ</mark>
 transcribe-bubble-subtitle = Skrivit ar pezh a glevit en enrolladennoù
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Gwiriañ</mark>
+check-bubble-subtitle = Gwiriañ a rit ha klotaén a ra an treuzskrivadur gant ar son
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Roadennoù</mark>
+data-bubble-subtitle = Ingal ec'h embannomp ar strobad roadennoù
 contact-us = Mont e darempred ganeomp
 signup-input-placeholder = Lakait ho chomlec'h postel
 signup-button-value = Kasit ul liamm din dre bostel
