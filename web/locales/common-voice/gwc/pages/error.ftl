@@ -9,5 +9,5 @@ error-clip-upload-server = اِیں کلپ آں اپلوڈ ہوگ  سروٞر ت
 error-title-404 = مٞہ چھیں کیر تٞتھیں پاݪ نہ لد۔
 error-content-404 = شائد موں<homepageLink>ہوم پیج</homepageLink> مداٞد کٞربائی؟ اٞ سوالیں تٞپوس کٞروگیں کیر، ماٞربینی کاٞ شامل ہو<matrixLink> میٹریکس کمیونٹی چیٹ</matrixLink>مئ،  سائیٹاٞں مسئلاٞ رہ نٞظاٞر ساٞتوگیں کیر<githubLink> گِٹ ہٞب رہ چو</githubLink> یا <discourseLink> مُوں ڈسکورس رہ بحثاٞں بھاگ کٞہ چو</discourseLink>
 error-title-503 = مٞہ غیر متوقع ٹیم ݭاگاں تجربہ کٞرنت۔
-error-content-503 = اٞتھاں بھاگ دیگیراں کتیک شاٞردہ ممکن ہُو اوپس یٞگ۔ ناٞم مالومات ایں کیر، ماٞربینی کاٞ شامل ہُو<matrixLink> میٹریکس کمیونٹی چیٹ</matrixLink> یا چو <githubLink> گِٹ ہٞب</githubLink> یا<discourseLink> مُوں جولاگاں بھاگ</discourseLink> اوں جٞمہ تے مالوم کٞرگ بھاٞگاٞں تجرباٞں مسئلاٞ۔
+error-content-503 = سائیٹ کتیک شٞردہ ممکن ہو تے واپس لوڈ ہوئ۔ ناٞم مالومات ایں کیر، ماٞربینی کاٞ شامل ہو<matrixLink> میٹریکس کمیونٹی چیٹ مئ</matrixLink> یا چو <githubLink> گِٹ ہٞب کٞہ</githubLink> یا<discourseLink> مُوں ڈسکورس فورم کٞہ چو</discourseLink> مسٞلہ پیش کٞروگیں کیر تے سائیٹاٞں مسلاٞ رہ نظاٞر ساتوگیں کیر۔
 error-code = غلطی{ $code }
