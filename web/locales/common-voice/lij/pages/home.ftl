@@ -116,7 +116,7 @@ get-started = Comensa <icon><icon>
 
 ## Action items section
 
-action-items-section-title = Common Voice a l’é unna ciattaforma de badda e open source dedicâ a-a creaçion de dæto sotta a guidda da communitæ
+action-items-section-title = Common Voice a l’é unna ciattaforma de badda e open source dedicâ a-a creaçion de dæti sotta a guidda da communitæ
 action-items-section-subtitle = Tutti peuan allugâ, revitalizzâ e elevâ a seu lengua con scompartî, creâ e cuâ di dataset de testo e voxe.
 scripted-card-header = Descorso scrito
 scripted-card-content = Lezi de frase à erta voxe inta teu lengua e contribuisci a-o dataset de conoscimento vocale à parteçipaçion pubrica o ciù variegou a-o mondo.
@@ -124,7 +124,6 @@ spontaneous-card-header = Descorso spontaneo
 spontaneous-card-content = Replica à de domande pe creâ di dataset relativi à di contesti naturali e colloquiali. Perfetto pe-e lengue prevalentemente orale.
 language-text-card-header = Testo in lengua
 language-text-card-content = Crea ò scompartisci de domande, frase e testi de pubrico dominio pe traduçioin, modelli de lengua de dimenscion picciña e atro ancon.
-coming-soon = Disponibile fito
 add-text = Azzonzi do testo
 
 ## Community section

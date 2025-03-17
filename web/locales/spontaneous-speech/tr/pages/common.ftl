@@ -6,6 +6,7 @@ action-click = tıklayın
 action-tap = tıklayın
 # Label for language switcher
 platform-language = Platform dili:
+platform-language-tooltip-text = Sadece web sitesi arayüz dilini değiştirir.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } dilinin veri kümesine katkı yapılıyor

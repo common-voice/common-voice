@@ -83,11 +83,16 @@ read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 ## NAV ITEMS
 
 answer-questions = Embohovái porandu <small>(Tenondeve)</small>
+answer-questions-coming-soon = Embohovái porandu <small>(Tenondeve)</small>
 review-transcriptions = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
+review-transcriptions-coming-soon = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
 add-questions = Embojuaju porandu <small>(Tenondeve)</small>
+add-questions-coming-soon = Embojuaju porandu <small>(Tenondeve)</small>
+transcribe-audio-coming-soon = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
+coming-soon = Ag̃aitéma
 
 ## MENU ITEMS TOOLTIPS
 
@@ -108,23 +113,62 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 
 ## Hero section
 
+hero-title = Tembiporupyahu oikumbýva ne ñe’ẽ
+# icon is an arrow that points downwards
+get-started = Emoñepyrũ <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Ñe’ẽsyry hapéva
+spontaneous-card-header = Ñe’ẽsyry hape’ỹva
+language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
 add-text = Embojuapy moñe’ẽrã
 
 ## Community section
 
+join-discord-community = Eike Discord atýpe
+# label for button
+join-discord-community-action = Ejuaju orerehe Discord-pe
+find-us-on-matrix = Orejuhúta Matrix-pe
+# label for button
+find-us-on-matrix-action = Orejuhúta Matrix-pe
+ask-mozilla-share = Ejerure Mozilla-pe omoherakuãvo ne rembiapo
+# label for button
+ask-mozilla-share-action = Emoherakuã ne rembiapo
+download-contribution-certificate = Emboguejy nde kuatia ñepytyvõ rechaukaha
+# label for button
+download-contribution-certificate-action = Erekóke mboajepyre
+contribute-github = Eipytyvõ GitHub-pe
+# label for button
+contribute-github-action = Eipytyvõ GitHub-pe
 
 ## Featured section
 
+featured-section-title = Momba’epyre amo...
+# icon is an arrow that points downwards
+download-press-pack = Emboguejy ore dossier de prensa <icon></icon>
 
 ## Developers section
 
+# icon is an arrow that points to the right
+explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Eipytyvõ mba’ekuaarã aty ijurujáva ha omoakãva tekohagua
 read-sentences-link = Emoñe’ẽ ñe’ẽjuaju
+validate-readings-link = Emboaje ñemoñe’ẽ
+contribute-link = Eipytyvõ moñe’ẽrã atyguasúpe
+answer-questions-link = Embohovái porandu
+transcribe-answers-link = Ehai ñembohavái
+review-transcriptions-link = Ehechajey jehaikue
+contribute-text-link = Eipytyvõ moñe’ẽrã reheve
+press-and-stories-link = Prensa ha ñemombe’u
 
 ## Partner section
 
+partner-section-title = Eike orendive
+# icon is an arrow that points to the right
+get-in-touch-button = Eñe’ẽ orendive <icon></icon>
+# Partners section
+our-partners-include = Ore pytyvõhára omoinge...

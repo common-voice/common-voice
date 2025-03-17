@@ -13,6 +13,7 @@ contribution-picker-label = ປະກອບສ່ວນເຂົ້າໃນຊ�
 contribution-picker-tooltip-text = ປ່ຽນຊຸດຂໍ້ມູນພາສາທີ່ທ່ານກຳລັງປະກອບສ່ວນ
 # Label for button on contribution switcher
 change = ການປ່ຽນແປງ
+coming-soon = ພາສາອື່ນໆຈະມາໃນໄວໆນີ້
 # Toast message that is displayed when an item is skipped
 skipped = ຂ້າມ
 audioplayer-header = ຟັງ
@@ -23,14 +24,23 @@ report-button = ລາຍງານ
 skip-button = ຂ້າມ
 submit-button = ສົ່ງ
 contribute = ມີສ່ວນຮ່ວມ
+request-new-language = ຂໍພາສາໃໝ່
 
 ## Navbar
 
 respond-to-prompt = ຄໍາຕອບ
+transcribe = ການຖອດຂໍ້ຄວາມ
+check-transcriptions = ການກວດຄືນ
+question = ຄຳຖາມ
 
 ## Not Found Page
 
 not-found-page-header = ບໍ່ພົບ
+# Locales
+bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
 en = ພາສາອັງກິດ
+fr = ພາ​ສາ​ຝ​ຣັ່ງ
+hch = Wixárika
+kzi = Kelabit

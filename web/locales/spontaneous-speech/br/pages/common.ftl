@@ -4,9 +4,13 @@
 error = Fazi
 action-click = Klikañ
 action-tap = Pouezañ
+# Label for language switcher
+platform-language = Yezh ar savenn
+platform-language-tooltip-text = Kemmañ a ra hepken testenn al lec'hienn web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = O kemer perzh er strobad roadennoù evit { $language }
+contribution-picker-tooltip-text = Cheñch yezh ar strobad roadennoù a felldeoc'h kemeer perzh ennañ
 # Label for button on contribution switcher
 change = Kemmañ
 coming-soon = Muioc'h a yezhoù a-raok pell
@@ -26,7 +30,9 @@ request-new-language = Goulenn ur yezh nevez
 ## Navbar
 
 respond-to-prompt = Respont d'ar goulenn
+transcribe = Treuzskrivañ
 check-transcriptions = Gwiriañ treuzskrivadurioù
+question = Goulenn
 
 ## Not Found Page
 

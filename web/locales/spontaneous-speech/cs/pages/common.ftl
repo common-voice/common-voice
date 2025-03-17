@@ -6,9 +6,11 @@ action-click = Klepnout
 action-tap = Klepněte
 # Label for language switcher
 platform-language = Jazyk platformy:
+platform-language-tooltip-text = Změní pouze text na webových stránkách.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Přispívání do datové sady pro jazyk { $language }
+contribution-picker-tooltip-text = Změní jazykovou datovou sadu, do které přispíváte.
 # Label for button on contribution switcher
 change = Změnit
 coming-soon = Další jazyky již brzy
@@ -28,6 +30,7 @@ request-new-language = Požádat o nový jazyk
 ## Navbar
 
 respond-to-prompt = Odpovědět na výzvu
+transcribe = Přepis
 check-transcriptions = Zkontrolovat přepisy
 question = Otázka
 

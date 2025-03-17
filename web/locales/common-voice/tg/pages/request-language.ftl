@@ -22,3 +22,4 @@ request-language-error = Шояд мо ин дархостро нагирифт�
 request-for-scripted-speech-toggle = Дархост барои «Нутқи намоишнома/Scripted Speech»
 request-for-spontaneous-speech-toggle = Дархост барои «Нутқи бевосита/Spontaneous Speech»
 need-help-deciding-platform = Барои интихоби имкон кумак лозим аст?
+need-help-deciding-platform-explanation-3 = Агар шумо забони худро дар ягон қисми платформа набинед, ҳардуро интихоб кунед.

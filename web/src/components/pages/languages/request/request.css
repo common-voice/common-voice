@@ -71,7 +71,9 @@
     }
 
     .expandable-information {
-        border-inline-start: 2px solid var(--anchor-text-blue);
+        border-inline-start: 4px solid var(--anchor-text-blue);
+        margin-block-start: 0px;
+        margin-block-end: 8px;
 
         .expandable-information__summary {
             color: var(--anchor-text-blue);

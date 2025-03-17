@@ -82,6 +82,7 @@ answer-questions-coming-soon = Répondre à des questions <small>(prochainement)
 review-transcriptions = Vérifiez les transcriptions <small>(prochainement)</small>
 review-transcriptions-coming-soon = Vérifier les transcriptions <small>(prochainement)</small>
 add-questions = Ajoutez des questions <small>(prochainement)</small>
+add-questions-coming-soon = Ajoutez des questions <small>(prochainement)</small>
 transcribe-audio-coming-soon = Transcriptions audio <small>(prochainement)</small>
 transcribe-audio = Transcriptions audio <small>(prochainement)</small>
 press-and-stories = Presse et articles
@@ -117,7 +118,6 @@ get-started = Pour commencer <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice est une plateforme libre et open source pour la création de données par la communauté.
-coming-soon = Prochainement
 add-text = Ajouter du texte
 
 ## Community section
@@ -131,12 +131,15 @@ find-us-on-matrix-content = Matrix est un protocole ouvert et léger pour une co
 # label for button
 find-us-on-matrix-action = Retrouvez-nous sur Matrix
 ask-mozilla-share = Demandez à Mozilla de partager vos évènements
+ask-mozilla-share-content = Vous avez un évènement déjà organisé ou à venir ? Partagez-le avec nous et nous l’annoncerons à notre communauté ou nous publierons un article à ce sujet !
 # label for button
 ask-mozilla-share-action = Partager votre évènement
 download-contribution-certificate = Téléchargez votre certificat de contribution
+download-contribution-certificate-content = Téléchargez un certificat pour vos évènements ou pour vous-même si vous avez contribué à Common Voice — sans vous, rien de tout cela ne serait possible !
 # label for button
 download-contribution-certificate-action = Obtenir votre certificat
 contribute-github = Contribuez sur GitHub
+contribute-github-content = Ce projet n’existerait pas sans des personnes comme vous. Il existe de nombreuses façons de s’impliquer dans Common Voice - vous n’avez pas besoin de savoir coder pour contribuer !
 # label for button
 contribute-github-action = Contribuer sur GitHub
 
@@ -156,6 +159,7 @@ contribute-link = Contribuer au corpus de textes
 answer-questions-link = Répondre à des questions
 transcribe-answers-link = Transcrire des réponses
 review-transcriptions-link = Vérifier des transcriptions
+contribute-text-link = Envoyer du texte
 
 ## Partner section
 

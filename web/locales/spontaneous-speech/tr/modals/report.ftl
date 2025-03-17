@@ -8,11 +8,11 @@ different_language = Farklı dil
 different_language-detail = İçerik beklediğimden farklı bir dilde.
 personally_identifiable_information = Kişiyi Belirleyebilecek İçerik
 personally_identifiable_information-detail = Bu içerikte ad, e-posta adresi, adres, kimlik numarası, telefon numarası gibi kişiyi tanımlayabilecek özel bilgiler var.
+personally_identifiable_information-answer-detail = Bu içerik ad, e-posta adresi, adres, kimlik numarası, telefon numarası gibi kişiyi tanımlayabilecek özel bilgiler talep ediyor.
 report-other-comment =
-        .placeholder = Açıklama
+    .placeholder = Açıklama
 # Label for textarea in report modal
 other = Diğer
-
 report-error = Raporu iletirken bir hata oluştu
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Devam et

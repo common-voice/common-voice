@@ -128,17 +128,25 @@ get-started = ເລີ່ມຕົ້ນ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ເປັນແພລດຟອມແຫຼ່ງເປີດຟຣີສຳລັບການສ້າງຂໍ້ມູນໂດຍຊຸມຊົນ
+action-items-section-subtitle = ທຸກ​ຄົນ​ສາ​ມາດ​ປົກ​ປັກ​ຮັກ​ສາ​, ຟື້ນ​ຟູ​ແລະ​ຍົກ​ລະ​ດັບ​ພາ​ສາ​ຂອງ​ເຂົາ​ເຈົ້າ​ໂດຍ​ການ​ແບ່ງ​ປັນ​, ການ​ສ້າງ​ ແລະ​ ການ​ແກ້​ໄຂ​ຊຸດ​ຂໍ້​ມູນ​ຂໍ້​ຄວາມ​ ແລະ​ ສຽງ​ເວົ້າ​.
 scripted-card-header = ການເວົ້າແບບສະຄຣິບ
+scripted-card-content = ອ່ານປະໂຫຍກໃຫ້ດັງໆໃນພາສາຂອງທ່ານ ແລະ ປະກອບສ່ວນເຂົ້າໃນຊຸດຂໍ້ມູນຄຳເວົ້າການມີສ່ວນຮ່ວມຂອງປະຊາຊົນທີ່ຫຼາກຫຼາຍທີ່ສຸດໃນໂລກ.
 spontaneous-card-header = ການເວົ້າໂດຍທໍາມະຊາດ
+spontaneous-card-content = ຕອບ​ສະ​ຫນອງ​ຕໍ່​ການ​ກະ​ຕຸ້ນ​ໃຫ້​ສ້າງ​ຊຸດ​ຂໍ້​ມູນ​ສໍາ​ລັບ​ການ​ສະ​ພາບ​ແວດ​ລ້ອມ​, ນິ​ຍົມ​. ທີ່ສົມບູນແບບສໍາລັບພາສາປາກເວົ້າທໍາອິດ.
 language-text-card-header = ຂໍ້ຄວາມພາສາ
+language-text-card-content = ສ້າງ ຫຼື ແບ່ງປັນການເຕືອນໂດເມນສາທາລະນະ, ປະໂຫຍກ, ແລ ະຂໍ້ຄວາມສໍາລັບການແປພາສາ, ຮູບແບບພາສາຂະຫນາດນ້ອຍ, ແລະ ອື່ນໆ.
 add-text = ເພີ່ມຂໍ້ຄວາມ
 
 ## Community section
 
+community-section-title = ຂັບເຄື່ອນໂດຍຊຸມຊົນທົ່ວໂລກ, ສໍາລັບຊຸມຊົນທົ່ວໂລກ — 130 ພາສາ ແລະ ການຂະຫຍາຍຕົວ!
 join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 # label for button
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
+join-discord-community-content = ເຂົ້າຮ່ວມການສົນທະນາຊຸມຊົນພາສາ, ຖາມຄໍາຖາມ, ແລະ ຮຽນຮູ້ກ່ຽວກັບເຫດການ ແລະ ການສົນທະນາທີ່ຈະມາເຖິງ.
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
+find-us-on-matrix-content = Matrix ເປັນໂປໂຕຄອນແບບເປີດ, ມີນ້ຳໜັກເບົາສຳລັບການສື່ສານແບບແບ່ງຂັ້ນ, ໃນເວລາຈິງ, ແລະ ເວທີສົນທະນາແບບເປີດທີ່ຕ້ອງການຂອງ Mozilla.
 # label for button
 find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
 ask-mozilla-share = ໃຫ້ Mozilla ແບ່ງປັນເຫດການຂອງເຈົ້າ

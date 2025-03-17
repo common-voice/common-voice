@@ -3,7 +3,7 @@
 question-page-instruction = Pridajte otázku <icon></icon> v jazyku { $currentLocale }, aby na ňu ľudia odpovedali
 add-question-textarea-placeholder = napr.: "Na čo by ste chceli použiť technológiu?"
 add-questions-terms-checkbox = Potvrdzujem, že táto veta je dostupná <publicDomainLink>pod verejne dostupnou licenciou</publicDomainLink> a mám povolenie na jej nahratie.
-question-database-language = Databáza: { $databaseLanguage }
+question-dataset-language = Kolekcia údajov: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] Zozbierané otázky: { $uploadedQuestions } z 1

@@ -78,6 +78,7 @@ answer-questions-coming-soon = Ба саволҳо ҷавоб диҳед <small>
 review-transcriptions = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 review-transcriptions-coming-soon = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 add-questions = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
+add-questions-coming-soon = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio-coming-soon = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 press-and-stories = Матбуот ва ҳикояҳо

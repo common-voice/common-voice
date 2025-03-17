@@ -75,9 +75,12 @@ read-more-about = Les meir på Om oss-sida vår
 
 ## NAV ITEMS
 
+add-questions = Legg til spørsmål
+coming-soon = Kjem snart
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Bli partnar med oss
 
 ## MENU ITEM ARIA LABELS
 
@@ -87,12 +90,19 @@ read-more-about = Les meir på Om oss-sida vår
 
 ## Hero section
 
+# icon is an arrow that points downwards
+get-started = Kom i gang <icon><icon>
 
 ## Action items section
 
+add-text = Legg til tekst
 
 ## Community section
 
+# label for button
+find-us-on-matrix-action = Finn oss på Matrix
+# label for button
+contribute-github-action = Bidra på Github
 
 ## Featured section
 
@@ -102,6 +112,9 @@ read-more-about = Les meir på Om oss-sida vår
 
 ## Get involved section
 
+read-sentences-link = Les setningar
+answer-questions-link = Svar på spørsmål
+contribute-text-link = Bidra med tekst
 
 ## Partner section
 
