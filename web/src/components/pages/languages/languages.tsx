@@ -31,7 +31,6 @@ const MAX_WIDTH = 1250
 
 export interface ModalOptions {
   locale: string
-  l10n: ReactLocalization
 }
 interface State {
   isLoading: boolean
@@ -314,7 +313,6 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       {modalOptions && (
         <GetInvolvedModal
           locale={modalOptions.locale}
-          l10n={modalOptions.l10n}
           onRequestClose={() => hideModal()}
         />
       )}
