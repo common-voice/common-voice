@@ -42,3 +42,5 @@ cdo = Fuzhou
 cpx = Heng Hua
 en = ພາສາອັງກິດ
 fr = ພາ​ສາ​ຝ​ຣັ່ງ
+hch = Wixárika
+kzi = Kelabit
