@@ -3,7 +3,6 @@
 question-page-instruction = Anyade una pregunta <icon></icon> en { $currentLocale } pa que la chent la responda
 add-question-textarea-placeholder = p.eix., “Pa qué querrías poder emplegar la tecnolochía?”
 add-questions-terms-checkbox = * Confirmo que esta pregunta ye <publicDomainLink>dominio publico</publicDomainLink> y tiengo permiso pa puyar-la.
-question-database-language = Base de datos: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } d'1 pregunta replegada

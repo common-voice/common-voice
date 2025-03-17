@@ -8,6 +8,7 @@ different_language = বেলেগ ভাষা
 different_language-detail = বিষয়বস্তুত মই আশা কৰাতকৈ বেলেগ ভাষা আছে।
 personally_identifiable_information = ব্যক্তিগতভাৱে চিনাক্তকৰণযোগ্য তথ্য
 personally_identifiable_information-detail = এই বিষয়বস্তুত কোনো ব্যক্তিৰ পৰিচয়ৰ সৈতে জড়িত ব্যক্তিগতভাৱে চিনাক্তকৰণযোগ্য তথ্য আছে, যেনে তেওঁৰ নাম, ইমেইল ঠিকনা, অৱস্থান, চিনাক্তকৰণ নম্বৰ বা ফ’ন নম্বৰ।
+personally_identifiable_information-answer-detail = এই বিষয়বস্তুৱে কোনো ব্যক্তিৰ পৰিচয়ৰ সৈতে জড়িত ব্যক্তিগতভাৱে চিনাক্তকৰণযোগ্য তথ্য খুজি আছে, যেনে তেওঁৰ নাম, ইমেইল ঠিকনা, অৱস্থান, চিনাক্তকৰণ নম্বৰ বা ফ’ন নম্বৰ।
 report-other-comment =
     .placeholder = মন্তব্য
 # Label for textarea in report modal

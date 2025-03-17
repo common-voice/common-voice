@@ -6,9 +6,11 @@ action-click = Klikoni
 action-tap = Prekeni
 # Label for language switcher
 platform-language = Gjuhë platforme:
+platform-language-tooltip-text = Ndryshon vetëm tekstin e sajtit.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Dhënie kontributi te grup të dhënash për { $language }
+contribution-picker-tooltip-text = Ndryshon grupin e të dhënave të gjuhës te e cila po kontribuoni
 # Label for button on contribution switcher
 change = Ndryshoje
 coming-soon = Më tepër gjuhë së shpejti
@@ -28,6 +30,7 @@ request-new-language = Kërkoni Gjuhë të Re
 ## Navbar
 
 respond-to-prompt = Përgjigjuni një Hapi
+transcribe = Transkriptoni
 check-transcriptions = Kontrolloni Transkriptime
 question = Pyetje
 

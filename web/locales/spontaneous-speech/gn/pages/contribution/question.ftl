@@ -1,7 +1,6 @@
 ## Question Page
 
 add-question-textarea-placeholder = Techapyrã, "¿Ma’ẽrãpa eiporúta tembiporupyahu?"
-question-database-language = Mba’ekuaarã rupa: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } 1 porandu mbyatypyre
