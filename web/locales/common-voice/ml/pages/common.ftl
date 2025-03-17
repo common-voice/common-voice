@@ -331,7 +331,7 @@ zza = സാസ
 ## Layout
 
 profile = പ്രൊഫൈല്‍
-help = പിന്തുണ
+help = തുണ
 contact = ബന്ധപ്പെടുക
 privacy = സ്വകാര്യത
 terms = വ്യവസ്ഥകൾ
