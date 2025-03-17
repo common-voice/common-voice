@@ -331,7 +331,7 @@ zza = സാസ
 ## Layout
 
 profile = പ്രൊഫൈല്‍
-help = സഹായം
+help = പിന്തുണ
 contact = ബന്ധപ്പെടുക
 privacy = സ്വകാര്യത
 terms = വ്യവസ്ഥകൾ
@@ -361,4 +361,4 @@ not-available-abbreviation = ബാധകമല്ല
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
-donate-banner-cta = <mark>ഞങ്ങൾ</mark><br/><mark>താങ്ങളുടെ സഹായം ആവിശ്യപ്പെടുന്നു</mark>
+donate-banner-cta = <mark>ഞങ്ങൾ</mark><br/><mark>താങ്ങളുടെ തുണ ആവിശ്യപ്പെടുന്നു</mark>
