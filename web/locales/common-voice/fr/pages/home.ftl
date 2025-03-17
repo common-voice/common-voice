@@ -159,6 +159,7 @@ contribute-link = Contribuer au corpus de textes
 answer-questions-link = Répondre à des questions
 transcribe-answers-link = Transcrire des réponses
 review-transcriptions-link = Vérifier des transcriptions
+contribute-text-link = Envoyer du texte
 
 ## Partner section
 
