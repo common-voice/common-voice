@@ -1,5 +1,7 @@
 ## Question Page
 
+question-page-instruction = Ajoutez une question <icon></icon> en { $currentLocale } pour que d’autres personnes puissent y répondre
+add-question-textarea-placeholder = par exemple, « Qu’aimeriez-vous pouvoir faire avec la technologie ? »
 add-questions-terms-checkbox = * Je confirme que cette question est du <publicDomainLink>domaine public</publicDomainLink> et que j’ai la permission de l’envoyer.
 question-dataset-language = Jeu de données : { $datasetLanguage }
 add-question-success-toast-message =
