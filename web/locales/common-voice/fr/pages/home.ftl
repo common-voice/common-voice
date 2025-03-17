@@ -160,6 +160,7 @@ answer-questions-link = Répondre à des questions
 transcribe-answers-link = Transcrire des réponses
 review-transcriptions-link = Vérifier des transcriptions
 contribute-text-link = Envoyer du texte
+press-and-stories-link = Presse et articles
 
 ## Partner section
 
