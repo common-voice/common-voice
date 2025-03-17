@@ -10,6 +10,7 @@ platform-language-tooltip-text = Změní pouze text na webových stránkách.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Přispívání do datové sady pro jazyk { $language }
+contribution-picker-tooltip-text = Změní jazykovou datovou sadu, do které přispíváte.
 # Label for button on contribution switcher
 change = Změnit
 coming-soon = Další jazyky již brzy

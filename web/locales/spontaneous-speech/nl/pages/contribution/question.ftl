@@ -3,6 +3,7 @@
 question-page-instruction = Voeg een vraag toe <icon></icon> in het { $currentLocale } zodat mensen deze kunnen beantwoorden
 add-question-textarea-placeholder = b.v. ‘Waar zou u technologie voor willen gebruiken?’
 add-questions-terms-checkbox = Ik bevestig dat deze vraag tot het publieke domein behoort en ik heb toestemming om deze te uploaden.
+question-dataset-language = Dataset: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedquestions } van 1 vraag verzameld

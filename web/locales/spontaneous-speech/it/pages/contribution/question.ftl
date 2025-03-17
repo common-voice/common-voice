@@ -3,6 +3,7 @@
 question-page-instruction = Aggiungi una domanda <icon></icon> in { $currentLocale } a cui le persone possano rispondere
 add-question-textarea-placeholder = ad es. “Per che cosa vorresti poter utilizzare la tecnologia?”
 add-questions-terms-checkbox = Confermo che questa domanda è di <publicDomainLink>pubblico dominio</publicDomainLink> e ho l’autorizzazione a caricarla.
+question-dataset-language = Dataset: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } di 1 domanda raccolta
