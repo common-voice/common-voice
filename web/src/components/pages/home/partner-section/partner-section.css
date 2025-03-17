@@ -13,17 +13,19 @@
         display: flex;
 
         [dir='rtl'] & {
-            background: linear-gradient(
-                    270deg,
-                    rgba(246, 241, 214, 0.95) 32%,
-                    rgba(255, 239, 143, 0) 98%
-                ),
-                url('./assets/partner-with-us-bg.webp');
+            @media (--sm-up) {
+                background: linear-gradient(
+                        270deg,
+                        rgba(246, 241, 214, 0.95) 32%,
+                        rgba(255, 239, 143, 0) 98%
+                    ),
+                    url('./assets/partner-with-us-bg.webp');
 
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            display: flex;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                display: flex;
+            }
         }
 
         @media (--xs-down) {
@@ -43,6 +45,10 @@
         @media (--md-up) {
             height: 50vh;
             min-height: 550px;
+
+            [dir='rtl'] & {
+                min-height: 55vh;
+            }
         }
 
         .content {
