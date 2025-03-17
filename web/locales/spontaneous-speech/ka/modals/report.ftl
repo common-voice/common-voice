@@ -8,6 +8,7 @@ different_language = განსხვავებული ენა
 different_language-detail = მასალა მოსალოდნელისგან განსხვავებულ ენაზეა.
 personally_identifiable_information = პირის ამოსაცნობი მონაცემები
 personally_identifiable_information-detail = მასალა შეიცავს ვინაობასთან დაკავშირებულ პირად მონაცემებს, როგორიცაა სახელი, ელფოსტის მისამართი, ადგილმდებარეობა, პირადობის ნომერი ან სატელეფონო ნომერი.
+personally_identifiable_information-answer-detail = მასალა ითხოვს ვინაობასთან დაკავშირებულ პირად მონაცემებს, როგორიცაა სახელი, ელფოსტის მისამართი, ადგილმდებარეობა, პირადობის ნომერი ან სატელეფონო ნომერი.
 report-other-comment =
     .placeholder = შენიშვნა
 # Label for textarea in report modal

@@ -3,7 +3,6 @@
 question-page-instruction = เพิ่มคำถาม <icon></icon> ในภาษา{ $currentLocale }เพื่อให้ผู้คนตอบ
 add-question-textarea-placeholder = เช่น “คุณอยากใช้เทคโนโลยีเพื่ออะไรบ้าง?”
 add-questions-terms-checkbox = * ฉันยืนยันว่าคำถามนี้เป็น<publicDomainLink>สาธารณสมบัติ</publicDomainLink>และฉันได้รับอนุญาตให้อัปโหลดได้
-question-database-language = ฐานข้อมูล: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] รวบรวมแล้ว { $uploadedQuestions } จาก 1 คำถาม

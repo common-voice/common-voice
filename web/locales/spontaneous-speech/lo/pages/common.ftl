@@ -24,6 +24,7 @@ report-button = ລາຍງານ
 skip-button = ຂ້າມ
 submit-button = ສົ່ງ
 contribute = ມີສ່ວນຮ່ວມ
+request-new-language = ຂໍພາສາໃໝ່
 
 ## Navbar
 
@@ -41,3 +42,5 @@ cdo = Fuzhou
 cpx = Heng Hua
 en = ພາສາອັງກິດ
 fr = ພາ​ສາ​ຝ​ຣັ່ງ
+hch = Wixárika
+kzi = Kelabit

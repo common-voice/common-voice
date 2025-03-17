@@ -3,7 +3,6 @@
 question-page-instruction = لوکاں کولو جواب آسطے { $currentLocale }وچ</icon> ہک سوال بھاؤ
 add-question-textarea-placeholder = مثال دے طور تے۔، “تسیں کے چہندے او کہ ٹیکنالوجی کس آسطے استعمال ہوّا؟”
 add-questions-terms-checkbox = میں تصدیق کرداں کہ اے جملہ <publicDomainLink>عوامی ڈومین </publicDomainLink>دا ہے تے ہور مڑے کول اے اپلوڈ کرنے دی اجازت ہے۔
-question-database-language = ڈیٹا بیس:{ $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions }دا1سوال جمع ہویّا

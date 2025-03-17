@@ -318,7 +318,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             shouldExpandNavItems={
               this.state.shouldExpandNavItems || !isContributionPageActive
             }
-            isContributionPageActive={isContributionPageActive}>
+            isContributionPageActive={isContributionPageActive}
+            toggleMenu={this.toggleMenu}>
             <div className="user-nav">
               <LocalizationSelect
                 locale={locale}
