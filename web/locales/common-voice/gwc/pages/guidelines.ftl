@@ -1,15 +1,15 @@
 # GUIDELINES PAGE
-guidelines-header = شراکیتاں معیار
-guidelines-header-subtitle = جاٞناٞ اوں جملاٞ تے ٹیپ کٞراٞل کلپونہ سٞہ مداد تے توم صحی کھیکی کٞراٞں عام ہوازاٞں مواٞد سٞہ۔
-voice-collection = ہواز آں مجموعہ
-sentence-collection = جملاں مجموعہ
+guidelines-header = شراکیتیں کیر ہدایات
+guidelines-header-subtitle = جاٞناٞ اوں جملاٞ تے ٹیپ کٞراٞل کلپونہ سٞہ مداد تے توم صحی کھیکی کٞراٞں عام ہوازاٞں مواٞد سٞہ۔ کامن وائیسیں ڈیٹا سیٹ مئ حصہ تلوگ تے تصحیح کٞروگ اِزدہ کٞراٞ۔
+voice-collection = ہواٞزونہ جمہ کٞروگ
+sentence-collection = جملاٞ جمہ کٞروگ
 varying-pronunciations = بداٞل تلفظ
 misreadings = کھوچہ پٞروگ
 offensive-content = لاݪ مواد
 background-noise = پس منظریں ہٞؤو۔
 background-voices = پس منظراٞں ہواٞز
 volume = ہوازیں سپیڈ
-reader-effects = پٞروگ واٞلاٞ رہ اثر
+reader-effects = پٞروگ والاں اثرات
 just-unsure = پھتہ نہ؟
 example = مثال
 varying-pronunciations-explanation-1 = اٞ لفظاٞں غلط تلفظاٞں بنیاٞد دہ، زورغلط بھاٞگ رہ داٞگ دہ، یا ظاہِراً سوالیہ نشان نظرانداز کٞروگاٞں بنیاٞد دہ اٞ کلِپ مسترد کٞروگ ما پھِرمال احتیاط کٞر۔ دُناۓ مئ تلفظاں باٞر زیات اختلاف تُھو، کیدے شی توم مئ باضی تئ تانی مقامی کمیونٹی مئ نہ بُت۔ ماٞربینی کاٞ کاٞں خلک تھئ ما بداٞل جوڑہ جولاٞںش توم کٞہ رعایت دہ۔
