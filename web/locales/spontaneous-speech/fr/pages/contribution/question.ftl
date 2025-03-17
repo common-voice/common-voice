@@ -13,4 +13,6 @@ add-question-error-message = Échec de l’envoi, veuillez réessayer.
 add-question-too-many-questions-error = Dépassement des 500 questions. Diminuez le nombre de questions puis réessayez.
 # Guidelines
 add-question-guidelines-title = Quelles questions puis-je ajouter ?
+do-section-title = Ce qu’il faut faire
 do-section-guideline-1 = L’orthographe et la grammaire doivent être correctes
+do-not-section-title = Ce qu’il ne faut pas faire
