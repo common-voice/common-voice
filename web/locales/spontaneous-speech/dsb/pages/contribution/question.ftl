@@ -3,7 +3,7 @@
 question-page-instruction = Pšašanje <icon></icon> w { $currentLocale } pśidaś, na kótarež maju luźe wótegroniś
 add-question-textarea-placeholder = na př. „Za co cośo technologiju wužywaś?“
 add-questions-terms-checkbox = * Wobkšuśijom, až toś to pšašanje sada jo <publicDomainLink>zjawnje pśistupne</publicDomainLink> a mam pšawo ju nagraś.
-question-database-language = Datowa banka: { $databaseLanguage }
+question-dataset-language = Datowa sajźba: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } z { $totalQuestions } pšašanja zgromaźone

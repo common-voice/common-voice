@@ -1,6 +1,7 @@
 ## Report Modal
 
 report-modal-title = ສົ່ງບົດລາຍງານ
+report-modal-subtitle = ທ່ານກຳລັງປະສົບບັນຫາຫຍັງກັບເນື້ອຫານີ້?
 offensive_speech = ເນື້ອຫາບໍ່ເໝາະສົມ
 offensive_speech-detail = ເນື້ອຫາດັ່ງກ່າວມີພາສາທີ່ບໍ່ເຄົາລົບ ຫຼື ລັງກຽດ.
 different_language = ພາສາທີ່ແຕກຕ່າງກັນ

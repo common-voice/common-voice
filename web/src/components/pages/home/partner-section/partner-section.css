@@ -12,6 +12,22 @@
         background-position: center center;
         display: flex;
 
+        [dir='rtl'] & {
+            @media (--sm-up) {
+                background: linear-gradient(
+                        270deg,
+                        rgba(246, 241, 214, 0.95) 32%,
+                        rgba(255, 239, 143, 0) 98%
+                    ),
+                    url('./assets/partner-with-us-bg.webp');
+
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                display: flex;
+            }
+        }
+
         @media (--xs-down) {
             background: linear-gradient(
                     180deg,
@@ -29,6 +45,10 @@
         @media (--md-up) {
             height: 50vh;
             min-height: 550px;
+
+            [dir='rtl'] & {
+                min-height: 55vh;
+            }
         }
 
         .content {
@@ -88,10 +108,18 @@
 
                 span {
                     display: flex;
+
+                    [dir='rtl'] & {
+                        flex-direction: row-reverse;
+                    }
                 }
 
                 svg {
                     margin-inline-start: 12px;
+
+                    [dir='rtl'] & {
+                        margin-inline-end: 12px;
+                    }
 
                     path {
                         fill: var(--white);
