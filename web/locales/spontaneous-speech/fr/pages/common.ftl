@@ -6,9 +6,11 @@ action-click = Clic
 action-tap = Appuyer
 # Label for language switcher
 platform-language = Langue de la plateforme
+platform-language-tooltip-text = Modifie uniquement le texte du site web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = En contribuant au jeu de données pour { $language }
+contribution-picker-tooltip-text = Modifie le jeu de données vocales auquel vous contribuez
 # Label for button on contribution switcher
 change = Modifier
 coming-soon = Bientôt de nouvelles langues
