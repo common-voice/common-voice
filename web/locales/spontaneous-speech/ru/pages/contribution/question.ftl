@@ -3,7 +3,7 @@
 question-page-instruction = Добавьте вопрос <icon></icon> в { $currentLocale }, чтобы люди могли ответить
 add-question-textarea-placeholder = например, «Для чего вы хотели бы использовать технологии?»
 add-questions-terms-checkbox = * Я подтверждаю, что этот вопрос является <publicDomainLink>общественным достоянием</publicDomainLink> и у меня есть разрешение на его загрузку.
-question-database-language = База данных: { $databaseLanguage }
+question-dataset-language = Набор данных: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedquestions } из 1 вопроса собрано
