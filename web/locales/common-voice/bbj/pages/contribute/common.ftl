@@ -31,11 +31,6 @@ target-segment-add-voice = Cyá gì ó thə́
 target-segment-learn-more = Nə́ zhyə́ mcuŋ shə dyɛ'
 change-preferences = Nə́ kwipnyə pǒtsə tsyə é ó kuŋ á
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Nə́ cú'tə mgì
-contribute-sentence-collection-nav-header = Nə́ cú'tə mkâmghɔm
-
 ## Reporting
 
 report = Nə́ ma' təŋ

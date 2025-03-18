@@ -56,7 +56,6 @@ accept-privacy-title = Политика приватности
 accept-privacy-and-terms = Я согласен с <termsLink>Условиями</termsLink> и <privacyLink>Примечанием о конфиденциальности</privacyLink> Common Voice.
 login-identity = Идентификатор для входа
 login = Войти
-login-signup = Войти / Зарегистрироваться
 edit = Редактировать
 email-subscriptions = Подписки по электронной почте
 download-profile = Выгрузить мои данные

@@ -66,7 +66,7 @@ sentence-variant-select-label = ຕົວແປຂອງປະໂຫຍກ
 sentence-variant-select-placeholder = ເລືອກຕົວແປ (ທາງເລືອກ)
 sentence-variant-select-multiple-variants = ພາສາທົ່ວໄປ / ຫຼາຍຮູບແບບ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ອັບໂຫຼດ <icon></icon> ປະໂຫຍກສາທາລະນະ

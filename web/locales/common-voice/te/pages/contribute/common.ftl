@@ -29,11 +29,6 @@ target-segment-generic-card = మీరు లక్ష్య విభాగా
 target-segment-add-voice = మీ వాయిస్‌ని జోడించండి
 target-segment-learn-more = ఇంకా తెలుసుకోండి
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = వాయిస్ సేకరణ
-contribute-sentence-collection-nav-header = వాక్యాల సేకరణ
-
 ## Reporting
 
 report = నివేదిక

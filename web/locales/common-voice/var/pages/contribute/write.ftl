@@ -66,7 +66,7 @@ sentence-variant-select-label = Na'iwátiame uhúpu orasióne nawésari piréč
 sentence-variant-select-placeholder = Usaá pu'ká nawésari piréči enté močikačí. (yoraniáme)
 sentence-variant-select-multiple-variants = Nawésari yomá / weiká uhupú kapó
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Muenápu frase dominio publikandóka<icon></icon>

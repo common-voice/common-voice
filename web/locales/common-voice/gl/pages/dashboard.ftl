@@ -41,72 +41,72 @@ finish-editing = Rematar primeiro a edición?
 lose-changes-warning = Saír agora significa que perderá os teus cambios
 build-custom-goal = Fixar un obxectivo personalizado
 help-reach-hours-pluralized =
-    Axuda para chegar a{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    }en { $language } cun obxectivo persoal
+    { $hours ->
+        [one] Axuda para chegar a{ $hours } horaen { $language } cun obxectivo persoal
+       *[other] Axuda para chegar a{ $hours } horasen { $language } cun obxectivo persoal
+    }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Axuda a Common Voice para acadar{ $hours } hora nun idioma cun obxectivo persoal
        *[other] Axuda a Common Voice para acadar{ $hours } horas nun idioma cun obxectivo persoal
     }
 set-a-goal = Estabelecer un obxectivo
 cant-decide = Non se decide?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                                *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
                             }
@@ -123,7 +123,7 @@ not-receiving-emails-info =
     Actualmente, ten definido que <bold>NON</bold> recibirá correos electrónicos recordatorios de obxectivos, as  
     actualizacións de avance nin os boletíns sobre Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } fragmento
        *[other] { $count } fragmentos
     }

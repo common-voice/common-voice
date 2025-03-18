@@ -5,7 +5,6 @@ write-instruction = Kogolo <icon></icon> efya dzia mod asə a nə dzam bəlan ai
 write-page-subtitle = Bifya miayi və biayi baaban evoe mam mə bod bəsə a cc-0 oyəm bibug
 sentence =
     .label = Bifya
-sentence-input-value = Tiligi eyəm wa tsog na mod asə a nə dzam yəm asu dwe
 citation-input-placeholder = O bələ naa o kom kadə mvom bifya bue bi asɔ
 citation =
     .label = Efus
@@ -30,7 +29,6 @@ required-field = Dzalan efas dzi
 single-sentence-submission = Elomo efya dzia
 bulk-sentence-submission = Elomo abui bifya
 single-sentence = Efya dzia
-bulk-sentences = Abui bifya
 sentence-domain-combobox-label = Eyiliga efya
 sentence-domain-select-placeholder = Tɔban vɔs bitie bilɛ
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Kan bifya
 sentence-variant-select-placeholder = Tɔbɔ kan dzia
 sentence-variant-select-multiple-variants = Mam ya nkɔbɔ/kan minkɔbɔ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Loman <icon></icon> bifya mod asə a nə dzam bəlan ai bia
@@ -89,3 +87,12 @@ file-invalid-type = Afəb dayean kig
 file-too-large = Afəb a nə adzid abui
 file-too-small = Afəb a nə mbə ovəvəs
 too-many-files = Məfəb ma nnəməna
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

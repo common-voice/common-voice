@@ -36,7 +36,6 @@ thanks-for-account = tlasohcamatictzin yotitechilue mocuenta, axan ticchihchiuas
 why-demographic = queye nicanca simi importante
 why-demographic-explanation-2 = tlanahuatil ichtaca den usuarios, quemeh xihuitl, genero huan queni tlahtuhuah, techpalehuia matiquinyectlalihtacah tlanahuatil tlahtol tlenmucuitoqueh, icasecmunextilis cuali quenin teixmateh tlahtol. mu tuca de usuario huan correo electronico amayic mu nilusqueh ica mu tlanahuatil titlan, huan huilis tiquihtos tla ticniqui mu tocayo mumunexti o mui ichtaca
 accept-privacy-title = tlanahuatil ichtaca
-login-signup = xicpehualti sesión / ximoihcuilo
 edit = yectlali
 email-subscriptions = ximuihcuilo ic correo electrónico
 skip-submission-feedback = amoticahuilisqueh muctitlanican tenunutzanil

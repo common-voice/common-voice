@@ -1,8 +1,5 @@
 contribute = Nkaayenzire ngu abo abarikubarabanisamu babarugyemu.
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

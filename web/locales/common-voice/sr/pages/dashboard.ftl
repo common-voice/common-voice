@@ -41,37 +41,220 @@ finish-editing = Завршити уређивање прво?
 lose-changes-warning = Ако напустите сада изгубићете своје промене
 build-custom-goal = Направите прилагођени циљ
 help-reach-hours-pluralized =
-    Помозите да достигнемо{ NUMBER($hours) ->
-        [one] { $hours } сат
-        [few] { $hours } сата
-       *[other] { $hours } сати
-    }у { $language } радећи на сопственом циљу
+    { $hours ->
+        [one] Помозите да достигнемо{ $hours } сату { $language } радећи на сопственом циљу
+        [few] Помозите да достигнемо{ $hours } сатау { $language } радећи на сопственом циљу
+       *[other] Помозите да достигнемо{ $hours } сатиу { $language } радећи на сопственом циљу
+    }
 help-reach-hours-general-pluralized =
-    Помозите Common Voice-у да достигне{ NUMBER($hours) ->
-        [one] { $hours } сат
-        [few] { $hours } сата
-       *[other] { $hours } сати
-    }за језик с личним циљем
+    { $hours ->
+        [one] Помозите Common Voice-у да достигне{ $hours } сатза језик с личним циљем
+        [few] Помозите Common Voice-у да достигне{ $hours } сатаза језик с личним циљем
+       *[other] Помозите Common Voice-у да достигне{ $hours } сатиза језик с личним циљем
+    }
 set-a-goal = Поставите циљ
 cant-decide = Не можете се одлучити?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } сат
-        [few] { $totalHours } сата
-       *[other] { $totalHours } сати
-    }се може достигнути за нешто више од{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } месеца
-        [few] { $periodMonths } месеца
-       *[other] { $periodMonths } месеци
-    }ако{ NUMBER($people) ->
-        [one] { $people } човек
-        [few] { $people } човека
-       *[other] { $people } људи
-    }сними{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } исечак
-        [few] { $clipsPerDay } исечка
-       *[other] { $clipsPerDay } исечака
-    }сваког дана.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатсе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатасе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месецаако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човексними{ $clipsPerDay } исечакасваког дана.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } човекасними{ $clipsPerDay } исечакасваког дана.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечаксваког дана.
+                                [few] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечкасваког дана.
+                               *[other] { $totalHours } сатисе може достигнути за нешто више од{ $periodMonths } месециако{ $people } људисними{ $clipsPerDay } исечакасваког дана.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Одлично! Колико снимака дневно?
 how-many-a-week = Одлично! Колико снимака недељно?
 which-goal-type = Да ли желите да говорите, слушајте или и једно и друго?
@@ -80,7 +263,7 @@ receiving-emails-info =
     новости о сопственом напретку и билтени о Common Voice пројекту
 not-receiving-emails-info = Тренутно сте подесили да <bold>не примате</bold> е-поруке попут подсетника о циљевима, новости о напретку и билтене о Common Voice пројекту
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } исечак
         [few] { $count } исечка
        *[other] { $count } исечака

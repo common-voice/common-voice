@@ -41,72 +41,72 @@ finish-editing = Уи аԥхьа аԥсахра уалгар уҭахума?
 lose-changes-warning = Уажәы уцар, иҟоуҵахьоу аԥсахрақәа уцәыӡыр ҟалоит.
 build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ацхыраара анаӡара { $hours } сааҭ { $language } ахатә хықәкыла
        *[other] Ацхыраара анаӡара { $hours } сааҭқәа { $language } ахатә хықәкыла
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ацхыраара Азеиԥш бжьы анаӡара { $hours } сааҭк абри абызшәала хаҭалатәи хықәкык аманы
        *[other] Ацхыраара Азеиԥш Бжьы анаӡара { $hours } сааҭқәа ари абызшәала хаҭалатәи хықәкык аманы
     }
 set-a-goal = Ухықәкы цәырга
 cant-decide = Иузымгәаӷьӡои?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
                                *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
                             }
@@ -121,7 +121,7 @@ not-receiving-emails-info =
     Уара <bold>МАП</bold> аҟны иуоулоит ухықәкы угәалазыршәои, уусқәа ахьынӡанеихьоуи Common Voice 
     иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәыҟәқәа
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } аҭаҩра
        *[other] { $count } аҭаҩрақәа
     }

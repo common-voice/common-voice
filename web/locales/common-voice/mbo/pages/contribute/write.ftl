@@ -5,7 +5,6 @@ write-instruction = A háti <icon></icon> Nyampi mí mɔ ǹshyə᷇
 write-page-subtitle = Ǹyampi mi ú bə́ə́ní ánɛ́, ú kɔ mɔ́ a háti á mam ómí mɔ ǹshyə̂ tə̂ bóni pɛ́pa ŋ̀kwenki cc-0
 sentence =
     .label = ŋ̀lâki mɔ'
-sentence-input-value = Ní tyɛnɛ ḿmaní ǹyampi mí mɔ ǹhyə̂ ánɛ̄
 citation-input-placeholder = Ni bə abú dí í bíyɛ
 citation =
     .label = ŋ̀lânki mɔ'
@@ -30,7 +29,6 @@ required-field = Ní lə́ti wōm gínɛ̄
 single-sentence-submission = Ilɛ̂mpi ǹyampi ŋ̀hɔ́' peŋ
 bulk-sentence-submission = Ilɛ̂mpi ŋgʉ́mɛ ǹyampi
 single-sentence = Ǹyampi peŋ
-bulk-sentences = Ŋgʉ́mɛ ǹyampi
 sentence-domain-combobox-label = wǒm ádí ǹyampi
 sentence-domain-select-placeholder = Ní tə́lɛ kə́ŋ ǹyampi ílāān
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = ǹyamɛ́ɛ́ ḿmí ǹyampi
 sentence-variant-select-placeholder = Ú tə́lɛ ǹyamɛ́ɛ́ ŋ̀hɔ́' (ḿmi ú də́ə́ŋī)
 sentence-variant-select-multiple-variants = Ishyə̂ íhwɔ́ tə̂
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = A lɛ́m <icon></icon> ǹyampi mí mɔ ǹshyə̂
@@ -89,3 +87,12 @@ file-invalid-type = Apa' ǹshwɔ́n á bɔɔŋɛ́
 file-too-large = Apa' ǹshwɔ́n á díín ŋgʉ́mengêŋ
 file-too-small = Apa' ǹshwɔ́n á diinɛ́
 too-many-files = Opa' ǹshɔ́n ú bʉ́ʉ́ tə̂ ŋgʉ́mengêŋ
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

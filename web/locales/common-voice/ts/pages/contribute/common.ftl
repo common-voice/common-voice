@@ -30,9 +30,6 @@ target-segment-first-banner = Pfuna ku tumbuluxa xiphemu xo sungula lexi kongomi
 target-segment-add-voice = Engetela Rito Ra Wena
 target-segment-learn-more = Dyondza Swo Tala
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Xiviko

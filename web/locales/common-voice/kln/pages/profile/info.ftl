@@ -53,7 +53,6 @@ accept-privacy-title = ngalekab kaungengung
 accept-privacy-and-terms = kayaan sauti nenaat <termsLink>Termishek</termslink>ak<privacyLink>notic neungaat </privacyLink>
 login-identity = ne neibaru kole inye negailogen in
 login = chuut orit
-login-signup = chuut orit/sirgei
 edit = inemu anan iteshi
 email-subscriptions = subscriptionishek chebo emailingung
 download-profile = downloaden data nenyu

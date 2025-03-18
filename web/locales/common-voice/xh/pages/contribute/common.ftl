@@ -30,9 +30,6 @@ target-segment-first-banner = Nceda wenze icandelo lokuqala ekujoliswe kulo leCo
 target-segment-add-voice = Yangeza ilwizi lakho
 target-segment-learn-more = Funda ngakumbi
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Ingxelo

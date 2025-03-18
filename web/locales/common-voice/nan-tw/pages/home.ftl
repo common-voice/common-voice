@@ -121,7 +121,6 @@ spontaneous-card-header = 家己的講話內容
 spontaneous-card-content = 回答有情境的問題來創作有機、平時講話慣常的資料集。適合予口說為主的語言。
 language-text-card-header = 語言文字
 language-text-card-content = 創作抑是分享公有領域的情境問答、字句、佮文字會當來翻譯、細語言模型、閣較濟應用。
-coming-soon = 咧欲推出
 add-text = 加添文字
 
 ## Community section

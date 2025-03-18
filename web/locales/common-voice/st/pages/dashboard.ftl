@@ -41,30 +41,77 @@ finish-editing = Qetela ho lokisa pele?
 lose-changes-warning = Ho tsamaea hona jwale ho bolela hore o tla lahlehelwa ke diphetoho tsa hao
 build-custom-goal = Aha sepheo se etseditsweng wena feela
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thusa hore re fihlelle { $hours } hora ho { $language } ka sepheo sa hao
        *[other] Thusa hore re fihlelle { $hours } dihora ho { $language } ka sepheo sa hao
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thusa Common Voice e fihlele { $hours } hora puong ka sepheo sa hao
        *[other] Thusa Common Voice e fihlele { $hours } dihora puong ka sepheo sa hao
     }
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hora e ka fihlellwang ka mora
-       *[other] { $totalHours } dihora tse ka fihlellwang ka mora
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } kgwedi haeba
-       *[other] { $periodMonths } dikgwedi haeba
-    }{ NUMBER($people) ->
-        [one] { $people } motho a rekota
-       *[other] { $people } batho ba rekota
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } clip ka letsatsi.
-       *[other] { $clipsPerDay } di-clip ka letsatsi.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
+                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
+                            }
+                    }
+            }
     }
 how-many-per-day = E ntle! Ke di-clip tse kae ka letsatsi?
 how-many-a-week = E ntle! Ke di-clip tse kae ka beke?
@@ -72,7 +119,7 @@ which-goal-type = Na o batla ho Bua, ho Mamela, kapa di le pedi?
 receiving-emails-info = Hajwale o se o ikemiseditse ho amohela di-email jwaloka dikgopotso tsa sepheo, dintlha tse ntjha ka tswelopele yaka le dikoranta mabapi le Common Voice
 not-receiving-emails-info = Hajwale o se o ikemiseditse ho <bold>ESENG</bold> ho fumana di-imeile jwalo ka dikgopotso tsa sepheo, dintlha tse ntjha ka tswelopele yaka le dikoranta mabapi le Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } di-clip
     }

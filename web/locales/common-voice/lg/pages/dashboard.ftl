@@ -41,31 +41,78 @@ finish-editing = Sooka omale by'okyuusa?
 lose-changes-warning = Okugenda kati kitegeeza nti ojja kufiirwa by'okyuusiza
 build-custom-goal = Teekawo ky'oluubirira
 help-reach-hours-pluralized =
-    Yamba okuweza{ NUMBER($hours) ->
-        [one] { $hours } essaawa
-       *[other] { $hours } ssaawa
-    } mu { $language }  n'ekiruubirirwa ekikyo
+    { $hours ->
+        [one] Yamba okuweza{ $hours } essaawa mu { $language }  n'ekiruubirirwa ekikyo
+       *[other] Yamba okuweza{ $hours } ssaawa mu { $language }  n'ekiruubirirwa ekikyo
+    }
 help-reach-hours-general-pluralized =
-    Yamba Common Voice okuweza{ NUMBER($hours) ->
-        [one] essaawa { $hours }
-       *[other] essaawa { $hours }
-    }mu lulimi n'ekiruubirirwa ekikyo.
+    { $hours ->
+        [one] Yamba Common Voice okuwezaessaawa { $hours }mu lulimi n'ekiruubirirwa ekikyo.
+       *[other] Yamba Common Voice okuwezaessaawa { $hours }mu lulimi n'ekiruubirirwa ekikyo.
+    }
 set-a-goal = Teekawo ekiruubirirwa
 cant-decide = Tosobola kusalawo?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] essaawa { $totalHours }
-       *[other] essaawa { $totalHours }
-    }esoboka mu { NUMBER($periodMonths) ->
-        [one] mwezi { $periodMonths }
-       *[other] myezi { $periodMonths }
-    }singa{ NUMBER($people) ->
-        [one] omuntu { $people }
-       *[other] abantu { $people }
-    }balikondinga{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } clip
-       *[other] { $clipsPerDay } clips
-    }olunaku.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
+                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
@@ -74,7 +121,7 @@ receiving-emails-info =
     wootuuse n'ebikwata ku Common Voice
 not-receiving-emails-info = Kaakano oteekeddwa ku <bold>BUTAFUNA</bold> email nga ezikujjukiza ku kiruubirirwa kyo, ebifa ku w'otuuse n'obubaka obukwata ku Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

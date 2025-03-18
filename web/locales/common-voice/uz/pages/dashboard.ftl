@@ -41,31 +41,78 @@ finish-editing = Dastlab, tahrirni tugatib olasizmi?
 lose-changes-warning = Hozir chiqsangiz, hech narsa saqlanmaydi
 build-custom-goal = Shaxsiy maqsadni yarating
 help-reach-hours-pluralized =
-    Oldingizga shaxsiy maqsadlar qoʻyish orqali { $language } tilida { $hours } soatli kontent yaratishga yordam bering{ NUMBER($hours) ->
-        [one] soat
-       *[other] soat
+    { $hours ->
+        [one] Oldingizga shaxsiy maqsadlar qoʻyish orqali { $language } tilida { $hours } soatli kontent yaratishga yordam beringsoat
+       *[other] Oldingizga shaxsiy maqsadlar qoʻyish orqali { $language } tilida { $hours } soatli kontent yaratishga yordam beringsoat
     }
 help-reach-hours-general-pluralized =
-    Common Voiceʼga ushbu tilda { NUMBER($hours) ->
-        [one] { $hours } soatli
-       *[other] { $hours } soatli
-    } maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
+    { $hours ->
+        [one] Common Voiceʼga ushbu tilda { $hours } soatli maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
+       *[other] Common Voiceʼga ushbu tilda { $hours } soatli maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
+    }
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } soatli kontentni
-       *[other] { $totalHours } soatli kontentni
-    }taxminan,{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } oy muddatda yakunlasa boʻladi
-       *[other] { $periodMonths } oy muddatda yakunlasa boʻladi
-    }agar{ NUMBER($people) ->
-        [one] { $people } ta odam
-       *[other] { $people } ta odam
-    }kuniga{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } ta ovoz
-       *[other] { $clipsPerDay } ta ovoz
-    }yozsa.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Ajoyib! Kuniga nechta klip?
 how-many-a-week = Ajoyib! Kuniga nechta klip?
 which-goal-type = Oʻqishni, tinglashni yoki ikkalasini ham xohlaysizmi?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Ayni paytda siz elektron pochta xabarlarini, masalan, maqsadli eslatmalarni, qabul qila olasiz
     Umumiy ovoz haqida yangiliklar va yangiliklar
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ta ovoz
        *[other] { $count } ta ovoz
     }

@@ -66,7 +66,7 @@ sentence-variant-select-label = Uqautchim Kutagniŋi
 sentence-variant-select-placeholder = Naliġagiñ Uqautchim Kutagniŋanik
 sentence-variant-select-multiple-variants = Uqautchiq / kutagniŋi
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ikukki <icon></icon> kiapayaaq atuġumiñaqtaŋi uqaluit

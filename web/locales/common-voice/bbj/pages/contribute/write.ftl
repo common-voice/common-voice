@@ -5,7 +5,6 @@ write-instruction = Cwɛp <icon></icon> ta' kâmghɔm yə guŋ pɔmnəŋ wɛ g�
 write-page-subtitle = Pú gɔ tǐ cwɛp Mkâmghɔm myə ô və tsɔ' á nə́ də̂ŋ guŋ pɔmnəŋ wɛ cyə̂ m nə́ ŋwà'nyə̀ nə́ byə̌ŋ cc-0.
 sentence =
     .label = ghɔm nə́ kyɛktə̀ mtò nwə̀
-sentence-input-value = Və̀ kâmghɔm yə guŋ pɔmnəŋ wə gɔ̌ ke á tsɔ'ɔ
 citation-input-placeholder = Cəŋtə́ da'tə́ tsʉ' yə ó də́ kâmghɔm tsʉ̌'ʉ tə̌m nə́ áa (Ó kuŋ ó kâ kuŋ)
 citation =
     .label = ghɔm nə́ kyɛktə̀ mtò nwə̀
@@ -30,7 +29,6 @@ required-field = Hɔ́ gɔ́ cú'nyə yəŋ tyɛ̌'tə
 single-sentence-submission = Nə́ cyâ kwî kâmghɔm
 bulk-sentence-submission = Nə́ cyâ və̀ŋ mkâmghɔm
 single-sentence = Kwî kâmghɔm
-bulk-sentences = Və̀ŋ mkâmghɔm
 sentence-domain-combobox-label = Thə́ ywə̀ yə kâmghɔm cɔ' nə́ áa
 sentence-domain-select-placeholder = Cí mthə́ ywə̀ mzhəŋ maə́tá
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Mkâmghɔm mcǐ dyɛ'
 sentence-variant-select-placeholder = Cí ta' cì kâmghɔm (ó ghə nə́  cyə̂tə ci)
 sentence-variant-select-multiple-variants = Guŋ mnwə̀ nə̀ ghɔm / vəŋ mcǐ mkâmghɔm
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Cyà <icon></icon> shə mkâmghɔm yə guŋ pɔmnəŋ wɛ gɔ̌ ke áa
@@ -89,3 +87,12 @@ file-invalid-type = Ywɛ' mcuŋ cwəpuŋ
 file-too-large = Ywɛ' mcuŋ yəŋgaə́ yɔm tɛ'
 file-too-small = Ywɛ' mcuŋ yəŋgaə́ kɔk tɛ'
 too-many-files = Mywɛ' mcuŋ yɔm gá'bʉ
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

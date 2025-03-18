@@ -39,7 +39,7 @@ how-many-per-day = Go hiontach! Cé mhéad gearrthóg in aghaidh an lae?
 how-many-a-week = Go hiontach! Cé mhéad gearrthóg in aghaidh na seachtaine?
 which-goal-type = Ar mhaith leat Labhairt, Éisteacht nó an dá rud?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] ghearrthóg amháin
         [two] ghearrthóg
         [few] ghearrthóg

@@ -8,4 +8,3 @@ file_too_large = Die ausgewählte Datei ist zu groß
 avatar-uploaded = Avatar hochgeladen
 max-file-size = Maximal { $kb } kb
 remove-avatar = Avatar entfernen
-

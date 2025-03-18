@@ -1,8 +1,5 @@
 contribute = Gumaacha
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

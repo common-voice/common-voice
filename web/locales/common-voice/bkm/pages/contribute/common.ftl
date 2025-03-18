@@ -27,11 +27,6 @@ target-segment-add-voice = Kfeynsɨ gɨ-a zɨ-à
 target-segment-learn-more = Fi ye'i ndu nɨ̀ awo a li-æ
 change-preferences = Kfɨnɨ awo ki a ghɨ koŋ
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ikumtɨ i gɨ-asɨ̀
-contribute-sentence-collection-nav-header = Ikumtɨ awo
-
 ## Reporting
 
 report = Iwo zɨ a wùl nì

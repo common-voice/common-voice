@@ -41,31 +41,78 @@ finish-editing = Eerst bewerking voltooien?
 lose-changes-warning = Door nu af te sluiten verliest u uw wijzigingen
 build-custom-goal = Een aangepast doel bouwen
 help-reach-hours-pluralized =
-    Help mee{ NUMBER($hours) ->
-        [one] { $hours } uur
-       *[other] { $hours } uur
-    }in het { $language } te bereiken met een persoonlijke doelstelling
+    { $hours ->
+        [one] Help mee{ $hours } uurin het { $language } te bereiken met een persoonlijke doelstelling
+       *[other] Help mee{ $hours } uurin het { $language } te bereiken met een persoonlijke doelstelling
+    }
 help-reach-hours-general-pluralized =
-    Help Common Voice{ NUMBER($hours) ->
-        [one] { $hours } uur
-       *[other] { $hours } uur
-    }in een taal te bereiken met een persoonlijke doelstelling
+    { $hours ->
+        [one] Help Common Voice{ $hours } uurin een taal te bereiken met een persoonlijke doelstelling
+       *[other] Help Common Voice{ $hours } uurin een taal te bereiken met een persoonlijke doelstelling
+    }
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } uur
-       *[other] { $totalHours } uur
-    }is bereikbaar in iets meer dan{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } maand
-       *[other] { $periodMonths } maanden
-    }als{ NUMBER($people) ->
-        [one] { $people } persoon
-       *[other] { $people } personen
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } fragment
-       *[other] { $clipsPerDay } fragmenten
-    }per dag opnemen
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
+                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
+                            }
+                    }
+            }
+    }
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Er is momenteel ingesteld dat u <bold>GEEN</bold> e-mailberichten zoals herinneringen aan doelen,
     updates over uw voortgang en nieuwsbrieven over Common Voice ontvangt
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } fragment
        *[other] { $count } fragmenten
     }

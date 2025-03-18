@@ -41,7 +41,7 @@ healthcare = ⵜⴰⴷⵓⵙⵉ
 # Sentence Domain dropdown option
 history_law_government = ⴰⵎⵣⵔⵓⵢ, ⴰⵣⵔⴼ ⴷ ⵜⵏⴱⴰⴹⵜ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ⵙⴽⵜⵔ <icon></icon> ⵜⵉⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ

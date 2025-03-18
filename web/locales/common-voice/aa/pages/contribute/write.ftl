@@ -18,8 +18,14 @@ general = Amolladi
 # Sentence Domain dropdown option
 healthcare = Qaafiyat dacayri
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 

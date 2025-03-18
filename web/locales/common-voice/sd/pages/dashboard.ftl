@@ -41,12 +41,12 @@ finish-editing = پهرين ترميم ختم ڪريو؟
 lose-changes-warning = ھاڻي ڇڏڻ جو مطلب آھي توھان پنھنجيون تبديليون وڃائي ويهندا
 build-custom-goal = هڪ حسب ضرورت مقصد ٺاهيو
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ذاتي مقصد سان { $hours } ڪلاڪ ۾ { $language } تائين پهچڻ ۾ مدد ڪريو
        *[other] ذاتي مقصد سان { $hours } ڪلاڪن تائين { $language } ۾ مدد ڪريو
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] مدد ڪريو عام آواز تائين پھچڻ ۾ { $hours } ڪلاڪ هڪ ٻولي ۾ ذاتي مقصد سان
        *[other] مدد ڪريو عام آواز تائين رسائي { $hours } ڪلاڪن ۾ هڪ ذاتي مقصد سان
     }
@@ -62,7 +62,7 @@ not-receiving-emails-info =
     توھان في الحال مقرر ڪيو ويو آھي <bold>NOT</bold> اي ميلون وصول ڪريو جيئن مقصد ياد ڏياريندڙ، منهنجي
     عام آواز جي باري ۾ پيش رفت تازه ڪاريون ۽ نيوز ليٽر
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ڪلپ
        *[other] { $count } ڪلپَ
     }

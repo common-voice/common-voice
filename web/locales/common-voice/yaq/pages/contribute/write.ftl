@@ -66,7 +66,7 @@ sentence-variant-select-label = Tabwi ta im Nooki jiawai po emo chupa’lame
 sentence-variant-select-placeholder = Tabwi ta im Nooki jiawai po emo chupa’lam ta yeu pua (junuen eateko)
 sentence-variant-select-multiple-variants = Nooki etejowame/ jaiki nook jiawaim ama emo chupa’lame
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nook jiawai jamutua lominio yoemia atte’ari kame.

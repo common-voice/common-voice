@@ -137,7 +137,6 @@ spontaneous-card-header = Llefaru Rhydd
 spontaneous-card-content = Ymateb i bromptiau i greu setiau data ar gyfer cyd-destunau llafar, organig. Perffaith ar gyfer ieithoedd llafar yn gyntaf.
 language-text-card-header = Testun Iaith
 language-text-card-content = Creu neu rannu promptiau parth cyhoeddus, brawddegau, a thestunau i'w cyfieithu, modelau iaith bychan, a mwy.
-coming-soon = Yn Dod yn Cyn Hir
 add-text = Ychwanegu Testun
 
 ## Community section

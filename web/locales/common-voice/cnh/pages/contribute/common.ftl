@@ -14,9 +14,6 @@ share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
 keep-track-profile = Profile in na tuah ciami vialte zoh ṭhan hna.
 login-to-get-started = Thoknak dingah LUT silole Na min pe
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Theihter

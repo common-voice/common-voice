@@ -35,7 +35,6 @@ thanks-for-account = Urakoze kuba wemeje konti yawe, reka dukore isura ndanga ya
 why-demographic = Kubera iki ibi ari ngombwa/ ari ingenzi?
 accept-privacy = Uburyo mwasobanuye muri poritiki zirebana n'amakuru bwite za Mizilla mukoreshamo aya makuru ndabwemera
 login-identity = Injiza irangamimerere
-login-signup = Injira
 edit = Kosora/ hindura
 email-subscriptions = Isaba ryo kohererezwa imeri.
 download-profile = Kumanura/ Manura imbonwa zinyerekeyeho

@@ -50,7 +50,6 @@ accept-privacy-title = Pribatutasun-politika
 accept-privacy-and-terms = Common Voice-n <termsLink>Baldintzak</termsLink> eta <privacyLink>Pribatutasun politika</privacyLink> onartzen ditut
 login-identity = Saioa hasteko identitatea
 login = Hasi saioa
-login-signup = Hasi saioa / Eman izena
 edit = Editatu
 email-subscriptions = Mezu elektronikoen harpidetzak
 download-profile = Deskargatu nire datuak

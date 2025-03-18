@@ -11,4 +11,3 @@ error-content-404 = Vielleicht hilft unsere <homepageLink>Startseite</ homepageL
 error-title-503 = Unsere Website ist unerwarteterweise nicht erreichbar.
 error-content-503 = Die Seite wird so schnell wie möglich wieder verfügbar sein. Die neuesten Informationen erhalten Sie im <matrixLink>Matrix-Community-Chat</matrixLink>. Nutzen Sie <githubLink>GitHub</githubLink> oder <discourseLink>unsere Discourse-Foren</discourseLink>, um Probleme mit der Website zu melden und Fehlerberichte zu lesen.
 error-code = Fehler { $code }
-

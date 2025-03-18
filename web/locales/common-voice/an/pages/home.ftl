@@ -123,7 +123,6 @@ spontaneous-card-header = Parla espontania
 spontaneous-card-content = Responde a las preguntas pa crear bases de datos pa contextos mas organicos y coloquials. Ye perfecta la luengas orals.
 language-text-card-header = Texto linguistico
 language-text-card-content = Crear u compartir preguntas d'o dominio publico, frases y texto pa traducción, modelos de luengache chicoz, y muito mas.
-coming-soon = Disponible luego
 add-text = Anyadir texto
 
 ## Community section

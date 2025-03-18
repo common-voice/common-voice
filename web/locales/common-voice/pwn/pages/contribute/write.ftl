@@ -8,7 +8,7 @@ citation =
 guidelines = tulek
 contact-us = padjadjaljudjaljun
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

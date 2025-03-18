@@ -42,7 +42,6 @@ accept-privacy-title = An Beartas Príobháideachais
 accept-privacy-and-terms = Glacaim le <termsLink>Téarmaí</termsLink> agus le <privacyLink>Fógra Príobháideachais</privacyLink> a bhaineann le Common Voice.
 login-identity = Aitheantas
 login = Sínigh Isteach
-login-signup = Logáil Isteach / Clárú
 edit = Eagar
 email-subscriptions = Síntiúis Ríomhphoist
 download-profile = Íoslódáil mo chuid sonraí

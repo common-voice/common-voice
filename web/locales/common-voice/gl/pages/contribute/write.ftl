@@ -66,7 +66,7 @@ sentence-variant-select-label = Variedade á que pertence a frase
 sentence-variant-select-placeholder = Seleccione unha variedade (opcional)
 sentence-variant-select-multiple-variants = Linguaxe xeral / múltiples variedades
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Envíe <icon></icon> frases de dominio público

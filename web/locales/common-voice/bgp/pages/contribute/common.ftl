@@ -30,11 +30,6 @@ target-segment-first-banner = کامن وائس ئے اولی ٹارگٹ سیگ�
 target-segment-add-voice = وثی گالوار ء آوار کن
 target-segment-learn-more = مزید پجار
 change-preferences = ترجیحات آں بدل کن
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = توار ء مچی
-contribute-sentence-collection-nav-header = گال ء مچی
 login-signup = لاگ ان/ سائن اپ
 vote-yes = ھو
 vote-no = چن آں

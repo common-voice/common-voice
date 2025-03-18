@@ -30,11 +30,6 @@ target-segment-first-banner = Kay wur ma caa sɛgma po ɓil Common Voice de { $l
 target-segment-add-voice = Haa gẽẽge ɓɔ
 target-segment-learn-more = Sãy kid wɛr wããre ni puri
 change-preferences = Coo doga à co jag ɓɔ nono
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Targe gẽẽge
-contribute-sentence-collection-nav-header = targe gẽẽge jar
 login-signup = Kal ɓil/Caa daŋte
 vote-yes = A̧a̧
 vote-no = Baywà

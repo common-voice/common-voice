@@ -66,7 +66,7 @@ sentence-variant-select-label = تم سیری تم تھل
 sentence-variant-select-placeholder = تم تھل چک غدوم یری مرضیکھہ
 sentence-variant-select-multiple-variants = ہرمق سکت/ تم تھل کن
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ہمرمق سیری تم کن اپ لوڈ بیوس

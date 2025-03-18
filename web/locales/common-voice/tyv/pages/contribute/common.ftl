@@ -2,9 +2,6 @@ contribute = Үлүг киирер
 speak-empty-state-cta = Домактар саналдаар
 target-segment-first-banner = Common Voice-ка { $locale } черге баштайгы сорулга сегментизин тургузуп алырынга дузалажыңар
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report-grammar-or-spelling = Грамматиктиг / орфографтыг частырыг

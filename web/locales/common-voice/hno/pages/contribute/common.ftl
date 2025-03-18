@@ -30,11 +30,6 @@ target-segment-first-banner = کامن وائس دا پہلا ہدف حصہ بن
 target-segment-add-voice = اپنڑی آواز شامل کرو
 target-segment-learn-more = مزید سکھو
 change-preferences = ترجیحات بدلو
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = آوازاں دا مجموعہ
-contribute-sentence-collection-nav-header = جُملیاں دا مجموعہ
 login-signup = لاگ ان/ سائن اپ
 vote-yes = ہاں
 vote-no = ناں

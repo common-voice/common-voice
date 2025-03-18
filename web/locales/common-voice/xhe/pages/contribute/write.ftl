@@ -66,7 +66,7 @@ sentence-variant-select-label = ڳالھ وار تا لہجہ
 sentence-variant-select-placeholder = ہِک لہجہ چُݨ (اختیاری)
 sentence-variant-select-multiple-variants = عام ٻولی / گھݨے لہجے
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon>عوامی ڈومین ڳالھ وارینک اپ لوڈ کر

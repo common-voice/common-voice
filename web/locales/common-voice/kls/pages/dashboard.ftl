@@ -41,72 +41,72 @@ finish-editing = Awel warek kay kari khulai?
 lose-changes-warning = Shonja pe ahisti haw, kia ki tabdili kay as, te d'um hin
 build-custom-goal = Tay mi marzi una warek nishan kari
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ek
        *[other] Warek
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ek
        *[other] warek
     }
 set-a-goal = Nishan, Goal sawzai
 cant-decide = Faisala ne ari?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = Tu mon dek, ya o ko'n' karik khojis day e, yao awdu?
 receiving-emails-info = Email zalik, mushkilat, taklif, yat karikas, no'a min, khabar en sawin awaz una
 not-receiving-emails-info = A bo khoshan thi kia ki yat dihani shian, taraki shian, no'a mon, khabar, asta pe shian haw sawin awaz
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] Ek
        *[other] warek
     }

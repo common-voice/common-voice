@@ -31,7 +31,7 @@ add-sentence-error = Faddina in s'agiunta de sa fràsia
 required-field = Cumpila custu campu.
 single-sentence-submission = Imbiu de una fràsia isceti
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 file-too-large = S’archìviu est tropu mannu
 file-too-small = S’archìviu est tropu piticu

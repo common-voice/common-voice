@@ -55,7 +55,6 @@ accept-privacy-title = Chike matayo weche ma ng'ato owuon
 accept-privacy-and-terms = Ayie luwo <termsLink> chike duto </termsLink> mag Commom Voice kod <privacyLink>chike matayo weche ma ng'ato owuon</privacyLink>
 login-identity = Nying mafwenyo ng'ato
 login = Donji
-login-signup = Donji
 edit = Lok
 email-subscriptions = Donjoe yudo weche kokalo barup mbui
 download-profile = Golo weche mawuoyo kuoma

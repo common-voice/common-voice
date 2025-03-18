@@ -19,7 +19,7 @@ required-field = Udfyld venligst dette felt.
 single-sentence = Enkelt sætning
 sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 sc-bulk-upload-instruction = Træk din fil hertil eller <uploadButton>klik for at uploade</uploadButton>
 sc-bulk-upload-instruction-drop = Slip filen her for at uploade
@@ -39,3 +39,12 @@ file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
 too-many-files = For mange filer
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -123,7 +123,6 @@ spontaneous-card-header = Testu ispontàneu
 spontaneous-card-content = Risponde a inditos pro creare pachetes de datos pro cuntestos orgànicos e collochiales. Perfetu pro limbas cun una traditzione orale forte.
 language-text-card-header = Testos in sa limba
 language-text-card-content = Crea o cumpartzi preguntas de domìniu pùblicu, fràsias e testu pro sa tradutzione, modellos piticos de limba e àteru.
-coming-soon = Luego
 add-text = Agiunghe testos
 
 ## Community section

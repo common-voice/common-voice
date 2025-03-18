@@ -41,38 +41,85 @@ finish-editing = Të përfundohet përpunimi së pari?
 lose-changes-warning = Largimi tani do të thotë se do të humbni ndryshimet tuaja
 build-custom-goal = krijoni një objektiv vetjak
 help-reach-hours-pluralized =
-    Ndihmonani të arrijmë{ NUMBER($hours) ->
-        [one] { $hours } orë
-       *[other] { $hours } orë
-    } në { $language }, përmes një objektivi personal
+    { $hours ->
+        [one] Ndihmonani të arrijmë{ $hours } orë në { $language }, përmes një objektivi personal
+       *[other] Ndihmonani të arrijmë{ $hours } orë në { $language }, përmes një objektivi personal
+    }
 help-reach-hours-general-pluralized =
-    Ndihmojeni Common Voice-in të arrijë{ NUMBER($hours) ->
-        [one] { $hours } orë
-       *[other] { $hours } orë
-    } për një gjuhë, përmes një objektivi personal.
+    { $hours ->
+        [one] Ndihmojeni Common Voice-in të arrijë{ $hours } orë për një gjuhë, përmes një objektivi personal.
+       *[other] Ndihmojeni Common Voice-in të arrijë{ $hours } orë për një gjuhë, përmes një objektivi personal.
+    }
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } orë
-       *[other] { $totalHours } orë
-    } mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } muaj
-       *[other] { $periodMonths } muaj
-    } nëse{ NUMBER($people) ->
-        [one] { $people } person
-       *[other] { $people } vetë
-    } incizojnë { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } copë
-       *[other] { $clipsPerDay } copa
-    } në ditë.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
+                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
 receiving-emails-info = Keni caktuar të merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
 not-receiving-emails-info = Keni caktuar të <bold>MOS</bold> merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } copëz
        *[other] { $count } copëza
     }

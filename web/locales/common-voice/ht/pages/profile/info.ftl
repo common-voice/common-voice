@@ -52,7 +52,6 @@ accept-privacy-title = Règleman sou enfòmasyon prive
 accept-privacy-and-terms = Mwen dakò ak <termsLink>Kondisyon</termsLink> ak <privacyLink>Avi sou enfòmasyon prive</privacyLink> Common Voice.
 login-identity = Idantite Kredansyèl
 login = Ouvri sesyon an
-login-signup = Konekte / Enskri
 edit = Modifye
 email-subscriptions = Abònman Imèl
 download-profile = Telechaje Done mwen yo

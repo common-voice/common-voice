@@ -29,11 +29,6 @@ target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwa
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
 change-preferences = Snifel ismenyifen
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Alqaḍ n tuɣac
-contribute-sentence-collection-nav-header = Alqaḍ n tefyar
 login-signup = Kcem / Jerred
 vote-yes = Ih
 vote-no = Ala

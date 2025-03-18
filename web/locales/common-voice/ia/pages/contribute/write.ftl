@@ -66,7 +66,7 @@ sentence-variant-select-label = Variante del phrase
 sentence-variant-select-placeholder = Elige un variante (optional)
 sentence-variant-select-multiple-variants = Lingua general / plure variantes
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Inviar <icon></icon> phrases de dominio public

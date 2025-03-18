@@ -31,11 +31,6 @@ target-segment-add-voice = hokku daane ma
 target-segment-learn-more = ɓeyde annugo
 change-preferences = wattirgo ko yiɗaa
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = kawritol daaɗe
-contribute-sentence-collection-nav-header = kawritol konŋe
-
 ## Reporting
 
 report = maatingo

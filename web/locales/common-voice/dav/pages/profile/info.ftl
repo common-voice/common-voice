@@ -56,7 +56,6 @@ accept-privacy-title = Sera relindia Maza ra Kiviso
 accept-privacy-and-terms = Narumiriana na <termsLink>Tamzi</termsLink> na <privacyLink>Maeleshero gha Maza ra Kiviso</privacyLink>
 login-identity = Uhu Nani
 login = Kungia
-login-signup = Kungia / Kurejesta
 edit = Kughalusa
 email-subscriptions = Kudumilwagha Imeili
 download-profile = Budua Data Yapo

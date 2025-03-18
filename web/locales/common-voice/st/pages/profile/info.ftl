@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Dintlha tsa mosebedisi tse sa tsebahaleng jwalok
 accept-privacy = Ke dumellana le ha o sebetsana le dintlha tsena kamoo o hlalosang kateng ho <privacyLink>Leano la Lekunutu la Mozilla</privacyLink>
 accept-privacy-title = Leano la Lekunutu
 login-identity = Boitsebiso ba ho Kena
-login-signup = Kena / Ngodisa
 edit = Lokisa
 email-subscriptions = Dipeeletso tsa Imeile
 download-profile = Download-a Data ya Ka

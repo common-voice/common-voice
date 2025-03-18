@@ -75,6 +75,7 @@ read-more-about = Les meir på Om oss-sida vår
 
 ## NAV ITEMS
 
+answer-questions = Svar på spørsmål
 add-questions = Legg til spørsmål
 coming-soon = Kjem snart
 

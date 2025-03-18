@@ -41,30 +41,77 @@ finish-editing = Voltooi eers die redigering?
 lose-changes-warning = As jy nou uitgaan, sal jy jou vordering verloor
 build-custom-goal = Bou 'n pasgemaakte doelwit
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] uur
        *[other] ure
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] uur
        *[other] ure
     }
 set-a-goal = Stel 'n doelwit
 cant-decide = Kan jy nie besluit nie?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] uur is bereikbaar in net meer as
-       *[other] ure is bereikbaar in net meer as
-    }{ NUMBER($periodMonths) ->
-        [one] maand as
-       *[other] maande as
-    }{ NUMBER($people) ->
-        [one] persoon opgeneem
-       *[other] persone opgeneem
-    }{ NUMBER($clipsPerDay) ->
-        [one] snit per dag.
-       *[other] snitte per dag.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] uur is bereikbaar in net meer asmaand aspersoon opgeneemsnit per dag.
+                               *[other] uur is bereikbaar in net meer asmaand aspersoon opgeneemsnitte per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] uur is bereikbaar in net meer asmaand aspersone opgeneemsnit per dag.
+                               *[other] uur is bereikbaar in net meer asmaand aspersone opgeneemsnitte per dag.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] uur is bereikbaar in net meer asmaande aspersoon opgeneemsnit per dag.
+                               *[other] uur is bereikbaar in net meer asmaande aspersoon opgeneemsnitte per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] uur is bereikbaar in net meer asmaande aspersone opgeneemsnit per dag.
+                               *[other] uur is bereikbaar in net meer asmaande aspersone opgeneemsnitte per dag.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] ure is bereikbaar in net meer asmaand aspersoon opgeneemsnit per dag.
+                               *[other] ure is bereikbaar in net meer asmaand aspersoon opgeneemsnitte per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] ure is bereikbaar in net meer asmaand aspersone opgeneemsnit per dag.
+                               *[other] ure is bereikbaar in net meer asmaand aspersone opgeneemsnitte per dag.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] ure is bereikbaar in net meer asmaande aspersoon opgeneemsnit per dag.
+                               *[other] ure is bereikbaar in net meer asmaande aspersoon opgeneemsnitte per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] ure is bereikbaar in net meer asmaande aspersone opgeneemsnit per dag.
+                               *[other] ure is bereikbaar in net meer asmaande aspersone opgeneemsnitte per dag.
+                            }
+                    }
+            }
     }
 how-many-per-day = Puik! Hoeveel snitte per dag?
 how-many-a-week = Puik! Hoeveel snitte per week?
@@ -72,7 +119,7 @@ which-goal-type = Wil jy Praat, Luister of albei?
 receiving-emails-info = Jy is tans aangeteken om e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice te ontvang.
 not-receiving-emails-info = Jy is nie tans aangeteken om e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice te ontvang nie.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] snit
        *[other] snitte
     }

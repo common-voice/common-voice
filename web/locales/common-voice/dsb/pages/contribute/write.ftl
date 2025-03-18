@@ -66,7 +66,7 @@ sentence-variant-select-label = Sadowa warianta
 sentence-variant-select-placeholder = Wubjeŕśo wariantu (na žycenje)
 sentence-variant-select-multiple-variants = Powšykna rěc / někotare warianty
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywabne sady

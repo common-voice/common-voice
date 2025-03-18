@@ -26,11 +26,6 @@ target-segment-first-banner = Auta luomaan Common Voicen ensimmäinen kohdesegme
 target-segment-add-voice = Lisää äänesi
 target-segment-learn-more = Lue lisää
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Äänikokoelma
-contribute-sentence-collection-nav-header = Virkekokoelma
-
 ## Reporting
 
 report = Raportoi

@@ -41,72 +41,72 @@ finish-editing = ایڈیکنگ اول ختم تھ نا۔
 lose-changes-warning = تیپہ چھوریل مطلب ان اں تو تانی بدلاگال پا باییلون
 build-custom-goal = ا رواجی ٹارگٹ  تراج
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] مدد پشیل۔۔۔۔۔۔۔۔۔۔گنٹا می۔۔۔۔۔۔۔۔۔تا مقصد کیر
        *[other] مددپشیل۔۔۔۔۔۔۔۔۔۔گنٹا۔می۔۔۔۔۔۔۔۔۔مقصد  اے°کیر
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کامنوایس ا جیب می ذاتی ا مقصد کیرمدد تہ
        *[other] کامن وایس مدد تہ ا جیب می ذاتی ا مقصد ا ےکیر۔۔۔۔۔۔
     }
 set-a-goal = ا۔مقصدنخ۔تا
 cant-decide = گیبی بام نہ لاد
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = تو۔منونہ بجونہ یا دوا آ تی
 receiving-emails-info = اوں ؤخ رل تی کارای میل رشیل لخہ،مقصد یاد رشیل،تا نی پراگرس نم تالنالیل،تے کامن وایسبارہمی خطونی
 not-receiving-emails-info = اوں ٹیم رل تی کار ان اںای میل نہ گین لخہ،می پراگرس نوم بال،تے کامن وایس بارا می خبرونو ام خطونی
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] کلپس
        *[other] کٹر
     }

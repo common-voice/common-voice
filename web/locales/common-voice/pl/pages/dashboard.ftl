@@ -41,37 +41,220 @@ finish-editing = Dokończyć najpierw modyfikację?
 lose-changes-warning = Opuszczenie teraz spowoduje utratę zmian
 build-custom-goal = Utwórz własny cel
 help-reach-hours-pluralized =
-    Pomóż osiągnąć { NUMBER($hours) ->
-        [one] { $hours } godzinę
-        [few] { $hours } godziny
-       *[many] { $hours } godzin
-    } w tym języku ({ $language }) za pomocą osobistego celu
+    { $hours ->
+        [one] Pomóż osiągnąć { $hours } godzinę w tym języku ({ $language }) za pomocą osobistego celu
+        [few] Pomóż osiągnąć { $hours } godziny w tym języku ({ $language }) za pomocą osobistego celu
+       *[many] Pomóż osiągnąć { $hours } godzin w tym języku ({ $language }) za pomocą osobistego celu
+    }
 help-reach-hours-general-pluralized =
-    Pomóż projektowi Common Voice osiągnąć { NUMBER($hours) ->
-        [one] { $hours } godzinę
-        [few] { $hours } godziny
-       *[many] { $hours } godzin
-    } w jednym z języków za pomocą osobistego celu
+    { $hours ->
+        [one] Pomóż projektowi Common Voice osiągnąć { $hours } godzinę w jednym z języków za pomocą osobistego celu
+        [few] Pomóż projektowi Common Voice osiągnąć { $hours } godziny w jednym z języków za pomocą osobistego celu
+       *[many] Pomóż projektowi Common Voice osiągnąć { $hours } godzin w jednym z języków za pomocą osobistego celu
+    }
 set-a-goal = Ustal cel
 cant-decide = Nie możesz się zdecydować?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } godzinę
-        [few] { $totalHours } godziny
-       *[many] { $totalHours } godzin
-    } można osiągnąć w nieco ponad { NUMBER($periodMonths) ->
-        [one] { $periodMonths } miesiąc
-        [few] { $periodMonths } miesiące
-       *[many] { $periodMonths } miesięcy
-    }, jeśli { NUMBER($people) ->
-        [one] { $people } osoba
-        [few] { $people } osoby
-       *[many] { $people } osób
-    } wyśle { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } nagranie
-        [few] { $clipsPerDay } nagrania
-       *[many] { $clipsPerDay } nagrań
-    } dziennie.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzinę można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godziny można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+            }
+       *[many]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiąc, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesiące, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoba wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osoby wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagranie dziennie.
+                                [few] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagrania dziennie.
+                               *[many] { $totalHours } godzin można osiągnąć w nieco ponad { $periodMonths } miesięcy, jeśli { $people } osób wyśle { $clipsPerDay } nagrań dziennie.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Świetnie! Ile nagrań dziennie?
 how-many-a-week = Świetnie! Ile nagrań tygodniowo?
 which-goal-type = Czy chcesz nagrywać, odsłuchiwać czy wykonywać oba działania?
@@ -82,7 +265,7 @@ not-receiving-emails-info =
     Obecnie <bold>nie</bold> otrzymujesz wiadomości e-mail, takich jak przypomnienia o celach,
     informacje o postępie oraz biuletyny na temat Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } nagranie
         [few] { $count } nagrania
        *[many] { $count } nagrań

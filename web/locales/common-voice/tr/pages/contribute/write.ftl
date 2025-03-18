@@ -66,7 +66,7 @@ sentence-variant-select-label = Cümlenin lehçesi
 sentence-variant-select-placeholder = Bir lehçe seçin (isteğe bağlı)
 sentence-variant-select-multiple-variants = Genel dil / birden fazla lehçe
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>

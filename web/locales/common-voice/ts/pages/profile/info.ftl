@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Data ya vatirhisi leyi nga fihliwa yo fana na ma
 accept-privacy = Swi ndzi khoma kahle loko vuxokoxoko lebyi byi fambisiwa hi wena tanihileswi u hlamuselaka eka <privacyLink>Pholisi ya Xihundla</privacyLink> ya Mozilla.
 accept-privacy-title = Pholisi ya Vuhlayiseki bya Swilo swa Xihundla
 login-identity = Vutivi bya ku Nghena
-login-signup = Nghena / Tsarisa
 edit = Hlela
 email-subscriptions = Swikhokhelo swa Imeyili
 download-profile = Downloada rungula Ra Mina

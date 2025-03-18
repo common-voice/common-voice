@@ -122,7 +122,6 @@ spontaneous-card-header = Hik dam ćaġa bar
 spontaneous-card-content = Ćaġa bar damaagusasinar nusenin midigaarum bariṇulo  datase desmanin. Girminas, ġatanas apim baaṣine gane dumanum bila.
 language-text-card-header = Baṣe ćaġa bar
 language-text-card-content = Uyoone barenas diśanulo ćaġa bar doogusasiṅ, jumlan daa, tarjumar text, daa jutiṅ baaśe models desmanin daa emasin.
-coming-soon = Chor diya.
 add-text = Text jama etin.
 
 ## Community section

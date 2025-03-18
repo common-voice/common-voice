@@ -4,7 +4,7 @@ write = Piši
 sentence =
     .label = Stavek
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

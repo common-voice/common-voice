@@ -31,11 +31,6 @@ target-segment-first-banner = ናይ ኮመን ቮይስ ቀዳማይ ክፋል 
 target-segment-add-voice = ድምጽኻ ኣእትው
 target-segment-learn-more = ተወሳኺ ሓበሬታ
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ምእካብ ድምጺ
-contribute-sentence-collection-nav-header = መአከቢ ሙሉእ ሓሳባት
-
 ## Reporting
 
 report = ሓበሬታ

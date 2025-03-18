@@ -120,7 +120,6 @@ spontaneous-card-header = 即兴发言
 spontaneous-card-content = 回答引导语，打造自然的口语语境数据集。非常适合以口语为主的语言。
 language-text-card-header = 语言文本
 language-text-card-content = 为翻译、小型语言模型等项目，创建或分享处于公有领域的引导语、语句、文本。
-coming-soon = 即将推出
 add-text = 添加文本
 
 ## Community section

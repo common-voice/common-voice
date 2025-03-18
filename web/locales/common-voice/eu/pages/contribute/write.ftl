@@ -4,7 +4,6 @@ write = Idatzi
 write-page-subtitle = Hemen gehitutako esaldiak publikoki eskuragarriak izango dira cc-0 lizentzia duen datu-sorta batean.
 sentence =
     .label = Esaldia
-sentence-input-value = Sartu jabetza publikoko zure esaldia hemen
 citation =
     .label = Aipua
 sc-write-submit-confirm = Esaldi hau <wikipediaLink>jabetza publikoan</wikipediaLink> dagoela eta berau igotzeko baimena dudala baieztatzen dut.
@@ -24,6 +23,15 @@ contact-us = Jarri gurekin harremanetan
 add-sentence-success = Esaldi 1 bilduta
 add-sentence-error = Errorea esaldia gehitzean
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 sc-bulk-submit-confirm = Esaldi hauek <wikipediaLink>jabetza publikoan</wikipediaLink> daudela eta berauok igotzeko baimena dudala baieztatzen dut.
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

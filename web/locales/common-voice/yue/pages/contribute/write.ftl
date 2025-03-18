@@ -23,7 +23,7 @@ news_current_affairs = 新聞時事
 technology_robotics = 技術機械
 sentence-variant-select-label = 句子變體
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 file-invalid-type = 無效文件
 file-too-large = 文件太大

@@ -45,7 +45,6 @@ why-demographic-explanation-2 = Yosh, jins yoki sheva kabi anonim holdagi foydal
 accept-privacy = <privacyLink>Maxfiylik siyosati</privacyLink>da keltirilgan bandlarga roziman.
 accept-privacy-title = Maxfiylik siyosati
 login-identity = Kirish uchun identifikator
-login-signup = Kirish/Roʻyxatdan oʻtish
 edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish

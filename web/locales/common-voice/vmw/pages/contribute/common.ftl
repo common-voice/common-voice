@@ -28,11 +28,6 @@ target-segment-first-banner = Mukhaliherye wiira epakiwe mmpantte opacerya  okwe
 target-segment-add-voice = Muhele nsu nanyu
 target-segment-learn-more = Musuwela tho
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ottottela nsu
-contribute-sentence-collection-nav-header = Wuuraana wa malove
-
 ## Reporting
 
 report = Olepa

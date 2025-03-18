@@ -126,7 +126,6 @@ spontaneous-card-header = Spontánní řeč
 spontaneous-card-content = Reagujte na výzvy k vytvoření datových sad pro organické, hovorové kontexty. Ideální pro první ústní jazyky.
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvářejte nebo sdílejte veřejné výzvy, věty a texty pro překlad, malé jazykové modely a další.
-coming-soon = Již brzy
 add-text = Přidat text
 
 ## Community section

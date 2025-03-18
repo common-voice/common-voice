@@ -5,7 +5,6 @@ write-instruction = Ɓo' <icon></icon> wããre ma de maŋge se ŋgaɓa
 write-page-subtitle = Wããre ma de laage lan jɔŋge wɔ de sa'ge de jag liŋgi cc-0
 sentence =
     .label = wããre jobo
-sentence-input-value = Yɛr wããre ɓɔ ma de maŋge se ŋgaɓan la
 citation-input-placeholder = Ŋgaɓ ŋgel maaga wããre alɛ ni (Sɛn diŋ dɔɔle)
 citation =
     .label = wããre jobo
@@ -30,7 +29,6 @@ required-field = Daga ndɔ mo yɛr gɔ ti karé ma ta' no
 single-sentence-submission = Ɓɔ' sra'ge wããre bɔŋ tusɛŋ
 bulk-sentence-submission = Ɓɔ' sra'ge wããre wɔ le pur
 single-sentence = Sra'ge wããre bɔŋ tusɛŋ
-bulk-sentences = Sra'ge wããre wɔ puri
 sentence-domain-combobox-label = Ɓaŋ wããre sɛno
 sentence-domain-select-placeholder = Faŋ ɓaŋre wɛr fẽẽre po haa swa'a
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Wɛr wããre ma sarsare
 sentence-variant-select-placeholder = Maŋ wɛr wããre po bɔŋ( sɛn bay dɔɔle wà)
 sentence-variant-select-multiple-variants = Humlum wããre ti
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ɓɔ' <icon></icon> wããre ma tayge se ŋgaɓa
@@ -89,3 +87,12 @@ file-invalid-type = kɛftɛr ma de bay wɔɔrɛ
 file-too-large = kɛftɛrn raw põõge debaŋ
 file-too-small = kɛftɛrn pẽẽ go klee debaŋ
 too-many-files = Kɛftɛrn raw wɔ  ŋgaɓa
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

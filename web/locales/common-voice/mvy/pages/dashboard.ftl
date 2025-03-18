@@ -41,12 +41,12 @@ finish-editing = اول گی غلطی ملطی تھی کھئیں سئیں نھا
 lose-changes-warning = ہِئیں پھت کرے بییوں مطلب ݜُو تھی چہ تئیں کریل کام لاء بَݜَت۔
 build-custom-goal = تَئیں مرضئیں نخ سن٘دہ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] مدد کرہ{ $hours } گھین٘ٹوں مہ  { $language }ذاتی مقصد یا نخ ہار ڇیلئیں مہ۔
        *[other] مدد کرہ{ $hours } گھین٘ٹوں مہ  { $language }ذاتی مقصد یا نخ ہار ڇیلئیں مہ۔
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کامن وائسَیں مدد کرہ لہ ذاتی مقصدے ڇېلَیں مِشارو اُو اېک ژِبہۡ کہ مہ { $hours } گېن٘ٹیُوں ڇېل
        *[other] کامن وائسَیں مدد کرہ لہ ذاتی مقصدے ڇېلَیں مِشارو اُو اېک ژِبہۡ کہ مہ { $hours } گېن٘ٹیُوں ڇېل
     }
@@ -59,7 +59,7 @@ which-goal-type = توۡ منئیں غرضی تُھو، گی ݜُن٘وَئیں 
 receiving-emails-info = تِگے ہِئیں کامن وائیس پروگرامہ نہ ایمیل، کماں بارہ مہ بگ نئی تازا تے خبرنامہ اِݜِتِی۔
 not-receiving-emails-info = تِئیں ہِیانٚک سٹنٚگ <bold> نہ </bold> ݜے تُھو چہ تگے تاں نخاں بارہ مہ یاد دہانی، کماں بارہ مہ نئ تازا تے خبرنامہ کامن وائیس پروگرامئیں طرفی نہ اِݜتِی۔
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }کٹرُو
        *[other] { $count }کٹرو
     }

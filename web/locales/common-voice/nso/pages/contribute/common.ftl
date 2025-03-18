@@ -28,9 +28,6 @@ target-segment-first-banner = Re thuše re bope nepo ya karolo ya mathomo ya Com
 target-segment-add-voice = Tsenya Lentšu la Gago
 target-segment-learn-more = Ithute ka mo go oketšegilego
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Pego

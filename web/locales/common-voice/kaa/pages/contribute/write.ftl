@@ -28,7 +28,7 @@ nature_environment = Тәбият ҳәм қоршаған орталық
 # Sentence Domain dropdown option
 technology_robotics = Технология ҳәм робототехника
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 bulk-upload-additional-information = Егер бул файл ҳаққында қосымша мағлыўмат бериўди қәлесеңиз, өтиниш, биз бенен байланысың <emailFragment>commonvoice@mozilla.com</emailFragment>
 select-file = Файлды таңлаң
@@ -39,3 +39,12 @@ file-invalid-type = Жарамсыз файл
 file-too-large = Файл жүдә үлкен
 file-too-small = Файл жүдә кишкене
 too-many-files = Жүдә көп файл
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

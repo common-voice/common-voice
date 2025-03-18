@@ -35,60 +35,60 @@ pro-difficulty = Iэзэ
 build-custom-goal = Езым уи мурадыр зыхуэгъэув
 cant-decide = Унафэ фыхъуркъэ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                                *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
                             }

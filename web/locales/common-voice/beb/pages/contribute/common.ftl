@@ -29,11 +29,6 @@ target-segment-first-banner = à kamlâ à bonì ìnə   də̀m mətə̀ra�
 target-segment-add-voice = à və̀ kìŋ yòŋ
 target-segment-learn-more = màm mə lɛm
 change-preferences = à sɛnsì ìmì wɔ̄ àtàm
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = à kɔ̄ŋàŋ mə̀kìŋ
-contribute-sentence-collection-nav-header = à kɔ̄ŋaŋ bìbùk
 login-signup = À də̄m ìtə/À tìlbəŋ ìtə
 vote-yes = ìhīŋ
 vote-no = Ǎyì

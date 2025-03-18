@@ -26,11 +26,6 @@ target-segment-first-banner = Kuned insu nuku dae ne'e din nomnó no Common Voic
 target-segment-add-voice = Kuned nudud
 target-segment-learn-more = Ne'e ta tae información
 change-preferences = Nandod chi eanud
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Nukue nudu
-contribute-sentence-collection-nav-header = Nubdama nuduñ
 login-signup = Kunod/Kunedjud
 vote-yes = Tika
 vote-no = Gua

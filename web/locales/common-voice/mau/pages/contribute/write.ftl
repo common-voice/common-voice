@@ -66,7 +66,7 @@ sentence-variant-select-label = kja'é skuya nijmí
 sentence-variant-select-placeholder = Chja'ajin jngu skuya
 sentence-variant-select-multiple-variants = Énn naa/ nkjin skuya
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Tikijin énn
@@ -140,3 +140,9 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = Kui chuba ti'in tjingui “¿jmé nijmí kuan s'ejinsa?”
 small-batch-sentences-rule-2 = Jngu nijmí nga jngu dinya s'ejin
 small-batch-sentences-rule-3 = Tinyat'axín nijmí jngu ndiyá nga'an jngú, kua jngu ndiyá tjatiye.
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

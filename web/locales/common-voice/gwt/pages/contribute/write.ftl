@@ -66,7 +66,7 @@ sentence-variant-select-label = کَلاوَنہ بدل بِیاوَہ
 sentence-variant-select-placeholder = یَک قسمہ منتخب کېرَہ(اختیاری)
 sentence-variant-select-multiple-variants = عام باتی/ لَؤتغیر
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومېنَنَہ کَلاوَہ<icon></icon> اپلوڈ کېرِؤ

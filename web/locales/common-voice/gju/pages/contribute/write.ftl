@@ -66,7 +66,7 @@ sentence-variant-select-label = مختلف فقرا
 sentence-variant-select-placeholder = مختلف پسند کرو (اختیاری )
 sentence-variant-select-multiple-variants = عام زبان /مختلف ،تبدیلی
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپلوڈ کروں <icon>پبلک کا ڈومین کو فقرو </icon>

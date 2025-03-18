@@ -51,7 +51,6 @@ accept-privacy-title = Конфиденциалондзинады политик
 accept-privacy-and-terms = Ӕз разы дӕн Common Voice-ы <termsLink>Домӕнтӕ</termsLink> ӕмӕ <privacyLink>Конфиденционалондзинады тыххæй фиппаинагимӕ</privacyLink>
 login-identity = Бацæуынæн идентификатор
 login = Бацӕуӕн
-login-signup = Бацæуæн / Регистраци
 edit = Баив
 email-subscriptions = Эл. посты ууылты дӕхи бафысс
 download-profile = Равгæнын мæ рардтæ.

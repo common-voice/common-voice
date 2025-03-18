@@ -51,7 +51,6 @@ accept-privacy-title = פריוואטקייט פארשריפטן
 accept-privacy-and-terms = איך בין איינשטימיג מיט קאמאן וואויס'ס <termsLink> טערמינען </termsLink> און <privacyLink> פריוואטקייט נאטיץ</privacyLink>
 login-identity = אריינשרייבונג אידענטיטעט
 login = ארייבשרייבונג
-login-signup = שרייבט אייך אריין\שרייבט אייך אויף
 edit = פאררעכט
 download-profile = לאדנט אראפ מיין דאטא
 contribution-experience = ביישטייערונג ערפארונג
