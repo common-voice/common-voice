@@ -49,7 +49,6 @@ accept-privacy-title = గోప్యతా విధానం
 accept-privacy-and-terms = నేను కామన్ వాయిస్ <termsLink>నిబంధనలు</termsLink> మరియు <privacyLink>గోప్యతా ప్రకటన</privacyLink>కి అంగీకరిస్తున్నాను
 login-identity = లాగిన్ గుర్తింపు
 login = లాగ్ ఇన్
-login-signup = ప్రవేశం / నమోదు
 edit = సరిచేయు
 email-subscriptions = ఈమెయిలు చందాలు
 download-profile = మీ డేటాను దింపుకోండి

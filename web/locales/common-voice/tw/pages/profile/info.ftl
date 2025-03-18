@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Anonymized user data like age, gender, and accen
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Privacy Policy
 login-identity = Login Identity
-login-signup = Log In / Sign Up
 edit = Edit
 email-subscriptions = Email Subscriptions
 download-profile = Download My Data

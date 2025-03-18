@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Los datos de usuario anónimos, como la edad, el
 accept-privacy = Estoy de acuerdo con que se maneje esta información como se explica en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
 accept-privacy-title = Política de privacidad
 login-identity = Identidad de inicio de sesión
-login-signup = Iniciar sesión / Inscribirse
 edit = Editar
 email-subscriptions = Subscripcion de correo electronico
 download-profile = Descargar Mis Datos

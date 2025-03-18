@@ -41,37 +41,220 @@ finish-editing = Pirma baigti redaguoti?
 lose-changes-warning = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
 build-custom-goal = Susikurk savo tikslą
 help-reach-hours-pluralized =
-    Padėk pasiekti { NUMBER($hours) ->
-        [one] { $hours } valandą
-        [few] { $hours } valandas
-       *[other] { $hours } valandų
-    } įrašų { $language } kalba – susikurk asmeninį tikslą
+    { $hours ->
+        [one] Padėk pasiekti { $hours } valandą įrašų { $language } kalba – susikurk asmeninį tikslą
+        [few] Padėk pasiekti { $hours } valandas įrašų { $language } kalba – susikurk asmeninį tikslą
+       *[other] Padėk pasiekti { $hours } valandų įrašų { $language } kalba – susikurk asmeninį tikslą
+    }
 help-reach-hours-general-pluralized =
-    Padėk „Common Voice“ pasiekti { NUMBER($hours) ->
-        [one] { $hours } valandą
-        [few] { $hours } valandas
-       *[other] { $hours } valandų
-    } įrašų norima kalba – susikurk asmeninį tikslą
+    { $hours ->
+        [one] Padėk „Common Voice“ pasiekti { $hours } valandą įrašų norima kalba – susikurk asmeninį tikslą
+        [few] Padėk „Common Voice“ pasiekti { $hours } valandas įrašų norima kalba – susikurk asmeninį tikslą
+       *[other] Padėk „Common Voice“ pasiekti { $hours } valandų įrašų norima kalba – susikurk asmeninį tikslą
+    }
 set-a-goal = Užsibrėžti tikslą
 cant-decide = Negali apsispręsti?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } valandą
-        [few] { $totalHours } valandas
-       *[other] { $totalHours } valandų
-    } galima pasiekti vos per { NUMBER($periodMonths) ->
-        [one] { $periodMonths } mėnesį
-        [few] { $periodMonths } menesius
-       *[other] { $periodMonths } menesių
-    }, { NUMBER($people) ->
-        [one] { $people } asmeniui
-        [few] { $people } asmenims
-       *[other] { $people } asmenų
-    } padarant po { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } įrašą
-        [few] { $clipsPerDay } įrašus
-       *[other] { $clipsPerDay } įrašų
-    } per dieną.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandą galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandas galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } mėnesį, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesius, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmeniui padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmenims padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašą per dieną.
+                                [few] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašus per dieną.
+                               *[other] { $totalHours } valandų galima pasiekti vos per { $periodMonths } menesių, { $people } asmenų padarant po { $clipsPerDay } įrašų per dieną.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
 which-goal-type = Nori kalbėti, klausytis ar daryti abu?

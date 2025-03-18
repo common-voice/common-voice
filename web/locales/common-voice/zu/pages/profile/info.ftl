@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Imininingwane efihliwe enjengeminyaka, ubulili k
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 accept-privacy-title = Inqubomgomo yobumfihlo
 login-identity = Umazisi wokungena
-login-signup = Ngena / Bhalisa
 edit = Hlela
 email-subscriptions = Okubhaliselwe Nge-imeyili
 download-profile = Loda Idatha Yami

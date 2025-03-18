@@ -129,7 +129,6 @@ spontaneous-card-header = Spontane powědanje
 spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za organiske, wobchadnorěcne konteksty napórał. To jo perfektne za pśewažnje wustne rěcy.
 language-text-card-header = Rěcny tekst
 language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
-coming-soon = Skóro k dispoziciji
 add-text = Tekst pśidaś
 
 ## Community section

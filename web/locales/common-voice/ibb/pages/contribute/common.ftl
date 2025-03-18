@@ -32,11 +32,6 @@ target-segment-first-banner = nwam asibọp akpa ikpeghe ikọ Common ʌoice { $
 target-segment-add-voice = dian uyo mfo
 target-segment-learn-more = kaiso adikpeep
 change-preferences = kpuho se ekesio-akpa
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ubọi uyo
-contribute-sentence-collection-nav-header = ubọi udịmikọ
 login-signup = Se connecter / S’inscrire
 vote-yes = ih
 vote-no = iyo

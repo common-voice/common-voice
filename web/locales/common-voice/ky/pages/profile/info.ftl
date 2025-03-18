@@ -36,7 +36,6 @@ why-demographic = Эмне үчүн бул маанилүү?
 accept-privacy = Бул маалымат Mozilla'нын <privacyLink>Купуялуулук саясатында</privacyLink> көрсөтүлгөн тартипте колдонулушуна макулмун.
 accept-privacy-title = Купуялуулук саясаты
 login-identity = Кирүү идентификаторы
-login-signup = Кирүү/Катталуу
 edit = Өзгөртүү
 email-subscriptions = Эмейл жазылуулары
 download-profile = Берилиштеримди жүктөп алуу

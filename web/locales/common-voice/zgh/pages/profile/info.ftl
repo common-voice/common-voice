@@ -52,7 +52,6 @@ accept-privacy-title = ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ
 accept-privacy-and-terms = ⵎⵙⴰⵙⴰⵖ ⴷ ⴰⴽⴷ <termsLink>ⵜⴼⴰⴷⵉⵡⵉⵏ</termsLink> ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴷ <privacyLink>ⵜⵎⵏⵏⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink>
 login-identity = ⵜⴰⵎⴰⴳⵉⵜ ⵏ ⵓⴽⵛⴰⵎ
 login = ⴽⵛⵎ
-login-signup = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ
 edit = ⵙⵏⴼⵍ
 email-subscriptions = ⵉⵍⵜⴰⵖⵏ ⵙ ⵉⵎⴰⵢⵍ
 download-profile = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵉⵏⵓ

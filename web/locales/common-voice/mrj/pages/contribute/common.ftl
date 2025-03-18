@@ -28,9 +28,6 @@ target-segment-first-banner = Common Voice-ын икӹмшӹ целевой ла
 target-segment-add-voice = Ӹшке юкетӹм уштары
 target-segment-learn-more = Шукырак тыменяш
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Отчёт

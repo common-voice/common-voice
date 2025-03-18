@@ -126,7 +126,6 @@ spontaneous-card-header = স্বতঃস্ফূৰ্ত ভাষণ
 spontaneous-card-content = জৈৱিক, কথিত প্ৰসংগৰ বাবে ডেটাছেট তৈয়াৰ কৰিবলৈ প্ৰম্‌প্টৰ প্ৰতি সঁহাৰি জনাওক। মৌখিক-প্ৰধান ভাষাৰ বাবে একেবাৰে উপযুক্ত।
 language-text-card-header = ভাষিক পাঠ
 language-text-card-content = অনুবাদ, সৰু ভাষা-আৰ্হি আৰু অন্যান্যৰ বাবে ৰাজহুৱা ড’মেইনৰ প্ৰম্‌প্ট, বাক্য আৰু পাঠ তৈয়াৰ বা ভাগ-বতৰা কৰক।
-coming-soon = শীঘ্ৰেই আহি আছে
 add-text = পাঠ যোগ কৰক
 
 ## Community section

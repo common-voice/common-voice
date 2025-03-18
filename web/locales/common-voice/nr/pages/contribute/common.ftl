@@ -39,9 +39,6 @@ target-segment-first-banner =
 target-segment-add-voice = Faka iphimbo lakho
 target-segment-learn-more = Funda okwengeziweko
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Bika

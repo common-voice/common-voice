@@ -52,7 +52,6 @@ accept-privacy-title = Polîtîkaya Nihêniyê
 accept-privacy-and-terms = Ez <termsLink>Şert</termsLink> û <privacyLink>Agahdariya Nihêniyê</privacyLink> ya Common Voiceê qebûl dikim.
 login-identity = Nasnameya têketinê
 login = Têkeve
-login-signup = Têkeve / Tomar bibe
 edit = Sererast bike
 email-subscriptions = Abonetiyên emaîlê
 download-profile = Daneyên min daxîne

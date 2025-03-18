@@ -34,9 +34,6 @@ target-segment-first-banner = ساهِم بإنشاء أول مقطع على «�
 target-segment-add-voice = أضِف صوتك
 target-segment-learn-more = اطّلع على المزيد
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = أبلِغ

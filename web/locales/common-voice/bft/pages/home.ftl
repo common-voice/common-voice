@@ -122,7 +122,6 @@ spontaneous-card-header = چوق کھیکھہ کھڑاقفی تم ژھیر کن
 spontaneous-card-content = آرگینک سکتی لوکھسینگنگو ڈیٹا سیٹ فچوے سوال کن لا تم لزوق بیوس۔ فہ سکت کنی فری مہ لیگی بیورمو گوا یودپن
 language-text-card-header = سکت پووی ٹیکسٹ پو
 language-text-card-content = چوقلا تھوبا یودپی تم ہرتخ کن، تم ژھیر کن، تم لزوق بے ٹیکسٹ کن، ژھونژے سکت کنی ماڈل کن فچوس یا چوقلا تھونچوک،
-coming-soon = شوخمو اونگین یود
 add-text = ٹیکسٹ چی ہرژوق
 
 ## Community section

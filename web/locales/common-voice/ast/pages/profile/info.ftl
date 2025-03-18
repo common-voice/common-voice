@@ -41,7 +41,6 @@ why-demographic-explanation-2 = Los datos anonimizaos como edá, xéneru y acent
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
-login-signup = Aniciar sesión / Rexistrase
 edit = Editar
 email-subscriptions = Soscripciones per corréu
 download-profile = Descarga de los datos de mio

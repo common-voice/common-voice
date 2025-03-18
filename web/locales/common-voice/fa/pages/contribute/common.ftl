@@ -32,11 +32,6 @@ target-segment-first-banner = به ایجاد اولین بخش هدف آوای 
 target-segment-add-voice = صدای خود را اضافه کنید
 target-segment-learn-more = اطلاعات بیشتر
 change-preferences = تغییر ترجیحات
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = مجموعهٔ صدا
-contribute-sentence-collection-nav-header = مجموعه‌ جمله
 login-signup = ورود / نام‌نویسی
 vote-yes = بله
 vote-no = خیر

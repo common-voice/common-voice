@@ -40,72 +40,72 @@ finish-editing = Editatzea amaitu lehenengo?
 lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
 build-custom-goal = Sortu helburu pertsonalizatua
 help-reach-hours-pluralized =
-    Lagundu{ NUMBER($hours) ->
-        [one] { $hours } ordu
-       *[other] { $hours } ordu
-    } lortzen { $language } hizkuntzan helburu pertsonal batekin
+    { $hours ->
+        [one] Lagundu{ $hours } ordu lortzen { $language } hizkuntzan helburu pertsonal batekin
+       *[other] Lagundu{ $hours } ordu lortzen { $language } hizkuntzan helburu pertsonal batekin
+    }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
        *[other] Lagundu Common Voice-ri { $hours } ordu lortzen hizkuntza batean helburu pertsonal batekin
     }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
                                *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
                             }
@@ -122,7 +122,7 @@ not-receiving-emails-info =
     Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
     eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera <bold>EZ</bold> duzu ezarrita
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] Grabazio { $count }
        *[other] { $count } grabazio
     }

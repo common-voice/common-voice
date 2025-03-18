@@ -66,7 +66,7 @@ sentence-variant-select-label = بدل جملہ
 sentence-variant-select-placeholder = اہ تغیرہ انتخاب کشی(اختیاری)
 sentence-variant-select-multiple-variants = عام وری/ سکال ردو بدل
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اتیوݩسی <icon> </icon>عوامی ڈومین ستہ جملہ

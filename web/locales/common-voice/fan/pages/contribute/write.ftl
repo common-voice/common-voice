@@ -5,7 +5,6 @@ write-instruction = koghlo <icon></icon> nloñ bifiè bor bese ba yem
 write-page-subtitle = minloñ bifiè bia furi va bi bo mba'alane metiñ ya cc-0
 sentence =
     .label = éfiè
-sentence-input-value = tiliyi éfiè bor bese ba yem
 citation-input-placeholder = o ve nyoñ éfiè té vé? (wa yiena yalane nsili wi)
 citation =
     .label = éfiè
@@ -30,7 +29,6 @@ required-field = bera koghlan va
 single-sentence-submission = lom efiè dia
 bulk-sentence-submission = lom abui bifiè
 single-sentence = éfiè dia
-bulk-sentences = abui bifiè
 sentence-domain-combobox-label = tin éfiè
 sentence-domain-select-placeholder = tobo metin bifiè bila'a
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = bifiè meva'a meva'a
 sentence-variant-select-placeholder = tobe ngum aval
 sentence-variant-select-multiple-variants = mam mese me ti'i a nkobo / meva'a meva'a
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = lome <icon></icon> minloñ bifiè bot bese ba yem
@@ -89,3 +87,12 @@ file-invalid-type = bia ben afep di
 file-too-large = afep é ne anen abui
 file-too-small = afep é ne tyotyo
 too-many-files = abui mefep
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

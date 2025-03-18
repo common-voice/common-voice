@@ -47,7 +47,7 @@ which-goal-type = 話す、聴く、またはその両方をしたいですか�
 receiving-emails-info = 現在、目標リマインダーや Common Voice に関する進捗の更新、ニュースレターなどのメールを受信するように設定されています。
 not-receiving-emails-info = 現在、目標リマインダーや Common Voiceに関する進捗の更新とニュースレターなどのメールを <bold>受信しない</bold> ように設定されています。
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } 個の音声クリップ
     }
 help-share-goal = より多くの音声を集めて、目標を共有しましょう

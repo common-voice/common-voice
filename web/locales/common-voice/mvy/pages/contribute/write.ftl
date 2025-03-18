@@ -66,7 +66,7 @@ sentence-variant-select-label = جُملَیں مُئیت/مُتیۡ حالت
 sentence-variant-select-placeholder = لہجہ خوش کرہ (اختیاری)
 sentence-variant-select-multiple-variants = عام ژیب/څئ(چئ) لہجی.
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومین والا جُملی <icon> </icon> بُوۡئ اُکھالہ

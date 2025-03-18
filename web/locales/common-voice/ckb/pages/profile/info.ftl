@@ -46,7 +46,6 @@ accept-privacy = ڕازیم بە چۆنیەتی بەکارهێنانی ئام ز
 accept-privacy-title = سیاسەتی پاراستنی نهێنی
 login-identity = ناسنامەی تێپەڕبوون
 login = چوونەژوورەوە
-login-signup = چوونەژوور/هەژمارکردنی خۆت
 edit = دەستکاری
 email-subscriptions = بەشداری پۆستی ئەلیکترۆنیی
 download-profile = داگرتنی داتاکەم

@@ -66,7 +66,7 @@ sentence-variant-select-label = Rimay hirquna
 sentence-variant-select-placeholder = Huk hirqunata akllay (munasqa)
 sentence-variant-select-multiple-variants = Runa simi / achka hirqunakuna
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Yapay <icon></icon> llapa runaq kamachisqan rimayta nisqa simita

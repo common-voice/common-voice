@@ -41,72 +41,72 @@ finish-editing = اول ترمیم ختُم کُرے
 lose-changes-warning = تاں یہ وعینہ تانوں چانس ختُم کُنپ
 build-custom-goal = تانوں مرضیہ مقصد ژُپئی
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ویبنہ مدد کُرا{ $hours } گینٹہ نامہ{ $language } ذاتی مقصدہ ملی
        *[other] ویبنہ مدد کُرا{ $hours } گینٹہ نامہ{ $language } ذاتی مقصدہ ملی
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کامن وائس ساں مدد کُرا ویبنہ { $hours } گینٹا ایک باݜہ ایک ذاتی مقصدہ ملی
        *[other] کامن وائس ساں مدد کُرا ویبنہ { $hours }گینٹہ نامہ ایک باݜہ ایک ذاتی مقصدہ ملی
     }
 set-a-goal = مقصد ژوپئی
 cant-decide = فیصلہ کُرین نی بئیپ
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
@@ -119,7 +119,7 @@ which-goal-type = تو کیہ کُھنڈن گٹنپ اُشتُرونن گٹِن�
 receiving-emails-info = تو فلحال ای میل مِلو بئیں کی تیار تِھی لکہ مقصد تہ یاد دہانی تازہ ترقی آں کامن وائس ساں بارا نیوزلیٹر
 not-receiving-emails-info = تو فی الحال مسہ سیٹ تُھوپ<bold>نی</bold> ای میل وصول کُرا کنوئی تے مقصد تہ یاددہانی ، ما کامن وائس تہ بارہ پروگرس اپڈیٹس آں خبر تہ خط
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } کلپ
        *[other] { $count } کلپ
     }

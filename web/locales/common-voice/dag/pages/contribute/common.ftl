@@ -29,11 +29,6 @@ target-segment-first-banner = Sɔŋmi n-nam Common Voice tuuli yɛltɔɣili { $l
 target-segment-add-voice = Pahimi a kukoli
 target-segment-learn-more = A ni tooi nya lahibali kpe
 change-preferences = Taɣimi a ni bɔri shɛli
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kukoya deebu
-contribute-sentence-collection-nav-header = Yɛltɔɣa deebu
 login-signup = Kpɛma/Yooma
 vote-yes = iin
 vote-no = aayi

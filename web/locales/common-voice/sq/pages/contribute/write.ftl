@@ -66,7 +66,7 @@ sentence-variant-select-label = Variant Togfjalëshi
 sentence-variant-select-placeholder = Përzgjidhni një variant (në daçi)
 sentence-variant-select-multiple-variants = Gjuhë e përgjithshme / variante të shumtë
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ngarkoni togfjalësha në përkatësi publike <icon></icon>

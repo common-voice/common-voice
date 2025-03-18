@@ -54,7 +54,6 @@ accept-privacy = Atzeto chi impreades custas informatziones de acordu cun s'<pri
 accept-privacy-title = Avisu de riservadesa
 login-identity = Identidade de intrada
 login = Identìfica·ti
-login-signup = Intra/Registra·ti
 edit = Modìfica
 email-subscriptions = Sutiscritziones tràmite posta eletrònica
 download-profile = Iscàrriga is datos mios

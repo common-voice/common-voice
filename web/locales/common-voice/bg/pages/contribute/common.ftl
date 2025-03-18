@@ -31,11 +31,6 @@ target-segment-first-banner = Помогнете за създаването н�
 target-segment-add-voice = Добавете своя глас
 target-segment-learn-more = Научете повече
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Гласова колекция
-contribute-sentence-collection-nav-header = Колекция със изречения
-
 ## Reporting
 
 report = Докладване

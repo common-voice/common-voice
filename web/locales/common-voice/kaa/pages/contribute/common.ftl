@@ -20,11 +20,6 @@ login-to-get-started = Баслаў ушын кириң ямаса дизимн�
 target-segment-add-voice = Даўысыңызды қосың
 target-segment-learn-more = Толығырақ
 change-preferences = Сазлаўларды өзгертиў
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Даўыслар топламы
-contribute-sentence-collection-nav-header = Гәплер топламы
 login-signup = Кириў / Дизимнен өтиў
 vote-yes = Аўа
 vote-no = Яқ

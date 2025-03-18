@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Àwọn dátà akópa tí ìdámọ̀ wọ́n fa
 accept-privacy = Mo gbà kí o ṣèkáwọ́ ìròyìn yí bí o ṣe ṣàlàyé nínú un <privacyLink>Ìgbékalẹ̀ Àṣírí Mozilla</privacyLink>
 accept-privacy-title = Ìgbékalẹ̀ Àṣírí
 login-identity = Ìdámọ̀ Ìwọlé
-login-signup = Wọlé / Forúkọ Sílẹ̀
 edit = Ìṣàtúnṣe
 email-subscriptions = ìforúkọsílẹ̀ fún gbígba imeèlì
 download-profile = Ìṣàgbàsílẹ̀ dátà mi

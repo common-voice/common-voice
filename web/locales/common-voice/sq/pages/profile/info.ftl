@@ -56,7 +56,6 @@ accept-privacy-title = Rregulla Privatësie
 accept-privacy-and-terms = Pajtohem me <termsLink>Kushtet</termsLink> dhe <privacyLink>Shënimin mbi Privatësinë</privacyLink> të Common Voice-it
 login-identity = Identitet Hyrjesh
 login = Hyni
-login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
 download-profile = Shkarkoji të dhënat e mia

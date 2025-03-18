@@ -56,7 +56,6 @@ accept-privacy-title = プライバシーポリシー
 accept-privacy-and-terms = Common Voice の <termsLink>利用規約</termsLink> および <privacyLink>プライバシー通知</privacyLink> に同意します。
 login-identity = ログイン用アカウント
 login = ログイン
-login-signup = ログイン / アカウント登録
 edit = 編集
 email-subscriptions = メールニュースの購読を変更
 download-profile = 自分のデータをダウンロード

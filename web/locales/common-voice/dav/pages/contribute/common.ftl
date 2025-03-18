@@ -29,11 +29,6 @@ target-segment-first-banner = Tesia kuboisa lengo ya Common Voice ya mpande ghwa
 target-segment-add-voice = Churia Lwaka Lwako
 target-segment-learn-more = Churia Kumanya
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kutumbanya Chwaka
-contribute-sentence-collection-nav-header = Kutumbanya Sentensi
-
 ## Reporting
 
 report = Ripoti

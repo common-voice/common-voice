@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Санӑн сасуна ҫырӑв
 share-title-new = Ытти сас тупма <bold>пире пулӑш</bold>
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

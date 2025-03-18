@@ -27,9 +27,6 @@ target-segment-first-banner = { $locale } Common Voice-тең беренсе м�
 target-segment-add-voice = Тауышығыҙҙы өҫтәгеҙ
 target-segment-learn-more = Тулыраҡ белергә
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Отчет

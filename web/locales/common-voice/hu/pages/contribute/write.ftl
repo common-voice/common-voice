@@ -66,7 +66,7 @@ sentence-variant-select-label = Mondatváltozat
 sentence-variant-select-placeholder = Válasszon változatot (nem kötelező)
 sentence-variant-select-multiple-variants = Általános nyelv / több változat
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Közkincsű mondatok feltöltése <icon></icon>

@@ -68,7 +68,7 @@ sentence-variant-select-label = Zinsvariant
 sentence-variant-select-placeholder = Selecteer een variant (optioneel)
 sentence-variant-select-multiple-variants = Algemeen taalgebruik / meerdere varianten
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Zinnen <icon></icon> uit het publieke domein uploaden

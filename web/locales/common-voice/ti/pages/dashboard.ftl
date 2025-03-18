@@ -41,31 +41,78 @@ finish-editing = ቅድም ምስትኽኻልዶ ክትውድእ?
 lose-changes-warning = ኣብዚ እንተ ኣቓሪጽካ፡ ኩሉ እቲ ዝገበርካዮ ለውጥታት ክጠፍእ እዩ
 build-custom-goal = ሓድሽ ሸቶ ህነጽ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ሓገዝ{ $hours } ሰዓትኣብ { $language } ብናይ ግሊ ሸቶ
        *[other] ሓገዝ{ $hours } ሰዓታትኣብ { $language } ብናይ ግሊ ሸቶ
     }
 help-reach-hours-general-pluralized =
-    ንኮመን ቮይስ ሓግዝ{ NUMBER($hours) ->
-        [one] { $hours } ሰዓት
-       *[other] { $hours } ሰዓታት
-    }ኣብ ቛንቃ  ብናይ ግሊ  ሸቶ
+    { $hours ->
+        [one] ንኮመን ቮይስ ሓግዝ{ $hours } ሰዓትኣብ ቛንቃ  ብናይ ግሊ  ሸቶ
+       *[other] ንኮመን ቮይስ ሓግዝ{ $hours } ሰዓታትኣብ ቛንቃ  ብናይ ግሊ  ሸቶ
+    }
 set-a-goal = ዕላማ ኣቐምጥ
 cant-decide = ክትውስን ኣሸጊሩካ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } ሰዓት
-       *[other] { $totalHours } ሰዓታት
-    }ዝተበጽሐ ትወዲኡ ኣሎ{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } ወርሒ
-       *[other] { $periodMonths } ኣዋርሕ
-    }እንተ{ NUMBER($people) ->
-        [one] { $people } ሰብ
-       *[other] { $people } ሰባት
-    }መዝገብ{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } ክሊፕ
-       *[other] { $clipsPerDay } ክሊፓት
-    }መዓልቲ
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
+                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
+                            }
+                    }
+            }
+    }
 how-many-per-day = ብጣዕሚ ጽቡቕ! ንማዓልቲ ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
 how-many-a-week = ብጣዕሚ ጽቡቕ! ንሰሙን ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
 which-goal-type = ድምጽኻ ክትቀድሕ ጥራይ ዲኻ ትደሊ ዋላስ ክትሰምዕ እንኮላይ ትደሊ ኢኻ?
@@ -74,7 +121,7 @@ receiving-emails-info =
     ብዛዕባ ኮመን ቮይስ ዚገልጽ እዋናትን ጋዜጣታትን ምዕባለታትን።
 not-receiving-emails-info = ኣብዚ እዋን እዚ ዝኾነ ከም ናይ ሸቶ መዘኻኸሪታተይ ዝኣመሰለ ኢ-መይል ክትቅበል ኢኻ ተዳሊኻ፡ ዘለኻ ብዛዕባ ኮመን ቮይስ ዚገልጽ እዋናትን ጋዜጣታትን ምዕባለታትን <bold>ኣይክትቅበልን</bold> ኢኻ።
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] ሓንቲ ክሊፕ
        *[other] { $count } ክሊፓት
     }

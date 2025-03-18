@@ -30,11 +30,6 @@ target-segment-first-banner = mballe men waɗgo 'sekman sibele' arana dow Common
 target-segment-add-voice = ndokkaa e daande mooɗon
 target-segment-learn-more = anndinkin feere
 change-preferences = Sannjugo ko ɓurdi yiɗgo
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Mooɓtol daande
-contribute-sentence-collection-nav-header = Mooɓtol jumlaaji
 login-signup = naate/Maɓɓitu konte maaɗa
 vote-yes = Jaɓi
 vote-no = Sali

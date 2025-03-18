@@ -120,7 +120,6 @@ spontaneous-card-header = Tez mon dek
 spontaneous-card-content = Jawab de prus't kai, dataset prus't karikas bati, zuban mahikas ze jonikas bati
 language-text-card-header = Zuban newishil'a
 language-text-card-content = Sawzai ya o phazi, domain prompts, newishil'a, newishil'a tarjuma, chutyak zuban ze warek
-coming-soon = Gha'ns' ew dai
 add-text = Newishil'a jama kari
 
 ## Community section

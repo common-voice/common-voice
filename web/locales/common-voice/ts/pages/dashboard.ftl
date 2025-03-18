@@ -41,30 +41,77 @@ finish-editing = Hetisa ku hlela kusungula?
 lose-changes-warning = Ku famba sweswi swi vula leswaku u ta lahlekeriwa hi ku cinca ka wena
 build-custom-goal = Aka pakani ya ntolovelo
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] { $hours } awara eka { $language } hi xikongomelo xa munhu hi xiyexe
        *[other] { $hours } tiawara eka { $language } hi xikongomelo xa munhu hi xiyexe
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Pfuna Common Voice Ku fikelela { $hours } awara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
        *[other] Pfuna Common Voice Ku fikelela { $hours } tiawara hi ririmi leri nga na xikongomelo xa munhu hi xiyexe
     }
 set-a-goal = Vekela pakani
 cant-decide = A wu swi koti ku endla xiboho?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana
-       *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } n'hweti loko
-       *[other] { $periodMonths } tin’hweti loko
-    } { NUMBER($people) ->
-        [one] { $people } rhekhodo ya munhu
-       *[other] { $people } ti rhekhodo ta vanhu
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } swiphemu hi siku.
-       *[other] { $clipsPerDay } swiphemu hi siku.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
+                            }
+                    }
+            }
     }
 how-many-per-day = Swikulu! Xana i swiphemu swingani hi siku?
 how-many-a-week = Swikulu! Xana i swiphemu swingani  hi vhiki?
@@ -74,7 +121,7 @@ receiving-emails-info =
     swintshuxo swa nhluvuko ya mina na swiphephana swa mahungu mayelana na Common Voice.
 not-receiving-emails-info = Sweswi u vekiwile leswaku<bold>U NGA</bold> amukeli ti imeyili to fana na switsundzuxo swa pakani, na swintshuxo swa nhluvuko na swiphephana swa mahungu mayelana na Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } xiphemu
        *[other] { $count } swiphemu
     }

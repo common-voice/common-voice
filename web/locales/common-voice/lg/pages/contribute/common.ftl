@@ -26,9 +26,6 @@ target-segment-first-banner = Yambako okutondawo target segment ya Common Voice 
 target-segment-add-voice = Gattako Eddoboozi lyo
 target-segment-learn-more = Manya Ebisingawo
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Loopa

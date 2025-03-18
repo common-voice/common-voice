@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Dati anonimizzati cum’è l’età, u generu è
 accept-privacy = Accunsentu à u trattementu di i dati comu spiecatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink> di Mozilla
 accept-privacy-title = Pulitica di Cunfidenzialità
 login-identity = Identità di sessione
-login-signup = Identificassi / Arrighjistrassi
 edit = Mudificà
 email-subscriptions = Abbunamenti da indirizzu elettronicu
 download-profile = Scaricà i mio dati

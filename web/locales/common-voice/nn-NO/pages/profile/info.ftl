@@ -56,7 +56,6 @@ accept-privacy-title = Personvernpraksis
 accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernerklæringa</privacyLink> til Common Voice
 login-identity = Innloggingsidentitet
 login = Logg inn
-login-signup = Logg inn / Meld deg på
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data

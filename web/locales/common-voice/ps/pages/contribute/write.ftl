@@ -66,7 +66,7 @@ sentence-variant-select-label = د جملې تغیرات
 sentence-variant-select-placeholder = یو ډول انتخاب کړئ (اختیاري)
 sentence-variant-select-multiple-variants = عمومي ژبه / ډیر ډولونه
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = د عامه ډومین جملې <icon></icon> پورته کړئ

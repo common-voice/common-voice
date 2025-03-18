@@ -66,7 +66,7 @@ sentence-variant-select-label = جملہ سی قسم
 sentence-variant-select-placeholder = جملہ سی قسم کارا
 sentence-variant-select-multiple-variants = بُوڑ جیِب/ چیر گن قسم
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = آپلوڈ <icon> پبلک ڈومین سی جملہ کوا

@@ -41,12 +41,12 @@ finish-editing = Gaynu taƴtaade tawo?
 lose-changes-warning = Goppugol jooni firti ko a waasat bayle maa
 build-custom-goal = Mah faandaare feŋtornde
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Wallu heɓewaktuuji { $hours }e { $language } kam e faadaare heeriinde
        *[other] { "" }
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Wallu Common Voice heɓdewaktuuji { $hours }e ɗemngal kem e faandaare heeriinde
        *[other] { "" }
     }
@@ -61,7 +61,7 @@ not-receiving-emails-info =
     Oo sahaa ko a cuɓiiɗo <bold>WASDE</bold> heɓde iimeeluuji wano ciiftinooji, kesɗitine 
     taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] lefon { $count }
        *[other] { "" }
     }

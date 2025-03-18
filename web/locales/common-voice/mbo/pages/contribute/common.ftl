@@ -26,11 +26,6 @@ target-segment-first-banner = Ní hə́pi îbonti ǹjɔŋ ihwɔ́ mɔ ǹshy�
 target-segment-add-voice = a bə ni íjɔŋə́ ihwɔ́
 target-segment-learn-more = a bîy ápə́
 change-preferences = A pɛnti gwɛ̌m ígi mí də́ə́ɨ̄
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ilati ahwɔ́ ábi bú heeki
-contribute-sentence-collection-nav-header = ilati ǹyampin mi bú heekí
 login-signup = Ó yîŋa
 vote-yes = Éē
 vote-no = Kɛ́m/Ôhō

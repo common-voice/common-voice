@@ -52,7 +52,6 @@ accept-privacy-title = رازداري پاليسي
 accept-privacy-and-terms = مان متفق آهيان Common Voice جي <termsLink>شرائط</termsLink> ۽ <privacyLink>رازداري نوٽيس</privacyLink>
 login-identity = لاگ ان سڃاڻپ
 login = لاگ ان
-login-signup = لاگ ان/سائن اپ
 edit = ترميم ڪريو
 email-subscriptions = اي ميل سبسڪرپشن
 download-profile = منهنجي ڊيٽا کي ڊائون لوڊ ڪريو

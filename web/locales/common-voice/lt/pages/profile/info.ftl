@@ -36,7 +36,6 @@ why-demographic = Kodėl tai svarbu?
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 accept-privacy-title = Privatumo nuostatai
 login-identity = Prisijungimo tapatybė
-login-signup = Prisijungti / registruotis
 edit = Keisti
 email-subscriptions = El. pašto prenumeratos
 download-profile = Parsisiųsti mano duomenis

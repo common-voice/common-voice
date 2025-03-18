@@ -66,7 +66,7 @@ sentence-variant-select-label = ზიტყვასქვილიშ კუ�
 sentence-variant-select-placeholder = გეჲშაგორით ნინაშ ნერობა (სავალდებულო ვარე)
 sentence-variant-select-multiple-variants = თარი ნინა / შხვადოშხვა ნერობა
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ქიგუძინით <icon></icon> ზიტყვასქვილეფი ოირქიანე საკუთრებაშე

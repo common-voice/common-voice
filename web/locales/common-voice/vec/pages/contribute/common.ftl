@@ -11,9 +11,6 @@ share-title-new = <bold>Jutane</bold> a catare altre vosi
 keep-track-profile = Tien tracia de i progresi co on profiƚo
 login-to-get-started = Asedi o registrate par scomisiare
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Segnaƚa

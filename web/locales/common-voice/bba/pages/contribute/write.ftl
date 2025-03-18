@@ -5,7 +5,6 @@ write-instruction = I  <icon></icon> gari sosiyo saman wunanɔn swaa sɔɔ
 write-page-subtitle = Gari yì ba wɛ̃ mini ba koo yì sosiwa saman wunanɔn swaa sɔɔ cc-0.
 sentence =
     .label = Gari siabu
-sentence-input-value = I bɛɛn saman wunanɔn swaa sɔɔn gari yoruo mini
 citation-input-placeholder = I geruo mì i gari yi wa ( tirasiwa)
 citation =
     .label = Gari siabu
@@ -30,7 +29,6 @@ required-field = I gari bɛɛ te dãkuro
 single-sentence-submission = Gari tian mɔrisiabu
 bulk-sentence-submission = Gari dabirun mɔrisiabu
 single-sentence = Gari tia deke deke
-bulk-sentences = Gari daburu
 sentence-domain-combobox-label = Swaa yè sɔɔ ba gari yi kua
 sentence-domain-select-placeholder = I suo sere swɛɛ ita
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Gari yì yi  wunanɛ ka gɛɛ
 sentence-variant-select-placeholder = Bù gari yì yi wunanɛ sua ( n ǹ tirasi)
 sentence-variant-select-multiple-variants = Barum yasansi bwese bweseka/ gari yì yi wunanɛ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = i gari  <icon></icon> mɔrisio yì yi wãa samaan wunanɔn swaa sɔɔ
@@ -89,3 +87,12 @@ file-invalid-type = Bɔɔ gari nɛnuti  tè ba ǹ wure
 file-too-large = Bɔɔ gari nɛnuti te ta pkã to
 file-too-small = Bɔɔ gari nɛnutiru ta piibuu sãa n banda
 too-many-files = Bɔɔ gari nŋutinu nu dabia to
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

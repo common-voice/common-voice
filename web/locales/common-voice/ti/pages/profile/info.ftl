@@ -52,7 +52,6 @@ accept-privacy-title = ናይ ውልቃውነት ፖሊሲ
 accept-privacy-and-terms = ምስ ናይ  ሓባራዊ ድምጺ <termsLink>ውዕላት</termsLink> ከምኡ’ውን <privacyLink>መተሓሳሰቢ ብሕታዊነት</privacyLink> ይሰማማዕ እየ
 login-identity = መእተዊ መንነት
 login = ኡቶ
-login-signup = እተው/ተመዝገብ
 edit = ቀይር
 email-subscriptions = ናይ ኢመይል መዝገብ
 download-profile = ናይ ውልቕኻ ሐበሬታ ኣውርድ

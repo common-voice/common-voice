@@ -50,7 +50,6 @@ accept-privacy-title = นโยบายความเป็นส่วนต
 accept-privacy-and-terms = ฉันยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของ Common Voice
 login-identity = ข้อมูลประจำตัวการเข้าสู่ระบบ
 login = เข้าสู่ระบบ
-login-signup = เข้าสู่ระบบ / ลงทะเบียน
 edit = แก้ไข
 email-subscriptions = การบอกรับข่าวสารทางอีเมล
 download-profile = ดาวน์โหลดข้อมูลของฉัน

@@ -34,12 +34,12 @@ finish-editing = ¿ticniqui tic tlamis de tic patlas achton?
 lose-changes-warning = tla tic cahua axan, tiquin polos tlapatla
 build-custom-goal = xic chihua se tiquitl sesiahca
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] xitech palehui ticahsisqueh { $hours }horaen{ $language } quemeh se tiquitl sesiahcah
        *[other] xitech palehui ticahsisqueh { $hours }horasen{ $language }ica se tiquitl sesiahcah
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] xicpalehui Common Voice mucahsi{ $hours }horaen se tlahtol ica se tiquitl sesiahcah
        *[other] xicpalehui Common Voice mucahsi{ $hours }horasen se tlahtol ica se tiquitl sesiahcah
     }
@@ -51,7 +51,7 @@ which-goal-type = ¿Ticniqui titlahtos, titlacaquis o yen omen?
 receiving-emails-info = axan qupia de tic yectlalis para tic silis correos electronicos, quemeh ilnamiquilis tiquitl, yancuic nemilis huan boletines de tlanahuatil ica Common Voice
 not-receiving-emails-info = mu patilis de axan quintuhua <bold> amo</bold> ticsilis correos ica ilnamiquilis tiquitl, yancuic nemilis amo boletines de tlanahuatil Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] tlahcuilol
         [many] tlahcuilolmeh
        *[other] { "" }

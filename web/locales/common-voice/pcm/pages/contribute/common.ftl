@@ -30,11 +30,6 @@ target-segment-first-banner = Helep kreat Komon Vois’ fest target segment for 
 target-segment-add-voice = Add yur vois
 target-segment-learn-more = Lan mor
 change-preferences = Chenj preferensis
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Vois Kolekshon
-contribute-sentence-collection-nav-header = Sentens Kolekshon
 login-signup = Log In / Sign Up
 vote-yes = yes
 vote-no = No

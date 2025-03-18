@@ -30,11 +30,6 @@ target-segment-first-banner = óŋgwáná lì gbèjé wòlá wózró j
 target-segment-add-voice = βétá lílō láŋgɔ̄
 target-segment-learn-more = ókówá βɛ̂
 change-preferences = èŋgówá líβɔ̀zrɔ̀ láŋgɔ̄
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = βétá wémà wé Nav
-contribute-sentence-collection-nav-header = lìwówà lá málô
 login-signup = Kpéyâ/kpéyâ ôténì
 vote-yes = ɛ́ɛ̀
 vote-no = jáàé

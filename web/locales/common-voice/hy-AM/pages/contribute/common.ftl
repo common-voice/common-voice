@@ -27,9 +27,6 @@ target-segment-first-banner = Օգնեք ստեղծել Common Voice-ի առաջ
 target-segment-add-voice = Ավելացրեք ձեր ձայնը
 target-segment-learn-more = Իմանալ ավելին
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Զեկույց

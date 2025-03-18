@@ -139,7 +139,6 @@ spontaneous-card-header = Spontani govor
 spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
 language-text-card-header = Jezični tekst
 language-text-card-content = Stvori ili dijeli upite, rečenice i tekst za prijevod, male jezične modele u javnom vlasništvu i još mnogo toga.
-coming-soon = Uskoro stiže
 add-text = Dodaj tekst
 
 ## Community section

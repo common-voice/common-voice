@@ -5,7 +5,6 @@ write-instruction = Kfeynsɨ <icon></icon> iwo i kûm àfaf
 write-page-subtitle = Awo kì a nô mɨ nda bè fù afeyn ghɨ kfeynsɨ  a cc-0 dataset ma ghɨ laysens meyn i fi ghɨ kûm àfaf
 sentence =
     .label = Ale' ki afo kfvɨ ateyn
-sentence-input-value = Nyà' zɨsɨ iwo izɨ-æ kûm àfaf a feyn
 citation-input-placeholder = Fè'tɨ ale' kì a iwo i zɨ-æ lu ateyn ( kel sɨ nì )
 citation =
     .label = Ale' ki afo kfvɨ ateyn
@@ -30,7 +29,6 @@ required-field = Mɨ chwotɨ và nya kûm àbas i fel afeyn
 single-sentence-submission = Itsiynsɨ iwo kɨ i mò'
 bulk-sentence-submission = Itsyiynsɨ iwo kɨ sɨ idzù
 single-sentence = Iwo kɨ ìmo
-bulk-sentences = Awo kɨ sɨ idzu
 sentence-domain-combobox-label = Iwo abas ifel
 sentence-domain-select-placeholder = Cho'nɨ ɨbwas ifel ɨ twal
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Ikfɨnɨ ateynɨ ìtaŋi
 sentence-variant-select-placeholder = Cho' ikfɨnɨ itaŋi
 sentence-variant-select-multiple-variants = Itaŋi / tɨkfɨnɨ itaŋi
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Tsiynsɨ <icon><//icon>awo kɨ kûm àfaf
@@ -89,3 +87,12 @@ file-invalid-type = Fayl ateyn ghɨ wi ajuŋ
 file-too-large = Fayl àteyn gha' chwôsɨ-à
 file-too-small = Fayl àteyn læ chwôsɨ-à
 too-many-files = Faylsɨ ateyn dvɨ chwôsɨ-à
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

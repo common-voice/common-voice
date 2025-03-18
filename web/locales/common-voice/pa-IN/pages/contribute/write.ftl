@@ -19,7 +19,7 @@ general = ਆਮ
 # Sentence Domain dropdown option
 history_law_government = ਇਤਿਹਾਸ, ਕਨੂੰਨ ਅਤੇ ਸਰਕਾਰ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 try-upload-again-md = ਫੇਰ ਅੱਪਲੋਡ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 select-file = ਫ਼ਾਇਲ ਨੂੰ ਚੁਣੋ

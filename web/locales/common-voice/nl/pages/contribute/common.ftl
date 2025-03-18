@@ -28,11 +28,6 @@ target-segment-first-banner = Help bij het maken van het eerste doelsegment in h
 target-segment-add-voice = Uw stem toevoegen
 target-segment-learn-more = Meer info
 change-preferences = Voorkeuren wijzigen
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Spraakcollectie
-contribute-sentence-collection-nav-header = Zinnenverzameling
 login-signup = Aanmelden / Registreren
 vote-yes = Ja
 vote-no = Nee

@@ -41,31 +41,78 @@ finish-editing = पहिले सम्पादन समाप्त गर
 lose-changes-warning = अहिले छोड्नुको मतलब तपाईको परिवर्तनहरू हराउनेछ
 build-custom-goal = एक अनुकूलन लक्ष्य बनाउनुहोस्
 help-reach-hours-pluralized =
-    { $language }मा { NUMBER($hours) ->
-        [one] { $hours } घंटा
-       *[other] { $hours } घंटाहरु
-    } लक्ष्य सहित पुग्न मद्धत गर्नुहोस
+    { $hours ->
+        [one] { $language }मा { $hours } घंटा लक्ष्य सहित पुग्न मद्धत गर्नुहोस
+       *[other] { $language }मा { $hours } घंटाहरु लक्ष्य सहित पुग्न मद्धत गर्नुहोस
+    }
 help-reach-hours-general-pluralized =
-    ब्यक्तिगत लक्ष्य सहित Common Voice लाई कुनै भाषामा{ NUMBER($hours) ->
-        [one] { $hours } hour
-       *[other] { $hours } hours
-    }पुग्न मद्धत गर्नुहोस
+    { $hours ->
+        [one] ब्यक्तिगत लक्ष्य सहित Common Voice लाई कुनै भाषामा{ $hours } hourपुग्न मद्धत गर्नुहोस
+       *[other] ब्यक्तिगत लक्ष्य सहित Common Voice लाई कुनै भाषामा{ $hours } hoursपुग्न मद्धत गर्नुहोस
+    }
 set-a-goal = एक लक्ष्य सेट गर्नुहोस्
 cant-decide = निर्णय गर्न सक्नुहुन्न?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } घंटा
-       *[other] { $totalHours } घंटाहरु
-    }मा जम्मा { NUMBER($periodMonths) ->
-        [one] { $periodMonths } महिनामा
-       *[other] { $periodMonths } महिनाहरुमा
-    }यदि  { NUMBER($people) ->
-        [one] { $people } जना
-       *[other] { $people } जनाहरु
-    } ले { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } क्लिप
-       *[other] { $clipsPerDay } क्लिपहरु
-    }प्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
+                            }
+                    }
+            }
+    }
 how-many-per-day = वाह! प्रति दिन कतिवटा क्लिपहरू?
 how-many-a-week = वाह! हप्तामा कतिवटा क्लिपहरू?
 which-goal-type = के तपाईं बोल्न चाहनुहुन्छ, सुन्न वा दुबै?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     तपाई हालमा ईमेलहरू जस्तै लक्ष्य रिमाइन्डरहरू, मेरो
     प्रगति अद्यावधिकहरू र Common Voice बारेमा समाचारपत्रहरू प्राप्त <bold>नगर्न </bold> सेट गर्नुभएको छ
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }क्लिप
        *[other] { $count } क्लिपहरु
     }

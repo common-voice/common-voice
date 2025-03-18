@@ -41,38 +41,85 @@ finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
 help-reach-hours-pluralized =
-    Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) ->
-        [one] { $hours } saate
-       *[other] { $hours } saate
-    } ulaşmamıza yardımcı olun
+    { $hours ->
+        [one] Kişisel bir hedef belirleyerek { $language } dilinde { $hours } saate ulaşmamıza yardımcı olun
+       *[other] Kişisel bir hedef belirleyerek { $language } dilinde { $hours } saate ulaşmamıza yardımcı olun
+    }
 help-reach-hours-general-pluralized =
-    Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
-        [one] { $hours } saate
-       *[other] { $hours } saate
-    } ulaşmasına yardımcı olun
+    { $hours ->
+        [one] Kişisel bir hedefle Common Voice'un bir dilde { $hours } saate ulaşmasına yardımcı olun
+       *[other] Kişisel bir hedefle Common Voice'un bir dilde { $hours } saate ulaşmasına yardımcı olun
+    }
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $people } kişi
-       *[other] { $people } kişi
-    } günde { NUMBER($periodMonths) ->
-        [one] { $clipsPerDay } ses
-       *[other] { $clipsPerDay } ses
-    } kaydederse { NUMBER($people) ->
-        [one] { $periodMonths } aydan
-       *[other] { $periodMonths } aydan
-    } biraz uzun bir sürede { NUMBER($clipsPerDay) ->
-        [one] { $totalHours } saatlik
-       *[other] { $totalHours } saatlik
-    } ses kaydına ulaşılabilir.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                               *[other] { $people } kişi günde { $clipsPerDay } ses kaydederse { $periodMonths } aydan biraz uzun bir sürede { $totalHours } saatlik ses kaydına ulaşılabilir.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
 receiving-emails-info = Hedef hatırlatıcıları, ilerleme güncellemeleri ve Common Voice ile ilgili bültenler gibi e-postaları alıyorsunuz.
 not-receiving-emails-info = Hedef hatırlatıcıları, ilerleme güncellemeleri ve Common Voice ile ilgili bültenler gibi e-postaları <bold>almayacaksınız</bold>.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ses kaydı
        *[other] { $count } ses kaydı
     }

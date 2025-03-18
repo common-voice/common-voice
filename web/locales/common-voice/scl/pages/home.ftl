@@ -122,7 +122,6 @@ spontaneous-card-header = اَشانگیو شونگو
 spontaneous-card-content = تھَنی باشوڈیٹا سیٹ سَنیونو جواب دے۔ رَزینیک باشوکاری لاؤ سَم ہُوں
 language-text-card-header = باشو کَچَٹ/ لِکھِیتی
 language-text-card-content = عام جَکوڑے ترجمئی کاری ڈومین پرومٹ ، موجی، گہ کَچَٹیانی/لِکھیانی سَنے، باشو چُنے ماڈلی، گہ مُتے لائی۔۔
-coming-soon = لوکو اِیُوں ہِیں/ہُوں
 add-text = کَچٹ تھِتی /لِکھِیتی یو تھے
 
 ## Community section

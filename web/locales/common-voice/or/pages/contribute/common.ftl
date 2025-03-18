@@ -27,11 +27,6 @@ target-segment-first-banner = Common Voice ର ପ୍ରଥମ ଲକ୍ଷ୍�
 target-segment-add-voice = ଆପଣଙ୍କର କଣ୍ଠ ଯୋଗ କରନ୍ତୁ
 target-segment-learn-more = ଅଧିକ ଜାଣନ୍ତୁ
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ସ୍ୱର ସଂଗ୍ରହ
-contribute-sentence-collection-nav-header = ବାକ୍ୟ ସଂଗ୍ରହ
-
 ## Reporting
 
 report = ରିପୋର୍ଟ

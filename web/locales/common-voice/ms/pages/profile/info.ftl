@@ -52,7 +52,6 @@ accept-privacy-title = Dasar Polisi
 accept-privacy-and-terms = Saya bersetuju dengan <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>
 login-identity = Identiti Log Masuk
 login = Log Masuk
-login-signup = Log Masuk / Daftar
 edit = Sunting
 email-subscriptions = Langganan e-mel
 download-profile = Muat turun Data Saya

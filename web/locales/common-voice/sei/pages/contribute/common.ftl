@@ -26,11 +26,6 @@ target-segment-first-banner = Icaaitom ziix z an hant coii mos áno cöisiipe ha
 target-segment-add-voice = Mihipon cap iiqui consiih aha
 target-segment-learn-more = Icaaitom ihmaa mos
 change-preferences = Icaaitom hant hac ano coii hapi haqueepe quih iti cöisahpacta hac
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Iquipon ptiihax ano coii
-contribute-sentence-collection-nav-header = Icaaitom an hapaptx
 login-signup = Icaaitom quih hant an hant yaii hac an consiizquimaha / Ziix oo cöpopah an cöiscazquim ha zo mponyaa x, zo nsaai aha
 vote-yes = Hasa
 vote-no = Saat

@@ -126,7 +126,6 @@ spontaneous-card-header = Doğaçlama Konuşma
 spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere istemlere yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
-coming-soon = Çok yakında
 add-text = Metin ekleyin
 
 ## Community section

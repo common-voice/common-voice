@@ -31,11 +31,6 @@ target-segment-add-voice = Add ya voice
 target-segment-learn-more = Learn add am
 change-preferences = Change the tin dem wey you want am
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Take voice
-contribute-sentence-collection-nav-header = Take sentence dem
-
 ## Reporting
 
 report = Tok tin dem

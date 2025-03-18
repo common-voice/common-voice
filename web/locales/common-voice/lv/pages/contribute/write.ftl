@@ -66,7 +66,7 @@ sentence-variant-select-label = Teikuma variants
 sentence-variant-select-placeholder = Izvēlieties variantu (neobligāti)
 sentence-variant-select-multiple-variants = Vispārējā valoda / vairāki varianti
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Augšupielādējiet <icon></icon> publiskā īpašuma teikumus

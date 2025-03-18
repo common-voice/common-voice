@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Keɓe kuutoro ɗe innitaaka wona duuɓi, njogora
 accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <privacyLink>Dawrugol suturo</privacyLink>Mozilla
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
-login-signup = Seŋo/ Winndito
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am

@@ -5,7 +5,6 @@ write-instruction = Kú'she nun <icon></icon> mo' mbône mí shíkét tu mgba
 write-page-subtitle = Mbône mí shíkét yue pe fa ñâ ne na tue ku'she tu mo' kam, lí tá yum mbadampuen pó lé shí
 sentence =
     .label = Nsapngam
-sentence-input-value = Tuete nun mbóne mí shíkét tu mgbâ mbandampuen ñayî.
 citation-input-placeholder = Tupshe nun ña yue pu yuen mbône mí shíkét tun ne.
 citation =
     .label = Nsapngam
@@ -30,7 +29,6 @@ required-field = Pü ná nshá pu kú'she sum
 single-sentence-submission = Shéshe mbône mi shikét wiyi'she
 bulk-sentence-submission = Shéshe kuet mbône mí shikét
 single-sentence = Ndî mbône mi shikét wiyi'she
-bulk-sentences = Nket mbône mi shikét
 sentence-domain-combobox-label = Gbâ mbône mi shikét
 sentence-domain-select-placeholder = Sho' nùn mémé te tet gbéé
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Kúpshe mbóne mí shíkét
 sentence-variant-select-placeholder = Sho' nun mo' kúpshî ( shia mbi yit)
 sentence-variant-select-multiple-variants = Mbône yúm tu shikét / nkuet nkúpshe
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Shéshe nun <icon></icon> mbóne mi shikét tu gbâ mbandampuen
@@ -89,3 +87,12 @@ file-invalid-type = Pe má mbémi lé
 file-too-large = Lé gha' tutun
 file-too-small = Lé kùeshe tutun
 too-many-files = Lé yam tutun
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

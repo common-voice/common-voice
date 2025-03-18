@@ -123,7 +123,6 @@ spontaneous-card-header = اجانہ جولاگ
 spontaneous-card-content = نامیاتی جِباں سیاق و سباق تے بول چالیں آں ڈیٹا سیٹس چاگیں کیر اشارہ داگاں زُواب دہ۔ اولیں زبانی جِبیں کیر باٞر موزوں تھو۔
 language-text-card-header = جِباں مواد
 language-text-card-content = شاردہ اٞ عوامی ڈومین، جملاٞ، تے ترجماٞں ایں کیر متن، لیک جِباں ماڈل اوئے چا یا آٞس سہ اشتراک کٞراٞ۔
-coming-soon = شاٞردہ ینت
 add-text = مواد شامل کٞر
 
 ## Community section

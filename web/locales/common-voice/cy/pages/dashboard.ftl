@@ -41,62 +41,2105 @@ finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
 build-custom-goal = Adeiladu targed personol
 help-reach-hours-pluralized =
-    Helpu i gyrraedd { NUMBER($hours) ->
-        [zero] { $hours } awr
-        [one] { $hours } awr
-        [two] { $hours } awr
-        [few] { $hours } awr
-        [many] { $hours } awr
-       *[other] { $hours } awr
-    } { $language } gyda tharged personol
+    { $hours ->
+        [zero] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+        [one] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+        [two] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+        [few] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+        [many] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+       *[other] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+    }
 help-reach-hours-general-pluralized =
-    Helpu i gyrraedd { NUMBER($hours) ->
-        [zero] { $hours } awr
-        [one] { $hours } awr
-        [two] { $hours } awr
-        [few] { $hours } awr
-        [many] { $hours } awr
-       *[other] { $hours } awr
-    } mewn iaith gyda tharged personol
+    { $hours ->
+        [zero] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+        [one] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+        [two] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+        [few] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+        [many] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+       *[other] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+    }
 set-a-goal = Gosod targed
 cant-decide = Methu penderfynu?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [zero] { $totalHours } awr
-        [one] { $totalHours } awr
-        [two] { $totalHours } awr
-        [few] { $totalHours } awr
-        [many] { $totalHours } awr
-       *[other] { $totalHours } awr
-    } yn bosib mewn ychydig dros { NUMBER($periodMonths) ->
-        [zero] { $periodMonths } mis
-        [one] { $periodMonths } mis
-        [two] { $periodMonths } fis
-        [few] { $periodMonths } mis
-        [many] { $periodMonths } mis
-       *[other] { $periodMonths } mis
-    } os fydd { NUMBER($people) ->
-        [zero] { $people } person
-        [one] { $people } person
-        [two] { $people } berson
-        [few] { $people } person
-        [many] { $people } pherson
-       *[other] { $people } person
-    } yn recordio { NUMBER($clipsPerDay) ->
-        [zero] { $clipsPerDay } clip
-        [one] { $clipsPerDay } clip
-        [two] { $clipsPerDay } glip
-        [few] { $clipsPerDay } clip
-        [many] { $clipsPerDay } chlip
-       *[other] { $clipsPerDay } clip
-    } bob dydd.
+    { $totalHours ->
+        [zero]
+            { $periodMonths ->
+                [zero]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [one]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [many]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+            }
+        [one]
+            { $periodMonths ->
+                [zero]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [one]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [many]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+            }
+        [two]
+            { $periodMonths ->
+                [zero]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [one]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [many]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [zero]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [one]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [many]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+            }
+        [many]
+            { $periodMonths ->
+                [zero]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [one]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [many]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [zero]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [one]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } fis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+                [many]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [zero]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [one]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } berson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                        [many]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } pherson yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [zero] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [one] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [two] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } glip bob dydd.
+                                [few] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                                [many] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } chlip bob dydd.
+                               *[other] { $totalHours } awr yn bosib mewn ychydig dros { $periodMonths } mis os fydd { $people } person yn recordio { $clipsPerDay } clip bob dydd.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
 receiving-emails-info = Ar hyn o bryd rydych wedi trefnu i dderbyn negeseuon e-bost i'ch atgoffa am eich targed, diweddariadau cynnydd a chylchlythyron am Common Voice
 not-receiving-emails-info = Ar hyn o bryd, rydych wedi eich gosod i <bold>BEIDIO</bold> â derbyn e-byst i atgoffa am dargedau, diweddariadau cynnydd a newyddlenni am Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [zero] { $count } clip
         [one] { $count } clip
         [two] { $count } glip

@@ -36,7 +36,6 @@ why-demographic = Zei ruangah dah biapi a si?
 accept-privacy = Keimah kong hi Mozilla <privacyLink> Kilvennak Policy </privacyLink> i nan ṭial bantuk in hmang ko uh.
 accept-privacy-title = Kilvennak Policy
 login-identity = Lutnak
-login-signup = Luhnak / Min Peknak
 edit = Remh
 email-subscriptions = Email Pehtlaihnak
 download-profile = Ka data dawnlok

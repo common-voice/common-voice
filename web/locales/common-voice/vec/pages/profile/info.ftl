@@ -36,7 +36,6 @@ why-demographic = Parché el xe inportante?
 accept-privacy = Aconsento a'l tratamento de i dati cofà indicà ne ƚ’<privacyLink>informativa so ƚa privacy</privacyLink> de Mozilla
 accept-privacy-title = Informativa so ƚa privacy
 login-identity = Identità de aceso
-login-signup = Asedi / Registrate
 edit = Modìfega
 email-subscriptions = Sotoscrision email
 download-profile = Descarga i me dati

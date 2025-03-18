@@ -134,7 +134,6 @@ spontaneous-card-header = የነፃነት ንግግር
 spontaneous-card-content = የውሂብ ስብስቦችን ለመፍጠር ተፈጥሮአዊ እና የንግግር አውዶች ምላሽ ይስጡ። ፍጹም የሆነ ለአፍ-ማፍቻ ቋንቋዎች።
 language-text-card-header = የቋንቋ ጽሑፍ
 language-text-card-content = የህዝብ ጎራ ጥያቄዎችን፣ ዓረፍተ ነገሮችን እና ለትርጉም ጽሑፍን፣ የአነስተኛ ቋንቋ ሞዴሎችን እና ሌሎችንም ይፍጠሩ ወይም ያጋሩ።
-coming-soon = በቅርብ ቀን
 add-text = ጽሑፍ አክል
 
 ## Community section

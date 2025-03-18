@@ -41,31 +41,85 @@ finish-editing = Voletz acabar d'editar?
 lose-changes-warning = S'ac deishatz ara, se perderàn toti es cambis
 build-custom-goal = Crea un objectiu personalizat
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ajudatz a arribar en { $hours } ora en { $language } damb un objectiu personau
        *[other] Ajudatz a arribar en { $hours } ores en { $language } damb un objectiu personau
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ajudatz ath Common Voice a arribar en { $hours } ora en ua lengua damb un objectiu personau
        *[other] Ajudatz ath Common Voice a arribar en { $hours } ores en ua lengua damb un objectiu personau
     }
 set-a-goal = Definís un objectiu
 cant-decide = Non sabetz de qué hèr?
 activity-needed-calculation-plural =
-    { NUMBER($people) ->
-        [one] Se { $people } persona enregistre
-       *[other] Se { $people } persones enregistren
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } talh per dia, se pòt arribar en
-       *[other] { $clipsPerDay } talhs per dia, se pòt arribar en
-    } { NUMBER($totalHours) ->
-        [one] { $totalHours } ora en pòc mès
-       *[other] { $totalHours } ores en pòc mès
-    } { NUMBER($periodMonths) ->
-        [11] de { $periodMonths } mesi.
-        [one] de { $periodMonths } mesi.
-       *[other] de { $periodMonths } mesi.
+    { $people ->
+        [one]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Se { $people } persona enregistre { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persona enregistre { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persona enregistre { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Se { $people } persona enregistre { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persona enregistre { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persona enregistre { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Se { $people } persona enregistre { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persona enregistre { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persona enregistre { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Se { $people } persona enregistre { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persona enregistre { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persona enregistre { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                            }
+                    }
+            }
+       *[other]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Se { $people } persones enregistren { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persones enregistren { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persones enregistren { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Se { $people } persones enregistren { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persones enregistren { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persones enregistren { $clipsPerDay } talh per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Se { $people } persones enregistren { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persones enregistren { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persones enregistren { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ora en pòc mès de { $periodMonths } mesi.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Se { $people } persones enregistren { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                                [one] Se { $people } persones enregistren { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                               *[other] Se { $people } persones enregistren { $clipsPerDay } talhs per dia, se pòt arribar en { $totalHours } ores en pòc mès de { $periodMonths } mesi.
+                            }
+                    }
+            }
     }
 how-many-per-day = Geniau! Guairi talhs per dia?
 how-many-a-week = Geniau! Guairi talhs per setmana?
@@ -73,7 +127,7 @@ which-goal-type = Geniau! Voletz parlar, escotar o es dues causes?
 receiving-emails-info = Actuauments, auetz configurat recéber corrèus electronics, coma rebrembes d’objectius, actualizacions deth vòste progrès e bulletins de notícies sus eth Common Voice
 not-receiving-emails-info = Actuauments, <bold>NON</bold> recebetz corrèus electronics coma rebrembes des objectius, actualizacions deth progrès personau o notícies sus eth Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } talh
        *[other] { $count } talhs
     }

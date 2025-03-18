@@ -23,9 +23,6 @@ target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di 
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Raportu

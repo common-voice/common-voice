@@ -30,9 +30,6 @@ target-segment-first-banner = { $locale } йылмылан Common Voice-ышто
 target-segment-add-voice = Шке йӱкетым ешаре
 target-segment-learn-more = Шукырак тунемаш
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Отчёт

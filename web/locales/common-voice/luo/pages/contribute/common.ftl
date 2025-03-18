@@ -28,11 +28,6 @@ target-segment-first-banner = Konywa gero migawo mokwongo mar Common Voice e { $
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Choko dwol
-contribute-sentence-collection-nav-header = choko weche
-
 ## Reporting
 
 report = Ripot/duoko

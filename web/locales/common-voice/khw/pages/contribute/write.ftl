@@ -66,7 +66,7 @@ sentence-variant-select-label = جملان مختلف شکل
 sentence-variant-select-placeholder = ای قسمو گنے (اختیاری)
 sentence-variant-select-multiple-variants = عام وار/ بو قسم
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو

@@ -41,37 +41,220 @@ finish-editing = Завершити спочатку редагування?
 lose-changes-warning = Якщо ви підете зараз, ваші зміни не збережуться
 build-custom-goal = Створити власну ціль
 help-reach-hours-pluralized =
-    Допоможіть досягти { NUMBER($hours) ->
-        [one] { $hours } годину
-        [few] { $hours } години
-       *[many] { $hours } годин
-    } мовою { $language } за допомогою особистої цілі
+    { $hours ->
+        [one] Допоможіть досягти { $hours } годину мовою { $language } за допомогою особистої цілі
+        [few] Допоможіть досягти { $hours } години мовою { $language } за допомогою особистої цілі
+       *[many] Допоможіть досягти { $hours } годин мовою { $language } за допомогою особистої цілі
+    }
 help-reach-hours-general-pluralized =
-    Допоможіть Common Voice досягти { NUMBER($hours) ->
-        [one] { $hours } годину
-        [few] { $hours } години
-       *[many] { $hours } годин
-    } цією мовою за допомогою особистої цілі
+    { $hours ->
+        [one] Допоможіть Common Voice досягти { $hours } годину цією мовою за допомогою особистої цілі
+        [few] Допоможіть Common Voice досягти { $hours } години цією мовою за допомогою особистої цілі
+       *[many] Допоможіть Common Voice досягти { $hours } годин цією мовою за допомогою особистої цілі
+    }
 set-a-goal = Поставити ціль
 cant-decide = Не можете вирішити?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } година
-        [few] { $totalHours } години
-       *[many] { $totalHours } годин
-    } досягається впродовж лише { NUMBER($periodMonths) ->
-        [one] { $periodMonths } місяця
-        [few] { $periodMonths } місяців
-       *[many] { $periodMonths } місяців
-    }, якщо { NUMBER($people) ->
-        [one] { $people } особа
-        [few] { $people } особи
-       *[many] { $people } осіб
-    } додаватиме { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } запис
-        [few] { $clipsPerDay } записи
-       *[many] { $clipsPerDay } записів
-    } щодня.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } година досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } години досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+            }
+       *[many]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяця, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особа додаватиме { $clipsPerDay } записів щодня.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } особи додаватиме { $clipsPerDay } записів щодня.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } запис щодня.
+                                [few] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записи щодня.
+                               *[many] { $totalHours } годин досягається впродовж лише { $periodMonths } місяців, якщо { $people } осіб додаватиме { $clipsPerDay } записів щодня.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Чудово! Скільки записів на день?
 how-many-a-week = Чудово! Скільки записів на тиждень?
 which-goal-type = Ви хочете записувати, перевіряти, чи те й інше?
@@ -82,7 +265,7 @@ not-receiving-emails-info =
     Ви <bold>НЕ</bold> отримуватимете листи з нагадуванням про цілі, досягнення
     та новини про Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } запис
         [few] { $count } записи
        *[many] { $count } записів

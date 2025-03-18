@@ -41,30 +41,77 @@ finish-editing = Gqibezela ukuhlela kuqala?
 lose-changes-warning = Ukuhamba ngoku kuthetha ukuba uza kuphulukana notshintsho lwakho
 build-custom-goal = Yakha injongo yesiNtu
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Nceda sifikelele { $hours } iyure kwi { $language } njongo yobuqu
        *[other] Nceda sifikelele { $hours } iiyure kwi { $language } njongo yobuqu
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Nceda iCommon Voice ifikelel ku { $hours } iyure ngolwimi olunenjongo yobuqu
        *[other] Nceda iCommon Voice ifikelel ku { $hours } iiyure ngolwimi olunenjongo yobuqu
     }
 set-a-goal = Seta injongo
 cant-decide = Uwukwazi ukwena isigqibo?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee
-       *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } inyanga ukuba
-       *[other] { $periodMonths } iinyanga ukuba
-    } { NUMBER($people) ->
-        [one] { $people } umntu rekhoda
-       *[other] { $people } abantu rekhoda
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } ikliphu ngelanga
-       *[other] { $clipsPerDay } iikliphu ngelanga
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
+                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
+                            }
+                    }
+            }
     }
 how-many-per-day = Kuhle! Zingaphi iikliphu ngelanga?
 how-many-a-week = Kuhle! Zingaphi iikliphu ngeveki?
@@ -72,7 +119,7 @@ which-goal-type = Ingaba uyafuna ukuthetha, mamela okanye zombini?
 receiving-emails-info = Ngoku usetelwe ukufumana ii-imeyile ezinjengezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga Common Voice
 not-receiving-emails-info = Ngoku usetelwe u<bold>KUNGA</bold> fumani ii-imeyile ezifana nezikhumbuzi zenjongo, uhlaziyo lwam lwenkqubela phambili kunye neeleta zeendaba malunga ne-Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ikliphu
        *[other] { $count } iikliphu
     }

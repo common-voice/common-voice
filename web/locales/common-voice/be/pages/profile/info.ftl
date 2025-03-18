@@ -56,7 +56,6 @@ accept-privacy-title = Палітыка прыватнасці
 accept-privacy-and-terms = Я пагаджаюся з <termsLink>правіламі</termsLink> і <privacyLink>палітыкай прыватнасці</privacyLink> Common Voice
 login-identity = Ідэнтыфікатар для ўваходу
 login = Увайсці
-login-signup = Увайсці / Зарэгістравацца
 edit = Рэдагаваць
 email-subscriptions = Падпіскі на эл. пошту
 download-profile = Спампаваць мае дадзеныя

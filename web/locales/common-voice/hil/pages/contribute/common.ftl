@@ -1,8 +1,5 @@
 contribute = Maghatag
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

@@ -31,11 +31,6 @@ target-segment-first-banner = Hjálpaðu til við að klára fyrsta hlutamarkmi�
 target-segment-add-voice = Bættu við röddinni þinni
 target-segment-learn-more = Fræðast meira
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Raddasafn
-contribute-sentence-collection-nav-header = Söfnun setninga
-
 ## Reporting
 
 report = Skýrsla
