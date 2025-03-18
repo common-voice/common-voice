@@ -8,6 +8,7 @@ how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av st
 
 about-language-req-subtitle = Nokon ber om å leggje til eit språk.
 about-localization-title = Omsetjing av nettstad
+about-localization-subtitle = Teksten på nettstaden er omsett til det språket.
 about-sentence-collection-title = Setningsinnsamling
 about-sentence-collection-subtitle = Det vert samla inn setningar slik at folk kan lese høgt.
 about-new-lang-title = Lansering av nytt språk
@@ -43,6 +44,7 @@ about-get-involved-text-2 =
     eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
 about-stay-in-touch = Korleis held eg kontakten?
 about-stay-in-touch-button = Registrer deg
+about-stay-in-touch-text-1 = <emailFragment>Registrer deg</emailFragment> på e-postlista vår for å lære korleis du kan vere med på hendingar, arrangement og samarbeidsutformingsfunksjonar på Common Voice.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
@@ -97,6 +99,7 @@ about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datase
 
 about-playbook-how-project-governance = Korleis vert prosjektavgjerder tekne ?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort muleg av eit mangfaldig fellesskap av aktivistar, lingvistar, datavitarar, akademikarar og programvareingeniørar frå heile verda. Prosjektet vert leia av Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Styringa vår er basert på verdiane i:
 about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
 ## How is Common Voice funded
