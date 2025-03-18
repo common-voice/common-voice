@@ -11,6 +11,7 @@ export type DBClip = {
   original_sentence_id: string
   has_valid_clip?: number
   taxonomy?: TaxonomyType
+  expire_at?: string | null // Added expire_at field (optional, can be NULL)
 }
 
 export default class ClipsTable extends Table {

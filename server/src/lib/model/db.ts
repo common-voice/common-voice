@@ -520,6 +520,7 @@ export default class DB {
             is_used 
             AND locale_id = ? 
             AND clips_count <= 15
+            AND (enddate IS NULL OR enddate > NOW()) 
             AND NOT EXISTS (
               SELECT original_sentence_id
               FROM clips
@@ -563,7 +564,9 @@ export default class DB {
           LEFT JOIN taxonomy_terms terms ON terms.id = entries.term_id
           LEFT JOIN sentences ON entries.sentence_id = sentences.id
           WHERE term_id IN (?)
-          AND is_used AND sentences.locale_id = ? AND NOT EXISTS (
+          AND is_used AND sentences.locale_id = ?
+          AND (enddate IS NULL OR enddate > NOW())
+          AND NOT EXISTS (
             SELECT original_sentence_id
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
@@ -683,41 +686,52 @@ export default class DB {
       MINUTE
     )()
 
-    //filter out users own clips
+    // Filter out users own clips and expired clips
     const validUserClips: DBClip[] = cachedClips.filter(
-      (row: DBClip) => row.client_id != client_id && row.is_approved === 1
+      (row: DBClip) =>
+        row.client_id !== client_id &&
+        row.is_approved === 1 &&
+        (row.expire_at === null || new Date(row.expire_at) > new Date())
     )
 
-    // potentially cache-able
-    // get users previously interacted clip ids
+    // Get users previously interacted clip ids
     const [submittedUserClipIds] = await this.mysql.query(
       `
     SELECT clip_id
-      FROM votes
-      WHERE client_id = ?
-      UNION ALL
-      SELECT clip_id
-      FROM reported_clips reported
-      WHERE client_id = ?
-      UNION ALL
-      SELECT clip_id
-      FROM skipped_clips skipped
-      WHERE client_id = ?
+    FROM votes
+    WHERE client_id = ?
+    UNION ALL
+    SELECT clip_id
+    FROM reported_clips reported
+    WHERE client_id = ?
+    UNION ALL
+    SELECT clip_id
+    FROM skipped_clips skipped
+    WHERE client_id = ?
     `,
       [client_id, client_id, client_id]
     )
 
-    //remove dups and store as a flat set
+    // Remove duplicates and store as a flat set
     const skipClipIds: Set<number> = new Set(
       submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
     )
 
-    //get clips that a user hasn't already seen
+    // Get clips that a user hasn't already seen and are not expired
     const validClips = new Set(
       validUserClips.filter((clip: DBClip) => {
-        if (exemptFromSSRL) return !skipClipIds.has(clip.id)
-        //only return clips that have not been validated before
-        return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0
+        if (exemptFromSSRL) {
+          return (
+            !skipClipIds.has(clip.id) &&
+            (clip.expire_at === null || new Date(clip.expire_at) > new Date())
+          )
+        }
+        // Only return clips that have not been validated before and are not expired
+        return (
+          !skipClipIds.has(clip.id) &&
+          clip.has_valid_clip === 0 &&
+          (clip.expire_at === null || new Date(clip.expire_at) > new Date())
+        )
       })
     )
 
@@ -729,23 +743,27 @@ export default class DB {
     FROM (
       SELECT clips.*
       FROM clips
-      LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-      WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ? AND clips.is_approved = 1
-      AND NOT EXISTS(
-        SELECT clip_id
-        FROM votes
-        WHERE votes.clip_id = clips.id AND client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM reported_clips reported
-        WHERE reported.clip_id = clips.id AND client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM skipped_clips skipped
-        WHERE skipped.clip_id = clips.id AND client_id = ?
-      )
-      AND sentences.clips_count <= 50
-      ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+      LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
+      WHERE is_valid IS NULL
+        AND clips.locale_id = ?
+        AND clips.client_id <> ?
+        AND clips.is_approved = 1
+        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+        AND NOT EXISTS (
+          SELECT clip_id
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
+        )
+        AND sentences.clips_count <= 50
+        ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
       ORDER BY sentences.clips_count ASC, clips.created_at ASC
       LIMIT ?
     ) t
@@ -774,24 +792,26 @@ export default class DB {
       `
     SELECT *
     FROM (
-      SELECT * FROM clips
+      SELECT * 
+      FROM clips
       WHERE locale_id = ?
-      AND is_valid IS NULL
-      AND clips.client_id <> ?
-      AND clips.is_approved = 1
-      AND NOT EXISTS (
-        SELECT clip_id
-        FROM votes
-        WHERE votes.clip_id = clips.id AND client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM reported_clips reported
-        WHERE reported.clip_id = clips.id AND client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM skipped_clips skipped
-        WHERE skipped.clip_id = clips.id AND client_id = ?
-      )
+        AND is_valid IS NULL
+        AND clips.client_id <> ?
+        AND clips.is_approved = 1
+        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+        AND NOT EXISTS (
+          SELECT clip_id
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
+        )
       GROUP BY original_sentence_id
       LIMIT ?
     ) t
@@ -807,7 +827,7 @@ export default class DB {
         count,
       ]
     )
-    console.log('meshmesh without texonomy', clips)
+    console.log('meshmesh without taxonomy', clips)
     return clips as DBClip[]
   }
   //----------------------------
@@ -1054,7 +1074,7 @@ export default class DB {
           SELECT
             id,
             CASE
-              WHEN counts.upvotes >= 200 AND counts.upvotes > counts.downvotes
+              WHEN counts.upvotes >= 2 AND counts.upvotes > counts.downvotes
                 THEN TRUE
               WHEN counts.downvotes >= 5 AND counts.downvotes > counts.upvotes
                 THEN FALSE
@@ -1136,6 +1156,30 @@ export default class DB {
           ) ON DUPLICATE KEY UPDATE clip_id = clip_id
         `,
         [insertId, client_id]
+      )
+      // Fetch the user's email using the client_id
+      const [[user]] = await this.mysql.query(
+        `
+        SELECT email FROM user_clients WHERE client_id = ?
+      `,
+        [client_id]
+      )
+
+      // Determine the email value to use
+      const emailValue = user && user.email ? user.email : 'has no email'
+
+      // Insert a notification record into the notifications table
+      await this.mysql.query(
+        `
+        INSERT INTO notifications (user_id, email, title, message)
+        VALUES (?, ?, ?, ?)
+      `,
+        [
+          client_id, // Use client_id as user_id
+          emailValue, // Use the email fetched from the user_clients table or "has no email"
+          'New Clip Saved',
+          `Your clip with sentence ID ${original_sentence_id} has been saved successfully.`,
+        ]
       )
     } catch (e) {
       console.error('error saving clip', e)
@@ -1224,6 +1268,7 @@ export default class DB {
         ])
       )
     )
+    console.log('meshmesh', results)
 
     return results.reduce((totals, [[[{ date, total }]], [[{ valid }]]], i) => {
       const last = totals[totals.length - 1]
