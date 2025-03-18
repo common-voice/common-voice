@@ -100,6 +100,10 @@ about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datase
 about-playbook-how-project-governance = Korleis vert prosjektavgjerder tekne ?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort muleg av eit mangfaldig fellesskap av aktivistar, lingvistar, datavitarar, akademikarar og programvareingeniørar frå heile verda. Prosjektet vert leia av Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Styringa vår er basert på verdiane i:
+about-playbook-how-project-governance-content-3 = Personvern, sikkerheit og openheit.
+about-playbook-how-project-governance-content-4 = Samfunnsdeltaking og avgjerdstaking.
+about-playbook-how-project-governance-content-5 = Verdi og anerkjenning.
+about-playbook-how-project-governance-content-6 = Gjensidig ansvarskjensle.
 about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
 ## How is Common Voice funded
