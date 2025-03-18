@@ -1,5 +1,6 @@
 ## Prompts page
 
+error-recording = ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການບັນທຶກ
 # For the button to delete a response to a prompt
 delete = ລຶບ
 # For the disabled button on a prompt that indicates a prompt is already submitted
