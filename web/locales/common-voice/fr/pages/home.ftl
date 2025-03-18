@@ -184,5 +184,7 @@ partner-section-subtitle-tech-companies = <bold>Entreprises de la tech</bold> :
 partner-section-subtitle-civil-society = <bold>Société civile et chercheurs·euses</bold> : créez, hébergez et partagez des jeux de données gratuitement
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Organisations philanthropiques</bold> : parrainez la création de jeux de données pour stimuler l’innovation et le développement locaux
+# icon is an arrow that points to the right
+get-in-touch-button = Contactez-nous <icon></icon>
 # Partners section
 our-partners-include = Parmi nos partenaires…
