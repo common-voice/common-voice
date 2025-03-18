@@ -16,6 +16,7 @@ misreadings-tip-1 = [Skulle vore «Vi er»]
 still-have-questions = Har du framleis spørsmål?
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 reviewing-sentences = Vurdere setningar
+sentence-domain = Setningsdomene
 citing-sentences-subheader-websites = Nettstadar
 citing-sentences-subheader-offline-sources = Fråkopla kjelder
 citation =

@@ -11,6 +11,13 @@ how-to-cite = Korleis siterer eg?
 guidelines = Retningslinjer
 contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla
+single-sentence = Enkelt setning
+small-batch-sentence = Lite parti
+bulk-sentence = Masseinnsending
+sentence-domain-combobox-label = Setningsdomene
+sentence-domain-select-placeholder = Vel opptil tre domene
+# Sentence Domain dropdown option
+agriculture_food = Landbruk og matprodukt
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
@@ -19,7 +26,7 @@ general = Generelt
 healthcare = Helsevesen
 sentence-variant-select-placeholder = Vel ein variant (valfritt)
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 try-upload-again-md = Prøv å laste opp igjen
 select-file = Vel fil
