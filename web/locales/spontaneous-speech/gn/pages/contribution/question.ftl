@@ -1,6 +1,7 @@
 ## Question Page
 
 add-question-textarea-placeholder = Techapyrã, "¿Ma’ẽrãpa eiporúta tembiporupyahu?"
+question-dataset-language = Mba’ekuaarã aty: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } 1 porandu mbyatypyre
