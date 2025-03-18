@@ -41,12 +41,12 @@ finish-editing = ݵَرکَمݳس تَرمݵم مُکمل اِرا؟
 lose-changes-warning = مݸ جݳنݳئی مطلَپ ہݵئ چھݳتݳ تُمݺ ارݸت تبدݵلِݣ ضݳئع ہݸݣݺ.
 build-custom-goal = حسب ضرݸلت مقصَد دُرݳلݳ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] اپَنئ ذݳتݵ مقصَتس کݸٹ { $hours } گَھنٹَنݳ { $language }دِݽقلتِنَنݳ مَدَد اِرݳ
        *[other] اپَنئ ذݳتݵ مقصَتس کݸٹ { $hours } گَھنٹَنݳ { $language }دِݽقلتِنَنݳ مَدَد اِرݳ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کݳمَن ݸݳئسَ شُݸ کݸنݵتݳ بݳݽِکِنݳ { $hours }گَھنٹئ مَقصَت حݳصِل اِرِنݳئی کݳرݸ اندݳد اِرݳ، اݵک ذݳتݵ مقصَتِکِس کݸٹ
        *[other] کݳمَن ݸݳئسَ شُݸ کݸنݵتݳ بݳݽِکِنݳ { $hours }گَھنٹݵݣݺ مَقصَت حݳصِل اِرِنݳئی کݳرݸ اندݳد اِرݳ، اݵک ذݳتݵ مقصَتِکِس کݸٹ
     }
@@ -62,7 +62,7 @@ not-receiving-emails-info =
     تُمݺ فِلحݳل اِݵ مݵلݳ مݸصݸل <bold>نݵ</bold> رِنݳ دسقٹݳرݸچھݸت، کݵ زݳئلَس مقصتݵݣݺ یݳد دہݳنݵ، 
     مݺ پݵشرفتݵئ تݳزہ صݸرتحݳل نݸ کݳمَن وݳئسݵئ بݳرہ نݳ نݵݸز لݵٹرݳ.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } کِلِپ
        *[other] { $count } کِلِپݸݣ
     }

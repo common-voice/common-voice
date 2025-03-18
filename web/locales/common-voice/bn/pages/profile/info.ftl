@@ -43,7 +43,6 @@ why-demographic = এটা কেন গুরুত্বপূর্ণ?
 accept-privacy = মোজিলার <privacyLink>গোপনীয়তা নীতিতে</privacyLink> থাকা ব্যাখ্যা অনুযায়ী আপনি যেভাবে এই তথ্যটি পরিচালনা করবেন তার সাথে আমি একমত
 accept-privacy-title = গোপনীয়তার নীতি
 login-identity = লগইন পরিচয়
-login-signup = লগ ইন / সাইন আপ
 edit = সম্পাদনা
 email-subscriptions = ইমেল সাবস্ক্রিপশন
 download-profile = আমার তথ্য ডাউনলোড করুন

@@ -13,9 +13,6 @@ share-title-new = <bold>আমাদের সাহায্য করুন</b
 login-to-get-started = শুরু করতে লগ ইন করুন বা সাইন আপ করুন
 target-segment-learn-more = আরও জানুন
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = অভিযোগ করুন

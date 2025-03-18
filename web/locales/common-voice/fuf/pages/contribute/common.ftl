@@ -27,9 +27,6 @@ target-segment-first-banner = Wallu taƴannde toɓɓaande addannde Common Voice 
 target-segment-add-voice = Ɓeydu Sawto Maa
 target-segment-learn-more = Ɓeydu humpito
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Jaŋtol

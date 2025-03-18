@@ -118,6 +118,13 @@ get-started = Pour commencer <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice est une plateforme libre et open source pour la création de données par la communauté.
+action-items-section-subtitle = Tout le monde peut préserver, revitaliser et améliorer sa langue en partageant, créant et gérant des jeux de données textuelles et vocales.
+scripted-card-header = Parole lue
+scripted-card-content = Lisez des phrases à haute voix dans votre langue et contribuez au jeu de données public le plus diversifié au monde.
+spontaneous-card-header = Parole spontanée
+spontaneous-card-content = Répondez à des questions pour créer des jeux de données pour des contextes naturels et conversationnels. Parfait pour les langues à prédominance orale.
+language-text-card-header = Texte
+language-text-card-content = Créez ou partagez des questions, des phrases et du texte du domaine public à traduire, des modèles linguistiques de petite taille, etc.
 add-text = Ajouter du texte
 
 ## Community section
@@ -160,6 +167,7 @@ answer-questions-link = Répondre à des questions
 transcribe-answers-link = Transcrire des réponses
 review-transcriptions-link = Vérifier des transcriptions
 contribute-text-link = Envoyer du texte
+press-and-stories-link = Presse et articles
 
 ## Partner section
 

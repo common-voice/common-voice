@@ -18,9 +18,6 @@ share-title-new = <bold>Għinna</bold> nsibu aktar vuċijiet
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
 login-to-get-started = Illoggja jew oħloq kont biex tibda
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Irrapporta

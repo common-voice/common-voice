@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Пайдаланышын тыгай лӱмдым
 accept-privacy = Тиде информацийым <privacyLink>Шолыплык политикыште</privacyLink> кузе ямдылымым умылтарымыда дене мый келшем.
 accept-privacy-title = Шолыплык политике
 login-identity = Логин
-login-signup = Системыш пуро / Регистрацийым эрте
 edit = Редактироватлаш
 email-subscriptions = Электрон почто гоч возалтмаш
 download-profile = Мыйын данныйым тулен налаш

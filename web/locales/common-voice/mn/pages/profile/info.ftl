@@ -36,7 +36,6 @@ why-demographic = Яагаад хамаатай вэ?
 accept-privacy = Энэ мэдээллийг Mozilla-ийн <privacyLink>Нууцлалын бодлого</privacyLink>-д тайлбарласны дагуу зохицуулж байгаатай би эвлэрнэ.
 accept-privacy-title = Нууцлалын бодлого
 login-identity = Нэвтрэх Тодорхойлолт
-login-signup = Нэвтрэх / бүртгүүлэх
 edit = Засах
 email-subscriptions = И-мэйл бүртгэлүүд
 download-profile = Өөрийн өгөгдлийг татах

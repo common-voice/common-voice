@@ -127,7 +127,6 @@ spontaneous-card-header = Spontāna runa
 spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
 language-text-card-header = Valodas teksti
 language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
-coming-soon = Drīzumā
 add-text = Pievienot tekstu
 
 ## Community section

@@ -56,7 +56,6 @@ accept-privacy-title = Gizlilik Politikası
 accept-privacy-and-terms = Common Voice’un <termsLink>Koşullarını</termsLink> ve <privacyLink>Gizlilik İlkelerini</privacyLink> kabul ediyorum
 login-identity = Giriş kimliği
 login = Giriş yap
-login-signup = Giriş / Kayıt
 edit = Düzenle
 email-subscriptions = E-posta abonelikleri
 download-profile = Verilerimi indir

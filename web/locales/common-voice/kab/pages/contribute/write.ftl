@@ -3,7 +3,6 @@
 write = Aru
 sentence =
     .label = Tafyirt
-sentence-input-value = Sekcem tafyirt n taɣult tazayazt dagi
 citation =
     .label = Abder
 sc-review-write-title = Anti tifyar i zemreɣ ad rnuɣ?
@@ -22,7 +21,6 @@ required-field = Ma ulac aɣilif ččaṛ urti-yagi.
 single-sentence-submission = Tuzna n tefyirt tasuft
 bulk-sentence-submission = Tuzna n waṭas n tefyirin
 single-sentence = Tafyirt tasuft
-bulk-sentences = Aṭas n tefyar
 sentence-domain-combobox-label = Talɣut n tefyirt
 sentence-domain-select-placeholder = Fren alamma kraḍ n tiɣula
 # Sentence Domain dropdown option
@@ -32,7 +30,7 @@ general = Amatu
 # Sentence Domain dropdown option
 nature_environment = Agama d twennaḍt
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 sc-bulk-upload-instruction-drop = Sers afaylu dagi i usali
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
@@ -51,3 +49,12 @@ file-invalid-type = Yir afaylu
 file-too-large = Afaylu ɣezzif aṭas
 file-too-small = Afaylu wezzil aṭas
 too-many-files = Aṭas n yifuyla
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -27,21 +27,152 @@ validated-hours = Patvirtinta valandų
 recorded-hours = Įrašyta valandų
 whats-inside = Kas yra „Common Voice“ duomenų rinkinyje?
 dataset-description-hours =
-    Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> { $total ->
-        [one] valandos
-        [few] valandų
-       *[other] valandų
-    } įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
-    
-    Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> { $valid ->
-        [one] valanda
-        [few] valandos
-       *[other] valandų
-    } patvirtintų įrašų <b>{ $languages }</b> { $languages ->
-        [one] kalba
-        [few] kalbomis
-       *[other] kalbų
-    }, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+    { $total ->
+        [one]
+            { $valid ->
+                [one]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+                [few]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+               *[other]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandos įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+            }
+        [few]
+            { $valid ->
+                [one]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+                [few]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+               *[other]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+            }
+       *[other]
+            { $valid ->
+                [one]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valanda patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+                [few]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandos patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+               *[other]
+                    { $languages ->
+                        [one]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalba, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                        [few]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalbomis, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                       *[other]
+                            Kiekvieną įrašą duomenų rinkinyje sudaro atskiras MP3 failas ir jį atitinkantis teksto failas. Su daugeliu iš <b>{ $total }</b> valandų įrašų, esančių duomenų rinkinyje, taip pat yra susieti demografiniai metaduomenys, tokie kaip kalbėtojo amžius, lytis ir akcentas, galintys padėti tiksliau apmokyti kalbos atpažinimo varikliukus.
+                            
+                            Šiuo metu duomenų rinkinį sudaro <b>{ $valid }</b> valandų patvirtintų įrašų <b>{ $languages }</b> kalbų, tačiau mes šį duomenų rinkinį nuolat papildome vis naujais balsais ir kalbomis. Jeigu nori pasiūlyti naują kalbą į sąrašą ar kitaip prisidėti prie šio projekto, apsilankyk mūsų <languagesLink>kalbų tinklalapyje</languagesLink>.
+                    }
+            }
+    }
 want-dataset-update = Nori sužinoti kai išleisime naują „Common Voice“ duomenų rinkinio versiją? Prenumeruok mūsų naujienlaiškį.
 subscribe = Prenumeruoti
 get-started-speech = Susipažink su kalbos atpažinimu

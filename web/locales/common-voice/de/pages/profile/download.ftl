@@ -28,4 +28,3 @@ download-request-modal-description = Hier sind die Links zum Herunterladen Ihrer
 download-request-link-text = ZIP-Datei { $offset } von { $total }
 download-request-metadata-link = Satztext
 download-request-link-single = Sie können die direkten URLs auch kopieren und in Ihren bevorzugten Download-Manager einfügen. Sie laufen in 12 Stunden ab, aber Sie können jederzeit zu dieser Seite zurückkehren, um neue zu erstellen.
-

@@ -5,7 +5,6 @@ write-instruction = Ɓátâ <icon></icon> mwembá mɔɔ́ mwá m̀ɓóko mw
 write-page-subtitle = Myembá má bwambo méná ó maɓolanɔ́ mí mǐŋgéá ndé ó mulɔ́ŋ mwá ɓoloŋgi ɓá mbóko mwá ǹtélélé ówásá wonja cc-0.
 sentence =
     .label = M̀ɓasá
-sentence-input-value = Tilá mwembá mɔ́ŋgɔ̄ mwá ɓwambo mwá m̀ɓóko mwá ǹtélélé ó wân
 citation-input-placeholder = Bíísɛ́ ó wɛ́nī mwembá mwá ɓwambo mɔ́ŋgɔ̄ mú wúnɔ̄.
 citation =
     .label = Mɓàsá
@@ -30,7 +29,6 @@ required-field = Sôn lóndɛ́ yên epólo
 single-sentence-submission = Lóma lá mwembá mwá ɓwambo mɔɔ́ búkatɛ́
 bulk-sentence-submission = Lóma lá myembá má ɓwambo jǐta
 single-sentence = Mwembá mwá ɓwambo mɔɔ́ búkatɛ́
-bulk-sentences = Myembá má ɓwambo
 sentence-domain-combobox-label = Eloŋgi á mwembá mwá ɓwambo
 sentence-domain-select-placeholder = Pɔsɔ́ nátɛna nátɛna ɓeloŋgi
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Mbadi nípɛ́pɛ̄ n a mwembá mwá ɓwambo
 sentence-variant-select-placeholder = Pɔsɔ́  mbadi nípɛ̄pɛ́ nyá pásɛlɛ(minyakisan mí tití)
 sentence-variant-select-multiple-variants = Epasi ewɔ́ yá myaŋgó má ɓwambo/ Mbadi a pásɛlɛ  jǐta
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Lóma <icon></icon> myembá má ɓwambo má ǹtélélé
@@ -89,3 +87,12 @@ file-invalid-type = Mukuta mwá kálati mú kasáɓɛ
 file-too-large = Mukuta mwá́ kálati mú e ɓodiló ɓwambí
 file-too-small = Mukuta mwá ká́lati mú ɓosadi ɓwambí
 too-many-files = Mikuta má kálati mí e jǐta
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

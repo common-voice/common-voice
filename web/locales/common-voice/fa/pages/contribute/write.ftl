@@ -66,7 +66,7 @@ sentence-variant-select-label = گونه‌های مختلف جملات
 sentence-variant-select-placeholder = انتخاب یک گونه (اختیاری)
 sentence-variant-select-multiple-variants = زبان عمومی / گونه‌های مختلف
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = بارگذاری <icon></icon> جملات در مالکیت عمومی
@@ -143,3 +143,9 @@ small-batch-sentences-rule-3 = جملات را با فشار دادن یک با�
 small-batch-sentences-rule-4 = تا ۱٫۰۰۰ جمله اضافه کنید
 small-batch-sentences-rule-5 = همه جملات باید مالکیت عمومی باشند
 small-batch-sentences-rule-6 = همه جملات باید ارجاع یکسانی داشته باشند
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -35,7 +35,7 @@ set-a-goal = Magtakda ng layunin
 cant-decide = Hindi makapagdesisyon?
 which-goal-type = Gusto mo bang Magsalita, Makinig o pareho?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

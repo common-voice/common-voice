@@ -5,7 +5,6 @@ write-instruction = Add <icon></icon> wan pablik domein sentens
 write-page-subtitle = Sentens wey yu kontribut for hia go de add to pablikli avelebul CC-0 laisens dataset.
 sentence =
     .label = Saiteshon
-sentence-input-value = Enta yur pablik domein sentens hia
 citation-input-placeholder = Referens de sos of yur sentens (na dis nided)
 citation =
     .label = Saiteshon
@@ -32,7 +31,6 @@ required-field = Abeg fil dis field.
 single-sentence-submission = Singul Sentens Sobmishon
 bulk-sentence-submission = Bulk Sentens Sobmishon
 single-sentence = Singul Sentens
-bulk-sentences = Bulk Sentens
 sentence-domain-combobox-label = Sentens domein
 sentence-domain-select-placeholder = Selekt up to three domeins (optional)
 # Sentence Domain dropdown option
@@ -63,7 +61,7 @@ sentence-variant-select-label = Sentens veriant
 sentence-variant-select-placeholder = Selekt a veriant (optshonal)
 sentence-variant-select-multiple-variants = General langwej/moltipl veriants
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Oplod <icon></icon> pablik domein sentenses
@@ -91,3 +89,12 @@ file-invalid-type = Invalid fail
 file-too-large = Fail too laj
 file-too-small = Fail too smol
 too-many-files = Too meni fails
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

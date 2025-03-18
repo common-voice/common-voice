@@ -125,7 +125,6 @@ spontaneous-card-header = E folur Spontane
 spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
 language-text-card-header = Tekst Gjuhe
 language-text-card-content = Krijoni ose ndani me të tjerë pyetje, togfjalësh dhe tekst në përkatësi publike dhe tekst për përkthim, modele të vegjël gjuhësorë, etj.
-coming-soon = Së Shpejti
 add-text = Shtoni Tekst
 
 ## Community section

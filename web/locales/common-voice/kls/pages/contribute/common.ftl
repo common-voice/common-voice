@@ -30,11 +30,6 @@ target-segment-first-banner = sawin awaz as bati madad kari, sawzai
 target-segment-add-voice = Tay awaz jama kari
 target-segment-learn-more = Warek ch'ic'i
 change-preferences = Tabdil kari, khe'n kay bhas haw
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Awaz jama karik
-contribute-sentence-collection-nav-header = mon jama karik
 login-signup = kholaw karik/ ban karik
 vote-yes = Han
 vote-no = Ne

@@ -36,4 +36,3 @@ signup-button-value = E-posta adresime bir bağlantı gönder
 footer-text-privacy = <privacyLink>Gizlilik</privacyLink>
 footer-text-terms = <termsLink>Koşullar</termsLink>
 footer-text-cookies = <cookiesLink>Çerezler<cookiesLink>
-

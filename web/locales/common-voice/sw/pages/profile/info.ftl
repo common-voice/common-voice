@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Data ya mtumiaji isiyojulikana kama umri, jinsia
 accept-privacy = Nakubaliana na maelekezo ya kushughulikia data hii kama mnavyoeleza kupitia <privacyLink> Sera ya faragha ya Mozilla </privacyLink>
 accept-privacy-title = Sera ya Faragha
 login-identity = Utambulisho wa Kuingia
-login-signup = Ingia/Jisajili
 edit = Hariri
 email-subscriptions = Usajili wa baruapepe
 download-profile = pakua data yangu

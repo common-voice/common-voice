@@ -26,9 +26,6 @@ target-segment-first-banner = Ajudatz a arténher eth prumèr segment objectiu d
 target-segment-add-voice = Ahigetz era vòsta votz
 target-segment-learn-more = Mès informacion
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Informa

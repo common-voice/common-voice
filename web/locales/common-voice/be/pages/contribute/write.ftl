@@ -26,7 +26,7 @@ single-sentence-submission = Адправіць адзін сказ
 bulk-sentence-submission = Дабавіць шмат сказаў
 single-sentence = Адзін сказ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 maximum-file-size = Максімальны памер файла: 25 Мб
 

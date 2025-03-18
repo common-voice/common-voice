@@ -30,11 +30,6 @@ login-to-get-started = Sínigh isteach nó cláraigh le tosú
 target-segment-add-voice = Cuir Do Ghuth Leis
 target-segment-learn-more = Tuilleadh Eolais
 change-preferences = Athraigh na sainroghanna
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Bailiú Guthanna
-contribute-sentence-collection-nav-header = Bailiú Abairtí
 vote-yes = Tá
 vote-no = Níl
 datasets = Tacair sonraí

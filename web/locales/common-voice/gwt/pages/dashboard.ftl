@@ -41,72 +41,72 @@ finish-editing = اول ترمیمہ فُورہ کېرِؤ؟
 lose-changes-warning = نوری ووڑِکَنی مطلب تھنی زی مے تانُو تبدیلِی نامہ فُسَوَہ
 build-custom-goal = ضرورَتَنہ مطابق یَک مقصد ݫُپَؤ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ذاتی مقصدَہ مِنزی{ $hours } گېنٹہ مِزان{ $language } مِز فېدِکہ مدد کېرِؤ
        *[other] ذاتی مقصدَہ مِنزی{ $hours } گېنٹہ مِزان{ $language } مِز فېدِکہ مدد کېرِؤ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کامن وئسہ ذاتی مقصدَہ مِنزی باتِیہ{ $hours }گېنٹہ مِزا فېدِکہ مدد کېرِؤ
        *[other] کامن وئسہ ذاتی مقصدَہ مِنزی باتِیہ{ $hours }گېنٹہ مِزا فېدِکہ مدد کېرِؤ
     }
 set-a-goal = یَہ مقصدہ فُورہ کېرِؤ
 cant-decide = فیصلہ کېرِی نہ بَمانېوا؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = باتی کېرانے ژِمانا، ݭُنڈانے ژِمان
 receiving-emails-info = مے فلیالَن کامن وائسَنہ بارا ای مېلز لکہ زی گول ریمائینڈرز، مېری پراگرس اپڈېٹس اؤ نیوز لېٹر وصول کېرِکاں تیار تھنَؤ
 not-receiving-emails-info = مے فلیالن<bold>NOT</bold> رتئ سیٹ تھنَؤ لَکہ زی گول ریمائینڈرز، مېری پراگرس اپڈېٹس اؤ کامن وائسَنہ بار نیوز لېٹرز وصول
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }کلپس
        *[other] { $count }کِلپس
     }

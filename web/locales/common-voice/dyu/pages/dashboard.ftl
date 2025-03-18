@@ -41,24 +41,27 @@ finish-editing = Ka sɛgɛsɛgɛli ban fɔlɔ wa?
 lose-changes-warning = Ni i bɔra sisan, o kɔrɔ ye ko i bɛna bɔnɛ i ka fɛn caman Changements (Yɛlɛma) la
 build-custom-goal = Laɲini dɔ jɔ min bɛ kɛ ka kɛɲɛ ni ladamu ye
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] Dɛmɛ ka se { $hours } lɛrɛ ma { $language } kɔnɔ ni i yɛrɛ ka laɲini ye
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] Common Voice dɛmɛ ka se { $hours } lɛrɛw ma kan dɔ la ni a yɛrɛ ka laɲini ye
     }
 set-a-goal = I ka kuntilenna dɔ sigi sen kan
 cant-decide = Se tɛ ka ko latigɛ wa?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } lɛrɛ bɛ se ka sɔrɔ a tɛmɛnen dɔrɔn kɔnɔ
-    } { NUMBER($periodMonths) ->
-       *[other] { "" }
-    } { NUMBER($people) ->
-       *[other] { "" }
-    } { NUMBER($clipsPerDay) ->
-       *[other] { "" }
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } lɛrɛ bɛ se ka sɔrɔ a tɛmɛnen dɔrɔn kɔnɔ { "" } { "" } { "" }
+                            }
+                    }
+            }
     }
 how-many-per-day = Belebele! Klip joli bɛ kɛ tile kɔnɔ?
 how-many-a-week = Belebele! Klip joli bɛ kɛ tile kɔnɔ?
@@ -70,7 +73,7 @@ not-receiving-emails-info =
     I bε bεn sisan ka batakiw i n’a fε ka bεn hakilijiginw, ne
     kɛnɛya ani kɛnɛyadisitɛriw Kumakan jɛlen kan
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count }échantillonw (échantillons) ye
     }
 help-share-goal = An dɛmɛ ka kumakan caman sɔrɔ, k’aw ka laɲini tila

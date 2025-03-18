@@ -123,7 +123,6 @@ spontaneous-card-header = Fala espontánea
 spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
-coming-soon = Proximamente
 add-text = Achegar texto
 
 ## Community section

@@ -30,11 +30,6 @@ target-segment-first-banner = voloyane biè a te bor b'osu Common Voice en { $lo
 target-segment-add-voice = vaa kiň
 target-segment-learn-more = e kôme bera yem
 change-preferences = e bera fol
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = e koan mekiñ
-contribute-sentence-collection-nav-header = e koan bifiè
 login-signup = e ves
 vote-yes = yaa/ o'oho
 vote-no = ka'a/ ayè

@@ -39,30 +39,33 @@ finish-editing = Verê veran sereraştkerdiş biqedîyo?
 lose-changes-warning = Ti ke nika vejîyenî/a, vurîyayîşê to benê vîndî
 build-custom-goal = Hedefo taybetî rone
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] Bi hedefê xo yê şexsî dest bide ke { $language } de biresîme { $hours } saetan
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] Bi hedefê xo yê şexsî dest bide ke Common Voice de biresîme { $hours } saetan
     }
 set-a-goal = Xo rê hedefêk rone
 cant-decide = Nêeşkenî/a qerar bidê?
 activity-needed-calculation-plural =
-    { NUMBER($people) ->
-       *[other] Eke { $people } kesî
-    } { NUMBER($clipsPerDay) ->
-       *[other] roje de { $clipsPerDay } qeydanê vengî virazenê
-    } { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } aşman de
-    } { NUMBER($totalHours) ->
-       *[other] { $totalHours } saetî mumkîn ê.
+    { $people ->
+       *[other]
+            { $clipsPerDay ->
+               *[other]
+                    { $periodMonths ->
+                       *[other]
+                            { $totalHours ->
+                               *[other] Eke { $people } kesî roje de { $clipsPerDay } qeydanê vengî virazenê { $periodMonths } aşman de { $totalHours } saetî mumkîn ê.
+                            }
+                    }
+            }
     }
 how-many-per-day = Zaf rind o! Roje de çend qeydî?
 how-many-a-week = Zaf rind o! Hewte de çend qeydî?
 which-goal-type = Ti wazenî/a qisey kerê, goşdarî bikerê yan zî her di?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } qeydê vengî
     }
 help-share-goal = Dest bide ma ke hîna zaf vengan bivînîme, hedefê xo pare bike

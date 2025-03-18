@@ -41,19 +41,19 @@ finish-editing = Želite najprej dokončati urejanje?
 lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
 build-custom-goal = Sestavite cilj po meri
 help-reach-hours-pluralized =
-    Pomagajte doseči { NUMBER($hours) ->
-        [one] { $hours } uro
-        [two] { $hours } uri
-        [few] { $hours } ure
-       *[other] { $hours } ur
-    } v jeziku { $language } z osebnim ciljem
+    { $hours ->
+        [one] Pomagajte doseči { $hours } uro v jeziku { $language } z osebnim ciljem
+        [two] Pomagajte doseči { $hours } uri v jeziku { $language } z osebnim ciljem
+        [few] Pomagajte doseči { $hours } ure v jeziku { $language } z osebnim ciljem
+       *[other] Pomagajte doseči { $hours } ur v jeziku { $language } z osebnim ciljem
+    }
 help-reach-hours-general-pluralized =
-    Pomagajte projektu Common Voice doseči { NUMBER($hours) ->
-        [one] { $hours } uro
-        [two] { $hours } uri
-        [few] { $hours } ure
-       *[other] { $hours } ur
-    } v jeziku z osebnim ciljem
+    { $hours ->
+        [one] Pomagajte projektu Common Voice doseči { $hours } uro v jeziku z osebnim ciljem
+        [two] Pomagajte projektu Common Voice doseči { $hours } uri v jeziku z osebnim ciljem
+        [few] Pomagajte projektu Common Voice doseči { $hours } ure v jeziku z osebnim ciljem
+       *[other] Pomagajte projektu Common Voice doseči { $hours } ur v jeziku z osebnim ciljem
+    }
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
 how-many-per-day = Odlično! Koliko posnetkov na dan?
@@ -64,7 +64,7 @@ receiving-emails-info =
     posodobitve napredka in novice projekta Common Voice
 not-receiving-emails-info = Trenutno <bold>NE</bold> prejemate e-poštnih sporočil, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } posnetek
         [two] { $count } posnetka
         [few] { $count } posnetki

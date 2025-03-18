@@ -4,9 +4,6 @@ shortcuts = Snarvegir
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

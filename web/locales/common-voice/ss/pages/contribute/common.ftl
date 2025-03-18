@@ -30,9 +30,6 @@ target-segment-first-banner = Sita ekwakheni i-target segment ya common voice ye
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Bika

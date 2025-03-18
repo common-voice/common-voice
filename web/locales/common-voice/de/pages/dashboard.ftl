@@ -41,31 +41,78 @@ finish-editing = Erst die Bearbeitung beenden?
 lose-changes-warning = Wenn Sie jetzt abbrechen, gehen Ihre Änderungen verloren
 build-custom-goal = Ein eigenes Ziel erstellen
 help-reach-hours-pluralized =
-    Helfen Sie mit einem persönlichen Ziel dabei, { NUMBER($hours) ->
-        [one] { $hours } Stunde
-       *[other] { $hours } Stunden
-    } in { $language } zu erreichen.
+    { $hours ->
+        [one] Helfen Sie mit einem persönlichen Ziel dabei, { $hours } Stunde in { $language } zu erreichen.
+       *[other] Helfen Sie mit einem persönlichen Ziel dabei, { $hours } Stunden in { $language } zu erreichen.
+    }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunde in einer Sprache zu erreichen.
        *[other] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunden in einer Sprache zu erreichen.
     }
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } Stunde
-       *[other] { $totalHours } Stunden
-    } sind in { NUMBER($periodMonths) ->
-        [one] { $periodMonths } Monat
-       *[other] { $periodMonths } Monaten
-    } erreichbar, wenn{ NUMBER($people) ->
-        [one] { $people } Person
-       *[other] { $people } Personen
-    } jeden Tag{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } Aufnahme
-       *[other] { $clipsPerDay } Aufnahmen
-    } aufnehmen.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
+                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Top! Wie viele Clips pro Tag?
 how-many-a-week = Top! Wie viele Clips pro Woche?
 which-goal-type = Möchten Sie Sprechen, Hören oder beides?
@@ -74,7 +121,7 @@ receiving-emails-info =
     und Newsletter zu Common Voice abonniert
 not-receiving-emails-info = Aktuell erhalten Sie aufgrund Ihrer Einstellungen <bold>KEINE</bold> E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } Aufnahme
        *[other] { $count } Aufnahmen
     }
@@ -114,4 +161,3 @@ validations =
         [one] Bestätigung
        *[other] Bestätigungen
     }
-

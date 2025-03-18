@@ -123,7 +123,6 @@ spontaneous-card-header = Spontane Sprache
 spontaneous-card-content = Beantworten Sie Aufforderungen, um Datensätze für organische, umgangssprachliche Kontexte zu erstellen. Perfekt für Sprachen mit Erstsprache.
 language-text-card-header = Sprachlicher Text
 language-text-card-content = Erstellen oder teilen Sie gemeinfreie Aufforderungen, Sätze und Text für die Übersetzung, kleine Sprachmodelle und mehr.
-coming-soon = Erscheint in Kürze
 add-text = Text hinzufügen
 
 ## Community section

@@ -51,7 +51,6 @@ accept-privacy-title = política de privacidad
 accept-privacy-and-terms = Acepto los <termsLink>Términos</termsLink> y el <privacyLink>Aviso de privacidad</privacyLink> de Common Voice
 login-identity = Identidad de inicio de sesión
 login = Acceso
-login-signup = Iniciar sesión/ Registrarse
 edit = Editar
 email-subscriptions = subscripcion de correo electronico
 download-profile = Descargar mis datos

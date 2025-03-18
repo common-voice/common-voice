@@ -27,9 +27,6 @@ target-segment-first-banner = کامن وائس کا پہلا  طبقاتی ہد
 target-segment-add-voice = اپنی آواز شامل کریں
 target-segment-learn-more = مزید سیکھیں
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = ‎رپورٹ کریں

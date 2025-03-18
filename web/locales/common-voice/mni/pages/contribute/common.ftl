@@ -22,10 +22,6 @@ target-segment-first-banner = { $locale } ꯗꯥ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯒ
 target-segment-add-voice = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯞꯆꯤꯟꯂꯨ
 target-segment-learn-more = ꯍꯦꯟꯅ ꯇꯝꯃꯨ
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ꯈꯣꯟꯖꯦꯜ ꯈꯣꯝꯖꯤꯟꯕ
-
 ## Reporting
 
 report = ꯋꯥꯀꯠꯄ

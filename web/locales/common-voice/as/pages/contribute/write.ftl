@@ -66,7 +66,7 @@ sentence-variant-select-label = বাক্যৰ ভাষাভেদ
 sentence-variant-select-placeholder = এটা ভাষাভেদ বাছনি কৰক (বৈকল্পিক)
 sentence-variant-select-multiple-variants = সাধাৰণ ভাষা / একাধিক ভাষাভেদ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ৰাজহুৱা ড’মেইনৰ বাক্য <icon></icon> আপল’ড কৰক

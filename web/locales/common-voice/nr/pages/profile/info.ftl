@@ -54,7 +54,6 @@ accept-privacy =
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
 accept-privacy-title = Umthetho wefihlo
 login-identity = Imininingwana yokungena
-login-signup = Thungela / Zitlolise
 edit = Lungisa
 email-subscriptions = Ukuzitlolisela ama-Email
 download-profile = Dawunilowuda

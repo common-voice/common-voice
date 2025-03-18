@@ -32,11 +32,6 @@ target-segment-first-banner = Ikayurkut pilillerkamteńun Common Voice-am ciumek
 target-segment-add-voice = Erinan ilakluku
 target-segment-learn-more = Cali elicukuvet
 change-preferences = Cimirluki preference-aaten
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Erinat Quyurrviat
-contribute-sentence-collection-nav-header = Igausngalriit Quyurrviat
 login-signup = Log In-arluten / Sign Up-arluten
 vote-yes = Ii-i
 vote-no = Qang'a

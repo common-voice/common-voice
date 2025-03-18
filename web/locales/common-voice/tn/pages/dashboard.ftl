@@ -41,30 +41,77 @@ finish-editing = Fetsa go baakanya pele?
 lose-changes-warning = Fa o tswa gone jaanong o tla latlhegelwa ke diphetogo tse o di dirileng
 build-custom-goal = Itirele boikaelelo jo o ka bo kgonang
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thusa go fitlhelela ura e le { $hours } mo { $language } ka maikaelelo a botho
        *[other] Thusa go fitlhelela diura tse { $hours } mo { $language } ka maikaelelo a botho
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thusa Common Voice go fitlhelela ura e le { $hours } mo puong ka maikaelelo a batho
        *[other] Thusa Common Voice go fitlhelela diura di le { $hours } mo puong ka maikaelelo a batho
     }
 set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } ura di ka fitlhelelwa mo
-       *[other] { $totalHours } diura di ka fitlhelelwa mo
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } kgwedi fa
-       *[other] { $periodMonths } dikgwedi fa
-    } { NUMBER($people) ->
-        [one] { $people } motho rekoto
-       *[other] { $people } batho rekoto
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } kgatiso ka letsatsi.
-       *[other] { $clipsPerDay } dikgatiso ka letsatsi.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
+                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
+                            }
+                    }
+            }
     }
 how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
 how-many-a-week = Go gontle! Dikgatiso di le kae ka beke?
@@ -72,7 +119,7 @@ which-goal-type = A o batla go Bua, go Reetsa kgotsa ka bobedi?
 receiving-emails-info = Gone jaanong o dirile gore o amogele diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 not-receiving-emails-info = Gone jaanong o dirile gore o <bold>SE KA</bold> wa amogela diimeile tse di jaaka dikgopotso tsa maikaelelo, ditlhabololo tsa kgatelopele ya me le makwalodikgang a Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

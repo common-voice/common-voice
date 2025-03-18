@@ -37,38 +37,85 @@ finish-editing = ሰልፍ ተስጂል ታኣኽልሶ?
 lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
 build-custom-goal = ሓደፍ ማኽሱስ ውደ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ስደውና { $hours } ሳዓት ሃደፍ እግል ንብጻሕ  ዲብ { $language } እብ ናይ ኖስ ሃደፍ
        *[other] ስደውና { $hours } ሳዓት ሃደፍ እግል ንብጻሕ  ዲብ { $language } እብ ናይ ኖስ ሃደፍ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ክርን ሕበር ስደዋ እግል ትብጻሕሳዓትዲብ ዎሮ ሉቀት እብ ናይ ኖስ ሓደፍ
        *[other] ክርን ሕበር ስደዋ እግል ትብጻሕሳዓትዲብ ዎሮ ሉቀት እብ ናይ ኖስ ሓደፍ
     }
 set-a-goal = ሓደፍ ውደ
 cant-decide = ትቀርሮ ኢትቀድሮ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] ሳዓት
-       *[other] ሳዓት
-    }እግል ልትበጻሕ ቀድር ኣብ{ NUMBER($periodMonths) ->
-        [one] ሻሃር
-       *[other] ኣሽህር
-    }ሓቆ{ NUMBER($people) ->
-        [one] ዎሮ ነፈር
-       *[other] ኣዳም
-    }ስጅል{ NUMBER($clipsPerDay) ->
-        [one] ክሊፕ
-       *[other] ክሊፕ
-    }ዲብ ኣመዕል
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብሻሃርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆዎሮ ነፈርስጅልክሊፕዲብ ኣመዕል
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                               *[other] ሳዓትእግል ልትበጻሕ ቀድር ኣብኣሽህርሓቆኣዳምስጅልክሊፕዲብ ኣመዕል
+                            }
+                    }
+            }
+    }
 how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
 receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ ክርን ሕበር ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም ህሌኩም
 not-receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ ክርን ሕበር ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም <bold>ይህሌኩምኒ</bold>
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] ክሊፕ
        *[other] ክሊፕ
     }

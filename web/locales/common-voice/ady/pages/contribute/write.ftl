@@ -66,7 +66,7 @@ sentence-variant-select-label = Гущыӏэухыгъэм ивариант
 sentence-variant-select-placeholder = Вариант горэ къыхэх (хэмыхыми хъун)
 sentence-variant-select-multiple-variants = Бзэ пстэури / вариант заулэ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> Цӏыф жъугъэмэ апае гущыӏэухыгъэхэр тегъэуцу

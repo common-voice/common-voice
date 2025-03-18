@@ -50,7 +50,6 @@ accept-privacy-title = Privaatheidsbeleid
 accept-privacy-and-terms = Ek stem in tot Common Voice se <termsLink>Bepalings</termsLink> en <privacyLink>Privaatheidskennisgewing</privacyLink>
 login-identity = Aanteken identiteit
 login = Teken aan
-login-signup = Teken In / Teken Aan
 edit = Redigeer
 email-subscriptions = E-pos Inskrywings
 download-profile = Laai My Data Af

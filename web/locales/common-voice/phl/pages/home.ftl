@@ -126,7 +126,6 @@ spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = تیݨی زُبانی دپارہ ڈیٹا سیٹ سمئنی دپارہ بیڈو ترو جواب دوئی۔ زُبان کھونڈئنی دپارہ اینو بیڈو زبردست
 language-text-card-header = زُبینی عبارت
 language-text-card-content = عوامی دپارہ آک ڈومین سما یا شئیر تھےۡ عبارت یا جملے ترجمہ تیݨی زپانی دپارہ آک ماڈل سموئی
-coming-soon = لپ یِھین
 add-text = ٹیکسٹ شامل تھہ
 
 ## Community section

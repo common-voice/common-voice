@@ -38,7 +38,6 @@ why-demographic = यह बात क्यों है?
 accept-privacy = जैसा कि आप मोज़िला के <privacyLink> प्राइवेसी पॉलिसी </privacyLink> में बताते हैं, मैं इस जानकारी को संभाल रहा हूं
 accept-privacy-title = गोपनीयता नीति
 login-identity = लॉगइन पहचान
-login-signup = लॉग इन / साइन अप करें
 edit = संपादित करें
 email-subscriptions = ईमेल सदस्यताएँ
 download-profile = मेरे डेटा को डाउनलोड करें

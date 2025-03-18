@@ -66,7 +66,7 @@ sentence-variant-select-label = หน่วยย่อยประโยค
 sentence-variant-select-placeholder = เลือกหน่วยย่อย (ระบุหรือไม่ก็ได้)
 sentence-variant-select-multiple-variants = ภาษาทั่วไป / หลายหน่วยย่อย
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = อัปโหลด <icon></icon> ประโยคที่เป็นสาธารณสมบัติ

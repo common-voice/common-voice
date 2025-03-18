@@ -30,11 +30,6 @@ target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
 change-preferences = Thay đổi tùy chỉnh
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Bộ sưu tập giọng nói
-contribute-sentence-collection-nav-header = Bộ sưu tập câu
 login-signup = Đăng nhập / Đăng ký
 vote-yes = Có
 vote-no = Không

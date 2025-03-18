@@ -41,36 +41,219 @@ finish-editing = Nechcete najskôr dokončiť úpravy?
 lose-changes-warning = Ak teraz odídete, prídete o svoje zmeny
 build-custom-goal = Vytvorte si vlastný cieľ
 help-reach-hours-pluralized =
-    Pomôžte dosiahnuť{ NUMBER($hours) ->
-        [one] { $hours } hodinu
-        [few] { $hours } hodiny
-       *[other] { $hours } hodín
-    } v jazyku { $language } pomocou osobných cieľov
+    { $hours ->
+        [one] Pomôžte dosiahnuť{ $hours } hodinu v jazyku { $language } pomocou osobných cieľov
+        [few] Pomôžte dosiahnuť{ $hours } hodiny v jazyku { $language } pomocou osobných cieľov
+       *[other] Pomôžte dosiahnuť{ $hours } hodín v jazyku { $language } pomocou osobných cieľov
+    }
 help-reach-hours-general-pluralized =
-    Pomôžte Common Voice dosiahnuť{ NUMBER($hours) ->
-        [one] { $hours } hodinu
-        [few] { $hours } hodiny
-       *[other] { $hours } hodín
-    }v jazyku s pomocou osobných cieľov
+    { $hours ->
+        [one] Pomôžte Common Voice dosiahnuť{ $hours } hodinuv jazyku s pomocou osobných cieľov
+        [few] Pomôžte Common Voice dosiahnuť{ $hours } hodinyv jazyku s pomocou osobných cieľov
+       *[other] Pomôžte Common Voice dosiahnuť{ $hours } hodínv jazyku s pomocou osobných cieľov
+    }
 set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hodina je dosiahnuteľných už o
-        [few] { $totalHours } hodiny je dosiahnuteľných už o
-       *[other] { $totalHours } hodín je dosiahnuteľných už o
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mesiac ak
-        [few] { $periodMonths } mesiace ak
-       *[other] { $periodMonths } mesiacov ak
-    }{ NUMBER($people) ->
-        [one] { $people } človek nahrá
-        [few] { $people } ľudia nahrá
-       *[other] { $people } ľudí nahrá
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } nahrávku za deň.
-        [few] { $clipsPerDay } nahrávky za deň.
-       *[other] { $clipsPerDay } nahrávok za deň.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodina je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodiny je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiac ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiace ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } človek nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudia nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávku za deň.
+                                [few] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávky za deň.
+                               *[other] { $totalHours } hodín je dosiahnuteľných už o{ $periodMonths } mesiacov ak{ $people } ľudí nahrá{ $clipsPerDay } nahrávok za deň.
+                            }
+                    }
+            }
     }
 how-many-per-day = Skvelé! Koľko nahrávok za deň?
 how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
@@ -78,7 +261,7 @@ which-goal-type = Chcete hovoriť, počúvať alebo oboje?
 receiving-emails-info = Momentálne máte nastavený príjem e‑mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
 not-receiving-emails-info = Momentálne <bold>NEMÁTE</bold> nastavený príjem e‑mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } nahrávku
         [few] { $count } nahrávky
        *[other] { $count } nahrávok

@@ -41,12 +41,12 @@ finish-editing = Фæнды дæ фыццаджы ивыныл фæуын?
 lose-changes-warning = Ацæуын ныртæккæ нысан кæны, ды кæй фесафдзынæ дæ ивындзинæдтæ, уый.
 build-custom-goal = Скæн сæрмагонд нысан
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Баххуыс кæн { $language } æвзагæн { $hours } сахатмæ схизынæн сæрмагонд нысаны фæрцы
        *[other] Баххуыс кæн { $language } æвзагæн { $hours } сахатмæ схизынæн сæрмагонд нысаны фæрцы
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Баххуыс кæн Common Voice-æн { $hours } сахатмæ схизынæн æвзаджы сæрмагонд нысаны фæрцы
        *[other] Баххуыс кæн Common Voice-æн { $hours } сахатмæ схизынæн æвзаджы сæрмагонд нысаны фæрцы
     }
@@ -62,7 +62,7 @@ not-receiving-emails-info =
     Ды <bold>НÆ</bold> исдзынæ ахæм фыстæджытæ, зæгъæм, нысаны зæрдыл æрыфтауæнтæ,¶
     æнтыстытыл хъусынгæнинæгтæ æмæ ног хабæрттæ Common Voice-ы тыххæй
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] клип
        *[other] клипы
     }

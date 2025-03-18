@@ -41,38 +41,85 @@ finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Aiuta a raggiungere { $hours } ora in { $language } con un obiettivo personale
        *[other] Aiuta a raggiungere { $hours } ore in { $language } con un obiettivo personale
     }
 help-reach-hours-general-pluralized =
-    Aiuta Common Voice a raggiungere { NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } ore
-    } in una lingua con gli obiettivi personali
+    { $hours ->
+        [one] Aiuta Common Voice a raggiungere { $hours } ora in una lingua con gli obiettivi personali
+       *[other] Aiuta Common Voice a raggiungere { $hours } ore in una lingua con gli obiettivi personali
+    }
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } ora
-       *[other] { $totalHours } ore
-    } è un obiettivo che può essere raggiunto in solo { NUMBER($periodMonths) ->
-        [one] { $periodMonths } mese
-       *[other] { $periodMonths } mesi
-    } da { NUMBER($people) ->
-        [one] { $people } persona
-       *[other] { $people } persone
-    } producendo { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } registrazione
-       *[other] { $clipsPerDay } registrazioni
-    } al giorno.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
+                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
 how-many-a-week = Ottimo! Quante registrazioni a settimana?
 which-goal-type = Vuoi registrare, convalidare o entrambi?
 receiving-emails-info = Hai richiesto di ricevere email come: promemoria degli obiettivi, aggiornamenti sui progressi e newsletter su Common Voice.
 not-receiving-emails-info = Con la scelta attuale <bold>NON</bold> riceverai email come promemoria degli obiettivi, aggiornamenti sui progressi e newsletter riguardo Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } registrazione
        *[other] { $count } registrazioni
     }

@@ -38,12 +38,12 @@ finish-editing = Tiek ngiyo ndikono maber mondi?
 lose-changes-warning = wuok sani biro miyo lokruok miseketo lal
 build-custom-goal = Ger chenro mari mar tiyo
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Konywa chopo saa { $hours } e dho { $language } gi chenro ma mari mar tiyo
        *[other] Konywa chopo seche { $hours } e dho { $language } gi chenro ma mari mar tiyo
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Kony Common Voice ochopie saa { $hours } e dhok kod keto gombo mari mar tich.
        *[other] Kony Common Voice ochopie seche { $hours } e dhok kod keto gombo mari mar tich.
     }
@@ -53,7 +53,7 @@ how-many-per-day = Ber ahinya! weche adiwa odiochieng kodiochieng?
 how-many-a-week = Ber ahinya! weche adi juma ka juma?
 which-goal-type = Idwaro loso koso idwaro chiko iti koso giduto?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] duol { $count }
        *[other] duonde { $count }
     }

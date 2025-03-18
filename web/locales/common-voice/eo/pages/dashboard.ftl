@@ -41,31 +41,78 @@ finish-editing = Ĉu vi volas unue fini la modifojn?
 lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
 build-custom-goal = Difini personecigitan celon
 help-reach-hours-pluralized =
-    Helpu atingi{ NUMBER($hours) ->
-        [one] { $hours } horon
-       *[other] { $hours } horojn
-    }en la { $language } per persona celo
+    { $hours ->
+        [one] Helpu atingi{ $hours } horonen la { $language } per persona celo
+       *[other] Helpu atingi{ $hours } horojnen la { $language } per persona celo
+    }
 help-reach-hours-general-pluralized =
-    Helpu Common Voice atingi{ NUMBER($hours) ->
-        [one] { $hours } horon
-       *[other] { $hours } horojn
-    }en iu lingvo per persona celo
+    { $hours ->
+        [one] Helpu Common Voice atingi{ $hours } horonen iu lingvo per persona celo
+       *[other] Helpu Common Voice atingi{ $hours } horojnen iu lingvo per persona celo
+    }
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
 activity-needed-calculation-plural =
-    Se { NUMBER($people) ->
-        [one] { $people } persono
-       *[other] { $people } personoj
-    } faras { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } voĉregistron
-       *[other] { $clipsPerDay } voĉregistrojn
-    } ĉiutage, { NUMBER($totalHours) ->
-        [one] { $totalHours } horo
-       *[other] { $totalHours } horoj
-    } atingeblas post iom pli ol { NUMBER($periodMonths) ->
-        [one] monato
-       *[other] { $periodMonths } monatoj
-    }.
+    { $people ->
+        [one]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
+                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
+                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
+                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
+                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                    }
+            }
+       *[other]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
+                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
+                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
+                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
+                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Vi <bold>NE</bold> ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj
     raportoj pri via progreso kaj novaĵleteroj de Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } voĉregistro
        *[other] { $count } voĉregistroj
     }

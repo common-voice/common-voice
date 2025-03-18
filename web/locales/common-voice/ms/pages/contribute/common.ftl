@@ -24,9 +24,6 @@ target-segment-first-banner = Bantu membuat segmen sasaran pertama Common Voice 
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Ketahui Selanjutnya
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Laporkan

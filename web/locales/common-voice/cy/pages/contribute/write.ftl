@@ -66,7 +66,7 @@ sentence-variant-select-label = Amrywiad Brawddeg
 sentence-variant-select-placeholder = Dewiswch amrywiad (dewisol)
 sentence-variant-select-multiple-variants = Iaith gyffredinol / amrywiadau lluosog
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Llwytho i fyny <icon></icon> brawddegau parth cyhoeddus

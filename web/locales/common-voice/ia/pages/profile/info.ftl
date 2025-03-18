@@ -56,7 +56,6 @@ accept-privacy-title = Politica de confidentialitate
 accept-privacy-and-terms = Io concorda con le <termsLink>Terminos</termsLink> e con le <privacyLink>Aviso de confidentialitate</privacyLink>
 login-identity = Identitate pro aperir session
 login = Aperir session
-login-signup = Aperir session / Inscriber se
 edit = Modificar
 email-subscriptions = Subscriptiones de email
 download-profile = Discargar mi datos

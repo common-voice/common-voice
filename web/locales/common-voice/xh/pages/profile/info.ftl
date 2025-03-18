@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Iincukhaca ezingachazwanga njengeminyaka, isini,
 accept-privacy = Ndilungile ngokuphatha olu lwazi njengoko luchazwa <privacyLink>Kumgaqo-nkqubo</privacyLink> weMozilla
 accept-privacy-title = Umthetho wabuCala
 login-identity = Isazisi sokungena
-login-signup = Ngena / Bhalisa
 edit = Hlela
 email-subscriptions = Imirhumo ye-imeyile
 download-profile = Khuphela iDatha yam

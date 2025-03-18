@@ -6,7 +6,7 @@ sentence =
 new-sentence-rule-3 = ശരിയായ വ്യാകരണം ഉപയോഗിക്കുക
 contact-us = ഇടപഴകുക
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

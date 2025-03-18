@@ -119,7 +119,6 @@ spontaneous-card-header = 回答問題式錄音
 spontaneous-card-content = 回答預設的問題，以建立自然口語的文本數據。適合口傳為主的語言。
 language-text-card-header = 語言文本
 language-text-card-content = 為翻譯、小型語言模型等應用，建立或分享公眾領域授權的問題、句子、及文本。
-coming-soon = 即將推出
 add-text = 添加文本
 
 ## Community section

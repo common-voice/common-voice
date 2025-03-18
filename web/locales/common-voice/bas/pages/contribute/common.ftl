@@ -27,9 +27,6 @@ target-segment-first-banner = Hola i sañge ndak suñ i Common Voice i bisu, i
 target-segment-add-voice = Nôbe kiñ yoñ
 target-segment-learn-more = Kônde añ bitilna
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Too ndoñ

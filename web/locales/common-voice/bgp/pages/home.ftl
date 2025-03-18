@@ -137,7 +137,6 @@ spontaneous-card-header = بے وسی ئے گپ
 spontaneous-card-content = نامیاتی، بولی ءِ تناظر ءِ ھاتر ءَ ڈیٹاسیٹ جوڑ کنگ ءِ ھاتر ءَ اشارہ ءِ جواب ءَ بہ دئے اِت۔ زبانی اولی زبانانی واستہ جوان انت۔
 language-text-card-header = زبان ئے نبشتانک
 language-text-card-content = ترجمہ، کسانیں زبان ءِ ماڈل ءُ دگہ بازیں چیزانی واستہ پبلک ڈومین ءِ اشارہ، جملہ ءُ نبشتانک جوڑ کن یا شیئر کن۔
-coming-soon = زوت پیداکیں
 add-text = نبشتانک ءَ ھوار کن
 
 ## Community section

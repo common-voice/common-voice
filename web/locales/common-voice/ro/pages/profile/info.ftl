@@ -36,7 +36,6 @@ why-demographic = De ce contează?
 accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
 accept-privacy-title = Politică de confidențialitate
 login-identity = Identitate de autentificare
-login-signup = Autentifică-te / Înscrie-te
 edit = Editează
 email-subscriptions = Abonamente e-mail
 download-profile = Descarcă-mi datele

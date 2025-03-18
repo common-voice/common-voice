@@ -27,11 +27,6 @@ target-segment-first-banner = Vær med til at lave det første målsegment til C
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Indsamling af stemmer
-contribute-sentence-collection-nav-header = Indsamling af sætninger
-
 ## Reporting
 
 report = Rapportér

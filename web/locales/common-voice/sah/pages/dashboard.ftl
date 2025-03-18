@@ -31,7 +31,7 @@ difficult-difficulty = Эрэйдээх
 pro-difficulty = Про
 want-to-continue = Эн салҕыаххын баҕараҕын?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } клип
        *[other] { $count } клип
     }

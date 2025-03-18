@@ -50,7 +50,6 @@ accept-privacy-title = ଗୋପନୀୟତା ନିତୀ
 accept-privacy-and-terms = Common Voice ର <termsLink>ସର୍ତ୍ତାବଳୀ</termsLink> ଏବଂ <privacyLink>ଗୋପନୀୟତାର ନୋଟିସ</privacyLink> ସହିତ ମୁଁ ସହମତ।
 login-identity = ଲଗଇନ ପରିଚୟ
 login = ଲଗଇନ କରନ୍ତୁ
-login-signup = ଲଗ ଇନ / ସାଇନ ଅପ
 edit = ସମ୍ପାଦନା
 email-subscriptions = ଇମେଲ ସବସ୍କ୍ରିପସନ
 download-profile = ମୋ ତଥ୍ୟ ଡାଉନଲୋଡ଼ କରନ୍ତୁ

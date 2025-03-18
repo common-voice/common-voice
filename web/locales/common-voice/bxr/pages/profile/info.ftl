@@ -29,7 +29,6 @@ settings = Тааруулга
 edit-profile = Хэрэглэгшын данса заһаха
 profile-create-success = Хэрэглэгшын данса амжалтатай үүсхэгдэбэ!
 profile-close = Хааха
-login-signup = Нэбтэрхэ/Бүридхүүлхэ
 edit = Заһаха
 email-subscriptions = Сахим шууданаар захиха
 download-profile = Үгэгдэлөө татажа абаха

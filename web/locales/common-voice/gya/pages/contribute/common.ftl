@@ -30,11 +30,6 @@ target-segment-first-banner = Ɛnɛ gbák-mɔ wen dee kuti zúdúk tom ko Com
 target-segment-add-voice = Há̧ bé tigɛr'nɛ
 target-segment-learn-more = Iŋa mbé-a siti
 change-preferences = Kpaia o mɔ̀ɔ́-kɔ̧nɛséè
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ndɛmba o tigɛr
-contribute-sentence-collection-nav-header = Ndɛmba o wen
 login-signup = Yee-aa
 vote-yes = Ii'i
 vote-no = Weyàá

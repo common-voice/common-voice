@@ -18,4 +18,3 @@ correct = 正確
 done = 完成
 # For the button on the Check Transcriptions page to edit a transcription
 edit = 編輯
-

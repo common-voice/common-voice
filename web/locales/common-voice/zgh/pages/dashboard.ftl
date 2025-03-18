@@ -41,72 +41,72 @@ finish-editing = ⵙⵎⴷ ⵣⵡⴰⵔ ⴰⵙⵏⴼⵍ?
 lose-changes-warning = ⵎⴽ ⵜⴼⴼⵖⵎ ⴷⵖⵉ ⵔⴰⴷ ⵜⵊⵊⵍⵓⵎ ⵉⵙⵏⴼⴰⵍ ⵏⵏⵓⵏ
 build-custom-goal = ⵥⴽⵓ ⴰⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵜ ⵙ { $language } ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
        *[other] ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵉⵏ ⵙ { $language } ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵜ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
        *[other] ⴰⵡⵙ ⵉ ⴽⴰⵎⵏⴼⵓⵢⵙ ⴰⴷ ⵢⴰⵡⴹ { $hours } ⵜⵙⵔⴰⴳⵉⵏ ⵙ ⴽⵔⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ ⴰⵏⵉⵎⴰⵏ
     }
 set-a-goal = ⵙⵔⵙ ⴽⵔⴰ ⵏ ⵓⵡⵜⵜⴰⵙ
 cant-decide = ⵓⵔ ⵜⵣⵎⵉⵔⴷ ⴰⴷ ⵜⵖⵜⵙⴷ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵜ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵉⵙⵓⵙⵔ { $people } ⵓⵎⴷⴰⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵜ ⴽⵓ ⴰⵙⵙ.
                                *[other] ⵏⵣⵎⵔ ⴰⴷ ⵏⴰⵡⴹ { $totalHours } ⵜⵙⵔⴰⴳⵉⵏ ⴳ { $periodMonths } ⵡⴰⵢⵢⵓⵔⵏ ⵎⴽ ⵙⵓⵙⵔⵏ { $people } ⵎⴷⴷⵏ  { $clipsPerDay } ⵜⵓⵙⵙⵉⴼⵉⵏ ⴽⵓ ⴰⵙⵙ.
                             }
@@ -123,7 +123,7 @@ not-receiving-emails-info =
     ⵜⵙⵙⵏⵜⵉⴷ ⵙ ⵓⵎⵉⵔⴰⵏ ⴰⴷ <bold>ⵓⵔ</bold> ⵜⴰⵎⵥⴷ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ,
     ⵉⵙⴷⵖⵉⵜⵏ ⵏ ⵡⴰⵍⴰⵢ ⵉⵏⵓ ⴷ ⵜⴱⵔⴰⵜⵉⵏ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ⵜⵓⵙⵙⵉⴼⵜ
        *[other] { $count } ⵜⵓⵙⵙⵉⴼⵉⵏ
     }

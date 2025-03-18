@@ -5,7 +5,6 @@ write-instruction = ká tho <icon></icon> bhago pasá bhwetɔ́
 write-page-subtitle = ncân khɛ́n a bha krɛn, wo bhâ ká bhago pyá bɛn tho ó che licence cc-0.
 sentence =
     .label = ábhweyɛ́n bhwetɔ́
-sentence-input-value = ɔ́n nrɛ hɔ́n bhago pasá bhwetɔ́ krɛn
 citation-input-placeholder = ɔ́n yɛ́n hɔ́n bhago pasá bhwetɔ́ si a chan
 citation =
     .label = ábhweyɛ́n bhwetɔ́
@@ -30,7 +29,6 @@ required-field = tɛmɛ ɔ́n há nne
 single-sentence-submission = ábhwetɔ́ bɛn ó thu
 bulk-sentence-submission = ábhwetɔ́ búdú ó thu
 single-sentence = ábhwetɔ́ brɛ
-bulk-sentences = ábhwetɔ́ búdú
 sentence-domain-combobox-label = ábhwetɔ́ si
 sentence-domain-select-placeholder = ɔ́n sán ábhwetɔ́ ndɔn bhwalyá
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = ábhwetɔ́ ndɔnndɔn
 sentence-variant-select-placeholder = ɔ́n sán ńcân ndɔnndɔn yí  brɛn
 sentence-variant-select-multiple-variants = ńcân ndɔnndɔn yí khúúnbrɛn
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ɔ́n khwɛ́n <icon></icon> bhago pasá bhwetɔ́ bhá
@@ -89,3 +87,12 @@ file-invalid-type = áhrɔ́ yí a le yɔn
 file-too-large = áhrɔ́ yí ban-ban
 file-too-small = áhrɔ́ yí cha
 too-many-files = áhrɔ́ yí thubhɔ
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

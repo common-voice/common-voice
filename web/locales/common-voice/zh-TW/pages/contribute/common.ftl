@@ -26,11 +26,6 @@ target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一�
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
 change-preferences = 更改偏好設定
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = 收集語音
-contribute-sentence-collection-nav-header = 收集句子
 login-signup = 登入 / 註冊
 vote-yes = 正確
 vote-no = 錯誤

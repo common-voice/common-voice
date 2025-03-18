@@ -41,38 +41,85 @@ finish-editing = Fini primo le modificationes?
 lose-changes-warning = Si tu exi ora, tu perdera tu modificationes
 build-custom-goal = Crea un objectivo personal
 help-reach-hours-pluralized =
-    Adjuta attinger{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    }in { $language } con un objectivo personal.
+    { $hours ->
+        [one] Adjuta attinger{ $hours } horain { $language } con un objectivo personal.
+       *[other] Adjuta attinger{ $hours } horasin { $language } con un objectivo personal.
+    }
 help-reach-hours-general-pluralized =
-    Adjuta Common Voice attinger{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    } in un lingua con un objectivo personal
+    { $hours ->
+        [one] Adjuta Common Voice attinger{ $hours } hora in un lingua con un objectivo personal
+       *[other] Adjuta Common Voice attinger{ $hours } horas in un lingua con un objectivo personal
+    }
 set-a-goal = Definir un objectivo
 cant-decide = Impossibile decider?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } horas
-    } es attingibile solo in ultra{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mense
-       *[other] { $periodMonths } menses
-    } si { NUMBER($people) ->
-        [one] { $people } persona
-       *[other] { $people } personas
-    } registra { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } registration
-       *[other] { $clipsPerDay } registrationes
-    } cata die.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registrationes cata die.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registrationes cata die.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registrationes cata die.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registrationes cata die.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registrationes cata die.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registrationes cata die.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registrationes cata die.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registration cata die.
+                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registrationes cata die.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Magnific! Quante retalios per die?
 how-many-a-week = Magnific! Quante retalios per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambes?
 receiving-emails-info = Tu ha optate pro reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 not-receiving-emails-info = Tu ha optate pro <bold>NON</bold> reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } registration
        *[other] { $count } registrationes
     }

@@ -5,7 +5,6 @@ write-instruction = Éémbéazú <icon></icon> ŋma núwen ko giiwi
 write-page-subtitle = O nuwen nɛ'i kpaa hɛ̀ɛ̧́ tɛ azú ŋma dee saa beegara nyɛm nɛ háá̧yur-a cc-0.
 sentence =
     .label = Tɔ̀ɔ̧́ wen kɔ̧́ bíí
-sentence-input-value = Yɔr núwen zii nɛ giiwi k'ɛnɛ sɛn hɛ̀ɛ̧́
 citation-input-placeholder = Mgbár tugun fara nɛ núwen k'ɛnɛ gbòó nɛ sɛnɛ (zɔ̀ɔ́ii̧)
 citation =
     .label = Tɔ̀ɔ̧́ wen kɔ̧́ bíí
@@ -30,7 +29,6 @@ required-field = Dam-nu fara'ɛ
 single-sentence-submission = Toma núwen kpɔk kérek
 bulk-sentence-submission = Toma dɔka núwen
 single-sentence = Núwen kpɔk kérek
-bulk-sentences = Dɔka núwen
 sentence-domain-combobox-label = Warmɔ nɛ núwen-ziinɛnɛ
 sentence-domain-select-placeholder = Hɔ́k warmɔ nɛ núwen-ziinɛnɛ hɔ́ tàár
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Ti núwen
 sentence-variant-select-placeholder = Hɔ́k ŋma ti-a (bonɛŋgaena)
 sentence-variant-select-multiple-variants = O-yímɔleŋ zú nú/dɔka ti-a
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Tom <icon></icon> o núwen zii nɛ giiwi
@@ -89,3 +87,12 @@ file-invalid-type = Mboɗatom'ɛ nyɛm sɛnɛ na
 file-too-large = Mboɗatom'ɛ gasa yák-zalé
 file-too-small = Mboɗatom'ɛ dee geɗek-a yák-zalé
 too-many-files = Mboɗatom nɔ̀ɔ́ dɔka yák-zalé
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -5,7 +5,6 @@ write-instruction = Me kẅiʼi  <icon></icon> une phrase gie nyìŋ la gɔ́ɔ
 write-page-subtitle = Phrases mie me ge náa jʉʼɔɔn ee mie me ge kẅiʼi na tsɔ́ megʉa mie nyìŋ la gÿo tá mba e lěen cʉʼ shúm máanyìŋ ntsem tà lɔg mbɔ́ɔnte cʉʼ cc-0
 sentence =
     .label = Nò gie nyìŋ la gɔɔn
-sentence-input-value = Pi lɔgɔ mashʉ́ŋ ńcwóte phrase gie nyìŋ la gɔ́ɔn tà mba a lěen ncʉʼ ye máanyiŋ ntsem
 citation-input-placeholder = Pi láʼte jʉʼ gie pi lɔgɔ gi phrase e fó wo (tà nyìŋ féen)
 citation =
     .label = Nò gie nyìŋ la gɔɔn
@@ -30,7 +29,6 @@ required-field = Pi lẅíŋe meshʉa mie ee jʉʼɔɔn
 single-sentence-submission = Letúmo phrase gie á gwɔ́ pɔ yemɔʼɔ
 bulk-sentence-submission = Letúmo me phrases mie a gyɔ́ɔn gyɔ́ɔn
 single-sentence = phrase gie á gwɔ́ pɔ yemɔʼɔ
-bulk-sentences = mephrases mie a gyɔ́ɔn gyɔ́ɔn
 sentence-domain-combobox-label = phrase fóo na wɛ̌ shÿó
 sentence-domain-select-placeholder = Pi tsɔ́ʼ meshÿó tà e gwɔ́ meentá
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Nti gie ngwɔ phrase sele tà ngwɔ́
 sentence-variant-select-placeholder = Pi tsɔ́ʼɔ tsɔ́ ntí gie ngwɔ́ e sele tà ngwɔ́ (páʼ nyìŋ lɔɔn nkwoŋ)
 sentence-variant-select-multiple-variants = Menò na metwó nò ntsem na shwoŋe/menti lesele tà ngwɔ́
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Pi túmo  <icon></icon> na mephrases mie ee me máa nyìŋ ntsem
@@ -89,3 +87,12 @@ file-invalid-type = Mmo gie me ŋweʼe ta neŋe tsɛɛ mmó gie a kaa gwɔ́ pa
 file-too-large = Mmo gie me ŋweʼe ta neŋe tsɛɛ mmó a pú ncʉ́e tɛʼ
 file-too-small = Mmo gie me ŋweʼe ta neŋe tsɛɛ mmó gie a pǔ nkɔ́g
 too-many-files = Shúm sie me ŋweʼe ta neŋe tsɛɛ mmó sie a pǔ ngyɔ́ɔn tɛʼ
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

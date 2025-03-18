@@ -52,7 +52,7 @@ sentence-variant-select-label = Җөмләнең варианты
 sentence-variant-select-placeholder = Вариант сайлау (мәҗбүри түгел)
 sentence-variant-select-multiple-variants = Гомуми тел / берничә вариант
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Иҗтимагый милектәге <icon></icon> җөмләләр йөкләгез

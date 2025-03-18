@@ -43,7 +43,6 @@ why-demographic-explanation-2 = Anonimni uporabniški podatki, kot so starost, s
 accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
 accept-privacy-title = Politika zasebnosti
 login-identity = Identiteta prijave
-login-signup = Prijava / Registracija
 edit = Uredi
 email-subscriptions = Naročnine na e-pošto
 download-profile = Prenesi moje podatke

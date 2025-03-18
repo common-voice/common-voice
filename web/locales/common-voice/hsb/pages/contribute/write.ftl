@@ -66,7 +66,7 @@ sentence-variant-select-label = Sadowa warianta
 sentence-variant-select-placeholder = Wubjerće wariantu (na přeće)
 sentence-variant-select-multiple-variants = Powšitkowna rěč / wjacore warianty
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nahrajće <icon></icon> zjawnje wužiwajomne sady

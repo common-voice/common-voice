@@ -33,7 +33,6 @@ thanks-for-account = Hesabınızı təsdiqlədiyiniz üçün təşəkkürlər, i
 why-demographic = Bu nəyə lazımdır?
 accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</privacyLink>nə əsasən işləməyinizə razıyam
 login-identity = Giriş İdentikliyi
-login-signup = Daxil ol / Qeydiyyatdan keç
 edit = Redaktə et
 email-subscriptions = E-poçt Abunəlikləri
 download-profile = Məlumatlarımı endir

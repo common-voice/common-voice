@@ -41,31 +41,78 @@ finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
 help-reach-hours-pluralized =
-    Hjälp oss nå { NUMBER($hours) ->
-        [one] { $hours } timme
-       *[other] { $hours } timmar
-    } på { $language } med ett personligt mål
+    { $hours ->
+        [one] Hjälp oss nå { $hours } timme på { $language } med ett personligt mål
+       *[other] Hjälp oss nå { $hours } timmar på { $language } med ett personligt mål
+    }
 help-reach-hours-general-pluralized =
-    Hjälp Common Voice nå { NUMBER($hours) ->
-        [one] { $hours } timme
-       *[other] { $hours } timmar
-    } på ett språk med ett personligt mål
+    { $hours ->
+        [one] Hjälp Common Voice nå { $hours } timme på ett språk med ett personligt mål
+       *[other] Hjälp Common Voice nå { $hours } timmar på ett språk med ett personligt mål
+    }
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } timme
-       *[other] { $totalHours } timmar
-    } kan uppnås på drygt { NUMBER($periodMonths) ->
-        [one] { $periodMonths } månad
-       *[other] { $periodMonths } månader
-    } om { NUMBER($people) ->
-        [one] { $people } person
-       *[other] { $people } personer
-    } spelar in { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } klipp
-       *[other] { $clipsPerDay } klipp
-    } per dag.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Du är för närvarande inställd på att <bold>INTE</bold> ta emot e-postmeddelanden som målpåminnelser, min
     framstegsuppdateringar och nyhetsbrev om Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } klipp
        *[other] { $count } klipp
     }

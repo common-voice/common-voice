@@ -103,7 +103,6 @@ get-started = Bắt đầu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
-coming-soon = Sắp ra mắt
 add-text = Thêm văn bản
 
 ## Community section

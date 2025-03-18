@@ -44,30 +44,77 @@ finish-editing = Cedzela kulungisa kucala?
 lose-changes-warning = Kuhamba nyalo kusho kutsi utolahlekelwa tingucuko lotentile
 build-custom-goal = Yakha ligoli lakho
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Sisiste sifike ku { $hours } lihora nge { $language } ngeligoli lakho
        *[other] Sisiste sifike ku { $hours } wemahora nge { $language } ngeligoli lakho
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Sita Common Voice afike ku { $hours } lihora ngelulwimi loluhamba neligoli lakho
        *[other] Sita Common Voice afike ku { $hours } lihora ngelulwimi loluhamba neligoli lakho
     }
 set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } lihora lingenteka ngeku
-       *[other] { $totalHours } emohora lingenteka ngeku
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } inyanga uma
-       *[other] { $periodMonths } tinyanga uma
-    } { NUMBER($people) ->
-        [one] { $people } umuntfu uyatfwebula
-       *[other] { $people } bantfu bayatfwebula
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } sicephu ngelilanga
-       *[other] { $clipsPerDay } ticephu ngelilanga
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
+                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
+                            }
+                    }
+            }
     }
 how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
@@ -75,7 +122,7 @@ which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?
 receiving-emails-info = Usethelwe kutsi utfole emapoli embane lafaka ekhatsi kukhunjutwa ngemagoli, inchubo yami, kanye netincwadzi nga Common Voice
 not-receiving-emails-info = Kwamanje, usethelwe kutsi <bold>HHAYI</bold> ungatfoli liposi lembane lekufaka ekhatsi kukhunjutwa ngemagoli, inchubo netincwadzi mayelana na Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } sicephu
        *[other] { $count } ticephu
     }

@@ -1,4 +1,5 @@
 ## Transcribe Audio page
+
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 audio-page-instruction = { $actionType } <playIcon></playIcon> yòpjü k'a jy'ä̀rä yó jñatjo
 editbox-header = Yé'p'e rí yòpjü

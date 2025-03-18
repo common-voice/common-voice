@@ -1,8 +1,5 @@
 contribute = sidju
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report-other-comment =

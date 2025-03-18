@@ -38,7 +38,6 @@ why-demographic = Lwaki kino kigasa?
 accept-privacy = Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <privacyLink>Nkola y'ekyama<privacyLink> ya Mozilla
 accept-privacy-title = Enkola Eyekyama
 login-identity = Login Identity
-login-signup = Yingira / Wewandiise
 edit = Kyusa
 email-subscriptions = By'ofuna mu email
 download-profile = Wanula Data Wo

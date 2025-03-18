@@ -5,7 +5,6 @@ write-instruction = bagəgan<icon></icon> ipia mod osə anə jam gbɛləni ai y�
 write-page-subtitle = bipia bye vəban bye bagəban ivoe mam mə bod bəse a licence cc-0
 sentence =
     .label = pəg
-sentence-input-value = tiləni ipia mod osə anə jam jəm
 citation-input-placeholder = ipia itə itə sɔ və (obila)
 citation =
     .label = pəg
@@ -30,7 +29,6 @@ required-field = jaala epolo di
 single-sentence-submission = iloməni ipia ivɔg
 bulk-sentence-submission = iloməni abui bipia
 single-sentence = ipia ivɔg
-bulk-sentences = abui bipia
 sentence-domain-combobox-label = itə ipia
 sentence-domain-select-placeholder = tɔbəngan bitə bilaa
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = kan bipia
 sentence-variant-select-placeholder = tɔb kan ivɔg (ngə o diŋ)
 sentence-variant-select-multiple-variants = mam məsə a nkɔlɔ/ kan minkɔlɔ misə
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = loməngan <icon></icon> bipia mod osə a nə jam gbɛləni ai myɔ
@@ -89,3 +87,12 @@ file-invalid-type = epəb daa tə yeeni
 file-too-large = epə e tə  did abui
 file-too-small = epəb e nə ma ovəvɛs
 too-many-files = nnəməne məp̣əb
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

@@ -66,7 +66,7 @@ sentence-variant-select-label = 語句變體
 sentence-variant-select-placeholder = 選擇變體（選填）
 sentence-variant-select-multiple-variants = 一般語言 / 多種變體
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子

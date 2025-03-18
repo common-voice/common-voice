@@ -41,31 +41,78 @@ finish-editing = Remohendapase raẽpa?
 lose-changes-warning = Esẽramo ko’ág̃a noñeñongatumo’ãi emoambuéva’ekue
 build-custom-goal = Emoĩ ndevoi nde jehupytyrã
 help-reach-hours-pluralized =
-    Pytyvõ Rupytykue{ NUMBER($hours) ->
-        [one] { $hours } aravo
-       *[other] { $hours } aravo
-    }ko ñe’ẽme: { $language } che jehupytyrã reheve
+    { $hours ->
+        [one] Pytyvõ Rupytykue{ $hours } aravoko ñe’ẽme: { $language } che jehupytyrã reheve
+       *[other] Pytyvõ Rupytykue{ $hours } aravoko ñe’ẽme: { $language } che jehupytyrã reheve
+    }
 help-reach-hours-general-pluralized =
-    Common Voice jehupytyrã Pytyvõ{ NUMBER($hours) ->
-        [one] { $hours } aravo
-       *[other] { $hours } aravo
-    }ñe’ẽ ha jehupytyrã che aiporavóva
+    { $hours ->
+        [one] Common Voice jehupytyrã Pytyvõ{ $hours } aravoñe’ẽ ha jehupytyrã che aiporavóva
+       *[other] Common Voice jehupytyrã Pytyvõ{ $hours } aravoñe’ẽ ha jehupytyrã che aiporavóva
+    }
 set-a-goal = Emoĩ nde jehupytyrã
 cant-decide = Ndereikuaamo’ãipa mba’épa?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } aravo
-       *[other] { $totalHours } aravo
-    }ahupytykuaa{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } jasýpe
-       *[other] { $periodMonths } jasýpe
-    }oĩramo{ NUMBER($people) ->
-        [one] { $people } tapicha
-       *[other] { $people } tapicha
-    }ombohyapúva{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } ñe’ẽjoaju
-       *[other] { $clipsPerDay } ñe’ẽjoaju
-    }ára ñavõme
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                               *[other] { $totalHours } aravoahupytykuaa{ $periodMonths } jasýpeoĩramo{ $people } tapichaombohyapúva{ $clipsPerDay } ñe’ẽjoajuára ñavõme
+                            }
+                    }
+            }
+    }
 how-many-per-day = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa ára ñavõme?
 how-many-a-week = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa arapokõindy ñavõme?
 which-goal-type = Reñembohyapusépa, remoneĩsépa ñe’ẽ térãpa mokõive?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     <bold>Nog̃uahẽmo’ãi</bold> marandu ñanduti veve rupi, nemomandu’átava nde jehupytyserã,
     térã mboýpa rejapóma ha Common Voice rehegua.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ñe’ẽryapu ñongatupyre
        *[other] { $count } ñe’ẽryapu ñongatupyre
     }

@@ -30,11 +30,6 @@ target-segment-first-banner = Techpaleui matiktlalikan tlen achto kajxitis Commo
 target-segment-add-voice = Timitskakij
 target-segment-learn-more = Okachi xikmati
 change-preferences = Xikpatla ken tlayetos
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Tlajtolnechikoli
-contribute-sentence-collection-nav-header = Tlajkuilolnechikoli
 login-signup = Xikalaki/Ximomachoti
 vote-yes = Kema
 vote-no = Amo

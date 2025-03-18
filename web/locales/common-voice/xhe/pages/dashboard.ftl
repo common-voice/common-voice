@@ -41,12 +41,12 @@ finish-editing = پہلے وتا جوڑݨ ختم کر؟
 lose-changes-warning = انڄیاں چھوڑݨ تا مطلب ہے تُو آپݨییاں تبدیلیاں ڳار پیا کندا ہیں
 build-custom-goal = ہِک آپݨی مرضی تا ہدف جوڑ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] پہنچݨ تی وِچ مدد { $hours } گھنٹے { $language }ٻولی تی وِچ ذاتی ہدف ساں گݙ
        *[other] پہنچݨ تی وِچ مدد { $hours } گھنٹے { $language }ٻولی تی وِچ ذاتی ہدف ساں گݙ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کامن وائس ݙے پہنچݨ تی وِچ مدد کر { $hours } گھنٹہ ہِک ٻولی وِچ ذاتی ہدف ساں ڳݙ۔
        *[other] کامن وائس ݙے پہنچݨ تی وِچ مدد کر { $hours } گھنٹے ہِک ٻولی وِچ ذاتی ہدف ساں ڳݙ۔
     }
@@ -63,7 +63,7 @@ not-receiving-emails-info =
     تُو ہدف تی یاد دہانی تے واسطے ای میل تی حاضری پسند <bold>نہ</bold> کندا ہیں، 
     کامن وائس تے باریک منجی ترقی تی اطلاع، ٻیا خبریں خط ݙے۔
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }ٹوٹا
        *[other] { $count }ٹوٹے
     }

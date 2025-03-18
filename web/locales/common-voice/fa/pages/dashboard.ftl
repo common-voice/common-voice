@@ -41,72 +41,72 @@ finish-editing = ویرایش را نخست تمام کنیم؟
 lose-changes-warning = اگر اکنون خارج شوید باعث از بین رفتن تغییرات شما می شود
 build-custom-goal = یک هدف سفارشی بسازید
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] با یک هدف شخصی در رسیدن به { $hours } ساعت در { $language } کمک کنید
        *[other] با یک هدف شخصی در رسیدن به { $hours } ساعت در { $language } کمک کنید
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] با یک هدف شخصی آوای مشترک را در رسیدن به { $hours } ساعت در یک زبان کمک کنید
        *[other] با یک هدف شخصی آوای مشترک را در رسیدن به { $hours } ساعت در یک زبان کمک کنید
     }
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                                *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
                             }
@@ -119,7 +119,7 @@ which-goal-type = می‌خواهید صحبت کنید، بشنوید یا هر
 receiving-emails-info = شما در حال حاضر پست های الکترونیکی دریافت خواهید کرد شامل  یادآورهای هدف، به‌روزرسانی‌های پیشرفت و خبرنامه‌هایی درباره آواهای مشترک.
 not-receiving-emails-info = شما هم اکنون بر روی وضعیت <bold>دریافت نکردن</bold> نامه‌های الکترونیکی،‌ یادآوری هدف و وضعیت پیشرفت خود و همچنین خبرنامه ها از آواهای مشترک قرار دارید.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } صدا
        *[other] { $count } صدا
     }

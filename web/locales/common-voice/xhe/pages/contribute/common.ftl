@@ -30,11 +30,6 @@ target-segment-first-banner = کامن وائس’ تا پہلا طبقاتی ہ
 target-segment-add-voice = آپݨی اواز بھر
 target-segment-learn-more = ٻِیا سِکّھو
 change-preferences = ترجیحاں وٹاؤ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = اواز تا مجموعہ
-contribute-sentence-collection-nav-header = ڳالھ وار تا مجموعہ
 login-signup = لاگ ان / سائن اپ
 vote-yes = ہا
 vote-no = نہ

@@ -41,44 +41,227 @@ finish-editing = Termini mai întâi editarea?
 lose-changes-warning = Dacă ieși acum, vei pierde modificările efectuate
 build-custom-goal = Creează un obiectiv personalizat
 help-reach-hours-pluralized =
-    Ajută-ne să ajungem la{ NUMBER($hours) ->
-        [one] { $hours } oră
-        [few] { $hours } ore
-       *[other] { $hours } de ore
-    } în { $language }, cu un obiectiv personal
+    { $hours ->
+        [one] Ajută-ne să ajungem la{ $hours } oră în { $language }, cu un obiectiv personal
+        [few] Ajută-ne să ajungem la{ $hours } ore în { $language }, cu un obiectiv personal
+       *[other] Ajută-ne să ajungem la{ $hours } de ore în { $language }, cu un obiectiv personal
+    }
 help-reach-hours-general-pluralized =
-    Ajută Common Voice să ajungă la{ NUMBER($hours) ->
-        [one] { $hours } oră
-        [few] { $hours } ore
-       *[other] { $hours } de ore
-    } într-o limbă, cu un obiectiv personal
+    { $hours ->
+        [one] Ajută Common Voice să ajungă la{ $hours } oră într-o limbă, cu un obiectiv personal
+        [few] Ajută Common Voice să ajungă la{ $hours } ore într-o limbă, cu un obiectiv personal
+       *[other] Ajută Common Voice să ajungă la{ $hours } de ore într-o limbă, cu un obiectiv personal
+    }
 set-a-goal = Stabilește un obiectiv
 cant-decide = Nu te poți decide?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } oră
-        [few] { $totalHours } ore
-       *[other] { $totalHours } de ore
-    } se poate(pot) atinge în numai{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } lună
-        [few] { $periodMonths } luni
-       *[other] { $periodMonths } de luni
-    } dacă{ NUMBER($people) ->
-        [one] { $people } persoană
-        [few] { $people } persoane
-       *[other] { $people } de persoane
-    } înregistrează{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } secvență vocală
-        [few] { $clipsPerDay } secvențe vocale
-       *[other] { $clipsPerDay } de secvențe vocale
-    } pe zi.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } oră se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } lună dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoană înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvență vocală pe zi.
+                                [few] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } secvențe vocale pe zi.
+                               *[other] { $totalHours } de ore se poate(pot) atinge în numai{ $periodMonths } de luni dacă{ $people } de persoane înregistrează{ $clipsPerDay } de secvențe vocale pe zi.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Grozav! Câte înregistrări pe zi?
 how-many-a-week = Grozav! Câte înregistrări pe săptămână?
 which-goal-type = Vrei să vorbești, să asculți sau ambele?
 receiving-emails-info = Ai optat ca să primești e-mailuri precum mementouri de obiective, actualizări despre progres și buletine informative despre Common Voice
 not-receiving-emails-info = Ai optat ca să <bold>NU</bold> primești e-mailuri precum mementouri de obiective, actualizări cu progresul înregistrat și buletine informative despre Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } secvență vocală
         [few] { $count } secvențe vocale
        *[other] { $count } de secvențe vocale

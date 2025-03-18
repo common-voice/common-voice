@@ -17,6 +17,7 @@ contribute-more =
        *[other] Klar for { $count } til?
     }
 speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
+no-sentences-for-variants = Språkvarianten din kan vere tom for setningar! Dersom du er ønskjer, kan du endre innstillingane dine for å sjå andre setningar på språket ditt.
 speak-empty-state-cta = Bidra med setningar
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
@@ -28,11 +29,6 @@ target-segment-first-banner = Hjelp til med å lage Common Voice sitt første m�
 target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
 change-preferences = Endre innstillingar
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Innsamling av stemmer
-contribute-sentence-collection-nav-header = Setningsinnsamling
 login-signup = Logg inn/Registrer deg
 vote-yes = Ja
 vote-no = Nei

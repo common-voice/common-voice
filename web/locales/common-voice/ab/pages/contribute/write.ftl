@@ -66,7 +66,7 @@ sentence-variant-select-label = Адгалара авариант
 sentence-variant-select-placeholder = Аопциа алхтәуп (иаҭахым)
 sentence-variant-select-multiple-variants = Еицырзеиԥшу абызшәа / еиуеиԥшым авариантқәа
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ахәаахәҭра <icon></icon> зегьы ирзеиԥшу аҳамҭақәа
@@ -143,3 +143,9 @@ small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟ
 small-batch-sentences-rule-4 = 1000 жәаҳәара рҟынӡа иацҵатәуп
 small-batch-sentences-rule-5 = Ажәаҳәақәа зегьы доменк рымазароуп
 small-batch-sentences-rule-6 = Ажәаҳәақәа зегьы цитатак рымазароуп
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
