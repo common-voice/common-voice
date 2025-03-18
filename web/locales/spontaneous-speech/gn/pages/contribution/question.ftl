@@ -8,6 +8,7 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions } { $totalQuestions } rehegua porandu mbyatypyre
     }
 add-question-error-message = Ñemyanyhẽ ndoikói, eha’ãjey ag̃ave.
+add-question-too-many-questions-error = Ohasáma 500 porandu. Emomichĩve ne porandu ha eha’ãjey ag̃ave.
 # Guidelines
 add-question-guidelines-title = ¿Mba’e porandu ambojuajukuaa?
 do-section-title = de
