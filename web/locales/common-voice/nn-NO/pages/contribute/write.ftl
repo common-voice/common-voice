@@ -10,6 +10,8 @@ sc-review-small-batch-title = Korleis leggje til fleire setningar
 new-sentence-rule-1 = <noCopyright>Ingen opphavsretts</noCopyright>-avgrensingar (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Færre enn 15 ord per setning
 new-sentence-rule-3 = Bruk rett grammatikk
+new-sentence-rule-4 = Bruk rett stavemåte og teiknsetting
+new-sentence-rule-5 = Ingen tal og spesialteikn
 login-instruction-multiple-sentences = <loginLink>Logg in</loginLink> eller <loginLink>registrer dig</loginLink> for å leggje til fleire setningar
 how-to-cite = Korleis siterer eg?
 guidelines = Retningslinjer
@@ -44,6 +46,7 @@ too-many-files = For mange filer
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-4 = Legg til opptil 1000 setningar
 # menu item
 add-sentences = Legg til setningar
 
