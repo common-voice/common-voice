@@ -8,6 +8,7 @@ different_language = Ye en unatro idioma
 different_language-detail = Lo conteniu no ye en o idioma en que habría d'estar.
 personally_identifiable_information = Información personalment identificable
 personally_identifiable_information-detail = Este conteniu contiene información identificable personalment d'a identidat d'un individuo, como lo suyo nombre, adreza electronica, localización, numero d'identificación u numero de telefono.
+personally_identifiable_information-answer-detail = Este conteniu ye demandando información personal d'una persona relativa a la suya identidat individual, como lo nombre, adreza de correu, domicilio, numero d'identificación u numero de telefono.
 report-other-comment =
     .placeholder = Comentar
 # Label for textarea in report modal
