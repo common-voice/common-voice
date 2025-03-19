@@ -1,4 +1,4 @@
-listen = Прослушать
+listen = Послушайте
 listen-subtitle = Помогите нам проверять записи
 listen-instruction = { $actionType }<playIcon></playIcon> точно ли произнесено предложение?
 listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
