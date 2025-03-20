@@ -66,6 +66,7 @@ about-playbook-how-add-language-content-1 = Kontrollar først om språket ditt <
 about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sjå meir om innsamling av setningar</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -77,6 +78,7 @@ about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 ## How to add sentences
 
 about-playbook-how-add-sentences = Korleis legg eg til ei setning?
+about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsuthentar</scraperLink> for å hente korte setningar frå Wikipedia.
 
 ## How to record quality
 
@@ -85,6 +87,7 @@ about-playbook-how-record-content-2 = Unngå for mykje bakgrunnslyd – det skal
 
 ## How to grow language
 
+about-playbook-how-grow-language = Korleis kan vi effektivt utvikle eit språk på Common Voice?
 about-playbook-how-grow-language-content-2 = Hendingar
 about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
