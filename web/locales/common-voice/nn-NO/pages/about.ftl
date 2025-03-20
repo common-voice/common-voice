@@ -96,6 +96,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 ## How to validate
 
 about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmeklipp?
+about-playbook-how-validate-content-4 = Viss eit klipp blir avvist av 2 personar, blir det gitt ut i eit anna delsett av datasettet.
 
 ## How to access dataset
 
