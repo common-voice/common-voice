@@ -1,5 +1,7 @@
 ## Prompts page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+prompt-page-instruction = { $actionType } <micIcon></micIcon> ແລະ ຕອບສະໜອງຢ່າງເປັນທຳມະຊາດເທົ່າທີ່ທ່ານສາມາດເຮັດໄດ້
 error-recording = ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການບັນທຶກ
 # For the button to delete a response to a prompt
 delete = ລຶບ
