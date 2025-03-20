@@ -56,10 +56,13 @@ about-nav-playbook = Les om korleis du deltek
 ## What is a language
 
 about-playbook-what-is-language = Kva er eit språk på Common Voice?
+about-playbook-what-is-language-content-2 = Vi ønskjer at talemodellar skal bli betre til å forstå eit mangfald av talarar. For at dette skal skje, må eit stemmedatasett representere mange ulike personar.
+about-playbook-what-is-language-content-3 = Nokre språk har enorm variasjon i grammatikk, ordtilfang og uttale. Av denne grunn <ctaLink>introduserer vi «Variantar»</ctaLink> i 2022. Dette gir fellesskap ein måte å skilje språka sine i det større datasettet.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Korleis legg eg til eit språk?
+about-playbook-how-add-language-content-1 = Kontrollar først om språket ditt <languageLink>allereie finst</languageLink>. Viss det ikkje gjer det, må du <strong>omsette nettstaden og samle setningar</strong>.
 about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
