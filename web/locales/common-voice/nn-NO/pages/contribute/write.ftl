@@ -66,12 +66,26 @@ too-many-files = For mange filer
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Legg til offentlege domenesetninar
+multiple-sentences-error = Du kan ikkje leggje til fleire setningar for ei enkel innsending
+exceeds-small-batch-limit-error = Kan ikkje sende inn meir enn 1000 setningar
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Grensa overskriden. Prøv på nytt om 1 minutt
+       *[other] Grensa overskriden. Prøv på nytt om { $retryLimit } minutt
+    }
+small-batch-sentences-rule-2 = Legg til éi setning per linje
 small-batch-sentences-rule-4 = Legg til opptil 1000 setningar
+small-batch-sentences-rule-5 = Alle setningar må ha same domene
+small-batch-sentences-rule-6 = Alle setningar må ha same sitat
 # menu item
 add-sentences = Legg til setningar
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Legg til og sjå gjennom setningar, legg til spørsmål, transkriber lyd
 
 ## MENU ITEM ARIA LABELS
 
