@@ -83,17 +83,21 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Korleis fungerer omsetjinga av nettstaden?
 about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Opprett ein konto</pontoonAccountLink> viss du ikkje har ein. Vel deretter språket ditt <strong>(‘Team')</strong> og vel deretter prosjektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det vil vere filer å omsetje. Klikk på ei, så viser det ordet på engelsk og ein boks for å omsetje dei.
+about-playbook-how-localize-content-3 = Omsetjinga er frå engelsk, men du kan sjå <strong>Forslag</strong> på andre språk. Klikk på <strong>Profil</strong>-ikonet, deretter <strong>Innstillingar</strong>-lenka og legg til eventuelle språk du snakkar. Nedst til høgre er ei liste over omsetjingar kalla <strong>Locals</strong>. Omsetjingar blir viste på nettstaden etter ein dag.
 about-playbook-how-localize-content-4 = Nettstaden er klar for lansering når han er 75 % ferdig.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Korleis legg eg til ei setning?
+about-playbook-how-add-sentences-content-1 = Du kan leggje til setningar på <writePageLink>Skrive-sida</writePageLink> eller sjå gjennom setningar på <reviewPageLink>Vurderings-sida</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Setningar må gåast gjennom og aksepterast av to personar for å bli inkludert i Common Voice. Du lagar retningslinjer for språket ditt <languageGuidelinesLink>her</languageGuidelinesLink>. Setningar må vere i <licenseLink>offentleg domene</licenseLink> og vere kortare enn 15 ord. Du kan be eigaren av ein tekst om å gjere han om til <waiverLink>CC0 ved å bruke fråskrivingsprosessen vår</waiverLink>, og sende han til oss på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsuthentar</scraperLink> for å hente korte setningar frå Wikipedia.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Korleis spelar eg inn eit stemmeklipp med høg kvalitet?
+about-playbook-how-record-content-1 = Snakk med den vanlege stemma di! Måten du snakkar på er velkomen her - vi vil ha aksenten din som han er, og vi vil ha den vanlege lydstyrken din, stil og intonasjon.
 about-playbook-how-record-content-2 = Unngå for mykje bakgrunnslyd – det skal vere lett å høyre deg.
 
 ## How to grow language
