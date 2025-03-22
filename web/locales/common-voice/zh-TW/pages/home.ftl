@@ -77,6 +77,7 @@ answer-questions-coming-soon = 回答問題 <small>即將推出</small>
 review-transcriptions = 審核轉錄 <small>即將推出</small>
 review-transcriptions-coming-soon = 審核轉錄 <small>即將推出</small>
 add-questions = 新增問題 <small>(近期推出)</small>
+add-questions-coming-soon = 新增問題 <small>(近期推出)</small>
 transcribe-audio-coming-soon = 轉錄錄音 <small>即將推出</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
