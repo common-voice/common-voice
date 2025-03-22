@@ -86,6 +86,8 @@ add-sentences = Legg til setningar
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = Legg til og sjå gjennom setningar, legg til spørsmål, transkriber lyd
+add-sentences-menu-item-tooltip = Legg til setningar på ditt språk
+review-sentences-menu-item-tooltip = Vurder setningar på språket ditt
 
 ## MENU ITEM ARIA LABELS
 
