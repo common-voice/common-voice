@@ -71,12 +71,18 @@ about-playbook-how-add-language-content-1 = Kontrollar først om språket ditt <
 about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sjå rettleiinga vår om korleis du brukar setningsinnsamlaren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>leggje til nokre få setningar</sentenceCollectorLinkAdd>,
+    eller <bulkImportDocsLink>masseimportere med Github</bulkImportDocsLink>.
+    Hugs at setningar må vere <licenseLink>CC0 (eller offentleg domene)</licenseLink>, eller du kan skrive dine eigne.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sjå meir om innsamling av setningar</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Korleis fungerer omsetjinga av nettstaden?
 about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Opprett ein konto</pontoonAccountLink> viss du ikkje har ein. Vel deretter språket ditt <strong>(‘Team')</strong> og vel deretter prosjektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det vil vere filer å omsetje. Klikk på ei, så viser det ordet på engelsk og ein boks for å omsetje dei.
 about-playbook-how-localize-content-4 = Nettstaden er klar for lansering når han er 75 % ferdig.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
