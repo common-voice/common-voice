@@ -1,4 +1,5 @@
 listen = Lytt
+listen-subtitle = Hjelp oss med å validere stemmer
 listen-instruction = { $actionType } <playIcon></playIcon> var setninga sagt rett?
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
@@ -12,6 +13,8 @@ listen-abort-cancel = Fortset å validere
 listen-abort-confirm = Fullfør valideringa
 # Menu item
 validate-readings = Valider opplesing.
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Valider opplesingar <small>(kjem snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
