@@ -99,10 +99,14 @@ about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsu
 about-playbook-how-record-quality = Korleis spelar eg inn eit stemmeklipp med høg kvalitet?
 about-playbook-how-record-content-1 = Snakk med den vanlege stemma di! Måten du snakkar på er velkomen her - vi vil ha aksenten din som han er, og vi vil ha den vanlege lydstyrken din, stil og intonasjon.
 about-playbook-how-record-content-2 = Unngå for mykje bakgrunnslyd – det skal vere lett å høyre deg.
+about-playbook-how-record-content-3 = Les setninga nøye - ikkje gå glipp av, endre eller legg til ord.
+about-playbook-how-record-content-4 = Sørg for at plattforma tek opp før du byrjar å snakke, og at ho berre stoppar når du er ferdig.
+about-playbook-how-record-content-5 = <accuracyLink>Sjå meir om nøyaktigheitskriterium.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Korleis kan vi effektivt utvikle eit språk på Common Voice?
+about-playbook-how-grow-language-content-1 = Å skape moglegheiter for eit mangfald av menneske til å bidra til Common Voice sikrar at datasettet betener så mange menneske som mogleg. Vi har laga ressursar og malar som du kan bruke!
 about-playbook-how-grow-language-content-2 = Hendingar
 about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
