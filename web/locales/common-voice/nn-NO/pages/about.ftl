@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
+about-header-description-v2 =
+    <p>Common Voice er eit offentleg tilgjengeleg datasett av alminnelege stemme-klipp som kjem frå frivillige bidragsytarar over heile verda. Folk som ønskjer å byggje applikasjonar som krev talegjenkjenning kan bruke datasettet til å trene maskinlæringsmodellar.</p>
+    <p>Dei fleste slike datasett er eigde av bedrifter, noko som hindrar innovasjon. Dei datasetta er dessverre også overrepresentert av berre ein type menneske, og manglar derfor mangfald av folk med ulikt opphav, språk, kjønn, og legning. Dette resulterer i at talegjenkjenning ikkje fungerer like bra for alle, og nokre gonger ikkje i det heile. Vi ønskjer å endre dette ved å mobilisere folk overalt for å dele <b>stemma</b> si.</p>
 how-does-it-work-title-v2 = Korleis fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 
@@ -45,6 +48,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Korleis held eg kontakten?
 about-stay-in-touch-button = Registrer deg
 about-stay-in-touch-text-1 = <emailFragment>Registrer deg</emailFragment> på e-postlista vår for å lære korleis du kan vere med på hendingar, arrangement og samarbeidsutformingsfunksjonar på Common Voice.
+about-stay-in-touch-text-2 = Du kan møte andre i Mozilla-språkmiljøa ved å bli med i <discourseLink>Discourse</discourseLink> for aktuelle samtalar, eller <matrixLink>Matrix</matrixLink> for raske råd.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
@@ -56,6 +60,7 @@ about-nav-playbook = Les om korleis du deltek
 ## What is a language
 
 about-playbook-what-is-language = Kva er eit språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det er mange måtar å tenkje språk på. Når det gjeld talegjenkjenningsmodellar, foreslår Common Voice å fokusere på «gjensidig forståing», eller «kan dei som snakkar dette språket stort sett forstå kvarandre viss dei prøver?»
 about-playbook-what-is-language-content-2 = Vi ønskjer at talemodellar skal bli betre til å forstå eit mangfald av talarar. For at dette skal skje, må eit stemmedatasett representere mange ulike personar.
 about-playbook-what-is-language-content-3 = Nokre språk har enorm variasjon i grammatikk, ordtilfang og uttale. Av denne grunn <ctaLink>introduserer vi «Variantar»</ctaLink> i 2022. Dette gir fellesskap ein måte å skilje språka sine i det større datasettet.
 
