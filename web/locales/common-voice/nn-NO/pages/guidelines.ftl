@@ -19,6 +19,7 @@ misreadings-example-4 = Humla flaug forbi.
 misreadings-tip-1 = [Skulle vore «Vi er»]
 misreadings-tip-2 = [Ordet «igjen» var ikkje i teksten]
 misreadings-tip-3 = [Heilt feil innhald]
+volume-explanation = Det vil vere naturlege variasjonar i volum på dei ulike lesarane. Avvis berre viss volumet er så høgt at opptaket blir brote opp, eller (vanlegare) viss det er så lågt at du ikkje kan høyre kva som blir sagt utan å referere til den skrivne teksten.
 still-have-questions = Har du framleis spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)

@@ -82,6 +82,13 @@ rate-limit-toast-message-minutes =
         [one] Grensa overskriden. Prøv på nytt om 1 minutt
        *[other] Grensa overskriden. Prøv på nytt om { $retryLimit } minutt
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } av 1 setning innsamla
+       *[other] { $uploadedSentences } av { $totalSentences } setningar innsamla
+    }
+small-batch-sentences-rule-1 = Følg retningslinjene i «Kva for setningar kan eg leggje til?»
 small-batch-sentences-rule-2 = Legg til éi setning per linje
 small-batch-sentences-rule-4 = Legg til opptil 1000 setningar
 small-batch-sentences-rule-5 = Alle setningar må ha same domene
@@ -94,6 +101,12 @@ add-sentences = Legg til setningar
 write-contribute-menu-tooltip = Legg til og sjå gjennom setningar, legg til spørsmål, transkriber lyd
 add-sentences-menu-item-tooltip = Legg til setningar på ditt språk
 review-sentences-menu-item-tooltip = Vurder setningar på språket ditt
+add-questions-menu-item-tooltip = Legg til spørsmål på språket ditt
+transcribe-audio-menu-item-tooltip = Transkriber lydopptak på språket ditt
 
 ## MENU ITEM ARIA LABELS
 
+add-sentences-menu-item-aria-label = Legg til nye setningar som fellesskapet kan lese
+review-sentences-menu-item-aria-label = Vurder eksisterande setningar sendt inn av felleskapet
+add-questions-menu-item-aria-label = Send inn nye spørsmål som fellesskapet kan lese og svare på
+transcribe-audio-menu-item-aria-label = Transkribere lydopptak til tekst
