@@ -5,6 +5,7 @@ listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
 listen-empty-state = Vi har gått tom for lydklipp å validere på dette språket…
+listen-empty-state-variants = Språkvarianten din kan vere tom for lydklipp! Du kan endre innstillingane dine for å sjå andre setningar på språket ditt.
 listen-loading-error =
     Vi klarte ikkje å finne lydklipp du kunne høyre på.
     Prøv på nytt seinare.
@@ -14,7 +15,7 @@ listen-abort-confirm = Fullfør valideringa
 # Menu item
 validate-readings = Valider opplesing.
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Valider opplesingar <small>(kjem snart)</small>
+validate-readings-coming-soon = Validere opplesingar <small>(kjem snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
