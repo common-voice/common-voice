@@ -108,7 +108,9 @@ about-playbook-how-record-content-5 = <accuracyLink>Sjå meir om nøyaktigheitsk
 about-playbook-how-grow-language = Korleis kan vi effektivt utvikle eit språk på Common Voice?
 about-playbook-how-grow-language-content-1 = Å skape moglegheiter for eit mangfald av menneske til å bidra til Common Voice sikrar at datasettet betener så mange menneske som mogleg. Vi har laga ressursar og malar som du kan bruke!
 about-playbook-how-grow-language-content-2 = Hendingar
+about-playbook-how-grow-language-content-3 = Du kan starte eit arrangement for å oppmode folk til å bidra. Det er enklare enn du trur. Du kan til dømes halde ein videokonferanse på nett, eller ansikt til ansikt viss omstenda opnar for det. <eventTemplate>Sjekk malane og ressursane vi har for å halde eit slikt arrangement</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosiale medium
+about-playbook-how-grow-language-content-5 = Du kan bruke sosiale medium for å få ut bodskapen. Del innlegg som forklarer kvifor det er viktig, og ta kontakt med andre som snakkar om spørsmål som språkrettar, stemme-Ai eller skeivskap i teknologi. Sjå fleire råd om <campaignLink>køyring av ein sosial kampanje, inkludert innhald du kan gjenbruke</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
 about-playbook-how-grow-language-content-7 = Finn andre som bryr seg. Det kan vere universitet, språkskular, påverknadsgrupper eller datavitskapsmiljø. Nå ut og forklar tydeleg korleis dei kan hjelpe og kvifor. <outreachTemplates>Sjå malane våre for oppsøkjande e-postar</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
@@ -116,6 +118,8 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 ## How to validate
 
 about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmeklipp?
+about-playbook-how-validate-content-1 = Viss du kunne <strong>høyre dei</strong> og <strong>forstå dei</strong>, er det vanlegvis <strong>best å godkjenne</strong>.
+about-playbook-how-validate-content-2 = <strong>Ikkje avvis klipp der talaren «har ein aksent» som er ulikt frå din eigen</strong> – dette er viktig for at stemmegjenkjenning skal fungere betre for alle.
 about-playbook-how-validate-content-4 = Viss eit klipp blir avvist av 2 personar, blir det gitt ut i eit anna delsett av datasettet.
 
 ## How to access dataset
