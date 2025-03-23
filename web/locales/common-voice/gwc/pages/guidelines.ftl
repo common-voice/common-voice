@@ -60,19 +60,19 @@ public-domain-explanation-5 = تٞتھی چُنڑاٞل بیݭ اوں تٞن ر�
 public-domain-explanation-6 = حکومِت، باٞنفع یا میڈیاٞ تنظیمونہ کٞہ پٞھݭ تے بیݭ اوں اٞسوں ویب آٞں مواد، رپوٹونہ یا دی مواد عام ڈومین کٞہ وقف ہوانتاٞ۔
 citing-sentences-explanation-1 = حواٞلاٞ ݭاگ ضرولی کیکوں ان دہ مہ اِیں مالوم کٞرباٞں اوں اِیں جُملاٞ پبلک ڈومین مئ شامل تھو کو نہ تے ان رہ کاپی رائٹس ایں پابندی تھی کو نہ۔
 citing-sentences-subheader-websites = ویبسائٹ
-citing-sentences-subheader-websites-explanation = تو ویب سائٹ پا شامل کٞرباں لخٞہ عام ہواز https://commonvoice.mozilla.org/
+citing-sentences-subheader-websites-explanation = تو ویب سائٹ پا شامل کٞرباں مثلاً کامن وائیس  https://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = تعلیمی حوالہ
-citing-sentences-subheader-academic-reference-explanation = تو تعلیمی حوالہ ایں سٹائل دہ استمال کٞرواں لخٞہ ہارڈورڈ سٹائل "موزیلا(2021) عام ہواز۔ موجود تھو https://commonvoice.mozilla.org/ (پھاٞݭت؛ 15 ستمبر 2021)"
-citing-sentences-subheader-offline-sources = باٞ نیٹاٞں ذریعاٞ
-citing-sentences-subheader-offline-sources-explanation = عام ڈومین ایں چنڑیل ایں کیر   سٞہ آنلائن موجود نات تہ، تو تعلیمی حوالیں سٹائل پا استمال کٞرواں لخٞہ ہارڈ ورڈ سٹائل "جیس(2021) ماٞں عام لائسنساٞں نظمونہ"
+citing-sentences-subheader-academic-reference-explanation = تو تعلیمی حوالاں طریقہ کار استمال کٞرباں لخٞہ ہارڈورڈ سٹائل "موزیلا(2021) عام ہواز۔ https://commonvoice.mozilla.org رہ دستیاب تھو/ (رسائی کِیت؛ 15 ستمبر 2021)"
+citing-sentences-subheader-offline-sources = آف لائین ذریعاٞ
+citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ایں چنڑیل ایں کیر اوں لخہ  سٞہ آنلائن موجود نات تہ، تو تعلیمی حوالیں سٹائل پا استمال کٞرباں لخٞہ ہارڈ ورڈ سٹائل "جیس(2021) ماٞں عام لائسنساٞں نظمونہ"
 citation =
     .label = حوالہ
 self-citation = تانی حوالہ
 self-citation-explanation = ائی اینچھلہ اوں کون تو تانی حوالہ داٞݭات کٞہ تئ اٞپینہ کٞہ مواد چُنڑو تہ۔
 adding-sentences-subheader-length = لیگار
-adding-sentences-subheader-length-explanation = جملہ مئ  پاٞنجاٞ الفاٞظ ماں کٞم پکاٞر۔
-adding-sentences-subheader-spelling-punctuation = ٹیکی تے رموزِ اوقاف
-adding-sentences-subheader-spelling-punctuation-explanation = اِیں جملیں ٹیکی خامخہ صحی پکار۔
+adding-sentences-subheader-length-explanation = جملہ مئ  پاٞنجاٞ الفاٞظ ما کٞم پکاٞر۔
+adding-sentences-subheader-spelling-punctuation = ہیزی تے رموزِ اوقاف
+adding-sentences-subheader-spelling-punctuation-explanation = اِیں جملیں ہیزی خامخہ صحی پکار۔
 adding-sentences-subheader-speakable = مٞنوگاں قابیل
 adding-sentences-subheader-speakable-explanation = راٞن جملاٞ قدرتی تے عام آٞشاٞں ــ اوم کساٞ کٞہ پٞروگہ ہسان آٞشاٞں۔اٞ جملاٞ مئ مختلف ہواٞز واٞلاٞ الفاٞظ ضرولی، مٞپ پا کوشش کںٞرنت اوں ٹیپ کٞروگ واٞلاٞ جملاٞ مزیدار تے ہساگ واٞلاٞ ہوگ موں رضاکار خلٞک ایں کیر کٞتیک ممکن ہو تہ۔
 adding-sentences-subheader-numbers = لمٞر
