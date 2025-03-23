@@ -45,7 +45,13 @@ sentence-variant-select-placeholder = Vel ein variant (valfritt)
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Last opp <icon></icon> setningar godkjende for offentleg domene
+sc-bulk-upload-instruction = Dra fila di hit eller <uploadButton>klikk for å laste opp</uploadButton>
 sc-bulk-upload-instruction-drop = Slipp fila her for å laste opp
+bulk-upload-additional-information = Viss det er tilleggsinformasjon du vil gi om denne fila, kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Viss det er tilleggsinformasjon du vil gi om denne fila som ikkje er inkludert i malen, kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Prøv på nytt ved å dra fila hit
 try-upload-again-md = Prøv å laste opp igjen
 select-file = Vel fil
 select-file-mobile = Vel ei fil å laste opp
