@@ -366,5 +366,6 @@ donate-banner-cta = <mark>Vi treng</mark><br/><mark>hjelpa di!</mark>
 donate-banner-cta-explanation = Det kostar nesten ein million dollar i året å vere vert for datasetta og forbetre plattforma for dei over 100 språksamfunna som er avhengige av det vi gjer. <strong>Omdu set pris å opne, inkluderande data – doner i dag!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Brukar du CV for</mark><br/><mark>forskinga di?</mark>
+languages-donate-banner-cta-explanation = Common Voice er finansiert av donasjonar og tilskot! Vi likar å samarbeide med akademikarar, sivilsamfunn og industriforskarar. Common Voice er gratis å bruke, men å bidra til plattform- og vertskostnadar gjennom tilskotsforslag er veldig nyttig.
 localization-select =
     .label = Vel språk/lokalisering
