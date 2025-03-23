@@ -120,11 +120,13 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmeklipp?
 about-playbook-how-validate-content-1 = Viss du kunne <strong>høyre dei</strong> og <strong>forstå dei</strong>, er det vanlegvis <strong>best å godkjenne</strong>.
 about-playbook-how-validate-content-2 = <strong>Ikkje avvis klipp der talaren «har ein aksent» som er ulikt frå din eigen</strong> – dette er viktig for at stemmegjenkjenning skal fungere betre for alle.
+about-playbook-how-validate-content-3 = Viss du trur uttalen gjer det <strong>umogleg å forstå</strong>, eller det er <strong>mykje bakgrunnsstøy</strong>, eller det er <strong>andre som snakkar òg</strong>, så skal du avvise klippet. <accuracyLink>Sjå meir informasjon i nøyaktigheitskriteria våre</accuracyLink>.
 about-playbook-how-validate-content-4 = Viss eit klipp blir avvist av 2 personar, blir det gitt ut i eit anna delsett av datasettet.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datasettet?
+about-playbook-how-access-dataset-content-1 = Du kan gå til <datasetsPage>datasettsida</datasetsPage>, velje versjonen og språka du vil ha, og laste han ned! Filene har <metadataLink>tilknytta metadata</metadataLink>, til dømes demografisk informasjon og valideringsdata. Du må oppgi ei e-postadresse for å laste ned datasettet.
 
 ## How are decisions made
 
@@ -140,3 +142,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om ko
 ## How is Common Voice funded
 
 about-playbook-how-funded = Korleis blir Common Voice finansiert?
+about-playbook-how-funded-content-1 = Common Voice er eit prosjekt frå Mozilla Foundation, ein US 501c3. Prosjektet er for tida finansiert eine og åleine av <philantropicGrantLink>filantropiske stipend</philantropicGrantLink>, og donasjonar frå folk i heile verda.
