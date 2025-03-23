@@ -19,6 +19,12 @@ validate-readings-coming-soon = Validere opplesingar <small>(kjem snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Valider opplesingar, gå gjennom transkripsjonar
+validate-readings-menu-item-tooltip = Validere brukarregistrerte opptak på ditt språk
+review-transcriptions-menu-item-tooltip = Sjå gjennom brukarinnsende transkripsjonar på språket ditt
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Meny for lyttealternativ
+validate-readings-menu-item-aria-label = Valider opplesingar sendt inn av fellesskapsmedlemmar
+review-transcriptions-menu-item-aria-label = Vurder transkripsjonar av innspelte setningar for nøyaktigheit
