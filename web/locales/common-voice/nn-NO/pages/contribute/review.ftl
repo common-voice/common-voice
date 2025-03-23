@@ -32,4 +32,12 @@ sc-review-instruction = Kontroller <icon></icon> er dette ei språkleg korrekt s
 sc-review-rules-title = Oppfyller setninga retningslinjene?
 sc-review-empty-state = Det er, akkurat no, ingen setningar å vurdere på dette språket.
 report-sc-different-language = Anna språk
+sentences-fetch-error = Det oppsto en feil under henting av setningar
+review-error = Det oppstod en feil under vurderinga av denne setninga
+review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å sjå gjennom setninga for å sikre at ho er rett.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Vi gjer nokre store endringar
+sc-redirect-page-subtitle-1 = Setningsinnsamlaren flyttar til kjerneplattforma Common Voice. Du kan no <writeURL>skrive</writeURL> ei setning eller <reviewURL>sjå gjennom</reviewURL> enkeltsetningsinnsendingar på Common Voice.
 sc-redirect-page-subtitle-2 = Still spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
+# menu item
+review-sentences = Vurder setningar

@@ -39,8 +39,17 @@ review-delete-recordings = Slett opptaka mine
 review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Takk for at du donerte stemmeklippa dine!
+first-cta-subtitle-text = Vil du dele litt informasjon om korleis du snakkar?
 why-donate = Kvifor spør du?
+why-donate-explanation-1 = Denne informasjonen er valfri å oppgi - du bør berre leggje han til viss du kjenner deg komfortabel. Når vi frigir datasettet, pseudonymiserer vi all personleg informasjon, og sørgjer for at informasjon som namn og e-post ikkje er knytt til demografisk informasjon som alder eller kjønn.
+why-donate-explanation-2 = For at teknologi skal fungere godt for alle, må dataa som hjelper utviklarar med å byggje teknologi spegle eit mangfaldig spekter av menneske. Til dømes, viss vi ikkje inkluderer nokon talarar med ein bestemd aksent eller dialekt, vil ikkje teknologien fungere bra for folk med den aksenten eller dialekten. <learnMore>Finn ut meir om kvifor metadata er viktig.</learnMore>
 add-information-button = Legg til informasjon
+continue-speaking-button = Nei takk, fortset å snakke
+create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett ein profil</createProfile>
+thanks-for-voice-toast = Takk for stemmeinformasjonen din
+thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemma di
 first-cta-gender-select-default-option = Vel eit alternativ
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Takk for at du bidrog med stemma di!
