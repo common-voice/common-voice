@@ -51,8 +51,11 @@ create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett ein
 thanks-for-voice-toast = Takk for stemmeinformasjonen din
 thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemma di
 first-cta-gender-select-default-option = Vel eit alternativ
+first-cta-gender-select-help-text =
+    .label = Korleis vil du skildre kjønnet ditt?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Takk for at du bidrog med stemma di!
+second-cta-subtitle-text = Med ein profil kan du halde oversikt over aktiviteten din, og få kontakt med eit fellesskap av bidragsytarar til taledata.
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 # menu item
@@ -63,3 +66,4 @@ read-sentences = Les setningar
 
 ## MENU ITEM ARIA LABELS
 
+read-sentences-menu-item-aria-label = Les setningar sendt inn av fellesskapet på ulike språk
