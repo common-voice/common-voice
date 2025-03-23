@@ -110,6 +110,7 @@ about-playbook-how-grow-language-content-1 = Å skape moglegheiter for eit mangf
 about-playbook-how-grow-language-content-2 = Hendingar
 about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
+about-playbook-how-grow-language-content-7 = Finn andre som bryr seg. Det kan vere universitet, språkskular, påverknadsgrupper eller datavitskapsmiljø. Nå ut og forklar tydeleg korleis dei kan hjelpe og kvifor. <outreachTemplates>Sjå malane våre for oppsøkjande e-postar</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
 
 ## How to validate
