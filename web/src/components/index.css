@@ -554,10 +554,10 @@ button.bg-second-theme,
     }
 
     .contribution .pills .inner {
-        flex-direction: column !important;
+        gap: 1rem;
+        overflow: scroll;
     }
     .pill {
-        width: inherit !important;
         margin-bottom: 5px;
     }
     .px-10 {
@@ -568,9 +568,10 @@ button.bg-second-theme,
         left: 5% !important;
         width: 90% !important;
     }
-    .contribution .steps {
+    .contribution .steps-wrap {
         display: none;
     }
+
 }
 .hero-banner {
     width: 100% !important;
