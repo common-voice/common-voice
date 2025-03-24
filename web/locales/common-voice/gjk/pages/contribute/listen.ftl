@@ -17,6 +17,7 @@ validate-readings-coming-soon = ڀڻتر ني تصديق ڪرو<small> (جلدي
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ڀڻتر ني تصديق ڪرو، لکل شڪل مان تبديل ڪرل وات وڳچ
+validate-readings-menu-item-tooltip = سئِي اِستمال ڪريا واران- انين زين ڀڻيا نون تمارِي ٻولِي مان رِڪارڍ سي۔
 
 ## MENU ITEM ARIA LABELS
 
