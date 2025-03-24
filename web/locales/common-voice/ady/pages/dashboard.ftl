@@ -4,6 +4,8 @@ your-languages = Убзэхэр
 clips-you-recorded = Умэкъэ тетхагъэхэр
 clips-you-validated = Къэбгъэшъыпкъэгъэ мэкъэ тетхагъэхэр
 todays-recorded-progress = Непэ ӏэпэкӏэрэ мэкъэ тетхагъэу Коммон Войс-ымкӏэ щыӏэр
+everyone = Хэти
+top-contributors = Анахьыбэу хэлэжьагъэхэр
 
 ## Custom Goals
 
