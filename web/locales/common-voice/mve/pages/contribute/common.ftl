@@ -6,8 +6,8 @@ skip = ڇوُڙڻ
 shortcuts = ويچ ڪرڻ
 clips-with-count-pluralized =
     { $count ->
-        [one] هيڪ ڪلِپ
-       *[other] ٻي ڪلِپ
+        [one] هيڪ <bold>{ $count }</bold>ڪلِپ
+       *[other] ٻِجيَ <bold>{ $count }</bold>ڪلِپون
     }
 goal-help-recording = ڪينو ٿُون مدد ڪِي ڪومن وئِيس تي رسيڻ رِي <goalPercentage></goalPercentage>آپڻِي روز رِي{ $goalValue } رِڪورڊئينگ را مقسد
 goal-help-validation = ٿُون مدد ڪِي ڪومن وئِيس رسيڻ <goalPercentage></goalPercentage> آپڻِا روز را { $goalValue }مقسد
@@ -41,7 +41,7 @@ submit-form-action = جما ڪرڻ
 
 ## Reporting
 
-report = کبرچار ڏيڻ يان رپورٽ
+report = رپورٽ
 report-title = کبرچار جما ڪرڻ
 report-ask = ٿَني اِيئي جمليَ ۾ ڪهڙا ڪهڙا ميسلا آيا هَي۔
 report-offensive-language = گاڙئيون آݪِي ٻولِي
