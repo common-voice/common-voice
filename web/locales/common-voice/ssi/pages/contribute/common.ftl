@@ -1,4 +1,5 @@
 action-click = دؔٻاٹؔا
+action-tap = تھپکی
 
 ## Reporting
 

@@ -72,9 +72,29 @@ shortcut-skip = س
 shortcut-record-toggle = ر
 shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = هيڪ ٿِي لينَ پونس
+shortcut-rerecord-toggle-label = ٻِيزِي وار رِيڪارڊ clip ڪرو
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = جارِي ڪرَل ريڪارڊِنگ نئہ کتم ڪرو
+shortcut-submit = واپس زائو
+shortcut-submit-label = ڪِلپ جمع ڪراوو
+request-language-text = ڪِي تمارئِي ٻولئي هنزون ۿُوڌِي Common Voice  مانه موجُود نٿِي؟
+request-language-button = ٻولِي رئي ڌرخواست ۮيو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = Play/Stop ڪرو
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ي
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = معيار
+contribution-criteria-link = ڀاڳ ۮِيڌا ۿارُو معيار نئہ ۿزمو
+contribution-criteria-page-title = ڀاڳ ۮِيڌا رو معيار

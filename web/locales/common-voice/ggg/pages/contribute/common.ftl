@@ -140,3 +140,5 @@ contribution-background-voices-description = اِدرگرد کآموش شور ٺ
 contribution-background-voices-description-extended = جي رڪآرڊنٚگ ٽوٽ جآنديٚ هي يآ ڦآٽيٚ هي رد ڪرو جيستآئينٚ سب شي سيڪوآ مينٚ آ سڪي۔
 contribution-background-voices-example-1-explanation = ڪآ تو آهيرو هي؟<strong>[دوسرآ ڪي ترڦيدي سڏجرو] </strong>
 contribution-volume-title = آوآج
+contribution-volume-description = پڙهوآلآ ڪآ وچو مي ڪُدرتي ڦرڪ هوندآ هينٚ بس اُرو ٽيم هٽآئوجو رش ايتري وڌ جآندي هي جو ريڪآرڊينگ کرآب هو جآئي (وڌيڪ آم تور پر) ايترو گھٽ هي جو تمي سُڻ ڪونآ سگھو تو ڪآ ڪيرو جآرهيرو هي لکرآ سآمآنو ڪآ هوآلآ دي۔
+contribution-reader-effects-title = پڙهوآلآ اسر
