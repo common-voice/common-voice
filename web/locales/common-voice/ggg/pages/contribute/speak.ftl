@@ -63,5 +63,5 @@ answer-questions-menu-item-tooltip = آپو ڪيٚ ٻوليو مي سوآلآ ا
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = ٻولوآ ڪآ اديڪآرآ ڪيِٚ لِسٽ
-read-sentences-menu-item-aria-label = بردري يو ڪي ترڦي دي جمآ ڪري ڦرڪ بوليآ مي جملآ پڙهو۔
-answer-questions-menu-item-aria-label = برآدري ئي ڪآ پڙهوآ اور جنآب ديوآ تآڻي ايڪ نوو سوآل جمآ ڪرو
+read-sentences-menu-item-aria-label = برادريو ڪيٚ ترڦيٚ دي جمآ ڪرري ڦرڪَ ٻوليآ مي جملآ پڙهو۔
+answer-questions-menu-item-aria-label = برآدريو ڪآ پڙهوآ اور جبآب ديوآ تآڻيٚ ايڪ نوو سوآل جمآ ڪرو
