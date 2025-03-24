@@ -21,6 +21,19 @@ new-sentence-rule-6 = غير ملڪي خط نه
 new-sentence-rule-7 = مناسب حوالو شامل ڪرو
 new-sentence-rule-8 = مثالي طور تي قدرتي ۽ گفتگو ڪندڙ (او جملو پڙهڻ ۾ آسان هوڻ گهرجي)
 how-to-cite = ھون ڪيئن بيان ڪران؟
+how-to-cite-explanation-bold = URL لنڪ يا ڪم ري مڪمل نالي سان حوالو ڏيو.
+how-to-cite-explanation = جيڪڏھن او اوھان نا آپرا لفظ هي، بس چئو <italicizedText>"Self Citation"</italicizedText>. اسان نا ڄاڻڻ ري ضرورت هي ته اوهان هي مواد ڪٿي مليو هي ته جيئن اسان چيڪ ڪري سگهون ته اهو عوامي ڊومين ۾ هي ۽ ڪاپي رائيٽ ري پابندي لاڳو ناهي. حوالن بابت وڌيڪ معلومات لاءِ ڏسو اسان رو
+guidelines = ھدايتونا
+contact-us = اسان سان رابطو ڪرو
+add-sentence-success = 1 جملو ڀيڙا ڪيرو
+add-sentence-error = جملو شامل ڪرڻ ۾ غلطي
+required-field = مھرباني ڪري اي فيلڊ کي ڀرو.
+single-sentence-submission = اڪيلو جملو جمع ڪرڻ
+small-batch-sentence-submission = ننڍو جملو جمع ڪرڻ
+bulk-sentence-submission = گھڻي تعداد ۾ جملا جمع ڪرڻ
+single-sentence = اڪيلو
+small-batch-sentence = ننڍو  بيڇ
+bulk-sentence = گھڻي تعداد ۾ بيڇ
 
 ## BULK SUBMISSION
 

@@ -23,6 +23,21 @@ sc-review-form-button-skip-shortcut = س
 sc-review-form-keyboard-usage-custom = تمي Keyboard Shortcuts پڻ اِستمعال ڪري هيڪو:{ sc-review-form-button-approve-shortcut } منظُور ڪريا ۿارُو، { sc-review-form-button-reject-shortcut } رد ڪريا ۿارُو، { sc-review-form-button-skip-shortcut } ساڏيا ۿارُو
 sc-review-form-button-submit =
     .submitText = کتم دوهرائِي
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ڪوئي جُملا ۮيکيا ڪا ۮيکيا نٿِي ڳيا۔
+        [one] جُملا زويا ڳيا۔ ميرڀونئي!
+       *[other] { $sentences } جُملا زويا ڳيا۔ ميرڀونئي!
+    }
+sc-review-form-review-failure = جونچ پڙتال نٿِي ٿي هيڪئي، ميرڀونئي ڪرينَ ٻِيزي وار ڪوشِش ڪرو۔
+sc-review-link = دوهرائِي
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = دوهرائي رئي معيار
+sc-criteria-title = دوهرائي رئي معيار
+sc-criteria-make-sure = اي ڀروسو ڪرو جي جُملا اِيئا معيار مانه پُورا اُوترئہ:
+sc-criteria-item-1 = جُملو سهِي ﻿اِمل﻿﻿ا ٿِي لِکل هوئہ۔
+sc-criteria-item-2 = جُملو گرامر لا لحاظ ٿِي پڻ ٺِيڪ هوئہ۔
