@@ -29,6 +29,19 @@ record-abort-submit = ڪلپس جمع ڪرو
 record-abort-continue = رڪارڊنگ مڪمل ڪرو
 record-abort-delete = ٻاھر جاو ۽ ڪلپس ختم ڪرو
 review-aborted = اپ لوڊ نا روڪي ڇڎيو. ڪي اوھان  آپري رڪارڊنگ نا ختم ڪرڻ چاھو ٿا؟
+review-submit-title = نظرثاني ڪرو ۽ جمع ڪرو
+review-submit-msg = رڪارڊنگ لاءِ اوهان ري مهرباني!<lineBreak></lineBreak>همي هيٺ ڏنل ڪلپس رو جائزو ليو ۽ جمع ڪراو.
+review-recording = نظر ثانيجائزو ليو
+review-rerecord = وڙي رڪارڊ ڪرو
+review-cancel = جمع ڪرڻ منسوخ ڪرو
+review-keep-recordings = رڪارڊنگ نا رکو
+review-delete-recordings = آپري رڪارڊنگ نا ختم ڪرو
+review-terms = عام آواز استعمال ڪري، اوهان اسان ري <termsLink>شرطن</termsLink> ۽ <privacyLink>رازداري نوٽيس</privacyLink> سان متفق هو
+terms-agree = هون متفق هان
+terms-disagree = هون متفق ڪوني هان
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = اوهان ري آواز ڪلپس عطيو ڪرڻ لاء اوهان ري مهرباني!
+first-cta-subtitle-text = ڪئ اوھان ڪجھ معلومات شيئر ڪرڻ چاھو ٿا ته اوھان ڪيئن ڳالھايو؟
 
 ## MENU ITEM TOOLTIPS
 
