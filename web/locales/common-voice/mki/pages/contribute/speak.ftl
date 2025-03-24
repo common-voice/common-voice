@@ -53,9 +53,21 @@ thanks-for-voice-toast-error = اوهان ري آواز ري معلومات جم
 first-cta-gender-select-default-option = اوڀشن سليڪٿ ڪرو
 first-cta-gender-select-help-text =
     .label = آڀرو سيڪس يا جينڍر ڪئ ڀذاسو
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = اوهان ري آواز ۾ حصو ليڻ لاء اوهان ري مهرباني!
+second-cta-subtitle-text = پروفائل سان، اوھان آپري سرگرمي ري نگراني ڪري سگھوٿا ۽ آواز ڊيٽا ري مدد ڪندڙن ري ھڪڙي ڪميونٽي سان ڳنڍي سگھوٿا.
+already-have-an-account = اڳ ۾ ئي هيڪ اڪائونٽ هي؟ <login>لاگ ان</login>
+create-profile-button = پروفائل ٺاھو
+# IMAGE TAGS
+img-alt-success-checkmark = ڪاميابي ري نشاني
+# menu item
+read-sentences = جملو پڙھو
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملو پڙھو<ننڍو>(جلدي آسي)<ننڍو>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملو پڙھو, جواب ڎيو
 
 ## MENU ITEM ARIA LABELS
 
