@@ -8,9 +8,15 @@ listen-empty-state-variants = تماري ٻولي نو نمونو شايد خت�
 listen-loading-error = امين تمان ۿارُو ڪونئين آڍيو ڪلپ نا لئي ۿڄا، ميرٻاني ڪرين وري ڪوشش ڪرو۔
 listen-abort-title = ڪلپان ني خاتري ڪرو
 listen-abort-cancel = کاتري ڪرتا ريو
+listen-abort-confirm = تصديق جاري راکو
+# Menu item
+validate-readings = ٿڻتر ني تصديق ڪرو
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ڀڻتر ني تصديق ڪرو<small> (جلدي آوي سي ريون</small>)
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ڀڻتر ني تصديق ڪرو، لکل شڪل مان تبديل ڪرل وات وڳچ
 
 ## MENU ITEM ARIA LABELS
 
