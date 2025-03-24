@@ -47,6 +47,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Гущыӏэух�
 ## How does localization work
 
 about-playbook-how-localize = Сайтым ичӏыпӏэзэгъэуӏупӏэ сыдэущтэу лажьэра?
+about-playbook-how-localize-content-5 = Узгъэсэщт тивидео ӏэпыӏэгъум еплъ
 
 ## How to add sentences
 
