@@ -74,9 +74,14 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 
 ## NAV ITEMS
 
+answer-questions = Freagair Ceisteanna
+answer-questions-coming-soon = Freagair Ceisteanna <small>(Ag teacht go luath)</small>
+add-questions = Cuir Ceisteanna Leis
+coming-soon = Ag teacht go luath
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Obair i gcomhar linn
 
 ## MENU ITEM ARIA LABELS
 
@@ -86,12 +91,27 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 
 ## Hero section
 
+hero-title = Teicneolaíocht a labhraíonn do theanga
+# icon is an arrow that points downwards
+get-started = Tosaigh <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Caint Scríofa
+spontaneous-card-header = Caint Thobann
 
 ## Community section
 
+join-discord-community = Bí linn i Discord Community
+# label for button
+join-discord-community-action = Bí linn ar Discord
+find-us-on-matrix = Aimsigh ar Matrix sinn
+# label for button
+find-us-on-matrix-action = Aimsigh ar Matrix sinn
+# label for button
+ask-mozilla-share-action = Comhroinn d'imeacht
+# label for button
+download-contribution-certificate-action = Faigh do theastas
 
 ## Featured section
 
@@ -101,6 +121,14 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 
 ## Get involved section
 
+read-sentences-link = Léigh abairtí
+validate-readings-link = Bailíochtaigh míreanna léite
+answer-questions-link = Freagair ceisteanna
+contribute-text-link = Cuir téacs leis
+press-and-stories-link = Preas agus scéalta
 
 ## Partner section
 
+partner-section-title = Obair i gcomhar linn
+# icon is an arrow that points to the right
+get-in-touch-button = Téigh i dteagmháil <icon></icon>

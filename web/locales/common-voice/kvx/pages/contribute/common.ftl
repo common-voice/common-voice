@@ -23,9 +23,25 @@ speak-loading-error = امي تمارئہ ٻوليا ۿارُو ڪوئي جُم�
 record-button-label = آپرو آواز رِيڪارڊ ڪرو
 share-title-new = <bold>امارئي مڌت</bold> وڌِيڪ آوازون ڳوتو
 keep-track-profile = آپرِي ترقِي رو رِيڪارڊ راکيا ۿارُو هيڪ profile ٺاوو
+login-to-get-started = شُروع ڪريا ۿارُو Log in ڪرو زون نوَو اڪائونٽ ٺاوو
+target-segment-first-card = تمي امارا پيرهيان segment ۾ ڀائيواۯ ٿيوه ريا
+target-segment-generic-card = تمي هيڪا segment ۾ ڀائيواۯ ٿيوه ريا
+target-segment-first-banner = Common Voice را پيلا Common Voice’s first target segment ٺايا ۾ مڌت ڪرو{ $locale }
+target-segment-add-voice = آپرئِي آواز شامل ڪرو
+target-segment-learn-more = وڌارئہ شِينکو
+change-preferences = preferences تبڌِيل ڪرو
+login-signup = Log In / Sign Up
+vote-yes = هووَئہ
+vote-no = نا
+datasets = Datasets
+languages = ٻولي
+about = ڀارام
+partner = ڀائيواۯ
+submit-form-action = جمع
 
 ## Reporting
 
+report = Report ڪرو
 
 ## Speak & Listen Shortcuts
 
