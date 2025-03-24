@@ -10,9 +10,14 @@ listen-loading-error = امي تمون ۿارُو ۿونڀڙيا ۿارُو ڪو
 listen-abort-title = ڪِي ڪلِپ رِئي جونچ پُورئِي ڪرو؟
 listen-abort-cancel = جونچ جاري راکو۔
 listen-abort-confirm = جونچ کتم ڪرو۔
+# Menu item
+validate-readings = ڀڻيا رئِي جونچ ڪرو۔
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ڀڻيا رئِي جونچ ڪرو <small> (جلڌي آوئه ريو)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ڀڻيا رئِي جونچ ڪرو، Transcriptions رو جائزو ليو۔
 
 ## MENU ITEM ARIA LABELS
 
