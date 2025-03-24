@@ -4,6 +4,7 @@ listen-again-instruction = ۿڦرون ڪام! <playIcon></playIcon>زو تمين
 listen-3rd-time-instruction = ھيٺين، جاري راکو!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>پڇاڙي وارو!
 listen-empty-state = ٿئي ۿڳي سي ڪي اماران ڪلپ ختم ٿئي جھان ھوئي۔  صفحہ ني ريفريش ڪرو ڪان ٿوڙِيڪ وار وانۿين وري ڪوشش ڪرو۔
+listen-empty-state-variants = تماري ٻولي نو نمونو شايد ختم ٿئي جھو سي! زو تمارو ڪونئين اعترض نا ھوئي، تو تمين پوتا ني ترتيب نين ڀڌلاوي ۿڳو سو ايٽلي ٻيزو تماري ٻولي مان جملا زوئي ۿڳي۔
 
 ## MENU ITEM TOOLTIPS
 
