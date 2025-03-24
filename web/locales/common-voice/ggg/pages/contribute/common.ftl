@@ -138,3 +138,5 @@ contribution-background-noise-example-3-fixed-title = <strong>[ڪريڪل][Crack
 contribution-background-voices-title = اِرد گِردوڪي آوجينيٚ
 contribution-background-voices-description = اِدرگرد کآموش شور ٺيڪ هي پر همي ڪونآ چآهوآ تو وڌيڪ آوآجي هوئينٚ جيڪي مشيني الگورٿمي ڪوُ لڦج اوݪکوآ مي رُڪآوٽ بڻي جيڪي لِکرآ سآمآنو مينٚ نآ هيٚنٚ ڪي تمي سآمآنو دي پيلي سئي لڦج سُڻ سڪدآ هو تو ڪِلپو ڪُو رد ڪرو جآئي آم تو پر يو جد هوندو هي جد هلڪي ٽيوي کُلرو پيڙي هوئي يآ ڪني ٻتلآوڻ چالو هوئي
 contribution-background-voices-description-extended = جي رڪآرڊنٚگ ٽوٽ جآنديٚ هي يآ ڦآٽيٚ هي رد ڪرو جيستآئينٚ سب شي سيڪوآ مينٚ آ سڪي۔
+contribution-background-voices-example-1-explanation = ڪآ تو آهيرو هي؟<strong>[دوسرآ ڪي ترڦيدي سڏجرو] </strong>
+contribution-volume-title = آوآج

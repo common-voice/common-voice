@@ -47,6 +47,16 @@ service_retail = خدمت ۽ پرچون
 # Sentence Domain dropdown option
 general = عمومي
 # Sentence Domain dropdown option
+healthcare = ھيلٿڪير
+# Sentence Domain dropdown option
+history_law_government = ھستري، لاھ ۽ ڱورنمينت
+# Sentence Domain dropdown option
+media_entertainment = رابطي جا ذريعا ۽ وندر
+# Sentence Domain dropdown option
+nature_environment = قدرت ۽ ماھول
+# Sentence Domain dropdown option
+news_current_affairs = کبران غ نئ انڦارميشن
+# Sentence Domain dropdown option
 technology_robotics = ٽيڪنالاجي ۽ روبوٽڪس
 sentence-variant-select-label = مختلف قسم را جملو
 sentence-variant-select-placeholder = هيڪ قسم چونڊيو (اختياري)
