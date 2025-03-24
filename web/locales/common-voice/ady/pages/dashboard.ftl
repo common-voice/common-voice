@@ -28,6 +28,9 @@ n-clips-pluralized =
        *[other] { $count } тетхагъ
     }
 goal-interval-weekly = Тхьамафэ къэс
+share-goal-type-speak = Гущыӏэн
+share-goal-type-listen = Едэӏун
+share-goal-type-both = Гущыӏэн ыкӏи едэӏун
 
 ## Goals
 
