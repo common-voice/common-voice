@@ -132,3 +132,5 @@ contribution-background-noise-title = اِرد گِردو ڪو آوآج
 contribution-background-noise-description = همينٚ چاهندآ هونٚ تو مشين لرنينٚگيٚ ڪآ الگورٿمج اِرد گِردو ڪآ الگ الگ شورو ڪوُ سمآݪوآ ڪي لائيڪ هوينٚ اُرو ڪي جگآ اُنچآ شور بي ڪبول ڪررآ جآسي پر سرت يو هي وه تمآ ڪوُ سآمآنو ڪوُ مڪمل سُڻوآ دي روڪوآ مينٚ نآڪآم هوئينٚ کاموش اِرد گِرديٚ ڪوسنگيٚت ٽيڪ هي اِرد گرديٚ ڪو اُنچو سنٚگيت جِرو مينٚ هر ايڪ لڦج سُڻوآ مينٚ ريهجآئي وه ڪبول ڪونآ۔
 contribution-background-noise-description-extended = جي رڪآرڊنٚگ ٽوٽ جآنديٚ هي يآ ڦآٽيٚ هي رد ڪرو جيستآئينٚ سب شي سيڪوآ مينٚ آ سڪي۔
 contribution-background-noise-example-1-fixed-title = <strong>[ڇِڪوو]</strong> جبرآ ڊآئينآسآر<strong>[کنگ]</strong>ٽرآئيسڪ۔
+contribution-background-noise-example-2-fixed-title = ٻڏو ڊآئينو<strong>[کنگ]</strong>ٽريآسڪ دور.
+contribution-background-noise-example-2-explanation = [سآمآ نو ڪو ايڪ هيسو ديکوآ مي ڪونآ آئي]

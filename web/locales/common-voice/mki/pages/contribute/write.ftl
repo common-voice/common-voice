@@ -62,6 +62,18 @@ accepted-files = قبول ٿيل فائل را قسم: .tsv صرف
 minimum-sentences = ڪيترائي جملا ھيڪ فائل  ۾: 1000
 maximum-file-size = وڌ ۾ وڌ فائل سائيز: 25 MB
 what-needs-to-be-in-file = منا نجي فائل ۾ ڪئ هوڻ کڀي؟
+what-needs-to-be-in-file-explanation = مھرباني ڪري اسان رو چيڪ ڪريو <templateFileLink>template file</templateFileLink>. توهان را جملا ڪاپي رائيٽ کان آزاد هجن (CC0 يا جمع ڪندڙ طرفان اجازت ڏنل اصل ڪم) ۽ صاف، گرامر ري لحاظ کان درست ۽ پڙهڻ ۾ آسان هجن. جمع ٿيل جملن کي پڙهڻ ۾ لڳ ڀڳ 10-15 سيڪنڊ لڳڻ گهرجن ۽ انگن، مناسب اسم ۽ خاص اکر شامل ڪرڻ کان پاسو ڪرڻ گهرجي.
+upload-progress-text = اپ لوڊ جاري هي..
+sc-bulk-submit-confirm = ھون تصديق ڪريان ٿو ته اي جملا <wikipediaLink>عوامي ڊومين</wikipediaLink> ھي ۽ منا کي انهن  نا اپ لوڊ ڪرڻ ري اجازت هي.
+bulk-upload-success-toast = وڏي تعداد ۾ جملا اپلوڊ ڪريا ھي
+bulk-upload-failed-toast = اپلوڊ ڪوني ٿيو، مهرباني ڪري ٻيهر ڪوشش ڪرو.
+bulk-submission-success-header = اوهان ري مهرباني وڏي تعداد ۾ جمع ڪرائڻ ۾ مدد لاءِ!
+bulk-submission-success-subheader = اوھان مدد ڪري ھي ڪمن وائس جي اسان ري روزاني جملي ري مقصدن تائين پھچڻ ۾!
+upload-more-btn-text = وڌيڪ جملا اپ لوڊ ڪرو؟
+file-invalid-type = ناقص فائل
+file-too-large = فائل تمام وڏي هي
+file-too-small = فائل تمام ننڍي هي
+too-many-files = تمام گهڻيون فائلون
 
 ## SMALL BATCH SUBMISSION
 

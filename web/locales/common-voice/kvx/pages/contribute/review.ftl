@@ -47,3 +47,9 @@ sc-criteria-item-5-2 = جيڪيۮِي جُملو اِيئا معيار مانه 
 sc-criteria-item-6 = جيڪيۮِي جونچ پڙتال ۿارُو جُملا کتم ٿي ﻿زائه۔ ميرڀونئي ڪرينَ وڌِيڪ جُملا ڀيۯا ڪريا ۾ مڌت ڪرئي زائہ!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Check<icon></icon>جيڪيۮِي تمون ڪنئہ زويا ۿارُو جُملا کتم ٿي ﻿زائہ تون ميرڀونئي ڪرينَ وڌِيڪ جُملا ڀيۯا ڪريا ۾ مڌت ڪرئي زائہ؟
+sc-review-rules-title = ڪِي جُملا معيار مانه پُورو اُوترئہ؟
+sc-review-empty-state = همڻئہ اِيئا ٻولِي ۾ زويا ۿارُو ڪوئي جُملا موجود نٿِي۔
+report-sc-different-language = ڌار ٻولئي
+report-sc-different-language-detail = اي اُوئا ٻولِي ۾ لکل سئہ جيا نئہ هُون نٿِي زوتو۔
+sentences-fetch-error = جُملا حاصِل ڪريا ۾ ڪينڪ ڳلتئي ٿئي
+review-error = اِيئا جُملا رِي جونچ پڙتال ڪرتون ڳلتئي ٿئي
