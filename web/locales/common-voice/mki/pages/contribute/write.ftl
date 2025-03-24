@@ -46,6 +46,10 @@ finance = مالیات
 service_retail = خدمت ۽ پرچون
 # Sentence Domain dropdown option
 general = عمومي
+# Sentence Domain dropdown option
+technology_robotics = ٽيڪنالاجي ۽ روبوٽڪس
+sentence-variant-select-label = مختلف قسم را جملو
+sentence-variant-select-placeholder = هيڪ قسم چونڊيو (اختياري)
 sentence-variant-select-multiple-variants = عام ٻولي / ڪيترائي قسم
 
 ## BULK SUBMISSION

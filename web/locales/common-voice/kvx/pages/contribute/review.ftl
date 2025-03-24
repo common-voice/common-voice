@@ -56,3 +56,7 @@ review-error = اِيئا جُملا رِي جونچ پڙتال ڪرتون ڳل�
 review-error-rate-limit-exceeded = تمي جوم تِکا زائوه ريا۔ ميرڀونئي ڪرينَ ٿوڙِيڪ وار جُملا نئہ ۿاوۯ نمُونا ٿِي زوئو انَ اُوئا نئہ سهِي ڪرو۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = امي ڪنيڪ موٽي تبديلي ڪرونه ريا
+sc-redirect-page-subtitle-1 = Sentence Collector هوَئہ مرڪزِي Common Voice platform مانه منتقِل ٿئه ريو۔ هوَئہ تمي <writeURL> لکو</writeURL> جُملو ڪا <reviewURL> دوهرائِي</reviewURL> Common Voice مانه هيڪ هيڪ جمع ڪري هيڪو۔
+sc-redirect-page-subtitle-2 = <discourseLink>وات چِيت </discourseLink> ڪا <emailLink> email </emailLink>
+# menu item
+review-sentences = جُملون رو جائزو ليو
