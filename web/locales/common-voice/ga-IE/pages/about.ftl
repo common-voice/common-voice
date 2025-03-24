@@ -49,10 +49,13 @@ about-playbook-how-add-language-content-1 =
     Tá dhá chéim ann. An láithreán gréasáin a aistriú agus abairtí a bhailiú
 about-playbook-how-add-language-translating-heading = An suíomh a aistriú
 about-playbook-how-add-language-collecting-sentences-heading = Ag bailiú abairtí
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Féach tuilleadh eolais maidir le bailiú abairtí</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Conas a oibríonn logánú láithreáin?
+about-playbook-how-localize-content-1 = Is ar <strong>Pontoon</strong> a dhéantar láithreán gréasáin Common Voice a aistirú.
+about-playbook-how-localize-content-4 = Bíonn an láithreán gréasáin réidh le seoladh nuair a bhíonn 75 % de críochnaithe.
 about-playbook-how-localize-content-5 = Breathnaigh ar an bhfíseán seo chun eolas a fháil a thabharfaidh cabhair duit
 
 ## How to add sentences
@@ -62,6 +65,8 @@ about-playbook-how-add-sentences-content-2 = Chun go nglacfaí le habairtí, ní
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = Léigh go cúramach an abairt - ná léim thar focail, ná athraigh focail agus ná cuir focail léi.
+about-playbook-how-record-content-5 = <accuracyLink>Féach tuilleadh eolais maidir leis na critéir chruinnis.</accuracyLink>
 
 ## How to grow language
 
