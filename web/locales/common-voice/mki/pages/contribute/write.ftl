@@ -46,9 +46,22 @@ finance = مالیات
 service_retail = خدمت ۽ پرچون
 # Sentence Domain dropdown option
 general = عمومي
+sentence-variant-select-multiple-variants = عام ٻولي / ڪيترائي قسم
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپ لوڊ ڪرو <icon></icon> عوامي ڊومين را جملا
+sc-bulk-upload-instruction = آپري فائل ري ھتي ڇڪيو يا <uploadButton>اپلوڊ ڪرڻ لاءِ ڪلڪ ڪرو</uploadButton>
+sc-bulk-upload-instruction-drop = اپلوڊ ڪرڻ لاءِ فائل هتي ڇڏي ڏيو
+try-upload-again = وڙي ڪوشش ڪرو  آپري فائل ناي ھتي ڇڪيندي
+try-upload-again-md = وڙي اپلوڊ ڪرڻ ري ڪوشش ڪرو
+select-file = فائل چونڊيو
+select-file-mobile = اپلوڊ ڪرڻ لاءِ فائل چونڊيو
+accepted-files = قبول ٿيل فائل را قسم: .tsv صرف
+minimum-sentences = ڪيترائي جملا ھيڪ فائل  ۾: 1000
+maximum-file-size = وڌ ۾ وڌ فائل سائيز: 25 MB
+what-needs-to-be-in-file = منا نجي فائل ۾ ڪئ هوڻ کڀي؟
 
 ## SMALL BATCH SUBMISSION
 
