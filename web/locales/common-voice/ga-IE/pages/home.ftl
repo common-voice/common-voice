@@ -92,13 +92,21 @@ partnerships-menu-item-tooltip = Obair i gcomhar linn
 ## Hero section
 
 hero-title = Teicneolaíocht a labhraíonn do theanga
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <trom>Cén fáth ar cheart go n-oibreodh Intleacht Shaorga do líon beag teangacha amháin?</bold>
+hero-subtitle-2 = Is í ár dteanga ár scéal, ár bpobal, ár saíocht. Cruthaímis na tacair sonraí a theastaíonn uainn a fheiceáil ar feadh an domhain bhraonaigh.
 # icon is an arrow that points downwards
 get-started = Tosaigh <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Is éard is Common Voice ann ná saor-ardán le foinse oscailte chun gur féidir leis an bpobal sonraí a chruthú
+action-items-section-subtitle = Tig le duine ar bith a dteanga a chaomhnú, a athbheochan agus a chur chun cinn trí thacair sonraí téacs agus urlabhra a roinnt, a chruthú agus a choimeád.
 scripted-card-header = Caint Scríofa
+scripted-card-content = Léigh abairtí os ard i do theanga agus cuir leis an tacar sonraí cainte arna chruthú ag an bpobal is éagsúla ar domhan.
 spontaneous-card-header = Caint Thobann
+spontaneous-card-content = Freagair leideanna chun tacair shonraí a chruthú do chomhthéacsanna orgánacha sa ghnáthchaint. Oireann sé go mór do theangacha nach bhfuil scríofa go fóill.
+language-text-card-header = Téacs Teanga
 
 ## Community section
 

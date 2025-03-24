@@ -42,6 +42,11 @@ submit-form-action = جمع
 ## Reporting
 
 report = Report ڪرو
+report-title = هيڪ report جمع ڪرو
+report-ask = تمون نئہ اِيئا جُملا ٿِي ڪيوي ۮورووڻون ۿومي آوئه رئه؟
+report-offensive-language = نا مناسب ٻولئي
+report-offensive-language-detail = جُملا ۾ بي ادب ڪا نا مُناسِب آکر موجُود سئہ۔
+report-grammar-or-spelling = Grammatical / spelling ڳلتي
 
 ## Speak & Listen Shortcuts
 
