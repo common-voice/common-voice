@@ -56,3 +56,7 @@ review-error = اي جملي رو جائزو ليڻ ۾ غلطي ٿي گئ
 review-error-rate-limit-exceeded = اوهان تمام تيز ڃاو  ڀيا. مهرباني ڪري هيڪ لمحو لو جملي رو جائزو ليڻ لاءِ پڪ ڪرڻ لاءِ ته او صحيح هي.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسان ڪجهه وڏيون تبديليون ڪران ڀيا
+sc-redirect-page-subtitle-1 = جملا ڪليڪٽر بنيادي عام آواز پليٽ فارم ڏانهن منتقل ٿي رهيو هي. اوھان ھمي ڪري سگھو ٿا <writeURL>لکيو</writeURL> ھيڪ جملو يا <reviewURL>review</reviewURL> ھيڪ جملو جمع ڪرايا جاي عام آواز تي.
+sc-redirect-page-subtitle-2 = اسان نا سوال پڇو <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+# menu item
+review-sentences = جملن رو جائزو  ڎ ٺو
