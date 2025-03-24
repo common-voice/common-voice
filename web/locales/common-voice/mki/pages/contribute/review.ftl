@@ -40,3 +40,11 @@ sc-criteria-modal = ⓘ نظرثاني رو معيار
 sc-criteria-title = نظرثاني ري معيار
 sc-criteria-make-sure = پڪ ڪرو ته جملو هيٺين معياران تي پورو اي ٿو.
 sc-criteria-item-1 = جملي نا صحيح طور تي لکڻ کڀي.
+sc-criteria-item-2 = جملو گرامر ري لحاظ کان درست هوڻ کڀي.
+sc-criteria-item-3 = جملو ڳالهائڻ جوڳو هئوڻ کڀي.
+sc-criteria-item-4 = جيڪڏهن جملو معيار تي پورو ڪوني هي، "منظور ڪرو" تي ڪلڪ ڪرو. ساڄي پاسي وارو بٽڻ.
+sc-criteria-item-5-2 = جيڪڏهن جملو مٿي ڏنل معيار کي پورو ڪون ڪري، ڪلڪ ڪريو &quot;رد ڪرو&quot; کاٻي پاسي بٽڻ. جيڪڏهن اوهان نا جملي ري باري ۾ تصديق ڪوني هي، ته اوهان اي نا ڇڏي به سگهو ٿا ۽ اڳتي وڌو.
+sc-criteria-item-6 = جيڪڏھن اوھان ري نظرثاني ڪرڻ لاءِ جملا ختم ٿي گيا ھي، مھرباني ڪري وڌيڪ جملا گڏ ڪرڻ ۾ اسان ري مدد ڪرو!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چيڪ ڪرو <icon></icon> ڪئ هي لساني لحاظ کان درست جملو هي؟
+sc-review-rules-title = ڪئ جملو هدايتن نا پورو ڪري ڀيو؟
