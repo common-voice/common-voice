@@ -51,6 +51,8 @@ healthcare = ھيلٿڪير
 # Sentence Domain dropdown option
 history_law_government = ھستري، لاھ ۽ ڱورنمينت
 # Sentence Domain dropdown option
+language_fundamentals = ٻولي بنيادي(e.g, عدد, پويون, پيسا)
+# Sentence Domain dropdown option
 media_entertainment = رابطي جا ذريعا ۽ وندر
 # Sentence Domain dropdown option
 nature_environment = قدرت ۽ ماھول

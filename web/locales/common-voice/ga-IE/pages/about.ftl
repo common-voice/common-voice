@@ -5,6 +5,7 @@ how-does-it-work-title-v2 = Conas a oibríonn Common Voice?
 
 ## How does it work section
 
+about-language-req-subtitle = Iarrann duine éigin go gcuirfí teanga leis.
 about-localization-title = Logánú an tSuíomh Ghréasáin
 about-sentence-collection-title = Bailiú Abairtí
 about-new-lang-title = Seoladh Teanga Nua
@@ -67,7 +68,12 @@ about-playbook-how-access-dataset = Conas is féidir liom an tacar sonraí a roc
 
 about-playbook-how-project-governance = Conas a dhéantar cinntí faoin dtionscadal?
 about-playbook-how-project-governance-content-3 = Príobháideacht, slándáil agus trédhearcacht.
+about-playbook-how-project-governance-content-4 = Rannpháirtíocht agus cinnteoireacht an phobail.
 about-playbook-how-project-governance-content-5 = Luach agus aitheantas.
+about-playbook-how-project-governance-content-6 = Cuntasaíocht fhrithpháirteach
+about-playbook-how-project-governance-content-7 = <governanceLink>Léigh tuilleadh faoin gcaoi ina dhéantar sinn a rialú</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Conas a mhaoinítear Common Voice?
+about-playbook-how-funded-content-1 = Is tionscadal de chuid Mozilla Foundation é Common Voice. Is US 501c3 é Mozilla Foundation. Tá an tionscadal á mhaoiniú go hiomlán faoi láthair le <philantropicGrantLink>deontais dhaonchairdis</philantropicGrantLink>, agus ó bhronntanais airgid ó dhaoine ar fud na cruinne.
