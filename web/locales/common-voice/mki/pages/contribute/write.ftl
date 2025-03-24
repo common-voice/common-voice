@@ -34,6 +34,18 @@ bulk-sentence-submission = گھڻي تعداد ۾ جملا جمع ڪرڻ
 single-sentence = اڪيلو
 small-batch-sentence = ننڍو  بيڇ
 bulk-sentence = گھڻي تعداد ۾ بيڇ
+sentence-domain-combobox-label = جملا رو ڊومين
+sentence-domain-select-placeholder = مٿي ٿي ڍومين (اوڀشنل)
+# Sentence Domain dropdown option
+agriculture_food = زراعتي ۽ غذائي
+# Sentence Domain dropdown option
+automotive_transport = گاڏين ۽ ٽرانسپورٽ
+# Sentence Domain dropdown option
+finance = مالیات
+# Sentence Domain dropdown option
+service_retail = خدمت ۽ پرچون
+# Sentence Domain dropdown option
+general = عمومي
 
 ## BULK SUBMISSION
 
