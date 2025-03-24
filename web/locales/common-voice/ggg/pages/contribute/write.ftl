@@ -131,10 +131,33 @@ add-small-batch-success =
         [one] { $uploadedSentences }ڀيݪو هرو ايڪ جُملآ ڪو
        *[other] ڀيݪآ ڪررآ { $totalSentences } جُملآن ڪو
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ڀيݪآ ڪررآ 1جُملآ ڪو . رد ڪررآ جُملآن ڪو ڊآئونلوڊ ڪروآ لآ <downloadLink>هتي</downloadLink> ڪِلڪ ڪرو
+       *[other] { $uploadedSentences } جي  { $totalSentences } جُملآن ڪو ڀيݪآ ڪررو گو.  رد ڪررآ جُملآن ڪو ڊآئونلوڊ ڪروآ لآ <downloadLink>يهآن</downloadLink> ڪِلڪ ڪرو .
+    }
+small-batch-sentences-rule-1 = "مي ڪوڻسآ جُملآ ڀيݪآ ڪرسگدونٚ؟" انآ دي هدآيتيٚ ڪيٚ پيرويٚ ڪرو .
+small-batch-sentences-rule-2 = ايڪ لڪيٚر ايڪ جُملو شامل ڪرو
+small-batch-sentences-rule-3 = جُملآ ڪو ايڪ لآئنيٚ مي الگ ڪروآ لآ ايڪ چڪر"دآکل ڪرو " يآن"وريٚ" دٻآئو
+small-batch-sentences-rule-4 = 1,000 جُملآ تآئينٚ شآمل ڪرو
+small-batch-sentences-rule-5 = سبي جُملآ مي ايڪيٚ  ملڪت هووو کپي
+small-batch-sentences-rule-6 = سبي جُملآ مي سآگيٚ پرک هووو  جروريٚ هي
+# menu item
+add-sentences = جُملآ شآمل ڪرو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جُملآنٚ ڪوُ شآمِل ڪرو ائينٚ جآئزو ليئو، سوآل ڪرو، آڊيو نڪل ڪرو
+add-sentences-menu-item-tooltip = آپوئيٚ ٻوليو مي جُملآ شآمِل ڪرو
+review-sentences-menu-item-tooltip = تمريٚ ٻوليو مي جُملآ ڪو جآئزو ليئو
+add-questions-menu-item-tooltip = آپوئيٚ ٻوليو مي سوآل شآمِل ڪرو
+transcribe-audio-menu-item-tooltip = آپوئيٚ ٻوليو مي آڊيو رڪآڊنگ نڪَل ڪرو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اڌيٚڪآرآئينٚ لِسٽ لِکوو
+add-sentences-menu-item-aria-label = پڙهوآ لآ ڪوميٚ ڪآ جُوآن شآمِل ڪرو
+review-sentences-menu-item-aria-label = ڪميونٽيٚ جيڪو جُملآ پيش ڪرسيِٚ انآ جُملآ ڪو جآئيزو ليئو
+add-questions-menu-item-aria-label = ڪميونٽيو ڪوُ پڙهآوآ لآ نوآ  سوآل جُمآ ڪرآوو
 transcribe-audio-menu-item-aria-label = آڊيو ريٚڪآڊنگي ڪآ سآمآنو مي لکو

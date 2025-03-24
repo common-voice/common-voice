@@ -136,3 +136,5 @@ add-sentences-menu-item-tooltip = آپري پولي ۾ جملا جما ڪرو
 
 ## MENU ITEM ARIA LABELS
 
+add-questions-menu-item-aria-label = نوان سوال جما ڪرو ڪميونٿي لا پڙي ۽ جواب لا
+transcribe-audio-menu-item-aria-label = اڍيو جملا رو ترجمو ڪرو لکت ۾
