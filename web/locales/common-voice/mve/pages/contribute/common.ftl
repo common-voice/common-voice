@@ -1,4 +1,4 @@
-action-click = بٽڻ ڌٻاڻ يا ڪلِڪ ڪرڻ
+action-click = ڪلِڪ ڪرڻ
 action-tap = ٿپڻاڻ
 contribute = هسو ڏيڻ يان ڏيڻ آݪو
 review = جونچڻ

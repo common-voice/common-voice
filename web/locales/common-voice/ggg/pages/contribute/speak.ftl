@@ -38,8 +38,8 @@ add-information-button = ڃآڻ شآمل ڪرو
 continue-speaking-button = نآ مهربآنيٚ ٻتلآڻ جآريٚ رآکو
 create-profile-text = ڪآ تميٚ تمريٚ مآلومآت بچآوو چآهندآ هو ايڪ پروڦآئيل ٽآوو
 thanks-for-voice-toast = تمري آوآجينٚ کبر چآري ڪي لآ مهربآني۔
-thanks-for-voice-toast-error = تمريٚ آوآجيٚ ڪيٚ کبرَ جمآ ڪروآ مي ايڪَ گلتيٚ هوريهريتيٚ
-first-cta-gender-select-default-option = ايڪ اديڪآر چُگو
+thanks-for-voice-toast-error = تمري آوآجي ڪي کبر جمآ ڪروآ مي ايڪ گلتي هورهيرو تي
+first-cta-gender-select-default-option = ايڪ اديڪآر چگو
 first-cta-gender-select-help-text =
     .label = تمي تمري جنس يآ جنسي ڪوُ ڪيسو ڪيندآ هو۔
 # SECOND POST SUBMISSION CTA
