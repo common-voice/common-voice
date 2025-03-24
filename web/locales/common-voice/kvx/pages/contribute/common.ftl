@@ -98,3 +98,7 @@ shortcut-vote-no = ن
 contribution-criteria-nav = معيار
 contribution-criteria-link = ڀاڳ ۮِيڌا ۿارُو معيار نئہ ۿزمو
 contribution-criteria-page-title = ڀاڳ ۮِيڌا رو معيار
+contribution-criteria-page-description = آواز را clips نئ﻿ہ ۿومڀۯتون ڪئيون واتون رو کيال راکو ۿزموو انَ آپرئي آواز رِيڪارڊِنگ نئہ ٺِيڪ ڪريا ۿارُو مڌت ڪرو!
+contribution-for-example = مثال ۿارُو
+contribution-misreadings-title = ڳلت ڀڻوو
+contribution-misreadings-description = ۿومڀۯيا رئہ ٽوڻئہ جوم کيال راکو جيو رِيڪارڊ ڪريو ڳيوه، اُو ۿاڳِي هائي رو هائي سئہ جيو لکل سئہ; جيڪيۮِي ننڪئي ڳلتئي پڻ هووئہ تون اُوئا نئہ رد ڪرو۔ <br /> جوم عام ڳلتي اِيئا ۾ شامل سئہ:
