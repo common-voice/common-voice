@@ -21,7 +21,7 @@ import { QuestionMarkIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
 
 import './firstPostSubmissionCTA.css'
-import { COUNTRIES } from '../../../../../constants'
+import { COUNTRIES } from '../../../../../countries'
 
 export const USER_LANGUAGES = 'userLanguages';
 
