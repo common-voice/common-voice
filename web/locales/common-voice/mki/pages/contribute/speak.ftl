@@ -20,6 +20,15 @@ record-last-instruction = <recordIcon></recordIcon> آخري هيڪ!
 review-tooltip = جائزو  ڎ يو ۽ ٻيهر رڪارڊ ڪرو ڪلپس هتي جيئن اوهان چاهيو
 share-clip = آڀرو ڪلپ ونڊيو
 share-common-voice = حصيداري ڪرو عام آواز
+review-instruction = جيڪڏهن ضرورت هوي ته ڪلپس رو جائزو  ڎ يو ۽ ٻيهر رڪارڊ ڪرو
+record-submit-tooltip = { $actionType } جمع ڪراو جڏهن تيار ٿي
+clips-uploaded = اپ لوڊ ڪريل ڪلپس
+record-abort-title = پهرين رڪارڊنگ نا ختم ڪرو؟
+record-abort-text = ھمي ڇڏڻ رو مطلب ھي اوھان آڀري پيشرفت وڃائي ڇڎي
+record-abort-submit = ڪلپس جمع ڪرو
+record-abort-continue = رڪارڊنگ مڪمل ڪرو
+record-abort-delete = ٻاھر جاو ۽ ڪلپس ختم ڪرو
+review-aborted = اپ لوڊ نا روڪي ڇڎيو. ڪي اوھان  آپري رڪارڊنگ نا ختم ڪرڻ چاھو ٿا؟
 
 ## MENU ITEM TOOLTIPS
 
