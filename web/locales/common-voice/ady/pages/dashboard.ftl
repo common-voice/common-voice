@@ -16,6 +16,12 @@ both-speak-and-listen = Тӏури
 both-speak-and-listen-long = Тӏури (гущы ыкӏи едэӏу)
 daily-goal = Мафэ къэс пшъэрылъ
 weekly-goal = Тхьамафэ къэс пшъэрылъ
+easy-difficulty = Псынкӏэ
+average-difficulty = Гурытымкӏэ
+difficult-difficulty = Къинкӏэ
+pro-difficulty = Ӏазэ
+want-to-continue = Лъыбгъэкӏотэнэу уфая?
+cant-decide = Гу тепшӏыхьэрэп ара?
 
 ## Goals
 
