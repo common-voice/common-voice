@@ -109,6 +109,21 @@ rate-limit-toast-message-seconds =
         [one] لمت وڍيڪ ڱئ، وڙي ڪوشش ڪرو{ $retrylimt }
        *[other] لمت وڍيڪ ڱئ، وڙي ڪوشش ڪرو{ $retrylimt }پيو
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedsentences }لا جملا ڀيڙا
+       *[other] { $uploadedsentences }لا{ $totalsentences }جملا ڀيڙا
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedsentences } لا جملا ڀيڙا.ڪلڪ
+       *[other] { $uploadedsentences } اٿي { $totalsentences }جملا ڀيڙا
+    }
+small-batch-sentences-rule-1 = گائڍ لائن فورم فولو ڪرو' ڪھڙا جملا جما ڪري سگان ٿا?'
+small-batch-sentences-rule-2 = ھيڪ جملو ھيڪڙي لائن
+small-batch-sentences-rule-4 = 1000 جملا تائن جما ڪرو
 
 ## MENU ITEM TOOLTIPS
 
