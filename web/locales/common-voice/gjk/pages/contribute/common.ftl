@@ -17,3 +17,4 @@ contribution-reader-effects-description = گھڻيون رڪارڍينگون ما
 contribution-just-unsure-title = روڳي پڪ نٿي
 contribution-just-unsure-description = زو تمين ڪونئين ايوي سيز نو سامنو ڪرو زين آ ھدايتان مان شامل نا ھوئي، تو پوتا ني ۿڦري ۿمزڻ پرماڻي ووٽ ڪرو۔ زو تمين ۿاسين ڦيصلو نٿي ڪري ۿڳتا، تو اسڪيپ ٻٽڻ استعمال ڪرو انين مورلي رڪارڍينگ ماٿي زائو۔
 see-more = <chevron></chevron>وڌارين زاڻو ڪان زوئو
+see-less = پورون ۿورون زوئو ڪان گھٽ زوئو
