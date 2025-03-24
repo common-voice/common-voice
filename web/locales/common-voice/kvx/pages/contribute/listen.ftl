@@ -18,6 +18,10 @@ validate-readings-coming-soon = ڀڻيا رئِي جونچ ڪرو <small> (جل�
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ڀڻيا رئِي جونچ ڪرو، Transcriptions رو جائزو ليو۔
+validate-readings-menu-item-tooltip = تمارِي ٻولِي ۾ واپرايا واۯون را پاها ٿِي ڪرل ڀڻتر رئِي رِيڪارڊنگ رئِي جونچ ڪرو۔
+review-transcriptions-menu-item-tooltip = تمارِي ٻولِي ۾ واپرايا واۯون را پاها ٿِي داخل ڪرل transcriptions رئِي جونچ ڪرو۔
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ۿونڀڙيا را options menu
+validate-readings-menu-item-aria-label = نات را پاها ٿِي ڌاخل ڪرل ڀڻتر رئِي جونچ ڪرو۔
