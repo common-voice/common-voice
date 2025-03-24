@@ -34,3 +34,13 @@ share-goal-type-both = Гущыӏэн ыкӏи едэӏун
 
 ## Goals
 
+days =
+    { $count ->
+        [one] мафэу
+       *[other] мафэу
+    }
+recordings =
+    { $count ->
+        [one] Тетхагъэу
+       *[other] Тетхагъэу
+    }
