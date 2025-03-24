@@ -40,6 +40,7 @@ about-playbook-what-is-language = Коммон Войсымкӏэ бзэр сы�
 
 ## How do I add a language
 
+about-playbook-how-add-language = Сыдэущтэу бзэ горэ хэзгъэхъощт?
 about-playbook-how-add-language-translating-heading = Сайтыр къызэдзэкӏ
 about-playbook-how-add-language-collecting-sentences-heading = Гущыӏэухыгъэр угъоин
 

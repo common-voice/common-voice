@@ -67,6 +67,7 @@ terms = Хабзэхэр
 cookies = Хьалыжъыехэр
 faq = БКУ
 share-title = Тикуп шъукъыхахь
+back-top = Ышъхьагъ дэкӏоежь
 logout = Икӏ
 return-to-cv = Коммон Войс-ым къэгъэзэжь
 email-input =
