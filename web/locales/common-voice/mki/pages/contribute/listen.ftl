@@ -18,6 +18,8 @@ validate-readings-coming-soon = تصديق ڀيڙو<ننڍو>(جلدي آسي)<�
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = تصديق ڀيڙو, جائزو ڎ يکو
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = سڻون مينيو اوپشن
