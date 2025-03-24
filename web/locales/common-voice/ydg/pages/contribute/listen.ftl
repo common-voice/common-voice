@@ -1,0 +1,7 @@
+listen = غولار
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
