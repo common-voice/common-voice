@@ -50,12 +50,87 @@ service_retail = ريجڪيٚ دُڪآن
 general = آم
 # Sentence Domain dropdown option
 healthcare = سِهتيٚ ڪيٚ سهوٚلتِ
+# Sentence Domain dropdown option
+history_law_government = تآريٚڪ ، ڪآنوٚن اورَ هَڪوٚمََت
+# Sentence Domain dropdown option
+language_fundamentals = جِبآنيٚ ڪآ هِسآ (مسآل نمبر اکر پيسآ )
+# Sentence Domain dropdown option
+media_entertainment = ميٚڊيآ اورَ سُڪونَ
+# Sentence Domain dropdown option
+nature_environment = ڪُدرتيٚ مآهوُل
+# Sentence Domain dropdown option
+news_current_affairs = خبرين اورَ موجوٚدآ مسلآ
+# Sentence Domain dropdown option
+technology_robotics = ٽيڪنولوجيٚ اورَ روٚبوٽس
+sentence-variant-select-label = جُملآ ڪيٚ الگَ هآلتيٚن
+sentence-variant-select-placeholder = ايڪ ڪِسم چُگوُ (اڌيڪاري)
+sentence-variant-select-multiple-variants = آم ٻوليٚ / ڪِترائيٚ ڪِسمآنٚ
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اواميٚ مِلڪتيٚ ڪآ جُملآ مينٚ اپلوڊ ڪَرو<icon></icon>
+sc-bulk-upload-instruction = آپوئيٚ ڦائيليٚ ڪُو يهآنٚ ليڪي <uploadButton> جائو يآن اپلوڊ ڪروآ لآ ڪِلڪِ ڪرو </uploadButton>
+sc-bulk-upload-instruction-drop = اپلوڊ ڪروآ لآ يهآنٚ ڦائل ڇوڙو
+bulk-upload-additional-information = جي وڌيٚڪ  خبَرچآر تميٚ ايٚرآ ڦائليٚ بآرآ مي ديوآ چآهندآئو مهربآنيٚ ڪرڪي <emailFragment>commonvoice@mozilla.com</emailFragment> رابتو ڪرو
+template-file-additional-information = جي وڌيٚڪ خَبر چارَ تميٚ ايٚرآ فآئيٚليٚ بآرا مي ديوآ چآهنٚدآئو جيڪو ٽيمپليٽو مي شامِل نآ هي، مهربآنيٚ ڪرڪي  <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = يهآنٚ تمريٚ ڦآئليٚ ڪُِو گھُسآوآ ڪيٚ وريٚ ڪوشيٚش ڪرو
+try-upload-again-md = دوٚبآرآ اپلوڊ ڪروآئيٚ ڪوشيٚش ڪرو
+select-file = ڦآئِل چُگو
+select-file-mobile = اپلوڊ ڪروآ لآ ڦآئِل چُگو
+accepted-files = ڪَبول ڪرريٚ ڦآئِليٚ ڪآ ڪِسمِ
+minimum-sentences = ڦآئليٚ  مي گھَٽو مي گھٽَ جُملآ 1000
+maximum-file-size = ٻتِيو مي ٻتيٚ  ڦائِل سآئج: 25 ايم بيٚ
+what-needs-to-be-in-file = ميريٚ  ڦائليٚ مي ڪآ هووآئيٚ  جرورتي
+what-needs-to-be-in-file-explanation = مهربآنيٚ ڪَرڪي همريٚ <templateFileLink> ٽيمپليٽ ڦآئليٚ</templateFileLink> ڪوُ چيڪ ڪرو.تمرآ جُملآنٚ ڪوَ ڪآپيٚ رآئيٚٽ ُمڦت هووو کپِي (CC0 يآنٚ جُملآ  بدليٚ ڪروآݪآئي سئيٚ ڪآم ڪروآئيٚ اجآزِت دينيٚ گئيٚ هيٚ) ائينٚ سهيٚ،گِرآمريٚ تريٚڪآ دي پڙهوآ مي سَولو هووو کپيِ جَمآ ڪََرَرآ جُملآنٚ ڪوُ پڙهوآ لآ. تڪريٚبن 10-15 سيڪنڊَ ليوو کَپي ائينٚ نمبرآ،منآسب اسم کآسَ ڪرِدآرآنٚ ڪوُ ڀيݪي ڪروآدي بچوو کپي .
+upload-progress-text = ترڪِيو مي اپلوڊ ڪرو
+sc-bulk-submit-confirm = مي مآنٚدون ڪي يي جُملآ  <wikipediaLink>اواميٚ ملڪتيٚ ڪآ </wikipediaLink> هينٚ ائينٚ مڪوُ ايٚنآ ڪوُ اپلوڊ ڪروآئيٚ آجآزت هي .
+bulk-upload-success-toast = بلڪي جُملآ اپلوڊ ڪررآ گوآ
+bulk-upload-failed-toast = اپلوڊ نآڪآم ، مهربآنيٚ ڪرڪي وريٚ ڪوشيش ڪرو.
+bulk-submission-success-header = تِمرآ بلڪي جمآ ڪروآ وآ مي هسو ليوآ لآ تمريٚ مهربآنيٚ!
+bulk-submission-success-subheader = تميٚ آم آوآجيٚ ڪوُ همرآ روزآنيٚ جُملآ ڪا مڪَسَدآ تآئينٚ پُهچآوآ مي مدت ڪرريهرآ هو!
+upload-more-btn-text = وڌيٚڪ جُملآن ڪوُ اپلوڊ؟
+file-invalid-type = ڪوُڙيٚ ڦآئل
+file-too-large = ڦآئِل ڀوتَ جبريٚ هي
+file-too-small = ڦآئِل ڀوت نهينيٚ هي
+too-many-files = ڀوت ڦآئِلين
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ڪترآئيٚ اوآميٚ ملڪتيٚ جُملآ ڪوُ ڀيݪآ ڪرو
+multiple-sentences-error = تميٚ سِرڦ ايڪ جمآ ڪروآ تآڻيٚ ڪترآئيٚ جُملآ ڪوُ شآمِل ڪونآ ڪرَسگو
+exceeds-small-batch-limit-error = ايڪ 1000 جُملآ دي وڌيِڪ  جمآ ڪونآ ڪرسگي
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ريٽو ڪيٚ هَد پآر هوگيٚ هي  ايڪ منٽيٚ ڪي بآد وريٚ ڪوشيش ڪرو
+       *[other] بندوبستوئيٚ هد کتم هوگيٚ هي. { $retryLimit } منٽيٚ مي وريٚ ڪوشيش ڪرو
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] بندوبستوئيٚ هد وڌ گئيٚ هي. 1 سيڪنڊيٚ مي وريٚ ڪوشيش ڪرو
+       *[other] بندوبستوئيٚ هد وڌ گئيٚ هي.{ $retryLimit } سيڪنڊيٚ مي وريٚ ڪوشيش ڪرو
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تميٚ  ايٚرو سڦآ مي جمآ ڪرآوآ ڪيٚ هديٚ تآئيٚن پهچ گوآ هو. مهربآنيٚ ڪرڪي دوسرو جُملو جمآ ڪروآ ڪي آگي 1 منٽ انتجآر ڪرو. تمريٚ سبريٚ ڪيٚ مهربآنيٚ!
+       *[other] تميٚ  ايٚرو سڦآ مي جمآ ڪرآوآ ڪيٚ هديٚ تآئيٚن پهچ گوآ هو. مهربآنيٚ ڪرڪي دوسرو جُملو جمآ ڪروآ ڪي آگي { $retryLimit } منٽيٚ  تآئينٚ انتجآر ڪرو. تمريٚ سبريٚ ڪيٚ مهربآنيٚ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تمي ايرو سڦآ مي جمآ ڪرآوآ ڪي هدي تآئين پهچ گوآ هو. مهربآني ڪرڪي دوسرو جُملو جمآ ڪروآ ڪي آگي  1سيڪنڊي تآئين انتجآر ڪرو تمريٚ سبريٚ ڪيٚ مهربآنيٚ!
+       *[other] تمي ايرو سڦآ مي جمآ ڪرآوآ ڪي هدي تآئين پهچ گوآ هو.  مهربآنيٚ ڪرڪي دوسرو جُملو جمآ ڪروآ ڪي آگي{ $retryLimit } سيڪنڊي تآئين انتجآر ڪرو تمريٚ سبريٚ ڪيٚ مهربآنيٚ!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences }ڀيݪو هرو ايڪ جُملآ ڪو
+       *[other] ڀيݪآ ڪررآ { $totalSentences } جُملآن ڪو
+    }
 
 ## MENU ITEM TOOLTIPS
 
