@@ -71,3 +71,4 @@ speak-contribute-menu-tooltip = جملو پڙھو, جواب ڎيو
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = مينيو پوليڻ  رو
