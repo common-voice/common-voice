@@ -107,6 +107,8 @@ scripted-card-content = Léigh abairtí os ard i do theanga agus cuir leis an ta
 spontaneous-card-header = Caint Thobann
 spontaneous-card-content = Freagair leideanna chun tacair shonraí a chruthú do chomhthéacsanna orgánacha sa ghnáthchaint. Oireann sé go mór do theangacha nach bhfuil scríofa go fóill.
 language-text-card-header = Téacs Teanga
+language-text-card-content = Cruthaigh nó roinn leideanna, abairtí, agus téacs atá sa bhfearainn poiblí chun go ndéanfaí iad a aistriú agus chun mionsamhlacha teanga a chruthú astu agus go leor eile.
+add-text = Cuir Téacs leis
 
 ## Community section
 

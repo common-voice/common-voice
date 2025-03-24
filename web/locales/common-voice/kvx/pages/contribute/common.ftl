@@ -47,12 +47,31 @@ report-ask = تمون نئہ اِيئا جُملا ٿِي ڪيوي ۮورووڻ�
 report-offensive-language = نا مناسب ٻولئي
 report-offensive-language-detail = جُملا ۾ بي ادب ڪا نا مُناسِب آکر موجُود سئہ۔
 report-grammar-or-spelling = Grammatical / spelling ڳلتي
+report-grammar-or-spelling-detail = جُملا ۾ گرامر رئي ڳلتئي موجُود سئہ۔
+report-different-language = ڌار ٻولئي
+report-different-language-detail = اي اُوئا ٻولِي ۾ لِکل سئہ جئي هُون ٻولونه ريو۔
+report-difficult-pronounce = ٻوليا ۾ ۮورو
+report-difficult-pronounce-detail = اِيئا ۾ ايوا آکر ڪا جُملا سئہ جيا ڀڻيا ۾ ڪا ٻوليا ۾ ۮورا سئہ۔
+report-offensive-speech = نا مُناسِب وات چِيت
+report-offensive-speech-detail = clip ۾ نا مُناسِب ڪا بي ادبي آکر موجُود سئہ۔
+report-other-comment =
+    .placeholder = صل﻿اح ۮيو
+success = ڪامياڀئِي
+continue = جارِي راکو
+report-success = Report ڪامياڀِي ٿي منظُور ٿي ڳئي
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ر
+shortcut-record-toggle-label = Record/Stop
+shortcut-rerecord-toggle = هيڪ ٿِي لينَ پونس
 
 ## Listen Shortcuts
 
