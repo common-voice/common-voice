@@ -13,6 +13,9 @@ show-ranking = Сизэкӏэлъыкъуакӏэ къэгъэлъэу
 ## Custom Goals
 
 both-speak-and-listen = Тӏури
+both-speak-and-listen-long = Тӏури (гущы ыкӏи едэӏу)
+daily-goal = Мафэ къэс пшъэрылъ
+weekly-goal = Тхьамафэ къэс пшъэрылъ
 
 ## Goals
 
