@@ -68,7 +68,11 @@ read-sentences-coming-soon = جملو پڙھو<ننڍو>(جلدي آسي)<ننڍ
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملو پڙھو, جواب ڎيو
+read-sentences-menu-item-tooltip = آپري ٻوليءَ ۾ جملا پڙهڻ رو رڪارڊ ڪرو
+answer-questions-menu-item-tooltip = آپري ٻولي ۾ سوالنا ۽ اشارنا را جواب پاڻ نا رڪارڊ ڪرو
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = مينيو پوليڻ  رو
+read-sentences-menu-item-aria-label = مختلف ٻولينا ۾ ڪميونٽي پاران پيش ڪريل سزائون پڙهو
+answer-questions-menu-item-aria-label = ڪميونٽي نا پڙهڻ ۽ جواب ڏيڻ لاءِ هيڪ نئون سوال جمع ڪراو

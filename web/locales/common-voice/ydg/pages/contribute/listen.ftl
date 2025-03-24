@@ -10,3 +10,4 @@ listen-last-time-instruction = <playIcon></playIcon>آخری!
 
 ## MENU ITEM ARIA LABELS
 
+review-transcriptions-menu-item-aria-label = پے درستگی دیر ڤے ریکارڈ ݰوئی جملے غف نقل جائزو غورا۔

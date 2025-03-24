@@ -27,3 +27,4 @@ review-transcriptions-menu-item-tooltip = اوهان ري ٻولي ۾ صارف �
 
 listen-contribute-menu-aria-label = سڻون مينيو اوپشن
 validate-readings-menu-item-aria-label = ڪميونٽي ري ميمبرن پاران پيش ڪيل تصديق ٿيل پڙھڻ
+review-transcriptions-menu-item-aria-label = درستگي لاءِ رڪارڊ ٿيل جملن ري نقلن رو جائزوليو
