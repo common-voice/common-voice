@@ -22,6 +22,12 @@ difficult-difficulty = Къинкӏэ
 pro-difficulty = Ӏазэ
 want-to-continue = Лъыбгъэкӏотэнэу уфая?
 cant-decide = Гу тепшӏыхьэрэп ара?
+n-clips-pluralized =
+    { $count ->
+        [one] { $count } тетхагъ
+       *[other] { $count } тетхагъ
+    }
+goal-interval-weekly = Тхьамафэ къэс
 
 ## Goals
 
