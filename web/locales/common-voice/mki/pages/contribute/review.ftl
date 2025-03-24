@@ -48,3 +48,11 @@ sc-criteria-item-6 = جيڪڏھن اوھان ري نظرثاني ڪرڻ لاءِ
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چيڪ ڪرو <icon></icon> ڪئ هي لساني لحاظ کان درست جملو هي؟
 sc-review-rules-title = ڪئ جملو هدايتن نا پورو ڪري ڀيو؟
+sc-review-empty-state = في الحال اي ٻوليءَ ۾ نظرثاني ڪرڻ لاءِ ڪي به جملا ڪوني ھي.
+report-sc-different-language = مختلف ٻولي
+report-sc-different-language-detail = او هيڪ ٻولي ۾ لکيو هي اي نا مختلف جنهن رو هون جائزو  لي ھان رهيوهان.
+sentences-fetch-error = جملي نا آڻڻ ۾ هيڪ غلطي ٿي گئ
+review-error = اي جملي رو جائزو ليڻ ۾ غلطي ٿي گئ
+review-error-rate-limit-exceeded = اوهان تمام تيز ڃاو  ڀيا. مهرباني ڪري هيڪ لمحو لو جملي رو جائزو ليڻ لاءِ پڪ ڪرڻ لاءِ ته او صحيح هي.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اسان ڪجهه وڏيون تبديليون ڪران ڀيا
