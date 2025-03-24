@@ -134,3 +134,5 @@ contribution-background-noise-description-extended = جي رڪآرڊنٚگ ٽو�
 contribution-background-noise-example-1-fixed-title = <strong>[ڇِڪوو]</strong> جبرآ ڊآئينآسآر<strong>[کنگ]</strong>ٽرآئيسڪ۔
 contribution-background-noise-example-2-fixed-title = ٻڏو ڊآئينو<strong>[کنگ]</strong>ٽريآسڪ دور.
 contribution-background-noise-example-2-explanation = [سآمآ نو ڪو ايڪ هيسو ديکوآ مي ڪونآ آئي]
+contribution-background-noise-example-3-fixed-title = <strong>[ڪريڪل][Crackle] ڪآ جبرآ ڊآئينآسآر<strong>[ڪريڪل]</strong> ريآسڪ۔
+contribution-background-voices-title = اِرد گِردوڪي آوجينيٚ

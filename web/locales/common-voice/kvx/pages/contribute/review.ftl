@@ -53,3 +53,6 @@ report-sc-different-language = ڌار ٻولئي
 report-sc-different-language-detail = اي اُوئا ٻولِي ۾ لکل سئہ جيا نئہ هُون نٿِي زوتو۔
 sentences-fetch-error = جُملا حاصِل ڪريا ۾ ڪينڪ ڳلتئي ٿئي
 review-error = اِيئا جُملا رِي جونچ پڙتال ڪرتون ڳلتئي ٿئي
+review-error-rate-limit-exceeded = تمي جوم تِکا زائوه ريا۔ ميرڀونئي ڪرينَ ٿوڙِيڪ وار جُملا نئہ ۿاوۯ نمُونا ٿِي زوئو انَ اُوئا نئہ سهِي ڪرو۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = امي ڪنيڪ موٽي تبديلي ڪرونه ريا
