@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = تمارِي ٻولِي ۾ واپرا�
 
 listen-contribute-menu-aria-label = ۿونڀڙيا را options menu
 validate-readings-menu-item-aria-label = نات را پاها ٿِي ڌاخل ڪرل ڀڻتر رئِي جونچ ڪرو۔
+review-transcriptions-menu-item-aria-label = رِيڪارڊ ڪرل جُملون رئِي transcription را صيح ڪا غلط  هويا رو جائزو ليو۔
