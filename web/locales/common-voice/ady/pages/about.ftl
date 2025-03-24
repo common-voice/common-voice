@@ -31,6 +31,7 @@ about-nav-how-it-works = Сыдэущтэу?
 about-nav-partners = Ӏэхьагъухэр
 about-nav-get-involved = Хэлажь
 about-nav-how-it-works-2 = Комон Войс сыдэущтэу мэлажьа?
+about-nav-playbook = Зэгъашӏ узэрэхэлэжьэщтыр
 
 ## Community Playbook Content
 ## What is a language
