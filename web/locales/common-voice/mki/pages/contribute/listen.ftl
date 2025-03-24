@@ -9,6 +9,12 @@ listen-loading-error =
     اسان اوهانن ا سڻون لاءِ ڪي به آڊيو ڪلپس حاصل نه ڪري سگها ھان.
     مهرباني ڪري بعد ۾ ٻيهر ڪوشش ڪريو.
 listen-abort-title = ڪلپس ري تصديق ختم ڪرو؟
+listen-abort-cancel = تصديق ڪرڻ جاري ڪرو
+listen-abort-confirm = تصديق ڪرڻ ختم ڪرو
+# Menu item
+validate-readings = تصديق ڀيڙو
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = تصديق ڀيڙو<ننڍو>(جلدي آسي)<ننڍو>
 
 ## MENU ITEM TOOLTIPS
 
