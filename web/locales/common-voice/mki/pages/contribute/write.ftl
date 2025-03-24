@@ -133,9 +133,13 @@ add-sentences = سجا جملا
 ## MENU ITEM TOOLTIPS
 
 add-sentences-menu-item-tooltip = آپري پولي ۾ جملا جما ڪرو
+review-sentences-menu-item-tooltip = جملا دوھراو آڀري پولي ۾
+add-questions-menu-item-tooltip = سوال ڀڇو آڀري پولي ۾
+transcribe-audio-menu-item-tooltip = آواز رڪورڍنڱ آڀري پولي ۾ لکو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اوڀشن رو مينيو لکو
 add-sentences-menu-item-aria-label = نوا جملا جما ڪرو ڪميونتي ري پڙھڻ لا
 review-sentences-menu-item-aria-label = حازرجملا د وھراو جيڪي ڪميونٿي جما ڪرايا ھي
 add-questions-menu-item-aria-label = نوان سوال جما ڪرو ڪميونٿي لا پڙي ۽ جواب لا
