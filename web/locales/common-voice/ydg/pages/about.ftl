@@ -5,6 +5,7 @@
 
 about-dataset-new-text = دے کامن وائس ڈیٹا سیٹ ہزار ہا آوازف مثالے شامل استت ژے ین نے سڤزڤدے غوزف ڤے آواز پے ڤزدا دیر اسپاپے تیار کڑا مدد ملاؤ ایتے۔
 about-clip-graveyard = آوازف قبرستان
+about-get-involved = حصو غوردا
 
 ## Community Playbook Content
 ## What is a language
