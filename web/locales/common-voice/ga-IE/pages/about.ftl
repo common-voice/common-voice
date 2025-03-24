@@ -7,8 +7,16 @@ how-does-it-work-title-v2 = Conas a oibríonn Common Voice?
 
 about-language-req-subtitle = Iarrann duine éigin go gcuirfí teanga leis.
 about-localization-title = Logánú an tSuíomh Ghréasáin
+about-localization-subtitle = Déantar téacs an láithreáin ghréasáin a aistriú go dtí an teanga úd.
 about-sentence-collection-title = Bailiú Abairtí
+about-sentence-collection-subtitle = Bailítear abairtí chun go léifidh daoine os ard iad.
 about-new-lang-title = Seoladh Teanga Nua
+about-new-lang-subtitle = Seolfaimid láithreán gréasáin Common Voice sa teanga úd.
+about-voice-contrib-title = Rannchuidiú Gutha
+about-voice-contrib-subtitle = Tagann daoine chuig an láithreán gréasáin agus cuireann siad a nguth leis.
+about-voice-validation-title = Bailíochtú Gutha
+about-voice-validation-subtitle = Déanann daoine eile na gearrthóga gutha úd a bhailíochtú.
+about-subscribe-text = An mian leat teagmháil a bheith agat le Common Voice?
 about-speak = Labhair
 about-listen-queue = Ciú Éisteachta
 about-listen = Éist
@@ -35,6 +43,10 @@ about-playbook-what-is-language = Céard is teanga ann ar Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Conas a chuirim teanga leis?
+about-playbook-how-add-language-content-1 =
+    Ar an gcéad dul síos, dearbháil an ann do do theanga <languageLink>cheana</languageLink>.
+    Mura ann di, tig leat <languageRequestLink>iarradh go ndéanfaí do theanga a chur leis</languageRequestLink>.
+    Tá dhá chéim ann. An láithreán gréasáin a aistriú agus abairtí a bhailiú
 about-playbook-how-add-language-translating-heading = An suíomh a aistriú
 about-playbook-how-add-language-collecting-sentences-heading = Ag bailiú abairtí
 
