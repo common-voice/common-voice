@@ -9,6 +9,11 @@ clips-with-count-pluralized =
         [one] ایک
        *[other] دؔوجے
     }
+record-button-label = اپٹؔی آواج بھرو
+vote-yes = ہاوے
+vote-no = نائی
+languages = ٻولیاں
+partner = ٻیلی
 
 ## Reporting
 

@@ -93,6 +93,8 @@ too-many-files = تمام گهڻيون فائلون
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>وڍيڪ جملا ايڍ ڪرو ڀبلڪ ڍومين را
 
 ## MENU ITEM TOOLTIPS
 

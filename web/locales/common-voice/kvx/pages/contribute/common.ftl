@@ -104,3 +104,6 @@ contribution-misreadings-title = ڳلت ڀڻوو
 contribution-misreadings-description = ۿومڀۯيا رئہ ٽوڻئہ جوم کيال راکو جيو رِيڪارڊ ڪريو ڳيوه، اُو ۿاڳِي هائي رو هائي سئہ جيو لکل سئہ; جيڪيۮِي ننڪئي ڳلتئي پڻ هووئہ تون اُوئا نئہ رد ڪرو۔ <br /> جوم عام ڳلتي اِيئا ۾ شامل سئہ:
 contribution-misreadings-description-extended-list-1 = ڳمال<strong>'A'</strong> ڪا<strong>'The'</strong> رِيڪارڊِنگ رِي شُروعات ۾۔
 contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> هيڪا ويڻ را آخر ۾۔
+contribution-misreadings-description-extended-list-3 = ايوا contractions ڀڻوو جيا ۿاس ۾ موجُود نٿِي هوتا، زم  "We're" رِي جڳہ  "We are" ڀڻوو، ڪا اِيئا رو اُبتو۔
+contribution-misreadings-description-extended-list-4 = آخرِي ويڻ رو آخرِي حصو ۿتال سئہ ڪم تون رِيڪارڊِنگ نئہ جوم جلدِي کتم ڪرئي پرئي۔
+contribution-misreadings-description-extended-list-5 = هيڪا ويڻ مانه الهائِي وار ڪوشِيش ڪروو۔
