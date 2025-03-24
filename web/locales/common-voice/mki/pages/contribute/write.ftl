@@ -123,10 +123,16 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = گائڍ لائن فورم فولو ڪرو' ڪھڙا جملا جما ڪري سگان ٿا?'
 small-batch-sentences-rule-2 = ھيڪ جملو ھيڪڙي لائن
+small-batch-sentences-rule-3 = الڱ جملا ھڪڙي لائن ۾ ڀريس 'انٿر' يا 'واڀس' ھڪ دفا
 small-batch-sentences-rule-4 = 1000 جملا تائن جما ڪرو
+small-batch-sentences-rule-5 = سجا جملا لاذمي ھيڪ ڍومين را
+small-batch-sentences-rule-6 = سجا جملا لاذمي ھيڪ حوالي را
+# menu item
+add-sentences = سجا جملا
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = آپري پولي ۾ جملا جما ڪرو
 
 ## MENU ITEM ARIA LABELS
 
