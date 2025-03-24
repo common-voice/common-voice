@@ -35,33 +35,33 @@ why-donate = تمينٚ ڪآلي پوڇ ريهرآ هو؟
 why-donate-explanation-1 = جي تمآ ڪوُ کبر ديوآ ڪو اڌيڪآر هي اُرو ڪو سرڦ شآمل ڪرو جآئي جي تمينٚ آپو ڪوُ آپ سکوُنو مينٚ محسوس ڪرو۔ جد هينٚ ڊيٽآ سيٽ جآريٚ ڪردآ هونٚ همينٚ سبآنٚ ڪيٚ جآتيٚ کبرينٚ ڪوُ ڪوُڙآ نآئونٚ دي بدليٚ ڪردآ هونٚ اور پڪ ڪردآ هونٚ تو تمرو نائونٚ اي ميل جيسي کبر چآر ايمرجنسيو جيسي کبر چآرينٚ دي ڪونآ ملآوآنٚ
 why-donate-explanation-2 = سئيٚ تريٚڪآ دي ٽيڪنآلآجييآݪآ ڪآم ڪروآ تاڻيِٚ سآمآن جيڪو دولپرجآ ڪوُٽڪينآلآجي ٺآوآ مينٚ مدد ڪردو هي منکهآ ڪيٚ هر ڪسمونٚ ڪيٚ رينجيٚ ڪوُ جاهر ڪروآ ڪيٚ جرورَت هي مسال همينٚ ڪِرو کآس لهِجو ٻولوالآ ڪوُ شامل نآ ڪررآ  تو پيڇيٚ ٽيڪنآلآجي اُرو لهِجآݪآ منکآنٚ ڪي لآ سئيٚ تريڪآ دي ڪآم ڪونآ ڪرسي ميٽآ ڊيٽآ ڪيٚ اهميتي ڪآ بآرآ مين <learnMore>وڌيڪ جآنڪآريٚ ليوو .</learnMore>
 add-information-button = ڃآڻ شآمل ڪرو
-continue-speaking-button = نآ مهربآني ٻتلآڻ جآري رآکو
-create-profile-text = ڪآ تمي تمير مآلومآت بچآوو چآهندآ هو ايڪ پروڦآئيل ٽآوو
+continue-speaking-button = نآ مهربآنيٚ ٻتلآڻ جآريٚ رآکو
+create-profile-text = ڪآ تميٚ تمريٚ مآلومآت بچآوو چآهندآ هو ايڪ پروڦآئيل ٽآوو
 thanks-for-voice-toast = تمري آوآجينٚ کبر چآري ڪي لآ مهربآني۔
-thanks-for-voice-toast-error = تمري آوآجي ڪي کبر جمآ ڪروآ مي ايڪ گلتي هورهيرو تي
+thanks-for-voice-toast-error = تمريٚ آوآجيٚ ڪيٚ کبرَ جمآ ڪروآ مي ايڪَ گلتيٚ هوريهريتيٚ
 first-cta-gender-select-default-option = ايڪ اديڪآر چُگو
 first-cta-gender-select-help-text =
     .label = تمي تمري جنس يآ جنسي ڪوُ ڪيسو ڪيندآ هو۔
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = تمرآ آوآج ديوآ لآ مهربآني
-second-cta-subtitle-text = ايڪ پروڦآئيلي ڀيݪي تمي تميرآ ڪآمونٚ مي ننگ ڌر سڪدآ هو۔ اور آوآجو ڪو سامآن ديوآݪا ڪيٚ برآدري يو دي مِل سدآ هو۔
-already-have-an-account = ڪآ تمري ڪني آگئي ايڪ اڪآئونٽ هي لآگ اِن
+second-cta-header-text = تمرآ آوآج ديوآ لآ مهربآنيٚ
+second-cta-subtitle-text = ايڪ پروڦآئيليٚ ڀيݪي تميٚ تمرآ ڪآمونٚ مي ننگ ڌر سڪدآ هو۔ اور آوآجو ڪوَ سامآن ديوآݪا ڪيٚ برآدِريٚيو دي مِل سدآ هو۔
+already-have-an-account = ڪآ تمري ڪني آگئيٚ ايڪ اڪآئونٽ هي لآگ اِن
 create-profile-button = ايڪ پروڦآئيل ٽآئو
 # IMAGE TAGS
-img-alt-success-checkmark = ڪآميآپي يو ڪي نِشآني
+img-alt-success-checkmark = ڪآميآبيو ڪيٚ نِشآنيٚ
 # menu item
 read-sentences = جُملآ پڙهو
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = جملآ کوُ پڙهو <small>(جلدي آ رهرو هي)</small>
+read-sentences-coming-soon = جُملآ کوُ پڙهو <small>(جلديٚ آ ريهرو هي)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = جملآ پڙهو، سوآلآ ڪا جآب ڏئو
-read-sentences-menu-item-tooltip = آپو ڪي ڀوليو مينٚ جُملآ ڪوُ پڙهدي رِڪآرڊ ٽآئو
-answer-questions-menu-item-tooltip = آپو ڪي ٻوليو مي سولآ اوراِسآرآ ڪآ جبآب ديوآ مآل آپو ڪو رِڪآرڊ ٽآئو
+speak-contribute-menu-tooltip = جُملآ پڙهو، سوآلآ ڪا جوآب ديئو
+read-sentences-menu-item-tooltip = آپو ڪيٚ ٻوليو مينٚ جُملآ ڪوُ پڙهديٚ رِڪآرڊ ٺآئو
+answer-questions-menu-item-tooltip = آپو ڪيٚ ٻوليو مي سوآلآ اوراِشآرآ ڪآ جبآب ديوآ مآل آپو ڪو رِڪآرڊ ٺآئو
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = بولوآ ڪآ اديڪآرآ ڪيِ لِسٽ
+speak-contribute-menu-aria-label = ٻولوآ ڪآ اديڪآرآ ڪيِٚ لِسٽ
 read-sentences-menu-item-aria-label = بردري يو ڪي ترڦي دي جمآ ڪري ڦرڪ بوليآ مي جملآ پڙهو۔
 answer-questions-menu-item-aria-label = برآدري ئي ڪآ پڙهوآ اور جنآب ديوآ تآڻي ايڪ نوو سوآل جمآ ڪرو
