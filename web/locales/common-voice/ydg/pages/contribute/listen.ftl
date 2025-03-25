@@ -12,6 +12,8 @@ listen-abort-cancel = ڤے تصدیق کڑا جاری اوزیاؤ
 listen-abort-confirm = ڤے تصدیق کڑا ناسے نین
 # Menu item
 validate-readings = ڤے اݰٹا تصدیق کن
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ڤے اݰٹا تصدیق کن<small>(چوکو ایستے)</small>
 
 ## MENU ITEM TOOLTIPS
 

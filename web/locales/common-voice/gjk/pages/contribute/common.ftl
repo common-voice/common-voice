@@ -69,7 +69,13 @@ shortcut-skip = س
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
-shortcut-record-toggle-label = رڪارڍ ڪرو /  روڪوو۔
+shortcut-record-toggle-label = رڪارڍ ڪرو /  روڪو
+shortcut-rerecord-toggle = [1-5 ]
+shortcut-rerecord-toggle-label = ڪلپ نين ڦير ٿي رڪارڍ ڪرو
+shortcut-discard-ongoing-recording = اِي ايس  سِي
+shortcut-discard-ongoing-recording-label = ھالتي رڪارڍينگ نين رڌ ڪرون
+shortcut-submit = واپس
+shortcut-submit-label = ڪلپ جمع  ڪرو
 
 ## Listen Shortcuts
 
@@ -79,6 +85,7 @@ shortcut-record-toggle-label = رڪارڍ ڪرو /  روڪوو۔
 contribution-criteria-nav = مَعيار
 contribution-criteria-link = حِصو ليڌا نا معيار نين ۿمزو
 contribution-criteria-page-title = حِصو ليڌا نو معيار
+contribution-background-voices-description = ھلڪو وانۿِين ٿي آيا وارو آواز ٺيڪ سي پڻ امين نٿي چاھتا ڪي وڌيڪ آوازون ھوئي، زين مشين الگورٿم نين لکل مٿن شيوا ٻيزا لڦظ اورکاڻ ۿارُو مجبور ڪري۔ زو تمان نين متن شيوا ٻيزا لفظ ۿانڀريا مان آوي تو ڪلپ نين رڌ ڪري ناکو عام طور پرماڻي ايم تيرين ٿائي سي زيرين ٽي وي ھالتي ھوئي ڪان ڍوڪڙي ڪونڪ وات وڳچ ٿاتي ھوئي۔
 contribution-reader-effects-title = ڀڻيا واران ماٿي اثرات
 contribution-reader-effects-description = گھڻيون رڪارڍينگون ماڻھان نيون قدرتي آواز مان ٻوليا نيون ھوئي سي۔ تمين ڪيرينڪ ڪيرينڪ عير معياري رڪارڍينگون قٻول ڪري ۿڳو سو، زيم گھڻا تيز آواز مان ، سرگوشي مان ڪان ڍرامائي آواز مان ڇيون ھوئي، ميرٻاني ڪرين گايل رڪارڍينگون انين ڪمپيوٽر ني آواز واريون رڪارڍينگون رڌ ڪرو
 contribution-just-unsure-title = روڳي پڪ نٿي
