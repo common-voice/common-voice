@@ -44,6 +44,10 @@ about-clip-graveyard-text =
     ماخ تورو ژیم آدمف و تنظیماتف دیم منصوبو پے حصو  غوردا دیر مینادری کینمتے۔
 about-get-involved = حصو غوردا
 about-stay-in-touch = زو چیمین کینیم دے رابطہ ڤرومیم؟
+about-stay-in-touch-button = سائن آب کن
+about-stay-in-touch-text-1 = دیم مہم ، مہرکو، اڤن دے کامن وائس خصوصیاتف جفت ݰویا دے اڤزدا پے حصو غوردا دیر دے ماخ ای میل لسٹ <emailFragment>سائن آب </emailFragment> کن
+about-nav-why-common-voice = چی؟
+about-nav-how-it-works = چیمین؟
 
 ## Community Playbook Content
 ## What is a language
