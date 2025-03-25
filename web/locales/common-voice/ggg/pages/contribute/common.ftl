@@ -72,6 +72,7 @@ shortcut-skip = س
 shortcut-record-toggle = ر
 shortcut-record-toggle-label = ڀر/بند
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ڪِلپ وريٚ ڀرو
 shortcut-discard-ongoing-recording = ايٚ ايس سيٚ
 shortcut-discard-ongoing-recording-label = چلديٚ رِڪآرڊيٚنگ کتم ڪرو۔
 shortcut-submit = وآپسيٚ
@@ -96,7 +97,7 @@ shortcut-vote-no = ن
 
 contribution-criteria-nav = کآسيِت
 contribution-criteria-link = کآسيتي ڪوُ سمج ڪي شآمل ڪرو۔
-contribution-criteria-page-title = شآمل ڪوآ ڪيٚ کآسيت
+contribution-criteria-page-title = شآمل هوآ ڪيٚ کآسيت
 contribution-criteria-page-description = آوآجينٚ ڪآ ڪِلپ سُڻوآ ڪيٚ ٽيم ڪِرو پر ڌيآن ديوآ ڪيٚ جروٚرت هي سمجھو اور آپو ڪيٚ آوآجينٚ ڪيٚ ريڪآرڊنگي ڪوُ وڌيڪ مالدآر بڻاوآ مينٚ مدت ڪرو۔
 contribution-for-example = مِسآلوُ لآ
 contribution-misreadings-title = گلت پڙهوآݪآ
