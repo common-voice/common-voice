@@ -142,3 +142,6 @@ contribution-background-voices-example-1-title = The giant dinosaurs of the Tria
 contribution-background-voices-example-1-explanation = ڪِي تمي آووه ريا؟ <strong> ٻِيزِي آواز ۾ ۿاۮ ۮِيڌو ڳيو</strong>
 contribution-volume-title = آواز
 contribution-volume-description = ڀڻيا واۯون نئہ وس ۾ آواز قُڌرتِي لحاظ ٿِي ڦرق ٿي هيڪئہ۔ رُوڳو اُوئہ ٽوڻئہ رد ڪرو زئيون آواز اتو هوئہ جي رِيڪارڊنگ سهِي نہ ٿيتئي هوئہ، ڪا گھڻو ڪرينَ اتئي هڻيون هوئہ جي لکل متنَ نئہ ۿزميام ۮورئي هوئہ۔
+contribution-reader-effects-title = ڀڻيا واۯا را اثرات
+contribution-reader-effects-description = گھڻو ڪرينَ رِيڪارڊِيگ منکون رِي قُڌرتِي آواز ۾ ٿيل هوئہ۔ تمي ڪئيون ڪيونڪ جيوَئي تيوَئي ريڪارڊِنگ نئہ موني هيڪو۔ جيو چيڪ ڪرينَ sarghoshi ۾، ڊرامائي انداز ۾ ۮِيڌل هوئہ۔ ميرڀونئي ڪرينَ ڪمپيوٽر مانه ڪرَل رِيڪارڊِنگ واۯِي آواز نئہ رد ڪرو پرو۔
+contribution-just-unsure-title = ٻش بي ڀروسو؟

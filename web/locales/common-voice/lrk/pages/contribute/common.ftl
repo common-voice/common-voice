@@ -11,6 +11,12 @@ clips-with-count-pluralized =
     }
 goal-help-recording = تمي ڪومن وُيس ني اماري آ رواني مون ريڪودينگ ري مقصد تڪ پوچايا مي مدد ڪري ہي
 goal-help-validation = تمي ڪومن وُيس ني اماري آ رواني مون ريڪودينگ ري مقصد تڪ پوچايا مي مدد ڪري ہي
+contribute-more =
+    { $count ->
+        [one] ايڪ
+       *[other] گڙڻا
+    }
+speak-empty-state = امو ڪني آ ڀولي بي رآڪئردينگ ڪريا ھارو جملا ختم ھوئي گيا ھي
 
 ## Reporting
 
