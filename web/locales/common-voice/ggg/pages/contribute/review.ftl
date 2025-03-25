@@ -7,7 +7,7 @@ sc-review-select-language = مهربآنيٚ ڪرڪي جُملآ ڪيٚ پَرک
 sc-review-no-sentences = پرکوآ تآڻي ڪوبي جُملو ڪونآ هي اب اور جُملآ شآمل ڪرو۔
 sc-review-form-prompt =
     .message = جُملآنٚ ڪيٚ پرک ڪونآ ليٚنيٚ گويٚ هي ڪآ تمآ ڪوُ پڪ هي؟
-sc-review-form-usage = جُملو منجوُر ڪروآ تآڻيٚ سيديِ پآسي سوئيپ ڪرو۔ اُرو ڪوُ کتم ڪروآ تآڻيٚ اُلٽي پآسي سوئيپ ڪرو اُرو ڪوُ ڇوڙوآ تآڻيٚ مٿي سوئيپ ڪروتمريٚ پرک جمآ ڪروو مت ڀُلو۔
+sc-review-form-usage = جُملو منجوُر ڪروآ تآڻيٚ سيديِ پآسي سوئيپ ڪرو۔ <strong>اُرو ڪوُ کتم ڪروآ تآڻيٚ اُلٽي پآسي سوئيپ ڪرو اُرو ڪوُ ڇوڙوآ تآڻيٚ مٿي سوئيپ ڪروتمريٚ پرک جمآ ڪروو مت ڀُلو۔</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = وسيٚلو
