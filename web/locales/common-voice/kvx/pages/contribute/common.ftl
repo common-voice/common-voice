@@ -138,3 +138,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>
 contribution-background-voices-title = پسِ منظر ري آوازون
 contribution-background-voices-description = هلڪا پسِ منظر ڪاش ٺِيڪ سئہ پڻ امون نئہ ايوو پسِ منظر نٿِي کپتو جيو algorithm را لکل متن وڳر ٻِيزا لفظ اُوۯکيا ۾ مجبُور ڪرئہ پرا۔ جيڪيۮِي تمي متن وڳر ڪوئي صاڦ ويڻ ۿومڀۯي هيڪو تون ڪِلپ نئہ رد ڪروو کپئہ۔ گھڻو ڪرينَ هم تئيون ٿئہ زئيون ٽِي وِي رو آواز وڌِيڪ هوئہ ڪا آهئہ پاهئہ ڪوئي وات چِيت ٿيتئي هوئہ۔
 contribution-background-voices-description-extended = جيڪيۮِي رِيڪارڊِنگ سهِي نہ ٿيتئي هوئہ ڪا آواز سهِي رِيڪارڊ ٿيتو هوئہ تون اُوئا نئہ رد ڪرو، پڻ جيڪيۮِي ٻڌوئي رِيڪارڊ ڪرَل متنَ رو آواز ۿومڀۯيام صاڦ هوئہ تون هيوا آواز نئہ مونيو زائہ۔
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic.<strong> هيڪِي آواز ۾ ڀڻيو ڳيو </strong>
+contribution-background-voices-example-1-explanation = ڪِي تمي آووه ريا؟ <strong> ٻِيزِي آواز ۾ ۿاۮ ۮِيڌو ڳيو</strong>
+contribution-volume-title = آواز
+contribution-volume-description = ڀڻيا واۯون نئہ وس ۾ آواز قُڌرتِي لحاظ ٿِي ڦرق ٿي هيڪئہ۔ رُوڳو اُوئہ ٽوڻئہ رد ڪرو زئيون آواز اتو هوئہ جي رِيڪارڊنگ سهِي نہ ٿيتئي هوئہ، ڪا گھڻو ڪرينَ اتئي هڻيون هوئہ جي لکل متنَ نئہ ۿزميام ۮورئي هوئہ۔

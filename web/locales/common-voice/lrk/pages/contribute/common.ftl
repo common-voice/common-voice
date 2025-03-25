@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] ايڪ
        *[other] ڀيجون
     }
+goal-help-recording = تمي ڪومن وُيس ني اماري آ رواني مون ريڪودينگ ري مقصد تڪ پوچايا مي مدد ڪري ہي
+goal-help-validation = تمي ڪومن وُيس ني اماري آ رواني مون ريڪودينگ ري مقصد تڪ پوچايا مي مدد ڪري ہي
 
 ## Reporting
 
