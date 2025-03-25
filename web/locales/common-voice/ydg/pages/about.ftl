@@ -56,6 +56,7 @@ about-nav-playbook = ڤے حصو غوردان طریقو ایخسا
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = دے کام وائس یو زبان ګیم؟
 
 ## How do I add a language
 
