@@ -43,6 +43,7 @@ about-clip-graveyard-text =
     
     ماخ تورو ژیم آدمف و تنظیماتف دیم منصوبو پے حصو  غوردا دیر مینادری کینمتے۔
 about-get-involved = حصو غوردا
+about-stay-in-touch = زو چیمین کینیم دے رابطہ ڤرومیم؟
 
 ## Community Playbook Content
 ## What is a language
