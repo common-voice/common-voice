@@ -45,9 +45,13 @@ about-clip-graveyard-text =
 about-get-involved = حصو غوردا
 about-stay-in-touch = زو چیمین کینیم دے رابطہ ڤرومیم؟
 about-stay-in-touch-button = سائن آب کن
-about-stay-in-touch-text-1 = دیم مہم ، مہرکو، اڤن دے کامن وائس خصوصیاتف جفت ݰویا دے اڤزدا پے حصو غوردا دیر دے ماخ ای میل لسٹ <emailFragment>سائن آب </emailFragment> کن
+about-stay-in-touch-text-1 = دیم مہم ، مہرکو، اڤن دے کامن وائس خصوصیاتف جفت ݰویا دے سڤزڤدا پے حصو غوردا دیر دے ماخ ای میل لسٹ <emailFragment>سائن آب </emailFragment> کن
 about-nav-why-common-voice = چی؟
 about-nav-how-it-works = چیمین؟
+about-nav-partners = یَوان
+about-nav-get-involved = حصو غوردا
+about-nav-how-it-works-2 = کامن وائس چیمین ہورغ کیتے؟
+about-nav-playbook = ڤے حصو غوردان طریقو ایخسا
 
 ## Community Playbook Content
 ## What is a language
