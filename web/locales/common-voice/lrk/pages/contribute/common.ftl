@@ -4,6 +4,11 @@ contribute = ويراوہ
 review = پرکوہ
 skip = سوڙوہ
 shortcuts = ݾورتڪت
+clips-with-count-pluralized =
+    { $count ->
+        [one] ايڪ
+       *[other] ڀيجون
+    }
 
 ## Reporting
 

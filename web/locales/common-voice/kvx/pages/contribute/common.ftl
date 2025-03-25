@@ -136,3 +136,5 @@ contribution-background-noise-example-2-fixed-title = موٽا dino<strong>ڌو�
 contribution-background-noise-example-2-explanation = متنَ رو ڪينڪ حِصو ۿومڀۯيو نٿِي زاتو
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> giant dinosaurs of <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = پسِ منظر ري آوازون
+contribution-background-voices-description = هلڪا پسِ منظر ڪاش ٺِيڪ سئہ پڻ امون نئہ ايوو پسِ منظر نٿِي کپتو جيو algorithm را لکل متن وڳر ٻِيزا لفظ اُوۯکيا ۾ مجبُور ڪرئہ پرا۔ جيڪيۮِي تمي متن وڳر ڪوئي صاڦ ويڻ ۿومڀۯي هيڪو تون ڪِلپ نئہ رد ڪروو کپئہ۔ گھڻو ڪرينَ هم تئيون ٿئہ زئيون ٽِي وِي رو آواز وڌِيڪ هوئہ ڪا آهئہ پاهئہ ڪوئي وات چِيت ٿيتئي هوئہ۔
+contribution-background-voices-description-extended = جيڪيۮِي رِيڪارڊِنگ سهِي نہ ٿيتئي هوئہ ڪا آواز سهِي رِيڪارڊ ٿيتو هوئہ تون اُوئا نئہ رد ڪرو، پڻ جيڪيۮِي ٻڌوئي رِيڪارڊ ڪرَل متنَ رو آواز ۿومڀۯيام صاڦ هوئہ تون هيوا آواز نئہ مونيو زائہ۔
