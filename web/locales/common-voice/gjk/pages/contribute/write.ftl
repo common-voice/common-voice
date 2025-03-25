@@ -37,9 +37,39 @@ single-sentence = ايڪلون
 small-batch-sentence = ننڪو جٿو
 bulk-sentence = گھڻان وڌارين
 sentence-domain-combobox-label = جُملا نين ٺاۿيا وارو ڪان ڍومينَ
+sentence-domain-select-placeholder = ڪونئين پڻ ترڃ ۿوُڌِي ٺاۿيا واران نين سونڍو (ڍومينَ) (مرضِي سي)
+# Sentence Domain dropdown option
+agriculture_food = ٻنِي ٻارو (زراعت) انين کاڌون
+# Sentence Domain dropdown option
+automotive_transport = پوتينَ پويَ هاليا وارون انين سوارِيون
+# Sentence Domain dropdown option
+finance = حِساٻ ڪِتاٻ راکوون
+# Sentence Domain dropdown option
+service_retail = ڪام انين قيمت
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صيحت نيَ حواليَ ٿِي
+# Sentence Domain dropdown option
+history_law_government = تاريخ (هِسٽرِي) قانونَ انين حڪُومت (گورمينٽ)
+# Sentence Domain dropdown option
+language_fundamentals = ٻولِي نا ڀُنياۮِي حِصا (مِثال: ڪونئين ايڪ عدد ڪان انگھ، اکر، پئيشا)
+# Sentence Domain dropdown option
+media_entertainment = ميڍيا انين تڦريح ڪان مزو ڪروون
+# Sentence Domain dropdown option
+nature_environment = قُۮرت انين ماحول
+# Sentence Domain dropdown option
+news_current_affairs = کٻرِيون انين اتيار نا ڪاروڀار
+# Sentence Domain dropdown option
+technology_robotics = ڦنَ نيَ حواليَ ٿِي انين روبوٽ نا ٻارا مان
+sentence-variant-select-label = جُملان نا ڦرق ڦرق نمونا
+sentence-variant-select-placeholder = الڳ سُونڍو (مرضِي سي)
+sentence-variant-select-multiple-variants = عام ٻولِي/وڌارين ڦرق ڦرق
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپلوڍ ڪرو <icon></icon> عوامِي ڍومينَ نا جُملا
 
 ## SMALL BATCH SUBMISSION
 
