@@ -91,11 +91,14 @@ bulk-submission-success-header = حِصو ليڌا انين گھڻون ڪانئ�
 bulk-submission-success-subheader = تمين عام آوازان مان مۮت ڪرو سو ريا اماران روز نان جُملان ۿوُڌِي پوڄا نِي ڪوشش ڪرو
 upload-more-btn-text = وڌارين جُملا اپلوڍ ڪرو
 file-invalid-type = فائيل سئِي نٿِي
-file-too-large = فائيل الائِي موٽِي سي
+file-too-large = فائيل تمام موٽِي سي
 file-too-small = فائيل تمام ننڪِي سي
+too-many-files = الائِي فائيلون سي
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> وڌارين عوامِي جُملا ايڍ ڪرو
 
 ## MENU ITEM TOOLTIPS
 
