@@ -10,6 +10,7 @@ about-nav-why-common-voice = ڪان؟
 about-nav-how-it-works = ڪِيُون؟
 about-nav-partners = شراڪت دار
 about-nav-get-involved = مين ٻولِي نُون ڪِيُون شامل ڪر سِگھَين ڇَين؟
+about-nav-how-it-works-2 = ڪامن وائِيس ڪِيُون ڪام ڪرَي ڇَي؟
 
 ## Community Playbook Content
 ## What is a language
