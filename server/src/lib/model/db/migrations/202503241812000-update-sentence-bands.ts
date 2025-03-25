@@ -1,0 +1,9 @@
+export const up = async function (db: any): Promise<any> {
+  await db.runSql(`
+    UPDATE locales SET target_sentence_count = 750
+    WHERE name IN ( 'mki', 'gig', 'ggg', 'gjk', 'mve', 'odk', 'kvx', 'kxp', 'phr', 'ydg', 'sbn', 'lrk', 'btv', 'ssi') `);
+};
+
+export const down = async function (): Promise<any> {
+  return null;
+};
