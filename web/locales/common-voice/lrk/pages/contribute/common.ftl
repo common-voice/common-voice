@@ -69,7 +69,7 @@ shortcut-skip = ايس
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = آر
+shortcut-record-toggle = r
 shortcut-record-toggle-label = ريڪورڊ / بند
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ٻيجو رڪارڊ ڪلپ
@@ -78,9 +78,22 @@ shortcut-discard-ongoing-recording-label = جاري رڪورڊنگ ني رد ڪ�
 shortcut-submit = واپسي
 shortcut-submit-label = ڪلپس جمع ڪرو
 request-language-text = ڪامن وائس تي اڃي تڪ آپري ٻولي نظر ڪوئي آوي
+request-language-button = ٻولي ري منت ڪرو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = رمو / بند
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = معيور
+contribution-criteria-link = مليا ري معيور ني ھمجو
