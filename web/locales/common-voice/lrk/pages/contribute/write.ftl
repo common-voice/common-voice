@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = ليکو
+write = ليک
 
 ## BULK SUBMISSION
 

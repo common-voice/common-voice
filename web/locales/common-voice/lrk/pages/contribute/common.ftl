@@ -102,3 +102,5 @@ contribution-criteria-page-description = ھمجھو تو وائس ڪلپس ھڻ�
 contribution-for-example = مثال طور
 contribution-misreadings-title = غلط فهميون
 contribution-misreadings-description = ھڻيا ري وقت، گھڻي پرک مو چيڪ ڪرو ڪي جي رڪارڊ ڪري هي آ بلڪل آ ئي لکيوڙون هي؛ جيڪدي  ٿوڙي غلطيون بي هوئي توغلط ڪرو.
+contribution-misreadings-description-extended-list-1 = رڪارڊنگ جي شروعات ۾ غائب هي.
+contribution-misreadings-description-extended-list-2 = لفظ ري آخر ۾غائب هي
