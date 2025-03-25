@@ -145,3 +145,6 @@ contribution-volume-description = ڀڻيا واۯون نئہ وس ۾ آواز ق
 contribution-reader-effects-title = ڀڻيا واۯا را اثرات
 contribution-reader-effects-description = گھڻو ڪرينَ رِيڪارڊِيگ منکون رِي قُڌرتِي آواز ۾ ٿيل هوئہ۔ تمي ڪئيون ڪيونڪ جيوَئي تيوَئي ريڪارڊِنگ نئہ موني هيڪو۔ جيو چيڪ ڪرينَ sarghoshi ۾، ڊرامائي انداز ۾ ۮِيڌل هوئہ۔ ميرڀونئي ڪرينَ ڪمپيوٽر مانه ڪرَل رِيڪارڊِنگ واۯِي آواز نئہ رد ڪرو پرو۔
 contribution-just-unsure-title = ٻش بي ڀروسو؟
+contribution-just-unsure-description = جيڪيۮِي تمون نئہ ايوئي شينه ۿومئي آوئہ جيو اِيئا هدايت ۾ شامِل نٿِي، تون آپرِي ٺائُوڪِي ۿزم پرموڻئہ ڦينصلو ڪرو، جڪيۮِي تمي ۿاس ۾ ڦينصلو نٿِي ڪري هيڪتا، تو skip button رو واپراوَ ڪرو انَ آڳۯلِي رِيڪارڊِنگ مانه زائو۔
+see-more = <chevron></chevron> وڌارئہ زوئو
+see-less = <chevron></chevron> ٿوڙو زوئو

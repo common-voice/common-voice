@@ -2,7 +2,7 @@
 
 write = لِکو
 write-instruction = ڀيۯو ڪرو <icon> </icon> هيڪ public domain جُملو سئہ
-write-page-subtitle = ائيٿي ڀيۯا ڪرِيا ڳيا جُملا هيڪ ساڌا طريقا ٿِي موجُود سئہ سي سي -0 ۾ شامل ڪريا زاشي۔
+write-page-subtitle = ايٿئہ ڀيۯا ڪريا ڳيا جُملا هيڪ ساڌا طريقا ٿِي موجُود سئہ  cc-0 ۾ شامل ڪريا زاشي۔
 sentence =
     .label = جُملا
 sentence-input-placeholder = آپرا public domain جُملا ايٿِي ڌاخل ڪرو
