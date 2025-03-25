@@ -143,3 +143,5 @@ contribution-background-voices-example-1-explanation = ڪآئي تم آ رهي �
 contribution-volume-title = جآم
 contribution-volume-description = پڙيڙ وچ مين ڪودرتي آواز سونيم آوي تو او آوازين رد ڪر ڌو جڌي آواز وديڪ هووي تو ريڪودنگ ٺوٺ جآوي يا آم تو ري پر جڌي او اتر گھٽ هووي جيڪوتم موآد ليندو ڇي او مآلون آوي ڪي او ڪآئي ڪيرو ڇي
 contribution-reader-effects-title = پڙي وآڙو اسر
+contribution-reader-effects-description = گھڻي ٻوليوم مين ڪدرتي آواز هووي ڇي ريڪودنگي مين تم ڪڌي ڪڌي فآلتو ريڪودنگ ڪبول ڪرلو ڇو اون تم چيڪ ڪر لو يا او ني واضح ڪر لو مهرباني ڪرين ڪيڌوڙي ريڪودنگ يا ٻولي ڇلوڙي ڪمپيوٺر ري ريڪودنگ تو رد ڪر لو
+contribution-just-unsure-title = بس يڪين ڪوني

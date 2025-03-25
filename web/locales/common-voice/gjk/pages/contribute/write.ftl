@@ -131,6 +131,20 @@ add-small-batch-success =
         [one] { $uploadedSentences } نو 1 جما ڪرل جُملا
        *[other] { $uploadedSentences } نو { $totalSentences } جما ڪرل جُملا
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } نو 1 جما ٿل جُملو ڪِلڪ ڪرو <downloadLink> اڃان </downloadLink> کتم ڪرل جُملو ڍائونَ لوڍ ڪريا ۿارُو
+       *[other] { $uploadedSentences } نو { $totalSentences } جما ٿل جُملا ڪِلڪ ڪرو <downloadLink> اڃان </downloadLink> کتم ڪرل جُملو ڍائونَ لوڍ ڪريا ۿارُو
+    }
+small-batch-sentences-rule-1 = گائيڍ لائينَ نين فالو ڪرو “ چِيئو جُملو هون ايڍ ڪرِي ۿڳون سون؟
+small-batch-sentences-rule-2 = هر لائينَ مان ايڪ جُملو ايڍ ڪرو
+small-batch-sentences-rule-3 = ايڪ لائينَ مان ايڪز جُملا ۿارُو “انٽر” يا “واپس” وريَ
+small-batch-sentences-rule-4 = 1,000 جُملان ٿِي ماٿيَ ايڍ ڪرو
+small-batch-sentences-rule-5 = ٻڌانئين جُملان نو لازمِي ايڪز ڍومينَ هوئيَ
+small-batch-sentences-rule-6 = ٻڌانئين جُملان نون لازمِي ايڪز حوالو هوئيَ
+# menu item
+add-sentences = جُملا ايڍ ڪرو
 
 ## MENU ITEM TOOLTIPS
 
