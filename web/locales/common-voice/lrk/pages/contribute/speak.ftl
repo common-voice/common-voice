@@ -17,6 +17,7 @@ first-cta-gender-select-help-text =
     .label = تمي آپري جنس ني ڪيڪر بيون ڪريو
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = آپري آواز ۾ حصو ليدا ھارو مهرباني!
+create-profile-button = پروفائل ٺاھو
 
 ## MENU ITEM TOOLTIPS
 
