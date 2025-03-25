@@ -2,7 +2,7 @@
 
 write = لِکوو
 write-instruction = اوآميٚ ڪيٚ ٚ ملڪتيٚ ڪآ جملآ ڀيݪآ ڪرو
-write-page-subtitle = -0يهانٚ دينآ گوآ جملآ اوآميٚ لآ ڌيرآئينٚ عواميٚ سيٚ سيٚ -0 لآئيسنيآݪوڊيٽآ شيٽيٚ مي ڀيݪوڪررو جآسيٚ ۔
+write-page-subtitle = يهانٚ دينآ گوآ جملآ اوآميٚ لآ ڌيرآئينٚ عواميٚ سيٚ سيٚ -0 لآئيسنيآݪوڊيٽآ شيٽيٚ مي ڀيݪوڪررو جآسيٚ ۔
 sentence =
     .label = جُملو
 sentence-input-placeholder = يهاٚن آپوئيٚ اوآميٚ  ڪيٚ  مِلڪََتيٚ ڪآ جملآ ڌرو
@@ -20,7 +20,7 @@ new-sentence-rule-4 = سئيٚ هجي ائينٚ نشآنيونٚ لگآئو
 new-sentence-rule-5 = ڪوئيٚ بيٚ نمبر يآنٚ ڪِردآرَ ڪونآ
 new-sentence-rule-6 = ڪوئيٚ بيٚ پِرديسو ڪيٚ چٺيٚ ڪونآ
 new-sentence-rule-7 = سئيٚ پرَک لگآئو
-new-sentence-rule-8 = سآڦ ٻولوآݪو وو جُملو پڙهوآمي سَولو هووو کپي
+new-sentence-rule-8 = سآڦ ٻولوآݪو وو جُملو پڙهوآ مي سَولو هووو کپي
 login-instruction-multiple-sentences = ڪِترآئيٚ جُملآنٚ ڪوُ ڀيݪآ ڪَروآ لآ <loginLink>لآگِن </loginLink> يآنٚ <loginLink></loginLink>سآئين اپ ڪرو
 how-to-cite = مينٚ ڪيسي پرکَ دئونٚ
 how-to-cite-explanation-bold = ايڪ يوٚ آر ايل لنڪِ يآن ڪآمو ڪآ نآئو دي پرک ديئو.
