@@ -24,6 +24,10 @@ new-sentence-rule-8 = ذاتِي طور مانه ٺائُوڪو اي هوشي ج
 login-instruction-multiple-sentences = <loginLink>Login</loginLink> ڪا <loginLink>sign up</loginLink> to add ڌار ڌار جُملا
 how-to-cite = هُون ڪم ڪرينَ حوالو ۮيون؟
 how-to-cite-explanation-bold = ميرڀونئي ڪرينَ هيڪ URL link ڪا پُورا نوم رو حوالو ۮيو۔
+how-to-cite-explanation = جيڪيۮِي اي تمارا آپرا آکر سئہ تون هائيون نئہ لکو<italicizedText>“Self Citation</italicizedText>۔ امارئہ اي زوڻوو ضرُورِي سئہ جي اي مضمُون ڪيٿُون زڙيو جي امي زوڻي هيڪون جي اي public domain ۾ سئہ انَ اِيئا مانه ڪوئي copyright restrictions لاگُو نٿِي ٿيتو۔ وڌِيڪ جانڪارِي ۿارُو <guidelinesLink> Guidelines page زوئو۔
+guidelines = جانڪارئي
+contact-us = امون ٿِي رابطو ڪرو
+add-sentence-success = هيڪ جُملو لِيڌو ڳيو
 
 ## BULK SUBMISSION
 

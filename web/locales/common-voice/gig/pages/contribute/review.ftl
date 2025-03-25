@@ -8,6 +8,9 @@ sc-review-no-sentences = فآئدو لي سآرو ڪوئي ڀي جملو ڪون�
 sc-review-form-prompt =
     .message = ڌيکوڙآ جملآ جمه ڪوني ڪرآئي ڇو پڪ ڇي
 sc-review-form-usage = جملي ني مآني سآرون ساڃي پآسي سوائپ ڪرو<strong>رد ڪري سآرون اُڌي پآسي سوآئپ ڪرو او ني چهوڙي سآرون مآٿي ڪرو آپير جآڻ جمه ڪرڻو نآ ڀوليس</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = رستو{ $sentenceSource }
 
 ## REVIEW CRITERIA
 

@@ -46,6 +46,12 @@ report-title = رپورٽ جما ڪرو
 report-ask = آ جملا مي تموني ڪيوا مسلا آيا
 report-offensive-language = زبونو ري جوڻ ڪاري
 report-offensive-language-detail = جملا مي بي عزتي خراب جملا ھي
+report-grammar-or-spelling = گرامر / اسپيلنگ ري غلطي
+report-grammar-or-spelling-detail = جملي ۾ گرامر يا اسپيلنگ ري غلطي هي.
+report-different-language = ٻيجي زبون
+report-different-language-detail = آ آپري ٻولي مون ٻيجي  ٻولي ۾ لکيوڙو هي.
+report-difficult-pronounce = تلفوز ڪروہ دئکيو
+report-difficult-pronounce-detail = اي ۾ ايوا اکر يا جملا ھي جي پڙهيا يا ٻوليا  ۾ ڏوکيا ھي
 
 ## Speak & Listen Shortcuts
 
