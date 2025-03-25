@@ -52,12 +52,30 @@ report-different-language = ٻيجي زبون
 report-different-language-detail = آ آپري ٻولي مون ٻيجي  ٻولي ۾ لکيوڙو هي.
 report-difficult-pronounce = تلفوز ڪروہ دئکيو
 report-difficult-pronounce-detail = اي ۾ ايوا اکر يا جملا ھي جي پڙهيا يا ٻوليا  ۾ ڏوکيا ھي
+report-offensive-speech = جارحوڻي تقرير
+report-offensive-speech-detail = ڪلپ ۾ بي عزتي يا ناگوار ٻولي ھي
+report-other-comment =
+    .placeholder = تبفصرو
+success = ڪوميوبي
+continue = جاري رکو
+report-success = رپورٽ ڪوميوب ھوئي گئي
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ايس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = ريڪورڊ / بند
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ٻيجو رڪارڊ ڪلپ
+shortcut-discard-ongoing-recording = اي ايس سي
+shortcut-discard-ongoing-recording-label = جاري رڪورڊنگ ني رد ڪرو
+shortcut-submit = واپسي
 
 ## Listen Shortcuts
 
