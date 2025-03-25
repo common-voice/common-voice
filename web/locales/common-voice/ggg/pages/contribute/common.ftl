@@ -72,7 +72,6 @@ shortcut-skip = س
 shortcut-record-toggle = ر
 shortcut-record-toggle-label = ڀر/بند
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = ڪِلپ وريٚ ڀرو
 shortcut-discard-ongoing-recording = ايٚ ايس سيٚ
 shortcut-discard-ongoing-recording-label = چلديٚ رِڪآرڊيٚنگ کتم ڪرو۔
 shortcut-submit = وآپسيٚ
