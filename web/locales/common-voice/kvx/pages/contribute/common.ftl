@@ -123,3 +123,4 @@ contribution-misreadings-example-8-title = bumblebee تيزِي ٿِي مٽيو�
 contribution-misreadings-example-8-explanation = [Mismatched content]
 contribution-varying-pronunciations-title = ڌار ڌار تلفُظ
 contribution-varying-pronunciations-description = ڪياڪ ڪِلپ نئہ ڪياڪ وجہ ٿِي کتم ڪريا ٿِي پيرهِين کيال راکو جيڪيۮِي ڀڻيا واۯئہ ڪوئي ويڻ ڳلت تلفُظ ڪريو هووَئہ، زور ڳلت جڳا مانه ۮِيڌو هووئہ، ڪا سوئال را نِشونَ نئہ نظر انداز ڪريو هوئہ ٻڌِي دُنيا ۾ ڌار ڌار تلفُظ استعمال ٿئه ريا، جيا ۾ ڪينڪ ايوا ٿي هيڪئہ جيا تمي آپرا شهر ۾ نہ ۿومڀۯيا هوئہ۔ اُوئون منکون ۿارُو ٿوڙئي ۮئيا ڪرو جو تمون ٿِي ڌار نمُونا ٿِي وات چِيت ڪرئہ۔
+contribution-varying-pronunciations-description-extended = ٻِي﻿زا پاهئہ جي تمي اَم ۿزمو جي ڀڻيا واۯئہ اِيئا آکر نئہ پيرهِين ڪيۮِي نٿِي ۮيکيو ﻿﻿﻿انَ اندازا مانه اُوئا نئہ ڀڻئہ ريو، تون ميرڀونئي ڪرينَ هايا نئہ رد ڪرو پرو۔ جيڪيۮِي تمي مطمئن نٿِي، تون skip button رو اِستعمال ڪرو۔
