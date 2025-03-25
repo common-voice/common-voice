@@ -21,6 +21,11 @@ no-sentences-for-variants = تماري ٻولي را قسم جملا مون با
 speak-empty-state-cta = ويرايا وارا جملا
 speak-loading-error = امي تماري ري ٻئليا ھارو ڪا بي جملو ڪوِئي جوئي سگيا مھربوني ڪرين وري ڪوݾݾ ڪرجو
 record-button-label = آواز ريڪورڌ ڪرو
+share-title-new = مدد ڪرو ٻيجي آوازو جويا مي
+keep-track-profile = پروفائل مون آپري ترقي رو رستو رکو
+login-to-get-started = ݾيرئ ڪريا ھارو سائنپ يا لوگين ڪرو
+target-segment-first-card = تمي آماري ٿاگيٿ سيڪݾن مي حصو ليو ھو
+target-segment-generic-card = تمي ٿارگيٿ سيڪݾن مي حصو ليو ھو
 
 ## Reporting
 

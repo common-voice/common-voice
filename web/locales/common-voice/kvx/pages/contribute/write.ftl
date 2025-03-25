@@ -14,6 +14,11 @@ sc-write-submit-confirm = هُون مونونه جي اي جُملو سهِي س
 sc-review-write-title = تمي ڪيوا جُملا ڌاخل ڪري هيڪو؟
 sc-review-small-batch-title = هيڪ ٿِي وڌارئہ جُملا ڪم ڪرينَ شامِل ڪريا ﻿زائہ
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> پابندي (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = هر هيڪ جُملو پنرئہ ويڻون ٿِي گھٽ هوئہ
+new-sentence-rule-3 = سهِي گرامر رو واپراوَ ڪرو
+new-sentence-rule-4 = spelling انَ نُڪتون رو ٺائُوڪئہ نمُونئہ واپراوَ ڪرو
+new-sentence-rule-5 = ڪوئي نمبر ڪا کاس characters نئِين
+new-sentence-rule-6 = ٻارليا مُلڪون را ويڻ نئِين
 
 ## BULK SUBMISSION
 
