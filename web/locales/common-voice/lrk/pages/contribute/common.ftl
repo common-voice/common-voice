@@ -1,4 +1,7 @@
 action-click = ڪيلڪ ڪر
+action-tap = ٽيپ ڪرو
+contribute = ويراوہ
+review = پرکوہ
 
 ## Reporting
 

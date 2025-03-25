@@ -19,6 +19,10 @@ validate-readings-coming-soon = پڙي ري ڪوشش ڪرو<small>جلدي آ ر
 
 listen-contribute-menu-tooltip = پڙي ري ڪوشش ڪرو ڪآپي ري مدد لئو
 validate-readings-menu-item-tooltip = تمآري ٻولي مين استهمآل هو وڙي رڪآرد پڙآئي ري مددي سون فائدو کڻو
+review-transcriptions-menu-item-tooltip = تمآر ٻولي مين استهمآل هو ئي وآڙي ٽرانسڪرپسني رو فآئدو کڻو
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = آپيري پآبندي رو مهينا ٺآئو
+validate-readings-menu-item-aria-label = برادري ري ميمبري سوڻ ليدوڙي پڙآئي مين سمجه رآکو
+review-transcriptions-menu-item-aria-label = ڀروسي وآڙي رڪآرڌ هو وڙي جملآ سون فآئدو کڻو
