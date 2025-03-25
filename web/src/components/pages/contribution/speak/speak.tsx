@@ -343,6 +343,8 @@ class SpeakPage extends React.Component<Props, State> {
     setTimeout(async () => {
       const info = await this.audio.stop();
       this.processRecording(info);
+      this.audio.release()
+
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
