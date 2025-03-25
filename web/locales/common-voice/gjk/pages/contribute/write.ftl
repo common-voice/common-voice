@@ -86,6 +86,13 @@ what-needs-to-be-in-file-explanation = ميرٻانِي ڪرينَ امارِي
 upload-progress-text = اپلوڍينڳ پروگريس مان سي۔۔۔
 sc-bulk-submit-confirm = هون کاترِي ڄون سون ڪيَ آ <wikipediaLink> جُملا عوامِي ڍومينَ نا سي </wikipediaLink> انين اِجازت سي اينيان نين اپلوڍ ڪرون۔
 bulk-upload-success-toast = الائِي جُملا اپلوڍ ٿئِي جھا سي
+bulk-upload-failed-toast = اپلوڍ ڇا نون فيل ٿئِي جھون سي، ميرٻانِي ٿِي وريَ ڪوشش ڪرو۔
+bulk-submission-success-header = حِصو ليڌا انين گھڻون ڪانئين ۮيڌا  ۿارُو ميرٻانِي
+bulk-submission-success-subheader = تمين عام آوازان مان مۮت ڪرو سو ريا اماران روز نان جُملان ۿوُڌِي پوڄا نِي ڪوشش ڪرو
+upload-more-btn-text = وڌارين جُملا اپلوڍ ڪرو
+file-invalid-type = فائيل سئِي نٿِي
+file-too-large = فائيل الائِي موٽِي سي
+file-too-small = فائيل تمام ننڪِي سي
 
 ## SMALL BATCH SUBMISSION
 
