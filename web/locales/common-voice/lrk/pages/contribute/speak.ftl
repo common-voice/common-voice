@@ -1,3 +1,5 @@
+review-recording = پرکوہ
+review-rerecord = وري رڪارڊ
 thanks-for-voice-toast-error = تموري آواز ري جوڻ جمع ڪريا ۾ هڪ غلطي ئوئي گئي.
 first-cta-gender-select-default-option = ايڪ اختيار ليو
 first-cta-gender-select-help-text =
