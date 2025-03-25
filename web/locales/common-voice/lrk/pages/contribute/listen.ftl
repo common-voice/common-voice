@@ -5,6 +5,7 @@ listen-again-instruction = سھي ڪوم جدي تيار ھو تو وري ھڻو
 listen-3rd-time-instruction = نيچي، ماٿي رکو!
 listen-last-time-instruction = آخري ايڪ
 listen-empty-state = شايد امئ ڪني ڪلپس ختم ھوئي گيا ھي  - صفا ني ريفريش ڪرو، يا پسي وري ڪوشش ڪريو
+listen-empty-state-variants = ھوئي سگي ڪي تماري ڀولي رو قسم ڪلپس مئ ٻاري ھوئي ، جي ڪدي تمي خوݾ ھو تو تمي آپري ٻولي مي ٻيجا جملا جويا ھارو سيٿيگئو بدلي سگيو
 
 ## MENU ITEM TOOLTIPS
 
