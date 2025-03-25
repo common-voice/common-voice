@@ -1,4 +1,4 @@
-action-click = ڪيلڪ ڪر
+action-click = ڪيلڪ
 action-tap = ٽيپ ڪرو
 contribute = ويراوہ
 review = پرکوہ
@@ -76,6 +76,8 @@ shortcut-rerecord-toggle-label = ٻيجو رڪارڊ ڪلپ
 shortcut-discard-ongoing-recording = اي ايس سي
 shortcut-discard-ongoing-recording-label = جاري رڪورڊنگ ني رد ڪرو
 shortcut-submit = واپسي
+shortcut-submit-label = ڪلپس جمع ڪرو
+request-language-text = ڪامن وائس تي اڃي تڪ آپري ٻولي نظر ڪوئي آوي
 
 ## Listen Shortcuts
 
