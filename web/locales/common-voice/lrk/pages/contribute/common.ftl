@@ -26,9 +26,22 @@ keep-track-profile = پروفائل مون آپري ترقي رو رستو رک�
 login-to-get-started = ݾيرئ ڪريا ھارو سائنپ يا لوگين ڪرو
 target-segment-first-card = تمي آماري ٿاگيٿ سيڪݾن مي حصو ليو ھو
 target-segment-generic-card = تمي ٿارگيٿ سيڪݾن مي حصو ليو ھو
+target-segment-first-banner = ڪومن وہس رئ پھريا ٿارگيٿ سيگمينٿ ٺايا مي مدد ڪرو
+target-segment-add-voice = آپري آواز جما ڪرو
+target-segment-learn-more = وري جو
+change-preferences = ترجي بدلو
+login-signup = لاگ ان / سائن اپ ڪريو
+vote-yes = ھان
+vote-no = نا
+datasets = ڊيٽا سيٽ
+languages = زبونو
+about = بارا مي
+partner = ساٿي
+submit-form-action = جما جر
 
 ## Reporting
 
+report = بارا مي ھڻاو
 
 ## Speak & Listen Shortcuts
 

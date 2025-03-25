@@ -19,6 +19,9 @@ new-sentence-rule-3 = سهِي گرامر رو واپراوَ ڪرو
 new-sentence-rule-4 = spelling انَ نُڪتون رو ٺائُوڪئہ نمُونئہ واپراوَ ڪرو
 new-sentence-rule-5 = ڪوئي نمبر ڪا کاس characters نئِين
 new-sentence-rule-6 = ٻارليا مُلڪون را ويڻ نئِين
+new-sentence-rule-7 = مُناسِب حوالا ٿِي شامِل ڪرو
+new-sentence-rule-8 = ذاتِي طور مانه ٺائُوڪو اي هوشي جي سهِي حوالو شامل ڪريو زائہ۔
+login-instruction-multiple-sentences = <loginLink>Login</loginLink> ڪا <loginLink>sign up</loginLink> to add ڌار ڌار جُملا
 
 ## BULK SUBMISSION
 
