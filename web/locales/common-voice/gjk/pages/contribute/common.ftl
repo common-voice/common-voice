@@ -57,12 +57,19 @@ report-other-comment =
     .placeholder = پوتا نا کيال پيش ڪروون
 success = ڪامياڀي
 continue = جاري راکوون
+report-success = رپورٽ ڪامياٻي ٿي جئِي ھالي
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ر
+shortcut-record-toggle-label = رڪارڍ ڪرو /  روڪوو۔
 
 ## Listen Shortcuts
 
