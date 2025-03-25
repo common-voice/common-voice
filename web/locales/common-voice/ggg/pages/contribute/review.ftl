@@ -29,7 +29,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] ڪوئي بي جُملو سئي ڪونآ هُرو
         [one] جُملآنٚ ڪوُ سئيٚ ڪررآ مهرباني۔
-       *[other] جُملآنٚ ڪو سئي ڪررآ مهرباني۔
+       *[other] { $sentences } جُملآنٚ ڪو سئي ڪررآ مهرباني۔
     }
 sc-review-form-review-failure = سئيٚ مهڦوج ڪونآ هريِٚ مهربانيٚ ڪر ڪي ٿوڙيٚ ديريٚ ڪي بآد ڪوشش ڪرو۔
 sc-review-link = سئيٚ
