@@ -24,6 +24,7 @@ record-button-label = اپٹؔی آواج بھرو
 share-title-new = ودھیک <bold> آواجاں لہوڑنیم مہاری ساہیتا کرو </bold>
 keep-track-profile = پروفائلا بھیݪی اپٹؔے ودھٹؔیپ دھیان دؔیو
 login-to-get-started = سِرو کرنے تیں لاگ اِن کرو یا سائن اپ کرو
+target-segment-first-card = تھم مہارے پہلکے لکشے کے پاتیام پاتی ٻائرے ہے
 vote-yes = ہاوے
 vote-no = نائی
 languages = ٻولیاں
