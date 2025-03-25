@@ -129,3 +129,4 @@ contribution-varying-pronunciations-example-1-explanation = Beret ٻئيون و�
 contribution-varying-pronunciations-example-2-title = اُوئا رو هاٿ اُوپاڙيو ڳيو تو۔
 contribution-varying-pronunciations-example-2-explanation = Raised هميش هيڪا ئي ويڻ ۾ تلفُظ هوئہ، ٻي نٿِي ٿيتا
 contribution-background-noise-title = پسِ منظر ڪاش
+contribution-background-noise-description = امي چاهون جي مشِينَ  learning algorithms ڌار ڌار نمُونا را پسِ منظر رِي ڪاش نئہ ۿزميا رئہ قابِل هوئہ، ان جي ڪاش وڌِيڪ هوئہ پڻ توئي ٻڌوئي متنَ ۿومڀۯيا وڳر نٿِي اُوڀتو، تون هائي مونائي هيڪئہ۔ هلڪو پسِ منظر ساز ٺِيڪ سئہ، پڻ جيڪيۮِي ساز اتو تيز هوئہ جي هر ويڻ نئہ ۿزموو ۮورو ٿي زائہ تون هيوو نئِين مونيو زائہ۔
