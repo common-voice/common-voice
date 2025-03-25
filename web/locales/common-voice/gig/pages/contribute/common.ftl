@@ -141,3 +141,5 @@ contribution-background-voices-description-extended = جيڪڌي ريڪودنگ 
 contribution-background-voices-example-1-title = ٽراسيڪ ري موتي ڌائينو سور تو موٽي آوازي مين پڙهو
 contribution-background-voices-example-1-explanation = ڪآئي تم آ رهي ڇو ڌوجي ري هلي پر
 contribution-volume-title = جآم
+contribution-volume-description = پڙيڙ وچ مين ڪودرتي آواز سونيم آوي تو او آوازين رد ڪر ڌو جڌي آواز وديڪ هووي تو ريڪودنگ ٺوٺ جآوي يا آم تو ري پر جڌي او اتر گھٽ هووي جيڪوتم موآد ليندو ڇي او مآلون آوي ڪي او ڪآئي ڪيرو ڇي
+contribution-reader-effects-title = پڙي وآڙو اسر

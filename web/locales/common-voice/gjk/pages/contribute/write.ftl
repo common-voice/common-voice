@@ -113,6 +113,24 @@ rate-limit-toast-message-seconds =
         [one] حد ٿِي وڌارين اسپيڍ سي۔ وري 1 منٽ وانۿين ڪوشش ڪرو
        *[other] حد ٿِي وڌارين اسپيڍ سي۔ وريَ { $retryLimit } مان ڪوشش ڪرو
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تمين ۮيڌل آخرِي حد ۿوُڌِي پوڳِي جھا سو۔ ميرٻانِي ڪرينَ ٻيزو جُملو حواليَ ڪريا ۿارُو 1 منٽ انتظار ڪرو۔ تمارا صڀر ۿارُو ميرٻانِي!
+       *[other] تمين آ پيج نِي ۮيڌل آخرِي حد ۿوُڌِي پوڳِي جھا سو۔  ميرٻانِي ڪرينَ{ $retryLimit } منٽ ۿوۮِي انتظار ڪرو ٻيزو جُملو حواليَ ڪريا ۿاروو۔ تمارا صڀر ۿارُو ميرٻانِي!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تمين آ پيج نِي ۮيڌل آخرِي حد ۿوُڌِي پوڳِي جھا سو۔ ميرٻانِي ڪرينَ 1 منٽ ۿوُڌِي انتظارو ڪرو ٻيزو جُملو حواليَ ڪريا ۿارُو۔  تمارا صڀر ۿارُو ميرٻانِي!
+       *[other] تمين آ پيج نِي ۮيڌل آخرِي حد ۿوُڌِي پوڳِي جھا سو۔  ميرٻانِي ڪرينَ{ $retryLimit } منٽ ۿوۮِي انتظار ڪرو ٻيزو جُملو حواليَ ڪريا ۿاروو۔ تمارا صڀر ۿارُو ميرٻانِي!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } نو 1 جما ڪرل جُملا
+       *[other] { $uploadedSentences } نو { $totalSentences } جما ڪرل جُملا
+    }
 
 ## MENU ITEM TOOLTIPS
 
