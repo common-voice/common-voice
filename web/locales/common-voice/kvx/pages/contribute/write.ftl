@@ -8,6 +8,8 @@ sentence =
 sentence-input-placeholder = آپرا public domain جُملا ايٿِي ڌاخل ڪرو
 small-batch-sentence-input-placeholder = آپرا public domain جُملا ايٿِي ڌاخل ڪرو
 citation-input-placeholder = آپرا جُملا را source ايٿِي درج ڪرو (اِي ضروري سئہ)
+citation =
+    .label = حوالو
 
 ## BULK SUBMISSION
 
