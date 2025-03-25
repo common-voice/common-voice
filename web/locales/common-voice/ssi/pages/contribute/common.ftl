@@ -9,6 +9,7 @@ clips-with-count-pluralized =
         [one] ایک
        *[other] دؔوجے
     }
+goal-help-recording = تھمنے سادھارن آواجا کُو بھرنیم <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائی پُگٹؔیم { $goalValue } ساہیتا کری ہے
 record-button-label = اپٹؔی آواج بھرو
 vote-yes = ہاوے
 vote-no = نائی
