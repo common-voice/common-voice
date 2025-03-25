@@ -1,6 +1,6 @@
 ## Prompts page
 
-record-player-header = Alza la tuya respuesta
+record-player-header = Grava la tuya respuesta
 mic-access-error = Has de permitir acceso a lo microfono.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> y responde con a maxima naturalidat que puedas

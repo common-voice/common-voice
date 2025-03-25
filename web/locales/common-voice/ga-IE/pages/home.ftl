@@ -74,9 +74,14 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 
 ## NAV ITEMS
 
+answer-questions = Freagair Ceisteanna
+answer-questions-coming-soon = Freagair Ceisteanna <small>(Ag teacht go luath)</small>
+add-questions = Cuir Ceisteanna Leis
+coming-soon = Ag teacht go luath
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = Obair i gcomhar linn
 
 ## MENU ITEM ARIA LABELS
 
@@ -86,12 +91,37 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 
 ## Hero section
 
+hero-title = Teicneolaíocht a labhraíonn do theanga
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <trom>Cén fáth ar cheart go n-oibreodh Intleacht Shaorga do líon beag teangacha amháin?</bold>
+hero-subtitle-2 = Is í ár dteanga ár scéal, ár bpobal, ár saíocht. Cruthaímis na tacair sonraí a theastaíonn uainn a fheiceáil ar feadh an domhain bhraonaigh.
+# icon is an arrow that points downwards
+get-started = Tosaigh <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Is éard is Common Voice ann ná saor-ardán le foinse oscailte chun gur féidir leis an bpobal sonraí a chruthú
+action-items-section-subtitle = Tig le duine ar bith a dteanga a chaomhnú, a athbheochan agus a chur chun cinn trí thacair sonraí téacs agus urlabhra a roinnt, a chruthú agus a choimeád.
+scripted-card-header = Caint Scríofa
+scripted-card-content = Léigh abairtí os ard i do theanga agus cuir leis an tacar sonraí cainte arna chruthú ag an bpobal is éagsúla ar domhan.
+spontaneous-card-header = Caint Thobann
+spontaneous-card-content = Freagair leideanna chun tacair shonraí a chruthú do chomhthéacsanna orgánacha sa ghnáthchaint. Oireann sé go mór do theangacha nach bhfuil scríofa go fóill.
+language-text-card-header = Téacs Teanga
+language-text-card-content = Cruthaigh nó roinn leideanna, abairtí, agus téacs atá sa bhfearainn poiblí chun go ndéanfaí iad a aistriú agus chun mionsamhlacha teanga a chruthú astu agus go leor eile.
+add-text = Cuir Téacs leis
 
 ## Community section
 
+join-discord-community = Bí linn i Discord Community
+# label for button
+join-discord-community-action = Bí linn ar Discord
+find-us-on-matrix = Aimsigh ar Matrix sinn
+# label for button
+find-us-on-matrix-action = Aimsigh ar Matrix sinn
+# label for button
+ask-mozilla-share-action = Comhroinn d'imeacht
+# label for button
+download-contribution-certificate-action = Faigh do theastas
 
 ## Featured section
 
@@ -101,6 +131,14 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 
 ## Get involved section
 
+read-sentences-link = Léigh abairtí
+validate-readings-link = Bailíochtaigh míreanna léite
+answer-questions-link = Freagair ceisteanna
+contribute-text-link = Cuir téacs leis
+press-and-stories-link = Preas agus scéalta
 
 ## Partner section
 
+partner-section-title = Obair i gcomhar linn
+# icon is an arrow that points to the right
+get-in-touch-button = Téigh i dteagmháil <icon></icon>

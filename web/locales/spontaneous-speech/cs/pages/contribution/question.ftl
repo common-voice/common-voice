@@ -13,6 +13,13 @@ add-question-success-toast-message =
     }
 add-question-error-message = Nahrání se nezdařilo, zkuste to znovu.
 add-question-too-many-questions-error = Překročili jste 500 otázek. Snižte počet otázek a zkuste to znovu.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } z 1 shromážděné otázky. Prohlédněte si naše <guidelinesLink>pokyny</guidelinesLink>, kde se dozvíte více o tom, jak přidávat otázky.
+        [few] { $uploadedQuestions } z { $totalQuestions } shromážděných otázek. Prohlédněte si naše <guidelinesLink>pokyny</guidelinesLink>, kde se dozvíte více o tom, jak přidávat otázky.
+        [many] { $uploadedQuestions } z { $totalQuestions } shromážděných otázek. Prohlédněte si naše <guidelinesLink>pokyny</guidelinesLink>, kde se dozvíte více o tom, jak přidávat otázky.
+       *[other] { $uploadedQuestions } z { $totalQuestions } shromážděných otázek. Prohlédněte si naše <guidelinesLink>pokyny</guidelinesLink>, kde se dozvíte více o tom, jak přidávat otázky.
+    }
 # Guidelines
 add-question-guidelines-title = Jaké otázky mohu přidat?
 do-section-title = ano:

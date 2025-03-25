@@ -133,7 +133,7 @@ community-section-title = საერთაშორისო ერთობ�
 join-discord-community = შემოუერთდით Discord-ერთობას
 # label for button
 join-discord-community-action = გვეწვიეთ Discord-ზე
-join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა და შეხვედრებს.
+join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა თუ შეხვედრებს.
 find-us-on-matrix = გვიპოვეთ Matrix-ზე
 find-us-on-matrix-content = Matrix ღია, სწრაფმოქმედი ოქმის მქონე საშუალებაა ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
 # label for button
