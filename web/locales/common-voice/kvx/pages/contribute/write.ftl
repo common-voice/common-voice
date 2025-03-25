@@ -22,6 +22,8 @@ new-sentence-rule-6 = ٻارليا مُلڪون را ويڻ نئِين
 new-sentence-rule-7 = مُناسِب حوالا ٿِي شامِل ڪرو
 new-sentence-rule-8 = ذاتِي طور مانه ٺائُوڪو اي هوشي جي سهِي حوالو شامل ڪريو زائہ۔
 login-instruction-multiple-sentences = <loginLink>Login</loginLink> ڪا <loginLink>sign up</loginLink> to add ڌار ڌار جُملا
+how-to-cite = هُون ڪم ڪرينَ حوالو ۮيون؟
+how-to-cite-explanation-bold = ميرڀونئي ڪرينَ هيڪ URL link ڪا پُورا نوم رو حوالو ۮيو۔
 
 ## BULK SUBMISSION
 

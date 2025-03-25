@@ -41,7 +41,11 @@ submit-form-action = جما جر
 
 ## Reporting
 
-report = بارا مي ھڻاو
+report = رپورٽ
+report-title = رپورٽ جما ڪرو
+report-ask = آ جملا مي تموني ڪيوا مسلا آيا
+report-offensive-language = زبونو ري جوڻ ڪاري
+report-offensive-language-detail = جملا مي بي عزتي خراب جملا ھي
 
 ## Speak & Listen Shortcuts
 
