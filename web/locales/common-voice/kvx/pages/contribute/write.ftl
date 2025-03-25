@@ -11,6 +11,7 @@ citation-input-placeholder = آپرا جُملا را source ايٿِي درج �
 citation =
     .label = حوالو
 sc-write-submit-confirm = هُون مونون جي اِِي جُملو سهي سئہ<wikipediaLink> public domain </wikipediaLink> ان مون نئہ اِئيا نئہ upload  ڪريا رِي اجازت سئہ۔
+sc-review-write-title = هُون ڪيا جُملا ڌاخل ڪري هيڪون؟
 
 ## BULK SUBMISSION
 

@@ -1,3 +1,15 @@
+action-click = ۮٻاوون (ڪلڪ ڪروون)
+action-tap = ٿپٿپاوون
+contribute = حصو ليوو
+skip = ميلي ۮيوون
+shortcuts = شاٽ ڪٽ (ٿوڙا ٽيم مان جلڌي ترقي ڪروِي)
+clips-with-count-pluralized =
+    { $count ->
+        [one] ڪلپ
+       *[other] ڪلپ (ايڪ ڪلپ ڪنڍا نين پڻ ڪي سي انين ايڪ ڪلپ ويڍيو نا ننڪا حصا نين پڻ ڪي سي)
+    }
+goal-help-recording = تمين عام آواز مان <goalPercentage> اماري روز </goalPercentage>رڪارڍينگ نا ٽارگيٽ مان مۮت ڪري سي<goalPercentage>!
+
 ## Reporting
 
 
