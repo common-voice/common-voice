@@ -10,6 +10,7 @@ small-batch-sentence-input-placeholder = آپرا public domain جُملا اي�
 citation-input-placeholder = آپرا جُملا را source ايٿِي درج ڪرو (اِي ضروري سئہ)
 citation =
     .label = حوالو
+sc-write-submit-confirm = هُون مونون جي اِِي جُملو سهي سئہ<wikipediaLink> public domain </wikipediaLink> ان مون نئہ اِئيا نئہ upload  ڪريا رِي اجازت سئہ۔
 
 ## BULK SUBMISSION
 
