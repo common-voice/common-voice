@@ -145,3 +145,6 @@ contribution-volume-description = پڙيڙ وچ مين ڪودرتي آواز س�
 contribution-reader-effects-title = پڙي وآڙو اسر
 contribution-reader-effects-description = گھڻي ٻوليوم مين ڪدرتي آواز هووي ڇي ريڪودنگي مين تم ڪڌي ڪڌي فآلتو ريڪودنگ ڪبول ڪرلو ڇو اون تم چيڪ ڪر لو يا او ني واضح ڪر لو مهرباني ڪرين ڪيڌوڙي ريڪودنگ يا ٻولي ڇلوڙي ڪمپيوٺر ري ريڪودنگ تو رد ڪر لو
 contribution-just-unsure-title = بس يڪين ڪوني
+contribution-just-unsure-description = جڌي تم ني ڪوئي وآت يا نسييتي مين ڀيڙي نا هووي تو مهربآني ڪرين آپيري فسلي متآبڪ ووٺ ڌيدو جيڪدهن تم فيسلو ڪوني ڪر سڪو ڇو تو اسڪيپ ٻٽڻ استمال ڪرو آئي وآڙي ريڪودنگي مين نآڪو۔
+see-more = وڌيڪ ڌيکو
+see-less = گھٺ ڌيکو
