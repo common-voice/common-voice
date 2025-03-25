@@ -69,7 +69,19 @@ sentence-variant-select-multiple-variants = عام ٻولِي/وڌارين ڦر�
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = اپلوڍ ڪرو <icon></icon> عوامِي ڍومينَ نا جُملا
+sc-bulk-upload-header = اپلوڍ ڪرو <icon> </icon> عوامِي ڍومينَ نا جُملا
+sc-bulk-upload-instruction = تمارِي فائيل اڃان ڍيۿڙِي آوو ڪان وريَ <uploadButton> اپلوڍ ڇا ۿارُو ڪِلڪ ڪرو</uploadButton>
+sc-bulk-upload-instruction-drop = فائيل اڃان ڦڳاوو اپلوڍ ڇا ۿارُو
+bulk-upload-additional-information = زو ڪونئين وڌارين مالوُمات سي آ فائيل نا ٻارا مان زين تمين ۮيوا ماڳو سو <emailFragment>commonvoice@mozilla.com</emailFragment>  تو ميرٻانِي ڪرينَ راٻطو ڪرو
+template-file-additional-information = زو ڪونئين وڌارين مالوُمات سي آ فائيل نا ٻارا مان زين تمين ۮيوا ماڳو سو <emailFragment>commonvoice@mozilla.com</emailFragment>  تو ميرٻانِي ٿِي راٻطو ڪرو
+try-upload-again = فائيل وريَ ڍيۿڙيا نِي ڪوشش ڪرو
+try-upload-again-md = وريَ اپلوڍ ڪريا نِي ڪوشش ڪرو
+select-file = فائيل سليڪٽ ڪرو
+select-file-mobile = فائيل اپلوڍ ڪريا ۿارُو سليڪٽ ڪرو
+accepted-files = فائيلان نا قِسم قٻوُل ٿئِي جھا سي: صِرف ٽِي ايس وِي
+minimum-sentences = گھٽ مان گھٽ فائيل مان 1000
+maximum-file-size = گھٽ مان گھٽ فائيل نو سائز 25 ايم بِي
+what-needs-to-be-in-file = مارِي فائيل مان ريا ۿارُو شين نِي ضرورت سي؟
 
 ## SMALL BATCH SUBMISSION
 

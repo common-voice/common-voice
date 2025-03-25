@@ -133,3 +133,6 @@ contribution-background-noise-description = هم چآوآن ڇآن ڪه مشين
 contribution-background-noise-description-extended = جيڪڌي ريڪودنگ ٿوٿ جآوي ۔يا ٿڪڙا ٿڪڙا هووي تو رد ڪر ڌو جيستائين مواد پورو حاصل ني هووي اجآن تائين سوڻ نه سگھي۔
 contribution-background-noise-example-1-fixed-title = ٿرائيسڪي ري موٿي ڌائيناسور
 contribution-background-noise-example-2-fixed-title = ٿرائيسڪ رو موٿو ڌائنو ڪنگھ
+contribution-background-noise-example-2-explanation = موآد رو ڪجه هيسو سڻ ڪوني سگھي ڇي
+contribution-background-noise-example-3-fixed-title = ڪرڪل رياسڪي ري موٽي ڏائينو سور
+contribution-background-voices-title = آسي پآسي ري آواز
