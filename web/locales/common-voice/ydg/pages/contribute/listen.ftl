@@ -23,4 +23,6 @@ review-transcriptions-menu-item-tooltip = ڤے نوختیغو اشپہ اوژر 
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = ڤے اختیاراتف فہرست غولار
+validate-readings-menu-item-aria-label = ڤے کمیونٹی ممبرانف جمع کڑے اݰٹے غف تصدیق کن
 review-transcriptions-menu-item-aria-label = پے درستگی دیر ڤے ریکارڈ ݰوئی جملے غف نقل جائزو غورا۔
