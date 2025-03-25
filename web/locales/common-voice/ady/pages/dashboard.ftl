@@ -4,6 +4,7 @@ your-languages = Убзэхэр
 clips-you-recorded = Умэкъэ тетхагъэхэр
 clips-you-validated = Къэбгъэшъыпкъэгъэ мэкъэ тетхагъэхэр
 todays-recorded-progress = Непэ ӏэпэкӏэрэ мэкъэ тетхагъэу Коммон Войс-ымкӏэ щыӏэр
+todays-validated-progress = Непэ ӏэпэкӏэрэ мэкъэ тетхагъ къэгъэшъыпкъагъэу Коммон Войс-ымкӏэ щыӏэр
 awards = Шӏутынхэр
 you = О
 everyone = Хэти
