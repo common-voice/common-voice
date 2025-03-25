@@ -19,6 +19,15 @@ about-new-lang-subtitle = اس کامن وائس سائٹ کیا اس زبانا
 about-voice-contrib-title = آواز شامل کرنے اچ حصہ
 about-voice-contrib-subtitle = لوک اچھی اپنی آواز شامل کرنے
 about-voice-validation-title = آواز نی تصدیق
+about-voice-validation-subtitle = ہور لوک اس اواز نی ریکارڈنگ نی تصدیق کرنے
+about-dataset-release-title = ڈیٹا سیٹ ناں جاری ہونا
+about-dataset-release-subtitle = ہر تن مینیاں بعد اس ڈیٹا سیٹ جاری کرنے آں
+about-subscribe-text = کامن وائس کنے رابطے اچ رہناں چانے آ؟
+about-speak = بولا
+about-speak-text = لخے نے جملیاں اچا کوئی جملے بولی تے اپنی آواز ریکارڈ کرا
+about-listen-queue = سُننے نی لائن
+about-listen-queue-text = سننے آسطے تیار ہونے سی پہلے جملیاں نی ریکارڈنگ انتظار نی لائن اچ شامل ہونی
+about-listen = سنو
 
 ## Community Playbook Content
 ## What is a language
