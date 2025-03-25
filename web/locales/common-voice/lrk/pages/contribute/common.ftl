@@ -101,3 +101,4 @@ contribution-criteria-page-title = تعاون رو معيار
 contribution-criteria-page-description = ھمجھو تو وائس ڪلپس ھڻيا ري وقت ڪاو جوو ڪپي ھين آپري وائس رڪارڊنگ ني وڌيڪ امير بڻايا مدد ڪريو.
 contribution-for-example = مثال طور
 contribution-misreadings-title = غلط فهميون
+contribution-misreadings-description = ھڻيا ري وقت، گھڻي پرک مو چيڪ ڪرو ڪي جي رڪارڊ ڪري هي آ بلڪل آ ئي لکيوڙون هي؛ جيڪدي  ٿوڙي غلطيون بي هوئي توغلط ڪرو.
