@@ -4,6 +4,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> مف ڤے جملو ص
 listen-again-instruction = جاہند غیݰے ہورغ!<playIcon></playIcon> کلو کہ تو تیار ݰوئیت دیبارو غولار
 listen-3rd-time-instruction = 2 ݰوت، شاباش جاری اوزیاؤ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>آخری یو!
+listen-empty-state = لے ماخ آوازے ختم ݰوئی فرمت، ڤے صفحہ نوؤ کن، یا کیستہ دیبال اشپہ کوشش کن۔
 
 ## MENU ITEM TOOLTIPS
 
