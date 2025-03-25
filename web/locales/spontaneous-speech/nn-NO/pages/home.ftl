@@ -13,6 +13,7 @@ check-bubble-title = <mark>Sjekk</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
 contact-us = Kontakt oss
+contact-us-email = E-post: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = Skriv inn e-postadressa di
 signup-button-value = Send ei lenke til e-posten min
 footer-text-privacy = <privacyLink>Personvern</privacyLink>

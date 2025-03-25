@@ -10,6 +10,7 @@ datasets-positioning =
     Sjå på denne sida som eit referansemidtpunkt for andre datasett med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
 language = Språk
 download-dataset-header = Last ned datasettet
+download-dataset-tag = Vel datasettet for språket du treng, deretter versjonen du ønskjer laste ned.
 # File size in gigabytes
 size = Storleik
 validated-hr-total = Totalt validerte timar

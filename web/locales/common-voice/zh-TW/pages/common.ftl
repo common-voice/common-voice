@@ -5,6 +5,7 @@
 ## Languages
 
 aa = 阿法語 (衣索比亞)
+aat = Arvanitika 阿爾瓦尼蒂卡語
 ab = 阿布哈茲語
 abb = Bankon 語
 ace = 亞齊語
