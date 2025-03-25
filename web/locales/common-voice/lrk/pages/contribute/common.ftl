@@ -2,6 +2,8 @@ action-click = ڪيلڪ ڪر
 action-tap = ٽيپ ڪرو
 contribute = ويراوہ
 review = پرکوہ
+skip = سوڙوہ
+shortcuts = ݾورتڪت
 
 ## Reporting
 
