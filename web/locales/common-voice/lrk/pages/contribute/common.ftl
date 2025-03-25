@@ -97,3 +97,7 @@ shortcut-vote-no = n
 
 contribution-criteria-nav = معيور
 contribution-criteria-link = مليا ري معيور ني ھمجو
+contribution-criteria-page-title = تعاون رو معيار
+contribution-criteria-page-description = ھمجھو تو وائس ڪلپس ھڻيا ري وقت ڪاو جوو ڪپي ھين آپري وائس رڪارڊنگ ني وڌيڪ امير بڻايا مدد ڪريو.
+contribution-for-example = مثال طور
+contribution-misreadings-title = غلط فهميون
