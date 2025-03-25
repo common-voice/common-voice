@@ -10,6 +10,13 @@ clips-with-count-pluralized =
        *[other] دؔوجے
     }
 goal-help-recording = تھمنے سادھارن آواجا کُو بھرنیم <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائی پُگٹؔیم { $goalValue } ساہیتا کری ہے
+goal-help-validation = تھمنے سادھارن آواجا کُو سمے تائی <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائی پُگٹؔیم { $goalValue } ساہیتا کری ہے
+contribute-more =
+    { $count ->
+        [one] ایک
+       *[other] دؔوجا
+    }
+speak-empty-state = مہارے کن اِس ٻولیام بھرنے نتر جملے کُھٹی گے ہے۔۔۔
 record-button-label = اپٹؔی آواج بھرو
 vote-yes = ہاوے
 vote-no = نائی
