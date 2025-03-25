@@ -76,15 +76,30 @@ shortcut-discard-ongoing-recording = اِي ايس  سِي
 shortcut-discard-ongoing-recording-label = ھالتي رڪارڍينگ نين رڌ ڪرون
 shortcut-submit = واپس
 shortcut-submit-label = ڪلپ جمع  ڪرو
+request-language-text = هزيي ۿوُڌِي پوتا ني ٻولي نين عام آواز مان نٿِي ۮيڇِي؟
+request-language-button = ايڪ ٻولي ني  ڌرخواست ڪرو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پِي
+shortcut-play-toggle-label = ھاڪلو  / اوڀون راکو
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ي
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
 contribution-criteria-nav = مَعيار
 contribution-criteria-link = حِصو ليڌا نا معيار نين ۿمزو
 contribution-criteria-page-title = حِصو ليڌا نو معيار
+contribution-criteria-page-description = ۿمزو ڪي زيرين آواز نا ڪلپان نين ۿانڀرو سو ريا تو شون زوئون سي انين پوتا نِي آواز ني رکارڍينگ نين پڻ وڌيڪ  بھتر ڪريا مان مۮت ڪرو!
+contribution-for-example = مِثال طور
+contribution-misreadings-title = غَلط ڀڻوون
 contribution-background-voices-description = ھلڪو وانۿِين ٿي آيا وارو آواز ٺيڪ سي پڻ امين نٿي چاھتا ڪي وڌيڪ آوازون ھوئي، زين مشين الگورٿم نين لکل مٿن شيوا ٻيزا لڦظ اورکاڻ ۿارُو مجبور ڪري۔ زو تمان نين متن شيوا ٻيزا لفظ ۿانڀريا مان آوي تو ڪلپ نين رڌ ڪري ناکو عام طور پرماڻي ايم تيرين ٿائي سي زيرين ٽي وي ھالتي ھوئي ڪان ڍوڪڙي ڪونڪ وات وڳچ ٿاتي ھوئي۔
 contribution-reader-effects-title = ڀڻيا واران ماٿي اثرات
 contribution-reader-effects-description = گھڻيون رڪارڍينگون ماڻھان نيون قدرتي آواز مان ٻوليا نيون ھوئي سي۔ تمين ڪيرينڪ ڪيرينڪ عير معياري رڪارڍينگون قٻول ڪري ۿڳو سو، زيم گھڻا تيز آواز مان ، سرگوشي مان ڪان ڍرامائي آواز مان ڇيون ھوئي، ميرٻاني ڪرين گايل رڪارڍينگون انين ڪمپيوٽر ني آواز واريون رڪارڍينگون رڌ ڪرو

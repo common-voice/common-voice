@@ -17,6 +17,8 @@ validate-readings-coming-soon = ڤے اݰٹا تصدیق کن<small>(چوکو ا
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ڤے اݰٹا تصدیق کن ڤے نوختے غف اڤن اوژر
+validate-readings-menu-item-tooltip = دے خوئے زبان ڤے صارفن ریکارڈ کڑغو اݰٹے تصدیق کن
 
 ## MENU ITEM ARIA LABELS
 
