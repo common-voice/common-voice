@@ -136,3 +136,4 @@ contribution-background-noise-example-2-fixed-title = ٿرائيسڪ رو موٿ
 contribution-background-noise-example-2-explanation = موآد رو ڪجه هيسو سڻ ڪوني سگھي ڇي
 contribution-background-noise-example-3-fixed-title = ڪرڪل رياسڪي ري موٽي ڏائينو سور
 contribution-background-voices-title = آسي پآسي ري آواز
+contribution-background-voices-description = ايڪ چوپ رڙ آڇو ڇي پر هم وۮيڪ ڪوني چآوآن جيڪو ميسين آلگورٿهم  ري لفزين مين سبب بڻي جڪيو ليکوڙي موآدي مين ني هووي ائين اور موادي مين ڌار ڌار لفز سوڻيم آوي تو ڪلپ بند ڪر دو آم توري پر وٿي هووي ڇي جٺي ٽي وي ني ڇهوڙ ڌينو هووي يا آسي پآسي مين وآت ڪرتي هووي
