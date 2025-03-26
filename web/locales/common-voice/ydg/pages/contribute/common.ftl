@@ -1,4 +1,5 @@
 action-click = کلک کن
+action-tap = ڤزیب
 
 ## Reporting
 

@@ -24,6 +24,13 @@ new-sentence-rule-8 = ميسال تور ڪودرتي ائين وآت چيتي و
 login-instruction-multiple-sentences = ڪترآ ئي جملآ ڀيڙي ڪري سارو<loginLink> لآگ ان <loginLink>يا <loginLink> سائين اپ ڪرو</loginLink>
 how-to-cite = مين ڪيون سمجها ئو
 how-to-cite-explanation-bold = يو آر ايل لنڪ يا ڪآمي ر پوري نآمي سون سمجها ڻو
+how-to-cite-explanation = جيڪڏهن او تمآري آپيري لفز ڇي۔تو بس ڪي <italicizedText> همني اوڙکي ري زرورت ڇي”</italicizedText> تو تم اي مواد ڪٺون ليڌي ڇو تو جي يون هم اوني چيڪ ڪر سکآن ڇآن تو او آوامي ڍومين ني مين ڇي ائين ڪوئي ڀي ڪآپي او پري لآگو ڪوني  وڍيڪ سمجهي سارو  همآرو<guidelinesLink> پنآ ڌيکو</guidelinesLink>
+guidelines = سمجهاڻو
+contact-us = هم سون رآپتو ڪرو
+add-sentence-success = ڀيڙي هوڙآ جملآ
+add-sentence-error = جملآ ميلآئيم گلتي
+required-field = مهرباني ڪرين اي جگآ برو
+single-sentence-submission = ايڪلو جملو جمآ ڪرآڻو
 
 ## BULK SUBMISSION
 
