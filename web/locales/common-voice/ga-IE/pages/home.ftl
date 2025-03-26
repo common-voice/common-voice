@@ -13,7 +13,9 @@ help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
 no-clips-to-validate = Is cosúil nach bhfuil aon taifeadtaí sa teanga seo fós. Cabhraigh linn an ciú a líonadh trí chúpla taifead a dhéanamh anois.
 toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
+speak-paragraph = Is cuid lárnach de thógáil ár dtacar sonraí oscailte é gearrthóga gutha a thaifeadadh; déarfadh daoine gurb é an chuid spraíúil é freisin.
 speak-goal-text = Gearrthóga taifeadta
+listen-paragraph = Tá bailíochtú gearrthóga bronnta chomh tábhachtach céanna do chuspóir Common Voice. Éist le míreanna fuaime agus cuidigh linn sonraí gutha le foinse oscailte ardchaighdeáin a chruthú.
 listen-goal-text = Gearrthóga deimhnithe
 hours-recorded = Uaireanta an chloig taifeadta
 hours-validated = Uaireanta an chloig deimhnithe
@@ -58,17 +60,20 @@ email-subscription-title-new = Cláraigh le haghaidh nuachtlitreacha Common Voic
 benefits = Buntáistí
 keep-track = Coinnigh súil ar an dul chun cinn agus na méadrachtaí atá agat i dteangacha éagsúla.
 compare-progress = Féach cén chaoi a bhfuil do dhul chun cinn féin i gcomórtas leis an méid atá déanta ag daoine eile ar fud an domhain.
+view-goals = Féach ar do dhul chun cinn le hais spriocanna pearsanta agus spriocanna an tionscadail.
 
 ## What's public
 
 whats-public = Cad Atá Poiblí?
 email-not-public = Ní thaispeánfar do sheoladh ríomhphoist go poiblí.
+recordings-and-locale-public = Beidh líon na dtaifeadtaí agus na teangacha a rannchuideoidh tú leo le feiceáil go poiblí.
 username-optin-public = Is í do rogha í d'ainm úsáideora a fhoilsiú go poiblí nó é a choinneáil rúnda.
 username-email-not-demographic = Ní bheidh d'ainm úsáideora ná do sheoladh ríomhphoist bainteach leis na sonraí foilsithe.
 
 ## Landing
 
 welcome-staff = Fáilte romhaibh, a lucht { $company }!
+login-company = Sínigh Isteach / Cláraigh le seoladh ríomhphoist { $company }
 profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 

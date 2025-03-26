@@ -16,11 +16,17 @@ about-voice-contrib-title = Rannchuidiú Gutha
 about-voice-contrib-subtitle = Tagann daoine chuig an láithreán gréasáin agus cuireann siad a nguth leis.
 about-voice-validation-title = Bailíochtú Gutha
 about-voice-validation-subtitle = Déanann daoine eile na gearrthóga gutha úd a bhailíochtú.
+about-dataset-release-title = Foilsiú an Tacair Shonraí
+about-dataset-release-subtitle = Foilsímid an tacar sonraí gach 3 mhí.
 about-subscribe-text = An mian leat teagmháil a bheith agat le Common Voice?
 about-speak = Labhair
-about-listen-queue = Ciú Éisteachta
+about-speak-text = Taifeadann rannpháirtithe gearrthóga gutha trí léamh ó bhunachar abairtí bronnta.
+about-listen-queue = Scuaine Éisteachta
+about-listen-queue-text = Cuirtear gearrthóga gutha isteach i scuaine aighneachta a ullmhaíonn iad don éisteacht.
 about-listen = Éist
+about-listen-text = Déanann úsáideoirí cruinneas gearrthóga bronnta a bhailíochtú, ag dearbháil gur léigh an cainteoir an abairt i gceart.
 about-is-it-valid = An bhfuil an ghearrthóg bailí?
+about-is-it-valid-text = Déantar gearrthóg gutha a rianú mar "bhailí" nuair a roghnaíonn úsáideoir Tá di.
 about-yes-votes = ≥ 2 Ghuth ar a shon
 about-no-votes = ≥ 2 Ghuth ina choinne
 about-dataset-new = Tacar Sonraí Common Voice
@@ -84,6 +90,7 @@ about-playbook-how-access-dataset = Conas is féidir liom an tacar sonraí a roc
 ## How are decisions made
 
 about-playbook-how-project-governance = Conas a dhéantar cinntí faoin dtionscadal?
+about-playbook-how-project-governance-content-2 = Tá ár rialachas bunaithe ar na piléir seo a leanas:
 about-playbook-how-project-governance-content-3 = Príobháideacht, slándáil agus trédhearcacht.
 about-playbook-how-project-governance-content-4 = Rannpháirtíocht agus cinnteoireacht an phobail.
 about-playbook-how-project-governance-content-5 = Luach agus aitheantas.
