@@ -47,6 +47,11 @@ report-ask = اِن ٻولیںس تیرے سامے کیا مسلے آوتے ہے
 report-offensive-language = بے لکھٹؔی ٻولی
 report-offensive-language-detail = ٻولیم اپمان جنک یا بے لکھٹؔی بولی ہے
 report-grammar-or-spelling = ٻولیا کے آینیم گلتی
+report-grammar-or-spelling-detail = ٻولیم ٻولیا کے آینیم گلتی
+report-different-language = دؔوجی ٻولی
+report-different-language-detail = یو ایک ایسی ٻولیام لِکھوڑا ہے جکو ہوں ٻولیرا ہے
+report-difficult-pronounce = کیہٹؔا دؔوکھی ہے
+report-difficult-pronounce-detail = اِن میں ایسے سٻدؔ یا ٻول ہے جِنکُو پڑھٹؔا یا کیہٹؔا دؔوکھی ہے
 
 ## Speak & Listen Shortcuts
 

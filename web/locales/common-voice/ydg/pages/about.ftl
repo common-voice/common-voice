@@ -63,6 +63,8 @@ about-playbook-what-is-language-content-2 = ماخ المین ماڈل اسپی�
 ## How do I add a language
 
 about-playbook-how-add-language = زو ڤے یو زبان چیمین شامل کینیم؟
+about-playbook-how-add-language-content-1 = اول اوژر<languageLink> تو زبان آلو</languageLink> استتآ۔ کہ چش تو ڤے خوئے زبان<languageRequestLink> پے شامل کڑا </languageRequestLink>دیر ݱا۔ لوہ پیکوڑے استت، ڤے سائٹ ترجمو کڑا، اڤن جملو بڑیڅڤدا۔
+about-playbook-how-add-language-translating-heading = ڤے سائٹ ترجمو کڑا
 
 ## How does localization work
 
