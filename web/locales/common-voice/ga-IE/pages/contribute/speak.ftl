@@ -44,9 +44,27 @@ first-cta-header-text = Go raibh maith agat as do chuid gearrthóga gutha a bhro
 first-cta-subtitle-text = Trí insint dúinn fút féin, cabhróidh tú le forbróirí teicneolaíocht níos cuimsithí a thógáil
 why-donate = Cén fáth a bhfuil tú ag fiafraí?
 add-information-button = Cuir eolas leis
+continue-speaking-button = Ní mian liom sin, is mian liom leanúint ar aghaidh ag caint
+create-profile-text = An bhfuil fonn ort do chuid faisnéise a shábháil? <createProfile>Cruthaigh próifíl</createProfile>
+thanks-for-voice-toast = Go raibh maith agat as do chuid faisnéise gutha
+thanks-for-voice-toast-error = Tharla earráid agus do chuid faisnéise gutha á chur isteach
+first-cta-gender-select-default-option = Déan rogha
+first-cta-gender-select-help-text =
+    .label = Conas a chuirfeá síos ar do ghnéas nó ar d'inscne?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Go raibh maith agat as do ghuth a bhronnadh!
+already-have-an-account = An bhfuil cuntas agat cheana féin? <logáil isteach>Sínigh Isteach</login>
+create-profile-button = Cruthaigh próifíl
+# menu item
+read-sentences = Léigh abairtí
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Léigh Abairtí <small>(Ag teacht go luath)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Léigh Abairtí, Freagair Ceisteanna
+read-sentences-menu-item-tooltip = Taifead tú féin ag léamh abairtí i do theanga
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Roghanna an roghchláir labhartha
