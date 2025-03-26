@@ -56,3 +56,7 @@ review-error = اي جملين ڌيکي مين ايڪ گلتي هو گئي
 review-error-rate-limit-exceeded = تو جآم تيز ٻولرو ڇي۔ مهرباني ڪرين جملي مين ڌيکي سارو ايڪ منٽ ڪآڏ تو پڪ ڪرآن ڪي او سئي ڇي
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = هم وڌيڪ تبديلي لآ رهي ڇآن
+sc-redirect-page-subtitle-1 = جملو ڪليڪٽر ڪور ڪآمن وآئس پليٽ فارمي سامون جآرو ڇي <writeURL> آٻي تم ڪآمن وآئس پر جملو ليک سڪو ڇو</writeURL> يا تم ايڪ جملو جمح ڪران ڌيک سڪ ڇو <reviewURL>
+sc-redirect-page-subtitle-2 = همآ سون <matrixLink></matrixLink>,يا<discourseLink> <discourseLink> پر سوال ٻوجو<emailLink>l</emailLink>
+# menu item
+review-sentences = جملين ڌوبآرا ۮيکو
