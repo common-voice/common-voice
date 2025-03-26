@@ -20,6 +20,9 @@ sc-review-form-button-approve-shortcut = وآئي
 sc-review-form-button-reject-shortcut = اين
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ايس
+sc-review-form-keyboard-usage-custom = تم ڪي بورڊ  شآرٽ ڪٽ ڀي استمآل ڪر سکو ڇو{ sc-review-form-button-approve-shortcut } رد ڪري سآرو { sc-review-form-button-reject-shortcut }  ڇوڙي سآرون { sc-review-form-button-skip-shortcut }
+sc-review-form-button-submit =
+    .submitText = ۮيکڻو کتم ڪرو
 
 ## REVIEW CRITERIA
 
