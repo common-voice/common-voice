@@ -13,10 +13,12 @@ goal-help-recording = تو لے کامن وائسن<goalPercentage></goalPercent
 goal-help-validation = کامن وائسن<goalPercentage></goalPercentage> ڤے یو میشن{ $goalValue } تصدیق کڑان ہدف دے پرو کڑا مدد کڑیت!
 contribute-more =
     { $count ->
-        [one] تیارآ پے کڑا دیر$countاڤن؟
-       *[other] تیارآ پے کڑا دیر$countاڤن؟
+        [one] تیارآ پے کڑا دیر{ $count }اڤن؟
+       *[other] تیارآ پے کڑا دیر{ $count }اڤن؟
     }
 speak-empty-state = دیم زبان پے ریکارڈ کڑا دیر لے ماخ جملغّے ختم ݰوئی۔۔۔
+no-sentences-for-variants = تو زبانن جملغّے ختم ݰوئی فرمت۔ کہ کرکینتے دے خوئے زبان دیر جملغّے پے اوݱڑا دیر ڤے سیٹنگ بادل کڑا کرکینے۔
+speak-empty-state-cta = جملغّے شامل کن
 
 ## Reporting
 

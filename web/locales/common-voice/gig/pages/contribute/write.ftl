@@ -79,6 +79,9 @@ try-upload-again-md = ڌوبارا اپلوڏ ڪري ري ڪوشش ڪرو
 select-file = فايل چونڍڻو
 select-file-mobile = اپلوڍ ڪري سارو فائل ڊونڊو
 accepted-files = ڪبول ڪيڌوڙي فائلي رو ڪيسم  سرف
+minimum-sentences = فايلي مين گھٽ مين گھٽ جملآ 1000
+maximum-file-size = ود مين ود فائلي رو سائيز 25 MB
+what-needs-to-be-in-file = مآري فائلي مين ڪآئي هوئڻ کپي
 
 ## SMALL BATCH SUBMISSION
 
