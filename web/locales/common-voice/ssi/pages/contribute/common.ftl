@@ -34,10 +34,13 @@ login-signup = لاگ ان کرو / سائن اپ کرو
 vote-yes = ہاوے
 vote-no = نائی
 languages = ٻولیاں
+about = کے باریم
 partner = ٻیلی
+submit-form-action = بھیݪا کرنا
 
 ## Reporting
 
+report = بھتاوٹؔا
 
 ## Speak & Listen Shortcuts
 
