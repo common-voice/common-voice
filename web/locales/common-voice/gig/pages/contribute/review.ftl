@@ -51,3 +51,8 @@ sc-review-rules-title = ڪآئي اي جملو سمجهي پر سئي آرو ڇ�
 sc-review-empty-state = اي ٽيم اي ٻولي مين ڌيکي لآ ڪوئي ڀي جملو ڪوني
 report-sc-different-language = مختليف ڀولي
 report-sc-different-language-detail = اي  ائم ٻولي مين ليکوڙا ڇي جيني هم ۮيک رهي ڇآن او سون مختليف ڇي
+sentences-fetch-error = جملي مين لرئي سآرو ايڪ گلتي هوگئي
+review-error = اي جملين ڌيکي مين ايڪ گلتي هو گئي
+review-error-rate-limit-exceeded = تو جآم تيز ٻولرو ڇي۔ مهرباني ڪرين جملي مين ڌيکي سارو ايڪ منٽ ڪآڏ تو پڪ ڪرآن ڪي او سئي ڇي
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = هم وڌيڪ تبديلي لآ رهي ڇآن
