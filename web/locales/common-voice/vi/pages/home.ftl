@@ -75,6 +75,7 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 answer-questions-coming-soon = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+add-questions-coming-soon = Thêm câu hỏi <small>(Sắp ra mắt)</small>
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
 
@@ -103,6 +104,7 @@ get-started = Bắt đầu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
+language-text-card-header = Ngôn ngữ văn bản
 add-text = Thêm văn bản
 
 ## Community section
@@ -144,6 +146,7 @@ explore-datasets = Khám phá các tập dữ liệu <icon></icon>
 
 get-involved-section-title = Hỗ trợ các bộ dữ liệu mở do cộng đồng lãnh đạo
 read-sentences-link = Đọc câu
+validate-readings-link = Xác thực bài đọc
 answer-questions-link = Trả lời câu hỏi
 contribute-text-link = Đóng góp văn bản
 
