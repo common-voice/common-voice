@@ -23,6 +23,18 @@ sc-review-form-button-skip-shortcut = ايس
 sc-review-form-keyboard-usage-custom = تم ڪي بورڊ  شآرٽ ڪٽ ڀي استمآل ڪر سکو ڇو{ sc-review-form-button-approve-shortcut } رد ڪري سآرو { sc-review-form-button-reject-shortcut }  ڇوڙي سآرون { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = ۮيکڻو کتم ڪرو
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ڪي ڀي جملي ني نهي ۮيکيو گيو                                                                                    0
+        [one] جملي ني ۮيکيو گيو ڇي    مهربآني                                                                               ايڪ
+       *[other] جملي ني وڙي ۮيکيو گيو ڇي مهرباني                                                                            ڌوجي
+    }
+sc-review-form-review-failure = ۮيکڻو محفوز ڪوني هويو مهربآني ڪرين وڙي ڪوشش ڪرو
+sc-review-link = ڌوبآرا ڌيکڻو
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ۮيکي رو فائدو
+sc-criteria-title = ۮيکي رو فائدو ڇي
