@@ -148,6 +148,11 @@ add-sentences = جملآ ميلآ ڌو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملآ ميلآ دو ائين فائدو ليڻو سوال ڀيڙو ڪرڻو آّڍيو نڪل ڪرڻو
+add-sentences-menu-item-tooltip = آپيري ري ٻولي مين جملا ميلآ دو
+review-sentences-menu-item-tooltip = آپيري ٻولي مين فائدو ليڻو
+add-questions-menu-item-tooltip = آپيري ٻولي مين سوال ميلآئو
+transcribe-audio-menu-item-tooltip = آپيري ٻولي مين آڌيو ريڪوڍنگ نڪل ڪرو
 
 ## MENU ITEM ARIA LABELS
 
