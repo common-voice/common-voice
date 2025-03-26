@@ -38,3 +38,8 @@ sc-review-link = ڌوبآرا ڌيکڻو
 
 sc-criteria-modal = ۮيکي رو فائدو
 sc-criteria-title = ۮيکي رو فائدو ڇي
+sc-criteria-make-sure = پڪ ڪرو تم جملو هيٺي اميدي سون وڍيڪ اُتري ڇي
+sc-criteria-item-1 = جملآ سئي لکڻ کپي
+sc-criteria-item-2 = جملو گرمري لييازي سون سئي هوئڻ کپي
+sc-criteria-item-3 = جملو ٻولي جسو هوئڻ کپي
+sc-criteria-item-4 = جۮي جملو اميڌي سون وڏيڪ اتري ڇي سآڃي پاسي ڪبول ڪرو ٻٽڻي پر ڪلڪ ڪرو
