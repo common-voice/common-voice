@@ -107,6 +107,12 @@ rate-limit-toast-message-minutes =
         [one] سرح ري هد ود گئي ڇي منٽي مين دوجهو سورو ڪر ايڪ
        *[other] سرح ري هد ود گئي ڇي منٽي مين سورو ڪر { $retryLimit }
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] سرح ري هد ود گئي ڇي سيڪندي مين سورو ڪرو ايڪ
+       *[other] سرح ري هد ود گئي ڇي سيڪندي مين سورو ڪرو{ $retryLimit }
+    }
 
 ## MENU ITEM TOOLTIPS
 

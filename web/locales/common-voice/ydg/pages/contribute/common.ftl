@@ -30,9 +30,20 @@ target-segment-first-banner = کامن وائسن’ ڤے اوّلی حصو دے
 target-segment-add-voice = ڤے خوئے آواز شامل کن
 target-segment-learn-more = دیر ام ایخسا
 change-preferences = ڤے ترجہاتف بادل کن
+login-signup = لاگ ان/ سائن اپ
+vote-yes = ہوٓ/دی
+vote-no = نو
+datasets = ڈیٹا سیٹ
+languages = زبانے
+about = دے کامن وائس باری
+partner = یوان
+submit-form-action = جمع کن
 
 ## Reporting
 
+report = رَپوٹ کن
+report-title = ڤے رپوٹ جمع کن
+report-ask = دیم جملو نتو څیمین مسئلو پیدا ݰوئے؟
 
 ## Speak & Listen Shortcuts
 
