@@ -75,6 +75,9 @@ sc-bulk-upload-instruction-drop = فائل ايٿئہ نوکو زم اُو uploa
 bulk-upload-additional-information = اِيئا فائل را ڀارام ڪوئي وڌرارئہ جانڪارِئي ڪروو هوئہ، تو ميرڀونئي ڪرينَ رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = جيڪيۮِي اِيئا فائل را ڀارام ڪوئي وڌِيڪ جانڪارئي ليوو هوئہ جئي اِيئا template ۾ شامِل نٿِي، ميرڀونئِي ڪرينَ رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = ٻِي﻿زِي وار ڪوشِيش ڪرو انَ آپرئِي فائل توڻي لي آوينَ ايٿئہ راکو
+try-upload-again-md = وۯي uploading ڪريا رئي ڪوشِيش ڪرو
+select-file = فائل رئي سُونڍ ڪرو
+select-file-mobile = سُونڍل فائل نئہ  Upload ڪرو
 
 ## SMALL BATCH SUBMISSION
 

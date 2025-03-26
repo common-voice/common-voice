@@ -39,6 +39,9 @@ review-delete-recordings = مآري ريڪوڍنگ کتم ڪرو
 review-terms = ڪآمن وآئس استمال ڪرو تم همآري <termsLink>سرتي </termsLink>ائين  <privacyLink> زرداري نوٽيس</privacyLink>ٻدل ڇآن
 terms-agree = مين رازي ڇون
 terms-disagree = مين ڪوني رازي ڇون
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = مهرباني تمآري آواز ڏي سآرون
+first-cta-subtitle-text = هم ني آپير بآريم سوڻا ئي تمآري ڍولپرز ني وڍيڪ جمح ٽيڪنولآجي مين  ٺائي مدد ڪرو
 thanks-for-voice-toast-error = تمآري آوازي مين جمآ ر مهملي مين ايڪ گلتي هو گئي ڇي
 first-cta-gender-select-default-option = ايڪ رستو چونڏ
 first-cta-gender-select-help-text =
