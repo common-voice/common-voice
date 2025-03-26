@@ -42,6 +42,22 @@ sentence-domain-select-placeholder = تين ڍومينز تائين چونڍڻو
 agriculture_food = زرات ائين کآڌو
 # Sentence Domain dropdown option
 automotive_transport = گآڏي يي ائين ٽرانسپورٽ
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+service_retail = کدمت ائين پرچون
+# Sentence Domain dropdown option
+general = جنرل
+# Sentence Domain dropdown option
+healthcare = سحتي ري سار سڀآل
+# Sentence Domain dropdown option
+history_law_government = تآريڪ ڪآنون هڪومت
+# Sentence Domain dropdown option
+language_fundamentals = ٻولي ري بنيادي اسول مسآل تور انگ آکر پيسا
+# Sentence Domain dropdown option
+media_entertainment = ميڍيا ائين تفري
+# Sentence Domain dropdown option
+nature_environment = فترت ائين مآهول
 
 ## BULK SUBMISSION
 
