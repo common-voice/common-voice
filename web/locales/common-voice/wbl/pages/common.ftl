@@ -228,6 +228,7 @@ qvi = Kichwa
 qvl = Quechua cajatanbo
 qwa = Cuechua Ciringo ancash
 qws = Auechua Sihuas Ancash
+qxa = Quechua Chiquian
 qxp = Puno Quechua
 rif = Tarifit
 rm-sursilv = Romansh Sursilvi
