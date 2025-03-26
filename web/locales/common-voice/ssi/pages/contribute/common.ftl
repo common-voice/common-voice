@@ -43,6 +43,7 @@ submit-form-action = بھیݪا کرنا
 
 report = کھٻر
 report-title = کھٻر دؔئٹؔا
+report-ask = اِن جملیںس تیرے سامے کیا مسلے آوتے ہے؟
 
 ## Speak & Listen Shortcuts
 

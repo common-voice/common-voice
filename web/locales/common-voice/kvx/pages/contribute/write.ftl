@@ -36,6 +36,26 @@ bulk-sentence-submission = گھڻِي تعداد ۾ جُملا جمع ڪرو
 single-sentence = هيڪ
 small-batch-sentence = ننڪو batch
 bulk-sentence = گھڻِي تعداد ۾
+sentence-domain-combobox-label = جُملون رو Domain
+sentence-domain-select-placeholder = ترڻ ۿُوڌِي domains رو واپراوَ ڪرو (اختِيارئِي()
+# Sentence Domain dropdown option
+agriculture_food = ٻنئِي ٻارو انَ کاڌو
+# Sentence Domain dropdown option
+automotive_transport = Automotive انَ سواري
+# Sentence Domain dropdown option
+finance = پئهيا/ رُوپيا
+# Sentence Domain dropdown option
+service_retail = خدمت انَ Retail
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت انَ صڦائِي رو کيال
+# Sentence Domain dropdown option
+history_law_government = تاريخ، قانُون ان حڪُومت
+# Sentence Domain dropdown option
+language_fundamentals = ٻولِي رئِي ڀُنياڌ ( مثال: نمڀر، ويڻ، پئهيا)
+# Sentence Domain dropdown option
+media_entertainment = Media انَ تفرِيح
 
 ## BULK SUBMISSION
 
