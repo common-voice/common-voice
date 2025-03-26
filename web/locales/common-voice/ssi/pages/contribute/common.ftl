@@ -28,6 +28,7 @@ target-segment-first-card = تھم مہارے پہلکے لکشے کے پاتی�
 target-segment-generic-card = تھم  لکشے کے پاتیام پاتی ٻائرے ہے
 target-segment-first-banner = { $locale } میں سادھارن آواجا کا پہلکا لکشے ٻٹؔاوٹؔیم ساہیتا کرو
 target-segment-add-voice = اپٹؔی آواج رݪاو
+target-segment-learn-more = ودھیک سِکو
 vote-yes = ہاوے
 vote-no = نائی
 languages = ٻولیاں

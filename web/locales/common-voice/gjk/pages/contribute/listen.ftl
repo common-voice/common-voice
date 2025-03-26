@@ -1,3 +1,4 @@
+listen = ۿانڀڙو
 listen-subtitle = اماري مۮت ڪرو آواز ني تصديق ڪريا مان
 listen-instruction = { $actionType }<playIcon></playIcon>شون اينيانڻين جملو صحيح ڪيڌو سي؟
 listen-again-instruction = ۿڦرون ڪام! <playIcon></playIcon>زو تمين تيار سو تو وري ۿانڀرو۔
@@ -18,6 +19,10 @@ validate-readings-coming-soon = ڀڻتر ني تصديق ڪرو<small> (جلدي
 
 listen-contribute-menu-tooltip = ڀڻتر ني تصديق ڪرو، لکل شڪل مان تبديل ڪرل وات وڳچ
 validate-readings-menu-item-tooltip = سئِي اِستمال ڪريا واران- انين زين ڀڻيا نون تمارِي ٻولِي مان رِڪارڍ سي۔
+review-transcriptions-menu-item-tooltip = اِستمال ڪريا واران نو جائزو ليو زين تمارِي ٻولِي مان نقل ڪرينَ ۮيڌِي سي۔
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = انتخابِي ڦهرست نين ۿانڀرو
+validate-readings-menu-item-aria-label = ڀراڌرِي نان ميمڀران نِي طرڦ ٿِي ۮيڌل ڀڻيا وارا مواڌ نِي تصڌوق ڪرو۔
+review-transcriptions-menu-item-aria-label = رِڪارڍ ٿل جُملان نو ترتيٻ ٿِي جائزو ليو ڪيَ اِي سئِي سيَ ڪي نا
