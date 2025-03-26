@@ -139,6 +139,12 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = مين ڪسي جملآ ميلآ سکون ڇون ۔اي ر وآتي پر آمل ڪرو
 small-batch-sentences-rule-2 = هر لڪيري مين جملو ميلآئو
+small-batch-sentences-rule-3 = ايڪ چڪر “Enter” يا“Return” ني دٻآن جملآ ايڪ لڪير الگ ڪرو
+small-batch-sentences-rule-4 = 1,000 تآئين جملآ ڀيڙي ڪرو
+small-batch-sentences-rule-5 = سبور جملآرو ساگي  ڍومين هوئڻ کپي
+small-batch-sentences-rule-6 = سبور جملآ مين ساگي سمجهاڻي هوئڻ کپي
+# menu item
+add-sentences = جملآ ميلآ ڌو
 
 ## MENU ITEM TOOLTIPS
 
