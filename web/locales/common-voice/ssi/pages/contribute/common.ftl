@@ -56,6 +56,9 @@ report-offensive-speech = بے لکھٹؔا ٻولٹؔا
 report-offensive-speech-detail = ٹُکڑیم اپمان جنک یا بے لکھٹؔی ٻولی ہے۔
 report-other-comment =
     .placeholder = کُھلی کیہٹؔا
+success = سَپھلتا
+continue = کرا کر
+report-success = کھٻر سپھلتاس سِوکار کری لی ہے
 
 ## Speak & Listen Shortcuts
 
@@ -67,6 +70,9 @@ shortcut-skip = س
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
+shortcut-record-toggle-label = بھرنا / روکٹؔا
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ٹُکڑا پُٹھا بھرنا
 
 ## Listen Shortcuts
 

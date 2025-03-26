@@ -87,9 +87,20 @@ upload-progress-text = Upload جارِي سئہ۔۔۔
 sc-bulk-submit-confirm = هُون مونوه جي اي جُملا<wikipediaLink>public domain </wikipediaLink> انَ مُون نئہ اِيئون نئہ upload ڪريا رئي اِجازت سئہ۔
 bulk-upload-success-toast = جوم گھڻا جُملا Upload ٿي ڳياه
 bulk-upload-failed-toast = Upload ناڪام ٿي ڳئي ميرڀونئي ڪرينَ ٻِي﻿زي وار ڪوشِيش ڪرو۔
+bulk-submission-success-header = تمارئي جمع ڪرَل جانڪارئِي ۮِيڌا ۿارُو ميرڀونئي!
+bulk-submission-success-subheader = تمي Common Voice رون هر روز رون جُملون را مقصد نئہ حاصل ڪريا ۿارُو امارئي مڌت ڪروه ريا!
+upload-more-btn-text = وڌارئہ جُملا Upload ڪرو؟
+file-invalid-type = ڳلت فائل
+file-too-large = فائل جوم موٽئي سئہ
+file-too-small = فائل نونئي سئہ
+too-many-files = الهائِي فائلون اپلوڊ ٿي ڳي
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ڌار ڌار جُملا شامِل ڪرو
+multiple-sentences-error = تمي ڌار ڌار جُملا هيڪ ئي وار شامِل نٿِي ڪري هيڪتا
+exceeds-small-batch-limit-error = تمي هزار ٿِي وڌارئہ جُملا جمع نٿِي ڪري هيڪتا
 
 ## MENU ITEM TOOLTIPS
 
