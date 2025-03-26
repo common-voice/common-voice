@@ -63,9 +63,15 @@ news_current_affairs = کبري ائين موجودا مهاملآ
 # Sentence Domain dropdown option
 technology_robotics = ٽيڪنولوجي ائين روبوٽيڪس
 sentence-variant-select-label = جملي رو ڪيسم
+sentence-variant-select-placeholder = ايڪ ڪيسم چونڍڻو رستو
+sentence-variant-select-multiple-variants = کآس ٻولي ڪترآئي ڪيسم
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = آوامي جملآ ڍومين اپلوڍ <icon></icon>ڪرو
+sc-bulk-upload-instruction = آپير فآئل آٺي ڇيڪو يا<uploadButton>اپلوڊ ڪري سارون ڪليڪ ڪرو</uploadButton>
+sc-bulk-upload-instruction-drop = اپلوڍ ڪري سارون فائل آٺي ڇيڪو
 
 ## SMALL BATCH SUBMISSION
 
