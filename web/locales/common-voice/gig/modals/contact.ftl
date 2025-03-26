@@ -3,3 +3,5 @@
 contact-title = رآبتو ڪرڻو
 contact-form-name =
     .label = نآم
+contact-form-message =
+    .label = نييآپو

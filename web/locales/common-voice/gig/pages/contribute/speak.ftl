@@ -1,5 +1,8 @@
 speak = ٻولڻو
 speak-now = آٻي ٻولڻو
+speak-subtitle = آپيرو آواز ڏئو
+record-cta = ريڪآڍنگ شورو ڪرو
+record-platform-not-supported = مآف ڪرو تمآرو پليٽ فارم اي وٽيم سپورٽ هو وڙآ ڪوني ڇي
 thanks-for-voice-toast-error = تمآري آوازي مين جمآ ر مهملي مين ايڪ گلتي هو گئي ڇي
 first-cta-gender-select-default-option = ايڪ رستو چونڏ
 first-cta-gender-select-help-text =
