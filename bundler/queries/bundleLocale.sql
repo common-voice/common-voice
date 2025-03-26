@@ -21,7 +21,7 @@ FROM clips
   LEFT JOIN (
     SELECT uca.client_id,
       uca.locale_id,
-      GROUP_CONCAT(a.accent_name) as accent_list
+      GROUP_CONCAT(a.accent_name SEPARATOR '|') as accent_list
     FROM user_client_accents uca
       JOIN accents a ON a.id = uca.accent_id
     WHERE a.accent_name != 'unspecified'
