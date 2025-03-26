@@ -16,6 +16,12 @@ sentence-domain-combobox-label = ايڪجيوا جملا
 sentence-domain-select-placeholder = تين ايڪ جيوا جملا جمع ڪرو
 # Sentence Domain dropdown option
 agriculture_food = ڀني ڀارو ھين کاڌو
+# Sentence Domain dropdown option
+automotive_transport = گاڌي ھين گاڌيو
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+service_retail = ݾيوا ھين اپسي
 
 ## BULK SUBMISSION
 
