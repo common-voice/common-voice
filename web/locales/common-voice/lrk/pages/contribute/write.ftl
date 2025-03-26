@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = ليک
+guidelines = راہ ديکاڙوي
 
 ## BULK SUBMISSION
 
