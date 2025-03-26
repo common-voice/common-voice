@@ -119,6 +119,12 @@ rate-limit-message-minutes =
         [one] تم اي پنا ني جمح ڪرائي  ري هدي پر پوگ گيئي ڇو مهرباني ڪر ڌوجھو جملو جمح ڪرآئي سارو ايڪ منٽ ڪر۔ٽم مآري سبري ري مهرباني    ايڪ
        *[other] تم اي پنا ني جمح ڪرآئي ري هدي پر پوگ گيئي ڇو مهرباني ڪر ڌوجهو جملو جمح ڪرآئي سارو مهرباني تمآري سبري ري مهرباني { $retryLimit }
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تم اي پنا ني جمح ڪرآئي  ري هد ي پر پوگ گيئي ڇو مهرباني ڪر  ڌوجهو جملو جمح ڪرآئي سارو مهرباني تمآري سبري ري مهرباني   ايڪ
+       *[other] تم اي پنا ني جمح ڪرآئي ري هد ي  پر پوگ گيئي ڇو مهرباني ڪر دوجهو جملو جمح ڪرآئي سارو مهرباني تمآري سبري ري مهرباني  { $retryLimit }
+    }
 
 ## MENU ITEM TOOLTIPS
 
