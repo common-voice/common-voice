@@ -31,6 +31,17 @@ add-sentence-success = ڀيڙي هوڙآ جملآ
 add-sentence-error = جملآ ميلآئيم گلتي
 required-field = مهرباني ڪرين اي جگآ برو
 single-sentence-submission = ايڪلو جملو جمآ ڪرآڻو
+small-batch-sentence-submission = نيني پيچ ري جملآ جمآ ڪراڻو
+bulk-sentence-submission = وڍيڪ يا جآم جملآ جمآ ڪرائو
+single-sentence = ايڪلو
+small-batch-sentence = نينو بيچ
+bulk-sentence = موٽي بيچ
+sentence-domain-combobox-label = جملي رو ڍومين
+sentence-domain-select-placeholder = تين ڍومينز تائين چونڍڻو ۔رستو
+# Sentence Domain dropdown option
+agriculture_food = زرات ائين کآڌو
+# Sentence Domain dropdown option
+automotive_transport = گآڏي يي ائين ٽرانسپورٽ
 
 ## BULK SUBMISSION
 
