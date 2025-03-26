@@ -43,7 +43,7 @@ submit-form-action = جمع کن
 
 report = رَپوٹ کن
 report-title = ڤے رپوٹ جمع کن
-report-ask = دیم جملو نتو څیمین مسئلو پیدا ݰوئے؟
+report-ask = نتو دیم جملو څیمین مسئلو پیدا ایتے؟
 
 ## Speak & Listen Shortcuts
 
