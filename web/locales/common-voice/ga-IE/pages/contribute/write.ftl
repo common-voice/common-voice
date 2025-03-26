@@ -1,6 +1,8 @@
 ## WRITE PAGE
 
 write = Scríobh
+write-instruction = Cuir <icon></icon> abairt atá sa bhfearann poiblí leis
+write-page-subtitle = Cuirfear abairtí a chuirtear anseo le tacar sonraí ceadúnaithe cc-0 atá ar fáil go poiblí.
 sentence =
     .label = Abairt
 sentence-input-placeholder = Cuir isteach anseo d'abairt atá sa bhfearainn phoiblí
@@ -75,8 +77,12 @@ minimum-sentences = Íoslíon na n-abairtí sa chomhad: 1000
 maximum-file-size = Uasmhéid an chomhaid: 25 MB
 what-needs-to-be-in-file = Cad is gá a bheith i mo chomhad?
 upload-progress-text = Uasluchtú ar siúl...
+sc-bulk-submit-confirm = Deimhním go bhfuil na habairtí seo sa <wikipediaLink>bhfearann poiblí</wikipediaLink> agus tá cead agam iad a uasluchtú.
+bulk-upload-success-toast = Uasluchtaíodh Líon Mór Abairtí
 bulk-upload-failed-toast = Theip ar an uasluchtú. Féach arís é.
 bulk-submission-success-header = Go raibh maith agat as líon mór abairtí a chur isteach!
+bulk-submission-success-subheader = Tá tú ag cabhrú le Common Voice ár spriocanna laethúla abairtí a bhaint amach!
+upload-more-btn-text = Uasluchtaigh tuilleadh abairtí?
 file-invalid-type = Comhad neamhbhailí
 file-too-large = Tá an comhad ró-mhór
 file-too-small = Tá an comhad ró-bheag
@@ -84,7 +90,22 @@ too-many-files = Tá an iomarca comhad ann
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Cuir iliomad <icon></icon> abairtí atá sa bhfearann poiblí leis
+multiple-sentences-error = Ní féidir leat iliomad abairtí a chur isteach le haghaidh aon aighneacht amháin
+exceeds-small-batch-limit-error = Ní féidir níos mó ná 1000 abairt a chur isteach
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Bailíodh { $uploadedSentences } as 1 abairt amháin
+        [two] Bailíodh { $uploadedSentences } as { $totalSentences } abairt
+        [few] Bailíodh { $uploadedSentences } as { $totalSentences } abairt
+        [many] Bailíodh { $uploadedSentences } as { $totalSentences } n-abairt
+       *[other] Bailíodh { $uploadedSentences } as { $totalSentences } abairt
+    }
+small-batch-sentences-rule-1 = Lean na treoracha ó “Cén abairtí is féidir liom a chur leis?”
 small-batch-sentences-rule-2 = Abairt amháin in aghaidh na líne
+small-batch-sentences-rule-3 = Scar abairtí óna chéile i línte aonair trí “Enter” nó “Return” a bhrú aon uair amháin
 small-batch-sentences-rule-4 = Cuir suas le 1,000 abairt leis
 small-batch-sentences-rule-5 = Ní mór go n-eascródh gach abairt as an bhfearann céanna
 small-batch-sentences-rule-6 = Caithfidh an luadh céanna a bheith ag gach abairt
@@ -93,7 +114,9 @@ add-sentences = Cuir Abairtí Leis
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Cuir Abairtí leis agus Athbhreithnigh iad, Cuir Ceisteanna leis, Tras-scríobh Míreanna Fuaime
 add-sentences-menu-item-tooltip = Cuir abairtí i do theanga leis
+review-sentences-menu-item-tooltip = Athbhreithnigh abairtí i do theanga
 add-questions-menu-item-tooltip = Cuir ceisteanna i do theanga
 transcribe-audio-menu-item-tooltip = Tras-scríobh taifeadtaí fuaime i do theanga
 
@@ -101,3 +124,6 @@ transcribe-audio-menu-item-tooltip = Tras-scríobh taifeadtaí fuaime i do thean
 
 write-contribute-menu-aria-label = Roghanna an roghchláir scríbhneoireachta
 add-sentences-menu-item-aria-label = Cuir abairtí nua leis an bpobal le léamh
+review-sentences-menu-item-aria-label = Athbhreithnigh abairtí atá seolta isteach ag an bpobal cheana féin
+add-questions-menu-item-aria-label = Cuir isteach ceisteanna nua don phobal le léamh agus le freagairt dóibh
+transcribe-audio-menu-item-aria-label = Tras-scríobh taifeadtaí fuaime go téacs
