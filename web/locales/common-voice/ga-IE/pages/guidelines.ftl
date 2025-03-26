@@ -1,5 +1,9 @@
+voice-collection = Bailiú Guthanna
 sentence-collection = Bailiúchán Abairtí
+offensive-content = Ábhar Gránna
+background-noise = Torann sa Chúlra
 volume = Airde
+just-unsure = Díreach Éiginnte?
 example = Sampla
 varying-pronunciations-example = Ní raibh an bealach soiléir.
 background-voices-tip-1 = An bhfuil tú ag teacht? [glaoite ag duine eile]

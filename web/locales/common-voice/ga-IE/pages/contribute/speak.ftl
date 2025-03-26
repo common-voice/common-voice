@@ -1,6 +1,10 @@
+speak = Labhair
+speak-now = Labhair anois
+speak-subtitle = Roinn do ghuth linn
 record-cta = Tosaigh ag taifeadadh
 record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ardán seo faoi láthair.
 record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
+record-platform-not-supported-ios-non-safari = Ar iOS lean ar aghaidh ar Safari chun taifeadadh a chumasú…
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 record-no-mic-found = Níor aimsíodh micreafón.
 record-error-too-short = Bhí an taifeadadh róghearr.
@@ -35,6 +39,9 @@ review-delete-recordings = Scrios mo chuid taifeadtaí
 review-terms = Má úsáideann tú Common Voice, glacann tú leis na <termsLink>Téarmaí</termsLink> agus leis an <privacyLink>bhFógra Príobháideachais</privacyLink>
 terms-agree = Aontaím
 terms-disagree = Ní aontaím
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Go raibh maith agat as do chuid gearrthóga gutha a bhronnadh!
+first-cta-subtitle-text = Trí insint dúinn fút féin, cabhróidh tú le forbróirí teicneolaíocht níos cuimsithí a thógáil
 why-donate = Cén fáth a bhfuil tú ag fiafraí?
 add-information-button = Cuir eolas leis
 
