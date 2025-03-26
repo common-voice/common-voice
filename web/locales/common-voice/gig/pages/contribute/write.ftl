@@ -22,6 +22,8 @@ new-sentence-rule-6 = پرآئي ملڪي رو کت
 new-sentence-rule-7 = آچهي سمجهاڻي ڀيڙي ڪرو
 new-sentence-rule-8 = ميسال تور ڪودرتي ائين وآت چيتي وآڙو جملو آسان هوڻ کپي
 login-instruction-multiple-sentences = ڪترآ ئي جملآ ڀيڙي ڪري سارو<loginLink> لآگ ان <loginLink>يا <loginLink> سائين اپ ڪرو</loginLink>
+how-to-cite = مين ڪيون سمجها ئو
+how-to-cite-explanation-bold = يو آر ايل لنڪ يا ڪآمي ر پوري نآمي سون سمجها ڻو
 
 ## BULK SUBMISSION
 
