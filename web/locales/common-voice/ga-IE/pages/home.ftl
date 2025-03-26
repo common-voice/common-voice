@@ -126,28 +126,48 @@ add-text = Cuir Téacs leis
 
 ## Community section
 
+community-section-title = Is pobail dhomhanda a thugann neart do Common Voice agus is do phobail dhomhanda é - tá 130 teanga ann agus tá siad ag dul i méid!
 join-discord-community = Bí linn i Discord Community
 # label for button
 join-discord-community-action = Bí linn ar Discord
+join-discord-community-content = Glac páirt i bplé pobail teanga, cuir ceisteanna, agus cuir eolas ar imeachtaí agus cainteanna atá ar na bacáin.
 find-us-on-matrix = Aimsigh ar Matrix sinn
+find-us-on-matrix-content = Is ardán oscailte éadrom é Matrix le haghaidh cumarsáide díláraithe, fíor-ama, agus an t-ardán is fearr le Mozilla chun nithe a phlé go hoscailte.
 # label for button
 find-us-on-matrix-action = Aimsigh ar Matrix sinn
+ask-mozilla-share = Iarr ar Mozilla d'imeachtaí a roinnt
+ask-mozilla-share-content = An bhfuil imeacht agat roimhe seo nó ag teacht aníos? Roinn linn é agus fógróimid dár bpobal é nó scríobhfaimid mír ar bhlag faoi!
 # label for button
 ask-mozilla-share-action = Comhroinn d'imeacht
+download-contribution-certificate = Íosluchtaigh do theastas rannpháirtíochta
+download-contribution-certificate-content = Íosluchtaigh teastas i gcomhair d'imeachtaí nó duit féin más rud é gur rannchuidigh tú le Common Voice — ní bheadh faic ann murach tusa!
 # label for button
 download-contribution-certificate-action = Faigh do theastas
+contribute-github = Rannchuidigh ar GitHub
+contribute-github-content = Ní bheadh an tionscadal seo ann gan daoine cosúil leatsa. 🎉 Tá go leor bealaí le bheith páirteach i Common Voice - ní gá go mbeadh a fhios agat conas cód a chur leis!
+# label for button
+contribute-github-action = Rannchuidigh ar GitHub
 
 ## Featured section
 
+featured-section-title = Mar a fheiceadh ar...
+# icon is an arrow that points downwards
+download-press-pack = Íosluchtaigh ár bpacáiste preas <icon></icon>
 
 ## Developers section
 
+developers-section-title = Tacar sonraí cainte oscailte atá inrochtana go poiblí i 130+ teanga
+# icon is an arrow that points to the right
+explore-datasets = Taiscéal na tacair sonraí <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Tacaigh le tacair shonraí oscailte, faoi stiúir an phobail
 read-sentences-link = Léigh abairtí
 validate-readings-link = Bailíochtaigh míreanna léite
 answer-questions-link = Freagair ceisteanna
+transcribe-answers-link = Tras-scríobh freagraí
+review-transcriptions-link = Athbhreithnigh tras-scríbhinní
 contribute-text-link = Cuir téacs leis
 press-and-stories-link = Preas agus scéalta
 
@@ -156,3 +176,5 @@ press-and-stories-link = Preas agus scéalta
 partner-section-title = Obair i gcomhar linn
 # icon is an arrow that points to the right
 get-in-touch-button = Téigh i dteagmháil <icon></icon>
+# Partners section
+our-partners-include = I measc ár gcomhpháirtithe tá...
