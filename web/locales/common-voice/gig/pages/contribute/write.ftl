@@ -88,9 +88,18 @@ sc-bulk-submit-confirm = مين مآنو ڇون ڪي اي جملآ <wikipediaLin
 bulk-upload-success-toast = بلڪ جملآ اپلوڍ ڪيڌي ڇي
 bulk-upload-failed-toast = اپلوڍ نا ڪآم هوگيو ڌوبارا ڪوشش ڪر
 bulk-submission-success-header = تمآري موٽي تهدادي مين جمآ ڪرائيم ٽمآري مهرباني
+bulk-submission-success-subheader = تم ڪآمن وائس ني آپيري روزاني جملي مين مڪسدي پر پوچهي مين مدد ڪر يان
+upload-more-btn-text = وڍيڪ جملآ اپلوڍ ڪرو
+file-invalid-type = گلت فائل
+file-too-large = فائل جآم موٽي ڇي
+file-too-small = فائل جآم نيني ڇي
+too-many-files = جآم گھڻي فائلي
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = ڪترآئي آوامي ڍومين جملآ ڀيڙي ميلآئو<icon></icon>
+multiple-sentences-error = تم ايڪ اي جمآ ڪرآئي سارو وڌيڪ جملآ شاميل ڪوني ڪر سکو ڇو
 
 ## MENU ITEM TOOLTIPS
 
