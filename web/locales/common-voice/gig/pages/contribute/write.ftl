@@ -131,6 +131,14 @@ add-small-batch-success =
         [one] 	مين ايڪ جملو ڀيڙي ڪيڌو  1{ $uploadedSentences }
        *[other] مين { $uploadedSentences } جملآ ڀيڙي ڪيڌو ڇون{ $totalSentences }
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] ايڪ جملي مين ايڪ	{ $uploadedSentences } ڀيڙي ڪيدو گئيو<downloadLink>رد هووڙا جملآن ڍوئوڏ ڪري سارو { $uploadedSentences }
+       *[other] اٺي  { $totalSentences } ڪليڪ ڪرو  { $totalSentences }ڌوجھو  جمآ ڪيڌوڙا<downloadLink> رد هووڙا جملآن ڌآئولڌ ڪري سارو</downloadLink>آٺي تم ڪليڪ ڪرو
+    }
+small-batch-sentences-rule-1 = مين ڪسي جملآ ميلآ سکون ڇون ۔اي ر وآتي پر آمل ڪرو
+small-batch-sentences-rule-2 = هر لڪيري مين جملو ميلآئو
 
 ## MENU ITEM TOOLTIPS
 
