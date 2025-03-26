@@ -58,6 +58,11 @@ language_fundamentals = ٻولي ري بنيادي اسول مسآل تور ان
 media_entertainment = ميڍيا ائين تفري
 # Sentence Domain dropdown option
 nature_environment = فترت ائين مآهول
+# Sentence Domain dropdown option
+news_current_affairs = کبري ائين موجودا مهاملآ
+# Sentence Domain dropdown option
+technology_robotics = ٽيڪنولوجي ائين روبوٽيڪس
+sentence-variant-select-label = جملي رو ڪيسم
 
 ## BULK SUBMISSION
 

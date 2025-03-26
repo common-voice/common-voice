@@ -9,6 +9,7 @@ clips-with-count-pluralized =
         [one] کوګ آواز<bold>{ $count }</bold>
        *[other] <bold>{ $count }</bold>کوګ آوازے
     }
+goal-help-recording = تو لے کامن وائسن<goalPercentage></goalPercentage>ڤے ہر مشن{ $goalValue } ریکارڈنگ دے پرو کڑا مدد کڑغیت!
 
 ## Reporting
 
