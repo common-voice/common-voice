@@ -1,4 +1,4 @@
-action-click = Kẽlik
+action-click = Kẽlik/ pakhch
 action-tap = T̃ap
 contribute = hisa kat̃
 review = didig̃h
@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }{ $count }</bold> klip
        *[other] <bold>{ $count }</bold> klipisht
     }
-goal-help-recording = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert! <goalPercentage></goalPercentage> { $goalValue }
+goal-help-recording = tawẽ Kommon Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert! <goalPercentage></goalPercentage> { $goalValue }
 goal-help-validation = Tawẽ Kommon Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr mẽdad kert <goalPercentage></goalPercentage>{ $goalValue }
 contribute-more =
     { $count ->
@@ -25,7 +25,7 @@ share-title-new = <bold>sakẽr c̃hak owozvẽ g̃hũtnẽr mẽdad/ yormandi 
 keep-track-profile = K̃hũ tẽr pẽrũt rec̃hnẽn k̃hũ profaylẽ (profile-ẽ) bẽ tayin/ rẽdikig̃h car
 login-to-get-started = shẽru k̃hakẽr log in yoy saynap (sign up) car
 target-segment-first-card = Tus̃h spo awalgũni yarkẽr k̃hũ hisa kat̃/ Tus̃h spo awalguni yarkẽr hisadori car
-target-segment-generic-card = tus̃h yi baf maqsadẽ dẽstan hisadori car
+target-segment-generic-card = Tus̃h yi baf maqsadẽ dẽstan hisadori car
 target-segment-first-banner = Dẽ { $locale } Kommon Voysẽ (common Voice) awalgũni maqsadẽ hosilẽr mẽdad car
 target-segment-add-voice = K̃hũ owozẽ qẽti car/ shomil car
 target-segment-learn-more = bes̃h dish/ ziyot dish
@@ -36,13 +36,13 @@ vote-no = ney
 datasets = d̃at̃aset̃isht (datasets)
 languages = Zikisht/ zẽbonisht
 about = Barar
-partner = hisador
+partner = Hisador
 submit-form-action = Jama car/ ta kat̃
 
 ## Reporting
 
-report = rapot̃
-report-title = yi rapot jama car
+report = Rapot̃
+report-title = Yi rapot jama car
 report-ask = hadẽm jũmlavnẽs̃h tor chiz mũshkilisht wocẽn?
 report-offensive-language = Jarihona zik
 report-offensive-language-detail = Jumlayi badh tẽmiz yoyi  jarihona zarzik
