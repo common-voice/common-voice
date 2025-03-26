@@ -84,6 +84,10 @@ maximum-file-size = ود مين ود فائلي رو سائيز 25 MB
 what-needs-to-be-in-file = مآري فائلي مين ڪآئي هوئڻ کپي
 what-needs-to-be-in-file-explanation = مهرباني ڪرين همآري <templateFileLink> ٽيم پليٽ فائل</templateFileLink> چيڪ ڪرو تمآري جملآ ڪآپي رئيٽي سون الگ هوئڻ کپي CC0 ياجمآ ڪرائيوآڙي اجآزت ڏين ڌي هووي ائين ساف گرامر ائين لفز ساف هووي پڙيم آساني هووي جمآ ڪرآوڙآ جملآ پڙيم 10-15سيڪنڌ لآگي انگي رو ائين اسمي رو کاس اکر ڀيڙي هوئي سون پاسو ڪرڻو کپي
 upload-progress-text = اپلوڍ چآلو ڇي
+sc-bulk-submit-confirm = مين مآنو ڇون ڪي اي جملآ <wikipediaLink> آوامي ڍومين</wikipediaLink>ائين مني اوني اپلوڍ ڪري ري موڪل ڇي
+bulk-upload-success-toast = بلڪ جملآ اپلوڍ ڪيڌي ڇي
+bulk-upload-failed-toast = اپلوڍ نا ڪآم هوگيو ڌوبارا ڪوشش ڪر
+bulk-submission-success-header = تمآري موٽي تهدادي مين جمآ ڪرائيم ٽمآري مهرباني
 
 ## SMALL BATCH SUBMISSION
 
