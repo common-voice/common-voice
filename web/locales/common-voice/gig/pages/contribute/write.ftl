@@ -72,6 +72,13 @@ sentence-variant-select-multiple-variants = کآس ٻولي ڪترآئي ڪيس�
 sc-bulk-upload-header = آوامي جملآ ڍومين اپلوڍ <icon></icon>ڪرو
 sc-bulk-upload-instruction = آپير فآئل آٺي ڇيڪو يا<uploadButton>اپلوڊ ڪري سارون ڪليڪ ڪرو</uploadButton>
 sc-bulk-upload-instruction-drop = اپلوڍ ڪري سارون فائل آٺي ڇيڪو
+bulk-upload-additional-information = جيڪڏهن تم اي ر فائلي پر وڍيڪ سوڻاڻو چآهو ڇو مهرباني ڪرين رابتو ڪرو  <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = جيڪڏهن تم اي فائلي پر وڍيڪ سوڻاڻو چآهو ڇو جيڪو ٽيم پليٽ مين شاميل ڪوني هم سون رابتو ڪري <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تمآري فائل ڇيڪين ڌوبارا ڪوشش ڪرو
+try-upload-again-md = ڌوبارا اپلوڏ ڪري ري ڪوشش ڪرو
+select-file = فايل چونڍڻو
+select-file-mobile = اپلوڍ ڪري سارو فائل ڊونڊو
+accepted-files = ڪبول ڪيڌوڙي فائلي رو ڪيسم  سرف
 
 ## SMALL BATCH SUBMISSION
 

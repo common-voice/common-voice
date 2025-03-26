@@ -11,6 +11,12 @@ clips-with-count-pluralized =
     }
 goal-help-recording = تو لے کامن وائسن<goalPercentage></goalPercentage>ڤے ہر مشن{ $goalValue } ریکارڈنگ دے پرو کڑا مدد کڑغیت!
 goal-help-validation = کامن وائسن<goalPercentage></goalPercentage> ڤے یو میشن{ $goalValue } تصدیق کڑان ہدف دے پرو کڑا مدد کڑیت!
+contribute-more =
+    { $count ->
+        [one] تیارآ پے کڑا دیر$countاڤن؟
+       *[other] تیارآ پے کڑا دیر$countاڤن؟
+    }
+speak-empty-state = دیم زبان پے ریکارڈ کڑا دیر لے ماخ جملغّے ختم ݰوئی۔۔۔
 
 ## Reporting
 
