@@ -68,6 +68,7 @@ about-playbook-how-add-language-translating-heading = ڤے سائٹ ترجمو �
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ڤے ماخ رہنمائی اوژر کہ ڤے پونتون چیمین استعمال کڑا بݰ۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جملغّے بڑیڅڤدا
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> دے جملو بڑیڅڤدان استعمال باری ڤے ماخ رہنمائی اوژر</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = تو یو چر <sentenceCollectorLinkAdd>جملغّے شامل</sentenceCollectorLinkAdd>, کڑا کرکینے۔ یا<bulkImportDocsLink>ڤے گیٹ ہب</bulkImportDocsLink>. استعمال کینے خو امبوخ جملغّے نے ملن اڤزدا کرکینے۔ یاد واست<licenseLink>سی سی زیرو (دے عام آدمف استعمال دائرو)</licenseLink>ݰویا ضروری، یا خو ام نوشا۔
 
 ## How does localization work
 
