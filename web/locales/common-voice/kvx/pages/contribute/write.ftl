@@ -113,6 +113,24 @@ rate-limit-toast-message-seconds =
         [one] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ هيڪ سيڪنڊ ڪيڙ وۯي ڪوشِيش ڪرو
        *[other] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ { $retryLimit }ڪينڪ سيڪنڊون ڪيڙ وۯي ڪوشِيش ڪرو
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تمي اِيئا پونيا نئہ جمع ڪريا ۿارُو حد پار ڪرئي پرئي۔ ميرڀونئي ڪرينَ هيڪ مِنٽ واٽ زوئينَ وۯي ٻِي﻿زِي وار جُملو جمع ڪرو۔ تمارئہ صڀر ڪريا ۿارُو ميرڀونئي!
+       *[other] تمي اِيئا پونيا نئہ جمع ڪريا ۿارُو حد پار ڪرئي پرئي۔ { $retryLimit }ميرڀونئي ڪرينَ هيڪ مِنٽ واٽ زوئينَ وۯي ٻِي﻿زِي وار جُملو جمع ڪرو۔ تمارئہ صڀر ڪريا ۿارُو ميرڀونئي!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تمي اِيئا پونيا نئہ جمع ڪريا ۿارُو حد پار ڪرئي پرئي۔ ميرڀونئي ڪرينَ هيڪ سيڪنڊ واٽ زوئينَ وۯي ٻِي﻿زِي وار جُملو جمع ڪرو۔ تمارئہ صڀر ڪريا ۿارُو ميرڀونئي!
+       *[other] تمي اِيئا پونيا نئہ جمع ڪريا ۿارُو حد پار ڪرئي پرئي۔ ميرڀونئي ڪرينَ ڪينڪ سيڪنڊ واٽ زوئينَ { $retryLimit }وۯي ٻِي﻿زِي وار جُملو جمع ڪرو۔ تمارئہ صڀر ڪريا ۿارُو ميرڀونئي!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } رو هيڪ جُملو جمع ڪريو ڳيو
+       *[other] { $uploadedSentences } رو هيڪ جُملو جمع ڪريو ڳيو
+    }
 
 ## MENU ITEM TOOLTIPS
 

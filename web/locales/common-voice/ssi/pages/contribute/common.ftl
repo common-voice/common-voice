@@ -69,7 +69,7 @@ shortcut-skip = ایس
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ر
+shortcut-record-toggle = ار
 shortcut-record-toggle-label = بھرنا / روکٹؔا
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ٹُکڑا پُٹھا بھرنا
@@ -82,6 +82,17 @@ request-language-button = ایک ٻولیا کی اپیل کرو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
+shortcut-play-toggle-label = چلاٹؔا / روکٹؔا
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائے
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ائن
 
 ## Validation criteria
 
+contribution-criteria-nav = اولکھ
