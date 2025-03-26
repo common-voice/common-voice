@@ -33,6 +33,7 @@ change-preferences = مان بدلی کرو
 login-signup = لاگ ان کرو / سائن اپ کرو
 vote-yes = ہاوے
 vote-no = نائی
+datasets = سمان بھیݪا
 languages = ٻولیاں
 about = کے باریم
 partner = ٻیلی
@@ -40,7 +41,8 @@ submit-form-action = بھیݪا کرنا
 
 ## Reporting
 
-report = بھتاوٹؔا
+report = کھٻر
+report-title = کھٻر دؔئٹؔا
 
 ## Speak & Listen Shortcuts
 

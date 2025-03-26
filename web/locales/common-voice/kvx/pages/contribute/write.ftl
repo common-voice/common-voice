@@ -29,6 +29,13 @@ guidelines = جانڪارئي
 contact-us = امون ٿِي رابطو ڪرو
 add-sentence-success = هيڪ جُملو لِيڌو ڳيو
 add-sentence-error = گلتِي ٿي ڳئي جُملو نوکيا ۾
+required-field = ميرڀونِي ڪرينَ اي کونو ڀرو۔
+single-sentence-submission = صِرف هيڪ جُملو جمع ڪرو
+small-batch-sentence-submission = گھٽ تعداد ۾ جُملا جمع ڪرو
+bulk-sentence-submission = گھڻِي تعداد ۾ جُملا جمع ڪرو
+single-sentence = هيڪ
+small-batch-sentence = ننڪو batch
+bulk-sentence = گھڻِي تعداد ۾
 
 ## BULK SUBMISSION
 
