@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0 auto;
     padding: 10px 20px;
     max-width: var(--wide-desktop-width);
