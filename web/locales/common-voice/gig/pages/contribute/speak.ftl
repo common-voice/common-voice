@@ -18,6 +18,7 @@ read-sentences-coming-soon = جلدي آ رو ڇي <small> جملآ پڙ</small>
 
 speak-contribute-menu-tooltip = جملآ پڙ سوالي ر جواب ڌي
 read-sentences-menu-item-tooltip = آپيري ٻولي مين پڙي رو ريڪآڍ ٺائو
+answer-questions-menu-item-tooltip = تمآر ٻولي مين سوال ائين اشاري رو جواب ڏيتي آپين رڪآرڍ ڪرو
 
 ## MENU ITEM ARIA LABELS
 
