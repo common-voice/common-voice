@@ -67,6 +67,7 @@ about-playbook-how-add-language-content-1 = اول اوژر<languageLink> تو �
 about-playbook-how-add-language-translating-heading = ڤے سائٹ ترجمو کڑا
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ڤے ماخ رہنمائی اوژر کہ ڤے پونتون چیمین استعمال کڑا بݰ۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جملغّے بڑیڅڤدا
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> دے جملو بڑیڅڤدان استعمال باری ڤے ماخ رہنمائی اوژر</sentenceCollectorVideo>.
 
 ## How does localization work
 
