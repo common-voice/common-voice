@@ -43,6 +43,8 @@ terms-disagree = Ní aontaím
 first-cta-header-text = Go raibh maith agat as do chuid gearrthóga gutha a bhronnadh!
 first-cta-subtitle-text = Trí insint dúinn fút féin, cabhróidh tú le forbróirí teicneolaíocht níos cuimsithí a thógáil
 why-donate = Cén fáth a bhfuil tú ag fiafraí?
+why-donate-explanation-1 = Is fútsa atá sé an fhaisnéis seo a chur ar fáil nó gan í a chur ar fáil - níor cheart duit í a chur leis ach amháin má bhraitheann tú compordach. Nuair a eiseoimid an tacar sonraí, déanfaimid anaithnid an fhaisnéis phearsanta go léir, agus cinnteoimid nach bhfuil faisnéis ar nós d’ainm agus do sheoladh ríomhphoist ceangailte le faisnéis dhéimeagrafach amhail aois nó gnéas.
+why-donate-explanation-2 = Chun go n-oibreoidh an teicneolaíocht go maith do gach duine, ní mór raon éagsúil daoine a léiriú sna sonraí a chuidíonn le forbróirí teicneolaíocht a thógáil. Mar shampla, mura gcuirimid aon chainteoirí a bhfuil blas ar leith acu san áireamh, ní oibreoidh an teicneolaíocht go maith do dhaoine a bhfuil an blas sin acu. <learnMore>Foghlaim tuilleadh faoi na fáthanna a bhfuil tábhacht le meiteashonraí.</learnMore>
 add-information-button = Cuir eolas leis
 continue-speaking-button = Ní mian liom sin, is mian liom leanúint ar aghaidh ag caint
 create-profile-text = An bhfuil fonn ort do chuid faisnéise a shábháil? <createProfile>Cruthaigh próifíl</createProfile>
@@ -64,7 +66,10 @@ read-sentences-coming-soon = Léigh Abairtí <small>(Ag teacht go luath)</small>
 
 speak-contribute-menu-tooltip = Léigh Abairtí, Freagair Ceisteanna
 read-sentences-menu-item-tooltip = Taifead tú féin ag léamh abairtí i do theanga
+answer-questions-menu-item-tooltip = Taifead tú féin ag freagairt ceisteanna agus leideanna i do theanga
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Roghanna an roghchláir labhartha
+read-sentences-menu-item-aria-label = Léigh abairtí a chuir an pobal isteach i dteangacha éagsúla
+answer-questions-menu-item-aria-label = Cuir isteach ceist nua don phobal le léamh agus le freagairt
