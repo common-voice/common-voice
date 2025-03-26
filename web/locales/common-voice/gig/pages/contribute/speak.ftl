@@ -43,6 +43,7 @@ terms-disagree = مين ڪوني رازي ڇون
 first-cta-header-text = مهرباني تمآري آواز ڏي سآرون
 first-cta-subtitle-text = هم ني آپير بآريم سوڻا ئي تمآري ڍولپرز ني وڍيڪ جمح ٽيڪنولآجي مين  ٺائي مدد ڪرو
 why-donate = تو ڪآ ٻوجھ رو ڇي
+why-donate-explanation-1 = اي جآڻ ڏيڻو جآئز ڇي تم ني او شڪلي مين سامل ڪري ڇي جڏي تم آرام ڪروجيڪڏهن تم ڍيٽاسيٽ ڪرو ڇو هم سب زاتي مآلومآت ني مآنآ ڇآن  ائين پڪ ڪران ڇآن ڪي تمآرو نآم تمآري اي ميل جسي مآلومآت اومر يا او اسي ڍيموگرافڪ سون ميلوڙي ڪوني ڇي
 thanks-for-voice-toast-error = تمآري آوازي مين جمآ ر مهملي مين ايڪ گلتي هو گئي ڇي
 first-cta-gender-select-default-option = ايڪ رستو چونڏ
 first-cta-gender-select-help-text =

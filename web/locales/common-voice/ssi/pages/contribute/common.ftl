@@ -52,6 +52,10 @@ report-different-language = دؔوجی ٻولی
 report-different-language-detail = یو ایک ایسی ٻولیام لِکھوڑا ہے جکو ہوں ٻولیرا ہے
 report-difficult-pronounce = کیہٹؔا دؔوکھی ہے
 report-difficult-pronounce-detail = اِن میں ایسے سٻدؔ یا ٻول ہے جِنکُو پڑھٹؔا یا کیہٹؔا دؔوکھی ہے
+report-offensive-speech = بے لکھٹؔا ٻولٹؔا
+report-offensive-speech-detail = ٹُکڑیم اپمان جنک یا بے لکھٹؔی ٻولی ہے۔
+report-other-comment =
+    .placeholder = کُھلی کیہٹؔا
 
 ## Speak & Listen Shortcuts
 

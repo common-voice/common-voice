@@ -82,6 +82,11 @@ accepted-files = مونل فائل را نمُونا: .tsv صِرف
 minimum-sentences = فائل ۾ گھٽ ۾ گھٽ هزار جُملا هوئہ:
 maximum-file-size = گھٽ ۾ گھٽ فائل رو سائز پنجوِيه MB هوئہ:
 what-needs-to-be-in-file = مارِي فائل ۾ ڪِي هووو کپئہ؟
+what-needs-to-be-in-file-explanation = ميرڀونئي ﻿امارئِي <templateFileLink> template رئي فائل</templateFileLink> چيڪ ڪرو۔ تمارا جُملا copyright free (CC0 اِجازت لِيڌل انَ اصلِي ڪوم هووو ﻿کپئہ سهِي انَ ۿورئہ نمُونئہ ڀڻيا رئہ لائق هووئہ۔ جمع ڪرَل جُملا ۮه ٿِي پنرئہ سيڪنڊ ۾ ڀڻيا رئہ لائق هوئہ انَ اِيئا ۾ نمڀر کاس اِسم انَ characters نہ هووئہ۔
+upload-progress-text = Upload جارِي سئہ۔۔۔
+sc-bulk-submit-confirm = هُون مونوه جي اي جُملا<wikipediaLink>public domain </wikipediaLink> انَ مُون نئہ اِيئون نئہ upload ڪريا رئي اِجازت سئہ۔
+bulk-upload-success-toast = جوم گھڻا جُملا Upload ٿي ڳياه
+bulk-upload-failed-toast = Upload ناڪام ٿي ڳئي ميرڀونئي ڪرينَ ٻِي﻿زي وار ڪوشِيش ڪرو۔
 
 ## SMALL BATCH SUBMISSION
 
