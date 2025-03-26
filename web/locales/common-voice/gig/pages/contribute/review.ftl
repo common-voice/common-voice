@@ -45,3 +45,9 @@ sc-criteria-item-3 = جملو ٻولي جسو هوئڻ کپي
 sc-criteria-item-4 = جۮي جملو اميڌي سون وڏيڪ اتري ڇي سآڃي پاسي ڪبول ڪرو ٻٽڻي پر ڪلڪ ڪرو
 sc-criteria-item-5-2 = جھڌي جملو اميڌي سون مآٿي ڪوني اُتر رو تو اوني اُوڌي پاسي رد ڪر ڪآڙو ٻٽڻي پر ڪليڪ ڪرو ۔جملي سآرو پڪ ڪوني تو &quot;اوني ڇوڙ ڀي سکو ڇي ائين آئي وآڙي پر وڍ سکو ڇي۔&quot;
 sc-criteria-item-6 = جيڪڏهن تمآ ڪني جملآ ڌيکي سآرو کتم هو جآوي ۔مهرباني ڪرين وڌيڪ جملآ لي سارو همآري مدد ڪرو
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چيڪ ڪرو <icon> </icon> ڪآئي اي جملو لساني توري پر سئي ڇي
+sc-review-rules-title = ڪآئي اي جملو سمجهي پر سئي آرو ڇي
+sc-review-empty-state = اي ٽيم اي ٻولي مين ڌيکي لآ ڪوئي ڀي جملو ڪوني
+report-sc-different-language = مختليف ڀولي
+report-sc-different-language-detail = اي  ائم ٻولي مين ليکوڙا ڇي جيني هم ۮيک رهي ڇآن او سون مختليف ڇي

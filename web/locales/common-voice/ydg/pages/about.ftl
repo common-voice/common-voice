@@ -62,6 +62,7 @@ about-playbook-what-is-language-content-2 = ماخ المین ماڈل اسپی�
 
 ## How do I add a language
 
+about-playbook-how-add-language = زو ڤے یو زبان چیمین کینیم شامل کینیم؟
 
 ## How does localization work
 
