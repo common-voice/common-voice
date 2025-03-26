@@ -19,3 +19,6 @@ do-section-guideline-1 = rost hijaẽt gramare istimol
 do-section-guideline-2 = Oson sowolvẽ dũrz kumdisht ki har yiwẽr oson, cẽ sẽqofatẽ mẽqomẽn tẽr sar wost k̃hẽ ramvẽ pẽzũv pirvit
 do-section-guideline-3 = yẽqin car ki dẽ yi bu jumlan yavẽ jẽwobvẽ randẽn
 do-not-section-title = Ney
+do-not-section-guideline-1 = zoti shẽnokhtẽ malũmotẽ chalg(cẽrg ki nungisht you dulati malũmot)
+do-not-section-guideline-2 = zohi yoy pers terafdori yoy qarwẽzũmne jumlave
+do-not-section-guideline-3 = hasas sowolvẽ pers

@@ -13,6 +13,7 @@ ady = Shumol-Maghribi Kakeshian Zik yoy Khalgisht
 af = Afriqahe Khalgisht
 aln = Gheg Alnaian
 am = Ethopian (Habashi)
+an = Aragon e Zik yoy Khalgisht
 ar = Arabi zik
 arn = Chilli et Argetina he Mapuche Qaumiyate Zik
 as = A'ssami Zik
