@@ -160,3 +160,4 @@ write-contribute-menu-aria-label = سئي مينيو لکو
 add-sentences-menu-item-aria-label = برادري ري پڙي سارو نئي جملآ ڀيڙي ڪرو
 review-sentences-menu-item-aria-label = برادري وجون جمآ ڪيڌوڙآ موجوده جملي رو فائدو ليڻو
 add-questions-menu-item-aria-label = برادري سارو پڙهي ائين جواب ڌي نوي سوال جمآ ڪرو
+transcribe-audio-menu-item-aria-label = آڍيو ريڪوڍنگي ني ٽيڪسٽ نڪل ڪرو
