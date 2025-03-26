@@ -19,6 +19,8 @@ contribute-more =
 speak-empty-state = دیم زبان پے ریکارڈ کڑا دیر لے ماخ جملغّے ختم ݰوئی۔۔۔
 no-sentences-for-variants = تو زبانن جملغّے ختم ݰوئی فرمت۔ کہ کرکینتے دے خوئے زبان دیر جملغّے پے اوݱڑا دیر ڤے سیٹنگ بادل کڑا کرکینے۔
 speak-empty-state-cta = جملغّے شامل کن
+speak-loading-error = پے اݰٹا دیر لے ماخ چے جملغّے چش. مہربانی کن کیستہ دیبال کوشش کن.
+record-button-label = ڤے خوئے آواز ریکارڈ کن
 
 ## Reporting
 

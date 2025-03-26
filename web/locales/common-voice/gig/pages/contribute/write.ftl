@@ -82,6 +82,8 @@ accepted-files = ڪبول ڪيڌوڙي فائلي رو ڪيسم  سرف
 minimum-sentences = فايلي مين گھٽ مين گھٽ جملآ 1000
 maximum-file-size = ود مين ود فائلي رو سائيز 25 MB
 what-needs-to-be-in-file = مآري فائلي مين ڪآئي هوئڻ کپي
+what-needs-to-be-in-file-explanation = مهرباني ڪرين همآري <templateFileLink> ٽيم پليٽ فائل</templateFileLink> چيڪ ڪرو تمآري جملآ ڪآپي رئيٽي سون الگ هوئڻ کپي CC0 ياجمآ ڪرائيوآڙي اجآزت ڏين ڌي هووي ائين ساف گرامر ائين لفز ساف هووي پڙيم آساني هووي جمآ ڪرآوڙآ جملآ پڙيم 10-15سيڪنڌ لآگي انگي رو ائين اسمي رو کاس اکر ڀيڙي هوئي سون پاسو ڪرڻو کپي
+upload-progress-text = اپلوڍ چآلو ڇي
 
 ## SMALL BATCH SUBMISSION
 
