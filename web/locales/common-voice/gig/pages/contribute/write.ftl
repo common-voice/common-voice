@@ -125,6 +125,12 @@ rate-limit-message-seconds =
         [one] تم اي پنا ني جمح ڪرآئي  ري هد ي پر پوگ گيئي ڇو مهرباني ڪر  ڌوجهو جملو جمح ڪرآئي سارو مهرباني تمآري سبري ري مهرباني   ايڪ
        *[other] تم اي پنا ني جمح ڪرآئي ري هد ي  پر پوگ گيئي ڇو مهرباني ڪر دوجهو جملو جمح ڪرآئي سارو مهرباني تمآري سبري ري مهرباني  { $retryLimit }
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 	مين ايڪ جملو ڀيڙي ڪيڌو  1{ $uploadedSentences }
+       *[other] مين { $uploadedSentences } جملآ ڀيڙي ڪيڌو ڇون{ $totalSentences }
+    }
 
 ## MENU ITEM TOOLTIPS
 
