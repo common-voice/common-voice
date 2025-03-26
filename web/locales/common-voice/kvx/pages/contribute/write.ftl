@@ -28,6 +28,7 @@ how-to-cite-explanation = جيڪيۮِي اي تمارا آپرا آکر سئہ 
 guidelines = جانڪارئي
 contact-us = امون ٿِي رابطو ڪرو
 add-sentence-success = هيڪ جُملو لِيڌو ڳيو
+add-sentence-error = گلتِي ٿي ڳئي جُملو نوکيا ۾
 
 ## BULK SUBMISSION
 

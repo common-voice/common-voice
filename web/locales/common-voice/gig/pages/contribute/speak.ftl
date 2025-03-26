@@ -1,3 +1,5 @@
+speak = ٻولڻو
+speak-now = آٻي ٻولڻو
 thanks-for-voice-toast-error = تمآري آوازي مين جمآ ر مهملي مين ايڪ گلتي هو گئي ڇي
 first-cta-gender-select-default-option = ايڪ رستو چونڏ
 first-cta-gender-select-help-text =
@@ -22,3 +24,6 @@ answer-questions-menu-item-tooltip = تمآر ٻولي مين سوال ائين 
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اسپيڪ آپشن مينيو
+read-sentences-menu-item-aria-label = برادري وجون مختليف ٻولي مين جمآ ڪروڙا جملآ پڙهو
+answer-questions-menu-item-aria-label = ڪميونٽي سآرو پڙي ر ائين جواب ڏي سآرو ايڪ نئو سوال جمح ڪرآئو
