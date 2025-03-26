@@ -56,9 +56,25 @@ history_law_government = تاريخ، قانُون ان حڪُومت
 language_fundamentals = ٻولِي رئِي ڀُنياڌ ( مثال: نمڀر، ويڻ، پئهيا)
 # Sentence Domain dropdown option
 media_entertainment = Media انَ تفرِيح
+# Sentence Domain dropdown option
+nature_environment = قُڌرت انَ ماحُوليات
+# Sentence Domain dropdown option
+news_current_affairs = خٻرون انَ همڻُوڪا حالات
+# Sentence Domain dropdown option
+technology_robotics = Technology انَ Robotics
+sentence-variant-select-label = جُملون رو ڌار ڍاۯ
+sentence-variant-select-placeholder = هيڪ ڌار ڍاۯ سُونڍو (اِختيارئِي)
+sentence-variant-select-multiple-variants = عام ٻولئِي / ڌار ڍاۯو
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload </icon><icon> عام domain را جُملا
+sc-bulk-upload-instruction = آپرئِي فائل ايٿئہ توڻي لي آوينَ ساڏو ڪا<uploadButton> upload ڪريا ۿارُو click ڪرو</uploadButton>
+sc-bulk-upload-instruction-drop = فائل ايٿئہ نوکو زم اُو upload ٿي زائہ
+bulk-upload-additional-information = اِيئا فائل را ڀارام ڪوئي وڌرارئہ جانڪارِئي ڪروو هوئہ، تو ميرڀونئي ڪرينَ رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = جيڪيۮِي اِيئا فائل را ڀارام ڪوئي وڌِيڪ جانڪارئي ليوو هوئہ جئي اِيئا template ۾ شامِل نٿِي، ميرڀونئِي ڪرينَ رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = ٻِي﻿زِي وار ڪوشِيش ڪرو انَ آپرئِي فائل توڻي لي آوينَ ايٿئہ راکو
 
 ## SMALL BATCH SUBMISSION
 

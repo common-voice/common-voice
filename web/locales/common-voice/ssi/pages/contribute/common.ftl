@@ -16,10 +16,10 @@ contribute-more =
         [one] ایک
        *[other] دؔوجا
     }
-speak-empty-state = مہارے کن اِس ٻولیام بھرنے نتر جملے کُھٹی گے ہے۔۔۔
-no-sentences-for-variants = ہوئی سِکتا ہے کہ تھاری ٻعلیا کا موھ جملیس ٻار ہووے! اگر تھم آراماس ہے تو تھم اپٹؔی ٻولیا کے مہم دؔوجے جملے اپٹؔی کتارا کُو بدلی کری سِکتے ہے۔
-speak-empty-state-cta = جملے بھیݪے کرو
-speak-loading-error = ہمکُو تھارے ٻولٹؔیے نتر کوئی جملے نائی مِلی سِکے۔ کرپا کری کن پیچھیں پُٹھی کوسیس کرو۔
+speak-empty-state = مہارے کن اِس ٻولیام بھرنے نتر ٻول  کُھٹی گے ہے۔۔۔
+no-sentences-for-variants = ہوئی سِکتا ہے کہ تھاری ٻولیا کا موھ ٻولیںس ٻار ہووے! اگر تھم آراماس ہے تو تھم اپٹؔی ٻولیا کے مہم دؔوجے ٻول  اپٹؔی کتارا کُو بدلی کری سِکتے ہے۔
+speak-empty-state-cta = ٻول بھیݪے کرو
+speak-loading-error = ہمکُو تھارے ٻولٹؔیے نتر کوئی ٻول نائی مِلی سِکے۔ کرپا کری کن پیچھیں پُٹھی کوسیس کرو۔
 record-button-label = اپٹؔی آواج بھرو
 share-title-new = ودھیک <bold> آواجاں لہوڑنیم مہاری ساہیتا کرو </bold>
 keep-track-profile = پروفائلا بھیݪی اپٹؔے ودھٹؔیپ دھیان دؔیو
@@ -43,7 +43,9 @@ submit-form-action = بھیݪا کرنا
 
 report = کھٻر
 report-title = کھٻر دؔئٹؔا
-report-ask = اِن جملیںس تیرے سامے کیا مسلے آوتے ہے؟
+report-ask = اِن ٻولیںس تیرے سامے کیا مسلے آوتے ہے؟
+report-offensive-language = بے لکھٹؔی ٻولی
+report-offensive-language-detail = ٻولیم اپمان جنک یا بے لکھٹؔی بولی ہے
 
 ## Speak & Listen Shortcuts
 
