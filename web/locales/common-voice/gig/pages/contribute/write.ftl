@@ -18,6 +18,10 @@ new-sentence-rule-2 = هر جملي مين 15 اکري سون گھٽ
 new-sentence-rule-3 = سئي گرآمر استهمال ڪرو
 new-sentence-rule-4 = سئي اسپيل ائين زير زبر استهمال ڪرو
 new-sentence-rule-5 = ڪوئي بي انگي مين کآس لفز ڪوني
+new-sentence-rule-6 = پرآئي ملڪي رو کت
+new-sentence-rule-7 = آچهي سمجهاڻي ڀيڙي ڪرو
+new-sentence-rule-8 = ميسال تور ڪودرتي ائين وآت چيتي وآڙو جملو آسان هوڻ کپي
+login-instruction-multiple-sentences = ڪترآ ئي جملآ ڀيڙي ڪري سارو<loginLink> لآگ ان <loginLink>يا <loginLink> سائين اپ ڪرو</loginLink>
 
 ## BULK SUBMISSION
 

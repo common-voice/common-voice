@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = لِکو
+write = لکو
 write-instruction = ڀيۯو ڪرو <icon> </icon> هيڪ public domain جُملو سئہ
 write-page-subtitle = ايٿئہ ڀيۯا ڪريا ڳيا جُملا هيڪ ساڌا طريقا ٿِي موجُود سئہ  cc-0 ۾ شامل ڪريا زاشي۔
 sentence =
@@ -159,3 +159,5 @@ transcribe-audio-menu-item-tooltip = audio recordings نئہ آپر﻿ِي ٻو�
 write-contribute-menu-aria-label = options menu لکو
 add-sentences-menu-item-aria-label = نات ۿارُو نوا جُملا شامِل ڪرو زم اُو ڀڻي هيڪئہ
 review-sentences-menu-item-aria-label = نات رون منکون نئہ پيرهِين ٿِي ۮِيڌل جُملون رئي دوهرائِي ڪرو
+add-questions-menu-item-aria-label = نات ۿارُو نوا سوئال جمع ڪرو زم اُو ڀڻي هيڪئہ انَ جواب ۮي هيڪئہ
+transcribe-audio-menu-item-aria-label = audio recordings را متنَ ۾ Transcribe ڪرو
