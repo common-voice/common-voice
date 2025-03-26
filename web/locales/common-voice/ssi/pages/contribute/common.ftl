@@ -63,7 +63,7 @@ report-success = کھٻر سپھلتاس سِوکار کری لی ہے
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = س
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
@@ -73,6 +73,12 @@ shortcut-record-toggle = ر
 shortcut-record-toggle-label = بھرنا / روکٹؔا
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ٹُکڑا پُٹھا بھرنا
+shortcut-discard-ongoing-recording = ای ایس سی
+shortcut-discard-ongoing-recording-label = بھرتوڑے کُو چھوڈؔی دؔیو
+shortcut-submit = پُٹھا
+shortcut-submit-label = ٹُکڑا بھیݪا کرنا
+request-language-text = انجے تائی سادھارن آواجاپ تھاری ٻولی نائی دؔیسی؟
+request-language-button = ایک ٻولیا کی اپیل کرو
 
 ## Listen Shortcuts
 

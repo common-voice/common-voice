@@ -48,6 +48,7 @@ why-donate-explanation-2 = ٽيڪنولوجي هر ڪي سارو ڪآم ڪريم
 add-information-button = جآڻ ڀيڙي ڪرڻو
 continue-speaking-button = نا مهرباني ٻولڻو چآلو رآکو
 create-profile-text = ڪآئي تم آپيري وآتي لوڪآڻو چآئو ڇو<createProfile> پيرو فائل ٺآيو</createProfile>
+thanks-for-voice-toast = تمآري آواز ڏي موٽي مهرباني
 thanks-for-voice-toast-error = تمآري آوازي مين جمآ ر مهملي مين ايڪ گلتي هو گئي ڇي
 first-cta-gender-select-default-option = ايڪ رستو چونڏ
 first-cta-gender-select-help-text =

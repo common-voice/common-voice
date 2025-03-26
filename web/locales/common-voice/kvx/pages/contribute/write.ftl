@@ -101,6 +101,18 @@ too-many-files = الهائِي فائلون اپلوڊ ٿي ڳي
 small-batch-instruction = <icon></icon> ڌار ڌار جُملا شامِل ڪرو
 multiple-sentences-error = تمي ڌار ڌار جُملا هيڪ ئي وار شامِل نٿِي ڪري هيڪتا
 exceeds-small-batch-limit-error = تمي هزار ٿِي وڌارئہ جُملا جمع نٿِي ڪري هيڪتا
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ هيڪ منٽ ڪيڙ وۯي ڪوشِيش ڪرو
+       *[other] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ { $retryLimit } ڪينڪ منٽون ڪيڙ وۯي ڪوشِيش ڪرو
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ هيڪ سيڪنڊ ڪيڙ وۯي ڪوشِيش ڪرو
+       *[other] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ { $retryLimit }ڪينڪ سيڪنڊون ڪيڙ وۯي ڪوشِيش ڪرو
+    }
 
 ## MENU ITEM TOOLTIPS
 
