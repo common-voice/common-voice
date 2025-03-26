@@ -100,6 +100,13 @@ too-many-files = جآم گھڻي فائلي
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = ڪترآئي آوامي ڍومين جملآ ڀيڙي ميلآئو<icon></icon>
 multiple-sentences-error = تم ايڪ اي جمآ ڪرآئي سارو وڌيڪ جملآ شاميل ڪوني ڪر سکو ڇو
+exceeds-small-batch-limit-error = 1000 ري سون وديڪ جملآ جمآ ڪوني ڪرآ سکو ڇون
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] سرح ري هد ود گئي ڇي منٽي مين دوجهو سورو ڪر ايڪ
+       *[other] سرح ري هد ود گئي ڇي منٽي مين سورو ڪر { $retryLimit }
+    }
 
 ## MENU ITEM TOOLTIPS
 
