@@ -131,9 +131,25 @@ add-small-batch-success =
         [one] { $uploadedSentences } رو هيڪ جُملو جمع ڪريو ڳيو
        *[other] { $uploadedSentences } رو هيڪ جُملو جمع ڪريو ڳيو
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } رو هيڪ جُملو جمع ڪريو ڳيو۔ Click <downloadLink> ايٿئہ<downloadLink> رد ڪرَل جُملا download ڪريا ۿارُو۔
+       *[other] { $uploadedSentences } رو { $totalSentences }هيڪ جُملو جمع ڪريو ڳيو۔ Click <downloadLink> ايٿئہ<downloadLink> رد ڪرَل جُملا download ڪريا ۿارُو۔
+    }
+small-batch-sentences-rule-1 = Follow guidelines ٿِي مڌت ليو انَ ڪيڌل واتون مانه عمل ڪرو
+small-batch-sentences-rule-2 = هر هيڪ ليڻ ۾ هيڪ جُملو شامِل ڪرو
+small-batch-sentences-rule-3 = جُملا نئہ هيڪِي ليڻ ۾ ڌار ڪريا ۿارُو Enter ڪا Return را بٽڻ رو استعمال ڪرو
+small-batch-sentences-rule-4 = هزار ۿُوڌِي جُملا شامِل ڪرو
+small-batch-sentences-rule-5 = ٻڌون جُملون رو هيڪ ئِي domain هووو کپئہ
+small-batch-sentences-rule-6 = ٻڌون جُملون رو هيڪ ئِي citation هووو کپئہ
+# menu item
+add-sentences = جُملا جمع ڪرو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جُملا شامِل ڪرو انَ دوهرائِي رئہ ٽوڻئہ، سوئال شامِل ڪرو،Transcribe Audio ڪرو
+add-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملا شامِل ڪرو
 
 ## MENU ITEM ARIA LABELS
 

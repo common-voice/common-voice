@@ -95,4 +95,6 @@ shortcut-vote-no = ائن
 
 ## Validation criteria
 
-contribution-criteria-nav = اولکھ
+contribution-criteria-nav = معیار
+contribution-criteria-link = یوگدان کے معیار  کُو سمجو
+contribution-criteria-page-title = یوگدانا کا معیار
