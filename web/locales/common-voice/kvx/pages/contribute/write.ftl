@@ -150,6 +150,12 @@ add-sentences = جُملا جمع ڪرو
 
 write-contribute-menu-tooltip = جُملا شامِل ڪرو انَ دوهرائِي رئہ ٽوڻئہ، سوئال شامِل ڪرو،Transcribe Audio ڪرو
 add-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملا شامِل ڪرو
+review-sentences-menu-item-tooltip = آپرِي ٻولِي رون جُملون رئي دوهرائِي ڪرو
+add-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوئال شامِل ڪرو
+transcribe-audio-menu-item-tooltip = audio recordings نئہ آپر﻿ِي ٻولِي ۾ Transcribe ڪرو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = options menu لکو
+add-sentences-menu-item-aria-label = نات ۿارُو نوا جُملا شامِل ڪرو زم اُو ڀڻي هيڪئہ
+review-sentences-menu-item-aria-label = نات رون منکون نئہ پيرهِين ٿِي ۮِيڌل جُملون رئي دوهرائِي ڪرو

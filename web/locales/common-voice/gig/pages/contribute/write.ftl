@@ -13,6 +13,11 @@ citation =
 sc-write-submit-confirm = مين اُميد ڪرو ڇون ڪي جملو<wikipediaLink>آوامي ڍومين </wikipediaLink> ڇي مني او اپلوڍ ڪري ري موڪل ڏئو
 sc-review-write-title = مين ڪسي جملآ ميلآ سکو ن ڇون
 sc-review-small-batch-title = اترآ جملآ ڪي يو ڀيڙي ڪري
+new-sentence-rule-1 = ڪو ڀي ڪآپي <noCopyright>رآئيٽ ڪوني </noCopyright> پآبندي يي<cc0>سي سي-0</cc0>)
+new-sentence-rule-2 = هر جملي مين 15 اکري سون گھٽ
+new-sentence-rule-3 = سئي گرآمر استهمال ڪرو
+new-sentence-rule-4 = سئي اسپيل ائين زير زبر استهمال ڪرو
+new-sentence-rule-5 = ڪوئي بي انگي مين کآس لفز ڪوني
 
 ## BULK SUBMISSION
 
