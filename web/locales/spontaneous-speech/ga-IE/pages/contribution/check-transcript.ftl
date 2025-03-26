@@ -8,7 +8,8 @@ no-transcriptions-message = Níl aon tras-scríbhinní le dearbháil don teanga 
 vote-transcript-success = D'éirigh leis an moltóireacht ar an tras-scríobh
 vote-transcript-error = Tharla earráid fad agus a bhí moltóireacht á déanamh ar an tras-scríobh
 transcript-edited-success = D'éirigh leis an eagarthóireacht ar an tras-scríobh
-error-fetching-transcriptions = Chuaigh rud éigin cearr agus tras-scríobhanna á bhfáil. Bain triail eile as ar ball.
+transcript-edited-error = Tharla earráid fad agus a bhí eagarthóireacht á déanamh ar an tras-scríobh
+error-fetching-transcriptions = Chuaigh rud éigin cearr agus tras-scríbhinní á bhfáil. Bain triail eile as ar ball.
 transcript-skipped-success = Léimeadh go rathúil thar an tras-scríobh
 transcript-skipped-error = Tharla earráid fad agus a léimeadh thar an tras-scríobh
 # For the button on the Check Transcriptions page to assert that a transcription is correct
