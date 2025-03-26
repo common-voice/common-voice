@@ -23,9 +23,40 @@ guidelines = Treoracha
 report-button = Tuairiscigh
 # For the button to skip an item
 skip-button = Léim Thar Seo
+submit-button = Seol é
+contribute = Rannchuidigh
+request-new-language = Iarr Teanga Nua
 
 ## Navbar
 
+respond-to-prompt = Freagair
+transcribe = Trascríobh
+check-transcriptions = Athbhreithnigh
+question = Ceist
 
 ## Not Found Page
 
+not-found-page-header = Gan Aimsiú
+not-found-page-content = Níorbh fhéidir an leathanach atá á lorg agat a aimsiú
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Glacaim le <termsLink>Téarmaí</termsLink> agus leis an bh<privacyLink>Fógra Príobháideachais</privacyLink> a bhaineann le Common Voice.
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Béarla
+fr = Fraincis
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay
+meh = Tlaxiaco Mixtec Iardheisceartach
+mel = Melanau Láir
+mmc = Michoacán Mazahua
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pez = Penan Thoir
+pne = Penan Thiar
+sdo = Serian Bidayuh
+snv = Sa'ban
+tr = Tuircis
+xkl = Kenyah
