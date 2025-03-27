@@ -75,12 +75,58 @@ shortcut-rerecord-toggle = 5۔1
 shortcut-rerecord-toggle-label = وري ريٚڪوڊ ڪري ڪليٚپ
 shortcut-discard-ongoing-recording = ڇڏيٚ ڏڻ
 shortcut-discard-ongoing-recording-label = رد ڪرو هلتيٚ ريٚڪوڊدئيٚنگ کي
+shortcut-submit = واپس آڻ
+shortcut-submit-label = جمآ ڪرو ڪليٚپ
+request-language-text = اڃآنٚ تآئينٚ پنڊريٚ ٻوٚليٚ کيٚ ڪومن وئيٚس تي نآ ڏيسو
+request-language-button = درکواست ٻوٚليٚ ريٚ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پي
+shortcut-play-toggle-label = هلآڻ جآنٚ روڪڻ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ي
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = ميآر
+contribution-criteria-link = شرڪت ڪرڻ ري ميآر کي سمجھڻ
+contribution-criteria-page-title = شرڪت رڻ رو ميآر
+contribution-criteria-page-description = سمجھو تآ وائيٚس ڪلپس سُڻڻ وکت ڪيٚ  ڏسڻ کپي ائيٚنٚ پنڊريٚ وائيٚس رڪآرڊئيٚنگ کي وڌيٚڪ ڀليٚ ٺآهڻ مينٚ مدت ڪريو۔
+contribution-for-example = مسآل تور
+contribution-misreadings-title = گلت سلت پڙهڻ
+contribution-misreadings-description = سُڻڻ وکت، تمآم اهتيآت  سآنٚ چيڪ ڪرو تا جيڪو رڪآرڊ ڪيو وهي دو ايئي بلڪُل اُئئ جھڙو  لکيو وهُڙو اهي جيڪڏهنٚ آم گلتيٚونٚ با هوئينٚ  تا رد ڪرو۔<br /> بلڪُل آم گلتي شآمل هوئينٚ:
+contribution-misreadings-description-extended-list-1 = گآئيب <strong> اي</strong>جآنٚ<strong>دي </strong> رڪآرڊئيٚنگ ريٚ شروٚآت۔
+contribution-misreadings-description-extended-list-2 = گآئيب <strong>س</strong>هر لڦز ري آکر مينٚ
+contribution-misreadings-description-extended-list-3 = اهڙي نشآني  پڙهڻ جيڪي اسل مينٚ  موجود نآ اهي جيئنٚ تا "اسينٚ اهونٚ" ري بدرآنٚ "اسينٚ اهونٚ"، جآنٚ اُئي جهڙو.
+contribution-misreadings-description-extended-list-4 = رڪآرئيٚنگ کي تمآم جلديٚ ڪٽڻ ري ڪري آکريٚ لڦز ريٚ  پڇآڙيٚ وڃآئي وهُڙيٚ.
+contribution-misreadings-description-extended-list-5 = ڪجه وکت وٺو لڦز کي پڙهڻ لآ
+contribution-misreadings-example-1-title = ٽرآئيٚسڪ رآ وڏآ ڊآئينآسوَر.
+contribution-misreadings-example-2-title = ٽرآئيٚسڪ رو وڏو ڊآئينآسوَر.
+contribution-misreadings-example-2-explanation = ['ڊآئينآسوَر' هوڻ کپي]
+contribution-misreadings-example-3-title = ٽرآئيٚسيٚ رآ وڏآ ڊائينآسوَر۔
+contribution-misreadings-example-3-explanation = [آکريٚ لڦز ري آکر کآنٚ اڳ رڪآرڊئيٚنگ ڪٽي وهُڙيٚ]
+contribution-misreadings-example-4-title = ٽرآئيٚسڪ رآ وڏآ ڊآئينآسوَر. هآ.
+contribution-misreadings-example-4-explanation = [گُهربل متن کآنٚ وڌيٚڪ رڪآرڊ ڪيو وهُڙو اهي]
+contribution-misreadings-example-5-title = اسينٚ چآنٚه پيٚڻ وهي رهيآ اهونٚ
+contribution-misreadings-example-6-title = اسينٚ چآنٚه پيٚڻ وهي رهيآ اهونٚ
+contribution-misreadings-example-6-explanation = هوئڻ کپي اسينٚ اهونٚ
+contribution-misreadings-example-7-title = اسينٚ چآنٚه پيٚڻ ٻآهر وهي رهيآ اهونٚ
+contribution-misreadings-example-7-explanation = [اسل متن مينٚ 'اي' ڪونهي]
+contribution-misreadings-example-8-title = ڀنڀوٚرو تيزيٚ سآنٚ گزري وهُڙو۔
+contribution-misreadings-example-8-explanation = [گير متآبڪ رکندڙ مواد]
+contribution-varying-pronunciations-title = مکتليٚڦ اُوچآر
+contribution-varying-pronunciations-description = ڪنٚهنٚ ڪليٚپ کي رد ڪرڻ کآنٚ اڳ اهتيآت ڪرو او بنيآد تي تا پڙهڻ ڪنٚهنٚ لڦز رو گلت اُوچآرڪيو اهي، دٻاآ کي گلت جآگآ تي رکيو اهي، جآنٚ زآهريٚ تور تي سوآليآ نشآن کي نزراندآز ڪيو اهي. دُنيآ مينٚ مکتيٚڦ ڪسم رآ اُوچآر استمآل مينٚ اهينٚ، جن مآنٚ ڪجهه شآيد اڀآنٚ  پنڊريٚ مڪآميٚ برآدريٚ مينٚ نآ سُيآنٚ هُندآ. مهربآنيٚ ڪري اُئآنٚ لآ  تآريٚڦ رو هَڪ دآئيرو مهيآ ڪرو جيڪي شآيد اڀآنٚ کآنٚ مکتليٚڦ ڳآلهآئينٚ.
+contribution-varying-pronunciations-description-extended = ٻئيٚ ترڦ، جيڪڏهݩ اڀآݩ سوچيو اهي ٿا پڙهندڙ شآيد اڳ ڪڏهݩ با لڦز تي نآ پڄيو اهي، ائيٚݩ سرڦ اُوچآر تي گلت اندآزو لڳآئي رهيواهي، مهربآيٚ ڪري رد ڪرو. جيڪڏهݩ اڀآݩ کي پڪ نآهي، تا "اسڪيٚپ" بٽڻ استمآل ڪرو.
+contribution-varying-pronunciations-example-1-title = ايئي ري  مٿي تي هَڪ بيٚريٚٽ پآتل هُنديٚ.
+contribution-varying-pronunciations-example-1-explanation = ['بيٚيٚٽ' ٺيٚڪ اهي، پيريٚݩ اکر (برتانيآ) تي زور سآݩ جآݩ ٻئيٚ (آمريٚڪآ) تي]
+contribution-varying-pronunciations-example-2-title = اُوئي روهٿ مٿي اهي۔
 contribution-varying-pronunciations-example-2-explanation = [انگريزيٚ ميݩ 'Raised' کي هميشآ هَڪ اکر تور اُوچآر ڪيو وهُڙو اهي، ٻآ ميݩ] نآ
 contribution-background-noise-title = آسي پآسي رو گُوڙ
 contribution-background-noise-description = اسيݩ گُهروݩ دآ تا مشيٚن لرنيٚگ الگورٿم مکتلڦ ڪسم ريٚ  پس منزر ري شور کي سنڀاآڻ ريي ڪآبل هوڻ، ائيٚݩ نسبتآ تيز آوآزن کي ا ڪبول ڪري سگهجي دو بشرتيٚڪ اهي اڀآݩ کي مڪمل متن سُڻڻ کآݩ نآ ريٚڪي. کآموش پس منزر موسڪيٚ ٺيٚڪ اهي؛ ايتريٚ بُلند موسيڪيٚ جيڪآ اڀآݩ کي هر لڦز سُڻڻ کآݩ روٚڪي سگهي، اوٚ نآ اهي.
