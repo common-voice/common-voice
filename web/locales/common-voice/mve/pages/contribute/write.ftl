@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
-write = لِک ۔ لِکڻ
-write-instruction = لگائو “ شامل ڪيوڙا <icon> </icon> عوامِي ملڪِيتي جملہ
+write = لِک يا لِکڻ
+write-instruction = لگائو “ شامل ڪيوڙا <icon> </icon> عوامِي ڊومين جُملو
 write-page-subtitle = ايٿ جمع ڪيوڙا جملہ مِنکون ھارو لائيسنس مِليوڙَي cc-0 رَي جمع ڪيوڙَي ڊيٽا ۾ موجود ھيَ
 sentence =
     .label = جملو
