@@ -58,12 +58,20 @@ report-other-comment =
     .placeholder = تبصرو
 success = کامیاب
 continue = جاری
+report-success = رپوٹ سے کامیابی منظور ݰوئے
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = ڤے ریکارڈ/ بود کن
+shortcut-rerecord-toggle = [1-5]
 
 ## Listen Shortcuts
 
