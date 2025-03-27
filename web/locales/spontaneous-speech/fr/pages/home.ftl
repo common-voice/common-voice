@@ -10,10 +10,10 @@ why-card-1-text = Utile pour les <mark>contextes de parole organique </mark> et 
 why-card-2-text = Meilleur soutien pour les réalités linguistiques comme le translanguaging et le <mark>code-switching</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Meilleur support pour les langues qui ont peu ou <mark>aucun corpus textuel</mark> à utiliser (par exemple, les sociolectes, les variantes, les langues historiquement non écrites, etc.)
-how-spontaneous-speech-works = Comment fonctionne la parole spontanée
+how-spontaneous-speech-works = Comment fonctionne « Parole spontanée »
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>Prompt</mark>
-prompt-bubble-subtitle = Nous vous montrerons une invitation ou une question.
+prompt-bubble-title = <mark>Question</mark>
+prompt-bubble-subtitle = Nous vous afficherons une question.
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Répondre</mark>
 respond-bubble-subtitle = Vous y répondez ou réagissez de la manière la plus naturelle possible.
