@@ -53,6 +53,11 @@ report-different-language-detail = مو ژے ون دے دیر زبان نوخت�
 report-difficult-pronounce = پے اݰٹا دیر مشکل
 report-difficult-pronounce-detail = مولو المین لفظ یا فقرو استت ڤئے اݰٹا یا ادا کڑا مشکل۔
 report-offensive-speech = شوم تقریر
+report-offensive-speech-detail = دے آواز شوم یا غیر مہذب گپ استت
+report-other-comment =
+    .placeholder = تبصرو
+success = کامیاب
+continue = جاری
 
 ## Speak & Listen Shortcuts
 
