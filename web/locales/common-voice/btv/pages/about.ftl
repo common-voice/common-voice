@@ -32,6 +32,10 @@ about-is-it-valid-text = اواز سو کلپ رے نشان ھواں "تصدیق
 about-yes-votes = ≥ 2 آں سو ووٹ
 about-yes-votes-text = او عام اواز سو معلوماتی سیٹ سندے سو دن،اوز سو کلپ ضرور دُو ان ان یوزر نو تصدیق ھونݜ۔
 about-no-votes = ≥ 2 نہء ووٹ
+about-no-votes-text = کدی چہء یک یوزر یک اوز سو کلپ نامنظور گرا تہ سو واپس قطارے بزا۔ اگر دویئں وار رے نامنظور ھُن اواز سو کلپ  قبرستانے بیز بزا۔
+about-dataset-new = عام اواز سو معلوماتی سیٹ
+about-dataset-new-text = عام اواز سو معلوماتی سیٹ شلوں سو زرگونیوں اوازوں رے مشتمل ھواں چہء سےء اواز پھونیں سو اوزار سندے مہ ڈویلپروں سو مدد گرا۔
+about-clip-graveyard = کلپ قبرستان
 
 ## Community Playbook Content
 ## What is a language
