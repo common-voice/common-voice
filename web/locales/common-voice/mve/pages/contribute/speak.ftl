@@ -46,33 +46,33 @@ why-donate = ٿُون ڪيون پوڇيَ رھيو ھيَ؟
 why-donate-explanation-1 = اَي معلومات ڏيڻ ٿونرِي مرضِي ھيَ۔ جيَ ٿونيَ ڪو اعتراض ڪونھي تو ٿونيَ ڏيڻ کپيَ۔ جڏَيَ مھيَ مواد رو سيٽ جارِي ڪرون ھون۔ مھيَ ݾجيَ معلومات نيَ ڦرضِي نوم ڏيون ھون جون ٿونرو نوم، اِي ميل، عُمرھانَ جنس جيھڙي معلومات آبادِي رِي معلومات  نِي ھوڻ کپيَ
 why-donate-explanation-2 = ٽيڪنالاجِي ݾجا ھارون سُٺيَ نموُنيَ ھون ڪوم ڪريَ، مواد ٺاھڻ آݪا  مختلف منکون رِي ضرُورت رَي مطابق ٽيڪنالاجِي نَي ٺاھڻ ھارون مدد ڪريَ  ھَي۔ مسال طور اگر آپيَ ڪي مخصوص لھجيَ ٻولڻ ھاݪون نَي شامل ڪونھي ڪرون ھون، پڇيَ ٽئڪنالاجِي مِنکون ھارون سُٺيَ نمونيَ ھون ڪوم ڪونھي ڪريَ ۔<learnMore>  وڌيڪ اِيئي ريَ باريَ ۾  ھيکو ڪہ ميٽا ڊيٽا ڪيون ضُرورِي ھَي۔</learnMore>
 add-information-button = معلومات شامل ڪرو
-continue-speaking-button = نا مھربوني، بات جاري راکو
-create-profile-text = معلومات محفوظ ڪرڻ چاھو ٿا؟<createProfile> پروفائل ٺائو</createProfile>
+continue-speaking-button = نا مھربونِي، وات جارِي راکو
+create-profile-text = معلومات محفوظ ڪرڻ چاھو ھو؟<createProfile> پروفائل ٺائو</createProfile>
 thanks-for-voice-toast = ٿونرِي آواز رِي معلومات ڏيڻ رِي مھربوني
 thanks-for-voice-toast-error = ٿونرَي آواز رِي معلومات جمع ڪرڻ ۾ ھيڪ خرابي ھوئِي رِي
 first-cta-gender-select-default-option = ھيڪ آپشن چونڊو
 first-cta-gender-select-help-text =
-    .label = ٿيَ آپرَي جنس يا صنف نيَ ڪونڪر بيان ڪر ھو؟
+    .label = ٿيَ آپرَي جنس ھانَ صنف نيَ ڪونڪر بيان ڪرو ھو؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = آپرِي آواز رو حصو ڏيڻ رِي مھربونِي
-second-cta-subtitle-text = آپرَي پروفائل ھون ٿيَ آپرَي ڪوم نيَ جوئيَ ھگو ھو ھان برادري جي آواز ۾ حصو ليڻ آڙو ڀيڙا مليَ ھگو ھو
+second-cta-subtitle-text = آپرَي پروفائل ھون ٿيَ آپرَي ڪوم نيَ جوئيَ ݾگو ھو ھانَ برادرِي رِي آواز ۾ حصو ليڻ آݪون ڀيڙا مليَ ݾگو ھو
 already-have-an-account = پيل ھون ھيڪ اڪائونٽ ھيَ<login>لاگ ان</login>
-create-profile-button = پروفائل ٺاھو
+create-profile-button = پروفائل ٺائو
 # IMAGE TAGS
-img-alt-success-checkmark = ڪاميابي رو نشان
+img-alt-success-checkmark = ڪاميابِي رو نشان
 # menu item
-read-sentences = جملا پڙھو
+read-sentences = جُملا پڙھو
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = جملا پڙھو<small>آڻ آڙو ھيَ</small>
+read-sentences-coming-soon = جُملا پڙھو<small>ڇيڪوآڻ آݪو ھيَ</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = جملا پڙھو، جواب سوال
-read-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ آپرا جملا ريڪارڊ ڪرو
-answer-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوالون ھان اشارون را جواب ڏيتيَ آپ نيَ ريڪارڊ ڪرو
+speak-contribute-menu-tooltip = جُملا پڙھو، جواب سوال
+read-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ آپرا جُملا ريڪارڍ ڪرو
+answer-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوالون ھانَ اشارون را جواب ڏيتيَ آپ نيَ ريڪارڍ ڪرو
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = ٻولڻ آݪو مينيو
-read-sentences-menu-item-aria-label = برادري رِي طرف ھون جمع ڪرايوڙا مختلف ٻوليون را جملہ پڙھو
-answer-questions-menu-item-aria-label = برادري ھارو پڙھڻ ھان جواب ڏيڻ ھارو ھيڪ نئون سوال جمع ڪرو
+read-sentences-menu-item-aria-label = برادرِي رِي طرف ھون جمع ڪرايوڙا مختلف ٻوليون را جُملہ پڙھو
+answer-questions-menu-item-aria-label = برادرِي ھارو پڙھڻ ھانَ جواب ڏيڻ ھارو ھيڪ نئون سوال جمع ڪرو

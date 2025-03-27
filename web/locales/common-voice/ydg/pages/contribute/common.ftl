@@ -96,3 +96,5 @@ shortcut-vote-no = این
 ## Validation criteria
 
 contribution-criteria-nav = اصول
+contribution-criteria-link = ڤے حصو غوردان اصول ڤزانا
+contribution-criteria-page-title = حصو دریان اصول
