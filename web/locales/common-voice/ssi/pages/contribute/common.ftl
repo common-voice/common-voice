@@ -141,3 +141,6 @@ contribution-background-voices-title = لارکیاں آواجاں
 contribution-background-voices-description-extended = جئے اگر بھروڑی آواج ٹُوٹی جاوتی ہے، یا اِس میں تئیڑاں پڑتیاں ہیں، اُس تائیں چھوڈؔی دؔیو جس تائیں کہ پُورا کتھن سُٹؔا نائی جائی سِکے۔
 contribution-background-voices-example-1-title = پُراتنا کے سپا ٻڈؔے ڈایناسور۔ <strong>[ایک آواجاس  پڑھو]</strong>
 contribution-background-voices-example-1-explanation = توں آئیرا ہے؟<strong>[کسی دؔوجے کے جریئے ٻلایا ہے]</strong>
+contribution-just-unsure-title = رُگی او وسِواسی
+see-more = <chevron></chevron> ودھیک دؔیکھو
+see-less = <chevron></chevron> گھٹ دؔیکھو
