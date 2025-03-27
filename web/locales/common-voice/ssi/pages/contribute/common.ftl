@@ -104,3 +104,4 @@ contribution-misreadings-title = گلت سمجٹؔا
 contribution-misreadings-description = سُٹؔتیاٹؔے اِدؔائے دؔیکھو کہ جکو بھروڑا ہے ٻو ٻوی ہے جکو لِکھوڑا ہے جئے اگر چھوچ موچ گلتیاں بھی ہووے تو چھوڈؔی دؔیو <br /> سپا سادھارن گلتیم بھیݪی ہے
 contribution-misreadings-description-extended-list-1 = بھرتیاٹؔے سِروام <strong>'A'</strong> یا <strong> 'The' </strong> گُم ہے۔
 contribution-misreadings-description-extended-list-2 = کسی سبدے کے پچھاڑیام <strong>'s'</strong> گُم ہے۔
+contribution-misreadings-description-extended-list-4 = بھروڑی آواجا کُو سپا تکڑام کاٹی کن پچھاڑی سبد کا پچھاڑِ آئی گی۔
