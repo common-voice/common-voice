@@ -73,34 +73,34 @@ sc-bulk-upload-header = </icon><icon>جُملہ عوامي ڊومين ۾ اپ ل
 sc-bulk-upload-instruction = آپرِي فائل ايٿ ڇِڪيَ آئو ھان <uploadButton> اپ لوڊ تيَ دبائو </uploadButton>
 sc-bulk-upload-instruction-drop = فائل نيَ اپ لوڊ ڪرڻ ݾارو ايٿ ڇوڙو
 bulk-upload-additional-information = جيَ ٿيَ وڌيڪ فائل رَي بارَي ۾ معلومات ڏيڻ چاھو ھو تو رابطو ڪرو <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = جيَ ٿيَ وڌيڪ ڪو معلومات ڏيڻ چاھو ھو جڪو ايئيَ تيمپليٽ ۾ شامل ڪوني، مھرباني ڪرَي رابطو ڪرو <emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = فائل نيَ ايٿ ڇڪيَ ليائيَ وڙَي ڪوشش ڪرو
-try-upload-again-md = وڙَي اپ لوڊنگ رِي ڪوشش ڪرو
+template-file-additional-information = جيَ ٿيَ وڌيڪ ڪو معلومات ڏيڻ چاھو ھو جڪو ايئيَ کاڪيَ ۾ شامل ڪونِي، مھرباني ڪرَي رابطو ڪرو <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = فائل نيَ ايٿ ڇِڪيَ ليائيَ وڙَي ڪوشش ڪرو
+try-upload-again-md = وڙَي اپ لوڍنگ رِي ڪوشش ڪرو
 select-file = فائل چونڊو
 select-file-mobile = اپ لوڊ ڪرڻ ھارو فائل چونڊو
-accepted-files = قبول ھوڻ آڙي فائلون رو قسم: صرف  .tsv
-minimum-sentences = فاہل ۾ گھٽ ۾ گھٽ جملہ: 1000
+accepted-files = قبول ھوڻ آڙِي فائلون رو قسم: صرف  .tsv
+minimum-sentences = فائل ۾ گھٽ ۾ گھٽ جملہ: 1000
 maximum-file-size = فائل رو وڌ ۾ وڌ سائز:25 ايم بِي
 what-needs-to-be-in-file = مھارِي فائل ۾ ڪِي ھوڻ کپيَ؟
-what-needs-to-be-in-file-explanation = مھربوني ڪرَي مھورِي <templateFileLink> ٽيمپليٽ فائل </templateFileLink> ٿونرا جملا ڪاپِي رائٽ ھون آزاد ھوڻ کپيَ(CC0 يا جمع ڪِيوڙَي رِي طرف ھون اجازت ڏينوڙو اصلي ڪم ) صاف ھوئيَ ، گرامر رَي اعتبار ھون ٺيڪ ھان پڙھڻ ۾ سولو۔ شامل ڪيوڙَي جملو نيَ پڙھڻ ۾ -10-15 سيڪنڊ لاگڻ کپيَ ھان انگون، ٺيڪ اسمون ھان خاص اکرون نيَ شامل ڪرڻ ھون پاسو ڪرڻ کپيَ
-upload-progress-text = اپ لوڊ ھليَ وو
+what-needs-to-be-in-file-explanation = مھربونِي ڪرَي مھورِي <templateFileLink> کاڪو فائل </templateFileLink> ٿونرا جملا ڪاپِي رائٽ ھون آزاد ھوڻ کپيَ(CC0 يا جمع ڪِيوڙَي رِي طرف ھون اجازت ڏِينوڙو اصلي ڪم ) صاف ھوئيَ ، گرامر رَي اعتبار ھون ٺيڪ ھان پڙھڻ ۾ سولو۔ شامل ڪيوڙَي جملو نيَ پڙھڻ ۾ -10-15 سيڪنڊ لاگڻ کپيَ ھان انگون، ٺيڪ اسمون ھان خاص اکرون نيَ شامل ڪرڻ ھون پاسو ڪرڻ کپيَ
+upload-progress-text = اپ لوڊ ھليَ وئو
 sc-bulk-submit-confirm = ھوُن تصديق ڪرون ھون اَي جملہ عوامي ڊومين <wikipediaLink>ھيَ</wikipediaLink>ھان مھيَ ڪوڊِي ايئيَ نيَ اپ لوڊ ڪرڻ رِي اجازت ھيَ
-bulk-upload-success-toast = وڏِي تعداد ۾ جملھ اپ لوڊ ڪِيا گيا
+bulk-upload-success-toast = وڏِي تعداد ۾ جُملا اپ لوڊ ڪِيا گيا
 bulk-upload-failed-toast = اپ لوڊ ناڪام ھوئو وڙَي ڪوشش ڪرو
-bulk-submission-success-header = وڏِي تعداد ۾ جملہ شامل ڪرڻ ھارو حصو ليڻ رِي مھربوني
-bulk-submission-success-subheader = ٿيَ ڪامن وائس رِي  مھوري روزانون ٻوليا جاڻ آڙَي جملو تائين رسائي ۾ مدد ڪري ريا ھو
-upload-more-btn-text = وڌيڪ جملہ اپ لوڊ ڪرو
+bulk-submission-success-header = وڏِي تعداد ۾ جُملا شامل ڪرڻ ھارو حصو ليڻ رِي مھربونِي
+bulk-submission-success-subheader = ٿيَ مھوري روزانون ٻوليا جاڻ آڙَي جُملو تائين رسائي ۾  ڪامن وائس رِي مدد ڪري ريا ھو
+upload-more-btn-text = وڌيڪ جُملا اپ لوڊ ڪرو
 file-invalid-type = غلط فائل
 file-too-large = فائل جام وڏِي ھيَ
-file-too-small = فائل جام ننڊِي ھيَ
+file-too-small = فائل جام نِنڪِي ھيَ
 too-many-files = جام فائلون
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> عوامي ڊومين ۾ وڌيڪ جملہ شامل ڪرو
-multiple-sentences-error = ھيڪيَ چڪر ۾ ٿيَ وڌيڪ جملہ ڪونِي شامل ڪريَ ھگو ھو
-exceeds-small-batch-limit-error = 1000 جملون ھون وڌيڪ شامل ڪونِي ڪري ھگو ھو
+small-batch-instruction = <icon></icon> عوامي ڊومين ۾ وڌيڪ جُملہ شامل ڪرو
+multiple-sentences-error = ھيڪيَ چڪر ۾ ٿيَ وڌيڪ جُملہ ڪونِي شامل ڪريَ ݾگو ھو
+exceeds-small-batch-limit-error = 1000 جُملون ھون وڌيڪ شامل ڪونِي ڪري ݾگو ھو
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->

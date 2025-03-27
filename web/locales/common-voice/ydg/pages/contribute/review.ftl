@@ -7,6 +7,7 @@ sc-review-form-button-approve-shortcut = وائی
 sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
+sc-review-link = اشپہ اوݱڑا
 
 ## REVIEW CRITERIA
 
