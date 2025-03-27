@@ -1,6 +1,8 @@
 ## Question Page
 
+question-page-instruction = Ehai porandu <icon></icon> { $currentLocale }-pe oñembohovaikuaa hag̃ua
 add-question-textarea-placeholder = Techapyrã, "¿Ma’ẽrãpa eiporúta tembiporupyahu?"
+add-questions-terms-checkbox = * Amoneĩ ko porandu ha’eha <publicDomainLink>opavave oiporukuaáva</publicDomainLink> ha areko ñemoneĩ ahupi hag̃ua.
 question-dataset-language = Mba’ekuaarã aty: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
