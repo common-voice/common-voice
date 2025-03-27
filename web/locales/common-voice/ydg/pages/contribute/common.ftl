@@ -45,6 +45,7 @@ report = رَپوٹ کن
 report-title = ڤے رپوٹ جمع کن
 report-ask = نتو دیم جملو څیمین مسئلو پیدا ایتے؟
 report-offensive-language = شوم گپ
+report-offensive-language-detail = دے جملو شوم یا غیر مہذب گپ استت۔
 
 ## Speak & Listen Shortcuts
 
