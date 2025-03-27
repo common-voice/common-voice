@@ -51,6 +51,8 @@ report-grammar-or-spelling-detail = دیم جملو دے گرائمر یا دے 
 report-different-language = دیر زبان
 report-different-language-detail = مو ژے ون دے دیر زبان نوختیغو استت دے ګیم کو زو’ گپ دہامتے
 report-difficult-pronounce = پے اݰٹا دیر مشکل
+report-difficult-pronounce-detail = مولو المین لفظ یا فقرو استت ڤئے اݰٹا یا ادا کڑا مشکل۔
+report-offensive-speech = شوم تقریر
 
 ## Speak & Listen Shortcuts
 
