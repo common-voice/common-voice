@@ -7,12 +7,12 @@ sc-review-select-language = ميرٻانِي ڪيرنَ جُملان نو جا�
 sc-review-no-sentences = جائزو ليڌا ۿارُو ڪونئين جُملا نٿِي <addLink> هويَ وڌارين جُملا ايڍ ڪرو۔ </addLink>
 sc-review-form-prompt =
     .message = جُملان نو جائزو لئِي ليڌو سي پڻ هزِي حواليَ نٿِي ڪريا، هاس سي؟
-sc-review-form-usage = جملان نين هوريَ پاۿيَ ٿِي منظور ڪريا ۿارُو ۮٻاوو۔ منظور نا ڪريا ۿارُو ڏاويَ پاۿيَ ٿِي ۮٻاوو۔ ميڪِي ۮيڌا ۿارُو اُونسين ٿِي ۮٻاوو۔ <strong> پوتا نو جائرو ۮيڌا نون نا ڀُولزُو </strong>
+sc-review-form-usage = جملان نين هوريَ پاۿيَ ٿِي منظور ڪريا ۿارُو ۮٻاوينَ ڇِڪو۔ منظور نا ڪريا ۿارُو ڏاويَ پاۿيَ ٿِي ۮٻاوينَ ڇِڪو۔ ميڪِي ۮيڌا ۿارُو ماٿيَ ٿِي ۮٻاوينَ ڇِڪو۔ <strong> پوتا نو جائرو ۮيڌا نون نا ڀُولزُو </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = زريئو { $sentenceSource }
+sc-review-form-source = زريعو: چان ٿِي ليڌل سي: { $sentenceSource }
 sc-review-form-button-reject = نا منظور
-sc-review-form-button-skip = ميڪِي ۮيوون
+sc-review-form-button-skip = اِسڪِپ-ميڪِي ڄو
 sc-review-form-button-approve = منظور ٿاوون
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ي
