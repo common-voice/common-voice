@@ -101,3 +101,5 @@ contribution-criteria-page-title = یوگدانا کا معیار
 contribution-criteria-page-description = سمجو کہ آواجا کا ٹُکڑا سُٹؔتیاٹؔے کیا لہوڑنا ہے اور اپٹؔی آواجا کُو ودھیک اجری ٻٹؔاٹؔیم ساہیتا کرو!
 contribution-for-example = ایک ٻات ہے
 contribution-misreadings-title = گلت سمجٹؔا
+contribution-misreadings-description = سُٹؔتیاٹؔے اِدؔائے دؔیکھو کہ جکو بھروڑا ہے ٻو ٻوی ہے جکو لِکھوڑا ہے جئے اگر چھوچ موچ گلتیاں بھی ہووے تو چھوڈؔی دؔیو <br /> سپا سادھارن گلتیم بھیݪی ہے
+contribution-misreadings-description-extended-list-1 = بھرتیاٹؔے سِروام <strong>'A'</strong> یا <strong> 'The' </strong> گُم ہے۔
