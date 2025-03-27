@@ -29,19 +29,19 @@ guidelines = ھيکڻ را اصول
 contact-us = مھون ھون رابطو ڪرو
 add-sentence-success = ھيڪ جُملو ڀيڙو ڪيو
 add-sentence-error = جُملو شامل ڪرڻ ۾ خرابي
-required-field = مھربوني ڪري ايئيَ فيِلڊ نيَ ڀرو
-single-sentence-submission = ھيڪ جملو شامل ڪرڻ
-small-batch-sentence-submission = جملون را ننڊا جٿا شامل ڪرڻ
-bulk-sentence-submission = وڏا جملون را جٿا شامل ڪرڻ
+required-field = مھربونِي ڪري ايئيَ خالِي جگھہ نيَ ڀرو
+single-sentence-submission = ھيڪ جُملو شامل ڪرڻ
+small-batch-sentence-submission = جُملون را نِنيان جٿا شامل ڪرڻ
+bulk-sentence-submission = وڏا جُملون را جٿا شامل ڪرڻ
 single-sentence = ھيڪلو ۔ ھيڪلِي ۔ ھيڪ
-small-batch-sentence = ننڊو جٿو
+small-batch-sentence = نِنيو جٿو
 bulk-sentence = وڏو جٿو
-sentence-domain-combobox-label = جملون رو ڊومين (ملڪت)
-sentence-domain-select-placeholder = تين ڊومين (ملڪت) تائين چونڊ ڪرو (مرضي)
+sentence-domain-combobox-label = جُملون رو ڊومين
+sentence-domain-select-placeholder = تين ڊومين تائين چونڍ ڪرو (مرضي)
 # Sentence Domain dropdown option
 agriculture_food = ٻنِي ٻارو ھان کادو
 # Sentence Domain dropdown option
-automotive_transport = گاڏَي ھان سوارَي
+automotive_transport = گاڏَي ھان سواريَ
 # Sentence Domain dropdown option
 finance = حساب ڪتاب
 # Sentence Domain dropdown option
@@ -49,7 +49,7 @@ service_retail = ڪم ڪار ھان ويڪرو
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
-healthcare = صحت رِي ساݪ سنڀاݪ
+healthcare = صحت رِِي ساݪ سنڀاݪ
 # Sentence Domain dropdown option
 history_law_government = تاريخ، قانون ھان سرڪار
 # Sentence Domain dropdown option
@@ -61,17 +61,17 @@ nature_environment = قدرت ھان ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبرون ھان ھيڻوڪا معاملہ
 # Sentence Domain dropdown option
-technology_robotics = ٽيڪنالاجي ھان رينوٺڪس
-sentence-variant-select-label = جمليَ را قسم
-sentence-variant-select-placeholder = جمليَ رَي قسم نيَ چوندو (مرضي)
+technology_robotics = ٽيڪنالاجي ھان روبوٽِڪس
+sentence-variant-select-label = جُمليَ را قسم
+sentence-variant-select-placeholder = جُمليَ رَي قسم نيَ چوندو (مرضي)
 sentence-variant-select-multiple-variants = عام ٻوليَ ۔ وڌيڪ قسم
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = </icon><icon>جملہ عوامي ڊومين ۾ اپ لوڊ ڪريو
-sc-bulk-upload-instruction = آپرِي فائل ايٿ ڇڪيَ ائو ھان <uploadButton> اپ لوڊ تيَ دبائو </uploadButton>
-sc-bulk-upload-instruction-drop = فائل نيَ اپ لوڊ ڪرڻ ھارو ايٿ ڇوڙو
+sc-bulk-upload-header = </icon><icon>جُملہ عوامي ڊومين ۾ اپ لوڊ ڪريو
+sc-bulk-upload-instruction = آپرِي فائل ايٿ ڇِڪيَ آئو ھان <uploadButton> اپ لوڊ تيَ دبائو </uploadButton>
+sc-bulk-upload-instruction-drop = فائل نيَ اپ لوڊ ڪرڻ ݾارو ايٿ ڇوڙو
 bulk-upload-additional-information = جيَ ٿيَ وڌيڪ فائل رَي بارَي ۾ معلومات ڏيڻ چاھو ھو تو رابطو ڪرو <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = جيَ ٿيَ وڌيڪ ڪو معلومات ڏيڻ چاھو ھو جڪو ايئيَ تيمپليٽ ۾ شامل ڪوني، مھرباني ڪرَي رابطو ڪرو <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = فائل نيَ ايٿ ڇڪيَ ليائيَ وڙَي ڪوشش ڪرو
