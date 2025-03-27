@@ -107,3 +107,4 @@ contribution-misreadings-description-extended-list-2 = کسی سٻدے کے پچ
 contribution-misreadings-description-extended-list-4 = بھروڑی آواجا کُو سپا تکڑام کاٹی کن پچھاڑی سٻد کا پچھاڑِ آئی گی۔
 contribution-misreadings-description-extended-list-5 = ایکی سٻدا کُو پڑھنے کی کئی جتن کرنے۔
 contribution-misreadings-example-2-explanation = ['ڈائیناسور' ہوٹؔا چائے]
+contribution-misreadings-example-3-explanation = [پچھاڑی سٻداس  پچھاڑیاس  پہلے آواج بھروڑی کاٹی دی ہے]
