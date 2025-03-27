@@ -3,7 +3,7 @@
 welcome-to-spontaneous-speech = Bienvenue à Parole Spontané
 # <br></br> represents a newline break
 wall-of-text = Common Voice lance une deuxième plateforme axée sur la collecte de paroles organiques, spontanées et non scriptées. Cela aidera de nombreuses communautés à collecter des données plus rapidement, tout en étant utile pour les data scientists et les développeurs
-why-spontaneous-speech = Pourquoi nous avons construit ce prototype de Parole Spontané
+why-spontaneous-speech = Pourquoi avons-nous créé ce prototype de Parole spontanée
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Utile pour les <mark>contextes de parole organique </mark> et les cas d'usage (par exemple, lorsque vous souhaitez que la reconnaissance vocale fonctionne avec des personnes parlant de manière non scriptée et familière).
 # text wrapped with <mark></mark> will have a light red background
@@ -30,9 +30,9 @@ contact-us = Contactez-nous
 contact-us-title = Intéressé par la participation à ce projet ou par un partenariat avec nous ?
 contact-us-email = Adresse e-mail: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Faites-vous déjà partie de notre groupe de test Alpha pour le projet de parole spontanée de Common Voice ?
-signup-terms = En cliquant sur « Envoyer un lien à mon adresse e-mail », vous acceptez nos <termsLink>Conditions d'utilisation</termsLink> et <privacyLink>la Politique de confidentialité</privacyLink> et acceptez que Mozilla puisse vous envoyer des informations sur la manière de participer aux tests Alpha pour le projet de parole spontanée de Common Voice.
+signup-terms = En cliquant sur « Envoyer un lien à mon adresse e-mail », vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink> et acceptez que Mozilla puisse vous envoyer des informations sur la manière de participer aux tests Bêta pour le projet Parole spontanée de Common Voice.
 signup-input-placeholder = Saisissez votre adresse e-mail
 signup-button-value = Envoyer un lien à mon adresse e-mail
 footer-text-privacy = <privacyLink>Confidentialité</privacyLink>
-footer-text-terms = <termsLink>Conditions générales d'utilisation</termsLink>
+footer-text-terms = <termsLink>Conditions générales d’utilisation</termsLink>
 footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
