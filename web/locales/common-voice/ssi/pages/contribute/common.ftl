@@ -129,3 +129,6 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret' سہی ہ
 contribution-varying-pronunciations-example-2-title = اُس کا ہات اُٹھوڑا تیا۔
 contribution-varying-pronunciations-example-2-explanation = [انگریجیام ‘Raised’ کا لہجا سدائیں ایکی سٻدا کے توراپ ہوتا ہے، دؔو نائی]
 contribution-background-noise-title = لارکا گاریا
+contribution-background-noise-description =
+    ہم چاہوتے ہے کہ مسین سِیکٹؔیں کا نِکسا نِیارے نِیارے نمونے کے لارکے گاھرِئے کُو ساںمبھٹٚیں کاما کا ہے،
+    اور ایٹھے تائیں تو اُسجو ہے آواجیں کُو بھی مانا جائی سِکتا ہے اُس کے بھیݪا ٻو تھمکُو پورا کتھن سُٹؔنیس نائی روکے ۔ لارکی سانتِیا کا سنگیت سئی ہے؛ سنگیت تھمکُو ہر ایک سٻدا کُو سُٹؔنیس روکٹؔیں نتر گھٹؔا تیج ہے۔

@@ -104,47 +104,47 @@ exceeds-small-batch-limit-error = 1000 جُملون ھون وڌيڪ شامل ڪ�
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] شرح رِي حد وڌِِ رِي۔ ھيڪ منٽ ۾ وڙَي ڪوشش ڪرو
-       *[other] شرح رِي حد وڌِِ رِي۔ { $retryLimit } منٽون ۾ وڙَي ڪوشش ڪرو
+        [one] شرح رِي حد وڌِي رِي۔ ھيڪ منٽ ۾ وݪيَ ڪوشش ڪرو
+       *[other] شرح رِي حد وڌِي رِي۔ { $retryLimit } منٽون ۾ وݪيَ ڪوشش ڪرو
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] شرح رِي حد وڌِِ رِي۔  ھيڪ منٽ ۾ وڙَي ڪوشش ڪرو
-       *[other] شرح رِي حد وڌِِ رِي۔ { $retryLimit } منٽون ۾ وڙَي ڪوشش ڪرو
+        [one] شرح رِي حد وڌِي رِي۔  ھيڪ منٽ ۾ وݪيَ ڪوشش ڪرو
+       *[other] شرح رِي حد وڌِي رِي۔ { $retryLimit } منٽون ۾ وݪَي ڪوشش ڪرو
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربوني ڪرَي ٻيجو جملو شامل ڪرڻ ھون پيل 1 منٺ انتظار ڪرو۔ ٿونرَي صبر ڪرڻ رِي مھربوني
-       *[other] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربوني ڪرَي ٻيجو جملو شامل ڪرڻ ھون پيل { $retryLimit }منٺ انتظار ڪرو۔ ٿونرَي صبر ڪرڻ رِي مھربوني
+        [one] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربونِي ڪرَي ٻيجو جُملو شامل ڪرڻ ھون پيل 1 منٽ انتظار ڪرو۔ ٿونريَ صبر ڪرڻ رِي مھربونِي
+       *[other] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربونَي ڪرَي ٻيجو جُملو شامل ڪرڻ ھون پيل { $retryLimit }منٽ انتظار ڪرو۔ ٿونريَ صبر ڪرڻ رِي مھربونِي
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربوني ڪرَي ٻيجو جملو شامل ڪرڻ ھون پيل 1 منٺ انتظار ڪرو۔ ٿونرَي صبر ڪرڻ رِي مھربوني
-       *[other] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربوني ڪرَي ٻيجو جملو شامل ڪرڻ ھون پيل { $retryLimit } منٺ انتظار ڪرو۔ ٿونرَي صبر ڪرڻ رِي مھربوني
+        [one] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِِي حد تائين رسيا را۔ مھربونِي ڪرَي ٻيجو جُملو شامل ڪرڻ ھون پيل 1 منٽ انتظار ڪرو۔ ٿونريَ صبر ڪرڻ رِي مھربونِي
+       *[other] ٿيَ ايئيَ پنيَ رَي شامل ڪرڻ رِي حد تائين رسيا را۔ مھربوني ڪرَي ٻيجو جُملو شامل ڪرڻ ھون پيل { $retryLimit } منٽ انتظار ڪرو۔ ٿونريَ صبر ڪرڻ رِي مھربونِي
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } ۾ 1ھيڪ جملو شامل ڪرو
-       *[other] { $uploadedSentences } ۾ { $totalSentences } جملا شامل ڪرو
+        [one] { $uploadedSentences } ۾ 1ھيڪ جُملو شامل ڪرو
+       *[other] { $uploadedSentences } ۾ { $totalSentences } جُملا شامل ڪرو
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } ۾ 1 جملو شامل ڪرو۔ دبائو<downloadLink> ايٿ</downloadLink>رد ڪيوڙي جملون نيَ ڊائون لوڊ ڪرڻ لا
-       *[other] { $uploadedSentences } ۾{ $totalSentences } جملو شامل ڪرو۔ دبائو<downloadLink> ايٿ</downloadLink>رد ڪيوڙي جملون نيَ ڊائون لوڊ ڪرڻ لا
+        [one] { $uploadedSentences } ۾ 1 جُملو شامل ڪرو۔ دبائو<downloadLink> ايٿ</downloadLink>رد ڪيوڙيَ جملون نيَ ڊائون لوڊ ڪرڻ لا
+       *[other] { $uploadedSentences } ۾{ $totalSentences } جُملو شامل ڪرو۔ دبائو<downloadLink> ايٿ</downloadLink>رد ڪيوڙيَ جُملون نيَ ڊائون لوڊ ڪرڻ لا
     }
-small-batch-sentences-rule-1 = رھنمائِي رَي اصولون ھو ڪيھڙا جملا ھوُن شامل ڪري ھگون ھون؟
-small-batch-sentences-rule-2 = ھيڪ جملو ھيڪي لائن ۾ شامل ڪرو
-small-batch-sentences-rule-3 = ھيڪ چڪر “Enter” or “Return” دبائيَ جملون ني ھيڪِي لائن ھون الگ ڪرو
-small-batch-sentences-rule-4 = 1,000 جملون توڻي شامل ڪرو
-small-batch-sentences-rule-5 = سجون جملون رو ڊومين لازمي ساگيون ھوڻ کپيَ
-small-batch-sentences-rule-6 = سجون جملون را حوالا لازمي ساگيا ھوڻ کپيَ
+small-batch-sentences-rule-1 = رھنمائِي رَي اصولون ھو ڪيھڙا جُملا ھوُن شامل ڪري ݾگون ھون؟
+small-batch-sentences-rule-2 = ھيڪ جُملو ھيڪِي لائن ۾ شامل ڪرو
+small-batch-sentences-rule-3 = ھيڪ چڪر “Enter” or “Return” دبائيَ جُملون ني ھيڪِي لائن ھون الگ ڪرو
+small-batch-sentences-rule-4 = 1,000 جُملون توڻي شامل ڪرو
+small-batch-sentences-rule-5 = ݾجون جُملون رو ڊومين لازمي ساگيون ھوڻ کپيَ
+small-batch-sentences-rule-6 = ݾجون جُملون را حوالا لازمي ساگيا ھوڻ کپيَ
 # menu item
-add-sentences = جملا شامل ڪرو
+add-sentences = جُملا شامل ڪرو
 
 ## MENU ITEM TOOLTIPS
 
