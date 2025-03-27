@@ -49,6 +49,7 @@ report-offensive-language-detail = دے جملو شوم یا غیر مہذب گ�
 report-grammar-or-spelling = دے گرائمر/ املو غلطی
 report-grammar-or-spelling-detail = دیم جملو دے گرائمر یا دے املو غلطی استت
 report-different-language = دیر زبان
+report-different-language-detail = مو ژے ون دے دیر زبان نوختیغو استت دے ګیم کو زو’ گپ دہامتے
 
 ## Speak & Listen Shortcuts
 
