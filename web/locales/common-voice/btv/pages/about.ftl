@@ -13,6 +13,15 @@ about-localization-subtitle = ویب سائیٹ سو لکیل تِس زیب مہ
 about-sentence-collection-title = جملے جمہ گرو
 about-sentence-collection-subtitle = جملے جمہ ھوئیں گے لوں سو دن چہء اوچت اواز رے پڑیاں۔
 about-new-lang-title = نئزیب دُھن
+about-new-lang-subtitle = بے عام اواز سو سائٹ اِس زیب مہ دھنہ تھہ۔
+about-voice-contrib-title = اوز سو شرکت
+about-voice-contrib-subtitle = لو یا تھہ اَپئیں اوز شریک گرہ تھہ۔
+about-voice-validation-title = اواز سو تصدیق
+about-voice-validation-subtitle = جَل لو تیوؤں اواز سو کلپ سو تصدیق گرہ تھہ۔
+about-dataset-release-title = معلوماتی سیٹ اوزگار
+about-dataset-release-subtitle = بے ھر ڇا څَن مہ معلوماتی سیٹ اوزگار گرہ تھہ۔
+about-subscribe-text = عام اواز مِل رابطہ مہ اماں لوکھہ تھہ۔
+about-speak = مَن
 
 ## Community Playbook Content
 ## What is a language
