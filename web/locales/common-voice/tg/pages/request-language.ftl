@@ -26,4 +26,7 @@ request-language-error = Шояд мо ин дархостро нагирифт�
 request-for-scripted-speech-toggle = Дархост барои «Нутқи намоишнома/Scripted Speech»
 request-for-spontaneous-speech-toggle = Дархост барои «Нутқи бевосита/Spontaneous Speech»
 need-help-deciding-platform = Барои интихоби имкон кумак лозим аст?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>«Scripted Speech»</strong> (ба таври анъанавӣ он чизе ки шумо ҳамчун «Common Voice» медонед) ин ҷоест, ки шумо метавонед ҷумлаҳоро бо забони худ бо овози баланд хонед.
+need-help-deciding-platform-explanation-2 = <strong>«Spontaneous Speech»</strong> як қисми нави «Common Voice» мебошад, ки тавассути он шумо метавонед ба саволҳо ба таври органикӣ ва гуфтугӯӣ ҷавоб диҳед.
 need-help-deciding-platform-explanation-3 = Агар шумо забони худро дар ягон қисми платформа набинед, ҳардуро интихоб кунед.
