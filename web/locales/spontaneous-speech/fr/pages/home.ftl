@@ -1,15 +1,15 @@
 ## Home page
 
-welcome-to-spontaneous-speech = Bienvenue à Parole Spontané
+welcome-to-spontaneous-speech = Bienvenue sur Parole spontanée
 # <br></br> represents a newline break
-wall-of-text = Common Voice lance une deuxième plateforme axée sur la collecte de paroles organiques, spontanées et non scriptées. Cela aidera de nombreuses communautés à collecter des données plus rapidement, tout en étant utile pour les data scientists et les développeurs
+wall-of-text = Common Voice lance une deuxième plateforme axée sur la collecte de paroles organiques, spontanées et non scriptées. Cela aidera de nombreuses communautés à collecter des données plus rapidement, tout en étant utile pour les data scientists et les développeurs.
 why-spontaneous-speech = Pourquoi avons-nous créé ce prototype de Parole spontanée
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = Utile pour les <mark>contextes de parole organique </mark> et les cas d'usage (par exemple, lorsque vous souhaitez que la reconnaissance vocale fonctionne avec des personnes parlant de manière non scriptée et familière).
+why-card-1-text = Utile pour les <mark>contextes de parole organique</mark> et les cas d’usage (par exemple, lorsque vous souhaitez que la reconnaissance vocale fonctionne avec des personnes parlant de manière non scriptée et familière).
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = Meilleur soutien pour les réalités linguistiques comme le translanguaging et le <mark>code-switching</mark>
+why-card-2-text = Meilleure prise en charge des réalités linguistiques comme le translanguaging et le <mark>code-switching</mark>
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = Meilleur support pour les langues qui ont peu ou <mark>aucun corpus textuel</mark> à utiliser (par exemple, les sociolectes, les variantes, les langues historiquement non écrites, etc.)
+why-card-3-text = Meilleure prise en charge des langues qui ont peu ou <mark>aucun corpus textuel</mark> à utiliser (par exemple, les sociolectes, les variantes, les langues historiquement non écrites, etc.)
 how-spontaneous-speech-works = Comment fonctionne « Parole spontanée »
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Question</mark>
