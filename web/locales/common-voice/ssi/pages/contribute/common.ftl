@@ -112,4 +112,6 @@ contribution-misreadings-example-5-title = ہم کوپھی لیئوٹؔے ٻار
 contribution-misreadings-example-6-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
 contribution-misreadings-example-6-explanation = ["ہمکو" ہوٹؔا چاہیے]
 contribution-misreadings-example-7-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
+contribution-misreadings-example-8-title = بھونرا تکڑا آگے ودھی گا۔
 contribution-varying-pronunciations-title = دؔوجے لہجے
+contribution-varying-pronunciations-description = اس بنیاداپ کسی ٹُکڑے کو چھوڈؔٹؔیس آگے ادٚائے رہو کہ پڑھنواڑین کسی سٻدا کا گلت لہجا کرا ہے،دِکتا کُو گلت جھاگاپ دھرا ہے، یا جاہیری توراپ سُوالیہ نساٹؔا کُو اندؔیکھا کری دؔیا ہے۔ سنسارام الگ نامونے کے لہجے اُپیوگام ہیں، جنمیسے کئی تھمنے اپٹؔی سادھارن سمُودائے میں نائی سُٹؔے ہووگے۔ کِرپا کری کن اِن منکھیں نتر پرشنسا کا ایک سیما اُپلبد کراؤ جکو تھمسے نیاری ٻات کری سِکتے ہیں۔
