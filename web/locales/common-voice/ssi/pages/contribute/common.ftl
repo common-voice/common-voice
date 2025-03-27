@@ -124,3 +124,6 @@ contribution-misreadings-example-8-explanation = [گیر مسلے سمان]
 contribution-varying-pronunciations-title = دؔوجے لہجے
 contribution-varying-pronunciations-description = اس بنیاداپ کسی ٹُکڑے کو چھوڈؔٹؔیس آگے ادٚائے رہو کہ پڑھنواڑین کسی سٻدا کا گلت لہجا کرا ہے،دِکتا کُو گلت جھاگاپ دھرا ہے، یا جاہیری توراپ سُوالیہ نساٹؔا کُو اندؔیکھا کری دؔیا ہے۔ سنسارام الگ نامونے کے لہجے اُپیوگام ہیں، جنمیسے کئی تھمنے اپٹؔی سادھارن سمُودائے میں نائی سُٹؔے ہووگے۔ کِرپا کری کن اِن منکھیں نتر پرشنسا کا ایک سیما اُپلبد کراؤ جکو تھمسے نیاری ٻات کری سِکتے ہیں۔
 contribution-varying-pronunciations-description-extended = دؔوجے پاسے، اگر تھمکو لکھاوتا ہے کہ پڑھنواڑے کُو ساید اس سے آگے کِدؔھی یہ سٻدؔ نائی مِلا، اور ٻو رُگی لہجیپ گلت انداجہ لگائی را ہے، تو کِرپا کری کن رد کری دؔیو۔ جئے اگر تھمکو ویسواس نائی تیا تو، سِرکانواڑا ٻٹٹؔا کا اُپیوگ کرو۔
+contribution-varying-pronunciations-example-1-title = اُس کے مُڈؔاپ اُس کی ٹوپی ٻاوڑی تی۔
+contribution-varying-pronunciations-example-1-explanation = [‘Beret' سہی ہے جاہے پہلے سٻد (UK) یا دؔوجے  (US) پر جورا کے سات]
+contribution-varying-pronunciations-example-2-title = اُس کا ہات اُٹھوڑا تیا۔

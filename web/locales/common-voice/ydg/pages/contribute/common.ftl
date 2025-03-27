@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>کوګ آوازے
     }
 goal-help-recording = تو لے کامن وائسن<goalPercentage></goalPercentage>ڤے ہر مشن{ $goalValue } ریکارڈنگ دے پرو کڑا مدد کڑغیت!
-goal-help-validation = کامن وائسن<goalPercentage></goalPercentage> ڤے یو میشن{ $goalValue } تصدیق کڑان ہدف دے پرو کڑا مدد کڑیت!
+goal-help-validation = تو'لے کامن وائسن<goalPercentage></goalPercentage> ڤے یو میشن{ $goalValue } تصدیق کڑان ہدف دے پرو کڑا مدد کڑیت!
 contribute-more =
     { $count ->
         [one] تیارآ پے کڑا دیر{ $count }اڤن؟
