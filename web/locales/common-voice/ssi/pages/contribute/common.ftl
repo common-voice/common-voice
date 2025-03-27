@@ -99,3 +99,4 @@ contribution-criteria-nav = معیار
 contribution-criteria-link = یوگدان کے معیار  کُو سمجو
 contribution-criteria-page-title = یوگدانا کا معیار
 contribution-for-example = ایک ٻات ہے
+contribution-misreadings-title = گلت سمجٹؔا
