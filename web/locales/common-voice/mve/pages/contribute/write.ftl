@@ -2,12 +2,12 @@
 
 write = لِک يا لِکڻ
 write-instruction = لگائو “ شامل ڪيوڙا <icon> </icon> عوامِي ڊومين جُملو
-write-page-subtitle = ايٿ جمع ڪيوڙا جملہ مِنکون ھارو لائيسنس مِليوڙَي cc-0 رَي جمع ڪيوڙَي ڊيٽا ۾ موجود ھيَ
+write-page-subtitle = ايٿ جمع ڪيوڙا جُملا مِنکون ھارو لائيسنس مِليوڙَي cc-0 رَي جمع ڪيوڙَي ڊيٽا ۾ موجود ھيَ
 sentence =
-    .label = جملو
-sentence-input-placeholder = ٿورو عوامي ملڪيتي جملو ايٿ شامل ڪرو
-small-batch-sentence-input-placeholder = ٿونرا عوامِي جملہ ايٿ شامل ڪرو
-citation-input-placeholder = ٿونرََي ڏيِنوڙَي جملَي رَي زريعيَ حوالو ڏيو (ضروري ھوئيَ تو)
+    .label = جُملو
+sentence-input-placeholder = آپرو عوامي ڊومين رو جُملو ايٿ شامل ڪرو
+small-batch-sentence-input-placeholder = ٿونرا عوامِي ڊومين را جملا ايٿ شامل ڪرو
+citation-input-placeholder = ٿونرََي ڏيِنوڙَي جُمليَ رو حوالو ڏيو (ضرُوري ھوئيَ تو)
 citation =
     .label = حوالو
 sc-write-submit-confirm = ھون ايئيَ بات رِي تشديق ڪرون ھون ڪہ اَي جملو  <wikipediaLink> عوامي ملڪيتي </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
