@@ -148,16 +148,16 @@ add-sentences = جُملا شامل ڪرو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جملا شامل ڪرو ھان جائزو ليو، سوال شامل ڪرو، آڊيو رِي نقل ڪرو
-add-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جملا شامل ڪرو
-review-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جملون رو جائزو ليو
-add-questions-menu-item-tooltip = آپ رِي ٻولِي ۾ سوال شامل ڪرو
-transcribe-audio-menu-item-tooltip = آپ رِي ٻولِي ۾ آڊيو رِي نقل ڪرو
+write-contribute-menu-tooltip = جُملا شامل ڪرو ھان جائزو ليو، سوال شامل ڪرو، آڊيو رِِي نقل ڪرو
+add-sentences-menu-item-tooltip = آپرِِي ٻولِي ۾ جُملا شامل ڪرو
+review-sentences-menu-item-tooltip = آپرِِي ٻولِي ۾ جُملون رو جائزو ليو
+add-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوال شامل ڪرو
+transcribe-audio-menu-item-tooltip = آپرِي ٻولِي ۾ آڊيو رِي نقل ڪرو
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = آپشن مينيو نيَ لکو
-add-sentences-menu-item-aria-label = برادري رَي پڙھڻ لا نوان جملا شامل ڪرو
-review-sentences-menu-item-aria-label = برادري ريي طرف ھون شامل ڪيوڙَي جملون رو جائزو ليو
+add-sentences-menu-item-aria-label = برادري رَي پڙھڻ لا نوان جُملا شامل ڪرو
+review-sentences-menu-item-aria-label = برادري رِي طرف ھون شامل ڪيوڙيَ جملون رو جائزو ليو
 add-questions-menu-item-aria-label = برادري ھارون پڙھڻ ھان جواب ڏيڻ ھارو نوان سوال جمع ڪرو
-transcribe-audio-menu-item-aria-label = آڊيو ريڪارڊنگ نيَ اکرون ۾ لکو
+transcribe-audio-menu-item-aria-label = آڊيو ريڪارڍنگ نيَ اکرون ۾ لکو

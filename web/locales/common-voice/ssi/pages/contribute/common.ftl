@@ -132,3 +132,7 @@ contribution-background-noise-title = لارکا گاریا
 contribution-background-noise-description =
     ہم چاہوتے ہے کہ مسین سِیکٹؔیں کا نِکسا نِیارے نِیارے نمونے کے لارکے گاھرِئے کُو ساںمبھٹٚیں کاما کا ہے،
     اور ایٹھے تائیں تو اُسجو ہے آواجیں کُو بھی مانا جائی سِکتا ہے اُس کے بھیݪا ٻو تھمکُو پورا کتھن سُٹؔنیس نائی روکے ۔ لارکی سانتِیا کا سنگیت سئی ہے؛ سنگیت تھمکُو ہر ایک سٻدا کُو سُٹؔنیس روکٹؔیں نتر گھٹؔا تیج ہے۔
+contribution-background-noise-description-extended = جئے اگر بھروڑی آواج ٹُوٹی جاوتی ہے، یا اِس میں تئیڑاں پڑتیاں ہیں، اُس تائیں چھوڈؔی دؔیو جس تائیں کہ پُورا کتھن سُٹؔا نائی جائی سِکے۔
+contribution-background-noise-example-1-fixed-title = <strong>[چھیک]</strong> پُراتن کال<strong> [کھانٚگا]</strong> کے سپا ٻڈؔے ڈائنوسار۔
+contribution-background-noise-example-2-fixed-title = دیو ڈائنو <strong>[کھانٚگ]</strong> پُرتن کال۔
+contribution-background-noise-example-2-explanation = [کتھنا کا کئی بھاگ سٹؔا نائی جائی سِکے]
