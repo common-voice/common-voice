@@ -50,13 +50,13 @@ sc-review-instruction = چيڪ ڪرو <icon></icon> ڪيَ اِي لِسانِي
 sc-review-rules-title = شون جُملو هِڌائيتان پرماڻيَ سي؟
 sc-review-empty-state = اتيار ۿوُڌِي آ ٻولِي مان ڪونئين ايوا جُملا نٿِي زين نو جائزو ليوو زويئين۔
 report-sc-different-language = ڦرق ٻولِي
-report-sc-different-language-detail = هون شين نو جائزو ليون سون ريو آ ٻولِي مان تو ڦرق لکل سي۔
+report-sc-different-language-detail = هون شين نو جائزو ليون سون ريو اِي تو آ ٻولِي مان تو ڦرق لکل سي۔
 sentences-fetch-error = جُملان نين ۿڦرا ٺاۿيا ٽاڻيَ ايڪ مسلو ٿئِي جھو تو۔
 review-error = جُملا نو جائزو ليڌا ٽاڻيَ ايڪ مسلو ڇو تو
-review-error-rate-limit-exceeded = تمين تيز زائو سو ريا۔ ميرٻانِي ڪرينَ جُملان نو سئِي جائزو ليو اِي کاترِي ڪريا ۿارُو ڪيَ اِي سئِي سي۔
+review-error-rate-limit-exceeded = تمين الائِي تيز زائو سو ريا۔ ميرٻانِي ڪرينَ جُملان نو سئِي جائزو ليو اِي کاترِي ڪريا ۿارُو ڪيَ اِي سئِي سي۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = امين ڪانڪ موٽو ڦرق ڪريئين سيئين ريا۔
-sc-redirect-page-subtitle-1 = جُملا ڀيڳا ڪريا وارو عام آواز نا پليٽ ڦارم ڪور زائيَ سي ريو۔ تمين ڪوئين <writeURL> جُملو لکِي </writeURL>ۿڳو سو يا <reviewURL> جائزو </reviewURL> لئِي ۿڳو سو ايڪلا ۮيڌل جُملان نو زين عام آواز ماٿيَ ۮيڌل سي۔
+sc-redirect-page-subtitle-1 = جُملا ڀيڳا ڪريا وارو عام آواز نا پليٽفارم  نا کونڻا ڪور زائيَ سي ريو۔ تمين ڪوئين <writeURL> جُملو لکِي </writeURL>ۿڳو سو يا <reviewURL> جائزو </reviewURL> لئِي ۿڳو سو ايڪلا ۮيڌل جُملان نو زين عام آواز ماٿيَ ۮيڌل سي۔
 sc-redirect-page-subtitle-2 = امان ٿِي <matrixLink> ميٽرِڪس ماٿيَ سوال پونسا ڪرِي ۿڳو سو۔ </matrixLink><discourseLink> وات وڳچ ڪرِي ۿڳو سو۔ </discourseLink><emailLink> يا اِي ميل ڪرِي ۿڳو سو۔</emailLink>
 # menu item
 review-sentences = جُملان نو جائزو ليو
