@@ -28,6 +28,10 @@ about-listen-queue-text = اواز سو کلپ قطار مہ داخل گیگےت
 about-listen = ݜوں
 about-listen-text = یوزر دیتیل کلپ سو درستگی سو تصدیق گرا۔
 about-is-it-valid = او کلپ تصدیق ھویئنل تھو۔
+about-is-it-valid-text = اواز سو کلپ رے نشان ھواں "تصدیق" کدی چہء یوزر اسئ آں سو ووٹ دیا۔
+about-yes-votes = ≥ 2 آں سو ووٹ
+about-yes-votes-text = او عام اواز سو معلوماتی سیٹ سندے سو دن،اوز سو کلپ ضرور دُو ان ان یوزر نو تصدیق ھونݜ۔
+about-no-votes = ≥ 2 نہء ووٹ
 
 ## Community Playbook Content
 ## What is a language
