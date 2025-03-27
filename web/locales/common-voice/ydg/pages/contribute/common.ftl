@@ -78,9 +78,21 @@ shortcut-discard-ongoing-recording-label = ڤے جاری ریکارڈنگ مست
 shortcut-submit = اَشپہ کن
 shortcut-submit-label = کوګ آوازے جمع کن
 request-language-text = تا مگاہ دے کامن وائس ڤے خوئے زبان چے وینیتیآ؟
+request-language-button = پے یو زبان دیر عرض کن
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
+shortcut-play-toggle-label = جیفاؤ/بود کن
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-criteria-nav = اصول
