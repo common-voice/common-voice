@@ -6,7 +6,7 @@ sc-review-loading = جُملا اُوپاڙيَ سي ريون۔۔۔
 sc-review-select-language = ميرٻانِي ڪيرنَ جُملان نو جائزو ليڌا ۿارُو ٻولِي نين سليڪٽ ڪرو
 sc-review-no-sentences = جائزو ليڌا ۿارُو ڪونئين جُملا نٿِي <addLink> هويَ وڌارين جُملا ايڍ ڪرو۔ </addLink>
 sc-review-form-prompt =
-    .message = جُملان نو جائزو لئِي ليڌو سي پن هزِي حواليَ نٿِي ڪريا، هاس سي؟
+    .message = جُملان نو جائزو لئِي ليڌو سي پڻ هزِي حواليَ نٿِي ڪريا، هاس سي؟
 sc-review-form-usage = جملان نين هوريَ پاۿيَ ٿِي منظور ڪريا ۿارُو ۮٻاوو۔ منظور نا ڪريا ۿارُو ڏاويَ پاۿيَ ٿِي ۮٻاوو۔ ميڪِي ۮيڌا ۿارُو اُونسين ٿِي ۮٻاوو۔ <strong> پوتا نو جائرو ۮيڌا نون نا ڀُولزُو </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence

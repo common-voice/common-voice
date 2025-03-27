@@ -112,3 +112,4 @@ contribution-misreadings-example-5-title = ہم کوپھی لیئوٹؔے ٻار
 contribution-misreadings-example-6-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
 contribution-misreadings-example-6-explanation = ["ہمکو" ہوٹؔا چاہیے]
 contribution-misreadings-example-7-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
+contribution-varying-pronunciations-title = دؔوجے لہجے
