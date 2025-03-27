@@ -106,3 +106,4 @@ contribution-misreadings-description-extended-list-1 = بھرتیاٹؔے سِر
 contribution-misreadings-description-extended-list-2 = کسی سٻدے کے پچھاڑیام <strong>'s'</strong> گُم ہے۔
 contribution-misreadings-description-extended-list-4 = بھروڑی آواجا کُو سپا تکڑام کاٹی کن پچھاڑی سٻد کا پچھاڑِ آئی گی۔
 contribution-misreadings-description-extended-list-5 = ایکی سٻدا کُو پڑھنے کی کئی جتن کرنے۔
+contribution-misreadings-example-2-explanation = ['ڈائیناسور' ہوٹؔا چائے]
