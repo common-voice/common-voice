@@ -4,6 +4,11 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> ຟັງຄລິບສຽງ ແລະ ກວດເບິ່ງການຖອດຂໍ້ຄວາມ. ມັນກົງກັນບໍ? ຖ້າບໍ່, ແກ້ໄຂມັນໃຫ້ກົງກັນຢ່າງສົມບູນ.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ກວດ
+no-transcriptions-message = ໃນປັດຈຸບັນບໍ່ມີການຖອດຂໍ້ຄວາມເພື່ອກວດເບິ່ງພາສານີ້. ກະລຸນາໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼື ລອງໃໝ່ໃນພາຍຫຼັງ.
+vote-transcript-success = ຄະແນນສຽງຖອດຈາກສຽງສຳເລັດແລ້ວ
+vote-transcript-error = ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ລົງຄະແນນສຽງຖອດຂໍ້ຄວາມ
+transcript-edited-success = ແກ້ໄຂການຖອດຂໍ້ຄວາມສຳເລັດແລ້ວ
+transcript-edited-error = ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ແກ້ໄຂການຖອດຂໍ້ຄວາມ
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = ຖືກຕ້ອງ
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

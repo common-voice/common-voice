@@ -13,4 +13,5 @@ submit-all-button = ສົ່ງທັງໝົດ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ຮຽນຮູ້ວິທີການນໍາໃຊ້ຫນ້ານີ້
+learn-how-to-use-transcribe = ຮຽນຮູ້ວິທີຖອດຂໍ້ຄວາມ
 learn-how-to-use-check-transcript-explanation = ການຖອດຂໍ້ຄວາມຄວນບັນທຶກທຸກຄຳສັບ ຫຼື ສຽງການສົນທະນາທີ່ບໍ່ແມ່ນຄຳສັບທີ່ຄົນເວົ້າ, ລວມທັງການຊໍ້າຄືນ.
