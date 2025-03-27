@@ -72,6 +72,10 @@ shortcut-skip = ایس
 shortcut-record-toggle = آر
 shortcut-record-toggle-label = ڤے ریکارڈ/ بود کن
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ڤے آواز اشپہ ریکارڈ کن
+shortcut-discard-ongoing-recording = ای ایس سی
+shortcut-discard-ongoing-recording-label = ڤے جاری ریکارڈنگ مسترد کن
+shortcut-submit = اَشپہ کن
 
 ## Listen Shortcuts
 
