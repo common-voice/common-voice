@@ -56,7 +56,7 @@ about-nav-playbook = ڤے حصو غوردان طریقو ایخسا
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = دے کام وائس یو زبان ګیم؟
+about-playbook-what-is-language = دے کامن وائس یو زبان ګیم؟
 about-playbook-what-is-language-content-1 = دے یو زبان باری دیشچان جاہند طریقو استت۔ ڤے گپ ڤزدان یو ماڈل پے سڤزڤدا دیر، کامن وائس تر خوئے ملن سے ڤزدان تجویز زور دیلتے یا سیم گپ زور دیلتے کہ یو زبان کڑغوزے کوشش کینت خو ڤئے ڤے یو گپف ڤزانتیآ؟'
 about-playbook-what-is-language-content-2 = ماخ المین ماڈل اسپیچ کوسیم تے کہ وو ڤے مختلف گپ ژیغوزف سلسلو دے ڤزدا بہتر فرما۔ ملمین پے ݰویا دیر دے وائس ڈیٹا سیٹ مختلف آدمف نمائندگی اوئے۔
 

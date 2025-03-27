@@ -76,6 +76,8 @@ shortcut-rerecord-toggle-label = ڤے آواز اشپہ ریکارڈ کن
 shortcut-discard-ongoing-recording = ای ایس سی
 shortcut-discard-ongoing-recording-label = ڤے جاری ریکارڈنگ مسترد کن
 shortcut-submit = اَشپہ کن
+shortcut-submit-label = کوګ آوازے جمع کن
+request-language-text = تا مگاہ دے کامن وائس ڤے خوئے زبان چے وینیتیآ؟
 
 ## Listen Shortcuts
 
