@@ -44,6 +44,7 @@ submit-form-action = جمع کن
 report = رَپوٹ کن
 report-title = ڤے رپوٹ جمع کن
 report-ask = نتو دیم جملو څیمین مسئلو پیدا ایتے؟
+report-offensive-language = شوم گپ
 
 ## Speak & Listen Shortcuts
 
