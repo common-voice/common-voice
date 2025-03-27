@@ -47,6 +47,8 @@ report-ask = نتو دیم جملو څیمین مسئلو پیدا ایتے؟
 report-offensive-language = شوم گپ
 report-offensive-language-detail = دے جملو شوم یا غیر مہذب گپ استت۔
 report-grammar-or-spelling = دے گرائمر/ املو غلطی
+report-grammar-or-spelling-detail = دیم جملو دے گرائمر یا دے املو غلطی استت
+report-different-language = دیر زبان
 
 ## Speak & Listen Shortcuts
 
