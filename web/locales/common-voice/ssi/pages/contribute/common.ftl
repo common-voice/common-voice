@@ -108,3 +108,7 @@ contribution-misreadings-description-extended-list-4 = بھروڑی آواجا �
 contribution-misreadings-description-extended-list-5 = ایکی سٻدا کُو پڑھنے کی کئی جتن کرنے۔
 contribution-misreadings-example-2-explanation = ['ڈائیناسور' ہوٹؔا چائے]
 contribution-misreadings-example-3-explanation = [پچھاڑی سٻداس  پچھاڑیاس  پہلے آواج بھروڑی کاٹی دی ہے]
+contribution-misreadings-example-5-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
+contribution-misreadings-example-6-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
+contribution-misreadings-example-6-explanation = ["ہمکو" ہوٹؔا چاہیے]
+contribution-misreadings-example-7-title = ہم کوپھی لیئوٹؔے ٻار جائیرے ہے۔
