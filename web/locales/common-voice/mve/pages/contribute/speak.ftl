@@ -1,8 +1,8 @@
 speak = ٻولڻ
 speak-now = ھمَي ٻول
-speak-subtitle = آپرِي آواز ڏيو
-record-cta = ريڪارڊنگ شروع ڪرو
-record-platform-not-supported = معاف ڪريا، ٿونرو پليٽ فارم ھيڻو ڪوني ھليَ
+speak-subtitle = آپرِِي آواز ڏيو
+record-cta = ريڪارڍِنگ شروع ڪرو
+record-platform-not-supported = معاف ڪريا، ٿونرو پليٽ فارم ھيڻو ڪونھي ھليَ
 record-platform-not-supported-desktop = ڊيسڪ ٽاپ ڊيوائسس تيَ ٿيَ ڊائون لوڊ ڪرَي حصو ليَ ھگو ھو
 record-platform-not-supported-ios-non-safari = iOS تيَ ريڪارڊنگ نيَ جارِي راکڻ ھارو مھربوني ڪري سفاري ھون جارِي راکو
 record-must-allow-microphone = ٿونيَ ماڊيڪروفون تائين رسائِي رِي اجازت ڏيڻ کپيَ
