@@ -50,6 +50,7 @@ report-grammar-or-spelling = دے گرائمر/ املو غلطی
 report-grammar-or-spelling-detail = دیم جملو دے گرائمر یا دے املو غلطی استت
 report-different-language = دیر زبان
 report-different-language-detail = مو ژے ون دے دیر زبان نوختیغو استت دے ګیم کو زو’ گپ دہامتے
+report-difficult-pronounce = پے اݰٹا دیر مشکل
 
 ## Speak & Listen Shortcuts
 
