@@ -25,4 +25,4 @@ review-transcriptions-menu-item-tooltip = پوتا نِي ٻولِي مان جم
 
 listen-contribute-menu-aria-label = انتخابِي ڦهرست نين ۿانڀرو
 validate-readings-menu-item-aria-label = ڀراڌرِي نان ميمڀران نِي طرڦ ٿِي جمع ڪراول ڀڻتر نِي تصڌيق ڪرو۔
-review-transcriptions-menu-item-aria-label = رِڪارڍ ٿل جُملان نو ترتيٻ ٿِي جائزو ليو ڪيَ اِي سئِي سيَ ڪي نا
+review-transcriptions-menu-item-aria-label = رِڪارڍ ٿل جُملان نِي نقل نو جائزو ليو، ڪيَ اِي سئِي سيَ ڪي نا
