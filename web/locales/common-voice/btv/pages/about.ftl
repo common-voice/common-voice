@@ -22,6 +22,12 @@ about-dataset-release-title = معلوماتی سیٹ اوزگار
 about-dataset-release-subtitle = بے ھر ڇا څَن مہ معلوماتی سیٹ اوزگار گرہ تھہ۔
 about-subscribe-text = عام اواز مِل رابطہ مہ اماں لوکھہ تھہ۔
 about-speak = مَن
+about-speak-text = شریک ھویئں والہ خیراتی دیتیل جملیوں سو بنک نو پیڑی ریکاڈ گرہ تھہ
+about-listen-queue = ݜؤں۔قطار
+about-listen-queue-text = اواز سو کلپ قطار مہ داخل گیگےتھےچہء ݜویں سو دَن تیار ھویئں۔
+about-listen = ݜوں
+about-listen-text = یوزر دیتیل کلپ سو درستگی سو تصدیق گرا۔
+about-is-it-valid = او کلپ تصدیق ھویئنل تھو۔
 
 ## Community Playbook Content
 ## What is a language
