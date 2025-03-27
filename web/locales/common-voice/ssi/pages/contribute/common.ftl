@@ -127,3 +127,5 @@ contribution-varying-pronunciations-description-extended = دؔوجے پاسے،
 contribution-varying-pronunciations-example-1-title = اُس کے مُڈؔاپ اُس کی ٹوپی ٻاوڑی تی۔
 contribution-varying-pronunciations-example-1-explanation = [‘Beret' سہی ہے جاہے پہلے سٻد (UK) یا دؔوجے  (US) پر جورا کے سات]
 contribution-varying-pronunciations-example-2-title = اُس کا ہات اُٹھوڑا تیا۔
+contribution-varying-pronunciations-example-2-explanation = [انگریجیام ‘Raised’ کا لہجا سدائیں ایکی سٻدا کے توراپ ہوتا ہے، دؔو نائی]
+contribution-background-noise-title = لارکا گاریا
