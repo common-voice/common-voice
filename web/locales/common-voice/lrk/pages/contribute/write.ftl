@@ -72,6 +72,10 @@ sentence-variant-select-multiple-variants = عام ٻولي / ڪيتائي قس�
 sc-bulk-upload-header = <icon></icon> عوامي ڊومين جملا اپلوڊ ڪرو
 sc-bulk-upload-instruction = آپري فائل ائيي ڇڪيو يا <uploadButton>اپلوڊ ڪريا ھارو ڪلڪ ڪرو</uploadButton>
 sc-bulk-upload-instruction-drop = اپلوڊ ڪريا ھارو فائل ايئي سوڙو.
+bulk-upload-additional-information = جيڪدي تمي آ فائل بابت وڌيڪ جوڻ ڌيوُو چاهيو ھون، مهربوني ڪرين رابطوڪرو ڪريو<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = جيڪدي تمي آ فائل بابت ڪوئي اضافي جوڻ ڌيووُ چايو ھون جي ٽيمپليٽ ۾ شامل ڪوئي هي، مهربوني ڪرين رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = آپري فائل ائيي ڇڪين وري ڪوشش ڪرو.
+try-upload-again-md = ٻيجي دفا اپلوڊ ڪريا ري  ڪوشش ڪرو
 
 ## SMALL BATCH SUBMISSION
 
