@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = ليک
+write-instruction = جمہ<icon></icon>عوامي ڊومين ري سزا
 guidelines = راہ ديکاڙوي
 contact-us = رابطو ڪرو
 add-sentence-success = جملا ڀيرا ڪرو

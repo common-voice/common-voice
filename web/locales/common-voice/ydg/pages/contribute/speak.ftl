@@ -16,6 +16,10 @@ record-stop-instruction = { $actionType } <stopIcon></stopIcon> کلو کہ مک
 record-three-more-instruction = شروئے اوزائی!
 record-again-instruction = جاہند غیݰے!<recordIcon></recordIcon> ژے خوئن دیر آواز ریکارڈ کن
 record-abort-submit = کوګ آوازے جمع کن
+record-abort-continue = ڤے ریکرڈنگ بود کن
+record-abort-delete = نیݰے نیا اڤن ڤے آوازف ڈیلیٹ
+review-aborted = آپلود بود ݰوئے۔ ڤے خوئے ریکارڈنگ ڈیلیٹ کینیتیآ؟
+review-submit-title = دیبارو اوژر تے جمع کن
 
 ## MENU ITEM TOOLTIPS
 

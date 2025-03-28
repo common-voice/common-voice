@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام گیراکا �
 
 listen-contribute-menu-aria-label = سُٹؔنواڑے کے ادیکارا کا مینو
 validate-readings-menu-item-aria-label = پیڑے کے میبرے کی ترپھاس بھیݪی کروڑی پرکھوڑی ریڈنگ
+review-transcriptions-menu-item-aria-label = سچائی نتر  ریکارڈ کروڑے ٻولیں کی نکل کُو ایدؔائے دیکھو
