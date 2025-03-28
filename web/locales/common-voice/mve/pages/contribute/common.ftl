@@ -73,19 +73,19 @@ shortcut-record-toggle = ر
 shortcut-record-toggle-label = رِيڪاڍ ڪرو هانَ روڪو
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ڪلِپ نَي وڙيَ رِيڪاڍ ڪرو
-shortcut-discard-ongoing-recording = اِيِ اَس سِي
-shortcut-discard-ongoing-recording-label = هلتِي رِڪورڊئينگ نَي ختم ڪرو
-shortcut-submit = واپس آڻ
-shortcut-submit-label = ڪلِپ جما ڪرڻ
-request-language-text = آپرِي ٻولِي نَي ڪومن وئِيس ۾ هِڻي نِي جووُ
-request-language-button = ٻولِي هارون درخواست ڏيو
+shortcut-discard-ongoing-recording = ايَ ايس سِي (رد ڪرڻ رو بٽڻ)
+shortcut-discard-ongoing-recording-label = هلتِي ريڪاڍِنگ نَي رد ڪرو
+shortcut-submit = واپسِي
+shortcut-submit-label = ڪلِپون جمع ڪرو
+request-language-text = اڃون تائين آپڻِي ٻولِي ڪامن وائس تيَ ڪونِي ڏيکِجيَ ھيَ؟
+request-language-button = ٻولِي هارو درخواست ڏيو
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
-shortcut-play-toggle-label = هلائو يان روڪو
+shortcut-play-toggle-label = هلائو يا روڪو
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ي
