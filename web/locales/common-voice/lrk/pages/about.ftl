@@ -11,6 +11,7 @@ about-language-req-subtitle = ڪوئي مينک ٻولي ني ڀيري ڪريا 
 about-localization-title = Website Localization
 about-localization-subtitle = ويب سائيٽ رو متن ي ٻولي ۾ ترجمو ڪريوڙو ھي.
 about-sentence-collection-title = جملو رو ڀندار
+about-sentence-collection-subtitle = مينکئ ني اونچي آواز مون پڙھيا ھارو جملا ڀآرا مآلايا جائي.
 about-speak = ٻولو
 about-speak-text = ھوڻو
 about-nav-why-common-voice = ڪون

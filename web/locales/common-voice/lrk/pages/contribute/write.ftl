@@ -63,9 +63,15 @@ news_current_affairs = خبرون ھين موجوده معاملن
 # Sentence Domain dropdown option
 technology_robotics = ٽيڪنالاجي ھين روبوٽڪس
 sentence-variant-select-label = سزا رو قسم
+sentence-variant-select-placeholder = آيڪ قسم چونڊيو (اختياري)
+sentence-variant-select-multiple-variants = عام ٻولي / ڪيتائي قسم
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> عوامي ڊومين جملا اپلوڊ ڪرو
+sc-bulk-upload-instruction = آپري فائل ائيي ڇڪيو يا <uploadButton>اپلوڊ ڪريا ھارو ڪلڪ ڪرو</uploadButton>
+sc-bulk-upload-instruction-drop = اپلوڊ ڪريا ھارو فائل ايئي سوڙو.
 
 ## SMALL BATCH SUBMISSION
 
