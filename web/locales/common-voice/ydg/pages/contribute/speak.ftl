@@ -14,6 +14,7 @@ record-cancel = دیبارو ڤے ریکارڈنگ منسوخ کن
 record-instruction = { $actionType } <recordIcon></recordIcon> تے ڤے جملو زروپ ݱا
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> کلو کہ مکمل ݰوئے
 record-three-more-instruction = شروئے اوزائی!
+record-again-instruction = جاہند غیݰے!<recordIcon></recordIcon> ژے خوئن دیر آواز ریکارڈ کن
 
 ## MENU ITEM TOOLTIPS
 
