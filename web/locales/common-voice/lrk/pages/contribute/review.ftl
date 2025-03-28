@@ -47,3 +47,9 @@ sc-criteria-item-5-2 = جيڪدي جملو ماٿلي معيارو تي پورو
 sc-criteria-item-6 = جيڪدي تموني ڪني جائزو ليدا ھارو جملا ختم ھوئي گيا ھي، مهربوني ڪرين وڌيڪ جملا ڀيرا ڪريا ۾ اموري  مدد ڪرو!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چيڪ ڪريو<icon></icon>ڪاوآ لساني لحاظ مون صحيح جملو هي؟
+sc-review-rules-title = ڪاوُ جملو هدايتن تي پورو اوتريو ھي؟
+sc-review-empty-state = اي وقت تي اي ٻولي ۾ جائزو لآدا ھارو ڪوئي بي جملاو ڪوئني.
+report-sc-different-language = ٻيجي زبون
+report-sc-different-language-detail = ايڪ ايوي ٻولي ۾ لکيوڙوهي جي ھون جائزو ليو ھون اي مون مختلف هي.
+sentences-fetch-error = جملو ني لايا ھارو ايڪ غلطي ھوئي گئي.
+review-error = اي جملل رو جائزو ليدا ۾ ايڪ غلطي ھوئي گيو.
