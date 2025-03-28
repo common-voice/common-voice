@@ -1,7 +1,7 @@
-listen = هونبڙو
-listen-subtitle = آوازون نَي اُوڙکڻ ۾ مهورِي مدد ڪرو
-listen-instruction = { $actionType }<playIcon>ڪِي او سهي سهي جملو ٻوليَ هَي
-listen-again-instruction = ڪوم حاصل ڪرو<playIcon> وَڙيَ هونبڙو جڏي ٿَي تيار هون
+listen = هونڀڻڻ
+listen-subtitle = آوازون رِي تصديق ڪرڻ ۾ مھورِي مدد ڪرو۔
+listen-instruction = { $actionType }<playIcon>ڪِي اُوئون سُٺيَ نمُونيَ ھون جُملو ٻوليو؟
+listen-again-instruction = سُٺو ڪوم <playIcon>وڙيَ ھونڀڙو جڏيَ ٿيَ تيار ھو
 listen-3rd-time-instruction = هيٺي، وَڙيَ اُونچو آ</playIcon><playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>بس آخرِي
 listen-empty-state = مهوريَ ڪلِپ سهي ڪوني هلي پڙِي۔ وَڙي ٻِيجي چڪر هلائون يان ٿوڙِي دير هون پڇيَ

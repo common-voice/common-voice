@@ -9,6 +9,8 @@ how-does-it-work-text = مھيَ آوازون رَي ھيڪ کُليي مواد 
 
 about-language-req-subtitle = ڪو مِنک ٻولِي شامل ڪرڻ ھارو ڪھي ھيَ
 about-localization-title = ويب سائِيٽ نَي عام ڪرڻ
+about-localization-subtitle = ويب سائيٽ رو مواد اِيئي ٻولِي ۾ ترجمو ڪِيو گيو ھيَ.
+about-sentence-collection-title = جُملون رو گُڇو
 
 ## Community Playbook Content
 ## What is a language
