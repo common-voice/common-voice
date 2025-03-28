@@ -11,6 +11,8 @@ record-error-too-short = مو ریکارڈنگ جاہند کوګ ڤیو۔
 record-error-too-long = مو ریکارڈنگ جاہند پے ڤنآغ ڤیو۔
 record-error-too-quiet = مو ریکارڈنگ ام خپ ڤیو۔
 record-cancel = دیبارو ڤے ریکارڈنگ منسوخ کن
+record-instruction = { $actionType } <recordIcon></recordIcon> تے ڤے جملو زروپ ݱا
+record-stop-instruction = کلو کہ مکمل ݰوئے
 
 ## MENU ITEM TOOLTIPS
 

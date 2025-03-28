@@ -16,6 +16,11 @@ about-new-lang-title = نوئين ٻولِي رِي رونمائِي (لانچ)
 about-new-lang-subtitle = مھيَ اِيئيَ ٻولِي ۾ ڪامن وائس سائيٽ رِي رونمائِي (لانچ) ڪرو ھون۔
 about-voice-contrib-title = آواز رِي شراڪت
 about-voice-contrib-subtitle = مِنک آئي ھيَ ھانَ آپرو آواز ڏيَ ھيَ۔
+about-voice-validation-title = آواز رِي تصديق
+about-voice-validation-subtitle = ٻيجا مِنک اُوئون آوازون ريَ ڪلِپون رِي تصديق ڪريَ ھيَ۔
+about-dataset-release-title = مواد رو سيٽ ڇوڙيو جائيَ  ھيَ
+about-dataset-release-subtitle = مھيَ ھر تين مھينِي ۾ مواد رو سيٽ ڇوڙون ھون۔
+about-subscribe-text = ٿَي ڪامن وائس ڀيڙا رابطي ۾ رھڻ چاھون ھون؟
 
 ## Community Playbook Content
 ## What is a language

@@ -56,7 +56,7 @@ review-error = اِيئي جُمليَ رو جائزو ليڻ ۾ ھيڪ مسئل
 review-error-rate-limit-exceeded = ٿيَ جوم تِکا ٻوليَ ريا ھو۔ مھربونِي ڪريَ جُمليَ رو جائزو ليڻ ھارون ٿوڙو صبر ڪرو ھانَ پَڪ ڪرو ڪہ اَي جُملو صحيح ھيَ۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = مھيَ ڪجھ موٽيَ تبدِليَ ڪريَ ريا ھون
-sc-redirect-page-subtitle-1 = جملا جما ڪرڻ آݪوبُنيادِي ڪومن وئِيس ريَ  پليٽ فارم جائي پڙيو۔ ٿَي جائي هگھون هون<writeURL>لکو </writeURL>هيڪ جملو يان<reviewURL>جونچي </reviewURL>هيڪ ئِي جملو جما ڪرڻ ڪومن وئِيس تي
-sc-redirect-page-subtitle-2 = سوال پُوڇو <matrixLink>مٽريڪس</matrixLink><discourseLink>ڊيس ڪورس </discourseLink>يان <emailLink>اِي ميل </emailLink>
+sc-redirect-page-subtitle-1 = جُملا ڀيڙا ڪرڻ آݪو ڪامن وائس ريَ بُنيادِي پليٽ ڦارم تيَ جائيَ وئو۔ ٿيَ ھميَ ڪريَ ݾگو ھو <writeURL>لِکو</writeURL>ھيڪ جُملو يا<reviewURL>جائزو</reviewURL>ھيڪج جُملو ڪامن وائس تيَ جمع ڪرو۔
+sc-redirect-page-subtitle-2 = مھون ھون سوال پُڇو <matrixLink>ميٽرڪس</matrixLink>،<discourseLink>ڊيسڪورس</discourseLink>يا<emailLink>اِي ميل</emailLink>۔
 # menu item
-review-sentences = جملا جونچو
+review-sentences = جُملون رو جائزو ليو۔
