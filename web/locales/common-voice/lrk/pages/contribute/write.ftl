@@ -82,6 +82,9 @@ accepted-files = مونيڙي فائل را قسم: صرف .tsv
 minimum-sentences = فائل ۾ گھٽ ۾ گھٽ جملا1000
 maximum-file-size = وڌ ۾ وڌ فائل سائيز:25 MB
 what-needs-to-be-in-file = ماري فائل ۾ ڪاُو هووُ کپي؟
+what-needs-to-be-in-file-explanation = مھرباني ڪري اسان جي <templateFileLink>ٽيمپليٽ فائل</templateFileLink> چيڪ ڪريو. اوھان جا جملا ڪاپي رائيٽ کان آزاد ھجڻ گھرجن (CC0 يا جمع ڪرائيندڙ پاران اجازت ڏنل اصل ڪم) ۽ صاف، گرامر جي لحاظ کان صحيح ۽ پڙھڻ ۾ آسان ھجن. جمع ڪرايل جملن کي پڙھڻ ۾ لڳ ڀڳ 10-15 سيڪنڊ لڳڻ گھرجن ۽ انگن، مناسب اسمن ۽ خاص اکرن کي شامل ڪرڻ کان پاسو ڪرڻ گھرجي.
+upload-progress-text = اپ لوڊ جاري هي...
+sc-bulk-submit-confirm = ھون تصديق ڪرو ٿو ته اهي جملا <wikipediaLink>عوامي ڊومين</wikipediaLink> آهن ۽ مون کي انهن کي اپلوڊ ڪرڻ جي اجازت آهي.
 
 ## SMALL BATCH SUBMISSION
 

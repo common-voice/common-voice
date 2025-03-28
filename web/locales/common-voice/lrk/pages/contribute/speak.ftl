@@ -75,3 +75,4 @@ answer-questions-menu-item-tooltip = آپري ٻولي ۾ سوالو ھين اش
 
 speak-contribute-menu-aria-label = اسپيڪ آپشن مينيو
 read-sentences-menu-item-aria-label = برادري مون مختلف ٻوليو ۾ جمع ڪرايوڙا جملا پڙهو.
+answer-questions-menu-item-aria-label = ڪميونٽي ھارو پڙيامي ھين جواب ديدا ھارو ايڪ نئون سوال جمع ڪرايو.
