@@ -143,6 +143,7 @@ contribution-background-voices-example-1-title = پُراتنا کے سپا ٻڈ
 contribution-background-voices-example-1-explanation = توں آئیرا ہے؟<strong>[کسی دؔوجے کے جریئے ٻلایا ہے]</strong>
 contribution-volume-title = ویلا
 contribution-volume-description = پڑھنواڑے کے ٻچام ویلیم پراکرتک بدلاو ہؤنگے۔ رُگی اِس ہالتام چھوڈؔی دؔیو جِدؔ ویلا اِترا گھٹؔا ہؤے کہ بھروڑی آواج ٹُوٹی جاوے، یا ( سپا سادھارن توراپ ) جئے اگر ی واِترا گھٹ ہؤے کہ تھم لِکھوڑے کتھنا کا سَرے کے ٻینا جکو کئی کیہیا جائی را ہے اُس کُو نائی سُٹؔی سِکے۔
+contribution-reader-effects-title = پڑھنواڑے کا پھرک
 contribution-just-unsure-title = رُگی او وسِواسی
 see-more = <chevron></chevron> ودھیک دؔیکھو
 see-less = <chevron></chevron> گھٹ دؔیکھو

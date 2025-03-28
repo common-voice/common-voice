@@ -123,3 +123,7 @@ contribution-misreadings-example-8-title = ڀونگر تيزيءَ مون گيو
 contribution-misreadings-example-8-explanation = بي مطلب مواد
 contribution-varying-pronunciations-title = اللگ تلفظ
 contribution-varying-pronunciations-description = ڪيئي ڪلپ ني رد ڪريا مون پيري احتياط ڪرو او وجہ مون ڪي پڙھيا وارا ڪيا لفظ رو غلط تلفظ ڪريو هي، ڀوليا ري دٻاءُ ني غلط جگہ تي رکيو هي، يا ظاهري طور تي سواليه نشان ني نظرانداز ڪريو هي. دنيا ۾ مختلف قسم را تلفظ استعمال ۾ ھي، جي مون ڪوئي تموري آپري مقامي برادري ۾ نه پوچيا هوئي. مهربوني ڪرين اوُ ھارو تعريف ري ايڪ الگ ھي ڪرو جي تي گھڻو تمو مون مختلف ٻولي.
+contribution-varying-pronunciations-description-extended = ٻجي جگہ، جيڪڏي تمي  سوچوھو ڪي پڙھيا وارا شايد پيري  ڪڏي بي لفظ تي ڪوئي پوچيو ھوئي، ۽ صرف تلفظ تي غلط اندازو لڳايو هي، مهربوني ڪرين رد ڪرو. جيڪدي تمو ني پڪ ڪوئيني، تو "اسڪيپ" بٽڻ استعمال ڪرو.
+contribution-varying-pronunciations-example-1-title = اي ري ماٿا تي ايڪ بيريٽ پيريڙو هي.
+contribution-varying-pronunciations-example-1-explanation = ['بيريٽ' ٺيڪ هي، پهريو اکر (برطانيه) تي زور مون يا ٻجي (آمريڪا) تي]
+contribution-varying-pronunciations-example-2-title = اورو ھاٿ ماٿي کڻيو
