@@ -12,9 +12,13 @@ listen-abort-cancel = اوݪکھ کرا کر
 listen-abort-confirm = اوݪکھ پُوری کرو
 # Menu item
 validate-readings = پڑھنے کی اوݪکھ کرو
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ریڈنگا کی اوݪکھ کرو <small>(ٻیگئے آ رہے ہیں)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ریڈنگا کی اوݪکھ کرو، نکلی کُو ایدؔائے دؔیکھو
+validate-readings-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی لِکھتا کُو پڑھنے کی اوݪکھ کرو
 
 ## MENU ITEM ARIA LABELS
 
