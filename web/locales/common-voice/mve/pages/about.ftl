@@ -11,6 +11,7 @@ about-language-req-subtitle = ڪو مِنک ٻولِي شامل ڪرڻ ھارو 
 about-localization-title = ويب سائِيٽ نَي عام ڪرڻ
 about-localization-subtitle = ويب سائيٽ رو مواد اِيئي ٻولِي ۾ ترجمو ڪِيو گيو ھيَ.
 about-sentence-collection-title = جُملون رو گُڇو
+about-sentence-collection-subtitle = مِنکون نَي زور ھون پڙھڻ ھارو جُملا ڀيڙا ڪِيا جائيَ ھيَ۔
 
 ## Community Playbook Content
 ## What is a language

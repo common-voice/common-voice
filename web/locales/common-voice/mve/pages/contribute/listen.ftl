@@ -18,11 +18,11 @@ validate-readings-coming-soon = پڙھڻ رِي تصديق ڪرو <small>(جلد
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = پڙھڻ رِي تصديق ڪرو، لِکوڙيَ رو جائزو ليو
-validate-readings-menu-item-tooltip = سهي رِڪوڊئينگ ڪرڻ پڙهڻ آپرِي ٻولِي ۾
-review-transcriptions-menu-item-tooltip = جونچڻ جما ڪرڻ هون پيل آپرِي ٻولِي ۾
+validate-readings-menu-item-tooltip = ٿونرِي ٻولِي ۾ پڙھڻ آݪيَ رِي ھويوڙِي ريڪاڍِنگ رِي تصديق ڪرو
+review-transcriptions-menu-item-tooltip = آپرِي ٻولِي ۾ استعمال ڪرڻ آݪيَ ريَ طرڦون جمع ڪِيوڙيَ لِکت رو جائزو ليو
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = هونبڙو اوپشن مَينيو
-validate-readings-menu-item-aria-label = برادري  سهي پڙهائي جما ڪِي
-review-transcriptions-menu-item-aria-label = سهي ڪرڻ هارون آپرَي جملون نَي وَڙيَ جونچو
+listen-contribute-menu-aria-label = آپشن مينيو نَي ھونڀڙو
+validate-readings-menu-item-aria-label = برادرِي ريَ مِنکون ريَ طرڦون جمع ڪِيوڙِي لِکت رِي تصديق ڪرو۔
+review-transcriptions-menu-item-aria-label = دُرستگِي ھارو ريڪاڍ ڪِيوڙيَ جملون رِي لِکت رو جائزو ليو
