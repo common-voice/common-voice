@@ -127,3 +127,5 @@ contribution-varying-pronunciations-description-extended = ٻجي جگہ، جي�
 contribution-varying-pronunciations-example-1-title = اي ري ماٿا تي ايڪ بيريٽ پيريڙو هي.
 contribution-varying-pronunciations-example-1-explanation = ['بيريٽ' ٺيڪ هي، پهريو اکر (برطانيه) تي زور مون يا ٻجي (آمريڪا) تي]
 contribution-varying-pronunciations-example-2-title = اورو ھاٿ ماٿي کڻيو
+contribution-varying-pronunciations-example-2-explanation = [انگريزي ۾ 'Raised' ني هميشه ھاروايڪ اکر ري طور تي تلفظ ڪريو جائي هي، ٻي ۾ نه]
+contribution-background-noise-title = پس منظرگوڙ

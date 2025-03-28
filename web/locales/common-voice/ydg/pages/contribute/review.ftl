@@ -22,6 +22,14 @@ sc-review-form-button-skip-shortcut = ایس
 sc-review-form-keyboard-usage-custom = تو ڤے کیبورڈ شاٹ کٹ استعمال کڑا کرکینے{ sc-review-form-button-approve-shortcut } پے منظور کڑا دیر۔{ sc-review-form-button-reject-shortcut }پے مسترد کڑا دیر { sc-review-form-button-skip-shortcut }پے لیغدا دیر
 sc-review-form-button-submit =
     .submitText = ڤے دیبارو اوژڑا مکمل کن
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ڤے جملغّف دیبارو چے اوݱڑت۔
+        [one] 1 ڤے جملو دیبارو اوژڑ! تو شکریہ
+       *[other] { $sentences } ڤے جملغّف دیبارو اوݱڑت۔ تو شکریہ!
+    }
 sc-review-link = اشپہ اوݱڑا
 
 ## REVIEW CRITERIA
