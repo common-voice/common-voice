@@ -7,7 +7,12 @@ sc-review-no-sentences = اڤن جملغّے پے اوݱڑا دیر چش۔<addLi
 sc-review-form-prompt =
     .message = اشپہ اوݱڑیغو جملغّے جمع چے ݰوت، تو یقینآ؟
 sc-review-form-usage = ڤے جملغّف پے منظور کڑا دیر سے ہرزوغ کرن سیتور۔ پے مسترد کڑا دیر سے چوپ کرن سیتور۔ پے لیغدا دیر ڤڑغو سیتور۔<strong>ڤے خوئے تبصرو جمع کڑا چے فرموؤا!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ذریعو:{ $sentenceSource }
+sc-review-form-button-reject = مسترد کڑا
 sc-review-form-button-skip = لیغان
+sc-review-form-button-approve = منظور کڑا
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = وائی
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
