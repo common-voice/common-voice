@@ -100,3 +100,6 @@ download-contribute-menu-tooltip = Download our voice datasets
 
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Download options for accessing Common Voice data
+
+datasets-show-more = See More
+datasets-show-less = See Less
