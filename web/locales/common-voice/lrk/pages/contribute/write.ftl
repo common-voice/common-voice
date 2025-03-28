@@ -64,7 +64,7 @@ news_current_affairs = خبرون ھين موجوده معاملن
 technology_robotics = ٽيڪنالاجي ھين روبوٽڪس
 sentence-variant-select-label = سزا رو قسم
 sentence-variant-select-placeholder = آيڪ قسم چونڊيو (اختياري)
-sentence-variant-select-multiple-variants = عام ٻولي / ڪيتائي قسم
+sentence-variant-select-multiple-variants = عام ٻولي / ڪيتائي قسمعام ٻولي / ڪيتائي قسم
 
 ## BULK SUBMISSION
 
@@ -76,6 +76,12 @@ bulk-upload-additional-information = جيڪدي تمي آ فائل بابت وڌ
 template-file-additional-information = جيڪدي تمي آ فائل بابت ڪوئي اضافي جوڻ ڌيووُ چايو ھون جي ٽيمپليٽ ۾ شامل ڪوئي هي، مهربوني ڪرين رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = آپري فائل ائيي ڇڪين وري ڪوشش ڪرو.
 try-upload-again-md = ٻيجي دفا اپلوڊ ڪريا ري  ڪوشش ڪرو
+select-file = فائل پسند ڪرو
+select-file-mobile = اپلوڊ ڪريا ھارو فائل چونڊو
+accepted-files = مونيڙي فائل را قسم: صرف .tsv
+minimum-sentences = فائل ۾ گھٽ ۾ گھٽ جملا1000
+maximum-file-size = وڌ ۾ وڌ فائل سائيز:25 MB
+what-needs-to-be-in-file = ماري فائل ۾ ڪاُو هووُ کپي؟
 
 ## SMALL BATCH SUBMISSION
 
