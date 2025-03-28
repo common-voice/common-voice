@@ -15,18 +15,27 @@ import './localization-select.css'
 
 interface Props {
   locale?: string
+  userLanguages?: string[]
   onLocaleChange?: (props: string) => void
 }
 
-function getLocaleWithName(locale: string) {
-  const availableLocalesWithNames = useNativeNameAvailableLocales()
-  return availableLocalesWithNames.find(({ code }) => code === locale)
-}
 
-const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
+const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Props) => {
+
+  function getLocaleWithName(locale: string) {
+    return availableLocalesWithNames.find(({ code }) => code === locale)
+  }
+
   const availableLocales = useAvailableLocales()
-  const availableLocalesWithNames = useNativeNameAvailableLocales()
+  let availableLocalesWithNames = useNativeNameAvailableLocales()
   const { abortStatus } = useAbortContributionModal()
+
+  // Get user languages to top of the list
+  if (userLanguages) {
+    const userLanguagesWithNames = userLanguages.map(lang => getLocaleWithName(lang))
+    availableLocalesWithNames = userLanguagesWithNames.concat(availableLocalesWithNames.filter(item => !userLanguages.includes(item.code)))
+  }
+
   const localWithName = getLocaleWithName(locale)
   const initialSelectedItem = localWithName
     ? localWithName.code
@@ -82,9 +91,11 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
                   key={item}
                   className={classNames('list-item-wrapper', {
                     highlighted: index === highlightedIndex,
-                  })}>
+                  })}
+                  style={{ borderBottomColor: userLanguages.length > 0 && index === userLanguages.length-1 ? "#333" : "#f3f2f0" }}
+                >
                   <li {...getItemProps({ item })}>
-                    {getLocaleWithName(item).name}
+                    {userLanguages.includes(item) ? <strong>{getLocaleWithName(item).name}</strong> : getLocaleWithName(item).name}
                   </li>
                   {item === locale && (
                     <img
@@ -94,6 +105,7 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
                       height={24}
                     />
                   )}
+                  {userLanguages.length > 0 && index === userLanguages.length ? <hr /> : <></>}
                 </div>
               ))}
             </ul>
