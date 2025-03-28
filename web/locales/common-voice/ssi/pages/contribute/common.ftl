@@ -138,6 +138,7 @@ contribution-background-noise-example-2-fixed-title = دیو ڈائنو <strong>
 contribution-background-noise-example-2-explanation = [کتھنا کا کئی بھاگ سٹؔا نائی جائی سِکے]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>riassic۔ <strong>[Crackle]</strong> کے ٻڈؔے ڈائنوسار۔
 contribution-background-voices-title = لارکیاں آواجاں
+contribution-background-voices-description = ایک سُونی جھاگا سئہی ہے، پٹؔ ہمکُو ودھیک گوڑ نائی چاہواں جکو مشین الگورتھما کُو اِن سٻدؔیں کُو اوݪکھنے کا سبب ٻٹؔی سِکتی ہے جکو لِکھوڑے کتھنام نائی تیا۔ جئے اگر تھم کتھنا کے سِوا نیارا سٻدؔ سُٹؔی سِکتے ہے تو ٹُکڑے کُو چھوڈؔی دِؔٹؔا جاہئے۔ گھٹؔے کرے یو اوٹھے ہؤتا ہے جِتوڑ ٹی وی چلائی چھوڈؔی دؔی ہے، یا جِتوڑ آسے پاسے ٻات چیت چالیری ہے۔
 contribution-background-voices-description-extended = جئے اگر بھروڑی آواج ٹُوٹی جاوتی ہے، یا اِس میں تئیڑاں پڑتیاں ہیں، اُس تائیں چھوڈؔی دؔیو جس تائیں کہ پُورا کتھن سُٹؔا نائی جائی سِکے۔
 contribution-background-voices-example-1-title = پُراتنا کے سپا ٻڈؔے ڈایناسور۔ <strong>[ایک آواجاس  پڑھو]</strong>
 contribution-background-voices-example-1-explanation = توں آئیرا ہے؟<strong>[کسی دؔوجے کے جریئے ٻلایا ہے]</strong>
