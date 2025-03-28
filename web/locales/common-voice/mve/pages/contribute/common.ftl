@@ -95,10 +95,10 @@ shortcut-vote-no = ن
 
 ## Validation criteria
 
-contribution-criteria-nav = ميهار
-contribution-criteria-link = ميها نَي سمجھو هان هسو ليو
-contribution-criteria-page-title = هسو ليڻ رو ميهار
-contribution-criteria-page-description = ياد راکو ڪيَ اَي ڪلِيپ جونچڻ ريَ ٽيم ڪهڙِي شئين نَي جونچڻ کپيَ هانَ آپرِي رِڪورڊئينگ ني سُٺي نمُونَي رِڪورڊ ڪرو
+contribution-criteria-nav = معيار
+contribution-criteria-link = شراڪت رَي معيار نَي سمجھو
+contribution-criteria-page-title = شراڪت رو معيار
+contribution-criteria-page-description = سمجھو ڪہ آواز رو ڪلِپ ھونڀڻڻ رَي ٽيم ڪِي جونچڻ کپيَ ھان آپرِي آواز نيَ ريڪارڍنگ نيَ وڌيڪ سُٺِي ٺاھڻ ۾ مدد ڪرو!
 contribution-for-example = مسال طور
 contribution-misreadings-title = غلط پڙهڻ
 contribution-misreadings-description = جڏيَ هونبڙو، ڌيان هون چيڪ ڪرو ڪي ٿَي ڪِي رِڪورڊ ڪريَ ريا هون، ڪِي او جي هَي جيڪو لکوڙو هَي: سهي ڪرو جڪو غلط هوئي ننڪِي هون ننڪِي غلطِي <br /> ڀليَ ڪو ڀِي غلطِي هوئي

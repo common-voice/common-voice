@@ -1,3 +1,4 @@
+speak = ٻولو
 review-recording = پرکوہ
 review-rerecord = وري رڪارڊ
 review-cancel = جمع ڪراوو بند ڪرو

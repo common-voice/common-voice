@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = آپري ٻولي ۾ استعمال ڪ
 
 listen-contribute-menu-aria-label = اختيارن رو مينيو ھوڻو
 validate-readings-menu-item-aria-label = برادري ري ميمبرو مون جمع ڪريوڙي ري تصديق ڪرو.
+review-transcriptions-menu-item-aria-label = سھي ھارو رڪارڊ ڪريوڙا جملو ري ٽرانسڪرپشن رو جائزو ليو.
