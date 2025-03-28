@@ -50,12 +50,12 @@ sc-review-instruction = جونچو <icon> ڪِي اَي جُملو گرامر ر
 sc-review-rules-title = ڪِي اَي جُملو رھنما اصولون ريَ  مطابق هَي۔
 sc-review-empty-state = هڻي اِيئي ٻولِي ۾ ڪو ڀِي جُملو جائزو ليڻ هارون ڪونھي هَي۔
 report-sc-different-language = الگ ٻولِي
-report-sc-different-language-detail = ڪِي لکوڙِي ٻولِي الگ هوئي هَي جڪو هُون جونچي ريو هون۔
-sentences-fetch-error = جملا جونچڻ ۾ هيڪ خرابِي ملِي هَي
-review-error = جملا جونچڻ ۾ هيڪ خرابِي ملِي هَي
-review-error-rate-limit-exceeded = ٿَي ڇيڪا جاو پڙيا۔ ٿوڙو ڌيان هون جملا جونچتا جاو هانَ سهي ڀِي ڪرتا جاو۔
+report-sc-different-language-detail = جڪيَ ٻولِي ۾ ھُون جائزو ليو ھون اُوئي ھون اَي لِکوڙِي ٻولِي الگ ھيَ۔
+sentences-fetch-error = جُملا ليَ آڻ ۾ ھيڪ غلطِي ھوئِي ھَي۔
+review-error = اِيئي جُمليَ رو جائزو ليڻ ۾ ھيڪ مسئلو آئيَ پڙيو۔
+review-error-rate-limit-exceeded = ٿيَ جوم تِکا ٻوليَ ريا ھو۔ مھربونِي ڪريَ جُمليَ رو جائزو ليڻ ھارون ٿوڙو صبر ڪرو ھانَ پَڪ ڪرو ڪہ اَي جُملو صحيح ھيَ۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = ميه ڪجه موٽا بدلاو ڪرون پڙيا
+sc-redirect-page-title = مھيَ ڪجھ موٽيَ تبدِليَ ڪريَ ريا ھون
 sc-redirect-page-subtitle-1 = جملا جما ڪرڻ آݪوبُنيادِي ڪومن وئِيس ريَ  پليٽ فارم جائي پڙيو۔ ٿَي جائي هگھون هون<writeURL>لکو </writeURL>هيڪ جملو يان<reviewURL>جونچي </reviewURL>هيڪ ئِي جملو جما ڪرڻ ڪومن وئِيس تي
 sc-redirect-page-subtitle-2 = سوال پُوڇو <matrixLink>مٽريڪس</matrixLink><discourseLink>ڊيس ڪورس </discourseLink>يان <emailLink>اِي ميل </emailLink>
 # menu item

@@ -7,6 +7,10 @@ record-platform-not-supported-desktop = دے ڈسک ٹاپ مشین تو دے ڈ
 record-platform-not-supported-ios-non-safari = سے آئی او ایس براہِ مہربانی ڤے ریکارڈنگ پے فعال اوستیا دیر ڤے سفاری استعمال جاری اوزیاؤ…
 record-must-allow-microphone = دے تے مائیکرو فون رسائین اجازت ضروری۔
 record-no-mic-found = مائیکرو فون ملاؤ چے ݰوئے۔
+record-error-too-short = مو ریکارڈنگ جاہند کوګ ڤیو۔
+record-error-too-long = مو ریکارڈنگ جاہند پے ڤنآغ ڤیو۔
+record-error-too-quiet = مو ریکارڈنگ ام خپ ڤیو۔
+record-cancel = دیبارو ڤے ریکارڈنگ منسوخ کن
 
 ## MENU ITEM TOOLTIPS
 
