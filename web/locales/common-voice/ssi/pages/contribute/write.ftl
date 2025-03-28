@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = لِکھٹؔا
+write-instruction = جنتا کی پُونجیا کے ٻول بھیݪے کرو <icon></icon>
 
 ## BULK SUBMISSION
 

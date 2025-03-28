@@ -1,8 +1,8 @@
 action-click = ڪلِڪ ڪرڻ
-action-tap = ٿپڻاڻ
-contribute = هسو ڏيڻ يان ڏيڻ آݪو
-review = جونچڻ
-skip = ڇوُڙڻ
+action-tap = ٽيپ (چيڪ ڪرڻ آݪِي جگھہ)
+contribute = حصو ڏيڻ
+review = جائزو
+skip = ڇوڙڻ
 shortcuts = ويچ ڪرڻ
 clips-with-count-pluralized =
     { $count ->

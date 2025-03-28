@@ -12,4 +12,4 @@ sc-review-link = اشپہ اوݱڑا
 ## REVIEW CRITERIA
 
 # menu item
-review-sentences = ڤے جملے غف اوژر
+review-sentences = ڤے جملغّف اوژر
