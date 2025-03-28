@@ -34,6 +34,8 @@ sc-review-link = اشپہ اوݱڑا
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ دیبارو اوݱڑان معیار
+sc-criteria-title = دیبارو اوݱڑان معیار
 report-sc-different-language = دیر زبان
 # menu item
 review-sentences = ڤے جملغّف اوژر

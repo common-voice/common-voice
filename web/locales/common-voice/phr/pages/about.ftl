@@ -44,10 +44,19 @@ about-get-involved-text-2 = کامن وائس کی بہتر کرنے آسطے م
 about-stay-in-touch = میں کس طرا رابطہ کری سکنس؟
 about-stay-in-touch-button = سائن اپ
 about-stay-in-touch-text-1 = اساں نی میل نی لسٹ اچ سائن اپ کرا تے کامن وائس نے پروجیکٹاں اچ، تقریباں اچ تے ڈیزائن نے فیچرز اچ شامل ہونے نے طریقے سکھا
+about-stay-in-touch-text-2 = موزیلا نی زبان نی کمیونٹی اچ کسے موضوع اوپر گل کرنے آسطے ڈسکورس اچ شامل ہوئی یا فوری مشورے آسطےمیٹرکس اچ شامل ہوئی تس ہوراں کی وی ملی سکنے آ
+about-nav-why-common-voice = کیہاں
+about-nav-how-it-works = کس طرح
+about-nav-partners = سنگی
+about-nav-get-involved = شرکت کرا
+about-nav-how-it-works-2 = کامن وائس کس طرح کم کرنا
+about-nav-playbook = سکھا کہ تس کس طرح حصہ کنی سکنے آ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس اوپر ہک زبان کیہہ زی
+about-playbook-what-is-language-content-1 = زباناں نے بارے اچ سوچنے نے بہوں سارے طریقے زے۔ زبان نی پہچان نے ماڈل آسطے، کامن وائس نہ مشورہ زا کہ مشترکہ سمجھداری اوپرغور کرو یا ایہہ زبان بولن آلے اگر کوشش کرن تے ہک دوئے کیا سمجھی سکنے
 
 ## How do I add a language
 
