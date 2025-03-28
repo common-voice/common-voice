@@ -23,6 +23,7 @@ new-sentence-rule-7 = مناسب حوالو ڀيرو ڪرو
 new-sentence-rule-8 = مثالي طور تي قدرتي ھين گفتگو وارو (جملو پڙيا ۾ آسون ھووُ کپي)
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink>ھين<loginLink>ماٿي</loginLink>گھڻا جملل ڀآرا ڪريا ھارو
 how-to-cite = ھون ڪيڪر حوالو ديون؟
+how-to-cite-explanation-bold = URL لنڪ يا ڪم مون مڪمل نوم مون  حوالو ڏيو.
 guidelines = راہ ديکاڙوي
 contact-us = رابطو ڪرو
 add-sentence-success = جملا ڀيرا ڪرو
