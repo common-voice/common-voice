@@ -1,12 +1,12 @@
 ## REVIEW
 
-sc-review-lang-not-selected = ڪِي ٿون ڪو ٻولي چُونڊِي هَي۔ مهربونِي ڪري جائو<profileLink>پُروفائيل</profileLink> چُونڊو آپرِي ٻولِي
-sc-review-title = جملا وَڙيَ جونچو
-sc-review-loading = جملا آڻ آݪا هَي
-sc-review-select-language = مهربونِي ڪريَ ٻولِي چونڊو جملا جونجڻ هارون
-sc-review-no-sentences = ڪو ڀِي جملو ڪونِي جونچڻ هارون۔<addLink> ٻيجا ڀِي جملا شامل ڪرو هڻي </addLink>
+sc-review-lang-not-selected = ٿون ڪو ٻوليَ ڪونِي چونڊِي ھيَ۔ مھربونِي ڪريَ آپريَ <profileLink> پروفائل</profileLink>ٻوليَ چونڊڻ ھارو
+sc-review-title = جُملون رو جائزو ليو
+sc-review-loading = لوڊ ڪرتيَ جُملا…
+sc-review-select-language = مهربونِي ڪريَ جُملو رو جائزو ليڻ ھارو ٻولِي چونڊو
+sc-review-no-sentences = جائزو ليڻ ھارو ڪو بِي جُملو ڪونِي <addLink> ھيڻو ٻيجا جُملا شامل ڪرو</addLink>
 sc-review-form-prompt =
-    .message = جونچوڙا جملا انجيَ تائين جما ه”ڪونِي هويا هَي؟ ٿوني يقين هَي
+    .message = جائزو ليوڙا جُملا ڪونِي جمع ڪِيا، ڪِي پَڪ ھيَ؟
 sc-review-form-usage = جملي نَي سهي ڪرڻ هارون سَڌي پاهيَ دٻائو
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence

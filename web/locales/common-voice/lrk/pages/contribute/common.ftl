@@ -131,3 +131,6 @@ contribution-varying-pronunciations-example-2-explanation = [انگريزي ۾ '
 contribution-background-noise-title = پس منظرگوڙ
 contribution-background-noise-description = امي  چاهون ھون ڪي مشين لرننگ الگورٿم مختلف قسم ري پس منظر ري گوڙ ني سنڀاليا ري قابل هوئي، ھين بلڪي تيز ٻوليو ني بي موني سگي جيم ڪي ائي تموني پورو متن ھوڻيا مون  ڪوئي روڪي. چپ پس منظر موسيقي ٺيڪ هي؛ ايتي بلند موسيقي جي تمو ني هر لفظ ھوڻيا مون روڪي سگهي، ايم ڪوئي هي.
 contribution-background-noise-description-extended = جيڪڏي رڪارڊنگ ٽٽي جائي، يا او ۾ ٽڪرا ٽڪرا هوئي، تو رد ڪرو جيستوئين متن جو پورو حصو اڃو تڪ ھوڻي نه سگي.
+contribution-background-noise-example-1-fixed-title = <strong>s\\سينڪوُ</strong>موٿا ڊائنوسار<strong>ڌوھني</strong>ٽراسي.
+contribution-background-noise-example-2-fixed-title = موٿو ڌنو<strong>ڌونھي</strong>ٽراسي.
+contribution-background-noise-example-2-explanation = متن رو ڪوئي حصو ھڻوا ڪوئي آوي]
