@@ -7,31 +7,31 @@ sc-review-select-language = مهربونِي ڪريَ جُملو رو جائزو
 sc-review-no-sentences = جائزو ليڻ ھارو ڪو بِي جُملو ڪونِي <addLink> ھيڻو ٻيجا جُملا شامل ڪرو</addLink>
 sc-review-form-prompt =
     .message = جائزو ليوڙا جُملا ڪونِي جمع ڪِيا، ڪِي پَڪ ھيَ؟
-sc-review-form-usage = جملي نَي سهي ڪرڻ هارون سَڌي پاهيَ دٻائو
+sc-review-form-usage = جُمليَ نَي قبول ڪرڻ ھارو سُڀتيَ پاݾيَ ڇيڪو (سوائپ)۔ رد ڪرڻ ھارو اُڀتيَ پاݾيَ ڇيڪو (سوائپ)۔ ڇوڙڻ ھارو ماٿيَ ڇيڪو (سوائپ)۔<strong> آپرو جائزو جمع ڪرڻ نِي پونتريا!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = وسِيلو{ $sentenceSource }
-sc-review-form-button-reject = رد ڪرڻ يان منها ڪرڻ
-sc-review-form-button-skip = ڇوُڙڻ
-sc-review-form-button-approve = سهي ڪرڻ يان اجازت ڏيڻ
+sc-review-form-source = وسِيلو:{ $sentenceSource }
+sc-review-form-button-reject = رد ڪرڻ
+sc-review-form-button-skip = ڇوڙڻ
+sc-review-form-button-approve = منظور ڪرڻ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ي
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = ن
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = س
-sc-review-form-keyboard-usage-custom = ٿَي استمعال ڪريَ هگھون هون ڪِبورڊ را شورٽ ڪٽ { sc-review-form-button-approve-shortcut } سهي ڪرڻ هارون { sc-review-form-button-reject-shortcut }رد ڪرڻ هارون { sc-review-form-button-skip-shortcut } ڇوُڙڻ هارون
+sc-review-form-keyboard-usage-custom = ٿيَ ڪِي بورڊ را شاٽ ڪٽ ڀِي استعمال ڪريَ ݾگھو ھو: { sc-review-form-button-approve-shortcut } منظور ڪرڻ ھارو،{ sc-review-form-button-reject-shortcut } رد ڪرڻ ھارو،{ sc-review-form-button-skip-shortcut } ڇوڙڻ ھارو
 sc-review-form-button-submit =
-    .submitText = جونچڻ ختم ڪرو
+    .submitText = جائزو ختم ڪرو
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] ڪو ڀِي جملو ڪونِي جوئيو يا جونچيو
-        [one] هيڪ جملو جوئيو جونچيو۔ مهربونِي
-       *[other] { $sentences } جملا جوئيا يان جونچيا۔ مهربونِي
+        [0] ڪيَ ڀِي جُمليَ رو جائزو ڪونھي ھويوڙو۔
+        [one] ھيڪيَ جُمليَ رو جائزو ھويوڙو ھيَ۔ ٿونرِي مھربونِي!
+       *[other] { $sentences } جُملون رو جائزو ھويوڙو ھيَ۔ ٿونرِي مھربونِي!
     }
-sc-review-form-review-failure = جونچوڙا جملا سَيو ڪوني هويا هَي۔ مهربونِي ڪريَ وَڙيَ ڪوشِيش ڪرو
+sc-review-form-review-failure = جائزو جمع يا محفوظ ڪونھي ھوئي ݾگھتو۔  مھربونِي ڪريَ وڙيَ ڪوشِش ڪرو۔
 sc-review-link = جونچو
 
 ## REVIEW CRITERIA

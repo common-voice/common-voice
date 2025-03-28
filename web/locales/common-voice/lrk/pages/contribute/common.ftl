@@ -134,3 +134,5 @@ contribution-background-noise-description-extended = جيڪڏي رڪارڊنگ �
 contribution-background-noise-example-1-fixed-title = <strong>s\\سينڪوُ</strong>موٿا ڊائنوسار<strong>ڌوھني</strong>ٽراسي.
 contribution-background-noise-example-2-fixed-title = موٿو ڌنو<strong>ڌونھي</strong>ٽراسي.
 contribution-background-noise-example-2-explanation = متن رو ڪوئي حصو ھڻوا ڪوئي آوي]
+contribution-background-noise-example-3-fixed-title = <strong>وادر</strong>موٿو<strong> ڊائناسوروادر</strong>رياسڪ.
+contribution-background-voices-title = پس منظر آوازون
