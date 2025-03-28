@@ -53,3 +53,6 @@ report-sc-different-language = ٻيجي زبون
 report-sc-different-language-detail = ايڪ ايوي ٻولي ۾ لکيوڙوهي جي ھون جائزو ليو ھون اي مون مختلف هي.
 sentences-fetch-error = جملو ني لايا ھارو ايڪ غلطي ھوئي گئي.
 review-error = اي جملل رو جائزو ليدا ۾ ايڪ غلطي ھوئي گيو.
+review-error-rate-limit-exceeded = تمي تموم  تيزيءَ مون ٻولون ھو. مهربوني ڪرين جملا رو جائزو ليدا ھارو هڪ لمحو ڪاڍو تاڪي پڪ ڪرو ڪي او صحيح هي.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = امي ڪوئي  موٿي تبديليون لاوُ ھون
