@@ -44,12 +44,12 @@ sc-criteria-item-2 = جُملو گرامر ريَ مطابق  صحيح هوڻ ک
 sc-criteria-item-3 = جُملو ٻولڻ ري قابِل هوڻ کپيَ۔
 sc-criteria-item-4 = جيَ جُملو معيار تيَ پورو اُتريَ، ڪلِڪ ڪرو&quot; منظور ڪرڻ ھارو &quot; سُڀتيَ پاݾيَ بٽڻ ھيَ۔
 sc-criteria-item-5-2 = جيَ جُملو ماٺليَ معيار تيَ پورو نِي اُتريَ تو، ڪلِڪ ڪرو &quot; رد ڪرڻ ھارو&quot; اُڀتيَ پاݾيَ  بٽڻ ھيَ۔  جيَ ٿونيَ جُمليَ تيَ يقين ڪونھي، تو ٿيَ اِيئي نَي ڇوڙيَ ݾگھو ھو ھانَ  جائو ٻيجيَ جُملي تي۔
-sc-criteria-item-6 = اگر ٿون ڪني جونچڻ هارون جملا ختم هويا را تو مهربونِي ڪريَ مهورِي مدد ڪرو جملا جما ڪرڻ ۾
+sc-criteria-item-6 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = جونچو <icon> ڪِي گرامر ريَ مطابق سهي هَي جملو
-sc-review-rules-title = ڪِي جملي ڏِينوڙِي هدايت هون ملي هَي۔
-sc-review-empty-state = اِيئي ٻولِي ۾ هڻي ڪو ڀِي جملو جونچڻ هارون ڪونِي هَي
-report-sc-different-language = الگ الگ ٻوليَ يان مختلِيف ٻوليَ
+sc-review-instruction = جونچو <icon> ڪِي اَي جُملو گرامر ريَ مطابق ٺيڪ ھيَ؟
+sc-review-rules-title = ڪِي اَي جُملو رھنما اصولون ريَ  مطابق هَي۔
+sc-review-empty-state = هڻي اِيئي ٻولِي ۾ ڪو ڀِي جُملو جائزو ليڻ هارون ڪونھي هَي۔
+report-sc-different-language = الگ ٻولِي
 report-sc-different-language-detail = ڪِي لکوڙِي ٻولِي الگ هوئي هَي جڪو هُون جونچي ريو هون۔
 sentences-fetch-error = جملا جونچڻ ۾ هيڪ خرابِي ملِي هَي
 review-error = جملا جونچڻ ۾ هيڪ خرابِي ملِي هَي
