@@ -32,13 +32,13 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } جُملون رو جائزو ھويوڙو ھيَ۔ ٿونرِي مھربونِي!
     }
 sc-review-form-review-failure = جائزو جمع يا محفوظ ڪونھي ھوئي ݾگھتو۔  مھربونِي ڪريَ وڙيَ ڪوشِش ڪرو۔
-sc-review-link = جونچو
+sc-review-link = جائزو
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ميهار جونچو
-sc-criteria-title = ميهار جونچو
-sc-criteria-make-sure = اَي ڌيان راکو ڪيَ جملا ڏِينوڙيَ ميهار ريَ مطابق هوئي هَي
+sc-criteria-modal = ⓘ معيار رو جائزو
+sc-criteria-title = معيار رو جائزو
+sc-criteria-make-sure = پَڪ ڪرو ڪہ جُملو ھيٺيِن ڏِنوڙيَ معيارون تيَ پورو اُتريَ ھيَ۔
 sc-criteria-item-1 = جملا سهي نموُني هون لِکو
 sc-criteria-item-2 = جملا گرامر ري مطابق هون سهي هوڻ کپيَ
 sc-criteria-item-3 = جملو ٻولڻ ري قابِل هوئي کپيَ
