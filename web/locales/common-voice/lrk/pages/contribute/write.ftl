@@ -2,6 +2,15 @@
 
 write = ليک
 write-instruction = جمہ<icon></icon>عوامي ڊومين ري سزا
+write-page-subtitle = آ ڀيآرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائي
+sentence =
+    .label = جملا
+sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
+small-batch-sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
+citation-input-placeholder = آپري جملل ري وجہ رو حوالو ڌيو (لازمي)
+citation =
+    .label = خلاسو
+sc-write-submit-confirm = ھون مونوھون ڪي  جملو هي
 guidelines = راہ ديکاڙوي
 contact-us = رابطو ڪرو
 add-sentence-success = جملا ڀيرا ڪرو
