@@ -23,6 +23,14 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = تمو ني بورڊ شارٽ ڪٽ پڻ استعمال ڪري سگهو{ sc-review-form-button-approve-shortcut }منظور ڪروُ{ sc-review-form-button-reject-shortcut }رد ڪروُ{ sc-review-form-button-skip-shortcut }سوڙوُ
 sc-review-form-button-submit =
     .submitText = جائزو ختم ڪرو
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ڪوبي جملو رو جائزو ڪوئي ليدو گيو.
+        [one] 1جملا رو جائزو ليدو گيو ھي. مهربوني!
+       *[other] { $sentences }جملا رو جائزو ليدو گيو ھي. مهربوني!
+    }
 
 ## REVIEW CRITERIA
 
