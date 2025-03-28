@@ -19,6 +19,9 @@ validate-readings-coming-soon = ریڈنگا کی اوݪکھ کرو <small>(ٻی
 
 listen-contribute-menu-tooltip = ریڈنگا کی اوݪکھ کرو، نکلی کُو ایدؔائے دؔیکھو
 validate-readings-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی لِکھتا کُو پڑھنے کی اوݪکھ کرو
+review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی ترپھاس بھیݪا کراوڑا نکلا کُو ایدؔائے دیکھو
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = سُٹؔنواڑے کے ادیکارا کا مینو
+validate-readings-menu-item-aria-label = پیڑے کے میبرے کی ترپھاس بھیݪی کروڑی پرکھوڑی ریڈنگ

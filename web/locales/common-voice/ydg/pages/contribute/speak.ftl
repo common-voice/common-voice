@@ -15,6 +15,7 @@ record-instruction = { $actionType } <recordIcon></recordIcon> تے ڤے جمل�
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> کلو کہ مکمل ݰوئے
 record-three-more-instruction = شروئے اوزائی!
 record-again-instruction = جاہند غیݰے!<recordIcon></recordIcon> ژے خوئن دیر آواز ریکارڈ کن
+record-abort-submit = کوګ آوازے جمع کن
 
 ## MENU ITEM TOOLTIPS
 
