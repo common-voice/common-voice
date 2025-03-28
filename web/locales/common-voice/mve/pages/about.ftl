@@ -7,6 +7,7 @@ how-does-it-work-text = مھيَ آوازون رَي ھيڪ کُليي مواد 
 
 ## How does it work section
 
+about-language-req-subtitle = ڪو مِنک ٻولِي شامل ڪرڻ ھارو ڪھي ھيَ
 
 ## Community Playbook Content
 ## What is a language

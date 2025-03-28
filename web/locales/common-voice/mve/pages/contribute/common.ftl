@@ -53,12 +53,12 @@ report-different-language-detail = او ٻولِي جڪو ھُون ٻولون ھ
 report-difficult-pronounce = اوچار ۾ ڏُکيو
 report-difficult-pronounce-detail = اِيئيون ۾ اھڙا اکر يا جُملا ھيَ جڪو پڙھڻ ھانَ اوچار ڪرڻ ۾ ڏُکيا ھيَ۔
 report-offensive-speech = بداخلاقِي ھون ٻولڻ
-report-offensive-speech-detail = اِيئي ڪلِپ ۾ گاڙيَ هانَ ڪِنا لفز هَي
+report-offensive-speech-detail = اِيئي ڪلِپ ۾ بيَ عزتِي ھانَ بداخلاقِي ٻولِي استعمال ھويوڙِي ھيَ۔
 report-other-comment =
-    .placeholder = خيال ظاهر ڪرڻ
-success = ڪامِيابِي
-continue = هليَ پَڙيو
-report-success = رِپورٽ منضوُر هوئِي رِي ڪامِيابِي هون
+    .placeholder = رائيَ ڏيڻ
+success = ڪاميابِي
+continue = هليَ پَڙيو يا جارِي ھيَ
+report-success = رپورٽ ڪاميابِي ھون جمع ھوئِي رِي
 
 ## Speak & Listen Shortcuts
 
@@ -70,9 +70,9 @@ shortcut-skip = س
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
-shortcut-record-toggle-label = رِڪورڊ هانَ روڪڻ
-shortcut-rerecord-toggle = 5۔1
-shortcut-rerecord-toggle-label = وَڙيَ رِڪورڊ ڪرو اِيئي ڪلِپ نَي
+shortcut-record-toggle-label = رِيڪاڍ ڪرو هانَ روڪو
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ڪلِپ نَي وڙيَ رِيڪاڍ ڪرو
 shortcut-discard-ongoing-recording = اِيِ اَس سِي
 shortcut-discard-ongoing-recording-label = هلتِي رِڪورڊئينگ نَي ختم ڪرو
 shortcut-submit = واپس آڻ

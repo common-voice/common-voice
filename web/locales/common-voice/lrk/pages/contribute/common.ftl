@@ -129,3 +129,5 @@ contribution-varying-pronunciations-example-1-explanation = ['بيريٽ' ٺيڪ
 contribution-varying-pronunciations-example-2-title = اورو ھاٿ ماٿي کڻيو
 contribution-varying-pronunciations-example-2-explanation = [انگريزي ۾ 'Raised' ني هميشه ھاروايڪ اکر ري طور تي تلفظ ڪريو جائي هي، ٻي ۾ نه]
 contribution-background-noise-title = پس منظرگوڙ
+contribution-background-noise-description = امي  چاهون ھون ڪي مشين لرننگ الگورٿم مختلف قسم ري پس منظر ري گوڙ ني سنڀاليا ري قابل هوئي، ھين بلڪي تيز ٻوليو ني بي موني سگي جيم ڪي ائي تموني پورو متن ھوڻيا مون  ڪوئي روڪي. چپ پس منظر موسيقي ٺيڪ هي؛ ايتي بلند موسيقي جي تمو ني هر لفظ ھوڻيا مون روڪي سگهي، ايم ڪوئي هي.
+contribution-background-noise-description-extended = جيڪڏي رڪارڊنگ ٽٽي جائي، يا او ۾ ٽڪرا ٽڪرا هوئي، تو رد ڪرو جيستوئين متن جو پورو حصو اڃو تڪ ھوڻي نه سگي.

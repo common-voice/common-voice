@@ -7,6 +7,9 @@ listen-last-time-instruction = آخري ايڪ
 listen-empty-state = شايد امئ ڪني ڪلپس ختم ھوئي گيا ھي  - صفا ني ريفريش ڪرو، يا پسي وري ڪوشش ڪريو
 listen-empty-state-variants = ھوئي سگي ڪي تماري ڀولي رو قسم ڪلپس مئ ٻاري ھوئي ، جي ڪدي تمي خوݾ ھو تو تمي آپري ٻولي مي ٻيجا جملا جويا ھارو سيٿيگئو بدلي سگيو
 listen-loading-error = امي تمئو ري ھڻيا ھارو ڪوئي بي آڊيو ڪلپ حاصل ڪوئي ڪري سگيا مهربوني ڪرين وري ڪوشش ڪرو.
+listen-abort-title = ڪلپس ري تصديق ختم ڪرو؟
+listen-abort-cancel = تصديق ڪروُ جاري رکو
+listen-abort-confirm = تصديق ختم ڪرو
 
 ## MENU ITEM TOOLTIPS
 
