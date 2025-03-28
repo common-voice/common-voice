@@ -22,31 +22,46 @@ interface Props {
 
 const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Props) => {
 
+  const getAvailableLocalesWithNames = () => {
+    const initialAvailableLocalesWithNames = useNativeNameAvailableLocales()
+    // Get user languages to top of the list
+    if (userLanguages) {
+      const userLanguagesWithNames = userLanguages.map(lang =>
+        initialAvailableLocalesWithNames.find(({ code }) => code === lang)
+      )
+
+      return userLanguagesWithNames.concat(
+        initialAvailableLocalesWithNames.filter(
+          item => !userLanguages.includes(item.code)
+        )
+      )
+    }
+
+    return initialAvailableLocalesWithNames
+  }
+
   function getLocaleWithName(locale: string) {
     return availableLocalesWithNames.find(({ code }) => code === locale)
   }
-
-  const availableLocales = useAvailableLocales()
-  let availableLocalesWithNames = useNativeNameAvailableLocales()
-  const { abortStatus } = useAbortContributionModal()
-
-  // Get user languages to top of the list
-  if (userLanguages) {
-    const userLanguagesWithNames = userLanguages.map(lang => getLocaleWithName(lang))
-    availableLocalesWithNames = userLanguagesWithNames.concat(availableLocalesWithNames.filter(item => !userLanguages.includes(item.code)))
-  }
-
-  const localWithName = getLocaleWithName(locale)
-  const initialSelectedItem = localWithName
-    ? localWithName.code
-    : availableLocales[0]
-  const items = availableLocalesWithNames.map(locale => locale.code)
 
   function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
     if (selectedItem && selectedItem !== locale) {
       onLocaleChange(selectedItem)
     }
   }
+
+  const availableLocales = useAvailableLocales()
+  const availableLocalesWithNames = getAvailableLocalesWithNames()
+  const { abortStatus } = useAbortContributionModal()
+  const localWithName = getLocaleWithName(locale)
+  const initialSelectedItem = localWithName
+    ? localWithName.code
+    : availableLocales[0]
+  const items = availableLocalesWithNames.map(locale => locale.code)
+
+  React.useEffect(() => {
+    selectItem(initialSelectedItem)
+  }, [initialSelectedItem])
 
   const {
     isOpen,
@@ -56,7 +71,7 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
     highlightedIndex,
     getItemProps,
     selectItem,
-  } = useSelect({ items, initialSelectedItem, onSelectedItemChange })
+  } = useSelect({ items, onSelectedItemChange })
 
   React.useEffect(() => {
     // if the user does not choose to switch in the abort modal
@@ -89,13 +104,18 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
               {items.map((item, index) => (
                 <div
                   key={item}
-                  className={classNames('list-item-wrapper', {
-                    highlighted: index === highlightedIndex,
-                  })}
-                  style={{ borderBottomColor: userLanguages.length > 0 && index === userLanguages.length-1 ? "#333" : "#f3f2f0" }}
+                  className={
+                    classNames(
+                      'list-item-wrapper', {
+                      'highlighted': index === highlightedIndex,
+                      'userlanguage': userLanguages.length > 0 && index <= userLanguages.length - 1,
+                      'lastuserlanguage': userLanguages.length > 0 && index === userLanguages.length - 1,
+                    }
+                    )
+                  }
                 >
                   <li {...getItemProps({ item })}>
-                    {userLanguages.includes(item) ? <strong>{getLocaleWithName(item).name}</strong> : getLocaleWithName(item).name}
+                    {getLocaleWithName(item).name}
                   </li>
                   {item === locale && (
                     <img
@@ -105,14 +125,13 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
                       height={24}
                     />
                   )}
-                  {userLanguages.length > 0 && index === userLanguages.length ? <hr /> : <></>}
                 </div>
               ))}
             </ul>
           </div>
-        </div>
+        </div >
       )}
-    </LocalizedGetAttribute>
+    </LocalizedGetAttribute >
   )
 }
 
