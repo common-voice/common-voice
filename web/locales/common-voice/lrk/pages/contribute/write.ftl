@@ -17,6 +17,7 @@ new-sentence-rule-1 = <noCopyright> نقل ڪوئيني</noCopyright>پابند�
 new-sentence-rule-2 = هر جملل ۾ 15 لفظن مون گهٽ
 new-sentence-rule-3 = صحيح گرامر استعمال ڪرو
 new-sentence-rule-4 = صحيح اسپيلنگ ھينجگہ استعمال ڪرو
+new-sentence-rule-5 = ڪئيئي وبه انگ ۽ خاص اکر نه
 guidelines = راہ ديکاڙوي
 contact-us = رابطو ڪرو
 add-sentence-success = جملا ڀيرا ڪرو
