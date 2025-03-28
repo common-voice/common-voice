@@ -12,6 +12,10 @@ about-localization-title = ويب سائِيٽ نَي عام ڪرڻ
 about-localization-subtitle = ويب سائيٽ رو مواد اِيئي ٻولِي ۾ ترجمو ڪِيو گيو ھيَ.
 about-sentence-collection-title = جُملون رو گُڇو
 about-sentence-collection-subtitle = مِنکون نَي زور ھون پڙھڻ ھارو جُملا ڀيڙا ڪِيا جائيَ ھيَ۔
+about-new-lang-title = نوئين ٻولِي رِي رونمائِي (لانچ)
+about-new-lang-subtitle = مھيَ اِيئيَ ٻولِي ۾ ڪامن وائس سائيٽ رِي رونمائِي (لانچ) ڪرو ھون۔
+about-voice-contrib-title = آواز رِي شراڪت
+about-voice-contrib-subtitle = مِنک آئي ھيَ ھانَ آپرو آواز ڏيَ ھيَ۔
 
 ## Community Playbook Content
 ## What is a language
