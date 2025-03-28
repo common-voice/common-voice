@@ -5,6 +5,11 @@ about-header-description-v2 = <p>ڪامن وائس هڪ عوامي طور تي  
 
 ## How does it work section
 
+about-speak = ٻولو
+about-speak-text = ھوڻو
+about-nav-why-common-voice = ڪون
+about-nav-how-it-works = ڪيڪر
+about-nav-partners = ساٿي
 
 ## Community Playbook Content
 ## What is a language
