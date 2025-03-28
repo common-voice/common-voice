@@ -108,8 +108,8 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
                     classNames(
                       'list-item-wrapper', {
                       'highlighted': index === highlightedIndex,
-                      'userlanguage': userLanguages.length > 0 && index <= userLanguages.length - 1,
-                      'lastuserlanguage': userLanguages.length > 0 && index === userLanguages.length - 1,
+                      'userlanguage': userLanguages && userLanguages.length > 0 && index <= userLanguages.length - 1,
+                      'lastuserlanguage': userLanguages && userLanguages.length > 0 && index === userLanguages.length - 1,
                     }
                     )
                   }
