@@ -23,9 +23,20 @@ second-cta-header-text = آپري آواز ۾ حصو ليدا ھارو مهرب�
 second-cta-subtitle-text = پروفائل مون، تمي آپري سرگرمي رو ٽريڪ رکي ھگهو ھين وائس ڊيٽا حصو ليداوارا ري  ڪميونٽي مون ڀآري سگهو
 already-have-an-account = پيري مون ھي<login> اڪائونٽ هي؟ لاگ ان</login></login
 create-profile-button = پروفائل ٺاھو
+# IMAGE TAGS
+img-alt-success-checkmark = ڪاميابي رو نشان
+# menu item
+read-sentences = پڙھ ملا
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = پڙھ جملا<small>جلدي آوئي</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = پڙھ جملا ، جواب سوال
+read-sentences-menu-item-tooltip = آپري ٻولي ۾ جملا پڙهيا رو رڪارڊ ٺاهو.
+answer-questions-menu-item-tooltip = آپري ٻولي ۾ سوالو ھين اشارئ را جواب جو آپ ني رڪارڊ ڪرو.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = اسپيڪ آپشن مينيو
+read-sentences-menu-item-aria-label = برادري مون مختلف ٻوليو ۾ جمع ڪرايوڙا جملا پڙهو.
