@@ -65,6 +65,7 @@ export function useLocalizedDiscourseURL() {
     'rw',
     'uz',
     'zh-TW',
+    'bn',
   ];
   const DISCOURSE_BASE = 'https://discourse.mozilla.org/c/voice';
 
