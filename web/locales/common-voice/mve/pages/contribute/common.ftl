@@ -10,15 +10,15 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>ڪلِپون
     }
 goal-help-recording = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي زوز رَي { $goalValue } ريڪاڍِنگ رَي مقصد
-goal-help-validation = ٿُون مدد ڪِي ڪومن وئِيس رسيڻ <goalPercentage></goalPercentage> آپڻِا روز را { $goalValue }مقسد
+goal-help-validation = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي روز رَي { $goalValue } تصديقي مقصد
 contribute-more =
     { $count ->
-        [one] تيار هون گيڻيڻ هارون
-       *[other] تيار هون گيڻيڻ هارون
+        [one] ڪرڻ ھارون تيار ھو { $count }وڌيڪ؟
+       *[other] ڪرڻ ھارون تيار ھو { $count }وڌيڪ؟
     }
-speak-empty-state = اِيئي ٻولِي ۾ لکڻ هارون جملا ختم هويا را۔
-no-sentences-for-variants = هوئي هگھي هَي ڪيَ ٿونرِي ٻولِي را جملا الگ الگ شڪليون هون ٻاهر هوئي، اگر ٿَي سهي سمجهو هون تو ٿَي ٿونرِي ٻولِي ۾ ٻِيجا جملا جونڻ هارون ٿَي ٿونرِي ترتيِب بدليَ هگھون هون۔
-speak-empty-state-cta = جملا ٺاهڻ يان تآون ڪرڻ
+speak-empty-state = مھون ڪنيَ اِيئي ٻولِي ۾ ريڪاڍ ڪرڻ ھارون جُملا ختم ھويا را۔
+no-sentences-for-variants = ٿُررِي ٻولِي رو قِسم جُملون ھون الگ ھوئيَ ݾگھيَ ھيَ! جيَ ٿيَ راضِي ھو تو ٿيَ آپرِي ٻولِي ۾ ٻيجا جُملا جوڻ ھارون آپرَي سيٽِگون  بدلِي ڪريَ ݾگھو ھو۔
+speak-empty-state-cta = جُملون رو حصو ڏيو
 speak-loading-error = ميه ٿُوريَ ٻولڻ هارون جملا ڀيڙا ڪريَ ڪونِي هگھيا۔ مهربونِي ڪريَ ٿوڙِي دير هون ويڙيَ ڪوشِيش ڪريا
 record-button-label = آپرِي آواز رِڪورڊ ڪرو
 share-title-new = <bold>مهورِي مدد ڪرو </bold>وڌِيڪ آواز جونچڻ هارون
