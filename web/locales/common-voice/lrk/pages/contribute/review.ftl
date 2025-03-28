@@ -31,6 +31,8 @@ sc-review-form-reviewed-message =
         [one] 1جملا رو جائزو ليدو گيو ھي. مهربوني!
        *[other] { $sentences }جملا رو جائزو ليدو گيو ھي. مهربوني!
     }
+sc-review-form-review-failure = جائزو محفوظ ڪوئي ھوئي سگهيو. مهربوني ڪرين پسي وري ڪوشش ڪرجو.
+sc-review-link = پرکوہ
 
 ## REVIEW CRITERIA
 
