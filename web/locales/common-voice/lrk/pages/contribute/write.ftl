@@ -24,7 +24,8 @@ new-sentence-rule-8 = مثالي طور تي قدرتي ھين گفتگو وار
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink>ھين<loginLink>ماٿي</loginLink>گھڻا جملل ڀآرا ڪريا ھارو
 how-to-cite = ھون ڪيڪر حوالو ديون؟
 how-to-cite-explanation-bold = URL لنڪ يا ڪم مون مڪمل نوم مون  حوالو ڏيو.
-guidelines = راہ ديکاڙوي
+how-to-cite-explanation = جيڪدي اي تمو را آپرا لفظ ھي  تو بس چئو <italicizedText>“Self Citation”</italicizedText>. اموني ڄوڻ ري ضرورت هي ڪه تموني آ مواد ڪيويو مليو ڪي جيم امي چيڪ ڪري ھگهون ڪي آ عوامي ڊومين ۾ هي ھين ڪوئي بي ڪاپي رائيٽ پابندي لاڳو ڪوئي. حوالل بابت وڌيڪ جوڻ ھارو امو رو <guidelinesLink>Healthcares صفحو</guidelinesLink> جو.
+guidelines = راِہ ديکاڙوي
 contact-us = رابطو ڪرو
 add-sentence-success = جملا ڀيرا ڪرو
 add-sentence-error = جملا ڀيرا ڪريا مي غلطي
@@ -45,6 +46,23 @@ automotive_transport = گاڌي ھين گاڌيو
 finance = فنانس
 # Sentence Domain dropdown option
 service_retail = ݾيوا ھين اپسي
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = جون ري رڪݾہ
+# Sentence Domain dropdown option
+history_law_government = تاريخ، قانون ھين حڪومت
+# Sentence Domain dropdown option
+language_fundamentals = ٻوليءَ اا بنيادي اصول (مثال طور انگ، اکر، پئسا)
+# Sentence Domain dropdown option
+media_entertainment = ميڊيا ھين تفريح
+# Sentence Domain dropdown option
+nature_environment = فطرت ھين ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبرون ھين موجوده معاملن
+# Sentence Domain dropdown option
+technology_robotics = ٽيڪنالاجي ھين روبوٽڪس
+sentence-variant-select-label = سزا رو قسم
 
 ## BULK SUBMISSION
 
