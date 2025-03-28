@@ -3,13 +3,13 @@ action-tap = ٽيپ (چيڪ ڪرڻ آݪِي جگھہ)
 contribute = حصو ڏيڻ
 review = جائزو
 skip = ڇوڙڻ
-shortcuts = ويچ ڪرڻ
+shortcuts = ڪِي بورڊ را شاٽ ڪٽ
 clips-with-count-pluralized =
     { $count ->
-        [one] هيڪ <bold>{ $count }</bold>ڪلِپ
-       *[other] ٻِجيَ <bold>{ $count }</bold>ڪلِپون
+        [one] <bold>{ $count }</bold>ڪلِپ
+       *[other] <bold>{ $count }</bold>ڪلِپون
     }
-goal-help-recording = ڪينو ٿُون مدد ڪِي ڪومن وئِيس تي رسيڻ رِي <goalPercentage></goalPercentage>آپڻِي روز رِي{ $goalValue } رِڪورڊئينگ را مقسد
+goal-help-recording = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي زوز رَي { $goalValue } ريڪاڍِنگ رَي مقصد
 goal-help-validation = ٿُون مدد ڪِي ڪومن وئِيس رسيڻ <goalPercentage></goalPercentage> آپڻِا روز را { $goalValue }مقسد
 contribute-more =
     { $count ->
