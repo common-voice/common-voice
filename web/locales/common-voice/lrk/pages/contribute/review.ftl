@@ -36,3 +36,10 @@ sc-review-link = پرکوہ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = جائزو رو معيار
+sc-criteria-title = جائزو رو معيار
+sc-criteria-make-sure = پڪ ڪروڪي جملو هيٺي معيارن تي پورو اوتريو ھي:
+sc-criteria-item-1 = جملي ني صحيح لاگوُ کپي.
+sc-criteria-item-2 = جملو گرامر ري لحاظ مون صحيح سھي ھووُ ڪپي.
+sc-criteria-item-3 = جملو ٻئليا ري لائق هووُ کپي.
+sc-criteria-item-4 = جيڪڏي جملو معيار تي پورو اوتري ، تو ڪلڪ ڪرو&quot;منظور ڪروُ &quot; ھوما پاھي بٽڻ
