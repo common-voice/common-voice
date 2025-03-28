@@ -9,6 +9,7 @@ vote-transcript-success = ຄະແນນສຽງຖອດຈາກສຽງສ
 vote-transcript-error = ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ລົງຄະແນນສຽງຖອດຂໍ້ຄວາມ
 transcript-edited-success = ແກ້ໄຂການຖອດຂໍ້ຄວາມສຳເລັດແລ້ວ
 transcript-edited-error = ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ແກ້ໄຂການຖອດຂໍ້ຄວາມ
+error-fetching-transcriptions = ມີບາງຢ່າງຜິດພາດໃນຂະນະທີ່ດຶງຂໍ້ມູນການຖອດຂໍ້ຄວາມ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = ຖືກຕ້ອງ
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
