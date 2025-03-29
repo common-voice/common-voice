@@ -24,6 +24,12 @@ review-instruction = اگر جرورت ہؤے تو ٹُکڑے کُو ایدؔا�
 record-submit-tooltip = { $actionType } ٹھئی جاوے تو بھیݪا کراو
 clips-uploaded = اپ لوڈ کروڑے ٹُکڑے
 record-abort-title = سارے سے آہے ریکارڈنگ پُورا کرو؟
+record-abort-text = اِٻکے چھوڑٹؔے کا متلب ہے کہ تھم اپٹؔی ترکی گوائی دؔیوںٚگے
+record-abort-submit = ٹُکڑا بھیݪا کرنا
+record-abort-continue = ریکارڈنگ پُوری کرو
+record-abort-delete = ٹُکڑے کُو کُھٹاؤ اور گُم کرو
+review-aborted = رد کروڑا اپ لوڈ کرو۔ کیا تھم اپٹؔی ریکارڈنگ گُم کرنا چاوتے ہیں؟
+review-submit-title = جائزہ اور بھیݪا کراو
 
 ## MENU ITEM TOOLTIPS
 

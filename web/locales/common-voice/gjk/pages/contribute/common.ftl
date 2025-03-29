@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>ڪِلپان
     }
 goal-help-recording = تمين عام آواز مان <goalPercentage> اماري روز نِي </goalPercentage>رڪارڍينگ نا مقصۮ ۿوُڌِِي پوڄا مان امارِي مۮت ڪري سي<goalPercentage>!
-goal-help-validation = تمين عام آواز مان <goalPercentage> </goalPercentage>  امارا روز نا ٽارگيٽ نين { $goalValue }کاتري ڪريا مان مۮت ڪرو سو!
+goal-help-validation = تمين عام آواز مان <goalPercentage> </goalPercentage>  امارا روز نا تصڌيق وارا مقصۮ ۿوُڌِي پوڄا مان { $goalValue }امارِي مۮت ڪرِي سيَ!
 contribute-more =
     { $count ->
         [one] گھڻو { $count }ڪريا ۿارُو تيار
