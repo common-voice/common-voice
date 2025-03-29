@@ -63,6 +63,9 @@ about-playbook-what-is-language-content-3 = کیں زبوں مہ بے گرائم
 ## How do I add a language
 
 about-playbook-how-add-language = مہ کَش یک زیب شامل گروں ؟
+about-playbook-how-add-language-content-1 = اول، چیک گر چہ تیں زیب <languageLink> اول نو شامل خو نہ تھی</languageLink>  اگر کہ نہ تھی تہ تو من ھاں <languageRequestLink> اپیئں زیب شامل گرے سو دَن</languageRequestLink> ایزا دُو مرحلے تھے۔ سائٹسو ترجومہ گرو، اَ جملے جمہ گرو
+about-playbook-how-add-language-translating-heading = سائٹ سو ترجمہ گرو
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>  پونٹون کش استعمال گرو تھو اسیئں ھدایت بھال</translateVideoLink>
 
 ## How does localization work
 
