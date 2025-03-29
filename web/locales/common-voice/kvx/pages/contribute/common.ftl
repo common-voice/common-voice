@@ -47,15 +47,15 @@ report-ask = تمون نئہ اِيئا جُملا ٿِي ڪيوي ۮورووڻ�
 report-offensive-language = نا مناسب ٻولئي
 report-offensive-language-detail = جُملا ۾ بي ادب ڪا نا مُناسِب ويڻ سئہ۔
 report-grammar-or-spelling = لکت / گرامر ري  ڳلتي
-report-grammar-or-spelling-detail = جُملا ۾ گرامر رئي ڳلتئي موجُود سئہ۔
+report-grammar-or-spelling-detail = جُملا ۾ گرامر ڪا لکت ۾  ڳلتئي سئہ۔
 report-different-language = ڌار ٻولئي
-report-different-language-detail = اي اُوئا ٻولِي ۾ لِکل سئہ جئي هُون ٻولونه ريو۔
+report-different-language-detail = اي اُوئا ٻولِي ۿُون ڦرق ٻولِي ۾ لکل سئہ جئي هُون ٻولونه ريو۔
 report-difficult-pronounce = ٻوليا ۾ ۮورو
 report-difficult-pronounce-detail = اِيئا ۾ ايوا آکر ڪا جُملا سئہ جيا ڀڻيا ۾ ڪا ٻوليا ۾ ۮورا سئہ۔
 report-offensive-speech = نا مُناسِب وات چِيت
-report-offensive-speech-detail = clip ۾ نا مُناسِب ڪا بي ادبي آکر موجُود سئہ۔
+report-offensive-speech-detail = ڪِلپ ۾ نا مُناسِب ڪا بي ادبي ٻولئي سئہ۔
 report-other-comment =
-    .placeholder = صل﻿اح ۮيو
+    .placeholder = کيال پيش ڪرو
 success = ڪامياڀئِي
 continue = جارِي راکو
 report-success = Report ڪامياڀِي ٿي منظُور ٿي ڳئي
@@ -70,14 +70,14 @@ shortcut-skip = س
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
-shortcut-record-toggle-label = Record/Stop
+shortcut-record-toggle-label = اُوڀو / رِيڪارڊ
 shortcut-rerecord-toggle = هيڪ ٿِي لينَ پونس
-shortcut-rerecord-toggle-label = ٻِيزِي وار رِيڪارڊ clip ڪرو
+shortcut-rerecord-toggle-label = ٻِيزِي وار ڪِلپ رِيڪارڊ  ڪرو
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = جارِي ڪرَل ريڪارڊِنگ نئہ کتم ڪرو
 shortcut-submit = واپس زائو
 shortcut-submit-label = ڪِلپ جمع ڪراوو
-request-language-text = ڪِي تمارئِي ٻولئي هنزون ۿُوڌِي Common Voice  مانه موجُود نٿِي؟
+request-language-text = ڪِي تمارئِي ٻولئي هنزون ۿُوڌِي Common Voice  مانه نه ۮيکهاتئي؟
 request-language-button = ٻولِي رئي ڌرخواست ۮيو
 
 ## Listen Shortcuts
@@ -85,7 +85,7 @@ request-language-button = ٻولِي رئي ڌرخواست ۮيو
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
-shortcut-play-toggle-label = Play/Stop ڪرو
+shortcut-play-toggle-label = هاڪلو / بند ڪرو
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ي
