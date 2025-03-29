@@ -22,6 +22,7 @@ about-dataset-release-title = مواد رو سيٽ ڇوڙيو جائيَ  ھيَ
 about-dataset-release-subtitle = مھيَ ھر تين مھينِي ۾ مواد رو سيٽ ڇوڙون ھون۔
 about-subscribe-text = ٿَي ڪامن وائس ڀيڙا رابطي ۾ رھڻ چاھون ھون؟
 about-speak = ٻولڻ
+about-speak-text = جمع ڪِيوڙيَ جُملون نَي پڙھيَ آواز رو ڪلِپ ريڪارڍ ڪريَ ھيَ۔
 
 ## Community Playbook Content
 ## What is a language
