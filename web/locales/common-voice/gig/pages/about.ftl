@@ -9,6 +9,9 @@ how-does-it-work-text = هم آواري ايڪ کوٚلي سورس ڊيٽآسي�
 
 about-language-req-subtitle = ڪي ني ڪيوٚ گيوٚ ڇي ڪي زبآن بهڙيٚ ڪرو
 about-localization-title = ويب سائڊي ني آم ڪرڻوٚ
+about-localization-subtitle = ويب سائڊ رو مواد آپيري ٻولي ميٚن بدلو
+about-sentence-collection-title = جملو ڀهڙو ڪرڻو
+about-sentence-collection-subtitle = منکو سارو جملآ بهڙي ڪري زوري سونٚ پڙي سارو
 
 ## Community Playbook Content
 ## What is a language
