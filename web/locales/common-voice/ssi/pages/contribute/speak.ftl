@@ -21,6 +21,9 @@ review-tooltip = جاتیاٹؔے  ایٹھے ٹُکڑے کُو ایدؔائے �
 share-clip = اپٹؔے ٹُکڑے کُو ٻاٹی دؔیو
 share-common-voice = سادھارن آواجا کُو ٻاٹی دؔیو
 review-instruction = اگر جرورت ہؤے تو ٹُکڑے کُو ایدؔائے دؔیکھو اور پُٹھا ریکارڈ کرو
+record-submit-tooltip = { $actionType } ٹھئی جاوے تو بھیݪا کراو
+clips-uploaded = اپ لوڈ کروڑے ٹُکڑے
+record-abort-title = سارے سے آہے ریکارڈنگ پُورا کرو؟
 
 ## MENU ITEM TOOLTIPS
 
