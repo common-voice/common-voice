@@ -76,6 +76,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = لوکلائزیشن سائٹ کَش کام گرا ؟
 about-playbook-how-localize-content-1 = عام اواز سو ترجمہ سو سائٹ <strong> پونٹون رے ھواں</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink> یک اکاؤنٹ سَن</pontoonAccountLink> اگر کہ تیوں نہ تھو۔نُٹ اپیئں زیب س <strong> ٹیم خوش گر</strong> اَ نُٹ پراجیکٹ خوش گر، <pontoonCvLink> عام اواز </pontoonCvLink> تیزا ترجمہ سو دَن فائل ھویانݜ۔ یک رے کلک گر ، نُٹ او انگلش سو الفاظ پشا اَ یک باکس تسیئں ترجمہ سو دَن
 
 ## How to add sentences
 
