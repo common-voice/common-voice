@@ -84,6 +84,7 @@ about-playbook-how-localize-content-5 = اسیئں ویڈیو اکسپلینر �
 ## How to add sentences
 
 about-playbook-how-add-sentences = مہ جملے کَش شامل گروں ؟
+about-playbook-how-add-sentences-content-1 = تُو جملے شامل گر ھاں<writePageLink> لیکے والہ صفہ رے </writePageLink> یا دوبارہ بھال ھاں <reviewPageLink> دوبارہ بھالے والہ صفہ رے</reviewPageLink>
 
 ## How to record quality
 
