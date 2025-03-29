@@ -24,11 +24,16 @@ review-instruction = جائزو غورا اڤن کوګ آوازے ریکارڈ �
 record-submit-tooltip = { $actionType } کلو کہ تیار ݰوئے جمع کن
 clips-uploaded = کوګ آواز اپلوڈ ݰوئے
 record-abort-title = پیرو ڤے ریکارڈنگ ختم کینیآ؟
+record-abort-text = وس لیغدان مطلب مو کہ تو پیش رفت ضائع ای
 record-abort-submit = کوګ آوازے جمع کن
 record-abort-continue = ڤے ریکرڈنگ بود کن
 record-abort-delete = نیݰے نیا اڤن ڤے آوازف ڈیلیٹ کن
 review-aborted = آپلود بود ݰوئے۔ ڤے خوئے ریکارڈنگ ڈیلیٹ کینیتیآ؟
 review-submit-title = دیبارو اوژر تے جمع کن
+review-recording = اشپہ اوݱڑا
+review-rerecord = دیبارو پر کن
+review-cancel = ڤے جمع کڑا منسوخ کن
+review-keep-recordings = ڤے ریکارڈنگف واست
 
 ## MENU ITEM TOOLTIPS
 
