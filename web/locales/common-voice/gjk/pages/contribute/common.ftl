@@ -3,13 +3,13 @@ action-tap = ٽيپ ڪرو
 contribute = حصو ليوو
 review = جائزو ليوو
 skip = ميلي ڄو
-shortcuts = شاٽ ڪٽ (ٿوڙا ٽيم مان جلڌي ترقي ڪروِي)
+shortcuts = شارٽ ڪٽ
 clips-with-count-pluralized =
     { $count ->
-        [one] ڪلپ
-       *[other] ڪلپ (ايڪ ڪلپ ڪنڍا نين پڻ ڪي سي انين ايڪ ڪلپ ويڍيو نا ننڪا حصا نين پڻ ڪي سي)
+        [one] <bold>{ $count }</bold>ڪِلپ
+       *[other] <bold>{ $count }</bold>ڪِلپان
     }
-goal-help-recording = تمين عام آواز مان <goalPercentage> اماري روز </goalPercentage>رڪارڍينگ نا ٽارگيٽ مان مۮت ڪري سي<goalPercentage>!
+goal-help-recording = تمين عام آواز مان <goalPercentage> اماري روز نِي </goalPercentage>رڪارڍينگ نا مقصۮ ۿوُڌِِي پوڄا مان امارِي مۮت ڪري سي<goalPercentage>!
 goal-help-validation = تمين عام آواز مان <goalPercentage> </goalPercentage>  امارا روز نا ٽارگيٽ نين { $goalValue }کاتري ڪريا مان مۮت ڪرو سو!
 contribute-more =
     { $count ->

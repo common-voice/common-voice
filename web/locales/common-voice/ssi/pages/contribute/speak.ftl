@@ -12,6 +12,15 @@ record-error-too-long = ریکارڈنگ سپا لمٻی تی۔
 record-error-too-quiet = ریکارڈنگ سپا سانت تی۔
 record-cancel = پُٹھی ریکارڈنگ رد کرو
 record-instruction = { $actionType }<recordIcon></recordIcon> بھی اس ٻولا کُو اونچی آواجام  پڑھو
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> جِدؔ کرتے ہے
+record-three-more-instruction = تین جٹؔے ہے!
+record-again-instruction = مہان! <recordIcon></recordIcon> اپٹؔا اگلا ٹُکڑا ریکارڈ کرو
+record-again-instruction2 = اِس کُو کرا کر، پُٹھا ریکارڈ کرو <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> پچھاڑی!
+review-tooltip = جاتیاٹؔے  ایٹھے ٹُکڑے کُو ایدؔائے دؔیکھو اور پُٹھا ریکارڈ کرو
+share-clip = اپٹؔے ٹُکڑے کُو ٻاٹی دؔیو
+share-common-voice = سادھارن آواجا کُو ٻاٹی دؔیو
+review-instruction = اگر جرورت ہؤے تو ٹُکڑے کُو ایدؔائے دؔیکھو اور پُٹھا ریکارڈ کرو
 
 ## MENU ITEM TOOLTIPS
 
