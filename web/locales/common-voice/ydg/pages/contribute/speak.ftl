@@ -30,6 +30,7 @@ record-abort-continue = ڤے ریکرڈنگ بود کن
 record-abort-delete = نیݰے نیا اڤن ڤے آوازف ڈیلیٹ کن
 review-aborted = آپلود بود ݰوئے۔ ڤے خوئے ریکارڈنگ ڈیلیٹ کینیتیآ؟
 review-submit-title = دیبارو اوژر تے جمع کن
+review-submit-msg = پے ریکارڈنگ دیر تو شکریہ!<lineBreak></lineBreak> وس دیبارو اوژر اڤن ڤے خوئے آوازف تورو جمع کن۔
 review-recording = اشپہ اوݱڑا
 review-rerecord = دیبارو ریکارڈ کن
 review-cancel = ڤے جمع کڑا منسوخ کن
