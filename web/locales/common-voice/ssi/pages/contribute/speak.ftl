@@ -42,6 +42,7 @@ terms-disagree = ہوں راجی نائی تی
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = اپٹؔے آواجا ٹُکڑا دؔان  کرنے نتر تھارا دھنواد!
 first-cta-subtitle-text = ہمکُو اپٹؔے باریم بھتائی کن، تھم ڈویلپرزا کُو گھٹؔی جامع ٹیکنالوجی بٹؔاٹؔیم ساہیتا کرونٚگے
+why-donate = توں کاکام ٻُوچھی را ہے؟
 
 ## MENU ITEM TOOLTIPS
 
