@@ -47,6 +47,13 @@ why-donate-explanation-1 = یو جانکاری دؔیوٹؔے نتر اجری ہ
 add-information-button = جانکاری بھیݪی کراو
 continue-speaking-button = دھنواد نائی، ٻولا کر
 create-profile-text = اپٹؔی جانکاری اِدؔائے دھرنا چاوہتے ہیں؟ <createProfile>ایک پروفائل ٻیٹؔاو</createProfile>
+thanks-for-voice-toast = تھاری آواجا کی جانکاریا نتر تھارا دھنواد
+thanks-for-voice-toast-error = تھاری آواجا کی جانکاری بھیݪی کرنیم ایک نُکس آیا ہے
+first-cta-gender-select-default-option = ایک آپشن چُنی لیو
+first-cta-gender-select-help-text =
+    .label = تھم اپٹؔی یونی یا یونیا کُو کِدؔا بھتاوں گے؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تھاری آواجام پاتی ٻاٹؔے نتر تھارا دھنواد!
 
 ## MENU ITEM TOOLTIPS
 
