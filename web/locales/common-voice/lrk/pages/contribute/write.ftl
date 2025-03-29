@@ -107,6 +107,12 @@ rate-limit-toast-message-minutes =
         [one] شرح ري حد موٽي ھي. 1 منٽ ۾ وري ڪوشش ڪروو.
        *[other] شرح ري حد موٽي ھي. { $retryLimit } منٽن ۾ وري ڪوشش ڪرو.
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] شرح ري حد موٽي ھي. 1 سيڪنڊ ۾ وري ڪوشش ڪرو
+       *[other] شرح ري حد موٽي ھي. { $retryLimit } سيڪنڊن ۾ وري ڪوشش ڪرو
+    }
 
 ## MENU ITEM TOOLTIPS
 
