@@ -34,6 +34,7 @@ review-recording = اشپہ اوݱڑا
 review-rerecord = دیبارو پر کن
 review-cancel = ڤے جمع کڑا منسوخ کن
 review-keep-recordings = ڤے ریکارڈنگف واست
+review-delete-recordings = ڤے من ریکارڈنگف ڈیلیٹ کن
 
 ## MENU ITEM TOOLTIPS
 
