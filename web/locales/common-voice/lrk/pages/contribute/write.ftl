@@ -91,9 +91,22 @@ bulk-submission-success-header = تمو ري موٽي تعداد ۾ جمع ڪر�
 bulk-submission-success-subheader = تمي ڪامن وائيس ني امو ري روزري جملي ري مقصدو تڪ پوچيا ۾ مدد ڪرو ھون!
 upload-more-btn-text = وڌيڪ جملا اپ لوڊ ڪرو؟
 file-invalid-type = غلط فائل
+file-too-large = فائل تموم موٽي هي
+file-too-small = فائل تموم نيني ھي
+too-many-files = تمام گهڻيون فائلون
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = </icon><icon>ڪيتائي عوامي ڊومين جملا ڀآرا  ڪرو</icon>
+multiple-sentences-error = تمي  ايڪ ئي جمع ڪرايا ھارو ڪيتائي جملا ڀآرا ڪوئي ڪري سگھو
+exceeds-small-batch-limit-error = مون وڌيڪ جمع ڪوئي ڪري سگھي1000جملا
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] شرح ري حد موٽي ھي. 1 منٽ ۾ وري ڪوشش ڪروو.
+       *[other] شرح ري حد موٽي ھي. { $retryLimit } منٽن ۾ وري ڪوشش ڪرو.
+    }
 
 ## MENU ITEM TOOLTIPS
 

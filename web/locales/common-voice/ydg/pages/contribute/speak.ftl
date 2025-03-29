@@ -56,6 +56,12 @@ second-cta-header-text = ڤے خوئے آواز پے مہربانی کڑا دی�
 second-cta-subtitle-text = سے پروفائل، چند ہورغ کڑیت، ݱوئی پتا کڑا کرکینے۔ ڤے خوئے آوازف لے لیغوزف دے رابطہ ڤرومے۔
 already-have-an-account = پیرو ژے کہ اکاؤنٹ استت؟<login>لاگ-ان</login>کن
 create-profile-button = یو پروفائل سڤزاؤ
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابین نݰان
+# menu item
+read-sentences = ڤے جملغّف ݱا
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ڤے جملغّف ݱا<small>(چوکو ایستے)</small>
 
 ## MENU ITEM TOOLTIPS
 
