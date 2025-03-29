@@ -1,8 +1,8 @@
 action-click = ۮٻاوون (ڪلڪ ڪروون)
-action-tap = ٿپٿپاوون
+action-tap = ٽيپ ڪرو
 contribute = حصو ليوو
-review = جائزو ليوون
-skip = ميلي ۮيوون
+review = جائزو ليوو
+skip = ميلي ڄو
 shortcuts = شاٽ ڪٽ (ٿوڙا ٽيم مان جلڌي ترقي ڪروِي)
 clips-with-count-pluralized =
     { $count ->
