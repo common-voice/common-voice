@@ -54,6 +54,15 @@ first-cta-gender-select-help-text =
     .label = تھم اپٹؔی یونی یا یونیا کُو کِدؔا بھتاوں گے؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تھاری آواجام پاتی ٻاٹؔے نتر تھارا دھنواد!
+second-cta-subtitle-text = پروفائلا بھیݪے ، تھم اپٹؔی گٹیویدیاپ نیگھا راکھی سِکتے ہیں اور آواج ڈیٹا دؔنواڑے  کی کُوماس  سمپرت پکا کرسِکتے ہیں۔
+already-have-an-account = آگے ہی ایک اکاؤنٹ ہے؟ <login>لاگ ان</login>
+create-profile-button = ایک پروفائل ٻٹؔاو
+# IMAGE TAGS
+img-alt-success-checkmark = سپھلتا کا چیک مارک
+# menu item
+read-sentences = ٻول پڑھو
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ٻول پڑھو<small>(ٻیگے آئیرے ہیں)</small>
 
 ## MENU ITEM TOOLTIPS
 
