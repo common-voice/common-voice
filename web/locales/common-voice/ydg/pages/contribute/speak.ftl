@@ -47,6 +47,12 @@ add-information-button = معلوماتے شامل کن
 continue-speaking-button = نو شکریہ، ڤے گپ ژیا جاری واست
 create-profile-text = ڤے خوئے معلوماتف محفوظ کینیتیآ؟<createProfile> پروفائل سڤزاؤ</createProfile>
 thanks-for-voice-toast = دے آواز معلوماتے پے لیا دیر تو شکریہ
+thanks-for-voice-toast-error = تو دے آواز معلوماتے دے جمع کڑا، یو نقص پیدا ݰوئے
+first-cta-gender-select-default-option = یو طریقو غورا
+first-cta-gender-select-help-text =
+    .label = تو ژینگوآ مڑ چیمی کینے وضاحت کینے؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ڤے خوئے آواز پے مہربانی کڑا دیر تو شکریہ
 
 ## MENU ITEM TOOLTIPS
 

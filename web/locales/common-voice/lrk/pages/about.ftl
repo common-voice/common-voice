@@ -13,6 +13,7 @@ about-localization-subtitle = ويب سائيٽ رو متن ي ٻولي ۾ تر�
 about-sentence-collection-title = جملو رو ڀندار
 about-sentence-collection-subtitle = مينکئ ني اونچي آواز مون پڙھيا ھارو جملا ڀآرا مآلايا جائي.
 about-new-lang-title = نوي ٻولي آوي
+about-new-lang-subtitle = امي آ  ٻولي ۾ ڪامن وائس سائيٽ لانچ ڪرون ھون
 about-speak = ٻولو
 about-speak-text = ھوڻو
 about-nav-why-common-voice = ڪون
