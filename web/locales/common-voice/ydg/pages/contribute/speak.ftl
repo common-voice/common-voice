@@ -54,6 +54,8 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ڤے خوئے آواز پے مہربانی کڑا دیر تو شکریہ
 second-cta-subtitle-text = سے پروفائل، چند ہورغ کڑیت، ݱوئی پتا کڑا کرکینے۔ ڤے خوئے آوازف لے لیغوزف دے رابطہ ڤرومے۔
+already-have-an-account = پیرو ژے کہ اکاؤنٹ استت؟<login>لاگ-ان</login>کن
+create-profile-button = یو پروفائل سڤزاؤ
 
 ## MENU ITEM TOOLTIPS
 

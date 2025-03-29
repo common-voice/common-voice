@@ -84,7 +84,13 @@ maximum-file-size = وڌ ۾ وڌ فائل سائيز:25 MB
 what-needs-to-be-in-file = ماري فائل ۾ ڪاُو هووُ کپي؟
 what-needs-to-be-in-file-explanation = مھرباني ڪري اسان جي <templateFileLink>ٽيمپليٽ فائل</templateFileLink> چيڪ ڪريو. اوھان جا جملا ڪاپي رائيٽ کان آزاد ھجڻ گھرجن (CC0 يا جمع ڪرائيندڙ پاران اجازت ڏنل اصل ڪم) ۽ صاف، گرامر جي لحاظ کان صحيح ۽ پڙھڻ ۾ آسان ھجن. جمع ڪرايل جملن کي پڙھڻ ۾ لڳ ڀڳ 10-15 سيڪنڊ لڳڻ گھرجن ۽ انگن، مناسب اسمن ۽ خاص اکرن کي شامل ڪرڻ کان پاسو ڪرڻ گھرجي.
 upload-progress-text = اپ لوڊ جاري هي...
-sc-bulk-submit-confirm = ھون تصديق ڪرو ٿو ته اهي جملا <wikipediaLink>عوامي ڊومين</wikipediaLink> آهن ۽ مون کي انهن کي اپلوڊ ڪرڻ جي اجازت آهي.
+sc-bulk-submit-confirm = ھون تصديق ڪرو ھون ڪي اهي جملا <wikipediaLink>عوامي ڊومين</wikipediaLink> ھي ھين مني اييوني اپلوڊ ڪريا ري اجازت هي.
+bulk-upload-success-toast = بلڪ جملا اپلوڊ ڪريا گيا
+bulk-upload-failed-toast = اپلوڊ ناڪام ھويو، مهربوني ڪرين وري ڪوشش ڪرجو.
+bulk-submission-success-header = تمو ري موٽي تعداد ۾ جمع ڪرايا ۾ حصو ليدا ري مهربوني!
+bulk-submission-success-subheader = تمي ڪامن وائيس ني امو ري روزري جملي ري مقصدو تڪ پوچيا ۾ مدد ڪرو ھون!
+upload-more-btn-text = وڌيڪ جملا اپ لوڊ ڪرو؟
+file-invalid-type = غلط فائل
 
 ## SMALL BATCH SUBMISSION
 
