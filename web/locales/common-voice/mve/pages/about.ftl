@@ -26,6 +26,10 @@ about-speak-text = جمع ڪِيوڙيَ جُملون نَي پڙھيَ آواز
 about-listen-queue = قطارون ھونڀڙو
 about-listen-queue-text = وائس ڪلِپس جمع ڪرڻ آݪِي قطار ۾ ھڻيَ جائيَ ھيَ جڪو ايون نيَ ھونڀڻ ھارو تيار ڪيئيَ جائيَ ھيَ
 about-listen = هونڀڻڻ
+about-listen-text = استعمال ڪرڻ آݪا ڏِينوڙِي آواز رَي ڪلِپ رَي صحيح ھوڻ رِي تصديق ڪريَ ھيَ جوئيَ ھيَ ڪہ پڙھڻ آݪو جمليَ نيَ صحيح پڙھيَ پڙيو۔
+about-is-it-valid = ڪِي اَي ڪلِپ ٺيڪ ھيَ؟
+about-is-it-valid-text = جڏيَ ڪو پڙھڻ آݪو ھويَ ۾ ووٽ ڏيَ ھيَ تو وائس ڪلِپ تيَ ٺيڪ رو نشان لگايو جائيَ ھيَ۔
+about-yes-votes = ≥2 ھويَ ووٽ
 
 ## Community Playbook Content
 ## What is a language

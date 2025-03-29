@@ -17,6 +17,7 @@ about-new-lang-subtitle = اي ٻولي ني ڪآمن وآئيس مين زآئي
 about-voice-contrib-title = آپيري آواز ڏيڻو
 about-voice-contrib-subtitle = منک آوي ڇي آپيري آواز ڏيوي ڇي
 about-voice-validation-title = آواز اوڙکڻو
+about-voice-validation-subtitle = ڏوجي منک ڪلپس وآئيس ني اوڙکي
 
 ## Community Playbook Content
 ## What is a language
