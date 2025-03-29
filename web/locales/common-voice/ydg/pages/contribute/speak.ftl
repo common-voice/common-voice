@@ -31,13 +31,15 @@ record-abort-delete = نیݰے نیا اڤن ڤے آوازف ڈیلیٹ کن
 review-aborted = آپلود بود ݰوئے۔ ڤے خوئے ریکارڈنگ ڈیلیٹ کینیتیآ؟
 review-submit-title = دیبارو اوژر تے جمع کن
 review-recording = اشپہ اوݱڑا
-review-rerecord = دیبارو پر کن
+review-rerecord = دیبارو ریکارڈ کن
 review-cancel = ڤے جمع کڑا منسوخ کن
 review-keep-recordings = ڤے ریکارڈنگف واست
 review-delete-recordings = ڤے من ریکارڈنگف ڈیلیٹ کن
-review-terms = ڤے کامن وائس استعمال کڑیت خو تو لے ماخ<termsLink> شرائطف</termsLink> اڤن<privacyLink> لے ݰیکوا گپف متفق استت۔/privacyLink>
+review-terms = دے کامن وائس استعمال ذریعو خو تو لے ماخ<termsLink> شرائطف</termsLink> اڤن<privacyLink> لے ݰیکوا گپف متفق استت۔</privacyLink>
 terms-agree = زو متفق استت
 terms-disagree = زو متفق چش
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ڤے خوئے کوګ آوازف پے مہربانی کڑا دیر تو شکریہ
 
 ## MENU ITEM TOOLTIPS
 
