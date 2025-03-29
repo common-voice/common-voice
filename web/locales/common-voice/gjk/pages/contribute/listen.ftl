@@ -7,13 +7,13 @@ listen-last-time-instruction = <playIcon></playIcon>پڇاڙي وارو!
 listen-empty-state = ٿئي ۿڳي سي ڪي اماران ڪلپ ختم ٿئي جھان ھوئي۔  صفحہ ني ريفريش ڪرو ڪان ٿوڙِيڪ وار وانۿين وري ڪوشش ڪرو۔
 listen-empty-state-variants = تماري ٻولي نو نمونو شايد ختم ٿئي جھو سي! زو تمارو ڪونئين اعترض نا ھوئي، تو تمين پوتا ني ترتيب نين ڀڌلاوي ۿڳو سو ايٽلي ٻيزو تماري ٻولي مان جملا زوئي ۿڳي۔
 listen-loading-error = امين تمان ۿارُو ڪونئين آڍيو ڪلپ نا لئي ۿڄا، ميرٻاني ڪرين وري ڪوشش ڪرو۔
-listen-abort-title = ڪلپان ني کاترِي ڪرو
-listen-abort-cancel = تصڌيق جھارِي راکو
+listen-abort-title = ڪلپان ني مياڌ نين کتم ڪرو
+listen-abort-cancel = تصڌيق ڪريا نون جھارِي راکو
 listen-abort-confirm = تصديق کتم ڪرو
 # Menu item
 validate-readings = ڀڻيا نِي تصديق ڪرو
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = ڀڻيا نِي تصديق ڪرو<small> (جلدي آوي سي ريون</small>)
+validate-readings-coming-soon = ڀڻيا نِي تصديق ڪرو<small> (زٽ آيا وارون سي</small>)
 
 ## MENU ITEM TOOLTIPS
 
