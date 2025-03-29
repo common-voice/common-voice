@@ -140,9 +140,22 @@ small-batch-response-message =
 small-batch-sentences-rule-1 = "ھون ڪيوا جملا ڀيرا ڪري ھگو؟" ري هدايتن تي عمل ڪرو.
 small-batch-sentences-rule-2 = هر لڪير ۾ ايڪ جملو ڀيرو ڪرو
 small-batch-sentences-rule-3 = ايڪ دفا "Enter" يا "Return" ني دٻاوين جملو ني ايڪ لڪير ۾ الڳ ڪرو.
+small-batch-sentences-rule-4 = 1,000 تڪ جملا ڀيرا ڪرو
+small-batch-sentences-rule-5 = ھينگ جملو رو ايڪ جيووُ ڊومين هووہ کپي
+small-batch-sentences-rule-6 = ھينگ جملو رو ايڪ جيووُ ڊومين هووہ کپي
+# menu item
+add-sentences = جملا جمع
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملا ڀيرا ڪرو ھين جائزو ليو، سوال ڀيرا ڪرو، آڊيو نقل ڪرو
+add-sentences-menu-item-tooltip = جملا جمع ڪرو آپري ٻولي مي
+review-sentences-menu-item-tooltip = آپري ٻولي ۾ جملو رو جائزو ليو.
+add-questions-menu-item-tooltip = آپري ٻولي مي سوال جمع ڪرو
+transcribe-audio-menu-item-tooltip = آپري ٻولي ۾ آڊيو رڪارڊنگ نقل ڪرو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = لکو اوپݾن مينو
+add-sentences-menu-item-aria-label = ڪميونٽي ھارو پڙھيا ھارو نوان جملا ڀيرا ڪرو
+review-sentences-menu-item-aria-label = برادري پاران جمع ڪرايوڙا موجوده جملو رو جائزو ليو

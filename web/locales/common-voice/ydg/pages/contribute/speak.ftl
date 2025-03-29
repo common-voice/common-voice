@@ -73,3 +73,4 @@ answer-questions-menu-item-tooltip = دے خوئے زبان نے سوالف لے
 
 speak-contribute-menu-aria-label = ڤے اختیاراتف فہرست ݱا
 read-sentences-menu-item-aria-label = کمیونٹی ممبرانف دے مختلف زبانف جملغّے جمع کہ کڑت ڤے وف ݱا
+answer-questions-menu-item-aria-label = ژے کمیونٹی ممبرانف پے اݰٹا دیر اڤن پے جواب لیا دیر سوال کن
