@@ -38,6 +38,10 @@ review-keep-recordings = ریکارڈنگ رکھو
 review-delete-recordings = میری ریکارڈنگ گُم کر
 review-terms = سادھارن آواجا کا اُپیوگ کرتوڑے، تھم مھاری <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت کے نوٹس کُو مانتے  ہیں</privacyLink>
 terms-agree = ہوں مانتی ہے
+terms-disagree = ہوں راجی نائی تی
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = اپٹؔے آواجا ٹُکڑا دؔان  کرنے نتر تھارا دھنواد!
+first-cta-subtitle-text = ہمکُو اپٹؔے باریم بھتائی کن، تھم ڈویلپرزا کُو گھٹؔی جامع ٹیکنالوجی بٹؔاٹؔیم ساہیتا کرونٚگے
 
 ## MENU ITEM TOOLTIPS
 
