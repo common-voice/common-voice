@@ -29,7 +29,15 @@ record-abort-submit = ٹُکڑا بھیݪا کرنا
 record-abort-continue = ریکارڈنگ پُوری کرو
 record-abort-delete = ٹُکڑے کُو کُھٹاؤ اور گُم کرو
 review-aborted = رد کروڑا اپ لوڈ کرو۔ کیا تھم اپٹؔی ریکارڈنگ گُم کرنا چاوتے ہیں؟
-review-submit-title = جائزہ اور بھیݪا کراو
+review-submit-title = جائجا اور بھیݪا کراو
+review-submit-msg = ریکارڈنگ کے نتر تھارا  دھنواد! <lineBreak></lineBreak>اِٻکے ایدؔائے دؔیکھو اور نیچے اپٹؔے ٹُکڑے بھیݪے کرو۔
+review-recording = جائجا لئیو
+review-rerecord = پُٹھا ریکارڈ
+review-cancel = بھیݪا کروانے کو رد کرو
+review-keep-recordings = ریکارڈنگ رکھو
+review-delete-recordings = میری ریکارڈنگ گُم کر
+review-terms = سادھارن آواجا کا اُپیوگ کرتوڑے، تھم مھاری <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت کے نوٹس کُو مانتے  ہیں</privacyLink>
+terms-agree = ہوں مانتی ہے
 
 ## MENU ITEM TOOLTIPS
 
