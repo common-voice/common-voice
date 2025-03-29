@@ -43,6 +43,10 @@ about-get-involved-text-2 =
     <matrixLink>قالب</matrixLink> community chat
 about-stay-in-touch = مہ کش رابطہ دھروؤں ؟
 about-stay-in-touch-button = Sign up
+about-stay-in-touch-text-1 = <emailFragment>sign up </emailFragment> میلنگ لس سو طرفئ او ڇھیڇھئ سو دَن چہء عام اواز   رے مہم تقریب اَ ڈیزن سو خصوصیات مہ کش حصہ گھنہ تھہ
+about-stay-in-touch-text-2 = تُو موزائلا زیب سو کمیونٹی مَہ یک موضوع رے بیاد گیری جل لوں مل مل ھاں یا <matrixLink> قالب </matrixLink>  تیز نصیات سو دَن
+about-nav-why-common-voice = چیئں ؟
+about-nav-how-it-works = کَش ؟
 
 ## Community Playbook Content
 ## What is a language
