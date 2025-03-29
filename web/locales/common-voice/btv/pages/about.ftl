@@ -47,10 +47,15 @@ about-stay-in-touch-text-1 = <emailFragment>sign up </emailFragment> میلنگ 
 about-stay-in-touch-text-2 = تُو موزائلا زیب سو کمیونٹی مَہ یک موضوع رے بیاد گیری جل لوں مل مل ھاں یا <matrixLink> قالب </matrixLink>  تیز نصیات سو دَن
 about-nav-why-common-voice = چیئں ؟
 about-nav-how-it-works = کَش ؟
+about-nav-partners = مَلگرے
+about-nav-get-involved = شامل ھُوں
+about-nav-how-it-works-2 = عام اواز کش کام گرا؟
+about-nav-playbook = او ڇھِڇھ  چہء کَش حصہ گھنونݜ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = عام اواز رے زیب چوں تھی ؟
 
 ## How do I add a language
 
