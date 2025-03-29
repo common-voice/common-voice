@@ -26,17 +26,17 @@ keep-track-profile = پروفائيل ماٿيَ پوتا نِي ترقِي نو
 login-to-get-started = شُرُو ڪريا ۿارُو لاگھ اِن ڪان وريَ سائينَ اپ ڪرو
 target-segment-first-card = تمين امارا پيۿرِيا ٽارگيٽ سيڪشنَ مان حِصو ليو سو ريا۔
 target-segment-generic-card = تمين ايڪ ٽارگيٽ سيڪشنَ مان حصو ليو سوريا
-target-segment-first-banner = آم آواز نا پھريا گول ٺاھيا مان ڀاڳ ليو۔{ $locale }
+target-segment-first-banner = آواز نا پيۿريا سيڪشنَ نين ٺاھيا مان ڀاڳ ڪرو۔{ $locale }
 target-segment-add-voice = پوتا نو آواز شامل ڪرو
-target-segment-learn-more = وڌارين شيکو
-change-preferences = ڪارڪردگي نين تبديل ڪرو
-login-signup = لوگن/سائين اپ
-vote-yes = ھوئي (ٺيڪ سي)
+target-segment-learn-more = وڌارين شِيکو
+change-preferences = ڪارڪرڌڳِي نين تٻۮيل ڪرو
+login-signup = لاگھ اِن/سائينَ اپ
+vote-yes = ھوويَ (ٺيڪ سي)
 vote-no = نا
-datasets = مواد نين سيٽ ڪروون (ڍيٽا)
-languages = ٻوليون
+datasets = ڍيٽا سيٽ
+languages = ٻولِيوُن
 about = ٻارا مان
-partner = ساٿي
+partner = ساٿِي
 submit-form-action = جمع ڪراوو
 
 ## Reporting
