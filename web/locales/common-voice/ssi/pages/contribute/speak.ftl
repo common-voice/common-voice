@@ -74,3 +74,4 @@ answer-questions-menu-item-tooltip = اپٹؔے آپا کو اپٹؔی ٻولی�
 
 speak-contribute-menu-aria-label = ٻولٹؔے کے ویکلپ مینو
 read-sentences-menu-item-aria-label = کُما  کی ترپھاس  دؔوجی ٻولیم  بھیݪے کروڑے ٻول پڑھو
+answer-questions-menu-item-aria-label = کُما کو پڑھنے اور جواب دؔیؔے نتر ایک نئوا سُوال بھیݪا کرو
