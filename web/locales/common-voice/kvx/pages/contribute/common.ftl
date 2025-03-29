@@ -26,8 +26,8 @@ keep-track-profile = آپرِي ترقِي رو رِيڪارڊ راکيا ۿار
 login-to-get-started = شُروع ڪريا ۿارُو Log in ڪرو ڪا sign up ڪرو
 target-segment-first-card = تمي امارا پيرهيان segment ۾ ڀائيواۯ ٿيوه ريا
 target-segment-generic-card = تمي هيڪا segment ۾ ڀائيواۯ ٿيوه ريا
-target-segment-first-banner = Common Voice را پيلا Common Voice’s first target segment ٺايا ۾ مڌت ڪرو{ $locale }
-target-segment-add-voice = آپرئِي آواز شامل ڪرو
+target-segment-first-banner = Common Voice را پيرهيان  target segment نئہ ٺايا ۾ مڌت ڪرو{ $locale }
+target-segment-add-voice = آپرئِي آواز ڌاخِل ڪرو
 target-segment-learn-more = وڌارئہ شِينکو
 change-preferences = preferences تبڌِيل ڪرو
 login-signup = Log In / Sign Up
@@ -41,12 +41,12 @@ submit-form-action = جمع
 
 ## Reporting
 
-report = Report ڪرو
+report = Report
 report-title = هيڪ report جمع ڪرو
-report-ask = تمون نئہ اِيئا جُملا ٿِي ڪيوي ۮورووڻون ۿومي آوئه رئه؟
+report-ask = تمون نئہ اِيئا جُملا ٿِي ڪيوي ۮورووڻون ۿومي آوئه ري؟
 report-offensive-language = نا مناسب ٻولئي
-report-offensive-language-detail = جُملا ۾ بي ادب ڪا نا مُناسِب آکر موجُود سئہ۔
-report-grammar-or-spelling = Grammatical / spelling ڳلتي
+report-offensive-language-detail = جُملا ۾ بي ادب ڪا نا مُناسِب ويڻ سئہ۔
+report-grammar-or-spelling = لکت / گرامر ري  ڳلتي
 report-grammar-or-spelling-detail = جُملا ۾ گرامر رئي ڳلتئي موجُود سئہ۔
 report-different-language = ڌار ٻولئي
 report-different-language-detail = اي اُوئا ٻولِي ۾ لِکل سئہ جئي هُون ٻولونه ريو۔
