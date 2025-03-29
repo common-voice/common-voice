@@ -16,14 +16,14 @@ contribute-more =
         [one] تيار سو ڪريا ۿارُو{ $count } وڌِيڪ؟
        *[other] تيار سو ڪريا ۿارُو{ $count } وڌارئ﻿ہ؟
     }
-speak-empty-state = اِيئا ٻولِي ۾ رِيڪارڊِنگ ڪريا ۿارُو جُملاجُملا کتم ٿي ڳياه۔۔۔
-no-sentences-for-variants = تم﻿ارِي ٻولِي را ڌار ڌار ڦوٽُو ۾ شايد جُملا کتم ٿي ڳيا! جيڪيۮِي تمي چاهو تون آپرئي settings ڀڌلئي ڪرينَ آپرِي ٻولِي را ٻِيزا جُملا زوئي هيڪو۔
+speak-empty-state = اِيئا ٻولِي ۾ رِيڪارڊِنگ ڪريا ۿارُو جُملا کتم ٿي ڳياه۔۔۔
+no-sentences-for-variants = تم﻿ارِي ٻولِي را ڌار ڌار ﻿﻿ڍاۯون را جُملا شايد کتم ٿي ڳيا! جي تمون نئہ ٺِيڪ لاڳئہ تو تمي آپرئي settings ڀڌلئي ڪرينَ آپرِي ٻولِي را ٻِيزا جُملا زوئي هيڪو۔
 speak-empty-state-cta = جُملا ڀيۯا ڪرو
-speak-loading-error = امي تمارئہ ٻوليا ۿارُو ڪوئي جُملا حاصل نہ ڪري هيڪيا۔ ميرڀونئي ڪرينَ ٻِيزِي وار ڪوشِيش ڪرو۔
+speak-loading-error = امي تمارئہ ٻوليا ۿارُو ڪوئي جُملا حاصل نہ ڪري هيڪيا۔ ميرڀونئي ڪرينَ ٻِيزِي وار وۯي ڪوشِيش ڪرو۔
 record-button-label = آپرو آواز رِيڪارڊ ڪرو
-share-title-new = <bold>امارئي مڌت</bold> وڌِيڪ آوازون ڳوتو
+share-title-new = <bold>امارئي مڌت ڪرو</bold> وڌِيڪ آوازون ڳوتيا ۾
 keep-track-profile = آپرِي ترقِي رو رِيڪارڊ راکيا ۿارُو هيڪ profile ٺاوو
-login-to-get-started = شُروع ڪريا ۿارُو Log in ڪرو زون نوَو اڪائونٽ ٺاوو
+login-to-get-started = شُروع ڪريا ۿارُو Log in ڪرو ڪا sign up ڪرو
 target-segment-first-card = تمي امارا پيرهيان segment ۾ ڀائيواۯ ٿيوه ريا
 target-segment-generic-card = تمي هيڪا segment ۾ ڀائيواۯ ٿيوه ريا
 target-segment-first-banner = Common Voice را پيلا Common Voice’s first target segment ٺايا ۾ مڌت ڪرو{ $locale }
