@@ -43,6 +43,10 @@ terms-disagree = زو متفق چش
 first-cta-header-text = ڤے خوئے کوګ آوازف پے مہربانی کڑا دیر تو شکریہ
 first-cta-subtitle-text = دے خوئے باری لے ماخ گپ دیہے خو، لے سڤزڤدے غوزف پے پاژیف دیر دے ٹیکنالوجی سڤزڤدا مدد کینے
 why-donate = تو چی پرسیتے؟
+add-information-button = معلوماتے شامل کن
+continue-speaking-button = نو شکریہ، ڤے گپ ژیا جاری واست
+create-profile-text = ڤے خوئے معلوماتف محفوظ کینیتیآ؟<createProfile> پروفائل سڤزاؤ</createProfile>
+thanks-for-voice-toast = دے آواز معلوماتے پے لیا دیر تو شکریہ
 
 ## MENU ITEM TOOLTIPS
 
