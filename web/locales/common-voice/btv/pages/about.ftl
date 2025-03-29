@@ -66,6 +66,9 @@ about-playbook-how-add-language = مہ کَش یک زیب شامل گروں ؟
 about-playbook-how-add-language-content-1 = اول، چیک گر چہ تیں زیب <languageLink> اول نو شامل خو نہ تھی</languageLink>  اگر کہ نہ تھی تہ تو من ھاں <languageRequestLink> اپیئں زیب شامل گرے سو دَن</languageRequestLink> ایزا دُو مرحلے تھے۔ سائٹسو ترجومہ گرو، اَ جملے جمہ گرو
 about-playbook-how-add-language-translating-heading = سائٹ سو ترجمہ گرو
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>  پونٹون کش استعمال گرو تھو اسیئں ھدایت بھال</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = بے موزائلا اوزاراستعمالگرہ تھہ چہء تِسئ </pontoonRequestLink>پونٹون منہ تھہ</pontoonLink> ترجمہ سو دَن۔ پونٹون کَن ڈھیراں زِب تھے ولے کہ تِیں نہ تھی تہ تُو <pontoonRequestLink> اپیئں زیب شامل گرے سو درخواس گر ھاں</pontoonRequestLink> نُٹ او زیب عام اواز سو پراجیکٹ رے موجود ھوینئݜ،<githubRepoLink>  نئ زیب سو درخواس گر  GitHub <localizationFragment> </githubRepoLink>  ترجمہ سو سائٹ  رے جَل بھال </localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملے جمہ گرُو
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>   جملے جمہ گرے رے اسیئںھدایت بھال </sentenceCollectorVideo>
 
 ## How does localization work
 
