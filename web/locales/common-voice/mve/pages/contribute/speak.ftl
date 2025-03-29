@@ -57,7 +57,7 @@ first-cta-gender-select-help-text =
 second-cta-header-text = آپرِي آواز رو حصو ڏيڻ رِي مھربونِي
 second-cta-subtitle-text = آپرَي پروفائل ھون ٿيَ آپرَي ڪوم نيَ جوئيَ ݾگو ھو ھانَ برادرِي رِي آواز ۾ حصو ليڻ آݪون ڀيڙا مليَ ݾگو ھو
 already-have-an-account = پيل ھون ھيڪ اڪائونٽ ھيَ<login>لاگ ان</login>
-create-profile-button = پروفائل ٺائو
+create-profile-button = پروفائل ٺاھو
 # IMAGE TAGS
 img-alt-success-checkmark = ڪاميابِي رو نشان
 # menu item
