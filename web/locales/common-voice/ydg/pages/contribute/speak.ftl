@@ -41,6 +41,8 @@ terms-agree = زو متفق استت
 terms-disagree = زو متفق چش
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ڤے خوئے کوګ آوازف پے مہربانی کڑا دیر تو شکریہ
+first-cta-subtitle-text = دے خوئے باری لے ماخ گپ دیہے خو، لے سڤزڤدے غوزف پے پاژیف دیر دے ٹیکنالوجی سڤزڤدا مدد کینے
+why-donate = تو چی پرسیتے؟
 
 ## MENU ITEM TOOLTIPS
 
