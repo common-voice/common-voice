@@ -58,9 +58,11 @@ about-nav-playbook = او ڇھِڇھ  چہء کَش حصہ گھنونݜ
 about-playbook-what-is-language = عام اواز رے زیب چوں تھی ؟
 about-playbook-what-is-language-content-1 = زیب سو بارہ مہ سوچ گرے سو ڈھیراں طریقئ تھے، تقریر پھونئ سو ماڈل سو مقصد سودَن،عام اواز رے توجو سو دَن،امامہ یک ذھن ھویئں سو، یا  والہ او زیبمنے والہ یک دوجوں سو بیادیوں رے پَرزیاں کہ تیوں کوشش گی ؟
 about-playbook-what-is-language-content-2 = بے لوکھہ تھہ چہء تقریر سو ماڈل منے والہ سو بدل ھویئں  سو حدود سَم پرزی، اسیئں دَن اواز سو معلوماتی سیٹ  ڙھؤ ان ان لو نمائیندگی گریاں
+about-playbook-what-is-language-content-3 = کیں زبوں مہ بے گرائمر ، الفاظوں مہ، اَ منے مہ بے شمار تبدیلی تھے۔ اس وجہ رے اسو<ctaLink> متعارف گی تھو تبدیلی</ctaLink> 2022 او کمیونٹی یے گھئیں معلوماتی سیٹ مِل اپیئں زیب مہ فرقمعلوم گرے سو پان دیا۔،
 
 ## How do I add a language
 
+about-playbook-how-add-language = مہ کَش یک زیب شامل گروں ؟
 
 ## How does localization work
 
