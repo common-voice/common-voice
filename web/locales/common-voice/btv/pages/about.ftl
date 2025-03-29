@@ -77,9 +77,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = لوکلائزیشن سائٹ کَش کام گرا ؟
 about-playbook-how-localize-content-1 = عام اواز سو ترجمہ سو سائٹ <strong> پونٹون رے ھواں</strong>
 about-playbook-how-localize-content-2 = <pontoonAccountLink> یک اکاؤنٹ سَن</pontoonAccountLink> اگر کہ تیوں نہ تھو۔نُٹ اپیئں زیب س <strong> ٹیم خوش گر</strong> اَ نُٹ پراجیکٹ خوش گر، <pontoonCvLink> عام اواز </pontoonCvLink> تیزا ترجمہ سو دَن فائل ھویانݜ۔ یک رے کلک گر ، نُٹ او انگلش سو الفاظ پشا اَ یک باکس تسیئں ترجمہ سو دَن
+about-playbook-how-localize-content-3 = انگلش نو ترجمہ گرو تھو، لیکن تو جل زیبوں <strong>مشورے ریٹھونݜ </strong> کلک گر <strong> پروفائل</strong> آئ کان،نُٹ <strong> سیٹنگ</strong> لنک آ کشک زو زیب شامل گرچہ تو منا۔ٹینڈ رے سیئز ھت رے گُٹ مہ ترجمیوں سو لسٹ ھونݜ تسئ مہ نہ تھہ<strong> لوکیلز</strong>۔ ترجمہ سائٹ رے یک دِس پتن پشا۔
+about-playbook-how-localize-content-4 = سائٹلانچ سو دَن تیار تھی کدی چہء او  %75 مکمل ھُن۔
+about-playbook-how-localize-content-5 = اسیئں ویڈیو اکسپلینر بھال مدد سو دَن
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = مہ جملے کَش شامل گروں ؟
 
 ## How to record quality
 
