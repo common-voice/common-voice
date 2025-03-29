@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ڪِلپ
        *[other] <bold>{ $count }</bold> ڪِلپس
     }
-goal-help-recording = تمي Common Voice آپرا مقصد ۿوڌِي پوتيا ۾ مڌت ۮِيڌئِي <goalPercentage> </goalPercentage> امارا هرروز را { $goalValue } رِڪارڊنڳ رو goal!
-goal-help-validation = تمي Common Voice آپرا مقصد ۿوڌِي پوتيا ۾ مڌت ۮِيڌئِي<goalPercentage> </goalPercentage> امارا هر روز را { $goalValue } رِيڪارڊِنگ رو goal!
+goal-help-recording = تمي Common Voice رئِي مڌت ڪرئِي ﻿ <goalPercentage> </goalPercentage> امارا هرروز را { $goalValue } رِڪارڊِنڳ را مقصد ۿُوڌِي پوتيا ۿارُو!
+goal-help-validation = تمي Common Voice رئِي مڌت ڪرئِي<goalPercentage> </goalPercentage> امارا هر روز را { $goalValue } validation را مقصد ۿُوڌِي پوتيا ۿارُو!
 contribute-more =
     { $count ->
         [one] تيار سو ڪريا ۿارُو{ $count } وڌِيڪ؟
