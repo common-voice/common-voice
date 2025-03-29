@@ -22,6 +22,7 @@ share-clip = ڤے خوئے کوګ آواز باخݰ (شیئر کن)
 share-common-voice = ڤے کامن وائس باخݰ (شیئر کن)
 review-instruction = جائزو غورا اڤن کوګ آوازے ریکارڈ کن اگر کہ ضرورت استت
 record-submit-tooltip = { $actionType } کلو کہ تیار ݰوئے جمع کن
+clips-uploaded = کوګ آواز اپلوڈ ݰوئے
 record-abort-submit = کوګ آوازے جمع کن
 record-abort-continue = ڤے ریکرڈنگ بود کن
 record-abort-delete = نیݰے نیا اڤن ڤے آوازف ڈیلیٹ
