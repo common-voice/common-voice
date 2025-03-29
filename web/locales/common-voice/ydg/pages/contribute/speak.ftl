@@ -53,6 +53,7 @@ first-cta-gender-select-help-text =
     .label = تو ژینگوآ مڑ چیمی کینے وضاحت کینے؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ڤے خوئے آواز پے مہربانی کڑا دیر تو شکریہ
+second-cta-subtitle-text = سے پروفائل، چند ہورغ کڑیت، ݱوئی پتا کڑا کرکینے۔ ڤے خوئے آوازف لے لیغوزف دے رابطہ ڤرومے۔
 
 ## MENU ITEM TOOLTIPS
 

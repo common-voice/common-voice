@@ -64,7 +64,7 @@ news_current_affairs = خبرون ھين موجوده معاملن
 technology_robotics = ٽيڪنالاجي ھين روبوٽڪس
 sentence-variant-select-label = سزا رو قسم
 sentence-variant-select-placeholder = آيڪ قسم چونڊيو (اختياري)
-sentence-variant-select-multiple-variants = عام ٻولي / ڪيتائي قسمعام ٻولي / ڪيتائي قسم
+sentence-variant-select-multiple-variants = عام ٻولي / ڪيتائي قسمعام ٻولي / ڪيتائي قسمعام ٻولي / ڪيتائي قسم
 
 ## BULK SUBMISSION
 
