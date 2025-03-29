@@ -113,6 +113,33 @@ rate-limit-toast-message-seconds =
         [one] شرح ري حد موٽي ھي. 1 سيڪنڊ ۾ وري ڪوشش ڪرو
        *[other] شرح ري حد موٽي ھي. { $retryLimit } سيڪنڊن ۾ وري ڪوشش ڪرو
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تمي آ صفحا ھارو جمع ڪرايا  ري حد تڪ پوچي گيا ويا ھون. مهربوني ڪرين وري جملو جمع ڪرايا مون پيري1 منٽ انتظار ڪرو. تموري  صبر ري مهربوني
+       *[other] تمي آ صفحا ھارو جمع ڪرايا  ري حد تڪ پوچي گيا ويا ھون. مهربوني ڪرين وري جملو جمع ڪرايا مون پيري { $retryLimit } منٽ انتظار ڪرو. تموري  صبر ري مهربوني
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تمي آ صفحا ھارو جمع ڪرايا  ري حد تڪ پوچي گيا ويا ھون. مهربوني ڪرين وري جملو جمع ڪرايا مون پيري 1منٽ انتظار ڪرو. تموري  صبر ري مهربوني
+       *[other] تمي آ صفحا ھارو جمع ڪرايا  ري حد تڪ پوچي گيا ويا ھون. مهربوني ڪرين وري جملو جمع ڪرايا مون پيري { $retryLimit } منٽ انتظار ڪرو. تموري  صبر ري مهربوني
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences }1 جملا جمع ڪروا
+       *[other] { $uploadedSentences }{ $totalSentences } جملا جمع ڪروا
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences }1جملا جمع ڪروا ڪلڪ<downloadLink>ايئي</downloadLink>ڌاونلوڌ غلط جملا
+       *[other] { $uploadedSentences }{ $totalSentences } جملا جمع ڪلڪ<downloadLink> ايئي</downloadLink>ڌاونلوڌ غلط جملا
+    }
+small-batch-sentences-rule-1 = "ھون ڪيوا جملا ڀيرا ڪري ھگو؟" ري هدايتن تي عمل ڪرو.
+small-batch-sentences-rule-2 = هر لڪير ۾ ايڪ جملو ڀيرو ڪرو
+small-batch-sentences-rule-3 = ايڪ دفا "Enter" يا "Return" ني دٻاوين جملو ني ايڪ لڪير ۾ الڳ ڪرو.
 
 ## MENU ITEM TOOLTIPS
 

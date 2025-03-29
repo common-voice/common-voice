@@ -67,6 +67,9 @@ read-sentences-coming-soon = ڤے جملغّف ݱا<small>(چوکو ایستے)<
 
 speak-contribute-menu-tooltip = ڤے جملغّف ݱا، نے نے سوالف جواب دل
 read-sentences-menu-item-tooltip = دے خوئے زبان جملغّے ݱا محفوظ (ریکارڈ) کن
+answer-questions-menu-item-tooltip = دے خوئے زبان نے سوالف لے اشارغّف جواب دل محفوظ (ریکارڈ) کن
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ڤے اختیاراتف فہرست ݱا
+read-sentences-menu-item-aria-label = کمیونٹی ممبرانف دے مختلف زبانف جملغّے جمع کہ کڑت ڤے وف ݱا
