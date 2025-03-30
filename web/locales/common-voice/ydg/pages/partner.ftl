@@ -7,3 +7,8 @@ partnerships-community-header = کیمونٹی، تخلیقی ہورغ اڤن ع
 partnerships-foundations-header = فلاحی ادارو
 partnerships-governments-header = حکومت
 partnerships-academia-header = یونیورسٹی، تعلیمن ماہرینے اڤن محقیقینے
+partnerships-small-business-header = کوپ کاروبار، کہ آلو ٹیکنالوجی اڤن اے ائی شامل استت شروع کڑا
+partnerships-corporates-header = دے استر پیمانو اجتماعی کمپنیے
+partnerships-our-partners = ماخ شراکت دار
+# menu item
+partners = یَوان
