@@ -85,6 +85,7 @@ about-playbook-how-localize-content-5 = اسیئں ویڈیو اکسپلینر �
 
 about-playbook-how-add-sentences = مہ جملے کَش شامل گروں ؟
 about-playbook-how-add-sentences-content-1 = تُو جملے شامل گر ھاں<writePageLink> لیکے والہ صفہ رے </writePageLink> یا دوبارہ بھال ھاں <reviewPageLink> دوبارہ بھالے والہ صفہ رے</reviewPageLink>
+about-playbook-how-add-sentences-content-2 = عام اواز مہ جملے شامل گرے سو دن دو مݜوں سو نظرثانی زو قبولیتلازمی تھی۔تے اپیئں زیب سو دن رہنمائ سندو تھو<languageGuidelinesLink> ایزہ </languageGuidelinesLink> جملے لازمی <licenseLink> لوں مہ ھئیں۔احاطہ کار</licenseLink> آ 15 لفظوں نو کم ھئیں تُو لیکے والہ مَن ھاں چہء سندے <waiverLink> cc0 اسوں طریقہ استعمال گیری </waiverLink> اَ اَسئ ڇئے commonvoice@mozilla.com رے
 
 ## How to record quality
 
