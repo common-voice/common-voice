@@ -104,6 +104,8 @@ about-playbook-how-grow-language-content-1 = لوں سو تنوع سو دن مو
 about-playbook-how-grow-language-content-2 = تقریب
 about-playbook-how-grow-language-content-3 = تو یک تقریب چلا ھاں  لوں سو حصہ گھنئ سو مدد سو دن۔او تیں سوچ نو ڙھؤ حسان تھو۔ او تو آن لائن ویڈیو کانفرنس اوزار گھن گر ھاں،یا امئ کہ او محفوظ تھو تہ <eventTemplate> تقریب چلئ سو دناسوں ٹمپلیٹ زو زریعے چیک گر </eventTemplate>
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = تُو با ئے پیغام گرے سو دن سوشل میڈیا پلیٹ فام استعمال گرھاں۔ پوسٹ ݜئیر گر چہء وضاحت گرے او چیں اہم تھو آ لوں مِل رابطہ مہ ھوں بیاد گر مسئلیوں رے،لکہ زیب سو حق،اوز یا bias in tech بھال جل نصیحت <campaignLink> سوشل کمپین رے چلئ سو دن، سےء کانٹنٹ چہء تو دوبارہ استعمال گرا</campaignLink>
+about-playbook-how-grow-language-content-6 = ملگرتیا آ نیٹ ورک
 
 ## How to validate
 
