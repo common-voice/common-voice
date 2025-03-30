@@ -12,6 +12,11 @@ awards = انعام
 you = تو
 everyone = ہر یوګغو
 contribution-activity = حصو غوردے غوزف ہورغ
+top-contributors = غیݰے ہورغ کڑغوزے
+recorded-clips = ریکارڈ ݰیغو آوازے
+validated-clips = تصدیق ݰیغو آوازے
+total-approved = تمام منظو ݰیغے
+overall-accuracy = مجموعی درستگی
 
 ## Custom Goals
 
