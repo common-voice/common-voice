@@ -94,9 +94,12 @@ about-playbook-how-record-quality = مہ اوچت قسم سو اواز سو کل
 about-playbook-how-record-content-1 = اپئیں سادہ اواز مہ مَن۔تیں منے سو طریقہ یے ایزہ خوش آمدید۔.بے معلوم گرو لوکھہ تھہ چہء تیں او لہجہ تھی،اَ بے لوکھہ تہ چہء تیں والیوم،سٹائل آ اواز۔
 about-playbook-how-record-content-2 = پتن نو ڙھؤ شور ختم گر۔اس دے تو ہسانی رے شواں۔
 about-playbook-how-record-content-3 = جملے احتاط گِھن پڑ۔څھور نئں،بدل نہ گر اَ لفظ شامل نہ گر۔
+about-playbook-how-record-content-4 = یقینی گر چیء پلیٹ فام ریکرڈنگ گرا،منو شروع گرے نو اول اَ او تے بند ھوئیں چہء تو موڅآئ رے۔
+about-playbook-how-record-content-5 = <accuracyLink>  صحی طریقہ کار رے جَل بھال </accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = بے عام اواز رے موءثر طریقہ رے کش اُکھال ھونتہ ؟
 
 ## How to validate
 
