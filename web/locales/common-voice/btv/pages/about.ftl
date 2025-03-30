@@ -115,9 +115,11 @@ about-playbook-how-validate = مہ کش معلوم گروں چہء آیا اوا
 about-playbook-how-validate-content-1 = اگر تُو سے <strong> ݜوں ھواں </strong> آ  <strong> تیوں رے پرز ھواں </strong> او عام طور رے <strong>منظوری سو دن غور تھو </strong>
 about-playbook-how-validate-content-2 = <strong> رَد نہ گر اگر کہ منےوالہ سو لہجہ تینوں مختلف تھی</strong> ۔ او اہم تھی اواز پھونے دن ہر کسئ سَم کام گرے۔
 about-playbook-how-validate-content-3 = اگر کہ تُو پرزا چہء تلفظ رے پرزو ناممکن تھو </strong> تیزا مہ پتن نو ڙھؤ شور تھو</strong> یا تیزا <strong> جل لو ھُم بیاد گرہ تھہ </strong> تے تو کلپ رد گر <accuracyLink> جل معلومات بھال اسیئں صحیح طریقہ کار مہ </accuracyLink>
+about-playbook-how-validate-content-4 = کہ یک کلپ دو لوں رد گیگی، او ان زائے رے معلماتی سیٹ مہ اوزگار ھواں۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مہ معلوماتی سیڑے کش اوڑوں آ استعمال گروں ؟
 
 ## How are decisions made
 
