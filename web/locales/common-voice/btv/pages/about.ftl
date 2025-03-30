@@ -90,6 +90,7 @@ about-playbook-how-add-sentences-content-3 = تُو جملے استعمال گر
 
 ## How to record quality
 
+about-playbook-how-record-quality = مہ اوچت قسم سو اواز سو کلپ کش ریکاڈ گروں ؟
 
 ## How to grow language
 
