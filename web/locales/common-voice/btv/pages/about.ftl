@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = <accuracyLink>  صحی طریقہ کار �
 ## How to grow language
 
 about-playbook-how-grow-language = بے عام اواز رے موءثر طریقہ رے کش اُکھال ھونتہ ؟
+about-playbook-how-grow-language-content-1 = لوں سو تنوع سو دن موقعے پیدا گرو چہء لوعام اواز مہ حصہ گھنیاں۔ معلوماتی سیٹ یقینی گرو چہء ڙھؤ نہ ڙھؤ لوں سو خدمت گرے۔اسو زریعے آ ٹمپلیٹ پیدا گے تھے چہء تو استعمال گر ھئیں۔
+about-playbook-how-grow-language-content-2 = تقریب
 
 ## How to validate
 
