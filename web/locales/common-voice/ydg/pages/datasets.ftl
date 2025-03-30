@@ -20,3 +20,5 @@ size-megabyte = ایم بی
 confirm-no-identify = <b>تو اتفاق کینیتے</b> کہ تو دے کامن وائس ڤے گپ ژیغوزف پے شناخت دیر کوشش چے کینے۔
 confirm-join-mailing-list = تو دے کامن وائس دے رابطہ فہرست شامل ݰویا کوسیتیآ؟
 download-language = ڈاؤن لوڈ { $language }
+validated-hours = کل تصدیق شدہ گھنٹائی
+recorded-hours = ریکارڈ ݰیغو گھنٹہ
