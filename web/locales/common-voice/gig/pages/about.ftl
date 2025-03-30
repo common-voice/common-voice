@@ -18,6 +18,20 @@ about-voice-contrib-title = آپيري آواز ڏيڻو
 about-voice-contrib-subtitle = منک آوي ڇي آپيري آواز ڏيوي ڇي
 about-voice-validation-title = آواز اوڙکڻو
 about-voice-validation-subtitle = ڏوجي منک ڪلپس وآئيس ني اوڙکي
+about-dataset-release-title = ڊيٽآ سيٽ ڇوڙ ڏيٚ
+about-dataset-release-subtitle = همني هر تين مهينا مين ڊيٽآسيٽ ڇوڙ ڻي ڇي
+about-subscribe-text = ڪآمن وآئيسي سون رابتي مين رهڻو چآئو ڇو۔
+about-speak = ٻولڻو
+about-speak-text = هيسو لي وآڙي بهڙي ڪي ڏو ڙآ جملآ بيئڪ مين پڙي وآئيس ڪلپس ڪري ڇي۔
+about-listen-queue = سوڻو ۔لين
+about-listen-queue-text = وآئيس ڪلپس جمح ڪروڙي لين مين ميل ڌو۔جيڪو اوني سوڻو سارو تيآر ڪري
+about-listen = سوڻو
+about-listen-text = استهمآل ڪيۮو ڙي ڏي دو ڙي ڪلپس چيڪ ڪرڻي ڇي چيڪ ڪري ڇي ڪي اسپيڪر اوني جملي ني سئي پڙي ڇي۔
+about-is-it-valid = ڪائي ڪلپس سئي ڇي
+about-is-it-valid-text = جڏي او سآرڦ ووٽ ڏي ڇي۔ تو وآئيس ڪلپس ني سئي ڪرين نشان وتآوي ڇي
+about-yes-votes = 2 هآن ووٽ
+about-yes-votes-text = ڪآمن وآئيس ڊيٽآ سيٽ مين بهڙي هوئي سارو وآئيس ڪلپ ني دي الگ استهمال ڪري ر ترڦي سون سئي هوئڻ کپي ۔
+about-no-votes = 2 نآ ووٽ
 
 ## Community Playbook Content
 ## What is a language
