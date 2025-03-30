@@ -91,6 +91,9 @@ about-playbook-how-add-sentences-content-3 = تُو جملے استعمال گر
 ## How to record quality
 
 about-playbook-how-record-quality = مہ اوچت قسم سو اواز سو کلپ کش ریکاڈ گروں ؟
+about-playbook-how-record-content-1 = اپئیں سادہ اواز مہ مَن۔تیں منے سو طریقہ یے ایزہ خوش آمدید۔.بے معلوم گرو لوکھہ تھہ چہء تیں او لہجہ تھی،اَ بے لوکھہ تہ چہء تیں والیوم،سٹائل آ اواز۔
+about-playbook-how-record-content-2 = پتن نو ڙھؤ شور ختم گر۔اس دے تو ہسانی رے شواں۔
+about-playbook-how-record-content-3 = جملے احتاط گِھن پڑ۔څھور نئں،بدل نہ گر اَ لفظ شامل نہ گر۔
 
 ## How to grow language
 
