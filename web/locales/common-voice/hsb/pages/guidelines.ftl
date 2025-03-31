@@ -108,6 +108,15 @@ adding-questions = Prašenja přidać
 
 what-makes-a-good-question-subheader = Što dobre prašenje twori?
 what-makes-a-good-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
-what-makes-a-good-question-explanation-criteria-1 = so lochko rozumić a na so wotmołwić
+what-makes-a-good-question-explanation-criteria-1 = lochko rozumić być a na so wotmołwić dać
 what-makes-a-good-question-explanation-criteria-2 = powšitkownje relewantne być
 what-makes-a-good-question-explanation-criteria-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+easy-to-understand = Lochko rozumić
+spelling-and-pronunciation = Prawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužiwajće korektny prawopis a korektnu gramatiku.
+length = Dołhosć
+dont-add-subheader = Njepřidać
+culturally-specific-questions = Za kulturu specifiske prašenja
+process-steps = Proces / Kroki
+offensive-content-sensitive-information = Njepřistojny wobsah abo sensibelne informacije
+example-questions-subheader = Přikładowe prašenja
