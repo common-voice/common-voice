@@ -102,6 +102,8 @@ about-playbook-how-grow-language-content-1 = ڪامن وائس ۾ حصو ليڻ 
 about-playbook-how-grow-language-content-2 = موقع
 about-playbook-how-grow-language-content-3 = ٿيَ منکون نيَ حصو ليڻ ھارو موقع ڏيَ ݾگو ھو۔اَي ٿونرِي سوچ ھون وڌيڪ آسان ھيَ۔ ٿيَ اَي آن لائن وڊيو ڪانفرنسگ ٽول ھون ڪريَ ݾگو ھو، يا جيَ اَي محفوظ ھيَ تو زاتِي نمونيَ ھون ڪريَ ݾگو ھو۔
 about-playbook-how-grow-language-content-4 = سماجِي ميڊيا
+about-playbook-how-grow-language-content-5 = ٿيَ نياپو رساڻ ھارو سماجِي ميڊيا استعمال ڪريَ ݾگو ھو۔ پوسٽون شئير ڪرو جڪو ظاھر ڪريَ ڪہ اَي ڪيون اھم ھيَ، ٻيجيَ منکون ھون رابطو ڪرو جڪو ٻولِي ريَ حقون، آواز رِي مصنوعي زھانت، يا ٽيڪنالاجِي ۾ تعصب جيڙھيَ مسئلون ريَ باريَ ۾ وات ڪريَ رھيا ھيَ۔<campaignLink>سماجِي مھم ھلاڻ ھارو وڌيڪ صلاح جوئو، جِڪيَ ۾ اَي مواد شامل ھيَ جڪو ٿيَ وڙيَ استعمال ڪريَ ݾگو ھو</campaignLink>۔
+about-playbook-how-grow-language-content-6 = حصہ داري ھان رابطہ ڪارِي
 
 ## How to validate
 

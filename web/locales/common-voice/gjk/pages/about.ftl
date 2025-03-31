@@ -74,6 +74,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = جُملان ن
 
 ## How does localization work
 
+about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيئن ڪام ڪريَ سي؟
+about-playbook-how-localize-content-1 = ڪامنَ وائيس نون ترجمون<strong> پونَ ٽونَ </strong>سائيٽ ماٿيَ ٿائيَ سي۔
 
 ## How to add sentences
 
