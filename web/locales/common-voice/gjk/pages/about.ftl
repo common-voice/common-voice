@@ -58,9 +58,14 @@ about-nav-playbook = شِيکو ڪيَ ڪيم حِصو ليوائيَ
 about-playbook-what-is-language = ڪامنَ وائيس ماٿيَ ٻولِي شون سي؟
 about-playbook-what-is-language-content-1 = عام ٻولِي نا ٻارا سوچيا ۿارُو ڪيٽلائيَ طريقا سي۔ اِسپيچ ريڪگنيشنَ ماڍلس نان مقصۮان ۿارُو مشورو ڄيَ سيَ ڪيَ ڀاهيمِي سمجھ ماٿيَ ڌيانَ ڄو، شون آ ٻولِي نين ٻوليا واران گھڻون ڪرينَ ايڪ ٻيزان نين ۿمزِي ۿڳيَ سي زو اِي وائيس ماٿيَ ڪوشش ڪريَ؟
 about-playbook-what-is-language-content-2 = امين چاهيئين سيئين ڪيَ تقرير نان ماڍل ۿڦران هوئيَ ايٽليَ ٻوليان واران نِي مُختلِڦ  رينج نين ۿمزِيا مان، ايم ڇا ۿارُو ايڪ آواز ڍيٽاسيٽ نين ڪيٽلائين مُختلِڦ ماڻۿان نِي نِمائينۮڳِي ڪروِي زويئين۔
+about-playbook-what-is-language-content-3 = ڪانڪ ٻولِيان مان گرامر، ڍِڪشنرِِي انين تلڦُظ مان الائِي ڦرق سي۔ اِي سبب ۿارُو امين 2022 مان آن نين مُتارِڦ ڪراوِي ريا سيئين۔ آ ڀراڌريئان نين اينيان نِي ٻوليان نين موٽِي ڍيٽاسيٽ مان ڌار</ctaLink> مُختلِڦ صورتان<ctaLink> مان شامِل ڪريا نو ايڪ طريقو سو۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = هون ايڪ ٻولِي ڪيم شامِل ڪرِي ۿڳون سون؟
+about-playbook-how-add-language-content-1 = مورِٿيز موجھُوۮ <languageLink> مورِ ٿِي، چيڪ ڪرو ڪي شون تمارِي ٻولِي </languageLink> سي۔ پوتا نِي ٻولِي شامِل ڪريا نا ٻارا مان <languageRequestLink> زو اِي نٿِي، تمين شامِل ڪرِي ۿڳو سو۔ </languageRequestLink> پونسو اُوڃان پڻ مرحلا سي، سائيٽ نون ترجمون انين جُملان نين ڀيڳون ڪروون
+about-playbook-how-add-language-translating-heading = سائيٽ نون ترجمون
+about-playbook-how-add-language-translating-content-1 = پونَ ٽونَ چيم اِستمال ٿئِي ۿڳيَ سي اين ۿارُو امارِي گائيڍ نين زووو۔<translateVideoLink></translateVideoLink>
 
 ## How does localization work
 

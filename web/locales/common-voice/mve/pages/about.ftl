@@ -90,9 +90,14 @@ about-playbook-how-add-sentences-content-3 = ٿيَ استعمال ڪريَ ݾگ
 
 about-playbook-how-record-quality = ھُون آواز ريَ ڪلِپ رِي سُٺِي ريڪاردِنگ ڪونڪرڪريَ ݾگون ھون؟
 about-playbook-how-record-content-1 = آپرِِي رِي عام آواز ۾ ٻولو! ٿونرو ٻولڻ رو طريقو ايٿ قبول ھيَ۔مھونيَ ٿونرو ٻولڻ رو انداز ايونئج کپيَ ھيَ جون ھيَ، ھان مھونيَ ٿونرِي آواز،انداز ھان ٺرائو ايوئنج کپيَ جون ٿيَ ٻولو ھيَ۔
+about-playbook-how-record-content-2 = لاريَ رِي گھڻي آوازون ھون بچو۔ٿونيَ ھونڀڻڻ آسان ھوئيَ۔
+about-playbook-how-record-content-3 = جُملون نيَ سُٺيَ نمونيَ ھون پڙھو۔ڪو اکر ڇوڙو ني، بدلو نِي ھان ڪو اکر شامل نِي ڪرو۔
+about-playbook-how-record-content-4 = پڪ ڪرو ڪہ پليٽ فارم ٿونري ٻولڻ ھون پيل ريڪارڊِنگ ڪريَ پڙيو، ھان اَي ٿونريَ ٻولِي ختم ھوڻ ھون پڇيَ بند ھوئيَ ھيَ۔
+about-playbook-how-record-content-5 = <accuracyLink>درسگي ريَ معيار نيَ وڌيڪ جوئو
 
 ## How to grow language
 
+about-playbook-how-grow-language = مھيَ ٻولِي نيَ ڪامن وائس تيَ ڪونڪروڌيڪ اسرائتي ٺاھيَ ݾگون ھون؟
 
 ## How to validate
 
