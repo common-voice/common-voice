@@ -120,5 +120,6 @@ culturally-specific-questions = Za kulturu specifiske prašenja
 process-steps = Proces / Kroki
 offensive-content-sensitive-information = Njepřistojny wobsah abo sensibelne informacije
 offensive-content-sensitive-information-explanation-explanation-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+offensive-content-sensitive-information-explanation-explanation-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
 example-questions-subheader = Přikładowe prašenja
 example-questions-explanation-1 = Móžeće <examplePromptsLink>120 přikładowych prašenjow w tutej tabeli namakać.</examplePromptsLink>
