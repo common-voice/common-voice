@@ -61,6 +61,9 @@ about-playbook-what-is-language-content-3 = ڪجھ ٻوليون ۾ گرامر، 
 ## How do I add a language
 
 about-playbook-how-add-language = ھُون ڪونڪر ٻولِي نيَ شامل ڪريَ ݾگون ھون؟
+about-playbook-how-add-language-content-1 = پيلڪو، جوئو جيَ ٿونرِي ٻولِي <languageLink> پيل ھون موجود ھيَ</languageLink>۔جيَ اَي ڪونِي ، ٿيَ ڪريَ ݾگو ھو<languageRequestLink>آپرِي ٻولِي نيَ شامل ڪرڻ ھارو ڪھيَ ݾگو ھو</languageRequestLink>ايئيَ را ٻيَ مرحلا ھيَ۔ سائيٽ رو ترجمو ڪرو، ھان جملا جمع ڪرو
+about-playbook-how-add-language-translating-heading = سائيٽ رو ترجمو
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پوٽون نيَ ڪونڪر استعمال ڪرڻو ھيَ اوئيَ ھارو مھوريَ رھنمائِي نيَ جوئو۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڙا ڪرڻ
 
 ## How does localization work
