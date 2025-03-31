@@ -5,3 +5,5 @@ download-helpus = آواج ٹکنالوجیا کے اوݪے دؔوݪے پڑاو 
 download-form-email =
     .label = اپٹؔا ای میل جمہ کرو
     .value = تیرا دھنواد، ہم سمپرکام رہیوں گے
+download-back = سادھارن آواج  ڈیٹا سیٹساپ پُٹھے جاو
+download-no = نائی دھنواد
