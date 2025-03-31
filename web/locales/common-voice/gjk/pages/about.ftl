@@ -47,7 +47,7 @@ about-get-involved-text-2 =
     الائِي ۿڦرِي وات سي! اِي ميل نيَ زريئيَ ٿِي راٻطا مان ريو يا <discourseLink>ڍِسڪورس</discourseLink> نيَ زريئيَ ڦورمز ٿِي، <githubLink>نيَ زريئيَ ٿِي مسلا حواليَ ڪرو، يا <matrixLink>ميٽرِڪس </matrixLink> ڀراڌرِي نيَ زريئيَ ٿِي جوائينَ ڪرو
 about-stay-in-touch = هون راٻطا مان ڪيم رِيُون؟
 about-stay-in-touch-button = سائنَ اپ ڪرو
-about-stay-in-touch-text-1 = امارِي اِي ميل لِسٽ مان اِي </email Fragment> سائنَ اپ ڪرو <email Fragment> شيڇا ۿارُو ڪي تمين ڪامنَ وائيس ماٿيَ مهمن، واقيئان انين ڪو-ڍِزائينان نِي خاصيئتان مان ڪيم حِصو لئِي ۿڳو سو۔
+about-stay-in-touch-text-1 = <emailFragment>  </emailFragment> تمين ڪيم موهِم مان واقيعان مان co-design انين فيچرز مان حِصو ليڌا ۿارُو امارِي اِي ميل لِسٽ ٿِي ڪامنَ وائيس ماٿيَ سائينَ اپ ڪرو۔
 about-stay-in-touch-text-2 = تمين موزيلا ٻولِي نِي ڀراڌرِي مان ٻيزان ٿِي مُلاقات ڪرِي ۿڳو سو ڪونئين موضوع ماٿيَ وات وڳچ ڪريا ۿارُو يا </discourseLink> ڍِسڪورس <discourseLink> ٿِي زٽ مشورو حاصل ڪريا ۿارُو</matrixLink>ميٽرِڪس<matrixLink>
 about-nav-why-common-voice = شون ليوا؟
 about-nav-how-it-works = ڪيم؟
