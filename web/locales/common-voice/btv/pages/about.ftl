@@ -120,9 +120,12 @@ about-playbook-how-validate-content-4 = کہ یک کلپ دو لوں رد گیگ
 ## How to access dataset
 
 about-playbook-how-access-dataset = مہ معلوماتی سیڑے کش اوڑوں آ استعمال گروں ؟
+about-playbook-how-access-dataset-content-1 = تو بز ھاں <datasetsPage> معلوماتی سیٹ سو صفہ یے</datasetsPage> ،ورژن خوش گر آ زیب چہء تو لوکھا آ ڈونلوڈ گر فائل <metadataLink> جمہھویں بزیانݜ metadata </metadataLink> ڈیمو گرافک معلومات شان آ تصدیق سو معلامات تے معلوماتی سیٹ ڈونلوڈ گرے سو دن یک ای میل دے سو ضرورت ھوینݜ۔
+about-playbook-how-access-dataset-content-2 = کہ تو اے ایس آر ماڈل سندی سو دن اوزار ٹنڈا، تے کمیونٹی مہ جل لوں مل مے لاؤ ھوں ھواں <discourseLink> بیدوں رے</discourseLink>
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پراجیکٹ فیصلے کش سندا
 
 ## How is Common Voice funded
 
