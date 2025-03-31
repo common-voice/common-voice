@@ -56,9 +56,11 @@ about-nav-playbook = ݾيکو ڪونڪر حصو ليَ ݾگو ھو
 about-playbook-what-is-language = ڪامن وائس تيَ ٻولِي ڪِي ھي؟
 about-playbook-what-is-language-content-1 = ٻولِي ھارو سوچڻ را ڪِترا طريقا ھيَ۔ وات رِي  اوݪکوڻ ريَ نمونيَ ريَ مقشد ھارو،ڪامن وائس مشورو ڏيَ ھيَ ڪہ ‘آپت رِي سمجھ ’تيَ ڌيان ڏيڻ ‘کپيَ يا ڪِي ايئيَ ٻولِي نيَ ٻولڻ آݪا ھيڪيَ ٻيجيَ نيَ ݾمجيَ ݾگيَ ھيَ جيَ او ڪوشش ڪريَ؟’
 about-playbook-what-is-language-content-2 = مھيَ چاھون ھون ڪہ وات را مختلف قسم ٻولڻ ڊݪون نيَ ݾمجڻ ۾ سُٺا ھوئيَ۔ ايئيَ ھارو ھيڪيَ آواز ريَ مواد ريَ سيٽ  نيَ ڪِتريَ ھِي منکون رِي نماندگِي ڪرڻ کپيَ۔
+about-playbook-what-is-language-content-3 = ڪجھ ٻوليون ۾ گرامر، اکر ھان اوچار ۾ جوم فرق ھيَ۔ ايئيَ ھارو مھون 2022 ۾ <ctaLink> مختلف قسمون </ctaLink>رو تعارف ڪرائيَ رھيا ھون۔ اَي برادريون نيَ وڏيَ مواد ريَ سيٽ اند آپريَ ٻوليون نيَ فرق ڪرڻ رو ھيڪ طريقو ڏئيَ ھيَ۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = ھُون ڪونڪر ٻولِي نيَ شامل ڪريَ ݾگون ھون؟
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڙا ڪرڻ
 
 ## How does localization work
