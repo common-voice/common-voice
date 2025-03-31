@@ -126,3 +126,5 @@ press-and-stories-link = Presse
 partner-section-title = Bli partnar med oss
 # icon is an arrow that points to the right
 get-in-touch-button = Ta kontakt <icon></icon>
+# Partners section
+our-partners-include = Samarbeidspartnarane våre inkluderer...

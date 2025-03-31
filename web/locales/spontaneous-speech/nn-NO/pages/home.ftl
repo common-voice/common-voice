@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Velkomen til spontan tale
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Førespurnad</mark>
 prompt-bubble-subtitle = Vi vil vise deg ein førespurnad eller eit spørsmål
@@ -12,6 +13,7 @@ transcribe-bubble-title = <mark>Transkriber</mark>
 check-bubble-title = <mark>Sjekk</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = Vi gir ut datasett med jamne mellomrom
 contact-us = Kontakt oss
 contact-us-email = E-post: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = Skriv inn e-postadressa di
