@@ -125,6 +125,14 @@ about-playbook-how-access-dataset-content-2 = جيَ ٿيَ اَي ايس آر �
 
 about-playbook-how-project-governance = پروجيڪٽ را فيصلا ڪونڪر ليَ ھيَ؟
 about-playbook-how-project-governance-content-1 = موزيلا ڪامن وائس نيَ دنيا ۾ مختلف ملڪون ۾ سرگرم ڪارڪن، لسانيات را ماھر، ڊيٽا سائنسدان، تعليمي ماھر ۽ سافٽ ويئر انجنيئرون رِي ھيڪ وڏِي برادرِي رِي طرفون ممڪن ٺايو گيو ھيَ۔ اَي منصوبو موزيلا فائونڊيشن رِي طرفون سنڀاليو جائيَ وئو
+about-playbook-how-project-governance-content-2 = مھونرِِي حڪمراڻِي ھيٺِي ٿنڀون تيَ ٻاڌوڙِي ھيَ:
+about-playbook-how-project-governance-content-3 = رازدارِي، تحفظ ھان شفافيت
+about-playbook-how-project-governance-content-4 = برادري رِي شموليت ھان فيصلا سازي
+about-playbook-how-project-governance-content-5 = قدر ھان اوݪکوڻ
+about-playbook-how-project-governance-content-6 = گڏيل احتساب
+about-playbook-how-project-governance-content-7 = <governanceLink>وڌيڪ ݾيکو ڪيَ مھيَ ڪونڪر حڪمراڻِي ڪرون ھون</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪامن وائس ڪونڪر ٺئِي؟
+about-playbook-how-funded-content-1 = ڪامن وائس موزيلا فائونڊيشن رو ھيڪ پروجيڪٽ ھيَ،a US 501c3۔ اَي پروجيڪٽ ھيڻون مڪمل طور تيَ <philantropicGrantLink>خيراتي رقمون</philantropicGrantLink>، ھان سجِي دنيا ريَ منکون ريَ چنديَ تيَ۔
