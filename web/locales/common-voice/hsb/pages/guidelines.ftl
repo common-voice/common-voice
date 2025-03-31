@@ -3,6 +3,7 @@ guidelines-header = Směrnicy za sobuskutkowarjow
 guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka prašenjow
 
 ## Voice Collection nav ids
 
@@ -101,6 +102,7 @@ domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać 
 
 ## Question collection ids
 
+adding-questions = Prašenja přidać
 
 ## Question collection sidebar content
 
