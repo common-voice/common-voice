@@ -48,10 +48,12 @@ about-nav-how-it-works = ڪونڪر؟
 about-nav-partners = حصہ دار
 about-nav-get-involved = ايئيَ ۾ شامل ھو
 about-nav-how-it-works-2 = ڪومن وئِيس ڪونڪر ڪوم ڪريَ هَي؟
+about-nav-playbook = ݾيکو ڪونڪر حصو ليَ ݾگو ھو
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ڪامن وائس تيَ ٻولِي ڪِي ھي؟
 
 ## How do I add a language
 
