@@ -112,9 +112,12 @@ about-playbook-how-grow-language-content-8 = <strong>ليو!</strong> ٿونرِ
 about-playbook-how-validate = مھنيَ ڪونڪر خبر پڙھيَ ڪہ آواز رِي ڪلِپ منظور ڪرڻ کپيَ يا نا؟
 about-playbook-how-validate-content-1 = جيَ ٿيَ ھونڀڙيَ ݾگو <strong>اوئون نيَ ھونڀڙو</strong>ھان<strong>اوئون نيَ ݾمجو</strong>اَي عام ھيَ<strong>منظور ڪرڻ ھارو بھترين ھيَ</strong>۔
 about-playbook-how-validate-content-2 = <strong>اھڙيَ ڪلِپ نيَ رد نِي ڪرو جيٿ ٻولڻ آݪيَ رو ‘اھڙو لھجو’ ھوئيَ جڪو ٿونريَ لھجيَ ھون الگ ھوئيَ</strong>۔اَي آواز رِي اوݪکوڻ ھارو ضرورِِي ھيَ ڪہ جون ھر ھيڪ ھارو بھتر ڪوم ڪريَ ݾگيَ۔
+about-playbook-how-validate-content-3 = جيَ ٿيَ سوچو ٿا تہ اوچار ٺائيَ ھيَ<strong>ݾمجڻ ھارو ناممڪن ھيَ</strong>، يا اوٿ ھيَ<strong>لاريَ جوم ھُل ھيَ</strong>، يا ھيَ<strong>ٻيجا منک ڀِي ٻوليَ ھيَ</strong>، پڇيَ ٿونيَ ڪلِپ نيَ رد ڪرڻ کپيَ۔<accuracyLink> مونرِي درستگِي ريَ معيار ۾ وڌيڪ معلومات جوئو</accuracyLink>۔
+about-playbook-how-validate-content-4 = جيَ ڪلِپ 2 منکون رِي طرفون ھون رد ڪيو جائيَ ھيَ، اَي مواد  ريَ سيٽ ريَ ھيڪ مختلف سبسيٽ ۾ جارِي ڪيو گيو ھيَ۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ھون مواد رَي سيٽ تائين ڪونڪر رسيَ ݾگون ھون ھان استعمال ڪريَ ݾگون ھون؟
 
 ## How are decisions made
 
