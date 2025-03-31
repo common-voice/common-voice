@@ -64,7 +64,9 @@ about-playbook-how-add-language = ھُون ڪونڪر ٻولِي نيَ شامل
 about-playbook-how-add-language-content-1 = پيلڪو، جوئو جيَ ٿونرِي ٻولِي <languageLink> پيل ھون موجود ھيَ</languageLink>۔جيَ اَي ڪونِي ، ٿيَ ڪريَ ݾگو ھو<languageRequestLink>آپرِي ٻولِي نيَ شامل ڪرڻ ھارو ڪھيَ ݾگو ھو</languageRequestLink>ايئيَ را ٻيَ مرحلا ھيَ۔ سائيٽ رو ترجمو ڪرو، ھان جملا جمع ڪرو
 about-playbook-how-add-language-translating-heading = سائيٽ رو ترجمو
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پوٽون نيَ ڪونڪر استعمال ڪرڻو ھيَ اوئيَ ھارو مھوريَ رھنمائِي نيَ جوئو۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = مھيَ موزيلا را اوزار استعمال ڪرون ھون جڪيَ نيَ مھيَ ڪيون ھون<pontoonLink>پوٽون</pontoonLink>ترجميَ ھارو۔پوٽون ڪوڊِي جوم ٻوليَ ھيَ، پڻ جيَ ايئيَ ڪوڊِي ٿونرِي ٻولِي ڪونِي تو ٿيَ ڪريَ ݾگو ھو<pontoonRequestLink>ٿونرِي ٻولِي نيَ شامل ڪرڻ رِي درخواست ڪرو</pontoonRequestLink>پڇيَ ٻولِي نيَ ڪامن وائس تيَ موجود ڪرڻ ھارو،<githubRepoLink>گِٽ ھب تيَ  نوئِي ٻولي ھارو درخواست ڪرو</githubRepoLink>۔<localizationFragment>سائيٽ ترجميَ تيَ وڌيڪ جوئوڻ ھارو جوئو</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڙا ڪرڻ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جُملا جمع ڪرڻ نيَ استعمال ڪرڻ ھارو مھورِي رھنمائِي جوئو۔
 
 ## How does localization work
 
