@@ -74,6 +74,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = سائيٽ لوڪلائيزيشن ڪونڪر ڪوم ڪريَ ھيَ؟
 about-playbook-how-localize-content-1 = ڪامن وائس سائيٽ رو ترجمو تيَ ھوئيَ ھيَ<strong>پونٽون</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اڪائونٽ ٺائو</pontoonAccountLink>جيَ ٿون ڪوڊِي ڪونھِي۔ پڇيَ، آپ رِي ٻولِي چونڊو(‘ٽيم’)</strong>ھان پڇيَ پروجيڪٽ چونڊو،<pontoonCvLink>ڪامن وائس</pontoonCvLink>۔اوٿ ترجميَ ھارو فائلون ھوھيَ۔ھيڪِي تيَ ڪلِڪ ڪرو، پڇيَ او انگريزي را اکر ڏيکاڙ ھيَ ھان ترجميَ ھارو ھيڪ ڏٻو اوئون نيَ ترجمو ڪرڻ ھارو۔
 
 ## How to add sentences
 
