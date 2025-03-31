@@ -113,3 +113,14 @@ adding-questions = Přidávání otázek
 
 what-makes-a-good-question-subheader = Co je dobrá otázka?
 what-makes-a-good-question-explanation = Dobrá otázka pro datasety o zapojení veřejnosti by měla:
+easy-to-understand = Snadno pochopitelná
+spelling-and-pronunciation = Pravopis a interpunkce
+spelling-and-pronunciation-explanation = Používejte správný pravopis a gramatiku.
+length = Délka
+length-explanation = Otázka by měla obsahovat pouze několik vět.
+dont-add-subheader = Nepřidávat
+culturally-specific-questions = Kulturně specifické otázky
+culturally-specific-questions-explanation = Otázky, které jsou velmi kulturně specifické nebo dělají mnoho domněnek o respondentovi
+length-avoid-explanation = Otázky, na které je těžké odpovědět do 15 sekund (maximální délka nahrávky)
+process-steps = Proces / Kroky
+example-questions-subheader = Příklady otázek
