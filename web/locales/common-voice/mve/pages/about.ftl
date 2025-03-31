@@ -136,3 +136,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>وڌيڪ ݾي�
 
 about-playbook-how-funded = ڪامن وائس ڪونڪر ٺئِي؟
 about-playbook-how-funded-content-1 = ڪامن وائس موزيلا فائونڊيشن رو ھيڪ پروجيڪٽ ھيَ،a US 501c3۔ اَي پروجيڪٽ ھيڻون مڪمل طور تيَ <philantropicGrantLink>خيراتي رقمون</philantropicGrantLink>، ھان سجِي دنيا ريَ منکون ريَ چنديَ تيَ۔
+about-playbook-how-funded-content-2 = مواد ريَ سيٽ نيَ ھر وقت چڪر ميزبانِي ڪرڻ ھان جارِي ڪرڻ، پليٽ فارم نيَ بھتر ٺاڻ ھان ھلائڻ ۾ تمام گھڻو پئسو خرچ ھوئيَ ھيَ۔<africaMradiLink>برادرِي پروگرام</africaMradiLink>۔
+about-playbook-how-funded-content-3 = جيَ ٿيَ ھان ٿونرو ادارو پروجيڪٽ نيَ وآپس ڪجھ حصو ڏيڻ چاھو ھو، ٿيَ ڪريَ ݾگو ھو<donateLink>چندو</donateLink>يا مھونرِي شراڪتي ٽيم ھون رابطو ڪريَ ݾگو ھو<emailFragment>commonvoice@mozilla.com</emailFragment>
