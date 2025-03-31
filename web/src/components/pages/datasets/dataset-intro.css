@@ -6,64 +6,125 @@
     background-color: #3b3b3b; /* fallback if image hasnt loaded */
     background-size: cover;
     display: flex;
+    flex-direction: row;
+    align-content: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
+
+    @media (width < 1800px) {
+        flex-direction: column;
+    }
+
+    .heading-and-intro-container {
+        @media (width > 1800px) {
+            margin-block-end: 80px;
+        }
+
+        h1.page-heading {
+            font-size: var(--font-size-max);
+            margin-top: 0;
+            padding-top: 0;
+
+            &::before {
+                /* hide horizontal bar from PageHeading component */
+                display: none;
+            }
+        }
+
+        /* triangle top left */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url('images/datasets-intro-background-triangle.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 4vw;
+            height: 4vw;
+
+            @media (--xl-up) {
+                width: 8vw;
+                height: 8vw;
+            }
+
+            [dir='rtl'] & {
+                right: 0;
+                transform: scaleX(-1); /* flip image */
+            }
+        }
+
+        button {
+            font-size: 1em;
+            font-weight: 600;
+            text-decoration: underline;
+            color: var(--blue);
+        }
+
+        p {
+            /* max-width: 0em; */
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+
+        .intro-summary {
+            padding-top: 1em;
+            margin-bottom: 1em;
+            font-size: var(--font-size-lg);
+            line-height: 1.35;
+        }
+
+        div {
+            @media (--lg-up) {
+                width: 100%;
+                max-width: 50em;
+            }
+        }
+    }
+
+    .mars-container {
+        width: auto;
+        align-self: end;
+        transform: translate(0%, 25%);
+
+        .speech-bubble-container {
+            border-radius: 15px;
+            background: linear-gradient(
+                90deg,
+                var(--gradient-pink),
+                var(--gradient-purple) 100%
+            );
+            width: 270px;
+            padding: 16px;
+            transform: translateX(-80%);
+
+            p {
+                color: var(--black);
+            }
+
+            @media (--xs-down) {
+                transform: translate(-20%, -15%);
+            }
+        }
+
+        .speech-bubble-tail {
+            z-index: -1;
+            top: 30%;
+            right: 80%;
+            position: absolute;
+
+            @media (--xs-down) {
+                top: 25%;
+                right: 70%;
+            }
+        }
+    }
+
     @media (--lg-up) {
         background-position: right;
-    }   
+    }
 
     @media (--xl-up) {
-        padding: 5em;
-    }
-
-    /* triangle top left */
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: url('images/datasets-intro-background-triangle.svg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 4vw;
-        height: 4vw;
-
-        @media (--xl-up) {
-            width: 8vw;
-            height: 8vw;
-        }
-
-        [dir='rtl'] & {
-            right: 0;
-            transform: scaleX(-1); /* flip image */
-        }
-    }
-
-    button {
-        font-size: 1em;
-        font-weight: 600;
-        text-decoration: underline;
-        color: var(--blue);
-    }
-
-    p {
-        /* max-width: 0em; */
-        line-height: 1.5;
-        white-space: pre-line;
-    }
-
-    .intro-summary {
-        padding-top: 1em;
-        margin-bottom: 1em;
-        font-size: var(--font-size-lg);
-        line-height: 1.35;
-    }
-    div {
-    @media (--lg-up) {
-        width: 50%;
-    max-width: 50em;
-
-    }
+        padding: 5em 14em;
     }
 }
