@@ -3,6 +3,7 @@ guidelines-header = Cyfrannu'n Effeithiol
 guidelines-header-subtitle = Deall sut i gyfrannu a dilysu brawddegau a chlipiau sain i set ddata Common Voice
 voice-collection = Casglu Lleisiau
 sentence-collection = Casglu Brawddegau
+question-collection = Casgliad Cwestiynau
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,12 @@ domain-explanation = Mae parth yn cyfeirio at bwnc testun y frawddeg. Ar hyn o b
 
 ## Question collection ids
 
+adding-questions = Ychwanegu Cwestiynau
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Beth sy'n gwneud cwestiwn da?
+what-makes-a-good-question-explanation = Dylai  cwestiwn da ar gyfer setiau data cyfranogiad y cyhoedd fod:
+what-makes-a-good-question-explanation-criteria-1 = Yn hawdd i'w ddeall ac ymateb iddo
+what-makes-a-good-question-explanation-criteria-2 = Yn berthnasol yn gyffredinol
+what-makes-a-good-question-explanation-criteria-3 = Nid yw'n defnyddio, na cheisio, iaith niweidiol neu sarhaus
