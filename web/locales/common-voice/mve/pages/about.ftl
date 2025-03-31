@@ -83,6 +83,8 @@ about-playbook-how-localize-content-5 = مدد ھارو مھورو تفصيلِ�
 
 about-playbook-how-add-sentences = ھُون جُملون نيَ ڪونڪر شامل ڪرون؟
 about-playbook-how-add-sentences-content-1 = ٿيَ جُملون نيَ شامل ڪريَ ݾگو ھو تيَ<writePageLink>پنو لِکو</writePageLink>يا تيَ جُملون رو جائزو ليو<reviewPageLink>پنيَ رو جائزو ليو</reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = جملون نيَ ڪامن وائس ۾ شامل ڪرڻ ھارو ٻيون منکون نيَ جائزو ليڻ ضرورِي ھيَ۔ ٿيَ آپرِي ٻولِي ۾ رھنمائي ٺائو ھو<languageGuidelinesLink>ايٿ</languageGuidelinesLink>۔جُملا لازمِي ھوڻ کپيَ<licenseLink>عوامي ڊومين</licenseLink>ھان ننڊو ھوئيَ15 اکرون ھون۔ ٿيَ لکت ريَ لکڻ آݪيَ نيَ اَي ڪرڻ رو ڪھيَ ݾگو ھو<waiverLink>مھوريَ ويور ريَ عمل نيَ استعمال ڪريَ ݾگو ھو</waiverLink>، ھان مھونيَ commonvoice@mozilla.com تيَ ميلو
+about-playbook-how-add-sentences-content-3 = ٿيَ استعمال ڪريَ ݾگو ھو<scraperLink>جُملو ڪاڊڻ آݪو</scraperLink>وِڪِپيڊيا رَي ننڊيَ جُملون نيَ استعمال ڪرڻ ھارو
 
 ## How to record quality
 
