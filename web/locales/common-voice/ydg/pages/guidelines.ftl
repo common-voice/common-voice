@@ -8,3 +8,6 @@ offensive-content = شوم مواد
 background-noise = پے چروم شور
 background-voices = پے چروم ہوازو
 volume = آواز
+reader-effects = اݰٹے غوزف اثر
+just-unsure = صرف غیر یقینی؟
+example = مثال
