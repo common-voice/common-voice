@@ -255,7 +255,7 @@
                     }
                 }
 
-                & .guidelines-content-subtitle {
+                & .guidelines-content-subheader {
                     font-family: var(--base-font-family);
                     font-size: 20px;
                     margin-block-end: 12px;

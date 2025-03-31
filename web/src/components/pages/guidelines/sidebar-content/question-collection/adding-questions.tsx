@@ -29,8 +29,8 @@ export const AddingQuestions = ({
       </div>
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
-          <Localized id="what-makes-a-good-question">
-            <h2 className="guidelines-content-subtitle" />
+          <Localized id="what-makes-a-good-question-subheader">
+            <h2 className="guidelines-content-subheader" />
           </Localized>
           <Localized id="what-makes-a-good-question-explanation">
             <p className="guidelines-content-explanation" />
@@ -68,9 +68,23 @@ export const AddingQuestions = ({
             <p className="guidelines-content-explanation" />
           </Localized>
 
-          <Localized id="what-to-avoid">
-            <h2 className="guidelines-content-subtitle" />
+          <Localized id="dont-add-subheader">
+            <h2 className="guidelines-content-subheader" />
           </Localized>
+          <Localized id="offensive-content-sensitive-information">
+            <p className="guidelines-content-explanation header" />
+          </Localized>
+          <ul>
+            <Localized id="offensive-content-sensitive-information-explanation-explanation-1">
+              <li />
+            </Localized>
+            <Localized id="offensive-content-sensitive-information-explanation-explanation-2">
+              <li />
+            </Localized>
+            <Localized id="offensive-content-sensitive-information-explanation-explanation-3">
+              <li />
+            </Localized>
+          </ul>
           <Localized id="culturally-specific-questions">
             <p className="guidelines-content-explanation header" />
           </Localized>
@@ -89,23 +103,9 @@ export const AddingQuestions = ({
           <Localized id="process-steps-explanation">
             <p className="guidelines-content-explanation" />
           </Localized>
-          <Localized id="offensive-content-sensitive-information">
-            <p className="guidelines-content-explanation header" />
-          </Localized>
-          <ul>
-            <Localized id="offensive-content-sensitive-information-explanation-explanation-1">
-              <li />
-            </Localized>
-            <Localized id="offensive-content-sensitive-information-explanation-explanation-2">
-              <li />
-            </Localized>
-            <Localized id="offensive-content-sensitive-information-explanation-explanation-3">
-              <li />
-            </Localized>
-          </ul>
 
-          <Localized id="example-questions">
-            <h2 className="guidelines-content-subtitle" />
+          <Localized id="example-questions-subheader">
+            <h2 className="guidelines-content-subheader" />
           </Localized>
           <Localized
             id="example-questions-explanation-1"
