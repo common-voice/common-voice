@@ -67,9 +67,13 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پو
 about-playbook-how-add-language-translating-content-2 = مھيَ موزيلا را اوزار استعمال ڪرون ھون جڪيَ نيَ مھيَ ڪيون ھون<pontoonLink>پوٽون</pontoonLink>ترجميَ ھارو۔پوٽون ڪوڊِي جوم ٻوليَ ھيَ، پڻ جيَ ايئيَ ڪوڊِي ٿونرِي ٻولِي ڪونِي تو ٿيَ ڪريَ ݾگو ھو<pontoonRequestLink>ٿونرِي ٻولِي نيَ شامل ڪرڻ رِي درخواست ڪرو</pontoonRequestLink>پڇيَ ٻولِي نيَ ڪامن وائس تيَ موجود ڪرڻ ھارو،<githubRepoLink>گِٽ ھب تيَ  نوئِي ٻولي ھارو درخواست ڪرو</githubRepoLink>۔<localizationFragment>سائيٽ ترجميَ تيَ وڌيڪ جوئوڻ ھارو جوئو</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڙا ڪرڻ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جُملا جمع ڪرڻ نيَ استعمال ڪرڻ ھارو مھورِي رھنمائِي جوئو۔
+about-playbook-how-add-language-collecting-sentences-content-2 = ٿيَ ڪريَ ݾگو ھو<sentenceCollectorLinkAdd>گھٽ تعداد ۾ جُملا شامل ڪرو</sentenceCollectorLinkAdd>،ٿيَ ڪريَ ݾگو ھو<bulkImportDocsLink>گِت ھب نيَ استعمال ڪرتيَ وڏِي تعداد ۾ جملا ليَ آئو</bulkImportDocsLink>۔ياد راکو جُملا ھوڻ کپيَ<licenseLink>CC0  (يا عوامِي ڊومين)</licenseLink>، يا ٿيَ ڊپ لکيَ ݾگو ھو۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جمع جُملون نيَ وڌيڪ جوئو</sentenceCollectorFragment>۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائيٽ لوڪلائيزيشن ڪونڪر ڪوم ڪريَ ھيَ؟
+about-playbook-how-localize-content-1 = ڪامن وائس سائيٽ رو ترجمو تيَ ھوئيَ ھيَ<strong>پونٽون</strong>
 
 ## How to add sentences
 
