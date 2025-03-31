@@ -263,6 +263,7 @@ sr = سيربين
 ss = سِسواتي
 st = جنوبِي سوٿو
 sv-SE = سويڊِش
+sva = سِوان
 sw = سواھِلِي
 syr = سيرياڪ
 ta = تامِل
@@ -321,7 +322,14 @@ privacy = رازداري
 terms = شرطون
 cookies = ڪوڪيز
 faq = ايف اَي قيو
+documentation = دستاويزي (ڪاغزِي)
 content-license-text = مواد ھيٺِي پڙيو ھيَ<licenseLink>ڪريٽو ڪامن لائسنس</licenseLink>
+share-title = مونرِي برادري ۾ شامل ھو
+share-text = مشينون نيَ ݾکَاڻ ۾ مدد ڪرو ڪہ انسون ڪيون ٻوليَ ھيَ، آپرِي آواز ڏيو تي{ $link }
+link-copied = لِنڪ ڪوپِي ھوئو رو
+back-top = واپس ماٿيَ
+logout = لاگ آئوٽ
+donate = چندو، عطيو
 
 ## Donate banner
 
