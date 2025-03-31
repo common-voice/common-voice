@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = <accuracyLink>درسگي ريَ معيار
 about-playbook-how-grow-language = مھيَ ٻولِي نيَ ڪامن وائس تيَ ڪونڪروڌيڪ اسرائتي ٺاھيَ ݾگون ھون؟
 about-playbook-how-grow-language-content-1 = ڪامن وائس ۾ حصو ليڻ ھارو مختلف منکون ھارو موقع پيدا ڪريَ ھيَ تاڪہ مواد سيٽ جِترو ھوئيَ ݾگيَ منکون نيَ فائدو ڏيَ۔ مھون وسيلا ھان تيم پليٽ ٺايا ھون جڪو ٿيَ استعمال ڪريَ ݾگو ھو!
 about-playbook-how-grow-language-content-2 = موقع
+about-playbook-how-grow-language-content-3 = ٿيَ منکون نيَ حصو ليڻ ھارو موقع ڏيَ ݾگو ھو۔اَي ٿونرِي سوچ ھون وڌيڪ آسان ھيَ۔ ٿيَ اَي آن لائن وڊيو ڪانفرنسگ ٽول ھون ڪريَ ݾگو ھو، يا جيَ اَي محفوظ ھيَ تو زاتِي نمونيَ ھون ڪريَ ݾگو ھو۔
+about-playbook-how-grow-language-content-4 = سماجِي ميڊيا
 
 ## How to validate
 

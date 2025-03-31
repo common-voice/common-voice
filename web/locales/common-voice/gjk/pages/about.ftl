@@ -69,6 +69,8 @@ about-playbook-how-add-language-translating-content-1 = پونَ ٽونَ چيم
 about-playbook-how-add-language-translating-content-2 = امين ترجمان ۿارُو موزيلا ٽوُل نين اِستمال ڪريئين سيئين زين نين پونَ ٽونَ ڪيَ سي۔ پونَ ٽونَ مان ڪيٽلِيوُنئين ٻولِيون سي </pontoonLink> پونَ ٽونَ مان پوتا نِي ٻولِي شامِل ڪريا ۿاروو<pontoonRequestLink> ماٿيَ  زو اِي تمارِي نٿِي تو تمين ڌرخواست ڪرِي ۿڳو سو۔ </pontoonRequestLink> اين وانۿين نين عام آواز پروجيڪٽ ماٿيَ ڌستِياٻ ڇا ۿارُو </githubRepoLink>ماٿيَ نوِِي ٻولِي نِي ڌرخواست ڪرو GitHub <githubRepoLink></localizationFragment> سائيٽ نا ترجما ماٿيَ وڌيڪ زووو <localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڳا ڪروا
 about-playbook-how-add-language-collecting-sentences-content-1 = اِستمال ڪريا ماٿيَ امارِي <sentenceCollectorVideo> گائيڍ زوو
+about-playbook-how-add-language-collecting-sentences-content-2 = جُملان نا ننڪا انڳ تمين شامِل <sentenceCollectorLinkAdd> ڪرِي ۿڳو سو۔ </sentenceCollectorLinkAdd> ڪرو</bulkImportDocsLink>  اِستمال ڪرتان ڀلڪيَ ڌرآمڌ يا GitHub<bulkImportDocsLink> تمين ڪرِي ۿڳو سو۔ ڪان وريَ تمين پوتيَ لکِي ۿڳو سو </licenseLink> (عوامِي ڍومينَ) <licenseLink> CC 0 ياد راکو ڪيَ جُملا
+about-playbook-how-add-language-collecting-sentences-content-3 = جُملان نان <sentenceCollectorFragment></sentenceCollectorFragment> مجموئان ماٿيَ وڌارين زوو۔
 
 ## How does localization work
 
