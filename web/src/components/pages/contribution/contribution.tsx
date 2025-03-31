@@ -450,7 +450,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                           </div>
                         ) : null}
                         {sentence?.variant && (
-                          <Tag text={getString(sentence.variant.tag)} />
+                          <Tag text={`${sentence.variant.name} [${sentence.variant.tag}]`} />
                         )}
                       </div>
                     </div>

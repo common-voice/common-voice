@@ -60,9 +60,12 @@ already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 # menu item
 read-sentences = Les setningar
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Les setningar <small>(kjem snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Les setningar, svar på spørsmål
 
 ## MENU ITEM ARIA LABELS
 

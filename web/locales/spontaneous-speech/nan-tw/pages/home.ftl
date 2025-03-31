@@ -13,25 +13,25 @@ why-card-3-text = 會當閣較好支援較少抑是<mark>無文本語料</mark>�
 how-spontaneous-speech-works = 提示性錄音按怎運作
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>提示</mark>
-prompt-bubble-subtitle = 我們將向你顯示一個問題或提示
+prompt-bubble-subtitle = 咱會顯示一個問題抑是提示予你
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>回應</mark>
-respond-bubble-subtitle = 請你用盡可能自然的方式回答
+respond-bubble-subtitle = 請你盡量可能用自然的方式回答
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>轉錄</mark>
 transcribe-bubble-subtitle = 寫下你在錄音中聽到的內容
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>檢查</mark>
-check-bubble-subtitle = 檢查轉錄內容與錄音是否相符
+check-bubble-subtitle = 檢查轉錄內容佮錄音是毋是相符
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>資料</mark>
-data-bubble-subtitle = 我們定期發布資料集
-contact-us = 聯絡我們
-contact-us-title = 有興趣參與此專案，或與我們合作嗎？
+data-bubble-subtitle = 咱定期發布資料集
+contact-us = 佮咱聯絡
+contact-us-title = 敢有興趣參與此專案，抑是佮咱合作？
 contact-us-email = Email：<emailFragment>commonvoice@mozilla.com</emailFragment>
-signup-form-title = 您已經加入 Common Voice 提示性錄音的專案 Beta 測試群組嗎？
-signup-terms = 點擊「傳送鏈結至我的 E-Mail 信箱」代表您同意我們的<termsLink>服務條款</termsLink>與<privacyLink>隱私權保護政策</privacyLink>，Mozilla 可透過電子郵件通知你如何參與提示性錄音專案的 Beta 測試版。
-signup-input-placeholder = 輸入你的郵件地址
+signup-form-title = 您敢欲加入 Common Voice 提示性錄音的專案 Beta 測試群組？
+signup-terms = 點擊「傳送鏈結至我的 E-Mail 信箱」代表您同意咱的<termsLink>服務條款</termsLink>佮<privacyLink>隱私權保護政策</privacyLink>，Mozilla 會當透過電子郵件通知你欲如何參與提示性錄音專案的 Beta 測試版。
+signup-input-placeholder = 輸入你的電子批地址
 signup-button-value = 傳送鏈結到我的信箱
 footer-text-privacy = <privacyLink>隱私權保護</privacyLink>
 footer-text-terms = <termsLink>使用條款</termsLink>

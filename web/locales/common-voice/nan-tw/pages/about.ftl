@@ -2,77 +2,77 @@
 
 about-title = 為何會有 Common Voice？
 about-header-description-v2 =
-    <p>Common Voice 是一套對全世界的社群貢獻事工貢獻，會當公開使用的語音資料集，想欲打造語音應用程式的人會當使用這个資料集來訓練機器學習模型。</p>
-    <p>這馬大部分的語音資料集攏對扼殺創新的大企業所擁有。各種語音資料集嘛過度加強講英語的白人查埔人的語音比例。這代表語音技術根本無法度用佇某麼語言，就算會當使用，嘛無一定對逐家都能有仝款好的效果。咱想欲透過動員世界各角落的人主動分享語音的方式，來扭轉這个現象。</p>
+    <p>Common Voice 是一套對全世界的社群事工貢獻，會當公開使用的語音資料集，想欲打造語音應用程式的人會當使用這个資料集來訓練機器學習模型。</p>
+    <p>這馬大部分的語音資料集攏對扼殺創新的大企業所擁有。各種語音資料集無法度代表無啥代表的有色人種、身心障礙人士、查某人、佮LGBTQI+ 人士。這代表語音技術根本無法度用佇某麼語言，就算會當使用，嘛無一定對逐家都能有仝款好的效果。咱想欲透過動員世界各角落的人主動分享語音的方式，來扭轉這个現象。</p>
 how-does-it-work-title-v2 = Common Voice 的原理是啥？
-how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
+how-does-it-work-text = 咱集合眾人的力量，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是毋是正確的，予資料集會當變較好。
 
 ## How does it work section
 
-about-language-req-subtitle = 某人要求加入一種語言。
+about-language-req-subtitle = 某麼要求加入一種語言。
 about-localization-title = 網站在地化
 about-localization-subtitle = 到 Pontoon 完整翻譯該語言版本。
 about-sentence-collection-title = 收集句子
-about-sentence-collection-subtitle = 收集好能夠讓人錄音的語句。
+about-sentence-collection-subtitle = 收集好會當予人錄音的語句。
 about-new-lang-title = 發布新語言
-about-new-lang-subtitle = 我們讓此語言版本的 Common Voice 網站上線。
+about-new-lang-subtitle = 咱會當予這个語言版本的 Common Voice 網站上線。
 about-voice-contrib-title = 貢獻語音
-about-voice-contrib-subtitle = 有一群人會參與貢獻錄音。
+about-voice-contrib-subtitle = 有一陣人會當參與貢獻錄音。
 about-voice-validation-title = 驗證錄音
-about-voice-validation-subtitle = 有另一群人會參與驗證這些錄音片段。
+about-voice-validation-subtitle = 有另外一陣人會參與驗證這錄音片段。
 about-dataset-release-title = 發布資料集
-about-dataset-release-subtitle = 我們每 3 個月發布一次資料集。
-about-subscribe-text = 想要與 Common Voice 保持聯繫嗎？
+about-dataset-release-subtitle = 咱逐 3 個月發布一改資料集。
+about-subscribe-text = 敢想欲佮 Common Voice 保持聯繫？
 about-speak = 講話
-about-speak-text = 貢獻者透過讀出一系列由他人捐贈的語料庫句子，將語音片段錄音下來。
-about-listen-queue = 聆聽佇列
-about-listen-queue-text = 錄下的片段將進入佇列中排隊，準備接受聆聽確認。
-about-listen = 聆聽確認
-about-listen-text = 使用者確認錄音片段是否精準，並確認說話者是否正確讀出了句子。
-about-is-it-valid = 片段正確嗎？
-about-is-it-valid-text = 若使用者投下「正確」，就會標示為有效。
-about-yes-votes = ≥ 2 張「正確」票
-about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
-about-no-votes = ≥ 2 張「不正確」票
-about-no-votes-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
+about-speak-text = 貢獻者透過唸出一系列由別人捐贈的語料庫句仔，共語音片段錄音落來。
+about-listen-queue = 向耳聽排隊
+about-listen-queue-text = 錄落來的片段將進入排隊，準備接受向耳聽確認。
+about-listen = 向耳聽確認
+about-listen-text = 使用者確認錄音片段是毋是精確，並確認講話者是毋是正確唸出句仔。
+about-is-it-valid = 片段敢正確？
+about-is-it-valid-text = 若是使用者投下「正確」，就會標示是有效。
+about-yes-votes = ≥ 2 張「正確」的票
+about-yes-votes-text = 必須經過兩位無仝的使用者確認過，片段才會進入 Common Voice 資料集。
+about-no-votes = ≥ 2 張「無正確」的票
+about-no-votes-text = 若是使用者投落無正確，片段就會轉到排隊。若是予退轉去第二改，片段就會予擲入去回收桶。
 about-dataset-new = Common Voice 資料集
-about-dataset-new-text = Common Voice 資料集包含數十萬筆語音樣本，可幫助開發者打造語音識別工具。
+about-dataset-new-text = Common Voice 資料集包括數十萬筆語音樣本，會當幫贊開發者打造語音識別家私。
 about-clip-graveyard = 片段回收桶
-about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
-about-get-involved = 參與我們
+about-clip-graveyard-text = 回收桶中包括無法度進入 Common Voice 資料集的語音片段。佮資料集仝款，回收桶內容嘛有提供下載。
+about-get-involved = 參與咱
 about-get-involved-text-2 =
-    想要幫忙讓 Common Voice 變得更棒嗎？
-    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink>
-    討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
-    或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
-about-stay-in-touch = 我要如何與你們保持聯繫？
-about-stay-in-touch-button = 註冊
-about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我們的郵件群組，瞭解可以參加哪些活動、並一同參與 Common Voice 的功能設計。
-about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 來認識 Mozilla 各語言社群的成員並進行對話，或是加入 <matrixLink>Matrix</matrixLink> 來獲得快速建議。
+    想欲幫贊予 Common Voice 變甲較好？
+    無問題！請寄 E-Mail 予咱，嘛會當到 <discourseLink>Discourse</discourseLink>
+    討論區留話、透過 <githubLink>GitHub</githubLink> 回報網站問題、
+    抑是加入咱的 <matrixLink>Matrix</matrixLink> 社群開講空間。
+about-stay-in-touch = 我欲如何佮恁保持聯絡？
+about-stay-in-touch-button = 注文
+about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>咱的電子批群組，瞭解會當參加佗一个活動、並且鬥陣參與 Common Voice 的功能設計。
+about-stay-in-touch-text-2 = 您會當加入 <discourseLink>Discourse</discourseLink> 來認捌 Mozilla 各各語言社群的成員並且進行對話，抑是加入 <matrixLink>Matrix</matrixLink> 來得著快速的建議。
 about-nav-why-common-voice = 為啥物？
 about-nav-how-it-works = 安怎做？
 about-nav-partners = 夥伴
 about-nav-get-involved = 做伙參與
-about-nav-how-it-works-2 = Common Voice 的原理是什麼？
-about-nav-playbook = 了解如何參與
+about-nav-how-it-works-2 = Common Voice 的原理是啥物？
+about-nav-playbook = 了解愛如何參與
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = Common Voice 如何列出語言？
-about-playbook-what-is-language-content-1 = 不同領域對語言有不同的定義。對語音識別模型來說，Common Voice 建議您著重於「相互理解性」，或是「使用這種語言的人嘗試理解對方的話，他們是否真能相互理解？」
-about-playbook-what-is-language-content-2 = 我們想讓語音模型能夠更加包容不同的說話者，所以我們希望語音資料集能夠反映出各種多樣化的聲音。
-about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法、詞彙、發音差異。因此，我們自 2022 年起<ctaLink>引入了「變體」的概念</ctaLink>。讓各社群能夠在完整的資料集中更精準地分辨出各種語言。
+about-playbook-what-is-language-content-1 = 無仝領域對語言有無仝的定義。對語音識別模型來講，Common Voice 建議您愛重視「相互理解性」，抑是「使用這種語言的人試看覓理解對方的話，𪜶到底會當相互理解？」
+about-playbook-what-is-language-content-2 = 咱想欲予語音模型會當閣較包容無仝的講話者，所以咱希望語音資料集會當反映各種濟濟的聲音。
+about-playbook-what-is-language-content-3 = 某麼語言有各種無仝的文法、詞彙、發音精差。因此，咱對 2022 年的時<ctaLink>引入「變體」的概念</ctaLink>。予各社群會當佇完整的資料集中閣較精準分辨出各種語言。
 
 ## How do I add a language
 
-about-playbook-how-add-language = 要如何加入語言？
-about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
+about-playbook-how-add-language = 愛如何加入語言？
+about-playbook-how-add-language-content-1 = 頭起先請先確認您的語言是毋是<languageLink>已經有存在矣</languageLink>。若是猶無存在的款，請<strong>共網站翻譯變成您的語言，並且收集語句</strong>。
 about-playbook-how-add-language-translating-heading = 翻譯這个網站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀看 Pontoon 的使用教學。</translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = 我們使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的工具進行介面翻譯。Pontoon 已經支援許多語言，但若沒有您使用的語言，可以<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言後，請<githubRepoLink>到 GitHub 請求加入新語言</githubRepoLink>，Common Voice 方可支援。<localizationFragment>若需更多有關網站介面翻譯的資訊，請點此處</localizationFragment>。
+about-playbook-how-add-language-translating-content-2 = 咱使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的家私進行介面翻譯。Pontoon 已經支援濟濟語言，若是無您使用的語言，會當佇<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言了後，請<githubRepoLink>到 GitHub 請求加入新的語言</githubRepoLink>，Common Voice 才會當支援。<localizationFragment>若是需閣較濟有關網站介面翻譯的資訊，請揤這个所在</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看我們的 Sentence Collector 使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看咱的 Sentence Collector 使用指南</sentenceCollectorVideo>。
 about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
 
@@ -142,5 +142,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>更加了解�
 
 about-playbook-how-funded = Common Voice 的運作資金來自哪裡？
 about-playbook-how-funded-content-1 = Common Voice 是美國 501c3 型式的 Mozilla 基金會的專案，這馬是用通世界人民捐款的<philantropicGrantLink>philanthropic 資金</philantropicGrantLink>來支持的。
-about-playbook-how-funded-content-2 = 我們花費大量費用以持續提供與釋出資料集、改善本平台，並且執行 <africaMradiLink>社群專案</africaMradiLink>。
+about-playbook-how-funded-content-2 = 咱開大量費用來順紲提供佮釋出資料集、改善這个平台，並且執行 <africaMradiLink>社群專案</africaMradiLink>。
 about-playbook-how-funded-content-3 = 若你或你的組織想要回饋此專案，你可以 <donateLink>直接捐款</donateLink>，或寄信到 <emailFragment>commonvoice@mozilla.com</emailFragment> 聯繫我們的合作團隊。

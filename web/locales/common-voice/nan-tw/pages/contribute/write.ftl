@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = 寫句子
+write = 寫落句
 write-instruction = 加入 <icon></icon> 公眾領域的句子
 write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可公開取得的資料集內。
 sentence =
