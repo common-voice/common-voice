@@ -106,6 +106,14 @@ domain-explanation = 「領域」指的是語句的主旨。目前可以選擇�
 
 ## Question collection ids
 
+adding-questions = 加入問題
 
 ## Question collection sidebar content
 
+easy-to-understand = 簡單易懂
+spelling-and-pronunciation = 拼字與標點符號
+spelling-and-pronunciation-explanation = 使用正確的拼寫與符合文法。
+length = 長度
+dont-add-subheader = 不要加入
+culturally-specific-questions = 文化相關問題
+example-questions-subheader = 問題範例
