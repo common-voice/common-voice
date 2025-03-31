@@ -138,3 +138,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = Fragen wêrb
 offensive-content-sensitive-information-explanation-explanation-2 = Fragen dy’t oansette kinne ta haat of oare befoaroardiele of beledigjende gefoelens
 offensive-content-sensitive-information-explanation-explanation-3 = Fragen dy’t derfoar soargje kinne dat ien gefoelige, mooglik aktivearjende antwurden dielt
 example-questions-subheader = Foarbyldfragen
+example-questions-explanation-1 = Jo fine <examplePromptsLink>120 foarbyldprompts yn dit blêd.</examplePromptsLink>
+example-questions-explanation-2 = As jo in rige fragen foar opname yntsjinje wolle, kinne jo <githubLink>dit dwaan fia ús GitHub</githubLink> of jo list e-maile nei <emailFragment>commonvoice@mozilla.com.</emailFragment>

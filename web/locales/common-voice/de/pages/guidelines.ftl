@@ -3,6 +3,7 @@ guidelines-header = Leitfaden für Mitwirkende
 guidelines-header-subtitle = Verstehen Sie, wie Sie Sätze und Audioclips zum Common-Voice-Datensatz beitragen und bewerten können
 voice-collection = Stimmensammlung
 sentence-collection = Satz-Sammlung
+question-collection = Fragensammlung
 
 ## Voice Collection nav ids
 
@@ -116,6 +117,18 @@ domain-explanation = Mit „Thema“ ist das Thema des Satzes gemeint. Derzeit k
 
 ## Question collection ids
 
+adding-questions = Fragen hinzufügen
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Wie sieht eine gute Frage aus?
+what-makes-a-good-question-explanation = Eine gute Frage für Datensätze zur Öffentlichkeitsarbeit sollte:
+what-makes-a-good-question-explanation-criteria-1 = Einfach zu verstehen und zu beantworten sein
+what-makes-a-good-question-explanation-criteria-2 = Allgemein relevant sein
+what-makes-a-good-question-explanation-criteria-3 = Keine schädliche oder anstößige Sprache verwenden
+what-makes-a-good-question-tip = Sie können auch erwägen, verschiedene Kontexte und Bereiche zu umfassen.
+easy-to-understand = Einfach zu vertehen
+easy-to-understand-explanation = Wählen Sie einfache Fragen, die für jeden leicht zu verstehen sind, unabhängig von Kultur oder Kontext.
+spelling-and-pronunciation = Rechtschreibung und Zeichensetzung
+spelling-and-pronunciation-explanation = Verwenden Sie korrekte Rechtschreibung und Grammatik.
+length = Länge
