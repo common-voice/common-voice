@@ -3,6 +3,7 @@ guidelines-header = Pokyny pro přispěvatele
 guidelines-header-subtitle = Zjistěte, jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
 voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
+question-collection = Sbírka otázek
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,9 @@ domain-explanation = Zařazení se vztahuje k předmětu věty. V současné dob
 
 ## Question collection ids
 
+adding-questions = Přidávání otázek
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Co je dobrá otázka?
+what-makes-a-good-question-explanation = Dobrá otázka pro datasety o zapojení veřejnosti by měla:
