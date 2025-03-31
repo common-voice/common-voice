@@ -110,6 +110,12 @@ domain-explanation = Domein verwijst naar het onderwerp van de zin. Momenteel ku
 
 ## Question collection ids
 
+adding-questions = Vragen toevoegen
 
 ## Question collection sidebar content
 
+easy-to-understand = Eenvoudig te begrijpen
+easy-to-understand-explanation = Kies eenvoudige vragen die voor iedereen gemakkelijk te begrijpen zijn, ongeacht cultuur of context.
+spelling-and-pronunciation = Spelling en interpunctie
+spelling-and-pronunciation-explanation = Gebruik correcte spelling en grammatica.
+length = Lengte
