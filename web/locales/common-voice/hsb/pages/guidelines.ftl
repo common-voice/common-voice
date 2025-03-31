@@ -115,6 +115,7 @@ easy-to-understand = Lochko rozumić
 spelling-and-pronunciation = Prawopis a interpunkcija
 spelling-and-pronunciation-explanation = Wužiwajće korektny prawopis a korektnu gramatiku.
 length = Dołhosć
+length-explanation = Na prašenje měło so w jenož mało sadach wotmołwić dać.
 dont-add-subheader = Njepřidać
 culturally-specific-questions = Za kulturu specifiske prašenja
 process-steps = Proces / Kroki
