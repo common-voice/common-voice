@@ -118,9 +118,12 @@ about-playbook-how-validate-content-4 = جيَ ڪلِپ 2 منکون رِي طر
 ## How to access dataset
 
 about-playbook-how-access-dataset = ھون مواد رَي سيٽ تائين ڪونڪر رسيَ ݾگون ھون ھان استعمال ڪريَ ݾگون ھون؟
+about-playbook-how-access-dataset-content-1 = ٿيَ جائيَ ݾگو ھو<datasetsPage>مواد رَي پيج</datasetsPage>قسم ھان ٻولِي يا ٻوليَ چونڊوجڪو ٿيَ چاھو ھو، ھان اوئيَ نيَ ڊائون لوڊ ڪرو!فائلون ڪوڊِي<metadataLink>ميٽا ڊيٽا ھون جڙوڙي ھيَ</metadataLink>، جون ڊيموگرافڪ معلومات ھان تصديقي مواد۔ ٿونيَ اي ميل پتيَ رِي ضرورت ھيَ مواد رَي سيٽ نيَ ڊائون لوڊ ڪرڻ ھارو
+about-playbook-how-access-dataset-content-2 = جيَ ٿيَ اَي ايس آر رو نمونو ٺاڻ ھارو اوزار جوئو پڙيا تو ٿيَ برادري ۾ ٻيجيَ منکون ۾ گڏيجيَ ݾگو ھو۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجيڪٽ را فيصلا ڪونڪر ليَ ھيَ؟
 
 ## How is Common Voice funded
 
