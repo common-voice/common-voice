@@ -25,6 +25,15 @@ about-dataset-release-subtitle = امين ڍيٽا سيٽ نين هر 3 مئين
 about-subscribe-text = ڪامنَ وائيس ٿِي راٻطا مان ريوا ماڳيئين سيئين۔
 about-speak = ٻولو
 about-speak-text = مۮت ڪريا واران ۮانَ ڪرل جُملان نِي ڀينڪ مان ڀڻيئيَ ٿِي وائيس ڪِلپ رِڪارڍ ڪريَ سي۔
+about-listen-queue = ۿانڀرو-قطار
+about-listen-queue-text = وائيس ڪِلپس جمع ڪرل قطار مان داخل ڪريان جھان سي زين اين نين ۿانڀرِيا ۿارُو ڀڻيَ سي۔
+about-listen = ۿانڀرو
+about-listen-text = صارڦينين عطِيو ڪرل ڪِلپس نِي ڌُرستڳِي نِي تصۮيق ڪرِي، چيڪ ڪرو، ڪي ٻوليا وارون اِي جُملا نين سئِي ڀڻيَ سي؟
+about-is-it-valid = شون ڪِلپ سئِي سي؟
+about-is-it-valid-text = ايڪ وائيس ڪِلپ نين "ڌُرست" نِشانَ لڳايون زائيَ سي، زيرين ايڪ صارِڦ انين هوويَ نون ووٽ ڄيَ سي۔
+about-yes-votes = هوَ ووٽ 2
+about-yes-votes-text = اين نين ڪامنَ وائيس ڍيٽاسيٽ مان لئِي آيا ۿارُو ايڪ وائيس ڪِلپ نين ٻيَ الڳ الڳ اِستمال ڪريا ٿِي تصۮيق ڪراوون زويئين۔
+about-no-votes = ووٽ نا 2
 
 ## Community Playbook Content
 ## What is a language
