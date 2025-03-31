@@ -77,9 +77,12 @@ about-playbook-how-localize-content-1 = ڪامن وائس سائيٽ رو ترج
 about-playbook-how-localize-content-2 = <pontoonAccountLink>اڪائونٽ ٺائو</pontoonAccountLink>جيَ ٿون ڪوڊِي ڪونھِي۔ پڇيَ، آپ رِي ٻولِي چونڊو(‘ٽيم’)</strong>ھان پڇيَ پروجيڪٽ چونڊو،<pontoonCvLink>ڪامن وائس</pontoonCvLink>۔اوٿ ترجميَ ھارو فائلون ھوھيَ۔ھيڪِي تيَ ڪلِڪ ڪرو، پڇيَ او انگريزي را اکر ڏيکاڙ ھيَ ھان ترجميَ ھارو ھيڪ ڏٻو اوئون نيَ ترجمو ڪرڻ ھارو۔
 about-playbook-how-localize-content-3 = ترجمو انگريزي ۾ ھيَ،پر ٿيَ جوئيَ ݾگو ھو۔ ٻيجيَ ٻوليون تيَ ڪلِڪ ڪرو</strong>مشورا<strong>لنڪ ھان</strong>سيٽنگون<strong>آئڪون، پڇيَ</strong>پروفائل<strong>شامل ڪرو جڪو ڀِي ٻوليَ ٿيَ ٻولو ھو۔ ٿونريَ سِڌيَ ھات تيَ ڪُنڊ ۾ ترجمون رِي ھيڪ فھرست ڪھيو ھيَ۔ترجمو ھيڪ ڏِن ھون</strong> ھوتيَ جِڪيَ نيَ پڇيَ سائيٽ تيَ ڏيکاݪيَ ھيَ۔
 about-playbook-how-localize-content-4 = سائيٽ شروع ھوڻ ھارو تيار ھيَ جڏيَ 75 سيڪڙو پورِِي ھوئيَ جائيَ
+about-playbook-how-localize-content-5 = مدد ھارو مھورو تفصيلِي وڊيو جونچو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ھُون جُملون نيَ ڪونڪر شامل ڪرون؟
+about-playbook-how-add-sentences-content-1 = ٿيَ جُملون نيَ شامل ڪريَ ݾگو ھو تيَ<writePageLink>پنو لِکو</writePageLink>يا تيَ جُملون رو جائزو ليو<reviewPageLink>پنيَ رو جائزو ليو</reviewPageLink>۔
 
 ## How to record quality
 
