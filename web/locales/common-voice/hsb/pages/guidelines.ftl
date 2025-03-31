@@ -106,3 +106,7 @@ adding-questions = Prašenja přidać
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Što dobre prašenje twori?
+what-makes-a-good-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = so lochko rozumić a na so wotmołwić
+what-makes-a-good-question-explanation-criteria-2 = powšitkownje relewantne być
