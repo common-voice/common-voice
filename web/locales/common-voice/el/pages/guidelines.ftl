@@ -3,6 +3,7 @@ guidelines-header = Οδηγίες συνεισφοράς
 guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισφοράς και επικύρωσης των προτάσεων και των ηχητικών αποσπασμάτων στο σύνολο δεδομένων του Common Voice
 voice-collection = Συλλογή φωνών
 sentence-collection = Συλλογή προτάσεων
+question-collection = Συλλογή ερωτήσεων
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,12 @@ domain-explanation = Ο τομέας αναφέρεται στο θέμα της
 
 ## Question collection ids
 
+adding-questions = Προσθήκη ερωτήσεων
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+spelling-and-pronunciation = Ορθογραφία και στίξη
+dont-add-subheader = Να μη γίνει προσθήκη
+process-steps = Διαδικασία/Βήματα
+example-questions-subheader = Παραδείγματα ερωτήσεων
