@@ -8,6 +8,7 @@ import Page from '../../ui/page'
 import PageHeading from '../../ui/page-heading'
 import VoiceSidebarContent from './sidebar-content/voice-sidebar-content'
 import SentenceSidebarContent from './sidebar-content/sentence-sidebar-content'
+import { QuestionSidebarContent } from './sidebar-content/question-sidebar-content'
 import RoundButton from '../../ui/round-button'
 import { DiscourseIconCode, MailIcon } from '../../ui/icons'
 import VisuallyHidden from '../../visually-hidden/visually-hidden'
@@ -68,7 +69,7 @@ const Guidelines = () => {
         <Tabs selectedIndex={selectedTabIndex} onSelect={handleOnTabSelect}>
           <div className="tablist-wrapper">
             <TabList className="tablist">
-              <Tab selectedClassName="selected-tab" className="tab first-tab">
+              <Tab selectedClassName="selected-tab" className="tab">
                 <Link to={`${guidelinesRoute}?tab=voice`} className="tab-link">
                   <Localized id="voice-collection" />
                 </Link>
@@ -78,6 +79,13 @@ const Guidelines = () => {
                   to={`${guidelinesRoute}?tab=sentence`}
                   className="tab-link">
                   <Localized id="sentence-collection" />
+                </Link>
+              </Tab>
+              <Tab selectedClassName="selected-tab" className="tab">
+                <Link
+                  to={`${guidelinesRoute}?tab=question`}
+                  className="tab-link question-collection">
+                  <Localized id="question-collection" />
                 </Link>
               </Tab>
             </TabList>
@@ -147,6 +155,27 @@ const Guidelines = () => {
               <SentenceSidebarContent />
             </div>
           </TabPanel>
+          <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
+            <nav>
+              <ul>
+                <li>
+                  <div className="line" />
+                  <Link
+                    to={{
+                      pathname: location.pathname,
+                      hash: '#adding-questions',
+                      search: `?tab=question`,
+                    }}
+                    className="selected-option">
+                    <Localized id="adding-questions" />
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+            <div className="sections">
+              <QuestionSidebarContent />
+            </div>
+          </TabPanel>
         </Tabs>
       </section>
       <section className="contact-section">
@@ -167,6 +196,13 @@ const Guidelines = () => {
                 elems={{
                   discourseLink: <DiscourseLink />,
                   matrixLink: <MatrixLink />,
+                  discordLink: (
+                    <a
+                      href="https://discord.gg/4TjgEdq25Y"
+                      target="_blank"
+                      rel="noreferrer"
+                    />
+                  ),
                 }}>
                 <span />
               </Localized>
