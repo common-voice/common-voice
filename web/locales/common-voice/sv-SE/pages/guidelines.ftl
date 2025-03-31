@@ -3,6 +3,7 @@ guidelines-header = Riktlinjer för bidrag
 guidelines-header-subtitle = Förstå hur du bidrar med och validerar meningar och ljudklipp till Common Voice-datamängd
 voice-collection = Insamling av röster
 sentence-collection = Insamling av meningar
+question-collection = Frågesamling
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = Domän avser innehållet för meningen. För närvarande ka
 
 ## Question collection ids
 
+adding-questions = Lägga till frågor
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Vad gör en fråga bra?
+what-makes-a-good-question-explanation = En bra fråga för datamängder för allmänheten bör:
+what-makes-a-good-question-explanation-criteria-1 = Vara lätt att förstå och besvara
+what-makes-a-good-question-explanation-criteria-2 = Var allmänt relevant
+what-makes-a-good-question-explanation-criteria-3 = Använd inte eller uppmana till, skadligt eller kränkande språk
+what-makes-a-good-question-tip = Du kanske också vill överväga att spänna över olika sammanhang och domäner.
+easy-to-understand = Lätt att förstå
+easy-to-understand-explanation = Välj enkla frågor som är lätta för alla att förstå, oavsett kultur eller sammanhang.
+spelling-and-pronunciation = Stavning och skiljetecken
+spelling-and-pronunciation-explanation = Använd korrekt stavning och grammatik.
+length = Längd
+length-explanation = Frågan bör besvaras på bara ett par meningar.
+dont-add-subheader = Lägg inte till
+culturally-specific-questions = Kulturspecifika frågor
+culturally-specific-questions-explanation = Frågor som är mycket kulturellt specifika eller gör många antaganden om den som svarat
+length-avoid-explanation = Frågor som någon skulle kämpa för att svara på inom 15 sekunder (maxlängd för klipp)
+process-steps = Process / Steg
+process-steps-explanation = Frågor som kräver att någon listar flera steg.  Listningssteg uppmanar användaren att recitera ett svar snarare än ett mer naturligt svar.
+offensive-content-sensitive-information = Stötande innehåll eller känslig information
+offensive-content-sensitive-information-explanation-explanation-1 = Frågor som kan begära personlig identifierbar information
+offensive-content-sensitive-information-explanation-explanation-2 = Frågor som kan efterfråga hatretorik eller andra partiska eller kränkande känslor
+offensive-content-sensitive-information-explanation-explanation-3 = Frågor som kan få någon att dela med sig av känsliga, potentiellt utlösande svar
+example-questions-subheader = Exempelfrågor
+example-questions-explanation-1 = Du kan hitta <examplePromptsLink>120 exempelprompter i det här bladet.</examplePromptsLink>
+example-questions-explanation-2 = Om du vill skicka in en del av frågor för inmatning kan du <githubLink>göra det via vår GitHub</githubLink> eller mejla din lista till <emailFragment>commonvoice@mozilla.com.</emailFragment>
