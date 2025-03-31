@@ -41,6 +41,13 @@ about-get-involved = ايئيَ ۾ شامل ھو
 about-get-involved-text-2 = ڪِي ٿيَ ڪامن وائس نيَ اڃون ڀِي ٺائوڪو ٺاڻ چاھو ھو؟ ٺائوڪو! اِي ميل ريَ زريعيَ رابطو ڪرو<discourseLink>ڊسڪورس</discourseLink>فورمز،زريعيَ سائيٽ را مسئلا جمع ڪرائو <githubLink>گِٽ ھب</githubLink>يا شامل ھو<matrixLink>ميٽرڪس</matrixLink>برادري ٻول چال
 about-stay-in-touch = ھُون ڪونڪر رابطيَ ۾ رھيَ ݾگون ھون؟
 about-stay-in-touch-button = سائن اپ ڪرو
+about-stay-in-touch-text-1 = <emailFragment>سائن اپ</emailFragment> ڪامن وائس ريَ مُھيمون، واقعون ھان ھيڪ جيڙيَ خاصيتون ۾ حصو ليڻ ھارو مھوريَ ميلنگ لسٽ جوئو
+about-stay-in-touch-text-2 = ٿيَ موزيلا رِي ٻوليون رِي برادرِي ۾ شامل ھوئيَ ٻيجون ھون ملَي ݾگو ھو<discourseLink>ڊسڪورس</discourseLink>عنوانِي ٻول چال ھارو، يا<matrixLink>ميٽرڪس</matrixLink>ڇيڪيَ صلاح ھارو۔
+about-nav-why-common-voice = ڪيون؟
+about-nav-how-it-works = ڪونڪر؟
+about-nav-partners = حصہ دار
+about-nav-get-involved = ايئيَ ۾ شامل ھو
+about-nav-how-it-works-2 = ڪومن وئِيس ڪونڪر ڪوم ڪريَ هَي؟
 
 ## Community Playbook Content
 ## What is a language
