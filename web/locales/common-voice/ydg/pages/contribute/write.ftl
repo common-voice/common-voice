@@ -4,8 +4,12 @@ write = نوشا
 write-instruction = دے عام آدمف دائرو<icon></icon> جملو شامل کن
 sentence =
     .label = جملو
-sentence-input-placeholder = پے عام آدمف دیر جملو مولو نوشا
-small-batch-sentence-input-placeholder = پے عام آدمف دیر جملغّے مولو نوشا
+sentence-input-placeholder = دے عام آدمف دائرو جملو مولو نوشا
+small-batch-sentence-input-placeholder = دے عام آدمف دائرو جملغّے مولو نوشا
+citation-input-placeholder = ڤے خوئے جملغف حوالو دل (ضروری)
+citation =
+    .label = حوالو
+sc-review-write-title = زو چے جملغّے شامل کڑا کرکینیمآ؟
 
 ## BULK SUBMISSION
 
