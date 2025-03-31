@@ -110,6 +110,7 @@ about-playbook-how-grow-language-content-8 = <strong>ليو!</strong> ٿونرِ
 ## How to validate
 
 about-playbook-how-validate = مھنيَ ڪونڪر خبر پڙھيَ ڪہ آواز رِي ڪلِپ منظور ڪرڻ کپيَ يا نا؟
+about-playbook-how-validate-content-1 = جيَ ٿيَ ھونڀڙيَ ݾگو <strong>اوئون نيَ ھونڀڙو</strong>ھان<strong>اوئون نيَ ݾمجو</strong>اَي عام ھيَ<strong>منظور ڪرڻ ھارو بھترين ھيَ</strong>۔
 
 ## How to access dataset
 
