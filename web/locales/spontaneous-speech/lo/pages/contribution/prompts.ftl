@@ -1,5 +1,6 @@
 ## Prompts page
 
+record-player-header = ບັນທຶກຄໍາຕອບຂອງທ່ານ
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ແລະ ຕອບສະໜອງຢ່າງເປັນທຳມະຊາດເທົ່າທີ່ທ່ານສາມາດເຮັດໄດ້
 no-prompts-message = ໃນປັດຈຸບັນບໍ່ມີການເຕືອນສໍາລັບພາສານີ້. ກະລຸນາໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼື ລອງໃໝ່ໃນພາຍຫຼັງ.
