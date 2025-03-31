@@ -134,5 +134,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = Frågor som 
 offensive-content-sensitive-information-explanation-explanation-2 = Frågor som kan efterfråga hatretorik eller andra partiska eller kränkande känslor
 offensive-content-sensitive-information-explanation-explanation-3 = Frågor som kan få någon att dela med sig av känsliga, potentiellt utlösande svar
 example-questions-subheader = Exempelfrågor
-example-questions-explanation-1 = Du kan hitta <examplePromptsLink>120 exempelprompter i det här bladet.</examplePromptsLink>
-example-questions-explanation-2 = Om du vill skicka in en del av frågor för inmatning kan du <githubLink>göra det via vår GitHub</githubLink> eller mejla din lista till <emailFragment>commonvoice@mozilla.com.</emailFragment>
+example-questions-explanation-1 = Du kan hitta <examplePromptsLink>120 exempelmeddelanden i det här bladet.</examplePromptsLink>
+example-questions-explanation-2 = Om du vill skicka in en del frågor för inmatning kan du <githubLink>göra det via vår GitHub</githubLink> eller mejla din lista till <emailFragment>commonvoice@mozilla.com.</emailFragment>
