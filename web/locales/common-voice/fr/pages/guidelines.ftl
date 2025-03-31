@@ -109,3 +109,7 @@ domain-explanation = Le domaine fait référence au sujet de la phrase. Actuelle
 
 ## Question collection sidebar content
 
+easy-to-understand-explanation = Choisir des questions simples et compréhensibles par tout le monde, quels que soient la culture ou le contexte.
+spelling-and-pronunciation = Orthographe et ponctuation
+spelling-and-pronunciation-explanation = L’orthographe et la grammaire doivent être correctes.
+length = Longueur
