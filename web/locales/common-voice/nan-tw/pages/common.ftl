@@ -286,7 +286,7 @@ email-input =
 loading = 佇咧載落…
 email-opt-in-info = 我希望會當收著一寡電子批，比論講目標提醒、我的進度更新、同聲計畫的相關資訊。
 email-opt-in-info-title = 加入 Common Voice 的電子批討論群
-email-opt-in-info-sub-with-challenge = 來定電子批，比論講挑戰、目標提醒、進度更新、同聲計畫的相關資訊。
+email-opt-in-info-sub-with-challenge = 來訂電子批，比論講挑戰、目標提醒、進度更新、同聲計畫的相關資訊。
 email-opt-in-privacy-v2 = 若欲收電子批，就表示你同意 Mozilla 照<privacyLink>隱私權保護政策</privacyLink>所說明的方式來處理遮的資訊。
 indicates-required = * 表示彼个欄位必須愛寫
 not-available-abbreviation = 無適用
@@ -296,9 +296,9 @@ not-available-abbreviation = 無適用
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = 我們每年花費將近百萬美元以託管資料集及改善平台，以服務來自一百多個不同語言的社群。<strong>若您也相信資料開放與包容的價值，今天就立刻捐款！</strong>
+donate-banner-cta-explanation = 咱逐年花費倚近百萬美元來託管資料集佮改善平台，來服務來自一百多个不同語言的社群。<strong>若是您嘛相信資料開放佮包容的價值，今仔日就連鞭捐款！</strong>
 # Text wrapped in <mark></mark> will have a white background.
-languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
-languages-donate-banner-cta-explanation = Common Voice 是由捐款和補助金資助！我們非常樂於與學術界、公民社會和產業研究人員合作。Common Voice 可免費使用，但如能通過補助金提案來為平台和托管費用做出貢獻，將會非常有幫助。
+languages-donate-banner-cta = <mark>您的研究</mark><br/><mark>敢有使用 CV ？</mark>
+languages-donate-banner-cta-explanation = Common Voice 是由捐款和補助金資助！咱非常歡迎佮學術界、公民社會佮產業研究人員合作。Common Voice 會當免費使用，毋過若是會當透過補助金提案來為平台佮托管費用做出貢獻，將會非常有幫助。
 localization-select =
     .label = 選擇語言 / 語系

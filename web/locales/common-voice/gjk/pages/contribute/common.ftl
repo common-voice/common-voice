@@ -1,42 +1,42 @@
 action-click = ۮٻاوون (ڪلڪ ڪروون)
-action-tap = ٿپٿپاوون
+action-tap = ٽيپ ڪرو
 contribute = حصو ليوو
-review = جائزو ليوون
-skip = ميلي ۮيوون
-shortcuts = شاٽ ڪٽ (ٿوڙا ٽيم مان جلڌي ترقي ڪروِي)
+review = جائزو ليوو
+skip = ميلي ڄو
+shortcuts = شارٽ ڪٽ
 clips-with-count-pluralized =
     { $count ->
-        [one] ڪلپ
-       *[other] ڪلپ (ايڪ ڪلپ ڪنڍا نين پڻ ڪي سي انين ايڪ ڪلپ ويڍيو نا ننڪا حصا نين پڻ ڪي سي)
+        [one] <bold>{ $count }</bold>ڪِلپ
+       *[other] <bold>{ $count }</bold>ڪِلپان
     }
-goal-help-recording = تمين عام آواز مان <goalPercentage> اماري روز </goalPercentage>رڪارڍينگ نا ٽارگيٽ مان مۮت ڪري سي<goalPercentage>!
-goal-help-validation = تمين عام آواز مان <goalPercentage> </goalPercentage>  امارا روز نا ٽارگيٽ نين { $goalValue }کاتري ڪريا مان مۮت ڪرو سو!
+goal-help-recording = تمين عام آواز مان <goalPercentage> اماري روز نِي </goalPercentage>رڪارڍينگ نا مقصۮ ۿوُڌِِي پوڄا مان امارِي مۮت ڪري سي<goalPercentage>!
+goal-help-validation = تمين عام آواز مان <goalPercentage> </goalPercentage>  امارا روز نا تصڌيق وارا مقصۮ ۿوُڌِي پوڄا مان { $goalValue }امارِي مۮت ڪرِي سيَ!
 contribute-more =
     { $count ->
         [one] گھڻو { $count }ڪريا ۿارُو تيار
        *[other] گھڻو { $count }ڪريا ۿارُو تيار
     }
 speak-empty-state = آ ٻولي مان رڪارڍينگ ڪريا ۿارُو امان ڪنين جملا کتم ٿئي جھا سي۔۔۔۔
-no-sentences-for-variants = ٿئي ۿڳي سي ڪي تماري ٻولي مان جملا ختم ٿئي جا ھوئي! زو تمين چاھو سو تو، تمين پوتا نيون سيٽيگون تبديل ڪرين پوتا ني ٻولي مان وڌيڪ جملا زوئي ۿڳو سو۔
-speak-empty-state-cta = جملان نين شامل ڪرو
-speak-loading-error = امين تمارا ٻوليا ۿارُو ڪونئين پڻ جملو حاصل نٿِي ڪري ۿڳتا۔ ميرٻاني ڪرين ٿوريڪ وار وانۿين وري ڪوشيش ڪرو۔
-record-button-label = پوتا نو آواز رڪورڍ ڪرو
-share-title-new = <bold>اماري مدد ڪرو</bold> وڌيڪ آوازون ڳوچا مان۔
-keep-track-profile = پوتا ني ترقي نو حساٻ راڇا ۿارُو ايڪ پروفائيل ٺاۿو۔
-login-to-get-started = شروع ڪريا ۿارُو لوگن ڪان سائين اپ ڪرو
-target-segment-first-card = تمين امارا پھريا گول وارا حصا مان حصو ليو سو ريا۔
-target-segment-generic-card = تمين گول وارا حصا مان حصو ليو سوريا
-target-segment-first-banner = آم آواز نا پھريا گول ٺاھيا مان ڀاڳ ليو۔{ $locale }
+no-sentences-for-variants = ٿئي ۿڳي سي ڪي تماري ٻولي مان جملا ختم ٿئي جا ھوئي! زو تمين چاۿو سو تو، تمين سيٽينڳ تٻۮيل ڪرينَ پوتا ني ٻولي مان وڌيڪ جُملا زوئِي ۿڳو سو۔
+speak-empty-state-cta = جُملان نو حِصو ڄو
+speak-loading-error = امين ڪونئين پڻ جملو تمارا ٻوليا ۿارُو  نٿِي لئِي ۿڳتا۔ ميرٻاني ڪرينَ ٿوريڪ وار وانۿين وريَ ڪوشيش ڪرو۔
+record-button-label = پوتا نو آواز رِڪارڍ ڪرو
+share-title-new = <bold>اماري مۮت ڪرو</bold> وڌيڪ آوازون ڳوچا مان۔
+keep-track-profile = پروفائيل ماٿيَ پوتا نِي ترقِي نو حِساٻ راکو۔
+login-to-get-started = شُرُو ڪريا ۿارُو لاگھ اِن ڪان وريَ سائينَ اپ ڪرو
+target-segment-first-card = تمين امارا پيۿرِيا ٽارگيٽ سيڪشنَ مان حِصو ليو سو ريا۔
+target-segment-generic-card = تمين ايڪ ٽارگيٽ سيڪشنَ مان حصو ليو سوريا
+target-segment-first-banner = آواز نا پيۿريا سيڪشنَ نين ٺاھيا مان ڀاڳ ڪرو۔{ $locale }
 target-segment-add-voice = پوتا نو آواز شامل ڪرو
-target-segment-learn-more = وڌارين شيکو
-change-preferences = ڪارڪردگي نين تبديل ڪرو
-login-signup = لوگن/سائين اپ
-vote-yes = ھوئي (ٺيڪ سي)
+target-segment-learn-more = وڌارين شِيکو
+change-preferences = ڪارڪرڌڳِي نين تٻۮيل ڪرو
+login-signup = لاگھ اِن/سائينَ اپ
+vote-yes = ھوويَ (ٺيڪ سي)
 vote-no = نا
-datasets = مواد نين سيٽ ڪروون (ڍيٽا)
-languages = ٻوليون
+datasets = ڍيٽا سيٽ
+languages = ٻولِيوُن
 about = ٻارا مان
-partner = ساٿي
+partner = ساٿِي
 submit-form-action = جمع ڪراوو
 
 ## Reporting
@@ -44,11 +44,11 @@ submit-form-action = جمع ڪراوو
 report = رپورٽ
 report-title = رپورٽ پيش ڪرو
 report-ask = تمان نين آ جملا ٿي چيون مشڪلاتون ٿائي سي ريون
-report-offensive-language = ڀي اڌڀي  ٻولي
+report-offensive-language = ڀيَ اڌڀي  ٻولِي
 report-offensive-language-detail = جملو ڀي عزت ڪريا وارو سي ڪان ڀي اڌڀي ٻولي نو سي
 report-grammar-or-spelling = گرامر/ اسپيلينگ نِي گلتي
 report-grammar-or-spelling-detail = جملا مان گرامر ڪان اسپيلينگ ني گلتي سي۔
-report-different-language = ڦرق ڦرق ٻوليون
+report-different-language = ڦرق ڦرق ٻولِيوُن
 report-different-language-detail = آ اِي ٻولي مان لکل سي زين ھون ٻولون سون
 report-difficult-pronounce = ٻوليا مان مُشڪل
 report-difficult-pronounce-detail = اين مان ايوا لفظ ڪان جملا شامل سي زين ڀڻيا مان انين ٻوليا مان مُشڪل سي
