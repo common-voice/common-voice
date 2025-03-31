@@ -3,6 +3,7 @@ guidelines-header = Richtlijnen voor bijdragen
 guidelines-header-subtitle = Leer hoe u zinnen en audiofragmenten aan de Common Voice-gegevensset kunt bijdragen en valideren
 voice-collection = Spraakcollectie
 sentence-collection = Zinnenverzameling
+question-collection = Vragenverzameling
 
 ## Voice Collection nav ids
 
@@ -114,6 +115,12 @@ adding-questions = Vragen toevoegen
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Hoe ziet een goede vraag eruit?
+what-makes-a-good-question-explanation = Een goede vraag voor datasets voor publieksparticipatie moet:
+what-makes-a-good-question-explanation-criteria-1 = Eenvoudig te begrijpen en te beantwoorden zijn
+what-makes-a-good-question-explanation-criteria-2 = Algemeen relevant zijn
+what-makes-a-good-question-explanation-criteria-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen
+what-makes-a-good-question-tip = U kunt ook overwegen verschillende contexten en domeinen te bestrijken.
 easy-to-understand = Eenvoudig te begrijpen
 easy-to-understand-explanation = Kies eenvoudige vragen die voor iedereen gemakkelijk te begrijpen zijn, ongeacht cultuur of context.
 spelling-and-pronunciation = Spelling en interpunctie
@@ -122,5 +129,14 @@ length = Lengte
 length-explanation = De vraag moet in slechts een paar zinnen kunnen worden beantwoord
 dont-add-subheader = Niet toevoegen
 culturally-specific-questions = Cultureel specifieke vragen
+culturally-specific-questions-explanation = Vragen die zeer cultureel specifiek zijn, of veel veronderstellingen over de beantwoorder doen
+length-avoid-explanation = Vragen die iemand maar moeilijk binnen 15 seconden (de maximale fragmentlengte) zou kunnen beantwoorden
 process-steps = Proces / stappen
+process-steps-explanation = Vragen waarbij iemand meerdere stappen moet opsommen. Het opsommen van stappen vraagt de gebruiker een antwoord op te zeggen in plaats van een natuurlijker antwoord.
+offensive-content-sensitive-information = Beledigende inhoud of gevoelige informatie
+offensive-content-sensitive-information-explanation-explanation-1 = Vragen waarbij mogelijk om persoonlijk identificeerbare informatie wordt gevraagd
+offensive-content-sensitive-information-explanation-explanation-2 = Vragen die kunnen aanzetten tot haat of andere bevooroordeelde of beledigende gevoelens
+offensive-content-sensitive-information-explanation-explanation-3 = Vragen die ervoor kunnen zorgen dat iemand gevoelige, mogelijk activerende antwoorden deelt
 example-questions-subheader = Voorbeeldvragen
+example-questions-explanation-1 = U vindt <examplePromptsLink>120 voorbeeldprompts in dit blad.</examplePromptsLink>
+example-questions-explanation-2 = Als u een reeks vragen voor opname wilt indienen, kunt u <githubLink>dit doen via onze GitHub</githubLink> of uw lijst e-mailen naar <emailFragment>commonvoice@mozilla.com.</emailFragment>

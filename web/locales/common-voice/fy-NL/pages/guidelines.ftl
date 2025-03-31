@@ -3,6 +3,7 @@ guidelines-header = Rjochtlinen foar bydragen
 guidelines-header-subtitle = Lear hoe’t jo sinnen en audiofragminten oan de Common Voice-gegevensset bydrage en falidearje kinne
 voice-collection = Spraakkolleksje
 sentence-collection = Sinnensamling
+question-collection = Fragensamling
 
 ## Voice Collection nav ids
 
@@ -110,6 +111,10 @@ domain-explanation = Domein ferwiist nei it ûnderwerp fan de sin. Op dit stuit 
 
 ## Question collection ids
 
+adding-questions = Fragen tafoegje
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Hoe sjocht in goede fraach derút?
+what-makes-a-good-question-explanation = In goede fraach foar datasets foar publykspartisipaasje moat:
+what-makes-a-good-question-explanation-criteria-1 = Ienfâldich te begripen en te beäntwurdzjen wêze
