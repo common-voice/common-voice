@@ -44,10 +44,20 @@ about-get-involved-text-2 = ڪامنَ وائيس نين پڻ ۿڦرون ٻنا
 about-stay-in-touch = هون راٻطا مان ڪيم رِيُون؟
 about-stay-in-touch-button = سائنَ اپ ڪرو
 about-stay-in-touch-text-1 = امارِي اِي ميل لِسٽ مان اِي </email Fragment> سائنَ اپ ڪرو <email Fragment> شيڇا ۿارُو ڪي تمين ڪامنَ وائيس ماٿيَ مهمن، واقيئان انين ڪو-ڍِزائينان نِي خاصيئتان مان ڪيم حِصو لئِي ۿڳو سو۔
+about-stay-in-touch-text-2 = تمين موزيلا ٻولِي نِي ڀراڌرِي مان ٻيزان ٿِي مُلاقات ڪرِي ۿڳو سو ڪونئين موضوع ماٿيَ وات وڳچ ڪريا ۿارُو يا </discourseLink> ڍِسڪورس <discourseLink> ٿِي زٽ مشورو حاصل ڪريا ۿارُو</matrixLink>ميٽرِڪس<matrixLink>
+about-nav-why-common-voice = شون ليوا؟
+about-nav-how-it-works = ڪيم؟
+about-nav-partners = ڀائيوار
+about-nav-get-involved = شامِل ٿائو
+about-nav-how-it-works-2 = ڪامنَ وائيس چيم ڪام ڪريَ سي؟
+about-nav-playbook = شِيکو ڪيَ ڪيم حِصو ليوائيَ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ڪامنَ وائيس ماٿيَ ٻولِي شون سي؟
+about-playbook-what-is-language-content-1 = عام ٻولِي نا ٻارا سوچيا ۿارُو ڪيٽلائيَ طريقا سي۔ اِسپيچ ريڪگنيشنَ ماڍلس نان مقصۮان ۿارُو مشورو ڄيَ سيَ ڪيَ ڀاهيمِي سمجھ ماٿيَ ڌيانَ ڄو، شون آ ٻولِي نين ٻوليا واران گھڻون ڪرينَ ايڪ ٻيزان نين ۿمزِي ۿڳيَ سي زو اِي وائيس ماٿيَ ڪوشش ڪريَ؟
+about-playbook-what-is-language-content-2 = امين چاهيئين سيئين ڪيَ تقرير نان ماڍل ۿڦران هوئيَ ايٽليَ ٻوليان واران نِي مُختلِڦ  رينج نين ۿمزِيا مان، ايم ڇا ۿارُو ايڪ آواز ڍيٽاسيٽ نين ڪيٽلائين مُختلِڦ ماڻۿان نِي نِمائينۮڳِي ڪروِي زويئين۔
 
 ## How do I add a language
 

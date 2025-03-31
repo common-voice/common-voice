@@ -88,6 +88,8 @@ about-playbook-how-add-sentences-content-3 = ٿيَ استعمال ڪريَ ݾگ
 
 ## How to record quality
 
+about-playbook-how-record-quality = ھُون آواز ريَ ڪلِپ رِي سُٺِي ريڪاردِنگ ڪونڪرڪريَ ݾگون ھون؟
+about-playbook-how-record-content-1 = آپرِِي رِي عام آواز ۾ ٻولو! ٿونرو ٻولڻ رو طريقو ايٿ قبول ھيَ۔مھونيَ ٿونرو ٻولڻ رو انداز ايونئج کپيَ ھيَ جون ھيَ، ھان مھونيَ ٿونرِي آواز،انداز ھان ٺرائو ايوئنج کپيَ جون ٿيَ ٻولو ھيَ۔
 
 ## How to grow language
 
