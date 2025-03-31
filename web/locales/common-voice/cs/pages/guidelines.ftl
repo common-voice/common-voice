@@ -3,6 +3,9 @@ guidelines-header = Pokyny pro přispěvatele
 guidelines-header-subtitle = Zjistěte, jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
 voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rozmanitá výslovnost
 misreadings = Přeřeknutí
 offensive-content = Urážlivý obsah
@@ -12,6 +15,9 @@ volume = Hlasitost
 reader-effects = Způsob řeči
 just-unsure = Jen si nejste jisti?
 example = Příklad
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Různé přízvuky jsou vítány! Buďte velmi opatrní, než odmítnete nahrávku z důvodu, že si myslíte, že mluvčí špatně vyslovil nějaké slovo, umístil důraz na špatné místo nebo ignoroval interpunkci. Výslovnost se může krajově lišit a možná jste se s ní ve svém okolí jen nesetkali. Prosíme, buďte velkorysí a respektujte tyto odlišnosti.
 varying-pronunciations-explanation-2 = Na druhou stranu, pokud se domníváte, že se čtenář s daným slovem nikdy nesetkal a nesprávně odhaduje jeho výslovnost, odmítněte jej. Pokud si nejste jisti, použijte tlačítko "Přeskočit".
 varying-pronunciations-example = Na silnici vytekl olej.
@@ -47,11 +53,17 @@ reader-effects-explanation = Ve většině nahrávek lidé mluví normálním hl
 just-unsure-explanation = Pokud narazíte v nahrávce na problém, který tu nezmiňujeme, hlasujte o nahrávce podle svého nejlepšího úsudku. Pokud se nemůžete rozhodnout, nahrávku přeskočte.
 still-have-questions = Stále máte otázky?
 contact-common-voice = Kontaktujte tým Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Public Domain
 citing-sentences = Uvádění zdrojů
 adding-sentences = Přidávání vět
 reviewing-sentences = Ověřování vět
 sentence-domain = Zařazení věty
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Je velmi důležité, aby všechny texty vět byly <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>), protože datová sada Common Voice se vydává pod licencí cc0. Věty nahrajte pouze tehdy, pokud jste si jisti, a vždy uveďte příslušný zdroj.
 public-domain-explanation-2 = Nejlepší věty pro sestavení užitečného nástroje pro rozpoznávání řeči jsou hovorové, moderní výrazy. Některé nápady, které vám pomohou při vytváření vět, jsou:
 public-domain-explanation-3 = Vytvářejte moderní, hovorové věty sami nebo se svými přáteli či jazykovou komunitou – například prostřednictvím „write-a-thon“
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená krit�
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 domain-explanation = Zařazení se vztahuje k předmětu věty. V současné době si můžete vybrat mezi:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

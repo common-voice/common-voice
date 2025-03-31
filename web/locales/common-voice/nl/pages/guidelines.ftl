@@ -3,6 +3,9 @@ guidelines-header = Richtlijnen voor bijdragen
 guidelines-header-subtitle = Leer hoe u zinnen en audiofragmenten aan de Common Voice-gegevensset kunt bijdragen en valideren
 voice-collection = Spraakcollectie
 sentence-collection = Zinnenverzameling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Uiteenlopende uitspraken
 misreadings = Verkeerd gelezen
 offensive-content = Aanstootgevende inhoud
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Lezereffecten
 just-unsure = Gewoon onzeker?
 example = Voorbeeld
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = We verwelkomen verschillende accenten! Wees heel voorzichtig voordat u een fragment afwijst als u denkt dat een lezer een woord verkeerd uitspreekt, de nadruk op de verkeerde plaats legt of interpunctie negeert. Er wordt een grote variëteit aan uitspraken in de wereld gebruikt, en sommige hebt u mogelijk in uw omgeving niet gehoord. Bied een ruime marge aan personen die anders dan u spreken.
 varying-pronunciations-explanation-2 = Als u daarentegen denkt dat de lezer het woord nog nooit heeft gebruikt en een onjuiste inschatting van de uitspraak doet, wijs het fragment dan af. Als u het niet zeker weet, gebruik dan de knop Overslaan.
 varying-pronunciations-example = De route was onduidelijk.
@@ -47,11 +53,17 @@ reader-effects-explanation = De meeste opnames zijn van mensen die met hun natuu
 just-unsure-explanation = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 still-have-questions = Nog steeds vragen?
 contact-common-voice = Neem contact op met het Common Voice-team
+
+## Sentence collection nav ids
+
 public-domain = Publiek domein
 citing-sentences = Bronnen van zinnen vermelden
 adding-sentences = Zinnen toevoegen
 reviewing-sentences = Zinnen beoordelen
 sentence-domain = Zinsdomein
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
 public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
 public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’
@@ -95,3 +107,9 @@ reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 domain-explanation = Domein verwijst naar het onderwerp van de zin. Momenteel kunt u kiezen tussen:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

@@ -3,6 +3,9 @@ guidelines-header = Katkıda bulunma yönergeleri
 guidelines-header-subtitle = Common Voice veri kümesine cümle ve ses kayıtları ile nasıl katkıda bulunabileceğinizi öğrenin
 voice-collection = Ses toplama
 sentence-collection = Cümle derleme
+
+## Voice Collection nav ids
+
 varying-pronunciations = Farklı telaffuzlar
 misreadings = Yanlış okumalar
 offensive-content = Saldırgan üslup
@@ -12,6 +15,9 @@ volume = Ses seviyesi
 reader-effects = Okuyucu efektleri
 just-unsure = Emin değil misiniz?
 example = Örnek
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Farklı aksanları da memnuniyetle karşılıyoruz! Okuyucunun bir kelimeyi yanlış telaffuz ettiği, vurguyu yanlış yere koyduğu ya da noktalama işaretlerini görmezden geldiği gerekçesiyle bir kaydı reddetmeden önce dikkatli olun. Dünyanın ve ülkenin farklı yerlerinde kullanılan farklı aksanlar ve telaffuzlar olabilir, bunlardan bazılarını yerelde duymamış olabilirsiniz. Lütfen sizden farklı konuşanlar için geniş bir takdir payı bırakın.
 varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
 varying-pronunciations-example = Yarın Kastamonu’ya ciğer almaya gidiyorum.
@@ -47,11 +53,17 @@ reader-effects-explanation = Çoğu kayıt, doğal sesleriyle konuşan insanlara
 just-unsure-explanation = Bu yönergelerin kapsamadığı bir şeyle karşılaşırsanız, lütfen sağduyunuza göre oy verin. Gerçekten karar veremiyorsanız, atlama düğmesini kullanın ve bir sonraki kayda geçin.
 still-have-questions = Hâlâ sorularınız var mı?
 contact-common-voice = Common Voice ekibiyle iletişime geçebilirsiniz
+
+## Sentence collection nav ids
+
 public-domain = Kamu malı
 citing-sentences = Alıntı cümleler
 adding-sentences = Cümle ekleme
 reviewing-sentences = Cümleleri inceleme
 sentence-domain = Cümlenin alanı
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Common Voice veri kümesi cc0 lisansı ile yayımlandığından, tüm cümlelerin <publicDomain>kamu malı</publicDomain> (<cc0>cc0</cc0>) olması çok önemlidir. Bir cümleyi yalnızca bundan eminseniz yükleyin ve her zaman cümlenin kaynağını belirtin.
 public-domain-explanation-2 = Kullanışlı bir konuşma tanıma motoru oluşturmak için en iyi cümleler günlük konuşma dilindeki cümlelerdir. Cümle oluşturmanıza yardımcı olacak fikirlerden bazıları:
 public-domain-explanation-3 = Kendi başınıza, arkadaşlarınızla ya da dil topluluğunuzla modern konuşma dilinde cümleler oluşturun. Örneğin birlikte yazma oturumları düzenleyebilirsiniz.
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamı
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 domain-explanation = Alan, cümlenin konusunu ifade eder. Şu anda aşağıdakiler arasından seçim yapabilirsiniz:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

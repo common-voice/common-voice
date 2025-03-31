@@ -1,5 +1,8 @@
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Ulike uttalar
 misreadings = Feiltolkingar
 offensive-content = Krenkande innhald
@@ -9,6 +12,9 @@ volume = Lydstyrke
 reader-effects = Lesareffektar
 just-unsure = Berre usikker?
 example = Døme
+
+## Voice collection sidebar content
+
 varying-pronunciations-example = Ruta var uklar.
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage «root»]
 misreadings-explanation-2 = Svært vanlege feil inkluderer:
@@ -22,10 +28,16 @@ misreadings-tip-3 = [Heilt feil innhald]
 volume-explanation = Det vil vere naturlege variasjonar i volum på dei ulike lesarane. Avvis berre viss volumet er så høgt at opptaket blir brote opp, eller (vanlegare) viss det er så lågt at du ikkje kan høyre kva som blir sagt utan å referere til den skrivne teksten.
 still-have-questions = Har du framleis spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
+
+## Sentence collection nav ids
+
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 adding-sentences = Leggje til setningar
 reviewing-sentences = Vurdere setningar
 sentence-domain = Setningsdomene
+
+## Sentence collection sidebar content
+
 citing-sentences-subheader-websites = Nettstadar
 citing-sentences-subheader-academic-reference = Akademisk referanse
 citing-sentences-subheader-offline-sources = Fråkopla kjelder
@@ -39,3 +51,9 @@ adding-sentences-subheader-numbers = Nummerering
 adding-sentences-subheader-punctuation = Teiknsetting
 adding-sentences-subheader-special-characters = Spesialteikn og utanlandske bokstavar
 adding-sentences-subheader-offensive-content = Krenkande innhald
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

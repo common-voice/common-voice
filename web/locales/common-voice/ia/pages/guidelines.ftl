@@ -3,6 +3,9 @@ guidelines-header = Lineas guida de contribution
 guidelines-header-subtitle = Saper como collaborar e validar phrases e registrationes audio al collection de datos de Common Voice
 voice-collection = Collection de voces
 sentence-collection = Collection de phrases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronunciationes variate
 misreadings = Errores de lectura
 offensive-content = Contento offensive
@@ -12,6 +15,9 @@ volume = Volumine
 reader-effects = Effectos del lector
 just-unsure = Ha tu dubitas?
 example = Exemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Presso nos es benvenite differente accentos! Sia multo caute ante rejectar un registration si tu pensa que le lector ha mal-pronunciate un parola, ha ponite le accento in le placia errate, o ha ignorate punctuation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un generose margine de appreciamento pro qui pote parlar differentemente de te.
 varying-pronunciations-explanation-2 = Del altere latere, si tu pensa que le lector  non ha jammais incontrate le parola antea e que ille  face un estimation incorrecte del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
 varying-pronunciations-example = Le route non era clar.
@@ -47,11 +53,17 @@ reader-effects-explanation = Le major parte del registrationes es de personas qu
 just-unsure-explanation = Si tu ha incontrate alco que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 still-have-questions = Altere questiones?
 contact-common-voice = Contactar le equipa de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Dominio public
 citing-sentences = Citante phrases
 adding-sentences = Addente phrases
 reviewing-sentences = Revidente phrases
 sentence-domain = Dominio del phrase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Il es multo importante que tote le phrases de texto es de <publicDomain>dominio public</publicDomain> (<cc0>cc0</cc0>) perque le collection de datos de Common Voice es publicate sub licentia cc0. Solo e sempre carga un phrase si tu es secur, e sempre include le pertinente citation.
 public-domain-explanation-2 = Le melior phrases pro producer un utile motor de recognition vocal es un conversation colloquial, moderne. Alcun ideas pro adjutar te a generar phrases es:
 public-domain-explanation-3 = Crea phrases colloquial e moderne tu mesme, o con tu amicos, o con tu communitate linguistic, per exemplo per un ‘marathon de scriptura’
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente crit
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vos pote eliger inter:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

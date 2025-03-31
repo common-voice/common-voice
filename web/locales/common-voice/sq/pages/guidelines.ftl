@@ -3,6 +3,9 @@ guidelines-header = Udhëzime Pjesëmarrjeje
 guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togfjalësha dhe copëza audio te grupi i të dhënave Common Voice
 voice-collection = Koleksion Zërash
 sentence-collection = Grumbullim Frazash
+
+## Voice Collection nav ids
+
 varying-pronunciations = Ndryshime Në Shqiptim
 misreadings = Gabime leximi
 offensive-content = Lëndë Fyese
@@ -12,6 +15,9 @@ volume = Volum
 reader-effects = Efekte Lexuesi
 just-unsure = Thjesht i Pasigurt?
 example = Shembull
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Mirëpresim thekse të ndryshëm! Jini shumë i kujdesshëm me hedhjen poshtë të një copëze, me arsyen se mendoni se lexuesi ka shqiptuar shtrembër një fjalë, e ka vënë theksin në vendin e gabuar, apo pse ka shpërfillur shenja pikësimi. Ka një larmi të madhe shqiptimesh në përdorim nëpër botë, disa prej të cilave mund të mos i keni dëgjuar në bashkësinë tuaj vendore. Ju lutemi, ofroni një masë bujare vlerësimi për ata që mund të flasin ndryshe nga ju.
 varying-pronunciations-explanation-2 = Më anë tjetër, nëse mendoni se lexuesi s’e ka hasur kurrë më parë fjalën dhe po bën për shqiptimin një hamendësim të pasaktë, ju lutemi, hidheni poshtë. Nëse s’jeni i sigurt, përdorni butonin e anashkalimit.
 varying-pronunciations-example = Rruga ishte e paqartë.
@@ -47,11 +53,17 @@ reader-effects-explanation = Shumica e incizimeve janë nga persona që flasin m
 just-unsure-explanation = Nëse ndeshni diçka që nuk e mbulojnë këto udhëzime, ju lutemi, votojeni në përputhje me gjykimin tuaj. Nëse vërtet s’vendosni dot, përdorni butonin e anashkalimit dhe ecni më tej me incizimin pasues.
 still-have-questions = Keni ende pyetje?
 contact-common-voice = Lidhuni me ekipin e Common Voice-it
+
+## Sentence collection nav ids
+
 public-domain = Përkatësi Publike
 citing-sentences = Citim Togfjalëshash
 adding-sentences = Shtim Togfjalëshash
 reviewing-sentences = Shqyrtim Togfjalëshash
 sentence-domain = Përkatësi Togfjalëshi
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Është shumë e rëndësishme që krejt frazat tekst të jenë nën <publicDomain>përkatësi publike</publicDomain> (<cc0>cc0</cc0>), ngaqë grupi i të dhënave Common Voice hidhet në qarkullim sipas një licence cc0. Ngarkojeni një frazë vetëm nëse jeni i sigurt dhe përfshini përherë citimin përkatës.
 public-domain-explanation-2 = Frazat më të mira për ndërtimin e një mekanizmi të dobishëm kuptimi të foluri janë ato nga e folura joformale, moderne. Disa ide për t’ju ndihmuar të prodhoni fraza janë;
 public-domain-explanation-3 = Krijoni fraza moderne, joformale ju vetë, ose me shokët tuaj, apo bashkësinë gjuhësore - për shembull, përmes një  “maratone shkrimi ”
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret 
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 domain-explanation = Përkatësia i referohet lëndës së subjektit të togfjalëshit. Aktualisht mund të zgjidhni mes:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

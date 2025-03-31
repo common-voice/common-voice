@@ -3,6 +3,9 @@ guidelines-header = Leitfaden für Mitwirkende
 guidelines-header-subtitle = Verstehen Sie, wie Sie Sätze und Audioclips zum Common-Voice-Datensatz beitragen und bewerten können
 voice-collection = Stimmensammlung
 sentence-collection = Satz-Sammlung
+
+## Voice Collection nav ids
+
 varying-pronunciations = Unterschiedliche Aussprachen
 misreadings = Lesefehler
 offensive-content = Anstößige Inhalte
@@ -12,6 +15,9 @@ volume = Lautstärke
 reader-effects = Lesereffekte
 just-unsure = Nur unsicher?
 example = Beispiel
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Wir begrüßen unterschiedliche Akzente! Seien Sie sehr vorsichtig, bevor Sie einen Clip mit der Begründung ablehnen, dass der Leser Ihrer Meinung nach ein Wort falsch ausgesprochen hat, die Betonung an der falschen Stelle gesetzt oder ein Satzzeichen ignoriert hat. Es gibt eine Vielzahl von Aussprachen auf der ganzen Welt, von denen Sie einige in Ihrer Umgebung möglicherweise noch nicht gehört haben. Bitte berücksichtigen Sie, dass es Menschen gibt, die anders sprechen als Sie.
 varying-pronunciations-explanation-2 = Wenn Sie hingegen der Meinung sind, dass der Leser das Wort noch nie gesehen hat und die Aussprache falsch geraten hat, lehnen Sie es bitte ab. Wenn Sie unsicher sind, klicken Sie auf die Schaltfläche „Überspringen“.
 varying-pronunciations-example = Die Route war unklar.
@@ -47,11 +53,17 @@ reader-effects-explanation = Die meisten Aufnahmen stammen von Menschen, die mit
 just-unsure-explanation = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
 still-have-questions = Haben Sie immer noch Fragen?
 contact-common-voice = Kontaktieren Sie das Common-Voice-Team
+
+## Sentence collection nav ids
+
 public-domain = Gemeinfrei
 citing-sentences = Sätze zitieren
 adding-sentences = Sätze hinzufügen
 reviewing-sentences = Sätze überprüfen
 sentence-domain = Thema des Satzes
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Es ist sehr wichtig, dass alle Textsätze <publicDomain>gemeinfrei</publicDomain> (<cc0>cc0</cc0>) sind, da der Common-Voice-Datensatz unter einer cc0-Lizenz steht. Laden Sie einen Satz nur hoch, wenn Sie sicher sind, und fügen Sie immer das relevante Zitat hinzu.
 public-domain-explanation-2 = Die besten Sätze, um eine nützliche Spracherkennungs-Engine zu entwickeln, sind umgangssprachlicher, moderner Sprachgebrauch. Einige Ideen, die Ihnen helfen, Sätze zu erzeugen, sind;
 public-domain-explanation-3 = Bilden Sie moderne, umgangssprachliche Sätze selbst oder mit Ihren Freunden oder Ihrer Sprachgemeinschaft – zum Beispiel durch einen „Write-a-thon“
@@ -101,3 +113,9 @@ reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht 
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 domain-explanation = Mit „Thema“ ist das Thema des Satzes gemeint. Derzeit können Sie wählen zwischen:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

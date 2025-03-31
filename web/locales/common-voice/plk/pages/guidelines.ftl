@@ -3,6 +3,9 @@ guidelines-header = شرکتے رہنما اصول
 guidelines-header-subtitle = کامن وائس ڈیٹاسیٹ دہ جُملِائے گہ آڈیو کلپو تعاون گہ توثیق تھونے طریقہ پرجون
 voice-collection = آوازو مجموعہ
 sentence-collection = جُملو مجموعہ
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف تلفظ
 misreadings = غلط پڑِیون
 offensive-content = جارحانہ مواد
@@ -12,6 +15,9 @@ volume = والیم
 reader-effects = قارئینو اثرات
 just-unsure = صرف غیر متبَر؟
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = بیْس مختلف لہجو خیر مقدم تھوݨَس، آ بُنیادِجی  کھاں گہ کلپ رَد تھونِجیْ مُڇھو بسکیْ احتیاط تِھیا چہ څھے نظر دہ قاریو کوئے لفظ کے غلط تلفظ تھاؤن، یا شَت غلط حرفِجی تھاؤن، یا اوقاف نظر انداز تھاؤن۔ دُنیے دہ مختلف قِسمو تلفظی استعمال بینَن، کھائیݨو مجی کوئے څھا تومیْ کمیونٹی دہ نہ ݜُݨِیلانَت بو۔ مہربانی تھے اسہ جگو کِرِیا توموْ ہِیؤ بڑِوْ تِھیا کھاں سہ څھوْ سے مختلف موْݜ تھینَن۔
 varying-pronunciations-explanation-2 = دوموگیْ طرفڑ، اگر څھوْڑ آ لیل بِینیْ چہ قاری ئڑ ادِیو مُڇھو ادو لفظ نہ ہشِلُن، آں سیْس تلفظ تھونے غلط اندازہ تِھینوْ، تو مہربانی تھے اسہ کلپ رَد تِھیا۔ اگر څھوْ ڈاڈ نانَت توْ تے اسکیپ بٹن استعمال تِھیا۔
 varying-pronunciations-example = پوْن واضع ناسیْ
@@ -47,11 +53,17 @@ reader-effects-explanation = بسکیْ ریکارڈنگ اسہ جگو بِین�
 just-unsure-explanation = اگر څھوْڑ جوْ ادَئی څیز ہشِینیْ کھاں سے احاطہ آ رہنما خطوط دہ نہ بِینیْ، توْ مہربانی تھے توموْ مِݜٹوْ فیصلائے مطابق ووٹ دِیا۔ اگر څھوْس واقعی فیصلہ نہ تھوبانَت، تو اسکیپ بٹن استعمال تِھیا آں مُڇِھنیْ ریکارڈنگڑ بوجہ۔
 still-have-questions = چیئے گہ سوالات ہنہ
 contact-common-voice = کامن وائس ٹیم سے رابطہ تِھیا
+
+## Sentence collection nav ids
+
 public-domain = پبلک ڈومین
 citing-sentences = جُملو حوالائے دون
 adding-sentences = جُملائے ٹل تھون
 reviewing-sentences = جُملو جائزہ ہرون
 sentence-domain = جُملائے ڈومین
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = آ لئی اہمِن چہ تام متنے جُملائے <publicDomain> پبلک ڈومینے </publicDomain><cc0></cc0>بین تے چہ کامن وائس ڈیٹا سیٹَڑ لائسنس cc0 اےْ تحت جاری تِھجِلُن۔ صرف ایْک جُملہ اپ لوڈ تِھیا اگر څھوْڑ یقین بِی،  ہمشہ متعلقہ حوالہ ٹل تِھیا۔
 public-domain-explanation-2 = ایْک فائدناک تقریرے شِناخے اِنجن سنونے کِرِیا مڑنے جُملو بول چال، جدید بول چالَن۔ جُملائے سنون دہ څھے مدد تھونے کِرِیا شِناکک خیالاتَن؛
 public-domain-explanation-3 = اکوجیْ یا تومہ ملگیریو یا جِبے کمیونٹی سے ساتیْ جدید موْݜ کالے جُملائے سنِیا۔ مثال ‘write-a-thon’ اےْ ذریعہ گیْ
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = اگر جُملہ اجِنیْ معیارِ�
 reviewing-sentences-explanation-3 = اگر څھوْڑ جُملائے بارَد یقین نِش، توْ تے اسہ پھتے مُڇھوڑ بوجبانَت
 reviewing-sentences-explanation-4 = اگر جائزہ ہرونے کِرِیا څھے جُملائے بڑِتھان، تو مہربانی تھے مُتہ جُملائے ٹول تھون دہ اسے امداد تِھیا۔
 domain-explanation = ڈومین اےْ مراد جُملائے موضوع نیْ۔ فی الحال،څھوْس آئیݨو مجیْ انتخاب تھوبانَت:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

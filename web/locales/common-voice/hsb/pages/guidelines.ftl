@@ -3,6 +3,9 @@ guidelines-header = Směrnicy za sobuskutkowarjow
 guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rozdźělne wurjekowanja
 misreadings = Čitanske zmylki
 offensive-content = Njepřistojny wobsah
@@ -12,6 +15,9 @@ volume = Sylnosć zwuka
 reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Budźće jara kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, dokelž mysliće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo interpunkciju prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wulkomyslnu swobodu, kotřiž hinak hač wy rěča.
 varying-pronunciations-explanation-2 = Jeli wšak měniće, zo čitar je słowo přez připad namakał a wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 varying-pronunciations-example = Ruta běše njejasna.
@@ -42,11 +48,17 @@ reader-effects-explanation = Najwjace nahraćow je wot ludźi, kotřiž ze swoji
 just-unsure-explanation = Jeli na něšto storčiće, zo tutym směrnicam njewotpowěduje, hłosujće prošu po swojim najlěpšim posudku. Jeli woprawdźe njemóžeće so rozsudźić, wužiwajće tłóčatko Přeskočić a pokročujće z přichodnym nahraćom.
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
+
+## Sentence collection nav ids
+
 public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
 sentence-domain = Tema sady
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Je jara wažnje, zo wšě tekstowe sady su <publicDomain>zjawnje přistupne</publicDomain> (<cc0>cc0</cc0>), dokelž datowa sadźba Common Voice so pod licencu cc0 wozjewja. Nahrajće jenož sadu, jeli sće sej wěsty, a přidajće přeco relewantny citat.
 public-domain-explanation-2 = Najlěpše sady za wužitny program rěčenskeho spóznaća su wobchadnorěčne, moderne rěčne wužiwanje. Někotre ideje, kotrež wam pomhaja, sady generować, su;
 public-domain-explanation-3 = Wutworće moderne, wobchadnorěčne sady sam abo ze swojimi přećelemi abo z rěčnym zhromadźenstwom – na přikład přez „write-a-thon“
@@ -86,3 +98,9 @@ reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje
 reviewing-sentences-explanation-3 = Jeli při sadźe wěsty njejsće, móžeće ju přeskočić a z přichodnej pokročować.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

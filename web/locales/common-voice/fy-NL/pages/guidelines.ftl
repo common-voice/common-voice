@@ -3,6 +3,9 @@ guidelines-header = Rjochtlinen foar bydragen
 guidelines-header-subtitle = Lear hoe’t jo sinnen en audiofragminten oan de Common Voice-gegevensset bydrage en falidearje kinne
 voice-collection = Spraakkolleksje
 sentence-collection = Sinnensamling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Utienrinnende útspraken
 misreadings = Lêsflaters
 offensive-content = Oanstjitjaande ynhâld
@@ -12,6 +15,9 @@ volume = Folume
 reader-effects = Lêzereffekten
 just-unsure = Gewoan ûnwis?
 example = Foarbyld
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Wy hjitte ferskate aksinten wolkom! Wês foarsichtich eardat jo in fragmint ôfwize as jo tinke dat in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in ynterpunksje negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in romme marzje fan wurdearring foar dyjingen dy’t oars kinne sprekke as jo.
 varying-pronunciations-explanation-2 = Mar as jo tinke dat de lêzer it wurd noch nea brûkt hat en in ferkeare ynskatting fan de útspraak docht, wiis it fragmint dan ôf. As jo net wis binne, brûk dan de knop Oerslaan.
 varying-pronunciations-example = De rûte wie ûndúdlik.
@@ -47,11 +53,17 @@ reader-effects-explanation = De measte opnamen binne fan minsken dy’t mei harr
 just-unsure-explanation = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 still-have-questions = Hawwe jo noch fragen?
 contact-common-voice = Nim kontakt op mei it Common Voice-team
+
+## Sentence collection nav ids
+
 public-domain = Publike domein
 citing-sentences = Sinnen sitearje
 adding-sentences = Sinnen tafoegje
 reviewing-sentences = Sinnen beoardiele
 sentence-domain = Sinsdomein
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = It is tige wichtich dat alle tekstsinnen <publicDomain>publyk domein</publicDomain> (<cc0>cc0</cc0>) binne, omdat de Common Voice-dataset frijjûn wurdt ûnder in cc0-lisinsje. Laad allinnich in sin op as jo wis binne en foegje altyd de relevante boarnefermelding ta.
 public-domain-explanation-2 = De bêste sinnen foar it bouwen fan in brûkbere spraakwerkenningsmasine binne in moderne sprektaal. Guon ideeën om jo te helpen sinnen te generearjen binne;
 public-domain-explanation-3 = Meitsje sels moderne, ynformele sinnen of mei jo freonen of taalmienskip – bygelyks troch in ‘write-a-thon’
@@ -95,3 +107,9 @@ reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia 
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 domain-explanation = Domein ferwiist nei it ûnderwerp fan de sin. Op dit stuit kinne jo kieze tusken:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+
