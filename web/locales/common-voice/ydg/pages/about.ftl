@@ -56,15 +56,25 @@ about-nav-playbook = ڤے حصو غوردان طریقو ایخسا
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = دے کام وائس یو زبان ګیم؟
+about-playbook-what-is-language = دے کامن وائس یو زبان ګیم؟
 about-playbook-what-is-language-content-1 = دے یو زبان باری دیشچان جاہند طریقو استت۔ ڤے گپ ڤزدان یو ماڈل پے سڤزڤدا دیر، کامن وائس تر خوئے ملن سے ڤزدان تجویز زور دیلتے یا سیم گپ زور دیلتے کہ یو زبان کڑغوزے کوشش کینت خو ڤئے ڤے یو گپف ڤزانتیآ؟'
 about-playbook-what-is-language-content-2 = ماخ المین ماڈل اسپیچ کوسیم تے کہ وو ڤے مختلف گپ ژیغوزف سلسلو دے ڤزدا بہتر فرما۔ ملمین پے ݰویا دیر دے وائس ڈیٹا سیٹ مختلف آدمف نمائندگی اوئے۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = زو ڤے یو زبان چیمین شامل کینیم؟
+about-playbook-how-add-language-content-1 = اول اوژر<languageLink> تو زبان آلو</languageLink> استتآ۔ کہ چش تو ڤے خوئے زبان<languageRequestLink> پے شامل کڑا </languageRequestLink>دیر ݱا۔ لوہ پیکوڑے استت، ڤے سائٹ ترجمو کڑا، اڤن جملو بڑیڅڤدا۔
+about-playbook-how-add-language-translating-heading = ڤے سائٹ ترجمو کڑا
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ڤے ماخ رہنمائی اوژر کہ ڤے پونتون چیمین استعمال کڑا بݰ۔</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = جملغّے بڑیڅڤدا
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> دے جملو بڑیڅڤدان استعمال باری ڤے ماخ رہنمائی اوژر</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = تو یو چر <sentenceCollectorLinkAdd>جملغّے شامل</sentenceCollectorLinkAdd>, کڑا کرکینے۔ یا<bulkImportDocsLink>ڤے گیٹ ہب</bulkImportDocsLink>. استعمال کینے خو امبوخ جملغّے نے ملن اڤزدا کرکینے۔ یاد واست<licenseLink>سی سی زیرو (دے عام آدمف استعمال دائرو)</licenseLink>ݰویا ضروری، یا خو ام نوشا۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>پے مزید معلوماتف دیر ڤے جملو جمع کڑغوز اوژر</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = ڤے سائٹ مقامی کڑا چیمین ہورغ کیتے؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹن ترجملو<strong>دے پونتون</strong>ایتے۔
 
 ## How to add sentences
 

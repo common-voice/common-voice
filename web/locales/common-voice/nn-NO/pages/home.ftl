@@ -76,7 +76,9 @@ read-more-about = Les meir på Om oss-sida vår
 ## NAV ITEMS
 
 answer-questions = Svar på spørsmål
+review-transcriptions = Vurder transkripsjonar
 add-questions = Legg til spørsmål
+transcribe-audio = Transkriber lyd
 coming-soon = Kjem snart
 
 ## MENU ITEMS TOOLTIPS
@@ -119,3 +121,5 @@ contribute-text-link = Bidra med tekst
 
 ## Partner section
 
+# icon is an arrow that points to the right
+get-in-touch-button = Ta kontakt <icon></icon>

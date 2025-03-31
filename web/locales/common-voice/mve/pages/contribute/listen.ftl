@@ -1,28 +1,28 @@
-listen = هونبڙو
-listen-subtitle = آوازون نَي اُوڙکڻ ۾ مهورِي مدد ڪرو
-listen-instruction = { $actionType }<playIcon>ڪِي او سهي سهي جملو ٻوليَ هَي
-listen-again-instruction = ڪوم حاصل ڪرو<playIcon> وَڙيَ هونبڙو جڏي ٿَي تيار هون
-listen-3rd-time-instruction = هيٺي، وَڙيَ اُونچو آ</playIcon><playIcon></playIcon>
+listen = هونڀڻڻ
+listen-subtitle = آوازون رِي تصديق ڪرڻ ۾ مھورِي مدد ڪرو۔
+listen-instruction = { $actionType }<playIcon>ڪِي اُوئون سُٺيَ نمُونيَ ھون جُملو ٻوليو؟
+listen-again-instruction = سُٺو ڪوم <playIcon>وڙيَ ھونڀڙو جڏيَ ٿيَ تيار ھو
+listen-3rd-time-instruction = 2 ھيٺِي، جارِي راکو!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>بس آخرِي
-listen-empty-state = مهوريَ ڪلِپ سهي ڪوني هلي پڙِي۔ وَڙي ٻِيجي چڪر هلائون يان ٿوڙِي دير هون پڇيَ
-listen-empty-state-variants = هوئي هگھي هَي ڪي ٿورِي ٻولِي ڪلِپ هون الگ هوئي۔ اگر ٿُوني لاگي تو آپرِي ٻولِي ني سهي ڪريَ هگھون هون
-listen-loading-error = ميه ڪني ڪو ڀِي آواز تو ڪونِي ٿُون هارون۔ ٿوڙي دير هون ڪوشِيش ڪرو
-listen-abort-title = ختم ڪرو ڪلِپ
-listen-abort-cancel = جونچتا رهو
-listen-abort-confirm = سهي جونچي ختم ڪرو
+listen-empty-state = شايد مھون ڪنيَ ڪلِپ ختم ھويا را۔ پنيَ نَي رِڦريش ڪرو، يا وڙيَ ڪوشِش ڪرو۔
+listen-empty-state-variants = ٿونرِي ٻولِي رو قِسم ڪلِپ ھون الگ ھوئي ݾگھيَ ھيَ! جيَ ٿَي راضِي ھون، تو ٿيَ آپرِي ٻولِي ۾ ٻيجا جُملا جونچڻ ھارو آپرَي سيٽنگھون بدليَ ݾگھو ھو۔
+listen-loading-error = مھيَ ٿُون ھارو ڪو ڀِي آڊيو ڪلِپ ليَ ڪونھي ݾگھيا ھون۔ مھربونِي ڪريَ وڙيَ پڇيَ ڪوشِش ڪريا۔
+listen-abort-title = ڪلِپ رِي تصديق ختم ڪرو؟
+listen-abort-cancel = تصديق ڪرڻ جارِي راکو
+listen-abort-confirm = تصديق ختم ڪرو
 # Menu item
-validate-readings = سهي پڙهون
+validate-readings = پڙھڻ رِي تصديق ڪرو
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = سهي پڙهائي <small>آڻ آݪي هَي
+validate-readings-coming-soon = پڙھڻ رِي تصديق ڪرو <small>(جلدِي آڻ آݪو ھيَ)</small>
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = سهي پڙهڻ جونچو لکائي
-validate-readings-menu-item-tooltip = سهي رِڪوڊئينگ ڪرڻ پڙهڻ آپرِي ٻولِي ۾
-review-transcriptions-menu-item-tooltip = جونچڻ جما ڪرڻ هون پيل آپرِي ٻولِي ۾
+listen-contribute-menu-tooltip = پڙھڻ رِي تصديق ڪرو، لِکوڙيَ رو جائزو ليو
+validate-readings-menu-item-tooltip = ٿونرِي ٻولِي ۾ پڙھڻ آݪيَ رِي ھويوڙِي ريڪاڍِنگ رِي تصديق ڪرو
+review-transcriptions-menu-item-tooltip = آپرِي ٻولِي ۾ استعمال ڪرڻ آݪيَ ريَ طرڦون جمع ڪِيوڙيَ لِکت رو جائزو ليو
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = هونبڙو اوپشن مَينيو
-validate-readings-menu-item-aria-label = برادري  سهي پڙهائي جما ڪِي
-review-transcriptions-menu-item-aria-label = سهي ڪرڻ هارون آپرَي جملون نَي وَڙيَ جونچو
+listen-contribute-menu-aria-label = آپشن مينيو نَي ھونڀڙو
+validate-readings-menu-item-aria-label = برادرِي ريَ مِنکون ريَ طرڦون جمع ڪِيوڙِي لِکت رِي تصديق ڪرو۔
+review-transcriptions-menu-item-aria-label = دُرستگِي ھارو ريڪاڍ ڪِيوڙيَ جملون رِي لِکت رو جائزو ليو

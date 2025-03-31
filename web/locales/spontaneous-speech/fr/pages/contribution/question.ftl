@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = Échec de l’envoi, veuillez réessayer.
 add-question-too-many-questions-error = Dépassement des 500 questions. Diminuez le nombre de questions puis réessayez.
+partial-questions-upload-message =
+    { $uploadedQuestions ->
+        [one] { $uploadedQuestions } question collectée sur { $totalQuestions }. Consultez nos  <guidelinesLink>consignes</guidelinesLink> pour savoir comment ajouter des questions.
+       *[other] { $uploadedQuestions } questions collectées sur { $totalQuestions }. Consultez nos  <guidelinesLink>consignes</guidelinesLink> pour savoir comment ajouter des questions.
+    }
 # Guidelines
 add-question-guidelines-title = Quelles questions puis-je ajouter ?
 do-section-title = Ce qu’il faut faire

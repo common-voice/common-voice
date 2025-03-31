@@ -84,7 +84,7 @@ request-language-button = Xiktlajtlani se tlajtolkopa
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = k
+shortcut-play-toggle = x
 shortcut-play-toggle-label = Xikkaki/Xikketsa
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
