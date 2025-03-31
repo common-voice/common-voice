@@ -38,6 +38,9 @@ about-dataset-new-text = ڪام وائس رَي مواد رَ سيٽ ۾ سئوي
 about-clip-graveyard = ڪلِپ رو قبرستان
 about-clip-graveyard-text = ڪلِپ رَي قبرستان ۾ وائس ڪلِپ ڀيڙا ھيَ جُڪو ڪامن وائس ريَ مود رَي سيٽ ۾ ڀيڙا ڪونِي ھوا۔ مواد ريَ سيٽ رِي گتِي ڪلِپ قبرستان ڊائون لوڊ ھارو موجود ھيَ۔ مھيَ ايئيَ منصوبيَ ۾ مدد ڪرڻ ھارو ھيٺِي ڏينوڙيَ منکون ھان تنظيمون رِِي مھربونِي ڪرڻ چاھون ھون
 about-get-involved = ايئيَ ۾ شامل ھو
+about-get-involved-text-2 = ڪِي ٿيَ ڪامن وائس نيَ اڃون ڀِي ٺائوڪو ٺاڻ چاھو ھو؟ ٺائوڪو! اِي ميل ريَ زريعيَ رابطو ڪرو<discourseLink>ڊسڪورس</discourseLink>فورمز،زريعيَ سائيٽ را مسئلا جمع ڪرائو <githubLink>گِٽ ھب</githubLink>يا شامل ھو<matrixLink>ميٽرڪس</matrixLink>برادري ٻول چال
+about-stay-in-touch = ھُون ڪونڪر رابطيَ ۾ رھيَ ݾگون ھون؟
+about-stay-in-touch-button = سائن اپ ڪرو
 
 ## Community Playbook Content
 ## What is a language
