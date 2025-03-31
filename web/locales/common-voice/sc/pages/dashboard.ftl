@@ -41,31 +41,85 @@ finish-editing = In antis boles acabbare de modificare?
 lose-changes-warning = Essende immoe as a pèrdere is modìficas tuas
 build-custom-goal = Crea un'obietivu personalizadu
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Agiuda a arribbare a { $hours } ora in { $language } cun un'obietivu personale
        *[other] Agiuda a arribbare a { $hours } oras in { $language } cun un'obietivu personale
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Agiuda a Common Voice a arribbare a { $hours } ora in una limba cun un'obietivu personale
        *[other] Agiuda a Common Voice a arribbare a { $hours } oras in una limba cun un'obietivu personale
     }
 set-a-goal = Cunfigura un'obietivu
 cant-decide = Non resesses a detzìdere?
 activity-needed-calculation-plural =
-    Si { NUMBER($people) ->
-        [one] { $people } persone registrat
-       *[other] { $people } persones registrant
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } registratzione
-       *[other] { $clipsPerDay } registratziones
-    } a sa die, si podet arribbare a { NUMBER($totalHours) ->
-        [one] { $totalHours } ora
-       *[other] { $totalHours } oras
-    }in pagu prus de{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mese
-        [11] { $periodMonths } meses
-       *[other] { $periodMonths } meses
+    { $people ->
+        [one]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persone registrat { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persone registrat { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persone registrat { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persone registrat { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persone registrat { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persone registrat { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persone registrat { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persone registrat { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persone registrat { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persone registrat { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persone registrat { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persone registrat { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                            }
+                    }
+            }
+       *[other]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persones registrant { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persones registrant { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persones registrant { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persones registrant { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persones registrant { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persones registrant { $clipsPerDay } registratzione a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persones registrant { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persones registrant { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persones registrant { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orain pagu prus de{ $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persones registrant { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                                [one] Si { $people } persones registrant { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } mese
+                               *[other] Si { $people } persones registrant { $clipsPerDay } registratziones a sa die, si podet arribbare a { $totalHours } orasin pagu prus de{ $periodMonths } meses
+                            }
+                    }
+            }
     }
 how-many-per-day = Bene meda! Cantas registratziones a sa die?
 how-many-a-week = Bene meda! Cantas registratziones a sa chida?
@@ -75,7 +129,7 @@ not-receiving-emails-info =
     In custu momentu ses cunfiguradu pro <bold>NON</bold> retzire messàgios de posta eletrònica che a is ammentos de is obietivos, is
     annoamentos a pitzu de is progressos e is bolletinos de noas in contu de Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } registratzione
        *[other] { $count } registratziones
     }

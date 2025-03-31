@@ -66,7 +66,7 @@ sentence-variant-select-label = Variante della frase
 sentence-variant-select-placeholder = Seleziona una variante (facoltativo)
 sentence-variant-select-multiple-variants = Linguaggio generico / più varianti
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> Carica frasi di pubblico dominio

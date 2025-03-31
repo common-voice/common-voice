@@ -66,7 +66,7 @@ sentence-variant-select-label = Variante da frase
 sentence-variant-select-placeholder = Çerni unna variante (facoltativo)
 sentence-variant-select-multiple-variants = Linguaggio generico / ciù variante
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> Carrega de frase de pubrico dominio

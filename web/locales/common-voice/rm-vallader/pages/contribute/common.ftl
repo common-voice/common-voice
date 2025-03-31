@@ -21,9 +21,6 @@ target-segment-first-banner = Güda a crear a Common Voice seis prüm böt in me
 target-segment-add-voice = Agiundscha tia vusch
 target-segment-learn-more = Daplü infuormaziuns
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Rapporta

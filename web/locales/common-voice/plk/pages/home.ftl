@@ -137,7 +137,6 @@ spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = نامیاتی، موْݜ کَلَے سیاق گی سباق اےْ کِرِیا ڈیٹاسیٹس سنونے اشارو جُواب دِیا۔ موْݜ کال گیْ آں مُڇِھنیْ جِبوڑ مِݜٹیْ۔
 language-text-card-header = جِبے متن
 language-text-card-content = عوامی ڈومین پرامپٹس، جُملائے گہ ترجمائے کِرِیا متن آں لیکھیْ جِبو ماڈلز، وغیرہ سنِیا یا سیْݨے اشتراک تِھیا۔
-coming-soon = جِنیْ اِینوْ
 add-text = عبارت ٹل تِھیا
 
 ## Community section

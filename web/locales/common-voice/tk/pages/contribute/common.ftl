@@ -26,9 +26,6 @@ target-segment-first-banner = { $locale } lokalda Common Voice-iň ilkinji nyşa
 target-segment-add-voice = Sesiňizi goşuň
 target-segment-learn-more = Goşmaça maglumat
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Habar ber

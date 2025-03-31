@@ -56,7 +56,6 @@ accept-privacy-title = Privatlivspolitik
 accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 login-identity = Login-identitet
 login = Log ind
-login-signup = Log ind / Opret dig
 edit = Rediger
 email-subscriptions = Mail-abonnementer
 download-profile = Hent mine data

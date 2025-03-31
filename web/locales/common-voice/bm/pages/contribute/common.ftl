@@ -4,9 +4,6 @@ contribute-more =
        *[other] I labɛnlen don ka do faara a kan wa ?
     }
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

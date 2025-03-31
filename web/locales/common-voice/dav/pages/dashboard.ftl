@@ -41,12 +41,12 @@ finish-editing = Kumerie kughalusa kande?
 lose-changes-warning = Kukafuma idakoni kwalaghasha ghaja kwaghalusa
 build-custom-goal = Agha lengo yako kumoni
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Tesia kuvikia isaa { $hours } kwa { $language } iko na lengo yapo binafsi
        *[other] Tesia kuvikia masaa { $hours } kwa { $language } ghiko na lengo yapo binafsi
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Tesia Common Voice kuvikia { $hours } isaa kwa kiteto chiko na lengo ya kibinafsi
        *[other] Tesia Common Voice kuvikia { $hours } masaa kwa kiteto chiko na lengo ya kibinafsi
     }
@@ -58,7 +58,7 @@ which-goal-type = Kwaw'ekunda kudeda, kuskiria angu ghose aw'i?
 receiving-emails-info = Kwakunde kupateghe imeili rekukumbusira malengo ghako, maendeleo ghako na habari ra Common Voice.
 not-receiving-emails-info = <bold>Nondukunde</bold> kupateghe imeili rekukumbusira malengo ghapo, maendeleo ghako na habari ra Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] Klipu { $count }
        *[other] Vlipu { $count }
     }

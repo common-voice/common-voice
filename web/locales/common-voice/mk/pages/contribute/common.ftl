@@ -28,11 +28,6 @@ target-segment-first-banner = Помогнете да се создаде прв
 target-segment-add-voice = Додајте го вашиот глас
 target-segment-learn-more = Дознајте повеќе
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Збирка на гласови
-contribute-sentence-collection-nav-header = Збирка на реченици
-
 ## Reporting
 
 report = Пријави

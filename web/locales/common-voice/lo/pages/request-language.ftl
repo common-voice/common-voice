@@ -37,3 +37,7 @@ request-language-error =
 request-for-scripted-speech-toggle = ຮ້ອງ​ຂໍ​ສໍາ​ລັບ​ການ​ປາກ​ເວົ້າ Scripted​
 request-for-spontaneous-speech-toggle = ການ​ຮ້ອງ​ຂໍ​ສໍາ​ລັບ​ການ​ປາກ​ເວົ້າ spontaneous​
 need-help-deciding-platform = ຕ້ອງ​ການ​ຄວາມ​ຊ່ວຍ​ເຫຼືອ​ໃນ​ການ​ຕັດ​ສິນ​ໃຈ​ທີ່​ຈະ​ເລືອກ​ເອົາ​?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>ສຽງເວົ້າແບບອ່ານສະຄຣິບ</strong> (ຕາມປະເພນີທີ່ທ່ານຮູ້ຈັກໃນນາມສຽງທົ່ວໄປ) ແມ່ນບ່ອນທີ່ທ່ານສາມາດອ່ານປະໂຫຍກອອກສຽງໃນພາສາຂອງທ່ານໄດ້.
+need-help-deciding-platform-explanation-2 = <strong>ການປາກເວົ້າແບບກະທັນຫັນ</strong> ເປັນສ່ວນໃໝ່ຂອງ Common Voice ທີ່ທ່ານສາມາດຕອບຄຳຖາມໄດ້ໃນລັກສະນະທີ່ເປັນນິໄສ, ເວົ້າລົມກັນຫຼາຍຂຶ້ນ.
+need-help-deciding-platform-explanation-3 = ຖ້າທ່ານບໍ່ເຫັນພາສາຂອງທ່ານຢູ່ໃນສ່ວນໃດນຶ່ງຂອງເວທີ, ເລືອກທັງສອງ.7 7'

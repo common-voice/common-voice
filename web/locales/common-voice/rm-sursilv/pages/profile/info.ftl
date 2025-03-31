@@ -36,7 +36,6 @@ why-demographic = Daco ei quei relevant?
 accept-privacy = Jeu acceptel che vus tracteis quellas informaziuns sco vus declareis ellas <privacyLink>Directivas davart la protecziun da datas</privacyLink> da Mozilla.
 accept-privacy-title = Declaraziun davart la protecziun da datas
 login-identity = Identitad d'annunzia
-login-signup = s'annunziar / seregistrar
 edit = modificar
 email-subscriptions = Abonnaments dad e-mail
 download-profile = telecargar mias datas

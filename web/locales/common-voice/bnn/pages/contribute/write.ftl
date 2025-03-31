@@ -2,7 +2,7 @@
 
 write = mapatas
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

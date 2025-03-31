@@ -10,9 +10,6 @@ target-segment-first-card = ඔබ අපගේ පළමු ඉලක්ක ක
 target-segment-add-voice = ඔබේ කටහඩ එක් කරන්න
 target-segment-learn-more = තවත් දැනගන්න
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = වාර්ථාව

@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka men
 accept-privacy = Ke dumelana le wena gore o tla swara tshedimošo e ge go ba o hlalositše go Mozilla <privacyLink>Molao wa Sephiri</privacyLink>
 accept-privacy-title = Khupamarama ya Molao
 login-identity = Tsenya Boitšhupo
-login-signup = Tsena/Hloma akhaonte ya mošomiši
 edit = Rulaganya
 email-subscriptions = E-meile ya Boingwadišetšo
 download-profile = Tanelouta Datha Yaka

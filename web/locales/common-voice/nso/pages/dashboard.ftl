@@ -41,30 +41,77 @@ finish-editing = Fetša go rulaganya pele?
 lose-changes-warning = Go tšwa gona bjale go bolela gore o tlo lahlagelwa ke diphetogo tša gago
 build-custom-goal = Aga pakane e swanelegilego
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Re thuše go fihlela { $hours } iri { $language } ka pakane ya gago
        *[other] Re thuše go fihlela { $hours } diiri { $language } ka pakane ya gago
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thuša Common Voice e fihle { $hours } iri ka polelo  ya pakane ya gago
        *[other] Thuša Common Voice e fihle { $hours } diiri ka polelo  ya pakane ya gago
     }
 set-a-goal = Ipeele pakane
 cant-decide = Ga o kgone go kgetha?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } iri e ya fihlelelwa ka godimo ga
-       *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } kgwedi ge e ba
-       *[other] { $periodMonths } dikgwedi ge e ba
-    } { NUMBER($people) ->
-        [one] { $people } motho o rekhota
-       *[other] { $people } batho o rekhota
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } pego ka letšatši.
-       *[other] { $clipsPerDay } dipego ka letšatši.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
+                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
+                            }
+                    }
+            }
     }
 how-many-per-day = Go ka botse! Ke di pego tše kae ka letšatši?
 how-many-a-week = Seo se a kgahiša! Ke ditsopolwa tše kae ka beke?
@@ -72,7 +119,7 @@ which-goal-type = O nyaka go bolela, go Theeletša goba ka bobedi?
 receiving-emails-info = Gona bjale o loketše go hwetša di-emeile tša go swana le dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice.
 not-receiving-emails-info = Gona bjale o <bold>GANA</bold> go hwetša lenaneo la poso la dikgopotšo tša dipakane, sebontšhatšwelopele le mangwalo a ditaba tša Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } setsopolwa
        *[other] { $count } ditsopolwa
     }

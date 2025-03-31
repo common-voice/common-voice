@@ -1,7 +1,6 @@
 ## WRITE PAGE
 
 write = వ్రాయండి
-# WRITE PAGE
 write-instruction = <icon></icon> ఒక పబ్లిక్ డొమైన్ వాక్యాన్ని జోడించండి
 write-page-subtitle = ఇక్కడ అందించిన వాక్యాలు పబ్లిక్‌గా అందుబాటులో ఉన్న cc-0 లైసెన్స్ పొందిన డేటాసెట్‌కి జోడించబడతాయి.
 sentence =
@@ -22,8 +21,17 @@ required-field = దయచేసి ఈ క్షేత్రమును ని
 single-sentence-submission = ఒకే వాక్య సమర్పణ
 single-sentence = ఒకే వాక్యం
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 accepted-files = ఆమోదించబడిన ఫైల్ రకాలు: .tsv మాత్రమే
 file-invalid-type = చెల్లని ఫైల్
 file-too-small = ఫైల్ చాలా చిన్నది
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

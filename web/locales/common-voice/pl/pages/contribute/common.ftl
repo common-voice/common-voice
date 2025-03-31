@@ -24,9 +24,6 @@ target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projek
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Zgłoś

@@ -30,9 +30,6 @@ target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voi
 target-segment-add-voice = Engeza Izwi Lakho
 target-segment-learn-more = Funda kabanzi
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Bika

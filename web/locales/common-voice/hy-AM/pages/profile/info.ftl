@@ -39,7 +39,6 @@ why-demographic-explanation-2 = Օգտատերերի անանուն տվյալն
 accept-privacy = Համաձայն եմ իմ տվյալների մշակմանը՝ ըստ Mozilla-ի <privacyLink>Գաղտնիության քաղաքականության</privacyLink>։
 accept-privacy-title = Գաղտնիության քաղաքականություն
 login-identity = Մուտքի նույնականացում
-login-signup = Մտնել / Գրանցվել
 edit = Խմբագրել
 email-subscriptions = Էլ. փոստի բաժանորդագրություններ
 download-profile = Ներբեռնել իմ տվյալները

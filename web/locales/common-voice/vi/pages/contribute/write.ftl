@@ -63,7 +63,7 @@ sentence-variant-select-label = Biến thể câu
 sentence-variant-select-placeholder = Chọn một biến thể (tùy chọn)
 sentence-variant-select-multiple-variants = Ngôn ngữ chung / nhiều biến thể
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Tải lên <icon></icon> các câu thuộc phạm vi công cộng

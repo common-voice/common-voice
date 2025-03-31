@@ -47,7 +47,6 @@ accept-privacy-title = Miyuupuwelo sa pirivasitate
 accept-privacy-and-terms = Kinikupaleela vamosa ni<termsLink>Ikettelo </termsLink> ni  <privacyLink>Ikasoopa sa wikhupaarela </privacyLink> wa Common Voice
 login-identity = Musuwanyero wa ovaha okela
 login = Mukeeleke
-login-signup = Mukele/ mwiilepihe
 edit = Murenceliha
 email-subscriptions = Eleepihiwa wa imeeyili
 download-profile = Opaxaari nikhuuru na mihuupi

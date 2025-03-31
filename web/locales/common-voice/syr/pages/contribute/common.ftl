@@ -2,9 +2,6 @@ contribute = ܫܘܬܦ
 skip = ܫܘܪ
 shortcuts = ܦܣܩܐ
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 success = ܟܫܝܪܘܬܐ

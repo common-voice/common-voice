@@ -118,6 +118,13 @@ get-started = Pour commencer <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice est une plateforme libre et open source pour la création de données par la communauté.
+action-items-section-subtitle = Tout le monde peut préserver, revitaliser et améliorer sa langue en partageant, créant et gérant des jeux de données textuelles et vocales.
+scripted-card-header = Parole lue
+scripted-card-content = Lisez des phrases à haute voix dans votre langue et contribuez au jeu de données public le plus diversifié au monde.
+spontaneous-card-header = Parole spontanée
+spontaneous-card-content = Répondez à des questions pour créer des jeux de données pour des contextes naturels et conversationnels. Parfait pour les langues à prédominance orale.
+language-text-card-header = Texte
+language-text-card-content = Créez ou partagez des questions, des phrases et du texte du domaine public à traduire, des modèles linguistiques de petite taille, etc.
 add-text = Ajouter du texte
 
 ## Community section
@@ -145,14 +152,20 @@ contribute-github-action = Contribuer sur GitHub
 
 ## Featured section
 
+featured-section-title = On parle de nous sur…
 # icon is an arrow that points downwards
 download-press-pack = Téléchargez notre dossier de presse <icon></icon>
 
 ## Developers section
 
+developers-section-title = Jeux de données vocales ouvertes et publics dans plus de 130 langues
+developers-section-subtitle = Jeux de données pour les contextes ASR, STT, TTS et NLP - créés grâce à la participation de la communauté.
+# icon is an arrow that points to the right
+explore-datasets = Parcourir les jeux de données <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Soutenez des jeux de données ouverts et gérés par la communauté
 read-sentences-link = Lire des phrases
 validate-readings-link = Valider des lectures
 contribute-link = Contribuer au corpus de textes
@@ -160,9 +173,18 @@ answer-questions-link = Répondre à des questions
 transcribe-answers-link = Transcrire des réponses
 review-transcriptions-link = Vérifier des transcriptions
 contribute-text-link = Envoyer du texte
+press-and-stories-link = Presse et articles
 
 ## Partner section
 
 partner-section-title = Devenez partenaire
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Entreprises de la tech</bold> : investissez dans la création de jeux de données ouverts pour un écosystème d’IA multilingue florissant
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Société civile et chercheurs·euses</bold> : créez, hébergez et partagez des jeux de données gratuitement
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Organisations philanthropiques</bold> : parrainez la création de jeux de données pour stimuler l’innovation et le développement locaux
+# icon is an arrow that points to the right
+get-in-touch-button = Contactez-nous <icon></icon>
 # Partners section
 our-partners-include = Parmi nos partenaires…

@@ -3,7 +3,6 @@ age-gender-form-title = Doğaçlama Konuşma'ya katkı verdiğiniz için teşekk
 age-gender-form-subtile = Kendiniz hakkında bilgi vererek geliştiricilerin daha kapsayıcı teknoloji üretmelerine yardımcı olacaksınız
 add-information-button = Bilgi ekle
 continue-speaking-button = Konuşmaya devam et
-
 age-select-label = Yaşınız kaç?
 select-your-age = Yaşınızı seçiniz
 gender-select-label = Cinsiyetiniz ya da toplumsal cinsiyetiniz nedir?
@@ -16,6 +15,7 @@ why-are-you-asking-explanation = Bu bilgilerin verilmesi isteğe bağlıdır - b
 thank-you-for-your-information = Bilgileriniz için teşekkürler
 
 ## Gender dropdown
+
 male_masculine = Erkek/Eril
 female_feminine = Kadın/Dişil
 intersex = İnterseks

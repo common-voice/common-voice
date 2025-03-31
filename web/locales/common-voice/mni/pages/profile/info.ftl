@@ -50,7 +50,6 @@ accept-privacy-title = ꯄ꯭ꯔꯥꯏꯚꯦꯁꯤ ꯊꯧꯁꯤꯜ
 accept-privacy-and-terms = ꯀꯃꯟ ꯚꯣꯏꯁꯀꯤ ꯋꯥꯐꯝ ꯑꯁꯤ ꯑꯩꯍꯥꯛꯅꯥ ꯌꯥꯖꯩ<termsLink>ꯍꯤꯔꯝꯁꯤꯡ</termsLink>ꯑꯃꯁꯨꯡ<privacyLink>ꯄ꯭ꯔꯥꯏꯚꯦꯁꯤ ꯅꯣꯇꯤꯁ</privacyLink>
 login-identity = ꯃꯅꯨꯡ ꯆꯪꯁꯤꯟꯕ ꯁꯛꯇꯥꯛ
 login = ꯃꯅꯨꯡ ꯆꯪꯁꯤꯟꯕ
-login-signup = ꯃꯅꯨꯡꯆꯪꯁꯤꯟꯕ/ꯃꯤꯡ ꯄꯁꯤꯟꯕ
 edit = ꯁꯦꯝꯒꯠ-ꯁꯥꯒꯠꯂꯨ
 email-subscriptions = ꯏꯃꯦꯜ ꯁꯕꯁ꯭ꯛꯔꯤꯄꯁꯟ ꯇꯧꯕꯥ
 download-profile = ꯑꯩꯒꯤ ꯗꯥꯇꯥ ꯆꯤꯡꯊꯔꯛꯎ

@@ -6,9 +6,10 @@ action-click = Fer clic
 action-tap = Toca
 # Label for language switcher
 platform-language = Idioma d'a plataforma
+platform-language-tooltip-text = Cambia nomás lo texto d'o puesto web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = Contribuyendo a la base de datos de l'idioma { $language }
+contribution-picker-label = Contribuyindo a lo conchunto de datos de l'idioma { $language }
 contribution-picker-tooltip-text = Cambia lo conchunto de datos d'idioma a lo cual yes contribuyindo
 # Label for button on contribution switcher
 change = Cambiar
@@ -21,7 +22,7 @@ guidelines = Directrices
 # For the button to report an item
 report-button = Informar
 # For the button to skip an item
-skip-button = Blincar
+skip-button = Brincar
 submit-button = Ninviar
 contribute = Colaborar
 request-new-language = Demandar un nuevo idioma

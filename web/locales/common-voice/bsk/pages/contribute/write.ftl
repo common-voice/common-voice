@@ -66,7 +66,7 @@ sentence-variant-select-label = jumla variant
 sentence-variant-select-placeholder = variant damśi etin
 sentence-variant-select-multiple-variants = aam baaṣ/butan variants
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = awaami domain e jumlan upload etin

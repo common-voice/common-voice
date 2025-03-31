@@ -36,4 +36,3 @@ signup-button-value = 傳送連結到我的電子郵件
 footer-text-privacy = <privacyLink>隱私權</privacyLink>
 footer-text-terms = <termsLink>條款</termsLink>
 footer-text-cookies = <cookiesLink>Cookie<cookiesLink>
-

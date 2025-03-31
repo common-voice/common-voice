@@ -9,4 +9,3 @@ create-transcript-success = Yazı başarıyla gönderildi
 create-transcript-error = Bu yazı gönderilirken bir hata oluştu
 error-playing-audio = Ses dosyası çalma hatası.
 error-fetching-audio = Metne çevirmek için gereken ses dosyası yüklenirken bir şey ters gitti. Lütfen daha sonra bir daha deneyin.
-

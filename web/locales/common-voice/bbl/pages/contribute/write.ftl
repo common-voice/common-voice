@@ -66,7 +66,7 @@ sentence-variant-select-label = წინადა́დბეჼ კუთხუ
 sentence-variant-select-placeholder = ჩა́ვარჲებათ მატტიჼ ნაირსა́ხეობ (ცოაუცილებელ)
 sentence-variant-select-multiple-variants = ძირითად მოტტ/მელ'მი სა́ხეობ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ჰ̦ალო̆ ჴო́წდებათ/ატვი́რთოდებათ მელ'მი წინადა́დებ ჰ̦ამა́ნეჸ საკუთრებელეჼ

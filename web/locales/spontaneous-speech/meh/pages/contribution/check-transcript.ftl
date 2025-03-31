@@ -1,4 +1,5 @@
 ## Check Transcriptions page
+
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Teso'o nusu nu'un va'a de iyo ñuu jun jin a ntee nu. Detun ntuvi nasa'a vii maaja sava koo nuu jun.
 # Header of the textbox that contains a transcription of an audio

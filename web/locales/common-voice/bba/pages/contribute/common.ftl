@@ -30,11 +30,6 @@ target-segment-first-banner = I somiyo bù ka  gari bɛɛrun yĩire gbiikiru s
 target-segment-add-voice = I nɔɔ kɛ̃ɛyo
 target-segment-learn-more = bù ka gia ya n kpã
 change-preferences = Bù kɔsi yè ba ràa kĩru bo
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = gɔ̃̀rusun nɔɔ mɛnnabu
-contribute-sentence-collection-nav-header = Garin nɔɔ mɛnnabu
 login-signup = Bù du woo kpĩa sɔɔ/ bù yĩsiru yore
 vote-yes = Oo
 vote-no = Aawo

@@ -58,7 +58,6 @@ accept-privacy-title = شەخسىيەت تۈزۈمى
 accept-privacy-and-terms = مەن Common Voice نىڭ <termsLink> شەرتلىرى </termsLink> ۋە <privacyLink>مەخپىيەتلىك ئۇقتۇرۇشى </privacyLink> غا قوشۇلىمەن.
 login-identity = كىرىش كىملىكى
 login = كىرىش
-login-signup = كىرىڭ / تىزىملىتىڭ
 edit = تەھرىرلەش
 email-subscriptions = ئېلخەت مۇشتەرىلىكى
 download-profile = سانلىق مەلۇماتىمنى چۈشۈرىمەن

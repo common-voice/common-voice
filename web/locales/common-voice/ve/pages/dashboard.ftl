@@ -41,30 +41,77 @@ finish-editing = Fhedzani u editha u thoma?
 lose-changes-warning = Na ṱuwa zwino ni ḓo xelelwa nga tshanduko dzaṋu
 build-custom-goal = Itani tshipikwa tsho ḓoweleaho
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thusani ri swikelele { $hours } awara { $language } nga tshipikwa tshaṋu
        *[other] Thusani ri swikelele { $hours } dzi awara { $language } nga tshipikwa tshaṋu
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Thusani Common Voice u swikelele { $hours } awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
        *[other] Thusani Common Voice u swikelele { $hours } dzi awara kha luambo nga tshipikwa tshe muthu a ḓivhetshela
     }
 set-a-goal = Itani tshipikwa
 cant-decide = A ni koni u dzhia phetho?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } awara i nga swikelelea nga murahu ha
-       *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } ṅwedzi arali
-       *[other] { $periodMonths } miṅwedzi arali
-    } { NUMBER($people) ->
-        [one] { $people } muthu rekhonani
-       *[other] { $people } vhathu rekhodani
-    } { NUMBER($clipsPerDay) ->
-        [one] rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-       *[other] rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
+                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
+                            }
+                    }
+            }
     }
 how-many-per-day = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga ḓuvha?
 how-many-a-week = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga vhege?
@@ -72,7 +119,7 @@ which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
 receiving-emails-info = Zwa zwino ni kha mutevhe wa vhane vha ḓo wana email dzi ngaho dza u ni humbudza nga ha zwipikwa, mvela phanḓa yaṋu na maswa maswa nga ha Common Voice
 not-receiving-emails-info = Zwa zwino no pangiwa kha u <bold>U SA</bold> wana milaedza nga email yo no nga khumbudzo dza zwipikwa, mvela phanḓa yaṋu na newsletters nga ha Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } zwo rekhodiwaho
        *[other] { $count } zwo rekhodiwaho
     }

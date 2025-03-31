@@ -133,7 +133,6 @@ spontaneous-card-header = Spontán beszéd
 spontaneous-card-content = Válaszoljon kérdésekre, hogy természetes, köznyelvi adatkészleteket készítsen. Tökéletes az elsősorban beszédhez használt nyelvekhez.
 language-text-card-header = Nyelvi szöveg
 language-text-card-content = Hozzon létre vagy osszon meg közkincsű kérdéseket és mondatokat, valamint fordításhoz, kis nyelvi modellekhez és egyebekhez használható szövegeket.
-coming-soon = Hamarosan
 add-text = Szöveg hozzáadása
 
 ## Community section

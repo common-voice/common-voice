@@ -35,7 +35,6 @@ thanks-for-account = Täname, et kinnitasid oma kasutajakonto, loome nüüd sull
 why-demographic = Miks see oluline on?
 accept-privacy = Olen nõus selle info käsitsemiseks Mozilla <privacyLink>privaatsusreeglitest</privacyLink> lähtuvalt
 login-identity = Kasutajatunnus
-login-signup = Logi sisse / registreeru
 edit = Muuda
 email-subscriptions = E-kirjade tellimused
 download-profile = Laadi oma andmed alla

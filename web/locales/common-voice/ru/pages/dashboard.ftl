@@ -41,13 +41,13 @@ finish-editing = Хотите сначала закончить редактир
 lose-changes-warning = Уход сейчас означает, что вы потеряете сделанные изменения
 build-custom-goal = Создать собственную цель
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Помогите достичь { $hours } часа на { $language } с помощью личной цели
         [few] Помогите достичь { $hours } часов на { $language } с помощью личной цели
        *[many] Помогите достичь { $hours } часов на { $language } с помощью личной цели
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Помогите Common Voice достичь { $hours } часа на этом языке с помощью личной цели
         [few] Помогите Common Voice достичь { $hours } часов на этом языке с помощью личной цели
        *[many] Помогите Common Voice достичь { $hours } часов на этом языке с помощью личной цели
@@ -55,22 +55,205 @@ help-reach-hours-general-pluralized =
 set-a-goal = Поставить цель
 cant-decide = Не можете решиться?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } час достижимо за
-        [few] { $totalHours } часа достижимо за
-       *[many] { $totalHours } часов достижимо за
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } месяц если
-        [few] { $periodMonths } месяца если
-       *[many] { $periodMonths } месяцев если
-    }{ NUMBER($people) ->
-        [one] { $people } человек будут делать
-        [few] { $people } человека будут делать
-       *[many] { $people } человек будут делать
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } запись в день.
-        [few] { $clipsPerDay } записи в день.
-       *[many] { $clipsPerDay } записей в день.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } час достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часа достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+            }
+       *[many]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяц если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяца если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человека будут делать{ $clipsPerDay } записей в день.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } запись в день.
+                                [few] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записи в день.
+                               *[many] { $totalHours } часов достижимо за{ $periodMonths } месяцев если{ $people } человек будут делать{ $clipsPerDay } записей в день.
+                            }
+                    }
+            }
     }
 how-many-per-day = Отлично! Сколько записей в день?
 how-many-a-week = Отлично! Сколько записей в неделю?
@@ -80,7 +263,7 @@ receiving-emails-info =
     о своих достижениях и новости о Common Voice.
 not-receiving-emails-info = Вы <bold>НЕ</bold> будете получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } запись
         [few] { $count } записи
        *[many] { $count } записей

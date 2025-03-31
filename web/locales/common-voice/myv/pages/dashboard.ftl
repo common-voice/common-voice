@@ -40,38 +40,85 @@ finish-editing = Прядомс васня витнематнень?
 lose-changes-warning = Нейке лисиндерят, весе полавтоматнень ёмавтсыть
 build-custom-goal = Путомс эстеть норовавкс-цель, конась эстеть лади
 help-reach-hours-pluralized =
-    Лездак изнямс{ NUMBER($hours) ->
-        [one] { $hours } час
-       *[other] { $hours } част
-    } { $language }сэ эсеть норовавксот-целеть вельде
+    { $hours ->
+        [one] Лездак изнямс{ $hours } час { $language }сэ эсеть норовавксот-целеть вельде
+       *[other] Лездак изнямс{ $hours } част { $language }сэ эсеть норовавксот-целеть вельде
+    }
 help-reach-hours-general-pluralized =
-    Лездак Common Voice-нень изнямс кельсэть { NUMBER($hours) ->
-        [one] { $hours } час
-       *[other] { $hours } част
-    } эсеть норовавкссот-цельсэть
+    { $hours ->
+        [one] Лездак Common Voice-нень изнямс кельсэть { $hours } час эсеть норовавкссот-цельсэть
+       *[other] Лездак Common Voice-нень изнямс кельсэть { $hours } част эсеть норовавкссот-цельсэть
+    }
 set-a-goal = Путомс норовавкс-цель
 cant-decide = Кавтолдат?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } час пурнави
-       *[other] { $totalHours } част пурнавить
-    } сеске { NUMBER($periodMonths) ->
-        [one] { $periodMonths } ковдо
-       *[other] { $periodMonths } ковдо
-    } мейле { NUMBER($people) ->
-        [one] { $people } ломань карминдеряй
-       *[other] { $people } ломанть карминдеряйть
-    } сёрмадомо { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } клип
-       *[other] { $clipsPerDay } клипть
-    } чизэнзэ.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
+                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Маралянь тевть! Зяро клипть чизэнзэ?
 how-many-a-week = Маралянь тевть! Зяро клипть таргозонзо?
 which-goal-type = Тон арсят Кортамс, Кунсоломс эли кавонест тевтнень тейсыть?
 receiving-emails-info = Ней аравтоматне невтить учат пельденк сёрмат, конатнесэ ёвтави «Common Voice» проектэнь норовавкстнэде-цельтнеде, зяро ды кода монь путовкстнэ лэздыть ды конат пачтить проектэнь кулялопат.
 not-receiving-emails-info = Зярс аравтоматне невтить <bold>А УЧАТ</bold> пельденк сёрмат, конатнесэ ёвтави «Common Voice» проектэнь норовавкстнэде-цельтнеде, зяро ды кода монь путовкстнэ лэздыть ды конат пачтить проектэнь кулялопат.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } клип
        *[other] { $count } клипть
     }

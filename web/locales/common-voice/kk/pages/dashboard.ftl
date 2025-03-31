@@ -41,32 +41,35 @@ finish-editing = Алдымен редакциялауды аяқтайсыз б
 lose-changes-warning = Қазір шығып кетсеңіз, Сіздің өзгертулеріңіз сақталынбайды
 build-custom-goal = Жеке мақсатты құр
 help-reach-hours-pluralized =
-    Жетуге көмектесіңіз{ NUMBER($hours) ->
-       *[other] сағат
-    }{ $language } тілінде жеке мақсатпен
+    { $hours ->
+       *[other] Жетуге көмектесіңізсағат{ $language } тілінде жеке мақсатпен
+    }
 help-reach-hours-general-pluralized =
-    Common Voice - қа жетуге көмектесіңіз{ NUMBER($hours) ->
-       *[other] сағат
-    }жеке мақсаты бар тілде
+    { $hours ->
+       *[other] Common Voice - қа жетуге көмектесіңізсағатжеке мақсаты бар тілде
+    }
 set-a-goal = Мақсат қойыңыз
 cant-decide = Шешім қабылдай алмайсыз ба?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } сағатқа
-    }қол жеткізуге болады{ NUMBER($periodMonths) ->
-       *[other] { $periodMonths } ай ішінде
-    }егер{ NUMBER($people) ->
-       *[other] { $people } адам
-    }жазса{ NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } клип
-    }күніне
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } сағатқақол жеткізуге болады{ $periodMonths } ай ішіндеегер{ $people } адамжазса{ $clipsPerDay } клипкүніне
+                            }
+                    }
+            }
+    }
 how-many-per-day = Керемет! Күніне қанша клип?
 how-many-a-week = Керемет! Аптасына қанша клип?
 which-goal-type = Сіз сөйлегіңіз келе ме, тыңдайсыз ба әлде екеуі де ме?
 receiving-emails-info = Қазіргі уақытта ескертулерді, жеістігіңіз туралы жаңартуларды және Common Voice туралы жаңалықтарды қамтитын электрондық хаттарды <bold> алу</bold> күйіне келтірілгенсіз
 not-receiving-emails-info = Қазіргі уақытта ескертулерді, жеістігіңіз туралы жаңартуларды және Common Voice туралы жаңалықтарды қамтитын электрондық хаттарды <bold> алмау</bold> күйіне келтірілгенсіз
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } клип
     }
 help-share-goal = Бізге көбірек дауыстар табуға көмектесіңіз, мақсатыңызбен бөлісіңіз

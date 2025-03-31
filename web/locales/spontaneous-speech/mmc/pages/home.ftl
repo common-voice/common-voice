@@ -1,4 +1,5 @@
 ## Home page
+
 welcome-to-spontaneous-speech = Bá 'éji ná jó'o ñá'a espontánea
 # <br></br> represents a newline break
 wall-of-text = Common Voice yé'p'e 'ä̀tä ná pájina. Nú pájina nù yé'p'e rá péjñe yó jñátjo. Nú jyóra mbósi ná pǔnkü jñíni ngéjo komunidad para hüru ná pǔnkü ñā́'ā nújyò ngéko rá mbára ná pǔnkü të̌'ë

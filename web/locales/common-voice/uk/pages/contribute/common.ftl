@@ -29,11 +29,6 @@ target-segment-first-banner = Допоможіть Common Voice досягнут
 target-segment-add-voice = Додайте ваш голос
 target-segment-learn-more = Докладніше
 change-preferences = Змінити налаштування
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Збірка голосів
-contribute-sentence-collection-nav-header = Збірка речень
 login-signup = Увійти / Зареєструватися
 vote-yes = Так
 vote-no = Ні

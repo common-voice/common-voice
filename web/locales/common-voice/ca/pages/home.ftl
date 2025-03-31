@@ -102,7 +102,6 @@ about-menu-aria-label = Menú d'opcions de Quant a
 
 ## Action items section
 
-coming-soon = Pròximament
 
 ## Community section
 

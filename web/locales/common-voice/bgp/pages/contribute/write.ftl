@@ -66,7 +66,7 @@ sentence-variant-select-label = جملہ ء لہجہ
 sentence-variant-select-placeholder = لہجہ چنڑے (وسی مرضی)
 sentence-variant-select-multiple-variants = عام زبان/ کافئ سارویں قسمیں
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon>  عوامی ڈومین جملہ پ لوڈ کنی

@@ -1,8 +1,5 @@
 contribute = Jàpp ci
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

@@ -1,6 +1,7 @@
 ## Transcribe Audio page
+
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-audio-page-instruction = { $actionType } <playIcon></playIcon> je tee a jini nu katyi da ñivɨ nuu nusu 
+audio-page-instruction = { $actionType } <playIcon></playIcon> je tee a jini nu katyi da ñivɨ nuu nusu
 editbox-header = Natee
 editbox-placeholder = Tee a katyi da ñivɨ
 no-audio-message = Na iyo tatyi nusu natee nu vitan ñu'u. Sa'a tu'un mani ini nasajiaa na'a tutu axin kunuu de ke'in tuku nu maajan.

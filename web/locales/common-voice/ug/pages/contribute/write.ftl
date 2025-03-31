@@ -66,7 +66,7 @@ sentence-variant-select-label = جۈملە تۈرى
 sentence-variant-select-placeholder = تۈرى تاللىنىدۇ (تاللاشچان)
 sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ خىل تۈرى
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon> يۈكلەڭ

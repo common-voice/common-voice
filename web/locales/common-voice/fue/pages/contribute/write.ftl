@@ -5,7 +5,6 @@ write-instruction = ɓeedugo <icon></icon>  konŋol der wakkeere duuniaru
 write-page-subtitle = konŋi hokkaaɗi ɗo ɓeeɗetin der fijo wakkeere duuniyaru sous licence cc-0
 sentence =
     .label = jiiɗe
-sentence-input-value = winnu konŋol ma ŋol wakkeere duuniyaru
 citation-input-placeholder = laaɓinin wunduwol konŋol ma (doole)
 citation =
     .label = jiiɗe
@@ -30,7 +29,6 @@ required-field = ɓeedee wakkeere neeɗo
 single-sentence-submission = liddugo  konŋol gootol
 bulk-sentence-submission = liddugo  konŋi ɗuɗɗi
 single-sentence = konŋol gootol
-bulk-sentences = konŋi ɗuɗɗi
 sentence-domain-combobox-label = jeede konŋol
 sentence-domain-select-placeholder = suɓee faa jeede tatai
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = bayle konŋol
 sentence-variant-select-placeholder = suɓu bayle konŋol gom
 sentence-variant-select-multiple-variants = ko hawritii der ɗemŋal/ bayle ɗuuɗɗe
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = liddoy <icon></icon> konŋi duuniyaruuji
@@ -89,3 +87,12 @@ file-invalid-type = fichier ŋu gollataa
 file-too-large = fichier ŋu e teddi puy
 file-too-small = fichier ŋu e fanɗɗi puy
 too-many-files = fichier  ɗuɗɗi
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

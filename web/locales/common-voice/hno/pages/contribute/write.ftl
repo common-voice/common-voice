@@ -66,7 +66,7 @@ sentence-variant-select-label = جملے دا لہجہ
 sentence-variant-select-placeholder = ہک لہجہ چنڑو (اختیاری)
 sentence-variant-select-multiple-variants = عام زبان/ مُچ طرح دے لہجے
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> عوامی ڈومین دے جملے اپلوڈ کرو

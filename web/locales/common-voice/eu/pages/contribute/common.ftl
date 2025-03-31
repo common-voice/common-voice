@@ -29,11 +29,6 @@ target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atal
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ahotsak biltzea
-contribute-sentence-collection-nav-header = Esaldiak biltzea
-
 ## Reporting
 
 report = Salatu

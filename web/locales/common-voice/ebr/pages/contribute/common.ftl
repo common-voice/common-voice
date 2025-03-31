@@ -27,11 +27,6 @@ target-segment-add-voice = ɔ́n sé hɔ́n tɔ́
 target-segment-learn-more = O yɛ́n ká tho
 change-preferences = ɔ́n jrɛn hɔ́n nthɛ́n-phɔ́yí
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = átɔ́ o bhwrɛ hɛ́n
-contribute-sentence-collection-nav-header = ábhwetɔ́ o bhwrɛ hɛ́n
-
 ## Reporting
 
 report = ɔ́n tɔ

@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Səsinizi qeyd edin
 share-title-new = Daha çox səs tapmağımıza <bold>Kömək edin</bold>
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

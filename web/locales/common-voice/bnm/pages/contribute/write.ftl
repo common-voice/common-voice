@@ -5,7 +5,6 @@ write-instruction = Badeyaha  <icon></icon>nʼlɛ́ndi mú móhi mú mambo ma
 write-page-subtitle = Melɛ́ndi mé móhi mévɛbɛni óvah méhábadɛbɛndi ó ebɔngɔnedi ya malánga mabíyabɛ na moto wɛ́hɛ́pi ó ihulama cc-O
 sentence =
     .label = Inɔngɔ na itimbilanɛ móhi má moto opɔ́kwɛ mabeyinɔ.
-sentence-input-value = Tilaha nʼlɛ́ndi mú mambo má moto wɛ́hɛ́pi mabinɔ óvah
 citation-input-placeholder = Lángwahani óvévé wɔnywu vopaheyinɔ nʼlɛ́ndi mɔ́nywu( Ondini pambaleyango iha kahá yɔ́ ebeyaminɔ óvah)
 citation =
     .label = Inɔngɔ na itimbilanɛ móhi má moto opɔ́kwɛ mabeyinɔ.
@@ -30,7 +29,6 @@ required-field = Na mahiyedɛ badeyahani mambo má ibadɛ ehanjaho tɛ́h yé
 single-sentence-submission = Ilomedɛ nʼlɛ́ndi mú móhi mɔhɔ́
 bulk-sentence-submission = Ilomedɛ melɛ́ndi mé móhi méhiti
 single-sentence = Nʼlɛ́ndi mú móhi mɔhɔ́
-bulk-sentences = melɛ́ndi mé móhi méhiti
 sentence-domain-combobox-label = Nʼlɛ́ndi mú móhi mútɛ́ngɛ́nɛndi mambo mávévé má emɛnɔ
 sentence-domain-select-placeholder = Tɔ́tɔhɔni mambo má emɛnɔ
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Makahá má melɛ́ndi
 sentence-variant-select-placeholder = Tɔ́tɔhɔni dikahá jɔhɔ́ dá nʼlɛ́ndi ( Ohapa[mbaleyini iha náhtanɛ )
 sentence-variant-select-multiple-variants = Mambo má ibahedɛ ó ŋʼhálo ó mongolo mɔmu/ Mepwalo mehiti mé ŋʼhálo
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Lomedɛhɛni <icon></icon> mélɛ́ndi mé móhi mé mambo má moto wɛ́hɛ́pi mabínɔ
@@ -89,3 +87,12 @@ file-invalid-type = Ebɔngɔnedɛ́ tɛ́h yé ehitiwɛ hongomanɛngo
 file-too-large = Ebɔngɔnedɛ́ tɛ́h yé éndi na pivi bohito
 file-too-small = Ebɔngɔnedɛ́ tɛ́h yé epɛveleyindi
 too-many-files = Bebɔngɔnedɛ́ béndini bohito.
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

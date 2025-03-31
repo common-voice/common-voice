@@ -129,7 +129,6 @@ spontaneous-card-header = Spontane rěčenje
 spontaneous-card-content = Wotmołwće na namołwy, zo byšće datowe sadźby za organiske, wobchadnorěčne konteksty wutworił. To je perfektne za předewšěm ertne rěče.
 language-text-card-header = Rěčny tekst
 language-text-card-content = Wutworće abo dźělće zjawne namołwy, sady a tekst za přełoženje, małe rěčne modele a wjace.
-coming-soon = Bórze k dispoziciji
 add-text = Tekst přidać
 
 ## Community section

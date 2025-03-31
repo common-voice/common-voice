@@ -3,7 +3,6 @@ age-gender-form-title = 感謝您捐出錄音片段！
 age-gender-form-subtile = 方便分享你的相關資訊嗎？一起協助建立更包容的科技
 add-information-button = 提供資訊
 continue-speaking-button = 繼續錄音
-
 age-select-label = 你的年齡？
 select-your-age = 選擇你的年齡
 gender-select-label = 性別
@@ -16,6 +15,7 @@ why-are-you-asking-explanation = 你不一定需要提供此資訊。當我們�
 thank-you-for-your-information = 感謝您捐出錄音片段！
 
 ## Gender dropdown
+
 male_masculine = 男性
 female_feminine = 女性
 intersex = 雙性

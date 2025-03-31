@@ -10,6 +10,7 @@ datasets-positioning =
     Sjå på denne sida som eit referansemidtpunkt for andre datasett med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
 language = Språk
 download-dataset-header = Last ned datasettet
+download-dataset-tag = Vel datasettet for språket du treng, deretter versjonen du ønskjer laste ned.
 # File size in gigabytes
 size = Storleik
 validated-hr-total = Totalt validerte timar
@@ -63,9 +64,11 @@ dataset-version = Versjon
 sha256-checksum-copied = SHA256-kontrollsum kopiert!
 sha256-checksum-copied-error = Klarte ikkje å kopiere SHA256-kontrollsummen
 clipboard-not-supported = Utklippstavle ikkje støtta
+no-information-available = Ingen informasjon tilgjengeleg
 dataset-metadata-sex = Kjønn
 # dataset metadata - age of contributor
 dataset-metadata-age = Alder
+donate-modal-message = Datasettet ditt blir lasta ned!
 dataset-donate-modal-heading = Visste du at…
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Om du set pris på opne, inkluderande data – doner i dag!</bold>

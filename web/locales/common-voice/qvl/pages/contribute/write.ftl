@@ -66,7 +66,7 @@ sentence-variant-select-label = Sentence Variant
 sentence-variant-select-placeholder = Huk niraq pashtachiyninta akray (munarqa)
 sentence-variant-select-multiple-variants = Shimi / imayka niraq pashtachiykuna
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Upload <icon></icon> public domain sentences

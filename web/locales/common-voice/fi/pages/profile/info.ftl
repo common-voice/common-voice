@@ -43,7 +43,6 @@ accept-privacy-title = Yksityisyyskäytäntö
 accept-privacy-and-terms = Hyväksyn Common Voicen <termsLink>ehdot</termsLink> ja <privacyLink>tietosuojakäytännön</privacyLink>
 login-identity = Käyttäjätunnus
 login = Kirjaudu sisään
-login-signup = Kirjaudu / Rekisteröidy
 edit = Muokkaa
 email-subscriptions = Sähköpostitilaukset
 download-profile = Lataa omat tietoni

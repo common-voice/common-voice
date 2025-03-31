@@ -41,31 +41,78 @@ finish-editing = پہلے ترمیم ختم کرو؟
 lose-changes-warning = ابھی چھوڑنے کا مطلب ہے کہ آپ اپنی تبدیلیوں سے محروم ہوجائیں گے
 build-custom-goal = ایک حسب ضرورت مقصد بنائیں
 help-reach-hours-pluralized =
-    پہنچنے میں مدد{ NUMBER($hours) ->
-        [one] { $hours }  گھنٹا
-       *[other] { $hours }  گھنٹے
-    }{ $language } زبان میں زاتی گول کے ساتھ
+    { $hours ->
+        [one] پہنچنے میں مدد{ $hours }  گھنٹا{ $language } زبان میں زاتی گول کے ساتھ
+       *[other] پہنچنے میں مدد{ $hours }  گھنٹے{ $language } زبان میں زاتی گول کے ساتھ
+    }
 help-reach-hours-general-pluralized =
-    Common Voice  کو پھنھنے میں مدد{ NUMBER($hours) ->
-        [one] { $hours }  گھنٹا
-       *[other] { $hours }  گھنٹے
-    }ایک  زبان میں زاتی گول کے ساتھ
+    { $hours ->
+        [one] Common Voice  کو پھنھنے میں مدد{ $hours }  گھنٹاایک  زبان میں زاتی گول کے ساتھ
+       *[other] Common Voice  کو پھنھنے میں مدد{ $hours }  گھنٹےایک  زبان میں زاتی گول کے ساتھ
+    }
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours }  گھنٹا
-       *[other] { $totalHours }  گھنٹے
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths }  مہنہ
-       *[other] { $periodMonths }  مہینے
-    }اگر{ NUMBER($people) ->
-        [one] { $people }  عوام
-       *[other] { $people }  عوام
-    }ریکارڈ{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay }  تراشہ
-       *[other] { $clipsPerDay }  تراشے
-    }ایک دن
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
+                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
+                            }
+                    }
+            }
+    }
 how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 how-many-a-week = زبردست! ہفتے میں کتنے کلپس ہیں؟
 which-goal-type = کیا آپ بولنا ، سننا چاہتے ہیں یا دونوں؟
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     آپ فی الحال<bold>  نہیں  </bold> پر ای میل موصول کرنے پر سیٹ ہیں جیسے گول یاددہانی ، میری
     Common Voice  کے بارے میں پیشرفت کی تازہ ترین خبریں اور نیوز لیٹر
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }  تراشہ
        *[other] { $count }  تراشے
     }

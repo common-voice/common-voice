@@ -41,72 +41,72 @@ finish-editing = ლე́ჸი შუჼ ჯერ ნიფსჲარ ცე
 lose-changes-warning = ინცაჸ მაყბალ'რევ შუჼ ცვლილბი დაჰ̦ ჲა́ვოჲო̆
 build-custom-goal = საკუთარ მიზაჼ შე́ქმნოდარ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
        *[other] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
        *[other] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
     }
 set-a-goal = მიზაჼ მითითბადარ
 cant-decide = ცუჲ ჩავარდომაკინდა ჰ̦ოჼ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                                *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
                             }
@@ -119,7 +119,7 @@ which-goal-type = ჩაწე́რადარი თე́ლ' ჰ̦ო, ლა
 receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადუ́ჲნჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხ ჲე  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
 not-receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე<bold>ცო</bold> ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადუ́ჲნჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხ ჲე  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] ჩანაწერ
        *[other] ჩანაწერ
     }

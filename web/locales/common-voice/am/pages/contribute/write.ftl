@@ -66,7 +66,7 @@ sentence-variant-select-label = የዓረፍተ-ነገር ልዩነት
 sentence-variant-select-placeholder = ተለዋጭ ይምረጡ (አማራጭ)
 sentence-variant-select-multiple-variants = አጠቃላይ ቋንቋ / በርካታ ተለዋጮች
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> የሕዝብ ጎራ ዓረፍተ-ነገሮችን ይጫኑ

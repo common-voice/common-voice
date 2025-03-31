@@ -40,6 +40,7 @@ interface ContributeMenuProps extends RouteComponentProps {
   menuLabel: NavItem
   menuTooltip: string
   menuAriaLabel: string
+  toggleMenu?: () => void
 }
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
@@ -52,6 +53,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   menuLabel,
   menuTooltip,
   menuAriaLabel,
+  toggleMenu,
 }) => {
   const { l10n } = useLocalization()
 
@@ -69,7 +71,11 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   if (!menuItems) {
     return (
       <div className="contribute-wrapper datasets">
-        <LocalizedNavLink id={menuLabel} to={URLS.DATASETS} />
+        <LocalizedNavLink
+          id={menuLabel}
+          to={URLS.DATASETS}
+          onClick={toggleMenu}
+        />
         <Tooltip
           anchorSelect={`#${menuLabel}`}
           style={{
@@ -78,7 +84,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             fontFamily: 'Open Sans',
             fontSize: '12px',
             zIndex: '1',
-          }}>
+          }}
+          openEvents={{ mouseover: true }}>
           {l10n.getString(menuTooltip)}
         </Tooltip>
       </div>
@@ -139,6 +146,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
               contributeMenuItems={menuItems}
               isUserLoggedIn={isUserLoggedIn}
               isLocaleContributable={isLocaleContributable}
+              toggleMenu={toggleMenu}
             />
           </div>
         )}
@@ -166,7 +174,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           fontSize: '12px',
           zIndex: '1',
         }}
-        hidden={showMenu}>
+        hidden={showMenu}
+        openEvents={{ mouseover: true }}>
         {l10n.getString(menuTooltip)}
       </Tooltip>
     </div>

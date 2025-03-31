@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Үнүңөрдү жаздыргыла
 share-title-new = Дагы үн тапканга <bold>бизге жардам</bold> бергиле
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

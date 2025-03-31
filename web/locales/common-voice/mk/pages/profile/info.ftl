@@ -51,7 +51,6 @@ accept-privacy-title = Политика за приватност
 accept-privacy-and-terms = Се согласувам со <termsLink>условите</termsLink> и <privacyLink>известување за приватност</privacyLink> на Common Voice
 login-identity = Идентитет за најавување
 login = Најавете се
-login-signup = Најава / Регистрација
 edit = Уредување
 email-subscriptions = Претплати за е-пошта
 download-profile = Преземи ги моите податоци

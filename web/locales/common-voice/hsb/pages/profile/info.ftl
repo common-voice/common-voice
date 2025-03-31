@@ -56,7 +56,6 @@ accept-privacy-title = Prawidła priwatnosće
 accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 login-identity = Přizjewjenska identita
 login = Přizjewić
-login-signup = Přizjewić/Registrować
 edit = Wobdźěłać
 email-subscriptions = E-mejlowe abonementy
 download-profile = Moje daty sćahnyć

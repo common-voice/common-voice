@@ -12,10 +12,6 @@ target-segment-generic-card = Estás contribuyendo a un segmento objetivo
 target-segment-add-voice = Agrega tu voz
 target-segment-learn-more = Aprende más
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Colección de voz
-
 ## Reporting
 
 report = Informe

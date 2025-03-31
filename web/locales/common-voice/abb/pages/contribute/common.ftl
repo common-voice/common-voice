@@ -30,11 +30,6 @@ target-segment-first-banner = Woŋwa i iɓɔ̄gɔ̂k di iɓeŋga diɓasu di ntɔ
 target-segment-add-voice = Ɓɔ̌ŋ kiŋ yɔ̌ŋ
 target-segment-learn-more = Mànɛyi mapɛ
 change-preferences = Fèŋsa cɛ̄ ki ɔ dìŋi
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ìyɔŋgɔk di kiŋ
-contribute-sentence-collection-nav-header = Ìyɔŋgɔ̀k di mikòobyaà
 login-signup = Tèŋew / Cììsɛ jǒ
 vote-yes = Eē
 vote-no = Kɛm

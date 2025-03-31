@@ -30,11 +30,6 @@ target-segment-first-banner = kwɛtə mfɛ̀'ɛ̀ nɨ̂ njì mə common voice j
 target-segment-add-voice = kù'ùsə njì yò
 target-segment-learn-more = yəgə jî ŋ̀ghà'àtə̀
 change-preferences = kwisə ɨ̀nnù jìi bɨ lɔ̀ɔ̀ aà
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = m̀bòònsə̂ ǹjì
-contribute-sentence-collection-nav-header = m̀bòònsə̂ m̀ɨ̀kàŋ mɨ́ ɨ̀nnù
 login-signup = kuû/fɛ̀'ɛ̂
 vote-yes = ɨ̀ŋŋə̂.
 vote-no = kaa tsɨ'ɨ̀ kù'ùnə̂

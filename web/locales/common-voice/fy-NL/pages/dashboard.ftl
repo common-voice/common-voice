@@ -41,31 +41,78 @@ finish-editing = Earst bewurking foltôgje?
 lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
 help-reach-hours-pluralized =
-    Help mei{ NUMBER($hours) ->
-        [one] { $hours } oere
-       *[other] { $hours } oeren
-    }yn it { $language } te berikken mei in persoanlike doelstelling
+    { $hours ->
+        [one] Help mei{ $hours } oereyn it { $language } te berikken mei in persoanlike doelstelling
+       *[other] Help mei{ $hours } oerenyn it { $language } te berikken mei in persoanlike doelstelling
+    }
 help-reach-hours-general-pluralized =
-    Help Common Voice{ NUMBER($hours) ->
-        [one] { $hours } oere
-       *[other] { $hours } oeren
-    }yn in taal te berikken mei in persoanlike doelstelling
+    { $hours ->
+        [one] Help Common Voice{ $hours } oereyn in taal te berikken mei in persoanlike doelstelling
+       *[other] Help Common Voice{ $hours } oerenyn in taal te berikken mei in persoanlike doelstelling
+    }
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } oere
-       *[other] { $totalHours } oeren
-    }is berikber yn wat mear as{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } moanne
-       *[other] { $periodMonths } moannen
-    }as{ NUMBER($people) ->
-        [one] { $people } persoan
-       *[other] { $people } persoanen
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } fragmint
-       *[other] { $clipsPerDay } fragminten
-    }op in dei opnimme
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
+                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
+                            }
+                    }
+            }
+    }
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
 how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn ’e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Der is op dit stuit ynsteld dat jo <bold>GJIN</bold> e-mailberjochten lykas omtinken oan doelen,
     fernijingen oer jo fuortgong en nijsbrieven oer Common Voice ûntfange
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } fragmint
        *[other] { $count } fragminten
     }

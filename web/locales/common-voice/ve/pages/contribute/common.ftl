@@ -30,9 +30,6 @@ target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u 
 target-segment-add-voice = Pangani ipfi ḽaṋu
 target-segment-learn-more = Gudani zwo Engedzeaho
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Muvhigo

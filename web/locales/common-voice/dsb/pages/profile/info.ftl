@@ -56,7 +56,6 @@ accept-privacy-title = Pšawidła priwatnosći
 accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 login-identity = Pśizjawjeńska identita
 login = Pśizjawiś
-login-signup = Pśizjawiś/Registrěrowaś
 edit = Wobźěłaś
 email-subscriptions = E-mailowe abonementy
 download-profile = Móje daty ześěgnuś

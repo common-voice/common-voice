@@ -66,7 +66,7 @@ sentence-variant-select-label = Adstumm frazennoù
 sentence-variant-select-placeholder = Dibabit un adstumm (diret)
 sentence-variant-select-multiple-variants = Yezh hollek / meur a adstumm
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Kargañ <icon></icon> frazennoù en domani foran

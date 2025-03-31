@@ -30,11 +30,6 @@ target-segment-add-voice = Fa nun ngé yun
 target-segment-learn-more = Ku'she yu yi
 change-preferences = Kúpshe yu ghú'
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Póne nge
-contribute-sentence-collection-nav-header = Mbóne kpuere shikét
-
 ## Reporting
 
 report = Yánye nzie

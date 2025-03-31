@@ -41,31 +41,85 @@ finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Creeu un objectiu personalitzat
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
        *[other] Ajudeu a arribar a { $hours } hores en { $language } amb un objectiu personal
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
        *[other] Ajudeu al Common Voice a arribar a { $hours } hores en una llengua amb un objectiu personal
     }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 activity-needed-calculation-plural =
-    { NUMBER($people) ->
-        [one] Si { $people } persona enregistra
-       *[other] Si { $people } persones enregistren
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } tall per dia, es pot arribar a
-       *[other] { $clipsPerDay } talls per dia, es pot arribar a
-    } { NUMBER($totalHours) ->
-        [one] { $totalHours } hora en poc més
-       *[other] { $totalHours } hores en poc més
-    } { NUMBER($periodMonths) ->
-        [one] d'{ $periodMonths } mes.
-        [11] d'{ $periodMonths } mesos.
-       *[other] de { $periodMonths } mesos.
+    { $people ->
+        [one]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persona enregistra { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persona enregistra { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persona enregistra { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hora en poc més de { $periodMonths } mesos.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persona enregistra { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persona enregistra { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persona enregistra { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hores en poc més de { $periodMonths } mesos.
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persona enregistra { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persona enregistra { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persona enregistra { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hora en poc més de { $periodMonths } mesos.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persona enregistra { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persona enregistra { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persona enregistra { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hores en poc més de { $periodMonths } mesos.
+                            }
+                    }
+            }
+       *[other]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persones enregistren { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persones enregistren { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persones enregistren { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hora en poc més de { $periodMonths } mesos.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persones enregistren { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persones enregistren { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persones enregistren { $clipsPerDay } tall per dia, es pot arribar a { $totalHours } hores en poc més de { $periodMonths } mesos.
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persones enregistren { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persones enregistren { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hora en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persones enregistren { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hora en poc més de { $periodMonths } mesos.
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persones enregistren { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mesos.
+                                [one] Si { $people } persones enregistren { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hores en poc més d'{ $periodMonths } mes.
+                               *[other] Si { $people } persones enregistren { $clipsPerDay } talls per dia, es pot arribar a { $totalHours } hores en poc més de { $periodMonths } mesos.
+                            }
+                    }
+            }
     }
 how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
@@ -73,7 +127,7 @@ which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
 receiving-emails-info = Actualment, teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice
 not-receiving-emails-info = Actualment, <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } tall
        *[other] { $count } talls
     }

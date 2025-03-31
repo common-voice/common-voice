@@ -56,7 +56,6 @@ accept-privacy-title = Adatvédelmi irányelvek
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
 login-identity = Bejelentkezési azonosító
 login = Bejelentkezés
-login-signup = Bejelentkezés / Regisztráció
 edit = Szerkesztés
 email-subscriptions = E-mail feliratkozások
 download-profile = Saját adatok letöltése

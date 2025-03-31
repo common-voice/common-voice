@@ -66,7 +66,7 @@ sentence-variant-select-label = رَقتݵئ جُملہ
 sentence-variant-select-placeholder = رَقت دِسقٹݳ (اختݵݳرݵ / پَسَنَس)
 sentence-variant-select-multiple-variants = عݳم بݳݽ / بُݸت رَقتݳ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپلݸڈ <icon></icon> عݸݳمݵئ دݳئرئی جُملݳݣݳ

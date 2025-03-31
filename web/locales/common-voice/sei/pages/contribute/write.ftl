@@ -66,7 +66,7 @@ sentence-variant-select-label = Icaaitom hant coii coi cmis ihmaa
 sentence-variant-select-placeholder = Cmis ihmaa zo haa nsaaco aha (hizaax impoqueepe x, iiqui conscmah aha)
 sentence-variant-select-multiple-variants = Icaaitom quih tcooo ma haa ha / cmistaj ihmaa coi
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Icaaitom hant coii pocooo ihaaht ocoaaj pac ano nsiiquim aha <icon></icon>
@@ -143,3 +143,9 @@ small-batch-sentences-rule-3 = Icaaitom hant coii coi líneaj quih impahaa, salt
 small-batch-sentences-rule-4 = Icaaitom hant coii quih 1.000 ano miiquim iisax siipe aha
 small-batch-sentences-rule-5 = Icaaitom hant coii coi pocooo hant ano yaii hac pti ismis oo caha
 small-batch-sentences-rule-6 = Icaaitom hant coii coi pocooo ipacta siizoj oo caha
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

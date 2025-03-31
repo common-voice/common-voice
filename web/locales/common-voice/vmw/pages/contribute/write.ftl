@@ -1,12 +1,10 @@
 ## WRITE PAGE
 
 write = Mulepeke
-# WRITE PAGE
 write-instruction = Muhele <icon></icon> nlove nimosa nookwanela noosuweliwa mmuttettheni.
 write-page-subtitle = Malove ootthokiheraniyava ari ootakanihiya mukhurupuni mowooneya ni alaleiyale mukisensani cc-0.
 sentence =
     .label = Soolempwa
-sentence-input-value = Muttapunye vaava nuulumo eniiriwa anamunceene
 citation =
     .label = Ohimya ookwanela
 sc-write-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte we <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
@@ -29,9 +27,8 @@ required-field = Mulepe nipuro nla.
 single-sentence-submission = Ovahererya wa nlove nimosa
 bulk-sentence-submission = Oveleeliha makhuru a malove  ookwanela
 single-sentence = Nlove nimosa
-bulk-sentences = Nikhuru na malove ookwanela
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Muvahererye <icon></icon>  maalumo osuweliwa ni anamunceene
@@ -54,3 +51,12 @@ file-invalid-type = Murupa orakala
 file-too-large = Murupa ophova wuunuwa
 file-too-small = Murupa ophova  okhala mwamukhaani
 too-many-files = Murupa sikina
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

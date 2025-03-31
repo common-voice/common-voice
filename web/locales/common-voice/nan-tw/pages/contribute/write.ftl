@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = 寫句子
+write = 寫落句
 write-instruction = 加入 <icon></icon> 公眾領域的句子
 write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可公開取得的資料集內。
 sentence =
@@ -66,7 +66,7 @@ sentence-variant-select-label = 語句變體
 sentence-variant-select-placeholder = 選擇變體（選填）
 sentence-variant-select-multiple-variants = 一般語言 / 多種變體
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子

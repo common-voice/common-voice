@@ -36,7 +36,6 @@ why-demographic = இந்த பொருட்கூறு எதற்கா
 accept-privacy = Mozilla வின் <privacyLink>தனியுரிமைக் கொள்கை</privacyLink>இல் விவரித்தது போல, நீங்கள் இந்த விவரங்களைக் கையாளும்விதத்துடன் நான் உங்களுடன் திருப்தியடைகிறேன்.
 accept-privacy-title = தனியுரிமை கொள்கை
 login-identity = உள்நுழைவிற்கான அடையாளம்
-login-signup = உள்நுழை / பதி
 edit = திருத்து
 email-subscriptions = மின்னஞ்சல் சந்தாக்கள்
 download-profile = எனது தரவைப் பதிவிறக்குக

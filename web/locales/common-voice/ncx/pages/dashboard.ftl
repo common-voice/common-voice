@@ -41,72 +41,72 @@ finish-editing = ¿Tikneki achto tiktlamiltis?
 lose-changes-warning = Tla tikisa, tikpolos tlen yotikpatlajka
 build-custom-goal = Xikpejpena tlen moneuian tikneki tikajxitis
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Techpaleui matikajxitikan { $hours } hora ika { $language } ika tlen tikajxitisneki
        *[other] Techpaleui matikinmajxitikan { $hours } horas ika { $language } ika tlen tikajxitisneki
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Xikpaleui Tinochtin Titlajtoaj makajxiti { $hours } hora ika se tlajtolkopa ika tlen tikajxitisneki
        *[other] Xikpaleui Tinochtin Titlajtoaj makinmajxiti { $hours } horas ika se tlajtolkopa ika tlen tikajxitisneki
     }
 set-a-goal = Xiktlali tlen tikajxitisneki
 cant-decide = ¿Amo tikmati tlen tikpejpenas?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
                                *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
                             }
@@ -123,7 +123,7 @@ not-receiving-emails-info =
     Axkan otikijto <bold>AMO</bold> uelis mitstlajkuililiskej itech mocorreo tlen mitspoloa tikajxitis,
     tlen yotikajxiti uan tlen yikin omochi itech Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] tlajtoli
        *[other] tlajtolmej
     }

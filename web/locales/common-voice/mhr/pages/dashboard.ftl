@@ -41,30 +41,77 @@ finish-editing = Ондак редактированийым мучашлаш?
 lose-changes-warning = Тый кызыт кает гын, чыла вашталтымашетым йомдарет
 build-custom-goal = Шке шумлыкетым ыште
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Шке шумлык ден { $language } йылме дене { $hours } шагатыш шуаш полшо
        *[other] Шке шумлык ден { $language } йылме дене { $hours } шагатыш шуаш полшо
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Шке шумлык ден йылме дене { $hours } шагатым Common Voice-лан погаш полшо
        *[other] Шке шумлык ден йылме дене { $hours } шагатым Common Voice-лан погаш полшо
     }
 set-a-goal = Шумлыкым шындаш
 cant-decide = Ыштен от керт?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } шагатым ышташ шукташ лиеш
-       *[other] { $totalHours } шагатым ышташ шукташ лиеш
-    }Кӱлешлык{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } тылзе, тидлан:
-       *[other] { $periodMonths } тылзе, тидлан:
-    }Кӱлешлык{ NUMBER($people) ->
-        [one] { $people } еҥ воза
-       *[other] { $people } еҥ воза
-    }Кӱлешлык{ NUMBER($clipsPerDay) ->
-        [one] кечыште { $clipsPerDay } клип
-       *[other] кечыште { $clipsPerDay } клип
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                               *[other] { $totalHours } шагатым ышташ шукташ лиешКӱлешлык{ $periodMonths } тылзе, тидлан:Кӱлешлык{ $people } еҥ возаКӱлешлыккечыште { $clipsPerDay } клип
+                            }
+                    }
+            }
     }
 how-many-per-day = Пеш сай! Кечыште мыняр клип?
 how-many-a-week = Пеш сай! Арняште мыняр клип?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Кызытсе жаплан тый шумлык нерген шижтарымаш, мыйын
     ончыко кайымаш да Common Voice нерген увертармаш дене электрон серышлам наледашлан <bold>ОГЫЛ</bold> келыштаралтынат
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] клип
        *[other] клип
     }

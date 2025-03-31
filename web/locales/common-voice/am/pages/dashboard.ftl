@@ -41,72 +41,72 @@ finish-editing = መጀመሪያ አርትኦት ይጨርሱ?
 lose-changes-warning = አሁን መተው ማለት ለውጦችዎን ያጣሉ ማለት ነው።
 build-custom-goal = ብጁ ግብ ይገንቡ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ከግል ግብ ጋር በ{ $language } ውስጥ { $hours } ሰዓት ለመድረስ ያግዙ
        *[other] ከግል ግብ ጋር በ{ $language } ውስጥ { $hours } ሰዓቶችን ለመድረስ ያግዙ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] የጋራ ልሳን ግላዊ ግብ ባለው ቋንቋ { $hours } ሰዓት እንዲደርስ ይርዱ
        *[other] የጋራ ልሳን ግላዊ ግብ ባለው ቋንቋ { $hours } ሰዓቶችን እንዲደርስ ይርዱ
     }
 set-a-goal = ግብ አዘጋጅ
 cant-decide = መወሰን አልቻሉም?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
@@ -119,7 +119,7 @@ which-goal-type = መናገር፣ ማዳመጥ ይፈልጋሉ ወይስ ሁለ�
 receiving-emails-info = እንደ የአላማ ማስታወሻ፣ ስለራሴ የለውጥ ሂደቶች እና ስለ የጋራ ልሳኖች አጫጭር ዜናዎች፤ የኢሜይል መልእክቶችን ለመቀበል ተፈቅዷል።
 not-receiving-emails-info = በአሁኑ ጊዜ እንደ ግብ አስታዋሾች፣ የእኔ የመሳሰሉ ኢሜይሎችን፣ ስለ የጋራ ልሳን የሂደት ዝመናዎች እና ጋዜጣዎች <bold>እንዳይቀበሉ</bold>ተደርገዋል።
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] ቅንጥብ
        *[other] ቅንጥቦች
     }

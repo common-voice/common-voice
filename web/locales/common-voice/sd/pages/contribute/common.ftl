@@ -31,11 +31,6 @@ target-segment-first-banner = مدد ڪريو Common Voice جي پهرئين ٽ�
 target-segment-add-voice = پنهنجو آواز شامل ڪريو
 target-segment-learn-more = وڌيڪ ڄاڻو
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = آواز جو مجموعو
-contribute-sentence-collection-nav-header = جملن جو مجموعو
-
 ## Reporting
 
 report = رپورٽ ڪريو

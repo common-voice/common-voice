@@ -17,7 +17,6 @@ delete = 刪除
 submitted = 已提交
 # For the button on the Respond to prompts page which can be used to submit all responses at once
 submit-all-button = 全部提交
-continue-speaking-button = 不用了，我要繼續錄音
 
 ## Explainer text (Respond to Prompt)
 

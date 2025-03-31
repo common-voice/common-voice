@@ -45,7 +45,6 @@ why-demographic-explanation-2 = Лемфтема даннайхне, кода к
 accept-privacy = Мон аф молян каршек сянди, кода тинь нолдасасть информациять Mozilla-нь эсь тевонь Политикаса <privacyLink>
 accept-privacy-title = Эсь тев тиемань политика
 login-identity = Сувама валонь индентификатор
-login-signup = Сувамс / Сёрматфтомс эсь пряцень
 edit = Петнемс
 email-subscriptions = Кучемс эл. сёрмаса сёрматфтомань кулят
 download-profile = Таргамс эсь колган даннайхнень

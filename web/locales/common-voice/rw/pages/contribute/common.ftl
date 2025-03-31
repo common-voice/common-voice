@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Fata ijwi ryawe
 share-title-new = Dufashe kubona andi majwi
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

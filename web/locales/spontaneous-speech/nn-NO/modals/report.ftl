@@ -3,6 +3,7 @@
 report-modal-title = Send inn ein rapport
 offensive_speech = Krenkande innhald
 different_language = Anna språk
+personally_identifiable_information = Personleg identifiserbar informasjon
 report-other-comment =
     .placeholder = Kommentar
 # Label for textarea in report modal

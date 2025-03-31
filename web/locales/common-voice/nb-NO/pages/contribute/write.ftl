@@ -66,7 +66,7 @@ sentence-variant-select-label = Setningstype
 sentence-variant-select-placeholder = Velg et alternativ (valgfritt)
 sentence-variant-select-multiple-variants = Generelt språk / flere varianter
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Last opp <icon></icon> setninger godkjent for offentlig domene

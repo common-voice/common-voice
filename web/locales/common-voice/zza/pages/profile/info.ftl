@@ -56,7 +56,6 @@ accept-privacy-title = Polîtîkaya Nimiteyîye
 accept-privacy-and-terms = Ez <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya NImiteyî</privacyLink> ya Common Voice qebul kena
 login-identity = Nasnameyê dekewtişî
 login = Dekewe
-login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
 download-profile = Dayeyanê mi bîyare war

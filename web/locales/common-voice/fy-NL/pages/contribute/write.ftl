@@ -68,7 +68,7 @@ sentence-variant-select-label = Sinsfariant
 sentence-variant-select-placeholder = Selektearje in fariant (opsjoneel)
 sentence-variant-select-multiple-variants = Algemiene taalgebrûk / meardere farianten
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Sinnen <icon></icon> út it publike domein oplade

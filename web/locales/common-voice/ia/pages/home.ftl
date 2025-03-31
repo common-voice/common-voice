@@ -123,7 +123,6 @@ spontaneous-card-header = Discurso spontanee
 spontaneous-card-content = Responde al suggestiones pro crear collectiones de datos pro contextos organic e colloquial. Perfecte pro linguas primo oral.
 language-text-card-header = Texto linguistic
 language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
-coming-soon = Veniente tosto
 add-text = Adder texto
 
 ## Community section

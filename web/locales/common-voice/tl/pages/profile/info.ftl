@@ -46,7 +46,6 @@ why-demographic = Bakit ito nararapat?
 accept-privacy = Pumapayag akong mamahala ka sa aking impormasyon kaugnay ng <privacyLink>Patakaran sa Privacy<privacyLink> ng Mozilla.
 accept-privacy-title = Patakarang Pangpribasiya
 login-identity = Login Identity
-login-signup = Log In / Sign Up
 edit = i-Edit
 email-subscriptions = Mga Subscription sa Email
 download-profile = i-Download ang Aking Data

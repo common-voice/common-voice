@@ -14,6 +14,7 @@ contribution-picker-tooltip-text = ປ່ຽນຊຸດຂໍ້ມູນພາ
 # Label for button on contribution switcher
 change = ການປ່ຽນແປງ
 coming-soon = ພາສາອື່ນໆຈະມາໃນໄວໆນີ້
+media-recorder-api-not-supported = MediaRecorder API ບໍ່ຮອງຮັບໃນໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ.
 # Toast message that is displayed when an item is skipped
 skipped = ຂ້າມ
 audioplayer-header = ຟັງ
@@ -36,6 +37,9 @@ question = ຄຳຖາມ
 ## Not Found Page
 
 not-found-page-header = ບໍ່ພົບ
+not-found-page-content = ບໍ່ພົບໜ້າທີ່ທ່ານຊອກຫາ
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ຂ້ອຍຍອມຮັບ <termsLink>ເງື່ອນໄຂ</termsLink> ແລະ <privacyLink>ປະກາດຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Common Voice.
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou
@@ -44,3 +48,15 @@ en = ພາສາອັງກິດ
 fr = ພາ​ສາ​ຝ​ຣັ່ງ
 hch = Wixárika
 kzi = Kelabit
+mbf = Baba Malay
+meh = Southwestern Tlaxiaco Mixtec
+mel = Central Melanau
+mmc = Michoacán Mazahua
+ms-MY = Bahasa Malay
+msi = Sabah Malay
+pez = ເປນານຕາເວັນອອກ
+pne = ຕາເວັນຕົກ Penan
+sdo = Serian Bidayuh
+snv = Sa'ban
+tr = ຕວກກີ
+xkl = { "" }

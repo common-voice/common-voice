@@ -28,9 +28,6 @@ target-segment-first-banner = Dɛmɛ ka Common Voice ka laɲini yɔrɔ fɔlɔ da
 target-segment-add-voice = Aw ye aw ka kumakan fara a kan
 target-segment-learn-more = Aw ye kunnafoni wɛrɛw sɔrɔ
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Cisama

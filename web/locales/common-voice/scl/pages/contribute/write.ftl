@@ -66,7 +66,7 @@ sentence-variant-select-label = موجو بدل
 sentence-variant-select-placeholder = موجو مُوتو بدلیک دی تھے (مرضی)
 sentence-variant-select-multiple-variants = عام باش/ لیگی لا بدل
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عام جکوکاریو موجیک اپلوڈ <icon></icon>  تھے

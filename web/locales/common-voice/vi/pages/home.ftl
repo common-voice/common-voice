@@ -74,7 +74,10 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 answer-questions-coming-soon = Trả lời câu hỏi <small>(sắp ra mắt)</small>
+review-transcriptions = Đánh giá bản ghi
+review-transcriptions-coming-soon = Đánh giá bản ghi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+add-questions-coming-soon = Thêm câu hỏi <small>(sắp ra mắt)</small>
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
 
@@ -97,13 +100,14 @@ press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài vi�
 hero-title = Công nghệ nói ngôn ngữ của bạn
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Tại sao AI chỉ làm việc cho một vài ngôn ngữ của thế giới?</bold>
+hero-subtitle-2 = Ngôn ngữ của chúng ta là câu chuyện của chúng ta, cộng đồng của chúng ta, văn hóa của chúng ta. Hãy tạo ra các tập dữ liệu mà chúng ta muốn thấy trên thế giới.
 # icon is an arrow that points downwards
 get-started = Bắt đầu <icon><icon>
 
 ## Action items section
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
-coming-soon = Sắp ra mắt
+language-text-card-header = Ngôn ngữ văn bản
 add-text = Thêm văn bản
 
 ## Community section
@@ -145,7 +149,10 @@ explore-datasets = Khám phá các tập dữ liệu <icon></icon>
 
 get-involved-section-title = Hỗ trợ các bộ dữ liệu mở do cộng đồng lãnh đạo
 read-sentences-link = Đọc câu
+validate-readings-link = Xác thực bài đọc
+contribute-link = Đóng góp vào ngữ liệu văn bản
 answer-questions-link = Trả lời câu hỏi
+review-transcriptions-link = Đánh giá bản ghi
 contribute-text-link = Đóng góp văn bản
 
 ## Partner section
