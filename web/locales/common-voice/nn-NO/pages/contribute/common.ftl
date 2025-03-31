@@ -136,6 +136,7 @@ contribution-background-voices-description-extended = Viss opptaket hakkar, elle
 contribution-background-voices-example-1-title = Dei gigantiske dinosaurane i triastida. <strong>[lese av éi stemme]</strong>
 contribution-background-voices-example-1-explanation = Kjem du? <strong>[vert ropt av ein annan]</strong>
 contribution-volume-title = Lydstyrke
+contribution-volume-description = Det vil vere naturlege variasjonar i volum på dei ulike lesarane. Avvis berre viss volumet er så høgt at opptaket blir brote opp, eller (vanlegare) viss det er så lågt at du ikkje kan høyre kva som blir sagt utan å referere til den skrivne teksten.
 contribution-reader-effects-title = Lesareffektar
 contribution-just-unsure-title = Berre usikker?
 see-more = <chevron></chevron>Vis meir
