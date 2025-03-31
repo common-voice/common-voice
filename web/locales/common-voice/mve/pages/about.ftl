@@ -43,6 +43,7 @@ about-clip-graveyard = ڪلِپ رو قبرستان
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڙا ڪرڻ
 
 ## How does localization work
 

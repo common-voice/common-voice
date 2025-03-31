@@ -2,7 +2,8 @@
 
 home-cta = گپ دے، مولو حصو درائے
 show-wall-of-text = دیر ام ݱا
-help-us-title = لے ماخ ڤے جملغّت دے تصدیق کڑا مدد!
+help-us-title = لے ماخ ڤے جملغّف دے تصدیق کڑا مدد!
+help-us-explain = ڤے جفتان بٹن دے، غولار اڤن نے ماخ گپ دے: کہ یئے تورو ڤے جملغّف سہی ژوتیآ؟
 speak-goal-text = کوګ آوازے ریکارڈ ݰوت
 
 ## Account Benefits
