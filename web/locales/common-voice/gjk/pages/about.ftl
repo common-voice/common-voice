@@ -12,6 +12,19 @@ how-does-it-work-text = امين آوازان نِي ايڪ اوپنَ سورس 
 about-language-req-subtitle = ڪونئين پونسيَ تو ٻولِي شامل ڪرو۔
 about-localization-title = ويب سائيٽ لوڪلائيزيشنَ
 about-localization-subtitle = ويب سائيٽ نون متنَ اِي ٻولِي مان ترجمون ڪريون جھون سي۔
+about-sentence-collection-title = جُملان نو مجمُوئو
+about-sentence-collection-subtitle = جُملان نين ٻروڪانون ڀڻيا ۿارُو جُملا نين ماڻۿان ۿارُو ڀيڳا ڪريَ سي۔
+about-new-lang-title = نوِي ٻولِي لانچ ڪروون
+about-new-lang-subtitle = امين آ ٻولِي مان ڪامنَ وائيس نِي سائيٽ شرُو ڪريئين سيئين۔
+about-voice-contrib-title = آواز نو تعاونَ
+about-voice-contrib-subtitle = ماڻۿان آويَ انين پوتا نو آواز ۮانَ ڪريَ
+about-voice-validation-title = آواز نِي تصۮيق ڪرو
+about-voice-validation-subtitle = ٻيزان ماڻۿان اِي وائيس ڪِلپان نِي تصۮيق ڪريَ سي۔
+about-dataset-release-title = ڍيٽاسيٽ رِليز
+about-dataset-release-subtitle = امين ڍيٽا سيٽ نين هر 3 مئينان مان جھارِي ڪريئين سيئين۔
+about-subscribe-text = ڪامنَ وائيس ٿِي راٻطا مان ريوا ماڳيئين سيئين۔
+about-speak = ٻولو
+about-speak-text = مۮت ڪريا واران ۮانَ ڪرل جُملان نِي ڀينڪ مان ڀڻيئيَ ٿِي وائيس ڪِلپ رِڪارڍ ڪريَ سي۔
 
 ## Community Playbook Content
 ## What is a language
