@@ -3,6 +3,7 @@ guidelines-header = Směrnice za sobustatkujuce
 guidelines-header-subtitle = Zrozmějśo, kak móžośo datowej sajźbje Common Voice sady a awdioklipy pśinosowaś a kak móžośo je pśeglědowaś
 voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka pšašanjow
 
 ## Voice Collection nav ids
 
@@ -101,6 +102,17 @@ domain-explanation = Tema se na temu sady póśěgujo. Tuchylu móžośo wubraś
 
 ## Question collection ids
 
+adding-questions = Pšašanja pśidaś
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Co jo dobre pšašanje?
+what-makes-a-good-question-explanation = Dobre pšašanje za datowe sajźby zjawnego wobźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = lažko rozměś byś a na se wótegroniś daś
+what-makes-a-good-question-explanation-criteria-2 = powšyknje relewantne byś
+what-makes-a-good-question-explanation-criteria-3 = kśiwjecu abo njepśistojnu rěc njewužywaś
+easy-to-understand = Lažko rozuměś
+easy-to-understand-explanation = Wubjeŕśo jadnore pšašanja, kótarež móžo kuždy lažko rozměś, njeźiwajucy na kulturu abo kontekst.
+spelling-and-pronunciation = Pšawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužywajśo korektny pšawopis a korektnu gramatiku.
+length = Dłujkosć
