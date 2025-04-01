@@ -42,6 +42,13 @@ about-get-involved-text-2 = آم آوآجي ڪو بي سئي ٺآوآ  مي مد
 about-stay-in-touch = مينٚ رآبتآ مي ڪيسي ريهونٚ؟
 about-stay-in-touch-button = سآئن اپ ڪرو
 about-stay-in-touch-text-1 = همريٚ ميلنٚگ لسٽيٚ مي وو سيڪوآ لآ تميٚ ڪآمن آوآجو مي مهمن، وآڪيآنٚ ائين ڪوڊجآئينآ ڪيٚ کوُبيآنٚ مي ڪيسي هسو لي سگدآئونٚ
+about-stay-in-touch-text-2 = تميٚ موجيٚلآ ٻوليو ڪيٚ ڪميونٽيانٚ مي دوسرآنٚ دي ملآڪآت ڪرسگدآئونٚ مي شآمل ڪآمونٚ مي ٻآت چيٚتيٚ تآڻيٚ يآنٚ تڪڙيٚ سلآ ليوآ تآڻيٚ
+about-nav-why-common-voice = ڪآلي؟
+about-nav-how-it-works = ڪيسي؟
+about-nav-partners = ڀآئيٚوآريٚ
+about-nav-get-involved = شآمل هوو
+about-nav-how-it-works-2 = آم وآج ڪيسي ڪآم ڪردوئي؟
+about-nav-playbook = سيڪوُ تو ڪيسي هسوليوي
 
 ## Community Playbook Content
 ## What is a language
