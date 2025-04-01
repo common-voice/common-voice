@@ -112,3 +112,7 @@ adding-questions = سوئال قوشۇش
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
+what-makes-a-good-question-explanation = كۆپچىلىك قاتنىشىدىغان سانلىق مەلۇمات توپلىمىغا نىسبەتەن ياخشى سوئال:
+what-makes-a-good-question-explanation-criteria-1 = چۈشىنىش ئاسان ۋە جاۋاب بېرىشمۇ ئاسان
+what-makes-a-good-question-explanation-criteria-2 = مەنىسى ئېنىق
+what-makes-a-good-question-explanation-criteria-3 = باشقىلارغا زىيان يەتكۈزىدىغان ياكى تېرىكتۈرىدىغان تىل ئىشلىتىشكە ياكى يېتەكلەشكە بولمايدۇ
