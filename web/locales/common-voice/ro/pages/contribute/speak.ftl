@@ -36,6 +36,8 @@ review-delete-recordings = Șterge înregistrările mele
 review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
+create-profile-text = Vrei să îți salvezi informațiile? <createProfile>Creează un profil</createProfile>
+create-profile-button = Creează un profil
 
 ## MENU ITEM TOOLTIPS
 
