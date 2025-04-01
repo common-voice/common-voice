@@ -62,33 +62,55 @@ about-nav-playbook = شِيکو ڪيَ ڪيم حِصو ليوائيَ
 about-playbook-what-is-language = ڪامنَ وائيس ماٿيَ ايڪ ٻولِي شون سي؟
 about-playbook-what-is-language-content-1 = عام ٻولِي نا ٻارا سوچيا ۿارُو ڪيٽلائيَ طريقا سي۔ اِسپيچ ريڪگنيشنَ ماڍلس نان مقصۮان ۿارُو، ڀاهيمِي ۿمزڻِ ماٿيَ مشورو ڄيَ سيَ، ڌيانَ ڄو، يا شون آ ٻولِي نين ٻوليا واران گھڻون ڪرينَ ايڪ ٻيزان نين ۿمزِي ۿڳيَ سي زو اِي وائيس ماٿيَ ڪوشش ڪريَ؟
 about-playbook-what-is-language-content-2 = امين چاهيئين سيئين ڪيَ تقرير نان ماڍل مُختلِڦ ٻوليان واران نِي قِسم نين ۿمزِيا مان بيۿتر هوئيَ، ايم ڇا ۿارُو ايڪ آواز نا ڍيٽاسيٽ نين ڪيٽلائين ڦرق ڦرق  ماڻۿان نين نِمائينۮڳِي ڪروِي زويئين۔
-about-playbook-what-is-language-content-3 = ڪانڪ ٻولِيان مان گرامر، ڍِڪشنرِِي انين تلڦُظ مان الائِي ڦرق سي۔ اِي سبب ۿارُو امين 2022 مان آن نين مُتارِڦ ڪراوِي ريا سيئين۔ آ ڀراڌريئان نين اينيان نِي ٻوليان نين موٽِي ڍيٽاسيٽ مان ڌار</ctaLink> مُختلِڦ صورتان<ctaLink> مان شامِل ڪريا نو ايڪ طريقو سو۔
+about-playbook-what-is-language-content-3 = ڪانڪ ٻولِيان نِي گرامر مان، ڍِڪشنرِِي، هِجھيَ انين تلڦُظ مان الائِي موٽو ڦرق سي۔ تيمان امين <ctaLink>2022 مان آن نين ڦرق نمونيَ ٿِي</ctaLink> مُتارِڦ ڪراوِيئين سيئين ريا۔ آ ڀراڌريئان نين اينيان نِي ٻوليان نين موٽِي ڍيٽاسيٽ مان ڦرق</ctaLink> ڪريا نو ايڪ طريقو ڄيَ <ctaLink> سي۔
 
 ## How do I add a language
 
-about-playbook-how-add-language = هون ايڪ ٻولِي ڪيم شامِل ڪرِي ۿڳون سون؟
-about-playbook-how-add-language-content-1 = مورِٿيز موجھُوۮ <languageLink> مورِ ٿِي، چيڪ ڪرو ڪي شون تمارِي ٻولِي </languageLink> سي۔ پوتا نِي ٻولِي شامِل ڪريا نا ٻارا مان <languageRequestLink> زو اِي نٿِي، تمين شامِل ڪرِي ۿڳو سو۔ </languageRequestLink> پونسو اُوڃان پڻ مرحلا سي، سائيٽ نون ترجمون انين جُملان نين ڀيڳون ڪروون
-about-playbook-how-add-language-translating-heading = سائيٽ نون ترجمون
+about-playbook-how-add-language = هون ٻولِي  نين ڪيم شامِل ڪرِي ۿڳون سون؟
+about-playbook-how-add-language-content-1 = مورِ ٿِي، چيڪ ڪرو ڪي زو تمارِي ٻولِي </languageLink> مورِٿيز آ مان موجھُوۮ سي</languageLink>۔ <languageRequestLink> زو اِي نٿِي تو تمين شامِل ڪرِي ۿڳو سو۔ </languageRequestLink> تمين اين نين شامِل ڪريا ۿارُو ڪئِي ۿڳو </languageRequestLink>۔ اين مان ٻيَ مرحلا سي، سائيٽ نون ترجمون انين جُملان نين ڀيڳون ڪروون
+about-playbook-how-add-language-translating-heading = سائيٽ نون ترجمون ڪروون
 about-playbook-how-add-language-translating-content-1 = پونَ ٽونَ چيم اِستمال ٿئِي ۿڳيَ سي اين ۿارُو امارِي گائيڍ نين زووو۔<translateVideoLink></translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = امين ترجمان ۿارُو موزيلا ٽوُل نين اِستمال ڪريئين سيئين زين نين پونَ ٽونَ ڪيَ سي۔ پونَ ٽونَ مان ڪيٽلِيوُنئين ٻولِيون سي </pontoonLink> پونَ ٽونَ مان پوتا نِي ٻولِي شامِل ڪريا ۿاروو<pontoonRequestLink> ماٿيَ  زو اِي تمارِي نٿِي تو تمين ڌرخواست ڪرِي ۿڳو سو۔ </pontoonRequestLink> اين وانۿين نين عام آواز پروجيڪٽ ماٿيَ ڌستِياٻ ڇا ۿارُو </githubRepoLink>ماٿيَ نوِِي ٻولِي نِي ڌرخواست ڪرو GitHub <githubRepoLink></localizationFragment> سائيٽ نا ترجما ماٿيَ وڌيڪ زووو <localizationFragment>
+about-playbook-how-add-language-translating-content-2 =
+    امين ترجمان ۿارُو موزيلا ٽوُل نين اِستمال ڪريئين سيئين زين نين<pontoonLink> پونَ ٽونَ </pontoonLink>ڪيَ سي۔ پونَ ٽونَ مان ڪيٽلِيوُنئين ٻولِيون سي </pontoonLink> پڻ زو تمارِي ٻولِي<pontoonRequestLink> مان نٿِي تو تمين ڌرخواست ڪرِي ۿڳو سو اين نين شامِل ڪريا ۿارُو </pontoonRequestLink>۔ 
+    تيوانۿين، ڪامنَ وائيس پروجيڪٽ ماٿيَ ڌستياٻ ڇا ۿارُو۔ 
+    <githubRepoLink> GitHub </githubRepoLink> ماٿيَ نوِي ٻولِي نِي ڌرخواست ڪرو۔ 
+    <localizationFragment> سائيٽ ماٿيَ وڌارين ترجمون زوو</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڳا ڪروا
-about-playbook-how-add-language-collecting-sentences-content-1 = اِستمال ڪريا ماٿيَ امارِي <sentenceCollectorVideo> گائيڍ زوو
-about-playbook-how-add-language-collecting-sentences-content-2 = جُملان نا ننڪا انڳ تمين شامِل <sentenceCollectorLinkAdd> ڪرِي ۿڳو سو۔ </sentenceCollectorLinkAdd> ڪرو</bulkImportDocsLink>  اِستمال ڪرتان ڀلڪيَ ڌرآمڌ يا GitHub<bulkImportDocsLink> تمين ڪرِي ۿڳو سو۔ ڪان وريَ تمين پوتيَ لکِي ۿڳو سو </licenseLink> (عوامِي ڍومينَ) <licenseLink> CC 0 ياد راکو ڪيَ جُملا
-about-playbook-how-add-language-collecting-sentences-content-3 = جُملان نان <sentenceCollectorFragment></sentenceCollectorFragment> مجموئان ماٿيَ وڌارين زوو۔
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جُملا ڀيڳا ڪريا وارا نين اِستمال ڪرينَ امارِي گائيڍ زوو</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمين جُملان نا ننڪا نمڀر شامِل <sentenceCollectorLinkAdd> ڪرِي ۿڳو سو</sentenceCollectorLinkAdd>۔ 
+    يا تمين <bulkImportDocsLink> Github نين اِستمال ڪرينَ ڀرآمڌ ڪرِي ۿڳو سو</bulkImportDocsLink>۔
+    ياڌ راکزُو ڪي جُملا <licenseLink> CC0 يا (عوامِي ڍومينَ) </licenseLink> يا تمين پوتيَ پوتا نا لکِي ۿڳو سو۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> وڌارين زان جُملا نو مجھمُوئو سيَ اُوڃان زووو  </sentenceCollectorFragment>۔
 
 ## How does localization work
 
-about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيئن ڪام ڪريَ سي؟
+about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيم ڪام ڪريَ سي؟
 about-playbook-how-localize-content-1 = ڪامنَ وائيس نون ترجمون<strong> پونَ ٽونَ </strong>سائيٽ ماٿيَ ٿائيَ سي۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink> ايڪ اڪائونٽ ٺاۿو</pontoonAccountLink>زو تمان ڪنين نٿِي تو۔  تمارِي ٻولِي سونڍو<strong> (‘ٽيم’) </strong> انين پسيَ <pontoonCvLink> ڪامنَ وائيس ماٿيَ پونَ ٽونَ پروجيڪٽ سونڍو۔ اُوڃان ترجمون ڪريا ۿارُو ڦائيلون هشيَ، ڪونئين ايڪ ماٿيَ ڪِلِڪ ڪرو، پسيَ اِي انڳريزِي مان لڦظ ۮيکاڙشيَ انين ايڪ ڀوڪس زين مان اين نون ترجمون ڪروون سي۔
+about-playbook-how-localize-content-3 = ترجمون انڳريزِي مان ٿِي هشيَ، پڻ تمين <strong> مشورا</strong> ٻيزِي ٻوليان مان ٿِي پڻ زوئِي ۿڳو سو۔ پروڦائيل<strong> نا </strong> آئيڪنَ ماٿيَ ڪِلِڪ ڪرو۔  پسي<strong> سيٽينڳ ماٿيَ </strong>لِنڪ ڪرو انين ڪونئين پڻ ٻولِيون ايڍ ڪرو زين تمين ٻولو سو۔ هيٺين ۿوارا پاۿا وارِي ڪُنڍ ڪنين <strong>ترجما نِي لِسٽ ۮيڌل هشيَ زين <strong>مقامِي</strong> ڪيَ سي۔ ترجمون سائيٽ ماٿيَ ايڪ ۮِي وانۿين ۮيکاشيَ۔
+about-playbook-how-localize-content-4 = زيرين اِي %75 سيڪڙو مُڪمل ٿئِي زاشيَ تيرين سائيٽ لانچ ڪريا ۿارُو تيار هشيَ۔
+about-playbook-how-localize-content-5 = مۮت ۿارُو امارو وضاحت ڪريا وارو ويڍيو زوو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = هون ڪيم جُملان نين ايڍ ڪرِي ۿڳون سون؟
+about-playbook-how-add-sentences-content-1 = تمين <writePageLink> ماٿيَ جُملا ايڍ ڪرِي ۿڳو سو </writePageLink> يا جُملان نو جائزو <reviewPageLink>ماٿيَ لئِي ۿڳو سو</reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = جُملان نين ڪامنَ وائيس مان شامِل ڪريا ۿارُو لازمِي اينيان نِي ٻيَ زڻان ٿِي جانچ پڙتال ٿل هوئيَ انين قٻُول ٿل هوئيَ۔ تمين تمارِي ٻولِي ۿارُو <languageGuidelinesLink>اڃان</languageGuidelinesLink>گائيڍ لائينَ تيار ڪرِي ۿڳو سو۔ جُملا لازمِي <licenseLink>عوامِي ڍومينَ</licenseLink> مان هوئيَ انين 15 لڦظان ٿِي وڌارين نا هوئيَ۔ تمين متنَ نا مالِڪ ڪنين ٿِي <waiverLink> پونسا ڪرِي ۿڳو سو</waiverLink>۔ انين امان نين commonvoice@mozilla.com اِي ميل ڪرو
+about-playbook-how-add-sentences-content-3 = تمين<scraperLink> وِڪِي پيڍيا ماٿيَ ٿِي ننڪان ننڪان </scraperLink>نو اِستمال ڪرِي ۿڳو سو۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = هون ايڪ آلا معيار نون ڪِلِپ ڪيم رِڪارڍ ڪرِي ۿڳون سون؟
+about-playbook-how-record-content-1 = تمين تمارا عام آواز مان ٻولو! زيويَ نمونيَ ٿِي ٻولو سو اين نين اڃان ڀليڪار ڪيئين سيئين۔ امين تمارو ليۿجھو زيم تمين ٻولو سو ايمز چاۿيئين سيئين۔ تمارون ٻوليا نون زين تمين روز ٻولو سو، تمارو انڌاز انين تمارو ٻوليا نو ليۿجھو اِي امان نين زوويَ سي۔
+about-playbook-how-record-content-2 = زين تمان نين ۿانڀرِِيا مان آسانَ لاڳيَ انين اين لارين گھڻِي ڳوڙِ نا هوئيَ۔
+about-playbook-how-record-content-3 = ڌيانَ ٿِي جُملو ڀڻو انين تٻۮيل ڪروون انين لڦظان نين ايڍ ڪروون نا ويۿارتان۔
+about-playbook-how-record-content-4 = پڪ ڪرو ڪيَ تمارا ٻوليا ٿِي مورِ پليٽ ڦارم تمارِي رِڪارڍينڳ ڪريَ سي ريون انين اِي تمارا ٻوليا نون کتم ڇا وانۿين ٻنڌ ٿاشيَ۔
+about-playbook-how-record-content-5 = <accuracyLink>ڌُرستڳِي نا معيار ۿارُو وڌارين زووو۔</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = امين ڪامنَ وائيس ماٿيَ ڪيم ٻولِي نين ڪيم موثر طريقيَ ٿِي وڌاوِي ۿڳيئين سيئين؟
 
 ## How to validate
 

@@ -3,6 +3,9 @@ guidelines-header = Retningslinjer for bidrag
 guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setninger og lydklipp til Common Voice-datasettet
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Varierende uttale
 misreadings = Feillesninger
 offensive-content = Støtende innhold
@@ -12,6 +15,9 @@ volume = Volum
 reader-effects = Talemåte
 just-unsure = Bare usikker?
 example = Eksempel
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Vi ønsker forskjellige dialekter og aksenter velkommen! Vær veldig forsiktig før du avviser et klipp med den begrunnelse at du tror leseren har uttalt et ord feil, har lagt vekten på feil sted, eller har ignorert tegnsetting. Det er et bredt utvalg av talemåter i bruk rundt om i verden, noen av dem har du kanskje ikke hørt i lokalsamfunnet ditt. Gi en god margin for de som kanskje snakker annerledes enn deg.
 varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, vennligst avvis. Hvis du er usikker, bruk hopp over-knappen.
 varying-pronunciations-example = Ruten var uklar.
@@ -47,11 +53,17 @@ reader-effects-explanation = De fleste opptak er av folk som snakker med sin nat
 just-unsure-explanation = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
 still-have-questions = Har du fortsatt spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
+
+## Sentence collection nav ids
+
 public-domain = Offentlig Eiendom
 citing-sentences = Kildehenvisninger for setninger
 adding-sentences = Legge til setninger
 reviewing-sentences = Vurdere setninger
 sentence-domain = Setningsdomene
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Det er veldig viktig at alle setninger med tekst er <publicDomain>offentlig eiendom</publicDomain> (<cc0>cc0</cc0>) siden Common Voice-datasettet er utgitt under en cc0-lisens. Last bare opp en setning hvis du er sikker, og inkluder alltid den relevante kildehenvisningen.
 public-domain-explanation-2 = De beste setningene for å bygge en nyttig talegjenkjenningsmotor er dagligdags, moderne språkbruk. Noen ideer for å hjelpe deg med å generere setninger er;
 public-domain-explanation-3 = Lag moderne, dagligdagse setninger selv eller sammen med vennene dine eller språkmiljøet ditt – for eksempel gjennom et «skrive-maraton»
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Hvis setningen ikke oppfyller kriteriene ove
 reviewing-sentences-explanation-3 = Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
 reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
 domain-explanation = Domene refererer til emnet for setningen. For øyeblikket kan du velge mellom:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

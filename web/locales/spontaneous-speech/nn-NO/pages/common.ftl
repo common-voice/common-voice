@@ -11,6 +11,7 @@ platform-language = Plattformspråk:
 contribution-picker-label = Bidreg til datasett for { $language }
 # Label for button on contribution switcher
 change = Endre
+coming-soon = Fleire språk kjem snart
 # Toast message that is displayed when an item is skipped
 skipped = Hoppa over
 audioplayer-header = Lytt

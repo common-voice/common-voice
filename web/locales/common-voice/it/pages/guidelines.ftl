@@ -3,6 +3,9 @@ guidelines-header = Linee guida di collaborazione
 guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e registrazioni audio del dataset di Common Voice
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
+
+## Voice Collection nav ids
+
 varying-pronunciations = Variazioni della pronuncia
 misreadings = Errori di lettura
 offensive-content = Contenuti offensivi
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Alterazioni del tono di voce
 just-unsure = Hai ancora dei dubbi?
 example = Esempio
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Accogliamo di buon grado accenti differenti! Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato la punteggiatura. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
 varying-pronunciations-explanation-2 = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
 varying-pronunciations-example = Sono subito da te.
@@ -47,11 +53,17 @@ reader-effects-explanation = La maggior parte delle registrazioni contiene voci 
 just-unsure-explanation = Se ti imbatti in una situazione che non è prevista in queste linee guida, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
 still-have-questions = Hai altre domande?
 contact-common-voice = Contatta il team di Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Pubblico dominio
 citing-sentences = Citare frasi
 adding-sentences = Aggiungere frasi
 reviewing-sentences = Convalidare frasi
 sentence-domain = Dominio della frase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = È molto importante che tutte le frasi siano di <publicDomain>pubblico dominio</publicDomain> (<cc0>cc0</cc0>) poiché il dataset di Common Voice è distribuito con licenza cc0. Inserisci una frase solo se ne sei sicuro e includi sempre la citazione.
 public-domain-explanation-2 = Le frasi migliori per costruire un motore di riconoscimento vocale efficace sono quelle in cui viene utilizzato un linguaggio colloquiale e attuale. Ecco alcune idee per aiutarti a generare frasi:
 public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una "maratona di scrittura"
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri des
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 domain-explanation = Il dominio si riferisce all’argomento della frase. Al momento, puoi scegliere tra:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

@@ -3,6 +3,9 @@ guidelines-header = Közreműködői irányelvek
 guidelines-header-subtitle = Értse meg, hogyan adhat hozzá mondatokat és hangklipeket a Common Voice adatkészlethez, illetve hogyan ellenőrizheti őket
 voice-collection = Hanggyűjtés
 sentence-collection = Mondatok gyűjtése
+
+## Voice Collection nav ids
+
 varying-pronunciations = Változó kiejtések
 misreadings = Félreolvasások
 offensive-content = Sértő tartalom
@@ -12,6 +15,9 @@ volume = Hangerő
 reader-effects = Felolvasói hatások
 just-unsure = Csak bizonytalan?
 example = Példa
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Minden akcentust szívesen várunk! Legyen nagyon óvatos, mielőtt azért utasít el egy klipet, mert az olvasó hibásan ejtett ki egy szót, rossz helyre tette a hangsúlyt, vagy figyelmen kívül hagyta a központozást. Sokféle kiejtést használnak, és nem biztos, hogy mindet hallotta a helyi közösségében. Erősen vegye figyelembe, hogy mások másképpen beszélnek.
 varying-pronunciations-explanation-2 = Másrészt, ha úgy gondolja, hogy az olvasó még sosem találkozott a szóval, és tévesen tippelt a kiejtésére, akkor utasítsa el. Ha bizonytalan, használja a kihagyás gombot.
 offensive-content-explanation = A mondatok egy közösségi moderálási folyamat során kerülnek átvizsgálásra, azonban ez a folyamat nem tökéletes. Ha olyan mondatot lát vagy hall, amely sérti Önt – például mert sérti a <participationGuidelines>közösségi részvételi irányelveinket</participationGuidelines> –, akkor használja a jelentés gombot a felületen. Felkereshet minket a <emailFragment>commonvoice@mozilla.com</emailFragment> címen is.
@@ -44,11 +50,17 @@ reader-effects-explanation = A legtöbb felvételen az emberek a természetes ha
 just-unsure-explanation = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
 still-have-questions = További kérdése van?
 contact-common-voice = Lépjen kapcsolatba a Common Voice csapattal
+
+## Sentence collection nav ids
+
 public-domain = Közkincs
 citing-sentences = Mondatok idézése
 adding-sentences = Mondatok hozzáadása
 reviewing-sentences = Mondatok ellenőrzése
 sentence-domain = Mondatdomén
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Nagyon fontos, hogy minden szöveges mondat <publicDomain>közkincs</publicDomain> (<cc0>cc0</cc0>) legyen, mivel a Common Voice adatkészlet cc0 licenc alatt kerül kiadásra. Csak akkor töltsön fel mondatot, ha biztos benne, és mindig adja meg a releváns idézetet.
 public-domain-explanation-2 = Egy hasznos beszédfelismerő motor építéséhez a legjobb mondatok köznyelviek, és modern szóhasználatúak. Néhány ötlet a mondatok előállításához:
 public-domain-explanation-3 = Alkosson modern, köznyelvi mondatokat egyedül, barátaival vagy nyelvi közösségével – például egy „write-a-thon” segítségével
@@ -90,3 +102,9 @@ reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltétele
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül választhat:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

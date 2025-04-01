@@ -3,6 +3,10 @@ guidelines-header = Rjochtlinen foar bydragen
 guidelines-header-subtitle = Lear hoe’t jo sinnen en audiofragminten oan de Common Voice-gegevensset bydrage en falidearje kinne
 voice-collection = Spraakkolleksje
 sentence-collection = Sinnensamling
+question-collection = Fragensamling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Utienrinnende útspraken
 misreadings = Lêsflaters
 offensive-content = Oanstjitjaande ynhâld
@@ -12,6 +16,9 @@ volume = Folume
 reader-effects = Lêzereffekten
 just-unsure = Gewoan ûnwis?
 example = Foarbyld
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Wy hjitte ferskate aksinten wolkom! Wês foarsichtich eardat jo in fragmint ôfwize as jo tinke dat in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in ynterpunksje negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in romme marzje fan wurdearring foar dyjingen dy’t oars kinne sprekke as jo.
 varying-pronunciations-explanation-2 = Mar as jo tinke dat de lêzer it wurd noch nea brûkt hat en in ferkeare ynskatting fan de útspraak docht, wiis it fragmint dan ôf. As jo net wis binne, brûk dan de knop Oerslaan.
 varying-pronunciations-example = De rûte wie ûndúdlik.
@@ -47,11 +54,17 @@ reader-effects-explanation = De measte opnamen binne fan minsken dy’t mei harr
 just-unsure-explanation = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 still-have-questions = Hawwe jo noch fragen?
 contact-common-voice = Nim kontakt op mei it Common Voice-team
+
+## Sentence collection nav ids
+
 public-domain = Publike domein
 citing-sentences = Sinnen sitearje
 adding-sentences = Sinnen tafoegje
 reviewing-sentences = Sinnen beoardiele
 sentence-domain = Sinsdomein
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = It is tige wichtich dat alle tekstsinnen <publicDomain>publyk domein</publicDomain> (<cc0>cc0</cc0>) binne, omdat de Common Voice-dataset frijjûn wurdt ûnder in cc0-lisinsje. Laad allinnich in sin op as jo wis binne en foegje altyd de relevante boarnefermelding ta.
 public-domain-explanation-2 = De bêste sinnen foar it bouwen fan in brûkbere spraakwerkenningsmasine binne in moderne sprektaal. Guon ideeën om jo te helpen sinnen te generearjen binne;
 public-domain-explanation-3 = Meitsje sels moderne, ynformele sinnen of mei jo freonen of taalmienskip – bygelyks troch in ‘write-a-thon’
@@ -95,3 +108,35 @@ reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia 
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 domain-explanation = Domein ferwiist nei it ûnderwerp fan de sin. Op dit stuit kinne jo kieze tusken:
+
+## Question collection ids
+
+adding-questions = Fragen tafoegje
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Hoe sjocht in goede fraach derút?
+what-makes-a-good-question-explanation = In goede fraach foar datasets foar publykspartisipaasje moat:
+what-makes-a-good-question-explanation-criteria-1 = Ienfâldich te begripen en te beäntwurdzjen wêze
+what-makes-a-good-question-explanation-criteria-2 = Algemien relevant wêze
+what-makes-a-good-question-explanation-criteria-3 = Gjin skeadlike of beledigjende taal brûke of derom freegje
+what-makes-a-good-question-tip = Jo kinne ek beskôgje om ferskate konteksten en domeinen te behanneljen.
+easy-to-understand = Maklik te begripen
+easy-to-understand-explanation = Kies ienfâldige fragen dy’t foar elkenien maklik te begripen binne, nettsjinsteande kultuer of kontekst.
+spelling-and-pronunciation = Stavering en ynterpunksje
+spelling-and-pronunciation-explanation = Brûk krekte stavering en grammatika.
+length = Lingte
+length-explanation = De fraach moat yn mar in pear sinnen beäntwurde wurde kinne
+dont-add-subheader = Net tafoegje
+culturally-specific-questions = Kultureel spesifike fragen
+culturally-specific-questions-explanation = Fragen dy’t hiel kultureel spesifyk binne, of in protte oannamen meitsje oer dyjinge dy’t beäntwurdet
+length-avoid-explanation = Fragen dy’t ien mar swier binnen 15 sekonden (de maksimale fragmintlingte) beäntwurdzje kinne soe
+process-steps = Proses / stappen
+process-steps-explanation = Fragen wêrby’t ien meardere stappen opsomme moat. It opsommen fan stappen freget de brûker in antwurd op te sizzen yn stee fan in natuerliker antwurd.
+offensive-content-sensitive-information = Beledigjende ynhâld of gefoelige ynformaasje
+offensive-content-sensitive-information-explanation-explanation-1 = Fragen wêrby mooglik om persoanlik identifisearbere ynformaasje frege wurdt
+offensive-content-sensitive-information-explanation-explanation-2 = Fragen dy’t oansette kinne ta haat of oare befoaroardiele of beledigjende gefoelens
+offensive-content-sensitive-information-explanation-explanation-3 = Fragen dy’t derfoar soargje kinne dat ien gefoelige, mooglik aktivearjende antwurden dielt
+example-questions-subheader = Foarbyldfragen
+example-questions-explanation-1 = Jo fine <examplePromptsLink>120 foarbyldprompts yn dit blêd.</examplePromptsLink>
+example-questions-explanation-2 = As jo in rige fragen foar opname yntsjinje wolle, kinne jo <githubLink>dit dwaan fia ús GitHub</githubLink> of jo list e-maile nei <emailFragment>commonvoice@mozilla.com.</emailFragment>

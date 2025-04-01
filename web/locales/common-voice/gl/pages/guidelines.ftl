@@ -3,6 +3,9 @@ guidelines-header = Criterios de contribución
 guidelines-header-subtitle = Comprender como engadir e validar frases e fragmentos de audio para o conxunto de datos de Common Voice
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronuncias diferentes
 misreadings = Erros de lectura
 offensive-content = Contido ofensivo
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Efectos de lectura
 just-unsure = Ten dúbidas?
 example = Exemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Os diferentes acentos son todos benvidos! Sexa prudente ao rexeitar un fragmento de voz alegando que o lector pronunciou mal unha palabra. Existe unha gran variedade de pronuncias no territorio, algunhas das cales poden diferir das que escoita normalmente na súa zona. Procure ser flexible e ter en conta a diversidade de maneiras de falar.
 varying-pronunciations-explanation-2 = Por outra banda, recorde que, se ten dúbidas, sempre pode empregar o botón de omitir e pasar á seguinte frase.
 varying-pronunciations-example = O gato miañaba porque tiña fame.
@@ -47,11 +53,17 @@ reader-effects-explanation = Na maioría das gravacións, as persoas falan coa s
 just-unsure-explanation = Se atopa algo que non se trata nesta pequena guía, vote segundo o seu criterio. Se realmente non logra decidirse, empregue o botón de saltar e pase á seguinte gravación.
 still-have-questions = Aínda ten dúbidas?
 contact-common-voice = Contactar co equipo de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Dominio Público
 citing-sentences = Citar frases
 adding-sentences = Engadir frases
 reviewing-sentences = Revisar frases
 sentence-domain = Dominio ao que pertence a frase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = É moi importante que todas as frases sexan de <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), xa que o conxunto de datos de Common Voice se publica baixo licenza cc0. Antes de subir frases, asegúrese diso e inclúa sempre a cita correspondente.
 public-domain-explanation-2 = As mellores frases para construír un motor de recoñecemento da fala útil son as da linguaxe coloquial e actual. A seguir atopará unha serie de ideas para axudarlle a xerar frases:
 public-domain-explanation-3 = Cree frases actuais e coloquiais en solitario, cos seus amigos ou coa súa comunidade lingüística, por exemplo, a través dun maratón de escritura
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriore
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
 domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pode escoller entre:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

@@ -3,6 +3,9 @@ guidelines-header = Consignes pour participer
 guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases et des échantillons audio dans le jeu de données Common Voice
 voice-collection = Collecte de voix
 sentence-collection = Collecte de phrases 
+
+## Voice Collection nav ids
+
 varying-pronunciations = Prononciations différentes
 misreadings = Erreurs de lecture
 offensive-content = Contenu choquant
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Intonations et effets sonores
 just-unsure = Vous hésitez ?
 example = Exemple
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Tous les accents sont les bienvenus ! Faites bien attention avant de rejeter un échantillon au motif que le lecteur ou la lectrice semble avoir mal prononcé un mot ou certaines paires de voyelles, ou a ignoré un signe de ponctuation. Il existe une grande variété de prononciations utilisées dans le monde, dont certaines que vous n’avez peut-être pas entendues dans votre région. Veuillez prévoir une grande marge d’appréciation pour les personnes qui peuvent parler différemment de vous.
 varying-pronunciations-explanation-2 = En revanche, si vous pensez que le lecteur ou la lectrice n’a jamais rencontré le mot auparavant et qu’il ou elle tente de deviner la bonne prononciation, veuillez rejeter l’enregistrement. Dans le doute, utilisez le bouton Passer.
 varying-pronunciations-example = Le wagon était plein.
@@ -47,11 +53,17 @@ reader-effects-explanation = Dans la plupart des enregistrements les personnes p
 just-unsure-explanation = Si vous rencontrez une situation que ces consignes ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 still-have-questions = Vous avez toujours des questions ?
 contact-common-voice = Contactez l’équipe Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domaine public
 citing-sentences = Citation de phrases
 adding-sentences = Ajout de phrases
 reviewing-sentences = Vérification de phrases
 sentence-domain = Domaine de la phrase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Il est très important que toutes les phrases du texte soient dans le <publicDomain>domaine public</publicDomain> (<cc0>cc0</cc0>), car le jeu de données de Common Voice est publié sous licence cc0. Envoyez une phrase uniquement si vous en êtes sûr·e et ajoutez toujours la citation pertinente.
 public-domain-explanation-2 = Les meilleures phrases pour créer un moteur de reconnaissance vocale utile sont des phrases informelles issues du langage moderne. Voici quelques idées pour vous aider à générer des phrases :
 public-domain-explanation-3 = Rédigez des phrases modernes et informelles vous-même ou avec vos amis ou votre communauté linguistique, par exemple via un évènement dédié à la rédaction de contenus.
@@ -91,3 +103,13 @@ reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 domain-explanation = Le domaine fait référence au sujet de la phrase. Actuellement, vous pouvez choisir entre :
+
+## Question collection ids
+
+
+## Question collection sidebar content
+
+easy-to-understand-explanation = Choisir des questions simples et compréhensibles par tout le monde, quels que soient la culture ou le contexte.
+spelling-and-pronunciation = Orthographe et ponctuation
+spelling-and-pronunciation-explanation = L’orthographe et la grammaire doivent être correctes.
+length = Longueur
