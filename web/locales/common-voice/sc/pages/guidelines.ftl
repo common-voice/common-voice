@@ -79,6 +79,9 @@ reviewing-sentences-explanation-4 = Si non nch’at prus fràsias de revisionare
 
 ## Question collection ids
 
+adding-questions = Agiùnghere preguntas
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Ite est una pregunta bona?
+example-questions-subheader = Preguntas de esempru
