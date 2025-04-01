@@ -31,3 +31,4 @@ data-bubble-subtitle = همي وڪت بروڪت ڊيٽآ سيٽ جآريٚ ڪر�
 contact-us = همآ دي رآبتو ڪرو
 contact-us-title = ڪآ تميٚ اِرو پروجيڪٽو مي شآمل هوآ مي دلچسپيٚ رکدآ هو يآ همرآ ڀيݪي شرآڪت ڪروآ مي؟
 contact-us-email = ايٚ ميل:</emailFragment>commonvoice@mozilla.com<emailFragment>
+signup-form-title = ڪآ تميٚ آگي ئيٚ Common Voice ڪيٚ آپو آپ ٻآت چيت پروجيڪٽو تآڻيٚ همرآ بيٽآ ٽيسٽنگ گروپو مي هو؟
