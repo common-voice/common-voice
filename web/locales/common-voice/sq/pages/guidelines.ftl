@@ -3,6 +3,7 @@ guidelines-header = Udhëzime Pjesëmarrjeje
 guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togfjalësha dhe copëza audio te grupi i të dhënave Common Voice
 voice-collection = Koleksion Zërash
 sentence-collection = Grumbullim Frazash
+question-collection = Koleksion Pyetjesh
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,20 @@ domain-explanation = Përkatësia i referohet lëndës së subjektit të togfjal
 
 ## Question collection ids
 
+adding-questions = Shtim Pyetjesh
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Ç’e bën të mirë një pyetje?
+what-makes-a-good-question-explanation = Një pyetje e mirë, për përfshirje në grupe të dhënash, duhet:
+what-makes-a-good-question-explanation-criteria-1 = Të jetë e kollajtë të kuptohet dhe t’i jepet përgjigje
+what-makes-a-good-question-explanation-criteria-2 = Të jetë në përgjithësi me kuptim
+what-makes-a-good-question-explanation-criteria-3 = Të mos përdorë, ose të kërkojë përdorim gjuhe të dëmshme ose fyese
+what-makes-a-good-question-tip = Mund të doni edhe të shihni mundësinë e shtrirjesh në kontekste dhe fusha të ndryshme.
+easy-to-understand = E kollajtë Për T’u Kuptuar
+easy-to-understand-explanation = Zgjidhni pyetje të thjeshta, që janë të kollajta për t’u kuptuar nga cilido, pavarësisht kulturës apo kontekstit.
+spelling-and-pronunciation = Drejtshkrim dhe Pikësim
+spelling-and-pronunciation-explanation = Përdorni shkrim dhe gramatikë të saktë.
+length = Gjatësi
+length-explanation = Pyetja duhet të jetë e tillë që t’i përgjigjen me thjesht një a dy togfjalësha.
+dont-add-subheader = Mos Shtoni
