@@ -17,6 +17,11 @@ about-new-lang-subtitle = همينٚ ايٚرآ ٻوليو مي آم آوآجو 
 about-voice-contrib-title = آوآجآنٚڪو تآون
 about-voice-contrib-subtitle = منک آوينٚ ائينٚ آپوڪو آوآج دينٚ
 about-voice-validation-title = آوآجو ڪيٚ سهيٚ
+about-voice-validation-subtitle = دوسرآ منک انآ آواجانٚ ڪآ ڪلپسآنٚ ڪيٚ سهيٚ ڪردآئينٚ
+about-dataset-release-title = ڊيٽآ سيٽ چلآوو
+about-dataset-release-subtitle = همينٚ ڊيٽآ سيٽو ڪو هر3 مهيٚنآ مي دينٚدآهونٚ
+about-subscribe-text = آم آوآجو ڪآ رآبتآ مي ريهوآ چآنٚدآئو؟
+about-speak = ٻولو
 
 ## Community Playbook Content
 ## What is a language

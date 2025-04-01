@@ -97,9 +97,11 @@ about-playbook-how-localize-content-5 = مۮت ۿارُو امارو وضاحت 
 about-playbook-how-add-sentences = هون ڪيم جُملان نين ايڍ ڪرِي ۿڳون سون؟
 about-playbook-how-add-sentences-content-1 = تمين <writePageLink> ماٿيَ جُملا ايڍ ڪرِي ۿڳو سو </writePageLink> يا جُملان نو جائزو <reviewPageLink>ماٿيَ لئِي ۿڳو سو</reviewPageLink>۔
 about-playbook-how-add-sentences-content-2 = جُملان نين ڪامنَ وائيس مان شامِل ڪريا ۿارُو لازمِي اينيان نِي ٻيَ زڻان ٿِي جانچ پڙتال ٿل هوئيَ انين قٻُول ٿل هوئيَ۔ تمين تمارِي ٻولِي ۿارُو <languageGuidelinesLink>اڃان</languageGuidelinesLink>گائيڍ لائينَ تيار ڪرِي ۿڳو سو۔ جُملا لازمِي <licenseLink>عوامِي ڍومينَ</licenseLink> مان هوئيَ انين 15 لڦظان ٿِي وڌارين نا هوئيَ۔ تمين متنَ نا مالِڪ ڪنين ٿِي <waiverLink> پونسا ڪرِي ۿڳو سو</waiverLink>۔ انين امان نين commonvoice@mozilla.com اِي ميل ڪرو
+about-playbook-how-add-sentences-content-3 = تمين<scraperLink> وِڪِي پيڍيا ماٿيَ ٿِي ننڪان ننڪان </scraperLink>نو اِستمال ڪرِي ۿڳو سو۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = هون ايڪ آلا معيار نون ڪِلِپ ڪيم رِڪارڍ ڪرِي ۿڳون سون؟
 
 ## How to grow language
 
