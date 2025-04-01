@@ -54,6 +54,7 @@ about-nav-playbook = سيڪوُ تو ڪيسي هسوليوي
 ## What is a language
 
 about-playbook-what-is-language = آم وآجو پي ٻولي ڪآ هي ؟
+about-playbook-what-is-language-content-1 = ٻوليو بابت سوچوآ ڪآ ڪترآئيٚ تريڪآ هينٚ۔ اسپيچ ريڪگنيشن مآڊلج سلآ دينٚدو هي تو ايڪ سمج مي ڌيآن ديئو، يآنٚ ڪآ ايٚرآ  ٻوليو ڪآ جنآ مڪسدآنٚ لآ ٻولوآݪآ اڪسر ڪرڪي ايڪ دو ڪو سمج سگدآ هينٚ جي وي ڪوشيش ڪرينٚ
 
 ## How do I add a language
 
