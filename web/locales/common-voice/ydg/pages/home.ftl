@@ -23,6 +23,16 @@ x-weeks-short =
         [one] ہفتو
        *[other] { $count } ڈبلیو کے
     }
+x-months-short =
+    { $count ->
+        [one] { $count }لمحہ
+       *[other] { $count }لمحہ
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }وائے
+       *[other] { $count }وائے
+    }
 
 ## Account Benefits
 
