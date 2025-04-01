@@ -24,6 +24,8 @@ about-subscribe-text = آم آوآجو ڪآ رآبتآ مي ريهوآ چآنٚ�
 about-speak = ٻولو
 about-speak-text = مدت ڪروآݪآ جملآنٚ ڪيٚ بينٚڪيٚ دي پڙهوآ دي وآئس ڪلپ رڪآرڊ ڪردآئينٚ
 about-listen-queue = سُڻو لين
+about-listen-queue-text = وآئٚيس ڪلپآ ڪيٚ ڀيݪيٚ ڪرريٚ ڪتآريٚ مي ڌررآ گآ هينٚ جيڪو اُنآ ڪو سُڻوآ تآڻيٚ پڙهدآ هينٚ
+about-listen = سُڻو
 
 ## Community Playbook Content
 ## What is a language
