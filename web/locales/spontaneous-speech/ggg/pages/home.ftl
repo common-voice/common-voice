@@ -34,3 +34,6 @@ contact-us-email = ايٚ ميل:</emailFragment>commonvoice@mozilla.com<emailFr
 signup-form-title = ڪآ تميٚ آگي ئيٚ Common Voice ڪيٚ آپو آپ ٻآت چيت پروجيڪٽو تآڻيٚ همرآ بيٽآ ٽيسٽنگ گروپو مي هو؟
 signup-terms = ڪِلڪ ڪروآ دي“ لينڪ ميرآ اي ميلو مي ڀيجو”، تمي رآجي هو همري<termsLink> کِدمتينٚ شرتينٚ دي </termsLink> اور <privacyLink> پرآئيوسيٚ پوليسيآنٚ دي</privacyLink> اور موجيلآ تِمآ ڪو آم آوآجيٚ ڪيٚ  واري منصوبو جي بيٽا ٽيسٽنگ ۾ حصو وٺڻ بابت معلومات موڪلڻ جي قابل آهي.
 signup-input-placeholder = تمري ايِميل لگآؤ
+footer-text-privacy = <privacyLink> پرآئوِسيٚ </privacyLink>
+footer-text-terms = <termsLink> شرت</termsLink>
+footer-text-cookies = <cookiesLink>ڪُوڪيٚج<cookiesLink>

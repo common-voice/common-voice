@@ -71,6 +71,8 @@ about-playbook-how-add-language-collecting-sentences-content-2 = تميٚ ڪرس
 
 ## How does localization work
 
+about-playbook-how-localize = سآئيٽلو ڪلآئيجيشن ڪيسي ڪآم ڪردو هي ؟
+about-playbook-how-localize-content-1 = سآئيٽيٚ ڪآ ترجُمآنٚ مي هونٚدو هي</strong><strong>
 
 ## How to add sentences
 
