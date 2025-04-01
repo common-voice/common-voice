@@ -102,6 +102,11 @@ domain-explanation = Tendatee oñe’ẽ ñe’ẽjuaju rehe. Ko’ag̃aite, eip
 
 ## Question collection ids
 
+adding-questions = Embojuaju porandu
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ¿Mba’e pe omoporãvéva porandu?
+what-makes-a-good-question-explanation = Peteĩ porandu iporãvéva mba’ekuaarãme g̃uarã ojejapóva opavavépe orekova’erã:
+what-makes-a-good-question-explanation-criteria-1 = Ndahasýi iñeikumby ha imbohovái
+what-makes-a-good-question-explanation-criteria-2 = Hetave jey hekoporãva’erã
