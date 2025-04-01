@@ -278,6 +278,7 @@ tig = ٽِگر
 tk = ترڪِمين
 tl = ٽاگالوگ
 tn = سيٽِسوانا
+tob = ٽوبا قوم
 tok = ٽوڪِي پونا
 tr = تُرڪِش
 ts = زِتِسونگا
@@ -347,3 +348,9 @@ not-available-abbreviation = ڪونِي موجود ھيَ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>مھونيَ ضرورت ھيَ</mark> <br/><mark>ٿونرِي مدد!
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = مواد ريَ سيٽ ريَ ميزبونِي ڪرڻ ھان 100 کان وڌيڪ ٻوليون ريَ برادريون ھارو پليٽ فارم نيَ سُٺو ٺاڻ تيَ ھر سال لڳ ڀڳ ڏيھ لک ڊالر خرچ آتا ھيَ جڪو مھوريَ ڪوم تيَ ڀروسو ڪريَ ھيَ۔<strong>جيَ ٿيَ آسان رسائيَ ھان ٺيڪ ڊيٽا رِي قدر ڪرو ھو۔ آج ھيچندو ڏيو!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ھارو سي وِي نيَ استعمال</mark><br/><mark>ٿونرِي تخقيق؟</mark>

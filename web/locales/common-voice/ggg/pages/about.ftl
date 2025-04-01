@@ -60,6 +60,10 @@ about-playbook-what-is-language-content-3 = ڪجھ ٻوليآنٚ مي گرآم�
 
 ## How do I add a language
 
+about-playbook-how-add-language = مي ايڪ ٻوليٚ ڪيسي شآمل ڪرونٚ
+about-playbook-how-add-language-content-1 = پيليٚ، چيڪ ڪرو تو ڪآ تمآري ٻوليٚ<languageLink>آگي ئي موجود هي</languageLink>۔ آپو ڪيٚ<languageRequestLink> جيڪر وو نآ هي، تمي ڪر سڪدآ هو۔</languageRequestLink> ٻولي شآمل ڪروآ بآرآ مي پوُڇو وهآنٚ بي مرهلآ هينٚ۔ سآئيٽيٚ ڪو ترجمو، اور جلآنٚ ڪو ڀيݪو ڪروو۔
+about-playbook-how-add-language-translating-heading = سآئيٚٽيٚ ڪو ترجمو
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ڪوُPontoon۔</translateVideoLink> ڪيسي استمآل ڪري همريٚ گآئيٚڊ ديکو
 
 ## How does localization work
 
