@@ -117,3 +117,5 @@ spelling-and-pronunciation-explanation = Eiporuporã haikuaa ha ñe’ẽtekuaa.
 length = Pukukue
 dont-add-subheader = Ani embojuaju
 culturally-specific-questions = Porandu mba’ekuaarã rehegua
+process-steps = Mba’eapo / Jeku’e
+example-questions-subheader = Porandu techapyrãva
