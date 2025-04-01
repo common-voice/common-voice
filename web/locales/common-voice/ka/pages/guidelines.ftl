@@ -114,6 +114,7 @@ adding-questions = კითხვების დამატება
 what-makes-a-good-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
 what-makes-a-good-question-explanation = კარგი შეკითხვა საჯარო კრებულის უნდა იყოს:
 what-makes-a-good-question-explanation-criteria-1 = ადვილად გასაგები და იოლად საპასუხო
+what-makes-a-good-question-explanation-criteria-2 = მეტად საყოველთაო
 easy-to-understand = ადვილად გასაგები
 easy-to-understand-explanation = იოლი კითხვები, ყველასთვის ადვილად გასაგები რომ იყოს გარემოსა თუ პირობების განურჩევლად.
 spelling-and-pronunciation = მართლწერა და სასვენი ნიშნები
