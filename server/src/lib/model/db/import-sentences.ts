@@ -145,7 +145,19 @@ async function importLocaleSentences(
   });
 }
 
-export async function importSentences(pool: any) {
+export async function importSentences(pool: any, import_languages: string) {
+
+  function getImportableLanguages() {
+    if (import_languages.trim()) {
+      const import_list = import_languages.split(',').map(lc => lc.trim())
+      print(
+        `Locales requested: ${import_list.length} [${import_list.join(',')}]`
+      )
+      return import_list.filter(lc => locales.includes(lc)) 
+    }
+    return locales
+  }
+
   const oldVersion = Number(
     (await useRedis) ? await redis.get('sentences-version') : 0
   );
@@ -156,10 +168,16 @@ export async function importSentences(pool: any) {
     )) as string[]
   ).filter(name => name !== 'LICENSE');
 
-  print('locales', locales.join(','));
+  print(`Locale directories found: ${locales.length} [${locales.join(',')}]`);
+  const importable_locales = getImportableLanguages()
+  print(
+    `Final import list: ${importable_locales.length} [${importable_locales.join(
+      ','
+    )}]`
+  )
 
-  for (const locale of locales) {
-    await importLocaleSentences(pool, locale, version);
+  for (const locale of importable_locales) {
+    await importLocaleSentences(pool, locale, version)
   }
 
   (await useRedis) &&
