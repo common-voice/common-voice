@@ -12,6 +12,11 @@ about-localization-title = ويب سآئيٽ
 about-localization-subtitle = ويب سآئيٽيٚ ڪو موآد اُرآئيٚ ٻوليو مي ترجمو ڪررو گوو هي
 about-sentence-collection-title = ٻتيسآ جُملآ
 about-sentence-collection-subtitle = جُملآ ڀيݪا ڪررآ جآنٚدآئينٚ منکآنٚڪوُ ٻڏآ آوآجودي پڙهوآتآڻي
+about-new-lang-title = نوينٚ ٻوليٚ لونچ
+about-new-lang-subtitle = همينٚ ايٚرآ ٻوليو مي آم آوآجو ڪو سيٽ شروُ ڪردآ هونٚ
+about-voice-contrib-title = آوآجآنٚڪو تآون
+about-voice-contrib-subtitle = منک آوينٚ ائينٚ آپوڪو آوآج دينٚ
+about-voice-validation-title = آوآجو ڪيٚ سهيٚ
 
 ## Community Playbook Content
 ## What is a language
