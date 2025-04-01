@@ -81,11 +81,11 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     تمين جُملان نا ننڪا نمڀر شامِل <sentenceCollectorLinkAdd> ڪرِي ۿڳو سو</sentenceCollectorLinkAdd>۔ 
     يا تمين <bulkImportDocsLink> Github نين اِستمال ڪرينَ ڀرآمڌ ڪرِي ۿڳو سو</bulkImportDocsLink>۔
     ياڌ راکزُو ڪي جُملا <licenseLink> CC0 يا (عوامِي ڍومينَ) </licenseLink> يا تمين پوتيَ پوتا نا لکِي ۿڳو سو۔
-about-playbook-how-add-language-collecting-sentences-content-3 = جُملان نان <sentenceCollectorFragment></sentenceCollectorFragment> مجموئان ماٿيَ وڌارين زوو۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> وڌارين زان جُملا نو مجھمُوئو سيَ اُوڃان زووو  </sentenceCollectorFragment>۔
 
 ## How does localization work
 
-about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيئن ڪام ڪريَ سي؟
+about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيم ڪام ڪريَ سي؟
 about-playbook-how-localize-content-1 = ڪامنَ وائيس نون ترجمون<strong> پونَ ٽونَ </strong>سائيٽ ماٿيَ ٿائيَ سي۔
 
 ## How to add sentences
