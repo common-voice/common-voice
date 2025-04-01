@@ -16,3 +16,11 @@ how-spontaneous-speech-works = تڪڙو ٻولوو ڪيسي ڪآم ڪردو هي
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>چآلڪ</mark>
 prompt-bubble-subtitle = همي تمآ ڪوُ ايڪ اِشآرو يآ سوآل دِکآسآنٚ
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جبآب ديوو</mark>
+respond-bubble-subtitle = تميٚ اُر ڪو جبآب ديوو يآ اُرو ڪيٚ ورنديٚ ديوو جِترو ڪُدرتيٚ تميٚ ڪر سڪدآ هو
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>لک ديوو</mark>
+transcribe-bubble-subtitle = تمي آڊيو ڪلپيٚنٚ مي جيڪيٚ سُڻو اُرو کو لِکو.
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>چيڪ</mark>

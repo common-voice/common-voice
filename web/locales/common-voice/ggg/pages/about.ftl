@@ -32,6 +32,10 @@ about-is-it-valid-text = ايڪ آوآجو ڪلپو ڪوُ سهي نشآن لگ�
 about-yes-votes = وونٚٽ 2
 about-yes-votes-text = اُرو ڪو ڪآمن آوآج ڊيٽآ سيٽو مي ليآوآدي، ايڪ آوآجو ڪلپو دو الگ۔ استمآل ڪروآݪآ ڪي سهي هوو کپي
 about-no-votes = وونٚٽ نآ 2
+about-no-votes-text = جد ايڪ سُڻوآݪو ايڪ آوآجوڪآ ڪلپو ڪو رد ڪردو هي تو وو ڪتآريٚ مي وآپس آنٚدو هي۔ اگر دوسري چڪر رد ڪررو جآئي، آوآج ڪلپ ڪلپو مُڪآنو ڀڻي ڌررو گوو هي
+about-dataset-new = آم آوآج ڊيٽآ سيٽ
+about-dataset-new-text = مي هجآرينٚ آوآجينٚ ڪآ نمونآ  شآمل هينٚ جيڪو ڊولپرجآنٚ ڪوُ  آوآج اوݪکوآ ڪآ آوآجو ڪو  ٺآوآ مي مدت ڪردآ  هينٚ
+about-clip-graveyard = مُڪآنو ڪلپ
 
 ## Community Playbook Content
 ## What is a language
