@@ -112,12 +112,19 @@ adding-questions = კითხვების დამატება
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
-what-makes-a-good-question-explanation = კარგი შეკითხვა საჯარო კრებულის უნდა იყოს:
+what-makes-a-good-question-explanation = კარგი შეკითხვა საჯარო კრებულისთვის უნდა იყოს:
 what-makes-a-good-question-explanation-criteria-1 = ადვილად გასაგები და იოლად საპასუხო
 what-makes-a-good-question-explanation-criteria-2 = მეტად საყოველთაო
+what-makes-a-good-question-explanation-criteria-3 = არ შეიცავდეს და არ ითხოვდეს მავნე ან შეურაცხმყოფელ სიტყვებს
 easy-to-understand = ადვილად გასაგები
 easy-to-understand-explanation = იოლი კითხვები, ყველასთვის ადვილად გასაგები რომ იყოს გარემოსა თუ პირობების განურჩევლად.
 spelling-and-pronunciation = მართლწერა და სასვენი ნიშნები
 spelling-and-pronunciation-explanation = გამართული მართლწერითა და გრამატიკით.
 length = სიგრძე
 length-explanation = შეკითხვა იმგვარი უნდა იყოს, რომ პასუხი ერთი-ორი წინადადებით ხერხდებოდეს.
+dont-add-subheader = არ დაამატოთ
+culturally-specific-questions = კითხვები ცალკეული ხალხის ან გარემოს შესახებ
+culturally-specific-questions-explanation = კითხვები, რომლებიც მეტად ვიწროდ მოიცავს ცალკეული საზოგადოების მახასიათებლებსა და მოპასუხისგან ითხოვს ზედმეტად ბევრ ვარაუდს.
+offensive-content-sensitive-information = შეურაცხმყოფელი ან საფრთხილო ინფორმაცია
+offensive-content-sensitive-information-explanation-explanation-1 = კითხვები, რომლითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
+example-questions-subheader = შეკითხვის ნიმუშები

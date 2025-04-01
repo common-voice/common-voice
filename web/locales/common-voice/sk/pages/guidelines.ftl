@@ -3,6 +3,7 @@ guidelines-header = Pokyny pre prispievanie
 guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové nahrávky do kolekcie údajov Common Voice
 voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
+question-collection = Zbierka otázok
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,21 @@ domain-explanation = Zatriedenie odkazuje na predmet vety. V súčasnosti si mô
 
 ## Question collection ids
 
+adding-questions = Pridávanie otázok
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Čo robí otázku dobrou?
+what-makes-a-good-question-explanation = Dobrá otázka pre verejné kolekcie údajov by mala:
+what-makes-a-good-question-explanation-criteria-1 = Byť ľahko pochopiteľná a malo by byť jednoduché na ňu reagovať
+what-makes-a-good-question-explanation-criteria-2 = Byť všeobecne relevantná
+what-makes-a-good-question-explanation-criteria-3 = Nepoužívať alebo nevyžadovať škodlivé alebo urážlivé výrazy
+what-makes-a-good-question-tip = Môžete tiež zvážiť použitie rôznych kontextov a domén.
+length = Dĺžka
+length-explanation = Otázka by mala byť zodpovedateľná iba niekoľkými vetami.
+dont-add-subheader = Nepridávajte
+culturally-specific-questions = Kultúrne špecifické otázky
+culturally-specific-questions-explanation = Otázky, ktoré sú veľmi kultúrne špecifické alebo vytvárajú veľa predpokladov o respondentovi
+length-avoid-explanation = Otázky, na ktoré by niekto mal problém odpovedať do 15 sekúnd (maximálna dĺžka klipu)
+process-steps = Proces / Kroky
+example-questions-subheader = Príklady otázok
