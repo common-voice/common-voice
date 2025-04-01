@@ -26,6 +26,10 @@ about-speak-text = مدت ڪروآݪآ جملآنٚ ڪيٚ بينٚڪيٚ دي �
 about-listen-queue = سُڻو لين
 about-listen-queue-text = وآئٚيس ڪلپآ ڪيٚ ڀيݪيٚ ڪرريٚ ڪتآريٚ مي ڌررآ گآ هينٚ جيڪو اُنآ ڪو سُڻوآ تآڻيٚ پڙهدآ هينٚ
 about-listen = سُڻو
+about-listen-text = سُوآݪآئو دآن ڪررآ ڪلپآئونٚ سهيٚ تريٚڪآ دي سهيٚ ڪرن، چيڪ ڪرو تو اسپيڪر جُملآ ڪو سهيٚ تريڪآ دي پڙهي
+about-is-it-valid = ڪآ ڪلپ سهيٚ هي؟
+about-is-it-valid-text = ايڪ آوآجو ڪلپو ڪوُ سهي نشآن لگآرو جآنٚدو هي جد ايڪ ۔ سُڻواݪو هآوي ڪو وونٽ دينٚدو هي
+about-yes-votes = وونٚٽ 2
 
 ## Community Playbook Content
 ## What is a language
