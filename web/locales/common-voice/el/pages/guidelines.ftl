@@ -112,7 +112,12 @@ adding-questions = Προσθήκη ερωτήσεων
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+what-makes-a-good-question-explanation = Μια καλή ερώτηση για σύνολα δεδομένων δημόσιας συμμετοχής θα πρέπει να:
+what-makes-a-good-question-explanation-criteria-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+what-makes-a-good-question-explanation-criteria-2 = Είναι γενικά επίκαιρη
+what-makes-a-good-question-explanation-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 spelling-and-pronunciation = Ορθογραφία και στίξη
+length-explanation = Θα πρέπει να είναι δυνατή η απάντηση της ερώτησης μέσα σε λίγες μόνο προτάσεις.
 dont-add-subheader = Να μη γίνει προσθήκη
 process-steps = Διαδικασία/Βήματα
 example-questions-subheader = Παραδείγματα ερωτήσεων
