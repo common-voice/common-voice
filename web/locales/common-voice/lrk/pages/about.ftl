@@ -14,6 +14,7 @@ about-sentence-collection-title = جملو رو ڀندار
 about-sentence-collection-subtitle = مينکئ ني اونچي آواز مون پڙھيا ھارو جملا ڀآرا مآلايا جائي.
 about-new-lang-title = نوي ٻولي آوي
 about-new-lang-subtitle = امي آ  ٻولي ۾ ڪامن وائس سائيٽ لانچ ڪرون ھون
+about-voice-contrib-title = آواز و تعoون
 about-speak = ٻولو
 about-speak-text = ھوڻو
 about-nav-why-common-voice = ڪون
