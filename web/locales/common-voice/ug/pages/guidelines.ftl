@@ -124,3 +124,6 @@ length = ئۇزۇنلۇقى
 length-explanation = سوئالغا بىر قانچە جۈملە بىلەن جاۋاب بەرگىلى بولۇشى كېرەك.
 dont-add-subheader = قوشۇشقا بولمايدىغنى
 culturally-specific-questions = مۇئەييەن مەدەنىيەت ئارقا كۆرۈنۈشى بار
+culturally-specific-questions-explanation = مەدەنىيەت پۇرىقى كۈچلۈك ياكى جاۋاب بەرگۈچىنىڭ نۇرغۇن پەرەز قىلىشىغا سەۋەب بولىدىغان سوئال
+length-avoid-explanation = بىرەيلەن 15 سېكۇنت (ئەڭ ئۇزۇن ئۈن ئۈزۈندىسى) تا جاۋاب بېرىش قىيىن بولغان سوئال
+process-steps = جەريان/باسقۇچ
