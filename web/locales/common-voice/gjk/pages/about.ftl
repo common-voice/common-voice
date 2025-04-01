@@ -89,9 +89,13 @@ about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيم ڪام 
 about-playbook-how-localize-content-1 = ڪامنَ وائيس نون ترجمون<strong> پونَ ٽونَ </strong>سائيٽ ماٿيَ ٿائيَ سي۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink> ايڪ اڪائونٽ ٺاۿو</pontoonAccountLink>زو تمان ڪنين نٿِي تو۔  تمارِي ٻولِي سونڍو<strong> (‘ٽيم’) </strong> انين پسيَ <pontoonCvLink> ڪامنَ وائيس ماٿيَ پونَ ٽونَ پروجيڪٽ سونڍو۔ اُوڃان ترجمون ڪريا ۿارُو ڦائيلون هشيَ، ڪونئين ايڪ ماٿيَ ڪِلِڪ ڪرو، پسيَ اِي انڳريزِي مان لڦظ ۮيکاڙشيَ انين ايڪ ڀوڪس زين مان اين نون ترجمون ڪروون سي۔
 about-playbook-how-localize-content-3 = ترجمون انڳريزِي مان ٿِي هشيَ، پڻ تمين <strong> مشورا</strong> ٻيزِي ٻوليان مان ٿِي پڻ زوئِي ۿڳو سو۔ پروڦائيل<strong> نا </strong> آئيڪنَ ماٿيَ ڪِلِڪ ڪرو۔  پسي<strong> سيٽينڳ ماٿيَ </strong>لِنڪ ڪرو انين ڪونئين پڻ ٻولِيون ايڍ ڪرو زين تمين ٻولو سو۔ هيٺين ۿوارا پاۿا وارِي ڪُنڍ ڪنين <strong>ترجما نِي لِسٽ ۮيڌل هشيَ زين <strong>مقامِي</strong> ڪيَ سي۔ ترجمون سائيٽ ماٿيَ ايڪ ۮِي وانۿين ۮيکاشيَ۔
+about-playbook-how-localize-content-4 = زيرين اِي %75 سيڪڙو مُڪمل ٿئِي زاشيَ تيرين سائيٽ لانچ ڪريا ۿارُو تيار هشيَ۔
+about-playbook-how-localize-content-5 = مۮت ۿارُو امارو وضاحت ڪريا وارو ويڍيو زوو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = هون ڪيم جُملان نين ايڍ ڪرِي ۿڳون سون؟
+about-playbook-how-add-sentences-content-1 = تمين <writePageLink> ماٿيَ جُملا ايڍ ڪرِي ۿڳو سو </writePageLink> يا جُملان نو جائزو <reviewPageLink>ماٿيَ لئِي ۿڳو سو</reviewPageLink>۔
 
 ## How to record quality
 
