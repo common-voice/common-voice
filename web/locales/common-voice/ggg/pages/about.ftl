@@ -30,6 +30,8 @@ about-listen-text = سُوآݪآئو دآن ڪررآ ڪلپآئونٚ سهيٚ �
 about-is-it-valid = ڪآ ڪلپ سهيٚ هي؟
 about-is-it-valid-text = ايڪ آوآجو ڪلپو ڪوُ سهي نشآن لگآرو جآنٚدو هي جد ايڪ ۔ سُڻواݪو هآوي ڪو وونٽ دينٚدو هي
 about-yes-votes = وونٚٽ 2
+about-yes-votes-text = اُرو ڪو ڪآمن آوآج ڊيٽآ سيٽو مي ليآوآدي، ايڪ آوآجو ڪلپو دو الگ۔ استمآل ڪروآݪآ ڪي سهي هوو کپي
+about-no-votes = وونٚٽ نآ 2
 
 ## Community Playbook Content
 ## What is a language

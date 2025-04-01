@@ -10,3 +10,9 @@ why-spontaneous-speech = همي يو اسپونٽينئس اسپيچ پروٽو�
 why-card-1-text = نآميٚ گرآميٚ<mark> ٻآت چيٚتيٚ ڪيٚ لآ ڦآئيٚدي مند</mark>آوآج استمآليٚ مآملآ (مسآل، جد تمي چآهندآ هو توآواجيٚ ڪيٚ پرک منکآن دي نرم اور بنآ رسمي گفتگو ڪروآ مي ڪآم ڪري)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ٻوليو ڪيٚ هڪيٚڪتيٚ لآ بهتر مدد جيسي تو ٽرانسليچرنگ اور<mark>ڪوڊ سوئچنگ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = اُنآ ٻوليآنٚ تآڻيٚ ڀلي مدد جيڪي گھٽ يآ <mark>استمآل ڪروآ تآڻيٚ ڪو بي ٽيڪسٽ ڪآرپس ڪونآ</mark>هي (مثال جيسي، سمآجيٚآت، الگ الگ هلتينٚ، تاريکي پر اڻ لکريٚ ٻوليٚونٚ وگيرآ)
+how-spontaneous-speech-works = تڪڙو ٻولوو ڪيسي ڪآم ڪردو هي
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>چآلڪ</mark>
+prompt-bubble-subtitle = همي تمآ ڪوُ ايڪ اِشآرو يآ سوآل دِکآسآنٚ
