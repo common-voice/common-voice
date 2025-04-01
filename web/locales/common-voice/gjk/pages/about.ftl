@@ -102,6 +102,9 @@ about-playbook-how-add-sentences-content-3 = تمين<scraperLink> وِڪِي پ
 ## How to record quality
 
 about-playbook-how-record-quality = هون ايڪ آلا معيار نون ڪِلِپ ڪيم رِڪارڍ ڪرِي ۿڳون سون؟
+about-playbook-how-record-content-1 = تمين تمارا عام آواز مان ٻولو! زيويَ نمونيَ ٿِي ٻولو سو اين نين اڃان ڀليڪار ڪيئين سيئين۔ امين تمارو ليۿجھو زيم تمين ٻولو سو ايمز چاۿيئين سيئين۔ تمارون ٻوليا نون زين تمين روز ٻولو سو، تمارو انڌاز انين تمارو ٻوليا نو ليۿجھو اِي امان نين زوويَ سي۔
+about-playbook-how-record-content-2 = زين تمان نين ۿانڀرِِيا مان آسانَ لاڳيَ انين اين لارين گھڻِي ڳوڙِ نا هوئيَ۔
+about-playbook-how-record-content-3 = ڌيانَ ٿِي جُملو ڀڻو انين تٻۮيل ڪروون انين لڦظان نين ايڍ ڪروون نا ويۿارتان۔
 
 ## How to grow language
 

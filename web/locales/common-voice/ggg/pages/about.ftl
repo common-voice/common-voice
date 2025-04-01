@@ -22,6 +22,7 @@ about-dataset-release-title = ڊيٽآ سيٽ چلآوو
 about-dataset-release-subtitle = همينٚ ڊيٽآ سيٽو ڪو هر3 مهيٚنآ مي دينٚدآهونٚ
 about-subscribe-text = آم آوآجو ڪآ رآبتآ مي ريهوآ چآنٚدآئو؟
 about-speak = ٻولو
+about-speak-text = مدت ڪروآݪآ جملآنٚ ڪيٚ بينٚڪيٚ دي پڙهوآ دي وآئس ڪلپ رڪآرڊ ڪردآئينٚ
 
 ## Community Playbook Content
 ## What is a language
