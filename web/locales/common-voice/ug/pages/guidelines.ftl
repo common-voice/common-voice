@@ -3,6 +3,7 @@ guidelines-header = تۆھپە يېتەكچىسى
 guidelines-header-subtitle = Common Voice سانلىق مەلۇمات ئامبىرىغا جۈملە ۋە ئاۋاز ئۈزۈندىلىرىنى قانداق قوشۇپ ۋە دەلىللەپ تۆھپە قوشۇشنى چۈشىنىش
 voice-collection = ئاۋاز توپلىمى
 sentence-collection = جۈملە توپلىمى
+question-collection = سوئال توپلىمى
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,8 @@ domain-explanation = دائىرە جۈملە تېمىسىنى كۆرسىتىدۇ
 
 ## Question collection ids
 
+adding-questions = سوئال قوشۇش
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
