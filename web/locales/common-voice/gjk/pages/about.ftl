@@ -87,6 +87,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = سائيٽ لوڪلائيزيشنَ ڪيم ڪام ڪريَ سي؟
 about-playbook-how-localize-content-1 = ڪامنَ وائيس نون ترجمون<strong> پونَ ٽونَ </strong>سائيٽ ماٿيَ ٿائيَ سي۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink> ايڪ اڪائونٽ ٺاۿو</pontoonAccountLink>زو تمان ڪنين نٿِي تو۔  تمارِي ٻولِي سونڍو<strong> (‘ٽيم’) </strong> انين پسيَ <pontoonCvLink> ڪامنَ وائيس ماٿيَ پونَ ٽونَ پروجيڪٽ سونڍو۔ اُوڃان ترجمون ڪريا ۿارُو ڦائيلون هشيَ، ڪونئين ايڪ ماٿيَ ڪِلِڪ ڪرو، پسيَ اِي انڳريزِي مان لڦظ ۮيکاڙشيَ انين ايڪ ڀوڪس زين مان اين نون ترجمون ڪروون سي۔
+about-playbook-how-localize-content-3 = ترجمون انڳريزِي مان ٿِي هشيَ، پڻ تمين <strong> مشورا</strong> ٻيزِي ٻوليان مان ٿِي پڻ زوئِي ۿڳو سو۔ پروڦائيل<strong> نا </strong> آئيڪنَ ماٿيَ ڪِلِڪ ڪرو۔  پسي<strong> سيٽينڳ ماٿيَ </strong>لِنڪ ڪرو انين ڪونئين پڻ ٻولِيون ايڍ ڪرو زين تمين ٻولو سو۔ هيٺين ۿوارا پاۿا وارِي ڪُنڍ ڪنين <strong>ترجما نِي لِسٽ ۮيڌل هشيَ زين <strong>مقامِي</strong> ڪيَ سي۔ ترجمون سائيٽ ماٿيَ ايڪ ۮِي وانۿين ۮيکاشيَ۔
 
 ## How to add sentences
 
