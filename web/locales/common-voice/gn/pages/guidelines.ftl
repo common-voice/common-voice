@@ -110,3 +110,6 @@ what-makes-a-good-question-subheader = ¿Mba’e pe omoporãvéva porandu?
 what-makes-a-good-question-explanation = Peteĩ porandu iporãvéva mba’ekuaarãme g̃uarã ojejapóva opavavépe orekova’erã:
 what-makes-a-good-question-explanation-criteria-1 = Ndahasýi iñeikumby ha imbohovái
 what-makes-a-good-question-explanation-criteria-2 = Hetave jey hekoporãva’erã
+what-makes-a-good-question-explanation-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+easy-to-understand = Ndahasýi iñeikumby
+spelling-and-pronunciation = Haiporã ha Ñemokyta
