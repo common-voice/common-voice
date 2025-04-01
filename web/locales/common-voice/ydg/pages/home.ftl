@@ -1,5 +1,6 @@
 ## Home Page
 
+home-title = کامن وائس موزیلان' یو مہم۔ تاکہ نے ماشینف ڤیم دے ایخسفدا مدد روسا کہ حقیقی آدمے چیمین گپ دہاتے۔
 home-cta = گپ دے، مولو حصو درائے
 show-wall-of-text = دیر ام ݱا
 help-us-title = لے ماخ ڤے جملغّف دے تصدیق کڑا مدد!
@@ -7,6 +8,9 @@ help-us-explain = ڤے جفتان بٹن دے، غولار اڤن نے ماخ گ
 no-clips-to-validate = المین سرڤتے کہ دیم زبان نے غولیتان آوازے چش۔ یو چر ریکارڈے کینے خو ڤیم کوبی پرو کینے۔
 toggle-play-tooltip = ڤے جفتان بٹن پے تورو غوردا دیر{ shortcut-play-toggle } ڤزیب
 speak-goal-text = کوګ آوازے ریکارڈ ݰوت
+listen-goal-text = آوازے تصدیق ݰوت
+hours-recorded = گھنٹہ ریکارڈ ݰوئے
+hours-validated = گھنٹہ تصدیق ݰوئے
 
 ## Account Benefits
 
