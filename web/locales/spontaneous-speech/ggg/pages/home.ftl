@@ -32,3 +32,5 @@ contact-us = همآ دي رآبتو ڪرو
 contact-us-title = ڪآ تميٚ اِرو پروجيڪٽو مي شآمل هوآ مي دلچسپيٚ رکدآ هو يآ همرآ ڀيݪي شرآڪت ڪروآ مي؟
 contact-us-email = ايٚ ميل:</emailFragment>commonvoice@mozilla.com<emailFragment>
 signup-form-title = ڪآ تميٚ آگي ئيٚ Common Voice ڪيٚ آپو آپ ٻآت چيت پروجيڪٽو تآڻيٚ همرآ بيٽآ ٽيسٽنگ گروپو مي هو؟
+signup-terms = ڪِلڪ ڪروآ دي“ لينڪ ميرآ اي ميلو مي ڀيجو”، تمي رآجي هو همري<termsLink> کِدمتينٚ شرتينٚ دي </termsLink> اور <privacyLink> پرآئيوسيٚ پوليسيآنٚ دي</privacyLink> اور موجيلآ تِمآ ڪو آم آوآجيٚ ڪيٚ  واري منصوبو جي بيٽا ٽيسٽنگ ۾ حصو وٺڻ بابت معلومات موڪلڻ جي قابل آهي.
+signup-input-placeholder = تمري ايِميل لگآؤ

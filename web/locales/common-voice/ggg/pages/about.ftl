@@ -60,13 +60,14 @@ about-playbook-what-is-language-content-3 = ڪجھ ٻوليآنٚ مي گرآم�
 
 ## How do I add a language
 
-about-playbook-how-add-language = مي ايڪ ٻوليٚ ڪيسي شآمل ڪرونٚ
+about-playbook-how-add-language = مينٚ ايڪ ٻوليٚ ڪيسي شآمل ڪرسگدو هونٚ؟
 about-playbook-how-add-language-content-1 = پيليٚ، چيڪ  ڪرو تو ڪآ تمريٚ ٻوليٚ</languageLink>آگيئيٚ موجود هي <languageLink>آپوڪي ٻوليٚ شآمل ڪروآ بآبت <languageRequestLink>جي وو نآ هي، تو تميٚ ڪرسگدآئو </languageRequestLink>پڇي وهآنٚ دوهسآ هينٚ جو سآئيٽو ڪآ ترجمآ، ائينٚ جُملآنٚ ڪوُ ڀيݪآ ڪروو
 about-playbook-how-add-language-translating-heading = سآئيٚٽيٚ ڪو ترجمو
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ڪوُPontoon۔</translateVideoLink> ڪيسي استمآل ڪري همريٚ گآئيٚڊ ديکو
 about-playbook-how-add-language-translating-content-2 = همينٚ ترجمآ مي موجيلآ ٽول استمآل ڪردآ هونٚ جرو ڪو ڪيرو جآنٚدو هي ۔ پونٽآنٚ مي ڪتريئيٚ ٻوليونٚ</pontoonLink> Pontoon <pontoonLink> هينٚ آپوئي ٻوليونٚ <pontoonRequestLink>جي وآ تمريٚ نآ هي تو تمي ڪرسگدآ هو</pontoonRequestLink>شآمل ڪروآڪي درکوآست اُرآ ڪي بآد ،ٻوليو ڪو آم آوآجو ڪآ پروجيڪٽو مي ڌروآ لآ </githubRepoLink> تو نوين ٻوليو ڪي درکوآست ڪرو<githubRepoLink> </localizationFragment>سآئيٽي ترجمآ ڪو وڌيڪ ديکو <localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جُملآ ڀيݪآ ڪروو۔
 about-playbook-how-add-language-collecting-sentences-content-1 = SentenceCollectorVideo>SentenceCollectorVideo> sentenceCollectorVideo> <sentenceCollectorVideo> استمآل ڪروآتآڻي همري گآئيڊ
+about-playbook-how-add-language-collecting-sentences-content-2 = تميٚ ڪرسگدآئوجُملآنٚ ڪآ نهينآ انگ شآمل<sentenceCollectorLinkAdd> </sentenceCollectorLinkAdd> ڪرواستمآل ڪردي بلڪ<bulkImportDocsLink> يآنٚ تميٚ ڪرسگدآئو</bulkImportDocsLink> آدي هوو کپي،يآنٚ تميٚ</licenseLink>يآنٚ اوآميٚ ڊومين<licenseLink>يآد رآکو تو جُملآ آپوآپ لک سگدآئو
 
 ## How does localization work
 
