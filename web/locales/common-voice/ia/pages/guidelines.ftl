@@ -3,6 +3,7 @@ guidelines-header = Lineas guida de contribution
 guidelines-header-subtitle = Saper como collaborar e validar phrases e registrationes audio al collection de datos de Common Voice
 voice-collection = Collection de voces
 sentence-collection = Collection de phrases
+question-collection = Collection de questiones
 
 ## Voice Collection nav ids
 
@@ -106,8 +107,32 @@ domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vo
 
 ## Question collection ids
 
+adding-questions = Adder questiones
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Que rende bon un question?
+what-makes-a-good-question-explanation = Un bon question pro le participation public a collectiones de datos deberea:
+what-makes-a-good-question-explanation-criteria-1 = Esser facile a comprender e a responder
+what-makes-a-good-question-explanation-criteria-2 = Esser generalmente pertinente
+what-makes-a-good-question-explanation-criteria-3 = Non usar, o sollicitar, linguage malefic o offensive
+what-makes-a-good-question-tip = Tu poterea alsi considerar de extender lo a differente contextos e dominios.
+easy-to-understand = Facile a Comprender
+easy-to-understand-explanation = Eliger questiones simple que es facile a comprender pro quicunque, sin reguardo a cultura o contexto.
 spelling-and-pronunciation = Orthographia e punctuation
+spelling-and-pronunciation-explanation = Usar orthographia e grammatica correcte.
 length = Longor
+length-explanation = Al question deberea esser possibile responder in justo un par de phrases.
+dont-add-subheader = Non adder
+culturally-specific-questions = Questiones culturalmente specific
+culturally-specific-questions-explanation = Questiones que es multo culturalmente specific, o face multe presuppositiones re le responder
+length-avoid-explanation = Questiones a que alcuno serea reluctante responder in 15 secundas (le maxime longor de registration)
+process-steps = Processo / Passos
+process-steps-explanation = Questiones que require de listar plure passos.  Listar passos suggere al usator de recitar un responsa, plus tosto que un responsa plus natural.
+offensive-content-sensitive-information = Contento offensive o datos sensibile
+offensive-content-sensitive-information-explanation-explanation-1 = Questiones que poterea sollicitar informationes de identification personal
+offensive-content-sensitive-information-explanation-explanation-2 = Questiones que poterea sollicitar incitamento al odio o altere sentimentos prevenite o offensive
+offensive-content-sensitive-information-explanation-explanation-3 = Questiones que pote causar a alcuno de compartir responsas sensibile, potentialmente discatenante
+example-questions-subheader = Questiones de exemplo
+example-questions-explanation-1 = Tu pote trovar
+example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a inserer, tu <githubLink>pote facer lo via nostre GitHub</githubLink> o inviar tu lista per email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
