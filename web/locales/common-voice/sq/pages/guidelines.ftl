@@ -124,3 +124,7 @@ spelling-and-pronunciation-explanation = Përdorni shkrim dhe gramatikë të sak
 length = Gjatësi
 length-explanation = Pyetja duhet të jetë e tillë që t’i përgjigjen me thjesht një a dy togfjalësha.
 dont-add-subheader = Mos Shtoni
+culturally-specific-questions = Pyetje të lidhura me kultura specifike
+culturally-specific-questions-explanation = Pyetje që janë shumë të lidhura me një kulturë specifike, ose që marrin të mirëqena shumë hamendësime rreth kujt përgjigjet.
+length-avoid-explanation = Pyetje për të cilat dikush do të mundohet t’u përgjigjet brenda 15 sekondave (gjatësia maksimum e copave)
+process-steps = Proces / Hapa
