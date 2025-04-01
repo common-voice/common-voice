@@ -24,3 +24,8 @@ transcribe-bubble-title = <mark>لک ديوو</mark>
 transcribe-bubble-subtitle = تمي آڊيو ڪلپيٚنٚ مي جيڪيٚ سُڻو اُرو کو لِکو.
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>چيڪ</mark>
+check-bubble-subtitle = تُو جآنچيدوهي تو لِکريٚ آڊيو دي مِلديٚ هي يآ نآ.
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>موآد</mark>
+data-bubble-subtitle = همي وڪت بروڪت ڊيٽآ سيٽ جآريٚ ڪردا هيونٚ
+contact-us = همآ دي رآبتو ڪرو
