@@ -11,6 +11,18 @@ speak-goal-text = کوګ آوازے ریکارڈ ݰوت
 listen-goal-text = آوازے تصدیق ݰوت
 hours-recorded = گھنٹہ ریکارڈ ݰوئے
 hours-validated = گھنٹہ تصدیق ݰوئے
+voices-online = آوازے وس آنلائن ݰوت
+todays-progress = درانے ہورغ
+help-reach-goal = دے حاصل کڑا لے ماخ مدد کن { $goal }
+read-terms-q = تو ڤے ماخ شرائطف اوݱڑیتآ؟
+ready-to-record = ڤے آواز پے عطیہ کڑا دیر تیارآ؟
+all-locales = تمام
+today = در
+x-weeks-short =
+    { $count ->
+        [one] ہفتو
+       *[other] { $count } ڈبلیو کے
+    }
 
 ## Account Benefits
 
