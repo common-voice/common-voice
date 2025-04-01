@@ -3,6 +3,7 @@ guidelines-header = 贡献准则
 guidelines-header-subtitle = 了解如何向 Common Voice 数据集贡献及验证语句和录音片段
 voice-collection = 收集语音
 sentence-collection = 收集语句
+question-collection = 问题收集
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,11 @@ domain-explanation = 领域是指句子的专业主题。目前您可以选择�
 
 ## Question collection ids
 
+adding-questions = 添加问题
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = 怎样算是好的问题？
+what-makes-a-good-question-explanation = 对于公众参与的数据集而言，好的问题应该：
+what-makes-a-good-question-explanation-criteria-1 = 易于理解，也易于回答
+what-makes-a-good-question-explanation-criteria-2 = 意义明确
