@@ -113,3 +113,7 @@ what-makes-a-good-question-explanation-criteria-2 = Hetave jey hekoporãva’er�
 what-makes-a-good-question-explanation-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
 easy-to-understand = Ndahasýi iñeikumby
 spelling-and-pronunciation = Haiporã ha Ñemokyta
+spelling-and-pronunciation-explanation = Eiporuporã haikuaa ha ñe’ẽtekuaa.
+length = Pukukue
+dont-add-subheader = Ani embojuaju
+culturally-specific-questions = Porandu mba’ekuaarã rehegua

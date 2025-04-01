@@ -25,6 +25,7 @@ about-speak = ٻولو
 about-speak-text = ھوڻو
 about-listen-queue = ھڻو ايڪ جيون
 about-listen-queue-text = وائيس ڪلپس جمع ڪرايا ري قطار ۾ موئي واڙيو جائي  جي اووہ  ني ھوڻيا ھارو تيار ڪروي پڙي.
+about-listen = ھڻو
 about-nav-why-common-voice = ڪون
 about-nav-how-it-works = ڪيڪر
 about-nav-partners = ساٿي
