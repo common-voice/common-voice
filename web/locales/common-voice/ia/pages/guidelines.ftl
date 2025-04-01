@@ -109,3 +109,5 @@ domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vo
 
 ## Question collection sidebar content
 
+spelling-and-pronunciation = Orthographia e punctuation
+length = Longor

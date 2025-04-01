@@ -106,9 +106,11 @@ about-playbook-how-record-content-1 = تمين تمارا عام آواز مان
 about-playbook-how-record-content-2 = زين تمان نين ۿانڀرِِيا مان آسانَ لاڳيَ انين اين لارين گھڻِي ڳوڙِ نا هوئيَ۔
 about-playbook-how-record-content-3 = ڌيانَ ٿِي جُملو ڀڻو انين تٻۮيل ڪروون انين لڦظان نين ايڍ ڪروون نا ويۿارتان۔
 about-playbook-how-record-content-4 = پڪ ڪرو ڪيَ تمارا ٻوليا ٿِي مورِ پليٽ ڦارم تمارِي رِڪارڍينڳ ڪريَ سي ريون انين اِي تمارا ٻوليا نون کتم ڇا وانۿين ٻنڌ ٿاشيَ۔
+about-playbook-how-record-content-5 = <accuracyLink>ڌُرستڳِي نا معيار ۿارُو وڌارين زووو۔</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = امين ڪامنَ وائيس ماٿيَ ڪيم ٻولِي نين ڪيم موثر طريقيَ ٿِي وڌاوِي ۿڳيئين سيئين؟
 
 ## How to validate
 
