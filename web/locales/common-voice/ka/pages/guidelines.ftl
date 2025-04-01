@@ -132,4 +132,6 @@ process-steps-explanation = კითხვები, რომლებიც �
 offensive-content-sensitive-information = შეურაცხმყოფელი ან საფრთხილო ინფორმაცია
 offensive-content-sensitive-information-explanation-explanation-1 = კითხვები, რომლითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
 offensive-content-sensitive-information-explanation-explanation-2 = კითხვები, რომლებიც შეიძლება იწვევდეს სიძულვილის ენას ან სხვა მიკერძოებულ თუ შეურაცხმყოფელ განწყობებს.
+offensive-content-sensitive-information-explanation-explanation-3 = კითხვები, რომლებიც მოპასუხისთვის შეიძლება აღმოჩნდეს მეტად მგრძნობიარე, ამაღელვებელი და უბიძგოს საფრთხილო მონაცემების გამჟღავნებისკენ.
 example-questions-subheader = შეკითხვის ნიმუშები
+example-questions-explanation-1 = შეგიძლიათ იხილოთ <examplePromptsLink>შეკითხვის 120 ნიმუში მოცემულ ცნობარში.</examplePromptsLink>
