@@ -30,6 +30,7 @@ add-sentence-success = 1 fràsia regorta
 add-sentence-error = Faddina in s'agiunta de sa fràsia
 required-field = Cumpila custu campu.
 single-sentence-submission = Imbiu de una fràsia isceti
+single-sentence = Fràsia ùnica
 
 ## BULK SUBMISSION
 
