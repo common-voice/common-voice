@@ -76,8 +76,11 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink> GitHub </githubRepoLink> ماٿيَ نوِي ٻولِي نِي ڌرخواست ڪرو۔ 
     <localizationFragment> سائيٽ ماٿيَ وڌارين ترجمون زوو</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيڳا ڪروا
-about-playbook-how-add-language-collecting-sentences-content-1 = اِستمال ڪريا ماٿيَ امارِي <sentenceCollectorVideo> گائيڍ زوو
-about-playbook-how-add-language-collecting-sentences-content-2 = جُملان نا ننڪا انڳ تمين شامِل <sentenceCollectorLinkAdd> ڪرِي ۿڳو سو۔ </sentenceCollectorLinkAdd> ڪرو</bulkImportDocsLink>  اِستمال ڪرتان ڀلڪيَ ڌرآمڌ يا GitHub<bulkImportDocsLink> تمين ڪرِي ۿڳو سو۔ ڪان وريَ تمين پوتيَ لکِي ۿڳو سو </licenseLink> (عوامِي ڍومينَ) <licenseLink> CC 0 ياد راکو ڪيَ جُملا
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جُملا ڀيڳا ڪريا وارا نين اِستمال ڪرينَ امارِي گائيڍ زوو</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمين جُملان نا ننڪا نمڀر شامِل <sentenceCollectorLinkAdd> ڪرِي ۿڳو سو</sentenceCollectorLinkAdd>۔ 
+    يا تمين <bulkImportDocsLink> Github نين اِستمال ڪرينَ ڀرآمڌ ڪرِي ۿڳو سو</bulkImportDocsLink>۔
+    ياڌ راکزُو ڪي جُملا <licenseLink> CC0 يا (عوامِي ڍومينَ) </licenseLink> يا تمين پوتيَ پوتا نا لکِي ۿڳو سو۔
 about-playbook-how-add-language-collecting-sentences-content-3 = جُملان نان <sentenceCollectorFragment></sentenceCollectorFragment> مجموئان ماٿيَ وڌارين زوو۔
 
 ## How does localization work
