@@ -30,3 +30,4 @@ data-bubble-title = <mark>موآد</mark>
 data-bubble-subtitle = همي وڪت بروڪت ڊيٽآ سيٽ جآريٚ ڪردا هيونٚ
 contact-us = همآ دي رآبتو ڪرو
 contact-us-title = ڪآ تميٚ اِرو پروجيڪٽو مي شآمل هوآ مي دلچسپيٚ رکدآ هو يآ همرآ ڀيݪي شرآڪت ڪروآ مي؟
+contact-us-email = ايٚ ميل:</emailFragment>commonvoice@mozilla.com<emailFragment>
