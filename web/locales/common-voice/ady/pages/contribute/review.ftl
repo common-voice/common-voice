@@ -10,7 +10,7 @@ sc-review-form-prompt =
 sc-review-form-usage = Гущыӏэухыгъэм уезэгъыным пае джабгъумкӏэ лъыгъэкӏуат. Щыбгъэзыеным пае сэмэгумкӏэ лъыгъэкӏуат. Блэбгъэкӏыным пае ышъхьагъ дэгъэкӏуай. <strong>Узэплъыжьыгъэр бгъэхьынэу зыщымыгъэгъупш!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = Гъэфедэгъэр: { $sentenceSource }
+sc-review-form-source = Гъэфедагъэр: { $sentenceSource }
 sc-review-form-button-reject = Щыгъэзый
 sc-review-form-button-skip = Блэкӏ
 sc-review-form-button-approve = Езэгъ
