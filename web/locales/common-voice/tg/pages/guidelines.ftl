@@ -3,6 +3,7 @@ guidelines-header = Дастур оид ба саҳмгузорӣ
 guidelines-header-subtitle = Маълумот гиред, ки шумо чӣ тавр метавонед ба маҷмуи маълумоти «Common Voice» саҳм гузоред ва, ҷумлаҳо ва сабтҳои овозиро тасдиқ кунед.
 voice-collection = Маҷмуи овозҳо
 sentence-collection = Ҷамъоварии ҷумлаҳо
+question-collection = Ҷамъоварии саволҳо
 
 ## Voice Collection nav ids
 
@@ -80,6 +81,8 @@ reviewing-sentences-explanation-4 = Агар шумо барои баррасӣ 
 
 ## Question collection ids
 
+adding-questions = Илова кардани саволҳо
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Саволи хуб бояд чӣ гуна бошад?

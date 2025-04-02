@@ -15,6 +15,11 @@ prompt-response-deleted-success = جبآب ڪآميآپيو دي کتم هوگو
 delete = کتم
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = جمآ ڪرآرو گو
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = سب جمآ ڪرو
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = يو سڦو ڪيسي استمآل ڪرآنٚ وو سيِڪو
+learn-how-to-use-prompts-explanation = بس جلديٚ جبآب ديوو جيسي تِميٚ ايڪ دو جملآ مي ڪر سڪدآ هو۔ پڪ ڪرو تو تِمريٚ ٻوليٚ ايترآموآݪی اور نآپسند هي۔
+learn-how-to-use-prompts-guidance = <guidanceLink>يهآنٚ</guidanceLink> ڪلڪ ڪرو تو جيسي تِمي کبر لي سڪدآ هو تو اِرو سڦآ ڪوُ ڪيسي استمآل ڪري
