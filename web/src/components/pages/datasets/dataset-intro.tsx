@@ -20,9 +20,6 @@ const DatasetIntro = () => {
           </div>
 
           <div>
-            <Localized id="show-wall-of-text">
-              <p />
-            </Localized>
             <Localized id="datasets-positioning">
               <p />
             </Localized>
