@@ -131,3 +131,7 @@ process-steps = Proces / Hapa
 process-steps-explanation = Pyetje që duan që dikush të paraqesë një numër hapash.  Paraqitja e hapave e bën një përdorues të recitojë një përgjigje, në vend se një përgjigje më të natyrshme.
 offensive-content-sensitive-information = Lëndë fyese, ose informacion me spec
 offensive-content-sensitive-information-explanation-explanation-1 = Pyetje që mund kërkojnë hollësi personale të identifikueshme
+offensive-content-sensitive-information-explanation-explanation-2 = Pyetje që mund të kërkojnë gjuhë urrejtjeje ose të tjera ndjenja të njëanshme ose fyese
+example-questions-subheader = Shembuj pyetjesh
+example-questions-explanation-1 = Mund të gjeni <examplePromptsLink>120 shembuj në këtë fletë.</examplePromptsLink>
+example-questions-explanation-2 = Nëse do të donit të parashtroni një pjesë pyetjesh për trajtim, <githubLink>mund ta bëni përmes llogarisë sonë GitHub</githubLink>, ose dërgojeni listën tuaj me email te <emailFragment>commonvoice@mozilla.com.</emailFragment>
