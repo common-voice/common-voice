@@ -112,7 +112,23 @@ adding-questions = Engadir preguntas
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Como debería ser unha boa pregunta?
-what-makes-a-good-question-explanation = Se queres achegar unha boa pregunta a este proxecto colectivo, ten en conta que esta debería:
+what-makes-a-good-question-explanation = Se quere achegar unha boa pregunta a este proxecto colectivo, teña en conta que esta debería:
 what-makes-a-good-question-explanation-criteria-1 = Ser doada de entender e responder
 what-makes-a-good-question-explanation-criteria-2 = Ter relevancia xeral
 what-makes-a-good-question-explanation-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
+what-makes-a-good-question-tip = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+easy-to-understand = Fácil de entender
+easy-to-understand-explanation = Escolla preguntas sinxelas, que calquera poida entender, independentemente da súa cultura ou contexto.
+spelling-and-pronunciation = Ortografía e puntuación
+spelling-and-pronunciation-explanation = Asegúrese de usar a ortografía e gramática correctas.
+length = Lonxitude
+length-explanation = A pregunta debe poder responderse cun par de frases.
+dont-add-subheader = Non engadir
+culturally-specific-questions = Preguntas moi específicas culturalmente
+culturally-specific-questions-explanation = Preguntas que dependen moito dun contexto cultural concreto ou que fan demasiadas suposicións sobre quen responde
+length-avoid-explanation =
+    Preguntas que requiren máis de 15 segundos para responder
+    (a duración máxima dunha resposta gravada)
+process-steps = Procesos ou instrucións paso a paso
+process-steps-explanation = Evite preguntas que obriguen a enumerar varios pasos, xa que adoitan xerar respostas recitadas en vez de naturais.
+offensive-content-sensitive-information = Contido ofensivo ou información sensible

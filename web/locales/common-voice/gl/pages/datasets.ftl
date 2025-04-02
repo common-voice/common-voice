@@ -10,7 +10,7 @@ datasets-positioning =
     Empregue esta páxina como centro de referencia para outros conxuntos de datos de voz de código aberto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 datasets-speech-bubble-content =
     Temos boas novas! Estamos a preparar unha nova funcionalidade: a fala espontánea!
-    Moi pronto estará dispoñible — permanece atento/a ás novidades no noso <discordLink>Discord</discordLink>.
+    Moi pronto estará dispoñible — permaneza atento/a ás novidades no noso <discordLink>Discord</discordLink>.
 language = Idioma
 download-dataset-header = Descargar o conxunto de datos
 download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
