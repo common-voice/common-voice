@@ -1,69 +1,159 @@
+@import url('../../media.css');
+
 .dataset-intro {
     box-sizing: border-box;
-    padding: 0 var(--page-margin);
     color: var(--white);
     background: url('images/datasets-intro-background.svg');
     background-color: #3b3b3b; /* fallback if image hasnt loaded */
     background-size: cover;
     display: flex;
+    flex-direction: row;
+    align-content: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
-    @media (--lg-up) {
-        background-position: right;
-    }   
 
     @media (--xl-up) {
-        padding: 5em;
+        padding: 0 var(--page-margin);
     }
 
-    /* triangle top left */
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: url('images/datasets-intro-background-triangle.svg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 4vw;
-        height: 4vw;
+    .content-wrapper {
+        width: 100%;
+        margin-block: 80px;
+        display: flex;
+        justify-content: space-around;
 
-        @media (--xl-up) {
-            width: 8vw;
-            height: 8vw;
+        @media (--lg-down) {
+            flex-direction: column;
         }
 
-        [dir='rtl'] & {
-            right: 0;
-            transform: scaleX(-1); /* flip image */
+        @media (--sm-down) {
+            position: relative;
+            overflow: hidden;
         }
     }
 
-    button {
-        font-size: 1em;
-        font-weight: 600;
-        text-decoration: underline;
-        color: var(--blue);
-    }
-
-    p {
-        /* max-width: 0em; */
-        line-height: 1.5;
-        white-space: pre-line;
-    }
-
-    .intro-summary {
-        padding-top: 1em;
-        margin-bottom: 1em;
-        font-size: var(--font-size-lg);
-        line-height: 1.35;
-    }
-    div {
     @media (--lg-up) {
-        width: 50%;
-    max-width: 50em;
-
+        background-position: right;
     }
+
+    .heading-and-intro-container {
+        flex: 0.5;
+
+        @media (--lg-down) {
+            padding: 0 var(--page-margin);
+        }
+
+        h1.page-heading {
+            font-size: var(--font-size-max);
+            margin-top: 0;
+            padding-top: 0;
+
+            &::before {
+                /* hide horizontal bar from PageHeading component */
+                display: none;
+            }
+        }
+
+        /* triangle top left */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url('images/datasets-intro-background-triangle.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 4vw;
+            height: 4vw;
+
+            @media (--xl-up) {
+                width: 8vw;
+                height: 8vw;
+            }
+
+            [dir='rtl'] & {
+                right: 0;
+                transform: scaleX(-1); /* flip image */
+            }
+        }
+
+        button {
+            font-size: 1em;
+            font-weight: 600;
+            text-decoration: underline;
+            color: var(--blue);
+        }
+
+        p {
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+
+        .intro-summary {
+            padding-top: 1em;
+            margin-bottom: 1em;
+            font-size: var(--font-size-lg);
+            line-height: 1.35;
+        }
+
+        div {
+            @media (--lg-up) {
+                width: 100%;
+                max-width: 50em;
+            }
+        }
+    }
+
+    .mars-container {
+        transform: translateY(25%);
+
+        @media (--lg-down) {
+            align-self: flex-end;
+            transform: translateX(50%);
+        }
+
+        @media (--xs-down) {
+            margin-block: 40px;
+        }
+
+        .speech-bubble-container {
+            border-radius: 15px;
+            background: linear-gradient(
+                90deg,
+                var(--gradient-pink),
+                var(--gradient-purple) 100%
+            );
+            width: 270px;
+            padding: 16px;
+            position: relative;
+            z-index: 1;
+            transform: translate(-80%, 5%);
+
+            p {
+                color: var(--black);
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        .waving-mars {
+            @media (width < 1800px) {
+                display: none;
+            }
+        }
+
+        .waving-mars-clipped {
+            @media (--md-up) {
+                display: none;
+            }
+        }
+
+        .speech-bubble-tail {
+            right: 80%;
+            top: 30%;
+            position: absolute;
+        }
     }
 }
