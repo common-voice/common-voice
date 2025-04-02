@@ -113,6 +113,8 @@ about-playbook-how-record-content-5 = <accuracyLink>ڌُرستڳِي نا معي
 about-playbook-how-grow-language = امين ڪامنَ وائيس ماٿيَ ڪيم ٻولِي نين ڪيم موثر طريقيَ ٿِي وڌاوِي ۿڳيئين سيئين؟
 about-playbook-how-grow-language-content-1 = ڪامنَ وائيس مان حِصو ليڌا ۿارُو مُختلِڦ ماڻۿان ۿارُو موقعا پيۮا ڪريا نون يقينَ ۮيوراويَ سي، ڪيَ ڍيٽاسيٽ ڪاڦِي حڌ ۿوُڌِي ماڻۿان نِي شيوا ڪريَ سي۔ امين وسيلا انين ٽيمپليٽ ٺاۿيان سي زين نين تمين اِستمال ڪرِي ۿڳو سو!
 about-playbook-how-grow-language-content-2 = موقعا
+about-playbook-how-grow-language-content-3 = ’تمين ماڻۿان نين حِصو ليڌا مان مۮت ڪريا نا موقعا هلوِي ۿڳو سو۔ اِي تمارِي سوچ ٿيئيَ وڌارين ۿورون سي۔ تمين اِي وِيڍيو ڪانڦرنس ٽُول ٿِي آنَ لائينَ ڪرِي ۿڳو سو انين زو اِي ميحڦوظ سي تو تمين زاتِي طور ماٿيَ پڻ ڪرِي ۿڳو سو۔ <eventTemplate> اماران ٽيمپليٽان نين انين وسيلا نين موقعا هلوِيا ۿارُو چيڪ ڪرِي ۿڳو سو</eventTemplate>۔
+about-playbook-how-grow-language-content-4 = سوشل ميڍيا
 
 ## How to validate
 
