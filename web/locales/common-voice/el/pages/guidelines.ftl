@@ -117,6 +117,7 @@ what-makes-a-good-question-explanation-criteria-1 = Είναι εύκολη στ
 what-makes-a-good-question-explanation-criteria-2 = Είναι γενικά επίκαιρη
 what-makes-a-good-question-explanation-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 spelling-and-pronunciation = Ορθογραφία και στίξη
+length = Μήκος
 length-explanation = Θα πρέπει να είναι δυνατή η απάντηση της ερώτησης μέσα σε λίγες μόνο προτάσεις.
 dont-add-subheader = Να μη γίνει προσθήκη
 process-steps = Διαδικασία/Βήματα
