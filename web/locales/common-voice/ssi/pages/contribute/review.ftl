@@ -20,6 +20,16 @@ sc-review-form-button-approve-shortcut = وائے
 sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایَس
+sc-review-form-button-submit =
+    .submitText = آکھرِیاڑا دؔیکھٹؔاں
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] کِسی ٻولا کُو اِدؔائے نائِیں دؔیکھا۔
+        [one] ایکی ٻولا کُو دؔیکھی لیا ۔ دھنیواد!
+       *[other] { $sentences } ٻولیں کُو دؔیکھی لیا ۔ دھنیواد!
+    }
 
 ## REVIEW CRITERIA
 
