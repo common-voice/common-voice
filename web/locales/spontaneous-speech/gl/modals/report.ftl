@@ -8,6 +8,7 @@ different_language = Idioma diferente
 different_language-detail = No contido emprégase outro idioma que o esperado.
 personally_identifiable_information = Información que permite identificar persoas
 personally_identifiable_information-detail = Este contido inclúe información que permite identificar persoas, como o seu nome, correo electrónico, enderezo, DNI ou número de teléfono.
+personally_identifiable_information-answer-detail = Este contido está a solicitar información relacionada coa identidade dunha persoa, como o seu nome, enderezo de correo electrónico, localización, DNI ou número de teléfono.
 report-other-comment =
     .placeholder = Comentar
 # Label for textarea in report modal
