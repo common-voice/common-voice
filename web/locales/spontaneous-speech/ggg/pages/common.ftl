@@ -25,9 +25,24 @@ report-button = رِپوٽَ
 skip-button = ڇوڙوو
 submit-button = ديئو
 contribute = مِل ڪي سآهِتآ ڪرو
+request-new-language = نويٚنٚ ڀوليو ڪيٚ درکآس
 
 ## Navbar
 
+respond-to-prompt = جبآب
+transcribe = لِکوو
+check-transcriptions = وَريٚ نينٚگ ڪروو
+question = سوآل
 
 ## Not Found Page
 
+not-found-page-header = ڪونآ مِلرو
+not-found-page-content = تِمي جِرو سڦآ ڪوُ ڊهوُنڊ رهيرآ هو، وو ڪونآ مِل سڪرو۔
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Common Voice ڪيٚ <termsLink>شرتيٚنٚ</termsLink> اور <privacyLink>پرآئيوُسيآنٚ ڪآ نوتيِسو </privacyLink> دي مي رآجي هونٚ
+# Locales
+bsy = کيري ڪيِٚ سُبو
+cdo = ڦوجو
+cpx = هينگ هوآ
+en = انگريجي
+fr = فرينچ
