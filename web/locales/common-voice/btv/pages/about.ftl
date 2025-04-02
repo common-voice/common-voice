@@ -127,6 +127,13 @@ about-playbook-how-access-dataset-content-2 = کہ تو اے ایس آر ماڈ�
 
 about-playbook-how-project-governance = پراجیکٹ فیصلے کش سندا
 about-playbook-how-project-governance-content-1 = موزیلا عام اواز ممکن سنداں بزائ مختلف کمیونٹی سو ایکٹیوسٹوں رے،زیب سو ماہروں رے،سائنسدانوں رے تعلیمی آ سافٹ وئیر انجنئیروں رے تمام دنیاں سو۔پراجیکٹ موزیلا فاونڈیشن چلا۔
+about-playbook-how-project-governance-content-2 = اسئیں حُکمت تھویئں رے سندیل تھی:
+about-playbook-how-project-governance-content-3 = پردہ داری،حفاظت آ شفافیت۔
+about-playbook-how-project-governance-content-4 = کمیونٹی حصہ گِھنو آ فیصلہ گرو۔
+about-playbook-how-project-governance-content-5 = قدروقیمت آ پھونیو۔
+about-playbook-how-project-governance-content-6 = باہمی حساب کتاب۔
+about-playbook-how-project-governance-content-7 = <governanceLink>  جل پڑ چہء بے کش حکمت گرہ تھہ </governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = عام اواز کش سنداں گے تھی ؟
