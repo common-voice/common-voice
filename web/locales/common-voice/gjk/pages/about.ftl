@@ -111,6 +111,8 @@ about-playbook-how-record-content-5 = <accuracyLink>ڌُرستڳِي نا معي
 ## How to grow language
 
 about-playbook-how-grow-language = امين ڪامنَ وائيس ماٿيَ ڪيم ٻولِي نين ڪيم موثر طريقيَ ٿِي وڌاوِي ۿڳيئين سيئين؟
+about-playbook-how-grow-language-content-1 = ڪامنَ وائيس مان حِصو ليڌا ۿارُو مُختلِڦ ماڻۿان ۿارُو موقعا پيۮا ڪريا نون يقينَ ۮيوراويَ سي، ڪيَ ڍيٽاسيٽ ڪاڦِي حڌ ۿوُڌِي ماڻۿان نِي شيوا ڪريَ سي۔ امين وسيلا انين ٽيمپليٽ ٺاۿيان سي زين نين تمين اِستمال ڪرِي ۿڳو سو!
+about-playbook-how-grow-language-content-2 = موقعا
 
 ## How to validate
 
