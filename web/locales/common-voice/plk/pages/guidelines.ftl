@@ -3,6 +3,7 @@ guidelines-header = شرکتے رہنما اصول
 guidelines-header-subtitle = کامن وائس ڈیٹاسیٹ دہ جُملِائے گہ آڈیو کلپو تعاون گہ توثیق تھونے طریقہ پرجون
 voice-collection = آوازو مجموعہ
 sentence-collection = جُملو مجموعہ
+question-collection = سوالاتو مجموعہ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,11 @@ domain-explanation = ڈومین اےْ مراد جُملائے موضوع نیْ
 
 ## Question collection ids
 
+adding-questions = سوالات ٹل تھون
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ایک مڑنے سوال گیْ جو بِینوْ؟
+what-makes-a-good-question-explanation = عوامی شرکتے ڈیٹاسیٹس اےْ کِرِیا ایک مِݜٹو سوال:
+what-makes-a-good-question-explanation-criteria-1 = لڇھون گہ جواب دون دہ ہسان سنِجہ
+what-makes-a-good-question-explanation-criteria-2 = عام شان گیْ متعلقہ بِیا
