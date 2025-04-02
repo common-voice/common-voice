@@ -1,6 +1,7 @@
+@import url('../../media.css');
+
 .dataset-intro {
     box-sizing: border-box;
-    padding: 0 var(--page-margin);
     color: var(--white);
     background: url('images/datasets-intro-background.svg');
     background-color: #3b3b3b; /* fallback if image hasnt loaded */
@@ -11,13 +12,35 @@
     justify-content: space-between;
     align-items: center;
 
-    @media (width < 1800px) {
-        flex-direction: column;
+    @media (--xl-up) {
+        padding: 0 var(--page-margin);
+    }
+
+    .content-wrapper {
+        width: 100%;
+        margin-block: 80px;
+        display: flex;
+        justify-content: space-around;
+
+        @media (--lg-down) {
+            flex-direction: column;
+        }
+
+        @media (--sm-down) {
+            position: relative;
+            overflow: hidden;
+        }
+    }
+
+    @media (--lg-up) {
+        background-position: right;
     }
 
     .heading-and-intro-container {
-        @media (width > 1800px) {
-            margin-block-end: 80px;
+        flex: 0.5;
+
+        @media (--lg-down) {
+            padding: 0 var(--page-margin);
         }
 
         h1.page-heading {
@@ -62,7 +85,6 @@
         }
 
         p {
-            /* max-width: 0em; */
             line-height: 1.5;
             white-space: pre-line;
         }
@@ -83,9 +105,16 @@
     }
 
     .mars-container {
-        width: auto;
-        align-self: end;
-        transform: translate(0%, 25%);
+        transform: translateY(25%);
+
+        @media (--lg-down) {
+            align-self: flex-end;
+            transform: translateX(50%);
+        }
+
+        @media (--xs-down) {
+            margin-block: 40px;
+        }
 
         .speech-bubble-container {
             border-radius: 15px;
@@ -96,35 +125,35 @@
             );
             width: 270px;
             padding: 16px;
-            transform: translateX(-80%);
+            position: relative;
+            z-index: 1;
+            transform: translate(-80%, 5%);
 
             p {
                 color: var(--black);
             }
 
-            @media (--xs-down) {
-                transform: translate(-20%, -15%);
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        .waving-mars {
+            @media (width < 1800px) {
+                display: none;
+            }
+        }
+
+        .waving-mars-clipped {
+            @media (--md-up) {
+                display: none;
             }
         }
 
         .speech-bubble-tail {
-            z-index: -1;
-            top: 30%;
             right: 80%;
+            top: 30%;
             position: absolute;
-
-            @media (--xs-down) {
-                top: 25%;
-                right: 70%;
-            }
         }
-    }
-
-    @media (--lg-up) {
-        background-position: right;
-    }
-
-    @media (--xl-up) {
-        padding: 5em 14em;
     }
 }

@@ -6,7 +6,7 @@ datasets-positioning =
     Large, publicly available voice datasets will foster innovation and healthy competition in machine-learning speech technology. Common Voice’s dataset is the largest of its kind, but not the only one.
     
     This page serves as a reference hub for other open-source voice datasets and a home for our release updates as Common Voice grows.
-datasets-speech-bubble-content = Exciting news! Spontaneous Speech is on the way! Stay tuned for updates and make sure to check our Discord for the latest information.
+datasets-speech-bubble-content = Exciting news! Spontaneous Speech is on the way! Stay tuned for updates and make sure to check our <discordLink>Discord</discordLink> for the latest information.
 language = Language
 download-dataset-header = Download the Dataset
 download-delta-explainer = We’ve made some changes. Delta Segments just contain the most recent clips since the last release. <deltaLink>Read more about this work</deltaLink>.
