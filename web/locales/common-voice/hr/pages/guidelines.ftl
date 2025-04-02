@@ -3,6 +3,9 @@ guidelines-header = Smjernice za doprinošenje
 guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i audio isječke u Common Voice skup podataka
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
+
+## Voice Collection nav ids
+
 varying-pronunciations = Različiti izgovori
 misreadings = Pogrešna čitanja
 offensive-content = Uvredljiv sadržaj
@@ -12,6 +15,9 @@ volume = Glasnoća
 reader-effects = Efekti čitača
 just-unsure = Nisi siguran/na?
 example = Primjer
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Različiti naglasci su dobrodošli! Oprez pri odbijanju isječaka za koje misliš da je čitatelj krivo izgovorio riječ, da je stavio naglasak na krivo mjesto ili da je zanemario interpunkciju. Postoji mnogo izgovora koji se koriste diljem svijeta koje možda ne poznaš. Uzmi u obzir da mnogi ljudi govore drugačije od tebe.
 varying-pronunciations-explanation-2 = S druge strane, ako misliš da čitatelj ne pozna tu riječ i da netočno nagađa izgovor, odbij isječak. Ako nisi siguran/na koristi gumb „Preskoči”.
 misreadings-explanation-2 = Vrlo uobičajene pogreške uključuju:
@@ -30,11 +36,17 @@ misreadings-tip-3 = [Nepoklapajući sadržaj]
 just-unsure-explanation = Ako naiđeš na nešto što ove smjernice ne pokrivaju, glasaj prema vlastitoj procjeni. Ako se stvarno ne možeš odlučiti, koristi gumb za preskakanje i prijeđi na sljedeću snimku.
 still-have-questions = Još uvijek imaš pitanja?
 contact-common-voice = Obrati se Common Voice timu
+
+## Sentence collection nav ids
+
 public-domain = Javno vlasništvo
 citing-sentences = Citiranje rečenica
 adding-sentences = Dodavanje rečenica
 reviewing-sentences = Pregledavanje rečenica
 sentence-domain = Domena rečenica
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Vrlo je važno da su sve tekstualne rečenice u <publicDomain>javnom vlasništvu</publicDomain> (<cc0>cc0</cc0>) jer je Common Voice skup podataka objavljen pod licencom cc0. Učitaj rečenicu samo ako si siguran/na i uvijek uključi relevantan citat.
 citing-sentences-subheader-websites = Web stranice
 citing-sentences-subheader-websites-explanation = Možeš uključiti web stranicu, npr. „Common Voice – https://commonvoice.mozilla.org/”
@@ -62,3 +74,9 @@ reviewing-sentences-explanation-1 = Ako rečenica ispunjava gornje kriterije, kl
 reviewing-sentences-explanation-2 = Ako rečenica ne ispunjava gornje kriterije, klikni gumb „Ne”.
 reviewing-sentences-explanation-3 = Ako rečenicu ne razumiješ, možeš je preskočiti i prijeći na sljedeću.
 reviewing-sentences-explanation-4 = Ako ti ponestane rečenica za pregled, pomogni nam sakupiti još rečenica!
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

@@ -3,6 +3,10 @@ guidelines-header = Směrnice za sobustatkujuce
 guidelines-header-subtitle = Zrozmějśo, kak móžośo datowej sajźbje Common Voice sady a awdioklipy pśinosowaś a kak móžośo je pśeglědowaś
 voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka pšašanjow
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rozdźělne wugronjenja
 misreadings = Cytańske zmólki
 offensive-content = Njepśistojne wopśimjeśe
@@ -12,6 +16,9 @@ volume = Głosnosć
 reader-effects = Efekty cytarja
 just-unsure = Jano njewěsty?
 example = Pśikład
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Buźćo wjelgin wobglědniwy, nježli až klip z wobtwarźenim wótpokazujośo, dokulaž mysliśo, až cytaŕ jo wopak wugronił słowo, jo stajił pśizuk na wopacne městno abo ignorěrował interpunkciju. Wjele wugronjenjow se pó cełem swěśe wužywa, snaź njejsćo słyšał někotare z nich w swójom lokalnem zgromaźeństwje. Pšosym pśizwólśo tym wjelikomyslnu lichotnosć, kótarež hynac ako wy powědaju.
 varying-pronunciations-explanation-2 = Jolic pak měniśo, až cytaŕ jo namakał słowo pśez pśipad a wopak wugódał wugronjenje, wótpokažćo pšosym. Jolic se wěsty njejsćo, wužywajśo tłocašk Pśeskócyś.
 varying-pronunciations-example = Ruta jo była njejasna.
@@ -42,11 +49,17 @@ reader-effects-explanation = Nejwěcej nagraśow jo wót luźi, kótarež ze sw�
 just-unsure-explanation = Jolic na něco starcyjośo, až toś tym směrnicam njewótpowědujo, głosujśo pšosym pó swójom nejlěpšem pósudku. Jolic napšawdu njamóžośo se rozsuźiś, wužywajśo tłocašk Pśeskócyś a pókšacujśo z pśiducym nagraśim.
 still-have-questions = Maśo hyšći pšašanja?
 contact-common-voice = Stajśo z teamom Common Voice do zwiska
+
+## Sentence collection nav ids
+
 public-domain = Zjawnje wužywabny
 citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
 sentence-domain = Tema sady
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Jo wjelgin wažnje, až wšykne tekstowe sady su <publicDomain>zjawnje pśistupne</publicDomain> (<cc0>cc0</cc0>), dokulaž datowa sajźba Common Voice se pód licencu cc0 wózjawja. Nagrajśo jano sadu, jolic sćo se wěsty, a pśidajśo pśecej relewantny citat.
 public-domain-explanation-2 = Nejlěpše sady za wužytny program powědańskego spóznaśa su wobchadnorěcne, moderne rěcne wužywanje. Někotare ideje, kótarež wam pomagaju, sady generěrowaś, su;
 public-domain-explanation-3 = Napórajśo moderne, wobchadnorěcne sady sam abo ze swójimi pśijaśelami abo z rěcnym zgromaźeństwom – na pśikład pśez „write-a-thon“
@@ -86,3 +99,30 @@ reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowě
 reviewing-sentences-explanation-3 = Jolic njejsćo wěsty pśi saźe, móžośo ju pśeskócyś a z pśiduceju pókšacowaś.
 reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 domain-explanation = Tema se na temu sady póśěgujo. Tuchylu móžośo wubraś mjazy:
+
+## Question collection ids
+
+adding-questions = Pšašanja pśidaś
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Co jo dobre pšašanje?
+what-makes-a-good-question-explanation = Dobre pšašanje za datowe sajźby zjawnego wobźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = lažko rozměś byś a na se wótegroniś daś
+what-makes-a-good-question-explanation-criteria-2 = powšyknje relewantne byś
+what-makes-a-good-question-explanation-criteria-3 = kśiwjecu abo njepśistojnu rěc njewužywaś
+easy-to-understand = Lažko rozuměś
+easy-to-understand-explanation = Wubjeŕśo jadnore pšašanja, kótarež móžo kuždy lažko rozměś, njeźiwajucy na kulturu abo kontekst.
+spelling-and-pronunciation = Pšawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužywajśo korektny pšawopis a korektnu gramatiku.
+length = Dłujkosć
+length-explanation = Na pšašanje měło se w jano mało sadach wótegroniś daś.
+dont-add-subheader = Njepśidaś
+culturally-specific-questions = Za kulturu specifiske pšašanja
+culturally-specific-questions-explanation = Pšašanja, kótarež su wjelgin specifiske za kulturu abo wjele měnjenjow wó wótegranjajucem wopśimuju
+process-steps = Proces / Kšace
+offensive-content-sensitive-information = Njepśistojne wopśimjeśe abo sensibelne informacije
+offensive-content-sensitive-information-explanation-explanation-1 = Pšašanja, kótarež se informacije wó wósobinskej identiśe wupšosuju
+offensive-content-sensitive-information-explanation-explanation-2 = Pšašanja, kótarež se mógli powědanje gramoty abo druge zacuśa połne pśedsudkow abo njepśistojne zacuśa wupšosowaś
+example-questions-subheader = Pśikładowe pšašanja
+example-questions-explanation-1 = Móžośo <examplePromptsLink>120 pśikładowych pšašanjow w toś tej tabeli namakaś.</examplePromptsLink>

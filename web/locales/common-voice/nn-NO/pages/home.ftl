@@ -104,6 +104,7 @@ add-text = Legg til tekst
 
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
+contribute-github = Bidra på Github
 # label for button
 contribute-github-action = Bidra på Github
 
@@ -118,8 +119,12 @@ contribute-github-action = Bidra på Github
 read-sentences-link = Les setningar
 answer-questions-link = Svar på spørsmål
 contribute-text-link = Bidra med tekst
+press-and-stories-link = Presse
 
 ## Partner section
 
+partner-section-title = Bli partnar med oss
 # icon is an arrow that points to the right
 get-in-touch-button = Ta kontakt <icon></icon>
+# Partners section
+our-partners-include = Samarbeidspartnarane våre inkluderer...

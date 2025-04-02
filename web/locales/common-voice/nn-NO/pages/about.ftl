@@ -70,6 +70,11 @@ about-playbook-how-add-language = Korleis legg eg til eit språk?
 about-playbook-how-add-language-content-1 = Kontrollar først om språket ditt <languageLink>allereie finst</languageLink>. Viss det ikkje gjer det, må du <strong>omsette nettstaden og samle setningar</strong>.
 about-playbook-how-add-language-translating-heading = Omsetjing av nettsida
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sjå rettleiinga vår om korleis du brukar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi brukar eit Mozilla-verktøy kalla <pontoonLink>Pontoon</pontoonLink> for omsetjingar. Pontoon har mange språk,
+    men viss han ikkje har ditt kan du <pontoonRequestLink>be om at språket ditt blir lagt til</pontoonRequestLink>.
+    Deretter, for å gjere språket tilgjengeleg på Common Voice-prosjektet,
+    <githubRepoLink>be om det nye språket på GitHub</githubRepoLink>. <localizationFragment>Sjå ​​meir på omsetjinga til nettstaden</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setningar
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sjå rettleiinga vår om korleis du brukar setningsinnsamlaren</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -127,6 +132,7 @@ about-playbook-how-validate-content-4 = Viss eit klipp blir avvist av 2 personar
 
 about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datasettet?
 about-playbook-how-access-dataset-content-1 = Du kan gå til <datasetsPage>datasettsida</datasetsPage>, velje versjonen og språka du vil ha, og laste han ned! Filene har <metadataLink>tilknytta metadata</metadataLink>, til dømes demografisk informasjon og valideringsdata. Du må oppgi ei e-postadresse for å laste ned datasettet.
+about-playbook-how-access-dataset-content-2 = Viss du leitar etter verktøy for å byggje ASR-modellar, kan du kontakte andre menneske i fellesskapet <discourseLink>på Discourse</discourseLink>.
 
 ## How are decisions made
 

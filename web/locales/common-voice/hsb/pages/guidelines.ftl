@@ -3,6 +3,10 @@ guidelines-header = Směrnicy za sobuskutkowarjow
 guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka prašenjow
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rozdźělne wurjekowanja
 misreadings = Čitanske zmylki
 offensive-content = Njepřistojny wobsah
@@ -12,6 +16,9 @@ volume = Sylnosć zwuka
 reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Budźće jara kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, dokelž mysliće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo interpunkciju prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wulkomyslnu swobodu, kotřiž hinak hač wy rěča.
 varying-pronunciations-explanation-2 = Jeli wšak měniće, zo čitar je słowo přez připad namakał a wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 varying-pronunciations-example = Ruta běše njejasna.
@@ -42,11 +49,17 @@ reader-effects-explanation = Najwjace nahraćow je wot ludźi, kotřiž ze swoji
 just-unsure-explanation = Jeli na něšto storčiće, zo tutym směrnicam njewotpowěduje, hłosujće prošu po swojim najlěpšim posudku. Jeli woprawdźe njemóžeće so rozsudźić, wužiwajće tłóčatko Přeskočić a pokročujće z přichodnym nahraćom.
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
+
+## Sentence collection nav ids
+
 public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
 sentence-domain = Tema sady
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Je jara wažnje, zo wšě tekstowe sady su <publicDomain>zjawnje přistupne</publicDomain> (<cc0>cc0</cc0>), dokelž datowa sadźba Common Voice so pod licencu cc0 wozjewja. Nahrajće jenož sadu, jeli sće sej wěsty, a přidajće přeco relewantny citat.
 public-domain-explanation-2 = Najlěpše sady za wužitny program rěčenskeho spóznaća su wobchadnorěčne, moderne rěčne wužiwanje. Někotre ideje, kotrež wam pomhaja, sady generować, su;
 public-domain-explanation-3 = Wutworće moderne, wobchadnorěčne sady sam abo ze swojimi přećelemi abo z rěčnym zhromadźenstwom – na přikład přez „write-a-thon“
@@ -86,3 +99,30 @@ reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje
 reviewing-sentences-explanation-3 = Jeli při sadźe wěsty njejsće, móžeće ju přeskočić a z přichodnej pokročować.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
+
+## Question collection ids
+
+adding-questions = Prašenja přidać
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Što dobre prašenje twori?
+what-makes-a-good-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = lochko rozumić być a na so wotmołwić dać
+what-makes-a-good-question-explanation-criteria-2 = powšitkownje relewantne być
+what-makes-a-good-question-explanation-criteria-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+easy-to-understand = Lochko rozumić
+easy-to-understand-explanation = Wubjerće jednore prašenja, kotrež móže kóždy lochko rozumić, njedźiwajo na kulturu abo kontekst.
+spelling-and-pronunciation = Prawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužiwajće korektny prawopis a korektnu gramatiku.
+length = Dołhosć
+length-explanation = Na prašenje měło so w jenož mało sadach wotmołwić dać.
+dont-add-subheader = Njepřidać
+culturally-specific-questions = Za kulturu specifiske prašenja
+culturally-specific-questions-explanation = Prašenja, kotrež su jara specifiske za kulturu abo wjele tukanjow wo wotmołwjacym wobsahuja
+process-steps = Proces / Kroki
+offensive-content-sensitive-information = Njepřistojny wobsah abo sensibelne informacije
+offensive-content-sensitive-information-explanation-explanation-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+offensive-content-sensitive-information-explanation-explanation-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
+example-questions-subheader = Přikładowe prašenja
+example-questions-explanation-1 = Móžeće <examplePromptsLink>120 přikładowych prašenjow w tutej tabeli namakać.</examplePromptsLink>

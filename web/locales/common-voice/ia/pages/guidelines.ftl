@@ -3,6 +3,10 @@ guidelines-header = Lineas guida de contribution
 guidelines-header-subtitle = Saper como collaborar e validar phrases e registrationes audio al collection de datos de Common Voice
 voice-collection = Collection de voces
 sentence-collection = Collection de phrases
+question-collection = Collection de questiones
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronunciationes variate
 misreadings = Errores de lectura
 offensive-content = Contento offensive
@@ -12,6 +16,9 @@ volume = Volumine
 reader-effects = Effectos del lector
 just-unsure = Ha tu dubitas?
 example = Exemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Presso nos es benvenite differente accentos! Sia multo caute ante rejectar un registration si tu pensa que le lector ha mal-pronunciate un parola, ha ponite le accento in le placia errate, o ha ignorate punctuation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un generose margine de appreciamento pro qui pote parlar differentemente de te.
 varying-pronunciations-explanation-2 = Del altere latere, si tu pensa que le lector  non ha jammais incontrate le parola antea e que ille  face un estimation incorrecte del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
 varying-pronunciations-example = Le route non era clar.
@@ -47,11 +54,17 @@ reader-effects-explanation = Le major parte del registrationes es de personas qu
 just-unsure-explanation = Si tu ha incontrate alco que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 still-have-questions = Altere questiones?
 contact-common-voice = Contactar le equipa de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Dominio public
 citing-sentences = Citante phrases
 adding-sentences = Addente phrases
 reviewing-sentences = Revidente phrases
 sentence-domain = Dominio del phrase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Il es multo importante que tote le phrases de texto es de <publicDomain>dominio public</publicDomain> (<cc0>cc0</cc0>) perque le collection de datos de Common Voice es publicate sub licentia cc0. Solo e sempre carga un phrase si tu es secur, e sempre include le pertinente citation.
 public-domain-explanation-2 = Le melior phrases pro producer un utile motor de recognition vocal es un conversation colloquial, moderne. Alcun ideas pro adjutar te a generar phrases es:
 public-domain-explanation-3 = Crea phrases colloquial e moderne tu mesme, o con tu amicos, o con tu communitate linguistic, per exemplo per un ‘marathon de scriptura’
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente crit
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vos pote eliger inter:
+
+## Question collection ids
+
+adding-questions = Adder questiones
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Que rende bon un question?
+what-makes-a-good-question-explanation = Un bon question pro le participation public a collectiones de datos deberea:
+what-makes-a-good-question-explanation-criteria-1 = Esser facile a comprender e a responder
+what-makes-a-good-question-explanation-criteria-2 = Esser generalmente pertinente
+what-makes-a-good-question-explanation-criteria-3 = Non usar, o sollicitar, linguage malefic o offensive
+what-makes-a-good-question-tip = Tu poterea alsi considerar de extender lo a differente contextos e dominios.
+easy-to-understand = Facile a Comprender
+easy-to-understand-explanation = Eliger questiones simple que es facile a comprender pro quicunque, sin reguardo a cultura o contexto.
+spelling-and-pronunciation = Orthographia e punctuation
+spelling-and-pronunciation-explanation = Usar orthographia e grammatica correcte.
+length = Longor
+length-explanation = Al question deberea esser possibile responder in justo un par de phrases.
+dont-add-subheader = Non adder
+culturally-specific-questions = Questiones culturalmente specific
+culturally-specific-questions-explanation = Questiones que es multo culturalmente specific, o face multe presuppositiones re le responder
+length-avoid-explanation = Questiones a que alcuno serea reluctante responder in 15 secundas (le maxime longor de registration)
+process-steps = Processo / Passos
+process-steps-explanation = Questiones que require de listar plure passos.  Listar passos suggere al usator de recitar un responsa, plus tosto que un responsa plus natural.
+offensive-content-sensitive-information = Contento offensive o datos sensibile
+offensive-content-sensitive-information-explanation-explanation-1 = Questiones que poterea sollicitar informationes de identification personal
+offensive-content-sensitive-information-explanation-explanation-2 = Questiones que poterea sollicitar incitamento al odio o altere sentimentos prevenite o offensive
+offensive-content-sensitive-information-explanation-explanation-3 = Questiones que pote causar a alcuno de compartir responsas sensibile, potentialmente discatenante
+example-questions-subheader = Questiones de exemplo
+example-questions-explanation-1 = Tu pote trovar
+example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a inserer, tu <githubLink>pote facer lo via nostre GitHub</githubLink> o inviar tu lista per email a <emailFragment>commonvoice@mozilla.com.</emailFragment>

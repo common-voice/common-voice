@@ -5,3 +5,5 @@ download-helpus = اسان کي آواز ٽيڪنالاجي جي چوڌاري ه
 download-form-email =
     .label = تمري ايِميل لگآؤ
     .value = تمري مهربآني، همي تمرآ رآبتآ مي هوسآنٚ۔
+download-back = آم آوآجوڪا ڊيٽآ موآدو ڪودي واپس جآئو
+download-no = نآ مهربآنيٚ
