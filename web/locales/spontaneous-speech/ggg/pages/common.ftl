@@ -15,6 +15,16 @@ contribution-picker-tooltip-text = ٻوليو ڪآ ڊيآسيٽو ڪوُ بدل�
 change = بدليٚ ڪرو
 coming-soon = اور ٻوليونٚ جلدي آ رهيريونٚ هينٚ
 media-recorder-api-not-supported = تِمرآ برئوجرو مي MediaRecorder API ڪو سبوت ڪونآ هي۔
+# Toast message that is displayed when an item is skipped
+skipped = ڇوڙرو گو
+audioplayer-header = سُڻوس
+guidelines = ڪيوَتَ
+# For the button to report an item
+report-button = رِپوٽَ
+# For the button to skip an item
+skip-button = ڇوڙوو
+submit-button = ديئو
+contribute = مِل ڪي سآهِتآ ڪرو
 
 ## Navbar
 
