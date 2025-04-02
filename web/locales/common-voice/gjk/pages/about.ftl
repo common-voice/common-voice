@@ -111,15 +111,45 @@ about-playbook-how-record-content-5 = <accuracyLink>ڌُرستڳِي نا معي
 ## How to grow language
 
 about-playbook-how-grow-language = امين ڪامنَ وائيس ماٿيَ ڪيم ٻولِي نين ڪيم موثر طريقيَ ٿِي وڌاوِي ۿڳيئين سيئين؟
+about-playbook-how-grow-language-content-1 = ڪامنَ وائيس مان حِصو ليڌا ۿارُو مُختلِڦ ماڻۿان ۿارُو موقعا پيۮا ڪريا نون يقينَ ۮيوراويَ سي، ڪيَ ڍيٽاسيٽ ڪاڦِي حڌ ۿوُڌِي ماڻۿان نِي شيوا ڪريَ سي۔ امين وسيلا انين ٽيمپليٽ ٺاۿيان سي زين نين تمين اِستمال ڪرِي ۿڳو سو!
+about-playbook-how-grow-language-content-2 = موقعا
+about-playbook-how-grow-language-content-3 = ’تمين ماڻۿان نين حِصو ليڌا مان مۮت ڪريا نا موقعا هلوِي ۿڳو سو۔ اِي تمارِي سوچ ٿيئيَ وڌارين ۿورون سي۔ تمين اِي وِيڍيو ڪانڦرنس ٽُول ٿِي آنَ لائينَ ڪرِي ۿڳو سو انين زو اِي ميحڦوظ سي تو تمين زاتِي طور ماٿيَ پڻ ڪرِي ۿڳو سو۔ <eventTemplate> اماران ٽيمپليٽان نين انين وسيلا نين موقعا هلوِيا ۿارُو چيڪ ڪرِي ۿڳو سو</eventTemplate>۔
+about-playbook-how-grow-language-content-4 = سوشل ميڍيا
+about-playbook-how-grow-language-content-5 =
+    تمين پيغام پوڳاڙِيا ۿارُو سوشل ميڍيا پليٽ ڦارم نو اِستمال ڪرِي ۿڳو سو۔ پوسٽون شير ڪرو ايٽليَ اِي وضاۿت ٿائيَ ڪيَ اِي شون ليوا لازمِي سي، انين ٻيزان ماڻۿان ٿِي راٻطو ڪرو زين ٻولِي نان حقان ۿارُو، آواز نِي آرٽيفِشل اينٽليجھينس ۿارُو انين زين ٽيڪنولوجي مان تعصُڀ زيوان مسلان ماٿيَ انين سماجِي موهِم هلوِيا نا ٻارا مان وات چيت ڪريَ سي ريا۔ 
+    وڌيڪ صلاموشورا ۿارُو <campaignLink> ماٿيَ زووو زين مان وڌِيڪ اِي مَواڌ شامِل سي زين نين تمين وريَ ٻيزِي وران اِستمال ڪرِي ۿڳو سو</campaignLink>۔
+about-playbook-how-grow-language-content-6 = شراڪتۮارِي انين نيٽورڪ
+about-playbook-how-grow-language-content-7 = ٻيزان نين ڳوتو زين مان يونيورسٽِيُون، ٻولِي واران اِسڪُول، وڪالت گرُوپ يا ڍيٽا سائنس ڪميونٽِي ٿئِي ۿڳيَ سي، اينيان ٿِي راٻطو ڪرو انين واضح طريقيَ ٿِي وضاۿت ڪرو ڪيَ اِي ڪيم مۮت ڪرِي ۿڳيَ سي انين شون ليوا؟<outreachTemplates> امارِي ٽيمليٽ آئوٽ ريچ نِي اِي ميل زووو</outreachTemplates>۔
+about-playbook-how-grow-language-content-8 = <strong> تخليقِي ٿائو!</strong> تمارِي ڀراڌرِي نِي ٻولِي مُنڦرِڌ هشيَ، انين اين شُرو ڪريا ۿارُو ٻس ڪانڪ طريقا سي۔
 
 ## How to validate
 
+about-playbook-how-validate = مون نين چيم کٻرِ پڙشيَ ڪي وائيس ڪِلِپ منظور ٿاوون زويئين ڪيَ نا؟
+about-playbook-how-validate-content-1 = زو تمين<strong>اين نين ۿانڀرِي ۿڳو سو</strong>انين <strong>اين نين ۿمزِي ۿڳو سو</strong>۔ اِي گھڻو ڪرينَ<strong>منظور ڪريا ۿارُو تمام بيۿترينَ هوئيَ سي</strong>۔
+about-playbook-how-validate-content-2 = <strong> ايوان ڪِلِپان نين ڍِليٽ نا ڪرو زين نو ٻولِيا نو ليۿجھو تمارا پوتا نا ليۿجھا ٿِي ڦرق هوئيَ</strong>۔ اِي آواز نِي اورِکاڻِ ۿارُو لازمِي سي ايٽليَ هر ايڪ ۿارُو بيۿتر ڪام ٿئِي ۿڳيَ۔
+about-playbook-how-validate-content-3 = زو تمين ۿمزو سو ڪيَ اين نو اُچار <strong>ۿمزِيا ٿِي ٻارين سي</strong>، يا لارين الائِي <strong> ڳوڙِ ٿائيَ سي رئِي، ڪان وريَ ٻيزان مانۿان پڻ ٻوليَ سي ريان</strong>، تو تمين اِي ڪِلِپ نين رڌ ڪرِي ۿڳو سو۔ <accuracyLink> امارا ڌُرستڳِي نا معيار مان وڌيڪ مالوُمات زوئِي ۿڳو سو</accuracyLink>۔
+about-playbook-how-validate-content-4 = زو ايڪ ڪِلِپ ٻيَ ماڻۿان نِي طرڦ ٿِي رڌ ٿائيَ سي تو اِي ڍيٽا سيٽ نا ايڪ مختلِڦ سڀ سيٽ مان جھارِي ڪريون زائيَ سي۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = هون ڍيٽاسيٽ ۿوُڌِي ڪيم رسائِي ڪرِي ۿڳون سون انين اين نين اِستمال ڪرِي ۿڳون سو؟
+about-playbook-how-access-dataset-content-1 = تمين<datasetsPage>نا پيج ماٿيَ زئِي ۿڳو سو</datasetsPage>،  انين اُوڃان ٿِي تيمين ترجمون انين ٻولِيون زين تمين چاهو سو اِي سونڍِي ۿڳو سو انين اينيان نين ڍائونَ لوڍ ڪرِي ۿڳو سو! اِي ڦائيلون <metadataLink>ٿِي مُنسِلِڪ سي</metadataLink>، زين مان ڍيموگِراڦِڪ نيَ حواليَ ٿِي مالُومات انين تصڌيقِي ڍيٽا شامِل سي۔ تماريَ ڍيٽاسيٽ نين ڍائونَ لوڍ ڪريا ۿارُو ايڪ اِي ميل ايڍريس ۮيڌِي زوشيَ
+about-playbook-how-access-dataset-content-2 = زو تمين ASR ماڍل ٺاۿيا ۿارُو اوزار ڳوتو سو ريان تو تمين ڀراڌرِي مان ٻيزان ماڻۿان ٿِي <discourseLink> ڍِسڪورس ماٿيَ</discourseLink>مِلي ڪان وريَ جھُڙِي ۿڳو سو۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجيڪٽ ڪان وريَ منصُوٻا نا ڦينصلا ڪيم ٿائيَ سي؟
+about-playbook-how-project-governance-content-1 = موزيلا ڪامنَ وائيس نين ۿازِي ۮنيا نان مُختلِڦ ملڪان مان ٿِي سرگرم ڪارڪُن، لِسانيات نا ماهِر، ڍيٽا سائينسۮانَ، تعليم نا ماهرِ انين سافٽويئير انجينيئران نِي طرڦ ٿِي ڦرق ڦرق ڀراڌرِي ٿِي مُمڪِن ٻڻايوُن جھون سي۔ آ منصُوٻو موزيلا ڦائونڍيشنَ ۿنڀاريَ سي رئِي۔
+about-playbook-how-project-governance-content-2 = امارِي حُڪمرانِي هيٺلِيان ٿنڀان ماٿيَ ٻانڌل سي:
+about-playbook-how-project-governance-content-3 = رازۮارِي، حِڦاظت انين شفافيئت
+about-playbook-how-project-governance-content-4 = ڀراڌرِي نِي شِرڪت انين ڦينصلوسازِي
+about-playbook-how-project-governance-content-5 = قڌر انين اورکاڻِ
+about-playbook-how-project-governance-content-6 = مِلل زميوارِي
+about-playbook-how-project-governance-content-7 = <governanceLink>امارِي حُڪمرانِي نا ٻارا مان وڌارين ڀڻو</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪامنَ وائيس نين ڦنڍ ڪيم زڙيَ سي؟
+about-playbook-how-funded-content-1 = ڪامنَ وائيس موزيلا ڦائونڍيشنَ نو ايڪ منصُوٻو سي، زين ايڪ آمريڪِي US 501c3 نِي طرڦ ٿِي سي۔ آ منصُوٻا نِي ٻڌيئيَ ڦنڍينڳ<philantropicGrantLink> اتيارين خيراتِي ڦنڍينڳ نِي طرڦ ٿِي ٿائيَ سي رئِي</philantropicGrantLink>۔  انين اين مان ۿازِي ۮنيا مان ٿِي ماڻۿان چنۮو ڄيَ سي۔
+about-playbook-how-funded-content-2 = ڍيٽاسيٽ نين لڳاتار هلوِيا مان<africaMradiLink> اين نين جھارِي ڪريا مان، پليٽفارم نين بيۿتر ٻنايا مان، ڀراڌرِي نان پروڳرام هلوِيا مان</africaMradiLink> الائِي پئيشو کرچ ٿائيَ سي۔
+about-playbook-how-funded-content-3 = زو تمين انين تمارِي تنظيم اين مان حِصو ليوا ماڳيَ سي تو تمين <donateLink>ۮانَ ڪان وريَ چنۮو</donateLink>ۮئِي ۿڳو سو ڪان وريَ امارِي شراڪۮارِي وارِي ٽيم ٿِي<emailFragment>commonvoice@mozilla.com</emailFragment> ماٿيَ ملِي ۿڳو سو

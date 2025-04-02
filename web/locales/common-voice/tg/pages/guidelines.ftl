@@ -3,6 +3,7 @@ guidelines-header = Дастур оид ба саҳмгузорӣ
 guidelines-header-subtitle = Маълумот гиред, ки шумо чӣ тавр метавонед ба маҷмуи маълумоти «Common Voice» саҳм гузоред ва, ҷумлаҳо ва сабтҳои овозиро тасдиқ кунед.
 voice-collection = Маҷмуи овозҳо
 sentence-collection = Ҷамъоварии ҷумлаҳо
+question-collection = Ҷамъоварии саволҳо
 
 ## Voice Collection nav ids
 
@@ -80,6 +81,21 @@ reviewing-sentences-explanation-4 = Агар шумо барои баррасӣ 
 
 ## Question collection ids
 
+adding-questions = Илова кардани саволҳо
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Саволи хуб бояд чӣ гуна бошад?
+what-makes-a-good-question-explanation-criteria-1 = Барои фаҳмидан ва ҷавоб додан осон бошад
+easy-to-understand-explanation = Саволҳои оддиеро интихоб кунед, ки барои ҳама, новобаста аз фарҳанг ё қарина, фаҳмо бошанд.
+spelling-and-pronunciation = Имло ва аломатҳои китобат
+spelling-and-pronunciation-explanation = Қоидаҳои имло ва грамматикаи дурустро истифода баред.
+length = Дарозӣ
+length-explanation = Посух додан ба савол танҳо бо чанд ҷумла имконпазир бошад.
+dont-add-subheader = Илова накардан
+culturally-specific-questions = Саволҳои мушаххаси фарҳангӣ
+length-avoid-explanation = Саволҳое, ки касе барои посух додан дар 15 сония душворӣ мекашад (дарозии ҳадди аксари сабт)
+process-steps = Раванд / Қадамҳо
+offensive-content-sensitive-information-explanation-explanation-1 = Саволҳое, ки метавонанд ба муайян кардани маълумоти шахсият дахл дошта бошанд
+offensive-content-sensitive-information-explanation-explanation-2 = Саволҳое, ки метавонанд суханони нафратангез ё дигар эҳсосоти ғаразнок ё таҳқиромезро ба вуҷуд оранд
+example-questions-subheader = Саволҳои намунавӣ

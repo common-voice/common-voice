@@ -3,6 +3,7 @@ guidelines-header = Udhëzime Pjesëmarrjeje
 guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togfjalësha dhe copëza audio te grupi i të dhënave Common Voice
 voice-collection = Koleksion Zërash
 sentence-collection = Grumbullim Frazash
+question-collection = Koleksion Pyetjesh
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,31 @@ domain-explanation = Përkatësia i referohet lëndës së subjektit të togfjal
 
 ## Question collection ids
 
+adding-questions = Shtim Pyetjesh
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Ç’e bën të mirë një pyetje?
+what-makes-a-good-question-explanation = Një pyetje e mirë, për përfshirje në grupe të dhënash, duhet:
+what-makes-a-good-question-explanation-criteria-1 = Të jetë e kollajtë të kuptohet dhe t’i jepet përgjigje
+what-makes-a-good-question-explanation-criteria-2 = Të jetë në përgjithësi me kuptim
+what-makes-a-good-question-explanation-criteria-3 = Të mos përdorë, ose të kërkojë përdorim gjuhe të dëmshme ose fyese
+what-makes-a-good-question-tip = Mund të doni edhe të shihni mundësinë e shtrirjesh në kontekste dhe fusha të ndryshme.
+easy-to-understand = E kollajtë Për T’u Kuptuar
+easy-to-understand-explanation = Zgjidhni pyetje të thjeshta, që janë të kollajta për t’u kuptuar nga cilido, pavarësisht kulturës apo kontekstit.
+spelling-and-pronunciation = Drejtshkrim dhe Pikësim
+spelling-and-pronunciation-explanation = Përdorni shkrim dhe gramatikë të saktë.
+length = Gjatësi
+length-explanation = Pyetja duhet të jetë e tillë që t’i përgjigjen me thjesht një a dy togfjalësha.
+dont-add-subheader = Mos Shtoni
+culturally-specific-questions = Pyetje të lidhura me kultura specifike
+culturally-specific-questions-explanation = Pyetje që janë shumë të lidhura me një kulturë specifike, ose që marrin të mirëqena shumë hamendësime rreth kujt përgjigjet.
+length-avoid-explanation = Pyetje për të cilat dikush do të mundohet t’u përgjigjet brenda 15 sekondave (gjatësia maksimum e copave)
+process-steps = Proces / Hapa
+process-steps-explanation = Pyetje që duan që dikush të paraqesë një numër hapash.  Paraqitja e hapave e bën një përdorues të recitojë një përgjigje, në vend se një përgjigje më të natyrshme.
+offensive-content-sensitive-information = Lëndë fyese, ose informacion me spec
+offensive-content-sensitive-information-explanation-explanation-1 = Pyetje që mund kërkojnë hollësi personale të identifikueshme
+offensive-content-sensitive-information-explanation-explanation-2 = Pyetje që mund të kërkojnë gjuhë urrejtjeje ose të tjera ndjenja të njëanshme ose fyese
+example-questions-subheader = Shembuj pyetjesh
+example-questions-explanation-1 = Mund të gjeni <examplePromptsLink>120 shembuj në këtë fletë.</examplePromptsLink>
+example-questions-explanation-2 = Nëse do të donit të parashtroni një pjesë pyetjesh për trajtim, <githubLink>mund ta bëni përmes llogarisë sonë GitHub</githubLink>, ose dërgojeni listën tuaj me email te <emailFragment>commonvoice@mozilla.com.</emailFragment>

@@ -3,6 +3,7 @@ guidelines-header = Směrnice za sobustatkujuce
 guidelines-header-subtitle = Zrozmějśo, kak móžośo datowej sajźbje Common Voice sady a awdioklipy pśinosowaś a kak móžośo je pśeglědowaś
 voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka pšašanjow
 
 ## Voice Collection nav ids
 
@@ -101,6 +102,27 @@ domain-explanation = Tema se na temu sady póśěgujo. Tuchylu móžośo wubraś
 
 ## Question collection ids
 
+adding-questions = Pšašanja pśidaś
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Co jo dobre pšašanje?
+what-makes-a-good-question-explanation = Dobre pšašanje za datowe sajźby zjawnego wobźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = lažko rozměś byś a na se wótegroniś daś
+what-makes-a-good-question-explanation-criteria-2 = powšyknje relewantne byś
+what-makes-a-good-question-explanation-criteria-3 = kśiwjecu abo njepśistojnu rěc njewužywaś
+easy-to-understand = Lažko rozuměś
+easy-to-understand-explanation = Wubjeŕśo jadnore pšašanja, kótarež móžo kuždy lažko rozměś, njeźiwajucy na kulturu abo kontekst.
+spelling-and-pronunciation = Pšawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužywajśo korektny pšawopis a korektnu gramatiku.
+length = Dłujkosć
+length-explanation = Na pšašanje měło se w jano mało sadach wótegroniś daś.
+dont-add-subheader = Njepśidaś
+culturally-specific-questions = Za kulturu specifiske pšašanja
+culturally-specific-questions-explanation = Pšašanja, kótarež su wjelgin specifiske za kulturu abo wjele měnjenjow wó wótegranjajucem wopśimuju
+process-steps = Proces / Kšace
+offensive-content-sensitive-information = Njepśistojne wopśimjeśe abo sensibelne informacije
+offensive-content-sensitive-information-explanation-explanation-1 = Pšašanja, kótarež se informacije wó wósobinskej identiśe wupšosuju
+offensive-content-sensitive-information-explanation-explanation-2 = Pšašanja, kótarež se mógli powědanje gramoty abo druge zacuśa połne pśedsudkow abo njepśistojne zacuśa wupšosowaś
+example-questions-subheader = Pśikładowe pšašanja
+example-questions-explanation-1 = Móžośo <examplePromptsLink>120 pśikładowych pšašanjow w toś tej tabeli namakaś.</examplePromptsLink>

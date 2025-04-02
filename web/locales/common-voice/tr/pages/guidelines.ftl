@@ -3,6 +3,7 @@ guidelines-header = Katkıda bulunma yönergeleri
 guidelines-header-subtitle = Common Voice veri kümesine cümle ve ses kayıtları ile nasıl katkıda bulunabileceğinizi öğrenin
 voice-collection = Ses toplama
 sentence-collection = Cümle derleme
+question-collection = Soru toplama
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,30 @@ domain-explanation = Alan, cümlenin konusunu ifade eder. Şu anda aşağıdakil
 
 ## Question collection ids
 
+adding-questions = Soru ekleme
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = İyi bir soru nasıl olur?
+what-makes-a-good-question-explanation = Kitlesel katılımla oluşturulan veri kümeleri için iyi bir soru:
+what-makes-a-good-question-explanation-criteria-1 = Anlaşılması ve yanıtlanması kolay olmalı
+what-makes-a-good-question-explanation-criteria-2 = Genel konularla ilgili olmalı
+what-makes-a-good-question-explanation-criteria-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+what-makes-a-good-question-tip = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
+easy-to-understand = Anlaması kolay
+easy-to-understand-explanation = Kültür veya bağlamdan bağımsız olarak herkesin anlayacağı basit sorular seçin.
+spelling-and-pronunciation = Yazım ve noktalama
+spelling-and-pronunciation-explanation = Yazım ve dilbilgisi kurallarına uyun.
+length = Uzunluk
+length-explanation = Soru birkaç cümleyle yanıtlanabilir olmalıdır.
+dont-add-subheader = Şunları eklemeyin
+culturally-specific-questions = Kültürlere özgü sorular
+culturally-specific-questions-explanation = Kültüre özgü olan ya da yanıtlayan hakkında birçok varsayımda bulunan sorular
+length-avoid-explanation = Kişinin 15 saniye içinde yanıtlamakta zorlanacağı sorular (maksimum kayıt uzunluğu)
+process-steps = Aşamalı sorular
+offensive-content-sensitive-information = Rahatsız edici içerik veya hassas bilgiler
+offensive-content-sensitive-information-explanation-explanation-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
+offensive-content-sensitive-information-explanation-explanation-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
+offensive-content-sensitive-information-explanation-explanation-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+example-questions-subheader = Örnek sorular
+example-questions-explanation-1 = <examplePromptsLink>Bu sayfada 120 örnek soru bulabilirsiniz.</examplePromptsLink>

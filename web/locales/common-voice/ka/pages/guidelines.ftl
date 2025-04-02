@@ -3,6 +3,7 @@ guidelines-header = მონაწილეთა გზამკვლევ�
 guidelines-header-subtitle = გაეცანით, როგორ უნდა დაამატოთ და შეამოწმოთ წინადადებები ან ხმოვანი ჩანაწერები Common Voice-ის მონაცემთა კრებულში.
 voice-collection = ხმების შეგროვება
 sentence-collection = წინადადებების შეგროვება
+question-collection = კითხვების შეგროვება
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = დარგი მიუთითებს, თუ რა 
 
 ## Question collection ids
 
+adding-questions = კითხვების დამატება
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
+what-makes-a-good-question-explanation = კარგი შეკითხვა საჯარო კრებულისთვის უნდა იყოს:
+what-makes-a-good-question-explanation-criteria-1 = ადვილად გასაგები და იოლად საპასუხო
+what-makes-a-good-question-explanation-criteria-2 = მეტად საყოველთაო
+what-makes-a-good-question-explanation-criteria-3 = არ შეიცავდეს და არ ითხოვდეს მავნე ან შეურაცხმყოფელ სიტყვებს
+what-makes-a-good-question-tip = აგრეთვე სასურველია, მოიცვათ მრავალი საკითხი და დარგი.
+easy-to-understand = ადვილად გასაგები
+easy-to-understand-explanation = იოლი კითხვები, ყველასთვის ადვილად გასაგები რომ იყოს გარემოსა თუ პირობების განურჩევლად.
+spelling-and-pronunciation = მართლწერა და სასვენი ნიშნები
+spelling-and-pronunciation-explanation = გამართული მართლწერითა და გრამატიკით.
+length = სიგრძე
+length-explanation = შეკითხვა იმგვარი უნდა იყოს, რომ პასუხი ერთი-ორი წინადადებით ხერხდებოდეს.
+dont-add-subheader = არ დაამატოთ
+culturally-specific-questions = კითხვები ცალკეული ხალხის ან გარემოს შესახებ
+culturally-specific-questions-explanation = კითხვები, რომლებიც ვიწროდ მოიცავს ცალკეული საზოგადოების მახასიათებლებსა და მოპასუხისგან ითხოვს ზედმეტად ბევრ ვარაუდს.
+length-avoid-explanation = კითხვები, რომელთა საპასუხოდ ძალისხმევა აჭარბებს 15 წამს (ჩანაწერის ნებადართულ ხანგრძლივობას)
+process-steps = მიმდინარეობა / ნაბიჯები
+process-steps-explanation = კითხვები, რომლებიც მოითხოვს რამდენიმე ნაბიჯის მითითებას.  ნაბიჯების ჩამოთვლისას მომხმარებელს უწევს დაზეპირებული პასუხის გაცემა და იკარგება ბუნებრიობა.
+offensive-content-sensitive-information = შეურაცხმყოფელი ან საფრთხილო ინფორმაცია
+offensive-content-sensitive-information-explanation-explanation-1 = კითხვები, რომლითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
+offensive-content-sensitive-information-explanation-explanation-2 = კითხვები, რომლებიც შეიძლება იწვევდეს სიძულვილის ენას ან სხვა მიკერძოებულ თუ შეურაცხმყოფელ განწყობებს.
+offensive-content-sensitive-information-explanation-explanation-3 = კითხვები, რომლებიც მოპასუხისთვის შეიძლება აღმოჩნდეს მეტად მგრძნობიარე, ამაღელვებელი და უბიძგოს საფრთხილო მონაცემების გამჟღავნებისკენ.
+example-questions-subheader = შეკითხვის ნიმუშები
+example-questions-explanation-1 = მაგალითისთვის იხილეთ <examplePromptsLink>შეკითხვის 120 ნიმუში მოცემულ ცნობარში.</examplePromptsLink>
+example-questions-explanation-2 = თუ გსურთ კითხვების ერთიანად გადმოგზავნა შეტანისთვის, <githubLink>შეგიძლიათ გამოიყენოთ ჩვენი GitHub</githubLink> ან მოგვაწოდოთ ჩამონათვალი ელფოსტაზე <emailFragment>commonvoice@mozilla.com.</emailFragment>
