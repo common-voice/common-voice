@@ -278,6 +278,7 @@ tig = ٹائگری
 tk = ترکی
 tl = ٹیگالوگ
 tn = سیٹسوانا
+tob = توبہ قوم
 tok = ٹوکی پونا
 tr = ترکی
 ts = زیٹسونگا
@@ -349,3 +350,7 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> اسئ ضرورت تھی </mark> <br/> <mark>تیں مدد سو</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = معلوماتی سیٹ سو میزبانی گرے سو دَن آ شَل نو رے زیبوں سو کمیونٹی سو پلیٹ فام سَم سندے سو دَن یک کال مہ تقریباً یک ملین ڈالر خرچہ یا چہء سے اسئیں کاموں رے انحصار گرہ تھے <strong> اگر کہ تُوس کھلاؤ قدر گرہ تھہ ایوں شامل معلومات سو تہ آز خیراتی دیِا</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>  اپئیں سی وی استعمال گریا اپئیں </mark><br/><mark>تحقیق سو دَن </mark>
