@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تمينٚ ڪِرآ بيٚ ٻوليو ڪوُ چُگرآ ڪونآ هو مهربآنيٚ ڪر ڪي ٻوليآ ڪو چُگوآتآڻيٚ تمريٚ پروڦآئيليٚ مينٚ جآئو۔
+sc-review-lang-not-selected = تمينٚ ڪِرآ بيٚ ٻوليو ڪوُ چُگرآ ڪونآ هو مهربآنيٚ ڪر ڪي ٻوليآ ڪو چُگوآتآڻيٚ تمريٚ<profileLink> پروڦآئيليٚ</profileLink> مينٚ جآئو۔
 sc-review-title = جملآنٚ ڪيٚ پرک
 sc-review-loading = جُملآ لوڊ ڪر رهيرآؤ
 sc-review-select-language = مهربآنيٚ ڪرڪي جُملآ ڪيٚ پَرک ليوآ تآڻيٚ ايڪ ٻوليٚ چُڳو۔
