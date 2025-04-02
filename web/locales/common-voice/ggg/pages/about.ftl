@@ -89,6 +89,7 @@ about-playbook-how-add-sentences-content-3 = <scraperLink> تميٚ استمآل
 ## How to record quality
 
 about-playbook-how-record-quality = مينٚ ايڪ ٻڏآ نآئو ڪو آوآج ڪلپ ڪيسي رڪآڊ ڪرسگدو هونٚ
+about-playbook-how-record-content-1 = آپوڪآ آم آوآجو مي ٻولو تمرآ ٻولوآ ڪآ تريڪآ ڪو آڌرڀآئو هي همينٚ چآهنٚدآ هونٚ تمرو تلڦج جيسي هي، ائينٚ همينٚ چآهنٚدآ هونٚ تمرآ مآموليٚ ڀيٚڙ اندآج ائينٚ انٽونيشن
 
 ## How to grow language
 
