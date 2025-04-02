@@ -83,6 +83,7 @@ about-playbook-how-localize-content-5 = مدتيٚ لآ همرو وڊيو وجآ
 
 about-playbook-how-add-sentences = مي ڪيسي جُملا شآمل ڪرسگدو هونٚ؟
 about-playbook-how-add-sentences-content-1 = </writePageLink>پنو لکو<writePageLink> آپو اُپر </reviewPageLink> تهڪيڪي پنآ <reviewPageLink> مي جُملآ شآمل ڪرسگدآ هو يآنٚ جُملآنٚ بآرآ مي تهڪيڪ ڪرو
+about-playbook-how-add-sentences-content-2 = آم آوآجو مي شآمل هووآ لآ دو منکآنٚ ڪآ جُملآنٚ ڪيٚ تهڪيڪ ڪروو ائينٚ هآڪآرو ڀروو لآجميٚ هي ۔تميٚ تمري ٚٻوليو لآ سبڪ ٺآئوجُملآ </languageGuidelinesLink> يهآنٚ<languageGuidelinesLink> مي آئينٚ15لڦجآنٚدي نهينآ هوئينٚ۔ تمي ٽيڪسٽو ڪآ مآلڪ</licenseLink>اوامي ڊومين استمآل ڪردي همرآ مآڦيآݪآ املو ڪوُاستمآلو0 <waiverLink> دي پوڇسگدآ هو اُرو ڪوcommonvoice@mozilla.com همري ڪودي ڀيجو،</waiverLink>
 
 ## How to record quality
 
