@@ -76,6 +76,7 @@ about-playbook-how-localize = سآئيٽلو ڪلآئيجيشن ڪيسي ڪآم 
 about-playbook-how-localize-content-1 = سآئيٽيٚ ڪآ ترجُمآنٚ مي هونٚدو هي</strong><strong>
 about-playbook-how-localize-content-2 = ايڪ کآتو <pontoonAccountLink><strong>جي تمري ڪني نآ هي ۔پڇي آپوئيٚ ٻوليٚ چُگو </pontoonAccountLink>ٺآئو<pontoonCvLink>ائينٚ پڇي پروجيڪٽ چُگو </strong>ٽيم ترجُمآ ڪروآ لآ ڦآئلينٚ هوسيٚ۔ايڪآ مي ڪلڪ ڪرو ،پڇي وو۔</pontoonCvLink>انگريجيو مي لڦجآنٚ ائينٚ  ترجُمآ ڪروآ لآ ايڪ کآنو دکآنٚدو هي
 about-playbook-how-localize-content-3 = ترجُمو انگريجيو مي هي ،پر تمي ديک سگدآ هو آئڪن،</strong> پروڦآئل <strong> دوسريٚ ٻوليآنٚ مي ڪلڪ ڪرو</strong>تجويجينٚ<strong>لنڪ ائينٚ شآمل ڪرو جيڪو بي  ٻوليونٚ تمي ٻولدآ هو ۔اُتريٚ ساڳيٚ</strong>سيٽينگينٚ<strong>پڇي بلآرو جآندو هي </strong><strong> ه
+about-playbook-how-localize-content-4 = سآئيٽ شروُ هووآ مي تيآ ر هي جد وو75 سيڪڙو پورو هوجآئي
 
 ## How to add sentences
 

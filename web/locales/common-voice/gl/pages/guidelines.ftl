@@ -3,6 +3,7 @@ guidelines-header = Criterios de contribución
 guidelines-header-subtitle = Comprender como engadir e validar frases e fragmentos de audio para o conxunto de datos de Common Voice
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
+question-collection = Recollida de preguntas
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,12 @@ domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pod
 
 ## Question collection ids
 
+adding-questions = Engadir preguntas
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Como debería ser unha boa pregunta?
+what-makes-a-good-question-explanation = Se queres achegar unha boa pregunta a este proxecto colectivo, ten en conta que esta debería:
+what-makes-a-good-question-explanation-criteria-1 = Ser doada de entender e responder
+what-makes-a-good-question-explanation-criteria-2 = Ter relevancia xeral
+what-makes-a-good-question-explanation-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
