@@ -112,7 +112,14 @@ adding-questions = ເພີ່ມຄຳຖາມ
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ສິ່ງທີ່ເຮັດໃຫ້ເປັນຄໍາຖາມທີ່ດີ?
+what-makes-a-good-question-explanation = ຄໍາຖາມທີ່ດີສໍາລັບຊຸດຂໍ້ມູນການມີສ່ວນຮ່ວມຂອງປະຊາຊົນຄວນ:
+what-makes-a-good-question-explanation-criteria-1 = ເຂົ້າໃຈງ່າຍແລະຕອບສະຫນອງຕໍ່
 what-makes-a-good-question-explanation-criteria-2 = ມີຄວາມກ່ຽວຂ້ອງໂດຍທົ່ວໄປ
+what-makes-a-good-question-explanation-criteria-3 = ຫ້າມໃຊ້, ຫຼື ຊັກຊວນ, ເປັນອັນຕະລາຍ ຫຼື ພາສາທີ່ໜ້າລັງກຽດ
+what-makes-a-good-question-tip = ທ່ານອາດຈະຕ້ອງການພິຈາລະນາຂະຫຍາຍບໍລິບົດ ແລະ ໂດເມນທີ່ແຕກຕ່າງກັນ.
+easy-to-understand = ເຂົ້າໃຈງ່າຍ
+easy-to-understand-explanation = ເລືອກຄຳຖາມທີ່ງ່າຍສຳລັບໃຜກໍຕາມທີ່ຈະເຂົ້າໃຈ, ໂດຍບໍ່ຄຳນຶງເຖິງວັດທະນະທຳ ຫຼື ສະພາບການ.
+spelling-and-pronunciation = ການສະກົດຄໍາ ແລະ ເຄື່ອງໝາຍວັກຕອນ
 length-avoid-explanation = ຄໍາ​ຖາມ​ທີ່​ຜູ້​ໃດ​ຜູ້​ຫນຶ່ງ​ຈະ​ມີ​ຄວາມ​ຫຍຸ້ງ​ຍາກ​ທີ່​ຈະ​ຕອບ​ສະ​ຫນອງ​ໃນ 15 ວິ​ນາ​ທີ (ຄວາມ​ຍາວ​ສູງ​ສຸດ clip​)
 process-steps = ຂະບວນການ / ຂັ້ນຕອນ
 example-questions-explanation-2 = ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ຕ້ອງ​ການ​ທີ່​ຈະ​ສົ່ງ​ຄໍາ​ຖາມ​ສໍາ​ລັບ​ການ​ນໍາ​ເຂົ້າ​, ທ່ານ <githubLink​> ສາ​ມາດ​ເຮັດ​ໄດ້​ຜ່ານ GitHub ຂອງ​ພວກ​ເຮົາ</githubLink​> ຫຼື ​ອີ​ເມ​ຂອງ​ບັນ​ຊີ​ຂອງ​ທ່ານ​ທີ່​ຈະ <emailFragment>commonvoice@mozilla.com.</emailFragment>
