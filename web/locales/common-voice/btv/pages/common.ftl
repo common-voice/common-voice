@@ -338,6 +338,10 @@ return-to-cv = عام اواز سو طرفے واپس ھوں
 email-input =
     .label = ای میل
 loading = لوڈنگ…
+email-opt-in-info = مہ ای میل حاصل گرو لوکھالکہ مقصدی یاداش، میوں کام سو اپڈیٹ آ خبریوں سو خط عام اواز سو بارہ مہ۔
+email-opt-in-info-title = عام اواز سو میلنگ لس مہ شامل ھوں
+email-opt-in-info-sub-with-challenge = مشکلات آ مقصد سو ای میل حاصل گر،پراگرس، اپڈیٹ آخبریوں سو خط عام اواز سو بارہ مہ
+email-opt-in-privacy-v2 = ای میل حاصل گرو خوش گرے مِلتو من چہء تو تیار تھو موزیلا سو او معلومات سو وضاحت گرے<privacyLink>  پردہ داری سو پالیسی</privacyLink>
 
 ## Donate banner
 
