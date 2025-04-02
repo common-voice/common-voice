@@ -3,7 +3,7 @@ guidelines-header = 贡献准则
 guidelines-header-subtitle = 了解如何向 Common Voice 数据集贡献及验证语句和录音片段
 voice-collection = 收集语音
 sentence-collection = 收集语句
-question-collection = 问题收集
+question-collection = 收集问题
 
 ## Voice Collection nav ids
 
@@ -125,9 +125,9 @@ length-explanation = 请提交只用几句话就能完成回答的问题。
 dont-add-subheader = 不要添加：
 culturally-specific-questions = 具有特定文化背景的问题
 culturally-specific-questions-explanation = 仅针对某一文化，或是对回答者的文化背景进行过度假设的问题
-length-avoid-explanation = 难以在 15 秒内（录音片段长度上限）完成回答的问题
+length-avoid-explanation = 难以在 15 秒（录音片段长度上限）内完成回答的问题
 process-steps = 流程/步骤
-process-steps-explanation = 需要通过描述步骤来作出回答的问题。在回答中描述步骤会将用户引向照本宣科，而难以获得自然的回答。
+process-steps-explanation = 需要通过描述步骤来作答的问题。在回答中描述步骤会将用户引向照本宣科，而难以获得自然的回答。
 offensive-content-sensitive-information = 冒犯性内容或敏感信息
 offensive-content-sensitive-information-explanation-explanation-1 = 可能索取个人身份信息的问题
 offensive-content-sensitive-information-explanation-explanation-2 = 可能引导发表仇恨言论等偏见或冒犯性观点的问题
