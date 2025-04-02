@@ -10,6 +10,9 @@ small-batch-sentence-input-placeholder = ایٹھے اپٹؔے جنتا ڈومی
 citation-input-placeholder =
     اپنے جملے کے ماخذ کا حوالہ دیں (ضروری)
     اپٹؔے ٻولیں کے سروتا سرا دؔیوو (لاجمی)
+citation =
+    .label = مِسال
+sentence-variant-select-multiple-variants = کوئی بھی ٻولی / کیئی نامُونے
 
 ## BULK SUBMISSION
 

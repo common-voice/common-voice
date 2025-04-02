@@ -23,3 +23,13 @@ overall-accuracy = ٻڌيئيَ ڌُرستڳِي
 
 ## Goals
 
+recordings =
+    { $count ->
+        [one] رڪارڍينگ
+       *[other] رڪاڍينگون
+    }
+validations =
+    { $count ->
+        [one] ثبوت ۮيوون
+       *[other] ثبوت ۮيوان
+    }
