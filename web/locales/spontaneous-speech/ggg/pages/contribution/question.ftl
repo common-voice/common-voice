@@ -11,4 +11,13 @@ add-question-success-toast-message =
     }
 add-question-error-message = اپلوڊ نآڪآم ، مهربآنيٚ ڪرڪي وريٚ ڪوشيش ڪرو.
 add-question-too-many-questions-error = 500 سوالآنٚ دي وڌيٚڪ هوگآ هينٚ۔ سوآلينٚ ڪو تيدآد  گھٽآ ڪي وري ڪوشش ڪرو۔
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } ڪو1سوآل ڀيݪو ڪررو گو همري هدآيت <guidelinesLink> ديکو۔</guidelinesLink> سوآل شآمل ڪروآ ڪآ تريڪآ ڪآ  بآرآ مي سڦآ ڪوُ اور جآڻو۔
+       *[other] <guidelinesLink> هدآيتيٚنٚ</guidelinesLink> سڦآ ڪآ سوآلآ ڪوُ شآمل ڪروآ بآرآ مي وڌيٚڪ سيِک ڪيوآ رآڻي
+    }
+# Guidelines
+add-question-guidelines-title = مي ڪوڻسو سوآل شآمل ڪر سڪدو هونٚ؟
+do-section-title = ڪر
+do-section-guideline-1 = سئيٚ هِجي اور گرآمر اِستمآل ڪرو
 do-not-section-guideline-3 = اسردآر سوآل پوُڇو
