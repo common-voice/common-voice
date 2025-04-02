@@ -349,3 +349,7 @@ not-available-abbreviation = اين\اي
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = </mark>تمارِي مۮت<mark><br/></mark> امارِي ضرورت<mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ھر سال ڍيٽا سيٽ نِي ميزبانِي ڪروون انين ۿو ٿِي وڌِيڪ ٻوليان نِي منڏلِي نِي جڳا نين بھتر ڪريا مان تقريبن ۮۿ لک ڍالر نو خرچو ٿائي سي زو تمين کلل انين جمع ڍيٽا نِي اۿميت ڄو سو اَن اين نِي قيمت ۿمزو سو تو آز ٿِي چنۮو ڀيرو ڪرو۔
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> ۿارُو سِي وِي استعمال ڪروون </mark><br/><mark> تمارِي تحقيق</mark>
