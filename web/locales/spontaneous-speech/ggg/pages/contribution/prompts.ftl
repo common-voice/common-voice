@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = لکوآ ڪو تريٚڪو سيکو
 learn-how-to-use-transcribe-explanation = آدمي جيڪو ڪيس هي، سحيو دي لِکوو، جيسي 'ام' جآ 'ايرر' جيسيٚ جگآ ڪيٚ لڦجآ ڪوُ شآمل ڪردي.
 learn-how-to-use-transcribe-guidance = <guidanceLink>يهآنٚ</guidanceLink> ڪلڪ ڪرو تو جيسي تِمي کبر لي سڪدآ هو تو اِرو سڦآ ڪوُ ڪيسي استمآل ڪري
 learn-how-to-use-check-transcript = ترجمآ ڪوُ چيڪ ڪروآ ڪو تريڪو سيڪوو
+learn-how-to-use-check-transcript-explanation = ايڪ ٽرآنسڪرپشني ڪوُ اُرو آدميو جرئي ڪرو گو هر لڦج جآن بنآ لڦجيٚ ٻآت چيتي ڪيٚ آوآجيٚ ڪوُ سُڻڻ کپي، اِرو مي ورنديون بي شآمل هينٚ۔
+learn-how-to-use-check-transcript-guidance = <guidanceLink>يهآنٚ</guidanceLink> ڪلڪ ڪرو تو جيسي تِمي کبر لي سڪدآ هو تو اِرو سڦآ ڪوُ ڪيسي استمآل ڪري
