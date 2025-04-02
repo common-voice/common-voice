@@ -8,3 +8,13 @@ no-transcriptions-message = اِرو ٽيم ايرآ ٻوليو ڪآ چيڪبو�
 vote-transcript-success = نڪل ڪآميآپيو دي  ووٽ ڏيٚس
 vote-transcript-error = ٽرآنسڪرپٽيٚ ڪيٚ ووٽينگيٚ مآلا ايڪ گلتيٚ هُوريٚ هي
 transcript-edited-success = ٽرانسڪرپٽ ڀلآ تريڪآ دي مِلآرو گو۔
+transcript-edited-error = ٽرآنٚسڪِرپٽ مُلآوآ مآل ايڪ گلتيٚ هُريٚ
+error-fetching-transcriptions = ٽرآنسڪرپشن ليوآ مآل ڪُج گلت هوگو۔ ميهربآنيٚ ڪر ڪآ پيڇيٚ وريٚ ڪوشش ڪرو۔
+transcript-skipped-success = ٽرآنٚسڪرپٽ ڪآميآپيٚ يو دي ڇوڙو
+transcript-skipped-error = ترجمو ڇوڙوآ مآل ايڪ گلتيٚ هوگيٚ
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = سئيٚ
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = ڊن
+# For the button on the Check Transcriptions page to edit a transcription
+edit = مِلآئو
