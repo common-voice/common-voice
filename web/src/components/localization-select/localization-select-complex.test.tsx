@@ -23,6 +23,9 @@ describe('LocalizationSelectComplex', () => {
       <LocalizationSelectComplex onLocaleChange={onLocalChangeMock} />
     );
 
+    // resets the mock because we call onLocaleChange once on render
+    onLocalChangeMock.mockClear()
+
     // pick an option in the select box
     userEvent.selectOptions(
       screen.getAllByLabelText('Choose language/localization')[1],

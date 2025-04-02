@@ -69,6 +69,14 @@
                 &.highlighted {
                     background: var(--light-grey);
                 }
+
+                &.userlanguage {
+                    font-weight: 700;
+                }
+
+                &.lastuserlanguage {
+                    border-bottom-color: var(--near-black);
+                }
             }
 
             [dir='rtl'] & {
