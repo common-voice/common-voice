@@ -5,6 +5,16 @@ mic-access-error = تِمآ ڪوُ مآئڪروڦونو ڪي رسآئيو ڪي �
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon> اور جيسي تِمآ ڪوُ ڪُدرتيٚ تريِڪآ دي ميسوُس هوئي ويسي جوآب ديسڪدآ هو۔
 no-prompts-message = اِرآ ٻوليو ڪيٚ اِرو ٽيم ڪآ بيٚ هرڪت موجودڪونآ۔ ميهربآنيٚ ڪرڪي سُڦآ ڪوُ تآجو ڪرو جآ آئيندي وري ڪوشش ڪرو۔
+error-skipping = اِرآ هرڪتي ڪوُ ڇوڙ ديوآ ٽيم ايڪ گلتيٚ هوريٚ
+error-recording = رڪآرڊينگي مآل ايڪ گلتي هُريٚ
+error-fetching-prompts = اِشآرآن ڪوُ اُٺآوآ ڪي مآل ڪآ گلتي هوگيٚ۔ ميهربآني ڪرڪي پڇي وريٚ ڪوشش ڪرو۔
+error-uploading-response = تِمرآ جبآبو ڪوُ اپلوڊ ڪردي ايڪ گلتي هوُري۔
+prompt-submitted-success = جبآب ڪآميآپي يو دي جمآ ڪرآوو
+prompt-response-deleted-success = جبآب ڪآميآپيو دي کتم هوگو۔
+# For the button to delete a response to a prompt
+delete = کتم
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = جمآ ڪرآرو گو
 
 ## Explainer text (Respond to Prompt)
 
