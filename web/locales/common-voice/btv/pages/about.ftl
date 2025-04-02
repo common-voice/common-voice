@@ -137,3 +137,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>  جل پڑ چ
 ## How is Common Voice funded
 
 about-playbook-how-funded = عام اواز کش سنداں گے تھی ؟
+about-playbook-how-funded-content-1 = عام اواز موزیلا فاونڈیشن سو یک پرجیکٹ تھو  a US 501c3  او پراجیکٹ اِس وخت اندرونی طور رے <philantropicGrantLink> فلان تھروپک سو دے رے سندید تھو </philantropicGrantLink> آ چاپیرا دنیا سو لو سو امداد رے۔
+about-playbook-how-funded-content-2 = مسلسل میزبانی ،معلماتی سیٹ ریلیز گرو،پلیٹ فام یے ترقی دیو آ کمیونٹی سو پروگرام چلئ رے <africaMradiLink> ڙھؤ زیات خرچی رھینگا</africaMradiLink>
