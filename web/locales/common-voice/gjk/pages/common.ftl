@@ -342,6 +342,10 @@ email-opt-in-info = ھون حاصل ڪروا ماڳون سون اِي ميلون
 email-opt-in-info-title = عام وائس فھرست مان شامِل ڇو
 email-opt-in-info-sub-with-challenge = اِِ ميلون وصُول ڪرو پسند دعوو انين مقصد ياد ۮيوراوون، نوِي ترقِي نِي اپڍيٽ انين عام آواز پرماڻي کٻرِ نامون
 email-opt-in-privacy-v2 = موزِيلا اِي ميلون وصُول ڪريا ۿارُو آپٽ اِن ڪرتان، تمين بيان ڪرو سو ڪي تمين مطفق سو مان وضاحت ڪرِي سي</privacyLink>رازڌارِي پاليسِي <privacyLink> نِي موزيلا نين آ  معلومات نين ۿنڀاريا ۿارُو زيم
+indicates-required = تارو (*) ٿِي نشانَ لڳاول واقعا سي
+not-available-abbreviation = اين\اي
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = </mark>تمارِي مۮت<mark><br/></mark> امارِي ضرورت<mark>

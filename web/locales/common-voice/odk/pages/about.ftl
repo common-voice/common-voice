@@ -7,6 +7,7 @@ how-does-it-work-text = امهِين آوازان چا اوپن سورس ڊيٽ�
 
 ## How does it work section
 
+about-sentence-collection-subtitle = جملان نُون ڀيڙَي ڪلَي جا ڇَي تہ جُون ماڻسين اُونهان نُون موٽي آوازا سُون پڙه سگھِي۔
 about-nav-why-common-voice = ڪان؟
 about-nav-how-it-works = ڪِيُون؟
 about-nav-partners = شراڪت دار
