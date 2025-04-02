@@ -34,9 +34,8 @@ const DatasetIntro = () => {
                   <a
                     href="https://discord.gg/4TjgEdq25Y"
                     target="_blank"
-                    rel="noopener noreferrer">
-                    Discord
-                  </a>
+                    rel="noopener noreferrer"
+                  />
                 ),
               }}>
               <p />
