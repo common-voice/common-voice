@@ -115,3 +115,4 @@ what-makes-a-good-question-subheader = ایک مڑنے سوال گیْ جو بِ
 what-makes-a-good-question-explanation = عوامی شرکتے ڈیٹاسیٹس اےْ کِرِیا ایک مِݜٹو سوال:
 what-makes-a-good-question-explanation-criteria-1 = لڇھون گہ جواب دون دہ ہسان سنِجہ
 what-makes-a-good-question-explanation-criteria-2 = عام شان گیْ متعلقہ بِیا
+what-makes-a-good-question-explanation-criteria-3 = نوخصانی یا جارحانہ جِب استعمال نہ تِھیا یا درخواست نہ تِھیا

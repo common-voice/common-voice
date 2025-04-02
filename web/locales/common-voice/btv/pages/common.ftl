@@ -249,6 +249,7 @@ scn = سیسیلی
 sco = سکاٹس
 sd = سندی
 sdh = جنوبیکردی
+sei = سیری
 shi = شیلہا
 shn = شان
 si = سینہالا
@@ -302,12 +303,28 @@ yi = یدیش
 yo = یوروبا
 yue = کینٹونییز
 zgh = تمازیغت
+zh-CN = چینی
+zh-HK = چی نی (ہانگ کانگ)
+zh-TW = چی نی (تائیوان)
+zu = زولو
+zza = زازہ
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مدد
+contact = رابطہ
+privacy = پردہ داری
+terms = شرط
+cookies = کوکیز
+faq = فاق
+documentation = کاغذی کاروائ
+content-license-text = مشتملات مجود تھا <licenseLink>کریئٹیو عام لائسنس څھے </licenseLink>
+share-title = اسئیں کمیونٹی مہ شامل ھوں
+share-text = پڑے والہ مشین سو مدد گر چہء کش حقیقی لو منہ تھہ اپئیں اواز دے { $link }
 
 ## Donate banner
 
