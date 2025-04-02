@@ -22,6 +22,8 @@ speak-empty-state-cta = جملے شریک گر
 speak-loading-error = اسُو حاصل نہ گر ھندے تھے یک ھُم جملہ تیں دن منے سو دَن پتن اش نُوٹ کوشش گر۔
 record-button-label = اپئیں اواز ریکاڈ گر
 share-title-new = <bold> اسئیں مدد گر </bold> جل اواز ٹنڈ
+keep-track-profile = اپوں پراگرس یک پروفائل مِل لینڈ رے رڇھ
+login-to-get-started = لاگ اِن یا سائن اپ ھوں شروع گرے سو دَن
 
 ## Reporting
 
