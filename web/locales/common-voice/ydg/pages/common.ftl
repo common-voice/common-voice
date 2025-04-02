@@ -279,6 +279,12 @@ zza = زازا
 ## Layout
 
 profile = پروفائل
+help = یوانی
+contact = رابطہ
+privacy = راز داری
+terms = شرط
+cookies = کوکیز
+faq = عام سوالاتے
 
 ## Donate banner
 
