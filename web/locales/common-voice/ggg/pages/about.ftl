@@ -82,6 +82,7 @@ about-playbook-how-localize-content-5 = مدتيٚ لآ همرو وڊيو وجآ
 ## How to add sentences
 
 about-playbook-how-add-sentences = مي ڪيسي جُملا شآمل ڪرسگدو هونٚ؟
+about-playbook-how-add-sentences-content-1 = </writePageLink>پنو لکو<writePageLink> آپو اُپر </reviewPageLink> تهڪيڪي پنآ <reviewPageLink> مي جُملآ شآمل ڪرسگدآ هو يآنٚ جُملآنٚ بآرآ مي تهڪيڪ ڪرو
 
 ## How to record quality
 
