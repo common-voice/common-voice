@@ -126,6 +126,9 @@ about-playbook-how-grow-language-content-8 = <strong> تخليقِي ٿائو!</
 
 about-playbook-how-validate = مون نين چيم کٻرِ پڙشيَ ڪي وائيس ڪِلِپ منظور ٿاوون زويئين ڪيَ نا؟
 about-playbook-how-validate-content-1 = زو تمين<strong>اين نين ۿانڀرِي ۿڳو سو</strong>انين <strong>اين نين ۿمزِي ۿڳو سو</strong>۔ اِي گھڻو ڪرينَ<strong>منظور ڪريا ۿارُو تمام بيۿترينَ هوئيَ سي</strong>۔
+about-playbook-how-validate-content-2 = <strong> ايوان ڪِلِپان نين ڍِليٽ نا ڪرو زين نو ٻولِيا نو ليۿجھو تمارا پوتا نا ليۿجھا ٿِي ڦرق هوئيَ</strong>۔ اِي آواز نِي اورِکاڻِ ۿارُو لازمِي سي ايٽليَ هر ايڪ ۿارُو بيۿتر ڪام ٿئِي ۿڳيَ۔
+about-playbook-how-validate-content-3 = زو تمين ۿمزو سو ڪيَ اين نو اُچار <strong>ۿمزِيا ٿِي ٻارين سي</strong>، يا لارين الائِي <strong> ڳوڙِ ٿائيَ سي رئِي، ڪان وريَ ٻيزان مانۿان پڻ ٻوليَ سي ريان</strong>، تو تمين اِي ڪِلِپ نين رڌ ڪرِي ۿڳو سو۔ <accuracyLink> امارا ڌُرستڳِي نا معيار مان وڌيڪ مالوُمات زوئِي ۿڳو سو</accuracyLink>۔
+about-playbook-how-validate-content-4 = زو ايڪ ڪِلِپ ٻيَ ماڻۿان نِي طرڦ ٿِي رڌ ٿائيَ سي تو اِي ڍيٽا سيٽ نا ايڪ مختلِڦ سڀ سيٽ مان جھارِي ڪريون زائيَ سي۔
 
 ## How to access dataset
 
