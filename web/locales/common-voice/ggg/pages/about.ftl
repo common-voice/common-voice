@@ -68,6 +68,7 @@ about-playbook-how-add-language-translating-content-2 = همينٚ ترجمآ م
 about-playbook-how-add-language-collecting-sentences-heading = جُملآ ڀيݪآ ڪروو۔
 about-playbook-how-add-language-collecting-sentences-content-1 = SentenceCollectorVideo>SentenceCollectorVideo> sentenceCollectorVideo> <sentenceCollectorVideo> استمآل ڪروآتآڻي همري گآئيڊ
 about-playbook-how-add-language-collecting-sentences-content-2 = تميٚ ڪرسگدآئوجُملآنٚ ڪآ نهينآ انگ شآمل<sentenceCollectorLinkAdd> </sentenceCollectorLinkAdd> ڪرواستمآل ڪردي بلڪ<bulkImportDocsLink> يآنٚ تميٚ ڪرسگدآئو</bulkImportDocsLink> آدي هوو کپي،يآنٚ تميٚ</licenseLink>يآنٚ اوآميٚ ڊومين<licenseLink>يآد رآکو تو جُملآ آپوآپ لک سگدآئو
+about-playbook-how-add-language-collecting-sentences-content-3 = جُملآنٚ ڪيٚ ڀيڙيٚ ڪو<sentenceCollectorFragment></sentenceCollectorFragment> وڌيٚڪ ديکو
 
 ## How does localization work
 
