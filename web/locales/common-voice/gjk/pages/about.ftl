@@ -120,9 +120,12 @@ about-playbook-how-grow-language-content-5 =
     وڌيڪ صلاموشورا ۿارُو <campaignLink> ماٿيَ زووو زين مان وڌِيڪ اِي مَواڌ شامِل سي زين نين تمين وريَ ٻيزِي وران اِستمال ڪرِي ۿڳو سو</campaignLink>۔
 about-playbook-how-grow-language-content-6 = شراڪتۮارِي انين نيٽورڪ
 about-playbook-how-grow-language-content-7 = ٻيزان نين ڳوتو زين مان يونيورسٽِيُون، ٻولِي واران اِسڪُول، وڪالت گرُوپ يا ڍيٽا سائنس ڪميونٽِي ٿئِي ۿڳيَ سي، اينيان ٿِي راٻطو ڪرو انين واضح طريقيَ ٿِي وضاۿت ڪرو ڪيَ اِي ڪيم مۮت ڪرِي ۿڳيَ سي انين شون ليوا؟<outreachTemplates> امارِي ٽيمليٽ آئوٽ ريچ نِي اِي ميل زووو</outreachTemplates>۔
+about-playbook-how-grow-language-content-8 = <strong> تخليقِي ٿائو!</strong> تمارِي ڀراڌرِي نِي ٻولِي مُنڦرِڌ هشيَ، انين اين شُرو ڪريا ۿارُو ٻس ڪانڪ طريقا سي۔
 
 ## How to validate
 
+about-playbook-how-validate = مون نين چيم کٻرِ پڙشيَ ڪي وائيس ڪِلِپ منظور ٿاوون زويئين ڪيَ نا؟
+about-playbook-how-validate-content-1 = زو تمين<strong>اين نين ۿانڀرِي ۿڳو سو</strong>انين <strong>اين نين ۿمزِي ۿڳو سو</strong>۔ اِي گھڻو ڪرينَ<strong>منظور ڪريا ۿارُو تمام بيۿترينَ هوئيَ سي</strong>۔
 
 ## How to access dataset
 
