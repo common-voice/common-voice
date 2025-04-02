@@ -86,3 +86,12 @@ adding-questions = Илова кардани саволҳо
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Саволи хуб бояд чӣ гуна бошад?
+spelling-and-pronunciation = Имло ва аломатҳои китобат
+spelling-and-pronunciation-explanation = Қоидаҳои имло ва грамматикаи дурустро истифода баред.
+length = Дарозӣ
+dont-add-subheader = Илова накардан
+culturally-specific-questions = Саволҳои мушаххаси фарҳангӣ
+length-avoid-explanation = Саволҳое, ки касе барои посух додан дар 15 сония душворӣ мекашад (дарозии ҳадди аксари сабт)
+process-steps = Раванд / Қадамҳо
+offensive-content-sensitive-information-explanation-explanation-1 = Саволҳое, ки метавонанд ба муайян кардани маълумоти шахсият дахл дошта бошанд
+example-questions-subheader = Саволҳои намунавӣ

@@ -23,3 +23,7 @@ submit-all-button = سب جمآ ڪرو
 learn-how-to-use-prompts = يو سڦو ڪيسي استمآل ڪرآنٚ وو سيِڪو
 learn-how-to-use-prompts-explanation = بس جلديٚ جبآب ديوو جيسي تِميٚ ايڪ دو جملآ مي ڪر سڪدآ هو۔ پڪ ڪرو تو تِمريٚ ٻوليٚ ايترآموآݪی اور نآپسند هي۔
 learn-how-to-use-prompts-guidance = <guidanceLink>يهآنٚ</guidanceLink> ڪلڪ ڪرو تو جيسي تِمي کبر لي سڪدآ هو تو اِرو سڦآ ڪوُ ڪيسي استمآل ڪري
+learn-how-to-use-transcribe = لکوآ ڪو تريٚڪو سيکو
+learn-how-to-use-transcribe-explanation = آدمي جيڪو ڪيس هي، سحيو دي لِکوو، جيسي 'ام' جآ 'ايرر' جيسيٚ جگآ ڪيٚ لڦجآ ڪوُ شآمل ڪردي.
+learn-how-to-use-transcribe-guidance = <guidanceLink>يهآنٚ</guidanceLink> ڪلڪ ڪرو تو جيسي تِمي کبر لي سڪدآ هو تو اِرو سڦآ ڪوُ ڪيسي استمآل ڪري
+learn-how-to-use-check-transcript = ترجمآ ڪوُ چيڪ ڪروآ ڪو تريڪو سيڪوو
