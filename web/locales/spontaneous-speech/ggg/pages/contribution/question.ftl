@@ -23,4 +23,6 @@ do-section-guideline-1 = سئيٚ هِجي اور گرآمر اِستمآل ڪر
 do-section-guideline-2 = سآدآ سوآل چُگو جيڪي ڪِرآ بيٚ رهڻيٚ ڪرڻيٚ ڪآ پِڇلآ نجآرڪي سوآ سمجوآ مي آسآن هويٚنٚ
 do-section-guideline-3 = پڪ ڪرو تو اُنآ ڪوُ صرڦ ايڪ دو جملآن مي جبآب ديٚ سڪدو هي
 do-not-section-title = نآ
+do-not-section-guideline-1 = منکُ ڪي اوݪکوآݪي کبر (جيسي نآيونٚ جآ مآليٚ کبر) ليوو
+do-not-section-guideline-2 = ڀڙڪآوآݪآ جآ گلت ٻول کيآلآ ڪآ جهآهِري جآ درڪآس
 do-not-section-guideline-3 = اسردآر سوآل پوُڇو
