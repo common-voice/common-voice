@@ -128,3 +128,6 @@ culturally-specific-questions = Pyetje të lidhura me kultura specifike
 culturally-specific-questions-explanation = Pyetje që janë shumë të lidhura me një kulturë specifike, ose që marrin të mirëqena shumë hamendësime rreth kujt përgjigjet.
 length-avoid-explanation = Pyetje për të cilat dikush do të mundohet t’u përgjigjet brenda 15 sekondave (gjatësia maksimum e copave)
 process-steps = Proces / Hapa
+process-steps-explanation = Pyetje që duan që dikush të paraqesë një numër hapash.  Paraqitja e hapave e bën një përdorues të recitojë një përgjigje, në vend se një përgjigje më të natyrshme.
+offensive-content-sensitive-information = Lëndë fyese, ose informacion me spec
+offensive-content-sensitive-information-explanation-explanation-1 = Pyetje që mund kërkojnë hollësi personale të identifikueshme
