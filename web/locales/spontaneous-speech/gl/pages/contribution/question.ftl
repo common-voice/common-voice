@@ -18,3 +18,11 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Que tipo de preguntas podo engadir?
+do-section-title = Debe:
+do-section-guideline-1 = Empregar a ortografía e gramática correctas.
+do-section-guideline-2 = Escoller preguntas sinxelas, doadas de entender para calquera persoa, sexa cal sexa a súa cultura ou contexto
+do-section-guideline-3 = Asegurarse de que se poidan responder cun par de frases
+do-not-section-title = Non debe:
+do-not-section-guideline-1 = Solicitar información que poida identificar a unha persoa (como nomes ou datos financeiros)
+do-not-section-guideline-2 = Expresar nin fomentar opinións prexudiciais ou ofensivas
+do-not-section-guideline-3 = Formular preguntas delicadas ou sensibles
