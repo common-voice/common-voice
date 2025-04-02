@@ -145,6 +145,8 @@ about-playbook-how-project-governance-content-3 = رازۮارِي، حِڦاظ�
 about-playbook-how-project-governance-content-4 = ڀراڌرِي نِي شِرڪت انين ڦينصلوسازِي
 about-playbook-how-project-governance-content-5 = قڌر انين اورکاڻِ
 about-playbook-how-project-governance-content-6 = مِلل زميوارِي
+about-playbook-how-project-governance-content-7 = <governanceLink>امارِي حُڪمرانِي نا ٻارا مان وڌارين ڀڻو</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪامنَ وائيس نين ڦنڍ ڪيم زڙيَ سي؟
