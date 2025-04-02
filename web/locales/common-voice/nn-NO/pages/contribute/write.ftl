@@ -2,8 +2,11 @@
 
 write = Skriv
 write-instruction = Legg til <icon></icon> ei offentleg domenesetning
+write-page-subtitle = Setningar bidrege her vil bli lagt til eit offentleg tilgjengeleg cc-0-lisensiert datasett.
 sentence =
     .label = Setning
+sentence-input-placeholder = Skriv inn setninga di (godkjent for offentlege domene) her
+small-batch-sentence-input-placeholder = Skriv inn setningane dine her (godkjende for offentlig bruk)
 citation =
     .label = Tilvising
 sc-review-write-title = Kva slags setningar kan eg leggja til?

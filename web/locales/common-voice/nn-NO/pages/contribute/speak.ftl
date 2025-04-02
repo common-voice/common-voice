@@ -69,7 +69,10 @@ read-sentences-coming-soon = Les setningar <small>(kjem snart)</small>
 
 speak-contribute-menu-tooltip = Les setningar, svar på spørsmål
 read-sentences-menu-item-tooltip = Ta opp deg sjølv når du les setningar på språket ditt.
+answer-questions-menu-item-tooltip = Ta opp deg sjølv medan du svarar på spørsmål og førespurnadar på ditt språk.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Alternativmeny for tale
 read-sentences-menu-item-aria-label = Les setningar sendt inn av fellesskapet på ulike språk
+answer-questions-menu-item-aria-label = Send inn eit nytt spørsmål som fellesskapet kan lese og svare på
