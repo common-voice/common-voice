@@ -75,6 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = ڤے سائٹ مقامی کڑا چیمین ہورغ کیتے؟
 about-playbook-how-localize-content-1 = کامن وائس سائٹن ترجملو<strong>دے پونتون</strong>ایتے۔
+about-playbook-how-localize-content-4 = سائٹ ٪75 فیصد مکمل کہ ݰوئے پے شروع کڑا دیر تیار ای
 
 ## How to add sentences
 
