@@ -97,5 +97,5 @@ culturally-specific-questions = Саволҳои мушаххаси фарҳан
 length-avoid-explanation = Саволҳое, ки касе барои посух додан дар 15 сония душворӣ мекашад (дарозии ҳадди аксари сабт)
 process-steps = Раванд / Қадамҳо
 offensive-content-sensitive-information-explanation-explanation-1 = Саволҳое, ки метавонанд ба муайян кардани маълумоти шахсият дахл дошта бошанд
-offensive-content-sensitive-information-explanation-explanation-2 = Саволҳое, ки метавонанд суханони нафратангез ё дигар эҳсосоти ғаразнок ё таҳқиромезро ба вуҷуд оранд
+offensive-content-sensitive-information-explanation-explanation-2 = Саволҳое, ки метавонанд суханони нафратангез, таҳқиромез ё эҳсосоти ғаразноки дигареро ба вуҷуд оранд
 example-questions-subheader = Саволҳои намунавӣ
