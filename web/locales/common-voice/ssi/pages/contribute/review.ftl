@@ -47,3 +47,5 @@ sc-criteria-item-6 = اگر آپ  کن نِگھا ثانی کرنے  نتر دؔ
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = جانٚچ کرو <icon></icon> کہ کیا یہ ٻولئیں کے ایتباراس  سئی ٻول ہے؟
 sc-review-rules-title = کیا یہ ٻول ہِدائیتینٚپ پورا اترتا ہے؟
+sc-review-empty-state = ہلی اِس بھاشام  دؔیکھٹؔیں نتر کوئی ٻول موجود نائی تِئے۔
+report-sc-different-language = دُؔوجِیاں ٻولِیاں
