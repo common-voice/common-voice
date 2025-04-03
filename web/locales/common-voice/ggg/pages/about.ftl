@@ -92,6 +92,8 @@ about-playbook-how-record-quality = مينٚ ايڪ ٻڏآ نآئو ڪو آوآ�
 about-playbook-how-record-content-1 = آپوڪآ آم آوآجو مي ٻولو تمرآ ٻولوآ ڪآ تريڪآ ڪو آڌرڀآئو هي همينٚ چآهنٚدآ هونٚ تمرو تلڦج جيسي هي، ائينٚ همينٚ چآهنٚدآ هونٚ تمرآ مآموليٚ ڀيٚڙ اندآج ائينٚ انٽونيشن
 about-playbook-how-record-content-2 = ڀوت پڇلآ گوڙو دي بچوو۔وو تمري سُڻوآ لآ سولو هووو کپي
 about-playbook-how-record-content-3 = جُملآ ڪوُ ڌيآنيٚ دي پَڙهو۔ مت ڇوڙو، بدلي ڪرو يآنٚ لڦج شامل ڪرو
+about-playbook-how-record-content-4 = پڪي ڪرو تو پليٽ ڦآرم تمرو ٻولوو شروُ ڪروآدي آگي۔ رڪآڊ ڪرريهرو هي ،ائينٚ وو سرڦ ايڪ چڪر تمآنڪو کتم ڪروو کپي
+about-playbook-how-record-content-5 = ٻتيٚ ديکو سهي يو بآرآ مي
 
 ## How to grow language
 

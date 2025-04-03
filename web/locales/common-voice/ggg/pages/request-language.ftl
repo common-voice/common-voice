@@ -17,3 +17,7 @@ request-language-success-heading = تِمري ميهربآنيٚ! تُمي اي�
 request-language-success-list-1 = تِمآ ڪو جلدي ڪيوآݪيٚ ايڪ ايٚ ميل ليڻ کپي تِمري ٻوليو ڪوُ آم روآجي مي شآمل ڪرووآ تآڻي ڪدم
 request-language-success-list-2 = همرو ڪميونٽيٚ مينيجر تِمري تآئينٚ رس سي پيش ڪروآ تآڻيٚ وڌيڪ جُڙوو، اور تِمآ ڪوُ کبر ديسي تو جيڪر وهآنٚ آگي ئي ايڪ برآدري تِمري ٻوليو مي ڪآ ڪر رهيري هي
 request-language-success-list-3 = جيڪر تِمي همآ دي ڪُج دِنآ مآئينٚ سُڻو تو رآبتو ڪرو</emailLink>{ $email }<emailLink> اور همي تِمري ڪو دي وآپس ليسآنٚ!
+request-language-error = همآ ڪوُ شآيد وآ درڪآس ڪونآ مِلري هي۔ ميهربآني ڪر ڪي همآ ڪوُ آپو ڪيٚ نوينٚ ايٚ ميل ڪرو اور همينٚ تِمري ڪو دي وآپس آسآنٚ
+request-for-scripted-speech-toggle = اِسڪرپٽ لِکري تڪريريٚ ڪيٚ درڪآس
+request-for-spontaneous-speech-toggle = سآديٚ ٻآت چيتيٚ ڪيٚ درڪآس
+need-help-deciding-platform = ڪِرو ڪوُ چُڳ ڪي ڌروآ ڪيٚ جرُرت هي؟
