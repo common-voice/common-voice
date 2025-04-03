@@ -8,3 +8,4 @@ different_language = دوٚسريٚ ٻوليونٚ
 different_language-detail = موآدو مي ايڪ ٻولي هي جيڪو مي امد ڪر رهيرو تو اُرآ دي الگ هي۔
 personally_identifiable_information = جآتيٚ اوڻکآڻيٚ ڪيٚ کبر
 personally_identifiable_information-detail = يو موآد ايڪ منکو ڪي اوݪکآڻي دي جُڙري جآتي کبر، جيسي اُرو ڪو نآئو، اي ميل پتو، جڳآ، اوݪکوآ ڪو نمبر، جآ ڦون نمبر شآمل هي۔
+personally_identifiable_information-answer-detail = يو موآد ايڪ منکو ڪيٚ اوݪڪآنديٚ دي جُڙريٚ اوݪکآڻي کبر لي رهيرو هي، جيسي اُرو ڪو نآئونٚ، اي ميل پتو، گھر، اُوݪکآڻي نبمر، جآ ڦون نمبر۔
