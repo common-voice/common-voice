@@ -37,6 +37,12 @@ lose-goal-progress-warning = تمآريٚ مڪسدي نيٚ بدليٚ ڪرين 
 want-to-continue = ڪآئيٚ تم لگآتآر رهڻو چآئو ڇي
 finish-editing = پهليٚ وآڙو ڪآم کتم ڪرو۔
 lose-changes-warning = آٻيٚ ڇوڙي رو متلب ڇي،تم تمآريٚ بدلئيٚ هووڙيٚ ويڃآ ڪآڙيو
+build-custom-goal = ايڪ نيٚنو مڪسد زرور ٺآئو۔
+set-a-goal = ايڪ مڪسد مڪرر ڪرو
+cant-decide = ڦيٚسلو ڪونيٚ ڪرسڪونٚ۔
+how-many-per-day = جآم ڀلو، ڪترآ ڪلپس ڦيٚ ۮآنيم۔
+how-many-a-week = جآم ڀلو، ڪترآ ڪلپس ڦيٚ هڦتآ مينٚ۔
+which-goal-type = ڪآئيٚ تم چآئو ڇوٻوٚلڻو،سوڻ ڻو يآ ڌيٚ يونٚ۔
 goal-interval-weekly = هڦتآ پر
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = آپيرو { $type } ڪلپ روزآني وآڙو مڪسدي { $count }سآرو ۮيۮو

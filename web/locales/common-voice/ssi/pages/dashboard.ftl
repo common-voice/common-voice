@@ -17,6 +17,7 @@ recorded-clips = ریکارڈ کروڑے ٹُکڑے
 validated-clips = پکے ٹُکڑے
 total-approved = سارے سیوکار
 overall-accuracy = سارے سئہی
+set-visibility = میرا نجریا سئہی کرو
 
 ## Custom Goals
 
