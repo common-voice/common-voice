@@ -1,4 +1,3 @@
-speak = ٻولوو
 speak-now = اب ٻولو
 speak-subtitle = آپو ڪِيٚ آوآج ديوو
 record-cta = ريڪآرڊينگ شُرو ڪرو

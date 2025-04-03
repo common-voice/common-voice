@@ -14,6 +14,8 @@ about-localization-title = ویب سائٹ لوکلائزیشن
 about-localization-subtitle = ویب سائٹ کا متن اِسی بھشام ترجما کرا گیا ہے۔
 about-sentence-collection-title = گھٹِؔیاں سارِیاں ٻاتاں
 about-sentence-collection-subtitle = کھلکا کُو اُونچی اواجم پڑھنے نتر ٻول بھیݪے کرے جاوتے ہے۔
+about-new-lang-title = نوِیں ٻولِیا کا آرمبھ
+about-new-lang-subtitle = ہم اس بھام سادھارٹؔ اواج سائٹ ارمبھ کرتے ہے۔
 
 ## Community Playbook Content
 ## What is a language
