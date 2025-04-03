@@ -24,6 +24,7 @@ record-button-label = اپئیں اواز ریکاڈ گر
 share-title-new = <bold> اسئیں مدد گر </bold> جل اواز ٹنڈ
 keep-track-profile = اپوں پراگرس یک پروفائل مِل لینڈ رے رڇھ
 login-to-get-started = لاگ اِن یا سائن اپ ھوں شروع گرے سو دَن
+target-segment-first-card = تُس اسئیں سَمگھئیں نَخ سو طبقہ مہ حصہ دُھونہ تھہ
 
 ## Reporting
 

@@ -51,5 +51,7 @@ sc-review-empty-state = ہلی اِس بھاشام  دؔیکھٹؔیں نتر ک
 report-sc-different-language = دُؔوجِیاں ٻولِیاں
 report-sc-different-language-detail = یو ایک نیاری ٻولیام  لکھوڑا ہے جس کا ہوں جائجہ لیرا ہے.
 sentences-fetch-error = ٻول لاوٹؔیم ایک کھرابی آئی
+review-error = اس ٻولا کا جائجہ لئیوتیاٹؔے  ایک کھرابی آئی
+review-error-rate-limit-exceeded = آپ سپا تکڑے  جائی رے  ہیں. کِرپا کری اس ٻولا کا جائجہ لئیوٹؔے نتر ایک پلا کا سمے لئیو تاکہ یو نِشچیت ٻٹؔایا جائی سِکے کہ یو سئہی ہے۔
 # menu item
 review-sentences = ٻولیں کُو اَدؔائے دؔیکھو

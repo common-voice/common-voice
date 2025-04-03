@@ -17,6 +17,7 @@ recorded-clips = رِڪارڍ ٿل ڪِلِپ
 validated-clips = تصۮيق ٿل ڪِلپ
 total-approved = مُڪمل منظور ٿل
 overall-accuracy = ٻڌيئيَ ڌُرستڳِي
+set-visibility = مارِي نِمائش نين سيٽ ڪرو
 
 ## Custom Goals
 
