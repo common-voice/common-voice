@@ -18,6 +18,9 @@ about-new-lang-title = نوِیں ٻولِیا کا آرمبھ
 about-new-lang-subtitle = ہم اس بھام سادھارٹؔ اواج سائٹ ارمبھ کرتے ہے۔
 about-voice-contrib-title = اواجا کا یوگدان
 about-voice-contrib-subtitle = مِنکھ آتے ہے اور اپٹؔی اواز اُنٚچی کرتے ہے۔
+about-voice-validation-title = اواجا کی پک
+about-voice-validation-subtitle = دُؔوجے مِنکھ ان اواجیں کے کلپیں کی پک کرتے ہے۔
+about-dataset-release-title = ڈیٹا سیٹ ریلیز
 
 ## Community Playbook Content
 ## What is a language
