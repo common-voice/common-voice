@@ -31,3 +31,18 @@ share-goal = مآرو مڪسد ويٚرآئو
 ## Goals
 
 streaks = تآرون
+days =
+    { $count ->
+        [one] ايڪ ۮن
+       *[other] ڌيٚ ۮن
+    }
+recordings =
+    { $count ->
+        [one] ايڪ ريڪوڊنگ
+       *[other] ڌيٚ ريڪوڊنگيٚ
+    }
+validations =
+    { $count ->
+        [one] ايڪ سئيٚ
+       *[other] ڌيٚ سئيٚ ڪرڻو
+    }
