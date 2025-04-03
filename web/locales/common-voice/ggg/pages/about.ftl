@@ -123,6 +123,7 @@ about-playbook-how-access-dataset-content-2 = مآڊل ٺآوآ لآ ايڪ آو
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منسوبآ ڪآ ڦيسلآ ڪيسي ڪررآ گآ هينٚ؟
 
 ## How is Common Voice funded
 

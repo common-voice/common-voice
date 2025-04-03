@@ -61,3 +61,4 @@ email-subscriptions = ايٚ ميل سنسڪربشن
 download-profile = ميري ڊيٽآ ڪوُ ڊآئون لوڊ ڪرو
 contribution-experience = هِسو ديوآ ڪو تجربو
 skip-submission-feedback = جمآ ڪروآ ڪي رآئي ڪوُ ڇوڙ ديئوو
+skip-submission-description = تآونو ڪآ جمآ ڪروآ ڪي دورآن 'جمآ ڪرو' پر ڪلڪ ڪروآ ڪي بآد جبآبيٚ رآئي ڪوُ ڇوڙرو جآسيٚ۔ هِسو سيدو سنٚوونٚ5 رڪآرڊنگ يآ سئيو ڪآ آوآݪآ سيٽو دي جآري رهيسيٚ

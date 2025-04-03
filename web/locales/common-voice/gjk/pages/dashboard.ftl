@@ -86,7 +86,7 @@ streaks = لڪيرون
 days =
     { $count ->
         [one] ۮِي
-       *[other] ۮِي
+       *[other] ۮِيئان
     }
 recordings =
     { $count ->
@@ -95,6 +95,6 @@ recordings =
     }
 validations =
     { $count ->
-        [one] ثبوت ۮيوون
-       *[other] ثبوت ۮيوان
+        [one] تصۮيق (ڪيٽلون ٽائيم)
+       *[other] تصۮيقون (ڪيٽلون ٽائيم)
     }
