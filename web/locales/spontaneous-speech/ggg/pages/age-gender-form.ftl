@@ -21,3 +21,4 @@ female_feminine = مآئيٚ/مآيونٚ
 intersex = اندوُرنيٚ جنس
 transgender = بدلديٚ جِنس
 non-binary = بِنآ ڪيوآ ڪي
+do_not_wish_to_say = ڪيوآ ڪيٚ کوآهش مت رآکو
