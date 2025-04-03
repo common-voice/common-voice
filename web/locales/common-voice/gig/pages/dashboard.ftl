@@ -16,6 +16,7 @@ top-contributors = وڌيٚڪ هيٚسوليوآڙي
 recorded-clips = ريٚڪوڊنگ هووڙي ڪلپس
 validated-clips = سئيٚ هوڙآ ڪلپس
 total-approved = سئيٚ تريٚڪيٚ سونٚ موڪل ميلوڙي
+set-visibility = مڪرر ڪروvisibility  آپيريٚ
 
 ## Custom Goals
 

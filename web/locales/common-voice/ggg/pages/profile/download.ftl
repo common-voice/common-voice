@@ -5,3 +5,4 @@ download-info = همآ ڪوُ ٻتآئو تو ڪآ ڊآنلوڊ ڪوو چآهن�
 download-profile-title = پروڦآئيل
 download-profile-info = شآمل هي ايٚ ميل، سآرڦو ڪو نآئونٚ اورڊيموگرافڪ کبر، جلدي تورو پر موجود
 download-profile-size = چند بآئيٽس
+download-recordings-title = رِڪآرڊينگينٚ
