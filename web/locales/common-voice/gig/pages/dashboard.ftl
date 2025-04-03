@@ -18,9 +18,16 @@ validated-clips = سئيٚ هوڙآ ڪلپس
 total-approved = سئيٚ تريٚڪيٚ سونٚ موڪل ميلوڙي
 set-visibility = مڪرر ڪروvisibility  آپيريٚ
 visibility-explainer = ايٚ سيٽنگ تمآري ليٚڊر بورڊ ريٚ نمآئشي نيٚ ڪنٽرول ڪري ڇي۔جۮي لوڪآ ليٚوي،تمآريٚ ترڪيٚ آپيريٚ ڇي،اوٚ رومتلب ڇي۔ تم رو ڦوٽو ،منکيٚ رو نآم آئينٚ ترڪيٚ ليوي ڇي۔ بدلين ڀري مينٚ { $minutes } ليڊر بورڊ نيٚ زآهر ڪونيٚ هووي نوٽ ڪرو ليڊر بورڊ ريڦريش
+show-ranking = مآريٚ اهميت وتآئو
 
 ## Custom Goals
 
+get-started-goals = مڪسدي سونٚ سورو ڪرو
+create-custom-goal = ايڪ آم مڪسد زرور ٺآئو۔
+goal-type = تم ڪسي ڪسميٚ رومڪسد ٺآڻو چآئو ڇو۔
+both-speak-and-listen = ڌيٚ يونٚ
+both-speak-and-listen-long = ڌيٚ يونٚ (سوڻ ڻو آئينٚ ٻوٚلڻو)
+daily-goal = زو زيٚ رومڪسد
 goal-interval-weekly = هڦتآ پر
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = آپيرو { $type } ڪلپ روزآني وآڙو مڪسدي { $count }سآرو ۮيۮو
