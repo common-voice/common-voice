@@ -278,6 +278,7 @@ tig = ٽيگريٚ
 tk = ترڪمآنيٚ
 tl = تگلگ
 tn = سيٽسوآنآ
+tob = توبآ ڪوم
 tok = ٽوڪيٚ پونآ
 top = پآپآنتلآ ٽوٽونيٚڪ
 tr = ترڪيٚ
@@ -363,5 +364,7 @@ not-available-abbreviation = اين اي
 donate-banner-cta = <mark> هم تمآريٚ </mark> مدد ڪريآنٚ<br/></mark><mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = ڊيٽآ سيٽس نيٚ هوٽس ڪرڻو آئينٚ 100 ٻوٚليٚ برآدريٚ سآرو پليٽ ڦآرمي نيٚ هرسآل لڳ ڀڳ ايڪ ملين سٺو ٺآئيٚ مينٚ کرچ هووي ڇي۔جڪو همآريٚ ڪآميٚ پر بروسو ڪري ڇي۔ <strong> جۮي تم کولوڙي جمه هووڙي ڊيٽآ ريٚ کدر ڪرو ڇو۔ تو آج هي ڌآن ڪرو</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> تمآري جآئزي سآرو سيٚ ويٚ</mark> استهمآل<br/> ڪر <mark>رهي ڇآنٚ
 localization-select =
     .label = ٻوٚليٚ چونڊلو لوڪلآئزيٚشن
