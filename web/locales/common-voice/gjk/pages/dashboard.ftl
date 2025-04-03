@@ -23,6 +23,11 @@ overall-accuracy = ٻڌيئيَ ڌُرستڳِي
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } ڪلپ ھفتيوار مقصد ۿارُو { $count } شيئر ڪرو پوتا نو
+share-goal-type-speak = ٻولوون
+share-goal-type-listen = ۿانڀروون
+share-goal-type-both = ٻولوون انين ۿانڀروون
 
 ## Goals
 
