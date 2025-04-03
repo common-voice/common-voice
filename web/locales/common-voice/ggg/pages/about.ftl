@@ -134,3 +134,4 @@ about-playbook-how-project-governance-content-7 = ٻتيٚ پڙهو تو همآ�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = آم آوآجو ڪوُ ڪيسي ڦنٚڊ ديٚنو گو هي
