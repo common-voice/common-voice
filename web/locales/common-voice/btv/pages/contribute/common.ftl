@@ -44,6 +44,7 @@ submit-form-action = جمہ گرو
 report = رپورٹ
 report-title = رپورٹ جمہ گر
 report-ask = اِس جملہ مہ تے چوں مسئلے تھے
+report-offensive-language = غصہ ناک زیب
 
 ## Speak & Listen Shortcuts
 

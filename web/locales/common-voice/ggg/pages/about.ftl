@@ -105,9 +105,11 @@ about-playbook-how-grow-language-content-4 = سمآجو ڪيٚ ميڊيآ
 about-playbook-how-grow-language-content-5 = تميٚ نيآپو ليوآ تآڻيٚ سوشل ميڊيآ پليٽ ڦآرم استمآل ڪرسگدآ هو۔ پوسٽينٚ شير ڪرو جيڪو جآنڪآريٚ لينٚدآ هينٚ تو وو ڪآلي جروريٚ هي،  آئينٚ دوسرآ منکآ ڪآ رآبتآ يآنٚ ٽيڪنآلآجيٚيو مي گھٽ سوچ ۔، AI هآسل ڪرو جيڪو مسلآنٚ بآرآ مي ٻول ريهرآ هينٚ مسآل ٻوليو ڪآ هڪآ مي، سمآجوئي موهم چلآوو، جرو مي موآد تميٚ دوبآرآ استمآل ڪرسگدآ هو<campaignLink>وڌيڪ سلآ ديکو۔</campaignLink>تو
 about-playbook-how-grow-language-content-6 = ڀآئيوآريٚ ائينٚ نيٽ ورڪ
 about-playbook-how-grow-language-content-7 = دوسرآنٚ ڪوُ ڍونٚڊو جيڪو کيآل رآکدآ ۔ وو هوسگدو هي يونيورسٽيونٚ،ٻولي اسڪول، وڪيل گروپ يآنٚ ڊيٽآ سآئينس ڪميونٽيٚ ۔ ٻآهر جآئو ائين سهي تريڪآ دي جآنڪآريٚ ليئو تو وي ڪيسي اي outreach ديکو همرآ ٽيمپليٽ<outreachTemplates>۔ مدت ڪرسگدآ هينٚ ائينٚ ڪآلي۔</outreachTemplates>ميلينٚ
+about-playbook-how-grow-language-content-8 = تمريٚ ٻوليٚ </strong> ٺآوو<strong> ڪميونٽيو مي ڦرڪ هوسيٚ، ائين وي شروُ ڪروآ ڪآ چند تريٚڪآ هيٚنٚ
 
 ## How to validate
 
+about-playbook-how-validate = مينٚ ڪيسي جآڻونٚ تو وآئيٚس ڪلپوُ  منجورَ ڪررو جآئي؟
 
 ## How to access dataset
 

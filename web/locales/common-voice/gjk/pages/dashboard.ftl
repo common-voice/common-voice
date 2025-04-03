@@ -24,6 +24,16 @@ show-ranking = مارِي درجھابنڌِي ۮيکاڙو
 
 ## Custom Goals
 
+get-started-goals = مقصۮان ٿِي شرُو ڪرو
+create-custom-goal = ضرورت پرماڻين مقصۮ (گول) ٺاوو
+goal-type = تمين ڪيوا قِسم نون مقصۮ (گول) ٺاۿوا ماڳو سو؟
+both-speak-and-listen = ٻيئيَ
+both-speak-and-listen-long = ٻيئيَ (ٻولوون انين ۿانڀروون)
+daily-goal = روز نون مقصۮ (گول)
+weekly-goal = ۿڦتا نون مقصۮ (گول)
+easy-difficulty = ۿوروون (آسانَ)
+average-difficulty = پورون پورون (سراسرِي)
+difficult-difficulty = مُشڪل
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون
