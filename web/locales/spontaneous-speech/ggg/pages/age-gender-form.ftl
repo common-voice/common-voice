@@ -18,3 +18,6 @@ thank-you-for-your-information = تميريٚ کبر چآريٚ لآ ميهرب�
 
 male_masculine = مڙد/مڙد
 female_feminine = مآئيٚ/مآيونٚ
+intersex = اندوُرنيٚ جنس
+transgender = بدلديٚ جِنس
+non-binary = بِنآ ڪيوآ ڪي
