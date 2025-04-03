@@ -5,12 +5,25 @@
 ## Languages
 
 aa = آفر
+aat = اروانتيڪا
 ab = ابخاز
-ar = Arabic
-arn = Mapudungun
-as = Assamese
-ast = Asturian
-az = Azerbaijani
+abb = ايڪ بئنڪ
+ace = ناقابل برداشت طور تي
+ady = اَديگِي
+af = آفريڪا را
+aln = الباني گيگ
+am = امهاري
+an = ارگوني
+ar = ارابيڪ
+arn = ماپوچي
+as = آسامي
+ast = آسٽورين
+az = آذربائيجاني
+azz = هاءِ لينڊ پوئبلا نهواٽل
+ba = بشڪر
+bal = بلوچي
+bas = عجيب
+bax = بامٽ
 
 # [/]
 

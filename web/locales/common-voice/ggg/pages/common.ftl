@@ -249,6 +249,7 @@ scn = سسيٚليٚين
 sco = اسڪآٽس
 sd = سنٚديٚ
 sdh = ڏآکڻيٚ ڪردش
+sei = سِريٚ
 shi = شيٚلا
 shn = شآن
 si = سنهآلآ
@@ -302,12 +303,24 @@ yi = يدش
 yo = يوروبآ
 yue = ڪينٽونيٚ
 zgh = تمآجت
+zh-CN = چينيٚ (چيٚن)
+zh-HK = چينيٚ (هآنٚگ ڪآنٚگ)
+zh-TW = چينيٚ ( تآئيٚوآن)
+zu = جوُلو
+zza = جآجآ
 
 # [/]
 
 
 ## Layout
 
+profile = پروڦآئيٚل
+help = مدت ڪرو
+contact = رآبتو
+privacy = رآجدآريٚ
+terms = شرتينٚ
+cookies = ڪوڪيج
+faq = FAQ
 
 ## Donate banner
 
