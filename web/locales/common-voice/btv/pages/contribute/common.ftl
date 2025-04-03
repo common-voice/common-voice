@@ -70,9 +70,31 @@ shortcut-skip = ایس
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = آر
+shortcut-record-toggle-label = ریکاڈ/ سٹاپ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = کلپ دوبارہ ریکاڈ گر
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = جاری ریکاڈنگ کٹ گر
+shortcut-submit = واپس
+shortcut-submit-label = کلپ جمہ گر
+request-language-text = اوتر تکے اپئیں زیب عام اواز رے نہ بھال
+request-language-button = زیب سو سوال گر
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
+shortcut-play-toggle-label = چالو/بند
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-criteria-nav = طریقہ
+contribution-criteria-link = حصہ گھِنے سو طریقہ پرز
+contribution-criteria-page-title = حصہ گِھنے سو طریقہ

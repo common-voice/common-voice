@@ -52,6 +52,10 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصۮ (گول) سيٽ ڪرو
 cant-decide = ڦينصلو نٿِي ڪرِي ۿڳتو!
+how-many-per-day = زڀرڌست! ايڪ ۮِي مان ڪيٽلان ڪِلِپ؟
+how-many-a-week = زڀرڌست! ايڪ ۿڦتا مان ڪيٽلان ڪِلِپ؟
+which-goal-type = شون تمين ٻولوا، ۿانڀروا يا ٻيئيَ ماڳو سو؟
+receiving-emails-info = تمين اتيارين مقصۮ (گول) نا ٻارا مان اِ اِي ميلون حاصل ڪريا ۿارُو تيار سو
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون
