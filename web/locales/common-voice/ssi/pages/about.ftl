@@ -9,6 +9,8 @@ how-does-it-work-text = ہم اواجیں کے کھُلا سروت ڈیٹا سی
 
 ## How does it work section
 
+about-language-req-subtitle = کوئی ایک  بھاشا سیمل کرنے نتر کیہتا ہے.
+about-localization-title = ویب سائٹ لوکلائزیشن
 
 ## Community Playbook Content
 ## What is a language
