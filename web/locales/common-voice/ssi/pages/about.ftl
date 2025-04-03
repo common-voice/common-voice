@@ -24,6 +24,10 @@ about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-dataset-release-subtitle = ہم ہر تِینیں مہِینیم ڈیٹا سیٹ جاری کرتے ہے.
 about-subscribe-text = سادارٹؔ اواجا کے سات رابتیم رہنا چاوہتے؟
 about-speak = ٻولٹؔا
+about-speak-text = دؔان کروڑے ٻولیں کے بینکاس پڑھی کن یوگدان کرتا اواجیکے کلپس ریکارڈ کرتے ہے۔
+about-listen-queue = سُٹؔنیں کی قتار
+about-listen-queue-text = اواجیان کے کلپیں کُو بھیݪا کرنے کی لیٹِؔیم داکھل کرا جاوتا ہے جکو اِنکُو سُننے نتر تیار کرتا ہے۔
+about-listen = سُٹؔنا
 
 ## Community Playbook Content
 ## What is a language
