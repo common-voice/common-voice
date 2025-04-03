@@ -5,6 +5,7 @@ toward-next-goal = آئيوآڙي مڪسدي ري سآمونٚ
 goal-reached = منزيٚلي پر پونٚچ گيٚو
 clips-you-recorded = ڪلپس جيڪو تم ريڪآڊ ڪيٚۮي ڇو۔
 clips-you-validated = ڪلپس جيڪو تم سئيٚ ڪيٚڌي ڇو
+todays-recorded-progress = ريٚڪوڊنگ هووڙيٚ ڪلپس نيٚ آجي ريٚ آم آوآزي ريٚ زير زٻر
 
 ## Custom Goals
 
