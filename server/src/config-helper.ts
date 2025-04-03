@@ -45,6 +45,7 @@ export type CommonVoiceConfig = {
   }
   BASKET_API_KEY?: string
   IMPORT_SENTENCES: boolean
+  IMPORT_LANGUAGES: string
   REDIS_URL: string
   LAST_DATASET: string
   SENTRY_DSN_SERVER: string
@@ -104,6 +105,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
     CLIENT_SECRET: configEntry('CV_FXA_CLIENT_SECRET', ''),
   },
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
+  IMPORT_LANGUAGES: configEntry('CV_IMPORT_LANGUAGES', ''),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
   SENTRY_DSN_SERVER: configEntry('CV_SENTRY_DSN_SERVER', ''),
