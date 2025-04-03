@@ -321,6 +321,9 @@ privacy = رآجدآريٚ
 terms = شرتينٚ
 cookies = ڪوڪيج
 faq = FAQ
+documentation = دستآويج
+content-license-text = <licenseLink>Creative Commons لآئيسنو </licenseLink> ڪي تهت موآد موجود هي
+share-title = همآنٚ ڪو دوسرآئونٚ ڍونٚڊوآ مي مدت ڪرو جيڪو آپوڪيٚ آوآج دي سگھدآئينٚ
 
 ## Donate banner
 
