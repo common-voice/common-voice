@@ -20,6 +20,10 @@ recorded-clips = ريٚڪوڊنگ هووڙي ڪلپس
 share-goal-type-speak = ٻوٚلڻو
 share-goal-type-listen = سوڻ ڻو
 share-goal-type-both = ٻوٚلڻو آئينٚ سوڻ ڻو
+# LINK will be replaced with the current URL
+goal-share-text = آوآز لي سآرو ايڪ #CommonVoice مينٚ سيرڦ زآتي مڪسد ٺآيو ڇونٚ مآر بهڙي هو آئينٚ ميشينيٚ نيٚ سيٚکآئيم مدد ڪرو جيٚ يونٚ هڪيٚڪتي مينٚ منک ڪيٚ يونٚ ٻوٚليٚ ڇي۔{ $link }
+weekly-goal-created = تمآرو هڦتآ سآرو مڪسد ٺآيو گيٚو ڇي
+daily-goal-created = تمآرو ڍيليٚ رومڪسد ٺآيوگيٚوڇي۔
 
 ## Goals
 

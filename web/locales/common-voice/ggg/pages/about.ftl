@@ -60,7 +60,7 @@ about-playbook-what-is-language-content-3 = ڪجھ ٻوليآنٚ مي گرآم�
 
 ## How do I add a language
 
-about-playbook-how-add-language = مينٚ ايڪ ٻوليٚ ڪيسي شآمل ڪرسگدو هونٚ؟
+about-playbook-how-add-language = مينٚ ايڪ ٻوليٚ ڪيسي شآمل ڪرسگدوئونٚ
 about-playbook-how-add-language-content-1 = پيليٚ، چيڪ  ڪرو تو ڪآ تمريٚ ٻوليٚ</languageLink>آگيئيٚ موجود هي <languageLink>آپوڪي ٻوليٚ شآمل ڪروآ بآبت <languageRequestLink>جي وو نآ هي، تو تميٚ ڪرسگدآئو </languageRequestLink>پڇي وهآنٚ دوهسآ هينٚ جو سآئيٽو ڪآ ترجمآ، ائينٚ جُملآنٚ ڪوُ ڀيݪآ ڪروو
 about-playbook-how-add-language-translating-heading = سآئيٚٽيٚ ڪو ترجمو
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ڪوُPontoon۔</translateVideoLink> ڪيسي استمآل ڪري همريٚ گآئيٚڊ ديکو
@@ -119,6 +119,7 @@ about-playbook-how-validate-content-4 = جي ايڪ ڪلپ 2 منکآنٚ ڪي �
 
 about-playbook-how-access-dataset = مينٚ ڊيٽآ سيٽو تآئينٚ ڪيسي جآئونٚ اور استمآل ڪآسگدو هونٚ
 about-playbook-how-access-dataset-content-1 = datasets <datasetsPage> تميٚ جآ سگدآ هو جو تميٚ چآهو وو ورجن ائينٚ ٻولي چُگو ، ائينٚ اُرآ ڪو ڊآئون لوڊ ڪرو ،</datasetsPage> پنآ هينٚ ، مسآل ڊيموگرآڦڪ جآڻ ائينٚ</metadataLink> وڙيل ميٽآ ڊيٽآ <metadataLink> ڦآئيلينٚ مي  سهيٚيآݪيٚ ڊيٽآ ۔تمآنٚ ڪو ڊيٽآ سيٽ ڊآئون لوڊ ڪروآ لآ ايڪ ايٚميلي ڪو پتو ليوآ ڪيٚ جرورت پڙسيٚ
+about-playbook-how-access-dataset-content-2 = مآڊل ٺآوآ لآ ايڪ آوجآر ڍونٚڊ ريهرآ هونٚ، تميٚ ASR جي تميٚ on <discourseLink> ڪميونٽيو ڪآ دوسرآ منکآ دي جوڙسگدآ هو تو ۔</discourseLink>Discourse
 
 ## How are decisions made
 

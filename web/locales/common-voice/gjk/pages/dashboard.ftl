@@ -77,10 +77,12 @@ goal-share-text = مين اتيارين # عام آواز ۮان ۿارُو اي
 weekly-goal-created = تمارون ھڦتا وارون مقصۮ (گول) ٺۿاڻون سي۔
 daily-goal-created = تمارون ھر روز نون مقصۮ (گول) ٺۿاڻون سي
 track-progress = پوتا نِي ترقِي نين اڃان پوتا نا اِسٽيٽس نا پيج ماٿيَ زوو (ٽريڪ ڪرو)
+return-to-edit-goal = ڪيرين پڻ پوتا نا مقصۮ (گول) نين ايڍِٽ ڪريا ۿارُو اڃان آوو۔
+share-goal = مارا مقصۮ (گول) نين شيئر ڪرو
 
 ## Goals
 
-streaks = تارون
+streaks = لڪيرون
 days =
     { $count ->
         [one] ۮِي
@@ -88,8 +90,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] رڪارڍينگ
-       *[other] رڪاڍينگون
+        [one] رڪارڍينڳ
+       *[other] رڪاڍينڳون
     }
 validations =
     { $count ->
