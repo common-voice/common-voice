@@ -42,13 +42,20 @@ about-get-involved-text-2 =
     عام آواز ني وڌيڪ بهتر ٺايا ۾ مدد ڪروُ چاھو ھون؟
     عظيم! اي ميل  ري ذريعي مون رابطا ۾ حاصل ڪرويا <discourseLink> تقرير</discourseLink>فورم، ذريعي سائيٽ را مسئلا جمع ڪراوُ<githubLink>گٽ هب</githubLink> ھين ميلو<matrixLink>مئٽرڪس</matrixLink>ڪميونٽي چيٽ.
 about-stay-in-touch = ھون رابطي ۾ ڪيڪر رهيو؟
+about-stay-in-touch-button = سائن آپ
+about-stay-in-touch-text-1 = <emailFragment> سائن آپ</emailFragment>ڪامن وائس تي مهمن، واقيو ھين ميليوڙا  ڊيزائن ري خاصيتن ۾ حصو ليدو ھيکيا ھارو امو ري ميلنگ لسٽ تي جاو.
+about-stay-in-touch-text-2 = تمي موزيلا ٻولي برادري ۾ ھوئين ٻيجو مون ملي سگهو
 about-nav-why-common-voice = ڪون
 about-nav-how-it-works = ڪيڪر
 about-nav-partners = ساٿي
+about-nav-get-involved = ڀآرو ھويو
+about-nav-how-it-works-2 = ڪامن وائس ڪيڪر ڪوم ڪري هي؟
+about-nav-playbook = حصو ليدا رو طريقو ھيکو
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ڪامن وائس تي ٻولي ڪاو هي؟
 
 ## How do I add a language
 

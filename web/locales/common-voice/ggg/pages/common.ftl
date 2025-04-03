@@ -232,6 +232,7 @@ qws = ڪيوچوآ سيٚهوآ انڪآش
 qxa = ڪيوچوآ چيڪِيآنٚ
 qxp = پونو ڪيوچوآ
 qxt = سآنتآ Quechua Pasco Ana de Tusi
+qxu = ڪيوچوآ آريٚڪيٚپآ ۔لآيونيٚن
 rif = ٽرآڦيٚ
 rm-sursilv = رومآنٚش سرسلوآن
 rm-vallader = رومآنٚش ويٚلآڊر
