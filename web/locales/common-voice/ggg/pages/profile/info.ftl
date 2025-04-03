@@ -74,3 +74,6 @@ help-sex-or-gender-changes-explanation = هميٚ منکآ ڪوُ آپو ڪي ج
 variant-contribution-options-header = الگ شآمل هوآ ڪآ اديٚڪآر
 variant-contribution-help = ٻولي جآنٚ ڀوليو ڪآ کندآنو مي ڪُج متگيرآت اور ڦيرآ ايڪ دو دي  ڀوت الگ هينٚ۔ جيڪر تِمآ ڪوُ ڪرو کآس نمونآ مي مشگولهوآ مي مشل مهسوُس هو رهيري هي، تو تِمي يهآنٚ تِمري پسندي ڪوُ بدليٚ ڪر سڪدآ هو۔
 variant-contribution-option-1 = مڪوُ تِمري ٻوليو ڪي سآرآ نمونآ ڪآ جُملآ اور وڊيو دِکآئو۔
+variant-contribution-option-2 = سِرڦ مڪوُميرآ نمونآ دي جملآنٚ اور ڪِلپآ ڪوُ دِکآئو
+variant-contribution-warning-title = سب جُملآ اور ڪِلپآ مي بيآنو ڪآ ٽيگ اڃآ بي موجود ڪونآ!
+variant-contribution-warning-subtitle = جيڪر تِمآ ڪوُ هِسو ديوآ مي ڏُکيآئي ميهسوُس هو رهيري هي، تو تِمي ڪِرو بي ٽيم تِميري ٻوليو تآڻي سب موآد  ديکوآ تآڻي وآپس آ سڪدو هي۔
