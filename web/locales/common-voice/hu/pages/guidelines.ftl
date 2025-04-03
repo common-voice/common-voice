@@ -50,7 +50,7 @@ volume-explanation = Természetes eltérések lesznek az olvasók hangereje köz
 reader-effects-explanation = A legtöbb felvételen az emberek a természetes hangjukon beszélnek. Elfogadhatja az alkalmi nem szokásos felvételeket, amelyen kiabálnak, suttognak vagy csak „drámai” hangok olvassák fel. Viszont a felénekelt vagy számítógéppel szintetizált felvételeket utasítsa el.
 just-unsure-explanation = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
 still-have-questions = További kérdése van?
-contact-common-voice = Lépjen kapcsolatba a Common Voice csapattal
+contact-common-voice = Kapcsolat a Common Voice csapattal
 
 ## Sentence collection nav ids
 
@@ -134,3 +134,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = Olyan kérd�
 offensive-content-sensitive-information-explanation-explanation-3 = Olyan kérdéseket, amelyekre bizalmas, potenciálisan felzaklató válaszokat adhatnak
 example-questions-subheader = Példakérdések
 example-questions-explanation-1 = <examplePromptsLink>120 példakérdést talál ezen a lapon.</examplePromptsLink>
+example-questions-explanation-2 = Ha egy kérdéscsoportot küldene be feldolgozásra, akkor a <githubLink>GitHubon keresztül teheti meg</githubLink>, vagy küldje el a listáját e-mailben a <emailFragment>commonvoice@mozilla.com</emailFragment> címre.
