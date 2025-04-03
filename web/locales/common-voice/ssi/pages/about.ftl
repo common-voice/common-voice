@@ -13,6 +13,7 @@ about-language-req-subtitle = کوئی ایک  بھاشا سیمل کرنے نت
 about-localization-title = ویب سائٹ لوکلائزیشن
 about-localization-subtitle = ویب سائٹ کا متن اِسی بھشام ترجما کرا گیا ہے۔
 about-sentence-collection-title = گھٹِؔیاں سارِیاں ٻاتاں
+about-sentence-collection-subtitle = کھلکا کُو اُونچی اواجم پڑھنے نتر ٻول بھیݪے کرے جاوتے ہے۔
 
 ## Community Playbook Content
 ## What is a language
