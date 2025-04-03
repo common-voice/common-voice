@@ -11,6 +11,8 @@ how-does-it-work-text = ہم اواجیں کے کھُلا سروت ڈیٹا سی
 
 about-language-req-subtitle = کوئی ایک  بھاشا سیمل کرنے نتر کیہتا ہے.
 about-localization-title = ویب سائٹ لوکلائزیشن
+about-localization-subtitle = ویب سائٹ کا متن اِسی بھشام ترجما کرا گیا ہے۔
+about-sentence-collection-title = گھٹِؔیاں سارِیاں ٻاتاں
 
 ## Community Playbook Content
 ## What is a language
