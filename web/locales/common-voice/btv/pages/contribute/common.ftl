@@ -45,6 +45,14 @@ report = رپورٹ
 report-title = رپورٹ جمہ گر
 report-ask = اِس جملہ مہ تے چوں مسئلے تھے
 report-offensive-language = غصہ ناک زیب
+report-offensive-language-detail = و جملہ بےادب یا غصہ ناک زیب سو تھی۔
+report-grammar-or-spelling = گرامر سو لحاظ رے/ یا اسپیلنگ سو غلطی
+report-grammar-or-spelling-detail = او جملہ گرامر سو لحاظ رے یا اسپیلنگ سو غلطی تھی
+report-different-language = مختلف زیب
+report-different-language-detail = مہ چہء کاں منا او تِس نو مختلفزیب مہ لکیل تھی
+report-difficult-pronounce = منو گران تھو
+report-difficult-pronounce-detail = او اَش الفاظ یا پیراگراف رے مشتمل تھوچہء اِوں پڑُو یا منو گران تھو۔
+report-offensive-speech = غصہ ناک تقریر
 
 ## Speak & Listen Shortcuts
 

@@ -34,6 +34,12 @@ weekly-goal = ۿڦتا نون مقصۮ (گول)
 easy-difficulty = ۿوروون (آسانَ)
 average-difficulty = پورون پورون (سراسرِي)
 difficult-difficulty = مُشڪل
+pro-difficulty = ڌلائيل ۮيڌا وارو
+lose-goal-progress-warning = تمارا مقصۮ (گول) مان تٻۮيلِي ڪريئيَ ٿِي تمين تمارِي موجُوۮا ترقِي نين کوئِي ۿڳو سو۔
+want-to-continue = شون تمين جھارِي راکوا ماڳو سو؟
+finish-editing = مورِ ٿِي ترميم ڪريا نون کتم ڪرو
+lose-changes-warning = هويَ ميچا نون مطلٻ سي ڪي تمين پوتا نِي تٻۮيليان نين کوئِي ناکشو
+build-custom-goal = ضرورت پرماڻين ايڪ مقصۮ (گول) ٺاوو
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون

@@ -110,6 +110,8 @@ about-playbook-how-grow-language-content-8 = تمريٚ ٻوليٚ </strong> ٺ�
 ## How to validate
 
 about-playbook-how-validate = مينٚ ڪيسي جآڻونٚ تو وآئيٚس ڪلپوُ  منجورَ ڪررو جآئي؟
+about-playbook-how-validate-content-1 = ائينٚ </strong> انآ ڪوُ سُڻ ڪي<strong> جي تميٚ منجور ڪروو سهي سمجو تو<strong> وو آم تور ،</strong> سمج سگدآ هونٚ<strong>۔</strong>  هي
+about-playbook-how-validate-content-2 = ڪلپآئونٚ رد مت ڪرو جھآنٚ اسپيڪرو تلڦُج هي<strong> وو جروري هي تو آوآجو ڪي اوݪکآنٚديٚ لآ  هر ڪرو۔</strong> جيڪو تمري آپوڪي لآ  سهي ڪآم ڪري ائينٚ الگ هو
 
 ## How to access dataset
 
