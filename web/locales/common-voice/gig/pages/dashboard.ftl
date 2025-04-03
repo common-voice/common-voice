@@ -19,6 +19,7 @@ total-approved = سئيٚ تريٚڪيٚ سونٚ موڪل ميلوڙي
 overall-accuracy = سب سئيٚ مآنييٚ ڇي۔
 set-visibility = مڪرر ڪروvisibility  آپيريٚ
 visibility-explainer = ايٚ سيٽنگ تمآري ليٚڊر بورڊ ريٚ نمآئشي نيٚ ڪنٽرول ڪري ڇي۔جۮي لوڪآ ليٚوي،تمآريٚ ترڪيٚ آپيريٚ ڇي،اوٚ رومتلب ڇي۔ تم رو ڦوٽو ،منکيٚ رو نآم آئينٚ ترڪيٚ ليوي ڇي۔ بدلين ڀري مينٚ { $minutes } ليڊر بورڊ نيٚ زآهر ڪونيٚ هووي نوٽ ڪرو ليڊر بورڊ ريڦريش
+visibility-overlay-note = يآد رآکو: جڏي ايٚ ’ۮيکي وآڙِيٚ‘ سيٽ ڪرو، ايٚ سيٽيٚنگ بدليٚ ڪر سڪو ڇو <profileLink> پُرڦآئيٚل پنآ سونٚ</profileLink>
 show-ranking = مآريٚ اهميت وتآئو
 
 ## Custom Goals
@@ -39,6 +40,16 @@ want-to-continue = ڪآئيٚ تم لگآتآر رهڻو چآئو ڇي
 finish-editing = پهليٚ وآڙو ڪآم کتم ڪرو۔
 lose-changes-warning = آٻيٚ ڇوڙي رو متلب ڇي،تم تمآريٚ بدلئيٚ هووڙيٚ ويڃآ ڪآڙيو
 build-custom-goal = ايڪ نيٚنو مڪسد زرور ٺآئو۔
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] مدد ڪر پوٚڳي{ $hours } ڪلآڪ مينٚ { $language } زآتيٚ مڪسدي سونٚ
+       *[other] مدد ڪر پوٚڳي{ $hours } ڪلآڪ مينٚ { $language } زآتيٚ مڪسدي سونٚ
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] مدد ڪروڪآمن وآئيٚس  پر پوٚڳي مينٚ{ $hours } ڪلآڪ مينٚ { $language } زآتيٚ مڪسدي سونٚ
+       *[other] مدد ڪروڪآمن وآئيٚس  پر پوٚڳي مينٚ{ $hours } ڪلآڪ مينٚ { $language } زآتيٚ مڪسدي سونٚ
+    }
 set-a-goal = ايڪ مڪسد مڪرر ڪرو
 cant-decide = ڦيٚسلو ڪونيٚ ڪرسڪونٚ۔
 how-many-per-day = جآم ڀلو، ڪترآ ڪلپس ڦيٚ ۮآنيم۔

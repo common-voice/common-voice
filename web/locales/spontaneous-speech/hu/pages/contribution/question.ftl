@@ -3,6 +3,7 @@
 question-page-instruction = Adjon hozzá egy kérdést <icon></icon> { $currentLocale } nyelven, hogy a mások megválaszolhassák
 add-question-textarea-placeholder = például „Mire használná a technológiát?”
 add-questions-terms-checkbox = * Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
+question-dataset-language = Adatkészlet: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } / 1 kérdés összegyűjtve
