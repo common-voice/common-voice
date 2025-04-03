@@ -349,3 +349,5 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>همآنٚڪو تمريٚ مدتيٚ ڪيٚ جرورت هي !</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڊيٽآ سيٽسو هوسٽ ڪروآ مي 100+ٻوليونٚ برآدريو لآ پليٽ ڦآرمونٚ بهتر بڻآوآ مي  هر سآل لڳ ڀڳ ايڪ مليٚيين ڊالر کرچ آنٚدآ هينٚ  جيڪو همرآ ڪآمو مي ڀروسو ڪردآ هينٚ. <strong> جي تميٚ کُلريٚ ،جمآ ڊيٽآ ڪيٚ ڪدر ڪردآئو آجئيٚ دآنٚ ڪرو!</strong>
