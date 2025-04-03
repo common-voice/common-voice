@@ -135,3 +135,4 @@ about-playbook-how-project-governance-content-7 = ٻتيٚ پڙهو تو همآ�
 ## How is Common Voice funded
 
 about-playbook-how-funded = آم آوآجو ڪوُ ڪيسي ڦنٚڊ ديٚنو گو هي
+about-playbook-how-funded-content-1 = آم آوآج موجيٚلآ ڦآئونٚڊيشنيٚ ڪو ايڪ  منسوبو هي ، ايڪ آمريڪيٚ 501c3.  ايٚرو منسوبآ ڪوايرو وڪت  پوري تره <philantropicGrantLink>انسآن دوست گرآنٽ </philantropicGrantLink>، ائينٚ سنسآرو ڪآ منکآنٚ دي دآنو ڪي جريٚئي ڦنڊ دينو گو هي.
