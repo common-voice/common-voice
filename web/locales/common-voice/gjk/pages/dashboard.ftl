@@ -55,7 +55,13 @@ cant-decide = ڦينصلو نٿِي ڪرِي ۿڳتو!
 how-many-per-day = زڀرڌست! ايڪ ۮِي مان ڪيٽلان ڪِلِپ؟
 how-many-a-week = زڀرڌست! ايڪ ۿڦتا مان ڪيٽلان ڪِلِپ؟
 which-goal-type = شون تمين ٻولوا، ۿانڀروا يا ٻيئيَ ماڳو سو؟
-receiving-emails-info = تمين اتيارين مقصۮ (گول) نا ٻارا مان اِ اِي ميلون حاصل ڪريا ۿارُو تيار سو
+receiving-emails-info = تمين اتيارين مقصۮ يانِي (گول) نيَ حواليَ ٿِي اِطلاع ۮيڌا نا ٻارا مان، مارِي پوتا نِي ترقِي نِي اپڍيٽ نا ٻارا مان انين ڪامنَ وائيس نِي طرڦ ٿِي کٻرِچار نا خط (نيُوز ليٽر) ۿارُو سيٽ ٿئِي جھا سو۔
+not-receiving-emails-info = تمين اتيارين مقصۮ يانِي (گول) نيَ حواليَ ٿِي اِطلاع ۮيڌا نا ٻارا مان، مارِي پوتا نِي ترقِي نِي اپڍيٽ نا ٻارا مان انين ڪامنَ وائيس نِي طرڦ ٿِي کٻرِچار نا خط (نيُوز ليٽر) ۿارُو <bold>نا</bold> سيٽ ٿئِي جھا سو۔
+n-clips-pluralized =
+    { $count ->
+        [one] { $count }ڪِلِپ
+       *[other] ڪِلِپان
+    }
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون
@@ -64,6 +70,10 @@ share-n-weekly-contribution-goal = { $type } ڪلپ ھفتيوار مقصد ۿا
 share-goal-type-speak = ٻولوون
 share-goal-type-listen = ۿانڀروون
 share-goal-type-both = ٻولوون انين ۿانڀروون
+# LINK will be replaced with the current URL
+goal-share-text = مين اتيارين # عام آواز ۮان ۿارُو ايڪ ذاتِي مقصد ٺاھيون سي۔ مون ڀيران شامِل ٿائو انين گول نين شيکاڙيا مان مۮت ڪرو ڪي حقيقت مان ماڻۿان ڪيم ٻوليَ سي۔
+weekly-goal-created = تمارون ھڦتاوار مقصد ٺۿاڻون سي۔
+daily-goal-created = تمارون ھر روز نون مقصد ٺۿاڻون سي
 
 ## Goals
 

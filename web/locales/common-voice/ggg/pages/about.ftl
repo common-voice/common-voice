@@ -112,9 +112,12 @@ about-playbook-how-grow-language-content-8 = تمريٚ ٻوليٚ </strong> ٺ�
 about-playbook-how-validate = مينٚ ڪيسي جآڻونٚ تو وآئيٚس ڪلپوُ  منجورَ ڪررو جآئي؟
 about-playbook-how-validate-content-1 = ائينٚ </strong> انآ ڪوُ سُڻ ڪي<strong> جي تميٚ منجور ڪروو سهي سمجو تو<strong> وو آم تور ،</strong> سمج سگدآ هونٚ<strong>۔</strong>  هي
 about-playbook-how-validate-content-2 = ڪلپآئونٚ رد مت ڪرو جھآنٚ اسپيڪرو تلڦُج هي<strong> وو جروري هي تو آوآجو ڪي اوݪکآنٚديٚ لآ  هر ڪرو۔</strong> جيڪو تمري آپوڪي لآ  سهي ڪآم ڪري ائينٚ الگ هو
+about-playbook-how-validate-content-3 = سمجوو <strong> جي تمي سوچو تو تلڦج اُروڪوُ هي، يآنٚ وهآنٚ هينٚ </strong> ڀوت پس منجر گوڙ<strong> بڻآنٚدو هي، يآنٚ وهآنٚ </strong> نآ ممڪن تو پڇي تمآئونٚ ڪلپو رد ڪروو کپي،</strong> دوسرآ منک ٻول ريهرآ هينٚ<strong>۔</accuracyLink> همريٚ درستگيو ڪيٚ ميآريٚ مي اور کبر چآر ديکو<accuracyLink>
+about-playbook-how-validate-content-4 = جي ايڪ ڪلپ 2 منکآنٚ ڪي ترڦي دي رد ڪررو گو هي ، وآ ڊيٽآ سيٽو ڪي الگ نيچي سيٽي مي ڌررو گو هي
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مينٚ ڊيٽآ سيٽو تآئينٚ ڪيسي جآئونٚ اور استمآل ڪآسگدو هونٚ
 
 ## How are decisions made
 

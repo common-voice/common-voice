@@ -13,6 +13,7 @@ you = تم
 everyone = هر ڪو
 contribution-activity = تآونيٚ ريٚ سرگرميٚ
 top-contributors = وڌيٚڪ هيٚسوليوآڙي
+recorded-clips = ريٚڪوڊنگ هووڙي ڪلپس
 
 ## Custom Goals
 
