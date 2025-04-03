@@ -20,9 +20,16 @@ overall-accuracy = ٻڌيئيَ ڌُرستڳِي
 
 ## Custom Goals
 
+goal-interval-weekly = ھڦتيوار
 
 ## Goals
 
+streaks = تارون
+days =
+    { $count ->
+        [one] ۮِي
+       *[other] ۮِي
+    }
 recordings =
     { $count ->
         [one] رڪارڍينگ
