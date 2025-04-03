@@ -15,6 +15,11 @@ new-sentence-rule-2 = دے فی جملے ژے 15 کوپ الفاظے
 new-sentence-rule-3 = سہی گرائمر استعمال کن
 new-sentence-rule-4 = سہی املو اڤن زیر، زبرے استعمال کن
 new-sentence-rule-5 = چے نمبر اڤن خاص حروفے چش
+how-to-cite = چیمی کینیم حوالو دیلیم؟
+how-to-cite-explanation-bold = ڤے یو آر ایل لنک غورا یا سے ہورغن پرو نام حوالو دل۔
+guidelines = رہنمائی
+contact-us = لے ماخ رابطہ کن
+add-sentence-success = 1 جملو بڑیچڤدغو ݰوئے
 
 ## BULK SUBMISSION
 

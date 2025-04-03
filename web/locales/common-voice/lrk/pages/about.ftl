@@ -26,6 +26,22 @@ about-speak-text = ھوڻو
 about-listen-queue = ھڻو ايڪ جيون
 about-listen-queue-text = وائيس ڪلپس جمع ڪرايا ري قطار ۾ موئي واڙيو جائي  جي اووہ  ني ھوڻيا ھارو تيار ڪروي پڙي.
 about-listen = ھڻو
+about-listen-text = مينکو ري ڌيڌوڙي ڪلپس ري سھي ري جوڻ ڪاڌي ھي، چيڪ ڪري ھي ڪي ٻوليا وارا  جمللا ني صحيح طريقا مون پڙهي ھي.
+about-is-it-valid = ڪاو ڪلپ صحيح هي؟
+about-is-it-valid-text = ايڪ آواز اي ڪلپ ني "جائز" نيشاطون لڳاويو هي جڏي ايڪ مينک او مون اوني ووٽ ڏي ھي.
+about-yes-votes = 2 ھان ووٽ
+about-yes-votes-text = او ني عام آواز ڊيٽاسٽ ۾ ٺاھيا  ھارو، ايڪ آواز ڪلپ ني ٻي الڳ استعمال ڪريا وارو ري طرف مون جوڻ ڪراوي کپيط
+about-no-votes = 2 ووٽ ڪوئي ني
+about-no-votes-text = جڏي  ڪوئي  مينک ايڪ آواز ري ڪلپ ني رد ڪري ھي او قطار ۾ واپسي آئي جائي ھي. جيڪدي  ٻيجي دفا بي رد ڪريو ھي تو، آواز ري  ڪلپ ني ݾمݾون  ۾ ڌيڌو ھي
+about-dataset-new = عام آواز ڊيٽاسٽ
+about-dataset-new-text = عام آواز ڊيٽاسٽ ۾ ھو مون هزار ري نمونا ري آواز ڀيري ڪريوڙي ھي جي ڊولپرز ري آواز ري اورخيا  را اوزار ٺاهيا ۾ مدد ڪري ھي.
+about-clip-graveyard = ڪلپ رو ݾمݾان
+about-clip-graveyard-text = ڪلپ ري ݾمݾان ري آواز ڪلپس تي آوي هي جي او ني عام آواز ڊيٽاسٽ ۾ نه  ٺاھي. بس ڊيٽاسٽ ري جيم، ڪلپ ݾمݾان ڊائون لوڊ ھارو دستياب هي.
+about-get-involved = ڀآرو ھويو
+about-get-involved-text-2 =
+    عام آواز ني وڌيڪ بهتر ٺايا ۾ مدد ڪروُ چاھو ھون؟
+    عظيم! اي ميل  ري ذريعي مون رابطا ۾ حاصل ڪرويا <discourseLink> تقرير</discourseLink>فورم، ذريعي سائيٽ را مسئلا جمع ڪراوُ<githubLink>گٽ هب</githubLink> ھين ميلو<matrixLink>مئٽرڪس</matrixLink>ڪميونٽي چيٽ.
+about-stay-in-touch = ھون رابطي ۾ ڪيڪر رهيو؟
 about-nav-why-common-voice = ڪون
 about-nav-how-it-works = ڪيڪر
 about-nav-partners = ساٿي
