@@ -4,6 +4,8 @@
 
 ## Languages
 
+aa = آفر
+ab = ابخاز
 ar = Arabic
 arn = Mapudungun
 as = Assamese
