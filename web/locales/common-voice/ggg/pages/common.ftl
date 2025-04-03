@@ -263,6 +263,7 @@ sr = سربيآئيٚ
 ss = سيٚسوآتيٚ
 st = َڏآکڻيٚ سوٿو
 sv-SE = سويڊنيٚ
+sva = سَوآن
 sw = سوآهليٚ
 syr = سيٚريآئيٚ
 ta = تآمِل
@@ -324,6 +325,11 @@ faq = FAQ
 documentation = دستآويج
 content-license-text = <licenseLink>Creative Commons لآئيسنو </licenseLink> ڪي تهت موآد موجود هي
 share-title = همآنٚ ڪو دوسرآئونٚ ڍونٚڊوآ مي مدت ڪرو جيڪو آپوڪيٚ آوآج دي سگھدآئينٚ
+share-text = مشِنيٚ ڪوُ سِڪووآ مي مدت ڪرو تو هڪيٚڪتيٚ مي منک ڪيسي ٻولدآ هين، { $link } آپوڪو آوآج ديئو
+link-copied = لنٚڪ ڪآپيٚ ڪرِو
+back-top = وآپس مٿي جآئو
+logout = لآگ آئوٽ ڪرو
+donate = دآن ڪرو
 
 ## Donate banner
 
