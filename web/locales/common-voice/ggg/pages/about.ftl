@@ -97,6 +97,7 @@ about-playbook-how-record-content-5 = ٻتيٚ ديکو سهي يو بآرآ م�
 
 ## How to grow language
 
+about-playbook-how-grow-language = همينٚ ڪيسي وڌيٚڪ تريٚڪآ دي ايڪ ٻوليو ڪو آم آوآجو مي وڌآ سگدآ هونٚ؟
 
 ## How to validate
 

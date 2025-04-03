@@ -21,3 +21,7 @@ request-language-error = همآ ڪوُ شآيد وآ درڪآس ڪونآ مِل�
 request-for-scripted-speech-toggle = اِسڪرپٽ لِکري تڪريريٚ ڪيٚ درڪآس
 request-for-spontaneous-speech-toggle = سآديٚ ٻآت چيتيٚ ڪيٚ درڪآس
 need-help-deciding-platform = ڪِرو ڪوُ چُڳ ڪي ڌروآ ڪيٚ جرُرت هي؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسڪرپٽ هُريٚ ٻآت چيٚت</strong>(ريتيٚ هِسآبو دي جيڪو تِمآ ڪوُ آم آوآج سمجھرو گو هي) يآ جگآ هي جھآنٚ تِمي تِمري ٻوليو مي جُملآ اُنچيٚ اورجيٚ پڙهدآ هو۔
+need-help-deciding-platform-explanation-2 = <strong>آپو آپ ٻآت چيٚت</strong>آم آوآجينٚ ڪو ايڪ نوو هسو هي جھآ تِمي سوآلآ ڪآ جبآب اوآ ڪُجرتيٚ، هر دنو ڪآ تريڪآ دي سڪدآ هو۔
+need-help-deciding-platform-explanation-3 = جيڪر تِمي  پليٽ ڦآرمو ڪآ دوئيٚ هسآ مي آپو ڪيٚ ٻوليٚ ڪونآ ديکو، دويآن ڪو چُڳو۔
