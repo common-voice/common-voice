@@ -87,6 +87,7 @@ adding-questions = Илова кардани саволҳо
 
 what-makes-a-good-question-subheader = Саволи хуб бояд чӣ гуна бошад?
 what-makes-a-good-question-explanation-criteria-1 = Барои фаҳмидан ва ҷавоб додан осон бошад
+easy-to-understand = Осонфаҳм
 easy-to-understand-explanation = Саволҳои оддиеро интихоб кунед, ки барои ҳама, новобаста аз фарҳанг ё қарина, фаҳмо бошанд.
 spelling-and-pronunciation = Имло ва аломатҳои китобат
 spelling-and-pronunciation-explanation = Қоидаҳои имло ва грамматикаи дурустро истифода баред.
@@ -96,6 +97,7 @@ dont-add-subheader = Илова накардан
 culturally-specific-questions = Саволҳои мушаххаси фарҳангӣ
 length-avoid-explanation = Саволҳое, ки касе барои посух додан дар 15 сония душворӣ мекашад (дарозии ҳадди аксари сабт)
 process-steps = Раванд / Қадамҳо
+offensive-content-sensitive-information = Муҳтавои таҳқиромез ё маълумоти ҳассос
 offensive-content-sensitive-information-explanation-explanation-1 = Саволҳое, ки метавонанд ба муайян кардани маълумоти шахсият дахл дошта бошанд
 offensive-content-sensitive-information-explanation-explanation-2 = Саволҳое, ки метавонанд суханони нафратангез, таҳқиромез ё эҳсосоти ғаразноки дигареро ба вуҷуд оранд
 example-questions-subheader = Саволҳои намунавӣ
