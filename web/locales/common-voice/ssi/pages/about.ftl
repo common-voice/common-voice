@@ -11,21 +11,21 @@ how-does-it-work-text = ہم اواجیں کے کھُلا سروت ڈیٹا سی
 
 about-language-req-subtitle = کوئی ایک  بھاشا سیمل کرنے نتر کیہتا ہے.
 about-localization-title = ویب سائٹ لوکلائزیشن
-about-localization-subtitle = ویب سائٹ کا متن اِسی بھشام ترجما کرا گیا ہے۔
+about-localization-subtitle = ویب سائٹا کا متن اِسی بھاشام ترجما کرا گیا ہے۔
 about-sentence-collection-title = گھٹِؔیاں سارِیاں ٻاتاں
 about-sentence-collection-subtitle = کھلکا کُو اُونچی اواجم پڑھنے نتر ٻول بھیݪے کرے جاوتے ہے۔
 about-new-lang-title = نوِیں ٻولِیا کا آرمبھ
-about-new-lang-subtitle = ہم اس بھام سادھارٹؔ اواج سائٹ ارمبھ کرتے ہے۔
-about-voice-contrib-title = اواجا کا یوگدان
-about-voice-contrib-subtitle = مِنکھ آتے ہے اور اپٹؔی اواز اُنٚچی کرتے ہے۔
+about-new-lang-subtitle = ہم اس بھاشام سادھارٹؔ اواج سائٹ آرمبھ کرتے ہے۔
+about-voice-contrib-title = اواجا کا یوگدؔان
+about-voice-contrib-subtitle = مِنکھ آتے ہے اور اپٹؔی اواز اُونٚچی کرتے ہے۔
 about-voice-validation-title = اواجا کی پک
 about-voice-validation-subtitle = دُؔوجے مِنکھ ان اواجیں کے کلپیں کی پک کرتے ہے۔
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-dataset-release-subtitle = ہم ہر تِینیں مہِینیم ڈیٹا سیٹ جاری کرتے ہے.
-about-subscribe-text = سادارٹؔ اواجا کے سات رابتیم رہنا چاوہتے؟
+about-subscribe-text = سادھارٹؔ اواجا کے سات رابتیم رہنا چاوہتے؟
 about-speak = ٻولٹؔا
 about-speak-text = دؔان کروڑے ٻولیں کے بینکاس پڑھی کن یوگدان کرتا اواجیکے کلپس ریکارڈ کرتے ہے۔
-about-listen-queue = سُٹؔنیں کی قتار
+about-listen-queue = سُٹؔنیں کی لیٹؔ
 about-listen-queue-text = اواجیان کے کلپیں کُو بھیݪا کرنے کی لیٹِؔیم داکھل کرا جاوتا ہے جکو اِنکُو سُننے نتر تیار کرتا ہے۔
 about-listen = سُٹؔنا
 
