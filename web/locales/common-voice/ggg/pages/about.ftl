@@ -127,6 +127,10 @@ about-playbook-how-project-governance = منسوبآ ڪآ ڦيسلآ ڪيسي ڪ
 about-playbook-how-project-governance-content-1 = سآرآ سنسآرو مي ڪآم ڪروآݪآ Mozilla Common Voice ڪآرڪُن،لسآنيآتيٚ ڪآ هُشآر ، ڊيٽآ سآئينٚسدآن، تيليٚميٚ هُشآر ائينٚ سآڦٽ ويئر انٚجينيريو ڪآ الگ برآدريو ڦآئونٚڊيشن  بدلي سمآݪرو گو هي Mozilla ترڦي دي ممڪن بڻآرو گو هي ۔ پروجيڪٽ
 about-playbook-how-project-governance-content-2 = همريٚ هڪومتيٚ ڪو بنيآد اُنآ ٿنٚڀآ پي هي
 about-playbook-how-project-governance-content-3 = دُبريٚ ، سآرسنٚڀآل ائينٚ شفآفيت
+about-playbook-how-project-governance-content-4 = ڪميونٽيو ڪي شآملآيو مي ائينٚ ڦيسلآ ڪروو
+about-playbook-how-project-governance-content-5 = ڪدر اور اوݪکآنٚد
+about-playbook-how-project-governance-content-6 = ڀيݪي هسآب
+about-playbook-how-project-governance-content-7 = ٻتيٚ پڙهو تو همآنٚڪو ڪيسي سمآݪرو <governanceLink></governanceLink>جآنٚدو هي
 
 ## How is Common Voice funded
 
