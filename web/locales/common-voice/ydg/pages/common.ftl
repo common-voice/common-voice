@@ -266,7 +266,9 @@ sv-SE = سویڈیش
 sva = سوان
 sw = سواہیلی
 syr = سریانی
+szy = ساکیزایا
 ta = تمالی
+tay = اتایال
 te = تیلوگو
 teg = ٹیکے
 tg = تاجک
@@ -330,6 +332,12 @@ link-copied = لنک کاپی ݰوئے
 back-top = دیبارو دے سور اوئے
 logout = لاگ آؤٹ
 donate = چندہ (عطیہ)
+return-to-cv = اشپہ دے کامن وائس اَس
+email-input =
+    .label = ای میل
+loading = لوڈ ایتے
+email-opt-in-info-title = دے کامن وائس ای میلف فہرست شامل اوئے
+not-available-abbreviation = لاگو نو
 
 ## Donate banner
 

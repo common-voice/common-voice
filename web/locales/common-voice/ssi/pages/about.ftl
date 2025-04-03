@@ -21,6 +21,9 @@ about-voice-contrib-subtitle = مِنکھ آتے ہے اور اپٹؔی اواز
 about-voice-validation-title = اواجا کی پک
 about-voice-validation-subtitle = دُؔوجے مِنکھ ان اواجیں کے کلپیں کی پک کرتے ہے۔
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
+about-dataset-release-subtitle = ہم ہر تِینیں مہِینیم ڈیٹا سیٹ جاری کرتے ہے.
+about-subscribe-text = سادارٹؔ اواجا کے سات رابتیم رہنا چاوہتے؟
+about-speak = ٻولٹؔا
 
 ## Community Playbook Content
 ## What is a language
