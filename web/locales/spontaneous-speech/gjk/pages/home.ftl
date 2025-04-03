@@ -22,3 +22,6 @@ transcribe-bubble-title = <mark>نقل ڪروون</mark>
 transcribe-bubble-subtitle = تمين زين آڊيو ڪِلپ مان ۿانڀريون سي، اِي لکِي ناکو۔
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>جانچ پڙتال ڪروون</mark>
+check-bubble-subtitle = تمين جانچ پڙتال ڪرو ڪي شون نقل ڪرل آڊيو ٿِي ملي سي
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>مواد</mark>
