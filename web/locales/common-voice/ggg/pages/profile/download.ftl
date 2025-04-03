@@ -27,3 +27,4 @@ download-request-modal-title = لِنڪ ڊونلوڊ ڪرو
 download-request-modal-description = جِپ ڦآئليٚنٚ ڪوُ ڊونلوڊ ڪروآ تآڻي لنک يهآنٚ هينٚ۔
 download-request-link-text = جِپ#{ $offset } دي{ $total }
 download-request-metadata-link = جملآ ڪي لِکت
+download-request-link-single = ڪوُ پسنديآݪو آونلوڊ URLs تِمي بي پقل ڪر سڪدآ هو سيدو لوڊ مينيجرو مي۔ وي12 ڪلآڪينٚ مي کتم هو جآسيٚ، پر تِمي ڪِرو بيٚ ٽيم نوآنٚ ٽآوآ تآڻي اِرو سڦآ پر وآپس آ سڪدآ هو۔
