@@ -130,3 +130,7 @@ process-steps = Folyamatokat / lépéseket
 process-steps-explanation = Olyan kérdéseket, melyek több lépés felsorolását igényelnek. A lépések felsorolása a természetes beszéd helyett arra késztetik a felhasználót, hogy felmondja a választ.
 offensive-content-sensitive-information = Sértő vagy érzékeny információkra vonatkozó kérdéseket
 offensive-content-sensitive-information-explanation-explanation-1 = Olyan kérdéseket, amelyek személyazonosításra alkalmas információkat kérhetnek
+offensive-content-sensitive-information-explanation-explanation-2 = Olyan kérdéseket, amelyek gyűlöletbeszédet keltő, vagy más elfogult vagy sértő szándékúak lehetnek
+offensive-content-sensitive-information-explanation-explanation-3 = Olyan kérdéseket, amelyekre bizalmas, potenciálisan felzaklató válaszokat adhatnak
+example-questions-subheader = Példakérdések
+example-questions-explanation-1 = <examplePromptsLink>120 példakérdést talál ezen a lapon.</examplePromptsLink>

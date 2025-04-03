@@ -29,3 +29,4 @@ data-bubble-subtitle = امين وقت بي وقت مواد نِي ترتيت ج
 contact-us = امان ٿِي راٻطو ڪرو
 contact-us-title = شون تمين آ منصوٻا مان ڀيرون ڀريا مان دلچسپي راکو سو، ڪان امان ڀيرِي شِرڪت ڪروا ماڳو سو؟
 contact-us-email = اِي ميل: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = شون تمين مورِ ٿيز عام آواز نِي غير معمولِي تقرير پروجيڪٽ نو آزمتو ڪريا وارا گروپ مان شامِل سو۔
