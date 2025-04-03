@@ -17,9 +17,16 @@ demo-account = کھاتا
 
 ## Demo Account
 
+demo-account-card-header = ایک کھاتا راکھٹؔیم  پاٹی ٻاٹؔے کی جرورت ںائی تی، اگر یو ساہیک ہے.
+demo-account-enter-email =
+    .label = سائن اپ لنک دؔیگلاٹؔے نتر ای میل لِکھو
+demo-account-sign-up = سائن اپ لنک دؔیگلاو
 
 ## Demo Contribute
 
+demo-contribute-card-header = اپٹؔی آواج  جما کرٹؔے یا اپٹؔے کانا کُو اُدھار دؔیٹؔے نتر تیار ہیں؟
+demo-listen-subtitle = یوگدان کرنے نتر تیار ہیں؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = جاتی ڈیش بورڈز آپ کو انفرادی اور پڑاوا کی پرگتیا کے ساتھ تازہ ترین راکھتے ہیں۔

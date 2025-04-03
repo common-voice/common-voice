@@ -15,3 +15,5 @@ request-language-google-recaptcha-error = reCAPTCHA دي ڪُج گلت هوگو�
 # Success page
 request-language-success-heading = تِمري ميهربآنيٚ! تُمي ايڪ نويٚنٚ ٻوليو ڪي چآنچ پڙتآل ڀيج رهيرآ هو
 request-language-success-list-1 = تِمآ ڪو جلدي ڪيوآݪيٚ ايڪ ايٚ ميل ليڻ کپي تِمري ٻوليو ڪوُ آم روآجي مي شآمل ڪرووآ تآڻي ڪدم
+request-language-success-list-2 = همرو ڪميونٽيٚ مينيجر تِمري تآئينٚ رس سي پيش ڪروآ تآڻيٚ وڌيڪ جُڙوو، اور تِمآ ڪوُ کبر ديسي تو جيڪر وهآنٚ آگي ئي ايڪ برآدري تِمري ٻوليو مي ڪآ ڪر رهيري هي
+request-language-success-list-3 = جيڪر تِمي همآ دي ڪُج دِنآ مآئينٚ سُڻو تو رآبتو ڪرو</emailLink>{ $email }<emailLink> اور همي تِمري ڪو دي وآپس ليسآنٚ!

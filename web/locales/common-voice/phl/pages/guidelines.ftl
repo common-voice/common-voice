@@ -3,6 +3,7 @@ guidelines-header = حصہ گھنئنی رہنمائی
 guidelines-header-subtitle = انی بات جھانینڈیو کی  کامن وائسی ڈیٹاسیٹی سنگی مدد او جملئی   ہاویزی کنا تھے  تصدیق تھئیجہ تھنی
 voice-collection = ہاویزیمی مجموعہ
 sentence-collection = جملئی مجموعہ
+question-collection = سُویلیمی مجموعہ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,12 @@ domain-explanation = دائرہ جملہ پیرا حوالہ دانو۔ تپہ �
 
 ## Question collection ids
 
+adding-questions = سُویلی شامل تھئنی
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = آک شوی سوال کنا تھے تھینڈیو؟
+what-makes-a-good-question-explanation = عوامی شراکتی ڈیٹا سیٹی دپارہ آک شوی سُوال
+what-makes-a-good-question-explanation-criteria-1 = بُجئنی او جواب دئنی دپارہ تیار ہونسوئی
+what-makes-a-good-question-explanation-criteria-2 = ہر شئی متعلقہ ہونسہ وڑئی
+what-makes-a-good-question-explanation-criteria-3 = نُقصان دہ یا روݜِجی زبان استعمال نہ تھوئی
