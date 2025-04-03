@@ -25,3 +25,5 @@ check-bubble-title = <mark>جانچ پڙتال ڪروون</mark>
 check-bubble-subtitle = تمين جانچ پڙتال ڪرو ڪي شون نقل ڪرل آڊيو ٿِي ملي سي
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>مواد</mark>
+data-bubble-subtitle = امين وقت بي وقت مواد نِي ترتيت جارِي راکِيئين سيئين۔
+contact-us = امان ٿِي راٻطو ڪرو
