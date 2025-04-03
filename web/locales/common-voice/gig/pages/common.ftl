@@ -221,6 +221,7 @@ sei = سيٚريٚ
 ss = سيسوآتيٚ
 st = ڏآکڻيٚ سوٿو
 sv-SE = سويٚڊنيٚ
+sva = شون۔
 sw = سوآهليٚ
 syr = سيريآئيٚ
 ta = تآمل
@@ -286,6 +287,11 @@ faq = ڦآڪ
 documentation = ڊوڪوميٚنشن
 content-license-text = <licenseLink> نيٚ انٚدر موآد پڙي ڇي۔Creative Commons لآئسنس </licenseLink>
 share-title = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
+share-text = ميٚشني ني سيٚکآئيم مدد ڪرو تو هڪيٚڪتي مينٚ منک ڪيٚ يونٚ ٻوٚليٚ ڇي{ $link } آپيرو آوآز ۮئو۔
+link-copied = لنڪ ڪآپي ڪرو
+back-top = وآپسيٚ مآٿي جآئو۔
+logout = لآگ آئوٽ ڪرو۔
+donate = آتيو ڪرو۔
 
 ## Donate banner
 
