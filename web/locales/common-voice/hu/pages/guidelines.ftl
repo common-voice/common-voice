@@ -111,6 +111,7 @@ adding-questions = Kérdések hozzáadása
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Mitől jó egy kérdés?
+what-makes-a-good-question-explanation = Egy jó kérdés a nyilvános részvételű adatkészletben:
 what-makes-a-good-question-explanation-criteria-1 = Legyen könnyen érthető és megválaszolható
 what-makes-a-good-question-explanation-criteria-2 = Legyen általánosságban releváns
 what-makes-a-good-question-explanation-criteria-3 = Ne használjon vagy várjon el ártalmas vagy sértő kifejezéseket
@@ -123,3 +124,6 @@ length = Hossz
 length-explanation = A kérdésre néhány mondatban kell tudni válaszolni.
 dont-add-subheader = Ne adjon hozzá
 culturally-specific-questions = Kulturális sajátosságú kérdéseket
+culturally-specific-questions-explanation = Olyan kérdéseket, amelyek nagyon kultúrafüggőek, vagy sokat feltételeznek a válaszolóról
+length-avoid-explanation = Olyan kérdéseket, amelyekre nehéz 15 másodperc alatt válaszolni (ez a maximális kliphossz)
+process-steps = Folyamat / lépések

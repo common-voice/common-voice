@@ -16,6 +16,8 @@ about-sentence-collection-title = گھٹِؔیاں سارِیاں ٻاتاں
 about-sentence-collection-subtitle = کھلکا کُو اُونچی اواجم پڑھنے نتر ٻول بھیݪے کرے جاوتے ہے۔
 about-new-lang-title = نوِیں ٻولِیا کا آرمبھ
 about-new-lang-subtitle = ہم اس بھام سادھارٹؔ اواج سائٹ ارمبھ کرتے ہے۔
+about-voice-contrib-title = اواجا کا یوگدان
+about-voice-contrib-subtitle = مِنکھ آتے ہے اور اپٹؔی اواز اُنٚچی کرتے ہے۔
 
 ## Community Playbook Content
 ## What is a language
