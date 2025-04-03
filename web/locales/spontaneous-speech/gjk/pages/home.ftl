@@ -16,3 +16,9 @@ prompt-bubble-title = <mark>تڪڙو</mark>
 prompt-bubble-subtitle = امين تمان نين ايڪ تڪڙو ڪان سوال ۮيکاڙشون۔
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>زٻاپ ۮيوون</mark>
+respond-bubble-subtitle = تمين اينيان نين زٻاپ ڄو ڪان زٻاپ ڄو زيم تمين قدرتِي طور ماٿيَ ڪرِي ۿڳو سو۔
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>نقل ڪروون</mark>
+transcribe-bubble-subtitle = تمين زين آڊيو ڪِلپ مان ۿانڀريون سي، اِي لکِي ناکو۔
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>جانچ پڙتال ڪروون</mark>
