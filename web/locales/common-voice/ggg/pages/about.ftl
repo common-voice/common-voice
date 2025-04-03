@@ -124,6 +124,9 @@ about-playbook-how-access-dataset-content-2 = مآڊل ٺآوآ لآ ايڪ آو
 ## How are decisions made
 
 about-playbook-how-project-governance = منسوبآ ڪآ ڦيسلآ ڪيسي ڪررآ گآ هينٚ؟
+about-playbook-how-project-governance-content-1 = سآرآ سنسآرو مي ڪآم ڪروآݪآ Mozilla Common Voice ڪآرڪُن،لسآنيآتيٚ ڪآ هُشآر ، ڊيٽآ سآئينٚسدآن، تيليٚميٚ هُشآر ائينٚ سآڦٽ ويئر انٚجينيريو ڪآ الگ برآدريو ڦآئونٚڊيشن  بدلي سمآݪرو گو هي Mozilla ترڦي دي ممڪن بڻآرو گو هي ۔ پروجيڪٽ
+about-playbook-how-project-governance-content-2 = همريٚ هڪومتيٚ ڪو بنيآد اُنآ ٿنٚڀآ پي هي
+about-playbook-how-project-governance-content-3 = دُبريٚ ، سآرسنٚڀآل ائينٚ شفآفيت
 
 ## How is Common Voice funded
 
