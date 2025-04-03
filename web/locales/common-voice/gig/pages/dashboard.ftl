@@ -55,6 +55,15 @@ cant-decide = ڦيٚسلو ڪونيٚ ڪرسڪونٚ۔
 how-many-per-day = جآم ڀلو، ڪترآ ڪلپس ڦيٚ ۮآنيم۔
 how-many-a-week = جآم ڀلو، ڪترآ ڪلپس ڦيٚ هڦتآ مينٚ۔
 which-goal-type = ڪآئيٚ تم چآئو ڇوٻوٚلڻو،سوڻ ڻو يآ ڌيٚ يونٚ۔
+receiving-emails-info = تم اٻي ايٚ ميل لير ڪآبيٚل ڇو جيونٚ تو مڪسد يآد ڪري سآرو، مآريٚ ترڪيٚ بآري مينٚ ائينٚ ڪآمن وآئيٚس بآري مينٚ کبر لي سڪو ڇو
+not-receiving-emails-info = تم اٻي ايٚ ميل لير ڪآبيٚل <bold> ڪونيٚ</bold> ڇو جيونٚ تو مڪسد يآد ڪري سآرو، مآريٚ ترڪيٚ بآري مينٚ ائينٚ ڪآمن وآئيٚس بآري مينٚ کبر لي سڪو ڇو
+n-clips-pluralized =
+    { $count ->
+        [one] { $count }ڪليٚپ
+       *[other] { $count }ڪلپي
+    }
+help-share-goal = همآريٚ ريٚ مدد ڪرو وڌيٚڪ ويٚڊيو ڊوٚنڊي مينٚ، تآرو مڪسد سُڻآ
+confirm-goal = مڪسدي ريٚ پَڪ ڪرو
 goal-interval-weekly = هڦتآ پر
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = آپيرو { $type } ڪلپ روزآني وآڙو مڪسدي { $count }سآرو ۮيۮو
