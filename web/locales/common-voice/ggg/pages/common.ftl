@@ -341,6 +341,11 @@ loading = ڀر ريهرو هي
 email-opt-in-info = مي ليوآ چآهنٚدو هونٚ ايِٚ ميلينٚ مسآل  مڪسد يآد دُوآوآݪآ،۔ميريٚ تيج رڦت تآجآ ڪآݪيونٚ ائينٚ کبر نآمآ آم آوآجو بآبت
 email-opt-in-info-title = آم وآئس ميلنٚگ ڦهرستيٚ مي شآمل هووو
 email-opt-in-info-sub-with-challenge = ايِ ميلينٚ هآسل ڪرو مسآل دآوآ ائينٚ مڪسد يآد گِريٚ دُوآوآݪا، پيش رڦت تآجيٚ ڪآݪيونٚ، ائينٚ آم آوآجيٚ بآبت کبرچآر
+email-opt-in-privacy-v2 = ايِ ميلينٚ هآسل ڪروآ لآ آپٽ آن ڪردي ، تميٚ بيآن ڪردآ هو تو رآجدآريو<privacyLink> ديMozilla  ايٚرآ کبرچآريٚئو سمآݪوآ جيسيٚ Mozilla  تميٚ رآجيٚ هو پآليٚسِيو </privacyLink>مي وجآهت ڪرريٚ گئيٚ هي
+indicates-required = تآرآ(*)دي نشآن لگريٚ ڦيٚلڊ گھُربل هي
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>همآنٚڪو تمريٚ مدتيٚ ڪيٚ جرورت هي !</mark>
