@@ -13,3 +13,6 @@ why-card-3-text = اِي ٻولِيان ۿارُو بھتر مۮت، زين ڪن
 how-spontaneous-speech-works = غير معمولي تقرير ڪيم ڪام ڪري سي
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>تڪڙو</mark>
+prompt-bubble-subtitle = امين تمان نين ايڪ تڪڙو ڪان سوال ۮيکاڙشون۔
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>زٻاپ ۮيوون</mark>
