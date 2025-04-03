@@ -14,6 +14,8 @@ everyone = هر ڪو
 contribution-activity = تآونيٚ ريٚ سرگرميٚ
 top-contributors = وڌيٚڪ هيٚسوليوآڙي
 recorded-clips = ريٚڪوڊنگ هووڙي ڪلپس
+validated-clips = سئيٚ هوڙآ ڪلپس
+total-approved = سئيٚ تريٚڪيٚ سونٚ موڪل ميلوڙي
 
 ## Custom Goals
 
