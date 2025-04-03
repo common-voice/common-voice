@@ -28,6 +28,15 @@ goal-type = تم ڪسي ڪسميٚ رومڪسد ٺآڻو چآئو ڇو۔
 both-speak-and-listen = ڌيٚ يونٚ
 both-speak-and-listen-long = ڌيٚ يونٚ (سوڻ ڻو آئينٚ ٻوٚلڻو)
 daily-goal = زو زيٚ رومڪسد
+weekly-goal = هڦتآ رو مڪسد
+easy-difficulty = آسآن
+average-difficulty = برآبريٚ
+difficult-difficulty = مسيٚبت
+pro-difficulty = پرو
+lose-goal-progress-warning = تمآريٚ مڪسدي نيٚ بدليٚ ڪرين تم تمآريٚ موجود اهميت نيٚ کتم ڪرو ڇو۔
+want-to-continue = ڪآئيٚ تم لگآتآر رهڻو چآئو ڇي
+finish-editing = پهليٚ وآڙو ڪآم کتم ڪرو۔
+lose-changes-warning = آٻيٚ ڇوڙي رو متلب ڇي،تم تمآريٚ بدلئيٚ هووڙيٚ ويڃآ ڪآڙيو
 goal-interval-weekly = هڦتآ پر
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = آپيرو { $type } ڪلپ روزآني وآڙو مڪسدي { $count }سآرو ۮيۮو

@@ -8,3 +8,7 @@ partnerships-community-description = ڪميوبٽي آم آوآجينٚ ڪي ڌ�
 partnerships-foundations-header = بُڻيآد
 partnerships-foundations-description = همي بُڻيآديٚ ڪآ، سوآل سوسآئيٽي اور ڪميونٽيٚو دي ڀآئيوآرآنٚ ڪي ڀيݪي ڪآم ڪردآ هونٚ انٽرنيٽو ڪوُ ايڪ سهتمند جگآ، کآس ڌيآنو دي اُڀر پآسآ ڪآ امريڪآ ڪودي۔ همرآ بآرآ مي اور وڌيڪ جآڻو۔</programmaticWork> پروگرآمي ڪآم<programmaticWork>
 partnerships-governments-header = هڪوُمتينٚ
+partnerships-governments-description = همي ٽيڪنآلآجيٚ، انوکي اور ٻوليو ڪآ اديڪآروآنٚ مي آوآمي شوبآ ڪآ سکت ڪآمو ڪيٚ جوآب دئي ڪروآ تآڻي پُر جوش هونٚ۔ جيڪر تِمي ايڪ ٻڏو پروجيڪٽ يآ مهم چلآوآ تآڻي رٿ رهيرآ هو، ميهرنآنيٚ ڪر ڪي</emailFragment> رآبتآ مي آوو
+partnerships-academia-header = پونيورسٽيونٚ، پڙهآئي اور اديڪآر
+partnerships-academia-description = کُلري انوکيو دي همري دليٚ مي هو۔ تهڪيٚڪي تآون، ڊيٽآ ڀيݪو ڪروو جآنٚ انٽرويوج تآڻي،<emailFragment> پُوگو</emailFragment>
+partnerships-small-business-header = بشمول ٽيگ اور شرو هوآݪو AI نهينآ ڪآروبآر،
