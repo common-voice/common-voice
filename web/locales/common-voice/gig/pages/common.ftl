@@ -303,8 +303,13 @@ loading = لوڊ هو رو ڇي۔
 email-opt-in-info = مينٚ هآسُول ڪرڻو چآئو ڇونٚ اي ميلي جيٚ يونٚ مڪسد يآد ۮرآوي مآريٚ زير زٻر تآزيٚ ڪري آئينٚ کبر نآمآ آم آوآزي مينٚ
 email-opt-in-info-title = آم وآئس ميٚلنگ ڦهرست مينٚ بهڙي هووي۔
 email-opt-in-info-sub-with-challenge = ايٚ ميلي وسول ڪرو جيٚ يونٚ وآئيٚدو آئينٚ مڪسد يآد ۮرآوي زير زٻر تآزيٚ ڪرو آئينٚ آم آوآزي مينٚ کبر نآمو
+email-opt-in-privacy-v2 = ايٚ ميلي وسول ڪري سآرو آپٽ ان ڪرين،تم بيآن ڪرو ڇو،ڪي رآزي وآڙي <privacyLink>نيٚ Mozillaسونٚ اير مهلومآتي نيٚ سمبآلي سآرو جيٚ يونٚ Mozillaتم رآزي ڇو۔ پآليسي مينٚ سمجآيو گيٚو ڇي۔<privacyLink>
+indicates-required = تآرآ سونٚ نشآن لآگوڙآ ڦليڊ زروريٚ ڇي۔
+not-available-abbreviation = اين اي
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark> هم تمآريٚ </mark> مدد ڪريآنٚ<br/></mark><mark>
 localization-select =
     .label = ٻوٚليٚ چونڊلو لوڪلآئزيٚشن

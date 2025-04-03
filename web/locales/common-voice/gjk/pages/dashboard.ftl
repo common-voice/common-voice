@@ -40,6 +40,18 @@ want-to-continue = شون تمين جھارِي راکوا ماڳو سو؟
 finish-editing = مورِ ٿِي ترميم ڪريا نون کتم ڪرو
 lose-changes-warning = هويَ ميچا نون مطلٻ سي ڪي تمين پوتا نِي تٻۮيليان نين کوئِي ناکشو
 build-custom-goal = ضرورت پرماڻين ايڪ مقصۮ (گول) ٺاوو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] زاتِي مقصۮ ۿوُڌِي { $language }ايڪ ڪلاڪ مان{ $hours }پوڄا مان مۮت ڪرو
+       *[other] زاتِي مقصۮ ۿوُڌِي { $language }ايڪ ڪلاڪ مان{ $hours }پوڄا مان مۮت ڪرو
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] زاتِي مقصۮ ٿِي ڪامنَ وائيس ماٿيَ ايڪ ڪلاڪ{ $hours }مان پوڄا مان مۮت ڪرو
+       *[other] زاتِي مقصۮ ٿِي ڪامنَ وائيس ماٿيَ ايڪ ڪلاڪ{ $hours }مان پوڄا مان مۮت ڪرو
+    }
+set-a-goal = مقصۮ (گول) سيٽ ڪرو
+cant-decide = ڦينصلو نٿِي ڪرِي ۿڳتو!
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون

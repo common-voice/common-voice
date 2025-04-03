@@ -53,12 +53,23 @@ report-different-language-detail = مہ چہء کاں منا او تِس نو م
 report-difficult-pronounce = منو گران تھو
 report-difficult-pronounce-detail = او اَش الفاظ یا پیراگراف رے مشتمل تھوچہء اِوں پڑُو یا منو گران تھو۔
 report-offensive-speech = غصہ ناک تقریر
+report-offensive-speech-detail = قاو کلپ بے ادب یا غصہ ناک زیب تھی
+report-other-comment =
+    .placeholder = کمنٹ
+success = کامیابی
+continue = جاری
+report-success = رپرٹ کامیابی رے پاس ھوینگا
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
 
 ## Listen Shortcuts
 
