@@ -6,6 +6,7 @@ demo-welcome-subheader = ودھیک سیکھٹؔیم اور یوجنام  یوگ
 
 ## Demo Datasets
 
+demo-language-select-card-header = سادھارن آواج سنسارا کا ساریںٚیس ٻڈؔا عوامی توراپ دستیاب  ، ٻاراں مٹؔ ٻولیئں کی آواج  ڈیٹا سیٹ ہے۔
 
 ## Demo Account
 

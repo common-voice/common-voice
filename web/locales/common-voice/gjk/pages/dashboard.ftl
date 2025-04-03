@@ -21,6 +21,8 @@ overall-accuracy = ٻڌيئيَ ڌُرستڳِي
 ## Custom Goals
 
 goal-interval-weekly = ھڦتيوار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون
 
 ## Goals
 
