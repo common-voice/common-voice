@@ -16,4 +16,5 @@ thank-you-for-your-information = تميريٚ کبر چآريٚ لآ ميهرب�
 
 ## Gender dropdown
 
-male_masculine = مڙد/مڙداڻآ
+male_masculine = مڙد/مڙد
+female_feminine = مآئيٚ/مآيونٚ
