@@ -62,6 +62,8 @@ n-clips-pluralized =
         [one] { $count }ڪِلِپ
        *[other] ڪِلِپان
     }
+help-share-goal = وڌارين آوازون ڳوڄا مان انين تمارون مقصۮ (گول) نين شيئر ڪريا مان امارِي مۮت ڪرو
+confirm-goal = مقصۮ (گول) نِي تصۮيق ڪرو
 goal-interval-weekly = ھڦتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } ڪلپ ھر روز نا مقصد ۿارُو{ $count } شيئر ڪرو پوتا  نون
@@ -71,9 +73,10 @@ share-goal-type-speak = ٻولوون
 share-goal-type-listen = ۿانڀروون
 share-goal-type-both = ٻولوون انين ۿانڀروون
 # LINK will be replaced with the current URL
-goal-share-text = مين اتيارين # عام آواز ۮان ۿارُو ايڪ ذاتِي مقصد ٺاھيون سي۔ مون ڀيران شامِل ٿائو انين گول نين شيکاڙيا مان مۮت ڪرو ڪي حقيقت مان ماڻۿان ڪيم ٻوليَ سي۔
-weekly-goal-created = تمارون ھڦتاوار مقصد ٺۿاڻون سي۔
-daily-goal-created = تمارون ھر روز نون مقصد ٺۿاڻون سي
+goal-share-text = مين اتيارين # عام آواز ۮان ۿارُو ايڪ ذاتِي مقصد ٺاھيون سي۔ مون ڀيران شامِل ٿائو انين گول نين شيکاڙيا مان مۮت ڪرو ڪي حقيقت مان ماڻۿان ڪيم ٻوليَ سي { $link }۔
+weekly-goal-created = تمارون ھڦتا وارون مقصۮ (گول) ٺۿاڻون سي۔
+daily-goal-created = تمارون ھر روز نون مقصۮ (گول) ٺۿاڻون سي
+track-progress = پوتا نِي ترقِي نين اڃان پوتا نا اِسٽيٽس نا پيج ماٿيَ زوو (ٽريڪ ڪرو)
 
 ## Goals
 

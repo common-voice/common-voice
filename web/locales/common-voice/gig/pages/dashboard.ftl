@@ -17,6 +17,9 @@ recorded-clips = ريٚڪوڊنگ هووڙي ڪلپس
 
 ## Custom Goals
 
+share-goal-type-speak = ٻوٚلڻو
+share-goal-type-listen = سوڻ ڻو
+share-goal-type-both = ٻوٚلڻو آئينٚ سوڻ ڻو
 
 ## Goals
 

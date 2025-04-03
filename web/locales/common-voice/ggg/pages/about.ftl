@@ -118,6 +118,7 @@ about-playbook-how-validate-content-4 = جي ايڪ ڪلپ 2 منکآنٚ ڪي �
 ## How to access dataset
 
 about-playbook-how-access-dataset = مينٚ ڊيٽآ سيٽو تآئينٚ ڪيسي جآئونٚ اور استمآل ڪآسگدو هونٚ
+about-playbook-how-access-dataset-content-1 = datasets <datasetsPage> تميٚ جآ سگدآ هو جو تميٚ چآهو وو ورجن ائينٚ ٻولي چُگو ، ائينٚ اُرآ ڪو ڊآئون لوڊ ڪرو ،</datasetsPage> پنآ هينٚ ، مسآل ڊيموگرآڦڪ جآڻ ائينٚ</metadataLink> وڙيل ميٽآ ڊيٽآ <metadataLink> ڦآئيلينٚ مي  سهيٚيآݪيٚ ڊيٽآ ۔تمآنٚ ڪو ڊيٽآ سيٽ ڊآئون لوڊ ڪروآ لآ ايڪ ايٚميلي ڪو پتو ليوآ ڪيٚ جرورت پڙسيٚ
 
 ## How are decisions made
 

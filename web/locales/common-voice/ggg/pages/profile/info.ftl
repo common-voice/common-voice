@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = استمآل ڪروآݪآ ڪو نآيونٚ
+    .label = استمآل ڪروآݪآ ڪو نآئيونٚ
 profile-form-native-language =
     .label = مآدري ٻولي
 profile-form-additional-language =
