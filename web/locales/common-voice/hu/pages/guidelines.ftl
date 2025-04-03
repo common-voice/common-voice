@@ -3,6 +3,7 @@ guidelines-header = Közreműködői irányelvek
 guidelines-header-subtitle = Értse meg, hogyan adhat hozzá mondatokat és hangklipeket a Common Voice adatkészlethez, illetve hogyan ellenőrizheti őket
 voice-collection = Hanggyűjtés
 sentence-collection = Mondatok gyűjtése
+question-collection = Kérdésgyűjtemény
 
 ## Voice Collection nav ids
 
@@ -105,6 +106,20 @@ domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül
 
 ## Question collection ids
 
+adding-questions = Kérdések hozzáadása
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Mitől jó egy kérdés?
+what-makes-a-good-question-explanation-criteria-1 = Legyen könnyen érthető és megválaszolható
+what-makes-a-good-question-explanation-criteria-2 = Legyen általánosságban releváns
+what-makes-a-good-question-explanation-criteria-3 = Ne használjon vagy várjon el ártalmas vagy sértő kifejezéseket
+what-makes-a-good-question-tip = Azt is megfontolhatja, hogy különböző kontextusokon és doméneken íveljen át.
+easy-to-understand = Könnyen érthető
+easy-to-understand-explanation = Válasszon egyszerű kérdéseket, amelyek bárki számára könnyen érthetőek, kultúrától és kontextustól függetlenül.
+spelling-and-pronunciation = Helyesírás és központozás
+spelling-and-pronunciation-explanation = Írjon helyesen.
+length = Hossz
+length-explanation = A kérdésre néhány mondatban kell tudni válaszolni.
+dont-add-subheader = Ne adjon hozzá
+culturally-specific-questions = Kulturális sajátosságú kérdéseket

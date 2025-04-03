@@ -17,6 +17,11 @@ recorded-clips = ريٚڪوڊنگ هووڙي ڪلپس
 
 ## Custom Goals
 
+goal-interval-weekly = هڦتآ پر
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = آپيرو { $type } ڪلپ روزآني وآڙو مڪسدي { $count }سآرو ۮيۮو
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } ڪلپ هڦتآ وآڙو مڪسدي سآرو { $count } ۮيۮو آپيري
 share-goal-type-speak = ٻوٚلڻو
 share-goal-type-listen = سوڻ ڻو
 share-goal-type-both = ٻوٚلڻو آئينٚ سوڻ ڻو
