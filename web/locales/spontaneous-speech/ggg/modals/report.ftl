@@ -5,3 +5,6 @@ report-modal-subtitle = تِمي اِرو موآدو مي ڪوڻسآ مسلآ م
 offensive_speech = اِترآجو جوگو موآد
 offensive_speech-detail = موآدو مي نآ منآسب جآ بي ادڦي  ٻولي هي۔
 different_language = دوٚسريٚ ٻوليونٚ
+different_language-detail = موآدو مي ايڪ ٻولي هي جيڪو مي امد ڪر رهيرو تو اُرآ دي الگ هي۔
+personally_identifiable_information = جآتيٚ اوڻکآڻيٚ ڪيٚ کبر
+personally_identifiable_information-detail = يو موآد ايڪ منکو ڪي اوݪکآڻي دي جُڙري جآتي کبر، جيسي اُرو ڪو نآئو، اي ميل پتو، جڳآ، اوݪکوآ ڪو نمبر، جآ ڦون نمبر شآمل هي۔
