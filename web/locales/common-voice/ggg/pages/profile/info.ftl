@@ -1,0 +1,39 @@
+## ProfileForm
+
+profile-form-username =
+    .label = استمآل ڪروآݪآ ڪو نآيونٚ
+profile-form-native-language =
+    .label = مآدري ٻولي
+profile-form-additional-language =
+    .label = وڌيڪ ٻولي
+profile-form-language =
+    .label = ٻوليٚ
+profile-form-variant =
+    .label = تمي ڪوڻسي ٻولي ٻولدآ هو؟{ $language }
+profile-form-variant-default-value = ڪوئي بي نمونو ڪونآ چُڳرو گو
+profile-form-accent =
+    .label = ورجآڻي
+profile-form-custom-accent-help-text =
+    .label = تمي تمري ورجآڻي يو ڪوُ ڪيس ڪيندآ هي؟
+profile-form-custom-accent-placeholder-2 = آپو ڪيٚ ورجآڻيو ڪو ڪيوآ تآڻي ٽآئيپينگ شروُ ڪرو
+profile-form-age =
+    .label = اُمر
+profile-form-gender-2 =
+    .label = جِنس
+leaderboard-visibility =
+    .label = ليڊر بورڊو ڪوُ دِکآوو
+hidden = دُبريٚ
+visible = پڌريٚ
+native-language =
+    .label = مآدري ٻولي
+profile-form-add-accent = "{ $inputValue }" نووينٚ جروُرتيٚ ڪآ هسآبو دي ورجآڻي شآمل ڪرو
+profile-form-submit-save = جمآ ڪرو
+profile-form-submit-saved = جمآ هُرو
+male_masculine = مڙد/مڙد
+female_feminine = مآئيٚ/مآيونٚ
+intersex = اندوُرنيٚ جنس
+transgender = بدلديٚ جِنس
+non-binary = بِنآ ڪيوآ ڪي
+do_not_wish_to_say = ڪيوآ ڪيٚ کوآهش مت رآکو
+# Gender
+other = دُوسرآ

@@ -283,6 +283,9 @@ privacy = رآزدآريٚ
 terms = شرتون
 cookies = ڪوڪيٚز
 faq = ڦآڪ
+documentation = ڊوڪوميٚنشن
+content-license-text = <licenseLink> نيٚ انٚدر موآد پڙي ڇي۔Creative Commons لآئسنس </licenseLink>
+share-title = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
 
 ## Donate banner
 
