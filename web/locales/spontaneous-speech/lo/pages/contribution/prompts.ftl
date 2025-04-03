@@ -5,6 +5,8 @@ record-player-header = ບັນທຶກຄໍາຕອບຂອງທ່ານ
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ແລະ ຕອບສະໜອງຢ່າງເປັນທຳມະຊາດເທົ່າທີ່ທ່ານສາມາດເຮັດໄດ້
 no-prompts-message = ໃນປັດຈຸບັນບໍ່ມີການເຕືອນສໍາລັບພາສານີ້. ກະລຸນາໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼື ລອງໃໝ່ໃນພາຍຫຼັງ.
 error-recording = ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການບັນທຶກ
+prompt-submitted-success = ສົ່ງຄຳຕອບສຳເລັດແລ້ວ
+prompt-response-deleted-success = ລຶບການຕອບກັບສຳເລັດແລ້ວ
 # For the button to delete a response to a prompt
 delete = ລຶບ
 # For the disabled button on a prompt that indicates a prompt is already submitted
