@@ -58,9 +58,15 @@ about-nav-playbook = سکھا کہ تس کس طرح حصہ کنی سکنے آ
 about-playbook-what-is-language = کامن وائس اوپر ہک زبان کیہہ زی
 about-playbook-what-is-language-content-1 = زباناں نے بارے اچ سوچنے نے بہوں سارے طریقے زے۔ زبان نی پہچان نے ماڈل آسطے، کامن وائس نہ مشورہ زا کہ مشترکہ سمجھداری اوپرغور کرو یا ایہہ زبان بولن آلے اگر کوشش کرن تے ہک دوئے کیا سمجھی سکنے
 about-playbook-what-is-language-content-2 = اس چاہنے آں کہ بولنے آلاماڈل مختلف بولنے آلیاں کی سمجھنے آسطے بہتر ہوئے۔ اس آسطے وائس ڈیٹا سیٹ اوپر بہوں سارے مختلف لوک ہونے چاینے
+about-playbook-what-is-language-content-3 = کوئی زبانان نے گرامر، لفظ تے بول چال بہوں مختلف ہونی۔ اس آسطے اس 2022 اچ مختلف قسماں </ctaLink>پیش کرنے آں۔ اس نی وجہ سی لوکاں کی مختلف زباناں نے ڈیٹا سیٹ وچاں اپنی زبان نی پہچان کرنے اچ آسانی ہوسی
 
 ## How do I add a language
 
+about-playbook-how-add-language = میں ہک زبان کس طرح شامل کرنی سکنس؟
+about-playbook-how-add-language-content-1 = پہلے دیکھا کہ تساں نی زبان <languageLink> پہلے سی موجود زی</languageLink>؟ اگرنہیں، تس اپنی زبان شامل کرنے نی درخواست کری سکنے آ</languageRequestLink>۔ اس نے دو مرحلے زے۔ سائٹ نا ترجمہ کرنا تے زبان نے جملے جمع کرنا
+about-playbook-how-add-language-translating-heading = سائٹ نا ترجمہ
+about-playbook-how-add-language-translating-content-1 = اساں نی گائیڈ دیخا کہ پنٹون کس طرح استعمال ہونا<translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = اس ترجمے آسطے یک موزیلا ٹول استعمال کرنے آں جس کی پنٹون آخنے</pontoonLink>۔ پنٹون اچ بہوں ساری زباناں زیاں اگر تساں نی زبان اس اچ نہیں تے تس اپنی زبان شامل کرنے نی درخواست کری سکنے آ </pontoonRequestLink>۔ فیر اپنی زباناں کی کامن وائس پروجیکٹ اوپر ظاہر کرنے اسطے نویں زبان نی گٹ ہب</githubRepoLink> اوپر درخواست کرا۔ سائٹ نے ترجمے نے بارے اچ ہور دیخا </localizationFragment>۔
 
 ## How does localization work
 
