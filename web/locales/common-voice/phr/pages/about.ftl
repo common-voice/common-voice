@@ -76,6 +76,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = جملے جمع
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کس طرح کم کرنی؟
 about-playbook-how-localize-content-1 = کامن وائس سائٹ نا ترجمہ پنٹون اوپر ہونا</strong>۔
+about-playbook-how-localize-content-2 = اگرتساں ناں اکائونٹ نہیں تے اپنا اکائونٹ بنائو۔ فیر اپنی زبان چُنو<strong> تے فیر پروجیکٹ چُنو<pontoonCvLink> کامن وائس۔ اتھان ترجمے آسطے فائلاں ہولیاں۔ ہکو کسا اوپر کلک کرا تے انگریزی نے جملے تے نال ہک باکس اُناں نے ترجمے آسطے نظر الے
 
 ## How to add sentences
 
