@@ -16,3 +16,5 @@ partnerships-small-business-description = همي گھڻو ڪر ڪي ڊيٽآ س�
 partnerships-corporates-header = ٻڏآ پيمآنآ پر ڪآرپوريٽ اور پليٽ ڦآرم ڪمپنيونٚ
 partnerships-corporates-description = جد تِمي ڊيٽآ سيٽو بآرآ مي اور ٻولوو چآهندآ هو، چآنچرآ پليٽ ڦآرمو ڪآ وڌآئو مي مِلري سيڙپڪآري ڪروو چآهندآ هو جآنٚ تآنو ڪآ موڪآ ڍونڊوو چآهندآ هو </emailFragment>همآڪوُ آيڪ لڪير ديوو۔<emailFragment>
 partnerships-our-partners = همرآ ڀآئيوآر
+# menu item
+partners = ڀآئيٚوآريٚ
