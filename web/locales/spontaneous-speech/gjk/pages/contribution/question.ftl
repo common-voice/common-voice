@@ -20,3 +20,5 @@ partial-questions-upload-message =
 add-question-guidelines-title = ھون ڪِيئا سوال شامِل ڪرِي ۿڳون سون؟
 do-section-title = ڪروون
 do-section-guideline-1 = صحيح اسپيلينگ انين گرامر استعمال  ڪرو
+do-section-guideline-2 = ساڌو سوال سونڍو زين ھر ايڪ نين ۿمزيا مان آسان ھوئي۔، ڪلچر ڪان حالات شيوا
+do-section-guideline-3 = پڪ ڪرو ڪي اينيان نين روڳو  ڪانڪ جُملان مان زٻاپ ۮيوائِي ۿڳي سي۔
