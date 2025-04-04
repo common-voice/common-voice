@@ -113,3 +113,4 @@ about-playbook-how-add-sentences-content-1 = تمي <writePageLink>صفحو لک
 
 ## How is Common Voice funded
 
+about-playbook-how-funded-content-3 = جيڪدي تمي يا تموري  ري ايدارو ري مقصد ۾ واپس حصو ليوہ چاهو ھون، تمي ايڪ ٺاهي سگهو<donateLink> دون</donateLink>يا امري ري پارٽنرشپ ٽيم تڪ پهوچي وڃو<emailFragment>commonvoice@mozilla.com</emailFragment>
