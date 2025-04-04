@@ -34,6 +34,11 @@ import LanguagesProvider from './languages-provider'
 import ErrorBoundary from './error-boundary/error-boundary'
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary'
 import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants'
+import variant_recognitionPage from './pages/contribution/variant-recognition/variant_recognitionPage'
+
+const VariantPage = React.lazy(
+  () => import('./pages/contribution/variant-recognition/variant-recognition')
+)
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -180,7 +185,11 @@ let LocalizedPage: any = class extends React.Component<
   }) {
     if (isContributable && (route === URLS.SPEAK || route === URLS.LISTEN)) {
       return false
-    } else if (route === URLS.WRITE || route === URLS.REVIEW) {
+    } else if (
+      route === URLS.WRITE ||
+      route === URLS.REVIEW ||
+      route === URLS.VARIANT
+    ) {
       return false
     }
 
@@ -253,6 +262,7 @@ let LocalizedPage: any = class extends React.Component<
             { route: URLS.LISTEN, Component: ListenPage },
             { route: URLS.WRITE, Component: WritePage },
             { route: URLS.REVIEW, Component: ReviewPage },
+            { route: URLS.VARIANT, Component: VariantPage },
           ].map(({ route, Component }: any) => (
             <SentryRoute
               key={route}

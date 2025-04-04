@@ -20,7 +20,13 @@ type NavProps = {
   toggleMenu?: () => void
 }
 
-export type NavItem = 'speak' | 'listen' | 'write' | 'about' | 'download'
+export type NavItem =
+  | 'speak'
+  | 'listen'
+  | 'write'
+  | 'about'
+  | 'download'
+  | 'variant'
 
 export const LocalizedNavLink = ({
   id,

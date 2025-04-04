@@ -22,6 +22,7 @@ const AboutPage = React.lazy(() => import('../pages/about/about'))
 const LandingPage = React.lazy(() => import('../pages/landing/landing'))
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'))
 const PartnerPage = React.lazy(() => import('../pages/partner/partner'))
+
 const GuidelinesPage = React.lazy(
   () => import('../pages/guidelines/guidelines')
 )
@@ -191,6 +192,11 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.PARTNER)}
           component={PartnerPage}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.VARIANT)}
+          component={VariantPage}
         />
         <SentryRoute
           exact
