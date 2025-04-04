@@ -123,3 +123,6 @@ contribution-misreadings-example-8-title = بمبل بی سو زریعہ گھِ�
 contribution-misreadings-example-8-explanation = [میلائ نہ ھویں والہ مشتملات]
 contribution-varying-pronunciations-title = گڈ وَڈ تلفظ
 contribution-varying-pronunciations-description = اِس گراونڈ رے یک کلپ رد گرے نو اول احتیاط گر چہء پڑے والہ یک لفظ سو غلط تشریح گیگی تھو۔ تناؤ غلط زائے رے دُھن گی تھو، یا سوالیہ نشان نظرانداز گیگی تھو۔ تام دنیا مہ استعمال ھوویں والہ مختلف قسم سو تلفظ تھا تیوں مہ کاں تی اپئیں مقامی کمیونٹی مہ نہ ݜؤن ھویانݜ ۔مہربانی گیری ایوں لوں تعریف سو یک حد دے چہء کاں تینوں مختلف بیاد گر ھونتہ
+contribution-varying-pronunciations-description-extended = پرئیں طرف نو کہ تُو پرزا چہء پڑے والہ یقینی طور رے لفظ رے نہ یا آ سادگی رے غلط تلفظ قیاس گرا تہ مہربانی گیری رد گیرے اگر کہ تیوں یقین نہ تھو، سکپ بٹن استعمال گر
+contribution-varying-pronunciations-example-1-title = تِس اپئیں ݜئیݜ رے یک فوجی ٹوپے ݜئن تھی
+contribution-varying-pronunciations-example-1-explanation = [فوجی ٹوپے] صیح تھی اآیا اول سلیبس مہ گران اسی(uk) یا دویئں مہ(us) ]
