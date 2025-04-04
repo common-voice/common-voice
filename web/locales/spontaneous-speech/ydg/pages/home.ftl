@@ -2,6 +2,9 @@
 
 welcome-to-spontaneous-speech = دے اسپونٹینئس تقریر نتو خوش آمدید
 why-spontaneous-speech = ماخ ڤیم سپونٹینئس تقریر یو نمونہ چی سڤزامتے؟
+how-spontaneous-speech-works = اسپونٹینئس چیمی ہورغ کیتے؟
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>اشارو</mark>
 signup-input-placeholder = ڤے خوئے ای میل ایڈریس نوشا
 signup-button-value = دے من ای امیل یو لنک ݰیکور
 footer-text-privacy = <privacyLink>رازداری</privacyLink>
