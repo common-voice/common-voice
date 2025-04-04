@@ -126,3 +126,6 @@ contribution-varying-pronunciations-description = اِس گراونڈ رے یک 
 contribution-varying-pronunciations-description-extended = پرئیں طرف نو کہ تُو پرزا چہء پڑے والہ یقینی طور رے لفظ رے نہ یا آ سادگی رے غلط تلفظ قیاس گرا تہ مہربانی گیری رد گیرے اگر کہ تیوں یقین نہ تھو، سکپ بٹن استعمال گر
 contribution-varying-pronunciations-example-1-title = تِس اپئیں ݜئیݜ رے یک فوجی ٹوپے ݜئن تھی
 contribution-varying-pronunciations-example-1-explanation = [فوجی ٹوپے] صیح تھی اآیا اول سلیبس مہ گران اسی(uk) یا دویئں مہ(us) ]
+contribution-varying-pronunciations-example-2-title = تِیسوں ھات ازئ اسُو۔
+contribution-varying-pronunciations-example-2-explanation = [ازئ]  اگریزی مہ ہمیشہ یک سلیبس مہ منا بزا دو مہ نئ]
+contribution-background-noise-title = پتن سو شُور
