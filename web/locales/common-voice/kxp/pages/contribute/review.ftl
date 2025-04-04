@@ -1,7 +1,7 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تمين ڪوئي ٻولي نين چونڊ نٿي ڪري، مهرباني ڪرينَ پروفائيل مان زائين ٻولي چونڊو
-sc-review-title = جُملان نِي ڌوهرائي
+sc-review-lang-not-selected = تمين ڪوئي ٻولِي نين چونڊ نٿِي ڪرِي، مهرباني ڪرينَ پروفائيل مان زائين ٻولِي چُونڊو
+sc-review-title = جُملان نو جائزو
 sc-review-loading = جُملا لوڊ ڪروون
 sc-review-select-language = جُملان نِي دوهرائي هارو ڪوئي ايڪ ٻولِي چونڊو
 sc-review-no-sentences = وري زويا هارُو جُملا وڌاري نٿِي هزي وڌاري جُملا شامل ڪرو
@@ -56,3 +56,7 @@ review-error = جُملا نا جائزا هارُو ڪوئي غلطي ڇِي س
 review-error-rate-limit-exceeded = تمين الاهي تيز زو را سو، مهرباني ڪرينَ جائزا هارو ڪانڪ وکت لو، فهرست يان رپورٽ نا مسئلا هارُو تمان نين ڀروسو هوئي ڪي اِي درست سي۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اَمين ايڪ موٽِي تبديلِي ڪران را سان
+sc-redirect-page-subtitle-1 = ڪليڪٽر بنيادي عام آواز پليٽ فارم مان داخل ٿائي رو سي. تمين هوي ڪرِي ڪو سو۔  <writeURL>لکوُون</writeURL> ايڪ جُلو يان <reviewURL>جائزو</reviewURL> عام آواز هارُو ايڪ جُملو جمع ڪراوو۔
+sc-redirect-page-subtitle-2 = اَمان ٿِي سوال پُوسو <matrixLink>Matrix</matrixLink>، <discourseLink>وات سينچ </discourseLink> يان  <emailLink>اي ميل </emailLink>.
+# menu item
+review-sentences = جُملان نِي ڌوهرائي يان جائزو

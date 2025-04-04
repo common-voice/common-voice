@@ -45,6 +45,13 @@ help-reach-hours-pluralized =
         [one] ایک جاتی لکشے کے ساتھ { $language } میں { $hours } گھنٹہ تائی پُگٹؔیم  ساہیتا کرو
        *[other] ایک جاتی لکشے کے ساتھ { $language } میں { $hours } گھنٹہ تائی پُگٹؔیم  ساہیتا کرو
     }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] ایک جاتی لکشے کے ساتھ ٻولیام عام آواجا کُو { $hours } گھنٹے تائی پُگٹؔیم  ساہیتا کرو
+       *[other] ایک جاتی لکشے کے ساتھ ٻولیام عام آواجا کُو { $hours } گھنٹے تائی پُگٹؔیم  ساہیتا کرو
+    }
+set-a-goal = ایک لکشے پک کرو
+cant-decide = نیرٹؔے نائی کری سِکیرے؟
 
 ## Goals
 

@@ -1,4 +1,4 @@
-action-click = دٻاوُون
+action-click = ۮٻاوُون
 
 ## Reporting
 
