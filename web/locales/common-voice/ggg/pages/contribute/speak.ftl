@@ -1,4 +1,4 @@
-speak-now = اب ٻولو
+speak = ٻولوو
 speak-subtitle = آپو ڪِيٚ آوآج ديوو
 record-cta = ريڪآرڊينگ شُرو ڪرو
 record-platform-not-supported = هميٚ مآڦيٚ مآنگدآ هونٚ، تمرو پليٽ ڦآرم اِرو ٽيم سپورٽيڊ ڪونآ هوئي۔
