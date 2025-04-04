@@ -152,12 +152,21 @@ contribute-github-action = گيٽ هبو پر هِسو ديوو
 ## Featured section
 
 featured-section-title = کآس توريٚ پر ...
+# icon is an arrow that points downwards
+download-press-pack = همرو پريس پيڪ ڊآئونلوڊ ڪرو
 
 ## Developers section
 
+developers-section-title = 130 دي وڌيٚڪ ٻوليآنٚ مي اوآمي تو پر موجود کُلري ٻآت چيٚت ڊيٽا سيٽ
+developers-section-subtitle = ASR، STT، TTS، اور دوُسريٚ NLP سورتي هآل ڊيٽآ سيٽ - جيڪي ڪميونٽيٚو ڪي شآملآيو دي هٽآرآ گوآ هينٚ
+# icon is an arrow that points to the right
+explore-datasets = ڊيٽا سيٽسو ڪوُ ڍونڊو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کُلري، ڪميونٽيٚو ڪيٚ اڳوآڻيومي ڊيٽآ سيٽسو ڪيٚ ترڦدآري ڪرو
+read-sentences-link = جُملآنٚ ڪوُ پڙهو
+validate-readings-link = پڙهوآ ڪيٚ سئي ڪرو
 
 ## Partner section
 

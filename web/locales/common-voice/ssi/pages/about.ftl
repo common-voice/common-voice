@@ -71,6 +71,7 @@ about-playbook-how-add-language-content-1 =
     سارینٚس آگے، جانٚچ کرو کہ کِیا آپ کی بھاشا <languageLink>آگُوچ ماجود ہے</languageLink>.
     اگر اِدؔا نائی ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمل کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
     اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انُواد کرنا، اور ٻول بھیݪے کرنا
+about-playbook-how-add-language-translating-heading = سائٹا کا انُواد
 
 ## How does localization work
 
