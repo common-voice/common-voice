@@ -21,9 +21,34 @@ hours-recorded = رڪآرڊ هوريٚ ڪِلڪ
 hours-validated = رڪآرڊ هوري ڪِلڪ
 voices-online = آوآج آن لآئين اب
 todays-progress = آج ڪيٚ وڌآئيٚ
+help-reach-goal = همري{ $goal } ليوآ مي مدد ڪرو
+read-terms-q = ڪآ تِمي همري شرتينٚ پڙهرآ هو؟
+ready-to-record = آپو ڪو آوآج ديوآ تآڻي تيآر هو؟
+all-locales = سب
+today = آج
+x-weeks-short =
+    { $count ->
+        [one] هڦتو
+       *[other] هڦتو
+    }
+x-months-short =
+    { $count ->
+        [one] مهينو
+       *[other] مهينو
+    }
+x-years-short =
+    { $count ->
+        [one] سآل
+       *[other] سآل
+    }
+help-make-dataset = همري مدد ڪرو ايڪ کآس ميآر، آوآمي تورو پر کُلرو ڊيٽآ سيٽ ٺآوآ مي
+sign-up-account = ايڪ اڪآئونٽو تآڻي سآئين اپ ڪرو
+email-subscription-title = ايٚ ميل تآجو ڪآريو تآڻي سآئيٚن اپ ڪرو
+email-subscription-title-new = ڪآمن وآئيس نيوج ليٽرس، مڪسد يآد دُوآوآݪو اور ترڪيو ڪيٚ تآجآ ڪآريٚو تآڻي سآئيٚن آپ ڪرو
 
 ## Account Benefits
 
+benefits = ڦآئيدآ
 
 ## What's public
 

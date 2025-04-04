@@ -16,6 +16,7 @@ top-contributors = ٻتيٚ هسو ليوآݪو
 recorded-clips = رڪآڊ هرو ڪلپس
 validated-clips = سهيٚ هروڪلپس
 total-approved = پورآ تريٚڪآ دي منجور هُرو
+overall-accuracy = ڀوت سهيٚ
 set-visibility = پوري ڪرو ميري نمآئش
 visibility-explainer = يآ سيٽيٚنٚگ تمرآ ليڊر بورڊو ڪيٚ نمآئشيٚ ڪوُ ڪنٽرول ڪرديٚ هي ۔ جد دُبآرو جآسيٚ ، تمريٚ ترڪيٚ آپوئيٚ هوسيٚ ۔آُرو ڪو متلب هي تمرو ڦوٽو ، منکو نآئونٚ ائينٚ ترڪيٚ منٽ لينٚديٚ هي بدليٚيو  ڪوُ ڀروآ مي { $minutes } ليڊر بورڊو مي جآهر نآ هوسيٚ ۔ لکو تو ليڊر بورڊ ريٚڦريش
 visibility-overlay-note = ت سيٽ ڪررو جآئي تو ، اِيٚرآ سيٽيٚگيٚئو Visible  دِکآئو لکو: جد مي بدلآ سگدوئونٚ </profileLink> پنو Profile <profileLink>
@@ -137,6 +138,24 @@ goal-share-text = آوآجو ڪآ دآنو لآ آيڪ CommonVoice # مينٚ س
 weekly-goal-created = تمرو هپتيوآر مڪسد ٺآرو گو هي
 daily-goal-created = تِمرو روجآنِيو ڪو مڪسد ٺآرو گو هي
 track-progress = يهآنٚ ائينٚ تمرآ انٚگآ اکرآنٚ ڪآ پنآ مي پيش رڦتو ڪوُ ٽريڪ ڪرو
+return-to-edit-goal = ڪرو بيٚ وڪت آپوڪو مڪسد بدلآوآ لآ يهآنٚ وآپس جآئو
+share-goal = ميرو مڪسد ٻآنٚٽو
 
 ## Goals
 
+streaks = تآرينٚ
+days =
+    { $count ->
+        [one] دنِ
+       *[other] دنِ
+    }
+recordings =
+    { $count ->
+        [one] رڪآڊنٚگ
+       *[other] رڪآرڊيٚنٚگس
+    }
+validations =
+    { $count ->
+        [one] پڪو
+       *[other] پڪيٚ جَڪِيونٚ
+    }

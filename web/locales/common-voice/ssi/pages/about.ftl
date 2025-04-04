@@ -47,6 +47,7 @@ about-get-involved-text-2 =
     <matrixLink>میٹرکس</matrixLink> کمیونٹی چیٹ.
 about-stay-in-touch = ہُوں رابتیم کِدؔا رہی سِکتا ہے؟
 about-stay-in-touch-button = سائن اپ کرو
+about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اواجاپ ابھیان ، کارِھئے اور بھیݪا ڈِجانا کا نوے پنام کدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
 
 ## Community Playbook Content
 ## What is a language

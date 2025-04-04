@@ -6,3 +6,4 @@ banner-error-slow-link = اسٽيٽس پنآ
 error-something-went-wrong = مهآڦ ڪرو ڪجھ گلت هووي
 error-clip-upload = اي ڪلپي ريٚ اپلوڊ نآڪآم هوريٚ ڇي،ۮوبآره ڪوشش ڪرو
 error-clip-upload-server = اي ڪلپي ريٚ اپلوڊ اوپرنآڪآم هوريٚ ڇي،پنآ نيٚ ۮوبآره لوڊ ڪرو، يآ پڇي مينٚ دوبآره ڪوشش ڪرونٚ
+error-title-404 = هم تمآ سآرو او پنآ ڪونيٚ ڊونٚڊ سڪآنٚ
