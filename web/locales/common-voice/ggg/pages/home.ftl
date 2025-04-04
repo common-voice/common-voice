@@ -140,9 +140,18 @@ ask-mozilla-share = موجيلآ دي تِميرآ وڪيآ ڪوُ شيئر ڪر
 ask-mozilla-share-content = ڪآ تِمري ڪني آگيٚ جآنٚ آوآݪو ووآڪيو هي؟ اُرو ڪوُ همآ دي شيئر ڪرو اورهميٚ اُرو ڪوُ ڊپو ڪيٚ ڪميونٽيٚو دي ايلآن ڪرسآنٚ جآنٚ اُرو ڪآ بآرآ مي ايڪ بلاگ لگآسآنٚ!
 # label for button
 ask-mozilla-share-action = تِمرو وآڪيو شيئر ڪرو
+download-contribution-certificate = آپو ڪو هِسو سرٽيٚڦِڪيٽ ڊآئوُن لوڊ ڪرو
+download-contribution-certificate-content = جد تِمي تِميٚ آم آوآجي مي شآمل هورآ هو، تو تِمرآ  وآڪيآ جآنٚآ آپو تآڻيٚ ايڪ سرٽيڦڪيٽ ڊآئون لوڊ ڪرو — وو تِمري بنآ ممڪِن ڪونآ هوسيٚ!
+# label for button
+download-contribution-certificate-action = آپو ڪو سرٽيٚڦِڪيٽ ليوو
+contribute-github = گيٽ هبو پر هِسو ديوو
+contribute-github-content = يو منسوُبو تِمري جيسآ مِنکآ ڪيٚ سوا ممڪِن ڪونآ هوسيٚ. 🎉 Common Voice دي ڪآم ڪروآ ڪآ ڪِتآ ئي تريڪآ هينٚ- تآون ڪروآ تآڻي تِمآ ڪوُ ڪوڊنگ جآڻوو جرُرو ڪونآ!
+# label for button
+contribute-github-action = گيٽ هبو پر هِسو ديوو
 
 ## Featured section
 
+featured-section-title = کآس توريٚ پر ...
 
 ## Developers section
 
