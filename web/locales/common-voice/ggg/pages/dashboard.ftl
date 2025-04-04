@@ -33,6 +33,12 @@ weekly-goal = هپتآ ڪو مڪسد
 easy-difficulty = سولوَ
 average-difficulty = بلڪُل
 difficult-difficulty = ڏُکيو
+pro-difficulty = پرو
+lose-goal-progress-warning = تمرآ مڪسدو ڪوُ بدليٚ ڪردي، تمريٚ آپوئي هونٚدي پيشرڦتيٚ ڪوُ گمآ سگدآ هو
+want-to-continue = ڪآ تميٚ جآريٚ رآکوو چآهنٚدآئو؟
+finish-editing = پيلي ترميٚم کتم ڪرو؟
+lose-changes-warning = اب ڇوڙوآ ڪو متلب هي تميٚ آپوئو بدلآئو گمآ ديسِيو
+build-custom-goal = ايڪ هسب جروُرت مڪسد بڻآئو
 
 ## Goals
 

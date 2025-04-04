@@ -1,4 +1,4 @@
-action-click = ٽِڪ
+action-click = دٻاوُون
 
 ## Reporting
 

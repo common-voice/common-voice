@@ -87,6 +87,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائيٽ لوڪلائيزيشن ڪيڪرڪوم ڪري ھي
 about-playbook-how-localize-content-1 = Common Voice سائيٽ رو ترجمو <strong>Pontoon</strong> تي ٿئو.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>ايڪ کاتو ٺاهو</pontoonAccountLink> جيڪدي تمو ڪني ڪوئي ھي. پسي ، آپري ٻولي چونڊ ڪرو <strong>('ٽيم')</strong> ھين پسي پروجيڪٽ چونڊو، <pontoonCvLink>Common Voice</pontoonCvLink>. ترجمو ڪريا ھارو فائلون هوئي. ايڪ تي ڪلڪ ڪرو، پسي او انگريزيء ۾ اکرو ھين اووہ ني ترجمو ڪريا ھارو ايڪ خانو ڏيکاري ھي.
+about-playbook-how-localize-content-3 = ترجمو انگريزيءَ ۾ هي، پر تمي جوئي سگهو <strong>ويچار </strong> ٻيجي ٻوليو ۾. ڪلڪ ڪرو <strong>پروفائيل</strong> آئڪن، پسي <strong>سيٽنگون</strong> لنڪ ھين ڀيري ڪرو جي بي ٻوليون تمي ٻولو ھون. تري سيدا هاٿ ري ڪنڊ ۾ ترجمو ري ايڪ فهرست هوئي جي ني <strong>Locales</strong> ڪآڌو جائي هي. ترجمو ايڪ ڏن مون پسي سائيٽ تي ڏيکاري ھي.
+about-playbook-how-localize-content-4 = سائيٽ شروع ڪريا ھارو تيار هي جڏي آ 75 سيڪڙو مڪمل ھوئي ڃائي.
 
 ## How to add sentences
 

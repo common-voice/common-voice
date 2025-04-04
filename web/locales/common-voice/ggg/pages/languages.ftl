@@ -28,3 +28,6 @@ get-involved-opt-in = هآنٚ مڪُو ايٚ ميل ڀيجو۔ مي اِرآ �
 get-involved-submit = ديئو
 get-involved-stayintouch = آوآج ٽيڪنآلآجِِيو ڪي چوڌآريٚ ايڪ برآدريٚ Mozilla  همينٚ جوڙ ريهرآهونٚ۔ همينٚ تآجآ تريٚن ، نويٚنٚ ڊيٽآ ڪي جريٚئي رآبتآ مي ريهوآ چآهنٚدآ هونٚ ائينٚ اور سُڻوآ لآ تو تميٚنٚ ايٚرآ ڊيٽآ ڪو ڪيسي استمآل ڪرريهرآ هو
 get-involved-privacy-info = همينٚ تمريٚ رپوٽيٚئو اهِتيآتو دي سمآݪوآڪو وآئيٚدو ڪردآئونٚ </privacyLink> رآجدآريٚ نوٽيٚس <privacyLink> ٻتيٚ پڙهو همرو
+get-involved-success-title = تِمي ڪآميآپيو دي سآئين اپ ڪررآ هو مددي تآڻيٚ تِمري ميهربآنيٚ { $language }
+get-involved-success-text = همي اور کبري دي رآبتآ مي رهسآنٚ جيسي وآ موجود هوسيٚ
+get-involved-return-to-languages = ٻوليو ڪودي وآپس جآوو

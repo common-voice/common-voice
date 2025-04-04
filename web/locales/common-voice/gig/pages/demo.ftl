@@ -13,9 +13,11 @@ card-button-back = لآري
 demo-language-select-label = ٻوٚليٚ برآئوز ڪرو
 demo-eofy-header = 2019 سآلي ريٚ آکريٚ مينٚ سورو ڪيٚڌوڙآ
 demo-eofy-sub_header = وآئيٚس ڊيٽآ سيٚٽ ڊآئونٚ لوڊ سآرو تيآر
+demo-account = کآتو
 
 ## Demo Account
 
+demo-account-card-header = هيٚسو ۮي سآرو کآتو هوڻو زروريٚ ڪونيٚ جيٚستآئيٚنٚ او مدد ڪري ڇي
 
 ## Demo Contribute
 
