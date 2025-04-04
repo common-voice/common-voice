@@ -19,3 +19,4 @@ partial-questions-upload-message =
 # Guidelines
 add-question-guidelines-title = ھون ڪِيئا سوال شامِل ڪرِي ۿڳون سون؟
 do-section-title = ڪروون
+do-section-guideline-1 = صحيح اسپيلينگ انين گرامر استعمال  ڪرو

@@ -8,3 +8,4 @@ no-audio-message = وقتی طور اوپر لخنے آسطے اس زبان نی
 create-transcript-success = لخائی کامیابی کنے جمع ہوئی غئی۔
 create-transcript-error = اے نقل بنانے اچ غلطی ہوئی غئی۔
 error-playing-audio = آڈیو فائل چلانے اچ غلطی ہوئی غئی۔
+error-fetching-audio = لخنے آسطے آڈیوآننے وچ کوئی غلطی ہوئی غئی۔ مہربانی کرا تے بعد اچ کوشش کرا۔
