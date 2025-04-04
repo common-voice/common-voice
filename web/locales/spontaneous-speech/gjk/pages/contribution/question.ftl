@@ -22,3 +22,4 @@ do-section-title = ڪروون
 do-section-guideline-1 = صحيح اسپيلينگ انين گرامر استعمال  ڪرو
 do-section-guideline-2 = ساڌو سوال سونڍو زين ھر ايڪ نين ۿمزيا مان آسان ھوئي۔، ڪلچر ڪان حالات شيوا
 do-section-guideline-3 = پڪ ڪرو ڪي اينيان نين روڳو  ڪانڪ جُملان مان زٻاپ ۮيوائِي ۿڳي سي۔
+do-not-section-title = نا ڪرو
