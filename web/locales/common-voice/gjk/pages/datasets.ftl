@@ -37,3 +37,8 @@ dataset-description-hours =
 want-dataset-update = زيرين امين ڪامنَ وائيس نا نوا ورينَ (version) نا ڍيٽاسيٽ نين جارِي ڪرشون تيرين امان نين اپڍيٽس زوويَ سي۔ نيوزليٽر ۿارُو امان نين قٻول (Subscribe ) ڪرو۔
 subscribe = قٻُول ڪرو (Subscribe)
 get-started-speech = تقرير نِي اورکاڻِ ٿِي شرُو ڪرو
+other-datasets = ٻيزان آوازان نِي ڍيٽاسيٽ
+feedback-q = شون رائيَ سي (Feedback)
+# This indicates that there is no data to display
+no-information = ڪونئين مالُومات نٿِي
+resource-nemo-info = </docsLink>زين جڌيڌ ترينَ ايَ آئِي (AI) نان ماڍل ٺايا نيَ حواليَ ٿِي ريسرچ ڪريَ سي ريا اوپنَ سورس<docsLink>اينيان NVIDIA NeMo ۿارُو</githubLink> سي<githubLink>
