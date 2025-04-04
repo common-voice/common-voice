@@ -58,12 +58,35 @@ about-nav-playbook = حصو ليدا رو طريقو ھيکو
 about-playbook-what-is-language = ڪامن وائس تي ٻولي ڪاو هي؟
 about-playbook-what-is-language-content-1 = ٻولي رو بارا ۾  سوچيا را ڪيتائي طريقا ھي. تقرير ي اوتکيا ري ماڊلز ري مقصدو ھارو، ڪامن وائس 'ٻالڙي ھمجهه' تي ڌيون ڏيڌا رو مشورو ڏئ ھي، يا 'ڪاو اي ٻولي را ٻوليا وارا  گهڻو ڪري هڪ ٻيجا ني ھمجهي سگي ھي جيڪڏي  اهي ڪوشش ڪري؟'
 about-playbook-what-is-language-content-2 = اپي چاهون ھو ڪي تقرير را ماڊل مختلف قسم ري ٻوليا وارو ني  سُا مون ھمجيا ۾  آوي. ايم ھويا ھارو، ايڪ آواز ڊيٽا سيٽ ني ڪيتائي  مختلف مينکو ري  مدد ڪروي  کپي.
+about-playbook-what-is-language-content-3 = ڪوئي ٻوليو ۾ گرامر، لفظن ھين تلفظ ۾ تموم  گهڻو فرق هي. اي  ري ڪري، امي 2022 ۾ <ctaLink>'مختلف قسمن' ني رربرو ڪرو</ctaLink> رهيا ھون. اووي ڪميونٽيو ني موٽي ڊيٽاسٽ ري موئي اووہ ري ٻوليو ۾ فرق ڪريا رو طريقو ڏي ھي
 
 ## How do I add a language
 
+about-playbook-how-add-language = ھون ايڪ ٻولي ڪيڪر ڀيري ڪري ھگو
+about-playbook-how-add-language-content-1 =
+    پيري، چيڪ ڪرو ڪي ڪاو تمو ري ٻولي <languageLink>پيرئ مون ئي موجود هي</languageLink>.
+    جيڪدي ڪوئي هي، تمي ڪري سگو ھون<languageRequestLink>آپري ٻولي ميلايا ري بابت پوسو</languageRequestLink>.
+    ائي ڀي مرحلا ھي۔ سائيٽ رو ترجمو، ھين جملو ني ڀيرا ڪرو
+about-playbook-how-add-language-translating-heading = سائيٽ rو ترجمو
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon nي ڪيڪر استعمال ڪريجي اموري گائيڊ ني جو.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    امي ترجما ھارو موزيلا پرزا استعمال ڪرو ھون جي ني <pontoonLink>Pontoon</pontoonLink> ڪيدو جائي هي. پونٽون ۾ ڪيتيوئي  ٻوليون ھي،
+    پر جيڪڏي آ تمو ري ڪوئي هي تو تمي ڪري ھگو <pontoonRequestLink>اپري ٻولي ڀيري ڪريا ري درخواست ھي</pontoonRequestLink>.
+    او مون پوسي، ٻولي ني عام آواز ري پروجيڪٽ تي دستياب ڪريا ھارو،
+    <githubRepoLink> GitHub تي نوي ٻولي ري درخواست ڪرو </githubRepoLink>. <localizationFragment>سائيٽ ري ترجما تي وڌيڪ جو</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = جملا ڀيرا ڪووُ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>SentenceCollectorVideo>SentenceCollectorVideo> استعمال ڪريا تي اموري گائيڊ جو
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمي ڪري سگھو <sentenceCollectorLinkAdd>جملو را نينا انگ ڀيرا ڪرو</sentenceCollectorLinkAdd>،
+    يا تمي ڪري سگهو  <bulkImportDocsLink>Github استعمال ڪرين بلڪ درآمد</bulkImportDocsLink>.
+    ياد رکو تو جملا <licenseLink>CC0 (يا عوامي ڊومين)</licenseLink> هووُ کپي، يا تمي آپ ھي لکي سگهو ھون.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>SentenceCollectorFragment>جملل ري مجموعا ني وڌيڪ جو</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = سائيٽ لوڪلائيزيشن ڪيڪرڪوم ڪري ھي
+about-playbook-how-localize-content-1 = Common Voice سائيٽ رو ترجمو <strong>Pontoon</strong> تي ٿئو.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ايڪ کاتو ٺاهو</pontoonAccountLink> جيڪدي تمو ڪني ڪوئي ھي. پسي ، آپري ٻولي چونڊ ڪرو <strong>('ٽيم')</strong> ھين پسي پروجيڪٽ چونڊو، <pontoonCvLink>Common Voice</pontoonCvLink>. ترجمو ڪريا ھارو فائلون هوئي. ايڪ تي ڪلڪ ڪرو، پسي او انگريزيء ۾ اکرو ھين اووہ ني ترجمو ڪريا ھارو ايڪ خانو ڏيکاري ھي.
 
 ## How to add sentences
 

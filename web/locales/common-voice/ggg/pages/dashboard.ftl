@@ -18,9 +18,21 @@ validated-clips = سهيٚ هروڪلپس
 total-approved = پورآ تريٚڪآ دي منجور هُرو
 set-visibility = پوري ڪرو ميري نمآئش
 visibility-explainer = يآ سيٽيٚنٚگ تمرآ ليڊر بورڊو ڪيٚ نمآئشيٚ ڪوُ ڪنٽرول ڪرديٚ هي ۔ جد دُبآرو جآسيٚ ، تمريٚ ترڪيٚ آپوئيٚ هوسيٚ ۔آُرو ڪو متلب هي تمرو ڦوٽو ، منکو نآئونٚ ائينٚ ترڪيٚ منٽ لينٚديٚ هي بدليٚيو  ڪوُ ڀروآ مي { $minutes } ليڊر بورڊو مي جآهر نآ هوسيٚ ۔ لکو تو ليڊر بورڊ ريٚڦريش
+visibility-overlay-note = ت سيٽ ڪررو جآئي تو ، اِيٚرآ سيٽيٚگيٚئو Visible  دِکآئو لکو: جد مي بدلآ سگدوئونٚ </profileLink> پنو Profile <profileLink>
+show-ranking = ميرو درجو دکآئو
 
 ## Custom Goals
 
+get-started-goals = مڪسدآنٚ دي شروُ ڪرو
+create-custom-goal = ايڪ هسب جروُرت مڪسد بڻآئو
+goal-type = تميٚ ڪوڻسآ ڪِسمو ڪو مڪسد ٺآوآ چآهنٚدآ هو؟
+both-speak-and-listen = دوئيٚ
+both-speak-and-listen-long = دوئيٚ (سُڻوو ائينٚ ٻولوو)
+daily-goal = روجوُ ڪو مڪسد
+weekly-goal = هپتآ ڪو مڪسد
+easy-difficulty = سولوَ
+average-difficulty = بلڪُل
+difficult-difficulty = ڏُکيو
 
 ## Goals
 
