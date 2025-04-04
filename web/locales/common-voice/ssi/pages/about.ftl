@@ -80,9 +80,15 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>گیٹ ہباپ  نئوی ٻولیا کی اپیل کرو</githubRepoLink>۔ <localizationFragment>سائٹ ترجمیپ ودھیک دؔیکھو</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = ٻول بھیݪے کرنا
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ٻول بھیݪے کرنواڑے کُو چلاوٹؔیں کے باریم مھاری مارگ دیکھو</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    آپ <sentenceCollectorLinkAdd>لھوڑی گِنتِیام ٻول سیمل کری سِکتے ہے</sentenceCollectorLinkAdd>،
+    یا آپ <bulkImportDocsLink>گیتھبا کا اُپیوگ کرتوڑے ودھ میں ودھ لوڑی سِکتے ہے</bulkImportDocsLink>۔
+    یاد راکھو کہ ٻول <licenseLink>سی سی 0 (یا اوامی ڈومین)</licenseLink> ہووٹؔاں جروری ہے، یا آپ اپٹؔا لِکھ ی سِکتے ہے.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ٻول بھیݪے کرنے کے باریم ودھیک دیکھو</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ لوکلائزیشن کِدؔا کام کرتی ہے؟
 
 ## How to add sentences
 
