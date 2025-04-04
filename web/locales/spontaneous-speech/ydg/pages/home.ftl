@@ -15,6 +15,11 @@ transcribe-bubble-subtitle = تو ڤؤ نوشا چیمی کو دے آواز تو
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>اوژر</mark>
 check-bubble-subtitle = اوژر نوختیغو لے آوازن دے یو قسمآ؟
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ڈیٹا</mark>
+data-bubble-subtitle = ماخ وقتاً فوقتاً ڤے ڈیٹاسیٹ دے اپیر آڤرمتے
+contact-us = لے ماخ رابطہ کن
+contact-us-title = تو دیم منصوبو دے شامل ݰویا دلچسپی استتآ یا لے ماخ یوانی کینیتیآ؟
 signup-input-placeholder = ڤے خوئے ای میل ایڈریس نوشا
 signup-button-value = دے من ای امیل یو لنک ݰیکور
 footer-text-privacy = <privacyLink>رازداری</privacyLink>
