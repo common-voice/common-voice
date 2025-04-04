@@ -122,6 +122,16 @@ n-clips-pluralized =
         [one] ڪِلپ{ $count }
        *[other] ڪِلپ{ $count }
     }
+help-share-goal = همريٚ وڌيٚڪ آوآج ڍونٚڊوآ مي مدت ڪرو ، آپوڪآ مڪسدو هسيدآر ڪرو
+confirm-goal = مڪسدوُ پڪو ڪرو
+goal-interval-weekly = هپتآ مي
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } ڪِلپ روجآنيٚ مڪسدو لآ { $count } شيئرڪرو آپوڪو
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } ڪِلپ هپتيوآر مڪسدو لآ { $count } شيئر ڪرو آپوڪو
+share-goal-type-speak = ٻولوو
+share-goal-type-listen = سُڻوو
+share-goal-type-both = ٻولوو ائينٚ سُڻوو
 
 ## Goals
 

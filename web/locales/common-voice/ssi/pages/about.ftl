@@ -45,6 +45,8 @@ about-get-involved-text-2 =
     بڑِیا! ای میل یا <discourseLink>ڈسکوریں</discourseLink> کے جرِیے سمپرک کرو
     فورمز، سائٹا کے مسلے <githubLink>گٹ ہبا</githubLink> کے جرِیے جما کراؤ، یا اس میں سیمل ہووَ
     <matrixLink>میٹرکس</matrixLink> کمیونٹی چیٹ.
+about-stay-in-touch = ہُوں رابتیم کِدؔا رہی سِکتا ہے؟
+about-stay-in-touch-button = سائن اپ کرو
 
 ## Community Playbook Content
 ## What is a language
