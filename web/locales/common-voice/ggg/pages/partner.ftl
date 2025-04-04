@@ -12,3 +12,7 @@ partnerships-governments-description = همي ٽيڪنآلآجيٚ، انوکي 
 partnerships-academia-header = پونيورسٽيونٚ، پڙهآئي اور اديڪآر
 partnerships-academia-description = کُلري انوکيو دي همري دليٚ مي هو۔ تهڪيٚڪي تآون، ڊيٽآ ڀيݪو ڪروو جآنٚ انٽرويوج تآڻي،<emailFragment> پُوگو</emailFragment>
 partnerships-small-business-header = بشمول ٽيگ اور شرو هوآݪو AI نهينآ ڪآروبآر،
+partnerships-small-business-description = همي گھڻو ڪر ڪي ڊيٽآ سآرڦينو دي اُنآ جروُرتينٚ اور هوآلآ دي سُڻوآ ڪيٚ ڪوشش ڪردآ هونٚ۔ ڊيٽآ ڀيݪو ڪروآݪي پليٽ ڦآرمو پر تآون ڪروآدي لگآ ڪي ڊيٽآ ڪيٚ سهتي ڪيٚ ديکوو ديوآ</emailFragment> تآئينٚ، همي چآهندآ هونٚ تو<emailFragment>
+partnerships-corporates-header = ٻڏآ پيمآنآ پر ڪآرپوريٽ اور پليٽ ڦآرم ڪمپنيونٚ
+partnerships-corporates-description = جد تِمي ڊيٽآ سيٽو بآرآ مي اور ٻولوو چآهندآ هو، چآنچرآ پليٽ ڦآرمو ڪآ وڌآئو مي مِلري سيڙپڪآري ڪروو چآهندآ هو جآنٚ تآنو ڪآ موڪآ ڍونڊوو چآهندآ هو </emailFragment>همآڪوُ آيڪ لڪير ديوو۔<emailFragment>
+partnerships-our-partners = همرآ ڀآئيوآر

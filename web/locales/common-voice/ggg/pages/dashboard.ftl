@@ -12,6 +12,11 @@ awards = اِنآم
 you = تميٚنٚ
 everyone = هرڪوئيٚ
 contribution-activity = ليوآ ديوآ ڪو رآبتو
+top-contributors = ٻتيٚ هسو ليوآݪو
+recorded-clips = رڪآڊ هرو ڪلپس
+validated-clips = سهيٚ هروڪلپس
+total-approved = پورآ تريٚڪآ دي منجور هُرو
+set-visibility = پوري ڪرو ميري نمآئش
 
 ## Custom Goals
 

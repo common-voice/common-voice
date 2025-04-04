@@ -29,6 +29,7 @@ about-listen-queue = سُٹؔنیں کی لیٹؔ
 about-listen-queue-text = اواجیان کے کلپیں کُو بھیݪا کرنے کی لیٹِؔیم داکھل کرا جاوتا ہے جکو اِنکُو سُننے نتر تیار کرتا ہے۔
 about-listen = سُٹؔنا
 about-listen-text = اُپیوگ کرتا دؔان کرنواڑا کلپیں کی سئی ہوٹؔیں کی پک کرتے ہے ، یو جانٚچ کرنواڑے کہ پڑھنواڑین ٻولیں کُو سئی نمُونیس پڑھا ہے۔
+about-is-it-valid = کِیا یو کِلپ سئی ہے؟
 
 ## Community Playbook Content
 ## What is a language
