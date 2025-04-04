@@ -1,7 +1,8 @@
 speak = ٻولوو
-speak-subtitle = آپو ڪِيٚ آوآج ديوو
-record-cta = ريڪآرڊينگ شُرو ڪرو
-record-platform-not-supported = هميٚ مآڦيٚ مآنگدآ هونٚ، تمرو پليٽ ڦآرم اِرو ٽيم سپورٽيڊ ڪونآ هوئي۔
+speak-now = اب ٻولو
+speak-subtitle = آپوڪيٚ آوآج ديئو
+record-cta = ريڪآرڊنٚگ شُرو ڪرو
+record-platform-not-supported = همآنڪو مآڦ ڪريو، تمرو پليٽ ڦآرم اِرو ٽيم سپورٽ ڪونآ ڪري۔
 record-platform-not-supported-desktop = ڊيسڪ ٽآپ ڊوآئيسيٚنٚ پر ڊآئون لوڊ ڪردي  تمينٚ تآون ڪرسڪدآ هو۔
 record-platform-not-supported-ios-non-safari = آئي او پر مهربآني ڪر ڪي رڪآرڊيِنگ آسآن ڪروآ لآ سِڦآرِيو دي جآري ڪرآکو
 record-must-allow-microphone = تمآ ڪوُ مآيڪرو سآفٽيٚ ڪيٚ رسائيو ڪيٚ اِجاجت ديوآ ڪيٚ جرُورت هي
