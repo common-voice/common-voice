@@ -7,3 +7,4 @@ request-language-success-title = ٻولِي چِي درخواست ڪاميابِ
 request-language-success-content = امهِين تمچِي  ٻولِي نُون ڪامن وائسا ۾ شامل ڪرڻي ڪاڻ تڪڙي تمهان سُون رابطا ڪرهُون۔
 select-language = ٻُولِي چُونڊا
 other-language = ڏُوجِي ٻولِي
+yes-receive-emails = هوي، مُنُون اي ميلا موڪلا۔ مين ڪامن وائِيس پروجيڪٽا چي باري ۾  ڄاڻ حاصل ڪرڻ چاهوين ڇَين۔
