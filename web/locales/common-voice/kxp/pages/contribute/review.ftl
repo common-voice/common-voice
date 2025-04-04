@@ -11,6 +11,30 @@ sc-review-form-usage = جملان نين منظور ڪريا هارو زمڻي �
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ذريعو
+sc-review-form-button-reject = رد ڪروون، نا مانوون
+sc-review-form-button-skip = ميلِي آلوون
+sc-review-form-button-approve = قبول ڪروون، مانوون
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = وائي، يه
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ن
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = س
+sc-review-form-keyboard-usage-custom = تمين پڻ شارٽ ڪٽ ٻٽڻ واۯون بورڊ استعمال ڪرِي ڪو سو { sc-review-form-button-approve-shortcut } منظور ڪريا هارو { sc-review-form-button-reject-shortcut } ڪاڍيا هارو ، { sc-review-form-button-skip-shortcut } ميليا هارُو
+sc-review-form-button-submit =
+    .submitText = جائزو مڪمل ڪروون
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] جُملان نو جائزو نٿي
+        [one] جُملان نو جائزو ٿئي جھو، ڌنيواۮ
+       *[other] جملان نو جائزو ٿئي جھو سي۔ ڌنيواۮ
+    }
+sc-review-form-review-failure = جائزو محفوظ نٿِي ڇو۔ پسي وري ڪوشس ڪرو۔
+sc-review-link = جائزو
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = امتحان نو جائزو
+sc-criteria-title = امتحان نو جائزو
