@@ -5,6 +5,9 @@ why-spontaneous-speech = ماخ ڤیم سپونٹینئس تقریر یو نمو
 how-spontaneous-speech-works = اسپونٹینئس چیمی ہورغ کیتے؟
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارو</mark>
+prompt-bubble-subtitle = ماخ نَتو یو اشارو یا سوال نیݰاݱم
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جواب دل</mark>
 signup-input-placeholder = ڤے خوئے ای میل ایڈریس نوشا
 signup-button-value = دے من ای امیل یو لنک ݰیکور
 footer-text-privacy = <privacyLink>رازداری</privacyLink>

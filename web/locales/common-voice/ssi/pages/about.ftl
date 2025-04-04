@@ -90,6 +90,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کِدؔا کام کرتی ہے؟
 about-playbook-how-localize-content-1 = سادھارٹؔ اواج سائٹا کا انُواد <strong>پونٹوناپ</strong> ہووتا ہے۔
+about-playbook-how-localize-content-2 = اگر تھارے کن اکاؤنٹ نائی ہے تو ایک <pontoonAccountLink>اکاؤنٹ بناؤ</pontoonAccountLink>۔ اس کے باد ، اپٹؔی بھاشا <strong>('ٹیم') چُناؤ کرو</strong> اور پِچھیں پروجیکٹ ، <pontoonCvLink>سادھارٹؔ اواجا کُو چُناؤ کرو</pontoonCvLink>۔ انُواد کرنے نتر پھائلاں ہوؤں گِیاں۔ ایکیپ کلک کرو ، پِچھیں یو انگریزِیام لوج دِؔکھاوتا ہے اور ان کا انُواد کرنے نتر ایک باکس دِؔکھاوتا ہے۔
 
 ## How to add sentences
 
