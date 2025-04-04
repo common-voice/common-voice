@@ -121,6 +121,7 @@ scripted-card-content = تِمري ڀوليو مي جُملآ ڪوُ ٻڌي آو
 spontaneous-card-header = ڦِتري ٻآت چيٚت
 spontaneous-card-content = حوالآ ڪو جبآب ڪيٚ،آم اور مڪآميٚ مآحولو مي ڊيٽآ سيٽ ٺآوو۔ جِبآنيٚ تورو پر ٻوليآنٚ تآڻي مڪمل۔
 language-text-card-header = ٻوليو ڪيٚ لِکت
+language-text-card-content = اوآمي دآيئرآ ڪيٚ ميل، جُملآ ڪآ، اور ترجمو ڪروو، نهينيٚ ٻوليو ڪيٚ ماڊلسآنٚ تآڻي مواد ٺآوآوو جآنٚ شيئر ڪرو۔
 
 ## Community section
 

@@ -54,3 +54,12 @@ close = ٻنڌ
 download = ڍائونَ لوڍ
 dataset-version = وريَنَ (Version)
 sha256-checksum-copied = SHA256 Checksum ڪاپِي ٿئِي جھون!
+sha256-checksum-copied-error = SHA256 Checksum ڪاپِي نا ٿئِي ۿڄون!
+clipboard-not-supported = ڪِلِپ ڀورڍ سپورٽ نٿِي ڪرتون!
+no-information-available = ڪونئين مالُومات موجھوڌ نٿِي
+dataset-metadata-sex = جِنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تمارون ڍيٽاسيٽ ڍائونَ لوڍ ٿائيَ سيَ ريون!
+dataset-donate-modal-heading = شون تمان نين کٻرِ سي۔۔۔!
+donate-modal-explanation-1 = امارا ڪام ماٿيَ ڀرونۿو ڪريا واريان 100 ٿِي ماٿيَ ٻولِي وارِيون ڀراڌريان ۿارُو ڍيٽاسيٽ هلووون (هوسٽ) انين پليٽفارم نين بيۿتر ٻنايا ۿارُو لڳ ڀڳ ايڪ ملينَ ڍالر خرچ ٿائيَ سي۔
