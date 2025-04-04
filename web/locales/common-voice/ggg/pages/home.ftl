@@ -60,6 +60,8 @@ join-newsletter = اديڪآرو تور شآمل هوو همري اي ميل ل�
 
 whats-public = اوآمي ڪآ هي؟
 email-not-public = همي تِمري اي ميلي ڪوُ امآمي ڪونآ ڪرسآنٚ۔
+recordings-and-locale-public = رڪآرڊينگيٚ ڪو تيدآد اور جنآ ٻوليآ مي تِمي هِسو ليندآ هو وي آوآمي هوسي۔
+username-optin-public = تِمي چُڳ سدآ هو آپو ڪو يوجر بآئونٚ آوآمي يآ گُمنآم ڪروآ تآڻيٚ
 
 ## Landing
 

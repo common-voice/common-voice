@@ -78,6 +78,22 @@ share-goal-type-listen = سُٹؔنواڑا
 share-goal-type-both = ٻولنواڑا اور سُٹؔنواڑا
 # LINK will be replaced with the current URL
 goal-share-text = میں  #CommonVoice کُو آواج کا دؔان دیٹؔے کا ایک جاتی لکشے ٻنایا ہے - میرے ساتھ سئمل ہوں اور مشینیں کُو یو سُکھاٹؔیم ساہیتا کرو کہ اسلی منکھ کِدؔا ٻولتے ہے { $link }
+weekly-goal-created = آپ کا سپتا وار لکشے ٻٹؔایا ہے
+daily-goal-created = آپ کا روجینا لکشے ٻٹؔایا ہے
+track-progress = ایٹھے اور اپٹؔے اعداد و شمار کے پنیںٚپ پرگتیا کُو ٹریک کرو۔
+return-to-edit-goal = کسی بی سمے اپٹؔے لکشیم  ترمیم کرنے نتر ایٹھے پُٹھے آو۔
+share-goal = میرے لکشے کُو ٻاٹو
 
 ## Goals
 
+streaks = لکیراں
+days =
+    { $count ->
+        [one] دؔن
+       *[other] دؔن
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکارڈنگ
+    }
