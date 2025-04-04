@@ -66,9 +66,18 @@ n-clips-pluralized =
         [one] کلپ
        *[other] کلپس
     }
-help-share-goal = ودھیک آواجاں لھوڑنیم  ہماری ساہیتا کرو، اپٹؔے لکشے کا پاتی کرو
+help-share-goal = ودھیک آواجاں لھوڑنیم  ہماری ساہیتا کرو، اپٹؔے لکشے کُو ٻاٹو
 confirm-goal = لکشے کُو پک کرو
 goal-interval-weekly = سپتا وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ روجینا کا لکشے کُو ٻاٹو
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ سپتا وارا کے لکشے کُو ٻاٹو
+share-goal-type-speak = ٻولنواڑا
+share-goal-type-listen = سُٹؔنواڑا
+share-goal-type-both = ٻولنواڑا اور سُٹؔنواڑا
+# LINK will be replaced with the current URL
+goal-share-text = میں  #CommonVoice کُو آواج کا دؔان دیٹؔے کا ایک جاتی لکشے ٻنایا ہے - میرے ساتھ سئمل ہوں اور مشینیں کُو یو سُکھاٹؔیم ساہیتا کرو کہ اسلی منکھ کِدؔا ٻولتے ہے { $link }
 
 ## Goals
 

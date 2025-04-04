@@ -7,3 +7,4 @@ error-something-went-wrong = مهآڦ ڪرو ڪجھ گلت هووي
 error-clip-upload = اي ڪلپي ريٚ اپلوڊ نآڪآم هوريٚ ڇي،ۮوبآره ڪوشش ڪرو
 error-clip-upload-server = اي ڪلپي ريٚ اپلوڊ اوپرنآڪآم هوريٚ ڇي،پنآ نيٚ ۮوبآره لوڊ ڪرو، يآ پڇي مينٚ دوبآره ڪوشش ڪرونٚ
 error-title-404 = هم تمآ سآرو او پنآ ڪونيٚ ڊونٚڊ سڪآنٚ
+error-content-404 = شآهد همآرو<homepageLink> homepage </homepageLink>مدد ڪرو،سوآل ٻوٚجي سآرو،مهربآنيٚ ڪريٚن،<matrixLink> Matrix برآدريٚ مينٚ وآت وگتيٚ بهڙو هوڻو،</matrixLink></githubLink>او زريي <githubLink> GitHub سآئيٽ ريٚ مسلي پر چوڪي ۮئو،يآ<discourseLink> همآري ڊسڪورس ڦورمز</discourseLink> پر جآئو۔
