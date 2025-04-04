@@ -23,3 +23,6 @@ review-transcriptions-menu-item-tooltip = اپئیں زیب مہ جمہ گریل
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = اپشن مینیو ݜؤں
+validate-readings-menu-item-aria-label = کمیونٹی ممبروں جمہ گریل  پڑے سو تصدیق گر
+review-transcriptions-menu-item-aria-label = ریکاڈ گریل جملیوں سو نقلوں سو نظر ثانی گر
