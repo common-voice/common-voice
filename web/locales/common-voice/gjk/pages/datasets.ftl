@@ -45,3 +45,7 @@ resource-nemo-info = </docsLink>زين جڌيڌ ترينَ ايَ آئِي (AI) 
 resource-deepspeech-info = موزيلا نِي اوپنَ سورس وائيس نا اورکاڻِ وارا اينجھڻ اونڏِي وات چيت (Deep Speech ) نين ٻولِيا نِي اورکاڻِ نِي ايپليڪيشنَ ٺاۿيا ۿارُو اِستمال ڪرِي ۿڳائيَ سي۔ امارو جائزو ڀڻو</githubLink>يا شرُوئات ڪريا نون شِيڇا ۿارُو <discourseLink></discourseLink> مان شامِل ٿائو۔
 resource-coqui-info = کُلِي وات چيت نِي ٽيڪنولوجِي ۿارُو </coquiLink>Coqui<coquiLink> وقڦ سي۔ اينيان نان منصُوٻان مان STT انين TTS اينجھڻ شامِل سي۔
 community-playbook = ڀِراڌرِي پِليَ ڀيڪ (Playbook)
+resource-playbook-info = ڪامنَ وائيس نا پُورا سفر نيَ حواليَ ٿِي علاقائِي (localisation ) ٿِي لئينَ ڍيٽاسيٽ نا اِستمال ۿوُڌي انين اين ڀيڳون ڀيڳون امارِي ڀراڌرِي ٿِي ڪيم ڳنڍائيَ اين نا ٻارا مان </playbookLink>مۮتڳار گائيڍ نين ڳوتو<playbookLink>
+data-other-librispeech-description = لائبريرِي اِسپيچ تقريٻنَ 1000ڪلاڪ نا 16 ڪِلوهرٽز انڳريزِي تقرير نو ايڪ مجموعو سي زين لائيبريرِي ووڪس پروجيڪٽ مان ٿِي ڀڻل آڍيو ڪِتاٻ مان ٿِي نيڪرل سي۔
+data-other-ted-name = ٽيڍ-ليم ڪارپس
+data-other-ted-description = TED-LIUM نو مجموعو آڍِيو واتان مان ٿِي انين انينان نِي نقلان (transcriptions ) مان ٿِي ٺواڻو تو زين ٽيڍ (TED ) ماٿيَ موجھُوۮ سي۔

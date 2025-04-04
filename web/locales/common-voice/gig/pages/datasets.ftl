@@ -16,3 +16,10 @@ download = ڊآئونٚ لوڊ
 dataset-version = نئيٚ چيٚز
 sha256-checksum-copied = SHA256 چيٚڪسم ڪآپيٚ هوگيٚو
 sha256-checksum-copied-error = SHA256 چيٚڪسم ڪآپيٚ ڪريٚ مي نآڪآم هوگيٚو
+clipboard-not-supported = ڪلپ بورڊ سپورٽ ڪونيٚ
+no-information-available = ڪوئيٚ ڀيٚ جآڻ موجود ڪونيٚ
+dataset-metadata-sex = نسل
+# dataset metadata - age of contributor
+dataset-metadata-age = اومر
+donate-modal-message = تمآريٚ ڊيٽآ سيٚٽ ڊآئونٚ لوڊ هو ريٚ ڇي
+dataset-donate-modal-heading = ڪآئيٚ تمآنيٚ کبر ڇي

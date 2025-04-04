@@ -108,9 +108,15 @@ community-and-languages-menu-item-aria-label = ڊم آوآجيٚ ڪيٚ حمآي
 hero-title = ٽيڪنالآجيٚ جيڪآ تِمريٚ ٻوليٚ ٻولدي هي
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold> AIڪوُ دنيآ ڪيٚ چند ٻوليآ تآڻي ڪآلي ايڪ هدي مي ڪآ ڪرڻ کپي؟</bold>
+hero-subtitle-2 = همريٚ ٻولي همري ڪهآني هي، همريٚ برآدي، همري رهڻي ڪرڻيٚ. آوو تو اُنآ ڊيٽآ سيٽسآنٚ ڪوُ ٺآوآنٚ جنآ ڪوُ همي دنيآ مي ديکوآ چآهندآ هونٚ۔
+# icon is an arrow that points downwards
+get-started = شروُ ڪرو<icon><icon>
 
 ## Action items section
 
+action-items-section-title = ڪآمن وآئيٚس ايڪ مڦت، کُلرو پليٽ ڦآرم هي جيڪو ڪميُونٽيٚو ڪيٚ اڳواڻيو مي ڊيٽآ ٺوآ تآڻي استمآل هوندو هي
+action-items-section-subtitle = هر ڪو ڊپو ڪيٚ ٻوليٚو ڪوُ جپت، بحآل اور اُنچي ڪر سڪدو هي ٽيڪسٽ اور آوآجيٚ ڪآ  ڊيٽآ سيٽآنٚ ڪوُ شيئر ڪرو، ٺآوو اور سماݪوآ دي۔
+scripted-card-header = اِسڪرپٽ هوُري ٻآت
 
 ## Community section
 
