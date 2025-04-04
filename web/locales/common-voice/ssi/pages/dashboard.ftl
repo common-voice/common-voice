@@ -25,6 +25,12 @@ show-ranking = میری رینکنگ دؔیکھاو
 ## Custom Goals
 
 get-started-goals = لکشے کے ساتھ سَرو کرو
+create-custom-goal = اپٹؔی مرجیا کے لکَشے ٻٹؔاو
+goal-type = آپ کس جُو لکشے ٻٹؔاوٹؔا چاوہتے ہیں؟
+both-speak-and-listen = دُؔونھیں
+both-speak-and-listen-long = دُؔونھیں (ٻولو اور سُٹؔو)
+daily-goal = روجینا کا لکشے
+weekly-goal = ٻیسپت وار لکشے
 
 ## Goals
 

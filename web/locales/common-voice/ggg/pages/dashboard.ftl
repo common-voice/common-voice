@@ -39,6 +39,18 @@ want-to-continue = ڪآ تميٚ جآريٚ رآکوو چآهنٚدآئو؟
 finish-editing = پيلي ترميٚم کتم ڪرو؟
 lose-changes-warning = اب ڇوڙوآ ڪو متلب هي تميٚ آپوئو بدلآئو گمآ ديسِيو
 build-custom-goal = ايڪ هسب جروُرت مڪسد بڻآئو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] تآئينٚ پهچوآ مي مدت { $language } ڪلآڪيٚ مي { $hours } جآتيٚ مڪسدآ دي ڪرو
+       *[other] مي مدت ڪرو { $language } ڪلآڪآنٚ تآئينٚ{ $hours } جآتيٚ مڪسدآ دي
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] ڪلآڪ ايڪ ٻوليو مي جآتيٚ مڪسد { $hours } مدت ڪرو آم آوآجو تآئينٚ پهچوآ مي
+       *[other] ڪلآڪآ مي ايڪ جآتيٚ مڪسدو دي { $hours } مدت ڪرو آم آوآجو تآئينٚ پهچآئو
+    }
+set-a-goal = ايڪ مڪسد رآکو
+cant-decide = ڦيسلو ڪونآ ڪرسگو؟
 
 ## Goals
 

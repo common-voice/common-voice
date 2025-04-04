@@ -19,9 +19,13 @@ demo-account = کآتو
 
 demo-account-card-header = هيٚسو ۮي سآرو کآتو هوڻو زروريٚ ڪونيٚ جيٚستآئيٚنٚ او مدد ڪري ڇي
 demo-account-card-body = سآجي پآسي هم ڦآئيٚدي ريٚ ليٚسٽ بيٚيآن ڪر ريٚ ڇآنٚ آئينٚ هم زآر ڪر ريٚ ڇآنٚ ڪي هم ڪسي مهلومآتيٚ نيٚ آوآمي ڪرآنٚ ڇآنٚ آپيرڊوآئيٚس پر ايڪ ڪآمن وآئيس کآتي سونٚ سورو ڪري سآروهيٽي وآڙيٚ لنڪ استهمآل ڪرو۔
+demo-account-enter-email =
+    .label = سآئن اپ لنڪ ميلي سآرو ايٚ ميل ڪرو
+demo-account-sign-up = سآئن اپ لنڪ ميلو
 
 ## Demo Contribute
 
+demo-contribute-card-header = آپيرو آوآز بهڙو ڪرڻو يآ سُڻيٚ سآرو تيٚيآر ڇو
 
 ## Demo Dashboard
 
