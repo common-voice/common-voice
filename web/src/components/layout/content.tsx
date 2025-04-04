@@ -22,13 +22,15 @@ const AboutPage = React.lazy(() => import('../pages/about/about'))
 const LandingPage = React.lazy(() => import('../pages/landing/landing'))
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'))
 const PartnerPage = React.lazy(() => import('../pages/partner/partner'))
-
 const GuidelinesPage = React.lazy(
   () => import('../pages/guidelines/guidelines')
 )
 const SentenceCollectorRedirectPage = React.lazy(
   () =>
     import('../pages/sentence-collector-redirect/sentence-collector-redirect')
+)
+const VariantPage = React.lazy(
+  () => import('../pages/contribution/variant-recognition/variant-recognition')
 )
 
 const SentryRoute = Sentry.withSentryRouting(Route)
