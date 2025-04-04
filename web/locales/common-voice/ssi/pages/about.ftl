@@ -98,6 +98,7 @@ about-playbook-how-localize-content-5 = ساہئیتا کرنے نتر مھار�
 ## How to add sentences
 
 about-playbook-how-add-sentences = ہُوں ٻول کِدؔا سیمل کرے؟
+about-playbook-how-add-sentences-content-1 = آپ <writePageLink>لِکھٹؔیں کے پنیپ</writePageLink> ٻول سیمل کری سِکتے ہے یا دؔیکھٹؔا پنیپ ٻولیں کُو دیکھی سِلکتے <reviewPageLink>ہیں</reviewPageLink>۔
 
 ## How to record quality
 
