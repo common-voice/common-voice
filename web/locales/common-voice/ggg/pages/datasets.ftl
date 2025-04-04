@@ -11,3 +11,6 @@ download-dataset-tag = جروريٚ ٻوليوئيٚ ڊيٽآ سيٽ چُگو ج
 # File size in gigabytes
 size = مآپ
 validated-hr-total = تسديٚڪ ڪررآ ڪُل ڪلآڪ
+overall-hr-total = ڀيݪآ ڪلآڪ
+cv-license = ليسنَ
+audio-format = آڊيو شڪل

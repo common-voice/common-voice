@@ -91,15 +91,23 @@ community-and-languages = ڪميونٽيٚ اور ٻوليٚ
 about-menu-tooltip = ڀائيوآريٚونٚ، پريس اور ڪهاڻيٚونٚ، ڪميوُنٽيٚ اور ٻوليٚونٚ
 partnerships-menu-item-tooltip = همآ دي ڀآئيوآري
 press-and-stories-menu-item-tooltip = همرو بلاگ وزٽ ڪرو جآنٚ همرآ بآرآ مي لِکو
+community-and-languages-menu-item-tooltip = ٻوليآنٚ اور ڪميونٽيآنٚ ڪوُ ڍونڊو ايڪ آم آوآج
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = اديڪآرو ڪيٚ مينيُو ڪآ بآرآ مي
+partnerships-menu-item-aria-label = ڪآمن ووئسودي شرآڪتدآريآنٚ بآرآ مي کبر ليوو
+press-and-stories-menu-item-aria-label = آم آوآجي دي جُڙري پريس ريليج ڪهآڻيو ليوو
+community-and-languages-menu-item-aria-label = ڊم آوآجيٚ ڪيٚ حمآيت ڪروآݪيٚ ڪميونٽيٚ اور ڀوليآنٚ ڪو ڍونڊو
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ٽيڪنالآجيٚ جيڪآ تِمريٚ ٻوليٚ ٻولدي هي
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> AIڪوُ دنيآ ڪيٚ چند ٻوليآ تآڻي ڪآلي ايڪ هدي مي ڪآ ڪرڻ کپي؟</bold>
 
 ## Action items section
 
