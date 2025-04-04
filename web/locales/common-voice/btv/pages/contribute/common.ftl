@@ -122,3 +122,4 @@ contribution-misreadings-example-7-explanation = [اصل لکیل مہ "اے" ن
 contribution-misreadings-example-8-title = بمبل بی سو زریعہ گھِن۔
 contribution-misreadings-example-8-explanation = [میلائ نہ ھویں والہ مشتملات]
 contribution-varying-pronunciations-title = گڈ وَڈ تلفظ
+contribution-varying-pronunciations-description = اِس گراونڈ رے یک کلپ رد گرے نو اول احتیاط گر چہء پڑے والہ یک لفظ سو غلط تشریح گیگی تھو۔ تناؤ غلط زائے رے دُھن گی تھو، یا سوالیہ نشان نظرانداز گیگی تھو۔ تام دنیا مہ استعمال ھوویں والہ مختلف قسم سو تلفظ تھا تیوں مہ کاں تی اپئیں مقامی کمیونٹی مہ نہ ݜؤن ھویانݜ ۔مہربانی گیری ایوں لوں تعریف سو یک حد دے چہء کاں تینوں مختلف بیاد گر ھونتہ
