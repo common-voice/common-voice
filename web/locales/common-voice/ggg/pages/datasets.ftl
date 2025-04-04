@@ -42,3 +42,4 @@ other-datasets = دوسرآ وآئس ڊيٽآ سيٽ
 feedback-q = ورنٚديٚ ديئو؟
 # This indicates that there is no data to display
 no-information = ڪوئيٚ کبر ڪونآ
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ <docsLink> کُلرو سورس ٽول ڪٽ </docsLink> ايڪ ™</githubLink>NeMo مآڊل ٺآريهرآ هون AI  جيڪو پرآڻي ٻولي ٻولوآݪآ
