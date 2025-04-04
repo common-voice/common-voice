@@ -75,6 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = جملے جمع
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کس طرح کم کرنی؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ نا ترجمہ پنٹون اوپر ہونا</strong>۔
 
 ## How to add sentences
 

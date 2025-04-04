@@ -102,3 +102,5 @@ contribution-criteria-page-description = جب آواز کے کلپس سنتے ہ
 contribution-for-example = مِثال سئے طور رے
 contribution-misreadings-title = غلطی
 contribution-misreadings-description = ݜوویں سو دوران،احتیاط رے چیک گر چہء ریکاڈنگ صحیح ھ،ُن تھو آ لکیل صحیح تھی ; معمولی غلطی ھُون تہ رَد گر<br /> ڙھو عام غلطی شمار گر
+contribution-misreadings-description-extended-list-1 = غلطی <strong>ٰ  ٰاےٰ </strong> یا <strong> ٰ دی ٰ </strong> ریکاڈنگ سو شروع مہ۔
+contribution-misreadings-description-extended-list-2 = یک غلطی <strong> 'ایس' </strong> لفظ سو اخیر مہ۔
