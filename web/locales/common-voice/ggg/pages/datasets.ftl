@@ -50,3 +50,4 @@ resource-playbook-info = <playbookLink> مدتيآݪآ سبڪ ڍونٚڊو</play
 data-other-librispeech-description = LibriSpeech تڪريٚبن 1000 ڪلآڪيٚ ڪو 16Khz پڙهوآݪو انٚگريجيٚ اسپيٚچ هي جيڪو LibriVox  پروجيڪٽو دي آڊيو بُڪ پڙوآ مي نڪݪر.
 data-other-ted-name = ٽيٚڊ ليٚم ڪآرپس
 data-other-ted-description = TED-LIUM corpusآڊيو ٻآتيٚنٚ مي ٺآرو گو ائيٚنٚ TED ويب سآئيٚٽيٚ مي  هونٚديٚ آُنآ ڪيٚ ٽرآنٚسڪرپشن
+data-other-voxforge-description = VoxForge مڦت ائيٚنٚ اوپن سورس اسپيٚچ اوݪکوو اجڻيٚ دي استمآل ڪروآ لآ نڪل ڪرريٚ تڪريٚر ڀيݪي ڪروآ لآ ٺآرو گو
