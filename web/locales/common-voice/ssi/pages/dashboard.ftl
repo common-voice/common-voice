@@ -97,3 +97,8 @@ recordings =
         [one] ریکارڈنگ
        *[other] ریکارڈنگ
     }
+validations =
+    { $count ->
+        [one] مانیتا
+       *[other] مانیتائیں
+    }
