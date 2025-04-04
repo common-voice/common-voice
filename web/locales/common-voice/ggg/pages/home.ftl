@@ -119,6 +119,8 @@ action-items-section-subtitle = هر ڪو ڊپو ڪيٚ ٻوليٚو ڪوُ جپ
 scripted-card-header = اِسڪرپٽ هوُري ٻآت
 scripted-card-content = تِمري ڀوليو مي جُملآ ڪوُ ٻڌي آوآجيٚ دي پڙهو اور دنيآ ڪآ سبآنٚ دي وڌيٚڪ الگ اوآمي شرڪتيآݪآ ڊيٽآ سيٽو مينٚ تِمري ورڌآرو هوآ مي مدد ڪرو
 spontaneous-card-header = ڦِتري ٻآت چيٚت
+spontaneous-card-content = حوالآ ڪو جبآب ڪيٚ،آم اور مڪآميٚ مآحولو مي ڊيٽآ سيٽ ٺآوو۔ جِبآنيٚ تورو پر ٻوليآنٚ تآڻي مڪمل۔
+language-text-card-header = ٻوليو ڪيٚ لِکت
 
 ## Community section
 
