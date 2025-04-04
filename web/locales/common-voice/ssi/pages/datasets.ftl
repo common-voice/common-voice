@@ -9,3 +9,4 @@ datasets-positioning =
 datasets-speech-bubble-content = رومانٚچیک کٻر! سُوبھاویک بھاشٹؔ رستیم ہے! اپ ڈیٹسا نتر ساتھ ریو اور نئوی جانکاریا نتر مھارے <discordLink>ڈسکارڈا</discordLink> کی جانچ کرو پکا کرو۔
 language = ٻولی
 download-dataset-header = ڈیٹا سیٹ ڈاؤن لوڈ کرو
+download-delta-explainer = ہمُون کائیں بدلاو کرے ہے. ڈیلٹا سیگمنٹسام پچھاڑی ریلیجا پیچھیںٚس نئوے کلپس شیمل ہے۔ <deltaLink>اس کاما  باریم ودھیک پڑھو</deltaLink>.
