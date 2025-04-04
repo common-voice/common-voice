@@ -44,3 +44,15 @@ sc-criteria-item-2 = جُملان ني گرامر درست هووي زويِئي
 sc-criteria-item-3 = جُملا ٻوليا نين قابل هوئي
 sc-criteria-item-4 = زي جُملا معيار نين پورو ڪري تو ۮٻاوو،  quot;منظور ڪرو &quot; زمڻي پاسي ٻٽڻ سي
 sc-criteria-item-5-2 = زي جُملو ماٿي آلل معيار نين پورو نٿي ڪرتو۔ ۮٻاوو، &quot;مِيلي آلو&quot; زمڻي پاسي بٽڻ. زي تمان نين يقين نٿي جملا نا ڀارا مان تو ، تمين اين نين ميلِي آلوو هانَ آڳۯ وڌو
+sc-criteria-item-6 = زي تمارا جائزا هارُو جُملا ختم ٿئي جھا سي، تو وڌاري جُملا هارو امارِي مدد ڪرو۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = نشان نين زوئو، شُون اِي ٻولِي پرماڻي سهي سي؟
+sc-review-rules-title = شُون جملا هدايت پرماڻي مِلي سي؟
+sc-review-empty-state = في الحال ٻولِي مان جائزا هارو ڪوئي جُملا نٿِي۔
+report-sc-different-language = مختلف ٻولِي
+report-sc-different-language-detail = اِي ايڪ ٻولِي مان لکل سي اين ٿِي فرق زين مُون جائزو لُون رو سُون۔
+sentences-fetch-error = جُملا آليا هارُو ڪوئي غلطي ڇي سي
+review-error = جُملا نا جائزا هارُو ڪوئي غلطي ڇِي سي
+review-error-rate-limit-exceeded = تمين الاهي تيز زو را سو، مهرباني ڪرينَ جائزا هارو ڪانڪ وکت لو، فهرست يان رپورٽ نا مسئلا هارُو تمان نين ڀروسو هوئي ڪي اِي درست سي۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اَمين ايڪ موٽِي تبديلِي ڪران را سان

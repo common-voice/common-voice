@@ -36,6 +36,15 @@ average-difficulty = لگھ بھگ
 difficult-difficulty = کٹھن
 pro-difficulty = پرو
 lose-goal-progress-warning = اپٹؔے لکشیم  ایڈیٹنگ کری کن ، آپ اپٹؔی موجودہ پرگتی کھولی سِکتے ہیں۔
+want-to-continue = کیا آپ ودھاوٹؔا  چاوہتے ہیں؟
+finish-editing = پہلے ایڈٹنگ پُوری کرو؟
+lose-changes-warning = اِٻکے چھوڈؔٹؔے کا متلب ہے کہ آپ اپٹؔے بدلاو گوائی دؔیوں گے
+build-custom-goal = اپٹؔی مرجیا کے لکَشے ٻٹؔاو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] ایک جاتی لکشے کے ساتھ { $language } میں { $hours } گھنٹہ تائی پُگٹؔیم  ساہیتا کرو
+       *[other] ایک جاتی لکشے کے ساتھ { $language } میں { $hours } گھنٹہ تائی پُگٹؔیم  ساہیتا کرو
+    }
 
 ## Goals
 
