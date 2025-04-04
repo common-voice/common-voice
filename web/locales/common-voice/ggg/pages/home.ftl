@@ -181,3 +181,9 @@ partner-section-title = همآ دي ڀآئيوآري
 partner-section-subtitle-tech-companies = <bold>ٽيڪنآلوجيٚ ڪمپنيونٚ</bold> - هڪ سُرسبج وڌوآݪيٚ ملٽي لنگويج AI مآهولو تآڻيٚ کُلريٚ ڊيٽآ سيٽ هٽآوآ مي سيڙپ ڪرسي
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>شيهري سمآج اور اديڪآر</bold> - اسردآر ڊيٽآ سيٽ مُڦتو مي ٺآوو، ميجبآني ڪآوو اور بِرآوو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ڦلآه</bold> - گھرو ڪيٚ ڪوشش اور ترڪيو ڪوُ وڌآوآ تآڻي  ڊيٽآ سيٽو ڪي ٺيوآ ڪيٚ سرپرستي ڪروو
+# icon is an arrow that points to the right
+get-in-touch-button = رآبتآ مي هوو<icon></icon>
+# Partners section
+our-partners-include = همرآ پآٽنر شآمل ھينٚ ...
