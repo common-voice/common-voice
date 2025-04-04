@@ -6,8 +6,16 @@ add-questions-terms-checkbox = ھون تصديق ڪرون سون ڪي آ <public
 question-dataset-language = مواڌ نِي ترتيب{ $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
-        [one] { $uploadedQuestions } سوال ڀيرو ڪريو سي
-       *[other] { $uploadedQuestions } سوال ڀيرو ڪريو سي۔
+        [one] { $uploadedQuestions } سوال ڀيرو ڪو
+       *[other] { $uploadedQuestions } سوال ڀيرو ڪرو
     }
 add-question-error-message = اپلوڍ ڇا نون فيل ٿئِي جھون سي، ميرٻانِي ٿِي وريَ ڪوشش ڪرو۔
 add-question-too-many-questions-error = پانس ۿو ٿِي وڌِيڪ سوال۔ سوالان نو تعداد گھٽاوو انين ڦير ٿِي ڪوشِش ڪرو۔
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] سوال ايڪ  ڀيرو سي۔ سوال شامِل ڪريا نا ٻارا مان وڌيڪ شيڇا ۿارُو امارا صڦا زوئو۔
+       *[other] سوال ايڪ ڀيرو سي۔ سوال شامل ڪريا نا ٻارا مان وڌِيڪ شيڇا ۿارُو امارا صڦا زوئو
+    }
+# Guidelines
+add-question-guidelines-title = ھون ڪِيئا سوال شامِل ڪرِي ۿڳون سون؟
+do-section-title = ڪروون
