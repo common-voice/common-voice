@@ -4,9 +4,13 @@
 error = Kļūda
 action-click = Klikšķiniet
 action-tap = Pieskarieties
+# Label for language switcher
+platform-language = Platformas valoda
+platform-language-tooltip-text = Maina tikai vietnes tekstu.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Ieguldījums { $language } datu kopā
+contribution-picker-tooltip-text = Maina valodu datu kopai, kurā veicat ieguldījumu
 # Label for button on contribution switcher
 change = Mainīt
 coming-soon = Drīzumā būs pieejamas papildu valodas
@@ -26,7 +30,9 @@ request-new-language = Lūgt jaunu valodu
 ## Navbar
 
 respond-to-prompt = Atbildēt uz uzvedni
+transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
+question = Jautājums
 
 ## Not Found Page
 

@@ -132,3 +132,7 @@ process-steps-explanation = Jautājumi, kuros jāuzskaita konkrēti soļi. Šād
 offensive-content-sensitive-information = Aizvainojošs saturs vai sensitīva informācija
 offensive-content-sensitive-information-explanation-explanation-1 = Jautājumi, kas varētu izvilināt personu identificējošu informāciju
 offensive-content-sensitive-information-explanation-explanation-2 = Jautājumi, kas var mudināt uz naida runu vai citiem aizspriedumiem vai aizvainojošiem uzskatiem
+offensive-content-sensitive-information-explanation-explanation-3 = Jautājumi, kas kādam varētu likt izpaust sensitīvu informāciju vai aizkaitinošu atbildi
+example-questions-subheader = Jautājumu piemēri
+example-questions-explanation-1 = Šajā lapā varat atrast <examplePromptsLink>120 jautājumu piemērus.</examplePromptsLink>
+example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot epastu uz <emailFragment>commonvoice@mozilla.com.</emailFragment>

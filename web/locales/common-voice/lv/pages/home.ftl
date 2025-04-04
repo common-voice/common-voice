@@ -85,6 +85,7 @@ answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</sma
 review-transcriptions = Pārskatiet transkripcijas
 review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
+add-questions-coming-soon = Pievienot jautājumus <small>(drīzumā)</small>
 transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
