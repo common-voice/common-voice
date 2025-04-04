@@ -104,6 +104,7 @@ about-playbook-how-add-sentences-content-3 = آپ ویکیپیڈیاس تھوڑ�
 
 ## How to record quality
 
+about-playbook-how-record-quality = ہُوں ایک اُونٚچے گُٹؔاں کی اواجا کا کلپ کِدؔ ریکارڈ کرے؟
 
 ## How to grow language
 

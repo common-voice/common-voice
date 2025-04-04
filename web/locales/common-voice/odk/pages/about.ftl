@@ -44,6 +44,7 @@ about-clip-graveyard-text =
 about-get-involved = شامل هُوا
 about-stay-in-touch = مين ڪِيُون رابطي ۾ ريهہ سِگھَين ڇَين؟
 about-stay-in-touch-button = سائِين اپ
+about-stay-in-touch-text-1 = <emailFragment>سائِين اپ ڪرا</emailFragment>  امچِي ميلنگ لسٽِي ۾، ته جُون تمهِين مُهمان، واقعان، ائُون ڪامن وائيس پر ڀيڙي ڊيزائِينا چي خاصيتان ۾ حصا گيهڻي چي باري ۾ سِيک سگها.
 about-nav-why-common-voice = ڪان؟
 about-nav-how-it-works = ڪِيُون؟
 about-nav-partners = شراڪت دار

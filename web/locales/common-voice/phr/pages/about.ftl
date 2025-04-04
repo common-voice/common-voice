@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = درستگی نے معیار نے بارے
 ## How to grow language
 
 about-playbook-how-grow-language = اس کامن وائس اوپر زبان اچ کس طرح بہتراضافہ کری سکنے آں؟
+about-playbook-how-grow-language-content-1 = کامن وائس اوپر مختلف لوکاں آسطے موقع بنانے نال اے تصدیق ہوئی انی کے ڈیٹاسیٹ بہوں زیادہ لوکاں نی خدمت کرنا۔ اساں ایسے وسائل تے ٹیمپلیٹس بنائے نیں جناں کی تس استعمال کری سکنے آ!
+about-playbook-how-grow-language-content-2 = واقعات
 
 ## How to validate
 
