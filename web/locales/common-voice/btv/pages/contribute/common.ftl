@@ -129,4 +129,5 @@ contribution-varying-pronunciations-example-1-explanation = [فوجی ٹوپے] 
 contribution-varying-pronunciations-example-2-title = تِیسوں ھات ازئ اسُو۔
 contribution-varying-pronunciations-example-2-explanation = [ازئ]  اگریزی مہ ہمیشہ یک سلیبس مہ منا بزا دو مہ نئ]
 contribution-background-noise-title = پتن سو شُور
-contribution-background-noise-description = ہم چاہتے ہیں کہ مشین لرننگ الگورتھم مختلف قسم کے پس منظر کے شور کو سنبھالنے کے قابل ہو ، اور یہاں تک کہ نسبتا lough بلند آوازوں کو بھی قبول کیا جاسکتا ہے بشرطیکہ وہ آپ کو متن کی پوری طرح سننے سے نہیں روکتے ہیں۔ پرسکون پس منظر کی موسیقی ٹھیک ہے۔ آپ کو ہر ایک لفظ سننے سے روکنے کے لئے کافی اونچی آواز میں موسیقی نہیں ہے۔
+contribution-background-noise-description = ۔ بے لوکھہ تھہ چہء ڇھیڇئے والہ مشین الگورتھم پتن سو مختلف قسم سو شور سنبال گرےتی تیر تکے اوچت اوازھُم قبول گرا تی تیار چہء سو تی ݜوویں نو نہ ورٹا پرسکون پتن سو ڈول ٹھیک تھو تے ہر لفظ ݜوویں نو ورٹے والہ اوچت ڈول نہ تھو
+contribution-background-noise-description-extended = اگر کہ ریکارڈنگ مہ رکاوٹ تھی،یا مز شور یا، رد گر تی تیار چہء اواز صاف ݜواں نہ بزے
