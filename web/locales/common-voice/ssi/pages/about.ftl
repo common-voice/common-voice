@@ -40,6 +40,11 @@ about-dataset-new-text = سادھارٹؔ اواجا کے ڈیٹا سیٹام س
 about-clip-graveyard = کلپ کبرستان
 about-clip-graveyard-text = کلپ کبرستان اواج کلپینٚپ ٻٹؔوڑا ہے جکو اِسکُو سادھارٹؔ اواج ڈیٹا سیٹام نہیں ٻٹؔاوے۔ رُگی ڈیٹا سیٹا جُو ، کلپ کبرستان ڈاؤن لوڈا نتر ماجُود ہے۔
 about-get-involved = سیمل ہوئی جاؤ
+about-get-involved-text-2 =
+    سادھارٹؔ اواجا کُو اور بھی اجرا ٻٹؔاوٹؔیم ساہیتا کرنا چاوہتے ہے؟
+    بڑِیا! ای میل یا <discourseLink>ڈسکوریں</discourseLink> کے جرِیے سمپرک کرو
+    فورمز، سائٹا کے مسلے <githubLink>گٹ ہبا</githubLink> کے جرِیے جما کراؤ، یا اس میں سیمل ہووَ
+    <matrixLink>میٹرکس</matrixLink> کمیونٹی چیٹ.
 
 ## Community Playbook Content
 ## What is a language
