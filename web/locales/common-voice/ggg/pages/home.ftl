@@ -127,6 +127,12 @@ add-text = لِکت لگآوو
 
 ## Community section
 
+community-section-title = ٻڏيٚ ڪميوُنٽيآنٚ ڪيٚ ترڦي دي چلوآݪيٚ، ٻڏيٚ ڪميونٽيآنٚ تآڻيٚ —130 ٻوليونٚ اور وڌوآݪيٚ
+join-discord-community = ڊِسڪوڊ ڪميونٽيٚو ميٚ شآمل هوو
+# label for button
+join-discord-community-action = ڊسڪوڊو پر همآ دي شآمل هوو ...
+join-discord-community-content = ٻوليو ڪيٚ ڪميونٽيٚو ڪيٚ بيهسي مي هِسو ليوو، سوآل پوُڇو، اور آوآلآ وڪيآ اور چرچآيآنٚ بآرآ مي سيٚکو۔
+find-us-on-matrix = مئٽرڪسيٚ پر همآ ڪوُ ڍونڊو
 
 ## Featured section
 
