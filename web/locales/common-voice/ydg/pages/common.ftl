@@ -353,5 +353,7 @@ not-available-abbreviation = لاگو نو
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>نے ماخ تو مددن </mark><br/><mark> ضرورت استت</mark>
 localization-select =
     .label = یو زبان خورا / مقامی کڑا
