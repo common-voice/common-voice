@@ -98,3 +98,7 @@ shortcut-vote-no = این
 contribution-criteria-nav = طریقہ
 contribution-criteria-link = حصہ گھِنے سو طریقہ پرز
 contribution-criteria-page-title = حصہ گِھنے سو طریقہ
+contribution-criteria-page-description = جب آواز کے کلپس سنتے ہو تو کیا تلاش کریں اور اپنی آواز کی ریکارڈنگ کو بھی بہتر بنانے میں مدد کریں۔ کدی چہء تُو اواز سو کلپ ݜواں تہ اماں پرزا چہء تُو چوں ٹنڈا آ اپئیں اوازسو ریکاڈنگ سَم گرے مہ مدد گر
+contribution-for-example = مِثال سئے طور رے
+contribution-misreadings-title = غلطی
+contribution-misreadings-description = ݜوویں سو دوران،احتیاط رے چیک گر چہء ریکاڈنگ صحیح ھ،ُن تھو آ لکیل صحیح تھی ; معمولی غلطی ھُون تہ رَد گر<br /> ڙھو عام غلطی شمار گر
