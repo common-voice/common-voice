@@ -90,9 +90,16 @@ about-playbook-how-add-sentences-content-3 = تس جملیاں نا ایکسٹر
 
 ## How to record quality
 
+about-playbook-how-record-quality = میں ہک اچھی قسم ناں آواز نا کلپ کس طرح ریکارڈ کراں؟
+about-playbook-how-record-content-1 = اپنی نارمل آواز اچ بولا۔ تس جس طرح وی بولنے آ اُس کی اس خوش آمدید آخنے آں۔  اس چاہنے آں کے تس اپنے لہجے اچ بولا تے اس چاہنے آں کے تساں نا نارمل سٹائل ہوئے تے آواز نارمل اُچی ہوئے۔
+about-playbook-how-record-content-2 = پچھے شور نی ہونا چاینا۔ تساں نی آواز اسانی کنے اچھے۔
+about-playbook-how-record-content-3 = جملے احتیاط کنے پڑھا۔ کوئی لفظ چھوڑا وی ناں، تبدیل وی ناں کرا تے اپنی طرفاں شامل وی ناں کرا۔
+about-playbook-how-record-content-4 = بولنے تی پہلاں تصدیق کرا کہ تساں نی ریکارڈنگ ہونی، تے اے ختم وی اُس ویلے ہونی جذوں تس مکمل کرنے آ۔
+about-playbook-how-record-content-5 = درستگی نے معیار نے بارے اچ مزید دیخا</accuracyLink>۔
 
 ## How to grow language
 
+about-playbook-how-grow-language = اس کامن وائس اوپر زبان اچ کس طرح بہتراضافہ کری سکنے آں؟
 
 ## How to validate
 
