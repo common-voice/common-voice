@@ -17,3 +17,7 @@ validated-hr-total = پکا کلاک کُل
 overall-hr-total = کُل اکلاک میلائی کر
 cv-license = لیسٹؔ
 audio-format = آڈیو فارمیٹ
+dataset-splits = ٻاٹ (عمر اور جنس)
+number-of-voices = آواجیں کی گینتی
+splits = ٻاٹٹؔا
+email-to-download = ڈاؤن لوڈ کرنے نتر ای میل لِکھو
