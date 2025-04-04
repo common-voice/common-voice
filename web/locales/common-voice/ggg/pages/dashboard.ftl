@@ -132,6 +132,11 @@ share-n-weekly-contribution-goal = { $type } ڪِلپ هپتيوآر مڪسدو 
 share-goal-type-speak = ٻولوو
 share-goal-type-listen = سُڻوو
 share-goal-type-both = ٻولوو ائينٚ سُڻوو
+# LINK will be replaced with the current URL
+goal-share-text = آوآجو ڪآ دآنو لآ آيڪ CommonVoice # مينٚ سرڦ جآتيٚ مڪسد ٺآرو هونٚ -- مونٚدي ڀݪو ائينٚ مشنيٚڪوُ سِڪووآ مي مدت ڪرو تو هڪيٚڪيٚ منک ڪيسي ٻولدآ هينٚ { $link }
+weekly-goal-created = تمرو هپتيوآر مڪسد ٺآرو گو هي
+daily-goal-created = تِمرو روجآنِيو ڪو مڪسد ٺآرو گو هي
+track-progress = يهآنٚ ائينٚ تمرآ انٚگآ اکرآنٚ ڪآ پنآ مي پيش رڦتو ڪوُ ٽريڪ ڪرو
 
 ## Goals
 
