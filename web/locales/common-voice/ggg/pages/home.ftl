@@ -167,6 +167,15 @@ explore-datasets = ڊيٽا سيٽسو ڪوُ ڍونڊو<icon></icon>
 get-involved-section-title = کُلري، ڪميونٽيٚو ڪيٚ اڳوآڻيومي ڊيٽآ سيٽسو ڪيٚ ترڦدآري ڪرو
 read-sentences-link = جُملآنٚ ڪوُ پڙهو
 validate-readings-link = پڙهوآ ڪيٚ سئي ڪرو
+contribute-link = اکرآنٚ ڪآ ميڙو مي هِسو ديوو
+answer-questions-link = سوآل جنآب
+transcribe-answers-link = جبآبآ ڪيٚ نڪل ڪرو
+review-transcriptions-link = نڪليٚ ڪوُ وري ديکو
+contribute-text-link = اکرآ مي شآمل هوو
+press-and-stories-link = پريس اور ڪهاڻيونٚ
 
 ## Partner section
 
+partner-section-title = همآ دي ڀآئيوآري
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٽيڪنآلوجيٚ ڪمپنيونٚ</bold> - هڪ سُرسبج وڌوآݪيٚ ملٽي لنگويج AI مآهولو تآڻيٚ کُلريٚ ڊيٽآ سيٽ هٽآوآ مي سيڙپ ڪرسي

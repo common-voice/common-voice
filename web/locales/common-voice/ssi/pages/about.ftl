@@ -72,6 +72,7 @@ about-playbook-how-add-language-content-1 =
     اگر اِدؔا نائی ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمل کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
     اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انُواد کرنا، اور ٻول بھیݪے کرنا
 about-playbook-how-add-language-translating-heading = سائٹا کا انُواد
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
 
 ## How does localization work
 
