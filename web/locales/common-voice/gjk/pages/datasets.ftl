@@ -42,3 +42,5 @@ feedback-q = شون رائيَ سي (Feedback)
 # This indicates that there is no data to display
 no-information = ڪونئين مالُومات نٿِي
 resource-nemo-info = </docsLink>زين جڌيڌ ترينَ ايَ آئِي (AI) نان ماڍل ٺايا نيَ حواليَ ٿِي ريسرچ ڪريَ سي ريا اوپنَ سورس<docsLink>اينيان NVIDIA NeMo ۿارُو</githubLink> سي<githubLink>
+resource-deepspeech-info = موزيلا نِي اوپنَ سورس وائيس نا اورکاڻِ وارا اينجھڻ اونڏِي وات چيت (Deep Speech ) نين ٻولِيا نِي اورکاڻِ نِي ايپليڪيشنَ ٺاۿيا ۿارُو اِستمال ڪرِي ۿڳائيَ سي۔ امارو جائزو ڀڻو</githubLink>يا شرُوئات ڪريا نون شِيڇا ۿارُو <discourseLink></discourseLink> مان شامِل ٿائو۔
+resource-coqui-info = کُلِي وات چيت نِي ٽيڪنولوجِي ۿارُو </coquiLink>Coqui<coquiLink> وقڦ سي۔ اينيان نان منصُوٻان مان STT انين TTS اينجھڻ شامِل سي۔

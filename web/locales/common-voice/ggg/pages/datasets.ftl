@@ -7,3 +7,7 @@ datasets-speech-bubble-content = دلِيآݪي کبرين ! اچآنڪ آوݪي
 language = ٻوليٚ
 download-dataset-header = ڊيٽآ سيٽو ڊآئون لوڊ ڪرو
 download-delta-explainer = همينٚ ڪجھ  بدلآرآ هآنٚ ۔ ڊيلٽآ هسآ سرڦ آکريٚ رليٚجيٚ دي ليڪي۔</deltaLink> ايٚرو ڪآموبآبت وڌيٚڪ پڙهوٚ<deltaLink> سبآنٚدي تآجآ ڪلپآنٚ پي ڌيرو هي
+download-dataset-tag = جروريٚ ٻوليوئيٚ ڊيٽآ سيٽ چُگو جيڪو تميٚ ڊآئون لوڊ ڪروآ چآهنٚدآ هو
+# File size in gigabytes
+size = مآپ
+validated-hr-total = تسديٚڪ ڪررآ ڪُل ڪلآڪ

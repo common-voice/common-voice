@@ -59,6 +59,7 @@ about-nav-playbook = بھاگ لیوٹؔیں کا نامُونا سِکو
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = سادھارٹؔ جاپ ایک ٻولی کِیا ہے؟
 
 ## How do I add a language
 
