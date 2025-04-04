@@ -8,3 +8,12 @@ datasets-positioning =
 datasets-speech-bubble-content = حيرت ڪريا وارِيون کٻرِيُون! بيَ ساکتا تقرير آيا وارِي سي! اپڍيٽس ۿارُو امان ڀيرا ريو انين تازِي مالُومات ۿارُو امارا</discordLink>ڍِسڪورڍ<discordLink> نين کاترِي ٿِي چيڪ ڪرتا ريو۔
 language = ٻولِي
 download-dataset-header = ڍيٽاسيٽ ڍائونَ لوڍ ڪرو
+download-delta-explainer = امين ڪانڪ تٻۮِيلِيُون ڪرِيون سي۔ ڍيلٽا نان حِصان مان آکرِي رِليز ٿِي لئينَ تازان ڪِلِپ شامِل سي۔ <deltaLink> آ ڪام نا ٻارا مان وڌيڪ ڀڻو</deltaLink>۔
+download-dataset-tag = زين ٻولِي نِي ضرورت سي اِي ڍيٽاسيٽ سونڍو انين زين ورينَ تمين چاۿو سو اِي ڍائونَ لوڍ ڪرو۔
+# File size in gigabytes
+size = سائيز
+validated-hr-total = تصۮيق ٿل ڪُل ڪلاڪ
+overall-hr-total = ٻڌائيَ ٿئينَ ڪُل ڪلاڪ
+cv-license = ليسڻ (لائيسنس)
+audio-format = آڍِيو فارميٽ
+dataset-splits = ويراول (عمر انين جنس)

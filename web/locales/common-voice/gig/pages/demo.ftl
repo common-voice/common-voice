@@ -31,3 +31,4 @@ demo-listen-subtitle = هيسو ۮي سآرو تيٚيآر
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = زآتيٚ ڊيٚش بورڊ تم نيٚ ايٚڪلو آئينٚ برآدريٚ ريٚ ترڪيٚ سونٚ اپڊيٽ رآکي ڇي
