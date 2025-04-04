@@ -8,6 +8,7 @@ datasets-positioning =
     Kopējā balss daudzvalodu datu bāze jau ir lielākā šāda veida publiski pieejama balss datu kopa, bet tā nav vienīgā.
     
     Paskatieties uz šo lapu kā informācijas centru par citām atvērtā pirmkoda balss datu kopām un, tā kā kopējā balss turpina augt, mājās mūsu nākotnes atjauninājumiem.
+datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Sekojiet līdzi jaunumiem un noteikti pārbaudiet mūsu <discordLink>Discord</discordLink> jaunāko informāciju.
 language = Valoda
 download-dataset-header = Lejupielādējiet datu kopu
 download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.

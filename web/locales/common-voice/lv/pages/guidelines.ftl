@@ -3,6 +3,7 @@ guidelines-header = Vadlīnijas
 guidelines-header-subtitle = Izprotiet, kā pievienot un apstiprināt teikumus un ierakstus Common Voice datu kopā
 voice-collection = Ierakstu vākšana
 sentence-collection = Teikumu kolekcija
+question-collection = Jautājumu kolekcija
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,14 @@ domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vi
 
 ## Question collection ids
 
+adding-questions = Jautājumu pievienošana
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Kādi ir labi jautājumi?
+what-makes-a-good-question-explanation = Labam spontānās runas jautājumam vajadzētu:
+what-makes-a-good-question-explanation-criteria-1 = Būt viegli saprotamam un atbildamam
+what-makes-a-good-question-explanation-criteria-2 = Būt aktuālam jebkuram cilvēkam
+what-makes-a-good-question-explanation-criteria-3 = Nelietot un nemudināt uz aizskarošu valodu
+what-makes-a-good-question-tip = Apsveriet vai jautājums varētu attiekties uz vairākiem kontekstiem vai jomām.
+easy-to-understand = Viegli saprotams
