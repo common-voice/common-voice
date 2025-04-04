@@ -71,6 +71,7 @@ module.exports = (_env, argv) => {
         { from: 'releases', to: 'releases' },
         // copy the locales JSON files
         { from: '../locales', to: 'languages' },
+        { from: 'audios', to: 'audios' }, // copy audio files
       ],
     }),
 

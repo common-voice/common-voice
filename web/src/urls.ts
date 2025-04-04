@@ -11,6 +11,7 @@ export default Object.freeze({
   LISTEN: '/listen',
   WRITE: '/write',
   REVIEW: '/review',
+  VARIANT:'/variant_recognition',
 
   PROFILE,
   PROFILE_INFO: PROFILE + '/info',

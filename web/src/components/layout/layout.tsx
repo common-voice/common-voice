@@ -178,6 +178,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       `/${locale}${URLS.LISTEN}`,
       `/${locale}${URLS.WRITE}`,
       `/${locale}${URLS.REVIEW}`,
+      `/${locale}${URLS.VARIANT}`,
     ]
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO)
@@ -273,7 +274,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               )}
               <LocalizationSelectComplex
                 locale={locale}
-                userLanguages={user.account && user.account.languages ? user.account.languages.map(lang => lang.locale) : []}
+                userLanguages={
+                  user.account && user.account.languages
+                    ? user.account.languages.map(lang => lang.locale)
+                    : []
+                }
                 onLocaleChange={this.handleLocaleChange}
               />
               <button
