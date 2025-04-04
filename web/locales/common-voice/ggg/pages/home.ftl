@@ -179,3 +179,5 @@ press-and-stories-link = پريس اور ڪهاڻيونٚ
 partner-section-title = همآ دي ڀآئيوآري
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٽيڪنآلوجيٚ ڪمپنيونٚ</bold> - هڪ سُرسبج وڌوآݪيٚ ملٽي لنگويج AI مآهولو تآڻيٚ کُلريٚ ڊيٽآ سيٽ هٽآوآ مي سيڙپ ڪرسي
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>شيهري سمآج اور اديڪآر</bold> - اسردآر ڊيٽآ سيٽ مُڦتو مي ٺآوو، ميجبآني ڪآوو اور بِرآوو

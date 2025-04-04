@@ -73,6 +73,7 @@ about-playbook-how-add-language-content-1 =
     اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انُواد کرنا، اور ٻول بھیݪے کرنا
 about-playbook-how-add-language-translating-heading = سائٹا کا انُواد
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = ٻول بھیݪے کرنا
 
 ## How does localization work
 
