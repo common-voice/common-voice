@@ -121,3 +121,4 @@ contribution-misreadings-example-7-title = مہ کافی پئ سو دَن با �
 contribution-misreadings-example-7-explanation = [اصل لکیل مہ "اے" نہ تھو ]
 contribution-misreadings-example-8-title = بمبل بی سو زریعہ گھِن۔
 contribution-misreadings-example-8-explanation = [میلائ نہ ھویں والہ مشتملات]
+contribution-varying-pronunciations-title = گڈ وَڈ تلفظ

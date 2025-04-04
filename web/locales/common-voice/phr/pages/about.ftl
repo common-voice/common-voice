@@ -83,6 +83,10 @@ about-playbook-how-localize-content-5 = مدد آسطے اساں نیاں تفص
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = میں جملے کس طرح شامل کراں؟
+about-playbook-how-add-sentences-content-1 = تس جملے رائٹ پیج اوپر شامل کری سکنے آ<writePageLink> یا ریویو پیج اوپر جملیاں کی ریویو کری سکنے آ </reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = جملے دو لوک لازمی ریویو کری قبول کرلے تے فیر کامن وائس اوپر شامل ہولے۔ تس اتھان اپنی زبان نی رہنمائی بنائی سکنے آ <languageGuidelinesLink>۔ جملے عوامی ہونے چاینے تے پندرہ لفظاں سی کم ہونے چاینے۔ تس لخائی نے مالکا کی آخی جملے بنائی سکنے آ <waiverLink>تے اساں ویور پراسس </waiverLink> استعمال کری تے اساں  کی commonvoice@mozilla.com اوپر پہیجی سکنے آ
+about-playbook-how-add-sentences-content-3 = تس جملیاں نا ایکسٹریکٹر استعمال کری وکی پیڈیا سی مختصر جملے وی ادھار ہنی سکنے آ
 
 ## How to record quality
 
