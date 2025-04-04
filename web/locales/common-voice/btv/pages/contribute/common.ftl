@@ -143,3 +143,5 @@ contribution-background-voices-example-1-explanation = تُو یا ؟ <strong>[�
 contribution-volume-title = والیوم
 contribution-volume-description = پڑے والوں سو والیوم مہ قدرتی فرق ھووینݜ۔  رد گر کہ والیوم ڙھؤ اوچت تھو چہء سو رکارڈنگ شارا یا جل عام طور رے  اگر کہ سو ڙھؤ کم تھو چہء تو ݜواں نئ چوں منو پکار تھو بغیر حوالہ نو لکیل ئے۔
 contribution-reader-effects-title = پڑے والہ سو اثرات
+contribution-reader-effects-description = زیات تر ریکاڈنگ تیوں لوں سو ھواں چہء سے اپئیں قدرتی اواز مہ بیاد گرہ تھہ ۔توس کدی کدی غیر معیاری ریکاڈنگ قبول گر ھون تہ چہء کاں چیغ دے تہ ،پُھش پُھش گرہ تھہ،یا واضحہ ڈرامائ  اواز مہ اڑا تھہمہربانی گیری گائ والہ آ کمپیوٹر مہ ترتیب دیتیل اواز استعمال گرے والہ لو رد گریا
+contribution-just-unsure-title = بلکل غیر یقینی ؟
