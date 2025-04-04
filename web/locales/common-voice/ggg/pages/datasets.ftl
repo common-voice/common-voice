@@ -45,3 +45,5 @@ no-information = ڪوئيٚ کبر ڪونآ
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ <docsLink> کُلرو سورس ٽول ڪٽ </docsLink> ايڪ ™</githubLink>NeMo مآڊل ٺآريهرآ هون AI  جيڪو پرآڻي ٻولي ٻولوآݪآ
 resource-deepspeech-info = جي آوپن سورسو ڪآ آوآجو ڪي آوݪکآنديآݪي اجڻ Mozilla ڊيپ اسپيچي ڪو استمآل ڪرسگدوئي تڪريري ڪي اوݪکآندي ڪي ايپليڪيشني ڪوُ ٺآوآ لآ همرو پڙهو يآن<githubLink>سيڪوآ لآ </discourseLink>DeepSpeech Discourse<discourseLink> شروُ ڪرآن
 resource-coqui-info = <coquiLink>Coqui</coquiLink> اسپيچ ٽيڪنآلآجييو ڪوُ کولوآ لآ وڪڦو ڪررو گو هي. اُنآ ڪآ منسوبآ مي ايس ٽيٚ ٽيٚ ائيٚنٚ ٽيٚ ٽيٚ ايس انٚجڻيٚ پي ٻنٚدريٚ ڊيپ لرننگ شآمل هي.
+community-playbook = ڪميونٽيٚ کيلوآ ڪو ڪتآب
+resource-playbook-info = <playbookLink> مدتيآݪآ سبڪ ڍونٚڊو</playbookLink>سآرآ آم آوآجو ڪآ سڦرو پي، لوڪلآئيجيشنو دي ليڪي  ڊيٽآ سيٽو ڪآ استمآلو تآئيٚنٚ،  ائيٚنٚ ڀيݪي ڀيݪي همريٚ ڪميونٽيو دي ڪيسي ملي

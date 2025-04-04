@@ -63,3 +63,7 @@ dataset-metadata-age = عمر
 donate-modal-message = تمارون ڍيٽاسيٽ ڍائونَ لوڍ ٿائيَ سيَ ريون!
 dataset-donate-modal-heading = شون تمان نين کٻرِ سي۔۔۔!
 donate-modal-explanation-1 = امارا ڪام ماٿيَ ڀرونۿو ڪريا واريان 100 ٿِي ماٿيَ ٻولِي وارِيون ڀراڌريان ۿارُو ڍيٽاسيٽ هلووون (هوسٽ) انين پليٽفارم نين بيۿتر ٻنايا ۿارُو لڳ ڀڳ ايڪ ملينَ ڍالر خرچ ٿائيَ سي۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>زو تمين کُلل جامع ڍيٽا نِي قڌر ڪرو سو تو آزز ۮانَ ڪرو!</bold>
+data-download-singleword-title = ايڪز هڌڦِي لڦظ نا حِصا نين ڍائونَ لوڍ ڪرو
+data-download-singleword-callout-v2 = آ ايڪ اِستمال نا ڪيس ماٿيَ ٻنڌال حِصو سي زين مان ٻولِيا وارون انگھان نِي اورکاڻِ انين ها/نا نِي اورکاڻِ نين طاقت ۮيڌا ۿارُو ڍيٽا شامِل سي۔

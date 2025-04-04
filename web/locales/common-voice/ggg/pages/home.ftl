@@ -85,6 +85,7 @@ transcribe-audio-coming-soon = نڪليٚ ڪي آڊيو<small>( ڪلدي آهي�
 transcribe-audio = نڪلينٚ ڪيٚ آڊيو
 press-and-stories = پريس اور ڪهآڻيونٚ
 community-and-languages = ڪميونٽيٚ اور ٻوليٚ
+coming-soon = جلدي آرهيورو هي
 
 ## MENU ITEMS TOOLTIPS
 
@@ -122,6 +123,7 @@ spontaneous-card-header = ڦِتري ٻآت چيٚت
 spontaneous-card-content = حوالآ ڪو جبآب ڪيٚ،آم اور مڪآميٚ مآحولو مي ڊيٽآ سيٽ ٺآوو۔ جِبآنيٚ تورو پر ٻوليآنٚ تآڻي مڪمل۔
 language-text-card-header = ٻوليو ڪيٚ لِکت
 language-text-card-content = اوآمي دآيئرآ ڪيٚ ميل، جُملآ ڪآ، اور ترجمو ڪروو، نهينيٚ ٻوليو ڪيٚ ماڊلسآنٚ تآڻي مواد ٺآوآوو جآنٚ شيئر ڪرو۔
+add-text = لِکت لگآوو
 
 ## Community section
 
