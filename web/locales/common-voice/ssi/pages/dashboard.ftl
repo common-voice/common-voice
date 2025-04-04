@@ -52,6 +52,9 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ایک لکشے پک کرو
 cant-decide = نیرٹؔے نائی کری سِکیرے؟
+how-many-per-day = مہان! ایکی دؔنام  کترے کلپس ہے؟
+how-many-a-week = مہان! ایکی سپتیم  کترے کلپس ہے؟
+which-goal-type = کیا آپ ٻولٹؔا، سُٹؔنا یا دُؔونھیں کرنا چاوہتے ہے؟
 
 ## Goals
 
