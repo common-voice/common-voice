@@ -6,3 +6,8 @@ add-questions-terms-checkbox = * زو تصدیق کینیم تے کہ مو سو�
 question-dataset-language = ڈیٹاسیٹ { $datasetLanguage }
 add-question-error-message = اپلوڈ چے ݰوئے، براہ مہربانی دیبارو کوشش کن
 add-question-too-many-questions-error = ژے 500 سوالف زیات ݰوئے۔ ڤے سوالف کباؤ خو دیبار کوشش کن۔
+# Guidelines
+add-question-guidelines-title = څیمی سوال زو شامل کڑا کرکینیمآ؟
+do-section-title = کن
+do-section-guideline-1 = صحیح املو اڤن گرائمر استعمال کن
+do-section-guideline-2 = سادو سوالے غورا یئے سافف ڤزدا بݰ فرمے۔ نے ثقافت و علاقائیتن چے اوژر
