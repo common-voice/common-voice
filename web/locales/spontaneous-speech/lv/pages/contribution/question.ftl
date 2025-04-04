@@ -25,3 +25,6 @@ do-section-guideline-1 = Izmantojiet pareizu pareizrakstību un gramatiku
 do-section-guideline-2 = Izvēlieties vienkāršus jautājumus, ko viegli saprast ikvienam neatkarīgi no pieredzes vai konteksta
 do-section-guideline-3 = Pārliecinieties, ka uz jautājumiem var atbildēt pāris teikumos
 do-not-section-title = nedariet tā
+do-not-section-guideline-1 = Mudiniet iesniegt personu identificējošu informāciju (piemēram vārdus vai finanšu datus)
+do-not-section-guideline-2 = Paudiet vai mudiniet paust aizspriedumus vai aizskarošus apgalvojumus
+do-not-section-guideline-3 = Uzdodiet sensitīvus jautājumus
