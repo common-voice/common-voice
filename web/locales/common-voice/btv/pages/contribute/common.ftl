@@ -139,3 +139,7 @@ contribution-background-voices-title = پتن سو اواز
 contribution-background-voices-description = یک پرسکون پتن حب بب ٹھیک تھو لیکن بے اضافی اواز نہ لوکھہ تھہ چہء تسئیں وجہ رے مشین الگورتھم اش الفظ سو نشاندہی گر ہئیں کاں چہء لکیل مہ نہ تھے اگر کہ تس لکیل نو علاوہ اَن اَن الفاظ ݜؤں ھون تہ تے کلپ رد گرو پکار تھو عام طور رے اش ھواں چہء تیزا ٹی وی څھور رہ تہ یا کسائ لھے بیاد جاری ھواں۔
 contribution-background-voices-description-extended = اگر کہ ریکارڈنگ مہ رکاوٹ تھی،یا مز شور یا، رد گر تی تیار چہء اواز صاف ݜواں نہ بزے
 contribution-background-voices-example-1-title = ٹرائسک سو ڙھؤ گھؤں ڈائناسور<strong> [یک اواز مہ پڑ] </strong>
+contribution-background-voices-example-1-explanation = تُو یا ؟ <strong>[پرئیں کیں اواز گی </strong>]
+contribution-volume-title = والیوم
+contribution-volume-description = پڑے والوں سو والیوم مہ قدرتی فرق ھووینݜ۔  رد گر کہ والیوم ڙھؤ اوچت تھو چہء سو رکارڈنگ شارا یا جل عام طور رے  اگر کہ سو ڙھؤ کم تھو چہء تو ݜواں نئ چوں منو پکار تھو بغیر حوالہ نو لکیل ئے۔
+contribution-reader-effects-title = پڑے والہ سو اثرات
