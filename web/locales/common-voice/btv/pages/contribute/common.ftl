@@ -136,3 +136,6 @@ contribution-background-noise-example-2-fixed-title = ڙھؤ گھؤں ڈینو <
 contribution-background-noise-example-2-explanation = [لکیل سو حصہ ݜؤآں نہ بزا]
 contribution-background-noise-example-3-fixed-title = <strong> شور </strong>  ڙھؤ گھؤں ڈائناسور <strong> شور </strong>رائسک
 contribution-background-voices-title = پتن سو اواز
+contribution-background-voices-description = یک پرسکون پتن حب بب ٹھیک تھو لیکن بے اضافی اواز نہ لوکھہ تھہ چہء تسئیں وجہ رے مشین الگورتھم اش الفظ سو نشاندہی گر ہئیں کاں چہء لکیل مہ نہ تھے اگر کہ تس لکیل نو علاوہ اَن اَن الفاظ ݜؤں ھون تہ تے کلپ رد گرو پکار تھو عام طور رے اش ھواں چہء تیزا ٹی وی څھور رہ تہ یا کسائ لھے بیاد جاری ھواں۔
+contribution-background-voices-description-extended = اگر کہ ریکارڈنگ مہ رکاوٹ تھی،یا مز شور یا، رد گر تی تیار چہء اواز صاف ݜواں نہ بزے
+contribution-background-voices-example-1-title = ٹرائسک سو ڙھؤ گھؤں ڈائناسور<strong> [یک اواز مہ پڑ] </strong>
