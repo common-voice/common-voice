@@ -40,6 +40,18 @@ want-to-continue = ڪِي ٿيَ جارِي راکڻ چاھو ھو؟
 finish-editing = پيلڪو تبديلِي پورِي ڪرو؟
 lose-changes-warning = ھيڻو روکڻ رو مطلب ٿيَ آپريَ تبديليَ وڃائيَ ڇوڙھو
 build-custom-goal = ضروري حدف ٺائو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] پُڳڻ ۾ مدد ڪرو{ $hours }ڪلاڪ ۾{ $language } زاتِي مقصد ھون
+       *[other] پُڳڻ ۾ مدد ڪرو{ $hours }ڪلاڪون ۾{ $language } زاتِي مقصد ھون
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] ڪامن وائس رِي پُڳڻ ۾ { $hours }زاتي مقصد ھون ڪلاڪ ۾
+       *[other] ڪامن وائس رِي پُڳڻ ۾ { $hours }زاتي مقصد ھون ڪلاڪون ۾
+    }
+set-a-goal = حدف سيٽ ڪرو
+cant-decide = فيصلو ڪونِي ڪريَ ݾگون ھون؟
 
 ## Goals
 
