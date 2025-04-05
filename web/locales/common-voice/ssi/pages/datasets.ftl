@@ -37,3 +37,5 @@ subscribe = سبسکرائب
 get-started-speech = بھاشݨا کی اوݪکھا کے ساتھ سََرو کرو
 other-datasets = دؔوجی آواج ڈیٹا سیٹس
 feedback-q = کوئی رائے ہے؟
+# This indicates that there is no data to display
+no-information = کوئی جانکاری نائی تی
