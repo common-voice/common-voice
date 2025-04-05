@@ -111,7 +111,7 @@ about-playbook-how-record-content-5 = <accuracyLink> وديڪ جو سھي ڪري
 
 about-playbook-how-grow-language = امي ڪيڪر سھي طريقا مون ايڪ ٻولي ني عام آواز تي ودھاوي سگھو
 about-playbook-how-grow-language-content-1 = مينکو ري طعنو ھارو موقعا پيدا ڪريا ھاروڪامن وائس ۾ حصو ليدا ني ڀروسا مين ٺاھي ھي ٽو ڌيٽا سيٽ جيتو اونچو ھوئي سگھي ھين مينکو ري خدمت ڪري امي وسيلا ھين ٽيمليٽ ٺاھيا ھي جي ني تمي استعمال ڪري ھگو
-about-playbook-how-grow-language-content-2 = ويتيڙي
+about-playbook-how-grow-language-content-2 = ويتيوڙي
 
 ## How to validate
 
