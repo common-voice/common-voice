@@ -27,6 +27,18 @@ varying-pronunciations-tip-2 = [برطانويٚ انگريجيو مي هو سڪ
 offensive-content-explanation = جُملآ ڪوُ ڪميونٽيو ڪآ ترڪ وآݪآ ڪآمو ڪي جريئي جآنچرو جآندو هي، جد تو وو ڪآم پورو ڪونآ هي۔ جد تِمي ڪو ايسو جُملو ديکو يآ سُڻو جيڪو تِمآ ڪوُ ريس دُوآوي جآنٚ تِمآ ڪو پرشآن ڪري۔ مسآل ڪآلي تو وو همري </participationGuidelines> ڪميونٽيٚ شآمل هوآ ڪي هدآيت<participationGuidelines> مي جھنڊآݪآ بٽڻو ڪوُ استمآل ڪرو۔ تِمي بي همآ دي رآبتو ڪرو UI کِلآڦ هي۔ ميهربآنيٚ ڪر ڪيٚ commonvoice@mozilla.com ڪر سڪدآ هو۔
 misreadings-explanation-1 = سڦآ پر سب گُڦتآنٚ ڪوُ سئي تريڪآ دي پڙهوو جرُري هي۔ جد سُڻو، ڀوت ديکڀآل ڪي چيڪ ڪرو تو جيڪو رڪآرڊ ڪرو گو هي وو ئي هي جيڪو لِکرو گو هي، هٽآوو ڪد وي شآمل ڪرآ گآ هينٚ، مآهدو جآنٚ يآد ڪرو گُڦتو
 misreadings-explanation-2 = سآري آم گلتونٚ شآمل هينٚ:
+misreadings-explanation-3 = رڪآرڊيگي ڪي شُروآتي مي  'A' جآنٚ 'The' گُم۔
+misreadings-explanation-4 = ڪِرو گُڦتآ ڪآ آکرو مي ’s‘ گُم هي۔
+misreadings-explanation-5 = پڙهوآ ڪآ ڇآپآ جيڪي هَڪيٚڪَتيٚ مينٚ ڪونآ هينٚ جيسي "همينٚيو" دي "همينٚ هيونٚ" يآ اُرو دي بي الگ
+misreadings-explanation-6 = ريڪآرڊينٚگي ڪوُ جلديٚ ڪآٽوآ دآ اکرو ڪآ گُڦتآ ڪآ آکروڪوُڪآٽ ديئو۔
+misreadings-explanation-7 = ايڪ گُڦتو پڙهوآ ڪي ڪوششي ڪوُ اُٺآوو
+misreadings-example-1 = همينٚ ٻآهر سِليمآنيٚ چآنٚه  ليوآ جآ ريهرآ هونٚ
+misreadings-example-2 = همي ٻآهر جآرهيرآ هونٚ سليمآنيٚ چآئينٚ ليوآ۔
+misreadings-example-3 = همينٚ ايڪ سِليمآني چآنٚه ليوآ تآڻي ٻآهر جآرهيرآ هون.
+misreadings-example-4 = بمبليٚ تيج رڦتآريٚ دي گجردي.
+misreadings-tip-1 = [هوڻ کپي "همينٚ هونٚ"]
+misreadings-tip-2 = اسل سآمانو مينٚ ڪو‘ا’ ڪونآ هي۔
+misreadings-tip-3 = بي ڊولو سآمآن
 
 ## Sentence collection nav ids
 
