@@ -102,6 +102,10 @@ about-playbook-how-add-sentences-content-3 = تمي جملا استعمال ڪر
 
 about-playbook-how-record-quality = ھون ايڪ سٺا نمونہ رو آواز ري ڪلپ رآڪارڌ ڪرو سگھو ھون
 about-playbook-how-record-content-1 = آپري عام آواز ۾ ٻولو تما ري ٻوليا ري طريقا ني ڀليڪار ھي اپي چاھون ھون تمو رو تلدظ جيم ھي ھين امي چاھون ھون ڪي تمو ري سادي آواز رو لھجو انداز ھين الٽرنيݾن
+about-playbook-how-record-content-2 = تموم گھڻو پس منظر گور مون بڇو او تموري ھڻياھارو اسون ھووہ کپي
+about-playbook-how-record-content-3 = جملا ني گور مون پڙو نا گوماڙو، تبديل ڪرو يا ميلاوُ
+about-playbook-how-record-content-4 = پڪ ڪرو ڪي پليٽ فارمتمو ري ٻوليا ري ݾروع ڪريا مون پيري ريڪارڌ ڪري رھيو ھي ھين آ صرف ايڪ دفا تمو ني زتم ڪروہ کپي
+about-playbook-how-record-content-5 = <accuracyLink> وديڪ جو سھي ڪريا ري معيار تي</accuracyLink>
 
 ## How to grow language
 
