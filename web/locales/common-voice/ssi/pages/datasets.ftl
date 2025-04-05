@@ -31,3 +31,4 @@ confirm-join-mailing-list = آپ عام آواج میلنگ سُوچیام  سی
 download-language = ڈاؤن لوڈ { $language }
 validated-hours = پکا کلاک
 recorded-hours = ریکارڈ کروڑا کلاک
+whats-inside = سادھارݨ آواج ڈیٹا سیٹا کے مھم کیا ہے؟

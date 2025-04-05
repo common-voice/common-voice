@@ -24,6 +24,9 @@ varying-pronunciations-explanation-2 = دوسري پآسي، جد تِمي سو�
 varying-pronunciations-example = رستو سآڦ ڪونآ تو۔
 varying-pronunciations-tip-1 = [ڪينيڊآ ڪيٚ انگريجيو مي هو سڪدو هي "رستو" آواج "روٽ" جيسي]
 varying-pronunciations-tip-2 = [برطانويٚ انگريجيو مي هو سڪدو هي "روٽ"]
+offensive-content-explanation = جُملآ ڪوُ ڪميونٽيو ڪآ ترڪ وآݪآ ڪآمو ڪي جريئي جآنچرو جآندو هي، جد تو وو ڪآم پورو ڪونآ هي۔ جد تِمي ڪو ايسو جُملو ديکو يآ سُڻو جيڪو تِمآ ڪوُ ريس دُوآوي جآنٚ تِمآ ڪو پرشآن ڪري۔ مسآل ڪآلي تو وو همري </participationGuidelines> ڪميونٽيٚ شآمل هوآ ڪي هدآيت<participationGuidelines> مي جھنڊآݪآ بٽڻو ڪوُ استمآل ڪرو۔ تِمي بي همآ دي رآبتو ڪرو UI کِلآڦ هي۔ ميهربآنيٚ ڪر ڪيٚ commonvoice@mozilla.com ڪر سڪدآ هو۔
+misreadings-explanation-1 = سڦآ پر سب گُڦتآنٚ ڪوُ سئي تريڪآ دي پڙهوو جرُري هي۔ جد سُڻو، ڀوت ديکڀآل ڪي چيڪ ڪرو تو جيڪو رڪآرڊ ڪرو گو هي وو ئي هي جيڪو لِکرو گو هي، هٽآوو ڪد وي شآمل ڪرآ گآ هينٚ، مآهدو جآنٚ يآد ڪرو گُڦتو
+misreadings-explanation-2 = سآري آم گلتونٚ شآمل هينٚ:
 
 ## Sentence collection nav ids
 
