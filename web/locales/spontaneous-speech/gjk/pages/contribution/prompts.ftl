@@ -9,6 +9,15 @@ error-skipping = آ سوال نين ميچا ٽاڻيَ ايڪ کراٻِي پي
 error-recording = رڪارڊينگ ڌوران ايڪ کراٻِي پيش آوِي۔
 error-fetching-prompts = اِشارا ني ڌورانَ ڪانڪ ڳلتِي ڇئِي۔ ميرٻانِي ڪرين ڪانڪ وار وانھين وري ڪوشِش ڪرو۔
 error-uploading-response = تمارو زٻاپ اپلوڊ ڪريا ٽاڻيَ ايڪ کراٻِي پيش آوي سي
+prompt-submitted-success = زٻاپ ڪامياٻِي ٿِي جمع ٿئِي جھو سي
+prompt-response-deleted-success = زٻاپ ڪامياٻِي ٿِي کتم ٿئِي جھو سي
+# For the button to delete a response to a prompt
+delete = کتم ڪروون
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = جمع ڪروون
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = ٻڌونئين جمع ڪرو
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = شيکو ڪي آ صفہ نين ڪيم استعمال ڪروو سي

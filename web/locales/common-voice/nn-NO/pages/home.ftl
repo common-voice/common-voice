@@ -103,10 +103,12 @@ get-started = Kom i gang <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd dataskaping
+action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
 add-text = Legg til tekst
 
 ## Community section
 
+community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
 contribute-github = Bidra på Github
@@ -115,6 +117,8 @@ contribute-github-action = Bidra på Github
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Last ned pressepakken vår <icon></icon>
 
 ## Developers section
 
