@@ -37,3 +37,5 @@ other-datasets = ٻيجيَ آوازون ريَ مواد ريَ سيٽون ۾
 feedback-q = ڪِي رائيَ ھيَ؟
 # This indicates that there is no data to display
 no-information = ڪو معلومات ڪونِي
+resource-nemo-info = <githubLink>ناوِڊيا نيمو</githubLink>™ھي<docsLink>اوپن ۔ سورس ٽُول ڪِٽ</docsLink> جديد وات ڪرڻ آݪيَ AI ماڊل ٺان آݪيَ تحقيق ڪرڻ آݪو ھارو۔
+resource-deepspeech-info = موزيلا رو اوپن سورس وائس ريَ اوݪکوڻ آݪو انجن ڊيپ اسپيچ آواز رِي اوݪکوڻ رِي ايپليڪيشن ٺاڻ ۾ استعمال ھوئيَ ݾگيَ ھيَ۔ پڙھو مھوريَ<githubLink>گِٿ اورويو</githubLink>يا جوئن ڪرو<discourseLink>ڊيپ اسپيچ ڊسڪورس</discourseLink>ݾيکڻ ھارو ڪہ ڪونڪر شروع ڪريَ ݾگون ھون۔
