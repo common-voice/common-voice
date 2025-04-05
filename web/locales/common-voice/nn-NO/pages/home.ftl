@@ -83,6 +83,7 @@ add-questions = Legg til spørsmål
 add-questions-coming-soon = Legg til spørsmål <small>(kjem snart)</small>
 transcribe-audio-coming-soon = Transkriber lyd <small>(kjem snart)</small>
 transcribe-audio = Transkriber lyd
+press-and-stories = Presse og historier
 community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
 
@@ -122,15 +123,22 @@ add-text = Legg til tekst
 ## Community section
 
 community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
+join-discord-community = Ver med i Discord-fellesskapet
+# label for button
+join-discord-community-action = Ver med oss på Discord
 find-us-on-matrix = Finn oss på Matrix
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
+# label for button
+ask-mozilla-share-action = Del arrangementet ditt
+download-contribution-certificate = Last ned bidragsbeviset ditt
 contribute-github = Bidra på Github
 # label for button
 contribute-github-action = Bidra på Github
 
 ## Featured section
 
+featured-section-title = Presentert i…
 # icon is an arrow that points downwards
 download-press-pack = Last ned pressepakken vår <icon></icon>
 
@@ -141,7 +149,11 @@ developers-section-title = Offentleg tilgjengelege opne taledatasett på over 13
 ## Get involved section
 
 read-sentences-link = Les setningar
+validate-readings-link = Valider innlesingar
+contribute-link = Bidra til tekstkorpus
 answer-questions-link = Svar på spørsmål
+transcribe-answers-link = Transkriber svar
+review-transcriptions-link = Vurder transkripsjonar
 contribute-text-link = Bidra med tekst
 press-and-stories-link = Presse
 
