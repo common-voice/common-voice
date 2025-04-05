@@ -58,3 +58,14 @@ download = ڊائون لوڊ
 dataset-version = ورزن
 sha256-checksum-copied = ايس ايچ اي 256 چيڪ رو مجموعو ڪاپي ھوئوڙو!
 sha256-checksum-copied-error = ايس ايچ اي 256چيڪ رو مجموعو ڪاپِي ڪرڻ ۾ ناڪام ھوئو
+clipboard-not-supported = ڪلِپ بورڊ نِي وئو مدد ڪريَ
+no-information-available = ڪو معلومات موجود ڪونِي
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = ٿونرو مواد رو سيٽ ڊائون لوڊ ھوئيَ پڙيو!
+dataset-donate-modal-heading = ڪِي ٿونيَ خبر ھتي…
+donate-modal-explanation-1 = مھوريَ ڪوم تيَ ڀروسو ڪرڻ آݪيَ سئو کان وڌيڪ ٻوليون ريَ برادريون ھارو مواد ريَ سيٽ ري سنڀال ھان پليٽ فارم نيَ بھتر ٺاڻ تيَ ھر سال لڳ ڀڳ ڏيھ لک ڊالر خرچ ھوئيَ ھيَ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>جيَ ٿيَ اوپن، جامع مواد رِي قدر ڪرو ھو تو آج ئي خيرات ڪرو!</bold>
+data-download-singleword-title = حدفي ھيڪيَ اکر ريَ ٽڪڙيَ نيَ ڊائولوڊ ڪرو
