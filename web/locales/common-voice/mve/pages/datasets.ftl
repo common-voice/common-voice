@@ -39,3 +39,6 @@ feedback-q = ڪِي رائيَ ھيَ؟
 no-information = ڪو معلومات ڪونِي
 resource-nemo-info = <githubLink>ناوِڊيا نيمو</githubLink>™ھي<docsLink>اوپن ۔ سورس ٽُول ڪِٽ</docsLink> جديد وات ڪرڻ آݪيَ AI ماڊل ٺان آݪيَ تحقيق ڪرڻ آݪو ھارو۔
 resource-deepspeech-info = موزيلا رو اوپن سورس وائس ريَ اوݪکوڻ آݪو انجن ڊيپ اسپيچ آواز رِي اوݪکوڻ رِي ايپليڪيشن ٺاڻ ۾ استعمال ھوئيَ ݾگيَ ھيَ۔ پڙھو مھوريَ<githubLink>گِٿ اورويو</githubLink>يا جوئن ڪرو<discourseLink>ڊيپ اسپيچ ڊسڪورس</discourseLink>ݾيکڻ ھارو ڪہ ڪونڪر شروع ڪريَ ݾگون ھون۔
+resource-coqui-info = <coquiLink>ڪوقِي</coquiLink>اوپن اسپيچ ٽيڪنالاجي ھارو وقف ھيَ۔ايون ريَ  منصوبون ۾ ڊيب لرننگ تيَ ٺيوڙو ايس ٽِي ٽِي ھان ٽِي ٽِي ايس انجن شام ھيَ۔
+community-playbook = ڪميونٽِي پليَ بُڪ
+resource-playbook-info = <playbookLink>مددگار رھنمائيَ تلاش ڪرو</playbookLink> ڪامن وائس ريَ پوريَ سفر تيَ۔ لوڪلائيزيشن ھون ليَ مواد ريَ سيٽ تائين ھان ايئيَ ڀيݪو ڪونڪر مھون ھون رابطيَ ۾ ريَ ݾگو ھو۔
