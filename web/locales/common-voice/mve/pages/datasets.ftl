@@ -69,3 +69,9 @@ donate-modal-explanation-1 = مھوريَ ڪوم تيَ ڀروسو ڪرڻ آݪي
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>جيَ ٿيَ اوپن، جامع مواد رِي قدر ڪرو ھو تو آج ئي خيرات ڪرو!</bold>
 data-download-singleword-title = حدفي ھيڪيَ اکر ريَ ٽڪڙيَ نيَ ڊائولوڊ ڪرو
+data-download-singleword-callout-v2 = اَي ھيڪ استعمال ريَ ڪيس ٻاڌوڙي حصو ھيَ جڪيَ ۾ ٻولڻ آݪيَ رِي اوݪکوڻ ھان ھويَ۔نا رِي اوݪکوڻ تيَ زور ڏيڻ ھارو ڊيٽا شامل ھيَ۔
+data-download-button = ڪامن وائس رو مواد ڊائون لوڊ ڪرو
+data-download-yes = هاويَ
+data-download-deny = نا
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-download-modal = ٿيَ ڊائون لوڊ شروع ڪرڻ آݪا ھو<size>{ $size }جي بي</size>،آگھي وڌو؟
