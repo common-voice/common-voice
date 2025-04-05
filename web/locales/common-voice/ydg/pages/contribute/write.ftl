@@ -35,6 +35,7 @@ single-sentence-submission = یو جملو جمع کن
 ## MENU ITEM TOOLTIPS
 
 add-questions-menu-item-tooltip = دے خوئے زبان سوالے شامل کن
+transcribe-audio-menu-item-tooltip = دے خوئے زبان ڤے آواز رکارڈنگف دے نوختا آڤاز
 
 ## MENU ITEM ARIA LABELS
 
