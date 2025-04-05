@@ -7,3 +7,15 @@ datasets-speech-bubble-content = دلچسپ خبرون! بيَ ساختا تقر
 language = ٻولِي
 download-dataset-header = مواد ريَ سيٽ نيَ ڊائون لوڊ ڪرو
 download-delta-explainer = مھون ڪجھ تبديليَ ڪيئيَ ھون۔ ڊيلٽا سيگمينٽون ۾ آخرِي رليز ھون وٺي تازيَ ڪلِپ ڀيڙيَ ھيَ۔
+download-dataset-tag = جڪو کپيَ اوئون ٻوليو ريَ مواد ريَ سيٽ نيَ چونڊوھان او ورجن چونڊو جڪو ٿيَ ڊائون لوڊ ڪرڻ چاھو ھو۔
+# File size in gigabytes
+size = ماپ
+validated-hr-total = تصديق ھوئوڙا ڪُل ڪلاڪ
+overall-hr-total = ڪُل ڪلاڪ
+cv-license = لائسنس
+audio-format = آڊيو فارميٽ
+dataset-splits = حصا ڪرڻ (جمارھان جنس)
+number-of-voices = آوازون رو انگ
+splits = حصا
+email-to-download = اي ميل لکو ڊائون لوڊ ڪرڻ ھارو
+why-email = <b>ڪيون اي ميل؟</b>مھونيَ مستقبل ۾ مواد ريَ سيٽ ۾ تبديلي ھارو ٿون ھون رابطو ڪرڻ رِي ضرورت پڙھيَ،اي ميل مھونيَ رابطيَ رو نُقطو ڏيَ ھيَ۔
