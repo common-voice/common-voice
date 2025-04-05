@@ -25,6 +25,10 @@ add-sentence-success = 1 جملو بڑیچڤدغو ݰوئے
 add-sentence-error = نقص پیدا کڑغوز جملو
 required-field = مہربانی کن ڤیم ژاغہ پر کن
 single-sentence-submission = یو جملو جمع کن
+bulk-sentence-submission = جاہند زیات جلمو شامل کن
+single-sentence = یو (فګیغو)
+# Sentence Domain dropdown option
+agriculture_food = زمینداری اڤن خوراک
 
 ## BULK SUBMISSION
 
