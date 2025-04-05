@@ -88,12 +88,14 @@ coming-soon = Kjem snart
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnarskap, presse og historier, fellesskap og språk.
 partnerships-menu-item-tooltip = Bli partnar med oss
 press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
 community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Lær om partnarskap med Common Voice
 
 ## NEW HOME PAGE KEYS
 
