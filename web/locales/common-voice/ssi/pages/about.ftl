@@ -126,6 +126,7 @@ about-playbook-how-grow-language-content-8 = <strong>رچئِیتا ہوئی ج�
 ## How to validate
 
 about-playbook-how-validate = مِسکُو کِدؔ ٹھا پڑُوں گی کہ اواج کلپا کی منجُوری دؔیݨی ہے یا نائیں؟
+about-playbook-how-validate-content-1 = اگر آپ <strong>اِنکُو سُݨی سِکتے ہے</strong> اور <strong>انکُو سمجی سِکتے ہے</strong> تو ، آم توراپ  <strong>منجُوری دؔینا اجرا</strong> ہے۔
 
 ## How to access dataset
 
