@@ -22,6 +22,7 @@ how-to-cite-explanation-bold = ڤے یو آر ایل لنک غورا یا سے �
 guidelines = رہنمائی
 contact-us = لے ماخ رابطہ کن
 add-sentence-success = 1 جملو بڑیچڤدغو ݰوئے
+add-sentence-error = نقص پیدا کڑغوز جملو
 
 ## BULK SUBMISSION
 
