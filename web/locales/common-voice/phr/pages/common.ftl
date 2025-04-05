@@ -278,7 +278,9 @@ tig = ٹیگر
 tk = ترکمان
 tl = ٹیگالوگ
 tn = سیٹسوانا
+tob = توبہ قم
 tok = ٹوکی پونا
+top = پاپانٹلا ٹوٹناک
 tr = ترکی
 trw = توروالی
 ts = شٹسونگا
@@ -355,3 +357,8 @@ not-available-abbreviation = غیر متعلقہ
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = اساں کی تُساں نی مدد چاینی </mark>۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = سو تی زیادہ زباناں نی کمیونیٹیز جیڑیاں اساں نے کماں اوپر اعتبار کرنیاں اناں نے ڈیٹا سیٹ نی میزبانی تے پلیٹ فارم کی بہتر بنانے اچ  ہک سال اچ لکھاں ڈالر لغنے۔ اگر تُس کُھلے تے بہوں سارے ڈیٹا نی قدر کرنے آ تے اج ای عطیہ کرا!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = اپنی تحقیق آسطے سی وی ناں استعمال کرنے آ؟
+languages-donate-banner-cta-explanation = کامن وائس نی عطیے تے گرانٹس کنے مالی مدد ہونی! اساں کی تعلیم نے ماہرین، سول سوسائیٹی تے کاروباری تحقیق کرن آلیاں کنے رابطہ کرنا پسند زا۔ کامن وائس بغیر پیسیاں تی استعمال ہونا، لیکن گرانٹ نی تجویزاں نے ذریعے پلیٹ فارم تے میزبانی نی قیمت آسطے مدد واقعی فائدہ مند زی۔

@@ -139,6 +139,7 @@ about-playbook-how-access-dataset-content-2 = اگر آپ اے ایس آر ما�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پریوجنا کے نِرݨیں کِدؔا کرے جاتے ہے؟
 
 ## How is Common Voice funded
 
