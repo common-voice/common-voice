@@ -76,6 +76,7 @@ read-more-about = Les meir på Om oss-sida vår
 ## NAV ITEMS
 
 answer-questions = Svar på spørsmål
+answer-questions-coming-soon = Svar på spørsmål <small>(kjem snart)</small>
 review-transcriptions = Vurder transkripsjonar
 add-questions = Legg til spørsmål
 transcribe-audio = Transkriber lyd
@@ -84,6 +85,8 @@ coming-soon = Kjem snart
 ## MENU ITEMS TOOLTIPS
 
 partnerships-menu-item-tooltip = Bli partnar med oss
+press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
+community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
@@ -109,6 +112,7 @@ add-text = Legg til tekst
 ## Community section
 
 community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
+find-us-on-matrix = Finn oss på Matrix
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
 contribute-github = Bidra på Github
