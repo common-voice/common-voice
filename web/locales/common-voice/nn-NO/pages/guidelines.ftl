@@ -55,6 +55,7 @@ citing-sentences-subheader-offline-sources = Fråkopla kjelder
 citation =
     .label = Tilvising
 self-citation = Sjølvsitering
+self-citation-explanation = Slik siterer du deg sjølv når det er du som har skrive innhaldet.
 adding-sentences-subheader-length = Lengde
 adding-sentences-subheader-length-explanation = Setninga bør ha færre enn 15 ord.
 adding-sentences-subheader-spelling-punctuation = Stavemåte og teiknsetting

@@ -93,6 +93,10 @@ partnerships-menu-item-tooltip = Bli partnar med oss
 
 ## Hero section
 
+hero-title = Teknologi som snakkar ditt språk
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kvifor skal kunstig intelligens berre fungere for nokre få av språka i verda?</bold>
+hero-subtitle-2 = Språket vårt er historia vår, fellesskapet vårt, kulturen vår. La oss lage datasetta vi ønskjer å sjå i verda.
 # icon is an arrow that points downwards
 get-started = Kom i gang <icon><icon>
 
