@@ -105,7 +105,7 @@ get-started = Kom i gang <icon><icon>
 
 ## Action items section
 
-action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd dataskaping
+action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd datainnsamling
 action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
 add-text = Legg til tekst
 
