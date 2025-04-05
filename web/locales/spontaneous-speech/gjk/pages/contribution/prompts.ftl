@@ -24,3 +24,5 @@ learn-how-to-use-prompts = شيکو ڪي آ صفہ نين ڪيم استعمال 
 learn-how-to-use-prompts-explanation = رُوڳو سوال نو جواب زيٽلو ٿئِي ۿڳي مناسب انڌاز مان ٻي ڪان ترڃ جملان مان ڄو۔ پڪ ڪرو ڪي تمارِي ٻولِي احترام نا ڌائيرا مان انين  ڀي نقصان سي۔
 learn-how-to-use-prompts-guidance = آ صڦو ڪيم استعمال ٿاشي شيڇا ۿارُو </guidanceLink>اڃان<guidanceLink> ڪلڪ ڪرو
 learn-how-to-use-transcribe = اُوتار ڪريا نو طريقو شيکو
+learn-how-to-use-transcribe-explanation = زين ڪانئين اِي ماڻۿين ڪيڌون سي اِي بلڪل ايمز لکو، ايوا لڦظ شامِل ڪرو زيم 'ام' 'آرر' زين رُوچا ٽاڻي استعمال ٿائي سي۔
+learn-how-to-use-transcribe-guidance = آ صڦو ڪيم استعمال ٿاشي شيڇا ۿارُو </guidanceLink>اڃان<guidanceLink> ڪلڪ ڪرو
