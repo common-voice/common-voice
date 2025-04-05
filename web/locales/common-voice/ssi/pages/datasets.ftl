@@ -32,3 +32,4 @@ download-language = ڈاؤن لوڈ { $language }
 validated-hours = پکا کلاک
 recorded-hours = ریکارڈ کروڑا کلاک
 whats-inside = سادھارݨ آواج ڈیٹا سیٹا کے مھم کیا ہے؟
+want-dataset-update = جِدؔ ہم عام آواج ڈیٹا سیٹا کا نئوا ورژن جاری کرتے ہے تو اپ ڈیٹس چاوہتے ہے؟ مھارے نئوے پترے نتر سبسکرائب کرو.
