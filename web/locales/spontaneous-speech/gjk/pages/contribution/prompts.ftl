@@ -21,3 +21,4 @@ submit-all-button = ٻڌونئين جمع ڪرو
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = شيکو ڪي آ صفہ نين ڪيم استعمال ڪروو سي
+learn-how-to-use-prompts-explanation = رُوڳو سوال نو جواب زيٽلو ٿئِي ۿڳي مناسب انڌاز مان ٻي ڪان ترڃ جملان مان ڄو۔ پڪ ڪرو ڪي تمارِي ٻولِي احترام نا ڌائيرا مان انين  ڀي نقصان سي۔
