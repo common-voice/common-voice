@@ -3,6 +3,7 @@ guidelines-header = Retningslinjer for bidrag
 guidelines-header-subtitle = Forstå korleis du kan bidra og validere på Common Voice-datasettet
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+question-collection = Spørsmålsamling
 
 ## Voice Collection nav ids
 
@@ -21,6 +22,8 @@ example = Døme
 varying-pronunciations-example = Ruta var uklar.
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage «root»]
 misreadings-explanation-2 = Svært vanlege feil inkluderer:
+misreadings-explanation-3 = Det mangler «ein» eller «den» i starten av opptaket.
+misreadings-explanation-4 = Det manglar ein «s» på slutten av eit ord.
 misreadings-explanation-5 = Å slå saman ord utan at dei er slått saman i teksten, som å lese «harkje» i staden for «har ikkje», eller omvendt.
 misreadings-explanation-6 = Manglar slutten av siste ord ved å kutte av innspelinga for tidleg.
 misreadings-explanation-7 = Fleire forsøk på å lese eit ord.

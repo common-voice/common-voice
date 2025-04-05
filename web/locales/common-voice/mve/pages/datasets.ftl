@@ -77,3 +77,17 @@ data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-download-modal = ٿيَ ڊائون لوڊ شروع ڪرڻ آݪا ھو<size>{ $size }جي بي</size>،آگھي وڌو؟
 data-subtitle = مھيَ آوازون رو ھيڪ اوپن ھان عوامي طور تيَ موجود مواد رو سيٽ ٺائون پڙياجڪو ھر ڪو ٻولڻ آݪي ايپليڪيشنون نيَ تربيت ڏيڻ ھارو استعمال ڪريَ ݾگي ھيَ؟
 data-explanatory-text = مھونيَ يقين ھيَ ڪہ موٽيَ ھان عوامي عور تيَ موجود وائس ريَ مواد ريَ سيٽ مشيني سکيا تيَ ٻادوڙِي اسپيچ ٽيڪنالاجي ۾ جدت ھان مضبوط ڪاروبارِي مقابليَ نيَ ترقِي ڏيَ ھيَ۔اي ھيڪ عالمي ڪوشش ھيَ ھان مھون ݾينگون نيَ حصو ليڻ رِِي دعوت ڏيون ھون۔مھورو مقصد اسپيچ ٽيڪنالاجي نيَ وڌيڪ مضبوط ٺاڻ ۾ مدد ڪرڻ ھي، جڪو دنيا رِيَ ٻوليون وسيع نيَ ظاھر ڪريَ ھيَ۔
+data-get-started = <speechBlogLink>آواز رِي اوݪکوڻ ھون شروع ڪرو</speechBlogLink>
+data-other-title = ٻيجيَ آوازون رو مواد را سيٽ…
+data-other-goto = جائو{ $name }
+data-other-download = ڊائون لوڊ مواد
+data-bundle-button = ڊائون لود مواد رو سيٽ رو گُڇو
+data-bundle-description = ڪامن وائس رو مواد ھانماٿيَ  ڏينوڙا ٻيجا سب آوازون ريَ مواد را سيٽ ۔
+release-version = ورزن
+dataset-date = تاريخ
+license = لائسنس<licenseLink>{ $license }</licenseLink>
+license-mixed = مِلوڙا
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مھورا آوازون را مواد را سيٽ ڊائون لوڊ ڪرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ڪامن وائس مواد تائين پُڳڻ ھارو ڊائون لوڊ آپشنز
