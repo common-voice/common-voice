@@ -19,9 +19,21 @@ total-approved = سجا منظور ھوئوڙا
 overall-accuracy = سجِا ٺيِڪ ھيَ
 set-visibility = مھانرِي نمائش سيٽ ڪرو
 visibility-explainer = اَي سيٽنگ ٿونريَ ليَڊر بورڊ رِي نمائش نيَ ڪنٽرول ڪريَ ھيَ۔ جڏيَ لڪايو جاھيَ ، ٿونرِي ترقِي زاتِي ھوئيَ ھيَ۔ايئيَ رو مطلب ھيَ ڪہ ٿونرو ڦوٽو، ڪوم ڪرڻ آݪيَ رو نوم ھان ڪوم رِي ترقِي ليَڊر ريَ بورڊ تيَ ظاھر ڪونِي ھوئيَ۔ نوٽ ڪريا ليَڊربورڊ ريفريش ھوئيَ ھيَ۔{ $minutes } منٽ بدلِي ڪيوڙيَ چيزون نيَ ڀرڻ ھارو۔
+visibility-overlay-note = نوٽ: جڏيَ نمائش ھارو سيٽ ڪيو جائيَ ھيَ، تڏيَ اَي سيٽنگ بدليَ جائيَ ݾگيَ ھيَ ايئيَ ھون<profileLink>پروفائل پيج</profileLink>
+show-ranking = مھارو درجو ڏيکاݪو
 
 ## Custom Goals
 
+get-started-goals = مقصدون ھون شروع ڪرو
+create-custom-goal = ضرورت ريَ مطابق حدف ٺائو
+goal-type = ٿيَ ڪيَ قسم رو حدف ٺاڻ چاھو ھو؟
+both-speak-and-listen = ٻيَ ائي
+both-speak-and-listen-long = ٻيئي (ٻولڻ ھان ھونڀڻ)
+daily-goal = روزانو را حدف
+weekly-goal = ھفتيَ را حدف
+easy-difficulty = سئولو
+average-difficulty = سراسري
+difficult-difficulty = ڏُڪيو
 
 ## Goals
 
