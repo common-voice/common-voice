@@ -95,6 +95,7 @@ about-playbook-how-localize-content-5 = مدد ھارو امو رو وڊيو ن�
 
 about-playbook-how-add-sentences = ھون ڪيڪر جملا ميلاوي ھگهو
 about-playbook-how-add-sentences-content-1 = تمي <writePageLink>صفحو لکو</writePageLink> تي جملا ميلاوي ھگھو يا <reviewPageLink>نظرثوني صفحي</reviewPageLink> تي جملو رو جائزو ليئو.
+about-playbook-how-add-sentences-content-2 = عام آواز ۾ ليليا ھارو ٻي مينکو ري جملو رو جائزو ليدا ھارو ھين مونوُہ لازمي هي. تمي آپري ھارو ٻوليءَ ھارو ھدايتون ٺاھو <languageGuidelinesLink>ايئوي</languageGuidelinesLink>. جملا <licenseLink>عوامي ڊومين </licenseLink> ۾ ھين 15 اکرو مون نينا ھوئي. تمي ٽيڪسٽ ري مالڪ ني پوسي سگهو اووہ ني <waiverLink>CC0 استعمال ڪرين امون ري معافي واري عمل ني استعمال ڪرين</waiverLink>، ھين امو تڪ موڪلو commonvoice@mozilla.com تي
 
 ## How to record quality
 
