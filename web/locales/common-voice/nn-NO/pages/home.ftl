@@ -78,8 +78,12 @@ read-more-about = Les meir på Om oss-sida vår
 answer-questions = Svar på spørsmål
 answer-questions-coming-soon = Svar på spørsmål <small>(kjem snart)</small>
 review-transcriptions = Vurder transkripsjonar
+review-transcriptions-coming-soon = Vurder transkripsjonar <small>(kjem snart)</small>
 add-questions = Legg til spørsmål
+add-questions-coming-soon = Legg til spørsmål <small>(kjem snart)</small>
+transcribe-audio-coming-soon = Transkriber lyd <small>(kjem snart)</small>
 transcribe-audio = Transkriber lyd
+community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
 
 ## MENU ITEMS TOOLTIPS
@@ -126,6 +130,7 @@ download-press-pack = Last ned pressepakken vår <icon></icon>
 
 ## Developers section
 
+developers-section-title = Offentleg tilgjengelege opne taledatasett på over 130 språk
 
 ## Get involved section
 
