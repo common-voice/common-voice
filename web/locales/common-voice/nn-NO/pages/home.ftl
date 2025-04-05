@@ -102,6 +102,7 @@ get-started = Kom i gang <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd dataskaping
 add-text = Legg til tekst
 
 ## Community section

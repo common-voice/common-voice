@@ -39,3 +39,4 @@ other-datasets = دؔوجی آواج ڈیٹا سیٹس
 feedback-q = کوئی رائے ہے؟
 # This indicates that there is no data to display
 no-information = کوئی جانکاری نائی تی
+resource-nemo-info = <githubLink>این وی ڈی آئی اے نیمو</githubLink>™ نئوی بات چیت کرنواڑے مصنوعی ذہانت کے ماڈل تیارکرنواڑے جانچ کرنواڑے نتر ایک <docsLink>اوپن سورس ٹول کٹ</docsLink> ہے۔
