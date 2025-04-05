@@ -96,6 +96,8 @@ community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common 
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Lær om partnarskap med Common Voice
+press-and-stories-menu-item-aria-label = Få tilgang til pressemeldingar og historier relatert til Common Voice
+community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språka som blir støtta av Common Voice
 
 ## NEW HOME PAGE KEYS
 
@@ -113,6 +115,8 @@ get-started = Kom i gang <icon><icon>
 
 action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd datainnsamling
 action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
+scripted-card-header = Opplesen tekst
+spontaneous-card-header = Spontan tale
 add-text = Legg til tekst
 
 ## Community section
