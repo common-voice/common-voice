@@ -23,6 +23,8 @@ guidelines = رہنمائی
 contact-us = لے ماخ رابطہ کن
 add-sentence-success = 1 جملو بڑیچڤدغو ݰوئے
 add-sentence-error = نقص پیدا کڑغوز جملو
+required-field = مہربانی کن ڤیم ژاغہ پر کن
+single-sentence-submission = یو جملو جمع کن
 
 ## BULK SUBMISSION
 
@@ -35,3 +37,6 @@ add-sentence-error = نقص پیدا کڑغوز جملو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = ڤے اختیاراتف فہرست نوشا
+add-sentences-menu-item-aria-label = پے آدمف اݰٹا دیر نوؤ جملغّے شامل کن
+transcribe-audio-menu-item-aria-label = ڤے ریکارڈ ݰوئی آواز دے نوختا آڤاز
