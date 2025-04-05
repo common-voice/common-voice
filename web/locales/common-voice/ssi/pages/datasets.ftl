@@ -27,3 +27,5 @@ confirm-size = آپ <b>{ $size }</b> کا ڈاؤن لوڈ سَرو کرنے نت
 size-gigabyte = جی بی
 size-megabyte = ایم بی
 confirm-no-identify = آپ سادھارٹؔ آواج ڈیٹا سیٹام ٻولٹؔواڑے کی اوݪکھٹؔے کا نیاو کرنے کی کوشش نائی کرنے سے <b>سیہمتی کرتے</b> ہے
+confirm-join-mailing-list = آپ عام آواج میلنگ سُوچیام  سیمل ہؤٹؔا چاوہتے ہے
+download-language = ڈاؤن لوڈ { $language }
