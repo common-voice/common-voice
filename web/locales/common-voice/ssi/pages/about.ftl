@@ -133,6 +133,7 @@ about-playbook-how-validate-content-4 = اگر کسی کلپا کُو 2 مِنک
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ہُوں ڈیٹا سیٹا تائِیں کِدؔا پرویش کرے اور اُپیوگ کرے؟
 
 ## How are decisions made
 

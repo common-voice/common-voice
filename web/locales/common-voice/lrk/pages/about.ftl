@@ -101,6 +101,7 @@ about-playbook-how-add-sentences-content-3 = تمي جملا استعمال ڪر
 ## How to record quality
 
 about-playbook-how-record-quality = ھون ايڪ سٺا نمونہ رو آواز ري ڪلپ رآڪارڌ ڪرو سگھو ھون
+about-playbook-how-record-content-1 = آپري عام آواز ۾ ٻولو تما ري ٻوليا ري طريقا ني ڀليڪار ھي اپي چاھون ھون تمو رو تلدظ جيم ھي ھين امي چاھون ھون ڪي تمو ري سادي آواز رو لھجو انداز ھين الٽرنيݾن
 
 ## How to grow language
 
