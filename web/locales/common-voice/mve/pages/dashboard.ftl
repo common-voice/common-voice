@@ -57,6 +57,23 @@ how-many-a-week = واھ ! ھيڪيَ ھفتيَ ۾ گھڻا ڪلِپ؟
 which-goal-type = ڪِي ٿيَ ٻولڻ، ھونڀڻ يا ٻيئي چاھو ھو؟
 receiving-emails-info = ڪِي ٿيَ ايئيَ ٽوڻيَ اي ميلون خاصل ڪرڻ ھارو تيار ھو جون مقصد ياد ڏيراڻ آݪيَ، مياݪيَ ڪوم رِِي ترقِي ريَ باريَ ۾ ھان ڪامن وائس ريَ باريَ ۾ نيز ليٽر
 not-receiving-emails-info = ٿيَ ھيڻو سيٽ ڪرو<bold> نا</bold> ڪامن وائس ريَ باريَ ۾ اي ميلون حاصل ڪرڻ ھارو جون مقصد نيَ ياد ڏيراڻ، مھارِيَ ڪم رِي ترقِي ريَ باريَ ۾ موجودا حالت ھان نيز ليٽر
+n-clips-pluralized =
+    { $count ->
+        [one] ڪلِپ
+       *[other] ڪلِپ
+    }
+help-share-goal = ٻيجيَ آوازون نيَ جونچڻ ۾ مھورِي مدد ڪرو، آپرو حدف ٻيجون نيَ ھنڀڙائو
+confirm-goal = حدف رِي پڪ ڪرو
+goal-interval-weekly = ھفتيَ رو
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = ونڍو آپرا{ $count } ڪلِپ روز رو ھارو{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ونڍو آپرا { $count } ڪلِپ ريَ ھفتيَ ريَ حدف ھارو{ $type }
+share-goal-type-speak = ٻولڻ
+share-goal-type-listen = ھونڀڻ
+share-goal-type-both = ٻولڻ ھان ھونڀڻ
+# LINK will be replaced with the current URL
+goal-share-text = مھيَ ڪامن وائس نيَ آواز عطيو ڪرڻ ھارو زاتي حدف ٺايو ھون۔ مھنيَ جوئن ڪرو ھان مدد ڪرو مشين نيَ ݾکاڻ ھارو ڪہ اصل منک ڪونڪر ٻوليَ ھيَ{ $link }
 
 ## Goals
 
