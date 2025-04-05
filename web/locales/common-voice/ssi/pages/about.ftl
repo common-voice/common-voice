@@ -113,6 +113,7 @@ about-playbook-how-record-content-5 = <accuracyLink>کھرے پنا کی اُو�
 
 ## How to grow language
 
+about-playbook-how-grow-language = ہم سادھارٹؔ اواجاپ ایک بھاشا کُو پربھاو شالی نامُونیس کِدؔا ودھائی سِکتے ہے؟
 
 ## How to validate
 
