@@ -125,6 +125,7 @@ about-playbook-how-grow-language-content-8 = <strong>رچئِیتا ہوئی ج�
 
 ## How to validate
 
+about-playbook-how-validate = مِسکُو کِدؔ ٹھا پڑُوں گی کہ اواج کلپا کی منجُوری دؔیݨی ہے یا نائیں؟
 
 ## How to access dataset
 

@@ -66,5 +66,6 @@ skip-submission-note = Merk: Du må framleis velje mellom Tal eller Lytt for å 
 off = Av
 on = På
 help-accent = Treng du hjelp med dialekt?
+help-accent-explanation = Språket ditt/Dialekten din er måten du uttalar ord på. Det kan formast av kvar du har budd, kva for andre språk du snakkar og mange andre faktorar. Du kan dele all informasjon du meinar er relevant her.
 help-variants = Treng du hjelp med variantar?
 help-sex-or-gender-changes = Treng du hjelp med endringane i kjønn?
