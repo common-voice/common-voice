@@ -134,6 +134,7 @@ about-playbook-how-validate-content-4 = اگر کسی کلپا کُو 2 مِنک
 ## How to access dataset
 
 about-playbook-how-access-dataset = ہُوں ڈیٹا سیٹا تائِیں کِدؔا پرویش کرے اور اُپیوگ کرے؟
+about-playbook-how-access-dataset-content-1 = آپ <datasetsPage>ڈیٹا سیٹا کے پنیپ</datasetsPage> جائی سِکتے ہے ، مطلوبہ ورژن اور بھاشا چُنی سِکتے ہے ، اور اسکُو ڈاؤن لوڈ کری سِکتے ہے! پھائلینٚم <metadataLink>میٹا ڈیٹا س جُڑوڑا ہے</metadataLink> ، جِدؔا ڈیموگرافک جانکاری اور مانیتا کے اعداد و شمار۔ ڈیٹا سیٹ ڈاؤن لوڈ کرنے نتر آپ کُو ایک ای میل پتہ پُگاوݨیں کی جرورت پڑُوں گی۔
 
 ## How are decisions made
 
