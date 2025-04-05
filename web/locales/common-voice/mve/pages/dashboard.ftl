@@ -34,6 +34,12 @@ weekly-goal = ھفتيَ را حدف
 easy-difficulty = سئولو
 average-difficulty = سراسري
 difficult-difficulty = ڏُڪيو
+pro-difficulty = حماعتي
+lose-goal-progress-warning = آپريَ مقصد ۾ تبديلي ڪرڻ ھون، ٿيَ آپرِي ھيڻو رِ ترقِي نيَ وڃائيَ ݾگو ھو،
+want-to-continue = ڪِي ٿيَ جارِي راکڻ چاھو ھو؟
+finish-editing = پيلڪو تبديلِي پورِي ڪرو؟
+lose-changes-warning = ھيڻو روکڻ رو مطلب ٿيَ آپريَ تبديليَ وڃائيَ ڇوڙھو
+build-custom-goal = ضروري حدف ٺائو
 
 ## Goals
 
