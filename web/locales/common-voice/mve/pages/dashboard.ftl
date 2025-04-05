@@ -74,6 +74,27 @@ share-goal-type-listen = ھونڀڻ
 share-goal-type-both = ٻولڻ ھان ھونڀڻ
 # LINK will be replaced with the current URL
 goal-share-text = مھيَ ڪامن وائس نيَ آواز عطيو ڪرڻ ھارو زاتي حدف ٺايو ھون۔ مھنيَ جوئن ڪرو ھان مدد ڪرو مشين نيَ ݾکاڻ ھارو ڪہ اصل منک ڪونڪر ٻوليَ ھيَ{ $link }
+weekly-goal-created = ٿونرو ھفتيَ رو حدف ٺايو گيو ھيَ
+daily-goal-created = ٿونرو ھر روز رو حدف ٺايو گيو ھيَ
+track-progress = آپريَ ڪوم رِي ترقِي نيَ ايٿ ھان ٿونريَ انگ آکر ريَ پيج تيَ جونچو۔
+return-to-edit-goal = آپريَ حدف نيَ تبديل ڪرڻ ھارو ڪيَ ٽئيم ايٿ واپس آئو۔
+share-goal = مھارو حدف ونڍو
 
 ## Goals
 
+streaks = لڪيِرون
+days =
+    { $count ->
+        [one] ڏِن
+       *[other] ڏِن
+    }
+recordings =
+    { $count ->
+        [one] ريڪارڊنگ
+       *[other] ريڪارڊنگون
+    }
+validations =
+    { $count ->
+        [one] توسيق
+       *[other] توسيقون
+    }
