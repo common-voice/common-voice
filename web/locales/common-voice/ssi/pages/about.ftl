@@ -144,6 +144,7 @@ about-playbook-how-project-governance-content-1 = موزیلا سادھارݨ ا
 about-playbook-how-project-governance-content-2 = مھاری راجائِیا کی بُڑاند ان بھاٹینٚپ دھروڑی ہے:
 about-playbook-how-project-governance-content-3 = بھیدؔ راکھݨواڑا، رکشا اور نِرملتا.
 about-playbook-how-project-governance-content-4 = پڑاوا کا بھیݪا اور نِیاو کرنا.
+about-playbook-how-project-governance-content-5 = مان اور اوکھ.
 
 ## How is Common Voice funded
 

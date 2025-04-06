@@ -20,6 +20,7 @@ example = مثال
 
 misreadings-explanation-2 = جاہند عام غلطی
 misreadings-explanation-3 = ریکارڈنگ دے کڑا ڤے څیمین حرف لیغدا
+misreadings-explanation-4 = نے لفظن دے آخر ڤے څیمین حرف لیغدا
 
 ## Sentence collection nav ids
 

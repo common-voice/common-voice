@@ -59,4 +59,9 @@ close = بند کرنا
 download = ڈاؤن لوڈ
 dataset-version = ورژن
 sha256-checksum-copied = ایس ایچ اے 256 چیک سم نکل کروڑِ ہے!
-sha256-checksum-copied-error = ایس ایچ اے 256 چیک سم
+sha256-checksum-copied-error = ایس ایچ اے256 چیک سما کی نکل کرنیم اسپھل
+clipboard-not-supported = کلیپ بورڈا کا بھیرواݪی نائی تیا
+no-information-available = کوئی جانکاری ماجود نائی تی
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
