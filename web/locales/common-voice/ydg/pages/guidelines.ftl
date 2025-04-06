@@ -18,6 +18,9 @@ example = مثال
 
 ## Voice collection sidebar content
 
+varying-pronunciations-example = راہ پازگو (کلئیر) چے ڤیو
+varying-pronunciations-tip-1 = [دے کینیڈین انگریزی نے روٹن "راؤٹ" ام ݱوتے]
+varying-pronunciations-tip-2 = [دے برطانیہ انگریزی"روٹ"root"]
 misreadings-explanation-2 = جاہند عام غلطی
 misreadings-explanation-3 = ریکارڈنگ دے کڑا ڤے څیمین حرف لیغدا
 misreadings-explanation-4 = نے لفظن دے آخر ڤے څیمین حرف لیغدا
