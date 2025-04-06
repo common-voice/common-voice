@@ -145,6 +145,7 @@ about-playbook-how-project-governance-content-2 = مھاری راجائِیا ک
 about-playbook-how-project-governance-content-3 = بھیدؔ راکھݨواڑا، رکشا اور نِرملتا.
 about-playbook-how-project-governance-content-4 = پڑاوا کا بھیݪا اور نِیاو کرنا.
 about-playbook-how-project-governance-content-5 = مان اور اوکھ.
+about-playbook-how-project-governance-content-6 = مِلی کن جباب دؔیݨواڑا۔
 
 ## How is Common Voice funded
 

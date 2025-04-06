@@ -125,12 +125,17 @@ about-playbook-how-validate = ھون ڪيڪر اويکو ڪي وائس ڪلپ ن
 about-playbook-how-validate-content-1 = ھمجي گھو <strong>ھين</strong>اووہ ني ھڻو <strong>جيڪدي تمي </strong> منظو ڪروہ بھتر ھي <strong>تو آ عام طور تي </strong> ھي
 about-playbook-how-validate-content-2 = ڪلپ ني رد تو ڪرو جيم اسپيڪر رو ’اوچار ھي ‘ جيم تمو رو آپ ھارو <strong>آ ضروري ھي ڪي آواز رو”ي اورکيا ھارو بھتر ڪوم ڪري </strong> الگ ھوئي
 about-playbook-how-validate-content-3 = ٺاھي ھي يا اووي </strong>ھمجي نا ممڪن <strong>جيڪدي تمي ھمجو ھو ڪي اوچار اوني ڪي پسي تمي ڪلپ </strong>ڀيجا مينک پڻ ٻولي ھي <strong>يا ايم ھي </strong>گھڻو پس منظر گوڙ <strong></accuracyLink>امو ري سھي ڪريا ري معيار ۾ وديڪ معلومات ني جو <accuracyLink>ني رڌ ڪروي کپي
+about-playbook-how-validate-content-4 = جيڪدي ايڪ ڪلپ 2مينکو ري طرف مون رد ڪريو ھي او ڌيٽا سيٽ ري الگ زيلي سيٽ ۾ جاري ڪريو ھي
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ھين ڌيٽا سيٽ تڪ ڪيڪر رسائي ھين استعمال ڪري سگھو ھون
+about-playbook-how-access-dataset-content-1 = جي </datasetsPage>صدحي datasets<datasetsPage>تمي جائي سگھو ھون </metadataLink>وڙيوڙي ڌيٽا سيٽ <metadataLink>تمي چاھيو ھون آ ورجن ھين ٻولي چونڌو، ھين اوني ڌاون لوڌ ڪرو فائلون ۾ جيم ڪي ديموگرافڪ ھوڻ ھين  تصديق واري ڊيٽا تمو ني ڌيٽا سيٽ ڌاون لود ڪريا ھارو ايڪ اي ميل ني ھڻو ڌيڌا رو ضرورت پڙئي
+about-playbook-how-access-dataset-content-2 = موڌل ٺايا ھارو اوزار جوئي رھيا ھون تمو ڪميونٽي ري ٻيجا مينکو مون ASRجيڪدي تمي </discourseLink>on Discourse <discourseLink>ڀيري سگھو ھين
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصونہ را فيصلا ڪيڪر ڪريا ھي
 
 ## How is Common Voice funded
 
