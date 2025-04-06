@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = تو چے زبان چے غوردیت۔ پے زبان غورد دیر، مہربانی کن خو دے خوئے <profileLink> پروفائل </profileLink>اوئے۔
 sc-review-title = ڤے جملغّف اوژر
 sc-review-loading = جملغّے لوڈ اویتے…
 sc-review-select-language = براہِ مہربانی ڤے جملغّف اڤن پے اوݱڑا دیر یو زبان غورا۔
