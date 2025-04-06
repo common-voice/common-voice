@@ -41,6 +41,8 @@ terms-agree = مہراضی تھو
 terms-disagree = مہراضی نہ تھو
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = اپئیں اواز دے سو شکریہ !
+first-cta-subtitle-text = اپئیں بارہ مہ منے گِھن ،تو ڈویلپر سو مدد گونݜ جل جمع ٹیکنالوجی سندے مہ
+why-donate = تو کوزائ منا
 
 ## MENU ITEM TOOLTIPS
 
