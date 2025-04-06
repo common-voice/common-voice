@@ -1,3 +1,4 @@
+listen = سنو
 listen-subtitle = آوازاں نی تصدیق اچ اساں نی مدد کرا
 listen-instruction = اناں { $actionType } <playIcon> جملے ٹھیک بولے؟
 listen-again-instruction = زبردست! جذوں تُس تیار ہوا تے فیر سُنا </playIcon>
@@ -24,3 +25,4 @@ review-transcriptions-menu-item-tooltip = تُساں نی زبان اچ جمع �
 
 listen-contribute-menu-aria-label = آپشنز نے مینیو کی سُنا
 validate-readings-menu-item-aria-label = کمیونٹی نے لوکاں نی طرفاں جمع ہوئی ریکارڈنگ نی تصدیق کرا
+review-transcriptions-menu-item-aria-label = ریکارڈ ہوئے جملیاں نا ٹھیک کرنے آسطے ریویوکرا
