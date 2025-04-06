@@ -31,3 +31,4 @@ demo-listen-subtitle = شرکت کرنے آسطے تیار زیا؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = ہک بندے نی یا کمیونیٹی نی پیش رفت نے بارے اچ ذاتی ڈیش بورڈ تساں کی اپ ڈیٹ رکھنے۔
