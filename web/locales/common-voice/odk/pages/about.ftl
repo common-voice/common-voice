@@ -71,6 +71,7 @@ about-playbook-what-is-language-content-3 = ڪهِين ٻولِيان ۾ گرا�
 about-playbook-how-add-language = مين ڪو ٻولِي نُون ڪِيُون شامل ڪر سِگھَين ڇَين؟
 about-playbook-how-add-language-content-1 = پيهڻُون، چيڪ ڪرا تہ جي تمچِي ٻولِي </languageLink> اگ ۾ کن ڇَي <languageLink>۔  جي ڪونهِي ڇَي، تہ تمهِين ٻولِي نُون شامل ڪرڻي ڪاڻ </languageRequestLink> پُوڇ سِگھا ڇوا </languageRequestLink>۔  اُٺِيچ ڏون مرحلي هِتي۔ سائِيٽِي چا ترجما، ائُون جُملان نُون ڀيڙَي ڪرڻ۔
 about-playbook-how-add-language-translating-heading = سائِيٽِي چا ترجما
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>  اَمچِي گائِيڊ ڏيکا تہ پونٽونا نُون ڪِيُون اِستعمال ڪجَي۔ </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملي ڀيڙي ڪرڻ
 
 ## How does localization work
