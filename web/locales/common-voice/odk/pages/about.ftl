@@ -72,6 +72,10 @@ about-playbook-how-add-language = مين ڪو ٻولِي نُون ڪِيُون �
 about-playbook-how-add-language-content-1 = پيهڻُون، چيڪ ڪرا تہ جي تمچِي ٻولِي </languageLink> اگ ۾ کن ڇَي <languageLink>۔  جي ڪونهِي ڇَي، تہ تمهِين ٻولِي نُون شامل ڪرڻي ڪاڻ </languageRequestLink> پُوڇ سِگھا ڇوا </languageRequestLink>۔  اُٺِيچ ڏون مرحلي هِتي۔ سائِيٽِي چا ترجما، ائُون جُملان نُون ڀيڙَي ڪرڻ۔
 about-playbook-how-add-language-translating-heading = سائِيٽِي چا ترجما
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>  اَمچِي گائِيڊ ڏيکا تہ پونٽونا نُون ڪِيُون اِستعمال ڪجَي۔ </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    اَمهِين ترجمان چي ڪاڻ موزيلا ٽول اِستعمال ڪرُون ڇئُون، جڪا نُون  <pontoonLink>پونٽون</pontoonLink> ڪيهلَي جا ڇَي۔ پونٽونا ۾ گھڻِيا ئِي ٻولِيا هِتِيا،
+    جي تمچِي ٻولِي ڪونهِي تہ تمهِين </pontooniRequestLnk> پر درخواست ڏي سِگھا ڇَوا تئ تمچِي ٻولِي شامل هُوَئ <pontoonRequestLink>۔ 
+     او کن پڇي، ٻولِي نُون ڪامن وائِيسا چي پروجيڪٽا ۾ ناکڻي ڪاڻ </githubRepoLink> نَوِي ٻولِي شامل ڪرڻي چِي درخواست ڏِيا <githubRepoLink>۔ </localizationFragment> سائِيٽِي چي ترجمي ۾ بڌِيڪ ڏيکا</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جُملي ڀيڙي ڪرڻ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> اَمچِي گائِيڊ ڏيکا تہ جملي ڪيُون ڀيڙي ڪجِي۔ <sentenceCollectorVideo>
 
