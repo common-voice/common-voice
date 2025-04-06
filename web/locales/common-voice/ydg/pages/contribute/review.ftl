@@ -40,6 +40,8 @@ sc-criteria-title = دیبارو اوݱڑان معیار
 sc-criteria-item-1 = جملو صحیح نوختیغو اوئے۔
 sc-criteria-item-2 = جملو دے گرائمر لحاظ صحیح اوئے۔
 sc-criteria-item-3 = جملو اݰٹا قابل فرما۔
+sc-criteria-item-4 = اگر جملو دے معیار پرو کہ استت &quot; کلک کن۔ سے ہرزوغ کرن&quot; منظور کن۔
+sc-criteria-item-6 = لے تو جملغے اڤن پے اوݱڑا دیر ختم کہ ݰوت، لے ماخ دیر جملغے دے بڑیڅڤدا مدد کن!
 report-sc-different-language = دیر زبان
 # menu item
 review-sentences = ڤے جملغّف اوژر
