@@ -24,6 +24,10 @@ varying-pronunciations-tip-2 = [دے برطانیہ انگریزی"روٹ"root"]
 misreadings-explanation-2 = جاہند عام غلطی
 misreadings-explanation-3 = ریکارڈنگ دے کڑا ڤے څیمین حرف لیغدا
 misreadings-explanation-4 = نے لفظن دے آخر ڤے څیمین حرف لیغدا
+misreadings-explanation-6 = ڤے ریکارڈنگ پیرو دے بود کڑا وجہ ڤے لفظ دے آخر پزگیا۔
+misreadings-explanation-7 = ڤے یو لفظ پے اݰٹا دیر جاہند کوشش کڑا۔
+misreadings-example-1 = ماخ دے کوچو نے کافی شیمدان اویمتے۔
+misreadings-example-2 = دے کوچو نے کافی شیمدان اویمتے
 
 ## Sentence collection nav ids
 
