@@ -53,5 +53,6 @@ review-error = ڤے جملو دیبارو دے اوݱڑا نقص پیدا ݰوئ
 review-error-rate-limit-exceeded = تو بیداوا استت۔ مہربانی کن خو ڤے جملو دیبارو پے اوݱڑا دیر کیستہ وخت غورا، تسلی کن کہ سہی استت۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ماخ' کیستہ استر تبدیلی کینمتے
+sc-redirect-page-subtitle-2 = ژے ماخ خبر غورا<matrixLink>دے خانو</matrixLink><discourseLink> دے مشقولگی ژاغہ</discourseLink>یا<emailLink> دے ای میل</emailLink>اوئے۔
 # menu item
 review-sentences = ڤے جملغّف اوژر
