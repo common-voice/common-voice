@@ -20,6 +20,16 @@ record-last-instruction = <recordIcon> </recordIcon> اخیری یک
 review-tooltip = کلپ سو نظرثانی گر ،دوبارہ ریکاڈ گر ایزا کش چہء تو بزا
 share-clip = اپوں کلپ شیئر گر
 share-common-voice = عام اواز شیئر گر
+review-instruction = کہ ضرورت تھی تہ کلپ دوبارہ ریکاڈ گر آ نظر ثانی گر
+record-submit-tooltip = { $actionType }  تیار ھُون تہ جمہ گر
+clips-uploaded = کلپ اپلوڈ ھویں گا
+record-abort-title = اول ریکاڈنگختم گر ؟
+record-abort-text = اوتور څھورے سو مطلب تھی چہء تیوں  پراگرس ضائع ھونݜ
+record-abort-submit = کلپ جمہ گر
+record-abort-continue = ریکاڈنگ ختم
+record-abort-delete = با نِک آ کلپ ڈیلیٹ گر
+review-aborted = ضائع ھوَ ئیل اپلوڈ گر۔ تو اپئیں ریکاڈنگ ڈیلیٹ گرو لوکھا ؟
+review-submit-title = نظر ثانی آ جمہ گرو
 
 ## MENU ITEM TOOLTIPS
 
