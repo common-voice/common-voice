@@ -101,3 +101,4 @@ contribution-criteria-page-title = حصو دریان اصول
 contribution-criteria-page-description = ڤیم گپ ڤزانا کہ ڤے آواز دے غولیتا څیمین خیال اوستایا بݰ، اڤن څیمین مدد ڤے آواز ریکارڈنگ بہتر کیتے!
 contribution-for-example = دے مثال طور
 contribution-misreadings-title = غلط اݰٹا
+contribution-misreadings-description = ترے غولیتا ملن، غیݰے سے غور چیک کن، څیمین کو ریکارڈنگ ݰوئی نوختیغو ام وو ژے آ۔ معمولی غلطی ام کہ ڤیو مسترد کن۔ <br /> ترے جاہند عام غلطیف مئے شامل استت۔

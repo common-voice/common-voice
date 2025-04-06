@@ -14,3 +14,7 @@ transcript-skipped-success = نقل ڪرل نين ڪامياٻِي ٿِي ميل
 transcript-skipped-error = نقل ڪرل نين ميچا ٽاڻي ايڪ ڳلتِي ڇئِي سي۔
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = صحيح
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = پُورون ڪروون۔
+# For the button on the Check Transcriptions page to edit a transcription
+edit = ڇاپوون
