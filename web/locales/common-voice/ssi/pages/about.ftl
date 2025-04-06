@@ -150,3 +150,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>اس باری�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = سادھارݨ اواجا کُو کِدؔا چندا اُگاڑی کرا جاوتا ہے؟

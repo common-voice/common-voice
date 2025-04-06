@@ -136,8 +136,15 @@ about-playbook-how-access-dataset-content-2 = موڌل ٺايا ھارو اوز�
 ## How are decisions made
 
 about-playbook-how-project-governance = منصونہ را فيصلا ڪيڪر ڪريا ھي
-about-playbook-how-project-governance-content-1 = ڪي ٻيجي دنيا مون سرگرم ڪارڪنن لسانيت ري ماھرو ڌيٽا Mozilla Common Voice  فائرڌيݾن مون Mozilla سائنسان تعليمي ماھرو ھين سائٽ ويئر انجينير ري
+about-playbook-how-project-governance-content-1 = ڪي ٻيجي دنيا مون سرگرم ڪارڪنن لسانيت ري ماھرو ڌيٽا Mozilla Common Voice  فائرڌيݾن مون Mozilla سائنسان تعليمي ماھرو ھين سائٽ ويئر انجينير ريمختلف برادري مون ھويا ھارو ٺايا ھي پروڪيجٽ سمڀاليو گيو ھي
+about-playbook-how-project-governance-content-2 = امو ري حڪمراني رو بڻياد او تينو تي ھي
+about-playbook-how-project-governance-content-3 = رازداري، رڪݾا ھين  شفافيت.
+about-playbook-how-project-governance-content-4 = ڪمينٽي رو ڀيراپڻو ھين فيصلا ڪروہ
+about-playbook-how-project-governance-content-5 = قدر ھين اورکوہ
+about-playbook-how-project-governance-content-6 = ڀيرا احساس
+about-playbook-how-project-governance-content-7 = ئڌيڪ پڙو ڪي امو ني ڪيڪر سنڀالو جائي ھي <governanceLink></governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪومن وائس ني ڪيڻي ايجاد ڪريو ھي
 about-playbook-how-funded-content-3 = جيڪدي تمي يا تموري  ري ايدارو ري مقصد ۾ واپس حصو ليوہ چاهو ھون، تمي ايڪ ٺاهي سگهو<donateLink> دون</donateLink>يا امري ري پارٽنرشپ ٽيم تڪ پهوچي وڃو<emailFragment>commonvoice@mozilla.com</emailFragment>
