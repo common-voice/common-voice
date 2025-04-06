@@ -73,6 +73,7 @@ about-playbook-how-add-language-content-1 = پيهڻُون، چيڪ ڪرا تہ�
 about-playbook-how-add-language-translating-heading = سائِيٽِي چا ترجما
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>  اَمچِي گائِيڊ ڏيکا تہ پونٽونا نُون ڪِيُون اِستعمال ڪجَي۔ </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جُملي ڀيڙي ڪرڻ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> اَمچِي گائِيڊ ڏيکا تہ جملي ڪيُون ڀيڙي ڪجِي۔ <sentenceCollectorVideo>
 
 ## How does localization work
 
