@@ -79,3 +79,15 @@ data-download-license = لیسݨ: <licenseLink>CC-0</licenseLink>
 data-download-modal = تھم <size>{ $size }جی بیا</size> کا ڈاؤن لوڈ سَرو کرنواڑے ہے، آگے ودھو؟
 data-subtitle = ہم آواجیں کا ایک کُھلا اور عوامی توراپ ماجود ڈیٹا سیٹ ٻݨائیرے ہے جس کُو ہر کوئی بھاشݨا کے جوگی ایپلی کیشنزا کُو تالیم دؔیݨے نتر اُپیوگ کری سِکتے ہے۔
 data-explanatory-text = ہم وسواس رکھتے ہے کہ ٻڈؔے اور عوامی توراپ ماجود آواج ڈیٹا سیٹ مشین لرننگاپ آدھار بھاشݨ ٹیکنالوجیام  نئوی ٻات اور سُوست دھندے کی ٻیروٻَریا کُو پورسا دؔیتے ہے۔ یو ایک سنساری جتن ہے اور ہم ساریں کُو یوگدانا کا سڈؔ دؔیتے ہے۔ مھارا لکشے سنسارا کیاں آواجیں کُو  ودھیک چاوا کرتوڑا بھاشݨ ٹیکنالوجیا کُو گھݨا جامع ٻݨاݨیم ساہیتا کرنا ہے۔
+data-get-started = <speechBlogLink>بھاشݨا کی اوݪکھا بھیݪا سَرو کرو</speechBlogLink>
+data-other-title = دؔوجی آواج ڈیٹا سیٹ ...
+data-other-goto = { $name } پے جاو
+data-other-download = ڈیٹا ڈاؤن لوڈ کرو
+data-bundle-button = ڈیٹا سیٹ بنڈل ڈاؤن لوڈ کرو
+data-bundle-description = سادی آواج ڈیٹا کے بھیݪو بھیݪ اُپر دؔوجی آواج ڈیٹا سیٹ۔
+release-version = ورژن
+dataset-date = تاریک
+license = لیسݨ: <licenseLink>{ $license }</licenseLink>
+license-mixed = مِلاوڑا
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مھاری آواج اعداد و شمار ڈاؤن لوڈ کرو
