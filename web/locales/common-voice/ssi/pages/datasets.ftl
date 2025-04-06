@@ -71,3 +71,9 @@ donate-modal-explanation-1 = ڈیٹا سیٹسا کی میزبانی کرنے ا
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>اگر تھم کُھلے ، جامع ڈیٹا کا مان کرتے ہے تو - آج دؔان کرو!</bold>
 data-download-singleword-title = ایکلا سٻدؔ لکشے کا ٹُکڑا ڈاؤن لوڈ کرو
+data-download-singleword-callout-v2 = یو ایک اُپیوگ کیسے چالنواڑا ٹُکڑا ہے جِن میں ٻولنواڑے گینتیا کی اوݪکھ اور ہا / نا کی جانچ کرنے نتر اعداد و شمار سیمل ہے۔
+data-download-button = عام آواج ڈیٹا ڈاؤن لوڈ کرو
+data-download-yes = ہاوے
+data-download-deny = نائی
+data-download-license = لیسݨ: <licenseLink>CC-0</licenseLink>
+data-download-modal = تھم <size>{ $size }جی بیا</size> کا ڈاؤن لوڈ سَرو کرنواڑے ہے، آگے ودھو؟

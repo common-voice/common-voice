@@ -221,22 +221,35 @@ pt = پرتگالي
 pua = ويسٽرن هاءِ لينڊ پيوريپيچا
 pwn = پائيوان
 quc = ڪڇي
+qup = ڏاکڻي پاستازا ڪيوچوا
+qux = Quechua Yauyos
 quy = ڪوچوا چانڪا
+qva = Quechua Ambo-Pasco
 qvi = ڪچو
+qvl = Quechua Cajatambo
+qwa = Quechua Corongo Ancash
+qws = Quechua Sihuas Ancash
+qxa = Quechua Chiquián
 qxp = پونو ڪيوچوا
+qxt = Quechua Pasco Santa Ana de Tusi
+qxu = Quechua Arequipa-La Unión
+qxw = Quechua Jauja Wanka
 rif = ٽرافي
 rm-sursilv = رومانش سرسلوان
 rm-vallader = رومانش ويلاڊر
 ro = رومانوي
 ru = روسي
+ruc = Ruuli
 rw = ڪينياروانڊا
 sah = سخا
 sat = سنتالي (اول چڪي)
 sc = سارڊيني
+scl = Shina
 scn = سسيليين
 sco = اسڪوٽس
 sd = سندھي
 sdh = ڏاکڻي ڪردش
+sei = Seri
 shi = شيلا
 shn = ݾان
 si = سنهالا
@@ -265,12 +278,52 @@ tn = سيٽسوانا
 tok = ٽوڪي پونا
 tr = ترڪي
 ts = زٽسونگا
+tt = تاتاري
+tui = Tupuri
+tvu = Tunen
+tw = ٽوئِي
+ty = تائيٽي
+tyv = تووان
+uby = اوبيخ
+udm = ادمورت
+ug = ويگر
+uk = يوڪريني
+ur = اردو
+uz = ازبڪ
+ve = شيوينڊا
+vec = وينيٿين
+vi = ويٽنامي
+vmw = Emakhuwa
+vot = ووٽڪ
+wep = Westphalian
+wes = Cameroon Pidgin
+wo = وولوف
+xh = هوسا
+yi = يدش
+yo = يوروبا
+yue = ڪينٽوني
+zgh = تمازت
+zh-CN = چيني (چين)
+zh-HK = چيني (هانگ ڪانگ)
+zh-TW = چيني (تائيوان)
+zu = زولو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = مدد ڪرو
+contact = رابطو
+privacy = رازداري
+terms = شرطون
+cookies = ڪوڪيز
+faq = FAQ
+documentation = Documentation
+content-license-text = ري تحت مواد ھي </licenseLink>Creative Commons لائسنس<licenseLink>ھي
+share-title = امو ني ڀيجس ري ٻوليا ۾ مدد ڪرو ٻيجي آواز ني دئي ھگي
 
 ## Donate banner
 

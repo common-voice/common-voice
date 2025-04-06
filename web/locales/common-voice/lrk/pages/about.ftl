@@ -147,4 +147,6 @@ about-playbook-how-project-governance-content-7 = ئڌيڪ پڙو ڪي امو ن
 ## How is Common Voice funded
 
 about-playbook-how-funded = ڪومن وائس ني ڪيڻي ايجاد ڪريو ھي
+about-playbook-how-funded-content-1 = ڪامن وائيس موزيلا فائونڊيشن رو ايڪ منصوبو هي، جي ايڪ آمريڪي 501c3 هي. هاي منصوبي ني اي وقت پورا طور تي <philantropicGrantLink>سوچ ري گرانٽس</philantropicGrantLink>، ھين دنيا ري مينکو ري دان ري ذريعي فدان ڪريو جائي هي
+about-playbook-how-funded-content-2 = ءڊيٽا سيٽس ني ڀيراڀير ميزباني ڪروي ھين جاري ڪريا ري ، پليٽ فارم ني بهتر ٺاوي ھين <africaMradiLink> ڪميونٽي پروگرامون ني هلايا ۾  تماوم گهڻو پئيو خرچ ھوئي ھي </africaMradiLink>.
 about-playbook-how-funded-content-3 = جيڪدي تمي يا تموري  ري ايدارو ري مقصد ۾ واپس حصو ليوہ چاهو ھون، تمي ايڪ ٺاهي سگهو<donateLink> دون</donateLink>يا امري ري پارٽنرشپ ٽيم تڪ پهوچي وڃو<emailFragment>commonvoice@mozilla.com</emailFragment>
