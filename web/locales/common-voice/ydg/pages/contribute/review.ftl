@@ -37,6 +37,9 @@ sc-review-link = اشپہ اوݱڑا
 
 sc-criteria-modal = ⓘ دیبارو اوݱڑان معیار
 sc-criteria-title = دیبارو اوݱڑان معیار
+sc-criteria-item-1 = جملو صحیح نوختیغو اوئے۔
+sc-criteria-item-2 = جملو دے گرائمر لحاظ صحیح اوئے۔
+sc-criteria-item-3 = جملو اݰٹا قابل فرما۔
 report-sc-different-language = دیر زبان
 # menu item
 review-sentences = ڤے جملغّف اوژر
