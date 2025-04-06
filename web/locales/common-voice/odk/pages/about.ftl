@@ -82,9 +82,11 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     تمهِين </sentenceCollectorLinkAdd> جملان چي ڌاري انگ شامل ڪر سِگھا ڇوا۔  <sentenceCollectorLinkAdd>  
     يان بڙي تمهِين <bulkImportDocsLink> Github اِستعمال ڪتِي بڌِيڪ گھڻي امپورٽ ڪر سِگھا ڇوا۔ </bulkImportDocsLink>
       ياد راکا تہ جملي <licenseLink> CC0 (يان عوامِي ڊومين)</licenseLink> هُوَڻ کپِي، يان بڙي تمهِين آپڪَي بِي لِک سِگھا ڇَوا
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جُملي ڀيڙي ڪرڻي چي باري ۾ بڌِيڪ ڏيکا </sentenceCollectorFragment>۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائِيٽ لوڪلائيزيشن ڪِيُون ڪام ڪرَي ڇَي؟
 
 ## How to add sentences
 
