@@ -42,6 +42,12 @@ sc-criteria-item-2 = جملو دے گرائمر لحاظ صحیح اوئے۔
 sc-criteria-item-3 = جملو اݰٹا قابل فرما۔
 sc-criteria-item-4 = اگر جملو دے معیار پرو کہ استت &quot; کلک کن۔ سے ہرزوغ کرن&quot; منظور کن۔
 sc-criteria-item-6 = لے تو جملغے اڤن پے اوݱڑا دیر ختم کہ ݰوت، لے ماخ دیر جملغے دے بڑیڅڤدا مدد کن!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = اوژر <icon></icon>مو یدغان سہی جملوآ؟
+sc-review-rules-title = مو جملو دے رہنمائی مطابق سہیآ؟
+sc-review-empty-state = وس دیم زبان پے صحیح کڑا دیر جملغے چش۔
 report-sc-different-language = دیر زبان
+report-sc-different-language-detail = زو ڤے ګیم دیبارو زبان کو اوژریمتے مو ژؤ زبانن دیر نوختیغو استت۔
+sentences-fetch-error = جملغے دے غوردا یو نقص پیدا ݰوئے
 # menu item
 review-sentences = ڤے جملغّف اوژر
