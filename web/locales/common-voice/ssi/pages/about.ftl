@@ -141,11 +141,12 @@ about-playbook-how-access-dataset-content-2 = اگر آپ اے ایس آر ما�
 
 about-playbook-how-project-governance = پریوجنا کے نِرݨیں کِدؔا کرے جاتے ہے؟
 about-playbook-how-project-governance-content-1 = موزیلا سادھارݨ اواجا کُو دنیا بھرا کے کارِئے کرنواڑے، بھاشا شاستری، ڈیٹا ویگِیانِک، شِکشاوِد اور سافٹ ویئر انجینئریں کی ایک الگ الگ سمُودائین ممکن ٻݨایا ہے۔ اس یوجنا کی نِگھا موزیلا فاؤنڈیشن کری ری ہے۔
-about-playbook-how-project-governance-content-2 = مھاری راجائِیا کی بُڑاند ان بھاٹینٚپ دھروڑی ہے:
+about-playbook-how-project-governance-content-2 = مھاری باچھائِیا کی بُڑاند ان بھاٹینٚپ دھروڑی ہے:
 about-playbook-how-project-governance-content-3 = بھیدؔ راکھݨواڑا، رکشا اور نِرملتا.
 about-playbook-how-project-governance-content-4 = پڑاوا کا بھیݪا اور نِیاو کرنا.
-about-playbook-how-project-governance-content-5 = مان اور اوکھ.
+about-playbook-how-project-governance-content-5 = مان اور اوݪکھ.
 about-playbook-how-project-governance-content-6 = مِلی کن جباب دؔیݨواڑا۔
+about-playbook-how-project-governance-content-7 = <governanceLink>اس باریم ودھِیک پڑھو کہ ہم کِدؔا باچھائی کرتے ہے</governanceLink>
 
 ## How is Common Voice funded
 

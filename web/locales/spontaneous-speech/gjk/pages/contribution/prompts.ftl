@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = اُوتار ڪريا نو طريقو شيکو
 learn-how-to-use-transcribe-explanation = زين ڪانئين اِي ماڻۿين ڪيڌون سي اِي بلڪل ايمز لکو، ايوا لڦظ شامِل ڪرو زيم 'ام' 'آرر' زين رُوچا ٽاڻي استعمال ٿائي سي۔
 learn-how-to-use-transcribe-guidance = آ صڦو ڪيم استعمال ٿاشي شيڇا ۿارُو </guidanceLink>اڃان<guidanceLink> ڪلڪ ڪرو
 learn-how-to-use-check-transcript = شيکو ڪي نقل ڪرل نِي ڪيم جانچ پڙتال ٿائي۔
+learn-how-to-use-check-transcript-explanation = نقل ڪرل ڪان اُوتار ڪرل مان ھر اُو لفظ  لُغط شيوا ڪان  ٻوليا نو آواز شامِل ھوو زويئين زين ماڻۿين ڪيڌو ھوئي بيان  ھوت۔
+learn-how-to-use-check-transcript-guidance = آ صڦو ڪيم استعمال ٿاشي شيڇا ۿارُو </guidanceLink>اڃان<guidanceLink> ڪلڪ ڪرو

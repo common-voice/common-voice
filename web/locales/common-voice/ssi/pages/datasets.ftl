@@ -68,3 +68,6 @@ dataset-metadata-age = عمر
 donate-modal-message = تھارا ڈیٹا سیٹ ڈاؤن لوڈ ہوئیرا ہے!
 dataset-donate-modal-heading = کیا تھمکُو ٹھا ہے ...
 donate-modal-explanation-1 = ڈیٹا سیٹسا کی میزبانی کرنے اور 100+ زبانوں کی برادریوں کے لئے پلیٹ فارم کو بہتر بنانے کے لئے ایک سال میں تقریبا ایک ملین ڈالر خرچ ہوتے ہیں جو ہمارے کام پر انحصار کرتے ہیں؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگر تھم کُھلے ، جامع ڈیٹا کا مان کرتے ہے تو - آج دؔان کرو!</bold>
+data-download-singleword-title = ایکلا سٻدؔ لکشے کا ٹُکڑا ڈاؤن لوڈ کرو

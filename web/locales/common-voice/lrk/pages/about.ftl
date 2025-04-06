@@ -136,6 +136,7 @@ about-playbook-how-access-dataset-content-2 = موڌل ٺايا ھارو اوز�
 ## How are decisions made
 
 about-playbook-how-project-governance = منصونہ را فيصلا ڪيڪر ڪريا ھي
+about-playbook-how-project-governance-content-1 = ڪي ٻيجي دنيا مون سرگرم ڪارڪنن لسانيت ري ماھرو ڌيٽا Mozilla Common Voice  فائرڌيݾن مون Mozilla سائنسان تعليمي ماھرو ھين سائٽ ويئر انجينير ري
 
 ## How is Common Voice funded
 
