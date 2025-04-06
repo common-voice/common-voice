@@ -43,17 +43,17 @@ about-clip-graveyard-text =
     امهِين جي منصُوبي ۾ مدد ڪرڻ ڪاڻ جھڪلان ماڻسان ائُون تنظيمان چي ٿوري منڻ چاهيون چئُون:
 about-get-involved = شامل هُوا
 about-get-involved-text-2 =
-    ڪامن وائِيسا  نُون بڌيڪ سُٺَي ٺاهوڻي ۾ مدد ڪرڻ چاهوا ڇوا؟ 
+    ڪامن وائِيسا  نُون بڌيڪ سُٺَي ٺاهوڻي ۾ مدد ڪرن چاهوا ڇوا؟ 
     زبردست! اِي ميلِي يان <discourseLink> Discourse </discourseLink> فورمان چي ذريعي رابطا ڪرا، 
     سائيٽا چي مسئلان نُون<githubLink>GitHub</githubLink>  پر جمع ڪرا، 
     يان <matrixLink>Matrix</matrixLink> ڪميونٽي چيٽا ۾ شامل هُوا۔
 about-stay-in-touch = مين ڪِيُون رابطي ۾ ريهہ سِگھَين ڇَين؟
 about-stay-in-touch-button = سائِين اپ ڪرا
 about-stay-in-touch-text-1 = <emailFragment>سائِين اپ ڪرا</emailFragment>  امچِي ميلنگ لسٽِي ۾ ، ته جُون تمهِين مُهمان، واقعان، ائُون ڪامن وائيس پر ڀيڙي ڊيزائِينا چي خاصيتان ۾ حصا گيهڻي چي باري ۾ سِيک سگها.
-about-stay-in-touch-text-2 = توهان موزيلا جي ٻوليءَ واري ڪميونٽيز ۾ ٻين سان ملي سگهو ٿا <discordLink>Discord</discordLink> يا <discourseLink>Discourse</discourseLink> پر شامل هُتِي موضوعاتي باتا ڪرڻي ڪاڻ، يان تڪڙي صلاح مشوري ڪاڻ <matrixLink>Matrix</matrixLink> پر.
+about-stay-in-touch-text-2 = تمهِين موزيلا چي  ٻولِي هاڙِِيان برادرِيان ۾ ڏُوجان سُون مل سگها ڇوا <discordLink>Discord</discordLink> يا <discourseLink>Discourse</discourseLink> پر شامل هُتِي موضوعاتي باتا ڪرڻي ڪاڻ، يان تڪڙي صلاح مشوري ڪاڻ <matrixLink>Matrix</matrixLink> پر.
 about-nav-why-common-voice = ڪان؟
 about-nav-how-it-works = ڪِيُون؟
-about-nav-partners = بِچڙتِي ڪام ڪرڻي هاڙا
+about-nav-partners = بِچڙتِي ڪام ڪرڻي هاڙي
 about-nav-get-involved = شامل هُوا
 about-nav-how-it-works-2 = ڪامن وائِيس ڪِيُون ڪام ڪرَي ڇَي؟
 about-nav-playbook = سِيکا تہ ڪِيُون شامل هُجَي
