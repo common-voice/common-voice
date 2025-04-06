@@ -54,14 +54,16 @@ about-stay-in-touch-text-2 = توهان موزيلا جي ٻوليءَ واري 
 about-nav-why-common-voice = ڪان؟
 about-nav-how-it-works = ڪِيُون؟
 about-nav-partners = بِچڙتِي ڪام ڪرڻي هاڙا
-about-nav-get-involved = مين ٻولِي نُون ڪِيُون شامل ڪر سِگھَين ڇَين؟
+about-nav-get-involved = شامل هُوا
 about-nav-how-it-works-2 = ڪامن وائِيس ڪِيُون ڪام ڪرَي ڇَي؟
-about-nav-playbook = سِيکا تہ ڪِيُون شامل هُوجَي
+about-nav-playbook = سِيکا تہ ڪِيُون شامل هُجَي
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = ڪامن وائِيسا ۾ ٻولِي ڪا ڇَي؟
+about-playbook-what-is-language-content-1 = اٽڪل ٻولِي چي باري ۾ سوچڻي چي گھڻي طرِِيقي هِتي۔ اسپِيچ ريڪگنيشن ماڊلزا چي مقصدان چي ڪاڻ صلاح ڏِيئَي ڇَي تہ، ’باهمِي سمجھ‘ پر ڌِيان ڏِيا۔ ڪا ها ٻولِي ٻولڻي هاڙي گھڻَي قدر هيڪي ڏُوجي چَي ٻولڻ Common voice سمجھ سِگھي هِتي جي بڙي وي ڪوشش ڪرِي؟
+about-playbook-what-is-language-content-2 = اَمهِين چاهُون ڇئُون تہ تقرِيرِي چي ماڊل سُٺي هُوِي تہ ٻولڻي هاڙان چِي مٽ مٽ رينجِي ۾۔ جھُونچ هُوَڻي ڪاڻ، هيڪي آواز ڊيٽاسيٽا نُون گھڻا ئِي فرق فرق ماڻسان چِي اڳواڻِي ڪرڻ کپَي۔
 
 ## How do I add a language
 
