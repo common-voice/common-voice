@@ -19,6 +19,7 @@ total-approved = پوري طور تي منظور ھويوڙي
 overall-accuracy = مجموعا ني سھي
 set-visibility = ماري visibility مقرر ڪرو
 visibility-explainer = هي سيٽنگ تمو ري  ليڊر بورڊ ري نمائش ني ڪنٽرول ڪري ھي. جدي لڪاڙيو جائي ، تمو ري ترقي نجي هوئي. او رو مطلب هي تمو ري  تصوير، صارف رو نوم ھين  ترقي ليڊر بورڊ تي ظاهر ڪوئي ھوئي. نوٽ ڪرو ڪي ليڊربورڊ ريفريش ~{ $minutes } منٽ لي ھي  تبديلو ني ڀريا  ۾.
+visibility-overlay-note = PROFIE<profileLink>تي ڪرو جائي تو آ سيٽنگ ني Visible نوٽ جدي او مون بدلي ڪري سگھي تو </profileLink>صفحو
 
 ## Custom Goals
 
