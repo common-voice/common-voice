@@ -30,6 +30,17 @@ record-abort-continue = ریکاڈنگ ختم
 record-abort-delete = با نِک آ کلپ ڈیلیٹ گر
 review-aborted = ضائع ھوَ ئیل اپلوڈ گر۔ تو اپئیں ریکاڈنگ ڈیلیٹ گرو لوکھا ؟
 review-submit-title = نظر ثانی آ جمہ گرو
+review-submit-msg = ریکاڈنگ گرے سو شکریہ ۔ <lineBreak> </lineBreak> ھویں اپوں کلپ نظر ثانی گر آ څھے جمہ گر
+review-recording = نظرثانی
+review-rerecord = دوبارہ ریکاڈ نگ
+review-cancel = جمہ گرو کینسل
+review-keep-recordings = رکاڈنگ سام
+review-delete-recordings = می ریکاڈنگ ڈیلیٹ گر
+review-terms = عام اواز استعمال گرے رے، تو اسئیں <termsLink>شرئط نو راضی تھو </termsLink> آ <privacyLink> پردا سو پالیسی نو</privacyLink>
+terms-agree = مہراضی تھو
+terms-disagree = مہراضی نہ تھو
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = اپئیں اواز دے سو شکریہ !
 
 ## MENU ITEM TOOLTIPS
 
