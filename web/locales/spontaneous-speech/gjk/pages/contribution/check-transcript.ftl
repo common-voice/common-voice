@@ -9,3 +9,8 @@ vote-transcript-success = نقل ڪرل نين ڪامياٻِي ٿِي ووٽ ڪ
 vote-transcript-error = نقل ڪرل ماٿيَ ووٽ ۮيڌا ٽاڻي ايڪ ڳلتِي ڇئِي سي۔
 transcript-edited-success = نقل ڪرل ڪامياٻِي ٿِي اپڍيٽ ٿئِي جھئِي
 transcript-edited-error = نقل ڪرل نين لڇا ٽاڻيَ ايڪ ڳلتِي ڇئِي سي
+error-fetching-transcriptions = نقل ڪرل نين حاصل ڪريا ٽاڻي ايڪ ڳلتِي ڇئِي سي۔ ميرٻانِي ڪرين ٿوڙيڪ وار وانۿين وري ڪوشِش ڪرو۔۔
+transcript-skipped-success = نقل ڪرل نين ڪامياٻِي ٿِي ميلِي ۮِيڌي
+transcript-skipped-error = نقل ڪرل نين ميچا ٽاڻي ايڪ ڳلتِي ڇئِي سي۔
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = صحيح
