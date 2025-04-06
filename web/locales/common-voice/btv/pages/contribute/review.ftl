@@ -42,3 +42,10 @@ sc-criteria-make-sure = یقینی گر چہء جملہ اِس څھئے طریق
 sc-criteria-item-1 = جملہ ضرور صحیح اسپلڈ ھویں۔
 sc-criteria-item-2 = جملہ ضرور گرائمر سو مطابق صحیحھویں۔
 sc-criteria-item-3 = جملہ ضرور منے سو قابل ھویں۔
+sc-criteria-item-4 = اگر کہ جملہ طریقہ کار مِل میلاؤ ھواں، تے کلک  گر&quot;  منظور&quot; بٹن سیز طرفے
+sc-criteria-item-5-2 = اگر کہ جملہ اِس رے طریقہ کار مِل میلاؤ نہ ھواں ،تے کلک گر &quot; رَد  &quot; بٹن کھب طرفے سو،کہ تو جملہ رے یقین نہ تھو تے تو اس سکپ گر ھاں آ پرئیں یے بز ھواں۔
+sc-criteria-item-6 = اگر کہ تو نظر ثانی سو دن جملے چلا، مہربانی گیری اسئیں مدد گر جل جملے جمہ گرے مہ۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چیک گر <icon> </icon>  چوں او جملہ زیب سو مطابق صحیح تھی ؟
+sc-review-rules-title = چوں جملہ ھدایات  مل میلاؤ ھواں ؟
+sc-review-empty-state = موجودہ وخت مہ اِس زیب مہ نظرثانی دن جملے نہ تھے۔
