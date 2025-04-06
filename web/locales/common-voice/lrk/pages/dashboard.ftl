@@ -23,6 +23,13 @@ visibility-explainer = هي سيٽنگ تمو ري  ليڊر بورڊ ري نم�
 ## Custom Goals
 
 both-speak-and-listen = ٻي
+both-speak-and-listen-long = ٻي ھوڻوہ ھين ٻولوہ
+daily-goal = روز رو مقصد
+weekly-goal = هفتا رو مقصد
+easy-difficulty = آسون
+average-difficulty = ايم اي
+difficult-difficulty = ڌوکي
+pro-difficulty = پورو
 n-clips-pluralized =
     { $count ->
         [one] { $count } ڪلپ
