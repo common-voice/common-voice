@@ -65,3 +65,6 @@ no-information-available = کوئی جانکاری ماجود نائی تی
 dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
+donate-modal-message = تھارا ڈیٹا سیٹ ڈاؤن لوڈ ہوئیرا ہے!
+dataset-donate-modal-heading = کیا تھمکُو ٹھا ہے ...
+donate-modal-explanation-1 = ڈیٹا سیٹسا کی میزبانی کرنے اور 100+ زبانوں کی برادریوں کے لئے پلیٹ فارم کو بہتر بنانے کے لئے ایک سال میں تقریبا ایک ملین ڈالر خرچ ہوتے ہیں جو ہمارے کام پر انحصار کرتے ہیں؟

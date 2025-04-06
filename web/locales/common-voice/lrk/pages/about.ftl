@@ -121,6 +121,10 @@ about-playbook-how-grow-language-content-8 = تمو ري ٻولي ڪميونٽي
 
 ## How to validate
 
+about-playbook-how-validate = ھون ڪيڪر اويکو ڪي وائس ڪلپ ني منظور ڪريو جائي
+about-playbook-how-validate-content-1 = ھمجي گھو <strong>ھين</strong>اووہ ني ھڻو <strong>جيڪدي تمي </strong> منظو ڪروہ بھتر ھي <strong>تو آ عام طور تي </strong> ھي
+about-playbook-how-validate-content-2 = ڪلپ ني رد تو ڪرو جيم اسپيڪر رو ’اوچار ھي ‘ جيم تمو رو آپ ھارو <strong>آ ضروري ھي ڪي آواز رو”ي اورکيا ھارو بھتر ڪوم ڪري </strong> الگ ھوئي
+about-playbook-how-validate-content-3 = ٺاھي ھي يا اووي </strong>ھمجي نا ممڪن <strong>جيڪدي تمي ھمجو ھو ڪي اوچار اوني ڪي پسي تمي ڪلپ </strong>ڀيجا مينک پڻ ٻولي ھي <strong>يا ايم ھي </strong>گھڻو پس منظر گوڙ <strong></accuracyLink>امو ري سھي ڪريا ري معيار ۾ وديڪ معلومات ني جو <accuracyLink>ني رڌ ڪروي کپي
 
 ## How to access dataset
 

@@ -33,3 +33,4 @@ misreadings-explanation-4 = نے لفظن دے آخر ڤے څیمین حرف ل�
 
 ## Question collection sidebar content
 
+example-questions-subheader = مثالن سوالاتے
