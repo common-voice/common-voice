@@ -49,3 +49,10 @@ sc-criteria-item-6 = اگر کہ تو نظر ثانی سو دن جملے چلا�
 sc-review-instruction = چیک گر <icon> </icon>  چوں او جملہ زیب سو مطابق صحیح تھی ؟
 sc-review-rules-title = چوں جملہ ھدایات  مل میلاؤ ھواں ؟
 sc-review-empty-state = موجودہ وخت مہ اِس زیب مہ نظرثانی دن جملے نہ تھے۔
+report-sc-different-language = مختلف زیب
+report-sc-different-language-detail = مہ چہء کاں نظرثانی گرا  او تِس نو مختلف زیب مہ لکیل تھی
+sentences-fetch-error = جملے دُ ھنے مہ غلطی یے گے تھی
+review-error = اِس جملہ سو نظر ثانی گرے رے غلطی یے گے تھی
+review-error-rate-limit-exceeded = تو تیز بزا۔ مہربانی گر پھِک وختگِھن نظرثانی گرے مہ جملہ سو یقین گر چہء او جملہ صحیح تھی
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = بے کیں گھئیں تبدیل سندہ تھہ
