@@ -342,6 +342,12 @@ email-opt-in-info = ھون حاصل ڪروہ چاھو ھين او ميلون  ر
 email-opt-in-info-title = عام وائس ميلنگ فهرست ۾ ڀيرا ھون
 email-opt-in-info-sub-with-challenge = اي ميلون وصول ڪرو جيم ڪي  دعويٰ ۽ مقصد ياد ڏيراوُ ، پيش رفت تازه ڪرو ، ھين  عام آواز بابت خبر نامو.
 email-opt-in-privacy-v2 = اي ميلون وصول ڪريا ھارو آپٽ اِو ڪري، تمي  بيون ڪرو ھون تو تمي سهمت ھون Mozilla مون او  معلومات کن سنڀاليا ھارو  جيم Mozilla ري <privacyLink>رازداري پاليسي</privacyLink> ۾ وضاحت ڪري ھي.
+indicates-required = تارا (*) مون نشون لڳليوڙا فيلڊ کپي ھي .
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>امو ني ضرورت</mark><br/><mark>تماري مدد!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڊيٽا سيٽس ني هوسٽ ڪريا ھارو ھين پليٽ فارم ني بهتر بڻايا ھارو هر سال تقريبن ايڪ ملين ڊالر خرچ اوي ھي 100ٻولي  ري برادريون جي امو ري ڪوم تي ڀروسو ڪري ھي.
