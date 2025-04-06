@@ -3,6 +3,7 @@ guidelines-header = Hisadoriẽ fidat
 guidelines-header-subtitle = hisadoriẽ hẽr k̃hũ pẽzũv kat̃ woz jũmlavẽ towsiq car woz komon voysẽ d̃at̃asẽt̃ẽr owozẽ klipisht
 voice-collection = owoz g̃hũrtẽn
 sentence-collection = Jumlaev jama k̃hak
+question-collection = Sawolve Majmua'
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,10 @@ domain-explanation = ce Ẽhatani jumla mowzu mẽrod . hanivẽs̃h, tu dẽ mu
 
 ## Question collection ids
 
+adding-questions = Sawlev Qiti K`hak
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Yi Baf swoles`h chisokht wost?
+what-makes-a-good-question-explanation = Yurte Shirokatdoriye haten yi baf sawole 'datasets' boyedki:
+what-makes-a-good-question-explanation-criteria-1 = Repuzuv kitak et jawob redhower Oson humuyd

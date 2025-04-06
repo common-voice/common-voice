@@ -278,6 +278,7 @@ tig = ٽيگري
 tk = ترڪماني
 tl = تگلگ
 tn = سيٽسوانا
+tob = Toba Qom
 tok = ٽوڪي پونا
 tr = ترڪي
 ts = زٽسونگا
@@ -350,4 +351,6 @@ not-available-abbreviation = N/A
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>امو ني ضرورت</mark><br/><mark>تماري مدد!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = ڊيٽا سيٽس ني هوسٽ ڪريا ھارو ھين پليٽ فارم ني بهتر بڻايا ھارو هر سال تقريبن ايڪ ملين ڊالر خرچ اوي ھي 100ٻولي  ري برادريون جي امو ري ڪوم تي ڀروسو ڪري ھي.
+donate-banner-cta-explanation = ڊيٽا سيٽس ني هوسٽ ڪريا ھارو ھين پليٽ فارم ني بهتر بڻايا ھارو هر سال تقريبن ايڪ ملين ڊالر خرچ اوي ھي 100ٻولي  ري برادريون جي امو ري ڪوم تي ڀروسو ڪري ھي<strong>.جيڪڏي تمي کوليوڙا، ڀآرا ڊيٽا ري قدر ڪرو ھون - آڄ ھي دون  ڪرو</strong>!
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>استعمال CV ھارو</mark><br/><mark>تماري جونڪاري?</mark>
