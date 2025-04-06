@@ -126,3 +126,5 @@ length-explanation = Sawole jawob de Chandi Jumlaev redho wost.
 dont-add-subheader = Qitti Mecar
 culturally-specific-questions = Makhsus Saqofati sawolisht
 culturally-specific-questions-explanation = Saqofat en Mutaliqa Swlisht, yoy jawob redhowe kuzgk bara er C`hak mafruzat lecer.
+length-avoid-explanation = Kuybiki ce Sawlve Jawobe de 15 lamhotve dest rand (can deroz clip me wost)
+process-steps = Amal / Qadamish

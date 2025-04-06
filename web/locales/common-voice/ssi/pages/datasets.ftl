@@ -91,3 +91,5 @@ license = لیسݨ: <licenseLink>{ $license }</licenseLink>
 license-mixed = مِلاوڑا
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = مھاری آواج اعداد و شمار ڈاؤن لوڈ کرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = سادی آواج ڈیٹا تائی پُگݨے کُو ادھیکار پراپت کرنے نتر ڈاؤن لوڈ کرو
