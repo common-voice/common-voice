@@ -114,3 +114,7 @@ adding-questions = Sawlev Qiti K`hak
 what-makes-a-good-question-subheader = Yi Baf swoles`h chisokht wost?
 what-makes-a-good-question-explanation = Yurte Shirokatdoriye haten yi baf sawole 'datasets' boyedki:
 what-makes-a-good-question-explanation-criteria-1 = Repuzuv kitak et jawob redhower Oson humuyd
+what-makes-a-good-question-explanation-criteria-2 = Amumi torer mutaliqa humuyd
+what-makes-a-good-question-explanation-criteria-3 = Naqabili Istimol, talab k`hetk, nuqsondeh, yoy jarihanana zik me humuyd
+what-makes-a-good-question-tip = Mumkini Sashtep Digar siyoq o saboq et 'Domains' ver be sumba carit.
+easy-to-understand = Puzuv kitaker Oson Humuyd
