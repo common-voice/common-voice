@@ -87,10 +87,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائِيٽ لوڪلائيزيشن ڪِيُون ڪام ڪرَي ڇَي؟
+about-playbook-how-localize-content-1 = ڪامن وائِيس سائِيٽِي چا ترجما <strong>پون ٽونا</strong> پرهُوَي ڇَي۔
+about-playbook-how-localize-content-4 = سائِيٽ شرُوع هُوَڻي چي ڪاڻ تيار ڇَي، جِڏ  واهچ 75 سيڪڙا مُڪمل هُتِي جا۔
+about-playbook-how-localize-content-5 = مددِي چي ڪاڻ اَمچِي وضاحت ڪرڻي هاڙِي وِيڊيو ڏيکا
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = مين ججُملي ڪِيُون شامل ڪر سِگھَين ڇَين؟
+about-playbook-how-add-sentences = مين جُملي ڪِيُون شامل ڪر سِگھَين ڇَين؟
 
 ## How to record quality
 
