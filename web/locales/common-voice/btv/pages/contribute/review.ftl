@@ -56,3 +56,7 @@ review-error = اِس جملہ سو نظر ثانی گرے رے غلطی یے گ
 review-error-rate-limit-exceeded = تو تیز بزا۔ مہربانی گر پھِک وختگِھن نظرثانی گرے مہ جملہ سو یقین گر چہء او جملہ صحیح تھی
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بے کیں گھئیں تبدیل سندہ تھہ
+sc-redirect-page-subtitle-1 = جملہ جمہ گرے والہ کور عام اوازسو پلیٹ فام سو طرفے بزا تو ھوئیں <writeURL> لک ھواں </writeURL>  یک جملہ یا <reviewURL> نظر ثانی گر ھواں </reviewURL> یک جملہ جمہ گرے مہ عام اواز مہ۔
+sc-redirect-page-subtitle-2 = سوالگراسو نو <matrixLink> قالب رے </matrixLink> <discourseLink> ڈسکورس </discourseLink> یا <emailLink> ای میل </emailLink>
+# menu item
+review-sentences = جملیوں سو نظر ثانی گر
