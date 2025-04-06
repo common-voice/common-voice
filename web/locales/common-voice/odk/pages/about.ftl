@@ -78,6 +78,10 @@ about-playbook-how-add-language-translating-content-2 =
      او کن پڇي، ٻولِي نُون ڪامن وائِيسا چي پروجيڪٽا ۾ ناکڻي ڪاڻ </githubRepoLink> نَوِي ٻولِي شامل ڪرڻي چِي درخواست ڏِيا <githubRepoLink>۔ </localizationFragment> سائِيٽِي چي ترجمي ۾ بڌِيڪ ڏيکا</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جُملي ڀيڙي ڪرڻ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> اَمچِي گائِيڊ ڏيکا تہ جملي ڪيُون ڀيڙي ڪجِي۔ <sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمهِين </sentenceCollectorLinkAdd> جملان چي ڌاري انگ شامل ڪر سِگھا ڇوا۔  <sentenceCollectorLinkAdd>  
+    يان بڙي تمهِين <bulkImportDocsLink> Github اِستعمال ڪتِي بڌِيڪ گھڻي امپورٽ ڪر سِگھا ڇوا۔ </bulkImportDocsLink>
+      ياد راکا تہ جملي <licenseLink> CC0 (يان عوامِي ڊومين)</licenseLink> هُوَڻ کپِي، يان بڙي تمهِين آپڪَي بِي لِک سِگھا ڇَوا
 
 ## How does localization work
 
