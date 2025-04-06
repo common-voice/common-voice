@@ -23,6 +23,22 @@ sc-review-form-button-skip-shortcut = ایس
 sc-review-form-keyboard-usage-custom = تُو کی بورڈ  شارٹ کٹ  ھُم استعمال گر ھواں{ sc-review-form-button-approve-shortcut } منظری سو دن{ sc-review-form-button-reject-shortcut } رد گرے سو دن{ sc-review-form-button-skip-shortcut }  سکپ گرے سو دن
 sc-review-form-button-submit =
     .submitText = نظرثانی ختم
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] جملے نظر ثانی یے نہ تھے
+        [one] جملہنظر ثانی ھویں گے شکریہ
+       *[other] { $sentences } جملے نظر ثانی ھویں گے شکریہ!
+    }
+sc-review-form-review-failure = نظرثانی محفوظ نہ ھوں ھواں۔ مہربانی گیری پتن اش کوشش گر۔
+sc-review-link = نظرثانی
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = طرہقہ کار نظر ثانی
+sc-criteria-title = طریقہ کار نظر ثانی
+sc-criteria-make-sure = یقینی گر چہء جملہ اِس څھئے طریقہ کار مِل میلاؤ ھاں۔
+sc-criteria-item-1 = جملہ ضرور صحیح اسپلڈ ھویں۔
+sc-criteria-item-2 = جملہ ضرور گرائمر سو مطابق صحیحھویں۔
+sc-criteria-item-3 = جملہ ضرور منے سو قابل ھویں۔
