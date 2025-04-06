@@ -112,6 +112,8 @@ about-playbook-how-record-content-5 = <accuracyLink> وديڪ جو سھي ڪري
 about-playbook-how-grow-language = امي ڪيڪر سھي طريقا مون ايڪ ٻولي ني عام آواز تي ودھاوي سگھو
 about-playbook-how-grow-language-content-1 = مينکو ري طعنو ھارو موقعا پيدا ڪريا ھاروڪامن وائس ۾ حصو ليدا ني ڀروسا مين ٺاھي ھي ٽو ڌيٽا سيٽ جيتو اونچو ھوئي سگھي ھين مينکو ري خدمت ڪري امي وسيلا ھين ٽيمليٽ ٺاھيا ھي جي ني تمي استعمال ڪري ھگو
 about-playbook-how-grow-language-content-2 = ويتيوڙي
+about-playbook-how-grow-language-content-3 = تمي منيکو تي مدد ڪريا ۾ مدد ڪريا ھارو ئاقعا ھلائوي سگھو او تمو ري سوچ مون وديڪ آسون ھليا وارو  <eventTemplate>ھي تمي آ ڪري ھگو ھون ڪي اون لائن ڪانفرسنگ پوزا مون يا زاتي طور تي جيڪدي آ رکݾا ۾ ھي </eventTemplate>واقعيو ھارو امو را ٽيمليٽ ھين وسيلا چيڪ ڪرو
+about-playbook-how-grow-language-content-4 = سماجي دڌيا
 
 ## How to validate
 

@@ -2,6 +2,7 @@
 guidelines-header = پے حصو غوردا دیر رہنمائی
 voice-collection = آواز بڑیڅڤدا
 sentence-collection = جملغّے بڑیڅڤدا
+question-collection = سوالف مجموعہ
 
 ## Voice Collection nav ids
 
@@ -17,6 +18,8 @@ example = مثال
 
 ## Voice collection sidebar content
 
+misreadings-explanation-2 = جاہند عام غلطی
+misreadings-explanation-3 = ریکارڈنگ دے کڑا ڤے څیمین حرف لیغدا
 
 ## Sentence collection nav ids
 

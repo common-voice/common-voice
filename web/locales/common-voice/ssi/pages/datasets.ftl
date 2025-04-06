@@ -58,3 +58,5 @@ more = ودھیک
 close = بند کرنا
 download = ڈاؤن لوڈ
 dataset-version = ورژن
+sha256-checksum-copied = ایس ایچ اے 256 چیک سم نکل کروڑِ ہے!
+sha256-checksum-copied-error = ایس ایچ اے 256 چیک سم
