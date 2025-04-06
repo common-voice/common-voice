@@ -28,6 +28,8 @@ misreadings-explanation-6 = ڤے ریکارڈنگ پیرو دے بود کڑا و
 misreadings-explanation-7 = ڤے یو لفظ پے اݰٹا دیر جاہند کوشش کڑا۔
 misreadings-example-1 = ماخ دے کوچو نے کافی شیمدان اویمتے۔
 misreadings-example-2 = دے کوچو نے کافی شیمدان اویمتے
+misreadings-example-3 = ماخ دے کوچو نے کافی شیمدان اویمتے۔
+misreadings-example-4 = استر مڅھی کورمو ژے تو پیرو نیغوڑ۔
 
 ## Sentence collection nav ids
 
