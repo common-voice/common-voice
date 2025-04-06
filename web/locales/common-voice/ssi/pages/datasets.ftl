@@ -77,3 +77,4 @@ data-download-yes = ہاوے
 data-download-deny = نائی
 data-download-license = لیسݨ: <licenseLink>CC-0</licenseLink>
 data-download-modal = تھم <size>{ $size }جی بیا</size> کا ڈاؤن لوڈ سَرو کرنواڑے ہے، آگے ودھو؟
+data-subtitle = ہم آواجیں کا ایک کُھلا اور عوامی توراپ ماجود ڈیٹا سیٹ ٻݨائیرے ہے جس کُو ہر کوئی بھاشݨا کے جوگی ایپلی کیشنزا کُو تربیت دینے کے لئے استعمال کرسکتا ہے۔

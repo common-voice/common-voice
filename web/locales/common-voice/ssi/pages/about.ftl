@@ -151,3 +151,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>اس باری�
 ## How is Common Voice funded
 
 about-playbook-how-funded = سادھارݨ اواجا کُو کِدؔا چندا اُگاڑی کرا جاوتا ہے؟
+about-playbook-how-funded-content-1 = سادھارݨ اواج موزیلا فاؤنڈیشنا کی ایک یوجنا ہے ، جکو ایک امریکی 501 سی 3 ہے۔ ہلی اِٻکے یو یوجنا مکمل توراپ <philantropicGrantLink>دؔانی گرانٹس</philantropicGrantLink> اور دُنِیا بھرا کے مِنکھیں کے دؔاناس ذریعہ چندا دؔیتے ہے۔

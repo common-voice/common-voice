@@ -263,9 +263,12 @@ sr = سربيائي
 ss = سِسواتي
 st = ڏاکڻي سوٿو
 sv-SE = سويڊني
+sva = Svan
 sw = سواهلي
 syr = سيريائي
+szy = Sakizaya
 ta = تامل
+tay = Atayal
 te = تيلگو
 teg = ٽيڪي
 tg = تاجڪ
@@ -324,6 +327,17 @@ faq = FAQ
 documentation = Documentation
 content-license-text = ري تحت مواد ھي </licenseLink>Creative Commons لائسنس<licenseLink>ھي
 share-title = امو ني ڀيجس ري ٻوليا ۾ مدد ڪرو ٻيجي آواز ني دئي ھگي
+share-text = { $link }مݾين ني ھيکايا ۾ مدد ڪرو ڪي حقيقي مينک ڪيڪر ٻولي ھي آپري آواز ني ديو
+link-copied = لنڪ ڪاپي ڪرو
+back-top = وائس ري ماٿي جاو
+logout = لاگ آئوٽ ڪرو
+donate = دان ڪرو
+stayintouch = تي آواز ٽيڪانالوجي ري چودھاري ايڪ برادري دوڙو ھو۔ امي تازا Mozilla امو ڪارين ۔ ڌيٽا ري زريعي مون رابطا ۾ رھوُ چاھو ھون ھين وڌيڪ ھوڻيا ھارو ڪي تمي اي ڌيٽا ني ڪيڪر استعمال ڪرو ھون
+privacy-info = امو تمو ري معلومات ني احتياط مون سنڀليا رو واعدو ڪرو ھون وديڪ پڙو امو ري </privacyLink>رازداري نوٽيس<privacyLink>
+return-to-cv = عام آواز تڪ واپسي جاو
+email-input =
+    .label = اي ميل
+loading = …لوڌ ھوئي رھيو ھي
 
 ## Donate banner
 
