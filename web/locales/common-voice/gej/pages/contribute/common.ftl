@@ -85,3 +85,6 @@ contribution-misreadings-title = nuhɛ̃̀hlɛ̃gbàdàdǎwo
 contribution-misreadings-description = né mì le sè nu a, mì kpɔ égbɔ nyɔɛɖé bé nu kè wó lé a yé wó ŋlɔ̀ tututu. mì gbé né nyí àgbàdàdǎ viɖéwo kpòo. <br />. àgbà kè wó dànà éji éji a woe nyi kèyàwo:
 contribution-misreadings-description-extended-list-1 = ɖé huè tè<strong> àlo <strong> a</strong> lè nyàlélé a bé gɔ̃̀mèjèjě.
 contribution-misreadings-description-extended-list-2 = wo ɖé <strong> huè tè lè nyàgbèɖé bé nùwuwu.
+contribution-misreadings-description-extended-list-3 = nyàtoɖoémèwo kèwo mu lè o sìgbè  « surment » kè le ɖɔlì  « surement ».
+contribution-misreadings-description-extended-list-4 = nyà kpɔ̀tɛ́ a bé nùwuwu sò ɖo a wó nɔ̀tè nyàlélé a kpàtà.
+contribution-misreadings-description-extended-list-5 = ajè tre mè ájè àgbã mè alo ahlɔ̃ ŋútɔ kéŋugbɔxué ahlɛ̃̀ nyà ɖèka.
