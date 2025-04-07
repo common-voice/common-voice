@@ -43,6 +43,8 @@ healthcare = صحت
 # Sentence Domain dropdown option
 history_law_government = تریخ، قانون اڤن حکومت
 # Sentence Domain dropdown option
+language_fundamentals = زبانن لازمی ژینارئی (مثلاً نمالبار، حرف، پیسو)
+# Sentence Domain dropdown option
 media_entertainment = میڈیا اڤن تفریح
 # Sentence Domain dropdown option
 nature_environment = قدرت اڤن ماحول
@@ -56,6 +58,10 @@ sentence-variant-select-multiple-variants = عام زبان/ جاہند قسم
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = دے عام آدمف دائرو استعمال ݰویا بݰ جملغے اپلوڈ<icon></icon> کن
+sc-bulk-upload-instruction = ڤے خوئے فائل مولو لیغان یا <uploadButton> پے اپلوڈ دیر سارو ڤزیب</uploadButton>
+sc-bulk-upload-instruction-drop = ڤے فائل پے اپلوڈ دیر مولو لیغان
 
 ## SMALL BATCH SUBMISSION
 
