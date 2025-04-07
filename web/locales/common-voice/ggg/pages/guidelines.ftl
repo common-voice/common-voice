@@ -44,6 +44,8 @@ background-noise-example-1 = ٽرسڪآ ڪآ ٻڏآ ڊائنوسآر.
 background-noise-example-2 = ٽرآسڪآ ڪو جبرو [ کنگ] ڊآئينآسور[ ڇيٚنٚڪ]۔
 background-noise-example-3 = جبرو ڊِنو [کنگ] ٽرآسڪ۔
 background-noise-example-4 = جبرو ڊآئينآسآرو ڪو[ڪريل]- ريآسڪ [ڪريل]۔
+background-noise-tip-1 = [آسآ پسآ ڪآ گوڙو ڪآ وُچو مي رُڪآوٽ]
+background-noise-tip-2 = [لِکآوٽيٚ ڪو ايڪ هيسو سُڻوآ مي ڪونآ آئي]
 
 ## Sentence collection nav ids
 
