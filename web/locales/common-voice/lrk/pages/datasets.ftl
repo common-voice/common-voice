@@ -77,3 +77,13 @@ donate-modal-explanation-1 = امو ري ڪوم تي ڀروسو ڪريا ري 10
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>جيڪدي تميي کوليوڙا ، جامع ڊيٽا ري قدر ڪررو ھون - آڄ ھي دون ڪرو!</bold>
 data-download-singleword-title = ڊائون لوڊ ڪرو ايڪلو ھي اکر وارو حصو
+data-download-singleword-callout-v2 = هي ايڪ استعمال پڻ ھلايا وارو حصو هي جي ۾ ڊيٽا ڀيري هي طاقت ٻوليا وارو انگو اکرو ري اورکيا ھين ها / نه جووُ
+data-download-button = ڊائون لوڊ ڪرو عام وائس ڊيٽا
+data-download-yes = جي ھان
+data-download-deny = نا
+data-download-license = لائسنس: <licenseLink>سي سي-0</licenseLink>
+data-download-modal = تمي<size>{ $size }GB</size> ڊائون لوڊ ڪريا  وارا هو، آگي وڌو؟
+data-subtitle = امي آوازو رو ايڪ کوليوڙو ھين عوامي طور تي دستياب ڊيٽا سيٽ ٺاهو رهيا هون جي ني هرڪي استعمال ڪري سگهي ھي تقرير-فعال ھويوڙي ايپليڪيشنو ني تربيت ڏيڌا ھارو
+data-explanatory-text = امي يقين رکون ھو تو موٽي ھين عوامي طور تي دستياب آواز ڊيٽا سيٽ مشين رآي ھکيا تي ھوڻيوڙي تقرير ٽيڪنالاجي ۾ جدت ھين صحتمند تجارتي مقابلا ني فروغ ڏي ھي. آ ايڪ عالمي ڪوشش هي ھين امي سڀنو ني ميلايا ري دعوت ڏيو ھون . امو رو مقصد تقرير ٽيڪنالاجي ني وڌيڪ ڀيرا ڪريا ۾ مدد ڏيوي هي، دنيا ي آوازو ري تنوع ني ظاهر ڪرين.
+data-get-started = <speechBlogLink>تقرير ري اورکيا مون شروعات ڪرو</speechBlogLink>
+data-other-title = ڀيجا آواز ڊيٽا سيٽس…

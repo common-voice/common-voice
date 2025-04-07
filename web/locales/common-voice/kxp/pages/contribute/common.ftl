@@ -22,6 +22,22 @@ speak-empty-state-cta = جُملان هارو مدد ڪروون
 speak-loading-error = اَمين تماري ٻوليا هارو ڪوئي پڻ جملا هاڇ نا ڪريا۔ مهرباني ڪرينَ واري ڪوشش ڪرو
 record-button-label = تمارو آوزا رڪارڊ ڪرو
 share-title-new = وڌاري آواز ڳوتو، امارِي مدد ڪرو
+keep-track-profile = ايڪ  پروفائيل مان تماري ترقي هارو طريقو راکو۔
+login-to-get-started = شُروع ڪريا هارُو لوگ اِن يان سائينَ اَپ ڪرو
+target-segment-first-card = تمين امارا پيهريا ٽارگيٽ سيڪشن مان حصو لو را سو۔
+target-segment-generic-card = تمين اَمارا پيهريا ٽارگيٽ سيڪشن مان حصو لو را سو۔
+target-segment-first-banner = عام آواز ٿي پيهريا حصا مان مدد ڪرو
+target-segment-add-voice = تمارو آواز راکو
+target-segment-learn-more = وڌيڪ شيکو
+change-preferences = ترجيحي بدلاوو
+login-signup = لوگ اِن، سائين اِن
+vote-yes = هووي
+vote-no = نا
+datasets = مُدت، زمانو
+languages = ٻولِي
+about = ڀارا مان
+partner = ساٿِي
+submit-form-action = قبُول ڪروون مانوون
 
 ## Reporting
 
