@@ -29,6 +29,15 @@ bulk-sentence-submission = جاہند زیات جلمو شامل کن
 single-sentence = یو (فګیغو)
 # Sentence Domain dropdown option
 agriculture_food = زمینداری اڤن خوراک
+# Sentence Domain dropdown option
+media_entertainment = میڈیا اڤن تفریح
+# Sentence Domain dropdown option
+nature_environment = قدرت اڤن ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبرے اڤن حالاتِ حاضرہ
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی اڤن رابوٹ
+sentence-variant-select-label = جملغّف مختلف شکل
 
 ## BULK SUBMISSION
 
