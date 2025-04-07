@@ -321,6 +321,8 @@ privacy = بھیدؔی
 terms = سرتاں
 cookies = پکاوݨا
 faq = سادھارݨ سے سُئال
+documentation = کیمتی کاگدؔ
+content-license-text = <licenseLink>سادھارݨ رچنا لیسݨا</licenseLink> کے نِیچے ماجُود سیمان
 
 ## Donate banner
 
