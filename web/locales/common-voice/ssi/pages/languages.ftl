@@ -26,3 +26,5 @@ get-involved-text =
 get-involved-form-title = { $lang } اپ ڈیٹسا نتر سائن اپ کرو:
 get-involved-email =
     .label = ای میل
+get-involved-opt-in = ہاوے، مِسکُو ای میل دؔیگلاو. ہوں سادھارݨ آواجاپ اس ٻولیا کی پرگتیا باریم  چاٹؔکا رہنا چاوتا ہے۔
+get-involved-submit = بھیݪا کرنا
