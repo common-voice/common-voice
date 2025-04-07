@@ -23,6 +23,7 @@ varying-pronunciations-explanation-1 = اسان مختلف تلفظ کي خوش 
 varying-pronunciations-explanation-2 = اي طرف، جيڪڌي تمي سوچو ڪي پڙھياوارپيري ڪڌي به اکر ۾ ڪوئي آيو هي، ھين تلفظ تي غلط اندازو لڳاوي رهيو هي، مهربوني ڪرين رد ڪرو. جيڪڌي تمو ني يقين نڪوئي هي ڪي، اسڪپ ھوڻيا ني استعمال ڪرو.
 varying-pronunciations-example = رستو واضح ڪوئي ھي
 varying-pronunciations-tip-1 = [ڪينيڊا ري انگريزئ ۾ ھوئي سگھي ھي "رستو" آواز "روٽ" جيم]
+varying-pronunciations-tip-2 = [برطانوي انگريزئ ۾ ھوئي سگھي ھي "روٽ"]
 
 ## Sentence collection nav ids
 
