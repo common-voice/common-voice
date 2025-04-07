@@ -44,12 +44,21 @@ report-other-comment =
     .placeholder = nupopòposonu àlo àmè ŋúti.
 success = dɔwɔ̀wɔ̌ a jè éji / dɔwɔ̀wɔ̌ a wu nu nyɔɛɖé.
 continue = yì èji.
+report-success = wó ɖo nuŋɔ̀ŋlɔ̀ a ɖo da nyɔɛɖé.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
+shortcut-record-toggle-label = le nu / tɔ tè nu.
+shortcut-rerecord-toggle = ɖèka sɔ yì àtɔ̃.
+shortcut-rerecord-toggle-label = trɔ́ lé nyà.
 
 ## Listen Shortcuts
 
