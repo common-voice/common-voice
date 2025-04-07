@@ -1,4 +1,8 @@
-action-click = ۮٻاوُون
+action-click = ۮٻاوُون، ڪلڪ ڪروون
+action-tap = ڀار آلوون، ۮٻاوون
+contribute = حصو آلوو، مدد ڪروون
+review = دوهرائِي، يان وري زوون
+skip = ميلِِي آلوون، رد ڪروون
 
 ## Reporting
 
@@ -82,3 +86,10 @@ contribution-background-voices-description-extended = زي رڪارڊينگ ٽو
 contribution-background-voices-example-1-title = اڳي نو ايڪ موٽو ڊائينوسورس زور ٿي ايڪ آواز مان ڀڻو
 contribution-background-voices-example-1-explanation = ڪوئي ٻيزا نين ڪو، ڪي شُون تُون آوي رو سي؟
 contribution-volume-title = حجم، آواز
+contribution-volume-description = قدرتي ڀڻيا واۯان نو آواز مختلف هوئي سي۔ زار وڌاري زور ٿي آواز هوئي تو رڪارڊنگ رڌ ڪرو۔  يانَ نصان مان زي لکل سي اين مان هاوَ ايلٽو گھٽ آواز سي زي تمان نين همزيا مان نا آوي۔
+contribution-reader-effects-title = ڀڻيا واۯان نا اثرات
+contribution-reader-effects-description = قدرتِي اَلاهِي واڌاري رڪاڊنگون ٻوليون زائي سي۔ تمين ڪاريڪ ڪاريڪ غير معياري رڪانقنگ قبول ڪرِي ڪو سو۔ يان وري چيڪ نو آواز هوئي، يان ڪاش هوئي يان هڌري نموني ڊرامائي انداز مان هوئي تو مهرباني ڪرينَ ڳاول رڪانڍگ يان ڪمپيوٽر نِي رڪارڊنگ هوئي تو اين نين رد ڪرو۔
+contribution-just-unsure-title = يقين نا هوئي
+contribution-just-unsure-description = زي تمان نين نين ڪوئي ايُوي وات همزيا مان آوي زي هدايت پرماڻي نا هوئي۔ تو مهرباني ڪرينَ پوتان نا فيصلا پرماڻي ووٽ آلو۔ زي تمين فيصلو نٿي ڪرِي ڪيتان تو واپس تو رد ڪرو هانَ آيا واۯي رڪارڊنگ ماٿي آوو۔
+see-more = وِي زيوون نشان۔ وڌاري زوو
+see-less = وي زيوون نشان گھٽ زوو

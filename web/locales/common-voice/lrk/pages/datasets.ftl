@@ -40,3 +40,9 @@ dataset-description-hours =
     ڊيٽا سيٽ هن وقت تي مشتمل هي <b>{ $valid }</b> تصديق ھويوڙا ڪلاڪو ۾ <b>{ $languages }</b> ٻوليو ۾، پر امي هميشه وڌيڪ آواز ھين ٻوليون ڀيرا ڪرو رهيا هون. امو ري <languagesLink>Languages صفحو</languagesLink> تي ايڪ نظر ڌيو ڪي ٻولي ري درخواست ڪري يا حصو ڏيو شروع ڪريا ھارو.
 want-dataset-update = تازه ڪاريون چاھون ھون جڏي امي ڪامن وائس ڊيٽا سيٽ رو نئون نسخو جاري ڪرو؟ اموري نيوز ليٽر ري ڀيراپڻا  ۾ حاصل ڪرو.
 subscribe = ڀيراپڙا ۾ حاصل ڪرو
+get-started-speech = تقرير ري شناخت مون شروع ڪرو
+other-datasets = ٻيجا وائس ڊيٽا سيٽ
+feedback-q = موٽ ڌيو
+# This indicates that there is no data to display
+no-information = معلومات ڪوئي ني
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ايڪ <docsLink>اوپن سورس ٽول ڪٽ</docsLink> هي ايدارو ھارو جي جديد ترين وات چيت ڪرتي AI ماڊل ٺاهي رهيا ھي.
