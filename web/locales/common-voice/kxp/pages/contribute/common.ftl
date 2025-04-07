@@ -58,51 +58,54 @@ report-other-comment =
     .placeholder = مشورو
 success = ڪامياب
 continue = جارِي راکو
+report-success = رپورٽ ڪامياب ٿئي جھئي
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ر
-shortcut-record-toggle-label = رڪارڊ ڪرو، روڪو
-shortcut-rerecord-toggle = 1يڪ ٻي ترينڻ چار پانس
-shortcut-rerecord-toggle-label = وري رڪارڊ ڪروون
-shortcut-discard-ongoing-recording = اِي ايس سي، نا پاڙوون
-shortcut-discard-ongoing-recording-label = رڪارڊنگ ڌار ڪروون
+shortcut-record-toggle = ر ،آر
+shortcut-record-toggle-label = رڪارڊنگ ڪرو، روڪو
+shortcut-rerecord-toggle = ايڪ ٻي ترينڻ چار پانسَ
+shortcut-rerecord-toggle-label = وَري رِڪارڊ ڪروون
+shortcut-discard-ongoing-recording = رَد رڪوون
+shortcut-discard-ongoing-recording-label = رِڪارڊنگ الگ ڪروون
 shortcut-submit = واپس
-shortcut-submit-label = ڪلپ قبول ڪروون
-request-language-text = تمين ڪۮي عام ٻولي ڀاۯي سي؟
-request-language-button = درخواست هانَ ٻولي
+shortcut-submit-label = ڪِلپ قبول ڪرووُن
+request-language-text = تمين ڪۮِي عام ٻولي ڀاۯي سي؟
+request-language-button = ايڪ ٻولِي هارُو درخواست
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = پِي پ
-shortcut-play-toggle-label = چالو، بند  يا روڪو
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = چالو،  روڪو
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = يه وائي
+shortcut-vote-yes = يه
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ن نُون
 
 ## Validation criteria
 
-contribution-criteria-nav = جانچ، امتحان
-contribution-criteria-link = جانچ پڙتال نا حصه نين همزوون
-contribution-criteria-page-title = جانچ نو حصو
-contribution-criteria-page-description = ڪلپ هانمڀۯيا نين ٽانڻي چئي واتان نو خيال راکوو سي هانَ پوتان ني رڪارڊ ڪرل آواز نين هڌري ڪروون سي۔
-contribution-for-example = مثال طور
-contribution-misreadings-title = ڀڻوون ويهاروون
-contribution-misreadings-description = زار هانمڀۯو، تو ڌيان ٿي زوون سي ڪي شون رڪارڊ ڇُون سي سئي سي زي لکل سي اي سي ڪي نا، ڪوئي مسئلو هشي تو اي ناڪام ٿئي زاشي
-contribution-misreadings-description-extended-list-1 = شرواعاتي رڪاڊنگ ويهاروي
-contribution-misreadings-description-extended-list-2 = پڇاڙي مان زي اکر سي اي ويهاروا
-contribution-misreadings-description-extended-list-3 = تنڳائي ٿي ڀڻيا واۯو هڌري نا هوئي، زم امين سان، اين نين بدلي خرابي نا هوئي
-contribution-misreadings-description-extended-list-4 = پڇاڙي مان اکر ويهاروا پسي ڪانڪ ڪٽنگ ڪرين جلدي رڪارڊ ڪروا
+contribution-criteria-nav = جانچَ، امتحان ڪريٽريا
+contribution-criteria-link = جانچ پڙتال نا حصا نين همزوون
+contribution-criteria-page-title = جانچ َنو حصو
+contribution-criteria-page-description = ڪِلپ هانمڀۯيا نين ٽانڻي چئي واتان نو خيال راکوو سي هانَ پوتان ني رڪارڊ ڪرل آواز نين هڌري ڪروون سي۔
+contribution-for-example = مِثال طور
+contribution-misreadings-title = ڀڻوا ويهاروون
+contribution-misreadings-description = زار هانمڀۯو، تو ڌيان ٿي زوون سي ڪي شون رڪارڊ ڇُون سي سئي سي زي لکل سي اي سي ڪي نا، ڪوئي مسئلو هشي تو اي ناڪام ٿئي زاشي۔
+contribution-misreadings-description-extended-list-1 = شرواعاتي رڪاڊنگ ويهاروِي
+contribution-misreadings-description-extended-list-2 = پڇاڙِي مان زي اکر سي اي ويهاروا
+contribution-misreadings-description-extended-list-3 = تنڳائِي ٿي ڀڻيا واۯو هڌري نا هوئي، زم امين سان، اين نين بدلي خرابي نا هوئي
+contribution-misreadings-description-extended-list-4 = پڇاڙِي مان اکر ويهاروا پسي ڪانڪ ڪٽنگ ڪرين جلدي رڪارڊ ڪروا
 contribution-misreadings-description-extended-list-5 = لفظ ڀڻيا هارو ڪانڪ ٽيم ليوون
 contribution-misreadings-example-1-title = اَڳي نو موٽو زناور، ڊائنوسورس
 contribution-misreadings-example-2-title = اَڳي نو موٽو زناور، ڊائنوسورس
