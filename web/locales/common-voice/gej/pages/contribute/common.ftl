@@ -59,6 +59,7 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = le nu / tɔ tè nu.
 shortcut-rerecord-toggle = ɖèka sɔ yì àtɔ̃.
 shortcut-rerecord-toggle-label = trɔ́ lé nyà.
+shortcut-discard-ongoing-recording = àɖàŋùɖemɔnututulɔ̀vi/ àlɔ̀mèkàpòmɔnututulɔ̀vi.
 
 ## Listen Shortcuts
 
