@@ -62,6 +62,7 @@ sentence-variant-select-multiple-variants = عام زبان/ جاہند قسم
 sc-bulk-upload-header = دے عام آدمف دائرو استعمال ݰویا بݰ جملغے اپلوڈ<icon></icon> کن
 sc-bulk-upload-instruction = ڤے خوئے فائل مولو لیغان یا <uploadButton> پے اپلوڈ دیر سارو ڤزیب</uploadButton>
 sc-bulk-upload-instruction-drop = ڤے فائل پے اپلوڈ دیر مولو لیغان
+bulk-upload-additional-information = دے فائل باری دیر ام معلوماتے کہ دلیتے مہربانی کن مولو نوشا<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
