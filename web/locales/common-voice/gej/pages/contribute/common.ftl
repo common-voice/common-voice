@@ -37,6 +37,11 @@ report-grammar-or-spelling-detail = gbèŋutisègbàdàdǎ lè  nyàgbè a m�
 report-different-language = gbè bu.
 report-different-language-detail = wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dona a mè.
 report-difficult-pronounce = kè sɛ̃ŋu bé wo a yɔ a.
+report-difficult-pronounce-detail = nyàɖéwo alo nyàgbèɖewo bé yɔyɔ alo hɛ̃̀hlɛ̃̌ sɛ̃ŋú
+report-offensive-speech = nyàvéamè/ gbɔɖìamènyà.
+report-offensive-speech-detail = gbɔɖìamènyawo alo èzũ̀wo lè nyàlélé a mè.
+report-other-comment =
+    .placeholder = nupopòposonu àlo àmè ŋúti.
 
 ## Speak & Listen Shortcuts
 
