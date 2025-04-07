@@ -24,6 +24,7 @@ varying-pronunciations-explanation-2 = ٻيزيَ پاۿيَ زو تمين س�
 varying-pronunciations-example = رستو صاڦ نتو۔
 varying-pronunciations-tip-1 = ڪينيڍِيئنَ انڳريزِي "رُوٽ" نا آواز نين "روٽ" ڪئِي ۿڳيَ سي
 varying-pronunciations-tip-2 = برطانوِي انڳريزِي اين نين "رُوٽ" ڪئِي ۿڳيَ سي
+offensive-content-explanation = جُملان نين ڀِراڌرِي نا ماڍريشنَ نيَ زريئيَ ٿِي جانچ ڪريا زائيَ سي، پڻ اِي عمل مُڪمل نٿِي۔ زو تمين ڪونئين ايوو جُملو زوو سو انين ۿانڀرو سو زين ٿِي تمين کُش نٿِي يا نارض ٿائو سو۔ مِثال پرماڻيَ ڪيمڪيَ اِي امارِي<participationGuidelines> ڀراڌرِي نِي شِرڪت</participationGuidelines> نِي هڌائيتان نِي کِلاڦ ورزِي ڪريَ سي۔ ميرٻانِي ڪرينَ UI مان فِليگ ٻٽڻ نو استمال ڪرو۔ تمين امان ٿِي <emailFragment>commonvoice@mozilla.com</emailFragment> ماٿيَ پڻ راٻطو ڪرِِي ۿڳو سو۔
 
 ## Sentence collection nav ids
 
