@@ -42,6 +42,8 @@ report-offensive-speech = nyàvéamè/ gbɔɖìamènyà.
 report-offensive-speech-detail = gbɔɖìamènyawo alo èzũ̀wo lè nyàlélé a mè.
 report-other-comment =
     .placeholder = nupopòposonu àlo àmè ŋúti.
+success = dɔwɔ̀wɔ̌ a jè éji / dɔwɔ̀wɔ̌ a wu nu nyɔɛɖé.
+continue = yì èji.
 
 ## Speak & Listen Shortcuts
 
