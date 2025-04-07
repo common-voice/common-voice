@@ -27,8 +27,21 @@ required-field = مہربانی کن ڤیم ژاغہ پر کن
 single-sentence-submission = یو جملو جمع کن
 bulk-sentence-submission = جاہند زیات جلمو شامل کن
 single-sentence = یو (فګیغو)
+sentence-domain-select-placeholder = شروئے ڈومنینزے (اختیاری) منتخب کن
 # Sentence Domain dropdown option
 agriculture_food = زمینداری اڤن خوراک
+# Sentence Domain dropdown option
+automotive_transport = زیغوڤڈے غوز ژینارے اڤن ٹرانسپورٹ
+# Sentence Domain dropdown option
+finance = پیسو
+# Sentence Domain dropdown option
+service_retail = نوکری اڤن پرچون
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت
+# Sentence Domain dropdown option
+history_law_government = تریخ، قانون اڤن حکومت
 # Sentence Domain dropdown option
 media_entertainment = میڈیا اڤن تفریح
 # Sentence Domain dropdown option
