@@ -21,9 +21,15 @@ login-signup = cá kà/ ŋlɔ̀ nyikɔ.
 vote-yes = ɛ̃̀ɛ
 vote-no = awòo / òo
 languages = gbèwo
+about = kè jɔ̀ ɖo nu ji
+partner = kàcaca / kàdodo.
+submit-form-action = sɔ nú ɖó ɖa.
 
 ## Reporting
 
+report = sà/ sãma.
+report-title = wɔ̀ xoma ɖo ɖa.
+report-ask = tagbã kɛwo mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo mì lě ɖo  sɔ kùɖo nyàgbè kèya ŋúti o.
 
 ## Speak & Listen Shortcuts
 
