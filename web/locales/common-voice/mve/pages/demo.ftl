@@ -18,9 +18,14 @@ demo-account = کاتو
 ## Demo Account
 
 demo-account-card-header = حصو ڏيڻ ھارو کاتو ھوئوڻ ضروري ڪوني،جيستوئين اي مددگار ھي۔
+demo-account-card-body = سوڀتيَ پاسيَ مھيَ فائدون رو خاڪو بيان ڪرون ھون ھان واضح ڪرون ھون ڪہ مھيَ ڪئي معلومات نيَ عوامي ڪرون ھون۔ آپرِي ڊوائيس تيَ ھيڪ ڪامن وائس ريَ کاتيَ ھون شروع ڪرڻ ھارو ھيٺِي ڏينوڙِي لنڪ استعمال ڪرو۔
+demo-account-enter-email =
+    .label = سائن اپ لنڪ موڪلڻ ھارو اي ميل داخل ڪرو
+demo-account-sign-up = سائن اپ لنڪ موڪلو
 
 ## Demo Contribute
 
+demo-contribute-card-header = آپرِي آواز شامل ڪرڻ يا ھڻڻ ھارو تيار ھو؟
 
 ## Demo Dashboard
 

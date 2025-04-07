@@ -10,9 +10,10 @@ clips-with-count-pluralized =
        *[other] ɖe wo le me
     }
 goal-help-recording = To mi ji lɔ, Common voice <goalPercentage> gbeshiagbe tadojinu sɔ kuɖe enyɔwo lelenuwo ŋu kpɔ yime vava.
-goal-help-validation = to mi ji lɔ, Common voice <goalPercentage> kpɔ yi gbeshiagbe tadojinu sɔ kuɖe ashidada de enyɔwo  ŋu
+goal-help-validation = To mi ji lɔ, Common voice <goalPercentage> gbeshiagbe tadojinu sɔ kuɖe ashidada de enyɔwo  ŋu kpɔ yi me vava.
 contribute-more = misɔ gbe agbe wɔ wu nenea?
 speak-empty-state = Mi ɖe gbe ɖo ŋyɔgbe dewo ale ɖé egbe lɔ me o.
+no-sentences-for-variants = ɖewotɔ le miogbeɔ me lɔ:::........
 
 ## Reporting
 
