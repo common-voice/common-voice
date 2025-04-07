@@ -31,3 +31,4 @@ demo-listen-subtitle = حِصو ليڌا ۿارُو تيار سو؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = زاتِي ڍيش ڀورڍ تمان نين اِنفرادِي انين ڀِراڌرِي نِي ترقِي نا ٻارا مان اپَ ڍيٽ راکيَ سي۔
