@@ -20,3 +20,9 @@ language-validation-progress = پکی پرگتی
 contribute = یوگدان دؔیٹؔا
 get-involved-button = بھیݪا ہوئی جا
 get-involved-title = { $lang } میں پاتی ٻاو
+get-involved-text =
+    { $lang } میں پاتی ٻاݨیم تھاری رُچیا نتر تھارا دھنواد۔ ہم ہر ٻولیا کُو لانچا نتر تیار کرنے اور برقرار راکھݨے نتر کٹھین محنت کرتے ہے
+    سںٚگٹھنے کُو ای میلا جریعے اپ ڈیٹ کرا. اگر تھم یوگدان کرنا چاوہتے ہے تو، کِرپا کری کن نیچے اپنا ای میل دؔی دؔو.
+get-involved-form-title = { $lang } اپ ڈیٹسا نتر سائن اپ کرو:
+get-involved-email =
+    .label = ای میل
