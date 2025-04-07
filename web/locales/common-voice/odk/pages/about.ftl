@@ -122,9 +122,17 @@ about-playbook-how-validate = مُنُون ڪِيُون خبر پڙَي تہ و�
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مين ڊيٽاسيٽا تاڻِين ڪِيُون پُج ائُون اونهُون اِستعمال ڪر سِگھَين ڇَين؟
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصُوبي چي فيصلي ڪِيُون ڪلي گيلي هِتي؟
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice نُون سگڙِي دُنِيائي چي سرگرم ڪارڪنان، لِسانِياتي ماهرين، فائُونڊيشن Mozilla ڊيٽا سائنسنداننان، تعلِيمي چي ماهران ائُون سافٽ ويئر انجنئيران چي فرق فرق برادرِي چي طرفُون مڪمن ٺاهلَي گيلَي ڇَي۔ پروجيڪٽا چي طرفُون سنڀاللَي گيلَي ڇَي۔
+about-playbook-how-project-governance-content-2 = اَمچِي حُڪمرانِي چا بُنياد اُونهان ٿنڀان پر ڇَي۔
+about-playbook-how-project-governance-content-3 = رازدارِي، حفاظت ائُون شفافِيئَت
+about-playbook-how-project-governance-content-5 = قَدر ائُون اوڙکاند
+about-playbook-how-project-governance-content-6 = بِچڙوڙا احتساب
+about-playbook-how-project-governance-content-7 = <governanceLink> بڌِيڪ پڙها تہ امهان نُون ڪِيُون سنڀاللَي جا ڇَي</governanceLink>
 
 ## How is Common Voice funded
 

@@ -12,7 +12,7 @@ no-sentences-for-variants = àpo gbè a bé alɔ̀zɛ̃̌ a ta mu nyɔ o a mú 
 speak-loading-error = mí mu kpɔ́ nyàgbèwo  kè  mí la yɔ́ ò. Né wɔ̀ víɖé a mi a trɔ gbìgbɔ̀ wɔ̀ɛ.
 record-button-label = Lé  àpo gbè
 share-title-new = <bold>Mì dó mi àlɔ̀ né mia </bold> kpɔ́ gbè yéyéwo.
-keep-track-profile = Dó àpo ŋùkɔ̀yìyǐ kpɔ́ to àpo pròfílìɖóɖó jí.
+keep-track-profile = Dó àpo ŋùkɔ̀yìyǐ kpɔ́ to àpo ɖokóeɖèɖěfiɔ jí.
 login-to-get-started = cá kà alo ŋlɔ̀ apo nyikɔ né à tɔ núwo jí.
 target-segment-add-voice = kɔ́ gbè yì ji / ɖè gbè to/ do àpa
 
