@@ -24,6 +24,7 @@ varying-pronunciations-explanation-2 = اي طرف، جيڪڌي تمي سوچو 
 varying-pronunciations-example = رستو واضح ڪوئي ھي
 varying-pronunciations-tip-1 = [ڪينيڊا ري انگريزئ ۾ ھوئي سگھي ھي "رستو" آواز "روٽ" جيم]
 varying-pronunciations-tip-2 = [برطانوي انگريزئ ۾ ھوئي سگھي ھي "روٽ"]
+offensive-content-explanation = جملو ني ڪميونٽي ري ڀآراپڙون واري عمل ري ذريعي جوڻيو جائي هي، جدي  تو آ عمل پورو ڪوئي ني. جيڪڌي تمي ڪوئي ايووُ جملو جو يا ھڻو جي تمو ني ناراض ڪري يا تمو ني پريشان ڪري - مثال طور ڪونڪِ ته او امو ري <participationGuidelines>ڪميونٽي ميلايا ري هدايتنو</participationGuidelines> ري خلاف ورزي ڪري ھي - مهربوني ڪرين UI ۾ پرچم وارو ھوڻو استعمال ڪرو. تمي پڻ امون مون رابطو ڪري سگھوھون <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Sentence collection nav ids
 

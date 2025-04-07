@@ -9,9 +9,10 @@ clips-with-count-pluralized =
         [one] ɖe le me
        *[other] ɖe wo le me
     }
-goal-help-recording = to mi ji lɔ, Common voice <goalPercentage> kpɔ yi gbeshiagbe tadojinu sɔ kuɖe enyɔwo lelenuwo ŋu
+goal-help-recording = To mi ji lɔ, Common voice <goalPercentage> gbeshiagbe tadojinu sɔ kuɖe enyɔwo lelenuwo ŋu kpɔ yime vava.
 goal-help-validation = to mi ji lɔ, Common voice <goalPercentage> kpɔ yi gbeshiagbe tadojinu sɔ kuɖe ashidada de enyɔwo  ŋu
 contribute-more = misɔ gbe agbe wɔ wu nenea?
+speak-empty-state = Mi ɖe gbe ɖo ŋyɔgbe dewo ale ɖé egbe lɔ me o.
 
 ## Reporting
 
