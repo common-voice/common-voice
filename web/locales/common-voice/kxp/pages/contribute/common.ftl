@@ -1,4 +1,4 @@
-action-click = ۮٻاوُون، ڪِلڪ ڪروون
+action-click = ۮٻاوُون، ڪلڪ ڪروون
 action-tap = ڀار آلوون، ۮٻاوون
 contribute = حصو آلوو، مدد ڪروون
 review = دوهرائِي، يان وري زوون
@@ -32,27 +32,27 @@ target-segment-learn-more = وڌيڪ شيکو
 change-preferences = ترجيحي بدلاوو
 login-signup = لوگ اِن، سائين اِن
 vote-yes = هووي
-vote-no = نا
+vote-no = نا۔
 datasets = مُدت، زمانو
 languages = ٻولِي
 about = ڀارا مان
 partner = ساٿِي
-submit-form-action = پيش ڪروون مانوون
+submit-form-action = پيش ڪروون يان مانوون
 
 ## Reporting
 
-report = رپورٽ
-report-title = رپورٽ پيش ڪروون
+report = رپورٽ،
+report-title = رپورٽ پيش ڪروون۔
 report-ask = تمارا تجربا ٿي جُملان مان ڪوئي مسئلو آوي رو سي؟
 report-offensive-language = پسند نا آوي اِي ٻولِي
-report-offensive-language-detail = جُملا مان ڪوئي بي عزتي يان ٻولِي پسند نا هوئي
+report-offensive-language-detail = جُملا مان ڪوئي بي ادب يان ٻولِي پسند نا هوئي
 report-grammar-or-spelling = گرامر، هِجي نو مسئلو
 report-grammar-or-spelling-detail = جُملا مان گرامر يان هجي نو مسئلو سي۔
-report-different-language = مُختلف ٻولِي
+report-different-language = مُختلف ٻولِي۔
 report-different-language-detail = زي مُون ٻولون رو سُون اي لکت مان فرق سي
 report-difficult-pronounce = اُچار ڪاڍوون ۮورُون سي
 report-difficult-pronounce-detail = اين مان ايوا جُملا هانَ اکر سي زي ڀڻيا مان ۮورا سي۔
-report-offensive-speech = زي وڻتي نا هوئي تقرير
+report-offensive-speech = زي وڻتي نا هوئي تقرير۔
 report-offensive-speech-detail = ڪلپ بي عدبي سي يان ٻولِي وڻتي نٿي
 report-other-comment =
     .placeholder = مشورو
@@ -69,43 +69,43 @@ shortcut-skip = س
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ر ،آر
-shortcut-record-toggle-label = رڪارڊنگ ڪرو، روڪو
-shortcut-rerecord-toggle = ايڪ ٻي ترينڻ چار پانسَ
-shortcut-rerecord-toggle-label = وَري رِڪارڊ ڪروون
-shortcut-discard-ongoing-recording = رَد رڪوون
-shortcut-discard-ongoing-recording-label = رِڪارڊنگ الگ ڪروون
-shortcut-submit = واپس
-shortcut-submit-label = ڪِلپ قبول ڪرووُن
-request-language-text = تمين ڪۮِي عام ٻولي ڀاۯِي سي؟
+shortcut-record-toggle = ر
+shortcut-record-toggle-label = رڪارڊنگ ڪرو، روڪو۔
+shortcut-rerecord-toggle = ايڪ ٻي ترينڻ چار پانسَ۔
+shortcut-rerecord-toggle-label = وَري رِڪارڊ ڪروون۔
+shortcut-discard-ongoing-recording = رَد رڪوون۔
+shortcut-discard-ongoing-recording-label = رِڪارڊنگ الگ ڪروون۔
+shortcut-submit = واپس۔
+shortcut-submit-label = ڪِلپ قبول ڪرووُن۔
+request-language-text = تمين ڪۮِي عام ٻولي ڀاۯي سي؟
 request-language-button = ايڪ ٻولِي هارُو درخواست،
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = پ،
-shortcut-play-toggle-label = چالو،  روڪو،
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = چالو،  روڪو
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = يه،
+shortcut-vote-yes = يه وائي
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = ن نُونَ
+shortcut-vote-no = ن نُون
 
 ## Validation criteria
 
-contribution-criteria-nav = جانچَ، امتحان ڪريٽريا،
-contribution-criteria-link = جانچ پڙتال نا حصا نين همزوون،
-contribution-criteria-page-title = جانچ َنو حصو،
-contribution-criteria-page-description = ڪِلپ هانمڀۯيا نين ٽانڻي چئي واتان نو خيال راکوو سي هانَ پوتان ني رڪارڊ ڪرل آواز نين هڌري ڪروون سي۔۔
-contribution-for-example = مِثال طور۔
-contribution-misreadings-title = ڀڻوا ويهاروون۔
-contribution-misreadings-description = زار هانمڀۯو، تو ڌيان ٿي زوون سي ڪي شون رڪارڊ ڇُون سي سئي سي زي لکل سي اي سي ڪي نا، ڪوئي مسئلو هشَي تو اي ناڪام ٿئي زاشي۔
-contribution-misreadings-description-extended-list-1 = شرواعاتي رڪاڊنگ ويهاروِي۔
-contribution-misreadings-description-extended-list-2 = پڇاڙِي مان زي اکر سي اي ويهاروا۔
-contribution-misreadings-description-extended-list-3 = تنڳائِي ٿي ڀڻيا واۯو هڌري نا هوئي، زم امين سان، اين نين بدلي خرابي نا هوئي۔
-contribution-misreadings-description-extended-list-4 = پڇاڙِي مان اکر ويهاروا پسي ڪانڪ ڪٽنگ ڪرين جلدي رڪارڊ ڪروا۔
+contribution-criteria-nav = جانچَ، اِمتحان ڪريٽريا،
+contribution-criteria-link = جانچ پڙتال نا حصا نين همزوون
+contribution-criteria-page-title = جانچ َنو حصو
+contribution-criteria-page-description = ڪِلپ هانمڀۯيا نين ٽانڻي چئي واتان نو خيال راکوو سي هانَ پوتان ني رڪارڊ ڪرل آواز نين هڌري ڪروون سي۔
+contribution-for-example = مِثال طور
+contribution-misreadings-title = ڀڻوا ويهاروون
+contribution-misreadings-description = زار هانمڀۯو، تو ڌيان ٿي زوون سي ڪي شون رڪارڊ ڇُون سي سئي سي زي لکل سي اي سي ڪي نا، ڪوئي مسئلو هشي تو اي ناڪام ٿئي زاشي۔
+contribution-misreadings-description-extended-list-1 = شرواعاتي رڪاڊنگ ويهاروِي
+contribution-misreadings-description-extended-list-2 = پڇاڙِي مان زي اکر سي اي ويهاروا
+contribution-misreadings-description-extended-list-3 = تنڳائي ٿي ڀڻيا واۯو هڌري نا هوئي، زم امين سان، اين نين بدلي خرابي نا هوئي
+contribution-misreadings-description-extended-list-4 = پڇاڙِي مان اکر ويهاروا پسي ڪانڪ ڪٽنگ ڪرين جلدي رڪارڊ ڪروا
 contribution-misreadings-description-extended-list-5 = لفظ ڀڻيا هارو ڪانڪ ٽيم ليوون۔
 contribution-misreadings-example-1-title = اَڳي نو موٽو زناور، ڊائنوسورس۔
 contribution-misreadings-example-2-title = اَڳي نو موٽو زناور، ڊائنوسورس۔
