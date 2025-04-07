@@ -66,3 +66,10 @@ download = ڊائون لوڊ ڪرو
 dataset-version = نسخو
 sha256-checksum-copied = SHA256 Checksum ڪاپي ڪري ھي
 sha256-checksum-copied-error = SHA256 Checksum ڪاپي ڪريا ۾ ناڪوم ھويو
+clipboard-not-supported = ڪلپ بورڊ ني سپورٽ ڪوئي ڪري ھي
+no-information-available = ڪوئي معلومات ڪوئي ھي
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تماري ڌيٽاسيٽ ڌائنلوڌ ھوئي رھئي ھي
+dataset-donate-modal-heading = ڪاو تمي جوڻو
