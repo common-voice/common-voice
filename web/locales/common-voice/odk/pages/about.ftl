@@ -97,6 +97,7 @@ about-playbook-how-localize-content-5 = مددِي چي ڪاڻ اَمچِي وض
 
 about-playbook-how-add-sentences = مين جُملي ڪِيُون شامل ڪر سِگھَين ڇَين؟
 about-playbook-how-add-sentences-content-2 = ڪامن وائِيسا ۾ بِچڙڻي ڪاڻ ڏُوجان ماڻسان چي جُملان چا جائِزا گيهڻ ائُون اُونهان نُون مڃڻ لازمِي ڇَي۔ تمهِين آپڪِي ٻولِي ۾ هِدايتا ٺاهوا۔ جُملي  </languageGuidelinesLink> اِٺي <languageGuidelinesLink> 15 لفظان کن گھٽ هُوِي۔  تمهِين متنا چي مالڪا کن پُوڇ سِگھا ڇَوا۔ اوهچ </licenseLink> عوامِي ڊومين <licenseLink> اِستعمال ڪتان امچا معافِي هاڙا عمل اِستعمال ڪتِي CC0 <waiverLink> نُون اَمهان ڏِسِين مولڪلا۔
+about-playbook-how-add-sentences-content-3 = تمهِين <scraperLink> Sentence extractor</scraperLink> نُون اِستعمال ڪتِي وِڪِيپِيڊيا مُون ڌاران ڌاران جُملان نُون حاصل ڪر سِگھا ڇَوا۔
 
 ## How to record quality
 
@@ -115,7 +116,7 @@ about-playbook-how-grow-language-content-2 = واقعي
 about-playbook-how-grow-language-content-3 = تمهِين ماڻسان چِي مدد ڪرڻي چي ڪاڻ واقعيي هلا سِگھا ڇَوا۔ اوهچ تمچي سوچڻي کن بڌِيڪ سولڙا ڇَي۔  تمهِين اُونهچ ڪر سِگھا ڇَوا، آنلائن وِيڊيوز ائُون ڪانفرنس ٽُولا سُون، يان بڙي ذاتِي نمُوني اوهچ محفُوظ ڇَي </eventTemplate> چالتان واقعِيا چي ڪاڻ امچي ٽيمپليٽ ائُون وسِيلي چيڪ ڪرا۔<eventTemplate>
 about-playbook-how-grow-language-content-4 = سوشل مِڊِيا
 about-playbook-how-grow-language-content-5 = تمهِين نِياپا گيهڻي چي ڪاڻ سوشل ميڊيا پليٽ فارم اِستعمال ڪر سِگھا ڇَوا۔ پوسٽا شيئر ڪرا، جڪو وضاحت ڪري هِتِيا تہ اُونهچ ڪان لازمِي ڇَي، ائُون ڏُوجان ماڻسان سُون رابطا ڪرا جڪو مسئلان چي باري ۾ ٻولي هِتين پلين۔ سوشل مهم هلاوَڻ، جڪا ۾ مواد <campaignLink> يان بڙي ٽيڪنالاجِي ۾ تعشب، بڌِيڪ صلاح ڏيکا، AI مثال ٻولِي چي حقان، تمهِين آواز بڙتِي اِستعمال ڪر سِگھا </campaignLink> ڇَوا۔
-about-playbook-how-grow-language-content-6 = ڀائِيچارا ائُون نيٽ ورڪ
+about-playbook-how-grow-language-content-6 = ڀائِيچاري ائُون نيٽ ورڪ
 
 ## How to validate
 

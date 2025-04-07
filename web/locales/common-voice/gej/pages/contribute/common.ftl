@@ -80,3 +80,5 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-for-example = kpɔwɔ́ɛ
+contribution-misreadings-title = nuhɛ̃̀hlɛ̃gbàdàdǎwo
