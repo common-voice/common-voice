@@ -7,6 +7,13 @@ demo-welcome-subheader = وڌيڪ شيڇا مان انين منصُوٻا مان
 ## Demo Datasets
 
 demo-language-select-card-header = ڪامنَ وائيس ۮنيا نون ٻڌانئين ٿِي موٽون عوامِي طور ٿِي ڌستياٻ ٿل گھڻي ٻولِيان وارون وائيس ڍيٽاسيٽ سي۔
+demo-language-select-card-body = 50 ٿِي وڌارين ٻولِيان مان 259،000 ماڻۿان نا تعاونَ نِي ميرٻانِي، آ ڍيٽا اِنسانِي آواز نين بيۿتر جواٻ ۮيڌا ۿاروو، تقرير نِي قاٻِل ايپليڪيشنَ نين ترٻيئت ۮيڌا ۿارُو اِستمال ڪريو زائيَ سي ريو۔
+card-button-next = ٻيزون
+card-button-back = وانۿين
+demo-language-select-label = ٻولِيان نين ڀرائوز ڪرو۔
+demo-eofy-header = 2019 سال نا آکر مان رِليز
+demo-eofy-sub_header = وائيس ڍيٽاسيٽ، ڍائونَ لوڍ ۿارُو تيار سي
+demo-account = اڪائونٽ
 
 ## Demo Account
 
