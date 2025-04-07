@@ -127,10 +127,22 @@ n-clips-pluralized =
         [one] { $count } ڪلپ
        *[other] { $count } ڪلپو
     }
+help-share-goal = امو ري وڌيڪ آواز جويا ۾ مدد ڪرو، آپري مقصد ني حصيداري ڪرو
+confirm-goal = مقصد ري تصديق ڪرو
 goal-interval-weekly = هفتيوار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = شيئر ڪرو آپرو { $count } ڪلپ روزاني مقصد ھارو { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = شيئر ڪرو آپرو { $count } ڪلپ ھفتيا ري مقصد ھارو { $type }
 share-goal-type-speak = ٻولوہ
 share-goal-type-listen = ھوڻوُ
 share-goal-type-both = ٻولوئہ ھين وڻوہ
+# LINK will be replaced with the current URL
+goal-share-text = ھون صرف #CommonVoice ھارو آواز ري دون ھارو ايڪ ذاتي مقصد ٺاهيو هي -- ماري مون ڀيرا ھون ھين مشينون ني ھيکايا ۾ مدد ڪرو ڪي حقيقي مينک ڪيڪر وات چيت ڪري{ $link }
+weekly-goal-created = تمو رو ھفتارو مقصد ٺاھيو ھيو ھي
+daily-goal-created = تمو رو روز رو مقصد ٺاھيو گيو ھي
+track-progress = ايئي ھين تمو ري انگو اکرو واري صفحا تي پيش رفت ني ٽريڪ ڪرو.
+return-to-edit-goal = ڪي ڀي وقت آپرو مقصد تبديل ڪريا ھارو ايئي واپس جاو.
 share-goal = مارو مقصد ويديو
 
 ## Goals
