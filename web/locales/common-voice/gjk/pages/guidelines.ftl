@@ -38,6 +38,7 @@ misreadings-example-3 = امين ڪوڦِي ليڌا ۿارُو ٻارينَ ز�
 misreadings-example-4 = ڀمرو تيز اوڏيو
 misreadings-tip-1 = [ھوون زويئين "امين سيئن"]
 misreadings-tip-2 = [نا ‘ا’ اصل متنَ مان]
+misreadings-tip-3 = [غير مطابقت راڇا وارو مواڌ]
 
 ## Sentence collection nav ids
 

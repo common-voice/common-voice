@@ -1,8 +1,8 @@
-listen = هانمڀۯوون
+listen = هانمڀۯوون۔
 listen-subtitle = هڌري مدد ڪروون
-listen-instruction = شُون اِي سهي جملا ڀڻي سي۽؟
+listen-instruction = شُون اِي سهي جملا ڀڻي سي؟
 listen-again-instruction = الاهي هڌرُون، وري هانمڀۯو زار تمين تيار سو
-listen-3rd-time-instruction = نيسي نشان ڪرو۔ جاري راکو
+listen-3rd-time-instruction = نيسي۔ جاري راکو
 listen-last-time-instruction = نشان چالو ڪرو، آخري
 listen-empty-state = امين ڪلپ ختم ڪريان سي، پنُون اُٿلاوو يان وري ڪوشش ڪرو
 listen-empty-state-variants = تماري ٻولي نو قسم ڪلپ ٿي ٻاري ٿئي ڪي سي، آرام ٿِي ٻولِي نان جملان نِي سيٽگ سهي ڪرو،
@@ -11,7 +11,7 @@ listen-abort-title = سهي ڪلپ مڪمل ڪرو
 listen-abort-cancel = جائز هانَ جاري راکو
 listen-abort-confirm = جائزي مڪمل رو
 # Menu item
-validate-readings = جائزي ڀُڻوون
+validate-readings = جائزIي ڀُڻوون
 # text wrapped in <small></small> will be shown in a smaller font size
 validate-readings-coming-soon = جائز سهي ڀُڻوو آوي رون سي
 
