@@ -3,6 +3,23 @@ action-tap = ڀار آلوون، ۮٻاوون
 contribute = حصو آلوو، مدد ڪروون
 review = دوهرائِي، يان وري زوون
 skip = ميلِِي آلوون، رد ڪروون
+shortcuts = شارٽ ڪٽ،
+clips-with-count-pluralized =
+    { $count ->
+        [one] مثال ايڪ
+       *[other] مثال ٻي، ٻيزون
+    }
+goal-help-recording = تمين عام رڪارڊنگ مان مدد ڪرِي سي { $goalValue } <goalPercentage> رڪاڊنگ نا مقصد هوڌي پوتيا مان مدد ڪرِي سي</goalPercentage>
+goal-help-validation = تمين عام آواز هروزنِي  { $goalValue } تصديق نا مدد  <goalPercentage></goalPercentage> هُوڌي پوٽيا مان مدد ڪرِي سي۔
+contribute-more =
+    { $count ->
+        [one] مثال ايڪ
+       *[other] مثال ٻي
+    }
+speak-empty-state = اَمان ڪنَ آ رڪارڊنگ ڪريا هارُو جملا ختم ٿئي جھا سي۔
+no-sentences-for-variants = تمارِي ٻولِي نا قسم  جُملان ٿي ٻاري ٿئي ڪي سي۔ زي تمين ٺيڪ سو تو تمارِي ٻولِي نا جملان نِي سيٽنگ سهي ڪرِي ڪو سو۔
+speak-empty-state-cta = جُملان هارو مدد ڪروون
+speak-loading-error = اَمين تماري ٻوليا هارو ڪوئي پڻ جملا هاڇ نا ڪريا۔ مهرباني ڪرينَ واري ڪوشش ڪرو
 
 ## Reporting
 

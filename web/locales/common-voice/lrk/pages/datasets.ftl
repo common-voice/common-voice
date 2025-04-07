@@ -46,3 +46,10 @@ feedback-q = موٽ ڌيو
 # This indicates that there is no data to display
 no-information = معلومات ڪوئي ني
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ايڪ <docsLink>اوپن سورس ٽول ڪٽ</docsLink> هي ايدارو ھارو جي جديد ترين وات چيت ڪرتي AI ماڊل ٺاهي رهيا ھي.
+resource-deepspeech-info = Mozilla ري اوپن سورس آواز ري اورکيا واري انجڻ گھري اسپيچ ني استعمال ڪري سگهي  تقرير ري اورکيا واري ايپليڪيشنو ني ٺاهيا ھارو. امو رو پڙهو <githubLink>Github overview</githubLink> يا ڀيرا ھو <discourseLink>DeepSpeech Discourse</discourseLink> ھکيا ھارو تو ڪيڪر شروع ڪريجي.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> اسپيچ ٽيڪنالاجي ني کوليا ھارو وقف ڪرو گيو هي. اووہ ري منصوبو ۾ ايس ٽي ٽي ۽ ٽي ٽي ايس انجڻ تي ٻڌل ڊيپ لرننگ ڀيري ھي.
+community-playbook = ڪميونٽي رميا رو ڪتاب
+resource-playbook-info = <playbookLink> مددگار ھدايتو ني جو</playbookLink> ھينگ عام آواز ري سفر تي، لوڪلائيزيشو مون ليئين ڊيٽا سيٽ ري استعمال تڪ، ھين ڀيراڀير امو ري ڪميونٽي مون ڪيڪر ڀيتي جي .
+data-other-librispeech-description = LibriSpeech تقريباً 1000 ڪلاڪو رو 16Khz پڙهيا وارو انگريزي اسپيچ هي جي LibriVox پروجيڪٽ مون آڊيو بوڪ پڙهيا مون نڪريوڙي هي.
+data-other-ted-name = ٽيڊ-ليم ڪارپس
+data-other-ted-description = ٽيڊ-ليم ڪارپس آڊيو ٻوليو مون ٺاهيو گيو ھين TED ويب سائيٽ تي موجود اووہ ري ٽرانسڪرپشو ھي

@@ -101,3 +101,4 @@ offensive-content-sensitive-information = Муҳтавои таҳқиромез 
 offensive-content-sensitive-information-explanation-explanation-1 = Саволҳое, ки метавонанд ба муайян кардани маълумоти шахсият дахл дошта бошанд
 offensive-content-sensitive-information-explanation-explanation-2 = Саволҳое, ки метавонанд суханони нафратангез, таҳқиромез ё эҳсосоти ғаразноки дигареро ба вуҷуд оранд
 example-questions-subheader = Саволҳои намунавӣ
+example-questions-explanation-1 = Шумо метавонед <examplePromptsLink>120 намунаи саволҳоро дар ин ҷадвал пайдо кунед.</examplePromptsLink>
