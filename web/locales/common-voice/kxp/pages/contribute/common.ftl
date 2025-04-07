@@ -50,6 +50,14 @@ report-grammar-or-spelling = گرامر، هِجي نو مسئلو
 report-grammar-or-spelling-detail = جُملا مان گرامر يان هجي نو مسئلو سي۔
 report-different-language = مُختلف ٻولِي
 report-different-language-detail = زي مُون ٻولون رو سُون اي لکت مان فرق سي
+report-difficult-pronounce = اُچار ڪاڍوون ۮورُون سي
+report-difficult-pronounce-detail = اين مان ايوا جُملا هانَ اکر سي زي ڀڻيا مان ۮورا سي۔
+report-offensive-speech = زي وڻتي نا هوئي تقرير
+report-offensive-speech-detail = ڪلپ بي عدبي سي يان ٻولِي وڻتي نٿي
+report-other-comment =
+    .placeholder = مشورو
+success = ڪامياب
+continue = جارِي راکو
 
 ## Speak & Listen Shortcuts
 

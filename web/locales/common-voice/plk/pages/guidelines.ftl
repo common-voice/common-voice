@@ -116,3 +116,6 @@ what-makes-a-good-question-explanation = عوامی شرکتے ڈیٹاسیٹس 
 what-makes-a-good-question-explanation-criteria-1 = لڇھون گہ جواب دون دہ ہسان سنِجہ
 what-makes-a-good-question-explanation-criteria-2 = عام شان گیْ متعلقہ بِیا
 what-makes-a-good-question-explanation-criteria-3 = نوخصانی یا جارحانہ جِب استعمال نہ تِھیا یا درخواست نہ تِھیا
+what-makes-a-good-question-tip = څھوْس مختلف سیاق گہ سباق گہ ڈومینز خور تھونِجیْ گہ غور تھون لُکھینَت۔
+easy-to-understand = پرجون مجی ہسان
+easy-to-understand-explanation = ادا ہسان سوالو انتخاب تِھیا کھاں ثقافت یا سیاق گہ سباق جیْ قطع نظر جیئے کِرِیا پرجون ہسان بی۔
