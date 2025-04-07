@@ -73,3 +73,7 @@ contribution-background-noise-title = چيڙلو آواز
 contribution-background-noise-description = اَمارو ويچار سي ڪي چيڙلو سي آواز آوي سي اي مشين الگوٿيمس اين نين همڀاۯي۔ هانَ ايڪ زيوي آواز سي اين نين پڻ قبول ڪري۔ پڻ وات اِي سي ڪي زي حوالو لکل سي اِي تمان نين هانڀۯيا ٿِي نا روڪي۔ چيڙلو سي زي آواز سي اِي ٺيڪ سي۔ ايم نا هوئي ڪي وڌاري آواز هوئي هانَ تمان نين اکر هانمڀۯي مان نا آوي۔  هانَ روڪي پران۔
 contribution-background-noise-description-extended = زي رڪارڊينگ ٽوٽي زائي يان هڌري نا ٿائي تو ميلِي آلو۔ ايٽلا هوڌي حوالا نو پُورو حصو هزي هوڌي هڌري هانمڀۯيو نا هوئي۔
 contribution-background-noise-example-1-fixed-title = زور ٿِي سينڪ ليوِي، ايڪ موٽو زناور ڊائينوسورس۔ ڌانهه ليوِي
+contribution-background-noise-example-2-fixed-title = اڳي نو ايڪ موٽو زناور ڊائنوسورس۔ زور ٿي هان ڌانهه ليوون
+contribution-background-noise-example-2-explanation = حوالا نو ڪوئي حصو هانڀۯي ڪو سو
+contribution-background-noise-example-3-fixed-title = زور ٿي ڪُرڪوون، ايڪ موٽو ڊايونوسورس، رياسڪ
+contribution-background-voices-title = چيڙلو آواز
