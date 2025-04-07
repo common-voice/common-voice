@@ -92,3 +92,7 @@ contribution-misreadings-example-1-title = Trias bé dinosɔrijɔ̀asuwó.
 contribution-misreadings-example-2-title = Trias bé jinozɔrijɔ̀asu
 contribution-misreadings-example-2-explanation = ɖo la nyi jìnozɔrìwo
 contribution-misreadings-example-3-title = Tria- bé jìnòzɔrijɔ̀asuwo.
+contribution-misreadings-example-3-explanation = nyàlélé sò kéŋugbɔ̀xué nyàkpɔ̀tɛ a bé nùwuwu
+contribution-misreadings-example-4-title = Trias bé jinozɔrijɔ̀asuwo. ɛ̃̀ɛ
+contribution-misreadings-example-4-explanation = lé wu nuŋɔ̀ŋlɔ̌ kè híã a.
+contribution-misreadings-example-5-title = sɔ̀ mè la nyɔ́ kpoe
