@@ -66,7 +66,7 @@ sentence-variant-select-label = Na'iwátiame uhúpu orasióne nawésari piréč
 sentence-variant-select-placeholder = Usaá pu'ká nawésari piréči enté močikačí. (yoraniáme)
 sentence-variant-select-multiple-variants = Nawésari yomá / weiká uhupú kapó
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Muenápu frase dominio publikandóka<icon></icon>
@@ -99,31 +99,31 @@ too-many-files = Weiká toátiame arčiwóči
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = Nahpé weká orasióne tamó rominio ičíyo
-multiple-sentences-error = Kiánine itočpékopa weiká orasióne umatóteremu iwatíami. Enčí yoámitia pirépi minútoči.
-exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 orasiónes
+multiple-sentences-error = Kí weiká orasióne toína uhurámičó envioči sensiyoíčo
+exceeds-small-batch-limit-error = Ki'nó toáru itočémičo epečé 1000 orasión
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami.  Enči yoámitia  piripi munútoči
-       *[other] Kianiné itočekopá weiká orasión umatóteremu iwatíami.  Enči yoámitia  { $retryLimit } minútoči
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatiámi.  Enči yoámitia  piripi munútoči
+       *[other] Kianiné itočekopá weiká orasión umatóteremu iwatiámi.  Enči yoámitia  { $retryLimit } minútoči
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia pirípi segundóči.
-       *[other] kianiné itočékopa weiká orasióne umatóteremu iwatíami, enčí yoámitia { $retryLimit } segundóči.
+        [one] Kianiné itočékopa weiká orasióne umatóteremu iwatiámi, enčí yoámitia pirípi segundóči.
+       *[other] kianiné itočékopa weiká orasióne umatóteremu iwatiámi, enčí yoámitia { $retryLimit } segundóči.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka pií minútoči enčí itóčenaria piréči orasión.  ¡Čeriwéma amó puyeríčó!
-       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyeká { $retryLimit } munitoči enčí itočemaria pireči oración.  ¡Čeriwéma amó puyeríčó!
+       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyeká { $retryLimit } munitoči enčí itočenaria pireči oración.  ¡Čeriwéma amó puyeríčó!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] Umatóteremu ékanati amó uhúraria iká pahináči. Puyéka pií segundóči enčí itočenaria piréči orasión. Čeriwéma amó puyeríčo.
-       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka { $retryLimit }segundóči enčí itóčenaria piréči orasión. Čeriwéma amó puyeríčo.
+        [one] Umatóteremu ékanati amó uhúraria iká pahináči. Puyéka pií segunróči enčí itočenaria piréči orasión. Čeriwéma amó puyeríčo.
+       *[other] Umatóteremú ékanati amó uhúraria iká pahináči. Puyéka { $retryLimit }segunróči enčí itóčenaria piréči orasión. Čeriwéma amó puyeríčo.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
@@ -137,7 +137,7 @@ small-batch-response-message =
         [one] { $uploadedSentences } ónia pií orasión kawétiame. Clik yorápa <downloadLink> i'wá</downloadLink> Čečemítia pu'ká tekipúmia orasióne ikinakitiáme
        *[other] { $uploadedSentences } ónia { $totalSentences }orasión kawétiame. Clik yorápa<downloadLink>I'wá</downloadLink> Čečemitia pu'ká tekipúmia orasióne iitinakitiáme
     }
-small-batch-sentences-rule-1 = Simetépa pautandóka, ¿istána orasióni napétaria?
+small-batch-sentences-rule-1 = Simetépa pautároaóka, ¿istána orasióni napétaria?
 small-batch-sentences-rule-2 = Toamétamu orasioni risáka rineáči
 small-batch-sentences-rule-3 =
     Toámitia orasióne píi enčí pií rineáči ,

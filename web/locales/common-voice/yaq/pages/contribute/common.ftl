@@ -26,11 +26,6 @@ target-segment-first-banner = A ania ka a ya uka bemewa wepul chibejti boo’o t
 target-segment-add-voice = Em nok jiawai ta ama kibacha.
 target-segment-learn-more = Wate tejwai
 change-preferences = Bat kecha'i ta Nakulia
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Nook jiawai nau tojiri
-contribute-sentence-collection-nav-header = Etejorim nau tojirime
 login-signup = Naate, emo jiokte/Nokaka emo jiyoka
 vote-yes = Jewi
 vote-no = Je'e

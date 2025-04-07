@@ -66,7 +66,7 @@ sentence-variant-select-label = Jũmla-e taghayur
 sentence-variant-select-placeholder = Yi mutaghayur e wuch car (ikhtiyori)
 sentence-variant-select-multiple-variants = Umumi Zik et C̃hak Badal Wocnkũzgisht (variants)
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Sanũvit (Upload) <icon></icon> Umumi Jay-e Jũmlayisht

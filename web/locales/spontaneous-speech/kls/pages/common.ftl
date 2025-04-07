@@ -4,9 +4,8 @@
 error = Galati
 action-click = Clik kari
 action-tap = Te
-# Label for language switcher
-interface-language = Warek zuban
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Dataset as dek
 # Label for button on contribution switcher
 change = Change/ tabdil
@@ -26,7 +25,6 @@ contribute = De
 ## Navbar
 
 respond-to-prompt = Jawab sahi kai dekas bati
-transcribe-audio = Audio newishi
 check-transcriptions = Newishila Jagai/ check kari
 
 ## Not Found Page

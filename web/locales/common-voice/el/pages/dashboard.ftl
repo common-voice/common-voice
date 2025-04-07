@@ -41,30 +41,77 @@ finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασί�
 lose-changes-warning = Αν αποχωρήσετε τώρα, θα χάσετε τις αλλαγές σας
 build-custom-goal = Δημιουργήστε έναν προσαρμοσμένο στόχο
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Βοηθήστε μας να φτάσουμε τη { $hours } ώρα στα { $language } με έναν προσωπικό στόχο
        *[other] Βοηθήστε μας να φτάσουμε τις { $hours } ώρες στα { $language } με έναν προσωπικό στόχο
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Βοηθήστε το Common Voice να φτάσει τη { $hours } ώρα σε μια γλώσσα με έναν προσωπικό στόχο
        *[other] Βοηθήστε το Common Voice να φτάσει τις { $hours } ώρες σε μια γλώσσα με έναν προσωπικό στόχο
     }
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από
-       *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } μήνα εάν
-       *[other] { $periodMonths } μήνες εάν
-    } { NUMBER($people) ->
-        [one] { $people } άτομο καταγράφει
-       *[other] { $people } άτομα καταγράφουν
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } απόσπασμα την ημέρα.
-       *[other] { $clipsPerDay } αποσπάσματα την ημέρα.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
+                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
+                            }
+                    }
+            }
     }
 how-many-per-day = Τέλεια! Πόσα αποσπάσματα την ημέρα;
 how-many-a-week = Τέλεια! Πόσα αποσπάσματα την εβδομάδα;
@@ -72,7 +119,7 @@ which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή �
 receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } απόσπασμα
        *[other] { $count } αποσπάσματα
     }

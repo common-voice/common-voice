@@ -176,23 +176,23 @@ const LanguagesRequestFormPage = () => {
                 checked={spontaneousSpeechToggled}
                 onToggle={setSpontaneousSpeechToggled}
               />
+              <div className="hr" />
+              <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
+                <Localized
+                  id="need-help-deciding-platform-explanation-1"
+                  elems={{ strong: <strong /> }}>
+                  <p />
+                </Localized>
+                <Localized
+                  id="need-help-deciding-platform-explanation-2"
+                  elems={{ strong: <strong /> }}>
+                  <p />
+                </Localized>
+                <Localized id="need-help-deciding-platform-explanation-3">
+                  <p />
+                </Localized>
+              </ExpandableInformation>
             </div>
-
-            <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
-              <Localized
-                id="need-help-deciding-platform-explanation-1"
-                elems={{ strong: <strong /> }}>
-                <p />
-              </Localized>
-              <Localized
-                id="need-help-deciding-platform-explanation-2"
-                elems={{ strong: <strong /> }}>
-                <p />
-              </Localized>
-              <Localized id="need-help-deciding-platform-explanation-3">
-                <p />
-              </Localized>
-            </ExpandableInformation>
 
             <PageTextContent>
               <p>

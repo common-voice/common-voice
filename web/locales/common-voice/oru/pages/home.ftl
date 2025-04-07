@@ -80,6 +80,7 @@ answer-questions-coming-soon = سؤلی ځوبًی <small> څوار بُو سې�
 review-transcriptions = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 review-transcriptions-coming-soon = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
+add-questions-coming-soon = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
 transcribe-audio-coming-soon = ا ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے
@@ -122,7 +123,6 @@ spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُل�
 spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
 language-text-card-header = ته زبان ا سبق
 language-text-card-content = ته پبلک ډومېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
-coming-soon = سېره ر بُو څوا
 add-text = سبق ال يې ګډ کوئ
 
 ## Community section

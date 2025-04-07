@@ -82,6 +82,7 @@ answer-questions-coming-soon = Përgjigjuni Pyetjeve <small>(Së shpejti)</small
 review-transcriptions = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
 review-transcriptions-coming-soon = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
 add-questions = Shtoni Pyetje <small>(Së shpejti)</small>
+add-questions-coming-soon = Shtoni Pyetje <small>(Së afërmi)</small>
 transcribe-audio-coming-soon = Transkriptoni Audio <small>(Së shpejti)</small>
 transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
@@ -124,7 +125,6 @@ spontaneous-card-header = E folur Spontane
 spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
 language-text-card-header = Tekst Gjuhe
 language-text-card-content = Krijoni ose ndani me të tjerë pyetje, togfjalësh dhe tekst në përkatësi publike dhe tekst për përkthim, modele të vegjël gjuhësorë, etj.
-coming-soon = Së Shpejti
 add-text = Shtoni Tekst
 
 ## Community section

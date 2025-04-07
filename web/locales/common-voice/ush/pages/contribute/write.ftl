@@ -66,7 +66,7 @@ sentence-variant-select-label = جملئی بدلون
 sentence-variant-select-placeholder = سلیکٹ ایک ویرینٹ[اختیاری]
 sentence-variant-select-multiple-variants = عام جیِب/ مختلف تغیرات
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپلوڈ</icon> عوامی حلقہ ئی جملے

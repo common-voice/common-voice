@@ -26,11 +26,6 @@ target-segment-first-banner = OBinyɔ́ óŋgwánɛ́ ó télɛ diɓɛ́lɛ 
 target-segment-add-voice = Láŋgwá njé ó pɔsínɔ̄
 target-segment-learn-more = Ó bía búka na níka
 change-preferences = Túkwá njé é tɔ́ndɔ́ɓɛ́
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Kɔtɛlɛ lá maɗôy
-contribute-sentence-collection-nav-header = Kɔtɛlɛ lá́ myembá má ɓwambo
 login-signup = íŋgéá
 vote-yes = ee
 vote-no = kɛ́m

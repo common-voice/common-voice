@@ -39,7 +39,6 @@ why-demographic-explanation-2 = Tsare sirrin mai anfani da labarai kaman shekara
 accept-privacy = Na gamsu da rikon da kayi ma wannan labari kaman yadda kake bayyana a Mozilla <privacyLink>sirri tsari</privacyLink>
 accept-privacy-title = Sirri tsari
 login-identity = Bayanan sirrin ka
-login-signup = Shiga / Yi rajista
 edit = Gyara
 email-subscriptions = Karɓar saƙonnin yanar gizo
 download-profile = Sakko da Bayanaina

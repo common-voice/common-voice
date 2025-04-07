@@ -15,7 +15,7 @@ pro-difficulty = Pro
 want-to-continue = Tuka fude vochpak zai?
 set-a-goal = Goal set kor
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

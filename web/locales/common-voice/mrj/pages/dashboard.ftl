@@ -44,7 +44,7 @@ how-many-per-day = Пиш яжо! Кечӹштӹ маняр клип?
 how-many-a-week = Пиш яжо! Ӓрняштӹ маняр клип?
 which-goal-type = Тӹнь попынет, колыштнет ӓли когынек ӹштӹнет?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] клип
        *[other] клип
     }

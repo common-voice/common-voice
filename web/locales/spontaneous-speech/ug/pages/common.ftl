@@ -5,9 +5,12 @@ error = خاتالىق
 action-click = چېكىڭ
 action-tap = نوقۇڭ
 # Label for language switcher
-interface-language = ئارايۈز تىلى:
+platform-language = سۇپا تىلى
+platform-language-tooltip-text = تور بېكەت تېكىستىنىلا ئۆزگەرتىدۇ.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇش
+contribution-picker-tooltip-text = پەقەت سىز تۆھپە قوشقان تىلنىڭ سانلىق مەلۇمات توپلىمىنىلا ئۆزگەرتىدۇ
 # Label for button on contribution switcher
 change = ئۆزگەرت
 coming-soon = پات ئارىدا تېخىمۇ كۆپ تىل تارقىتىلىدۇ
@@ -22,12 +25,14 @@ report-button = دوكلات
 skip-button = ئاتلا
 submit-button = يوللا
 contribute = تۆھپە قوشاي
+request-new-language = يېڭى تىل تەلەپ قىلىڭ
 
 ## Navbar
 
 respond-to-prompt = ئىنكاس قايتۇرۇش
-transcribe-audio = ئۈننى خەتكە پۈت
+transcribe = خەت پۈت
 check-transcriptions = خەت پۈتۈكنى تەكشۈرۈڭ
+question = سوئال
 
 ## Not Found Page
 

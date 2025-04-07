@@ -94,6 +94,8 @@ services:
 
 ### Troubleshooting
 
+#### Couldn't connect to Docker daemon 
+
 If you get an error like the following when running native Docker (not Docker for Desktop),
 
 ```
@@ -116,7 +118,40 @@ Then after this you can:
 
 You may have to run these commands as root/superuser.
 
----
+#### Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory 
+
+After running `docker-compose up`, on Ubuntu, Fedora or other Linux-based systems, you may observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`. 
+
+You may also observe the errors:  
+
+* `error Error: EACCES: permission denied, unlink '/code/node_modules/.yarn-integrity'` 
+* `EACCES permission denied mkdir /code/node_modules`
+
+when the `web` container is building. 
+
+The root cause of this error is [this line](https://github.com/common-voice/common-voice/blob/bc8d0c501a51c735b907ad6e99368b2a47b3f15e/docker-compose.yaml#L62) in the `docker-compose.yaml`, which is intended to set the `GID` and `UID` to a non-root user. 
+
+`user: '${UID:-10001}:${GID:-10001}'`
+
+(These settings also appear under the `bundler` config. The `bundler` is only used for dataset releases, so we're only concerned about the `web` config here.)
+
+However, this causes the `docker` user's `UID:GID` and the localhost user's `UID:GID` to be different. 
+
+The workaround is to first identify the `UID` and `GID` of the current user, then edit the line in `docker-compose.yaml` to have that `UID` and `GID`:
+
+```sh
+> id -u
+1000
+
+> id -g
+1000
+```
+
+(in `docker-compose.yaml`)
+
+`user: '${UID:-1000}:${GID:-1000}'`
+
+You should then be able to run `docker-compose up` successfully. 
 
 ## Manual installation
 

@@ -22,9 +22,8 @@ required-field = o pana tawa poki ni.
 single-sentence-submission = o pana e sitelen wan
 bulk-sentence-submission = o pana e sitelen mute
 single-sentence = sitelen wan
-bulk-sentences = sitelen mute
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 sc-bulk-upload-instruction-drop = o pana e lipu lon ni
 try-upload-again = o pana sin e lipu tawa ni
@@ -39,3 +38,12 @@ bulk-upload-success-toast = sina pana e sitelen mute.
 file-too-large = lipu li suli ike
 file-too-small = lipu li lili ike
 too-many-files = lipu li mute ike
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

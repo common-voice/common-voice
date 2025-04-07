@@ -80,6 +80,7 @@ answer-questions-coming-soon = Responder preguntas <small>(proximamente)</small>
 review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
 review-transcriptions-coming-soon = Revisar transcricións <small>(proximamente)</small>
 add-questions = Engadir preguntas <small>(Proximamente)</small>
+add-questions-coming-soon = Engadir preguntas <small>(Proximamente)</small>
 transcribe-audio-coming-soon = Transcribir gravacións <small>(proximamente)</small>
 transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
 press-and-stories = Comunicación, novas
@@ -122,7 +123,6 @@ spontaneous-card-header = Fala espontánea
 spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
-coming-soon = Proximamente
 add-text = Achegar texto
 
 ## Community section

@@ -25,11 +25,6 @@ target-segment-first-banner = xitechpalehui ticchiuasque primer tiquitl de Commo
 target-segment-add-voice = xictlali mo tlahtol
 target-segment-learn-more = cachi tlanauatil
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = pihpina tlahtolme
-contribute-sentence-collection-nav-header = tlahcoilol pihpintoc
-
 ## Reporting
 
 report = tlanahuatia

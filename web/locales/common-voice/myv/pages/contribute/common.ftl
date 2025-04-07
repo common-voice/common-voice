@@ -27,11 +27,6 @@ target-segment-first-banner = Лездак  шкамс-теемс Common Voice-�
 target-segment-add-voice = Поладык эсеть вайгелеть
 target-segment-learn-more = Ловнок седе тов
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Вайгельпурнавкс
-contribute-sentence-collection-nav-header = Валрисьмепурнавкс
-
 ## Reporting
 
 report = Пеняцямс

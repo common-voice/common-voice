@@ -27,9 +27,6 @@ target-segment-first-banner = ሰልፍ ናይ ክርን ሕበር  ኣብ { $lo
 target-segment-add-voice = ክርንኩም ወሰኮ
 target-segment-learn-more = ዘያደት አምሮ
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = ተቅሪር

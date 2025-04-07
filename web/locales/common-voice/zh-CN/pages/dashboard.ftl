@@ -41,32 +41,35 @@ finish-editing = 要先完成编辑吗？
 lose-changes-warning = 若现在离开，将丢失所有更改
 build-custom-goal = 建立自定义目标
 help-reach-hours-pluralized =
-    助力{ $language }的片段达到{ NUMBER($hours) ->
-       *[other] { $hours } 小时
-    }的个人目标
+    { $hours ->
+       *[other] 助力{ $language }的片段达到{ $hours } 小时的个人目标
+    }
 help-reach-hours-general-pluralized =
-    助力 Common Voice 的任一语言达到{ NUMBER($hours) ->
-       *[other] { $hours } 小时
-    }的个人目标
+    { $hours ->
+       *[other] 助力 Common Voice 的任一语言达到{ $hours } 小时的个人目标
+    }
 set-a-goal = 设定目标
 cant-decide = 无法决定？
 activity-needed-calculation-plural =
-    若有 { NUMBER($people) ->
-       *[other] { $people } 个人
-    }每天录下 { NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } 个片段
-    }，就可以在 { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } 个月
-    }内达成{ NUMBER($totalHours) ->
-       *[other] { $totalHours } 小时
-    }录音片段的目标。
+    { $people ->
+       *[other]
+            { $clipsPerDay ->
+               *[other]
+                    { $periodMonths ->
+                       *[other]
+                            { $totalHours ->
+                               *[other] 若有 { $people } 个人每天录下 { $clipsPerDay } 个片段，就可以在 { $periodMonths } 个月内达成{ $totalHours } 小时录音片段的目标。
+                            }
+                    }
+            }
+    }
 how-many-per-day = 好的，每天要贡献几个片段？
 how-many-a-week = 好的，每周要贡献几个片段？
 which-goal-type = 想要录音、聆听确认，还是两者都要？
 receiving-emails-info = 您当前已设为接收目标提醒、我的进度更新、Common Voice 新闻通讯等邮件
 not-receiving-emails-info = 您当前已设为<bold>拒绝</bold>接收诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 个片段
        *[other] { $count } 个片段
     }

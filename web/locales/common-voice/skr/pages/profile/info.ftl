@@ -58,7 +58,6 @@ accept-privacy-title = رازداری پالیسی
 accept-privacy-and-terms = میں کامن وائس  <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہاں۔
 login-identity = لاگ ان سُن٘ڄاݨ
 login = لاگ ان
-login-signup = لاگ ان/ سائن اپ
 edit = تبدیلی کرو
 email-subscriptions = ای میل سبسکرپشناں
 download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو

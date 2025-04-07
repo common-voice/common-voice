@@ -41,38 +41,85 @@ finish-editing = Башта мөхәррирләүне тәмамларгамы?
 lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
 build-custom-goal = Шәхси бер максат булдыру
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Шәхси максат куеп, { $language } телендә { $hours } сәгать аудиоязма җыярга ярдәм итегез
        *[other] Шәхси максат куеп, { $language } телендә { $hours } сәгать аудиоязма җыярга ярдәм итегез
     }
 help-reach-hours-general-pluralized =
-    Үзегезгә бер шәхси максат куеп, Common Voice'ка{ NUMBER($hours) ->
-        [one] { $hours } сәгать
-       *[other] { $hours } сәгать
-    }аудиоязма җыярга ярдәм итегез
+    { $hours ->
+        [one] Үзегезгә бер шәхси максат куеп, Common Voice'ка{ $hours } сәгатьаудиоязма җыярга ярдәм итегез
+       *[other] Үзегезгә бер шәхси максат куеп, Common Voice'ка{ $hours } сәгатьаудиоязма җыярга ярдәм итегез
+    }
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } сәгать
-       *[other] { $totalHours } сәгать
-    }эчендә генә ирешеп була { NUMBER($periodMonths) ->
-        [one] { $periodMonths } ай
-       *[other] { $periodMonths } ай
-    }әгәр{ NUMBER($people) ->
-        [one] { $people } кеше
-       *[other] { $people } кеше
-    }яздырса{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } аудиоязма
-       *[other] { $clipsPerDay } аудиоязма
-    }көненә
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
+                            }
+                    }
+            }
+    }
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
 how-many-a-week = Шәп! Атнага ничә аудиоязма?
 which-goal-type = Сөйлисегез киләме, тыңлыйсыгызмы, әллә икесе дә?
 receiving-emails-info = Әлеге вакытта Сез куелган максатлар турындагы искәртүләр, ирешкән уңышларыгыз турындагы хәбәрләр һәм Common Voice гәҗитләре кебек электрон хатларга язылгансыз.
 not-receiving-emails-info = Әлеге вакытта Сез куелган максатлар турындагы искәртүләр, ирешкән уңышларыгыз турындагы хәбәрләр һәм Common Voice гәҗитләре кебек электрон хатларга языл<bold>ма</bold>гансыз.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } клип
        *[other] { $count } клиплар
     }

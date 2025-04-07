@@ -8,6 +8,7 @@ different_language = Iný jazyk
 different_language-detail = Obsah obsahuje iný jazyk, ako som očakával.
 personally_identifiable_information = Osobne identifikovateľné informácie
 personally_identifiable_information-detail = Tento obsah obsahuje osobne identifikovateľné informácie súvisiace s identitou jednotlivca, ako je jeho meno, e‑mailová adresa, miesto, identifikačné číslo alebo telefónne číslo.
+personally_identifiable_information-answer-detail = Tento obsah vyžaduje osobne identifikačné údaje súvisiace s identitou jednotlivca, ako je jeho meno, e‑mailová adresa, miesto, identifikačné číslo alebo telefónne číslo.
 report-other-comment =
     .placeholder = Komentár
 # Label for textarea in report modal

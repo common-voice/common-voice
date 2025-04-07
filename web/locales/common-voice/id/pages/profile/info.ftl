@@ -39,7 +39,6 @@ why-demographic-explanation-2 = Data pengguna yang dianonimkan seperti usia, jen
 accept-privacy = Saya setuju Mozilla mengelola infomasi saya sesuai yang tertera pada <privacyLink>Kebijakan Privasi</privacyLink>
 accept-privacy-title = Kebijakan Privasi
 login-identity = Identitas Masuk
-login-signup = Masuk / Daftar
 edit = Ubah
 email-subscriptions = Langganan Surel
 download-profile = Unduh data saya

@@ -4,9 +4,8 @@
 error = ṭʰis
 action-click = click etas
 action-tap = tap etin
-# Label for language switcher
-interface-language = interface e baaṣ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = dataset ar emasas
 # Label for button on contribution switcher
 change = badal etas
@@ -26,7 +25,6 @@ contribute = emasin
 ## Navbar
 
 respond-to-prompt = duro etin masum ite juwaap mićʰiin
-transcribe-audio = audio transcribe etin
 check-transcriptions = transcriptions ar baren
 
 ## Not Found Page

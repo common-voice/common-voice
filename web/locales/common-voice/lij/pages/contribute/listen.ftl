@@ -14,6 +14,8 @@ listen-abort-cancel = Vanni avanti à verificâ
 listen-abort-confirm = Finisci de verificâ
 # Menu item
 validate-readings = Verifica e lettue
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Verifica e lettue <small>(disponibile fito)</small>
 
 ## MENU ITEM TOOLTIPS
 

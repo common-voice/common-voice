@@ -36,7 +36,6 @@ why-demographic = Почему это важно?
 accept-privacy = Я согласен с тем, как вы обрабатываете эту информацию, согласно <privacyLink>Политики приватности</privacyLink> Mozilla
 accept-privacy-title = Политика приватности
 login-identity = Идентификатор для входа
-login-signup = Čirja süäme / Čirjoittassa
 edit = Редактировать
 email-subscriptions = Подписки по электронной почте
 download-profile = Выгрузить мои данные

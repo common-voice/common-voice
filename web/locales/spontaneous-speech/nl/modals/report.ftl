@@ -8,6 +8,7 @@ different_language = Andere taal
 different_language-detail = De inhoud bevat een andere taal dan ik had verwacht.
 personally_identifiable_information = Persoonlijk identificeerbare informatie
 personally_identifiable_information-detail = Deze inhoud bevat persoonlijk identificeerbare informatie met betrekking tot de identiteit van een individu, zoals hun naam, e-mailadres, locatie, identificatienummer of telefoonnummer.
+personally_identifiable_information-answer-detail = Deze inhoud vraagt om persoonlijk identificeerbare informatie met betrekking tot de identiteit van een individu, zoals hun naam, e-mailadres, locatie, identificatienummer of telefoonnummer.
 report-other-comment =
     .placeholder = Opmerking
 # Label for textarea in report modal

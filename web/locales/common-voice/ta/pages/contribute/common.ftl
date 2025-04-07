@@ -15,9 +15,6 @@ share-title-new = மேலும் குரல்களைக் கண்ட
 keep-track-profile = சுயவிவரத்துடன் உங்கள் முன்னேற்றத்தைக் கண்காணிக்கவும்
 login-to-get-started = தொடங்குவதற்கு உள்நுழைக அல்லது பதிவுசெய்க
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = அறிக்கையிடுக

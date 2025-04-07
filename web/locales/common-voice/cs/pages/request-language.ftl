@@ -32,3 +32,10 @@ request-language-success-list-3 =
 request-language-error =
     Je možné, že jsme tuto žádost neobdrželi. Napište nám prosím přímo
     na <emailLink>{ $email }</emailLink> a my se vám ozveme zpět!
+request-for-scripted-speech-toggle = Žádost o skriptovaný projev
+request-for-spontaneous-speech-toggle = Žádost o spontánní projev
+need-help-deciding-platform = Potřebujete pomoci s výběrem?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Skriptovaná řeč</strong> (tradičně známá pod názvem Common Voice) je možnost hlasitého čtení vět ve vašem jazyce.
+need-help-deciding-platform-explanation-2 = <strong>Spontánní řeč</strong> je nová část aplikace Common Voice, kde můžete odpovídat na otázky organičtějším, hovorovým způsobem.
+need-help-deciding-platform-explanation-3 = Pokud svůj jazyk nevidíte ani v jedné části platformy, vyberte oba.

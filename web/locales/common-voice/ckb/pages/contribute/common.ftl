@@ -28,10 +28,6 @@ target-segment-first-banner = یارمەتی بدە کە یەکەمین بەشی
 target-segment-add-voice = دەنگی خۆت زیاد کە
 target-segment-learn-more = زیاتر بزانە
 
-## Contribution Nav Items
-
-contribute-sentence-collection-nav-header = کۆکردنەوەی ڕستە
-
 ## Reporting
 
 report = ڕاپۆرت

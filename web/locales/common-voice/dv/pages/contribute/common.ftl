@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = އަޑު ރިކޯރޑުކުރޭ
 share-title-new = އިތުރު މީހުންގެ އަޑު ހޯދުމަށް <bold>އެހީވެދީ</bold>
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

@@ -4,9 +4,8 @@
 error = ስሕተት
 action-click = ጠቅ ያድርጉ
 action-tap = ይንኩ
-# Label for language switcher
-interface-language = የበይነገጽ ቋንቋ፡
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ለ{ $language } የውሂብ ስብስብ አስተዋጽዖ ማድረግ
 # Label for button on contribution switcher
 change = ለውጥ
@@ -26,7 +25,6 @@ contribute = ያበርክቱ
 ## Navbar
 
 respond-to-prompt = ለፈጣን ምላሽ ይስጡ
-transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
 check-transcriptions = ፅሁፎችን ያረጋግጡ
 
 ## Not Found Page

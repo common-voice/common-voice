@@ -27,7 +27,7 @@ cant-decide = Бир шешимге келе алмай атырсыз ба?
 how-many-per-day = Жүдә жақсы! Күнине неше клип?
 how-many-a-week = Жүдә жақсы! Ҳәптесине неше клип?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } клип
        *[other] { $count } клип
     }

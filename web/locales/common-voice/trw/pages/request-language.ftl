@@ -18,3 +18,10 @@ request-language-success-list-1 = دھأک ساعت می تأ اے ای میل �
 request-language-success-list-2 = مُھو کمیونیٹی مینیجرے تھے سیت رابطہ کونیِن یرأ چھی مدد کھأکأ کوا بیے آں تی میس ہُم بُونیِن یرأ اے جیِب زید مُوش ما کامے کمیونیٹی کی کام کویی کو نأ۔
 request-language-success-list-3 = کو تأ مھو یے ما اے دو دیا می کی نُو بُود بھی تھلا مھو سیت <emailLink> مے ای میل دے رابطہ کو مھو یے تھأ شیِدانیِن!
 request-language-error = ہوبھادُو مھو یے چھی ہے أرضی نے أپ چھی۔ مھو یے تھلا سیدھا ای میل { $email }کو آں مھو یے تھیے جواب دینیِن۔
+request-for-scripted-speech-toggle = لیگیل بأدا سی کیا عأرضی
+request-for-spontaneous-speech-toggle = اے مُوا بأدا سی کیا عأرضی
+need-help-deciding-platform = کامک کارُو سی کیا مدد پکار چھی؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong> لیگیل ریکارڈ </strong> کامن وائس سے پوت تُھو کامک می یأ تھو تُنُو جیِب سی جملہ تیز بن بھادی۔
+need-help-deciding-platform-explanation-2 = <strong> اسپانٹنئس سپیچ </strong>کامن وائس سی نم حصہ تُھو۔ تھو ہید چیر قدرتی آں عوامی طریقہ دے سوالا سی جواب دے بھادی۔
+need-help-deciding-platform-explanation-3 = کو تُو تُنُو جیِب ای سی کی حصہ می نہ پشُوسأدو دُھوئمُو کارا۔

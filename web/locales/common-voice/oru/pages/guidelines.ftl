@@ -3,6 +3,9 @@ guidelines-header = ته پېش کؤ هدایات
 guidelines-header-subtitle = ته پېش کؤ آ زدکړه او که ته جمله توثیق يې سو څا کېوی او آډیو کلِپ سو څا مشترک آواز کی څا ڒیڅېوی
 voice-collection = آوزی جمع کؤ
 sentence-collection = ته جملي ا جمع کؤ
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف ادائګي (ته الفاظ)
 misreadings = غلط هِشتک
 offensive-content = ته غصه ا مواد
@@ -12,6 +15,9 @@ volume = ته ژغ ا چِګ ا ټُوټ
 reader-effects = ته هِشتَکَوُونئ ا اثر
 just-unsure = یقینم بُو نک سَۀ
 example = مثل
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ماخ بُو مختلف لهجي کی پخېر سرئ غؤݭيېن۔۔ ته پۀ بنیاد په بنا که تُو غؤس که ته سۀ کلِپ ته غوېڅن واله ته سړئ ا لهجه يې غلط هۀ یا وه سه لفظ نر ا زور غلط ځاک زر دوک هۀ، یا وې ته اوقاف صحیح استعمال نک دوک هۀ، ا کلِپ رد کېوی ته پۀ سو زُت احتیاط سېتی۔ دنیا نردی بو ته پروناؤنسيېشن بېشمار قسمی استعمالوَک سېن که پئ نردی سو سا ګۀ بېن که ترتو کمیونېټی نر نک امرک سېن۔ مهرباني کوئ که ته پئ پاره ا زلی ستری کوئ کوک که تیوس لاسته مختلف ژغېن
 varying-pronunciations-explanation-2 = ته پۀ برخلاف که ترتُو يې او خیال بَۀ که ا سۀ ته غوېڅن واله او لفظ لواړه ديېک یا اميېک نک هۀ او ته سۀ پروناؤنسيېشن بارۀ نر بُو او محض اندازي لګوی، تُو و بُو رد اېنچی۔ او که یقینت نک بَۀ، ته سکِپ ا بټن ځن
 varying-pronunciations-example = ا رایٛ صفا نک بُک
@@ -47,11 +53,17 @@ reader-effects-explanation = ا ݫات ریکارډنګ يې بو ته فۀ خل
 just-unsure-explanation = که پئ هدایات نر يې سا شئ بَۀ که وه نک ویزر رس، بيې ا خوئ بهترین اندازۀ لګېون۔ خه که بيې وه ګه پویٛ نک سُن، بيې اسکِپ بټن ځن او مخکی ل تر سُن
 still-have-questions = بيې دی ګۀ سؤلی یِن؟
 contact-common-voice = ته مشترک آواز ټیم ګیرډ يې رابطۀ کېون
+
+## Sentence collection nav ids
+
 public-domain = پبلک ډومېن
 citing-sentences = ته جملي ته حوالۀ ا ڒیوک
 adding-sentences = ته جملي ا ګډؤ
 reviewing-sentences = بيې جیرؤ ته جملي
 sentence-domain = ته جملۀ ا ډومېن
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = آ يې ضروري هۀ که اره جملي ته پبلک ډومېن بېن </publicDomain> (<cc0>cc0</cc0>) کيې که ته مشترک آواز ا ډېټا بو ته  cc0 لائسنس ځېمه ړنګوَک سَۀ۔ جکه افئ جملي اپ لوډ کَوَک سون که ائ يې حواله دَرِن۔
 public-domain-explanation-2 = ته بهترین سپیچ پزنؤ مشین ته جوړؤ مشین پاره يې آ ضروري هۀ که ا جمله ته خلق بول چال نر رواج بَۀ۔ ته سا جملي ته جوړؤ پاره بو ائ ځېم اصولی سِر کر کَوِن
 public-domain-explanation-3 = جدید، ته عام بول چال جملۀ يې خوئ جوړ کَۀ یا ته یِمبئ یا ته زبان ته کمیونېټی په مدد سره، ته مثال په طور تهرو ”ته سټائل په لیک”
@@ -93,3 +105,9 @@ reviewing-sentences-explanation-2 = که  ا جمله ترماخ ائ بېژ ب�
 reviewing-sentences-explanation-3 = که ته جمله باره نر پُرۀ مطمئن نک بی تُو وه بو سکِپ ګه اېنچی او مخکی چیو او ا بيې بیان کی
 reviewing-sentences-explanation-4 = که تُو لاسته ته نظرثاني پناره ا جملي ختُم سېن، بيې دی بيے جملي جمع کَۀ۔
 domain-explanation = ا ډومېن ته جمله بُو ته جملۀ ا مضمون بیانَوي۔ ایزیره يې بُو تُو پئ لاسته ا ݭيې خوش کَۀ
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

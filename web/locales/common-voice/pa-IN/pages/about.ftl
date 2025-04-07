@@ -44,6 +44,7 @@ about-playbook-what-is-language = Common Voice ਉੱਤੇ ਕਿਹੜੀ ਭ�
 
 about-playbook-how-add-language = ਮੈਂ ਇੱਕ ਭਾਸ਼ਾ ਕਿਵੇਂ ਜੋੜਾਂ?
 about-playbook-how-add-language-translating-heading = ਸਾਈਟ ਦਾ ਉਲੱਥਾ
+about-playbook-how-add-language-collecting-sentences-heading = ਵਾਕ ਇਕੱਤਰ ਕਰਨੇ
 
 ## How does localization work
 

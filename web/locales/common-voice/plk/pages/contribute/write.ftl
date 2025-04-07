@@ -66,7 +66,7 @@ sentence-variant-select-label = جُملائے تغیّر
 sentence-variant-select-placeholder = ایْک قسم منتخب تِھیا (اختیاری)
 sentence-variant-select-multiple-variants = عام جِب/بسکیْ متغیّرات
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومین اےْ جُملائے اپ لوڈ <icon></icon> تِھیا۔

@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voice 的多语言数据集已经成为最大的公开语音数据集，但不是唯一的一组。
     
     您可在此页面找到其他的开源语音数据集。随着 Common Voice 不断成长，我们也会在此处发布更新信息。
+datasets-speech-bubble-content = 好消息！“即兴发言”功能即将推出！请持续关注，并通过我们的 <discordLink>Discord</discordLink> 了解最新消息。
 language = 语言
 download-dataset-header = 下载数据集
 download-delta-explainer = 我们做出了一些改变。差异片段仅包含自上次发布以来的最新片段。 <deltaLink>了解更多关于这项工作的信息</deltaLink>。

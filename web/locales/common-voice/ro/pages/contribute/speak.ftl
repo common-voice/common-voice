@@ -14,10 +14,10 @@ record-three-more-instruction = Au mai rămas trei!
 record-again-instruction = Perfect!<recordIcon></recordIcon> Înregistrează următoarea secvență vocală
 record-again-instruction2 = Ține-o tot așa! Înregistrează din nou <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ultima!
-review-tooltip = Aici revezi și reînregistrezi secvențe vocale din mers
+review-tooltip = Aici examinezi și reînregistrezi secvențe vocale din mers
 share-clip = Partajează videoclipul
 share-common-voice = Partajează Common Voice
-review-instruction = Revezi și reînregistrează secvențe vocale dacă este nevoie
+review-instruction = Examinează și reînregistrează secvențe vocale dacă este nevoie
 record-submit-tooltip = { $actionType } trimite când ești gata
 clips-uploaded = Secvențe vocale încărcate
 record-abort-title = Finalizezi înregistrarea mai întâi?
@@ -26,9 +26,9 @@ record-abort-submit = Trimite secvențele vocale
 record-abort-continue = Finalizează înregistrarea
 record-abort-delete = Ieși și șterge secvențele vocale
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
-review-submit-title = Revezi și trimite
+review-submit-title = Examinează și trimite
 review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum revezi secvențele vocale de mai jos și trimite-le.
-review-recording = Revezi
+review-recording = Examinare
 review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
@@ -36,6 +36,8 @@ review-delete-recordings = Șterge înregistrările mele
 review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
+create-profile-text = Vrei să îți salvezi informațiile? <createProfile>Creează un profil</createProfile>
+create-profile-button = Creează un profil
 
 ## MENU ITEM TOOLTIPS
 

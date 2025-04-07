@@ -31,11 +31,6 @@ target-segment-first-banner = Ede kreye premye segman sib Common Voice nan { $lo
 target-segment-add-voice = Ajoute Vwa'w
 target-segment-learn-more = Aprann plis
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Koleksyon Vwa
-contribute-sentence-collection-nav-header = Koleksyon fraz
-
 ## Reporting
 
 report = Rapòte

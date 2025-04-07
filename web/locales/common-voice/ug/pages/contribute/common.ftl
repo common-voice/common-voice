@@ -30,11 +30,6 @@ target-segment-first-banner = Common Voice نىڭ { $locale } تىكى بىرى�
 target-segment-add-voice = ئاۋازىڭىزنى قوشۇڭ
 target-segment-learn-more = تەپسىلاتى
 change-preferences = مايىللىقنى ئۆزگەرت
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ئاۋاز توپلىمى
-contribute-sentence-collection-nav-header = جۈملە توپلىمى
 login-signup = كىرىڭ / تىزىملىتىڭ
 vote-yes = ھەئە
 vote-no = ياق

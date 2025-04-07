@@ -80,6 +80,7 @@ answer-questions-coming-soon = Responder a questiones <small>(Tosto veniente)</s
 review-transcriptions = Verifica le transcriptiones <small>(Tosto veniente)</small>
 review-transcriptions-coming-soon = Verifica le transcriptiones <small>(Tosto veniente)</small>
 add-questions = Adder Questiones <small>(Tosto veniente)</small>
+add-questions-coming-soon = Adder Questiones <small>(Tosto veniente)</small>
 transcribe-audio-coming-soon = Transcriber audio <small>(Tosto veniente)</small>
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
@@ -115,14 +116,13 @@ get-started = Que nos va <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice es un platteforma gratuite, open-source  pro creation de datos ducite per communitate
-action-items-section-subtitle = Quicunque poter preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
+action-items-section-subtitle = Quicunque pote preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
 scripted-card-header = Parla con texto scribite
 scripted-card-content = Lege phrases in alte voce in tu lingua e contribue al plus diverse collection de datos vocal de participation public in le mundo.
 spontaneous-card-header = Discurso spontanee
 spontaneous-card-content = Responde al suggestiones pro crear collectiones de datos pro contextos organic e colloquial. Perfecte pro linguas primo oral.
 language-text-card-header = Texto linguistic
 language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
-coming-soon = Veniente tosto
 add-text = Adder texto
 
 ## Community section

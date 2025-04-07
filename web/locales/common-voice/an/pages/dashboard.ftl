@@ -41,31 +41,85 @@ finish-editing = Quiers acabar d'editar antes?
 lose-changes-warning = Si lo deixas agora, perderás los cambios
 build-custom-goal = Crear un obchectivo personalizau
 help-reach-hours-pluralized =
-    Aduya a alcanzar{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    } en { $language } con una meta personal
+    { $hours ->
+        [one] Aduya a alcanzar{ $hours } hora en { $language } con una meta personal
+       *[other] Aduya a alcanzar{ $hours } horas en { $language } con una meta personal
+    }
 help-reach-hours-general-pluralized =
-    Aduya a Common Voice a alcanzar{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    } en una luenga con una meta personal
+    { $hours ->
+        [one] Aduya a Common Voice a alcanzar{ $hours } hora en una luenga con una meta personal
+       *[other] Aduya a Common Voice a alcanzar{ $hours } horas en una luenga con una meta personal
+    }
 set-a-goal = Establir objetivo
 cant-decide = No te decides?
 activity-needed-calculation-plural =
-    Si { NUMBER($people) ->
-        [one] { $people } persona rechistra
-       *[other] { $people } personas rechistran
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } fragmento
-       *[other] { $clipsPerDay } fragmentos
-    } por día, se puet alcanzar{ NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } horas
-    } en poco mas { NUMBER($periodMonths) ->
-        [one] de { $periodMonths } mes
-        [11] de { $periodMonths } meses
-       *[other] de { $periodMonths } meses
+    { $people ->
+        [one]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persona rechistra { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                                [one] Si { $people } persona rechistra { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } persona rechistra { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persona rechistra { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                                [one] Si { $people } persona rechistra { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } persona rechistra { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } persona rechistra { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                                [one] Si { $people } persona rechistra { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } persona rechistra { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } persona rechistra { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                                [one] Si { $people } persona rechistra { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } persona rechistra { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                            }
+                    }
+            }
+       *[other]
+            { $clipsPerDay ->
+                [one]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } personas rechistran { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                                [one] Si { $people } personas rechistran { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } personas rechistran { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } personas rechistran { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                                [one] Si { $people } personas rechistran { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } personas rechistran { $clipsPerDay } fragmento por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                            }
+                    }
+               *[other]
+                    { $totalHours ->
+                        [one]
+                            { $periodMonths ->
+                                [11] Si { $people } personas rechistran { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                                [one] Si { $people } personas rechistran { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } personas rechistran { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } hora en poco mas de { $periodMonths } meses
+                            }
+                       *[other]
+                            { $periodMonths ->
+                                [11] Si { $people } personas rechistran { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                                [one] Si { $people } personas rechistran { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } mes
+                               *[other] Si { $people } personas rechistran { $clipsPerDay } fragmentos por día, se puet alcanzar{ $totalHours } horas en poco mas de { $periodMonths } meses
+                            }
+                    }
+            }
     }
 how-many-per-day = Excelent! Cuántas gravacions a lo día?
 how-many-a-week = Excelent! Cuántas gravacions a la semana?
@@ -73,7 +127,7 @@ which-goal-type = Quiers charrar, ascuitar u las dos?
 receiving-emails-info = Agora mesmo lo tiens configurau pa recibir correus electronicos como recordatorios d'obchectivos, actualizacions de progreso y boletines d'información sobre Common Voice
 not-receiving-emails-info = La tuya configuración actual indica que <bold>NO recibes</bold> correus con recordatorios d'obchectivos, actualizacions de progreso ni boletines de noticias de Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } fragmento
        *[other] { $count } fragmentos
     }

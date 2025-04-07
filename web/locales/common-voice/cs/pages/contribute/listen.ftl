@@ -14,6 +14,8 @@ listen-abort-cancel = Pokračovat v ověřování
 listen-abort-confirm = Dokončit ověřování
 # Menu item
 validate-readings = Ověřování čtení
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Ověřujte čtený text <small>(již brzy)</small>
 
 ## MENU ITEM TOOLTIPS
 

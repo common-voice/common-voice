@@ -32,11 +32,6 @@ target-segment-first-banner = { $locale } وچ کامن وائس دا پہلا �
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 change-preferences = ترجیحاں وٹاؤ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = اوازاں دا مجموعہ
-contribute-sentence-collection-nav-header = فقریاں دا مجموعہ
 login-signup = لاگ ان/ سائن اپ
 vote-yes = جیا
 vote-no = کو

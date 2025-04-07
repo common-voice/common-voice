@@ -1,43 +1,67 @@
-import * as React from 'react';
-import { useSelect } from 'downshift';
-import classNames from 'classnames';
+import * as React from 'react'
+import { useSelect } from 'downshift'
+import classNames from 'classnames'
 
 import {
   LocalizedGetAttribute,
   useAvailableLocales,
   useNativeNameAvailableLocales,
-} from '../locale-helpers';
-import VisuallyHidden from '../visually-hidden/visually-hidden';
-import { AbortContributionModalStatus } from '../../stores/abort-contribution-modal';
-import { useAbortContributionModal } from '../../hooks/store-hooks';
+} from '../locale-helpers'
+import VisuallyHidden from '../visually-hidden/visually-hidden'
+import { AbortContributionModalStatus } from '../../stores/abort-contribution-modal'
+import { useAbortContributionModal } from '../../hooks/store-hooks'
 
-import './localization-select.css';
+import './localization-select.css'
 
 interface Props {
-  locale?: string;
-  onLocaleChange?: (props: string) => void;
+  locale?: string
+  userLanguages?: string[]
+  onLocaleChange?: (props: string) => void
 }
 
-function getLocaleWithName(locale: string) {
-  const availableLocalesWithNames = useNativeNameAvailableLocales();
-  return availableLocalesWithNames.find(({ code }) => code === locale);
-}
 
-const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
-  const availableLocales = useAvailableLocales();
-  const availableLocalesWithNames = useNativeNameAvailableLocales();
-  const { abortStatus } = useAbortContributionModal();
-  const localWithName = getLocaleWithName(locale);
-  const initialSelectedItem = localWithName
-    ? localWithName.code
-    : availableLocales[0];
-  const items = availableLocalesWithNames.map(locale => locale.code);
+const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Props) => {
+
+  const getAvailableLocalesWithNames = () => {
+    const initialAvailableLocalesWithNames = useNativeNameAvailableLocales()
+    // Get user languages to top of the list
+    if (userLanguages) {
+      const userLanguagesWithNames = userLanguages.map(lang =>
+        initialAvailableLocalesWithNames.find(({ code }) => code === lang)
+      )
+
+      return userLanguagesWithNames.concat(
+        initialAvailableLocalesWithNames.filter(
+          item => !userLanguages.includes(item.code)
+        )
+      )
+    }
+
+    return initialAvailableLocalesWithNames
+  }
+
+  function getLocaleWithName(locale: string) {
+    return availableLocalesWithNames.find(({ code }) => code === locale)
+  }
 
   function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
     if (selectedItem && selectedItem !== locale) {
-      onLocaleChange(selectedItem);
+      onLocaleChange(selectedItem)
     }
   }
+
+  const availableLocales = useAvailableLocales()
+  const availableLocalesWithNames = getAvailableLocalesWithNames()
+  const { abortStatus } = useAbortContributionModal()
+  const localWithName = getLocaleWithName(locale)
+  const initialSelectedItem = localWithName
+    ? localWithName.code
+    : availableLocales[0]
+  const items = availableLocalesWithNames.map(locale => locale.code)
+
+  React.useEffect(() => {
+    selectItem(initialSelectedItem)
+  }, [initialSelectedItem])
 
   const {
     isOpen,
@@ -47,19 +71,19 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
     highlightedIndex,
     getItemProps,
     selectItem,
-  } = useSelect({ items, initialSelectedItem, onSelectedItemChange });
+  } = useSelect({ items, onSelectedItemChange })
 
   React.useEffect(() => {
     // if the user does not choose to switch in the abort modal
     // set the locale as the selected item
     if (abortStatus === AbortContributionModalStatus.REJECTED) {
-      selectItem(locale);
+      selectItem(locale)
     }
-  }, [abortStatus]);
+  }, [abortStatus])
 
   // don't show select if we dont have multiple locales
   if (items.length <= 1) {
-    return null;
+    return null
   }
 
   return (
@@ -78,22 +102,37 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
           <div className="list-wrapper">
             <ul {...getMenuProps()}>
               {items.map((item, index) => (
-                <li
+                <div
                   key={item}
-                  className={classNames({
-                    selected: item === locale,
-                    highlighted: index == highlightedIndex,
-                  })}
-                  {...getItemProps({ item })}>
-                  {getLocaleWithName(item).name}
-                </li>
+                  className={
+                    classNames(
+                      'list-item-wrapper', {
+                      'highlighted': index === highlightedIndex,
+                      'userlanguage': userLanguages && userLanguages.length > 0 && index <= userLanguages.length - 1,
+                      'lastuserlanguage': userLanguages && userLanguages.length > 0 && index === userLanguages.length - 1,
+                    }
+                    )
+                  }
+                >
+                  <li {...getItemProps({ item })}>
+                    {getLocaleWithName(item).name}
+                  </li>
+                  {item === locale && (
+                    <img
+                      src={require('../../components/ui/icons/checkmark-green.svg')}
+                      alt=""
+                      width={24}
+                      height={24}
+                    />
+                  )}
+                </div>
               ))}
             </ul>
           </div>
-        </div>
+        </div >
       )}
-    </LocalizedGetAttribute>
-  );
-};
+    </LocalizedGetAttribute >
+  )
+}
 
-export default LocalizationSelectComplex;
+export default LocalizationSelectComplex

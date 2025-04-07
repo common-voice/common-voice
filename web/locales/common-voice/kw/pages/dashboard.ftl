@@ -28,7 +28,7 @@ set-a-goal = Settya amkan
 cant-decide = A ny yll'ta ervira?
 which-goal-type = A vynn'ta Kewsel, Goslowes po an dhew?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [zero] klypp
         [one] klypp
         [two] klypp

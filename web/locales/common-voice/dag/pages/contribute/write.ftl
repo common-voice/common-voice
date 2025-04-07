@@ -5,7 +5,6 @@ write-instruction = Pahimi <icon></icon> yɛltɔɣili din ka ŋun su li
 write-page-subtitle = Yɛltɔɣa din pahi kpe yɛn zaŋmi m-pahi salo ni yɛn tooi nya shɛŋa cc-0 shɛhiranima zuɣu
 sentence =
     .label = Dini yi shɛli na
-sentence-input-value = Kpɛhimi a yɛltɔɣili din ka ŋun su li maa kpe
 citation-input-placeholder = Wuhimi yɛltɔɣili maa ni yi shɛli na
 citation =
     .label = Dini yi shɛli na
@@ -30,7 +29,6 @@ required-field = Pahimi suɣulo sabimi polo ŋɔ ni
 single-sentence-submission = Yɛltɔɣ' gaŋa zaŋ ti
 bulk-sentence-submission = Yɛltɔɣa din galisi zaŋ ti
 single-sentence = Yɛltɔɣ' gaŋa
-bulk-sentences = Yɛltɔɣa din galisi
 sentence-domain-combobox-label = Yɛltɔɣili ni yi yaɣ' shɛli na
 sentence-domain-select-placeholder = Piimi yaɣa diba ata (a yi bɔra)
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Yɛltɔɣ' balibu
 sentence-variant-select-placeholder = Piimi balli (a yi bɔra)
 sentence-variant-select-multiple-variants = Balli zaa/bali bɔbigu
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Zaŋmi <icon></icon>yɛltɔɣa din ka sulinsi m-pahi
@@ -89,3 +87,12 @@ file-invalid-type = Di bi saɣi n-ti gbaŋ ŋɔ
 file-too-large = Gbaŋ maa bara pam
 file-too-small = Gbaŋ maa pɔri pam
 too-many-files = Gbana pam
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

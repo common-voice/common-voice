@@ -66,7 +66,7 @@ sentence-variant-select-label = Sadowa warianta
 sentence-variant-select-placeholder = Wubjeŕśo wariantu (na žycenje)
 sentence-variant-select-multiple-variants = Powšykna rěc / někotare warianty
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywabne sady
@@ -82,6 +82,7 @@ accepted-files = Akceptěrowane datajowe typy: jano .tsv
 minimum-sentences = Minimalna licba sadow w dataji: 1.000
 maximum-file-size = Maksimalna datajowa wjelikosć: 25 MB
 what-needs-to-be-in-file = Co musy w mójej dataji byś?
+what-needs-to-be-in-file-explanation = Pšosym pśeglědajśo našu <templateFileLink>pśedłogowu dataju</templateFileLink>. Waše sady měli bźez pšawa awtorstwa byś (CC0 abo awtorizěrowane originalne źěło wót zapódawarja) a jasne, gramatiski korektne a lažko cyitajobne. Zapódane sady měli se něźi 10-15 sekundow cytaś daś a njeměli žedne licby, swójske mjenja a wósebne znamuška wopśimowaś.
 upload-progress-text = Nagraśe běžy…
 sc-bulk-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
 bulk-upload-success-toast = Wěcej sadow nagrate

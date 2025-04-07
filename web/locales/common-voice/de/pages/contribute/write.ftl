@@ -68,7 +68,7 @@ sentence-variant-select-label = Satzvariante
 sentence-variant-select-placeholder = Wählen Sie eine Variante (optional)
 sentence-variant-select-multiple-variants = Allgemeine Sprache / mehrere Varianten
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Laden Sie <icon></icon> gemeinfreie Sätze hoch
@@ -132,14 +132,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } von 1 gesammeltem Satz
-       *[other] { $uploadedSentences } von { $totalSentences }  gesammelten Sätzen
+        [one] { $uploadedSentences } von 1 Satz gesammelt
+       *[other] { $uploadedSentences } von { $totalSentences }  Sätze gesammelt
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } von 1 gesammeltem Satz. Klicken Sie <downloadLink>hier</downloadLink>, um abgelehnte Sätze herunterzuladen.
-       *[other] { $uploadedSentences } von { $totalSentences } gesammelten Sätzen. Klicken Sie <downloadLink>hier</downloadLink>, um abgelehnte Sätze herunterzuladen.
+        [one] { $uploadedSentences } von 1 Satz gesammelt. Klicken Sie <downloadLink>hier</downloadLink>, um abgelehnte Sätze herunterzuladen.
+       *[other] { $uploadedSentences } von { $totalSentences } Sätze gesammelt. Klicken Sie <downloadLink>hier</downloadLink>, um abgelehnte Sätze herunterzuladen.
     }
 small-batch-sentences-rule-1 = Befolgen Sie die Vorgaben unter „Welche Sätze kann ich hinzufügen?“
 small-batch-sentences-rule-2 = Fügen Sie einen Satz pro Zeile hinzu

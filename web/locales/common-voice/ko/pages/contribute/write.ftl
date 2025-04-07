@@ -66,7 +66,7 @@ sentence-variant-select-label = 문장 변형
 sentence-variant-select-placeholder = 변형 선택 (선택)
 sentence-variant-select-multiple-variants = 일반 언어 / 여러 변형
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> 공개 문장 업로드

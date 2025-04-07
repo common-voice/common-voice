@@ -26,11 +26,6 @@ target-segment-first-banner = Jarhoa eska úaka kweraanhani ma untani ánchikwar
 target-segment-add-voice = chiiti winhachakwani kúparhata
 target-segment-learn-more = útasï mitikwa
 change-preferences = materu jásï péntani
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ixu jarhasti winhachakwaecha
-contribute-sentence-collection-nav-header = Wantakwaecha énkaksï xani tánhantaka ya
 login-signup = wénani / karakwarhini
 vote-yes = jo
 vote-no = nompe

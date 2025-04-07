@@ -30,9 +30,6 @@ target-segment-first-banner = Bá wa ṣẹ̀dá abala àfojúsùn àkọ�
 target-segment-add-voice = Ṣe àfikún ohùn rẹ
 target-segment-learn-more = Kọ́ sí i
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Ìròyìn

@@ -41,72 +41,72 @@ finish-editing = chor editing etas phaṣ eti
 lose-changes-warning = muto phat etase matlab une etum changes lose ećuma
 build-custom-goal = custom goal an desman
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] gantaan duro etase personal goal dimeṣqataṣe meer madatt eti
        *[other] gantain duroin etase personal goal dimeṣqataṣe meer madatt eti
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] gantaan duro etase personal goal dimeṣqataṣe common voice ar madatt eti
        *[other] gantain duroin etase personal goal dimeṣqataṣe common voice ar madatt eti
     }
 set-a-goal = maksad desman
 cant-decide = feesla etas amaamanuma?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                                *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
                             }
@@ -119,7 +119,7 @@ which-goal-type = senase be damaylase ray be ooltalik?
 receiving-emails-info = muu maqsat maski maatas emails mayaćuman, jaa duroiṅe updates in daa common voice e newsletter
 not-receiving-emails-info = muu maqsat maski maatas emails mayaćuman, jaa duroiṅe updates in daa common voice e newsletter
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] clip
        *[other] clips in
     }

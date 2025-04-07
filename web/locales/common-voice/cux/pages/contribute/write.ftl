@@ -66,7 +66,7 @@ sentence-variant-select-label = Núdu chi jo'o
 sentence-variant-select-placeholder = Konto'od ama nudu (nichi ne'ëd )
 sentence-variant-select-multiple-variants = nuekue'ë nyudu/ Née noo núdu
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Kuead nudu chi nukueñ kadi nichiñ <icon></icon>
@@ -143,3 +143,9 @@ small-batch-sentences-rule-3 = Kunebi'id ama nudu dïd chi kabnuu kuo am ama nuk
 small-batch-sentences-rule-4 = Kunejúd nii 1.000 núdu
 small-batch-sentences-rule-5 = Nudi chi dijud ne'e chi dama nukue.
 small-batch-sentences-rule-6 = Nudu chi dijud ne'e chi dama nukue.
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

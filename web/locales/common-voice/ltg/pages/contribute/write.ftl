@@ -42,7 +42,7 @@ news_current_affairs = Zinis i aktualitatis
 technology_robotics = Tehnologejis i robotika
 sentence-variant-select-label = Teikuma variants
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 try-upload-again-md = Raugit augšynluodēt vēļreiz
 select-file = Izalosi failu

@@ -41,22 +41,88 @@ finish-editing = ლე́ჸი შუჼ ჯერ ნიფსჲარ ცე
 lose-changes-warning = ინცაჸ მაყბალ'რევ შუჼ ცვლილბი დაჰ̦ ჲა́ვოჲო̆
 build-custom-goal = საკუთარ მიზაჼ შე́ქმნოდარ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
        *[other] ლატ თხოჼ ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო́მციჼ{ $language }მატტანა́ჲნო̆ პირად მიზაჼ დასა́ხოდარევ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
        *[other] ლატ თხოჼ Common Voice-ლო ჰ̦ა́თხ ღოლო́თხ { $hours } სა́ვთუგო̆  მატტანაჲნო̆ პირად მიზაჼ დასა́ხოდარევ
     }
 set-a-goal = მიზაჼ მითითბადარ
 cant-decide = ცუჲ ჩავარდომაკინდა ჰ̦ოჼ?
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
+                            }
+                    }
+            }
+    }
 how-many-per-day = დაქიჼ და! დე́ნი მელ' ჩანაწერ?
 how-many-a-week = დაქიჼ და! გეფსუ მელ' ჩანაწერ?
 which-goal-type = ჩაწე́რადარი თე́ლ' ჰ̦ო, ლარკ ჵო́ფარი́ ლე შიკეჸ?
 receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადუ́ჲნჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხ ჲე  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
 not-receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე<bold>ცო</bold> ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადუ́ჲნჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხ ჲე  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
+n-clips-pluralized =
+    { $count ->
+        [one] ჩანაწერ
+       *[other] ჩანაწერ
+    }
 help-share-goal = ლა́ტ თხოჼ მე სოუბო̆ ა́შირ ქორჲოლო́თხ, მჵალჲებათ შუჼ მიზაჼ
 confirm-goal = მიზნეხ დარა́ლ'არ
 goal-interval-weekly = ყო́ველგე́ფსლუჼ
@@ -78,3 +144,18 @@ share-goal = საიჼ მიზაჼ მჵალჲარ
 ## Goals
 
 streaks = წვლილ
+days =
+    { $count ->
+        [one] დე
+       *[other] დე
+    }
+recordings =
+    { $count ->
+        [one] ჩანაწერ
+       *[other] ჩანაწერ
+    }
+validations =
+    { $count ->
+        [one] დარ ალ'არ
+       *[other] დარ ალ'არ
+    }

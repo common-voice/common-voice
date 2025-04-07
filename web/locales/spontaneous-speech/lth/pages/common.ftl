@@ -4,9 +4,8 @@
 error = Gin n'öbal
 action-click = Dïï
 action-tap = Dwöng
-# Label for language switcher
-interface-language = Lëb na rïbö jö
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Mïö thama ï dataset
 # Label for button on contribution switcher
 change = Alökalöka
@@ -26,7 +25,6 @@ contribute = Mïï thama
 ## Navbar
 
 respond-to-prompt = Mïï agam ï kom köp
-transcribe-audio = Cöö köp n'ewinyo
 check-transcriptions = Nën gin n'ëcöö
 
 ## Not Found Page

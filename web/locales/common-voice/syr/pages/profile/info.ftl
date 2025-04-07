@@ -37,6 +37,5 @@ profile-create-success = ܟܫܝܪܘܬܐ، ܦܐܬܐ ܕܚܒܝܫܬܐ ܦܝܫܬܐ ܝ�
 profile-close = ܕܥܘܪ
 accept-privacy-title = ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ
 login-identity = ܗܝܝܘܬܐ ܕܥܠܠܐ
-login-signup = ܥܘܠ / ܒܢܝ ܚܫܒܘܢܐ
 edit = ܫܚܠܦ
 email-subscriptions = ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ

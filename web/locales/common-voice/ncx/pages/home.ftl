@@ -129,7 +129,6 @@ spontaneous-card-header = Kualtsin xitlajto
 spontaneous-card-content = Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.
 language-text-card-header = Seki xitlajkuilo
 language-text-card-content = Xikijkuilo tlen oksekimej kitlajtoltiskej, kinankiliskej, ika mopaleuiskej uan okseki tlamantli.
-coming-soon = Yikin yetos
 add-text = Xitlajkuilo
 
 ## Community section

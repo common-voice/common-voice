@@ -1,6 +1,6 @@
 ## Profile Delete
 
-delete-q = Želiš li zatražiti da se i tvoje glasovne snimke obrišu ili da se zadrže u Common Voice skupu podataka?
+delete-q = Želiš li zatražiti da se i tvoje glasovne snimke izbrišu ili da se zadrže u Common Voice skupu podataka?
 keep = Zadrži
 remove = Ukloni
 keep-info = Tvoje anonimne glasovne snimke ostat će u Common Voice skupu podataka. Kad izbrišeš svoj profil, više nećeš moći podnijeti zahtjev za uklanjanje vlastitih snimaka iz skupa podataka

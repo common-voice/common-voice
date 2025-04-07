@@ -59,13 +59,32 @@
             color: var(--near-black);
             width: 210px;
 
+            .list-item-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid var(--light-grey);
+                cursor: pointer;
+
+                &.highlighted {
+                    background: var(--light-grey);
+                }
+
+                &.userlanguage {
+                    font-weight: 700;
+                }
+
+                &.lastuserlanguage {
+                    border-bottom-color: var(--near-black);
+                }
+            }
+
             [dir='rtl'] & {
                 right: auto;
                 left: 0;
             }
 
             & li {
-                border-bottom: 1px solid var(--light-grey);
                 padding: 0.85em 1em;
                 font-size: var(--font-size);
                 text-overflow: ellipsis;
@@ -74,14 +93,6 @@
                 cursor: pointer;
                 line-height: 24px;
                 letter-spacing: 0.8px;
-
-                &.selected {
-                    font-weight: 600;
-                }
-
-                &.highlighted {
-                    background: var(--light-grey);
-                }
             }
         }
     }

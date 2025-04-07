@@ -41,31 +41,78 @@ finish-editing = Vil du fullføre redigeringen først?
 lose-changes-warning = Å avslutte nå betyr at du mister endringene dine
 build-custom-goal = Lag et tilpasset mål
 help-reach-hours-pluralized =
-    Hjelp til med å nå{ NUMBER($hours) ->
-        [one] { $hours } time
-       *[other] { $hours } timer
-    } på { $language } med et personlig mål
+    { $hours ->
+        [one] Hjelp til med å nå{ $hours } time på { $language } med et personlig mål
+       *[other] Hjelp til med å nå{ $hours } timer på { $language } med et personlig mål
+    }
 help-reach-hours-general-pluralized =
-    Hjelp Common Voice med å nå{ NUMBER($hours) ->
-        [one] { $hours } time
-       *[other] { $hours } timer
-    } på et språk med et personlig mål
+    { $hours ->
+        [one] Hjelp Common Voice med å nå{ $hours } time på et språk med et personlig mål
+       *[other] Hjelp Common Voice med å nå{ $hours } timer på et språk med et personlig mål
+    }
 set-a-goal = Sett et mål
 cant-decide = Klarer du ikke å velge?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } time
-       *[other] { $totalHours } timer
-    } er oppnåelig på drøyt { NUMBER($periodMonths) ->
-        [one] { $periodMonths } måned
-       *[other] { $periodMonths } måneder
-    } hvis { NUMBER($people) ->
-        [one] { $people } person
-       *[other] { $people } personer
-    } registrerer { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } lydklipp
-       *[other] { $clipsPerDay } lydklipp
-    } om dagen.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Flott! Hvor mange klipp per dag?
 how-many-a-week = Flott! Hvor mange klipp i uken?
 which-goal-type = Vil du snakke, lytte eller begge deler?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Du er for øyeblikket satt til å <bold>IKKE</bold> motta e-poster som målpåminnelser, personlige
     fremdriftsoppdateringer og nyhetsbrev om Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } lydklipp
        *[other] { $count } lydklipp
     }

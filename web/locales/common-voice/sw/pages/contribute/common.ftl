@@ -27,9 +27,6 @@ target-segment-first-banner = Saidia kuunda sehemu ya kwanza ya lengo la Common 
 target-segment-add-voice = Ongeza Sauti yako
 target-segment-learn-more = Jifunze zaidi
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Ripoti

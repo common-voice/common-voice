@@ -36,7 +36,6 @@ why-demographic = Perche esa important?
 accept-privacy = Eu accept cha vus trattais quistas infuormaziuns sco cha vus declerais aint illa <privacyLink>decleraziun a reguard la protecziun da datas</privacyLink> da Mozilla.
 accept-privacy-title = Decleraziun da la protecziun da datas
 login-identity = Identità d'access
-login-signup = Annunzcha't / Registrescha't
 edit = Modifichescha
 email-subscriptions = Abunmaints dad e-mail
 download-profile = S-chargia mias datas

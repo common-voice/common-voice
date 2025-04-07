@@ -5,7 +5,6 @@ write-instruction = ɓesdugo <icon></icon>pellel yeeya
 write-page-subtitle = jamlaaji gonɗi haa ɗo fuu tammi  ɓesdeego haa pijirde pellel yeeya licence cc-0.
 sentence =
     .label = Biitol
-sentence-input-value = mbinnde jumlaaji moon haa pellel  yeeya
 citation-input-placeholder = Yecca haa on koosi Jumlaaji ɗi (doole)
 citation =
     .label = Biitol
@@ -30,7 +29,6 @@ required-field = useni cikitinu no haani
 single-sentence-submission = ndelda jumlawol ngootol
 bulk-sentence-submission = nelda jumlaaji ɗuuɗɗi
 single-sentence = jumlawol ngootol
-bulk-sentences = jumlaaji ɗuuɗɗi
 sentence-domain-combobox-label = ko laarani jumla
 sentence-domain-select-placeholder = cuɓu hunnde tati guda
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = jumla wolde feere
 sentence-variant-select-placeholder = cuɓaa wolde ( naa ɗum doole)
 sentence-variant-select-multiple-variants = goongo dow ko laarini wolde/ɗemngal feere feere
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Neldaa<icon></icon> jumlaaji koo laarini daldal  yeeya
@@ -89,3 +87,12 @@ file-invalid-type = derto walaa tabintinde
 file-too-large = derto teddi massin
 file-too-small = derto famɗi masin
 too-many-files = dertooji ɗuuɗɗi
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

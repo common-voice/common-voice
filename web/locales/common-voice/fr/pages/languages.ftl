@@ -1,9 +1,9 @@
 ## Languages Overview
 
 language-section-in-progress = En cours
-language-section-in-progress-new-description = Ces langues sont actuellement en développement par la communauté. Les barres de progression indiquent où en est chacune d’elles dans <localizationGlossaryLink>la localisation du site web</localizationGlossaryLink> et <sentenceCollectionGlossaryLink>la collecte de phrases</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Ces langues sont actuellement en développement par la communauté. Les barres de progression indiquent où en est chacune d’elles dans <localizationGlossaryLink>la traduction du site web</localizationGlossaryLink> et <sentenceCollectionGlossaryLink>la collecte de phrases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lancées
-language-section-launched-description = Pour les langues suivantes le site web a été <localizationGlossaryLink>localisé</localizationGlossaryLink>, et propose suffisamment de <sentenceCollectionGlossaryLink>phrases collectées</sentenceCollectionGlossaryLink> pour permettre de contribuer aussi bien en <speakLink>parlant</speakLink> qu’en <listenLink>écoutant</listenLink>.
+language-section-launched-description = Pour les langues suivantes le site web a été <localizationGlossaryLink>traduit</localizationGlossaryLink>, et propose suffisamment de <sentenceCollectionGlossaryLink>phrases collectées</sentenceCollectionGlossaryLink> pour permettre de contribuer aussi bien en <speakLink>parlant</speakLink> qu’en <listenLink>écoutant</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Dernière mise à jour : { $lastUpdatedTimeStamp }
 languages-show-more = Afficher davantage

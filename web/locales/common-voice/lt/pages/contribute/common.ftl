@@ -28,9 +28,6 @@ target-segment-first-banner = Padėkite sukurti pirmąjį „Common Voice“ { $
 target-segment-add-voice = Pridėk savo balsą
 target-segment-learn-more = Išsamiau
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Pranešti

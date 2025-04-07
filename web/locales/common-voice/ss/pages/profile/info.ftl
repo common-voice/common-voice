@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Lwati lolufihlakele njenge mnyaka, bulili kanye 
 accept-privacy = Ngite inkinga kutsi uphatse lomniningwane njengoba uchazile ku Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
-login-signup = Ngena / Bhalisa
 edit = Hlela
 email-subscriptions = Lababhalise ngeliposi lembane
 download-profile = Download My Data

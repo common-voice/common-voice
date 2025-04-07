@@ -46,7 +46,6 @@ why-demographic = Малын тидӹ келеш?
 accept-privacy = Тидӹ информацим Mozilla-н <privacyLink>Конфиденциальность политикӹштӹ</privacyLink> кыце йӓмдӹлӹмӹм ынгылдарымыда доно мӹнь согласын ылам.
 accept-privacy-title = Конфиденциальность политика
 login-identity = Логин
-login-signup = Системӹш пыры / Регистрацим эртӹ
 edit = Редактируяш
 email-subscriptions = Электрон почта гач сылымашвлӓ
 download-profile = Мӹньӹн данныйым вӓрӓнгдӹдӓ

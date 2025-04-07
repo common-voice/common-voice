@@ -86,6 +86,7 @@ answer-questions-coming-soon = Na pšašanja wótegroniś <small>(pśiźo skóro
 review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 review-transcriptions-coming-soon = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
+add-questions-coming-soon = Pšašanja pśidaś <small>(pśiźo skóro)</small>
 transcribe-audio-coming-soon = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja
@@ -120,27 +121,37 @@ get-started = Prědne kšace <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice jo dermotna platforma wótwórjonego žrědła za wót zgromaźeństwa nawjedowane napóranje datow
+action-items-section-subtitle = Kuždy móžo swóju rěc wobchowaś, zasej wóžywiś a pólěpšyś, gaž tekst a powědańske datowe sajźby źěli, napórajo a zastoj.
 scripted-card-header = Napisane powědanje
+scripted-card-content = Cytajśo sady głosnje w swójej rěcy a pśinosujśo k nejwjelerakšej zjawnej rěcnej datowej sajźbje w swěśe.
 spontaneous-card-header = Spontane powědanje
+spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za organiske, wobchadnorěcne konteksty napórał. To jo perfektne za pśewažnje wustne rěcy.
 language-text-card-header = Rěcny tekst
-coming-soon = Skóro k dispoziciji
+language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
 add-text = Tekst pśidaś
 
 ## Community section
 
+community-section-title = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 130 rěcow a pśiběrajuce!
 join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 # label for button
 join-discord-community-action = Pśizamkniśo se nam na Discord
+join-discord-community-content = Wobźělśo se na diskusijach rěcnego zgromaźeństwa, stajśo pšašanja a zgóńśo wó pśichodnych zarědowanjach a rozgronach.
 find-us-on-matrix = Namakajśo nas na Matrix
+find-us-on-matrix-content = Matrix jo wótwórjony, lažki protokol za decentralizěrowanu komunikaciju w napšawdnem casu a wót Mozilla preferěrowana wótwórjona diskusijna platforma.
 # label for button
 find-us-on-matrix-action = Namakajśo nas na Matrix
 ask-mozilla-share = Pšosćo Mozilla, aby waše zarědowanja źělił
+ask-mozilla-share-content = Maśo zajźone abo pśichodne zarědowanje? Źělśo jo z nami a my buźomy jo našomu zgromaźeństwoju pśipowěźiś abo blog wó tom pisaś.
 # label for button
 ask-mozilla-share-action = Źělśo swójo zarědowanje
 download-contribution-certificate = Ześěgniśo swój certifikat sobustatkowanja
+download-contribution-certificate-content = Ześěgniśo certifikat za swóje zarědowanja abo sebje, jolic sćo pśinosował ku Common Voice – to njeby bźez was móžne było!
 # label for button
 download-contribution-certificate-action = Wobstarajśo se swój certifikat
 contribute-github = Na Github pśinosowaś
+contribute-github-content = Toś ten projekt njeby bźez luźi ako wy móžny był. 🎉 Dajo wjele móžnosćow, kak móžośo w Common Voice sobu cyniś – njetrjebaśo programěrowaś móc, aby sobu cynił!
 # label for button
 contribute-github-action = Na Github pśinosowaś
 
@@ -153,11 +164,13 @@ download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 ## Developers section
 
 developers-section-title = Zjawnje pśistupne wótwórjone powědańske datowe sajźby we wěcej ako 130 rěcach
+developers-section-subtitle = Datowe sajźby za ASR, STT, TTS a druge konteksty NLP – napórane pśez sobuźěło zgromaźeństwa.
 # icon is an arrow that points to the right
 explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Pódpěrajśo wótwórjone, wót zgromaźeństwa nawjedowane datowe sajźby
 read-sentences-link = Sady cytaś
 validate-readings-link = Cytanja pśeglědowaś
 contribute-link = K tekstowemu korpusoju pśinosowaś
@@ -170,6 +183,12 @@ press-and-stories-link = Casnikaŕstwo a tšojenja
 ## Partner section
 
 partner-section-title = Buźćo naš partnaŕ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologijowe pśedewześa</bold> – inwestěrujśo do napóranja wótwórjonych datowych sajźbow za florěrujucy wěcejrěcny ekosystem KI
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Ciwilna towarišnosć a slěźerje</bold> – napórajśo, góspodujśo a źělśo statkowne datowe sajźby zadermo
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> – sponserujśo napóranje datowych sajźbow, aby lokalnu inowaciju a wuwiśe spěchował
 # icon is an arrow that points to the right
 get-in-touch-button = Skontaktěrowaś <icon></icon>
 # Partners section

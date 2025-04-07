@@ -41,37 +41,220 @@ finish-editing = Najprije završiti s uređivanjem?
 lose-changes-warning = Ako sada prekineš izgubit ćeš promjene
 build-custom-goal = Izgradi prilagođeni cilj
 help-reach-hours-pluralized =
-    Pomogni dosegnuti{ NUMBER($hours) ->
-        [one] { $hours } sat
-        [few] { $hours } sata
-       *[other] { $hours } sati
-    } za { $language } s osobnim ciljem
+    { $hours ->
+        [one] Pomogni dosegnuti{ $hours } sat za { $language } s osobnim ciljem
+        [few] Pomogni dosegnuti{ $hours } sata za { $language } s osobnim ciljem
+       *[other] Pomogni dosegnuti{ $hours } sati za { $language } s osobnim ciljem
+    }
 help-reach-hours-general-pluralized =
-    Pomogni Common Voiceu dosegnuti{ NUMBER($hours) ->
-        [one] { $hours } sat
-        [few] { $hours } sata
-       *[other] { $hours } sati
-    } za jezik s osobnim ciljem
+    { $hours ->
+        [one] Pomogni Common Voiceu dosegnuti{ $hours } sat za jezik s osobnim ciljem
+        [few] Pomogni Common Voiceu dosegnuti{ $hours } sata za jezik s osobnim ciljem
+       *[other] Pomogni Common Voiceu dosegnuti{ $hours } sati za jezik s osobnim ciljem
+    }
 set-a-goal = Postavi cilj
 cant-decide = Ne možeš se odlučiti?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } sat
-        [few] { $totalHours } sata
-       *[other] { $totalHours } sati
-    } je ostvarivo u samo više od{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mjesec
-        [few] { $periodMonths } mjeseca
-       *[other] { $periodMonths } mjeseci
-    } ako{ NUMBER($people) ->
-        [one] { $people } osoba
-        [few] { $people } osobe
-       *[other] { $people } osoba
-    } snimi/snime{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } isječak
-        [few] { $clipsPerDay } isječka
-       *[other] { $clipsPerDay } isječaka
-    } na dan.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sat je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sata je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjesec ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseca ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osobe snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječak na dan.
+                                [few] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječka na dan.
+                               *[other] { $totalHours } sati je ostvarivo u samo više od{ $periodMonths } mjeseci ako{ $people } osoba snimi/snime{ $clipsPerDay } isječaka na dan.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
@@ -82,7 +265,7 @@ not-receiving-emails-info =
     S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> e-mailove kao što su podsjetnici za ciljeve,
     aktualiziranja vlastitog napretka i biltene Common Voicea
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } isječak
         [few] { $count } isječka
        *[other] { $count } isječaka
@@ -122,7 +305,7 @@ recordings =
     }
 validations =
     { $count ->
-        [one] potvrda
-        [few] potvrde
-       *[other] potvrda
+        [one] Potvrda
+        [few] Potvrde
+       *[other] Potvrda
     }

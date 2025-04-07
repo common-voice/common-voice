@@ -56,7 +56,6 @@ accept-privacy-title = Polisi Preifatrwydd
 accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <PrivacyLink>Hysbysiad Preifatrwydd</privacyLink> Common Voice
 login-identity = Enw Mewngofnodi
 login = Mewngofnodi
-login-signup = Mewngofnodi / Cofrestru
 edit = Golygu
 email-subscriptions = Tanysgrifiadau E-bost
 download-profile = Llwytho fy nata i lawr

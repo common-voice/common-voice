@@ -1,8 +1,5 @@
 action-click = बट्टन
 action-tap = भोट
-
-## Contribution Nav Items
-
 vote-yes = हय
 vote-no = ना
 datasets = Datasets

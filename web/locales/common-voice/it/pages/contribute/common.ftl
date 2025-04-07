@@ -28,11 +28,6 @@ target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Comm
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più
 change-preferences = Modifica le preferenze
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Raccolta di voci
-contribute-sentence-collection-nav-header = Raccolta di frasi
 login-signup = Accedi o registrati
 vote-yes = Sì
 vote-no = No

@@ -3,6 +3,9 @@ guidelines-header = د ونډې لارښوونې
 guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف تلفظونه
 misreadings = غلط لوستونه
 offensive-content = توهين کوونکي مواد
@@ -12,6 +15,9 @@ volume = حجم
 reader-effects = د لوستونکي اغیزې
 just-unsure = بس ډاډه نه یاست؟
 example = بېلګه
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
 varying-pronunciations-explanation-2 = له بلې خوا، که تاسو فکر کوئ چې لوستونکی شاید هیڅکله د کلمې سره مخ نه وي، او په ساده ډول د تلفظ په اړه غلط اټکل کوي، مهرباني وکړئ رد کړئ. که تاسو ډاډه نه یاست، د Skip تڼۍ وکاروئ.
 varying-pronunciations-example = لاره ناڅرګنده وه.
@@ -46,11 +52,17 @@ reader-effects-explanation = ډیری ریکارډونه د هغه خلکو څخ
 just-unsure-explanation = که تاسو د هغه څه سره مخ شئ چې دا لارښوونې نه پوښي، مهرباني وکړئ د خپل غوره قضاوت سره سم رایه ورکړئ. که تاسو واقعیا پریکړه نشئ کولی ، د سکیپ تڼۍ وکاروئ او راتلونکي ریکارډ ته لاړشئ.
 still-have-questions = اوس هم پوښتنې لرئ؟
 contact-common-voice = د ګډ غږ ټیم سره اړیکه ونیسئ
+
+## Sentence collection nav ids
+
 public-domain = عامه ډومین
 citing-sentences = د جملې نقل کول
 adding-sentences = د جملو اضافه کول
 reviewing-sentences = د جملو بیاکتنه
 sentence-domain = د جملې ټولۍ
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
 public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
 public-domain-explanation-3 = د خپل ځان او یا د خپلو ملګرو یا د ژبې ټولنې سره عصري، د خبرو اترو جملې جوړې کړئ - د مثال په توګه د "لیکوالۍ" له لارې
@@ -90,3 +102,9 @@ reviewing-sentences-explanation-2 = که جمله پورته معیارونه پ
 reviewing-sentences-explanation-3 = که تاسو د جملې په اړه ډاډه نه یاست، تاسو ممکن دا پریږدئ او بلې ته لاړ شئ.
 reviewing-sentences-explanation-4 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
 domain-explanation = ډومین د جملې موضوع ته اشاره کوي. اوس مهال، تاسو کولی شئ تر منځ انتخاب کړئ:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

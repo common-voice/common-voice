@@ -4,9 +4,8 @@
 error = Ghẽlatig̃h  (rẽpak̃hkig̃h)
 action-click = Qlich (klik)
 action-tap = Di
-# Label for language switcher
-interface-language = Zik-e yand  (bandar)
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language }zik malũmotjay hisa kẽt̃ak dẽstan
 # Label for button on contribution switcher
 change = far g̃hir (badal)
@@ -26,7 +25,6 @@ contribute = Rand/kat̃
 ## Navbar
 
 respond-to-prompt = Yi zẽmun jawob
-transcribe-audio = Owog̃h nivish
 check-transcriptions = Nivishetk didig̃hit
 
 ## Not Found Page

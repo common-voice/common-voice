@@ -40,7 +40,7 @@ finish-editing = Pêşî sererastkirinê biqedîne?
 lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
 build-custom-goal = Hedefeke nû diyar bike
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Armanceke şexsî diyar bike ku em bi zimanê { $language } bigihîjin saetekê { $hours }.
        *[other] Armanceke şexsî diyar bike ku em bi zimanê { $language } bigihîjin{ $hours } saetan.
     }
@@ -52,7 +52,7 @@ which-goal-type = Tu dixwazî biaxivî, guhdarî bikî an her du jî?
 receiving-emails-info = Tu niha emaîlên wekî bîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de distînî.
 not-receiving-emails-info = Hûn ê êdî emaîlên wekî bîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de <bold>NESTÎNIN</bold>.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } klîba dengî
        *[other] { $count } klîbên dengî
     }

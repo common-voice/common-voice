@@ -41,12 +41,12 @@ finish-editing = Fini koreksyon an premye?
 lose-changes-warning = Si'w kite kounye a vle di ou pral pèdi chanjman'w yo
 build-custom-goal = Bati yon objektif koutim
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ede atenn { $hours } èdtan nan { $language } ak yon objektif pèsonèl
        *[other] Ede atenn { $hours } èdtan yo nan { $language } ak yon objektif pèsonèl
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ede Common Voice rive nan { $hours } èdtan nan yon lang ak yon objektif pèsonèl
        *[other] Ede Common Voice rive nan { $hours } èdtan yo nan yon lang ak yon objektif pèsonèl
     }
@@ -63,7 +63,7 @@ not-receiving-emails-info =
     Aktyèlman w ap fikse pou <bold>PA</bold> resevwa imèl tankou rapèl objektif, mwen
     mizajou sou pwogrè ak bilten sou Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] odyo
        *[other] odyo yo
     }

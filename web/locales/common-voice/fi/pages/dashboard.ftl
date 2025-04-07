@@ -41,37 +41,59 @@ finish-editing = Viimeistelläänkö muokkaaminen ensin?
 lose-changes-warning = Nyt poistumalla muutokset katoavat
 build-custom-goal = Rakenna mukautettu tavoite
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Auta saavuttamaan { $hours } tunti kielelle { $language } henkilökohtaisen tavoitteen avulla
        *[other] Auta saavuttamaan { $hours } tuntia kielelle { $language } henkilökohtaisen tavoitteen avulla
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Auta Common Voicea saavuttamaan { $hours } tunti kielessä henkilökohtaisen tavoitteen avulla
        *[other] Auta Common Voicea saavuttamaan { $hours } tuntia kielessä henkilökohtaisen tavoitteen avulla
     }
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } tunti
-       *[other] { $totalHours } tuntia
-    } voidaan saavuttaa hiukan yli { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } kuukaudessa
-    } jos { NUMBER($people) ->
-        [one] { $people } ihminen
-       *[other] { $people } ihmistä
-    } äänittää { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } näytteen
-       *[other] { $clipsPerDay } näytettä
-    } päivässä.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytteen päivässä.
+                               *[other] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytettä päivässä.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytteen päivässä.
+                               *[other] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytettä päivässä.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytteen päivässä.
+                               *[other] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytettä päivässä.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytteen päivässä.
+                               *[other] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytettä päivässä.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
 how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
 which-goal-type = Haluatko puhua, kuunnella vai tehdä molempia?
 receiving-emails-info = Olet valinnut, että haluat vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseesi sekä Common Voice -uutiskirjeitä.
 not-receiving-emails-info = Olet valinnut, että <bold>ET</bold> halua vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseesi sekä Common Voice -uutiskirjeitä.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ääninäyte
        *[other] { $count } ääninäytettä
     }

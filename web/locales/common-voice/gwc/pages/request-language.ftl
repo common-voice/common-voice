@@ -18,3 +18,10 @@ request-language-success-list-1 = تھکہ شاردہ اٞ ایمیل یئی، �
 request-language-success-list-2 = مُوں کمیونٹی آں منیجر تھا سہ رابطہ کٞرئی کہ چری تھاکہ دی مددیں ضرولاٞت ہی تہ، تے ایں مالومات پا کٞرئی اوں تھوں جِب مئی اٞ ڈلہ مِڄ گٞشی کار کٞرنت۔
 request-language-success-list-3 = لخہ تئی کٞتیک دوس مئی ما ماں نہ بُد تے، ما سہ <emailLink>{ $email }</emailLink>رابطہ کراٞ تے ما تھا سہ دیگیر رابطہ کٞری۔
 request-language-error = مہ کیدیشی اتھاں درخاس وصول نہ کیت۔ ماربینی کاٞ ماکہ اِیں دہ <emailLink></emailLink>ایمیل کٞرا تھوکو مہ تھا سہ رابطہ کٞری!
+request-for-scripted-speech-toggle = مِیݭ گٞشی چُنڑاٞل جولاگیں کیر درخاس
+request-for-spontaneous-speech-toggle = فوری طور دہ جولاگیں کیر درخاس
+need-help-deciding-platform = جوݭوگ رہ فیصلہ کٞروگ مئ مٞدِدیں ضرولت
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>چُنڑاٞل جولاگ</strong> (روائتی طور دہ کھیکی تھاکٞہ کامن وائیس مالوم تھو تہ) تتھیں نوں کاٞں مئ تھہ جُملاٞ تانی جِب مئ شِیتی پٞراٞں تہ۔
+need-help-deciding-platform-explanation-2 = <strong>لمحاتی یا فوری جولاگ</strong> کامن وائیساں اٞ نام حصہ تھو ان مئ تھٞہ سواٞلوناٞں عام بول چاٞلاٞں تے فطری انداٞز مئ جواٞب داٞباٞں۔
+need-help-deciding-platform-explanation-3 = لخہ تھہ پلیٹ فاٞرماٞں کاٞں نی حصاٞ مئ تانی جِب نہ پشنش تہ، دواٞمو جُوݭ۔

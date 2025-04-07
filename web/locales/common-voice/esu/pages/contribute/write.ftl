@@ -66,7 +66,7 @@ sentence-variant-select-label = Igausngalriim qaneryaraacetun ayuqucianek
 sentence-variant-select-placeholder = Cucuklirluten igausngalriim qaneryaraacetun ayuqucianek (piyukuvet)
 sentence-variant-select-multiple-variants = Qaneryaraq / Allat Yugcetun qaneryaraicetun
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Upload-arluki <icon></icon> igausngalrianek yuut tamarmeng aturyugngalrianek

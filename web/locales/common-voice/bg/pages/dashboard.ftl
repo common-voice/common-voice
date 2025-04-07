@@ -41,38 +41,85 @@ finish-editing = Желаете ли да приключите първо с п�
 lose-changes-warning = Ако напуснете сега, ще загубите промените си
 build-custom-goal = Поставяне на лична цел
 help-reach-hours-pluralized =
-    Помогнете да достигнем { NUMBER($hours) ->
-        [one] { $hours } час
-       *[other] { $hours } часа
-    } на { $language } чрез лична цел
+    { $hours ->
+        [one] Помогнете да достигнем { $hours } час на { $language } чрез лична цел
+       *[other] Помогнете да достигнем { $hours } часа на { $language } чрез лична цел
+    }
 help-reach-hours-general-pluralized =
-    Помогнете Common Voice да достигне { NUMBER($hours) ->
-        [one] { $hours } час
-       *[other] { $hours } часа
-    } на език чрез лична цел
+    { $hours ->
+        [one] Помогнете Common Voice да достигне { $hours } час на език чрез лична цел
+       *[other] Помогнете Common Voice да достигне { $hours } часа на език чрез лична цел
+    }
 set-a-goal = Задаване на цел
 cant-decide = Не можете да решите?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } час е постижим
-       *[other] { $totalHours } часа са постижими
-    } за { NUMBER($periodMonths) ->
-        [one] { $periodMonths } месец
-       *[other] { $periodMonths } месеца
-    } ако { NUMBER($people) ->
-        [one] { $people } човек прави
-       *[other] { $people } души правят
-    }по { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } запис
-       *[other] { $clipsPerDay } записа
-    } на ден.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } записа на ден.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } записа на ден.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } записа на ден.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } записа на ден.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } записа на ден.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } записа на ден.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } записа на ден.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } запис на ден.
+                               *[other] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } записа на ден.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Страхотно! Колко записа на ден?
 how-many-a-week = Страхотно! Колко записа на седмица?
 which-goal-type = Искате ли да говорите, да слушате или и двете?
 receiving-emails-info = Според настройките получавате имейли, като напомняния за целите, напредъка и бюлетини за Common Voice
 not-receiving-emails-info = Според настройките ви <bold>НЕ</bold> получавате имейли за напомняния за целите, напредъка и бюлетини за Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } запис
        *[other] { $count } записа
     }

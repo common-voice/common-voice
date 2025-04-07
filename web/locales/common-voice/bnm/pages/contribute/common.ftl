@@ -27,11 +27,6 @@ target-segment-add-voice = Vɛhɛni kíngɔ yɔngɔ
 target-segment-learn-more = Ibahedɛ pɛhɛ wáhá
 change-preferences = Senjahani mahombwɛ mánywu
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ibɔngɔnedɛ dá kíngɔ
-contribute-sentence-collection-nav-header = Ibɔngɔnedɛ dá melɛ́ndi mé móhi
-
 ## Reporting
 
 report = Ikɛlɛwedɛ

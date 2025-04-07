@@ -83,6 +83,7 @@ answer-questions-coming-soon = Svara på frågor <small>(Kommer snart)</small>
 review-transcriptions = Granska transkriptioner <small>(Kommer snart)</small>
 review-transcriptions-coming-soon = Granska transkriptioner <small>(Kommer snart)</small>
 add-questions = Lägg till frågor <small>(Kommer snart)</small>
+add-questions-coming-soon = Lägg till frågor <small>(Kommer snart)</small>
 transcribe-audio-coming-soon = Transkribera ljud <small>(Kommer snart)</small>
 transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
 press-and-stories = Press och berättelser
@@ -125,7 +126,6 @@ spontaneous-card-header = Spontant tal
 spontaneous-card-content = Svara på frågor för att skapa datamängder för organiska vardagliga sammanhang. Passar perfekt för dina första språk.
 language-text-card-header = Språktext
 language-text-card-content = Skapa eller dela offentliga domänuppdrag, meningar och text för översättning, små språkmodeller och mer.
-coming-soon = Kommer snart
 add-text = Lägg till text
 
 ## Community section

@@ -10,9 +10,7 @@ request-language-form-email =
     .label = Din e-postadresse
 request-language-form-info =
     .label = Informasjon om språket
-request-language-form-info-explanation =
-    Legg til så mye informasjon du kan om språket. Dette
-    kan inkludere:
+request-language-form-info-explanation = Legg til så mye informasjon du kan om språket. Dette kan inkludere:
 request-language-form-info-explanation-list-1 = Navn på språket ditt
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kjent
 request-language-form-info-explanation-list-3 = Lenker til nettsider som kan hjelpe oss å forstå språket
@@ -34,3 +32,10 @@ request-language-success-list-3 =
 request-language-error =
     Vi har kanskje ikke mottatt den forespørselen. Send oss en e-post direkte
     på <emailLink>{ $email }</emailLink>, så kommer vi tilbake til deg!
+request-for-scripted-speech-toggle = Forespørsel om skriptet tale
+request-for-spontaneous-speech-toggle = Forespørsel om spontan tale
+need-help-deciding-platform = Trenger du hjelp til å bestemme hva du skal velge?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Skript tale</strong> (tradisjonelt det du kjenner som Common Voice) er hvor du kan lese setninger høyt på språket ditt.
+need-help-deciding-platform-explanation-2 = <strong>Spontan Tale</strong> er en ny del av Common Voice der du kan svare på spørsmål på en mer naturlig måte.
+need-help-deciding-platform-explanation-3 = Hvis du ikke ser språket ditt i noen av delene av plattformen, velg begge.

@@ -137,7 +137,6 @@ spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = پرومپٹسیک جواب ݙے نامیاتی، عام حال وال والے سیاق و سباق جوڑݨ واسطے۔
 language-text-card-header = ٻولی تا متن
 language-text-card-content = عوامی ڈومین پرومپٹیک جوڑیا وِلاح، ڳالھ وار، ٻِیا لِکھ ترجمہ واسطے، نِکڑے ٻولیں تے نمونے، ٻِیا مزید۔
-coming-soon = جلدی چِیسے
 add-text = متن وِڄ
 
 ## Community section

@@ -1,4 +1,5 @@
 ## Home page
+
 welcome-to-spontaneous-speech = Koo va'a nuu Tù'un Ka'an Yatyi
 # <br></br> represents a newline break
 wall-of-text = Common Voice sa'a ja inka kàà nùù nastutu ju da tù'un da ñuu nùù ya'á. Tyinei da tee nityi sa'a yatyi daja tiñu nuu kàà nityi ya'á.

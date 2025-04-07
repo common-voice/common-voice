@@ -66,7 +66,7 @@ sentence-variant-select-label = Ken yetos tlajkuiloli
 sentence-variant-select-placeholder = Xikpejpena ken yetos (tla tikneki)
 sentence-variant-select-multiple-variants = San tlen tlamantli/tlatlamantli
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Xiktitlani <icon></icon> tlajkuiloli tlen nochtin kinmitaskej

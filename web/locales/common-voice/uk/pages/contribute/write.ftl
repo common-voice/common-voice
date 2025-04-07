@@ -68,7 +68,7 @@ sentence-variant-select-label = Варіант речення
 sentence-variant-select-placeholder = Виберіть варіант (необов'язково)
 sentence-variant-select-multiple-variants = Загальна мова / кілька варіантів
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Вивантажте <icon></icon> речення суспільного надбання

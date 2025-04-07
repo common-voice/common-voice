@@ -11,6 +11,7 @@ country-of-residence-label = Bydlenski kraj/region
 country-of-residence-placeholder =
     .placeholder = Zapodajće swój bydlenski kraj/region
 why-are-you-asking = Čehodla so prašeće?
+why-are-you-asking-explanation = Tute informacije trjebaće jenož na přeće podać – wy měł je jenož přidać, jeli so derje čujeće. Hdyž datowu sadźbu wozjewjamy, pseudonymizujemy wšě wosobinske informacije a zawěsćamy, zo informacije kaž waše mjeno a e-mejlowa adresa njejsu z demografiskimi informacijemi kaž staroba abo splah zwjazane. Zo by technologija za kóždeho derje fungowała, dyrbja daty, kotrež wuwiwarjam pomhaja, zo bychu technologiju wuwiwali, rozdźělnosć ludźi wotbłyšćować. Zhońće wjace wo tym, čehodla metadaty su wažne.
 thank-you-for-your-information = Wulki dźak za waše informacije
 
 ## Gender dropdown

@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Es donades d'usatgèr anonim coma era edat, eth 
 accept-privacy = Accèpti que gestionetz aguesta informacion enes tèrmes descrits ena <privacyLink>politica de privadança<privacyLink> de Mozilla
 accept-privacy-title = Politica de privadança
 login-identity = Identitat d'inici de session
-login-signup = Inici de session / Registre
 edit = Edita
 email-subscriptions = Soscripcions per corrèu electronic
 download-profile = Baisha es mies donades

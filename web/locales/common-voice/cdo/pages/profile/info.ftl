@@ -56,7 +56,6 @@ accept-privacy-title = 隱私權保護政策
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 login-identity = 登入身分
 login = 登入
-login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
 download-profile = 下載我的資料

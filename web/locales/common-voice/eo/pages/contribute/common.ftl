@@ -27,9 +27,6 @@ target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voic
 target-segment-add-voice = Aldoni vian voĉon
 target-segment-learn-more = Pli da informo
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Denunci

@@ -41,31 +41,78 @@ finish-editing = Előbb befejezi a szerkesztést?
 lose-changes-warning = A lap elhagyása azt jelenti, hogy elveszíti a változásokat
 build-custom-goal = Egyéni cél létrehozása
 help-reach-hours-pluralized =
-    Segítsen elérni a(z) { NUMBER($hours) ->
-        [one] { $hours } órát
-       *[other] { $hours } órát
-    } { $language } nyelven egy személyes céllal
+    { $hours ->
+        [one] Segítsen elérni a(z) { $hours } órát { $language } nyelven egy személyes céllal
+       *[other] Segítsen elérni a(z) { $hours } órát { $language } nyelven egy személyes céllal
+    }
 help-reach-hours-general-pluralized =
-    Segítsen a Common Voice-nak elérni a(z) { NUMBER($hours) ->
-        [one] { $hours } órát
-       *[other] { $hours } órát
-    } egy nyelven egy személyes céllal!
+    { $hours ->
+        [one] Segítsen a Common Voice-nak elérni a(z) { $hours } órát egy nyelven egy személyes céllal!
+       *[other] Segítsen a Common Voice-nak elérni a(z) { $hours } órát egy nyelven egy személyes céllal!
+    }
 set-a-goal = Cél kitűzése
 cant-decide = Nem tud dönteni?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } óra
-       *[other] { $totalHours } óra
-    } akár { NUMBER($periodMonths) ->
-        [one] { $periodMonths } hónap
-       *[other] { $periodMonths } hónap
-    } alatt is elérhető, ha { NUMBER($people) ->
-        [one] { $people } ember
-       *[other] { $people } ember
-    } napi { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } klipet
-       *[other] { $clipsPerDay } klipet
-    } vesz fel.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Nagyszerű! Naponta hány klipet?
 how-many-a-week = Nagyszerű! Hetente hány klipet?
 which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Jelenleg úgy van beállítva, hogy <bold>NEM</bold> kap e-mailt cél emlékeztetőkkel,
     előrehaladási hírekkel és a Common Voice hírlevéllel
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } klip
        *[other] { $count } klip
     }

@@ -41,12 +41,12 @@ finish-editing = ایڈیٹینگ آول ختم تھا
 lose-changes-warning = چئین پھتونو مطلب انا ہنی تو تمو بدلون ضائع تھیگی
 build-custom-goal = ایک ضروری گول سپارے
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ایک گینٹا در { $hours } زاتی گول ست { $language } تی آبرونو کارا مدد تھا
        *[other] گینٹئی در { $hours } زاتی گول { $language }ست آبرونو کارا مدد تھا
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ایک جیب درزاتی گول ست { $hours } ایک گینٹا در آبرونو کارا کامن وائس مدد تھا
        *[other] ایک جیب در زاتی گول ست { $hours } گینٹئی در آبرونو کارا کامن وائس مدد تھا
     }
@@ -61,7 +61,7 @@ not-receiving-emails-info =
     تو فی الحال گول یاد دہانی کارا<bold> ای میل حاصل تھونو</bold> کارا تیار نیِش، 
     پیشرفت اپڈیٹس اؤ نیوز لیٹر کامن وائس بارا در
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } کلپ
        *[other] { $count } کلپس
     }

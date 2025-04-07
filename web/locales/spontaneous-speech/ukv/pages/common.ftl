@@ -4,9 +4,8 @@
 error = lya'gan
 action-click = tanye
 action-tap = 'bole
-# Label for language switcher
-interface-language = pirit tomoret na kitajin ka'deka'de ti kutukjin
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = gwegwelunda i pirit nagele'g i dataset kata
 # Label for button on contribution switcher
 change = gaweret
@@ -26,7 +25,6 @@ contribute = gwegwelu
 ## Navbar
 
 respond-to-prompt = tiki ruket
-transcribe-audio = gawere kulyet i wuröt
 check-transcriptions = tanye gaweresi
 
 ## Not Found Page

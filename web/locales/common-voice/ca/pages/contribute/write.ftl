@@ -66,7 +66,7 @@ sentence-variant-select-label = Variant de la frase
 sentence-variant-select-placeholder = Trieu una variant (opcional)
 sentence-variant-select-multiple-variants = Llenguatge general / diverses variants
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Pugeu <icon></icon> frases de domini públic

@@ -41,12 +41,12 @@ finish-editing = Ti veu finî i cangiamenti primma?
 lose-changes-warning = Se ti sciòrti oua, ti perdiæ i teu cangiamenti
 build-custom-goal = Crea un obiettivo personâ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Aggiutta à razzonze { $hours } oa in { $language } con un obiettivo personâ
        *[other] Aggiutta à razzonze { $hours } oe in { $language } con un obiettivo personâ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Aggiutta Common Voice à razzonze { $hours } oa inte unna lengua con un obiettivo personâ
        *[other] Aggiutta Common Voice à razzonze { $hours } oe inte unna lengua con un obiettivo personâ
     }
@@ -59,7 +59,7 @@ which-goal-type = Ti veu registrâ, verificâ, ò tutti doî?
 receiving-emails-info = T’æ domandou de reçeive de email comme i arregòrdi di obiettivi, notiçie in scî progresci e e newsletter de Common Voice.
 not-receiving-emails-info = <bold>No</bold> ti reçeviæ e email comme i arregòrdi di obiettivi, e notiçie in scî progresci e e newsletter de Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } registraçion
        *[other] { $count } registraçioin
     }

@@ -27,9 +27,6 @@ target-segment-first-banner = { $locale }da Common Voice’ning birinchi maqsadl
 target-segment-add-voice = Ovozingizni qoʻshing
 target-segment-learn-more = Batafsil maʼlumot
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Xabar berish

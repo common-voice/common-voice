@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i 
 accept-privacy = N b’a fɛ i ka nin kunnafoni in ɲɛnabɔ i n’a fɔ i b’a ɲɛfɔ cogo min na Mozilla ka <privacyLink>Gundolakow sariya</privacyLink> kɔnɔ
 accept-privacy-title = Kunnafoni dogolenw maracogo
 login-identity = Donni Identité (Dɔnniya Identité).
-login-signup = Don / I tɔgɔ sɛbɛn
 edit = Ka korize
 email-subscriptions = Abonnés (Abonnés) minnu bɛ sɔrɔ Email fɛ
 download-profile = Télécharger Ne ka Donanw

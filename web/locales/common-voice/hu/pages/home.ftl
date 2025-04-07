@@ -90,6 +90,7 @@ answer-questions-coming-soon = Kérdések megválaszolása <small>(hamarosan)</s
 review-transcriptions = Leiratok ellenőrzése
 review-transcriptions-coming-soon = Leiratok ellenőrzése <small>(hamarosan)</small>
 add-questions = Kérdések hozzáadása <small>(hamarosan)</small>
+add-questions-coming-soon = Kérdések hozzáadása <small>(hamarosan)</small>
 transcribe-audio-coming-soon = Hangok leiratozása <small>(hamarosan)</small>
 transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
@@ -132,7 +133,6 @@ spontaneous-card-header = Spontán beszéd
 spontaneous-card-content = Válaszoljon kérdésekre, hogy természetes, köznyelvi adatkészleteket készítsen. Tökéletes az elsősorban beszédhez használt nyelvekhez.
 language-text-card-header = Nyelvi szöveg
 language-text-card-content = Hozzon létre vagy osszon meg közkincsű kérdéseket és mondatokat, valamint fordításhoz, kis nyelvi modellekhez és egyebekhez használható szövegeket.
-coming-soon = Hamarosan
 add-text = Szöveg hozzáadása
 
 ## Community section
@@ -140,9 +140,10 @@ add-text = Szöveg hozzáadása
 community-section-title = Globális közösségekkel, a globális közösségekért – 130 nyelv és egyre csak bővül!
 join-discord-community = Csatlakozzon a Discord közösséghez
 # label for button
-join-discord-community-action = Csatlakozz hozzánk Discordon
+join-discord-community-action = Csatlakozzon hozzánk a Discordon
 join-discord-community-content = Vegyen részt nyelvi közösségi beszélgetésekben, kérdezzen, és értesüljön a közelgő eseményekről és előadásokról.
 find-us-on-matrix = Keressen meg minket a Matrixon
+find-us-on-matrix-content = A Matrix egy nyílt, könnyűsúlyú protokoll a decentralizált, valós idejű kommunikációhoz, és a Mozilla által kedvelt nyílt vitafórum.
 # label for button
 find-us-on-matrix-action = Keressen meg minket a Matrixon
 ask-mozilla-share = Kérje meg a Mozillát, hogy ossza meg az eseményeit
@@ -160,12 +161,39 @@ contribute-github-action = Közreműködés a GitHubon
 
 ## Featured section
 
+featured-section-title = A sajtóban…
+# icon is an arrow that points downwards
+download-press-pack = Sajtócsomag letöltése <icon></icon>
 
 ## Developers section
 
+developers-section-title = Nyilvánosan elérhető nyílt beszédadatkészletek több mint 130 nyelven
+developers-section-subtitle = Adatkészletek ASR-hez, STT-hez, TTS-hez és más NLP kontextusokhoz – közösségi részvétel segítségével létrehozva.
+# icon is an arrow that points to the right
+explore-datasets = Adatkészletek felfedezése <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Nyílt, közösség által készített adatkészletek támogatása
+read-sentences-link = Mondatok felolvasása
+validate-readings-link = Felolvasások ellenőrzése
+contribute-link = Hozzájárulás a korpuszhoz
+answer-questions-link = Kérdések megválaszolása
+transcribe-answers-link = Válaszok leiratozása
+review-transcriptions-link = Leiratok ellenőrzése
+contribute-text-link = Közreműködés szöveggel
+press-and-stories-link = Sajtó és történetek
 
 ## Partner section
 
+partner-section-title = Partnerkapcsolat
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technológiai cégek</bold> – fektessen be a nyílt adatkészletek létrehozásába a virágzó többnyelvű MI ökoszisztéma érdekében
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Polgári társadalom és kutatók</bold> – hozzon létre, tároljon és osszon meg hatásos adatkészleteket ingyen
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantrópia</bold> – támogassa az adatkészlet-készítést a helyi innováció és fejlesztés elősegítése érdekében
+# icon is an arrow that points to the right
+get-in-touch-button = Kapcsolatfelvétel <icon></icon>
+# Partners section
+our-partners-include = Partnereink közé tartoznak…

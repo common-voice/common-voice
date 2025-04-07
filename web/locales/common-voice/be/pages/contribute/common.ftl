@@ -30,11 +30,6 @@ target-segment-first-banner = Дапамажыце стварыць першы �
 target-segment-add-voice = Дадайце ваш голас
 target-segment-learn-more = Даведацца больш
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Збор галасоў
-contribute-sentence-collection-nav-header = Збор сказаў
-
 ## Reporting
 
 report = Паскардзіцца

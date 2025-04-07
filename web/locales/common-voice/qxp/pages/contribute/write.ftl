@@ -66,7 +66,7 @@ sentence-variant-select-label = Rimaypaq huk niraq rimaypi
 sentence-variant-select-placeholder = Huk ayllu rimayta akllay (munarispaqa)
 sentence-variant-select-multiple-variants = Suyu simi / huk ishkay ayllu rimaykuna
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> llaqtaq kayninpi rimaykunata q'ipiy

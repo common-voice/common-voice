@@ -17,9 +17,6 @@ record-button-label = Гиж тэнад гор
 share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджык горъяс
 target-segment-learn-more = Велӧд унджык
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

@@ -51,7 +51,6 @@ accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <pri
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
 login = uruduujaw
-login-signup = Seŋo/ Winndito
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am

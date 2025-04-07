@@ -1,5 +1,5 @@
 listen = Kepúniame
-listen-subtitle = Tamó kuimítia rawasióni yoráka
+listen-subtitle = Tamó ku'imítia rawasióni yoráka
 listen-instruction = { $actionType } <playIcon></playIcon> ¿Čeniáme pu'ká naewása wa'á teká waási?
 listen-again-instruction = ¡Kawéruma tenkí yoáremu! <playIcon></playIcon> enčí simitémitia kepúka, kawé amó masitépasa.
 listen-3rd-time-instruction = Netekámu oká ejempločitia <playIcon></playIcon>, wa'á yoráka simiteniápu

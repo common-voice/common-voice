@@ -30,11 +30,6 @@ target-segment-first-banner = Nú hɔllɔ bɔlá bússi yé Common Voice ɔ {
 target-segment-add-voice = Indiɛ yɛnu  nioní
 target-segment-learn-more = Úmanyà tonɛ
 change-preferences = Sɛndiɛ nyfɛnyí
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ɔkɔta yè nioní
-contribute-sentence-collection-nav-header = ɔkɔta yè bɛtamba
 login-signup = Finɛ
 vote-yes = EÈ
 vote-no = Boò

@@ -26,9 +26,6 @@ target-segment-first-banner = Common Voice-н эхний хэсэг болох {
 target-segment-add-voice = Хоолойгоо нэмэх
 target-segment-learn-more = Нэмэлт мэдээлэл
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Мэдэгдэх

@@ -30,11 +30,6 @@ target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽp
 target-segment-add-voice = Eme’ẽ Nde Ayvu
 target-segment-learn-more = Kuaave
 change-preferences = Emoambue erohoryvéva
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ayvu Ñembyaty
-contribute-sentence-collection-nav-header = Ñe’ẽjuaju ñembyatyha
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
 vote-yes = Héẽ
 vote-no = Nahániri

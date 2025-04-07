@@ -62,6 +62,8 @@ create-profile-button = Vytvořit profil
 img-alt-success-checkmark = souhlasné zatržítko
 # menu item
 read-sentences = Čtení vět
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Čtěte věty <small>(již brzy)</small>
 
 ## MENU ITEM TOOLTIPS
 

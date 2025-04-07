@@ -45,30 +45,77 @@ finish-editing = Qedelela ukulungisa qangi
 lose-changes-warning = Nawuphuma nje uzokulahlekelwa matjhuguluko owenzileko
 build-custom-goal = Zibekele umngomo ojayelekileko
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Sisiza sifikelele { $hours } i-awara phakathi { $language } nomgomo ozibeleke wona
        *[other] Sisiza sifikelele { $hours } ama-wara phakathi { $language } nomgomo ozibeleke wona
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Siza i-Common Voice ifikelele { $hours } i-awara ngelimi ozikhethele lona
        *[other] Siza i-Common Voice ifikelele { $hours } ama-awara ngelimi ozikhethele lona
     }
 set-a-goal = Beka umgomo
 cant-decide = Awukghoni ukuthatha isiqunto?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe
-       *[other] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } nyanga nange
-       *[other] { $periodMonths } iinyanga nange
-    }{ NUMBER($people) ->
-        [one] { $people } umuntu isiqetjhana
-       *[other] { $people } abantu isiqetjhana
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } isiqetjhana ngelanga.
-       *[other] { $clipsPerDay } iinqetjhana ngelanga.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } i-awara izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } nyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } umuntu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } isiqetjhana ngelanga.
+                               *[other] { $totalHours } ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe{ $periodMonths } iinyanga nange{ $people } abantu isiqetjhana{ $clipsPerDay } iinqetjhana ngelanga.
+                            }
+                    }
+            }
     }
 how-many-per-day = Kuhle! Zingakhi iinqetjhana ngelanga?
 how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
@@ -76,7 +123,7 @@ which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } isiqetjhana
        *[other] { $count } iinqetjhana
     }

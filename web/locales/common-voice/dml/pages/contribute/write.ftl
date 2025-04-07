@@ -66,7 +66,7 @@ sentence-variant-select-label = جملہ ساں کم زیت بین
 sentence-variant-select-placeholder = ایک قسم منتخب کُرا(اختیاری)
 sentence-variant-select-multiple-variants = عام باݜہ/ لے قسم نم
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپ لوڈ<icon> </icon>عوامی ڈومین تہ جملہ نم

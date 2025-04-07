@@ -41,25 +41,25 @@ finish-editing = ¿Quies acabar d'editar primero?
 lose-changes-warning = Si coles agora vas perder los cambeos
 build-custom-goal = Creación d'una meta personalizada
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ayuda a algamar { $hours } hora na llingua { $language } con una meta personal
        *[other] Ayuda a algamar { $hours } hores na llingua { $language } con una meta personal
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ayuda a Common Voice a algamar { $hours } hora nuna llingua con un meta personal
        *[other] Ayuda a Common Voice a algamar { $hours } hores nuna llingua con un meta personal
     }
 set-a-goal = Afitar una meta
 cant-decide = ¿Nun te decides?
 activity-needed-calculation-plural =
-    { NUMBER($people) ->
+    { $people ->
         [one]
-            { NUMBER($clipsPerDay) ->
+            { $clipsPerDay ->
                 [one]
-                    { NUMBER($totalHours) ->
+                    { $totalHours ->
                         [one]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persona graba { $clipsPerDay } clip per día.    
                                     Pue algamase { $totalHours } hora en { $periodMonths } mes namás
@@ -68,7 +68,7 @@ activity-needed-calculation-plural =
                                     Pue algamase { $totalHours } hora en { $periodMonths } meses namás
                             }
                        *[other]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persona graba { $clipsPerDay } clip per día.    
                                     puen algamase { $totalHours } hores en { $periodMonths } mes namás
@@ -78,9 +78,9 @@ activity-needed-calculation-plural =
                             }
                     }
                *[other]
-                    { NUMBER($totalHours) ->
+                    { $totalHours ->
                         [one]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persona graba { $clipsPerDay } clips per día.    
                                     Pue algamase { $totalHours } hora en { $periodMonths } mes namás
@@ -89,7 +89,7 @@ activity-needed-calculation-plural =
                                     Pue algamase { $totalHours } hora en { $periodMonths } meses namás
                             }
                        *[other]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persona graba { $clipsPerDay } clips per día.    
                                     puen algamase { $totalHours } hores en { $periodMonths } mes namás
@@ -100,11 +100,11 @@ activity-needed-calculation-plural =
                     }
             }
        *[other]
-            { NUMBER($clipsPerDay) ->
+            { $clipsPerDay ->
                 [one]
-                    { NUMBER($totalHours) ->
+                    { $totalHours ->
                         [one]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persones graben { $clipsPerDay } clip per día.    
                                     Pue algamase { $totalHours } hora en { $periodMonths } mes namás
@@ -113,7 +113,7 @@ activity-needed-calculation-plural =
                                     Pue algamase { $totalHours } hora en { $periodMonths } meses namás
                             }
                        *[other]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persones graben { $clipsPerDay } clip per día.    
                                     puen algamase { $totalHours } hores en { $periodMonths } mes namás
@@ -123,9 +123,9 @@ activity-needed-calculation-plural =
                             }
                     }
                *[other]
-                    { NUMBER($totalHours) ->
+                    { $totalHours ->
                         [one]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persones graben { $clipsPerDay } clips per día.    
                                     Pue algamase { $totalHours } hora en { $periodMonths } mes namás
@@ -134,7 +134,7 @@ activity-needed-calculation-plural =
                                     Pue algamase { $totalHours } hora en { $periodMonths } meses namás
                             }
                        *[other]
-                            { NUMBER($periodMonths) ->
+                            { $periodMonths ->
                                 [one]
                                     Si { $people } persones graben { $clipsPerDay } clips per día.    
                                     puen algamase { $totalHours } hores en { $periodMonths } mes namás
@@ -151,7 +151,7 @@ which-goal-type = ¿Quies Falar, Sentir o dambos?
 receiving-emails-info = <bold>TAS</bold> recibiendo mensaxes tocante a Common Voice
 not-receiving-emails-info = <bold>NUN</bold> tas recibiendo mensaxes tocante a Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

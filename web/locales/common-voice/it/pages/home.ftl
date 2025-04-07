@@ -78,6 +78,7 @@ answer-questions-coming-soon = Rispondi alle domande <small>(disponibile a breve
 review-transcriptions = Convalida trascrizioni <small>(disponibile a breve)</small>
 review-transcriptions-coming-soon = Convalida trascrizioni <small>(disponibile a breve)</small>
 add-questions = Aggiungi domande <small>(disponibile a breve)</small>
+add-questions-coming-soon = Aggiungi domande <small>(disponibile a breve)</small>
 transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile a breve)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile a breve)</small>
 press-and-stories = Stampa e storie
@@ -120,7 +121,6 @@ spontaneous-card-header = Discorso spontaneo
 spontaneous-card-content = Rispondi alle domande per creare dataset relativi a contesti naturali e colloquiali. Perfetto per le lingue prevalentemente orali.
 language-text-card-header = Testo in lingua
 language-text-card-content = Crea o condividi domande, frasi e testi di pubblico dominio per traduzioni, modelli linguistici di piccole dimensioni e altro ancora.
-coming-soon = Disponibile a breve
 add-text = Aggiungi testo
 
 ## Community section

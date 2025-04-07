@@ -24,7 +24,7 @@ new-sentence-rule-8 = Ιδανικά φυσικές και διαλογικές 
 login-instruction-multiple-sentences = <loginLink>Συνδεθείτε</loginLink> ή <loginLink>εγγραφείτε</loginLink> για να προσθέσετε πολλαπλές προτάσεις
 how-to-cite = Πώς κάνω παραπομπή;
 how-to-cite-explanation-bold = Κάντε παραπομπή με έναν σύνδεσμο URL ή το πλήρες όνομα του έργου.
-how-to-cite-explanation = Εάν είναι δικά σας λόγια, δηλώστε απλώς <italicizedText>«Αυτοαναφορά»</italicizedText>. Πρέπει να γνωρίζουμε πού βρήκατε το περιεχόμενο, ώστε να μπορούμε να ελέγξουμε ότι ανήκει στον δημόσιο τομέα και ΄ότι δεν ισχύουν περιορισμοί πνευματικών δικαιωμάτων. Για περισσότερες πληροφορίες σχετικά με τις παραπομπές, ανατρέξτε στη <guidelinesLink>σελίδα κανόνων</guidelinesLink>.
+how-to-cite-explanation = Εάν είναι δικά σας λόγια, δηλώστε <italicizedText>«Αυτοαναφορά»</italicizedText>. Πρέπει να γνωρίζουμε πού βρήκατε το περιεχόμενο, ώστε να μπορούμε να ελέγξουμε ότι ανήκει στον δημόσιο τομέα και ΄ότι δεν ισχύουν περιορισμοί πνευματικών δικαιωμάτων. Για περισσότερες πληροφορίες σχετικά με τις παραπομπές, ανατρέξτε στη <guidelinesLink>σελίδα κανόνων</guidelinesLink>.
 guidelines = Οδηγίες
 contact-us = Επικοινωνία
 add-sentence-success = Συλλέχθηκε 1 πρόταση
@@ -66,7 +66,7 @@ sentence-variant-select-label = Παραλλαγή πρότασης
 sentence-variant-select-placeholder = Επιλογή παραλλαγής (προαιρετικό)
 sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλαπλές παραλλαγές
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> Μεταφόρτωση προτάσεων δημόσιου τομέα

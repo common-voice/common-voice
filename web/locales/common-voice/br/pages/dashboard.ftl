@@ -41,7 +41,7 @@ finish-editing = Echuiñ gant ar c'hemmoù da gentañ ?
 lose-changes-warning = Ma kuitait bremañ e kollot ho kemmoù
 build-custom-goal = Termeniñ ur pal hiniennel
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
         [two] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
         [few] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
@@ -49,7 +49,7 @@ help-reach-hours-pluralized =
        *[other] Skoazellit da dizhout{ $hours } eurvezh e { $language } gant ur pal hiniennel
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
         [two] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
         [few] Skoazellit Common Voice da dizhout{ $hours } eurvezh en ur yezh bennak gant ur pal hiniennel
@@ -59,60 +59,60 @@ help-reach-hours-general-pluralized =
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
                                *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
                             }
@@ -125,7 +125,7 @@ which-goal-type = Komz pe selaou a fell deoc'h ober, an daou ?
 receiving-emails-info = Dibabet ho peus degemer posteloù evit degas da soñj ho palioù deoc'h, evit diskouez hoc’h araokadennoù ha kaout keloù a-berzh Common Voice
 not-receiving-emails-info = Dibabet ho peus <bold>CHOM HEP</bold> degemer posteloù evit degas ho palioù da soñj deoc'h, evit diskouez hoc’h araokadennoù pe kaout keloù a-berzh Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } c'hlip
         [two] { $count } glip
         [few] { $count } c'hlip

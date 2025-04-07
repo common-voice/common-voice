@@ -4,9 +4,8 @@
 error = Axa katiniuyiní
 action-click = Clic ke neupɨna
 action-tap = Ke neyeyeʼí
-# Label for language switcher
-interface-language = Ke mɨʼane niukiyari mayemieni:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Mɨtikaʼɨniriketsie teteuʼutɨwatɨ { $language }
 # Label for button on contribution switcher
 change = Ke neupata
@@ -26,7 +25,6 @@ contribute = ke tineuparewi
 ## Navbar
 
 respond-to-prompt = Iwaurika ke neutaʼeiya
-transcribe-audio = Niuki makaʼɨkierie ke neutaʼutɨa
 check-transcriptions = Niuki mutiʼutɨariexɨa ke neutiʼixɨari
 
 ## Not Found Page

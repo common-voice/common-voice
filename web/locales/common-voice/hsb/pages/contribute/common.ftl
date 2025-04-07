@@ -36,11 +36,6 @@ target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
 change-preferences = Nastajenja změnić
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Zběrka hłosow
-contribute-sentence-collection-nav-header = Zběrka sadow
 login-signup = Přizjewić/Registrować
 vote-yes = Haj
 vote-no = Ně
@@ -52,7 +47,7 @@ submit-form-action = Wotpósłać
 
 ## Reporting
 
-report = Rozprawa
+report = Zdźělić
 report-title = Rozprawu wotpósłać
 report-ask = Na kotre problemy z tutej sadu storkaće?
 report-offensive-language = Pohóršliwa rěč
@@ -69,7 +64,7 @@ report-other-comment =
     .placeholder = Komentar
 success = Wuspěch
 continue = Dale
-report-success = Rozprawa je so wuspěšnje wotpósłała
+report-success = Zdźělenka je so wuspěšnje wotpósłała
 
 ## Speak & Listen Shortcuts
 
@@ -133,18 +128,25 @@ contribution-misreadings-example-7-explanation = [‘a’ w originalnym teksće 
 contribution-misreadings-example-8-title = Čmjeła nimo lećeše.
 contribution-misreadings-example-8-explanation = [Wobsah njewotpowěduje]
 contribution-varying-pronunciations-title = Rozdźělne wurjekowanja
+contribution-varying-pronunciations-description = Budźće kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo po wšěm zdaću prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wěstu swobodu, kotřiž hinak hač wy rěča.
+contribution-varying-pronunciations-description-extended = Jeli wšak měniće, zo čitar najskerje je słowo přez připad namakał a prosće wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 contribution-background-noise-title = Pozadkowe šumy
+contribution-background-noise-description = Chcemy, zo algoritmy mašinelneho wuknjenja móža z wjele wšelakorymi pozadkowymi šumami wobchadźeć a samo relatiwnje hłósne šumy so akceptuja, pod wuměnjenjom, zo tomu njezadźěwaja, zo so cyły tekst słyši. Ćicha pozadkowa hudźba je w porjadku; hudźba, kotraž je tak hłósna, zo hižo kóžde słowo słyšiće, to njeje.
 contribution-background-noise-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Hoberske dinosawriery <strong>[cough]</strong> triasa.
 contribution-background-noise-example-2-fixed-title = Hoberski dino <strong>[cough]</strong> triasa.
 contribution-background-noise-example-2-explanation = [Dźěl teksta słyšeć njeje]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> hoberske dinosawriery <strong>[crackle]</strong> -riasa.
 contribution-background-voices-title = Pozadkowe hłosy
+contribution-background-voices-description = Ćiche pozadkowe šumy su w porjadku, ale nochcemy přidatne hłosy, kotrež zawinuja, zo mašinelny algoritmus słowa identifikuje, kotrež w napisanym teksće njejsu. Jeli móžeće druhe słowa słyšeć, kotrež w teksće njejsu, měł wy klip wotpokazać. Zwjetša to so tam stawa, hdźež telewizor je zapinjeny abo w bliskosći je rozmołwa.
 contribution-background-voices-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
 contribution-background-voices-example-1-title = Hoberske dinosawriery triasa. <strong>[čita so wot jednoho hłosa]</strong>
 contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[hłós druheho]</strong>
 contribution-volume-title = Sylnosć zwuka
+contribution-volume-description = Su přirodne chabłanja w sylnosći hłosa mjez čitarjemi. Wotpokazajće jenož, jeli sylnosć hłosa je tak wysoka, zo so nahraće myli, abo (časćišo), jeli je tak niska, zo bjez napisaneho teksta njesłyšiće, štož so praji.
 contribution-reader-effects-title = Efekty čitarja
+contribution-reader-effects-description = Najwjace nahraćow je wot ludźi, kotřiž ze swojim přirodnym hłosom rěča. Móžeće składnostne njestandardne nahraće akceptować, kotrež so woła, šepta abo so po zdaću z „dramatiskim“ hłosom poskića. Prošu wotpokazajće spěwane nahraća a tajke, kotrež z kompjuterom generěrowany hłós wužiwaja.
 contribution-just-unsure-title = Jenož njewěsty?
+contribution-just-unsure-description = Jeli na něšto storčiće, zo tutym směrnicam njewotpowěduje, hłosujće prošu po swojim najlěpšim posudku. Jeli woprawdźe njemóžeće so rozsudźić, wužiwajće tłóčatko Přeskočić a pokročujće z přichodnym nahraćom.
 see-more = <chevron></chevron>Wjace pokazać
 see-less = <chevron></chevron>Mjenje pokazać

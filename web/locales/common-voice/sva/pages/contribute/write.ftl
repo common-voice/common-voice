@@ -66,7 +66,7 @@ sentence-variant-select-label = წინადადება̄̈ ვარი�
 sentence-variant-select-placeholder = ჟ'ა̄̈ხითშ ვარიანტ (სავალდებულო მა̄მ ლი)
 sentence-variant-select-multiple-variants = ზოგად ნინ / ვარიანტლე ნა̈ფშირი
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = სგ'ა̄თტუ̂ირთა̈უ̂ <icon></icon> საყოველთაო საკუთრება̄̈ წინადადება̈ლ

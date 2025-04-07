@@ -1,8 +1,11 @@
 # GUIDELINES PAGE
 guidelines-header = Contribution Guidelines
-guidelines-header-subtitle = Understand how to contribute and validate sentences and audio clips to the Common Voice dataset
+guidelines-header-subtitle = Understand how to contribute and validate on the Common Voice dataset
 voice-collection = Voice Collection
 sentence-collection = Sentence Collection
+question-collection = Question Collection
+
+## Voice Collection nav ids
 varying-pronunciations = Varying Pronunciations
 misreadings = Misreadings
 offensive-content = Offensive Content
@@ -12,6 +15,8 @@ volume = Volume
 reader-effects = Reader Effects
 just-unsure = Just Unsure?
 example = Example
+
+## Voice collection sidebar content 
 varying-pronunciations-explanation-1 = We welcome different accents! Be very cautious before rejecting a clip on the ground that you think the reader has mispronounced a word, has put the stress in the wrong place, or has ignored punctuation. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a generous margin of appreciation for those who may speak differently from you.
 varying-pronunciations-explanation-2 = On the other hand, if you think that the reader has never come across the word before, and is making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
 varying-pronunciations-example = The route was unclear.
@@ -47,11 +52,15 @@ reader-effects-explanation = Most recordings are of people talking in their natu
 just-unsure-explanation = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
 still-have-questions = Still have questions?
 contact-common-voice = Contact the Common Voice team
+
+## Sentence collection nav ids
 public-domain = Public Domain
 citing-sentences = Citing Sentences
 adding-sentences = Adding Sentences
 reviewing-sentences = Reviewing Sentences
 sentence-domain = Sentence Domain
+
+## Sentence collection sidebar content 
 public-domain-explanation-1 = It is very important that all text sentences are <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>) as the Common Voice dataset is released under a cc0 license. Only ever upload a sentence if you are sure, and always include the relevant citation.
 public-domain-explanation-2 = The best sentences for building a useful speech recognition engine are colloquial, modern parlance. Some ideas to help you generate sentences are;
 public-domain-explanation-3 = Create modern, colloquial sentences by yourself or with your friends or language community - for example through a ‘write-a-thon’
@@ -91,3 +100,33 @@ reviewing-sentences-explanation-2 = If the sentence does not meet the above crit
 reviewing-sentences-explanation-3 = If you are unsure about the sentence, you may also skip it and move on to the next one.
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 domain-explanation = Domain refers to the subject matter of the sentence. Currently, you can choose between:
+
+## Question collection ids
+adding-questions = Adding Questions
+
+## Question collection sidebar content
+what-makes-a-good-question-subheader = What makes a good question?
+what-makes-a-good-question-explanation = A  good question for public participation datasets should:
+what-makes-a-good-question-explanation-criteria-1 = Be easy to understand and respond to
+what-makes-a-good-question-explanation-criteria-2 = Be generally relevant
+what-makes-a-good-question-explanation-criteria-3 = Not use, or solicit, harmful or offensive language
+what-makes-a-good-question-tip = You might also want to consider spanning different contexts and domains.  
+easy-to-understand = Easy to Understand
+easy-to-understand-explanation = Choose simple questions that are easy for anyone to understand, regardless of culture or context.
+spelling-and-pronunciation = Spelling and Punctuation
+spelling-and-pronunciation-explanation = Use correct spelling and grammar.
+length = Length
+length-explanation = The question should be answerable in just a couple of sentences.
+dont-add-subheader = Don’t Add
+culturally-specific-questions = Culturally specific questions
+culturally-specific-questions-explanation = Questions which are very culturally specific, or make a lot of assumptions about the responder
+length-avoid-explanation = Questions which someone would struggle to respond to in 15 seconds (the maximum clip length) 
+process-steps = Process / Steps
+process-steps-explanation = Questions which require someone to list several steps.  Listing steps prompts the user to recite an answer rather than a more natural response.  
+offensive-content-sensitive-information = Offensive content or sensitive information
+offensive-content-sensitive-information-explanation-explanation-1 = Questions which might solicit personally identifiable information 
+offensive-content-sensitive-information-explanation-explanation-2 = Questions which might solicit hate speech or other biased or offensive sentiments 
+offensive-content-sensitive-information-explanation-explanation-3 = Questions which may cause someone to share sensitive, potentially triggering responses
+example-questions-subheader = Example questions
+example-questions-explanation-1 = You can find <examplePromptsLink>120 example prompts in this sheet.</examplePromptsLink>
+example-questions-explanation-2 = If you’d like to submit a tranche of questions for ingestion, you <githubLink>can do so via our GitHub</githubLink> or email your list to <emailFragment>commonvoice@mozilla.com.</emailFragment>

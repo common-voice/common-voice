@@ -41,50 +41,539 @@ finish-editing = Chceće wobdźěłowanje najprjedy dokónčić?
 lose-changes-warning = Hdyž nětko přetorhnjeće, zhubiće swoje změny
 build-custom-goal = Swójski cil wutworić
 help-reach-hours-pluralized =
-    Pomhajće z wosobinskim cilom{ NUMBER($hours) ->
-        [one] { $hours } hodźinu
-        [two] { $hours } hodźinje
-        [few] { $hours } hodźiny
-       *[other] { $hours } hodźin
-    }w rěči { $language } docpěć
+    { $hours ->
+        [one] Pomhajće z wosobinskim cilom{ $hours } hodźinuw rěči { $language } docpěć
+        [two] Pomhajće z wosobinskim cilom{ $hours } hodźinjew rěči { $language } docpěć
+        [few] Pomhajće z wosobinskim cilom{ $hours } hodźinyw rěči { $language } docpěć
+       *[other] Pomhajće z wosobinskim cilom{ $hours } hodźinw rěči { $language } docpěć
+    }
 help-reach-hours-general-pluralized =
-    Pomhajće Common Voice z wosobinskim cilom { NUMBER($hours) ->
-        [one] { $hours } hodźinu
-        [two] { $hours } hodźinje
-        [few] { $hours } hodźiny
-       *[other] { $hours } hodźin
-    }w rěči docpěć
+    { $hours ->
+        [one] Pomhajće Common Voice z wosobinskim cilom { $hours } hodźinuw rěči docpěć
+        [two] Pomhajće Common Voice z wosobinskim cilom { $hours } hodźinjew rěči docpěć
+        [few] Pomhajće Common Voice z wosobinskim cilom { $hours } hodźinyw rěči docpěć
+       *[other] Pomhajće Common Voice z wosobinskim cilom { $hours } hodźinw rěči docpěć
+    }
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hodźina je docpějomna
-        [two] { $totalHours } hodźinje stej docpějomnej
-        [few] { $totalHours } hodźiny su docpějomne
-       *[other] { $totalHours } hodźin je docpějomne
-    } za jenož trochu wjace hač { NUMBER($periodMonths) ->
-        [one] { $periodMonths }  měsac,
-        [two] { $periodMonths } měsacaj,
-        [few] { $periodMonths } měsacy,
-       *[other] { $periodMonths } měsacow,
-    } jeli { NUMBER($people) ->
-        [one] { $people } wosoba natoča
-        [two] { $people } wosobje natočetej
-        [few] { $people } wosoby natočeja
-       *[other] { $people } wosobow natoča
-    }{ NUMBER($clipsPerDay) ->
-        [one]  { $clipsPerDay } klip
-        [two]  { $clipsPerDay } klipaj
-        [few]  { $clipsPerDay } klipy
-       *[other]  { $clipsPerDay } klipow
-    } na dźeń.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźina je docpějomna za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+        [two]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźinje stej docpějomnej za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźiny su docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths }  měsac, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacaj, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacy, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoba natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobje natočetej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosoby natočeja { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipaj na dźeń.
+                                [few] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } hodźin je docpějomne za jenož trochu wjace hač { $periodMonths } měsacow, jeli { $people } wosobow natoča { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
 how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
 which-goal-type = Chceće rěčeć, słuchać abo wobě?
 receiving-emails-info = Sće tuchwilu e-mejlki, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice abonował
 not-receiving-emails-info = Je so runje nastajiło, zo mejlki hižo <bold>NJE</bold>dóstanjeće, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice wotskazał
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } klip
         [two] { $count } klipaj
         [few] { $count } klipy

@@ -5,7 +5,6 @@ write-instruction = faramkal <icon> </icon> kwatar fətek ga azlam ga ŋgoməna
 write-page-subtitle = kwatar ana tavəlaməné ekehəne ma, tàfarakal aka gəvœ ga azlam ga ŋgoməna yaka voto aŋa
 sentence =
     .label = mʉde ga mbəraŋa
-sentence-input-value = pamkal kwatar ya azlam ga ŋgoməna ekehəne
 citation-input-placeholder = ɗeməkabara aslam ana kwatar aŋa isliré kaɗa
 citation =
     .label = kwatar ga mbəraŋa
@@ -30,7 +29,6 @@ required-field = ndavamara aslam henne
 single-sentence-submission = moploro aŋa ga kwatar fətek taŋ
 bulk-sentence-submission = cəkœm azlam gile <templateFileLink>modèle</templateFileLink>. kwatar gukəle timenera voto barəbarar (CC0 bi etew ga mbəre eɗe endeŋa ana embra voto aŋa kaɗa) vvaɗ tine lele a mapakalavava aŋa vvaɗ ma tagal ya maɓada da kaɗa. Kwatar ana moploro  aŋa tazza
 single-sentence = kwatar fətek taŋ
-bulk-sentences = kwatar dik
 sentence-domain-combobox-label = azlam ga kwatar
 sentence-domain-select-placeholder = halamaba ha azlam mahəkar
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = kwatar slala aŋa enne
 sentence-variant-select-placeholder = zamaba kwatar enne fətek
 sentence-variant-select-multiple-variants = azlam magakaba aŋa yaka kwatar kəsa
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = moploro <icon><icon> kwatar ga azlam ava ga ŋgoməna
@@ -89,3 +87,12 @@ file-invalid-type = eɗe arawa da
 file-too-large = eɗe aɗak dik haŋ
 file-too-small = eɗe aɗak klaŋa
 too-many-files = eɗe atal dik
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

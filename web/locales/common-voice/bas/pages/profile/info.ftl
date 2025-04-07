@@ -39,7 +39,6 @@ why-demographic-explanation-2 = minsolbe mi biyimbne bi mut kiki bo biman̂, lib
 accept-privacy = Me nti kunde le ni gwélél bini biyihne kiki ni ñkobol i <privacyLink>Ñkok u Matédés</privacyLink>
 accept-privacy-title = Ñkok u Matédés
 login-identity = Jôl li majubul
-login-signup = Jôp / Tila Jôl
 edit = Juble bitilna
 email-subscriptions = Litila jôl i Yuyut i bimél
 download-profile = Ket minje ñwem

@@ -41,50 +41,539 @@ finish-editing = Cośo wobźěłowanje nejpjerwjej dokóńcyś?
 lose-changes-warning = Gaž něnto pśetergnjośo, zgubijośo swóje změny
 build-custom-goal = Swójski cel napóraś
 help-reach-hours-pluralized =
-    Pomagajśo z wósobinskim celom{ NUMBER($hours) ->
-        [one] { $hours } góźinu
-        [two] { $hours } góźinje
-        [few] { $hours } góźiny
-       *[other] { $hours } góźinow
-    }w rěcy { $language } dojśpěś
+    { $hours ->
+        [one] Pomagajśo z wósobinskim celom{ $hours } góźinuw rěcy { $language } dojśpěś
+        [two] Pomagajśo z wósobinskim celom{ $hours } góźinjew rěcy { $language } dojśpěś
+        [few] Pomagajśo z wósobinskim celom{ $hours } góźinyw rěcy { $language } dojśpěś
+       *[other] Pomagajśo z wósobinskim celom{ $hours } góźinoww rěcy { $language } dojśpěś
+    }
 help-reach-hours-general-pluralized =
-    Pomagajśo Common Voice z wósobinskim celom { NUMBER($hours) ->
-        [one] { $hours } góźinu
-        [two] { $hours } góźinje
-        [few] { $hours } góźiny
-       *[other] { $hours } góźinow
-    }w rěcy dojśpěś
+    { $hours ->
+        [one] Pomagajśo Common Voice z wósobinskim celom { $hours } góźinuw rěcy dojśpěś
+        [two] Pomagajśo Common Voice z wósobinskim celom { $hours } góźinjew rěcy dojśpěś
+        [few] Pomagajśo Common Voice z wósobinskim celom { $hours } góźinyw rěcy dojśpěś
+       *[other] Pomagajśo Common Voice z wósobinskim celom { $hours } góźinoww rěcy dojśpěś
+    }
 set-a-goal = Cel stajiś
 cant-decide = Njamóžośo se rozsuźiś?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } góźina jo dojśpiwajobna
-        [two] { $totalHours } góźinje stej dojśpiwajobnej
-        [few] { $totalHours } góźina su dojśpiwajobne
-       *[other] { $totalHours } góźinow jo dojśpiwajobne
-    } za jano tšochu wěcej ako { NUMBER($periodMonths) ->
-        [one] { $periodMonths }  mjasec,
-        [two] { $periodMonths } mjaseca,
-        [few] { $periodMonths } mjasece,
-       *[other] { $periodMonths } mjasecow,
-    } jolic { NUMBER($people) ->
-        [one] { $people } wósoba nagrawa
-        [two] { $people } wósobje nagrawatej
-        [few] { $people } wósoby nagrawaju
-       *[other] { $people } wósobow nagrawa
-    }{ NUMBER($clipsPerDay) ->
-        [one]  { $clipsPerDay } klip
-        [two]  { $clipsPerDay } klipa
-        [few]  { $clipsPerDay } klipy
-       *[other]  { $clipsPerDay } klipow
-    } na dźeń.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina jo dojśpiwajobna za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+        [two]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinje stej dojśpiwajobnej za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźina su dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths }  mjasec, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [two]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjaseca, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasece, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoba nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                        [two]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobje nagrawatej { $clipsPerDay } klipow na dźeń.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósoby nagrawaju { $clipsPerDay } klipow na dźeń.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klip na dźeń.
+                                [two] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipa na dźeń.
+                                [few] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipy na dźeń.
+                               *[other] { $totalHours } góźinow jo dojśpiwajobne za jano tšochu wěcej ako { $periodMonths } mjasecow, jolic { $people } wósobow nagrawa { $clipsPerDay } klipow na dźeń.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Wjelicnje! Wjele klipow na źeń?
 how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
 which-goal-type = Cośo powědaś, słuchaś abo wobej?
 receiving-emails-info = Sćo tuchylu aboněrował mejlki, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
 not-receiving-emails-info = Jo se rowno nastajiło, až mejlki wěcej <bold>NJE</bold>dostanjośo, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } klip
         [two] { $count } klipa
         [few] { $count } klipy

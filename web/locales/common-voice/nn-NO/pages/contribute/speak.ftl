@@ -39,18 +39,40 @@ review-delete-recordings = Slett opptaka mine
 review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Takk for at du donerte stemmeklippa dine!
+first-cta-subtitle-text = Vil du dele litt informasjon om korleis du snakkar?
 why-donate = Kvifor spør du?
+why-donate-explanation-1 = Denne informasjonen er valfri å oppgi - du bør berre leggje han til viss du kjenner deg komfortabel. Når vi frigir datasettet, pseudonymiserer vi all personleg informasjon, og sørgjer for at informasjon som namn og e-post ikkje er knytt til demografisk informasjon som alder eller kjønn.
+why-donate-explanation-2 = For at teknologi skal fungere godt for alle, må dataa som hjelper utviklarar med å byggje teknologi spegle eit mangfaldig spekter av menneske. Til dømes, viss vi ikkje inkluderer nokon talarar med ein bestemd aksent eller dialekt, vil ikkje teknologien fungere bra for folk med den aksenten eller dialekten. <learnMore>Finn ut meir om kvifor metadata er viktig.</learnMore>
 add-information-button = Legg til informasjon
+continue-speaking-button = Nei takk, fortset å snakke
+create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett ein profil</createProfile>
+thanks-for-voice-toast = Takk for stemmeinformasjonen din
+thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemma di
 first-cta-gender-select-default-option = Vel eit alternativ
+first-cta-gender-select-help-text =
+    .label = Korleis vil du skildre kjønnet ditt?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Takk for at du bidrog med stemma di!
+second-cta-subtitle-text = Med ein profil kan du halde oversikt over aktiviteten din, og få kontakt med eit fellesskap av bidragsytarar til taledata.
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
+# IMAGE TAGS
+img-alt-success-checkmark = hake for godkjenning
 # menu item
 read-sentences = Les setningar
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Les setningar <small>(kjem snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Les setningar, svar på spørsmål
+read-sentences-menu-item-tooltip = Ta opp deg sjølv når du les setningar på språket ditt.
+answer-questions-menu-item-tooltip = Ta opp deg sjølv medan du svarar på spørsmål og førespurnadar på ditt språk.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Alternativmeny for tale
+read-sentences-menu-item-aria-label = Les setningar sendt inn av fellesskapet på ulike språk
+answer-questions-menu-item-aria-label = Send inn eit nytt spørsmål som fellesskapet kan lese og svare på

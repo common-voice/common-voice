@@ -8,6 +8,7 @@ datasets-positioning =
     De meartalige gegevensset fan Common Voice is no al de grutste iepenbiere spraakgegevensset yn syn soarte, mar it is net de iennige.
     
     Beskôgje dizze side as in list mei referinsjes nei oare iepenboarne-spraakgegevenssets en, wylst Common Voice trochgroeit, de startside foar ús nije útjefte.
+datasets-speech-bubble-content = Spannend nijs! Spontane spraak is ûnderweis! Bliuw op ’e hichte foar updates en kontrolearje ús <discordLink>Discord</discordLink> foar de lêste ynformaasje.
 language = Taal
 download-dataset-header = De gegevensset downloade
 download-delta-explainer = Wy hawwe inkelde wizigingen oanbrocht. Delta Segments befetsje allinnich de meast resinte fragminten sûnt de foarige ferzje. <deltaLink>Mear ynfo oer dit wurk</deltaLink>.

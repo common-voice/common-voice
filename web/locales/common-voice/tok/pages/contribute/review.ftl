@@ -28,7 +28,6 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] sina lukin e sitelen ala.
-        [one] sina lukin e sitelen wan. sina pona!
         [2] sina lukin e sitelen tu. sina pona!
         [3] sina lukin e sitelen tu wan. sina pona!
         [4] sina lukin e sitelen tu tu. sina pona!
@@ -38,6 +37,7 @@ sc-review-form-reviewed-message =
         [8] sina lukin e sitelen luka tu wan. sina pona!
         [9] sina lukin e sitelen luka tu tu. sina pona!
         [10] sina lukin e sitelen luka luka. sina pona!
+        [one] sina lukin e sitelen wan. sina pona!
        *[other] sina lukin e sitelen { $sentences }. sina pona!
     }
 sc-review-form-review-failure = mi ken ala awen e lukin. o pali sin e ni lon tenpo kama.

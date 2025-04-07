@@ -66,7 +66,7 @@ sentence-variant-select-label = Rimaykaqpa hukniraq rimaynin
 sentence-variant-select-placeholder = Seleccione una variante (munalla)
 sentence-variant-select-multiple-variants = Llapanpa rimaynin / achka hukniraqkama
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Llapan rimaśhqan rimaykunata ćhuramuy <icon></icon>

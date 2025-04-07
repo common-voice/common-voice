@@ -66,7 +66,7 @@ sentence-variant-select-label = Varianta věty
 sentence-variant-select-placeholder = Vyberte variantu (volitelné)
 sentence-variant-select-multiple-variants = Všeobecný jazyk / více variant
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nahrát <icon></icon> věty jako volné dílo

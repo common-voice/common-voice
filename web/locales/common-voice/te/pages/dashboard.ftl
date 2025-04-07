@@ -34,7 +34,7 @@ want-to-continue = మీరు కొనసాగించాలనుకుం
 finish-editing = ముందుగా ఎడిటింగ్ పూర్తి చేయాలా?
 lose-changes-warning = ఇప్పుడు నిష్క్రమించడం అంటే మీరు మీ మార్పులను కోల్పోతారు
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] వ్యక్తిగత లక్ష్యంతో { $language }లో { $hours } గంట చేరుకోవడంలో సహాయపడండి
        *[other] వ్యక్తిగత లక్ష్యంతో { $language }లో { $hours } గంటలు చేరుకోవడంలో సహాయపడండి
     }
@@ -44,7 +44,7 @@ how-many-per-day = గొప్ప! రోజుకు ఎన్ని క్ల
 how-many-a-week = గొప్ప! వారానికి ఎన్ని క్లిప్‌లు?
 which-goal-type = మీరు మాట్లాడాలనుకుంటున్నారా, వినాలనుకుంటున్నారా లేదా రెండూ కావాలా?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } క్లిప్‌
        *[other] { $count } క్లిప్‌లు
     }

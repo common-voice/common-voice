@@ -41,7 +41,6 @@ why-demographic-explanation-2 = Йәш, енес, акцент кеүек ано
 accept-privacy = Һеҙгә был мәғлүмәтте  Mozilla-ның Хосусилек сәйәсәтенә <privacyLink>ярашлы</privacyLink> нисек эшкәртеүегеҙ менән килешәм.
 accept-privacy-title = Хосусилек сәйәсәте
 login-identity = Ҡулланыусының логины
-login-signup = Инеү / Теркәлеү
 edit = Үҙгәртергә
 email-subscriptions = Электрон почта буйынса яҙылыу
 download-profile = Минең мәғлүмәттәрҙе сығарып алыу

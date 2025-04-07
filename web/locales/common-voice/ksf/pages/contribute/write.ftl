@@ -5,7 +5,6 @@ write-instruction = Butɛn  <icon></icon> məkanɨ mə djaŋ i bum bimig
 write-page-subtitle = Məkanɨ mə fayɛn fəg bɛ ba butɛn bɨ tɨtsap  cc-0.
 sentence =
     .label = Djɛɛ i mum
-sentence-input-value = Kana məkanɨ mə bɨ djaŋ i bum bimig fəg
 citation-input-placeholder = Faya djaŋ inə məkanɨ ma  yuu (kɨ bɨ yɛsɛ kɨ kii)
 citation =
     .label = Djɛɛ i mum
@@ -30,7 +29,6 @@ required-field = Butɛn bɨ baagh anə
 single-sentence-submission = Dɨ dɨrom dɨ məkanɨ mə tiɛntii
 bulk-sentence-submission = Dɨ dɨrom dɨ məkanɨ mə guei
 single-sentence = Məkanɨ mə tiɛntii
-bulk-sentences = Məkanɨ mə guei
 sentence-domain-combobox-label = bɨom bɨ məkanɨ
 sentence-domain-select-placeholder = bɔna a kpaŋ biom bɨ raa
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Kɨ kɛ tsendɨ bɨ məkanɨ
 sentence-variant-select-placeholder = Bɔna kɨ kɛ tsendɨ
 sentence-variant-select-multiple-variants = Bɨtokɨ Bɨtsem / Dɨ tsendə lɛgwe
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Dɨrom <icon></icon> məkanɨ mə bum bimig
@@ -89,3 +87,12 @@ file-invalid-type = ǹ benɨ kɨsal
 file-too-large = kɨsal kɨ tɔrɛ
 file-too-small = kɨsal kɨ rɨ lə sag
 too-many-files = Bɨsal bɨ teghɛ
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

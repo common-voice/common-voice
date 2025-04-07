@@ -5,7 +5,6 @@ write-instruction = Add <icon></icon> some sentence for public place
 write-page-subtitle = We go send sentence dem wey dey gi am for here for some free public place cc-0 dataset wey yi get licence.
 sentence =
     .label = Citation
-sentence-input-value = Write ya sentence dem for place for public for here
 citation-input-placeholder = Write place wey ya sentence dem komot (yi get for be)
 citation =
     .label = Citation
@@ -30,7 +29,6 @@ required-field = We beg write for dis place
 single-sentence-submission = For send wan wan sentence
 bulk-sentence-submission = For send big big sentence dem
 single-sentence = Wan sentence
-bulk-sentences = Big big sentence dem
 sentence-domain-combobox-label = Place for sentence
 sentence-domain-select-placeholder = Choose up to three tin dem (no be must to)
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Different kana sentence
 sentence-variant-select-placeholder = Choose some kind (you no must to)
 sentence-variant-select-multiple-variants = General country tok / plenty different kind dem
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Flop am <icon></icon> sentence dem for public
@@ -89,3 +87,12 @@ file-invalid-type = De file no correct
 file-too-large = De file over big
 file-too-small = De file over small
 too-many-files = De file dem over plenty
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

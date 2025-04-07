@@ -41,32 +41,35 @@ finish-editing = Selesai mengedit terlebih dahulu?
 lose-changes-warning = Pergi sekarang artinya kehilangan perubahan Anda.
 build-custom-goal = Bangun sasaran khas
 help-reach-hours-pluralized =
-    Bantu capai{ NUMBER($hours) ->
-       *[other] { $hours } jam
-    }dalam { $language } dengan sasaran pribadi
+    { $hours ->
+       *[other] Bantu capai{ $hours } jamdalam { $language } dengan sasaran pribadi
+    }
 help-reach-hours-general-pluralized =
-    Bantu Common Voice mencapai{ NUMBER($hours) ->
-       *[other] { $hours } jam
-    }pada sebuah bahasa dengan sasaran pribadi
+    { $hours ->
+       *[other] Bantu Common Voice mencapai{ $hours } jampada sebuah bahasa dengan sasaran pribadi
+    }
 set-a-goal = Tetapkan target
 cant-decide = Tak bisa memutuskan?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } jam
-    }tercapai hanya dalam{ NUMBER($periodMonths) ->
-       *[other] { $periodMonths } bulan
-    }jika{ NUMBER($people) ->
-       *[other] { $people } orang
-    }merekam{ NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } klip
-    }per hari.
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } jamtercapai hanya dalam{ $periodMonths } bulanjika{ $people } orangmerekam{ $clipsPerDay } klipper hari.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Hebat! Berapa banyak klip per hari?
 how-many-a-week = Hebat! Berapa banyak klip dalam seminggu?
 which-goal-type = Apakah Anda ingin Bicara, Mendengarkan, atau keduanya?
 receiving-emails-info = Saat ini Anda menetapkan untuk menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
 not-receiving-emails-info = Saat ini Anda menetapkan untuk <bold>TIDAK</bold> menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } klip
     }
 help-share-goal = Bantu kami menemukan lebih banyak suara, bagikan sasaran Anda

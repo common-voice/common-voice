@@ -66,7 +66,7 @@ sentence-variant-select-label = Mon ze awaz
 sentence-variant-select-placeholder = Warek Jagai (tan chituna)
 sentence-variant-select-multiple-variants = kia asta zuban/ ziada zuban
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Upload/ Jama kari. <nishan>                    </nishan> Sawin domain ani mondr

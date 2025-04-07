@@ -25,9 +25,6 @@ target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一�
 target-segment-add-voice = 添加您的聲音
 target-segment-learn-more = 瞭解更多
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = 舉報

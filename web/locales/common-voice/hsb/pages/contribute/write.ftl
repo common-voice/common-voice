@@ -66,7 +66,7 @@ sentence-variant-select-label = Sadowa warianta
 sentence-variant-select-placeholder = Wubjerće wariantu (na přeće)
 sentence-variant-select-multiple-variants = Powšitkowna rěč / wjacore warianty
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nahrajće <icon></icon> zjawnje wužiwajomne sady
@@ -82,6 +82,7 @@ accepted-files = Akceptowane datajowe typy: jenož .tsv
 minimum-sentences = Minimalna ličba sadow w dataji: 1.000
 maximum-file-size = Maksimalna datajowa wulkosć: 25 MB
 what-needs-to-be-in-file = Što dyrbi w mojej dataji być?
+what-needs-to-be-in-file-explanation = Prošu přepruwujće našu <templateFileLink>předłohowu dataju</templateFileLink>. Waše sady měli bjez prawa awtorstwa być (CC0 abo awtorizowane originalne dźěło wot zapodawarja) a jasne, gramatisce korektne a lochko čitajomne. Zapodate sady měli so něhdźe 10-15 sekundow čitać dać a njeměli žane ličby, swójske mjena a wosebite znamješka wobsahować.
 upload-progress-text = Nahraće běži…
 sc-bulk-submit-confirm = Wobkrućam, zo tute sady su <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo je nahrać.
 bulk-upload-success-toast = Wjace sadow nahrate

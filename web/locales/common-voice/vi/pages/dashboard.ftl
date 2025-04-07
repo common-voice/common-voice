@@ -41,24 +41,27 @@ finish-editing = Kết thúc chỉnh sửa trước?
 lose-changes-warning = Rời đi sẽ làm mất những thay đổi của bạn
 build-custom-goal = Xây dựng mục tiêu tùy chỉnh
 help-reach-hours-pluralized =
-    Giúp tiếp cận{ NUMBER($hours) ->
-       *[other] { $hours } giờ
-    } trong ngôn ngữ { $language } với mục tiêu cá nhân
+    { $hours ->
+       *[other] Giúp tiếp cận{ $hours } giờ trong ngôn ngữ { $language } với mục tiêu cá nhân
+    }
 help-reach-hours-general-pluralized =
-    Giúp Common Voice đạt{ NUMBER($hours) ->
-       *[other] { $hours } giờ
-    } trong một ngôn ngữ với mục tiêu cá nhân
+    { $hours ->
+       *[other] Giúp Common Voice đạt{ $hours } giờ trong một ngôn ngữ với mục tiêu cá nhân
+    }
 set-a-goal = Đặt một mục tiêu
 cant-decide = Không thể quyết định?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } giờ có thể đạt được chỉ trong hơn
-    } { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } tháng nếu
-    } { NUMBER($people) ->
-       *[other] { $people } người ghi
-    } { NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } đoạn thoại một ngày.
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } giờ có thể đạt được chỉ trong hơn { $periodMonths } tháng nếu { $people } người ghi { $clipsPerDay } đoạn thoại một ngày.
+                            }
+                    }
+            }
     }
 how-many-per-day = Tuyệt quá! Có bao nhiêu đoạn thoại mỗi ngày?
 how-many-a-week = Tuyệt quá! Có bao nhiêu đoạn thoại một tuần?
@@ -68,7 +71,7 @@ receiving-emails-info =
     cập nhật tiến độ của tôi và bản tin về Common Voice.
 not-receiving-emails-info = Hiện tại bạn đang được đặt thành <bold>KHÔNG</bold> nhận email như lời nhắc mục tiêu, cập nhật của tôi tiến độ và bản tin về Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } đoạn thoại
     }
 help-share-goal = Hãy giúp chúng tôi tìm thêm tiếng nói, chia sẻ mục tiêu của bạn

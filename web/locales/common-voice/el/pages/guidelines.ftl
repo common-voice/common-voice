@@ -3,6 +3,10 @@ guidelines-header = Οδηγίες συνεισφοράς
 guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισφοράς και επικύρωσης των προτάσεων και των ηχητικών αποσπασμάτων στο σύνολο δεδομένων του Common Voice
 voice-collection = Συλλογή φωνών
 sentence-collection = Συλλογή προτάσεων
+question-collection = Συλλογή ερωτήσεων
+
+## Voice Collection nav ids
+
 varying-pronunciations = Ποικίλες προφορές
 misreadings = Λάθη στην ανάγνωση
 offensive-content = Προσβλητικό περιεχόμενο
@@ -12,6 +16,9 @@ volume = Ένταση
 reader-effects = Εφέ ανάγνωσης
 just-unsure = Δεν γνωρίζετε;
 example = Παράδειγμα
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Οι διαφορετικές προφορές είναι ευπρόσδεκτες! Προσέξτε πολύ πριν απορρίψετε κάποιο απόσπασμα όπου, κατά τη γνώμη σας, ο αναγνώστης έχει προφέρει λανθασμένα μια λέξη, δεν έχει τονίσει τη σωστή συλλαβή ή έχει αγνοήσει τα σημεία στίξης. Υπάρχει μια μεγάλη ποικιλία προφορών, μερικές από τις οποίες ενδέχεται να μην έχετε ακούσει στην περιοχή σας. Δείξτε αρκετή επιείκεια ως ένδειξη εκτίμησης για τους ανθρώπους που μιλούν διαφορετικά από εσάς.
 varying-pronunciations-explanation-2 = Από την άλλη, αν θεωρείτε ότι ο αναγνώστης δεν έχει έρθει ποτέ ξανά αντιμέτωπος με τη λέξη και δεν μάντεψε σωστά την προφορά της, κάντε απόρριψη. Αν δεν γνωρίζετε σίγουρα, κάντε κλικ στο κουμπί «Παράλειψη».
 varying-pronunciations-example = Ο καιρός ήταν καλός.
@@ -47,11 +54,17 @@ reader-effects-explanation = Οι περισσότερες ηχογραφήσε�
 just-unsure-explanation = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, κάντε κλικ στο κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
 still-have-questions = Έχετε ακόμα ερωτήσεις;
 contact-common-voice = Επικοινωνήστε με την ομάδα του Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Δημόσιος τομέας
 citing-sentences = Παραπομπή προτάσεων
 adding-sentences = Προσθήκη προτάσεων
 reviewing-sentences = Έλεγχος προτάσεων
 sentence-domain = Τομέας πρότασης
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Είναι πολύ σημαντικό όλες οι προτάσεις κειμένου να ανήκουν στον <publicDomain>δημόσιο τομέα</publicDomain> (<cc0>cc0</cc0>), καθώς το σύνολο δεδομένων του Common Voice κυκλοφορεί με άδεια cc0. Μεταφορτώστε μια πρόταση μόνο εάν είστε σίγουροι για αυτό και συμπεριλάβετε πάντα τη σχετική παραπομπή.
 public-domain-explanation-2 = Οι καλύτερες προτάσεις για τη δημιουργία μιας χρήσιμης μηχανής αναγνώρισης ομιλίας είναι η καθομιλουμένη, η σύγχρονη γλώσσα. Μερικές ιδέες που θα σας βοηθήσουν να δημιουργήσετε προτάσεις είναι:
 public-domain-explanation-3 = Δημιουργήστε σύγχρονες, καθημερινές προτάσεις μόνοι σας, με τους φίλους σας ή με μια γλωσσική κοινότητα, για παράδειγμα μέσω μιας εκδήλωσης συγγραφής.
@@ -91,3 +104,25 @@ reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί
 reviewing-sentences-explanation-3 = Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις προς έλεγχο, βοηθήστε μας να συγκεντρώσουμε περισσότερες!
 domain-explanation = Ο τομέας αναφέρεται στο θέμα της πρότασης. Προς το παρόν, μπορείτε να επιλέξετε μεταξύ των παρακάτω:
+
+## Question collection ids
+
+adding-questions = Προσθήκη ερωτήσεων
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+what-makes-a-good-question-explanation = Μια καλή ερώτηση για σύνολα δεδομένων δημόσιας συμμετοχής θα πρέπει να:
+what-makes-a-good-question-explanation-criteria-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+what-makes-a-good-question-explanation-criteria-2 = Είναι γενικά επίκαιρη
+what-makes-a-good-question-explanation-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
+easy-to-understand = Εύκολη στην κατανόηση
+spelling-and-pronunciation = Ορθογραφία και στίξη
+length = Μήκος
+length-explanation = Θα πρέπει να είναι δυνατή η απάντηση της ερώτησης μέσα σε λίγες μόνο προτάσεις.
+dont-add-subheader = Να μη γίνει προσθήκη
+process-steps = Διαδικασία/Βήματα
+offensive-content-sensitive-information = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
+example-questions-subheader = Παραδείγματα ερωτήσεων
+example-questions-explanation-1 = Μπορείτε να βρείτε <examplePromptsLink>120 παραδείγματα προτροπών σε αυτό το φύλλο.</examplePromptsLink>
+example-questions-explanation-2 = Αν θέλετε να υποβάλετε μια σειρά από ερωτήσεις, <githubLink>μπορείτε να το κάνετε μέσω του GitHub μας</githubLink> ή να στείλετε μέσω email τη λίστα σας στο <emailFragment>commonvoice@mozilla.com</emailFragment>.

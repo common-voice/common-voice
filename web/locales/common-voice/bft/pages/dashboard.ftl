@@ -41,72 +41,72 @@ finish-editing = ینگ فچوکھہ بیو چھم چوگہ؟
 lose-changes-warning = فانگسے سونگسنہ یانگی بدل بیسپو ستورے گوین
 build-custom-goal = لق فچوسی ہلپو ہلژونگ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] تھونچوکپہ فری روخ بیوس، گھنٹہ، سوسوے تونگونہ یمبو
        *[other] تھونچوکپہ فری، گھنٹہ، سوسوے تونگونہ یمبو
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کامن واٸس تھونمہ فری روخ بیوس، سکتچی نہ یمبو سوسوے تونگو نہ یمبو وخنہ
        *[other] کامن واٸس تھونمہ فری روخ بیوس، سکتچی نہ یمبو سوسوے تونگو نہ یمبو وخنہ
     }
 set-a-goal = ہلچی فچوس
 cant-decide = چنگ زیربہ نین میدا؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = ہانگی سنا بینا، زیربینہ یا نیسکو ب
 receiving-emails-info = تنہ یانگلا کامن واٸسی رولنہ ای میل چی مقصدی بارینگ ایتو فیونگما، یری لس بزوے خبر اتارچی دیکھنہ خبری خط بط چی تھوبن۔
 not-receiving-emails-info = تہ یانگلا کامن واٸسی رولنہ ای میل چی مقصدی بارینگ ایتو فیونگما، یری لس بزوے خبر اتارچی دیکھنہ خبری خط بط چی میتھوبن۔
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] کلپ
        *[other] کلپ کن
     }

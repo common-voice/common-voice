@@ -32,11 +32,6 @@ target-segment-first-banner = Ацхыраара аԥҵараҿы раԥхьат
 target-segment-add-voice = Убжьы ацҵа
 target-segment-learn-more = Еиҳаны
 change-preferences = Аиқәыршәарақәа ԥсахтәуп
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Абжьқәа реизга
-contribute-sentence-collection-nav-header = Ажәеидҳәалақәа реизга
 login-signup = Аҭалара / Аҽҭаҩра
 vote-yes = Ааи
 vote-no = Мап

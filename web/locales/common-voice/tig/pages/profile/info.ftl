@@ -41,7 +41,6 @@ why-demographic = አግል ሚቱ አሊ ሙህም?
 accept-privacy = ከማ ዲብ <privacyLink>Privacy Policy</privacyLink>ሽርሕት ላህሌት ገበይ አንደ ወደኩም ናየ በያናት እግል ትጽቦጣ ሙዋፍቅ ኣና
 accept-privacy-title = ናይ ኽሱስይት ሰያስት
 login-identity = ናይ Login ሃዊይት
-login-signup = እተ/ሕሳብ ፍታሕ
 edit = ቀይር
 email-subscriptions = እሽትራካት ኢሜል
 download-profile = በያናትቸ ክረው

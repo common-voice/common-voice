@@ -66,7 +66,7 @@ sentence-variant-select-label = Varianti dâ frasi
 sentence-variant-select-placeholder = Scegghi na varianti (nun è ubbligatoriu)
 sentence-variant-select-multiple-variants = Lingua ginèrica / assai varianti
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Càrrica <icon></icon> frasi nnô duminiu pùbblicu

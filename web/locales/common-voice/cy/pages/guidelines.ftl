@@ -3,6 +3,10 @@ guidelines-header = Cyfrannu'n Effeithiol
 guidelines-header-subtitle = Deall sut i gyfrannu a dilysu brawddegau a chlipiau sain i set ddata Common Voice
 voice-collection = Casglu Lleisiau
 sentence-collection = Casglu Brawddegau
+question-collection = Casgliad Cwestiynau
+
+## Voice Collection nav ids
+
 varying-pronunciations = Ynganiadau Amrywiol
 misreadings = Camddarllen
 offensive-content = Cynnwys Amhriodol
@@ -12,6 +16,9 @@ volume = Sŵn
 reader-effects = Effeithiau'r Darllenydd
 just-unsure = Dal Ddim yn Siŵr?
 example = Esiampl
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Rydym yn croesawu acenion gwahanol! Byddwch yn ofalus iawn cyn gwrthod clip ar y sail eich bod yn meddwl bod y darllenydd wedi cam-ynganu gair, wedi rhoi’r pwyslais yn y lle anghywir, neu wedi anwybyddu atalnodi. Mae amrywiaeth eang o ynganiadau’n cael eu defnyddio ledled y byd, ac efallai nad ydych chi wedi clywed rhai ohonynt yn eich cymuned leol. Byddwch yn barod i ganiatáu fod rhai pobl yn siarad yn wahanol i chi.
 varying-pronunciations-explanation-2 = Ar y llaw arall, os credwch nad yw'r darllenydd fwy na thebyg erioed wedi dod ar draws y gair o'r blaen, a'i fod wedi dyfalu yn anghywir am yr ynganiad, gwrthodwch hynny. Os nad ydych chi'n siŵr, defnyddiwch y botwm Hepgor.
 varying-pronunciations-example = The route was unclear.
@@ -47,11 +54,17 @@ reader-effects-explanation = Mae'r mwyafrif o recordiadau yn bobl yn siarad yn e
 just-unsure-explanation = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
 still-have-questions = Rhagor o gwestiynau?
 contact-common-voice = Cysylltwch â thîm Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Parth Cyhoeddus
 citing-sentences = Dyfynnu Brawddegau
 adding-sentences = Ychwanegu Brawddegau
 reviewing-sentences = Adolygu Brawddegau
 sentence-domain = Parth Brawddeg
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Mae'n bwysig iawn bod pob brawddeg o destun yn un <publicDomain>parth cyhoeddus</publicDomain> (<cc0>cc0</cc0>) gan fod set ddata Common Voice yn cael ei rhyddhau o dan drwydded cc0. Dim ond os ydych yn siŵr o hynny y dylech lwytho brawddeg, a dylech gynnwys y cyfeiriad perthnasol bob tro.
 public-domain-explanation-2 = Y brawddegau gorau ar gyfer adeiladu peiriant adnabod lleferydd defnyddiol yw lleferydd llafar, modern. Dyma rhai syniadau i'ch helpu i greu brawddegau;
 public-domain-explanation-3 = Crëwch frawddegau modern, llafar ar eich pen eich hun neu gyda’ch ffrindiau neu’ch cymuned iaith – er enghraifft drwy gynnal ‘ysgrifennu-a-thon’!
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini pra
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 domain-explanation = Mae parth yn cyfeirio at bwnc testun y frawddeg. Ar hyn o bryd, gallwch ddewis rhwng:
+
+## Question collection ids
+
+adding-questions = Ychwanegu Cwestiynau
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Beth sy'n gwneud cwestiwn da?
+what-makes-a-good-question-explanation = Dylai  cwestiwn da ar gyfer setiau data cyfranogiad y cyhoedd fod:
+what-makes-a-good-question-explanation-criteria-1 = Yn hawdd i'w ddeall ac ymateb iddo
+what-makes-a-good-question-explanation-criteria-2 = Yn berthnasol yn gyffredinol
+what-makes-a-good-question-explanation-criteria-3 = Yn peidio â defnyddio, na cheisio, iaith niweidiol neu sarhaus
+what-makes-a-good-question-tip = Efallai yr hoffech chi hefyd ystyried cynnwys gwahanol gyd-destunau a pharthau.
+easy-to-understand = Yn Hawdd i'w Ddeall
+easy-to-understand-explanation = Dewiswch gwestiynau syml sy'n hawdd i unrhyw un eu deall, waeth beth fo'u diwylliant neu eu cyd-destun.
+spelling-and-pronunciation = Sillafu ac Atalnodi
+spelling-and-pronunciation-explanation = Defnyddiwch sillafu a gramadeg cywir.
+length = Hyd
+length-explanation = Dylai'r cwestiwn gael ei arteb mewn dim ond cwpl o frawddegau.
+dont-add-subheader = Peidiwch ag Ychwanegu
+culturally-specific-questions = Cwestiynau diwylliannol penodol
+culturally-specific-questions-explanation = Cwestiynau sy'n benodol iawn yn ddiwylliannol, neu sy'n gwneud llawer o ragdybiaethau am yr ymatebwr
+length-avoid-explanation = Cwestiynau y byddai rhywun yn cael trafferth ymateb iddyn nhw mewn 15 eiliad (uchafswm hyd y clip)
+process-steps = Proses / Camau
+process-steps-explanation = Cwestiynau sy'n gofyn i rywun restru sawl cam.  Mae rhestru camau yn annog y defnyddiwr i adrodd ateb yn hytrach nag ymateb mwy naturiol.
+offensive-content-sensitive-information = Cynnwys sarhaus neu wybodaeth sensitif
+offensive-content-sensitive-information-explanation-explanation-1 = Cwestiynau a allai ofyn am wybodaeth bersonol adnabyddadwy
+offensive-content-sensitive-information-explanation-explanation-2 = Cwestiynau a allai ysgogi lleferydd casineb neu deimladau rhagfarnllyd neu dramgwyddus eraill
+offensive-content-sensitive-information-explanation-explanation-3 = Cwestiynau a allai achosi i rywun rannu gwyodaeth sensitif, a allai sbarduno ymatebion
+example-questions-subheader = Cwestiynau enghreifftiol
+example-questions-explanation-1 = Gallwch ddod o hyd i <examplePromptsLink>120 awgrym enghreifftiol yn y daflen hon.</amplePromptsLink>
+example-questions-explanation-2 = Os hoffech chi gyflwyno swmp o gwestiynau i'w cynnwys, gallwch <githubLink> wneud hynny trwy ein GitHub</githubLink> neu e-bostiwch eich rhestr i <emailFragment>commonvoice@mozilla.com.</emailFragment>

@@ -36,11 +36,6 @@ target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w {
 target-segment-add-voice = Pśidajśo swój głos
 target-segment-learn-more = Dalšne informacije
 change-preferences = Nastajenja změniś
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Zběrka głosow
-contribute-sentence-collection-nav-header = Zběrka sadow
 login-signup = Pśizjawiś/Registrěrowaś
 vote-yes = Jo
 vote-no = Ně
@@ -52,7 +47,7 @@ submit-form-action = Wótpósłaś
 
 ## Reporting
 
-report = Rozpšawa
+report = K wěsći daś
 report-title = Rozpšawu wótpósłaś
 report-ask = Na kótare problemy z toś teju sadu starcyjośo?
 report-offensive-language = Njepśistojna rěc
@@ -69,7 +64,7 @@ report-other-comment =
     .placeholder = Komentar
 success = Wuspěch
 continue = Dalej
-report-success = Rozpšawa jo se wuspěšnje wótpósłała
+report-success = Zdźělenje jo se wuspěšnje wótpósłało
 
 ## Speak & Listen Shortcuts
 
@@ -133,18 +128,25 @@ contribution-misreadings-example-7-explanation = [‘a’ njejo w originalnem te
 contribution-misreadings-example-8-title = Tśmjel jo mimo leśeł.
 contribution-misreadings-example-8-explanation = [Wopśimjeśe njewótpowědujo]
 contribution-varying-pronunciations-title = Rozdźělne wugronjenja
+contribution-varying-pronunciations-description = Buźćo wobglědniwy, nježli až klip z wobtwarźenim wótpokazujośo, až cytaŕ jo wopak wugronił słowo, jo stajił pśizuk na wopacne městno abo pó zdaśu ignorěrował pšašak. Wjele wugronjenjow se pó cełem swěśe wužywa, snaź njejsćo słyšał někotare z nich w swójom lokalnem zgromaźeństwje. Pšosym pśizwólśo tym wěstu lichotnosć, kótarež hynac ako wy powědaju.
+contribution-varying-pronunciations-description-extended = Jolic pak měniśo, až cytaŕ nejskerjej jo namakał słowo pśez pśipad a jadnorje wopak wugódał wugronjenje, wótpokažćo pšosym. Jolic se wěsty njejsćo, wužywajśo tłocašk Pśeskócyś.
 contribution-background-noise-title = Slězynowe šumy
+contribution-background-noise-description = Comy, až algoritmuse mašinelnego wuknjenja mógu z wjelerakimi slězynowymi šumami wobchadaś a samo relatiwnje głosne šumy se akceptěruju, pód wuměnjenim, až tomu njezajźuju, až se ceły tekst słyšy.
 contribution-background-noise-description-extended = Jolic nagraśe pśetergnjo abo knykoco, wótpokažćo jo, snaźkuli cełkowny tekst jo hyšći słyšaś.
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Wjelicke dinosawrijarje <strong>[cough]</strong> triasa.
 contribution-background-noise-example-2-fixed-title = Wjelicki dino <strong>[cough]</strong> triasa.
 contribution-background-noise-example-2-explanation = [Źěl teksta njejo słyšaś]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> wjelicke dinosawrijarje <strong>[crackle]</strong> -riasa.
 contribution-background-voices-title = Slězynowe głose
+contribution-background-voices-description = Śiche slězynowe šumy su w pórědku, ale njocomy pśidatne głose, kótarež zawinuju, až mašinelny algoritmus słowa identificěrujo, kótarež njejsu w napisanem teksće. Jolic móžośo druge słowa słyšaś, kótarež njejsu w teksće, měł wy klip wótpokazaś. Zwětšego to se tam stawa, źož telewizor jo zašaltowany abo w bliskosći jo rozgrono.
 contribution-background-voices-description-extended = Jolic nagraśe pśetergnjo abo knykoco, wótpokažćo jo, snaźkuli cełkowny tekst jo hyšći słyšaś.
 contribution-background-voices-example-1-title = Wjelicke dinosawrijarje triasa. <strong>[cyta se wót jadnogo głosa]</strong>
 contribution-background-voices-example-1-explanation = Pśiźoš? <strong>[głos drugego]</strong>
 contribution-volume-title = Głosnosć
+contribution-volume-description = Dajo pśirodne wótchylenja w głosnosći mjazy cytarjami. Wótpokažćo jano, jolic głosnosć jo tak wusoka, až se nagraśe móli, abo (cesćej), jolic jo tak niska, až bźez napisanego teksta njesłyšyśo, což se groni.
 contribution-reader-effects-title = Efekty cytarja
+contribution-reader-effects-description = Nejwěcej nagraśow jo wót luźi, kótarež ze swójim pśirodnym głosom powědaju. Móžośo pśigóźbne njestandardne nagraśe akceptěrowaś, kótarež se woła, šepoco abo se pó zdaśu z „dramatiskim“ głosom póbitujo. Pšosym wótpokažćo wuspiwane nagraśa a take, kótarež z kompjuterom generěrowany głos wužywaju.
 contribution-just-unsure-title = Jano njewěsty?
+contribution-just-unsure-description = Jolic na něco starcyjośo, až toś tym směrnicam njewótpowědujo, głosujśo pšosym pó swójom nejlěpšem pósudku. Jolic napšawdu njamóžośo se rozsuźiś, wužywajśo tłocašk Pśeskócyś a pókšacujśo z pśiducym nagraśim.
 see-more = <chevron></chevron>Wěcej pokazaś
 see-less = <chevron></chevron>Mjenjej pokazaś

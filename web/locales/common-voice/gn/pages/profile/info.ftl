@@ -58,7 +58,6 @@ accept-privacy-title = Temiñemi Porureko
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
 login-identity = Tembiapo ñepyrũ réra
 login = Tembiapo Ñepyrũ
-login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
 edit = Mbosako’i
 email-subscriptions = Ñanduti veve Mboheraguapy
 download-profile = Kuaapyrã chemba’éva ñemboguejy

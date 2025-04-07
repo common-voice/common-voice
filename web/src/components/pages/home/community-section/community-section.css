@@ -97,6 +97,17 @@
                         background-clip: text;
                         -webkit-background-clip: text;
                         -webkit-text-fill-color: transparent;
+
+                        [dir='rtl'] & {
+                            background: linear-gradient(
+                                270deg,
+                                var(--red) 0%,
+                                var(--blue) 100%
+                            );
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
                     }
 
                     .toggle-icon {

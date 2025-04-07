@@ -66,7 +66,7 @@ sentence-variant-select-label = ته جملۀ ا قسُم مختلف
 sentence-variant-select-placeholder = ا قسم خوش کَۀ (اختیاري)
 sentence-variant-select-multiple-variants = عام زبان/ مختلف قسمی
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپ لوډ <icon> پبلک ډومېن جمله </icon>

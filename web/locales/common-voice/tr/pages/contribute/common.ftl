@@ -32,11 +32,6 @@ target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
 change-preferences = Tercihleri değiştir
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ses Toplama
-contribute-sentence-collection-nav-header = Cümle Toplama
 login-signup = Giriş / Kayıt
 vote-yes = Evet
 vote-no = Hayır

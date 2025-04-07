@@ -37,6 +37,11 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'sw',
+    variant_name: 'Katanga (DRC)',
+    variant_token: 'sw-katanga',
+  },
+  {
+    locale_name: 'sw',
     variant_name: 'Kiswahili Sanifu (EA)',
     variant_token: 'sw-sanifu',
   },
@@ -192,6 +197,11 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'ady',
+    variant_name: 'Адыгабзэ (Кирил, пстэумэ зэдыряе)',
+    variant_token: 'ady-Cyrl',
+  },
+  {
+    locale_name: 'ady',
     variant_name: 'Адыгабзэ (Кирил, Урысый)',
     variant_token: 'ady-RU',
   },
@@ -214,6 +224,11 @@ export const VARIANTS: Variant[] = [
     locale_name: 'ady',
     variant_name: 'Адыгабзэ (Кирил, Сирие)',
     variant_token: 'ady-Cyrl-SY',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, псоми зэдай)',
+    variant_token: 'kbd-Cyrl',
   },
   {
     locale_name: 'kbd',
@@ -402,6 +417,21 @@ export const VARIANTS: Variant[] = [
     variant_token: 'sva-lentekh',
   },
   {
+    locale_name: 'vi',
+    variant_name: 'Hà Nội',
+    variant_token: 'vi-hanoi',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Huế',
+    variant_token: 'vi-huett',
+  },
+  {
+    locale_name: 'vi',
+    variant_name: 'Sài Gòn',
+    variant_token: 'vi-saigon',
+  },
+  {
     locale_name: 'xmf',
     variant_name: 'ზუგიდური',
     variant_token: 'xmf-zugdid',
@@ -415,5 +445,20 @@ export const VARIANTS: Variant[] = [
     locale_name: 'xmf',
     variant_name: ' სენაკურ-მარტვილური',
     variant_token: 'xmf-senmar',
+  },
+  {
+    locale_name: 'lzz',
+    variant_name: 'Atinuri, Artaşenuri',
+    variant_token: 'lzz-atinuri',
+  },
+  {
+    locale_name: 'lzz',
+    variant_name: 'Vitzuri, Arkaburi',
+    variant_token: 'lzz-arkaburi',
+  },
+  {
+    locale_name: 'lzz',
+    variant_name: 'Xopuri',
+    variant_token: 'lzz-xopuri',
   },
 ]

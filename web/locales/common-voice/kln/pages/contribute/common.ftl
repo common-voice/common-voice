@@ -29,11 +29,6 @@ target-segment-first-banner = toret isiegei eng sauti nenayat nebo tai eng{ $loc
 target-segment-add-voice = teshi sautingung
 target-segment-learn-more = soman alak
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = kayumsetab sauti
-contribute-sentence-collection-nav-header = iyumnatetab ngalalutik
-
 ## Reporting
 
 report = istagan

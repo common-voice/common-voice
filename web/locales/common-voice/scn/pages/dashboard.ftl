@@ -39,25 +39,25 @@ finish-editing = Voi accabbari i canciamenti prima?
 lose-changes-warning = Si nesci ora, perdi chiḍḍu chi facisti
 build-custom-goal = Cria n'ubbittivu pirsunalizzatu
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ajuta a 'gghicari a un'ura 'n { $language } cu n'ubbittivu pirsunali
        *[other] Ajuta a 'gghicari a { $hours } uri 'n { $language } cu n'ubbittivu pirsunali
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ajuta Common Voice a 'gghicari a un'ura nta na lingua cu n'ubbittivu pirsunali
        *[other] Ajuta Common Voice a 'gghicari a { $hours } uri nta na lingua cu n'ubbittivu pirsunali
     }
 set-a-goal = Mposta n'ubbittivu
 cant-decide = Nun sai chi fari?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     un'ura nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -66,7 +66,7 @@ activity-needed-calculation-plural =
                                     un'ura nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     un'ura nna sulu un misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -76,9 +76,9 @@ activity-needed-calculation-plural =
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     un'ura nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -87,7 +87,7 @@ activity-needed-calculation-plural =
                                     un'ura nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     un'ura nna sulu { $periodMonths } misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -98,11 +98,11 @@ activity-needed-calculation-plural =
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     { $totalHours } uri nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -111,7 +111,7 @@ activity-needed-calculation-plural =
                                     { $totalHours } uri nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     { $totalHours } uri nna sulu un misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -121,9 +121,9 @@ activity-needed-calculation-plural =
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -132,7 +132,7 @@ activity-needed-calculation-plural =
                                     { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one]
                                     Si po agghicari a
                                     { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
@@ -147,7 +147,7 @@ how-many-per-day = Granni! Quanti riggistrazzioni ô jornu?
 how-many-a-week = Granni! Quanti riggistrazzioni â simana?
 which-goal-type = Vo' parrari, ascutari o tutti du'?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } riggistrazzioni
        *[other] { $count } riggistrazzioni
     }

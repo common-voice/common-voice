@@ -49,7 +49,6 @@ accept-privacy = Мозиллань  <privacyLink>Эсь тевень Полит
 accept-privacy-title = Эсь тевень политика
 login-identity = Совамовалонь ид
 login = Совамс
-login-signup = совамс/сёрмадстомс эсь прянть
 edit = Витнемс-петнемс
 email-subscriptions = Кучомс ёндол сёрмасо сёрмадстомат
 download-profile = Таргамс алтымасто монь датан

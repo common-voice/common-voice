@@ -8,7 +8,7 @@ citation =
 guidelines = mutudu'
 contact-us = kilimen kami
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

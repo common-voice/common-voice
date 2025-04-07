@@ -16,7 +16,7 @@ difficult-difficulty = ခက်ခဲ
 pro-difficulty = ပရို အဆင့်
 want-to-continue = သင် ဆက် လုပ်ဆောင် လိုပါ သလား?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] ကလစ် { $count } ခု
     }
 goal-interval-weekly = အပတ်စဉ်

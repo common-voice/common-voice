@@ -12,7 +12,7 @@ card-button-next = അടുത്തത്
 card-button-back = പിന്നോട്ട്
 demo-language-select-label = ഭാഷകൾ തിരയുക
 demo-eofy-header = 2019 വർഷാവസാന റിലീസ്
-demo-eofy-sub_header = ശബ്ദവിവരശേഖരം ഡൗൺലോഡിന് തയ്യാറാണ്
+demo-eofy-sub_header = ശബ്ദവിവരശേഖരം ഇറക്കിവയ്ക്കാൻ ഒരുക്കമുണ്ടു്.
 demo-account = അക്കൗണ്ട്
 
 ## Demo Account

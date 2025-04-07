@@ -1,35 +1,34 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
-import { LanguageStatistics } from 'common';
-import { DAILY_GOALS } from '../../../../constants';
+import { LanguageStatistics } from 'common'
 
-import ProgressBar from '../../../progress-bar/progress-bar';
+import ProgressBar from '../../../progress-bar/progress-bar'
 import {
   IconHours,
   IconLocalized,
   IconSentences,
   IconSpeakers,
   IconValidationProgress,
-} from './icons';
+} from './icons'
 
-import styles from './data.module.css';
+import styles from './data.module.css'
 
-const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 60;
+const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 60
 
 const LanguageCardDataLaunched = ({
   language,
 }: {
-  language: LanguageStatistics;
+  language: LanguageStatistics
 }) => {
   const { recordedHours, validatedHours, speakersCount, sentencesCount } =
-    language;
+    language
 
   const validationPercent =
     validatedHours && recordedHours
       ? Math.ceil((validatedHours / recordedHours) * 100)
-      : 0;
+      : 0
 
   return (
     <div className={styles.Data}>
@@ -69,15 +68,15 @@ const LanguageCardDataLaunched = ({
         <p className={styles.DataItemValue}>{sentencesCount.currentCount}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const LanguageCardDataInProgress = ({
   language,
 }: {
-  language: LanguageStatistics;
+  language: LanguageStatistics
 }) => {
-  const { sentencesCount, localizedPercentage } = language;
+  const { sentencesCount, localizedPercentage } = language
 
   return (
     <div className={styles.Data}>
@@ -109,29 +108,29 @@ const LanguageCardDataInProgress = ({
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const LanguageCardData = ({
   type,
   language,
 }: {
-  type: 'launched' | 'in-progress';
-  language: LanguageStatistics;
+  type: 'launched' | 'in-progress'
+  language: LanguageStatistics
 }) => {
   if (type === 'launched') {
     return (
       <LanguageCardDataLaunched language={language as LanguageStatistics} />
-    );
+    )
   }
 
   if (type === 'in-progress') {
     return (
       <LanguageCardDataInProgress language={language as LanguageStatistics} />
-    );
+    )
   }
 
-  return null;
-};
+  return null
+}
 
-export default LanguageCardData;
+export default LanguageCardData

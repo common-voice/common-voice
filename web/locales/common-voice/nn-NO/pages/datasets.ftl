@@ -8,8 +8,11 @@ datasets-positioning =
     Common Voices fleirspråklege datasett er allereie det største offentleg tilgjengelege stemmedatasettet av sitt slag, men det er ikkje det einaste.
     
     Sjå på denne sida som eit referansemidtpunkt for andre datasett med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
+datasets-speech-bubble-content = Spennande nyheiter! Spontantale er på veg! Følg med for oppdateringar, og sørg for å sjekke <discordLink>Discord</discordLink> for den nyaste informasjonen.
 language = Språk
 download-dataset-header = Last ned datasettet
+download-delta-explainer = Vi har gjort nokre endringar. «Delta Segments» inneheld berre dei aller nyaste lydklippa etter siste utgjeving. <deltaLink>Les meir on denne endringa</deltaLink>.
+download-dataset-tag = Vel datasettet for språket du treng, deretter versjonen du ønskjer laste ned.
 # File size in gigabytes
 size = Storleik
 validated-hr-total = Totalt validerte timar
@@ -63,10 +66,13 @@ dataset-version = Versjon
 sha256-checksum-copied = SHA256-kontrollsum kopiert!
 sha256-checksum-copied-error = Klarte ikkje å kopiere SHA256-kontrollsummen
 clipboard-not-supported = Utklippstavle ikkje støtta
+no-information-available = Ingen informasjon tilgjengeleg
 dataset-metadata-sex = Kjønn
 # dataset metadata - age of contributor
 dataset-metadata-age = Alder
+donate-modal-message = Datasettet ditt blir lasta ned!
 dataset-donate-modal-heading = Visste du at…
+donate-modal-explanation-1 = Det kostar nesten ein million dollar i året å vere vert for datasetta og forbetre plattforma for dei over 100 språksamfunna som er avhengige av det vi gjer?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Om du set pris på opne, inkluderande data – doner i dag!</bold>
 data-download-singleword-title = Last ned målsegmentet for eitt ord
@@ -88,3 +94,7 @@ release-version = Versjon
 dataset-date = Dato
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Last ned stemmedatasetta våre
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Nedlastingsalternativ for tilgang til Common Voice-data

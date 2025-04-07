@@ -66,7 +66,7 @@ sentence-variant-select-label = Meningsvariant
 sentence-variant-select-placeholder = Välj en variant (valfritt)
 sentence-variant-select-multiple-variants = Allmänt språk / flera varianter
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ladda upp <icon></icon> meningar som är allmän egendom

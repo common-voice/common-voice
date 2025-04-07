@@ -29,11 +29,6 @@ target-segment-first-banner = zlakam afa magra mifəcaba ya fətek a ga awazlaha
 target-segment-add-voice = mavəlala awazlaha
 target-segment-learn-more = masəlakala vvaɗ
 change-preferences = mambəɗaka yana moŋgov lele
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = magayakaba awazlaha
-contribute-sentence-collection-nav-header = magayakaba kwatar a
 login-signup = ɓəlamkal
 vote-yes = iye
 vote-no = iyas

@@ -4,8 +4,6 @@
 error = Error
 action-click = Feu clic a
 action-tap = Toqueu
-# Label for language switcher
-interface-language = Llengua de la interfície:
 # Label for button on contribution switcher
 change = Canvia
 coming-soon = Aviat hi haurà més llengües disponibles

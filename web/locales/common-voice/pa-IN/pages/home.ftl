@@ -80,6 +80,8 @@ read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹ
 
 ## NAV ITEMS
 
+add-questions = ਸਵਾਲਾਂ ਨੂੰ ਜੋੜੋ
+community-and-languages = ਸਮਾਜ ਅਤੇ ਭਾਸ਼ਾਵਾਂ
 
 ## MENU ITEMS TOOLTIPS
 

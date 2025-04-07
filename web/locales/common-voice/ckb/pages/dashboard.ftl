@@ -41,38 +41,85 @@ finish-editing = سەرەتا دەستکاریکردن تەواو بکەین؟
 lose-changes-warning = ئەگەر ئێستا بڕۆی گۆڕانکارییەکانت لە دەست دەچن
 build-custom-goal = ئامانجێکی تاکەکەسی درووست بکە
 help-reach-hours-pluralized =
-    یارمەتیمان بە بگەین{ NUMBER($hours) ->
-        [one] { $hours } کاتژمێر
-       *[other] { $hours } کاتژمێر
-    } بە ئامانجی کەسی لە زمانی { $language }
+    { $hours ->
+        [one] یارمەتیمان بە بگەین{ $hours } کاتژمێر بە ئامانجی کەسی لە زمانی { $language }
+       *[other] یارمەتیمان بە بگەین{ $hours } کاتژمێر بە ئامانجی کەسی لە زمانی { $language }
+    }
 help-reach-hours-general-pluralized =
-    یارمەتی بدە پڕۆژەی دەنگی گشتی لەڕێگەی ئامانجی کەسی بگات بە{ NUMBER($hours) ->
-        [one] { $hours } کاژێر
-       *[other] { $hours } کاژێر
-    }لە زمانی داخوازت
+    { $hours ->
+        [one] یارمەتی بدە پڕۆژەی دەنگی گشتی لەڕێگەی ئامانجی کەسی بگات بە{ $hours } کاژێرلە زمانی داخوازت
+       *[other] یارمەتی بدە پڕۆژەی دەنگی گشتی لەڕێگەی ئامانجی کەسی بگات بە{ $hours } کاژێرلە زمانی داخوازت
+    }
 set-a-goal = دیاری کردنی ئامانج
 cant-decide = ناتوانی بڕیار بدەی؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } کاژێر
-       *[other] { $totalHours } کاژێر
-    }لە ماوەی{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } مانگ
-       *[other] { $periodMonths } مانگ
-    } کۆ دەبێتەوە ئەگەر{ NUMBER($people) ->
-        [one] { $people } کەس
-       *[other] { $people } کەس
-    } ڕۆژانە{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } کلیپ
-       *[other] { $clipsPerDay } کلیپ
-    } تۆمار بکەن.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
+                            }
+                    }
+            }
+    }
 how-many-per-day = بژی! چەند کلیپ لە ڕۆژێکدا؟
 how-many-a-week = بژی! چەند کلیپ لە هەفتەیەکدا؟
 which-goal-type = دەتەوێ قسە بکەی، ببیستی یان هەردووکیان؟
 receiving-emails-info = تۆ ئێستا تۆمار کراوی بۆ وەگرتنی پۆستی ئەلیکترۆنی سەبارەت بە وەبیرهێنەرەوەی ئامانجەکان، پێشکەوتنت و هەروەها هەواڵنامەی دەنگی گشتی.
 not-receiving-emails-info = ئێستا تۆ دیاریت کردووە کە پۆستی ئەلیکترۆنیەکانی وەبیرخستەنەوەی ئامامنجەکان، پێشکەوتنت و هەواڵنامەکانی پڕۆژەی دەنگی گشتی <bold>وەرنەگری</bold>.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }کلیپ
        *[other] { $count }کلیپەکان
     }

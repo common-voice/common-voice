@@ -12,5 +12,14 @@ add-sentence-success = 1 setningu safnað
 add-sentence-error = Villa við að bæta við setningu
 required-field = Fylltu út í þennan reit.
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
+
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 

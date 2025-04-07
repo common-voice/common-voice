@@ -25,9 +25,6 @@ target-segment-first-banner = Common Voice -тың { $localale } үшін бір
 target-segment-add-voice = Өз даусыңызды қосыңыз
 target-segment-learn-more = Көбірек білу
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Есеп

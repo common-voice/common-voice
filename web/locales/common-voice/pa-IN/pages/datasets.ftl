@@ -42,3 +42,5 @@ release-version = ਵਰਜ਼ਨ
 dataset-date = ਤਾਰੀਖ
 license = ਲਸੰਸ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ਰਲਵੇਂ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ਸਾਡੇ ਆਵਾਜ਼ ਡਾਟਾ-ਸੈੱਟ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ

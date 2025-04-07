@@ -8,6 +8,7 @@ different_language = Oare taal
 different_language-detail = De ynhâld befettet in oare taal as ik ferwachte hie.
 personally_identifiable_information = Persoanlik identifisearbere ynformaasje
 personally_identifiable_information-detail = Dizze ynhâld befettet persoanlik identifisearbere ynformaasje yn ferbân mei de identiteit fan in yndividu, lykas harren namme, e-mailadres, lokaasje, identifikaasjenûmer of telefoannûmer.
+personally_identifiable_information-answer-detail = Dizze ynhâld freget om persoanlik identifisearbere ynformaasje yn ferbân mei de identiteit fan in yndividu, lykas harren namme, e-mailadres, lokaasje, identifikaasjenûmer of telefoannûmer.
 report-other-comment =
     .placeholder = Opmerking
 # Label for textarea in report modal

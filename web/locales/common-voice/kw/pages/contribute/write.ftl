@@ -66,7 +66,7 @@ sentence-variant-select-label = Varien Lavar
 sentence-variant-select-placeholder = Dewisewgh varien (a-dhewis)
 sentence-variant-select-multiple-variants = Yeth ollgemmyn / lies varien
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ughkargewgh <icon></icon> lavarow arlotteth poblek

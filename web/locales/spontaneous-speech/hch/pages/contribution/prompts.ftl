@@ -1,4 +1,5 @@
 ## Prompts page
+
 record-player-header = Pehaʼewatɨ ke naʼakaʼɨki
 mic-access-error = Penetsipitɨame Micrófonotsie pemeukaniuni
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
@@ -16,7 +17,9 @@ delete = Ke nakayeitɨa
 submitted = Kaneyunɨʼani
 # For the button on the Respond to prompts page which can be used to submit all responses at once
 submit-all-button = Naime ke nanunɨʼa
+
 ## Explainer text (Respond to Prompt)
+
 learn-how-to-use-prompts = Ikɨ página ke mɨtimayɨiwa ke netimaatí
 learn-how-to-use-prompts-explanation = Ikɨ ʼiwaurika hútame niukiyarikɨ yaʼayatɨkaimekɨ ke neutaʼeiya ke pemɨtiyɨweni ʼatsipekatikuʼeriwatɨ ke pemɨtiuniuka.
 learn-how-to-use-prompts-guidance = Clic ke neupɨna <guidanceLink>ʼena</guidanceLink> ʼikɨ página ke mɨtimayɨiwa pemeitimaaníkɨ

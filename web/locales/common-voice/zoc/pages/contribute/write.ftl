@@ -66,7 +66,7 @@ sentence-variant-select-label = 'Usyanh käkajkubä te' 'eyabä ode.
 sentence-variant-select-placeholder = Kobiwä te' mij 'mode'is tyä (mne'käde 'uka sutpa mdsäkä).
 sentence-variant-select-multiple-variants = Tumäbä 'ode / 'eya'eyada'mbä mij 'mode'is tyäda'm.
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Yajki'mja te' mumu'ikodabä 'ode'is jyaye <icon></icon>

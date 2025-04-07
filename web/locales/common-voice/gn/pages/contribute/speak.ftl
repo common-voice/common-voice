@@ -62,6 +62,8 @@ create-profile-button = Emoheñói mba’ete
 img-alt-success-checkmark = marca ojehayhúva
 # menu item
 read-sentences = Emoñe’ẽ ñe’ẽjuaju
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Emoñe’ẽ ñe’ẽjuaju <small>(Tenondeve)</small>
 
 ## MENU ITEM TOOLTIPS
 

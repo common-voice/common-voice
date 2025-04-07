@@ -4,9 +4,8 @@
 error = Ntìvɨ́
 action-click = Klik
 action-tap = Kuàxin
-# Label for language switcher
-interface-language = Tù'un nuu ya'á
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Tyinei nú nuu kava va'a tutu jiè'è { $language }
 # Label for button on contribution switcher
 change = Sama
@@ -26,7 +25,6 @@ contribute = Tyinei
 ## Navbar
 
 respond-to-prompt = Natyiso nuu jika tù'un
-transcribe-audio = Natee a teso'o nu
 check-transcriptions = Naka’vi a natee nu
 
 ## Not Found Page

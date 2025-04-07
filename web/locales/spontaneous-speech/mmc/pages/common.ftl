@@ -4,9 +4,8 @@
 error = Y'à gá kjàkjo
 action-click = Síb'i
 action-tap = Síb'i ngék'o rá só'o rí 'ópjü
-# Label for language switcher
-interface-language = Jñatjo
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Nuts'k'é gí pë́pji yó jângo jñatjo { $language }
 # Label for button on contribution switcher
 change = Pö̀tüji
@@ -26,7 +25,6 @@ contribute = Pö̀xti
 ## Navbar
 
 respond-to-prompt = Chǘtjü nutö̌nü
-transcribe-audio = Rií 'òpjü k'o xíts'iji
 check-transcriptions = Né'me k'o í yòpjü
 
 ## Not Found Page

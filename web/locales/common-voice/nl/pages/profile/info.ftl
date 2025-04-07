@@ -56,7 +56,6 @@ accept-privacy-title = Privacybeleid
 accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink> van Common Voice
 login-identity = Aanmeldingsidentiteit
 login = Aanmelden
-login-signup = Aanmelden / Registreren
 edit = Bewerken
 email-subscriptions = E-mailinschrijvingen
 download-profile = Mijn gegevens downloaden

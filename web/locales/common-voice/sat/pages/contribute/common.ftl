@@ -29,9 +29,6 @@ target-segment-first-banner = { $locale } ᱨᱮ Common Voice ᱨᱮᱭᱟᱜ �
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = ᱨᱤᱯᱚᱴ

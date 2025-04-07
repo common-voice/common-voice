@@ -1,8 +1,5 @@
 contribute = Մասնակցիլ
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

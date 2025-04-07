@@ -38,7 +38,6 @@ why-demographic = ¿Achike ruma k'atzinel re'?
 accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
 accept-privacy-title = Ichinan Na'oj
 login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
-login-signup = Titikirisäx Molojri'ïl / Titz'ib'äx B'i'aj
 edit = Tinuk'
 email-subscriptions = Tz'ib'axïk B'i'aj pa Taqoya'l
 download-profile = Keqasäx taq nutzij

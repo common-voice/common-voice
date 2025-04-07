@@ -79,8 +79,12 @@ read-more-about = Přečtěte si více na stránce O nás
 ## NAV ITEMS
 
 answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
+answer-questions-coming-soon = Odpovídejte na otázky <small>(Již brzy)</small>
 review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
+review-transcriptions-coming-soon = Kontrolujte přepisy <small>(již brzy)</small>
 add-questions = Přidat otázky <small>(Již brzy)</small>
+add-questions-coming-soon = Přidat otázky <small>(Již brzy)</small>
+transcribe-audio-coming-soon = Přepisujte zvuk <small>(již brzy)</small>
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
@@ -115,34 +119,74 @@ get-started = Začněte <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice je bezplatná platforma s otevřeným zdrojovým kódem pro komunitní tvorbu dat
+action-items-section-subtitle = Každý může zachovat, oživit a povznést svůj jazyk sdílením, vytvářením a kurátorstvím textových a řečových datových souborů.
+scripted-card-header = Skritpovaná řeč
+scripted-card-content = Čtěte věty nahlas ve svém jazyce a přispějte do nejrozmanitějšího souboru dat o řeči veřejnosti na světě.
 spontaneous-card-header = Spontánní řeč
-coming-soon = Již brzy
+spontaneous-card-content = Reagujte na výzvy k vytvoření datových sad pro organické, hovorové kontexty. Ideální pro první ústní jazyky.
+language-text-card-header = Text jazyka
+language-text-card-content = Vytvářejte nebo sdílejte veřejné výzvy, věty a texty pro překlad, malé jazykové modely a další.
 add-text = Přidat text
 
 ## Community section
 
+community-section-title = Poháněno globálními komunitami, pro globální komunity — 130 jazyků a stále roste!
 join-discord-community = Připojte se ke komunitě Discord
 # label for button
 join-discord-community-action = Přidejte si nás na Discordu
+join-discord-community-content = Zapojte se do diskusí jazykové komunity, pokládejte dotazy a dozvíte se o nadcházejících akcích a přednáškách.
 find-us-on-matrix = Najdete nás na Matrixu
+find-us-on-matrix-content = Matrix je otevřený, odlehčený protokol pro decentralizovanou komunikaci v reálném čase a preferovaná otevřená diskusní platforma Mozilly.
 # label for button
 find-us-on-matrix-action = Najdete nás na Matrixu
 ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
+ask-mozilla-share-content = Máte předchozí nebo nadcházející událost? Podělte se s námi o ni a my ji oznámíme naší komunitě nebo o ní napíšeme blog!
+# label for button
+ask-mozilla-share-action = Sdílejte svou událost
+download-contribution-certificate = Stáhněte si potvrzení o příspěvku
+download-contribution-certificate-content = Stáhněte si certifikát pro své akce nebo pro sebe, pokud jste přispěli do Common Voice — bez vás by to nebylo možné!
 # label for button
 download-contribution-certificate-action = Získejte svůj certifikát
 contribute-github = Přispívejte na GitHubu
+contribute-github-content = Tento projekt by nebyl možný bez lidí, jako jste vy. 🎉 Do projektu Common Voice se můžete zapojit mnoha způsoby - nemusíte umět programovat, abyste mohli přispět!
+# label for button
+contribute-github-action = Přispívejte na GitHubu
 
 ## Featured section
 
+featured-section-title = Psali o nás...
+# icon is an arrow that points downwards
+download-press-pack = Stáhněte si náš novinářský balíček <icon></icon>
 
 ## Developers section
 
+developers-section-title = Veřejně přístupné otevřené řečové datasety ve více než 130 jazycích
+developers-section-subtitle = Datasety pro ASR, STT, TTS a další kontexty NLP - vytvořené za účasti komunity.
+# icon is an arrow that points to the right
+explore-datasets = Prozkoumejte datasety <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Podpora otevřených, komunitně vedených datových souborů
 read-sentences-link = Čtení vět
+validate-readings-link = Ověřujte čtení textu
+contribute-link = Přispějte do textového korpusu
 answer-questions-link = Odpovídání na otázky
+transcribe-answers-link = Přepisujte odpovědi
+review-transcriptions-link = Kontrolujte přepisy
+contribute-text-link = Přispívejte textem
+press-and-stories-link = Tisk a příběhy
 
 ## Partner section
 
 partner-section-title = Staňte se našimi partnery
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Technologické společnosti</bold> - investujte do tvorby otevřených datových sad pro prosperující vícejazyčný ekosystém umělé inteligence.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Občanská společnost a výzkumní pracovníci</bold> - vytvářejte, hostujte a sdílejte zdarma datové sady s dopadem na životní prostředí
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropie</bold> - sponzorování tvorby datových sad pro podporu místních inovací a rozvoje
+# icon is an arrow that points to the right
+get-in-touch-button = Kontaktujte nás <icon></icon>
+# Partners section
+our-partners-include = Mezi naše partnery patří...

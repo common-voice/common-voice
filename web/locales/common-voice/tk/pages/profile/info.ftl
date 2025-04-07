@@ -45,7 +45,6 @@ why-demographic-explanation-2 = Ýaş, jyns we şiwe ýaly anonimleşdirilen ula
 accept-privacy = Men bu maglumaty Mozillanyň <privacyLink>Gizlinlik syýasatynda</privacyLink> düşündirişiňiz ýaly ulanmagyňyz bilen razylaşýaryn.
 accept-privacy-title = Gizlinlik syýasaty
 login-identity = Giriş şahsyýetligi
-login-signup = Gir / Ýazyl
 edit = Redaktirle
 email-subscriptions = E-poçta abunalary
 download-profile = Maglumatymy göçürip al

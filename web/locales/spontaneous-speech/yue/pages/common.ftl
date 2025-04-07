@@ -4,9 +4,8 @@
 error = 錯誤
 action-click = 撳
 action-tap = 敲
-# Label for language switcher
-interface-language = 界面語言：
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 貢獻數據到{ $language }
 # Label for button on contribution switcher
 change = 更改
@@ -25,7 +24,6 @@ contribute = 貢獻
 
 ## Navbar
 
-transcribe-audio = 轉寫語音
 check-transcriptions = 檢查轉寫
 
 ## Not Found Page

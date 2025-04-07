@@ -8,6 +8,7 @@ datasets-positioning =
     ຊຸດຂໍ້ມູນຫຼາຍພາສາຂອງ Common Voice ແມ່ນຊຸດຂໍ້ມູນສຽງທີ່ມີໃຫ້ສາທາລະນະທີ່ໃຫຍ່ທີ່ສຸດແລ້ວ, ແຕ່ມັນບໍ່ແມ່ນອັນດຽວ.
     
     ເບິ່ງໜ້ານີ້ເປັນສູນອ້າງອີງສຳລັບຊຸດຂໍ້ມູນສຽງແຫຼ່ງເປີດອື່ນໆ ແລະ, ເນື່ອງຈາກ Common Voice ສືບຕໍ່ຂະຫຍາຍຕົວ, ເປັນບ້ານສຳລັບການອັບເດດການປ່ອຍຕົວຂອງພວກເຮົາ.
+datasets-speech-bubble-content = ຂ່າວດີ! ການປາກເວົ້າແບບບໍ່ມີຕົວຕົນແມ່ນຢູ່ໃນທາງ! ຕິດຕາມການອັບເດດ ແລະ ໃຫ້ແນ່ໃຈວ່າກວດເບິ່ງ <discordLink>Discord</discordLink> ຂອງພວກເຮົາສໍາລັບຂໍ້ມູນຫຼ້າສຸດ.
 language = ພາສາ
 download-dataset-header = ດາວໂຫລດຊຸດຂໍ້ມູນ
 download-delta-explainer = ພວກເຮົາໄດ້ເຮັດການປ່ຽນແປງບາງຢ່າງ. Delta Segments ພຽງແຕ່ມີຄລິບຫຼ້າສຸດນັບຕັ້ງແຕ່ການປ່ອຍຄັ້ງສຸດທ້າຍ. <deltaLink>ອ່ານເພີ່ມເຕີມກ່ຽວກັບວຽກງານນີ້</deltaLink>.
@@ -94,3 +95,7 @@ release-version = ລູ້ນ​
 dataset-date = ວັນທີ
 license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ປະສົມກັນ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ດາວໂຫລດຊຸດຂໍ້ມູນສຽງຂອງພວກເຮົາ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ຕົວເລືອກການດາວໂຫຼດເພື່ອເຂົ້າເຖິງຂໍ້ມູນ Common Voice

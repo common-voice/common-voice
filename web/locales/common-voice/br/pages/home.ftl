@@ -89,6 +89,7 @@ answer-questions-coming-soon = Respont da c'houlennoù <small>(a-raok pell)</sma
 review-transcriptions = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
 review-transcriptions-coming-soon = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
 add-questions = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
+add-questions-coming-soon = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
 transcribe-audio-coming-soon = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 transcribe-audio = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 press-and-stories = Kazetennoù ha pennadoù
@@ -131,7 +132,6 @@ spontaneous-card-header = Komz naturel
 spontaneous-card-content = Respont d'ar goulennoù evit krouiñ strobadoù roadennoù gant kendestennoù implij pemdeziek pe laosk. Eus ar c'hentañ evit ar yezhoù hep hengoun lennegel.
 language-text-card-header = Testennoù en ho yezh
 language-text-card-content = Krouiñ pe rannañ kemennadennoù, frazennoù ha testennoù en domani foran, prest da vezañ troet, evit sevel patromoù evit yezhoù bihan pe muioc'h
-coming-soon = Dizale
 add-text = Ouzhpennañ un destenn
 
 ## Community section

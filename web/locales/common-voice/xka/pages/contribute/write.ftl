@@ -66,7 +66,7 @@ sentence-variant-select-label = جولال اؘ تغیر
 sentence-variant-select-placeholder = اوتھا اؘ متغیر خوشا۔
 sentence-variant-select-multiple-variants = عام جب اؘ متعدد متغیرات
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومین جولال اوکلا

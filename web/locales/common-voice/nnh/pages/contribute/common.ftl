@@ -27,11 +27,6 @@ target-segment-add-voice = Pi gɔɔn mmó me káa
 target-segment-learn-more = Nyìŋ ne nkwoŋo lekẅʼi nzsé
 change-preferences = Pi kúbe shúm sie pi kɔʼɔ ne nkwóŋo tɛʼ na metsɔ́
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Gi mmó lɔg ntóonte Nav Items
-contribute-sentence-collection-nav-header = Lecuʼte meno mie me gɔ̌ɔn me kaa
-
 ## Reporting
 
 report = PI gɔɔn mmó gie pi gyǎ

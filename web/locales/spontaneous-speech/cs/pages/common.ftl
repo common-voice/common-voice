@@ -5,9 +5,12 @@ error = Chyba
 action-click = Klepnout
 action-tap = Klepněte
 # Label for language switcher
-interface-language = Jazyk rozhraní:
+platform-language = Jazyk platformy:
+platform-language-tooltip-text = Změní pouze text na webových stránkách.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Přispívání do datové sady pro jazyk { $language }
+contribution-picker-tooltip-text = Změní jazykovou datovou sadu, do které přispíváte.
 # Label for button on contribution switcher
 change = Změnit
 coming-soon = Další jazyky již brzy
@@ -22,12 +25,14 @@ report-button = Hlášení
 skip-button = Přeskočit
 submit-button = Odeslat
 contribute = Přispět
+request-new-language = Požádat o nový jazyk
 
 ## Navbar
 
 respond-to-prompt = Odpovědět na výzvu
-transcribe-audio = Přepis zvuku
+transcribe = Přepis
 check-transcriptions = Zkontrolovat přepisy
+question = Otázka
 
 ## Not Found Page
 

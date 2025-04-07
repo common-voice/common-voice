@@ -41,38 +41,85 @@ finish-editing = Terminar a edição primeiro?
 lose-changes-warning = Se sair agora, perderá suas alterações
 build-custom-goal = Criar uma meta personalizada
 help-reach-hours-pluralized =
-    Ajudar a alcançar { NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    } em { $language } com uma meta pessoal
+    { $hours ->
+        [one] Ajudar a alcançar { $hours } hora em { $language } com uma meta pessoal
+       *[other] Ajudar a alcançar { $hours } horas em { $language } com uma meta pessoal
+    }
 help-reach-hours-general-pluralized =
-    AJudar o Common Voice a alcançar reach { NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    } em um idioma com uma meta pessoal
+    { $hours ->
+        [one] AJudar o Common Voice a alcançar reach { $hours } hora em um idioma com uma meta pessoal
+       *[other] AJudar o Common Voice a alcançar reach { $hours } horas em um idioma com uma meta pessoal
+    }
 set-a-goal = Defina uma meta
 cant-decide = Está indeciso?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } horas
-    } é alcançável em apenas { NUMBER($periodMonths) ->
-        [one] { $periodMonths } mês
-       *[other] { $periodMonths } meses
-    } se { NUMBER($people) ->
-        [one] { $people } pessoa
-       *[other] { $people } pessoas
-    } gravar { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } clipe
-       *[other] { $clipsPerDay } clipes
-    } por dia.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora é alcançável em apenas { $periodMonths } mês se { $people } pessoa gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } hora é alcançável em apenas { $periodMonths } mês se { $people } pessoa gravar { $clipsPerDay } clipes por dia.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora é alcançável em apenas { $periodMonths } mês se { $people } pessoas gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } hora é alcançável em apenas { $periodMonths } mês se { $people } pessoas gravar { $clipsPerDay } clipes por dia.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora é alcançável em apenas { $periodMonths } meses se { $people } pessoa gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } hora é alcançável em apenas { $periodMonths } meses se { $people } pessoa gravar { $clipsPerDay } clipes por dia.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora é alcançável em apenas { $periodMonths } meses se { $people } pessoas gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } hora é alcançável em apenas { $periodMonths } meses se { $people } pessoas gravar { $clipsPerDay } clipes por dia.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas é alcançável em apenas { $periodMonths } mês se { $people } pessoa gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } horas é alcançável em apenas { $periodMonths } mês se { $people } pessoa gravar { $clipsPerDay } clipes por dia.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas é alcançável em apenas { $periodMonths } mês se { $people } pessoas gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } horas é alcançável em apenas { $periodMonths } mês se { $people } pessoas gravar { $clipsPerDay } clipes por dia.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas é alcançável em apenas { $periodMonths } meses se { $people } pessoa gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } horas é alcançável em apenas { $periodMonths } meses se { $people } pessoa gravar { $clipsPerDay } clipes por dia.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas é alcançável em apenas { $periodMonths } meses se { $people } pessoas gravar { $clipsPerDay } clipe por dia.
+                               *[other] { $totalHours } horas é alcançável em apenas { $periodMonths } meses se { $people } pessoas gravar { $clipsPerDay } clipes por dia.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Ótimo! Quantos clipes por dia?
 how-many-a-week = Ótimo! Quantos clipes por semana?
 which-goal-type = Quer falar, ouvir ou ambos?
 receiving-emails-info = Sua conta está configurada para receber emails, como lembretes de metas, informações de progresso e novidades sobre o Common Voice
 not-receiving-emails-info = No momento, sua conta está configurada para <bold>NÃO</bold> receber emails, como lembretes de metas, informações do seu progresso e boletins informativos sobre o Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clipe
        *[other] { $count } clipes
     }

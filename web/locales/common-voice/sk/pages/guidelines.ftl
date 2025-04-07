@@ -3,6 +3,10 @@ guidelines-header = Pokyny pre prispievanie
 guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a zvukové nahrávky do kolekcie údajov Common Voice
 voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
+question-collection = Zbierka otázok
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rôzne výslovnosti
 misreadings = Nesprávne prečítané
 offensive-content = Urážlivý obsah
@@ -12,6 +16,9 @@ volume = Hlasitosť
 reader-effects = Efekty od čítajúceho
 just-unsure = Len si nie ste istí?
 example = Príklad
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Vítame rôzne prízvuky. Buďte veľmi opatrní pred odmietnutím nahrávky z dôvodu, že si myslíte, že čitateľ nesprávne vyslovil nejaké slovo, umiestnil dôraz na nesprávne miesto alebo ignoroval interpunkciu. Vo svete sa používa široká škála výslovností, pričom niektoré z nich ste vo svojej miestnej komunite možno ešte nepočuli. Poskytnite, prosím, veľkú mieru uznania tým, ktorí môžu hovoriť inak ako vy.
 varying-pronunciations-explanation-2 = Na druhej strane, ak si myslíte, že čítajúci sa s týmto slovom ešte nikdy nestretol a nesprávne odhaduje výslovnosť, odmietnite ho. Ak si nie ste istí, použite tlačidlo preskočiť.
 varying-pronunciations-example = Trasa bola nejasná.
@@ -47,11 +54,17 @@ reader-effects-explanation = Väčšina nahrávok je od ľudí, ktorí hovoria s
 just-unsure-explanation = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 still-have-questions = Máte ďalšie otázky?
 contact-common-voice = Kontaktujte tím Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Verejná licencia
 citing-sentences = Citovanie viet
 adding-sentences = Pridávanie viet
 reviewing-sentences = Kontrola viet
 sentence-domain = Zatriedenie vety
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Je veľmi dôležité, aby všetky textové vety boli dostupné pod <publicDomain>verejnou licenciou</publicDomain> (<cc0>cc0</cc0>), keďže kolekcia údajov Common Voice je vydávaná pod licenciou cc0. Nahrajte vetu, len ak ste si istí, a vždy uveďte príslušnú citáciu.
 public-domain-explanation-2 = Najlepšie vety na vytvorenie užitočného nástroja na rozpoznávanie reči sú hovorové, moderné výrazy. Niekoľko tipov, ktoré vám pomôžu pri vytváraní viet:
 public-domain-explanation-3 = Vytvárajte moderné hovorové vety sami alebo so svojimi priateľmi alebo jazykovou komunitou – napríklad prostredníctvom „write-a-thon“
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritéri
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 domain-explanation = Zatriedenie odkazuje na predmet vety. V súčasnosti si môžete vybrať z nasledovných položiek:
+
+## Question collection ids
+
+adding-questions = Pridávanie otázok
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Čo robí otázku dobrou?
+what-makes-a-good-question-explanation = Dobrá otázka pre verejné kolekcie údajov by mala:
+what-makes-a-good-question-explanation-criteria-1 = Byť ľahko pochopiteľná a malo by byť jednoduché na ňu reagovať
+what-makes-a-good-question-explanation-criteria-2 = Byť všeobecne relevantná
+what-makes-a-good-question-explanation-criteria-3 = Nepoužívať alebo nevyžadovať škodlivé alebo urážlivé výrazy
+what-makes-a-good-question-tip = Môžete tiež zvážiť použitie rôznych kontextov a domén.
+easy-to-understand = Ľahko pochopiteľná
+easy-to-understand-explanation = Vyberte si jednoduché otázky, ktoré sú ľahko zrozumiteľné pre každého, bez ohľadu na kultúru alebo kontext.
+spelling-and-pronunciation = Pravopis a interpunkcia
+spelling-and-pronunciation-explanation = Používajte správny pravopis a gramatiku.
+length = Dĺžka
+length-explanation = Otázka by mala byť zodpovedateľná iba niekoľkými vetami.
+dont-add-subheader = Nepridávajte
+culturally-specific-questions = Kultúrne špecifické otázky
+culturally-specific-questions-explanation = Otázky, ktoré sú veľmi kultúrne špecifické alebo vytvárajú veľa predpokladov o respondentovi
+length-avoid-explanation = Otázky, na ktoré by niekto mal problém odpovedať do 15 sekúnd (maximálna dĺžka klipu)
+process-steps = Proces / Kroky
+process-steps-explanation = Otázky, ktoré vyžadujú, aby niekto vymenoval niekoľko krokov.  Vymenovanie krokov vyzýva používateľa, aby svoju odpoveď skôr predniesol, ale my očakávame prirodzenú odpoveď.
+offensive-content-sensitive-information = Urážlivý obsah alebo citlivé informácie
+offensive-content-sensitive-information-explanation-explanation-1 = Otázky, ktoré by mohli vyžadovať osobne identifikovateľné informácie
+offensive-content-sensitive-information-explanation-explanation-2 = Otázky, ktoré by mohli vyvolať nenávistné prejavy alebo iné zaujaté alebo urážlivé pocity
+offensive-content-sensitive-information-explanation-explanation-3 = Otázky, ktoré môžu spôsobiť, že sa niekto podelí o citlivé a potenciálne spúšťacie reakcie
+example-questions-subheader = Príklady otázok
+example-questions-explanation-1 = <examplePromptsLink>120 vzorových výziev nájdete v tomto hárku.</examplePromptsLink>
+example-questions-explanation-2 = Ak chcete odoslať množinu otázok na posúdenie, <githubLink>môžete tak urobiť prostredníctvom nášho GitHubu</githubLink> alebo poslať svoj zoznam e‑mailom na adresu <emailFragment>commonvoice@mozilla.com.</emailFragment>

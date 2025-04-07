@@ -1,8 +1,5 @@
 contribute = ಕೊಡುಗೆ ನೀಡಿ
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

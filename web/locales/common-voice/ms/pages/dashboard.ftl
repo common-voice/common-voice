@@ -40,24 +40,27 @@ finish-editing = Selesai mengedit dahulu?
 lose-changes-warning = Meninggalkan sekarang bermakna anda akan kehilangan perubahan anda
 build-custom-goal = Bina matlamat kustom
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] Bantu mencapai { $hours } jam dalam { $language } dengan matlamat peribadi
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] Bantu Common Voice mencapai { $hours } jam dalam sesuatu bahasa dengan matlamat peribadi
     }
 set-a-goal = Tetapkan matlamat
 cant-decide = Tidak dapat membuat keputusan?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } jam boleh dicapai dalam masa
-    } { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } bulan jika
-    } { NUMBER($people) ->
-       *[other] { $people } orang menrakam
-    } { NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } klip sehari.
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } jam boleh dicapai dalam masa { $periodMonths } bulan jika { $people } orang menrakam { $clipsPerDay } klip sehari.
+                            }
+                    }
+            }
     }
 how-many-per-day = Hebat! Berapa banyak klip sehari?
 how-many-a-week = Hebat! Berapa banyak klip seminggu?
@@ -66,7 +69,7 @@ receiving-emails-info =
     Anda kini ditetapkan untuk menerima e-mel seperti peringatan matlamat,
     kemas kini kemajuan dan surat berita tentang Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count } klip
     }
 help-share-goal = Bantu kami mencari lebih banyak suara, kongsi matlamat anda

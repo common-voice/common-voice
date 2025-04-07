@@ -4,7 +4,6 @@ write = Фысс
 write-page-subtitle = Цы фразæтæ нын раттай, уыдон бафтаудзыстæм иумæйаг рардты æмбырдмæ cc-0 лицензийы ууылты.
 sentence =
     .label = Хъуыдыйад
-sentence-input-value = Æхсæнады хæзнайæ дзы бафысс дæ фразæ
 citation =
     .label = Цитатæ
 new-sentence-rule-1 = <noCopyright>Нæй авторон барты арæнæвæрд</noCopyright> (<cc0>cc-0</cc0>)
@@ -28,6 +27,15 @@ healthcare = Æнæниздзинад
 # Sentence Domain dropdown option
 history_law_government = Истори, закъæттæ æмæ хицауад
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 file-too-large = Файл æгæр стыр у
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

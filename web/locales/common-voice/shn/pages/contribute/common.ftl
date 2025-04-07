@@ -18,9 +18,6 @@ contribute-more =
     }
 speak-empty-state = ႁဝ်းၶႃႈဢမ်ႇမီးတူၼ်းထႅဝ်လိၵ်ႈတႃႇတေဢတ်းသဵင်ၼႂ်းၽႃႇသႃႇၼႆႉယဝ်ႉ...
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

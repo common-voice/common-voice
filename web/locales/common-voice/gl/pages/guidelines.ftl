@@ -3,6 +3,10 @@ guidelines-header = Criterios de contribución
 guidelines-header-subtitle = Comprender como engadir e validar frases e fragmentos de audio para o conxunto de datos de Common Voice
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
+question-collection = Recollida de preguntas
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronuncias diferentes
 misreadings = Erros de lectura
 offensive-content = Contido ofensivo
@@ -12,6 +16,9 @@ volume = Volume
 reader-effects = Efectos de lectura
 just-unsure = Ten dúbidas?
 example = Exemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Os diferentes acentos son todos benvidos! Sexa prudente ao rexeitar un fragmento de voz alegando que o lector pronunciou mal unha palabra. Existe unha gran variedade de pronuncias no territorio, algunhas das cales poden diferir das que escoita normalmente na súa zona. Procure ser flexible e ter en conta a diversidade de maneiras de falar.
 varying-pronunciations-explanation-2 = Por outra banda, recorde que, se ten dúbidas, sempre pode empregar o botón de omitir e pasar á seguinte frase.
 varying-pronunciations-example = O gato miañaba porque tiña fame.
@@ -47,11 +54,17 @@ reader-effects-explanation = Na maioría das gravacións, as persoas falan coa s
 just-unsure-explanation = Se atopa algo que non se trata nesta pequena guía, vote segundo o seu criterio. Se realmente non logra decidirse, empregue o botón de saltar e pase á seguinte gravación.
 still-have-questions = Aínda ten dúbidas?
 contact-common-voice = Contactar co equipo de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Dominio Público
 citing-sentences = Citar frases
 adding-sentences = Engadir frases
 reviewing-sentences = Revisar frases
 sentence-domain = Dominio ao que pertence a frase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = É moi importante que todas as frases sexan de <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), xa que o conxunto de datos de Common Voice se publica baixo licenza cc0. Antes de subir frases, asegúrese diso e inclúa sempre a cita correspondente.
 public-domain-explanation-2 = As mellores frases para construír un motor de recoñecemento da fala útil son as da linguaxe coloquial e actual. A seguir atopará unha serie de ideas para axudarlle a xerar frases:
 public-domain-explanation-3 = Cree frases actuais e coloquiais en solitario, cos seus amigos ou coa súa comunidade lingüística, por exemplo, a través dun maratón de escritura
@@ -91,3 +104,37 @@ reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriore
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
 domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pode escoller entre:
+
+## Question collection ids
+
+adding-questions = Engadir preguntas
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Como debería ser unha boa pregunta?
+what-makes-a-good-question-explanation = Se quere achegar unha boa pregunta a este proxecto colectivo, teña en conta que esta debería:
+what-makes-a-good-question-explanation-criteria-1 = Ser doada de entender e responder
+what-makes-a-good-question-explanation-criteria-2 = Ter relevancia xeral
+what-makes-a-good-question-explanation-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
+what-makes-a-good-question-tip = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+easy-to-understand = Fácil de entender
+easy-to-understand-explanation = Escolla preguntas sinxelas, que calquera poida entender, independentemente da súa cultura ou contexto.
+spelling-and-pronunciation = Ortografía e puntuación
+spelling-and-pronunciation-explanation = Asegúrese de usar a ortografía e gramática correctas.
+length = Lonxitude
+length-explanation = A pregunta debe poder responderse cun par de frases.
+dont-add-subheader = Non engadir
+culturally-specific-questions = Preguntas moi específicas culturalmente
+culturally-specific-questions-explanation = Preguntas que dependen moito dun contexto cultural concreto ou que fan demasiadas suposicións sobre quen responde
+length-avoid-explanation =
+    Preguntas que requiren máis de 15 segundos para responder
+    (a duración máxima dunha resposta gravada)
+process-steps = Procesos ou instrucións paso a paso
+process-steps-explanation = Evite preguntas que obriguen a enumerar varios pasos, xa que adoitan xerar respostas recitadas en vez de naturais.
+offensive-content-sensitive-information = Contido ofensivo ou información sensible
+offensive-content-sensitive-information-explanation-explanation-1 = Preguntas que poidan solicitar información que identifique a unha persoa
+offensive-content-sensitive-information-explanation-explanation-2 = Preguntas que poidan dar lugar a discurso de odio ou expresións ofensivas ou tendenciosas
+offensive-content-sensitive-information-explanation-explanation-3 = Preguntas que poidan levar alguén a compartir información sensible ou emocionalmente delicada
+example-questions-subheader = Exemplos de preguntas
+example-questions-explanation-1 = Pode atopar <examplePromptsLink>120 exemplos de preguntas nesta folla</examplePromptsLink>.
+example-questions-explanation-2 = Se desexa enviar un conxunto de preguntas para que as incorporemos, pode facelo a través do noso <githubLink>GitHub</githubLink> ou enviar a súa lista por correo a <emailFragment>commonvoice@mozilla.com.</emailFragment>

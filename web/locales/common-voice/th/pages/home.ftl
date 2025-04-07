@@ -92,6 +92,7 @@ answer-questions-coming-soon = ตอบคำถาม <small>(เร็วๆ 
 review-transcriptions = ตรวจทานการถอดเสียง
 review-transcriptions-coming-soon = ตรวจทานการถอดเสียง <small>(เร็วๆ นี้)</small>
 add-questions = เพิ่มคำถาม <small>(เร็วๆ นี้)</small>
+add-questions-coming-soon = เพิ่มคำถาม <small>(เร็วๆ นี้)</small>
 transcribe-audio-coming-soon = ถอดเสียง <small>(เร็วๆ นี้)</small>
 transcribe-audio = ถอดเสียง
 press-and-stories = ข่าวแจกและเรื่องราว
@@ -128,13 +129,12 @@ get-started = เริ่มต้น <icon><icon>
 
 action-items-section-title = Common Voice เป็นแพลตฟอร์มฟรีและโอเพนซอร์สสำหรับการสร้างข้อมูลซึ่งนำโดยชุมชน
 action-items-section-subtitle = ทุกคนไม่ว่าใครๆ ก็สามารถรักษา ฟื้นฟู และยกระดับภาษาของตนเองได้ด้วยการแบ่งปัน สร้าง และดูแลชุดข้อมูลข้อความและคำพูด
-scripted-card-header = เสียงพูดอ่านบท
+scripted-card-header = เสียงพูดตามบท
 scripted-card-content = อ่านออกเสียงประโยคต่างๆ ในภาษาของคุณ และมีส่วนร่วมในชุดข้อมูลเสียงพูดที่ได้จากการมีส่วนร่วมโดยสาธารณะซึ่งมีความหลากหลายมากที่สุดในโลก
-spontaneous-card-header = เสียงพูดโต้ตอบ
+spontaneous-card-header = เสียงพูดธรรมชาติ
 spontaneous-card-content = ตอบกลับข้อความคำสั่งเพื่อสร้างชุดข้อมูลสำหรับบริบทในภาษาพูดซึ่งเป็นธรรมชาติ เหมาะสำหรับภาษาที่เน้นพูดเป็นหลัก
 language-text-card-header = ข้อความภาษา
 language-text-card-content = สร้างหรือแบ่งปันข้อความคำสั่ง ประโยค และข้อความที่เป็นสาธารณสมบัติสำหรับงานแปลภาษา โมเดลภาษาขนาดเล็ก และอื่นๆ
-coming-soon = เร็วๆ นี้
 add-text = เพิ่มข้อความ
 
 ## Community section

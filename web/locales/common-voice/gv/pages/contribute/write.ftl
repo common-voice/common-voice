@@ -66,7 +66,7 @@ sentence-variant-select-label = Keim y Raa
 sentence-variant-select-placeholder = Reih keim (reihyssagh)
 sentence-variant-select-multiple-variants = Çhengey cadjin / ymmodee keimyn
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Cur seose <icon></icon> raaghyn foshlit da'n theay

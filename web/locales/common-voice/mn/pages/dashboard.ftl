@@ -40,38 +40,85 @@ finish-editing = Эхлээд засварлаж дуусгах уу?
 lose-changes-warning = Хэрэв одоо боливол бүх өөрчлөлт устана
 build-custom-goal = Хувийн зорилт бий болгох
 help-reach-hours-pluralized =
-    Хүрэхэд туслах{ NUMBER($hours) ->
-        [one] { $hours } цаг
-       *[other] { $hours } цагууд
-    }{ $language } дэх хувийн зорилт
+    { $hours ->
+        [one] Хүрэхэд туслах{ $hours } цаг{ $language } дэх хувийн зорилт
+       *[other] Хүрэхэд туслах{ $hours } цагууд{ $language } дэх хувийн зорилт
+    }
 help-reach-hours-general-pluralized =
-    Common Voice-г хүрэхэд туслах{ NUMBER($hours) ->
-        [one] { $hours } цаг
-       *[other] { $hours } цагууд
-    }хэл дэх хувийн зорилт
+    { $hours ->
+        [one] Common Voice-г хүрэхэд туслах{ $hours } цагхэл дэх хувийн зорилт
+       *[other] Common Voice-г хүрэхэд туслах{ $hours } цагуудхэл дэх хувийн зорилт
+    }
 set-a-goal = Зорилт тавих
 cant-decide = Шийдэж чадахгүй байна уу?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } цаг
-       *[other] { $totalHours } цаг
-    }дууслаа{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } сар
-       *[other] { $periodMonths } сарууд
-    }Хэрэв{ NUMBER($people) ->
-        [one] { $people } хүн
-       *[other] { $people } хүмүүс
-    }бичлэг{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } бичлэг
-       *[other] { $clipsPerDay } бичлэгнүүд
-    }өдөр
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
+                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
+                            }
+                    }
+            }
+    }
 how-many-per-day = Дажгүй шүү! Өдөрт хэдэн бичлэг?
 how-many-a-week = Дажгүй шүү! 7 хоногт хэдэн бичлэг?
 which-goal-type = Та ярих, сонсох эсвэл хоёуланг нь хүсч байна уу?
 receiving-emails-info = Та одоогоор зорилт сануулагч, явцын талаархи шинэчлэлтүүд, Common Voice-н талаархи мэдээ гэх мэтийг имэйлээр хүлээн авахаар тохируулсан байна
 not-receiving-emails-info = Та одоогоор зорилт сануулагч, явцын талаархи шинэчлэлт, Common Voice-н тухай мэдээ зэргийг имэйлээр хүлээн <bold> АВАХГҮЙ </bold>  тохиргоог хийсэн байна.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } бичлэг
        *[other] { $count } бичлэгнүүд
     }

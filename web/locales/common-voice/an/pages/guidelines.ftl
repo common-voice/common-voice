@@ -3,6 +3,9 @@ guidelines-header = Directrices de colaboración
 guidelines-header-subtitle = Comprender cómo contribuyir y validar oracions y clips d'audio a lo conchunto de datos de Common Voice.
 voice-collection = Replega de voces
 sentence-collection = Replega de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronuncias variables
 misreadings = Malas interpretacions
 offensive-content = Conteniu ofensivo
@@ -12,6 +15,9 @@ volume = Volumen
 reader-effects = Efectos d'o lector
 just-unsure = Tiens dudas?
 example = Eixemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Nos encanta tener eixemplos de diferents acentos! Para cuenta antes de refusar un tallo perque creigas que lo lector ha pronunciau malament una parola, ha meso l'acento en o puesto entivocau u ha ignorau la puntuación. No se pronuncian igual las parolas en totas las variedaz d'a tuya luenga. Da una chenerosa marguin de flexibilidat a los que charren d'una manera diferent a la tuya.
 varying-pronunciations-explanation-2 = D'atra man, si creyes que lo lector no conoixeba ixa parola y la ye pronunciando mal, refusa-la. Si no en ye seguro, fes servir lo botón d'omitir.
 varying-pronunciations-example = Ixe pastor yera ya viello.
@@ -44,14 +50,20 @@ background-voices-example-1 = Los dinosauros chigants d'o Triasico. [leyiu per u
 background-voices-tip-1 = Viens? [clamau per unatro]
 volume-explanation = I habrá variacions naturals de volumen entre lectors. Refusa-las nomás si lo volumen ye tan alto que la gravación s'interrumpe u (mas comunment) si ye tan baixo que no se puede ascuitar lo que se diz sin consultar lo texto escrito.
 reader-effects-explanation = La mayoría d'as gravacions son de personas charrando con a suya voz natural. Puez aceptar bella gravación no estándard an que se chile, charre a escuchetes u, obviament, se transmita con una voz "dramatica". Refusa las gravacions cantadas y aquellas que empleguen una voz sintetizada per ordinador.
-just-unsure-explanation = Si trobas bella cosa que no cubran estas directrices, vota seguntes lo tuyo millor criterio. Si realment no puez decidir-te, fe servir lo botón de blincar y pasa ta la siguient gravación.
+just-unsure-explanation = Si trobas bella cosa que no cubran estas directrices, vota seguntes lo tuyo millor criterio. Si realment no puez decidir-te, fe servir lo botón de brincar y pasa ta la siguient gravación.
 still-have-questions = Encara tiens mas preguntas?
 contact-common-voice = Contacta con l'equipo de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Dominio publico
 citing-sentences = Citación de frases
 adding-sentences = Adición de frases
 reviewing-sentences = Revisión de frases
 sentence-domain = Dominio d'as frases
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Ye muito important que totas las oracions de texto sían <publicDomain>dominio publico</publicDomain> (<cc0>cc0</cc0>), ya que lo conchunto de datos de Common Voice se publica baixo una licencia cc0. Puya una oración solo si yes seguro y siempre incluye la cita correspondient.
 public-domain-explanation-2 = Las millors oracions pa construyir un motor de reconoixencia de voz útil son lo luengache coloquial y moderno. Cualques ideyas que t'aduyarán a chenerar oracions son;
 public-domain-explanation-3 = Crea frases modernas y coloquials tu mesmo u con os tuyos amigos u la tuya comunidat lingüistica, per eixemplo a traviés d'un "maratón d'escritura".
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Si la oración no cumple con os criterios an
 reviewing-sentences-explanation-3 = Si no yes seguro d'a frase, tamién puez omitir-la y pasar a la siguient.
 reviewing-sentences-explanation-4 = Si te quedas sin frases a revisar, aduya-nos a replegar-ne mas!
 domain-explanation = Lo dominio fa referencia a la tematica d'a frase. Actualment puez triar entre:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

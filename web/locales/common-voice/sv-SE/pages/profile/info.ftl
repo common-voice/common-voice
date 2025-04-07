@@ -56,7 +56,6 @@ accept-privacy-title = Sekretesspolicy
 accept-privacy-and-terms = Jag godkänner Common Voices <termsLink>villkor</termsLink> och <privacyLink>sekretessmeddelande</privacyLink>
 login-identity = Inloggningsidentitet
 login = Logga in
-login-signup = Logga in / Registrera dig
 edit = Redigera
 email-subscriptions = E-prenumerationer
 download-profile = Hämta min data

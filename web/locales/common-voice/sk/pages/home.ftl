@@ -58,7 +58,7 @@ x-years-short =
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú kolekciu údajov
 sign-up-account = Vytvorte si účet
 email-subscription-title = prihláste sa k odberu noviniek
-email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a informácií o pokroku.
+email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, pripomenutí na ciele a informácií o pokroku.
 
 ## Account Benefits
 
@@ -94,6 +94,7 @@ answer-questions-coming-soon = Odpovedajte na otázky <small>(už čoskoro)</sma
 review-transcriptions = Kontrolujte prepisy <small>(už čoskoro)</small>
 review-transcriptions-coming-soon = Kontrolujte prepisy <small>(už čoskoro)</small>
 add-questions = Pridajte otázky <small>(už čoskoro)</small>
+add-questions-coming-soon = Pridajte otázky <small>(už čoskoro)</small>
 transcribe-audio-coming-soon = Prepisujte zvuk <small>(už čoskoro)</small>
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
@@ -136,7 +137,6 @@ spontaneous-card-header = Spontánna reč
 spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pre organické, hovorové kontexty. Ideálne pre hovorové jazyky.
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
-coming-soon = Už čoskoro
 add-text = Pridajte text
 
 ## Community section
@@ -196,7 +196,7 @@ partner-section-subtitle-tech-companies = <bold>Technické spoločnosti</bold> �
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Občianska spoločnosť a výskumníci</bold> – bezplatne vytvárajte, hostite a zdieľajte pôsobivé súbory údajov
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponzorujte vytváranie množiny údajov na podporu miestnych inovácií a rozvoja
+partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponzorujte vytváranie kolekcií údajov na podporu miestnych inovácií a rozvoja
 # icon is an arrow that points to the right
 get-in-touch-button = Kontaktujte nás <icon></icon>
 # Partners section

@@ -5,9 +5,12 @@ error = 错误
 action-click = 点击
 action-tap = 点按
 # Label for language switcher
-interface-language = 界面语言：
+platform-language = 平台语言：
+platform-language-tooltip-text = 仅更改网站文本。
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 为 { $language } 数据集做贡献
+contribution-picker-tooltip-text = 将语言数据集更改为您正在贡献的数据集
 # Label for button on contribution switcher
 change = 更改
 coming-soon = 更多语言即将推出！
@@ -27,8 +30,9 @@ request-new-language = 请求新语言
 ## Navbar
 
 respond-to-prompt = 回答引导语
-transcribe-audio = 转录音频
+transcribe = 转录
 check-transcriptions = 检查转录文本
+question = 问题
 
 ## Not Found Page
 

@@ -46,7 +46,6 @@ accept-privacy = میں موزیلا کے <privacyLink> پرائیویسی پا�
 accept-privacy-title = رازداری پالیسی
 login-identity = لوگن پہچان
 login = لاگ ان
-login-signup = لاگ ان کریں / سائن اپ کریں
 edit = تدوین
 email-subscriptions = ایمیل رکنیت
 download-profile = میرے کوائف ڈائونلوڈ کریں

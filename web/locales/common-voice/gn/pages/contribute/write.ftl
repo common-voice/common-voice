@@ -66,7 +66,7 @@ sentence-variant-select-label = Ñe’ẽjuaju ambuepy
 sentence-variant-select-placeholder = Eiporavo ambuepy (ejaposérõ)
 sentence-variant-select-multiple-variants = Ñe’ẽ tuichaháicha / heta iñambueháicha
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ehupi ñe’ẽjuaju ojeporukuaáva <icon></icon>

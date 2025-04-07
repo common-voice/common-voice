@@ -58,7 +58,6 @@ accept-privacy-title = ကိုယ်ရေးအချက်အလက်ကာ
 accept-privacy-and-terms = Common Voice ကိုအသုံးပြုခြင်းအားဖြင့်ကျွန်ုပ်တို့၏ <termsLink> Terms </termsLink> နှင့် <privacyLink> Privacy Notice </privacyLink> ကိုသဘောတူတယ်။
 login-identity = ဝင်ရန် သက်သေခံ
 login = အဝင်
-login-signup = ဝင်ရန်/စာရင်းသွင်းရန်
 edit = ပြင်ဆင်
 email-subscriptions = အီမေးလ် စာရင်းသွင်းခြင်းများ
 download-profile = ကျွန်ုပ်၏ အချက်အလက် ကိုဆွဲယူရန်

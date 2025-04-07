@@ -56,7 +56,6 @@ accept-privacy-title = nasin pi len sona li pona tawa mi
 accept-privacy-and-terms = <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa mi.
 login-identity = nasin nimi pi sijelo sina
 login = o kama lon
-login-signup = o kama / o pali e sijelo ilo
 edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi

@@ -52,7 +52,6 @@ accept-privacy-title = Кистээһин сиэрэ
 accept-privacy-and-terms = Common Voice <termsLink>усулуобуйатын</termsLink> уонна <privacyLink>Кистээһинин сиэрин</privacyLink> кытта сөбүлэһэбин.
 login-identity = Киирэр идентификатор
 login = Киир
-login-signup = Киирии / Бэлиэтэнии
 edit = Уларытыы
 email-subscriptions = Email-га суруттарыы
 download-profile = Мин дааннайдарбын хачайдаа

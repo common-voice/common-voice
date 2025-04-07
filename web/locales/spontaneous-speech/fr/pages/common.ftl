@@ -2,16 +2,19 @@
 
 # Toast message that is displayed when an error occurs
 error = Erreur
-action-click = Click
-action-tap = Taper
+action-click = Clic
+action-tap = Appuyer
 # Label for language switcher
-interface-language = Langue de l'interface :
+platform-language = Langue de la plateforme
+platform-language-tooltip-text = Modifie uniquement le texte du site web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
-contribution-picker-label = En contribuant au jeu de données pour { $language }
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = Vous contribuez au jeu de données en <bold>{ $language }</bold>
+contribution-picker-tooltip-text = Modifie le jeu de données vocales auquel vous contribuez
 # Label for button on contribution switcher
 change = Modifier
-coming-soon = D'autres langues bientôt à s'ajouter
-media-recorder-api-not-supported = L'API MediaRecorder n'est pas supportée par votre navigateur.
+coming-soon = Bientôt de nouvelles langues
+media-recorder-api-not-supported = L’API MediaRecorder n’est pas prise en charge par votre navigateur.
 # Toast message that is displayed when an item is skipped
 skipped = Ignoré
 audioplayer-header = Écouter
@@ -22,19 +25,21 @@ report-button = Signaler
 skip-button = Passer
 submit-button = Soumettre
 contribute = Contribuer
+request-new-language = Proposer une nouvelle langue
 
 ## Navbar
 
 respond-to-prompt = Répondre à la question
-transcribe-audio = Transcrire l'audio
+transcribe = Transcrire
 check-transcriptions = Vérifier les transcriptions
+question = Question
 
 ## Not Found Page
 
 not-found-page-header = Non trouvé
 not-found-page-content = La page que vous recherchez est introuvable
 # Privacy and Terms checkbox
-accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
+accept-privacy-and-terms = J’accepte les <termsLink>conditions d’utilisation</termsLink> et la <privacyLink>politique de confidentialité</privacyLink> de Common Voice
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou

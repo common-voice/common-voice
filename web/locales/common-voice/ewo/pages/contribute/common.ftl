@@ -30,11 +30,6 @@ target-segment-first-banner = Vɔlɔgi Common Voice bonde efas esie osu { $local
 target-segment-add-voice = Vaag kiŋ
 target-segment-learn-more = Yi wa yi naa ya yɛgɛ alodo abim o tam ya yen
 change-preferences = Atsende mimvananai mi yi ane
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Etogan məkiŋ
-contribute-sentence-collection-nav-header = Etogan bifiɛ
 login-signup = Tiliban/Nyigi
 vote-yes = owe
 vote-no = təgɛ

@@ -41,38 +41,85 @@ finish-editing = Ќе го завршите уредувањето прво?
 lose-changes-warning = Ако си заминете сега, ќе ги изгубите промените
 build-custom-goal = Изградете сопствена цел
 help-reach-hours-pluralized =
-    Помогнете да стигнеме до { NUMBER($hours) ->
-        [one] { NUMBER($hours) } час
-       *[other] { NUMBER($hours) } часа
-    }на { $language } работејќи со лична цел
+    { $hours ->
+        [one] Помогнете да стигнеме до { NUMBER($hours) } часна { $language } работејќи со лична цел
+       *[other] Помогнете да стигнеме до { NUMBER($hours) } часана { $language } работејќи со лична цел
+    }
 help-reach-hours-general-pluralized =
-    Помогнете Common Voice да стигне до { NUMBER($hours) ->
-        [one] { NUMBER($hours) } час
-       *[other] { NUMBER($hours) } часа
-    }на { $language } работејќи со лична цел
+    { $hours ->
+        [one] Помогнете Common Voice да стигне до { NUMBER($hours) } часна { $language } работејќи со лична цел
+       *[other] Помогнете Common Voice да стигне до { NUMBER($hours) } часана { $language } работејќи со лична цел
+    }
 set-a-goal = Поставете цел
 cant-decide = Не можете да се одлучите?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } час
-       *[other] { $totalHours } часа
-    }се постигнува за нешто повеќе од{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } месец
-       *[other] { $periodMonths } месеци
-    }ако{ NUMBER($people) ->
-        [one] { $people } личност
-       *[other] { $people } луѓе
-    }снимаат{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } снимка
-       *[other] { $clipsPerDay } снимки
-    }на ден
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
+                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
+                            }
+                    }
+            }
+    }
 how-many-per-day = Одлично! Колку снимки на ден?
 how-many-a-week = Одлично! Колку снимки неделно?
 which-goal-type = Дали сакате да зборувате, слушате или и двете?
 receiving-emails-info = Во моментов сте подготвени да примате е-пошта, како што се потсетници за цели, известувања за мојот напредок и билтенот за Common Voice
 not-receiving-emails-info = Според вашите поставки, <bold>НЕ</bold> добивате е-пошта за потсетници за целите ,на општите гласови, вести за напредокот и билтените за Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } клип
        *[other] { $count } клипови
     }

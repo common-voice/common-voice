@@ -66,7 +66,7 @@ sentence-variant-select-label = Wantakwaeri materu jasï arhikwa
 sentence-variant-select-placeholder = eraka ma jásí wantakwani (úakari erakuni o juraak'uni)
 sentence-variant-select-multiple-variants = Yámintu jásï wantakwa / materu jarhati wantakwaecha
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Kúparhata wantakwa úntskata énka yámintu kw'iripu úaka úrani <icon> </icon>
@@ -143,3 +143,9 @@ small-batch-sentences-rule-3 = mantani kwirutsikata jimpo jarhasperataa wantakwa
 small-batch-sentences-rule-4 = úakari 1000 o utasaï wantakwa úntskata kúparhataani
 small-batch-sentences-rule-5 = Jatsisti eska yáminut wantakwa untskataecha úaka mak'u jankwarhu niarani
 small-batch-sentences-rule-6 = Yámintu wantakwa úntskataecha jatsiska eskaksï mapurhku anapuwaka
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

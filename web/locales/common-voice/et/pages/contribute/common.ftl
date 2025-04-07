@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

@@ -3,6 +3,9 @@ guidelines-header = راهنمای مشارکت
 guidelines-header-subtitle = نحوه مشارکت و اعتبارسنجی جملات و صداهای ضبط شده را در مجموعه دادهٔ آوای مشترک درک کنید
 voice-collection = گردآوری صدا
 sentence-collection = گردآوری جمله
+
+## Voice Collection nav ids
+
 varying-pronunciations = تفاوت در اعراب‌گذاری‌ها
 misreadings = خوانش‌های نادرست
 offensive-content = محتوای توهین آمیز
@@ -12,6 +15,9 @@ volume = بلندی صدا
 reader-effects = جلوه‌های صوتی خواننده
 just-unsure = مطمئن نیستید؟
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ما از لهجه‌های مختلف استقبال می‌کنیم! قبل از رد یک صدا به این دلیل که فکر می‌کنید خواننده، کلمه‌ای را اشتباه تلفظ کرده، تاکید را در جای اشتباه قرار داده است یا علائم نگارشی را نادیده گرفته است، بسیار محتاط باشید. در سراسر جهان انواع مختلفی از تلفظ‌ها در حال استفاده است که ممکن است برخی از آنها را در اجتماع محلی خود نشنیده باشید. لطفاً به طور سخاوتمندانه‌ای، قدردان کسانی که ممکن است متفاوت از شما صحبت کنند باشید.
 varying-pronunciations-explanation-2 = از طرف دیگر، اگر فکر می‌کنید که خواننده قبلاً به این کلمه برخورد نکرده است و در تلفظ آن حدس نادرستی می‌زند، لطفا رد کنید. اگر مطمئن نیستید، از دکمه پرش استفاده کنید.
 varying-pronunciations-example = مسیر مشخص نبود.
@@ -47,11 +53,17 @@ reader-effects-explanation = اکثر صداهای ضبط شده از افراد
 just-unsure-explanation = اگر به چیزی برخورد کردید که در این دستورالعمل‌ها پوشش داده نشده بود، لطفا براساس بهترین قضاوت خود رأی دهید. اگر واقعا نمی‌توانید تصمیم بگیرید، از دکمه رد شدن استفاده کنید و به صدای ضبط شده بعدی بروید.
 still-have-questions = اگه هنوز سوالی دارید؟
 contact-common-voice = با تیم آوای مشترک تماس بگیرید
+
+## Sentence collection nav ids
+
 public-domain = مالکیت عمومی
 citing-sentences = ارجاع جملات
 adding-sentences = افزودن جملات
 reviewing-sentences = بازبینی جملات
 sentence-domain = زمینهٔ جمله
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = بسیار مهم است که تمام جملات متنی در <publicDomain>مالکیت عمومی</publicDomain> (<cc0>cc0</cc0>) باشند زیرا مجموعه داده‌های آوای مشترک تحت مجوز cc0 منتشر می‌شود. فقط زمانی یک جمله را بارگذاری کنید که مطمئن هستید و همیشه ارجاع مربوطه را اضافه کنید.
 public-domain-explanation-2 = بهترین جمله‌ها برای ساخت یک موتور تشخیص گفتار مفید، گفتار محاوره‌ای و معاصر هستند. برخی ایده‌ها برای کمک به شما در تولید جملات عبارتند از؛
 public-domain-explanation-3 = جملات مدرن و محاوره‌ای را خودتان یا با دوستان یا اجتماع زبانی خود ایجاد کنید - به عنوان مثال از طریق یک ‘نویسندگی گروهی’
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = اگر جمله معیارهای فوق را
 reviewing-sentences-explanation-3 = اگر در مورد جمله مطمئن نیستید، می‌توانید آن را نیز رد کنید و به جمله بعدی بروید.
 reviewing-sentences-explanation-4 = اگر جملات برای بازبینی تمام شدند، لطفا به ما در گردآوری جملات بیشتر کمک کنید!
 domain-explanation = زمینه به موضوع جمله اشاره دارد. در حال حاضر، می‌توانید بین موارد زیر انتخاب کنید:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

@@ -26,11 +26,6 @@ target-segment-first-banner = Ji bo zimanê { $locale } alî çêkirina segmenta
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Berhevkirina Dengan
-contribute-sentence-collection-nav-header = Berhevkirina Hevokan
-
 ## Reporting
 
 report = Rapor bike

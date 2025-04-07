@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Zwidodombedzwa zwa tshiphiri sa miṅwaha, mbeu,
 accept-privacy = Ndi a tenda uri ni fare zwenezwi zwidodombedzwa samusi no ṱalutshedza kha Mozilla <privacyLink>Mulayo wa u Tshiphiri</privacyLink>
 accept-privacy-title = Mulayo wa Tshiphiri
 login-identity = Login Identity
-login-signup = Log In / Sign Up
 edit = Editha
 email-subscriptions = Email Subscriptions
 download-profile = Downḽodani Data Dzanga

@@ -4,6 +4,8 @@ language-section-in-progress = ดำเนินการอยู่
 language-section-in-progress-new-description = ภาษาเหล่านี้กำลังอยู่ระหว่างการพัฒนาโดยชุมชน โดยจะมีแถบแสดงความคืบหน้าของกระบวนการ<localizationGlossaryLink>แปลเว็บไซต์</localizationGlossaryLink>และ<sentenceCollectionGlossaryLink>การรวบรวมประโยค</sentenceCollectionGlossaryLink>ในแต่ละภาษา
 language-section-launched = เปิดตัวแล้ว
 language-section-launched-description = สำหรับภาษาที่เปิดตัวแล้วเหล่านี้ เว็บไซต์ได้ถูก<localizationGlossaryLink>แปลเป็นภาษาท้องถิ่น</localizationGlossaryLink>เรียบร้อยแล้ว และมี<sentenceCollectionGlossaryLink>ประโยคที่รวบรวม</sentenceCollectionGlossaryLink>เพียงพอที่จะอนุญาตให้ไปยังขั้นตอนการมีส่วนร่วมในการ<speakLink>พูด</speakLink>และ<listenLink>ฟัง</listenLink>
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = อัปเดตล่าสุด: { $lastUpdatedTimeStamp }
 languages-show-more = ดูเพิ่มเติม
 languages-show-less = ดูน้อยลง
 language-meter-in-progress = ความคืบหน้า

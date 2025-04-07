@@ -41,72 +41,72 @@ finish-editing = badal k̃hakẽ/ ed̃it̃ingẽ awalgũni vec̃hũv
 lose-changes-warning = haniv lẽcernẽ maniyi yem ki tub k̃hũ badal k̃hetkvẽ nũs
 build-custom-goal = k̃hũ ziqẽ/ destũrẽ maqsadẽ go
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] kũk̃htẽr zoti maqsadẽr yi soat mẽdad { $hours }{ $language }
        *[other] kũk̃htẽr zoti maqsadẽr yi soat mẽdad{ $hours }{ $language }
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Kommon Voysẽr mẽdad woc ki ya dẽ ti zikẽ zoti maqsad g̃hat { $hours }
        *[other] Kommon Voysẽr mẽdad woc ki ya dẽ ti zikẽ zoti maqsad g̃hat { $hours }
     }
 set-a-goal = Ye maqsad lecẽr
 cant-decide = faysila basẽs̃h ne wezim?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = Tus̃h sirf k̃hẽnak, kẽshũnẽ zoqa ne kifch?
 receiving-emails-info = Maqsade sek yod wẽzũmnẽ mẽtobiq tut email wẽsuler tiyor, z̃hũ tẽreqi malumotẽ mutobiq, Kommon Voysẽ barar z̃hũ yodẽhoni, tẽreqi woz khẽbarẽ khat
 not-receiving-emails-info = tut filhol set̃<bold>not</bold>email wesul car maqsad yadehoni metobiq, z̃hũ tẽreqiyẽ molumot woz khẽbare khat Kommon Voyse barar
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count }klip
        *[other] { $count }klips
     }

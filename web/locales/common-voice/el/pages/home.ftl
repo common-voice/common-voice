@@ -80,6 +80,7 @@ answer-questions-coming-soon = Απάντηση ερωτήσεων <small>(Πρ�
 review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 review-transcriptions-coming-soon = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
+add-questions-coming-soon = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
 transcribe-audio-coming-soon = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
@@ -122,7 +123,6 @@ spontaneous-card-header = Αυθόρμητη ομιλία
 spontaneous-card-content = Απαντήστε σε μηνύματα προτροπής για τη δημιουργία συνόλων δεδομένων για πλαίσια οργανικού λόγου στην καθομιλουμένη. Ιδανικό για γλώσσες με κυρίως προφορικό λόγο.
 language-text-card-header = Κείμενο γλώσσας
 language-text-card-content = Δημιουργήστε ή μοιραστείτε μηνύματα δημόσιου τομέα, προτάσεις και κείμενο για μετάφραση, μικρά γλωσσικά μοντέλα και πολλά άλλα.
-coming-soon = Προσεχώς
 add-text = Προσθήκη κειμένου
 
 ## Community section

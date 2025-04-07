@@ -5,9 +5,12 @@ error = Flater
 action-click = Klikke
 action-tap = Tikke
 # Label for language switcher
-interface-language = Interfacetaal:
+platform-language = Platfoarmtaal:
+platform-language-tooltip-text = Wiziget allinnich websitetekst.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bydrage oan gegevensset foar { $language }
+contribution-picker-tooltip-text = Wiziget de taalgegevensset wêroan jo bydrage
 # Label for button on contribution switcher
 change = Wizigje
 coming-soon = Mear talen folgje ynkoarten
@@ -22,12 +25,14 @@ report-button = Rapportearje
 skip-button = Oerslaan
 submit-button = Yntsjinje
 contribute = Bydrage
+request-new-language = Nije taal oanfreegje
 
 ## Navbar
 
 respond-to-prompt = Prompt beäntwurdzje
-transcribe-audio = Audio transkribearje
+transcribe = Transkribearje
 check-transcriptions = Transkripsjes kontrolearje
+question = Fraach
 
 ## Not Found Page
 

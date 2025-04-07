@@ -41,30 +41,77 @@ finish-editing = Bùrú ụ́zọ̀ dèzíghárị́cháá?
 lose-changes-warning = Ị́hápụ̀ ùgbú à pụ̀tàrà nà Ị́ gà-àtụ́fù ḿgbánwè níílé Ị́ tìnyèrè
 build-custom-goal = Wùlíté èbùmnúché ǹkè áká gị́
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Nyé áká kà é jìrí èbùmnúché ǹkè ónwé{ $language } rúó élékéré ólé ná { $hours }
        *[other] Nyé áká kà é jìrí èbùmnúché ǹkè ónwé{ $language } rúó élékéré ólé ná { $hours }
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Nyèré Common Voice áká iru élékéré   { $hours } n'ásụ̀sụ́ site èbùmnúché ǹkè gị
        *[other] Nyèré Common Voice áká iru élékéré   { $hours } n'ásụ̀sụ́ site èbùmnúché ǹkè gị
     }
 set-a-goal = Hàzíé èbùmnúché gị
 cant-decide = É nwéghị́ íké íkpébị̀?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́
-       *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́
-    }{ NUMBER($periodMonths) ->
-        [one] ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà
-       *[other] ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà
-    } { NUMBER($people) ->
-        [one] ḿmádụ̀ { $people } tunyere aka
-       *[other] ḿmádụ̀ { $people } tunyere aka
-    }{ NUMBER($clipsPerDay) ->
-        [one] na ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
-       *[other] na ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                               *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà ḿmádụ̀ { $people } tunyere akana ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+                            }
+                    }
+            }
     }
 how-many-per-day = Ọ́ dị̀ ḿmá! Ńkéńké ḿkpọ́nyé ólé kà Ị́ nwèrè íké Kpọ́nyé n'òfú ụ́bọ̀chị̀?
 how-many-a-week = Ọ́ dị̀ ḿmá! Òlé kà Ị́ nwèrè íké Kpọ́nyé n'òfú ízù?
@@ -74,7 +121,7 @@ receiving-emails-info =
      kà ó sí gbátá kwụ́rụ́ gbàsàrà àgàníhú m, nàkwà ákwụ́kwọ̀ ózí gbàsàrà Common Voice.
 not-receiving-emails-info = Kà ọ́ dị̀ úgbú à, á kwádóólá gị́ kà Ị́ ghàrá ị́nátá ózí íméèlụ̀ ọ̀bụ́là ǹkè ńchètárá ébmnúché, kà ó sí gbátá kwụ́rụ́ gbàsàrà àgàníhú m, nàkwà ákwụ́kwọ̀ ózí gbàsàrà Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } íríghírí ńkéńké ḿkpọ́nyé
        *[other] { $count } íríghírí ńkéńké ḿkpọ́nyé
     }

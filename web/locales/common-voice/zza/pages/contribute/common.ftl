@@ -27,11 +27,6 @@ target-segment-first-banner = Dest bide ke Common Voice de beşê hedefê { $loc
 target-segment-add-voice = Vengê xo îlawe bike
 target-segment-learn-more = Hîna Zaf Melumat
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Arêdayîşê Vengan
-contribute-sentence-collection-nav-header = Arêdayîşê Cumleyan
-
 ## Reporting
 
 report = Rapor bike

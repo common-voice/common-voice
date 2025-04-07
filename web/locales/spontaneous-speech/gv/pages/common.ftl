@@ -4,9 +4,8 @@
 error = Boirey
 action-click = Crig
 action-tap = Crank
-# Label for language switcher
-interface-language = Çhengey y Chlaare:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Cur stiagh ayns y vundeil 'ysseree son { $language }
 # Label for button on contribution switcher
 change = Caghlaa
@@ -26,7 +25,6 @@ contribute = Cur stiagh
 ## Navbar
 
 respond-to-prompt = Freggyr Feysht
-transcribe-audio = Mac-screeu Sheean
 check-transcriptions = Jean Mac-screeuanyn Shickyr
 
 ## Not Found Page

@@ -30,11 +30,6 @@ target-segment-first-banner = کامن وائس سی اول حصّہ سی سوؤ
 target-segment-add-voice = تُنُو آواز مھید جم کوا
 target-segment-learn-more = اے بارا می دیئ چھیِڙا
 change-preferences = بدلی سی کیا تُھون خوش
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = آواز کی جمع کؤ
-contribute-sentence-collection-nav-header = جملا سی جم کؤ
 login-signup = ویب سائٹ کے لھنگا یا ای می آمن کے پوت سوا
 vote-yes = ہاں
 vote-no = نأ

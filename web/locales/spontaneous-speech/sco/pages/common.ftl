@@ -4,9 +4,8 @@
 error = Error
 action-click = Click
 action-tap = Tap
-# Label for language switcher
-interface-language = Interface language:
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contributing to dataset for { $language }
 # Label for button on contribution switcher
 change = Change
@@ -26,7 +25,6 @@ contribute = Contribute
 ## Navbar
 
 respond-to-prompt = Respond To Prompt
-transcribe-audio = Transcribe Audio
 check-transcriptions = Check Transcriptions
 
 ## Not Found Page

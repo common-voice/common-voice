@@ -8,18 +8,23 @@ datasets-positioning =
     ชุดข้อมูลหลายภาษาของ Common Voice นั้นเป็นชุดข้อมูลเสียงที่เปิดเผยต่อสาธารณะที่ใหญ่ที่สุด แต่ไม่ได้เป็นชุดข้อมูลเดียว
     
     ดูหน้านี้สำหรับใช้ในการอ้างอิงชุดข้อมูลเสียงโอเพ่นซอร์สอื่น ๆ และในขณะที่ Common Voice กำลังเติบโต โปรดติดตามการอัปเดตของเราบนหน้านี้
+datasets-speech-bubble-content = มีข่าวดี! เสียงพูดธรรมชาติกำลังจะเปิดตัวแล้ว! คอยติดตามข่าวสารอยู่ตลอดและอย่าลืมเช็ค <discordLink>Discord</discordLink> ของเราสำหรับข้อมูลล่าสุด
 language = ภาษา
 download-dataset-header = ดาวน์โหลดชุดข้อมูล
+download-delta-explainer = เราได้ทำการเปลี่ยนแปลงบางอย่างแล้ว Delta Segments จะมีเพียงคลิปล่าสุดนับตั้งแต่การเผยแพร่ครั้งล่าสุดเท่านั้น <deltaLink>อ่านเพิ่มเติมเกี่ยวกับงานนี้</deltaLink>
+download-dataset-tag = เลือกชุดข้อมูลภาษาที่ต้องการและเลือกรุ่นที่คุณต้องการดาวน์โหลด
 # File size in gigabytes
 size = ขนาด
 validated-hr-total = จำนวนชั่วโมงทั้งหมดที่ตรวจสอบ
 overall-hr-total = จำนวนชั่วโมงโดยรวม
 cv-license = สัญญาอนุญาต
 audio-format = รูปแบบเสียง
+dataset-splits = การจำแนก (อายุและเพศ)
 number-of-voices = จำนวนเสียง
 splits = ช่วงที่แบ่ง
 email-to-download = ป้อนอีเมลเพื่อดาวน์โหลด
 why-email = <b>ทำไมจึงต้องป้อนอีเมล?</b> เราอาจต้องการติดต่อคุณในอนาคตเกี่ยวกับการเปลี่ยนแปลงไปยังชุดข้อมูล โดยอีเมลเป็นช่องทางที่เราจะใช้ติดต่อคุณได้
+why-donate-datasets-page = Mozilla Common Voice คือชุดข้อมูลเสียงพูดแบบเปิดที่รวบรวมจากแหล่งข้อมูลสาธารณะที่หลากหลายที่สุดในโลก และเราได้รับการขับเคลื่อนโดยเงินบริจาคทั้งหมด มีค่าใช้จ่ายเกือบล้านเหรียญสหรัฐต่อปีในการเก็บชุดข้อมูลและปรับปรุงแพลตฟอร์มสำหรับชุมชนภาษาต่างๆ มากกว่า 100 แห่งซึ่งพึ่งพาในสิ่งที่เราทำ ถ้าคุณเห็นคุณค่าของข้อมูลแบบเปิดและครอบคลุม <b>โปรดบริจาควันนี้!</b>
 confirm-size = คุณเตรียมที่จะเริ่มการดาวน์โหลดขนาด <b>{ $size }</b> แล้ว
 size-gigabyte = GB
 size-megabyte = MB
@@ -38,8 +43,13 @@ subscribe = บอกรับ
 get-started-speech = เริ่มต้นกับการรู้จำเสียง
 other-datasets = ชุดข้อมูลเสียงอื่น ๆ
 feedback-q = มีข้อคิดเห็นหรือไม่?
+# This indicates that there is no data to display
+no-information = ไม่มีข้อมูล
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ เป็น<docsLink>ชุดเครื่องมือโอเพนซอร์ส</docsLink>สำหรับนักวิจัยที่พัฒนาโมเดล AI สำหรับการสนทนาที่ล้ำสมัย
+resource-deepspeech-info = เอนจินการรู้จำเสียงโอเพนซอร์ส Deep Speech ของ Mozilla สามารถใช้เพื่อสร้างแอปพลิเคชันรู้จำเสียงได้ อ่าน<githubLink>ภาพรวม Github ของเรา</githubLink> หรือเข้าร่วม <discourseLink>DeepSpeech </discourseLink> เพื่อเรียนรู้ว่าจะเริ่มใช้อย่างไร
+resource-coqui-info = <coquiLink>Coqui</coquiLink> อุทิศตนเพื่อเทคโนโลยีเสียงพูดแบบเปิด โครงการของพวกเขาประกอบด้วยเอนจิน STT และ TTS ซึ่งอาศัยการเรียนรู้เชิงลึก
 community-playbook = คู่มือชุมชน
+resource-playbook-info = <playbookLink>ค้นหาคำแนะนำที่มีประโยชน์</playbookLink>เกี่ยวกับกระบวนการทั้งหมดใน Common Voice ตั้งแต่การแปลเป็นภาษาท้องถิ่นไปจนถึงการใช้งานชุดข้อมูล รวมทั้งวิธีการเชื่อมต่อกับชุมชนของเรา
 data-other-librispeech-description = LibriSpeech เป็นคลังข้อมูลเสียงพูดภาษาอังกฤษในรูปแบบ 16Khz ซึ่งมีความยาวประมาณ 1000 ชั่วโมงซึ่งได้จากการอ่านหนังสือเสียงจากโครงการ LibriVox
 data-other-ted-name = คลังข้อมูล TED-LIUM
 data-other-ted-description = คลังข้อมูล TED-LIUM สร้างจากเสียงพูดและการถอดความที่มีอยู่ในเว็บไซต์ TED
@@ -54,8 +64,18 @@ more = เพิ่มเติม
 close = ปิด
 download = ดาวน์โหลด
 dataset-version = รุ่น
+sha256-checksum-copied = คัดลอกผลรวมตรวจสอบ SHA256 แล้ว!
 sha256-checksum-copied-error = ไม่สามารถคัดลอก SHA256 Checksum
 clipboard-not-supported = ไม่รองรับคลิปบอร์ด
+no-information-available = ไม่มีข้อมูล
+dataset-metadata-sex = เพศ
+# dataset metadata - age of contributor
+dataset-metadata-age = อายุ
+donate-modal-message = กำลังดาวน์โหลดชุดข้อมูลของคุณ!
+dataset-donate-modal-heading = คุณรู้หรือไม่ว่า…
+donate-modal-explanation-1 = มีค่าใช้จ่ายเกือบล้านดอลลาร์สหรัฐต่อปีในการเก็บชุดข้อมูลและปรับปรุงแพลตฟอร์มสำหรับชุมชนภาษามากกว่า 100 แห่งซึ่งพึ่งพาในสิ่งที่เราทำ
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ถ้าคุณเห็นคุณค่าของข้อมูลแบบเปิดและครอบคลุม โปรดบริจาควันนี้!</bold>
 data-download-singleword-title = ดาวน์โหลด Single Word Target Segment
 data-download-singleword-callout-v2 = ส่วนนี้เป็นข้อมูลที่ออกแบบตามกรณีการใช้งาน เป็นข้อมูลสำหรับการรู้จำตัวเลขและคำว่า ใช่ / ไม่ใช่
 data-download-button = ดาวน์โหลดข้อมูล Common Voice
@@ -75,3 +95,7 @@ release-version = รุ่น
 dataset-date = วันที่
 license = สัญญาอนุญาต: <licenseLink>{ $license }</licenseLink>
 license-mixed = ผสม
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ดาวน์โหลดชุดข้อมูลเสียงของเรา
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ตัวเลือกการดาวน์โหลดสำหรับการเข้าถึงข้อมูล Common Voice

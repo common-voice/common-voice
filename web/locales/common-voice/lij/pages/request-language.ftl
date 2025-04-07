@@ -30,3 +30,10 @@ request-language-success-list-3 =
 request-language-error =
     Peu dâse che no emmo reçevuo quella domanda. Manda unn’email direttamente
     à l’adresso <emailLink>{ $email }</emailLink> e te contattiemo.
+request-for-scripted-speech-toggle = Domanda de descorso scrito
+request-for-spontaneous-speech-toggle = Domanda de descorso spontaneo
+need-help-deciding-platform = T’æ beseugno d’aggiutto pe deçidde cöse çerne?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = O <strong>Descorso scrito</strong> (conosciuo pe tradiçion comme Common Voice) o l’é quande ti peu leze à erta voxe de frase inta teu lengua.
+need-help-deciding-platform-explanation-2 = O <strong>Descorso spontaneo</strong> o l’é unna neuva parte de Common Voice donde ti peu replicâ à de domande de mainea ciù organica e colloquiale.
+need-help-deciding-platform-explanation-3 = Se no ti veddi a teu lengua in nisciuña de deu parte da ciattaforma, çerni tutte doe.

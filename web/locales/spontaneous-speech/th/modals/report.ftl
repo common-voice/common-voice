@@ -8,6 +8,7 @@ different_language = คนละภาษา
 different_language-detail = เนื้อหามีภาษาที่ต่างไปจากที่ฉันคาดหวัง
 personally_identifiable_information = มีข้อมูลที่ระบุตัวบุคคลได้
 personally_identifiable_information-detail = เนื้อหานี้มีข้อมูลที่ระบุตัวบุคคลได้ ซึ่งเกี่ยวข้องกับข้อมูลประจำตัวของบุคคล เช่น ชื่อ ที่อยู่อีเมล ตำแหน่งที่ตั้ง หมายเลขบัตรประชาชน หรือหมายเลขโทรศัพท์
+personally_identifiable_information-answer-detail = เนื้อหานี้กำลังขอข้อมูลที่ระบุตัวบุคคลได้ ซึ่งเกี่ยวข้องกับข้อมูลประจำตัวของบุคคล เช่น ชื่อ ที่อยู่อีเมล ตำแหน่งที่ตั้ง หมายเลขบัตรประชาชน หรือหมายเลขโทรศัพท์
 report-other-comment =
     .placeholder = ความคิดเห็น
 # Label for textarea in report modal

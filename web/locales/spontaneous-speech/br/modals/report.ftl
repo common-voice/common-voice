@@ -8,6 +8,7 @@ different_language = Yezh disheñvel
 different_language-detail = N'emañ ket an danvez er yezh ma tlefe bezañ.
 personally_identifiable_information = Titouroù hiniennel talvoudus evit anavezout ac'hanon.
 personally_identifiable_information-detail = Er c'hlip-se ez eus titouroù hiniennel stag ouzh un den bennak a c'haller anavezout drezo, evel e anv, e chomlec'h postel, e chomlec'h, un niverenn anaout pe un niverenn bellgomz.
+personally_identifiable_information-answer-detail = Evit kaout an danvez-se e ranker reiñ titouroù anaout hiniennel a denn da identelezh an den, evel an anv, ar chomlec'h postel, ar chomlec'h, un niverenn anaout pe un niverenn bellgomz.
 report-other-comment =
     .placeholder = Evezhiadenn
 # Label for textarea in report modal

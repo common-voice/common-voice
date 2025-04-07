@@ -30,9 +30,6 @@ target-segment-first-banner = Ayude a crear el primer segmento objetivo de Commo
 target-segment-add-voice = Agrega tu Voz
 target-segment-learn-more = Aprender más
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Reportar

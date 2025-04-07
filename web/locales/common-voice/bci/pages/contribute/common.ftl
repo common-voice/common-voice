@@ -30,11 +30,6 @@ target-segment-first-banner = Uka nan wa yi akpasua klikli Common Voice { $local
 target-segment-add-voice = Fa ɔ nɛn man
 target-segment-learn-more = Suan like kpanngban
 change-preferences = Kaki ninnge nga a klo be
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Ndɛ be nun yilɛ
-contribute-sentence-collection-nav-header = Ndɛ mma be nun yilɛ
 login-signup = Wlu lɔ/klɛ ɔ dunman
 vote-yes = yô
 vote-no = Tchɛtchɛ

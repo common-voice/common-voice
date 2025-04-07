@@ -56,7 +56,6 @@ accept-privacy-title = Хосусыйлык сәясәте
 accept-privacy-and-terms = Common Voice-ның <termsLink>Шартларын</termsLink> һәм <privacyLink>Хосуйсыйлык Сәясәтен</privacyLink> кабул итәм
 login-identity = Кулланучы исеме
 login = Керү
-login-signup = Керү / Теркәлү
 edit = Үзгәртү
 email-subscriptions = Email аша язылулар
 download-profile = Минем мәгълүматны йөкләп алу

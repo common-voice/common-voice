@@ -27,10 +27,6 @@ target-segment-first-banner = Help om Common Voice se eerste teikensegment in { 
 target-segment-add-voice = Voeg jou stem by
 target-segment-learn-more = Vind meer uit
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Stemversameling
-
 ## Reporting
 
 report = Rapporteer

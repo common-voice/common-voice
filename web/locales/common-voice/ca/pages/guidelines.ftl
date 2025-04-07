@@ -3,6 +3,9 @@ guidelines-header = Directrius de col·laboració
 guidelines-header-subtitle = Enteneu com col·laborar i validar frases i talls de veu al conjunt de dades del Common Voice
 voice-collection = Recollida de veus
 sentence-collection = Recollida de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronunciacions variables
 misreadings = Lectures errònies
 offensive-content = Contingut ofensiu
@@ -12,6 +15,9 @@ volume = Volum
 reader-effects = Efectes de lectura
 just-unsure = Teniu dubtes?
 example = Exemple
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Volem accents diferents! Tingueu cura abans de rebutjar un tall perquè penseu que el lector ha pronunciat malament una paraula, no ha neutralitzat alguna vocal o ha ignorat una erra final. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
 varying-pronunciations-explanation-2 = D'altra banda, si creieu que el lector no s'ha trobat mai amb la paraula i fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
 varying-pronunciations-example = Mengem peres.
@@ -47,11 +53,17 @@ reader-effects-explanation = La majoria dels enregistraments són de gent que pa
 just-unsure-explanation = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 still-have-questions = Encara teniu preguntes?
 contact-common-voice = Contacteu amb l'equip de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domini públic
 citing-sentences = Citació de frases
 adding-sentences = Addició de frases
 reviewing-sentences = Revisió de frases
 sentence-domain = Domini de les frases
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = És molt important que totes les frases de text siguin <publicDomain>domini públic</publicDomain> (<cc0>cc0</cc0>), ja que el conjunt de dades de Common Voice es publica sota una llicència cc0. Pengeu una frase només si n'esteu segur i incloeu sempre la citació corresponent.
 public-domain-explanation-2 = Les millors frases per a construir un motor de reconeixement de veu útil són les de llenguatge col·loquial i modern. Algunes idees per a ajudar-vos a generar frases són;
 public-domain-explanation-3 = Creeu frases modernes i col·loquials per vosaltres mateixos o amb els vostres amics o comunitat lingüística, per exemple mitjançant una «marató d'escriptura»
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anterio
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 domain-explanation = El domini fa referència a la temàtica de la frase. Actualment, podeu triar entre:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

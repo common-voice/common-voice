@@ -5,8 +5,14 @@ sc-write-submit-confirm =
     <wikipediaLink>'public domain'</wikipediaLink> आसा आनी म्हाका permission आसा तिका अपलॉड करपाक.
 sc-review-write-title = कसल्यो वाख्यो हांवेन घालूंक जाता?
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
 

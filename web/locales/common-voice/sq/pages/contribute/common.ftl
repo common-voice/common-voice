@@ -31,11 +31,6 @@ target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $loca
 target-segment-add-voice = Shtoni Zërin Tuaj
 target-segment-learn-more = Mësoni Më Tepër
 change-preferences = Ndryshoni parapëlqimet
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Koleksion Zërash
-contribute-sentence-collection-nav-header = Grumbullim Frazash
 login-signup = Hyni / Regjistrohuni
 vote-yes = Po
 vote-no = Jo

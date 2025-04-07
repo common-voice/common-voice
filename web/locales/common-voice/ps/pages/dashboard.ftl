@@ -41,31 +41,78 @@ finish-editing = لومړی سمون بشپړ کړئ؟
 lose-changes-warning = اوس پرېښودل پدې معنی چې تاسو به خپل بدلونونه له لاسه ورکوئ
 build-custom-goal = دودیز موخه جوړه کړئ
 help-reach-hours-pluralized =
-    مرسته وکړئ چې ورسیږو{ NUMBER($hours) ->
-        [one] { $hours } ساعت
-       *[other] { $hours } ساعتونه
-    }په { $language } کې د شخصي موخې سره
+    { $hours ->
+        [one] مرسته وکړئ چې ورسیږو{ $hours } ساعتپه { $language } کې د شخصي موخې سره
+       *[other] مرسته وکړئ چې ورسیږو{ $hours } ساعتونهپه { $language } کې د شخصي موخې سره
+    }
 help-reach-hours-general-pluralized =
-    رسیدو ته د عام ږغ سره مرسته وکړئ{ NUMBER($hours) ->
-        [one] { $hours } ساعت
-       *[other] { $hours } ساعتونه
-    }په یوې ژبې کې شخصي موخه ولري
+    { $hours ->
+        [one] رسیدو ته د عام ږغ سره مرسته وکړئ{ $hours } ساعتپه یوې ژبې کې شخصي موخه ولري
+       *[other] رسیدو ته د عام ږغ سره مرسته وکړئ{ $hours } ساعتونهپه یوې ژبې کې شخصي موخه ولري
+    }
 set-a-goal = یوه موخه وټاکئ
 cant-decide = پریکړه نشئ کولئ؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } ساعت
-       *[other] { $totalHours } ساعتونه
-    }د لاسته راوړلو وړ یوازي په { NUMBER($periodMonths) ->
-        [one] { $periodMonths } میاشت
-       *[other] { $periodMonths } میاشتې
-    }که چیرې{ NUMBER($people) ->
-        [one] { $people } کس
-       *[other] { $people } خلک
-    }ثبتونه{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } کلیپ
-       *[other] { $clipsPerDay } کلیپونه
-    } په یوه ورځ
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
+                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
+                            }
+                    }
+            }
+    }
 how-many-per-day = غوره! په ورځ کې څو کلیپونه؟
 how-many-a-week = غوره! په اونۍ کې څو کلیپونه؟
 which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا دواړه؟
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     تاسو دا مهال بریښنالیکونه  لکه د موخې یادونه، زما
     د پرمخ تګ په اړه تازه مالومات او د ګډ غږ په اړه خبرلیکونه <bold> نه </bold> ترلاسه کوئ
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] کلیپ
        *[other] کلیپونه
     }

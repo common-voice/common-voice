@@ -41,30 +41,77 @@ finish-editing = Ljúka breytingum fyrst?
 lose-changes-warning = Ef hætt er núna, þá glatast allar breytingarnar þínar
 build-custom-goal = Setja sér einstaklingsmiðað markmið
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Hjálpa við að ná { $hours } klukkutíma í { $language } með persónulegu markmiði.
        *[other] Hjálpa við að ná { $hours } klukkutímum í { $language } með persónulegu markmiði.
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Hjálpa Samrómi við að ná { $hours } klukkutíma í tungumáli með persónulegu markmiði.
        *[other] Hjálpa Samrómi við að ná { $hours } klukkutímum í tungumáli með persónulegu markmiði.
     }
 set-a-goal = Setja markmið
 cant-decide = Getur þú ekki ákveðið þig?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } klukkutími er mögulegur á örlítið meira en
-       *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mánuði, ef
-       *[other] { $periodMonths } mánuðum, ef
-    }{ NUMBER($people) ->
-        [one] { $people } manneskja tekur upp
-       *[other] { $people } manneskjur taka upp
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } upptöku á dag.
-       *[other] { $clipsPerDay } upptökur á dag.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
+                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
+                            }
+                    }
+            }
     }
 how-many-per-day = Frábært! Hversu margar upptökur á dag?
 how-many-a-week = Frábært! Hversu margar upptökur á viku?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,
     uppfærslur um árangur þinn og fréttabréf um Samróm
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } hljóðupptaka
        *[other] { $count } hljóðupptökur
     }

@@ -30,11 +30,6 @@ target-segment-first-banner = Ghɛpsɨ bɨ gap i kɨsal i  ntonto i Common Voice
 target-segment-add-voice = Faya djɛɛ yɔɔ
 target-segment-learn-more = Kɛna asu, u yi
 change-preferences = Tsendɨ kɨ u kɔnɨ
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Dɨ tanzɛn dɨ djɛɛ
-contribute-sentence-collection-nav-header = Dɨ tanzɛn dɨ məkanɨ
 login-signup = Se connecter / S’inscrire
 vote-yes = Oui
 vote-no = Non

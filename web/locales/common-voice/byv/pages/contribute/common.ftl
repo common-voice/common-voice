@@ -26,11 +26,6 @@ target-segment-first-banner = bǐn cɛ̌d wîndǝ̂ yǝ̀k mbrǝ̄ jú nǝ̀ 
 target-segment-add-voice = fá yù lá
 target-segment-learn-more = nǝ̀ lɛ̌n mâyɔ́
 change-preferences = bádǝ̌ cû nǝ̀ ko
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = nǝ̀ lǔ' lá
-contribute-sentence-collection-nav-header = nǝ̀ lǔ' cúp
 login-signup = cú/kǐ
 vote-yes = ŋ̀
 vote-no = ŋgá

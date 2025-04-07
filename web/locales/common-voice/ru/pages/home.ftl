@@ -83,6 +83,7 @@ answer-questions-coming-soon = Ответить на вопросы <small>(Ск
 review-transcriptions = Проверяйте транскрипции <small>(Скоро)</small>
 review-transcriptions-coming-soon = Проверить транскрипции <small>(Скоро)</small>
 add-questions = Добавьте вопросы <small>(Скоро)</small>
+add-questions-coming-soon = Добавьте вопросы <small>(Скоро)</small>
 transcribe-audio-coming-soon = Транскрибировать аудио <small>(Скоро)</small>
 transcribe-audio = Транскрибируйте аудио <small>(Скоро)</small>
 press-and-stories = Пресса и истории
@@ -125,7 +126,6 @@ spontaneous-card-header = Спонтанная речь
 spontaneous-card-content = Отвечайте на запросы о создании наборов данных для органического разговорного контекста. Идеально для устных языков.
 language-text-card-header = Текст на языке
 language-text-card-content = Создавайте или делитесь общественным достоянием, предложениями и текстом для перевода, небольшими языковыми моделями и так далее.
-coming-soon = Скоро
 add-text = Добавить текст
 
 ## Community section

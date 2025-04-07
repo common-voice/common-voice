@@ -34,11 +34,6 @@ target-segment-first-banner = Помогите создать первый це�
 target-segment-add-voice = Добавить свой голос
 target-segment-learn-more = Подробнее
 change-preferences = Изменить настройки
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Коллекция голосов
-contribute-sentence-collection-nav-header = Коллекция фраз
 login-signup = Войти / Зарегистрироваться
 vote-yes = Да
 vote-no = Нет

@@ -4,9 +4,8 @@
 error = Ensoobi
 action-click = Nyiga
 action-tap = Konaku
-# Label for language switcher
-interface-language = olutumu olulikungulu
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Okutolera ku database ya
 # Label for button on contribution switcher
 change = Kyuusaia
@@ -26,7 +25,6 @@ contribute = Otolere
 ## Navbar
 
 respond-to-prompt = Oyiremu ku puromput
-transcribe-audio = Owulilisie amadowozi
 check-transcriptions = Obone mu Madobozi
 
 ## Not Found Page

@@ -41,37 +41,220 @@ finish-editing = Nechcete napřed dokončit úpravy?
 lose-changes-warning = Pokud nyní odejdete, přijdete o své změny
 build-custom-goal = Vytvořit vlastní cíl
 help-reach-hours-pluralized =
-    Pomozte nám v rámci svého cíle dosáhnout { NUMBER($hours) ->
-        [one] jedné hodiny
-        [few] { $hours } hodin
-       *[other] { $hours } hodin
-    } v jazyce { $language }
+    { $hours ->
+        [one] Pomozte nám v rámci svého cíle dosáhnout jedné hodiny v jazyce { $language }
+        [few] Pomozte nám v rámci svého cíle dosáhnout { $hours } hodin v jazyce { $language }
+       *[other] Pomozte nám v rámci svého cíle dosáhnout { $hours } hodin v jazyce { $language }
+    }
 help-reach-hours-general-pluralized =
-    Pomozte projektu Common Voice v rámci svého cíle dosáhnout { NUMBER($hours) ->
-        [one] jedné hodiny
-        [few] { $hours } hodin
-       *[other] { $hours } hodin
-    } v jazyce { $language }
+    { $hours ->
+        [one] Pomozte projektu Common Voice v rámci svého cíle dosáhnout jedné hodiny v jazyce { $language }
+        [few] Pomozte projektu Common Voice v rámci svého cíle dosáhnout { $hours } hodin v jazyce { $language }
+       *[other] Pomozte projektu Common Voice v rámci svého cíle dosáhnout { $hours } hodin v jazyce { $language }
+    }
 set-a-goal = Stanovte si cíl
 cant-decide = Nemůžete se rozhodnout?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] Jedna hodina
-        [few] { $totalHours } hodiny
-       *[other] { $totalHours } hodin
-    } je dosažitelných už za { NUMBER($periodMonths) ->
-        [one] měsíc
-        [few] { $periodMonths } měsíce
-       *[other] { $periodMonths } měsíců
-    }, pokud { NUMBER($people) ->
-        [one] jeden člověk
-        [few] { $people } lidé
-       *[other] { $people } lidí
-    } nahraje { NUMBER($clipsPerDay) ->
-        [one] jeden záznam
-        [few] { $clipsPerDay } záznamy
-       *[other] { $clipsPerDay } záznamů
-    } denně.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za měsíc, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za měsíc, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za měsíc, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za měsíc, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za měsíc, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za měsíc, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za měsíc, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za měsíc, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za měsíc, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] Jedna hodina je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za měsíc, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za měsíc, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za měsíc, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za měsíc, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za měsíc, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za měsíc, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za měsíc, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za měsíc, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za měsíc, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodiny je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za měsíc, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za měsíc, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za měsíc, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za měsíc, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za měsíc, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za měsíc, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za měsíc, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za měsíc, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za měsíc, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíce, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud jeden člověk nahraje { $clipsPerDay } záznamů denně.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidé nahraje { $clipsPerDay } záznamů denně.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje jeden záznam denně.
+                                [few] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje { $clipsPerDay } záznamy denně.
+                               *[other] { $totalHours } hodin je dosažitelných už za { $periodMonths } měsíců, pokud { $people } lidí nahraje { $clipsPerDay } záznamů denně.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Skvěle! Kolik záznamů denně?
 how-many-a-week = Skvěle! Kolik záznamů týdně?
 which-goal-type = Chcete mluvit, poslouchat, nebo obojí?
@@ -82,7 +265,7 @@ not-receiving-emails-info =
     Momentálně <bold>NE</bold>máte nastaven příjem e-mailů jako jsou připomínky k cílům,
     informace o postupu a novinky o projektu Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } nahrávka
         [few] { $count } nahrávky
        *[other] { $count } nahrávek

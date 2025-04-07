@@ -29,11 +29,6 @@ target-segment-first-banner = העלפט שאפן קאמאן וואויס'ס ע�
 target-segment-add-voice = לייגט צו אייער שטימע
 target-segment-learn-more = לערנט מער
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = שטימע זאמלונג
-contribute-sentence-collection-nav-header = זאצן זאמלונג
-
 ## Reporting
 
 report = באריכט

@@ -41,25 +41,28 @@ finish-editing = 먼저 편집을 완료 하시겠습니까?
 lose-changes-warning = 지금 떠나면 변경 사항을 잃게됩니다.
 build-custom-goal = 맞춤 목표를 만들기
 help-reach-hours-pluralized =
-    도움 주기{ NUMBER($hours) ->
-       *[other] { $hours } 시간
-    }{ $language } 개인 목표
+    { $hours ->
+       *[other] 도움 주기{ $hours } 시간{ $language } 개인 목표
+    }
 help-reach-hours-general-pluralized =
-    Common Voice 돕기{ NUMBER($hours) ->
-       *[other] { $hours } 시간
-    }언어별 개인 목표
+    { $hours ->
+       *[other] Common Voice 돕기{ $hours } 시간언어별 개인 목표
+    }
 set-a-goal = 목표를 설정하기
 cant-decide = 결정할 수 없습니까?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } 시간
-    }완료 가능 { $periodMonths }{ NUMBER($periodMonths) ->
-       *[other] { $periodMonths } 개월
-    }만약{ NUMBER($people) ->
-       *[other] { $people } 명
-    }기록{ NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } 개
-    }일간
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } 시간완료 가능 { $periodMonths }{ $periodMonths } 개월만약{ $people } 명기록{ $clipsPerDay } 개일간
+                            }
+                    }
+            }
+    }
 how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니까?
 how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
 which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?
@@ -70,7 +73,7 @@ not-receiving-emails-info =
     목표 알림이나 내 진행 업데이트, Common Voice 뉴스레터와 같은
     이메일을 수신하지 <bold>않도록</bold> 설정되어 있습니다.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 클립
        *[other] { $count } 클립
     }

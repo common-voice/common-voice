@@ -80,6 +80,7 @@ answer-questions-coming-soon = سوال نامَنی جواب ݪِؤ<small>(دد
 review-transcriptions = ٹرانسکِپشَنَنہ جائزہ گوؤ<small>(ݭُورہ ژِمان)</small>
 review-transcriptions-coming-soon = نقل کېرِکَنہ جائزہ گؤ<small>(ددُوپی ژِمان)</small>
 add-questions = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)</small>
+add-questions-coming-soon = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)</small>
 transcribe-audio-coming-soon = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 transcribe-audio = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 press-and-stories = پرېس اؤ ہیڄان نام
@@ -122,7 +123,6 @@ spontaneous-card-header = تانُو واکے باتی
 spontaneous-card-content = نامیاتی باتِیَنہ پُرپتا ݭڅی ڈېٹا سېٹس ݫُپَئیکَنی ہنشارت نامَنی جوابہ ݪِؤ۔ ہانسی یادے۔ پُدَمانی باتِی نامہ ݭڅی لؤ بئ۔
 language-text-card-header = باتِیَنی عبارت
 language-text-card-content = عوامی دائرہ وختے سرہ ، کَلاؤ اؤ ترجما ݭڅی عبارت، پولی باتیَہ ݭڅی ماڈلز، وغیرہ ݫُپَؤ یا تسُو مِنزی لُبُسِؤ۔
-coming-soon = دَدُپی ژِمان
 add-text = عبارَتہ لُبُسَؤ
 
 ## Community section

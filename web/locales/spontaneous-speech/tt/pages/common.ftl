@@ -4,8 +4,6 @@
 error = Хата
 action-click = Чиртү
 action-tap = Төймәгә басып алыгыз
-# Label for language switcher
-interface-language = Интерфейс теле:
 # Label for button on contribution switcher
 change = Үзгәртү
 coming-soon = Башка телләр тиздән өстәләчәк

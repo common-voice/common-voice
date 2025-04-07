@@ -9,13 +9,13 @@ listen-empty-state-variants = Čini se da tvoja jezična varijanta nema više is
 listen-loading-error =
     Nismo dobili nijedan audio isječak za slušanje.
     Pokušaj ponovo kasnije.
-listen-abort-title = Završiti provjeru isječaka?
-listen-abort-cancel = Nastavi provjeravati
-listen-abort-confirm = Završi provjeru
+listen-abort-title = Završiti potvrđivanje isječaka?
+listen-abort-cancel = Nastavi potvrđivati
+listen-abort-confirm = Završi potvrđivanje
 # Menu item
-validate-readings = Potvrdi izgovore
+validate-readings = Potvrdi čitanja
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Potvrdi izgovore <small>(uskoro stiže)</small>
+validate-readings-coming-soon = Potvrdi čitanja <small>(uskoro stiže)</small>
 
 ## MENU ITEM TOOLTIPS
 

@@ -5,9 +5,12 @@ error = غلطي
 action-click = کلِک
 action-tap = ټېپ
 # Label for language switcher
-interface-language = اِنټرفېس زبان
+platform-language = ته زبان ا پلېټ فارم
+platform-language-tooltip-text = صرف ته وېب سائټ ا ټېکسټ بُو بدلَوی
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ډېټا سېټ کی پېش کؤ { $language }
+contribution-picker-tooltip-text = بدلوی بُو ته فۀ زبان ا ډېټاسېټ څېن زر بُو که تُو کر کېوی
 # Label for button on contribution switcher
 change = تبدیلي
 coming-soon = بيې زبنی ر دی بُو څوېن سېره
@@ -22,12 +25,14 @@ report-button = رپورټ
 skip-button = نغوک/سکِپ
 submit-button = شند
 contribute = شند
+request-new-language = ته نیوو زبان پاره درخواست
 
 ## Navbar
 
 respond-to-prompt = پرمپټ کی ځواب
-transcribe-audio = ا اډیو تقل کَۀ
+transcribe = نقل
 check-transcriptions = ا نقل چېک کَۀ
+question = سوال
 
 ## Not Found Page
 

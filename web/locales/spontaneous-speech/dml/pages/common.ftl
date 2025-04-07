@@ -4,9 +4,8 @@
 error = غلطی
 action-click = کلک
 action-tap = ٹیپ
-# Label for language switcher
-interface-language = انٹر فیس باݜہ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹہ تعاون کُرئیں کی{ $language }
 # Label for button on contribution switcher
 change = بدل کُرن
@@ -26,7 +25,6 @@ contribute = تعاون کُرن
 ## Navbar
 
 respond-to-prompt = پرامٹ ساں جوب پرے
-transcribe-audio = آڈیو نقل کُرے
 check-transcriptions = نقل نم چیک با
 
 ## Not Found Page

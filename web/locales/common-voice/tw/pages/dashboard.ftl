@@ -41,30 +41,77 @@ finish-editing = Finish editing first?
 lose-changes-warning = Leaving now means you’ll lose your changes
 build-custom-goal = Build a custom goal
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Help reach { $hours } hour in { $language } with a personal goal
        *[other] Help reach { $hours } hours in { $language } with a personal goal
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Help Common Voice reach { $hours } hour in a language with a personal goal
        *[other] Help Common Voice reach { $hours } hours in a language with a personal goal
     }
 set-a-goal = Set a goal
 cant-decide = Can't decide?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] 	{ $totalHours } hour is achievable in just over
-       *[other] 	{ $totalHours } hours is achievable in just over
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } month if
-       *[other] { $periodMonths } months if
-    } { NUMBER($people) ->
-        [one] { $people } person record
-       *[other] { $people } people record
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } clip a day.
-       *[other] { $clipsPerDay } clips a day.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] 	{ $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
+                               *[other] 	{ $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
+                            }
+                    }
+            }
     }
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
     progress updates and newsletters about Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

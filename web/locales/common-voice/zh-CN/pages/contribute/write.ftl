@@ -10,7 +10,7 @@ small-batch-sentence-input-placeholder = 请在此输入您的公有领域语句
 citation-input-placeholder = 引用语句出处（必填）
 citation =
     .label = 引用
-sc-write-submit-confirm = 我确认这句话以<wikipediaLink>公有领域</wikipediaLink>授权并且我有权上传。
+sc-write-submit-confirm = 我确认这句话属于<wikipediaLink>公有领域</wikipediaLink>，并且我有权上传。
 sc-review-write-title = 我可以添加什么语句？
 sc-review-small-batch-title = 批量添加语句的方法
 new-sentence-rule-1 = <noCopyright>无版权</noCopyright>限制（<cc0>cc-0</cc0>）
@@ -18,7 +18,7 @@ new-sentence-rule-2 = 少于 15 个字
 new-sentence-rule-3 = 使用正确的语法
 new-sentence-rule-4 = 使用正确的拼写和标点符号
 new-sentence-rule-5 = 没有数字和特殊字符
-new-sentence-rule-6 = 没有外国字母
+new-sentence-rule-6 = 没有外文字母
 new-sentence-rule-7 = 引用恰当
 new-sentence-rule-8 = 语句通俗自然（便于阅读）
 login-instruction-multiple-sentences = <loginLink>登录</loginLink>或<loginLink>注册</loginLink>以批量添加语句
@@ -66,7 +66,7 @@ sentence-variant-select-label = 语句变体
 sentence-variant-select-placeholder = 选择一个变体（非必选）
 sentence-variant-select-multiple-variants = 通用语言/多个变体
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = 上传 <icon></icon> 公有领域的句子
@@ -84,7 +84,7 @@ maximum-file-size = 文件最大：25 MB
 what-needs-to-be-in-file = 文件要包含什么？
 what-needs-to-be-in-file-explanation = 请查看我们的<templateFileLink>模板文件</templateFileLink>。您的语句应该清晰易读、语法正确且不受版权保护（CC0或经原创作者许可）。提交的语句长度在 10-15 秒并且避免包含数字、专有名词和特殊字符。
 upload-progress-text = 正在上传...
-sc-bulk-submit-confirm = 我确认这些句子都以<wikipediaLink>公有领域条款</wikipediaLink>授权公开，并且我有权上传。
+sc-bulk-submit-confirm = 我确认这些句子都属于<wikipediaLink>公有领域</wikipediaLink>，并且我有权上传。
 bulk-upload-success-toast = 已批量上传语句
 bulk-upload-failed-toast = 上传失败，请重试。
 bulk-submission-success-header = 感谢您的批量提交！

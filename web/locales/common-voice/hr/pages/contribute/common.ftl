@@ -11,7 +11,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> isječaka
     }
 goal-help-recording = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za snimanje od { $goalValue }!
-goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
+goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za potvrđivanje od { $goalValue }!
 contribute-more =
     { $count ->
         [one] Želiš li obaviti još { $count }?
@@ -53,7 +53,7 @@ report-offensive-language-detail = Rečenica sadrži uvredljive ili prostačke r
 report-grammar-or-spelling = Gramatička / pravopisna greška
 report-grammar-or-spelling-detail = Rečenica ima gramatičku ili pravopisnu grešku.
 report-different-language = Drugačiji jezik
-report-different-language-detail = Napisana je jezikom kojim ne govorim.
+report-different-language-detail = Tekst je napisan jezikom kojim ne govorim.
 report-difficult-pronounce = Teško se izgovara
 report-difficult-pronounce-detail = Sadrži riječi ili izraze koje je teško pročitati ili izgovoriti.
 report-offensive-speech = Uvredljivi govor
@@ -108,7 +108,7 @@ contribution-misreadings-title = Pogrešna čitanja
 contribution-misreadings-description = Kada slušaš, provjeri je li se snimka i tekst poklapaju; odbij čak i pri manjim greškama. <br />Česte greške uključuju:
 contribution-misreadings-description-extended-list-1 = Na početku snimke nedostaje <strong>neodređeni član</strong> ili <strong>određeni član</strong> imenice.
 contribution-misreadings-description-extended-list-2 = Nedostaje nastavak <strong>za genitiv</strong> na kraju riječi.
-contribution-misreadings-description-extended-list-3 = Čitanje skraćenih oblika kojih zapravo nema, poput "Mi smo" umjesto "Mi jesmo" ili obrnuto.
+contribution-misreadings-description-extended-list-3 = Čitanje skraćenih oblika kojih zapravo nema, poput „Jeʼl” umjesto „Je li” ili obrnuto.
 contribution-misreadings-description-extended-list-4 = Nedostaje kraj zadnje riječi zbog prebrzog prekidanja snimanja.
 contribution-misreadings-description-extended-list-5 = Nekoliko pokušaja čitanja riječi.
 contribution-misreadings-example-1-title = Ogromni dinosaurus iz trijasa.

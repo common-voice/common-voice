@@ -15,9 +15,6 @@ share-title-new = <bold>Gida nus</bold> ad anflar novas vuschs
 keep-track-profile = Teni en egl vies progress cun in profil
 login-to-get-started = S'annunziei ni seregistrei per entscheiver
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = rapportar

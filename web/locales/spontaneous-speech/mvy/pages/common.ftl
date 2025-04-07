@@ -5,9 +5,12 @@ error = مَسلہ
 action-click = ٹَک کرہ
 action-tap = ٹیپ
 # Label for language switcher
-interface-language = اِنٹَرفیسَیں ژیب
+platform-language = ژِباں پلېٹ فارم
+platform-language-tooltip-text = وېب سائٹَیں لِکیلیۡ قدر بدلائ تُھو۔
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language }دَن ڈیٹاسیٹے ٹل کرؤں
+contribution-picker-tooltip-text = کؤں ژِبہۡ مہ تُو حصہ گیلیۡ تُھو تسیں ڈېٹا سیٹ بدلائ تُھو
 # Label for button on contribution switcher
 change = بدلا
 coming-soon = مُتیۡ ژیبہۡ ژُن٘ڑُو اے تھی
@@ -22,12 +25,14 @@ report-button = خبر کرہ
 skip-button = پَھت کرہ۔
 submit-button = جمع کرہ
 contribute = تاں حصہ گلہ۔
+request-new-language = نَیں ژیب لُکھہ
 
 ## Navbar
 
 respond-to-prompt = مدتیاں جواب
-transcribe-audio = بنیل لِکیلاں اواز
+transcribe = بنژیل لِکہ (ژیب مرک کرہ)
 check-transcriptions = بنیل لِکیل بدلا
+question = سوال
 
 ## Not Found Page
 

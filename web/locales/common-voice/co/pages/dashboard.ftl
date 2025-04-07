@@ -39,22 +39,22 @@ finish-editing = Compie i cambii in primu locu ?
 lose-changes-warning = Partendu avà, i vostri cambiamenti seranu persi
 build-custom-goal = Definisce un scopu parsunale
 help-reach-hours-pluralized =
-    Aiutateci à ghjunghje { NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } ore
-    } in { $language } cù un scopu parsunale
+    { $hours ->
+        [one] Aiutateci à ghjunghje { $hours } ora in { $language } cù un scopu parsunale
+       *[other] Aiutateci à ghjunghje { $hours } ore in { $language } cù un scopu parsunale
+    }
 help-reach-hours-general-pluralized =
-    Aiutate Common Voice à ghjunghje { NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } ore
-    } in una lingua cù i scopi parsunali
+    { $hours ->
+        [one] Aiutate Common Voice à ghjunghje { $hours } ora in una lingua cù i scopi parsunali
+       *[other] Aiutate Common Voice à ghjunghje { $hours } ore in una lingua cù i scopi parsunali
+    }
 set-a-goal = Definisce un scopu
 cant-decide = Ùn pudete decide ?
 how-many-per-day = Bè ! Quantu campioni à u ghjornu ?
 how-many-a-week = Bè! Quantu campioni à a settimana ?
 which-goal-type = Vulete parlà, ascultà o i duie ?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } campionu
        *[other] { $count } campioni
     }

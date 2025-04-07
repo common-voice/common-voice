@@ -2,7 +2,7 @@ action-click = Fe clic en
 action-tap = Triar
 contribute = Colaborar
 review = Revisar
-skip = Blincar
+skip = Brincar
 shortcuts = Accesos directos
 clips-with-count-pluralized =
     { $count ->

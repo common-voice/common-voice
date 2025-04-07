@@ -41,38 +41,85 @@ finish-editing = Terminer d’abord les modifications ?
 lose-changes-warning = Si vous quittez maintenant, vous perdrez vos modifications
 build-custom-goal = Définissez un objectif personnalisé
 help-reach-hours-pluralized =
-    Aidez à atteindre { NUMBER($hours) ->
-        [one] { $hours } heure
-       *[other] { $hours } heures
-    } en { $language } avec un objectif personnel
+    { $hours ->
+        [one] Aidez à atteindre { $hours } heure en { $language } avec un objectif personnel
+       *[other] Aidez à atteindre { $hours } heures en { $language } avec un objectif personnel
+    }
 help-reach-hours-general-pluralized =
-    Aidez Common Voice à atteindre { NUMBER($hours) ->
-        [one] { $hours } heure
-       *[other] { $hours } heures
-    } dans une langue avec un objectif personnel
+    { $hours ->
+        [one] Aidez Common Voice à atteindre { $hours } heure dans une langue avec un objectif personnel
+       *[other] Aidez Common Voice à atteindre { $hours } heures dans une langue avec un objectif personnel
+    }
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] Un objectif d’une heure
-       *[other] Un objectif  de { $totalHours } heures
-    }peut être atteint en un peu plus{ NUMBER($periodMonths) ->
-        [one] d’un mois
-       *[other] de { $periodMonths } mois
-    }si{ NUMBER($people) ->
-        [one] une personne enregistre
-       *[other] { $people } personnes enregistrent
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } échantillon
-       *[other] { $clipsPerDay } échantillons
-    }par jour.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Un objectif d’une heurepeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif d’une heurepeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Un objectif d’une heurepeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif d’une heurepeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
+                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
 receiving-emails-info = Vous allez recevoir des e-mails tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir d’e-mails tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } échantillon
        *[other] { $count } échantillons
     }

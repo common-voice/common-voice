@@ -8,12 +8,14 @@ select-your-age = Ke paɨmeme witari pemexeiya mana ke neupɨna
 gender-select-label = ¿Ke petitita ʼuká nutsu ʼukí?
 select-your-gender = Ke pemɨtitita mana ke neupɨna
 country-of-residence-label = Ke mɨʼane kiekariyaritsie pemeka
-country-of-residence-placeholder = 
-.placeholder = Ke mɨʼane kiekariyaritsie pemeka ke neuʼutɨa
+country-of-residence-placeholder =
+    .placeholder = Ke mɨʼane kiekariyaritsie pemeka ke neuʼutɨa
 why-are-you-asking = ¿Titayari ʼikɨ temateʼaʼiwawiya?
 why-are-you-asking-explanation = Aʼiyari yaʼanekaku pemɨtiyetuani - xeikɨá pekatineuʼutɨamɨkɨ xɨka ʼaxa pekareʼerietɨyeikani. Naitɨ mɨtiyukuxeɨrieni mɨyuhekɨatatsie, yɨkɨ xeteuterɨwarɨwatɨ xekananayenexɨakuni, hepaɨna tsiere ke pemɨtitewá yátɨni ʼacorreo kakaneuwɨtɨkaimɨkɨ ke paɨ witari pemexeiyatsɨe yátɨni tita pemɨtihɨkɨtsie,ʼuká yátɨni ʼukí. ʼAixɨ ʼikɨ muyɨnenikɨ meyunaime wahetsíe mieme, teweewiwamete teuteri meyutsata mekaniwareuyehɨakaní. Waɨká ke tinetimaatí titayari "metadatos" kwínie reuyewetsé.
 thank-you-for-your-information = Pamɨpariyutsi ʼahetsie timieme pemɨtireuʼutiakɨ
+
 ## Gender dropdown
+
 male_masculine = Ukí
 female_feminine = Uká
 intersex = Uká tsiere ʼukí hepaɨ reukunuiwatɨ

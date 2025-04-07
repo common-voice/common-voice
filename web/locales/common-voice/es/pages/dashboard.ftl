@@ -41,38 +41,85 @@ finish-editing = ¿Quieres terminar de editar antes?
 lose-changes-warning = Si lo dejas ahora, perderás los cambios
 build-custom-goal = Crear un objetivo personalizado
 help-reach-hours-pluralized =
-    Ayuda a alcanzar{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    }en { $language } con un objetivo personal
+    { $hours ->
+        [one] Ayuda a alcanzar{ $hours } horaen { $language } con un objetivo personal
+       *[other] Ayuda a alcanzar{ $hours } horasen { $language } con un objetivo personal
+    }
 help-reach-hours-general-pluralized =
-    Ayuda a que Common Voice alcance{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    }en un idioma con un objetivo personal
+    { $hours ->
+        [one] Ayuda a que Common Voice alcance{ $hours } horaen un idioma con un objetivo personal
+       *[other] Ayuda a que Common Voice alcance{ $hours } horasen un idioma con un objetivo personal
+    }
 set-a-goal = Establecer objetivo
 cant-decide = ¿No te decides?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } horas
-    }es alcanzable en solo{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mes
-       *[other] { $periodMonths } meses
-    }si{ NUMBER($people) ->
-        [one] { $people } persona
-       *[other] { $people } personas
-    }graban{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } fragmento
-       *[other] { $clipsPerDay } fragmentos
-    }al día.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
+                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
+                            }
+                    }
+            }
+    }
 how-many-per-day = ¡Excelente! ¿Cuántas grabaciones al día?
 how-many-a-week = ¡Excelente! ¿Cuántas grabaciones a la semana?
 which-goal-type = ¿Quieres hablar, escuchar o los dos?
 receiving-emails-info = Ahora mismo lo tienes configurado para recibir correos electrónicos como recordatorios de objetivos, actualizaciones de progreso y boletines de información sobre Common Voice
 not-receiving-emails-info = Tu configuración actual indica que <bold>NO</bold> recibes correos con recordatorios de objetivos, actualizaciones de progreso ni boletines de noticias de Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } fragmento
        *[other] { $count } fragmentos
     }

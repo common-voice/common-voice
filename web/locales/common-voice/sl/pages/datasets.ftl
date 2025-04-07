@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Nabori podatkov
 datasets-headline = Gradimo odprtokodni, večjezični nabor podatkov glasov, ki ga lahko vsakdo uporablja za izboljšanje aplikacij za prepoznavanje govora.
 datasets-positioning =
     Verjamemo, da lahko veliki in javno dostopni nabori podatkov spodbujajo inovacije in zdravo tekmovalnost pri implementaciji strojnega učenja v govorno podprtih aplikacijah.
@@ -8,6 +9,7 @@ datasets-positioning =
     
     Uporabite to stran kot referenčno vozlišče za druge odprtokodne glasovne nabore podatkov in, med tem ko se Common Voice še naprej razvija, središče za naše posodobitve.
 language = Jezik
+download-dataset-header = Prenesi nabor podatkov
 # File size in gigabytes
 size = Velikost
 validated-hr-total = Skupno potrjenih ur
@@ -35,6 +37,8 @@ subscribe = Naroči se
 get-started-speech = Začnite s prepoznavanjem govora
 other-datasets = Drugi glasovni nabori podatkov
 feedback-q = Želite poslati povratne informacije?
+# This indicates that there is no data to display
+no-information = Ni podatkov
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
@@ -49,6 +53,13 @@ more = Več
 close = Zapri
 download = Prenesi
 dataset-version = Različica
+clipboard-not-supported = Odložišče ni podprto
+no-information-available = Podatki niso na voljo
+dataset-metadata-sex = Spol
+# dataset metadata - age of contributor
+dataset-metadata-age = Starost
+donate-modal-message = Nabor podatkov se prenaša!
+dataset-donate-modal-heading = Ali ste vedeli …
 data-download-singleword-title = Prenesite enobesedni ciljni segment
 data-download-button = Prenesite podatke Common Voice
 data-download-yes = Da

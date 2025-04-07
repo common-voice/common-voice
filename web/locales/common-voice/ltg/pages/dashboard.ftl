@@ -41,13 +41,13 @@ finish-editing = Voi pyrma dabeigt lobuošonu?
 lose-changes-warning = Ka izīsit tagad, jius pagaisynuosit izmainis
 build-custom-goal = Nūsokit sev mierki
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
         [one] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
        *[other] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
         [one] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
        *[other] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
@@ -63,7 +63,7 @@ not-receiving-emails-info =
     Itūšaļt jums ir īstateits <bold> NASAJIMT </bold> e-postus, par pīmāru, atguodynuojumus par mierkim, muna
     progresa atjaunynuojumus i biletenus par Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [zero] { $count } īrokstu
         [one] { $count } īrokstu
        *[other] { $count } īrokstu

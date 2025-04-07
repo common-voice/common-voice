@@ -68,7 +68,7 @@ sentence-variant-select-label = წინადადების კუთხ�
 sentence-variant-select-placeholder = აირჩიეთ ენის ნაირსახეობა (არასავალდებულო)
 sentence-variant-select-multiple-variants = ძირითადი ენა / რამდენიმე ნაირსახეობა
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ატვირთეთ <icon></icon> წინადადებები საყოველთაო საკუთრებიდან

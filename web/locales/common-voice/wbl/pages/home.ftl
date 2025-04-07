@@ -122,7 +122,6 @@ spontaneous-card-header = yidamẽr k̃hẽnak
 spontaneous-card-content = Ishoravẽr jẽwob rand asli d̃at̃asẽt k̃hakẽr, gapẽ metobiq, ne nifishet awalgũni zik.
 language-text-card-header = Zikẽ matan
 language-text-card-content = Yi zẽmunẽr domenẽ pẽjẽhon go,Jumlavẽ, matanẽ, trẽjũmavẽ, z̃aqlay zikẽ sokht woz bes̃h.
-coming-soon = Jaldẽb wizit
 add-text = Matanẽ shomil
 
 ## Community section

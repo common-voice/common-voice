@@ -4,9 +4,8 @@
 error = ہرکپلس چی
 action-click = نگیس/کلک
 action-tap = ٹیپ
-# Label for language switcher
-interface-language = تھونگمی سکت پو
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹ پو روخ بین
 # Label for button on contribution switcher
 change = فسور
@@ -26,7 +25,6 @@ contribute = روخ بیس
 ## Navbar
 
 respond-to-prompt = شوخمویکھہ تم لزوق بیوس
-transcribe-audio = سکت کن ربیس
 check-transcriptions = ٹرانسکرپشن کن لا ہلتوس
 
 ## Not Found Page

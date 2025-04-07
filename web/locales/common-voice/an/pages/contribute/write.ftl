@@ -66,7 +66,7 @@ sentence-variant-select-label = Variedat d'a frase
 sentence-variant-select-placeholder = Tría una variedat (opcional)
 sentence-variant-select-multiple-variants = Idioma cheneral / multiples variedaz
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Puya frases de dominio publico <icon></icon>

@@ -28,11 +28,6 @@ target-segment-first-banner = Helfen Sie dabei, das erste Zielsegment von Common
 target-segment-add-voice = Fügen Sie Ihre Stimme hinzu
 target-segment-learn-more = Weitere Informationen
 change-preferences = Einstellungen ändern
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Stimmensammlung
-contribute-sentence-collection-nav-header = Sätze sammeln
 login-signup = Anmelden / Registrieren
 vote-yes = Ja
 vote-no = Nein

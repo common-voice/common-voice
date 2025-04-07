@@ -24,9 +24,6 @@ target-segment-first-banner = { $locale } における Common Voice の最初の
 target-segment-add-voice = あなたの声を追加
 target-segment-learn-more = 詳細情報
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = 報告

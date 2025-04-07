@@ -13,8 +13,12 @@
     h2 {
         font-size: 40px;
         margin-block: 40px;
-        text-align: left;
         position: relative;
+        text-align: left;
+
+        [dir='rtl'] & {
+            text-align: right;
+        }
 
         @media (--xxl-up) {
             width: var(--desktop-width);

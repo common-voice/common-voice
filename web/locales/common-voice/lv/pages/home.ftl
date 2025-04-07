@@ -83,8 +83,9 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
-review-transcriptions-coming-soon = Pārskatiet transkripcijas <small>(drīzumā)</small>
+review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
+add-questions-coming-soon = Pievienot jautājumus <small>(drīzumā)</small>
 transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
@@ -110,7 +111,7 @@ community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīt
 
 ## Hero section
 
-hero-title = Tehnoloģija, kas runā jūsu valodā
+hero-title = Tehnoloģija, kas runā mūsu valodā
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Kāpēc AI vajadzētu darboties tikai dažās pasaules valodās?</bold>
 hero-subtitle-2 = Mūsu valoda ir mūsu stāsts, mūsu kopiena, mūsu kultūra. Izveidosim datu kopas, kuras vēlamies redzēt pasaulē.
@@ -127,7 +128,6 @@ spontaneous-card-header = Spontāna runa
 spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
 language-text-card-header = Valodas teksti
 language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
-coming-soon = Drīzumā
 add-text = Pievienot tekstu
 
 ## Community section
@@ -171,7 +171,7 @@ explore-datasets = Izpētiet datu kopas <icon></icon>
 
 get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
 read-sentences-link = Lasīt teikumus
-validate-readings-link = Apstipriniet ierunāto
+validate-readings-link = Apstiprināt ierunāto
 contribute-link = Papildiniet teksta korpusu
 answer-questions-link = Atbildi uz jautājumiem
 transcribe-answers-link = Pārrakstiet atbildes
@@ -189,6 +189,6 @@ partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētni
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
 # icon is an arrow that points to the right
-get-in-touch-button = Sazinieties ar <icon></icon>
+get-in-touch-button = Sazināties <icon></icon>
 # Partners section
 our-partners-include = Mūsu partneru vidū ir...

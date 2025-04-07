@@ -18,4 +18,3 @@ correct = Doğru
 done = Bitti
 # For the button on the Check Transcriptions page to edit a transcription
 edit = Düzenle
-

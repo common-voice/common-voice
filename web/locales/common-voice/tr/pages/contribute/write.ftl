@@ -20,7 +20,7 @@ new-sentence-rule-4 = Yazım kurallarına uygun ve noktalama işaretleri doğru
 new-sentence-rule-5 = Sayı ve özel karakter içermeyen
 new-sentence-rule-6 = Alfabede olmayan karakterler içermeyen
 new-sentence-rule-7 = Kaynağı doğru şekilde gösterilmiş
-new-sentence-rule-8 = Mümkün olduğunda doğal ve konuşma dilinde (Cümleyi okuması kolay olmalı)
+new-sentence-rule-8 = Mümkün olduğunca doğal ve konuşma dilinde (Cümleyi okuması kolay olmalı)
 login-instruction-multiple-sentences = Birden çok cümle eklemek için <loginLink>giriş yapın</loginLink> ya da <loginLink>kaydolun</loginLink>
 how-to-cite = Nasıl kaynak gösteririm?
 how-to-cite-explanation-bold = Bir URL bağlantısı veya çalışmanın tam adıyla kaynak gösterin.
@@ -39,13 +39,13 @@ bulk-sentence = Büyük miktar
 sentence-domain-combobox-label = Cümlenin alanı
 sentence-domain-select-placeholder = En fazla üç alan seçin (isteğe bağlı)
 # Sentence Domain dropdown option
-agriculture_food = Tarım ve gıda
+agriculture_food = Tarım ve Gıda
 # Sentence Domain dropdown option
-automotive_transport = Otomotiv ve ulaşım
+automotive_transport = Otomotiv ve Ulaşım
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
-service_retail = Hizmet ve perakende
+service_retail = Hizmet ve Perakende
 # Sentence Domain dropdown option
 general = Genel
 # Sentence Domain dropdown option
@@ -66,7 +66,7 @@ sentence-variant-select-label = Cümlenin lehçesi
 sentence-variant-select-placeholder = Bir lehçe seçin (isteğe bağlı)
 sentence-variant-select-multiple-variants = Genel dil / birden fazla lehçe
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>

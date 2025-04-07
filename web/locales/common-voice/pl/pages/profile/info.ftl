@@ -42,7 +42,6 @@ accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyL
 accept-privacy-title = Zasady ochrony prywatności
 login-identity = Tożsamość logowania
 login = Zaloguj się
-login-signup = Zaloguj/zarejestruj się
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
 download-profile = Pobierz moje dane

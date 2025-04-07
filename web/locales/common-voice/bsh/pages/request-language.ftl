@@ -18,3 +18,6 @@ request-language-success-list-1 = تو تہ زبتئ اہ ای میل ملابو
 request-language-success-list-2 = ایموستہ کمیونٹی منیجر تومع رابطہ کولہ تکہ سکال مدد پہ ستہ بولہ تو انہ ولستہ بولوش چی پونیوائ ستاع کچی کمیونٹی توستہ وری تہ کودیوم کوتہ تہ نئ نیئا
 request-language-success-list-3 = اگر تو تہ ایچوک وُس تاویک جواب ملا نہ با بو ستامعہ <emailLink>{ $email }</emailLink>زریعہ تہ ایمو معہ رابطہ کشںع ایمو تو جواب پعمو
 request-language-error = اجیستہ دی بوتہ چی ایمو توستہ درخواست بُدوئ نہ شیمو استہ ول تہ مہربانی کتئ ایمو مع براہ راست <emailLink>{ $email }</emailLink>رابطہ کشݩع ایمو شو جواب پعمو!
+request-for-scripted-speech-toggle = ستورے ستہ تقریر کہ درخواست کشی
+need-help-deciding-platform = اینہ فیصلہ کوستہ تہ مدد بکار اسہ چہ گیجیستو منتخب کولوم؟
+need-help-deciding-platform-explanation-3 = اگر تیوتوستہ وری نہ وعݩچیبو پلیٹ فارم ستہ کائ دی حصہ منتخب کشی

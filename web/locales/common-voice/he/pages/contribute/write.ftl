@@ -66,7 +66,7 @@ sentence-variant-select-label = ניב השפה
 sentence-variant-select-placeholder = בחרו ניב (לא חובה למלא)
 sentence-variant-select-multiple-variants = שפה כללית / מספר ניבים
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = העלו <icon></icon> משפטים המצויים בנחלת הכלל

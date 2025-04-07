@@ -17,7 +17,6 @@ localized = Übersetzt
 sentences = Sätze
 language-validation-hours = Stunden
 language-validation-progress = Fortschritt beim Bestätigen
-
 contribute = Mitmachen
 get-involved-button = Mitmachen
 get-involved-title = An { $lang } mitwirken
@@ -32,4 +31,3 @@ get-involved-privacy-info = Wir versichern Ihnen, mit Ihren Daten sorgfältig um
 get-involved-success-title = Sie sind erfolgreich Team { $language } beigetreten. Vielen Dank!
 get-involved-success-text = Wir melden uns erneut bei Ihnen, wenn uns weitere Informationen vorliegen.
 get-involved-return-to-languages = Zurück zu Sprachen
-

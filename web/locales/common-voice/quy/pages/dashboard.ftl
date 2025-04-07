@@ -41,30 +41,77 @@ finish-editing = ¿Terminar de editar primero?
 lose-changes-warning = Salir ahora significa que perderá sus cambios
 build-custom-goal = Crea un objetivo personalizado
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ayude a alcanzar { $hours } hora en { $language } con un objetivo personal
        *[other] Ayude a alcanzar { $hours } horas en { $language } con un objetivo personal
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Ayudar a Common Voice alcanzar { $hours } hora en un idioma con un objetivo personal
        *[other] Ayudar a Common Voice alcanzar { $hours } horas en un idioma con un objetivo personal
     }
 set-a-goal = Establecer una meta
 cant-decide = ¿No puedes decidir?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hora es alcanzable en sólo
-       *[other] { $totalHours } horas son alcanzables en sólo
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mes si
-       *[other] { $periodMonths } meses si
-    }{ NUMBER($people) ->
-        [one] { $people } registro de persona
-       *[other] { $people } registro de personas
-    }{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } clip al día.
-       *[other] { $clipsPerDay } clips al día.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clips al día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clips al día.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clips al día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clips al día.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clips al día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clips al día.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clips al día.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clip al día.
+                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clips al día.
+                            }
+                    }
+            }
     }
 how-many-per-day = ¡Estupendo! ¿Cuántos clips por día?
 how-many-a-week = ¡Estupendo! ¿Cuántos clips a la semana?
@@ -76,7 +123,7 @@ not-receiving-emails-info =
     Actualmente está configurado para <bold>NO</bold> recibir correos electrónicos como recordatorios de objetivos, mis
     actualizaciones de progreso y boletines sobre Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } clip
        *[other] { $count } clips
     }

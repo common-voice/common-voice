@@ -31,11 +31,6 @@ target-segment-first-banner = Баххуыс кæн саразынæн Common Vo
 target-segment-add-voice = Дæ хъæлæс бафтау
 target-segment-learn-more = Фылдæр базон
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Хъæлæстæ
-contribute-sentence-collection-nav-header = Хъуыдыйæдтæ
-
 ## Reporting
 
 report = Бахъаст кæн

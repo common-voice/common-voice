@@ -26,11 +26,6 @@ share-title-new = Саҥарар дьону буларга <bold>көмөлөс 
 target-segment-add-voice = Бэйэҥ куоласкын киллэр
 target-segment-learn-more = Сиһилии
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Куолас хомуурунньуга
-contribute-sentence-collection-nav-header = Этии хомуурунньуга
-
 ## Reporting
 
 report = Үҥсүү

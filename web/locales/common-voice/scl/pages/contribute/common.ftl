@@ -30,11 +30,6 @@ target-segment-first-banner = کامن وائیسو ٹارگیٹاڑے سانت�
 target-segment-add-voice = تومو شونگو گٹی/یو تھے
 target-segment-learn-more = موتی سیچ
 change-preferences = تومی خوش بدل تھے
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = شونگو ٹال
-contribute-sentence-collection-nav-header = موجے ٹال
 login-signup = لاگ ان / ساین اپ
 vote-yes = اوں
 vote-no = نے

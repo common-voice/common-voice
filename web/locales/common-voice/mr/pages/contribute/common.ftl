@@ -27,9 +27,6 @@ target-segment-first-banner = { $locale } मध्ये कॉमन व्ह
 target-segment-add-voice = आपला आवाज जोडा
 target-segment-learn-more = अधिक जाणून घ्या
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = तक्रार

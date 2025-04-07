@@ -56,7 +56,6 @@ accept-privacy-title = Zásady ochrany osobních údajů
 accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
 login-identity = Identita pro přihlášení
 login = Přihlásit
-login-signup = Přihlášení / Registrace
 edit = Upravit
 email-subscriptions = Odběr e-mailových zpráv
 download-profile = Stáhnout má data

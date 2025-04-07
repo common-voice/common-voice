@@ -26,9 +26,6 @@ target-segment-first-banner = Taimaka wajan ƙirƙirar ɓangaren farko na Common
 target-segment-add-voice = Ƙara Muryar ka
 target-segment-learn-more = Ci gaba da koyo
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Rahoto

@@ -44,7 +44,6 @@ why-demographic-explanation-2 = Ọ́bụ̀rụ̀ nà Ị́ zóchíé íhé gbàs
 accept-privacy = Ọ́ gà-àmásị́ m kà Í jíkwáá ózí ńdị́ à dị́kà Í sìrì kọ́wáá yá n'ọ́wà ḿgbásà íwú Mọ̀zị́lá à <privacyLink>Ìwú Ǹzòrò</privacyLink>
 accept-privacy-title = Ìwú Ǹzòrò
 login-identity = Ǹjìrìmárá
-login-signup = Bànyé / Débànyé áhá
 edit = Dèzíghárị́á
 email-subscriptions = Ńdébànyé áhà màkà ózí íméèlụ̀ (email)
 download-profile = Búdátá ńgwá ńnyọ́chá èjììmárá m

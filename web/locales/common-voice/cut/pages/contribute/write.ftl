@@ -66,7 +66,7 @@ sentence-variant-select-label = A bi'i ndodo
 sentence-variant-select-placeholder = Tndanude ama ndodo (ndetes ne'ede)
 sentence-variant-select-multiple-variants = Ndodo se iyndikchi tndubeuu/ abi'i ndodo
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Cho'otunde ndodo se iyndikchii tndubee inña yi'i yabakude

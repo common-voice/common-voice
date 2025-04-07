@@ -30,9 +30,6 @@ target-segment-first-banner = Help create Common Voice’s first target segment 
 target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Report

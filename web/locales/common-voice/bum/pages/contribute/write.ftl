@@ -5,7 +5,6 @@ write-instruction = Ba'a<icon></icon>adjô dj’a wôk aa man ya bôt été
 write-page-subtitle = Medjó m’a yene eva m’ee nyin e ngab bivôe é bili mam m’awôk a mam ya bôt été aa ngul ya cc-0
 sentence =
     .label = Ebuk
-sentence-input-value = Tilí'i adjô  é tǐ aa mam ya bôt été
 citation-input-placeholder = Tyu'a liti E vôm wo ke nyoñ adjô éte(obilika)
 citation =
     .label = Ebuk
@@ -30,7 +29,6 @@ required-field = Tu'a dji'an afôla dji
 single-sentence-submission = Nlôman adjô dá
 bulk-sentence-submission = Nlôman abui medjô
 single-sentence = Adjô da
-bulk-sentences = Abui medjô
 sentence-domain-combobox-label = E vôm adjô é ti
 sentence-domain-select-placeholder = Tobô'ô a kele kui bité bilá
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = Fatan adjô
 sentence-variant-select-placeholder = Tobô'ô ngumba fatan (ase ôbilika)
 sentence-variant-select-multiple-variants = Mam mese ya  nkɔbô/fatan meval meval
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Lômô'ô <icon></icon> bifia bi a wôk aa mam ya bôt été
@@ -89,3 +87,12 @@ file-invalid-type = Momo esae
 file-too-large = Esae é dañ ya ábui
 file-too-small = Esae é dañ ya tyutyoe
 too-many-files = Aka'a abui bisae
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

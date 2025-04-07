@@ -85,6 +85,7 @@ answer-questions-coming-soon = سوالان جواب دیت<small> (شاؤ گ�
 review-transcriptions = نیویشیروان سہی کو <small> (شاو گویان)</small>
 review-transcriptions-coming-soon = نویشیروان وا لوڑے <small> (شاؤ گویان)</small>
 add-questions = سوال شامل کو <small> (شاو گویان)</small>
+add-questions-coming-soon = سوال شامل کو <small> (شاو گویان)</small>
 transcribe-audio-coming-soon = آوازو نویشیکا غیراوے<small> (شاو گویان)</small>
 transcribe-audio = ہوازو نیویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
@@ -127,7 +128,6 @@ spontaneous-card-header = جاری لو
 spontaneous-card-content = قدرتی، بولچال دیٹا سیٹ ساوزیکو پچین اشاران جواب دیت۔ اولو زبانی وارو پچین بلک صحیح
 language-text-card-header = وارو نیویشیرو
 language-text-card-content = عام رویان دائرو اشارہ،  جملہ یا ترجمہ کوریکو پچین نیویشیرو، چیق وارو ماڈل یا خور کیاغ ساوزاوے یا بوژے
-coming-soon = شاؤ گویان
 add-text = نیویشیرو شامل کو
 
 ## Community section

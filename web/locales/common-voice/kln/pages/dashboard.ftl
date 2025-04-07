@@ -40,12 +40,12 @@ finish-editing = taar iediteni korok?
 lose-changes-warning = ngimandee nguno koleen muuch ibeet kiiy tugul negewal
 build-custom-goal = teech borsengung
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] toreto  { $hours } sait eng  ako { $language }borsetab chi
        *[other] toreto ait { $hours } saishek { $language } ako borsetab chi
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] toret sauti nenayat koit  { $hours }sait eng kuti ak borsetab chi
        *[other] toret sauti nenayat koit  { $hours }sait eng kuti ak borsetab chi
     }
@@ -55,7 +55,7 @@ how-many-per-day = kararan!klipishej ata eng betut?
 how-many-a-week = kararan!klipishek hata eng wiikit?
 which-goal-type = tos imache ingalal,igaste anan iyai tugul?
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] 	{ $count } klipit
        *[other] 	{ $count } klipishek
     }

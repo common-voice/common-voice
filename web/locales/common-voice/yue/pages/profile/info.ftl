@@ -49,7 +49,6 @@ accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</
 accept-privacy-title = 私隱政策
 login-identity = 登入身分
 login = 登入
-login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我嘅數據

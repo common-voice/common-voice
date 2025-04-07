@@ -4,9 +4,8 @@
 error = Nsobi
 action-click = Nnyiga
 action-tap = kwataku
-# Label for language switcher
-interface-language = Endimi ezikwesanisirya
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = okuwayo amawuuro agakwata okululimi
 # Label for button on contribution switcher
 change = kyusa
@@ -26,7 +25,6 @@ contribute = waayo
 ## Navbar
 
 respond-to-prompt = Iramu mubwangu
-transcribe-audio = Indula edobozi omubuwandike
 check-transcriptions = kebera ebiwandiki
 
 ## Not Found Page

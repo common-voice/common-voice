@@ -4,9 +4,8 @@
 error = ٹھِیس
 action-click = زاب
 action-tap = زراب
-# Label for language switcher
-interface-language = باشو انٹرفیس
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹاسیٹئی سانتی دیونو کاریو { $language }
 # Label for button on contribution switcher
 change = بدل تھیونو
@@ -26,7 +25,6 @@ contribute = سات دے
 ## Navbar
 
 respond-to-prompt = پرومپٹیڑے جواب دے
-transcribe-audio = شونگو لِکھے/ شونگو کچٹ تھے
 check-transcriptions = کچٹ تھئیک/لِکھیئک چَکے
 
 ## Not Found Page

@@ -1,8 +1,5 @@
 contribute = Юрттоно
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

@@ -101,7 +101,6 @@ get-started = 開始 <icon><icon>
 
 action-items-section-title = Common Voice 係一個免費開源嘅，由社羣驅動創造數據集嘅平台。
 language-text-card-header = 語言文本
-coming-soon = 即將上線
 
 ## Community section
 

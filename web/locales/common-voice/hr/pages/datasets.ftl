@@ -22,39 +22,41 @@ dataset-splits = Podjele (dob i spol)
 number-of-voices = Broj glasova
 splits = Podjele
 email-to-download = Za preuzimanje, upiši e-adresu
-why-email = <b>Zašto e-mail adresa?</b> U budućnosti ćemo te možda morati kontaktirati u vezi s promjenama skupa podataka, a e-mail nam pruža mogućnost kontaktiranja.
+why-email = <b>Zašto e-mail adresa?</b> U budućnosti ćemo te možda morati kontaktirati u vezi s promjenama skupa podataka, a e-mail adresa nam pruža mogućnost kontaktiranja.
 why-donate-datasets-page = Mozilla Common Voice je najraznolikija, otvorena zbirka glasovnih podataka na svijetu, i u potpunosti se financirmao donacijama. Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke - doniraj danas!</strong>
 confirm-size = Sve je spremno za pokretanje preuzimanja veličine <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Slažeš se</b>, da nećeš pokušati utvrditi identitet govornika u skupu podataka Common Voice
+confirm-no-identify = <b>Slažeš se</b> da nećeš pokušati utvrditi identitet govornika u Common Voice skupu podataka
 confirm-join-mailing-list = Želi se pridružiti Common Voice mailing listi
 download-language = Preuzmi { $language }
 validated-hours = Potvrđeni sati
 recorded-hours = Snimljeni sati
-whats-inside = Što sadrži skup podataka Common Voice?
+whats-inside = Što sadrži Common Voice skup podataka?
 dataset-description-hours =
     Svaki unos u skupu podataka sastoji se od jedinstvene MP3 datoteke i odgovarajuće tekstualne datoteke. Mnogi od <b>{ $total }</b> zabilježenih sati u skupu podataka uključuju i demografske metapodatke poput dobi, spola i narječja, koji mogu pomoći u vježbanju točnosti govornih programa.
     
     Podaci se trenutačno sastoje od <b>{ $valid }</b> potvrđenih sati za <b>{ $languages }</b> jezika, no stalno dodajemo daljnje glasove i jezike. Na našoj <languagesLink>stranici jezika</languagesLink> možeš zatražiti jezik ili početi doprinositi.
-want-dataset-update = Želiš novosti o objavljenim novim verzijama skupa podataka Common Voice? Pretplati se na naš bilten.
+want-dataset-update = Želiš primati novosti o objavljenim novim verzijama Common Voice skupa podataka? Pretplati se na naš bilten.
 subscribe = Pretplati se
 get-started-speech = Započni s prepoznavanjem govora
-other-datasets = Drugi skupovi glasovnih podataka
+other-datasets = Drugi glasovni skupovi podataka
 feedback-q = Želiš nam poslati povratne informacije?
 # This indicates that there is no data to display
 no-information = Nema informacija
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>alat otvorenog koda</docsLink> za istraživače koji razvijaju najsuvremenije UI modele za konverzacije.
 resource-deepspeech-info = Mozillin mehanizam otvorenom koda za prepoznavanje glasa Deep Speech može se koristiti za izradu aplikacija za prepoznavanje govora. Pročitaj naš <githubLink>Github pregled</githubLink> ili se pridruži <discourseLink>DeepSpeech diskursu</discourseLink> upoznavanje korištenja mehanizma.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> je posvećen tehnologiji otvorenog govora. Njihovi projekti uključuju STT i TTS urešaje temeljene na dubokom učenju.
+community-playbook = Priručnik zajednice
+resource-playbook-info = <playbookLink>Pronađi korisne smjernice</playbookLink> za sve Common Voice teme, od lokalizacije do korištenja skupa podataka, kao i kako se povezati s našom zajednicom.
 data-other-librispeech-description = LibriSpeech je korpus od oko 1.000 sati engleskog govora pri 16 Khz, izveden iz audio knjiga LibriVox projekta.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus je izrađen iz audio razgovora i njihovih transkripcija, dostupnih na TED web-stranici.
-data-other-voxforge-description = VoxForge je izrađen za prikupljanje prepisanih govora za upotrebu s otvorenim i slobodno dostupnim sustavima za prepoznavanje govora.
+data-other-voxforge-description = VoxForge je izrađen za sakupljanje transkribiranih govora za upotrebu s otvorenim i slobodno dostupnim sustavima za prepoznavanje govora.
 data-other-tatoeba-description = Tatoeba je velika baza podataka s rečenicama, prijevodima i govornim snimkama za učenje jezika. Ovo preuzimanje sadrži govorni engleski jezik, snimljen od njihove zajednice.
-your-feedback = Imaš ideje kako poboljšati Common Voice? Javi nam se na forumu za diskutiranje
+your-feedback = Imaš ideje kako poboljšati Common Voice? Javi nam na Discourse forumu
 go-discourse = Prijeđi na forum za diskutiranje
-missing-language = Tvoj jezik nedostaje u skupu podataka? Prijeđi na stranicu jezika i zatraži jezik.
+missing-language = Tvoj jezik nedostaje u skupu podataka? Zatraži jezik na našoj stranici jezika.
 go-languages-page = Prijeđi na stranicu jezika
 ready-to-validate = Želiš pomoći potvrđivati rečenice?
 more = Više
@@ -83,7 +85,7 @@ data-download-modal = Pokrenut ćete preuzimanje od <size>{ $size }GB</size>, na
 data-subtitle = Gradimo otvoren i javno dostupan skup glasovnih podataka, koji svi mogu koristiti za podučavanje govornih programa.
 data-explanatory-text = Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju. Ovo je globalni napor i pozivamo na sudjelovanje. Naš je cilj, govornoj tehnologiji pomoći biti inkluzivnija, kako bi odražavala raznolikost glasova cijelog svijeta.
 data-get-started = <speechBlogLink>Započni s prepoznavanjem govora</speechBlogLink>
-data-other-title = Ostali skupovi glasovnih podataka …
+data-other-title = Drugi skupovi glasovnih podataka …
 data-other-goto = Prijeđi na { $name }
 data-other-download = Preuzimanje podataka
 data-bundle-button = Preuzmi paket skupova podataka
@@ -92,3 +94,7 @@ release-version = Verzija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinirana
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Preuzmi naše skupove glasovnih podataka
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Opcije preuzimanja za pristup Common Voice podacima

@@ -17,6 +17,7 @@ contribute-more =
        *[other] Klar for { $count } til?
     }
 speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
+no-sentences-for-variants = Språkvarianten din kan vere tom for setningar! Dersom du er ønskjer, kan du endre innstillingane dine for å sjå andre setningar på språket ditt.
 speak-empty-state-cta = Bidra med setningar
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
@@ -28,11 +29,6 @@ target-segment-first-banner = Hjelp til med å lage Common Voice sitt første m�
 target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
 change-preferences = Endre innstillingar
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Innsamling av stemmer
-contribute-sentence-collection-nav-header = Setningsinnsamling
 login-signup = Logg inn/Registrer deg
 vote-yes = Ja
 vote-no = Nei
@@ -125,11 +121,25 @@ contribution-misreadings-example-7-explanation = [Ordet «igjen» var ikkje i te
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
+contribution-varying-pronunciations-description = Ver forsiktig før du avviser eit klipp med grunngiving at lesaren har uttalt eit ord feil, har lagt vekta på feil stad, eller tilsynelatande har ignorert eit spørsmålsteikn. Det er eit stort utval uttale i bruk rundt om i verda, nokre av dei har du kanskje ikkje høyrt i lokalsamfunnet ditt. Gi rom for variasjon overfor dei som snakkar annleis enn deg.
+contribution-varying-pronunciations-description-extended = På den andre sida, viss du trur at lesaren sannsynlegvis aldri har kome over ordet før, og berre gjettar feil på uttalen, ver vennleg og avvis. Viss du er usikker, bruk hopp over-knappen.
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-background-noise-description = Vi vil at maskinlæringsalgoritmane skal kunne handtere bakgrunnsstøy, og til og med relativt høge lydar kan aksepterast føresett at dei ikkje hindrar deg i å høyre heile teksten. Stille bakgrunnsmusikk er OK; musikk høg nok til å hindre deg i å høyre kvart einaste ord er det ikkje.
+contribution-background-noise-description-extended = Viss opptaket hakkar, eller har knitring, avvis det med mindre heile teksten framleis kan høyrast.
+contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> Dei gigantiske dinosaurane i <strong>[hoste]</strong> triastida.
+contribution-background-noise-example-2-fixed-title = Den gigantiske dino <strong>[hoste]</strong> triastida.
 contribution-background-noise-example-2-explanation = [Del av teksten kan ikkje høyrast]
+contribution-background-noise-example-3-fixed-title = <strong>[Sprake]</strong> gigant dinosaurane i <strong>[hoste]</strong> triastida.
 contribution-background-voices-title = Bakgrunnsstemmer
+contribution-background-voices-description = Stille støy i bakgrunnen er OK, men vi vil ikkje ha fleire stemmer som kan føre til at ein maskinalgoritme identifiserer ord som ikkje er i den skrivne teksten. Viss du kan høyre ulike ord bortsett frå teksten, bør klippet avvisast. Vanlegvis skjer dette der TV-en har vorte ståande på, eller der det går føre seg ein samtale i nærleiken.
+contribution-background-voices-description-extended = Viss opptaket hakkar, eller har knitring, avvis det med mindre heile teksten framleis kan høyrast.
+contribution-background-voices-example-1-title = Dei gigantiske dinosaurane i triastida. <strong>[lese av éi stemme]</strong>
+contribution-background-voices-example-1-explanation = Kjem du? <strong>[vert ropt av ein annan]</strong>
 contribution-volume-title = Lydstyrke
+contribution-volume-description = Det vil vere naturlege variasjonar i volum på dei ulike lesarane. Avvis berre viss volumet er så høgt at opptaket blir brote opp, eller (vanlegare) viss det er så lågt at du ikkje kan høyre kva som blir sagt utan å referere til den skrivne teksten.
 contribution-reader-effects-title = Lesareffektar
+contribution-reader-effects-description = Dei fleste opptak er av folk som snakkar med den naturlege stemma si. Du kan godta ein og anna ikkje-standard innspeling som blir ropt, kviskra eller openbert leverte med ei «dramatisk» stemme. Ver vennleg og avvis songopptak og dei som bruker ei datamaskinsyntetisert stemme.
 contribution-just-unsure-title = Berre usikker?
+contribution-just-unsure-description = Viss du kjem over noko som desse retningslinjene ikkje dekkjer, ver vennleg og stem etter beste skjønn. Viss du verkeleg ikkje kan bestemme deg, bruk hopp over-knappen og gå vidare til neste innspeling.
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre

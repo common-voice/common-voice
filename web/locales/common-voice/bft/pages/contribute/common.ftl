@@ -30,11 +30,6 @@ target-segment-first-banner = کامن وایسی سینگپہ گمگیوے سہ
 target-segment-add-voice = یری سکت پو ہرژوق
 target-segment-learn-more = ینگسہ نوزین گوچوک
 change-preferences = غدمکھونگ فسوربزو
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = سکت فسق
-contribute-sentence-collection-nav-header = تم فسق
 login-signup = جوکھس/جوکھ لم
 vote-yes = ان
 vote-no = مین

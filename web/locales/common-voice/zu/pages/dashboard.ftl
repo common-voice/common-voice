@@ -41,30 +41,77 @@ finish-editing = Qedela ukuhlela kuqala?
 lose-changes-warning = Ukuhamba manje kusho ukuthi uzolahlekelwa izinguquko zakho
 build-custom-goal = Yakha umgomo wangokwezifiso
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Siza kufinyelele kwi { $hours } hora { $language } nenjongo womuntu siqu
        *[other] Siza kufinyelele ku { $hours } mahora { $language } nenjongo womuntu siqu
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Siza iCommon Voice ifinyelele { $hours } ihora ngolimi olunomgomo womuntu siqu
        *[other] Siza iCommon Voice ifinyelele { $hours } amahora ngolimi olunomgomo womuntu siqu
     }
 set-a-goal = Zibekele umgomo
 cant-decide = Awukwazi ukuthatha isinqumo
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka
-       *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka
-    }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } ​​inyanga uma
-       *[other] { $periodMonths } ​​izinyanga uma
-    } { NUMBER($people) ->
-        [one] { $people } umuntu orekhodayo
-       *[other] abantu abangu-{ $people } abarekhodayo
-    } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } isiqeshana ngosuku.
-       *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
+                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
+                            }
+                    }
+            }
     }
 how-many-per-day = Kuhle! Zingaki iziqeshana ngosuku?
 how-many-a-week = Kuhle! Zingaki iziqeshana ngeviki?
@@ -74,7 +121,7 @@ receiving-emails-info =
     izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
 not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-imeyili afana nezikhumbuzi zegoli, mina izibuyekezo zenqubekelaphambili kanye nezincwadi zezindaba mayelana ne-Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } isiqeshana
        *[other] { $count } iziqeshana
     }

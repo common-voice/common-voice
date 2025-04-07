@@ -6,6 +6,7 @@ partnerships-community-header = Ҷомеа, эҷодкорон ва ҷомеаи
 partnerships-foundations-header = Бунёдҳо
 partnerships-governments-header = Ҳукуматҳо
 partnerships-academia-header = Донишгоҳҳо, академикҳо ва тадқиқотчиён
+partnerships-small-business-header = Тиҷорати хурд, аз ҷумла стартапҳо дар соҳаи технология ва «AI»
 partnerships-corporates-header = Иттиҳодияҳои калон ва ширкатҳои платформа
 partnerships-our-partners = Шарикони мо
 # menu item

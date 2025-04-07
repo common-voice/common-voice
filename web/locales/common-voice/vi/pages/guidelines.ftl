@@ -3,6 +3,9 @@ guidelines-header = Nguyên tắc cộng tác viên
 guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các câu và đoạn âm thanh cho bộ dữ liệu Common Voice
 voice-collection = Bộ sưu tập giọng nói
 sentence-collection = Bộ sưu tập câu
+
+## Voice Collection nav ids
+
 varying-pronunciations = Thay đổi cách phát âm
 misreadings = Đọc sai
 offensive-content = Nội dung phản cảm
@@ -12,6 +15,9 @@ volume = Âm lượng
 reader-effects = Hiệu ứng trình đọc
 just-unsure = Không chắc chắn?
 example = Ví dụ
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Chúng tôi hoan nghênh các điểm nhấn khác nhau! Hãy thật thận trọng trước khi từ chối một đoạn ghi âm mà bạn cho rằng người đọc đã phát âm sai một từ, đặt trọng âm sai chỗ hoặc bỏ qua dấu câu. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm mà bạn có thể chưa từng nghe thấy ở cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
 varying-pronunciations-explanation-2 = Mặt khác, nếu bạn nghĩ rằng người đọc chưa bao giờ bắt gặp từ này trước đây và đang đoán sai cách phát âm, vui lòng từ chối. Nếu bạn không chắc chắn, hãy sử dụng nút bỏ qua.
 varying-pronunciations-example = The route was unclear.
@@ -47,11 +53,17 @@ reader-effects-explanation = Hầu hết các bản ghi âm là của những ng
 just-unsure-explanation = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
 still-have-questions = Vẫn còn câu hỏi?
 contact-common-voice = Liên hệ với nhóm Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Phạm vi công cộng
 citing-sentences = Trích dẫn câu
 adding-sentences = Thêm câu
 reviewing-sentences = Xem lại câu
 sentence-domain = Phạm vi của câu
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Điều rất quan trọng là tất cả các câu văn bản đều là <publicDomain>phạm vi công cộng</publicDomain> (<cc0>cc0</cc0>) vì bộ dữ liệu Common Voice được phát hành theo giấy phép cc0. Chỉ tải lên một câu nếu bạn chắc chắn và luôn bao gồm trích dẫn có liên quan.
 public-domain-explanation-2 = Các câu tốt nhất để xây dựng một công cụ nhận dạng giọng nói hữu ích là cách nói thông tục, hiện đại. Một số ý tưởng để giúp bạn tạo câu là;
 public-domain-explanation-3 = Tạo các câu thông tục, hiện đại của chính bạn hoặc với bạn bè hoặc cộng đồng ngôn ngữ của bạn - ví dụ như thông qua 'write-a-thon'
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu ch�
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 domain-explanation = Phạm vi đề cập đến chủ đề của câu. Hiện tại, bạn có thể chọn giữa:
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

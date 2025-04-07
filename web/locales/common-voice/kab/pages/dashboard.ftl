@@ -41,31 +41,78 @@ finish-editing = Ar d-tefakeḍ deg tazwara tazrigt?
 lose-changes-warning = Ma teffɣeḍ tura ad ruḥen ibeddilen-ik
 build-custom-goal = Bnu iswi udmawan
 help-reach-hours-pluralized =
-    Alel ad tawḍeḍ{ NUMBER($hours) ->
-        [one] { $hours } n usrag
-       *[other] { $hours } n yisragen
-    }deg { $language } s yiswi udmawan
+    { $hours ->
+        [one] Alel ad tawḍeḍ{ $hours } n usragdeg { $language } s yiswi udmawan
+       *[other] Alel ad tawḍeḍ{ $hours } n yisragendeg { $language } s yiswi udmawan
+    }
 help-reach-hours-general-pluralized =
-    Alel Common Voice ad yaweḍ{ NUMBER($hours) ->
-        [one] { $hours } n usrag
-       *[other] { $hours } n yisragen
-    }deg tutlayt s yiswi udmawan
+    { $hours ->
+        [one] Alel Common Voice ad yaweḍ{ $hours } n usragdeg tutlayt s yiswi udmawan
+       *[other] Alel Common Voice ad yaweḍ{ $hours } n yisragendeg tutlayt s yiswi udmawan
+    }
 set-a-goal = Sbadu iswi
 cant-decide = Ur tezmireḍ ara tferneḍ?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } n usrag
-       *[other] { $totalHours } n yisragen
-    } i nezmer ad naweḍ deg { NUMBER($periodMonths) ->
-        [one] { $periodMonths } n wayyur
-       *[other] { $periodMonths } n wayyuren
-    } ma{ NUMBER($people) ->
-        [one] { $people } n umdan
-       *[other] { $people } n yimdanen
-    } i yesseklasen{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } n tukkist
-       *[other] { $clipsPerDay } n tukkisin
-    } deg wass.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n usrag i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyur ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n umdan i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkist deg wass.
+                               *[other] { $totalHours } n yisragen i nezmer ad naweḍ deg { $periodMonths } n wayyuren ma{ $people } n yimdanen i yesseklasen{ $clipsPerDay } n tukkisin deg wass.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Igerrez! Acḥal n tukkisin deg wass?
 how-many-a-week = Igerrez! Acḥal n tukkisin di ddurt?
 which-goal-type = Tebɣiḍ ad tmeslayeḍ,  ad tesleḍ neɣ di sin?
@@ -74,7 +121,7 @@ receiving-emails-info =
     ileqman n usfari-iw akked tebratin n yisallen ɣef Common Voice
 not-receiving-emails-info = Aql-ak tura terriḍ  <bold>UHU</bold>  i urmas n yimaylen i yismektiyen n yiswan, ileqman n usfari-iw akked tebrat n yisallen ɣef Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } n tukkist
        *[other] { $count } n tukkisin
     }

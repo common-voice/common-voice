@@ -76,8 +76,12 @@ read-more-about = Saiba mais sobre o Common Voice
 ## NAV ITEMS
 
 answer-questions = Responder perguntas <small>(em breve)</small>
+answer-questions-coming-soon = Responder perguntas <small>(em breve)</small>
 review-transcriptions = Revisar transcrições <small>(em breve)</small>
+review-transcriptions-coming-soon = Rever transcrições <small>(em breve)</small>
 add-questions = Adicionar perguntas <small>(em breve)</small>
+add-questions-coming-soon = Adicionar perguntas <small>(em breve)</small>
+transcribe-audio-coming-soon = Transcrever áudio <small>(em breve)</small>
 transcribe-audio = Transcrever áudio <small>(em breve)</small>
 press-and-stories = Imprensa e histórias
 community-and-languages = Comunidade e idiomas
@@ -103,17 +107,25 @@ community-and-languages-menu-item-aria-label = Descubra a comunidade e os idioma
 ## Hero section
 
 hero-title = Tecnologia que fala seu idioma
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Porque deve a IA funcionar apenas para alguns idiomas do mundo?</bold>
+hero-subtitle-2 = A nossa língua é nossa história, a nossa comunidade e a nossa cultura. Vamos criar os conjuntos de dados que queremos ver no mundo.
+# icon is an arrow that points downwards
+get-started = Começar <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice é uma plataforma gratuita e de código aberto para criação de dados gerida pela comunidade
+action-items-section-subtitle = Qualquer pessoa pode preservar, revitalizar e valorizar a sua língua ao partilhar, criar e organizar conjuntos de dados de texto e de fala.
 scripted-card-header = Fala com roteiro
 scripted-card-content = Leia frases em voz alta no seu idioma e contribua para o conjunto de dados de voz de participação pública mais diversificado do mundo.
 spontaneous-card-header = Fala espontânea
-coming-soon = Em breve
 add-text = Adicionar texto
 
 ## Community section
 
+# label for button
+join-discord-community-action = Participe no Discord
 # label for button
 ask-mozilla-share-action = Compartilhe seu evento
 download-contribution-certificate = Baixe seu certificado de contribuição
@@ -135,3 +147,8 @@ featured-section-title = Em destaque em...
 
 ## Partner section
 
+partner-section-title = Seja nosso parceiro
+# icon is an arrow that points to the right
+get-in-touch-button = Entre em contato <icon></icon>
+# Partners section
+our-partners-include = Alguns de nossos parceiros…

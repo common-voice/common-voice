@@ -21,10 +21,6 @@ target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
 change-preferences = 更改偏好設定
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = 收集語音
-
 ## Reporting
 
 report = 回報

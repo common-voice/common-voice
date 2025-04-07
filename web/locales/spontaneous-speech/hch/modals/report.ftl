@@ -1,4 +1,5 @@
 ## Report Modal
+
 report-modal-title = Xanetsika nemanunɨʼani / ke neunɨʼa
 report-modal-subtitle = ¿ʼEna mɨrayemié tita ʼaxa tiʼane?
 offensive_speech = Axa tiʼanetɨ katinayemieni
@@ -7,8 +8,8 @@ different_language = Niuki yɨkɨ ʼanetɨ kanayemieni
 different_language-detail = Ke nemɨraʼeriwakaitɨ niuki mɨpaɨ ʼanetɨ pɨkaʼayemie
 personally_identifiable_information = Ahetsié timieme
 personally_identifiable_information-detail = Ahetsie timieme pɨrayemié, ʼikɨ hepaɨ, ke pemɨtitewá, ʼacorreo, ʼaxapa matsihaxaxata ke paɨtɨ maʼuxa yátɨni ʼaniukame ke mɨpaɨme.
-report-other-comment = 
-.placeholder = Niuki matsi ʼakuxi
+report-other-comment =
+    .placeholder = Niuki matsi ʼakuxi
 # Label for textarea in report modal
 other = Yɨkɨ ranuyɨnemekɨ
 report-error = Axa katiniuyɨní niuki heyunɨawakaku

@@ -104,7 +104,6 @@ action-items-section-title = Common Voice es una plataforma gratuita y de softwa
 scripted-card-header = Habla leída
 spontaneous-card-header = Habla espontánea
 language-text-card-header = Texto en idioma
-coming-soon = ¡Muy pronto!
 add-text = Añadir texto
 
 ## Community section

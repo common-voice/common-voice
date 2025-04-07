@@ -2,7 +2,7 @@
 
 write = لکڻ
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

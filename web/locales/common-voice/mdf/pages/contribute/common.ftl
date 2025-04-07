@@ -27,9 +27,6 @@ target-segment-first-banner = Лезтт тиемс Common Voice-са васен
 target-segment-add-voice = Поладомс эсь вайгяльцень
 target-segment-learn-more = Сяда крхкаста
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Пеняцямс

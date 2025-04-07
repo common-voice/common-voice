@@ -98,7 +98,6 @@ hero-title = Tehnologeja, kas runoj jiusu volūdā
 ## Action items section
 
 spontaneous-card-header = Spontana runa
-coming-soon = Dreiži
 add-text = Dalikt tekstu
 
 ## Community section

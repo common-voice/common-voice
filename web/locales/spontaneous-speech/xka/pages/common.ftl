@@ -5,9 +5,12 @@ error = غلطی
 action-click = ٹسار
 action-tap = تراپ
 # Label for language switcher
-interface-language = مکھامکھ جیب
+platform-language = اوں باگ اے جیب
+platform-language-tooltip-text = صرف ویبسائٹ ٹکسٹ بدل بھون
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹاسیٹ سی امداد
+contribution-picker-tooltip-text = کاں جیب می تو مدد دون تہ جیب ام ڈیٹا سیٹ بدلون
 # Label for button on contribution switcher
 change = بدل اے°
 coming-soon = دی جیب پا شو ر یین
@@ -22,12 +25,14 @@ report-button = خبر
 skip-button = چھور
 submit-button = نام
 contribute = امداد
+request-new-language = نم جب کیر درخواست دہ
 
 ## Navbar
 
-respond-to-prompt = تیدی کیر جواب
-transcribe-audio = اڈیو ٹرانسکراییب
+respond-to-prompt = جواب دہ
+transcribe = نقل تھاچونڑ
 check-transcriptions = ترجمہ نال
+question = تپوس تہ۔۔۔۔کھوجہ
 
 ## Not Found Page
 

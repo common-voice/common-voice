@@ -50,7 +50,6 @@ why-demographic-explanation-2 = Tshedimosetso ya botlhokaina jaaka dingwaga, bon
 accept-privacy = Ga ke na bothata le gore lo dirise tshedimosetso eno jaaka lo tlhalosa mo <privacyLink>Pholisi ya Polokodiphiri</privacyLink> ya Mozilla
 accept-privacy-title = Pholisi ya Polokodiphiri
 login-identity = Boitshupo Jwa go Tsena
-login-signup = Tsena / Ikwadise
 edit = Baakanya
 email-subscriptions = Dipeeletso tsa Imeile
 download-profile = Itseele Tshedimosetso ya Me

@@ -126,7 +126,6 @@ spontaneous-card-header = Spontan tale
 spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske, dagligdagse kontekster. Perfekt for muntlig førstespråk.
 language-text-card-header = Tekstspråk
 language-text-card-content = Opprett eller del forespørsler, setninger og tekst i det offentlige domene for oversettelse, små språkmodeller og mer.
-coming-soon = Kommer snart…
 add-text = Legg til tekst
 
 ## Community section

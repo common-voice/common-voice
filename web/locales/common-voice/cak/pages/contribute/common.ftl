@@ -22,9 +22,6 @@ login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikiri
 target-segment-add-voice = Tatz'aqatisaj Ach'ab'äl
 target-segment-learn-more = Tetamäx ch'aqa' chik
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Tiya' rutzijol

@@ -2,8 +2,6 @@
 
 action-click = ⴽⵍⵉⴽⵉ
 action-tap = ⴰⴷⵔ
-# Label for language switcher
-interface-language = ⵜⵓⵜⵍⴰⵢⵜ ⵏ ⵓⴳⵔⵓⴷⵎ:
 audioplayer-header = ⵙⵍⵍ
 guidelines = ⵜⴰⵔⴰⵜⵉⵏ
 # For the button to report an item

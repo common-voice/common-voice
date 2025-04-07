@@ -11,7 +11,7 @@ request-language-form-email =
 request-language-form-info =
     .label = ინფორმაცია ენის შესახებ
 request-language-form-info-explanation =
-    მიუთითეთ მეტად დაწვრილებითი აღწერა სასურველი ენისთვის. ეს
+    დაურთეთ მეტად დაწვრილებითი აღწერა სასურველი ენისთვის. ეს
     შეიძლება მოიცავდეს:
 request-language-form-info-explanation-list-1 = თქვენი ენის დასახელებებს
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-კოდებს</isoCodeLink>, თუ იცით
@@ -34,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     შესაძლოა, არ მიგვიღია მოთხოვნა. გთხოვთ, მოგვწეროთ პირდაპირ
     მისამართზე <emailLink>{ $email }</emailLink> და მოგაქცევთ ყურადღებას!
+request-for-scripted-speech-toggle = ნაწერის გახმოვანების მოთხოვნა
+request-for-spontaneous-speech-toggle = ზეპირი მეტყველების მოთხოვნა
+need-help-deciding-platform = გსურთ გაერკვეთ, რომელი უნდა მიუთითოთ?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>ნაწერის გახმოვანება</strong> (ჩვეულებრივ, რითაც ცნობილია Common Voice) გულისხმობს წინადადებების ხმამაღლა წაკითხვას თქვენს ენაზე.
+need-help-deciding-platform-explanation-2 = <strong>ზეპირი მეტყველება</strong> ახალი შესაძლებლობაა, რომელსაც Common Voice გთავაზობთ და შეგეძლებათ კითხვებს უპასუხოთ მეტად ბუნებრივი, სალაპარაკო ენით.
+need-help-deciding-platform-explanation-3 = თუ თქვენს ენას პლატფორმის ვერცერთ ნაწილში ვერ იპოვით, მიუთითეთ ორივე.

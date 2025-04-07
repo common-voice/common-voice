@@ -32,3 +32,10 @@ request-language-success-list-3 =
 request-language-error =
     Možda nismo primili taj zahtjev. Pošalji nam e-mail izravno
     na <emailLink>{ $email }</emailLink> i mi ćemo ti se javiti!
+request-for-scripted-speech-toggle = Zahtjev za pisani govor
+request-for-spontaneous-speech-toggle = Zahtjev za spontani govor
+need-help-deciding-platform = Trebaš pomoć pri biranju jezika?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Pisani govor</strong> (tradicionalno ono što poznaš kao Common Voice) je mjesto gdje možeš naglas čitati rečenice na svom jeziku.
+need-help-deciding-platform-explanation-2 = <strong>Spontani govor</strong> je novi dio Common Voicea u kojem možeš odgovarati na pitanja na prirodniji, kolokvijalni način.
+need-help-deciding-platform-explanation-3 = Ako ni u jednom dijelu platforme ne vidiš tvoj jezik, odaberi oba.

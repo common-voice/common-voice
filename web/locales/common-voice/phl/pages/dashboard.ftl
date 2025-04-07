@@ -41,72 +41,72 @@ finish-editing = مُݜٹو ایڈیٹنگ ختم تھیلیئے؟
 lose-changes-warning = تِپہ اُڑیگلئنی مطلب ایڑے کی،مہ تھی تبدیلیہ پھسُوم۔
 build-custom-goal = تیݨی تھے آک حدف چھورہ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] { $hours } گھنٹہ { $language } وارا تیݨی ذاتی حدف پورہ تھئنی مدد تھہ
        *[other] { $hours } گھنٹہ{ $language } وارا تیݨی ذاتی مقصد پورہ تھئنی مدد تھہ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] کمن وائسی { $hours }گھنٹہ آک زبان کی تیݨی ذاتی حدف پورہ تھئنی مجی مدد تھی
        *[other] کمن وائسی { $hours }گھنٹہ آک زبان کی تیݨی ذاتی  مقصد پورہ تھئنی مجی مدد تھی
     }
 set-a-goal = آک حدف چھورہ
 cant-decide = فیصلہ نہ تھائی بھانوے؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = تو کھونڈئنی دوائینو کی کاݨ تھئنی ک
 receiving-emails-info = موجودہ وختی تھی سیٹنگ ایتیݨی ہنی کی تو تھے تھی مقصد یاد تھوئنی دپارہ  ای میلی یھین۔
 not-receiving-emails-info = موجودہ وختی تھی سیٹنگ ایتیݨی ہنی کی<bold>نو </bold> تو تھے تھی مقصد یاد تھئنی، تھی کرام اپڈیٹ، او کمن وائسی بارئی نیوز لیٹر یھین۔
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } ہاویزی کلپ
        *[other] { $count } ہاویزی کلپز
     }

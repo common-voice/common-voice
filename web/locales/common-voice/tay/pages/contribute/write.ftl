@@ -2,7 +2,7 @@
 
 write = biru'
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 
 ## SMALL BATCH SUBMISSION

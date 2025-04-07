@@ -31,11 +31,6 @@ target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 �
 target-segment-add-voice = 내 목소리 추가
 target-segment-learn-more = 더 알아보기
 change-preferences = 설정 변경
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = 음성 모음
-contribute-sentence-collection-nav-header = 문장 모음
 login-signup = 로그인 / 회원가입
 vote-yes = 네
 vote-no = 아니오

@@ -5,9 +5,6 @@ skip = Алгасаха
 record-button-label = Дуугарһанаа бэшэхэ
 share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 

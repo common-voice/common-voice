@@ -31,11 +31,6 @@ target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 change-preferences = o ante e wile sina
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = kulupu kalama
-contribute-sentence-collection-nav-header = kulupu toki
-
 ## Reporting
 
 report = o toki e pakala

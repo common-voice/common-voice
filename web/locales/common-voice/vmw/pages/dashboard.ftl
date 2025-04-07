@@ -38,12 +38,12 @@ finish-editing = Okhomoni wa nlaka nopaacerya?
 lose-changes-warning = Mwakhuma niinaano, khamunlola soopittikuxiwa sanyu
 build-custom-goal = Opaka ephiro yooreera
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Mukhalihe opwaanya { $hours } iwoora  { $language }  vamosa ni mphiimo mmosa wa omutthu awe
        *[other] Mukhalihe opwaanya { NUMBER($hours) } iwoora  { $language } vamosa ni mphiimo mmosa wa omekhaawe
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Omukhaluiherya Common Voice  wiira opwaanyerexa { $hours } iwoora mwa nttaava nimosa ni mphimo omekhaawo
        *[other] Mmukhalihe Common Voice  wiira opwanyererye { $hours } iwoora mwe nttaava nimosa ni mphiimo omekhaawe
     }
@@ -53,7 +53,7 @@ which-goal-type = Muniphavela wuluma, owiriyana wala sooteene?
 receiving-emails-info = Ekontha anyu eniphwanyaneya yoopakiweene wiira mwaakheleleke emails, sintoko myuupuxero sa mikotelo, mihupi sa mweettelo ni soohisuweliwa sa Common Voice
 not-receiving-emails-info = Nto niinaano va, ekontha anyu eniphwanyaneya yoopakiweene wa <bold> NNAKHALA </bold> waakhela emails, sintoko myuupuxero sa mikotelo, mihupi sa mweettelo anyu ni iwarakha sa soohimmwa sa nihiku wa Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] ikilipi emosa
        *[other] { $count } ikilipi
     }

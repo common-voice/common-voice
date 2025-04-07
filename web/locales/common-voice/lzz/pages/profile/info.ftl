@@ -54,7 +54,6 @@ accept-privacy-title = t̆obaşobaşi Polotiǩa
 accept-privacy-and-terms = Common Voiceşi <termsLink>Şart̆epe</termsLink> do <privacyLink>t̆obaşoba Gognapa</privacyLink> elemivelams.
 login-identity = Amaxtimui oçinoba
 login = Amaxti
-login-signup = Amaxti/ Doliç'ari
 edit = Sturesari
 email-subscriptions = E-posta Doloç̌areri
 download-profile = Datape-çkimi Kogeiği

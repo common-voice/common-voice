@@ -9,9 +9,6 @@ clips-with-count-pluralized =
     }
 target-segment-learn-more = ပိုမို လေ့လာရန်
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = အစီရင်ခံရန်

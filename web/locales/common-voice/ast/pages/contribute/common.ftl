@@ -27,9 +27,6 @@ target-segment-first-banner = Ayuda a crear el primer segmentu de voz de Common 
 target-segment-add-voice = Amiestu de la to voz
 target-segment-learn-more = Saber más
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Informar

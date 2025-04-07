@@ -3,6 +3,10 @@ guidelines-header = Směrnicy za sobuskutkowarjow
 guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka prašenjow
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rozdźělne wurjekowanja
 misreadings = Čitanske zmylki
 offensive-content = Njepřistojny wobsah
@@ -12,7 +16,14 @@ volume = Sylnosć zwuka
 reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
+
+## Voice collection sidebar content
+
+varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Budźće jara kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, dokelž mysliće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo interpunkciju prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wulkomyslnu swobodu, kotřiž hinak hač wy rěča.
+varying-pronunciations-explanation-2 = Jeli wšak měniće, zo čitar je słowo přez připad namakał a wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 varying-pronunciations-example = Ruta běše njejasna.
+offensive-content-explanation = Sady so přez moderaciski proces zhromadźenstwa přepruwuja, ale tutón proces perfektny njeje. Jeli sadu widźiće abo słyšiće, kotrež was křiwdźi abo hněwa – na přikład, dokelž so přećiwo našim <participationGuidelines>wobdźělenskim směrnicam zhromadźenstwa</participationGuidelines> přeńdźe – wužiwajće prošu tłóčatko Zdźělić we wužiwarskim powjerchu. Móžeće so tež z nami přez <emailFragment>commonvoice@mozilla.com</emailFragment> do zwiska stajić.
+misreadings-explanation-1 = Je wažnje, zo so wšě słowa na stronje prawje čitaja. Přepruwujće při słuchanju jara starosćiwje, zo natočene je tež napisane; wotpokazajće, jeli su přidate, skontrahowane abo wuwostajene słowa.
 misreadings-explanation-2 = Jara časte zmylki su:
 misreadings-explanation-3 = Faluje krótke słowo kaž ‚w‘ abo ‚do‘ na spočatku nahraća.
 misreadings-explanation-4 = Faluje ‚a‘ na kóncu słowa (na př. pisał město pisała).
@@ -26,26 +37,42 @@ misreadings-example-4 = Čmjeła nimo lećeše.
 misreadings-tip-1 = [Dyrbjało „Dźemy“ rěkać]
 misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
 misreadings-tip-3 = [Wobsah njewotpowěduje]
+background-noise-explanation = Dyrbiće kóžde słowo natočenja słyšeć móc. Chcemy, zo algoritmy mašinelneho wuknjenja móža z wjele wšelakorymi pozadkowymi šumami wobchadźeć a samo relatiwnje hłósne šumy abo ćicha pozadkowa hudźba dadźa so akceptować, pod wuměnjenjom, zo tomu njezadźěwaja, zo so cyły tekst słyši. Knyskotanje abo přetorhnjenja, kotrež tomu zadźěwaja, zo tekst słyšiće, rěka, zo wy měł klip wotpokazać.
 background-noise-example-1 = Hoberske dinosawriery triasa.
 background-noise-tip-1 = [přez pozadkowy šum přetorhnjeny]
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
+background-voices-explanation = Ćichi pozadkowy šum je w porjadku, ale jeli móžeće słyšeć, zo druha wosoba druhe słowa rěči, měł so klip wotpokazać. Zwjetša to so tam stawa, hdźež telewizor je zapinjeny abo hdźež je rozmołwa w bliskosći.
 background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
 background-voices-tip-1 = Přińdźeš? [hłós druheho]
+volume-explanation = Su přirodne chabłanja w sylnosći hłosa mjez čitarjemi. Wotpokazajće jenož, jeli sylnosć hłosa je tak wysoka, zo so nahraće myli, abo (časćišo), jeli je tak niska, zo bjez napisaneho teksta njesłyšiće, štož so praji.
+reader-effects-explanation = Najwjace nahraćow je wot ludźi, kotřiž ze swojim přirodnym hłosom rěča. Móžeće składnostne njestandardne nahraće akceptować, kotrež so woła, šepta abo so po zdaću z „dramatiskim“ hłosom poskića. Prošu wotpokazajće spěwane nahraća a tajke, kotrež z kompjuterom generěrowany hłós wužiwaja.
+just-unsure-explanation = Jeli na něšto storčiće, zo tutym směrnicam njewotpowěduje, hłosujće prošu po swojim najlěpšim posudku. Jeli woprawdźe njemóžeće so rozsudźić, wužiwajće tłóčatko Přeskočić a pokročujće z přichodnym nahraćom.
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
+
+## Sentence collection nav ids
+
 public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
 sentence-domain = Tema sady
+
+## Sentence collection sidebar content
+
+public-domain-explanation-1 = Je jara wažnje, zo wšě tekstowe sady su <publicDomain>zjawnje přistupne</publicDomain> (<cc0>cc0</cc0>), dokelž datowa sadźba Common Voice so pod licencu cc0 wozjewja. Nahrajće jenož sadu, jeli sće sej wěsty, a přidajće přeco relewantny citat.
 public-domain-explanation-2 = Najlěpše sady za wužitny program rěčenskeho spóznaća su wobchadnorěčne, moderne rěčne wužiwanje. Někotre ideje, kotrež wam pomhaja, sady generować, su;
 public-domain-explanation-3 = Wutworće moderne, wobchadnorěčne sady sam abo ze swojimi přećelemi abo z rěčnym zhromadźenstwom – na přikład přez „write-a-thon“
+public-domain-explanation-4 = Skontaktujće awtorow, dramatikarjow abo awtorow scenarijow a prašejće so, hač bychu mały dźěl jich dźěłow zjawnje spřistupnili
 public-domain-explanation-5 = Pytajće za tekstom, za kotryž awtorske prawo hižo njepłaći – na přikład najwjace knihow, kotrež su so před 1920 wudali
+public-domain-explanation-6 = Stajće so z knježerstwami, powšitkownosći wužitnymi abo medijowymi organizacijemi do zwiska, zo byšće zhonił, hač jich webwobsah, rozprawy abo druhi wobsah móža zjawnje přistupne być
 citing-sentences-explanation-1 = Je wažnje, citaty přidać, zo bychmy móhli přepruwować, zo sady su za zjawnosć k dispoziciji a žane awtorskoprawniske wobmjezowanje njepłaći.
 citing-sentences-subheader-websites = Websydła
 citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = Akademiska referenca
+citing-sentences-subheader-academic-reference-explanation = Móžeće akademiski stil citowanja wužiwać, na př. stil Harvard „Mozilla (2021) Common Voice. K dispoziciji na https://commonvoice.mozilla.org/ (Přistup: 15. septembra 2021)“
 citing-sentences-subheader-offline-sources = Žórła offline
+citing-sentences-subheader-offline-sources-explanation = Za zjawnje přistupne teksty, kotrež online k dispoziciji njejsu, móžeće akademiski stil citowanja wužiwać, na př. stil Harvard „Jess (2021) Moje zjawnje přistupne basnje“
 citation =
     .label = Citat
 self-citation = Sebjecitowanje
@@ -55,14 +82,47 @@ adding-sentences-subheader-length-explanation = Sada dyrbjała mjenje hač 15 s�
 adding-sentences-subheader-spelling-punctuation = Prawopis a interpunkcija
 adding-sentences-subheader-spelling-punctuation-explanation = Sada dyrbi prawje napisana być.
 adding-sentences-subheader-speakable = Wurjekujomny
+adding-sentences-subheader-speakable-explanation = Najlěpše sady su přirodne a bjesadne – měli za kóždeho lochko čitajomne być. Mjeztym zo fonetiske rozdźěle a rozdźělne słowa w sadach su wažne, pospytujemy natočenje sadow za naše zhromadźenstwo dobrowólnikow tak spodobnje a zabawnje kaž móžno wuhotować.
 adding-sentences-subheader-numbers = Ličby
+adding-sentences-subheader-numbers-explanation = Žórłowy tekst njeměł w idealnym padźe žane cyfry wobsahować, dokelž móža problemy zawinować, hdyž so wótře čitaja. Wašnje, na kotrež so ličba čita, wot konteksta wotwisuje a móhło k zamylenju w datowym sadźbje wjesć. Ličba „2409“ na přikład da so korektnje jako „štyriadwaceći nul dźewjeć“ kaž tež jako „dwaj tysacaj štyrista dźewjeć“ čitać.
 adding-sentences-subheader-abbreviations = Skrótšenki a akronymy
+adding-sentences-subheader-abbreviations-explanation = Skrótšenki a akronymy kaž „USA“ abo „ICE“ měli so w žórłowym teksće wobeńć, dokelž so snano na wašnje čitaja, kotrež jich prawopisej njewotpowěduje. Nimo toho su snano wjacore korektne čitanja za jednotliwu skrótšenku.
 adding-sentences-subheader-punctuation = Interpunkcija
+adding-sentences-subheader-punctuation-explanation = Specialne symbole a interpunkciske znamješka měli so jenož zapřijeć, hdyž absolutnje trěbne. Apostrof na přikład je w jendźelskich słowach kaž „don't“ a „we're“ wobsahowany a měł so do žórłoweho teksta přewzać, ale njeje prawdźepodobnje, zo trjebaće specialny symbol kaž „@“ abo „#“.
 adding-sentences-subheader-special-characters = Wosebite znamješka a cuze pismiki
 adding-sentences-subheader-special-characters-explanation-1 = Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
+adding-sentences-subheader-special-characters-explanation-2 = Rěče móža swójske přepruwowanske prawidła z přidatnymi žadanjemi měć, hdyž so přełožuja. Jeli njeje wěsta kontrolna dataja, so prawidła jendźelšćiny za sobuskutkowarjow pokazuja.
 adding-sentences-subheader-offensive-content = Njepřistojny wobsah
+adding-sentences-subheader-offensive-content-explanation = Jeli sada je njepřistojna abo mjerzaca – na přikład eksplicitneho wobsaha dla abo druheho přeńdźenja našich <communityGuidelines>směrnicow za wobdźělenje w zhromadźenstwje</communityGuidelines> dla – dyrbjał wy sadu wotpokazać. Móžeće tež nas přez <emailFragment>commonvoice@mozilla.com</emailFragment> skontaktować, zo by so problem eskalěrował.
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-3 = Jeli při sadźe wěsty njejsće, móžeće ju přeskočić a z přichodnej pokročować.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
+
+## Question collection ids
+
+adding-questions = Prašenja přidać
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Što dobre prašenje twori?
+what-makes-a-good-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = lochko rozumić być a na so wotmołwić dać
+what-makes-a-good-question-explanation-criteria-2 = powšitkownje relewantne być
+what-makes-a-good-question-explanation-criteria-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+easy-to-understand = Lochko rozumić
+easy-to-understand-explanation = Wubjerće jednore prašenja, kotrež móže kóždy lochko rozumić, njedźiwajo na kulturu abo kontekst.
+spelling-and-pronunciation = Prawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužiwajće korektny prawopis a korektnu gramatiku.
+length = Dołhosć
+length-explanation = Na prašenje měło so w jenož mało sadach wotmołwić dać.
+dont-add-subheader = Njepřidać
+culturally-specific-questions = Za kulturu specifiske prašenja
+culturally-specific-questions-explanation = Prašenja, kotrež su jara specifiske za kulturu abo wjele tukanjow wo wotmołwjacym wobsahuja
+process-steps = Proces / Kroki
+offensive-content-sensitive-information = Njepřistojny wobsah abo sensibelne informacije
+offensive-content-sensitive-information-explanation-explanation-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+offensive-content-sensitive-information-explanation-explanation-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
+example-questions-subheader = Přikładowe prašenja
+example-questions-explanation-1 = Móžeće <examplePromptsLink>120 přikładowych prašenjow w tutej tabeli namakać.</examplePromptsLink>

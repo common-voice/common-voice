@@ -5,9 +5,12 @@ error = غلطی
 action-click = کلک
 action-tap = انگلی لاؤ
 # Label for language switcher
-interface-language = انٹرفیس زبان:
+platform-language = پلیٹ فارم دی زبان
+platform-language-tooltip-text = صرف ویب سائٹ دی عبارت بدلاؤ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹ بچ { $language } آسطے حصہ با رے آں
+contribution-picker-tooltip-text = زبان دے ڈیٹا سیٹ جس اچ تسیں حصہ بھا رے او کو بدلاؤ
 # Label for button on contribution switcher
 change = بدلاؤ
 coming-soon = ہور زباناں جلدی آ ریاں
@@ -27,8 +30,9 @@ request-new-language = نوّی زبان دی درخواست کرو
 ## Navbar
 
 respond-to-prompt = پرامپٹ دا جواب دو
-transcribe-audio = آواز کو ٹرانسکرائب کرو
+transcribe = نقل کرو
 check-transcriptions = ٹرانسکرپشناں چیک کرو
+question = سوال
 
 ## Not Found Page
 

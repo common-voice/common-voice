@@ -30,11 +30,6 @@ target-segment-add-voice = Va'a e tyiñe jôe
 target-segment-learn-more = E tyu'a yemelan
 change-preferences = Tyénde minkômban
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Nnyoñan e tyiñ
-contribute-sentence-collection-nav-header = Nnyoñan e medjô
-
 ## Reporting
 
 report = E soman

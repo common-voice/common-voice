@@ -216,12 +216,16 @@ export default class Model {
       const [
         localizedPercentages,
         validClipsCounts,
+        invalidClipsCounts,
         speakerCounts,
         allClipsCount,
       ] = await Promise.all([
         this.getLocalizedPercentages(), //translation %, no en
         this.db
           .getValidClipCount(allLanguageIds)
+          .then(data => statsReducer(data)),
+        this.db
+          .getInvalidClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
         this.db
           .getTotalUniqueSpeakerCount(allLanguageIds)
@@ -241,6 +245,9 @@ export default class Model {
         const validSecDur =
           allAverageDurations.find(d => d.name === lang.name).avg_seconds *
           (validClipsCounts[lang.id] || 0)
+        const invalidSecDur =
+          allAverageDurations.find(d => d.name === lang.name).avg_seconds *
+          (invalidClipsCounts[lang.id] || 0)
 
         // default to zero if stats not in db
         const currentLangStat = {
@@ -248,6 +255,7 @@ export default class Model {
           localizedPercentage: localizedPercentages[lang.name] || 0,
           recordedHours: secondsToHours(totalSecDur),
           validatedHours: secondsToHours(validSecDur),
+          invalidatedHours: secondsToHours(invalidSecDur),
           speakersCount: speakerCounts[lang.id] || 0,
           sentencesCount: {
             targetSentenceCount: lang.target_sentence_count,

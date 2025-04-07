@@ -19,6 +19,11 @@ request-language-google-recaptcha-required = reCAPTCHA jo trjebny, jolic cośo p
 request-language-google-recaptcha-error = Něco njejo se raźiło z reCAPTCHA. Pšosym wopytajśo hyšći raz.
 # Success page
 request-language-success-heading = Wjeliki źěk! Sćo pósłał pšosbu wó nowu rěc
+request-language-success-list-1 = Wy dejał mejlku wót managera našogo zgromaźeństwa dostaś, kótaraž kšace wujasnjujo, kak móžośo Common Voice swóju rěc pśidaś.
+request-language-success-list-2 =
+    Naš manager zgromaźeństwa buźo se z wami do zwiska stajaś, aby
+    wósebnu pódpěru póbitował a wam k wěsći dał, lěc dajo
+    južo zgromaźeństwo, kótarež na wašej rěcy źěła
 request-language-success-list-3 =
     Jolic za pór dnjow nic wót nas njesłušaśo,
     stajśo se z nami pśez <emailLink>{ $email }</emailLink>

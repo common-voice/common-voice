@@ -18,3 +18,10 @@ request-language-success-list-1 = تو ٹھ ا ای میل بہ۔۔سو کھٹن
 request-language-success-list-2 = اسی درام اؘ گن مدد کیر توسان سہ رابط تھو تے توساں تھ منو اؘ توسے درام اؘ توسی جب رل گوا کار تھا اؘ کو نہ۔
 request-language-success-list-3 = سوٹھ اؘ دوس دو می بوجل تھ گوا میلاو بون تہ رابط تھ
 request-language-error = می شک این اؘ درحاس نہ پݭ ۔مربنی تھا اسان امیل تھا ۔بھ توسان دی پتھ پݭان۔
+request-for-scripted-speech-toggle = چونڑاکیال تقریر کیردرخاس دہ
+request-for-spontaneous-speech-toggle = الو ٹینیسی تقریر کیر ریکوسٹ دہ
+need-help-deciding-platform = ان فیصلہ می مدد شجون اوںکا شے خوشام۔تہ
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = چونڑاگیال تقررکامن وایس اتون اوں کما تو  تانی جیب می درک اے  جولی بون تہ
+need-help-deciding-platform-explanation-2 = سپونٹینییس سپیچکامن وایس اے نم حصہ۔۔تبا تو سلخ تہ سوالونیام جواب دیبون
+need-help-deciding-platform-explanation-3 = تو تانی جیب اوں پلیٹ فارم می کیا بی نہ پشون۔دوا تی جوش تے خوشہ

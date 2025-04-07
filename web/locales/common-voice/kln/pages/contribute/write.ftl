@@ -4,7 +4,6 @@ write = siir
 write-page-subtitle = yumsetab sentensishek ketesyini eng oletaguu cc- 0 dataset negigelicensen
 sentence =
     .label = ngalek
-sentence-input-value = indene sentensi nebo biik tugul yuu
 citation =
     .label = citation
 sc-write-submit-confirm = ayani kole sentensinito ko<wikipediaLink>kotagu eng biik tugul</wikipediaLink>ak atinye ruhusa aauploden
@@ -27,7 +26,6 @@ required-field = Gaigai,inyiit yu
 single-sentence-submission = ngalalutik che  agenge chegigoitoi
 bulk-sentence-submission = ngalalutik chechang chegigoitoi
 single-sentence = ngalalet agenge
-bulk-sentences = ngalalautik chechang
 # Sentence Domain dropdown option
 finance = robinik
 # Sentence Domain dropdown option
@@ -47,7 +45,7 @@ news_current_affairs = logoywekab emet ak tuguk nguno chegabiit
 # Sentence Domain dropdown option
 technology_robotics = teknolojia ak robotik
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = uploaden  <icon></icon>ngalalutik chebo biik chechang<icon>
@@ -73,3 +71,12 @@ file-invalid-type = masikchi failit ni
 file-too-large = Oo misiing filit
 file-too-small = mining filit mising
 too-many-files = chang filinik chu mising'
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

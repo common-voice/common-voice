@@ -5,9 +5,12 @@ error = Hata
 action-click = tıklayın
 action-tap = tıklayın
 # Label for language switcher
-interface-language = Arayüz dili:
+platform-language = Platform dili:
+platform-language-tooltip-text = Sadece web sitesi arayüz dilini değiştirir.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } dilinin veri kümesine katkı yapılıyor
+contribution-picker-tooltip-text = Katkıda bulunduğunuz dil veri kümesini değiştirir
 # Label for button on contribution switcher
 change = Değiştir
 coming-soon = Yakında daha fazla dil gelecek
@@ -26,9 +29,10 @@ request-new-language = Yeni dil iste
 
 ## Navbar
 
-respond-to-prompt = İstemi/Soruyu Yanıtla
-transcribe-audio = Konuşmayı Metne Çevir
+respond-to-prompt = Yanıtla
+transcribe = Metne Çevir
 check-transcriptions = Metne Çevrilmişleri Denetle
+question = Soru
 
 ## Not Found Page
 

@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Anonimigitaj datumoj de uzanto kiel aĝo, genro 
 accept-privacy = Mi konsentas kun via pritrakto de tiu ĉi informo, laŭ via priskribo en la <privacyLink>privateca politiko</privacyLink> de Mozilla
 accept-privacy-title = Politiko pri privateco
 login-identity = Idento de seanco
-login-signup = Komenci seancon / Krei konton
 edit = Redakti
 email-subscriptions = Retpoŝtaj abonoj
 download-profile = Elŝuti miajn datumojn

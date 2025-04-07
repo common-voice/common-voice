@@ -34,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Pode ser que non recibísemos esa solicitude. Envíenos directamente un correo
     a <emailLink>{ $email }</emailLink> e porémonos en contacto con vostede!
+request-for-scripted-speech-toggle = Solicitar Fala Guiada
+request-for-spontaneous-speech-toggle = Solicitar Fala Espontánea
+need-help-deciding-platform = Precisa axuda para decidir cal escoller?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Scripted Speech (Fala guiada)</strong> (tradicionalmente o que coñeces como Common Voice) permítelle ler frases en voz alta no seu idioma.
+need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech (Fala espontánea)</strong> é unha nova parte de Common Voice onde pode responder preguntas dun xeito máis orgánico e coloquial.
+need-help-deciding-platform-explanation-3 = Se non ve o seu idioma en ningunha das partes da plataforma, seleccione ambas as opcións.

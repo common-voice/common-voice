@@ -57,7 +57,6 @@ accept-privacy-title = Meðferð persónuupplýsinga
 accept-privacy-and-terms = Ég samþykki <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> Common Voice
 login-identity = Innskráningarauðkenni
 login = Skrá inn
-login-signup = Skrá inn / Nýskrá
 edit = Breyta
 email-subscriptions = Tölvupóstáskriftir
 download-profile = Sækja gögnin mín

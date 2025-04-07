@@ -5,9 +5,12 @@ error = غلطی
 action-click = کلک
 action-tap = ووسپلہ
 # Label for language switcher
-interface-language = انٹرفیس وری
+platform-language = پلیٹ فارم وری
+platform-language-tooltip-text = خالی ویب سائیٹ ستہ ستوری تہ تبدیلی کشی
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹ سیٹ { $language } شریک بوستہ
+contribution-picker-tooltip-text = گیجی وری تہ تیو شریک اسیش با ستہ وری ستہ ڈیٹا سیٹ بدل کشی
 # Label for button on contribution switcher
 change = بدل
 coming-soon = ورں وری دی نݜٹو ازیا
@@ -22,12 +25,14 @@ report-button = ثو پعستہ
 skip-button = پوتیاستہ
 submit-button = اپار کوستہ
 contribute = سنہ ستہ
+request-new-language = نوئ وری کہ درخواست کشی
 
 ## Navbar
 
 respond-to-prompt = پرامٹ جواب پعستہ
-transcribe-audio = ٹرانسکرائب آڈیو
+transcribe = ستراݩع
 check-transcriptions = ٹرانسکریپشن ایشکوع
+question = سوال
 
 ## Not Found Page
 

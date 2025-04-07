@@ -58,7 +58,6 @@ accept-privacy-title = ນະໂຍບາຍຄວາມເປັນສ່ວນ
 accept-privacy-and-terms = ຂ້ອຍຍອມຮັບ <termsLink>Terms</termsLink> ແລະ <privacyLink>ປະກາດຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Common Voice.
 login-identity = ສິ່ງລະບຸຕົວຕົນການລັອກອິນ
 login = ເຂົ້າສູ່ລະບົບ
-login-signup = ເຂົ້າສູ່ລະບົບ / ລົງທະບຽນ
 edit = ແກ້ໄຂ
 email-subscriptions = ການບອກຮັບຂ່າວສານຜ່ານອີເມວ
 download-profile = ດາວໂຫລດຂໍ້ມູນຂອງຂ້ອຍ

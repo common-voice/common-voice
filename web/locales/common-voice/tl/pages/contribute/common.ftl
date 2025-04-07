@@ -16,9 +16,6 @@ login-to-get-started = Mag-log in o mag-sign up para makapagsimula
 target-segment-add-voice = Idagdag ang Iyong Boses
 target-segment-learn-more = Matuto Nang Higit Pa
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Isumbong

@@ -94,6 +94,7 @@ answer-questions-coming-soon = Ateb Cwestiynau <small>(Yn dod cyn hir)</small>
 review-transcriptions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
 review-transcriptions-coming-soon = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
 add-questions = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
+add-questions-coming-soon = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
 transcribe-audio-coming-soon = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 press-and-stories = Y Wasg a Straeon
@@ -122,7 +123,7 @@ community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd
 hero-title = Technoleg sy'n siarad eich iaith
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Pam ddylai AI weithio i rai o ieithoedd y byd yn unig?</bold>
-hero-subtitle-2 = Ein hiaith yw ein stori, ein cymuned, ein diwylliant. Gadewch i ni greu'r setiau data rydym am eu gweld yn y byd.
+hero-subtitle-2 = Ein hiaith yw ein stori, ein cymuned, ein diwylliant. Gadewch i ni greu'r setiau data rydym am eu gweld ar gael.
 # icon is an arrow that points downwards
 get-started = Cychwyn arni <icon><icon>
 
@@ -130,13 +131,12 @@ get-started = Cychwyn arni <icon><icon>
 
 action-items-section-title = Mae Common Voice yn blatfform cod agored am ddim ar gyfer creu data sy'n cael ei arwain gan y gymuned
 action-items-section-subtitle = Gall unrhyw un gadw, adfywio a dyrchafu eu hiaith trwy rannu, creu a churadu setiau data testun a lleferydd.
-scripted-card-header = Lleferydd wedi'i Sgriptio
+scripted-card-header = Lleferydd Testun
 scripted-card-content = Darllenwch frawddegau yn uchel yn eich iaith a chyfrannwch at y set ddata lleferydd cyfranogiad cyhoeddus fwyaf amrywiol yn y byd.
-spontaneous-card-header = Llefaru Digymell
+spontaneous-card-header = Llefaru Rhydd
 spontaneous-card-content = Ymateb i bromptiau i greu setiau data ar gyfer cyd-destunau llafar, organig. Perffaith ar gyfer ieithoedd llafar yn gyntaf.
 language-text-card-header = Testun Iaith
 language-text-card-content = Creu neu rannu promptiau parth cyhoeddus, brawddegau, a thestunau i'w cyfieithu, modelau iaith bychan, a mwy.
-coming-soon = Yn Dod yn Cyn Hir
 add-text = Ychwanegu Testun
 
 ## Community section

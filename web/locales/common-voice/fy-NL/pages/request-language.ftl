@@ -34,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Mooglik hawwe wy dat fersyk net ûntfongen. Stjoer ús in e-mailberjocht
     op <emailLink>{ $email }</emailLink> en wy nimme kontakt mei jo op!
+request-for-scripted-speech-toggle = Fersyk foar scripte spraak
+request-for-spontaneous-speech-toggle = Fersyk om spontane spraak
+need-help-deciding-platform = Help nedich by jo kar?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Scripte spraak</strong> (tradisjoneel wat jo kinne as Common Voice) is wêr’t jo sinnen yn jo taal hurdop foarlêze kinne.
+need-help-deciding-platform-explanation-2 = <strong>Spontane spraak</strong> is in nij ûnderdiel fan Common Voice, wêr’t jo op in mear organyske, ynformele manier op fragen reagearje kinne.
+need-help-deciding-platform-explanation-3 = As jo jo taal net yn ien fan de dielen fan it platfoarm sjogge, selektearje dan beide.

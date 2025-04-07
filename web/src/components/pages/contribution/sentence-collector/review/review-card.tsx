@@ -40,7 +40,7 @@ const ReviewCard: React.FC<Props> = ({
       data-testid={`${isActive ? 'active-review-card' : 'review-card'}`}>
       <p className="sentence">{sentence}</p>
       {variantTag && <Tag text={l10n.getString(variantTag)} />}
-      <Localized id="sc-my-source" vars={{ source }}>
+      <Localized id="sc-review-form-source" vars={{ sentenceSource: source }}>
         <p className="source" />
       </Localized>
     </div>

@@ -4,9 +4,8 @@
 error = Khata
 action-click = Nakas
 action-tap = Lemes
-# Label for language switcher
-interface-language = Rutan al beinu
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Awunun fi koum ta malumaat ta
 # Label for button on contribution switcher
 change = Geeru
@@ -26,7 +25,6 @@ contribute = Awunu
 ## Navbar
 
 respond-to-prompt = Juwab matlaba
-transcribe-audio = Kutu kalam fi sauti
 check-transcriptions = Hakikisha kalamaa al maktub
 
 ## Not Found Page

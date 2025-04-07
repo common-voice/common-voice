@@ -5,9 +5,12 @@ error = Fel
 action-click = Klicka
 action-tap = Tryck
 # Label for language switcher
-interface-language = Gränssnittsspråk:
+platform-language = Plattformsspråk:
+platform-language-tooltip-text = Ändrar endast text på webbplatsen.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bidrar till datamängd för { $language }
+contribution-picker-tooltip-text = Ändrar språkdatamängden du bidrar till
 # Label for button on contribution switcher
 change = Ändra
 coming-soon = Fler språk kommer snart
@@ -27,8 +30,9 @@ request-new-language = Begär nytt språk
 ## Navbar
 
 respond-to-prompt = Svara på prompt
-transcribe-audio = Transkribera ljud
+transcribe = Transkribera
 check-transcriptions = Kontrollera transkriptioner
+question = Fråga
 
 ## Not Found Page
 

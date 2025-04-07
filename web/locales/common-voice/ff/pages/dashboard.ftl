@@ -41,31 +41,78 @@ finish-editing = Gaynu taƴtaade tawo?
 lose-changes-warning = Goppugol jooni firti ko a waasat bayle maa
 build-custom-goal = Mah faandaare feŋtornde
 help-reach-hours-pluralized =
-    Wallu heɓe{ NUMBER($hours) ->
-        [one] waktu { $hours }
-       *[other] waktuuji { $hours }
-    }e { $language } kam e faadaare heeriinde
+    { $hours ->
+        [one] Wallu heɓewaktu { $hours }e { $language } kam e faadaare heeriinde
+       *[other] Wallu heɓewaktuuji { $hours }e { $language } kam e faadaare heeriinde
+    }
 help-reach-hours-general-pluralized =
-    Wallu Common Voice heɓde{ NUMBER($hours) ->
-        [one] waktu { $hours }
-       *[other] waktuuji { $hours }
-    }e ɗemngal kem e faandaare heeriinde
+    { $hours ->
+        [one] Wallu Common Voice heɓdewaktu { $hours }e ɗemngal kem e faandaare heeriinde
+       *[other] Wallu Common Voice heɓdewaktuuji { $hours }e ɗemngal kem e faandaare heeriinde
+    }
 set-a-goal = Taƴ faandaare
 cant-decide = A horiima fellitde?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] waktu { $totalHours }
-       *[other] waktuuji { $totalHours }
-    }ena waawi timmude e ko seɓi{ NUMBER($periodMonths) ->
-        [one] lewru { $periodMonths }
-       *[other] lebbi { $periodMonths }
-    }so{ NUMBER($people) ->
-        [one] neɗɗo { $people }
-       *[other] yimɓe { $people }
-    }nanngitiima{ NUMBER($clipsPerDay) ->
-        [one] lefel { $clipsPerDay }
-       *[other] lefon { $clipsPerDay }
-    }ñalawma
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
+                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+                            }
+                    }
+            }
+    }
 how-many-per-day = Eyyoo! No foti lefon ñalawma?
 how-many-a-week = Eyyoo! No foti lefon yontere?
 which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?
@@ -74,7 +121,7 @@ not-receiving-emails-info =
     Oo sahaa ko a cuɓiiɗo <bold>WASDE</bold> heɓde iimeeluuji wano ciiftinooji, kesɗitine 
     taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] lefol { $count }
        *[other] lefon { $count }
     }

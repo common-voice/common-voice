@@ -5,7 +5,6 @@ write-instruction = Kondă <icon></icon> ɔmote metiles ɔ nènake nikimɔ
 write-page-subtitle = Metiles indiëtó ɔhà manhupà latakator na mɔmɔté metekoume mà nénack nɔ bende cc-0
 sentence =
     .label = Metiles mà pendɔ
-sentence-input-value = Tilɛke menũ metilɔ mà nènack nikim
 citation-input-placeholder = Nɔ là ingïne yé menũ metile
 citation =
     .label = Metiles mà pendɔ
@@ -30,7 +29,6 @@ required-field = Nu yé éboka undusini
 single-sentence-submission = No  étamba  lome
 bulk-sentence-submission = No  bétamba piene lome
 single-sentence = ɛtamba ɔmotè
-bulk-sentences = Bétamba ɔmotè
 sentence-domain-combobox-label = ɔ pà wo bétamba
 sentence-domain-select-placeholder = Nu tefaka suté  o pà bélalo
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = nifengy yé bétamba
 sentence-variant-select-placeholder = Tèfa nifengy omotè
 sentence-variant-select-multiple-variants = Moho mekime latakato/ pieni latakato
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = No loma <icon></icon> o pà yé pɛndo bekime
@@ -89,3 +87,12 @@ file-invalid-type = Induciní  ye le pa luminiato
 file-too-large = Um induciní ye paka mienin inbat
 file-too-small = Um Induciní baka motètè
 too-many-files = Imbata ye bunduciní
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

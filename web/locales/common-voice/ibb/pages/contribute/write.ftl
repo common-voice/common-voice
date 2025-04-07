@@ -5,7 +5,6 @@ write-instruction = dian <icon></icon> anwa-anwa udịmikọ keed
 write-page-subtitle = eyaedian mme udịmikọ enọọhọ mi ke atu mme anwa-anwa eboho-etob enieghe unen.
 sentence =
     .label = nteeto
-sentence-input-value = sịn anwa-anwa udịmikọ mfo mi
 citation-input-placeholder = wọt nte udịmikọ mfo ato (eyem)
 citation =
     .label = nteeto
@@ -30,7 +29,6 @@ required-field = mbọk sịn etob ke ufañ ami.
 single-sentence-submission = unọ udịmikọ keed
 bulk-sentence-submission = unọ uwak udịmikọ
 single-sentence = udịmikọ keed
-bulk-sentences = uwak udịmikọ
 sentence-domain-combobox-label = ikeghe udịmikọ
 sentence-domain-select-placeholder = sio yọhọ ikpeghe ita (akpema)
 # Sentence Domain dropdown option
@@ -61,7 +59,7 @@ sentence-variant-select-label = aduuk udịmikọ
 sentence-variant-select-placeholder = sio aduuk keed (akpema)
 sentence-variant-select-multiple-variants = usem atu / mme nsio-nsio aduuk
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = kọọñ <icon></icon> anwa-anwa udịmikọ
@@ -89,3 +87,12 @@ file-invalid-type = efọketob imiifọnnọ
 file-too-large = efọketob akpon abọhọ
 file-too-small = efọketob asịb abọhọ
 too-many-files = ataa umiaañ efọketob
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

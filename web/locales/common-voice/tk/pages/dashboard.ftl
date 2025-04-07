@@ -41,30 +41,77 @@ finish-editing = Ilki redaktirlemäni tamamlamalymy?
 lose-changes-warning = Häzir çyksaňyz üýtgetmeleriňizi ýitirersiňiz
 build-custom-goal = Ýörite maksat dörediň
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Şahsy maksat bilen { $language } dilinde { $hours } sagada ýetmäge kömek ediň
        *[other] Şahsy maksat bilen { $language } dilinde { $hours } sagada ýetmäge kömek ediň
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] Şahsy maksat bilen bir dilde Common Voice-iň { $hours } sagada ýetmegine kömek ediň
        *[other] Şahsy maksat bilen bir dilde Common Voice-iň { $hours } sagada ýetmegine kömek ediň
     }
 set-a-goal = Maksat goý
 cant-decide = Karar berip bilmeýärsiňizmi?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } sagada ýetip bolýar
-       *[other] { $totalHours } sagada ýetip bolýar
-    } { NUMBER($periodMonths) ->
-        [one] { $periodMonths } aýda eger
-       *[other] { $periodMonths } aýda eger
-    } { NUMBER($people) ->
-        [one] { $people } adam ýazgy etse
-       *[other] { $people } adam ýazgy etse
-    } { NUMBER($clipsPerDay) ->
-        [one] günde { $clipsPerDay } klip.
-       *[other] günde { $clipsPerDay } klip.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
+                            }
+                    }
+            }
     }
 how-many-per-day = Örän gowy! Günde näçe klip?
 how-many-a-week = Örän gowy! Hepdede näçe klip?
@@ -72,7 +119,7 @@ which-goal-type = Geplemek, diňlemek ýa-da ikisinem isleýärsiňizmi?
 receiving-emails-info = Häzirki wagtda siz maksat ýatladyjylar, öňegidişlik täzelenmeleri we Common Voice barada habarnamalary e-poçtalary almaga sazlanan
 not-receiving-emails-info = Häzirki wagtda siz maksat ýatladyjylaryna, öňegidişlik täzelenmelerime we Common Voice barada habarnamalara degişli e-poçtalary <bold>ALMAZLYGA</bold> sazlanan
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } klip
        *[other] { $count } klip
     }

@@ -28,11 +28,6 @@ target-segment-first-banner = დაგვეხმარეთ შევქმ�
 target-segment-add-voice = დაამატეთ საკუთარი ხმა
 target-segment-learn-more = ვრცლად
 change-preferences = პარამეტრების შეცვლა
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = ხმოვანი კრებული
-contribute-sentence-collection-nav-header = წინადადებების შეგროვება
 login-signup = შესვლა / შექმნა
 vote-yes = დიახ
 vote-no = არა

@@ -66,7 +66,7 @@ sentence-variant-select-label = Вариант предложения
 sentence-variant-select-placeholder = Выберите вариант (необязательно)
 sentence-variant-select-multiple-variants = Общий язык / несколько вариантов
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Загрузите <icon></icon> общедоступные предложения

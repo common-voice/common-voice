@@ -5,7 +5,6 @@ write-instruction = Uka su <icon></icon> ndɛ mma kun m’ɔ o sran’m be liɛ�
 write-page-subtitle = Ndɛ mma nga be mannin’n be fa kɔ nvlefuɛ’m ndɛ’m be su be le atin cc-0.
 sentence =
     .label = Inuan
-sentence-input-value = Klɛ ɔ nzra nun ndɛ mma’n i wa
 citation-input-placeholder = Kle lika nga ɔ ndɛ mma’n fin’n (ɔ ti kinndjin)
 citation =
     .label = Inuan
@@ -30,7 +29,6 @@ required-field = Yaki, klɛ lika sɔ’n i nuan.
 single-sentence-submission = Ndɛ mma kunngba su falɛ
 bulk-sentence-submission = Ndɛ mma kpanngban be sunmanlɛ
 single-sentence = Ndɛ mma kunngba
-bulk-sentences = Ndɛ mma kaka
 sentence-domain-combobox-label = Ndɛ mma’m be lika’n
 sentence-domain-select-placeholder = Fa like le le nsan.
 # Sentence Domain dropdown option
@@ -63,7 +61,7 @@ sentence-variant-select-label = Ndɛ mma’m be kakilɛ
 sentence-variant-select-placeholder = Fa wafa uflɛ (sɛ ɔ ti ɔ klun su)
 sentence-variant-select-multiple-variants = Aniɛn’n i su ndɛ kpanngban / i wafawafa kpanngban
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Fa kɔ <icon></icon> ddɛ mma nga be ti sran kwlaa liɛ’n
@@ -91,3 +89,12 @@ file-invalid-type = Fasie timan kpa
 file-too-large = Fasie ti dan kpa .
 file-too-small = Fasie ti kaan kpa .
 too-many-files = Fasie kaka
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

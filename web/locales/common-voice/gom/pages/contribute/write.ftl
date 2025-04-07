@@ -65,7 +65,7 @@ sentence-variant-select-label = Vakya'chi Boli / Prakar
 sentence-variant-select-placeholder = Boli / Prakar select kor (optional)
 sentence-variant-select-multiple-variants = General language / khub prakar aslole
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Upload <icon></icon> public domain sentences
@@ -101,3 +101,9 @@ small-batch-instruction = Zaiteo 'public-domain' vakyo <icon></icon> boroi
 small-batch-sentences-rule-4 = Chod korun 1000 vakyo ghalunk zata
 small-batch-sentences-rule-5 = Soglleo vakyo těch 'domain'-nant aspak zai
 small-batch-sentences-rule-6 = Sogllea vakyank ekuch 'citation' aspak zai
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

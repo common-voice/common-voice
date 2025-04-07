@@ -58,7 +58,6 @@ accept-privacy-title = د پټتیا تګلاره
 accept-privacy-and-terms = زه د عام غږ د<termsLink> شرائط</termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
 login-identity = د ننوتنې پېژند
 login = ننوتل
-login-signup = ننوتنه/ نوملیکنه
 edit = سمون
 email-subscriptions = د برېښنالیک ګډونونه
 download-profile = زما ډېټا ډاونلوډ کړئ

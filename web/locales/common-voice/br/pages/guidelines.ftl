@@ -3,6 +3,9 @@ guidelines-header = Sturiadurioù ar c'hemer perzh
 guidelines-header-subtitle = Kompren penaos kemer perzh hag aprouiñ frazennoù hag enrolladennoù son e strobad roadennoù Common voice
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumad frazennoù
+
+## Voice Collection nav ids
+
 varying-pronunciations = Distagadurioù disheñvel
 misreadings = Fazioù lenn
 offensive-content = Danvez feukus
@@ -12,6 +15,9 @@ volume = Live son
 reader-effects = Efedoù al lenner
 just-unsure = Etre daou soñj ?
 example = Skouer
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Deuet-mat eo ar pouezhioù-mouezh disheñvel ! Diwallit mat a-raok disteurel un enrolladenn war zigarez eo bet distaget-fall ger pe c'her, eo bet lec'hiet-fall an taol-mouezh pe c'hoazh abalamaour n'eus ket bet taolet fed d'ar poentadur. Kalz a zoareoù disheñvel zo da zistagañ er bed a-bezh ha lod anezho n'int ket bet klevet ganeoc'h en ho kumuniehz lec'hel. Lezit plas a-walc'h d'ar re a c'hall komz en un doare disheñvel diouzh ho hini.
 varying-pronunciations-explanation-2 = Diouzh an tu all, ma soñj deoc'h ne oa ket anavezet ar ger gant al lenner a-raok hag emañ o klask divinout an distagadur hep gouzout, distaolit an enrolladenn. Ma n'oc'h ket sur, lezit anezhi a-gostez ha kit pelloc'h.
 varying-pronunciations-example = Ne oa ket sklaer an hent.
@@ -47,11 +53,17 @@ reader-effects-explanation = Ar pep brasañ eus an enrolladennoù a ya d'o ober 
 just-unsure-explanation = M'en em gavit gant un dra bennak n'hon eus ket lakaet ar gaoz warnañ, grit ho seizh gwellañ. Ma ne c'hallit ket ober ho soñj tamm ebet, kit pelloc'h ha pledit gant an enrolladenn da-heul.
 still-have-questions = Goulennoù ho peus c’hoazh ?
 contact-common-voice = Mont e darempred gant skipailh Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domani Foran
 citing-sentences = Menegiñ frazennoù
 adding-sentences = Ouzhpennañ Frazennoù
 reviewing-sentences = Gwiriañ Frazennoù
 sentence-domain = Domani ar frazenn
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Pouezus-bras eo e vefe an holl frazennoù en <publicDomain>domani foran</publicDomain> (<cc0>cc0</cc0>) rak embannet eo strobad roadennoù Common Voice dindan an aotre-implijout cc0. Ouzhpennit hepken frazennoù oc'h sur anezho ha merkit atav an arroudenn a zere.
 public-domain-explanation-2 = Ar frazennoù gwellañ evit sikour sevel un ardivink gouest da anavezout ar vouezh zo ober gant frazennoù pemdez ar yezh komzet hiziv. Setu aze un nebeud mennozhioù evit skoazellañ ac'hanoc'h da sevel frazennoù :
 public-domain-explanation-3 = Krouiñ frazennoù modern, pemdez, c'hwi hoc'h-unan pe asmables gant ho mignoned pe ho kumuniezh yezh -da skouer dre ur skrivaton.
@@ -91,3 +103,9 @@ reviewing-sentences-explanation-2 = Ma ne glot ket ar frazenn gant an dezverkoù
 reviewing-sentences-explanation-3 = Ma n'oc'h ket sur e c'hallit ivez he lezel a-gostez ha plediñ gant ur frazenn all.
 reviewing-sentences-explanation-4 = Ma n'hoc'h eus ket netra da wiriañ ken e c'hallit hor skoazellañ da zastum muioc'h a frazennoù !
 domain-explanation = Ober a ra an domani dave da dachenn ar frazenn. Evit poent e c'hallit dibab etre :
+
+## Question collection ids
+
+
+## Question collection sidebar content
+

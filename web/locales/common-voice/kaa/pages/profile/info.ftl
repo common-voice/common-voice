@@ -49,7 +49,6 @@ thanks-for-account = Аккаунтыңызды тастыйықлағаныңы
 why-demographic = Неге бул әҳмийетли?
 accept-privacy-title = Қупиялық сиясаты
 login = Кириў
-login-signup = Кириў / Дизимнен өтиў
 edit = Өзгертиў
 download-profile = Мағлыўматларымды жүклеп алыў
 off = Өширилген

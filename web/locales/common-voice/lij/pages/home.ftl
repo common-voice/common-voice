@@ -78,11 +78,15 @@ read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
 ## NAV ITEMS
 
 answer-questions = Replica a-e domande <small>(disponibile fito)</small>
+answer-questions-coming-soon = Replica a-e domande <small>(disponibile fito)</small>
 review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
+review-transcriptions-coming-soon = Verifica e trascriçioin <small>(disponibile fito)</small>
 add-questions = Azzonzi de domande <small>(disponibile fito)</small>
+transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile fito)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
+coming-soon = Disponibile fito
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,21 +107,84 @@ community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue 
 
 ## Hero section
 
+hero-title = Tecnologia ch’a parla a teu lengua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Perché l’intelligensa artifiçiale a dovieiva ëse limitâ à pöche lengue into mondo?</bold>
+hero-subtitle-2 = A nòstra lengua a l’é a nòstra stöia, a nòstra communitæ, a nòstra coltua. Creemmo insemme di dataset che respegian a nòstra vixon do mondo.
+# icon is an arrow that points downwards
+get-started = Comensa <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice a l’é unna ciattaforma de badda e open source dedicâ a-a creaçion de dæti sotta a guidda da communitæ
+action-items-section-subtitle = Tutti peuan allugâ, revitalizzâ e elevâ a seu lengua con scompartî, creâ e cuâ di dataset de testo e voxe.
+scripted-card-header = Descorso scrito
+scripted-card-content = Lezi de frase à erta voxe inta teu lengua e contribuisci a-o dataset de conoscimento vocale à parteçipaçion pubrica o ciù variegou a-o mondo.
+spontaneous-card-header = Descorso spontaneo
+spontaneous-card-content = Replica à de domande pe creâ di dataset relativi à di contesti naturali e colloquiali. Perfetto pe-e lengue prevalentemente orale.
+language-text-card-header = Testo in lengua
+language-text-card-content = Crea ò scompartisci de domande, frase e testi de pubrico dominio pe traduçioin, modelli de lengua de dimenscion picciña e atro ancon.
+add-text = Azzonzi do testo
 
 ## Community section
 
+community-section-title = Realizzou da de communitæ globale, pe-e communitæ globale: 130 lengue, delongo in aumento!
+join-discord-community = Intra inta communitæ in sce Discord
+# label for button
+join-discord-community-action = Piggia parte in sce Discord
+join-discord-community-content = Parteçipa a-e discuscioin da communitæ linguistica, fanni de domande e descreuvi i pròscimi eventi e presentaçioin.
+find-us-on-matrix = Vëgni à trovâne in sce Matrix
+find-us-on-matrix-content = Matrix o l’é un protocòllo averto e legio pe-a communicaçion deçentralizzâ in tempo reale, e a ciattaforma ch’à l’é ciù caa à Mozilla.
+# label for button
+find-us-on-matrix-action = Vëgni à trovâne in sce Matrix
+ask-mozilla-share = Domanda à Mozilla de scompartî i teu eventi
+ask-mozilla-share-content = T’æ organizzou un evento in passou ò ti n’æ un in programma? Scompartiscilo con niatri e l’annonçiemo a-a nòstra communitæ, ò scriviemo un articolo in sciô blog.
+# label for button
+ask-mozilla-share-action = Scompartisci o teu evento
+download-contribution-certificate = Descarrega o teu çertificou de conlaboraçion
+download-contribution-certificate-content = Descarrega un çertificou pe-i teu eventi ò pe ti mæximo se t’æ parteçipou à Common Voice. Tutto questo o no saieiva poscibile senza o teu aggiutto!
+# label for button
+download-contribution-certificate-action = Ottëgni o teu çertificou
+contribute-github = Conlabora in sce GitHub
+contribute-github-content = Sto progetto o no saieiva poscibile sensa de persoñe comme ti. 🎉 Gh’é tante mainee de conlaborâ con Common Voice: no gh’é beseugno de ëse bon à programmâ pe aggiuttâ!
+# label for button
+contribute-github-action = Conlabora in sce GitHub
 
 ## Featured section
 
+featured-section-title = Ne an parlou…
+# icon is an arrow that points downwards
+download-press-pack = Descarrega o nòstro pacchetto stampa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Dataset averto de dæti vocali pubricamente accescibili in ciù de 130 lengue
+developers-section-subtitle = Dataset pe ASR, STT, TTS e atri contesti de NLP, stæti creæ graçie a-a parteçipaçion da communitæ.
+# icon is an arrow that points to the right
+explore-datasets = Esplöra i dataset <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Sostëgni i dataset averti manezzæ da-a communitæ
+read-sentences-link = Lezi de frase
+validate-readings-link = Convalida de lettue
+contribute-link = Contribuisci a-o corpus de testo
+answer-questions-link = Replica à de domande
+transcribe-answers-link = Trascrivi de repliche
+review-transcriptions-link = Verifica de trascriçioin
+contribute-text-link = Propoñi di testi
+press-and-stories-link = Stampa e notiçie
 
 ## Partner section
 
+partner-section-title = Vegnî un nòstro partner
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Dite tecnològiche</bold>: investi inta creaçion de dataset averti pe un ecoscistema flòrido d’intelligensa artifiçiale moltilengua
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Soçietæ çivile e reçercatoî</bold>: crea, mantëgni e scompartisci di dataset de grande impatto disponibili de badda
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold>: finançia a creaçion de dataset pe alimentâ l’innovaçion e o sviluppo locale
+# icon is an arrow that points to the right
+get-in-touch-button = Contattine <icon></icon>
+# Partners section
+our-partners-include = Tra i nòstri partner…

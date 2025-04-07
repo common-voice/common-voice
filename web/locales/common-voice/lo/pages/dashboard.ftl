@@ -41,24 +41,27 @@ finish-editing = ແກ້ໄຂໃຫ້ສຳເລັດກ່ອນບໍ?
 lose-changes-warning = ການອອກໄປຕອນນີ້ໝາຍຄວາມວ່າທ່ານຈະສູນເສຍການປ່ຽນແປງຂອງທ່ານ
 build-custom-goal = ສ້າງເປົ້າຫມາຍທີ່ກໍາຫນົດເອງ
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] ຊ່ວຍບັນລຸ { $hours } ຊົ່ວໂມງໃນ { $language } ດ້ວຍເປົ້າໝາຍສ່ວນຕົວ
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] ຊ່ວຍໃຫ້ Common Voice ບັນລຸ { $hours } ຊົ່ວໂມງໃນພາສາທີ່ມີເປົ້າໝາຍສ່ວນຕົວ
     }
 set-a-goal = ຕັ້ງເປົ້າໝາຍ
 cant-decide = ບໍ່​ສາ​ມາດ​ຕັດ​ສິນ​ໃຈ​?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ
-    } { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } ເດືອນຖ້າ
-    } { $periodMonths } ເດືອນຖ້າ{ NUMBER($people) ->
-       *[other] ຄົນບັນທຶກ { $people }
-    } ຄົນບັນທຶກ { $people }{ NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } ຄລິບຕໍ່ມື້
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ { $periodMonths } ເດືອນຖ້າ { $periodMonths } ເດືອນຖ້າຄົນບັນທຶກ { $people } ຄົນບັນທຶກ { $people }{ $clipsPerDay } ຄລິບຕໍ່ມື້
+                            }
+                    }
+            }
     }
 how-many-per-day = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ມື້?
 how-many-a-week = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ອາທິດ?
@@ -70,7 +73,7 @@ not-receiving-emails-info =
     ປະຈຸບັນທ່ານຖືກຕັ້ງເປັນ <bold>ບໍ່</bold> ຮັບອີເມວເຊັ່ນ: ການແຈ້ງເຕືອນເປົ້າໝາຍ, ຂອງຂ້ອຍ
     ການອັບເດດຄວາມຄືບໜ້າ ແລະຈົດໝາຍຂ່າວກ່ຽວກັບ Common Voice
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other]
             { $count } ຄລິບ
             { $count } ຄລິບສ໌

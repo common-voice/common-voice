@@ -5,9 +5,12 @@ error = Errore
 action-click = Fai clic
 action-tap = Tocca
 # Label for language switcher
-interface-language = Lingua dell’interfaccia
+platform-language = Lingua della piattaforma:
+platform-language-tooltip-text = Modifica solo il testo del sito web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Collaborazione al dataset per { $language }
+contribution-picker-tooltip-text = Cambia il dataset della lingua a cui stai contribuendo
 # Label for button on contribution switcher
 change = Modifica
 coming-soon = Nuove lingue in arrivo
@@ -27,8 +30,9 @@ request-new-language = Richiedi nuova lingua
 ## Navbar
 
 respond-to-prompt = Rispondi alla domanda
-transcribe-audio = Trascrivi audio
+transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
+question = Domanda
 
 ## Not Found Page
 

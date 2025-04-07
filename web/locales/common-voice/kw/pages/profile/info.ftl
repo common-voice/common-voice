@@ -48,7 +48,6 @@ why-demographic-explanation-2 = Kedhlow-usyer dihanow, kepar ha bloodh, genedh h
 accept-privacy = Da lowr ov genowgh ow tyghtya an kedhlow ma dell wrewgh styrya yn <privacyLink>Polisi Privetter</privacyLink> Mozilla
 accept-privacy-title = Polici Privetter
 login-identity = Honanieth Omgelmi
-login-signup = Omgelmi / Omrolya
 edit = Golegi
 email-subscriptions = Ragbrenow Ebost
 download-profile = Iskarga Ow Data

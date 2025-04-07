@@ -8,6 +8,7 @@ different_language = Другой язык
 different_language-detail = Содержимое содержит язык, отличный от того, что я ожидал.
 personally_identifiable_information = Информация, позволяющая установить личность
 personally_identifiable_information-detail = Это содержимое содержит персональную информацию, связанную с личностью человека, такую как имя, адрес электронной почты, местоположение, идентификационный номер или номер телефона.
+personally_identifiable_information-answer-detail = Это содержимое запрашивает личную информацию, связанную с личностью пользователя, такую как имя, адрес электронной почты, местоположение, идентификационный номер или номер телефона.
 report-other-comment =
     .placeholder = Комментарий
 # Label for textarea in report modal

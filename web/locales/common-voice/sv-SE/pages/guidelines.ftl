@@ -3,6 +3,10 @@ guidelines-header = Riktlinjer för bidrag
 guidelines-header-subtitle = Förstå hur du bidrar med och validerar meningar och ljudklipp till Common Voice-datamängd
 voice-collection = Insamling av röster
 sentence-collection = Insamling av meningar
+question-collection = Frågesamling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Varierande uttal
 misreadings = Felläsningar
 offensive-content = Stötande innehåll
@@ -12,6 +16,9 @@ volume = Volym
 reader-effects = Läsareffekter
 just-unsure = Osäker?
 example = Exempel
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Vi välkomnar olika accenter! Var mycket försiktig innan du avvisar ett klipp med motiveringen att du tror att läsaren har uttalat ett ord fel, har lagt betoningen på fel ställe eller har ignorerat skiljetecken. Det finns en mängd olika uttal som används runt om i världen, av vilka du kanske inte har hört några i ditt lokala samhälle. Vänligen ge en generös marginal för uppskattning för dem som kanske talar annorlunda än du.
 varying-pronunciations-explanation-2 = Å andra sidan, om du tror att läsaren aldrig har stött på ordet tidigare och gör en felaktig gissning på uttalet, vänligen avvisa. Om du är osäker, använd hoppa över-knappen.
 varying-pronunciations-example = Rutten var otydlig.
@@ -47,11 +54,17 @@ reader-effects-explanation = De flesta inspelningar är av människor som pratar
 just-unsure-explanation = Om du stöter på något som dessa riktlinjer inte täcker, vänligen rösta enligt ditt bästa omdöme. Om du verkligen inte kan bestämma dig, använd hoppa över-knappen och gå vidare till nästa inspelning.
 still-have-questions = Har du fortfarande frågor?
 contact-common-voice = Kontakta Common Voice-teamet
+
+## Sentence collection nav ids
+
 public-domain = Allmän
 citing-sentences = Citerar meningar
 adding-sentences = Lägga till meningar
 reviewing-sentences = Granska meningar
 sentence-domain = Meningsdomän
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Det är mycket viktigt att alla textmeningar är <publicDomain>allmänna</publicDomain> (<cc0>cc0</cc0>) eftersom Common Voice-datauppsättningen släpps under en cc0-licens. Ladda bara upp en mening om du är säker och inkludera alltid relevant källa.
 public-domain-explanation-2 = De bästa meningarna för att bygga en användbar taligenkänningsmotor är vardagligt, modernt språkbruk. Några idéer som hjälper dig att skapa meningar är;
 public-domain-explanation-3 = Skapa moderna, vardagliga meningar själv eller med dina vänner eller språkgemenskap - till exempel genom ett "skriv-maraton"
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående krit
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 domain-explanation = Domän avser innehållet för meningen. För närvarande kan du välja mellan:
+
+## Question collection ids
+
+adding-questions = Lägga till frågor
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Vad gör en fråga bra?
+what-makes-a-good-question-explanation = En bra fråga för datamängder för allmänheten bör:
+what-makes-a-good-question-explanation-criteria-1 = Vara lätt att förstå och besvara
+what-makes-a-good-question-explanation-criteria-2 = Var allmänt relevant
+what-makes-a-good-question-explanation-criteria-3 = Använd inte eller uppmana till, skadligt eller kränkande språk
+what-makes-a-good-question-tip = Du kanske också vill överväga att sträcka dig över olika sammanhang och domäner.
+easy-to-understand = Lätt att förstå
+easy-to-understand-explanation = Välj enkla frågor som är lätta för alla att förstå, oavsett kultur eller sammanhang.
+spelling-and-pronunciation = Stavning och skiljetecken
+spelling-and-pronunciation-explanation = Använd korrekt stavning och grammatik.
+length = Längd
+length-explanation = Frågan bör besvaras på bara ett par meningar.
+dont-add-subheader = Lägg inte till
+culturally-specific-questions = Kulturspecifika frågor
+culturally-specific-questions-explanation = Frågor som är mycket kulturellt specifika eller gör många antaganden om den som svarat
+length-avoid-explanation = Frågor som någon skulle kämpa för att svara på inom 15 sekunder (maxlängd för klipp)
+process-steps = Process / Steg
+process-steps-explanation = Frågor som kräver att någon listar flera steg.  Listningssteg uppmanar användaren att recitera ett svar snarare än ett mer naturligt svar.
+offensive-content-sensitive-information = Stötande innehåll eller känslig information
+offensive-content-sensitive-information-explanation-explanation-1 = Frågor som kan begära personlig identifierbar information
+offensive-content-sensitive-information-explanation-explanation-2 = Frågor som kan efterfråga hatretorik eller andra partiska eller kränkande känslor
+offensive-content-sensitive-information-explanation-explanation-3 = Frågor som kan få någon att dela med sig av känsliga, potentiellt utlösande svar
+example-questions-subheader = Exempelfrågor
+example-questions-explanation-1 = Du kan hitta <examplePromptsLink>120 exempelmeddelanden i det här bladet.</examplePromptsLink>
+example-questions-explanation-2 = Om du vill skicka in en del frågor för inmatning kan du <githubLink>göra det via vår GitHub</githubLink> eller mejla din lista till <emailFragment>commonvoice@mozilla.com.</emailFragment>

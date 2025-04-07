@@ -23,3 +23,10 @@ request-language-success-list-3 =
     زاں مِلیۡ ݜس بجلی خطی لا رابطہ کری<emailLink>{ $email }،</emailLink> 
     تے بے تی مِلیۡ لازمی بال الاؤ کرا تھہ!
 request-language-error = تیں درخواست زَیں نی ڇیلیل ہو تُھو۔ زَیں ڈارِک ݜسی لا <emailLink>{ $email }</emailLink>بِجلی خط ڇِہے ، تے بے تی مِلیٛ لازمی بال الا‌ؤ کرا تھہ۔
+request-for-scripted-speech-toggle = لِکیلیۡ بلی لُکھہ
+request-for-spontaneous-speech-toggle = فی البدیہہ (ڈارِک) بلی لُکھہ
+need-help-deciding-platform = گھِن٘ل اوک خوش کرم ، مدد کرہ لہ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>لِکیلیۡ بلی</strong> (روایتی طور لا اَس تُس کامن وائس لا پُنیاں تھہ) ݜے زائ تھی چےۡ گولہ تُو تَیں ژِبہۡ مہ لِکیلیۡ بلی تا لا پڑہَیں تُھو۔
+need-help-deciding-platform-explanation-2 = <strong> فی البدیہہ (ڈارِک) بلی</strong> کامن وائساں نؤں حصہ تُھو چےۡ اسی مہ تُس سوال واں جواب تَیں ہردېسہ ژِبہۡ مہ دے ہاں تھو۔
+need-help-deciding-platform-explanation-3 = کہ تُو تَیں ژیب پلېٹ فارماں بھژدو حصیُوں مہ نی ڇی تُھو کھیں بھژدُو خوش کرہ۔

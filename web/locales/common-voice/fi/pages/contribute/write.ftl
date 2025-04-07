@@ -2,7 +2,7 @@
 
 write = Kirjoita
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 select-file = Valitse tiedosto
 select-file-mobile = Valitse lähetettävä tiedosto
@@ -14,3 +14,12 @@ file-invalid-type = Virheellinen tiedosto
 file-too-large = Tiedosto on liian suuri
 file-too-small = Tiedosto on liian pieni
 too-many-files = Liian monta tiedostoa
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

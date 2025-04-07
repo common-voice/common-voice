@@ -32,11 +32,6 @@ target-segment-first-banner = { $locale } addal Common Voice-k naharsi hadafih e
 target-segment-add-voice = Isi Xongolo edde osis
 target-segment-learn-more = Mangom barit
 change-preferences = Lafoot milaag
-
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Xongolô Gaaboyso
-contribute-sentence-collection-nav-header = Maxcâ maafoh Gaaboyso
 login-signup = Cul / Unkuttub
 vote-yes = Yeey
 vote-no = Maleey

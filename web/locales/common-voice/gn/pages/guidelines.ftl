@@ -3,6 +3,10 @@ guidelines-header = Ñepytyvõkuaa rapereko
 guidelines-header-subtitle = Eikuaa mba’éichapa eipytyvõ ha emoneĩta ñe’ẽjuaju ha mba’epu mombyky Common Voice mba’ekuaarã atýpe
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
+question-collection = Porandu Aty
+
+## Voice Collection nav ids
+
 varying-pronunciations = Je’epyre Hekoetáva
 misreadings = Moñe’ẽ vai
 offensive-content = Ñe’ẽreity Ivaíva
@@ -12,6 +16,9 @@ volume = Mbopuatãha
 reader-effects = Moñe’ẽhára Oñandúva
 just-unsure = ¿Nahekorasãi?
 example = Techapyrã
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ¡Romog̃uahẽporã opaichagua ñe’ẽryapúpe! Ejesarekóke embotove mboyve peteĩ jekutúpe heʼívo pe omoñe’ẽva omoñe’ẽvaihague peteĩ ñe’ẽ, omoĩvaihague térã haʼetévaicha ndojesarekoihague peteĩ kyta rehe. Ko yvóra tuichakuére ojeporu hetaiterei ñe’ẽ ñembohyapu, ha ikatu oĩ nerehendúiva ne ava’atýpe. Peme’ẽmi peteĩ aguyjeme’ẽ pa’ũme umi ikatúva oñe’ẽ ambuéva pendehegui.
 varying-pronunciations-explanation-2 = Ambueháicha, eguerovia mba’éramo pe moñe’ẽhára araka’eve ndohechamo’ãiha pe ñe’ẽ ha oimo’ãreínte ojavývo pe iñemboayvu pukue, ha pévare omboyke. Ndereikuaa porãiramo, eiporu pe votõ Jepo.
 varying-pronunciations-example = Pe tape nahesakãporãi.
@@ -45,11 +52,17 @@ reader-effects-explanation = Hetavéva ñe’ẽñongatupy haʼe yvypóra oñeʼ
 just-unsure-explanation = Ejuhúramo ko’ã pauta ndojaho’íriva, evota reñamindu’uhaichaite. Ndaikatúiramo añetehápe eiporavo, eiporu pe votõ jepoha ha eku’ejey ambue ñeñongatu ndive.
 still-have-questions = ¿Eporandusépa gueteri?
 contact-common-voice = Eñomongeta Common Voice aty ndive
+
+## Sentence collection nav ids
+
 public-domain = Opavave oiporukuaáva
 citing-sentences = Emboysýi ñe’ẽjuaju
 adding-sentences = Emoĩve Ñe’ẽjuaju
 reviewing-sentences = Ehechajey Ñe’ẽjuaju
 sentence-domain = Ñe’ẽjuaju rendatee
+
+## Sentence collection sidebar content
+
 public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua ñe’ẽayvu ñeikumby mongu’eha oikóva ha’e ñe’ẽ syryry ha poravopyre. Ãva nepytyvõta ejapokuaa hag̃ua ñe’ẽjuaju;
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
@@ -86,3 +99,23 @@ reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eik
 reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, avei ikatu emboyke ha ehasánte chugui.
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 domain-explanation = Tendatee oñe’ẽ ñe’ẽjuaju rehe. Ko’ag̃aite, eiporavokuaa ko’ãva apytégui:
+
+## Question collection ids
+
+adding-questions = Embojuaju porandu
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = ¿Mba’e pe omoporãvéva porandu?
+what-makes-a-good-question-explanation = Peteĩ porandu iporãvéva mba’ekuaarãme g̃uarã ojejapóva opavavépe orekova’erã:
+what-makes-a-good-question-explanation-criteria-1 = Ndahasýi iñeikumby ha imbohovái
+what-makes-a-good-question-explanation-criteria-2 = Hetave jey hekoporãva’erã
+what-makes-a-good-question-explanation-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+easy-to-understand = Ndahasýi iñeikumby
+spelling-and-pronunciation = Haiporã ha Ñemokyta
+spelling-and-pronunciation-explanation = Eiporuporã haikuaa ha ñe’ẽtekuaa.
+length = Pukukue
+dont-add-subheader = Ani embojuaju
+culturally-specific-questions = Porandu mba’ekuaarã rehegua
+process-steps = Mba’eapo / Jeku’e
+example-questions-subheader = Porandu techapyrãva

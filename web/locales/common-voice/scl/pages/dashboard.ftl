@@ -41,72 +41,72 @@ finish-editing = بدل تھیونو مُچھوڑے پھش تھے۔
 lose-changes-warning = کوتے پھت تھا تو بدلئیے تھاک نوشین۔
 build-custom-goal = بدل تھیون بینیک مقصد سنے
 help-reach-hours-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] تومے ذاتی مقصتیڑے ایفونو{ $hours } گنٹائے سانتی دے { $language }
        *[other] تومے ذاتی مقصتیڑے ایفونو{ $hours } گنٹائے سانتی دے  { $language }
     }
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
         [one] ایک باشیکو ذاتی مقصتیڑے ایفونو{ $hours }   کامن وائیسو سانتی دے
        *[other] ایک باشیکو ذاتی مقصتیڑے ایفونو{ $hours }   کامن وائیسو سانتی دے
     }
 set-a-goal = مقصتیک پرائی
 cant-decide = فییصلہ تھیون نے بؤں دا؟
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
+    { $totalHours ->
         [one]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
             }
        *[other]
-            { NUMBER($periodMonths) ->
+            { $periodMonths ->
                 [one]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                     }
                *[other]
-                    { NUMBER($people) ->
+                    { $people ->
                         [one]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
                        *[other]
-                            { NUMBER($clipsPerDay) ->
+                            { $clipsPerDay ->
                                 [one] { "" }
                                *[other] { "" }
                             }
@@ -119,7 +119,7 @@ which-goal-type = تُسے رزیم تھوں دا، کونڈ دیم تھوں، �
 receiving-emails-info = یچے تُو  کامن وائیسو بارینی یاد دہانی، تھینی بڑیار گہ خطی ہتے اڑیونو پرائیجیلوں
 not-receiving-emails-info = یچے تُو تیار بلوں کامن وائیسو بارینی <bold> نے <bold> میلے گینیونو؛تھنو مقصتو یاددہانی،  بڑیارو گہ خطی گینیونو۔
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } کلپ
        *[other] { $count } کلپی
     }

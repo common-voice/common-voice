@@ -27,11 +27,6 @@ target-segment-add-voice = avə ciŋ
 target-segment-learn-more = a vundi
 change-preferences = aceni mimvaani
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = mbagəla ciŋ
-contribute-sentence-collection-nav-header = mbagəla bipia
-
 ## Reporting
 
 report = akad

@@ -36,7 +36,6 @@ why-demographic = Dan għaliex huwa importanti?
 accept-privacy = M'għandi ebda oġġezzjoni li tużaw din l-informazzjoni skont kif inhu spjegat fil-<privacyLink>Privacy Policy</privacyLink> tal-Mozilla.
 accept-privacy-title = Stqarrija ta' Privatezza
 login-identity = Identifikazzjoni
-login-signup = Illoggja /  Oħloq kont
 edit = Editja
 email-subscriptions = Abbonamenti bl-email
 download-profile = Niżżel id-data tiegħi

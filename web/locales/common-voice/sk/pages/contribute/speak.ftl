@@ -61,15 +61,15 @@ create-profile-button = Vytvoriť profil
 # IMAGE TAGS
 img-alt-success-checkmark = symbol začiarknutia
 # menu item
-read-sentences = Čítanie viet
+read-sentences = Čítajte vety
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = Čítajte vety <small>(už čoskoro)</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Čítajte vety, odpovedajte na otázky
-read-sentences-menu-item-tooltip = Zaznamenajte si, ako čítate vety vo svojom jazyku
-answer-questions-menu-item-tooltip = Zaznamenajte si, ako reagujete na otázky a výzvy vo svojom jazyku
+read-sentences-menu-item-tooltip = Zaznamenajte, ako čítate vety vo svojom jazyku
+answer-questions-menu-item-tooltip = Zaznamenajte, ako reagujete na otázky a výzvy vo svojom jazyku
 
 ## MENU ITEM ARIA LABELS
 

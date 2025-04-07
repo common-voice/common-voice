@@ -41,44 +41,227 @@ finish-editing = Спачатку скончыць рэдагаванне?
 lose-changes-warning = Калі вы выйдзеце зараз, зробленыя вамі змены не захаваюцца
 build-custom-goal = Стварыце ўласную мэту
 help-reach-hours-pluralized =
-    Дапамажыце дасягнуць{ NUMBER($hours) ->
-        [one] { $hours } гадзіну
-        [few] { $hours } гадзін(ы)
-       *[many] { $hours } гадзін(ы)
-    } на { $language } мове з асабістай мэтай
+    { $hours ->
+        [one] Дапамажыце дасягнуць{ $hours } гадзіну на { $language } мове з асабістай мэтай
+        [few] Дапамажыце дасягнуць{ $hours } гадзін(ы) на { $language } мове з асабістай мэтай
+       *[many] Дапамажыце дасягнуць{ $hours } гадзін(ы) на { $language } мове з асабістай мэтай
+    }
 help-reach-hours-general-pluralized =
-    Дапамажыце Common Voice дасягнуць{ NUMBER($hours) ->
-        [one] { $hours } гадзіну
-        [few] { $hours } гадзін(ы)
-       *[many] { $hours } гадзін(ы)
-    } на гэтай мове з асабістай мэтай.
+    { $hours ->
+        [one] Дапамажыце Common Voice дасягнуць{ $hours } гадзіну на гэтай мове з асабістай мэтай.
+        [few] Дапамажыце Common Voice дасягнуць{ $hours } гадзін(ы) на гэтай мове з асабістай мэтай.
+       *[many] Дапамажыце Common Voice дасягнуць{ $hours } гадзін(ы) на гэтай мове з асабістай мэтай.
+    }
 set-a-goal = Паставіць мэту
 cant-decide = Не можаце вырашыць?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } гадзіна
-        [few] { $totalHours } гадзін(ы)
-       *[many] { $totalHours } гадзін(ы)
-    } можна дасягнуць усяго за{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } месяц
-        [few] { $periodMonths } месяцы(-аў)
-       *[many] { $periodMonths } месяцы(-аў)
-    }, калі{ NUMBER($people) ->
-        [one] { $people } чалавек
-        [few] { $people } чалавек(і)
-       *[many] { $people } чалавек(і)
-    } будуць рабіць{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } запіс
-        [few] { $clipsPerDay } запісы(-аў)
-       *[many] { $clipsPerDay } запісы(-аў)
-    } штодзень.
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзіна можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+            }
+        [few]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+            }
+       *[many]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяц, калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+                [few]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+               *[many]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                        [few]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                       *[many]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запіс штодзень.
+                                [few] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                               *[many] { $totalHours } гадзін(ы) можна дасягнуць усяго за{ $periodMonths } месяцы(-аў), калі{ $people } чалавек(і) будуць рабіць{ $clipsPerDay } запісы(-аў) штодзень.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Выдатна! Колькі кліпаў у дзень?
 how-many-a-week = Выдатна! Колькі кліпаў у тыдзень?
 which-goal-type = Вы хочаце агучваць, правяраць альбо і тое, і другое?
 receiving-emails-info = Вы будзеце атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра свае дасягненні і навіны пра Common Voice.
 not-receiving-emails-info = Вы <bold>НЕ</bold> будзеце атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра свае дасягненні і навіны пра Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } запіс
         [few] { $count } запісы
        *[many] { $count } запісаў

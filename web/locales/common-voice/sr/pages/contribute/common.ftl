@@ -29,9 +29,6 @@ target-segment-first-banner = Помозите Common Voice-у у прављењ
 target-segment-add-voice = Додајте ваш глас
 target-segment-learn-more = Сазнајте више
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Пријави

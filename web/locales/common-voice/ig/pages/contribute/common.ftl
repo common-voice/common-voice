@@ -22,9 +22,6 @@ target-segment-first-banner = Nyé áká képụ̀tá ńgàlàbá èbùmnúché
 target-segment-add-voice = Tìnyé ólū gị́
 target-segment-learn-more = Mụ̀tákwúó
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Kpèsáá

@@ -4,10 +4,14 @@
 
 ## Languages
 
+aa = Afarski
+aat = Arvanitski
 ab = Abhaški
+abb = Bankon
 ace = Acehski
 ady = Adigejski
 af = Afrikanski
+aln = Gegijski albanski
 am = Amharski
 an = Aragonski
 ar = Arapski
@@ -24,6 +28,7 @@ bn = Bengalski
 bo = Tibetski
 br = Bretonski
 bs = Bosanski
+bsk = Burušaski
 bxr = Buryat
 byv = Medumba
 ca = Katalonski
@@ -246,7 +251,7 @@ not-available-abbreviation = --
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Trebamo</mark><br/><mark>tvoju pomoć!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke - doniraj danas!</strong>
+donate-banner-cta-explanation = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke – doniraj danas!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Koristiš životopis za</mark><br/><mark>zvoje istraživanje?</mark>
 localization-select =

@@ -5,9 +5,12 @@ error = Хато
 action-click = Зер кардан
 action-tap = Зарба задан
 # Label for language switcher
-interface-language = Забони интерфейс:
+platform-language = Забони платформа
+platform-language-tooltip-text = Танҳо матни сомонаро тағйир медиҳад.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълумот барои { $language }
+contribution-picker-tooltip-text = Тағйир додани маҷмуи маълумоти забонӣ, ки шумо ба он саҳм мегузоред
 # Label for button on contribution switcher
 change = Тағйир додан
 coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
@@ -27,8 +30,9 @@ request-new-language = Дархости забони нав
 ## Navbar
 
 respond-to-prompt = Ба дархост ҷавоб додан
-transcribe-audio = Табдил додани аудио ба матн
+transcribe = Табдил додан
 check-transcriptions = Тафтиш кардани овонависӣ
+question = Савол
 
 ## Not Found Page
 

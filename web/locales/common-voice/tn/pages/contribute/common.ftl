@@ -28,9 +28,6 @@ target-segment-first-banner = Thusa go dira karolwana ya ntlha ya Common Voice k
 target-segment-add-voice = Tsenya Lentswe la Gago
 target-segment-learn-more = Ithute mo go Oketsegileng
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Bega

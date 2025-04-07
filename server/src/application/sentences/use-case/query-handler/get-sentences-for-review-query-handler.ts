@@ -9,38 +9,50 @@ import { getPreferredVariantFromList } from '../../../../core/variants/user-clie
 
 export const GetSentencesForReviewQueryHandler =
   (fetchUserClientVariants: FetchUserClientVariants) =>
-    (findSentencesForReview: FindSentencesForReview) =>
-      (query: GetSentencesForReviewQuery): T.Task<UnvalidatedSentenceDto[]> =>
+  (findSentencesForReview: FindSentencesForReview) =>
+  (query: GetSentencesForReviewQuery): T.Task<UnvalidatedSentenceDto[]> =>
+    pipe(
+      TO.Do,
+      TO.bind('userClientVariant', () =>
         pipe(
-          TO.Do,
-          TO.bind('userClientVariant', () =>
-            pipe(
-              query.clientId,
-              fetchUserClientVariants,
-              TE.map(getPreferredVariantFromList(query.localeId)),
-              TO.fromTaskEither
-            )
-          ),
-          TO.chain(({ userClientVariant }) =>
-            findSentencesForReview({
-              ...query,
-              userClientVariant: userClientVariant,
-            })
-          ),
-          TO.map((sentences): UnvalidatedSentenceDto[] => {
-            return sentences.map(sentence => {
-              const variantTag = pipe(
-                sentence.variantTag,
-                O.getOrElse(() => null)
-              )
-              return {
-                sentence: sentence.sentence,
-                sentenceId: sentence.sentenceId,
-                source: sentence.source,
-                localeId: sentence.localeId,
-                variantTag: variantTag,
-              }
-            })
-          }),
-          TO.getOrElse(() => T.of([] as UnvalidatedSentenceDto[]))
+          query.clientId,
+          fetchUserClientVariants,
+          TE.map(getPreferredVariantFromList(query.localeId)),
+          TO.fromTaskEither
         )
+      ),
+      TO.chain(({ userClientVariant }) =>
+        findSentencesForReview({
+          ...query,
+          userClientVariant: userClientVariant,
+          reviewSentencesWithoutVariant: false,
+        })
+      ),
+      // Remove sentences without a variant tag for now
+      // until we know how to present it properly to the user 
+      // TO.chain(sentences => {
+      //   return sentences.length > 0
+      //     ? TO.of(sentences)
+      //     : findSentencesForReview({
+      //         ...query,
+      //         userClientVariant: O.none,
+      //         reviewSentencesWithoutVariant: true,
+      //       })
+      // }),
+      TO.map((sentences): UnvalidatedSentenceDto[] => {
+        return sentences.map(sentence => {
+          const variantTag = pipe(
+            sentence.variantTag,
+            O.getOrElse(() => null)
+          )
+          return {
+            sentence: sentence.sentence,
+            sentenceId: sentence.sentenceId,
+            source: sentence.source,
+            localeId: sentence.localeId,
+            variantTag: variantTag,
+          }
+        })
+      }),
+      TO.getOrElse(() => T.of([] as UnvalidatedSentenceDto[]))
+    )

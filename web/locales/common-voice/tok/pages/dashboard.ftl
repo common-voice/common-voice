@@ -42,20 +42,23 @@ lose-changes-warning = sina weka la, ante sina li weka
 build-custom-goal = o wile pali mute
 help-reach-hours-pluralized = wile mi la kalama pi tenpo suli { $hours } o lon { $language }. tawa ni la o pana e wile pali sina!
 help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
+    { $hours ->
        *[other] kepeken wile pali sina la, o pali e tenpo suli { $hours } lon ilo Common Voice, lon toki.
     }
 set-a-goal = o wile pali
 cant-decide = sina wile anu seme?
 activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-       *[other] jan { $people }
-    } { NUMBER($periodMonths) ->
-       *[other] li awen e kalama { $clipsPerDay } la,
-    } { NUMBER($people) ->
-       *[other] ona li ken pali e tenpo suli { $totalHours }
-    } { NUMBER($clipsPerDay) ->
-       *[other] lon tenpo mun { $periodMonths }.
+    { $totalHours ->
+       *[other]
+            { $periodMonths ->
+               *[other]
+                    { $people ->
+                       *[other]
+                            { $clipsPerDay ->
+                               *[other] jan { $people } li awen e kalama { $clipsPerDay } la, ona li ken pali e tenpo suli { $totalHours } lon tenpo mun { $periodMonths }.
+                            }
+                    }
+            }
     }
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
@@ -63,7 +66,7 @@ which-goal-type = sina wile toki, anu kute, anu ni tu?
 receiving-emails-info = sina kama jo e lipu ni: sona pi wile pali en sona pi pali mi en ijo sin pi ilo Common Voice.
 not-receiving-emails-info = sina kama jo <bold>ala</bold> e lipu ni: sona pi wile pali en sona pi pali mi en ijo sin pi ilo Common Voice.
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] kalama awen { $count }
     }
 help-share-goal = o alasa e jan toki, o pana e pali suli sina

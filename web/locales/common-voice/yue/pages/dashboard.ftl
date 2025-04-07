@@ -41,32 +41,35 @@ finish-editing = 編輯完先？
 lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
 help-reach-hours-pluralized =
-    建立一個幫{ $language }達到{ NUMBER($hours) ->
-       *[other] { $hours } 小時
-    }嘅個人目標
+    { $hours ->
+       *[other] 建立一個幫{ $language }達到{ $hours } 小時嘅個人目標
+    }
 help-reach-hours-general-pluralized =
-    建立一個幫 Common Voice 嘅任何一種語言達到{ NUMBER($hours) ->
-       *[other] { $hours } 小時
-    }嘅個人目標
+    { $hours ->
+       *[other] 建立一個幫 Common Voice 嘅任何一種語言達到{ $hours } 小時嘅個人目標
+    }
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
 activity-needed-calculation-plural =
-    假如有 { NUMBER($people) ->
-       *[other] { $people } 個人
-    }每日都錄到{ NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } 條片
-    }，就可以喺 { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } 個月
-    }內達到{ NUMBER($totalHours) ->
-       *[other] { $totalHours } 個鐘嘅
-    }錄音目標。
+    { $people ->
+       *[other]
+            { $clipsPerDay ->
+               *[other]
+                    { $periodMonths ->
+                       *[other]
+                            { $totalHours ->
+                               *[other] 假如有 { $people } 個人每日都錄到{ $clipsPerDay } 條片，就可以喺 { $periodMonths } 個月內達到{ $totalHours } 個鐘嘅錄音目標。
+                            }
+                    }
+            }
+    }
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每個禮拜要錄幾多段音？
 which-goal-type = 閣下想淨係講嘢、聽嘢，定係想又聽又講？
 receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
 not-receiving-emails-info = 你目前選擇 <bold>唔接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
 n-clips-pluralized =
-    { NUMBER($count) ->
+    { $count ->
        *[other] { $count }錄音片段
     }
 help-share-goal = 幫我哋揾更多人參與錄音，分享閣下嘅目標

@@ -83,6 +83,7 @@ answer-questions-coming-soon = Soru yanıtla <small>(Çok yakında)</small>
 review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
 review-transcriptions-coming-soon = Çeviri metinleri incele <small>(Çok yakında)</small>
 add-questions = Soru ekle <small>(Çok yakında)</small>
+add-questions-coming-soon = Soru ekle <small>(Çok yakında)</small>
 transcribe-audio-coming-soon = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
@@ -122,10 +123,9 @@ action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşa
 scripted-card-header = Yazıları Seslendirme
 scripted-card-content = Cümleleri kendi dilinizde okuyun ve kitlesel katılımla oluşturulan, dünyanın en kapsayıcı dil veri kümesine katkıda bulunun.
 spontaneous-card-header = Doğaçlama Konuşma
-spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere istemlere yanıt verin. Konuşma öncelikli diller için ideal.
+spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere sorulara yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
-coming-soon = Çok yakında
 add-text = Metin ekleyin
 
 ## Community section

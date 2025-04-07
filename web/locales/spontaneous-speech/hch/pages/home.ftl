@@ -1,4 +1,5 @@
 ## Home page
+
 welcome-to-spontaneous-speech = Aixɨ xepeuyeyɨa "Mutaniuni karakaterɨwatɨ"
 # <br></br> represents a newline break
 wall-of-text = Common Voice plataforma niuki katerɨwariekame xeɨriwame hutarieka kaniweewieka. Naitsarie kiekatari kaniwaparewiekamɨkɨ mexɨiwa matsi memɨtekuxeɨriwanikɨ tsiere temaikate hepaɨna teweewiwamete ʼaixɨ matsi katiniwaparewiemɨkɨ.

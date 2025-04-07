@@ -30,9 +30,6 @@ target-segment-first-banner = Thusa ho etsa karolo ya pele ya Common Voice ka { 
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
 
-## Contribution Nav Items
-
-
 ## Reporting
 
 report = Tlaleha

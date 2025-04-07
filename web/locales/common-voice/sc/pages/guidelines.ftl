@@ -3,6 +3,9 @@ guidelines-header = Lìnias ghia pro sa partetzipatzione
 guidelines-header-subtitle = Cumprende comente partetzipare e validare fràsias e registratziones de boghe a su pachete de datos de Common Voice
 voice-collection = Regorta de boghes
 sentence-collection = Regòllida de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronùntzias chi mudant
 misreadings = Faddinas de leghidura
 offensive-content = Cuntenutu ofensivu
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Efetos de leghidura
 just-unsure = Tenes dudas?
 example = Esempru
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Totu is atzentos sunt benebènnidos! Pensa·nche unu pagu in antis de refudare una registratzione ca chie leghet at pronuntziadu male unu faeddu, at postu s’atzentu in su tretu isballiadu o paret chi apat ignoradu unu puntu interrogativu. Ddoe sunt pronùntzias medas impreadas in su sardu, e podet èssere chi non ddas apas mai intèndidas in sa comunidade locale tua. Chirca de tènnere unu pagu de elastitzidade e de aprètziu pro chie faeddat in manera diferente dae sa tua.
 varying-pronunciations-explanation-2 = Dae s'àtera banda, si pensas chi chie leghet no apat mai bidu cussu faeddu e siat isceti chirchende de addivinare sa pronùntzia, refuda·dda. Si non ses seguru, imprea su butone Brinca.
 varying-pronunciations-example = E ite ses faghende?
@@ -43,11 +49,17 @@ reader-effects-explanation = Sa parte manna de is registratziones sunt de person
 just-unsure-explanation = Si agatas calicuna cosa chi custas lìnias ghia non previdint vota sighende su giudìtziu tuo. Si a beru non renesses a detzìdere, duncas imprea su butone pro brincare e bae a sa registratzione imbeniente.
 still-have-questions = Tenes ancora dudas?
 contact-common-voice = Cuntata s'iscuadra de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domìniu pùblicu
 citing-sentences = Tzitatzione de fràsias
 adding-sentences = Agiunta de fràsias
 reviewing-sentences = Revisione de fràsias
 sentence-domain = Domìniu de sa fràsia
+
+## Sentence collection sidebar content
+
 citing-sentences-subheader-websites = Sitos web
 citing-sentences-subheader-websites-explanation = Dias pòdere inclùdere su situ web, pro esempru «Common Voice - https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = Tzitatzione acadèmica
@@ -64,3 +76,12 @@ adding-sentences-subheader-punctuation = Puntegiadura
 adding-sentences-subheader-special-characters = Caràteres ispetziales e lìteras istràngias
 adding-sentences-subheader-offensive-content = Cuntenutu ofensivu
 reviewing-sentences-explanation-4 = Si non nch’at prus fràsias de revisionare, agiuda·nos a nde regòllere àteras!
+
+## Question collection ids
+
+adding-questions = Agiùnghere preguntas
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Ite est una pregunta bona?
+example-questions-subheader = Preguntas de esempru

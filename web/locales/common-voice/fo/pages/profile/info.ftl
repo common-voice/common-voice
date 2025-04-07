@@ -31,7 +31,6 @@ profile-explanation = Við einum profili kanst tú fylgja við tínari framgongd
 thanks-for-account = Takk fyri at tú váttaði tína kontu. Lat okkum nú gera tín profil.
 why-demographic = Hví hevur hetta týdning?
 login-identity = Innritanarsamleiki
-login-signup = Innrita / Stovna teg
 edit = Broyt
 email-subscriptions = Teldupost hald
 contribution-experience = Uppliving av íkasti

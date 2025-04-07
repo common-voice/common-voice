@@ -1,12 +1,10 @@
 ## WRITE PAGE
 
 write = لکو
-# WRITE PAGE
 write-instruction = شامل ڪريو <icon></icon> عوامي ڊومين جو جملو
 write-page-subtitle = هتي شامل ڪيل جملا عوامي طور تي موجود cc-0 لائسنس يافته ڊيٽا سيٽ ۾ شامل ڪيا ويندا.
 sentence =
     .label = جملو
-sentence-input-value = پنھنجي عوامي ڊومين جو جملو هتي داخل ڪريو
 citation =
     .label = حوالو
 sc-write-submit-confirm = آئون تصديق ڪريان ٿو ته هي جملو <wikipediaLink>عوامي ڊومين</wikipediaLink> آهي ۽ مون وٽ ان کي اپلوڊ ڪرڻ جي اجازت آهي.
@@ -30,9 +28,8 @@ required-field = مھرباني ڪري ھن فيلڊ کي ڀريو.
 single-sentence-submission = اڪيلو جملو جمع ڪرائڻ
 bulk-sentence-submission = گھڻي تعداد ۾ جملا جمع ڪرائڻ
 single-sentence = اڪيلو جملو
-bulk-sentences = گھڻا جملا
 
-## BULK SUBMISSION 
+## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = اپ لوڊ ڪريو <icon></icon> عوامي ڊومين جا جملا
@@ -57,3 +54,12 @@ file-invalid-type = ناقص فائل
 file-too-large = فائل تمام وڏي آهي
 file-too-small = فائل تمام ننڍي آهي
 too-many-files = تمام گهڻيون فائلون
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

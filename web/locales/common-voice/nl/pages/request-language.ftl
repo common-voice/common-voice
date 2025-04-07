@@ -34,3 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Mogelijk hebben we dat verzoek niet ontvangen. Stuur ons een e-mailbericht direct
     op <emailLink>{ $email }</emailLink> en we nemen contact met u op!
+request-for-scripted-speech-toggle = Verzoek om gescripte spraak
+request-for-spontaneous-speech-toggle = Verzoek om spontane spraak
+need-help-deciding-platform = Hulp nodig bij uw keuze?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Gescripte spraak</strong> (traditioneel wat u kent als Common Voice) is waar u zinnen in uw taal hardop kunt voorlezen.
+need-help-deciding-platform-explanation-2 = <strong>Spontane spraak</strong> is een nieuw onderdeel van Common Voice, waar u op een meer organische, informele manier op vragen kunt reageren.
+need-help-deciding-platform-explanation-3 = Als u uw taal niet in een van de delen van het platform ziet, selecteer dan beide.
