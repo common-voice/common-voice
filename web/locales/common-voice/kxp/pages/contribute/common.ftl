@@ -37,10 +37,19 @@ datasets = مُدت، زمانو
 languages = ٻولِي
 about = ڀارا مان
 partner = ساٿِي
-submit-form-action = قبُول ڪروون مانوون
+submit-form-action = پيش ڪروون مانوون
 
 ## Reporting
 
+report = رپورٽ
+report-title = رپورٽ پيش ڪروون
+report-ask = تمارا تجربا ٿي جُملان مان ڪوئي مسئلو آوي رو سي؟
+report-offensive-language = پسند نا آوي اِي ٻولِي
+report-offensive-language-detail = جُملا مان ڪوئي بي عزتي يان ٻولِي پسند نا هوئي
+report-grammar-or-spelling = گرامر، هِجي نو مسئلو
+report-grammar-or-spelling-detail = جُملا مان گرامر يان هجي نو مسئلو سي۔
+report-different-language = مُختلف ٻولِي
+report-different-language-detail = زي مُون ٻولون رو سُون اي لکت مان فرق سي
 
 ## Speak & Listen Shortcuts
 
