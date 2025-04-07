@@ -98,6 +98,7 @@ about-playbook-how-localize-content-5 = مددِي چي ڪاڻ اَمچِي وض
 about-playbook-how-add-sentences = مين جُملي ڪِيُون شامل ڪر سِگھَين ڇَين؟
 about-playbook-how-add-sentences-content-1 = تمهِين <writePageLink>لِکڻي هاڙي صُفحي</writePageLink> پرجُملي شامل ڪر سِگھا ڇوا، يان  <reviewPageLink> پر جائِزا گيهڻي هاڙي صُفحي</reviewPageLink> پرجُملان چا جائِزا گيه سِگھا ڇوا۔
 about-playbook-how-add-sentences-content-2 = ڪامن وائِيسا ۾ بِچڙڻي ڪاڻ ڏُوجان ماڻسان چي جُملان چا جائِزا گيهڻ ائُون اُونهان نُون مڃڻ لازمِي ڇَي۔ تمهِين آپڪِي ٻولِي ۾ هِدايتا ٺاهوا۔ جُملي  </languageGuidelinesLink> اِٺي <languageGuidelinesLink> 15 لفظان کن گھٽ هُوِي۔  تمهِين متنا چي مالڪا کن پُوڇ سِگھا ڇَوا۔ اوهچ </licenseLink> عوامِي ڊومين <licenseLink> اِستعمال ڪتان امچا معافِي هاڙا عمل اِستعمال ڪتِي CC0 <waiverLink> نُون اَمهان ڏِسِين مولڪلا۔
+about-playbook-how-add-sentences-content-3 = تمهِين <scraperLink> Sentence extractor</scraperLink> نُون اِستعمال ڪتِي وِڪِيپِيڊيا مُون ڌاران ڌاران جُملان نُون حاصل ڪر سِگھا ڇَوا۔
 
 ## How to record quality
 
