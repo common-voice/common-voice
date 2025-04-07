@@ -11,11 +11,11 @@ action-click = ۮٻاوُون
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
-shortcut-record-toggle-label = رڪارڊ، روچ
+shortcut-record-toggle-label = رڪارڊ ڪرو، روڪو
 shortcut-rerecord-toggle = 1يڪ ٻي ترينڻ چار پانس
 shortcut-rerecord-toggle-label = وري رڪارڊ ڪروون
-shortcut-discard-ongoing-recording = اِي ايس سي
-shortcut-discard-ongoing-recording-label = رڪارڊنگ ڌار ڪروي
+shortcut-discard-ongoing-recording = اِي ايس سي، نا پاڙوون
+shortcut-discard-ongoing-recording-label = رڪارڊنگ ڌار ڪروون
 shortcut-submit = واپس
 shortcut-submit-label = ڪلپ قبول ڪروون
 request-language-text = تمين ڪۮي عام ٻولي ڀاۯي سي؟
@@ -25,14 +25,14 @@ request-language-button = درخواست هانَ ٻولي
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = پِي
-shortcut-play-toggle-label = چالو، بند
+shortcut-play-toggle = پِي پ
+shortcut-play-toggle-label = چالو، بند  يا روڪو
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = يه
+shortcut-vote-yes = يه وائي
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = ن
+shortcut-vote-no = ن نُون
 
 ## Validation criteria
 
