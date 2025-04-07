@@ -88,3 +88,7 @@ contribution-misreadings-description-extended-list-2 = wo ɖé <strong> huè tè
 contribution-misreadings-description-extended-list-3 = nyàtoɖoémèwo kèwo mu lè o sìgbè  « surment » kè le ɖɔlì  « surement ».
 contribution-misreadings-description-extended-list-4 = nyà kpɔ̀tɛ́ a bé nùwuwu sò ɖo a wó nɔ̀tè nyàlélé a kpàtà.
 contribution-misreadings-description-extended-list-5 = ajè tre mè ájè àgbã mè alo ahlɔ̃ ŋútɔ kéŋugbɔxué ahlɛ̃̀ nyà ɖèka.
+contribution-misreadings-example-1-title = Trias bé dinosɔrijɔ̀asuwó.
+contribution-misreadings-example-2-title = Trias bé jinozɔrijɔ̀asu
+contribution-misreadings-example-2-explanation = ɖo la nyi jìnozɔrìwo
+contribution-misreadings-example-3-title = Tria- bé jìnòzɔrijɔ̀asuwo.
