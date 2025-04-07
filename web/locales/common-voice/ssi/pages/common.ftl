@@ -263,6 +263,7 @@ sr = سربيئن
 ss = سیسواتی
 st = ڈؔکھݨا کی سوتھو
 sv-SE = سویڈیش
+sva = سوان
 sw = سواحلی
 syr = سریانی
 ta = تامیل
@@ -325,6 +326,10 @@ documentation = کیمتی کاگدؔ
 content-license-text = <licenseLink>سادھارݨ رچنا لیسݨا</licenseLink> کے نِیچے ماجُود سیمان
 share-title = مھارے پڑوام سیمل ہے
 share-text = مسینیں کُو یو سِکاݨیم داہِیتا کرو کہ ساچے مِنکھ کِدؔا ٻولتے ہے، { $link } پݨ اپݨی اواج دؔان کرو
+link-copied = لنک نکل کروڑا
+back-top = اُوپرلے پاسے پُوٹھا جاُ
+logout = لاگ آؤٹ کرو
+donate = دؔان دؔیݨا
 
 ## Donate banner
 
