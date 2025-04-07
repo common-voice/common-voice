@@ -323,6 +323,8 @@ cookies = پکاوݨا
 faq = سادھارݨ سے سُئال
 documentation = کیمتی کاگدؔ
 content-license-text = <licenseLink>سادھارݨ رچنا لیسݨا</licenseLink> کے نِیچے ماجُود سیمان
+share-title = مھارے پڑوام سیمل ہے
+share-text = مسینیں کُو یو سِکاݨیم داہِیتا کرو کہ ساچے مِنکھ کِدؔا ٻولتے ہے، { $link } پݨ اپݨی اواج دؔان کرو
 
 ## Donate banner
 
