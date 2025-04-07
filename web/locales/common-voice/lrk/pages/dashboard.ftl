@@ -25,7 +25,9 @@ show-ranking = مارو درجو ديکارو
 ## Custom Goals
 
 get-started-goals = مقصدون مون شروع ڪرو
-both-speak-and-listen = ٻي
+create-custom-goal = هڪ حسب ضرورت مقصد ٺاھون
+goal-type = تمي ڪي قسم رو مقصد تعمير ڪروُ چاھون ھون
+both-speak-and-listen = ٻئي
 both-speak-and-listen-long = ٻي ھوڻوہ ھين ٻولوہ
 daily-goal = روز رو مقصد
 weekly-goal = هفتا رو مقصد
@@ -33,6 +35,23 @@ easy-difficulty = آسون
 average-difficulty = ايم اي
 difficult-difficulty = ڌوکي
 pro-difficulty = پورو
+lose-goal-progress-warning = تمو ري مقصد ني تبديل ڪرن، تمي آپري موجوده پيشرفت ني گوماڻي سگھو ھو
+want-to-continue = ڪاوُ تمي جاري رکوُ چاھو ھونط
+finish-editing = پهري ترميم ختم ڪرو
+lose-changes-warning = ھمي سوڙيا رو مطلب ھي تمي آپري تبديليون گوماڻي ڪاڌيو
+build-custom-goal = اآڪ حسب ضرورت مقصد ٺاهو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] ذاتي مقصد مون{ $hours } ڪلاڪ ۾ { $language } تڪ پوچيا ۾ مدد ڪرو
+       *[other] ذاتي مقصد مون { $hours } ڪلاڪو تڪ { $language } ۾ مدد ڪرو
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] مدد ڪرو عام آواز تڪ پوچيا ۾ { $hours } ڪلاڪ ايڪ ٻولي ۾ ذاتي مقصد مون
+       *[other] مدد ڪرو عام آواز تڪ رسايا { $hours } ڪلاڪو ۾ ايڪ ذاتي مقصد مون
+    }
+set-a-goal = ايڪ ھي مقصد مقرر ڪرو
+cant-decide = فيصلو نٿو ڪري ھگو
 n-clips-pluralized =
     { $count ->
         [one] { $count } ڪلپ
