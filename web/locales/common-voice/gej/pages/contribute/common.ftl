@@ -5,6 +5,7 @@ review = kù nu mè kpɔ / glò nu mè kpɔ
 skip = va yi
 shortcuts = mɔsɔsɔɛwo
 goal-help-recording = mìawo ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè. a
+goal-help-validation = to mìa ji a Common Voice bé gbè sía gbè bé taɖojinu <goalPercentage>.......
 
 ## Reporting
 
