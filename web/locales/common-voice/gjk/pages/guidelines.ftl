@@ -43,6 +43,10 @@ background-noise-explanation = تمان نين رِڪارڍينڳ نا هر لڦ
 background-noise-example-1 = ٽرائيسِڪ نا موٽا ڍائينسور
 background-noise-example-2 = [ڌانۿوون] ٽرائيسِڪ نا موٽا ڍائينوسار
 background-noise-example-3 = ٽرائيسِڪ نو موٽو ڍائينو [ڌانۿ]
+background-noise-example-4 = رياسِڪ نان موٽان ڍائينوسار [ٻڙٻڙاوون]
+background-noise-tip-1 = [پسيَ منظر نِي ڳوڙ ٿِي مڌاخلت]
+background-noise-tip-2 = [متن نو ڪانڪ حصو ۿنڀراتو نٿي ريو ]
+background-voices-explanation = ٿوڙِيڪ پسيَ منظر نِي ڳوڙِ ٺيڪ سي، پڻ زو تمين ڪونئين ٻيزا شخص نين الڳ الڳ لڦظ ٻولتان ۿانڀرتان هو تو ڪِلِپ نين رڌ ڪروون زويئين۔ گھڻون ڪرينَ ايوون اُڃان ٿائيَ سي زان ٽِي وِي چالوُ رئِي جھئِي هوئيَ، ڪان وريَ زان ڪونئين وات وڳچ ٿاتِي هوئيَ۔
 
 ## Sentence collection nav ids
 
