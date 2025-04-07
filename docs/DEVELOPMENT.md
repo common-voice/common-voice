@@ -16,12 +16,12 @@ The project is organized into the following directories:
 
 We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchestrate the local development environment configuration using [Docker](https://www.docker.com/). This is our recommended way of setting up your local development environment, as it will bypass the need to install each component separately.
 
-### Requirements
+### Requirements for Docker
 
 - [Docker](https://www.docker.com/)
 - [docker-compose](https://docs.docker.com/compose/)
 
-### Configuration
+### Configuration of Docker
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. If you want to modify any of these values, you will need to create a configuration file.
 
@@ -40,7 +40,7 @@ Copy the example with:
 > cp .env-local-docker.example .env-local-docker
 ```
 
-This will instruct your application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages. Sentences are imported alphabetically by language code, so Arabic (`ar`) is imported before English (`en`), which is imported before Kiswahili (`sw`). Note that importing sentences for _all_ languages will take over 36 hours. 
+This will instruct your application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages. Sentences are imported alphabetically by language code, so Arabic (`ar`) is imported before English (`en`), which is imported before Kiswahili (`sw`). Note that importing sentences for _all_ languages will take over 36 hours.
 
 ### Setup steps
 
@@ -94,11 +94,11 @@ services:
 
 ### Troubleshooting
 
-#### Couldn't connect to Docker daemon 
+#### Couldn't connect to Docker daemon
 
 If you get an error like the following when running native Docker (not Docker for Desktop),
 
-```
+```txt
 ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 ```
 
@@ -118,24 +118,24 @@ Then after this you can:
 
 You may have to run these commands as root/superuser.
 
-#### Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory 
+#### Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory
 
-After running `docker-compose up`, on Ubuntu, Fedora or other Linux-based systems, you may observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`. 
+After running `docker-compose up`, on Ubuntu, Fedora or other Linux-based systems, you may observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`.
 
 You may also observe the errors:  
 
-* `error Error: EACCES: permission denied, unlink '/code/node_modules/.yarn-integrity'` 
-* `EACCES permission denied mkdir /code/node_modules`
+- `error Error: EACCES: permission denied, unlink '/code/node_modules/.yarn-integrity'`
+- `EACCES permission denied mkdir /code/node_modules`
 
-when the `web` container is building. 
+when the `web` container is building.
 
-The root cause of this error is [this line](https://github.com/common-voice/common-voice/blob/bc8d0c501a51c735b907ad6e99368b2a47b3f15e/docker-compose.yaml#L62) in the `docker-compose.yaml`, which is intended to set the `GID` and `UID` to a non-root user. 
+The root cause of this error is [this line](https://github.com/common-voice/common-voice/blob/bc8d0c501a51c735b907ad6e99368b2a47b3f15e/docker-compose.yaml#L62) in the `docker-compose.yaml`, which is intended to set the `GID` and `UID` to a non-root user.
 
 `user: '${UID:-10001}:${GID:-10001}'`
 
 (These settings also appear under the `bundler` config. The `bundler` is only used for dataset releases, so we're only concerned about the `web` config here.)
 
-However, this causes the `docker` user's `UID:GID` and the localhost user's `UID:GID` to be different. 
+However, this causes the `docker` user's `UID:GID` and the localhost user's `UID:GID` to be different.
 
 The workaround is to first identify the `UID` and `GID` of the current user, then edit the line in `docker-compose.yaml` to have that `UID` and `GID`:
 
@@ -151,19 +151,19 @@ The workaround is to first identify the `UID` and `GID` of the current user, the
 
 `user: '${UID:-1000}:${GID:-1000}'`
 
-You should then be able to run `docker-compose up` successfully. 
+You should then be able to run `docker-compose up` successfully.
 
 ## Manual installation
 
 You may want to set up each component manually. In which case you will need:
 
-### Requirements
+### Requirements for manual installation
 
 - [NodeJS](https://nodejs.org) (v12+)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [MySQL](https://www.mysql.com/downloads/) (v5.7 or higher)
 
-### Configuration
+### Configuration for manual installation
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. If you want to modify any of these values, you will need to create a configuration file.
 
@@ -187,7 +187,7 @@ You can either create a MySQL superuser that that uses the default `DB_ROOT_USER
 
 The Common Voice project uses Google Cloud Storage for voice clip storage. This will be provided for you if you use the Docker installation, but if you are doing local development you will need to set up your own Cloud Storage instance. For detailed although outdated instructions on how to do that, see [HOWTO_S3.md](./HOWTO_S3.md). The steps to setup Buckets on GCP should be similar.
 
-### Setup steps
+### Setup steps for manual installation
 
 Make sure your MySQL server is running. Then run the following commands:
 
@@ -230,15 +230,15 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 For Docker, in `.env-local-docker`:
 
 ```Dotenv
-CV_AUTH0_DOMAIN="<domain_here>"
-CV_AUTH0_CLIENT_ID="<client_id_here>"
-CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
+CV_FXA_DOMAIN="<domain_here>"
+CV_FXA_CLIENT_ID="<client_id_here>"
+CV_FXA_CLIENT_SECRET="<client_secret_here>"
 ```
 
 For local development, in `config.json`:
 
 ```json
-"AUTH0": {
+"FXA": {
  "DOMAIN": "<domain_here>",
  "CLIENT_ID": "<client_id_here>",
  "CLIENT_SECRET": "<client_secret_here>"
