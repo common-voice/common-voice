@@ -30,6 +30,8 @@ submit-form-action = sɔ nú ɖó ɖa.
 report = sà/ sãma.
 report-title = wɔ̀ xoma ɖo ɖa.
 report-ask = tagbã kɛwo mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo mì lě ɖo  sɔ kùɖo nyàgbè kèya ŋúti o.
+report-offensive-language = gbɔɖìàmènyàwo/ kplamàsenyàwo/ àmèmàbùmàbǔgbèwo.
+report-offensive-language-detail = gbɔɖìnyǎwo lè nyàgbè a mè/ èzũ̀wo lè nyàgbè a mè.
 
 ## Speak & Listen Shortcuts
 
