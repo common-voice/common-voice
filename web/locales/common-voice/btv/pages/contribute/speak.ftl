@@ -44,6 +44,17 @@ first-cta-header-text = اپئیں اواز دے سو شکریہ !
 first-cta-subtitle-text = اپئیں بارہ مہ منے گِھن ،تو ڈویلپر سو مدد گونݜ جل جمع ٹیکنالوجی سندے مہ
 why-donate = تو کوزائ منا
 why-donate-explanation-1 = او معلومات دے سو دَن اختیاری تھی۔کہ تو ارام مہ تھو تہ تے او شامل گرو پکار تھو۔ کدی چہء بے معلاماتی سیٹ جاری گرہ تھہ تہ بے بُٹ ذاتی معلومات خالص گرہ تھہ آ او بیاد یقینی گرہ تھہ چہء تیں ای میل آ ناں سو معلومات عمر یا جنس شان معلومات مِل منسلک نہ ھویں
+why-donate-explanation-2 = ٹیکنالوجی سو دن چہ ہر کیں سو دن سَم کام گرے،سو معلومات چہء ٹیکنالوجی سندے مہ ڈویلپر سو مدد گرا  لوں یے متبادل حدود سو شکل پشے سو ضرورت تھی۔مثل سے طور رے کہ بے کیں خاص لہجہ والہ منے والہ شامل نہ گرہ تھہ  تہ اس لہجہ والہ لوں سو دن او ٹیکنالوجی صحیح طریقہ رے کام نہ گرینݜ۔ <learnMore>  میٹا معلومات سو اہمیت چیں تھی اسئیں بارہ مہ جل معلومات حاصل گر ۔</learnMore>
+add-information-button = معلومات جمہ گر
+continue-speaking-button = نہء  مہربانی، منو جاری رڇھ
+create-profile-text = تو اپئیں معلومات محفوظ گرو لوکھا ؟ <createProfile> یک پروفائل سن </createProfile>
+thanks-for-voice-toast = تیں اوازسو معلومات دے سو شکریہ
+thanks-for-voice-toast-error = یک غلطی تھی تیں اواز سو معلومات جمہ گرے مہ
+first-cta-gender-select-default-option = یک اختیار خوش گر
+first-cta-gender-select-help-text =
+    .label = تو اپوں جنس کش  بیان گرونݜ
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = اپئیں اواز سو حصہ گھنے سو شکریہ
 
 ## MENU ITEM TOOLTIPS
 
