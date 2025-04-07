@@ -73,3 +73,7 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = عمر
 donate-modal-message = تماري ڌيٽاسيٽ ڌائنلوڌ ھوئي رھئي ھي
 dataset-donate-modal-heading = ڪاو تمي جوڻو
+donate-modal-explanation-1 = امو ري ڪوم تي ڀروسو ڪريا ري 100+ ٻولي برادريو ھارو ڊيٽا سيٽس ني هوسٽ ڪري ھين پليٽ فارم ني بهتر ٺايا تي هر سالl لڳ ڀڳ ايڪ ملين ڊالر خرچ ڊوي ھي ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>جيڪدي تميي کوليوڙا ، جامع ڊيٽا ري قدر ڪررو ھون - آڄ ھي دون ڪرو!</bold>
+data-download-singleword-title = ڊائون لوڊ ڪرو ايڪلو ھي اکر وارو حصو

@@ -9,3 +9,5 @@ error-clip-upload-server = آ ڪِلِپ نِي اپلوڍينڳ سرور ماٿ
 error-title-404 = امين تمان ۿارُو اُو پيج نٿِي ڳوتِي ۿڄان
 error-content-404 = شايۮ امارون <homepageLink>مۮت ڪرشيَ۔ سوال ڪريا ۿارُو ميرٻانِي ڪرينَ<matrixLink>ڀِراڌري چيٽ</matrixLink>مان شامِل ٿائو۔ <githubLink> نيَ زريئيَ ٿِي سائيٽ نان مسلان نِي نِڳرانِي ڪرو يا <discourseLink>امارا ڍِسڪورس</discourseLink>ماٿيَ زائو۔
 error-title-503 = امين غيرمتوقع بنڌش نو تجرٻو ڪريئين سيئين ريان
+error-content-503 = سائيٽ جلڌ ٿِي جلڌ شرُو ڪرِي زاشيَ۔ ميرٻانِي ڪرينَ<matrixLink>ڀِراڌرِي چيٽ</matrixLink>مان شامِل ٿائو يا<githubLink>يا<discourseLink>امارا ڍِسڪورس فورم </discourseLink>ماٿيَ زائو ايٽليَ سائيٽ نا تجرٻان نان مسلان نين جمع ڪراوينَ اينيان نِي نِڳرانِي ڪرِي ۿڳائيَ۔
+error-code = ڳلتِي{ $code }
