@@ -349,3 +349,5 @@ not-available-abbreviation = این / اے
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ہمکُو جرورت</mark><br/> ہے<mark>آپ کی مدد!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹا سیٹیں کی سیوادھاری کرنے اور 100 س ودھیک بھاشا کی پڑاویں نتر پلیٹ پھارما کُو اجرا ٻݨاوݨیں نتر سالا ڈِؔیٹ لگ بھگ ایک ملین ڈالر کھرچ ہوتے ہے جکُو مھارے کاماپ بھروسا کرتے ہیں۔ <strong>اگر آپ کھلے ، بھیݪے ہے ڈیٹا کی قدر کرتے ہے تو - آج دؔان کرو!</strong>

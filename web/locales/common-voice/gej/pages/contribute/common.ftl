@@ -14,7 +14,8 @@ record-button-label = Lé  àpo gbè
 share-title-new = <bold>Mì dó mi àlɔ̀ né mia </bold> kpɔ́ gbè yéyéwo.
 keep-track-profile = Dó àpo ŋùkɔ̀yìyǐ kpɔ́ to àpo ɖokóeɖèɖěfiɔ jí.
 login-to-get-started = cá kà alo ŋlɔ̀ apo nyikɔ né à tɔ núwo jí.
-target-segment-add-voice = kɔ́ gbè yì ji / ɖè gbè to/ do àpa
+target-segment-add-voice = kɔ́ gbè yì ji / ɖè gbè tó/ do àpá.
+target-segment-learn-more = ji la sè nugɔ̃̀mè sùgbɔ.
 
 ## Reporting
 

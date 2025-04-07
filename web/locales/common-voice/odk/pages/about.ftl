@@ -102,6 +102,7 @@ about-playbook-how-add-sentences-content-2 = ڪامن وائِيسا ۾ بِچڙ
 
 about-playbook-how-record-quality = مين هيڪ سُٺي معيارا هاڙا آواز ائُون ڪِلپ ڪِيُون رڪارڊ ڪر سِگھَين ڇَي؟
 about-playbook-how-record-content-1 = آپتان ۾ ڪامن وائِيسا ۾ بات ڪرا۔ تمچي ٻولڻي هاڙي طرِيقي نُون ڀلِيڪار ڪيهُون ڇئُون۔ اَمهِين چاهُون ڇَئُون تہ تمچا جُون تلفُظ ڇَي محمُولِي حجم، انداز ائُون انٽونيشن ڇَي جھُونچ ئِي هُوَي۔
+about-playbook-how-record-content-2 = تمام گھڻي پس منظرا چي گوڙا کن بچاءَ۔ اوهچ تمچي ڪاڻ سُڻڻي ۾ سولا هُوَڻ کپَي۔
 about-playbook-how-record-content-3 = جملي نُون غورا سُون پڙها۔  گُونوان نہ، مٽاوا يان بڙي لفظ شامل ڪرا۔
 about-playbook-how-record-content-4 = پڪ ڪرا تہ پليٽ فارم تمچي ٻولڻي کن پيهڻُون رڪارڊ ڪرَي ڇَي پلا، ائُون اوهچ تمهان نُون هيڪ چڪر رُگا ختم ڪرڻ کپَي۔
 about-playbook-how-record-content-5 = </accuracyLink> بڌِيڪ ڏيکا تہ جُون صحِيح معيار هُوَي <accuracyLink>
