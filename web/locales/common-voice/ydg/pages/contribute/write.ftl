@@ -38,6 +38,8 @@ news_current_affairs = خبرے اڤن حالاتِ حاضرہ
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی اڤن رابوٹ
 sentence-variant-select-label = جملغّف مختلف شکل
+sentence-variant-select-placeholder = یو قسم غورا (اختیاری)
+sentence-variant-select-multiple-variants = عام زبان/ جاہند قسم
 
 ## BULK SUBMISSION
 
