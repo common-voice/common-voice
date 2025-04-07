@@ -31,3 +31,4 @@ demo-listen-subtitle = حصو ليڻ ھارو تيار ھو؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = زاتِي ڊيش بورڊ ٿونيَ ݾڪليَ ھان برادري رِي ترقي ھون اپ ڊيٽ راکيَ ھيَ۔
