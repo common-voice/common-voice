@@ -347,3 +347,5 @@ not-available-abbreviation = این / اے
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>ہمکُو جرورت</mark><br/> ہے<mark>آپ کی مدد!</mark>
