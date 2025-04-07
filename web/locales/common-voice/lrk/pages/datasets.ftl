@@ -11,3 +11,16 @@ datasets-positioning =
 datasets-speech-bubble-content = دلچسپ خبرون! بي ساخته تقرير آوي رهي هي! اپڊيٽس ھارو امو ري ڀير رهيو ھين تازي معلومات ھارو امو ري <discordLink>Discord</discordLink> ني ضرور چيڪ ڪرو. چ.
 language = ٻولي
 download-dataset-header = ڊيٽا سيٽ ڊائون لوڊ ڪرو
+download-delta-explainer = امي ڪوئي تبديليون ڪري ھي. ڊيلٽا حصو صرف آخري رليز مون ليئين سڀ مون تازي ڪلپس تي دارومدار ھي. <deltaLink>اي ڪوم بابت وڌيڪ پڙهو</deltaLink>.
+download-dataset-tag = مطلوب ٻولي ڊيٽا سيٽ چونڊو ھين نسخو چونڊو جي تمي ڊائون لوڊ ڪروُ چاھو ھون.
+# File size in gigabytes
+size = ماپ
+validated-hr-total = تصديق ھويوڙي ڪوئي ڪلاڪ.
+overall-hr-total = مجموعي طور ڪُوئي ڪلاڪ.
+cv-license = لائسنس
+audio-format = آڊيو شڪل
+dataset-splits = وراياڙا (عمر ۽ جنس)
+number-of-voices = آوازو رو تعداد
+splits = ويراوُ
+email-to-download = ڊائون لوڊ ڪريا ھارو اي ميل داخل ڪرو
+why-email = <b>اي ميل رو؟</b> امو ني شايد تمو مون مستقبل ۾ ڊيٽا سيٽ ۾ تبديليو ري بارا ۾ رابطو ڪروُ  پڙئي، ايڪ اي ميل امو ني رابطا رو ايڪ نقطو دي ھي.
