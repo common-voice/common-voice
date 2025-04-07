@@ -17,6 +17,7 @@ recorded-clips = ریکارڈ ݰیغو آوازے
 validated-clips = تصدیق ݰیغو آوازے
 total-approved = تمام منظو ݰیغے
 overall-accuracy = مجموعی درستگی
+show-ranking = ڤے من درجو نیݰاݱ
 
 ## Custom Goals
 

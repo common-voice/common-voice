@@ -307,12 +307,20 @@ zh-CN = چینی
 zh-HK = چینی (ہانگ کانگ)
 zh-TW = چینی (تائیوان)
 zu = زُلُو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروپھائل
+help = مدد
+contact = سمپرک
+privacy = بھیدؔی
+terms = سرتاں
+cookies = پکاوݨا
+faq = سادھارݨ سے سُئال
 
 ## Donate banner
 
