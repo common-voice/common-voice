@@ -79,6 +79,11 @@ small-batch-response-message =
             جملا ڀيۯا ٿل { $uploadedSentences } آنئين { $totalSentences } آنئين ڪلڪ ڪرو 
             زي جملا رد ٿئي جھا سي <downloadLink>آنئين</downloadLink> ڪلڪ ڪرو
     }
+small-batch-sentences-rule-1 = هدايت نين زوئو، مون چيئا جملا جمع ڪرِي ڪُون سُون؟
+small-batch-sentences-rule-2 = لينڻ پرماڻي ايڪ جملو ٺاهو
+small-batch-sentences-rule-3 = ايڪ لينڻ مان الڳ جملا هارو انٽر ۮٻاوو، يان واپس زو
+small-batch-sentences-rule-4 = ايڪ 1000 هوڌي جملا جمع ڪرو
+small-batch-sentences-rule-5 = ٻڌائي جُملا علاقائي ضروري سي
 
 ## MENU ITEM TOOLTIPS
 
