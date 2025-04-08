@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = پے حصو غوردا دیر رہنمائی
+guidelines-header-subtitle = ڤزانا دے کامن وائس ڈیٹا سیٹ ڤے جملغف اڤن ڤے کوګ آوازف چیمی کینت جمع کینتے اڤن تصدیق کینتے
 voice-collection = آواز بڑیڅڤدا
 sentence-collection = جملغّے بڑیڅڤدا
 question-collection = سوالف مجموعہ
