@@ -13,7 +13,7 @@ goal-help-recording = Tó mi ji lɔ, gbeshiagbe tadojinu tche yí le Common Vo
 goal-help-validation = To mi ji lɔ, Common voice, gbeshiagbe tadojinu tche yí le Common Voice shi<goalPercentage><goalPercentage> sɔ kuɖe ashidada de enyɔwo jí lɔ́ kpɔ yi me vava.
 contribute-more = misɔ gbe agbe wɔ wu hunua?
 speak-empty-state = Mi  ɖegbe ɖo ŋyɔgbe dewo ale ɖé egbe ceɖetɔ me o.
-no-sentences-for-variants = ɖewotɔ le miogbeɔ me lɔ:::........
+no-sentences-for-variants = ɖewotɔ egbeɛlɔze ce yi mido kɔ de gbe ɖo nyɔgbewo. Ne da do nuxu nɔ mi lɔ̀, miateŋ gbe trɔashi le nuwo ŋu né nyɔgbebuwo atéŋ zé le gbelɔ me.
 
 ## Reporting
 
