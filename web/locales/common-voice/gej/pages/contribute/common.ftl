@@ -110,3 +110,5 @@ contribution-varying-pronunciations-example-2-explanation =  wo yɔna « sandwi
 contribution-background-noise-example-2-explanation = wo ma téŋu sè nuŋɔ̀ŋlɔ a bé akpaɖé o.
 contribution-background-voices-example-1-explanation = gbè bu ɖì bé wò gbɔ̃̀nà a.
 contribution-volume-title = gbè
+contribution-reader-effects-description = eji eji lè nyàlélégbogboɖéwo mè a,  àmèwo pònà nupo ku woa  ŋutɔ woa bé jɔ̀jɔ̌mègběwo. vlàvo a wò lǎ téŋu tàsi nyàléléɖé kè mu lè ɖoɖo a nu o vɔ̀ do apá alo kè be gbè ɖíɖí ŋutɔ alo kè mu to o a, vɔ̀ a wó zã kâtatagbè sɔ wɔɛ. mí ɖè kuku tàsi nyàléléwo kè wó sɔ́ hàjìgbèwo alo  àɖàŋuɖèmɔ̌gbé wɔ̀.
+contribution-just-unsure-title = wò mu le  kã ɖo éji o a/ wò lě vɔ̃́ a.

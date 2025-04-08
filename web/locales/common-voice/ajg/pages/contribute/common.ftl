@@ -49,7 +49,11 @@ report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋ
 report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
 report-difficult-pronounce-detail = enyɔkpe kuɖo enyɔgbe ɖekawo gbɔnu yɔyɔ
 report-offensive-speech = enyɔveame , enyɔdabiameŋuwo
-report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le enyɔsesetɔxɛlɔme
+report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le enyɔleletɔxɛlɔme
+report-other-comment =
+    .placeholder = numeɖeɖe
+success = ŋjejekpɔkpɔ le dɔwɔwɔme
+continue = ayiji
 
 ## Speak & Listen Shortcuts
 
