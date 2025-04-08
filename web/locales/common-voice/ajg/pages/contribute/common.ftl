@@ -129,3 +129,4 @@ contribution-background-noise-description-extended = Né enyɔleleɔ cucu alo c
 contribution-background-noise-example-1-fixed-title = <strong>ŋɔcitrantranɖo</strong> dinozɔri jɔasuwo<strong>ekpɛn</strong> Trias
 contribution-background-noise-example-2-fixed-title = dinozɔru jɔasu<strong> ekpɛn</strong> Trias lɔ
 contribution-background-noise-example-2-explanation = wo da téŋ se nyɔɖoanyiɛ kpaɖeka o
+contribution-background-noise-example-3-fixed-title = <strong> gbanggban
