@@ -22,6 +22,9 @@ new-sentence-rule-4 = سهي هجي هانَ زير زبر سهي هوئي
 new-sentence-rule-5 = نمبر هانَ خاص نشاني نا هوئي
 new-sentence-rule-6 = غير ملڪي لفظ نا هوئي
 new-sentence-rule-7 = مناسب حوالو هوئي
+new-sentence-rule-8 = مثال قدرتي هانَ وات سينح ايوا جملا ڀڻوا سوَلا سي
+login-instruction-multiple-sentences = <loginLink> لوگ اِن </loginLink> or <loginLink> سائين اپ </loginLink>وڌاري جملا ٺاهو
+how-to-cite = چچم حوالو آليوش؟
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
