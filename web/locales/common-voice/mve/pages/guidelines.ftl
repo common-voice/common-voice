@@ -13,6 +13,9 @@ offensive-content = نا پسند مواد
 background-noise = لارلو هُل
 background-voices = لارليَ آوازون
 volume = آواز
+reader-effects = پڙهڻ آݪي را اسر
+just-unsure = مھنيَ يقِين ڪونھي
+example = مسال
 
 ## Voice collection sidebar content
 
