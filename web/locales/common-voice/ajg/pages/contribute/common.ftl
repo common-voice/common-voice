@@ -46,6 +46,9 @@ report-grammar-or-spelling = gbeŋutisévodawo/gbeŋɔŋlɔtisevodada
 report-grammar-or-spelling-detail = gbeŋutisévodada alo gbeŋɔŋlɔtisevodada ɖeka le nyɔgbelɔme
 report-different-language = egbebu
 report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋyitɔ me
+report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
+report-difficult-pronounce-detail = enyɔkpe kuɖo enyɔgbe ɖekawo gbɔnu yɔyɔ
+report-offensive-speech = enyɔ dabiameŋu
 
 ## Speak & Listen Shortcuts
 

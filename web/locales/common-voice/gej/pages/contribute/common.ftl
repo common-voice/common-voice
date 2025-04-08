@@ -105,4 +105,4 @@ contribution-misreadings-example-5-title = sɔ̀ mè la nyɔ́ kpoe
 contribution-varying-pronunciations-title = nuyɔyɔ kèwo to vò.
 contribution-varying-pronunciations-description-extended = vɔ̀ a né  wò kpɔ bé nuhlɛ̃̀tɔ a mu dó gò nyàti a kpɔ va yì sã o yé be lě jè àgbàgbà bé yè a na yɔ̌yɔnyɔɛtɔ a,  mu gbà  sɔ̀ nyàlélé a sɔ wɔ̀ dɔ o. Né  wò  mu kã ɖo éji  o a, zã̌ vǎ yì lɔ̀vi a.
 contribution-varying-pronunciations-example-1-title = Wagon bé yɔyɔ sɔ̀gbè né wò sè  [vagɔ̃] alo [wagɔ̃]
-contribution-varying-pronunciations-example-1-explanation = { "" }
+contribution-varying-pronunciations-example-1-explanation = Wagon bé yɔyɔ sɔ̀gbè né wò sè  [vagɔ̃] alo [wagɔ̃]
