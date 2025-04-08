@@ -20,8 +20,8 @@ record-button-label = mile mio gbe
 share-title-new = mikpe de mi ŋu ne miagbe kpɔ gbe yeyúbuwo
 keep-track-profile = do tɔwo ŋkɔyiyi kpɔ tó nɔnɔme ɖeɖefia ɖeká me
 login-to-get-started = minɔ kame alo miŋlɔ ŋkɔ ne miasɔ tɔ́jí
-target-segment-first-card = miwo nyi......
-target-segment-generic-card = miwo nyi.............
+target-segment-first-card = minyɔ fu do egbe ŋkɔtɔ ci yi me can me
+target-segment-generic-card = minyɔ fu do egbe ɖeka ci wo can ŋkɔyiyi me
 target-segment-first-banner = mikpedémiŋú ne......
 target-segment-add-voice = mikɔ gbe yi ji
 target-segment-learn-more = miji a se nu gɔme sugbɔ
@@ -38,7 +38,7 @@ submit-form-action = sɔ ɖo ɖa
 ## Reporting
 
 report = nu, na kaklan
-report-title = asɔ enyɔleɖi ɖo ɖa
+report-title = asɔ egbeɖoɖo  ɖaɖa
 report-ask = kuxi kene hanɖewo yí midogo le nyɔgbe ceɖe ŋu o
 report-offensive-language = amemabumabugbe
 report-offensive-language-detail = amemabumabu alo ezu le nyɔgbe lɔwo me
