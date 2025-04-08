@@ -1,5 +1,7 @@
 ## WRITE PAGE
 
+write = لکو
+write-instruction = علاقائي جملا جمع ڪرو
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
@@ -84,9 +86,22 @@ small-batch-sentences-rule-2 = لينڻ پرماڻي ايڪ جملو ٺاهو
 small-batch-sentences-rule-3 = ايڪ لينڻ مان الڳ جملا هارو انٽر ۮٻاوو، يان واپس زو
 small-batch-sentences-rule-4 = ايڪ 1000 هوڌي جملا جمع ڪرو
 small-batch-sentences-rule-5 = ٻڌائي جُملا علاقائي ضروري سي
+small-batch-sentences-rule-6 = ٻڌائي حوالا پرماڻي جُملا هوئي
+# menu item
+add-sentences = جملا جمع ڪرو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملا جمع ڪرو هانَ وراي زوئو، سوال ٺاهو آڊيو ني نقل ٺاهو
+add-sentences-menu-item-tooltip = پوتان نِي ٻولي مان جملا جمع ڪرو
+review-sentences-menu-item-tooltip = پوتاني ني ٻولي واۯا جملان نين وري زوئو
+add-questions-menu-item-tooltip = پوتان ني ٻولي مان سوال ٺاهو
+transcribe-audio-menu-item-tooltip = پوتان ني ٻولي مان آڊيو رڪاڊنگ ڪرو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = فهرست لکو
+add-sentences-menu-item-aria-label = برادري نين ڀڻيا هارو نوا جملا ٺاهو
+review-sentences-menu-item-aria-label = دوهرائي ميلنَ برادري پرماڻي جملا پيش ڪرو
+add-questions-menu-item-aria-label = برادري هارو نوا جملا ٺاهو ڪي او ڀڻي ڪي
+transcribe-audio-menu-item-aria-label = حوالا مان آڊيو رڪارڊنگ ڪرو
