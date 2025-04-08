@@ -97,4 +97,5 @@ contribution-criteria-page-title = alɔdodofɔɖedewo
 contribution-criteria-page-description = seme be eɖoa ɖoto enyɔlelɛwo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
 contribution-for-example = le kpɔɖeŋu me
 contribution-misreadings-title = nuhlinhlin vodadawo
-contribution-misreadings-description = le tɔwonyɔwo seseme lɔ, lé susu dé enyɔlelewo ŋú kpɔbe wosɔ kuɖo enuŋɔŋlɔŋú ma;;
+contribution-misreadings-description = le tɔwonyɔwo seseme lɔ, lé susu dé enyɔlelewo ŋú kpɔbe wosɔ kuɖo enuŋɔŋlɔlɔwo ŋú ma ; ne gbe nyi vodada swɛwo yí wo nyí can, tashi wo. <br />  Vodada cewo yi bɔ́nɔ́ ke :
+contribution-misreadings-description-extended-list-1 = e kpɔtɔ <strong><strong>deka</strong>alo<strong> ɛ, lɔ»</strong> le enyɔgbeɛ tɔtɔjí me
