@@ -41,6 +41,24 @@ too-many-files = فائيلون الاهي وڌاري سي
 small-batch-instruction = مختلف عوام هارو جملا جمع ڪرو
 multiple-sentences-error = ايڪ زڻو پيش ڪريا واۯو وڌاري جملا وا ڳڏاوي
 exceeds-small-batch-limit-error = 1000 ٿي واڌاري جملا نا پيش ڪرو
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] 1۔ شرح ني حد وڌي تو 1 منٽ مان ڪوشش ڪرو
+       *[other] 2۔ شرح ني حد وڌي تو ٽيم وڌاو هان ڪوشش ڪرو
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] 1۔ شرح ني حد وڌي تو 1 منٽ مان ڪوشش ڪرو
+       *[other] 2۔ شرح ني حد وڌي تو ٽيم وڌاو هان ڪوشش ڪرو
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] 1۔ تمين جمع ڪريا ني حڌ هوڌي پوتي جھا سو تو  جمع ڪريا ٿي مور مهرباني ڪرينَ ايڪ منٽ هارو  واٽ زوو ڪي مورٿي ٻيزا نا جمع هوئي۔ صبر ڪريا هارو مهرباني۔ تمين آ پنا ني حد هوڌي پوتي جها سو۔ ٻيزا پنا نِي حد هوڌي پوتيا هارو ڪانڪ منٽ صبر ڪرو۔ زيٽلا هوڌي ٻيزا جملا جمع نا ٿائي۔ تمار صبر هارو مهرباني
+       *[other] 2، مثال۔  ٻيزا جملا ني حد هارو وري ڪوشش ڪرو۔ تمارا صبر هارو مهرباني
+    }
 
 ## MENU ITEM TOOLTIPS
 
