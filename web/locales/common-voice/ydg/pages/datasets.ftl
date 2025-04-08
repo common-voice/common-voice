@@ -24,3 +24,8 @@ validated-hours = کل تصدیق شدہ گھنٹائی
 recorded-hours = ریکارڈ ݰیغو گھنٹہ
 whats-inside = نے کامن وائس ڈیٹاسیٹ ملن څیمین استت’؟
 subscribe = سبسکرائب
+other-datasets = دیر وائس ڈیٹاسیٹ
+feedback-q = تبصرو کینیتیآ؟
+# This indicates that there is no data to display
+no-information = معلوماتے چش
+community-playbook = کمیونٹی پلے بک
