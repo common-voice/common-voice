@@ -21,6 +21,11 @@ show-ranking = ڤے من درجو نیݰاݱ
 
 ## Custom Goals
 
+get-started-goals = ڤے اہدافف دے اپیر واست شروع کن
+create-custom-goal = دے خوئے مرضی ہدف واست
+goal-type = تو دے څس قسم ہدف اوستایا کوسیتے؟
+both-speak-and-listen = اَبیلئی
+both-speak-and-listen-long = ڤے ابیلیف (ݱا اڤن غولار)
 
 ## Goals
 
