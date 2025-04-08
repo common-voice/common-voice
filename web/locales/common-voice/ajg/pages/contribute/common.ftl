@@ -23,6 +23,15 @@ login-to-get-started = minɔ kame alo miŋlɔ ŋkɔ ne miasɔ tɔ́jí
 target-segment-first-card = miwo nyi......
 target-segment-generic-card = miwo nyi.............
 target-segment-first-banner = mikpedémiŋú ne......
+target-segment-add-voice = mikɔ gbe yi ji
+target-segment-learn-more = miji a se nu gɔme sugbɔ
+change-preferences = trɔ ashi le nu jɔjinamewo ŋú
+login-signup = miɖo kame alo miŋlɔ ŋkɔ
+vote-yes = ɛɛ
+vote-no = oo
+datasets = ...........
+languages = egbewo
+about = sɔ kuɖe
 
 ## Reporting
 

@@ -79,6 +79,12 @@ citing-sentences-subheader-academic-reference-explanation =
     تمين تعاليمِي حوالا وارون انڌاز اِستمال ڪرِي ۿڳو سو مِثال طور هارورڍ موزيلا 2021 ڪامنَ وائيس۔ 
     https://commonvoice.mozilla.org/ماٿيَ ڌستياٻ سي (پوڄا: 15 سيپٽمڀر 2021)
 citing-sentences-subheader-offline-sources = آپ لائينَ زريعا
+citing-sentences-subheader-offline-sources-explanation = پبلِڪ ڍومينَ متنَ ۿارُو زين آنَ لئينَ ڌستياٻ سي، تمين تعاليمِي حوالا وارون انڌاز اِستمال ڪرِي ۿڳو سو مِثال طور هارورڍ نون انڌاز "جھيس2021 ماران پبلِڪ ليسڻ واران نظم"
+citation =
+    .label = حوالو
+self-citation = پوتا نو حوالو
+self-citation-explanation = زو تمين پوتيَ مواڌ لڇو سي تو تمين پوتا نو حوالو آويَ نمونيَ ٿِي ۮشو۔
+adding-sentences-subheader-length = لنٻائِي
 
 ## Question collection ids
 
