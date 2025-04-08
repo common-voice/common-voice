@@ -118,3 +118,5 @@ contribution-misreadings-example-8-title = enuzozroɔ só
 contribution-misreadings-example-8-explanation = egbeɖoɖo manɔme
 contribution-varying-pronunciations-title = yɔyɔ vovowo
 contribution-varying-pronunciations-description = yi ewoɖokime nyuieɖe gbɔxoe agbe enyɔ ce yí nu hlɛntɔ ɖewotɔ de yɔ nyuieɖe sɔ kuɖo lablɔɖegbeɖiɖi xokpliwo  ŋú alo biɔbiɔjeshi. ŋɔŋlɔbe ŋú. Le xexeɛme lɔ, yɔyɔ sugbɔwo lɛ ce yí ɖewotɔ desekpɔ le tɔwo jume kpɔ o. ɖo tɔxu ɖéká né na de jeshi amecewo gbe to vo nɔ tɔwo
+contribution-varying-pronunciations-description-extended = vɔ ne nyi ekpɔ bé nuhlɛntɔlɔ dé nya nyɔkpe lɔ alo ekpaɛ yɔ lɔ, eɖoa tashi nyɔlélélɔ́. Vɔ né de kan dé jí lɔ́, nazan jeshi ce yi nyí vayi
+contribution-varying-pronunciations-example-1-title = pipan lɔ dɔnkɔ egu sugbɔ
