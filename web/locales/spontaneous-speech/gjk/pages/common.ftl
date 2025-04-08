@@ -30,7 +30,11 @@ request-new-language = نوِي ٻولِي نِي ڌرخواست ڄو
 ## Navbar
 
 respond-to-prompt = زٻاپ
+transcribe = اُوتار ڪروون ڪان نقل ڪروون
 check-transcriptions = جائزو ليوو
+question = سوال
 
 ## Not Found Page
 
+not-found-page-header = نا زڙيون
+not-found-page-content = تمين زين صفع نين ڳوتو سو ريا، اِي نا زڙيو

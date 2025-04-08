@@ -124,3 +124,5 @@ contribution-varying-pronunciations-example-1-explanation = «Wagon» yɔyɔ lé
 contribution-varying-pronunciations-example-2-title = bɔta caka janbɔnlancucu
 contribution-varying-pronunciations-example-2-explanation = « sandwich» le fansegbeme nyí nu yɔyɔ ɖeká, de nyí ameve o
 contribution-background-noise-title = axwa citócitó
+contribution-background-noise-description = á nyɔbé nusɔsrɔn le akɔntabubumɔnwo ŋú ne tekpɔ á do jeshi axwa citocito vovovo ŋu.Ateŋ wɔdɔ lé axwa cewo yí sɛŋu wɛɖeka me ne dá xé mɔ nɔ enyɔɖoanyiɛ pléŋ sese o. a téŋ wɔdɔ ne hajijigbe ɖi kɔ fafa ɖe;  vɔ né é dá xwá sugbɔ lɔ, ágbɔnu
+contribution-background-noise-description-extended = Né enyɔleleɔ cucu alo caka lɔ, dashi negbe né nyaɖoanyilɔ a do wo ji
