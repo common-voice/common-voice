@@ -63,6 +63,10 @@ sc-bulk-upload-header = دے عام آدمف دائرو استعمال ݰویا 
 sc-bulk-upload-instruction = ڤے خوئے فائل مولو لیغان یا <uploadButton> پے اپلوڈ دیر سارو ڤزیب</uploadButton>
 sc-bulk-upload-instruction-drop = ڤے فائل پے اپلوڈ دیر مولو لیغان
 bulk-upload-additional-information = دے فائل باری دیر ام معلوماتے کہ دلیتے مہربانی کن مولو نوشا<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = ڤے خوئے فائل مولو لیغان دیبارو کوشش کن
+try-upload-again-md = دیبارو اپلوڈ کڑان کوشش کن
+select-file = فائل منتخب کن
+select-file-mobile = اپلوڈ پے کڑان دیر فائل منتخب کن
 
 ## SMALL BATCH SUBMISSION
 
