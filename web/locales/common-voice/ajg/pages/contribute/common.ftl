@@ -29,10 +29,10 @@ change-preferences = trɔ ashi le nu jɔjinamewo ŋú
 login-signup = miɖo kame alo miŋlɔ ŋkɔ
 vote-yes = ɛɛ
 vote-no = oo
-datasets = ...........
+datasets = Nuxuwo nɔxu
 languages = egbewo
 about = sɔ kuɖe
-partner = kadodo
+partner = gbeɖoju/ alɔdoalɔme
 submit-form-action = sɔ ɖo ɖa
 
 ## Reporting
