@@ -37,6 +37,7 @@ submit-form-action = sɔ ɖo ɖa
 
 ## Reporting
 
+report = do ajigban, ɖe fia, asámá, do jeshi
 
 ## Speak & Listen Shortcuts
 

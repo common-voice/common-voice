@@ -89,6 +89,8 @@ adding-sentences-subheader-length-explanation = جُملو 15 لڦظان ٿِي 
 adding-sentences-subheader-spelling-punctuation = هجيَ انين زير زڀر نان نيشانَ
 adding-sentences-subheader-spelling-punctuation-explanation = جُملو لازمِي سئِي هِجيَ ٿل هوئيَ۔
 adding-sentences-subheader-speakable = ٻولِيا لائيق
+adding-sentences-subheader-speakable-explanation = بيۿترينَ جُملا قُۮرتِي انين وات وڳ وارا هوئيَ سي۔ اِي ڪونئين ۿارُو ڀڻيا مان آسانَ هوئيَ۔ زيم ڪيَ صوتياتي تنوع انين جُملان ڦرق ڦرق لڦط ايۿم هوئيَ سي۔ امين پڻ ڪوشيش ڪريئين سيئين ريا ڪي رِڪارڍينڳ ٿل جُملان نين امارِي رضاڪار ڀِراڌرِي ۿارُو مُمڪِنَ حڌ ۿوُڌِي ڌيلچسپ انين مزيۮار ٻناويئين
+adding-sentences-subheader-numbers = نمڀر
 
 ## Question collection ids
 
