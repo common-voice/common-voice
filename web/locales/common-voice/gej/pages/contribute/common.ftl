@@ -1,7 +1,7 @@
 action-click = tɔ àlɔvi nú ji
 action-tap = né nɔ̀nɔ̀mèɖé do ŋùkumè ɖo ɖa ye wò kpɔ́ bé sédodo wãwo ma dɔ̃ ji wò a, zã̌ àɖàŋù. né wò  mu nya lékè wò lǎ wɔ̀ tutu o a, zĩ̌ bùtɔ̃  " vǎ yì" ji  né a jè nyàlélé kè gbɔ̃̀nà ji.
 contribute = dó àlɔ àmè / kpé ɖo amè ŋuti
-review = kù nu mè kpɔ / glò nu mè kpɔ
+review = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 skip = va yi
 shortcuts = mɔsɔ̀sɔ̀ɛwo
 goal-help-recording = wò ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè. a
@@ -33,7 +33,7 @@ submit-form-action = sɔ nú ɖó ɖa.
 ## Reporting
 
 report = gblɔ̃̀ nyà ɖo ɖa.
-report-title = wɔ̀ xoma ɖo ɖa.
+report-title = ŋlɔ̀ nu ɖo ɖa.
 report-ask = tagbã kɛwo mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo mì lě ɖo  sɔ kùɖo nyàgbè kèya ŋúti o.
 report-offensive-language = gbɔɖìàmènyàwo/ kplamàsenyàwo/ àmèmàbùmàbǔgbèwo.
 report-offensive-language-detail = gbɔɖìamènyǎwo lè nyàgbè a mè/ èzũ̀wo lè nyàgbè a mè.
@@ -42,7 +42,7 @@ report-grammar-or-spelling-detail = gbèŋutisègbàdàdǎ lè  nyàgbè a m�
 report-different-language = gbè bu.
 report-different-language-detail = wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dona a mè.
 report-difficult-pronounce = kè sɛ̃ŋu bé wo a yɔ a.
-report-difficult-pronounce-detail = nyàɖéwo alo nyàgbèɖewo bé yɔyɔ alo hɛ̃̀hlɛ̃̌ sɛ̃ŋú
+report-difficult-pronounce-detail = nyàɖéwo alo nyàgbèɖewo bé yɔyɔ alo hɛ̃̀hlɛ̃̌ sɛ̃ŋú.
 report-offensive-speech = nyàvéamè/ gbɔɖìamènyà.
 report-offensive-speech-detail = gbɔɖìamènyawo alo èzũ̀wo lè nyàlélé a mè.
 report-other-comment =

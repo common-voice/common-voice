@@ -43,3 +43,8 @@ sha256-checksum-copied = SHA256 چیکسم کاپی ݰوئے!
 sha256-checksum-copied-error = SHA256 چیکسم کاپی چے ݰوئے
 clipboard-not-supported = کلپ بورڈ سپوٹ چے کیتے
 no-information-available = معلوماتے دستیاب چش
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تے ڈیٹا سیٹ ڈاؤن لوڈ ایتے!
+dataset-donate-modal-heading = نَتو معلومآ...
