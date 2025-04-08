@@ -109,3 +109,8 @@ domain-explanation = Il dominio si riferisce all’argomento della frase. Al mom
 
 ## Question collection sidebar content
 
+easy-to-understand = Facile da capire
+easy-to-understand-explanation = Scegli domande semplici che siano facilmente comprensibili a chiunque, indipendentemente dalla cultura o dal contesto.
+spelling-and-pronunciation = Ortografia e punteggiatura
+spelling-and-pronunciation-explanation = Utilizza ortografia e grammatica corrette.
+length = Lunghezza

@@ -48,8 +48,8 @@ report-different-language = egbebu
 report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋyitɔ me
 report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
 report-difficult-pronounce-detail = enyɔkpe kuɖo enyɔgbe ɖekawo gbɔnu yɔyɔ
-report-offensive-speech = enyɔ dabiameŋu
-report-offensive-speech-detail = enyɔsesetɔxɛɔ
+report-offensive-speech = enyɔveame , enyɔdabiameŋuwo
+report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le enyɔsesetɔxɛlɔme
 
 ## Speak & Listen Shortcuts
 
