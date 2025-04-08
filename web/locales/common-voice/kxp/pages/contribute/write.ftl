@@ -39,6 +39,8 @@ too-many-files = فائيلون الاهي وڌاري سي
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = مختلف عوام هارو جملا جمع ڪرو
+multiple-sentences-error = ايڪ زڻو پيش ڪريا واۯو وڌاري جملا وا ڳڏاوي
+exceeds-small-batch-limit-error = 1000 ٿي واڌاري جملا نا پيش ڪرو
 
 ## MENU ITEM TOOLTIPS
 
