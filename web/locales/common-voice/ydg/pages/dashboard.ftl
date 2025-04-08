@@ -33,6 +33,8 @@ average-difficulty = اوسط
 difficult-difficulty = مشکل/ گران
 pro-difficulty = حامی
 lose-goal-progress-warning = ڤے خوئے ہدف کہ بدل کڑیت، تو ہورغ گیب ام ای۔
+want-to-continue = تو جاری اوستایا کوسیتیآ؟
+finish-editing = اول ڤے ایڈیٹنگ ناسے نینآ؟
 
 ## Goals
 
