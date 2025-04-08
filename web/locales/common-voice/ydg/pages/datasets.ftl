@@ -22,3 +22,4 @@ confirm-join-mailing-list = تو دے کامن وائس دے رابطہ فہرس
 download-language = ڈاؤن لوڈ { $language }
 validated-hours = کل تصدیق شدہ گھنٹائی
 recorded-hours = ریکارڈ ݰیغو گھنٹہ
+whats-inside = نے کامن وائس ڈیٹاسیٹ ملن څیمین استت’؟
