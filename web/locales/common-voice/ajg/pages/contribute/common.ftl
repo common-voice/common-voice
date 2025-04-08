@@ -136,5 +136,5 @@ contribution-background-voices-description-extended = Né enyɔleleɔ cucu alo 
 contribution-background-voices-example-1-title = Trias dinosɔru jɔasuwo.<strong> xlɛnxlɛn tutugbantɔ</strong>
 contribution-background-voices-example-1-explanation = a va a<strong> xlɛnxlɛn kuɖo egbe bu</strong>
 contribution-volume-title = gbeɖiɖi
-contribution-volume-description = gbeɖidi nɔ tɔxuwo hame hamewo zénɔ le nuxlɛtɔwo gbɔ
+contribution-volume-description = gbeɖidi nɔ tɔxuwo hame hamewo zénɔ le nuxlɛtɔwo gbɔ. Ne nyí gbeɖiɖiɛ yi ji sugbɔ alo so lɔ, alo ne nyi bé é yi gɔme sugbɔ yi ́ wo da téŋ se enyɔwo nuieɖe lɔ, yi wo de téŋ de jeshi le nuŋɔŋlɔ me ɔ gahunume yí aɖashi ɖɛ ne
 contribution-reader-effects-title = gbeɖiɖiwo kudo nuwɔna ɖiɖiwo
