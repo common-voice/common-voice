@@ -15,9 +15,22 @@ contribution-picker-tooltip-text = اِي ٻولِي نو ڍيٽا سيٽ تبد
 change = تبديل ڪرو
 coming-soon = وڌِيڪ ٻوليون زٽ آوي سي ريون
 media-recorder-api-not-supported = ميڍيا رڪورڍر اي  پِي آئِي تمارا برائوزر مان سپورٽ نٿِي ڪرتِي۔
+# Toast message that is displayed when an item is skipped
+skipped = ميلِي ۮيوون
+audioplayer-header = ۿانڀروون
+guidelines = استعمال ڪريا نو طريقو
+# For the button to report an item
+report-button = رپورٽ
+# For the button to skip an item
+skip-button = ميلي ڄو
+submit-button = جمع ڪراوو
+contribute = حصو ليوو
+request-new-language = نوِي ٻولِي نِي ڌرخواست ڄو
 
 ## Navbar
 
+respond-to-prompt = زٻاپ
+check-transcriptions = جائزو ليوو
 
 ## Not Found Page
 
