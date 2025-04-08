@@ -18,6 +18,7 @@ speak-empty-state-cta = miɖe nyɔgbebuwo ɖé go
 speak-loading-error = miɖetéŋ gbe kpɔ nyɔgbebuwo ayɔ o. Migbugbɔ atikpɔ gabuji
 record-button-label = mile mio gbe
 share-title-new = mikpe de mi ŋu ne miagbe kpɔ gbe yeyúbuwo
+keep-track-profile = do tɔwo ŋkɔyiyi kpɔ tó nɔnɔme ɖeɖefia ɖeká me
 
 ## Reporting
 
