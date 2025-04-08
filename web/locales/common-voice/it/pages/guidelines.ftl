@@ -106,9 +106,11 @@ domain-explanation = Il dominio si riferisce all’argomento della frase. Al mom
 
 ## Question collection ids
 
+adding-questions = Aggiungere domande
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
 easy-to-understand = Facile da capire
 easy-to-understand-explanation = Scegli domande semplici che siano facilmente comprensibili a chiunque, indipendentemente dalla cultura o dal contesto.
 spelling-and-pronunciation = Ortografia e punteggiatura

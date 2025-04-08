@@ -69,6 +69,10 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = á le nyɔ dɛ/ á tɔ te
 shortcut-rerecord-toggle = so ɖeka yí atɔn
 shortcut-rerecord-toggle-label = á trɔ lé nyɔ
+shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucucu, alɔmekaxomɔnucucu
+shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji
+shortcut-submit = ɖo me
+shortcut-submit-label = sɔ enyɔleléwo ɖaɖa
 
 ## Listen Shortcuts
 
