@@ -1,3 +1,5 @@
+# Age and Gender form
+age-gender-form-title = Cảm ơn bạn đã đóng góp cho tính năng Spontaneous Speech!
 age-gender-form-subtile = Bằng việc cho chúng tôi biết về bạn, bạn sẽ giúp các lập trình viên xây dựng công nghệ toàn diện hơn
 add-information-button = Thêm thông tin
 continue-speaking-button = Tiếp tục nói

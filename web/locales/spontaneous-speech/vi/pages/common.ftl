@@ -4,9 +4,13 @@
 error = Lỗi
 action-click = Nhấp vào
 action-tap = Chạm
+# Label for language switcher
+platform-language = Ngôn ngữ nền tảng
+platform-language-tooltip-text = Chỉ thay đổi văn bản trang web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Đóng góp vào tập dữ liệu cho { $language }
+contribution-picker-tooltip-text = Thay đổi tập dữ liệu ngôn ngữ mà bạn đang đóng góp
 # Label for button on contribution switcher
 change = Thay đổi
 coming-soon = Sắp có thêm nhiều ngôn ngữ
@@ -21,9 +25,13 @@ report-button = Báo cáo
 skip-button = Bỏ qua
 submit-button = Gửi
 contribute = Đóng góp
+request-new-language = Yêu cầu ngôn ngữ mới
 
 ## Navbar
 
+respond-to-prompt = Trả lời
+check-transcriptions = Đánh giá
+question = Câu hỏi
 
 ## Not Found Page
 
