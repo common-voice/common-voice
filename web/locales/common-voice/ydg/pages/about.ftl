@@ -84,6 +84,8 @@ about-playbook-how-add-sentences = زو چیمی کینیم جملغّے شمل 
 
 ## How to record quality
 
+about-playbook-how-record-quality = زو غیݰے معیاری آواز چیمین کینیم ریکارڈ (پر) کینیم؟
+about-playbook-how-record-content-2 = پے چروم آواز چاغویا بݰ۔ ڤے تے گپف دے آسانی غولیتا اوئے۔
 
 ## How to grow language
 

@@ -20,6 +20,9 @@ record-button-label = mile mio gbe
 share-title-new = mikpe de mi ŋu ne miagbe kpɔ gbe yeyúbuwo
 keep-track-profile = do tɔwo ŋkɔyiyi kpɔ tó nɔnɔme ɖeɖefia ɖeká me
 login-to-get-started = minɔ kame alo miŋlɔ ŋkɔ ne miasɔ tɔ́jí
+target-segment-first-card = miwo nyi......
+target-segment-generic-card = miwo nyi.............
+target-segment-first-banner = mikpedémiŋú ne......
 
 ## Reporting
 
