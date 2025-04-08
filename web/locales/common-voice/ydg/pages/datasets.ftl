@@ -29,3 +29,6 @@ feedback-q = تبصرو کینیتیآ؟
 # This indicates that there is no data to display
 no-information = معلوماتے چش
 community-playbook = کمیونٹی پلے بک
+resource-playbook-info = <playbookLink>دے کامن وائس باری تمام رہنمائی دیم ژاغہ </playbookLink>استت۔ ترئے ملن ژے مقامی کڑان غوردے تآ دے ڈیٹاسیٹن استعمال اڤن دے ماخ کمیونٹی چیمین آغویا ای معلوماتے استت۔
+data-other-ted-name = ٹیڈ- لئیم آوازف مجموعو
+go-discourse = دے مشقولگی اوئے
