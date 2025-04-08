@@ -137,3 +137,4 @@ contribution-background-voices-example-1-title = Trias dinosɔru jɔasuwo.<stron
 contribution-background-voices-example-1-explanation = a va a<strong> xlɛnxlɛn kuɖo egbe bu</strong>
 contribution-volume-title = gbeɖiɖi
 contribution-volume-description = gbeɖidi nɔ tɔxuwo hame hamewo zénɔ le nuxlɛtɔwo gbɔ
+contribution-reader-effects-title = gbeɖiɖiwo kudo nuwɔna ɖiɖiwo
