@@ -118,3 +118,5 @@ contribution-misreadings-example-7-title = ماخ دے کوچو نے کافی ش
 contribution-misreadings-example-8-title = استر مڅھی کورمو ژے تو پیرو نیغوڑ۔
 contribution-misreadings-example-8-explanation = [بی رنگ ژینارے]
 contribution-varying-pronunciations-title = لہجہ بادل ژیا
+contribution-varying-pronunciations-description = ڤے لفظ غلط اݰٹے، دے غلط ژاغہ زور لئی یا ڤے سوالیہ نݰان چے اݰٹے، ݱا ڤے آواز ژے مسترد کڑان پیرو  اختیاط کن۔ دے دنیا چند قسمن لہجائی استت ژے یف ملنن انیمے دے تے کمیونٹی استعمال چے ݰوئے فرمے۔ مہربانی کن خو نؤ آدمف شاباشی دل کیدی کو ژے تو مختلف گپ دہاتے۔
+contribution-varying-pronunciations-example-1-title = نے خائن خولو دے پوسر ژئی ڤیو ۔
