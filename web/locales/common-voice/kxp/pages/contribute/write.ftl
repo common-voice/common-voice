@@ -2,6 +2,14 @@
 
 write = لکو
 write-instruction = علاقائي جملا جمع ڪرو
+write-page-subtitle = آئي مان شامل ڪرل جملا عوام هارو موجود لائينسس ٿل ڊيٽا مان شامل ڪريا زاشي۔
+sentence =
+    .label = جُملا
+sentence-input-placeholder = عوامِي جملا آنئين راکو
+small-batch-sentence-input-placeholder = عوامِي جملا آنئين راکو
+citation-input-placeholder = تمارا جملا نا ذريعا زي کپي سي اين نو حوالو آلو
+citation =
+    .label = حوالو آلوو
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
