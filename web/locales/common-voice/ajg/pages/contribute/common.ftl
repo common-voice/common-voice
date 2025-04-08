@@ -102,3 +102,5 @@ contribution-misreadings-description-extended-list-1 = e kpɔtɔ <strong><strong
 contribution-misreadings-description-extended-list-3 = enyɔtoɖeme cewo yi de le egbɛme donɔ́ mo ɖada shigbebe «kaɖejitɔe» le«kakaɖejitɔe» tɔxu
 contribution-misreadings-description-extended-list-4 = enyɔlele kpɛtɛlɔ vá sonɔ le nuwuwulɔ né nyí bé wo nɔ te enyɔleleɛ kaba
 contribution-misreadings-description-extended-list-5 = atekpɔ sugbɔ gbɔxoe ahlin nyɔkpe ɖeka
+contribution-misreadings-example-1-title = Trias dinozɔru jɔasuwo
+contribution-misreadings-example-2-title = Trias dinozɔru jɔasu
