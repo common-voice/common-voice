@@ -68,7 +68,7 @@ shortcut-discard-ongoing-recording = àɖàŋùɖemɔnututulɔ̀vi/ àlɔ̀mèk
 shortcut-discard-ongoing-recording-label = tutu nyàlélé kè lě yì éji a.
 shortcut-submit-label = ɖo nyàléléwo ɖo ɖa.
 request-language-text = ɖe gbè kè wò dona  mu kpɔ lè common Voice ji ò a.
-request-language-button = ná gbèɖé / yɔ gbèɖé.
+request-language-button = sɔ gbèɖé ɖo ŋùkumè na àmè.
 
 ## Listen Shortcuts
 
