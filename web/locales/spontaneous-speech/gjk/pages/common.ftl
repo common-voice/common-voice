@@ -38,3 +38,15 @@ question = سوال
 
 not-found-page-header = نا زڙيون
 not-found-page-content = تمين زين صفع نين ڳوتو سو ريا، اِي نا زڙيو
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ھون راضِي سون آم آواز نِي شرطان انين رازڌارِي نا نوٽس ٿِي۔
+# Locales
+bsy = صبع بِسايا
+cdo = فوزو
+cpx = ھينگ ھووا
+en = انگريزي ٻولي
+fr = فرانسي ٻولِي
+hch = ويڪساريڪا
+kzi = ڪلابت
+mbf = بابا ملائي
+meh = ۮکڻاۮو ٽلاسياڪو ميسٽيڪ

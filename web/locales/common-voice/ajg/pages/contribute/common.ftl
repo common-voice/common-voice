@@ -126,3 +126,6 @@ contribution-varying-pronunciations-example-2-explanation = « sandwich» le fan
 contribution-background-noise-title = axwa citócitó
 contribution-background-noise-description = á nyɔbé nusɔsrɔn le akɔntabubumɔnwo ŋú ne tekpɔ á do jeshi axwa citocito vovovo ŋu.Ateŋ wɔdɔ lé axwa cewo yí sɛŋu wɛɖeka me ne dá xé mɔ nɔ enyɔɖoanyiɛ pléŋ sese o. a téŋ wɔdɔ ne hajijigbe ɖi kɔ fafa ɖe;  vɔ né é dá xwá sugbɔ lɔ, ágbɔnu
 contribution-background-noise-description-extended = Né enyɔleleɔ cucu alo caka lɔ, dashi negbe né nyaɖoanyilɔ a do wo ji
+contribution-background-noise-example-1-fixed-title = <strong>ŋɔcitrantranɖo</strong> dinozɔri jɔasuwo<strong>ekpɛn</strong> Trias
+contribution-background-noise-example-2-fixed-title = dinozɔru jɔasu<strong> ekpɛn</strong> Trias lɔ
+contribution-background-noise-example-2-explanation = wo da téŋ se nyɔɖoanyiɛ kpaɖeka o
