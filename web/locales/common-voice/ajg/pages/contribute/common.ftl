@@ -1,6 +1,6 @@
 action-click = tɔ ashi ji
 action-tap = xo ji
-contribute = do ŋusɛ̃, kpeɖeŋu
+contribute = do ŋusɛn, kpeɖeŋu
 review = glo nu me kpɔ, ku nu me kpɔ
 skip = va yi
 shortcuts = emɔ kpokpuiwo
