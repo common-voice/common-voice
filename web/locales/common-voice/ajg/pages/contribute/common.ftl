@@ -16,6 +16,8 @@ speak-empty-state = Mi  ɖegbe ɖo ŋyɔgbe dewo ale ɖé egbe ceɖetɔ me o.
 no-sentences-for-variants = ɖewotɔ egbeɛlɔze ce yi mido kɔ de gbe ɖo nyɔgbewo. Ne da do nuxu nɔ mi lɔ̀, miateŋ gbe trɔashi le nuwo ŋu né nyɔgbebuwo atéŋ zé le gbelɔ me.
 speak-empty-state-cta = miɖe nyɔgbebuwo ɖé go
 speak-loading-error = miɖetéŋ gbe kpɔ nyɔgbebuwo ayɔ o. Migbugbɔ atikpɔ gabuji
+record-button-label = mile mio gbe
+share-title-new = mikpe de mi ŋu ne miagbe kpɔ gbe yeyúbuwo
 
 ## Reporting
 
