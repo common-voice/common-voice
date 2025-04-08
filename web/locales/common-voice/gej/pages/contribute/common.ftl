@@ -109,6 +109,7 @@ contribution-varying-pronunciations-example-1-explanation = Wagon bé yɔyɔ sɔ
 contribution-varying-pronunciations-example-2-title = jãbɔ̃sãdus ku bɔtà.
 contribution-varying-pronunciations-example-2-explanation =  wo yɔna « sandwich » sìgbè nyàtiɖèka néné,  mu  nyi sìgbè vè nèné o.
 contribution-background-noise-title = émèɖagbèɖìɖǐwo
+contribution-background-noise-description = ela  nyɔ wu  bé agoritmiazèɖèkanukpakplawo né sɔ̀gbè né woa ɖíɖí gbèɖìɖǐ vòvòvò kèwo lě ɖì lè émè ɖaa. ŋutɔ  cã wo téŋu ɖè asi  gbèɖìɖǐ kèwo sɛ̃ŋu vɔ̀ a wo mu lǎ  téŋu xe mɔ̀ ná wò bé  a sè nyàlélé awo kpata o à,  ɖè asi wo. wo mu gbé minikiɖé kè mè o, minikiɖé kè sɛ̃̀ŋu eye kè  la xe mɔ na nyàti sia nyàti sèsě wó gbè e.
 contribution-background-noise-example-2-explanation = wo ma téŋu sè nuŋɔ̀ŋlɔ a bé akpaɖé o.
 contribution-background-voices-example-1-explanation = gbè bu ɖì bé wò gbɔ̃̀nà a.
 contribution-volume-title = gbè
