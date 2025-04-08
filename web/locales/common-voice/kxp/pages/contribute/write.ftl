@@ -59,6 +59,26 @@ rate-limit-message-minutes =
         [one] 1۔ تمين جمع ڪريا ني حڌ هوڌي پوتي جھا سو تو  جمع ڪريا ٿي مور مهرباني ڪرينَ ايڪ منٽ هارو  واٽ زوو ڪي مورٿي ٻيزا نا جمع هوئي۔ صبر ڪريا هارو مهرباني۔ تمين آ پنا ني حد هوڌي پوتي جها سو۔ ٻيزا پنا نِي حد هوڌي پوتيا هارو ڪانڪ منٽ صبر ڪرو۔ زيٽلا هوڌي ٻيزا جملا جمع نا ٿائي۔ تمار صبر هارو مهرباني
        *[other] 2، مثال۔  ٻيزا جملا ني حد هارو وري ڪوشش ڪرو۔ تمارا صبر هارو مهرباني
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] 1۔ تمين جمع ڪريا ني حڌ هوڌي پوتي جھا سو تو  جمع ڪريا ٿي مور مهرباني ڪرينَ ايڪ منٽ هارو  واٽ زوو ڪي مورٿي ٻيزا نا جمع هوئي۔ صبر ڪريا هارو مهرباني۔ تمين آ پنا ني حد هوڌي پوتي جها سو۔ ٻيزا پنا نِي حد هوڌي پوتيا هارو ڪانڪ منٽ صبر ڪرو۔ زيٽلا هوڌي ٻيزا جملا جمع نا ٿائي۔ تمار صبر هارو مهرباني
+       *[other] 2، مثال۔ ٻيزي وات ڪي وڌاري جملا ني حد هوڌي پوتيا هارو تمين صبر ڪرو مهرباني
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 1۔ زي جملا ڀيۯا ڪريا سي ايئان نين اپلوڊ ڪرو
+       *[other] 2۔ مثال۔ زيٽلا پڻ جملا جملا ڪريا سي اي ٻڌائي اپلوڊ ڪرو
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1۔ زيٽلا جملا ڀيۯا ڪريا سي تو  <downloadLink>آنيئن</downloadLink> ڪلڪ ڪرو۔ ٻڌائي جملا { $uploadedSentences } آنئين { $totalSentences } ڪلڪ ڪرو
+       *[other]
+            جملا ڀيۯا ٿل { $uploadedSentences } آنئين { $totalSentences } آنئين ڪلڪ ڪرو 
+            زي جملا رد ٿئي جھا سي <downloadLink>آنئين</downloadLink> ڪلڪ ڪرو
+    }
 
 ## MENU ITEM TOOLTIPS
 
