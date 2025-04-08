@@ -280,6 +280,7 @@ tl = تگالوگ
 tn = سیٹسوانا
 tob = ٹوبہ قُم
 tok = توکی پونا
+top = پاپنتلا ٹوٹوناک
 tr = تُرکی
 ts = چیشونگ
 tt = ٹاٹر
@@ -355,3 +356,5 @@ donate-banner-cta-explanation = ڈیٹا سیٹیں کی سیوادھاری کر
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>کے نتر</mark><br/> CV کا اُپیوگ<mark>آپ کی کھوج؟</mark>
 languages-donate-banner-cta-explanation = سادھارݨ اواجا کُو دؔان اور پُونٚجیا کے جرئے چندا لیتے ہے! ہم تالیما کے ماہر، سول سوسائٹی اور انڈستریا کے کھوج کرنواڑے کا سات دؔیݨا پسند کرتے ہے. سادھارݨ اواج استعمال کرنے نتر آجاد ہے ، پݨیں پُونجی رائے کے جرِئے پلیٹ پھارم اور سیوا کے کھرچیم  حصہ دؔیوے ساچی مددگار ہے۔
+localization-select =
+    .label = ٻولیا / لوکلائزیشنا کُو چُنو
