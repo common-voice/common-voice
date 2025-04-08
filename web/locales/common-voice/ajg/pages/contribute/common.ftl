@@ -53,13 +53,22 @@ report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le enyɔleletɔxɛl
 report-other-comment =
     .placeholder = numeɖeɖe
 success = ŋjejekpɔkpɔ le dɔwɔwɔme
-continue = ayiji
+continue = yi ji
+report-success = wosɔ egbeɖoɖo  ɖaɖa nyuieɖe
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
+shortcut-record-toggle-label = á le nyɔ dɛ/ á tɔ te
+shortcut-rerecord-toggle = so ɖeka yí atɔn
+shortcut-rerecord-toggle-label = á trɔ lé nyɔ
 
 ## Listen Shortcuts
 
