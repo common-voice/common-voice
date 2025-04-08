@@ -28,9 +28,17 @@ sc-bulk-submit-confirm = مُون پڪ ڪريوش ڪي جملا آ لنڪ مان
 bulk-upload-success-toast = وڌاري جملا اپلوڊ ڪروون
 bulk-upload-failed-toast = اپلوڊ نٿي ٿاتي، مهرباني ٿي وري ڪوشش ڪرو
 bulk-submission-success-header = وڌاري جملا جمع ڪريا نِي مدد ڪريا هارو ڌنيواۮ
+bulk-submission-success-subheader = امارا مقصد هوڌي پوتيا هارو تمين عام آواز مان مدد ڪرو را سو۔
+upload-more-btn-text = وڌاري جملا اپلوڊ ڪرو؟
+file-invalid-type = نا قابل فائيل
+file-too-large = فائيل الاهي موٽي سي
+file-too-small = فائيل الاهي ناني سي
+too-many-files = فائيلون الاهي وڌاري سي
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = مختلف عوام هارو جملا جمع ڪرو
 
 ## MENU ITEM TOOLTIPS
 
