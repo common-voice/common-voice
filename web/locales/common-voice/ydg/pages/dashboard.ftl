@@ -26,6 +26,13 @@ create-custom-goal = دے خوئے مرضی ہدف واست
 goal-type = تو دے څس قسم ہدف اوستایا کوسیتے؟
 both-speak-and-listen = اَبیلئی
 both-speak-and-listen-long = ڤے ابیلیف (ݱا اڤن غولار)
+daily-goal = ہر میشنانے ہدف
+weekly-goal = ہفتوّار ہدف
+easy-difficulty = وارس/آسان
+average-difficulty = اوسط
+difficult-difficulty = مشکل/ گران
+pro-difficulty = حامی
+lose-goal-progress-warning = ڤے خوئے ہدف کہ بدل کڑیت، تو ہورغ گیب ام ای۔
 
 ## Goals
 
