@@ -125,6 +125,7 @@ about-playbook-how-grow-language-content-8 = </strong>تخيلقِي هُو!<str
 
 about-playbook-how-validate = مُنُون ڪِيُون خبر پڙَي تہ وائِيس ڪِلپا نُون منظُور ڪلَي جا؟
 about-playbook-how-validate-content-1 = جي تمهِين <strong>اُونهان نُون سُڻا ڇوا</strong> ائُون <strong>اُونهان نُون سمجھ ڇَوا</strong> هچ عام طورا پر <strong> منظُور ڪرڻ سُٺَي ڇَي<strong>
+about-playbook-how-validate-content-2 = <strong>ڪِلپان نُون رَد نہ ڪرا جِٺي ٻولڻي هاڙي چا ’تلفظ تمچي آپڪي تلفظا کن الگ هُوَي<strong>۔ اُونهچ آوازا نُون اوڙکڻي  نُون سِگڙان ڪاڻ سُٺا ڪام ڪراوڻي ڪاڻ لازمِي ڇَي۔
 
 ## How to access dataset
 
