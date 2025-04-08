@@ -39,6 +39,9 @@ submit-form-action = sɔ ɖo ɖa
 
 report = nu, na kaklan
 report-title = asɔ enyɔleɖi ɖo ɖa
+report-ask = kuxi kene hanɖewo yí midogo le nyɔgbe ceɖe ŋu o
+report-offensive-language = amemabumabugbe
+report-offensive-language-detail = amemabumabu alo ezu le nyɔgbe lɔwo me
 
 ## Speak & Listen Shortcuts
 
