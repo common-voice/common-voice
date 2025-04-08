@@ -82,6 +82,16 @@ request-language-button = yɔ gbebu
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = áhlin/ ánɔ́té
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = o
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = afɔɖeɖewo
+contribution-criteria-link = áse alɔdodofɔɖeɖewo gɔme
+contribution-criteria-page-title = alɔdodofɔɖedewo
+contribution-criteria-page-description = seme be eɖoa ɖoto enyɔlelewo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
