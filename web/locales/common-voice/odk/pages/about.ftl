@@ -124,6 +124,7 @@ about-playbook-how-grow-language-content-8 = </strong>تخيلقِي هُو!<str
 ## How to validate
 
 about-playbook-how-validate = مُنُون ڪِيُون خبر پڙَي تہ وائِيس ڪِلپا نُون منظُور ڪلَي جا؟
+about-playbook-how-validate-content-1 = جي تمهِين <strong>اُونهان نُون سُڻا ڇوا</strong> ائُون <strong>اُونهان نُون سمجھ ڇَوا</strong> هچ عام طورا پر <strong> منظُور ڪرڻ سُٺَي ڇَي<strong>
 
 ## How to access dataset
 
