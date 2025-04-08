@@ -42,6 +42,10 @@ report-title = asɔ egbeɖoɖo  ɖaɖa
 report-ask = kuxi kene hanɖewo yí midogo le nyɔgbe ceɖe ŋu o
 report-offensive-language = amemabumabugbe
 report-offensive-language-detail = amemabumabu alo ezu le nyɔgbe lɔwo me
+report-grammar-or-spelling = gbeŋutisévodawo/gbeŋɔŋlɔtisevodada
+report-grammar-or-spelling-detail = gbeŋutisévodada alo gbeŋɔŋlɔtisevodada ɖeka le nyɔgbelɔme
+report-different-language = egbebu
+report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋyitɔ me
 
 ## Speak & Listen Shortcuts
 
