@@ -31,6 +31,9 @@ misreadings-example-1 = ماخ دے کوچو نے کافی شیمدان اویم
 misreadings-example-2 = دے کوچو نے کافی شیمدان اویمتے
 misreadings-example-3 = ماخ دے کوچو نے کافی شیمدان اویمتے۔
 misreadings-example-4 = استر مڅھی کورمو ژے تو پیرو نیغوڑ۔
+background-noise-example-1 = ٹرائزیکن استر ڈائناسور۔
+background-noise-example-2 = [ګرفیا] ٹرائزیکن [خوفیا] استر ڈائناسور
+background-noise-example-3 = استر دنو ٹرائزیک[خیفتا/خوفیا]
 
 ## Sentence collection nav ids
 
