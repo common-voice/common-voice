@@ -10,6 +10,8 @@ platform-language-tooltip-text = رُوڳو ويب سائيٽ نا متن نين
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڍيٽا سيٽ مان حِصو ليوون
+# Label for button on contribution switcher
+change = تبديل ڪرو
 
 ## Navbar
 
