@@ -115,3 +115,5 @@ contribution-misreadings-example-6-explanation = eɖoanyí kakandejitɔe
 contribution-misreadings-example-7-title = kakɖejitɔ lɔ, á nyá kpɔ́kpɔ́ le hunu
 contribution-misreadings-example-7-explanation = «y» de le nyɔɖoanyilɔtɔ me o
 contribution-misreadings-example-8-title = enuzozroɔ só
+contribution-misreadings-example-8-explanation = egbeɖoɖo manɔme
+contribution-varying-pronunciations-title = yɔyɔ vovowo
