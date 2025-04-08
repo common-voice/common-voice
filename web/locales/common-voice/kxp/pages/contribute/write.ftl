@@ -10,6 +10,18 @@ small-batch-sentence-input-placeholder = عوامِي جملا آنئين راک
 citation-input-placeholder = تمارا جملا نا ذريعا زي کپي سي اين نو حوالو آلو
 citation =
     .label = حوالو آلوو
+sc-write-submit-confirm =
+    منين پڪ سي ڪي آ جملو عوام نو سي <wikipediaLink>
+    هانَ منين اجازت سي ڪي مُون اپلوڊ ڪريوش </wikipediaLink>
+sc-review-write-title = مُون چيوا جملا اپلوڊ ڪريوش
+sc-review-small-batch-title = مختلف جُملا چچم اپلوڊ ڪريوش
+new-sentence-rule-1 = ڪاپي رائيٽ نا <noCopyright  </noCopyright>  پابندي  (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = گھٽ مان گھٽ ايڪ جُملا مان 15 لفظ
+new-sentence-rule-3 = سهي گرامر استعمال ڪرو
+new-sentence-rule-4 = سهي هجي هانَ زير زبر سهي هوئي
+new-sentence-rule-5 = نمبر هانَ خاص نشاني نا هوئي
+new-sentence-rule-6 = غير ملڪي لفظ نا هوئي
+new-sentence-rule-7 = مناسب حوالو هوئي
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
